@@ -1,29 +1,30 @@
-﻿---
-title: beyanname
+---
+title: Bildiri
 type: docs
 weight: 30
 url: /tr/net/declaration/
 ---
+
 {{% alert color="primary" %}} 
 
-Genel olarak, tüm Aspose .NET bileşenleri, Tam Güven izinlerinin ayarlanmasını gerektirir. Bunun nedeni, Aspose for .NET bileşenlerinin, yazı tiplerini ayrıştırma vb. belirli işlemler için sanal dizin dışındaki sistem dosyalarına ve kayıt defteri ayarlarına erişmesi gerekmesidir. Ayrıca, Aspose for .NET bileşenleri (Aspose.Cells for .NET dahil), Tam Güven izinleri de gerektiren çekirdek .NET sistem sınıflarını temel alır. birçok durumda ayarlayın.
+Genellikle, tüm Aspose .NET bileşenleri Tam Güven izinlerinin ayarlanmasını gerektirir. Sebep, Aspose for .NET bileşenlerinin kayıt defteri ayarlarına, parsing fontlar vb. gibi belirli işlemler için sanal dizin dışında sistem dosyalarına erişim gerektirmesidir. Ayrıca, Aspose for .NET bileşenleri (Aspose.Cells for .NET dahil olmak üzere) çoğu durumda Tam Güven izinlerinin ayarlanmasına ihtiyaç duyan çekirdek .NET sistem sınıflarına dayanmaktadır.
 
 {{% /alert %}} 
 ## **Kısmi Güven / Orta Güven Zorluğu**
-Farklı şirketlerden birden çok uygulamayı barındıran İnternet Servis Sağlayıcıları, çoğunlukla bir Orta Güven güvenlik düzeyi uygular. Ayrıca, bazen bir ISP veya diğer senaryolarda olduğu gibi paylaşılan bir sunucuda birden çok uygulamayı barındırmanız gerekir, uygulamaları sınırlamak için Orta güven düzeyini kullanmanız gerekir. ASP.NET Orta güven düzeyi, ISP sunucularında barındırılan birden çok uygulamayı izole etmeye uygun, kısıtlı bir yürütme ortamı sağlar. .NET 2.0 durumunda, böyle bir güvenlik seviyesi, Aspose.Cells for .NET'in düzgün çalışmasını etkileyebilecek aşağıdaki kısıtlamaları belirleyebilir, örneğin:
+Çoğunlukla farklı şirketlerden gelen birden fazla uygulamayı barındıran İnternet Servis Sağlayıcıları genellikle Orta Güvenlik düzeyini zorunlu kılar. Ayrıca, bazen paylaşılan bir sunucuda birden fazla uygulamayı barındırmak zorunda kalabilirsiniz, bu durumda ISP sunucularında barındırılan birden fazla uygulamayı izole etmek için Orta güvenlik düzeyini kullanmanız gerekebilir. ASP.NET Orta güvenlik seviyesi, ISP sunucularında barındırılan birden fazla uygulamayı izole etmek için uygun bir kısıtlı çalışma ortamı sağlar. .NET 2.0'da bir güvenlik seviyesi, Aspose.Cells for .NET’nin doğru bir şekilde çalışmasını etkileyebilecek aşağıdaki kısıtlamaları sağlayabilir:
 
-- **RegistryPermission kullanılamıyor**. Bu, elektronik tabloları veya diğer belgeleri işlerken yüklü yazı tiplerini numaralandırmak için gerekli olan kayıt defterine erişemeyeceğiniz anlamına gelir.
-- **FileIOPermission kısıtlandı**Bu, yalnızca uygulamanızın sanal dizin hiyerarşisindeki dosyalara erişebileceğiniz anlamına gelir. Bu potansiyel olarak yazı tiplerinin dışa aktarma sırasında okunamayacağı anlamına gelir.
-## **Orta Güven İzin Setinde Aspose.Cells for .NET kullanın**
-Aspose.Cells for .NET'i Medium Trust düzeyinde veya paylaşılan sunucu ortamında çalıştırmak için bazı önerileri uygulayabilirsiniz:
+- **RegistryPermission kullanılamıyor**. Bu, fontları sıralamak için kayıt defterine erişemeyeceğiniz anlamına gelir.
+- **FileIOPermission kısıtlıdır**. Bu, yalnızca uygulamanın sanal dizin hiyerarşisindeki dosyalara erişebileceğiniz anlamına gelir. Bu potansiyel olarak dışa aktarma sırasında fontların okunmasını engelleyebilir.
+## **Aspose.Cells for .NET'yi Orta Güvenlik İzin Setinde Kullanın**
+Aspose.Cells for .NET'yi Orta Güvenlik seviyesinde veya paylaşılan sunucu ortamında çalıştırmak için bazı önerilere uyabilirsiniz:
 
-- Lisans dosyasını kodunuzda ayarlamak için, lisans dosyasını akışlara aldıktan sonra bunun yerine License.SetLicense(Stream) yöntemini çağırmanız daha iyi olur.
-- Yazı tiplerinin dizini (izinle erişilebilen) ayarlanmalıdır. Sunucudaki dosyaya erişmenin bir yolu yoksa, lütfen uygulamanıza gerekli yazı tipi dosyalarını ekleyin.
-- Kısmi güven modunda, Şekilden EMF'e dönüştürme desteklenmez, bu nedenle dışa aktarılan görüntü türünü (şekiller için) başka bir görüntü formatına ayarlayın.
+- Lisans dosyasını kodunuzda ayarlamak için, lisans dosyasını akışlara alıp ardından License.SetLicense(Stream) yöntemini çağırmanız daha iyidir.
+- İzinle erişilebilecek fontlar dizini belirtilmelidir. Sunucuda dosyaya erişmenin bir yolu yoksa, gereken font dosyalarını uygulamanıza ekleyin.
+- Kısmi güvenlik modunda, Şekil-EMF dönüşümü desteklenmez, bu nedenle (şekiller için) dışa aktarılan görüntü tipini başka bir görüntü formatına ayarlayın.
 
-Orta Güven modunda Aspose.Cells for .NET'in nasıl kullanılacağını/çalıştırılacağını gösteren aşağıdaki örneğe bakın.
+Aspose.Cells for .NET'yi Orta Güvenlik Modunda Nasıl Kullanacağınızı Gösteren Aşağıdaki Örneğe Bakın
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate the License object
 

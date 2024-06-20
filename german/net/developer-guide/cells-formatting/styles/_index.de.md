@@ -1,45 +1,46 @@
 ---
-title: Stil für Zellen abrufen und festlegen
-description: Erfahren Sie in Aspose.Cells for .NET, wie Sie Daten formatieren und formatieren, einschließlich Textformatierung, Zahlenformatierung, Datumsformatierung und anderen Styling-Optionen. Unser Leitfaden hilft Ihnen bei der Erstellung professionell aussehender Tabellenkalkulationen mit attraktiver Formatierung.
-keywords: Aspose.Cells for .NET, data formatting, styling, text formatting, number formatting, date formatting, styling options, spreadsheets, attractive formatting, professional-looking.
+title: Holen und Setzen von Stil für Zellen
+description: Entdecken Sie, wie Sie die Datenformatierung und das Styling in Aspose.Cells for .NET durchführen können, einschließlich Textformatierung, Zahlenformatierung, Datumsformatierung und anderen Styling Optionen. Unser Leitfaden wird Ihnen helfen, professionell aussehende Tabellen mit attraktiver Formatierung zu erstellen.
+keywords: Aspose.Cells for .NET, Datenformatierung, Styling, Textformatierung, Zahlenformatierung, Datumsformatierung, Styling Optionen, Tabellen, attraktive Formatierung, professionell aussehend.
 linktitle: Stile
 type: docs
 weight: 50
 url: /de/net/styling-and-data-formatting/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for .NET 4.4.2 führte zwei neue Methoden zum Formatieren von Zellen ein: Cell.GetStyle und Cell.SetStyle. In diesem Artikel wird der Cell.GetStyle/SetStyle-Ansatz untersucht, um Ihnen bei der Beurteilung zu helfen, welche Technik am besten zu Ihnen passt.
+Aspose.Cells for .NET 4.4.2 führte zwei neue Methoden zur Formatierung von Zellen ein: Cell.GetStyle und Cell.SetStyle. Dieser Artikel untersucht den Ansatz Cell.GetStyle/SetStyle, um Ihnen bei der Beurteilung zu helfen, welche Technik am besten zu Ihnen passt.
 
 {{% /alert %}} 
-##  **Formatierung Cells**
+## **Formatierung von Zellen**
 Es gibt zwei Möglichkeiten, eine Zelle zu formatieren, wie unten dargestellt.
-###  **Verwenden von GetStyle()**
-Mit dem folgenden Codeteil wird beim Formatieren für jede Zelle ein Style-Objekt initiiert. Wenn sehr viele Zellen formatiert werden, wird viel Speicher verbraucht, da das Style-Objekt ein großes Objekt ist. Diese Style-Objekte werden erst freigegeben, wenn die Workbook.Save-Methode aufgerufen wird.
+### **Mit GetStyle() verwenden**
+Mit dem folgenden Code wird ein Style-Objekt für jede Zelle initiiert, wenn sie formatiert wird. Wenn viele Zellen formatiert werden, wird eine große Menge an Speicher verbraucht, da das Style-Objekt ein großes Objekt ist. Diese Style-Objekte werden erst freigegeben, wenn die Workbook.Save-Methode aufgerufen wird.
 
 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 cell.GetStyle().Font.IsBold = true;
 
 
 
 {{< /highlight >}}
-###  **Verwenden von SetStyle()**
-Der erste Ansatz ist einfach und unkompliziert. Warum haben wir also den zweiten Ansatz hinzugefügt?
+### **Mit SetStyle() verwenden**
+Der erste Ansatz ist einfach und unkompliziert, warum haben wir also den zweiten Ansatz hinzugefügt?
 
-Wir haben den zweiten Ansatz hinzugefügt, um die Speichernutzung zu optimieren. Nachdem Sie mit der Methode Cell.GetStyle ein Style-Objekt abgerufen haben, ändern Sie es und setzen Sie es mit der Methode Cell.SetStyle wieder auf diese Zelle zurück. Dieses Style-Objekt wird nicht beibehalten und von GC erfasst, wenn nicht darauf verwiesen wird.
+Wir haben den zweiten Ansatz hinzugefügt, um den Speicherverbrauch zu optimieren. Nach Verwendung der Cell.GetStyle-Methode zum Abrufen eines Style-Objekts, ändern Sie es und verwenden Sie die Cell.SetStyle-Methode, um es wieder auf diese Zelle zu setzen. Dieses Style-Objekt wird nicht erhalten und .NET GC sammelt es ein, wenn es nicht referenziert wird.
 
-Beim Aufruf der Methode Cell.SetStyle wird das Style-Objekt nicht für jede Zelle gespeichert. Stattdessen vergleichen wir dieses Style-Objekt mit einem internen Style-Objektpool, um zu sehen, ob es wiederverwendet werden kann. Für jedes Workbook-Objekt werden nur Style-Objekte beibehalten, die sich von den vorhandenen unterscheiden. Das bedeutet, dass es für jede Excel-Datei nur mehrere Hundert statt Tausender Style-Objekte gibt. Für jede Zelle bleibt nur ein Index zum Style-Objektpool erhalten.
+Beim Aufrufen der Cell.SetStyle-Methode wird das Style-Objekt nicht für jede Zelle gespeichert. Stattdessen vergleichen wir dieses Style-Objekt mit einem internen Style-Objektpool, um festzustellen, ob es wiederverwendet werden kann. Nur Style-Objekte, die sich von den vorhandenen unterscheiden, werden für jedes Workbook-Objekt behalten. Dies bedeutet, dass es für jede Excel-Datei nur einige hundert Style-Objekte gibt, anstelle von Tausenden. Für jede Zelle wird nur ein Index zum Style-Objektpool erhalten.
 
 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 Style style = cell.GetStyle();
 
@@ -48,10 +49,10 @@ style.Font.IsBold = true;
 cell.SetStyle(style);
 {{< /highlight >}}
 
-##  **Vorabthemen**
-- [Erstellen Sie ein Style-Objekt mit der CellsFactory-Klasse](/cells/de/net/create-style-object-using-cellsfactory-class/)
-- [Ändern Sie einen vorhandenen Stil](/cells/de/net/modify-an-existing-style/)
-- [Stilobjekte wiederverwenden](/cells/de/net/reusing-style-objects/)
-- [Verwenden integrierter Stile](/cells/de/net/using-built-in-styles/)
+## **Erweiterte Themen**
+- [Erstellen Sie Style-Objekt mit der Klasse CellsFactory](/cells/de/net/create-style-object-using-cellsfactory-class/)
+- [Ändern eines bestehenden Stils](/cells/de/net/modify-an-existing-style/)
+- [Wiederverwendung von Stil-Objekten](/cells/de/net/reusing-style-objects/)
+- [Verwenden von eingebauten Stilen](/cells/de/net/using-built-in-styles/)
 
 

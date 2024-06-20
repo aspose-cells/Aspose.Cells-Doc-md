@@ -1,13 +1,14 @@
-﻿---
+---
 title: Créer une nouvelle feuille de calcul
 type: docs
 weight: 50
 url: /fr/net/create-new-worksheet/
 ---
+
 ## **Aspose.Cells - Créer une nouvelle feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -25,10 +26,10 @@ workbook.Save("newWorksheet.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Créer une nouvelle feuille de travail**
+## **NPOI - HSSF XSSF - Créer une nouvelle feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -74,13 +75,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Créer une nouvelle feuille de calcul** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Télécharger le formulaire **Créer une nouvelle feuille de calcul** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Create.New.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Travailler avec des feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

@@ -1,23 +1,25 @@
 ---
-title: GridWeb için LoadOptions
+title: GridWeb için Yükleme Seçenekleri
 type: docs
 weight: 90
-url: /tr/net/aspose-cells-gridweb/loadoptions/
-keywords: loadoption,loadoptions,setting,
+url: /tr/net/aspose-cells-gridweb/aspose-cells-gridweb/loadoptions/
+keywords: yükleme seçeneği, yükleme seçenekleri, ayar, yükle, seçenekler, seçenek
+description: Bu makale, GridWeb de yükleme seçenekleriyle nasıl çalışılacağını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Dosyayı içe aktarmadan önce ayarlayabileceğimiz bazı yükleme seçenekleri vardır.
+Dosyayı içe aktarmadan önce ayarlayabileceğimiz bazı yükleme seçenekleri bulunmaktadır.
 
- kullanabiliriz[GridLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridloadoptions/)(genel dosya için) ve[GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridtxtloadoptions/) (csv dosyası için)
- 
+[GridLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridloadoptions/) (genel dosya için) ve [GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridtxtloadoptions/) (csv dosyası için) kullanabiliriz	
+
 {{% /alert %}} 
-##  ** diğer kodlama ile yükle**
-CSV dosyası için, xlsx biçim dosyasında açıklanan özel kodlama olmadan, aslında metin tabanlı bir dosyadır.
+## **Diğer kodla yükle**
+CSV dosyası için, aslında xlsx format dosyasında tanımlanan belirli kodlamaya sahip olmayan bir metin tabanlı dosyadır.
 
-Bu nedenle, kullanıcılar dosyayı yüklemeden önce belirli karakter kodlaması ayarlayabilir.
+Bu nedenle, kullanıcılar dosyayı yüklemeden önce belirli karakter kodlamasını ayarlayabilirler.
 
-Çince ile yüklemek için örnek bir kod:
+İşte çince ile yüklemek için örnek kod:
 
 ```csharp
     GridTxtLoadOptions topt = new GridTxtLoadOptions();

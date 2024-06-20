@@ -1,4 +1,4 @@
-﻿---
+---
 title: Grafikler
 type: docs
 weight: 75

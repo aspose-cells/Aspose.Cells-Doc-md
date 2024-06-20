@@ -1,16 +1,19 @@
-﻿---
-title: Lägger till Cell Skydd i kalkylblad
+---
+title: Lägg till skydd i kalkylarket
 type: docs
 weight: 130
-url: /sv/net/adding-cell-protection-in-worksheet/
+url: /sv/net/aspose-cells-griddesktop/adding-cell-protection-in-worksheet/
+keywords: GridDesktop, skydda
+description: Den här artikeln introducerar hur man skyddar celler i kalkylarket i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells för GridDesktop låter dig skydda dina celler i ett kalkylblad. Du måste först skydda ditt kalkylblad, sedan kan du skydda dina önskade celler i ett kalkylblad. För att skydda arbetsbladet, vänligen ställ in**Arbetsblad. Skyddad** egenskap till sant, använd sedan**Worksheet.SetProtected()** metod för att skydda cellområdet.
+Aspose.Cells för GridDesktop låter dig skydda celler i ett kalkylark. Först måste du skydda ditt kalkylblad, sedan kan du skydda dina önskade celler i kalkylarket. För att skydda kalkylarket, ange **Worksheet.Protected**-egenskapen till true, använd sedan **Worksheet.SetProtected()**-metoden för att skydda cellområdet.
 
 {{% /alert %}} 
-## **Skydda Cell med Aspose.Cells.GridDesktop**
- Följande exempelkod skyddar alla celler inom området**A1:B1** av det aktiva kalkylbladet för GridDesktop. När du dubbelklickar på valfri cell i det här intervallet kommer du inte att kunna redigera. Det kommer att göra dessa celler skrivskyddade.
+## **Skydda cell med Aspose.Cells.GridDesktop**
+Följande exempelkod skyddar alla celler inom området **A1:B1** i det aktiva kalkylarket i GridDesktop. När du dubbelklickar på någon cell inom detta område kommer du inte att kunna redigera. Det kommer att göra dessa celler skrivskyddade.
 
 
 

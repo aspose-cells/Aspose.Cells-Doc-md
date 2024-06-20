@@ -1,15 +1,16 @@
-﻿---
+---
 title: Skydda arbetsblad i Php
 type: docs
 weight: 10
 url: /sv/java/protecting-worksheets-in-php/
 ---
-## **Aspose.Cells - Skydda arbetsblad**
- För att skydda kalkylblad med hjälp av**Aspose.Cells Java for PHP** , ringa upp**protect_worksheet** metod av**skydd** modul.
+
+## **Aspose.Cells - Skydd av kalkylblad**
+För att skydda arbetsblad med **Aspose.Cells Java for PHP**, anropa **protect_worksheet**-metoden i **protection**-modulen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -40,7 +41,7 @@ $protection->setPassword("1234");
 $excel->save($dataDir . "output.xls");  
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Skyddande arbetsblad (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Skydda kalkylblad (Aspose.Cells)** från någon av nedan nämnda sociala kodbaser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/ProtectingWorksheet.php)

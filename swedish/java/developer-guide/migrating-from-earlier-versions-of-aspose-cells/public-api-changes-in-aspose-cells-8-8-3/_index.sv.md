@@ -1,17 +1,18 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.8.3
+---
+title: Offentliga API ändringar i Aspose.Cells 8.8.3
 type: docs
 weight: 300
 url: /sv/java/public-api-changes-in-aspose-cells-8-8-3/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.8.2 till 8.8.3 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringarna av Aspose.Cells API från version 8.8.2 till 8.8.3 som kan vara av intresse för modul/apputvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
+## **Tillagda API:er**
 ### **Stöd för ActiveX-kontroller**
-Aspose.Cells for Java 8.8.3 har avslöjat metoden addActiveXControl som gör det möjligt att lägga till en ActiveX-kontroll till ShapeCollection. Den ovannämnda metoden kräver 7 parametrar för att specificera kontrolltyp, plats för att placera kontroll och storlek på kontroll. Typen kan specificeras med hjälp av ControlType-uppräkningen med följande möjliga värden.
+Aspose.Cells for Java 8.8.3 har exponerat addActiveXControl-metoden som tillåter att lägga till en ActiveX-kontroll till ShapeCollection. Den angivna metoden kräver 7 parametrar för att ange kontrolltypen, platsen för att placera kontrollen och storleken på kontrollen. Typen kan specifieras med användning av ControlType-ramverket med följande möjliga värden.
 
 1. ControlType.CHECK_BOX
 1. ControlType.COMBO_BOX
@@ -24,19 +25,19 @@ Aspose.Cells for Java 8.8.3 har avslöjat metoden addActiveXControl som gör det
 1. ControlType.SPIN_BUTTON
 1. ControlType.TEXT_BOX
 1. ControlType.TOGGLE_BUTTON
-1. ControlType.OKÄNDA
+1. ControlType.UNKNOWN
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Lägga till ActiveX-kontroller i arbetsbladet](/cells/sv/java/add-activex-controls-using-aspose-cells/).
+För mer information om denna funktion, vänligen granska den detaljerade artikeln om [Lägga till ActiveX-kontroller till kalkylbladet](/cells/sv/java/add-activex-controls-using-aspose-cells/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -61,20 +62,20 @@ control.setLinkedCell("A1");
 book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **Lade till LoadOptions.setPaperSize Method**
-Aspose.Cells for Java 8.8.3 gör det möjligt att ställa in standardstorleken för utskriftspapper från standardskrivarens inställning medan du använder den nyligen exponerade metoden LoadOptions.setPaperSize som visas nedan. Observera att indataparametern för ovannämnda metod är värdet från uppräkningen PaperSizeType som innehåller de fördefinierade pappersstorlekarna.
+### **Lade till LoadOptions.setPaperSize Metoden**
+Aspose.Cells for Java 8.8.3 tillåter att ställa in standard utskriftspapperstorleken från standard skrivarens inställning medan man använder den nyligen exponerade LoadOptions.setPaperSize metoden som demonstreras nedan. Observera att inmatningsparametern till den angivna metoden är värdet från PaperSizeType-ramverket som innehåller fördefinierade papperstorlekar.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Ladda kalkylblad med specificerad pappersstorlek](/cells/sv/java/load-workbook-with-specified-printer-paper-size/).
+För mer information om denna funktion, vänligen granska den detaljerade artikeln om [Ladda kalkylblad med specifierad papperstorlek](/cells/sv/java/load-workbook-with-specified-printer-paper-size/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions
 
@@ -89,12 +90,12 @@ loadOptions.setPaperSize(PaperSizeType.PAPER_A_4);
 Workbook book = new Workbook(dir + "input.xlsx", loadOptions);
 
 {{< /highlight >}}
-### **Lade till metoden Cell.getCharacters(flagga).**
-Aspose.Cells API:er gör det möjligt att hämta teckenobjekten i form av FontSetting-arrayen genom att använda metoden Cell.getCharacters. Med den här versionen har Aspose.Cells for Java API avslöjat en överbelastad version av Cell.getCharacters som kan acceptera Boolean som parameter, vilket indikerar om tabellstilen måste tillämpas på cellen om cellen är en del av ett ListObject.
+### **Lade till Cell.getCharacters(flag) Metoden**
+Aspose.Cells API:erna tillåter att få teckenobjekt i form av FontSetting-array genom att använda Cell.getCharacters-metoden. Med denna version har Aspose.Cells for Java API:et exponerat en överbelastad version av Cell.getCharacters som kan acceptera Boolean som parameter, vilket anger om tabellstilen måste tillämpas på cellen om cellen är en del av en ListObject.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -116,23 +117,23 @@ Cell cell = cells.get("A1");
 
 //Get all Characters objects from the cell
 
-FontSetting[]characters = cell.getCharacters(true);
+FontSetting[] characters = cell.getCharacters(true);
 
 {{< /highlight >}}
-### **Lade till egenskapen OleObject.AutoLoad**
-Aspose.Cells for Java 8.8.3 har exponerat egenskapen OleObject.AutoLoad som gör det möjligt att uppdatera OleObjects bild om innehållet/data för det underliggande objektet har ändrats. Den tidigare nämnda egenskapen när den är satt till true tvingar Excel-applikationen att uppdatera OleObjects bild när det resulterande kalkylbladet laddas.
+### **Lade till OleObject.AutoLoad Egenskap**
+Aspose.Cells for Java 8.8.3 har exponerat OleObject.AutoLoad egenskapen som tillåter att uppdatera OleObject's bild om innehållet/datamängden av den underliggande objektet har ändrats. Den tidigare nämnda egenskapen när den är satt till true, tvingar Excel-applikationen att uppdatera OleObject's bild när den resulterande kalkylbladet laddas.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Uppdatera OleObjects automatiskt](/cells/sv/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
+För mer detaljer om denna funktion, vänligen granska den detaljerade artikeln om [Automatiskt Uppdatera OleObjects](/cells/sv/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -155,20 +156,20 @@ OleObject oleObject = oleObjects.get(0);
 oleObject.setAutoLoad(true);
 
 {{< /highlight >}}
-### **Tillagd HTMLLoadOptions.SupportDivTag-egenskap**
-Aspose.Cells for Java 8.8.3 har avslöjat egenskapen HTMLLoadOptions.SupportDivTag som gör det möjligt att analysera DIV-taggar inbäddade i TD-taggar medan HTML-filer/snippet laddas i Aspose.Cells-objektmodellen. Boolesk typegenskap har standardvärdet false.
+### **Lade till HTMLLoadOptions.SupportDivTag Egenskap**
+Aspose.Cells for Java 8.8.3 har exponerat HTMLLoadOptions.SupportDivTag egenskapen som tillåter att tolka DIV-taggar inbäddade i TD-taggar vid inläsning av HTML-filer/snutt i Aspose.Cells objektmodellen. Boolesk typ egenskapen har standardvärdet false.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Stöd inre DIV-taggar under laddning HTML](/cells/sv/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+För mer detaljer om denna funktion, vänligen granska den detaljerade artikeln om [Stöd för Inre DIV-taggar vid inläsning av HTML](/cells/sv/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Store the HTML snippet in a variable
 
@@ -251,20 +252,20 @@ Workbook book = new Workbook(stream, loadOptions);
 book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **Tillagd HtmlSaveOptions.ExportGridLines Property**
-Aspose.Cells for Java 8.8.3 har exponerat egenskapen HtmlSaveOptions.ExportGridLines som gör det möjligt att rendera rutnätslinjerna medan kalkylblad exporteras till formatet HTML. Egenskapen av typen Boolean har standardvärdet false, men när den är inställd på true, återger API rutnätslinjerna för det tillgängliga dataintervallet i formatet HTML.
+### **Lade till HtmlSaveOptions.ExportGridLines Egenskap**
+Aspose.Cells for Java 8.8.3 har exponerat HtmlSaveOptions.ExportGridLines egenskapen som tillåter att rendera rutnätlinjer vid export av kalkylblad till HTML-format. Boolesk typ egenskapen har standardvärdet false, men när den är satt till true, renderar API:et rutnätlinjerna för den tillgängliga datamängden i HTML-format.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Gör rutnätslinjer till HTML](/cells/sv/java/export-excel-to-html-with-gridlines/).
+För mer detaljer om denna funktion, vänligen granska den detaljerade artikeln om [Rendera Rutnätlinjer till HTML](/cells/sv/java/export-excel-to-html-with-gridlines/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load existing spreadsheet
 
@@ -283,20 +284,20 @@ options.setExportGridLines(true);
 book.save(dir + "output.html", options);
 
 {{< /highlight >}}
-### **Tillagd ListObject.Comment-egenskap**
-Aspose.Cells API:er tillåter nu att hämta och ställa in kommentarerna för en instans av ListObject. För att tillhandahålla den ovannämnda funktionen har API:erna Aspose.Cells exponerat egenskapen ListObject.Comment.
+### **Lade till ListObject.Comment Egenskap**
+Aspose.Cells API:er tillåter nu att hämta och sätta kommentarer för en instans av ListObject. För att tillhandahålla den tidigare nämnda funktionen, har Aspose.Cells API:erna exponerat ListObject.Comment egenskapen.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Lägga till kommentarer för ListObjects](/cells/sv/java/set-the-comment-of-table-or-list-object/).
+För mer detaljer om denna funktion, vänligen granska den detaljerade artikeln om [Lägga till Kommentarer för ListObjects](/cells/sv/java/set-the-comment-of-table-or-list-object/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load existing spreadsheet
 
@@ -319,6 +320,6 @@ listObject.setComment("Comments");
 book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
-## **Borttagna API:er**
-### **Tog bort Workbook.decrypt-metoden**
-Nämnda egendom märktes föråldrad för en tid sedan. Den här versionen har helt tagit bort den från den offentliga API. Det rekommenderas att ställa in WorkbookSettings.Password-egenskapen på null för att uppnå samma mål.
+## **Borttagen API:er**
+### **Tog bort Workbook.decrypt Metod**
+Den angivna egenskapen markerades som föråldrad för en tid sedan. Denna version har helt tagit bort den från den offentliga API:et. Det rekommenderas att sätta WorkbookSettings.Password egenskapen till null för att uppnå samma mål.

@@ -1,22 +1,23 @@
-﻿---
+---
 title: Kopieren von Zeilen und Spalten in PHP
 type: docs
 weight: 30
 url: /de/java/copying-rows-and-columns-in-php/
 ---
-## **Aspose.Cells – Kopieren von Zeilen und Spalten**
-### **Zeilen kopieren**
-Aspose.Cells stellt die Methode copyRow der Klasse Cells bereit. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln, Werte, Kommentare, Zellformate, ausgeblendete Zellen, Bilder und andere Zeichenobjekte aus der Quellzeile in die Zielzeile.
 
-Die copyRow-Methode akzeptiert die folgenden Parameter:
+## **Aspose.Cells - Kopieren von Zeilen und Spalten**
+### **Kopieren von Zeilen**
+Aspose.Cells bietet die Methode copyRow der Klasse Cells. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln, Werte, Kommentare, Zellformate, versteckte Zellen, Bilder und andere Zeichenobjekte von der Quellzeile in die Zielzeile.
 
-- das Quellobjekt Cells,
-- den Quellzeilenindex und
-- der Zielzeilenindex.
+Die Methode copyRow erhält die folgenden Parameter:
+
+- das Quell-Cells-Objekt,
+- den Index der Quellzeile, und
+- den Index der Zielzeile.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_rows($dataDir)
 
@@ -46,17 +47,17 @@ Die copyRow-Methode akzeptiert die folgenden Parameter:
 
 {{< /highlight >}}
 ### **Spalten kopieren**
-Aspose.Cells stellt die Methode copyColumn der Klasse Cells bereit. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln – mit aktualisierten Verweisen – und Werten, Kommentaren, Zellformaten, ausgeblendeten Zellen, Bildern und anderen Zeichnungsobjekten aus der Quellspalte in die Zielspalte.
+Aspose.Cells bietet die Methode copyColumn der Klasse Cells. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln - mit aktualisierten Verweisen - und Werten, Kommentaren, Zellformate, versteckte Zellen, Bilder und andere Zeichenobjekte von der Quellspalte in die Zielspalte.
 
-Die copyColumn-Methode akzeptiert die folgenden Parameter:
+Die Methode copyColumn erhält die folgenden Parameter:
 
-- das Quellobjekt Cells,
-- Quellspaltenindex und
+- das Quell-Cells-Objekt,
+- Quellspaltenindex, und
 - der Zielspaltenindex.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_columns($dataDir)
 
@@ -124,7 +125,7 @@ Die copyColumn-Methode akzeptiert die folgenden Parameter:
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Zeilen und Spalten kopieren (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Das Kopieren von Zeilen und Spalten (Aspose.Cells) von einer der unten genannten sozialen Codierungsseiten herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

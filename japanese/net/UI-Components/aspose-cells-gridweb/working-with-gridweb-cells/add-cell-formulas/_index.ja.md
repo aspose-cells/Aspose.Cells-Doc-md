@@ -1,23 +1,26 @@
-﻿---
-title: Cell 数式を追加
+---
+title: セルに数式を追加する
 type: docs
 weight: 30
-url: /ja/net/add-cell-formulas/
+url: /ja/net/aspose-cells-gridweb/add-cell-formula/
+keywords: GridWeb,数式
+description: この記事では、GridWebでセルに数式を追加する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb が提供する最も価値のある機能は、数式または関数のサポートです。 Aspose.Cells.GridWeb には、ワークシートの数式を計算する独自の数式エンジンがあります。 Aspose.Cells.GridWeb は、組み込み関数とユーザー定義関数または数式の両方をサポートしています。このトピックでは、Aspose.Cells.GridWeb API を使用してセルに数式を追加する方法について詳しく説明します。
+Aspose.Cells.GridWebが提供する最も価値のある機能は、数式や関数のサポートです。Aspose.Cells.GridWebには、ワークシート内の数式を計算するための独自の数式エンジンがあります。Aspose.Cells.GridWebは、組み込みの関数やユーザー定義の関数または数式の両方をサポートしています。このトピックでは、Aspose.Cells.GridWeb APIを使用してセルに数式を追加する方法について詳しく説明します。
 
 {{% /alert %}} 
-## **数式を Cells に追加する**
-### **数式を追加して計算する方法は?**
-セルの Formula プロパティを使用して、セル内の数式を追加、アクセス、および変更することができます。 Aspose.Cells.GridWeb は、単純なものから複雑なものまで、ユーザー定義の数式をサポートしています。ただし、多数の組み込み関数または数式 (Microsoft Excel に類似) も Aspose.Cells.GridWeb で提供されます。組み込み関数の完全なリストを表示するには、これを参照してください。[サポートされている関数のリスト。](/cells/ja/net/list-of-supported-functions/)
+## **セルに数式を追加し、アクセスしたり変更したりすることができます。セルのFormulaプロパティを使用して、Aspose.Cells.GridWebはシンプルから複雑なユーザー定義の数式をサポートしています。ただし、Aspose.Cells.GridWebには多くの組み込み関数や数式（Microsoft Excelと同様）が提供されています。組み込みの関数の完全なリストについては、[サポートされる関数のリスト](/cells/ja/net/aspose-cells-gridweb/list-of-supported-functions/)を参照してください。**
+### **数式の追加と計算方法**
+Aspose.Cells.GridWebでは、セルのFormulaプロパティを使用してセルに数式を追加、アクセス、および変更することができます。Aspose.Cells.GridWebは、簡単なものから複雑なものまで、ユーザー定義の数式をサポートしています。ただし、Aspose.Cells.GridWebには多くの組み込み関数や数式（Microsoft Excelに類似）も提供されています。組み込み関数の完全なリストについては、この[サポートされている関数のリスト](/cells/ja/net/aspose-cells-gridweb/list-of-supported-functions/)を参照してください。
 
 {{% alert color="primary" %}} 
 
-式の構文は、Microsoft Excel 構文と互換性がある必要があります。たとえば、すべての式は等号 (=) で始まる必要があります。
+数式の構文は、Microsoft Excelの構文と互換性がある必要があります。たとえば、すべての数式は等号（=）で始まらなければなりません。
 
-式を動的に追加するには、**=** 記号を使用しなくても Aspose.Cells.GridWeb はそれを式として認識しますが、エンド ユーザーが GUI で作業している場合は、「=」記号を使用する必要があります。
+動的に数式を追加する場合、Aspose.Cells.GridWebは、**=**記号を使用しなくても数式として認識します。ただし、GUIで作業するエンドユーザーが使用する場合は、"="記号を使用する必要があります。
 
 {{% /alert %}} 
 
@@ -25,11 +28,11 @@ Aspose.Cells.GridWeb が提供する最も価値のある機能は、数式ま�
 
 
 
-**数式が B3 セルに追加されましたが、GridWeb によって計算されませんでした** 
+**B3セルに追加された数式をGridWebによって計算されていません** 
 
-![todo:画像_代替_文章](add-cell-formulas_1.png)
+![todo:image_alt_text](add-cell-formulas_1.png)
 
-上のスクリーンショットでは、式が B3 に追加されていますが、まだ計算されていないことがわかります。すべての数式を計算するには、以下に示すようにワークシートに数式を追加した後、GridWeb コントロールの GridWorksheetCollection の CalculateFormula メソッドを呼び出します。
+上のスクリーンショットに示されているように、数式がB3に追加されていますが、まだ計算されていません。すべての数式を計算するには、ワークシートに数式を追加した後、GridWebコントロールのGridWorksheetCollectionのCalculateFormulaメソッドを呼び出します。
 
 
 
@@ -37,23 +40,23 @@ Aspose.Cells.GridWeb が提供する最も価値のある機能は、数式ま�
 
 {{% alert color="primary" %}} 
 
-をクリックして数式を計算することもできます。**送信**.
+ユーザーは**送信**をクリックして数式を計算することもできます。
 
-**GridWebのSubmitボタンをクリック** 
+**GridWebの送信ボタンをクリック** 
 
-![todo:画像_代替_文章](add-cell-formulas_2.png)
+![todo:image_alt_text](add-cell-formulas_2.png)
 
-**重要** ユーザーが**セーブ**また**元に戻す**ボタン、またはシート タブ、すべての式は GridWeb によって自動的に計算されます。
+**重要**: ユーザーが**保存**ボタン、**元に戻す**ボタン、またはシートタブをクリックすると、すべての数式が自動的にGridWebによって計算されます。
 
-**計算後の数式結果** 
+**計算後の数式の結果** 
 
-![todo:画像_代替_文章](add-cell-formulas_3.png)
+![todo:image_alt_text](add-cell-formulas_3.png)
 
 {{% /alert %}} 
-### **他のワークシートから Cells を参照する**
-Aspose.Cells.GridWeb を使用すると、異なるワークシートに保存されている値を数式で参照して、複雑な数式を作成できます。
+### **他のワークシートからセルを参照する**
+Aspose.Cells.GridWebを使用すると、異なるワークシートに格納されている値をその数式で参照して、複雑な数式を作成することが可能です。
 
-別のワークシートからセル値を参照するための構文は、SheetName!CellName です。
+異なるワークシートからセルの値を参照する構文はSheetName!CellNameです。
 
 
 

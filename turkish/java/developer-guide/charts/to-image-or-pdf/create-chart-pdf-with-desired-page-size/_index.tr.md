@@ -1,13 +1,14 @@
-﻿---
-title: İstenilen Sayfa Boyutuyla Grafik PDF Oluşturun
+---
+title: Dorulanmış Sayfa Boyutu İle Grafik PDF Oluşturma
 type: docs
 weight: 100
 url: /tr/java/create-chart-pdf-with-desired-page-size/
 ---
-## **Olası Kullanım Senaryoları**
-Aspose.Cells'i kullanarak istediğiniz sayfa boyutunda bir grafik PDF oluşturabilir ve grafiği sayfa içinde nasıl hizalamak istediğinizi belirtebilirsiniz. Grafiği yukarı, aşağı, ortaya, sola, sağa vb. hizalayabilirsiniz. Ayrıca çıktı grafiği bir akışta veya diskte oluşturulabilir.
-## **İstenilen Sayfa Boyutuyla Grafik PDF Oluşturun**
-Lütfen yükleyen aşağıdaki örnek koda bakın.[örnek excel dosyası](64716912.xlsx), çalışma sayfasının içindeki ilk grafiğe erişir ve ardından onu şuna dönüştürür:[çıkış PDF](64716911.pdf)İstenilen sayfa boyutu ile Aşağıdaki ekran görüntüsü, PDF çıktısındaki sayfa boyutunun kodun içinde belirtildiği gibi 7x7 olduğunu ve grafiğin hem yatay hem de dikey olarak ortaya hizalandığını göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](create-chart-pdf-with-desired-page-size_1.png)
-## **Basit kod**
+## **Olası Kullanım Senaryoları**
+Aspose.Cells kullanarak, belirli bir sayfa boyutuyla bir grafik PDF oluşturabilir ve grafiği sayfa içinde nasıl hizalamak istediğinizi belirtebilirsiniz. Grafik, üst, alt, merkez, sol, sağ vb. gibi sayfa içinde hizalanabilir. Ayrıca, çıktı grafik akışta veya diskte oluşturulabilir.
+## **İstenen Sayfa Boyutunda Grafik PDF Oluşturma**
+Lütfen [örnek Excel dosyasını](64716912.xlsx) yükleyen, çalışma sayfası içindeki ilk grafiğe erişen ve ardından belirtilen sayfa boyutu içindeki [çıktı PDF'sini](64716911.pdf) dönüştüren aşağıdaki örnek kodu inceleyiniz. Aşağıdaki ekran görüntüsü, çıktı PDF'deki sayfa boyutunun kod içinde belirtildiği gibi 7x7 olduğunu ve grafiğin hem yatay hem dikey olarak merkeze hizalandığını gösterir. 
+
+![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
+## **Örnek Kod**

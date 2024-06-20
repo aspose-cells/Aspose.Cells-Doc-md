@@ -1,73 +1,76 @@
-﻿---
+---
 title: Hiyerarşik Görünüm Sayfası Oluşturma
 type: docs
 weight: 30
-url: /tr/net/creating-hierarchical-view-sheet/
+url: /tr/net/aspose-cells-gridweb/create-hierarchical-view-sheet/
+keywords: GridWeb,hiyerarşik
+description: Bu makale, GridWeb de hiyerarşik görünüm oluşturmayı tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
- Veri bağlama, güçlü ve kullanıcı dostu bir GridWeb özelliğidir. Veritabanı tablolarında depolanan veriler bir DataSet'e getirilir ve verilerle doldurulur
+Veri bağlama güçlü ve kullanıcı dostu bir GridWeb özelliğidir. Veritabanı tablolarında depolanan veriler bir DataSet'e getirilir ve verilerle doldurulur 
 
- veri tablolarını temsil eder. Veri bağlama özelliğini kullanarak, birbirine bağlı verilerin hiyerarşik bir görünümünü (ana-alt görünüm) oluşturabilirsiniz ve
+veri tablolarını temsil eder. Veri bağlama özelliği kullanılarak, ilişkilendirilmiş verilerin hiyerarşik bir görünümünü (ana-çocuk görünümü) oluşturabilir ve 
 
- daha zarif hale getirmek için kontrolde görüntüleyin.
+onları daha zarif hale getirmek için kontrolde görüntüleyebilirsiniz. 
 
- Bu konu, hiyerarşik bir görünüm sayfası oluşturmayı tartışır. Sayfadaki bazı satırlar alt görünümlere sahiptir. Kullanıcı satırı tıkladığında**Genişletmek**
+Bu konu hiyerarşik görünüm sayfası oluşturmayı tartışmaktadır. Sayfanın bazı satırlarının alt özelliği vardır. Bir kullanıcı satırın **Genişlet**
 
- buton{{< emoticons/cross >}} , o satırın alt görünüm tablosu aşağı doğru genişletilir. Bu özellik, hiyerarşik bir görünüm raporu oluşturmak için çok faydalıdır.
+button {{< emoticons/cross >}}, the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report. 
 
-**Hiyerarşik görünüme sahip bir tablo** 
+**Hiyerarşik görünümü olan tablo** 
 
-![yapılacaklar:resim_alternatif_metin](creating-hierarchical-view-sheet_1.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
-## **DataTable'lar için İlişkiler Oluşturma**
-Örneğin, ADO.Net API'i kullanır ve veritabanı tablolarından veri çıkarırsınız. Hiyerarşik görünüm sayfası oluşturmak için bir DataSet tasarlamanız gerekir.
+## **DataTable'lar İçin İlişkiler Oluşturma**
+Örneğin, ADO.Net API'sını kullanarak veritabanı tablolarından veri çekersiniz. Hiyerarşik görünüm sayfası oluşturmak için öncelikle bir DataSet
 
- bazı tablolara dayalı nesne ve önce aralarında bir ilişki oluşturun. VS.NET'leri kullanın**Veri Kümesi Tasarımcısı** ilişkiyi oluşturmak için. İçinde
+nesnesi tasarlamalısınız ve önce bunlar arasında bir ilişki oluşturmalısınız. İlişkiyi oluşturmak için VS.NET'in **DataSet Tasarımcısı**'nı kullanın. Bu 
 
- bu örnekte üç DataTable vardır: Müşteriler, Siparişler, Sipariş Ayrıntıları. Sayfa, tüm müşteri bilgilerini varsayılan olarak gösterir. Ne zaman
+örnekte üç DataTable bulunmaktadır: Customers, Orders, Order Details. Sayfa varsayılan olarak tüm müşteri bilgilerini gösterir. Kullanıcı bir müşteriyi genişlettiğinde, 
 
- kullanıcı bir müşteriyi genişletir, ızgara müşterinin verdiği tüm siparişleri gösterir. Kullanıcı bir siparişi genişlettiğinde, ızgara ayrıntıları gösterir
+çalış sayfası o müşterinin verdiği tüm siparişleri gösterir. Kullanıcı bir siparişi genişlettiğinde, çalış sayfası siparişin detaylarını gösterir. Veri hiyerarşiktir: 
 
-bu düzenin. Veriler hiyerarşiktir: sipariş detayları siparişler altında, siparişler ise müşteriler altında listelenir.
+sipariş detayları siparişlerin altında listelenir ve siparişler müşterilerin altında listelenir.
 
-Bunun çalışması için, veri tabloları arasında aşağıdaki ilişkilerin kurulması gerekir:
+Bu çalışabilmesi için veri tabloları arasında aşağıdaki ilişkilerin oluşturulması gerekmektedir:
 
-1.  DataTable Siparişlerinde bir yabancı anahtar oluşturun, anahtar alanı CustomerID'dir.
+1. Orders DataTable'e bir dış anahtar oluşturun, anahtar alanı CustomerID'dir 
 
-![yapılacaklar:resim_alternatif_metin](creating-hierarchical-view-sheet_2.png)
-
-
-
-
-1. DataTable Sipariş Ayrıntılarında bir yabancı anahtar oluşturun, anahtar alanı OrderID'dir.
-
-![yapılacaklar:resim_alternatif_metin](creating-hierarchical-view-sheet_3.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_2.png)
 
 
 
- DataSet Tasarımcısı artık şöyle görünür:
 
-![yapılacaklar:resim_alternatif_metin](creating-hierarchical-view-sheet_4.png)
-### **Bağlama Çalışma Sayfası**
- şimdi kullan**Çalışma Sayfaları Tasarımcısı** çalışma sayfası için DataSource ve DataMember'ı ayarlamak ve veri alanı bağlama sütunlarını yapılandırmak için.
+1. Order Details DataTable'e bir dış anahtar oluşturun, anahtar alanı OrderID'dir. 
 
- Denetim, bağlama nesnesi (genellikle bir DataRowView nesnesi) olan bir kayda karşılık gelen her satır için otomatik olarak bir + simgesi ekler.
+![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
 
- çocuk görünümleri. + simgesine tıklandığında, kayıt alt görünümü gösterecek şekilde genişler. Aşağıdaki örnek,**Çalışma Sayfaları Tasarımcısı** bağlamak için
 
- çalışma sayfasını kök üst DataTable Müşterilerine.
 
-![yapılacaklar:resim_alternatif_metin](creating-hierarchical-view-sheet_5.png)
-### **Alt Tabloları Bağlama Sütunlarını Özelleştirme**
- Denetim, geliştiricilerin alt tabloların bağlama sütunlarını özelleştirmek için kullandıkları GridWeb.BindingChildView adlı bir olay sağlar. Bu örnek
+DataSet Tasarımcısı şimdi şu şekilde görünüyor: 
 
- sipariş ayrıntılarını görüntülemesi gerekiyor'**Birim fiyat** para birimi biçiminde alan. Bağlama sütununun sayı biçimini değiştirmek için bir olay işleyici ekleyin.
+![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
+### **Çalış Sayfası Bağlama**
+Şimdi **Çalış Sayfaları Tasarımcısı**'nı kullanarak çalış sayfası için DataSource ve DataMember'ı ayarlayın ve veri alanı bağlama sütunlarını yapılandırın. 
+
+Kontrol, genellikle bir DataRowView nesnesi olan bağlama nesnesine ait her kayıt için bir + simgesi ekler. + simgesine tıklandığında, kayıt çocuk görünümünü göstermek üzere genişler. Aşağıdaki örnek, **Çalış Sayfaları Tasarımcısı**'nı kullanarak bağlama 
+
+alt görünümler. + simgesine tıklandığında, kayıt genişleyerek alt görünümü gösterir. Aşağıdaki örnek, **Çalışsayılar Tasarımcısı**'nı bağlamak için kullanılır 
+
+Kök üst ebeveyn DataTable Müşterilerine çalışma sayfası. 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_5.png)
+### **Çocuk Tabloları Bağlama Sütunlarını Özelleştirmek**
+Kontrol, geliştiricilerin çocuk tabloların bağlama sütunlarını özelleştirmek için kullandığı GridWeb.BindingChildView adında bir etkinlik sağlar. Bu örnek 
+
+gereksinimi, bağlama sütununun numara formatını değiştirmek için bir olay işleyici eklemektir ve sipariş ayrıntıları **UnitPrice** alanını bir para birimi formatında görüntülemektir. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Handles the BindingChildView event to set the UnitPrice column.
 
@@ -93,7 +96,7 @@ private void GridWeb1_BindingChildView(Aspose.Cells.GridWeb.GridWeb childGrid, A
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Handles the BindingChildView event to set the UnitPrice column.
 
@@ -114,38 +117,38 @@ End Sub
 
 
 {{< /highlight >}}
-### **Veritabanından ve Bağlamadan Veri Yükleme**
-Açıklandığı gibi[GridWeb'in Worksheets Designer'ını kullanarak Çalışma Sayfasını bir DataSet'e Bağlama](/cells/tr/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
- bir veritabanından DataSet'e veri yüklemek için Page_Load bloğuna kod eklemeniz ve DataSet'i sayfaya bağlamanız gerekir.
+### **Verileri Veritabanından Yükleme ve Bağlama**
+Aşağıdaki [GridWeb'in Çalışsayfası Tasarımcısı kullanarak Dataset'e Çalışsayfası Bağlama](/cells/tr/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/)'nda açıklandığı gibi,
+bir sonraki adımda, veritabanından veri yüklemek ve Dataset'i çalışma sayfasına bağlamak için Page_Load bloğuna kod eklemeniz gerekmektedir. 
 
- Sonraki adım.
+Asppose.Grid.Web.Data.WebWorksheet Sınıfı bazı kullanışlı özelliklere sahiptir. 
 
-Asppose.Grid.Web.Data.WebWorksheet Sınıfı bazı faydalı özelliklere sahiptir.
+- Örneğin, **EnableCreateBindColumnHeader** özelliği, tablo içindeki bağlı sütun başlıklarını oluşturmak için kullanılır veya sütun başlıkları bağlı sütun
 
-- Örneğin, EnableCreateBindColumnHeader özelliği, sayfadaki ilişkili sütunun başlıklarını veya sayfadaki sütunu oluşturmak için kullanılır.
+- Örneğin, EnableCreateBindColumnHeader özelliği, çalışma sayfası içinde bağlı sütunun başlıklarını oluşturmak için kullanılır veya sütun
 
- headers, ilişkili sütun adlarını görüntüler. Değerleri alır**doğru** veya**YANLIŞ**. 
+adlarını gösterir. Bu **true** veya **false** değerlerini alır. 
 
-- BindStartRow ve BindStartColumn özellikleri, kaynağın bağlı olması gereken GridWeb denetimi sayfasındaki konumu belirtir.
-- EnableExpandChildView özelliği, çalışma sayfası için genişletilmiş alt görünümü devre dışı bırakmak için kullanılır. Varsayılan olarak true olarak ayarlanmıştır.
+- **BindStartRow** ve **BindStartColumn** özellikleri, kaynağın GridWeb kontrol sayfasındaki konumunu belirtir.
+- **EnableExpandChildView** özelliği, çalışsayfa için genişletilmiş çocuk görünümünü devre dışı bırakmak için kullanılır. Varsayılan olarak **true** olarak ayarlıdır.
 
- Sınıfın da bazı yararlı yöntemleri var.
+Sınıfın bazı kullanışlı yöntemleri de vardır. 
 
-- DataBind() yöntemi, bir sayfayı kaynağa bağlar.
-- CreateNewBindRow() yeni bir satır ekler ve onu veri kaynağına bağlar.
-- DeleteBindRow() ilişkili bir satırı siler.
-- SetRowExpand() yöntemi, genişletilmiş satırı ayarlar ve alt görünüm içeriğini veri bağlama modunda gösterir.
-- GetRowExpand() yöntemi, satırın genişletilip genişletilmediğini gösteren bir Boole değeri alır.
+- **DataBind()** yöntemi bir sayfayı kaynağa bağlar.
+- **CreateNewBindRow()** yeni bir satır ekler ve onu veri kaynağına bağlar.
+- **DeleteBindRow()** bağlı bir satırı siler.
+- **SetRowExpand()** yöntemi genişletilmiş satırı ayarlar ve veri bağlama modunda çocuk görünüm içeriğini gösterir.
+- **GetRowExpand()** yöntemi satırın genişletilip genişletilmediğini belirten bir Boolean değeri alır.
 
- Aşağıdaki kodda, "dataSet21" DataSet nesnesi, üç tabloya dayalı verilerle doldurulur. Müşteriler tablosu, bunu yapmak için filtrelenir.
+Aşağıdaki kodda, "dataSet21" adlı DataSet nesnesi üç tabloya dayalı verilerle doldurulur. Müşteriler tablosu, hiyerarşik görüntüde ilk tablo olacak şekilde filtrelenir. Ardından, "sheet" adında bir WebWorksheet nesnesi oluşturulup, sayfayı temizler ve ardından veri kaynağına bağlar. 
 
- hiyerarşik görünümdeki ilk tablo. Önce sayfayı temizleyen ve ardından ayarlayan "sayfa" adlı bir WebWorksheet nesnesi oluşturulur.
+**VB.NET** 
 
- veri kaynağına bağlıdır.
+GridDesktop Veri Bağlama Özelliğini Uygulama 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -199,7 +202,7 @@ private void BindWithoutInSheetHeaders()
 
         dataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'";
 
-        WebWorksheet sheet = GridWeb1.WebWorksheets[0];
+        WebWorksheet sheet = GridWeb1.WorkSheets[0];
 
         // Clears the sheet.
 
@@ -235,53 +238,53 @@ private void BindWithoutInSheetHeaders()
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Özel Alt Sayfa_Yük(System.Object Olarak ByVal gönderen, System.EventArgs Olarak ByVal e) MyBase.Load İşler
+ Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
- 'Sayfayı başlatmak için kullanıcı kodunu buraya girin
+    'Put user code to initialize the page here
 
- Değilse PostBack O Zaman
+    If Not IsPostBack Then
 
- BindWithoutInSheetHeaders()
+        BindWithoutInSheetHeaders()
 
- Eğer Sonlandır
+    End If
 
-Aboneliği Sonlandır
+End Sub
 
-Özel Alt BindWithoutInSheetHeaders()
+Private Sub BindWithoutInSheetHeaders()
 
- DemoDatabase2 = Yeni DemoDatabase2() olarak db'yi azaltın
+    Dim db As DemoDatabase2 = New DemoDatabase2()
 
-Yolu karart As String = MapPath(".")
+    Dim path As String = MapPath(".")
 
- yol = yol.Substring(0, yol.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- yol = yol.Substring(0, yol.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- db.OleDbConnection1.ConnectionString = "Sağlayıcı=Microsoft.Jet.OLEDB.4.0;Veri Kaynağı=" + yol + "\Database\Northwind.mdb"
+    db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + "\Database\Northwind.mdb"
 
- Deneyin
+    Try
 
- Veritabanına bağlanır ve verileri getirir.
+        ' Connects to database and fetches data.
 
- ' Müşteriler Tablosu.
+        ' Customers Table.
 
- db.OleDbDataAdapter1.Fill(DataSet21)
+        db.OleDbDataAdapter1.Fill(DataSet21)
 
- ' Sipariş Tablosu.
+        ' Orders Table.
 
- db.OleDbDataAdapter2.Fill(DataSet21)
+        db.OleDbDataAdapter2.Fill(DataSet21)
 
- ' OrderDetailTable.
+        ' OrderDetailTable.
 
- db.OleDbDataAdapter3.Fill(DataSet21)
+        db.OleDbDataAdapter3.Fill(DataSet21)
 
- Verileri filtrele
+        ' Filter data
 
- DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
+        DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
 
-        Dim sheet As WebWorksheet = GridWeb1.WebWorksheets(0)
+        Dim sheet As WebWorksheet = GridWeb1.WorkSheets(0)
 
         ' Clears the sheet.
 

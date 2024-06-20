@@ -1,12 +1,13 @@
-﻿---
-title: دعم فاصل صفحة مجموعة tablix
+---
+title: دعم انقطاع صفحة مجموعة tablix
 type: docs
 weight: 40
 url: /ar/reportingservices/support-tablix-group-page-break/
 ---
-يقوم بتعيين فاصل صفحات المجموعة (بين) وفاصل الصفحة لعنصر تقرير الجدول. يتم تعيين القيمة الافتراضية على عدم وجود فاصل صفحات.
 
-![ما يجب القيام به: image_بديل_نص](support-tablix-group-page-break_1.png)
+يعين كسر صفحة المجموعة(بين) وكسر الصفحة لعنصر تقرير الجدول. القيمة الافتراضية مُعينة على عدم وجود كسر صفحة. 
+
+![todo:image_alt_text](support-tablix-group-page-break_1.png)
 
 
 

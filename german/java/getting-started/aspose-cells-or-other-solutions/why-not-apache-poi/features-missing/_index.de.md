@@ -1,41 +1,42 @@
-﻿---
-title: Aspose.Cells Funktionen fehlen in Apache POI SS - HSSF und XSSF
+---
+title: Fehlende Funktionen von Aspose.Cells in Apache POI SS  HSSF und XSSF
 type: docs
 weight: 20
 url: /de/java/aspose-cells-features-missing-in-apache-poi-ss-hssf-and-xssf/
 ---
-Dieser Abschnitt zeigt die Funktionen, die nur in Aspose.Cells und nicht in Apache POI SS - HSSF und XSSF API verfügbar sind.
 
-Es ist sehr hilfreich für Entwickler, die von Apache POI SS auf Aspose.Cells migrieren möchten.
+Dieser Abschnitt zeigt die Funktionen, die nur in Aspose.Cells verfügbar sind und nicht in Apache POI SS - HSSF und XSSF API.
 
-Dies umfasst die folgenden zahlreichen Funktionen von Aspose.Cells im Vergleich zu Apache POI SS:
+Es ist sehr hilfreich für Entwickler, die von Apache POI SS zu Aspose.Cells migrieren möchten.
 
-- [Datenverarbeitungsfunktionen mit Aspose.Cells](/cells/de/java/data-handling-features-using-aspose-cells/)
-  - [Finden Sie den Wert in Cells mit Aspose.Cells](/cells/de/java/find-value-in-cells-using-aspose-cells/)
-  - [Berechnen Sie Zwischensummen mit Aspose.Cells](/cells/de/java/calculate-sub-totals-using-aspose-cells/)
-  - [Importieren Sie Daten in Arbeitsblätter mit Aspose.Cells](/cells/de/java/import-data-to-worksheets-using-aspose-cells/)
+Zu diesen umfangreichen Funktionen von Aspose.Cells im Vergleich zu Apache POI SS gehören:
+
+- [Datenverwaltungsfunktionen mit Aspose.Cells](/cells/de/java/data-handling-features-using-aspose-cells/)
+  - [Wert in Zellen mit Aspose.Cells finden](/cells/de/java/find-value-in-cells-using-aspose-cells/)
+  - [Berechnen Sie Teilsummen mit Aspose.Cells](/cells/de/java/calculate-sub-totals-using-aspose-cells/)
+  - [Importieren von Daten in Arbeitsblätter mit Aspose.Cells](/cells/de/java/import-data-to-worksheets-using-aspose-cells/)
   - [Daten aus Arbeitsblättern exportieren](/cells/de/java/export-data-from-worksheets/)
-  - [Formelberechnungsmodul in Aspose.Cells](/cells/de/java/formula-calculation-engine-in-aspose-cells/)
-  - [Rückverfolgung von Präzedenzfällen und Angehörigen mit Aspose.Cells](/cells/de/java/tracing-precedents-and-dependents-using-aspose-cells/)
-  - [Daten in Tabellenkalkulationen sortieren](/cells/de/java/sort-data-in-spreadsheets/)
-- [Arbeiten mit Arbeitsblättern unter Verwendung von Aspose.Cells](/cells/de/java/working-with-worksheets-using-aspose-cells/)
-  - [Fügen Sie dem Arbeitsblatt Word Art Watermark mit Aspose.Cells hinzu](/cells/de/java/add-word-art-watermark-to-worksheet-using-aspose-cells/)
-  - [Konvertieren Sie die Arbeitsmappe mit Aspose.Cells in HTML](/cells/de/java/convert-workbook-to-html-using-aspose-cells/)
-  - [Zusammengeführte Cells mit Aspose.Cells erkennen](/cells/de/java/detect-merged-cells-using-aspose-cells/)
-  - [Bildlaufleisten von Arbeitsmappen anzeigen und ausblenden](/cells/de/java/display-and-hide-scrollbars-of-workbooks/)
+  - [Formelberechnungsmaschine in Aspose.Cells](/cells/de/java/formula-calculation-engine-in-aspose-cells/)
+  - [Vorgänger und Abhängigkeiten mit Aspose.Cells verfolgen](/cells/de/java/tracing-precedents-and-dependents-using-aspose-cells/)
+  - [Daten in Tabellenblättern sortieren](/cells/de/java/sort-data-in-spreadsheets/)
+- [Arbeiten mit Arbeitsblättern mit Aspose.Cells](/cells/de/java/working-with-worksheets-using-aspose-cells/)
+  - [Word Art Wasserzeichen zum Arbeitsblatt hinzufügen mit Aspose.Cells](/cells/de/java/add-word-art-watermark-to-worksheet-using-aspose-cells/)
+  - [Arbeitsmappe in HTML umwandeln mit Aspose.Cells](/cells/de/java/convert-workbook-to-html-using-aspose-cells/)
+  - [Erkennung von zusammengeführten Zellen mit Aspose.Cells](/cells/de/java/detect-merged-cells-using-aspose-cells/)
+  - [Anzeigen und Ausblenden von Bildlaufleisten von Arbeitsmappen](/cells/de/java/display-and-hide-scrollbars-of-workbooks/)
   - [Anzeigen und Ausblenden von Registerkarten der Arbeitsmappe mit Aspose.Cells](/cells/de/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
-  - [Verschlüsseln Sie die Arbeitsmappe mit Aspose.Cells](/cells/de/java/encrypt-workbook-using-aspose-cells/)
-  - [Lesen Sie die Datei CSV mit mehreren Codierungen](/cells/de/java/read-csv-file-with-multiple-encodings/)
-  - [Speichern Sie jedes Arbeitsblatt mit Aspose.Cells unter einem anderen PDF](/cells/de/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
-  - [Legen Sie die Farbe des Arbeitsblatt-Registers in Aspose.Cells fest](/cells/de/java/set-worksheet-tab-color-in-aspose-cells/)
+  - [Arbeitsmappe mit Aspose.Cells verschlüsseln](/cells/de/java/encrypt-workbook-using-aspose-cells/)
+  - [CSV-Datei mit mehreren Codierungen lesen](/cells/de/java/read-csv-file-with-multiple-encodings/)
+  - [Jedes Arbeitsblatt als separates PDF speichern mit Aspose.Cells](/cells/de/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+  - [Arbeitsblatt-Registerfarbe in Aspose.Cells festlegen](/cells/de/java/set-worksheet-tab-color-in-aspose-cells/)
 - [Arbeiten mit Diagrammen in Aspose.Cells](/cells/de/java/working-with-charts-in-aspose-cells/)
-  - [Fügen Sie dem Diagramm ein Word Art-Wasserzeichen hinzu](/cells/de/java/add-word-art-watermark-to-chart/)
+  - [Word Art Wasserzeichen zu Diagramm hinzufügen](/cells/de/java/add-word-art-watermark-to-chart/)
   - [Diagrammposition und -größe ändern](/cells/de/java/change-chart-position-and-size/)
-  - [Konvertieren Sie das Diagramm mit Aspose.Cells in Bilder](/cells/de/java/convert-chart-to-images-using-aspose-cells/)
-  - [Erstellen Sie Pivot-Diagramme mit Aspose.Cells](/cells/de/java/create-pivot-charts-using-aspose-cells/)
-- [Verschiedenes Beispiele für Aspose.Cells](/cells/de/java/miscellaneous-examples-of-aspose-cells/)
+  - [Diagramm in Bilder umwandeln mit Aspose.Cells](/cells/de/java/convert-chart-to-images-using-aspose-cells/)
+  - [Pivot Diagramme mit Aspose.Cells erstellen](/cells/de/java/create-pivot-charts-using-aspose-cells/)
+- [Verschiedene Beispiele von Aspose.Cells](/cells/de/java/miscellaneous-examples-of-aspose-cells/)
   - [Drucktitel festlegen](/cells/de/java/set-print-titles/)
-  - [Drucken von Arbeitsmappen mit Aspose.Cells](/cells/de/java/printing-workbooks-using-aspose-cells/)
-  - [Konvertieren Sie die Tabelle mit Aspose.Cells in PDF](/cells/de/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
+  - [Arbeitsmappen mit Aspose.Cells drucken](/cells/de/java/printing-workbooks-using-aspose-cells/)
+  - [Tabellenkalkulation in PDF umwandeln mit Aspose.Cells](/cells/de/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
-**Notiz:** Viele weitere Beispiele werden in Kürze verfügbar sein.
+**Hinweis:** Viele weitere Beispiele werden in Kürze verfügbar sein.

@@ -1,28 +1,29 @@
-﻿---
-title: Köprü Metni Biçimlendirme Dili Biçimi - HTML
+---
+title: HyperText İşaretleme Dili Biçimi  HTML
 type: docs
 weight: 50
 url: /tr/net/hypertext-markup-language-format/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells, Excel çalışma kitaplarınızı HTML formatında kaydetmek için kullanılabilir. Dışa aktarılan HTML çalışma kitapları Microsoft Excel odaklıdır, yani Microsoft Excel tarafından dışa aktarılanlara benzerler. HTML'den çalışma kitapları da oluşturabilirsiniz, ancak bu HTML Excel odaklı olmalıdır.
+Aspose.Cells, Excel çalışma kitaplarınızı HTML biçimine kaydetmek için kullanılabilir. Dışa aktarılan HTML çalışma kitapları, Microsoft Excel odaklıdır, yani onlar Microsoft Excel tarafından dışa aktarılanlarla benzerdir. Ayrıca, bu HTML'den çalışma kitapları oluşturabilirsiniz ancak bu HTML'nin Excel odaklı olması gerekmektedir.
 
 {{% /alert %}} 
-## **HTML içinde Aspose.Cells**
-Aspose çözümü, HTML'e dönüştürürken aşağıdaki belge özelliklerini tamamen destekler:
+## **Aspose.Cells'te HTML**
+Aspose çözümü, HTML'e dönüştürürken aşağıdaki belge özelliklerini tam olarak destekler:
 
-- Cell Veri ve Metin Biçimlendirme
-- Grafikler ve Pivot Tablolar
-- Üstbilgiler/Altbilgiler
-- Kenarlıklar, Kenarlık Renkleri
-- Görüntüler, Metin Kutuları ve Çizim Şekilleri
-- köprüler
-### **Çalışma Kitabı nesnesinin içine HTML yükleniyor**
- Lütfen alt bölüme bakın**HTML Dosyalarını Açma** HTML'in Workbook nesnesinin içine nasıl yükleneceğini açıklayan bu makalede.
+- Hücre Verileri ve Metin Biçimlendirme
+- Grafikler ve Özet Tablolar
+- Başlıklar/Altlıklar
+- Kenarlık, Kenarlık Renkleri
+- Görseller, Metin Kutuları ve Şekiller Çizmek
+- Hyperlinkler
+### **Workbook nesnesi içinde HTML yükleme**
+Lütfen bu makalenin **HTML Dosyaları Açma** alt bölümüne bakın; bu makale, bir Workbook nesnesi içinde HTML yüklemenin nasıl yapıldığını açıklar.
 
 - [Dosyaları Açma](/cells/tr/net/opening-files-with-different-formats/#openingfileswithdifferentformats-openinghtmlfiles)
-### **Excel dosyası HTML'e kaydediliyor**
-Lütfen çalışma kitaplarınızı/elektronik tablolarınızı HTML biçimine nasıl dönüştüreceğinizi/kaydedeceğinizi açıklayan aşağıdaki belgelendirme makalesine bakın.
+### **Excel dosyasını HTML olarak kaydetme**
+Lütfen aşağıdaki belge makalesine bakınız, bu makale çalışma kitaplarınızı/spreadsheetlerinizi nasıl HTML biçimine dönüştüreceğinizi/kaydedeceğinizi açıklar.
 
 - [Excel Dosyalarını HTML'e Dönüştürme](/cells/tr/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)

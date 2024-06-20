@@ -1,26 +1,27 @@
-﻿---
+---
 title: Integración manual con Visual Studio 2005 o 2008 Report Designer
 type: docs
 weight: 30
 url: /es/reportingservices/integrating-manually-with-visual-studio-2005-or-2008-report-designer/
 ---
+
 {{% alert color="primary" %}} 
 
-Realice los siguientes pasos en orden si desea instalar Aspose.Cells for Reporting Services manualmente para Microsoft Visual Studio Report Designer, sin el instalador MSI. Le recomendamos que utilice el instalador MSI porque realiza toda la instalación y configuración necesarias automáticamente. Sin embargo, si no puede instalar con el instalador MSI, siga las siguientes pautas.
- Esta sección describe cómo instalar Aspose.Cells for Reporting Services en una computadora con Business Intelligence Development Studio. Esto le permitirá exportar informes a formatos de Excel Microsoft en tiempo de diseño desde Visual Studio 2005 o 2008 Report Designer Microsoft.
+Por favor, realiza los siguientes pasos en orden si deseas instalar Aspose.Cells for Reporting Services manualmente para Microsoft Visual Studio Report Designer, sin el instalador MSI. Recomendamos que uses el instalador MSI porque realiza todas las instalaciones y configuraciones necesarias automáticamente. Sin embargo, si fallas en la instalación con el instalador MSI, entonces por favor sigue las siguientes pautas. 
+Esta sección describe cómo instalar Aspose.Cells for Reporting Services en una computadora con Business Intelligence Development Studio. Esto te permitirá exportar informes a formatos de Microsoft Excel en el momento del diseño desde Microsoft Visual Studio 2005 o 2008 Report Designer. 
 
 {{% /alert %}} 
 - **Proceso de Integración**
-1.  Copiar**Aspose.Cells.ReportingServices.dll** al directorio de Visual Studio.
- 1. Para integrarse con Visual Studio 2005 Report Designer: copiar**Aspose.Cells.ReportingServices.dll** al directorio C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies.
- 1. Para integrarse con Visual Studio 2008 Report Designer: copiar**Aspose.Cells.ReportingServices.dll**al directorio C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies.
-1.  Registre Aspose.Cells for Reporting Services como una extensión de representación:
- 1. Abierto**C:\Archivos de programa\Microsoft Visual Studio <Versión>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config** 
- (dónde<Version> es "8" para Visual Studio 2005 o "9.0" para Visual Studio 2008) y agregue las siguientes líneas en el<Render> elemento:
+1. Copia **Aspose.Cells.ReportingServices.dll** en el directorio de Visual Studio. 
+   1. Para integrar con Visual Studio 2005 Report Designer: copia **Aspose.Cells.ReportingServices.dll** en el directorio C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies.
+   1. Para integrar con Visual Studio 2008 Report Designer: copia **Aspose.Cells.ReportingServices.dll** en el directorio C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies.
+1. Registrar Aspose.Cells for Reporting Services como una extensión de renderización: 
+   1. Open **C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config** 
+      (where <Version> is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following lines into the <Render> element: 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Extension Name="ACXLS" Type="Aspose.Cells.ReportingServices.XlsRenderer,Aspose.Cells.ReportingServices" />
 
@@ -44,13 +45,13 @@ Realice los siguientes pasos en orden si desea instalar Aspose.Cells for Reporti
 
 {{< /highlight >}}
 
-1.  Dar Aspose.Cells for Reporting Services permisos para ejecutar:
- 1. Abra C:\Archivos de programa\Microsoft Visual Studio<Version>\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config
- (dónde<Version> es "8" para Visual Studio 2005 o "9.0" para Visual Studio 2008) y agregue lo siguiente como el último elemento en el segundo al exterior<CodeGroup> elemento (que debe ser<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">): 
+1. Dar permisos de ejecución a Aspose.Cells for Reporting Services: 
+   1. Open C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config
+      (where <Version> is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following as the last item in the second to outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">): 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <CodeGroup>
 
@@ -78,10 +79,10 @@ Realice los siguientes pasos en orden si desea instalar Aspose.Cells for Reporti
 
 {{< /highlight >}}
 
-1.  Verifique que Aspose.Cells for Reporting Services se instaló correctamente:
- 1. Ejecute o reinicie Microsoft Visual Studio 2005 o 2008 Report Designer.
- Debería notar nuevos formatos disponibles en la lista de formatos de exportación.
+1. Verificar que Aspose.Cells for Reporting Services se instaló con éxito: 
+   1. Ejecutar o reiniciar Microsoft Visual Studio 2005 o 2008 Report Designer.
+      Deberías notar nuevos formatos disponibles en la lista de formatos de exportación. 
 
-**Cuando se ha registrado el componente, aparecen nuevos formatos de exportación en el Diseñador de informes** 
+**Cuando el componente ha sido registrado, nuevos formatos de exportación aparecen en Report Designer** 
 
-![todo:imagen_alternativa_texto](integrating-manually-with-visual-studio-2005-or-2008-report-designer_1.png)
+![todo:image_alt_text](integrating-manually-with-visual-studio-2005-or-2008-report-designer_1.png)

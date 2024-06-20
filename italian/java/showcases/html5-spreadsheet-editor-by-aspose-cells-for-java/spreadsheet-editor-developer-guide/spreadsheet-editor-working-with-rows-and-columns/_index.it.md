@@ -1,44 +1,45 @@
-﻿---
-title: Editor di fogli di calcolo - Utilizzo di righe e colonne
+---
+title: Editor del Foglio Elettronico  Lavorare con Righe e Colonne
 type: docs
 weight: 30
 url: /it/java/spreadsheet-editor-working-with-rows-and-columns/
 ---
-**Sommario**
+
+**Tabella dei contenuti**
 
 - [Aggiungi una riga](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
- - WorksheetView.addRowAbove
- - WorksheetView.addRowBelow
+  - WorksheetView.addRowAbove
+  - WorksheetView.addRowBelow
 - [Aggiungi una colonna](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
- - WorksheetView.addColumnBefore
- - WorksheetView.addColumnAfter
-- [Elimina una riga](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
- - WorksheetView.deleteRow
-- [Elimina una colonna](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
- - WorksheetView.deleteColumn
-- [Larghezza colonna e altezza riga](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
- - WorksheetView.setCurrentRowHeight
- - WorksheetView.setCurrentColumnWidth
-- [Inserisci uno Cell](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
- - WorksheetView.addCellShiftRight
- - WorksheetView.addCellShiftDown
+  - WorksheetView.addColumnBefore
+  - WorksheetView.addColumnAfter
+- [Elimina una Riga](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
+  - WorksheetView.deleteRow
+- [Eliminare una colonna](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
+  - WorksheetView.deleteColumn
+- [Larghezza della colonna e altezza della riga](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
+  - WorksheetView.setCurrentRowHeight
+  - WorksheetView.setCurrentColumnWidth
+- [Inserisci una cella](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
+  - WorksheetView.addCellShiftRight
+  - WorksheetView.addCellShiftDown
 ### **Aggiungi una riga**
 Per aggiungere una nuova riga:
 
-1. Fare clic su una cella in cui si desidera aggiungere una riga.
-1.  Passa a**Scheda Formato**.
-1.  Clic**Aggiungi riga sopra** per aggiungere una riga sopra la cella selezionata.
-1.  Clic**Aggiungi riga sotto** per aggiungere una riga sotto la cella selezionata.
+1. Fare clic su una cella dove si desidera aggiungere una riga.
+1. Passare alla scheda **Formato**.
+1. Fare clic su **Aggiungi riga sopra** per aggiungere una riga sopra la cella selezionata.
+1. Fare clic su **Aggiungi riga sotto** per aggiungere una riga sotto la cella selezionata.
 
-L'editor aggiungerà una nuova riga nella posizione selezionata.
+L'editore aggiungerà una nuova riga nella posizione selezionata.
 
-![cose da fare:immagine_alt_testo](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Come funziona?**
 
- Il**Aggiungi riga sopra** e**Aggiungi riga sotto** sono gestiti dal bean backend JSF**Foglio di lavoroVisualizza**. Il codice sorgente dei rispettivi metodi è il seguente:
+Gli **Aggiungi riga sopra** e **Aggiungi riga sotto** sono gestiti dal bean backend JSF **WorksheetView**. Il codice sorgente dei rispettivi metodi è il seguente:
 #### **WorksheetView.addRowAbove**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowAbove() {
 
@@ -63,7 +64,7 @@ L'editor aggiungerà una nuova riga nella posizione selezionata.
 {{< /highlight >}}
 
 #### **WorksheetView.addRowBelow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowBelow() {
 
@@ -99,20 +100,20 @@ L'editor aggiungerà una nuova riga nella posizione selezionata.
 ### **Aggiungi una colonna**
 Per aggiungere una nuova colonna:
 
-1. Fare clic su una cella in cui si desidera aggiungere una colonna.
-1.  Passa a**Scheda Formato**.
-1.  Clic**Aggiungi colonna prima**per aggiungere una colonna prima della cella selezionata.
-1.  Clic**Aggiungi colonna dopo** per aggiungere una colonna dopo la cella selezionata.
+1. Fare clic su una cella dove si desidera aggiungere una colonna.
+1. Passare alla scheda **Formato**.
+1. Fare clic su **Aggiungi colonna prima** per aggiungere una colonna prima della cella selezionata.
+1. Fare clic su **Aggiungi colonna dopo** per aggiungere una colonna dopo la cella selezionata.
 
-L'editor aggiungerà una nuova colonna nella posizione selezionata.
+L'editore aggiungerà una nuova colonna nella posizione selezionata.
 
-![cose da fare:immagine_alt_testo](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Come funziona?**
 
- Il**Aggiungi colonna prima** e**Aggiungi colonna dopo** sono gestiti dal bean backend JSF**Foglio di lavoroVisualizza**. Il codice sorgente dei rispettivi metodi è il seguente:
+**Aggiungi Colonna Prima** e **Aggiungi Colonna Dopo** sono gestite dal bean di backend JSF **WorksheetView**. Il codice sorgente dei rispettivi metodi è il seguente:
 #### **WorksheetView.addColumnBefore**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnBefore() {
 
@@ -137,7 +138,7 @@ L'editor aggiungerà una nuova colonna nella posizione selezionata.
 {{< /highlight >}}
 
 #### **WorksheetView.addColumnAfter**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnAfter() {
 
@@ -162,22 +163,22 @@ L'editor aggiungerà una nuova colonna nella posizione selezionata.
     }
 
 {{< /highlight >}}
-### **Elimina una riga**
+### **Elimina una Riga**
 Per eliminare una riga:
 
 1. Fare clic su una cella nella riga che si desidera eliminare.
-1.  Passa a**Scheda Formato**.
-1.  Clic**Elimina riga** pulsante.
+1. Passare alla scheda **Formato**.
+1. Fare clic sul pulsante **Elimina Riga**.
 
-L'editor eliminerà la riga che include la cella selezionata.
+L'editore eliminerà la riga che include la cella selezionata.
 
-![cose da fare:immagine_alt_testo](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Come funziona?**
 
- Il**Elimina riga** Il pulsante è gestito dal bean backend JSF**Foglio di lavoroVisualizza** utilizzando il metodo**WorksheetView.deleteRow**:
+Il pulsante **Elimina Riga** è gestito dal bean di backend JSF **WorksheetView** utilizzando il metodo **WorksheetView.deleteRow**:
 #### **WorksheetView.deleteRow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteRow() {
 
@@ -202,22 +203,22 @@ L'editor eliminerà la riga che include la cella selezionata.
     }
 
 {{< /highlight >}}
-### **Elimina una colonna**
+### **Eliminare una colonna**
 Per eliminare una colonna:
 
 1. Fare clic su una cella nella colonna che si desidera eliminare.
-1.  Passa a**Scheda Formato**.
-1.  Clic**Elimina colonna** pulsante.
+1. Passare alla scheda **Formato**.
+1. Fare clic sul pulsante **Elimina Colonna**.
 
-L'editor eliminerà la colonna che include la cella selezionata.
+L'editore eliminerà la colonna che include la cella selezionata.
 
-![cose da fare:immagine_alt_testo](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Come funziona?**
 
- Il**Elimina colonna** Il pulsante è gestito dal bean backend JSF**Foglio di lavoroVisualizza** utilizzando il metodo**WorksheetView.deleteColumn**:
+Il pulsante **Elimina colonna** è gestito dal bean backend JSF **WorksheetView** utilizzando il metodo **WorksheetView.deleteColumn**:
 #### **WorksheetView.deleteColumn**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteColumn() {
 
@@ -242,34 +243,34 @@ L'editor eliminerà la colonna che include la cella selezionata.
     }
 
 {{< /highlight >}}
-### **Larghezza colonna e altezza riga**
+### **Larghezza della colonna e altezza della riga**
 Per modificare la larghezza di una colonna:
 
 1. Fare clic su qualsiasi cella all'interno della colonna.
-1.  Passa a**Scheda Formato**.
-1.  Clic**Larghezza della colonna** pulsante per aprire**Larghezza della colonna** dialogo.
-1. Immettere un nuovo valore nella finestra di dialogo.
-1.  Clic**Chiudere**.
+1. Passare alla scheda **Formato**.
+1. Fare clic sul pulsante **Larghezza colonna** per aprire il dialogo **Larghezza colonna**.
+1. Inserire un nuovo valore nella casella di dialogo.
+1. Fare clic su **Chiudi**.
 
 L'editor cambierà la larghezza della colonna.
 
-**Come modificare l'altezza della riga?**
+**Come cambiare l'altezza della riga?**
 
 Per modificare l'altezza di una riga:
 
 1. Fare clic su qualsiasi cella all'interno della riga.
-1.  Passa a**Scheda Formato**.
-1.  Clic**Altezza della riga** pulsante per aprire**Altezza della riga** dialogo.
-1. Immettere un nuovo valore nella finestra di dialogo.
-1.  Clic**Chiudere**.
+1. Passare alla scheda **Formato**.
+1. Fare clic sul pulsante **Altezza riga** per aprire il dialogo **Altezza riga**.
+1. Inserire un nuovo valore nella casella di dialogo.
+1. Fare clic su **Chiudi**.
 
 L'editor cambierà l'altezza della riga.
 
 **Come funziona?**
 
- Quando l'utente invia il valore di larghezza e altezza, questi valori vengono gestiti lato server da**setCurrentRowHeight** e**setCurrentColumnWidth** metodi del bean backend JSF**Foglio di lavoroVisualizza**.
+Quando l'utente invia il valore di larghezza e altezza, questi valori vengono gestiti sul lato server dai metodi **setCurrentRowHeight** e **setCurrentColumnWidth** del bean backend JSF **WorksheetView**.
 #### **WorksheetView.setCurrentRowHeight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentRowHeight(int height) {
 
@@ -290,7 +291,7 @@ L'editor cambierà l'altezza della riga.
 {{< /highlight >}}
 
 #### **WorksheetView.setCurrentColumnWidth**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentColumnWidth(int width) {
 
@@ -309,21 +310,21 @@ L'editor cambierà l'altezza della riga.
     }
 
 {{< /highlight >}}
-### **Inserisci uno Cell**
+### **Inserisci una cella**
 Per aggiungere una nuova cella:
 
-1. Fare clic su una cella in cui si desidera nuovo.
-1.  Passa a**Inserisci scheda**.
-1.  Clic**Cell** pulsante.
-1.  Scegliere**Maiusc Cells Destra** o**Maiusc Cells Giù** pulsante.
+1. Fare clic su una cella dove si desidera quella nuova.
+1. Passare alla scheda **Inserisci**.
+1. Fare clic sul pulsante **Cella**.
+1. Scegliere il pulsante **Spostare celle a destra** o **Spostare celle in basso**.
 
-L'editor aggiungerà una nuova cella nella posizione selezionata. Le celle adiacenti verranno automaticamente spostate orizzontalmente o verticalmente per creare spazio per quella nuova.
+L'editor aggiungerà una nuova cella nella posizione selezionata. Le celle adiacenti verranno spostate automaticamente orizzontalmente o verticalmente per creare spazio per la nuova.
 
 **Come funziona?**
 
- Il**Maiusc Cells Destra** e**Maiusc Cells Giù** sono gestiti dal bean backend JSF**Foglio di lavoroVisualizza**. Il codice sorgente dei rispettivi metodi è il seguente:
+Lo **Spostamento celle a destra** e **Spostamento celle in basso** sono gestiti dal bean JSF backend **WorksheetView**. Il codice sorgente dei rispettivi metodi è il seguente:
 #### **WorksheetView.addCellShiftRight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftRight() {
 
@@ -348,7 +349,7 @@ L'editor aggiungerà una nuova cella nella posizione selezionata. Le celle adiac
 {{< /highlight >}}
 
 #### **WorksheetView.addCellShiftDown**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftDown() {
 

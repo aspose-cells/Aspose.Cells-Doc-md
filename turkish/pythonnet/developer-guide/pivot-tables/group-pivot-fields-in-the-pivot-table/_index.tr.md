@@ -1,21 +1,22 @@
 ---
-title: Pivot Tablodaki Grup Pivot Alanları
+title: Pivot Tablosunda Alanları Gruplandırın
 type: docs
 weight: 80
 url: /tr/python-net/group-pivot-fields-in-the-pivot-table/
-description: Pivot Tablodaki Pivot Alanları Aspose.Cells for Python via .NET ile nasıl gruplandırılır.
-keywords: Group Pivot Fields in the Pivot Table.
+description: Python için Aspose.Cells ile Pivot Tablosundaki Pivot Alanlarını Gruplama via .NET.
+keywords: Python için Aspose.Cells Excel, Excel Python kütüphanesi, Aspose.Cells ile Pivot Tablosundaki Pivot Alanlarını Gruplama.
 ---
-##  **Olası Kullanım Senaryoları**
 
-Microsoft Excel, pivot tablonun pivot alanlarını gruplandırmanıza olanak tanır. Bir pivot alanıyla ilgili büyük miktarda veri olduğunda bunları bölümler halinde gruplamak genellikle yararlı olur. Aspose.Cells for Python via .NET de bu özelliği kullanarak[**PivotTable.set_manual_group_field()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-float-float-list-float)yöntem.
+## **Olası Kullanım Senaryoları**
 
-##  **Pivot Tablodaki Grup Pivot Alanları**
+Microsoft Excel, pivot tablosunun pivot alanlarını gruplamanıza izin verir. Bir pivot alanı ile ilgili büyük miktarda veri olduğunda, bunları bölümlere ayırmak genellikle faydalıdır. Aspose.Cells for Python via .NET, bunu ayrıca [**PivotTable.set_manual_group_field()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-float-float-list-float) yöntemini kullanarak sağlar.
 
- Aşağıdaki örnek kod,[örnek Excel dosyası](64716818.xlsx) ve kullanarak ilk pivot alanında gruplandırmayı gerçekleştirir.[**PivotTable.set_manual_group_field()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-float-float-list-float) yöntem. Daha sonra pivot tablonun verilerini yeniler, hesaplar ve çalışma kitabını şu şekilde kaydeder:[Excel dosyasının çıktısı](64716817.xlsx)Ekran görüntüsü, örnek kodun örnek Excel dosyası üzerindeki etkisini gösterir. Ekran görüntüsünde görebileceğiniz gibi, ilk pivot alanı artık aylara ve üç aylık dönemlere göre gruplandırılmıştır.
+## **Pivot Tablosundaki Pivot Alanlarını Gruplama**
 
-![yapılacak şey:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
+Aşağıdaki örnek kod, [örnek Excel dosyasını](64716818.xlsx) yükler ve ilk pivot alanında [**PivotTable.set_manual_group_field()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/set_manual_group_field/#int-float-float-list-float) yöntemini kullanarak gruplama yapar. Ardından pivot tablosunun verilerini yeniler ve hesaplar ve çalışma kitabını [çıktı Excel dosyası olarak](64716817.xlsx) kaydeder. Ekran görüntüsü, örnek kodun örneğin Excel dosyası üzerindeki etkisini göstermektedir. Ekran görüntüsünde gördüğünüz gibi, ilk pivot alanı artık aylara ve çeyreklere göre gruplandırılmış durumda.
 
-##  **Basit kod**
+![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-GroupPivotFieldsInPivotTable.py" >}}

@@ -1,15 +1,16 @@
-﻿---
-title: ワークシートの保護に使用するパスワードの確認
+---
+title: ワークシートを保護するために使用されたパスワードの検証
 type: docs
 weight: 370
 url: /ja/net/verify-password-used-to-protect-the-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells API により、[**保護**](https://reference.aspose.com/cells/net/aspose.cells/protection)いくつかの便利なプロパティとメソッドを導入してクラスを作成します。そのような方法の 1 つは、[**パスワードを照合します**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword)これにより、パスワードをインスタンスとして指定できます*ストリング*を保護するために同じパスワードが使用されているかどうかを確認します。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
+Aspose.Cells の API は [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/protection) クラスを向上させ、いくつかの便利なプロパティとメソッドを導入しています。 そのようなメソッドの1つは、*string* のインスタンスとしてパスワードを指定し、[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) を保護すると同じパスワードが使用されたかを検証する [**VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) です。
 
 {{% /alert %}}
 
-の[**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword)メソッドが返す**真実**指定されたパスワードが、指定されたワークシートを保護するために使用されるパスワードと一致する場合、および**間違い**指定したパスワードが一致しない場合。次のコードでは、[**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword)と組み合わせた方法[**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword)プロパティを使用してパスワード保護を検出し、パスワードを検証します。
+[**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) メソッドは、指定されたパスワードが指定されたワークシートを保護するために使用されたパスワードに一致する場合は **true** を返し、指定されたパスワードが一致しない場合は **false** を返します。 次のコード片は、パスワード保護を検出し、パスワードを検証するために [**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) メソッドと [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) プロパティを組み合わせて使用します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-VerifyPasswordUsedToProtectWorksheets-VerifyPasswordUsedToProtectWorksheets.cs" >}}

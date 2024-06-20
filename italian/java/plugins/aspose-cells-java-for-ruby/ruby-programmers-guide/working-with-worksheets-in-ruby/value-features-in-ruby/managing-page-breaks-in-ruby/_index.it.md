@@ -1,16 +1,17 @@
-﻿---
-title: Gestione delle interruzioni di pagina in Ruby
+---
+title: Gestione interruzioni di pagina in Ruby
 type: docs
 weight: 20
 url: /it/java/managing-page-breaks-in-ruby/
 ---
-## **Aspose.Cells - Gestione interruzioni di pagina**
-### **Aggiunta di interruzioni di pagina**
- Per aggiungere interruzioni di pagina utilizzando**Aspose.Cells Java per Rubino** , chiamata**add_page_breaks** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
 
-**Codice Rubino**
+## **Aspose.Cells - Gestisci interruzioni di pagina**
+### **Aggiunta dei salti di pagina**
+Per aggiungere interruzioni di pagina utilizzando **Aspose.Cells Java per Ruby**, chiama il metodo **add_page_breaks** del modulo **pagebreaks**. Di seguito puoi vedere un esempio di codice.
 
-{{< highlight "ruby" >}}
+**Codice Ruby**
+
+{{< highlight ruby >}}
 
  def add_page_breaks(workbook)
 
@@ -38,11 +39,11 @@ end   
 
 {{< /highlight >}}
 ### **Cancellazione di tutte le interruzioni di pagina**
- Per cancellare tutte le interruzioni di pagina utilizzando**Aspose.Cells Java per Rubino** , chiamata**cancella_tutte_le_interruzioni_di_pagina** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
+Per eliminare tutte le interruzioni di pagina utilizzando **Aspose.Cells Java per Ruby**, chiama il metodo **clear_all_page_breaks** del modulo **pagebreaks**. Di seguito puoi vedere un esempio di codice.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def clear_all_page_breaks(workbook)
 
@@ -59,12 +60,12 @@ end   
 end 
 
 {{< /highlight >}}
-### **Rimozione di un'interruzione di pagina specifica**
- Per rimuovere un'interruzione di pagina specifica utilizzando**Aspose.Cells Java per Rubino** , chiamata**remove_page_break** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
+### **Rimuovere interruzione di pagina specifica**
+Per rimuovere un'interruzione di pagina specifica utilizzando **Aspose.Cells Java per Ruby**, chiama il metodo **remove_page_break** del modulo **pagebreaks**. Di seguito puoi vedere un esempio di codice.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_page_break(workbook)
 
@@ -94,6 +95,6 @@ end 
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Gestione interruzioni di pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Gestione Interruzioni di Pagina (Aspose.Cells)** da uno dei siti di codice sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreaks.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreaks.rb)

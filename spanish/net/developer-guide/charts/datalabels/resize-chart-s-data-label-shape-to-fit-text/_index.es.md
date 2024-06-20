@@ -1,23 +1,24 @@
 ---
-title: Cambiar el tamaño de la forma de la etiqueta de datos del gráfico para que se ajuste al texto
-description: Aprenda a cambiar el tamaño de la forma de la etiqueta de datos en un gráfico para que se ajuste al texto en Aspose.Cells for .NET. Nuestra guía le mostrará cómo ajustar el tamaño y la forma del contenedor de etiquetas para garantizar que el texto se muestre correctamente sin truncamiento ni superposición.
-keywords: Aspose.Cells for .NET, charting, data labels, shape resizing, text fitting, truncation, overlapping.
+title: Redimensionar la forma de la etiqueta de datos del gráfico para ajustar el texto
+description: Aprende cómo cambiar el tamaño de la forma de la etiqueta de datos en un gráfico para que se ajuste al texto en Aspose.Cells for .NET. Nuestra guía te mostrará cómo ajustar el tamaño y la forma del contenedor de la etiqueta para asegurar que el texto se muestre correctamente sin truncarse ni superponerse.
+keywords: Aspose.Cells for .NET, gráficos, etiquetas de datos, cambio de forma, ajuste de texto, truncación, superposición.
 type: docs
 weight: 220
 url: /es/net/resize-chart-s-data-label-shape-to-fit-text/
 ---
+
 {{% alert color="primary" %}}
 
- La aplicación Excel proporciona la**Cambiar el tamaño de la forma para que se ajuste al texto** opción para las etiquetas de datos del gráfico para aumentar el tamaño de la forma para que el texto encaje dentro de ella.
+La aplicación de Excel proporciona la opción **Redimensionar la forma para que se ajuste al texto** para las Etiquetas de Datos en el Gráfico con el fin de aumentar el tamaño de la forma para que el texto quepa en ella.
 
 {{% /alert %}}
 
-##  **Cómo cambiar el tamaño de la forma de la etiqueta de datos del gráfico para que se ajuste al texto en Microsoft Excel**
+## **Cómo Cambiar el Tamaño de la Forma de la Etiqueta de Datos en un Gráfico en Microsoft Excel**
 
-Se puede acceder a esta opción en la interfaz de Excel seleccionando cualquiera de las etiquetas de datos en el gráfico. Haga clic derecho y seleccione el**Formatear etiquetas de datos** menú. En**Tamaño y propiedades** pestaña, expandir**Alineación** para revelar las propiedades relacionadas, incluida la**Cambiar el tamaño de la forma para arreglar el texto** opción.
+Esta opción puede accederse en la interfaz de Excel seleccionando cualquiera de las etiquetas de datos en el gráfico. Haz clic derecho y selecciona el menú **Formato de Etiquetas de Datos**. En la pestaña **Tamaño y Propiedades**, expande **Alineación** para revelar las propiedades relacionadas, incluida la opción **Redimensionar la forma para ajustar el texto**.
 
-##  **Cómo cambiar el tamaño de la forma de la etiqueta de datos del gráfico para que se ajuste al texto usando Aspose.Cells for .NET**
+## **Cómo Cambiar el Tamaño de la Forma de la Etiqueta de Datos para que se Ajuste al Texto Usando Aspose.Cells for .NET**
 
-Para imitar la función de Excel de cambiar el tamaño de las formas de las etiquetas de datos para que se ajusten al texto, las API Aspose.Cells han expuesto el tipo booleano.[**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext) propiedad. El siguiente fragmento de código muestra el escenario de uso simple de[**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext)propiedad.
+Para imitar la característica de Excel de redimensionar las formas de las etiquetas de datos para que se ajusten al texto, las APIs de Aspose.Cells han expuesto la propiedad de tipo Booleano [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext). El siguiente fragmento de código muestra el escenario de uso simple de la propiedad [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ResizeChartDataLabelToFit-1.cs" >}}

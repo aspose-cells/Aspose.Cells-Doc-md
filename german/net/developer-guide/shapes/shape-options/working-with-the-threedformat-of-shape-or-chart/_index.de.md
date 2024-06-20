@@ -1,13 +1,14 @@
-﻿---
-title: Arbeiten mit dem ThreeDFormat von Shape oder Chart
+---
+title: Arbeiten mit dem 3D Format von Form oder Diagramm
 type: docs
 weight: 250
 url: /de/net/working-with-the-threedformat-of-shape-or-chart/
 ---
-## **Mögliche Nutzungsszenarien**
- Aspose.Cells bietet die[Shape.ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/threedformat) Eigentum zusammen mit[ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/threedformat) Klasse, um mit dem 3-D-Format von Formen oder Diagrammen zu arbeiten. Das[ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/threedformat)Klasse enthält verschiedene Eigenschaften, die eingestellt werden können, um je nach Anwendungsanforderungen unterschiedliche Ergebnisse zu erzielen.
-## **Arbeiten mit dem ThreeDFormat von Shape oder Chart**
- Der folgende Beispielcode lädt die[Excel-Quelldatei](5115419.xlsx) und greift auf die erste Form im ersten Arbeitsblatt zu und legt die Untereigenschaften von fest[Shape.ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/threedformat)-Eigenschaft und speichert dann die Arbeitsmappe in der[Excel-Datei ausgeben](5115410.xlsx).
+
+## **Mögliche Verwendungsszenarien**
+Aspose.Cells bietet die Eigenschaft [Shape.ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/threedformat) zusammen mit der Klasse [ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/threedformat), um mit dem 3-D-Format von Formen oder Diagrammen zu arbeiten. Die Klasse [ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/threedformat) enthält verschiedene Eigenschaften, die eingestellt werden können, um unterschiedliche Ergebnisse gemäß den Anwendungsanforderungen zu erzielen.
+## **Arbeiten mit dem ThreeDFormat von Shape oder Diagramm**
+Der folgende Beispielcode lädt die [Quelldatei](5115419.xlsx) und greift auf die erste Form im ersten Arbeitsblatt zu, stellt die Unter-Eigenschaften der Eigenschaft [Shape.ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/threedformat) ein und speichert dann die Arbeitsmappe in der [Ausgabedatei](5115410.xlsx).
 
 
 

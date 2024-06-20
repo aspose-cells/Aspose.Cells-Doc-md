@@ -1,24 +1,25 @@
-﻿---
-title: Gå till textrutan efter namnet
+---
+title: Tillgång till textfältet genom namnet
 type: docs
 weight: 230
 url: /sv/net/access-the-text-box-by-the-name/
 ---
-## Gå till textrutan efter namnet
 
- Tidigare nås textrutor via index från[**Arbetsblad. Textrutor**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)samling men nu kan du också komma åt textrutan med namn från denna samling. Detta är ett bekvämt och snabbt sätt att komma åt din textruta om du redan känner till dess namn.
+## Åtkomst till textlådan med namnet
 
-Följande exempelkod skapar först en textruta och tilldelar den lite text och namn. Sedan på nästa rader kommer vi åt samma textruta med dess namn och skriver ut dess text.
+Tidigare fick man åtkomst till textboxar med index från [**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes) samlingen men nu kan du också få åtkomst till textboxen med namn från denna samling. Detta är ett bekvämt och snabbt sätt att få åtkomst till din textruta om du redan känner till dess namn.
 
-### C# kod för att komma åt textrutan med namn
+Följande provkod skapar först en textruta och tilldelar den någon text och namn. Sedan i de följande raderna får vi åtkomst till samma textruta genom dess namn och skriver ut dess text.
+
+### C#-kod för att få åtkomst till textlådan med namn
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AccessTextBoxName-AccessTextBoxName.cs" >}}
 
-### Konsolutdata genererad av exempelkoden
+### Konsoloutput som genereras av provkoden
 
-Här är konsolutgången för ovanstående exempelkod.
+Här är konsoloutputen från ovanstående exempelkod.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 This is MyTextBox
 

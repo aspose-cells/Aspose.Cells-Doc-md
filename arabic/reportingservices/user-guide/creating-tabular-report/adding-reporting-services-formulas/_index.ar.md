@@ -1,35 +1,36 @@
-﻿---
-title: إضافة صيغ خدمات التقارير
+---
+title: إضافة صيغ خدمات الإبلاغ
 type: docs
 weight: 30
 url: /ar/reportingservices/adding-reporting-services-formulas/
 ---
-لإضافة صيغ خدمات التقارير إلى خلية بيانات الجدول ، اتبع الخطوات أدناه:
 
--  حدد خلية بيانات الجدول وانقر**أدخل الصيغة**على Aspose.Cells.Report.Designer شريط الأدوات (
+لإضافة صيغ خدمات الإبلاغ إلى خلية بيانات الجدول، اتبع الخطوات التالية:
 
-![ما يجب القيام به: image_بديل_نص](adding-reporting-services-formulas_1.png)
+- قم بتحديد خلية بيانات الجدول وانقر على **إدراج صيغة** في شريط أدوات مصمم Aspose.Cells.Report.
+
+![todo:image_alt_text](adding-reporting-services-formulas_1.png)
 
 ).
 
-![ما يجب القيام به: image_بديل_نص](adding-reporting-services-formulas_2.png)
+![todo:image_alt_text](adding-reporting-services-formulas_2.png)
 
 
 
 
--  حدد "DataSet" في اللوحة اليسرى ، وحدد "EmpSalesDetail" في اللوحة الوسطى وانقر نقرًا مزدوجًا فوق "Sum (EmpSalesDetail.OrderQty)" في اللوحة اليمنى. يظهر تعبير الصيغة في مربع التحرير العلوي. انقر**نعم** زر لإدراج التعبير في الخلية.
+- حدد ”DataSet” في اللوحة اليسرى، حدد ”EmpSalesDetail” في اللوحة الوسطى وانقر مرتين على ”Sum(EmpSalesDetail.OrderQty)” في اللوحة اليمنى. يظهر تعبير الصيغة في مربع التحرير العلوي. انقر على زر **موافق** لإدراج التعبير في الخلية.
 
-![ما يجب القيام به: image_بديل_نص](adding-reporting-services-formulas_3.png)
+![todo:image_alt_text](adding-reporting-services-formulas_3.png)
 
-- سيتم عرض النتيجة على النحو التالي.
+- سيتم عرض النتيجة كما يلي.
 
 
-**التعبير المدرج** 
+**التعبير المدخل** 
 
-![ما يجب القيام به: image_بديل_نص](adding-reporting-services-formulas_4.png)
+![todo:image_alt_text](adding-reporting-services-formulas_4.png)
 
-- كرر الخطوات المذكورة أعلاه لإضافة صيغة إلى عمود المبيعات ، كما هو موضح في ما يلي.
+- كرر الخطوات السابقة لإضافة الصيغة إلى عمود المبيعات، كما هو موضح فيما يلي.
 
 **تمت إضافة الصيغة إلى عمود المبيعات** 
 
-![ما يجب القيام به: image_بديل_نص](adding-reporting-services-formulas_5.png)
+![todo:image_alt_text](adding-reporting-services-formulas_5.png)

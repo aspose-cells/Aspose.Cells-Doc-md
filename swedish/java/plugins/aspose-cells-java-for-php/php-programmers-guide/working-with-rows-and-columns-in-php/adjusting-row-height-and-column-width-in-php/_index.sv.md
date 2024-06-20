@@ -1,19 +1,20 @@
-﻿---
+---
 title: Justera radhöjd och kolumnbredd i PHP
 type: docs
 weight: 10
 url: /sv/java/adjusting-row-height-and-column-width-in-php/
 ---
-## **Aspose.Cells - Justering av radhöjd och kolumnbredd**
-### **Ställa in radhöjden**
-Det är möjligt att ställa in höjden på en enda rad genom att anropa Cells-samlingens setRowHeight-metod. Metoden setRowHeight tar följande parametrar:
 
-- **Radindex**, indexet för raden som du ändrar höjden på.
+## **Aspose.Cells - Justera radhöjd och kolumnbredd**
+### **Ange radhöjden**
+Det är möjligt att ange höjden för en enskild rad genom att anropa samlingen för 'cells' 'setRowHeight' -metoden.
+
+- **Radindex**, index för den rad vars höjd du ändrar.
 - **Radhöjd**, radhöjden som ska tillämpas på raden.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_row_height($dataDir)
 
@@ -42,15 +43,15 @@ Det är möjligt att ställa in höjden på en enda rad genom att anropa Cells-s
 }
 
 {{< /highlight >}}
-### **Ställa in kolumnbredden**
-Ställ in bredden på en kolumn genom att anropa Cells-samlingens setColumnWidth-metod. Metoden setColumnWidth tar följande parametrar:
+### **Ange kolumnbredden**
+Ange bredden på en kolumn genom att anropa samlingen 'cells' 'setColumnWidth' -metoden.
 
-- **Kolumnindex**, indexet för kolumnen som du ändrar bredden på.
+- **Kolumnindex**, index för den kolumn vars bredd du ändrar.
 - **Kolumnbredd**, önskad kolumnbredd.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_column_width($dataDir)
 
@@ -79,7 +80,7 @@ Ställ in bredden på en kolumn genom att anropa Cells-samlingens setColumnWidth
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Justera radhöjd och kolumnbredd (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Justera radhöjd och kolumnbredd (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

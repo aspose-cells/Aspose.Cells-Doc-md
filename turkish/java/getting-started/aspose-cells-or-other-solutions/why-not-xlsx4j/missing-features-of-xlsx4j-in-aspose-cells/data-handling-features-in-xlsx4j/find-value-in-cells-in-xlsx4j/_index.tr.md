@@ -1,15 +1,16 @@
-﻿---
-title: xlsx4j'de Cells'de Değer Bulun
+---
+title: xlsx4j de Hücrelerde Değer Bulma
 type: docs
 weight: 30
 url: /tr/java/find-value-in-cells-in-xlsx4j/
 ---
-## **Aspose.Cells - Cells'de Değer Bulun**
-Microsoft Excel'de, kullanıcılar belirli verileri içeren hücreleri arayabilir. Örneğin, tıklama**Düzenlemek**ve sonra**Bulmak**Ara iletişim kutusunu açar. Kullanıcılar bir değer girer ve tıklar**Tamam**onu aramak için Excel, eşleşen alanları vurgular.
+
+## **Aspose.Cells - Hücrelerde Değer Bul**
+Microsoft Excel'de kullanıcılar belirli veriler içeren hücreleri arayabilir. Örneğin, **Düzenle**'ye tıkladıktan sonra **Bul** açılır iletişim kutusunu açarlar. Kullanıcılar bir değer girer ve aramak için **Tamam**'a tıklarlar. Excel eşleşen alanları vurgular.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -40,11 +41,11 @@ System.out.println("Name of the cell containing String: " + cell.getName());
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/findvalueincells/AsposeFindValueInCells.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Veri Bul veya Ara](/cells/tr/java/find-or-search-data).
+Daha fazla bilgi için [Veri Bulma veya Arama](/cells/tr/java/find-or-search-data)'yı ziyaret edin.
 
 {{% /alert %}}

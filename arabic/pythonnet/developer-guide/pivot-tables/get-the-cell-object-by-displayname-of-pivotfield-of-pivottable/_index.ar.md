@@ -1,27 +1,28 @@
 ---
-title: احصل على الكائن Cell بواسطة DisplayName of PivotField of PivotTable
+title: الحصول على كائن الخلية حسب اسم العرض المتجانس لحقل PivotField من جدول الدوران
 type: docs
 weight: 70
 url: /ar/python-net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
-description: كيفية الحصول على الكائن Cell بواسطة DisplayName of PivotField of PivotTable مع Aspose.Cells for Python via .NET.
-keywords: Get the Cell object by DisplayName of PivotField of PivotTable.
+description: كيفية الحصول على كائن الخلية بواسطة اسم العرض لحقل PivotField في جدول البيانات المحوري باستخدام Aspose.Cells لـ Python via .NET.
+keywords: Aspose.Cells لـ Python، مكتبة Python الخاصة بالإكسل، الحصول على كائن الخلية بواسطة اسم العرض لحقل PivotField في جدول البيانات المحوري باستخدام Aspose.Cells لمكتبة Python الخاصة بالإكسل.
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for Python via .NET يوفر[**PivotTable.get_cell_by_display_name(display_name)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/get_cell_by_display_name/#str) الطريقة التي يمكنك استخدامها للوصول إلى كائن الخلية عن طريق عرض اسم الحقل المحوري. تكون هذه الطريقة مفيدة عندما تريد تمييز رأس الحقل المحوري أو تنسيقه. تشرح هذه المقالة كيفية استرداد كائن الخلية بواسطة اسم العرض لحقل البيانات ثم تطبيق التنسيق عليه.
+تقدم Aspose.Cells لـ Python via .NET [**PivotTable.get_cell_by_display_name(display_name)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/get_cell_by_display_name/#str) الذي يمكنك استخدامه للوصول إلى كائن الخلية بواسطة اسم العرض لحقل pivot. يعتبر هذا الأسلوب مفيدًا عندما تريد تحديد أو تنسيق رأس حقل الجدول المحوري الخاص بك. تشرح هذه المقالة كيفية استرداد كائن الخلية بواسطة اسم العرض لحقل البيانات ثم تطبيق التنسيق عليه.
 
 {{% /alert %}}
 
-##  **احصل على الكائن Cell بواسطة DisplayName of PivotField of PivotTable**
+## **كيفية الحصول على كائن الخلية بواسطة اسم العرض لحقل PivotField في جدول البيانات المحوري**
 
-يصل الكود التالي إلى الجدول المحوري الأول لورقة العمل ثم يحصل على الخلية حسب اسم العرض لحقل البيانات الثاني للجدول المحوري. ثم يقوم بتغيير لون التعبئة ولون الخط للخلية إلى اللون الأزرق الفاتح والأسود على التوالي. توضح لقطات الشاشة أدناه كيف يبدو الجدول المحوري قبل وبعد تنفيذ التعليمات البرمجية.
+يقوم الكود التالي بالوصول إلى أول جدول مفصلي في ورقة العمل ثم الحصول على الخلية بواسطة اسم العرض لحقل البيانات الثاني في الجدول المفصلي. يغير بعد ذلك لون التعبئة ولون الخط للخلية إلى اللون الأزرق الفاتح والأسود على التوالي. تُظهر اللقطات الشاشية أدناه كيفية ظهور الجدول المفصلي قبل وبعد تنفيذ الكود.
 
-|**الجدول المحوري - قبل**|
+|**جدول مفصلي - قبل**|
 | :- |
-|![ما يجب القيام به:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)|
+|![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-GetCellByDisplayName-GetCellObjectByDisplayName.py" >}}
 
-|**الجدول المحوري - بعد**|
+|**جدول مفصلي - بعد**|
 | :- |
-|![ما يجب القيام به:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+|![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|

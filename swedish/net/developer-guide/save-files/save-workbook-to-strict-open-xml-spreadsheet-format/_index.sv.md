@@ -1,16 +1,17 @@
-﻿---
-title: Spara arbetsboken i strikt öppet XML-kalkylbladsformat
+---
+title: Spara arbetsbok till strikt öppet XML kalkylbladsformat
 type: docs
 weight: 150
 url: /sv/net/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
-## **Möjliga användningsscenarier**
 
-Aspose.Cells låter dig spara arbetsboken i*Strikt öppet XML-kalkylblad*formatera. För detta ändamål tillhandahåller den**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)**fast egendom. Om du ställer in dess värde som**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)**, då sparas den utgående Excel-filen i Strict Open XML Spreadsheet-format.
+## **Möjliga användningsscenario**
 
-## **Spara arbetsboken i strikt öppet XML-kalkylbladsformat**
+Aspose.Cells låter dig spara arbetsboken i *Strikt Öppet XML Kalkylblad* format. För detta ändamål tillhandahåller den [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance) egenskapen. Om du ställer in dess värde som [**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance), kommer den resulterande Excel-filen att sparas i Strikt Öppet XML Kalkylblad format.
 
-Följande exempelkod skapar en arbetsbok och anger värdet för**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)** egendom som**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)** och sparar den som[utdata Excel-fil](67338272.xlsx) . Om du öppnar den utgående Excel-filen i Microsoft Excel och öppnar dialogrutan Spara som... ser du dess format som*Strikt öppet XML-kalkylblad*som visas i denna skärmdump.
+## **Spara arbetsbok i strikt öppet XML-kalkylbladsformat**
+
+Följande exempelkod skapar en arbetsbok och ställer in värdet för [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance) egenskapen som [**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)och sparar den som [utdata Excel-fil](67338272.xlsx). Om du öppnar utdata Excel-filen i Microsoft Excel och öppnar dialogrutan Spara som..., kommer du att se dess format som *Strikt Öppet XML Kalkylblad*, vilket visas på denna skärmbild.
 
 ![todo:image_alt_text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 

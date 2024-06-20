@@ -1,22 +1,23 @@
-﻿---
-title: Ändra teckenavstånd i Excel TextBox eller Shape
+---
+title: Ändra karaktärsavståndet för Excel TextBox eller Shape
 type: docs
 weight: 740
 url: /sv/java/change-character-spacing-of-excel-textbox-or-shape/
 ---
+
 {{% alert color="primary" %}} 
 
- Du kan ändra teckenavståndet i Excel-textrutan eller -formen med hjälp av[FontSetting.TextOptions.Spacing](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#Spacing) fast egendom.
+Du kan ändra karaktärsavståndet för Excel TextBox eller Shape med hjälp av egenskapen [FontSetting.TextOptions.Spacing](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#Spacing).
 
 {{% /alert %}} 
-## **Ändra teckenavstånd i Excel TextBox eller Shape**
-Följande exempelkod ändrar teckenavståndet i textrutan i en excel-fil till punkt 4 och sparar den sedan på disk.
+## **Ändra karaktärsavståndet för Excel TextBox eller Shape**
+Följande exempelkod ändrar karaktärsavståndet för textrutan i en Excel-fil till 4 punkter och sparar den sedan på disk.
 
- Följande skärmdump visar hur[exempel på excel-fil](5473426.xlsx) ser före exekvering av koden.
+Följande skärmbild visar hur [exempel på Excel-filen](5473426.xlsx) ser ut innan koden körts.
 
 ![todo:image_alt_text](change-character-spacing-of-excel-textbox-or-shape_1.png)
 
- Följande skärmdump visar hur[output excel-fil](5473425.xlsx) ser efter exekveringen av koden.
+Följande skärmbild visar hur [utdata Excel-filen](5473425.xlsx) ser ut efter att koden körts.
 
 ![todo:image_alt_text](change-character-spacing-of-excel-textbox-or-shape_2.png)
 

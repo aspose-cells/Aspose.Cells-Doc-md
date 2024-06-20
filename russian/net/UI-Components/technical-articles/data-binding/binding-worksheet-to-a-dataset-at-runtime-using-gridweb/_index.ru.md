@@ -1,15 +1,18 @@
-﻿---
-title: Привязка рабочего листа к набору данных во время выполнения с помощью GridWeb
+---
+title: Привязка листа к набору данных на этапе выполнения с использованием GridWeb
 type: docs
 weight: 70
-url: /ru/net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
+url: /ru/net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
+keywords: GridWeb,bind,DataSet
+description: В данной статье рассматривается, как связать лист с набором данных в GridWeb.
 ---
+
 ## **Возможные сценарии использования**
-Aspose.Cells.GridWeb предоставляет простой API, который можно использовать для динамической привязки набора данных к рабочему листу.
-## **Привязка рабочего листа к набору данных**
-В следующем примере кода объясняется, как привязать рабочий лист к набору данных во время выполнения.
+Aspose.Cells.GridWeb предоставляет удобный API, который можно использовать для динамического связывания набора данных с листом.
+## **Связать лист с набором данных**
+В следующем примере кода объясняется, как связать лист с набором данных на этапе выполнения.
 ## **Образец кода**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Implementing Page_Load event handler
 
@@ -80,7 +83,7 @@ public partial class GridBind : System.Web.UI.Page
 }
 
 {{< /highlight >}}
-## **Выходной снимок экрана**
-На следующем снимке экрана показан GridWeb после выполнения приведенного выше примера кода.
+## **Скриншот вывода**
+На следующем скриншоте показан GridWeb после выполнения вышеприведенного примера кода.
 
-![дело:изображение_альтернативный_текст](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

@@ -1,19 +1,20 @@
-﻿---
-title: Documento de vista previa
+---
+title: Vista previa de documento
 type: docs
 weight: 30
 url: /es/sharepoint/preview-document/
 ---
-Para obtener una vista previa de un documento de Excel Microsoft en la biblioteca de documentos:
 
-1.  Seleccione**Vista previa del documento con Aspose.Cells** desde el bloque de control de edición (ECB) del documento.
+Para previsualizar un documento de Microsoft Excel en la biblioteca de documentos:
 
-   **Seleccionar documento de vista previa en el menú** 
+1. Seleccione **Vista previa del documento con Aspose.Cells** desde el Bloque de control de edición (ECB) del documento. 
 
-![todo:imagen_alternativa_texto](preview-document_1.png)
+   **Seleccionar Vista previa de documento desde el menú** 
+
+![todo:image_alt_text](preview-document_1.png)
 
 
 
 **Vista previa del documento** 
 
-![todo:imagen_alternativa_texto](preview-document_2.png)
+![todo:image_alt_text](preview-document_2.png)

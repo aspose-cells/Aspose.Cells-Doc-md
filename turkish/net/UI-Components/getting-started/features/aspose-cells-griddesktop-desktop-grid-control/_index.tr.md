@@ -1,51 +1,54 @@
-﻿---
-title: Aspose.Cells.GridDesktop - Masaüstü Izgara Kontrolü
+---
+title: Aspose.Cells.GridDesktop  Masaüstü Izgara Kontrolü
 type: docs
 weight: 30
-url: /tr/net/aspose-cells-griddesktop-desktop-grid-control/
+url: /tr/net/aspose-cells-griddesktop/features/
+keywords: GridDesktop,features,feature
+description: Bu makale, GridDesktop için özellikleri tanıtır.
 ---
+
 ## **Aspose.Cells.GridDesktop – Masaüstü Izgara Kontrolü**
-### **İçe/Dışa Aktarma Özellikleri**
-- İçeriği Excel elektronik tablolarından içe aktarın.
-- Verileri doğrudan bir DataTable nesnesinden içe aktarın.
-- İçeriği Excel elektronik tablolarına aktarın.
+### **İçe Aktarma/Dışa Aktarma Özellikleri**
+- Excel elektronik tablolarından içerik içe aktarın.
+- DataTable nesnesinden verileri doğrudan içe aktarın.
+- İçeriği Excel elektronik tablolarına dışa aktarın.
 ### **Çalışma Sayfası Özellikleri**
-- Çalışma sayfaları ekleyin, ekleyin veya kaldırın.
-- Çalışma sayfalarını yeniden adlandırın.
-- Çalışma sayfası verilerini sıralayın.
+- Çalışsayfaları ekleyin, ekleyin veya kaldırın.
+- Çalışsayfalarını yeniden adlandırın.
+- Çalışsayfa verilerini sıralayın.
 ### **Satır ve Sütun Özellikleri**
 - Satır ve sütun ekleyin, ekleyin veya kaldırın.
-- Satırları ve sütunları gizleyin veya gösterin.
-- Satırları ve sütunları dondurun veya çözün.
-### **Cell Özellikler**
+- Satır ve sütunları gizle veya göster
+- Satır ve sütunları sabitleyin veya sabitlemeyi kaldırın.
+### **Hücre Özellikleri**
 - Sayı biçimi ayarlarını destekler.
 - Metin hizalamasını kontrol edin.
 - Kenarlık ayarlarını yönetin.
-- Yazı tipi ayarlarını kontrol edin.
-- Hücreleri birleştirin veya ayırın.
+- Yazı tipi ayarlarını kontrol etme.
+- Hücreleri birleştirin veya bölün.
 ### **Biçimlendirme Özellikleri**
-- Izgaranın davranışını, görünümünü ve verdiği hissi kontrol edin.
-- Biçim Boyacısı'nı kullanarak odaklanmış bir hücrenin stilini ve yazı tipini diğer hücrelere uygulayın.
-- Verileri ve hücre stillerini kolayca değiştirin.
+- Izgaranın davranışını, görünümünü ve hissini kontrol edin.
+- Format Boyacısını kullanarak odaklanmış bir hücrenin stili ve yazı tipini diğer hücrelere uygulayın.
+- Verileri ve hücre stillerini kolayca manipulate edin.
 ### **Yardımcı Özellikler**
 - Hücre yorumları ekleyin veya kaldırın.
-- Resimleri ekleyin veya kaldırın.
-- Köprüleri ekleyin veya kaldırın.
+- Resim ekleyin veya kaldırın.
+- Bağlantı ekleyin veya kaldırın.
 - Doğrulama kuralları ekleyin veya kaldırın.
-- Hücrelere kontroller (CheckBox, ComboBox vb.) ekleyin veya kaldırın.
-- Hücrelerin klavye gezintisi.
-### **Güvenlik özellikleri**
+- Hücrelere denetimler ekleyin veya kaldırın (CheckBox, ComboBox vb.).
+- Hücrelerin klavyeyle gezinmesi.
+### **Güvenlik Özellikleri**
 - Hücrelerinizi kilitleyerek veya gizleyerek koruyun.
-### **Gelişmiş Özellikler**
-- Formül oluşturmayı ve hesaplamayı destekler.
-- Farklı ızgara olayları altında istediğiniz eylemleri gerçekleştirin.
+### **İleri Düzey Özellikler**
+- Formüller oluşturmak ve hesaplamak için destek sağlar.
+- Farklı ızgara olayları altında istenen eylemleri gerçekleştirin.
 ### **Desteklenen Microsoft Excel Sürümleri**
 - Microsoft Excel 97
-- Microsoft excel 2000
+- Microsoft Excel 2000
 - Microsoft Excel XP
-- Microsoft excel 2003
-- Microsoft excel 2007
-- Microsoft excel 2010
-- Microsoft excel 2013
+- Microsoft Excel 2003
+- Microsoft Excel 2007
+- Microsoft Excel 2010
+- Microsoft Excel 2013
 ### **Desteklenen Platformlar**
-- Windows Formlar
+- Windows Forms

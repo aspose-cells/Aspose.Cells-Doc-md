@@ -1,46 +1,47 @@
-﻿---
+---
 title: إضافة المعلومات الأساسية للجدول
 type: docs
 weight: 20
 url: /ar/reportingservices/adding-base-information-for-table/
 ---
+
 لإنشاء جدول جديد:
 
-1. افتح Microsft Excel.
-1.  انقر**فتح تقرير** 
+1. فتح Microsoft Excel.
+1. انقر على **فتح التقرير** 
 
-![ما يجب القيام به: image_بديل_نص](adding-base-information-for-table_1)
+![todo:image_alt_text](adding-base-information-for-table_1)
 
- `  ` على شريط أدوات Aspose.Cells.Report.Designer لفتح ملف تقرير RDL يحتوي على مصادر البيانات ومجموعات البيانات ومعلمات التقرير التي تم إنشاؤها مسبقًا. بمجرد فتح الملف بنجاح ، تصبح جميع معلوماته متاحة للاستخدام ، على سبيل المثال ، يتم سرد مجموعات البيانات الخاصة به في مربع التحرير والسرد DataSet ذي الصلة.
+انقر ` ` على شريط أدوات Aspose.Cells.Report.Designer لفتح ملف تقرير RDL الذي يحتوي على مصادر البيانات ومجموعات البيانات ومعلمات التقرير التي تم إنشاؤها مسبقًا. بمجرد فتح الملف بنجاح، يكون جميع معلوماته متاحة للاستخدام، على سبيل المثال، تُدرج مجموعات البيانات في مربع القائمة المنسدلة ذي الصلة. 
 
-![ما يجب القيام به: image_بديل_نص](adding-base-information-for-table_2.png)
+![todo:image_alt_text](adding-base-information-for-table_2.png)
 
-1. افتح جدول بيانات إكسل Microsoft وقم بتصميم رأس الجدول على النحو التالي:
+1. فتح جدول بيانات Excel من مايكروسوفت وتصميم رأس الجدول على النحو التالي: 
 
    **تصميم رأس الجدول** 
 
-![ما يجب القيام به: image_بديل_نص](adding-base-information-for-table_3.png)
+![todo:image_alt_text](adding-base-information-for-table_3.png)
 
-1.  حدد مجموعة بيانات "EmpSalesDetail" من عنصر تحكم مربع التحرير والسرد لمجموعة البيانات ذات الصلة.
+1. حدد مجموعة بيانات ”EmpSalesDetail” من عنصر التحكم في مربع القائمة المنسدلة ذي الصلة. 
 
-   **اختيار مجموعة البيانات** 
+   **اختيار مجموعة بيانات** 
 
-![ما يجب القيام به: image_بديل_نص](adding-base-information-for-table_4.png)
+![todo:image_alt_text](adding-base-information-for-table_4.png)
 
-1.  يتم سرد كافة حقول مجموعة البيانات "EmpSalesDetail" في مربع التحرير والسرد الحقول. حدد الخلية الموجودة أسفل العمود رقم الطلب Cell ثم حدد الحقل "SalesOrderNumber" من مربع التحرير والسرد للحقول لإدراج علامة بيانات في الخلية.
+1. تُدرج جميع الحقول في مجموعة البيانات ”EmpSalesDetail“ في مربع القائمة المنسدلة للحقول. حدد الخلية تحت خلية العمود OrderNumber ثم حدد حقل ”SalesOrderNumber“ من مربع القائمة المنسدلة للحقول لإدراج علامة بيانات في الخلية. 
 
-   **إدخال حقل** 
+   **إدراج حقل** 
 
-![ما يجب القيام به: image_بديل_نص](adding-base-information-for-table_5.png)
+![todo:image_alt_text](adding-base-information-for-table_5.png)
 
 
 
-**يُظهر رمز الحقل مكان إدخال الحقل.** 
+**يظهر رمز الحقل حيث تم إدراج حقل.** 
 
-![ما يجب القيام به: image_بديل_نص](adding-base-information-for-table_6.png)
+![todo:image_alt_text](adding-base-information-for-table_6.png)
 
-1.  كرر الخطوة 5 لإدراج حقلي ProdCat و SubCat.
+1. كرر الخطوة 5 لإدراج حقول ProdCat وSubCat. 
 
    **تم إدراج جميع الحقول** 
 
-![ما يجب القيام به: image_بديل_نص](adding-base-information-for-table_7.png)
+![todo:image_alt_text](adding-base-information-for-table_7.png)

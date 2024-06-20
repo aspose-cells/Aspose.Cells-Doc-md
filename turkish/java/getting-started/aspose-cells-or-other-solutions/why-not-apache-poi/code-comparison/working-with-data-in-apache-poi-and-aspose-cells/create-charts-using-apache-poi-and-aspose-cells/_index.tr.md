@@ -1,15 +1,16 @@
-﻿---
-title: Apache POI ve Aspose.Cells kullanarak Grafikler oluşturun
+---
+title: Apache POI ve Aspose.Cells Kullanarak Grafikler Oluşturma
 type: docs
 weight: 50
 url: /tr/java/create-charts-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Grafik Oluştur**
+
+## **Aspose.Cells - Grafik Oluşturma**
 Aspose.Cells ile elektronik tablolara çeşitli grafikler eklemek mümkündür. Aspose.Cells birçok esnek grafik nesnesi sağlar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -74,10 +75,10 @@ Series series = nSeries.get(1);
 series.setType(ChartType.LINE);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - Grafik Oluştur**
+## **Apache POI SS (HSSF + XSSF) - Grafikler Oluştur**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();
 
@@ -142,16 +143,16 @@ chart.plot(data, bottomAxis, leftAxis);
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- Şunun için çalışan örnekleri indirin:**Apache POI ve Aspose.Cells kullanarak Grafikler oluşturun** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Apache POI ve Aspose.Cells Kullanarak **Grafikler Oluşturma** için çalışan örnekleri aşağıdaki sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-## **Kaynak Kodunu İndir**
- için kaynak kodunu indirin**Apache POI ve Aspose.Cells kullanarak Grafikler oluşturun** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+## **Kaynak Kodu İndir**
+Apache POI ve Aspose.Cells Kullanarak **Grafikler Oluşturma** için kaynak kodu aşağıdaki sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Özel Grafikler Oluşturma](/cells/tr/java/creating-and-customizing-charts/).
+Daha fazla ayrıntı için [Özel Grafikler Oluşturma](/cells/tr/java/creating-and-customizing-charts/) adresini ziyaret edin.
 
 {{% /alert %}}

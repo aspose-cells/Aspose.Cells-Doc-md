@@ -1,17 +1,18 @@
-﻿---
-title: تأمين علامة WordArt المائية
+---
+title: قفل علامة الماؤ
 type: docs
 weight: 160
 url: /ar/java/locking-wordart-watermark/
 ---
+
 {{% alert color="primary" %}}
 
-تسمح واجهات برمجة التطبيقات Aspose.Cells بإضافة علامات مائية لـ WordArt على ورقة العمل بطريقة تجعل WordArt كائنًا يمكن نقله ووضعه في ورقة العمل. من الممكن أيضًا قفل عنصر WordArt لأي تفاعل مثل التحرير والحركة والاختيار. تشرح هذه المقالة استخدام[**Shape.setLockedProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#setLockedProperty(int,%20boolean)) طريقة لقفل بعض جوانب العلامة المائية.
+تسمح واجهات برمجة التطبيقات Aspose.Cells بإضافة علامات مائية WordArt على ورقة العمل بحيث يصبح WordArt كائنًا يمكن نقله وتمريره على ورقة العمل. كما يمكن تأمين كائن WordArt لعدم التفاعل مثل التحرير والتنقل والتحديد. يشرح هذا المقال استخدام الطريقة [**Shape.setLockedProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#setLockedProperty(int,%20boolean)) لتأمين بعض جوانب العلامة المائية.
 
 {{% /alert %}}
 
-## **تأمين علامة WordArt المائية**
+## **تأمين علامة مائية WordArt**
 
-تسمح واجهات برمجة التطبيقات Aspose.Cells بقفل جوانب معينة من العلامة المائية بحيث يمكن تقييد تفاعل المستخدم أو حظره تمامًا. يوضح مقتطف الكود التالي استخدام Aspose.Cells for Java API لإنشاء علامة مائية لكل ورقة عمل في جدول البيانات المحمل وتحديد قفل العلامة المائية وحركتها وتحريرها وإعادة تحجيمها.
+تسمح واجهات برمجة تطبيقات Aspose.Cells بقفل بعض جوانب العلامة المائية بحيث يمكن تقييد تفاعل المستخدم أو منعه تمامًا. يوضح مقتطف الكود التالي استخدام Aspose.Cells for Java في إنشاء علامة مائية لكل ورقة عمل في جدول البيانات المحمل وقفل التحديد والتحرك والتحرير وتغيير حجم العلامة المائية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LockWordArtWatermark-LockWordArtWatermark.java" >}}

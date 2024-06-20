@@ -1,31 +1,34 @@
-﻿---
-title: باستخدام Aspose.Cells.GridDesktop في تطبيق WPF
+---
+title: استخدام تحكم Aspose.Cells.GridDesktop في تطبيق WPF
 type: docs
 weight: 50
-url: /ar/net/using-aspose-cells-griddesktop-in-wpf-application/
+url: /ar/net/aspose-cells-griddesktop/use-aspose-cells-griddesktop-in-wpf-application/
+keywords: GridDesktop,wpf
+description: يقدم هذا المقال كيفية استخدام تحكم GridDesktop في تطبيق WPF.
 ---
+
 {{% alert color="primary" %}} 
 
- توضح هذه المقالة كيفية استخدام مصمم Windows Presentation Foundation (WPF) لبرنامج Visual Studio لاستضافة عنصر تحكم نماذج Windows مثل Aspose.Cells.GridDesktop في تطبيق WPF.
-سنستخدم Visual Studio 2015 لشرح العملية ، ومع ذلك ، يمكنك استخدام أي إصدار بما في ذلك Visual Studio 2008 أو ما بعده.
+يوضح هذا المقال كيفية استخدام مصمم واجهة المستخدم لنظام التشغيل Windows (WPF) في برنامج Visual Studio لاستضافة تحكم Windows Forms مثل Aspose.Cells.GridDesktop في تطبيق WPF. 
+سنستخدم Visual Studio 2015 لتوضيح العملية، ومع ذلك، يمكنك استخدام أي إصدار بما في ذلك Visual Studio 2008 أو الأحدث.
 
 {{% /alert %}} 
 
-سيرشدك هذا البرنامج التعليمي خلال عملية إضافة Aspose.Cells.GridDesktop control إلى تطبيق WPF. أنت بحاجة إلى أي إصدار من Visual Studio IDE يدعم تطوير WPF لتجربة ذلك من جانبك.
-## **قم بإنشاء تطبيق WPF باستخدام Visual Studio**
- قم أولاً بإنشاء تطبيق WPF باستخدام Visual Studio IDE. انقر فوق**ملف** >> **جديد** >> **مشروع** القائمة وحدد**تطبيق WPF** من القوالب ، قم بتسمية المشروع وانقر**نعم**. يمكنك توجيه مشروعك إلى أي إطار .NET أعلى من 2.0 ، ومع ذلك ، لا يمكنك استخدام ملف تعريف العميل .NET Frameworks.
-## **أضف مراجع إلى مساحات الأسماء المطلوبة**
-أضف المراجع إلى التجميعات التالية بالنقر بزر الماوس الأيمن فوق نافذة المراجع من نافذة مستكشف الحلول وحدد إضافة قائمة مرجعية.
+سيرشدك هذا البرنامج التعليمي خلال عملية إضافة تحكم Aspose.Cells.GridDesktop إلى تطبيق WPF. تحتاج إلى أي إصدار من بيئة تطوير Visual Studio يدعم تطوير WPF من أجل تجربتها من جهتك.
+## **إنشاء تطبيق WPF باستخدام Visual Studio**
+أنشئ أولاً تطبيق WPF باستخدام بيئة تطوير Visual Studio. انقر على **فايل** >> **جديد** >> **مشروع** ثم حدد **تطبيق WPF** من القوالب، قم بتسمية المشروع وانقر على **موافق**. يمكنك توجيه مشروعك إلى أي إصدار من .NET Framework أعلى من 2.0، ولكن لا يمكن استخدام ملف تعريف العميل .NET Frameworks.
+## **إضافة مراجع إلى مساحات الاسم المطلوبة**
+أضف المراجع لتجميعات البرمجيات النهائية التالية بالنقر بزر الماوس الأيمن على المراجع من نافذة مستكشف الحلول وحدد القائمة إضافة مرجع.
 
-- تجميع WindowsFormsIntegration (WindowsFormsIntegration.dll).
-- Windows تجميع النماذج (System.Windows.Forms.dll).
-- Aspose.Cells.GridDesktop (Aspose.Cells.GridDesktop.dll).
+- تجميع الدمج بين Windows (WindowsFormsIntegration.dll).
+- تجميع النماذج Windows (System.Windows.Forms.dll).
+- تجميع Aspose.Cells.GridDesktop (Aspose.Cells.GridDesktop.dll).
 
-يضيف هذا الإجراء التجميعات المطلوبة إلى التطبيق ، أي ؛ نسخ التجميعات إلى مجلد سلة التطبيق.
-## **أضف مراجع إلى XAML**
-بعد ذلك ، انتقل إلى ملف XAML وأضف مساحات الأسماء ومراجع التجميع التالية داخل علامة Windows.
+تضيف هذه الإجراءات التجميعات المطلوبة إلى التطبيق، أي تنسخ التجميعات إلى مجلد Bin للتطبيق.
+## **إضافة مراجع إلى XAML**
+بعد ذلك، انتقل إلى ملف XAML وأضف مساحات الاسم ومراجع التجميع التالية داخل الوسم الخاص بنوافذ.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
 
@@ -33,13 +36,13 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 {{< /highlight >}}
 
-**ستبدو علامة Windows النهائية مشابهة لما هو موضح أدناه.**
+**سيكون العلامة النهائية لنظام التشغيل Windows مشابهة لما هو موضح أدناه.**
 
-![ما يجب القيام به: image_بديل_نص](using-aspose-cells-griddesktop-in-wpf-application_1.png)
-## **أضف Aspose.Cells.GridDesktop control إلى XAML**
- ما عليك سوى إضافة الكود أدناه داخل علامة الشبكة في XAML. ال**WindowsFormsHost** تستخدم العلامة لاستضافة Windows نماذج التحكم و**الشبكة: GridDesktop** تمثل العلامة Aspose.Cells.GridDesktop control. يمكنك أيضًا تسمية عنصر التحكم بحيث يمكن الرجوع إليه بسهولة في التعليمات البرمجية.
+![todo:image_alt_text](using-aspose-cells-griddesktop-in-wpf-application_1.png)
+## **أضف تحكم Aspose.Cells.GridDesktop إلى XAML**
+قم ببساطة بإضافة الكود أدناه داخل علامة Grid في XAML. تُستخدم علامة **WindowsFormsHost** لاستضافة تحكمات Windows Forms وتُمثل علامة **gridDesktop:GridDesktop** تحكم Aspose.Cells.GridDesktop. يمكنك أيضًا تسمية التحكم حتى يمكن الإشارة إليه بسهولة في الكود.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <WindowsFormsHost Loaded="FrameworkElement_OnLoaded">
 
@@ -53,14 +56,14 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 {{< /highlight >}}
 
-**سيبدو XAML النهائي على النحو التالي.** 
+**سيبدو الـ XAML النهائي كما يلي.** 
 
-![ما يجب القيام به: image_بديل_نص](using-aspose-cells-griddesktop-in-wpf-application_2.png)
-## **استخدم Aspose.Cells.GridDesktop**
-يمكننا الآن الوصول إلى واستخدام Aspose.Cells.GridDesktop control في ملف .cs مثل أي تطبيقات Windows Forms أخرى. من أجل الحفاظ على العرض التوضيحي بسيطًا ، نقوم فقط بتحميل نموذج جدول بيانات في Aspose.Cells.GridDesktop control وحفظه مرة أخرى. علاوة على ذلك ، استخدمنا الحدث FrameworkElement_OnLoaded لتشغيل العبارات التالية.
+![todo:image_alt_text](using-aspose-cells-griddesktop-in-wpf-application_2.png)
+## **استخدام Aspose.Cells.GridDesktop**
+يمكننا الآن الوصول إلى Aspose.Cells.GridDesktop واستخدامه في ملف .cs كأي تطبيقات Windows Forms أخرى. من أجل إبقاء العرض بسيطًا، نقوم فقط بتحميل جدول بيانات عيني في تحكم Aspose.Cells.GridDesktop وحفظه. علاوة على ذلك، قمنا باستخدام حدث FrameworkElement_OnLoaded لتشغيل البيانات التالية.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-UsingGridDesktopInWpf-MainWindow.xaml-UsingGridDesktopInWpf.cs" >}}
 ## **بناء وتشغيل**
- الآن ، قم ببناء وتشغيل التطبيق باستخدام**F5** أو**بداية** زر في Visual Studio UI.
+الآن، يمكنك بناء وتشغيل التطبيق باستخدام زر **F5** أو زر **Start** في واجهة مستخدم Visual Studio.

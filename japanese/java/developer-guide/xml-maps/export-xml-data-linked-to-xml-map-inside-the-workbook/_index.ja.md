@@ -1,14 +1,15 @@
-﻿---
-title: ワークブック内の XML マップにリンクされた XML データのエクスポート
+---
+title: ワークブックにリンクされたXML Map内のXMLデータをエクスポート
 type: docs
 weight: 20
 url: /ja/java/export-xml-data-linked-to-xml-map-inside-the-workbook/
 ---
-## ワークブック内の XML マップにリンクされた XML データのエクスポート
 
-Workbook.exportXml() メソッドを使用して、ワークブック内の XML マップにリンクされた XML データをエクスポートしてください。次のサンプル コードは、ブックからすべての XML マップの Xml データを 1 つずつエクスポートします。を確認してください[サンプルエクセルファイル](5472486.xlsx)このコードで使用され、[最初の XML マップのエクスポートされた XML データ](5472487.xml).
+## ワークブックにリンクされたXML Map内のXMLデータをエクスポート
 
-## Java ワークブック内の XML マップにリンクされた XML データをエクスポートするコード
+Workbook.exportXml()メソッドを使用して、ワークブック内にリンクされたすべてのXML MapのXMLデータをエクスポートします。次のサンプルコードは、ワークブックのすべてのXML MapのXMLデータを一つずつエクスポートします。このコードで使用される[sample excel file](5472486.xlsx)と[最初のXML MapのエクスポートされたXMLデータ](5472487.xml)をご確認ください。
+
+## ワークブックにリンクされたXML Map内のXMLデータをエクスポートするためのJavaコード
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportXmlDataOfXmlMap-ExportXmlDataOfXmlMap.java" >}}
 

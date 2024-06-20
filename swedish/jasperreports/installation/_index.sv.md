@@ -1,11 +1,12 @@
-﻿---
+---
 title: Installation
 type: docs
 weight: 30
 url: /sv/jasperreports/installation/
 ---
-###### **Det här avsnittet innehåller följande ämnen:**
+
+###### **Denna avsnitt innehåller följande ämnen:** 
 - [Introduktion](/cells/sv/jasperreports/introduction/)
-- [Installerar Aspose.Cells for JasperReports](/cells/sv/jasperreports/installing-aspose-cells-for-jasperreports/)
+- [Installera Aspose.Cells for JasperReports](/cells/sv/jasperreports/installing-aspose-cells-for-jasperreports/)
 - [Integration med JasperServer](/cells/sv/jasperreports/integration-with-jasperserver/)
-- [Demoinställningar](/cells/sv/jasperreports/demos-setup/)
+- [Demosuppställning](/cells/sv/jasperreports/demos-setup/)

@@ -1,17 +1,18 @@
 ---
-title: Ajout d'étiquettes personnalisées aux points de données dans la série du graphique
-description: Découvrez comment ajouter des étiquettes personnalisées aux points de données de la série d'un graphique en utilisant le Aspose.Cells for .NET. Notre guide vous montrera comment modifier l'apparence, la position et le formatage des étiquettes, ainsi que comment les lier à votre source de données pour obtenir des informations précises. représentation des données.
-keywords: Aspose.Cells for .NET, charting, custom labels, data points, series, appearance, position, formatting, data source, representation.
+title: Ajouter des étiquettes personnalisées aux points de données de la série du graphique
+description: Apprenez à ajouter des étiquettes personnalisées aux points de données de la série d un graphique en utilisant Aspose.Cells for .NET. Notre guide vous montrera comment modifier l apparence, la position et le format des étiquettes, ainsi que comment les lier à votre source de données pour une représentation précise des données.
+keywords: Aspose.Cells for .NET, création de graphiques, étiquettes personnalisées, points de données, série, apparence, position, format, source de données, représentation.
 type: docs
 weight: 100
 url: /fr/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
- Vous pouvez ajouter des étiquettes personnalisées aux points de données de la série du graphique. Aspose.Cells fournit[**ChartPoint.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text) propriété pour ajouter ces étiquettes personnalisées. Cet article explique comment utiliser cette propriété pour ajouter des étiquettes personnalisées aux points de données de la série du graphique.
+Vous pouvez ajouter des étiquettes personnalisées aux points de données de la série du graphique à l'aide de la propriété [**ChartPoint.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text). Cet article expliquera comment utiliser cette propriété pour ajouter des étiquettes personnalisées aux points de données de la série du graphique.
 
 {{% /alert %}}
 
- Le code suivant crée**Graphique à nuages de points relié par des lignes avec des marqueurs de données** puis ajoute**Étiquettes personnalisées** au**Points de données** dans le**Série**de la**Graphique**. Chaque étiquette personnalisée affiche le **Nom de la série** et *Nom du point**. Vous pouvez utiliser n’importe quel autre texte à la place.
+Le code suivant crée un **graphique de dispersion relié par des lignes avec des marqueurs de données** puis ajoute des **étiquettes personnalisées** aux **points de données** de la **série** du **graphique**. Chaque étiquette personnalisée affiche le **nom de la série** et le **nom du point**. Vous pouvez utiliser tout autre texte à la place.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddCustomLabelsToDataPoints-AddCustomLabelsToDataPointsInTheSeriesOfChart.cs" >}}

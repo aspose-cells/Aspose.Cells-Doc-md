@@ -4,20 +4,21 @@ type: docs
 weight: 30
 url: /tr/cpp/tables-and-ranges/
 ---
-##  **giriiş**
-Bazen Microsoft Excel'de bir tablo oluşturursunuz ve birlikte gelen tablo işleviyle çalışmaya devam etmek istemezsiniz. Bunun yerine masaya benzeyen bir şey istiyorsunuz. Biçimlendirmeyi kaybetmeden verileri bir tabloda tutmak için tabloyu normal bir veri aralığına dönüştürün. Aspose.Cells, tablolar ve liste nesneleri için Microsoft Excel'in bu özelliğini desteklemektedir.
-##  **Microsoft Excel'i kullanma**
- Kullan**Aralığa Dönüştür** Bir tabloyu biçimlendirmeyi kaybetmeden hızla bir aralığa dönüştürme özelliği. Microsoft Excel 2007/2010'da:
 
-1. Etkin hücrenin bir tablo sütununda olduğundan emin olmak için tabloda herhangi bir yeri tıklayın.
-1.  Üzerinde**Tasarım** sekmesinde**Aletler** grubunda *Aralığa Dönüştür**'e tıklayın.
+## **Giriş**
+Bazen bir tablo oluşturursunuz ve Microsoft Excel'in getirdiği tablo işlevselliğiyle çalışmaya devam etmek istemezsiniz. Bunun yerine, bir tabloya benzeyen bir şey istersiniz. Biçimlendirmeyi kaybetmeden bir tabloda veriyi tutmak için tabloyu düzenli bir veri aralığına dönüştürün. Aspose.Cells, tablolar ve liste nesneleri için Microsoft Excel'in bu özelliğini destekler.
+## **Microsoft Excel Kullanımı**
+**Dönüştürülecek Aralığı Belirt** özelliğini kullanarak bir tabloyu biçimlendirmeyi kaybetmeden hızlıca bir aralığa dönüştürmek için aşağıdaki adımları izleyin. Microsoft Excel 2007/2010'da:
+
+1. Tablonun herhangi bir yerine tıklayın ve etkin hücrenin bir tablo sütununda olduğundan emin olun.
+1. **Tasarım** sekmesinde, **Araçlar** grubunda, **Dönüştür**'ü tıklayın.
 
 {{% alert color="primary" %}} 
 
-Tablo bir aralığa dönüştürüldükten sonra tablo özellikleri artık kullanılamaz. Örneğin, satır başlıkları artık sıralama ve filtre oklarını içermiyor ve formüllerde kullanılan yapılandırılmış başvurular (tablo adlarını kullanan başvurular) normal hücre başvurularına dönüşüyor.
+Tablo özellikleri, tablo bir aralığa dönüştürüldükten sonra artık kullanılamaz. Örneğin, satır başlıkları artık sıralama ve filtre oklarını içermez ve formüllerde kullanılan yapılandırılmış referanslar (tablo adlarını kullanan referanslar), normal hücre referanslarına dönüşür.
 
 {{% /alert %}} 
-##  **Aspose.Cells'i kullanma**
-Aşağıdaki kod parçacığı, Aspose.Cells kullanılarak aynı işlevselliği göstermektedir.
+## **Aspose.Cells Kullanımı**
+Aşağıdaki kod parçası Aspose.Cells kullanarak aynı işlevselliği göstermektedir.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-ConvertTableToRange-new.cpp" >}}

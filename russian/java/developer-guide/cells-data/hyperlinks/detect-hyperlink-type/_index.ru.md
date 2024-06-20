@@ -1,27 +1,28 @@
-﻿---
-title: Определить тип гиперссылки
+---
+title: Обнаружение типа гиперссылки
 type: docs
 weight: 180
 url: /ru/java/detect-hyperlink-type/
 ---
-## **Определить тип гиперссылки**
 
-Файл Excel может иметь различные типы гиперссылок, такие как внешние ссылки, ссылки на ячейки, пути к файлам и т. д. Aspose.Cells поддерживает функцию определения типа гиперссылок. Типы гиперссылок представлены[**Тип таргетмоде**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Перечисление.[**Тип таргетмоде**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Перечисление имеет следующие члены.
+## **Обнаружение типа гиперссылки**
 
-- [**ВНЕШНИЙ**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Внешняя ссылка
-- [**ПУТЬ ФАЙЛА**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Локальный и полный путь к файлам\папкам.
-- [**ЭЛЕКТРОННОЕ ПИСЬМО**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): Электронное письмо
-- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): ссылка на ячейку или именованный диапазон.
+Файл Excel может содержать различные типы гиперссылок, такие как внешние, ссылки на ячейки, пути к файлам и т. д. Aspose.Cells поддерживает функцию обнаружения типа гиперссылки. Типы гиперссылок представлены перечислением [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). У перечисления [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) есть следующие элементы.
 
-Чтобы проверить тип гиперссылки,[**Гиперссылка**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) класс предоставляет[**Тип ссылки**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) свойство с возвращаемым типом[**Тип таргетмоде**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Следующий фрагмент кода демонстрирует использование[**Тип ссылки**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)свойство с помощью этого[исходный файл excel](LinkTypes.xlsx).
+- [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Внешняя ссылка
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Локальный и полный путь к файлам\папкам.
+- [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): Электронная почта
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Ссылка на ячейку или именованный диапазон.
+
+Для проверки типа гиперссылки класс [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) предоставляет свойство [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) с возвращаемым типом [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). В следующем фрагменте кода демонстрируется использование свойства [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) с помощью этого [исходного файла Excel](LinkTypes.xlsx).
 
 ## Исходный код
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-DetectLinkTypes-1.java" >}}
 
-Ниже приведен вывод, созданный фрагментом кода, приведенным выше.
+Ниже приведен вывод, сгенерированный указанным выше фрагментом кода.
 
-## Консольный вывод
+## Вывод в консоль
 ```
 LinkTypes.xlsx: FILE_PATH </br>
 C:\Windows\System32\cmd.exe: FILE_PATH </br>

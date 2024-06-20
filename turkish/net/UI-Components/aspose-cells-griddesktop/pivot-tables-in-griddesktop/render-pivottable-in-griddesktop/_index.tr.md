@@ -1,16 +1,19 @@
-﻿---
-title: PivotTable'ı GridDesktop'ta Oluştur
+---
+title: PivotTable ı GridDesktop ta Render Etme
 type: docs
 weight: 10
-url: /tr/net/render-pivottable-in-griddesktop/
+url: /tr/net/aspose-cells-griddesktop/render-pivottable-in-griddesktop/
+keywords: GridDesktop, pivot tabloları, pivot, pivot tablo, render pivot tablo
+description: Bu makale, GridDesktop ta pivot tablolarının kullanımını tanıtıyor.
 ---
+
 ## **Olası Kullanım Senaryoları**
-Excel dosyanızda bir Pivot Tablo varsa, GridDesktop Pivot Tabloyu yükleyebilir ve iyi bir şekilde işleyebilir. Ayrıca, GUI'de Pivot Tablo ile etkileşim kurabilecek ve onu değiştirebileceksiniz.
-## **PivotTable'ı GridDesktop'ta Oluştur**
- Aşağıdaki örnek kod,[Özet Tabloyu içeren Örnek Excel Dosyası](48496686.xlsx). Ekran görüntüsü, referans için bu örnek kodun yürütülmesinin sonucunu gösterir.
+Eğer Excel dosyanızda bir Pivot Tablo varsa, GridDesktop, Pivot Tablosunu yükleyebilir ve başarılı bir şekilde render edebilir. Ayrıca, Pivot Tablosuyla GUI üzerinden etkileşimde bulunabilir ve manipüle edebilirsiniz.
+## **GridDesktop'ta PivotTable'ı Render Etme**
+Aşağıdaki örnek kod, Pivot Tablo içeren [Örnek Excel Dosyası](48496686.xlsx) 'nı içe aktarır. Ekran görüntüsü, bu örnek kodun çalıştırılmasının bir referans için sonucunu göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](render-pivottable-in-griddesktop_1.png)
+![todo:image_alt_text](render-pivottable-in-griddesktop_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-PivotTablesInGridDesktop-Form_RenderPivotTableInGridDesktop.cs" >}}
 

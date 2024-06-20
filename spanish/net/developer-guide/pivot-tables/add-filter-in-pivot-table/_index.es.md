@@ -1,16 +1,17 @@
-﻿---
-title: Agregar filtro en tabla dinámica
+---
+title: Agregar filtro en Tabla Dinámica
 type: docs
 weight: 130
 url: /es/net/add-filter-in-pivot-table/
-description: Aprenda a agregar un filtro en la tabla dinámica con Aspose.Cells.
-keywords: Adding a filter in pivot table without office 2013, office 2016, office 2019 and office 365.
+description: Aprende cómo agregar un filtro en la tabla dinámica con Aspose.Cells.
+keywords: Agregar un filtro en la tabla dinámica sin office 2013, office 2016, office 2019 y office 365.
 ---
-## **Posibles escenarios de uso**
-Cuando crea una tabla dinámica con datos conocidos y desea filtrar la tabla dinámica, debe aprender y usar el filtro. Puede ayudarlo a filtrar los datos que desea de manera efectiva. Al usar el Aspose.Cells API, puede agregar un filtro en los valores de campo en las tablas dinámicas.
 
-## **Agregar filtro en tabla dinámica**
-Consulte el siguiente código de ejemplo. Establece los datos y crea una tabla dinámica basada en ellos. Luego agregue un filtro en el campo de fila de la tabla dinámica. Finalmente, guarda el libro de trabajo en[salida XLSX](filterout.xlsx) formato. Después de ejecutar el código de ejemplo, se agrega una tabla dinámica con el filtro top10 a la hoja de trabajo.
+## **Escenarios de uso posibles**
+Cuando creas una tabla dinámica con datos conocidos y quieres filtrar la tabla dinámica, necesitas aprender y usar el filtro. Puede ayudarte a filtrar los datos que deseas de manera efectiva. Al utilizar la API Aspose.Cells, puedes agregar un filtro en los valores de campo en las Tablas Dinámicas. 
+
+## **Agregar filtro en Tabla Dinámica**
+Por favor, consulta el siguiente código de ejemplo. Establece los datos y crea una Tabla Dinámica basada en ellos. Luego añade un filtro en el campo de fila de la tabla dinámica. Finalmente, guarda el libro de trabajo en formato [XLSX de salida](filterout.xlsx). Después de ejecutar el código de ejemplo, se añade una tabla dinámica con filtro top10 a la hoja de cálculo.
 
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-Add-filter-in-PivotTable.cs" >}}

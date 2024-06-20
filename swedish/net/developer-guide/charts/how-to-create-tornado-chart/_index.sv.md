@@ -1,37 +1,38 @@
 ---
-title: Hur man skapar ett tornadodiagram
+title: Hur man skapar ett tornado diagram
 type: docs
 weight: 73
 url: /sv/net/create-tornado-chart/
-description: Lär dig hur du skapar ett tornadodiagram med Aspose.Cells for .NET API.
-keywords: C# create a tornado chart, add a tornado chart, insert a tornado chart
+description: Lär dig hur du skapar en tornado diagram med Aspose.Cells for .NET API.
+keywords: C# skapa ett tornado diagram, lägg till ett tornado diagram, infoga ett tornado diagram
 ---
-##  **Introduktion**
-Ett tornadodiagram, även känt som ett tornadodiagram eller tornadograf, är en typ av datavisualisering som ofta används för känslighetsanalys i Excel. Det hjälper dig att förstå effekten av att ändra variabler på ett visst resultat eller resultat.
 
-##  **Hur man skapar ett tornadodiagram i Excel**
-Du kan skapa ett tornadodiagram i Excel genom att följa dessa steg:
-1. Välj data och gå till Infoga --> Diagram --> Infoga kolumn eller stapeldiagram --> Staplat stapeldiagram. Klicka på det.
+## **Introduktion**
+Ett tornado diagram, även känt som en tornado graf eller tornado diagram, är en typ av datavisualisering som ofta används för känslighetsanalys i Excel. Det hjälper dig att förstå effekten av förändrande variabler på ett visst resultat eller en viss effekt.
+
+## **Hur man skapar ett tornado diagram i Excel**
+Du kan skapa ett tornado diagram i Excel genom att följa dessa steg:
+1. Välj datan och gå till Infoga --> Diagram --> Infoga kolumn- eller stapeldiagram --> Staplad stolpdiagram. Klicka på det.
 <br>
 <img src="1.png" width=70% />
-2. Ändra Y-axeln: Högerklicka på y-axeln. Klicka på formataxeln. I etiketter klickar du på rullgardinsmenyn för etikettposition och väljer Låg objekt.
+2. Ändra Y-axeln: Högerklicka på y-axeln. Klicka på formatera axeln. I etiketter, klicka på etikettposition nedrullningsalternativ och välj Låg element.
 <br>
 <img src="2.png" width=70% />
-3. Välj valfri stapel och gå till formatering. Ställ in en lämplig spaltbredd.
+3. Välj vilken som helst stapel och gå till formatering. Ange en lämplig luckbredd.
 <br>
 <img src="3.png" width=70% />
-4. Låt oss ta bort minustecknet (-) från tornadodiagrammet. Välj x-axeln. Gå till formatering. Klicka på numret i axelalternativen. I kategori, välj anpassad. Skriv ###0,###0 i formatkoden. Klicka på lägg till.
+4. Låt oss ta bort minustecknet (-) från tornado diagrammet. Välj x-axeln. Gå till formatering. I axelalternativ, klicka på nummer. I kategori, välj anpassad. I formatkoden skriv ###0,###0. Klicka på lägg till.
 <br>
 <img src="4.png" width=70% />
-5. klicka på y-axeln och gå till axelalternativen. I Axis-alternativen, markera Kategorier i omvänd ordning.
+5. Klicka på y-axeln och gå till axelalternativen. I axelalternativen, kryssa i kategorier i omvänd ordning.
 <br>
 <img src="5.png" width=70% />
 
-##  **Hur man lägger till ett tornadodiagram i Aspose.Cells**
- Se följande exempelkod. Den laddar[exempel på Excel-fil](sample.xlsx) som innehåller några exempeldata. Den skapar sedan det staplade stapeldiagrammet baserat på de ursprungliga data och ställer in relevanta egenskaper. Slutligen sparar den arbetsboken till[utgång XLSX format](out.xlsx). Följande skärmdump visar tornadodiagrammet skapat av Aspose.Cells i utdata Excel-filen.
+## **Hur man lägger till ett tornado diagram i Aspose.Cells**
+Vänligen se följande kodexempel. Den laddar den [exempelfil i Excel](sample.xlsx) som innehåller viss provdata. Sedan skapas det staplade stolpdiagrammet baserat på den initiala datan och relevanta egenskaper anges. Slutligen sparas arbetsboken till [utmatning XLSX-format](out.xlsx). Följande skärmdump visar tornado diagrammet skapat av Aspose.Cells i den resulterande Excelfilen.
 <br>
 <img src="6.png" width=70% />
 
-###  **Exempelkod**
+### **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-tornado-chart.cs" >}}

@@ -1,18 +1,19 @@
-﻿---
-title: Excel から HTML への変換中に未使用のスタイルを除外する
+---
+title: Excel を HTML に変換する際に未使用のスタイルを除外
 type: docs
 weight: 30
 url: /ja/net/exclude-unused-styles-during-excel-to-html-conversion/
 ---
-## **考えられる使用シナリオ**
 
-Microsoft Excel ファイルには、未使用のスタイルが多数含まれている可能性があります。 Excel ファイルを HTML 形式でエクスポートすると、これらの未使用のスタイルもエクスポートされます。これにより、HTML のサイズが大きくなる可能性があります。[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles)財産。設定すると**真実**、未使用のスタイルはすべて出力 HTML から除外されます。次のスクリーンショットは、出力 HTML 内の未使用のスタイルの例を示しています。
+## **可能な使用シナリオ**
 
-![todo:画像_代替_文章](exclude-unused-styles-during-excel-to-html-conversion_1.png)
+Microsoft Excelファイルには多くの未使用のスタイルが含まれている場合があります。ExcelファイルをHTML形式にエクスポートすると、これらの未使用のスタイルもエクスポートされます。これによりHTMLのサイズが増加する可能性があります。[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles)プロパティを使用して、ExcelファイルをHTMLに変換する際に未使用のスタイルを除外することができます。これを**true**に設定すると、すべての未使用のスタイルが出力されたHTMLから除外されます。次のスクリーンショットは、出力されたHTML内のサンプル未使用スタイルを表示しています。
 
-## **Excel から HTML への変換中に未使用のスタイルを除外する**
+![todo:image_alt_text](exclude-unused-styles-during-excel-to-html-conversion_1.png)
 
-次のサンプル コードは、ワークブックを作成し、未使用の名前付きスタイルも作成します。以来、[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles)に設定されています**真実**、この未使用の名前付きスタイルはエクスポートされません[出力 HTML](61767778.zip).しかし、あなたがそれを**間違い**の場合、この未使用のスタイルは出力 HTML 内に存在し、上のスクリーンショットに示すように HTML マークアップで確認できます。
+## **ExcelからHTMLへの変換時に未使用のスタイルを除外**
+
+[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles)を**true**に設定すると、この未使用の名前付きスタイルは[output HTML](61767778.zip)にエクスポートされません。ただし**false**に設定すると、この未使用のスタイルが出力されたHTML内に存在し、上のスクリーンショットでHTMLマークアップに表示されます。
 
 ## **サンプルコード**
 

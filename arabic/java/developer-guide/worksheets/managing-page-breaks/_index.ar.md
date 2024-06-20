@@ -1,55 +1,56 @@
-﻿---
+---
 title: إدارة فواصل الصفحات
 type: docs
 weight: 30
 url: /ar/java/managing-page-breaks/
 ---
+
 {{% alert color="primary" %}}
 
-فاصل الصفحة هو مكان في النص تنتهي فيه صفحة وتبدأ الصفحة التالية. Microsoft يمكن لبرنامج Excel إضافة فواصل صفحات في أي خلية محددة بورقة عمل.
-تنتهي الصفحة في الخلية حيث تتم إضافة فاصل الصفحة ويتم طباعة جميع البيانات بعد فاصل الصفحة على الصفحة التالية. بكلمات بسيطة ، تقسم فواصل الصفحات أوراق العمل إلى صفحات متعددة. من الممكن أيضًا إضافة فواصل صفحات إلى أوراق العمل في وقت التشغيل باستخدام Aspose.Cells. يدعم Aspose.Cells نوعين من فواصل الصفحات:
+كسر الصفحة هو المكان في النص حيث تنتهي صفحة وتبدأ الصفحة التالية. يمكن لبرنامج Microsoft Excel إضافة كسر الصفحة في أي خلية محددة في ورقة العمل.
+تنتهي الصفحة في الخلية التي يتم إضافة كسر الصفحة إليها ويتم طباعة جميع البيانات بعد كسر الصفحة على الصفحة التالية. ببساطة، يقوم كسر الصفحة بتقسيم ورقات العمل إلى عدة صفحات. كما هو ممكن أيضًا إضافة كسر الصفحة إلى ورقات العمل أثناء التشغيل باستخدام Aspose.Cells. Aspose.Cells تدعم نوعين من كسر الصفحة:
 
-- عرضي
-- عمودي.
+- أفقي
+- رأسي.
 
-توضح هذه المقالة كيفية إضافة فواصل الصفحات الأفقية أو العمودية إلى أوراق العمل باستخدام Aspose.Cells.
+يصف هذا المقال كيفية إضافة كسر صفحة أفقي أو رأسي إلى ورقات العمل باستخدام Aspose.Cells.
 
 {{% /alert %}}
 
-## **Aspose.Cells وفواصل الصفحات**
+## **Aspose.Cells وكسر الصفحات**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل ملف Excel. ال[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)يسمح بالوصول إلى كل ورقة عمل في ملف Excel.
+توفر Aspose.Cells فئةً، [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) التي تمثل ملف Excel. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) على [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) الذي يسمح بالوصول إلى كل ورقة عمل في ملف Excel.
 
- يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)فئة توفر مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل. لإضافة فواصل الصفحات ، استخدم ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي'[**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) و[**عمودي PageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks)الخصائص.
+تمثل ورقة العمل بواسطة الفئة [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) والتي توفر مجموعة واسعة من الخصائص والأساليب لإدارة ورقات العمل. لإضافة كسر الصفحات، استخدم الفئة [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) وخصائص [**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) و [**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks).
 
- ال[**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) و[**عمودي PageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks)الخصائص هي في الواقع مجموعات حقيقة قد تحتوي على عدة فواصل صفحات. تحتوي كل مجموعة على عدة طرق لإدارة فواصل الصفحات الأفقية والعمودية. يتم مناقشة كيفية استخدام هذه الأساليب أدناه.
+تحتوي الخصائص [**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) و [**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks) في الواقع على مجموعات قد تحتوي على عدة كسر صفحة. تحتوي كل مجموعة على عدة طرق لإدارة كسر الصفحات الأفقي والرأسي. يتم مناقشة كيفية استخدام هذه الطرق أدناه.
 
-## **مضيفا فواصل الصفحات**
+## **إضافة فواصل الصفحات**
 
- لإضافة فاصل صفحات في ورقة عمل ، قم بإدراج فواصل صفحات عمودية وأفقية في الخلية المحددة عن طريق استدعاء ملف[**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) و[**عمودي PageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) المجموعات**يضيف** أساليب. كل**يضيف**يأخذ الأسلوب اسم الخلية حيث سيتم إضافة فاصل الصفحة.
+لإضافة كسر صفحة في ورقة عمل، أدخل كسر صفحة أفقي ورأسي في الخلية المحددة عن طريق استدعاء **Add** لـ [**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) و [**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection). يأخذ كل طريقة **Add** اسم الخلية التي يجب إضافة كسر الصفحة إليها.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingPageBreaks-AddingPageBreaks.java" >}}
 
 {{% alert color="primary" %}}
 
-في أوضاع معاينة فاصل الصفحة أو معاينة الطباعة ، يمكنك مشاهدة كيفية عمل فواصل الصفحات هذه.
+في وضع معاينة كسر الصفحة أو معاينة الطباعة، يمكنك رؤية كيف تعمل هذه الكسور.
 
 {{% /alert %}}
 
 ## **مسح كافة فواصل الصفحات**
 
- لمسح كل فواصل الصفحات في ورقة عمل ، قم باستدعاء[**أفقي بيجبريككولكشن**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) و[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) المجموعات**صافي**أساليب.
+لمسح جميع كسر الصفحات في ورقة عمل، استدعي **Clear** لـ [**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) و [**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ClearAllPageBreaks-ClearAllPageBreaks.java" >}}
 
-## **إزالة فاصل صفحة معين**
+## **إزالة كسر صفحة محدد**
 
- لإزالة فاصل صفحات معين في ورقة العمل ، قم باستدعاء[**أفقي بيجبريككولكشن**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) و[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) المجموعات**إزالة** أساليب. كل**إزالة**ستأخذ الطريقة فهرس فاصل الصفحة المراد إزالته.
+لإزالة كسر صفحة محدد في الورقة، استدعي **removeAt** لـ [**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) و [**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection). يأخذ كل طريقة **removeAt** فهرس كسر الصفحة المراد إزالته.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemoveSpecificPageBreak-RemoveSpecificPageBreak.java" >}}
 
 {{% alert color="primary" %}}
 
-**من المهم أن تعرف** : عند تعيين خصائص الملاءمة للصفحة (أي[**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) و[**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) في إعدادات إعداد الصفحة ، تتأثر إعدادات فاصل الصفحة ، لذلك إذا قمت بطباعة ورقة العمل ، فلن يتم أخذ إعدادات فاصل الصفحة في الاعتبار على الرغم من أنها لا تزال موجودة في الملف.
+من المهم معرفته: عندما تقوم بتعيين خصائص الذي تناسب الصفحة (أي [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) و [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) في إعدادات تخطيط الصفحة، يتأثر إعدادات كسر الصفحة، لذلك، إذا قمت بطباعة ورقة العمل، فإن إعدادات كسر الصفحة لا تؤخذ في اعتبارها على الرغم من وجودها ما زال في الملف.
 
 {{% /alert %}}

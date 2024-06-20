@@ -3,94 +3,95 @@ title: Impostazione delle opzioni di stampa
 type: docs
 weight: 40
 url: /it/net/setting-print-options/
-description: In questo articolo viene illustrato come impostare a livello di codice le opzioni di stampa della funzionalità Imposta pagina del foglio di lavoro di Excel utilizzando la libreria C# API e .NET. È possibile impostare l'area di stampa, i titoli di stampa e l'ordine delle pagine.
-keywords: set excel print area c#, set exce print titles c#, set excel page order c#
+description: Questo articolo dimostra come impostare programmaticamente le Opzioni di Stampa della funzionalità di Impostazioni Pagina del Foglio di Calcolo di Excel utilizzando l API C# e la Libreria .NET. È possibile impostare l Area di Stampa, i Titoli di Stampa e l Ordine delle Pagine.
+keywords: impostare area di stampa excel c#, impostare titoli di stampa excel c#, impostare ordine pagine excel c#
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Le impostazioni di impostazione della pagina di Excel forniscono diverse opzioni di stampa (dette anche opzioni del foglio) che consentono agli utenti di controllare come vengono stampate le pagine del foglio di lavoro.
+Le impostazioni di pagina di Microsoft Excel forniscono diverse opzioni di stampa (anche chiamate opzioni di foglio) che consentono agli utenti di controllare come vengono stampate le pagine del foglio di lavoro.
 
 {{% /alert %}}
 
-##  **Impostazione delle opzioni di stampa**
+## **Opzioni di stampa**
 
 Queste opzioni di stampa consentono agli utenti di:
 
 - Selezionare un'area di stampa specifica su un foglio di lavoro.
-- Stampa titoli.
-- Stampa griglia.
-- Stampa le intestazioni di riga/colonna.
-- Ottieni una bozza di qualità.
-- Stampa commenti.
-- Stampa gli errori della cella.
-- Definire l'ordine delle pagine.
+- Stampare i titoli.
+- Stampare le linee di griglia.
+- Stampare gli intitoli di riga/colonna.
+- Ottenere una qualità di bozza.
+- Stampare commenti.
+- Stampare errori di cella.
+Definire l'ordinamento delle pagine.
 
- Aspose.Cells supporta tutte le opzioni di stampa offerte da Microsoft Excel e gli sviluppatori possono facilmente configurare queste opzioni per i fogli di lavoro utilizzando le proprietà offerte dal[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)classe. Il modo in cui queste proprietà vengono utilizzate è discusso di seguito in modo più dettagliato.
+Aspose.Cells supporta tutte le opzioni di stampa offerte da Microsoft Excel e gli sviluppatori possono facilmente configurare queste opzioni per i fogli di lavoro utilizzando le proprietà offerte dalla classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). Come vengono utilizzate queste proprietà è discusso più dettagliatamente di seguito.
 
-###  **Imposta area di stampa**
+### **Impostare l'area di stampa**
 
 Per impostazione predefinita, l'area di stampa incorpora tutte le aree del foglio di lavoro che contengono dati. Gli sviluppatori possono stabilire un'area di stampa specifica del foglio di lavoro.
 
- Per selezionare un'area di stampa specifica, utilizzare il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Area di stampa**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea)proprietà. Assegnare a questa proprietà un'area di celle che definisce l'area di stampa.
+Per selezionare un'area di stampa specifica, utilizzare la proprietà [**PrintArea**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea) della classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). Assegnare un intervallo di celle che definisce l'area di stampa a questa proprietà.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintArea-1.cs" >}}
 
-###  **Imposta i titoli di stampa**
+### **Impostare i titoli di stampa**
 
- Aspose.Cells consente di designare le intestazioni di riga e colonna da ripetere su tutte le pagine di un foglio di lavoro stampato. Per farlo, usa il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**PrintTitleColonne**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) E[**PrintTitleRows**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows)proprietà.
+Aspose.Cells consente di designare intitoli di riga e colonna da ripetere su tutte le pagine di un foglio di lavoro stampato. Per farlo, utilizzare le proprietà [**PrintTitleColumns**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) e [**PrintTitleRows**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows) della classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup).
 
-Le righe o le colonne che verranno ripetute vengono definite passando i loro numeri di riga o colonna. Ad esempio, le righe sono definite come $1:$2 e le colonne sono definite come $A:$B.
+Le righe o le colonne che verranno ripetute sono definite passando il loro numero di riga o colonna. Ad esempio, le righe sono definite come $1:$2 e le colonne sono definite come $A:$B.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintTitle-1.cs" >}}
 
-###  **Imposta altre opzioni di stampa**
+### **Impostare altre opzioni di stampa**
 
- IL[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class fornisce anche diverse altre proprietà per impostare le opzioni di stampa generali come segue:
+La classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) fornisce anche diverse altre proprietà per impostare opzioni di stampa generali come segue:
 
-- [**StampaLinee griglia**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printgridlines): una proprietà booleana che definisce se stampare o meno le linee della griglia.
-- [**StampaIntestazioni**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings): una proprietà booleana che definisce se stampare o meno le intestazioni di righe e colonne.
-- [**Bianco e nero**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/blackandwhite): una proprietà booleana che definisce se stampare o meno il foglio di lavoro in modalità bianco e nero.
-- [**StampaCommenti**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments): definisce se visualizzare i commenti di stampa sul foglio di lavoro o alla fine del foglio di lavoro.
-- [**Stampabozza**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printdraft): una proprietà booleana che definisce se stampare il foglio senza grafica..
-- [**Errori di stampa**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors): definisce se stampare gli errori della cella come visualizzato, vuoto, trattino o N/A.
+- [**PrintGridlines**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printgridlines): una proprietà booleana che definisce se stampare o meno le griglie.
+- [**PrintHeadings**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings): una proprietà booleana che definisce se stampare o meno gli intitoli di riga e colonna.
+- [**BlackAndWhite**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/blackandwhite): una proprietà booleana che definisce se stampare o meno il foglio di lavoro in modalità bianco e nero.
+- [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments): definisce se visualizzare i commenti di stampa sul foglio di lavoro o alla fine del foglio di lavoro.
+- [**PrintDraft**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printdraft): una proprietà booleana che definisce se stampare il foglio senza grafica.
+- [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors): definisce se stampare gli errori delle celle come visualizzati, vuoto, trattino o N/D.
 
- Per impostare il[**StampaCommenti**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) E[**Errori di stampa**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)properties, Aspose.Cells fornisce anche due enumerazioni,[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) , E[**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) che contengono valori predefiniti da assegnare al file[**StampaCommenti**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) E[**Errori di stampa**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)proprietà rispettivamente.
+Per impostare le proprietà [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) e [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors), Aspose.Cells fornisce anche due enumerazioni, [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) e [**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) che contengono valori predefiniti da assegnare rispettivamente alle proprietà [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) e [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors).
 
- I valori predefiniti in[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)enumerazione sono elencate di seguito con le relative descrizioni.
+I valori predefiniti nell'enumerazione [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) sono elencati di seguito con le loro descrizioni.
 
-|**Stampa tipi di commenti**|**Descrizione**|
+|**Tipi di Commenti di Stampa**|**Descrizione**|
 | :- | :- |
-|Stampa sul posto|Specifica di stampare i commenti come visualizzati nel foglio di lavoro.|
-|StampaNessun commento|Specifica di non stampare i commenti.|
-|StampaFoglioFine|Specifica di stampare i commenti alla fine del foglio di lavoro.|
+|PrintInPlace|Specifica di stampare i commenti come visualizzati sul foglio di lavoro.|
+|PrintNoComments|Specifica di non stampare i commenti.|
+|PrintSheetEnd| Specifica di stampare i commenti alla fine del foglio di lavoro.
 
- I valori predefiniti di[**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype)enumerazione sono elencate di seguito con le relative descrizioni.
+I valori predefiniti dell'enumerazione [**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) sono elencati di seguito con le loro descrizioni.
 
 
 
-|**Tipi di errori di stampa**|**Descrizione**|
+|**Tipi di Errori di Stampa**|**Descrizione**|
 | :- | :- |
-|PrintErrorsBlank|Specifica di non stampare gli errori.|
-|PrintErrorsDash|Specifica di stampare gli errori come "--".|
-|PrintErrorsVisualizzato|Specifica di stampare gli errori come visualizzati.|
-|PrintErrorsNA|Specifica di stampare gli errori come "#N/D".|
+|PrintErrorsBlank| Specifica di non stampare gli errori.
+|PrintErrorsDash| Specifica di stampare gli errori come "--".
+|PrintErrorsDisplayed| Specifica di stampare gli errori come visualizzato.
+|PrintErrorsNA| Specifica di stampare gli errori come "#N/A".
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-OtherPrintOptions-1.cs" >}}
 
-###  **Imposta l'ordine delle pagine**
+### **Imposta l'Ordine delle Pagine**
 
- IL[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la classe fornisce il[**Ordine**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)proprietà utilizzata per ordinare la stampa di più pagine del foglio di lavoro. Ci sono due possibilità per ordinare le pagine come segue.
+La classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) fornisce la proprietà [**Order**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order) che viene utilizzata per ordinare la stampa di più pagine del foglio di lavoro. Ci sono due possibilità per ordinare le pagine come segue.
 
-- **Giù poi sopra:** stampa tutte le pagine in basso prima di stampare quelle a destra.
-- **Sopra e poi giù:** stampa le pagine da sinistra a destra prima di stampare le pagine sottostanti.
+- **In basso poi a destra:** stampa tutte le pagine in basso prima di stampare eventuali pagine a destra.
+- **A destra poi in basso:** stampa le pagine da sinistra a destra prima di stampare le pagine sottostanti.
 
- Aspose.Cells fornisce un'enumerazione,[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)che contiene tutti i tipi di ordine predefiniti.
+Aspose.Cells fornisce un'enumerazione, [**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype), che contiene tutti i tipi di ordinamento predefiniti.
 
- I valori predefiniti di[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)enumerazione sono elencati di seguito.
+I valori predefiniti dell'enumerazione [**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype) sono elencati di seguito.
 
-|**Tipi di ordini di stampa**|**Descrizione**|
+|**Tipi di Ordine di Stampa**|**Descrizione**|
 | :- | :- |
-|DownThenOver|Rappresenta l'ordine di stampa come down then over.|
-|OverThenDown|Rappresenta l'ordine di stampa come over then down.|
+|DownThenOver|Rappresenta l'ordine di stampa come in basso e poi sopra.|
+|OverThenDown|Rappresenta l'ordine di stampa come sopra e poi in basso.|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPageOrder-1.cs" >}}

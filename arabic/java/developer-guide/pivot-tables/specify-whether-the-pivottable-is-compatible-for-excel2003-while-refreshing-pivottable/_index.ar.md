@@ -1,24 +1,25 @@
-﻿---
-title: حدد ما إذا كان PivotTable متوافقًا مع Excel2003 أثناء تحديث PivotTable
+---
+title: حدد ما إذا كان جدول الإحصائيات المحورية متوافقًا مع Excel2003 أثناء تحديث جدول الإحصائيات المحورية
 type: docs
 weight: 880
 url: /ar/java/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/
 ---
+
 {{% alert color="primary" %}} 
 
- يوفر Aspose.Cells ملف[PivotTable.IsExcel2003 متوافق](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible)الخاصية التي يمكنك استخدامها لتحديد ما إذا كان PivotTable متوافقًا مع Excel2003 أثناء تحديث PivotTable. إذا**حقيقي** ، يجب أن تكون السلسلة أقل من أو تساوي 255 حرفًا ، لذلك إذا كانت السلسلة أكبر من 255 حرفًا ، فسيتم اقتطاعها. إذا**خاطئة** ، لن يكون للسلسلة القيود المذكورة أعلاه. النظام الأساسي**حقيقي**.
+توفر Aspose.Cells خاصية [PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) التي يمكنك استخدامها لتحديد ما إذا كان جدول الإحصاءات المحورية متوافقًا مع Excel2003 أثناء تحديث جدول الإحصائيات المحورية. إذا كانت القيمة هي **true** ، يجب أن تكون السلسلة أقل من أو تساوي 255 حرفًا ، لذا إذا كانت السلسلة أكبر من 255 حرفًا ، فسيتم قصها. إذا كانت القيمة هي **false** ، فلن تكون للسلسلة القيود المذكورة. القيمة الافتراضية هي **true**.
 
 {{% /alert %}} 
-## **حدد ما إذا كان PivotTable متوافقًا مع Excel2003 أثناء تحديث PivotTable**
- يشرح نموذج التعليمات البرمجية التالي استخدام[PivotTable.IsExcel2003 متوافق](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) خاصية. يبلغ طول السلسلة الأصلية 383 حرفًا. لكن عندما[PivotTable.IsExcel2003 متوافق](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) تم تعيين الخاصية على**حقيقي** ويتم تحديث الجدول المحوري ، ويتم قطع بيانات الخلية B5 في الجدول المحوري ويصبح طولها 255 حرفًا. رغم ذلك، متى[PivotTable.IsExcel2003 متوافق](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) تم تعيين الخاصية**خاطئة** ويتم تحديث الجدول المحوري مرة أخرى ، ولا يتم اقتطاع بيانات الخلية B5 في الجدول المحوري ويظل طولها 383 حرفًا. يرجى تنزيل ملف[نموذج ملف اكسل](5472558.xlsx) المستخدمة في هذا الرمز ،[ملف اكسل الناتج](5472557.xlsx) تم إنشاؤه بواسطته وإخراج وحدة التحكم الخاصة به للرجوع إليه. يرجى أيضًا قراءة التعليقات الموجودة داخل الكود لفهم هذه الخاصية بشكل أفضل.
+## **حدد ما إذا كان جدول الإحصائيات المحورية متوافقًا مع Excel2003 أثناء تحديث جدول الإحصائيات المحورية**
+يشرح كود العينة التالي استخدام [PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) الخاصية. السلسلة الأصلية طولها 383 حرفًا. ولكن عندما يتم تعيين خاصية [PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) إلى **true** ويتم تحديث الجدول المحوري، يتم قص بيانات الخلية B5 في الجدول المحوري ويصبح طولها 255 حرفًا. ومع ذلك ، عندما يتم تعيين خاصية [PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) إلى **false** ويتم تحديث الجدول المحوري مرة أخرى، فإن بيانات الخلية B5 في الجدول المحوري لا تُقص وتبقى بطول 383 حرفًا. يرجى تنزيل [ملف الإكسل العينة](5472558.xlsx) المستخدم في هذا الكود و [ملف الإكسل الناتج](5472557.xlsx) الذي تم إنشاؤه به وإخراج وحدة التحكم الخاصة به للرجوع إليها. يرجى أيضًا قراءة التعليقات داخل الكود لفهم هذه الخاصية بشكل أفضل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-IsPivotTableCompatibleForExcel2003-.java" >}}
-## **إخراج وحدة التحكم**
-هنا هو إخراج وحدة التحكم من نموذج التعليمات البرمجية أعلاه عندما يتم تنفيذه مع المعطى[نموذج ملف اكسل](5472558.xlsx).
+## **مخرجات الوحدة**
+إليك إخراج وحدة التحكم لكود العينة أعلاه عند تنفيذه مع [ملف الإكسل العينة](5472558.xlsx) المعطى.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Length of original data string: 383
 

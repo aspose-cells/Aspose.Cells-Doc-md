@@ -1,19 +1,20 @@
-﻿---
-title: rsreportserver.config ファイルの DeviceInfo
+---
+title: rsreportserver.configファイルのDeviceInfo
 type: docs
 weight: 70
 url: /ja/reportingservices/deviceinfo-in-rsreportserver-config-file/
 ---
-の DeviceInfo セクション**rsreportserver.config**Aspose.Cells の動作に影響を与える次のパラメーターを取ります。
 
-- **ファイル拡張子** 値が**ヌル**、エクスポートされたレポート ファイルの拡張子がデフォルト値です。値が null でない場合、レポートの拡張子が値に設定されます。
-- **SimplePageHeaders** 値が**真実**、レポート ヘッダー アイテムは Microsoft Excel ページ ヘッダーとしてレンダリングされます。デフォルト値は**間違い**.
-- **SimplePageFooters** ： いつ**真実**、レポート フッター アイテムは Microsoft Excel ページ フッターとしてレンダリングされます。デフォルト値は**真実**.
-- **出力ヘッダー** ： いつ**真実**(デフォルト)、レポート ヘッダー アイテムがエクスポートされます。いつ**間違い**、レポート ヘッダー アイテムはエクスポートされません。 Excel 2007 XLSX (データのみ) 拡張子のみをサポートします。
-- **プットアウトフッター** ： いつ**真実**(デフォルト)、レポート フッター アイテムがエクスポートされます。いつ**間違い**、 そうではない。 Excel 2007 XLSX (データのみ) 拡張子のみをサポートします。
-- **FillTableGroupHeaderForSimpleOutPut**: **間違い**デフォルトで。この値は、Excel 2007 XLSX (データのみ) 拡張子のみをサポートします。
-- **NoOutPutTotalForSimpleOutPut**: **間違い**デフォルトで。この値は、Excel 2007 XLSX (データのみ) 拡張子のみをサポートします。
-- **NoOutPutGroupForSimpleOutPut**: **間違い**デフォルトで。この値は、Excel 2007 XLSX (データのみ) 拡張子のみをサポートします。
-- **NoDoGroupPageForSimpleOutPut**: **真実**デフォルトで。この値は、Excel 2007 XLSX (データのみ) 拡張子のみをサポートします。
-- **NoDoPageForSimpleOutPut**: **真実**デフォルトで。この値は、Excel 2007 XLSX (データのみ) 拡張子のみをサポートします。
-- **フィールド区切り文字**フィールド区切り文字を設定します。この値は、CSV および TXT 拡張子をサポートします。
+**rsreportserver.config**のDeviceInfoセクションは、Aspose.Cellsの動作に影響する次のパラメーターを取ります。
+
+- **FileExtension**: 値が**null**の場合、エクスポートされたレポートファイルの拡張子はデフォルト値となります。値がnullでない場合、レポートの拡張子はその値に設定されます。
+- **SimplePageHeaders**: 値が**true**の場合、レポートヘッダーアイテムはMicrosoft Excelページヘッダーとしてレンダリングされます。デフォルト値は**false**です。
+- **SimplePageFooters**: **true**の場合、レポートフッターアイテムはMicrosoft Excelページフッターとしてレンダリングされます。デフォルト値は**true**です。
+- **PutoutHeader**: **true**（デフォルト）の場合、レポートヘッダーアイテムがエクスポートされます。**false**の場合、レポートヘッダーアイテムはエクスポートされません。Excel 2007 XLSX（データのみ）拡張子のみサポートされます。
+- **PutoutFooter**: **true**（デフォルト）の場合、レポートフッターアイテムがエクスポートされます。**false**の場合、エクスポートされません。Excel 2007 XLSX（データのみ）拡張子のみサポートされます。
+- **FillTableGroupHeaderForSimpleOutPut**: デフォルトでは**false**です。値はExcel 2007 XLSX（データのみ）拡張子のみサポートされます。
+- **NoOutPutTotalForSimpleOutPut**: デフォルトでは**false**です。値はExcel 2007 XLSX（データのみ）拡張子のみサポートされます。
+- **NoOutPutGroupForSimpleOutPut**: デフォルトでは**false**です。値はExcel 2007 XLSX（データのみ）拡張子のみサポートされます。
+- **NoDoGroupPageForSimpleOutPut**: デフォルトでは**true**です。値はExcel 2007 XLSX（データのみ）拡張子のみサポートされます。
+- **NoDoPageForSimpleOutPut**: デフォルトでは**true**です。値はExcel 2007 XLSX（データのみ）拡張子のみサポートされます。
+- **FieldDelimiter**: フィールド区切り記号を設定します。値はCSVおよびTXT拡張子をサポートしています。

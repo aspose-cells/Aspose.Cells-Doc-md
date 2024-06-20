@@ -3,26 +3,27 @@ title: Поиск данных с использованием исходных 
 type: docs
 weight: 380
 url: /ru/net/search-data-using-original-values/
-description: Узнайте, как искать данные, используя исходные значения, с помощью Aspose.Cells for .NET API.
-keywords: Search Data using Original Values, Find Data using Original Values, Search Data by Original Values, Find Data by Original Values
+description: Узнайте, как искать данные по исходным значениям через API Aspose.Cells for .NET.
+keywords: Поиск данных по исходным значениям, Поиск данных по исходным значениям, Поиск данных по исходным значениям, Поиск данных по исходным значениям
 ---
+
 {{% alert color="primary" %}}
 
- Иногда значение данных скрыто, поскольку они каким-либо образом отформатированы. Например, предположим, что ячейка D4 имеет формулу = Сумма (A1: A2) и ее значение равно 20, но оно отформатировано как ---, тогда значение 20 скрыто и его невозможно найти с помощью параметров поиска Excel Microsoft. Однако вы можете найти его по номеру Aspose.Cells, используя[**LookInType.OriginalValues**](https://reference.aspose.com/cells/net/aspose.cells/lookintype)
+Иногда значение данных скрыто, потому что оно отформатировано каким-то образом. Например, предположим, что ячейка D4 имеет формулу =Сумма(A1:A2) и ее значение равно 20, но оно отформатировано как ---, то значение 20 скрыто и не может быть найдено с помощью функции поиска в Microsoft Excel. Однако вы можете найти его с помощью Aspose.Cells, используя [**LookInType.OriginalValues**](https://reference.aspose.com/cells/net/aspose.cells/lookintype)
 
 {{% /alert %}}
 
- Следующий пример кода иллюстрирует вышеизложенное. Он находит ячейку D4, которую невозможно найти с помощью параметров поиска Excel Microsoft, но Aspose.Cells можно найти с помощью[**LookInType.OriginalValues**](https://reference.aspose.com/cells/net/aspose.cells/lookintype). Пожалуйста, прочитайте комментарии внутри кода для получения дополнительной информации.
+Приведенный ниже образец кода иллюстрирует вышеупомянутый момент. Он находит ячейку D4, которую нельзя найти с помощью опций поиска Microsoft Excel, но Aspose.Cells может найти ее с помощью [**LookInType.OriginalValues**](https://reference.aspose.com/cells/net/aspose.cells/lookintype). Пожалуйста, прочтите комментарии внутри кода для получения дополнительной информации.
 
-##  C# код для поиска данных с использованием исходных значений
+## Код C# для поиска данных по исходным значениям
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-SearchDataUsingOriginalValues-SearchDataUsingOriginalValues.cs" >}}
 
-## Вывод консоли, созданный примером кода
+## Консольный вывод, сгенерированный образцовым кодом
 
-Вот консольный вывод приведенного выше примера кода.
+Вот вывод в консоль вышеуказанного образца кода.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Aspose.Cells.Cell [ D4; ValueType : IsNumeric; Value : ---; Formula:=SUM(A1:A2)]
 

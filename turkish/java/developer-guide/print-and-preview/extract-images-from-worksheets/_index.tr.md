@@ -1,16 +1,17 @@
-﻿---
-title: Çalışma Sayfalarından Görüntüleri Çıkarın
+---
+title: Çalışma Sayfalarından Görüntüleri Çıkar
 type: docs
 weight: 240
 url: /tr/java/extract-images-from-worksheets/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel kullanıcıları elektronik tablolara resim ekleyebilir. Aspose.Cells ile Microsoft Excel dosyalarından görüntüleri okumak ve bunları yerel bir sürücüye kaydetmek mümkündür. Bu makale, Aspose.Cells for Java API kullanarak bunun nasıl başarılacağını gösterir.
+Microsoft Excel kullanıcıları elektronik tablolara resim ekleyebilir. Aspose.Cells ile Microsoft Excel dosyalarından resimleri okuyup bunları yerel bir sürücüye kaydetmek mümkündür. Bu makale, bunu Aspose.Cells for Java API'sını kullanarak nasıl başarılacağını gösterir.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kod, görüntülerin bir Excel dosyasından nasıl çıkarılacağını ve kaydedileceğini gösterir.
+Aşağıdaki örnek kod, Excel dosyasından resimleri çıkarmayı ve kaydetmeyi gösterir.
 
 
 

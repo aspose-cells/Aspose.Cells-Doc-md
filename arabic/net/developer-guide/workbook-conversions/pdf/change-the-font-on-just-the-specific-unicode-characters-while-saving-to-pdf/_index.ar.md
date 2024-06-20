@@ -1,36 +1,37 @@
-﻿---
-title: قم بتغيير الخط على أحرف Unicode المحددة فقط أثناء الحفظ في PDF
+---
+title: تغيير الخط فقط في الأحرف اليونيكود المحددة أثناء الحفظ إلى PDF
 type: docs
 weight: 260
 url: /ar/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/
 ---
+
 {{% alert color="primary" %}} 
 
- لا يمكن عرض بعض أحرف Unicode بواسطة الخط المحدد من قبل المستخدم. أحد هذه الأحرف Unicode هو**واصلة غير فاصلة** (U + 2011) ورقم Unicode الخاص به هو 8209. لا يمكن عرض هذا الحرف مع**تايمز نيو رومان** ، ولكن يمكن عرضها مع خطوط أخرى مثل**Arial Unicode MS**.
+بعض الحروف اليونيكود لا يمكن عرضها بواسطة الخط المحدد من قبل المستخدم. إحدى هذه الرموز اليونيكودية هي **بنطلون متقطع** (U+2011) ورقمها اليونيكود هو 8209. لا يمكن عرض هذه الرمز بواسطة **تايمز نيو رومان** ، ولكن يمكن عرضها بخطوط أخرى مثل **Arial Unicode MS**.
 
-عند ظهور مثل هذا الحرف داخل بعض الكلمات أو الجمل الموجودة بخط معين مثل Times New Roman ، فإن Aspose.Cells يغير خط الكلمة أو الجملة بأكملها إلى الخط الذي يمكن أن يعرض هذا الحرف مثل Arial Unicode إلى MS.
+عندما يحدث مثل هذا الحرف داخل بعض الكلمات أو الجمل التي تكون في خط معين مثل Times New Roman ، يقوم Aspose.Cells بتغيير الخط الخاص بالكلمة أو الجملة بأكملها إلى الخط الذي يمكن عرض هذا الحرف مثل Arial Unicode to MS.
 
-ومع ذلك ، يعد هذا سلوكًا غير مرغوب فيه لبعض المستخدمين ويريدون فقط تغيير خط الحرف المحدد بدلاً من تغيير خط الكلمة أو الجملة بأكملها.
+ومع ذلك ، هذا السلوك غير مرغوب فيه بالنسبة لبعض المستخدمين ويريدون أن يتم تغيير خط الحرف المحدد فقط بدلاً من تغيير خط الكلمة أو الجملة بأكملها.
 
-للتعامل مع هذه المشكلة ، يوفر Aspose.Cells خاصية PdfSaveOptions.IsFontSubstitutionCharGranularity التي يجب تعيينها على صواب بحيث لا يتم تغيير سوى خط الحرف المحدد غير القابل للعرض إلى الخط القابل للعرض وبقية الكلمة أو الجملة في الخط الأصلي.
+للتعامل مع هذه المشكلة ، يوفر Aspose.Cells خاصية PdfSaveOptions.IsFontSubstitutionCharGranularity يجب تعيينها كـ true بحيث يتم تغيير الخط الخاص بالحرف المحدد الذي لا يمكن عرضه إلى الخط الذي يمكن عرضه ويجب أن تظل بقية الكلمة أو الجملة في الخط الأصلي.
 
 {{% /alert %}} 
 ## **مثال**
-تقارن لقطة الشاشة التالية بين ملفي PDF الناتج اللذين تم إنشاؤهما بواسطة نموذج التعليمات البرمجية أدناه.
+الصورة المرفقة تقارن بين ملفي PDF الناتجين من الشفرة النموذجية التالية.
 
-يتم إنشاء أحدهما بدون تعيين خاصية PdfSaveOptions.IsFontSubstitutionCharGranularity والآخر تم إنشاؤه بعد تعيين خاصية PdfSaveOptions.IsFontSubstitutionCharGranularity إلى true.
+أحدهما تم إنشاؤه دون ضبط خاصية PdfSaveOptions.IsFontSubstitutionCharGranularity والآخر تم إنشاؤه بعد ضبط الخاصية PdfSaveOptions.IsFontSubstitutionCharGranularity على قيمة صحيحة.
 
-كما ترى في ملف Pdf الأول ، تم تغيير خط الجملة بالكامل من Times New Roman إلى Arial Unicode MS بسبب الواصلة غير الفاصلة. بينما في ملف PDF الثاني ، تم تغيير خط Non-Breaking Hyphen فقط.
+كما يمكن رؤيته في الملف الأول بصيغة PDF، تغيرت الخطوط لكامل الجملة من Times New Roman إلى Arial Unicode MS بسبب الواصلة غير المنقطة. في حين أن في الملف الثاني بصيغة PDF، تغيرت خطوط الواصلة غير المنقطة فقط.
 
-|**أول ملف PDF**|
-|:- |
-|![ما يجب القيام به: image_بديل_نص](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)|
+|**ملف PDF الأول**|
+| :- |
+|![todo:image_alt_text](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)|
 
 
 |**ملف PDF الثاني**|
-|:- |
-|![ما يجب القيام به: image_بديل_نص](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_2.png)|
-### **عينة من الرموز**
+| :- |
+|![todo:image_alt_text](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_2.png)|
+### **الكود المثالي**
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-ChangeFontUnicodeCharacterToPdf-ChangeFontUnicodeCharacterWhileSavingToPdf.cs" >}}

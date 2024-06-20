@@ -1,21 +1,22 @@
-﻿---
-title: Anpassen der Zeilenhöhe und Spaltenbreite in Python
+---
+title: Zeilenhöhe und Spaltenbreite in Python anpassen
 type: docs
 weight: 10
 url: /de/java/adjusting-row-height-and-column-width-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel pytho
-description: Verwenden Sie Python Excel API, um Excel-Dateien in Python zu erstellen. Passen Sie Zeilenhöhe und Spaltenbreite in XLSX oder XLS in Ihren Python Anwendungen ohne MS Office an.
+keywords: Erstellen von XLSX in Python, Erstellen von XLS in Python, XLS Python, XLSX Python, Zeilenhöhe Python, Spaltenbreite Python, Excel Python
+description: Verwenden Sie die Python Excel API, um Excel Dateien in Python zu erstellen. Passen Sie die Zeilenhöhe und Spaltenbreite in XLSX oder XLS in Ihren Python Anwendungen ohne MS Office an.
 ---
-## **Excel-Tabellen in Python – Anpassen der Zeilenhöhe und Spaltenbreite**
+
+## **Excel-Tabellenkalkulationen in Python - Anpassen der Zeilenhöhe und Spaltenbreite**
 ### **Einstellen der Zeilenhöhe**
-Mit Aspose.Cells ist es möglich, die Höhe einer einzelnen Zeile in Python festzulegen, indem die Methode setRowHeight der Sammlung Cells aufgerufen wird. Die setRowHeight-Methode übernimmt die folgenden Parameter:
+Mit Aspose.Cells ist es möglich, die Höhe einer einzelnen Zeile in Python durch Aufrufen der Methode setRowHeight der Cells-Sammlung festzulegen. Die Methode setRowHeight nimmt die folgenden Parameter an:
 
-- **Zeilenindex**, der Index der Zeile, deren Höhe Sie ändern.
-- **Zeilenhöhe**, die Zeilenhöhe, die auf die Zeile angewendet werden soll.
+- **Zeilenindex**, der Index der Zeile, deren Höhe geändert wird.
+- **Zeilenhöhe**, die auf die Zeile anzuwendende Zeilenhöhe.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_row_height(self):
 
@@ -40,15 +41,15 @@ workbook.save(self.dataDir + "Set Row Height.xls")
 print "Set Row Height Successfully." 
 
 {{< /highlight >}}
-### **Einstellen der Spaltenbreite**
-Legen Sie die Breite einer Spalte fest, indem Sie die Methode setColumnWidth der Sammlung Cells aufrufen. Die setColumnWidth-Methode übernimmt die folgenden Parameter:
+### **Die Spaltenbreite festlegen**
+Rufen Sie die Breite einer Spalte durch Aufrufen der Methode setColumnWidth der Sammlung Cells ein. Die Methode setColumnWidth nimmt die folgenden Parameter an:
 
-- **Spaltenindex**, der Index der Spalte, deren Breite Sie ändern.
+- **Spaltenindex**, der Index der Spalte, deren Breite geändert wird.
 - **Spaltenbreite**, die gewünschte Spaltenbreite.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_column_width(self):
 
@@ -73,7 +74,7 @@ workbook.save(self.dataDir + "Set Column Width.xls")
 print "Set Column Width Successfully." 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Zeilenhöhe und Spaltenbreite anpassen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Anpassung von Zeilenhöhe und Spaltenbreite (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

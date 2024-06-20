@@ -1,36 +1,37 @@
-﻿---
-title: Dyn-Hide Form ile Çalışma
+---
+title: Dyn Hide Formu İle Çalışma
 type: docs
 weight: 150
 url: /tr/reportingservices/working-with-dyn-hide-form/
 ---
+
 {{% alert color="primary" %}} 
 
-"Dyn-Hide" iletişim kutusu, bilgileri bir rapordan dinamik olarak gizlemenizi sağlar. Gizlemek istediğiniz bir çalışma sayfasında bir hücre aralığı tanımlamanıza olanak tanır.
+“Dyn-Hide” iletişim kutusu, bir rapordan bilgileri dinamik olarak gizlemenizi sağlar. Gizlemek istediğiniz bir elek aralığını belirlemenize izin verir.
 
 {{% /alert %}} 
 
-Bilgileri gizlemek için:
+Bilgi gizlemek için:
 
-1.  Microsoft Excel'de, tıklayın**Dyn-Hide** Aspose.Cells komut çubuğunda.
- Dyn-Hide iletişim kutusu görüntülenir.
+1. Microsoft Excel'de, Aspose.Cells komut çubuğunda **Dyn-Hide**'a tıklayın.
+   Dyn-Hide iletişim kutusu görüntülenir. 
 
-![yapılacaklar:resim_alternatif_metin](working-with-dyn-hide-form_1.png)
-
-
-
-
-1. Gizleme bilgilerini düzenleyin.
-1.  Tıklamak**Eklemek** gizleme bilgilerini eklemek için.
-
-![yapılacaklar:resim_alternatif_metin](working-with-dyn-hide-form_2.png)
+![todo:image_alt_text](working-with-dyn-hide-form_1.png)
 
 
 
-Tanımlanan alan rapordan gizlenir.
 
-Gizli bilgileri kaldırmak için:
+1. Gizle bilgisini düzenleyin.
+1. Gizleme bilgisi eklemek için **Ekle**'ye tıklayın. 
 
-1. Dyn-Hide iletişim kutusundaki gizli alanlar listesinden bir sayfa seçin.
-1.  Tıklamak**Silmek**.
- Seçilen alan silinir ve raporda gösterilir.
+![todo:image_alt_text](working-with-dyn-hide-form_2.png)
+
+
+
+Belirtilen alan rapordan gizlenir.
+
+Gizleme bilgisini kaldırmak için:
+
+1. Dyn-Hide iletişim kutusundaki gizlenen alanların listesinden bir tablo seçin.
+1. **Sil**'e tıklayın.
+   Seçilen alan silinir ve raporda görüntülenir.

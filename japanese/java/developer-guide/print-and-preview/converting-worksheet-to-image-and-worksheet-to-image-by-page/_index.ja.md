@@ -1,56 +1,57 @@
-﻿---
-title: ワークシートから画像へ、ワークシートから画像へのページ単位での変換
+---
+title: ワークシートを画像に変換し、ページごとにワークシートを画像に変換
 type: docs
 weight: 210
 url: /ja/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 ---
+
 {{% alert color="primary" %}}
 
-このドキュメントは、開発者がワークシートを画像ファイルに変換する方法と、複数ページのワークシートをページごとに画像ファイルに変換する方法を詳細に理解できるように設計されています。
+このドキュメントは、開発者に、ワークシートを画像ファイルに変換する方法と、複数のページを持つワークシートを1ページごとに画像ファイルに変換する方法についての詳細な理解を提供するように設計されています。
 
-たとえば、ワークシートをアプリケーションや Web ページで使用するために、ワークシートを画像として表示する必要がある場合があります。画像を Word 文書、PDF ファイル、PowerPoint プレゼンテーションに挿入したり、他のシナリオで使用したりする必要がある場合があります。単純に、ワークシートを画像としてレンダリングしたいだけです。 Aspose.Cells API は、Microsoft Excel ファイルのワークシートを画像に変換することをサポートします。また、Aspose.Cells は、ワークブックを複数の画像ファイル (ページごとに 1 つ) に変換することをサポートしています。
+時々、ワークシートを画像として表示する必要があります。例えば、アプリケーションやWebページで使用するために画像を挿入したい場合があります。画像をWord文書、PDFファイル、PowerPointプレゼンテーションに挿入する必要があったり、他のシナリオで使用する必要があったりします。単純に言えば、ワークシートを画像としてレンダリングしたいのです。 Aspose.Cells API は、Microsoft Excelファイルのワークシートを画像に変換することをサポートしています。また、Aspose.Cells は、ワークブックを複数のイメージファイルに変換することもサポートしています。
 
 {{% /alert %}}
 
-## **Aspose.Cells を使用してワークシートを画像ファイルに変換する**
+## **Aspose.Cellsを使用してワークシートを画像ファイルに変換する方法**
 
-この記事では、Aspose.Cells for Java API を使用してワークシートを画像に変換する方法を示します。 API は、次のようないくつかの価値のあるクラスを提供します。[**シートレンダリング**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) 、 等々。の[**シートレンダリング**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)クラスは、ワークシートの画像をレンダリングするためのワークシートを表し、オーバーロードされた[**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream)任意の属性またはオプション セットを使用して、ワークシートを画像ファイルに直接変換できるメソッド。
+この記事では、Aspose.Cells for Java APIを使用してワークシートをイメージに変換する方法について説明します。APIは、[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)、[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)、[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)など、いくつかの貴重なクラスを提供しています。[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) クラスは、ワークシートを描画し、そのワークシートのイメージを生成するための[**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toImage(int,%20java.io.OutputStream))メソッドをオーバーロードされたものを提供しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImageFile-1.java" >}}
 
 ### **結果**
 
-上記のコードを実行すると、Sheet1 という名前のワークシートが画像ファイル SheetImage.jpg に変換されます。
+上記のコードを実行した後、Sheet1というワークシートがSheetImage.jpgという画像ファイルに変換されます。
 
-**出力JPG**
+**生成されたJPG**
 
-![todo:画像_代替_文章](converting-worksheet-to-image-and-worksheet-to-image-by-page_1.png)
+![todo:image_alt_text](converting-worksheet-to-image-and-worksheet-to-image-by-page_1.png)
 
-## **Aspose.Cells を使用してワークシートをページごとに画像ファイルに変換する**
+## **Aspose.Cellsを使用して、ワークシートを画像ファイルにページごとに変換する**
 
-この例では、Aspose.Cells を使用して、複数ページのテンプレート ワークブックからワークシートをページごとに 1 つのイメージ ファイルに変換する方法を示します。
+この例では、Aspose.Cellsを使用して、複数のページを持つテンプレートワークブックからワークシートを1つの画像ファイルに変換する方法を示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheetToImageByPage-1.java" >}}
 
 ### **結果**
 
-上記のコードを実行すると、Sheet1 という名前のワークシートが 2 つの画像ファイル (1 ページに 1 つ) に変換されます。Sheet 1 Page 1.Tiff と Sheet 1 Page 2.Tiff です。
+上記のコードを実行した後、Sheet1というワークシートが1ページごとに1つのイメージファイル（Sheet 1 Page 1.TiffおよびSheet 1 Page 2.Tiff）に変換されます。
 
-**生成された画像ファイル (Sheet 1 Page 1.Tiff)**
+**生成されたイメージファイル（Sheet 1 Page 1.Tiff）**
 
-![todo:画像_代替_文章](converting-worksheet-to-image-and-worksheet-to-image-by-page_2.png)
+![todo:image_alt_text](converting-worksheet-to-image-and-worksheet-to-image-by-page_2.png)
 
-**生成された画像ファイル (Sheet 1 Page 2.Tiff)**
+**生成されたイメージファイル（Sheet 1 Page 2.Tiff）**
 
-![todo:画像_代替_文章](converting-worksheet-to-image-and-worksheet-to-image-by-page_3.png)
+![todo:image_alt_text](converting-worksheet-to-image-and-worksheet-to-image-by-page_3.png)
 
 {{% alert color="primary" %}}
 
-この記事では、Aspose.Cells を使用して、ワークシートを画像ファイルに変換する方法と、複数ページのワークシートを複数の画像ファイル (1 ページに 1 つ) に変換する方法を示します。結果は、Aspose.Cells が何年にもわたる研究、設計、および慎重な調整の恩恵を受けていることを示しています。
+この記事では、Aspose.Cellsを使用してワークシートをイメージファイルに変換し、複数のページを持つワークシートを1ページごとに1つのイメージファイルに変換する方法について説明します。Aspose.Cellsは他のコンポーネントよりも柔軟性があり、優れた速度、効率性、信頼性を提供しています。結果からも分かるように、Aspose.Cellsは長年にわたる研究、設計、慎重なチューニングの成果を享受しています。
 
 {{% /alert %}}
 
 ## 関連記事
 
-- [ワークシートを別の画像形式に変換する](/cells/ja/java/converting-worksheet-to-different-image-formats/)
-- [ワークシートまたはチャートを目的の幅と高さの画像にエクスポート](/cells/ja/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+- [ワークシートを異なる画像形式に変換する](/cells/ja/java/converting-worksheet-to-different-image-formats/)
+- [希望の幅と高さでワークシートまたはチャートを画像にエクスポート](/cells/ja/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)

@@ -1,29 +1,30 @@
-﻿---
-title: عرض Cell المدى كعناوين بيانات
+---
+title: عرض نطاق الخلية كعلامات البيانات
 type: docs
 weight: 110
 url: /ar/java/showing-cell-range-as-the-data-labels/
 ---
-## عرض نطاق الخلايا كتسميات بيانات في MS Excel
 
-في Microsoft Excel 2013 ، يمكنك عرض نطاق Cell لتسميات البيانات. يمكنك تحديد هذا الخيار باتباع هذه الخطوات
+## اظهار نطاق الخلية كعلامات بيانات في MS Excel
 
-- حدد تسميات البيانات للسلسلة وانقر بزر الماوس الأيمن لفتح القائمة المنبثقة.
--  انقر على**تنسيق تسميات البيانات ...** وسوف تظهر**خيارات التسمية**.
--  حدد أو قم بإلغاء تحديد خانة الاختيار**يحتوي الملصق على - القيمة من Cells**.
+في Microsoft Excel 2013، يمكنك عرض نطاق الخلية لعلامات البيانات. يمكنك تحديد هذا الخيار من خلال اتباع هذه الخطوات
 
-### **خانة اختيار لإظهار النطاق Cell كعناوين بيانات**
+- حدد علامات البيانات للسلسلة وانقر بزر الماوس الأيمن لفتح القائمة المنبثقة.
+- انقر فوق **تنسيق علامات البيانات...** وسيظهر **خيارات العلامات**.
+- اختر أو قم بإلغاء تحديد مربع الاختيار **العلامة تحتوي على - القيمة من الخلايا**.
 
-توضح لقطة الشاشة التالية هذا الخيار للرجوع إليه.
+### **مربع الاختيار لعرض نطاق الخلية كعلامات بيانات**
 
-![ما يجب القيام به: image_بديل_نص](showing-cell-range-as-the-data-labels_1.png)
+تسليط الضوء على هذا الخيار في مربع الحوار التالي للإشارة الخاصة بك.
 
-## إظهار نطاق الخلايا كتسميات بيانات باستخدام Aspose.Cells
+![todo:image_alt_text](showing-cell-range-as-the-data-labels_1.png)
 
- يوفر Aspose.Cells ملف[**DataLabels.setShowCellRange ()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) طريقة لتحديد أو إلغاء تحديد خانة الاختيار**يحتوي الملصق على - القيمة من Cells** كما هو موضح في لقطة الشاشة أعلاه.
+## اظهار نطاق الخلية كعلامات بيانات مع Aspose.Cells
 
-## Java كود لإظهار مدى الخانة كعناوين بيانات
+Aspose.Cells يوفر طريقة [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) لتحديد أو إلغاء تحديد مربع الاختيار **العلامة تحتوي على - القيمة من الخلايا** كما هو موضح في لقطة الشاشة أعلاه.
 
- يصل نموذج التعليمات البرمجية أدناه إلى "تسميات البيانات" من "سلسلة التخطيطات" ثم قم بتعيينها[**DataLabels.setShowCellRange ()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) طريقة صحيحة للتحقق**يحتوي الملصق على - القيمة من Cells** اختيار.
+## كود جافا لعرض نطاق الخلية كعلامات بيانات
+
+الكود العينة أدناه يصل إلى علامات البيانات لسلسلة الرسم البياني ثم يقوم بتعيين الطريقة [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) لتكوين **العلامة تحتوي على - القيمة من الخلايا** لتكون صحيحة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}

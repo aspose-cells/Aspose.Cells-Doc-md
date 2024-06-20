@@ -1,25 +1,26 @@
 ---
-title: العمل مع تنسيقات عرض البيانات في DataField في Pivot Table
+title: العمل مع تنسيقات عرض البيانات لحقل البيانات في جدول الإحصائيات المحورية
 type: docs
 weight: 140
 url: /ar/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/
-description: كيفية العمل مع تنسيقات عرض البيانات DataField في Pivot Table مع Aspose.Cells for Python via .NET.
-keywords: Work with data display formats of DataField in Pivot Table.
+description: كيفية العمل مع صيغ عرض البيانات لحقل البيانات في جدول البيانات المحوري باستخدام Aspose.Cells لـ Python via .NET.
+keywords: Aspose.Cells for Python Excel، مكتبة Excel Python، العمل مع صيغ عرض البيانات لحقل البيانات في جدول البيانات المحوري.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET يدعم جميع صيغ عرض البيانات الخاصة بـ DataField.
+Aspose.Cells for Python via .NET يدعم جميع صيغ عرض بيانات حقل البيانات.
 
 {{% /alert %}}
 
-##  **خيار تنسيق العرض "الترتيب من الأصغر إلى الأكبر" و"الترتيب من الأكبر إلى الأصغر".**
+## **كيفية تعيين خيار "تصنيفات من الأصغر إلى الأكبر" و "تصنيفات من الأكبر إلى الأصغر" لخيار صيغة العرض**
 
-Aspose.Cells for Python via .NET يوفر إمكانية ضبط خيار تنسيق العرض للحقول المحورية. لهذا، يوفر API[**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/) ملكية. للترتيب من الأكبر إلى الأصغر، يمكنك تعيين[**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/)الملكية ل[**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfielddatadisplayformat/). يوضح مقتطف التعليمات البرمجية التالي ضبط خيارات تنسيق العرض.
+Aspose.Cells for Python via .NET يوفر القدرة على تعيين خيارات صيغة العرض لحقول Pivot. لهذا، يقدم الواجهة البرمجية الخاصية [**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/). لتصنيف من الأكبر إلى الأصغر، يمكنك تعيين الخاصية [**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/)  إلى [**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfielddatadisplayformat/). يوضح مقتطف الكود التالي تعيين خيارات صيغة العرض.
 
-يمكن تنزيل نماذج ملفات المصدر والإخراج من هنا لاختبار نموذج التعليمات البرمجية:
+يمكن تنزيل ملفات الأصل والإخراج العينية من هنا لاختبار كود العينة:
 
-[مصدر ملف اكسيل](101089332.xlsx)
+[ملف إكسل المصدر](101089332.xlsx)
 
-[إخراج ملف إكسل](101089333.xlsx)
+[ملف إكسل الإخراج](101089333.xlsx)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableDataDisplayFormatRanking-1.py" >}}

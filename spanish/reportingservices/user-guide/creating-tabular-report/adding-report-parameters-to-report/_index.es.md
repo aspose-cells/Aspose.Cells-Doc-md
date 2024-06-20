@@ -1,57 +1,58 @@
-﻿---
-title: Adición de parámetros de informe al informe
+---
+title: Agregar parámetros de informe al informe
 type: docs
 weight: 60
 url: /es/reportingservices/adding-report-parameters-to-report/
 ---
+
 {{% alert color="primary" %}} 
 
- La plantilla de informe Aspose.Cells admite parámetros de informe de Reporting Services como fuente de datos para celdas que contienen un marcador de parámetro de Reporting Services. Por favor refiérase a[Aspose.Cells Plantilla y marcadores inteligentes](/cells/es/reportingservices/aspose-cells-template-and-smart-markers/) para obtener información sobre los marcadores de parámetros de Reporting Services. Los parámetros del informe normalmente se colocan en el área de texto del encabezado o pie de página de la tabla.
+La plantilla de informe de Aspose.Cells admite parámetros de informe de Servicios de informes como una fuente de datos para celdas que contienen un marcador de parámetro de Servicios de informes. Consulte [Marcadores de plantillas y Smart Markers de Aspose.Cells](/cells/es/reportingservices/aspose-cells-template-and-smart-markers/) para obtener más información sobre los marcadores de parámetros de Servicios de informes. Los parámetros del informe suelen ubicarse en el área de texto del encabezado o pie de tabla.
 
 {{% /alert %}} 
-### **Adición de un parámetro de informe**
+### **Agregar un parámetro de informe**
 Para agregar parámetros de informe a los informes:
 
-1.  Seleccione una celda.
+1. Selecciona una celda. 
 
-   **Seleccionando una celda** 
+   **Seleccionar una celda** 
 
-![todo:imagen_alternativa_texto](adding-report-parameters-to-report_1.png)
-
-
+![todo:image_alt_text](adding-report-parameters-to-report_1.png)
 
 
-1. Haga clic en Insertar fórmula en la barra de herramientas Aspose.Cells.Report.Designer (
 
-![todo:imagen_alternativa_texto](adding-report-parameters-to-report_2.png)
+
+1. Haga clic en Insertar fórmula en la barra de herramientas de Aspose.Cells.Report.Designer (
+
+![todo:image_alt_text](adding-report-parameters-to-report_2.png)
 
 ).
 
-1.  Seleccione**Parámetros** desde el panel de Parámetros a la izquierda.
- Todos los parámetros se enumeran en el panel derecho.
+1. Seleccione **Parámetros** del panel de parámetros a la izquierda.
+   Todos los parámetros se enumeran en el panel de la derecha. 
 1. Seleccione un parámetro, en el ejemplo, hemos seleccionado EmpID.
-1. Haga doble clic en el parámetro para que la expresión aparezca en el editor en la parte superior del formulario.
- Un parámetro tiene dos atributos de datos: etiqueta y valor (el atributo predeterminado es valor).
+1. Haga doble clic en el parámetro para que aparezca la expresión en el editor en la parte superior del formulario.
+   Un parámetro tiene dos atributos de datos: etiqueta y valor (el atributo predeterminado es el valor). 
 
-   **Selección de un parámetro** 
+   **Seleccionar un parámetro** 
 
-![todo:imagen_alternativa_texto](adding-report-parameters-to-report_3.png)
-
-
-
-
-1.  En el ejemplo, la etiqueta del parámetro debe mostrarse en el informe, así que modifique la expresión a Parámetros!EmpID.Label.
-
-   **Modificación del parámetro** 
-
-![todo:imagen_alternativa_texto](adding-report-parameters-to-report_4.png)
+![todo:image_alt_text](adding-report-parameters-to-report_3.png)
 
 
 
 
-1.  Hacer clic**DE ACUERDO**.
- La celda seleccionada contiene un marcador de parámetros de informe.
+1. En el ejemplo, se debe mostrar la etiqueta del parámetro en el informe, por lo que modifique la expresión a Parameters!EmpID.Label. 
 
-   **Un parámetro de informe insertado en la celda.** 
+   **Modificar el parámetro** 
 
-![todo:imagen_alternativa_texto](adding-report-parameters-to-report_5.png)
+![todo:image_alt_text](adding-report-parameters-to-report_4.png)
+
+
+
+
+1. Haz clic en **Aceptar**.
+   La celda seleccionada contiene un marcador de parámetros de informe. 
+
+   **Se insertó un parámetro de informe en la celda** 
+
+![todo:image_alt_text](adding-report-parameters-to-report_5.png)

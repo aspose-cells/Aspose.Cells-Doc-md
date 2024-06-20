@@ -1,6 +1,6 @@
-﻿---
-title: Abrir, guardar y administrar archivos de Excel
-linktitle: Cargar, Guardar y Administrar
+---
+title: Abrir, guardar y gestionar archivos de Excel
+linktitle: Cargar, guardar y gestionar
 type: docs
 weight: 20
 url: /es/python-java/loading-saving-and-managing/

@@ -1,43 +1,48 @@
-﻿---
-title: Web Uzantıları - Office Eklentileri
+---
+title: Web Eklentileri  Ofis Eklentileri
 type: docs
 weight: 130
 url: /tr/net/web-extensions-office-add-ins/
 ---
-Web Uzantıları, Office uygulamalarını genişletir ve Office belgelerindeki içerikle etkileşim kurar. Web Uzantıları, kullanıcı deneyimini ve üretkenliği geliştirmek için Office istemcisine ek işlevler ekler.
 
-Aspose.Cells ayrıca Web Uzantıları ile çalışma olanağı sağlar.
+Web Eklentileri, Ofis belgelerindeki içerikle etkileşimde bulunarak Ofis uygulamalarını genişletir. Web Eklentileri, kullanıcı deneyimini ve üretkenliği artırmak için Ofis istemcisine ek işlevsellik ekler.
 
-## **Web Uzantısı Ekle**
+Aspose.Cells, Web Eklentileri ile çalışma kabiliyeti de sunar.
 
- Web Uzantılarını (Office Eklentileri) Excel'e tıklayarak ekleyebilirsiniz.**Sokmak** sekmesine tıklayın ve ardından**Mağaza**/**Eklentileri Alın** bağlantı. Eklentiler kutusunda, istediğiniz eklentiye göz atın ve ekleyin.
+## **Web Eklentisi Ekleme**
 
-Aspose.Cells ayrıca Web Uzantıları ekleme özelliğini de sağlar.[**Web Uzantısı**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) ve[**Web Uzantısı Görev Bölmesi**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) sınıflar. Aşağıdaki kod örneği, kullanımını gösterir[**Web Uzantısı**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) ve[**Web Uzantısı Görev Bölmesi**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane)Excel dosyasına bir web uzantısı eklemek için sınıflar. Lütfen bkz[çıktı excel dosyası](89849869.xlsx)referans için kod tarafından oluşturulur.
+Excel'de Web Eklentileri(Office Eklentileri) eklemek için **Ekle** sekmesine tıklayarak **Mağaza**/**Eklenti Al** bağlantısını tıklamanız gerekmektedir. Eklenti kutusunda istediğiniz eklentiyi gözatın ve ekleyin.
 
-### **Basit kod**
+Aspose.Cells ayrıca [**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) ve [**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) sınıflarını kullanarak Web Eklentileri eklemeyi de sağlar. Aşağıdaki kod örneği, bir Web Eklentisi eklemek için [**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) ve [**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) sınıflarının kullanımını göstermektedir. Referans için kod tarafından oluşturulan [çıktı Excel dosyasını](89849869.xlsx) inceleyebilirsiniz.
+
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AddWebExtension-1.cs" >}}
 
-## **Web Uzantısı Bilgilerine Erişim**
+## **Web Eklentisi Bilgilerine Erişme**
 
- Aspose.Cells, Excel dosyasındaki Web Uzantılarının bilgilerine erişme olanağı sağlar. Aşağıdaki kod örneği, yükleyerek web uzantısı bilgilerine nasıl erişileceğini gösterir.[örnek excel dosyası](89849870.xlsx). Lütfen referans için kod tarafından oluşturulan konsol çıktısına bakın.
+Aspose.Cells, Excel dosyasındaki Web Eklentileri bilgilerine erişme kabiliyeti sunar. Aşağıdaki kod örneği, [örnek Excel dosyasını](89849870.xlsx) yükleyerek Web Eklentisi bilgilerine erişmeyi nasıl yapacağınızı göstermektedir. Referans için kodun ürettiği konsol çıktısını inceleyebilirsiniz.
 
-### **Basit kod**
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AccessWebExtensionInformation-1.cs" >}}
 
-### **Konsol Çıkışı**
+### **Konsol Çıktısı**
 
-Genişlik: 350
+{{< highlight java >}}
 
-Görünür: Doğru
+Width: 350
 
-Kilitli: Yanlış
+IsVisible: True
 
-DockState: doğru
+IsLocked: False
 
-MağazaAdı: tr-US
+DockState: right
 
-Mağaza Tipi: OMEX
+StoreName: en-US
+
+StoreType: OMEX
 
 WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
+
+{{< /highlight >}}

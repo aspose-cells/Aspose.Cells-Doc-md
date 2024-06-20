@@ -1,26 +1,27 @@
-﻿---
-title: Geben Sie an, wie die Zeichenfolge in Ausgabe HTML mit HtmlCrossType gekreuzt werden soll
+---
+title: Geben Sie an, wie Zeichenkette in der Ausgabe HTML mit HtmlCrossType geschnitten werden soll
 type: docs
 weight: 140
 url: /de/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn die Zelle Text oder eine Zeichenfolge enthält, aber größer als die Breite der Zelle ist, läuft die Zeichenfolge über, wenn die nächste Zelle in der nächsten Spalte null oder leer ist. Wenn Sie Ihre Excel-Datei in HTML speichern, können Sie diesen Überlauf kontrollieren, indem Sie den Kreuztyp mit angeben[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) Aufzählung. Es hat die folgenden Werte
+## **Mögliche Verwendungsszenarien**
 
-- **HtmlCrossType.Default**: Darstellung wie MS Excel, abhängig von der nächsten Zelle. Wenn die nächste Zelle null ist, kreuzt sich die Zeichenfolge oder sie wird abgeschnitten.
+Wenn in einer Zelle Text oder eine Zeichenfolge enthalten ist, die jedoch breiter ist als die Breite der Zelle, dann läuft die Zeichenfolge über, wenn die nächste Zelle in der nächsten Spalte leer oder null ist. Wenn Sie Ihre Excel-Datei in HTML speichern, können Sie dieses Überlaufen steuern, indem Sie den Überlauftyp mithilfe der [**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)-Enumerationswert angeben. Es hat die folgenden Werte
 
-- **HtmlCrossType.MSExport**: Zeigen Sie die Zeichenfolge wie MS Excel beim Exportieren von HTML an.
+- **HtmlCrossType.Default**: Zeigen Sie es wie MS Excel an, abhängig von der nächsten Zelle. Wenn die nächste Zelle leer ist, wird der String durchgestrichen oder abgeschnitten.
 
-- **HtmlCrossType.Cross**: Kreuzzeichenfolge HTML anzeigen, ist die Leistung beim Erstellen großer HTML-Dateien mehr als zehnmal schneller als beim Festlegen des Werts auf Standard oder FitToCell.
+- **HtmlCrossType.MSExport**: Zeigen Sie den String wie MS Excel, der HTML exportiert.
 
-- **HtmlCrossType.FitToCell**: Die Zeichenfolge wird nur innerhalb der Zellenbreite angezeigt.
+- **HtmlCrossType.Cross**: Zeigen Sie den HTML-Durchkreuzungsstring an. Die Leistung bei der Erstellung großer HTML-Dateien ist mehr als zehnmal schneller als das Setzen des Werts auf Standard oder FitToCell.
 
-## **Geben Sie an, wie die Zeichenfolge in Ausgabe HTML mit HtmlCrossType gekreuzt werden soll**
+- **HtmlCrossType.FitToCell**: Zeigen Sie nur den String innerhalb der Zellenbreite an.
 
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](51740732.xlsx) und speichert es im Format HTML, indem Sie different angeben[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) . Bitte laden Sie die herunter[HTML ausgeben](51740734.zip) mit diesem Code generiert. Die Beispiel-Excel-Datei enthält das rot umrandete Bild, wie in diesem Screenshot gezeigt, der die Wirkung von zeigt[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) Werte am Ausgang HTML.
+## **Geben Sie an, wie die Zeichenfolge im Ausgabe-HTML mit HtmlCrossType gekreuzt wird.**
 
-![todo: Bild_alt_Text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](51740732.xlsx) und speichert sie im HTML-Format, indem verschiedene [**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) spezifiziert werden. Bitte laden Sie die mit diesem Code generierten [Ausgabe-HTMLs](51740734.zip) herunter. Die Beispiel-Excel-Datei enthält das Bild mit rotem Rahmen, wie in diesem Screenshot gezeigt, der den Effekt der [**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)-Werte auf die Ausgabe-HTML zeigt.
+
+![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 
 ## **Beispielcode**
 

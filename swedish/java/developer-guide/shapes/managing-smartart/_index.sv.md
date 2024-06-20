@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hantera SmartArt
 type: docs
 weight: 100

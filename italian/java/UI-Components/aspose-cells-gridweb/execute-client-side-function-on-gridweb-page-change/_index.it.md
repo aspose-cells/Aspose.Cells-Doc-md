@@ -1,19 +1,20 @@
 ---
-title: Esegui la funzione lato client alla modifica della pagina GridWeb
+title: Eseguire la funzione lato client al cambiamento della pagina di GridWeb
 type: docs
 weight: 70
 url: /it/java/execute-client-side-function-on-gridweb-page-change/
 ---
-##  **Possibili scenari di utilizzo**
-A volte è necessario eseguire la funzione lato client quando la pagina GridWeb cambia. Aspose.Cells.GridWeb fornisce a questo scopo la proprietà OnPageChangeClientFunction. Imposta questa proprietà con la funzione lato client che desideri eseguire.
-##  **Esegui la funzione lato client alla modifica della pagina GridWeb**
- Il seguente codice Java spiega come utilizzare la proprietà GridWebBean.setOnPageChangeClientFunction(). Imposta la proprietà con la funzione lato client denominata MyOnPageChange. Tieni presente che questa proprietà è valida solo se hai abilitato il paging, ad esempio GridWebBean.setEnablePaging(true). Ora, ogni volta che cambierai la pagina GridWeb, chiamerà la funzione lato client MyOnPageChange che stamperà il file**indice della pagina corrente** sul**consolle** come mostrato in questa schermata.
 
-![cose da fare:immagine_alt_testo](execute-client-side-function-on-gridweb-page-change_1.png)
-##  **Codice d'esempio**
-Questo è il codice della funzione lato client MyOnPageChange che verrà eseguita a causa di questa riga, ovvero Gridweb.setOnPageChangeClientFunction("MyOnPageChange");
+## **Possibili Scenari di Utilizzo**
+A volte è necessario eseguire la funzione lato client quando cambia la pagina di GridWeb. Aspose.Cells.GridWeb fornisce la proprietà OnPageChangeClientFunction a tale scopo. Si prega di impostare questa proprietà con la funzione lato client che si desidera eseguire.
+## **Eseguire la funzione lato client al cambiamento della pagina di GridWeb**
+Il seguente codice Java spiega come utilizzare la proprietà GridWebBean.setOnPageChangeClientFunction(). Imposta la proprietà con la funzione lato client chiamata MyOnPageChange. Si prega di notare che questa proprietà è valida solo se si è abilitata la paginazione cioè GridWebBean.setEnablePaging(true). Ora, ogni volta che si cambierà la pagina di GridWeb, verrà chiamata la funzione lato client MyOnPageChange che stamperà l'**indice della pagina corrente** sulla **console** come mostrato in questa schermata.
 
-{{< highlight "java" >}}
+![todo:image_alt_text](execute-client-side-function-on-gridweb-page-change_1.png)
+## **Codice di Esempio**
+Questo è il codice della funzione lato client MyOnPageChange che verrà eseguita a causa di questa riga cioè Gridweb.setOnPageChangeClientFunction("MyOnPageChange");
+
+{{< highlight java >}}
 
  function MyOnPageChange(index) {
 
@@ -23,9 +24,9 @@ Questo è il codice della funzione lato client MyOnPageChange che verrà eseguit
 
 {{< /highlight >}}
 
-Il codice seguente spiega come abilitare il paging e impostare la proprietà OnPageChangeClientFunction.
+Il seguente codice spiega come abilitare la paginazione e impostare la proprietà OnPageChangeClientFunction.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  GridWebBean gridweb=BeanManager.getBean(request);
 

@@ -1,11 +1,12 @@
-﻿---
-title: Rendering Slicer
+---
+title: Rendera slicer
 type: docs
 weight: 50
 url: /sv/python-java/rendering-slicer/
 ---
-## **Rendering Slicer**
-Aspose.Cells for Python via Java stöder rendering av skärform. Följande kodavsnitt laddar[exempel på Excel-fil](106364974.xlsx)som innehåller en skivare. Den konverterar kalkylbladet till en bild genom att ställa in utskriftsområdet som endast täcker skivan. Den flödande bilden är[utgångsbild](106364975.png)som visar den renderade skivaren. Som du kan se har skivaren renderats på rätt sätt, den ser ut som i exemplet i Excel-filen.
+
+## **Rendera slicer**
+Aspose.Cells för Python via Java stödjer rendering av slicerform. Följande kodsnutt laddar in [prov Excel-filen](106364974.xlsx) som innehåller en slicer. Den konverterar arksamligen till en bild genom att ställa in utskriftsområdet som bara täcker slicern. Den resulterande bilden är [utdata bilden](106364975.png) som visar den renderade slicern. Som du kan se har slicern renderats korrekt och ser ut precis som i prov Excel-filen.
 
 ![todo:image_alt_text](outputRenderingSlicer.png)
 ## **Exempelkod**

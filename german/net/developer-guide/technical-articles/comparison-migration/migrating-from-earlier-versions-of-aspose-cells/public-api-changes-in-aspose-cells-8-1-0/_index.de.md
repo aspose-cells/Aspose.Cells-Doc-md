@@ -1,30 +1,31 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.1.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.1.0
 type: docs
 weight: 40
 url: /de/net/public-api-changes-in-aspose-cells-8-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt Änderungen an Aspose.Cells API von Version 8.0.2 zu 8.1.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt Änderungen an der Aspose.Cells API von Version 8.0.2 auf 8.1.0, die für Modul-/Anwendungs-Entwickler von Interesse sein können. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, sondern auch eine Beschreibung von Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
 ## **HtmlSaveOptions.ExportHiddenWorksheet-Eigenschaft hinzugefügt**
-Die HtmlSaveOptions-Klasse hat die ExportHiddenWorksheet-Eigenschaft verfügbar gemacht, die verwendet werden kann, um anzugeben, ob ausgeblendete Arbeitsblätter in das HTML-Format exportiert werden. Der Standardwert ist wahr. wohingegen, wenn auf „false“ gesetzt, Aspose.Cells keine versteckten Arbeitsblattinhalte exportiert.
+Die HtmlSaveOptions-Klasse verfügt über das Attribut ExportHiddenWorksheet, das verwendet werden kann, um anzugeben, ob versteckte Arbeitsblätter im HTML-Format exportiert werden. Der Standardwert ist true. Wenn er jedoch auf false gesetzt wird, exportiert Aspose.Cells die Inhalte des versteckten Arbeitsblatts nicht.
 
 {{% alert color="primary" %}} 
 
- Bitte lesen Sie den ausführlichen Artikel auf[Verhindern Sie den Export von versteckten Arbeitsblättern](/cells/de/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
+Bitte prüfen Sie den detaillierten Artikel zu [Verhindern des Exports von versteckten Arbeitsblattinhalten beim Speichern unter](/cells/de/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
 
 {{% /alert %}}
-## **Eigenschaft Cell.StringValueWithoutFormat hinzugefügt**
-Die Eigenschaft „StringValueWithoutFormat“ wurde der Klasse „Cell“ hinzugefügt, um den Entwicklern das Abrufen des Zellenwerts ohne angewendete Formatierung zu erleichtern.
+## **Hinzugefügtes Cell.StringValueWithoutFormat-Attribut**
+Das StringValueWithoutFormat-Attribut wurde der Cell-Klasse hinzugefügt, um den Entwicklern das Abrufen des Zellenwerts ohne jegliche Formatierung zu ermöglichen.
 
-Das unten bereitgestellte Code-Snippet demonstriert die Verwendung der Eigenschaft Cell.StringValueWithoutFormat im Vergleich zu cell.DisplayStringValue, indem eine Tabelle von Grund auf neu erstellt und das Zahlenformat auf eine der Zellen angewendet wird.
+Der unten bereitgestellte Codeausschnitt demonstriert die Verwendung der Cell.StringValueWithoutFormat-Eigenschaft im Vergleich zum cell.DisplayStringValue durch das Erstellen einer Tabelle von Grund auf und das Anwenden des Zahlenformats auf eine der Zellen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -77,5 +78,5 @@ Die Ausgabe des obigen Codes ist wie folgt
 123456
 
 {{% /alert %}}
-## **Veraltete Eigenschaften von Bytes, Zeichen, CharactersWithSpaces, Zeilen, Absätzen**
-Viele Eigenschaften der Klasse BuiltInDocumentPropertyCollection wurden ab Aspose.Cells for .NET 8.1.0 als veraltet markiert. Zu diesen Eigenschaften gehören Bytes, Zeichen, CharactersWithSpaces, Zeilen und Absätze. Der Grund dafür ist, dass die oben genannten Eigenschaften bei der Konservierung von Excel-Tabellen nicht von Nutzen sind, da Excel sie weglässt. Wobei diese Eigenschaften ursprünglich für Word-Dokumente und PowerPoint-Präsentationen geschrieben wurden.
+## **Veraltete Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs-Eigenschaften**
+Viele Eigenschaften der Klasse BuiltInDocumentPropertyCollection wurden ab Aspose.Cells for .NET 8.1.0 als veraltet markiert. Dazu gehören Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. Der Grund dafür ist, dass die genannten Eigenschaften nicht zur Erhaltung von Excel-Arbeitsmappen geeignet sind, da Excel sie auslässt. Diese Eigenschaften wurden ursprünglich für Word-Dokumente und PowerPoint-Präsentationen geschrieben.

@@ -1,109 +1,112 @@
-﻿---
-title: Desteklenen İşlevlerin Listesi
+---
+title: Desteklenen Fonksiyonlar Listesi
 type: docs
 weight: 10
-url: /tr/net/list-of-supported-functions/
+url: /tr/net/aspose-cells-griddesktop/list-of-supported-functions/
+keywords: GridDesktop,functions,formula
+description: Bu makale, GridDesktop ta desteklenen fonksiyonları tanıtıyor.
 ---
-## **Giriş**
-Aspose.Cells Grid Controls tarafından desteklenen birçok yerleşik işlev vardır. Bu işlevler aşağıdaki kategorilere aittir:
 
-- **Matematik Fonksiyonları** , çok sayıda matematiksel hesaplamada kullanılabilecek çok sayıda işlev sağlar
-- **Metin ve Veri İşlevleri** , metin ve veriler üzerinde farklı türde işlemler gerçekleştirmek için çeşitli işlevler sağlar
-- **Tarih ve Saat İşlevleri** , veri ve zamanla ilgili bazı yararlı işlevler sağlar
-- **Mantıksal İşlevler** , veriler üzerinde bazı mantıksal işlemleri gerçekleştirmek için küçük bir dizi mantıksal işlev sağlar
+## **Giriş**
+Aspose.Cells.GridDesktop Kontrolü tarafından desteklenen birçok yerleşik fonksiyon bulunmaktadır. Bu fonksiyonlar aşağıdaki kategorilere aittir:
+
+- **Matematik Fonksiyonları**, sayısal hesaplamalarda kullanılabilecek geniş bir fonksiyon seti sağlar
+- **Metin ve Veri Fonksiyonları**, metin ve veri üzerinde farklı türde işlemler gerçekleştirmek için çeşitli fonksiyonlar sağlar
+- **Tarih ve Zaman Fonksiyonları**, veri ve zamanla ilgili faydalı fonksiyonlar sağlar
+- **Mantıksal Fonksiyonlar**, veri üzerinde bazı mantıksal işlemleri ele almak için küçük bir mantıksal fonksiyon seti sağlar
 ### **Matematik Fonksiyonları**
-- TAVAN,KOMBİN,COS,COSH,COUNTIF
-- DERECELER
-- EŞİT,EXP
-- GERÇEK, KAT
+- CEILING,COMBIN,COS,COSH,COUNTIF
+- DEGREES
+- EVEN,EXP
+- FACT,FLOOR
 - INT
 - LN,LOG,LOG10
-- mod
-- GARİP
-- PI,GÜÇ,ÜRÜN
-- RADYAN, RAND, YUVARLAK, AŞAĞI YUVARLAK, YUVARLAK
-- İŞARETİ,GÜNAH,SİNH
-- SQRT,TOPLA,ETOPLA,TOPLARP,SUMSQ,SUMX2MY2,SUMX2PY2,SUMXMY2
+- MOD
+- ODD
+- PI,POWER,PRODUCT
+- RADIANS,RAND,ROUND,ROUNDDOWN,ROUNDUP
+- SIGN,SIN,SINH
+- SQRT,SUM,SUMIF,SUMPRODUCT,SUMSQ,SUMX2MY2,SUMX2PY2,SUMXMY2
 - TAN,TANH,TRUNC
-### **Metin ve Veri İşlevleri**
-- CHAR, KOD, BİRLEŞTİR
-- DOLAR
-- BİRE BİR AYNI
-- BUL, SABİT
-- SOL, UZUNLUK, ALT
-- ORTA
-- KİBRİT
-- DEĞİŞTİR,TEKRARLA,SAĞ
-- ARAMA,YEDEK
-- T, METİN, KESME
-- ÜST
-- DEĞER
-- YUKARI BAK
-- DÜŞEYARA
-- GENİŞ ÇÖZÜM
-### **Tarih ve Saat İşlevleri**
-- SAAT
-- DAKİKA,AY
-- ŞİMDİ
-- İKİNCİ
-- ZAMAN, BUGÜN
-- HAFTA İÇİ
-- YIL
-### **Mantıksal İşlevler**
-- YANLIŞ
-- EĞER
-- OLUMSUZLUK
-- VEYA
-- DOĞRU
+### **Metin ve Veri Fonksiyonları**
+- CHAR,CODE,CONCATENATE
+- DOLLAR
+- EXACT
+- FIND,FIXED
+- LEFT,LEN,LOWER
+- MID
+- MATCH
+- REPLACE,REPT,RIGHT
+- SEARCH,SUBSTITUTE
+- T,TEXT,TRIM
+- UPPER
+- VALUE
+- LOOKUP
+- VLOOKUP
+- WIDECHAR
+### **Tarih ve Zaman Fonksiyonları**
+- HOUR
+- MINUTE,MONTH
+- NOW
+- SECOND
+- TIME,TODAY
+- WEEKDAY
+- YEAR
+### **Mantıksal Fonksiyonlar**
+- FALSE
+- IF
+- NOT
+- OR
+- TRUE
 ### **Yeni Fonksiyonlar**
-- DAK
-- SATIR (Yalnızca Aspose.Cells.GridWeb'de desteklenir)
-- ROW S (Yalnızca Aspose.Cells.GridWeb'de desteklenir)
-- SÜTUN (Yalnızca Aspose.Cells.GridWeb'de desteklenir)
-- SÜTUN S (Yalnızca Aspose.Cells.GridWeb'de desteklenir)
-- ADRES (Yalnızca Aspose.Cells.GridWeb'de desteklenir)
-- TELAFİ ETMEK
-- DOLAYLI
+- MIN
+- ROW (Yalnızca Aspose.Cells.GridWeb'de Desteklenir )
+- ROW S (Yalnızca Aspose.Cells.GridWeb'de Desteklenir )
+- COLUMN (Yalnızca Aspose.Cells.GridWeb'de Desteklenir )
+- COLUMN S (Yalnızca Aspose.Cells.GridWeb'de Desteklenir )
+- ADDRESS (Yalnızca Aspose.Cells.GridWeb'de Desteklenir )
+- OFFSET
+- INDIRECT
 - ISERR
-- NUMARA
-- TEMİZ
-- Yuan
-- GERÇEKÇİFT
+- ISNUMBER
+- CLEAN
+- RMB
+- FACTDOUBLE
 - GCD
 - LCM
-- ÇEVRE
-- ÇOK TERİMLİ
-- BÖLÜM
+- MROUND
+- MULTINOMIAL
+- QUOTIENT
 - RANDBETWEEN
-- SERİ TOPLAM
+- SERIESSUM
 - SQRTPI
-- ARA TOPLAM
-- SAYMAK
-- SAYI
-- DİZİN
-- HÜCRE
-- MEDYAN
-- HATA.TİPİ
-- İSBLANK
+- SUBTOTAL
+- COUNT
+- COUNTA
+- INDEX
+- CELL
+- MEDIAN
+- ERROR.TYPE
+- ISBLANK
 - ISERROR
-- mantıksal
+- ISLOGICAL
 - ISNA
-- Metin Değil
+- ISNONTEXT
 - ISTEXT
 - ISREF
 - N
-- yok
-- TİP
-- BOŞ SAYI
-- BÜYÜK
+- NA
+- TYPE
+- COUNTBLANK
+- LARGE
 - MAXA
-- MİNA
-- ORTALAMA
-- MOD
-- YÜZDELİK
-- YÜZDERANK
-- RÜTBE
-- SEÇ
-- YATAYARA
-- KÜÇÜK (Yalnızca Aspose.Cells.GridWeb'de desteklenir)
+- MINA
+- AVERAGEA
+- MODE
+- PERCENTILE
+- PERCENTRANK
+- RANK
+- CHOOSE
+- HLOOKUP
+- SMALL ( Yalnızca Aspose.Cells.GridWeb'de Desteklenir )
 

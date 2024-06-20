@@ -1,28 +1,29 @@
-﻿---
+---
 title: Aralıkları Sil
 type: docs
 weight: 105
 url: /tr/net/delete-ranges-from-Excel/
 ---
+
 ## **Giriş**
 
-Excel'de bir aralık seçebilir, ardından onu silebilir ve diğer verileri sola veya yukarı kaydırabilirsiniz.
+Excel'de bir aralık seçebilir, ardından onu silip diğer verileri sola veya yukarı kaydırabilirsiniz.
 
 **![Shift seçenekleri](delete-range.png)**
 
-## **Aspose.Cells'i Kullanarak Aralıkları Sil**
+## **Aspose.Cells Kullanarak Aralıkları Sil**
 
- Aspose.Cells sağlar[Cells.DeleteRange](https://reference.aspose.com/cells/net/aspose.cells/cells/insertrange/) bir aralığı silme yöntemi.
+Aspose.Cells, bir aralığı silmek için [Cells.DeleteRange](https://reference.aspose.com/cells/net/aspose.cells/cells/deleterange/) yöntemi sağlar.
 
-## **Aralıkları Sil ve Cells Sola Kaydır**
+## **Aralıkları Sil ve Hücreleri Sola Kaydır**
 
-Bir aralığı silin ve hücreleri Aspose.Cells ile aşağıdaki kodlar kadar sola kaydırın:
+Aşağıdaki kodlarla Aspose.Cells ile bir aralığı silin ve hücreleri sola kaydırın:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-Left.cs" >}}
 
-## **Aralıkları Sil ve Cells Yukarı Kaydır**
+## **Aralıkları Sil ve Hücreleri Yukarı Kaydır**
 
-Aspose.Cells ile bir aralığı silin ve hücreleri aşağıdaki kodlarla yukarı kaydırın:
+Aşağıdaki kodlarla Aspose.Cells ile bir aralığı silin ve hücreleri yukarı kaydırın:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-up.cs" >}}
 

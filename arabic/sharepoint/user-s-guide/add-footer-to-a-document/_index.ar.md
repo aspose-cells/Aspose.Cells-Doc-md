@@ -1,21 +1,22 @@
-﻿---
+---
 title: إضافة تذييل إلى مستند
 type: docs
 weight: 70
 url: /ar/sharepoint/add-footer-to-a-document/
 ---
-إذا كنت تريد إضافة تذييل في ملف Excel ، فالرجاء اختيار "إضافة تذييل مع Aspose.Cells" الخيار في تحرير كتلة التحكم (ECB) بالمستند.
 
-![ما يجب القيام به: image_بديل_نص](add-footer-to-a-document_1.png)
+إذا كنت ترغب في إضافة تذييل في ملف Excel، يرجى اختيار خيار 'إضافة تذييل مع Aspose.Cells' في لوحة التحكم في تحرير المستند (ECB) للمستند.
 
-تتوفر الخيارات التالية أثناء إعداد إضافة تذييل:
+![todo:image_alt_text](add-footer-to-a-document_1.png)
 
-![ما يجب القيام به: image_بديل_نص](add-footer-to-a-document_2.png)
+الخيارات التالية متاحة أثناء إعداد إضافة تذييل:
 
-**الجزء**
+![todo:image_alt_text](add-footer-to-a-document_2.png)
 
-إضافة موضع التذييل: القسم الأيسر ، القسم الأوسط ، القسم الأيمن.
+**القسم**
+
+موضع إضافة التذييل: القسم الأيسر، القسم المركزي، القسم الأيمن.
 
 **نص التذييل**
 
-يمثل البرنامج النصي تنسيق التذييل. أوامر البرنامج النصي: الأمر | الوصف | & P رقم الصفحة الحالية | & N عدد الصفحات | & D التاريخ الحالي | & T الوقت الحالي & اسم الورقة & اسم الملف بدون مسار & "<FontName>"اسم الخط ، على سبيل المثال: &" Arial "&"<FontName>, <FontStyle>"اسم الخط ونمطه ، على سبيل المثال: &" Arial، Bold "&<FontSize>حجم الخط. إذا كان هذا الأمر متبوعًا برقم عادي ليتم طباعته في الرأس ، فسيتم فصله عن ارتفاع الخط بحرف مسافة. & G Image script على سبيل المثال: "& Arial، Bold & 8Footer Note".
+It represents Footer formatting script. Script commands: Command | Description| &P Current page number| &N Page count|&D Current date| &T Current time &A Sheet name &F File name without path &"<FontName>" Font name, for example: &"Arial" &"<FontName>, <FontStyle>" Font name and font style, for example: &"Arial,Bold" &<FontSize> Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. &G Image script For example: "&Arial,Bold&8Footer Note".

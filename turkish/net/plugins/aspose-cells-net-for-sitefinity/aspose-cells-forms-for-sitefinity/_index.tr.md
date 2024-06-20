@@ -1,167 +1,168 @@
-﻿---
-title: Aspose.Cells Sitefinity Formları
+---
+title: Aspose.Cells Forms for Sitefinity
 type: docs
 weight: 10
 url: /tr/net/aspose-cells-forms-for-sitefinity/
 ---
+
 ## **Giriş**
 
-Aspose.Cells Sitefinity Modülü için Dinamik Formlar, kullanıcıların Dinamik Anket ve İncelemeler Oluşturmasına, kullanıcı girdisini Excel Elektronik Tablosuna kaydetmesine ve Aspose.Cells kullanarak sonuçları Excel, Metin, CSV ve OpenDocument Elektronik Tablosuna Dışa Aktarmasına olanak tanır. Bu modül, Aspose.Cells for .NET tarafından sağlanan güçlü elektronik tablo oluşturma özelliğini gösterir.
+Aspose.Cells Sitefinity Modülü Dinamik Formlar kullanıcılara, Dinamik Anket ve Araştırmalar oluşturmalarına, kullanıcı girişini Excel elektronik tablosuna kaydetmelerine ve sonuçları Aspose.Cells kullanarak Excel, Metin, CSV ve OpenDocument Elektronik Tablosuna aktarmalarına olanak sağlar. Bu modül, Aspose.Cells for .NET tarafından sağlanan güçlü elektronik tablo oluşturma özelliğini sergiler.
 
-|<p>![yapılacaklar:resim_alternatif_metin](aspose-cells-forms-for-sitefinity_1)</p><p></p>|
-|:- |
+|<p>![todo:image_alt_text](aspose-cells-forms-for-sitefinity_1)</p><p></p>|
+| :- |
 
 ### **Modül Özellikleri**
 
-Modülün bu ilk sürümü, Form Oluşturma ve Dışa Aktarma sürecini basit ve kullanımı kolay hale getirmek için aşağıdaki özelliklerle zenginleştirilmiştir.
+Bu modülün ilk sürümü, Form Oluşturma ve Aktarım sürecini basit ve kullanımı kolay hale getirmek için aşağıdaki özelliklerle zenginleştirilmiştir
 
-- Excel'de Form Alanı Ayarlarını Kaydet
+- Excel'de Form Alan Ayarlarını Kaydet
 - Formun Kullanıcı Giriş Verilerini Excel'e Kaydet
-- Yeni Eklemeye ve Mevcut Form Alanlarını Güncellemeye İzin Ver
-- TextBox, Multiline TextBox, RadioButtons, CheckBox ve DropDownList, DropDownList Öğeleri tip Alanları Eklemeye İzin Ver
-- Her Alan için Etiket Eklemeye/Güncellemeye İzin Ver
-- Form Alanlarını Göstermeye/Gizlemeye İzin Ver
-- Sütunları içeriğin uzunluğuna Otomatik Sığdır ve Başlık Sütunu biçimlendirmesini Kalın Metin olarak uygula
-- Verileri Microsoft Excel Belgelerine Aktar (.xls, .xlsx ve .xlsb)
-- Verileri Sekmeyle ayrılmış metin belgesine (*.txt) Aktar
-- Verileri CSV'e (Virgülle ayrılmış) (*.csv) Aktar
-- Verileri OpenDocument Elektronik Tablosuna Aktarın (*.ods)
-- Dışa aktarmadan önce istenen çıktı formatını seçme seçeneği.
-- Dışa aktarılan belge, indirilmek üzere otomatik olarak tarayıcıya gönderilir.
+- Yeni Form Alanları Eklemeye ve Mevcutları Güncellemeye İzin Ver
+- Metin Kutusu, Çoklu Satır Metin Kutusu, Radyo Düğmeleri, Onay Kutusu ve Açılır listeden, Açılır listedeki Öğeler türünde Alanlar Eklemeye İzin Ver
+- Her Alan için Etiket Ekleme/Güncelleme İzin Ver
+- Form Alanlarını Göster/Gizle
+- İçeriğin uzunluğuna otomatik olarak uyum sağlama ve Başlık Sütunu biçimlendirme olarak Kalın Metin uygulama
+- Verileri Microsoft Excel Belgesine Aktarma (.xls, .xlsx ve .xlsb)
+- Verileri Sekme sınırlı metin belgesine aktarma (*.txt)
+- Verileri CSV'ye Aktar (Virgülle Sınırlı) (*.csv)
+- Verileri OpenDöküman Elektronik Tabloya Aktar (*.ods)
+- İhracat öncesinde istenen çıkış biçimini seçme seçeneği.
+- İhrac edilen belge, otomatik olarak indirilmek üzere tarayıcıya gönderilir.
 
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
 
-Aspose.Cells .NET numaralı Sitefinity eklentilerini kurmak için aşağıdaki gereksinimleri karşılamanız gerekir:
+Aspose.Cells .NET için Sitefinity eklentilerini kurmak için aşağıdaki gereksinimleri karşılamalısınız:
 
 - ASP.NET 4.0 üzerinde çalışan Sitefinity CMS
 
-Bu Sitefinity Eklentisini kurarken herhangi bir sorun yaşarsanız lütfen bizimle iletişime geçmekten çekinmeyin.
+Bu Sitefinity Eklentisini kurarken herhangi bir sorunla karşılaşırsanız lütfen bizimle iletişime geçin.
 
-Eklenti, tüm sürümlerinde desteklenir.
+Eklenti tüm sürümlerde desteklenmektedir
 
 - ASP.NET 4.0 üzerinde çalışan Sitefinity CMS
 
-## **İndirme ve Yükleme**
+## **İndirme ve Kurulum**
 
-### **indiriliyor**
+### **İndirme**
 
-Aspose .NET Content Exporter for Sitefinity modülünü aşağıdaki konumlardan birinden indirebilirsiniz.
+Aspose .NET Content Exporter for Sitefinity modülünü aşağıdaki konumlardan birinden indirebilirsiniz
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity/Aspose.SiteFinity.FormBuilder.ToExcel)
 
-### **yükleme**
+### **Yüklemek**
 
-İndirdikten sonra, Eklentiyi Sitefinity web sitenize yüklemek için lütfen şu adımları izleyin:
+İndirdikten sonra, lütfen Add-on'u Sitefinity web sitenize kurmak için aşağıdaki adımları izleyin:
 
-**1. Adım: Dosyaları Sitefinity kurulumunuza kopyalayın**
+**Adım 1: Dosyaları Sitefinity kurulumunuza kopyalayın**
 
-Lütfen indirilen ZIP dosyasını çıkartın. Aşağıdakileri gerçekleştirmek için FTP'ye veya sunucudaki Sitefinity kurulum klasörüne doğrudan erişime ihtiyacınız olacak:
+Lütfen indirilen ZIP dosyasını çıkarın. Aşağıdakileri gerçekleştirmek için sunucudaki Sitefinity kurulum klasörüne FTP veya doğrudan erişiminiz olmalı:
 
-1.  Kopyala**Aspose.Cells.dll** & **Aspose.Sitefinity.FormBuilder.dll**Sitefinity kurulumunun bin klasörü klasörüne.
-1. Kopyala**Eklentiler**Sitefinity kurulumunun kök dizinindeki klasör**çöp Kutusu**klasör bulunur.
+1. **Aspose.Cells.dll** & **Aspose.Sitefinity.FormBuilder.dll** dosyalarını Sitefinity kurulumunun bin klasörüne kopyalayın.
+1. **Addons** klasörünü, **bin** klasörünün bulunduğu yerin hemen üstüne kopyalayın.
 
-**2. Adım: Aspose Sitefinity İçerik Dışa Aktarma eklentisini Sitefinity'ye kaydedin**
+**Adım 2: Aspose Sitefinity Content Export eklentisini Sitefinity'de kaydedin**
 
-1. ' ile Sitefinity CMS'nize giriş yapın**yönetici** ' hesap. Giriş sayfasına şu adresten ulaşılabilir:<http://www.mywebsite.com/sitefinity>
-1.  Tıklamak**Yönetim** ve sonra**Ayarlar**.
-Temel Ayarlar sayfası görünür.
-1.  Tıkla**Gelişmiş** bağlantı.
- Ayarlar sayfası görünür.
-1.  Sol bölmede,**Araç kutuları** bunu takiben**Araç kutuları** , o zamanlar**Sayfa Denetimleri**, **Bölümler** ve**İçerikAraç KutusuBölümü** , o zamanlar**Araçlar.**
-1.  Tıklamak**Yeni oluşturmak**.
- Widget kayıt formu görünür.
-1.  Form alanlarını aşağıdaki gibi doldurun:
- 1. Emin olun**Etkinleştirilmiş** seçildi.
- 1. İçinde**Kontrol CLR Tipi veya Sanal Yol** tarla.
- 1. Ekle**~/Addons/Aspose.SiteFinity.FormBuilder.ToExcel/Edit.ascx**
- 1. Ekle**İsim**, **Başlık** ve**Açıklama** aşağıdaki gibi:
-         1. Aspose  **Sayfa ismi**(Düzenle, Görüntüle, Dışa Aktar gibi) formunu SiteFinity Kullanıcılarına
-         1. Aspose **Sayfa ismi** Form (Aspose Formu Düzenle , Aspose Formu Görüntüle , Aspose Dışa Aktarma Formu gibi)
-         1. **Sayfa ismi** Sitefinity için Form Oluşturucu ve Dışa Aktarıcı.
- 1. Diğer tüm alanları olduğu gibi bırakabilirsiniz.
- 1. Bittiğinde tıklayın**Değişiklikleri Kaydet**.
- 1. Widget, araç kutusuna kaydedilir ve Sitefinity'de kullanılabilir. (**Görmek** **Resmin altında**)
+1. Log into your Sitefinity CMS with an ‘**Administrator**’ account. The login page can be reached by <http://www.mywebsite.com/sitefinity>
+1. **Yönetim**'e tıklayın ve ardından **Ayarlar**'a tıklayın.
+   Temel Ayarlar sayfası görüntülenir.
+1. **Gelişmiş** bağlantısına tıklayın.
+   Ayarlar sayfası görüntülenir.
+1. Sol tarafta **Araç Kutuları**'na ve ardından **Araç Kutuları'na**, **Sayfa Kontrolleri'ne**, **Bölümlere** ve **İçerik Araç Kutusu Bölümü'ne** ve ardından **Araçlar**'a tıklayın.
+1. **Yeni oluştur**'a tıklayın.
+   Widget kayıt formu görüntülenir.
+1. Aşağıdaki şekilde form alanlarını doldurun: 
+   1. **Etkin**'in seçili olduğundan emin olun. 
+      1. **Kontrol CLR Türü veya Sanal Yol** alanına. 
+         1. **~/Addons/Aspose.SiteFinity.FormBuilder.ToExcel/Edit.ascx** ekleyin
+      1. Aşağıdaki gibi **Ad**, **Başlık** ve **Açıklama** ekleyin: 
+         1. Aspose **PageName** (Düzenle, Görüntüle, Dışa Aktar gibi) formunu SiteFinity kullanıcılarına sunar
+         1. Aspose **PageName** Formu (Aspose Düzenle Formu, Aspose Görüntü Formu, Aspose Dışa Aktar Formu gibi)
+         1. Sitefinity için **PageName** Form Oluşturucu ve Dışa Aktarıcı.
+      1. Diğer tüm alanları olduğu gibi bırakabilirsiniz.
+      1. Tamamlandığınızda **Değişiklikleri Kaydet**'e tıklayın.
+      1. Widget, toolbox'ta kayıtlıdır ve Sitefinity'de kullanılabilir. (**Aşağıdaki Resme** **bakın**)
 
-|<p>![yapılacaklar:resim_alternatif_metin](picture1.png)</p><p></p>|
-|:- |
+|<p>![todo:image_alt_text](picture1.png)</p><p></p>|
+| :- |
 
-## **Kullanım ve Video Demosu**
+## **Kullanımı ve Video Demosu**
 
-### **kullanma**
+### **Kullanarak**
 
-Aspose.Cells Sitefinity Kullanıcıları için Dinamik Form Oluşturucu eklentisini yükleyip yapılandırdıktan sonra, web sitenizde kullanmaya başlamak gerçekten çok basit. Başlamak için lütfen şu basit adımları izleyin:
+Sitefinity Kullanıcıları için Aspose.Cells Dinamik Form Oluşturucu eklentisini kurup yapılandırdıktan sonra websitenizde kullanmaya başlamak gerçekten çok basittir. Başlamak için lütfen bu basit adımları takip edin:
 
-1. Yönetici düzeyinde bir hesapla Sitefinity'de oturum açtığınızdan emin olun.
+1. Sitefinity'e Yönetici düzeyinde bir hesapla giriş yaptığınızdan emin olun.
 1. Eklentiyi eklemek istediğiniz sayfaya gidin. Sayfanın düzenleme modunda açıldığından emin olun.
-1.  itibaren**Widget'ları Sürükle** sağdaki menüden Aspose Formu Düzenle/Görüntüle/Dışa Aktar'ı seçin ve konumuna sürükleyin. (**Görmek** **Resmin altında** )
+1. Sağdaki **Widgetları Sürükle** menüsünden Aspose Düzenle/Görüntü/Dışa Aktar Formunu seçin ve konumuna sürükleyin. (**Aşağıdaki Resme** **bakın**)
 
-|<p>![yapılacaklar:resim_alternatif_metin](aspose-cells-forms-for-sitefinity_2)</p><p></p>|
-|:- |
+|<p>![todo:image_alt_text](aspose-cells-forms-for-sitefinity_2)</p><p></p>|
+| :- |
 
-Aspose.Cells Sitefinity için Dinamik Form Oluşturucu modülünü sayfanıza başarıyla eklediniz.
+Sitefinity sayfanıza başarıyla Aspose.Cells Dinamik Form Oluşturucusu modülünü eklediniz.
 
-#### **Aspose Lisans başvurusu nasıl yapılır?**
+#### **Aspose Lisansı Nasıl Uygulanır?**
 
- Bu Eklenti, Aspose.Cells'in bir değerlendirme sürümünü kullanır. Değerlendirmenizden memnun kaldığınızda, şu adresten bir lisans satın alabilirsiniz:[Aspose Satın Alma Sitesi](https://purchase.aspose.com/buy).
-Değerlendirme mesajını ve özellik sınırlamalarını kaldırmak için ürün lisansı uygulanmalıdır. Ürünü satın aldıktan sonra bir lisans dosyası alacaksınız. Lisansı uygulamak için lütfen aşağıdaki adımları izleyin
+Bu Eklenti, Aspose.Cells'ın bir değerlendirme sürümünü kullanmaktadır. Değerlendirmenizle memnun kaldığınızda [Aspose Satın Alma Web Sitesi](https://purchase.aspose.com/buy)'nden bir lisans satın alabilirsiniz.
+Değerlendirme iletilisini ve özellik kısıtlamalarını kaldırmak için ürün lisansı uygulanmalıdır. Ürünü satın aldıktan sonra bir lisans dosyası alacaksınız. Lisansı uygulamak için aşağıdaki adımları izleyin:
 
--  Lisans dosyasının şu şekilde adlandırıldığından emin olun:**Aspose.Total.lic**
--  Yer**Aspose.Total.lic** dosyasında**Uygulama verisi** Sitefinity web sitenizin klasörü, örneğin "Sitefinity Kök Klasörü/App_Data/Aspose.Total.lic"
+- Lisans dosyasının **Aspose.Total.lic** olarak adlandırıldığından emin olun
+- **Aspose.Total.lic** dosyasını Sitefinity web sitenizin **App_Data** klasörüne yerleştirin, örneğin "Sitefinity Root Klasörü/App_Data/Aspose.Total.lic"
 
 #### **Dinamik Form Ayarları**
 
-1.  Giriş yaptığınızdan emin olun Sayfa menüsüne tıklayın ilk satıra tıklayın**görüş** yanındaki seçenek düğmesi**Eylem sütunu.**  
-1.  Tıklamak**Düzenlemek** seçenek etiketinin yanında bulunan düğme.
-1.  Önceden tanımlanmış birkaç alan vardır, sadece tıklayarak düzenleyebilir/gizleyebilirsiniz.**Düzenlemek** ızgarada.
-1. Her türde yeni alan oluşturabilir/silebilir/güncelleyebilirsiniz**(TextBox, MultiLineTextBox, RadioButton, Onay Kutuları, Açılır Liste, Başlık, Başarı Mesajı)**
+1. Sitefinity'e giriş yaptığınızdan ve ilk satırın yanındaki **Görünüm** seçeneği düğmesine tıkladığınızdan emin olun.  
+1. Etiketin yakınında bulunan **Düzenle** düğmesine tıklayın.
+1. Birkaç önceden tanımlanmış alan bulunmaktadır, bunları sadece grid üzerinde **Düzenle**'ye tıklayarak düzenleyebilir/gizleyebilirsiniz.
+1. **(TextBox, Çok Satırlı Metin Kutusu, Radyo Düğmeleri, Onay Kutuları, Açılır Liste, Başlık, Başarı Mesajı)** türünde yeni alanlar oluşturabilir/silebilir/güncelleyebilirsiniz
 
-#### **Dinamik Form Gönderimi**
+#### **Dinamik Form Gönder**
 
 1. Alanları doldurun.
-1.  Tıklamak**Göndermek** verileri kaydetmek için düğme.
-1.  Her biri**Göndermek** düğme tıklaması, yeni kaydı excel'e kaydedecektir.
+1. Verileri kaydetmek için **Gönder** düğmesine tıklayın.
+1. Her **Gönder** düğmesi tıklaması yeni bir kaydı excel'e kaydeder.
 
 #### **Kayıtlı Verileri Dışa Aktar**
 
-1. Giriş yaptığınızdan emin olun, Sayfalar menüsüne gidin ve eylem sütununun yanındaki ilk satır görüntüleme seçeneği düğmesine tıklayın
-1.  Fare Üzerinde**Dışa Aktarma Simgesi** ve tıklayın**üstünde**dışa aktarma sayfası açılacak
-1.  Seçme**İhracat Türü**
-1.  Tıklamak**Verileri Dışa Aktar**
-1. Dışa aktarma türüne göre dışa aktarılan veri dosyası, indirmek/açmak için açılır
+1. Sitefinity'ye giriş yaptığınızdan emin olun, Sayfalar menüsüne gidin ve eylem sütununun yanındaki ilk sıra görünüm seçeneği düğmesine tıklayın
+1. **Dışa Aktar Simgesi**'ne Fare ile gelin ve **onit**i tıklayın dışa aktar sayfası açılacaktır
+1. **Dışa Aktarım Türü**nü Seçin
+1. **Veri Dışa Aktar**'a Tıklayın
+1. Dışa Aktarılan veri dosyası dışa aktarma türüne göre indirilmek/ açılmak üzere açılacaktır.
 
-Aspose Sitefinity Export Kullanıcılarını Excel'e başarıyla eklediniz.
+Aspose Sitefinity Kullanıcılarını Excel'e Başarıyla Eklediniz.
 
-### **Video Demosu**
+### **Video Demo**
 
- lütfen kontrol edin[video](https://www.youtube.com/watch?v=La5WMCvafR0) modülü çalışırken görmek için aşağıdaki
+Modülü uygulamada görmek için lütfen [videoyu](https://www.youtube.com/watch?v=La5WMCvafR0) kontrol edin.
 
-## **Destekleyin, Genişletin ve Katkıda Bulunun**
+## **Destek, Genişletme ve Katkıda Bulunma**
 
-### **Destek olmak**
+### **Destek**
 
-Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
+Aspose'un ilk günlerinden itibaren, müşterilerimize sadece iyi ürünler sunmanın yeterli olmayacağını biliyorduk. Ayrıca iyi bir hizmet sunmamız gerekiyordu. Kendi geliştiricileri olduğumuz için, teknik bir sorun veya yazılımdaki bir tuhaflık sizi yapmanız gereken şeyden alıkoyduğunda ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
-Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
-Sitefinity Modülleri için Aspose.Cells .NET ile ilgili her türlü sorun ve önerilerinizi aşağıdaki platformlardan herhangi birini kullanarak günlüğe kaydedebilirsiniz.
+Bu nedenle ücretsiz destek sunuyoruz. Ürünlerimizi kullanan herkes, bunları satın almış olsun veya değerlendirme yapılıyor olsun, tam dikket ve saygıyı hak ediyor.
+Aspose.Cells .NET için Sitefinity Modülleri ile ilgili herhangi bir sorunu veya öneriyi aşağıdaki platformlardan herhangi birini kullanarak kaydedebilirsiniz
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
-### **Genişletin ve Katkıda Bulunun**
+### **Genişletme ve Katkı Sağlama**
 
-#### **Kaynak kodu**
+#### **Kaynak Kodu**
 
-En son kaynak kodunu şu adresten indirebilirsiniz:
+En son kaynak kodunu şuradan indirebilirsiniz:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET)
 
-#### **Kaynak kodu nasıl yapılandırılır**
+#### **Kaynak kodunu nasıl yapılandıracağınız**
 
-Kaynak kodunu açıp genişletmek için aşağıdakilerin kurulu olması gerekir.
+Aşağıdakileri açıp kaynak kodunu genişletmek için aşağıdakilere sahip olmanız gerekir
 
-- Visual Studio 2013 veya üzeri
+- Visual Studio 2013 veya daha üstü
 
 Başlamak için lütfen bu basit adımları izleyin
 
-1. Kaynak kodunu indirin/Klonlayın.
-1. Visual Studio 2013'ü açın ve Seçin**Dosya** > **Açık Proje**
-1. İndirdiğiniz en son kaynak koduna göz atın ve**.sln**dosya.
+1. Kaynak kodunu indirin/kopyalayın.
+1. Visual Studio 2013'ü açın ve **Dosya** > **Projeyi Aç** seçin
+1. İndirdiğiniz en son kaynak koduna göz atın ve **.sln** dosyasını açın.

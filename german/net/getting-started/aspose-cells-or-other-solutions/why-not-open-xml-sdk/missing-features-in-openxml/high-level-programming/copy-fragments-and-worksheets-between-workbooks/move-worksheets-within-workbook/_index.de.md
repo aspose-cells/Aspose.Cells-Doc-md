@@ -1,14 +1,15 @@
-﻿---
-title: Arbeitsblätter innerhalb der Arbeitsmappe verschieben
+---
+title: Arbeitsblätter innerhalb einer Arbeitsmappe verschieben
 type: docs
 weight: 30
 url: /de/net/move-worksheets-within-workbook/
 ---
-Aspose.Cells stellt eine Methode bereit, Aspose.Cells.Worksheet.MoveTo(), die verwendet wird, um ein Arbeitsblatt an eine andere Stelle in der Tabelle zu verschieben. Die Methode nimmt den Index des Zielarbeitsblatts als Parameter.
 
-Das folgende Beispiel zeigt, wie Sie ein Arbeitsblatt an eine andere Stelle innerhalb der Arbeitsmappe verschieben.
+Aspose.Cells bietet eine Methode, Aspose.Cells.Worksheet.MoveTo(), die verwendet wird, um ein Arbeitsblatt an einen anderen Ort in der Arbeitsmappe zu verschieben. Die Methode nimmt den Index des Zielarbeitsblatts als Parameter.
 
-{{< highlight "csharp" >}}
+Das folgende Beispiel zeigt, wie ein Arbeitsblatt an einen anderen Ort innerhalb der Arbeitsmappe verschoben wird.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -40,5 +41,5 @@ wb.Save(FileName);
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)

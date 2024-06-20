@@ -1,34 +1,35 @@
-﻿---
+---
 title: Aperçu du rapport
 type: docs
 weight: 130
 url: /fr/reportingservices/previewing-report/
 ---
+
 {{% alert color="primary" %}} 
 
-La prévisualisation d'un rapport vous permet de vous assurer qu'il s'agit bien du rapport souhaité.
+L'aperçu d'un rapport vous aide à être sûr qu'il s'agit du rapport que vous souhaitez.
 
 {{% /alert %}} 
 
-Pour prévisualiser un rapport :
+Pour prévisualiser un rapport :
 
-1.  Cliquez sur**Vue** 
+1. Cliquez sur **Affichage** 
 
-![tâche : image_autre_texte](previewing-report_1.png)
+![todo:image_alt_text](previewing-report_1.png)
 
-dans la barre d'outils Aspose.Cells.Report.Designer.
+sur la barre d'outils Aspose.Cells.Report.Designer.
 
-1.  Entrez l'URL du serveur de rapports et cliquez sur le**Rafraîchir** bouton.
+1. Saisissez l'URL du Serveur de rapports et cliquez sur le bouton **Actualiser**.
 
-![tâche : image_autre_texte](previewing-report_2.png)
-
-
+![todo:image_alt_text](previewing-report_2.png)
 
 
-1.  Sélectionnez un rapport et cliquez sur le**Aperçu** bouton.
 
-![tâche : image_autre_texte](previewing-report_3.png)
 
-1.  Dans la boîte de dialogue, saisissez les paramètres du rapport et sélectionnez le format du fichier d'exportation. Clique le**D'ACCORD** bouton pour exporter le rapport.
+1. Sélectionnez un rapport et cliquez sur le bouton **Aperçu**. 
 
-![tâche : image_autre_texte](previewing-report_4.png)
+![todo:image_alt_text](previewing-report_3.png)
+
+1. Dans la boîte de dialogue, saisissez les paramètres du rapport et sélectionnez le format de fichier à exporter. Cliquez sur le bouton **OK** pour exporter le rapport.
+
+![todo:image_alt_text](previewing-report_4.png)

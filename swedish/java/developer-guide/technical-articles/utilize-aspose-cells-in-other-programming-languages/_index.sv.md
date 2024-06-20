@@ -1,4 +1,4 @@
-﻿---
+---
 title: Använd Aspose.Cells i andra programmeringsspråk
 type: docs
 weight: 40

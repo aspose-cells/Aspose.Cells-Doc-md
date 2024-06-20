@@ -1,20 +1,21 @@
-﻿---
-title: Konvertieren Sie Daten in japanische Daten
+---
+title: Datumsangaben in japanische Datumsangaben konvertieren
 type: docs
 weight: 350
 url: /de/net/convert-dates-to-japanese-dates/
 ---
+
 {{% alert color="primary" %}} 
 
-Im japanischen** **Kalender beginnt mit der Herrschaft eines neuen Kaisers eine neue Ära. Am 1. Mai 2019 kam ein neuer Kaiser an die Macht, mit dem die Heisei-Ära endete und die Reiwa-Ära begann.
+Im japanischen Kalender beginnt eine neue Ära mit der Regentschaft eines neuen Kaisers. Am 1. Mai 2019 trat ein neuer Kaiser an die Macht, was das Ende der Heisei-Ära und den Beginn der Reiwa-Ära markierte.
 
 {{% /alert %}} 
 
 
 
- Aspose.Cells bietet eine Möglichkeit, gregorianische Daten in japanische Daten umzuwandeln. Bei dieser Umstellung werden auch die Veränderungen der Epoche berücksichtigt. Das folgende Code-Snippet konvertiert die[Quelle Excel](90112015.xlsx) Datei mit gregorianischen Daten zum[Ausgang PDF](90112016.pdf) mit japanischen Daten, wie im Bild unten gezeigt.
+Aspose.Cells bietet eine Möglichkeit, gregorianische Daten in japanische Daten umzuwandeln. Bei dieser Umwandlung werden auch die Änderungen in den Ären berücksichtigt. Der folgende Codeauszug wandelt die [Quell-Excel](90112015.xlsx)-Datei mit gregorianischen Daten in die [Ausgabe-PDF](90112016.pdf) mit japanischen Daten um, wie im Bild unten gezeigt.
 
-![todo: Bild_alt_Text](convert-dates-to-japanese-dates_1.jpg)
+![todo:image_alt_text](convert-dates-to-japanese-dates_1.jpg)
 
 
 

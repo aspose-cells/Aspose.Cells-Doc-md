@@ -1,18 +1,19 @@
 ---
-title: レンダリングのタイムライン
+title: タイムラインのレンダリング
 type: docs
 weight: 40
 url: /ja/python-net/rendering-timeline/
-description: Aspose.Cells for Python via .NET を使用して Excel ファイルのタイムラインを管理します。
-keywords: Rendering timeline without office 2013, office 2016, office 2019 and office 365
+description: Aspose.Cells for Python via .NETでExcelファイルのタイムラインを管理する。
+keywords: PythonでAspose.Cells for Python via .NETを使用してExcelなしでタイムラインをレンダリングする方法、Aspose.Cells for Pythonライブラリを使ってタイムラインを画像にレンダリングする。
 ---
-##  **考えられる使用シナリオ**
-Aspose.Cells for Python via .NET は、office 2013、office 2016、office 2019、および office 365 を使用せずにタイムライン形状のレンダリングをサポートします。ワークシートを画像に変換するか、ワークブックを PDF または HTML 形式で保存すると、タイムラインが適切にレンダリングされることがわかります。 。
 
-##  **レンダリングのタイムライン**
-次のサンプルコードは、[サンプル Excel ファイル](input.xlsx)既存のタイムラインが含まれています。タイムラインの名前に従ってシェイプ オブジェクトを取得し、Shape.to_image() メソッドを通じてそれを画像にレンダリングします。流れてくるイメージは、[出力画像](out.png)レンダリングされたタイムラインを示しています。ご覧のとおり、タイムラインは適切にレンダリングされており、サンプル Excel ファイルと同じように見えます。
+## **可能な使用シナリオ**
+Aspose.Cells for Python via .NETは、オフィス2013、オフィス2016、オフィス2019、およびオフィス365を使用せずにタイムラインの形状をレンダリングすることをサポートしています。ワークシートを画像に変換したり、ワークブックをPDFやHTML形式に保存すると、タイムラインが適切にレンダリングされます。
+
+## **Aspose.Cells for Python Excel Libraryを使用したタイムラインのレンダリング方法**
+次のサンプルコードは、既存のタイムラインを含む[sample Excel file](input.xlsx)を読み込みます。タイムラインの名前に応じてシェイプオブジェクトを取得し、Shape.to_image()メソッドを使用して画像にレンダリングします。次の画像は、レンダリングされたタイムラインを示す[output image](out.png)です。タイムラインが適切にレンダリングされ、サンプルExcelファイルと同じように見えることがわかります。
 
 ![todo:image_alt_text](out.png)
-###  **サンプルコード**
+### **サンプルコード**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Timelines-RenderingTimeline.py" >}}
 

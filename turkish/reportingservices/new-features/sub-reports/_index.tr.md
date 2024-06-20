@@ -1,23 +1,24 @@
-﻿---
-title: Alt raporlar
+---
+title: Alt Raporlar
 type: docs
 weight: 20
 url: /tr/reportingservices/sub-reports/
 ---
+
 {{% alert color="primary" %}} 
 
-Tablo grubu satırına Alt Rapor Gömme desteği ekledik. Biçim:
+Bir Alt-Raporu bir Tablo grubu satırına gömecek bir desteği dahil ettik. Format şudur:
 
-&=subreport{ReportName=raporunuzun adı; parametre1 adı = parametre1 değeri; parametre2 adı = parametre2 değeri;......} 
+&=subreport{ReportName=your report name; parameter1 name = parameter1 value; parameter2 name = parameter2 value;......} 
 
 {{% /alert %}} 
-### **Örnek vermek**
-**Tablodaki bir alt rapor** 
+### **Örnek**
+**Bir tabloda alt rapor** 
 
-![yapılacaklar:resim_alternatif_metin](sub-reports_1.png)
+![todo:image_alt_text](sub-reports_1.png)
 
- Örnekte alt raporun adı “Satış Siparişi Detayı”dır. Bir parametresi vardır,*Satış sipariş numarası* . parametrenin değeri*EmpSalesDetail.SalesOrderNumber.*
-#### **Alt Raporların kullanımına ilişkin kısıtlamalar**
-- Alt rapor, Aspose.Cells.Reporting Services Designer aracıyla tasarlanmalıdır.
-- Alt Rapor, yalnızca tablo grubu satırına gömülebilir ve grup satırı, Alt Rapor dışında başka öğeler içeremez. Tablo ayrıntı satırlarına veya alt bilgi satırlarına bir Alt Raporun gömülmesine izin verilmez.
-- Şu anda birden fazla düzeyi iç içe yerleştirme desteklenmemektedir. Alt Rapor, katıştırılmış rapor içeremez.
+Örneğin, alt raporun adı “Satış Sipariş Detayı” dır. Bir parametreye sahiptir, *SatışSiparişNumarası*. Parametrenin değeri *EmpSatışDetay.SiparişNumarası* dır.
+#### **Alt-Raporları Kullanma Kısıtlamaları**
+- Alt-rapor, Aspose.Cells.Reporting Services Designer aracı ile tasarlanmalıdır.
+- Alt-Rapor yalnızca tablo grup satırına gömülebilir ve grup satırı, Alt-Rapor dışında başka öğeler içeremez. Alt-Raporu tablo detay satırlarına veya altbilgi satırlarına gömmek mümkün değildir.
+- Şu anda birden fazla seviye iç içe desteği bulunmamaktadır. Alt-Rapor gömülü rapor içeremez.

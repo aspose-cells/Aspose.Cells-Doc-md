@@ -1,16 +1,17 @@
-﻿---
-title: Impostazioni di allineamento
+---
+title: Impostazioni di Allineamento
 type: docs
 weight: 20
 url: /it/java/cells-alignment-settings/
 ---
+
 ## **Configurazione delle impostazioni di allineamento**
 
 ## **Impostazioni di allineamento in Microsoft Excel**
 
-Chiunque abbia utilizzato Microsoft Excel per formattare le celle avrà familiarità con le impostazioni di allineamento in Microsoft Excel.
+Chiunque abbia usato Microsoft Excel per formattare le celle sarà familiare con le impostazioni di allineamento in Microsoft Excel.
 
-Come puoi vedere dalla figura sopra, ci sono diversi tipi di opzioni di allineamento:
+Come si può vedere dalla figura sopra, ci sono diversi tipi di opzioni di allineamento:
 
 - Allineamento del testo (orizzontale e verticale)
 - Rientro.
@@ -18,72 +19,72 @@ Come puoi vedere dalla figura sopra, ci sono diversi tipi di opzioni di allineam
 - Controllo del testo.
 - Direzione del testo.
 
-Tutte queste impostazioni di allineamento sono completamente supportate da Aspose.Cells e sono discusse più dettagliatamente di seguito.
+Tutte queste impostazioni di allineamento sono completamente supportate da Aspose.Cells e sono discusse in modo più dettagliato di seguito.
 
 ## **Impostazioni di allineamento in Aspose.Cells**
 
- Aspose.Cells fornisce[**Ottieni stile**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle) e[**Imposta stile**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle) metodi per il[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class che vengono utilizzate per ottenere e impostare la formattazione di una cella. Il[**Stile**](https://reference.aspose.com/cells/java/com.aspose.cells/style)class fornisce proprietà utili per la configurazione delle impostazioni di allineamento.
+Aspose.Cells fornisce i metodi [**GetStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle) e [**SetStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle) per la classe [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) che vengono utilizzati per ottenere e impostare la formattazione di una cella. La classe [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/style) fornisce proprietà utili per la configurazione delle impostazioni di allineamento.
 
- Selezionare qualsiasi tipo di allineamento del testo utilizzando il[**TipoAllineamentoTesto**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype) enumerazione. I tipi di allineamento del testo predefiniti nel file[**TipoAllineamentoTesto**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype)enumerazione sono:
+Seleziona qualsiasi tipo di allineamento del testo utilizzando l'enumerazione [**TextAlignmentType**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype). I tipi di allineamento del testo predefiniti nell'enumerazione [**TextAlignmentType**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype) sono:
 
-|**Tipi di allineamento del testo**|**Descrizione**|
-|:- |:- |
-|Parte inferiore|Rappresenta l'allineamento del testo in basso|
-|Centro|Rappresenta l'allineamento del testo al centro|
-|CenterAcross|Rappresenta il centro rispetto all'allineamento del testo|
-|Distribuito|Rappresenta l'allineamento del testo distribuito|
-|Riempire|Rappresenta l'allineamento del testo di riempimento|
-|Generale|Rappresenta l'allineamento generale del testo|
-|Giustificare|Rappresenta giustifica l'allineamento del testo|
-|Sinistra|Rappresenta l'allineamento del testo a sinistra|
-|Destra|Rappresenta l'allineamento del testo a destra|
-|Superiore|Rappresenta l'allineamento del testo superiore|
-|Giustificato Basso|Allinea il testo con una lunghezza kashida regolata per il testo arabo.|
-|ThaiDistributed|Distribuisce soprattutto il testo tailandese, perché ogni carattere viene trattato come una parola.|
+|**Tipi di Allineamento del Testo**|**Descrizione**|
+| :- | :- |
+|Bottom|Rappresenta l'allineamento del testo in basso|
+|Center|Rappresenta l'allineamento del testo al centro|
+|CenterAcross|Rappresenta l'allineamento del testo al centro tra le celle|
+|Distributed|Rappresenta l'allineamento distribuito del testo|
+|Fill|Rappresenta l'allineamento di riempimento del testo|
+|General|Rappresenta l'allineamento del testo generale|
+|Justify|Rappresenta l'allineamento del testo giustificato|
+|Left|Rappresenta l'allineamento del testo a sinistra|
+|Right|Rappresenta l'allineamento del testo a destra|
+|Top|Rappresenta l'allineamento del testo in alto|
+|JustifiedLow|Allinea il testo con una lunghezza kashida regolata per il testo in arabo.|
+|ThaiDistributed|Distribuisce il testo thailandese in particolare, poiché ciascun carattere è trattato come una parola.|
 
 {{% alert color="primary" %}}
 
- È inoltre possibile applicare l'impostazione di giustificazione distribuita utilizzando il file[**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsJustifyDistributed) proprietà.
+È anche possibile applicare l'impostazione giustifica distribuita utilizzando la proprietà [**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsJustifyDistributed).
 
 {{% /alert %}}
 
 ## **Allineamento orizzontale, verticale e rientro**
 
- Usa il[**Allineamento orizzontale**](https://reference.aspose.com/cells/java/com.aspose.cells/style#horizontalalignment) proprietà per allineare il testo orizzontalmente e[**Allineamento verticale**](https://reference.aspose.com/cells/java/com.aspose.cells/style#verticalalignment)proprietà per allineare il testo verticalmente.
- È possibile impostare il livello di indentazione del testo in una cella con il[**Livello rientro**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IndentLevel) proprietà
-e ha effetto solo quando l'allineamento orizzontale è a sinistra oa destra.
+Usa la proprietà [**HorizontalAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/style#horizontalalignment) per allineare il testo in orizzontale e la proprietà [**VerticalAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/style#verticalalignment) per allineare il testo in verticale.
+È possibile impostare il livello di rientro del testo in una cella con la proprietà [**IndentLevel**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IndentLevel). 
+e influisce solo quando l'allineamento orizzontale è a sinistra o a destra.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ConfiguringAlignmentSettings-1.java" >}}
 
 
 ## **Orientamento**
 
- Impostare l'orientamento (rotazione) del testo in una cella con il[**Angolo di rotazione**](https://reference.aspose.com/cells/java/com.aspose.cells/style#RotationAngle)proprietà.
+Imposta l'orientamento (rotazione) del testo in una cella con la proprietà [**RotationAngle**](https://reference.aspose.com/cells/java/com.aspose.cells/style#RotationAngle).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ConfiguringAlignmentSettings-Orientation-1.java" >}}
 
-## **Controllo del testo**
+## **Controllo del Testo**
 
-La sezione seguente illustra come controllare il testo impostando il ritorno a capo del testo, la riduzione per adattare e altre opzioni di formattazione.
+La seguente sezione discute come controllare il testo impostando il rientro del testo, adattamento alla cella e altre opzioni di formattazione.
 
-### **Testo avvolgente**
+### **Testo a Capo**
 
- Avvolgere il testo in una cella rende più facile la lettura: l'altezza della cella si adatta per adattarsi a tutto il testo, invece di tagliarlo o riversarsi nelle celle adiacenti. Attiva o disattiva la disposizione del testo con il[**IsTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped)proprietà.
+Il ritorno a capo del testo in una cella rende più facile la lettura: l'altezza della cella si adatta per contenere tutto il testo anziché tagliarlo o farlo traboccare nelle celle adiacenti. Imposta il ritorno a capo del testo su on o off con la proprietà [**IsTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "LineBreakTextWrapping-WrapText-1.java" >}}
 
-### **Restringimento per adattarsi**
+### **Ridimensionamento per adattarsi**
 
- Un'opzione per avvolgere il testo in un campo consiste nel ridurre le dimensioni del testo per adattarle alle dimensioni di una cella. Questo viene fatto impostando il[**Rimpicciolirsi per starci dentro**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit) proprietà. a**VERO**.
+Una opzione per il ritorno a capo del testo in un campo è ridurre le dimensioni del testo per adattarlo alle dimensioni di una cella. Questo viene fatto impostando la proprietà [**ShrinkToFit**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit) su **true**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ShrinkingToFit-1.java" >}}
 
-### **Fusione Cells**
+### **Unione di celle**
 
- Come Microsoft Excel, Aspose.Cells supporta l'unione di più celle in una sola. Aspose.Cells fornisce due approcci a questo compito. Un modo è chiamare il[**Unisci**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) metodo. Il metodo accetta i seguenti parametri per unire le celle:
+Come Microsoft Excel, Aspose.Cells supporta l'unione di diverse celle in una. Aspose.Cells fornisce due approcci per questo compito. Un modo è chiamare il metodo [**Merge**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)). Il metodo richiede i seguenti parametri per unire le celle:
 
-- Prima riga: la prima riga da cui iniziare l'unione.
-- Prima colonna: la prima colonna da cui iniziare l'unione.
+- Prima riga: la prima riga da cui iniziare a unire.
+- Prima colonna: la prima colonna da cui iniziare a unire.
 - Numero di righe: il numero di righe da unire.
 - Numero di colonne: il numero di colonne da unire.
 
@@ -92,18 +93,18 @@ La sezione seguente illustra come controllare il testo impostando il ritorno a c
 
 ### **Direzione del testo**
 
-È possibile impostare l'ordine di lettura del testo nelle celle. L'ordine di lettura è l'ordine visivo in cui vengono visualizzati caratteri, parole, ecc. Ad esempio, l'inglese è una lingua da sinistra a destra mentre l'arabo è una lingua da destra a sinistra.
+È possibile impostare l'ordine di lettura del testo nelle celle. L'ordine di lettura è l'ordine visivo in cui vengono visualizzati i caratteri, le parole, ecc. Ad esempio, l'inglese è una lingua da sinistra a destra mentre l'arabo è una lingua da destra a sinistra.
 
- L'ordine di lettura è impostato con il[**Direzione del testo**](https://reference.aspose.com/cells/java/com.aspose.cells/style#TextDirection) proprietà. Aspose.Cells fornisce tipi di direzione del testo predefiniti nel file[**TipoDirezioneTesto**](https://reference.aspose.com/cells/java/com.aspose.cells/TextDirection)enumerazione.
+L'ordine di lettura è impostato con la proprietà [**TextDirection**](https://reference.aspose.com/cells/java/com.aspose.cells/style#TextDirection). Aspose.Cells fornisce tipi di direzione del testo predefiniti nell'enumerazione [**TextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextDirection).
 
 |**Tipi di direzione del testo**|**Descrizione**|
-|:- |:- |
-|Contesto|L'ordine di lettura coerente con la lingua del primo carattere inserito|
-|Da sinistra a destra|Ordine di lettura da sinistra a destra|
-|Da destra a sinistra|Ordine di lettura da destra a sinistra|
+| :- | :- |
+|Context| L'ordine di lettura coerente con la lingua del primo carattere inserito|
+|LeftToRight| Ordine di lettura da sinistra a destra|
+|RightToLeft| Ordine di lettura da destra a sinistra|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeTextDirection-1.java" >}}
 
 ## **Argomenti avanzati**
-- [Modificare l'allineamento Cells e mantenere la formattazione esistente](/cells/it/java/change-cells-alignment-and-keep-existing-formatting/)
-- [Interruzioni di riga e ritorno a capo del testo](/cells/it/java/line-breaks-and-text-wrapping/)
+- [Modifica dell'allineamento delle celle e mantenimento della formattazione esistente](/cells/it/java/change-cells-alignment-and-keep-existing-formatting/)
+- [Interruzioni di riga e interruzioni di testo](/cells/it/java/line-breaks-and-text-wrapping/)

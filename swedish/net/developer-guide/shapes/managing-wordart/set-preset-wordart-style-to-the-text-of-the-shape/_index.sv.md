@@ -1,13 +1,14 @@
-﻿---
-title: Ställ in förinställd WordArt-stil på formens text
+---
+title: Ange förvald WordArt stil för texten på formen
 type: docs
 weight: 280
 url: /sv/net/set-preset-wordart-style-to-the-text-of-the-shape/
 ---
-## **Möjliga användningsscenarier**
-Du kan ställa in förinställd WordArt-stil till texten i formen med Aspose.Cells. Vänligen använd[FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/net/aspose.cells/fontsetting/methods/setwordartstyle)eller[FontSettingCollection.SetWordArtStyle()](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/fontsettingcollection/methods/setwordartstyle)metoder för detta ändamål.
-## **Ställ in förinställd WordArt-stil på formens text**
- Följande exempelkod skapar en textruta med lite text och ställer sedan in förinställd WordArt-stil för sin text med[FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/net/aspose.cells/fontsetting/methods/setwordartstyle) metod. Detta är hur[output excel-fil](5115445.xlsx)ser i Microsoft Excel.
+
+## **Möjliga användningsscenario**
+Du kan ställa in förinställd WordArt-stil på formens text med hjälp av Aspose.Cells. Använd [FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/net/aspose.cells/fontsetting/methods/setwordartstyle) eller [FontSettingCollection.SetWordArtStyle()](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/fontsettingcollection/methods/setwordartstyle) metoder för detta ändamål.
+## **Ange förvald WordArt-stil för texten på formen**
+Följande kodexempel skapar en textbox med lite text och ställer sedan förinställd WordArt-stil för dess text med hjälp av [FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/net/aspose.cells/fontsetting/methods/setwordartstyle) metod. Så här ser [output excel-filen](5115445.xlsx) ut i Microsoft Excel.
 
 
 

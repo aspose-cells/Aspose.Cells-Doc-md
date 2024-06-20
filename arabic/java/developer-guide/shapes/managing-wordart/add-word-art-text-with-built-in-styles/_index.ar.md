@@ -1,14 +1,15 @@
-﻿---
-title: أضف Word Art Text مع الأنماط المضمنة
+---
+title: إضافة نص فني بأنماط مضمنة
 type: docs
 weight: 990
 url: /ar/java/add-word-art-text-with-built-in-styles/
 ---
-## **سيناريوهات الاستخدام الممكنة**
- يمكنك إضافة Word Art Text مع الأنماط المضمنة باستخدام Aspose.Cells. الرجاء استخدام[ShapeCollection.AddWordArt ()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addWordArt\(int,%20java.lang.String,%20int,%20int,%20int,%20int,%20int,%20int\)) طريقة لهذا الغرض.
-## **أضف Word Art Text مع الأنماط المضمنة**
- يضيف نموذج التعليمات البرمجية التالي نصوص Word Art بأنماط مضمنة مختلفة. رجاء تاكد من[ملف اكسل الناتج](5472536.xlsx) ولدت مع هذا الرمز. هذه هي الطريقة التي يستخدمها ملف[ملف اكسل الناتج](5472536.xlsx)يبحث في Microsoft Excel.
 
-![ما يجب القيام به: image_بديل_نص](add-word-art-text-with-built-in-styles_1.png)
-## **عينة من الرموز**
+## **سيناريوهات الاستخدام المحتملة**
+يمكنك إضافة نص فني مع أنماط مدمجة باستخدام Aspose.Cells. يُرجى استخدام [ShapeCollection.AddWordArt()](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addWordArt\(int,%20java.lang.String,%20int,%20int,%20int,%20int,%20int,%20int\)) الطريقة لهذا الغرض.
+## **إضافة نص Word Art بأنماط مدمجة**
+الشيفرة المعروضة أدناه تقوم بإضافة نص فني بأنماط مدمجة مختلفة. يُرجى التحقق من [ملف إكسل الناتج](5472536.xlsx) الذي تم إنشاؤه بواسطة الشيفرة. هذا هو شكل [ملف الإكسل الناتج](5472536.xlsx) في مايكروسوفت إكسل.
+
+![todo:image_alt_text](add-word-art-text-with-built-in-styles_1.png)
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtText-AddWordArtText.java" >}}

@@ -1,44 +1,45 @@
-﻿---
-title: OLE オブジェクトの管理
+---
+title: OLE オブジェクトを管理する
 type: docs
 weight: 50
 url: /ja/net/managing-ole-objects/
 ---
-## **序章**
 
-OLE (Object Linking and Embedding) は、Microsoft の複合文書技術のフレームワークです。簡単に言うと、複合ドキュメントとは、テキスト、カレンダー、アニメーション、サウンド、モーション ビデオ、3D、継続的に更新されるニュース、コントロールなど、あらゆる種類のビジュアル オブジェクトと情報オブジェクトを含むことができるディスプレイ デスクトップのようなものです。各デスクトップ オブジェクトは、ユーザーとやり取りしたり、デスクトップ上の他のオブジェクトと通信したりできる独立したプログラム エンティティです。
+## **紹介**
 
- OLE (Object Linking and Embedding) はさまざまなプログラムでサポートされており、あるプログラムで作成されたコンテンツを別のプログラムで利用できるようにするために使用されます。たとえば、Microsoft Word ドキュメントを Microsoft Excel に挿入できます。挿入できるコンテンツの種類を確認するには、**物体**上で**入れる**メニュー。コンピュータにインストールされ、OLE オブジェクトをサポートするプログラムのみが**オブジェクトタイプ**箱。
+OLE (Object Linking and Embedding) は、Microsoft の複合ドキュメントテクノロジーのフレームワークです。簡単に言うと、複合ドキュメントとは、テキスト、カレンダー、アニメーション、音声、動画、3D、定期的に更新されるニュース、コントロールなど、あらゆる種類の視覚的および情報オブジェクトを含む表示デスクトップのことです。各デスクトップオブジェクトは、ユーザーと相互作用し、他のデスクトップ上の他のオブジェクトとも通信できる独立したプログラムエンティティです。
 
-### **ワークシートへの OLE オブジェクトの挿入**
+OLE (Object Linking and Embedding) は、さまざまなプログラムでサポートされており、あるプログラムで作成したコンテンツを別のプログラムで利用できるようにするために使用されます。たとえば、Microsoft Word ドキュメントを Microsoft Excel に挿入することができます。挿入可能なコンテンツの種類を確認するには、**挿入** メニューで **オブジェクト** をクリックします。コンピュータにインストールされ、OLE オブジェクトをサポートするプログラムだけが **オブジェクトの種類** ボックスに表示されます。
 
-Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、抽出、および操作をサポートしています。このため、Aspose.Cells には[**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection)コレクション リストに新しい OLE オブジェクトを追加するために使用されるクラス。別のクラス、[**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject)、OLE オブジェクトを表します。いくつかの重要なメンバーがあります。
+### **ワークシートにOLEオブジェクトを挿入する**
 
-- の[**画像データ**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)プロパティは、バイト配列型のイメージ (アイコン) データを指定します。画像が表示され、ワークシートに OLE オブジェクトが表示されます。
-- の[**オブジェクトデータ**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)プロパティは、バイト配列の形式でオブジェクト データを指定します。このデータは、OLE オブジェクト アイコンをダブルクリックすると、関連するプログラムに表示されます。
+Aspose.Cellsはワークシート内のOLEオブジェクトの追加、抽出、および操作をサポートしています。そのため、Aspose.Cellsには新しいOLEオブジェクトをコレクションリストに追加するために使用される[**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection)クラスがあります。また、[**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject)という別のクラスはOLEオブジェクトを表します。いくつかの重要なメンバーがあります。
 
-次の例は、OLE オブジェクトをワークシートに追加する方法を示しています。
+- [**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)プロパティはバイト配列型の画像（アイコン）データを指定します。画像はOLEオブジェクトを示すために表示されます。
+- [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)プロパティはバイト配列形式のオブジェクトデータを指定します。このデータは、OLEオブジェクトアイコンをダブルクリックすると関連するプログラムに表示されます。
+
+以下の例は、ワークシートにOLEオブジェクトを追加する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
-### **ワークブックでの OLE オブジェクトの抽出**
+### **ワークブックからOLEオブジェクトを抽出**
 
-次の例は、ブック内の OLE オブジェクトを抽出する方法を示しています。この例では、既存の XLS ファイルからさまざまな OLE オブジェクトを取得し、OLE オブジェクトのファイル形式の種類に基づいてさまざまなファイル (DOC、XLS、PPT、PDF など) を保存します。
+以下の例では、ワークブックからOLEオブジェクトを抽出する方法を示します。この例では既存のXLSファイルから異なるOLEオブジェクトを取得し、OLEオブジェクトのファイル形式に基づいて異なるファイル（DOC、XLS、PPT、PDFなど）を保存します。
 
-コードを実行した後、それぞれの OLE オブジェクト形式の種類に基づいてさまざまなファイルを保存できます。
+コードを実行した後、対応するOLEオブジェクト形式の異なるファイルを保存できます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-ExtractingOLEObjects-1.cs" >}}
 
-### **埋め込まれた MOL ファイルの抽出**
+### **埋め込まれたMOLファイルの抽出**
 
-Aspose.Cells は、MOL (原子と結合に関する情報を含む分子データ ファイル) のような珍しいタイプのオブジェクトの抽出をサポートします。次のコード スニペットは、埋め込まれた MOL ファイルを抽出し、これを使用してディスクに保存する方法を示しています。[サンプルエクセルファイル](94896196.xlsx).
+Aspose.Cellsは、MOL（原子および結合に関する情報を含む分子データファイル）のような一般的でないタイプのオブジェクトを抽出する機能をサポートしています。次のコードスニペットは、埋め込まれたMOLファイルを抽出してディスクに保存する方法を示しています: [サンプルExcelファイル](94896196.xlsx)を使用します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ExtractEmbeddedMolFile-1.cs" >}}
 
-## **先行トピック**
-- [リンクされた Ole オブジェクトの表示ラベルにアクセスして変更する](/cells/ja/net/access-and-modify-the-display-label-of-the-linked-ole-object/)
-- [Aspose.Cells を使用して Microsoft Excel 経由で OLE オブジェクトを自動的に更新する](/cells/ja/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
-- [ブックから OLE オブジェクトを抽出する](/cells/ja/net/extract-ole-objects-from-workbook/)
-- [埋め込み OLE オブジェクトのクラス識別子を取得または設定します](/cells/ja/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
-- [WAV ファイルを Ole オブジェクトとして挿入する](/cells/ja/net/inserting-a-wav-file-as-an-ole-object/)
+## **高度なトピック**
+- [リンクされたオブジェクトの表示ラベルへのアクセスと変更](/cells/ja/net/access-and-modify-the-display-label-of-the-linked-ole-object/)
+- [Aspose.Cellsを使用してMicrosoft ExcelでOLEオブジェクトを自動的に更新する](/cells/ja/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
+- [ワークブックからOLEオブジェクトを抽出](/cells/ja/net/extract-ole-objects-from-workbook/)
+- [埋め込まれたOLEオブジェクトのクラス識別子を取得または設定する](/cells/ja/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+- [Ole ObjectとしてWAVファイルを挿入する](/cells/ja/net/inserting-a-wav-file-as-an-ole-object/)
 

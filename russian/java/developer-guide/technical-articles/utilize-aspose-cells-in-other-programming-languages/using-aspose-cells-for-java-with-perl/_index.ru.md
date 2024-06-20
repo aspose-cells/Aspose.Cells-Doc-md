@@ -1,49 +1,50 @@
-﻿---
+---
 title: Использование Aspose.Cells for Java с Perl
 type: docs
 weight: 30
 url: /ru/java/using-aspose-cells-for-java-with-perl/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Java — это чистый компонент Java, который можно использовать с Perl. Использование компонента аналогично вызову других распространенных API-интерфейсов Java в Perl. Чтобы вызвать любую библиотеку Java в Perl, вам нужно сначала установить расширение Java-Perl для Perl. Это необходимо для доступа к JVM.
+Aspose.Cells for Java - это чистый компонент Java, который можно использовать с Perl. Использование компонента аналогично вызову других общих Java API в Perl. Для вызова любой Java библиотеки в Perl сначала необходимо установить расширение Java-Perl для Perl. Это необходимо для доступа к JVM.
 
 {{% /alert %}} 
 ## **Необходимое программное обеспечение и библиотеки**
- Требуется следующее программное обеспечение и библиотеки.
+Для использования требуется следующее программное обеспечение и библиотеки. 
 
-- Перл.
+- Perl.
 - Aspose.Cells for Java.
-- Java - Perl-расширение.
-- Java, которая соответствует требованиям расширения Aspose.Cells for Java и Java-Perl.
-### **Гид**
- Чтобы вызвать Java API в Perl, вам нужно сначала установить расширение Java-Perl для Perl. (Для целей этой статьи мы предполагаем, что Perl установлен и настроен правильно.) Вы можете получить расширение Java-Perl от[Меццо/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7)
+- Расширение Perl для Java.
+- Среда выполнения Java, которая соответствует требованию Aspose.Cells for Java и расширению Java-Perl.
+### **Руководство**
+Для вызова Java API в Perl сначала необходимо установить расширение Java-Perl для Perl. (В этой статье предполагается, что Perl установлен и настроен должным образом.) Вы можете получить расширение Java-Perl по ссылке [Metzzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7)
 
- В конце этого документа есть пример сценария Perl, который вызывает Aspose.Cells for Java. Чтобы запустить его, выполните следующие действия:
+В конце этого документа приведен пример сценария Perl, который вызывает Aspose.Cells for Java. Для запуска его выполните следующие действия: 
 
-1. Загрузите файл Java-4.7.tar.gz и разархивируйте его на локальный диск.
+1. Загрузите файл Java-4.7.tar.gz и распакуйте его на своем локальном диске.
 1. Установите этот пакет для Perl.
-1.  Запустите JavaServer. Команда будет:
+1. Запустите JavaServer. Команда будет: 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  java -classpath ...  com.zzo.javaserver.JavaServer 
 
 {{< /highlight >}}
 
- где ... — это путь к классам, который должен включать все библиотеки, необходимые вашему приложению.
+где ... - это classpath, который должен включать все библиотеки, необходимые для вашего приложения. 
 
- Чтобы использовать Aspose.Cells for Java, он должен содержать как минимум два JAR-файла:
+Для использования Aspose.Cells for Java должно содержать как минимум два JAR-файла: 
 
-1. **Aspose.Cells.jar** от Aspose.Cells for Java
-1. **JavaServer.jar** с Java-4.7.tar.gz
-1. Запустите сценарий Perl, который вызывает Aspose.Cells for Java API.
+1. **Aspose.Cells.jar** из Aspose.Cells for Java
+1. **JavaServer.jar** из Java-4.7.tar.gz
+1. Запустите сценарий Perl, который вызывает API Aspose.Cells for Java.
 
- Для получения дополнительной информации о том, как работать с Java в Perl, см. документацию Java — расширение Perl на<https://metacpan.org/release/METZZO/Java-4.7>
+For more information on how to work with Java in Perl, see documentation of Java - Perl extension at <https://metacpan.org/release/METZZO/Java-4.7>
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  my $ok = 0;
 
@@ -81,7 +82,7 @@ $ok++;
 
 print "workbook $ok\n";
 
-# $workbook->open("t.xls");
+#$workbook->open("t.xls");
 
 $ok++;
 

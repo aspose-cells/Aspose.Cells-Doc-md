@@ -1,30 +1,31 @@
-﻿---
-title: Copiar hojas de trabajo entre libros de trabajo
+---
+title: Copiar Hojas de Cálculo entre Libros
 type: docs
 weight: 10
 url: /es/net/copy-worksheets-between-workbooks/
 ---
-Aspose.Cells proporciona un método, Aspose.Cells.Worksheet.Copy(), que se usa para copiar datos y formato de una hoja de trabajo de origen a otra hoja de trabajo dentro o entre libros de trabajo. El método toma el objeto de la hoja de cálculo de origen como parámetro.
 
-El siguiente ejemplo muestra cómo copiar una hoja de trabajo de un libro de trabajo a otro libro de trabajo.
+Aspose.Cells proporciona un método, Aspose.Cells.Worksheet.Copy(), que se utiliza para copiar datos y formato de una hoja de cálculo de origen a otra hoja de cálculo dentro o entre libros. El método toma el objeto de la hoja de cálculo de origen como parámetro.
 
-{{< highlight "csharp" >}}
+El siguiente ejemplo muestra cómo copiar una hoja de cálculo de un libro a otro libro.
 
-string FilePath = @"..\..\..\Archivos de muestra\";
+{{< highlight csharp >}}
 
-string FileName = FilePath + "Copiar hoja entre Workbook.xlsx";
+ string FilePath = @"..\..\..\Sample Files\";
 
-//Crear un nuevo libro de trabajo.
+string FileName = FilePath + "Copy Sheet between Workbook.xlsx";
 
-Libro de trabajo excelWorkbook0 = nuevo libro de trabajo ();
+//Create a new Workbook.
 
-//Obtener la primera hoja de trabajo del libro.
+Workbook excelWorkbook0 = new Workbook();
 
-Hoja de trabajo ws0 = excelWorkbook0.Worksheets[0];
+//Get the first worksheet in the book.
 
-//Pon algunos datos en las filas del encabezado (A1:A4)
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
- para (int i = 0; i< 5; i++)
+//Put some data into header rows (A1:A4)
+
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -75,24 +76,24 @@ ws1.Copy(ws0);
 excelWorkbook1.Save(FileName);
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
-El siguiente ejemplo muestra cómo copiar una hoja de trabajo de un libro de trabajo a otro libro de trabajo.
+El siguiente ejemplo muestra cómo copiar una hoja de cálculo de un libro a otro libro.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Crear un nuevo libro de trabajo.
+ //Create a new Workbook.
 
-Libro de trabajo excelWorkbook0 = nuevo libro de trabajo ();
+Workbook excelWorkbook0 = new Workbook();
 
-//Obtener la primera hoja de trabajo del libro.
+//Get the first worksheet in the book.
 
-Hoja de trabajo ws0 = excelWorkbook0.Worksheets[0];
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-//Pon algunos datos en las filas del encabezado (A1:A4)
+//Put some data into header rows (A1:A4)
 
- para (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -144,6 +145,6 @@ excelWorkbook1.Save("copyworksheet.xls");
 
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)

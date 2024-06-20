@@ -1,22 +1,23 @@
-﻿---
+---
 title: Копирование строк и столбцов в Ruby
 type: docs
 weight: 30
 url: /ru/java/copying-rows-and-columns-in-ruby/
 ---
+
 ## **Aspose.Cells - Копирование строк и столбцов**
 ### **Копирование строк**
-Aspose.Cells предоставляет метод copyRow класса Cells. Этот метод копирует все типы данных, включая формулы, значения, комментарии, форматы ячеек, скрытые ячейки, изображения и другие объекты рисования из исходной строки в целевую строку.
+Aspose.Cells предоставляет метод copyRow класса Cells. Этот метод копирует все типы данных, включая формулы, значения, комментарии, форматы ячеек, скрытые ячейки, изображения и другие объекты рисования из исходной строки в целевую строку.
 
-Метод copyRow принимает следующие параметры:
+Метод copyRow принимает следующие параметры:
 
 - исходный объект Cells,
-- индекс исходной строки и
+- индекс исходной строки, и
 - индекс строки назначения.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_rows()
 
@@ -48,37 +49,37 @@ end
 
 {{< /highlight >}}
 ### **Копирование столбцов**
-Aspose.Cells предоставляет метод copyColumn класса Cells, этот метод копирует все типы данных, включая формулы — с обновленными ссылками — и значения, комментарии, форматы ячеек, скрытые ячейки, изображения и другие объекты рисования из исходного столбца в целевой столбец.
+Aspose.Cells предоставляет метод copyColumn класса Cells, этот метод копирует все типы данных, включая формулы - с обновленными ссылками - и значения, комментарии, форматы ячеек, скрытые ячейки, изображения и другие объекты рисования из исходной колонки в целевую колонку.
 
 Метод copyColumn принимает следующие параметры:
 
 - исходный объект Cells,
-- индекс исходного столбца и
+- индекс исходного столбца, и
 - индекс столбца назначения.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
- защита copy_columns()
+ def copy_columns()
 
-данные_dir = File.dirname(File.dirname(File.dirname(__ФАЙЛ__))) + '/данные/'
+    data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
 
 
-# Создание экземпляра объекта Workbook по пути к файлу excel
+    # Instantiating a Workbook object by excel file path
 
-книга = Rjb::import('com.aspose.cells.Workbook').новый
+    workbook = Rjb::import('com.aspose.cells.Workbook').new
 
-# Доступ к первому рабочему листу в файле Excel
+    # Accessing the first worksheet in the Excel file
 
-рабочий лист = рабочая книга.getWorksheets (). получить (0)
+    worksheet = workbook.getWorksheets().get(0)
 
-# Поместите некоторые данные в строки заголовков (A1:A4)
+    # Put some data into header rows (A1:A4)
 
-я = 0
+    i = 0
 
- в то время как я< 5
+    while i < 5
 
         worksheet.getCells().get(i, 0).setValue("Header Row #{i}")
 
@@ -125,7 +126,7 @@ Aspose.Cells предоставляет метод copyColumn класса Cells
 end
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Копирование строк и столбцов (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **Копирование строк и столбцов (Aspose.Cells)** с одного из упомянутых ниже социальных сайтов с кодом:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

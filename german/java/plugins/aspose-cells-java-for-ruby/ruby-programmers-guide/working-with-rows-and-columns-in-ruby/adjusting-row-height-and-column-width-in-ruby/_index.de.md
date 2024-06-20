@@ -1,19 +1,20 @@
-﻿---
+---
 title: Zeilenhöhe und Spaltenbreite in Ruby anpassen
 type: docs
 weight: 10
 url: /de/java/adjusting-row-height-and-column-width-in-ruby/
 ---
-## **Aspose.Cells – Anpassen der Zeilenhöhe und Spaltenbreite**
-### **Einstellen der Zeilenhöhe**
-Es ist möglich, die Höhe einer einzelnen Zeile festzulegen, indem die Methode setRowHeight der Sammlung Cells aufgerufen wird. Die setRowHeight-Methode übernimmt die folgenden Parameter:
 
-- **Zeilenindex**, der Index der Zeile, deren Höhe Sie ändern.
-- **Zeilenhöhe**, die Zeilenhöhe, die auf die Zeile angewendet werden soll.
+## **Aspose.Cells - Zeilenhöhe und Spaltenbreite anpassen**
+### **Einstellen der Zeilenhöhe**
+Es ist möglich, die Höhe einer einzelnen Zeile durch Aufrufen der Methode setRowHeight der Cells-Sammlung festzulegen. Die Methode setRowHeight nimmt die folgenden Parameter an:
+
+- **Zeilenindex**, der Index der Zeile, deren Höhe geändert wird.
+- **Zeilenhöhe**, die auf die Zeile anzuwendende Zeilenhöhe.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def set_row_height()
 
@@ -44,15 +45,15 @@ Es ist möglich, die Höhe einer einzelnen Zeile festzulegen, indem die Methode 
 end
 
 {{< /highlight >}}
-### **Einstellen der Spaltenbreite**
-Legen Sie die Breite einer Spalte fest, indem Sie die Methode setColumnWidth der Sammlung Cells aufrufen. Die setColumnWidth-Methode übernimmt die folgenden Parameter:
+### **Die Spaltenbreite festlegen**
+Rufen Sie die Breite einer Spalte durch Aufrufen der Methode setColumnWidth der Sammlung Cells ein. Die Methode setColumnWidth nimmt die folgenden Parameter an:
 
-- **Spaltenindex**, der Index der Spalte, deren Breite Sie ändern.
+- **Spaltenindex**, der Index der Spalte, deren Breite geändert wird.
 - **Spaltenbreite**, die gewünschte Spaltenbreite.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def set_column_width()
 
@@ -83,7 +84,7 @@ Legen Sie die Breite einer Spalte fest, indem Sie die Methode setColumnWidth der
 end
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Zeilenhöhe und Spaltenbreite anpassen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Anpassung von Zeilenhöhe und Spaltenbreite (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

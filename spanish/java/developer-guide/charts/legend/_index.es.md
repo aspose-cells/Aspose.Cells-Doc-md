@@ -1,22 +1,23 @@
-﻿---
-title: Administrar gráficos de Leyenda de Excel
+---
+title: Manejar la Leyenda de los Gráficos de Excel
 linktitle: Leyenda
 type: docs
 weight: 50
 url: /es/java/chart-legend/
 ---
-## **Opciones de leyenda**
- Aspose.Cells también permite administrar la leyenda del gráfico en tiempo de ejecución, con[Leyenda](https://reference.aspose.com/cells/java/com.aspose.cells/Legend) objeto, la leyenda se puede mover, actualizar y formatear.
 
-|![todo:imagen_alternativa_texto](chart_legend.png)|
+## **Opciones de Leyenda**
+Aspose.Cells también permite administrar la leyenda del gráfico en tiempo de ejecución, con el [objeto de Leyenda](https://reference.aspose.com/cells/java/com.aspose.cells/Legend), la leyenda se puede mover, actualizar y formatear.
 
-## **Configuración de la leyenda del gráfico**
- Es simple administrar la leyenda del gráfico con Aspose.Cells[Leyenda](https://reference.aspose.com/cells/java/com.aspose.cells/Legend).
+|![todo:image_alt_text](chart_legend.png)|
 
-El siguiente fragmento de código demuestra cómo administrar la leyenda:
+## **Establecimiento de la Leyenda del Gráfico**
+Es fácil administrar la leyenda del gráfico con [Leyenda de Aspose.Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Legend).
+
+El siguiente fragmento de código muestra cómo gestionar la leyenda:
 
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "chart_legend.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "chart_legend.java" >}}
 
 ## **Temas avanzados**
-- [Establezca el texto del relleno de la entrada de la leyenda del gráfico en ninguno usando Aspose.Cells](/cells/es/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+- [Establecer el texto de relleno de entrada de leyenda del gráfico a ninguno usando Aspose.Cells](/cells/es/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)

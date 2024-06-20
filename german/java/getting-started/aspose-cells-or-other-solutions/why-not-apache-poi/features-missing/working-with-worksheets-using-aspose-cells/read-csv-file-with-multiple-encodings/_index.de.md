@@ -1,15 +1,16 @@
-﻿---
-title: Lesen Sie die Datei CSV mit mehreren Codierungen
+---
+title: CSV Datei mit mehreren Codierungen lesen
 type: docs
 weight: 70
 url: /de/java/read-csv-file-with-multiple-encodings/
 ---
+
 ## **Aspose.Cells - CSV-Datei mit mehreren Codierungen lesen**
-Manchmal enthält Ihre CSV-Datei mehrere Codierungen (Unicode, ANSI, UTF8, UTF7 usw.). Mit Aspose.Cells können Sie solche CSV-Dateien laden und in andere Formate konvertieren, z. B. PDF oder XLSX.
+Manchmal enthält Ihre CSV-Datei mehrere Codierungen (Unicode, ANSI, UTF8, UTF7 usw.). Aspose.Cells ermöglicht es Ihnen, solche CSV-Dateien zu laden und in andere Formate wie z.B. PDF oder XLSX zu konvertieren.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Set Multi Encoded Property to True
 
@@ -26,7 +27,7 @@ Workbook workbook = new Workbook(dataDir + "MultiEncoded.csv", options);
 workbook.save(dataDir + "EncodedNewFile_Out.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
@@ -34,6 +35,6 @@ workbook.save(dataDir + "EncodedNewFile_Out.xlsx", SaveFormat.XLSX);
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Lesen von CSV-Datei mit mehreren Codierungen](/cells/de/java/reading-csv-file-with-multiple-encodings).
+Besuchen Sie für weitere Details [Lesen einer CSV-Datei mit mehreren Codierungen](/cells/de/java/reading-csv-file-with-multiple-encodings).
 
 {{% /alert %}}

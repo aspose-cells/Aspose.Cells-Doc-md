@@ -1,15 +1,16 @@
-﻿---
-title: Удаление рабочих листов с использованием имени листа в Jython
+---
+title: Удаление листов с использованием имени листа в Jython
 type: docs
 weight: 120
 url: /ru/java/removing-worksheets-using-sheet-name-in-jython/
 ---
-## **Aspose.Cells — Удаление рабочих листов с использованием имени листа**
- Для добавления документов с помощью**Aspose.Cells Java для Jython**. Здесь вы можете увидеть пример кода.
+
+## **Aspose.Cells - Удаление листов с использованием имени листа**
+Для добавления документов с помощью **Aspose.Cells Java для Jython**. Здесь вы можете увидеть примерный код.
 
 **Код Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -55,7 +56,7 @@ if __name__ == '__main__':
     RemovingWorksheetsusingSheetName()
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Добавить документы (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Append Documents (Aspose.Cells)** c любого из упомянутых ниже социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetName.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetName.py)

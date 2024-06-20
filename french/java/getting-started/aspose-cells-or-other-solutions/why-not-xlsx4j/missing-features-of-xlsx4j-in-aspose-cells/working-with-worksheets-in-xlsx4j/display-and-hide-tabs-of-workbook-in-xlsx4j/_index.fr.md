@@ -1,15 +1,16 @@
-﻿---
+---
 title: Afficher et masquer les onglets du classeur dans xlsx4j
 type: docs
 weight: 40
 url: /fr/java/display-and-hide-tabs-of-workbook-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Afficher et masquer les onglets du classeur**
-Aspose.Cells fournit une classe, Workbook, qui représente un fichier Excel Microsoft. La classe Workbook fournit un large éventail de propriétés et de méthodes pour gérer un fichier Excel. Pour contrôler la visibilité des onglets dans un fichier Excel, les développeurs peuvent utiliser la méthode setShowTabs de la classe Workbook.
+Aspose.Cells fournit une classe, Workbook, qui représente un fichier Microsoft Excel. La classe Workbook offre une large gamme de propriétés et de méthodes pour gérer un fichier Excel. Pour contrôler la visibilité des onglets dans un fichier Excel, les développeurs peuvent utiliser la méthode setShowTabs de la classe Workbook.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -34,7 +35,7 @@ workbook.getSettings().setShowTabs(true);
 workbook.save(dataDir + "AsposeDisplayTabs.xls");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/displayandhidetabs/AsposeDisplayAndHideTabs.java)

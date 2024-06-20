@@ -1,28 +1,29 @@
-﻿---
-title: Aralık Ekle
+---
+title: Aralıkları Ekle
 type: docs
 weight: 105
 url: /tr/net/insert-ranges-to-Excel/
 ---
+
 ## **Giriş**
 
-Excel'de bir aralık seçebilir, ardından bir aralık ekleyebilir ve diğer verileri sağa veya aşağı kaydırabilirsiniz.
+Excel'de bir aralığı seçebilir, ardından sağa veya aşağıya diğer verileri kaydırarak bir aralık ekleyebilirsiniz.
 
-**![Shift seçenekleri](InsertRange.png)**
+**![Kaydırma seçenekleri](InsertRange.png)**
 
-## **Aspose.Cells'i Kullanarak Aralıkları Girin**
+## **Aspose.Cells Kullanarak Aralıkları Eklemek**
 
- Aspose.Cells sağlar[Cells.InsertRange](https://reference.aspose.com/cells/net/aspose.cells/cells/insertrange/) bir aralık eklemek için yöntem.
+Aspose.Cells, bir aralık eklemek için [Cells.InsertRange](https://reference.aspose.com/cells/net/aspose.cells/cells/insertrange/) yöntemi sağlar.
 
-## **Aralıkları Girin ve Cells'i Sağa Kaydırın**
+## **Aralıkları Ekleyip Hücreleri Sağa Kaydırmak**
 
-Aspose.Cells ile aşağıdaki kodlar gibi bir aralık ekleyin ve hücreleri sağa kaydırın:
+Aspose.Cells ile aşağıdaki kodları kullanarak bir aralık ekleyin ve hücreleri sağa kaydırın:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Insert-Range-Right.cs" >}}
 
-## **Aralıkları Ekle ve Cells Aşağı Kaydır**
+## **Aralıkları Ekleyin ve Hücreleri Aşağı Kaydırın**
 
-Aspose.Cells ile bir aralık ekleyin ve hücreleri aşağıdaki kodlarla aşağı kaydırın:
+Aspose.Cells ile aşağıdaki kodları kullanarak bir aralık ekleyin ve hücreleri aşağı kaydırın:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Insert-Range-Down.cs" >}}
 

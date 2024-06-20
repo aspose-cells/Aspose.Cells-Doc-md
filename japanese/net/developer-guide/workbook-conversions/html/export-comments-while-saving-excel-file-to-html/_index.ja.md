@@ -1,18 +1,19 @@
-﻿---
-title: ExcelファイルをHTMLに保存しながらコメントをエクスポートする
+---
+title: Excel ファイルを HTML に保存する際にコメントをエクスポート
 type: docs
 weight: 40
 url: /ja/net/export-comments-while-saving-excel-file-to/
 ---
-## **考えられる使用シナリオ**
 
-Excel ファイルを HTML に保存すると、コメントがエクスポートされません。ただし、Aspose.Cells は、[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)財産。設定すれば**真実**、次に HTML は、Excel ファイルに存在するコメントも表示します。
+## **可能な使用シナリオ**
 
-## **ExcelファイルをHTMLに保存しながらコメントをエクスポートする**
+ExcelファイルをHTMLに保存すると、コメントはエクスポートされません。ただし、Aspose.Cellsは[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)プロパティを使用してこの機能を提供します。**true**に設定すると、HTMLにExcelファイルに含まれるコメントも表示されます。
 
-次のサンプル コードは、[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)財産。スクリーンショットは、HTML に設定されている場合のコードの効果を示しています。**真実** .をダウンロードしてください[サンプル Excel ファイル](50528260.xlsx)そしてその[生成された HTML](5052826.txt)参考までに。
+## **ExcelファイルをHTMLに保存する際にコメントをエクスポート**
 
-![todo:画像_代替_文章](export-comments-while-saving-excel-file-to-html_1.png)
+次のサンプルコードでは[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)プロパティの使用方法を説明しています。コードによるHTMLへの影響を示すスクリーンショットが**true**として設定されている場合に表示されます。参照用に、[サンプルExcelファイル](50528260.xlsx)と[生成されたHTML](5052826.txt)をダウンロードしてください。
+
+![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 
 ## **サンプルコード**
 

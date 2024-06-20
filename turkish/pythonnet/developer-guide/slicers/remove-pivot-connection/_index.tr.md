@@ -3,18 +3,19 @@ title: Pivot Bağlantısını Kaldır
 type: docs
 weight: 30
 url: /tr/python-net/remove-pivot-connection/
-description: Aspose.Cells for Python via .NET kitaplığıyla pivot bağlantısını nasıl kaldıracağınızı öğrenin.
-keywords: Remove pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Aspose.Cells for Python via .NET kütüphanesi ile pivot bağlantısını nasıl kaldıracağınızı öğrenin.
+keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, Excel siz Python da pivot bağlantısını kaldırma, Aspose.Cells for Python ile Pivot Bağlantısı Kaldırma.
 ---
-##  **Olası Kullanım Senaryoları**
 
- Excel'de dilimleyici ile pivot tablonun ilişkisini kesmek istiyorsanız dilimleyiciye sağ tıklayıp "Bağlantıları Bildir..." öğesini seçmeniz gerekir. Seçenek listesinde onay kutusu üzerinde işlem yapabilirsiniz. Benzer şekilde, dilimleyici ile pivot tablonun ilişkisini programlı olarak Aspose.Cells for Python via .NET API kullanarak kesmek istiyorsanız lütfen şunu kullanın:[**Slicer.remove_pivot_connection(pivot)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable)yöntem. Dilimleyici ile pivot tablonun ilişkisini kesecektir.
+## **Olası Kullanım Senaryoları**
 
-##  **Dilimleyici ile pivot tablonun ilişkisini kesme**
+Excel'de dilimleyiciyi ve pivot tablosunu ayırmak istiyorsanız, dilimleyiciye sağ tıklayın ve "Rapor Bağlantıları..." öğesini seçin. Seçenek listesinde onay kutusu üzerinde işlem yapabilirsiniz. Benzer şekilde, Aspose.Cells for Python via .NET API'sını kullanarak dilimleyiciyi ve pivot tablosunu programlı olarak ayırmak istiyorsanız, lütfen [**Slicer.remove_pivot_connection(pivot)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/remove_pivot_connection/#aspose.cells.pivot.PivotTable) yöntemini kullanın. Bu, dilimleyiciyi ve pivot tablosunu ayıracaktır.
 
-Aşağıdaki örnek kod,[örnek Excel dosyası](remove-pivot-connection.xlsx)mevcut bir dilimleyiciyi içerir. Dilimleyicilere erişir ve ardından dilimleyici ile pivot tablonun ilişkisini keser. Son olarak çalışma kitabını şu şekilde kaydeder:[Excel dosyasının çıktısı](remove-pivot-connection-out.xlsx). 
+## **Aspose.Cells for Python Excel kütüphanesi ile Dilimleyici ve Pivot Tablosunu Nasıl Ayırırız**
+
+Aşağıdaki örnek kod önceden var olan bir dilimleyici içeren [örnek Excel dosyasını](remove-pivot-connection.xlsx) yükler. Daha sonra dilimleyicilere erişir ve dilimleyici ile pivot tabloyu ayırır. Son olarak, çalışma kitabını [çıkış Excel dosyası](remove-pivot-connection-out.xlsx) olarak kaydeder. 
 
 
-##  **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-Removing-Pivot-Connection.py" >}}

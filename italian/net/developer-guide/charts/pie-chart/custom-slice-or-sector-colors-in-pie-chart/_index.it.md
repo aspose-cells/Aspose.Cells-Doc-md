@@ -1,28 +1,29 @@
 ---
-title: Colori personalizzati delle sezioni o dei settori nel grafico a torta
-description: Scopri come utilizzare Aspose.Cells for .NET per personalizzare i colori delle sezioni e dei settori in un grafico a torta. La nostra guida mostrerà come assegnare colori univoci a ciascuna fetta, settore o legione per migliorare l'attrattiva visiva e la rappresentazione dei dati.
-keywords: Aspose.Cells for .NET, Pie Chart, Custom Slice Colors, Custom Sector Colors, Visual Appeal, Data Representation.
+title: Colori personalizzati delle fette o settori nel grafico a torta
+description: Scopri come utilizzare Aspose.Cells for .NET per personalizzare i colori delle fette e dei settori in un grafico a torta. La nostra guida dimostrerà come assegnare colori unici a ogni fetta, settore o legione per un maggiore appeal visivo e una rappresentazione dei dati più efficace.
+keywords: Aspose.Cells for .NET, Grafico a Torta, Colori personalizzati delle fette, Colori personalizzati dei settori, Appeal visivo, Rappresentazione dei dati.
 type: docs
 weight: 60
 url: /it/net/custom-slice-or-sector-colors-in-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Questo articolo spiega come aggiungere colori personalizzati alle sezioni/settori del grafico a torta. Per impostazione predefinita, i grafici a torta utilizzano il modello predefinito di Excel Microsoft. Per utilizzare altri colori, ridefinire i colori nel grafico.
+Questo articolo spiega come aggiungere colori personalizzati alle fette/settori dei grafici a torta. Per impostazione predefinita, i grafici a torta utilizzano il modello predefinito di Microsoft Excel. Per utilizzare altri colori, ridefinire i colori nel grafico.
 
 {{% /alert %}}
 
-Per impostare un colore personalizzato per le singole sezioni o settori di un grafico a torta:
+Per impostare un colore personalizzato per le singole fette o settori di un grafico a torta:
 
-1.  Accedi al[**Serie**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) dell'oggetto[**ChartPoint**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
-1. Assegna il colore che preferisci utilizzando il[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)proprietà.
+1. Accedere alla [**Series**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) dell'oggetto [**ChartPoint**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
+1. Assegnare il colore desiderato utilizzando la proprietà [**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor).
 
-Questo articolo spiega inoltre come:
+Questo articolo spiega anche come:
 
-- I dati della categoria di un grafico.
-- Un titolo di grafico collegato a una cella.
+- I dati di categoria di un grafico.
+- Un titolo del grafico collegato a una cella.
 - Le impostazioni del carattere del titolo del grafico.
-- La posizione della leggenda.
+- La posizione della legenda.
 
 {{% alert color="primary" %}}
 

@@ -1,23 +1,26 @@
-﻿---
+---
 title: Salvataggio di un file Excel
 type: docs
 weight: 20
-url: /it/net/saving-an-excel-file/
+url: /it/net/aspose-cells-griddesktop/save-an-excel-file/
+keywords: GridDesktop, salvataggio, file
+description: Questo articolo introduce come salvare un file in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Utilizzando il controllo Aspose.Cells.GridDesktop, gli utenti non possono solo creare nuovi file Excel, ma anche gestire quelli esistenti. Ma, in entrambi i casi, sarebbe necessario salvare il contenuto del Aspose.Cells.GridDesktop. Quindi, questo è l'argomento della nostra discussione ora per far sapere ai nostri utenti come possono salvare i loro contenuti Grid come file Excel.
+Utilizzando il controllo Aspose.Cells.GridDesktop, gli utenti possono non solo creare nuovi file Excel ma gestire anche quelli esistenti. Tuttavia, in entrambi i casi, sarebbe necessario salvare i contenuti del Aspose.Cells.GridDesktop. Quindi, questo è l'argomento della nostra discussione ora per far sapere ai nostri utenti come possono salvare i loro contenuti del Grid come un file Excel.
 
 {{% /alert %}} 
-## **introduzione**
+## **Introduzione**
 Per salvare il contenuto del controllo Aspose.Cells.GridDesktop come file Excel, Aspose.Cells.GridDesktop fornisce i seguenti metodi.
 
 1. **Salvataggio come file**
-1. **Salvataggio come flusso**
-## **Salvataggio file**
- Creare un'applicazione desktop e aggiungere al form due pulsanti con un controllo GridControl. Imposta le proprietà del testo dei pulsanti come**Salva come file** e**Salva come flusso** rispettivamente.
+1. **Salvataggio come stream**
+## **Salvataggio del file**
+Creare un'applicazione desktop e aggiungere due pulsanti con un controllo GridControl al form. Impostare le proprietà di testo dei pulsanti rispettivamente come **Salva come file** e **Salva come stream**.
 ### **Salvataggio come file**
- Crea l'evento Click di**Salva come file** pulsante e incollare il seguente codice al suo interno.
+Creare l'evento di clic del pulsante **Salva come file** e incollare il seguente codice al suo interno.
 
 
 
@@ -25,11 +28,11 @@ Per salvare il contenuto del controllo Aspose.Cells.GridDesktop come file Excel,
 
 {{% alert color="primary" %}} 
 
-IMPORTANTE: un punto importante da discutere è che il controllo Aspose.Cells.GridDesktop contiene anche un metodo denominato SaveToExcel , utilizzato anche per caricare il contenuto di un file Excel nella griglia. Ma questo metodo è ormai obsoleto. Pertanto, si consiglia a tutti gli sviluppatori di utilizzare il metodo ExportExcelFile che è più robusto ed efficiente di quello obsoleto.
+IMPORTANTE: Un punto importante da discutere è che il controllo Aspose.Cells.GridDesktop contiene anche un metodo chiamato SaveToExcel, che è anche utilizzato per caricare i contenuti di un file Excel nel Grid. Tuttavia, questo metodo è ora obsoleto. Pertanto, si consiglia a tutti i programmatori di utilizzare il metodo ExportExcelFile che è più robusto ed efficiente rispetto a quello obsoleto.
 
 {{% /alert %}} 
 ### **Salvataggio come flusso**
- A volte, potrebbe essere richiesto dagli sviluppatori di salvare i propri contenuti Grid in un flusso (ad esempio, MemoryStream). Per facilitare questa attività, il controllo Aspose.Cells.GridDesktop supporta anche il salvataggio dei dati Grid in un flusso. Crea l'evento Click di**Salva come flusso** pulsante e incollare il seguente codice al suo interno.
+A volte, potrebbe essere richiesto dai programmatori di salvare i contenuti della griglia su uno stream (ad esempio MemoryStream). Per agevolare questo compito, il controllo Aspose.Cells.GridDesktop supporta anche il salvataggio dei dati della griglia su uno stream. Crea l'evento Click del pulsante **Salva come stream** e incolla il seguente codice al suo interno.
 
 
 
@@ -37,6 +40,6 @@ IMPORTANTE: un punto importante da discutere è che il controllo Aspose.Cells.Gr
 
 {{% alert color="primary" %}} 
 
-IMPORTANTE: Microsoft Excel supporta I fogli Excel possono contenere 65.536 righe e 256 colonne max. Anche Aspose.Cells.GridDesktop segue gli stessi standard. Nel controllo Aspose.Cells.GridDesktop, gli sviluppatori possono creare più righe e colonne rispetto al limite standard, ma quando si salvano i dati della griglia in un file Excel, verrà generata un'eccezione. Significa che solo i dati contenuti nelle 65.536 righe e 256 colonne possono essere salvati in un file Excel utilizzando Aspose.Cells.GridDesktop.
+IMPORTANTE: Microsoft Excel supporta fogli Excel che possono contenere al massimo 65.536 righe e 256 colonne. Anche Aspose.Cells.GridDesktop segue gli stessi standard. Nel controllo Aspose.Cells.GridDesktop, i programmatori possono creare più righe e colonne rispetto al limite standard, ma quando si salvano i dati della griglia in un file Excel, verrà generata un'eccezione. Ciò significa che solo i dati contenuti nelle 65.536 righe e 256 colonne possono essere salvati in un file Excel utilizzando Aspose.Cells.GridDesktop.
 
 {{% /alert %}}

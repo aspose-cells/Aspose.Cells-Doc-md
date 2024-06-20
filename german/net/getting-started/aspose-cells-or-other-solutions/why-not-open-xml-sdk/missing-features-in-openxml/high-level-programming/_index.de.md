@@ -1,14 +1,15 @@
-﻿---
-title: High-Level-Programmierung mit einem Arbeitsmappen-Objektmodell
+---
+title: Hochrangige Programmierung mit einem Arbeitsmappenobjektmodell
 type: docs
 weight: 50
 url: /de/net/high-level-programming-with-a-workbook-object-model/
 ---
-Dieser Abschnitt enthält die folgenden Themen
 
-- [Tabellen zusammenstellen](/cells/de/net/assemble-spreadsheets/)
-- [Kopieren Sie Fragmente und Arbeitsblätter zwischen Arbeitsmappen](/cells/de/net/copy-fragments-and-worksheets-between-workbooks/)
+Dieser Abschnitt umfasst die folgenden Themen
+
+- [Zusammenstellen von Tabellenkalkulationen](/cells/de/net/assemble-spreadsheets/)
+- [Kopieren von Fragmenten und Arbeitsblättern zwischen Arbeitsmappen](/cells/de/net/copy-fragments-and-worksheets-between-workbooks/)
   - [Arbeitsblätter zwischen Arbeitsmappen kopieren](/cells/de/net/copy-worksheets-between-workbooks/)
   - [Arbeitsblätter innerhalb einer Arbeitsmappe kopieren](/cells/de/net/copy-worksheets-within-a-workbook/)
-  - [Arbeitsblätter innerhalb der Arbeitsmappe verschieben](/cells/de/net/move-worksheets-within-workbook/)
-- [Suchen und Ersetzen in der Tabelle](/cells/de/net/find-and-replace-in-spreadsheet/)
+  - [Arbeitsblätter innerhalb einer Arbeitsmappe verschieben](/cells/de/net/move-worksheets-within-workbook/)
+- [Suchen und Ersetzen in Tabellenkalkulationen](/cells/de/net/find-and-replace-in-spreadsheet/)

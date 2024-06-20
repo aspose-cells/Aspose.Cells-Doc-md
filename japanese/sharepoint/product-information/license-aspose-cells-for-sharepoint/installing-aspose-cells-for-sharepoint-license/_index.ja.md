@@ -1,41 +1,42 @@
-﻿---
-title: Aspose.Cells for SharePoint ライセンスのインストール
+---
+title: Aspose.Cells for SharePointライセンスのインストール
 type: docs
 weight: 10
 url: /ja/sharepoint/installing-aspose-cells-for-sharepoint-license/
 ---
+
 {{% alert color="primary" %}}
 
-あなたがあなたに満足したら[評価](/cells/ja/sharepoint/evaluate-aspose-cells/), [ライセンスを購入する](https://purchase.aspose.com/buy).
+[評価](/cells/ja/sharepoint/evaluate-aspose-cells/)を完了してから、[ライセンスを購入](https://purchase.aspose.com/buy)してください。
 
-購入する前に、ライセンス サブスクリプションの条件を理解し、同意していることを確認してください。
+購入前に、ライセンスサブスクリプション契約条件を理解し同意していることを確認してください。
 
 {{% /alert %}}
 
-注文の支払いが完了すると、ライセンスが電子メールで送信されます。ライセンスは、通常の SharePoint ソリューション パッケージを含む ZIP アーカイブです。
+注文が支払われた時点でライセンスがメールで送られます。ライセンスは通常のSharePointソリューションパッケージを含むZIPアーカイブです。
 
-ライセンス ZIP には次が含まれます。
+ライセンスZIPには次が含まれています：
 
-- **Aspose.Cells.SharePoint.License.wsp** – SharePoint ソリューション パッケージ ファイル。 Aspose.Cells for SharePoint ライセンスは、SharePoint ソリューションとしてパッケージ化されており、サーバー ファーム全体での展開と撤回を容易にします。
-- **readme.txt**– ライセンスのインストール手順。ライセンスのインストールは、サーバー コンソールから**stsadm.exe**.ライセンスのインストールに必要な手順を以下に示します。
+- **Aspose.Cells.SharePoint.License.wsp** – SharePointソリューションパッケージファイル。Aspose.Cells for SharePointライセンスは、サーバーファーム全体に展開およびリトラクションするためにSharePointソリューションとしてパッケージ化されています。
+- **readme.txt** – ライセンスのインストール手順。ライセンスのインストールはサーバーコンソールから**stsadm.exe**経由で行われます。ライセンスのインストールに必要な手順は以下に示されています。
 
 #### **ライセンスのインストール**
 
 {{% alert color="primary" %}}
 
-わかりやすくするために、パスは省略されています。実際のパスを追加します**stsadm.exe**および/または以下の手順を実行する際のソリューション ファイル。
+理解しやすくするために、パスは省略されています。以下の手順を実行する際には、**stsadm.exe**やソリューションファイルの実際のパスを追加してください。
 
 {{% /alert %}}
 
-1. stsadm を実行して、ソリューションを SharePoint ソリューション ストアに追加します。
- stsadm.exe -o addsolution -ファイル名 Aspose.Cells.SharePoint.License.wsp
-1. ファーム内のすべてのサーバーにソリューションを展開します。
- stsadm.exe -o deploysolution -name Aspose.Cells.SharePoint.License.wsp -immediate -force
-1. 管理タイマー ジョブを実行して、展開をすぐに完了します。
- stsadm.exe -o execadmsvcjobs
+1. stsadmを実行して、SharePointソリューションストアにソリューションを追加します：
+   stsadm.exe -o addsolution -filename Aspose.Cells.SharePoint.License.wsp
+1. ソリューションをファーム内のすべてのサーバーに展開します：
+   stsadm.exe -o deploysolution -name Aspose.Cells.SharePoint.License.wsp -immediate -force
+1. 展開をすぐに完了するために、管理タイマージョブを実行します：
+   stsadm.exe -o execadmsvcjobs
 
 {{% alert color="primary" %}}
 
- Windows SharePoint サービス管理サービスが開始されていない場合、展開手順を実行すると警告が表示されます。**Stsadm.exe**は、このサービスと Windows SharePoint Timer Service に依存して、ファーム全体にソリューション データをレプリケートします。これらのサービスがサーバー ファームで実行されていない場合は、ライセンスを各サーバーに個別に展開する必要がある場合があります。
+サーバーファームでWindows SharePoint Services Administrationサービスが起動していない場合、展開ステップを実行する際に警告が表示されます。**Stsadm.exe**はこのサービスとWindows SharePoint Timer Serviceに依存しており、これらのサービスがサーバーファームで実行されていない場合は、ライセンスを各サーバーに別々に展開する必要があります。
 
 {{% /alert %}}

@@ -1,10 +1,11 @@
-﻿---
-title: Reconnaître les balises à fermeture automatique
+---
+title: Reconnaître les balises auto fermantes
 type: docs
 weight: 50
 url: /fr/python-java/recognize-self-closing-tags/
 ---
-HTML peut avoir une variété de formats de balises pour les balises vides comme \<td>\</td> ou alors \<td/>. Aspose.Cells prend en charge ces deux formats. Cette fonctionnalité peut être testée en convertissant l'exemple de fichier HTML joint en fichier Excel. L'exemple de fichier HTML et les fichiers de sortie peuvent être téléchargés à partir des liens suivants à des fins de test.
+
+HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td/>. Aspose.Cells supports both these formats. This feature can be tested by converting the attached sample HTML file to Excel file. The sample HTML file and output files can be downloaded from the following links for testing.
 
 [Fichier source](sampleSelfClosingTags.zip)
 

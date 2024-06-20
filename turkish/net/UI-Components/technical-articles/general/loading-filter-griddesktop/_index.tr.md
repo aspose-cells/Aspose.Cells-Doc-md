@@ -1,44 +1,46 @@
-﻿---
-title: GridDesktop'ta çalışma kitabını yüklerken nesneleri filtreleme
+---
+title: GridDesktop ta çalışma kitabını yüklerken filtre nesnelerini filtreleme
 type: docs
 weight: 1060
 url: /tr/net/aspose-cells-griddesktop/loading-filter
-description: Bu makalede, Aspose.Cells.GridDesktop kitaplığı için yükleme filtresinin nasıl kullanılacağı açıklanmaktadır.
+description: Bu makale, GridDesktop ta yükleme filtresinin nasıl kullanılacağını açıklar
+keywords: GridDesktop,loading,loading filter,filter
 ---
-## **Olası Kullanım Senaryoları**
- Lütfen kullan[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)çalışma kitabından verileri filtrelerken özelliği.
 
- bu[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)numaralandırma aşağıdaki değerlere sahiptir.
-- Herşey
-- Kitap Ayarları
-- HücreBlank
+## **Olası Kullanım Senaryoları**
+Lütfen bir dosyadan veri filtrelerken [GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter) özelliğini kullanın
+
+[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions) numaralandırmasının aşağıdaki değerleri bulunmaktadır
+- Tümü
+- KitapAyarları
+- HücreBoş
 - HücreBool
-- Hücre Verileri
-- hücre hatası
-- HücreSayısal
-- hücre dizisi
-- Hücre Değeri
-- Çizelge
-- Koşullu biçimlendirme
-- Veri doğrulama
-- tanımlı adlar
-- Döküman özellikleri
-- formül
-- köprüler
-- BirleştirilmişAlan
-- Pivot tablo
-- Ayarlar
-- Şekil
+- CellData
+- CellError
+- CellNumeric
+- CellString
+- CellValue
+- Chart
+- ConditionalFormatting
+- DataValidation
+- DefinedNames
+- DocumentProperties
+- Formula
+- Hyperlinkler
+- MergedArea
+- PivotTable
+- Settings
+- Shape
 - SheetData
-- Sayfa Ayarları
-- Yapı
-- stil
-- Masa
+- SheetSettings
+- Structure
+- Style
+- Table
 - VBA
 - XmlMap
-## **Çalışma Kitabını Yüklerken verileri filtreleme**
- Aşağıdaki örnek kod, çizimin çalışma kitabından nasıl filtreleneceğini gösterir. lütfen kontrol ediniz[örnek excel dosyası](5472489.xlsx) . Gördüğünüz gibi, tüm çizelgeler/şekiller/resimler çalışma kitabından filtrelendi.
+## **Çalışma Kitabını Yükleme Sırasında Veriyi Filtreleme**
+Aşağıdaki örnek kod, çalışma kitabından çizimi filtreleme şeklini gösterir. Lütfen [örnek excel dosyasını](5472489.xlsx) kontrol edin. Görebileceğiniz gibi, tüm grafikler/şekiller/resimler çalışma kitabından filtrelenmiştir.
 ![resimsiz çalışma kitabı](nodrawing.png)
-### **Basit kod**
+### **Örnek Kod**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "LoadingFilter.cs" >}}
- 
+

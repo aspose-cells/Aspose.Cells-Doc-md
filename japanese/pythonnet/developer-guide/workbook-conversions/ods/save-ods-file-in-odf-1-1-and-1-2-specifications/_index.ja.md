@@ -1,19 +1,20 @@
 ---
-title: ODF 1.1 および 1.2 の仕様で ODS ファイルを保存
-linktitle: ODF 1.1 および 1.2 として保存
-description: Aspose.Cells を使用して Excel を ODF 1.1 および 1.2 仕様に変換します。
+title: ODSファイルをODF 1.1および1.2の仕様に保存
+linktitle: ODF 1.1および1.2として保存 
+description: Aspose.Cellsは、ODF（OpenDocument Format）1.1および1.2の仕様でODSファイル（OpenDocument Spreadsheet）を保存する機能をサポートしています。Aspose.Cellsには、ODSファイルを保存する際にODF 1.1規格を使用するかどうかを指定するための{0}プロパティがあります。このプロパティのデフォルト値は false なので、この設定を使用しないで保存されるODSファイルは1.2の仕様を使用します。
 type: docs
 weight: 230
 url: /ja/python-net/save-ods-file-in-odf-1-1-and-1-2-specifications/
-description: ODF 1.1 および 1.2 仕様で ODS ファイルを Aspose.Cells for Python via .NET API で保存する方法。
-keywords: Python  Save ODS File in ODF 1.1 and 1.2 Specifications,  Save ODS File in ODF 1.1 and 1.2 Specifications Pyton via NET.
+description: Aspose.Cells for Python via .NET APIを使用して、ODF 1.1および1.2仕様でODSファイルを保存する方法について学びます。
+keywords: PythonでODF 1.1および1.2仕様のODSファイルを保存する、ODF 1.1および1.2仕様のODSファイルをPython via NETで保存する。
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for Python via .NET は、ODF (**OpenDocument Format**) 1.1 および 1.2 仕様での ODS ファイル (**OpenDocument Spreadsheet**) の保存をサポートします。 Aspose.Cells for Python via .NET は[**OdsSaveOptions.is_strict_schema11**](https://reference.aspose.com/cells/python-net/aspose.cells/odssaveoptions/is_strict_schema11/)ODS ファイルの保存に ODF 1.1 仕様の使用を指定するプロパティ。このプロパティのデフォルト値は *false** であるため、この設定を行わずに保存された ODS ファイルは 1.2 仕様を使用します。
+Aspose.Cells for Python via .NETは、ODF（OpenDocument Format）1.1および1.2の仕様に従ってODSファイル（OpenDocument Spreadsheet）を保存することをサポートします。
 
 {{% /alert %}}
 
-以下のサンプル コードでは、ワークブック オブジェクトを作成し、最初のワークシートのセル A1 に値を追加して、ODF 1.1 および 1.2 仕様で ODS ファイルを保存します。デフォルトでは、ODS ファイルは ODF 1.2 仕様で保存されます。
+以下のサンプルコードでは、ワークブックオブジェクトを作成し、最初のワークシートのセルA1にいくつかの値を追加し、ODF 1.1および1.2の仕様でODSファイルを保存します。デフォルトでは、ODSファイルはODF 1.2の仕様で保存されます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-OdsFileSaveOptions-SaveODSFileinODF11and12Specifications.py" >}}

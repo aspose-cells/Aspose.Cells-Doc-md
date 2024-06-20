@@ -1,34 +1,35 @@
 ---
-title: Bir Elektronik Tabloda veya Çalışma Kitabında kullanılan Yazı Tiplerinin Listesini Alma
-description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmaya yönelik bir .NET kitaplığıdır. Bir elektronik tabloda veya çalışma kitabında kullanılan yazı tiplerinin listesini almayı destekleyerek kullanıcıların bir belgede kullanılan yazı tipi bilgilerini almasına olanak tanır. Bu makale, yazı tiplerinin bir listesini almak için Aspose.Cells kitaplığının nasıl kullanılacağını gösterecektir.
-keywords: Aspose.Cells, Spreadsheet, Workbook, Font, List
+title: Bir Elektronik Tablo veya Çalışma Kitabında Kullanılan Yazı Tiplerinin Listesini Alın
+description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için bir .NET kütüphanesidir. Bir elektronik tablodaki veya çalışma kitabındaki kullanılan yazı tipleri listesini almayı destekler ve kullanıcıların belgede kullanılan yazı tipi bilgilerini almasına olanak tanır. Bu makale, Aspose.Cells kütüphanesini kullanarak yazı tiplerinin bir listesini almayı nasıl yapacağınızı gösterecektir.
+keywords: Aspose.Cells, Elektronik Tablo, Çalışma Kitabı, Yazı Tipi, Liste
 type: docs
 weight: 20
 url: /tr/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 ---
-##  **Olası Kullanım Senaryoları**
 
-Çalışma kitabınızda işleme amacıyla kullanılan yazı tiplerini bilmek genellikle gereklidir. Çalışma kitabınızı PDF veya görüntüye dönüştürdüğünüzde, Aspose.Cells gerekli tüm yazı tiplerinin sisteminizde yüklü olmasını veya *yazı tipleri dizininizde** bulunmasını gerektirir. Aspose.Cells gerekli yazı tipini bulamazsa, onu sisteminizde veya yazı tipi dizininizde bulunan uygun başka bir yazı tipiyle değiştirmeye çalışır ve gerçek yazı tipinizi değiştirebilir. Bu, yalnızca PDF veya görüntülerin istenmeyen şekilde oluşturulmasına neden olmakla kalmaz, aynı zamanda uygun yazı tiplerinin bulunması için işlem süresi de alır.
+## **Olası Kullanım Senaryoları**
 
-Bu gibi durumlarla başa çıkabilmek için çalışma kitabınızda hangi yazı tiplerinin kullanıldığını bilmeniz, ardından Windows ortamında bu yazı tiplerini sisteminize kurmanız veya Windows veya Linux ortamında yazı tipleri dizininize yerleştirmeniz gerekir.
+Bazen, bir belgenin düzenlenmesi için kullanılan yazı tiplerini bilmek önemli olabilir. Elektronik tablonuzu PDF veya resim formatına dönüştürdüğünüzde, Aspose.Cells tüm gerekli yazı tiplerinin sisteminize yüklü olmasını veya **yazı tipleri dizininde** bulunmasını gerektirir. Aspose.Cells, gereken yazı tipini bulamazsa, gerçek yazı tipinizi başka uygun bir yazı tipi ile değiştirmeye çalışır. Bu, sadece istenmeyen şekilde PDF veya görüntülerin işlenmesine neden olmakla kalmaz, aynı zamanda uygun yazı tiplerini bulma süresi de alır.
 
- Aspose.Cells şunları sağlar**[Workbook.GetFonts](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts)**Çalışma kitabınızda veya e-tablonuzda kullanılan tüm yazı tiplerinin listesini döndüren yöntem.
+Bu tür durumlarla başa çıkmak için, çalışma kitabınızda kullanılan yazı tiplerini bilmeli, sonra Windows ortamında sisteminize yükleyin veya Windows veya Linux ortamında yazı tiplerinizin bulunduğu dizine yerleştirin.
 
-##  **Bir Elektronik Tabloda veya Çalışma Kitabında kullanılan Yazı Tiplerinin Listesini Alma**
+Aspose.Cells, çalışma kitabınızda veya elektronik tablonuzda kullanılan tüm yazı tiplerinin listesini döndüren [**Workbook.GetFonts**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts) yöntemini sağlar.
 
- Aşağıdaki örnek kod, kaynak excel dosyasını yükler ve içinde kullanılan yazı tiplerinin listesini alır. Gösterim amacıyla bazı sahte yazı tiplerinin eklendiği bir sahte çalışma sayfası vardır. Kod, çalışma kitabındaki tüm yazı tiplerini yazdırırken, bu boş yazı tiplerini de yazdırır. Aşağıdaki ekran görüntüsü şunları göstermektedir:[örnek excel dosyası](25395211.xlsx) ve sahte yazı tiplerinin nasıl listelendiği.
+## **Bir Elektronik Tablo veya Çalışma Kitabında Kullanılan Yazı Tiplerinin Listesini Alın**
 
-![yapılacak şey:image_alt_text](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
+Aşağıdaki örnek kod, kaynak excel dosyasını yükler ve içinde kullanılan yazı tiplerinin listesini alır. İçinde bazı yanıltıcı yazı tiplerinin bulunduğu sahte bir çalışma sayfası vardır. Kod, çalışma kitabındaki tüm yazı tiplerini yazdırdığında, o sahte yazı tiplerini de yazdırır. Aşağıdaki ekran görüntüsü, [örnek excel dosyasını](25395211.xlsx) ve sahte yazı tiplerinin nasıl listelendiğini gösterir.
 
-##  **Basit kod**
+![todo:image_alt_text](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Fonts-GetListOfFontsUsedInSpreadsheetOrWorkbook.cs" >}}
 
-##  **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
- Yukarıdaki örnek kodun verilenlerle çalıştırıldığında konsol çıktısı aşağıdadır[örnek excel dosyası](25395211.xlsx).
+Yukarıdaki örnek excel dosyasıyla çalıştırıldığında, yukarıdaki örnek kodun konsol çıktısı şöyle görünür.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Aspose.Cells.Font [ Calibri; 11; Regular; Color [Black] ]
 

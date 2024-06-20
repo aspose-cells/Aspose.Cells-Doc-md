@@ -1,7 +1,12 @@
-﻿---
-title: Comment déployer l'application ASP.NET Core MVC à l'aide de Gridjs
+---
+title: Comment déployer une application ASP.NET Core MVC en utilisant Gridjs
 type: docs
 weight: 190
-url: /fr/net/how-to-deploy-gridjs/
+url: /fr/net/aspose-cells-gridjs/how-to-deploy-gridjs/
+keywords: GridJs, déploiement
+description: Cet article explique comment utiliser GridJs pour implémenter un éditeur Excel étape par étape.
 ---
-Déployez rapidement l'application ASP.NET Core MVC pour créer, lire et modifier des feuilles de calcul Excel, reportez-vous à https://blog.aspose.com/2021/08/25/create-read-edit-excel-spreadsheet-in-asp-net- mvc/
+
+
+
+Déployez rapidement une application ASP.NET Core MVC pour créer, lire et modifier des feuilles de calcul Excel, consultez https://blog.aspose.com/2021/08/25/create-read-edit-excel-spreadsheet-in-asp-net-mvc/

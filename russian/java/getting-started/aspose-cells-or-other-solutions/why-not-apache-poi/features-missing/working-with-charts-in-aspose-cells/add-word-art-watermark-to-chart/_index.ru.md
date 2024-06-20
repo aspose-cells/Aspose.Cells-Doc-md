@@ -1,15 +1,16 @@
-﻿---
-title: Добавить водяной знак Word Art на диаграмму
+---
+title: Добавить водный знак Word Art на диаграмму
 type: docs
 weight: 10
 url: /ru/java/add-word-art-watermark-to-chart/
 ---
-## **Aspose.Cells - Добавить водяной знак Word Art в диаграмму**
-Вы можете использовать WordArt для добавления специальных текстовых эффектов в электронные таблицы. Например, растяните заголовок, украсьте текст, придайте тексту предустановленную форму или нанесите измененный текст на область графика диаграммы в качестве водяного знака. WordArt становится объектом, который можно перемещать или размещать в электронных таблицах для украшения.
+
+## **Aspose.Cells - Добавить водный знак Word Art на диаграмму**
+Вы можете использовать WordArt для добавления специальных текстовых эффектов к таблицам. Например, растянуть заголовок, украсить текст, подогнать текст под заданную форму или применить измененный текст к области построения диаграммы в качестве водяного знака. WordArt становится объектом, который можно перемещать или располагать в ваших таблицах для добавления украшений.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook.
 
@@ -44,14 +45,14 @@ wordart.setHasLine(false);
 workbook.save(dataDir + "AsposeChartWatermarked_Out.xls", SaveFormat.EXCEL_97_TO_2003);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
+## **Скачать работающий код**
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/charts/AddWordArtWatermarkToChart.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/charts/AddWordArtWatermarkToChart.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Добавить водяной знак WordArt на диаграмму](/cells/ru/java/add-wordart-watermark-to-chart).
+Для получения дополнительной информации посетите [Добавьте водяной знак WordArt на график](/cells/ru/java/add-wordart-watermark-to-chart).
 
 {{% /alert %}}

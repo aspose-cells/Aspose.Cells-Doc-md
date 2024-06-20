@@ -4,46 +4,47 @@ type: docs
 weight: 138
 url: /es/net/how-to-run-aspose-cells-in-blazor/
 description: Aprenda cómo ejecutar Aspose.Cells en Blazor.
-keywords: C# Run Aspose.Cells in Blazor, Use Aspose.Cells in Blazor
+keywords: C# Ejecutar Aspose.Cells en Blazor, Usar Aspose.Cells en Blazor, Aplicación de Servidor Blazor con Aspose.Cells
 ---
-##  Descripción general
 
- Para ejecutar Aspose.Cells en Blazor, necesita las plataformas .NET6 (o posteriores); en comparación con las plataformas anteriores (.netcore31 o anteriores), una diferencia importante es la biblioteca de gráficos. en este funcionario[Microsoft Documento](https://learn.microsoft.com/en-gb/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only), explica que para .NET6 o versiones posteriores la biblioteca de gráficos "System.Drawing.Common" solo será compatible con Windows y ofrece recomendaciones para reemplazar la biblioteca de gráficos.
+## Resumen
 
-Para el producto Apose.Cells, realizamos la evaluación y completamos la migración de la biblioteca de gráficos. Usamos SkiaSharp en lugar de System.Drawing.Common en sistemas que no son Windows, como se sugiere en la documentación oficial de Microsoft. Tenga en cuenta que este cambio crítico entrará en vigor en Aspose.Cells 22.10.1 o posterior para .Net6.
+Para ejecutar Aspose.Cells en Blazor, necesita las plataformas .NET6 (o posteriores), en comparación con plataformas anteriores (.netcore31 o anteriores), una diferencia importante es acerca de la biblioteca de gráficos. En este [Documento oficial de Microsoft](https://learn.microsoft.com/en-gb/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only), se explica que para las versiones de .NET6 o posteriores la biblioteca de gráficos "System.Drawing.Common" solo será compatible en Windows, y se dan recomendaciones para reemplazar la biblioteca de gráficos.
 
-##  Primera aplicación de Blazor con Aspose.Cells
+Para el producto Apose.Cells, hemos realizado la evaluación y completado la migración de la biblioteca de gráficos. Utilizamos SkiaSharp en lugar de System.Drawing.Common en sistemas no Windows, como se sugiere en la documentación oficial de Microsoft. Tenga en cuenta que este cambio crítico entrará en vigor en Aspose.Cells 22.10.1 o posterior para .Net6.
 
-En este ejemplo, creará una aplicación de servidor Blazor simple que agrega algunos datos y gráficos y los convierte en imágenes para mostrarlas en la página web. Durante el proceso de creación del proyecto, puede configurar opciones según sus propias necesidades. Por ejemplo, cuando marca la opción "Habilitar Docker", la aplicación Blazor se puede compilar y ejecutar en Docker.
+## Aplicación de Servidor Blazor con Aspose.Cells
 
-###  Cree la primera aplicación Blazor
+En este ejemplo, creará una aplicación simple de servidor Blazor que agrega algunos datos y gráficos, y los renderiza en imágenes para mostrar en la página web. Durante el proceso de creación del proyecto, puede configurar opciones según sus propias necesidades. Por ejemplo, al marcar la opción "Habilitar Docker", la aplicación Blazor puede construirse y ejecutarse en Docker.
 
-Usemos la herramienta VS2022 como ejemplo para crear la primera aplicación Blazor con Aspose.Cells, siga los pasos a continuación:
-1. Seleccione Archivo ->Nuevo ->Proyecto y filtre usando la palabra clave blazer para seleccionar la plantilla de proyecto correspondiente.
+### Crear Aplicación de Servidor Blazor
+
+Utilicemos la herramienta VS2022 como ejemplo para crear la primera aplicación Blazor con Aspose.Cells, siga los pasos a continuación:
+1. Seleccione Archivo -> Nuevo -> Proyecto y filtre usando la palabra clave de blazor para seleccionar la plantilla de proyecto correspondiente.
 <br>
 <img src="1.png" width=70% />
 1. Establezca el nombre del proyecto en "BlazorTest" y seleccione la ruta.
 <br>
 <img src="2.png" width=70% />
-1. Configure las bibliotecas y otras opciones utilizadas en el proyecto. Finalmente, haz clic en el botón "Crear" para generar tu primer proyecto blazer.
+1. Configure las bibliotecas y otras opciones utilizadas en el proyecto. Finalmente, haga clic en el botón "Crear" para generar su primer proyecto blazer.
 <br>
 <img src="3.png" width=70% />
-1. Después de ingresar al proyecto, haga clic en "Dependencias" debajo del proyecto y seleccione "Administrar paquetes NuGet ..." para agregar la biblioteca Aspose.Cells.
+1. Después de ingresar al proyecto, haga clic en "Dependencias" en el proyecto y seleccione "Administrar Paquetes NuGet..." para agregar la biblioteca Aspose.Cells.
 <br>
 <img src="4.png" width=70% />
-1. Ingrese palabras clave para filtrar e instalar la última biblioteca Aspose.Cells. Al mismo tiempo, también se instalarán bibliotecas dependientes, como SkiaSharp.
+1. Ingrese palabras clave para filtrar e instale la última biblioteca de Aspose.Cells. Al mismo tiempo se instalarán bibliotecas dependientes como SkiaSharp juntas.
 <br>
 <img src="5.png" width=70% />
-1. Haga doble clic en el archivo "Index.razor" para editar e importar la biblioteca requerida. Agregue algunos datos y gráficos y conviértalos en gráficos para su visualización.
+1. Haga doble clic en el archivo "Index.razor" para editar e importar la biblioteca requerida. Agregue algunos datos y gráficos, y renderícelos en gráficos para mostrarlos.
 <br>
 <img src="5.png" width=70% />
-1. Compile y ejecute el proyecto y obtendrá los siguientes resultados.
+1. Compile y ejecute el proyecto, y obtendrá los siguientes resultados.
 <br>
 <img src="7.png" width=70% />
 
-###  Código de muestra en la primera aplicación Blazor
+### Código de Ejemplo en Aplicación de Servidor Blazor
 
-El siguiente código de muestra se incluye en el archivo Index.razor:
+El siguiente código de ejemplo está incluido en el archivo Index.razor:
 ```
 @page "/"
 @using SkiaSharp;

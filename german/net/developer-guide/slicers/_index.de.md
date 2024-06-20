@@ -1,37 +1,38 @@
-﻿---
-title: Datenschnitt einfügen
+---
+title: Slicer einfügen
 linktitle: Slicer
 type: docs
 weight: 170
 url: /de/net/create-slicer/
-description: Verwalten Sie Slicer von Excel-Dateien mit Aspose.Cells.
+description: Verwalten von Slicern von Excel Dateien mit Aspose.Cells.
 ---
-## **Mögliche Nutzungsszenarien**
 
- Ein Slicer wird verwendet, um Daten schnell zu filtern. Es kann verwendet werden, um Daten sowohl in einer Tabelle als auch in einer Pivot-Tabelle zu filtern. Microsoft Mit Excel können Sie Slicer erstellen, indem Sie eine Tabelle oder Pivot-Tabelle auswählen und dann auf klicken*Einfügen > Slicer*. Aspose.Cells ermöglicht es Ihnen auch, Slicer mit dem zu erstellen[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index)Methode.
+## **Mögliche Verwendungsszenarien**
 
-## **Slicer zu einer Pivot-Tabelle erstellen**
+Ein Schnellsucher wird verwendet, um Daten schnell zu filtern. Er kann verwendet werden, um Daten sowohl in einer Tabelle als auch in einem Pivot-Table zu filtern. Microsoft Excel ermöglicht es Ihnen, eine Schnellsuche zu erstellen, indem Sie eine Tabelle oder ein Pivot-Table auswählen und dann auf *Einfügen > Schnellsuche* klicken. Auch Aspose.Cells ermöglicht es Ihnen, eine Schnellsuche mit der Methode [**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index) zu erstellen.
 
- Bitte sehen Sie sich den folgenden Beispielcode an. Es lädt die[Beispiel-Excel-Datei](67338470.xlsx) die die Pivot-Tabelle enthält. Anschließend erstellt es den Slicer basierend auf dem ersten Basis-Pivot-Feld. Schließlich speichert es die Arbeitsmappe in[Ausgang XLSX](67338471.xlsx) und[Ausgang XLSB](67338472.xlsb) Format. Der folgende Screenshot zeigt den von Aspose.Cells erstellten Slicer in der Excel-Ausgabedatei.
+## **Erstellen Sie ein Schneidwerkzeug zu einem Pivot-Table**
 
-![todo: Bild_alt_Text](create-slicer-to-a-pivot-table_1.png)
+Bitte beachten Sie den folgenden Beispielcode. Es lädt die [Beispieldatei Excel](67338470.xlsx), die das Pivot-Table enthält. Anschließend wird der Slicer basierend auf dem ersten Basis-Pivot-Feld erstellt. Schließlich speichert es die Arbeitsmappe im Format [output XLSX](67338471.xlsx) und [output XLSB](67338472.xlsb). Der folgende Screenshot zeigt den von Aspose.Cells in der Ausgabe-Excel-Datei erstellten Slicer.
+
+![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
 
 ### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-CreateSlicerToPivotTable.cs" >}}
 
-## **Slicer in Excel-Tabelle erstellen**
+## **Erstellen Sie ein Schneidwerkzeug zu Excel-Tabelle**
 
- Bitte sehen Sie sich den folgenden Beispielcode an. Es lädt die[Beispiel-Excel-Datei](sampleCreateSlicerToExcelTable.xlsx) die eine Tabelle enthält. Anschließend wird der Datenschnitt basierend auf der ersten Spalte erstellt. Schließlich speichert es die Arbeitsmappe in[Ausgang XLSX](outputCreateSlicerToExcelTable.xlsx) Format.
+Bitte beachten Sie den folgenden Beispielcode. Es lädt die [Beispieldatei Excel](sampleCreateSlicerToExcelTable.xlsx), die eine Tabelle enthält. Anschließend wird der Slicer basierend auf der ersten Spalte erstellt. Schließlich speichert es die Arbeitsmappe im Format [output XLSX](outputCreateSlicerToExcelTable.xlsx).
 
 ### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.cs" >}}
 
-## **Themen vorantreiben**
+## **Erweiterte Themen**
 - [Slicer-Eigenschaften ändern](/cells/de/net/change-slicer-properties/)
-- [Slicer zeichnen, während Excel auf PDF gerendert wird](/cells/de/net/draw-slicer-while-rendering-excel-to-pdf/)
-- [Slicer formatieren](/cells/de/net/formatting-slicer/)
+- [Slicer zeichnen beim Rendern von Excel zu PDF](/cells/de/net/draw-slicer-while-rendering-excel-to-pdf/)
+- [Formatierung Schneidwerkzeug](/cells/de/net/formatting-slicer/)
 - [Slicer entfernen](/cells/de/net/removing-slicer/)
-- [Rendering-Slicer](/cells/de/net/rendering-slicer/)
+- [Slicer rendern](/cells/de/net/rendering-slicer/)
 - [Slicer aktualisieren](/cells/de/net/updating-slicer/)

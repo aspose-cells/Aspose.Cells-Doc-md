@@ -1,15 +1,16 @@
-﻿---
-title: Heben Sie den Schutz eines Arbeitsblatts in Ruby auf
+---
+title: Ein Arbeitsblatt in Ruby entriegeln
 type: docs
 weight: 20
 url: /de/java/unprotect-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells – Schutz eines Arbeitsblatts aufheben**
- Arbeitsblatt mit schützen**Aspose.Cells Java für Rubin** , Anruf**unprotect_worksheet** Methode von**Schutz** Modul.
+
+## **Aspose.Cells - Ein Arbeitsblatt entschützen**
+Um ein Arbeitsblatt mit **Aspose.Cells Java for Ruby** zu entriegeln, rufen Sie die Methode **unprotect_worksheet** des Moduls **protection** auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def unprotect_worksheet()
 
@@ -54,7 +55,7 @@ url: /de/java/unprotect-a-worksheet-in-ruby/
 end   
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Schutz eines Arbeitsblatts aufheben (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Unprotect a Worksheet (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

@@ -1,18 +1,19 @@
-﻿---
-title: Excel を PDF にレンダリングする際のエラーを無視する
+---
+title: Excel を PDF にレンダリングする際のエラーを無視
 type: docs
 weight: 80
 url: /ja/net/ignore-errors-while-rendering-excel-to-pdf/
 ---
-## **考えられる使用シナリオ**
 
- Excel ファイルを PDF に変換すると、エラーまたは例外が発生し、変換プロセスが終了することがあります。を使用して、変換プロセス中にそのようなエラーをすべて無視できます。[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/ignoreerror)財産。このようにして、変換プロセスはエラーや例外をスローすることなくスムーズに完了しますが、データが失われる可能性があります。したがって、データの損失が重大でない場合にのみ、このプロパティを使用してください。
+## **可能な使用シナリオ**
 
-## **Excel を PDF にレンダリングする際のエラーを無視する**
+ExcelファイルをPDFに変換する際に、エラーや例外が発生して変換プロセスが終了することがあります。[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/ignoreerror)プロパティを使用して変換中のすべてのエラーを無視することができます。これにより、変換プロセスはエラーや例外をスローすることなくスムーズに完了しますが、データの損失が発生する可能性があります。したがって、データの損失が重要でない場合にのみこのプロパティを使用してください。
 
-次のコードは、[サンプル Excel ファイル](55541778.xlsx)しかし、サンプルの Excel ファイルには誤りがあり、実行中にエラーがスローされます。[PDFに変換](55541779.pdf) 17.11では使用していますが、使用しているため[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/ignoreerror)プロパティ、それはエラーをスローしません。ただし、1*丸い赤い矢印のような形*このスクリーンショットに示すように失われます。
+## **Excel を PDF にレンダリングする際のエラーを無視**
 
-![todo:画像_代替_文章](ignore-errors-while-rendering-excel-to-pdf_1.png)
+次のコードは、[サンプルExcelファイル](55541778.xlsx)を読み込みますが、サンプルExcelファイルにエラーがあり、17.11で[PDFに変換](55541779.pdf)する際にエラーが発生しますが、[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/ignoreerror)プロパティを使用しているため、エラーは発生しません。ただし、このスクリーンショットに表示されているように、1つの*赤い矢印のような形*が失われます。
+
+![todo:image_alt_text](ignore-errors-while-rendering-excel-to-pdf_1.png)
 
 ## **サンプルコード**
 

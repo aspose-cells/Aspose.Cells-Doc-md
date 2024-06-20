@@ -1,20 +1,21 @@
-﻿---
-title: StreamProvider を使用して Html を Excel に読み込む
+---
+title: StreamProviderを使用してHTMLをExcelにロード
 type: docs
 weight: 80
 url: /ja/java/convert-html-to-excel-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-外部リソースを含む html をロードすると、次の 2 つの問題に直面することがよくあります。
-1. html ストリームがロードされると、html ファイルによって参照される画像および外部リソースは、相対パスを介して取得できません。
-1. html ファイルで参照される外部リソース パスをマップする必要があります。
+外部リソースを含むHTMLをロードする際、通常次の2つの問題に直面します。
+1. HTMLファイルで参照される画像や外部リソースが相対パスで取得できない。
+1. HTMLファイルで参照される外部リソースのパスをマップする必要があります。
 
-この記事では、実装方法について説明します[**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)を設定するためのインターフェース[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)財産。このインターフェイスを実装することにより、Html ストリームの読み込み中に外部リソースを読み込むことができます。または、これらの外部リソースは相対的です。
+この記事では、[**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)プロパティの設定に関する[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)インターフェースの実装方法について説明します。このインターフェースを実装することで、HTMLストリームの読み込み中に外部リソースをロードすることができます。または、これらの外部リソースは相対的であることができます。
 
 {{% /alert %}} 
 
-これは、の使用法を示すメイン コードです。[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
+これは、[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)の使用を示すメインコードです
 
 
 

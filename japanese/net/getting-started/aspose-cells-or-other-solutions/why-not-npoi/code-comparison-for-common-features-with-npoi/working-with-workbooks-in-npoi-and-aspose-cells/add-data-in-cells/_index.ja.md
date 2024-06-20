@@ -1,29 +1,31 @@
 ---
-title: Cellsにデータを追加
+title: セルにデータを追加
 type: docs
 weight: 10
 url: /ja/net/add-data-in-cells/
-description: この記事では、Aspose.Cells for .NET API を使用して Cells にデータを追加する方法について説明します。
-keywords: C# Add Data in Cells, C# Insert Data to Worksheet, C# Set Data of Cell.
+description: この記事では、Aspose.Cells for .NET APIsを使用してセルにデータを追加する方法について説明します。
+keywords: C#でセルにデータを追加、C#でワークシートにデータを挿入、C#でセルのデータを設定します。
 ---
-##  **Aspose.Cells for .NET を使用して Cells にデータを追加する方法**
-Aspose.Cells は、Microsoft Excel ファイルを表すクラス Workbook を提供します。 Workbook クラスには、Excel ファイル内の各ワークシートへのアクセスを可能にする WorksheetCollection が含まれています。ワークシートは Worksheet クラスによって表されます。 Worksheet クラスは Cellscollection を提供します。 Cells コレクション内の各項目は、Cell クラスのオブジェクトを表します。
+
+
+## **Aspose.Cells for .NETを使用したセルにデータを追加する方法**
+Aspose.Cellsは、Microsoft Excelファイルを表すWorkbookクラスを提供します。Workbookクラスには、Excelファイル内の各ワークシートにアクセスできるWorksheetCollectionが含まれています。ワークシートはWorksheetクラスで表され、WorksheetクラスにはCellsコレクションがあります。Cellsコレクションの各アイテムは、Cellクラスのオブジェクトを表します。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- //Workbook オブジェクトをインスタンス化する
+ //Instantiating a Workbook object
 
-ワークブック workbook = new Workbook();
+Workbook workbook = new Workbook();
 
-// Excel ファイルに追加されたワークシートにアクセスします
+//Accessing the added worksheet in the Excel file
 
-ワークシート worksheet = workbook.Worksheets[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
 int x = 1;
 
-for (int i = 1; i<= 15; i++)
+for (int i = 1; i <= 15; i++)
 
 {
 
@@ -41,22 +43,22 @@ workbook.Save("test.xlsx");
 
 
 {{< /highlight >}}
-##  **NPOI HSSF XSSF - Cells にデータを追加**
-NPOI では、 row.createCell(1).setCellValue を使用してセルにデータを追加できます。
+## **NPOI HSSF XSSF - セルにデータを追加する**
+NPOIでは、row.createCell(1).setCellValueを使用してセルにデータを追加することができます。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- IWorkbook ワークブック = new XSSFWorkbook();
+ IWorkbook workbook = new XSSFWorkbook();
 
-ISheetsheet1 = workbook.CreateSheet("Sheet1");
+ISheet sheet1 = workbook.CreateSheet("Sheet1");
 
-sheet1.CreateRow(0).CreateCell(0).SetCellValue("これはサンプルです");
+sheet1.CreateRow(0).CreateCell(0).SetCellValue("This is a Sample");
 
 int x = 1;
 
-for (int i = 1; i<= 15; i++)
+for (int i = 1; i <= 15; i++)
 
 {
 
@@ -79,13 +81,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-##  **実行コードをダウンロード**
-ダウンロード**Cellsにデータを追加**以下に挙げるソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから、**セルにデータを追加する**をダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Add.Data.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次のサイトをご覧ください。[Cellsにデータを追加する](/cells/ja/net/add-data-in-cells/).
+詳細は[セルにデータを追加する](/cells/ja/net/add-data-in-cells/)を参照してください。
 
 {{% /alert %}}

@@ -1,13 +1,14 @@
-﻿---
-title: Spalten automatisch in Arbeitsblatt einpassen
+---
+title: Spalten im Arbeitsblatt automatisch anpassen
 type: docs
 weight: 30
 url: /de/net/auto-fit-columns-in-worksheet/
 ---
-## **Aspose.Cells – Spalten automatisch in Arbeitsblatt einpassen**
+
+## **Aspose.Cells - Automatisches Anpassen von Spalten im Arbeitsblatt**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -48,10 +49,10 @@ worksheet.AutoFitColumn(3);
 workbook.Save("AutoFiltRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Spalten automatisch in Arbeitsblatt einpassen**
+## **NPOI - HSSF XSSF - Automatisches Anpassen von Spalten im Arbeitsblatt**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -78,13 +79,13 @@ hssfworkbook.Write(file);
 file.Close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Spalte automatisch anpassen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie das **Auto Fit Column** von einer der unten genannten sozialen Codeseiten herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Arbeiten mit Arbeitsblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Für weitere Details besuchen Sie [Arbeiten mit Tabellenblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

@@ -1,38 +1,39 @@
-﻿---
-title: ワークシートの背景画像を設定する
+---
+title: ワークシートの背景画像の設定
 type: docs
 weight: 90
 url: /ja/net/set-background-picture-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-背景画像は、スプレッドシートのテキストと行の後ろにあります。これらは、たとえばステータスの透かしとして使用される場合など、ワークブックに関する情報を提供するために使用されますが、会社のブランディングや装飾を追加することもできます。 Microsoft Excel では、ユーザーが背景画像を手動で追加できます。
+背景画像は、スプレッドシートのテキストと行の背後に配置されます。ステータスウォーターマークとして使用されたり、企業ブランディングや装飾などの情報を提供するために使用されます。Microsoft Excel では、ユーザーは手動で背景画像を追加できます。
 
-開発者は、Aspose.Cells for .NET または VSTO を使用して、アプリケーションから背景画像を追加することもできます。この記事では、2 つのアプローチを比較します。
+開発者は、Aspose.Cells for .NET または VSTO を使用してアプリケーションを介して背景画像を追加することもできます。この記事はこれら2つの方法を比較します。
 
 {{% /alert %}}
 
-## **ワークシートに背景画像を設定する**
+## **ワークシートに背景画像を適用するには:**
 
-背景画像をスプレッドシートに適用するには:
+スプレッドシートに背景画像を適用するには:
 
 1. ワークブックを作成し、背景画像を適用するシートにアクセスします。
 1. 背景画像を適用します。
-1. ブックを保存します。
+1. ワークブックを保存します。
 
-以下のコード サンプルは、最初にこれを行う方法を示しています。[VSTO](/cells/ja/net/set-background-picture-of-a-worksheet/) 、C# または Visual Basic を使用し、次に[Aspose.Cells for .NET](/cells/ja/net/set-background-picture-of-a-worksheet/)、再び C# または Visual Basic を使用します。
+次に示すコード例は、まず[C#](/cells/ja/net/set-background-picture-of-a-worksheet/)またはVisual Basicを使用して[VSTO](/cells/ja/net/set-background-picture-of-a-worksheet/)で行う方法、そして再び[C#](/cells/ja/net/set-background-picture-of-a-worksheet/)またはVisual Basicを使用して[Aspose.Cells for .NET](/cells/ja/net/set-background-picture-of-a-worksheet/)で行う方法を示しています。
 
-この記事のコード例では、下のスクリーンショットのように、背景画像が繰り返されるワークシートを作成します。
+この記事のコード例では、スクリーンショット下に示すように、繰り返しの背景画像を含むワークシートを作成します。
 
-**ワークシートの背景が設定されました。**
+**ワークシートに背景が設定されました。**
 
-![todo:画像_代替_文章](set-background-picture-of-a-worksheet_1.png)
+![todo:image_alt_text](set-background-picture-of-a-worksheet_1.png)
 
-### **VSTO で背景画像を設定する**
+### **VSTOを使用して背景画像を設定**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -76,11 +77,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Aspose.Cells for .NET で背景画像を設定する**
+### **Aspose.Cells for .NETを使用して背景画像を設定**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -108,7 +109,7 @@ FileStream fs = File.OpenRead(ImageUrl);
 
 //Define a byte array.
 
-byte[]imageData = new Byte[fs.Length];
+byte[] imageData = new Byte[fs.Length];
 
 //Obtain the picture into the array of bytes from streams.
 

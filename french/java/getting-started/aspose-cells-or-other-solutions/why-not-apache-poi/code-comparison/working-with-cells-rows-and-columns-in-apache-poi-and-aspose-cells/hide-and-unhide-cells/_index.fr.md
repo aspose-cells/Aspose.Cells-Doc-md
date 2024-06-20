@@ -1,15 +1,16 @@
-﻿---
-title: Masquer et afficher Cells
+---
+title: Hide and Unhide Cells
 type: docs
 weight: 30
 url: /fr/java/hide-and-unhide-cells/
 ---
-## **Aspose.Cells - Masquer et afficher les lignes et les colonnes**
-Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe. La classe Worksheet fournit une collection Cells qui représente toutes les cellules de la feuille de calcul. La collection Cells propose plusieurs méthodes de gestion des lignes ou des colonnes dans une feuille de calcul.
+
+## **Aspose.Cells - Masquer et afficher des lignes et des colonnes**
+Aspose.Cells fournit une classe, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), qui représente un fichier Microsoft Excel. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par la classe [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). La classe Worksheet fournit une collection de Cells qui représente toutes les cellules de la feuille de calcul. La collection de Cells fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul. 
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook("workbook.xls");
 
@@ -24,12 +25,12 @@ cells.hideRow(2); //Hiding the 3rd row of the worksheet
 cells.hideColumn(1); //Hiding the 2nd column of the worksheet
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Masquer / Afficher Cells**
+## **Apache POI SS - HSSF XSSF - Masquer / Afficher des cellules**
 Pour masquer une ligne ou une colonne, Apache POI SS fournit la méthode Row.setZeroHeight(boolean).
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  InputStream inStream = new FileInputStream("workbook.xls");
 
@@ -42,13 +43,13 @@ Row row = sheet.createRow(0);
 row.setZeroHeight(true);
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/hideunhidecells)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Masquer et afficher des lignes et des colonnes](/java/hiding-and-showing-rows-and-columns).
+Pour plus de détails, visitez [Masquer et afficher des lignes et des colonnes](/java/hiding-and-showing-rows-and-columns).
 
 {{% /alert %}}

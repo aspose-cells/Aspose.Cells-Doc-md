@@ -1,18 +1,19 @@
-﻿---
-title: Form Denetimine Makro Ata
+---
+title: Form Kontrolüne Makro Atama
 type: docs
 weight: 60
 url: /tr/net/assign-macro-to-form-control/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells, bir Form Kontrolüne Düğme gibi bir Makro Kodu atamanıza izin verir. lütfen[**Şekil.MarcoAdı**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname) çalışma kitabı içindeki bir Form Denetimine yeni bir Makro Kodu atama özelliği.
+Aspose.Cells, Düğme gibi Bir Form Kontrolüne bir Makro Kodu atamanıza izin verir. Lütfen çalışma kitabının içindeki Form Kontrolüne yeni bir Makro Kodu atamak için [**Shape.MarcoName**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname) özelliğini kullanın.
 
 {{% /alert %}}
 
-Aşağıdaki örnek kod, yeni bir çalışma kitabı oluşturur, bir Form Düğmesine Makro Kodu atar ve çıktıyı XLSM biçiminde kaydeder. Bir kez, XLSM çıktı dosyasını Microsoft Excel'de açacaksınız, aşağıdaki makro kodunu göreceksiniz.
+Aşağıdaki örnek kod, yeni bir çalışma kitabı oluşturur, Form Düğmesine bir Makro Kodu atar ve çıktıyı XLSM biçiminde kaydeder. Çıktı XLSM dosyasını Microsoft Excel'de açtığınızda aşağıdaki makro kodunu göreceksiniz.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -22,8 +23,8 @@ End Sub
 
 {{< /highlight >}}
 
-## **C#'de Form Kontrolüne Makro Ata**
+## **C# Form Kontrolüne Makro Atama**
 
-İşte Makro Kodu ile XLSM çıktı dosyasını oluşturmak için örnek kod.
+Çıktı XLSM dosyasını Makro Kodu ile oluşturmak için örnek kod burada.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}

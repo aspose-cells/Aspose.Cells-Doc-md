@@ -1,15 +1,16 @@
-﻿---
-title: Birleştirme Cells
+---
+title: Hücreleri Birleştir
 type: docs
 weight: 60
 url: /tr/java/merge-cells/
 ---
-## **Aspose.Cells - Birleştir Cells**
-Cells sınıfı, görev için bazı yararlı yöntemlere sahiptir. Örneğin, birleştirme yöntemi, hücreleri belirli bir hücre aralığındaki tek bir hücrede birleştirir.
+
+## **Aspose.Cells - Hücreleri Birleştir**
+Cells sınıfı görev için bazı kullanışlı yöntemlere sahiptir. Örneğin, birleştir yöntemi hücreleri belirtilen hücre aralığında tek bir hücreye birleştirir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a Workbook.
 
@@ -36,12 +37,12 @@ worksheet.getCells().get(5,2).setValue("This is a test of merging");
 wbk.save(dataDir + "merge_Aspose.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Birleştirme Cells**
-Sheet.addMergedRegion, Cells'i Birleştirmek için kullanılabilir.
+## **Apache POI SS - HSSF XSSF - Hücreleri Birleştirme**
+Sheet.addMergedRegion, Hücreleri Birleştirmek için kullanılabilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -68,11 +69,11 @@ sheet.addMergedRegion(new CellRangeAddress(
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/mergecells)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Birleştirme ve Ayrılma (Bölme) Cells](/cells/tr/java/merging-and-unmerging-cells).
+Daha fazla bilgi için [Hücreleri Birleştirme ve Ayırma (Bölme)](/cells/tr/java/merging-and-unmerging-cells) ziyaret edin.
 
 {{% /alert %}}

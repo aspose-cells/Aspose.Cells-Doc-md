@@ -1,17 +1,18 @@
-﻿---
+---
 title: Druckbereich festlegen
 type: docs
 weight: 40
 url: /de/java/set-print-area/
 ---
-## **Aspose.Cells - Druckbereich festlegen**
-Standardmäßig enthält nur der Druckbereich alle Bereiche des Arbeitsblatts, die Daten enthalten. Entwickler können einen bestimmten Druckbereich des Arbeitsblatts festlegen.
 
-Um einen bestimmten Druckbereich auszuwählen, verwenden Sie die[Seiteneinrichtung](/java/pagesetup)setPrintArea-Methode der Klasse. Weisen Sie dieser Eigenschaft einen Zellbereich zu, der den Druckbereich definiert.
+## **Aspose.Cells - Druckbereich festlegen**
+Standardmäßig umfasst nur der Druckbereich alle Bereiche des Arbeitsblatts, die Daten enthalten. Entwickler können einen spezifischen Druckbereich des Arbeitsblatts festlegen.
+
+Um einen bestimmten Druckbereich auszuwählen, verwenden Sie die Methode setPrintArea der Klasse [PageSetup](/java/pagesetup). Weisen Sie dieser Eigenschaft einen Zellenbereich zu, der den Druckbereich definiert.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -33,11 +34,11 @@ pageSetup.setPrintArea("A1:F20");
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - Druckbereich festlegen**
-Die Workbook.setPrintArea-Methode ist verfügbar, um die Seiteneigenschaften des Druckbereichs festzulegen.
+Die Methode Workbook.setPrintArea ist verfügbar, um Seiteneigenschaften des Druckbereichs festzulegen.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.setPrintArea(
 );
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/setprintarea)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Druckoptionen einstellen](/cells/de/java/page-setup-features/#setting-print-options).
+Für weitere Details besuchen Sie [Einstellen von Druckoptionen](/cells/de/java/page-setup-features/#setting-print-options).
 
 {{% /alert %}}

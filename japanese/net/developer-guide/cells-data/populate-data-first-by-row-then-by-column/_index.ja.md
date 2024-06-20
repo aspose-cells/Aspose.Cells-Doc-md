@@ -1,18 +1,19 @@
 ---
-title: 最初に行ごとにデータを入力し、次に列ごとにデータを入力します
+title: 最初に行、次に列ごとにデータを埋めます
 type: docs
 weight: 1000
 url: /ja/net/populate-data-first-by-row-then-by-column/
-description: 最初に行ごとにデータを入力し、次に Aspose.Cells for .NET API を通じて列ごとにデータを入力する方法を学びます。
-keywords: Populate Data First by Row then by Column, Insert Data First by Row then by Column, Add Data First by Row then by Column, High performance data insertion, High performance data addition
+description: Aspose.Cells for .NET APIを介して、行ごとにデータを最初に入力し、次に列ごとにデータを埋める方法について学びます。
+keywords: 行ごとにデータを最初に入力し、次に列ごとにデータを挿入し、行ごとにデータを最初に追加し、高速データ挿入、高速データ追加
 ---
+
 {{% alert color="primary" %}} 
 
-スプレッドシートに最初に行ごとにデータを入力し、次に列ごとにデータを入力すると、全体的なパフォーマンスが向上します。
+スプレッドシートにデータを最初に行ごと、次に列ごとに埋めると、全体のパフォーマンスが向上します。
 
 {{% /alert %}} 
 
-データを A1、B1、A2、B2 の順序で配置する方が、A1、A2、B1、B2 よりも高速です。ワークシート内に多数のセルがあり、2 番目のシーケンスに従う場合、つまりデータを行ごとに入力する場合、このヒントによりプログラムを大幅に高速化できます。
+A1、B1、A2、B2の順にデータを入れることは、A1、A2、B1、B2の順よりも速くなります。ワークシートに多くのセルがある場合、データを行ごとに入力する場合、このヒントはプログラムをはるかに高速化できます。
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dilimleyiciler
 type: docs
 weight: 180

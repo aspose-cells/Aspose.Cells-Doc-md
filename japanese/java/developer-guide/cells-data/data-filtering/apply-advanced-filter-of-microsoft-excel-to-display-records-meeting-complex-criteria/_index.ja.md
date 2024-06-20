@@ -1,38 +1,39 @@
-﻿---
-title: Microsoft Excel の高度なフィルターを適用して、複雑な基準を満たすレコードを表示する
+---
+title: 複雑な基準を満たすレコードを表示するためにMicrosoft Excelの高度なフィルタを適用する方法
 type: docs
 weight: 190
 url: /ja/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
 ---
-## **考えられる使用シナリオ**
-Microsoft エクセルで申し込めます*高度なフィルター*複雑な基準を満たすレコードを表示するには、ワークシート データを使用します。高度なフィルターを Microsoft Excel で適用できます。*データ > 詳細*このスクリーンショットに示すようにコマンドを実行します。
 
-![todo:画像_代替_文章](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
+## **可能な使用シナリオ**
+Microsoft Excelでは、ワークシートデータに*高度なフィルタ*を適用して複雑な基準を満たすレコードを表示できます。このスクリーンショットに示すように、Microsoft Excelでは*データ > 高度なフィルタ*のコマンドを使用して高度なフィルタを適用できます。
 
-Aspose.Cells を使用して高度なフィルターを適用することもできます[Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\)） 方法。 Microsoft Excel と同様に、次のパラメーターを受け入れます。
+![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
+
+Aspose.Cellsを使用すると、[Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\))メソッドを使用して高度なフィルタを適用することができます。Microsoft Excelと同様に、このメソッドは以下のパラメータを受け入れます。
 
 **isFilter**
 
-リストを適切にフィルタリングするかどうかを示します。
+リストをその場でフィルタ処理するかどうかを示します。
 
-**リスト範囲**
+**listRange**
 
-リスト範囲。
+リストの範囲。
 
-**基準範囲**
+**criteriaRange**
 
-基準範囲。
+基準の範囲。
 
-**コピー先**
+**copyTo**
 
-データのコピー先の範囲。
+データをコピーする範囲。
 
 **uniqueRecordOnly**
 
-一意の行のみを表示またはコピーします。
-## **Microsoft Excel の高度なフィルターを適用して、複雑な基準を満たすレコードを表示する**
-次のサンプル コードは、高度なフィルタを[サンプル Excel ファイル](48496702.xlsx)を生成し、[出力 Excel ファイル](48496705.xlsx).スクリーンショットは、比較のために両方のファイルを示しています。スクリーンショットでわかるように、データは複雑な条件に従って出力 Excel ファイル内でフィルター処理されています。
+唯一の行を表示またはコピーします。
+## **複雑な基準を満たすレコードを表示するMicrosoft Excelの高度なフィルタの適用**
+次のサンプルコードは、[Sample Excel File](48496702.xlsx) に高度なフィルタを適用し、[Output Excel File](48496705.xlsx) を生成しています。スクリーンショットでは、サンプルExcelファイルと出力Excelファイルを比較したものが表示されています。スクリーンショットの内側を見ると、出力Excelファイル内でデータが複雑な条件に従ってフィルタリングされているのがわかります。
 
-![todo:画像_代替_文章](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
+![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ApplyAdvancedFilterOfMicrosoftExcel.java" >}}

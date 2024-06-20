@@ -1,54 +1,57 @@
-﻿---
-title: إنشاء تقارير Excel منسقة ديناميكيًا باستخدام رسم بياني أنيق
+---
+title: توليد تقارير إكسل المنسقة بشكل ديناميكي مع رسم بياني أنيق
 type: docs
 weight: 130
-url: /ar/net/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+url: /ar/net/aspose-cells-gridweb/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+keywords: GridWeb، إنشاء تقرير، تقرير
+description: يقدم هذا المقال كيفية إنشاء تقرير في GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-تم تصميم هذا المستند لتوفير المعلومات الضرورية حول كيفية استخلاص البيانات من بعض مصادر البيانات إلى شبكة رائعة مثل التحكم ، ولصق مخطط فيها وتصدير التقرير مع الرسم البياني إلى MS Excel لإجراء التحليل والمقارنات والطباعة.
+تم تصميم هذا المستند لتقديم المعلومات اللازمة حول كيفية استخراج البيانات من بعض مصادر البيانات إلى شبكة رائعة مثل لوحة التحكم ، لصق رسم بياني فيها وتصدير التقرير مع الرسم البياني إلى MS Excel لإجراء التحليل والمقارنات والطباعة.
 
 {{% /alert %}} 
-## **ملخص**
-هناك سيناريوهات معينة على الويب تتطلب كلاً من إعداد التقارير والعروض التقديمية ، وهي مجموعة من الأجزاء أو العناصر التي يمكن أن تعمل معًا بشكل جيد. تشرح المقالة مدى سهولة تصميم وإنشاء تقارير Excel أنيقة ديناميكيًا بطريقة WYSIWYG. يقوم بتصدير البيانات من ملف XML (يمكنك أيضًا استخدام مصادر بيانات أخرى) إلى التحكم Aspose.Cells.GridWeb الذي يوفر لك البيئة الحقيقية التي تسمح لك بتطبيق تنسيق غني وجذاب على البيانات وحساب نتائج الصيغة مثل MS Excel. كما أنه ينشئ مخططًا معقدًا استنادًا إلى استخدام بيانات مصدر ورقة العمل[Aspose.Cells](https://products.aspose.com/cells/) المكون ولصق صورة المخطط في تقرير المبيعات. أخيرًا ، يتم حفظ تقرير Excel مع الرسم البياني المرفق على القرص باستخدام مكون Aspose.Cells.
+## **نظرة عامة**
+هناك سيناريوهات ويب معينة تتطلب كل من التقارير والعروض التقديمية ، مزيج من الأجزاء أو الكائنات التي يمكن أن تعمل معًا بشكل جيد. يشرح المقال كم من السهل تصميم وإنشاء تقارير إكسل أنيقة بشكل ديناميكي بطريقة وضوح المخرج. يقوم بتصدير البيانات من ملف XML (يمكنك أيضًا استخدام مصادر بيانات أخرى) إلى عنصر تحكم Aspose.Cells.GridWeb الذي يوفر لك البيئة الحقيقية التي تتيح لك تطبيق تنسيق غني وجذاب على البيانات وحساب النتائج المتعلقة بالصيغة مثل MS Excel. كما يقوم بإنشاء رسم بياني معقد استنادًا إلى بيانات مصدر صفحة العمل باستخدام [Aspose.Cells](https://products.aspose.com/cells/) ويرقق صورة الرسم البياني في تقرير المبيعات. في النهاية ، يتم حفظ التقرير إكسل مع الرسم البياني المرفق إلى القرص باستخدام عنصر تحكم Aspose.Cells.
 
-تتضمن هذه المقالة الكود المصدري والمشروع التجريبي المميز بالكامل لمثل هذه الوظيفة.
+يتضمن هذا المقال رمز المصدر ومشروع العرض التوضيحي بالكامل لمثل هذه الوظيفة.
 
-يتيح للمستخدمين الذين لديهم تصور مفصل حول كيفية إنشاء تقرير أعمال لإدخال البيانات في ورقة عمل للشبكة وتطبيق بعض التنسيقات على الخلايا في الصفوف والأعمدة ، وتضمين رسمًا بيانيًا استنادًا إلى نطاق مصدر البيانات قبل حفظ اكسل تقرير الى القرص.
+يتيح للمستخدمين إدراك مفصل حول كيفية إنشاء تقرير تجاري لإدخال البيانات في صفحة عمل الشبكة وتطبيق بعض التنسيق على الخلايا في الصفوف والأعمدة ، تضمين رسم بياني استنادًا إلى نطاق البيانات المصدرية قبل حفظ تقرير إكسل على القرص.
 ## **مكونات Aspose**
- أستخدم ثلاثة من[Aspose](http://www.aspose.com/) مكونات لأداء المهمة بسهولة.[Aspose](http://www.aspose.com/) يوفر الناشر المكون من .NET و Java مجموعة متنوعة من المكونات الغنية بالميزات.[Aspose](http://www.aspose.com/) يوفر خطًا رائعًا من مكونات .NET و Java. يحظى بثقة الآلاف من العملاء في جميع أنحاء العالم ، وتشمل المنتجات مكونات تنسيق الملف ومنتجات التقارير والمكونات المرئية ومكونات الأدوات التي تسمح بفتح وتعديل وإنشاء وحفظ ودمج وتحويل وما إلى ذلك من المستندات بتنسيقات مختلفة بما في ذلك DOC و RTF و WordML و HTML، PDF، XLS، SpreadsheetML، Tab Delimited، CSV، PPT، SWF، EMF، WMF، MPX، MPD وتنسيقات أخرى.
+أستخدم ثلاثة من [أسبوس](http://www.aspose.com/)‘s المكونات لأداء المهمة بسهولة. [أسبوس](http://www.aspose.com/) ، الناشر المكونات .NET وجافا ، يوفر مجموعة متنوعة من المكونات ثرية الميزات. [أسبوس](http://www.aspose.com/) يوفر مجموعة كبيرة من المكونات .NET وجافا. يثق الآلاف من العملاء في جميع أنحاء العالم في المنتجات التي تشمل مكونات تنسيق الملفات ، منتجات التقارير ، ومكونات الرؤية ومكونات الأدوات التي تسمح بفتح الوثائق ، تعديلها ، إنشاؤها ، حفظها ، دمجها ، تحويلها إلى الخ وثائق في مختلف الأشكال بما في ذلك DOC ، RTF ، WordML ، HTML ، PDF ، XLS ، SpreadsheetML ، محددة بعلامة تبويب ، CSV ، PPT ، SWF ، EMF ، WMF ، MPX ، MPD وأشكال أخرى.
 
-أود أن أغتنم هذه الفرصة لأقدم لكم ثلاثة من هذه المكونات التي تم استخدامها في هذا المسعى.
-## **Aspose.Cells ضوابط الشبكة**
- Aspose.Cells تعتبر ضوابط الشبكة حلاً شاملاً للشبكة. تأتي ضوابط الشبكة Aspose.Cells معبأة مع مكونين مختلفين من واجهة المستخدم الرسومية .NET (Aspose.Cells.GridDesktop و Aspose.Cells.GridWeb): أحدهما لدعم تطبيقات سطح المكتب والآخر لدعم تطبيقات الويب. كلا الإصدارين متطابقان بشكل متساوٍ لجعل التنفيذ في أي من النظامين أمرًا سريعًا. Aspose.Cells.GridWeb يوفر القدرة على الاستيراد من جداول بيانات Excel والتصدير إليها. لذلك يمكن لأي شخص على دراية ببرنامج Excel (حتى المستخدمين النهائيين) تصميم شكل ومظهر الشبكة. Aspose.Cells.GridWeb يوفر أيضًا API سهل الاستخدام وغني بالميزات والذي يوفر للمطورين تحكمًا كاملاً في شكل وملمس وسلوك شبكتهم. لمعرفة المزيد عن المنتج وميزاته ودليل المبرمجين ، يرجى مراجعة ملخص قائمة الميزات ، Aspose.Cells.[العروض](https://aspose.github.io/)
+أود أن أستغل هذه الفرصة لتقديم ثلاثة من هذه المكونات إليك التي تم استخدامها في هذه المهمة.
+## **عناصر التحكم Grid Aspose.Cells**
+عناصر التحكم Grid Aspose.Cells هي حلاً شاملاً للشبكة. تأتي عناصر التحكم Grid Aspose.Cells مع عنصري واجهة المستخدم GUI .NET المختلفين (Aspose.Cells.GridDesktop وAspose.Cells.GridWeb): أحدهما لدعم التطبيقات سطح المكتب والآخر لدعم تطبيقات الويب. كلا الإصدارين متطابقين بالتساوي لجعل التنفيذ في أي منصة أمرًا سهلاً. يوفر Aspose.Cells.GridWeb القدرة على الاستيراد من وتصدير إلى جداول بيانات Excel. لذا يمكن لأي شخص ملم بـ Excel (حتى المستخدمون النهائيون) تصميم المظهر والشعور بالشبكة. تقدم Aspose.Cells.GridWeb أيضًا واجهة برمجية سهلة الاستخدام وغنية الميزات توفر للمطورين التحكم الكامل في المظهر والشعور وسلوك شبكتهم. لمعرفة المزيد حول المنتج وميزاته ودليل المبرمجين ، يرجى التحقق من ملخص قائمة الميزات ووثائق Aspose.Cells.GridWeb وعروض الـ[إسعار](https://aspose.github.io/) عبر الإنترنت
 ## **Aspose.Cells**
-**Aspose.Cells**هو أحد مكونات تقارير جداول بيانات Excel التي تمكنك من قراءة جداول بيانات Excel وكتابتها دون استخدام Microsoft Excel ليتم تثبيتها إما على جانب العميل أو الخادم.**Aspose.Cells** هو مكون غني بالميزات يقدم أكثر بكثير من مجرد تصدير أساسي للبيانات. مع**Aspose.Cells** يمكن للمطورين تصدير البيانات وتنسيق جداول البيانات بكل التفاصيل وعلى كل مستوى ، واستيراد الصور ، واستيراد المخططات ، وإنشاء المخططات ، ومعالجة المخططات ، ودفق بيانات Excel ، وحفظها بتنسيقات مختلفة بما في ذلك XLS ، CSV ، SpreadsheetML ، TabDelimited ، TXT ، XML ([Aspose.Pdf](https://products.aspose.com/pdf/) متكامل) وغيرها الكثير.**Aspose.Cells** يقدم وسيلة سهلة الاستخدام وغنية بالميزات**API** للمبرمجين. لديها قائمة كبيرة من الميزات. لمعرفة المزيد عن المنتج ومميزاته وللحصول على دليل المبرمج ، يرجى مراجعة ملخص**قائمة الصور**, **Aspose.Cells التوثيق** وعروض توضيحية مميزة عبر الإنترنت. يمكنك[تحميل](https://downloads.aspose.com/cells) نسخته التقييمية مجانًا.
+**Aspose.Cells** هو مكون تقرير جدول بيانات Excel يتيح لك قراءة وكتابة جداول بيانات Excel دون الحاجة لتثبيت Microsoft Excel سواء على الجانب العميل أو الخادم. **Aspose.Cells** هو مكون غني بالميزات يقدم الكثير أكثر من مجرد تصدير البيانات الأساسية. باستخدام **Aspose.Cells** يمكن للمطورين تصدير البيانات، تنسيق الجداول بكل تفصيل وعلى كل مستوى، استيراد الصور، استيراد الرسوم البيانية، إنشاء رسوم بيانية، تلاعب بالرسوم البيانية، تدفق بيانات Excel، حفظ في تنسيقات متعددة بما في ذلك XLS و CSV وSpreadsheetML وTabDelimited وTXT وXML (مدمج مع [Aspose.Pdf](https://products.aspose.com/pdf/)) والكثير من التنسيقات الأخرى. **Aspose.Cells** يقدم واجهة برمجة تطبيقات سهلة الاستخدام وغنية بالميزات للمبرمجين. يحتوي على قائمة ضخمة من الميزات. لمعرفة المزيد حول المنتج وميزاته ودليل المبرمج، يرجى التحقق من ملخص **قائمة الميزات**، **توثيق Aspose.Cells** وعروض الأدوات عبر الإنترنت. يمكنك [تنزيل](https://downloads.aspose.com/cells) الإصدار التجريبي مجانًا.
 ## **تصميم الواجهة**
-بدأنا في إنشاء تطبيق ويب Asp.Net جديد في Visual Studio.Net.
+نبدأ في إنشاء تطبيق ويب جديد لـ Asp.Net في Visual Studio.Net.
 
- أنا**يضيف مرجعا**إلى المكونات الثلاثة ieAspose.Cells.GridWeb.dll و Aspose.Chart.dll و Aspose.Cells.dll للمشروع أولاً. أضع بعض التحكم في الصفحة وأضع خصائصها ، أي قائمة منسدلة وزر أمر وتسمية. ثم أضع**Aspose.Cells.GridWeb****يتحكم**(**شبكة**) إليها من صندوق الأدوات ، لأنه بعد إضافة مراجع إلى المكونات الثلاثة ، فإن**شبكة**ظهر التحكم في صندوق الأدوات. المكونان الآخران (**Aspose.Chart**و**Aspose.Cells**) هي مجرد مكتبات ، فقط يمكنك الرجوع إلى المشروع.
+أضيف الإشارة إلى ثلاث مكونات، أي Aspose.Cells.GridWeb.dll، Aspose.Chart.dll و Aspose.Cells.dll إلى المشروع أولاً. أضع بعض ال contorl على الصفحة وأضبط خصائصها، أضع مكون Aspose.Cells.GridWeb (GridWeb) عليها من شريط الأدوات. بعد إضافة الإشارات إلى الثلاث مكونات، يظهر مكون GridWeb على شريط الأدوات. المكونان الآخران (Aspose.Chart و Aspose.Cells) هما مكتبات فقط، يتم الإشارة إليهما فقط.
 
-أقوم أيضًا بإنشاء مجلدين "ملف" و "صور" ، وأضف "Products.xml" و "chart.gif" إلى هذين المجلدين على التوالي. ملف xml هو ملف مصدر بيانات يتم استخراج البيانات منه لملء ملف**شبكة**ورقة عمل. سيوفر ملف الصورة صورة لزر مخصص يتم وضعه على ملف**شبكة**يتحكم.
+أنشئ أيضًا مجلدين "file" و "images"، وأضف "Products.xml" و "chart.gif" إلى هذين المجلدين على التوالي. يعد ملف XML ملف مصدر البيانات الذي سيتم استخراج البيانات منه لملء ورقة العمل **GridWeb**. يوفر ملف الصورة صورة لزر مخصص يتم وضعه على مكون **GridWeb**.
 
-أقوم الآن بإنشاء زر أمر مخصص. أنا ببساطة انقر بزر الماوس الأيمن فوق ملف**شبكة**السيطرة وانقر فوق خيار "أزرار الأوامر المخصصة ...".
+الآن، أنشئ زر أمر مخصص. ببساطة أنقر بزر الماوس الأيمن على مكون **GridWeb** وانقر على "أزرار الأوامر المخصصة...".
 
-سيقوم بتنشيط محرر Custom Command Button ، ويسمح لك المحرر بإنشاء أزرار صورة أوامر مخصصة مع إرفاق تلميح أداة. أحدد قيم بعض خصائص الزر ، على سبيل المثال ، الأمر (الاسم) -> "btnChart" ، ImageUrl -> أعط المسار إلى ملف الصورة ("chart.gif") وتلميح الأدوات -> أعط تلميح الأداة.
+سيقوم ذلك بتفعيل محرر الأزرار المخصصة، ويسمح لك المحرر بإنشاء أزرار صور الأوامر المخصصة مع تلميح الأداة المرفق. أحدد القيم لبعض خصائص الزر مثل الأمر (الاسم) -> "btnChart"، ImageUrl -> أعط المسار إلى ملف الصورة ("chart.gif") و ToolTip -> أعط تلميح الأداة.
 
-لذلك ، يتم إضافة زر الأمر المخصص كما قد تراه (محاطًا بدائرة باللون الأحمر) في لقطة الشاشة التالية.
+لذا، تمت إضافة الزر لأمر مخصص كما يمكنك رؤيته (محاط بلون أحمر) في لقطة الشاشة التالية.
 
-|![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
-|:- |
+|![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
+| :- |
 
 
-أخيرًا ، قمت بتعيين بعض سمات الخط (غامقة) للتسمية وزر الأمر. أقوم أيضًا بضبط حجم عناصر التحكم للحصول على المظهر النهائي.
+أخيرًا، أضبط بعض خصائص الخط (سميك) للتسمية والزر الأمر. كما أقوم بضبط حجم العناصر التحكمية للحصول على النظرة النهائية.
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
 ## **استرجاع البيانات من ملف XML**
 فيما يلي هيكل ملف XML المستخدم في المشروع.
-### **بنية ملف XML**
+### **هيكل ملف XML**
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?xml version="1.0" standalone="yes"?>
 
@@ -76,7 +79,7 @@ url: /ar/net/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
 
 {{< /highlight >}}
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -160,7 +163,7 @@ if (!IsPostBack)
 
 //This method is used to filter distinct values from CategoryName field in the datatable.
 
-private object[]GetDistinctValues(DataTable dtable, string colName)
+private object[] GetDistinctValues(DataTable dtable, string colName)
 
 {
 
@@ -193,12 +196,12 @@ private object[]GetDistinctValues(DataTable dtable, string colName)
 }
 
 {{< /highlight >}}
-## **تعبئة ورقة عمل عنصر التحكم Aspose.Cells.GridWeb بالبيانات**
-يمكنني استخدام بعض API من**شبكة**لتعبئة ورقة عمل ببيانات من ملف XML المصدر. أكتب التعليمات البرمجية في معالج حدث النقر فوق زر الأمر (المسمى "إظهار التقرير"). يتم تصفية تقرير البيانات بناءً على العنصر المحدد من القائمة المنسدلة.
+## **ملء ورقة العمل لتحكم Aspose.Cells.GridWeb بالبيانات**
+أستخدم بعض واجهة برمجة التطبيقات لتحكم **GridWeb** لملء ورقة عمل بالبيانات من ملف XML المصدر. أكتب الكود في معالج حدث النقر على زر الأمر (المسمى "إظهار التقرير"). يتم تصفية تقرير البيانات استنادًا إلى العنصر المحدد من قائمة القائمة المنسدلة.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Clears datasheets of the GridWeb control.
 
@@ -231,86 +234,86 @@ dv.RowFilter = "CategoryName ='" + DropDownList1.SelectedItem.Text + "'";
 GridWeb1.WebWorksheets.ImportDataView(dv, null, null,"Products",3,0);
 
 {{< /highlight >}}
-## **تنسيق البيانات في Cells**
-للتمييز بين أنواع المعلومات المختلفة في ورقة العمل ، وللحصول على العرض الأمثل للبيانات الموجودة في ورقة العمل ولجعل ورقة العمل أسهل في المسح الضوئي ، يمكنك تنسيق ورقة العمل. أ**شكل**يمثل نمطًا ويتم تعريفه على أنه مجموعة من الخصائص ، مثل الخطوط وأحجام الخطوط وتنسيقات الأرقام وحدود الخلية وتظليل الخلية بلون الخلفية الخالص أو نمط لون معين والمسافة البادئة والمحاذاة واتجاه النص في الخلايا.
+## **تنسيق البيانات في الخلايا**
+لتمييز بين مختلف أنواع المعلومات على ورقة عمل، لعرض البيانات بشكل أمثل على ورقة العمل وجعلها أسهل في المسح، تقوم بتنسيق الورقة. يمثل **Format** نمطًا ويعرف على أنه مجموعة من الخصائص مثل الخطوط وأحجام الخطوط وتنسيقات الأرقام وحدود الخلية والتظليل بألوان خلفية ثابتة أو نمط لون محدد، المسافة المتقدمة والتوجيه النصي في الخلايا.
 
-أقوم بدمج المزيد من سطور التعليمات البرمجية أعلاه. أضع العنوان / العنوان الفرعي للتقرير ، وأقوم ببعض التنسيقات على خلايا العنوان والعنوان الفرعي والتفاصيل. أقوم أيضًا بتطبيق تنسيق الأرقام على الحقلين (تعيين تنسيق رقم العملة على حقلي سعر الوحدة والبيع) وضبط ارتفاع / عرض الصفوف والأعمدة باستخدام**Aspose.Cells.GridWeb**API.
+أدمج بعض السطور الإضافية من الكود السابق. أضع عنوان / عنوان فرعي للتقرير، وأقوم بتنسيق العنوان والعنوان الفرعي والخلايا التفصيلية. كما أقوم بتطبيق تنسيق الأرقام على الحقول المختلفة (ضبط تنسيق العملة لحقول سعر الوحدة والمبيعات) وضبط ارتفاع/عرض الصفوف والأعمدة باستخدام واجهة برمجة التطبيقات Aspose.Cells.GridWeb.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- // قم بإنشاء خلية العنوان (A1) في الورقة وطبق التنسيقات.
+ //Create the title cell (A1) in the sheet and apply formattings.
 
-// تقوم الأسطر التالية بإدخال قيمة سلسلة إلى الخلية ، وتحديدها
+//The following lines input a string value to the cell, specify
 
-// حجم الخط ، حدد إعدادات المحاذاة الأفقية والعمودية ، اضبط
+//font size, specify horizontal and vertical align settings, set
 
-// ألوان المقدمة والخلفية ودمج الخلايا (A1: E2).
+//foreground and background colors and merge cells (A1:E2).
 
-ورقة WebWorksheet = GridWeb1.WebWorksheets [0] ؛
+WebWorksheet sheet = GridWeb1.WebWorksheets[0];
 
-sheet.Cells ["A1"]. PutValue ("مبيعات المنتج حسب الفئة")؛
+sheet.Cells["A1"].PutValue("Product Sales By Category");
 
-sheet.Cells ["A1"]. Style.Font.Size = new FontUnit ("20pt")؛
+sheet.Cells["A1"].Style.Font.Size = new FontUnit("20pt");
 
-sheet.Cells ["A1"]. Style.HorizontalAlign = HorizontalAlign.Center؛
+sheet.Cells["A1"].Style.HorizontalAlign = HorizontalAlign.Center;
 
-sheet.Cells ["A1"]. Style.VerticalAlign = VerticalAlign.Middle؛
+sheet.Cells["A1"].Style.VerticalAlign = VerticalAlign.Middle;
 
-sheet.Cells ["A1"]. Style.BackColor = Color.SkyBlue؛
+sheet.Cells["A1"].Style.BackColor = Color.SkyBlue;
 
-sheet.Cells ["A1"]. Style.ForeColor = Color.Blue؛
+sheet.Cells["A1"].Style.ForeColor = Color.Blue;
 
-ورقة Cells. دمج (0 ، 0 ، 2 ، 5) ؛
+sheet.Cells.Merge(0, 0, 2, 5);
 
-// أنشئ خلية الترجمة (A3) في الورقة وطبق التنسيقات.
+//Create the subtitle cell (A3) in the sheet and apply formattings.
 
-// تقوم الأسطر التالية بإدخال قيمة سلسلة إلى الخلية ، وتحديدها
+//The following lines input a string value to the cell, specify
 
-// حجم الخط مع السمات ، وتحديد المحاذاة الأفقية والعمودية
+//font size with attributes, specify horizontal and vertical align
 
-// الإعدادات ، قم بتعيين ألوان المقدمة والخلفية ودمج الخلايا
+//settings, set foreground and background colors and merge cells
 
-// (A3: E3).
+//(A3:E3).
 
-sheet.Cells ["A3"]. PutValue (DropDownList1.SelectedItem.Text) ؛
+sheet.Cells["A3"].PutValue(DropDownList1.SelectedItem.Text);
 
-sheet.Cells ["A3"]. Style.Font.Size = new FontUnit ("13pt")؛
+sheet.Cells["A3"].Style.Font.Size = new FontUnit("13pt");
 
-sheet.Cells ["A3"]. Style.Font.Bold = true ؛
+sheet.Cells["A3"].Style.Font.Bold = true;
 
-sheet.Cells ["A3"]. Style.Font.Italic = true ؛
+sheet.Cells["A3"].Style.Font.Italic = true;
 
-sheet.Cells ["A3"]. Style.HorizontalAlign = HorizontalAlign.Left؛
+sheet.Cells["A3"].Style.HorizontalAlign = HorizontalAlign.Left;
 
-sheet.Cells ["A3"]. Style.VerticalAlign = VerticalAlign.Middle؛
+sheet.Cells["A3"].Style.VerticalAlign = VerticalAlign.Middle;
 
-sheet.Cells ["A3"]. Style.BackColor = Color.SeaGreen؛
+sheet.Cells["A3"].Style.BackColor = Color.SeaGreen;
 
-sheet.Cells ["A3"]. Style.ForeColor = Color.Yellow؛
+sheet.Cells["A3"].Style.ForeColor = Color.Yellow;
 
-ورقة Cells. دمج (2 ، 0 ، 1 ، 5) ؛
+sheet.Cells.Merge(2, 0, 1, 5);
 
-// احصل على فهارس الصف والعمود الأخير (التي تحتوي على بيانات).
+//Obtain the last row and column (which contain data) indexes.
 
-int totalrow = ورقة .Cells.MaxRow +1 ؛
+int totalrow = sheet.Cells.MaxRow +1;
 
-int totalcol = ورقة .Cells.MaxColumn ؛
+int totalcol = sheet.Cells.MaxColumn;
 
-// احصل على مجموعات الورقة Cells
+//Get the sheet Cells collections
 
-خلايا WebCells = Sheet.Cells ؛
+WebCells cells = sheet.Cells;
 
-// تحديد كائن Cell.
+//Define the Cell object.
 
-خلية WebCell
+WebCell cell;
 
-// قم بالتكرار خلال البيانات الموجودة في الورقة وقم بتنسيق حقلين باستخدام
+//Loop through the data in the sheet and format two fields with
 
-// نمط رقم العملة.
+//Currency number style.
 
-لـ (int i = 4 ؛ i<=totalrow;i++)
+for (int i = 4;i<=totalrow;i++)
 
 {
 
@@ -363,14 +366,14 @@ cells.SetColumnWidth(4, new Unit("50pt"));
 
 
 {{< /highlight >}}
-## **إنتاج التقرير المنسق (ملف .XLS) باستخدام Graph باستخدام مكون Aspose.Cells**
-الآن ، سأكتب بعض التعليمات البرمجية لحفظ التقرير المنسق مع رسم بياني على القرص. أنا أستخدم**شبكة** 'س**يحفظ**زر ،**شبكة** 'س**SaveCommand**يتم تشغيل الحدث عند النقر فوق الزر حفظ ، لذلك سأتعامل معه. هنا ، أستخدم**Aspose.Cells**عنصر لتصدير التقرير المنسق إلى MS Excel ، وإنشاء مخطط وتضمينه في ملف Excel الناتج. لم أدرج صورة المخطط (تم إنشاؤها بواسطة**Aspose.Chart**المكون) بدلاً من ذلك قم بإنشاء مخطط مشابه باستخدام API من**Aspose.Cells**، بحيث يمكنك تعديل الرسم البياني في MS Excel حسب حاجتك.
+## **إنتاج تقرير مهيأ (.XLS File) مع رسم بياني باستخدام مكون Aspose.Cells**
+الآن، سأكتب بعض الشفرة لحفظ التقرير المنسق مع الرسم البياني في القرص. أستخدم زر حفظ GridWeb، يتم تنشيط حدث SaveCommand لـ GridWeb عند النقر فوق زر الحفظ، لذلك، سأتعامل مع ذلك. هنا، استخدم مكون Aspose.Cells لتصدير التقرير المنسق إلى MS Excel، وتوليد الرسم البياني وتضمينه في ملف الإكسل الناتج. لم أقم بإدراج صورة الرسم البياني (التي تم إنشاؤها بواسطة المكون Aspose.Chart) بل قمت بإنشاء الرسم البياني المماثل باستخدام واجهة برمجة التطبيقات لـ Aspose.Cells حتى تتمكن من تحرير الرسم البياني في MS Excel وفقًا لاحتياجاتك.
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //This GridWeb control event is fired when you click on the "Save" button
 
@@ -532,54 +535,54 @@ chartIndex = sheet.Charts.Add(Aspose.Cells.ChartType.Pie,maxrow,0,maxrow+28,5);
 
 {{< /highlight >}}
 ## **تشغيل التطبيق**
-الآن ، أقوم بتشغيل التطبيق. القائمة المنسدلة مليئة بالفئات المميزة.
+الآن، أقوم بتشغيل التطبيق. قائمة السقط ممتلئة بالفئات المميزة.
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
 
-أحدد فئة أريد من خلالها إظهار تقرير المبيعات والنقر فوق الزر "إظهار التقرير".
+أختار فئة أريد عرض تقرير المبيعات بناءً عليها وأنقر على زر "عرض التقرير".
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
 
-لذلك ، يتم عرض التقرير في ملف**شبكة**على أساس الفئة المختارة. يتم تنسيق التقرير افتراضيًا بناءً على الكود (المكتوب مسبقًا).
+لذا، يتم عرض التقرير في GridWeb استنادًا إلى الفئة المحددة. يتم تنسيق التقرير افتراضيًا استنادًا إلى الشفرة (المكتوبة سابقًا).
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
 
-إذا كنت ترغب في تنسيق البيانات في بعض الخلايا بطريقة WYSIWYG ، فيمكنك القيام بذلك بسهولة تامة.**Aspose.Cells.GridWeb**يوفر**شكل Cells**محرر ، حدد الخلية (الخلايا) التي تريدها وانقر عليها بزر الماوس الأيمن ، وانقر فوق الخيار "تنسيق Cell ...".
+إذا كنت ترغب في تنسيق البيانات في بعض الخلايا بطريقة WYSIWYG، فيمكنك القيام بذلك بسهولة. يوفر Aspose.Cells.GridWeb محرر Format Cells، حدد الخلية (الخلايا) المطلوبة وانقر بزر الماوس الأيمن فوقها، ثم انقر على خيار "تنسيق الخلية...".
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
 
-يظهر مربع حوار التنسيق Cell.
+يتم عرض مربع حوار Format Cell.
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
 
-أحدد بعض سمات الخط وانقر على موافق.
+أحدد بعض السمات الخط وأنقر على موافق.
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
 
-واحصل على النتيجة.
+وأحصل على النتيجة.
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
 
-بصرف النظر عن تنسيق الخلايا ، يمكنك أيضًا تحرير قيم الخلية الخاصة بك. انقر نقرًا مزدوجًا فوق الخلية (الخلايا) التي تريدها وقم بتحرير القيمة.
+بالإضافة إلى تنسيق الخلايا، يمكنك أيضًا تحرير قيم الخلية الخاصة بك. انقر مرتين فوق الخلية (الخلايا) المرغوبة لديك وقم بتحرير القيمة.
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
 
-لإرسال نتيجة التحرير وإعادة حساب كل الصيغة ، أنقر فوق الزر ذي الصلة (المحاط بدائرة باللون الأحمر) لتحديث التقرير.
+لتقديم نتيجة التحرير وإعادة حساب جميع الصيغ، أنقر فوق الزر ذو اللون الأحمر المحاط به لتحديث التقرير.
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
 
-الآن سوف أقوم بإنشاء المخطط ولصقه في عنصر التحكم. انقر فوق زر الأمر المخصص (المحاط بدائرة باللون الأحمر) لإنشاء مخطط دائري بناءً على نطاق البيانات.
+الآن سأقوم بإنشاء الرسم البياني ولصقه في العنصر التحكم. أنقر على الزر الأمر المخصص (المحاط بلون أحمر) لإنشاء الرسم الدائري بناءً على نطاق البيانات.
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
 
-أخيرًا ، سأقوم بتصدير تقرير البيانات هذا مع رسم بياني إلى MS Excel. أنقر فوق ملف**يحفظ**زر (محاط باللون الأحمر). النقر فوق ملف**يحفظ**سيعرض الزر**تحميل الملف**الحوار ، يمكنك إما**فتح**التقرير الناتج (ملف اكسل الناتج مع رسم بياني) في MS Excel أو احفظه على القرص.
+وأخيرًا، سأقوم بتصدير هذا التقرير مع الرسم البياني إلى MS Excel. أنقر على زر الحفظ (المحاط بلون أحمر). بالنقر على الزر حفظ سيتم عرض مربع الحوار "تنزيل الملف"، يمكنك إما فتح التقرير الناتج (ملف إكسل الناتج مع الرسم البياني) في MS Excel أو حفظه على القرص.
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
 
-عندما أنقر فوق الزر فتح (مربع حوار تنزيل الملف) ، يتم تصدير تقرير Excel مع الرسم البياني إلى MS Excel. يتم عرض الجزء العلوي من التقرير.
+عند النقر على زر فتح (مربع حوار تنزيل الملف)، يتم تصدير تقرير الإكسل مع الرسم البياني إلى MS Excel ويتم عرض الجزء العلوي من التقرير.
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
 
-يتم عرض الجزء السفلي من تقرير Excel.
+يتم عرض الجزء السفلي من تقرير الإكسل.
 
-![ما يجب القيام به: image_بديل_نص](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)

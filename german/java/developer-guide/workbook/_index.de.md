@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeitsmappe
 type: docs
 weight: 30

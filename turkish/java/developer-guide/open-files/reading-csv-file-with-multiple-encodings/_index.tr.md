@@ -1,40 +1,41 @@
-﻿---
-title: Birden Fazla Kodlama İçeren CSV Dosyasını Okuma
+---
+title: Birden Fazla Kodlama ile CSV Dosyasını Okuma
 type: docs
 weight: 140
 url: /tr/java/reading-csv-file-with-multiple-encodings/
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen, CSV dosyanız birden çok Kodlama (Unicode, ANSI, UTF8, UTF7 vb.) içerir. Aspose.Cells, bu tür CSV dosyalarını yüklemenize ve bunları başka biçimlere, örneğin PDF veya XLSX'e dönüştürmenize olanak tanır.
+Bazen CSV dosyanız birden fazla Kodlama içerir (Unicode, ANSI, UTF8, UTF7 vb.). Aspose.Cells, bu tür CSV dosyalarını yüklemenize ve bunları diğer formatlara, örneğin PDF veya XLSX'ye dönüştürmenize izin verir.
 
 {{% /alert %}} 
 
- Aspose.Cells, ayarlamanız gereken TxtLoadOptions.setMultiEncoded() yöntemini sağlar**doğru** CSV dosyanızı birden fazla kodlamayla düzgün şekilde yüklemek için.
+Aspose.Cells, CSV dosyanızı birden fazla kodlama ile doğru bir şekilde yüklemek için **true** olarak ayarlamanız gereken TxtLoadOptions.setMultiEncoded() method'unu sağlar.
 
- Aşağıdaki ekran görüntüsü, iki satır içeren örnek bir CSV dosyasını göstermektedir. İlk satır içinde**ANSI** kodlama ve ikinci satır**Unicode** kodlama
+Aşağıdaki ekran görüntüsü, iki satır içeren bir örnek CSV dosyasını göstermektedir. İlk satır **ANSI** kodlamadadır ve ikinci satır **Unicode** kodlamadadır.
 
 **Giriş dosyası** 
 
-![yapılacaklar:resim_alternatif_metin](reading-csv-file-with-multiple-encodings_1.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_1.png)
 
-Aşağıdaki ekran görüntüsü, TxtLoadOptions.setMultiEncoded() yöntemini true olarak ayarlamadan yukarıdaki CSV dosyasından dönüştürülen XLSX dosyasını gösterir. Gördüğünüz gibi, Unicode metni düzgün bir şekilde dönüştürülmedi.
+Yukarıdaki CSV dosyasından dönüştürülen XLSX dosyasını aşağıdaki ekran görüntüsü göstermektedir. Görebileceğiniz gibi, Unicode metni doğru bir şekilde dönüştürülmemiştir.
 
-**Çıktı dosyası 1: çoklu kodlama için herhangi bir düzenleme yapılmadı** 
+**Çıktı dosyası 1: birden fazla kodlama için uyarlama yapılmadı** 
 
-![yapılacaklar:resim_alternatif_metin](reading-csv-file-with-multiple-encodings_2.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)
 
-Aşağıdaki ekran görüntüsü, TxtLoadOptions.setMultiEncoded() yöntemini true olarak ayarladıktan sonra yukarıdaki CSV dosyasından dönüştürülen XSLX dosyasını gösterir. Gördüğünüz gibi, Unicode metni artık düzgün bir şekilde dönüştürüldü.
+Yukarıdaki CSV dosyasından dönüştürülen XSLX dosyasını aşağıdaki ekran görüntüsü göstermektedir. Görebileceğiniz gibi, Unicode metni şimdi doğru bir şekilde dönüştürülmüştür.
 
-**Çıktı dosyası 2: IsMultiEncoded, true olarak ayarlandı** 
+**Çıktı dosyası 2: IsMultiEncoded true olarak ayarlandı** 
 
-![yapılacaklar:resim_alternatif_metin](reading-csv-file-with-multiple-encodings_3.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)
 
-Aşağıda, yukarıdaki CSV dosyasını düzgün bir şekilde XLSX biçimine dönüştüren örnek kod bulunmaktadır.
+Aşağıdaki örnek kod, yukarıdaki CSV dosyasını XLSX formatına uygun bir şekilde dönüştürür.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  String filePath = "F:\\Downloads\\MutliEncoded.csv";
 

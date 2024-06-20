@@ -1,22 +1,23 @@
-﻿---
+---
 title: Komut Çubukları
 type: docs
 weight: 10
 url: /tr/reportingservices/command-bars/
 ---
-Aşağıdaki tabloda, Aspose.Cells.Report.Designer eklentisinin araç çubuğundaki komut çubukları simgeleri ve araçları gösterilmektedir.
 
-|**Emretmek** |**resim** |**Açıklama** |
-|:- |:- |:- |
-| Yerel Raporu Aç|![yapılacaklar:resim_alternatif_metin](command-bars_1.png)| Yerel PC'den bir RDL dosyası açar ve dosya içeriğini yükler.|
-| Uzak Raporu Aç|![yapılacaklar:resim_alternatif_metin](command-bars_2.png)| Rapor Sunucusundan bir RDL dosyası açar ve dosya içeriğini yükler.|
-| Raporu Kaydet|![yapılacaklar:resim_alternatif_metin](command-bars_3.png)| Tasarım raporunu yerel olarak veya sunucuda kaydeder.|
-| Raporu Yayınla|![yapılacaklar:resim_alternatif_metin](command-bars_4.png)| RDL dosyasını sunucuya yükler.|
-|Raporu görüntüle|![yapılacaklar:resim_alternatif_metin](command-bars_5.png)| Raporun sunucudan önizlemesini görüntüler.|
-| Veri Kümesi ve Veri Kaynağı Oluşturun|![yapılacaklar:resim_alternatif_metin](command-bars_6.png)| Veri kümeleri ve veri kaynakları oluşturur.|
-| Rapor Parametresini Değiştir|![yapılacaklar:resim_alternatif_metin](command-bars_7.png)| Rapor parametresini ve sorgu parametresi ilişkisini değiştirir.|
-| Formül Ekle|![yapılacaklar:resim_alternatif_metin](command-bars_8.png)| Formül düzenleyici pencereleri aracılığıyla hücreye formül ekler|
-| Özniteliği Ayarla|![yapılacaklar:resim_alternatif_metin](command-bars_9.png)| Bazı rapor özniteliklerini ayarlar: rapor adı, rapor aralığı, grup alanları, sipariş alanları vb.|
-| Niteliği Değiştir|![yapılacaklar:resim_alternatif_metin](command-bars_10.png)| Bazı rapor özniteliklerini değiştirir: rapor adı, rapor aralığı, grup alanları, sipariş alanları vb.|
-| Altbilgiyi Ayarla|![yapılacaklar:resim_alternatif_metin](command-bars_11.png)| Hücreye '##altbilgi' ekler.|
+Aşağıdaki tablo, Aspose.Cells.Report.Designer eklentisi araç çubuğundaki komut çubuğu simgelerini ve araçları gösterir
+
+|**Komut** |**Resim** |**Açıklama** |
+| :- | :- | :- |
+|Open Local Report |![todo:image_alt_text](command-bars_1.png)|Opens an RDL file from local PC and loads the file context. |
+|Open Remote Report |![todo:image_alt_text](command-bars_2.png)|Opens an RDL file from Report Server and loads the file context. |
+|Save Report |![todo:image_alt_text](command-bars_3.png)|Saves designing report locally or on the server. |
+|Publish Report |![todo:image_alt_text](command-bars_4.png)|Uploads the RDL file on the server. |
+|View Report |![todo:image_alt_text](command-bars_5.png)|Displays a preview of the report from the server. |
+|Build DataSet and Data Source |![todo:image_alt_text](command-bars_6.png)|Builds datasets and data sources. |
+|Modify Report Parameter |![todo:image_alt_text](command-bars_7.png)|Modifies report parameter and query parameter relation. |
+|Insert Formula |![todo:image_alt_text](command-bars_8.png)|Inserts formula into the cell through the formula editor windows |
+|Set Attribute |![todo:image_alt_text](command-bars_9.png)|Sets some of the report attributes: report name, report range, group fields, order fields and so on. |
+|Modify Attribute |![todo:image_alt_text](command-bars_10.png)|Modifies some of the report attributes: report name, report range, group fields, order fields and so on. |
+|Set Footer |![todo:image_alt_text](command-bars_11.png)|Inserts '##footer' into the cell. |
 

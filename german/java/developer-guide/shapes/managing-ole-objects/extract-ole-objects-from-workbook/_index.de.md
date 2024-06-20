@@ -1,25 +1,26 @@
-﻿---
-title: Extrahieren Sie OLE-Objekte aus der Arbeitsmappe
+---
+title: OLE Objekte aus Arbeitsmappe extrahieren
 type: docs
 weight: 260
 url: /de/java/extract-ole-objects-from-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Manchmal müssen Sie OLE-Objekte aus einer Arbeitsmappe extrahieren. Aspose.Cells unterstützt das Extrahieren und Speichern dieser OLE-Objekte, wie in diesem Artikel gezeigt.
+Manchmal müssen Sie tatsächlich OLE-Objekte aus einer Arbeitsmappe extrahieren. Aspose.Cells unterstützt das Extrahieren und Speichern dieser OLE-Objekte, wie in diesem Artikel demonstriert.
 
 {{% /alert %}}
 
-## **Extrahieren Sie OLE-Objekte aus einer Arbeitsmappe**
+## **OLE-Objekte aus einer Arbeitsmappe extrahieren**
 
-### **Erstellen einer Vorlagenarbeitsmappe**
+### **Erstellen einer Vorlagearbeitsmappe**
 
-1. Erstellte eine Tabelle in Microsoft Excel.
-1. Fügen Sie dem ersten Arbeitsblatt ein Microsoft-Word-Dokument, eine Excel-Arbeitsmappe und ein PDF-Dokument als OLE-Objekte hinzu.
+1. Erstellen einer Arbeitsmappe in Microsoft Excel.
+1. Fügen Sie ein Microsoft Word-Dokument, eine Excel-Arbeitsmappe und ein PDF-Dokument als OLE-Objekte auf dem ersten Arbeitsblatt hinzu.
 
-### **Extrahieren Sie OLE-Objekte**
+### **OLE-Objekte extrahieren**
 
-Der folgende Code erledigt die eigentliche Arbeit des Suchens und Extrahierens von OLE-Objekten als DOCX-, XLSX-, PPTX- und PDF-Dateien.
+Der folgende Code führt die eigentliche Arbeit des Suchens und Extrahierens von OLE-Objekten als DOCX-, XLSX-, PPTX- und PDF-Dateien durch.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExtractOLEObjects-ExtractOLEObjects.java" >}}
 
@@ -27,6 +28,6 @@ Der folgende Code erledigt die eigentliche Arbeit des Suchens und Extrahierens v
 
 {{% alert color="primary" %}}
 
-Dieser Artikel zeigt, wie Sie OLE-Objekte mithilfe von Aspose.Cells aus einer Arbeitsmappe extrahieren. Hoffentlich gibt er Ihnen einen Einblick, der es Ihnen ermöglicht, diese Optionen in Ihren eigenen Szenarien zu verwenden.
+Dieser Artikel zeigt, wie Sie OLE-Objekte aus einer Arbeitsmappe extrahieren können, indem Sie Aspose.Cells verwenden. Hoffentlich geben sie Ihnen einige Einblicke, die es Ihnen ermöglichen, diese Optionen in Ihren eigenen Szenarien zu verwenden.
 
 {{% /alert %}}

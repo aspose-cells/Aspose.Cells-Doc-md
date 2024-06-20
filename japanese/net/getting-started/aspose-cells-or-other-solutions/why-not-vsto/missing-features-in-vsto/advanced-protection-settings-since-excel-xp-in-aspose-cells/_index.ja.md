@@ -1,48 +1,49 @@
-﻿---
-title: Aspose.Cells の Excel XP 以降の高度な保護設定
+---
+title: Aspose.CellsにおけるExcel XP以降の高度な保護設定
 type: docs
 weight: 20
 url: /ja/net/advanced-protection-settings-since-excel-xp-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-- 行または列を削除します。
-- コンテンツ、オブジェクト、またはシナリオを編集します。
-- セル、行、または列をフォーマットします。
-- 行、列、またはハイパーリンクを挿入します。
-- ロックまたはロック解除されたセルを選択します。
-- ピボット テーブルなどを使用します。
+- 行または列の削除。
+- 内容、オブジェクト、またはシナリオの編集。
+- セル、行、または列の書式設定。
+- 行、列、またはハイパーリンクの挿入。
+- ロックされたセルまたはロックされていないセルの選択。
+- ピボットテーブルなどの使用。
 
-Aspose.Cells は、Excel XP 以降のバージョンで提供されるすべての高度な保護設定をサポートしています。
+Aspose.CellsはExcel XP以降のバージョンで提供されるすべての高度な保護設定をサポートしています。
 
 {{% /alert %}}
 
-## **Excel XP 以降のバージョンを使用した高度な保護設定**
+## **Excel XPおよびそれ以降のバージョンを使用した高度な保護設定**
 
-Excel XP で使用可能な保護設定を表示するには:
+Excel XPで利用可能な保護設定を表示するには：
 
-1. から**ツール**メニュー、選択**保護**に続く**プロテクトシート**.
-ダイアログが表示されます。
+1. **ツール** メニューから **保護** を選択し、続いて **シートを保護** を選択します。
+   ダイアログが表示されます。
 
-   **Excel XP の保護オプションを表示するダイアログ**
+   **Excel XPで保護オプションを表示するためのダイアログ**
 
-![todo:画像_代替_文章](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
+![todo:image_alt_text](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
 
-1. ワークシート機能を許可または制限するか、パスワードを適用します。
+1. ワークシートの機能の許可または制限、またはパスワードを適用します。
 
-### **Aspose.Cells を使用した高度な保護設定**
+### **Aspose.Cellsを使用した高度な保護設定**
 
-Aspose.Cells は、すべての高度な保護設定をサポートしています。
+Aspose.Cellsはすべての高度な保護設定をサポートしています。
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)、Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートにアクセスできるコレクション。ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。
+Aspose.Cellsは、Microsoft Excelファイルを表す [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) を提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) クラスには、Excelファイル内の各ワークシートにアクセスできる [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) コレクションが含まれています。ワークシートは [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスによって表されます。
 
-の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスが提供する[**保護**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)これらの高度な保護設定を適用するために使用されるプロパティ。の[**保護**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)プロパティは実際にはのオブジェクトです[**保護**](https://reference.aspose.com/cells/net/aspose.cells/protection)制限を無効または有効にするためのいくつかのブール型プロパティをカプセル化するクラス。
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスは、これらの高度な保護設定を適用するために使用される [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) プロパティを提供します。[**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) プロパティは実際には、いくつかの制限を無効または有効にするためのいくつかのブーリアンプロパティをカプセル化した [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/protection) クラスのオブジェクトです。
 
-以下は小さなアプリケーション例です。 Excel ファイルを開き、Excel XP 以降のバージョンでサポートされている高度な保護設定のほとんどを使用します。
+以下は小さなサンプルアプリケーションです。それはExcelファイルを開いて、Excel XPおよびそれ以降のバージョンでサポートされる高度な保護設定のほとんどを使用します。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -128,7 +129,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Advanced%20Protection%20Settings)
 
 ## **サンプルコードをダウンロード**

@@ -1,18 +1,19 @@
-﻿---
-title: Alternativet Visa rapportfiltersidor
+---
+title: Visa alternativ för filterrapportssidorna
 type: docs
 weight: 140
 url: /sv/java/show-report-filter-pages-option/
 ---
-## **Visa alternativ för rapportfiltersidor**
 
-Excel stöder att skapa pivottabeller, lägga till rapportfilter och aktivera alternativet "Visa rapportfiltersidor". Aspose.Cells stöder också den här funktionen för att aktivera alternativet "Visa rapportfiltersidor" på den skapade pivottabellen. Följande är skärmen som visar alternativet i Excel.
+## **Visa alternativ för rapportsidfiltrering**
+
+Excel stödjer att skapa pivottabeller, lägga till filterrapporter och aktivera alternativet "Visa filterrapportssidorna". Aspose.Cells stödjer också denna funktion för att aktivera alternativet "Visa filterrapportssidorna" på den skapade pivottabellen. Nedan visas skärmbilden som visar alternativet i Excel.
 
 ![todo:image_alt_text](show-report-filter-pages-option_1.png)
 
-Som ett resultat av detta alternativ innehåller den skapade arbetsboken fler kalkylblad. Den delar upp alla möjliga värden i rapportfiltret i ett separat kalkylblad. I det här exemplet har den ett filter på "Position" och data har tre distinkta positioner (A, B, C). Den här funktionen lägger till ytterligare 3 kalkylblad med namnen A, B, C som är samma pivottabell men med förvalda alternativ A, B och C.
+Som ett resultat av detta innehåller den skapade arbetsboken fler kalkylblad. Den delar varje möjligt värde för filterrapporten i ett separat kalkylblad. I det här exemplet har den ett filter på "Position" och datan har tre olika positioner (A, B, C). Denna funktion lägger till 3 extra kalkylblad med namnen A, B, C, som är samma pivottabell men med förvalda alternativ A, B och C.
 
-Exempelfilen och utdatafilen kan laddas ner från följande länkar:
+Exempelfilen och utdatafilen kan laddas ned från följande länkar:
 
 [samplePivotTable.xlsx](81920917.xlsx)
 

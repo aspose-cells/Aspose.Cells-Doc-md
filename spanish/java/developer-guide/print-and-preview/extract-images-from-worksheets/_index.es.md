@@ -1,16 +1,17 @@
-﻿---
-title: Extraer imágenes de hojas de trabajo
+---
+title: Extraer imágenes de hojas de cálculo
 type: docs
 weight: 240
 url: /es/java/extract-images-from-worksheets/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Los usuarios de Excel pueden agregar imágenes a las hojas de cálculo. Con Aspose.Cells, es posible leer imágenes de Microsoft archivos de Excel y guardarlos en una unidad local. Este artículo muestra cómo lograr esto usando Aspose.Cells for Java API.
+Los usuarios de Microsoft Excel pueden agregar imágenes a hojas de cálculo. Con Aspose.Cells, es posible leer imágenes de archivos de Microsoft Excel y guardarlas en una unidad local. Este artículo muestra cómo lograrlo utilizando la API Aspose.Cells for Java.
 
 {{% /alert %}} 
 
-El siguiente código de ejemplo muestra cómo extraer imágenes de un archivo de Excel y guardarlas.
+El código de muestra a continuación muestra cómo extraer imágenes de un archivo de Excel y guardarlas.
 
 
 

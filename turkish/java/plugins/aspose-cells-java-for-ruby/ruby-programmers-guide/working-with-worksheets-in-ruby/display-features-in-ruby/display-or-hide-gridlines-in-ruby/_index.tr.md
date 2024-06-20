@@ -1,16 +1,17 @@
-﻿---
-title: Ruby'de Kılavuz Çizgilerini Görüntüleme veya Gizleme
+---
+title: Ruby de Izgaraları Görüntüleme veya Gizleme
 type: docs
 weight: 10
 url: /tr/java/display-or-hide-gridlines-in-ruby/
 ---
-## **Aspose.Cells - Kılavuz Çizgilerini Görüntüle veya Gizle**
-### **Kılavuz Çizgilerini Gizleme**
- kullanarak çalışma sayfasını gizlemek için**Yakut için Aspose.Cells Java** , Arama**displayhidegridlines** modül.
 
-**Yakut Kodu**
+## **Aspose.Cells - ızgaraları Göster veya Gizle**
+### **Izgaraları Gizleme**
+**Aspose.Cells Java for Ruby** kullanarak çalışma sayfasını gizlemek için **displayhidegridlines** modülünü çağırın.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -37,12 +38,12 @@ workbook.save(data_dir + "output.xls")
 puts "Gridlines are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Kılavuz Çizgilerini Görünür Hale Getirme**
-Kılavuz çizgilerini görünür yapmak için Worksheet sınıfının setGridlinesVisible(true) yöntemini kullanın.
+### **Izgaraları Görünür Yapma**
+Izgaraları görünür yapmak için **Worksheet** sınıfının **setGridlinesVisible(true)** metodunu kullanın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the gridlines of the worksheet
 
@@ -50,6 +51,6 @@ worksheet.setGridlinesVisible(true)
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Kılavuz Çizgilerini Görüntüle veya Gizle (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+**Aspose.Cells** ile **Izgaraları Göster veya Gizle**'yı aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)

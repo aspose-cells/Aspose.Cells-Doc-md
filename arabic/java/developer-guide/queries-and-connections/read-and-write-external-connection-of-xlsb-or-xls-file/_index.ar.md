@@ -1,28 +1,29 @@
-﻿---
-title: قراءة وكتابة الاتصال الخارجي للملف XLSB أو XLS
+---
+title: قراءة وكتابة الاتصال الخارجي لملف XLSB أو XLS
 type: docs
 weight: 80
 url: /ar/java/read-and-write-external-connection-of-xlsb-or-xls-file/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يدعم Aspose.Cells بالفعل قراءة وكتابة الاتصال الخارجي لملف XLSX ولكنه الآن يدعم هذه الميزة لملف XLSB و XLS. ومع ذلك ، فإن الرمز هو نفسه لكلا النوعين من التنسيق.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **قراءة وكتابة الوصلة الخارجية لملف XLSB/XLS**
+تدعم Aspose.Cells بالفعل قراءة وكتابة الاتصال الخارجي لملفات XLSX ولكن الآن، تدعم أيضًا هذه الميزة لملفات XLSB وXLS. ومع ذلك، يكون الكود متطابقًا لكلا النوعين من التنسيق.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل نموذج ملف XLSB (يمكن أيضًا تحميل XLS) ويقرأ أول اتصال خارجي وهو في الواقع Microsoft Access DB Connection. ثم يقوم بتعديل ملف[**الاسم**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)الخاصية ويحفظها كملف الإخراج XLSB. تظهر لقطة الشاشة تأثير الكود على[عينة ملف XLSB](51740743.xlsb)و[ملف الإخراج XLSB](51740742.xlsb)بعد تنفيذه. يرجى أيضًا الاطلاع على إخراج وحدة التحكم لعينة التعليمات البرمجية الواردة أدناه للحصول على مرجع.
+## **قراءة وكتابة الاتصال الخارجي لملفات XLSB/XLS**
 
-![ما يجب القيام به: image_بديل_نص](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
+الكود العيني التالي يحمل ملف XLSB(XLS يمكن أيضًا أن يتم تحميله) عينيًا ويقرأ اتصاله الخارجي الأول الذي هو في الواقع اتصال قاعدة بيانات Microsoft Access. يقوم بتعديل الخاصية [**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name) ثم يحفظه كملف XLSB ناتج. تُظهر اللقطة الشاشية تأثير الكود على [ملف XLSB عيني](51740743.xlsb) و [ملف XLSB الناتج](51740742.xlsb) بعد تنفيذه. يُرجى أيضًا رؤية الإخراج على الشاشة للكود العيني المُعطى أدناه للإشارة.
 
-## **عينة من الرموز**
+![todo:image_alt_text](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 
-يجب أن يعمل الكود التالي لكل من XLSB و XLS عن طريق تحميل وحفظ الملفات بامتداد مناسب.
+## **الكود المثالي**
+
+سيعمل الكود البعدعِ لكلا XLSB و XLS من خلال تحميل وحفظ الملفات بامتداد مناسب.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Connection Name: Cust
 

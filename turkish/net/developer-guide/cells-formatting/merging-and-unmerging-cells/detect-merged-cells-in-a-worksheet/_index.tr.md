@@ -1,19 +1,20 @@
 ---
-title: Bir Çalışma Sayfasındaki Birleştirilmiş Cells'i Algıla
-description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmaya yönelik bir .NET kitaplığıdır. Bir çalışma sayfasındaki birleştirilmiş hücrelerin algılanmasını destekleyerek kullanıcıların bu hücreleri tanımlamasını ve değiştirmesini kolaylaştırır. Bu makale, birleştirilmiş hücreleri algılamak için Aspose.Cells kitaplığının nasıl kullanılacağını tanıtacaktır.
-keywords: Aspose.Cells, Worksheet, Merge Cells, Detect, Identify, Operate
+title: Çalışma sayfasında birleştirilmiş hücreleri tespit et
+description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için bir .NET kütüphanesidir. Çalışma sayfasında birleştirilmiş hücreleri tespit etmeyi destekler, kullanıcıların bu hücreleri tanımlamalarını ve manipüle etmelerini kolaylaştırır. Bu makalede, Aspose.Cells kütüphanesini kullanarak birleştirilmiş hücreleri nasıl tespit edeceğinizi tanıtacağız.
+keywords: Aspose.Cells, Çalışma Sayfası, Birleştir, Hücreleri Bul, Tanımla, İşlet
 type: docs
 weight: 80
 url: /tr/net/detect-merged-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Bu makalede, çalışma sayfasında birleştirilmiş hücre alanlarının nasıl elde edileceği hakkında bilgi verilmektedir.
+Bu makale, çalışma sayfasındaki birleştirilmiş hücre alanlarını nasıl alacağınız hakkında bilgi sağlar.
 
- Aspose.Cells, bir çalışma sayfasında birleştirilmiş hücre alanları elde etmenizi sağlar. Bunları da ayırabilirsiniz (bölebilirsiniz). Bu makale, aşağıdakileri kullanan en basit kodu gösterir:**Aspose.Cells API** görevi gerçekleştirmek için.
+Aspose.Cells, çalışma sayfasındaki birleştirilmiş hücre alanlarını almanıza izin verir. Onları ayırabilir (bölünebilir)siniz. Bu makale, görevi gerçekleştirmek için Aspose.Cells API'sını kullanarak en basit kodu gösterir.
 
 {{% /alert %}}
 
-Bileşen şunları sağlar:[**Cells.MergedCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells)birleştirilmiş hücre alanlarının ArrayList'ini alabilen özellik. Aşağıdaki kod örneği, çalışma sayfasındaki birleştirilmiş hücrelerin nasıl algılanacağını gösterir.
+Bileşen, çalışma sayfasındaki birleştirilmiş hücre alanlarının bir ArrayList'ini alabilen [**Cells.MergedCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells) özelliğini sağlar. Aşağıdaki kod örneği, bir çalışma sayfasındaki birleştirilmiş hücreleri tespit etmek için nasıl yapıldığını gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}

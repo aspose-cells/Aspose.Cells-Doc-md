@@ -1,24 +1,25 @@
-﻿---
-title: Узнайте, защищен ли проект VBA
+---
+title: Определение, защищен ли проект VBA
 type: docs
 weight: 20
 url: /ru/net/find-out-if-vba-project-is-protected/
 ---
-## **Узнайте, защищен ли проект VBA в C#**
 
- Вы можете узнать, защищен ли проект VBA (Visual Basic Applications) вашего файла Excel с помощью Aspose.Cells, используя[**ВбаПрожект. Испротектед**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected)имущество.
+## **Определение, защищен ли проект VBA на C#**
+
+Вы можете узнать, защищен ли проект VBA (Visual Basic Applications) вашего файла Excel или нет с помощью свойства [**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) в Aspose.Cells.
 
 ## **Образец кода**
 
-Следующий пример кода создает книгу, а затем проверяет, защищен ли ее проект VBA. Затем он защищает проект VBA и снова проверяет, защищен ли его проект VBA или нет. См. его консольный вывод для справки. Перед защитой,[**ВбаПрожект. Испротектед**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) возвращается**ЛОЖЬ** но после защиты возвращается**истинный**.
+Приведенный ниже образец кода создает книгу, затем проверяет, защищен ли ее проект VBA или нет. Затем он защищает проект VBA и снова проверяет, защищен ли его проект VBA или нет. Пожалуйста, ознакомьтесь с выводом консоли для справки. До защиты [**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) возвращает **false**, но после защиты оно возвращает **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-FindoutifVBAProjectisProtected.cs" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
-Это консольный вывод приведенного выше примера кода для справки.
+Это вывод консоли приведенного выше образца кода для справки.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 IsProtected - Before Protecting VBA Project: False
 

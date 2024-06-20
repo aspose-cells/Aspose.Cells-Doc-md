@@ -1,50 +1,53 @@
-﻿---
-title: インポート Microsoft Excel ファイル
+---
+title: Microsoft Excelファイルをインポートする
 type: docs
 weight: 40
-url: /ja/net/import-microsoft-excel-file/
+url: /ja/net/aspose-cells-gridweb/import-microsoft-excel-file/
+keywords: GridWeb、インポート
+description: この記事ではGridWebでファイルをインポートする方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop のように、Aspose.Cells.GridWeb コントロールは Microsoft Excel ファイルを開いて読み込むことができます - データ、書式設定、グラフ、画像などを備えていますが、Web アプリケーション内です。このトピックでは、その方法について説明します。
+Aspose.Cells.GridDesktopと同様に、Aspose.Cells.GridWebコントロールはWebアプリケーションでMicrosoft Excelファイルを開いてロードできます。データ、書式、チャート、画像などが含まれます。このトピックはその方法について説明します。
 
 {{% /alert %}} 
-## **Excel ファイルのインポート**
+## **Excelファイルをインポート**
 ### **ファイルからインポート**
-Aspose.Cells.GridWeb コントロールを使用して Excel ファイルを開くには:
+Aspose.Cells.GridWebコントロールを使用してExcelファイルを開くには:
 
-1. Aspose.Cells.GridWeb コントロールを Web フォームに追加します。
-1. ファイル パスを指定して、Excel ファイルをインポートします。
+1. Aspose.Cells.GridWebコントロールをWebフォームに追加します。
+1. ファイルのパスを指定してExcelファイルをインポートします。
 1. アプリケーションを実行します。
 
 {{% alert color="primary" %}} 
 
-コントロールを Web フォームに追加する方法がわからない場合は、次を参照してください。[GridWeb を Web フォームに追加する](/cells/ja/net/add-gridweb-to-web-form/).
+コントロールをWebフォームに追加する方法がわからない場合は、[WebフォームにGridWebを追加](/cells/ja/net/aspose-cells-gridweb/add-gridweb-to-web-form/)を参照してください。
 
 {{% /alert %}} 
 
-Aspose.Cells.GridWeb コントロールが Web フォームに追加されると、コントロールは自動的にインスタンス化され、既定のサイズでフォームに追加されます。 Aspose.Cells.GridWeb コントロール オブジェクトを作成する必要はありません。コントロールをドラッグ アンド ドロップして使用を開始するだけです。
+Aspose.Cells.GridWebコントロールをWebフォームに追加すると、コントロールが自動的にインスタンス化され、既定のサイズでフォームに追加されます。Aspose.Cells.GridWebコントロールオブジェクトを作成する必要はありません。コントロールをドラッグして場所を選び、使用を開始するだけです。
 
-ただし、Excel ファイルから Aspose.Cells.GridWeb コントロールにコンテンツを読み込むには、ImportExcelFile メソッドを呼び出して Excel ファイルのパスを指定する必要があります。その後、Aspose.Cells.GridWeb コントロールは、指定されたパスからファイルを自動的に検索し、その内容を表示します。 Excel ファイルの内容をロードするコード スニペットを以下に示します。
+ただし、Excelファイルの内容をAspose.Cells.GridWebコントロールにロードするには、ImportExcelFileメソッドを呼び出してExcelファイルのパスを指定する必要があります。その後、Aspose.Cells.GridWebコントロールは指定されたパスからファイルを自動的に見つけてその内容を表示します。Excelファイルの内容をロードするコードスニペットが以下に提供されています。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ImportExportFile.aspx-LoadExcelFile.cs" >}}
 
 
-上記のコード スニペットは、任意の方法で使用できます。たとえば、Web フォームの読み込み時に Excel ファイルを自動的に読み込むには、このコードをフォームの Page_Load イベントに追加します。ボタンがクリックされたときにファイルを開く場合は、Web フォームにボタンを追加し、ボタンの Click イベントの下に上記のコードを記述します。
+上記のコードスニペットは自由に使用できます。たとえば、WebフォームがロードされるときにExcelファイルを自動的にロードする場合は、このコードをフォームのPage_Loadイベントに追加します。ボタンがクリックされたときにファイルを開く場合は、Webフォームにボタンを追加し、上記のコードをボタンのClickイベントの下に記述します。
 
-**ボタンをクリックするとExcelファイルが読み込まれます** 
+**ボタンがクリックされたときにExcelファイルがロードされます** 
 
-![todo:画像_代替_文章](import-microsoft-excel-file_1.png)
+![todo:image_alt_text](import-microsoft-excel-file_1.png)
 
 {{% alert color="primary" %}} 
 
-ファイル システムが NTFS の場合は、ASPNET または Everyone ユーザー アカウントに読み取りアクセス許可を付与する必要があります。そうしないと、実行時にアクセス拒否の例外が発生します。
+ファイルシステムがNTFSの場合、ASPNETまたはEveryoneユーザーアカウントに読み取りアクセス権限を付与する必要があります。そうしないと、実行時にアクセスが拒否される例外が発生します。
 
 {{% /alert %}} 
 ### **ストリームからインポート**
-Aspose.Cells.GridWeb コントロールは、ファイルから Excel ファイルを開くだけでなく、ストリームから Excel ファイルを読み込むこともできます。ファイルをストリームとして使用することは、ストリームを閉じることによってファイルへのすべての接続を確実に閉じることができるため、あらゆる種類のファイル アクセスまたは共有違反の問題を防止するためのより良い方法です。
+Aspose.Cells.GridWebコントロールを使用してExcelファイルをファイルから開くだけでなく、ストリームからもロードできます。ファイルをストリームとして使用することは、ファイルへのアクセスまたは共有の違反問題を防ぐためにはより良いアプローチです。なぜなら、この方法ではストリームを閉じることでファイルへのすべての接続が確実に閉じられるからです。
 
 
 

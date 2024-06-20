@@ -1,34 +1,35 @@
 ---
-title: Экспорт данных Excel в DataTable и проверка смешанного типа данных
+title: Экспорт данных из Excel в DataTable и проверка смешанного типа данных
 type: docs
 weight: 280
 url: /ru/net/export-excel-data-to-datatable-and-check-mixed-data-type/
-description: Узнайте, как экспортировать данные Excel в DataTable и проверить смешанный тип данных с помощью Aspose.Cells for .NET API.
-keywords: Export Excel Data to DataTable and Check Mixed Data Type, Export Workbook Data to DataTable and Check Mixed Data Type, Export Data to DataTable and Check Mixed Data Type, Export Worksheet Data to DataTable and Check Mixed Data Type.
+description: Узнайте, как экспортировать данные из Excel в DataTable и проверить смешанный тип данных через API Aspose.Cells for .NET.
+keywords: Экспорт данных из Excel в DataTable и проверка смешанного типа данных, Экспорт данных рабочей книги в DataTable и проверка смешанного типа данных, Экспорт данных в DataTable и проверка смешанного типа данных, Экспорт данных листа в DataTable и проверка смешанного типа данных.
 ---
-##  **Возможные сценарии использования**
- Если столбец содержит данные разных типов, программа выдаст исключение типа при экспорте данных в DataTable. При экспорте таблицы данных по умолчанию Aspose.Cells оценивает тип данных для значений на основе самого первого значения (ячейки) в столбце. Итак, если значением является число, это означает, что тип данных столбца будет числовым, что вполне разумно. Если самое первое значение — число, но в столбце есть буквенно-цифровые данные или значения, следует назначить строковый тип данных. Чтобы справиться с этим, используйте[Перегрузка ExportDataTable](https://reference.aspose.com/cells/net/aspose.cells/cells/exportdatatable/#exportdatatable_1) который включает в себя[Экспортдататаблеоптионс](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/) и попробуй установить[ExportTableOptions.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype/) Логический атрибут имеет значение «истина», если столбец имеет как числовые, так и строковые значения, чтобы избежать ошибки.
 
-##  **Экспорт данных Excel в DataTable и проверка смешанного типа данных**
+## **Возможные сценарии использования**
+Если столбец содержит данные различных типов, программа выбросит исключение типа при экспорте данных в DataTable. При экспорте данных таблицы, по умолчанию Aspose.Cells оценивает тип данных для значений на основе самого первого (ячейки) значения в столбце. Так что, если значение является числом, это означает, что тип данных столбца будет числовым, что разумно. Если самое первое значение является числом, но в столбце есть алфанумерические данные или значения, стоит назначить тип данных строки. Чтобы справиться с этим, используйте [перегрузку ExportDataTable](https://reference.aspose.com/cells/net/aspose.cells/cells/exportdatatable/#exportdatatable_1), которая включает [ExportDataTableOptions](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/) и попробуйте установить логический атрибут [ExportTableOptions.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype) в "true", если в столбце есть числовые и строковые значения, чтобы избежать ошибок.
 
- В следующем примере объясняется использование[ExportTableOptions.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype/) свойство для экспорта данных Excel в таблицу данных. Пожалуйста, ознакомьтесь с[образец файла Excel](sample.xlsx), его снимок экрана и вывод консоли для справки.
+## **Экспорт данных из Excel в DataTable и проверка смешанного типа данных**
 
-###  **Образец кода**
+Следующий образец объясняет использование свойства [ExportTableOptions.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype/) для экспорта данных из Excel в DataTable. Пожалуйста, ознакомьтесь с [образцом Excel-файла](sample.xlsx), его скриншотом и выводом на консоль для справки.
+
+### **Образец кода**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-ExportDataAndCheckMixedType.cs" >}}
 
-###  **Скриншот**
+### **Снимок экрана**
 <br>
 <image src="1.png" width="70%" />
 <br>
 <image src="2.png" width="70%" />
 <br>
 
-###  **Консольный вывод**
+### **Вывод в консоль**
 
-Ниже приведен вывод консольной отладки приведенного выше примера кода.
+Ниже приведен вывод отладки консоли вышеприведенного образца кода
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Column1 = System.String
 Column2 = System.String

@@ -1,15 +1,18 @@
-﻿---
-title: Binden des Arbeitsblatts an ein DataSet zur Laufzeit mit GridWeb
+---
+title:  Arbeitsblatt an ein Dataset binden zur Laufzeit unter Verwendung von GridWeb
 type: docs
 weight: 70
-url: /de/net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
+url: /de/net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
+keywords: GridWeb,bind,DataSet
+description: In diesem Artikel wird erläutert, wie ein Arbeitsblatt in GridWeb an ein Dataset gebunden wird.
 ---
-## **Mögliche Nutzungsszenarien**
-Aspose.Cells.GridWeb bietet ein einfaches API, das verwendet werden kann, um ein DataSet dynamisch an ein Arbeitsblatt zu binden.
-## **Binden eines Arbeitsblatts an DataSet**
-Der folgende Beispielcode erläutert, wie ein Arbeitsblatt zur Laufzeit an ein DataSet gebunden wird.
+
+## **Mögliche Verwendungsszenarien**
+Aspose.Cells.GridWeb bietet eine einfache API, die verwendet werden kann, um ein DataSet dynamisch an ein Arbeitsblatt zu binden.
+## **Ein Arbeitsblatt an ein DataSet binden**
+Der folgende Beispielcode erklärt, wie ein Arbeitsblatt zur Laufzeit an ein DataSet gebunden wird.
 ## **Beispielcode**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Implementing Page_Load event handler
 
@@ -80,7 +83,7 @@ public partial class GridBind : System.Web.UI.Page
 }
 
 {{< /highlight >}}
-## **Screenshot ausgeben**
+## **Ausgabescreenshot**
 Der folgende Screenshot zeigt das GridWeb nach der Ausführung des obigen Beispielcodes.
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

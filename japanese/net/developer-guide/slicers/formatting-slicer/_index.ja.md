@@ -1,18 +1,19 @@
-﻿---
-title: スライサーの書式設定
+---
+title: スライサーの書式を設定する
 type: docs
 weight: 20
 url: /ja/net/formatting-slicer/
 ---
-## **考えられる使用シナリオ**
 
-Microsoft Excel では、列数を設定するか、スタイルなどを設定することで、スライサーをフォーマットできます。Aspose.Cells では、[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)と[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)プロパティ。
+## **可能な使用シナリオ**
+
+Microsoft Excelでスライサーの列数を設定したり、スタイルなどを設定することでスライサーの形式を設定できます。Aspose.Cellsでも、これらの設定を使用して行うことができます。
 
 ## **スライサーの書式設定**
 
-次のコードを参照してください。[サンプル Excel ファイル](67338473.xlsx)スライサーが含まれています。スライサーにアクセスし、その列数とスタイル タイプを設定して、それを次のように保存します。[出力エクセルファイル](67338474.xlsx).スクリーンショットは、サンプル コードの実行後にスライサーがどのように見えるかを示しています。
+以下のコードをご覧ください。スライサーを含む[sample Excelファイル](67338473.xlsx)を読み込み、スライサーにアクセスしてその列数やスタイルタイプを設定し、[output Excelファイル](67338474.xlsx)として保存します。スクリーンショットは、サンプルコードの実行後のスライサーの見た目を示しています。
 
-![todo:画像_代替_文章](formatting-slicer_1.png)
+![todo:image_alt_text](formatting-slicer_1.png)
 
 ## **サンプルコード**
 

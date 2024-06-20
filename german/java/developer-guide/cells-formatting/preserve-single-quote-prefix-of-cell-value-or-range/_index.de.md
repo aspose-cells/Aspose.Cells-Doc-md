@@ -1,20 +1,21 @@
-﻿---
-title: Präfix für einfache Anführungszeichen von Cell Wert oder Bereich beibehalten
+---
+title: Behalten Sie das einfache Anführungszeichenpräfix des Zellwerts oder bereichs bei
 type: docs
 weight: 1900
 url: /de/java/preserve-single-quote-prefix-of-cell-value-or-range/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn Sie einen Wert in die Zelle einfügen, die einen führenden Apostroph oder ein einfaches Anführungszeichen enthält, blendet Microsoft Excel ihn aus, aber wenn Sie die Zelle auswählen, wird der führende Apostroph oder das einfache Anführungszeichen in einer Formelleiste angezeigt, wie im folgenden Screenshot gezeigt.
+## **Mögliche Verwendungsszenarien**
 
-![todo: Bild_alt_Text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
+Wenn Sie einen Wert in die Zelle einsetzen, der ein führendes Apostroph oder einfach Anführungszeichen hat, verbirgt es Microsoft Excel, aber wenn Sie die Zelle auswählen, zeigt es das führende Apostroph oder Anführungszeichen in einer Formelleiste an, wie im folgenden Screenshot gezeigt.
 
-Aspose.Cells verbirgt auch den führenden Apostroph oder das einfache Anführungszeichen wie Microsoft Excel, aber es setzt die[**Style.QuotePräfix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) als**wahr** für diese Zelle. Wenn Sie einen leeren Stil der Zelle festlegen, dann[**Style.QuotePräfix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) wird**FALSCH** aufs Neue. Um dieses Problem zu lösen, bietet Aspose.Cells[**StyleFlag.ZitatPräfix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) Eigenschaft, wenn sie gesetzt ist**FALSCH**, dann[**StyleFlag.ZitatPräfix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)überhaupt nicht aktualisiert und der alte Wert bleibt erhalten. Es bedeutet, wenn der alte Wert von[**Style.QuotePräfix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)Eigentum war**wahr**, bleibt er wahr, und wenn der alte Wert falsch war, bleibt er falsch.
+![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-## **Präfix für einfache Anführungszeichen von Cell Wert oder Bereich beibehalten**
+Aspose.Cells blendet auch das führende Apostroph oder Anführungszeichen wie Microsoft Excel aus, aber es setzt das [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) als **true** für diese Zelle. Wenn Sie einen leeren Stil der Zelle festlegen, wird [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) wieder **false**. Um dieses Problem zu lösen, bietet Aspose.Cells die Eigenschaft [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix). Wenn sie auf **false** gesetzt wird, wird [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) gar nicht aktualisiert und ihr alter Wert wird beibehalten. Das bedeutet, wenn der alte Wert der [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)-Eigenschaft **true** war, bleibt er wahr, und wenn der alte Wert falsch war, bleibt er falsch.
 
-Der folgende Beispielcode erläutert die Verwendung von[**StyleFlag.ZitatPräfix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)Eigenschaft wie zuvor beschrieben. Bitte lesen Sie die Kommentare im Code und sehen Sie sich die Konsolenausgabe des unten angegebenen Codes an, um weitere Hilfe zu erhalten.
+## **Einzelnes Anführungszeichen-Prefix des Zellenwerts oder -bereichs beibehalten**
+
+Der folgende Beispielcode erläutert die Verwendung der [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)-Eigenschaft, wie zuvor beschrieben. Bitte lesen Sie die Kommentare im Code und sehen Sie die Konsolenausgabe des unten gegebenen Codes für weitere Hilfe.
 
 ## **Beispielcode**
 
@@ -22,7 +23,7 @@ Der folgende Beispielcode erläutert die Verwendung von[**StyleFlag.ZitatPräfix
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Quote Prefix of Cell A1: false
 

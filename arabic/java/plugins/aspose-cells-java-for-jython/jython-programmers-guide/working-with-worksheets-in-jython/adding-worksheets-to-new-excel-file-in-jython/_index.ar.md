@@ -1,15 +1,16 @@
-﻿---
-title: إضافة أوراق عمل إلى ملف إكسل جديد في جايثون
+---
+title: إضافة أوراق العمل إلى ملف إكسل جديد في Jython
 type: docs
 weight: 10
 url: /ar/java/adding-worksheets-to-new-excel-file-in-jython/
 ---
-## **Aspose.Cells - إضافة أوراق عمل إلى برنامج Excel الجديد**
- لإلحاق المستندات باستخدام**Aspose.Cells Java لـ Jython**. هنا يمكنك أن ترى رمز المثال.
 
-**كود جايثون**
+## **Aspose.Cells - إضافة أوراق العمل إلى ملف إكسل جديد**
+لإلحاق المستندات باستخدام **Aspose.Cells Java for Jython**. هنا يمكنك رؤية رمز المثال.
 
-{{< highlight "java" >}}
+**رمز Jython**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -53,7 +54,7 @@ if __name__ == '__main__':
     AddingWorksheetstoNewExcelFile()
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إرفاق المستندات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **مستندات الإضافة (Aspose.Cells)** من أي من المواقع الاجتماعية للترميز الواردة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/AddingWorksheetstoNewExcelFile.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/AddingWorksheetstoNewExcelFile.py)

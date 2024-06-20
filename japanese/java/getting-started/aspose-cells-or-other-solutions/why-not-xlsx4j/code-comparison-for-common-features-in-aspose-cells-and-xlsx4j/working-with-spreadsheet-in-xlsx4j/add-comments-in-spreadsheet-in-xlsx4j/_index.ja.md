@@ -1,15 +1,16 @@
-﻿---
-title: xlsx4j のスプレッドシートにコメントを追加する
+---
+title: xlsx4jでスプレッドシートにコメントを追加する
 type: docs
 weight: 10
 url: /ja/java/add-comments-in-spreadsheet-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - スプレッドシートにコメントを追加する**
-Shapes コレクションの addComments メソッド (Worksheet オブジェクトにカプセル化されている) を呼び出して、セルにコメントを追加します。新しい Comment オブジェクトには、コメント インデックスを渡すことによって、Comments コレクションからアクセスできます。 Comment オブジェクトにアクセスした後、Comment オブジェクトの setNote メソッドを使用してコメント ノートをカスタマイズします。
+Worksheetオブジェクトに含まれるShapesコレクションのaddCommentsメソッドを呼び出して、セルにコメントを追加します。新しいCommentオブジェクトは、コメントインデックスを渡すことでCommentsコレクションからアクセスできます。Commentオブジェクトにアクセスした後は、CommentオブジェクトのsetNoteメソッドを使用してコメントノートをカスタマイズできます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -31,13 +32,13 @@ comment.setNote("Hello Aspose!");
 
 {{< /highlight >}}
 ## **xlsx4j - スプレッドシートにコメントを追加する**
-CommentsPart クラスは、xlsx4j を使用してスプレッドシートにコメントを追加するために使用できます。
+CommentsPartクラスを使用して、xlsx4jを使ってスプレッドシートにコメントを追加できます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) {
+ public static void main(String[] args) {
 
     try {
 
@@ -238,13 +239,13 @@ public static org.docx4j.vml.root.Xml getVml(int row, int col) throws JAXBExcept
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addcomments)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[コメントの追加](/java/adding-comments).
+詳細については、[コメントの追加](/java/adding-comments)をご覧ください。
 
 {{% /alert %}}

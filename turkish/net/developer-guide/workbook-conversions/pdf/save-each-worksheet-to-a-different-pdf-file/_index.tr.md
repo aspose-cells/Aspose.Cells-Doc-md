@@ -1,21 +1,22 @@
 ---
-title: Her Çalışma Sayfasını Farklı Bir PDF Dosyasına Kaydet
+title: Her bir Çalışsayfayı Farklı Bir PDF Dosyasına Kaydet
 type: docs
 weight: 130
 url: /tr/net/save-each-worksheet-to-a-different-pdf-file/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells, XLS dosyalarının (resimler, çizelgeler vb. içeren) PDF belgelerine dönüştürülmesini destekler. Aspose.Cells for .NET bir elektronik tabloyu PDF'e dönüştürmek için bağımsız olarak çalışabilir ve dönüştürme için Aspose.PDF for .NET kullanmanıza gerek yoktur. Tüm işlem bellekte yapılabildiğinden dönüştürme, yazılımın herhangi bir geçici dosya oluşturmasını veya kullanmasını gerektirmez.
+Aspose.Cells, resimler, grafikler vb. içeren XLS dosyalarını PDF belgelerine dönüştürmeyi destekler. Aspose.Cells for .NET, bir elektronik tabloyu PDF'ye dönüştürmek için Aspose.PDF for .NET'i kullanmanızı gerektirmez. Bu dönüşüm, tüm sürecin bellekte yapılabilmesi nedeniyle herhangi bir geçici dosya oluşturma veya kullanma gerektirmez.
 
 {{% /alert %}} 
-##  **Her Çalışma Sayfasını Farklı Bir PDF Dosyasına Kaydet**
- Farklı PDF dosyaları oluşturmak için her çalışma sayfasını şablon Excel dosyanıza kaydetmeniz gerekiyorsa, bunu kolayca yapabilirsiniz. Bir sayfa dizini olarak ayarlamayı deneyebilirsiniz.**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** PDF'e işlenecek bir seferde seçenek.
+## **Her Çalışsayarı Farklı Bir PDF Dosyasına Kaydet**
+Şablon Excel dosyanızdaki her bir çalışsayfayı farklı PDF dosyaları oluşturmak için bu işlemi kolayca gerçekleştirebilirsiniz. PDF'ye dönüştürme işlemi sırasında bir çalışsayfa indeksini [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) seçeneğine ayarlayarak bunu kolayca yapabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SaveEachWorksheetToDifferentPDF-1.cs" >}}
 
 {{% alert color="primary" %}} 
 
- E-tablonuz formüller içeriyorsa, aramak en iyisidir[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) elektronik tabloyu PDF biçimine dönüştürmeden hemen önce. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve PDF'de doğru değerlerin oluşturulmasını sağlar.
+Eğer elektronik tablonuz formüller içeriyorsa, PDF formatına dönüştürmeden hemen önce [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) çağrısını yapmanız en iyisidir. Böyle yaparak formüle bağımlı değerler yeniden hesaplanacak ve doğru değerler PDF'de gösterilecektir.
 
 {{% /alert %}}

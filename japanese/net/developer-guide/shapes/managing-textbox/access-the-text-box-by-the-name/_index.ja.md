@@ -1,24 +1,25 @@
-﻿---
-title: 名前でテキスト ボックスにアクセスする
+---
+title: 名前でテキストボックスにアクセス
 type: docs
 weight: 230
 url: /ja/net/access-the-text-box-by-the-name/
 ---
-## 名前でテキスト ボックスにアクセスする
 
-以前は、テキスト ボックスは、[**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)コレクションですが、このコレクションから名前でテキスト ボックスにアクセスできるようになりました。テキスト ボックスの名前が既にわかっている場合、これはテキスト ボックスにアクセスするための便利で迅速な方法です。
+## 名前でテキストボックスにアクセスする
 
-次のサンプル コードでは、最初にテキスト ボックスを作成し、テキストと名前を割り当てます。次に、次の行で、同じテキスト ボックスに名前でアクセスし、そのテキストを出力します。
+以前は、[**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)コレクションからインデックスでテキストボックスにアクセスしていましたが、名前でこのコレクションからテキストボックスにアクセスすることもできるようになりました。これは、テキストボックスの名前をすでに知っている場合に便利で素早いアクセス方法です。
 
-### C# 名前でテキスト ボックスにアクセスするコード
+次のサンプルコードはまずテキストボックスを作成し、テキストと名前を割り当てます。次に、その名前で同じテキストボックスにアクセスし、そのテキストを出力します。
+
+### 名前でテキストボックスにアクセスするためのC#コード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AccessTextBoxName-AccessTextBoxName.cs" >}}
 
-### サンプル コードによって生成されたコンソール出力
+### サンプルコードによって生成されたコンソール出力
 
-上記のサンプル コードのコンソール出力を次に示します。
+上記のサンプルコードのコンソール出力は次の通りです。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 This is MyTextBox
 

@@ -1,26 +1,29 @@
-﻿---
-title: Cambiar la fuente y el color de una fila o columna
+---
+title: Cambio de la fuente y el color de una fila o columna
 type: docs
 weight: 110
-url: /es/net/changing-the-font-and-color-of-a-row-or-column/
+url: /es/net/aspose-cells-griddesktop/change-the-font-and-color-of-a-row-or-column/
+keywords: GridDesktop,fuente,color
+description: Este artículo presenta cómo cambiar la fuente y el color en una fila o columna en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-En este tema, hablaremos sobre cómo cambiar la fuente y el color de la fuente de las filas y columnas de una hoja de trabajo. Este es un nivel básico de función de formato que ofrece Aspose.Cells.GridDesktop que permite a los desarrolladores personalizar la vista de sus hojas de trabajo para hacerlas más presentables.
+En este tema, discutiremos sobre cómo cambiar la fuente y el color de la fuente de filas y columnas de una hoja de cálculo. Esta es una función básica de formato ofrecida por Aspose.Cells.GridDesktop que permite a los desarrolladores personalizar la vista de sus hojas de cálculo para hacerlas más presentables.
 
 {{% /alert %}} 
-## **Cambiar la fuente y el color de una columna**
-Para cambiar la fuente y el color de una columna usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
+## **Cambiar la Fuente y Color de una Columna**
+Para cambiar la fuente y color de una columna utilizando Aspose.Cells.GridDesktop, siga los siguientes pasos:
 
--  Accede a cualquier deseado**Hoja de cálculo**
--  Accede a un**Columna** cuya fuente y color se van a cambiar
--  Crea una personalizada**Fuente**
--  Selecciona el**Fuente** del**Columna** al personalizado
--  Finalmente, establezca**Color de fuente** del**Columna** a cualquier deseado**Color**
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Acceda a una **Columna** cuya fuente y color se van a cambiar
+- Cree una **Fuente** personalizada
+- Establezca la **Fuente** de la **Columna** a la personalizada
+- Finalmente, establezca el **Color de Fuente** de la **Columna** al **Color** deseado
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 
@@ -43,16 +46,16 @@ column.SetFont(font);
 column.SetFontColor(Color.Blue);
 
 {{< /highlight >}}
-## **Cambiar la fuente y el color de una fila**
--  Accede a cualquier deseado**Hoja de cálculo**
--  Accede a un**Fila** cuya fuente y color se van a cambiar
--  Crea una personalizada**Fuente**
--  Selecciona el**Fuente** del**Fila** al personalizado
--  Finalmente, establezca**Color de fuente** del**Fila** a cualquier deseado**Color**
+## **Cambiar la Fuente y Color de una Fila**
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Acceda a una **Fila** cuya fuente y color se van a cambiar
+- Cree una **Fuente** personalizada
+- Establezca la **Fuente** de la **Fila** a la personalizada
+- Finalmente, establezca el **Color de Fuente** de la **Fila** al **Color** deseado
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 

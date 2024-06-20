@@ -1,49 +1,51 @@
-﻿---
-title: Smartes Importieren und Platzieren von Daten mit Smart Markern in Python über .Net
-linktitle: Intelligente Markierungen
+---
+title: Intelligentes Importieren und Platzieren von Daten mit intelligenten Markern in Python über .Net
+linktitle: Intelligente Marker
 type: docs
 weight: 190
 url: /de/python-net/using-smart-markers/
-description: Intelligentes Importieren und Platzieren von Daten gemäß den Excel-Vorlagendateien mit Aspose.Cells for Python über die .Net-Bibliothek.
+description: Intelligentes Importieren und Platzieren von Daten entsprechend den Vorlagen Excel Dateien mit Aspose.Cells für Python über die .Net Bibliothek.
 ---
+
 ## **Einführung**
-**Intelligente Markierungen**werden verwendet, um Aspose.Cells mitzuteilen, welche Informationen in einer Microsoft Excel-Designertabelle platziert werden sollen. Mit intelligenten Markierungen können Sie Vorlagen erstellen, die nur bestimmte Informationen und Formatierungen enthalten.
-## **Designer-Tabellenkalkulation und intelligente Markierungen**
-Designer-Arbeitsblätter sind standardmäßige Excel-Dateien, die visuelle Formatierungen, Formeln und intelligente Markierungen enthalten. Sie können intelligente Markierungen enthalten, die auf eine oder mehrere Datenquellen verweisen, z. B. Informationen aus einem Projekt und Informationen zu verwandten Kontakten. Intelligente Markierungen werden in die Zellen geschrieben, in denen Sie die Informationen wünschen.
+**Intelligente Marker** werden verwendet, um Aspose.Cells mitzuteilen, welche Informationen in eine Microsoft Excel-Designer-Tabelle eingegeben werden sollen. Intelligente Marker ermöglichen es Ihnen, Vorlagen zu erstellen, die nur bestimmte Informationen und Formatierungen enthalten.
+## **Designer-Tabelle & Intelligente Marker**
+Designer-Tabellen sind Standard-Excel-Dateien, die visuelle Formatierungen, Formeln und intelligente Marker enthalten. Sie können intelligente Marker enthalten, die auf eine oder mehrere Datenquellen verweisen, z. B. Informationen aus einem Projekt und Informationen zu relevanten Kontakten. Intelligente Marker werden in die Zellen geschrieben, in denen Sie die Informationen platzieren möchten.
 
- Alle intelligenten Markierungen beginnen mit &=. Ein Beispiel für eine Datenmarkierung ist &=Party.FullName. Wenn die Datenmarkierung mehr als ein Element ergibt, z. B. eine vollständige Zeile, werden die folgenden Zeilen automatisch nach unten verschoben, um Platz für die neuen Informationen zu schaffen. Somit können Zwischensummen und Gesamtsummen unmittelbar nach der Datenmarkierung in die Zeile eingefügt werden, um Berechnungen basierend auf den eingefügten Daten durchzuführen. Um Berechnungen für die eingefügten Zeilen durchzuführen, verwenden Sie**dynamische Formeln**.
+Alle intelligenten Marker beginnen mit &=. Ein Beispiel für einen Datenmarker ist &=Party.FullName. Wenn der Datenmarker zu mehr als einem Element führt, beispielsweise einer vollständigen Zeile, werden die folgenden Zeilen automatisch nach unten verschoben, um Platz für die neuen Informationen zu schaffen. Somit können Zwischensummen und Summen in die Zeile unmittelbar nach dem Datenmarker platziert werden, um Berechnungen auf Basis der eingefügten Daten durchzuführen. Um Berechnungen auf den eingefügten Zeilen durchzuführen, verwenden Sie **dynamische Formeln**.
 
- Intelligente Markierungen bestehen aus der**Datenquelle** und**Feldname**Teile für die meisten Informationen. Bei Variablen und Variablenarrays können auch spezielle Informationen übergeben werden. Variablen füllen immer nur eine Zelle, während Variablenarrays mehrere füllen können. Verwenden Sie nur einen Datenmarker pro Zelle. Nicht verwendete Smart-Marker werden entfernt.
+Intelligente Marker bestehen aus den Teilen **Datenquelle** und **Feldname** für die meisten Informationen. Spezielle Informationen können auch mit Variablen und Variablenarrays übergeben werden. Variablen füllen immer nur eine Zelle aus, während Variablenarrays mehrere Zellen ausfüllen können. Verwenden Sie nur einen Datenmarker pro Zelle. Nicht verwendete intelligente Marker werden entfernt.
 
-Smart Marker kann auch Parameter enthalten. Mit Parametern können Sie die Anordnung der Informationen ändern. Sie werden als kommagetrennte Liste in Klammern an das Ende des Smart-Markers angehängt.
-### **Smart-Marker-Optionen**
- &=Datenquelle.Feldname
- &=[Datenquelle].[Feldname]&=$VariablenName
- &=$VariableArray
- &==DynamischeFormel
-&=&=DynamischeFormel wiederholen
+Intelligente Marker können auch Parameter enthalten. Parameter ermöglichen es Ihnen, zu ändern, wie die Informationen dargestellt werden. Sie werden am Ende des intelligenten Markers in Klammern als durch Kommas getrennte Liste angehängt.
+### **Intelligente Marker-Optionen**
+&=Datenquelle.Feldname 
+&=[Datenquelle].[Feldname] 
+&=$Variablenname 
+&=$VariablenArray 
+&==DynamischeFormel 
+&=&=WiederholendeDynamischeFormel
 ### **Parameter**
 Folgende Parameter sind erlaubt:
 
-- **noadd** - Fügen Sie keine zusätzlichen Zeilen hinzu, um Daten anzupassen.
-- **überspringen: n** - Überspringen Sie n Zeilen für jede Datenzeile.
-- **aufsteigend: n** oder**absteigend: n** - Daten in Smartmarkern sortieren. Wenn n 1 ist, dann ist die Spalte der erste Schlüssel des Sortierers. Die Daten werden nach Verarbeitung der Datenquelle sortiert. Beispiel: &=Tabelle1.Feld3(aufsteigend:1).
-- **horizontal** - Schreiben Sie Daten von links nach rechts, anstatt von oben nach unten.
-- **numerisch** - Text wenn möglich in Zahlen umwandeln.
-- **Schicht** - Verschieben Sie nach unten oder rechts und erstellen Sie zusätzliche Zeilen oder Spalten, um die Daten anzupassen. Der Shift-Parameter funktioniert genauso wie in Microsoft Excel. Wenn Sie beispielsweise in Microsoft Excel einen Zellbereich auswählen, klicken Sie mit der rechten Maustaste und wählen Sie aus**Einfügung** und angeben?**Zellen nach unten verschieben**, **Zellen nach rechts verschieben** und andere Optionen. Kurz gesagt, die**Schicht** Der Parameter erfüllt die gleiche Funktion für vertikale/normale (von oben nach unten) oder horizontale (von links nach rechts) Smartmarker.
-- **Kopierstil** - Kopieren Sie den Stil der Basiszelle in alle Zellen in dieser Spalte.
+- **noadd** - Füge keine zusätzlichen Zeilen hinzu, um Daten anzupassen.
+- **skip:n** - Überspringe n Zeilen für jede Datensatzzeile.
+- **ascending:n** oder **descending:n** - Sortiere Daten in Smart-Markern. Wenn n 1 ist, ist die Spalte der erste Schlüssel des Sortierers. Die Daten werden nach der Verarbeitung der Datenquelle sortiert. Beispiel: &=Tabelle1.Feld3(aufsteigend:1).
+- **horizontal** - Schreibe Daten von links nach rechts anstatt von oben nach unten.
+- **numeric** - Konvertiere Text in eine Zahl, wenn möglich.
+- **shift** - Verschiebe nach unten oder rechts und erstelle zusätzliche Zeilen oder Spalten, um Daten anzupassen. Der Shift-Parameter funktioniert genauso wie in Microsoft Excel. Beispiel: Wenn Sie in Microsoft Excel einen Zellbereich auswählen, mit der rechten Maustaste klicken und **Einfügen** auswählen und dabei?**Zellen nach unten verschieben**, **Zellen nach rechts verschieben** und andere Optionen angeben. Kurz gesagt, der **shift**-Parameter erfüllt die gleiche Funktion für vertikale/normale (von oben nach unten) oder horizontale (von links nach rechts) Smart-Marker.
+- **copystyle** - Kopiere den Zellstil der Basiszelle in alle Zellen dieser Spalte.
 
-Die Parameter noadd und skip können kombiniert werden, um Daten abwechselnd in Zeilen einzufügen. Da die Vorlage von unten nach oben verarbeitet wird, sollten Sie in der ersten Zeile noadd hinzufügen, um zu vermeiden, dass zusätzliche Zeilen vor der alternativen Zeile eingefügt werden.
+Die Parameter noadd und skip können kombiniert werden, um Daten in alternierende Zeilen einzufügen. Da die Vorlage von unten nach oben verarbeitet wird, sollten Sie noadd in der ersten Zeile hinzufügen, um zu verhindern, dass zusätzliche Zeilen vor der alternierenden Zeile eingefügt werden.
 
-Wenn Sie mehrere Parameter haben, trennen Sie sie mit einem Komma, aber ohne Leerzeichen: ParameterA,ParameterB,ParameterC
+Wenn Sie mehrere Parameter haben, trennen Sie diese mit Kommas, aber ohne Leerzeichen: parameterA,parameterB,parameterC.
 
-Die folgenden Screenshots zeigen, wie Daten in jede zweite Zeile eingefügt werden.
+Die folgenden Screenshots zeigen, wie Daten in jeder zweiten Zeile eingefügt werden.
 
 |**Vorlagendatei**|**Ausgabedatei**|
-|:- |:- |
-|![todo: Bild_alt_Text](using-smart-markers_1.jpg)|![todo: Bild_alt_Text](using-smart-markers_2.jpg)|
+| :- | :- |
+|![todo:image_alt_text](using-smart-markers_1.jpg)|![todo:image_alt_text](using-smart-markers_2.jpg)|
 ### **Dynamische Formeln**
-Mit dynamischen Formeln können Sie Excel-Formeln in Zellen einfügen, selbst wenn die Formel auf Zeilen verweist, die während des Exportvorgangs eingefügt werden. Dynamische Formeln können sich für jede eingefügte Zeile wiederholen oder nur die Zelle verwenden, in der die Datenmarkierung platziert ist.
+Dynamische Formeln ermöglichen es Ihnen, Excel-Formeln in Zellen einzufügen, auch wenn die Formel auf Zeilen verweist, die während des Exportvorgangs eingefügt werden. Dynamische Formeln können für jede eingefügte Zeile wiederholt werden oder nur die Zelle verwenden, in der der Datenmarker platziert ist.
 
 Dynamische Formeln ermöglichen die folgenden zusätzlichen Optionen:
 
@@ -52,30 +54,30 @@ Dynamische Formeln ermöglichen die folgenden zusätzlichen Optionen:
 
 Zum Beispiel:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  &=&=B{-1}/C{-1}~(skip:1)
 
 {{< /highlight >}}
 
-In der dynamischen Formelmarkierung bezeichnet "-1" den Versatz zur aktuellen Zeile in den B- bzw. C-Spalten, der für die Divisionsoperation eingestellt wird, der Skip-Parameter ist eine Zeile. Außerdem sollten wir das folgende Zeichen angeben:
+Im dynamischen Formelmarker steht "-1" für den Versatz zur aktuellen Zeile in den Spalten B und C, die für die Divisionsoperation festgelegt werden, der Überspringparameter beträgt eine Zeile. Darüber hinaus sollten wir das folgende Zeichen angeben:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  "~"
 
 {{< /highlight >}}
 
-als Trennzeichen, um weitere Parameter in dynamische Formeln zu übernehmen.
+als Trennzeichen, um weitere Parameter in dynamischen Formeln anzuwenden.
 
-Die folgenden Screenshots veranschaulichen eine sich wiederholende dynamische Formel und das resultierende Excel-Arbeitsblatt.
+Die folgenden Screenshots veranschaulichen eine wiederholende dynamische Formel und das resultierende Excel-Arbeitsblatt.
 
 |**Vorlagendatei**|**Ausgabedatei**|
-|:- |:- |
-|![todo: Bild_alt_Text](using-smart-markers_3.jpg)|![todo: Bild_alt_Text](using-smart-markers_4.jpg)|
- Cell "C1" enthält die Formel**= A1*B1** , Zelle "C2" enthält**= A2*B2** und Zelle "C3" enthält**= A3*B3**.
+| :- | :- |
+|![todo:image_alt_text](using-smart-markers_3.jpg)|![todo:image_alt_text](using-smart-markers_4.jpg)|
+Die Zelle "C1" enthält die Formel **= A1*B1**, die Zelle "C2" enthält **= A2*B2** und die Zelle "C3" enthält **= A3*B3**.
 
-Die Verarbeitung der Smartmarker ist sehr einfach. Was folgt, ist ein Codeschnipsel in Python über .Net, das zeigt, wie es gemacht wird.
+Es ist sehr einfach, die Smart-Marker zu verarbeiten. Im Folgenden finden Sie einen Code-Schnipsel in Python über .Net, der zeigt, wie dies gemacht wird.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "SmartMarker-SimpleProcess.py" >}}
 

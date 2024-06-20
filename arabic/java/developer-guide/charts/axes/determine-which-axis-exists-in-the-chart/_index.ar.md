@@ -1,34 +1,35 @@
-﻿---
-title: حدد المحور الموجود في المخطط
+---
+title: تحديد المحور الموجود في الرسم البياني
 type: docs
 weight: 130
 url: /ar/java/determine-which-axis-exists-in-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، يحتاج المستخدم إلى معرفة ما إذا كان هناك محور معين في المخطط. على سبيل المثال ، يريد معرفة ما إذا كان محور القيمة الثانوية موجودًا داخل المخطط أم لا. لا تحتوي بعض المخططات مثل Pie و PieExploded و PiePie و PieBar و Pie3D و Pie3DExploded و Donut و DoughnutExploded وما إلى ذلك على محور.
+في بعض الأحيان، يحتاج المستخدم إلى معرفة ما إذا كان محور معين موجودًا في الرسم البياني أم لا. على سبيل المثال، يريد معرفة ما إذا كان محور القيم الثانوي موجود داخل الرسم البياني أم لا. بعض الرسوم البيانية مثل Pie وPieExploded وPiePie وPieBar وPie3D وPie3DExploded وDoughnut وDoughnutExploded إلخ ليس لديها محور.
 
- يوفر Aspose.Cells[**Chart.hasAxis (int axisType ، قيمة منطقية أساسية)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) طريقة لتحديد ما إذا كان المخطط يحتوي على محور معين أم لا.
+توفر Aspose.Cells [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) لتحديد ما إذا كان لدى المخطط محور معين أم لا.
 
 {{% /alert %}}
 
-## حدد المحور الموجود في المخطط
+## تحديد المحور الموجود في الرسم البياني
 
-تُظهر لقطة الشاشة التالية مخططًا يحتوي فقط على الفئة الأساسية ومحور القيمة. لا يحتوي على أي فئة ثانوية ومحور قيمة.
+الصورة الملتقطة التالية تظهر رسمًا بيانيًا يحتوي فقط على الفئة الرئيسية ومحور القيمة. لا يحتوي على أي فئة ثانوية أو محور قيمة.
 
-![ما يجب القيام به: image_بديل_نص](determine-which-axis-exists-in-the-chart_1.png)
+![todo:image_alt_text](determine-which-axis-exists-in-the-chart_1.png)
 
- يوضح نموذج التعليمات البرمجية التالي استخدام[**Chart.hasAxis (int axisType ، قيمة منطقية أساسية)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)لتحديد ما إذا كان مخطط العينة يحتوي على الفئة الأساسية والثانوية ومحور القيمة. تم عرض ناتج وحدة التحكم للرمز أدناه والذي يعرض صحيحًا للفئة الأساسية ومحور القيمة وخطأ للفئة الثانوية ومحور القيمة.
+يبرز الرمز النموذجي التالي استخدام [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) لتحديد ما إذا كان لدى الرسم البياني النموذجي محور أساسي وثانوي للفئة والقيمة. يتم عرض نتيجة وحدة التحكم من الرمز النموذجي أدناه والتي تعرض صحيح للفئة الأساسية والمحور القيم ويعرض خطأ للفئة الثانوية والمحور القيم.
 
-### كود Java لتحديد المحور الموجود بالمخطط
+### كود Java لتحديد المحور الموجود في الرسم البياني
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetermineWhichAxisExistsInChart-DetermineWhichAxisExistsInChart.java" >}}
 
-### ناتج وحدة التحكم التي تم إنشاؤها بواسطة نموذج التعليمات البرمجية
+### المخرجات في وحدة الطرفية التي تم إنشاؤها بواسطة الكود النموذجي
 
-هنا هو إخراج وحدة التحكم من نموذج التعليمات البرمجية أعلاه.
+هنا ناتج وحدة الطرفية للكود النموذجي أعلاه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Has Primary Category Axis: true
 

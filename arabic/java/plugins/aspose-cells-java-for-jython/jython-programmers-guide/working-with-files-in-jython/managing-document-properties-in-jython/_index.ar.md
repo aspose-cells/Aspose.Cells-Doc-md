@@ -1,15 +1,16 @@
-﻿---
-title: إدارة خصائص الوثيقة في جايثون
+---
+title: إدارة خصائص المستند في Jython
 type: docs
 weight: 60
 url: /ar/java/managing-document-properties-in-jython/
 ---
-## **Aspose.Cells - إدارة خصائص الوثيقة**
- لإلحاق المستندات باستخدام**Aspose.Cells Java لـ Jython**. هنا يمكنك أن ترى رمز المثال.
 
-**كود جايثون**
+## **Aspose.Cells - إدارة خصائص المستند**
+لإلحاق المستندات باستخدام **Aspose.Cells Java for Jython**. هنا يمكنك رؤية رمز المثال.
 
-{{< highlight "java" >}}
+**رمز Jython**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -63,7 +64,7 @@ if __name__ == '__main__':
     ManagingDocumentProperties()
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إرفاق المستندات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **مستندات الإضافة (Aspose.Cells)** من أي من المواقع الاجتماعية للترميز الواردة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ManagingDocumentProperties.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ManagingDocumentProperties.py)

@@ -1,19 +1,20 @@
-﻿---
-title: Ebeveyn Pivot Tablosunun İç İçe veya Alt Pivot Tablolarını Bulun ve Yenileyin
+---
+title: Ana Pivot Tablosunun İçindeki Yerleşik veya Çocuk Pivot Tablolarını Bul ve Yenile
 type: docs
 weight: 50
 url: /tr/java/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Bazen bir pivot tablo, veri kaynağı olarak başka bir pivot tablo kullanır, bu nedenle buna alt pivot tablo veya iç içe pivot tablo denir. Bir üst pivot tablonun alt pivot tablolarını,[**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren()) yöntem.
+Bazı durumlarda, bir pivot tablosu diğer bir pivot tablosunu veri kaynağı olarak kullandığı için buna çocuk pivot tablosu veya yerleşik pivot tablosu denir. [**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren--) yöntemi kullanarak bir ana pivot tablosunun çocuk pivot tablolarını bulabilirsiniz.
 
-## **Ebeveyn Pivot Tablosunun İç İçe veya Alt Pivot Tablolarını Bulun ve Yenileyin**
+## **Ana Pivot Tablosunun İçindeki Yerleşik veya Çocuk Pivot Tablolarını Bul ve Yenile**
 
-Aşağıdaki örnek kod,[örnek excel dosyası](61767766.xlsx)üç pivot tablo içerir. Alttaki iki pivot tablo, bu ekran görüntüsünde gösterildiği gibi yukarıdaki pivot tablonun çocuklarıdır. Kod, şunu kullanarak alt pivot tabloyu bulur:[**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren()) yöntemini kullanır ve ardından bunları birer birer yeniler.
+Aşağıdaki örnek kod, üç pivot tablosunu içeren [örnek Excel dosyasını](61767766.xlsx) yükler. Alt iki pivot tablosu, yukarıdaki pivot tablosunun çocuklarıdır. Kod, [**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren--) yöntemini kullanarak çocuk pivot tablosunu bulur ve ardından bunları tek tek yeniler.
 
-![yapılacaklar:resim_alternatif_metin](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
+![todo:image_alt_text](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.java" >}}

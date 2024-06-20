@@ -1,57 +1,58 @@
 ---
-title: ワークシートの Cells へのアクセス
+title: ワークシートのセルへのアクセス
 type: docs
 weight: 10
 url: /ja/net/accessing-cells-of-a-worksheet/
-description: この記事では、ワークシートの最大表示範囲を取得し、Aspose.Cells for .NET API を通じてセルにアクセスする方法を説明します。
-keywords: Get Cell object, Access Cells, Get maximum display range of worksheet. 
+description: この記事では、ワークシートの最大表示範囲を取得し、Aspose.Cells for .NET API を介してセルにアクセスする方法を示しています。
+keywords: セルオブジェクトを取得する、セルにアクセスする、ワークシートの最大表示範囲を取得する。 
 ---
+
 {{% alert color="primary" %}}
 
-すべてのワークシートには、基本的にセル (ワークシートを構成するセル) に格納されるデータが含まれる可能性があることがわかっています。セルはワークシートの基本部分であり、ワークシート全体を一連の行と列として構築するために使用されます。ワークシートのデータにアクセスする前に、そのセルにアクセスする必要があります。したがって、このトピックでは、Aspose.Cells を使用して実行時にワークシートのセルにアクセスするためのいくつかの基本的なアプローチについて説明します。
+すべてのワークシートには基本的にセル（ワークシートが構成されている）に格納されているデータが含まれることを知っています。セルはワークシートの基本部分であり、ワークシート全体を行と列の連続として構築するために使用されます。ワークシートからデータにアクセスしようとする前に、そのセルにアクセスする必要があります。したがって、このトピックでは、Aspose.Cellsを使用して実行時にワークシートのセルにアクセスするための基本的なアプローチについて説明します。
 
 {{% /alert %}}
 
-##  **Cellsへのアクセス方法**
+## **セルへのアクセス方法**
 
-Aspose.Cells はクラスを提供します。[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシートコレクション**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)これにより、Excel ファイル内の各ワークシートにアクセスできるようになります。ワークシートは次のように表されます。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスが提供するのは[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)ワークシート内のすべてのセルを表すコレクション。
+Aspose.Cells は、Excel ファイルを表す [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) クラスには、Excel ファイル内の各ワークシートにアクセスするための [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) が含まれています。ワークシートは [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスは、ワークシート内のすべてのセルを表す [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) コレクションを提供します。
 
-使用できます[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)ワークシート内のセルにアクセスするためのコレクション。 Aspose.Cells では、ワークシート内のセルにアクセスするための 3 つの基本的なアプローチを提供しています。
+[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) コレクションを使用してワークシート内のセルにアクセスできます。Aspose.Cells はワークシート内のセルにアクセスするために3つの基本的な方法を提供しています：
 
-1. セル名を使用します。
+1. セル名を使用する。
 1. セルの行と列のインデックスを使用します。
-1. でのセルインデックスの使用[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクション
+1. [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクション内のセルインデックスを使用する
 
-**重要：** 番目のアプローチが最も速く、1 番目のアプローチが最も遅いと述べました。各アプローチ間のパフォーマンスの違いは非常に小さいため、どのアプローチを使用してもパフォーマンスの低下を心配する必要はありません。
+**重要：**3番目のアプローチが最も速く、1番目のアプローチが最も遅いことを記載しました。アプローチ間のパフォーマンスの違いは非常にわずかですので、使用するアプローチについてはパフォーマンスの低下を心配しないでください。
 
-###  **Cell 名前で Cell オブジェクトを取得する方法**
+### **セルオブジェクトの取得方法（セル名による）**
 
-開発者は、セル名を[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)のコレクション[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスをインデックスとして使用します。
+開発者は[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)クラスの[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)コレクションにセルの名前をインデックスとして渡すことで、任意の特定のセルにアクセスできます。
 
-最初に空のワークシートを作成すると、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクションはゼロです。この方法を使用してセルにアクセスすると、このセルがコレクション内に存在するかどうかがチェックされます。 「はい」の場合、コレクション内のセル オブジェクトを返します。それ以外の場合、新しいセル オブジェクトを作成します。[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)オブジェクト、オブジェクトを[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクションを取得してオブジェクトを返します。 Microsoft Excel に慣れている場合、このアプローチはセルにアクセスする最も簡単な方法ですが、他のアプローチと比較すると最も遅い方法です。
+最初に空のワークシートを作成すると、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクションの数はゼロになります。 このアプローチを使用してセルにアクセスする場合、このセルがコレクション内に存在するかどうかを確認します。 はいの場合、コレクション内のセルオブジェクトを返します。 そうでない場合は、新しい[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)オブジェクトを作成し、そのオブジェクトを[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクションに追加してからオブジェクトを返します。 このアプローチは、Microsoft Excelに慣れている場合にはセルへのアクセスの最も簡単な方法ですが、他のアプローチと比較して最も遅いです。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellName-1.cs" >}}
 
-###  **Cellの行と列のインデックスからCellオブジェクトを取得する方法**
+### **セルオブジェクトの取得方法（セルの行および列インデックスによる）**
 
-開発者は、行と列のインデックスをセルに渡すことで、特定のセルにアクセスできます。[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)のコレクション[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。
+開発者は、セルの行と列のインデックスを[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)クラスの[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)コレクションに渡すことで、任意の特定のセルにアクセスできます。
 
-このアプローチは、最初のアプローチと同じように機能します。
+このアプローチは第1のアプローチと同じように機能します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingRowAndColumnIndexOfCell-1.cs" >}}
 
-###  **Cells コレクションの Cell インデックスによって Cell オブジェクトを取得する方法**
+### **セルオブジェクトの取得方法（セルのセルインデックスによる）**
 
-セルの数値インデックスを[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクション。
+セルは、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクションに対してセルの数値インデックスを渡すことでアクセスできます。
 
-この方法を使用してセルにアクセスすると、セルの数値インデックスが範囲外の場合に例外がスローされる可能性があります。この方法はセルにアクセスするのに最も速い方法ですが、この方法を使用してセル オブジェクトにアクセスすると、新しいセルがセルに追加された後に数値インデックスが変更される可能性があることを知っておくことが重要です。[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクション。のセル オブジェクト[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクションは行と列のインデックスによって内部的に並べ替えられます。
+このアプローチを使用してセルにアクセスする場合、セルの数値インデックスが範囲外の場合、例外がスローされる可能性があります。 このアプローチを使用してセルオブジェクトにアクセスする場合、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクションへの新しいセルが追加されると数値インデックスが変更される可能性があることを知っておくことは重要です。 [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクション内のセルオブジェクトは、内部的に行と列のインデックスでソートされます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellIndexInCellsCollection-1.cs" >}}
 
-##  **ワークシートの最大表示範囲を取得する方法**
+## **ワークシートの最大表示範囲の取得方法**
 
-Aspose.Cells を使用すると、開発者はワークシートの最大表示範囲にアクセスできます。最大表示範囲 (内容を含む最初のセルと最後のセルの間のセルの範囲) は、ワークシートの内容全体を画像内でコピー、選択、または表示する必要がある場合に便利です。
+Aspose.Cellsは、ワークシートの最大表示範囲にアクセスすることができます。最大表示範囲(コンテンツを持つ最初のセルと最後のセルの範囲)は、ワークシート全体の内容をコピー、選択、または表示する必要がある場合に便利です。
 
-次を使用してワークシートの最大表示範囲にアクセスできます。[**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) 。次のサンプル コードは、[**最大表示範囲**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)財産。
+ワークシートの最大表示範囲には[**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)を使用してアクセスできます。 次のサンプルコードは、[**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)プロパティにアクセスする方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}

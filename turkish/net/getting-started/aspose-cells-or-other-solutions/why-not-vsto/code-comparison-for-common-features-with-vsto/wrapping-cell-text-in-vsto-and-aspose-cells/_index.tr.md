@@ -1,33 +1,34 @@
-﻿---
-title: Cell Metni VSTO ve Aspose.Cells'de kaydırma
+---
+title: VSTO ve Aspose.Cells te Hücre Metnini Kaydırma
 type: docs
 weight: 250
 url: /tr/net/wrapping-cell-text-in-vsto-and-aspose-cells/
 ---
-Biri kaydırılmış metin içeren ve diğeri içermeyen iki hücreli bir çalışma sayfası oluşturmak için:
 
-1.  Çalışma sayfasını ayarlayın:
- 1. Bir çalışma kitabı oluşturun.
- 1. İlk çalışma sayfasına erişin.
-1.  Yazı ekle:
- 1. A1 hücresine metin ekleyin.
- 1. Kaydırılmış metni A5 hücresine ekleyin.
+İki hücreli bir çalışma sayfası oluşturmak için, biri kaydırılmış metinle diğeri kaydırılmamış metinle:
+
+1. Çalışma sayfasını kurun: 
+   1. Bir çalışma kitabı oluşturma.
+   1. İlk çalışma sayfasına erişin.
+1. Metin ekleyin: 
+   1. A1 hücresine metin ekleyin.
+   1. A5 hücresine kaydırılmış metin ekleyin.
 1. Elektronik tabloyu kaydedin.
- Aşağıdaki kod örnekleri, C# ile VSTO kullanarak bu adımların nasıl gerçekleştirileceğini gösterir. Aynı şeyi Aspose.Cells for .NET kullanarak, tekrar C# kullanarak nasıl yapacağınızı gösteren kod örnekleri hemen ardından gelir.
+   Aşağıdaki kod örnekleri, VSTO kullanarak bu adımları C# ile nasıl gerçekleştireceğimizi göstermektedir. Aynı şeyi yapmak için Aspose.Cells for .NET'yi kullanan kod örnekleri, yine C# kullanılarak hemen aşağıda bulunmaktadır.
 
-Kodun çalıştırılması, biri sarmalanmamış metin ve diğeri aşağıdakileri içeren iki hücreli bir elektronik tabloyla sonuçlanır:
+Kodun çalıştırılması sonucunda, kapsamı genişletilmemiş metin içeren bir hücre ve şunları içeren bir elektronik tablo oluşur:
 
-## **VSTO Excel kullanarak çıktı alın**
+## **VSTO Excel Kullanarak Çıktı**
 
-![yapılacaklar:resim_alternatif_metin](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-## **Aspose.Cells for .NET kullanılarak çıktı**
+## **Aspose.Cells for .NET Kullanarak Çıktı**
 
-![yapılacaklar:resim_alternatif_metin](picture2.png)
+![todo:image_alt_text](picture2.png)
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Access vsto application
 
@@ -71,7 +72,7 @@ app.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void WrappingCellText()
 
@@ -115,8 +116,8 @@ app.Quit();
 
 {{< /highlight >}}
 
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
-- [kaynak forge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/indir)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip)

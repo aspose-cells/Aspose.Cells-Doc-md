@@ -1,18 +1,19 @@
-﻿---
-title: Eliminación de la cortadora
+---
+title: Eliminar filtro
 type: docs
 weight: 30
 url: /es/net/removing-slicer/
 ---
-## **Posibles escenarios de uso**
 
- Si desea eliminar el cortador en Microsoft Excel, simplemente selecciónelo y presione el botón*Borrar* botón. Del mismo modo, si desea eliminarlo usando Aspose.Cells API programáticamente, use el[**Hoja de trabajo.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove)método. Eliminará la cortadora de la hoja de trabajo.
+## **Escenarios de uso posibles**
 
-## **Eliminación de la cortadora**
+Si desea quitar un filtro en Microsoft Excel, simplemente selecciónelo y presione el botón *Eliminar*. Del mismo modo, si desea quitarlo usando la API de Aspose.Cells programáticamente, utilize el método [**Worksheet.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove). Quitará el filtro de la hoja de cálculo.
 
-El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](67338478.xlsx)que contiene una segmentación existente. Accede a las cortadoras y luego las elimina. Finalmente, guarda el libro de trabajo como[archivo de salida de Excel](67338477.xlsx). La siguiente captura de pantalla muestra la segmentación que se eliminará después de la ejecución del código de muestra.
+## **Eliminar rebanador**
 
-![todo:imagen_alternativa_texto](removing-slicer_1.png)
+El siguiente código muestra el [archivo de Excel de muestra](67338478.xlsx) que contiene un slicer existente. Accede a los slicers y luego lo elimina. Finalmente, guarda el libro de trabajo como [archivo de Excel de salida](67338477.xlsx). La siguiente captura de pantalla muestra el slicer que se eliminará después de la ejecución del código de muestra.
+
+![todo:image_alt_text](removing-slicer_1.png)
 
 ## **Código de muestra**
 

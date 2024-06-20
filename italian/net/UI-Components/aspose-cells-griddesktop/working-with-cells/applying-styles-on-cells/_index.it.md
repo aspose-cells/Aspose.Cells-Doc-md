@@ -1,61 +1,64 @@
-﻿---
-title: Applicazione di stili su Cells
+---
+title: Applica stile alla cella
 type: docs
 weight: 50
-url: /it/net/applying-styles-on-cells/
+url: /it/net/aspose-cells-griddesktop/apply-style-on-cell/
+keywords: GridDesktop,formato,stili,formati numerici,formato numerico,NumberFormat
+description: Questo articolo presenta come ottenere o impostare il formato dello stile nella cella nel foglio di lavoro in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Questo argomento riguarda l'applicazione degli stili alle celle, quindi cercheremo di coprire quasi tutto ciò che può essere utilizzato per applicare lo stile a una cella. Oltre ad alcune impostazioni di formattazione di base, discuteremo anche del disegno dei bordi e dell'impostazione del formato numerico delle celle in dettaglio.
+Questo argomento tratta dell'applicazione del formato dello stile su una cella, copriremo quasi tutte le proprietà correlate che possono essere utilizzate per applicare lo stile a una cella. Oltre a alcune impostazioni di formattazione di base, discuteremo anche del disegno dei bordi e dell'impostazione del formato numerico sulla cella in dettaglio.
 
 {{% /alert %}} 
-## **Applicazione di uno stile personalizzato su un Cell - Un esempio**
-Per modificare il carattere e il colore di una cella utilizzando Aspose.Cells.GridDesktop, procedi nel seguente modo:
+## **Applicare uno stile personalizzato a una cella - Un esempio**
+Per cambiare il font e il colore di una cella utilizzando Aspose.Cells.GridDesktop, si prega di seguire i passaggi seguenti:
 
--  Accedi a qualsiasi desiderato**Foglio di lavoro**
--  Accedi a**Cell** su cui vogliamo applicare a**Stile**
--  Ottenere**Stile** del**Cell**
--  Impostare**Stile** proprietà in base alle vostre esigenze personalizzate
--  Finalmente, set**Stile** del**Cell** con quello aggiornato
+- Accedere a qualsiasi **Foglio di lavoro** desiderato
+- Accedere a una **Cella** su cui vogliamo applicare uno **Stile**
+- Ottenere **Stile** della **Cella**
+- Impostare le proprietà dello **Stile** secondo le proprie esigenze personalizzate
+- Infine, impostare lo **Stile** della **Cella** con quello aggiornato
 
- Ci sono molte proprietà e metodi utili offerti da**Stile** oggetto che può essere utilizzato dagli sviluppatori per personalizzare lo stile in base alle proprie esigenze. Nel codice seguente viene dimostrato come applicare lo stile personalizzato sulla cella.
+Ci sono molte utili proprietà e metodi offerti dall'oggetto **Stile** che possono essere utilizzati dagli sviluppatori per personalizzare lo stile secondo le proprie esigenze. Nel codice seguente viene dimostrato come applicare uno stile personalizzato a una cella.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ApplyStyleOnCells-ApplyStyle.cs" >}}
-## **Bordi di disegno di Cells**
- Usando**Stile**oggetto, possiamo disegnare i bordi di una cella molto facilmente. I bordi possono essere disegnati in qualsiasi colore. Inoltre, gli sviluppatori hanno anche la flessibilità di scegliere un tipo specifico di linea che verrà utilizzato per tracciare i bordi attorno alla cella. Gli sviluppatori possono utilizzare**SetBorderLine** e**ImpostaBorderColor** metodi di**Stile** oggetto per disegnare bordi di qualsiasi tipo e colore. Allo stesso modo, per ottenere informazioni sul confine di qualsiasi cella, gli sviluppatori possono anche utilizzare**GetBorderLine** e**OttieniBorderColor** metodi di**Stile** oggetto.
-### **Tipi di confini**
+## **Disegnare i bordi delle celle**
+Usando l'oggetto **Stile**, è possibile disegnare facilmente i bordi di una cella. I bordi possono essere disegnati in qualsiasi colore. Inoltre, gli sviluppatori hanno anche la flessibilità di scegliere un tipo specifico di linea che verrà utilizzata per disegnare i bordi intorno alla cella. Gli sviluppatori possono utilizzare i metodi **SetBorderLine** e **SetBorderColor** dell'oggetto **Stile** per disegnare bordi di qualsiasi tipo e colore. Allo stesso modo, per ottenere le informazioni sui bordi di qualsiasi cella, gli sviluppatori possono anche utilizzare i metodi **GetBorderLine** e **GetBorderColor** dell'oggetto **Stile**.
+### **Tipi di bordi**
 Ci sono sei tipi di bordi supportati da Aspose.Cells.GridDesktop come segue:
 
 - **Sinistra** , rappresenta il bordo sinistro
 - **Destra** , rappresenta il bordo destro
 - **Superiore** , rappresenta il bordo superiore
-- **Parte inferiore** , rappresenta il bordo inferiore
-- **Diagonale giù** , rappresenta il bordo inferiore diagonale
-- **DiagonalUp** , rappresenta il bordo superiore diagonale
-### **Tipi di linee di confine**
-Un bordo è composto da una linea. Modificando il tipo di linea, cambia l'aspetto di un bordo. Esistono molti tipi di linee di confine supportate da Aspose.Cells.GridDesktop, anch'esse elencate di seguito:
+- **Inferiore** , rappresenta il bordo inferiore
+- **Diagonale in basso** , rappresenta il bordo diagonale in basso
+- **Diagonale in alto** , rappresenta il bordo diagonale in alto
+### **Tipi di linee di bordo**
+Un bordo è composto da una linea. Cambiando il tipo di linea, cambia l'aspetto del bordo. Ci sono molti tipi di linee di bordo supportati da Aspose.Cells.GridDesktop, che sono anche elencati di seguito:
 
-- **Nessuno** , non rappresenta alcun confine
-- **Magro** , rappresenta il bordo a linea continua
-- **medio** , rappresenta il bordo della linea continua con larghezza della linea uguale a 2f
-- **Tratteggiato** , rappresenta il bordo della linea tratteggiata
-- **Punteggiato** , rappresenta il bordo della linea tratteggiata
-- **Di spessore** , rappresenta il bordo della linea continua con larghezza della linea uguale a 3f
-- **MedioTratteggiato** , rappresenta il bordo della linea tratteggiata con larghezza della linea uguale a 2f
-- **ThinDashDotted** , rappresenta il bordo della linea tratteggiata
-- **MediumDashDotted** , rappresenta il bordo della linea tratteggiata tratteggiata con larghezza della linea pari a 2f
-- **ThinDashDotDotted** , rappresenta il bordo della linea tratteggiata punto punto
-- **MedioTrattinoPuntoPunteggiato** , rappresenta il bordo tratteggiato punto punto con larghezza della linea pari a 2f
-## **Riassumendo tutti insieme - Esempio**
+- **Nessuno** , rappresenta nessun bordo
+- **Sottile** , rappresenta un bordo a linea continua
+- **Medio** , rappresenta un bordo a linea continua con larghezza di linea uguale a 2f
+- **Tratteggiato** , rappresenta un bordo a linea tratteggiata
+- **Puntinato** , rappresenta un bordo a linea punteggiata
+- **Spesso** , rappresenta un bordo a linea continua con larghezza di linea uguale a 3f
+- **Medio trattato** , rappresenta un bordo a linea tratteggiata con larghezza di linea uguale a 2f
+- **Sottile tratteggiato puntato** , rappresenta un bordo a linea a tratteggiata puntata
+- **Medio trattato puntato** , rappresenta un bordo a linea a tratteggiata puntata con larghezza di linea uguale a 2f
+- **Sottile trattato punto puntato** , rappresenta un bordo a linea a punto trattato puntato
+- **MediumDashDotDotted**, rappresenta il bordo della linea tratteggiata di una linea con larghezza della linea uguale a 2f
+## **Sommando Tutto Insieme - Esempio**
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-ApplyStyleOnCells-SummingUp.cs" >}}
-## **Impostazione dei formati numerici**
-Aspose.Cells.GridDesktop fornisce anche una forte funzionalità di impostazione dei formati numerici per i valori inseriti nelle celle. Ci sono 58 formati numerici incorporati offerti da Aspose.Cells.GridDesktop. Per visualizzare un elenco completo di tutti i formati numerici supportati, fare riferimento a[Formati numerici supportati.](/cells/it/net/list-of-supported-number-formats/)
+## **Impostare i formati numerici**
+Aspose.Cells.GridDesktop fornisce anche tipi di impostazioni di formati numerici. Ci sono 58 formati numerici integrati offerti da Aspose.Cells.GridDesktop. Per vedere l'elenco completo di tutti i formati numerici supportati, si prega di fare riferimento a [Elenco dei formati numerici supportati.](/cells/it/net/list-of-supported-number-formats/)
 
- A tutti i formati numerici incorporati viene assegnato un**Indice** numero.**Per esempio** il**Indice** numero di**0.00E+00** il formato numerico è**11** . Per utilizzare un formato numerico predefinito in qualsiasi cella, gli sviluppatori possono impostare la proprietà NumberFormat di**Stile** opporsi al**Indice** numero di quel formato numerico specifico. Tuttavia, se gli sviluppatori devono avere il proprio formato numerico personalizzato, possono anche utilizzare la proprietà personalizzata di**Stile** oggetto.
+Tutti i formati numerici integrati hanno assegnato un numero di **Indice**. **Ad esempio**, il numero di **Indice** del formato numerico **0.00E+00** è **11**. Per utilizzare un formato numerico integrato in una qualsiasi cella, gli sviluppatori possono impostare la proprietà NumberFormat dell'oggetto **Style** al numero di **Indice** di quel formato numerico specifico. Tuttavia, se gli sviluppatori hanno bisogno di avere il proprio formato numerico personalizzato, allora possono anche utilizzare la proprietà Personalizzato dell'oggetto **Style**.
 
 
 

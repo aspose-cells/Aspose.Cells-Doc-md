@@ -1,23 +1,24 @@
 ---
-title: Çalışma kitabındaki VBA projesine kitaplık referansı ekleme
+title: VBA projesine kitap başvurusu ekleyin
 type: docs
 weight: 10
 url: /tr/java/add-a-library-reference-to-vba-project-in-workbook/
-description: Aspose.Cells for Java API numaralı telefondan çalışma kitabındaki VBA projesine nasıl kitaplık referansı ekleneceğini öğrenin.
-keywords: How to Add a library reference to VBA project in workbook in Java, Insert a library reference to VBA project in workbook using Java, Java Set library reference to VBA project in workbook. 
+description: Aspose.Cells for Java API si aracılığıyla çalışma kitabına bir kitaplık referansı eklemeyi öğrenin.
+keywords: Java da çalışma kitabına bir kitaplık referansı eklemeyi öğrenin, Java kullanarak çalışma kitabına bir kitaplık referansı ekleyin, Java da çalışma kitabına bir kitaplık referansı ayarlayın. 
 ---
+
 {{% alert color="primary" %}}
 
- Microsoft Excel'de, VBA projesine bir kütüphane referansı ekleyebilirsiniz.**Araçlar > Referanslar...** manuel olarak. Mevcut referanslar arasından seçim yapmanıza veya kitaplığınıza kendiniz göz atmanıza yardımcı olacak aşağıdaki iletişim kutusunu açacaktır.
+Microsoft Excel'de, **Tools > References...**'a tıklayarak çalışma kitabına kitaplık referansı ekleyebilirsiniz. Bu, var olan referanslardan seçmenize veya kütüphanenize göz atmanıza yardımcı olacak olan aşağıdaki iletişim kutusunu açacaktır.
 
-![yapılacak şey:image_alt_text](add-a-library-reference-to-vba-project-in-workbook_1.png)
+![todo:image_alt_text](add-a-library-reference-to-vba-project-in-workbook_1.png)
 
-Ancak bazen kitaplık referansını VBA projesine kod aracılığıyla eklemeniz veya kaydetmeniz gerekir. Aspose.Cells'i kullanarak yapabilirsiniz[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)) yöntem.
+Ancak bazen, kütaplık referansını kod aracılığıyla eklemek veya kaydetmek gerekebilir. Bunun için Aspose.Cells'ın [**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)) yöntemini kullanabilirsiniz.
 
 {{% /alert %}}
 
-##  **Çalışma kitabındaki VBA projesine kütüphane referansı nasıl eklenir**
+## **Çalışma kitabına bir kitaplık referansı eklemeyi öğrenin**
 
- Aşağıdaki örnek kod, kullanarak çalışma kitabının VBA projesine iki kitaplık başvurusu ekler veya kaydeder.[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)) yöntem.
+Aşağıdaki örnek kod, [**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)) yöntemini kullanarak çalışma kitabının VBA projesine iki kütüphane başvurusu ekler veya kaydeder.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddLibraryReference-AddLibraryReference.java" >}}

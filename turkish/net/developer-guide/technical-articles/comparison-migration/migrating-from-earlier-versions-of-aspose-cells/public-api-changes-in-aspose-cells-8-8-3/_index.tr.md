@@ -1,17 +1,18 @@
-﻿---
-title: Genel API Aspose.Cells 8.8.3'teki değişiklikler
+---
+title: Aspose.Cells 8.8.3 te Genel API Değişiklikleri
 type: docs
 weight: 290
 url: /tr/net/public-api-changes-in-aspose-cells-8-8-3/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 8.8.2 sürümünden 8.8.3 sürümüne Aspose.Cells API üzerindeki değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, modül/uygulama geliştiricileri için Aspose.Cells API'sinde 8.8.2'den 8.8.3'e yapılan değişiklikleri açıklar. Yeni ve güncellenmiş genel yöntemler, eklenen ve kaldırılan sınıflar vb. yanı sıra Aspose.Cells arkasındaki davranışlardaki değişikliklerin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **ActiveX Denetimleri için Destek**
-Aspose.Cells for .NET 8.8.3, ShapeCollection'a bir ActiveX denetimi eklemeye izin veren AddActiveXControl yöntemini kullanıma sundu. Yukarıda belirtilen yöntem, kontrol tipini, kontrolün yerleştirileceği yeri ve kontrolün boyutunu belirtmek için 7 parametre gerektirir. Tip, aşağıdaki olası değerlerle ControlType numaralandırması kullanılarak belirtilebilir.
+## **Eklenen API'lar**
+### **ActiveX Kontrollerini Destekleme**
+Aspose.Cells for .NET 8.8.3, ShapeCollection'a ActiveX kontrolü eklemek için kullanılan AddActiveXControl yöntemini ortaya çıkardı. Yukarıda belirtilen yöntem, kontrol türünü, kontrolü yerleştirmek için konumu ve kontrolün boyutunu belirlemek için 7 parametreyi gerektirir. Tür, ControlType numaralandırmasını kullanarak belirtilebilir ve şu olası değerlere sahiptir.
 
 1. ControlType.CheckBox
 1. ControlType.ComboBox
@@ -24,19 +25,19 @@ Aspose.Cells for .NET 8.8.3, ShapeCollection'a bir ActiveX denetimi eklemeye izi
 1. ControlType.SpinButton
 1. ControlType.TextBox
 1. ControlType.ToggleButton
-1. ControlType.Bilinmeyen
+1. ControlType.Unknown
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Çalışma Sayfasına ActiveX Denetimleri Ekleme](/cells/tr/net/add-activex-controls-using-aspose-cells/).
+Bu özellikle ilgili daha fazla bilgi için lütfen [AktivX Kontrollerini Çalışma Tablosuna Ekleme](/cells/tr/net/aspose-cells-kullanarak-activex-kontrollerini-ekleme/) başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -63,20 +64,20 @@ book.Save(dir + "output.xlsx", SaveFormat.Xlsx);
 {{< /highlight >}}
 
 
-### **LoadOptions.SetPaperSize Yöntemi Eklendi**
-Aspose.Cells for .NET 8.8.3, aşağıda gösterildiği gibi yeni kullanıma sunulan LoadOptions.SetPaperSize yöntemini kullanırken varsayılan yazıcının ayarından varsayılan baskı kağıdı boyutunun ayarlanmasına izin verir. Lütfen yukarıda belirtilen yöntemin giriş parametresinin, önceden tanımlanmış kağıt boyutlarını içeren PaperSizeType numaralandırmasından gelen değer olduğunu unutmayın.
+### **LoadOptions.SetPaperSize Method Eklendi**
+Aspose.Cells for .NET 8.8.3, varsayılan yazıcı ayarlarında belirtilen kağıt boyutunu ayarlamak için yeni ortaya çıkarılmış LoadOptions.SetPaperSize yöntemini kullanmaya izin verir. Lütfen dikkat edin, söz konusu yönteme gelen giriş parametresi, önceden tanımlanmış kağıt boyutlarını içeren PaperSizeType numaralandırmasından gelen değeri içerir.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Elektronik Tabloları Belirtilen Kağıt Boyutuyla Yükleyin](/cells/tr/net/load-workbook-with-specified-printer-paper-size/).
+Bu özellikle ilgili daha fazla bilgi için lütfen [Belirli Kağıt Boyutuyla Çalışma Kitaplarını Yükleme](/cells/tr/net/belirtilmis-printer-kağıt-boyutu-ile-calisma-kitaplarini-yukleme/) başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions
 
@@ -93,12 +94,12 @@ var book = new Workbook(dir + "input.xlsx", loadOptions);
 {{< /highlight >}}
 
 
-### **Cell.GetCharacters(flag) Yöntemi Eklendi**
-Aspose.Cells API'leri, Cell.GetCharacters yöntemini kullanarak karakter nesnelerini FontSetting dizisi biçiminde almaya izin verir. Bu sürümle birlikte, Aspose.Cells for .NET API, Cell.GetCharacters'ın Boolean'ı parametre olarak kabul edebilen aşırı yüklenmiş bir sürümünü kullanıma sunmuştur; bu, hücre bir ListObject'in parçasıysa tablo stilinin hücreye uygulanması gerekip gerekmediğini gösterir.
+### **Hücre.GetKarakterler(bayrak) Yöntemi Eklendi**
+Aspose.Cells API'leri, Hücre.GetKarakterler yöntemini kullanarak Karakter nesnelerini FontSetting dizisi formunda almayı sağlar. Bu sürümde, Aspose.Cells for .NET API, bir ListObject'un bir parçasıysa hücreye tablo stili uygulanması gerekip gerekmediğini belirten Boolean'ı parametre olarak kabul edebilen Hücre.GetKarakterler'in aşırı yüklenmiş bir sürümünü ortaya çıkardı.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load an existing spreadsheet
 
@@ -125,20 +126,20 @@ var characters = cell.GetCharacters(true);
 {{< /highlight >}}
 
 
-### **OleObject.AutoLoad Özelliği Eklendi**
-Aspose.Cells for .NET 8.8.3, temel alınan nesnenin içeriği/verileri değiştirilmişse OleObject görüntüsünün yenilenmesine izin veren OleObject.AutoLoad özelliğini ortaya çıkardı. Yukarıda belirtilen özellik, true olarak ayarlandığında, sonuç elektronik tablosu yüklendiğinde Excel uygulamasını OleObject'in görüntüsünü yenilemeye zorlar.
+### **Added OleObject.AutoLoad Property**
+Aspose.Cells for .NET 8.8.3, OleObject.AutoLoad özelliğini ortaya çıkardı. Bu özellik, temel nesnenin içeriğinin/değerinin değiştiğinde OleObject'in görüntüsünü yenilemeye izin verir. Bahsedilen özellik true olarak ayarlandığında, sonuçlanan elektronik tablonun yüklenmesi sırasında Excel uygulamasını OleObject'in görüntüsünü yenilemeye zorlar.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[OleObjects'i Otomatik Olarak Yenile](/cells/tr/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
+Bu özellikle ilgili daha fazla detay için, [Aspose.Cells ile Microsoft Excel Üzerinden OleObjects'u Otomatik Yenileme](/cells/tr/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/) başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load an existing spreadsheet
 
@@ -163,20 +164,20 @@ oleObject.AutoLoad = true;
 {{< /highlight >}}
 
 
-### **HTMLLoadOptions.SupportDivTag Özelliği eklendi**
-Aspose.Cells for .NET 8.8.3, Aspose.Cells nesne modelinde HTML dosya/snippet yüklerken TD etiketlerine gömülü DIV etiketlerinin ayrıştırılmasına izin veren HTMLLoadOptions.SupportDivTag özelliğini kullanıma sundu. Boole tipi özelliğinin varsayılan değeri false'tur.
+### **Added HTMLLoadOptions.SupportDivTag Property**
+Aspose.Cells for .NET 8.8.3, HTMLLoadOptions.SupportDivTag özelliğini ortaya çıkardı. Bu özellik, Aspose.Cells nesne modelindeki HTML dosyalarını/snippet'ları yüklerken TD etiketlerine gömülü DIV etiketlerini ayrıştırmaya izin verir. Boolean türündeki özellik, varsayılan olarak false değerine sahiptir.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Yükleme Sırasında Dahili DIV Etiketlerini Destekleyin HTML](/cells/tr/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+Bu özellikle ilgili daha fazla detay için, [HTML Yüklerken Gömülü DIV Etiketlerini Destekleme](/cells/tr/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/) başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Store the HTML snippet in a variable
 
@@ -275,20 +276,20 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 {{< /highlight >}}
 
 
-### **HtmlSaveOptions.ExportGridLines Özelliği Eklendi**
-Aspose.Cells for .NET 8.8.3, elektronik tabloyu HTML formatına dışa aktarırken ızgara çizgilerini oluşturmaya izin veren HtmlSaveOptions.ExportGridLines özelliğini ortaya çıkardı. Boole türü özelliğinin varsayılan değeri false'tur, ancak true olarak ayarlandığında API, kullanılabilir veri aralığı için kılavuz çizgilerini HTML biçiminde işler.
+### **Added HtmlSaveOptions.ExportGridLines Property**
+Aspose.Cells for .NET 8.8.3, HtmlSaveOptions.ExportGridLines özelliğini ortaya çıkardı. Bu özellik, elektronik tabloyu HTML biçimine dışa aktarırken ızgara çizgilerini renderlamaya izin verir. Boolean türündeki özellik, varsayılan olarak false değere sahiptir, ancak true olarak ayarlandığında API, mevcut veri aralığı için ızgara çizgilerini HTML biçimine renderlar.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Izgara Çizgilerini HTML'e Dönüştür](/cells/tr/net/export-excel-to-html-with-gridlines/).
+Bu özellikle ilgili daha fazla detay için, [HTML'ye Izgara Çizgilerini Renderlama](/cells/tr/net/export-excel-to-html-with-gridlines/) başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load existing spreadsheet
 
@@ -309,20 +310,20 @@ book.Save(dir + "output.html", options);
 {{< /highlight >}}
 
 
-### **ListObject.Comment Özelliği Eklendi**
-Aspose.Cells API'ler artık bir ListObject örneği için yorumların alınmasına ve ayarlanmasına izin veriyor. Yukarıda belirtilen özelliği sağlamak için Aspose.Cells API'leri ListObject.Comment özelliğini kullanıma sunmuştur.
+### **Added ListObject.Comment Property**
+Aspose.Cells API'leri artık bir ListObject'in yorumlarını alıp ayarlamayı sağlar. Yukarıda bahsedilen özelliği sağlamak için, Aspose.Cells API'leri ListObject.Comment özelliğini açığa çıkardı.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[ListObjects için Yorum Ekleme](/cells/tr/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/).
+Bu özellikle ilgili daha fazla detay için, [ListObjects için Yorum Ekleme](/cells/tr/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/) başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load existing spreadsheet
 
@@ -348,15 +349,15 @@ book.Save(dir + "output.xlsx");
 
 
 ### **GridWeb.SessionStorePath Özelliği Eklendi**
-Aspose.Cells.GridWeb for .NET 8.8.3, Oturum Modu ViewState olduğunda oturum deposu yolunu almaya veya ayarlamaya izin veren SessionStorePath özelliğini kullanıma sundu. Yukarıda belirtilen özellik, geçerli web uygulaması Temel Dizinine ilişkin göreli yolu alır veya ayarlar.
+.NET için Aspose.Cells.GridWeb 8.8.3, ViewState Oturum Modu olduğunda oturum saklama yolunu alıp ayarlamaya izin veren SessionStorePath özelliğini ortaya çıkardı. Bahsedilen özellik, mevcut web uygulama Taban Dizini'ne göre göreceli yol alır veya ayarlar.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Geçici Oturum Dosyaları İçin Yol Belirtin](/cells/tr/net/specify-the-path-where-gridweb-stores-temporary-session-files/).
+Bu özellikle ilgili daha fazla detay için, [Geçici Oturum Dosyaları İçin Yol Belirtme](/cells/tr/net/specify-the-path-where-gridweb-stores-temporary-session-files/) başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
-## **Kaldırılan API'ler**
+Basit kullanım senaryosu aşağıda gösterilmektedir.
+## **Removed APIs**
 ### **Workbook.Decrypt Yöntemi Kaldırıldı**
-Söz konusu mülk bir süre önce eski olarak işaretlendi. Bu sürüm, onu genel kullanımdan tamamen kaldırdı API. Aynı hedefe ulaşmak için WorkbookSettings.Password özelliğinin null olarak ayarlanması tavsiye edilir.
+Söz konusu özellik bir süre önce eski olarak işaretlendi. Bu sürümde, söz konusu özelliği tamamen halka açık API'den kaldırdı. Aynı hedefe ulaşmak için WorkbookSettings.Password özelliğini null olarak ayarlamak tavsiye edilir.

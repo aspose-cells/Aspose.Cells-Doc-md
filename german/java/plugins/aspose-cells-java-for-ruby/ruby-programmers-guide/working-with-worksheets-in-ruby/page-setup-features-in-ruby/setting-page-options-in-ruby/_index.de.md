@@ -1,16 +1,17 @@
-﻿---
-title: Festlegen von Seitenoptionen in Ruby
+---
+title: Seitenoptionen in Ruby einstellen
 type: docs
 weight: 10
 url: /de/java/setting-page-options-in-ruby/
 ---
-## **Aspose.Cells – Festlegen von Seitenoptionen**
+
+## **Aspose.Cells - Seitenoptionen einstellen**
 ### **Seitenausrichtung**
- So wenden Sie Seitenausrichtungseinstellungen an mit**Aspose.Cells Java für Rubin** , Anruf**Seitenausrichtung** Methode von**Seiteneinrichtung** Modul.
+Um Seitenausrichtungseinstellungen unter Verwendung von **Aspose.Cells Java für Ruby** anzuwenden, rufen Sie einfach die Methode **page_orientation** des Moduls **pagesetup** auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def page_orientation()
 
@@ -51,12 +52,12 @@ url: /de/java/setting-page-options-in-ruby/
 end   
 
 {{< /highlight >}}
-### **Vergößerungsfaktor, Verkleinerungsfaktor**
- Skalierung anwenden mit**Aspose.Cells Java für Rubin** , Anruf**Skalierung** Methode von**Seiteneinrichtung** Modul.
+### **Maßstab**
+Um die Skalierung mit Aspose.Cells Java für Ruby anzuwenden, rufen Sie einfach die Methode scaling des Moduls pagesetup auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def scaling()
 
@@ -96,7 +97,7 @@ end
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Seitenoptionen einstellen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie die **Einstellungsoptionen für Seiten (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)

@@ -1,14 +1,15 @@
-﻿---
-title: Excel с неподдерживаемым стилем границы до HTML
+---
+title: Excel с неподдерживаемым стилем границы в HTML
 type: docs
 weight: 80
 url: /ru/python-java/excel-with-unsupported-border-style-to/
 ---
-## **Excel с неподдерживаемым стилем границы до HTML**
-Microsoft Excel поддерживает некоторые типы пунктирных границ, которые не поддерживаются веб-браузерами. Когда такие файлы преобразуются в HTML с использованием Aspose.Cells, эти границы удаляются. Однако Aspose.Cells for Python via Java поддерживает отображение похожих границ с[HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportSimilarBorderStyle)имущество. Вы можете установить значение[HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportSimilarBorderStyle) собственность на**Истинный** экспортировать неподдерживаемые границы.
 
-Следующий пример кода загружает[образец файла Excel](sampleExportSimilarBorderStyle.xlsx)который содержит некоторые неподдерживаемые границы, как показано на следующем снимке экрана. Скриншот дополнительно иллюстрирует эффект[HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportSimilarBorderStyle)имущество внутри[вывод HTML](outputExportSimilarBorderStyle.zip).
+## **Excel с неподдерживаемым стилем границы в HTML**
+Microsoft Excel поддерживает некоторые типы пунктирных границ, которые не поддерживаются веб-браузерами. При конвертации таких файлов в HTML с помощью Aspose.Cells эти границы удаляются. Однако Aspose.Cells для Python via Java поддерживает отображение аналогичных границ с помощью свойства ExportSimilarBorderStyle в HtmlSaveOptions. Можно установить значение свойства ExportSimilarBorderStyle в True для экспорта неподдерживаемых границ.
 
-![дело:изображение_альтернативный_текст](Export-Similar-Border-Style.png)
+В следующем образце кода загружается образец файла Excel, который содержит некоторые неподдерживаемые границы, как показано на следующем снимке экрана. Снимок экрана также иллюстрирует эффект свойства ExportSimilarBorderStyle в HtmlSaveOptions в выходном HTML.
+
+![todo:image_alt_text](Export-Similar-Border-Style.png)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-ExportSimilarBorderStyle.py" >}}

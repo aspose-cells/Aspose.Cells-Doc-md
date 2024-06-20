@@ -1,23 +1,26 @@
-﻿---
-title: Удалить рабочие листы
+---
+title: Удаление листов
 type: docs
 weight: 30
-url: /ru/net/remove-worksheets/
+url: /ru/net/aspose-cells-gridweb/remove-worksheets/
+keywords: GridWeb, удалить, удалить GridWorksheet, удалить лист
+description: В этой статье представлено, как удалить лист (GridWorksheet) в GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-В этом разделе содержится информация о том, как удалить рабочие листы из файлов Excel Aspose.Cells с помощью Aspose.Cells.GridWeb API. Можно удалить рабочий лист, указав его индекс листа или имя.
+Эта тема предоставляет информацию о том, как удалять листы из файлов Microsoft Excel с использованием API Aspose.Cells.GridWeb. Можно либо удалить лист, указав его индекс, либо имя.
 
 {{% /alert %}} 
-## **Удаление рабочего листа**
-### **Использование указателя листов**
-В приведенном ниже коде показано, как удалить рабочий лист, указав его индекс листа в методе RemoveAt GridWorksheetCollection.
+## **Удаление листа**
+### **Использование индекса листа**
+Приведенный ниже код показывает, как удалить лист, указав его индекс в методе RemoveAt коллекции GridWorksheetCollection.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-RemoveWorksheets.aspx-RemoveWorksheetUsingIndex.cs" >}}
 ### **Использование имени листа**
-В приведенном ниже коде показано, как удалить рабочий лист, указав его имя в методе RemoveAt GridWorksheetCollection.
+Приведенный ниже код показывает, как удалить лист, указав его имя в методе RemoveAt коллекции GridWorksheetCollection.
 
 
 
@@ -25,6 +28,6 @@ url: /ru/net/remove-worksheets/
 
 {{% alert color="primary" %}} 
 
-Также возможно удалить рабочий лист, используя его ссылку или экземпляр. Для этого используйте метод Remove GridWorksheetCollection. Этот подход широко используется.
+Также возможно удалить лист, используя его ссылку или экземпляр. Для этого используйте метод Remove коллекции GridWorksheetCollection. Этот подход часто используется.
 
 {{% /alert %}}

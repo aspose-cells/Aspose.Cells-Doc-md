@@ -1,23 +1,24 @@
-﻿---
+---
 title: Настройка свойств ScaleCrop и LinksUpToDate встроенных свойств документа
 type: docs
 weight: 320
 url: /ru/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/
 ---
+
 ## **Возможные сценарии использования**
-[МасштабОбрезка](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) и[СсылкиUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate)— это два расширенных встроенных свойства документа, определенные в формате OpenXml. Назначение этих свойств следующее
-## **1) Масштабирование**
- Этот элемент указывает режим отображения миниатюры документа. Установите этот элемент в**ПРАВДА** чтобы включить масштабирование миниатюры документа для отображения. Установите этот элемент в**ЛОЖНЫЙ** чтобы включить обрезку миниатюры документа, чтобы отображались только те разделы, которые подходят для дисплея.
+[ScaleCrop](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) и [LinksUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate) - это два расширенных встроенных свойства документа, определенных в формате OpenXml. Цель этих свойств следующая
+## **1) ScaleCrop**
+Этот элемент указывает режим отображения миниатюры документа. Установите этот элемент в **TRUE**, чтобы включить масштабирование миниатюры документа для отображения. Установите этот элемент в **FALSE**, чтобы обрезать миниатюру документа и показать только секции, которые помещаются на экране.
 
-Возможные значения для этого элемента определяются логическим типом данных W3C XML Schema.
+Допустимые значения для этого элемента определяются типом данных W3C XML Schema boolean.
 ## **2) LinksUpToDate**
- Этот элемент указывает, являются ли гиперссылки в документе актуальными. Установите этот элемент в**ПРАВДА** чтобы указать, что гиперссылки обновлены. Установите этот элемент в**ЛОЖНЫЙ** чтобы указать, что гиперссылки устарели.
+Этот элемент указывает, актуальны ли гиперссылки в документе. Установите этот элемент в **TRUE**, чтобы указать, что гиперссылки обновлены. Установите этот элемент в **FALSE**, чтобы указать, что гиперссылки устарели.
 
-Возможные значения для этого элемента определяются логическим типом данных W3C XML Schema.
+Допустимые значения для этого элемента определяются типом данных W3C XML Schema boolean.
 ## **Снимок экрана, показывающий эти свойства в файле app.xml**
-![дело:изображение_альтернативный_текст](setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties_1.png)
+![todo:image_alt_text](setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties_1.png)
 ## **Настройка свойств ScaleCrop и LinksUpToDate встроенных свойств документа**
- В следующем примере кода задается[МасштабОбрезка](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) и[СсылкиUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate) расширенные встроенные свойства документа книги. Пожалуйста, проверьте[выходной файл excel](5115500.xlsx)созданный с помощью этого кода, измените его расширение на .zip, извлеките его содержимое и просмотрите app.xml, как показано на снимке экрана выше.
+В следующем образце кода устанавливаются [ScaleCrop](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) и [LinksUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate) расширенные встроенные свойства документа книги. Пожалуйстa, проверьте [выходной файл Excel](5115500.xlsx), сгенерированный с помощью этого кода, измените его расширение на .zip, извлеките его содержимое и просмотрите файл app.xml как показано на снимке экрана выше.
 
 
 

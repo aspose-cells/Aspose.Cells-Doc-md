@@ -1,35 +1,36 @@
 ---
-title: Direkt beräkning av anpassad funktion utan att skriva det i ett kalkylblad
-description: Den här artikeln introducerar hur du använder Aspose.Cells-biblioteket för att direkt beräkna anpassade funktioner i Microsoft Excel utan att skriva funktionen i ett kalkylblad. Genom att ladda en befintlig Excel-fil eller skapa en ny Excel-fil kan vi använda metoderna som tillhandahålls av Aspose.Cells för att beräkna den anpassade funktionen och få resultatet. Slutligen sparar vi den modifierade Excel-filen på disken.
-keywords: Aspose.Cells, Excel, custom functions, direct calculations, no need to write, worksheets
+title: Direkt beräkning av anpassad funktion utan att skriva den i en kalkylblad
+description: Den här artikeln introducerar hur man använder Aspose.Cells biblioteket för att direkt beräkna anpassade funktioner i Microsoft Excel utan att skriva funktionen i en arbetsbok. Genom att ladda en befintlig Excel fil eller skapa en ny kan vi använda de metoder som tillhandahålls av Aspose.Cells för att beräkna den anpassade funktionen och få resultatet. Slutligen sparar vi den modifierade Excel filen på disk.
+keywords: Aspose.Cells, Excel, anpassade funktioner, direkt beräkning, ingen anledning att skriva, arbetsböcker
 type: docs
 weight: 90
 url: /sv/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/
 ---
-##  **Direkt beräkning av anpassad funktion utan att skriva det i ett kalkylblad**
 
- Det här avsnittet förklarar hur du direkt kan beräkna dina anpassade funktioner utan att först skriva dem i ett kalkylblad. Vänligen använd[**Worksheet.CalculateFormula(strängformel, alternativ för beräkningsalternativ)**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3)metod för detta ändamål.
+## **Direkt beräkning av anpassad funktion utan att skriva den i en kalkylblad**
 
-Se följande exempelkod som illustrerar användningen av denna metod. Vi har använt en anpassad funktion som heter MyCompany.CustomFunction() och vi beräknar dess värde som "Aspose.Cells." av oss själva och sedan sammanlänkas detta värde automatiskt med värdet för cell A1 som är "Välkommen till " av beräkningsmotorn och det slutgiltiga beräknade värdet returneras som "Välkommen till Aspose.Cells." Som du kan se i en kod som vi har inte skrivit vår anpassade funktion någonstans i ett kalkylblad och den beräknas direkt av vår egen anpassade logik.
+Den här artikeln förklarar hur du kan direkt beräkna dina anpassade funktioner utan först att skriva dem i en arbetsbok. Använd [**Worksheet.CalculateFormula(string formula, CalculationOptions opts)**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3)-metoden för detta ändamål.
 
-###  **Programmeringsexempel**
+Se följande exempelkod som illustrerar användningen av denna metod. Vi har använt en anpassad funktion som heter MyCompany.CustomFunction() och beräknar dess värde som "Aspose.Cells." på egen hand och sedan konkateneras detta värde automatiskt med värdet för cell A1, vilket är "Välkommen till " av beräkningsmotorn och det slutliga beräknade värdet returneras som "Välkommen till Aspose.Cells.". Som du kan se i koden har vi inte skrivit vår anpassade funktion någonstans i en arbetsbok och den beräknas direkt av vår egen anpassade logik.
+
+### **Programmeringsexempel**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ImplementDirectCalculationOfCustomFunction-ImplementDirectCalculationOfCustomFunction.cs" >}}
 
-###  **Konsolutgång**
+### **Konsoloutput**
 
-Nedan är konsolutgången för ovanstående exempelkod.
+Nedan är konsol utmatningen av ovanstående provkod.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Calculated Value: Welcome to Aspose.Cells.
 
 {{< /highlight >}}
 
-###  **Relaterad artikel**
+### **Relaterad artikel**
 
 {{% alert color="primary" %}}
 
-[Implementera Custom Calculation Engine för att utöka standardberäkningsmotorn för Aspose.Cells](/cells/sv/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+[Implementera anpassad beräkningsmotor för att utöka standardberäkningsmotorn i Aspose.Cells](/cells/sv/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}

@@ -1,31 +1,32 @@
-﻿---
-title: Jython'da Aspose.Cells'i İndirin ve Yapılandırın
+---
+title: Jython da Aspose.Cells i İndirme ve Yapılandırma
 type: docs
 weight: 10
 url: /tr/java/download-and-configure-aspose-cells-in-jython/
 ---
-## **indiriliyor**
 
-**Sosyal kodlama web sitelerinden örnekler indirin**
+## **İndirme**
 
-Çalışan örneklerin aşağıdaki yayınları, aşağıda belirtilen sosyal kodlama sitelerinin tümünde indirilebilir:
+**Sosyal kodlama sitelerinden örnekleri indirin**
+
+Çalışan örnek sürümlerini aşağıda belirtilen tüm sosyal kodlama sitelerinden indirebilirsiniz:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython)
 
-**Aspose.Cells for Java bileşenini indir**
+**Aspose.Cells for Java bileşenini indirin**
 
 - [Aspose.Cells for Java](https://downloads.aspose.com/cells/java)
 
-## **yükleme**
+## **Yüklemek**
 
-- İndirdiğiniz Aspose.Cells for Java jar dosyasını "lib" dizinine atın.
-- _*init*_.py dosyasında "your-lib" ifadesini indirilen jar dosya adıyla değiştirin.
+- İndirilen Aspose.Cells for Java jar dosyasını "lib" dizinine yerleştirin.
+- _*init*_.py dosyasında "your-lib" yerine indirilen jar dosya adını değiştirin.
 
-## **kullanma**
+## **Kullanarak**
 
 Aşağıdaki örnek kodu kullanarak HelloWorld belgesi oluşturabilirsiniz:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells  import Settings
 

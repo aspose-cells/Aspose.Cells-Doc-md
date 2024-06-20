@@ -1,11 +1,12 @@
-﻿---
-title: チャートの位置とサイズを変更する
+---
+title: チャートの位置とサイズを変更
 type: docs
 weight: 20
 url: /ja/java/change-chart-position-and-size/
 ---
-## **Aspose.Cells - チャートの位置とサイズの変更**
-グラフの位置 (X、Y 座標) とサイズ (高さ、幅) を変更するには、Aspose.Cells を使用して次のプロパティを使用します。
+
+## **Aspose.Cells - チャートの位置とサイズを変更**
+チャートの位置（X、Y座標）およびサイズ（高さ、幅）を変更するには、Aspose.Cellsを使用してこれらのプロパティを使用します。 
 
 1. Chart.getChartObject().get/setWidth()
 1. Chart.getChartObject().get/setHeight()
@@ -14,7 +15,7 @@ url: /ja/java/change-chart-position-and-size/
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook(dataDir + "AsposeChart.xls");
 
@@ -37,13 +38,13 @@ chart.getChartObject().setX(250);
 chart.getChartObject().setY(150);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/charts/AsposeChangeChartPositionAndSize.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[グラフの位置とサイズを変更する](/cells/ja/java/change-chart-position-and-size/).
+詳細については、[チャートの位置とサイズを変更](/cells/ja/java/change-chart-position-and-size/)を参照してください。
 
 {{% /alert %}}

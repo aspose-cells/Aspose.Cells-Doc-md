@@ -1,32 +1,34 @@
-﻿---
-title: Arbeitsblatt zum Schützen und Aufheben des Schutzes
+---
+title: Arbeitsblatt schützen und entschützen
 type: docs
 weight: 40
 url: /de/python-java/protect-and-unprotect-worksheet/
-description: Schützen und entschützen Sie das Arbeitsblatt von Excel-Dateien mit Aspose.Cells for Python via Java.
+description: Arbeitsblatt von Excel Dateien mit Aspose.Cells für Python via Java schützen und aufheben.
 ---
+
+
 {{% alert color="primary" %}}
-Um zu verhindern, dass andere Benutzer versehentlich oder absichtlich Daten in einem Arbeitsblatt ändern, verschieben oder löschen, können Sie die Zellen in Ihrem Excel-Arbeitsblatt sperren und das Blatt dann mit einem Kennwort schützen.
+Um zu verhindern, dass andere Benutzer versehentlich oder absichtlich Daten in einem Arbeitsblatt ändern, verschieben oder löschen, können Sie die Zellen in Ihrem Excel-Arbeitsblatt sperren und das Blatt dann mit einem Kennwort schützen. 
 {{% /alert %}}
 
 
-## **Arbeitsblatt in MS Excel schützen und Schutz aufheben**
+## **Arbeitsblatt in MS Excel schützen und aufheben**
 
-**![Arbeitsblatt schützen und Schutz aufheben](protect-and-unprotect-worksheet.png)**
+**![Arbeitsblatt schützen und aufheben](schuetzen-und-aufheben.png)**
 
-1.  Klicken**Überprüfen > Arbeitsblatt schützen**.
-1.  Geben Sie ein Passwort ein**das Feld Passwort**.
-1.  Wählen**ermöglichen** Optionen.
-1.  Wählen**OK** , geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann aus**OK** aufs Neue.
+1. Klicken Sie auf **Überprüfen > Arbeitsblatt schützen**.
+1. Geben Sie ein Passwort in das **Passwortfeld** ein.
+1. Wählen Sie die **Zulassen**-Optionen aus.
+1. Wählen Sie **OK**, geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann erneut **OK**.
 
 
-## **Schützen Sie das Arbeitsblatt mit Aspose.Cell for Python**
-Sie benötigen nur die folgenden einfachen Codezeilen, um den Schutz der Arbeitsmappenstruktur von Excel-Dateien zu implementieren.
+## **Arbeitsblatt mit Aspose.Cell für Python schützen**
+Es sind nur die folgenden einfachen Codezeilen erforderlich, um die Arbeitsmappenstruktur von Excel-Dateien zu schützen.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Protect-Worksheet.py" >}}
 
-## **Schutz des Arbeitsblatts mit Aspose.Cell for Python aufheben**
-Das Aufheben des Arbeitsblattschutzes ist einfach mit Aspose.Cells API. Wenn das Arbeitsblatt passwortgeschützt ist, ist ein korrektes Passwort erforderlich.
+## **Arbeitsblatt mit Aspose.Cell für Python aufheben**
+Das Aufheben des Arbeitsblatts ist mit der Aspose.Cells-API einfach. Wenn das Arbeitsblatt passwortgeschützt ist, ist ein korrektes Kennwort erforderlich.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Unprotect-Worksheet.py" >}}
 

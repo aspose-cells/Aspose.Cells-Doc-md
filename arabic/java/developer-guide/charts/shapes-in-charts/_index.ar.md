@@ -1,101 +1,102 @@
-﻿---
-title: الضوابط في الرسوم البيانية
+---
+title: التحكم في الرسوم البيانية
 linktitle: الأشكال في الرسم البياني
 type: docs
 weight: 60
 url: /ar/java/controls-in-charts/
 ---
+
 {{% alert color="primary" %}}
 
-تحتاج أحيانًا إلى إدراج كائنات رسومية مثل الملصقات ومربعات النص والصور وما إلى ذلك في مخطط. يمكن أن يقوم Aspose.Cells بإضافة عناصر التحكم إلى مخطط في وقت التشغيل.
+أحيانًا تحتاج إلى إدراج كائنات الرسم مثل التسميات وصناديق النص والصور وما إلى ذلك في رسم بياني. يمكن لـ Aspose.Cells إضافة عناصر التحكم إلى رسم بياني في وقت التشغيل.
 
 {{% /alert %}}
 
-## **إضافة عنصر تحكم التسمية إلى التخطيط**
+## **إضافة عنصر تحكم التسمية إلى الرسم البياني.**
 
-توفر التصنيفات وسيلة لإعطاء معلومات للمستخدمين حول محتوى جدول البيانات. Aspose.Cells يسمح لك بإضافة ومعالجة التسميات حتى في المخططات.
+توفر التسميات وسيلة لتقديم معلومات للمستخدمين حول محتوى جدول بيانات. تسمح Aspose.Cells لك بإضافة وتلاعب التسميات حتى في الرسوم البيانية.
 
- ال[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) توفر class طريقة تسمى[**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)) ، تُستخدم لإضافة عنصر تحكم تسمية إلى مخطط. فيما يلي قائمة بالمعلمات المستخدمة للطريقة:
+توفر فئة [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) طريقة تسمى [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)) لإضافة عنصر تحكم بالتسمية إلى رسم بياني. فيما يلي قائمة بالمعلمات المستخدمة للطريقة:
 
-- **أعلى** - الإزاحة الرأسية للملصق من الزاوية اليسرى العليا بوحدات 1/4000 من منطقة الرسم البياني.
-- **اليسار** - الإزاحة الرأسية للملصق من الزاوية اليسرى العليا بوحدات 1/4000 من منطقة الرسم البياني.
-- **ارتفاع** - ارتفاع الملصق بوحدات 1/4000 من منطقة الرسم البياني.
-- **العرض** - عرض الملصق بوحدات 1/4000 من مساحة الرسم البياني.
+- الأعلى - الإزاحة الرأسية للتسمية عن الزاوية اليسرى العلوية بوحدات تمثل 1/4000 من منطقة الرسم البياني.
+- اليسار - الإزاحة الرأسية للتسمية عن الزاوية اليسرى العلوية بوحدات تمثل 1/4000 من منطقة الرسم البياني.
+- الارتفاع - ارتفاع التسمية، بوحدات تمثل 1/4000 من منطقة الرسم البياني.
+- **width** – العرض للتسمية، بوحدات 1/4000 من مساحة الرسم البياني.
 
- تقوم الطريقة بإرجاع كائن من[**مُلصَق**](https://reference.aspose.com/cells/java/com.aspose.cells/Label) الطبقة ، حيث[**مُلصَق**](https://reference.aspose.com/cells/java/com.aspose.cells/Label)فئة تمثل تسمية في الرسم البياني. لديها بعض الأعضاء المهمين كما هو مفصل أدناه:
+تُعيد الطريقة كائنًا من فئة [**Label**](https://reference.aspose.com/cells/java/com.aspose.cells/Label)، حيث تُمثل الفئة [**Label**](https://reference.aspose.com/cells/java/com.aspose.cells/Label) تسمية في الرسم البياني. تحتوي على بعض الأعضاء المهمة كما هو مفصل أدناه:
 
-- [**نص**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Text)تحدد الخاصية سلسلة التسمية التوضيحية الخاصة بالتسمية.
-- [**ملء**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Fill) تحدد الخاصية سمات لون التعبئة.
+- تحدد [**Text**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Text) السمة سلسلة التسمية.
+- تحدد السمة [**Fill**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Fill) سمات لون التعبئة.
 
-يوضح المثال التالي كيفية إضافة تسمية إلى المخطط. يستخدم المثال ملف مصمم يحتوي على مخطط بداخله. نستخدم هذا الملف لإدراج تسمية في الرسم البياني.
+يوضح المثال التالي كيفية إضافة تسمية إلى الرسم البياني. يستخدم المثال ملف مصمم يحتوي على رسم بياني فيه. نستخدم هذا الملف لإدراج تسمية في الرسم البياني.
 
-يوجد أدناه لقطة شاشة لملف المصمم.
+أدناه لقطة شاشة للملف المصمم.
 
-**مخطط المصمم**
+**مخطط التصميم**
 
-![ما يجب القيام به: image_بديل_نص](controls-in-charts_1.png)
+![todo:image_alt_text](controls-in-charts_1.png)
 
-يوجد أدناه الرمز الأصلي لإضافة تسمية إلى الرسم البياني. يتم إنشاء الإخراج التالي عند تنفيذ التعليمات البرمجية.
+فيما يلي الرمز الأصلي لإضافة تسمية إلى المخطط. يتم توليد النتائج التالية عند تنفيذ الرمز.
 
-**تمت إضافة تسمية في الرسم البياني**
+**تمت إضافة تسمية في المخطط**
 
-![ما يجب القيام به: image_بديل_نص](controls-in-charts_2.png)
+![todo:image_alt_text](controls-in-charts_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingLabelControl-AddingLabelControl.java" >}}
 
-## **إضافة عنصر تحكم مربع نص إلى التخطيط**
+## **إضافة عنصر تحكم مربع نص إلى الرسم البياني**
 
- تتمثل إحدى طرق تمييز المعلومات المهمة في التقرير في استخدام مربع نص. على سبيل المثال ، أدخل نصًا لتمييز اسم الشركة أو للإشارة إلى المنطقة الجغرافية التي تحقق أعلى مبيعات. ال[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) توفر class طريقة تسمى[**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)) ، والتي تُستخدم لإضافة عنصر تحكم مربع نص إلى مخطط. فيما يلي قائمة المعلمات المستخدمة للطريقة:
+أحد الطرق لتسليط الضوء على معلومات مهمة في تقرير هو استخدام مربع نص. على سبيل المثال ، أدخل نصًا لتسليط الضوء على اسم الشركة أو للإشارة إلى المنطقة الجغرافية ذات أعلى مبيعات. توفر صف الفصل [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) طريقة تسمى [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)) ، التي تُستخدم لإضافة عنصر تحكم مربع نص إلى رسم بياني. وفيما يلي قائمة المعلمات المستخدمة للطريقة:
 
-- **أعلى** - الإزاحة الرأسية لمربع النص من الزاوية اليسرى العليا بوحدات 1/4000 من منطقة الرسم البياني.
-- **اليسار** - الإزاحة الرأسية لمربع النص من الزاوية اليسرى العليا بوحدات 1/4000 من منطقة الرسم البياني.
-- **ارتفاع** ارتفاع مربع النص بوحدات 1/4000 من مساحة الرسم البياني.
-- **العرض** - عرض مربع النص بوحدات 1/4000 من مساحة الرسم البياني.
+- **top** - الإزاحة الرأسية لمربع النص من الزاوية اليسرى العلوية بوحدات 1/4000 من منطقة الرسم البياني.
+- **left** – الإزاحة الأفقية لمربع النص عن الزاوية العلوية اليسرى بوحدات تعادل 1/4000 من منطقة المخطط.
+- **height** - ارتفاع مربع النص ، بوحدات 1/4000 من منطقة الرسم البياني.
+- **width** - عرض مربع النص ، بوحدات 1/4000 من منطقة الرسم البياني.
 
- تقوم الطريقة بإرجاع كائن من[**مربع الكتابة**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox) فئة حيث[**مربع الكتابة**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox)يمثل class مربع نص في الرسم البياني.
+تُرجع الطريقة كائنًا من فئة [**TextBox**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox) حيث تمثل الفئة [**TextBox**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox) مربع نص في المخطط.
 
-يوضح المثال التالي كيفية إضافة مربع نص إلى مخطط. يستخدم المثال ملف المصمم السابق الذي يحتوي على مخطط بداخله. نستخدم هذا الملف لإدراج مربع نص في المخطط لإظهار عنوان المخطط.
+يلخص المثال التالي كيفية إضافة مربع نص إلى مخطط. يستخدم المثال الملف التصميمي السابق الذي يحتوي على مخطط. نحن نستخدم هذا الملف لإدراج مربع نص في المخطط لعرض عنوان المخطط.
 
-يوجد أدناه الرمز الأصلي لإضافة مربع نص إلى المخطط. يتم إنشاء الإخراج التالي عند تنفيذ التعليمات البرمجية.
+فيما يلي الرمز الأصلي لإضافة مربع نص إلى المخطط. يتم توليد النتائج التالية عند تنفيذ الرمز.
 
-**تمت إضافة مربع نص في الرسم البياني**
+**تمت إضافة مربع نص في المخطط**
 
-![ما يجب القيام به: image_بديل_نص](controls-in-charts_3.png)
+![todo:image_alt_text](controls-in-charts_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingTextBoxControl-AddingTextBoxControl.java" >}}
 
-## **إضافة صورة إلى المخطط**
+## **إضافة صورة إلى الرسم البياني**
 
-Aspose.Cells يسمح لك بادراج صور في مخطط. على سبيل المثال ، أضف صورة للتأكيد أو لإعطاء معنى أكبر للمخطط أو محتوياته ، أو قم بإدراج ملف صورة العلامة التجارية.
+تسمح Aspose.Cells لك بإدراج الصور في الرسم البياني. على سبيل المثال ، أضف صورة لتسليط الضوء على الرسم البياني أو محتوياته بمعنى أكبر ، أو قم بإدراج ملف صورة العلامة التجارية.
 
- ال[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) توفر class طريقة تسمى[**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)) ، والذي يستخدم لإضافة كائن صورة إلى المخطط. فيما يلي قائمة المعلمات المستخدمة للطريقة:
+يوفر صف الفصل [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) طريقة تسمى [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)) ، والتي تُستخدم لإضافة كائن صورة إلى الرسم البياني. وفيما يلي قائمة المعلمات المستخدمة للطريقة:
 
-- **أعلى** الإزاحة الرأسية للصورة من الزاوية اليسرى العليا بوحدات 1/4000 من منطقة الرسم البياني.
-- **اليسار** الإزاحة الرأسية للصورة من الزاوية اليسرى العليا بوحدات 1/4000 من منطقة الرسم البياني.
-- **مجرى** - كائن تيار يحتوي على بيانات الصورة.
-- **العرض** - مقياس عرض الصورة ، قيمة النسبة المئوية.
-- **الارتفاع** - مقياس ارتفاع الصورة ، قيمة النسبة المئوية.
+- **top** - الإزاحة الرأسية للصورة من الزاوية اليسرى العلوية بوحدات 1/4000 من منطقة الرسم البياني.
+- **left** - الإزاحة الرأسية للصورة من الزاوية اليسرى العلوية بوحدات 1/4000 من منطقة الرسم البياني.
+- **stream** - كائن تدفق يحتوي على بيانات الصورة.
+- **widthScale** - مقياس عرض الصورة ، قيمة نسبية.
+- **heightScale** - مقياس ارتفاع الصورة ، قيمة نسبية.
 
- تقوم الطريقة بإرجاع كائن من[**صورة**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) فئة حيث[**صورة**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)فئة تمثل كائن صورة في الرسم البياني.
+تقوم الطريقة بإرجاع كائن من الفئة [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) حيث تمثل الفئة [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) كائن صورة في الرسم البياني.
 
-يوضح المثال التالي كيفية إضافة صورة إلى المخطط. يستخدم المثال ملف المصمم السابق الذي يحتوي على مخطط بداخله. نستخدم هذا الملف لإدراج صورة في الرسم البياني.
+المثال التالي يوضح كيفية إضافة صورة إلى الرسم البياني. يستخدم المثال الملف المصمم السابق الذي يحتوي على رسم بياني فيه. نحن نستخدم هذا الملف لإدراج صورة في الرسم البياني.
 
-يوجد أدناه الرمز الأصلي لإضافة صورة إلى المخطط. يتم إنشاء الإخراج التالي عند تنفيذ التعليمات البرمجية
+أدناه هو الكود الأصلي لإضافة صورة إلى الرسم البياني. يتم توليد الناتج التالي عند تنفيذ الكود.
 
-**يتم ادراج صوره في المخطط**
+**يتم إدراج صورة في الرسم البياني**
 
-![ما يجب القيام به: image_بديل_نص](controls-in-charts_4.png)
+![todo:image_alt_text](controls-in-charts_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingPictureToChart-AddingPictureToChart.java" >}}
 
 ## **إضافة خانة اختيار في الرسم البياني**
 
-Aspose.Cells يسمح لك بإدراج مربعات الاختيار في ورقة المخطط باستخدام[**MsoDrawingType**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoDrawingType) تعداد. يوضح المثال التالي إضافة خانة اختيار إلى ورقة المخطط.
+تسمح Aspose.Cells لك بإدراج مربعات اختيار في ورقة الرسم البياني باستخدام تعداد [**MsoDrawingType**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoDrawingType). يوضح المثال التالي إضافة مربع اختيار إلى ورقة الرسم البياني.
 
-تُظهر الصورة التالية ورقة المخطط مع مربع الاختيار في ملف الإخراج.
+الصورة التالية تظهر ورقة الرسم البياني مع خانة الاختيار في ملف الإخراج.
 
-![ما يجب القيام به: image_بديل_نص](controls-in-charts_5.jpg)
+![todo:image_alt_text](controls-in-charts_5.jpg)
 
-ال[ملف إلاخراج](InsertCheckboxInChartSheet_out.xlsx)تم إنشاؤه بواسطة مقتطف الشفرة التالي مرفقًا كمرجع لك.
+[ملف الناتج](InsertCheckboxInChartSheet_out.xlsx) الذي تم إنشاؤه بواسطة مقتطف الكود التالي مرفق للرجوع إليه.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}

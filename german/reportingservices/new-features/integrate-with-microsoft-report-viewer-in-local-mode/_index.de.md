@@ -1,42 +1,43 @@
-﻿---
-title: Integration mit Microsoft Report Viewer im lokalen Modus
+---
+title: Integration mit dem Microsoft Report Viewer im lokalen Modus
 type: docs
 weight: 30
 url: /de/reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Report Viewer ist ein leistungsstarkes .NET Steuerelement, mit dem RDL- und RDLC-Berichte in WinForms- und ASP.NET-Anwendungen verwendet werden können. Es ermöglicht Benutzern, Berichte in verschiedenen Formaten anzuzeigen und zu exportieren. Das Steuerelement ist in Microsoft Visual Studio 2005 und 2008 enthalten und steht auch als kostenloser Download unter Microsoft zur Verfügung.
+Microsoft Report Viewer ist ein leistungsstelles .NET-Steuerelement, das es ermöglicht, RDL- und RDLC-Berichte in WinForms- und ASP.NET-Anwendungen zu verwenden. Es ermöglicht Benutzern, Berichte in verschiedenen Formaten anzuzeigen und zu exportieren. Das Steuerelement ist in Microsoft Visual Studio 2008 und 2005 enthalten und steht auch als kostenloser Download von Microsoft zur Verfügung.
 
-Report Viewer kann Berichte mithilfe einer integrierten Engine (bekannt als „lokaler Modus“) unabhängig generieren oder Berichte anzeigen, die auf einem Microsoft SQL Server Reporting Services-Berichtsserver generiert werden („Remotemodus“):
+Der Berichts-Viewer kann Berichte unabhängig mithilfe eines integrierten Motors (bekannt als 'lokaler Modus') generieren oder Berichte anzeigen, die auf einem Microsoft SQL Server Reporting Services Report Server generiert wurden ('Entfernter Modus').
 
-- Im Remote-Modus kann Report Viewer Berichte in alle Formate exportieren, die auf dem Berichtsserver installiert sind, mit dem er verbunden ist. Um Berichte in weitere Microsoft Excel-Formate zu exportieren, müssen Sie daher nur Aspose.Cells for Reporting Services auf dem Server installieren.
-- Im lokalen Modus stellt Report Viewer jedoch keine Verbindung zu einem Berichtsserver her, und die Liste der Exportformate ist auf einige wenige integrierte Formate beschränkt.
+Im entfernten Modus kann der Berichts-Viewer Berichte in alle auf dem Server installierten Formate exportieren, mit dem er verbunden ist. Daher müssen Sie nur Aspose.Cells for Reporting Services auf dem Server installieren, um Berichte in mehr Microsoft Excel-Formate zu exportieren.
+Im lokalen Modus hingegen verbindet sich der Berichts-Viewer nicht mit einem Berichts-Server und die Liste der Exportformate ist auf nur wenige integrierte Formate beschränkt.
 
-Indem Sie Aspose.Cells for Reporting Services auf einem Entwicklungscomputer installieren und die folgenden Schritte ausführen, können Sie aus Report Viewer, der im lokalen Modus arbeitet, in weitere Microsoft Excel-Formate exportieren.
+Durch die Installation von Aspose.Cells for Reporting Services auf einer Entwicklungs-Maschine und das Befolgen der untenstehenden Schritte können Sie Berichte im lokalen Modus mit dem Berichts-Viewer in mehr Microsoft Excel-Formate exportieren. 
 
 {{% /alert %}} 
 ### **Arbeiten mit Aspose.Cells im lokalen Modus**
-1.  Referenz**Aspose.Cells.ReportingServices.dll** im Projekt:
- 1. Öffnen Sie das Projekt in Visual Studio.
- 1. Klicken Sie mit der rechten Maustaste auf die**Verweise** Ordner und wählen Sie aus**Referenz hinzufügen**.
- 1. Wählen Sie die aus**Durchsuche** Registerkarte und navigieren Sie zu der folgenden Assembly:
+1. Referenzieren Sie **Aspose.Cells.ReportingServices.dll** im Projekt: 
+   1. Öffnen Sie das Projekt in Visual Studio.
+   1. Klicken Sie mit der rechten Maustaste auf den **Verweise**-Ordner und wählen Sie **Verweis hinzufügen**.
+   1. Wählen Sie den **Durchsuchen**-Tab und navigieren Sie zu der folgenden Assembly:
       <InstallDir>/ ReportView/Aspose.Cells.ReportingServices.dll
- (wo<InstallDir> ist das Verzeichnis, in dem Sie Aspose.Cells for Reporting Services installiert oder entpackt haben.
+      (where <InstallDir> is the directory where you installed or unpacked Aspose.Cells for Reporting Services. 
 
-      **Hinzufügen eines Verweises auf Aspose.Cells.ReportingServices.dll zu einem Projekt** 
+      **Hinzufügen einer Referenz zu Aspose.Cells.ReportingServices.dll zu einem Projekt** 
 
-![todo: Bild_alt_Text](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
-
-
+![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
 
 
-1. Kopieren Sie die folgende AddExtension-Methode, und fügen Sie sie in das Projekt ein.
- Diese Methode fügt die angegebene Renderingerweiterung der Liste der unterstützten Erweiterungen in Microsoft Report Viewer mithilfe von privater Reflektion hinzu.
+
+
+1. Kopieren und fügen Sie die folgende AddExtension-Methode in das Projekt ein.
+   Diese Methode fügt die angegebene Rendierungserweiterung zur Liste der unterstützten Erweiterungen im Microsoft-Berichts-Viewer mithilfe der privaten Reflektion hinzu. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -143,7 +144,7 @@ extensions.Add(instance);
 
 **VB .NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -245,14 +246,14 @@ End Sub
 
 {{< /highlight >}}
 
-1.  Rufen Sie die AddExtension-Methode aus dem Code auf.
- Sie können AddExtension (im vorherigen Schritt gezeigt) aufrufen, wann immer Sie Aspose.Cells for Reporting Services-Exportformate zu einer Report Viewer-Steuerelementinstanz hinzufügen müssen. Erwägen Sie, über das Formular anzurufen_Laden oder Seite_Ereignishandler einer WinForms- oder ASP .NET-Anwendung laden.
- - Sie können alle oder nur einige Exportformate Aspose.Cells for Reporting Services hinzufügen. Sie können einen beliebigen Anzeigenamen für die Formate angeben, die in Report Viewer angezeigt werden sollen.
- Um Aspose.Cells for Reporting Services Exportformate zu Microsoft Report Viewer im lokalen Modus hinzuzufügen, verwenden Sie den folgenden Code:
+1. Rufen Sie die AddExtension-Methode aus dem Code auf. 
+   - Sie können AddExtension (wie im vorherigen Schritt gezeigt) immer dann aufrufen, wenn Sie Aspose.Cells for Reporting Services-Exportformate zu einer Report Viewer-Steuerinstanz hinzufügen müssen. Erwägen Sie den Aufruf aus dem Form_Load- oder Page_Load-Ereignishandler einer WinForms- oder ASP .NET-Anwendung.
+   - Sie können alle oder nur einige Export-Aspose.Cells for Reporting Services-Formate hinzufügen. Sie können einen beliebigen Anzeigenamen für die Formate festlegen, die im Berichts-Viewer erscheinen sollen.
+     Um Aspose.Cells for Reporting Services-Exportformate zu Microsoft Report Viewer im lokalen Modus hinzuzufügen, verwenden Sie den folgenden Code: 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -272,7 +273,7 @@ End Sub
 
 **VB .NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
               AddExtension(reportViewer1, "Xls - Xls via Aspose.Cells",    GetType (Aspose.Cells.ReportingServices.XlsRenderer));
 
@@ -288,12 +289,12 @@ End Sub
 
 {{< /highlight >}}
 
-1.  Testen Sie die neuen Exportformate.
- 1. Führen Sie Ihre Anwendung aus.
- Sie sollten eine Reihe neuer Exportformate bemerken, die in der verfügbar sind**Export** Menü im Report Viewer.
- 1. Wählen Sie eines der Formate aus und führen Sie den Export aus.
- 1. Vergewissern Sie sich, dass das Dokument wie erwartet erstellt wurde.
+1. Testen Sie die neuen Exportformate. 
+   1. Starten Sie Ihre Anwendung.
+      Sie sollten eine Anzahl neuer Exportformate im **Export**-Menü im Berichtsanzeiger bemerken. 
+   1. Wählen Sie eines der Formate aus und führen Sie den Export aus.
+   1. Überprüfen Sie, ob das Dokument so erstellt wurde, wie Sie es erwartet haben.
 
-**Neue Exportformate erscheinen im Report Viewer, der im lokalen Modus ausgeführt wird** 
+**Neue Exportformate erscheinen im Berichtsanzeiger im lokalen Modus** 
 
-![todo: Bild_alt_Text](integrate-with-microsoft-report-viewer-in-local-mode_2.png)
+![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_2.png)

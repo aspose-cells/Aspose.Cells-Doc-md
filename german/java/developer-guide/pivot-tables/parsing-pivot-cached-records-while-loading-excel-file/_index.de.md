@@ -1,18 +1,19 @@
-﻿---
-title: Analysieren von zwischengespeicherten Pivot-Datensätzen beim Laden einer Excel-Datei
+---
+title: Analysieren von Pivot Cached Datensätzen beim Laden der Excel Datei
 type: docs
 weight: 100
 url: /de/java/parsing-pivot-cached-records-while-loading-excel-file/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn Sie eine Pivot-Tabelle erstellen, nimmt Microsoft Excel eine Kopie der Quelldaten und speichert sie im Pivot-Cache. Der Pivot-Cache wird im Speicher von Microsoft Excel gespeichert. Sie können es nicht sehen, aber das sind die Daten, auf die die Pivot-Tabelle verweist, wenn Sie Ihre Pivot-Tabelle erstellen oder eine Slicer-Auswahl ändern oder Zeilen/Spalten verschieben. Dadurch kann Microsoft Excel sehr gut auf Änderungen in der Pivot-Tabelle reagieren, aber es kann auch die Größe Ihrer Datei verdoppeln. Schließlich ist der Pivot-Cache nur ein Duplikat Ihrer Quelldaten, sodass es sinnvoll ist, dass Ihre Dateigröße möglicherweise doppelt so groß ist.
+## **Mögliche Verwendungsszenarien**
 
-Wenn Sie Ihre Excel-Datei in das Workbook-Objekt laden, können Sie mithilfe von entscheiden, ob Sie auch die Datensätze des Pivot-Cache laden möchten oder nicht[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)Eigentum. Der Standardwert dieser Eigenschaft ist**FALSCH**. Wenn der Pivot-Cache ziemlich groß ist, kann er die Leistung steigern. Wenn Sie aber auch die Datensätze von Pivot Cache laden möchten, sollten Sie diese Eigenschaft auf setzen**wahr**.
+Wenn Sie eine Pivot-Tabelle erstellen, erstellt Microsoft Excel eine Kopie der Quelldaten und speichert sie im Pivot-Cache. Der Pivot-Cache befindet sich im Speicher von Microsoft Excel. Sie können ihn nicht sehen, aber das sind die Daten, auf die die Pivot-Tabelle Bezug nimmt, wenn Sie Ihre Pivot-Tabelle erstellen oder eine Slicer-Auswahl ändern oder Zeilen/Spalten verschieben. Dies ermöglicht es Microsoft Excel, sehr schnell auf Änderungen in der Pivot-Tabelle zu reagieren, aber es kann auch die Größe Ihrer Datei verdoppeln. Immerhin ist der Pivot-Cache nur eine Kopie Ihrer Quelldaten, so dass es sinnvoll ist, dass die Dateigröße potenziell verdoppelt wird.
 
-## **Analysieren von zwischengespeicherten Pivot-Datensätzen beim Laden einer Excel-Datei**
+Beim Laden Ihrer Excel-Datei im Workbook-Objekt können Sie entscheiden, ob Sie auch die Datensätze des Pivot-Cache laden möchten oder nicht, indem Sie die Eigenschaft [**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords) verwenden. Der Standardwert dieser Eigenschaft ist **false**. Wenn der Pivot-Cache ziemlich groß ist, kann dies die Leistung steigern. Wenn Sie jedoch auch die Datensätze des Pivot-Cache laden möchten, sollten Sie diese Eigenschaft auf **true** setzen.
 
-Der folgende Beispielcode erläutert die Verwendung von[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)Eigentum. Es lädt die[Beispiel-Excel-Datei](61767786.xlsx)beim Analysieren der zwischengespeicherten Pivot-Datensätze. Dann aktualisiert es die Pivot-Tabelle und speichert sie als[Excel-Datei ausgeben](61767785.xlsx).
+## **Analysieren von Pivot-Cached-Datensätzen beim Laden der Excel-Datei**
+
+Der folgende Beispielcode erläutert die Verwendung der Eigenschaft [**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords). Er lädt die [Beispiel-Excel-Datei](61767786.xlsx) und parst dabei die Pivot-Cached-Datensätze. Dann aktualisiert er die Pivot-Tabelle und speichert sie als die [Ausgabe-Excel-Datei](61767785.xlsx).
 
 ## **Beispielcode**
 

@@ -1,13 +1,14 @@
 ---
 title: CellsFactory sınıfını kullanarak Stil nesnesi oluşturma
-description: Aspose.Cells, stil hücrelerine stil nesnesi sağlayan elektronik tablo dosyalarıyla çalışmaya yönelik bir .NET kitaplığıdır. Bu makalede, kullanıcıların hücrelerin görünümünü gerektiği gibi özelleştirebilmeleri için Aspose.Cells kitaplığındaki CellsFactory sınıfını kullanarak hücre stili nesnesinin nasıl oluşturulacağı anlatılacaktır.
-keywords: Aspose.Cells, .NET library, electronic spreadsheet, style object, cell style, customization
+description: Aspose.Cells, elektronik elektronik tablosu, stil nesnesi, hücre stili, özelleştirme
+keywords: Aspose.Cells, .NET kitaplığı, elektronik tablo, stil nesnesi, hücre stili, özelleştirme
 type: docs
 weight: 70
 url: /tr/net/create-style-object-using-cellsfactory-class/
 ---
-##  **CellsFactory sınıfını kullanarak Stil nesnesi oluşturma**
- Aşağıdaki örnek kod oluşturur[Stil](https://reference.aspose.com/cells/net/aspose.cells/style) kullanarak nesne[HücrelerFabrika](https://reference.aspose.com/cells/net/aspose.cells/cellsfactory) sınıf ve ardından çalışma kitabının Varsayılan Stilini ayarlar. Lütfen indirin[excel dosyasının çıktısını almak](5115153.xlsx) referans olarak bu kodun sonuçlarını görmek için.
+
+## **CellsFactory sınıfını kullanarak Stil nesnesi oluşturma**
+Aşağıdaki örnek kod, [CellsFactory](https://reference.aspose.com/cells/net/aspose.cells/cellsfactory) sınıfını kullanarak [Style](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesini oluşturur ve ardından çalışma kitabının Varsayılan Stilini ayarlar. Sonuçları görmek için lütfen [çıktı excel dosyasını](5115153.xlsx) indirin.
 
 
 

@@ -1,32 +1,33 @@
-﻿---
-title: Problème connu - Autorisations sur les collections de sites personnels
+---
+title: Problème connu  Autorisations pour les collections de sites personnels
 type: docs
 weight: 40
 url: /fr/sharepoint/known-issue-permissions-to-personal-site-collections/
 ---
+
 {{% alert color="primary" %}} 
 
-Par défaut, SharePoint n'accorde pas d'autorisations complètes pour gérer les sites personnels aux administrateurs du portail. C'est pourquoi l'activation et la désactivation sur une collection de sites personnels peuvent échouer lorsqu'elles sont effectuées par les administrateurs du portail. Cela inclut l'activation et la désactivation lors de la configuration.
+SharePoint par défaut ne accorde pas les autorisations complètes pour gérer les sites personnels aux administrateurs du portail. C'est pourquoi l'activation et la désactivation sur une collection de sites personnels peut échouer lorsqu'elle est effectuée par les administrateurs du portail. Cela inclut l'activation et la désactivation pendant l'installation.
 
 {{% /alert %}} 
-### **Accorder une autorisation aux sites personnels**
-Lorsque ce problème se produit lors de l'installation, une exception UnauthorizedAccessException à Microsoft.SharePoint.SPFeature.Activate() est consignée dans le journal de suivi SharePoint. Lorsque la désactivation échoue dans le cadre de la désinstallation, une exception UnauthorizedAccessException s'affiche sur le dernier écran de configuration pour la ou les désactivations ayant échoué.
+### **Accorder l'autorisation aux sites personnels**
+Lorsque ce problème se produit pendant l'installation, une UnauthorizedAccessException à Microsoft.SharePoint.SPFeature.Activate() est enregistrée dans le journal de trace de SharePoint. Lorsque la désactivation échoue dans le cadre de la désinstallation, une UnauthorizedAccessException est affichée sur le dernier écran d'installation pour les désactivations en échec.
 
-Pour éviter ce problème, accordez aux administrateurs du portail l'autorisation de gérer l'application Web MySite :
+Pour éviter ce problème, accordez aux administrateurs du portail la permission de gérer l'application Web MySite :
 
-1.  Aller à**Administration centrale de SharePoint**et sélectionnez le**Gestion des applications** languette.
-1.  Choisir**Politique pour les applications Web** sous le**Sécurité des applications** groupe.
-1.  Assurez-vous de sélectionner la bonne application Web pour votre « Mon site » dans la**Application Web** liste à droite.
-1.  Sélectionner**Ajouter des utilisateurs** en haut à gauche.
-1.  Choisir**Toutes les zones** par défaut sur le**Ajouter des utilisateurs** écran et cliquez**Suivant**.
-1. Ajoutez le ou les utilisateurs appropriés ou le groupe Active Directory que vous souhaitez contrôler sur votre application Web « Mon site ».
-1.  Sélectionnez le niveau de contrôle.
+1. Accédez à **l'administration centrale de SharePoint** et sélectionnez l'onglet **Gestion des applications**.
+1. Choisissez **Politique pour l'application Web** dans le groupe **Sécurité de l'application**.
+1. Assurez-vous de sélectionner la bonne application Web pour votre “My Site” dans la liste de l'**Application Web** sur la droite.
+1. Sélectionnez **Ajouter des utilisateurs** en haut à gauche.
+1. Choisissez **Toutes les zones** par défaut sur l'écran **Ajouter des utilisateurs** et cliquez sur **Suivant**.
+1. Ajoutez le(s) utilisateur(s) approprié(s) ou le groupe de l'annuaire actif que vous souhaitez avoir le contrôle sur votre application Web “My Site”.
+1. Sélectionnez le niveau de contrôle. 
 
-   **Ajouter des utilisateurs et définir le niveau de contrôle** 
+   **Ajout d'utilisateurs et définition du niveau de contrôle** 
 
-![tâche : image_autre_texte](known-issue-permissions-to-personal-site-collections_1.png)
-
-
+![todo:image_alt_text](known-issue-permissions-to-personal-site-collections_1.png)
 
 
-1.  Cliquez sur**Finir**.
+
+
+1. Cliquez sur **Terminer**.

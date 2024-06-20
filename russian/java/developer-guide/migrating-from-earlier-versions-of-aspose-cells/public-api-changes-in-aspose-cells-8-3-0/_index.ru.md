@@ -1,27 +1,28 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.3.0
+---
+title: Изменения в общедоступном API в Aspose.Cells 8.3.0
 type: docs
 weight: 110
 url: /ru/java/public-api-changes-in-aspose-cells-8-3-0/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.2.2 до 8.3.0, которые могут представлять интерес для разработчиков модулей/приложений.
+Этот документ описывает изменения в API Aspose.Cells от версии 8.2.2 до 8.3.0, которые могут быть интересны разработчикам модулей/приложений.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Добавлено свойство WorkbookSettings.AutoRecover.**
-Метод получения/установки для свойства AutoRecover был добавлен в класс WorkbookSettings, чтобы позволить разработчикам получать/устанавливать параметр автоматического восстановления для электронных таблиц в своих приложениях.
+## **Добавленные API**
+### **Добавлено свойство WorkbookSettings.AutoRecover**
+Getter/setter для свойства AutoRecover были добавлены в класс WorkbookSettings, чтобы разработчики могли получать/устанавливать параметры автоматического восстановления для таблиц в своих приложениях. 
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, проверьте статью[Настройка автоматического восстановления электронной таблицы](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook) для дополнительной информации.
+Пожалуйста, проверьте статью [Настройка автоматического восстановления таблицы](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook) для получения дополнительной информации.
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -31,12 +32,12 @@ settings.setAutoRecover(true);
 
 {{< /highlight >}}
 
-### **Добавлено свойство WorkbookSettings.CrashSave.**
-Геттер/сеттер для свойства CrashSave добавлен в класс WorkbookSettings. Свойство логического типа указывает, сохраняло ли приложение последний раз файл рабочей книги после сбоя.
+### **Добавлено свойство WorkbookSettings.CrashSave**
+Getter/setter для свойства CrashSave были добавлены в класс WorkbookSettings. Это свойство типа Boolean указывает, сохранял ли приложение последний файл книги после сбоя.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -47,11 +48,11 @@ System.out.println(settings.getCrashSave());
 {{< /highlight >}}
 
 ### **Добавлено свойство WorkbookSettings.DataExtractLoad**
-Геттер/сеттер для свойства DataExtractLoad был добавлен в класс WorkbookSettings, чтобы позволить разработчикам получать/устанавливать информацию о последнем восстановлении. Если свойство DataExtractLoad возвращает значение true, это означает, что восстановление данных было выполнено для файла рабочей книги.
+Getter/setter для свойства DataExtractLoad были добавлены в класс WorkbookSettings, чтобы позволить разработчикам получать/устанавливать информацию о последнем восстановлении. Если свойство DataExtractLoad возвращает true, это указывает, что восстановление данных было выполнено для файла книги.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -62,11 +63,11 @@ System.out.println(settings.getDataExtractLoad());
 {{< /highlight >}}
 
 ### **Добавлено свойство WorkbookSettings.RepairLoad**
-Геттер/сеттер для свойства RepairLoad добавлен в класс WorkbookSettings. Свойство логического типа указывает, была ли электронная таблица восстановлена в последнем сеансе загрузки с помощью приложения Excel.
+Getter/setter для свойства RepairLoad были добавлены в класс WorkbookSettings. Это свойство типа Boolean указывает, была ли таблица восстановлена во время последней сессии загрузки с приложением Excel.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -77,11 +78,11 @@ System.out.println(settings.getRepairLoad());
 {{< /highlight >}}
 
 ### **Добавлено свойство TxtLoadOptions.KeepExactFormat**
-В класс TxtLoadOptions было добавлено свойство KeepExactFormat, которое указывает, следует ли сохранять точное форматирование для значения ячейки при преобразовании строки/текста в числа или DateTime. Это свойство было добавлено, чтобы соответствовать поведению приложения MS Excel для загрузки DateTime или числовых значений из файлов CSV. Чтобы имитировать поведение MS Excel, установите для свойства KeepExactFormat значение false, тогда как значение по умолчанию равно true, поэтому значение ячейки будет отформатировано как строка в файле CSV.
+Свойство KeepExactFormat было добавлено в класс TxtLoadOptions, указывающее, должно ли сохраняться точное форматирование значения ячейки при конвертации строки/текста в числа или дату. Это свойство было добавлено для соответствия поведению приложения MS Excel при загрузке значений DateTime или числовых значений из CSV файлов.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  TxtLoadOptions options = new TxtLoadOptions();
 
@@ -92,17 +93,17 @@ Workbook book = new Workbook("sample.csv", options);
 {{< /highlight >}}
 
 ### **Добавлено свойство Shape.Id**
-В версии 8.3.0 добавлен метод получения/установки для свойства Shape.Id, чтобы однозначно идентифицировать каждый объект формы в данной электронной таблице. Это новое свойство также помогает однозначно идентифицировать объекты Chart в электронной таблице, как показано ниже.
+В v8.3.0 были добавлены getter/setter для свойства Shape.Id для уникальной идентификации каждого объекта формы в указанной таблице. Это новое свойство также помогает уникально идентифицировать объекты диаграмм в таблице, как показано ниже.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Книга рабочей книги = новая рабочая книга ("sample.xlsx");
+ Workbook book = new Workbook("sample.xlsx");
 
-Диаграммы ChartCollection = book.getWorksheets().get(0).getCharts();
+ChartCollection charts = book.getWorksheets().get(0).getCharts();
 
- for(int индекс = 0; индекс<= charts.getCount(); index++)
+for(int index = 0; index <= charts.getCount(); index++)
 
 {
 
@@ -116,12 +117,12 @@ Workbook book = new Workbook("sample.csv", options);
 
 {{< /highlight >}}
 
-### **Добавлен метод PlotArea.setPositionAuto**
-В класс PlotArea был добавлен метод setPositionAuto, который помогает установить область построения диаграммы в автоматический режим.
+### **Добавлен метод setPositionAuto в класс PlotArea**
+Метод setPositionAuto был добавлен в класс PlotArea для автоматической установки области построения диаграммы.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 

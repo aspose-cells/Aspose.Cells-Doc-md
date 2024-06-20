@@ -1,13 +1,14 @@
-﻿---
+---
 title: Kommentar im Arbeitsblatt hinzufügen
 type: docs
 weight: 10
 url: /de/net/add-comment-in-worksheet/
 ---
-## **Aspose.Cells - Kommentar in Arbeitsblatt hinzufügen**
+
+## **Aspose.Cells - Kommentar im Arbeitsblatt hinzufügen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -50,7 +51,7 @@ workbook.Save("Output-AddingComment.xls");
 ## **NPOI - HSSF XSSF - Kommentar im Arbeitsblatt hinzufügen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -94,13 +95,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Bild in Arbeitsblatt hinzufügen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie das Formular **Bild im Arbeitsblatt hinzufügen** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Add.Comment.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Arbeiten mit Arbeitsblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Für weitere Details besuchen Sie [Arbeiten mit Tabellenblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

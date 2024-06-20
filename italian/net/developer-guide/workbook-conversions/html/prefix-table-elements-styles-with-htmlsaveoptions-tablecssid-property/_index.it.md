@@ -1,35 +1,36 @@
-﻿---
-title: Anteporre agli stili degli elementi di tabella la proprietà HtmlSaveOptions.TableCssId
+---
+title: Prefisso degli stili degli elementi della tabella con la proprietà HtmlSaveOptions.TableCssId
 type: docs
 weight: 110
 url: /it/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/
 ---
-## **Possibili scenari di utilizzo**
 
-Aspose.Cells consente di prefissare gli stili degli elementi della tabella con[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)proprietà. Supponiamo di impostare questa proprietà con un valore come**MyTest_TableCssId**, quindi troverai gli stili degli elementi della tabella come mostrato di seguito
+## **Possibili Scenari di Utilizzo**
 
-{{< highlight "java" >}}
+Aspose.Cells ti consente di prefissare gli stili degli elementi della tabella con la proprietà [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid). Supponi di impostare questa proprietà con un valore come **MyTest_TableCssId**, allora troverai gli stili degli elementi della tabella come mostrato di seguito
+
+{{< highlight java >}}
 
  table#MyTest_TableCssId
 
-# MyTest_TableCssId tr
+#MyTest_TableCssId tr
 
-# MyTest_TableCssId col
+#MyTest_TableCssId col
 
-# MyTest_TableCssId br
+#MyTest_TableCssId br
 
 etc.
 
 {{< /highlight >}}
 
- Lo screenshot seguente mostra l'effetto dell'utilizzo[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)immobile in uscita HTML.
+La seguente schermata mostra l'effetto dell'utilizzo della proprietà [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) sull'HTML di output.
 
-![cose da fare:immagine_alt_testo](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
+![todo:image_alt_text](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
-## **Anteporre agli stili degli elementi di tabella la proprietà HtmlSaveOptions.TableCssId**
+## **Prefisso degli stili degli elementi della tabella con la proprietà HtmlSaveOptions.TableCssId**
 
- Il codice di esempio seguente illustra come utilizzare[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) proprietà. Si prega di controllare[uscita HTML](60489790.zip) generato dal codice per un riferimento.
+Il codice di esempio seguente dimostra come utilizzare la proprietà [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid). Si prega di controllare l'[output HTML](60489790.zip) generato dal codice per avere un riferimento.
 
-## **Codice d'esempio**
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.cs" >}}

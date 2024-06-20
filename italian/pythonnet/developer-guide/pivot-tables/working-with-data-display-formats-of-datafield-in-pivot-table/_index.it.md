@@ -1,22 +1,23 @@
 ---
-title: Lavorare con i formati di visualizzazione dei dati di DataField nella tabella pivot
+title: Lavorare con i formati di visualizzazione dei dati del campo dati nella tabella pivot
 type: docs
 weight: 140
 url: /it/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/
-description: Come lavorare con i formati di visualizzazione dei dati di DataField nella tabella pivot con Aspose.Cells for Python via .NET.
-keywords: Work with data display formats of DataField in Pivot Table.
+description: Come lavorare con i formati di visualizzazione dei dati del campo dati nella tabella pivot con Aspose.Cells per Python via .NET.
+keywords: Aspose.Cells per Excel Python, libreria Python Excel, Lavorare con i formati di visualizzazione dei dati del campo dati nella tabella pivot.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET supporta tutti i formati di visualizzazione dei dati di DataField.
+Aspose.Cells per Python via .NET supporta tutti i formati di visualizzazione dei dati del campo dati.
 
 {{% /alert %}}
 
-##  **Opzione di formato di visualizzazione "Classifica dal più piccolo al più grande" e "Classifica dal più grande al più piccolo".**
+## **Come impostare l'opzione di formato di visualizzazione "Rank dal più piccolo al più grande" e "Rank dal più grande al più piccolo"**
 
-Aspose.Cells for Python via .NET offre la possibilità di impostare l'opzione del formato di visualizzazione per i campi pivot. Per questo lo API mette a disposizione il[**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/) proprietà. Per classificare dal più grande al più piccolo, puoi impostare il file[**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/)proprietà a[**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfielddatadisplayformat/). Il seguente frammento di codice mostra l'impostazione delle opzioni del formato di visualizzazione.
+Aspose.Cells for Python via .NET fornisce la possibilità di impostare l'opzione di formato di visualizzazione per i campi pivot. A questo scopo, l'API fornisce la proprietà [**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/). Per classificare dal più grande al più piccolo, è possibile impostare la proprietà [**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/) su [**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfielddatadisplayformat/). Il seguente frammento di codice dimostra come impostare le opzioni di formato di visualizzazione.
 
-I file di origine e di output di esempio possono essere scaricati da qui per testare il codice di esempio:
+Il file di origine e i file di output di esempio possono essere scaricati da qui per testare il codice di esempio.
 
 [File Excel di origine](101089332.xlsx)
 

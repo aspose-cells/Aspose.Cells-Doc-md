@@ -1,17 +1,18 @@
-﻿---
-title: Верхний и нижний колонтитулы
+---
+title: Заголовки и нижние колонтитулы
 type: docs
 weight: 60
 url: /ru/java/header-and-footers/
 ---
-## **Aspose.Cells - Верхний и нижний колонтитулы**
-Класс PageSetup предоставляет метод setHeader для добавления верхнего колонтитула и setFooter для добавления нижнего колонтитула на лист. Скрипт используется в качестве аргумента для всех вышеперечисленных методов. Он представляет сценарий, который будет использоваться для верхнего или нижнего колонтитула.
+
+## **Aspose.Cells - Заголовки и нижние колонтитулы**
+Класс PageSetup предоставляет метод setHeader для добавления заголовка и setFooter для добавления нижнего колонтитула на лист. Сценарий используется в качестве аргумента для всех вышеупомянутых методов. Он представляет сценарий, который будет использоваться для заголовка или нижнего колонтитула.
 
 **Заголовок**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the PageSetup of the worksheet
 
@@ -37,7 +38,7 @@ pageSetup.setHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Setting a string at the left footer and changing the font of the footer
 
@@ -49,7 +50,7 @@ pageSetup.setFooter(1, "&G");
 
 FileInputStream fis = new FileInputStream("data/footer.png");
 
-byte[]picData = new byte[fis.available()];
+byte[] picData = new byte[fis.available()];
 
 fis.read(picData);
 
@@ -62,12 +63,12 @@ fis.close();
 pageSetup.setFooter(2, "&Pof&N");
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF XSSF — верхний и нижний колонтитулы**
+## **Apache POI SS - HSSF XSSF - Заголовки и нижние колонтитулы**
 Класс заголовка доступен для настройки заголовка в электронных таблицах.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Header header = sheet.getHeader();
 
@@ -80,13 +81,13 @@ header.setRight(HSSFHeader.font("Stencil-Normal", "Italic") +
                 HSSFHeader.fontSize((short) 16) + "Right w/ Stencil-Normal Italic font and size 16");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/headerandfooter)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/headerandfooter)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Настройка верхних и нижних колонтитулов](/java/setting-headers-and-footers).
+Для получения более подробной информации посетите [Настройка заголовков и нижних колонтитулов](/java/setting-headers-and-footers).
 
 {{% /alert %}}

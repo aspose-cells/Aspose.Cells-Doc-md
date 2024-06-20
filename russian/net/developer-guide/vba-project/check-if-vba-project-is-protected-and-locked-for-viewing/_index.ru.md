@@ -1,24 +1,25 @@
-﻿---
-title: Проверьте, защищен ли проект VBA и заблокирован для просмотра
+---
+title: Проверка защищен ли проект VBA и заблокирован для просмотра
 type: docs
 weight: 30
 url: /ru/net/check-if-vba-project-is-protected-and-locked-for-viewing/
 ---
-## Проверьте, защищен ли проект VBA и заблокирован для просмотра в C#
 
-Aspose.Cells позволяет проверить, защищен ли проект Excel файла VBA (Visual Basic для приложений) и заблокирован для просмотра. Для этого API предоставляет[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) имущество. Если он заблокирован для просмотра, то[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) недвижимость возвращается**истинный**.
+## Проверка защищен ли проект VBA и заблокирован для просмотра в C#
+
+Aspose.Cells позволяет проверить, защищен ли проект VBA (Visual Basic for Applications) файла Excel и заблокирован для просмотра. Для этого API предоставляет свойство [**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing). Если он заблокирован для просмотра, то свойство [**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) вернет **true**.
 
 ## **Образец кода**
 
- Следующий пример кода загружает[образец файла Excel](43352065.xlsm) и проверяет, защищен ли файл Excel проекта VBA (Visual Basic для приложений) и заблокирован для просмотра. См. также вывод консоли для справки.
+В следующем примере кода загружается [образцовый файл Excel](43352065.xlsm) и проверяется, защищен ли и заблокирован для просмотра проект VBA (Visual Basic for Applications) файла Excel. Пожалуйста, обратитесь также к его выводу в консоль для справки.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-CheckifVBAProjectisProtectedandLockedforViewing.cs" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
- Это консольный вывод приведенного выше примера кода при выполнении с предоставленным[образец файла Excel](43352065.xlsm).
+Это вывод в консоль вышеупомянутого примера кода при выполнении с предоставленным [образцовым файлом Excel](43352065.xlsm).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is VBA Project Locked for Viewing: True
 

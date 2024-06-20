@@ -1,6 +1,10 @@
-﻿---
-title: Работа с Cells
+---
+title: Работа с ячейками
 type: docs
 weight: 60
-url: /ru/net/working-with-cells/
+url: /ru/net/aspose-cells-griddesktop/working-with-cells/
+keywords: GridDesktop, ячейки,
+description: Эта статья представляет использование API, связанных с ячейками в GridDesktop.
 ---
+
+

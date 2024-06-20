@@ -1,150 +1,150 @@
-﻿---
-title: Aspose.Cells for Java Açık Kaynak Rakiplerine Karşı
+---
+title: Aspose.Cells for Java İle Açık Kaynak Rakipleri Karşılaştırması
 type: docs
 weight: 1089
 url: /tr/java/aspose-cells-for-java-vs-open-source-competitors/
 ---
+
 {{% alert color="primary" %}}
 
- Bu makale özelliklerini karşılaştırır[Aspose.Cells for Java](https://products.aspose.com/cells/java/)açık kaynaklı rakipleri ile. Belge, Aspose.Cells for Java ile karşılaştırır[JExcel API'si](http://jexcelapi.sourceforge.net/) ve[İÇN](http://poi.apache.org/)Bazı ortak özellikler için HSSF.
+Bu makale, [Aspose.Cells for Java](https://products.aspose.com/cells/java/) özelliklerini açık kaynak rakipleri olan [JExcelAPI](http://jexcelapi.sourceforge.net/) ve [POI](http://poi.apache.org/)'nin HSSF'si ile karşılaştırır. Belge, Aspose.Cells for Java'yi bazı ortak özellikler için JExcelAPI ve POI'nin HSSF'si ile karşılaştırır.
 
 {{% /alert %}}
 
-## **genel bakış**
+## **Genel Bakış**
 
-İş senaryolarının çoğu, içerik açısından zengin ve genel yönetimin bunları kullanacağı belirli kararların veya görevlerin ihtiyaçlarına odaklanan gelişmiş raporlar gerektirir. Ayrıca bazı veri toplama, analiz etme ve veri tabanı sistemleriyle arayüz oluşturma araçları gerektirirler.
+Çoğu iş senaryosu, özellikle genel yönetim tarafından kullanılacak belirli kararların veya görevlerin ihtiyaçlarına odaklanan zengin içerikli ve içerikli raporlar gerektirir. Ayrıca, veri toplama, analiz ve veritabanı sistemleriyle etkileşimde bulunma ve bu genellikle Microsoft Excel dosyalarını veri toplama, analiz ve sunum aracı olarak kullanma yöntemlerini gerektirir.
 
-Yaygın bir çözüm, veri toplama, analiz ve sunum aracı olarak elektronik tabloları kullanmaktır. Çözüm, bir iş senaryosunu analiz edebilen ve ideal olarak bu temel özellikleri, verileri yakalama ve yaygın olarak kullanılan diğer ofis uygulamalarına aktarma süreçlerini keşfedecek şekilde genişletebilen tam biçimlendirilmiş Microsoft Excel dosyaları oluşturabilmelidir. Bu geliştirmeler, Microsoft Excel'in yerleşik özelliklerinden ve işlevlerinden yararlanmayı içerebilir.
+Yaygın bir çözüm, veri toplama, analiz ve sunum aracı olarak elektronik tabloların kullanılmasıdır. Çözüm, özgün olarak Microsoft Excel dosyalarını oluşturabilen ve ideal olarak bu temel özellikleri kullanarak gelişmiş olmasını sağlayabilen tamamen biçimlendirilmiş Microsoft Excel dosyaları oluşturabilmelidir. Bu gelişmeler, Microsoft Excel'in yerleşik özelliklerini ve fonksiyonlarını kullanmayı içerebilir.
 
-Bugün piyasada elektronik tablo yönetimi için gerçekten zengin özelliklere sahip API'ler vaat eden farklı elektronik tablo bileşenleriyle karşılaşıyoruz. Burada, Aspose.Cells for Java'in açık kaynak rakipleri JExcelAPI ve POI'nin HSSF'sine kıyasla bir özellik analizi yapıyoruz. Önce üçünü biraz tanıtmama izin verin.
+Bugün piyasada farklı elektronik tablo bileşenleriyle karşılaşıyoruz ve gerçekten elektronik tablo yönetimi için özellikli API'lar vaat ediyorlar. Burada, Aspose.Cells for Java'nin açık kaynak rakipleri JExcelAPI ve POI'nin HSSF'si ile karşılaştırma yapıyoruz. İlk üçünün kısa bir tanıtımını verelim.
 
 ## **Aspose.Cells for Java**
 
-Aspose.Cells for Java, Java uygulamalarının sistemde (istemci veya sunucu) Microsoft Excel yüklü olmadan Excel elektronik tabloları oluşturmasını ve yönetmesini sağlayan esnek bir bileşendir. Diğer satıcıların benzer ürünlerinin aksine, Aspose.Cells for Java yalnızca elektronik tablo oluşturma ve temel dosya biçimlendirme özelliklerini değil, aynı zamanda bir dizi gelişmiş özelliği de destekler. Bu gelişmiş özellikler, geliştiricilerin elektronik tablo içeriklerini, hücre biçimlendirmesini ve dosya koruma seçeneklerini değiştirmesini kolaylaştırır.
+Aspose.Cells for Java, müşterinin (istemci veya sunucu) sisteminde Microsoft Excel yüklü olmadan Java uygulamalarının Excel elektronik tabloları oluşturmasına ve yönetmesine olanak tanıyan esnek bir bileşendir. Diğer satıcıların benzer ürünlerinin aksine, Aspose.Cells for Java sadece elektronik tablo oluşturmayı ve temel dosya biçimlendirme özelliklerini desteklemekle kalmaz, aynı zamanda bir dizi gelişmiş özellik de sunar. Bu gelişmiş özellikler, geliştiricilerin elektronik tablo içeriğini, hücre biçimlendirmesini ve dosya koruma seçeneklerini kolayca değiştirmesini sağlar.
 
-Aspose.Cells for Java ayrıca farklı veri kaynaklarından elektronik tablolara veri aktarabilir, ortak ve karmaşık matematik, tarih/saat, finans, metin formülleri ve işlevleri ekleyebilir, resimleri içe aktarabilir (BMP, GIF, JPG, PNG, WMF, EMF dahil olmak üzere tüm ana biçimler desteklenir) ve daha fazlası), yorumlar oluşturun, çizim nesneleri ve kontrolleri oluşturun ve bir dizi başka görevi gerçekleştirin.
+Aspose.Cells for Java ayrıca farklı veri kaynaklarından elektronik tablolara veri aktarabilir, yaygın ve karmaşık matematik, tarih/saat, finansal, metin formülleri ve fonksiyonları ekleyebilir, resimler ekleyebilir (BMP, GIF, JPG, PNG, WMF, EMF ve daha fazlası da dahil olmak üzere tüm ana formatları destekler), yorumlar oluşturabilir, çizim nesneleri ve kontroller oluşturabilir ve diğer bir dizi görevi gerçekleştirebilir.
 
-Aspose.Cells for Java ayrıca eklentileri, VBA'yı ve makroları destekler.
+Ayrıca Aspose.Cells for Java, eklentileri, VBA'yı ve makroları da destekler.
 
 ### **Aç ve Kaydet**
 
-Aspose.Cells for Java, yerel Excel dosyaları oluşturma veya okuma gibi ortak özellikleri desteklemenin yanı sıra, Excel dosyalarını (Excel 97 - Excel 2007) kaydetme ve akışlardan açma, bir ResultSet ve diziden veri alma ve verme gibi birçok değerli özellik sunar.
+Yerel Excel dosyaları oluşturma veya okuma gibi ortak özellikleri desteklemenin yanı sıra, Aspose.Cells for Java, akıtılmış dosyaların (Excel 97 - Excel 2007) kaydedilmesi ve açılması, ResultSet ve dizi üzerinden veri alımı ve aktarımı gibi pek çok değerli özelliği de sunar.
 
-Aspose.Cells, Microsoft Excel'in sağladığı tüm özniteliklere sahip tabloları, adlandırılmış aralıkları, üst bilgileri ve alt bilgileri içe aktarabilir, köprüler ve resimler ekleyebilir ve bir tasarımcı elektronik tablosundan formülleri içe aktarabilir.
+Aspose.Cells, Microsoft Excel'in sağladığı grafikler, adlandırılmış aralıklar, üst ve alt bilgi ve çıkartma konumlandırma ve görselleri içeren tüm özelliklerle sorunsuz bir şekilde veri alır.
 
-### **biçimlendirme**
+### **Biçimlendirme**
 
-Çalışma sayfası veri biçimlendirmesi, verilerinizin anlamını değiştirebileceği için önemlidir. Bir çalışma sayfasını yazdırmayı, müşterilerinize e-postayla göndermeyi veya patronunuza göstermeyi planlıyorsanız, bunun görüntüleyen dostu bir şekilde biçimlendirilip biçimlendirilmediğini düşünmeniz gerekir. Renk, gölgeleme, kenarlıklar, yazı tipleri, sayı biçimlendirme, hizalama, girinti ve yönün dikkatli kullanımı, dağınık bir veri küresi ile üzerinde çalışılması ve anlaşılması kolay bir çalışma sayfası arasındaki farkı yaratabilir.
+Çalışsayfa veri biçimlendirmesi önemlidir çünkü veri anlamını değiştirebilir. Bir çalışsayfayı yazdırmayı planlıyorsanız, müşterilere e-posta göndermeyi düşünüyorsanız veya patronunuza göstermeyi düşünüyorsanız, görüntülenebilir bir şekilde biçimlendirilip biçimlendirilmediğini düşünmelisiniz. Renk, gölgeleme, kenarlıklar, yazı tipleri, sayı biçimlendirme, hizalama, girinti ve yönlendirme gibi dikkatli kullanım, veri yığınından kurtulmuş bir çalışsayfa ile çalışmayı ve anlamayı kolaylaştırabilir.
 
-Aspose.Cells for Java, hücrelerin etrafına ve hücre aralıklarına kolayca sınır çizme esnekliği sağlar. Ayrıca AIP, yazı tipi ayarlarını (aile ve tür, stil, boyut, renk ve hizalama) uygulayabilir ve hücreleri arka plan desenleriyle gölgelendirebilir. API, tam bir satırı veya sütunu biçimlendirmenize, hizalamaları ayarlamanıza, hücrelerdeki metni sarmanıza ve döndürmenize yetecek kadar verimlidir.
+Aspose.Cells for Java, hücrelerin etrafına kolayca kenarlıklar çizme esnekliği sağlar. Ayrıca, AIP, hücrelere font ayarlarını (aile ve tip, stil, boyut, renk ve hizalama) uygulayabilir ve arka plan desenleri ile hücreleri gölgeleyebilir. API, bir satır veya sütunu biçimlendirebilir, hizaları ayarlayabilir, metni hücrelerde sarabilir ve döndürebilir.
 
-Aspose.Cells for Java, genel format, ondalık gösterimlerdeki sayılar, para birimi simgeleri, yüzdeler, bilimsel format, tarih/saat değerleri ve hatta özel sayı formatları dahil olmak üzere her türlü sayı formatını destekler.
+Aspose.Cells for Java, genel biçim, ondalık gösterimlerde sayılar, para birimi simgeleri, yüzdelikler, bilimsel biçim, tarih/saat değerleri ve hatta özel sayı biçimlendirme de dahil olmak üzere tüm sayı biçimlerini destekler.
 
-Aspose.Cells, geliştiricilerin satırları ve sütunları tek bir eylemde otomatik olarak sığdırmasına ve ayrıca uygun bir API'de tüm sayfa düzeni seçeneklerini yapılandırmasına olanak tanır: üst, sol, alt, sağ, üst bilgi ve alt bilgi kenar boşlukları, yönlendirme - dikey veya yatay - ölçekleme, kağıt boyutu, baskı alanı, yinelenen satırlar ve sütunlar ve çok daha fazlası.
+Aspose.Cells, geliştiricilere bir eylemde satır ve sütunları otomatik şekilde uyarlama olanağı sağlar, ayrıca tüm sayfa düzeni seçeneklerini (üst, sol, alt, sağ, üstbilgi ve altbilgi kenar boşlukları, yönlendirme - dikey veya yatay - ölçekleme, kağıt boyutu, yazdırma alanı, tekrarlanan satır ve sütunlar gibi) uygun bir API'de yapılandırmalar.
 
-### **Benzersiz özellikler**
+### **Benzersiz Özellikler**
 
-Geliştiricilerin yalnızca Aspose.Cells for Java'de bulabilecekleri bir dizi benzersiz özellik de vardır; örneğin, XLS, XLT, XLSX, CSV, SpreadsheetML, Sekmeyle ayrılmış, TXT, XML ve HTML dahil olmak üzere çok çeşitli biçimler için destek.
+Aspose.Cells for Java'de bulunacak olan, örneğin XLS, XLT, XLSX, CSV, SpreadsheetML, Tab sınırlı, TXT, XML ve HTML gibi geniş bir yelpazedeki formatları destekleme gibi geliştiricilerin sadece Aspose.Cells for Java'de bulabileceği birkaç benzersiz özellik bulunmaktadır.
 
-API ayrıca geliştiricilerin mevcut bir çalışma sayfasının bir kopyasını (tam içerik, resimler ve grafiklerle birlikte) bir dosyaya eklemesine, API üzerinden grafikler için gradyan arka planı ayarlamasına, yorumlar oluşturmasına, yerel ayar ve bölge ayarlarını yapmasına, otomatik filtreler ve sayfa sonları yapmasına olanak tanır. , karmaşık formüller, koşullu biçimlendirme, Microsoft Excel XP veya sonraki sürümlerde sunulan tüm koruma seçenekleri türlerini ayarlayın ve adlandırılmış aralıkları değiştirin.
+API ayrıca, mevcut bir çalışsayfanın (tüm içerikler, görüntüler ve grafiklerle) bir kopyasını dosyaya eklemek, API aracılığıyla grafikler için gradyan arka planı ayarlamak, yorum eklemek, yerel ve bölge ayarlarını belirlemek, otomatik filtreleri ve sayfa aralarını ayarlamak, karmaşık formülleri belirlemek, koşullu biçimlendirme, Microsoft Excel XP veya üstünde tanıtılan tüm koruma seçeneklerini, adlandırılan aralıkları manipüle etme gibi birçok özelliğe izin verir.
 
-Ayrıca Aspose.Cells, özel bir tablo API ve verimli formül hesaplama motoru ekler.
+Ayrıca, Aspose.Cells, özel bir grafik API'si ve verimli bir formül hesaplama motoru ekler.
 
-### **Deneyin Aspose.Cells for Java**
+### **Aspose.Cells for Java'yi Dene**
 
- Aspose.Cells for Java çok geniş bir özellik listesine sahiptir. Özellikler hakkında daha fazla bilgi edinmek ve Programcı Kılavuzu için lütfen kontrol edin[Dökümantasyon](/cells/tr/java/) ve[çevrimiçi demolar](https://github.com/aspose-cells/Aspose.Cells-for-Java).
+Aspose.Cells for Java'nin oldukça fazla özellik listesi bulunmaktadır. Özellikler hakkında daha fazla bilgi edinmek ve Programcı Kılavuzu için lütfen [belgelendirme](/cells/tr/java/) ve [çevrimiçi demoları](https://github.com/aspose-cells/Aspose.Cells-for-Java) kontrol edin.
 
- Bileşen ile rakipleri arasındaki farkı görmek için lütfen bileşeni deneyin. Değerlendirme sürümü, herhangi bir zaman sınırlaması olmaksızın tamamen ücretsizdir.[İndirmek](https://downloads.aspose.com/cells/java) ücretsiz değerlendirme sürümü.
+Lütfen bu bileşeni deneyin ve rakipleri arasındaki farkı görün. Değerlendirme sürümü herhangi bir süre sınırlaması olmadan tamamen ücretsizdir. Ücretsiz [İndir](https://downloads.aspose.com/cells/java) değerlendirme sürümünü.
 
 ## **Diğer API'ler**
 
-### **JExcel API'si**
+### **JExcelAPI**
 
-JExcelAPI, Excel elektronik tablolarını okumak, yazmak ve değiştirmek için kullanılan bir Java API'dir. Java geliştiricilerinin Excel elektronik tablolarını okumasına ve dinamik olarak Excel elektronik tabloları oluşturmasına olanak tanıyan açık kaynaklı bir Java API'dir. Ayrıca, Java uygulamalarının elektronik tabloyu okumasına, hücreleri değiştirmesine ve yeni elektronik tabloyu yazmasına izin veren bir mekanizma içerir.
+JExcelAPI, Excel elektronik tablolarını okumak, yazmak ve değiştirmek için kullanılan bir Java API'dir. Java geliştiricilerinin Excel elektronik tablolarını okumalarına ve dinamik olarak Excel elektronik tabloları oluşturmalarına izin veren açık kaynaklı bir Java API'dir. Ayrıca, Java uygulamalarının bir elektronik tabloyu okumalarına, hücreleri değiştirmelerine ve yeni bir elektronik tablo yazmalarına olanak tanıyan bir mekanizmayı içerir.
 
-Yazma sırasında, sınırlı bir dizi özelliğe sahiptir. Şunları destekler: yerel Microsoft Excel dosyasını (Excel97-2003) yalnızca XLS dosya biçiminde okuma ve yazma. Bazı sınırlı formül hesaplama desteğine sahiptir. Yazı tiplerini değiştirebilir, sayı ve tarih biçimlendirmesini destekleyebilir, mevcut çalışma sayfalarını, yerel ayarları değiştirebilir, grafikleri koruyabilir (ancak geliştiricilerin grafikler oluşturmasına veya değiştirmesine izin vermez), resimler ekleyebilir vb.
+Yazılmış olduğu sırada, sınırlı özellik setine sahiptir. Sadece XLS dosya biçiminde yerel Microsoft Excel dosyası (Excel97-2003) okuma ve yazma desteğini destekler. Sınırlı bir formül hesaplama desteği bulunmaktadır. Yazılmış elektronik tabloyu kopyalarken, elektronik tablo, diğer verilerin yanı sıra elektronik tabloyu içeren sayfa bulunduğu sürece oluşturulan elektronik tabloya yazılır. Tüm görüntü bilgileri, elektronik tablo dosyalarını kopyalarken korunur, ancak elektronik tabloya bir görüntü eklerken sadece PNG formatındaki görüntüler desteklenir.
 
 #### **Sınırlı Grafik Desteği**
 
-JExcelApi grafikler için sınırlı desteğe sahiptir: Grafikler oluşturmayı ve değiştirmeyi desteklemez. Grafik içeren bir elektronik tabloyu kopyalarken, grafik oluşturulan elektronik tabloya yazılır (grafiği içeren sayfa grafiğin yanı sıra başka veriler de içerdiği sürece). Excel dosyaları kopyalanırken tüm görüntü bilgileri korunur, ancak bir elektronik tabloya görüntü eklerken yalnızca PNG biçimindeki görüntüler desteklenir.
+JExcelApi'nin grafikler için sınırlı bir desteği bulunmaktadır: Grafik oluşturmayı ve manipüle etmeyi desteklemez. Bir grafik içeren elektronik tabloyu kopyalarken, sayfa, grafiklemenin yanı sıra diğer veriler de içeriyorsa, grafik oluşturulan elektronik tabloya yazılır. Elektronik tablo dosyalarını kopyalarken tüm görüntü bilgileri korunur, ancak bir elektronik tabloya yalnızca PNG formatında görüntüler eklerken desteklenir.
 
-#### **Çalışma Sayfaları Kopyalanamıyor**
+#### **Çalışsayfa Kopyalama Yapamaz**
 
-Çalışma sayfalarını doğrudan çalışma kitaplarının içinde veya arasında kopyalamak için API yoktur. Bu görev dolaylı bir şekilde yapılabilir, ancak bazı çalışmaların yapılmasını gerektirir. Örneğin, döngüleri kullanarak, derin bir kopya oluşturacak olan WritableCell.copyTo() yöntemiyle hücre hücre kopyalayın. Ancak biçim yalnızca yüzeysel olarak kopyalanır, bu nedenle hücre biçimini almanız ve bunun kopya oluşturucusunu kullanmanız ve ardından az önce kopyaladığınız hücrede WritableCell.setCellFormat() öğesini çağırmanız gerekir. Bu oldukça büyük bir iş.
+Doğrudan olarak çalışkitabı içinde veya arasında çalışsayfa kopyalamak için API bulunmamaktadır. Bu görev dolaylı bir şekilde yapılabilir fakat yapılması gereken bazı işler vardır. Örneğin, döngüler kullanarak, WritableCell.copyTo() yöntemi ile hücre hücre kopyalamak, derin bir kopya üretir. Ancak format sadece sığ kopyalanır, bu yüzden hücrenin formatını almalı ve bunun kopya yapılandırıcısını kullanmalı ve ardından kopyaladığınız hücreye WritableCell.setCellFormat() çağrısını yapmalısınız. Oldukça büyük bir iştir.
 
 #### **Optimizasyon Yok**
 
-Diğer bir sınırlama, JExcelAPI'nin dosya boyutunu küçültmek için optimizasyonlar gerçekleştirmemesidir, bileşen tarafından oluşturulan ve MB cinsinden çok büyük boyutlu bir çıktı dosyası gördüğümüzde şaşırmamalıyız.
+Başka bir kısıtlama, JExcelAPI'nin dosya boyutunu azaltmak için optimizasyon yapmamasıdır, bu yüzden MB cinsinden büyük boyutlu bir çıktı dosyasının oluşturulduğunu görmek bizi şaşırtmamalıdır.
 
-JExcelAPI, satırları veya sütunları otomatik sığdırmak için API'e sahip değildir. Her sütundaki hücreleri tarayan, maksimum uzunluğu hesaplayan bir kod yazmanız ve buna göre WritableSheet.setColumnView() ve Writable Sheet.setRowView() öğelerini çağırmanız gerekir.
+JExcelAPI'nin satırları veya sütunları otomatik olarak uyarlama için bir API'si bulunmamaktadır. Her sütundaki hücreleri taramayı, maksimum uzunluğu hesaplamayı ve ardından WritableSheet.setColumnView() ve Writable Sheet.setRowView() yöntemlerini çağırmak için kod yazmanız gerekecektir.
 
 #### **Eksik Özellikler**
 
-Ayrıca birkaç engel daha vardır: API, pivot tabloları ve açılır listeleri desteklemez. Hücrelerde ayarlamak için sınırlı doğrulama seçenekleri vardır. Sayfa düzeni ve yazdırma seçenekleri tam olarak desteklenmez, örneğin yinelenen satırlar ve sütunlar ve tüm koruma seçenekleri türleri (parola korumasıyla ilgili sayfalar dahil) desteklenmez. Ayrıca veri sıralama, verileri otomatik filtreleme, koşullu biçimlendirme, çizim nesneleri, kontroller ve daha pek çok değerli özelliği desteklemez.
+Ayrıca, birkaç başka engel de bulunmaktadır: API, özet tabloları ve açılır listeleri desteklemez. Hücrelerde ayarlanacak sınırlı doğrulama seçeneklerine sahiptir. Sayfa düzeni ve yazdırma seçenekleri tam olarak desteklenmemektedir, örneğin tekrarlanan satırlar ve sütunlar ve tüm koruma seçenekleri (şifre koruma ile ilgili çalışsayfalar dahil) desteklenmemektedir. Veri sıralama, otomatik filtre verileri, koşullu biçimlendirme, çizim nesneleri, kontroller ve birçok diğer değerli özellik desteklenmemektedir.
 
 ### **POI-HSSF**
 
-HSSF, Excel elektronik tablolarını okuyan ve yazan POI bileşenidir. Yerel Microsoft Excel dosyasını okuma ve yazma (Excel97-2003 - XLSX OOXML dosya biçimi henüz desteklenmiyor), hücreleri biçimlendirme (sayı biçimleri, yazı tipleri, renkler, kenarlıklar, hizalamalar vb.) dahil olmak üzere JExcelAPI'ye kıyasla genişletilmiş bir dizi özelliğe sahiptir. , hücreleri birleştirme, sayfa kurulum seçenekleri, görüntüleri, şekilleri, adlandırılmış aralıkları içe aktarma, yorumlar, üst bilgiler ve alt bilgiler, köprüler, satırları ve sütunları otomatik sığdırma vb.
+HSSF, Excel elektronik tablolarını okuyup yazan POI'nin bir bileşenidir. JExcelAPI'ye kıyasla genişletilmiş bir özellik setine sahiptir, bunun arasında yerel Microsoft Excel dosyası (Excel97-2003 - XLSX OOXML dosya biçimi henüz desteklenmemektedir) okuma ve yazma, hücrelerin biçimlendirilmesi (sayı biçimleri, yazı tipleri, renkler, kenarlar, hizalamalar vb.), hücreleri birleştirme, sayfa düzeni seçenekleri, resim, şekil, adlandırılmış aralıklar, yorumlar, üst ve alt bilgiler, bağlantılar, satır ve sütunların otomatik uyarlama vb. bulunmaktadır.
 
 #### **Sınırlı Grafik Desteği**
 
-POI-HSSF API için bilinen birkaç sınırlama vardır. Örneğin, şu anda grafikler oluşturamazsınız. Bununla birlikte, Excel'de bir grafik oluşturabilir, HSSF kullanarak grafik veri değerlerini değiştirebilir ve yeni bir elektronik tablo yazabilirsiniz. Bir diğeri ise pivot tablo desteğidir, pivot tablo oluşturmak mümkün değildir.
+POI-HSSF API'sının bazı bilinen kısıtlamaları vardır. Örneğin, şu anda grafik oluşturamazsınız. Bununla birlikte, Excel'de bir grafik oluşturabilir, HSSF kullanarak grafik veri değerlerini değiştirebilir ve yeni bir elektronik tablo yazabilirsiniz. Diğeri, örtü tablo desteğidir; örtü tabloları oluşturmak mümkün değildir.
 
-#### **formül hesaplama**
+#### **Formül Hesaplama**
 
-POI'nin org.apache.poi.hssf.usermodel'i formülleri desteklese de, zengin bir formül hesaplama motorundan yoksundur. Hücre referansları dizesi, tamsayı ve kayan nokta değişmezleri, göreli veya mutlak referanslar, aritmetik ve mantıksal operatörler içeren formülleri destekler ancak dizi formüllerini, tekli operatörleri ve 3B referansları desteklemez.
+POI'nin org.apache.poi.hssf.usermodel formülleri desteklemesine rağmen zengin bir formül hesaplama motoru yoktur. Hücre referansı dize, tamsayı ve kayan nokta sayılarını içeren formülleri destekler, göreceli veya mutlak referansları, aritmetik ve mantıksal operatörleri içerir ancak dizi formülleri, tek operatörler ve 3B referansları desteklemez.
 
 #### **Eksik Özellikler**
 
-HSSF API, PivotTable'ları da desteklemez. Hücrelerde ayarlamak için sınırlı veri doğrulama seçeneklerine sahiptir. Ayrıca, veri sıralama ve verileri otomatik filtreleme gibi özellikleri de desteklemez.
+HSSF API'sı PivotTabloları da desteklemez. Hücrelere ayarlanacak sınırlı veri doğrulama seçenekleri vardır. Ayrıca veri sıralama ve otomatik süzme verisi gibi özellikleri desteklemez.
 
-## **Özellik Karşılaştırması**
+## **Özellik Karşılaştırma**
 
-Aşağıdaki tablo, Aspose.Cells for Java'in açık kaynak bileşenleriyle (yukarıda bahsedilen) nasıl eşleştiğine dair bir özellik genel bakışı sağlamaya çalışır, ancak ilgili ürünler tarafından sağlanan tüm özellikleri kapsamakta zorluk çıkarmaz. Bu sadece belirli bir zamanda alınmış bir taslaktır ve belgeyi okurken eksik özelliklerin desteklenmesi oldukça olasıdır.
+Aşağıdaki tablo, Aspose.Cells for Java'nin (yukarıda belirtilen) açık kaynak bileşenlerle nasıl eşleştiğine dair bir özellik genel bakışı sunmaya çalışmaktadır, ancak bu belgeleri okurken eksik özelliklerin desteklenebileceği oldukça olasıdır. Bu sadece belirli bir zamanda alınan bir taslaktır ve belirli bir zaman alındığında eksik özelliklerin desteklenebileceği oldukça olasıdır.
 
-|**Özellik** |**JExcel API'si** |**POI'ler HSSF** |**Aspose.Cells for Java** |
-|:- |:- |:- |:- |
-|**Dosya formatları**||||
-| Dosya biçimlerini okuma ve yazma (XLS, XLT, XLSX, CSV, SpreadsheetML, Sekmeyle Ayrılmış, TXT, XML ve HTML)| Kısmen Desteklenir| Kısmen Desteklenir| desteklenen|
-| Dosyayı açın ve bir akışa kaydedin||| desteklenen|
-| Excel dosyasını PDF belgesine dönüştürün||| desteklenen|
-| Parola korumalı dosyalar|| desteklenen| desteklenen|
-| E-tablo içeriğini manipüle etme||||
-| Excel dosyalarının belge özelliklerini değiştirme||| desteklenen|
-| Çalışma Sayfası verilerini bir diziye dışa aktarma||| desteklenen|
-| Bir ResultSet'ten verileri içe aktarın||| desteklenen|
-| Bir diziden veri içe aktarma, koleksiyon||| desteklenen|
-| Mevcut çalışma sayfasının bir kopyasını ekleyin (resimler ve grafikler dahil tüm içerikler)| Kısmen Desteklenir| Kısmen Desteklenir| desteklenen|
-| Resimleri içe aktar||| desteklenen|
-| Grafikleri içe aktar||| desteklenen|
-| API'i kullanarak grafikler için gradyan arka planı ayarlayın||| desteklenen|
-| İçerikler, nesneler ve senaryolar dahil olmak üzere çalışma sayfasını koruyun| Kısmen Desteklenir| desteklenen| desteklenen|
-| API kullanarak otomatik filtreler oluşturun||| desteklenen|
-| Sayfa yapısı özellikleri (üst, sol, alt, sağ, üst bilgi ve alt bilgi kenar boşlukları, yönlendirme - dikey veya yatay, ölçekleme, kağıt boyutu, yazdırma alanı, yinelenen satırlar ve sütunlar)| Kısmen Desteklenir| desteklenen| desteklenen|
-|API ile yatay ve dikey sayfa sonları| desteklenen| desteklenen| desteklenen|
-| Çalışma sayfalarını çalışma kitaplarının içinde ve arasında kopyalama ve taşıma|| desteklenen| desteklenen|
-| Satır ve sütun ekleme ve silme| desteklenen|| desteklenen|
-| Satırları ve sütunları otomatik sığdır|| desteklenen| desteklenen|
-| Satırları ve sütunları kopyala||| desteklenen|
-| veri sıralama||| desteklenen|
-| Emsalleri ve bakmakla yükümlü olunanları izleyin||| desteklenen|
-| otomatik filtreleme||| desteklenen|
-| Veri Doğrulama (tüm türler)| Kısmen Desteklenir| Kısmen Desteklenir| desteklenen|
-| Tasarımcı e-tablosundan formülleri içe aktarın| Kısmen Desteklenir| Kısmen Desteklenir| desteklenen|
-| API aracılığıyla karmaşık formüller ayarlayın||| desteklenen|
-| Koşullu biçimlendirme|| desteklenen| desteklenen|
-| Sayfaları etkinleştirme ve çalışma kitabında etkin bir Cell yapma.| desteklenen| desteklenen| desteklenen|
-
-|**Gelişmiş özellikler**||||
-| akıllı işaretçiler||| desteklenen|
-| Standart grafikler oluşturun (sütun, çubuk, çizgi, pasta, dağılım, alan, halka, radar, yüzey 3B, kabarcık, hisse senedi, silindir, koni, piramit vb.)||| desteklenen|
-| Özel grafik API||| desteklenen|
-| Belge özellikleri ayarları||| desteklenen|
-| Gelişmiş Excel XP koruma seçenekleri||| desteklenen|
-| Eklentiler, VBA, makrolar||| desteklenen|
-| Adlandırılmış aralıkları işleyin| desteklenen| desteklenen| desteklenen|
-| Pivot tablolar||| desteklenen|
-| Ortak çizim nesneleri, şekiller ve kontroller oluşturun|| desteklenen| desteklenen|
-|Kontrolleri grafiklere ekleyin||| desteklenen|
-| Formül Hesaplama Motoru||| desteklenen|
-| Bul API| desteklenen| desteklenen| desteklenen|
+|**Özellik** |**JExcelAPI** |**POI's HSSF** |**Aspose.Cells for Java** |
+| :- | :- | :- | :- |
+|**Dosya biçimleri**|  |  |  |
+|XLS, XLT, XLSX, CSV, SpreadsheetML, Tab Delimited, TXT, XML ve HTML biçimlerinde dosyaları okuma ve yazma|Kısmen Desteklenir |Kısmen Desteklenir |Desteklenir |
+|Dosyayı açıp bir akıma kaydetme |  | |Desteklenir |
+|Excel dosyasını PDF belgesine dönüştürme |  | |Desteklenir |
+|Şifre korumalı dosyalar | |Desteklenir |Desteklenir |
+|Elektronik tablo içeriğini manipüle etme |  |  |  |
+|Excel dosyalarının belge özelliklerini değiştirme |  | |Desteklenir |
+|Çalışma sayfası verilerini bir diziye aktarma |  |  |Desteklenir |
+|ResultSet'ten veri içe aktarma |  |  |Desteklenir |
+|Diziden veya koleksiyondan veri içe aktarma |  | |Desteklenir |
+|Mevcut çalışma sayfasının bir kopyasını (resimler ve grafikler dahil tüm içerikleriyle) ekleme |Kısmen Desteklenir |Kısmen Desteklenir |Desteklenir |
+|Resimleri içe aktarma |  | |Desteklenir |
+|Grafikleri içe aktarma |  | |Desteklenir |
+|API kullanarak grafikler için gradyan arka plan ayarlama |  |  |Desteklenir |
+|İçerik, nesneler ve senaryolar dahil çalışma sayfasını koruma |Kısmen Desteklenir |Desteklenir |Desteklenir |
+|API kullanarak otomatik süzme oluşturma |  |  |Desteklenir |
+|Sayfa düzeni özellikleri (üst, sol, alt, sağ, üstbilgi ve altbilgi kenar boşlukları, yönlendirme - dikey veya yatay, ölçekleme, kağıt boyutu, yazdırma alanı, tekrarlanan satırlar ve sütunlar) |Kısmen Desteklenir |Desteklenir |Desteklenir |
+|API aracılığıyla yatay ve dikey sayfa kesmeleri |Desteklenir |Desteklenir |Desteklenir |
+|Çalışma sayfalarını ve çalışma kitapları arasında kopyalama ve taşıma | |Desteklenir |Desteklenir |
+|Satır ve sütun ekleme ve silme |Desteklenir | |Desteklenir |
+|Satırları ve sütunları otomatik uyarlama | |Desteklenir |Desteklenir |
+|Satır ve sütun kopyalama | | |Desteklenir |
+|Veri sıralama | | |Desteklenir |
+|Precedents ve bağımlıları izle | | |Desteklenir |
+|Otomatik filtreleme | | |Desteklenir |
+|Veri Doğrulama (tüm tipler) |Kısmen Desteklenir |Kısmen Desteklenir |Desteklenir |
+|Tasarımcı elektronik tablodan formülleri içe aktar |Kısmen Desteklenir |Kısmen Desteklenir |Desteklenir |
+|API aracılığıyla karmaşık formüller belirle |  |  |Desteklenir |
+|Koşullu biçimlendirme |  |Desteklenir   |Desteklenir |
+|Sayfaları etkinleştirme ve elektronik tabloda aktif bir hücre oluşturma |Desteklenir |Desteklenir |Desteklenir |
+|**Gelişmiş Fonksiyonlar**| | | |
+|Akıllı belirteçler |  |  |Desteklenir |
+|Standart grafikler oluşturma (sütun, çubuk, çizgi, pasta, dağılım, alan, halka, radar, yüzey 3D, baloncuk, hisse senedi, silindir, koni, piramit vb.) | | |Desteklenir |
+|Özel grafik API | | |Desteklenir |
+|Belge özellikleri ayarları |  | |Desteklenir |
+|Gelişmiş Excel XP koruma seçenekleri |  |  |Desteklenir |
+|Eklentiler, VBA, makrolar |  | |Desteklenir |
+|İsimlendirilmiş aralıkları manipüle et |Desteklenir |Desteklenir |Desteklenir |
+|Pivot tabloları | | |Desteklenir |
+|Ortak çizim nesneleri, şekiller ve kontroller oluşturma | |Desteklenir |Desteklenir |
+|Kontrolleri grafiklere ekle | | |Desteklenir |
+|Formül Hesaplama Motoru |  |  |Desteklenir |
+|API Bul |Desteklenir |Desteklenir |Desteklenir |

@@ -1,16 +1,17 @@
-﻿---
-title: Ausblenden und Anzeigen von Zeilen und Spalten in Ruby
+---
+title: Verbergen und Anzeigen von Zeilen und Spalten in Ruby
 type: docs
 weight: 50
 url: /de/java/hiding-and-showing-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells – Steuern der Sichtbarkeit von Zeilen und Spalten**
-### **Zeilen und Spalten ausblenden**
-Entwickler können eine Zeile oder Spalte ausblenden, indem sie die Methoden HideRow und HideColumn der Sammlung Cells aufrufen. Beide Methoden verwenden den Zeilen-/Spaltenindex als Parameter, um die bestimmte Zeile oder Spalte auszublenden.
+
+## **Aspose.Cells - Steuerung der Sichtbarkeit von Zeilen & Spalten**
+### **Verbergen von Zeilen und Spalten**
+Entwickler können eine Zeile oder Spalte verbergen, indem sie die Methoden HideRow und HideColumn der Cells-Sammlung aufrufen. Beide Methoden nehmen den Zeilen-/Spaltenindex als Parameter, um die spezifische Zeile oder Spalte zu verbergen.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def hide_rows_columns()
 
@@ -43,15 +44,15 @@ Entwickler können eine Zeile oder Spalte ausblenden, indem sie die Methoden Hid
 end
 
 {{< /highlight >}}
-### **Zeilen und Spalten anzeigen**
-Entwickler können jede ausgeblendete Zeile oder Spalte sichtbar machen, indem sie die Methoden UnhideRow und UnhideColumn der Sammlung Cells aufrufen. Beide Methoden nehmen zwei Parameter:
+### **Anzeigen von Zeilen und Spalten**
+Entwickler können eine versteckte Zeile oder Spalte wieder anzeigen, indem sie die Methoden UnhideRow und UnhideColumn der Cells-Sammlung aufrufen. Beide Methoden nehmen zwei Parameter:
 
-- **Rowor-Spaltenindex**- der Index einer Zeile oder Spalte, der verwendet wird, um die bestimmte Zeile oder Spalte anzuzeigen.
-- **Zeilenhöhe oder Spaltenbreite**- die Zeilenhöhe oder Spaltenbreite, die der Zeile oder Spalte zugewiesen wird, nachdem sie angezeigt wurde.
+- **Zeilen- oder Spaltenindex** - der Index einer Zeile oder Spalte, der verwendet wird, um die spezifische Zeile oder Spalte anzuzeigen.
+- **Zeilenhöhe oder Spaltenbreite** - die Zeilenhöhe oder Spaltenbreite, die der Zeile oder Spalte nach dem Anzeigen zugewiesen wird.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def unhide_rows_columns()
 
@@ -84,7 +85,7 @@ Entwickler können jede ausgeblendete Zeile oder Spalte sichtbar machen, indem s
 end
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Steuern der Sichtbarkeit von Zeilen und Spalten (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie die Steuerung der Sichtbarkeit von Zeilen & Spalten (Aspose.Cells) von einer der unten genannten Social-Coding-Sites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

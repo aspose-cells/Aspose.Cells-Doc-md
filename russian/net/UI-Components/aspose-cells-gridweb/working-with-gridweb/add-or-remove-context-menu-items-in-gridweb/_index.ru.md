@@ -1,15 +1,18 @@
-﻿---
-title: Добавление или удаление элементов контекстного меню в GridWeb
+---
+title: Добавление или удаление пунктов контекстного меню в GridWeb
 type: docs
 weight: 130
-url: /ru/net/add-or-remove-context-menu-items-in-gridweb/
+url: /ru/net/aspose-cells-gridweb/add-or-remove-context-menu-items-in-gridweb/
+keywords: GridWeb, контекстное меню, меню
+description: В этой статье рассматривается способ добавления или удаления пунктов контекстного меню в GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Вы можете добавить элементы контекстного меню, используя разметку ASP.NET или код .NET. Вы также можете удалить пункты контекстного меню, используя код .NET. Для этих целей используйте методы GridWeb.CustomCommandButtons.Add() и GridWeb.CustomCommandButtons.Remove() или RemoveAt().
+Вы можете добавлять элементы контекстного меню с использованием разметки ASP.NET или с помощью кода .NET. Вы также можете удалять элементы контекстного меню с использованием кода .NET. Для этого используйте методы GridWeb.CustomCommandButtons.Add() и GridWeb.CustomCommandButtons.Remove() или RemoveAt().
 
 {{% /alert %}} 
-## **Добавить пункт контекстного меню с помощью разметки ASP.NET**
+## **Добавить элемент контекстного меню с использованием разметки ASP.NET**
 Следующая разметка ASP.NET добавляет элемент контекстного меню в GridWeb.
 
 
@@ -18,7 +21,7 @@ url: /ru/net/add-or-remove-context-menu-items-in-gridweb/
 
 
 
-Вот полная разметка ASP.NET, которая создает GridWeb с указанным выше элементом контекстного меню. Обратите внимание на атрибут OnCustomCommand="GridWeb1_CustomCommand". Это имя обработчика события, которое будет вызываться при нажатии на элемент контекстного меню.
+Вот полная разметка ASP.NET, создающая GridWeb с указанным элементом контекстного меню. Обратите внимание на атрибут OnCustomCommand="GridWeb1_CustomCommand". Это имя обработчика событий, которое будет вызвано при щелчке на ваш элемент контекстного меню.
 
 
 
@@ -26,27 +29,27 @@ url: /ru/net/add-or-remove-context-menu-items-in-gridweb/
 
 
 
-Вот как выглядит элемент контекстного меню после добавления с использованием приведенной выше разметки ASP.NET.
+Так выглядит элемент контекстного меню после добавления с использованием указанной разметки ASP.NET.
 
-![дело:изображение_альтернативный_текст](add-or-remove-context-menu-items-in-gridweb_1.png)
+![todo:image_alt_text](add-or-remove-context-menu-items-in-gridweb_1.png)
 
-Это код обработчика событий, который выполняется при нажатии на элемент контекстного меню. Код сначала проверяет имя команды, и если оно соответствует нашей команде, он добавляет текст в ячейку A1 активного рабочего листа GridWeb и устанавливает ширину первого столбца на 40 единиц, чтобы сделать текст видимым.
+Это код обработчика событий, который выполняется при щелчке на элемент контекстного меню. Сначала код проверяет имя команды, если оно соответствует нашей команде, то добавляет текст в ячейку A1 активного листа GridWeb и устанавливает ширину первого столбца равной 40 единицам, чтобы текст был видимым.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-InitContextMenuItem.aspx-HandleContextMenuItemCommand.cs" >}}
 
 
-Вот как выглядит GridWeb, когда вы щелкаете пункт контекстного меню.
+Вот как выглядит GridWeb после щелчка на элемент контекстного меню.
 
-![дело:изображение_альтернативный_текст](add-or-remove-context-menu-items-in-gridweb_2.png)
-## **Добавить элементы контекстного меню в Aspose.Cells.GridWeb с помощью кода**
-В этом коде показано, как добавить элемент контекстного меню в GridWeb с помощью кода.
+![todo:image_alt_text](add-or-remove-context-menu-items-in-gridweb_2.png)
+## **Добавление элементов контекстного меню в Aspose.Cells.GridWeb с использованием кода**
+Этот код показывает, как добавить элемент контекстного меню в GridWeb с помощью кода.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-AddRemoveContextMenuItem.aspx-AddContextMenuItem.cs" >}}
-## **Удалить элементы контекстного меню в Aspose.Cells.GridWeb с помощью кода**
+## **Удаление элементов контекстного меню в Aspose.Cells.GridWeb с использованием кода**
 Этот код показывает, как удалить элемент контекстного меню с помощью методов CustomCommandButtons.Remove() и CustomCommandButtons.RemoveAt().
 
 

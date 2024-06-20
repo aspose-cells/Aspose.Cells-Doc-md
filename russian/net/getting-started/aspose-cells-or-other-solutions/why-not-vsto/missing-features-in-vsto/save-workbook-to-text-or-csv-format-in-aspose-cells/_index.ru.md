@@ -1,44 +1,45 @@
-﻿---
-title: Сохранить книгу в текст или формат CSV в формате Aspose.Cells
+---
+title: Сохранить книгу в текстовом или CSV формате в Aspose.Cells
 type: docs
 weight: 110
 url: /ru/net/save-workbook-to-text-or-csv-format-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Иногда вы хотите преобразовать или сохранить книгу с несколькими листами в текстовом формате. Для текстовых форматов (например, TXT, TabDelim, CSV и т. д.) по умолчанию как Microsoft Excel, так и Aspose.Cells сохраняют содержимое только активного рабочего листа.
+Иногда вам нужно преобразовать или сохранить книгу с несколькими листами в текстовом формате. Для текстовых форматов (например, TXT, TabDelim, CSV и т. д.), по умолчанию как Microsoft Excel, так и Aspose.Cells сохраняют содержимое только активного листа.
 
 {{% /alert %}} 
 
-В следующем примере кода показано, как сохранить всю книгу в текстовом формате. Загрузите исходную книгу, которая может быть любым файлом электронной таблицы Microsoft Excel или OpenOffice (например, XLS, XLSX, XLSM, XLSB, ODS и т. д.) с любым количеством рабочих листов.
+В следующем примере кода объясняется, как сохранить всю книгу в текстовом формате. Загрузите исходную книгу, которая может быть любым файлом электронных таблиц Microsoft Excel или OpenOffice (например, XLS, XLSX, XLSM, XLSB, ODS и т. д.) с любым количеством листов.
 
-Когда код выполняется, он преобразует данные всех листов книги в формат TXT.
+При выполнении кода конвертируются данные всех листов книги в формат TXT.
 
-Вы можете изменить тот же пример, чтобы сохранить файл в формате CSV. По умолчанию TxtSaveOptions.Separator — это запятая, поэтому не указывайте разделитель при сохранении в формате CSV.
+Вы можете изменить этот пример, чтобы сохранить ваш файл в формате CSV. По умолчанию разделителем является запятая, поэтому не указывайте разделитель при сохранении в формате CSV.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- строка filePath = "source.xlsx";
+ string filePath = "source.xlsx";
 
-//Загружаем исходную книгу
+//Load your source workbook
 
-Книга рабочей книги = новая рабочая книга (путь к файлу);
+Workbook workbook = new Workbook(filePath);
 
-//0-байтовый массив
+//0-byte array
 
-byte[]workbookData = новый байт[0];
+byte[] workbookData = new byte[0];
 
-//Параметры сохранения текста. Вы можете использовать любой тип разделителя
+//Text save options. You can use any type of separator
 
 TxtSaveOptions opts = new TxtSaveOptions();
 
 opts.Separator = '\t';
 
-// Копируем данные каждого рабочего листа в текстовом формате внутри массива данных рабочей книги
+//Copy each worksheet data in text format inside workbook data array
 
- для (int idx = 0; idx< workbook.Worksheets.Count; idx++)
+for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 
 {
 
@@ -74,7 +75,7 @@ File.WriteAllBytes(filePath + ".out.txt", workbookData);
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

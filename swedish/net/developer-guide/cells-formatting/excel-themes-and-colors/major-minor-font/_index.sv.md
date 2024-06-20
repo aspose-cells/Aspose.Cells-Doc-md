@@ -1,47 +1,48 @@
 ---
-title: Rubriker och teckensnitt för kroppstema
-description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylarksfiler. Den stöder inställning av teckensnitt för rubriker och kroppstema i Excel-dokument, vilket gör det möjligt för användare att anpassa utseendet och stilen på dokumentet. Den här artikeln kommer att introducera hur du använder Aspose.Cells-biblioteket för att arbeta med teckensnitt för rubriker och texttema i Excel-dokument.
-keywords: Aspose.Cells, Excel Document, Heading, Body, Theme Font, Appearance, Style
+title: Rubrik och brödtexttema font
+description: Aspose.Cells är ett .NET bibliotek för att arbeta med kalkylbladsfiler. Det stöder inställning av rubrik och brödtexttemafonter i Exceldokument, vilket möjliggör för användare att anpassa utseendet och stilen på dokumentet. Denna artikel kommer att introducera hur man använder Aspose.Cells biblioteket för att arbeta med rubrik och brödtexttemafonter i Exceldokument.
+keywords: Aspose.Cells, Excel dokument, Rubrik, Text, Tema Font, Utseende, Stil
 type: docs
 weight: 120
 url: /sv/net/headings-and-body-theme-font/
 ---
+
 {{% alert color="primary" %}}
 
- Standardteckensnittet ändras automatiskt när återinställningen ändras.
+Standardtypsnittet kommer automatiskt att ändras när regoinställningen ändras. 
 
-Om standardteckensnittet ändras ändras också radhöjden och kolumnbredden, och det kan till och med förstöra sidlayouten.
+Om standardtypsnittet ändras, ändras också radhöjd och kolumnbredd, och det kan till och med förstöra sidlayouten.
 
-Vad fick standardteckensnittet att ändras?
+Vad orsakade att standardtypsnittet ändrades?
 
-Om Excel-tematypsnitt är inställt kommer Excel automatiskt att växla mellan olika typsnitt baserat på den aktuella språkmiljön.
+Om Excel-tematypsnitt är inställt, kommer Excel automatiskt att växla mellan olika typsnitt baserat på den aktuella språkmiljön.
 
 
 {{% /alert %}}
 
-##  **Rubriker Och Kroppstema Teckensnitt I Excel**
+## **Rubrik- och brödtematypsnitt i Excel**
 
-I Excel, välj Hem-fliken, klicka på rullgardinsmenyn för teckensnitt, du kommer att se "Temateckensnitt" med två temateckensnitt: Calibri Light (Rubriker) och Calibri (Body) överst med engelsk regioninställning.
+I Excel, välj fliken Hem, klicka på typsnittslistrutan, du kommer att se "Tematypsnitt" med två tematypsnitt: Calibri Light (Rubriker) och Calibri (Brödtext) längst upp med engelsk regoinställning.
 
-**![Theme Fonts](Theme-Fonts.png)**
+**![Tema Typsnitt](Tema-Typsnitt.png)**
 
-Om Temateckensnitt väljs kommer teckensnittsnamnet att visas olika i olika regioner.
-Om du inte vill att teckensnittet ska ändras automatiskt i olika regioner, välj inte de två temateckensnitten .
+Om tematypsnitt väljs, kommer typsnittsnamnet att visas olika i olika regioner.
+Om du inte vill att typsnittet automatiskt ändras i olika regioner, välj inte de två tematypsnitten.
 
 
-##  **Ändra rubriker och kroppsteckensnitt programmässigt**
- Med Aspose.Cells för .Net kan vi kontrollera om standardteckensnittet är tematypsnitt eller ställa in tematypsnitt med[**Font.SchemeType**](https://reference.aspose.com/cells/net/aspose.cells/font/schemetype/) fast egendom.
+## **Ändra Rubriker och brösttypsnitt programmatiskt**
+Med Aspose.Cells för .Net kan vi kontrollera om standardtypsnittet är tematypsnitt eller ställa in tematypsnitt med [**Font.SchemeType**](https://reference.aspose.com/cells/net/aspose.cells/font/schemetype/)-egenskapen.
 
-Följande exempelkod visar hur man manipulerar temateckensnitt.
+Följande exempelkod visar hur man manipulerar tematypsnitt.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Headings-and-body-font.cs" >}}
 
 
-##  **Får dynamiskt lokalt temateckensnitt programmässigt**
-Ibland är våra servrar och användarnas maskiner inte i samma region. Hur kan vi få samma typsnitt som användarna vill ha för filbehandling?
+## **Dynamiskt hämtar lokal tematypsnitt programmatiskt**
+Ibland är våra servrar och användares maskiner inte i samma region. Hur kan vi få samma typsnitt som användarna vill för filbehandling?
 
- Vi måste ställa in systemets regionala inställningar innan vi laddar filen med[**LoadOptions.Region**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/region/) fast egendom
+Vi måste ställa in systemets regionala inställningar innan vi laddar filen med [**LoadOptions.Region**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/region/)-egenskapen.
 
-Följande exempelkod visar hur man får lokalt tematypsnitt.
+Följande exempelkod visar hur man får lokaltematypsnitt.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}

@@ -1,34 +1,37 @@
-﻿---
+---
 title: عرض وإخفاء أشرطة التمرير
 type: docs
 weight: 140
-url: /ar/net/display-and-hide-scroll-bars/
+url: /ar/net/aspose-cells-griddesktop/display-and-hide-scroll-bars/
+keywords: GridDesktop, إظهار, إخفاء, تمرير, شريط التمرير
+description: يقدم هذا المقال كيفية إظهار أو إخفاء شريط التمرير في GridDesktop.
 ---
+
 {{% alert color="primary" %}}
 
-تُعد أشرطة التمرير مفيدة للتنقل في محتويات جداول البيانات العريضة والعميقة ، أي التي تحتوي على العديد من الصفوف والأعمدة. تدعم معظم التطبيقات نوعين من شريط التمرير:
+تكون أشرطة التمرير مفيدة لتصفح محتويات الجداول الخليطة التي تكون واسعة وعميقة، أي أنها تحتوي على العديد من الصفوف والأعمدة. تدعم معظم التطبيقات نوعين من أشرطة التمرير:
 
-- شريط التمرير العمودي
+- شريط التمرير الرأسي
 - شريط التمرير الأفقي
 
-تم العثور على كلاهما في Microsoft Excel.
+كلاهما يوجد في Microsoft Excel.
 
-يوفر Aspose.Cell's GridDesktop API أشرطة تمرير أفقية ورأسية للتمرير عبر محتويات ورقة العمل. مع Aspose.Cells.GridDesktop APIs ، يمكن للمطورين التحكم في رؤية كل من أشرطة التمرير هذه.
+توفر واجهة برمجة تطبيقات Aspose.Cell's GridDesktop شرائط تمرير أفقية ورأسية للتمرير من خلال محتويات ورقة العمل. باستخدام واجهة برمجة تطبيقات Aspose.Cells.GridDesktop، يمكن للمطورين التحكم في رؤية كلا هاتين الشريطين.
 
 {{% /alert %}}
 
-## **التحكم في رؤية شريط التمرير**
+## **التحكم في رؤية شريط التمرير **
 
-للتحكم في رؤية شريط التمرير في GridDesktop ، استخدم خصائص IsVerticalScrollBarVisible و IsHorizontalScrollBarVisible. توضح الأمثلة أدناه كيفية إخفاء وإظهار أشرطة التمرير.
+للتحكم في رؤية شريط التمرير في GridDesktop، استخدم خصائص IsVerticalScrollBarVisible و IsHorizontalScrollBarVisible. توضح الأمثلة أدناه كيفية إخفاء وإظهار أشرطة التمرير.
 
-### **نماذج البرمجة: إخفاء أشرطة التمرير**
+### **أمثلة البرمجة: إخفاء أشرطة التمرير**
 
-لإخفاء أشرطة التمرير ، اضبط الخصائص التي تتحكم في الرؤية على false.
+لإخفاء أشرطة التمرير، قم بتعيين الخصائص التي تتحكم في الرؤية على false.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-DisplayHideScrolBars-HideScrollbars.cs" >}}
 
-### **نماذج البرمجة: جعل أشرطة التمرير مرئية**
+### **أمثلة البرمجة: جعل شرائط التمرير مرئية**
 
-لجعل أشرطة التمرير مرئية ، قم بتعيين الخصائص التي تتحكم في الرؤية على "صواب".
+لجعل شرائط التمرير مرئية، قم بتعيين الخصائص التي تتحكم في الرؤية على true.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-DisplayHideScrolBars-ShowScrollbars.cs" >}}

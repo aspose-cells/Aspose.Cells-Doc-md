@@ -1,27 +1,28 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.9.2
+---
+title: Изменения в публичном API в Aspose.Cells 8.9.2
 type: docs
 weight: 330
 url: /ru/java/public-api-changes-in-aspose-cells-8-9-2/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.9.1 до 8.9.2, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 8.9.1 до 8.9.2, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные открытые методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Пожалуйста, также проверьте[Общедоступный API Изменения, внесенные в Aspose.Cells for Java 8.9.1](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1)
+Также ознакомьтесь с [Изменениями в общем API, введенными в Aspose.Cells for Java 8.9.1](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1)
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Добавлен класс TextOptions и свойство FontSettings.TextOptions.**
-Aspose.Cells for Java предоставил класс TextOptions вместе со свойством FontSettings.TextOptions для управления внешним видом текстовых частей формы.
+## **Добавленные API**
+### **Добавлен класс TextOptions и свойство FontSettings.TextOptions**
+Aspose.Cells for Java представил класс TextOptions вместе со свойством FontSettings.TextOptions для управления видом текстовых частей формы.
 
 Вот простой сценарий использования свойства FontSettings.TextOptions.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -44,14 +45,14 @@ shape.setText("Aspose");
 TextOptions textOptions =  ((FontSetting)shape.getCharacters().get(0)).getTextOptions();
 
 {{< /highlight >}}
-### **Добавлены свойства TextOptions.Fill, Outline и Shadow.**
- Aspose.Cells for Java 8.9.2 предоставляет свойства TextOptions.Fill, TextOptions.Outline и TextOptions.Shadow, которые позволяют управлять аспектами текстового содержимого фигуры, такими как заливка, тень и контур соответственно.
+### **Добавлены свойства TextOptions.Fill, Outline и Shadow**
+Aspose.Cells for Java 8.9.2 представил свойства TextOptions.Fill, TextOptions.Outline и TextOptions.Shadow, которые позволяют контролировать аспекты текстового содержимого формы, такие как заливка, тень и контур соответственно. 
 
-Вот простой сценарий использования вышеупомянутых свойств.
+Вот простой сценарий использования вышеперечисленных свойств.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -89,13 +90,13 @@ textOptions.getOutline().setOneColorGradient(Color.getBlue(), 0.3, GradientStyle
 
 {{< /highlight >}}
 ### **Добавлено свойство Shape.Line**
-Aspose.Cells for Java предоставил свойство Shape.Line, которое возвращает экземпляр LineFormat для управления внешним видом контуров фигуры.
+Aspose.Cells for Java представил свойство Shape.Line, которое возвращает экземпляр LineFormat для управления отображением контуров формы.
 
 Вот простой сценарий использования свойства Shape.Line.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -119,13 +120,13 @@ line.setWeight(4);
 
 {{< /highlight >}}
 ### **Добавлено свойство Shape.Fill**
-Aspose.Cells for Java 8.9.2 предоставляет свойство Shape.Fill, которое возвращает экземпляр FillFormat для управления различными аспектами области формы.
+Aspose.Cells for Java 8.9.2 представил свойство Shape.Fill, которое возвращает экземпляр FillFormat для управления различными аспектами области формы.
 
 Ниже приведен простой сценарий использования свойства Shape.Fill.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -152,14 +153,14 @@ fill.getSolidFill().setColor(Color.getBlue());
 {{< /highlight >}}
 ## **Устаревшие API**
 ### **Устаревший класс ShapeFont**
-Вместо этого используйте класс TextOptions.
+Пожалуйста, используйте класс TextOptions вместо.
 ### **Устаревший класс ShapeFormat**
-Пожалуйста, используйте свойства Shape.Fill и Shape.Line напрямую.
+Пожалуйста, непосредственно используйте свойства Shape.Fill и Shape.Line.
 ### **Устаревшее свойство Shape.Format**
-Пожалуйста, используйте свойства Shape.Fill и Shape.Line напрямую.
-### **Устаревшее свойство Shape.LineFormat**
-Вместо этого используйте свойство Shape.Line.
-### **Устаревшее свойство Shape.FillFormat**
-Вместо этого используйте свойство Shape.Fill.
-### **Устаревшее свойство FontSetting.ShapeFont**
-Вместо этого используйте свойство FontSetting.TextOptions.
+Пожалуйста, непосредственно используйте свойства Shape.Fill и Shape.Line.
+### **Устаревшее свойство Shape.LineFormat.**
+Пожалуйста, используйте свойство Shape.Line вместо него.
+### **Устаревшее свойство Shape.FillFormat.**
+Пожалуйста, используйте свойство Shape.Fill вместо него.
+### **Устаревшее свойство FontSetting.ShapeFont.**
+Пожалуйста, используйте свойство FontSetting.TextOptions вместо него.

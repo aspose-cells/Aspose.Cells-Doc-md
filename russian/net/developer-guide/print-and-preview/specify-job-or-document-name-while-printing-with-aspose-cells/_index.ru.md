@@ -1,18 +1,19 @@
-﻿---
-title: Укажите имя задания или документа при печати с помощью Aspose.Cells.
+---
+title: Укажите название задания или документа при печати с помощью Aspose.Cells
 type: docs
 weight: 270
 url: /ru/net/specify-job-or-document-name-while-printing-with-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Вы можете указать имя задания или документа при печати книги или листа с помощью объектов WorkbookRender или SheetRender. Aspose.Cells предоставляет методы WorkbookRender.ToPrinter(printerName, jobName) и SheetRender.ToPrinter(printerName, jobName), которые можно использовать для указания имени задания при печати книги или листа.
+Вы можете указать имя задания или документа при печати вашей книги или рабочего листа с использованием объектов WorkbookRender или SheetRender. Aspose.Cells предоставляет методы WorkbookRender.ToPrinter(printerName, jobName) и SheetRender.ToPrinter(printerName, jobName), которые можно использовать для указания имени задания при печати вашей книги или рабочего листа.
 
 {{% /alert %}}
 
-## Укажите имя задания или документа при печати с помощью Aspose.Cells.
+## Укажите имя задания или документа при печати с Aspose.Cells
 
-Пример кода загружает исходный файл Excel, а затем отправляет его на принтер, указывая задание или имя документа с помощью методов WorkbookRender.ToPrinter(printerName, jobName) и SheetRender.ToPrinter(printerName, jobName).
+Образцовый код загружает исходный Excel-файл, а затем отправляет его на принтер, указав имя задания или документа, используя методы WorkbookRender.ToPrinter(printerName, jobName) и SheetRender.ToPrinter(printerName, jobName).
 
 ## Образец кода
 

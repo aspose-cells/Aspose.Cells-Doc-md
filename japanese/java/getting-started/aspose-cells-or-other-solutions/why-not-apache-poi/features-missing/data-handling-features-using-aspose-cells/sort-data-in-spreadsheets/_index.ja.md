@@ -1,23 +1,24 @@
-﻿---
-title: スプレッドシートのデータを並べ替える
+---
+title: スプレッドシートでのデータのソート
 type: docs
 weight: 70
 url: /ja/java/sort-data-in-spreadsheets/
 ---
-## **Aspose.Cells - スプレッドシートのデータの並べ替え**
+
+## **Aspose.Cells - スプレッドシートでのデータのソート**
 {{% alert color="primary" %}} 
 
-Aspose.Cells を使用してスプレッドシートのデータを並べ替えるには、セル領域の簡単に設定できるプロパティをいくつか設定した後、DataSorter.sorter() メソッドを呼び出すだけです。
+Aspose.Cellsを使用してスプレッドシートのデータをソートするには、cell areaのいくつかの簡単に設定できるプロパティを設定した後、DataSorter.sorter()メソッドを単に呼び出します。
 
-Java コードは後述します。
+以下にJavaコードが記載されています。
 
 {{% /alert %}} 
 
-Aspose.Cells を使用してデータを並べ替える
+Aspose.Cellsを使用してデータをソート
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtain the DataSorter object in the workbook
 
@@ -64,13 +65,13 @@ ca.EndColumn = 2;
 sorter.sort(cells, ca);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[データの並べ替え](/java/sort-data)、 また[データの並べ替え](/cells/ja/java/data-sorting).
+[データのソート](/java/sort-data)または[データのソート](/cells/ja/java/data-sorting)の詳細については
 
 {{% /alert %}}

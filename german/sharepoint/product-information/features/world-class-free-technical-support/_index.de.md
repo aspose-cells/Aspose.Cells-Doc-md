@@ -1,29 +1,30 @@
-﻿---
-title: Kostenloser technischer Support von Weltklasse
+---
+title: Weltklasse kostenloser technischer Support
 type: docs
 weight: 20
 url: /de/sharepoint/world-class-free-technical-support/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose ist bekannt für seinen kostenlosen und unbegrenzten technischen Support, der direkt von den Entwicklern der Produkte bereitgestellt wird. Wenn eine neue Version eines Produkts verfügbar ist oder wenn die Lösung einer Frage zu einer Lösung führt, sind alle neuen Versionen kostenlos, wenn Sie ein aktives Abonnement haben.
+Aspose ist bekannt für seinen kostenlosen und unbegrenzten technischen Support, der direkt von den Entwicklern der Produkte bereitgestellt wird. Wenn eine neue Version eines Produkts verfügbar ist oder wenn die Behebung einer Frage zu einer Lösung führt, sind alle neuen Versionen kostenlos, wenn Sie ein aktives Abonnement haben.
 
 {{% /alert %}}
 
-### **Unterstützung bekommen**
+### **Support erhalten**
 
 #### **Foren**
 
-[Aspose Support-Foren](https://forum.aspose.com/) ist nicht nur der Ort, um technische Probleme zu lösen, sondern auch an Diskussionen mit der lebhaften und wachsenden Community von Aspose-Benutzern teilzunehmen. Derzeit sind über 190.000 Benutzer auf der Website Aspose registriert.
+[Das Aspose-Supportforum](https://forum.aspose.com/) ist nicht nur der Ort, um technische Probleme zu lösen, sondern auch an Diskussionen mit der lebendigen und wachsenden Aspose-Benutzergemeinschaft teilzunehmen. Aktuell sind über 190.000 Benutzer auf der Aspose-Website registriert.
 
 #### **Blogs**
 
-[Aspose.Blogs](https://blog.aspose.com/) ist der Ort, an dem Sie nach Informationen über die neuesten Versionen suchen und darüber, was Aspose-Entwickler zu sagen haben.
+[Aspose-Blogs](https://blog.aspose.com/) sind die richtige Anlaufstelle, um Informationen über die neuesten Veröffentlichungen und über das zu erfahren, was die Aspose-Entwickler zu sagen haben.
 
-#### **Brauchen Sie mehr Unterstützung?**
+#### **Benötigen Sie mehr Unterstützung?**
 
-Aspose bietet allen Benutzern kostenlosen Support. Für Unternehmen, die möchten, dass ihr Thema priorisiert wird, oder die unsere Produktentwicklungs-Roadmap beeinflussen möchten, gibt es sie[Erweiterte Support-Optionen](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) wie Priority Support und Enterprise Support.
+Aspose bietet allen Benutzern kostenlosen Support an. Für Unternehmen, die möchten, dass ihr Problem priorisiert wird, oder die unseren Produktentwicklungs-Fahrplan beeinflussen möchten, stehen [erweiterte Supportoptionen](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) wie Priority Support und Enterprise Support zur Verfügung.
 
-**In den Aspose.Support-Foren herrscht reges Treiben.**
+**In den Aspose.Support-Foren ist viel los.**
 
-![todo: Bild_alt_Text](world-class-free-technical-support_1.png)
+![todo:image_alt_text](world-class-free-technical-support_1.png)

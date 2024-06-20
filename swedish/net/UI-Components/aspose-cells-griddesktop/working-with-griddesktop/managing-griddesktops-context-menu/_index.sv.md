@@ -1,27 +1,30 @@
-﻿---
+---
 title: Hantera GridDesktops kontextmeny
 type: docs
 weight: 40
-url: /sv/net/managing-griddesktops-context-menu/
+url: /sv/net/aspose-cells-griddesktop/manage-griddesktops-context-menu/
+keywords: GridDesktop,kontext,kontextmeny
+description: Den här artikeln introducerar hur man anpassar kontextmenyn i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop har en snabbmeny som har alla vanliga kommandon. Kontrollen låter dig dölja/visa menyalternativ. Dessutom är det möjligt att lägga till nya menyalternativ med händelsehanterare till menyn.
+Aspose.Cells.GridDesktop har en kontextmeny som innehåller alla de vanligt använda kommandona. Kontrollen låter dig dölja/visa menyobjekt. Dessutom är det möjligt att lägga till nya menyobjekt med händelsehanterare till menyn.
 
 {{% /alert %}} 
 ## **Introduktion**
-Klassen ContextMenuManager används för att hantera snabbmenyalternativen. GridDesktop.ContextMenuManager-attributet hämtar instansen av ContextMenuManager-objektet. Till exempel får eller ställer attributet ContextMenuManager.MenuItemAvailable_Copy ett värde som anger om snabbmenyalternativet **Copy** är tillgängligt eller inte. På samma sätt har vi alla motsvarande attribut för olika kontextmenyalternativ.
+Klassen ContextMenuManager används för att hantera kontextmenyobjekten. Attributet GridDesktop.ContextMenuManager hämtar instansen av objektet ContextMenuManager. Till exempel hämtar eller sätter attributet ContextMenuManager.MenuItemAvailable_Copy ett värde som indikerar om kontextmenyobjektet Kopiera är tillgängligt eller inte. På samma sätt har vi alla motsvarande attribut för olika kontextmenyobjekt.
 
-**VIKTIG:** Som standard är alla snabbmenyalternativ synliga i listan.
-## **Hantera snabbmenyn**
-### **Döljer kontextmenyobjekt**
-För att utföra denna uppgift tar vi först en titt på standardkontextmenyn som GridDesktop har.
+**VIKTIGT:** Som standard är alla kontextmenyobjekten synliga i listan.
+## **Hantera kontextmenyn**
+### **Dölja kontextmenyobjekt**
+För att utföra denna uppgift tittar vi först på den standards kontextmeny som GridDesktop har.
 
-**GridDeskops standardmeny** 
+**GridDesktops standardmeny** 
 
 ![todo:image_alt_text](managing-griddesktops-context-menu_1.png)
 
-Göm nu några menyalternativ med koden nedan:
+Nu, dölj några menyobjekt med hjälp av koden nedan:
 
 
 
@@ -29,20 +32,20 @@ Göm nu några menyalternativ med koden nedan:
 
 
 
-Efter att ha kört ovanstående kod kommer vissa menyalternativ inte att vara synliga för användarna:
+Efter att ovanstående kod har exekverats kommer vissa menyobjekt inte att vara synliga för användarna:
 
-**Vissa menyalternativ är dolda** 
+**Några menyobjekt är dolda** 
 
 ![todo:image_alt_text](managing-griddesktops-context-menu_2.png)
-### **Lägga till nya menyalternativ**
-Lägg till ett nytt snabbmenyobjekt till listan med hjälp av följande kodavsnitt.
+### **Lägga till nya menyobjekt**
+Lägg till ett nytt kontextmenyobjekt i listan med hjälp av följande kodsnutt.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-ManagingContextMenu-AddContextMenuItem.cs" >}}
 
 
-Vi anger också en händelsehanterare för det nya kommandot/alternativet.
+Vi specificerar också en händelsehanterare för den nya kommandot/alternativet.
 
 
 
@@ -50,8 +53,8 @@ Vi anger också en händelsehanterare för det nya kommandot/alternativet.
 
 
 
-Efter exekvering av ovanstående kod kan ett nytt menyalternativ ses i snabbmenyn. Ett meddelande visas också när cellen klickas.
+Efter att ovanstående kod har exekverats kan ett nytt menyobjekt ses i kontextmenyn. Ett meddelande kommer också att visas när cellen klickas.
 
-**Ett nytt menyalternativ läggs till i listan** 
+**En ny menyföremål läggs till i listan** 
 
 ![todo:image_alt_text](managing-griddesktops-context-menu_3.png)

@@ -1,21 +1,22 @@
-﻿---
-title: Berechnen Sie die Breite und Höhe des Werts Cell in Pixeleinheiten
-linktitle: Daten messen
+---
+title: Berechnen Sie die Breite und Höhe des Zellwerts in Einheit von Pixeln
+linktitle: Messdaten
 type: docs
 weight: 280
 url: /de/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/
 ---
+
 {{% alert color="primary" %}} 
 
- Manchmal müssen Sie die Breite und Höhe des Zellenwerts berechnen, damit der Zellenwert in die Zelle passt. Aspose.Cells bietet[Cell.getWidthOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getWidthOfValue\(\) ) und[Cell.getHeightOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getHeightOfValue\(\)Methoden zu diesem Zweck. Mit diesen Methoden können Sie die Breite und Höhe des Zellenwerts berechnen und dann die Breite der Spalte bzw. die Höhe der Zeile dieser Zelle festlegen, wodurch dann der Zellenwert in der Zelle angepasst oder angepasst wird.
+Manchmal müssen Sie die Breite und Höhe des Zellenwerts berechnen, um den Zellenwert in die Zelle zu passen. Aspose.Cells bietet die Methoden [Cell.getWidthOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getWidthOfValue\(\)) und [Cell.getHeightOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getHeightOfValue\(\)) für diesen Zweck. Mit diesen Methoden können Sie die Breite und Höhe des Zellenwerts berechnen und dann die Breite der Spalte und die Höhe der Zeile dieser Zelle entsprechend einstellen, um den Zellenwert dann anzupassen oder in die Zelle zu passen.
 
- Alternativ können Sie auch[Zeilen und Spalten Ihrer Zelle oder Ihres Zellbereichs automatisch anpassen](/cells/de/java/autofit-rows-and-columns/) mit Aspose.Cells-APIs.
+Alternativ können Sie auch mit Aspose.Cells APIs [Zeilen und Spalten Ihrer Zelle oder Zellenbereichs automatisch anpassen](/cells/de/java/autofit-rows-and-columns/).
 
 {{% /alert %}} 
-## **Berechnen Sie die Breite und Höhe des Werts Cell in Pixeleinheiten**
- Der folgende Code erklärt die Verwendung von[Cell.getWidthOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getWidthOfValue\(\) )  und[Cell.getHeightOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getHeightOfValue\(\)) Methoden.
+## **Breite und Höhe des Zellenwerts in Pixel berechnen**
+Der folgende Code erläutert die Verwendung der Methoden [Cell.getWidthOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getWidthOfValue\(\)) und [Cell.getHeightOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getHeightOfValue\(\)).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculateWidthAndHeightOfCell-CalculateWidthAndHeightOfCell.java" >}}
 
-## **Themen vorantreiben**
-- [Erhalten Sie eine Textbreite von Cell Wert](/cells/de/java/get-text-width-of-cell-value/)
+## **Erweiterte Themen**
+- [Breite des Zellenwerts abrufen](/cells/de/java/get-text-width-of-cell-value/)

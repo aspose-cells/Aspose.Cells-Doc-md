@@ -1,38 +1,40 @@
-﻿---
-title: Çalışma Sayfasını Koru ve Korumayı Kaldır
+---
+title: Çalışma Sayfasını Koruma ve Kaldırma
 type: docs
 weight: 40
 url: /tr/net/protect-and-unprotect-worksheets/
-description: .Net için Aspose.Cells ile Excel dosyalarının çalışma sayfasını koruyun ve korumasını kaldırın.
+description: Aspose.Cells for .Net ile Excel dosyalarının çalışma sayfasını koruma ve kaldırma.
 ---
+
+
 {{% alert color="primary" %}}
-Diğer kullanıcıların bir çalışma sayfasındaki verileri yanlışlıkla veya kasıtlı olarak değiştirmesini, taşımasını veya silmesini önlemek için, Excel çalışma sayfanızdaki hücreleri kilitleyebilir ve ardından sayfayı bir parola ile koruyabilirsiniz.
+Excel çalışma sayfanızdaki verilerin yanlışlıkla veya kasıtlı olarak değişmesini, taşınmasını veya silinmesini engellemek için hücreleri kilitleyebilir ve sayfayı bir şifre ile koruyabilirsiniz. 
 {{% /alert %}}
 
 
-## **Çalışma Sayfasını MS Excel'de koruyun ve korumayı kaldırın**
+## **MS Excel'de Çalışma Sayfasını Koruma ve Kaldırma**
 
-**![Koru ve korumayı kaldır Çalışma Sayfası](koru-ve-korumayı kaldır-çalışma sayfasını.png)**
+**![çalışma sayfasını koruma ve kaldırma](protect-and-unprotect-worksheet.png)**
 
-1.  Tıklamak**Gözden Geçir > Çalışma Sayfasını Koru**.
-1.  içine bir şifre girin**Parola kutusu**.
-1.  Seçme**izin vermek** seçenekler.
-1.  Seçme**Tamam** , onaylamak için parolayı yeniden girin ve ardından öğesini seçin.**Tamam** Yeniden.
+1. Tıklayın **İncele > Sayfayı Koru**.
+1. **Şifre kutusuna** bir şifre girin.
+1. **izin ver** seçeneklerini seçin.
+1. **Tamam**'ı seçin, şifreyi teyit etmek için tekrar girin, ardından tekrar **Tamam**'ı seçin.
 
 
-## **.Net için Aspose.Cell Kullanarak Çalışma Sayfasını Koruyun**
-Excel dosyalarının koruma çalışma kitabı yapısını uygulamak için yalnızca aşağıdaki basit kod satırlarına ihtiyaç vardır.
+## **Aspose.Cell for .Net kullanarak Çalışma Sayfasını Koruma**
+Excel dosyalarının çalışma sayfasını korumak için sadece aşağıdaki basit kod satırlarına ihtiyaç vardır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Example-Protect-Worksheet.cs" >}}
 
-## **.Net için Aspose.Cell Kullanarak Çalışma Sayfasının Korumasını Kaldırın**
-Aspose.Cells API ile çalışma sayfasının korumasını kaldırmak kolaydır. Çalışma sayfası parola korumalıysa, doğru parola gerekir.
+## **Aspose.Cell for .Net kullanarak Çalışma Sayfasını Kaldırma**
+Aspose.Cells API ile çalışma sayfasını korumak kolaydır. Eğer çalışma sayfası şifre ile korunuyorsa doğru bir şifre gereklidir.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-Unprotect-Worksheet.cs" >}}
 
-## **ileri konular**
-- [Excel XP'den bu yana Gelişmiş Koruma Ayarları](/cells/tr/net/advanced-protection-settings-since-excel-xp/)
-- [Çalışma Sayfasının Parola Korumalı olup olmadığını algıla](/cells/tr/net/detect-if-worksheet-is-password-protected/)
+## **Gelişmiş Konular**
+- [Excel XP’den bu yana Gelişmiş Koruma Ayarları](/cells/tr/net/advanced-protection-settings-since-excel-xp/)
+- [Çalışma Sayfasının Şifre Korunup Korunmadığını Algılama](/cells/tr/net/detect-if-worksheet-is-password-protected/)
 - [Çalışma Sayfalarını Koruma](/cells/tr/net/protecting-worksheets/)
-- [Bir Çalışma Sayfasının korumasını kaldırın](/cells/tr/net/unprotect-a-worksheet/)
-- [Çalışma Sayfasını Korumak İçin Kullanılan Parolayı Doğrulayın](/cells/tr/net/verify-password-used-to-protect-the-worksheet/)
+- [Bir Çalışma Sayfasını Korumayı Kaldırma](/cells/tr/net/unprotect-a-worksheet/)
+- [Çalışma Sayfasını Korumak İçin Kullanılan Şifreyi Doğrulama](/cells/tr/net/verify-password-used-to-protect-the-worksheet/)

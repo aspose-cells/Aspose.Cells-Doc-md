@@ -1,14 +1,15 @@
-﻿---
-title: Använda kapslade objekt
+---
+title: Användning av inbäddade objekt
 type: docs
 weight: 50
 url: /sv/net/using-nested-objects/
 ---
-Aspose.Cells stöder kapslade objekt i smarta markörer, de kapslade objekten ska vara enkla.**Enskild** klass måste definieras av användaren för nedanstående kod.
 
-Vi använder en enkel mallfil. Se designerkalkylarket som innehåller några kapslade smarta markörer.
+Aspose.Cells stöder inbäddade objekt i smarta markörer, de inbäddade objekten ska vara enkla. **Individuell** klass måste definieras av användaren för nedanstående kod.
 
-{{< highlight "csharp" >}}
+Vi använder en enkel mallfil. Se kalkylbladet som innehåller några inbäddade smarta markörer.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -62,6 +63,6 @@ designer.Workbook.Save(FileName);
 
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)

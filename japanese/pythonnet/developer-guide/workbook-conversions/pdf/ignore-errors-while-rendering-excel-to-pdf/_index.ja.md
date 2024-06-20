@@ -1,21 +1,22 @@
 ---
-title: Excel を PDF にレンダリングする際のエラーを無視する
+title: Excel を PDF にレンダリングする際のエラーを無視
 type: docs
 weight: 80
 url: /ja/python-net/ignore-errors-while-rendering-excel-to-pdf/
-description: Aspose.Cells for Python via .NET API を使用して Excel を PDF にレンダリングする際のエラーを無視する方法を説明します。
-keywords: Python Ignore Errors while Rendering Excel to PDF, Ignore Errors while saving Excel to PDF using Python, Python Ignore Errors while converting Excel to PDF, Ignore Errors for Excel to PDF in python
+description: Aspose.Cells for Python via .NET APIを使用してExcelをPDFに変換する際に、エラーを無視する方法を学びます。
+keywords: Pythonを使用してExcelをPDFに変換する際にエラーを無視し、エラーを無視してExcelをPDFに保存する方法を学びます。Pythonを使用してExcelをPDFに変換する際にエラーを無視し、PythonでExcelをPDFに変換する際にエラーを無視します。
 ---
-##  **考えられる使用シナリオ**
 
- Excel ファイルを PDF に変換すると、エラーまたは例外が発生し、変換プロセスが終了することがあります。次のコマンドを使用すると、変換プロセス中にこのようなエラーをすべて無視できます。[**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/)財産。このようにして、変換プロセスはエラーや例外をスローすることなくスムーズに完了しますが、データの損失が発生する可能性があります。したがって、このプロパティは、データの損失が重大ではない場合にのみ使用してください。
+## **可能な使用シナリオ**
 
-##  **Excel を PDF にレンダリングする際のエラーを無視する**
+ExcelファイルをPDFに変換する際に、エラーや例外が発生して変換プロセスが終了することがあります。[**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/)プロパティを使用して変換中のすべてのエラーを無視することができます。これにより、変換プロセスはエラーや例外をスローすることなくスムーズに完了しますが、データの損失が発生する可能性があります。したがって、データの損失が重要でない場合にのみこのプロパティを使用してください。
 
-次のコードは、[サンプル Excel ファイル](55541778.xlsx)しかし、サンプル Excel ファイルには誤りがあり、実行中にエラーがスローされます。[PDFへの変換](55541779.pdf) 17.11では、しかし私たちは使用しているので[**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/)プロパティを使用しても、エラーはスローされません。ただし、1 つは*丸い赤い矢印のような形*このスクリーンショットに示されているように、失われます。
+## **Excel を PDF にレンダリングする際のエラーを無視**
+
+次のコードは、[サンプルExcelファイル](55541778.xlsx)を読み込みますが、サンプルExcelファイルにエラーがあり、17.11で[PDFに変換](55541779.pdf)する際にエラーが発生しますが、[**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/)プロパティを使用しているため、エラーは発生しません。ただし、このスクリーンショットに表示されているように、1つの*赤い矢印のような形*が失われます。
 
 ![todo:image_alt_text](ignore-errors-while-rendering-excel-to-pdf_1.png)
 
-##  **サンプルコード**
+## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-IgnoreErrorsWhileRenderingExcelToPdf.py" >}}

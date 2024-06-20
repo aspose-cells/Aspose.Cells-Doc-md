@@ -1,23 +1,24 @@
-﻿---
-title: Kryptera Excel-filer i Aspose.Cells
+---
+title: Kryptera Excel filer i Aspose.Cells
 type: docs
 weight: 90
 url: /sv/net/encrypting-excel-files-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel (97 - 2007) gör att du kan kryptera och lösenordsskydda dina kalkylblad. Den använder algoritmer som tillhandahålls av en kryptografisk tjänsteleverantör, eller CSP, en uppsättning kryptografiska algoritmer med olika egenskaper. Standard-CSP är 'Office 97/2000 Compatible' eller 'Weak Encryption (XOR)'. Det är viktigt att välja rätt längd på krypteringsnyckeln. Vissa CSP:er stöder inte mer än 40 eller 56 bitar. Det anses vara en svag kryptering. För stark kryptering krävs en minsta nyckellängd på 128 bitar. Microsoft Windows innehåller CSP:er som också erbjuder starka krypteringstyper, till exempel 'Microsoft Strong Cryptographic Provider'. För att ge dig en uppfattning är 128-bitars kryptering vad banker använder för att kryptera anslutningen till sina Internetbanksystem.
+Microsoft Excel (97 - 2007) gör det möjligt för dig att kryptera och lösenordsskydda dina kalkylblad. Det använder algoritmer som tillhandahålls av en kryptografisk serviceprovider, eller CSP, en uppsättning kryptografiska algoritmer med olika egenskaper. Standard-CSP är 'Office 97/2000 Kompatibel' eller 'Svag kryptering (XOR)'. Det är viktigt att välja rätt krypteringsnyckellängd. Vissa CSP:er stöder inte mer än 40 eller 56 bitar. Det anses vara en svag kryptering. För stark kryptering krävs en minimum nyckellängd på 128 bitar. Microsoft Windows innehåller också CSP:er som erbjuder starka typer av kryptering, till exempel 'Microsoft Strong Cryptographic Provider'. För att ge dig en idé, är 128 bitars kryptering vad banker använder för att kryptera anslutningen till sina Internetbankssystem.
 
-Aspose.Cells låter dig kryptera och lösenordsskydda Microsoft Excel-filer med önskad krypteringstyp.
+Aspose.Cells gör det möjligt för dig att kryptera och lösenordsskydda Microsoft Excel-filer med önskad krypteringstyp.
 
 {{% /alert %}} 
-## **Använder Microsoft Excel**
-Så här ställer du in filkrypteringsinställningar i Microsoft Excel (här Microsoft Excel 2003):
+## **Använda Microsoft Excel**
+För att ställa in filkrypteringsinställningar i Microsoft Excel (här Microsoft Excel 2003):
 
-1.  Från**Verktyg** menyn, välj**alternativ**.
- En dialogruta visas.
-1.  Välj**säkerhet** flik.
-1.  Ange ett lösenord och klicka**Avancerad** 
+1. Från menyn **Verktyg** väljer du **Alternativ**.
+   En dialogruta visas.
+1. Välj fliken **Säkerhet**.
+1. Ange ett lösenord och klicka på **Avancerat** 
    **Dialogrutan Alternativ** 
 
 ![todo:image_alt_text](encrypting-excel-files-in-aspose-cells_1.png)
@@ -25,7 +26,7 @@ Så här ställer du in filkrypteringsinställningar i Microsoft Excel (här Mic
 
 
 
-1.  Välj krypteringstyp och bekräfta lösenordet.
+1. Välj krypteringstyp och bekräfta lösenordet. 
 
    **Dialogrutan Krypteringstyp** 
 
@@ -34,11 +35,11 @@ Så här ställer du in filkrypteringsinställningar i Microsoft Excel (här Mic
 
 
 ## **Kryptering med Aspose.Cells**
-Följande exempel visar hur man krypterar och lösenordsskyddar en excel-fil med Aspose.Cells API.
+Exemplet nedan visar hur man krypterar och lösenordsskyddar en Excel-fil med hjälp av Aspose.Cells API.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a Workbook object.
 
@@ -65,7 +66,7 @@ workbook.Save("encryptedBook1.xls");
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Encrypting%20Excel%20Files)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1))

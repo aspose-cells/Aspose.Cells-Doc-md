@@ -2,7 +2,7 @@
 title: 删除范围
 type: docs
 weight: 105
-url: /zh/python-net/delete-ranges-from-Excel/
+url: /zh/python-net/delete-ranges-from-excel/
 description: 本文介绍了如何使用Aspose.Cells for Python via .NET库删除范围并向左或向右移动单元格。
 keywords: Python Excel库，Python如何删除范围并向左移动单元格，Python如何删除范围并向上移动单元格。
 ---

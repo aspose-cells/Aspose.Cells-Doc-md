@@ -1,20 +1,21 @@
-﻿---
-title: Sperren des WordArt-Wasserzeichens in Aspose.Cells
+---
+title: WordArt Wasserzeichen in Aspose.Cells sperren
 type: docs
 weight: 40
 url: /de/net/locking-wordart-watermark-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells APIs ermöglichen das Hinzufügen von WordArt-Wasserzeichen auf dem Arbeitsblatt, sodass die WordArt zu einem Objekt wird, das Sie auf dem Arbeitsblatt verschieben und positionieren können. Es ist auch möglich, das WordArt-Objekt für jede Interaktion wie Bearbeiten, Verschieben und Auswählen zu sperren. In diesem Artikel wird die Verwendung der Shape.SetLockedProperty-Methode erläutert, um einige Aspekte des Wasserzeichens zu sperren.
+Die Aspose.Cells-APIs ermöglichen das Hinzufügen von WordArt-Wasserzeichen auf dem Arbeitsblatt in einer Weise, dass das WordArt zu einem Objekt wird, das auf dem Arbeitsblatt bewegt und positioniert werden kann. Es ist auch möglich, das WordArt-Objekt für jegliche Interaktion wie Bearbeiten, Verschieben und Auswahl zu sperren. Dieser Artikel erläutert die Verwendung der Shape.SetLockedProperty-Methode zum Sperren einiger Aspekte des Wasserzeichens.
 
 {{% /alert %}} 
 
-Aspose.Cells APIs ermöglichen es, bestimmte Aspekte des Wasserzeichens zu sperren, sodass die Benutzerinteraktion eingeschränkt oder vollständig blockiert werden kann. Das folgende Code-Snippet demonstriert die Verwendung von Aspose.Cells for .NET API zum Sperren der Auswahl, Bewegung, Bearbeitung und Größenänderung des Wasserzeichens durch Erstellen einer Tabelle von Grund auf neu.
+Die Aspose.Cells-APIs ermöglichen das Sperren bestimmter Aspekte des Wasserzeichens, damit die Benutzerinteraktion eingeschränkt oder vollständig blockiert werden kann. Der folgende Codeausschnitt zeigt die Verwendung der Aspose.Cells for .NET-API zum Sperren der Auswahl, Bewegung, Bearbeitung und Größenänderung des Wasserzeichens durch Erstellung einer Tabellenkalkulation von Grund auf.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -74,6 +75,6 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Locking%20WordArt%20Watermark)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Locking%20WordArt%20Watermark)
 ## **Laufendes Beispiel herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

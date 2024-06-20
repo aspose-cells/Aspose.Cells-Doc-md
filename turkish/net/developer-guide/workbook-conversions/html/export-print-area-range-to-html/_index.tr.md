@@ -1,16 +1,17 @@
-﻿---
-title: Yazdırma alanı aralığını HTML olarak dışa aktar
+---
+title: HTML ye Baskı Alanı Aralığını Dışa Aktar
 type: docs
 weight: 60
 url: /tr/net/export-print-area-range-to/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- Bu, yalnızca yazdırma alanını, yani tüm sayfa yerine seçilen hücre aralığını HTML'e aktarmamız gereken yaygın bir senaryodur. Bu özellik PDF oluşturma için zaten mevcuttur, ancak şimdi bu görevi HTML için de gerçekleştirebilirsiniz. Önce çalışma sayfasının sayfa yapısı nesnesinde yazdırma alanını ayarlayın. Daha sonra, kullan[**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportprintareaonly) yalnızca seçilen aralığı dışa aktarmak için işaretle.
+Bu, tüm sayfaların değil, yalnızca seçilen hücre aralığının dışa aktarılması gereken yaygın bir senaryodur. Bu özellik zaten PDF dönüştürme için mevcut olup, şimdi bunu HTML için de yapabilirsiniz. İlk olarak, çalışma sayfasının sayfa düzeni nesnesinde baskı alanını ayarlayın. Daha sonra yalnızca seçili aralığı dışa aktarmak için [**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportprintareaonly) bayrağını kullanın.
 
-## Basit kod
+## Örnek Kod
 
-Aşağıdaki örnek kod bir çalışma kitabı yükler ve ardından yazdırma alanını HTML'e verir. Bu özelliği test etmek için örnek dosya aşağıdaki bağlantıdan indirilebilir:
+Aşağıdaki örnek kod, bir çalışma kitabı yükler ve daha sonra baskı alanını HTML'e dışa aktarır. Bu özelliği test etmek için örnek dosyayı aşağıdaki bağlantıdan indirebilirsiniz:
 
 [sampleInlineCharts.xlsx](79527946.xlsx)
 

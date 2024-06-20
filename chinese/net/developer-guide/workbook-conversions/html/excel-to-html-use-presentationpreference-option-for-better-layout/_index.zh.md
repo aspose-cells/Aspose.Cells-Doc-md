@@ -1,5 +1,5 @@
 ---
-title: 将Excel转换为HTML - 使用PresentationPreference选项以获得更好的布局
+title: 将Excel转换为HTML  使用PresentationPreference选项以获得更好的布局
 type: docs
 weight: 220
 url: /zh/net/excel-to-html-use-presentationpreference-option-for-better-layout/

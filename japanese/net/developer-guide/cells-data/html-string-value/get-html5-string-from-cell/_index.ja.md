@@ -1,26 +1,27 @@
 ---
-title: Cell から HTML5 文字列を取得します
+title: セルから HTML5 文字列を取得
 type: docs
 weight: 90
 url: /ja/net/get-html5-string-from-cell/
-description: Cell から Aspose.Cells for .NET API までの HTML5 文字列を取得する方法を学びます。
-keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
+description: Aspose.Cells for .NET APIを介してセルからHTML5文字列を取得する方法を学ぶ
+keywords: セルからHTML5文字列を取得、セルからHTML5文字列を取得、セルのHTML5文字列を管理
 ---
-##  **考えられる使用シナリオ**
 
-Aspose.Cells は、[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)ブール値パラメータを受け取るメソッド。合格したら**間違い**パラメータとして、Normal HTML を返しますが、渡すと**真実**パラメータとして HTML5 文字列を返します。
+## **可能な使用シナリオ**
 
-##  **Cell から HTML5 文字列を取得します**
+Aspose.Cellsは、booleanパラメータを受け入れる[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)メソッドを使って、セルのHTML文字列を返します。パラメータとして**false**を渡すと、通常のHTMLを返し、**true**を渡すと、HTML5文字列を返します。
 
-次のサンプル コードでは、ワークブック オブジェクトを作成し、最初のワークシートのセル A1 にテキストを追加します。次に、[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)メソッドを実行し、コンソールに出力します。
+## **セルからHTML5文字列を取得**
 
-##  **サンプルコード**
+次のサンプルコードはワークブックオブジェクトを作成し、最初のワークシートのセルA1にテキストを追加します。そして、[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)メソッドを使用してセルA1から通常のHTMLとHTML5文字列を取得し、それらをコンソールに出力します。
+
+## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-GetHTML5StringFromCell.cs" >}}
 
-##  **コンソール出力**
+## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Normal:
 

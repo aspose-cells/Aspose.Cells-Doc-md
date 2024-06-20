@@ -1,17 +1,18 @@
-﻿---
-title: Tüm Rapor Grafiği Öğelerini Excel Grafiklerine Dönüştür
+---
+title: Tüm Rapor Grafik Öğelerini Excel Grafiklerine Dönüştür
 type: docs
 weight: 10
 url: /tr/reportingservices/render-all-report-chart-items-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Bir rapordaki tüm grafik öğelerini düzenlenebilir Excel grafikleri olarak işlemek için:
+Bir rapordaki tüm grafik öğelerini düzenlenebilir Excel grafikleri olarak çıktılamak için:
 
-1. Aç**Aspose.Cells.ReportingServices.xml** dosya.
-1.  Yapılandırma parametrelerini aşağıdaki gibi değiştirin:
+1. **Aspose.Cells.ReportingServices.xml** dosyasını açın.
+1. Yapılandırma parametrelerini aşağıdaki şekilde değiştirin: 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart value="all">
 
@@ -19,10 +20,10 @@ Bir rapordaki tüm grafik öğelerini düzenlenebilir Excel grafikleri olarak i�
 
 {{< /highlight >}}
 
- Değer "all" olarak ayarlandığında, tüm grafik öğeleri düzenlenebilir grafikler olarak işlenir.
+Değer “tüm” olarak ayarlandığında, tüm grafik öğeleri düzenlenebilir grafikler olarak çıkartılır. 
 
 **Excel'de grafikleri düzenleme** 
 
-![yapılacaklar:resim_alternatif_metin](render-all-report-chart-items-to-excel-charts_1.png)
+![todo:image_alt_text](render-all-report-chart-items-to-excel-charts_1.png)
 
 {{% /alert %}}

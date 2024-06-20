@@ -1,40 +1,41 @@
-﻿---
-title: Lesen von CSV-Datei mit mehreren Codierungen
+---
+title: CSV Datei mit mehreren Codierungen lesen
 type: docs
 weight: 140
 url: /de/java/reading-csv-file-with-multiple-encodings/
 ---
+
 {{% alert color="primary" %}} 
 
-Manchmal enthält Ihre CSV-Datei mehrere Codierungen (Unicode, ANSI, UTF8, UTF7 usw.). Mit Aspose.Cells können Sie solche CSV-Dateien laden und in andere Formate konvertieren, z. B. PDF oder XLSX.
+Manchmal enthält Ihre CSV-Datei mehrere Codierungen (Unicode, ANSI, UTF8, UTF7 usw.). Aspose.Cells ermöglicht es Ihnen, solche CSV-Dateien zu laden und in andere Formate wie z.B. PDF oder XLSX zu konvertieren.
 
 {{% /alert %}} 
 
- Aspose.Cells stellt die Methode TxtLoadOptions.setMultiEncoded() bereit, die Sie festlegen müssen**wahr** um Ihre CSV-Datei mit mehreren Kodierungen richtig zu laden.
+Aspose.Cells bietet die Methode TxtLoadOptions.setMultiEncoded(), die Sie auf true setzen müssen, um Ihre CSV-Datei mit mehreren Codierungen korrekt zu laden.
 
- Der folgende Screenshot zeigt eine Beispieldatei CSV, die zwei Zeilen enthält. Die erste Zeile ist drin**ANSI** Codierung und die zweite Zeile ist in**Unicode** Codierung
+Im folgenden Screenshot ist eine Beispiels-CSV-Datei dargestellt, die zwei Zeilen enthält. Die erste Zeile ist in ANSI-Codierung und die zweite Zeile ist in Unicode-Codierung.
 
 **Eingabedatei** 
 
-![todo: Bild_alt_Text](reading-csv-file-with-multiple-encodings_1.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_1.png)
 
-Der folgende Screenshot zeigt die XLSX-Datei, die aus der obigen CSV-Datei konvertiert wurde, ohne die TxtLoadOptions.setMultiEncoded()-Methode auf true zu setzen. Wie Sie sehen können, wurde der Unicode-Text nicht richtig konvertiert.
+Im folgenden Screenshot ist die XLSX-Datei dargestellt, die aus der obigen CSV-Datei ohne Setzen der Methode TxtLoadOptions.setMultiEncoded() auf true konvertiert wurde. Wie Sie sehen können, wurde der Unicode-Text nicht korrekt konvertiert.
 
-**Ausgabedatei 1: keine Anpassung an Mehrfachcodierung vorgenommen** 
+Ausgabedatei 1: keine Berücksichtigung für mehrere Codierungen 
 
-![todo: Bild_alt_Text](reading-csv-file-with-multiple-encodings_2.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)
 
-Der folgende Screenshot zeigt die XSLX-Datei, die aus der obigen Datei CSV konvertiert wurde, nachdem die Methode TxtLoadOptions.setMultiEncoded() auf true gesetzt wurde. Wie Sie sehen können, wird der Unicode-Text jetzt korrekt konvertiert.
+Im folgenden Screenshot ist die XSLX-Datei dargestellt, die aus der obigen CSV-Datei nach Setzen der Methode TxtLoadOptions.setMultiEncoded() auf true konvertiert wurde. Wie Sie sehen können, wird der Unicode-Text jetzt korrekt konvertiert.
 
-**Ausgabedatei 2: IsMultiEncoded ist auf true gesetzt** 
+Ausgabedatei 2: IsMultiEncoded ist auf true gesetzt 
 
-![todo: Bild_alt_Text](reading-csv-file-with-multiple-encodings_3.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)
 
-Unten ist der Beispielcode, der die obige CSV-Datei ordnungsgemäß in das XLSX-Format konvertiert.
+Im Folgenden finden Sie den Beispielcode, der die obige CSV-Datei ordnungsgemäß in das XLSX-Format konvertiert.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  String filePath = "F:\\Downloads\\MutliEncoded.csv";
 

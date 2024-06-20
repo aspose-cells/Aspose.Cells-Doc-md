@@ -1,8 +1,9 @@
-﻿---
-title: Schnellstart unter Python
+---
+title: Schnellstart in Python
 type: docs
 weight: 10
 url: /de/java/quick-start-in-python/
 ---
-## **Dieser Abschnitt umfasst die folgenden Themen:**
-- [Hello World in Python](/cells/de/java/hello-world-in-python/)
+
+## **Dieser Abschnitt umfasst die folgenden Themen:** 
+- [Hallo Welt in Python](/cells/de/java/hello-world-in-python/)

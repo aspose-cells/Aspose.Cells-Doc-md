@@ -1,12 +1,13 @@
-﻿---
-title: Utilizzo di tipi anonimi o oggetti personalizzati
+---
+title: Utilizzo di Tipi Anonimi o Oggetti Personalizzati
 type: docs
 weight: 40
 url: /it/net/using-anonymous-types-or-custom-objects/
 ---
-Aspose.Cells supporta anche tipi anonimi o oggetti personalizzati nei marcatori intelligenti. Nell'esempio seguente è necessario definire la classe del prodotto prima dell'uso.
 
-{{< highlight "csharp" >}}
+Aspose.Cells supporta anche tipi anonimi o oggetti personalizzati in marker intelligenti. Nell'esempio sottostante è necessario definire la classe Prodotto prima dell'uso.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 

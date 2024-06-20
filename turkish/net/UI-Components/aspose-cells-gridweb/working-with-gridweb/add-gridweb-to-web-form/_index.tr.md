@@ -1,98 +1,101 @@
-﻿---
-title: GridWeb'i Web Formuna Ekleme
+---
+title: Web Form a GridWeb Ekle
 type: docs
 weight: 10
-url: /tr/net/add-gridweb-to-web-form/
+url: /tr/net/aspose-cells-gridweb/add-gridweb-to-web-form/
+keywords: GridWeb,webform,form
+description: Bu makale, GridWeb içinde web form ile nasıl çalışılacağını tanıtıyor.
 ---
-{{% alert color="primary" %}} 
-
-Bu konuda, yeni başlayanlara web uygulamalarında Aspose.Cells.GridWeb denetimi oluşturmalarına ve kullanmalarına yardımcı olacak temel bir adım adım kılavuz sağlanmaktadır.
-
-{{% /alert %}} 
-## **Aspose.Cells.GridWeb Denetimi Oluşturma ve Kullanma**
-### **1. Adım: Bir Web Uygulama Projesi Oluşturma**
-Öncelikle, Aspose.Cells.GridWeb kontrolünün kullanılacağı bir web uygulaması projesi oluşturun:
-
-1. Visual Studio'yu açın.
-1.  itibaren**Dosya** menü, seç**Yeni** bunu takiben**Proje**. 
-
-![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_1.png)
-
-
-
-Yeni Bir Proje İletişim Kutusu görünür.
-
-1.  Seçme**ASP.NET Web Uygulaması** istediğiniz dil için
-
-![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_2.png)
-
-1.  Seçme**Web Formları** şablon.
-
-![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_3.png)
-
-1. Projeye yeni bir web formu ekleyin.
-### **2. Adım: Denetimi Web Formuna Katıştırma**
- Aspose.Cells.GridWeb denetimini Visual Studio araç kutusundan web formuna sürükleyip bırakın.
-
-![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_4.png)
 
 {{% alert color="primary" %}} 
 
- Visual Studio Toolbox'a Aspose.Cells Kılavuz denetimlerinin nasıl ekleneceğini öğrenmek için lütfen okuyun[Aspose.Cells.Grid Kontrollerini Visual Studio.NET ile entegre edin](/cells/tr/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/).
+Bu konu, başlangıç seviyesindeki kullanıcılara web uygulamalarında Aspose.Cells.GridWeb kontrolünü oluşturup kullanmalarına yardımcı olmak için temel adım adım kılavuz sağlar.
+
+{{% /alert %}} 
+## **Aspose.Cells.GridWeb Kontrolünü Oluşturma ve Kullanma**
+### **Adım 1: Bir Web Uygulama Projesi Oluşturma**
+İlk olarak, Aspose.Cells.GridWeb kontrolünü kullanacağınız bir web uygulama projesi oluşturun:
+
+1. Visual Studio'u açın.
+1. **Dosya** menüsünden, ardından **Proje**'yi seçin. 
+
+![todo:image_alt_text](add-gridweb-to-web-form_1.png)
+
+
+
+Yeni Proje Dialog kutusu görüntülenir.
+
+1. Arzu edilen dil için **ASP.NET Web Uygulaması**'nı seçin. 
+
+![todo:image_alt_text](add-gridweb-to-web-form_2.png)
+
+1. **Web Formları** şablonunu seçin. 
+
+![todo:image_alt_text](add-gridweb-to-web-form_3.png)
+
+1. Projeye yeni bir web form ekleyin.
+### **Adım 2: Kontrolü Web Forma Gömme**
+Aspose.Cells.GridWeb kontrolünü Visual Studio araç kutusundan web formuna sürükleyip bırakın. 
+
+![todo:image_alt_text](add-gridweb-to-web-form_4.png)
+
+{{% alert color="primary" %}} 
+
+Aspose.Cells Grid kontrollerini Visual Studio Aracı Kutusu'na nasıl ekleyeceğinizi öğrenmek için [Visual Studio.NET ile Aspose.Cells Grid Kontrolleri Entegre Etme](/cells/tr/net/aspose-cells-gridweb/integrate-aspose-cells-grid-controls-with-visual-studio-net/)'yi okuyun.
 
 {{% /alert %}} 
 
- Kontrol forma eklendiğinde şu şekilde işlenir:
+Kontrol form içine eklendiğinde, şu şekilde render edilir: 
 
-![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_5.png)
-### **3. Adım: Denetimi Yeniden Boyutlandırma**
-Form, varsayılan bir boyutta işlenir. Kenarlıkları veya köşeleri sürükleyerek boyutu ayarlayın.
+![todo:image_alt_text](add-gridweb-to-web-form_5.png)
+### **Adım 3: Kontrolü Yeniden Boyutlandırma**
+Form varsayılan bir boyutta render edilir. Kenarları veya köşeleri sürükleyerek boyutu ayarlayın. 
 
-![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_6.png)
-### **4. Adım: Kontrol Özelliklerini Ayarlama**
- Aspose.Cells.GridWeb kontrolü, çeşitli özellikler kullanılarak da yapılandırılabilir.
+![todo:image_alt_text](add-gridweb-to-web-form_6.png)
+### **Adım 4: Kontrol Özelliklerini Ayarlama**
+Aspose.Cells.GridWeb kontrolü çeşitli özellikler kullanılarak yapılandırılabilir. 
 
-![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_7.png)
+![todo:image_alt_text](add-gridweb-to-web-form_7.png)
 
-Özellikler iletişim kutusu ile kontrolün birçok özelliğini ayarlamak mümkündür. Temel özellikler yükseklik, genişlik, renk ve görsel stilleri içerir. Gelişmiş özellikler, düzenleme modunu, oturum modunu ve çift tıklama modunu içerir. Ayrıca, Özellikler iletişim kutusunda özelleştirilmiş olay işleyicileri ayarlamak mümkündür.
+Özellikler ile ilgili birçok ayar, Yükseklik, Genişlik, Renk ve Görsel Stiller gibi temel özellikleri içerir. Gelişmiş özellikler arasında düzenleme modu, oturum modu ve çift tıklama modu bulunmaktadır. Ayrıca, özellikler diyaloğunda özel olay işleyicilerini ayarlamak da mümkündür.
 
-Ayrıca, Aspose.Cells.GridWeb için, Özellikler iletişim kutusunun altında köprüler olarak görülebilen veya GridWeb denetiminde sağ tıklatarak bulunabilen bazı ekstra yapılandırma araçları da vardır. Bu yapılandırma araçları şunları içerir:
+Ayrıca, Aspose.Cells.GridWeb için bazı ek yapılandırma araçları, özelliklerin altında hiperbağlantılar olarak veya GridWeb kontrolüne sağ tıklanarak bulunabilir. Bu yapılandırma araçları şunları içerir:
 
 - Özel Komut Düğmeleri
 #### **Özel Komut Düğmeleri**
 Özel komut düğmeleri düzenleyicisini açmak için:
- GridWeb denetimine sağ tıklayın ve seçin**Özel Komut Düğmeleri**. 
+GridWeb kontrolüne sağ tıklayın ve **Özel Komut Düğmeleri**'ni seçin. 
 
-![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_8.png)
+![todo:image_alt_text](add-gridweb-to-web-form_8.png)
 
 
 
- CustomCommandButton Koleksiyon Düzenleyici iletişim kutusu görüntülenir.
+ÖzelKomutDüğme Koleksiyon Düzenleyici diyaloğu görüntülenir. 
 
-![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_9.png)
+![todo:image_alt_text](add-gridweb-to-web-form_9.png)
 
-İletişim kutusu, geliştiricilerin GridWeb denetiminde özel komut düğmeleri eklemesine ve kaldırmasına olanak tanır.
+Bu diyalog, geliştiricilere GridWeb kontrolüne özel komut düğmeleri eklemelerine ve kaldırmalarına olanak tanır.
 
 
 ### **Önemli**
-Aspose.Cells.GridWeb, kaynak dosyalarına da denetim sağlar. "acw_client", dosyaları içeren bir klasördür (kurulum dizininiz). config dosyası, gömülü istemci kaynaklarını (resimler, komut dosyaları vb.) yönetmek için kullanılır.Ayrıca, GridWeb kontrolüne sahip web uygulamasını dağıtmanız gerektiğinde, "acw" dosyasını da kopyalarsınız._client" dizinini proje klasörünüze ekleyin, en azından web uygulamanız (sunucu üzerinden dağıtılan) onu bulamadı. Yapılandırma bölümüne aşağıdaki kod satırlarını ekleyerek (örn. VS.NET Projesi):
+Ayrıca, Aspose.Cells.GridWeb, kontrol ile ilgili kaynak dosyalarını sağlar. "acw_client", iç konfigürasyonunu yönetmek ve diğer işlevleri gerçekleştirmek için bu klasörü kullanır, script dosyaları, görüntü dosyaları ve diğer dosyaları içerir. Ayrıca, GridWeb kontrolünü içeren web uygulamasını dağıtmanız gerektiğinde, "acw_client" klasörünü projeniz klasörüne eklemeniz gerekecektir (sunucu üzerine dağıtılan web uygulaması) ya da web uygulamanızın en azında bu klasörü bulamaz yanıt vermeyecektir. Kaynak klasörünü her zaman vs.net projenizdeki yapılandırma bölümüne ekleyerek belirtebilirsiniz. (Örn. web.config dosyası içinde)
 
 
 
-|<p>{{< highlight "java" >}}</p><p> <appSettings></p><p>  <add key="aspose.cells.gridweb.acw_client_path" value="/grid/acw_client/"/> </p><p></appSettings></p><p>{{< /highlight >}}</p>|
-|:- |
+|<p>{{< highlight java >}}</p><p> <appSettings></p><p>  <add key="aspose.cells.gridweb.acw_client_path" value="/grid/acw_client/"/> </p><p></appSettings></p><p>{{< /highlight >}}</p>|
+| :- |
 
 
 {{% alert color="primary" %}}
 
-Yol her zaman projenin dizini ile ilişkilidir. Proje dizini dışında herhangi bir dizini kullanmamalısınız. Bu nedenle, "acw_client" dizinini (@GridWeb kurulum klasörünüz) projenin dizinine/alt dizinine kopyalamanız gerekir.
+Yol her zaman proje diziniyle ilgilidir. Projede olmayan hiçbir dizini kullanmamalısınız. Bu nedenle, "acw_client" dizinini (GridWeb kurulum klasörüne) proje dizini/alt dizinine kopyalamak gerekir.
 
 {{% /alert %}}
-### **Adım 5: Web Uygulamasını Çalıştırma**
- Ctrl+F5 tuşlarına basarak veya tıklayarak uygulamayı çalıştırın.**Başlama** buton.
+### **Adım 5: Web Uygulaması Çalıştırma**
+Uygulamayı Ctrl+F5'e basarak veya **Başlat** düğmesine tıklayarak çalıştırın. 
 
- Uygulama bir tarayıcıda çalıştığında, artık boş bir Aspose.Cells.GridWeb denetimi içeren WebForm1.aspx sayfası görüntülenir. Hücrelere tıklayarak değerler ekleyin. Bir satırın yüksekliğini veya bir sütunun genişliğini değiştirmek, hücre verilerini panoya kopyalamak (Ctrl+C) veya kesmek (Ctrl+X) ve verileri hücreye yapıştırmak (Ctrl+V) gibi diğer görevleri gerçekleştirmek de mümkündür. . Daha fazla işlem gerçekleştirmek için, seçeneklerin tam listesini görmek üzere kontrole sağ tıklayın.
+Uygulama bir tarayıcıda çalıştığında, WebForm1.aspx sayfası görüntülenir ve şimdi içinde boş bir Aspose.Cells.GridWeb kontrolü bulunmaktadır. Hücrelere değer eklemek için onlara tıklayabilirsiniz. Bir satırın yüksekliğini veya bir sütunun genişliğini değiştirme, hücre verilerini panoya kopyalama (Ctrl+C) veya kesme (Ctrl+X) ve yapıştırma (Ctrl+V) gibi diğer görevleri de gerçekleştirmek mümkündür. Daha fazla işlem yapmak için kontrolün üzerine sağ tıklayarak tüm seçeneklerin listesini görebilirsiniz. 
 
-**GridWeb kontrolünün içerik menüsü** 
+**GridWeb kontrolünün İçerik menüsü** 
 
-![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_10.png)
+![todo:image_alt_text](add-gridweb-to-web-form_10.png)

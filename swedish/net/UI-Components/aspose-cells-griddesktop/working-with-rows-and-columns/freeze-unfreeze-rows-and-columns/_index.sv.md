@@ -1,46 +1,49 @@
-﻿---
-title: Frys Frigör rader och kolumner
+---
+title: Frysa Avfrysa Rader och Kolumner
 type: docs
 weight: 70
-url: /sv/net/freeze-unfreeze-rows-and-columns/
+url: /sv/net/aspose-cells-griddesktop/freeze-unfreeze-rows-and-columns/
+keywords: GridDesktop, avfrysa, frys
+description: Den här artikeln introducerar hur man fryser/avfryser rad/kolumn i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Det här ämnet handlar om information om att frysa och ta upp rader och kolumner i ett kalkylblad. Frysning av kolumner eller rader gör det möjligt för användare att hålla kolumnrubrikerna eller radrubrikerna synliga medan de rullar till andra delar av kalkylbladet. Den här funktionen är mycket användbar för att rulla igenom kalkylbladen som innehåller enorma mängder data. Eftersom, i sådana fall, när användare rullar data kommer bara data att rullas ner och rubriker stannar där för att öka läsbarheten för data.
+Detta ämne behandlar informationen om att frysa och avfrysa rader och kolumner i ett kalkylblad. Att frysa kolumner eller rader gör det möjligt för användare att hålla kolumnrubriker eller radtitlar synliga medan de rullar till andra delar av kalkylbladet. Den här funktionen är mycket användbar för att bläddra genom kalkylblad som innehåller stora volymer av data. Eftersom, i sådana fall, när användare rullar data så kommer endast data att rullas ned och rubriker skulle stanna kvar för att öka läsbarheten av data.
 
 {{% /alert %}} 
-## **Frysande kolumner**
+## **Frysa Kolumner**
 För att frysa kolumner i ett kalkylblad med Aspose.Cells.GridDesktop, följ stegen nedan:
 
--  Få åtkomst till alla önskade**Arbetsblad**
--  Ställ in antalet**Frysta kolumner** i**Arbetsblad**
+- Kom åt något önskat **Kalkylblad**
+- Ange antalet **Frysna kolumner** i **Arbetsbladet**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-FreezeColumns.cs" >}}
 ## **Avfrysning av kolumner**
-För att låsa upp kolumner i ett kalkylblad med Aspose.Cells.GridDesktop, följ stegen nedan:
+För att avfrysa kolumner i ett arbetsblad med Aspose.Cells.GridDesktop, följ stegen nedan:
 
--  Få åtkomst till alla önskade**Arbetsblad**
--  Ställ in antalet**Frysta kolumner** i**Arbetsblad** till noll (0). Det kommer att ge effekten av ofrusta kolonner
+- Kom åt något önskat **Kalkylblad**
+- Ange antalet **Frysna kolumner** i **Arbetsbladet** till noll (0). Det kommer att åstadkomma effekten av avfrysta kolumner
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-UnFreezeColumns.cs" >}}
-## **Frysande rader**
-För att frysa rader i ett kalkylblad med Aspose.Cells.GridDesktop, följ stegen nedan:
+## **Frysning av rader**
+För att frysa rader i ett arbetsblad med Aspose.Cells.GridDesktop, följ stegen nedan:
 
--  Få åtkomst till alla önskade**Arbetsblad**
--  Ställ in antalet**Frysta rader** i**Arbetsblad**
+- Kom åt något önskat **Kalkylblad**
+- Ange antalet **Frysna rader** i **Arbetsbladet**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-FreezeRows.cs" >}}
-## **Un-Freezing Rader**
-För att låsa upp rader i ett kalkylblad med Aspose.Cells.GridDesktop, följ stegen nedan:
+## **Avfrysning av rader**
+För att avfrysa rader i ett arbetsblad med Aspose.Cells.GridDesktop, följ stegen nedan:
 
--  Få åtkomst till alla önskade**Arbetsblad**
--  Ställ in antalet**Frysta rader** i**Arbetsblad** till noll (0). Det kommer att producera effekten av ofrusta rader
+- Kom åt något önskat **Kalkylblad**
+- Ange antalet **Frysna rader** i **Arbetsbladet** till noll (0). Det kommer att åstadkomma effekten av avfrysta rader
 
 
 

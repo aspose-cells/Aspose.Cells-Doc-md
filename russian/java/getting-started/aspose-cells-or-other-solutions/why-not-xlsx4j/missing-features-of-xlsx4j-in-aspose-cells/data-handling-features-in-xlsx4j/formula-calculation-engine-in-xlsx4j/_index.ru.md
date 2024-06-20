@@ -1,15 +1,16 @@
-﻿---
-title: Механизм вычисления формулы в xlsx4j
+---
+title: Расчетный механизм формул в xlsx4j
 type: docs
 weight: 40
 url: /ru/java/formula-calculation-engine-in-xlsx4j/
 ---
-## **Aspose.Cells - Механизм расчета формулы**
-Механизм вычисления формул встроен в Aspose.Cells. Он может не только пересчитывать формулы, импортированные из файла электронной таблицы дизайнера, но также поддерживает вычисление результатов формул, добавленных во время выполнения.
+
+## **Aspose.Cells - Расчетный Движок Формул**
+Расчетный движок формул встроен в Aspose.Cells. Он может не только пересчитывать формулы, импортированные из файла дизайнера, но также поддерживает вычисление результатов формул, добавленных во время выполнения программы.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -58,13 +59,13 @@ book.calculateFormula();
 book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/formulacalculationengine/AsposeFormulaCalculationEngine.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/formulacalculationengine/AsposeFormulaCalculationEngine.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Механизм вычисления формулы](/cells/ru/java/formula-calculation-engine-in-aspose-cells).
+Дополнительные сведения см. по адресу [Расчетный механизм формул](/cells/ru/java/formula-calculation-engine-in-aspose-cells).
 
 {{% /alert %}}

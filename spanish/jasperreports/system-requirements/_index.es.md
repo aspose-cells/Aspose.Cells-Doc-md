@@ -1,9 +1,10 @@
-﻿---
-title: Requisitos del sistema
+---
+title: Requisitos del Sistema
 type: docs
 weight: 20
 url: /es/jasperreports/system-requirements/
 ---
+
 {{% alert color="primary" %}} 
 
 Para instalar Aspose.Cells for JasperReports en su sistema, su sistema debe cumplir con los siguientes requisitos:

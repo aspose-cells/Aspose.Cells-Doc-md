@@ -1,36 +1,37 @@
 ---
-title: إنشاء الإجماليات الفرعية
+title: إنشاء المجاميع الفرعية
 type: docs
 weight: 800
 url: /ar/net/creating-subtotals/
-description: تعرف على كيفية إنشاء إجماليات فرعية لأي قيم متكررة في جدول بيانات باستخدام Aspose.Cells for .NET API.
-keywords: Apply Subtotals, Set Subtotals, Add subtotals, Create Subtotals, How to add subtotals to a worksheet 
+description: تعلم كيفية إنشاء مجاميع فرعية لأي قيم تكرر في جدول بيانات باستخدام Aspose.Cells for .NET API.
+keywords: تطبيق المجاميع الفرعية، تعيين المجاميع الفرعية، إضافة المجاميع الفرعية، إنشاء المجاميع الفرعية، كيفية إضافة مجاميع فرعية لجدول بيانات 
 ---
+
 {{% alert color="primary" %}}
 
-يمكنك إنشاء إجماليات فرعية تلقائيًا لأي قيم متكررة في جدول البيانات. يوفر Aspose.Cells ميزات API التي تساعدك على إضافة الإجماليات الفرعية إلى جداول البيانات برمجياً.
+يمكنك إنشاء الإجماليات الفرعية تلقائيًا لأي قيم متكررة في جدول البيانات. توفر Aspose.Cells ميزات واجهة برمجة التطبيقات التي تساعدك في إضافة الإجماليات الفرعية لجداول البيانات بشكل برمجي.
 
 {{% /alert %}}
 
-##  **باستخدام Microsoft اكسل**
+## **استخدام Microsoft Excel**
 
-لإضافة المجاميع الفرعية في Microsoft إكسل:
+لإضافة المجاميع الفرعية في Microsoft Excel:
 
-1. قم بإنشاء قائمة بيانات بسيطة في ورقة العمل الأولى للمصنف (كما هو موضح في الشكل أدناه) واحفظ الملف باسم Book1.xls.
+1. إنشاء قائمة بيانات بسيطة في الورقة العمل الأولى من المفكرة (كما هو مبين في الشكل أدناه) وحفظ الملف كـ Book1.xls.
 1. حدد أي خلية ضمن قائمتك.
-1.  من**بيانات** من القائمة، حدد *الإجماليات الفرعية**. سيتم عرض مربع حوار الإجماليات الفرعية. حدد الوظيفة التي يجب استخدامها ومكان وضع الإجماليات الفرعية.
+1. من قائمة **البيانات**, حدد **المجاميع الفرعية**. سيتم عرض مربع حوار المجاميع الفرعية. حدد الوظيفة المطلوب استخدامها ومكان وضع المجاميع الفرعية.
 
-##  **باستخدام Aspose.Cells API**
+## **استخدام واجهة التطبيقات لـ Aspose.Cells**
 
- Aspose.Cells يوفر فئة،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يحتوي الفصل على أ[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)المجموعة التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
+توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، تمثل ملف Microsoft Excel. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) التي تسمح بالوصول إلى كل ورق العمل في ملف Excel.
 
-يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فصل. يوفر الفصل نطاقًا واسعًا من الخصائص والأساليب لإدارة أوراق العمل والكائنات الأخرى. تتكون كل ورقة عمل من أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)مجموعة. لإضافة الإجماليات الفرعية إلى ورقة العمل، استخدم[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)فصل'[**المجموع الفرعي**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index)طريقة. قم بتوفير قيم المعلمات للطريقة لتحديد كيفية حساب الإجمالي الفرعي ووضعه.
+يُمثل ورقة العمل بواسطة الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر الفئة مجموعة واسعة من الخصائص والأساليب لإدارة الأوراق العمل والكائنات الأخرى. تتكون كل ورقة عمل من مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). لإضافة المجاميع الفرعية إلى ورقة العمل، استخدم طريقة [**Subtotal**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) لفئة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). قم بتقديم قيم المعلمات للطريقة لتحديد كيفية حساب المجموعة الفرعية ووضعها.
 
-في الأمثلة أدناه، أضفنا الإجماليات الفرعية إلى ورقة العمل الأولى لملف القالب (Book1.xls) باستخدام Aspose.Cells API. عند تنفيذ التعليمات البرمجية، يتم إنشاء ورقة عمل تحتوي على الإجماليات الفرعية.
+في الأمثلة أدناه، قمنا بإضافة إجماليات فرعية إلى الورقة العمل الأولى من ملف القالب (Book1.xls) باستخدام واجهة التطبيقات لـ Aspose.Cells. عند تنفيذ الكود، سيتم إنشاء ورقة عمل بها إجماليات فرعية.
 
-توضح مقتطفات التعليمات البرمجية التالية كيفية إضافة الإجماليات الفرعية إلى ورقة عمل باستخدام Aspose.Cells for .NET.
+يعرض مقتطفات الشفرة التالية كيفية إضافة الإجماليات الفرعية إلى ورقة عمل بـAspose.Cells for .NET.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-CreatingSubtotals-1.cs" >}}
 
-##  **مواضيع متقدمة**
-- [تطبيق الإجمالي الفرعي وتغيير اتجاه صفوف ملخص المخطط التفصيلي أسفل التفاصيل](/cells/ar/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+## **مواضيع متقدمة**
+- [تطبيق المجموع الفرعي وتغيير اتجاه الصفوف القابلة للملخص تحت التفصيل](/cells/ar/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)

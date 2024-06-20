@@ -1,26 +1,27 @@
 ---
-title: Verwalten Sie die HTML-Zeichenfolge Cells
+title: Zellen HTML String verwalten
 type: docs
 weight: 600
 url: /de/net/manage-cells-html-string/
-description: Erfahren Sie, wie Sie den HTML-String Cells über Aspose.Cells for .NET API verwalten.
-keywords: Add HTML String inside the Cell, Set HTML String inside the Cell, Add HTML String, Get HTML String of Cell, Manage Cells Html String
+description: Erfahren Sie, wie Sie mithilfe der Aspose.Cells for .NET API Zellen HTML String verwalten.
+keywords: Fügen Sie HTML String in die Zelle ein, setzen Sie HTML String in die Zelle, fügen Sie HTML String hinzu, erhalten Sie den HTML String der Zelle, verwalten Sie Zellen HTML String
 ---
-##  **Mögliche Nutzungsszenarien**
-Wenn Sie formatierte Daten für eine bestimmte Cell festlegen müssen, können Sie Cell eine HTML-Zeichenfolge zuweisen. Natürlich können Sie auch die Zeichenfolge HTML der Zelle abrufen. Aspose.Cells bietet diese Funktion. Aspose.Cells bietet die folgenden Eigenschaften und Methoden, die Ihnen beim Erreichen Ihrer Ziele helfen.
+
+## **Mögliche Verwendungsszenarien**
+Wenn Sie für eine bestimmte Zelle formatierte Daten festlegen müssen, können Sie einen HTML-String der Zelle zuweisen. Natürlich können Sie auch den HTML-String der Zelle abrufen. Aspose.Cells bietet diese Funktion. Aspose.Cells stellt die folgenden Eigenschaften und Methoden zur Verfügung, um Sie bei der Erreichung Ihrer Ziele zu unterstützen.
 - [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/htmlstring)
 
-##  **Holen Sie sich die HTML-Zeichenfolge und legen Sie sie mit Aspose.Cells fest**
+## **Abrufen und festlegen des HTML-Strings mithilfe von Aspose.Cells**
 Dieses Beispiel zeigt, wie Sie:
 
-1. Erstellen Sie eine Arbeitsmappe und fügen Sie einige Daten hinzu.
-1. Holen Sie sich die spezifische Cell im ersten Arbeitsblatt.
-1. Setzen Sie die HTML-Zeichenfolge auf Cell.
-1. Holen Sie sich die HTML-Zeichenfolge Cell.
+1. Erstellen Sie ein Arbeitsbuch und fügen Sie einige Daten hinzu.
+1. Die spezifische Zelle im ersten Arbeitsblatt abrufen.
+1. Setzen Sie den HTML-String in die Zelle.
+1. Holen Sie den HTML-String der Zelle.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-htmlstring.cs" >}}
 
-##  Vom Beispielcode generierte Ausgabe
+## Ausgabe, die vom Beispielcode generiert wurde
 
 Der folgende Screenshot zeigt die Ausgabe des obigen Beispielcodes.
 

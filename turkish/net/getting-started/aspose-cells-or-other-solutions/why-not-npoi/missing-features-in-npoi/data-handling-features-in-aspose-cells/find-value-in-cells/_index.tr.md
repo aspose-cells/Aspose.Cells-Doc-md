@@ -1,15 +1,16 @@
-﻿---
-title: Cells'de Değer Bulun
+---
+title: Hücrelerde Değer Bul
 type: docs
 weight: 20
 url: /tr/net/find-value-in-cells/
 ---
-## **Aspose.Cells - Cells'de Değer Bulun**
-Microsoft Excel'de, kullanıcılar belirli verileri içeren hücreleri arayabilir. Örneğin, tıklama**Düzenlemek**ve sonra**Bulmak**Ara iletişim kutusunu açar. Kullanıcılar bir değer girer ve tıklar**Tamam**onu aramak için Excel, eşleşen alanları vurgular.
+
+## **Aspose.Cells - Hücrelerde Değer Bul**
+Microsoft Excel'de kullanıcılar belirli veriler içeren hücreleri arayabilir. Örneğin, **Düzenle**'ye tıkladıktan sonra **Bul** açılır iletişim kutusunu açarlar. Kullanıcılar bir değer girer ve aramak için **Tamam**'a tıklarlar. Excel eşleşen alanları vurgular.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -39,12 +40,12 @@ Console.WriteLine("Name of the cell containing String: " + cell.Name);
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Cells'de Değer Bulun** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Herhangi aşağıdaki sosyal kodlama sitelerinden **Hücrelerde Değer Bul** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Find.Value.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Veri Bul veya Ara](/cells/tr/net/find-or-search-data/).
+Daha fazla ayrıntı için [Veri Bulma veya Arama](/cells/tr/net/find-or-search-data/) ziyaret edin.
 
 {{% /alert %}}

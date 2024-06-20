@@ -1,15 +1,16 @@
-﻿---
+---
 title: Hantera sidbrytningar i Jython
 type: docs
 weight: 80
 url: /sv/java/managing-page-breaks-in-jython/
 ---
+
 ## **Aspose.Cells - Hantera sidbrytningar**
- För att lägga till dokument med hjälp av**Aspose.Cells Java för Jython**. Här kan du se exempelkod.
+Att lägga till dokument med **Aspose.Cells Java för Jython**. Här kan du se exempelkod.
 
-**Jython Code**
+**Jython Kod**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -137,7 +138,7 @@ if __name__ == '__main__':
     ManagingPageBreaks()
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Bifoga dokument (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ned **Hämta dokument (Aspose.Cells)** från någon av de sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/asposewords/Aspose_Words_Java/releases/tag/Aspose.Words_Java_for_Jython-v1.0.0)

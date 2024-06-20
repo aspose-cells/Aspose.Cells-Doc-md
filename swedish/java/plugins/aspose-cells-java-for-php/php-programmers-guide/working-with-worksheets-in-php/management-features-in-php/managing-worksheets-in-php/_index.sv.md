@@ -1,16 +1,17 @@
-﻿---
+---
 title: Hantera arbetsblad i Php
 type: docs
 weight: 10
 url: /sv/java/managing-worksheets-in-php/
 ---
-## **Aspose.Cells - Hantera arbetsblad**
-### **Lägga till kalkylblad till en ny Excel-fil**
- För att lägga till kalkylblad i en ny Excel-fil med**Aspose.Cells Java for PHP** , ring helt enkelt**add_worksheet** metod av**Hantera arbetsblad** modul.
+
+## **Aspose.Cells - Hantera kalkylblad**
+### **Lägga till kalkylblad i en ny Excelfil**
+För att lägga till arbetsblad i en ny Excelfil med **Aspose.Cells Java for PHP**, anropa helt enkelt **add_worksheet**-metoden i **MangingWorksheets**-modulen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object
 
@@ -33,12 +34,12 @@ $worksheet->setName("My Worksheet");
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-### **Ta bort kalkylblad med Sheet Name**
- För att ta bort kalkylblad efter arknamn med**Aspose.Cells Java for PHP** , ring helt enkelt**remove_worksheet_by_name** metod av**Hantera arbetsblad** modul.
+### **Ta bort kalkylblad med hjälp av kalkylbladsnamn**
+För att ta bort arbetsblad efter arknamn med **Aspose.Cells Java for PHP**, anropa helt enkelt **remove_worksheet_by_name**-metoden i **MangingWorksheets**-modulen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,12 +62,12 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-### **Ta bort kalkylblad med Sheet Index**
- För att ta bort kalkylblad för ark index med**Aspose.Cells Java for PHP** , ring helt enkelt**remove_worksheet_by_index** metod av**Hantera arbetsblad** modul.
+### **Ta bort kalkylblad med hjälp av kalkylbladsindex**
+För att ta bort arbetsblad efter arkindex med **Aspose.Cells Java for PHP**, anropa helt enkelt **remove_worksheet_by_index**-metoden i **MangingWorksheets**-modulen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -89,7 +90,7 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Hantera arbetsblad (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Hantera kalkylblad (Aspose.Cells)** från någon av nedan nämnda sociala kodbaser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

@@ -1,13 +1,14 @@
-﻿---
-title: Trabajar con bordes
+---
+title: Trabajando con bordes
 type: docs
 weight: 10
 url: /es/net/working-with-borders/
 ---
-## **Aspose.Cells - Trabajar con bordes**
+
+## **Aspose.Cells - Trabajando con bordes**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -35,10 +36,10 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Trabajo con bordes**
+## **NPOI - HSSF XSSF - Trabajando con bordes**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -79,13 +80,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Trabajar con bordes** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Trabajando con bordes** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Borders.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Funciones de formato de datos](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Para más detalles, visita [Características de Formato de Datos](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

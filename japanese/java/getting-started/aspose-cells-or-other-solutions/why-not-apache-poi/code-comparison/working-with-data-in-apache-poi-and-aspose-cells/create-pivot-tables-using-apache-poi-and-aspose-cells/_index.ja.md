@@ -1,19 +1,20 @@
-﻿---
-title: Apache POI と Aspose.Cells を使用してピボット テーブルを作成する
+---
+title: Apache POIおよびAspose.Cellsを使用して Pivot Tables を作成する
 type: docs
 weight: 40
 url: /ja/java/create-pivot-tables-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - ピボット テーブルの作成**
-Aspose.Cells を使用してピボット テーブルを作成するには:
 
-1. Cell オブジェクトの setValue メソッドを使用して、ワークシートのセルにデータを追加します。また、既にデータが入力されているテンプレート ファイルも使用します。データは、ピボット テーブルのデータ ソースとして使用されます。
-1. PivotTableCollection add メソッド ({{Worksheet }} オブジェクトにカプセル化されている) を呼び出して、ワークシートにピボット テーブルを追加します。
-1. インデックスを渡して、PivotTableCollection コレクションから新しい PivotTable オブジェクトにアクセスします。
+## **Aspose.Cells - ピボットテーブルの作成**
+Aspose.Cellsを使用してピボットテーブルを作成するには:
+
+1. セルオブジェクトのsetValueメソッドを使用してワークシートのセルにデータを追加します。また、データが既に入力されたテンプレートファイルを使用できます。このデータがピボットテーブルのデータソースとして使用されます。
+1. シートオブジェクトにカプセル化されたPivotTableCollectionのaddメソッドを呼び出すことで、ワークシートにピボットテーブルを追加します。
+1. PivotTableCollection コレクションからの新しいPivotTableオブジェクトには、そのインデックスを渡すことによってアクセスできます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -152,10 +153,10 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - ピボット テーブルの作成**
+## **Apache POI SS (HSSF + XSSF)を使用してピボットテーブルを作成**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  XSSFWorkbook wb = new XSSFWorkbook();
 
@@ -186,17 +187,17 @@ pivotTable.addColumnLabel(DataConsolidateFunction.AVERAGE, 2);
 pivotTable.addReportFilter(3);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-の実行例をダウンロード**Apache POI と Aspose.Cells を使用してピボット テーブルを作成する**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+Apache POIおよびAspose.Cellsを使用して**Create Pivot Tables**の実行中の例を以下のソーシャルコーディングサイトからダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **ソースコードをダウンロード**
-のソースコードをダウンロード**Apache POI と Aspose.Cells を使用してピボット テーブルを作成する**以下のソーシャルコーディングサイトのいずれかから：
+Apache POIおよびAspose.Cellsを使用して**Create Pivot Tables**のソースコードを以下のソーシャルコーディングサイトからダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ピボット テーブルとピボット チャートを作成する](/cells/ja/java/create-pivot-tables-and-pivot-charts/).
+詳細については、[ピボットテーブルとピボットチャートの作成](/cells/ja/java/create-pivot-tables-and-pivot-charts/) をご覧ください。
 
 {{% /alert %}}

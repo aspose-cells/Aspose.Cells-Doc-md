@@ -1,16 +1,17 @@
-﻿---
-title: Legen Sie den Zeilenabstand des Absatzes in einer Form oder Textbox fest
+---
+title: Abstand zwischen Zeilen des Absatzes in einer Form oder Textfeld festlegen
 type: docs
 weight: 810
 url: /de/java/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 ---
+
 {{% alert color="primary" %}} 
 
-Sie können den Zeilenabstand des Absatzes, seinen Abstand davor und seinen Abstand danach mithilfe von TextParagraph.LineSpace, TextParagraph.SpaceBefore bzw. TextParagraph.SpaceAfter festlegen.
+Sie können den Zeilenabstand des Absatzes, seinen Abstand davor und danach mit TextParagraph.LineSpace, TextParagraph.SpaceBefore and TextParagraph.SpaceAfter abbilden.
 
 {{% /alert %}} 
-## **Legen Sie den Zeilenabstand des Absatzes in einer Form oder Textbox fest**
- Der folgende Beispielcode erläutert die Verwendung der genannten Eigenschaften. Bitte laden Sie die herunter[Excel-Datei ausgeben](5473432.xlsx) generiert durch den Code für Ihre Referenz.
+## **Abstand zwischen Zeilen des Absatzes in einer Form oder Textbox festlegen**
+Der folgende Beispielcode erläutert die Verwendung der genannten Eigenschaften. Laden Sie bitte die [Ausgabe-Excel-Datei](5473432.xlsx) herunter, die vom Code generiert wurde.
 
 
 

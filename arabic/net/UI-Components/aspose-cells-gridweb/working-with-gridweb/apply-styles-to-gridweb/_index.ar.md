@@ -1,78 +1,81 @@
-﻿---
+---
 title: تطبيق الأنماط على GridWeb
 type: docs
 weight: 20
-url: /ar/net/apply-styles-to-gridweb/
+url: /ar/net/aspose-cells-gridweb/apply-styles-to-gridweb/
+keywords: GridWeb, style, styles
+description: تقدم هذه المقالة كيفية تطبيق أو ضبط النمط في GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb له شكله وإحساسه الافتراضي ولكن من الممكن تغيير مظهره. Aspose.Cells.GridWeb يوفر العديد من الخصائص للسماح للمطورين بالتحكم الكامل في مظهره. هذا الموضوع يناقش بعض تلك الخصائص.
+Aspose.Cells.GridWeb لديها مظهرها وشعورها الافتراضي ولكن من الممكن تغيير مظهرها. Aspose.Cells.GridWeb توفر عدة خصائص لتمكين المطورين من السيطرة الكاملة على مظهرها. يناقش هذا الموضوع بعض تلك الخصائص.
 
 {{% /alert %}} 
-## **تطبيق الأنماط المعدة مسبقًا أو المخصصة على Aspose.Cells.GridWeb**
-### **الأنماط المحددة مسبقًا**
-لتوفير جهود المطورين ، يقدم Aspose.Cells.GridWeb بعض الأنماط المحددة مسبقًا. ما عليك سوى تحديد نمط من القائمة لتطبيق النمط.
+## **تطبيق أنماط محددة مسبقاً أو أنماط مخصصة على Aspose.Cells.GridWeb**
+### **أنماط محددة مسبقاً**
+لتوفير جهود المطورين، تقدم Aspose.Cells.GridWeb بعض الأنماط المحددة مسبقاً. ببساطة حدد نمطًا من القائمة لتطبيق النمط.
 
-|**الأنماط**|**نظام الألوان**|
-|:- |:- |
-|معيار|فضة|
-|ملون 1|ارتفع|
-|ملون 2|أزرق|
-|المهنية 1|ازرق سماوي|
-|المهنية 2|مرة أخرى سماوي|
-|تقليدي 1|داكن|
-|تقليدي 2|رمادي|
-|العادة|حسب الطلب|
-عند تحديد نمط معين ، فإنه يغير المظهر الكامل لعنصر التحكم GridWeb. يمكن للمطورين تحديد نمط محدد مسبقًا ليتم تطبيقه على الشبكة أثناء وقت التصميم ولكن يمكن أيضًا إنجاز هذه المهمة في وقت التشغيل باستخدام API المرن من Aspose.Cells.GridWeb.
+|**الأنماط**|**مخطط الألوان**|
+| :- | :- |
+|Standard|Silver|
+|Colorful1|Rose|
+|Colorful2|Blue|
+|Professional1|Cyan|
+|Professional2|Cyan again|
+|Traditional1|Dark|
+|Traditional2|Gray|
+|Custom|Customized|
+عند اختيار نمط معين، يغير ذلك المظهر الكامل لعنصر التحكم GridWeb. يمكن للمطورين تحديد نمط محدد مسبقاً لتطبيق النمط على Grid أثناء تصميم الوقت ولكن يمكن أيضًا القيام بهذه المهمة أثناء التشغيل باستخدام واجهة برمجة التطبيق المرنة لـ Aspose.Cells.GridWeb.
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells. يتم تمثيل عنصر تحكم شبكة الويب بفئة GridWeb.
+عنصر تحكم Aspose.Cells.GridWeb ممثل بواسطة فئة GridWeb.
 
 {{% /alert %}} 
 
 لتحديد نمط محدد مسبقًا:
 
-1. أضف Aspose.Cells.GridWeb control إلى نموذج ويب.
-1. حدد نمطًا مُعدًا مسبقًا ليتم تطبيقه على عنصر التحكم.
+1. أضف عنصر تحكم Aspose.Cells.GridWeb إلى شكل ويب.
+1. اختر نمطًا محدد مسبقاً لتطبيقه على العنصر التحكم.
 
 يوفر عنصر التحكم GridWeb خاصية PresetStyle التي يمكن للمطورين تعيين أي نمط محدد مسبقًا مرغوب فيه.
 
- يتم عرض إخراج مقتطف الشفرة أدناه أدناه.
+تُظهر الناتج من مقتطف الكود أدناه. 
 
-**يتم تطبيق التحكم في GridWeb بنمط Colorful1 عليه** 
+**عنصر تحكم GridWeb مع تطبيق نمط Colorful1 عليه** 
 
-![ما يجب القيام به: image_بديل_نص](apply-styles-to-gridweb_1.png)
+![todo:image_alt_text](apply-styles-to-gridweb_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyPresetStyle.aspx-ApplyPresetStyle.cs" >}}
 ### **نمط شريط الرأس**
-إذا ألقيت نظرة على عنصر تحكم GridWeb ، ستلاحظ شريطين للرأس. واحد للأعمدة (أي A ، B ، C ، D إلخ) والآخر للصفوف (أي 1 ، 2 ، 3 ، 4 إلخ). Aspose.Cells.GridWeb يسمح للمطورين بالتحكم في مظهر أشرطة الرأس هذه. يمكن للمطورين تعيين نمط أشرطة الرأس إما في وقت التصميم أو وقت التشغيل.
+إذا نظرت إلى عنصر تحكم GridWeb، ستلاحظ وجود شريط رأسين. أحدهما للأعمدة (وهو A و B و C و D وما إلى ذلك) والآخر للصفوف (وهو 1 و 2 و 3 و 4 وما إلى ذلك). تسمح Aspose.Cells.GridWeb للمطورين بالتحكم في مظهر هذه الشرائط الرأسية ويمكن للمطورين تعيين نمط الشريط الرأسي إما في وقت التصميم أو وقت التشغيل.
 
 {{% alert color="primary" %}} 
 
-يوفر عنصر التحكم GridWeb خاصية HeaderBarStyle التي تطبق نمطًا على كل من أشرطة الرأس لعنصر التحكم.
+يوفر عنصر تحكم GridWeb خاصية HeaderBarStyle التي تطبق نمطًا على كلا الشريطين الرأسيين للعنصر التحكم.
 
 {{% /alert %}} 
 
- يظهر هنا إخراج رمز المثال أدناه.
+المخرجات موضحة في المثال أدناه. 
 
-**نمط معدل لشريط الرأس** 
+تعديل نمط شريط الرأس 
 
-![ما يجب القيام به: image_بديل_نص](apply-styles-to-gridweb_2.png)
+![todo:image_alt_text](apply-styles-to-gridweb_2.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyHeaderBarStyle.aspx-ApplyHeaderBarStyle.cs" >}}
-### **نمط شريط الجدولة**
- من الممكن ضبط نمط شريط علامات التبويب.
+### **نمط شريط التبويب**
+من الممكن تعيين نمط شريط التبويب. 
 
-**الأنماط المعدلة لأشرطة علامات التبويب النشطة وغير النشطة** 
+تعديل أنماط أشرطة التبويب النشطة وغير النشطة 
 
-![ما يجب القيام به: image_بديل_نص](apply-styles-to-gridweb_3.png)
+![todo:image_alt_text](apply-styles-to-gridweb_3.png)
 
-في الشكل أعلاه ، تعتبر الورقة 4 هي علامة التبويب النشطة لذا يختلف مظهرها عن علامات التبويب الأخرى ، كما هو محدد في مثال الكود أدناه.
+في الشكل أعلاه، Sheet4 هو التبويب النشط لذا فإن مظهره يختلف عن باقي التبويبات، كما هو محدد في المثال أدناه.
 
 
 
@@ -80,9 +83,9 @@ Aspose.Cells. يتم تمثيل عنصر تحكم شبكة الويب بفئة G
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyTabBarStyle.aspx-ApplyTabBarStyle.cs" >}}
 ### **ملف نمط مخصص قابل لإعادة الاستخدام**
-Aspose.Cells.GridWeb يدعم أيضًا الاستمرار في إعدادات المظهر أو النمط الخاص به إلى ملف. عندما تقوم بتعيين كافة خصائص المظهر لعنصر التحكم GridWeb ، يمكنك حفظ هذه الخصائص أو الإعدادات في ملف قرص. يعد هذا الأسلوب مفيدًا جدًا للمطورين لتوفير وقتهم وجهودهم من خلال إعادة استخدام تكوينات النمط القديم من ملف نمط بدلاً من تعيين جميع خصائص النمط (أو المظهر) لعنصر التحكم واحدة تلو الأخرى.
+تدعم Aspose.Cells.GridWeb أيضًا الاحتفاظ بمظهرها أو إعدادات النمط في ملف. عندما تقوم بتعيين جميع خصائص المظهر لتحكم GridWeb، يمكنك حفظ هذه الخصائص أو الإعدادات إلى ملف على القرص. هذا النهج مفيد جدًا للمطورين لتوفير وقتهم وجهودهم من خلال إعادة استخدام إعداداتهم القديمة من ملف النمط بدلاً من تعيين جميع خصائص النمط للتحكم واحدة تلو الأخرى.
 ### **حفظ ملف النمط**
-بمجرد الانتهاء من تعيين خصائص النمط ، يمكنك حفظ إعدادات تكوين النمط في شكل ملف XML (ذلك لأن ملف النمط هذا مخزن كملف XML) عن طريق استدعاء أسلوب SaveCustomStyleFile لعنصر التحكم GridWeb.
+بمجرد الانتهاء من تعيين خصائص النمط، يمكنك حفظ إعدادات تكوين النمط الخاص بك في شكل ملف XML (وذلك لأن ملف النمط يتم تخزينه كملف XML) عن طريق استدعاء طريقة SaveCustomStyleFile لتحكم GridWeb.
 
 
 
@@ -90,15 +93,15 @@ Aspose.Cells.GridWeb يدعم أيضًا الاستمرار في إعدادات 
 
 {{% alert color="primary" %}} 
 
-ملف النمط المحفوظ بتنسيق XML ، لذلك يمكن للمطورين أيضًا تحرير هذا الملف باستخدام أي محرر نصوص ، إذا رغبت في ذلك.
+يكون ملف النمط المحفوظ بتنسيق XML، لذا يمكن للمطورين أيضًا تحرير هذا الملف باستخدام أي محرر نصي إذا كان هناك رغبة في ذلك.
 
 {{% /alert %}} 
 ### **تحميل ملف النمط**
-لتطبيق إعدادات النمط من ملف نمط موجود للتحكم في GridWeb ، يمكن للمطورين تعيين مسار ملف النمط إلى خاصية CustomStyleFileName لعنصر التحكم. ولكن ، قبل القيام بذلك ، يجب تعيين خاصية PresetStyle للتحكم إلى Custom. وذلك لأن ملف النمط هذا يحتوي على معلومات نمط مخصصة تم تعريفها بالفعل من قبل المطور.
+لتطبيق إعدادات النمط من ملف نمط موجود على تحكم GridWeb، يمكن للمطورين تعيين مسار ملف النمط إلى خاصية CustomStyleFileName للتحكم. ولكن قبل القيام بذلك، يجب تعيين خصائص PresetStyle للتحكم إلى Custom. وذلك لأن ملف النمط يحتوي على معلومات نمط مخصصة تم تعريفها بالفعل من قبل مطور.
 
 {{% alert color="primary" %}} 
 
-من الممكن أيضًا تحميل ملف النمط أو حفظه باستخدام Aspose.Cells.GridWeb Designer.
+من الممكن أيضًا تحميل أو حفظ ملف النمط باستخدام مصمم Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
 
@@ -106,11 +109,11 @@ Aspose.Cells.GridWeb يدعم أيضًا الاستمرار في إعدادات 
 
 {{% alert color="primary" %}} 
 
-هام: لا يؤثر تحميل ملف النمط في عنصر تحكم GridWeb على إعدادات التنسيق لخلايا عنصر التحكم.
+مهم: تحميل ملف النمط إلى تحكم GridWeb لا يؤثر على إعدادات تنسيق الخلايا التابعة للتحكم.
 
 {{% /alert %}} 
-### **التنسيق القياسي لقالب نمط XML**
-{{< highlight "java" >}}
+### **التنسيق القياسي لقالب النمط الخاص بالـ XML**
+{{< highlight java >}}
 
  <ViewerStyleTemplate SelectCellColor="Black" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LayoutFixed="Fixed" FrameTableStyle-BorderWidth="1px" FrameTableStyle-BorderColor="Gray" FrameTableStyle-BorderCollapse="Collapse" FrameTableStyle-BackColor="White" SelectCellBgColor="#EEEEFF" HeaderBarWidth="30pt" ScrollBarBaseColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-Font-Names="Arial" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" HeaderBarStyle-Wrap="False" ActiveHeaderColor="Black" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarHeight="15pt" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-Font-Names="Arial" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-BorderStyle="Solid" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-BackColor="White" ActiveTabStyle-Wrap="False" ActiveCellColor="Black" DefaultGridLineColor="Silver" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-BorderWidth="0px" ViewTableStyle-BorderCollapse="Collapse" ActiveCellBgColor="#DDDDFF" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-Font-Names="Arial" TabStyle-BorderColor="Gray" TabStyle-BorderStyle="Solid" TabStyle-ForeColor="Black" TabStyle-BackColor="#E0E0E0" TabStyle-Wrap="False" ActiveHeaderBgColor="#F2F2F2" ScrollBarArrowColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-Height="20pt" BottomTableStyle-BorderWidth="0px" BottomTableStyle-BorderCollapse="Collapse" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BackColor="#F0F0F0" />
 

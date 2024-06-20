@@ -1,16 +1,17 @@
-﻿---
-title: 包括的な RDL サポート
+---
+title: 包括的なRDLサポート
 type: docs
 weight: 20
 url: /ja/reportingservices/comprehensive-rdl-support/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services は RDL 仕様を完全にサポートしています。これは、既存の RDL レポートを Aspose ソリューションに簡単に移植できることを意味します。
+Aspose.Cells for Reporting ServicesはRDL仕様を完全にサポートしています。これは、既存のRDLレポートをAsposeソリューションに簡単に移植できることを意味します。
 
 {{% /alert %}} 
-**サポートされる RDL 要素**
-Aspose.Cells は、次の RDL 要素をサポートしています。
+**サポートされるRDL要素**
+Aspose.Cellsは以下のRDL要素をサポートしています: 
 
 - ページ、ヘッダー、フッター
 - テキストボックス
@@ -22,5 +23,5 @@ Aspose.Cells は、次の RDL 要素をサポートしています。
 - スタイル
 - 長方形、線
 - サブレポート
-- タブリックス
+- Tablix
 - ゲージ

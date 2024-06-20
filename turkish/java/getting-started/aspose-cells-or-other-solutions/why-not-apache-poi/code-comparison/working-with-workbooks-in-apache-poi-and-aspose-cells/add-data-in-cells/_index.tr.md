@@ -1,15 +1,16 @@
-﻿---
-title: Cells'de Veri Ekle
+---
+title: Hücrelere Veri Ekleme
 type: docs
 weight: 10
 url: /tr/java/add-data-in-cells/
 ---
-## **Aspose.Cells - Cells'de Veri Ekle**
-Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir Çalışma Kitabı sınıfı sağlar. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası, Worksheet sınıfı tarafından temsil edilir. Worksheet sınıfı bir Cellscollection sağlar. Cells koleksiyonundaki her öğe, Cell sınıfının bir nesnesini temsil eder.
+
+## **Aspose.Cells - Hücrelere Veri Ekleme**
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir Workbook sınıfı sağlar. Workbook sınıfı, Excel dosyasındaki her bir çalışma sayfasına erişmeyi sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası, Worksheet sınıfı tarafından temsil edilir. Worksheet sınıfı, Cells koleksiyonunu sağlar. Cells koleksiyonundaki her öğe, Cell sınıfının bir nesnesini temsil eder.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cell.setStyle(style);
 workbook.save(dataDir + "DataInCells_Aspose.xls"); //Saving the Excel file
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Cells'de Veri Ekle**
-Apache POI SS'de row.createCell(1).setCellValue, hücrelere veri eklemek için kullanılabilir.
+## **Apache POI SS - HSSF XSSF - Hücrelere Veri Ekleme**
+Apache POI SS'te row.createCell(1).setCellValue kullanılarak hücrelere veri eklenebilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -88,11 +89,11 @@ fileOut.close();
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/adddataincells)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Cells'e Veri Ekleme](/java/adding-data-to-cells).
+Daha fazla bilgi için [Hücrelere Veri Eklemek](/java/adding-data-to-cells) ziyaret edin.
 
 {{% /alert %}}

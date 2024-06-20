@@ -1,34 +1,35 @@
-﻿---
-title: Aspose.Cells'de Verileri Gruplandırma
+---
+title: Aspose.Cells te Veri Gruplama
 type: docs
 weight: 10
 url: /tr/net/grouping-data-in-aspose-cells/
 ---
-Bazı Excel raporlarında, okumayı ve analiz etmeyi kolaylaştırmak için verileri gruplara ayırmanız gerekebilir. Verileri gruplara ayırmanın birincil amaçlarından biri, her bir kayıt grubu üzerinde hesaplamalar yapmaktır (özet işlemleri gerçekleştirmek).
 
-Aspose.Cells akıllı işaretleyiciler, verilerinizi alan(lar)a göre gruplandırmanıza ve veri kümeleri veya veri grupları arasına özet satırlar yerleştirmenize olanak tanır. Örneğin, verileri Customers.CustomerID'ye göre gruplandırıyorsanız, grup her değiştiğinde bir özet kayıt ekleyebilirsiniz.
+Bazı Excel raporlarında verileri okumayı ve analiz etmeyi kolaylaştırmak için verileri gruplara ayırmanız gerekebilir. Verileri gruplara ayırmak için temel amaçlardan biri, her kayıt grubu üzerinde hesaplamaları (özet operasyonları gerçekleştirmek) çalıştırmaktır.
 
-Aşağıdaki örnek kod parçacıkları, akıllı işaretçiler kullanılarak bir Excel raporundaki verilerin nasıl gruplanacağını gösterir.
-## **parametreler**
-Aşağıda, verileri gruplandırmak için kullanılan akıllı işaretçi parametrelerinden bazıları verilmiştir.
-**grup:normal/birleştir/tekrarla**
+Aspose.Cells akıllı işaretçiler, verilerinizi alan(lar)ına göre gruplamayı ve veri setleri veya veri grupları arasına özet satırlar yerleştirmeyi sağlar. Örneğin, Müşteriler.CustomerID'ye göre veri gruplama yapıyorsanız, her grup değiştiğinde bir özet kaydı ekleyebilirsiniz.
 
-Aralarından seçim yapabileceğiniz üç tür grubu destekliyoruz.
+Aşağıdaki kod örnekleri, akıllı işaretçiler kullanarak bir Excel raporunda veri gruplamasının nasıl yapıldığını göstermektedir.
+## **Parametreler**
+Veri gruplama için kullanılan bazı akıllı işaretçi parametreleri aşağıda verilmiştir.
+**group:normal/merge/repeat**
 
-- normal - Alanlara göre grup değeri, sütundaki karşılık gelen kayıtlar için tekrarlanmaz; bunun yerine veri grubu başına bir kez yazdırılırlar.
-- birleştirme - Her grup kümesi için alan(lar)a göre gruptaki hücreleri birleştirme dışında normal parametreyle aynı davranış.
-- tekrar - Alanlara göre grup değeri ilgili kayıtlar için tekrarlanır.
+Seçebileceğiniz üç tür gruplamayı destekliyoruz.
 
-Birden fazla parametreniz varsa, bunları virgülle ayırın ancak boşluk kullanmayın: parameterA,parameterB,parameterC
-### **Örnek vermek**
-Bu örnek, eylem halindeki bazı gruplandırma parametrelerini göstermektedir. Northwind.mdb Microsoft Access veritabanını kullanır ve "Sipariş Ayrıntıları" adlı tablodan veri çıkarır. Microsoft Excel'de SmartMarker_Designer.xls adlı bir tasarımcı dosyası oluşturuyoruz ve çalışma sayfalarında çeşitli hücrelere akıllı işaretleyiciler yerleştiriyoruz. İşaretçiler, çalışma sayfalarını doldurmak için işlenir. Veriler bir grup alanı tarafından yerleştirilir ve düzenlenir.
+- normal - Gruplama alan(aları) değeri sütundaki ilgili kayıtlar için tekrarlanmaz; bunun yerine her veri grubu için bir kez yazdırılırlar.
+- birleştirme - normal parametresi için aynı davranış, ancak her grup seti için gruplama alan(aları) hücrelerini birleştirir.
+- tekrar - Gruplama alan(aları) değeri ilgili kayıtlar için tekrarlanır.
 
-Tasarımcı dosyasında iki çalışma sayfası vardır. İlkinde, aşağıdaki ekran görüntüsünde gösterildiği gibi gruplama parametrelerine sahip akıllı işaretçiler koyduk. Üç akıllı işaretçi (gruplama parametreleriyle birlikte) yerleştirilir:
-&=Sipariş Ayrıntıları.SiparişKimliği(grup:birleştir,atla:1),
-&=Sipariş Ayrıntıları.Miktar(ara toplam9:Sipariş Ayrıntıları.SiparişKimliği) ve
-&=Sipariş Ayrıntıları.BirimFiyat(alt toplam9:Sipariş Ayrıntıları.SiparişKimliği) sırasıyla A5, B5 ve C5'e gider.
+Birden fazla parametreniz varsa, bunları virgülle ayırın, ancak boşluk bırakmayın: parametreA,parametreB,parametreC
+### **Örnek**
+Bu örnek, gruplama parametrelerinin işleyişi hakkında bilgi vermektedir. Microsoft Access veritabanından Northwind.mdb kullanır ve "Order Details" adlı tablodan veri çıkarır. Microsoft Excel'de SmartMarker_Designer.xls adında bir tasarım dosyası oluşturur ve işlem için sayfalara akıllı işaretçiler yerleştirir. İşaretçiler, çalışma sayfalarını doldurmak için işlenir. Veriler gruplandırılır ve düzenlenir.
 
-{{< highlight "csharp" >}}
+Tasarım dosyasında iki çalışma sayfası bulunmaktadır. İlk çalışma sayfasına aşağıdaki ekran görüntüsünde gösterildiği gibi gruplama parametreleriyle akıllı işaretçiler yerleştiririz. Üç akıllı işaretçi (gruplama parametreleri ile birlikte) yerleştirilir:
+&=Order Details.OrderID(group:merge,skip:1),
+&=Order Details.Quantity(subtotal9:Order Details.OrderID), ve
+&=Order Details.UnitPrice(subtotal9:Order Details.OrderID) A5, B5 ve C5'e sırasıyla girilir.
+
+{{< highlight csharp >}}
 
  //Create a connection object, specify the provider info and set the data source.
 
@@ -83,5 +84,5 @@ wd.Process(true);
 wd.Workbook.Save("outSmartMarker_Designer.xls");
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Grouping%20Data%20OLE%20DB%20%28Aspose.Cells%29.zip)

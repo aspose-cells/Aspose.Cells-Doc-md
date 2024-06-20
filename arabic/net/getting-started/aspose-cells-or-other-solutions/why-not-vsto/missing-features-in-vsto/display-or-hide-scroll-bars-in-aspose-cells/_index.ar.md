@@ -1,37 +1,38 @@
-﻿---
-title: عرض أو إخفاء أشرطة التمرير في Aspose.Cells
+---
+title: عرض أو إخفاء شريطي التمرير في Aspose.Cells
 type: docs
 weight: 70
 url: /ar/net/display-or-hide-scroll-bars-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-تُستخدم أشرطة التمرير كثيرًا للتنقل في محتويات أي ملف. عادة ، هناك نوعان من أشرطة التمرير:
+شريطي التمرير يُستخدمان بشكل كبير لتصفح محتويات أي ملف. عادةً، هناك نوعان من شريطي التمرير:
 
-- أشرطة التمرير العمودية
-- أشرطة التمرير الأفقية
+- شرائط التمرير العمودية
+- شرائط التمرير الأفقية
 
-يوفر Microsoft Excel أيضًا أشرطة تمرير أفقية ورأسية بحيث يمكن للمستخدمين التمرير عبر محتويات ورقة العمل. باستخدام Aspose.Cells ، يمكن للمطورين التحكم في رؤية كلا النوعين من أشرطة التمرير في ملفات Excel.
+توفر Microsoft Excel أيضًا شرائط تمرير أفقية وعمودية بحيث يمكن للمستخدمين التمرير من خلال محتويات ورقة العمل. باستخدام Aspose.Cells، يمكن للمطورين التحكم في رؤية كلا أنواع شرائط التمرير في ملفات Excel.
 
 {{% /alert %}}
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)يمثل ملف Excel. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) توفر class مجموعة كبيرة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية أشرطة التمرير ، استخدم ملف[**إعدادات المصنف**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) صف دراسي'[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) الخصائص.[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) هي خصائص منطقية ، مما يعني أن هذه الخصائص يمكن تخزينها فقط**حقيقي** أو**خاطئة** القيم.
+توفر Aspose.Cells فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) التي تمثل ملف Excel. توفر فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) مجموعة واسعة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية شريطي التمرير، استخدم خصائص فئة [**WorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) [**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و [**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible). [**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و [**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) هما خصائص بوليانية، مما يعني أنه يمكن لهذه الخصائص أن تخزن القيم **صح** أو **خطأ** فقط.
 
-يوجد أدناه رمز كامل يفتح ملف Excel ، book1.xls ، ويخفي شريطي التمرير ثم يحفظ الملف المعدل كـ output.xls.
+فيما يلي كود كامل يفتح ملف Excel، book1.xls، يخفي كلا شريطي التمرير ثم يحفظ الملف المعدل بصيغة output.xls.
 
-توضح لقطة الشاشة أدناه ملف Book1.xls الذي يحتوي على شريطي التمرير. يتم حفظ الملف المعدل كملف output.xls ، كما هو موضح أدناه.
+يُظهر اللقطة الشاشية أدناه ملف Book1.xls الذي يحتوي على كلا شريطي التمرير. الملف المعدل يتم حفظه بصيغة output.xls كما هو موضح أدناه أيضًا.
 
 **Book1.xls: ملف Excel قبل أي تعديل**
 
-![ما يجب القيام به: image_بديل_نص](display-or-hide-scroll-bars-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-scroll-bars-in-aspose-cells_1.png)
 
 **output.xls: ملف Excel بعد التعديل**
 
-![ما يجب القيام به: image_بديل_نص](display-or-hide-scroll-bars-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-scroll-bars-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,10 +62,10 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **قم بتنزيل كود التشغيل**
+## **تحميل رمز التشغيل**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Scroll%20Bars)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Scroll%20Bars)
 
-## **تنزيل نموذج التعليمات البرمجية**
+## **تحميل رمز عينة**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

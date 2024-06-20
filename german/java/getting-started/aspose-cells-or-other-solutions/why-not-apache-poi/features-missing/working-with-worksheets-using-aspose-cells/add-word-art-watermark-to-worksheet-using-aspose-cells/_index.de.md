@@ -1,15 +1,16 @@
-﻿---
-title: Fügen Sie dem Arbeitsblatt Word Art Watermark mit Aspose.Cells hinzu
+---
+title: Wortkunst Wasserzeichen zur Tabelle hinzufügen mit Aspose.Cells
 type: docs
 weight: 10
 url: /de/java/add-word-art-watermark-to-worksheet-using-aspose-cells/
 ---
-## **Aspose.Cells - Fügen Sie dem Arbeitsblatt ein Word Art-Wasserzeichen hinzu**
-Verwenden Sie WordArt, um Tabellenkalkulationen spezielle Texteffekte hinzuzufügen. Ziehen Sie beispielsweise einen Titel über den oberen Rand der Datei, dekorieren Sie Text und passen Sie Text an eine voreingestellte Form an oder wenden Sie Text als Hintergrundwasserzeichen auf eine Excel-Tabelle an. Die WordArt wird zu einem Objekt, das Sie verschieben oder in Tabellenkalkulationen positionieren können, um Dekoration hinzuzufügen.
+
+## **Aspose.Cells - Wortkunst-Wasserzeichen zur Tabelle hinzufügen**
+Verwenden Sie WordArt, um spezielle Texteffekte in Tabellenkalkulationen hinzuzufügen. Zum Beispiel, einen Titel über die Oberseite der Datei strecken, Text dekorieren und ihn an eine voreingestellte Form anpassen oder als Hintergrundwasserzeichen auf ein Excel-Blatt anwenden. Die WordArt wird zu einem Objekt, das Sie in Tabellenkalkulationen bewegen oder positionieren können, um Dekorationen hinzuzufügen.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook();
 
@@ -42,13 +43,13 @@ wordart.setHasLine(false);
 workbook.save(dataDir + "AsposeWatermark_Out.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AddWatermarkToWorksheet.java)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[WordArt-Wasserzeichen zum Arbeitsblatt hinzufügen](/cells/de/java/add-wordart-watermark-to-worksheet).
+Für weitere Details besuchen Sie [Wortkunst-Wasserzeichen zur Tabelle hinzufügen](/cells/de/java/add-wordart-watermark-to-worksheet).
 
 {{% /alert %}}

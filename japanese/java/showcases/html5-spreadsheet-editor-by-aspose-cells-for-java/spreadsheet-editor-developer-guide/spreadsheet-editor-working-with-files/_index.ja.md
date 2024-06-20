@@ -1,58 +1,59 @@
-﻿---
-title: スプレッドシート エディター - ファイルの操作
+---
+title: スプレッドシートエディタ  ファイル操作
 type: docs
 weight: 10
 url: /ja/java/spreadsheet-editor-working-with-files/
 ---
+
 **目次**
 
 - [サポートされているファイル](#SpreadsheetEditor-WorkingwithFiles-SupportedFiles)
-- [ローカル ファイルを開く](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
- LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
-- [ドロップボックスから開く](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
+- [ローカルファイルを開く](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
+- [Dropboxから開く](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
 - [URLから開く](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
- LoaderService.fromUrl
- - LoaderService.buildCellsCache
- LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
-- [新しいスプレッドシートを作成する](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
- LoaderService.fromBlank
- - buildCellsCache
- -buildColumnWidthCache
- -buildRowHeightCache
-- [さまざまな形式にエクスポート](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
+  - LoaderService.fromUrl
+  - LoaderService.buildCellsCache
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
+- [新しいスプレッドシートを作成](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
+  - LoaderService.fromBlank
+  - buildCellsCache
+  - buildColumnWidthCache
+  - buildRowHeightCache
+- [さまざまな形式へのエクスポート](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
 ### **サポートされているファイル**
-HTML5 スプレッドシート エディターでは、次の形式のファイルを開くことができます。
+HTML5スプレッドシートエディタは、以下の形式のファイルを開くことができます:
 
-- エクセル 1997-2003 XLS
-- エクセル 2007-2013 XLSX
+- Excel 1997-2003 XLS
+- Excel 2007-2013 XLSX
 - XLSM
 - XLSB
 - XLTX
 - SpreadsheetML
 - CVS
 - OpenDocument
-### **ローカル ファイルを開く**
-ローカル コンピューターからファイルをアップロードするには:
+### **ローカルファイルを開く**
+ローカルコンピュータからファイルをアップロードするには:
 
-1. 切り替える**ファイルタブ**上に。
-1. クリック**パソコンから開く**参照ダイアログを開きます。
-1. ファイルの目的の場所に移動します。
-1. 目的のファイルをクリックして選択します。
-1. クリック**開ける**.
+1. 上部の**ファイル**タブに切り替えます。
+1. **コンピュータから開く** をクリックして、ブラウズダイアログを開きます。
+1. ファイルの希望する場所に移動します。
+1. 選択したいファイルをクリックします。
+1. **開く** をクリックします。
 
-ファイルがエディターで開かれます。
+ファイルがエディタで開かれます。
 
-![todo:画像_代替_文章](bwyl3xi.png)
+![todo:image_alt_text](bwyl3xi.png)
 
-**使い方？**
+**動作仕様**
 
 **ファイルのアップロード**
 
-ユーザーはローカル コンピューターからファイルを選択します。このファイルは、Web ブラウザーからサーバーにアップロードされ、によって受信されます。[PrimeFaces ファイルアップロード](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml)成分。
+ユーザーはWebブラウザからサーバーにアップロードされるローカルコンピュータからファイルを選択し、[PrimeFaces fileUpload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) コンポーネントによって受け取ります。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <p:fileUpload fileUploadListener="#\{workbook.onFileUpload\}" update=":ribbon :intro :sheet" />
 
@@ -60,7 +61,7 @@ HTML5 スプレッドシート エディターでは、次の形式のファイ�
 
 **ワークブックの管理**
 
-ファイルが完全にアップロードされるとすぐに、 WorkbookService.onFileUpload メソッドが動作して状況を処理します。 WorkbookService は Web ブラウザーからイベントを受け取り、ブック全体の状態を追跡します。 WorkbookService.onFileUpload は、コントロールを LoaderService に渡し、ワークブックをメモリに読み込みます。として***ファイルアップロード***コンポーネントは、アップロードされたファイルを[入力ストリーム](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html)、LoaderService は LoaderService.fromInputStream メソッドを使用してそれをロードします。
+ファイルのアップロードが完了すると、WorkbookService.onFileUploadメソッドが状況を処理するために実行されます。 WorkbookServiceはWebブラウザからイベントを受信し、ワークブック全体の状態を追跡します。 WorkbookService.onFileUploadは制御をLoaderServiceに渡してワークブックをメモリにロードします。 ***fileUpload*** コンポーネントがアップロードされたファイルを[InputStream](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html)として提供するため、LoaderServiceはLoaderService.fromInputStreamメソッドを使用してそれをロードします。
 
 
 
@@ -68,7 +69,7 @@ HTML5 スプレッドシート エディターでは、次の形式のファイ�
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public void onFileUpload(FileUploadEvent e) {
 
@@ -84,17 +85,17 @@ HTML5 スプレッドシート エディターでは、次の形式のファイ�
 
 
 
-**上げ下ろし**
+**読み込みと解放**
 
-方法***LoaderService.fromInputStream***を読む***入力ストリーム***fileUpload 提供***成分***のインスタンスを作成***com.aspose.cells.Workbook***クラス。このインスタンスは、ユーザーが Web ブラウザーでスプレッドシートを表示または編集し続ける限り、メモリに保持されます。ユーザーがエディターを離れるかブラウザーを閉じると、使用されていないインスタンスがメモリから自動的にアンロードされ、サーバーがクリーンに保たれます。
-
-
+***LoaderService.fromInputStream*** メソッドは、***fileUpload*** コンポーネントによって提供された ***InputStream*** を読み取り、 ***com.aspose.cells.Workbook*** クラスのインスタンスを作成します。このインスタンスは、ユーザーがWebブラウザでスプレッドシートを表示または編集している間はメモリに保持されます。ユーザーがエディタを離れるかブラウザを閉じると、未使用のインスタンスはサーバーをクリーンに保つために自動的にメモリから解放されます。
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
  public String fromInputStream(InputStream s, String name) {
 
@@ -132,17 +133,17 @@ HTML5 スプレッドシート エディターでは、次の形式のファイ�
 
 
 
-**キャッシング**
+キャッシュ
 
-キャッシングは、HTML5 スプレッドシート エディターにとって非常に重要です。すべてがスムーズに機能します。 CellsService は、エディターによって読み込まれたすべてのワークブックのキャッシュ行、列、セル、およびプロパティを保持します。 LoaderService がスプレッドシートを完全にロードすると、スプレッドシートを上から下に読み取り、LoaderService.buildCellsCache、LoaderService.buildColumnWidthCache、LoaderService.buildRowHeightCache を呼び出してキャッシュをいっぱいにします。
-
-
+キャッシュはHTML5スプレッドシートエディタにとって非常に重要です。すべてがスムーズに機能するようにします。CellsServiceは、エディタによって読み込まれたすべてのワークブックの行、列、セル、およびプロパティのキャッシュを保持します。 LoaderServiceはスプレッドシートを完全にロードすると、それを上から下まで読み取り、LoaderService.buildCellsCache、LoaderService.buildColumnWidthCache、LoaderService.buildRowHeightCache を呼び出してキャッシュを埋めます。
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -210,7 +211,7 @@ HTML5 スプレッドシート エディターでは、次の形式のファイ�
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -236,7 +237,7 @@ HTML5 スプレッドシート エディターでは、次の形式のファイ�
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -263,54 +264,54 @@ HTML5 スプレッドシート エディターでは、次の形式のファイ�
 
 
 
-### **ドロップボックスから開く**
-Dropbox からファイルを開くには:
+### **Dropboxから開く**
+Dropboxからファイルを開くには:
 
-1. 切り替える**ファイルタブ**上に。
-1. クリック**ドロップボックスから開く** Dropbox ファイル チューザーを開きます。
-1. まだサインインしていない場合は、Dropbox アカウントにサインインする必要があります。
-1. 目的のファイルに移動し、クリックして選択します。
-1. クリック**選ぶ**底に。
+1. 上部の**ファイル**タブに切り替えます。
+1. **Dropboxから開く** をクリックして、Dropboxファイルの選択画面を開きます。
+1. まだサインインしていない場合は、Dropboxアカウントにサインインする必要があります。
+1. 希望のファイルに移動し、選択してクリックします。
+1. 下部の **選択** をクリックします。
 
-選択したファイルが Dropbox から開かれます。
+選択したファイルがDropboxから開かれます。
 
-![todo:画像_代替_文章](1e2sfo0.png)
+![todo:image_alt_text](1e2sfo0.png)
 
-**使い方？**
+**動作仕様**
 
-の**ドロップボックスから開く**ボタンの使用**Dropbox JavaScript セレクター API** Dropbox Chooser ダイアログを開きます。 Chooser は、コールバック関数によってキャプチャされ、サーバーに送り返される、選択されたファイルの URL を提供します。サーバーは URL からスプレッドシートのインスタンスを作成し、いくつかのハウスキーピングを初期化し、DOM の更新をブラウザーに送り返します。ブラウザーは HTML をレンダリングして更新し、ユーザーは読み込まれたドキュメントを編集する準備が整います。
+「Dropboxから開く」ボタンは、DropboxのChooserダイアログを開くためにDropbox JavaScript Chooser APIを使用しています。Chooserは選択したファイルのURLを提供し、そのURLはコールバック関数によってキャプチャされ、サーバーに送信されます。サーバーはそのURLからスプレッドシートのインスタンスを作成し、いくつかの準備作業を初期化し、DOMの更新をブラウザに送り返します。ブラウザがHTMLをレンダリングし、ドキュメントの編集が可能になります。
 ### **URLから開く**
-ファイルは URL から直接開くことができます。これにより、ユーザーはインターネット上で公開されているファイルを編集できます。ファイルを開くには追加**?url=場所**希望の値を持つパラメータ**位置**エディタのロード中。例えば：
+ファイルは直接URLから開くことができます。これにより、ユーザーはインターネット上で公開されているファイルを編集できます。エディタをロードする際に、**?url=location**パラメータを望む**location**の値とともに追加してください。例:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  http://editor.aspose.com/?url=http://example.com/Sample.xlsx
 
 {{< /highlight >}}
 
-![todo:画像_代替_文章](exc9ckp.png)
+![todo:image_alt_text](exc9ckp.png)
 
-**使い方？**
+**動作仕様**
 
-**起動時にインスタンス化**
+起動時にインスタンス化
 
-いつ**ワークシート ビュー**バックエンド Bean は、JSF によってインスタンス化されます。**ポストコンストラクト**方法**初期化**が呼び出され、LoaderService.fromUrl を使用してスプレッドシートをロードします。
+JSFによって**WorksheetView**バックエンドビーンがインスタンス化されると、**PostConstruct**メソッド**init**が呼び出され、LoaderService.fromUrlを使用してスプレッドシートがロードされます。
 
-**キャッシング**
+キャッシュ
 
-キャッシュは、スプレッドシートが読み込まれた直後に発生します。の**ローダーサービス**通話**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache**と**LoaderService.buildRowHeightCache**スプレッドシートのコンテンツを 1 つずつキャッシュし、すべての操作を高速かつスムーズに保ちます。
+スプレッドシートのロード直後にキャッシュが行われます。**LoaderService**は、**LoaderService.buildCellsCache**、**LoaderService.buildColumnWidthCache**、**LoaderService.buildRowHeightCache**を一つずつ呼び出して、スプレッドシートのコンテンツをキャッシュし、全ての操作を速くスムーズに保ちます。
 
-**DOM の更新**
+**DOMの更新**
 
-サーバー側でスプレッドシートの準備ができると、JSF コンポーネントを使用して新しい HTML が生成され、Web ブラウザーによってレンダリングされる DOM 更新がユーザーに送信されます。
-
-
+サーバーサイドでスプレッドシートが準備できたとき、JSFコンポーネントを使用して新しいHTMLを生成し、ユーザーにDOMの更新が送信され、それがウェブブラウザによってレンダリングされます。
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      @PostConstruct
 
@@ -342,7 +343,7 @@ Dropbox からファイルを開くには:
 
 
 #### **LoaderService.fromUrl**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromUrl(String url) {
 
@@ -378,7 +379,7 @@ Dropbox からファイルを開くには:
 
 
 #### **LoaderService.buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -446,7 +447,7 @@ Dropbox からファイルを開くには:
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -472,7 +473,7 @@ Dropbox からファイルを開くには:
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -499,37 +500,37 @@ Dropbox からファイルを開くには:
 
 
 
-### **新しいスプレッドシートを作成する**
+### **新しいスプレッドシートを作成**
 新しい空のスプレッドシートを作成するには:
 
-1. 切り替える**ファイルタブ**.
-1. クリック**新しい**ボタン。
+1. **ファイル**タブに切り替えます。
+1. **新規**ボタンをクリックします。
 
-エディターは、開いているスプレッドシートがあればそれを閉じ、新しいスプレッドシートを開きます。
+エディタは開いているスプレッドシートを閉じ、新しいスプレッドシートを開きます。
 
-![todo:画像_代替_文章](lnydmmf.png)
+![todo:image_alt_text](lnydmmf.png)
 
-**使い方？**
+**動作仕様**
 
-**新しいオブジェクトをインスタンス化する**
+新しいオブジェクトをインスタンス化
 
-とき**新しい**ボタンがユーザーによってクリックされ、**WorksheetView.loadBlank** 、最終的に呼び出します**LoaderService.fromBlank**. LoaderService は、空白のスプレッドシートの新しいインスタンスを作成します。
+ユーザーが**新規**ボタンをクリックすると、**WorksheetView.loadBlank**が呼び出され、最終的に**LoaderService.fromBlank**が呼び出されます。LoaderServiceは新しい空のスプレッドシートのインスタンスを作成します。
 
-**キャッシング**
+キャッシュ
 
-キャッシュは、スプレッドシートが読み込まれた直後に発生します。の**ローダーサービス**通話**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache**と**LoaderService.buildRowHeightCache**スプレッドシートのコンテンツを 1 つずつキャッシュし、すべての操作を高速かつスムーズに保ちます。
+スプレッドシートのロード直後にキャッシュが行われます。**LoaderService**は、**LoaderService.buildCellsCache**、**LoaderService.buildColumnWidthCache**、**LoaderService.buildRowHeightCache**を一つずつ呼び出して、スプレッドシートのコンテンツをキャッシュし、全ての操作を速くスムーズに保ちます。
 
-**DOM の更新**
+**DOMの更新**
 
-サーバー側でスプレッドシートの準備ができると、JSF コンポーネントを使用して新しい HTML が生成され、Web ブラウザーによってレンダリングされる DOM 更新がユーザーに送信されます。
-
-
+サーバーサイドでスプレッドシートが準備できたとき、JSFコンポーネントを使用して新しいHTMLを生成し、ユーザーにDOMの更新が送信され、それがウェブブラウザによってレンダリングされます。
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public void loadBlank() {
 
@@ -543,7 +544,7 @@ Dropbox からファイルを開くには:
 
 
 #### **LoaderService.fromBlank**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromBlank() {
 
@@ -569,7 +570,7 @@ Dropbox からファイルを開くには:
 
 
 #### **buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -637,7 +638,7 @@ Dropbox からファイルを開くには:
 
 
 #### **buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -663,7 +664,7 @@ Dropbox からファイルを開くには:
 
 
 #### **buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -690,36 +691,36 @@ Dropbox からファイルを開くには:
 
 
 
-### **さまざまな形式にエクスポート**
-ファイルを編集した後、ユーザーは変更を保存したいと思うでしょう。エディタを使用すると、変更したスプレッドシートをエクスポートしてローカル コンピュータにダウンロードできます。ファイルをエクスポートするには:
+### **さまざまな形式へのエクスポート**
+ファイルの編集後、ユーザーは変更を保存したくなるでしょう。エディタを使って変更したスプレッドシートをローカルコンピュータにエクスポートおよびダウンロードすることができます。ファイルをエクスポートするには:
 
-1. 切り替える**ファイルタブ**上に。
-1. クリック**輸出**ボタンとして。
-1. ドロップダウンから目的の形式を選択します。
+1. 上部の**ファイル**タブに切り替えます。
+1. **エクスポート**ボタンをクリックします。
+1. ドロップダウンから希望のフォーマットを選択します。
 
-変更されたファイルはダウンロード用にエクスポートされます。エクスポートでは、次の形式がサポートされています。
+変更されたファイルがダウンロード用にエクスポートされます。以下の形式がエクスポートに対応しています:
 
-- エクセル 2007-2013 XLSX
-- エクセル 1997-2003 XLS
-- エクセル XLSM
-- エクセル XLSB
-- エクセル XLTX
-- エクセル XLTM
+- Excel 2007-2013 XLSX
+- Excel 1997-2003 XLS
+- Excel XLSM
+- Excel XLSB
+- Excel XLTX
+- Excel XLTM
 - SpreadsheetML
-- PDF形式（PDF）
-- OpenDocument スプレッドシート (ODS)
+- Portable Document Format (PDF)
+- OpenDocument Spreadsheet (ODS)
 
-**使い方？**
+**動作仕様**
 
-開いたスプレッドシートは、次を使用してユーザー指定の形式に変換されます**WorksheetView.getOutputFile**.
-
-
+開いているスプレッドシートは、**WorksheetView.getOutputFile**を使用してユーザー指定の形式に変換されます。
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public StreamedContent getOutputFile(int saveFormat) {
 

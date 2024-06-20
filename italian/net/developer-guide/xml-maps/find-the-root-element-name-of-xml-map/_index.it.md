@@ -1,24 +1,25 @@
-﻿---
-title: Trova il nome dell'elemento radice della mappa XML
+---
+title: Trova il nome dell elemento radice della mappa XML
 type: docs
 weight: 30
 url: /it/net/find-the-root-element-name-of-xml-map/
 ---
-## **Possibili scenari di utilizzo**
 
- Puoi trovare il*Nome dell'elemento radice della mappa Xml*utilizzando Aspose.Cells con[**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname)proprietà. Lo screenshot seguente mostra il nome dell'elemento radice della mappa XML in Microsoft Excel.
+## **Possibili Scenari di Utilizzo**
 
-![cose da fare:immagine_alt_testo](find-the-root-element-name-of-xml-map_1.png)
+È possibile trovare il *Nome dell'elemento radice della mappa XML* utilizzando Aspose.Cells con la proprietà [**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname). La seguente schermata mostra il nome dell'elemento radice della mappa XML in Microsoft Excel.
 
-## **Codice d'esempio**
+![todo:image_alt_text](find-the-root-element-name-of-xml-map_1.png)
 
- Il codice di esempio seguente carica il file[esempio di file Excel](55541789.xlsx) e accede alla prima mappa XML e stampa il suo file[**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname)proprietà. Si prega di vedere l'output della console del codice di esempio fornito di seguito.
+## **Codice di Esempio**
+
+Il seguente codice di esempio carica il [file Excel di esempio](55541789.xlsx) e accede alla prima mappa XML e stampa la proprietà [**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname). Si prega di vedere l'output della console del codice di esempio qui sotto.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-XmlMaps-FindRootElementNameOfXmlMap.cs" >}}
 
-## **Uscita console**
+## **Output della console**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Root Element Name Of Xml Map: MiscData
 

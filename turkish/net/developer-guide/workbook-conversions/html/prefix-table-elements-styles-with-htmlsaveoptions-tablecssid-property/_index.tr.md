@@ -1,35 +1,36 @@
-﻿---
-title: Tablo Elemanları Stillerini HtmlSaveOptions.TableCssId özelliğine sahip Önek
+---
+title: HtmlSaveOptions.TableCssId özelliği ile Tablo Öğeleri Stillerini Ön Eklemek
 type: docs
 weight: 110
 url: /tr/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells, tablo öğeleri stillerinin önüne şunu eklemenizi sağlar:[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)Emlak. Diyelim ki, bu özelliği şöyle bir değerle ayarladınız:**MyTest_TableCssId**, o zaman aşağıda gösterildiği gibi tablo öğeleri stilleri bulacaksınız
+Aspose.Cells, tablo öğeleri stillerini [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) özelliği ile ön eklemek için izin verir. Varsayalım ki, bu özelliği **MyTest_TableCssId** gibi bir değerle ayarlarsanız, aşağıdaki gibi tablo öğeleri stilleri bulacaksınız
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  table#MyTest_TableCssId
 
-# MyTest_TableCssId tr
+#MyTest_TableCssId tr
 
-# MyTest_TableCssId col
+#MyTest_TableCssId col
 
-# MyTest_TableCssId br
+#MyTest_TableCssId br
 
 etc.
 
 {{< /highlight >}}
 
- Aşağıdaki ekran görüntüsü, kullanmanın etkisini gösterir.[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)HTML çıkışındaki özellik.
+Aşağıdaki ekran görüntüsü, çıktı HTML'sine [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) özelliğinin kullanılmasının etkisini gösterir.
 
-![yapılacaklar:resim_alternatif_metin](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
+![todo:image_alt_text](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
-## **Tablo Elemanları Stillerini HtmlSaveOptions.TableCssId özelliğine sahip Önek**
+## **HtmlSaveOptions.TableCssId özelliği ile Tablo Öğeleri Stillerini Ön Eklemek**
 
- Aşağıdaki örnek kod, nasıl kullanılacağını gösterir[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) Emlak. lütfen kontrol ediniz[çıkış HTML](60489790.zip) referans için kod tarafından oluşturulur.
+Aşağıdaki örnek kod, [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) özelliğinin kullanımını gösterir. Referans için kod tarafından oluşturulan [çıktı HTML'si](60489790.zip)'ni inceleyin.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.cs" >}}

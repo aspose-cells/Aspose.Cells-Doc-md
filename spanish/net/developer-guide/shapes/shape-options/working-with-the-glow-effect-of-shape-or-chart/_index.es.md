@@ -1,17 +1,18 @@
-﻿---
-title: Trabajar con el efecto de resplandor de forma o gráfico
+---
+title: Trabajar con el efecto de resplandor de la forma o el gráfico
 type: docs
 weight: 240
 url: /es/net/working-with-the-glow-effect-of-shape-or-chart/
 ---
-## **Posibles escenarios de uso**
- Aspose.Cells proporciona el[Forma.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) propiedad junto con[Efecto de brillo](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) clase para trabajar con el efecto de brillo de forma o gráfico. Él[Efecto de brillo](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)La clase contiene las siguientes propiedades que se pueden configurar para lograr diferentes resultados según los requisitos de la aplicación.
 
-- [GlowEffect.Tamaño](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/size)
-- [GlowEffect.Transparencia](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)
+## **Escenarios de uso posibles**
+Aspose.Cells proporciona la propiedad [Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) junto con la clase [GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) para trabajar con el efecto de resplandor de la forma o el gráfico. La clase [GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) contiene las siguientes propiedades que se pueden establecer para lograr diferentes resultados según los requisitos de la aplicación.
+
+- [GlowEffect.Size](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/size)
+- [GlowEffect.Transparency](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)
 - [GlowEffect.Color](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)
-## **Trabajar con el efecto de resplandor de forma o gráfico**
- El siguiente código de ejemplo carga el[archivo fuente excel](5115407.xlsx) y accede a la primera forma en la primera hoja de trabajo y establece las subpropiedades de[Forma.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) y luego guarda el libro de trabajo en[archivo de salida de Excel](5115414.xlsx).
+## **Trabajando con el Efecto de Resplandor de Forma o Gráfico**
+El siguiente código de muestra carga el [archivo de excel fuente](5115407.xlsx) y accede a la primer forma en la primer hoja de trabajo y establece las sub-propiedades de la propiedad [Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) y luego guarda el libro de trabajo en el [archivo de excel de salida](5115414.xlsx).
 
 
 

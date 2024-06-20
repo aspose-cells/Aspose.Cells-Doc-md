@@ -1,11 +1,12 @@
-﻿---
-title: スプレッドシート ドキュメント内のすべての名前付き範囲の辞書を取得する
+---
+title: スプレッドシートドキュメントのすべての名前付き範囲の辞書を取得
 type: docs
 weight: 120
 url: /ja/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/
 ---
-## **OpenXML エクセル**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -59,7 +60,7 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 

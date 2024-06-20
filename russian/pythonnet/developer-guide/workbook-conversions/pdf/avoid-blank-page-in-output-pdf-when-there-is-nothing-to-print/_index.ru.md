@@ -1,26 +1,27 @@
 ---
-title: Избегайте пустой страницы в выводе PDF, когда нечего печатать
+title: Избегание пустой страницы в выходном PDF, когда нет ничего для печати
 type: docs
 weight: 30
 url: /ru/python-net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
-description: Узнайте, как избежать пустой страницы в выводе PDF, когда нечего печатать с помощью Aspose.Cells for Python via .NET API.
-keywords: Python Avoid Blank Page in Output PDF when there is Nothing to Print
+description: Узнайте, как избежать пустой страницы в выходном PDF, когда нет ничего для печати, с помощью Aspose.Cells для Python via .NET API.
+keywords: Python избегает пустой страницы в выходном PDF, когда нет ничего для печати
 ---
-##  **Возможные сценарии использования**
 
-Когда файл Excel пуст и пользователь сохраняет его по адресу PDF, используя Aspose.Cells for Python via .NET, он отображает пустую страницу в выходных данных PDF. Иногда такое поведение по умолчанию нежелательно. Aspose.Cells for Python via .NET обеспечивает[**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/)имущество для решения этой проблемы. Если вы установите значение *false**, то[**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/)будет происходить всякий раз, когда в выводе PDF нечего печатать.
+## **Возможные сценарии использования**
 
-##  **Избегайте пустой страницы в выводе PDF, когда нечего печатать**
+Когда файл Excel пуст, и пользователь сохраняет его в формате PDF с использованием Aspose.Cells для Python via .NET, в выходном PDF появляется пустая страница. Иногда это поведение по умолчанию нежелательно. Aspose.Cells для Python via .NET предоставляет свойство [**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/) для решения этой проблемы. Если установить его как **false**, то произойдет [**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/), когда в выходном PDF нет ничего для печати.
 
-Следующий пример кода создает пустую книгу, а затем сохраняет ее под номером PDF после установки[**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/)свойство как *false**. Поскольку в выводе PDF нечего печатать,[**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/)происходит, как показано ниже.
+## **Избегание пустой страницы в выходном PDF, когда нет ничего для печати**
 
-##  **Образец кода**
+Приведенный ниже образец кода создает пустую книгу и затем сохраняет ее в формате PDF после установки свойства [**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/) в **false**. Поскольку в выходном PDF нет ничего для печати, [**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/) присутствует вот так.
+
+## **Образец кода**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint.py" >}}
 
-##  **Исключение**
+## **Исключение**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Aspose.Cells.CellsException was unhandled
 

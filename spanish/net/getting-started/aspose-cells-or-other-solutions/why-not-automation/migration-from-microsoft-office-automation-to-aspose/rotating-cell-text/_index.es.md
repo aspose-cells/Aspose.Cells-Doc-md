@@ -1,38 +1,39 @@
-﻿---
-title: Texto giratorio Cell
+---
+title: Rotación del Texto de la Celda
 type: docs
 weight: 100
 url: /es/net/rotating-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-A veces, el encabezado de una columna es mucho más ancho que los datos de las celdas siguientes. Esto puede generar espacios en blanco innecesarios en la página. Una solución es rotar el texto verticalmente para que ocupe menos espacio horizontal. En Microsoft Excel, rotar texto es fácil. Afortunadamente, también es posible rotar el texto mediante programación, para que los desarrolladores puedan rotar las etiquetas en las hojas de cálculo que crean dentro de sus aplicaciones.
+A veces, un encabezado de columna es mucho más ancho que los datos en las celdas below. Esto puede causar espacios en blanco innecesarios en la página. Una solución es rotar el texto verticalmente para que ocupe menos espacio horizontal. En Microsoft Excel, rotar texto es fácil. Por suerte, también es posible rotar el texto programáticamente, de modo que los desarrolladores puedan rotar etiquetas en las hojas de cálculo que crean en sus aplicaciones.
 
- Este artículo analiza cómo rotar texto en celdas usando[Aspose.Cells for .NET](/cells/es/net/rotating-cell-text/) en comparación con hacer lo mismo con[VSTO](/cells/es/net/rotating-cell-text/).
+Este artículo analiza cómo rotar texto en celdas usando [Aspose.Cells for .NET](/cells/es/net/rotating-cell-text/) en comparación con hacer lo mismo con [VSTO](/cells/es/net/rotating-cell-text/).
 
 {{% /alert %}}
 
-## **Texto giratorio en Cells**
+## **Rotación de Texto en Celdas**
 
-Para rotar el texto en una celda de una hoja de trabajo, siga los siguientes pasos:
+Para rotar el texto en una celda de una hoja de cálculo, siga los siguientes pasos:
 
-1. Cree un libro de trabajo y obtenga una hoja de trabajo.
-1. Agregue ejemplos de texto.
-1. Dar formato al texto: rotar, añadir color de fondo.
-1. Guarda el archivo.
+1. Cree un libro y obtenga una hoja de cálculo.
+1. Agregue texto de muestra.
+1. Formatee el texto: rote, agregue color de fondo.
+1. Guarde el archivo.
 
- Los ejemplos de código que siguen muestran cómo realizar estos pasos primero en[VSTO](/cells/es/net/rotating-cell-text/) , usando C# o Visual Basic, y luego en[Aspose.Cells](/cells/es/net/rotating-cell-text/), nuevamente usando C# o Visual Basic.
+Los ejemplos de código que se muestran a continuación muestran cómo realizar estos pasos primero en [VSTO](/cells/es/net/rotating-cell-text/), utilizando tanto C# como Visual Basic, y luego en [Aspose.Cells](/cells/es/net/rotating-cell-text/), nuevamente utilizando tanto C# como Visual Basic.
 
-Los ejemplos de código en este artículo dan el resultado que se muestra a continuación.
+Los ejemplos de código en este artículo muestran el siguiente resultado.
 **Una celda con texto girado.**
 
-![todo:imagen_alternativa_texto](rotating-cell-text_1.png)
+![todo:image_alt_text](rotating-cell-text_1.png)
 
-### **Texto giratorio con VSTO**
+### **Rotación de texto con VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -56,7 +57,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -90,14 +91,14 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-#### **Texto giratorio con Aspose.Cells for .NET**
+#### **Rotación de texto con Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
- 
+
  Workbook objworkbook = new Workbook();
 
 // Get the First sheet.

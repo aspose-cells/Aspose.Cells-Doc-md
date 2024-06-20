@@ -1,16 +1,17 @@
-﻿---
-title: Générer une vignette de la feuille de calcul
+---
+title: Générer une miniature de la feuille de calcul
 type: docs
 weight: 110
 url: /fr/net/generate-thumbnail-of-the-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Il peut être utile de générer des vignettes à partir de feuilles de calcul. Une vignette est une petite image qui peut être collée dans un document Word ou une présentation PowerPoint pour donner un aperçu du contenu de la feuille de calcul. Il peut être ajouté à une page Web avec un lien pour télécharger le document original et a une foule d'autres utilisations.
+Il peut être utile de générer des miniatures à partir de feuilles de calcul. Une miniature est une petite image qui peut être collée dans un document Word ou une présentation PowerPoint pour donner un aperçu de ce qui se trouve sur la feuille de calcul. Elle peut être ajoutée à une page web avec un lien pour télécharger le document original et avoir une multitude d'autres utilisations.
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET vous permet de générer des feuilles de calcul dans des fichiers image, ce qui facilite la création d'une vignette. L'exemple de code ci-dessous vous montre comment exporter des feuilles de calcul vers des fichiers image.
+Aspose.Cells for .NET vous permet de générer des fichiers image à partir de feuilles de calcul, rendant ainsi la création d'une miniature facile. Le code d'exemple ci-dessous montre comment générer des fichiers image à partir de feuilles de calcul.
 
 
 

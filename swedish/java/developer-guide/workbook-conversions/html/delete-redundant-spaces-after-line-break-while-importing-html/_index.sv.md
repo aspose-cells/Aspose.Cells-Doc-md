@@ -1,20 +1,21 @@
-﻿---
-title: Ta bort redundanta blanksteg efter radbrytning vid import av HTML
+---
+title: Ta bort överflödiga mellanslag efter radbrytning vid import av HTML
 type: docs
 weight: 620
 url: /sv/java/delete-redundant-spaces-after-line-break-while-importing/
 ---
+
 {{% alert color="primary" %}} 
 
- Snälla använd[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) egendom och ställ in den**Sann** för att ta bort alla redundanta mellanslag som kommer efter radbrytningstaggen. Som standard är den här egenskapen**falsk**och redundanta utrymmen bevaras i utdata Excel-filer.
+Använd [HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces)-egenskapen och ställ in den som **true** för att ta bort alla överflödiga mellanslag som kommer efter radbrytningstaggen. Som standard är denna egenskap **false** och överflödiga mellanslag bevaras i utdataexcelfilerna.
 
 {{% /alert %}} 
-## **Effekten av att ställa in egenskapen HtmlLoadOptions.DeleteRedundantSpaces till false och true**
- Följande skärmdump visar effekten av att ställa in den här egenskapen till**falsk** och**Sann**.
+## **Effekten av att ställa in HtmlLoadOptions.DeleteRedundantSpaces-egenskapen till false och true**
+Följande skärmbild visar effekten av att ställa denna egenskap till **false** och **true**.
 
 ![todo:image_alt_text](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
-## **Ta bort redundanta blanksteg efter radbrytning vid import av HTML**
- Följande exempelkod visar användningen av[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) fast egendom. Vänligen ställ in det**Sann** eller**falsk** för att få utdata som visas i skärmdumpen ovan.
+## **Ta bort överflödiga mellanslag efter radbrytning vid import av HTML**
+Följande kodexempel visar användningen av [HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces)-egenskapen. Vänligen ställ in den som **true** eller **false** för att få utdatan som visas i den ovanstående skärmbilden.
 
 
 

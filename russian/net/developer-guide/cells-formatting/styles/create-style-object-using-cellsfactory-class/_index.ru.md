@@ -1,13 +1,14 @@
 ---
-title: Создайте объект Style, используя класс CellsFactory.
-description: Aspose.Cells — это библиотека .NET для работы с файлами электронных таблиц, которая предоставляет объект стиля для стилизации ячеек. В этой статье будет показано, как создать объект стиля ячейки с помощью класса CellsFactory в библиотеке Aspose.Cells, чтобы пользователи могли настраивать внешний вид ячеек по мере необходимости.
-keywords: Aspose.Cells, .NET library, electronic spreadsheet, style object, cell style, customization
+title: Создайте объект стиля с использованием класса CellsFactory.
+description: Aspose.Cells  это .NET библиотека для работы с файлами электронных таблиц, которая предоставляет объект стиля для оформления ячеек. В этой статье будет рассмотрено, как создать объект стиля ячейки с использованием класса CellsFactory в библиотеке Aspose.Cells, чтобы пользователи могли настраивать внешний вид ячеек по мере необходимости.
+keywords: Aspose.Cells, .NET library, электронные таблицы, объект стиля, стиль ячейки, настройка
 type: docs
 weight: 70
 url: /ru/net/create-style-object-using-cellsfactory-class/
 ---
-##  **Создайте объект Style, используя класс CellsFactory.**
- Следующий пример кода создает[Стиль](https://reference.aspose.com/cells/net/aspose.cells/style) объект с использованием[КлеткиФабрика](https://reference.aspose.com/cells/net/aspose.cells/cellsfactory) class, а затем устанавливает стиль книги по умолчанию. Пожалуйста, загрузите[выходной файл Excel](5115153.xlsx) чтобы увидеть результаты этого кода для справки.
+
+## **Создайте объект стиля с использованием класса CellsFactory.**
+В следующем образце кода создается [объект стиля](https://reference.aspose.com/cells/net/aspose.cells/style) с использованием класса [CellsFactory](https://reference.aspose.com/cells/net/aspose.cells/cellsfactory), а затем устанавливается стиль по умолчанию книги. Пожалуйста, загрузите [файл Excel с результатами](5115153.xlsx), чтобы увидеть результаты данного кода для вашего справочника.
 
 
 

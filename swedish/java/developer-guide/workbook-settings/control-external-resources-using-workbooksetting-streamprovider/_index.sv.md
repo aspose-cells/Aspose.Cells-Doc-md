@@ -1,13 +1,14 @@
-﻿---
-title: Styr externa resurser med WorkbookSetting.StreamProvider
+---
+title: Styr externa resurser med hjälp av WorkbookSetting.StreamProvider
 type: docs
 weight: 10
 url: /sv/java/control-external-resources-using-workbooksetting-streamprovider/
 ---
-## **Möjliga användningsscenarier**
-Ibland innehåller din Excel-fil externa resurser t.ex. länkade bilder etc. Aspose.Cells låter dig styra dessa externa resurser med hjälp av[Arbetsbok.Inställningar.StreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#StreamProvider)som tar genomförandet av[IStreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)gränssnitt. Närhelst du försöker rendera ditt kalkylblad som innehåller externa resurser t.ex. länkade bilder, metoderna för[IStreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)gränssnitt kommer att anropas vilket gör att du kan vidta lämpliga åtgärder för dina externa resurser.
-## **Styr externa resurser med WorkbookSetting.StreamProvider**
-Följande exempelkod förklarar användningen av[Arbetsbok.Inställningar.StreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#StreamProvider). Den laddar[exempel på Excel-fil](61767877.xlsx)som innehåller en länkad bild. Koden ersätter den länkade bilden med[Aspose Logotyp](61767874.png)och renderar hela arket till en enda bild med hjälp av[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)klass. Följande skärmdump visar exemplet på Excel-filen och dess[renderad utdatabild](61767874.png)för en referens. Som du kan se är den trasiga länkade bilden ersatt med Aspose Logotyp.
+
+## **Möjliga användningsscenario**
+Ibland innehåller din Excel-fil externa resurser, t.ex. länkade bilder, etc. Aspose.Cells låter dig styra dessa externa resurser med hjälp av Workbook.Settings.StreamProvider som tar implementeringen av IStreamProvider-gränssnittet. När du försöker rendera ditt arbetsblad som innehåller externa resurser, t.ex. länkade bilder, kommer metoderna i IStreamProvider-gränssnittet att anropas vilket ger dig möjlighet att vidta lämpliga åtgärder för dina externa resurser.
+## **Styr externa resurser med hjälp av WorkbookSetting.StreamProvider**
+Följande exempelkod förklarar användningen av Workbook.Settings.StreamProvider. Den läser in den [exempel-Excel-filen](61767877.xlsx) som innehåller en länkad bild. Koden ersätter den länkade bilden med [Aspose-logotypen](61767874.png) och renderar hela bladet till en enda bild med hjälp av klassen SheetRender. Följande skärmdump visar exempel-Excel-filen och dess [renderade bild](61767874.png) för referens. Som du kan se ersätts den trasiga länkade bilden med Aspose-logotypen.
 
 ![todo:image_alt_text](control-external-resources-using-workbooksetting-streamprovider_1.png)
 ## **Exempelkod**

@@ -1,11 +1,12 @@
-﻿---
-title: Zusammengesetzte Markierungen
+---
+title: Zusammengesetzte Marker
 type: docs
 weight: 10
 url: /de/reportingservices/composite-markers/
 ---
+
 {{% alert color="primary" %}} 
 
- Wir haben die Funktion „Composite Markers“ eingeführt. Jetzt kann der Benutzer Markierungen zu einer zusammengesetzten Markierung zusammenfügen, indem er das verkettende Zeichen, dh „&“, verwendet. Zum Beispiel,*&= Parameter!BerichtJahr.Wert & "-" &Parameter!BerichtMonat.Wert &" Umsatzbericht"*. Die Markierung besteht aus zwei Parametermarkierungen und zwei statischen Textmarkierungen.
+Wir haben die Funktion der zusammengesetzten Marker eingeführt. Der Benutzer kann nun Marker als zusammengesetzten Marker verbinden, indem er das Verknüpfungszeichen verwendet, d. h. „&“. Zum Beispiel *&= Parameters!ReportYear.Value & "-" &Parameters!ReportMonth.Value  &" Sales Report"*. Der Marker besteht aus zwei Parametermarkern und zwei statischen Textmarkern.
 
 {{% /alert %}}

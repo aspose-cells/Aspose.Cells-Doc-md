@@ -1,16 +1,17 @@
-﻿---
+---
 title: Skydda och avskydda arbetsböcker i VSTO och Aspose.Cells
 type: docs
 weight: 200
 url: /sv/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/
 ---
-För att öppna en befintlig Microsoft Excel-fil, skydda arbetsboken med struktur och Windows-attribut och spara filen.
 
-Nedan finns parallella kodavsnitt för VSTO (C#) och Aspose.Cells for .NET (C#) som visar hur man skyddar en arbetsbok.
+För att öppna en befintlig Microsoft Excel-fil, skydda arbetsboken med struktur och Windows-egenskaper och spara filen.
+
+Här är parallella kodsnuttar för VSTO (C#) och Aspose.Cells for .NET (C#) som visar hur man skyddar en arbetsbok.
 ## **VSTO**
-**Skyddande arbetsbok**
+**Skydda Arbetsbok**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -52,9 +53,9 @@ excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
 {{< /highlight >}}
 
-**Avskyddande arbetsbok**
+**Avskydda Arbetsbok**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   //Unprotect the workbook specifying its password.
 
@@ -62,9 +63,9 @@ excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-**Skyddande arbetsbok**
+**Skydda Arbetsbok**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the template excel file path.
 
@@ -86,16 +87,16 @@ excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
 {{< /highlight >}}
 
-**Avskyddande arbetsbok**
+**Avskydda Arbetsbok**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 
   workbook.Unprotect("007");
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Protecting.and.Unprotecting.Workbooks.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\).zip/download)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\).blixtlås)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\).zip)

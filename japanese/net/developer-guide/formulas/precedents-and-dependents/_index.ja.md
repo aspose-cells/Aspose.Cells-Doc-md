@@ -1,62 +1,63 @@
-﻿---
-title: 先例と扶養家族
+---
+title: 先行および従属
 type: docs
 weight: 230
 url: /ja/net/precedents-and-dependents/
 ---
+
 {{% alert color="primary" %}} 
 
-複雑な財務ワークシート、特に共同で開発されたものは、最も厄介なエラーを隠すことができます。数式が参照元セルと従属セルを使用している場合、数式の正確性をチェックし、エラーの原因を見つけることが難しい場合があります。
+特に共同で開発された複雑な財務ワークシートは、最も恥ずかしいエラーを隠すことがあります。式の正確さをチェックし、エラーの原因を特定することは、先行セルおよび従属セルを使用する式をチェックする際に困難になるかもしれません。
 
 {{% /alert %}} 
-## **序章**
-- **先行細胞**別の Cell の数式によって参照されるセルです。たとえば、セル D10 に数式 =B5 が含まれている場合、セル B5 はセル D10 の参照元です。
-- **依存セル**他のセルを参照する数式が含まれています。たとえば、セル D10 に式 =B5 が含まれている場合、セル D10 はセル B5 に従属しています。
+## **紹介**
+- **先行セル** は、他のセルの数式で参照されているセルです。たとえば、セル D10 が数式 =B5 を含む場合、セル B5 はセル D10 の先行セルです。
+- **従属セル** は、他のセルを参照する式を含んでいます。たとえば、セル D10 に式 =B5 が含まれている場合、セル D10 はセル B5 の従属セルです。
 
-スプレッドシートを読みやすくするために、スプレッドシートのどのセルが数式で使用されているかを明確に示したい場合があります。同様に、他のセルの依存セルを抽出することもできます。
+スプレッドシートをわかりやすくするために、スプレッドシートに含まれるセルが式で使用されているかを明確に表示することがあります。同様に、他のセルの従属セルを抽出することがあります。
 
-Aspose.Cells を使用すると、セルをトレースして、リンクされているセルを見つけることができます。
-## **先例と依存関係のトレース Cells: Microsoft Excel**
-式は、クライアントによって行われた変更に基づいて変更される場合があります。たとえば、セル C1 が式を含む C3 および C4 に依存しており、C1 が変更された場合 (式がオーバーライドされる)、ビジネス ルールに基づいてスプレッドシートのバランスを取るために C3 および C4、または他のセルを変更する必要があります。
+Aspose.Cells を使用すると、セルをトレースしてリンクされているセルを特定することができます。
+## **先行および従属セルのトレース： Microsoft Excel**
+例えば、セル C1 が式を含む C3 および C4 に依存しており、C1 が変更される場合（つまり式が上書きされる場合）、C3 および C4 などの他のセルは、ビジネスルールに基づいてスプレッドシートをバランスさせるために変更する必要があります。
 
-同様に、C1 に式 "=(B1*22)/(M2*N32)". C1 が依存しているセル、つまり先行セル B1、M2、および N32 を見つけたいと考えています。
+同様に、C1 に式 "=(B1*22)/(M2*N32)" を含むとします。C1 が依存しているセルである先行セル B1、M2、N32 を見つけたいとします。
 
-特定のセルの他のセルへの依存関係を追跡する必要がある場合があります。ビジネスルールが数式に埋め込まれている場合、依存関係を見つけて、それに基づいていくつかのルールを実行したいと考えています。同様に、特定のセルの値が変更された場合、ワークシート内のどのセルがその変更の影響を受けるでしょうか?
+特定のセルの依存関係を他のセルにトレースする必要があるかもしれません。ビジネスルールが式に埋め込まれている場合、依存関係を見つけ、それに基づいていくつかのルールを実行したいと思うかもしれません。同様に、特定のセルの値が変更される場合、その変更に影響を受けるワークシート内のセルを見つけたいと思うかもしれません。
 
-Microsoft Excel では、ユーザーは先例と依存関係を追跡できます。
+Microsoft Excel を使用すると、先行および従属をトレースすることができます。
 
-1. 上で**ビュー ツールバー**、 選択する**フォーミュラ監査**. [式の監査] ダイアログが表示されます。
-1. トレースの前例:
-1. 参照元セルを検索する数式を含むセルを選択します。
- 1. アクティブ セルにデータを直接提供する各セルへのトレーサー矢印を表示するには、**前例をトレース**上で**フォーミュラ監査**ツールバー。
-1. 特定のセル (依存セル) を参照する数式をトレースする
-1. 依存セルを識別したいセルを選択します。
- 1. アクティブなセルに依存する各セルへのトレーサ矢印を表示するには、[式の監査] ツールバーの [依存関係のトレース] をクリックします。
-## **先例と従属をトレース Cells: Aspose.Cells**
-### **前例をたどる**
-Aspose.Cells を使用すると、先行セルを簡単に取得できます。単純な数式の参照元にデータを提供するセルを取得できるだけでなく、名前付き範囲を持つ複雑な数式の参照元にデータを提供するセルも検索できます。
+1. **表示ツールバー**から**数式監査**を選択します。数式監査ダイアログが表示されます。
+1. 先行をトレース：
+   1. 先行セルを特定したい式を含むセルを選択します。
+   1. 直接データを提供する各セルにトレーサーアローを表示するには、 **式監査** ツールバーの **先行をトレース** をクリックします。
+1. 特定のセルを参照する式をトレースする（従属）
+   1. 従属セルを特定したいセルを選択します。
+   1. アクティブセルに依存している各セルにトレーサーアローを表示するには、 **式監査** ツールバーの **従属をトレース** をクリックします。
+## **先行および従属セルをトレース： Aspose.Cells**
+### **先行をトレース**
+Aspose.Cells を使用すると、先行セルを取得することが容易になります。シンプルな式の先行セルに提供されているセルだけでなく、名前付き範囲で複雑な式の先行セルに提供されているセルを見つけることもできます。
 
-以下の例では、テンプレートの Excel ファイル Book1.xls が使用されています。スプレッドシートには、最初のワークシートにデータと数式があります。
+以下の例では、テンプレートの Excel ファイルである Book1.xls を使用しています。スプレッドシートには最初のワークシートにデータと数式が含まれています。
 
- Aspose.Cells は[Cell](https://reference.aspose.com/cells/net/aspose.cells/cell)クラス'[GetPrecedents](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedents)細胞の前例を追跡するために使用される方法。それは[ReferredAreaCollection](https://reference.aspose.com/cells/net/aspose.cells/referredareacollection).上記のように、Book1.xls のセル B7 には数式「=SUM(A1:A3)」が含まれています。したがって、セル A1:A3 はセル B7 の先行セルです。次の例は、テンプレート ファイル Book1.xls を使用した参照元のトレース機能を示しています。
+Aspose.Cellsは、セルの先行関係をトレースするために使用する[Cell](https://reference.aspose.com/cells/net/aspose.cells/cell)クラスの[GetPrecedents](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedents)メソッドを提供します。これは[ReferredAreaCollection](https://reference.aspose.com/cells/net/aspose.cells/referredareacollection)を返します。上記の例のように、Book1.xlsでは、セルB7に"=SUM(A1:A3)"という式が含まれています。したがって、セルB7への先行セルはセルA1からA3です。以下の例では、テンプレートファイルBook1.xlsを使用した先行関係のトレース機能を示しています。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingPrecedents-1.cs" >}}
-### **依存関係のトレース**
-Aspose.Cells を使用すると、スプレッドシートで依存セルを取得できます。 Aspose.Cells は、単純な数式に関するデータを提供するセルを取得できるだけでなく、名前付き範囲を持つ複雑な数式の依存関係にデータを提供するセルを検索することもできます。
+### **従属をトレース**
+Aspose.Cellsを使用すると、スプレッドシート内の依存セルを取得できます。Aspose.Cellsは、単純な式に関連するデータを提供するセルだけでなく、名前付き範囲からのデータを提供する複雑な式の依存セルも検索できます。
 
-Aspose.Cells は[Cell](https://reference.aspose.com/cells/net/aspose.cells/cell)クラス'[GetDependents](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getdependents)セルの依存関係を追跡するために使用されるメソッド。たとえば、Book1.xlsx では、B2 セルと C2 セルにそれぞれ "=A1+20" と "=A1+30" という数式があります。次の例は、テンプレート ファイル Book1.xlsx を使用して A1 セルの依存関係をトレースする方法を示しています。
+Aspose.Cellsは、[Cell](https://reference.aspose.com/cells/net/aspose.cells/cell)クラスの[GetDependents](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getdependents)メソッドを提供しています。これは、セルの従属関係をトレースするために使用されます。例えば、Book1.xlsxには、セルB2およびC2にそれぞれ"=A1+20"および"=A1+30"という式があります。以下の例では、テンプレートファイルBook1.xlsxを使用したA1セルの従属要素をトレースする方法を示しています。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingDependents-1.cs" >}}
-### **計算チェーンに従って先行セルと依存セルをトレースする**
-先例と依存関係をトレースする上記の API は、式の式自体に従います。それらは、ユーザーがいくつかの式の相互依存関係を追跡するための便利な方法を提供するだけです。ワークブックに大量の数式があり、ユーザーがすべてのセルの参照元と依存関係をトレースする必要がある場合、パフォーマンスが低下します。このような状況では、ユーザーは使用を検討する必要があります[GetPrecedentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedentsincalculation/)と[GetDependentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getdependentsincalculation/)メソッド。これら 2 つのメソッドは、計算チェーンに従って依存関係をトレースします。したがって、それらを使用するには、まず計算チェーンを有効にする必要があります[Workbook.Settings.FormulaSettings.EnableCalculationChain](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/enablecalculationchain/) .次に、ワークブックの完全な計算を実行する必要があります[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1).その後、必要なすべてのセルの前例または依存関係を追跡できます。
+### **計算チェーンに従って直前および依存セルを追跡する**
+上記の先行要素および従属要素のAPIは、式自体に従っています。これらは、ユーザーにとって数式の相互依存関係を追跡する便利な方法を提供します。ワークブックに多数の数式がある場合や、全セルの先行関係および従属関係をトレースする必要がある場合には、性能が低下する可能性があります。そのような状況では、[GetPrecedentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedentsincalculation/)および[GetDependentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getdependentsincalculation/)メソッドの使用を検討する必要があります。これらの2つのメソッドは、計算連鎖に従って依存関係をトレースします。したがって、これらを使用するためには、まず[Workbook.Settings.FormulaSettings.EnableCalculationChain](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/enablecalculationchain/)を使用して計算連鎖を有効にする必要があります。その後、[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1)を使用してワークブックの完全な計算を実行する必要があります。その後、必要なすべてのセルの先行要素または従属要素をトレースできます。
 
-一部の数式では、結果の参照元が GetPrecedents と GetPrecedentsInCalculation で異なる場合があり、結果の従属が GetDependents と GetDependentsInCalculation で異なる場合があります。たとえば、セル A1 の数式が "=IF(TRUE,B2,C3)" の場合、GetPrecedents は A1 の参照元として B2 と C3 を提供します。したがって、GetDependents でチェックすると、B2 と C3 は両方とも従属 A1 を持っています。ただし、この式の計算では、B2 のみが計算結果に影響を与える可能性があることは明らかです。したがって、GetPrecedentsInCalculation は A1 に対して C3 を提供せず、GetDependentsInCalculation は C3 に対して A1 を提供しません。ワークブックの現在のデータに基づいて数式の計算結果に実際に影響を与える相互依存関係をトレースする必要がある場合は、GetDependents/GetPrecedents の代わりに GetDependentsInCalculation/GetPrecedentsInCalculation を使用する必要があります。
+一部の数式では、GetPrecedentsとGetPrecedentsInCalculationの結果の先行は異なる場合がありますし、GetDependentsとGetDependentsInCalculationの結果の依存関係も異なる場合があります。たとえば、セルA1の数式が"=IF(TRUE,B2,C3)"である場合、GetPrecedentsはA1の先行としてB2とC3を提供します。したがって、GetDependentsを確認すると、B2とC3の両方が依存関係A1を持っています。しかし、この数式の計算では、計算結果に影響するのは明らかにB2だけです。そのため、GetPrecedentsInCalculationはA1にC3を提供しませんし、GetDependentsInCalculationはC3にA1を提供しません。時には、ユーザーは現在のワークブックのデータに基づいて実際に計算結果に影響するそれらの相互依存関係を追跡する必要がある場合があります。その場合は、GetDependentsInCalculation/GetPrecedentsInCalculationを使用する必要があります。
 
-次の例は、セルの計算チェーンに従って参照元と従属をトレースする方法を示しています。
+以下のサンプルコードは、セルに対する計算チェーンに従って先行および依存関係を追跡する方法を示しています。
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingDependenciesInCalculation.cs" >}}

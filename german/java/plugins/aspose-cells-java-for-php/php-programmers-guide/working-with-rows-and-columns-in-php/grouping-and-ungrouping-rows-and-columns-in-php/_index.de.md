@@ -1,20 +1,21 @@
-﻿---
-title: Gruppieren und Aufheben der Gruppierung von Zeilen und Spalten in PHP
+---
+title: Gruppierung und Aufhebung der Gruppierung von Zeilen und Spalten in PHP
 type: docs
 weight: 40
 url: /de/java/grouping-and-ungrouping-rows-and-columns-in-php/
 ---
-## **Aspose.Cells - Gruppenverwaltung von Zeilen und Spalten**
-### **Gruppieren von Zeilen und Spalten**
-Es ist möglich, Zeilen oder Spalten zu gruppieren, indem die Methoden groupRows und groupColumns der Sammlung Cells aufgerufen werden. Beide Methoden nehmen die folgenden Parameter:
 
-- Index der ersten Zeile/Spalte, die erste Zeile oder Spalte in der Gruppe.
+## **Aspose.Cells - Gruppenverwaltung von Zeilen & Spalten**
+### **Gruppierung von Zeilen & Spalten**
+Es ist möglich, Zeilen oder Spalten zu gruppieren, indem die Methoden groupRows und groupColumns der Cells-Sammlung aufgerufen werden. Beide Methoden akzeptieren die folgenden Parameter:
+
+- Erster Zeilen-/Spaltenindex, die erste Zeile oder Spalte in der Gruppe.
 - Letzter Zeilen-/Spaltenindex, die letzte Zeile oder Spalte in der Gruppe.
-- Ist ausgeblendet, ein boolescher Parameter, der angibt, ob Zeilen/Spalten nach der Gruppierung ausgeblendet werden sollen oder nicht.
+- Ist versteckt, ein boolescher Parameter, der angibt, ob Zeilen/Spalten nach dem Gruppieren ausgeblendet werden sollen oder nicht.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function group_rows_columns($dataDir)
 
@@ -47,15 +48,15 @@ Es ist möglich, Zeilen oder Spalten zu gruppieren, indem die Methoden groupRows
 }
 
 {{< /highlight >}}
-### **Gruppierung von Zeilen und Spalten aufheben**
-Heben Sie die Gruppierung gruppierter Zeilen oder Spalten auf, indem Sie die Methoden UngroupRows und UngroupColumns der Sammlung Cells aufrufen. Beide Methoden verwenden die gleichen Parameter:
+### **Zeilen & Spalten aufheben**
+Gruppierte Zeilen oder Spalten aufheben, indem die Methoden UngroupRows und UngroupColumns der Cells-Sammlung aufgerufen werden. Beide Methoden akzeptieren die gleichen Parameter:
 
-- Index der ersten Zeile oder Spalte, die erste Zeile/Spalte, deren Gruppierung aufgehoben werden soll.
-- Letzter Zeilen- oder Spaltenindex, die letzte Zeile/Spalte, deren Gruppierung aufgehoben werden soll.
+- Erster Zeilen- oder Spaltenindex, die erste Zeile/Spalte, die aufgehoben werden soll.
+- Letzter Zeilen- oder Spaltenindex, die letzte Zeile/Spalte, die aufgehoben werden soll.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function ungroup_rows_columns($dataDir)
 
@@ -88,7 +89,7 @@ Heben Sie die Gruppierung gruppierter Zeilen oder Spalten auf, indem Sie die Met
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Zeilen und Spalten gruppieren und Gruppierung aufheben (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Gruppierung & Aufhebung der Gruppierung von Zeilen & Spalten (Aspose.Cells) von einer der unten genannten sozialen Codierungsseiten herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

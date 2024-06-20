@@ -1,27 +1,30 @@
-﻿---
-title: GridDesktops コンテキスト メニューの管理
+---
+title: GridDesktopのコンテキストメニューの管理
 type: docs
 weight: 40
-url: /ja/net/managing-griddesktops-context-menu/
+url: /ja/net/aspose-cells-griddesktop/manage-griddesktops-context-menu/
+keywords: GridDesktop、context、context menu
+description: この記事では、GridDesktopのコンテキストメニューのカスタマイズ方法について紹介しています。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop には、一般的に使用されるすべてのコマンドを含むコンテキスト メニューがあります。コントロールを使用すると、メニュー項目を非表示/表示できます。さらに、イベント ハンドラーを使用して新しいメニュー項目をメニューに追加することもできます。
+Aspose.Cells.GridDesktopには、一般に使用されるすべてのコマンドを持つコンテキストメニューがあります。このコントロールでは、メニューアイテムを非表示または表示することができます。さらに、イベントハンドラを持つ新しいメニューアイテムを追加することも可能です。
 
 {{% /alert %}} 
-## **序章**
-ContextMenuManager クラスは、コンテキスト メニュー項目を管理するために使用されます。 GridDesktop.ContextMenuManager 属性は、ContextMenuManager オブジェクトのインスタンスを取得します。たとえば、ContextMenuManager.MenuItemAvailable_Copy 属性は、コンテキスト メニュー項目 **Copy** が使用可能かどうかを示す値を取得または設定します。同様に、さまざまなコンテキスト メニュー項目に対応するすべての属性があります。
+## **紹介**
+ContextMenuManagerクラスは、コンテキストメニューアイテムを管理するために使用されます。GridDesktop.ContextMenuManager属性は、ContextMenuManagerオブジェクトのインスタンスを取得します。たとえば、ContextMenuManager.MenuItemAvailable_Copy属性は、コンテキストメニューアイテムの 'Copy' が利用可能かどうかを取得または設定します。同様に、異なるコンテキストメニューアイテムに対応する属性があります。
 
-**重要：**デフォルトでは、すべてのコンテキスト メニュー項目がリストに表示されます。
-## **コンテキスト メニューの管理**
-### **コンテキスト メニュー項目の非表示**
-このタスクを実行するには、まず GridDesktop にあるデフォルトのコンテキスト メニューを確認します。
+**重要：**デフォルトでは、すべてのコンテキストメニューアイテムがリストに表示されます。
+## **コンテキストメニューの管理**
+### **コンテキストメニューアイテムの非表示**
+このタスクを実行するには、最初にGridDesktopのデフォルトのコンテキストメニューを確認します。
 
-**GridDeskop のデフォルト メニュー** 
+GridDeskopのデフォルトメニュー 
 
-![todo:画像_代替_文章](managing-griddesktops-context-menu_1.png)
+![todo:image_alt_text](managing-griddesktops-context-menu_1.png)
 
-次に、以下のコードを使用していくつかのメニュー項目を非表示にします。
+以下のコードを使用して、いくつかのメニューアイテムを非表示にします:
 
 
 
@@ -29,20 +32,20 @@ ContextMenuManager クラスは、コンテキスト メニュー項目を管理
 
 
 
-上記のコードを実行すると、一部のメニュー項目がユーザーに表示されなくなります。
+上記のコードを実行した後、一部のメニューアイテムがユーザーには表示されなくなります:
 
-**一部のメニュー項目が非表示になっています** 
+一部のメニューアイテムが非表示になります 
 
-![todo:画像_代替_文章](managing-griddesktops-context-menu_2.png)
-### **新しいメニュー項目の追加**
-次のコード スニペットを使用して、新しいコンテキスト メニュー項目をリストに追加します。
+![todo:image_alt_text](managing-griddesktops-context-menu_2.png)
+### **新しいメニューアイテムの追加**
+以下のコードスニペットを使用してリストに新しいコンテキストメニューアイテムを追加します。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-ManagingContextMenu-AddContextMenuItem.cs" >}}
 
 
-また、新しいコマンド/オプションのイベント ハンドラーも指定します。
+新しいコマンド/オプションのイベントハンドラも指定します。
 
 
 
@@ -50,8 +53,8 @@ ContextMenuManager クラスは、コンテキスト メニュー項目を管理
 
 
 
-上記のコードを実行すると、コンテキスト メニューに新しいメニュー項目が表示されます。セルをクリックするとメッセージも表示されます。
+上記のコードを実行した後、コンテキストメニューに新しいメニューアイテムが表示されます。セルをクリックするとメッセージも表示されます。
 
-**リストに新しいメニュー項目が追加されました** 
+リストに新しいメニューアイテムが追加されます 
 
-![todo:画像_代替_文章](managing-griddesktops-context-menu_3.png)
+![todo:image_alt_text](managing-griddesktops-context-menu_3.png)

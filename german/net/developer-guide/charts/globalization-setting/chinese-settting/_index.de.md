@@ -1,29 +1,30 @@
 ---
-title: Konvertieren Sie das Diagramm in ein Bild für die chinesische Region
-description: Erfahren Sie, wie Sie Aspose.Cells verwenden. for .NET legt die chinesische Konfiguration für Diagramme fest. Unser Leitfaden zeigt, wie Sie Diagramme so konfigurieren, dass sie chinesische Schriftzeichen und Formate unterstützen, einschließlich Schriftarten, Größen, Textrichtungen und mehr.
-keywords: Aspose.Cells for .NET, Charts, Chinese Configuration, Fonts, Font Size, Text Direction, Support.
-linktitle: Stellen Sie die chinesische Region ein
+title: Diagramm in Bild für die chinesische Region umwandeln
+description: Lernen Sie, wie Sie Aspose.Cells for .NET chinesische Konfigurationen für Diagramme verwenden. Unsere Anleitung zeigt, wie Diagramme konfiguriert werden können, um chinesische Zeichen und Formate zu unterstützen, einschließlich Schriftarten, Größen, Textrichtungen und mehr.
+keywords: Aspose.Cells for .NET, Diagramme, Chinesische Konfiguration, Schriftarten, Schriftgröße, Textrichtung, Unterstützung.
+linktitle: Chinesische Region festlegen
 type: docs
 weight: 9
 url: /de/net/convert-chart-to-image-for-chinese-region/
 alias: [/net/set-chinese-configuration-for-chart/]
 ---
+
 {{% alert color="primary" %}}
 
-In diesem Thema zeigen wir Ihnen, wie Sie die chinesische Region für ein Diagramm festlegen.
+In diesem Thema zeigen wir Ihnen, wie Sie eine chinesische Region für ein Diagramm festlegen können.
 
 {{% /alert %}}
 
-##  **Definiert eine Vererbungsklasse**
+## **Definiert eine Vererbungsklasse**
 
- Im ersten Schritt müssen Sie eine Klasse „ChartChineseSetttings“ definieren, von der geerbt wird[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
-Anschließend können Sie durch Umschreiben der zugehörigen Funktionen den Text der Diagrammelemente in Ihrer eigenen Sprache festlegen.
+Als erstes müssen Sie eine Klasse "ChartChineseSetttings" definieren, die von [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/) geerbt. 
+Dann können Sie durch Neudefinition der entsprechenden Funktionen den Text der Diagrammelemente in Ihrer eigenen Sprache festlegen.
 Codebeispiel:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChartChineseSetttings.cs" >}}
 
-##  **Chinesische Einstellung für Diagramm konfigurieren**
+## **Konfigurieren Sie die chinesischen Einstellungen für das Diagramm**
 
-In diesem Schritt verwenden Sie die Klasse „ChartChineseSetttings“, die Sie im vorherigen Schritt definiert haben.
+In diesem Schritt verwenden Sie die Klasse "ChartChineseSetttings", die Sie im vorherigen Schritt definiert haben.
 Codebeispiel:
 
 ```
@@ -33,20 +34,20 @@ Codebeispiel:
 	chart0.ToImage("Output.png");
 ```
 
-Dann können Sie den Effekt im Ausgabebild sehen, die Elemente im Diagramm werden entsprechend Ihren Einstellungen gerendert.
+Dann können Sie den Effekt im Ausgabebild sehen, die Elemente im Diagramm werden gemäß Ihren Einstellungen gerendert.
 
-##  **Abschluss**
+## **Fazit**
 
-Wenn Sie in diesem Beispiel nicht die chinesische Region für ein Diagramm festlegen, werden die folgenden Diagrammelemente möglicherweise in der Standardsprache, z. B. Englisch, gerendert.
-Nach dem obigen Vorgang können wir ein Ausgabediagrammbild mit der chinesischen Region erhalten.
+In diesem Beispiel, wenn Sie keine chinesische Region für ein Diagramm festlegen, werden die folgenden Diagrammelemente möglicherweise in der Standardsprache, wie Englisch, gerendert.
+Nach der oben genannten Operation können wir ein Ausgabediagrammbild mit chinesischer Region erhalten.
 
 |**Unterstützte Elemente**|**Wert in diesem Beispiel**|**Standardwert in der englischen Umgebung**|
 | :- | :- | :- |
-|Name des Achsentitels|坐标轴标题|Achsentitel|
-|Name der Achseneinheit|百,千...|Hunderte, Tausende...|
-|Name des Diagrammtitels|图表标题|Diagrammtitel|
-|Legende: Name erhöhen|增加|Zunahme|
-|Name der Legende verringern|减少|Verringern|
-|Gesamtname der Legende|汇总|Gesamt|
-|Anderer Name|其他|Andere|
-|Serienname|系列|Serie|
+|Axis Title Name|坐标轴标题|Achsentitel|
+|Achsenbezeichnung|百,千...|Hunderte, Tausende...|
+|Chart Title Name|图表标题|Diagrammtitel|
+|Legend Increase Name|增加|Zunahme|
+|Legend Decrease Name|减少|Rückgang|
+|Legend Total Name|汇总|Gesamt|
+|Other Name|其他|Sonstige|
+|Series Name|系列|Serie|

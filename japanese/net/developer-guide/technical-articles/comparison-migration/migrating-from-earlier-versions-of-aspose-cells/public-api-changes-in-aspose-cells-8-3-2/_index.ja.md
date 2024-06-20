@@ -1,35 +1,36 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.3.2
+---
+title: Aspose.Cells 8.3.2でのパブリックAPI変更
 type: docs
 weight: 120
 url: /ja/net/public-api-changes-in-aspose-cells-8-3-2/
 ---
-{{% alert color="primary" %}} 
-
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.3.1 から 8.3.2 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/net/public-api-changes-in-aspose-cells-8-3-2/)と[削除されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-3-2/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
-
-{{% /alert %}} 
-## **追加された API**
-### **PivotItem の絶対位置を設定する仕組み**
-機能を提供するために[PivotItem の絶対配置](/cells/ja/net/specifying-the-absolute-position-of-the-pivot-item/)、Aspose.Cells for .NET 8.3.2 は、以下にリストされている一連のプロパティと支援メソッドを公開しています。
-
-- PivotItem.Position プロパティを使用して、親ノードに関係なく、すべての PivotItems の位置インデックスを指定できます。
-- PivotItem.PositionInSameParentNode プロパティを使用して、同じ親ノードの下にある PivotItems の位置インデックスを指定できます。
-- PivotItem.Move(int count, bool isSameParent) メソッドを使用して、カウント値に基づいてアイテムを上下に移動できます。カウントは、PivotItem を上下に移動する位置の数です。カウント値がゼロより小さい場合、アイテムは上に移動し、カウント値がゼロより大きい場合、PivotItem は下に移動します。ブール型の isSameParent パラメータは、移動操作を同じ親ノードで実行する必要があるかどうかを指定しますか否か。
 
 {{% alert color="primary" %}} 
 
-PivotItem.Position、PivotItem.PositionInSameParentNode プロパティ、および PivotItem.Move(int count, bool isSameParent) メソッドを使用する前に、PivotTable.RefreshData および PivotTable.CalculateData メソッドを呼び出す必要があることに注意してください。
+この文書では、Aspose.Cells APIの8.3.1から8.3.2への変更について、モジュール/アプリケーション開発者に興味を持たれる可能性がある変更について記載しています。 新しいおよび更新されたパブリックメソッド、[追加されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-3-2/)や[削除されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-3-2/)だけでなく、Aspose.Cellsの裏側の動作に変更がある場合についても説明しています。
 
 {{% /alert %}} 
-### **クラス SignatureLine が追加されました**
-Aspose.Cells for .NET 8.3.2 は、MS Excel の同等の機能を模倣する署名欄のサポートを提供します。 Aspose.Cells for .NET のこのリリースでは、この目的のために SignatureLine クラスと Picture.SignatureLine プロパティが公開されています。
+## **APIの追加**
+### **PivotItemの絶対位置を設定する仕組み**
+Aspose.Cells for .NET 8.3.2では、PivotItemの絶対位置指定機能が提供されており、以下のプロパティおよび補助メソッドが公開されています。
 
-次のサンプル コードは、Picture.SignatureLine プロパティを使用して署名欄をブックに追加します。
+- PivotItem.Positionプロパティは、親ノードに関係なくすべてのPivotItemsで位置インデックスを指定するために使用できます。
+- PivotItem.PositionInSameParentNodeプロパティは、同じ親ノードのPivotItemsで位置インデックスを指定するために使用できます。
+- PivotItem.Move(int count, bool isSameParent)メソッドは、countの値に基づいてアイテムを上または下に移動するために使用できます。countはPivotItemを上または下に移動する位置の数を示し、countの値がゼロより小さい場合、アイテムは上に移動し、countの値がゼロより大きい場合、PivotItemは下に移動します。Boolean型のisSameParentパラメータは、移動操作を同じ親ノード内で実行するかどうかを指定します。
+
+{{% alert color="primary" %}} 
+
+PivotItem.Position、PivotItem.PositionInSameParentNodeプロパティおよびPivotItem.Move(int count, bool isSameParent)メソッドを使用する前に、PivotTable.RefreshDataとPivotTable.CalculateDataメソッドを呼び出す必要があります。
+
+{{% /alert %}} 
+### **SignatureLineクラスが追加されました**
+Aspose.Cells for .NET 8.3.2では、MS Excelと同等の機能であるSignature Lineを模倣するためのサポートが提供されています。このリリースでは、SignatureLineクラスとPicture.SignatureLineプロパティが公開されています。
+
+以下のサンプルコードでは、Picture.SignatureLineプロパティを使用してワークブックに署名行を追加しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -60,14 +61,14 @@ pic.SignatureLine = s;
 {{< /highlight >}}
 
 
-### **メソッド Chart.HasAxis が追加されました**
-v8.3.2 のリリースにより、Aspose.Cells API は Chart.HasAxis(AxisType axisType, bool isPrimary) メソッドを提供して、グラフに特定の軸があるかどうかを判断します。
+### **Chart.HasAxisメソッドが追加されました**
+v8.3.2のリリースにより、Aspose.Cells APIはChart.HasAxis(AxisType axisType, bool isPrimary)メソッドを提供し、特定の軸がチャートにあるかどうかを判断することができます。
 
-次のサンプル コードは、Chart.HasAxis メソッドを使用して、サンプル グラフに第 1 軸、第 2 軸、および数値軸があるかどうかを判断する方法を示しています。
+次のサンプルコードは、Chart.HasAxisメソッドの使用方法を示しており、サンプルチャートにプライマリ、セカンダリ、値の軸があるかどうかを判断します。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -102,12 +103,12 @@ Console.WriteLine("Has Secondary Value Axis: " + ret);
 {{< /highlight >}}
 
 
-### **メソッド WorkbookSettings.CheckWriteProtectedPassword が追加されました**
-メソッド WorkbookSettings.CheckWriteProtectedPassword を使用すると、開発者は、スプレッドシートを変更するための特定のパスワードが正しいかどうかを確認できます。
+### **WorkbookSettings.CheckWriteProtectedPasswordメソッドが追加されました**
+メソッドWorkbookSettings.CheckWriteProtectedPasswordを使用すると、表計算を変更するための指定したパスワードが正しいかどうかを開発者が確認できます。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify password to open inside the load options
 
@@ -128,14 +129,14 @@ Console.WriteLine("Is 567 correct Password to modify: " + ret);
 {{< /highlight >}}
 
 
-### **オーバーロード メソッド WorkbookRender.ToPrinter および SheetRender.ToPrinter が追加されました**
-Aspose.Cells for .NET 8.3.2 では、WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) メソッドと SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) メソッドが提供され、ワークブックとワークシートのページ範囲をそれぞれ印刷します。
+### **オーバーロードされたWorkbookRender.ToPrinterおよびSheetRender.ToPrinterメソッドが追加されました**
+Aspose.Cells for .NET 8.3.2では、WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)およびSheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)メソッドが提供され、ワークブックやワークシートのページの範囲を印刷することができます。
 
-次のサンプル コードは、前述のメソッドを使用してブックとワークシートの 2 ～ 5 ページを印刷する方法を示しています。
+以下のサンプルコードは、前述のメソッドを使用して、ワークブックとワークシートのページ 2 から 5 を印刷する方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -164,32 +165,32 @@ sr.ToPrinter(printerName, 1, 4);
 {{< /highlight >}}
 
 
-### **メソッド Worksheet.RefreshPivotTables が追加されました**
-新しく追加されたメソッド Worksheet.RefreshPivotTables を使用すると、特定のスプレッドシートのすべてのピボット テーブルを 1 回の呼び出しで更新できます。
+### **Worksheet.RefreshPivotTablesメソッドが追加されました**
+新しく追加されたWorksheet.RefreshPivotTablesメソッドを使用すると、指定されたスプレッドシート内のすべてのピボットテーブルを一括更新することができます。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  worksheet.RefreshPivotTables();
 
 {{< /highlight >}}
 
 
-### **メソッド Workbook.GetNamedStyle が追加されました**
-Aspose.Cells for .NET API は、文字列をパラメーターとして受け取り、渡されたパラメーターに基づいて Style オブジェクトを取得する Workbook.GetNamedStyle メソッドを公開しました。
-### **メソッド Cells.ImportTwoDimensionArray が追加されました**
-Aspose.Cells for .NET API は、Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions) メソッドを公開することで、2 次元配列をスプレッドシートのセルにインポートできるようにしました。上記のメソッドは、TxtLoadOptions で定義されたより柔軟なオプションを使用して、データの 2 次元配列をワークシートにインポートします。
-### **プロパティ OnePagePerSheet、PageIndex、PageCount を追加**
-Aspose.Cells for .NET 8.3.2 は、XpsSaveOptions クラスの OnePagePerSheet、PageIndex、および PageCount プロパティを公開しました。ユーザーは、OnePagePerSheet プロパティを使用して XPS の 1 ページにスプレッドシートのすべてのコンテンツを収めたり、PageCount プロパティを使用して印刷するページ数を取得したりできます。 PageIndex プロパティは、保存する最初のページの 0 から始まるインデックスを取得または設定します。
-### **プロパティ NumberDecimalSeparator および NumberGroupSeparator が追加されました**
-Aspose.Cells for .NET 8.3.2 では NumberDecimalSeparator および NumberGroupSeparator プロパティが導入され、スプレッドシートの数値の書式設定と解析に使用されるカスタム セパレータを取得/設定できます。
+### **Workbook.GetNamedStyleメソッドが追加されました**
+Aspose.Cells for .NET APIは、文字列をパラメータとして受け取り、そのパラメータに基づいてスタイルオブジェクトを取得するWorkbook.GetNamedStyleメソッドを公開しました。
+### **Cells.ImportTwoDimensionArrayメソッドが追加されました**
+Aspose.Cells for .NET APIは、TxtLoadOptionsを定義したもとでCells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions)メソッドを公開し、二次元配列をワークシートにインポートすることができるようになりました。
+### **OnePagePerSheet、PageIndex、PageCount プロパティが追加されました**
+Aspose.Cells for .NET 8.3.2では、XpsSaveOptionsクラスにOnePagePerSheet、PageIndexおよびPageCountプロパティが公開されました。OnePagePerSheetプロパティを使用してスプレッドシートのコンテンツを1ページに収めることができ、PageCountプロパティを使用して印刷するページ数を取得したり設定したりすることができます。PageIndexプロパティは、保存する最初のページの0から始まるインデックスを取得/設定します。
+### **NumberDecimalSeparator、NumberGroupSeparator プロパティが追加されました**
+Aspose.Cells for .NET 8.3.2 では、NumberDecimalSeparator および NumberGroupSeparator プロパティが導入され、スプレッドシートの数値のフォーマットおよび解析に使用されるカスタムセパレータを取得および設定できます。
 
-次のサンプル コードは、Aspose.Cells API を使用してカスタム セパレータを指定する方法を示しています。
+以下のサンプルコードは、Aspose.Cells API を使用してカスタムセパレータを指定する方法を示しています。次のコードでは、デシマルセパレータおよびグループのセパレータをそれぞれドットとスペースに指定しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook();
 
@@ -202,12 +203,12 @@ workbook.Settings.NumberGroupSeparator = ' ';
 {{< /highlight >}}
 
 
-### **プロパティ PdfSaveOptions.IsFontSubstitutionCharGranularity が追加されました**
-Aspose.Cells for .NET 8.3.2 は、特定のフォント ファミリを使用して一部の Unicode 文字を表示できないという問題を克服するために、PdfSaveOptions.IsFontSubstitutionCharGranularity プロパティを公開しました。 PdfSaveOptions.IsFontSubstitutionCharGranularity プロパティが true に設定されている場合、表示できない特定の文字のフォントのみが表示可能なフォントに変更され、残りの単語または文は元のフォントのままになります。
+### **PdfSaveOptions.IsFontSubstitutionCharGranularity プロパティを追加**
+Aspose.Cells for .NET 8.3.2 では、PdfSaveOptions.IsFontSubstitutionCharGranularity プロパティが公開され、特定のフォントファミリを使用して表示できない場合に発生する問題を解決するために使用されます。PdfSaveOptions.IsFontSubstitutionCharGranularity プロパティが true に設定されている場合、表示できない特定の文字のフォントのみが表示可能なフォントに変更され、単語や文の残りは元のフォントのままとなります。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Save to Pdf after setting PdfSaveOptions.IsFontSubstitutionCharGranularity to true
 
@@ -218,56 +219,56 @@ opts.IsFontSubstitutionCharGranularity = true;
 {{< /highlight >}}
 
 
-## **削除された API**
-### **廃止されたメソッドの削除**
-以下のメソッドは Public API から削除されました。
+## **API が削除されました**
+### **削除された廃止されたメソッド**
+公開APIから以下のメソッドが削除されました。
 
 - Workbook.Open および Workbook.Save メソッド。
 - Workbook.SetOleSize メソッド。
 - Workbook.LoadData メソッド。
 - WorkbookDesigner.Open および WorkbookDesigner.Save メソッド。
 - WorksheetCollection.DeleteName メソッド。
-### **廃止されたプロパティの削除**
-次のプロパティは、Public API から削除されました。
+### **削除された廃止されたプロパティ**
+公開APIから以下のプロパティが削除されました。
 
 - Workbook.IsProtected プロパティ。
 - Workbook.Language プロパティ。
 - Workbook.Region プロパティ。
 - WorkbookSettings.ReCalcOnOpen プロパティ。
-- WorkbookSettings.Language プロパティ。
-- WorkbookSettings.Encoding プロパティ。
-- WorkbookSettings.ConvertNumericData プロパティ。
-- WorksheetCollection.HidePivotFieldList プロパティ。
-- WorksheetCollection.EnableHTTPCompression プロパティ。
+- WorkbookSettings.Language property.
+- WorkbookSettings.Encoding property.
+- WorkbookSettings.ConvertNumericData property.
+- WorksheetCollection.HidePivotFieldList property.
+- WorksheetCollection.EnableHTTPCompression property.
 - WorksheetCollection.IsMinimized プロパティ。
 - WorksheetCollection.IsHidden プロパティ。
-- WorksheetCollection.SheetTabBarWidth プロパティ。
-- WorksheetCollection.WindowLeft プロパティ。
-- WorksheetCollection.WindowLeftInch プロパティ。
-- WorksheetCollection.WindowLeftCM プロパティ。
-- WorksheetCollection.WindowTop プロパティ。
-- WorksheetCollection.WindowTopInch プロパティ。
-- WorksheetCollection.WindowTopCM プロパティ。
-- WorksheetCollection.WindowWidth プロパティ。
-- WorksheetCollection.WindowWidthInch プロパティ。
-- WorksheetCollection.WindowWidthCM プロパティ。
-- WorksheetCollection.WindowHeight プロパティ。
-- WorksheetCollection.WindowHeightInch プロパティ。
-- WorksheetCollection.WindowHeightCM プロパティ。
-- Worksheet.HPageBreaks プロパティ。
-- Worksheet.VPageBreaks プロパティ。
-- HtmlSaveOptions.DisplayHTMLCrossString プロパティ。
-- HtmlSaveOptions.ExportChartImageFormat プロパティ。
-- SaveOptions.ExpCellNameToXLSX プロパティ。
-- SaveOptions.DefaultFont プロパティ。
-- SaveOptions.Compliance プロパティ。
-- SaveOptions.PdfBookmark プロパティ。
-- SaveOptions.PdfImageCompression プロパティ。
-- TxtSaveOptions.AlwaysQuoted プロパティ。
-## **廃止された API**
-### **プロパティ Workbook.SaveOptions 廃止**
-適切な SaveOptions プロパティを設定した後、SaveOptions のオブジェクトを Workbook.Save メソッドに渡す必要があります。
-### **プロパティ Workbook.Styles & クラス StyleCollection 廃止**
-StyleCollection.Add メソッドでスタイルを作成する代わりに、Workbook.CreateStyle メソッドを使用して Workbook インスタンスのスタイルを作成および操作することをお勧めします。さらに、Workbook.GetNamedStyle(string) メソッドを使用して、StyleCollection[string] の代わりに名前付きスタイルを取得できます。
-### **メソッド PivotItem.Move(int count) 廃止されました**
-Aspose.Cells 8.3.2 のリリースにより、API は PivotItem.Move メソッドの別のオーバーロードを導入しました。このメソッドは、親ノード内で PivotItem を移動するためのカウントおよびブール値パラメーターの整数パラメーターを受け入れます。
+- WorksheetCollection.SheetTabBarWidth property.
+- WorksheetCollection.WindowLeft property.
+- WorksheetCollection.WindowLeftInch property.
+- WorksheetCollection.WindowLeftCM property.
+- WorksheetCollection.WindowTop property.
+- WorksheetCollection.WindowTopInch property.
+- WorksheetCollection.WindowTopCM property.
+- WorksheetCollection.WindowWidth property.
+- WorksheetCollection.WindowWidthInch property.
+- WorksheetCollection.WindowWidthCM property.
+- WorksheetCollection.WindowHeight property.
+- WorksheetCollection.WindowHeightInch property.
+- WorksheetCollection.WindowHeightCM property.
+- Worksheet.HPageBreaks property.
+- Worksheet.VPageBreaks property.
+- HtmlSaveOptions.DisplayHTMLCrossString property.
+- HtmlSaveOptions.ExportChartImageFormat property.
+- SaveOptions.ExpCellNameToXLSX property.
+- SaveOptions.DefaultFont property.
+- SaveOptions.Compliance property.
+- SaveOptions.PdfBookmark property.
+- SaveOptions.PdfImageCompression property.
+- TxtSaveOptions.AlwaysQuoted property.
+## **非推奨のAPI**
+### **非推奨のWorkbook.SaveOptions プロパティ**
+適切なSaveOptionsプロパティを設定した後に、SaveOptionsのオブジェクトをWorkbook.Saveメソッドに渡す必要があります。
+### **非推奨のWorkbook.Styles プロパティおよびClass StyleCollection**
+WorksheetインスタンスのためのWorkbook.CreateStyleメソッドを使用してスタイルを作成・操作することを推奨します。また、Workbook.GetNamedStyle(string)メソッドを使用して名前付きスタイルを取得することができます。
+### **非推奨のPivotItem.Move(int count) メソッド**
+Aspose.Cells 8.3.2のリリースに伴い、PivotItem.Moveメソッドには、親ノード内のPivotItemを移動する整数パラメータとブールパラメータを受け取る別のオーバーロードが導入されました。

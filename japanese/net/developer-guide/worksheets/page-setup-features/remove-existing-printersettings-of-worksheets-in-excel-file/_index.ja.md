@@ -1,21 +1,22 @@
 ---
-title: Excel ファイル内のワークシートの既存の PrinterSettings を削除する
+title: Excelファイルのワークシートの既存のPrinterSettingsを削除する方法
 type: docs
 weight: 60
 url: /ja/net/remove-existing-printersettings-of-worksheets-in-excel-file/
-description: この記事では、C# API または .NET ライブラリを使用したサンプル コードを使用して、プログラムでページ設定オブジェクトを通じて Excel ファイル内のワークシートの既存の PrinterSettings を削除する方法を学習します。
-keywords: remove printer settings of worksheet c#, remove printer settings of excel worksheet c#
+description: この記事では、ページ設定オブジェクトを使用してExcelファイル内のワークシートの既存のPrinterSettingsをプログラムで削除する方法について、C# APIまたは.NETライブラリを使用したサンプルコードを紹介します。
+keywords: ワークシートの .bin ファイルを保存されたXLSXファイルに含めないようにしたいときがあります。プリンター設定ファイルは 「[file "root"]\xl\printerSettings」 の下にあります。このドキュメントでは、Aspose.Cells APIを使用して既存のプリンター設定を削除する方法について説明します。
 ---
-##  **考えられる使用シナリオ**
-開発者は、Excel に*。置き場*保存された XLSX ファイル内のプリンター設定のファイル。プリンター設定ファイルは次の場所にあります。*「[ファイル "ルート"]\xl\printerSettings」。*このドキュメントでは、Aspose.Cells API を使用して既存のプリンター設定を削除する方法について説明します。
-##  **Excel ファイル内のワークシートの既存の PrinterSettings を削除する**
-Aspose.Cells を使用すると、Excel ファイル内のさまざまなシートに指定された既存のプリンター設定を削除できます。次のサンプル コードは、ワークブック内のすべてのワークシートの既存のプリンター設定を削除する方法を示しています。ぜひご覧ください[サンプル Excel ファイル](45056020.xlsx), [Excelファイルを出力](45056021.xlsx)、コンソール出力と参考用のスクリーンショット。
-##  **スクリーンショット**
+
+## **可能な使用シナリオ**
+開発者は、保存されたXLSXファイルにプリンター設定の*.bin*ファイルを含めないようにすることを望むことがあります。プリンター設定ファイルは*「[file "root"]\xl\printerSettings」*の下にあります。この文書では、Aspose.Cells APIを使用して既存のプリンター設定を削除する方法について説明しています。
+## **Excelファイルのワークシートの既存のPrinterSettingsを削除する**
+Aspose.Cellsを使用して、Excelファイルの異なるシートに指定された既存のプリンター設定を削除することができます。以下のサンプルコードは、ワークブック内のすべてのワークシートの既存のプリンター設定を削除する方法を示します。参考のために、[sample Excel file](45056020.xlsx)、[output Excel file](45056021.xlsx)、コンソール出力、およびスクリーンショットをご覧ください。
+## **スクリーンショット**
 ![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
-##  **サンプルコード**
+## **サンプルコード**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.cs" >}}
-##  **コンソール出力**
-{{< highlight "java" >}}
+## **コンソール出力**
+{{< highlight java >}}
 
  PrinterSettings of this worksheet exist.
 

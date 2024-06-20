@@ -1,18 +1,19 @@
-﻿---
-title: 印刷するものがない場合に白紙ページを出力する
+---
+title: 空白ページを出力する。印刷するものがない場合
 type: docs
 weight: 90
 url: /ja/net/output-blank-page-when-there-is-nothing-to-print/
 ---
-## **考えられる使用シナリオ**
 
-シートが空の場合、ワークシートを画像にエクスポートするときに Aspose.Cells は何も印刷しません。を使用して、この動作を変更できます。[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint)財産。いつ設定するか**真実**、空白のページが印刷されます。
+## **可能な使用シナリオ**
 
-## **印刷するものがない場合に白紙ページを出力する**
+シートが空白の場合、Aspose.Cellsはワークシートをイメージにエクスポートする際に何も印刷しません。これを変更するには、[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) プロパティを使用します。これを **true**に設定すると、空白のページが印刷されます。
 
-次のサンプル コードは、空のワークシートを持つ空のワークブックを作成し、空のワークシートを画像にレンダリングします。[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint)プロパティとして**真実**.その結果、下の画像でわかるように、印刷するものが何もないため、空白のページが生成されます。
+## **印刷するものがない場合、空白ページを出力**
 
-![todo:画像_代替_文章](output-blank-page-when-there-is-nothing-to-print_1.png)
+次のサンプルコードでは、空のワークシートを含む空のワークブックを作成し、[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) プロパティを **true**に設定した後に空のワークシートをイメージにレンダリングします。その結果、何も印刷するものがないため、空白のページが生成されます。画像は以下に表示されています。
+
+![todo:image_alt_text](output-blank-page-when-there-is-nothing-to-print_1.png)
 
 ## **サンプルコード**
 

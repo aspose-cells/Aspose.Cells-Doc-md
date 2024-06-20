@@ -1,16 +1,17 @@
-﻿---
+---
 title: Registerkarten in Ruby anzeigen oder ausblenden
 type: docs
 weight: 40
 url: /de/java/display-or-hide-tabs-in-ruby/
 ---
-## **Aspose.Cells – Registerkarten anzeigen oder ausblenden**
+
+## **Aspose.Cells - Anzeigen oder Ausblenden von Registerkarten**
 ### **Registerkarten ausblenden**
- Tabs ausblenden mit**Aspose.Cells Java für Rubin** , Anruf**Tabs ausblenden** Modul.
+Rufen Sie zur Ausblendung von Registerkarten mit **Aspose.Cells Java für Ruby** das Modul **displayhidetabs** auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -29,19 +30,19 @@ workbook.save(data_dir + "output.xls")
 puts "Tabs are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Registerkarten sichtbar machen**
-Machen Sie Registerkarten mit der setSheetTabBarHidden(false)-Methode der Workbook-Klasse sichtbar.
+### **Sichtbarkeit von Registerkarten**
+Machen Sie Registerkarten mit der Methode setSheetTabBarHidden(false) der Klasse Arbeitsmappe sichtbar.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the tabs of the Excel file
 
 workbook.getSettings().setSowTabs(true)
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Registerkarten ausblenden oder anzeigen oder ausblenden (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Registerkarten ausblenden oder anzeigen oder ausblenden (Aspose.Cells)** von einer der unten aufgeführten Social-Coding-Sites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidetabs.rb)

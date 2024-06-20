@@ -1,41 +1,42 @@
-﻿---
-title: パブリック API Aspose.Cells 8.8.0 の変更点
+---
+title: Aspose.Cells 8.8.0でのパブリックAPIの変更
 type: docs
 weight: 270
 url: /ja/java/public-api-changes-in-aspose-cells-8-8-0/
 ---
-{{% alert color="primary" %}} 
-
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.7.2 から 8.8.0 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
-
-{{% /alert %}} 
-## **追加された API**
-### **外部接続用の Cell リファレンスを取得する**
-Aspose.Cells for Java 8.8.0 では、スプレッドシートに保存されている外部接続のターゲットおよび出力セル参照を取得するのに役立つ次の新しいプロパティが公開されています。
-
-1. QueryTable.ConnectionId: クエリ テーブルの接続 ID を取得します。
-1. ExternalConnection.Id: 外部接続の ID を取得します。
-1. ListObject.QueryTable: リンクされた QueryTable を取得します。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[外部データ接続に関連するクエリ テーブルとリスト オブジェクトを検索する](/cells/ja/java/find-query-tables-and-list-objects-related-to-external-data-connections/)
+このドキュメントは、バージョン8.7.2から8.8.0へのAspose.Cells APIの変更についてで、モジュール/アプリケーション開発者に関心があるかもしれないものです。新しいおよび更新されたパブリックメソッドだけでなく、追加されたものや削除されたクラスなども含まれますが、Aspose.Cellsの背後での挙動の変更の説明も含まれています。
 
 {{% /alert %}} 
-### **HTMLLoadOptions.KeepPrecision プロパティを追加**
-Aspose.Cells for Java 8.8.0 では、HTML ファイルのインポート中に長い数値を指数表記に変換することを制御するために、HTMLLoadOptions.KeepPrecision プロパティが追加されました。デフォルトでは、データが HTML 文字列またはファイルからインポートされている場合、15 桁を超える値は指数表記に変換されます。ただし、ユーザーは HTMLLoadOptions.KeepPrecision プロパティを使用してこの動作を制御できるようになりました。上記のプロパティが true に設定されている場合、値はソースにあるとおりにインポートされます。
+## **APIの追加**
+### **外部接続のセル参照を取得する**
+Aspose.Cells for Java 8.8.0では、スプレッドシートに格納されている外部接続の対象と出力のセル参照を取得するのに役立つ新しいプロパティが公開されています。 
+
+1. QueryTable.ConnectionId: クエリテーブルの接続IDを取得します。
+1. ExternalConnection.Id: 外部接続のIDを取得します。
+1. ListObject.QueryTable: リンクされたQueryTableを取得します。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[大きな数値の指数表記への変換を避ける](/cells/ja/java/avoid-exponential-notation-of-large-numbers-while-importing-from/)
+この機能の詳細については、[外部データ接続に関連するクエリテーブルとリストオブジェクトの検索](/cells/ja/java/find-query-tables-and-list-objects-related-to-external-data-connections/)の詳細な記事を参照してください
+
+{{% /alert %}} 
+### **HTMLLoadOptions.KeepPrecisionプロパティを追加しました**
+Aspose.Cells for Java 8.8.0では、HTMLファイルをインポートする際に長い数値値を指数表記に変換するかどうかを制御するために、HTMLLoadOptions.KeepPrecisionプロパティが追加されました。デフォルトでは、15桁を超える値は、HTML文字列またはファイルからデータがインポートされる場合には指数表記に変換されます。しかし、今後は、ユーザーはHTMLLoadOptions.KeepPrecisionプロパティの助けを借りてこの挙動を制御できます。該当のプロパティがtrueに設定されている場合、値は元のままインポートされます。
+
+{{% alert color="primary" %}} 
+
+この機能の詳細については、[大きな数値値を指数表記に変換しない](/cells/ja/java/avoid-exponential-notation-of-large-numbers-while-importing-from/)の詳細な記事を参照してください
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Sample Html containing large number with digits greater than 15
 
@@ -51,7 +52,7 @@ String html = "<html>"
 
 //Convert Html to byte array
 
-byte[]byteArray = html.getBytes();
+byte[] byteArray = html.getBytes();
 
 //Set Html load options and keep precision true
 
@@ -80,20 +81,20 @@ worksheet.autoFitColumns();
 workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **HTMLLoadOptions.DeleteRedundantSpaces プロパティを追加**
-Aspose.Cells for Java 8.8.0 では、改行タグ (<br>タグ) HTML 文字列またはファイルからデータをインポートするとき。 HTMLLoadOptions.DeleteRedundantSpaces プロパティのデフォルト値は false です。つまり、すべての余分なスペースが保持され、Workbook オブジェクトにインポートされます。ただし、true に設定すると、API は、改行タグの後にある余分なスペースをすべて削除します。
+### **HTMLLoadOptions.DeleteRedundantSpacesプロパティを追加しました**
+Aspose.Cells for Java 8.8.0 has exposed the HTMLLoadOptions.DeleteRedundantSpaces property in order to keep or delete the extra spaces after the line break tag (<br> Tag) while importing the data from the HTML string or file. The HTMLLoadOptions.DeleteRedundantSpaces property has the default value as false that means, all extra spaces will be preserved and imported to the Workbook object, however, when set to true, the API will delete all the redundant spaces coming after the line break tag.
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[HTML から余分なスペースを削除](/cells/ja/java/delete-redundant-spaces-after-line-break-while-importing/)
+この機能の詳細については、[HTMLから不要なスペースを削除](/cells/ja/java/delete-redundant-spaces-after-line-break-while-importing/)の詳細な記事を参照してください
 
 {{% /alert %}} 
 
-簡単な使用シナリオは次のようになります。
+シンプルな使用シナリオは次のようになります。 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Sample Html containing redundant spaces after <br> tag
 
@@ -125,7 +126,7 @@ String html = "<html>"
 
 //Convert Html to byte array
 
-byte[]byteArray = html.getBytes();
+byte[] byteArray = html.getBytes();
 
 //Set Html load options and keep precision true
 
@@ -154,20 +155,20 @@ worksheet.autoFitColumns();
 workbook.save(dataDir + "output-" + loadOptions.getDeleteRedundantSpaces() + ".xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **Style.QuotePrefix プロパティを追加**
-Aspose.Cells for Java 8.8.0 では、セル値が一重引用符で始まるかどうかを検出するために Style.QuotePrefix プロパティが公開されました。
+### **Style.QuotePrefixプロパティを追加しました**
+Aspose.Cells for Java 8.8.0では、Style.QuotePrefixプロパティが公開され、セルの値がシングルクォート記号で始まるかどうかを検出するためのものです。 
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[Cell 値の先頭にある単一引用符を検出する](/cells/ja/java/find-if-the-cell-value-starts-with-single-quote-mark/)
+この機能の詳細については、[セルの値がシングルクォート記号で始まるかどうかを検出](/cells/ja/java/find-if-the-cell-value-starts-with-single-quote-mark/)の詳細な記事を参照してください
 
 {{% /alert %}} 
 
-簡単な使用シナリオは次のようになります。
+シンプルな使用シナリオは次のようになります。 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of workbook
 
@@ -210,6 +211,6 @@ System.out.println("A1 has a quote prefix: " + s1.getQuotePrefix());
 System.out.println("A2 has a quote prefix: " + s2.getQuotePrefix());
 
 {{< /highlight >}}
-## **廃止された API**
-### **廃止された LoadOptions.ConvertNumericData プロパティ**
-Aspose.Cells 8.8.0 では、LoadOptions.ConvertNumericData プロパティが廃止されました。 HTMLLoadOptions または TxtLoadOptions クラスの対応するプロパティを使用してください。
+## **非推奨API**
+### **LoadOptions.ConvertNumericDataプロパティが非推奨になりました**
+Aspose.Cells 8.8.0では、LoadOptions.ConvertNumericDataプロパティが非推奨となりました。HTMLLoadOptionsやTxtLoadOptionsクラスから対応するプロパティを使用してください。

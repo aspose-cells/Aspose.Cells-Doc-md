@@ -1,16 +1,17 @@
-﻿---
-title: Arbeitsblatt zu Bild – Legen Sie das Pixelformat für das gerenderte Bild fest
+---
+title: Arbeitsblatt zu Bild  Festlegen des Pixelformats für das gerenderte Bild
 type: docs
 weight: 200
 url: /de/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/
 ---
+
 {{% alert color="primary" %}} 
 
-Manchmal möchten Sie das Pixelformat angeben, wenn Sie ein Arbeitsblatt in das Bildformat rendern. Standardmäßig verwendet Aspose.Cells 32 Bit pro Pixel. Mit Aspose.Cells können Sie das Pixelformat (Bittiefe) mithilfe von Optionen für das gerenderte Bild anpassen.
+Manchmal möchten Sie das Pixelformat beim Rendern eines Arbeitsblatts im Bildformat angeben. Standardmäßig verwendet Aspose.Cells 32 Bits pro Pixel. Aspose.Cells ermöglicht es Ihnen, das Pixelformat (Bit-Tiefe) mit Optionen für das gerenderte Bild anzupassen.
 
 {{% /alert %}} 
 
-Bitte sehen Sie sich den Beispielcode unten an, der zeigt, wie das gewünschte Pixelformat beim Rendern von Bildern der Blätter festgelegt wird.
+Bitte beachten Sie den unten stehenden Beispielcode, der zeigt, wie das gewünschte Pixelformat beim Rendern von Blättern festgelegt wird.
 
 
 

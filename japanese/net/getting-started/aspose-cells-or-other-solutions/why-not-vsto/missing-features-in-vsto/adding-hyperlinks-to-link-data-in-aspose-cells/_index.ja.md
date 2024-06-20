@@ -1,41 +1,42 @@
-﻿---
-title: Aspose.Cells のリンク データにハイパーリンクを追加する
+---
+title: Aspose.Cellsでデータをリンクするハイパーリンクの追加
 type: docs
 weight: 10
 url: /ja/net/adding-hyperlinks-to-link-data-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-ハイパーリンクは、2 つのエンティティ間のリンクを作成するために使用されます。特に Web サイトでは、誰もがハイパーリンクの使用に慣れています。
+ハイパーリンクは、2つのエンティティ間のリンクを作成するために使用されます。特にウェブサイトを含め、誰もがハイパーリンクの使用に慣れています。
 
-Aspose.Cells を使用すると、開発者は Microsoft Excel ファイルにさまざまな種類のハイパーリンクを作成できます。このトピックでは、Aspose.Cells でサポートされているハイパーリンクの種類と、それらを Excel ファイルで使用する方法について説明します。
+Aspose.Cellsを使用することで、開発者はMicrosoft Excelファイルでさまざまな種類のハイパーリンクを作成することができます。このトピックではAspose.Cellsでサポートされているハイパーリンクの種類と、Excelファイルでどのように使用できるかについて説明しています。
 
 {{% /alert %}}
 
 ## **ハイパーリンクの追加**
 
-Aspose.Cells を使用して、3 種類のハイパーリンクをセルに追加できます。
+Aspose.Cellsを使用してセルには3種類のハイパーリンクを追加することができます:
 
-- [URL へのリンクの追加](#adding-link-to-a-url).
-- [同じファイル内の別のセルへのリンクを追加する](#adding-a-link-to-a-cell-in-the-same-file).
-- [外部ファイルへのリンクの追加](#adding-a-link-to-an-external-file).
+- [URLへのリンクの追加](#adding-link-to-a-url)。
+- [同じファイル内の別のセルへのリンクの追加](#adding-a-link-to-a-cell-in-the-same-file)。
+- [外部ファイルへのリンクの追加](#adding-a-link-to-an-external-file)。
 
-Aspose.Cells を使用すると、開発者は API または[デザイナー スプレッドシート](/cells/ja/net/what-is-a-designer-spreadsheet/)(ハイパーリンクが手動で作成され、他のスプレッドシートにインポートするために Aspose.Cells が使用されるスプレッドシート)。
+Aspose.Cellsでは、開発者がAPIを使用するか、[デザイナースプレッドシート](/cells/ja/net/what-is-a-designer-spreadsheet/)（ハイパーリンクが手動で作成され、Aspose.Cellsを使用して他のスプレッドシートにインポートされるスプレッドシート）を使用して、Excelファイルにハイパーリンクを追加できます。
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート コレクション**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)これにより、Excel ファイル内の各ワークシートにアクセスできます。ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、さまざまなハイパーリンクを Excel ファイルに追加するためのさまざまなメソッドが用意されています。
+Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)が含まれ、Excelファイル内の各ワークシートにアクセスできます。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、Excelファイルにさまざまなハイパーリンクを追加するための異なるメソッドが提供されています。
 
-### **URL へのリンクの追加**
+### **URLへのリンクの追加**
 
-の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには[**ハイパーリンク**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks)コレクション。 Hyperlinks コレクションの各アイテムは、ハイパーリンクを表します。 Hyperlinks コレクションの Add メソッドを呼び出して、URL にハイパーリンクを追加します。 Add メソッドは、次のパラメーターを取ります。
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには[**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks)コレクションが含まれています。ハイパーリンクコレクション内の各アイテムはハイパーリンクを表します。Addメソッドを呼び出すことで、URLへのハイパーリンクを追加できます。Addメソッドには以下のパラメータが必要です:
 
-- Cell name、ハイパーリンクが追加されるセルの名前。
+- セル名、ハイパーリンクが追加されるセルの名前。
 - 行数、このハイパーリンク範囲の行数。
-- 列数、このハイパーリンク範囲の列数
-- URL、URL アドレス。
+- 列数、このハイパーリンク範囲の列数。
+- URL、URLアドレス。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -59,18 +60,18 @@ workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
 
-### **同じファイルに Cell へのリンクを追加する**
+### **同じファイル内のセルへのリンクの追加**
 
-Hyperlink コレクションの Add メソッドを呼び出すことで、同じ Excel ファイル内のセルにハイパーリンクを追加できます。 Add メソッドは、内部ハイパーリンクと外部ハイパーリンクの両方に対して機能します。オーバーロードされたメソッドの 1 つのバージョンは、次のパラメーターを取ります。
+ハイパーリンクコレクションのAddメソッドを呼び出すことで、同じExcelファイルのセルにハイパーリンクを追加することが可能です。オーバーロードされたメソッドのバージョンの1つは、次のパラメータを取ります:
 
-- Cell name,ハイパーリンクが追加されるセルの名前。
+- セル名、ハイパーリンクが追加されるセルの名前。
 - 行数、このハイパーリンク範囲の行数。
-- 列数、このハイパーリンク範囲内の列数。
-- URL、ターゲット セルのアドレス。
+- 列数、このハイパーリンク範囲の列数。
+- URL、対象セルのアドレス。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -94,16 +95,16 @@ workbook.Save("C:\\book1.xls");
 
 ### **外部ファイルへのリンクの追加**
 
-Hyperlinks コレクションの Add メソッドを呼び出すことにより、外部の Excel ファイルにハイパーリンクを追加することができます。 Add メソッドは、次のパラメーターを取ります。
+外部Excelファイルにハイパーリンクを追加することが可能で、HyperlinksコレクションのAddメソッドを呼び出します。Addメソッドには以下のパラメータが必要です:
 
-- Cell name、ハイパーリンクが追加されるセルの名前。
+- セル名、ハイパーリンクが追加されるセルの名前。
 - 行数、このハイパーリンク範囲の行数。
-- 列数、このハイパーリンク範囲内の列数。
-- URL、ターゲットのアドレス、外部 Excel ファイル。
+- 列数、このハイパーリンク範囲の列数。
+ - URL、対象のアドレス、外部のExcelファイル。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -129,7 +130,7 @@ workbook.Save("C:\\book2.xls");
 
 {{< /highlight >}}
 
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Adding%20Hyperlinks%20to%20Link%20Data)
 

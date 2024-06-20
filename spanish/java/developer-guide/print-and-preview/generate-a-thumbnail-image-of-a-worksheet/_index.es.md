@@ -1,18 +1,19 @@
-﻿---
-title: Generar una imagen en miniatura de una hoja de trabajo
+---
+title: Generar una imagen en miniatura de una hoja de cálculo
 type: docs
 weight: 30
 url: /es/java/generate-a-thumbnail-image-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Puede ser útil generar miniaturas a partir de hojas de trabajo. Una miniatura es una imagen pequeña que se puede pegar en un documento de Word o en una presentación PowerPoint para brindar una vista previa de lo que hay en la hoja de trabajo. Se puede agregar a una página web con un enlace para descargar el documento original y tiene muchos otros usos.
+Puede ser útil generar miniaturas de hojas de cálculo. Una miniatura es una imagen pequeña que se puede pegar en un documento de Word o en una presentación de PowerPoint para dar una vista previa de lo que hay en la hoja de cálculo. Se puede agregar a una página web con un enlace para descargar el documento original y tiene una serie de otros usos.
 
 {{% /alert %}} 
 
-Aspose.Cells for Java le permite exportar hojas de trabajo a archivos de imagen, por lo que hacer una miniatura es fácil.
+Aspose.Cells for Java le permite generar archivos de imagen de hojas de cálculo por lo que hacer una miniatura es fácil.
 
-El siguiente código de ejemplo le muestra cómo hacerlo, paso a paso.
+El código de muestra a continuación le muestra cómo, paso a paso.
 
 
 

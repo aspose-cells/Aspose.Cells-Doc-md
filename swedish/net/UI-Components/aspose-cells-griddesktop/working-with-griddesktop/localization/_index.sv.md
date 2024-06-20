@@ -2,20 +2,22 @@
 title: anpassad lokalisering
 type: docs
 weight: 40
-url: /sv/net/griddesktop-localization/
-keywords: custom,localization,translation,globalization
+url: /sv/net/aspose-cells-griddesktop/griddesktop-localization/
+keywords: GridDesktop,anpassad,lokalisering,översättning,globalisering
+description: Den här artikeln introducerar hur man anpassar lokaliseringen i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Om vi behöver göra lokalisering för alla menyer/meddelandetips etc. i GridDesktop, kan vi definiera resursfilen och använda GridDesktop.SetCustomResourceManager för att ladda denna resurs.
+Om vi behöver göra lokalisering för alla menyer/meddelandetips osv. i GridDesktop kan vi definiera en resursfil och använda GridDesktop.SetCustomResourceManager för att ladda denna resurs.
 
 {{% /alert %}} 
-##  **exempel**
+## **exempel**
 
-lägg först till en ny resursfil: customtest.resx
+börja med att lägga till en ny resursfil: customtest.resx
 
 
-![anpassad resurs](managing-griddesktops-custom-res.png)
+![custom-resource](managing-griddesktops-custom-res.png)
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-customtest.Designer.cs" >}}
 
@@ -27,7 +29,7 @@ lägg först till en ny resursfil: customtest.resx
    gridDesktop1.SetCustomResourceManager(rm);
 ```
 
-Efter att ha kört ovanstående kod visar menyalternativen:
+Efter att ovanstående kod har exekverats, kommer menyobjekten att visas:
 
-![visa menyn](managing-griddesktops-show-custom.png)
- 
+![show menu](managing-griddesktops-show-custom.png)
+

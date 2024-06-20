@@ -1,16 +1,17 @@
-﻿---
-title: Trier les données en xlsx4j
+---
+title: Trier les données dans xlsx4j
 type: docs
 weight: 60
 url: /fr/java/sort-data-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Trier les données**
-Pour trier les données dans une feuille de calcul à l'aide de Aspose.Cells, appelez simplement la méthode DataSorter.sorter() après avoir défini quelques propriétés faciles à définir de la zone de cellule.
-Le code Java est mentionné ci-dessous :
+Pour trier les données dans une feuille de calcul en utilisant Aspose.Cells, il suffit d'appeler la méthode DataSorter.sorter() après avoir défini quelques propriétés facilement modifiables de la zone de cellule.
+Le code Java est mentionné ci-dessous :
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -73,13 +74,13 @@ sorter.sort(cells, ca);
 workbook.save(dataDir + "AsposeSortedData_Out.xls");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/sortdata/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Trier les données](/java/sort-data) ou alors[Tri des données](/cells/fr/java/data-sorting).
+Pour plus de détails, visitez [Trier les données](/java/sort-data) ou [Tri de données](/cells/fr/java/data-sorting).
 
 {{% /alert %}}

@@ -1,19 +1,20 @@
-﻿---
-title: قم بإنشاء جداول محورية باستخدام Apache POI و Aspose.Cells
+---
+title: إنشاء جداول البيانات المحورية باستخدام Apache POI و Aspose.Cells
 type: docs
 weight: 40
 url: /ar/java/create-pivot-tables-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - تكوين جدول محوري**
+
+## **Aspose.Cells - إنشاء جدول محوري**
 لإنشاء جدول محوري باستخدام Aspose.Cells:
 
-1. أضف بعض البيانات إلى خلايا ورقة العمل باستخدام أسلوب setValue للكائن Cell. يمكنك أيضًا استخدام ملف قالب مملوء بالفعل بالبيانات. سيتم استخدام البيانات كمصدر بيانات للجدول المحوري.
-1. أضف جدولاً محوريًا إلى ورقة العمل عن طريق استدعاء طريقة إضافة PivotTableCollection (مغلفة في كائن {{Worksheet }}).
-1. قم بالوصول إلى كائن PivotTable الجديد من مجموعة PivotTableCollection بتمرير الفهرس الخاص به.
+1. أضف بعض البيانات إلى خلايا ورقة العمل باستخدام طريقة setValue في كائن Cell. يمكنك أيضًا استخدام ملف قالب مملوء بالفعل بالبيانات. سيتم استخدام البيانات كمصدر بيانات الجدول البياني المحوري.
+1. أضف جدول بيانات محوري إلى ورقة العمل عن طريق استدعاء طريقة add في PivotTableCollection (المغلفة في كائن{{Worksheet}}).
+1. قم بالوصول إلى كائن PivotTable الجديد من مجموعة PivotTableCollection من خلال تمرير فهرسته.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -152,10 +153,10 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - إنشاء جداول محورية**
+## **Apache POI SS (HSSF + XSSF) - إنشاء جداول بيانات محورية**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  XSSFWorkbook wb = new XSSFWorkbook();
 
@@ -186,17 +187,17 @@ pivotTable.addColumnLabel(DataConsolidateFunction.AVERAGE, 2);
 pivotTable.addReportFilter(3);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تنزيل أمثلة تشغيل لـ**قم بإنشاء جداول محورية باستخدام Apache POI و Aspose.Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل أمثلة تشغيل لـ **إنشاء جداول البيانات المحورية باستخدام Apache POI و Aspose.Cells** من أي من مواقع ترميز الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-## **تحميل شفرة المصدر**
- تنزيل الكود المصدري لـ**قم بإنشاء جداول محورية باستخدام Apache POI و Aspose.Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
+## **تحميل مصدر الكود**
+تحميل مصدر الكود لـ **إنشاء جداول محورية باستخدام Apache POI و Aspose.Cells** من أي من مواقع الترميز الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إنشاء جداول محورية ومخططات محورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/).
+لمزيد من التفاصيل، قم بزيارة [إنشاء جداول محورية ورسوم بيانية محورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}

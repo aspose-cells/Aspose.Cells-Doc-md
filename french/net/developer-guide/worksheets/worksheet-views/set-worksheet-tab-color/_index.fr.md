@@ -1,23 +1,24 @@
 ---
-title: Définir la couleur de l'onglet de la feuille de calcul
+title: Définir la couleur de l onglet de la feuille de calcul
 type: docs
 weight: 120
 url: /fr/net/set-worksheet-tab-color/
-description: Cet article illustre un exemple de code qui définit la couleur de l'onglet de la feuille de calcul Excel par programme à l'aide de la bibliothèque C# API ou .NET.
-keywords: set excel tab color c#, code to set excel tab color c#
+description: Cet article présente un code d exemple qui définit la couleur programmation de l onglet de feuille de calcul Excel en utilisant l API C# ou la bibliothèque .NET.
+keywords: définir la couleur de l onglet excel c#, code pour définir la couleur de l onglet excel c#
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells vous permet de changer la couleur des onglets de feuille de calcul individuels pour les faire ressortir du reste. Par exemple, vous pouvez rendre les dépenses rouges, les ventes vertes, les actifs bleus, etc.
+Aspose.Cells vous permet de changer la couleur des onglets de feuille de calcul individuels pour les rendre plus visibles par rapport au reste. Par exemple, vous pouvez mettre Dépenses en rouge, Ventes en vert, Actifs en bleu, etc.
 
 {{% /alert %}} 
-##  **Définition de la couleur de l'onglet de la feuille de calcul avec Microsoft Excel**
-1. Cliquez avec le bouton droit sur un onglet dans la feuille à onglets au bas de la feuille de calcul actuelle.
-1. Sélectionnez *Couleur d'onglet**.
+## **Définition de la couleur de l'onglet de feuille de calcul avec Microsoft Excel**
+1. Cliquez avec le bouton droit sur un onglet dans la feuille d'onglets en bas de la feuille de calcul actuelle.
+1. Sélectionnez **Couleur d'onglet**.
 1. Sélectionnez une couleur dans la palette.
-1. Cliquez sur OK**.
-##  **Définition de la couleur de l'onglet de la feuille de calcul avec Aspose.Cells**
-L'exemple de code ci-dessous montre comment définir la couleur de l'onglet avec Aspose.Cells.
+1. Cliquez sur **OK**.
+## **Définir la couleur de l'onglet de la feuille de calcul avec Aspose.Cells**
+Le code d'exemple ci-dessous montre comment définir la couleur de l'onglet avec Aspose.Cells.
 
 
 

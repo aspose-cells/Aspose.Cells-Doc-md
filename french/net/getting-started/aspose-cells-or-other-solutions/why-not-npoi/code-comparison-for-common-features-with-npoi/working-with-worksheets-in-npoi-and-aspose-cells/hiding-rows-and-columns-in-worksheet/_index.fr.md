@@ -1,13 +1,14 @@
-﻿---
-title: Masquer des lignes et des colonnes dans la feuille de calcul
+---
+title: Masquer les lignes et les colonnes dans la feuille de calcul
 type: docs
 weight: 60
 url: /fr/net/hiding-rows-and-columns-in-worksheet/
 ---
+
 ## **Aspose.Cells - Masquer les lignes et les colonnes dans la feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook();
 
@@ -34,10 +35,10 @@ worksheet.Cells.HideColumn(0);
 workbook.Save("Output-HideRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Masquer des lignes et des colonnes dans une feuille de calcul**
+## **NPOI - HSSF XSSF - Masquer les lignes et les colonnes dans la feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -63,13 +64,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Masquer des lignes et des colonnes dans la feuille de calcul** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Masquer les lignes et les colonnes dans la feuille de calcul** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Hiding.Rows.and.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Travailler avec des feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

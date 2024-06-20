@@ -1,23 +1,24 @@
-﻿---
-title: Kopiera Sparkline genom att ange dataintervall och plats för Sparkline Group
+---
+title: Kopiera sparkline genom att ange dataområde och plats för sparklinegrupp
 type: docs
 weight: 300
 url: /sv/net/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel låter dig kopiera en sparkline genom att ange dataintervallet och platsen för en sparkline-grupp. Aspose.Cells stöder den här funktionen.
+Microsoft Excel tillåter dig att kopiera en sparkline genom att ange dataområde och plats för en sparklinegrupp. Aspose.Cells stöder denna funktion.
 
 {{% /alert %}}
 
-Så här kopierar du en sparkline till andra celler i Microsoft Excel:
+För att kopiera en sparkline till andra celler i Microsoft Excel:
 
-1. Välj cellen som innehåller gnistan.
-1.  Välj**Redigera data** från**Sparkline** avsnitt av**Design** flik.
-1.  Välj**Redigera gruppplats och data**.
-1. Ange dataintervall och plats.
-1.  Klick**OK**.
+1. Välj cellen som innehåller sparklinen.
+2. Välj **Redigera data** från **Sparkline**-avsnittet på fliken **Design**.
+3. Välj **Redigera gruppplats och data**.
+4. Ange dataområdet och platsen.
+1. Klicka på **OK**.
 
-Aspose.Cells tillhandahåller metoden SparklineCollection.Add(dataRange, row, column) för att ange en sparkline-grupps dataområde och plats. Följande exempelkod laddar källfilen för Excel som visas i skärmdumpen ovan, kommer sedan åt den första sparklinegruppen och lägger till dataområden och platser i sparklinegruppen. Slutligen skriver den utdata Excel-filen på disken som också visas i skärmdumpen ovan.
+Aspose.Cells tillhandahåller metoden SparklineCollection.Add(dataRange, row, column) för att ange ett sparkline grupps dataområde och plats. Det följande exempelkoden laddar den ursprungliga Excel-filen som visas ovan, sedan får åtkomst till den första sparklinegruppen och lägger till dataområden och platser i sparklinegruppen. Slutligen skriver den utdatafilen till disk som också visas i skärmdumpen ovan.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopySparkline-1.cs" >}}

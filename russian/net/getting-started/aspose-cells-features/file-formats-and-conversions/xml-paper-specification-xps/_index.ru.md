@@ -1,14 +1,15 @@
-﻿---
-title: Спецификация документа XML — XPS
+---
+title: XML Paper Specification - XPS
 type: docs
 weight: 30
 url: /ru/net/xml-paper-specification-xps/
 ---
+
 ## **О XPS**
 
-|![дело:изображение_альтернативный_текст](xml-paper-specification-xps_1.png)|[XML-бумажная спецификация](https://en.wikipedia.org/wiki/XML_Paper_Specification) — это язык описания страниц и фиксированный формат документа, изначально разработанный Microsoft. Как и PDF, XPS — это формат документа с фиксированным макетом, предназначенный для сохранения точности документа и обеспечения независимого от устройства внешнего вида документа.|
-|:- |:- |
+|![todo:image_alt_text](xml-paper-specification-xps_1.png)|The [XML Paper Specification](https://en.wikipedia.org/wiki/XML_Paper_Specification) is a page description language and a fixed-document format originally developed by Microsoft. Like PDF, XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance.|
+| :- | :- |
 ## **XPS в Aspose.Cells**
-Любой документ, загруженный в Aspose.Cells, может быть преобразован в XPS. Aspose.Cells использует тот же высокоточный макет страницы и механизм рендеринга для вывода во всех поддерживаемых форматах с фиксированным макетом, например PDF, XPS и т. д.
+Любой документ, загруженный в Aspose.Cells, может быть преобразован в XPS. Aspose.Cells использует тот же движок макетирования и рендеринга высокой точности для создания вывода во всех своих поддерживаемых форматах с фиксированным макетом, например PDF, XPS и т. д.
 
-Стоит отметить, что Aspose.Cells генерирует XPS напрямую (включая поднастройки шрифтов TrueType), не полагаясь на классы Presentation Foundation Windows, найденные в .NET Framework 3.5. на совершенно разных платформах.
+Стоит отметить, что Aspose.Cells генерирует XPS напрямую (включая подмножество шрифтов TrueType), без использования классов Windows Presentation Foundation, которые можно найти в .NET Framework 3.5. Это позволяет Aspose.Cells создавать XPS на машинах, где запущены .NET более ранних версий или на совершенно других платформах.

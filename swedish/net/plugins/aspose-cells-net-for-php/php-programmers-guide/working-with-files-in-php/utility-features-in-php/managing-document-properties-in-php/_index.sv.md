@@ -1,15 +1,16 @@
-﻿---
+---
 title: Hantera dokumentegenskaper i PHP
 type: docs
 weight: 30
 url: /sv/net/managing-document-properties-in-php/
 ---
+
 ## **Aspose.Cells - Hantera dokumentegenskaper**
 Hantera dokumentegenskaper för Microsoft Excel-fil
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -78,7 +79,7 @@ Hantera dokumentegenskaper för Microsoft Excel-fil
         $ptr->Call($workbook,"Save",array($dataDir . "/Test_Workbook_RemovedProperty.xls"));
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Hantera dokumentegenskaper (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Hantera dokumentegenskaper (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

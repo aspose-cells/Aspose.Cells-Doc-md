@@ -1,13 +1,14 @@
-﻿---
-title: ワークシートをコピー
+---
+title: ワークシートのコピー
 type: docs
 weight: 40
 url: /ja/net/copy-worksheet/
 ---
+
 ## **Aspose.Cells - ワークシートのコピー**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook by excel file path
 
@@ -28,7 +29,7 @@ wb.Save("../../data/workbook.xlsx");
 ## **NPOI - HSSF XSSF - ワークシートのコピー**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -46,13 +47,13 @@ sw.Close();
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートをコピー**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**ワークシートのコピー**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Copy.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+詳細については、[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/)ページを参照してください。
 
 {{% /alert %}}

@@ -1,13 +1,14 @@
-﻿---
-title: Trabajar con encabezados y pies de página
+---
+title: Trabajando con Encabezados y Pies de Página
 type: docs
 weight: 110
 url: /es/net/working-with-headers-and-footers/
 ---
-## **Aspose.Cells - Trabajar con encabezados y pies de página**
+
+## **Aspose.Cells - Trabajando con Encabezados y Pies de Página**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -49,10 +50,10 @@ workbook.Save("../../data/headerfooter.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Trabajar con encabezados y pies de página**
+## **NPOI - HSSF XSSF - Trabajando con Encabezados y Pies de Página**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -73,13 +74,13 @@ wb.Write(sw);
 sw.Close(); 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Trabajar con encabezados y pies de página** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Trabajando con Encabezados y Pies de Página** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Trabajar con hojas de trabajo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Para más detalles, visita [Trabajando con Hojas de Cálculo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

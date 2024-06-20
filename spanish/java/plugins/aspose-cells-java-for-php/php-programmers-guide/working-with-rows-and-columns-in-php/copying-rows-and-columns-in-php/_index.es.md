@@ -1,22 +1,23 @@
-﻿---
-title: Copiando Filas y Columnas en PHP
+---
+title: Copia de filas y columnas en PHP
 type: docs
 weight: 30
 url: /es/java/copying-rows-and-columns-in-php/
 ---
-## **Aspose.Cells - Copia de filas y columnas**
-### **Copiar filas**
-Aspose.Cells proporciona el método copyRow de la clase Cells. Este método copia todos los tipos de datos, incluidas fórmulas, valores, comentarios, formatos de celda, celdas ocultas, imágenes y otros objetos de dibujo de la fila de origen a la fila de destino.
+
+## **Aspose.Cells - Copiando Filas y Columnas**
+### **Copiando Filas**
+Aspose.Cells proporciona el método copyRow de la clase Cells. Este método copia todo tipo de datos, incluidas fórmulas, valores, comentarios, formatos de celda, celdas ocultas, imágenes y otros objetos de dibujo de la fila de origen a la fila de destino.
 
 El método copyRow toma los siguientes parámetros:
 
-- el objeto fuente Cells,
-- el índice de la fila de origen, y
-- el índice de la fila de destino.
+- el objeto Cells de origen,
+- el índice de fila de origen, y
+- el índice de fila de destino.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_rows($dataDir)
 
@@ -45,18 +46,18 @@ El método copyRow toma los siguientes parámetros:
 }
 
 {{< /highlight >}}
-### **Copiando columnas**
-Aspose.Cells proporciona el método copyColumn de la clase Cells, este método copia todo tipo de datos, incluidas fórmulas, con referencias actualizadas, y valores, comentarios, formatos de celda, celdas ocultas, imágenes y otros objetos de dibujo de la columna de origen a la columna de destino.
+### **Copiar columnas**
+Aspose.Cells proporciona el método copyColumn de la clase Cells, este método copia todo tipo de datos, incluyendo fórmulas - con referencias actualizadas - y valores, comentarios, formatos de celda, celdas ocultas, imágenes y otros objetos de dibujo, desde la columna de origen a la columna de destino.
 
-El método copyColumn toma los siguientes parámetros:
+El método copyColumn toma los siguientes parámetros:
 
-- el objeto fuente Cells,
-- índice de la columna fuente, y
-- el índice de la columna de destino.
+- el objeto Cells de origen,
+- índice de columna de origen, y
+- el índice de columna de destino.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_columns($dataDir)
 
@@ -124,7 +125,7 @@ El método copyColumn toma los siguientes parámetros:
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Copiar filas y columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Copiar Filas y Columnas (Aspose.Cells)** desde cualquiera de los siguientes sitios de codificación social:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

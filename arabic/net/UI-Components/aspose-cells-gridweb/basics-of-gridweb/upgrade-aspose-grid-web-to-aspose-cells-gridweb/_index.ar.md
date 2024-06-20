@@ -1,40 +1,43 @@
-﻿---
-title: قم بالترقية Aspose.Grid.Web إلى Aspose.Cells.GridWeb
+---
+title: ترقية Aspose.Grid.Web إلى Aspose.Cells.GridWeb
 type: docs
 weight: 30
-url: /ar/net/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
+url: /ar/net/aspose-cells-gridweb/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
+keywords: GridWeb 
+description: يُقدم هذا المقال كيفية الترقية في GridWeb.
 ---
+
 {{% alert color="primary" %}}
 
-لتسهيل الترقية ، نحتفظ بمستند يصف المعلومات الهامة للمستخدمين الحاليين ، وخاصة أولئك الذين استخدموا Aspose.Grid.Web الأقدم ويحتاجون إلى الترقية إلى Aspose.Cells.GridWeb المدمج.
+لجعل عملية الترقية أسهل، نحن نحتفظ بوثيقة تصف المعلومات الحرجة للمستخدمين الحاليين، خاصة الذين استخدموا الإصدار السابق لـ Aspose.Grid.Web ويحتاجون للترقية إلى Aspose.Cells.GridWeb.
 
- تهدف هذه إلى أن تكون ملاحظات موجزة ، ويجب أن تكون قادرًا على العثور على مزيد من المعلومات من خلال الاطلاع على أقسام[دليل المطور](/cells/ar/net/developer-guide/).
+من المفترض أن تكون هذه ملاحظات موجزة، ويجب أن تتمكن من العثور على مزيد من المعلومات من خلال النظر إلى أقسام ال[دليل المطور](/cells/ar/net/aspose-cells-gridweb/developer-guide/).
 
 {{% /alert %}}
 
 ## **الترقية إلى Aspose.Cells.GridWeb**
 
- Aspose.Grid. قد يواجه مستخدمو الويب مشكلات باستخدام Aspose.Cells.GridWeb الجديد عند الترقية إليه. وتجدر الإشارة إلى أنه تمت إعادة تسمية Aspose.Grid.Web وأصبح جزءًا من Aspose.Cells لذلك لن نواصل أو نجري تعديلات على الإصدارات الأقدم من عنصر التحكم.
+قد يواجه مستخدمو Aspose.Grid.Web مشاكل باستخدام الإصدار الجديد من Aspose.Cells.GridWeb عند الترقية إليه. يجدر بذكر أن Aspose.Grid.Web قد تمت إعادة تسميته وأصبح جزءًا من Aspose.Cells لذلك لن نواصل أو نجري تعديلات على الإصدارات القديمة للتحكم. 
 
-ليس من الصعب الترقية إلى أحدث مكون Aspose.Cells.GridWeb.
+ليس من الصعب الترقية إلى مكون Aspose.Cells.GridWeb الأحدث.
 
 {{% alert color="primary" %}}
 
-هناك بعض التغييرات في API حيث تظل الفئات التي تحتوي على الأعضاء والتركيبات والتعدادات وما إلى ذلك كما هي. تم إجراء معظم التغييرات على مساحات أسماء عناصر التحكم والعلامات أو السمات الأخرى.
+هناك بعض التغييرات في واجهة البرمجة التطبيقية حيث تظل الفئات مع الأعضاء والهياكل والتعدادات إلخ تبقى كما هي. تم إجراء معظم التغييرات على مساحات أسماء التحكم وعلامات أو سمات أخرى.
 
 {{% /alert %}}
 
-فيما يلي قائمة مساحات الأسماء والسمات / العلامات الأخرى التي تم تغييرها الآن:
+التالي هو قائمة بمساحات الأسماء والسمات/العلامات الأخرى التي تغيرت الآن:
 
-1. تمت إعادة تسمية مساحة اسم الويب Aspose.Grid.Web إلى Aspose.Cells.GridWeb.
-1. تم تغيير مساحة الاسم Aspose.Grid.Web.Data تسمية Aspose.Cells.GridWeb.Data.
-1. تمت إعادة تسمية مساحة الاسم Aspose.Grid.Web.Design باسم Aspose.Cells.GridWeb.Design.
-1. تمت إعادة تسمية مساحة الاسم Aspose.Grid.Formula إلى Aspose.Cells.GridFormula ، ومع الإصدارات الأخيرة من المكون ، تمت إزالة مساحة الاسم المذكورة بالكامل من API العام.
-1. agw العلامة: تم تغيير GridWeb إلى acw: GridWeb في نموذج aspx.
-1. أقدم Aspose.Grid.Web مسار العميل ، agw_العميل ، قد تغير إلى ACW_العميل Aspose.Cells.GridWeb.
-1.  إعداد مسار العميل في ملف web.config ، على سبيل المثال:
+1. تمت إعادة تسمية مساحة أسماء Aspose.Grid.Web إلى Aspose.Cells.GridWeb.
+1. تمت إعادة تسمية مساحة أسماء Aspose.Grid.Web.Data إلى Aspose.Cells.GridWeb.Data.
+1. تمت إعادة تسمية مساحة أسماء Aspose.Grid.Web.Design إلى Aspose.Cells.GridWeb.Design.
+1. تمت إعادة تسمية مساحة أسماء Aspose.Grid.Formula إلى Aspose.Cells.GridFormula، ومع الإصدارات الأخيرة للمكون، تمت إزالة المساحة المذكورة تمامًا من واجهة برمجة التطبيق العامة.
+1. تم تغيير العلامة agw:GridWeb إلى acw:GridWeb في نموذج aspx.
+1. تغيرت المسارات القديمة لعميل Aspose.Grid.Web، agw_client، إلى acw_client لـ Aspose.Cells.GridWeb.
+1. تم تغيير إعداد المسار لعميل في ملف web.config، على سبيل المثال: 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <appSettings> 
 
@@ -48,9 +51,9 @@ url: /ar/net/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
 
 {{< /highlight >}}
 
- قد تغير إلى
+تم التغيير إلى 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <appSettings>
 

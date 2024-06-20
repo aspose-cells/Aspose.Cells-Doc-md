@@ -1,14 +1,15 @@
-﻿---
-title: Dinamik Grafikler Oluşturun
+---
+title: Dinamik Grafikler Oluşturma
 type: docs
 weight: 200
 url: /tr/java/create-dynamic-charts/
 ---
+
 {{% alert color="primary" %}}
 
-Dinamik (veya etkileşimli) grafikler, verilerin kapsamını değiştirdiğinizde değişme yeteneğine sahiptir. Başka bir deyişle, dinamik grafikler, veri kaynağı değiştiğinde değişiklikleri otomatik olarak yansıtabilir. Veri kaynağındaki değişikliği tetiklemek için Excel Tablolarının filtreleme seçeneği veya ComboBox veya Dropdown list gibi bir kontrol kullanılabilir.
+Dinamik (veya etkileşimli) grafikler, veri kapsamını değiştirdiğinizde değişme yeteneğine sahiptir. Başka bir deyişle, dinamik grafikler, veri kaynağı değiştiğinde otomatik olarak değişiklikleri yansıtabilir. Veri kaynağında değişikliği tetiklemek için Excel Tablolarının filtreleme seçeneğini kullanabilir veya ComboBox veya Dropdown listesi gibi bir denetim kullanabilirsiniz.
 
-Bu makale, yukarıda belirtilen yaklaşımların her ikisini de kullanarak dinamik grafikler oluşturmak için Aspose.Cells for Java API'lerin kullanımını göstermektedir.
+Bu makale, yukarıda bahsedilen her iki yaklaşımı da kullanarak dinamik grafikler oluşturmak için Aspose.Cells for Java API'larının kullanımını göstermektedir.
 
 {{% /alert %}}
 
@@ -16,36 +17,36 @@ Bu makale, yukarıda belirtilen yaklaşımların her ikisini de kullanarak dinam
 
 {{% alert color="primary" %}}
 
- Excel tabloları Aspose.Cells' perspektifinde ListObjects olarak adlandırılır, bu nedenle netlik için "Tablo" yerine "ListObject" terimini kullanacağız. Lütfen nasıl yapılacağını ayrıntılı olarak okuyun[ListObjects oluştur](/cells/tr/java/creating-a-list-object/) Aspose.Cells for .NET API ile.
+Aspose.Cells'in bakış açısında Excel tabloları ListObjects olarak adlandırılır, bu nedenle netlik için "Tablo" terimi yerine "ListObject" terimini kullanacağız. Aspose.Cells for .NET API'si ile [ListObject oluşturmayı](/cells/tr/java/creating-a-list-object/) detaylı olarak okuyun.
 
 {{% /alert %}}
 
-ListObjects, kullanıcı etkileşimi üzerine verileri sıralamak ve filtrelemek için yerleşik işlevsellik sağlar. Hem sıralama hem de filtreleme seçenekleri, ListObject'in başlık satırına otomatik olarak eklenen açılır listeler aracılığıyla sağlanır. Bu özellikler (sıralama ve filtreleme) nedeniyle, ListObject, dinamik bir grafiğin veri kaynağı olarak hizmet etmek için mükemmel bir aday gibi görünüyor çünkü sıralama veya filtreleme değiştirildiğinde, grafikteki verilerin temsili mevcut durumu yansıtacak şekilde değiştirilecektir. ListObject durumu.
+ListObjects, kullanıcı etkileşimine bağlı olarak verileri sıralamak ve filtrelemek için yerleşik işlevselliği sağlar. Hem sıralama hem de filtreleme seçenekleri, otomatik olarak ListObject'in üst satırına eklenen açılır listeler aracılığıyla sağlanmaktadır. Bu özelliklere (sıralama ve filtreleme) sahip olmaları nedeniyle, ListObject, veri görselleştirmenin mevcut durumunu yansıtmak için verinin temsili durumunun değişmesini sağlamak için dinamik bir grafik için veri kaynağı olarak hizmet etmek için mükemmel aday gibi görünmektedir.
 
-Gösterimin anlaşılmasını kolaylaştırmak için, Çalışma Kitabını sıfırdan oluşturacağız ve aşağıda özetlendiği gibi adım adım ilerleyeceğiz.
+Demonstrasyonu anlaşılır tutmak için Workbook'ı sıfırdan oluşturacağız ve aşağıda belirtilen adımları adım adım ilerleteceğiz.
 
-1. Boş bir Çalışma Kitabı oluşturun.
-1. Çalışma Kitabındaki ilk Çalışma Sayfasının Cells numarasına erişin.
+1. Boş bir Workbook oluşturun.
+1. Workbook'daki ilk Çalışsayfadaki Hücrelere erişin.
 1. Hücrelere bazı veriler ekleyin.
-1. Girilen verilere göre ListObject oluşturun.
-1. ListObject'in veri aralığına göre Grafik oluşturun.
+1. Eklenen verilere dayalı olarak ListObject oluşturun.
+1. ListObject veri aralığına dayalı olarak Grafik oluşturun.
 1. Sonucu diske kaydedin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingExcelTables-UsingExcelTables.java" >}}
 
-## **Dinamik Formülleri Kullanma**
+## **Dinamik Formüller Kullanma**
 
-ListObjects'i dinamik grafiğe veri kaynağı olarak kullanmak istemiyorsanız, diğer seçenek, dinamik bir veri aralığı oluşturmak için Excel işlevlerini (veya formüllerini) ve değişikliği tetiklemek için bir kontrolü (ComboBox gibi) kullanmaktır. verilerde. Bu senaryoda, ComboBox seçimine dayalı olarak uygun değerleri getirmek için DÜŞEYARA işlevini kullanacağız. Seçim değiştirildiğinde DÜŞEYARA işlevi hücre değerini yeniler. Bir hücre aralığı DÜŞEYARA işlevini kullanıyorsa, kullanıcı etkileşimi üzerine tüm aralık yenilenebilir, bu nedenle dinamik grafiğin kaynağı olarak kullanılabilir.
+Eğer ListObjects'u bir veri kaynağı olarak kullanmak istemiyorsanız, diğer seçenek Excel fonksiyonlarını (veya formülleri) kullanarak dinamik bir veri aralığı oluşturmak ve bir kontrol (ComboBox gibi) kullanarak veride değişiklik yapmak olacaktır. Bu senaryoda, ComboBox'ın seçimine bağlı olarak uygun değerleri getirmek için VLOOKUP fonksiyonunu kullanacağız. Seçim değiştiğinde, VLOOKUP fonksiyonu hücre değerini güncelleyecektir. Eğer bir hücre aralığı VLOOKUP fonksiyonunu kullanıyorsa, tüm aralık kullanıcı etkileşimiyle güncellenebilir, dolayısıyla dinamik grafik için bir veri kaynağı olarak kullanılabilir.
 
-Gösterimin anlaşılmasını kolaylaştırmak için, Çalışma Kitabını sıfırdan oluşturacağız ve aşağıda özetlendiği gibi adım adım ilerleyeceğiz.
+Demonstrasyonu anlaşılır tutmak için Workbook'ı sıfırdan oluşturacağız ve aşağıda belirtilen adımları adım adım ilerleteceğiz.
 
-1. Boş bir Çalışma Kitabı oluşturun.
-1. Çalışma Kitabındaki ilk Çalışma Sayfasının Cells numarasına erişin.
-1. Bir Adlandırılmış Aralık oluşturarak hücrelere bazı veriler ekleyin. Bu veriler, dinamik grafiğe seri olarak hizmet edecektir.
-1. Önceki adımda oluşturulan Adlandırılmış Aralığa göre ComboBox oluşturun.
-1. DÜŞEYARA işlevine kaynak görevi görecek hücrelere biraz daha veri ekleyin.
-1. DÜŞEYARA işlevini (uygun parametrelerle) bir hücre aralığına ekleyin. Bu aralık, dinamik grafiğin kaynağı olarak hizmet edecektir.
-1. Önceki adımda oluşturulan aralığa göre Grafik oluşturun.
+1. Boş bir Workbook oluşturun.
+1. Workbook'daki ilk Çalışsayfadaki Hücrelere erişin.
+1. Adlandırılmış Bir Aralık oluşturarak hücrelere bazı veriler ekleyin. Bu veriler dinamik grafik için ser olarak hizmet edecektir.
+1. Önceki adımda oluşturulan Adlandırılmış Aralığa dayalı ComboBox oluşturun.
+1. VLOOKUP fonksiyonuna dayanacak şekilde hücrelere daha fazla veri ekleyin. Bu veri, VLOOKUP fonksiyonuna kaynak olarak hizmet edecektir.
+1. VLOOKUP fonksiyonunu (uygun parametrelerle) bir hücre aralığına ekleyin. Bu aralık, dinamik grafik için kaynak olarak hizmet edecektir.
+1. Önceki adımda oluşturulan aralığa dayalı olarak Grafik oluşturun.
 1. Sonucu diske kaydedin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingDynamicFormulas-UsingDynamicFormulas.java" >}}

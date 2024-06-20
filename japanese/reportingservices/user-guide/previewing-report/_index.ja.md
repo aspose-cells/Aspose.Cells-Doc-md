@@ -1,34 +1,35 @@
-﻿---
+---
 title: レポートのプレビュー
 type: docs
 weight: 130
 url: /ja/reportingservices/previewing-report/
 ---
+
 {{% alert color="primary" %}} 
 
-レポートをプレビューすると、目的のレポートであることを確認するのに役立ちます。
+レポートをプレビューすることで、望んでいるレポートであることを確認できます。
 
 {{% /alert %}} 
 
-レポートをプレビューするには:
+レポートをプレビューするには：
 
-1. クリック**意見** 
+1. **表示** をクリックします。 
 
-![todo:画像_代替_文章](previewing-report_1.png)
+![todo:image_alt_text](previewing-report_1.png)
 
-Aspose.Cells.Report.Designer ツールバー。
+Aspose.Cells.Report.Designer ツールバーで。
 
-1. レポート サーバーの URL を入力し、**リフレッシュ**ボタン。
+1. Report Server の URL を入力し、**更新** ボタンをクリックします。
 
-![todo:画像_代替_文章](previewing-report_2.png)
-
-
+![todo:image_alt_text](previewing-report_2.png)
 
 
-1. レポートを選択し、**プレビュー**ボタン。
 
-![todo:画像_代替_文章](previewing-report_3.png)
 
-1. ダイアログ ボックスで、レポート パラメータを入力し、エクスポート ファイル形式を選択します。クリック**わかった**ボタンをクリックしてレポートをエクスポートします。
+1. レポートを選択し、**プレビュー** ボタンをクリックします。 
 
-![todo:画像_代替_文章](previewing-report_4.png)
+![todo:image_alt_text](previewing-report_3.png)
+
+1. ダイアログボックスで、レポートパラメーターを入力し、エクスポートファイル形式を選択します。レポートをエクスポートするには、**OK**ボタンをクリックします。
+
+![todo:image_alt_text](previewing-report_4.png)

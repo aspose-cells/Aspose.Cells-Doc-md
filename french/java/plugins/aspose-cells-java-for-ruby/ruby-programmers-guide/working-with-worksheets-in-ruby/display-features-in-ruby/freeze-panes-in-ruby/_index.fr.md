@@ -1,15 +1,16 @@
-﻿---
-title: Figer les volets dans Ruby
+---
+title: Geler les volets en Ruby
 type: docs
 weight: 50
 url: /fr/java/freeze-panes-in-ruby/
 ---
+
 ## **Aspose.Cells - Figer les volets**
- Pour figer des volets dans le document de feuille de calcul à l'aide de**Aspose.Cells Java pour rubis** , invoquez simplement**FreezePanes** module.
+Pour geler les volets dans le document de feuille de calcul en utilisant Aspose.Cells Java pour Ruby, il suffit d'invoquer le module FreezePanes.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ workbook.save(data_dir + "output.xls")
 puts "Apply freeze panes settings, please check the output file."
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Figer les volets (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Figer les volets (Aspose.Cells)** sur l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)

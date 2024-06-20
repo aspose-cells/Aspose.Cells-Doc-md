@@ -1,12 +1,13 @@
-﻿---
-title: Çalışma Sayfalarındaki Verileri Sıralama
+---
+title: Çalışma Sayfalarında Verileri Sıralama
 type: docs
 weight: 230
 url: /tr/net/sort-data-in-worksheets/
 ---
-Aşağıda VSTO ve Aspose.Cells için karşılaştırma kodu örneği verilmiştir.
+
+VSTO ve Aspose.Cells için karşılaştırma kod örneği aşağıda verilmektedir.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -36,7 +37,7 @@ Aşağıda VSTO ve Aspose.Cells için karşılaştırma kodu örneği verilmişt
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -53,5 +54,5 @@ Aşağıda VSTO ve Aspose.Cells için karşılaştırma kodu örneği verilmişt
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **İndirmek
+## **İndir
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)

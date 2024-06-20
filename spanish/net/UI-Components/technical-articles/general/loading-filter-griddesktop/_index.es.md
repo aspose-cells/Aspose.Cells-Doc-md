@@ -1,44 +1,46 @@
-﻿---
+---
 title: Filtrar objetos al cargar el libro de trabajo en GridDesktop
 type: docs
 weight: 1060
 url: /es/net/aspose-cells-griddesktop/loading-filter
-description: Este artículo describe cómo usar el filtro de carga para la biblioteca Aspose.Cells.GridDesktop.
+description: Este artículo describe cómo usar el filtro de carga en GridDesktop.
+keywords: GridDesktop,loading,loading filter,filter
 ---
-## **Posibles escenarios de uso**
- Por favor use[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)propiedad al filtrar datos del libro de trabajo.
 
- Él[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)enumeración tiene los siguientes valores.
-- Todos
-- Configuración del libro
+## **Escenarios de uso posibles**
+Por favor, utilice la propiedad [GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter) al filtrar datos del libro de trabajo.
+
+La enumeración [GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions) tiene los siguientes valores.
+- Todo
+- Configuraciones del libro
 - Celda en blanco
-- CellBool
-- CellData
-- error de celda
-- CellNumeric
-- Cadena de celdas
-- valor de celda
-- Gráfico
+- Celda booleana
+- Datos de celda
+- Error de celda
+- Numérico de celda
+- Cadena de celda
+- Valor de celda
+- Chart
 - Formato condicional
 - Validación de datos
 - Nombres definidos
 - Propiedades del documento
 - Fórmula
-- hipervínculos
-- MergedArea
-- Tabla dinámica
-- Ajustes
+- Hipervínculos
+- Área fusionada
+- Tabla Dinámica
+- Configuración
 - Forma
-- SheetData
-- Configuración de hoja
+- Datos de Hoja
+- Configuraciones de Hoja
 - Estructura
 - Estilo
-- Mesa
+- Tabla
 - VBA
-- XmlMapa
+- MapaXml
 ## **Filtrar datos al cargar el libro de trabajo**
- El código de ejemplo siguiente ilustra cómo filtrar el dibujo del libro. Por favor, checa el[ejemplo de archivo de Excel](5472489.xlsx) . Como puede ver, todos los gráficos/formas/imágenes se han filtrado del libro de trabajo.
-![cuaderno sin imagen](nodrawing.png)
+El siguiente código de muestra ilustra cómo filtrar dibujos del libro. Por favor, verifique el [archivo de Excel de muestra](5472489.xlsx). Como puede ver, todos los gráficos/formas/ imágenes han sido filtrados del libro.
+![libro sin imagen](nodrawing.png)
 ### **Código de muestra**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "LoadingFilter.cs" >}}
- 
+

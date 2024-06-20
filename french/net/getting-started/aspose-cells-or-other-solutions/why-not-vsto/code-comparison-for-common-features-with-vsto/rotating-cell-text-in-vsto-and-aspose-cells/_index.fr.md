@@ -1,18 +1,19 @@
-﻿---
-title: Rotation du texte Cell dans VSTO et Aspose.Cells
+---
+title: Rotation du texte de la cellule dans VSTO et Aspose.Cells
 type: docs
 weight: 210
 url: /fr/net/rotating-cell-text-in-vsto-and-aspose-cells/
 ---
-Pour faire pivoter du texte dans une cellule d'une feuille de calcul, procédez comme suit :
+
+Pour faire pivoter le texte dans une cellule sur une feuille de calcul, suivez les étapes suivantes:
 
 1. Créez un classeur et obtenez une feuille de calcul.
-1. Ajoutez des exemples de texte.
-1. Formatez le texte : faites pivoter, ajoutez une couleur d'arrière-plan.
+1. Ajoutez du texte d'exemples.
+1. Formatez le texte : rotation, ajoutez une couleur de fond.
 1. Enregistrez le fichier.
- Les exemples de code qui suivent montrent comment effectuer ces étapes d'abord dans VSTO, en utilisant soit C#, puis dans Aspose.Cells, à nouveau en utilisant soit C#.
+   Les exemples de code suivants montrent comment effectuer ces étapes d'abord dans VSTO, en utilisant soit C#, et ensuite dans Aspose.Cells, en utilisant à nouveau soit C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //intiate Application object
 
@@ -28,7 +29,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -58,7 +59,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
 
@@ -105,7 +106,7 @@ objcell.SetStyle(objstyle);
 objworkbook.Save("RotateText_test.xlsx");
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
-- [GithubGenericName](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Rotating.Cell.Text.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Rotating%20Cell%20Text%20\(Aspose.Cells\).zip/télécharger)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Rotating%20Cell%20Text%20\(Aspose.Cells\).Zip *: français)
+## **Télécharger le code source d'exemple**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Rotating.Cell.Text.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Rotating%20Cell%20Text%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Rotating%20Cell%20Text%20\(Aspose.Cells\).zip)

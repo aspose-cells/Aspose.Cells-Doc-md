@@ -1,23 +1,24 @@
-﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.6.3
+---
+title: Modifiche all API pubblica in Aspose.Cells 8.6.3
 type: docs
 weight: 220
 url: /it/net/public-api-changes-in-aspose-cells-8-6-3/
 ---
+
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.6.2 alla 8.6.3 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API di Aspose.Cells dalla versione 8.6.2 alla 8.6.3 che potrebbero interessare agli sviluppatori di moduli/applicazioni. Include non solo nuovi e aggiornati metodi pubblici, classi aggiunte, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Supporto per l'analisi HTML durante l'importazione dei dati**
-Questa versione di Aspose.Cells for .NET API ha esposto la proprietà ImportTableOptions.IsHtmlString che indica a API di analizzare i tag HTML durante l'importazione dei dati nel foglio di lavoro e di impostare il risultato analizzato come valore di cella. Tieni presente che le API Aspose.Cells forniscono già Cell.HtmlString per eseguire questa attività per una singola cella, tuttavia, durante l'importazione di dati in blocco, ad esempio da un DataTable, la proprietà ImportTableOptions.IsHtmlString (se impostata su true) tenta di analizzare tutte le HTML etichetta e imposta i risultati analizzati nelle celle corrispondenti.
+Questa versione di Aspose.Cells for .NET API ha esposto la proprietà ImportTableOptions.IsHtmlString che indica all'API di analizzare i tag HTML durante l'importazione dei dati nel foglio di lavoro e impostare il risultato analizzato come valore della cella. Si prega di notare che le API Aspose.Cells forniscono già il metodo Cell.HtmlString per eseguire questo compito per una singola cella, tuttavia, durante l'importazione dati in blocco come da un DataTable, la proprietà ImportTableOptions.IsHtmlString (quando impostata su true) cerca di analizzare tutti i tag HTML supportati e imposta i risultati analizzati nelle celle corrispondenti.
 
-Ecco lo scenario di utilizzo più semplice.
+Ecco il caso d'uso più semplice.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //create an instance of ImportTableOptions
 
@@ -34,14 +35,14 @@ cells.ImportData(table, 0, 0, importOptions);
 {{< /highlight >}}
 
 
-### **Metodo Workbook.CreateBuiltinStyle Aggiunto**
- Aspose.Cells for .NET 8.6.3 ha esposto il metodo Workbook.CreateBuiltinStyle che può essere utilizzato per creare un oggetto della classe Style che corrisponde ad una delle[stili incorporati offerti dall'applicazione Excel](/cells/it/net/using-built-in-styles/)Il metodo Workbook.CreateBuiltinStyle accetta una costante dall'enumerazione BuiltinStyleType. Si noti che con le versioni precedenti delle API Aspose.Cells, la stessa attività potrebbe essere eseguita tramite il metodo StyleCollection.CreateBuiltinStyle ma poiché le recenti versioni delle API Aspose.Cells hanno rimosso la classe StyleCollection, pertanto il metodo Workbook.CreateBuiltinStyle appena esposto può essere considerato come un approccio alternativo a ottenere lo stesso.
+### **Metodo Workbook.CreateBuiltinStyle aggiunto**
+Aspose.Cells for .NET 8.6.3 ha esposto il metodo Workbook.CreateBuiltinStyle che può essere utilizzato per creare un oggetto della classe Style corrispondente a uno dei [stili predefiniti offerti dall'applicazione Excel](/cells/it/net/using-built-in-styles/). Il metodo Workbook.CreateBuiltinStyle accetta una costante dall'enumerazione BuiltinStyleType. Si prega di notare, con le versioni precedenti delle API Aspose.Cells, lo stesso compito poteva essere svolto tramite il metodo StyleCollection.CreateBuiltinStyle ma poiché le versioni recenti delle API Aspose.Cells hanno rimosso la classe StyleCollection, il metodo Workbook.CreateBuiltinStyle appena esposto può essere considerato come un approccio alternativo per ottenere lo stesso risultato.
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -57,13 +58,13 @@ var style = book.CreateBuiltinStyle(BuiltinStyleType.Title);
 
 
 ### **Metodo Cells.ImportGridView aggiunto**
-Aspose.Cells for .NET 8.6.3 ha esposto una versione sovraccaricata di Cells.ImportGridView che ora può accettare un'istanza di ImportTableOptions per fornire un maggiore controllo sul processo di importazione.
+Aspose.Cells for .NET 8.6.3 ha esposto una versione sovraccaricata del metodo Cells.ImportGridView che ora può accettare un'istanza di ImportTableOptions per avere maggiore controllo sul processo di importazione.
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -90,14 +91,14 @@ cells.ImportGridView(gridView, 0, 0, importOptions);
 {{< /highlight >}}
 
 
-### **Proprietà ImportTableOptions.ConvertGridStyle Aggiunta**
-In riferimento ai miglioramenti sopra menzionati, l'ultima versione di Aspose.Cells for .NET API ha anche esposto la proprietà ImportTableOptions.ConvertGridStyle. Questa proprietà di tipo booleano consente agli sviluppatori di controllare l'aspetto dei dati importati, dove l'impostazione della proprietà ImportTableOptions.ConvertGridStyle su true indica che API applicherà lo stile di GridView alle celle in cui sono stati importati i dati.
+### **Proprietà LoadDataOption.OnlyVisibleWorksheet aggiunta**
+In riferimento alle migliorie sopra menzionate, l'ultima versione di Aspose.Cells for .NET API ha esposto anche la proprietà ImportTableOptions.ConvertGridStyle. Questa proprietà di tipo Boolean consente agli sviluppatori di controllare l'aspetto dei dati importati, impostando la proprietà ImportTableOptions.ConvertGridStyle su true indica che l'API applicherà lo stile del GridView alle celle in cui sono stati importati i dati.
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -126,14 +127,14 @@ cells.ImportGridView(gridView, 0, 0, importOptions);
 {{< /highlight >}}
 
 
-### **Proprietà LoadDataOption.OnlyVisibleWorksheet aggiunta**
- Aspose.Cells for .NET 8.6.3 ha esposto la proprietà LoadDataOption.OnlyVisibleWorksheet che se impostata su true influenzerà il meccanismo di caricamento di Aspose.Cells for .NET API, di conseguenza verranno caricati solo i fogli di lavoro visibili da un determinato foglio di calcolo. Si prega di controllare[articolo dettagliato](/cells/it/net/different-ways-to-open-files/) su questo argomento.
+### **APIs Obsoleted**
+Aspose.Cells for .NET 8.6.3 ha esposto la proprietà LoadDataOption.OnlyVisibleWorksheet che, impostandola su true, influenzerà il meccanismo di caricamento dell'API Aspose.Cells for .NET, di conseguenza verranno caricati solo i fogli di lavoro visibili da un determinato foglio di calcolo. Si prega di consultare l'[articolo dettagliato](/cells/it/net/different-ways-to-open-files/) su questo argomento.
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadDataOption
 
@@ -160,8 +161,8 @@ loadOptions.LoadDataOptions = loadDataOptions;
 var book = new Workbook(inputFilePath, loadOptions);
 
 {{< /highlight >}}
-## **API obsolete**
-### **Metodo Worksheet.CopyConditionalFormatting Obsoleto**
-In alternativa al metodo Worksheet.CopyConditionalFormatting, si consiglia di utilizzare uno dei metodi Cells.CopyRows o Range.Copy.
-### **Immobile Cells.Fine Obsoleto**
-Utilizzare la proprietà Cells.LastCell come alternativa alla proprietà Cells.End.
+## **API deprecate**
+### **Si prega di utilizzare la proprietà Cells.LastCell in alternativa alla proprietà Cells.End.**
+Come alternativa al metodo Worksheet.CopyConditionalFormatting, si consiglia di utilizzare uno qualsiasi dei metodi Cells.CopyRows o Range.Copy.
+### **Proprietà Cells.End resa obsoleta**
+Si prega di utilizzare la proprietà Cells.LastCell come alternativa alla proprietà Cells.End.

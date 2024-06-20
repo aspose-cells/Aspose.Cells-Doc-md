@@ -1,42 +1,45 @@
-﻿---
-title: Stil auf eine Zeile oder Spalte anwenden
+---
+title: Anwenden eines Stils auf eine Zeile oder Spalte
 type: docs
 weight: 50
-url: /de/net/applying-style-on-a-row-or-column/
+url: /de/net/aspose-cells-griddesktop/apply-style-on-a-row-or-column/
+keywords: GridDesktop, Stil, Zeile, Spalte
+description: Dieser Artikel zeigt, wie man einen Stil auf eine Zeile oder Spalte in GridDesktop anwendet.
 ---
+
 {{% alert color="primary" %}} 
 
-In diesem Thema besprechen wir das Ändern der Schriftart und Schriftfarbe von Zeilen und Spalten eines Arbeitsblatts. Dies ist eine grundlegende Ebene der Formatierungsfunktion, die von Aspose.Cells.GridDesktop angeboten wird und es Entwicklern ermöglicht, die Ansicht ihrer Arbeitsblätter anzupassen, um sie präsentabler zu machen.
+In diesem Thema werden wir darüber diskutieren, wie die Schriftart und Schriftfarbe von Zeilen und Spalten eines Arbeitsblatts geändert werden können. Dies ist eine grundlegende Formatierungsfunktion, die von Aspose.Cells.GridDesktop angeboten wird und Entwicklern ermöglicht, die Ansicht ihrer Arbeitsblätter anzupassen, um sie ansprechender zu gestalten.
 
 {{% /alert %}} 
-## **Stil auf eine Spalte anwenden**
-Führen Sie die folgenden Schritte aus, um mithilfe von Aspose.Cells.GridDesktop einen benutzerdefinierten Stil auf eine Spalte anzuwenden:
+## **Anwenden eines Stils auf eine Spalte**
+Um einen benutzerdefinierten Stil auf eine Spalte mithilfe von Aspose.Cells.GridDesktop anzuwenden, befolgen Sie bitte die folgenden Schritte:
 
--  Greifen Sie beliebig zu**Arbeitsblatt**
--  Zugriff a**Spalte** auf die wir a anwenden wollen**Stil**
--  Bekommen**Stil** des**Spalte**
--  Satz**Stil** Eigenschaften nach Ihren individuellen Bedürfnissen
--  Endlich einstellen**Stil** des**Spalte** mit dem aktualisierten
+- Greifen Sie auf jedes gewünschte **Arbeitsblatt** zu
+- Greifen Sie auf eine **Spalte** zu, auf die wir einen **Stil** anwenden möchten
+- Holen Sie den **Stil** der **Spalte**
+- Setzen Sie die Eigenschaften des **Stils** gemäß Ihren individuellen Anforderungen
+- Legen Sie schließlich den **Stil** der **Spalte** mit dem aktualisierten fest
 
- Es gibt viele nützliche Eigenschaften und Methoden, die von angeboten werden**Stil** Objekt, das von Entwicklern verwendet werden kann, um den Stil an ihre Anforderungen anzupassen.
+Es gibt viele nützliche Eigenschaften und Methoden des **Stil**-Objekts, die von Entwicklern verwendet werden können, um den Stil nach ihren Anforderungen anzupassen.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-ApplyingStyleOnRowColumn-AddingColumnStyle.cs" >}}
-## **Stil auf eine Reihe anwenden**
-Führen Sie die folgenden Schritte aus, um mit Aspose.Cells.GridDesktop einen benutzerdefinierten Stil auf eine Zeile anzuwenden:
+## **Anwenden eines Stils auf eine Zeile**
+Um einen benutzerdefinierten Stil auf eine Zeile mithilfe von Aspose.Cells.GridDesktop anzuwenden, befolgen Sie bitte die folgenden Schritte:
 
--  Greifen Sie beliebig zu**Arbeitsblatt**
--  Zugriff a**Reihe** auf die wir a anwenden wollen**Stil**
--  Bekommen**Stil** des**Reihe**
--  Satz**Stil** Eigenschaften nach Ihren individuellen Bedürfnissen
--  Endlich einstellen**Stil** des**Reihe** mit dem aktualisierten
+- Greifen Sie auf jedes gewünschte **Arbeitsblatt** zu
+- Greifen Sie auf eine **Zeile** zu, auf die wir einen **Stil** anwenden möchten
+- Holen Sie den **Stil** der **Zeile**
+- Setzen Sie die Eigenschaften des **Stils** gemäß Ihren individuellen Anforderungen
+- Legen Sie abschließend den **Stil** der **Zeile** mit dem aktualisierten fest.
 
- Es gibt viele nützliche Eigenschaften und Methoden, die von angeboten werden**Stil** Objekt, das von Entwicklern verwendet werden kann, um den Stil an ihre Anforderungen anzupassen.
+Es gibt viele nützliche Eigenschaften und Methoden des **Stil**-Objekts, die von Entwicklern verwendet werden können, um den Stil nach ihren Anforderungen anzupassen.
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Accessing the worksheet of the Grid that is currently active
 

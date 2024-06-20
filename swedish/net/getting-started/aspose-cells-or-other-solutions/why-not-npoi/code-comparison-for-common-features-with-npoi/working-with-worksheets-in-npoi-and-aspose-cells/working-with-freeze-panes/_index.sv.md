@@ -1,13 +1,14 @@
-﻿---
-title: Arbeta med Freeze Panes
+---
+title: Arbeta med att frysa rutor
 type: docs
 weight: 100
 url: /sv/net/working-with-freeze-panes/
 ---
-## **Aspose.Cells - Arbeta med frysrutor**
+
+## **Aspose.Cells - Arbeta med att frysa rutor**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -26,13 +27,13 @@ workbook.Save("output-FreezeFile-Aspose.Cells.xls");
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[FreezePanes-metod](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
+För mer information, besök [FreezePanes Method](https://reference.aspose.com/cells/sv/net/aspose.cells/worksheet/methods/freezepanes/index).
 
 {{% /alert %}} 
-## **NPOI - HSSF XSSF - Arbeta med frysfönster**
+## **NPOI - HSSF XSSF - Arbeta med att frysa rutor**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -62,13 +63,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Arbeta med Freeze Panes** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner formuläret **Arbeta med att frysa rutor** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Arbeta med arbetsblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+För mer information, besök [Arbeta med kalkylblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

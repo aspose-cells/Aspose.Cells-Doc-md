@@ -1,15 +1,16 @@
-﻿---
-title: xlsx4j'de Yeni Elektronik Tablo Oluştur
+---
+title: xlsx4j de Yeni Elektronik Tablo Oluşturma
 type: docs
 weight: 30
 url: /tr/java/create-new-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Yeni Elektronik Tablo Oluştur**
-Çalışma kitabı sınıfı basit kullanım için mevcuttur.
+
+## **Aspose.Cells - Yeni Elektronik Tablo Oluşturma**
+Basit kullanım için Workboook sınıfı mevcuttur.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,14 +35,14 @@ cell.setValue("This is Aspose test of fonts!");
 workbook.save(dataDir + "newWorksheet_Aspose.xls");
 
 {{< /highlight >}}
-## **xlsx4j - Yeni Elektronik Tablo Oluştur**
-Aşağıdaki örnek, xlsx4j kullanılırken nasıl yeni elektronik tablo oluşturulabileceğini göstermektedir.
+## **xlsx4j - Yeni Elektronik Tablo Oluşturma**
+Aşağıdaki örnek, xlsx4j kullanarak nasıl yeni bir elektronik tablonun oluşturulabileceğini göstermektedir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "newWorksheet_Xlsx4j.xlsx";
 
@@ -116,5 +117,5 @@ private static Cell createCell(String content) {
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/createnewspreadsheet)

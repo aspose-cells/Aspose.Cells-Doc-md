@@ -1,24 +1,25 @@
-﻿---
-title: Ändra teckensnittet på bara de specifika Unicode-tecken samtidigt som du sparar till PDF
+---
+title: Byt typsnitt på specifika Unicode tecken vid sparande till PDF
 type: docs
 weight: 150
 url: /sv/java/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/
 ---
+
 {{% alert color="primary" %}}
 
- Vissa Unicode-tecken kan inte visas med det användarspecificerade teckensnittet. Ett sådant Unicode-tecken är**Icke-brytande bindestreck** (U+2011) och dess Unicode-nummer är 8209. Detta tecken kan inte visas med**Times New Roman** , men det kan visas med andra typsnitt som**Arial Unicode MS**.
+Vissa Unicode-tecken visas inte med det användarvalda typsnittet. Ett sådant Unicode-tecken är **Icke-linjär bindestreck** (U+2011) och dess Unicode-nummer är 8209. Detta tecken kan inte visas med **Times New Roman**, men det kan visas med andra typsnitt som **Arial Unicode MS**.
 
-När ett sådant tecken förekommer i ett ord eller en mening som är i något specifikt teckensnitt som Times New Roman, ändrar Aspose.Cells teckensnittet för hela ordet eller meningen till teckensnitt som kan visa detta tecken som Arial Unicode till MS.
+När ett sådant tecken förekommer inne i ett ord eller en mening som är skriven med ett specifikt typsnitt som Times New Roman, då ändrar Aspose.Cells typsnitt för hela ordet eller meningen till ett typsnitt som kan visa detta tecken, som Arial Unicode MS.
 
-Detta är dock ett oönskat beteende för vissa användare och de vill bara att den specifika karaktärens teckensnitt måste ändras istället för att ändra teckensnittet för hela ordet eller meningen.
+Detta är emellertid ett oönskat beteende för vissa användare och de vill endast att det specifika tecknets typsnitt ska ändras istället för att ändra typsnittet för hela ordet eller meningen.
 
- För att hantera detta problem tillhandahåller Aspose.Cells[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) egenskap som bör ställas in**Sann** så att endast teckensnittet för det specifika tecknet som inte kan visas ändras och teckensnittet för resten av ordet eller meningen förblir detsamma.
+För att hantera detta problem tillhandahåller Aspose.Cells egenskapen [**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) som ska sättas till sant så att endast typsnittet för det specifika tecknet som inte kan visas ändras och typsnittet för resten av ordet eller meningen förblir detsamma.
 
 {{% /alert %}}
 
 ## **Exempel**
 
- Följande skärmdump jämför de två utgående PDF-filerna som genereras av exempelkoden nedan. En genererades utan inställning[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) egendom och den andra genererades efter att ha ställt in[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) egendom till**Sann**. Som du kan se i den första PDF, har teckensnittet för hela meningen ändrats från Times New Roman till Arial Unicode MS på grund av Non-Breaking Hyphen. Medan i den andra PDF har bara teckensnittet för Non-Breaking Hyphen ändrats.
+Följande skärmdump jämför de två utdatan PDF-filerna som genererats av exempelkoden nedan. En genererades utan att sätta [**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity)-egenskapen och den andra genererades efter att [**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity)-egenskapen sattes till sant. Som du kan se i den första PDF-filen har typsnittet för hela meningen ändrats från Times New Roman till Arial Unicode MS på grund av Non-breaking Hyphen. Medan i den andra PDF-filen har endast typsnittet för Non-breaking Hyphen ändrats.
 
 ![todo:image_alt_text](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)
 

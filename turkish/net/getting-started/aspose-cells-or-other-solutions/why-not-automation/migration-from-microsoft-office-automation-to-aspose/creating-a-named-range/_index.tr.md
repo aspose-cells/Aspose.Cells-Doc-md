@@ -1,39 +1,40 @@
-﻿---
-title: Adlandırılmış Aralık Oluşturma
+---
+title: Bir Adlandırılmış Aralık Oluşturma
 type: docs
 weight: 70
 url: /tr/net/creating-a-named-range/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET, geliştiricilerin, kullanıcıların uygulamaları aracılığıyla Microsoft Excel'de gerçekleştirebilecekleri görevlerin çoğunu gerçekleştirmesine olanak tanır. Bu makalede, adlandırılmış bir aralığın programlı olarak nasıl uygulanacağı açıklanmaktadır.
+Aspose.Cells for .NET, geliştiricilere uygulamaları aracılığıyla Microsoft Excel'de kullanıcıların gerçekleştirebileceği çoğu görevi yapabilme imkanı sağlar. Bu makale, bir adlandırılmış aralığı programlı bir şekilde uygulamanın nasıl yapıldığını açıklar.
 
-Adlandırılmış aralık, bir Excel elektronik tablosunda bir hücreye veya bir hücre aralığına ad atamanıza izin veren bir Excel özelliğidir. Daha sonra hücreye (veya aralığa) başvurmak için adı formüllerde kullanabilirsiniz. Mantıklı bir şekilde adlandırılmış aralıklar, formüllerin anlaşılmasını kolaylaştırır.
+Bir adlandırılmış aralık, bir Excel özelliğidir ve bir hücreye veya hücrelerin bir aralığına bir isim atamanızı sağlar. Bu ismi daha sonra formüllerde hücreye (veya aralığa) başvurmak için kullanabilirsiniz. Mantıklı adlandırılmış aralıklar, formülleri anlaşılır hale getirir.
 
-Adlandırılmış bir aralığın kapsamı içinde benzersiz olması gerekir, bu nedenle bir çalışma sayfasındaki birkaç aralık için aynı adı kullanmayın. Açıklayıcı aralık adları, bundan kaçınmaya yardımcı olur: örneğin, OrderSubTotal, SubTotal'dan daha açıklayıcıdır ve aynı zamanda bir sayfada yinelenme olasılığı daha düşüktür.
+Bir adlandırılmış aralığın kapsamı içinde benzersiz olması gerekir, bu nedenle aynı adı bir çalışma sayfasındaki birkaç aralık için kullanmayın. Betimleyici aralık isimleri, bunun önlenmesine yardımcı olur: örneğin, SiparişAltToplamı, SiparişAltToplamı'ndan daha açıklayıcıdır ve aynı zamanda bir sayfada tekrarlanması daha olası değildir.
 
 {{% /alert %}}
 
-## **Adlandırılmış Aralık Oluşturma**
+## **Bir Adlandırılmış Aralık Oluşturma**
 
-Adlandırılmış bir aralık oluşturmak için:
+Bir adlandırılmış aralık oluşturmak için:
 
-1. Çalışma sayfasını ayarlayın:
- 1. Bir Uygulama nesnesi oluşturun.
- (Yalnızca VSTO.)
- 1. Bir Çalışma Kitabı ekleyin.
- 1. İlk sayfayı alın.
+1. Çalışma sayfasını kurun:
+   1. Bir Uygulama nesnesi örnekleyin.
+      (Sadece VSTO.)
+   1. Bir çalışma kitabı ekleyin.
+   1. İlk sayfayı alın.
 1. Adlandırılmış bir aralık oluşturun:
- 1. Bir aralık tanımlayın.
- 1. Aralığı adlandırın.
-1. Dosya 'yı kaydet.
+   1. Bir aralık tanımlayın.
+   1. Aralığa isim verin.
+1. Dosyayı kaydedin.
 
- Aşağıdaki kod örnekleri, kullanarak bu adımların nasıl gerçekleştirileceğini gösterir.[VSTO](/cells/tr/net/creating-a-named-range/) C# veya Visual Basic ile. Aşağıdaki kod örnekleri, kullanarak aynı şeyi nasıl yapacağınızı gösterir.[Aspose.Cells for .NET](/cells/tr/net/creating-a-named-range/), yine C# veya Visual Basic ile.
+[VSTO ile](/cells/tr/net/creating-a-named-range/) C# veya Visual Basic kullanarak bu adımları nasıl gerçekleştireceğinizi gösteren kod örnekleri aşağıda verilmiştir. Aşağıdaki kod örnekleri, aynı şeyi [Aspose.Cells for .NET ile](/cells/tr/net/creating-a-named-range/) yine C# veya Visual Basic kullanarak nasıl yapılacağını göstermektedir.
 ### **VSTO ile Adlandırılmış Aralık Oluşturma**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -97,32 +98,32 @@ xl.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-Aspose.Cells kullanarak;
+using Aspose.Cells;
 
 .......
 
 
-//Çalışma Kitabı nesnesinin somutlaştırılması
+//Instantiating a Workbook object
 
-Çalışma kitabı çalışma kitabı = yeni Çalışma Kitabı();
+Workbook workbook = new Workbook();
 
-//Excel dosyasındaki ilk çalışma sayfasına erişim
+//Accessing the first worksheet in the Excel file
 
-Çalışma sayfası çalışma sayfası = çalışma kitabı.Çalışma Sayfaları[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Adlandırılmış bir aralık oluşturma
+//Creating a named range
 
-Aralık aralığı = worksheet.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Adlandırılmış aralığın adını ayarlıyoruz
+//Setting the name of the named range
 
-range.Name = "Test_Aralığı";
+range.Name = "Test_Range";
 
- için (int satır = 0; satır< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 

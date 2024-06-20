@@ -1,20 +1,21 @@
-﻿---
+---
 title: Performans Yapılandırması
 type: docs
 weight: 20
 url: /tr/reportingservices/performance-configuration/
 ---
+
 {{% alert color="primary" %}} 
 
- Kullanıcılar performansı bir dereceye kadar optimize edebilir. Bazı nitelikleri ve parametreleri yapılandırabilirsiniz.**Aspose.Cells.ReportingServices.xml** aşağıda açıklandığı gibi dosya.
+Kullanıcılar performansı belirli bir ölçüde optimize edebilir. Aşağıda **Aspose.Cells.ReportingServices.xml** dosyasında bazı öznitelikler ve parametreler yapılandırılabilir.
 
 {{% /alert %}} 
 ### **Performans Bölümü**
-Bu, Performans bölümünü varsayılan olarak olduğu gibi gösterir.
+Bu, Performans bölümünü varsayılan olarak gösterir.
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -35,12 +36,12 @@ Bu, Performans bölümünü varsayılan olarak olduğu gibi gösterir.
 
 
 {{< /highlight >}}
-### **Performans parametreleri**
--  LimitCellsNumberForMerged – Parametrenin varsayılan değeri 1000000'dir. Parametre değeri istemci tarafından ayarlanır ve performans parametresinin anahtarından etkilenmez. Lütfen aşağıdaki yapılandırmaya bakın.
+### **Performans Parametreleri**
+- LimitCellsNumberForMerged – Parametrenin varsayılan değeri 1000000'dir. Parametre değeri istemci tarafından ayarlanır ve performans parametresinin anahtarı tarafından etkilenmez. Lütfen aşağıdaki yapılandırmaya bakınız. 
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -48,15 +49,15 @@ Bu, Performans bölümünü varsayılan olarak olduğu gibi gösterir.
 
 {{< /highlight >}}
 
--  IsAutoRowFit – Doğru veya yanlış olabilir:
- - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer yanlıştır.
- - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer doğrudur.
- - Performans parametresi "açık" olarak ayarlandığında, bir alt öğe raporu, raporun AutoRowFile parametresini sıfırlayabilir.
-Lütfen aşağıdaki yapılandırmaya bakın.
+- IsAutoRowFit – True veya false olabilir: 
+  - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer false'dır.
+  - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer true'dur.
+  - Performans parametresi "açık" olarak ayarlandığında, alt öğe rapor, raporun AutoRowFile parametresini yeniden ayarlayabilir.
+    Lütfen aşağıdaki yapılandırmaya bakınız. 
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -78,15 +79,15 @@ Lütfen aşağıdaki yapılandırmaya bakın.
 
 {{< /highlight >}}
 
--  IsMerged – Doğru veya yanlış olabilir:
- - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer yanlıştır.
- - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer doğrudur.
- - Performans parametresi "açık" olarak ayarlandığında, bir alt öğe raporu, raporun AutoRowFile parametresini sıfırlayabilir.
-Lütfen aşağıdaki yapılandırmaya bakın.
+- IsMerged – True veya false olabilir: 
+  - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer false'dır.
+  - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer true'dur.
+  - Performans parametresi "açık" olarak ayarlandığında, alt öğe rapor, raporun AutoRowFile parametresini yeniden ayarlayabilir.
+    Lütfen aşağıdaki yapılandırmaya bakınız. 
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -108,15 +109,15 @@ Lütfen aşağıdaki yapılandırmaya bakın.
 
 {{< /highlight >}}
 
--  IsSetStyle – Doğru veya yanlış olabilir:
- - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer yanlıştır.
- - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer doğrudur.
- - Performans parametresi "açık" olarak ayarlandığında, bir alt öğe raporu, raporun AutoRowFile parametresini sıfırlayabilir.
-Lütfen aşağıdaki yapılandırmaya bakın.
+- IsSetStyle – True veya false olabilir: 
+  - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer false'dır.
+  - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer true'dur.
+  - Performans parametresi "açık" olarak ayarlandığında, alt öğe rapor, raporun AutoRowFile parametresini yeniden ayarlayabilir.
+    Lütfen aşağıdaki yapılandırmaya bakınız. 
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -138,16 +139,16 @@ Lütfen aşağıdaki yapılandırmaya bakın.
 
 {{< /highlight >}}
 
--  IsConditionalFormatting – Doğru veya yanlış olabilir:
- - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer yanlıştır.
- - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer doğrudur.
- - Performans parametresi 'on' olarak ayarlandığında, alt öğe raporu, nokta raporunun AutoRowFile parametresini sıfırlayabilir.
- - IsSetStyle parametresi false olarak ayarlandığında, Performans parametresinin değeri geçersizdir.
-Lütfen aşağıdaki yapılandırmaya bakın.
+- IsConditionalFormatting – True veya false olabilir: 
+  - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer false'dır.
+  - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer true'dur.
+  - Performans parametresi 'açık' olarak ayarlandığında, alt öğe raporu otomatik satır dosyası parametresini yeniden ayarlayabilir.
+  - IsSetStyle parametresi false olarak ayarlandığında, Performans parametresinin değeri geçersizdir.
+    Lütfen aşağıdaki yapılandırmaya bakınız. 
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

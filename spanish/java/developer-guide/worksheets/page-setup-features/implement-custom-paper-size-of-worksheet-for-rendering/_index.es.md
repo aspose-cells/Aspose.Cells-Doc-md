@@ -1,20 +1,21 @@
-﻿---
-title: Implementar el tamaño de papel personalizado de la hoja de trabajo para la representación
+---
+title: Implementar tamaño de papel personalizado de la hoja de cálculo para la representación
 type: docs
 weight: 30
 url: /es/java/implement-custom-paper-size-of-worksheet-for-rendering/
 ---
-## **Posibles escenarios de uso**
 
-No hay una opción directa disponible para crear tamaños de papel personalizados en MS Excel, sin embargo, puede configurar el tamaño de papel personalizado de sus hojas de trabajo deseadas al representar el archivo de Excel en el formato de archivo PDF. Este documento explica cómo configurar un tamaño de papel personalizado de una hoja de cálculo utilizando las API Aspose.Cells.
+## **Escenarios de uso posibles**
 
-## **Implementar el tamaño de papel personalizado de la hoja de trabajo para la representación**
+No hay una opción directa disponible para crear tamaños de papel personalizados en MS Excel, sin embargo, puedes establecer el tamaño de papel personalizado de tus hojas de trabajo deseadas al renderizar el archivo de Excel al formato de archivo PDF. Este documento explica cómo establecer un tamaño de papel personalizado de una hoja de trabajo usando las APIs de Aspose.Cells.
 
-Aspose.Cells le permite implementar el tamaño de papel deseado de la hoja de trabajo usando el[**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double) ) método de la[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) . El código de ejemplo siguiente ilustra cómo especificar un tamaño de papel personalizado para la primera hoja de cálculo del libro. Consulte también la[salida PDF](45056030.pdf) generado con el siguiente código para una referencia.
+## **Implementar Tamaño de Papel Personalizado de la Hoja de Cálculo para el Renderizado**
+
+Aspose.Cells te permite implementar tu tamaño de papel deseado de la hoja de trabajo usando el método [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) del [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). El siguiente código de ejemplo ilustra cómo especificar un tamaño de papel personalizado para la primera hoja de trabajo en el libro. Por favor, revisa también el [PDF de salida](45056030.pdf) generado con el siguiente código como referencia.
 
 ## **Captura de pantalla**
 
-![todo:imagen_alternativa_texto](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+![todo:image_alt_text](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
 
 ## **Código de muestra**
 

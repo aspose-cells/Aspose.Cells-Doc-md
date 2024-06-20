@@ -1,31 +1,34 @@
-﻿---
-title: تصدير DataTable من GridWeb
+---
+title: تصدير جدول البيانات من GridWeb
 type: docs
 weight: 70
-url: /ar/net/export-datatable-from-gridweb/
+url: /ar/net/aspose-cells-gridweb/export-datatable-from-gridweb/
+keywords: GridWeb، تصدير
+description: تقدم هذه المقالة كيفية تصدير الجدول في GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-[استيراد DataView إلى GridWeb](/cells/ar/net/import-dataview-to-gridweb/)تحدث عن استيراد محتويات DataView إلى عنصر التحكم Aspose.Cells.GridWeb. يناقش هذا الموضوع تصدير البيانات من عنصر تحكم Aspose.Cells.GridWeb إلى DataTable.
+[استيراد رأي البيانات إلى GridWeb](/cells/ar/net/aspose-cells-gridweb/import-dataview-to-gridweb/) تحدث عن استيراد محتويات رأي البيانات إلى عنصر التحكم Aspose.Cells.GridWeb. يناقش هذا الموضوع تصدير البيانات من عنصر التحكم Aspose.Cells.GridWeb إلى DataTable.
 
 {{% /alert %}} 
 ## **تصدير بيانات ورقة العمل**
 ### **إلى DataTable محدد**
 لتصدير بيانات ورقة العمل إلى كائن DataTable محدد:
 
-1. قم بإضافة عنصر تحكم Aspose.Cells.GridWeb إلى نموذج ويب الخاص بك.
-1. إنشاء كائن DataTable محدد.
-1. تصدير بيانات الخلايا المحددة إلى كائن DataTable المحدد.
+1. أضف عنصر تحكم Aspose.Cells.GridWeb إلى نموذج الويب الخاص بك.
+1. أنشئ كائن DataTable محدد.
+1. قم بتصدير بيانات الخلايا المحددة إلى كائن DataTable المحدد.
 
-يقوم المثال أدناه بإنشاء كائن DataTable محدد بأربعة أعمدة. يتم تصدير بيانات ورقة العمل بدءًا من الخلية الأولى مع عرض جميع الصفوف والأعمدة في ورقة العمل ، إلى كائن DataTable تم إنشاؤه بالفعل.
+المثال أدناه يقوم بإنشاء كائن DataTable محدد يحتوي على أربعة أعمدة. يتم تصدير بيانات ورقة العمل ابتداءً من الخلية الأولى مع جميع الصفوف والأعمدة المرئية في ورقة العمل، إلى كائن DataTable تم إنشاؤه بالفعل.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-ExportDataTable.aspx-ExportDataTable.cs" >}}
-### **إلى جدول بيانات جديد**
-في بعض الأحيان ، لا تريد إنشاء كائن DataTable ولكنك تحتاج ببساطة إلى تصدير بيانات ورقة العمل إلى كائن DataTable جديد.
+### **إلى DataTable جديد**
+في بعض الأحيان، قد لا ترغب في إنشاء كائن DataTable ولكنك تحتاج ببساطة لتصدير بيانات ورقة العمل إلى كائن DataTable جديد.
 
-يحاول المثال أدناه طريقة مختلفة لإظهار استخدام طريقة التصدير. يأخذ مرجع ورقة العمل النشطة ويصدر البيانات الكاملة لورقة العمل هذه إلى كائن DataTable جديد. يمكن الآن استخدام كائن DataTable بأي طريقة تريدها. على سبيل المثال ، من الممكن ربط كائن DataTable بـ GridView لعرض البيانات.
+المثال أدناه يحاول طريقة مختلفة لعرض استخدام الطريقة تصدير. يأخذ مثال الإشارة لورقة العمل النشطة ويصدر بيانات الورقة بأكملها إلى كائن DataTable جديد. بعد ذلك يمكن استخدام كائن DataTable بأي طريقة ترغب فيها. على سبيل المثال، يمكن ربط كائن DataTable بعنصر GridView لعرض البيانات.
 
 
 

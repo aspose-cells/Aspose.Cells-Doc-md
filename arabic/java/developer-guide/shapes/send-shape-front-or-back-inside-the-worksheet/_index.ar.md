@@ -1,19 +1,20 @@
-﻿---
-title: أرسل Shape Front أو Back داخل ورقة العمل
+---
+title: إرسال الشكل إلى الأمام أو الوراء داخل ورقة العمل
 type: docs
 weight: 600
 url: /ar/java/send-shape-front-or-back-inside-the-worksheet/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-عندما تكون هناك أشكال متعددة موجودة في نفس الموقع ، فإن كيفية ظهورها يتم تحديدها من خلال مواضع ترتيب z. يوفر Aspose.Cells[**الشكل إلى الأمام أو الخلف ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)) الطريقة التي تغير موضع الترتيب z للشكل. إذا كنت تريد إرسال شكل إلى الخلف ، فستستخدم رقمًا سالبًا مثل -1 ، -2 ، -3 ، وما إلى ذلك ، وإذا كنت تريد إرسال شكل إلى الأمام ، فستستخدم رقمًا موجبًا مثل 1 ، 2 ، 3 ، إلخ.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **أرسل Shape Front أو Back داخل ورقة العمل**
+عند وجود أشكال متعددة في نفس الموقع، يتم تحديد مدى وضوحها من خلال مواقفها في ترتيب الصف (z-order). يوفر Aspose.Cells الطريقة [**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)) التي تغير موقف ترتيب الصف. إذا كنت ترغب في إرسال الشكل إلى الخلف، فسوف تستخدم عددًا سالبًا مثل -1، -2، -3، وما إلى ذلك، وإذا كنت ترغب في إرسال الشكل إلى الأمام، فستستخدم عددًا موجبًا مثل 1، 2، 3، وهلم جرا.
 
-يشرح نموذج التعليمات البرمجية التالي استخدام[**الشكل إلى الأمام أو الخلف ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)) طريقة. الرجاء مراجعة[نموذج لملف Excel](50528362.xlsx)المستخدمة داخل الكود و[إخراج ملف Excel](50528361.xlsx)ولدت به. تُظهر لقطة الشاشة تأثير الكود على نموذج ملف Excel عند التنفيذ.
+## **إرسال الشكل إلى الأمام أو الوراء داخل ورقة العمل**
 
-![ما يجب القيام به: image_بديل_نص](send-shape-front-or-back-inside-the-worksheet_1.png)
+يشرح كود العينة التالي استخدام الطريقة [**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)). يرجى الاطلاع على [ملف إكسل عينة](50528362.xlsx) المستخدم داخل الكود و [ملف إكسل الناتج](50528361.xlsx) المولد به. تُظهر لقطة الشاشة تأثير الكود على ملف إكسل العينة عند التنفيذ.
 
-## **عينة من الرموز**
+![todo:image_alt_text](send-shape-front-or-back-inside-the-worksheet_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-SendShapeFrontOrBackInWorksheet.java" >}}

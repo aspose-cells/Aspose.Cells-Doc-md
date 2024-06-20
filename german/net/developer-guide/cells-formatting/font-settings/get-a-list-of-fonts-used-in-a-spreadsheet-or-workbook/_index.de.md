@@ -1,34 +1,35 @@
 ---
-title: Rufen Sie eine Liste der in einer Tabelle oder Arbeitsmappe verwendeten Schriftarten ab
-description: Aspose.Cells ist eine .NET-Bibliothek für die Arbeit mit Tabellenkalkulationsdateien. Es unterstützt das Abrufen einer Liste der in einer Tabelle oder Arbeitsmappe verwendeten Schriftarten, sodass Benutzer die in einem Dokument verwendeten Schriftarteninformationen abrufen können. In diesem Artikel erfahren Sie, wie Sie mit der Bibliothek Aspose.Cells eine Liste von Schriftarten erhalten.
-keywords: Aspose.Cells, Spreadsheet, Workbook, Font, List
+title: Eine Liste der in einer Tabelle oder Arbeitsmappe verwendeten Schriftarten abrufen
+description: Aspose.Cells ist eine .NET Bibliothek zum Arbeiten mit Tabellendateien. Es unterstützt das Abrufen einer Liste der in einer Tabelle oder Arbeitsmappe verwendeten Schriftarten und ermöglicht Benutzern, Informationen über verwendete Schriftarten in einem Dokument zu erhalten. Dieser Artikel zeigt Ihnen, wie Sie die Aspose.Cells Bibliothek verwenden, um eine Liste der Schriftarten abzurufen.
+keywords: Aspose.Cells, Tabelle, Arbeitsmappe, Schriftart, Liste
 type: docs
 weight: 20
 url: /de/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 ---
-##  **Mögliche Nutzungsszenarien**
 
-Für Rendering-Zwecke ist es häufig erforderlich, die in Ihrer Arbeitsmappe verwendeten Schriftarten zu kennen. Wenn Sie Ihre Arbeitsmappe in PDF oder ein Bild konvertieren, erfordert Aspose.Cells, dass alle benötigten Schriftarten auf Ihrem System installiert oder in Ihrem *Schriftartenverzeichnis** vorhanden sind. Wenn Aspose.Cells die benötigte Schriftart nicht finden kann, versucht es, sie durch eine andere geeignete Schriftart zu ersetzen, die auf Ihrem System oder in Ihrem Schriftartenverzeichnis vorhanden ist und Ihre tatsächliche Schriftart ersetzen kann. Dies führt nicht nur zur unerwünschten Darstellung von PDF oder Bildern, sondern erfordert auch Verarbeitungszeit für die Suche nach geeigneten Schriftarten.
+## **Mögliche Verwendungsszenarien**
 
-Um solche Fälle zu bewältigen, sollten Sie wissen, welche Schriftarten von Ihrer Arbeitsmappe verwendet werden, und diese Schriftarten dann entweder auf Ihrem System installieren (bei einer Windows-Umgebung) oder sie in Ihrem Schriftartenverzeichnis ablegen (bei einer Windows- oder Linux-Umgebung).
+Es ist oft notwendig zu wissen, welche Schriftarten in Ihrer Arbeitsmappe für die Darstellung verwendet werden. Wenn Sie Ihre Arbeitsmappe in PDF oder Bild konvertieren, erfordert Aspose.Cells, dass alle benötigten Schriftarten auf Ihrem System installiert oder in Ihrem **Schriftartenverzeichnis** vorhanden sind. Wenn Aspose.Cells die benötigte Schriftart nicht finden kann, versucht es, sie durch eine andere geeignete Schriftart zu ersetzen, die auf Ihrem System oder in Ihrem Schriftartenverzeichnis vorhanden ist und Ihre tatsächliche Schriftart ersetzen kann. Dies führt nicht nur zu einer unerwünschten Darstellung von PDF oder Bildern, sondern kostet auch Verarbeitungszeit, um geeignete Schriftarten zu finden.
 
- Aspose.Cells bietet die**[Workbook.GetFonts](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts)**Methode, die die Liste aller in Ihrer Arbeitsmappe oder Tabelle verwendeten Schriftarten zurückgibt.
+Um mit solchen Fällen umzugehen, sollten Sie wissen, welche Schriftarten von Ihrer Arbeitsmappe verwendet werden, dann entweder diese Schriftarten in Ihrem System installieren, falls es sich um eine Windows-Umgebung handelt, oder sie in Ihr Schriftartenverzeichnis legen, falls es sich um eine Windows- oder Linux-Umgebung handelt.
 
-##  **Rufen Sie eine Liste der in einer Tabelle oder Arbeitsmappe verwendeten Schriftarten ab**
+Aspose.Cells bietet die [**Workbook.GetFonts**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts)-Methode, die eine Liste aller im Workbook oder Spreadsheet verwendeten Schriften zurückgibt.
 
- Der folgende Beispielcode lädt die Excel-Quelldatei und ruft die Liste der darin verwendeten Schriftarten ab. Es gibt ein Dummy-Arbeitsblatt, dem zur Veranschaulichung einige Dummy-Schriftarten hinzugefügt wurden. Wenn der Code alle Schriftarten in der Arbeitsmappe druckt, werden auch diese Dummy-Schriftarten gedruckt. Der folgende Screenshot zeigt die[Beispiel-Excel-Datei](25395211.xlsx) und wie die Dummy-Schriftarten aufgelistet werden.
+## **Eine Liste der in einer Arbeitsmappe oder einem Arbeitsblatt verwendeten Schriftarten abrufen**
+
+Der folgende Beispielcode lädt die Quelldatei und ruft die Liste der darin verwendeten Schriftarten ab. Es hat ein Dummy-Arbeitsblatt, auf dem zu Illustrationszwecken einige Dummy-Schriftarten hinzugefügt sind. Wenn der Code alle Schriftarten in der Arbeitsmappe ausdruckt, werden auch diese Dummy-Schriftarten ausgedruckt. Der folgende Screenshot zeigt die [Beispiel-Excel-Datei](25395211.xlsx) und wie die Dummy-Schriftarten aufgelistet sind.
 
 ![todo:image_alt_text](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
 
-##  **Beispielcode**
+## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Fonts-GetListOfFontsUsedInSpreadsheetOrWorkbook.cs" >}}
 
-##  **Konsolenausgabe**
+## **Konsolenausgabe**
 
- Hier ist die Konsolenausgabe des obigen Beispielcodes, wenn er mit dem angegebenen ausgeführt wird[Beispiel-Excel-Datei](25395211.xlsx).
+Hier ist die Konsolenausgabe des obigen Beispielcodes, wenn er mit der angegebenen [Beispiel-Excel-Datei](25395211.xlsx) ausgeführt wird.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Aspose.Cells.Font [ Calibri; 11; Regular; Color [Black] ]
 

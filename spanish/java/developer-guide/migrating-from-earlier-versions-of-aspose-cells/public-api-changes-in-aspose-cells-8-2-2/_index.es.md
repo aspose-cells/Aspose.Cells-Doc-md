@@ -1,27 +1,28 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.2.2
+---
+title: Cambios en la API pública en Aspose.Cells 8.2.2
 type: docs
 weight: 100
 url: /es/java/public-api-changes-in-aspose-cells-8-2-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.Cells API de la versión 8.2.1 a la 8.2.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.2.1 hasta la 8.2.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Versión de propiedad agregada para la clase BuiltInDocumentPropertyCollection**
-La nueva propiedad Version se agregó a la clase BuiltInDocumentPropertyCollection para permitir a los desarrolladores obtener o establecer la versión de la aplicación para una hoja de cálculo determinada.
+## **APIs Añadidas**
+### **Se agregó la propiedad Version para la clase BuiltInDocumentPropertyCollection**
+Se ha agregado la nueva propiedad Versión a la clase BuiltInDocumentPropertyCollection para permitir a los desarrolladores obtener o establecer la versión de la aplicación para una hoja de cálculo específica.
 
 {{% alert color="primary" %}} 
 
- Consulte el artículo detallado sobre[Obtener la versión de la aplicación que creó la hoja de cálculo](/cells/es/java/get-the-version-number-of-the-application-that-created-the-excel-document/).
+Por favor, consulte el artículo detallado sobre [Obtener la Versión de la Aplicación que Creó la Hoja de Cálculo](/cells/es/java/get-the-version-number-of-the-application-that-created-the-excel-document/).
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -31,18 +32,18 @@ System.out.println(properties.getVersion());
 
 {{< /highlight >}}
 
-### **Gráfico de propiedad. Hoja de trabajo agregada**
-Antes del lanzamiento de Aspose.Cells 8.2.2, no era posible recuperar la instancia de la hoja de trabajo de un objeto de gráfico que contiene. Aspose.Cells 8.2.2 ha llenado este vacío al proporcionar la propiedad Chart.Worksheet.
+### **Se agregó la propiedad Chart.Worksheet.**
+Antes del lanzamiento de Aspose.Cells 8.2.2, no era posible recuperar la instancia de la hoja de cálculo de un objeto Chart que contiene. Aspose.Cells 8.2.2 ha cubierto esta brecha al proporcionar la propiedad Chart.Worksheet.
 
 {{% alert color="primary" %}} 
 
- Por favor revise el artículo detallado[Obtener hoja de trabajo del gráfico](/cells/es/java/get-worksheet-of-the-chart/) para más información.
+Por favor, consulte el artículo detallado [Obtener la Hoja de Cálculo del Gráfico](/cells/es/java/get-worksheet-of-the-chart/) para obtener más información.
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook("sample.xlsx");
 

@@ -1,12 +1,13 @@
-﻿---
-title: PDF'e kaydederken Yorumları Yazdır
+---
+title: PDF ye kaydederken Yorumları Yazdır
 type: docs
 weight: 180
 url: /tr/java/print-comments-while-saving-to-pdf/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel, aşağıdaki seçeneklerle PDF biçiminde yazdırırken veya kaydederken yorumları yazdırmanıza olanak tanır
+Microsoft Excel, aşağıdaki seçeneklerle PDF biçimine yazdırırken veya kaydederken yorumları yazdırmanıza izin verir
 
 - Hiçbiri
 - Sayfanın sonunda
@@ -14,20 +15,20 @@ Microsoft Excel, aşağıdaki seçeneklerle PDF biçiminde yazdırırken veya ka
 
 {{% /alert %}}
 
-## **PDF'e kaydederken Yorumları Yazdır**
+## **PDF'ye kaydederken yorumları yazdır**
 
-Aspose.Cells, PDF'i kaydederken yazdırma yorumlarını desteklemek için aşağıdaki numaralandırmaları sağlar
+Aspose.Cells, PDF'ye kaydederken yorumları yazdırmayı desteklemek için aşağıdaki numaraları sağlar
 
 - [**PrintCommentsType.PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)
 - [**PrintCommentsType.PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)
 - [**PrintCommentsType.PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)
 
-## Kod Parçacığı
+## Kod Örneği
 
- Aşağıdaki örnek kod, nasıl kullanılacağını gösterir[**YazdırYorum Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype) PDF'e kaydederken yorumları yazdırmak için enum.
+Aşağıdaki örnek kod, PDF'ye kaydederken yorumları yazdırmak için [**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype) numarasının nasıl kullanılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintComments-PrintComments.java" >}}
 
 ## İlgili Makaleler
 
-- [Excel dosyasını PDFA-1a ile uyumlu PDF biçimine dönüştürün](/cells/tr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [PDFA-1a uyumlu PDF biçimine Excel dosyasını dönüştür](/cells/tr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)

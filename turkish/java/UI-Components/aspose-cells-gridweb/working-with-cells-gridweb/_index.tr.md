@@ -1,49 +1,50 @@
 ---
-title: Cells GridWeb'le çalışma
+title: Hücrelerle Çalışmak GridWeb
 type: docs
 weight: 50
 url: /tr/java/working-with-cells-gridweb/
 ---
-##  **Çalışma Sayfasından Cells'e erişim**
-Bu konu, GridWeb'in en temel özelliğine bakarak hücreleri ele almaktadır: hücrelere erişim.
 
-Her çalışma sayfası, GridCell nesnelerinin bir koleksiyonu olan bir GridCells nesnesi içerir. GridCell nesnesi Aspose.Cells.GridWeb'deki bir hücreyi temsil eder. GridWeb'i kullanarak herhangi bir hücreye erişmek mümkündür. Tercih edilen iki yöntem vardır:
+## **Çalışma sayfasındaki Hücrelere Erişim**
+Bu konu, hücrelere erişmeyi ele alarak GridWeb'in en temel özelliğine, yani hücrelere erişmeye odaklanmaktadır.
 
-- [Hücreye isme göre erişme](/cells/tr/java/working-with-cells-gridweb/).
-- [Hücreye satır ve sütun indekslerine göre erişme](/cells/tr/java/working-with-cells-gridweb/).
+Her çalışma sayfası, GridCells nesnesini ve GridCell nesnelerinin bir koleksiyonunu içerir. Bir GridCell nesnesi, Aspose.Cells.GridWeb'de bir hücreyi temsil eder. GridWeb'i kullanarak herhangi bir hücreye erişmek mümkündür. İki tercih edilen yöntem vardır:
 
-Aşağıda her bir yaklaşım tartışılmaktadır.
-###  **Cell Adını Kullanma**
-Tüm hücrelerin benzersiz bir adı vardır. Örneğin A1, A2, B1, B2 vb. Aspose.Cells.GridWeb, geliştiricilerin hücre adını kullanarak istenilen herhangi bir hücreye erişmesine olanak tanır. Hücre adını (dizin olarak) GridWorksheet'in GridCells koleksiyonuna aktarmanız yeterlidir.
+- [İsme Göre Hücreye Erişme](/cells/tr/java/working-with-cells-gridweb/).
+- [Satır ve Sütun Endekslerine Göre Hücreye Erişme](/cells/tr/java/working-with-cells-gridweb/).
+
+Her bir yaklaşım aşağıda tartışılmıştır.
+### **Hücre Adı Kullanarak**
+Tüm hücrelerin benzersiz bir adı bulunmaktadır. Örneğin, A1, A2, B1, B2, vb. Aspose.Cells.GridWeb, geliştiricilere hücrenin adını kullanarak istenen herhangi bir hücreye erişme imkanı tanır. Hücre adını (bir dizin olarak) GridCells koleksiyonuna basitçe ileterek istenen hücreye erişebilirsiniz.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-Accessingcellbyname-Accessingcellbyname.jsp" >}}
 
 
-###  **Satır ve Sütun İndekslerini Kullanma**
-Bir hücre aynı zamanda satır ve sütun indeksleri açısından konumuna göre de tanınabilir. Bir hücrenin satır ve sütun indekslerini GridWorksheet'in GridCells koleksiyonuna aktarmanız yeterlidir. Bu yaklaşım yukarıdaki yaklaşımdan daha hızlıdır.
+### **Satır ve Sütun Dizinlerini Kullanarak**
+Bir hücre, satır ve sütun endeksleri açısından konumuyla da tanınabilir. Bir hücrenin satır ve sütun endekslerini GridCells koleksiyonuna basitçe ileterek istenen hücreye erişebilirsiniz. Bu yaklaşım, yukarıdaki yöntemden daha hızlıdır.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-Accessingcellbyrowandcolumnindices-Accessingcellbyrowandcolumnindices.jsp" >}}
-##  **Cell Değerine Erişme ve Değiştirme**
-[Çalışma Sayfasından Cells'e erişim](/cells/tr/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) hücrelere erişmeyi tartıştı. Bu konu, GridWeb API kullanılarak hücre değerlerine nasıl erişileceğini ve değiştirileceğini gösterecek şekilde bu tartışmayı genişletmektedir.
-###  **Cell'in Değerine Erişme ve Değiştirme**
-####  **Dize Değerleri**
- Bir hücrenin değerine erişmeden ve onu değiştirmeden önce hücrelere nasıl erişeceğinizi bilmeniz gerekir. Hücrelere erişmeye yönelik farklı yaklaşımlar hakkında ayrıntılar için bkz.[Çalışma Sayfasından Cells'e erişim](/cells/tr/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet).
+## **Hücrenin Değerine Erişme ve Değiştirme**
+[Çalışma Sayfasındaki Hücrelere Erişme](/cells/tr/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) konusu, hücrelere erişmeyi ele almıştır. Bu konu, GridWeb API'sını kullanarak hücre değerlerine erişme ve değiştirme konusuna genişletmektedir.
+### **Hücrenin Değerine Erişme ve Değiştirme**
+#### **Dize Değerleri**
+Hücrenin değerine erişmeden ve değiştirmeden önce, hücrelere nasıl erişileceğini bilmelisiniz. Hücrelere erişmek için farklı yaklaşımlar hakkında ayrıntılı bilgi için [Çalışma Kitabındaki Hücrelere Erişme](/cells/tr/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) sayfasına bakın.
 
-Her hücrenin getStringValue() adında bir özelliği vardır. Bir hücreye erişildiğinde geliştiriciler, hücrenin dize değerine erişmek için getStringValue() yöntemine erişebilir.
+Her hücrenin getStringValue() adında bir özelliği vardır. Bir hücre erişildiğinde, geliştiriciler getStringValue() yöntemine erişerek hücrenin dize değerine erişebilirler.
 
 {{% alert color="primary" %}} 
 
-ÖNEMLİ: Hücrelerde beş tür değer (Boolean, int, double, DateTime ve string) saklanabilir ancak getValue()/setValue() yöntemleri yalnızca nesne değerine erişmek/değiştirmek için kullanılabilir.
+ÖNEMLİ: Hücrelere Beş türde değer (Boolean, int, double, DateTime ve string) saklanabilir, ancak getValue()/setValue() yöntemi(ler)i yalnızca nesne değerini erişmek/değiştirmek için kullanılabilir.
 
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-AccessingModifyingCellStringValue-AccessingModifyingCellStringValue.jsp" >}}
-####  **Her Türlü Değer**
-Aspose.Cells.GridWeb ayrıca her hücre için putValue adında özel bir yöntem sağlar. Bu yöntemle bir hücreye herhangi bir türde değer (Boolean, int, double, DateTime ve string) eklemek veya değiştirmek mümkündür.
+#### **Tüm Değer Türleri**
+Aspose.Cells.GridWeb ayrıca her hücre için putValue adında özel bir yöntem sağlar. Bu yöntemle, bir hücreye (Boolean, int, double, DateTime ve string) tipinde herhangi bir değer eklemek veya değiştirmek mümkündür.
 
 
 
@@ -51,21 +52,21 @@ Aspose.Cells.GridWeb ayrıca her hücre için putValue adında özel bir yöntem
 
 
 
-Ayrıca putValue yönteminin, dize biçimindeki her türlü değeri alıp otomatik olarak uygun bir veri türüne dönüştürebilen aşırı yüklenmiş bir sürümü de vardır. Bunu gerçekleştirmek için, aşağıdaki örnekte gösterildiği gibi Boolean değerini true putValue yönteminin başka bir parametresine iletin.
+Ayrıca putValue yönteminin herhangi bir türdeki değeri dize formatında alıp otomatik olarak uygun bir veri türüne dönüştürebilen aşırı yüklenmiş bir sürümü de bulunmaktadır. Bu işlemi gerçekleştirmek için putValue yönteminin başka bir parametresine aşağıdaki örnekte gösterildiği gibi true Boolean değerini iletebilirsiniz.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-AccessingModifyingCellAllTypeValue-AccessingModifyingCellAllTypeValue.jsp" >}}
-##  **Cells'e Formül Ekleme**
-Aspose.Cells.GridWeb'in sunduğu en değerli özellik formül veya fonksiyon desteğidir. Aspose.Cells.GridWeb'in çalışma sayfalarındaki formülleri hesaplayan kendi Formül Motoru vardır. Aspose.Cells.GridWeb hem yerleşik hem de kullanıcı tanımlı işlevleri veya formülleri destekler. Bu konu, Aspose.Cells.GridWeb API'i kullanarak hücrelere formül eklemeyi ayrıntılı olarak açıklamaktadır.
-###  **Formül Nasıl Eklenir ve Hesaplanır?**
- Hücrenin Formül özelliğini kullanarak hücrelere formül eklemek, formüllere erişmek ve bunları değiştirmek mümkündür. Aspose.Cells.GridWeb, basitten karmaşığa kadar kullanıcı tanımlı formülleri destekler. Ancak çok sayıda yerleşik işlev veya formül (Microsoft Excel'e benzer) Aspose.Cells.GridWeb ile birlikte sağlanır. Yerleşik işlevlerin tam listesini görmek için lütfen buna bakın[desteklenen işlevlerin listesi.](/cells/tr/net/list-of-supported-functions/)
+## **Hücrelere Formüller Ekleme**
+Aspose.Cells.GridWeb tarafından sunulan en değerli özellik, çalışma sayfalarındaki formülleri veya işlevleri desteklemedir. Aspose.Cells.GridWeb'ın kendi Formül Motoru vardır ve çalışma sayfalarındaki formülleri hesaplar. Aspose.Cells.GridWeb, önceden yapılandırılmış ve kullanıcı tanımlı işlevleri veya formülleri destekler. Bu konu, Aspose Cells.GridWeb API'sını kullanarak hücrelere formül eklemeyi detaylı olarak ele almaktadır.
+### **Bir Formül Nasıl Eklenir ve Hesaplanır?**
+Hücrelere formül eklemek, erişmek ve değiştirmek Aspose.Cells.GridWeb'in Formula özelliğini kullanarak mümkündür. Aspose.Cells.GridWeb, basit ila karmaşık arasında değişen kullanıcı tanımlı formülleri destekler. Bununla birlikte, birçok yerleşik işlev veya formül (Microsoft Excel'e benzer) Aspose.Cells.GridWeb ile birlikte sağlanmaktadır. Yerleşik işlevlerin tam listesini görmek için lütfen bu [desteklenen işlevler listesine](/cells/tr/net/list-of-supported-functions/) başvurun.
 
 {{% alert color="primary" %}} 
 
-Formül söz dizimi Microsoft Excel söz dizimi ile uyumlu olmalıdır. Örneğin, tüm formüller eşittir işaretiyle (=) başlamalıdır.
+Formül sözdizimi, Microsoft Excel sözdizimiyle uyumlu olmalıdır. Örneğin, tüm formüller eşittir işareti (=) ile başlamalıdır.
 
-Bir formülü programlı olarak eklemek için, Aspose.Cells.GridWeb, *=* işaretini kullanmasanız bile, ancak GUI'de çalışan son kullanıcıların bunu kullanması gerekiyorsa, onu bir formül olarak tanıyacaktır.
+Bir formülü programatik olarak eklemek için, Aspose.Cells.GridWeb, **=** işaretini kullanmasanız bile onu bir formül olarak tanır, ancak GUI'de çalışan son kullanıcıların kullanması gerekmektedir.
 
 {{% /alert %}} 
 
@@ -73,75 +74,75 @@ Bir formülü programlı olarak eklemek için, Aspose.Cells.GridWeb, *=* işaret
 
 
 
-**Formül B3 hücresine eklendi ancak GridWeb tarafından hesaplanmadı** 
+GridWeb tarafından B3 hücresine eklenen ancak hesaplanmayan formül 
 
-![yapılacak şey:image_alt_text](working-with-cells-gridweb_1.png)
+![todo:image_alt_text](working-with-cells-gridweb_1.png)
 
-Yukarıdaki ekran görüntüsünde B3’e bir formülün eklendiğini ancak henüz hesaplanmadığını görebilirsiniz. Tüm formülleri hesaplamak için, aşağıda gösterildiği gibi çalışma sayfalarına formülleri ekledikten sonra GridWeb denetiminin GridWorksheetCollection 'ın hesaplamaFormula yöntemini çağırın.
+Yukarıdaki ekran görüntüsünde görebileceğiniz gibi B3 hücresine bir formül eklenmiş ancak henüz hesaplanmamıştır. Formüllerin tümünü hesaplamak için, formüller ekledikten sonra GridWeb denetiminin GridWorksheetCollection 'ın calculateFormula yöntemini çağırın.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CalculateFormula-CalculateFormula.jsp" >}}
 
-Kullanıcılar ayrıca *Gönder**'i tıklayarak formülleri hesaplayabilirler.
+Kullanıcılar ayrıca **Gönder** düğmesine tıklayarak formülleri hesaplayabilir.
 
-**GridWeb'in Gönder düğmesine tıklamak** 
+GridWeb'in **Gönder** düğmesine tıklama 
 
-![yapılacak şey:image_alt_text](working-with-cells-gridweb_2.png)
+![todo:image_alt_text](working-with-cells-gridweb_2.png)
 
-**ÖNEMLİ**: Bir kullanıcı **Kaydet'i tıklarsa** veya**Geri alma** düğmeler veya sayfa sekmeleri, tüm formüller GridWeb tarafından otomatik olarak hesaplanır.
+**ÖNEMLİ**: Bir kullanıcı **Kaydet** veya **Geri Al** düğmelerine veya sayfa sekmelerine tıklarsa, tüm formüller otomatik olarak GridWeb tarafından hesaplanır.
 
-**Hesaplamadan sonra formül sonucu** 
+**Hesaplama sonrası formül sonucu** 
 
-![yapılacak şey:image_alt_text](working-with-cells-gridweb_3.png)
-###  **Diğer Çalışma Sayfalarından Cells'e Referans Verme**
-Aspose.Cells.GridWeb'i kullanarak, farklı çalışma sayfalarında saklanan değerleri formüllerinde referans alarak karmaşık formüller oluşturmak mümkündür.
+![todo:image_alt_text](working-with-cells-gridweb_3.png)
+### **Diğer Çalışma Sayfalarından Hücrelere Referans Verme**
+Aspose.Cells.GridWeb kullanarak, farklı çalışma sayfalarında depolanan değerlere formüllerinde referans vermek mümkündür, böylece karmaşık formüller oluşturabilir.
 
-Farklı bir çalışma sayfasındaki bir hücre değerine başvuruda bulunmanın sözdizimi şöyledir: SayfaAdı!HücreAdı.
+Farklı çalışma sayfalarından bir hücre değerine referans vermenin sözdizimi ŞemaAdı!HücreAdı'dır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-ReferencingCellsfromOtherWorksheets-ReferencingCellsfromOtherWorksheets.jsp" >}}
-##  **GridWeb'in GridCell'inde Veri Doğrulaması Oluşturma**
- Aspose.Cells.GridWeb eklemenizi sağlar**Veri doğrulama** GridWorksheet.getValidations().add() yöntemini kullanarak. Bu yöntemi kullanarak şunları belirtmeniz gerekir:**Cell Aralık**. Ancak tek bir GridCell'de Veri Doğrulaması oluşturmak istiyorsanız bunu doğrudan GridCell.createValidation() yöntemini kullanarak yapabilirsiniz. Benzer şekilde **Veri Doğrulamayı da kaldırabilirsiniz** GridCell.removeValidation() yöntemini kullanarak bir GridCell'den.
+## **GridWeb'in GridCell'inde Veri Doğrulama Oluşturma**
+Aspose.Cells.GridWeb, GridWorksheet.getValidations().add() yöntemini kullanarak **Veri Doğrulama** eklemenize izin verir. Bu yöntemi kullanarak **Hücre Aralığı**nı belirtmeniz gerekir. Ancak tek bir GridCell'e Veri Doğrulama oluşturmak istiyorsanız, doğrudan GridCell.createValidation() yöntemini kullanabilirsiniz. Benzer şekilde, bir GridCell'den **Veri Doğrulama**yı kaldırmak için GridCell.removeValidation() yöntemini kullanabilirsiniz.
 
- Aşağıdaki örnek kod bir oluşturur**Veri doğrulama** B3 hücresinde. 20 ile 40 arasında olmayan bir değer girerseniz B3 hücresi görünecektir.**Doğrulama Hatası** şeklinde**kırmızı** bu ekran görüntüsünde gösterildiği gibi.
+Aşağıdaki örnek kod, B3 hücresinde bir **Veri Doğrulaması** oluşturur. 20 ile 40 arasında olmayan bir değer girerseniz, B3 hücresi **Kırmızı XXXX** şeklinde bir **Doğrulama Hatası** gösterecektir, bu ekran görüntüsünde gösterildiği gibi.
 
-![yapılacak şey:image_alt_text](working-with-cells-gridweb_4.png)
+![todo:image_alt_text](working-with-cells-gridweb_4.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CreateDataValidationinGridCellofGridWeb-CreateDataValidationinGridCellofGridWeb.jsp" >}}
-##  **Özel Komut Düğmeleri Oluşturma**
-Aspose.Cells.GridWeb, Gönder, Kaydet ve Geri Al gibi özel düğmeler içerir. Tüm bu düğmeler Aspose.Cells.GridWeb için belirli görevleri yerine getirir. Özel görevleri gerçekleştiren özel düğmeler eklemek de mümkündür. Bu konu, bu özelliğin nasıl kullanılacağını açıklamaktadır.
+## **Özel Komut Düğmeleri Oluşturma**
+Aspose.Cells.GridWeb, Gönder, Kaydet ve Geri Al gibi özel düğmeler içerir. Tüm bu düğmeler belirli görevleri Aspose.Cells.GridWeb için gerçekleştirir. Bu özellikle özel görevleri gerçekleştiren özel düğmeler eklemek mümkündür. Bu konu, bu özelliğin nasıl kullanılacağını açıklamaktadır.
 
-Aşağıdaki örnek kod, özel bir komut düğmesinin nasıl oluşturulacağını ve tıklama olayının nasıl işleneceğini açıklamaktadır. Özel komut düğmeniz için herhangi bir simgeyi kullanabilirsiniz. Gösterim amacıyla bu resim simgesini kullandık.
+Aşağıdaki örnek kod, özel komut düğmesi oluşturmayı ve tıklama olayını nasıl yöneteceğinizi açıklar. Özel komut düğmesi için herhangi bir simge kullanabilirsiniz. Gösterim amaçlı olarak bu resim simgesini kullandık.
 
-![yapılacak şey:image_alt_text](working-with-cells-gridweb_5.png)
+![todo:image_alt_text](working-with-cells-gridweb_5.png)
 
- Aşağıdaki ekran görüntüsünde görebileceğiniz gibi, kullanıcı özel komut düğmesini tıkladığında A1 hücresine şunu söyleyen bir metin ekler:**"Özel Komut Düğmem Tıklandı."**
+Aşağıdaki ekran görüntüsünde görebileceğiniz gibi, kullanıcı özel komut düğmesine tıkladığında, A1 hücresine **"Özel Komut Düğmesine Tıklandı."** yazısını ekler.
 
-![yapılacak şey:image_alt_text](working-with-cells-gridweb_6.png)
+![todo:image_alt_text](working-with-cells-gridweb_6.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CreatingCustomCommandButtons-CreatingCustomCommandButtons.jsp" >}}
-###  **Özel Komut Düğmesinin Olay İşleme**
-Aşağıdaki örnek kod, özel komut düğmesinin olay işlemesinin nasıl gerçekleştirileceğini açıklamaktadır.
+### **Özel Komut Düğmesi Olay İşleme**
+Aşağıdaki örnek kod, özel komut düğmesinin olay işlemini nasıl gerçekleştireceğini açıklar.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-EventHandlingofCustomCommandButton-EventHandlingofCustomCommandButton.jsp" >}}
-##  **GridWeb için hücreleri biçimlendirme**
-###  **Olası Kullanım Senaryoları**
-GridWeb artık kullanıcıların hücre verilerini %3 gibi yüzde biçiminde girmelerini destekliyor ve hücredeki veriler otomatik olarak %3,00 olarak biçimlendirilecek. Ancak, hücre stilini GridTableItemStyle.NumberType a 9 veya 10 olan Yüzde Biçimi'ne ayarlamanız gerekecektir. 9 sayısı %3'ü %3 olarak biçimlendirecek, ancak 10 sayısı %3'ü %3,00 olarak biçimlendirecektir.
+## **GridWeb için Hücre Biçimlendirme**
+### **Olası Kullanım Senaryoları**
+GridWeb şimdi kullanıcıların hücre verilerini 3% gibi yüzde formatında girmelerini destekler ve hücredeki veri otomatik olarak 3.00% olarak biçimlendirilir. Ancak, Yüzde Formatı için hücre stili 9 veya 10 olan GridTableItemStyle.NumberType'ın ayarlanması gerekecektir. 9 numara 3% 'ı 3% olarak biçimlendirir, ancak 10 numara 3% 'ı 3.00% olarak biçimlendirir.
 
 {{% alert color="primary" %}} 
 
-Hücre stilini Yüzde Formatı olarak ayarlamadıysanız, %3 giriş verisi 0,03 olarak görüntülenecektir.
+Hücre stili Yüzde Formatı olarak ayarlanmamışsa, 3% giriş verisi 0.03 olarak görüntülenir.
 
 {{% /alert %}} 
-###  **GridWeb Çalışma Sayfasının Cell Verilerini Yüzde Formatında Girin**
-Aşağıdaki örnek kod, A1 GridTableItemStyle.NumberType hücresini 10 olarak ayarlar, dolayısıyla giriş verileri %3, ekran görüntüsünde gösterildiği gibi otomatik olarak %3,00 olarak biçimlendirilir.
+### **GridWeb Çalışsayfanın Hücre Verilerini Yüzde Formatında Girin**
+Aşağıdaki örnek kod, A1 hücresinin GridTableItemStyle.NumberType'ını 10 olarak ayarlar, bu nedenle giriş verisi 3% otomatik olarak 3.00% olarak biçimlendirilir. Ekran görüntüsünde gösterildiği gibi.
 
-![yapılacak şey:image_alt_text](working-with-cells-gridweb_7.png)
-###  **Basit kod**
+![todo:image_alt_text](working-with-cells-gridweb_7.png)
+### **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-EnterCellDataofGridWebWorksheet-EnterCellDataofGridWebWorksheet.jsp" >}}

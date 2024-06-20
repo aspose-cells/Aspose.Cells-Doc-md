@@ -1,46 +1,47 @@
-﻿---
-title: Konvertieren von Arbeitsmappen in verschiedene Formate
+---
+title: Konvertierung der Arbeitsmappe in verschiedene Formate
 type: docs
 weight: 20
 url: /de/java/converting-workbook-to-different-formats/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells unterstützt die Konvertierung zwischen vielen Formaten. Technisch gesehen bedeutet Konvertierung, eine Arbeitsmappe in einem Dateiformat zu laden und in einem anderen zu speichern.
+Aspose.Cells unterstützt die Konvertierung zwischen vielen Formaten. Technisch gesehen bedeutet Konvertierung, eine Arbeitsmappe in einem Dateiformat zu laden und in ein anderes zu speichern.
 
 {{% /alert %}}
 
-## **Konvertieren von Excel in XPS**
+## **Excel in XPS umwandeln**
 
-Das Dokumentformat XPS besteht aus strukturiertem XML-Markup, das das Layout eines Dokuments und das visuelle Erscheinungsbild jeder Seite definiert, zusammen mit Wiedergaberegeln für das Verteilen, Archivieren, Wiedergeben, Verarbeiten und Drucken von Dokumenten.
+Das XPS-Dokumentenformat besteht aus strukturierter XML-Auszeichnung, die das Layout eines Dokuments und das visuelle Erscheinungsbild jeder Seite sowie Rendering-Regeln zur Verteilung, Archivierung, zum Rendering, zur Verarbeitung und zum Drucken von Dokumenten definiert.
 
-Die Auszeichnungssprache für XPS ist eine Teilmenge von XAML, die es ermöglicht, Vektorgrafikelemente in Dokumente einzubinden, wobei XAML verwendet wird, um die Windows Presentation Foundation (WPF)-Grundelemente auszuzeichnen. Die verwendeten Elemente werden in Form von Pfaden und anderen geometrischen Grundelementen beschrieben.
+Die Auszeichnungssprache für XPS ist ein Teilmenge von XAML, die es ermöglicht, Vektorgrafikelemente in Dokumente zu integrieren, wobei XAML zur Markierung der Windows Presentation Foundation (WPF)-Primitive verwendet wird. Die verwendeten Elemente werden in Bezug auf Pfade und andere geometrische Primitive beschrieben.
 
-Eine XPS-Datei ist tatsächlich ein Unicode-ZIP-Archiv, das die Open Packaging Conventions verwendet und die Dateien enthält, aus denen das Dokument besteht. Dazu gehören eine XML-Markup-Datei für jede Seite, Text, eingebettete Schriftarten, Rasterbilder, 2D-Vektorgrafiken sowie die Informationen zur digitalen Rechteverwaltung. Der Inhalt einer XPS-Datei kann einfach untersucht werden, indem Sie sie in einer Anwendung öffnen, die ZIP-Dateien unterstützt.
+Eine XPS-Datei ist tatsächlich ein Unicoded-ZIP-Archiv, das die Open Packaging Conventions verwendet und die Dateien enthält, die das Dokument ausmachen. Dazu gehören eine XML-Auszeichnungsdatei für jede Seite, Text, eingebettete Schriftarten, Rasterbilder, 2D-Vektorgrafiken sowie die digitalen Rechtemanagement-Informationen. Der Inhalt einer XPS-Datei kann ganz einfach durch Öffnen in einer Anwendung, die ZIP-Dateien unterstützt, untersucht werden.
 
-Ab Aspose.Cells 6.0.0 wird die Konvertierung von Microsoft Excel nach XPS unterstützt.
+Ab Aspose.Cells 6.0.0 wird die Konvertierung von Microsoft Excel zu XPS unterstützt.
 
-### **Konvertieren eines einzelnen Arbeitsblatts in XPS**
+### **Konvertierung einzelner Arbeitsblätter in XPS**
 
-Das folgende Beispiel zeigt, wie Sie ein einzelnes Arbeitsblatt in einer Excel-Datei in XPS konvertieren.
+Das folgende Beispiel zeigt, wie ein einzelnes Arbeitsblatt in einer Excel-Datei in XPS konvertiert wird.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingsingleWorksheetToXPS-ConvertingsingleWorksheetToXPS.java" >}}
 
-### **Ganze Arbeitsmappe nach XPS exportieren**
+### **Gesamtes Arbeitsblatt in XPS exportieren**
 
-Das folgende Beispiel zeigt, wie die gesamte Arbeitsmappe in das Format XPS konvertiert wird.
+Das folgende Beispiel zeigt, wie das gesamte Arbeitsblatt in das XPS-Format konvertiert wird.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ExportWholeWorkbookToXPS-ExportWholeWorkbookToXPS.java" >}}
 
-### **Schnelle Umwandlung von Excel in XPS**
+### **Schnelle Excel zu XPS Konvertierung**
 
-Das folgende Beispiel zeigt eine einfache Möglichkeit, die Excel-Datei direkt in das Format XPS zu konvertieren.
+Das folgende Beispiel zeigt einen einfachen Weg, um die Excel-Datei direkt in das XPS-Format zu konvertieren.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-QuickExcelToXPSConversion-QuickExcelToXPSConversion.java" >}}
 
-## **Konvertieren von Excel in MHTML-Dateien**
+## **Konvertierung von Excel in MHTML-Dateien**
 
-[MHTML](https://en.wikipedia.org/wiki/MHTML) kombiniert normale HTML mit externen Ressourcen; Das heißt, Inhalte, die normalerweise wie Bilder, Animationen, Audio usw. in einer Datei verknüpft sind. Sie werden für E-Mails mit der Dateierweiterung .mht verwendet.
+[**MHTML**](https://en.wikipedia.org/wiki/MHTML) kombiniert normales HTML mit externen Ressourcen; das heißt, Inhalte, die normalerweise wie Bilder, Animationen, Audio usw. verlinkt sind, in eine Datei ein. Sie werden für E-Mails mit der Dateierweiterung .mht verwendet.
 
 {{% alert color="primary" %}}
 
@@ -48,143 +49,143 @@ Aspose.Cells unterstützt das Lesen und Schreiben von MHTML-Dateien.
 
 {{% /alert %}}
 
-Das Konvertieren einer Tabelle in MHTML ist ein schneller Vorgang, wie unten gezeigt.
+Die Umwandlung eines Tabellenkalkulationsblatts in MHTML ist wie unten gezeigt schnell und einfach.
 
-Das folgende Codebeispiel zeigt, wie eine Arbeitsmappe als MHTML-Datei gespeichert wird.
+Das unten stehende Codebeispiel zeigt, wie man eine Arbeitsmappe als MHTML-Datei speichert.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingToMHTMLFiles-ConvertingToMHTMLFiles.java" >}}
 
-## **Konvertieren von Excel-Dateien in HTML**
+## **Excel-Dateien in HTML konvertieren**
 
- Die Aspose.Cells-APIs bieten Unterstützung für den Export von Tabellenkalkulationen in das HTML-Format. Dazu nutzt die Aspose.Cells die**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**Klasse, mit der Entwickler mehrere Aspekte der Ausgabe HTML steuern können.
+Die Aspose.Cells-APIs unterstützen den Export von Tabellenkalkulationen im HTML-Format. Zu diesem Zweck verwendet Aspose.Cells die Klasse [**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions), mit der Entwickler mehrere Aspekte der Ausgabe-HTML steuern können.
 
-Der folgende Code zeigt, wie man die verwendet**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**Klasse zum Exportieren von Microsoft-Excel-Dateien in das HTML-Format, ohne zusätzliche Parameter anzugeben.
+Der folgende Code zeigt, wie die Klasse [**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions) verwendet wird, um Microsoft Excel-Dateien im HTML-Format ohne zusätzliche Parameter zu exportieren.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingToHTMLFiles-ConvertingToHTMLFiles.java" >}}
 
 {{% alert color="primary" %}}
 
- Sie können die gleichen Ergebnisse erzielen, wenn Sie die bestehen**[SaveFormat.HTML](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)** zum**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))** Methode.
+Die gleichen Ergebnisse können erzielt werden, indem [**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML) an die Methode [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) übergeben wird.
 
 {{% /alert %}}
 
-### **Festlegen der Bildeinstellungen für HTML**
+### **Einstellen von Bildpräferenzen für HTML**
 
- Ab 8.0.2 hat Aspose.Cells ausgesetzt**[ImageOptions](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)**für die**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**-Klasse, die es Entwicklern ermöglicht, Bildeinstellungen beim Speichern von Tabellenkalkulationen im Format HTML festzulegen.
+Ab Version 8.0.2 hat Aspose.Cells [**ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions) für die Klasse [**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions) freigelegt, wodurch Entwickler Bildpräferenzen beim Speichern von Tabellenkalkulationen im HTML-Format festlegen können.
 
-Folgende Bildeinstellungen können angewendet werden:
+Die anwendbaren Bildeinstellungen sind:
 
-- **[ImageType](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType)**: Ruft den Bildtyp ab oder legt ihn fest. Bitte beachten Sie, dass alle Formen, einschließlich Diagramme, als Bilder in der Ausgabe HTML gerendert werden.
-- **[Qualität](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality)**: Ruft die Qualität von Bildern zwischen 0 und 100 ab oder legt sie fest, wenn ImageFormat als JPEG angegeben ist.
-- **[VerticalResolution](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution)**: Ruft die vertikale Auflösung des Bildes in Punkten pro Zoll ab oder legt sie fest.
-- **[HorizontalResolution](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution)**: Ruft die horizontale Auflösung des Bildes in Punkten pro Zoll ab oder legt sie fest.
-- **[TiffCompression](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression)**Ruft den Komprimierungstyp für die Bilder ab oder legt ihn fest, wenn ImageFormat als Tiff angegeben ist.
-- **[Transparent](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent)**: Gibt an, ob der Hintergrund eines Bildes transparent sein soll, wenn ImageFormat als Png angegeben ist.
+- [**ImageType**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType): Ruft den Bildtyp ab oder legt ihn fest. Bitte beachten Sie, dass alle Formen, einschließlich Diagramme, im Ausgabe-HTML als Bilder gerendert werden.
+- [**Quality**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality): Ruft die Qualität der Bilder zwischen 0 und 100 ab oder legt sie fest, wenn ImageFormat als Jpeg festgelegt ist.
+- [**VerticalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution): Ruft die vertikale Auflösung des Bildes in Punkten pro Zoll ab oder legt sie fest.
+- [**HorizontalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution): Ruft die horizontale Auflösung des Bildes in Punkten pro Zoll ab oder legt sie fest.
+- [**TiffCompression**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression): Ruft den Kompressionstyp für die Bilder ab oder legt ihn fest, wenn ImageFormat als Tiff festgelegt ist.
+- [**Transparent**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent): Gibt an, ob der Hintergrund eines Bildes transparent sein soll, wenn ImageFormat als Png festgelegt ist.
 
- Der folgende Code demonstriert die Verwendung**[HtmlSaveOptions.ImageOptions](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)** verschiedene Vorlieben angeben.
+Der unten stehende Code demonstriert, wie man [**HtmlSaveOptions.ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions) verwendet, um verschiedene Präferenzen festzulegen.
 
-|**Tabellenansicht vor dem Export**|**HTML Ansicht nach dem Export**|
-|:- |:- |
-|![Tabellenansicht vor dem Export](converting-workbook-to-different-formats_1.png)|![HTML Ansicht nach dem Export](converting-workbook-to-different-formats_2.png)|
+|**Tabellenansicht vor dem Export**|**HTML-Ansicht nach dem Export**|
+| :- | :- |
+|![Tabellenansicht vor dem Export](converting-workbook-to-different-formats_1.png)|![HTML-Ansicht nach dem Export](converting-workbook-to-different-formats_2.png)|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SettingImagePrefrencesforHTML-SettingImagePrefrencesforHTML.java" >}}
 
-## **Konvertieren von Excel in PDF-Dateien**
+## **Umwandlung von Excel in PDF-Dateien**
 
-PDF-Dokumente werden häufig als Standardformat für den Austausch von Dokumenten zwischen Organisationen, Regierungssektoren und Einzelpersonen verwendet. Softwareentwickler werden oft gebeten, eine Möglichkeit zu finden, Microsoft-Excel-Dateien einfach in PDF-Dokumente umzuwandeln. Aspose.Cells unterstützt diese Funktionen. Dieser Artikel zeigt, wie.
+PDF-Dokumente werden häufig als Standardformat zum Austausch von Dokumenten zwischen Organisationen, Regierungsstellen und Einzelpersonen verwendet. Softwareentwickler werden oft gebeten, eine Möglichkeit zu entwickeln, Microsoft Excel-Dateien einfach in PDF-Dokumente umzuwandeln. Aspose.Cells unterstützt diese Funktionen. In diesem Artikel wird gezeigt, wie.
 
-### **Konvertieren von Excel in PDF**
+### **Konvertierung von Excel nach PDF**
 
-Microsoft Die Konvertierung von Excel in PDF wurde mit Aspose.Cells for Java 2.3.0 eingeführt. Ab dieser Version kann Aspose.Cells[Konvertieren Sie Tabellenkalkulationen direkt in PDF](#direct-conversion) (einschließlich[PDF/A](#saving-excel-spreadsheets-to-pdfa-complied-files) ), ohne ein anderes Produkt. Um Tabellenkalkulationen mit älteren Versionen von Aspose.Cells zu konvertieren,[Verwenden Sie Aspose.PDF für die Konvertierung](#conversion-with-asposepdf-asposecells-prior-to-230).
+Die Umwandlung von Microsoft Excel in PDF wurde mit Aspose.Cells for Java 2.3.0 eingeführt. Ab diesem Release kann Aspose.Cells [Tabellenkalkulationen direkt in PDF umwandeln](#direct-conversion) (einschließlich [PDF/A](#saving-excel-spreadsheets-to-pdfa-complied-files)), ohne ein anderes Produkt. Um Tabellenkalkulationen mit älteren Versionen von Aspose.Cells umzuwandeln, [verwenden Sie Aspose.PDF für die Umwandlung](#conversion-with-asposepdf-asposecells-prior-to-230).
 
- Aspose.Cell konvertiert Tabellenkalkulationen mit einem hohen Grad an Genauigkeit und Wiedergabetreue in PDF. Es gibt jedoch einige[Einschränkungen](/cells/de/java/converting-workbook-to-different-formats/#conversion-attributes), aufgeführt am Ende dieses Artikels.
+Aspose.Cells konvertiert Tabellenkalkulationen mit hoher Genauigkeit und Treue in PDF. Es gibt jedoch einige [Einschränkungen](/cells/de/java/converting-workbook-to-different-formats/#conversion-attributes), die am Ende dieses Artikels aufgeführt sind.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java schreibt die Informationen über API und die Versionsnummer direkt in Ausgabedokumente. Beispielsweise wird beim Rendern von Dokument an PDF Aspose.Cells for Java ausgefüllt**Anwendung** Feld mit dem Wert 'Aspose.Cells' und**PDF Hersteller** Feld mit einem Wert, zB 'Aspose.Cells for Java v17.9'.
+Aspose.Cells for Java schreibt die Informationen über API und Versionsnummer direkt in Ausgabedokumente. Zum Beispiel füllt Aspose.Cells for Java beim Rendern des Dokuments in PDF das Feld **Anwendung** mit dem Wert 'Aspose.Cells' und das Feld **PDF-Produzent** mit einem Wert, z.B. 'Aspose.Cells for Java v17.9', aus.
 
-Bitte beachten Sie, dass Sie Aspose.Cells for Java nicht anweisen können, diese Informationen aus Ausgabedokumenten zu ändern oder zu entfernen.
+Bitte beachten Sie, dass Sie Aspose.Cells for Java nicht anweisen können, diese Informationen aus den Ausgabedokumenten zu ändern oder zu entfernen.
 
 {{% /alert %}}
 
 #### **Direkte Konvertierung**
 
-Speichern Sie eine Excel-Datei direkt unter PDF mit dem**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))** Methode und bieten die**[SaveFormat.PDF](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)**Schnittstellenmitglied. Eine direkte Konvertierung wie diese ist die effizienteste Konvertierungsmethode. Es gehen keine Daten oder Formatierungen verloren, aber die Ausgabe PDF sieht wie die Excel-Eingabedatei aus.
+Speichern Sie eine Excel-Datei direkt als PDF mit der [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) Methode und geben Sie das [**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF) Schnittstellenmitglied an. Eine direkte Konvertierung wie diese ist die effizienteste Konvertierungsmethode. Sie verliert keine Daten oder Formate, sondern lässt das Ausgabepdf wie die Eingabe-Exceldatei aussehen.
 
- Verwenden Sie zum Festlegen von Sicherheitsoptionen beim Speichern unter PDF**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)**.
+Um Sicherheitsoptionen beim Speichern als PDF festzulegen, verwenden Sie [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-Excel2PDFConversion-Excel2PDFConversion.java" >}}
 
 #### **Erweiterte Konvertierung**
 
-Sie können sich auch für die Verwendung entscheiden**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** -Klasse, um verschiedene Attribute für die Konvertierung festzulegen. Festlegen verschiedener Eigenschaften von**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** -Klasse gibt Ihnen die Kontrolle über die Druck-, Schriftart-, Sicherheits- und Komprimierungseinstellungen für die resultierende PDF-Datei. Die bemerkenswerteste Eigenschaft ist die**[Konformität](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance)**Damit können Sie die Excel-Dateien in PDF/A-kompatible PDF-Dateien speichern.
+Sie können auch die [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)-Klasse verwenden, um verschiedene Attribute für die Konvertierung festzulegen. Das Festlegen verschiedener Eigenschaften der [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)-Klasse gibt Ihnen die Kontrolle über die Druck-, Schrift-, Sicherheits- und Kompressionseinstellungen für die resultierende PDF-Datei. Die bemerkenswerteste Eigenschaft ist die [**Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance), die es Ihnen ermöglicht, die Excel-Dateien als PDF/A-konforme PDF-Dateien zu speichern.
 
-##### **Speichern von Excel-Tabellen in PDF/A kompilierte Dateien**
+##### **Speichern von Excel-Tabellenkalkulationen als PDF/A-konforme Dateien**
 
-Das unten bereitgestellte Code-Snippet demonstriert die Verwendung von**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** Klasse zum Speichern der Excel-Dateien im PDF/A-kompatiblen PDF-Format.
+Im folgenden bereitgestellten Codeausschnitt wird die Verwendung der [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)-Klasse demonstriert, um die Excel-Dateien im PDF/A-konformen PDF-Format zu speichern.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AdvancedConversiontoPdf-AdvancedConversiontoPdf.java" >}}
 
-#### **Konvertierung mit Aspose.Pdf: Aspose.Cells Vor 2.3.0**
+#### **Umwandlung mit Aspose.Pdf: Aspose.Cells vor 2.3.0**
 
- Für Aspose.Cells-Versionen vor Version 2.3.0 müssen Sie eine Komponente wie verwenden[Aspose.PDF for Java](/pdf/java/)zum Konvertieren von Tabellenkalkulationen in PDF-Dateien. Aspose.Cells und Aspose.PDF arbeiten zusammen, um eine Tabelle über einen Zwischenschritt in PDF umzuwandeln.
+Für Aspose.Cells-Versionen vor Version 2.3.0 müssen Sie eine Komponente wie [Aspose.PDF für Java](/pdf/java/) verwenden, um Tabellenkalkulationen in PDF-Dateien umzuwandeln. Aspose.Cells und Aspose.PDF arbeiten zusammen, um eine Tabellenkalkulation über einen Zwischenschritt in PDF umzuwandeln.
 
-So konvertieren Sie Tabellenkalkulationen in PDF mit Aspose.Cells und Aspose.PDF:
+Um Tabellenkalkulationen in PDF mit Aspose.Cells und Aspose.PDF umzuwandeln:
 
-1.  Instanziieren Sie ein Objekt der**[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**Klasse, indem Sie ihren leeren Konstruktor aufrufen.
-1. Erledigen Sie Ihre gewünschte Arbeit an der Tabelle mit Aspose.Cells API.
-1. Ruf den ... an**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))**Methode zum Speichern der Tabelle:
- 1. Stellen Sie das Dateiformat auf XML ein.
- 1. Wählen Sie Aspose_Pdf (ein vordefinierter Wert) aus der FileFormatType-Schnittstelle aus. Dies weist die save-Methode an, eine Kalkulationstabelle in XML-Form zu generieren, die mit dem Aspose.PDF-Schema kompatibel ist, so dass Aspose.PDF for Java dann ein PDF-Dokument generieren kann.
+Instantiieren Sie ein Objekt der Klasse [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), indem Sie ihren leeren Konstruktor aufrufen.
+2. Führen Sie Ihre gewünschte Arbeit an der Tabellenkalkulation mit der Aspose.Cells API durch.
+1. Rufen Sie die [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))-Methode auf, um die Tabelle zu speichern:
+   4. Legen Sie das Dateiformat auf XML fest.
+   5. Wählen Sie Aspose_Pdf (einen vordefinierten Wert) aus dem Interface-Mitglied FileFormatType. Dadurch wird die Save-Methode angewiesen, eine Tabellenkalkulation in der XML-Form zu generieren, die mit dem Aspose.PDF-Schema kompatibel ist, so dass Aspose.PDF für Java dann ein PDF-Dokument generieren kann.
 1. Wenn die XML-Datei erstellt wurde, erstellen Sie ein Objekt der Klasse Pdf im Paket aspose.pdf.
-1. Rufen Sie die bindXML-Methode der Pdf-Klasse auf und übergeben Sie den Namen der XML-Ausgabedatei.
-1. Rufen Sie die save-Methode der Pdf-Klasse auf, um das Dokument PDF zu generieren.
+1. Rufen Sie die Methode bindXML der Klasse Pdf auf und übergeben Sie den Namen der Ausgabedatei des XML.
+1. Rufen Sie die Methode save der Klasse Pdf auf, um das PDF-Dokument zu generieren.
 
-Die obigen Schritte werden nachfolgend beispielhaft umgesetzt.
+Die obigen Schritte werden unten in einem Beispiel implementiert.
 
 {{% alert color="primary" %}}
 
-Wenn Ihre Tabellenkalkulation Formeln enthält, rufen Sie am besten an**[Workbook.calculateFormula](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())** -Methode kurz vor dem Rendern der Tabelle in das PDF-Format. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet und die richtigen Werte in PDF wiedergegeben werden.
+Wenn Ihre Tabelle Formeln enthält, ist es am besten, die Methode [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) kurz vor dem Rendern der Tabelle im PDF-Format aufzurufen. Dadurch werden die von der Formel abhängigen Werte neu berechnet, und die korrekten Werte werden im PDF gerendert.
 
 {{% /alert %}}
 
-#### **Konvertierungsattribute**
+#### **Konvertierungseigenschaften**
 
-Wir arbeiten hart daran, die Konvertierung und andere Aspekte von Aspose.Cells mit jeder Veröffentlichung zu verbessern. Die Konvertierung von Excel in PDF hat einige Einschränkungen. Einige in einer Tabelle angegebene Formateinstellungen gehen möglicherweise verloren, und nicht alle Zeichnungsobjekte werden unterstützt.
+Wir arbeiten hart daran, die Konvertierung und andere Aspekte von Aspose.Cells mit jeder Veröffentlichung zu verbessern. Die Konvertierung von Excel nach PDF hat einige Einschränkungen. Einige im Tabellenblatt festgelegte Formatierungen können verloren gehen, und nicht alle Zeichenobjekte werden unterstützt.
 
-Die folgende Tabelle listet alle Funktionen auf, die beim Exportieren nach PDF mit Aspose.Cells vollständig oder teilweise unterstützt werden. Diese Tabelle ist nicht endgültig und deckt nicht alle Tabellenattribute ab. Es kann auch diejenigen Funktionen identifizieren, die möglicherweise nicht oder teilweise für die Konvertierung unterstützt werden.
+Die Tabelle unten listet alle Funktionen auf, die beim Exportieren in PDF mit Aspose.Cells vollständig oder teilweise unterstützt werden. Diese Tabelle ist nicht abschließend und deckt nicht alle Tabellenkennzeichen ab. Sie kann auch Funktionen identifizieren, die möglicherweise nicht unterstützt werden oder nur teilweise für die Konvertierung unterstützt werden.
 
 {{% alert color="primary" %}}
 
-|**Dokumentelement**|**Attribut**|**Netz unterstützt**|**Anmerkungen**|
-|:- |:- |:- |:- |
-|Ausrichtung||Ja||
-|Drehung||Teilweise|Unterstützt nur 90 und -90.|
-|Hintergrundeinstellungen||Ja||
-|Grenze|Farbe|Ja||
-|Grenze|Linienstil|Ja||
-|Grenze|Linienbreite|Ja||
-|Cell Daten||Ja||
-|Bemerkungen||Nein||
-|Bedingte Formatierung||Ja||
-|Dokumenteigenschaften||Ja||
-|Objekte zeichnen||Ja||
-|Schriftart|Größe|Ja||
-|Schriftart|Farbe|Ja||
-|Schriftart|Stil|Ja||
-|Schriftart|Unterstreichen|Ja||
-|Schriftart|Auswirkungen|Teilweise|Nur der Durchstreicheffekt wird unterstützt|
-|Bilder||Ja||
-|Hyperlinks||Ja||
-|Diagramme||Ja||
-|Zusammengeführt Cells||Ja||
-|Seitenumbruch||Ja||
-|Seiteneinrichtung|Kopfzeile Fußzeile|Ja||
-|Seiteneinrichtung|Ränder|Ja||
-|Seiteneinrichtung|Seitenausrichtung|Ja||
-|Seiteneinrichtung|Seitengröße|Ja||
-|Seiteneinrichtung|Druckbereich|Ja||
-|Seiteneinrichtung|Titel drucken|Ja||
-|Seiteneinrichtung|Skalierung|Ja||
-|Zeilenhöhe/Spaltenbreite||Ja||
+|**Dokumentenelement**|**Attribute**|**Vollständig unterstützt**|**Anmerkungen**|
+| :- | :- | :- | :- |
+|Ausrichtung| |Ja| |
+|Drehung| |Teilweise|Unterstützt nur 90 und -90.|
+|Hintergrund-Einstellungen| |Ja| |
+|Rahmen|Farbe|Ja| |
+|Rahmen|Linienart|Ja| |
+|Rahmen|Linienbreite|Ja| |
+|Zellendaten| |Ja| |
+|Kommentare| |Nein| |
+|Bedingte Formatierung| |Ja| |
+|Dokumenteigenschaften| |Ja| |
+|Zeichenobjekte| |Ja| |
+|Schriftart|Größe|Ja| |
+|Schriftart|Farbe|Ja| |
+|Schriftart|Stil|Ja| |
+|Schriftart|Unterstrichen|Ja| |
+|Schriftart|Effekte|Teilweise|Nur der Durchstreicheffekt wird unterstützt|
+|Bilder| |Ja| |
+|Hyperlink| |Ja| |
+|Diagramme| |Ja| |
+|Zellen zusammenführen| |Ja| |
+|Seitenumbruch| |Ja| |
+|Seiteneinrichtung|Kopfzeile/Fußzeile|Ja| |
+|Seiteneinrichtung|Ränder|Ja| |
+|Seiteneinrichtung|Seitenorientierung|Ja| |
+|Seiteneinrichtung|Seitengröße|Ja| |
+|Seiteneinrichtung|Druckbereich|Ja| |
+|Seiteneinrichtung|Drucktitel|Ja| |
+|Seiteneinrichtung|Skalierung|Ja| |
+|Zeilenhöhe/Spaltenbreite| |Ja| |
 {{% /alert %}}

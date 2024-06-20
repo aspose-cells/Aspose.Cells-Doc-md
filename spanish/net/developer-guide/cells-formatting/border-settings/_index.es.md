@@ -1,85 +1,86 @@
 ---
-title: Configuración de borde
-description: Cómo utilizar la biblioteca Aspose.Cells en C# para establecer el estilo del borde y el color de las celdas. Al ajustar el ancho, el estilo y el color del borde, tiene más control sobre el aspecto y la apariencia de las celdas.
-keywords: Aspose.Cells, Cell Border Settings, C#, Border Width, Border Style, Border Color
+title: Configuración de bordes
+description: Cómo usar la biblioteca Aspose.Cells en C# para establecer el estilo y color del borde de las celdas. Al ajustar el ancho, estilo y color del borde, se tiene un mayor control sobre cómo se ven y aparecen las celdas.
+keywords: Aspose.Cells, Configuración de bordes de celda, C#, Ancho del borde, Estilo de borde, Color del borde
 type: docs
 weight: 40
 url: /es/net/cells-border-settings/
 ---
-##  **Agregar bordes a Cells**
 
-Microsoft Excel permite a los usuarios formatear celdas agregando bordes. El tipo de borde depende de dónde se agregue. Por ejemplo, un borde superior es aquel que se agrega a la posición superior de una celda. Los usuarios también pueden modificar el estilo y el color de las líneas de los bordes.
+## **Añadiendo Bordes a las Celdas**
 
-Con Aspose.Cells, los desarrolladores pueden agregar bordes y personalizar su apariencia de la misma manera flexible que en Microsoft Excel.
+Microsoft Excel permite a los usuarios formatear celdas agregando bordes. El tipo de borde depende de dónde se agrega. Por ejemplo, un borde superior es aquel agregado a la posición superior de una celda. Los usuarios también pueden modificar el estilo de línea y el color de los bordes.
 
-###  **Agregar bordes a Cells**
+Con Aspose.Cells, los desarrolladores pueden agregar bordes y personalizar su aspecto de la misma manera flexible que en Microsoft Excel.
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo Excel Microsoft. El[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de cálculo del archivo Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. El[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase proporciona la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) recopilación. Cada elemento en el[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) colección representa un objeto de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)clase.
+### **Añadiendo Bordes a las Celdas**
 
- Aspose.Cells proporciona la[**Obtener estilo**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)método en el[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)clase. El[**Establecer estilo**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)El método se utiliza para establecer el estilo de formato de una celda. El[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style)La clase proporciona propiedades para agregar bordes a las celdas.
+Aspose.Cells proporciona una clase, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Microsoft Excel. La clase [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contiene una colección de [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) que permite acceder a cada hoja de cálculo en el archivo de Excel. Una hoja de cálculo está representada por la clase [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La clase [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) proporciona la colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Cada elemento en la colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) representa un objeto de la clase [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
-####  **Agregar bordes a un Cell**
+Aspose.Cells proporciona el método [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) en la clase [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell). El método [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) se utiliza para establecer el estilo de formato de una celda. La clase [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) proporciona propiedades para añadir bordes a las celdas.
 
-Los desarrolladores pueden agregar bordes a una celda usando el[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objetos[**Fronteras**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) recopilación. El tipo de borde se pasa como índice del[**Fronteras**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) recopilación. Todos los tipos de borde están predefinidos en el[**Tipo de borde**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) enumeración.
+#### **Añadir bordes a una celda**
 
-**Enumeración de fronteras**
+Los desarrolladores pueden añadir bordes a una celda utilizando la colección [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) del objeto [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style). El tipo de borde se pasa como un índice a la colección [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders). Todos los tipos de bordes están predefinidos en la enumeración [**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype).
 
-|**Tipos de borde**|**Descripción**|
+**Enumeración de Bordes**
+
+|**Tipos de Bordes**|**Descripción**|
 | :- | :- |
-|Borde inferior|Una línea fronteriza inferior|
-|DiagonalAbajo|Una línea diagonal desde la parte superior izquierda hasta la parte inferior derecha.|
-|DiagonalArriba|Una línea diagonal desde la parte inferior izquierda hasta la parte superior derecha.|
-|Borde izquierdo|Una línea fronteriza izquierda|
-|borde derecho|Una línea fronteriza derecha|
-|Borde superior|Una línea fronteriza superior|
+|BottomBorder|Una línea de borde inferior|
+|DiagonalDown|Una línea diagonal de la esquina superior izquierda a la esquina inferior derecha|
+|DiagonalUp|Una línea diagonal de la esquina inferior izquierda a la esquina superior derecha|
+|LeftBorder|Una línea de borde izquierda|
+|RightBorder|Una línea de borde derecha|
+|TopBorder|Una línea de borde superior|
 
-El[**Fronteras**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders)La colección almacena todas las fronteras. Cada frontera en el[**Fronteras**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) colección está representada por un[**Borde**](https://reference.aspose.com/cells/net/aspose.cells/border) objeto que proporciona dos propiedades,[**Color**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) y[**Estilo de línea**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle)para establecer el color y el estilo de la línea de un borde respectivamente.
+The [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection stores all borders. Each border in the [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection is represented by a [**Border**](https://reference.aspose.com/cells/net/aspose.cells/border) object which provides two properties, [**Color**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) and [**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) to set a border's line color and style respectively.
 
-Para establecer el color de la línea de un borde, seleccione un color usando la enumeración Color (parte del marco .NET) y asígnelo a la propiedad Color del objeto Borde.
+Para establecer el color de la línea de un borde, seleccione un color usando la enumeración Color (parte del Framework .NET) y asígnele la propiedad Color del objeto Border.
 
- El estilo de línea del borde se establece seleccionando un estilo de línea del menú[**Tipo de borde de celda**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)enumeración.
+El estilo de línea del borde se establece seleccionando un estilo de línea de la enumeración [**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)
 
-**Enumeración CellBorderType**
+**Enumeración de Tipo de Bordes de Celda**
 
-|**Estilos de línea**|**Descripción**|
+|**Estilos de Línea**|**Descripción**|
 | :- | :- |
-|Guion punto|Línea fina de puntos y trazos|
-|DashPuntoPunto|Línea fina de guiones, puntos y puntos|
-|discontinuo|Linea discontinua|
-|Punteado|Linea punteada|
-|Doble|Doble linea|
-|Cabello|Línea de pelo|
-|Punto de guión medio|Línea media de puntos y trazos|
-|MedioDashPuntoPunto|Línea mediana de guiones, puntos y puntos|
-|Medio discontinuo|Línea discontinua media|
-|Ninguno|No hay línea|
-|Medio|linea media|
-|InclinadoDashDot|Línea de puntos y trazos medianos inclinados|
-|Grueso|linea gruesa|
-|Delgado|Linea fina|
-Seleccione uno de los estilos de línea y luego asígnelo al[**Borde**](https://reference.aspose.com/cells/net/aspose.cells/border) objetos[**Estilo de línea**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) propiedad.
+|DashDot|Línea fina con guiones y puntos|
+|DashDotDot|Línea fina con guiones y puntos y puntos|
+|Dashed|Línea discontinua|
+|Dotted|Línea punteada|
+|Double|Línea doble|
+|Hair|Línea fina|
+|MediumDashDot|Línea medianamente punteada|
+|MediumDashDotDot|Línea mediana punto-punteada|
+|MediumDashed|Línea mediana punteada|
+|None|Sin línea|
+|Medium|Línea mediana|
+|SlantedDashDot|Línea oblicua medianamente punteada|
+|Thick|Línea gruesa|
+|Thin|Línea delgada|
+Selecciona uno de los estilos de línea y luego asígnalo a la propiedad [**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) del objeto [**Border**](https://reference.aspose.com/cells/net/aspose.cells/border).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBordersToCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Debes configurar tanto el estilo como el color de la línea al mismo tiempo. Las dos líneas de borde diagonales deben tener el mismo estilo y color de línea.
+Debes configurar tanto el estilo como el color de la línea al mismo tiempo. Las dos líneas diagonales de borde deben tener el mismo estilo y color.
 
 {{% /alert %}}
 
-####  **Agregar bordes a un rango de Cells**
+#### **Agregar bordes a un rango de celdas**
 
- También es posible agregar bordes a un rango de celdas en lugar de solo una celda. Para hacerlo, primero, cree un rango de celdas llamando al[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) colección[**Crear rango**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) método. Toma los siguientes parámetros:
+También es posible agregar bordes a un rango de celdas en lugar de solo a una celda. Para hacerlo, primero crea un rango de celdas llamando al método [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) de la colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Toma los siguientes parámetros:
 
 - Primera fila, la primera fila del rango.
 - Primera columna, representa la primera columna del rango.
-- Número de filas, el número de filas del rango.
+- Número de filas, el número de filas en el rango.
 - Número de columnas, el número de columnas en el rango.
 
- El[**Crear rango**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) El método devuelve un[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range) objeto, que contiene el rango de celdas especificado. El[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range) objeto proporciona un[**Establecer ContornoBorde**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) Método que toma los siguientes parámetros para agregar un borde al rango de celdas:
+El método [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) devuelve un objeto [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range), que contiene el rango de celdas especificado. El objeto [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) proporciona un método [**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) que toma los siguientes parámetros para agregar un borde al rango de celdas:
 
--  *Tipo de borde**, el tipo de borde, seleccionado del menú[**Tipo de borde**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)enumeración.
--  *Estilo de línea**, el estilo de línea del borde, seleccionado del menú[**Tipo de borde de celda**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)enumeración.
-- *Color**, el color de la línea, seleccionado de la enumeración Color.
+- **Tipo de borde**, el tipo de borde, seleccionado de la enumeración [**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) .
+- **Estilo de línea**, el estilo de línea de borde, seleccionado de la enumeración [**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype) .
+- **Color**, el color de línea, seleccionado de la enumeración Color.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBorderstoRange-1.cs" >}}

@@ -1,11 +1,12 @@
-﻿---
-title: Отображать строку на листе Cell
+---
+title: Отобразить Строку в Ячейке Листа
 type: docs
 weight: 110
 url: /ru/net/display-string-in-worksheet-cell/
 ---
-## **ВСТО**
-{{< highlight "csharp" >}}
+
+## **VSTO**
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -17,7 +18,7 @@ url: /ru/net/display-string-in-worksheet-cell/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -30,5 +31,5 @@ url: /ru/net/display-string-in-worksheet-cell/
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Скачать**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DisplayStringInCell.Aspose.Cells.zip)
+## **Загрузка**
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DisplayStringInCell.Aspose.Cells.zip)

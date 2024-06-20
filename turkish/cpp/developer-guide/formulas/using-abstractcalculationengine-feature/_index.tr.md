@@ -1,25 +1,26 @@
 ---
-title: AbstractCalculationEngine Özelliğini Kullanma
+title: AbstractCalculationEngine Özelliği Kullanımı
 type: docs
 weight: 20
 url: /tr/cpp/using-abstractcalculationengine-feature/
 ---
-##  Özellikler hâlâ geliştirilme aşamasındadır, bu yüzden bizi izlemeye devam edin.
+
+## Özellikler hala geliştirme aşamasında olduğu için takipte kalın.
 
 
-##  **giriiş**
- Bu makale,[ÖzetHesaplamaMotoru](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/) Aspose.Cells API'lerle özel işlevleri uygulama özelliği.
+## **Giriş**
+Bu makale, özel fonksiyonları uygulamak için [AbstractCalculationEngine](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/) özelliğini nasıl kullanacağınızı anlamınızı sağlar.
 
 <!--
 
-The AbstractCalculationEngine interface allows you to add custom formula calculation functions to extend the Aspose.Cells core calculation engine in order to meet certain requirements. This feature is useful to define custom (user defined) functions in a template file or in a code where the custom function can be implemented and evaluated using Aspose.Cells APIs like any other default Microsoft Excel function.
-## **Using AbstractCalculationEngine Feature**
-The following sample code implements the AbstractCalculationEngine interface which evaluates and returns the values of the two custom functions i.e. MySampleFunc() and YourSampleFunc(). These custom functions are inside the cells A1 and A2 respectively. Then it calls the Workbook.CalculateFormula(const CalculationOptions& options) method to invoke the implementation of AbstractCalculationEngine .Calculate(CalculationData& data) method. Then, it prints the values of A1 and A2 on console. Please see the Console Output of the sample code below for more help.
-## **Sample Code**
+AbstractCalculationEngine arayüzü, belirli gereksinimleri karşılamak için Aspose.Cells çekirdek hesaplama motorunu genişletmek amacıyla özel formül hesaplama fonksiyonları eklemenize olanak tanır. Bu özellik, belirli gereksinimleri karşılamak için özel (kullanıcı tanımlı) fonksiyonları tanımlamak ve Aspose.Cells API'lerini kullanarak Aspose.Cells çekirdek hesaplama motoru içinde herhangi diğer varsayılan Microsoft Excel fonksiyonu gibi uygulamak ve değerlendirmek için kullanışlıdır.
+## **AbstractCalculationEngine Özelliği Kullanımı**
+Aşağıdaki örnek kod, AbstractCalculationEngine arayüzünü uygular ve A1 ve A2 hücrelerinde yer alan MySampleFunc() ve YourSampleFunc() adlı iki özel fonksiyonun değerlerini değerlendirir ve döndürür. Daha sonra, Workbook.CalculateFormula(const CalculationOptions& options) yöntemini çağırarak AbstractCalculationEngine .Calculate(CalculationData& data) yöntemi uygulanır. Ardından, A1 ve A2'nin değerlerini konsola yazdırır. Daha fazla yardım için lütfen aşağıdaki örnek kodun Konsol Çıkışına bakın.
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-UsingICustomFunctionFeature-new.cpp" >}}
 
 
-## **Console Output**
+## **Konsol Çıktısı**
 {{< highlight java >}}
 
  Value of A1: MY sample function was called successfully.

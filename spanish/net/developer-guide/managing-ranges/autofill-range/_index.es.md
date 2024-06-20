@@ -1,17 +1,18 @@
-﻿---
-title: Autocompletar rango de archivo de Excel
-linktitle: Rango de Autocompletar
+---
+title: AutoRellenar rango de archivo de Excel
+linktitle: AutoRellenar Rango
 type: docs
 weight: 105
 url: /es/net/autofill-ranges/
 ---
-## **Realice un autocompletado en el rango especificado en Excel**
 
-En Excel, seleccione un rango, mueva el mouse hacia abajo a la derecha, arrastre "+" para completar automáticamente los datos.
+## **Realizar un autollenado en el rango especificado en Excel**
 
-## **Autocompletar rangos con Aspose.Cells**
+En Excel, seleccione un rango, mueva el mouse hacia la esquina inferior derecha, arrastre el signo "+" para rellenar los valores.
 
-El siguiente ejemplo muestra cómo realizar la operación Autocompletar en el rango, y aquí está el archivo de muestra que se puede descargar para probar esta función:
+## **Rellenar Rangos con Aspose.Cells**
+
+El siguiente ejemplo muestra cómo realizar la operación de AutoRellenado en el rango, y aquí está el archivo de muestra que se puede descargar para probar esta característica:
 
 [range_autofill.xlsx](range_autofill.xlsx)
 

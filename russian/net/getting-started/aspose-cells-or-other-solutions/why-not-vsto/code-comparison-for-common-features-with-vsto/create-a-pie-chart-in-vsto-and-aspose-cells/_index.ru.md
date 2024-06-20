@@ -1,19 +1,20 @@
-﻿---
-title: Создайте круговую диаграмму в VSTO и Aspose.Cells
+---
+title: Создание круговой диаграммы в VSTO и Aspose.Cells
 type: docs
 weight: 80
 url: /ru/net/create-a-pie-chart-in-vsto-and-aspose-cells/
 ---
-В этой статье сравнивается создание круговой диаграммы с помощью Office Automation и VSTO с использованием Aspose.Cells for .NET. Шаги для создания круговой диаграммы:
 
-1. Создание рабочей книги и рабочего листа.
+Эта статья сравнивает создание круговой диаграммы с помощью Office Automation и VSTO, с использованием Aspose.Cells for .NET. Шаги создания круговой диаграммы:
+
+1. Создание рабочей книги и листа.
 1. Добавление образцов данных.
-1. Ссылочные продуктыChart.
-1. Добавление круговой диаграммы, определение диапазона данных и заголовка диаграммы.
+1. Ссылка на productsChart.
+1. Добавление круговой диаграммы, определение диапазона данных и названия диаграммы.
 1. Сохранение электронной таблицы.
-Примеры кода в этой статье показывают, как добавить круговую диаграмму с помощью VSTO, используя либо C#, либо создание круговой диаграммы с помощью Aspose.Cells, снова используя либо C#.
-## **ВСТО**
-{{< highlight "csharp" >}}
+   Приведенные в этой статье фрагменты кода показывают, как добавить круговую диаграмму с помощью VSTO, используя либо C#, в сравнении с созданием ее с помощью Aspose.Cells, также используя либо C#.
+## **VSTO**
+{{< highlight csharp >}}
 
  private void PieChart()
 
@@ -89,7 +90,7 @@ workbook.SaveCopyAs("OutputVsto.xlsx");
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void PieChart()
 
@@ -159,7 +160,7 @@ workbook.SaveCopyAs("OutputVsto.xlsx");
 
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create.a.Pie.Chart.Aspose.Cells.zip)
-- [Источникфорж](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip/скачать)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip)
+## **Загрузить образец кода**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create.a.Pie.Chart.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip)

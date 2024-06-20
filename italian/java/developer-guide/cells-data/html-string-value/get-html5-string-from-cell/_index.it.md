@@ -1,24 +1,25 @@
-﻿---
-title: Ottieni la stringa HTML5 da Cell
+---
+title: Ottieni stringa HTML5 dalla cella
 type: docs
 weight: 90
 url: /it/java/get-html5-string-from-cell/
 ---
-## **Possibili scenari di utilizzo**
 
-Aspose.Cells restituisce la stringa HTML della cella utilizzando il[**getHtmlString(booleano html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)metodo. Se passi**falso**come parametro, ti restituirà Normal HTML ma se passi**VERO**come parametro, restituirà la stringa HTML5.
+## **Possibili Scenari di Utilizzo**
 
-## **Ottieni la stringa HTML5 da Cell**
+Aspose.Cells restituisce la stringa HTML della cella utilizzando il metodo [**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString). Se passi **false** come parametro, ti restituirà HTML normale ma se passi **true** come parametro, ti restituirà la stringa HTML5.
 
-Il seguente codice di esempio crea un oggetto cartella di lavoro e aggiunge del testo nella cella A1 del primo foglio di lavoro. Quindi ottiene la stringa Normal HTML e HTML5 dalla cella A1 utilizzando il file[**getHtmlString(booleano html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)metodo e li stampa sulla console.
+## **Ottieni una stringa HTML5 dalla cella**
 
-## **Codice d'esempio**
+Il seguente codice di esempio crea un oggetto workbook e aggiunge del testo nella cella A1 del primo foglio di lavoro. Ottiene quindi la stringa HTML normale e HTML5 dalla cella A1 utilizzando il metodo [**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) e le stampa sulla console.
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-GetHTML5StringFromCell.java" >}}
 
-## **Uscita console**
+## **Output della console**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Normal:
 

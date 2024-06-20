@@ -1,41 +1,42 @@
-﻿---
-title: Kryptera och dekryptera Excel-filer
+---
+title: Kryptera och dekryptera Excel filer
 type: docs
 weight: 40
 url: /sv/java/encrypt-and-decrypt-excel-files/
-description: Hur man krypterar och dekrypterar Excel-filer med java. Lås och lås upp Excel-filer.
+description: Hur man krypterar och avkrypterar Excelfiler med hjälp av Java. Lås och lås upp Excelfiler.
 ---
+
 {{% alert color="primary" %}}
-Microsoft Excel (97 - 365) gör att du kan kryptera / lösenordsskydda dina kalkylblad. Den använder algoritmer från Crypto Service Provider. En kryptotjänstleverantör eller CSP är en uppsättning kryptografiska algoritmer med olika egenskaper. Standard-CSP är "Office 97/2000 Compatible" eller " Week Encryption (XOR) ". Det är också viktigt att välja en korrekt krypteringsnyckellängd. Vissa av kryptotjänsteleverantörerna stöder inte mer än 40 eller 56 bitar. Det anses vara en svag krypteringstyp. Men för stark krypteringstyp krävs en minsta nyckellängd på 128 bitar. Microsoft Windows innehåller Crypto Service Providers som erbjuder starka krypteringstyper också, till exempel 'Microsoft Strong Cryptographic Provider'. För att ge en uppfattning är 128-bitars kryptering vad banker använder för att kryptera anslutningen med sina Internetbanksystem. Aspose.Cells låter dig kryptera / lösenordsskydda dina Excel-filer med önskad krypteringstyp.
+Microsoft Excel (97 - 365) gör det möjligt att kryptera/lösenordsskydda dina kalkylblad. Det använder algoritmer som tillhandahålls av Crypto Service Provider. En Crypto Service Provider eller CSP är en uppsättning kryptografiska algoritmer med olika egenskaper. Standard CSP är "Office 97/2000-kompatibel" eller "Vecka Kryptering (XOR)". Det är också viktigt att välja en lämplig krypteringsnyckellängd. Vissa Crypto Service Providers stöder inte mer än 40 eller 56 bitar. Det anses vara en svag typ av kryptering. Men för stark kryptering krävs en minsta nyckellängd på 128 bitar. Microsoft Windows innehåller Crypto Service Providers som också erbjuder starka typer av kryptering, till exempel 'Microsoft Strong Cryptographic Provider'. För att ge en idé, 128 bits kryptering är vad banker använder för att kryptera anslutningen med sina internetbankssystem. Aspose.Cells låter dig kryptera/lösenordsskydda dina excelfiler med önskad typ av kryptering.
 
 {{% /alert %}}
 
-## **Använder MS Excel**
+## **Använda MS Excel**
 
-I MS Excel (t.ex. MS Excel 2003), för att implementera filkrypteringsinställningar, kan du försöka:
+I MS Excel (t.ex. MS Excel 2003), för att implementera filkrypteringsinställningar kan du försöka:
 
--  Från**Verktyg** menyn, välj**alternativ** och välj sedan**säkerhet** flik.
--  Inmatning**Lösenord för att öppna** och klicka på**Avancerad** knapp.
+- Från menyn **Verktyg**, välj **Alternativ**, och välj sedan fliken **Säkerhet**.
+- Ange **Lösenord för att öppna** och klicka på **Avancerat**-knappen.
 - Välj krypteringstyp och bekräfta lösenordet.
 
 ![todo:image_alt_text](encrypting-excel-files_1.png)
 
-**Bild: Dialogrutan Alternativ**
+**Figur: Dialogrutan Alternativ**
 
 ![todo:image_alt_text](encrypting-excel-files_2.png)
 
-**Bild: Dialogrutan Krypteringstyp**
+**Figur: Dialogrutan Krypteringstyp**
 
-## **Krypterar Excel-fil**
-Följande exempel visar hur du kan kryptera / lösenordsskydda en Excel-fil med hjälp av Aspose.Cells API.
+## **Kryptering av Excelfil**
+Följande exempel visar hur du kan kryptera/lösenordsskydda en excelfil med hjälp av Aspose.Cells API.
 
 ### **Exempelkod:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-EncryptingFiles-EncryptingFiles.java" >}}
 
 
-## **Dekrypterar Excel-fil med Aspose.Cells**
-Det är mycket att öppna lösenordsskyddad excel-fil och dekryptera med Aspose.Cells API som följande koder:
+## **Avkryptering av Excelfil med Aspose.Cells**
+Det är väldigt enkelt att öppna ett lösenordsskyddat excelfil och avkryptera det med hjälp av Aspose.Cells API enligt följande koder:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Decrypt-Excel-File.java" >}}
 

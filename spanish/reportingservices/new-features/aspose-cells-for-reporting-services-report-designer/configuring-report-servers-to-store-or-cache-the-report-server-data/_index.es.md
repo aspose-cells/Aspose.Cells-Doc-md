@@ -1,7 +1,8 @@
-﻿---
-title: Configuración de servidores de informes para almacenar o almacenar en caché los datos del servidor de informes
+---
+title: Configurar Servidores de Informes para almacenar o cachear los datos del servidor de informes
 type: docs
 weight: 30
 url: /es/reportingservices/configuring-report-servers-to-store-or-cache-the-report-server-data/
 ---
-El Diseñador de informes Aspose.Cells for Reporting Services guarda la URL del servidor de informes al que se accede actualmente. Cuando abre de nuevo el cuadro de diálogo Administrador del servidor de informes en el Diseñador de informes Aspose.Cells, el formulario de diálogo carga automáticamente la información guardada del servidor de informes.
+
+El Diseñador de informes Aspose.Cells for Reporting Services guarda la URL del servidor de informes actualmente accedido. Cuando abres nuevamente el diálogo del Administrador del Servidor de Informes en el Diseñador de Informes de Aspose.Cells, el formulario de diálogo carga automáticamente la información del servidor de informes guardada.

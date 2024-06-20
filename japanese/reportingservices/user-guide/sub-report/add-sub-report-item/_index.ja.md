@@ -1,66 +1,67 @@
-﻿---
+---
 title: サブレポートアイテムを追加
 type: docs
 weight: 20
 url: /ja/reportingservices/add-sub-report-item/
 ---
-サブレポート アイテムを追加するには:
 
-1. サブレポート アイテムを参照するセルを選択します。
-1. クリック**サブレポート** (
+サブレポートアイテムを追加するには:
 
-![todo:画像_代替_文章](add-sub-report-item_1.png)
+1. サブレポートアイテムを参照するセルを選択します。
+1. **Sub-Report** をクリックします。
+
+![todo:image_alt_text](add-sub-report-item_1.png)
 
 ).
-サブレポート フォームが表示されます。
+サブレポートフォームが表示されます。 
 
-**サブレポート フォーム** 
+**サブレポートフォーム** 
 
-![todo:画像_代替_文章](add-sub-report-item_2.png)
-
-
+![todo:image_alt_text](add-sub-report-item_2.png)
 
 
-1. クリック**サブレポートを追加**.
-[レポートの取得] フォームが表示されます。
-1. レポートを選択します。
+
+
+1. **Add Sub-Report** をクリックします。
+   リトリーブレポートフォームが表示されます。
+1. レポートを選択します。 
 
    **レポートの選択** 
 
-![todo:画像_代替_文章](add-sub-report-item_3.png)
+![todo:image_alt_text](add-sub-report-item_3.png)
 
 
 
 
-1. クリック**近い**. 
+1. **Close** をクリックします。 
 
    **サブレポートが選択されました** 
 
-![todo:画像_代替_文章](add-sub-report-item_4.png)
+![todo:image_alt_text](add-sub-report-item_4.png)
 
 
 
 
-1. パラメータ リストをダブルクリックして、[式の編集] ダイアログを表示します。
+パラメーターリストをダブルクリックして、編集式ダイアログを表示します。 
 
-   **式の編集ダイアログ** 
+   **編集式ダイアログ** 
 
-![todo:画像_代替_文章](add-sub-report-item_5.png)
-
-
+![todo:image_alt_text](add-sub-report-item_5.png)
 
 
-1. パラメータ値を編集および/または更新します。
+
+
+1. パラメーター値を編集および/または更新します。 
 
    **サブレポートの命名** 
 
-![todo:画像_代替_文章](add-sub-report-item_6.png)
+![todo:image_alt_text](add-sub-report-item_6.png)
 
 
 
 
-1. クリック**サブレポートを挿入**. 
+1. **Insert Sub-Report** をクリックします。 
 
-   **レポート テーブルに挿入されたサブレポート** 
+   **サブレポートがレポートテーブルに挿入されました** 
 
-![todo:画像_代替_文章](add-sub-report-item_7.png)
+![todo:image_alt_text](add-sub-report-item_7.png)

@@ -1,77 +1,78 @@
-﻿---
-title: Ajout de nouvelles feuilles de calcul au classeur et activation d'une feuille
+---
+title: Ajout de nouvelles feuilles de calcul au classeur et activation d une feuille
 type: docs
 weight: 10
 url: /fr/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Lorsque vous travaillez avec un fichier de modèle, il est parfois nécessaire d'ajouter des feuilles de calcul supplémentaires dans le classeur pour collecter des données. Les nouvelles cellules seront remplies de données aux positions et emplacements spécifiés dans chaque feuille de calcul.
+Lorsque vous travaillez avec un fichier modèle, il arrive parfois qu'il soit nécessaire d'ajouter des feuilles de calcul supplémentaires au classeur pour collecter des données. Les nouvelles cellules seront remplies avec des données à des positions et des emplacements spécifiés dans chaque feuille de calcul.
 
-De même, vous devrez peut-être qu'une feuille de calcul spécifique soit active et affichée en premier lorsque le fichier est ouvert dans Microsoft Excel. Une "feuille active" est la feuille sur laquelle vous travaillez dans un classeur. Le nom sur l'onglet de la feuille active est en gras par défaut.
+De même, vous pouvez avoir besoin qu'une feuille de calcul spécifique soit active et affichée en premier lorsque le fichier est ouvert dans Microsoft Excel. Une "feuille active" est la feuille sur laquelle vous travaillez dans un classeur. Le nom sur l'onglet de la feuille active est en gras par défaut.
 
- L'ajout de feuilles de calcul et la définition de la feuille active sont des tâches courantes et simples que les développeurs doivent savoir effectuer. Dans cet article, nous effectuons ces tâches en utilisant[VSTO](/cells/fr/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) et[Aspose.Cells for .NET](/cells/fr/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
+Ajouter des feuilles de calcul et définir la feuille active sont des tâches courantes et simples que les développeurs doivent savoir comment réaliser. Dans cet article, nous effectuons ces tâches en utilisant [VSTO](/cells/fr/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) et [Aspose.Cells for .NET](/cells/fr/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
 
 {{% /alert %}} 
 ## **Ajout de feuilles de calcul et activation d'une feuille**
-Pour les besoins de ce conseil de migration :
+Dans le cadre de ce conseil de migration :
 
-1. Ajoutez de nouvelles feuilles de calcul à un fichier Excel Microsoft existant.
-1. Remplissez les données dans les cellules de chaque nouvelle feuille de calcul.
+1. Ajouter de nouvelles feuilles de calcul à un fichier Microsoft Excel existant.
+1. Remplir les données dans les cellules de chaque nouvelle feuille de calcul.
 1. Activer une feuille dans le classeur.
-1. Enregistrez en tant que fichier Excel Microsoft.
+1. Enregistrer en tant que fichier Microsoft Excel.
 
-Vous trouverez ci-dessous des extraits de code parallèles pour VSTO (C#, VB) et Aspose.Cells for .NET (C#, VB), qui montrent comment accomplir ces tâches.
+Ci-dessous, des extraits de code parallèles pour VSTO (C#, VB) et Aspose.Cells for .NET (C#, VB) montrent comment réaliser ces tâches.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-en utilisant Microsoft.VisualStudio.Tools.Applications.Runtime ;
+using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
-en utilisant Excel = Microsoft.Office.Interop.Excel ;
+using Excel = Microsoft.Office.Interop.Excel;
 
-en utilisant Office = Microsoft.Office.Core ;
+using Office = Microsoft.Office.Core;
 
-en utilisant System.Reflection ;
+using System.Reflection;
 
 .......
 
-//Instancier l'objet Application.
+//Instantiate the Application object.
 
 Excel.Application excelApp = new Excel.ApplicationClass();
 
-// Spécifiez le chemin du fichier Excel du modèle.
+//Specify the template excel file path.
 
-string myPath = @"d:\test\My_Book1.xls" ;
+string myPath = @"d:\test\My_Book1.xls";
 
-//Ouvre le fichier excel.
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante,
+Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante,
+Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante,
+Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante,
+Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante,
+Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante );
+Missing.Value, Missing.Value);
 
-// Déclare un objet Worksheet.
+//Declare a Worksheet object.
 
 Excel.Worksheet newWorksheet;
 
-//Ajouter 5 nouvelles feuilles de calcul au classeur et remplir quelques données
+//Add 5 new worksheets to the workbook and fill some data
 
-//dans les cellules.
+//into the cells.
 
- pour (int je = 1; je< 6; i++)
+for (int i = 1; i < 6; i++)
 
 {
 
@@ -111,7 +112,7 @@ excelApp.Quit();
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -185,41 +186,41 @@ excelApp.Quit()
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-en utilisant Aspose.Cells ;
+using Aspose.Cells;
 
 .......
 
-//Instancier une instance de licence et définir le fichier de licence
+//Instantiate an instance of license and set the license file
 
-//par son chemin
+//through its path
 
 Aspose.Cells.License license = new Aspose.Cells.License();
 
-licence.SetLicense("Aspose.Cells.lic");
+license.SetLicense("Aspose.Cells.lic");
 
-// Spécifiez le chemin du fichier Excel du modèle.
+//Specify the template excel file path.
 
-string myPath =@"d:\test\My_Book1.xls" ;
+string myPath =@"d:\test\My_Book1.xls";
 
-// Instancier un nouveau classeur.
+//Instantiate a new Workbook.
 
-//Ouvre le fichier excel.
+//Open the excel file.
 
-Classeur classeur = nouveau classeur (myPath);
+Workbook workbook = new Workbook(myPath);
 
-// Déclare un objet Worksheet.
+//Declare a Worksheet object.
 
-Feuille de travail newWorksheet;
+Worksheet newWorksheet;
 
-//Ajouter 5 nouvelles feuilles de calcul au classeur et remplir quelques données
+//Add 5 new worksheets to the workbook and fill some data
 
-//dans les cellules.
+//into the cells.
 
- pour (int je = 0; je< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -255,7 +256,7 @@ workbook.Save(@"d:\test\out_My_Book1.xls");
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

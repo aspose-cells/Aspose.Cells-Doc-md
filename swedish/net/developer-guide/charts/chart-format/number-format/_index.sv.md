@@ -1,17 +1,18 @@
 ---
-title: Ställ in värdeformatets kod för diagramserien
-description: Lär dig hur du ställer in värdeformatkoden för diagramserier i Aspose.Cells for .NET. Vår guide hjälper dig att förstå hur du formaterar dina diagramseriedata med hjälp av rätt formatkod, så att du kan presentera dina data korrekt och professionellt.
-keywords: Aspose.Cells for .NET, chart series, values format code, formatting, data presentation, accuracy, professionalism.
+title: Ange värdenas formatkod för diagramserier
+description: Lär dig att ställa in värdenas formatkod för diagramserier i Aspose.Cells for .NET. Vår guide hjälper dig att förstå hur man formaterar dina diagramseriedata med lämplig formatkod, vilket gör det möjligt för dig att presentera dina data på ett korrekt och professionellt sätt.
+keywords: Aspose.Cells for .NET, diagramserier, värdenas formatkod, formatering, datapresentation, noggrannhet, professionalism.
 linktitle: Nummerformat
 type: docs
 weight: 100
 url: /sv/net/set-the-values-format-code-of-chart-series/
 ---
-##  **Möjliga användningsscenarier**
-Du kan ställa in värdeformatkoden för diagramserier med hjälp av[Series.ValuesFormatCode](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/valuesformatcode)fast egendom. Den här egenskapen är inte bara användbar för serien som är baserad på intervallet i kalkylbladet utan fungerar också bra för serien som skapats med en rad värden.
-##  **Ställ in värdeformatets kod för diagramserien**
- Följande exempelkod lägger till en serie i det tomma diagrammet som inte har några serier tidigare. Den lägger till serien med hjälp av arrayen av värden. När den väl lägger till serien, formaterar den den med koden $#,##0 med hjälp av[Series.ValuesFormatCode](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/valuesformatcode)egendom och talet 10 000 blir 10 000 $. Skärmdumpen visar effekten av koden på[exempel på Excel-fil](51740712.xlsx) och[utdata Excel-fil](51740713.xlsx) efter avrättningen.
+
+## **Möjliga användningsscenario**
+Du kan ställa in värdenas formatkod för diagramserier med hjälp av egenskapen [Series.ValuesFormatCode](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/valuesformatcode). Denna egenskap är inte bara användbar för serier som är baserade på området inuti arbetsbladet utan fungerar också bra för serier skapade med en array av värden.
+## **Ställ in värdenas formatkod för diagramserier**
+Följande provkod lägger till en serie i det tomma diagrammet som inte har någon serie tidigare. Den lägger till serien med hjälp av en array av värden. När det lägger till serien formaterar det den med koden $#,##0 med hjälp av egenskapen [Series.ValuesFormatCode](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/valuesformatcode) och talet 10000 blir $10,000. Skärmdumpen visar effekten av koden på [prov Excel-filen](51740712.xlsx) och [utdata Excel-filen](51740713.xlsx) efter utförande.
 
 ![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
-##  **Exempelkod**
+## **Exempelkod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SetValuesFormatCodeOfChartSeries.cs" >}}

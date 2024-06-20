@@ -1,11 +1,12 @@
-﻿---
-title: افتح مستند جدول بيانات للوصول للقراءة فقط
+---
+title: فتح مستند جدول بيانات للوصول القراءة فقط
 type: docs
 weight: 100
 url: /ar/net/open-a-spreadsheet-document-for-read-only-access/
 ---
-## **برنامج OpenXML Excel**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -39,7 +40,7 @@ using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Open(filepa
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -61,7 +62,7 @@ public static void OpenSpreadsheetDocumentReadonly(string filepath)
 
 
 {{< /highlight >}}
-## **تنزيل مثال رمز التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-## **عينة من الرموز**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Open%20read-only%20access)
+## **تنزيل مثال عملي لرمز**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+## **الكود المثالي**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Open%20read-only%20access)

@@ -1,20 +1,23 @@
-﻿---
-title: GridWeb Varsayılan Simgeleri Yerine Kendi Simgelerinizi Kullanma
+---
+title: GridWeb in Varsayılan Simgeleri Yerine Kendi Simgelerinizi Kullanma
 type: docs
 weight: 10
-url: /tr/net/using-your-own-icons-instead-of-the-gridweb-default-icons/
+url: /tr/net/aspose-cells-gridweb/use-your-own-icons-instead-of-the-default-icons/
+keywords: GridWeb, simge, simgeler
+description: Bu makale, GridWeb de simgelerin nasıl kullanılacağını açıklar.
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen Aspose.Cells.GridWeb kontrolünün varsayılan simgeleri yerine kendi simgelerinizi (resimlerinizi) kullanmak isteyebilirsiniz. Bu makalede bunun nasıl yapılacağı açıklanmaktadır.
+Bazı durumlarda, Aspose.Cells.GridWeb kontrolünün varsayılan simgeleri yerine kendi simgelerinizi (resimler) kullanmak isteyebilirsiniz. Bu makale, bunu nasıl yapılacağını açıklar.
 
 {{% /alert %}} 
 
-Denetimin varsayılan simgeleri "/acw" URL yolunda bulunur_client/". Dosya yolu şu şekilde olabilir: "C:\Program Files\Aspose\Aspose.Cells for .NET\acw_client" varsayılan olarak. Bu klasörde send.gif, save.gif vb. dosyaları bulabilirsiniz. Bu resimleri kendi resimlerinizle değiştirmek isterseniz, web uygulamanızın web.config dosyasına bir config bölümü ekleyin.
+Denetimin varsayılan simgeleri, URL dizinine "/acw_client/" yerleştirilir. Dosya yolu varsayılan olarak "C:\Program Files\Aspose\Aspose.Cells for .NET\acw_client" olabilir. O klasörde submit.gif, save.gif vb. gibi dosyalar bulabilirsiniz. Bu resimleri kendi resimlerinizle değiştirmek istiyorsanız, web uygulamanızın web.config dosyasına bir yapılandırma bölümü ekleyin.
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <appSettings>
 
@@ -26,10 +29,10 @@ Denetimin varsayılan simgeleri "/acw" URL yolunda bulunur_client/". Dosya yolu 
 
 {{< /highlight >}}
 
-Bu yapılandırmanın yalnızca kontrol görüntüleri yolunu etkilediğini ve kontrolün istemci-komut dosyaları yolunu etkilemediğini fark etmiş olabilirsiniz. Örneğin, sayfanızı GridWeb kontrolü ile çalıştırırsanız ve tarayıcıda kaynak dosyayı kontrol ederseniz, acw'nin_ müşteri_grid'in DIV öğesinin path özelliği hala "/yourApp/webform1.aspx/" diyor. Bazı durumlarda, istemci komut dosyası yolunu yeniden tanımlamanız gerekebilir. Denetimi, yeniden tanımlanmış görüntü yolunu istemci-komut dosyası yolu olarak kullanmaya zorlamak için, appSettings bölümünde başka bir yapılandırma ayarı ekleyin.
-**xml**
+Bu yapılandırmanın yalnızca denetim resimlerin yolunu etkilediğini ve denetim istemci komut dosyalarının yolunu etkilemediğini fark etmiş olabilirsiniz. Örneğin, GridWeb kontrolü ile sayfanızı çalıştırırsanız ve tarayıcıda kaynak dosyasını kontrol ederseniz, kontrolün DIV öğesinin acw_client _path özelliğinin yine “/yourApp/webform1.aspx/” (örneğin) dediğini görebilirsiniz. Bazı durumlarda, istemci komut dosyası yolunu yeniden tanımlamanız gerekebilir. Denetimin, yeniden tanımlanan resim yolunu istemci komut dosyası yol olarak kullanması için, appSettings bölümüne başka bir yapılandırma ayarı ekleyin
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <add key="Aspose.Cells.GridWeb.force_script_path" value="true" />
 
@@ -39,6 +42,6 @@ Bu yapılandırmanın yalnızca kontrol görüntüleri yolunu etkilediğini ve k
 
 {{% alert color="primary" %}} 
 
-Bu yapılandırma, yalnızca lisanslı kontrol ile geçerli olacaktır.
+Bu yapılandırma sadece lisanslı denetimle etkili olur.
 
 {{% /alert %}}

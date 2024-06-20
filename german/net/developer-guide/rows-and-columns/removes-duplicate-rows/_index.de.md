@@ -1,17 +1,18 @@
-﻿---
-title: Entfernen Sie doppelte Zeilen in einem Arbeitsblatt
+---
+title: Doppelte Zeilen in einem Arbeitsblatt entfernen
 type: docs
 weight: 370
 url: /de/net/remove-duplicate-rows-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Doppelte Zeilen entfernen ist eine der vielen nützlichen Funktionen von Microsoft Excel. Es ermöglicht Benutzern, doppelte Zeilen in einem Arbeitsblatt zu entfernen, Sie können auswählen, welche Spalten auf doppelte Informationen überprüft werden sollen.
+Das Entfernen von doppelten Zeilen ist eine der vielen nützlichen Funktionen von Microsoft Excel. Es ermöglicht Benutzern, doppelte Zeilen in einem Arbeitsblatt zu entfernen und festzulegen, welche Spalten auf doppelte Informationen überprüft werden sollen.
 
-Aspose.Cells stellt hierfür die Methode Cells.RemoveDuplicates() zur Verfügung. Sie können auch startRow, startColumn, endRow, endColumn festlegen, um Spalten aufzunehmen.
+Aspose.Cells bietet die Methode Cells.RemoveDuplicates() für diesen Zweck. Sie können auch startRow, startColumn, endRow, endColumn festlegen, um Spalten auszuwählen.
 
-Im Folgenden finden Sie die Beispieldateien, die zum Testen dieser Funktion heruntergeladen werden können:
+Hier sind die Beispiel Dateien, die heruntergeladen werden können, um diese Funktion zu testen:
 
-[entferntduplicates.xlsx](removeduplicates.xlsx)
+[removeduplicates.xlsx](removeduplicates.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Remove-Duplicate-Rows-In-A-Worksheet.cs" >}}

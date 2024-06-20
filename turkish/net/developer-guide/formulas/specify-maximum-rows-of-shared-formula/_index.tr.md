@@ -1,19 +1,20 @@
-﻿---
-title: Paylaşılan Formülün Maksimum Satırını Belirtin
+---
+title: Paylaşılan Formülün Maksimum Satırlarını Belirtme
 type: docs
 weight: 40
 url: /tr/net/specify-maximum-rows-of-shared-formula/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Paylaşılan formülün varsayılan maksimum satır sayısı 64'tür. Herhangi bir sayı olabilir, örneğin 1000 olabilir. Paylaşılan formülün performansı, farklı satır sayısıyla değişir. Bu nedenle, Aspose.Cells,[**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula)paylaşılan formülün maksimum satırlarını belirtmek için kullanılabilen özellik. Aşağıdaki ekran görüntüsünde gösterildiği gibi, paylaşılan formülün toplam satırları bundan büyükse, paylaşılan formül birkaç paylaşılan formüle bölünecektir.
+Paylaşılan formülün varsayılan maksimum satır sayısı 64'tür. 1000 gibi herhangi bir sayı olabilir. Paylaşılan formülün performansı, farklı satır sayıları ile değişir. Bu nedenle, Aspose.Cells, maksimum paylaşılan formül satırlarını belirlemek için kullanılabilecek [**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula) özelliğini sağlar. Eğer paylaşılan formülün toplam satır sayısı bunun üstündeyse, paylaşılan formül gösterildiği gibi birden çok paylaşılmış formüle bölünecektir.
 
-![yapılacaklar:resim_alternatif_metin](specify-maximum-rows-of-shared-formula_1.png)
+![todo:image_alt_text](specify-maximum-rows-of-shared-formula_1.png)
 
-## **Paylaşılan Formülün Maksimum Satırını Belirtin**
+## **Paylaşılan Formülün Maksimum Satırlarını Belirtme**
 
-Aşağıdaki örnek kod,[**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula) Emlak. Paylaşılan formülün maksimum satır sayısını 5 olarak ayarlar ve paylaşılan formülü 100 satır için D1 hücresine ekler ve şuraya kaydeder:[çıktı excel dosyası](61767856.xlsx). Çıktı Excel dosyasının içeriğini çıkarırsanız ve kontrol ederseniz*sayfa1.xml*, yukarıdaki ekran görüntüsünde vurgulandığı gibi, paylaşılan formülün her 5 satırdan sonra bölündüğünü göreceksiniz.
+Aşağıdaki örnek kod, [**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula) özelliğinin kullanımını açıklar. Paylaşılan formülün maksimum satırlarını 5'e ayarlar ve D1 hücresine paylaşılan formül ekler ve 100 satıra ulaştıktan sonra [çıktı Excel dosyasına](61767856.xlsx) kaydeder. Çıkış Excel dosyasının içeriğini çıkarıp *sheet1.xml* dosyasını kontrol ederseniz, yukarıdaki ekran görüntüsünde vurgulanan şekilde her 5 satırda bir paylaşılan formülün bölündüğünü göreceksiniz.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-SpecifyMaximumRowsOfSharedFormula.cs" >}}

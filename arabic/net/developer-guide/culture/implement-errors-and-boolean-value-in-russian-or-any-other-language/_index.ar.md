@@ -1,22 +1,23 @@
-﻿---
-title: تنفيذ الأخطاء والقيمة المنطقية باللغة الروسية أو أي لغة أخرى
+---
+title: تنفيذ الأخطاء وقيمة بوليانية باللغة الروسية أو أي لغة أخرى
 type: docs
 weight: 40
 url: /ar/net/implement-errors-and-boolean-value-in-russian-or-any-other-language/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-إذا كنت تستخدم Microsoft Excel باللغة الروسية أو اللغة أو أي لغة أو لغة أخرى ، فسوف يعرض الأخطاء والقيم المنطقية وفقًا لتلك اللغة أو اللغة. يمكنك تحقيق سلوك مشابه باستخدام Aspose.Cells باستخدام**[Workbook.Settings.GlobalizationSettings**] (https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings). سيكون عليك تجاوز الطرق التالية لـ[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)صف دراسي.
+## **سيناريوهات الاستخدام المحتملة**
 
-- [**GlobalizationSettings.GetErrorValueString ()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/geterrorvaluestring)
-- [**GlobalizationSettings.GetBooleanValueString ()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getbooleanvaluestring)
+إذا كنت تستخدم Microsoft Excel بتوجيه محلي بالروسية أو بلغة أخرى، فسيعرض الأخطاء وقيم البوليان وفقًا لهذا الإعداد المحلي أو اللغة. يمكنك تحقيق سلوك مماثل باستخدام خاصية [**Workbook.Settings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) لـ Aspose.Cells. يجب عليك تجاوز الطرق التالية لفئة [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) في Aspose.Cells.
 
-## **تنفيذ الأخطاء والقيمة المنطقية باللغة الروسية أو أي لغة أخرى**
+- [**GlobalizationSettings.GetErrorValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/geterrorvaluestring)
+- [**GlobalizationSettings.GetBooleanValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getbooleanvaluestring)
 
- يوضح نموذج التعليمات البرمجية التالي كيفية تنفيذ الأخطاء والقيمة المنطقية باللغة الروسية أو أي لغة أخرى. رجاء تاكد من[نموذج لملف Excel](73990159.xlsx) المستخدمة في هذا الرمز و[الخرج PDF](73990160.pdf)توضح لقطة الشاشة الفرق بين نموذج ملف Excel وإخراج PDF كمرجع.
+## **تنفيذ الأخطاء والقيمة البوليانية باللغة الروسية أو أي لغة أخرى**
 
-![ما يجب القيام به: image_بديل_نص](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
+الشيفرة النموذجية التالية توضح كيفية تنفيذ الأخطاء والقيمة البوليانية باللغة الروسية أو أي لغة أخرى. يرجى التحقق من [ملف الإكسل النموذجي](73990159.xlsx) المستخدم في هذا الشيفرة و [PDF الناتج](73990160.pdf) الخاص به. تُظهر اللقطة الفوتوغرافية الفرق بين ملف الإكسل النموذجي والملف الناتج بصيغة PDF للرجوع إليها.
 
-## **عينة من الرموز**
+![todo:image_alt_text](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-ImplementErrorsAndBooleanValueInRussianOrAnyOtherLanguage.cs" >}}

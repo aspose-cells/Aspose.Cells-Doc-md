@@ -16,7 +16,7 @@ url: /zh/java/row-column-height-adjustment-in-xlsx4j/
 - **列索引**，要更改其宽度的列的索引。
 - **列宽度**，所需的列宽度。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -48,7 +48,7 @@ cells.setColumnWidth(1, 17.5);
 ## **xlsx4j - 行列高度调整**
 使用 xlsx4j 中的 Row.setHt 来设置自定义行高度。setCustomHeight 应设置为 TRUE。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

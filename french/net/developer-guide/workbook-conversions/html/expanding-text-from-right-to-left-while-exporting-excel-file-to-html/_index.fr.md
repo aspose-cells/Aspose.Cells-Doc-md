@@ -1,28 +1,29 @@
-﻿---
-title: Développer le texte de droite à gauche lors de l'exportation du fichier Excel vers HTML
+---
+title: Expansion du texte de droite à gauche lors de l exportation d un fichier Excel vers HTML
 type: docs
 weight: 60
 url: /fr/net/expanding-text-from-right-to-left-while-exporting-excel-file-to/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells prend désormais en charge l'expansion du texte de droite à gauche lors de l'exportation du fichier Excel vers HTML. Cette fonctionnalité a été implémentée depuis la v8.9.0.0. Maintenant, si votre fichier Excel source contient du texte qui se développe de droite à gauche, alors Aspose.Cells l'exportera correctement vers HTML.
+Aspose.Cells prend désormais en charge l'expansion du texte de droite à gauche lors de l'exportation d'un fichier Excel vers HTML. Cette fonctionnalité a été implémentée depuis la version 8.9.0.0. Désormais, si votre fichier excel source contient un texte qui s'étend de droite à gauche, Aspose.Cells l'exportera correctement vers HTML.
 
 {{% /alert %}} 
-## **Développer le texte de droite à gauche lors de l'exportation du fichier Excel vers HTML**
- L'exemple de code suivant convertit le[exemple de fichier excel](5115502.xlsx) dans HTML. Cette capture d'écran montre à quoi ressemble l'exemple Excel dans Microsoft Excel 2013.
+## **Expansion du texte de droite à gauche lors de l'exportation d'un fichier Excel vers HTML**
+Le code d'exemple suivant convertit le [fichier excel d'exemple](5115502.xlsx) en HTML. Cette capture d'écran montre à quoi ressemble le fichier excel d'exemple dans Microsoft Excel 2013.
 
-![tâche : image_autre_texte](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_1.png)
+![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_1.png)
 
- Cette capture d'écran montre le[sortie HTML générée avec une version plus ancienne](5115509).
+Cette capture d'écran montre la [sortie HTML générée avec une ancienne version](5115509).
 
-![tâche : image_autre_texte](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_2.png)
+![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_2.png)
 
- Cette capture d'écran montre le[sortie HTML générée avec une version plus récente](5115508).
+Cette capture d'écran montre la [sortie HTML générée avec une nouvelle version](5115508).
 
-![tâche : image_autre_texte](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_3.png)
+![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_3.png)
 
-Comme vous pouvez le voir sur les captures d'écran, la nouvelle version développe correctement le texte aligné à droite vers la gauche, tout comme Microsoft Excel.
+Comme vous pouvez le voir dans les captures d'écran, la nouvelle version expand le texte aligné à droite vers la gauche correctement, tout comme Microsoft Excel.
 
 
 

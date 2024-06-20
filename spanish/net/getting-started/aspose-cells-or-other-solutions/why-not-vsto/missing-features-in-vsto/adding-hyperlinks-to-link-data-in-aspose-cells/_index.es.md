@@ -1,41 +1,42 @@
-﻿---
-title: Adición de hipervínculos para vincular datos en Aspose.Cells
+---
+title: Agregando Hipervínculos para Vincular Datos en Aspose.Cells
 type: docs
 weight: 10
 url: /es/net/adding-hyperlinks-to-link-data-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Un hipervínculo se utiliza para crear un vínculo entre dos entidades. Todo el mundo está familiarizado con el uso de hipervínculos, especialmente en sitios web.
+Un hipervínculo se usa para crear un enlace entre dos entidades. Todos están familiarizados con el uso de hipervínculos, especialmente en sitios web.
 
-Usando Aspose.Cells, los desarrolladores pueden crear diferentes tipos de hipervínculos en archivos de Excel Microsoft. Este tema analiza qué tipos de hipervínculos son compatibles con Aspose.Cells y cómo se pueden usar en nuestros archivos de Excel.
+Utilizando Aspose.Cells, los desarrolladores pueden crear diferentes tipos de hipervínculos en archivos de Microsoft Excel. Este tema discute qué tipos de hipervínculos son compatibles con Aspose.Cells y cómo se pueden usar en nuestros archivos de Excel.
 
 {{% /alert %}}
 
-## **Adición de hipervínculos**
+## **Añadiendo hipervínculos**
 
-Se pueden agregar tres tipos de hipervínculo a una celda usando Aspose.Cells:
+Se pueden agregar tres tipos de hipervínculos a una celda utilizando Aspose.Cells:
 
-- [Agregar enlace a una URL](#adding-link-to-a-url).
-- [Agregar un enlace a otra celda en el mismo archivo](#adding-a-link-to-a-cell-in-the-same-file).
-- [Añadir un enlace a un archivo externo](#adding-a-link-to-an-external-file).
+- [Agregando enlace a una URL](#adding-link-to-a-url).
+- [Agregando un enlace a otra celda en el mismo archivo](#adding-a-link-to-a-cell-in-the-same-file).
+- [Agregando un enlace a un archivo externo](#adding-a-link-to-an-external-file).
 
- Aspose.Cells permite a los desarrolladores agregar hipervínculos a archivos de Excel ya sea usando el API o[hojas de calculo de diseñador](/cells/es/net/what-is-a-designer-spreadsheet/)(hojas de cálculo donde los hipervínculos se crean manualmente y se usa Aspose.Cells para importarlos a otras hojas de cálculo).
+Aspose.Cells permite a los desarrolladores agregar hipervínculos a archivos de Excel ya sea utilizando la API o [hojas de cálculo diseñadas](/cells/es/net/what-is-a-designer-spreadsheet/) (hojas de cálculo donde los hipervínculos se crean manualmente y Aspose.Cells se usa para importarlos a otras hojas de cálculo).
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La clase proporciona diferentes métodos para agregar diferentes hipervínculos a archivos de Excel.
+Aspose.Cells proporciona una clase, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Microsoft Excel. La clase [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contiene un [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) que permite acceder a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por la clase [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La clase [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) proporciona diferentes métodos para agregar diferentes hipervínculos a archivos de Excel.
 
-### **Agregar enlace a una URL**
+### **Añadir un enlace a una URL**
 
- Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase contiene un[**hipervínculos**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) recopilación. Cada elemento de la colección de hipervínculos representa un hipervínculo. Agregue hipervínculos a las direcciones URL llamando al método Add de la colección de hipervínculos. El método Add toma los siguientes parámetros:
+La clase [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) contiene una colección [**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks). Cada elemento en la colección de Hipervínculos representa un Hipervínculo. Añade hipervínculos a las URL llamando al método Add de la colección de Hipervínculos. El método Add toma los siguientes parámetros:
 
-- Cell nombre, el nombre de la celda a la que se agregará el hipervínculo.
+- Nombre de la celda, el nombre de la celda a la que se agregará el hipervínculo.
 - Número de filas, el número de filas en este rango de hipervínculo.
-- Número de columnas, el número de columnas en este rango de hipervínculo
-- URL, la dirección URL.
+- Número de columnas, el número de columnas en este rango de hipervínculo.
+- URL, la dirección de la URL.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -59,18 +60,18 @@ workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
 
-### **Agregar un enlace a un Cell en el mismo archivo**
+### **Añadir un enlace a una celda en el mismo archivo**
 
-Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al método Add de la colección Hyperlink. El método Agregar funciona tanto para hipervínculos internos como externos. Una versión del método sobrecargado toma los siguientes parámetros:
+Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al método Agregar de la colección de hipervínculos. El método Agregar funciona tanto para hipervínculos internos como externos. Una versión del método sobrecargado toma los siguientes parámetros:
 
-- Cell nombre, el nombre de la celda a la que se agregará el hipervínculo.
+- Nombre de la celda, el nombre de la celda a la que se agregará el hipervínculo.
 - Número de filas, el número de filas en este rango de hipervínculo.
 - Número de columnas, el número de columnas en este rango de hipervínculo.
-- URL, la dirección de la celda objetivo.
+- URL, la dirección de la celda de destino.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -94,16 +95,16 @@ workbook.Save("C:\\book1.xls");
 
 ### **Agregar un enlace a un archivo externo**
 
-Es posible agregar hipervínculos a archivos de Excel externos llamando al método Agregar de la colección Hipervínculos. El método Add toma los siguientes parámetros:
+Es posible agregar hipervínculos a archivos externos de Excel llamando al método Add de la colección Hyperlinks. El método Add toma los siguientes parámetros:
 
-- Cell nombre, el nombre de la celda a la que se agregará el hipervínculo.
+- Nombre de la celda, el nombre de la celda a la que se agregará el hipervínculo.
 - Número de filas, el número de filas en este rango de hipervínculo.
 - Número de columnas, el número de columnas en este rango de hipervínculo.
-- URL, la dirección del destino, archivo de Excel externo.
+- URL, la dirección del destino, archivo externo de Excel.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -129,10 +130,10 @@ workbook.Save("C:\\book2.xls");
 
 {{< /highlight >}}
 
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Adding%20Hyperlinks%20to%20Link%20Data)
 
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

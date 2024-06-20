@@ -1,17 +1,18 @@
-﻿---
-title: Yazdırma Alanını Ayarla
+---
+title: Baskı Alanı Ayarla
 type: docs
 weight: 30
 url: /tr/net/set-print-area/
 ---
-## **Aspose.Cells - Yazdırma Alanını Ayarla**
-Varsayılan olarak, yalnızca yazdırma alanı, çalışma sayfasının veri içeren tüm alanlarını içerir. Geliştiriciler, çalışma sayfasının belirli bir yazdırma alanını oluşturabilir.
 
-Belirli bir yazdırma alanı seçmek için[Sayfa ayarı](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)sınıfın PrintArea özelliği. Bu özelliğe yazdırma alanını tanımlayan bir hücre aralığı atayın.
+## **Aspose.Cells - Baskı Alanı Ayarla**
+Varsayılan olarak, sadece veri içeren çalışma sayfasının tüm alanlarını içeren baskı alanı oluşturulur. Geliştiriciler, çalışma sayfasının belirli bir baskı alanını belirleyebilirler.
+
+Belirli bir baskı alanı seçmek için [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıfının PrintArea özelliğini kullanın. Bu özelliğe, baskı alanını tanımlayan bir hücre aralığı atayın.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -60,12 +61,12 @@ pageSetup.PrintArea = "A1:F20";
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Yazdırma Alanını Ayarla**
-Yazdırma alanının sayfa özelliklerini ayarlamak için Workbook.setPrintArea yöntemi kullanılabilir.
+## **NPOI - HSSF XSSF - Baskı Alanı Ayarla**
+Workbook.setPrintArea yöntemi, baskı alanının sayfa özelliklerini ayarlamak için kullanılabilir.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -124,12 +125,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Yazdırma Alanını Ayarla** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Herhangi bir sosyal kodlama sitesinden **Set Print Area** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Yazdırma Seçeneklerini Ayarlama](/cells/tr/net/setting-print-options/).
+Daha fazla bilgi için [Yazdırma Seçeneklerini Ayarlama](/cells/tr/net/setting-print-options/) sayfasını ziyaret edin.
 
 {{% /alert %}}

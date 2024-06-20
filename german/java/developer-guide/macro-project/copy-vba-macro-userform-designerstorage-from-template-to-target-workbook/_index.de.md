@@ -1,25 +1,26 @@
-﻿---
-title: Kopieren Sie VBA Macro UserForm DesignerStorage aus der Vorlage in die Zielarbeitsmappe
+---
+title: Kopieren des VBA Makro UserForm DesignerStorage von der Vorlage in die Zieltabelle
 type: docs
 weight: 60
 url: /de/java/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells ermöglicht es Ihnen, das VBA-Projekt von einer Excel-Datei in eine andere Excel-Datei zu kopieren. Das VBA-Projekt besteht aus verschiedenen Arten von Modulen, z. B. Dokument, Verfahren, Designer usw. Alle Module können mit einfachem Code kopiert werden, aber für das Designer-Modul gibt es einige zusätzliche Daten namens Designer Storage, auf die zugegriffen oder kopiert werden muss. Die folgenden zwei Methoden befassen sich mit Designer Storage.
+## **Mögliche Verwendungsszenarien**
+
+Aspose.Cells ermöglicht es Ihnen, das VBA-Projekt von einer Excel-Datei in eine andere Excel-Datei zu kopieren. Das VBA-Projekt besteht aus verschiedenen Arten von Modulen, d.h. Dokument, Prozedur, Designer usw. Alle Module können mit einfachem Code kopiert werden, aber für das Designermodul gibt es zusätzliche Daten namens Designer Storage, auf die zugegriffen oder kopiert werden muss. Die folgenden beiden Methoden behandeln das Designer Storage.
 
 - [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String))
 - [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[]))
 
-## **Kopieren Sie VBA Macro UserForm DesignerStorage aus der Vorlage in die Zielarbeitsmappe**
+## **Kopieren Sie den VBA-Makro UserForm-DesignerStorage von der Vorlage in die Zieldatei**
 
-Bitte sehen Sie sich den folgenden Beispielcode an. Es kopiert das VBA-Projekt aus der[Vorlage Excel-Datei](50528367.xlsm)in eine leere Arbeitsmappe und speichert sie als[Excel-Datei ausgeben](50528366.xlsm). Wenn Sie das VBA-Projekt in der Excel-Vorlagendatei öffnen, sehen Sie ein Benutzerformular wie unten gezeigt. Das Benutzerformular besteht aus Designer Storage, daher wird es mit kopiert[**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)) und[**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[])) Methoden.
+Bitte sehen Sie sich den folgenden Beispielscode an. Er kopiert das VBA-Projekt von der [Vorlagen-Excel-Datei](50528367.xlsm) in eine leere Arbeitsmappe und speichert sie als die [Ausgabe-Excel-Datei](50528366.xlsm). Wenn Sie das VBA-Projekt in der Vorlagen-Excel-Datei öffnen, sehen Sie ein User-Formular wie unten gezeigt. Das User-Formular besteht aus dem Designer Storage, der mithilfe der [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String))- und [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[]))-Methoden kopiert wird.
 
-![todo: Bild_alt_Text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
+![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
 
-Der folgende Screenshot zeigt die Excel-Ausgabedatei und deren Inhalt, die aus der Excel-Vorlagendatei kopiert wurden. Wenn Sie auf die Schaltfläche 1 klicken, wird das VBA-Benutzerformular geöffnet, das selbst über eine Befehlsschaltfläche verfügt, die beim Klicken ein Meldungsfeld anzeigt.
+Der folgende Screenshot zeigt die Ausgabe-Excel-Datei und ihre Inhalte, die von der Vorlagen-Excel-Datei kopiert wurden. Wenn Sie auf Button 1 klicken, öffnet sich das VBA-Benutzerformular, das selbst eine Befehlsschaltfläche hat, die beim Klicken eine Meldungsfeld anzeigt.
 
-![todo: Bild_alt_Text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
+![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
 
 ## **Beispielcode**
 

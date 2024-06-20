@@ -1,16 +1,17 @@
-﻿---
-title: Visa eller dölj radkolumnrubriker i rubin
+---
+title: Visa eller dölj rad och kolumnhuvuden i Ruby
 type: docs
 weight: 20
 url: /sv/java/display-or-hide-row-column-headers-in-ruby/
 ---
-## **Aspose.Cells - Visa eller dölj radkolumnrubriker**
-### **Döljer rad-/kolumnrubriker**
- För att dölja rad-/kolumnrubriker med hjälp av**Aspose.Cells Java för Ruby** , ringa upp**DisplayHideRowColumnHeaders** modul.
 
-**Ruby kod**
+## **Aspose.Cells - Visa eller dölj rad- och kolumnhuvuden**
+### **Gömma rad-/kolumnrubriker**
+För att dölja rad-/kolumnhuvuden med **Aspose.Cells Java för Ruby**, anropa modulen **DisplayHideRowColumnHeaders**.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -37,19 +38,19 @@ workbook.save(data_dir + "output.xls")
 puts "Headers of rows and columns are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Gör rad-/kolumnrubriker synliga**
-Gör rad- och kolumnrubriker synliga genom att använda arbetsbladsklassens setRowColumnHeadersVisible(true) metod.
+### **Göra rad-/kolumnrubriker synliga**
+Gör rad- och kolumnhuvuden synliga genom att använda klassen Worksheet metod setRowColumnHeadersVisible(true).
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the headers of rows and columns
 
 worksheet.setRowColumnHeadersVisible(true)
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Visa eller dölj radkolumnrubriker (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Visa eller dölj rad- och kolumnhuvuden (Aspose.Cells)** från någon av sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhiderowcolumnheaders.rb)

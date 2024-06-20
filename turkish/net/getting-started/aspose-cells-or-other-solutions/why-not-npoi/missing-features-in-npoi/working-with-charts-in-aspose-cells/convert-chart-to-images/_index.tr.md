@@ -1,16 +1,17 @@
-﻿---
-title: Grafiği Görüntülere Dönüştür
+---
+title: Grafiği Görüntüye Dönüştürme
 type: docs
 weight: 10
 url: /tr/net/convert-chart-to-images/
 ---
-## **Aspose.Cells - Grafiği Görüntülere Dönüştür**
-Grafikler görsel olarak çekicidir ve kullanıcıların verilerdeki karşılaştırmaları, kalıpları ve eğilimleri görmesini kolaylaştırır.
-Chart sınıfı toImage yöntemi, grafiği diske veya akışa kaydedilebilen bir görüntü dosyasına dönüştürür.
+
+## **Aspose.Cells - Grafiği Görüntüye Dönüştürme**
+Grafikler görsel açıdan çekicidir ve kullanıcıların verilerde karşılaştırmaları, desenleri ve trendleri görmelerini kolaylaştırır.
+Chart sınıfının toImage metodu, grafiği bir resim dosyasına dönüştürerek, diske veya akıma kaydedilebilecek bir resme dönüştürür.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -64,12 +65,12 @@ chart.ToImage("AsposeChartImage.png", ImageFormat.Png);
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Grafiği Görüntülere Dönüştür** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Grafiği Görüntüye Dönüştürme** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Grafiği Resme Dönüştürme](/cells/tr/net/converting-chart-to-image-in-svg-format/).
+Daha fazla bilgi için [Grafiği SVG Formatında Görüntüye Dönüştürme](/cells/tr/net/converting-chart-to-image-in-svg-format/) sayfasını ziyaret edin.
 
 {{% /alert %}}

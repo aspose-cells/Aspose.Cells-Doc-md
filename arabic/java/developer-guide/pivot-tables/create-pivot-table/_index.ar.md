@@ -1,45 +1,46 @@
-﻿---
-title: إنشاء جدول محوري
+---
+title: إنشاء جدول معالجة محوري
 type: docs
 weight: 10
 url: /ar/java/create-pivot-table/
 ---
+
 ## **إنشاء جدول محوري**
 
 ### **إنشاء جدول محوري باستخدام Aspose.Cells**
 
 {{% alert color="primary" %}}
 
- مع Aspose.Cells ، من الممكن إضافة جداول محورية إلى جداول البيانات. يحتوي Aspose.Cells على عدد من الفئات الخاصة المستخدمة خصيصًا لإنشاء الجداول المحورية والتحكم فيها. تُستخدم هذه الفئات لإنشاء وتعيين خصائص ملف[**جدول محوري**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)كائن ، يتم استخدامه ككتل بناء الجدول المحوري.
+مع Aspose.Cells، من الممكن إضافة جداول محورية إلى الجداول الإلكترونية. تحتوي Aspose.Cells على عدد من الفصول الخاصة المستخدمة بشكل خاص لإنشاء والتحكم في الجداول المحورية. يتم استخدام هذه الفصول لإنشاء وتعيين خصائص [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) الكائن، المستخدم ككتل بناء للجدول الدوري.
 
-كائنات الجدول المحوري هي:
+تكوين كائنات الجدول الدوري:
 
-- [**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): يمثل حقلاً في جدول محوري.
-- [**مجموعة PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) إنه يمثل مجموعة من جميع ملفات[**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)كائنات في الجدول المحوري.
-- [**جدول محوري**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): يمثل جدول محوري.
-- [**مجموعة PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): يمثل مجموعة كل كائنات الجدول المحوري في ورقة العمل.
+- [**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): تمثل مجالًا في جدول دوري.
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection): تمثل مجموعة من جميع الكائنات [**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField) في الجدول الدوري.
+- [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): تمثل جدول دوري.
+- [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): تمثل مجموعة من جميع كائنات الجدول الدورية على ورقة العمل.
 
 {{% /alert %}}
 
 ### **إنشاء جدول محوري بسيط**
 
-لإنشاء جدول محوري باستخدام Aspose.Cells ، يرجى اتباع الخطوات التالية:
+لإنشاء جدول محوري باستخدام Aspose.Cells، يرجى اتباع الخطوات أدناه:
 
-1.  أضف بعض البيانات إلى خلايا ورقة العمل باستخدام ملحق[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) أشياء[**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)طريقة. سيتم استخدام هذه البيانات كمصدر بيانات للجدول المحوري.
-1. أضف جدولاً محوريًا إلى ورقة العمل عن طريق استدعاء ملف[**يضيف**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String) ) طريقة ال[**مجموعة PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) فئة ، مغلفة في[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)موضوع.
-1.  الوصول إلى[**جدول محوري**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) كائن من[**مجموعة PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) عن طريق تمرير[**جدول محوري**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)فهرس.
-1.  استخدم أيًا من كائنات الجدول المحوري (الموضحة أعلاه) المغلفة في ملف[**جدول محوري**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)كائن لإدارة الجدول المحوري.
+1. إضافة بعض البيانات إلى خلايا ورقة العمل باستخدام [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell). سيتم استخدام هذه البيانات كمصدر بيانات للجدول الدوري.
+1. أضف جدول محوري إلى ورقة العمل عن طريق استدعاء الطريقة [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String)) لفئة [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection)، المغلفة في الكائن ال [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
+1. الوصول إلى [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) الكائن من [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) من خلال تمرير فهرس [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable).
+1. استخدام أيًا من كائنات الجدول الدوري (المشرحة أعلاه) المغلفة في [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) لإدارة الجدول الدوري.
 
 {{% alert color="primary" %}}
 
-عند تعيين نطاق من الخلايا كمصدر بيانات ، يجب تعيين النطاق من أعلى اليسار إلى أسفل اليمين. على سبيل المثال ، "A1: C3" صالح ؛ "C3: A1" غير صالح.
+عند تعيين نطاق خلايا معين كمصدر بيانات، يجب تعيين النطاق من الزاوية العلوية اليسرى إلى الزاوية السفلى اليمنى. على سبيل المثال، "A1:C3" صالح؛ "C3:A1" غير صالح.
 
 {{% /alert %}}
 
-يوضح مثال الكود أدناه كيفية إنشاء جدول محوري بسيط باتباع الخطوات الأساسية المذكورة أعلاه. عند تنفيذ التعليمات البرمجية ، تتم إضافة جدول محوري إلى ورقة العمل:
+يظهر الكود المثال أدناه كيفية إنشاء جدول محوري بسيط باتباع الخطوات الأساسية المدرجة أعلاه. عند تنفيذ الكود، يتم إضافة جدول محوري إلى ورقة العمل:
 
-**إنشاء جدول محوري بناءً على الحقل المقابل**
+** إنشاء جدول محوري استنادًا إلى حقل مقابل **
 
-![ما يجب القيام به: image_بديل_نص](create-pivot-table_1.png)
+![todo:image_alt_text](create-pivot-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}

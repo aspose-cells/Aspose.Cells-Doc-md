@@ -1,77 +1,78 @@
 ---
-title: Insertar y eliminar filas y columnas de un archivo Excel
-linktitle: Insertar y eliminar filas y columnas
+title: Insertar y Eliminar Filas y Columnas de un archivo de Excel
+linktitle: Inserción y Eliminación de Filas y Columnas
 type: docs
 weight: 70
 url: /es/net/inserting-and-deleting-rows-and-columns/
-description: Este artículo muestra cómo insertar y eliminar filas y columnas mediante Aspose.Cells for .NET API.
-keywords: Aspose.Cells C# manage rows and columns, insert rows and columns, delete rows and columns
+description: Este artículo muestra cómo insertar y eliminar filas y columnas mediante la API Aspose.Cells for .NET de Aspose.Cells.
+keywords: Aspose.Cells C# manejar filas y columnas, insertar filas y columnas, eliminar filas y columnas
 ---
-##  **Introducción**
 
-Ya sea que creemos una nueva hoja de trabajo desde cero o trabajemos en una hoja de trabajo existente, es posible que necesitemos agregar filas o columnas adicionales para acomodar más datos. A la inversa, es posible que también necesitemos eliminar filas o columnas de posiciones específicas en la hoja de trabajo.
-Para cumplir con estos requisitos, Aspose.Cells proporciona un conjunto de clases y métodos muy simple, que se analiza a continuación.
+## **Introducción**
 
-###  **Administrar filas y columnas**
+Ya sea creando una nueva hoja de cálculo desde cero o trabajando en una hoja de cálculo existente, puede ser necesario agregar filas o columnas adicionales para acomodar más datos. Inversamente, también puede ser necesario eliminar filas o columnas de posiciones específicas en la hoja de cálculo.
+Para cumplir con estos requisitos, Aspose.Cells proporciona un conjunto muy simple de clases y métodos, discutidos a continuación.
 
-Aspose.Cells proporciona una clase[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo Excel Microsoft. El[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)colección que permite el acceso a cada hoja de cálculo en un archivo Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. El[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)colección que representa todas las celdas de la hoja de trabajo.
+### **Gestionar Filas y Columnas**
 
- El[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)La colección proporciona varios métodos para administrar filas y columnas en una hoja de trabajo. Algunos de éstos se discuten a continuación.
+Aspose.Cells proporciona una clase [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Microsoft Excel. La clase [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contiene una colección [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) que permite acceder a cada hoja de cálculo en un archivo de Excel. Una hoja de cálculo está representada por la clase [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La clase [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) proporciona una colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) que representa todas las celdas en la hoja de cálculo.
+
+La colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) proporciona varios métodos para gestionar filas y columnas en una hoja de cálculo. Algunos de estos se discuten a continuación.
 
 {{% alert color="primary" %}}
 
-Cuando se agregan filas o columnas, el contenido de la hoja de cálculo se desplaza hacia abajo o hacia la derecha, y si se eliminan filas o columnas, el contenido se desplaza hacia arriba o hacia la izquierda.
+Cuando se agregan filas o columnas, el contenido en la hoja de cálculo se desplaza hacia abajo o hacia la derecha, y si se eliminan filas o columnas, el contenido se desplaza hacia arriba o hacia la izquierda.
 
 {{% /alert %}}
 
 
-##  **Insertar filas y columnas**
+## **Insertar Filas y Columnas**
 
-###  **Cómo insertar una fila**
+### **Cómo insertar una fila**
 
- Inserte una fila en la hoja de trabajo en cualquier ubicación llamando al[**Insertar fila**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) método de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) recopilación. El[**Insertar fila**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow)El método toma el índice de la fila donde se insertará la nueva fila.
+Inserte una fila en la hoja de cálculo en cualquier ubicación llamando al método [**InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) de la colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). El método [**InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) toma el índice de la fila donde se insertará la nueva fila.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARow-1.cs" >}}
 
-###  **Cómo insertar varias filas**
+### **Cómo insertar múltiples filas**
 
- Para insertar varias filas en una hoja de trabajo, llame al[**Insertar filas**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) método de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) recopilación. El[**Insertar filas**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)El método toma dos parámetros:
+Para insertar múltiples filas en una hoja de cálculo, llame al método [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) de la colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). El método [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) toma dos parámetros:
 
-- Índice de fila, el índice de la fila desde donde se insertarán las nuevas filas.
-- Número de filas, el número total de filas que deben insertarse.
+- Índice de la fila, el índice de la fila desde donde se insertarán las nuevas filas.
+- Número de filas, el número total de filas que se deben insertar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingMultipleRows-1.cs" >}}
 
-###  **Cómo insertar una fila con formato**
+### **Cómo insertar una fila con formato**
 
-Para insertar una fila con opciones de formato, utilice el[**Insertar filas**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)sobrecarga que lleva[**Insertar opciones**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) como parámetro. Selecciona el[**Tipo de formato de copia**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) propiedad de[**Insertar opciones**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) clase con[**Tipo de formato de copia**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Enumeración. El[**Tipo de formato de copia**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype)La enumeración tiene tres miembros como se enumeran a continuación.
+Para insertar una fila con opciones de formato, use la sobrecarga [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) que toma [**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) como parámetro. Establezca la propiedad [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) de la clase [**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) con la enumeración [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype). La enumeración [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) tiene tres miembros que se enumeran a continuación.
 
-- Igual que arriba: formatea la fila igual que la fila anterior.
-- Igual que abajo: formatea la fila igual que la fila siguiente.
-- Borrar: borra el formato.
+- SameAsAbove: Formatea la fila igual que la fila superior.
+- SameAsBelow: Formatea la fila igual que la fila inferior.
+- Clear: Borra el formato.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARowWithFormatting-1.cs" >}}
 
-###  **Cómo insertar una columna**
+### **Cómo Insertar una Columna**
 
- Los desarrolladores también pueden insertar una columna en la hoja de trabajo en cualquier ubicación llamando al[**Insertar columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) método de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)recopilación. El[**Insertar columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn)El método toma el índice de la columna donde se insertará la nueva columna.
+Los desarrolladores también pueden insertar una columna en la hoja de cálculo en cualquier ubicación llamando al método [**InsertColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) de la colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). El método [**InsertColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) toma el índice de la columna donde se insertará la nueva columna.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingAColumn-1.cs" >}}
 
-##  **Eliminar filas y columnas**
+## **Eliminar Filas y Columnas**
 
-###  **Cómo eliminar varias filas**
+### **Cómo borrar múltiples filas**
 
- Para eliminar varias filas de una hoja de cálculo, llame al[**Eliminar filas**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) método de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) recopilación. El[**Eliminar filas**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows)El método toma dos parámetros:
+Para eliminar múltiples filas de una hoja de cálculo, llama al método [**DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) de la colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). El método [**DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) toma dos parámetros:
 
 - Índice de fila, el índice de la fila desde donde se eliminarán las filas.
-- Número de filas, el número total de filas que deben eliminarse.
+- Número de filas, el número total de filas que deben ser eliminadas.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingMultipleRows-1.cs" >}}
 
 
-###  **Cómo eliminar una columna**
+### **Cómo eliminar una columna**
 
- Para eliminar una columna de la hoja de cálculo en cualquier ubicación, llame al[**Eliminar columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) método de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) recopilación. El[**Eliminar columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn)El método toma el índice de la columna a eliminar.
+Para eliminar una columna de la hoja de cálculo en cualquier ubicación, llama al método [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) de la colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). El método [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) toma el índice de la columna a eliminar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}

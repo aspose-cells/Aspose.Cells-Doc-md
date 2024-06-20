@@ -1,25 +1,26 @@
 ---
-title: "Limite el número de páginas generadas: conversión de Excel a PDF"
+title: Limitar el número de páginas generadas  Conversión de Excel a PDF
 type: docs
 weight: 180
 url: /es/python-net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
-description: Aprenda a limitar la cantidad de páginas generadas al renderizar Excel a PDF con Aspose.Cells for Python via .NET API.
-keywords: Python Limit the Number of Pages Generated while Rendering Excel to PDF, Limit the Number of Pages Generated while saving Excel to PDF using Python, Python Set the Number of Pages Generated while converting Excel to PDF, Control the Number of Pages Generated for Excel to PDF in python
+description: Aprenda cómo limitar el número de páginas generadas al representar Excel en PDF con Aspose.Cells para Python via .NET API.
+keywords: Limitar el número de páginas generadas en la representación de Excel en PDF con Python, Limitar el número de páginas generadas al guardar Excel en PDF con Python, Establecer el número de páginas generadas al convertir Excel en PDF con Python, Controlar el número de páginas generadas para Excel a PDF en python
 ---
+
 {{% alert color="primary" %}}
 
-veces, desea imprimir un rango de páginas en un archivo de salida PDF. Aspose.Cells for Python via .NET tiene la capacidad de establecer un límite en la cantidad de páginas que se generan al convertir una hoja de cálculo de Excel al formato de archivo PDF.
+A veces, quieres imprimir un rango de páginas en un archivo PDF de salida. Aspose.Cells for Python via .NET tiene la capacidad de establecer un límite en cuántas páginas se generan al convertir una hoja de cálculo de Excel al formato de archivo PDF.
 
 {{% /alert %}}
 
-##  **Limitar el número de páginas generadas**
+## **Limitar el número de páginas generadas**
 
-El siguiente ejemplo muestra cómo representar un rango de páginas (3 y 4) en un archivo de Excel Microsoft a PDF.
+El siguiente ejemplo muestra cómo renderizar un rango de páginas (3 y 4) en un archivo de Microsoft Excel a PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-LimitNumberOfPagesGenerated-1.py" >}}
 
 {{% alert color="primary" %}}
 
- Si la hoja de cálculo contiene fórmulas, es mejor llamar[Libro de trabajo.calcular_fórmula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) método justo antes de representarlo en PDF. Hacerlo garantiza que los valores dependientes de la fórmula se recalculen y que los valores correctos se representen en el archivo de salida.
+Si la hoja de cálculo contiene fórmulas, es mejor llamar al método [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) justo antes de renderizarlo a PDF. Hacerlo asegura que los valores dependientes de fórmulas se recalculen y que los valores correctos se representen en el archivo de salida.
 
 {{% /alert %}}

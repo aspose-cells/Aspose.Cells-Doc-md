@@ -1,24 +1,25 @@
-﻿---
-title: أضف أجزاء XML المخصصة وحددها حسب المعرف
+---
+title: إضافة أجزاء XML مخصصة وتحديدها حسب الهوية
 type: docs
 weight: 70
 url: /ar/net/add-custom-xml-parts-and-select-them-by-id/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-أجزاء XML المخصصة هي بيانات XML المخزنة داخل مستندات Excel Microsoft وتستخدم من قبل التطبيقات التي تتعامل معها. لا توجد طريقة مباشرة لإضافتها باستخدام Microsoft Excel UI في الوقت الحالي. ومع ذلك ، يمكنك إضافتها برمجيًا بعدة طرق ، مثل استخدام VSTO ، باستخدام Aspose.Cells وما إلى ذلك. يرجى استخدام[**المصنف. CustomXmlParts.Add ()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add)الطريقة إذا كنت تريد إضافة جزء XML مخصص باستخدام Aspose.Cells API. يمكنك أيضًا تعيين معرفه ، باستخدام[**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id)خاصية. وبالمثل ، إذا كنت تريد تحديد جزء XML مخصص حسب المعرف ، فيمكنك استخدام[**المصنف. CustomXmlParts.SelectByID ()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid)طريقة.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **أضف أجزاء XML المخصصة وحددها حسب المعرف**
+تمثل أجزاء XML المخصصة البيانات XML التي يتم تخزينها داخل مستندات Microsoft Excel وتستخدمها التطبيقات التي تتعامل معها. لا يوجد طريقة مباشرة لإضافتها باستخدام واجهة المستخدم Microsoft Excel في الوقت الحالي. ومع ذلك، يمكنك إضافتها برمجيا بطرق مختلفة، مثل باستخدام VSTO، باستخدام Aspose.Cells إلخ. يرجى استخدام الطريقة [**Workbook.CustomXmlParts.Add()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add) إذا كنت ترغب في إضافة جزء XML مخصص باستخدام واجهة برمجية Aspose.Cells. يمكنك أيضًا تعيين ID لها، استخدام الخاصية [**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id). بالمثل، إذا أردت تحديد جزء XML مخصص حسب الهوية، يمكنك استخدام الطريقة [**Workbook.CustomXmlParts.SelectByID()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid).
 
-يضيف نموذج التعليمات البرمجية التالي أولاً أربعة أجزاء مخصصة لـ XML باستخدام[**المصنف. CustomXmlParts.Add ()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add)طريقة. ثم يقوم بتعيين معرفاتهم باستخدام[**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id) خاصية. أخيرًا ، يقوم بالبحث عن أحد أجزاء XML المخصصة المضافة أو تحديده باستخدام[**المصنف. CustomXmlParts.SelectByID ()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid)طريقة. يرجى أيضًا الاطلاع على إخراج وحدة التحكم للرمز الوارد أدناه للرجوع إليه.
+## **إضافة أجزاء XML مخصصة وتحديدها حسب الهوية**
 
-## **عينة من الرموز**
+يضيف الرمز العيني التالي أولاً أربعة أجزاء XML مخصصة باستخدام الطريقة [**Workbook.CustomXmlParts.Add()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add). ثم يعين معرفاتها باستخدام الخاصية [**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id). أخيرًا، يجد أو يحدد واحدًا من الأجزاء XML المخصصة المضافة باستخدام الطريقة [**Workbook.CustomXmlParts.SelectByID()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid). يُرجى أيضًا الرجوع إلى إخراج الصفحة الخارجية للرمز العيني الذي يلى للإشارة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-AddCustomXMLPartsAndSelectThemByID.cs" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Found: CustomXmlPart ID Sport
 

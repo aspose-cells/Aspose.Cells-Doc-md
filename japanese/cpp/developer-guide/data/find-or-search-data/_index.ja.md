@@ -4,11 +4,12 @@ type: docs
 weight: 80
 url: /ja/cpp/find-or-search-data/
 ---
-##  **データの検索または検索**
-Aspose.Cells を使用すると、次の方法でさまざまな方法でデータを検索または検索できます。
+
+## **データの検索**
+以下の方法を使用して、さまざまな方法でデータを検索または検索するには Aspose.Cells を使用できます。
 
 - [GetEnumerator](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getenumerator/)
-- [式の取得](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getformula/)
+- [GetFormula](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getformula/)
 - [GetType](https://reference.aspose.com/cells/cpp/aspose.cells/cell/gettype/)
 - [GetStringValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstringvalue/)
 - [GetIntValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getintvalue/)
@@ -17,19 +18,19 @@ Aspose.Cells を使用すると、次の方法でさまざまな方法でデー�
 - [GetDoubleValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetDoubleValue/)
 - [GetFloatValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetFloatValue/)
 
-ビュー[もっと](https://reference.aspose.com/cells/cpp/aspose.cells/cell/)メソッド。
+他の[メソッド](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) を表示します。
 
-次のサンプル コードは、[サンプルエクセルファイル](21266434.xlsx)このスクリーンショットに示されているように。
+以下のサンプルコードは、このスクリーンショットに示されているように、[サンプルエクセルファイル](21266434.xlsx) を使用して上記の方法の使用法を示しています。
 
 ![todo:image_alt_text](find-or-search-data_1.png)
-##  **サンプルコード**
+## **サンプルコード**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-FindOrSearchData-new.cpp" >}}
-##  **コンソール出力**
-これは、指定されたコマンドを使用して実行した場合の上記のサンプル コードのコンソール出力です。[サンプルエクセルファイル](21266434.xlsx).
+## **コンソール出力**
+これは、与えられた [サンプルエクセルファイル](21266434.xlsx) を使用して上記のサンプルコードを実行したときのコンソール出力です。
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Name of the cell containing formula =SUM(A5:A10): C6
 Name of the cell containing the formula that contains CHA: C7

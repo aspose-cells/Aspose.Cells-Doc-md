@@ -1,14 +1,15 @@
 ---
-title: Rendu graphique
+title: Rendu du graphique
 type: docs
 weight: 30
 url: /fr/cpp/chart-rendering/
 ---
-##  **Création de graphiques**
 
-Aspose.Cells Prise en charge des API pour créer une multitude de graphiques Excel comme détaillé dans le sujet[Création et personnalisation de graphiques Excel](/cells/fr/cpp/creating-and-customizing-charts/). Afin de démontrer l'utilisation des API Aspose.Cells pour restituer les graphiques au format image et PDF, nous allons créer un graphique de type Colonne selon l'extrait suivant.
+## **Création de graphiques**
 
-{{< highlight "cpp" >}}
+Les API Aspose.Cells permettent de créer une variété de graphiques Excel comme détaillé dans le sujet [Création et personnalisation de graphiques Excel](/cells/fr/cpp/creating-and-customizing-charts/). Afin de démontrer l'utilisation des API Aspose.Cells pour rendre les graphiques au format image & PDF, nous créerons un graphique de type Colonnes selon le snippet suivant.
+
+{{< highlight cpp >}}
 
 Aspose::Cells::Startup();
 
@@ -52,15 +53,15 @@ Aspose::Cells::Cleanup();
 
 {{< /highlight >}}
 
-##  **Graphiques de rendu**
+## **Rendu des graphiques**
 
-Prise en charge des API Aspose.Cells pour convertir les graphiques Excel en images et formats PDF sans nécessiter d'outils ou d'applications supplémentaires. Afin de fournir la prise en charge du rendu, la classe Chart a exposé les méthodes ToImage et ToPdf avec une multitude de surcharges pour répondre au mieux aux exigences de l'application.
+Les API Aspose.Cells prennent en charge la conversion des graphiques Excel en images et en formats PDF sans nécessiter d'outils ou d'applications supplémentaires. Afin de prendre en charge le rendu, la classe Chart a exposé les méthodes ToImage et ToPdf avec une variété de surcharges pour mieux répondre aux besoins de l'application.
 
-###  **Rendu de graphiques en images**
+### **Rendu des graphiques en images**
 
-La méthode Chart.toImage dispose d'une multitude de surcharges pour prendre en charge un rendu simple et avancé. Si l'exigence de l'application est de restituer le graphique dans ses dimensions par défaut, nous vous suggérons d'utiliser la méthode Chart.toImage comme suit.
+La méthode Chart.toImage a une variété de surcharges pour prendre en charge un rendu simple ainsi qu'avancé. Si le besoin de l'application est de rendre le graphique dans ses dimensions par défaut, nous vous suggérons d'utiliser la méthode Chart.toImage comme suit.
 
-{{< highlight "cpp" >}}
+{{< highlight cpp >}}
 
 // Path of output image file
 U16String outputChartImage = outDir + u"out1image.png";
@@ -70,11 +71,11 @@ chart.ToImage(outputChartImage, ImageType::Png);
 
 {{< /highlight >}}
 
-###  **Tableau de rendu au PDF**
+### **Rendu du graphique en PDF**
 
-Afin de restituer le graphique au format PDF, les API Aspose.Cells ont exposé la méthode Chart.ToPdf avec la possibilité de stocker le PDF résultant sur un chemin de disque ou un flux.
+Afin de rendre le graphique au format PDF, les API Aspose.Cells ont exposé la méthode Chart.ToPdf avec la capacité de stocker le PDF résultant sur le chemin du disque ou le flux.
 
-{{< highlight "cpp" >}}
+{{< highlight cpp >}}
 
 // Path of output pdf file
 U16String outputPdfFile = outDir + u"out1pdf.pdf";
@@ -84,96 +85,96 @@ chart.ToPdf(outputPdfFile);
 
 {{< /highlight >}}
 
-##  **Types de graphiques pris en charge pour le rendu**
+## **Types de graphiques supportés pour le rendu**
 
-Certains types de graphiques ne sont actuellement pas pris en charge pour le rendu. Ces types de graphiques contiennent**N** dans le **Supporté**colonne du tableau ci-dessous.
+Il existe quelques types de graphiques actuellement non pris en charge pour le rendu. Ces types de graphiques contiennent N dans la colonne Pris en charge du tableau ci-dessous.
 
-|**Type de graphique**|**Sous-type de graphique**|**Prise en charge**|
+|**Type de graphique**|**Sous-type de graphique**|**Pris en charge**|
 | :- | :- | :- |
-|**Colonne**|Colonne|*O**|
-| |ColonneStacked|*O**|
-| |Colonne100PercentStacked|*O**|
-| |Colonne3DCclustérisée|*O**|
-| |Colonne3DStacked|*O**|
-| |Colonne3D100PourcentageStacked|*O**|
-| |Colonne3D|*O**|
-|**Bar**|Bar|*O**|
-| |BarStacked|*O**|
-| |Bar100PourcentEmpilé|*O**|
-| |Bar3DCluster|*O**|
-| |Bar3DSempilé|*O**|
-| |Bar3D100PourcentageEmpilé|*O**|
-|**Doubler**|Doubler|*O**|
-| |LigneStacked|*O**|
-| |Ligne100PercentStacked|*O**|
-| |LigneAvecDataMarkers|*O**|
-| |LineStackedWithDataMarkers|*O**|
-| |Ligne100PercentStackedWithDataMarkers|*O**|
-| |Ligne3D|*O**|
-|**Tarte**|Tarte|*O**|
-| |Tarte3D|*O**|
-| |TarteTarte|*O**|
-| |TarteExplodé|*O**|
-| |Tarte3DExplodé|*O**|
-| |TarteBar|*O**|
-|**Dispersion**|Dispersion|*O**|
-| |DispersionConnectéeByCurvesWithDataMarker|*O**|
-| |DispersionConnectedByCurvesWithoutDataMarker|*O**|
-| |DispersionConnectedByLinesWithDataMarker|*O**|
-| |DispersionConnectedByLinesWithoutDataMarker|*O**|
-|**Zone**|Zone|*O**|
-| |ZoneStacked|*O**|
-| |Zone100PourcentageStacked|*O**|
-| |Zone3D|*O**|
-| |Area3DSacked|*O**|
-| |Surface3D100PourcentageStacked|*O**|
-|**Donut**|Donut|*O**|
-| |BeignetExplosé|*O**|
-|**Radar**|Radar|*O**|
-| |RadarAvecDataMarkers|*O**|
-| |RadarRempli|*O**|
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
 |**Surface**|Surface3D|N|
-| |SurfaceFilaire3D|N|
-| |Contour de surface|N|
-| |SurfaceContourFilaire|N|
-|**Bulle**|Bulle|*O**|
-| |Bulle3D|N|
-|Action|StockHautBasFermer|*O**|
-| |StockOuvertHautBasFermer|*O**|
-| |StockVolumeÉlevéFaibleFermer|*O**|
-| |StockVolumeOuvertHautBasFermer|*O**|
-|**Cylindre**|Cylindre|*O**|
-| |CylindreStacked|*O**|
-| |Cylindre100PourcentEmpilé|*O**|
-| |Barre Cylindrique|*O**|
-| |CylindriqueBarEmpilé|*O**|
-| |CylindriqueBar100PourcentEmpilé|*O**|
-| |CylindriqueColonne3D|*O**|
-|**Cône**|Cône|*O**|
-| |CôneEmpilé|*O**|
-| |Cône100PourcentEmpilé|*O**|
-| |Barre conique|*O**|
-| |ConiqueBarEmpilé|*O**|
-| |ConiqueBar100PourcentEmpilé|*O**|
-| |ConiqueColonne3D|*O**|
-|**Pyramide**|Pyramide|*O**|
-| |PyramideEmpilé|*O**|
-| |Pyramide100PourcentEmpilé|*O**|
-| |PyramideBar|*O**|
-| |PyramideBarEmpilé|*O**|
-| |PyramideBar100PourcentEmpilé|*O**|
-| |PyramideColonne3D|*O**|
-|**BoîteWhisker**|BoîteWhisker|Y|
-|**Entonnoir**|Entonnoir|*O**|
-|**Ligne Pareto**|Ligne Pareto|*O**|
-|**Coup de soleil**|Coup de soleil|*O**|
-|**Treemap**|Treemap|*O**|
-|**Cascade**|Cascade|*O**|
-|**Histogramme**|Histogramme|Y|
-|**Carte**|Carte|*N**|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
+| |SurfaceContourWireframe|N|
+|**Bubble**|Bubble|**Y**|
+| |Bubble3D|N|
+|Stock|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
+|**BoxWhisker**|BoxWhisker|Y|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-Si vous essayez de restituer les types de graphiques non pris en charge en image ou PDF, vous risquez de vous retrouver avec des images de taille 0 ou PDF vierge.
+Dans le cas où vous tenteriez de rendre les types de graphiques non pris en charge en image ou en PDF, vous pourriez obtenir des images de taille 0 ou un PDF vierge.
 
 {{% /alert %}}

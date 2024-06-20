@@ -1,35 +1,36 @@
 ---
-title: Determinare se il formato carta del foglio di lavoro è automatico
+title: Determina se la dimensione carta del foglio di lavoro è automatica
 type: docs
 weight: 90
 url: /it/net/determine-if-paper-size-of-worksheet-is-automatic/
-description: In questo articolo viene spiegato come utilizzare il codice di esempio della libreria C# API o .NET per determinare se la dimensione del foglio di lavoro è automatica a livello di codice.
-keywords: determine if paper size of worksheet automatic c#
+description: Questo articolo spiega come utilizzare il codice di esempio dell API C# o della libreria .NET per determinare se la dimensione carta del foglio di lavoro è automatica in modo programmatico.
+keywords: determinare se la dimensione carta del foglio di lavoro è automatica c#
 ---
-##  **Possibili scenari di utilizzo**
 
- Il più delle volte, il formato carta del foglio di lavoro è automatico. Quando è automatico, è spesso impostato come *Lettera*. A volte l'utente imposta il formato carta del foglio di lavoro secondo i propri requisiti. In questo caso, il formato carta non è automatico. Puoi scoprire se il formato della carta del foglio di lavoro è automatico o meno utilizzando il file[**Worksheet.PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize)proprietà.
+## **Possibili Scenari di Utilizzo**
 
-##  **Determinare se il formato carta del foglio di lavoro è automatico**
+Molte volte, la dimensione carta del foglio di lavoro è automatica. Quando è automatica, spesso è impostata come *Lettera*. A volte l'utente imposta la dimensione carta del foglio di lavoro in base alle proprie esigenze. In questo caso, la dimensione carta non è automatica. Puoi scoprire se la dimensione carta del foglio di lavoro è automatica o meno utilizzando la proprietà [**Worksheet.PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize).
 
-Il codice di esempio fornito di seguito carica i seguenti due file Excel
+## **Determina se le dimensioni del foglio di lavoro sono automatiche**
+
+Il codice di esempio riportato di seguito carica i seguenti due file Excel
 
 - [samplePageSetupIsAutomaticPaperSize-False.xlsx](48496681.xlsx)
 - [samplePageSetupIsAutomaticPaperSize-True.xlsx](48496682.xlsx)
 
-scopri se il formato carta del loro primo foglio di lavoro è automatico o meno. In Microsoft Excel, puoi verificare se il formato carta è automatico o meno tramite la finestra Imposta pagina come mostrato in questa schermata.
+e verifica se la dimensione carta del loro primo foglio di lavoro è automatica o meno. In Microsoft Excel, puoi verificare se la dimensione carta è automatica o meno tramite la finestra Impostazioni pagina come mostrato in questa immagine.
 
-![cose da fare:image_alt_text](determine-if-paper-size-of-worksheet-is-automatic_1.png)
+![todo:image_alt_text](determine-if-paper-size-of-worksheet-is-automatic_1.png)
 
-##  **Codice d'esempio**
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-DetermineIfPaperSizeOfWorksheetIsAutomatic.cs" >}}
 
-##  **Uscita console**
+## **Output della console**
 
-Ecco l'output della console del codice di esempio precedente quando eseguito con i file Excel di esempio forniti.
+Ecco l'output sulla console del codice di esempio sopra quando eseguito con i file Excel di esempio forniti.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 First Worksheet of First Workbook - IsAutomaticPaperSize: False
 

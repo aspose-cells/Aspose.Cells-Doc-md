@@ -1,22 +1,23 @@
-﻿---
-title: Hitta frågetabeller och listobjekt relaterade till externa dataanslutningar
+---
+title: Hitta frågetabeller och lista objekt relaterade till externa dataanslutningar
 type: docs
 weight: 20
 url: /sv/java/find-query-tables-and-list-objects-related-to-external-data-connections/
 ---
-## **Hitta frågetabeller och listobjekt relaterade till externa dataanslutningar**
 
-Ibland behöver du ta reda på frågetabeller och listobjekt relaterade till någon extern dataanslutning. Frågetabeller är relaterade till External Data Connection-objekt med anslutnings-ID, medan listobjekt är relaterade till en frågetabell.
+## **Hitta frågetabeller och lista objekt relaterade till externa dataanslutningar**
 
- Följande exempelkod förklarar hur du kan hitta frågetabeller och listobjekt relaterade till extern dataanslutning. Koden använder[exempel på excel-fil](5472550.xlsm) som du kan ladda ner från den medföljande länken. Du kan också se resultatet av denna exempelkod längst ner i den här artikeln.
+Ibland behöver du ta reda på frågetabeller och lista objekt relaterade till någon extern dataanslutning. Frågetabeller är relaterade till objekt för extern dataanslutning med anslutnings-ID, medan lista objekt är relaterade till en frågetabell.
+
+Följande exempelkod förklarar hur du kan hitta frågetabeller och listobjekt relaterade till extern dataanslutning. Koden använder [prov excelfil](5472550.xlsm) som du kan ladda ner från den angivna länken. Du kan också se resultatet av denna exempelkod längst ner i den här artikeln.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-FindReferenceCellsFromExternalConnection-FindReferenceCellsFromExternalConnection.java" >}}
 
-## **Konsolutgång**
+## **Konsoloutput**
 
- Här är konsolutgången för ovanstående exempelkod som använder denna[exempel på excel-fil](5472550.xlsm).
+Här är konsolresultatet av ovanstående exempelkod med hjälp av denna [prov excelfil](5472550.xlsm).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 connection: AAPL Connection
 

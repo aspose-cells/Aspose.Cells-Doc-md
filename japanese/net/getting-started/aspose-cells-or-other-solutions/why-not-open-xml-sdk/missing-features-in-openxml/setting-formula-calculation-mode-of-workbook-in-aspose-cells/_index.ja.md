@@ -1,35 +1,36 @@
-﻿---
-title: Aspose.Cellsでワークブックの数式計算モードを設定する
+---
+title: Aspose.Cellsでのワークブックのフォーミュラ計算モードの設定
 type: docs
 weight: 100
 url: /ja/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel では、数式の計算モード、つまり数式の計算方法を設定できます。次の 3 つの値があります。
+Microsoft Excelでは、フォーミュラ計算モード、つまりフォーミュラの計算方法を設定できます。3つの可能な値があります。
 
-- 自動 - 何かが変更されるたび、およびワークブックが開かれるたびに再計算します。
-- データ テーブルを除いて自動 - 何かが変更されるたびに再計算しますが、データ テーブルは除外します。
-- 手動 - ユーザーが F9 キーまたは CTRL + ALT + F9 キーを押して明示的に要求した場合、またはブックが保存された場合にのみ再計算します。
+- 自動 - 何かが変更されるたびに再計算し、ワークブックが開かれるたびに再計算します。
+- データテーブル以外自動 - 何かが変更されるたびに再計算しますが、データテーブルを除外します。
+- マニュアル - ユーザーがF9またはCTRL+ALT+F9を押すか、ワークブックが保存されたときにのみ再計算します。
 
 {{% /alert %}} 
 
-Microsoft Excel で数式計算モードを設定するには:
+Microsoft Excelでの式計算モードを設定するには:
 
-1. 選択する**数式**その後**計算オプション**.
-1. いずれかのオプションを選択します。
+1. **式**、次に**計算オプション**を選択します。
+1つのオプションを選択します。
 
- Aspose.Cells を設定することもできます**式計算モード**FormulaSettings.CalculationMode モード プロパティを使用します。次のいずれかの値を持つ CalcModeType 列挙を割り当てることができます。
+Aspose.Cellsでも、FormulaSettings.CalculationModeプロパティを使用してフォーミュラの計算モードを設定できます。CalcModeType列挙型に以下の値の1つを割り当てることができます。
 
 - CalcModeType.Automatic
 - CalcModeType.AutomaticExceptTable
 - CalcModeType.Manual
 
-次のサンプル コードでは、最初にワークブックを作成し、次に数式計算モードを**マニュアル**ワークブックを出力 Excel ファイルとしてディスクに保存します。
+以下のサンプルコードはまずワークブックを作成し、次に式計算モードを**マニュアル**に設定し、ワークブックをディスク上の出力Excelファイルとして保存します。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -49,6 +50,6 @@ workbook.Save(FileName, SaveFormat.Xlsx);
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Setting%20Formula%20Calculation%20Mode)
-## **実行例をダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Setting%20Formula%20Calculation%20Mode)
+## **実行例のダウンロード**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

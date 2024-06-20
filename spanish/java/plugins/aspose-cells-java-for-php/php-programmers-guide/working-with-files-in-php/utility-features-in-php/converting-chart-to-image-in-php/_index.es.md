@@ -1,15 +1,16 @@
-﻿---
+---
 title: Convertir gráfico a imagen en PHP
 type: docs
 weight: 10
 url: /es/java/converting-chart-to-image-in-php/
 ---
-## **Aspose.Cells - Conversión de gráfico a imagen**
-Para convertir Gráfico a Imagen usando Aspose.Cells for Java en PHP, simplemente invoque el módulo Convertidor.
+
+## **Aspose.Cells - Convirtiendo gráfico a imagen**
+Para convertir un gráfico a imagen utilizando Aspose.Cells for Java en PHP, simplemente invoque el módulo de conversión.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $chartType = new ChartType();
 
@@ -140,7 +141,7 @@ $chart->toImage($fs, $imgOpts);
 $fs->close();  
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Conversión de gráfico a imagen (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Convertir gráfico a imagen (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ChartToImage.php)

@@ -1,8 +1,9 @@
 ---
-title: Arbeiten mit dem clientseitigen GridWeb-Skript
+title: Arbeiten mit GridWeb Client seitigem Skript
 type: docs
 weight: 100
 url: /de/java/working-with-gridweb-client-side-script/
 ---
-##  **Artikel in diesem Abschnitt**
+
+## **Artikel in diesem Abschnitt**
 

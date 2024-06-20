@@ -1,22 +1,23 @@
 ---
-title: أضف علامة مائية إلى PDF
+title: إضافة علامة مائية إلى ملف PDF
 type: docs
 weight: 9
 url: /ar/python-net/add-watermark-to-pdf/
-description: تعرف على كيفية إضافة العلامة المائية إلى ملف pdf مع Aspose.Cells for Python via .NET API.
-keywords: Python add watermark to pdf, add watermark to pdf Pyton via NET, insert watermark to pdf
+description: تعلم كيفية إضافة علامة مائية إلى ملف PDF باستخدام Aspose.Cells for Python via .NET API.
+keywords: إضافة علامة مائية إلى ملف PDF باستخدام Python، إضافة علامة مائية إلى PDF باستخدام Pyton via NET، إدراج علامة مائية في ملف PDF
 ---
-أثناء تحويل ملف Excel إلى pdf، قد تكون لديك متطلبات لإضافة علامة مائية إلى ملف pdf. توضح الأمثلة التالية كيفية إضافة علامة مائية نصية وصورة إلى ملف pdf أثناء العرض إلى ملف pdf.
 
-##   **أضف علامة مائية نصية إلى PDF**
+أثناء تحويل ملف Excel إلى ملف pdf ، قد تكون لديك متطلبات لإضافة علامة مائية إلى ملف pdf. تظهر الأمثلة التالية كيفية إضافة علامة مائية نصية وصورة إلى pdf أثناء التقديم إلى pdf.
 
- يمكنك بسهولة إضافة علامة مائية نصية إلى ملف pdf عن طريق تحديد النص والخط المقابل. يمكنك أيضًا ضبط المحاذاة والإزاحة والتدوير والتعتيم والمقدمة/الخلفية والقياس إلى الصفحة[تقديم العلامة المائية](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
+## **إضافة علامة مائية نصية إلى PDF**
+
+يمكنك بسهولة إضافة علامة مائية نصية إلى ملف PDF عن طريق تحديد النص والخط المقابل. كما يمكنك تعيين محاذاة، إزاحة، دوران، شفافية، خلفية/أمامية، وتحجيم للصفحة في [RenderingWatermark](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddTextWatermarkToPdf.py" >}}
 
-##  **أضف علامة مائية للصورة إلى PDF**
+## **إضافة علامة مائية صورة إلى PDF**
 
-يمكنك إضافة علامة مائية للصورة إلى ملف pdf فقط عن طريق تحديد بايت الصورة للصورة. يمكنك أيضًا ضبط المحاذاة والإزاحة والتدوير والتعتيم والمقدمة/الخلفية والقياس إلى الصفحة[تقديم العلامة المائية](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
+يمكنك إضافة علامة مائية صورة إلى ملف PDF فقط عن طريق تحديد بايتات الصورة. كما يمكنك تعيين محاذاة، إزاحة، دوران، شفافية، خلفية/أمامية، وتحجيم للصفحة في [RenderingWatermark](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddImageWatermarkToPdf.py" >}}
 

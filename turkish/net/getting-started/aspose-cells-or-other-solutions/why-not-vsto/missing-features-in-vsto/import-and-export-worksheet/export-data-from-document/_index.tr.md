@@ -1,16 +1,17 @@
-﻿---
-title: Verileri belgeden dışa aktar
+---
+title: Belgeden Veri Dışa Aktar
 type: docs
 weight: 10
 url: /tr/net/export-data-from-document/
 ---
- Aspose.Cells, kullanıcılarının yalnızca harici veri kaynaklarından çalışma sayfalarına veri almalarını kolaylaştırmakla kalmaz, aynı zamanda çalışma sayfası verilerini bir**Veri tablosu** . bildiğimiz gibi**Veri tablosu** ADO.NET'in bir parçasıdır ve verileri tutmak için kullanılır. Veriler bir kez depolandığında**Veri tablosu**, kullanıcıların gereksinimlerine göre herhangi bir şekilde kullanılabilir.
 
-**Aspose.Cells Kullanarak Verileri DataTable'a (.NET) Aktarma**
+Aspose.Cells, kullanıcılarının yalnızca dış veri kaynaklarından çalışsayılarına veri almasına olanak tanımakla kalmaz, aynı zamanda çalışsayı verilerini bir **DataTable**'a aktarmalarına da izin verir.
 
-Geliştiriciler, Cells sınıfının ExportDataTable veya ExportDataTableAsString yöntemini çağırarak çalışma sayfası verilerini kolayca bir DataTable nesnesine aktarabilir. Her iki yöntem de aşağıda daha ayrıntılı olarak tartışılan farklı senaryolarda kullanılmaktadır.
+**Aspose.Cells** Kullanarak Verileri DataTable (.NET)’e Dışa Aktarma
 
-Bu bölümde aşağıdaki konular yer almaktadır:
+Geliştiriciler, Cells sınıfının ExportDataTable veya ExportDataTableAsString yöntemini çağırarak çalışsayı verilerini bir DataTable nesnesine kolayca dışa aktarabilirler. Her iki yöntem de farklı senaryolarda kullanılır ve daha ayrıntılı olarak aşağıda tartışılmaktadır.
 
-- [Kesinlikle Yazılmamış Veriler İçeren Sütunlar](/cells/tr/net/columns-containing-non-strongly-typed-data/)
-- [Kesinlikle Yazılmış Verileri İçeren Sütunlar](/cells/tr/net/columns-containing-strongly-typed-data/)
+Bu bölümdeki konular şunlardır:
+
+- [Güçlü-Tiplendirilmemiş Veri İçeren Sütunlar](/cells/tr/net/columns-containing-non-strongly-typed-data/)
+- [Güçlü-Tiplendirilmiş Veri İçeren Sütunlar](/cells/tr/net/columns-containing-strongly-typed-data/)

@@ -1,17 +1,18 @@
-﻿---
-title: Aspose.Cells'de Çalışma Kitaplarını Yazdırma
+---
+title: Aspose.Cells te İş Kitaplarını Yazdırma
 type: docs
 weight: 20
 url: /tr/net/printing-workbooks-in-aspose-cells/
 ---
-## **Aspose.Cells - Çalışma Kitaplarını Yazdırma**
-Elektronik tablonuzu oluşturmayı bitirdikten sonra, ihtiyaçlarınız için büyük olasılıkla sayfanın basılı bir kopyasını yazdırmak isteyeceksiniz. Yazdırırken, seçiminizi belirtmediğiniz sürece, MS Excel tüm çalışma sayfası alanını yazdırmak istediğinizi varsayar.
 
-Yazdırma Çalışma Sayfası
+## **Aspose.Cells - İş Kitaplarını Yazdırma**
+Tablonuzu oluşturmayı bitirdikten sonra muhtemelen ihtiyacınız olan tablonun kağıt kopyasını yazdırmak olacaktır. Yazdırırken, MS Excel, seçiminizi belirtmedikçe tüm çalışma sayfasını yazdırmak istediğinizi varsayar.
+
+Çalışma Sayfasını Yazdırma
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -35,12 +36,12 @@ sr.ToPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Kitaplarını Yazdırma** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **İş Kitaplarını Yazdırma** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Kitaplarını Yazdırma](/cells/tr/net/printing-workbooks/).
+Daha fazla bilgi için [İş Kitaplarını Yazdırma](/cells/tr/net/printing-workbooks/) sayfasını ziyaret edin.
 
 {{% /alert %}}

@@ -1,58 +1,59 @@
-﻿---
-title: Visa och dölj rutnätslinjer och radkolumnrubriker
+---
+title: Visa och dölj rutnät och radkolumnhuvuden
 type: docs
 weight: 30
 url: /sv/net/show-and-hide-gridlines-and-row-column-headers/
-description: Den här artikeln innehåller exempelkod för att använda biblioteket C# API eller .NET för att programmatiskt dölja eller visa rutnätslinjer, rad- och kolumnrubriker i ett Excel-kalkylblad.
+description: Den här artikeln tillhandahåller exempelkod för att använda C# API eller .NET Library för att programmatiskt dölja eller visa rutnät, rad och kolumnhuvuden i ett Excel kalkylblad.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells stöder att dölja och visa rutnätslinjer för kalkylbladet som är synliga som standard. Det ger också kontroll över kalkylbladets radkolumnrubriker.
+Aspose.Cells stödjer döljning och visning av kalkylbladets rutnät som är synliga som standard. Den ger också kontroll över synligheten av radkolumnhuvuden på kalkylbladet.
 
 {{% /alert %}}
 
-## **Visa och dölj rutnätslinjer**
+## **Visa och dölj rutnät**
 
-Alla Excel-kalkylblad har rutnät som standard. De hjälper till att avgränsa celler så att det är lätt att mata in data i särskilda celler. Gridlines gör det möjligt för oss att se ett kalkylblad som en samling celler, där varje cell är lätt att identifiera.
+Alla Excel-kalkylblad har rutnät som standard. De hjälper till att avgränsa celler så att det är lätt att ange data i specifika celler. Rutnät gör det möjligt för oss att se ett kalkylblad som en samling av celler, där varje cell är lätt identifierbar.
 
-### **Styra rutnätets synlighet**
+### **Kontrollera synligheten av rutnäten**
 
-Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)samling som låter utvecklare komma åt varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass tillhandahåller ett brett utbud av egenskaper och metoder för att hantera ett kalkylblad. För att kontrollera synligheten för rutnät, använd[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) fast egendom.[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) är en boolesk egenskap, vilket betyder att den bara kan lagra en**Sann** eller**falsk** värde.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klassen innehåller en [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)samling som tillåter utvecklare att komma åt varje kalkylblad i Excel-filen. Ett kalkylbla representeras av [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klassen. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klassen ger ett brett utbud av egenskaper och metoder för att hantera ett kalkylblad. För att kontrollera synligheten av rutnätet, använd [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klassens [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)egenskap. [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)är en boolean-egenskap, vilket betyder att den endast kan lagra ett **true** eller **false**-värde.
 
-#### **Gör rutnät synliga**
+#### **Gör rutnätslinjer synliga**
 
- Gör rutnätslinjerna synliga genom att ställa in[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) egendom till**Sann**.
+Gör rutnätet synligt genom att ange [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)egenskapen för klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) till **true**.
 
-#### **Dölja rutnät**
+#### **Gömmer rutnätslinjer**
 
- Dölj rutnät genom att ställa in[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) egendom till**falsk**.
+Dölj rutnätet genom att ange [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)egenskapen för klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) till **false**.
 
- Ett komplett exempel ges nedan som visar användningen av[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)egenskap genom att öppna en excel-fil(book1.xls), dölja rutnätslinjerna på det första kalkylbladet och spara den ändrade filen som output.xls.
+Ett komplett exempel ges nedan som visar användningen av [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)egenskapen genom att öppna en Excelfil (book1.xls), dölja rutnätet på det första kalkylarket och spara den modifierade filen som output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideGridlines-1.cs" >}}
 
-## **Visa och dölj radkolumnrubriker**
+## **Visa och dölj radkolumnhuvuden**
 
-Alla kalkylblad i en Excel-fil är sammansatta av celler som är ordnade i rader och kolumner. Alla rader och kolumner har unika värden som används för att identifiera dem och för att identifiera enskilda celler. Till exempel är rader numrerade – 1, 2, 3, 4, etc. – och kolumner ordnas i alfabetisk ordning – A, B, C, D, etc. Rad- och kolumnvärdena visas i rubrikerna. Med hjälp av Aspose.Cells kan utvecklare kontrollera synligheten för dessa rad- och kolumnrubriker.
+Alla kalkylblad i en Excel-fil består av celler som är ordnade i rader och kolumner. Alla rader och kolumner har unika värden som används för att identifiera dem och individuella celler. Till exempel har rader nummer - 1, 2, 3, 4, osv.- och kolumner är ordnade alfabetiskt - A, B, C, D, osv. Rad- och kolumnvärdena visas i huvudena. Med Aspose.Cells kan utvecklare kontrollera synligheten av dessa rad- och kolumnhuvuden.
 
-### **Styra arbetsbladens synlighet**
+### **Kontrollera synligheten av arbetsbladen**
 
-Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)samling som låter utvecklare komma åt varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass tillhandahåller ett brett utbud av egenskaper och metoder för att hantera ett kalkylblad. För att kontrollera synligheten för rad- och kolumnrubriker använder du[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) fast egendom.[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) är en boolesk egenskap, vilket betyder att den bara kan lagra en**Sann** eller**falsk**värde.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klassen innehåller en [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)samling som tillåter utvecklare att komma åt varje kalkylblad i Excel-filen. Ett kalkylbla representeras av [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klassen. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klassen ger ett brett utbud av egenskaper och metoder för att hantera ett kalkylblad. För att kontrollera synligheten av rad- och kolumnhuvuden, använd [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klassens [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)egenskap. [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)är en boolean-egenskap, vilket betyder att den endast kan lagra ett **true** eller **false** värde.
 
-#### **Gör rad-/kolumnrubriker synliga**
+#### **Göra rad-/kolumnrubriker synliga**
 
- Gör rad- och kolumnrubriker synliga genom att ställa in[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) egendom till**Sann**.
+Gör rad- och kolumnrubriker synliga genom att ställa in klass [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) egenskap [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) till **true**.
 
-#### **Döljer rad-/kolumnrubriker**
+#### **Gömma rad-/kolumnrubriker**
 
- Dölj rad- och kolumnrubriker genom att ställa in[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) egendom till**falsk**.
+Dölj rad- och kolumnrubriker genom att ställa in klass [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) egenskap [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) till **false**.
 
-Ett komplett exempel ges nedan som visar hur man använder[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)egenskapen genom att öppna en excel-fil (book1.xls), dölja rad- och kolumnrubriken på det första kalkylbladet och spara den ändrade filen som output.xls.
+En komplett exempel nedan visar hur man använder [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) egenskap genom att öppna en excel-fil (book1.xls), dölja rad- och kolumnrubrikerna på den första kalkylbladet och spara den modifierade filen som output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideRowColumnHeaders-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Det är också möjligt att använda[**Visa rader**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) och[**Visa kolumner**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) metoder för[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) klass för att göra flera rader och kolumner synliga.
+Det går även att använda [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) och [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) metoder av klassen [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) för att göra flera rader och kolumner synliga.
 
 {{% /alert %}}

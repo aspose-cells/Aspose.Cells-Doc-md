@@ -1,27 +1,28 @@
-﻿---
-title: طباعة التعليقات أثناء الحفظ في PDF
+---
+title: طباعة التعليقات أثناء الحفظ إلى صيغة PDF
 type: docs
 weight: 10
 url: /ar/net/print-comments-while-saving-to-pdf/
 ---
+
 {{% alert color="primary" %}}
 
-يسمح لك Microsoft Excel بطباعة التعليقات أثناء الطباعة أو الحفظ بتنسيق PDF باستخدام الخيارات التالية
+تسمح Microsoft Excel بطباعة التعليقات أثناء الطباعة أو الحفظ في صيغة PDF بالخيارات التالية
 
-- لا أحد
-- في نهاية الورقة
-- كما هو معروض على الورقة
+- لا شيء
+- في نهاية الجدول
+- كما هو معروض على الجدول
 
- Aspose.Cells توفير[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) تعداد لدعم نفس الميزة. ال[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)Enum له الأعضاء التالية أسماؤهم
+توفر Aspose.Cells enum [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) لدعم نفس الميزة. enum [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) له أعضاء التالية
 
-- طباعة لا تعليقات
+- PrintNoComments
 - PrintInPlace
 - PrintSheetEnd
 
 {{% /alert %}}
 
-## **طباعة التعليقات أثناء الحفظ في PDF**
+## **طباعة التعليقات عند الحفظ إلى PDF**
 
- يوضح نموذج التعليمات البرمجية التالي كيفية الاستخدام[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)لطباعة التعليقات أثناء الحفظ في PDF.
+يوضح الكود النموذجي التالي كيفية استخدام [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) لطباعة التعليقات أثناء الحفظ إلى صيغة PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintCommentWhileSavingToPdf-PrintCommentWhileSavingToPdf.cs" >}}

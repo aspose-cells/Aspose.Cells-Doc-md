@@ -1,14 +1,15 @@
 ---
-title: FAQ
+title: SSS
 type: docs
 weight: 100
 url: /tr/cpp/faq/
 ---
-##  **Henüz değil**
+
+## **Henüz değil**
 
 <!--
-## **Encryption and decryption are not supported for Aspose.Cells for C++ now**
-Now, encryption and decryption are not supported for Aspose.Cells for C++, so if you want to open a file with password the code will throw exception.
+## **Şifreleme ve şifre çözme şu anda desteklenmiyor Aspose.Cells for C++ için**
+Şu anda, Aspose.Cells for C++ için şifreleme ve şifre çözme desteklenmiyor, bu nedenle bir dosyayı şifreli olarak açmak istiyorsanız, kod istisna atacaktır.
 
 
 

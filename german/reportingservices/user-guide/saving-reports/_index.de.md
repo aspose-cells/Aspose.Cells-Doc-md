@@ -1,14 +1,15 @@
-﻿---
+---
 title: Berichte speichern
 type: docs
 weight: 80
 url: /de/reportingservices/saving-reports/
 ---
+
 {{% alert color="primary" %}} 
 
- Um einen Bericht zu speichern, klicken Sie auf**Bericht speichern**auf der Symbolleiste Aspose.Cells.Report.Designer (
+Um einen Bericht zu speichern, klicken Sie auf **Bericht speichern** in der Aspose.Cells.Report.Designer-Symbolleiste (
 
-![todo: Bild_alt_Text](saving-reports_1.png)
+![todo:image_alt_text](saving-reports_1.png)
 
 ). 
 Der Bericht (Microsoft Excel-Vorlage) wird als RDL-Datei gespeichert.

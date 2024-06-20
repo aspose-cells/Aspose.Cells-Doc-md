@@ -1,13 +1,14 @@
 ---
-title: Tableau croisé dynamique Masquer et trier les données
+title: Masquer et trier les données du tableau croisé dynamique
 type: docs
 weight: 120
 url: /fr/python-net/pivot-table-hide-and-sort-data/
-description: Cet article montre comment masquer et trier les données dans un tableau croisé dynamique avec Aspose.Cells for Python via .NET.
-keywords: Pivot Table Hide and Sort data
+description: Cet article montre comment masquer et trier les données dans un tableau croisé dynamique avec Aspose.Cells pour Python via .NET.
+keywords: Aspose.Cells pour Python Excel, bibliothèque Python Excel, Masquer et trier les données d un tableau croisé dynamique.
 ---
-##  **Tableau croisé dynamique Masquer et trier les données**
-Aspose.Cells for Python via .NET prend en charge le masquage et le tri des données dans le tableau croisé dynamique. L'extrait de code suivant illustre cette fonctionnalité en triant la colonne Score par ordre décroissant, puis en masquant les lignes avec un score inférieur à 60.
+
+## **Masquer et trier les données d'un tableau croisé dynamique à l'aide de la bibliothèque Aspose.Cells pour Excel en Python**
+Aspose.Cells for Python via .NET prend en charge la dissimulation et le tri des données dans le tableau croisé dynamique. Le code suivant illustre cette fonctionnalité en triant la colonne Score par ordre décroissant, puis en masquant les lignes ayant un score inférieur à 60.
 
 
 

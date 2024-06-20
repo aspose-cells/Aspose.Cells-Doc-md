@@ -1,23 +1,24 @@
-﻿---
-title: Genel API Aspose.Cells'deki değişiklikler 8.6.3
+---
+title: Aspose.Cells 8.6.3 te Kamu API Değişiklikleri
 type: docs
 weight: 230
 url: /tr/java/public-api-changes-in-aspose-cells-8-6-3/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.6.2'den 8.6.3'e modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen sınıfları değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, Aspose.Cells API'sinde 8.6.2'den 8.6.3'e yapılan değişiklikleri modül/uygulama geliştiricileri için ilginç olabilecek değişiklikleri açıklar. Yeni ve güncellenmiş kamu metodları, eklenen sınıfların yanı sıra Aspose.Cells'in arka planda olan herhangi bir değişikliği de içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Verileri İçe Aktarırken HTML Ayrıştırma Desteği**
-Aspose.Cells for Java API'in bu sürümü, API'i Çalışma Sayfasına veri aktarırken HTML etiketlerini ayrıştırmaya ve ayrıştırılan sonucu hücre değeri olarak ayarlamaya yönlendiren ImportTableOptions.setHtmlString özniteliğini ortaya çıkardı. Lütfen unutmayın, Aspose.Cells API'leri, bu görevi tek bir hücre için gerçekleştirmek üzere Cell.setHtmlString özniteliğini zaten sağlar, ancak verileri toplu olarak içe aktarırken, ImportTableOptions.setHtmlString özniteliği (true olarak ayarlandığında) desteklenen tüm HTML etiketlerini ve kümelerini ayrıştırmaya çalışır. ayrıştırılan sonuçlar karşılık gelen hücrelere gönderilir.
+## **Eklenen API'lar**
+### **Veri İçeri Aktarılırken HTML Ayrışma Desteği**
+Bu sürümde, Aspose.Cells for Java API, ImportTableOptions.setHtmlString özelliğini ortaya çıkardı, bu özellik, API'nin HTML etiketlerini ayrıştırmasını sağlar ve ayrıştırılmış sonucu hücre değeri olarak ayarlar. Lütfen not edin, Aspose.Cells API'ları zaten tek bir hücre için bu görevi yerine getirmek için Cell.setHtmlString özelliğini sağlar, ancak toplu veri alırken ImportTableOptions.setHtmlString özelliği (true olarak ayarlandığında) tüm desteklenen HTML etiketlerini ayrıştırmaya çalışır ve ayrıştırılmış sonuçları ilgili hücrelere ayarlar.
 
 İşte en basit kullanım senaryosu.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //create an instance of ImportTableOptions
 
@@ -32,14 +33,14 @@ importOptions.setHtmlString(true);
 cells.importData(iTable, 0, 0, importOptions);
 
 {{< /highlight >}}
-### **Yöntem Workbook.createBuiltinStyle Eklendi**
- Aspose.Cells for Java 8.6.3, Workbook.createBuiltinStyle öğelerinden birine karşılık gelen Style sınıfından bir nesne oluşturmak için kullanılabilecek yöntemi ortaya çıkardı.[Excel uygulaması tarafından sunulan yerleşik stiller](/cells/tr/java/using-built-in-styles/)Workbook.createBuiltinStyle yöntemi, DahiliStyleType numaralandırmasından bir sabit kabul eder. Lütfen unutmayın, Aspose.Cells API'lerinin önceki sürümleriyle aynı görev StyleCollection.createBuiltinStyle yöntemiyle gerçekleştirilebilirdi ancak Aspose.Cells API'lerinin son sürümleri StyleCollection sınıfını kaldırdığından, yeni kullanıma sunulan Workbook.createBuiltinStyle yöntemi alternatif bir yaklaşım olarak kabul edilebilir. aynısını elde etmek.
+### **Eklendi Workbook.createBuiltinStyle Yöntemi**
+Aspose.Cells for Java 8.6.3, Excel uygulaması tarafından sağlanan [dahili stillerden birine karşılık gelen Stil sınıfının bir nesnesini oluşturmak için kullanılabilen Workbook.createBuiltinStyle yöntemini açığa çıkardı](/cells/tr/java/using-built-in-styles/). Workbook.createBuiltinStyle yöntemi, BuiltinStyleType numaralandırmasından sabit bir değer alır. Lütfen not edin, Aspose.Cells API'nın önceki sürümleriyle aynı görev, StyleCollection.createBuiltinStyle yöntemi aracılığıyla gerçekleştirilebiliyordu ancak Aspose.Cells API'lerinin son sürümleri StyleCollection sınıfını kaldırdığından, yeni açığa çıkarılan Workbook.createBuiltinStyle yöntemi aynı şeyi başarmak için alternatif bir yaklaşım olarak değerlendirilebilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -52,14 +53,14 @@ Workbook book = new Workbook();
 Style style = book.createBuiltinStyle(BuiltinStyleType.TITLE);
 
 {{< /highlight >}}
-### **Özellik LoadDataOption.OnlyVisibleWorksheet Eklendi**
-Aspose.Cells for Java 8.6.3, true olarak ayarlandığında Aspose.Cells for Java API'in yükleme mekanizmasını etkileyecek olan LoadDataOption.OnlyVisibleWorksheet özelliğini ortaya çıkardı, sonuç olarak belirli bir elektronik tablodan yalnızca görünür çalışma sayfaları yüklenecek.
+### **Eklendi LoadDataOption.OnlyVisibleWorksheet Özelliği**
+Aspose.Cells for Java 8.6.3, LoadDataOption.OnlyVisibleWorksheet özelliğini açığa çıkardı. bu özelliğin true olarak ayarlanması, Aspose.Cells for Java API'nin yükleme mekanizmasını etkileyecek, sonuç olarak verilen bir elektronik tablodan yalnızca görünen çalışma sayfaları yüklenecektir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadDataOption
 
@@ -84,8 +85,8 @@ loadOptions.setLoadDataOptions(loadDataOptions);
 Workbook book = new Workbook(inputFilePath, loadOptions);
 
 {{< /highlight >}}
-## **Eski API'ler**
-### **Yöntem Worksheet.copyConditionalFormatting Kullanılmayan**
-Worksheet.copyConditionalFormatting yöntemine alternatif olarak Cells.copyRows veya Range.copy yöntemlerinden herhangi birinin kullanılması önerilir.
-### **Özellik Cells.End Eskidi**
-Lütfen Cells.End özelliğine alternatif olarak Cells.LastCell özelliğini kullanın.
+## **Eskimiş API'lar**
+### **Eskiye Çıkarılan Worksheet.copyConditionalFormatting Yöntemi**
+Worksheet.copyConditionalFormatting yönteminin yerine, Cells.copyRows veya Range.copy yöntemlerinden herhangi birini kullanmanız tavsiye edilir.
+### **Eskiye Çıkarılan Cells.End Özelliği**
+Cells.End özelliğinin yerine lütfen Cells.LastCell özelliğini kullanın.

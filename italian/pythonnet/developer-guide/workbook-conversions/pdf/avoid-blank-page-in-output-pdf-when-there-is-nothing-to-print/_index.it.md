@@ -1,26 +1,27 @@
 ---
-title: Evita la pagina vuota nell'output PDF quando non c'è nulla da stampare
+title: Evitare Pagina Vuota nel PDF di Output quando non c è Nulla da Stampare
 type: docs
 weight: 30
 url: /it/python-net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
-description: Scopri come evitare pagine vuote nell'output PDF quando non c'è nulla da stampare con Aspose.Cells for Python via .NET API.
-keywords: Python Avoid Blank Page in Output PDF when there is Nothing to Print
+description: Scopri come evitare la pagina bianca nel PDF di output quando non c è nulla da stampare con Aspose.Cells per Python via .NET API.
+keywords: Evita la Pagina Bianca nel PDF di Output quando Non c è Nulla da Stampare con Python
 ---
-##  **Possibili scenari di utilizzo**
 
-Quando il file Excel è vuoto e l'utente lo salva in PDF utilizzando Aspose.Cells for Python via .NET, viene visualizzata una pagina vuota nell'output PDF. A volte, questo comportamento predefinito non è desiderabile. Aspose.Cells for Python via .NET fornisce il[**PdfSaveOptions.output_blank_page_when_niente_da_stampare**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/)proprietà per affrontare questo problema. Se lo imposterai come *false**, allora[**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/)si verificherà ogni volta che non c'è nulla da stampare nell'output PDF.
+## **Possibili Scenari di Utilizzo**
 
-##  **Evita la pagina vuota nell'output PDF quando non c'è nulla da stampare**
+Quando il file Excel è vuoto e l'utente lo salva in PDF usando Aspose.Cells per Python via .NET, viene generata una pagina bianca nel PDF di output. A volte, questo comportamento predefinito è indesiderabile. Aspose.Cells per Python via .NET fornisce la proprietà [**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/) per affrontare questo problema. Se la imposti su **false**, allora si verificherà [**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/) ogni volta che non ci sarà nulla da stampare nel PDF di output.
 
-Il codice di esempio seguente crea una cartella di lavoro vuota e quindi la salva come PDF dopo aver impostato il valore[**PdfSaveOptions.output_blank_page_when_niente_da_stampare**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/)proprietà come *false**. Poiché non c'è nulla da stampare nell'output PDF, il file[**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/)si verifica come mostrato di seguito.
+## **Evitare Pagina Vuota nel PDF di Output quando non c'è Nulla da Stampare**
 
-##  **Codice d'esempio**
+Il codice di esempio seguente crea un foglio di lavoro vuoto e lo salva come PDF dopo aver impostato la proprietà [**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/) su **false**. Poiché non c'è nulla da stampare nel PDF di output, si verifica [**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/) come mostrato di seguito.
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint.py" >}}
 
-##  **Eccezione**
+## **Eccezione**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Aspose.Cells.CellsException was unhandled
 

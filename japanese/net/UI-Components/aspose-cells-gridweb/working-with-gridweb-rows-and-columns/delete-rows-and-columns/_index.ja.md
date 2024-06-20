@@ -1,20 +1,23 @@
-﻿---
-title: 行と列を削除する
+---
+title: 行と列の削除
 type: docs
 weight: 20
-url: /ja/net/delete-rows-and-columns/
+url: /ja/net/aspose-cells-gridweb/delete-rows-and-columns/
+keywords: GridWeb、行を削除、列を削除
+description: この記事では、GridWeb で行を削除し、列を削除する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-このトピックでは、Aspose.Cells.GridWeb API を使用してワークシートから行と列を削除する方法を示します。この機能を利用して、開発者は実行時に行または列を削除できます。
+このトピックでは、Aspose.Cells.GridWeb API を使用してワークシートから行や列を削除する方法について示します。この機能を使うことで、開発者は実行時に行や列を削除できます。
 
 {{% /alert %}} 
 ## **行の削除**
 ワークシートから行を削除するには:
 
-1. Aspose.Cells.GridWeb コントロールを Web フォームに追加します。
+1. Web フォームに Aspose.Cells.GridWeb コントロールを追加します。
 1. 行を削除するワークシートにアクセスします。
-1. 行インデックスを指定して、ワークシートから行を削除します。
+1. 行のインデックスを指定してワークシートから行を削除します。
 
 
 
@@ -22,9 +25,9 @@ url: /ja/net/delete-rows-and-columns/
 ## **列の削除**
 ワークシートから列を削除するには:
 
-1. Aspose.Cells.GridWeb コントロールを Web フォームに追加します。
-1. 列を削除するワークシートにアクセスします。
-1. 列インデックスを指定して、ワークシートから列を削除します。
+1. Web フォームに Aspose.Cells.GridWeb コントロールを追加します。
+1. 列を削除したいワークシートにアクセスします。
+1. 列のインデックスを指定してワークシートから列を削除します。
 
 
 
@@ -32,6 +35,6 @@ url: /ja/net/delete-rows-and-columns/
 
 {{% alert color="primary" %}} 
 
-DeleteRows/DeleteColumns メソッドを使用して、複数の行/列をワークシートから削除することもできます。
+DeleteRows/DeleteColumns メソッドを使用してワークシートから複数の行や列を削除することも可能です。
 
 {{% /alert %}}

@@ -1,12 +1,13 @@
-﻿---
-title: Elimina i fogli di lavoro dalle cartelle di lavoro
+---
+title: Elimina Fogli di lavoro dai Workbooks
 type: docs
 weight: 100
 url: /it/net/delete-worksheets-from-workbooks/
 ---
-Puoi eliminare qualsiasi foglio di lavoro in una cartella di lavoro. Per eliminare un foglio di lavoro, utilizzare l'elemento host del foglio di lavoro o accedere al foglio di lavoro utilizzando la raccolta di fogli della cartella di lavoro.
+
+Puoi eliminare qualsiasi foglio di lavoro in un workbook. Per eliminare un foglio di lavoro, utilizza l'elemento host del foglio di lavoro o accedi al foglio di lavoro utilizzando la raccolta di fogli del workbook.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook= this.Application.Workbooks.Open(fileName);
 
@@ -14,7 +15,7 @@ Puoi eliminare qualsiasi foglio di lavoro in una cartella di lavoro. Per elimina
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -23,5 +24,5 @@ Puoi eliminare qualsiasi foglio di lavoro in una cartella di lavoro. Per elimina
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Scaricamento**
-- [Git Hub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)
+## **Scarica**
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)

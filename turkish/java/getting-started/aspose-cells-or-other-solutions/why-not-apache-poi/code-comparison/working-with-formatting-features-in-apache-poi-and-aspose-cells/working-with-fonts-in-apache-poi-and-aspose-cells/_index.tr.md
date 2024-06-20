@@ -1,15 +1,16 @@
-﻿---
-title: Apache POI ve Aspose.Cells'de Yazı Tipleriyle Çalışma
+---
+title: Apache POI ve Aspose.Cells te Yazı Tipleriyle Çalışma
 type: docs
 weight: 30
 url: /tr/java/working-with-fonts-in-apache-poi-and-aspose-cells/
 ---
+
 ## **Aspose.Cells - Yazı Tipleriyle Çalışma**
-Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)bu bir Microsoft Excel dosyasını temsil eder. Workbook sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)sınıf. Worksheet sınıfı bir Cells koleksiyonu sağlar. Cells koleksiyonundaki her öğe, bir nesneyi temsil eder.[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)sınıf.
+Aspose.Cells, Microsoft Excel dosyasını temsil eden [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) sınıfını sağlar. Workbook sınıfı her bir çalışma kitabına erişim sağlayan WorksheetCollection içerir. Bir çalışma sayfası, Worksheet sınıfı ile temsil edilir. Worksheet sınıfı bir Cells koleksiyonu sağlar. Cells koleksiyonundaki her öğe, Cell sınıfının bir objesini temsil eder.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Adding some value to cell
 
@@ -41,11 +42,11 @@ cell.setStyle(style);
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - Yazı Tipleriyle Çalışma**
-Apache POI SS, çeşitli Font ayarlarını yapmak için Font sınıfını sağlar.
+Apache POI SS, çeşitli Yazı Tipi ayarlarını yapmak için Font sınıfını sağlar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Create a new font and alter it.
 
@@ -76,11 +77,11 @@ cell.setCellStyle(style);
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/biçimlendirme/yazı tipleri)
+## **Örnek Kod İndir**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/fonts)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Yazı Tipi Ayarlarıyla Başa Çıkma](http://docs.aspose.com:8082/docs/display/cellsjava/Dealing+with+Font+Settings).
+Daha fazla bilgi için [Yazı Tipi Ayarlarıyla İlgilenme](http://docs.aspose.com:8082/docs/display/cellsjava/Dealing+with+Font+Settings) ziyaret edin.
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
 ---
-title: Python'de Satırları ve Sütunları Otomatik Sığdır
+title: Python da Satırları ve Sütunları Otomatik Sığdırma
 type: docs
 weight: 20
 url: /tr/java/autofit-rows-and-columns-in-python/
-description: Aspose.Cells for Python Via Java API aracılığıyla Satırları ve Sütunları nasıl otomatik olarak sığdıracağınızı öğrenin.
-keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
+description: Java API si aracılığıyla Aspose.Cells for Python ile Satırları ve Sütunları Otomatik Sığdırmayı öğrenin.
+keywords: Python için Java aracılığıyla Satırları ve Sütunları Otomatik Sığdırma, Python için Java aracılığıyla Satırları Otomatik Sığdırma, Python için Java aracılığıyla Sütunları Otomatik Sığdırma. 
 ---
-##  **Satırları ve Sütunları Otomatik Olarak Sığdırma**
-###  **Satırı Otomatik Olarak Sığdırma**
-Bir satırın genişliğini ve yüksekliğini otomatik olarak boyutlandırmaya yönelik en basit yaklaşım, Worksheet sınıfının autoFitRow yöntemini çağırmaktır. autoFitRow yöntemi, parametre olarak (yeniden boyutlandırılacak satırın) satır dizinini alır.
+
+## **Satırları ve Sütunları Otomatik Sığdırmanın Yolu**
+### **Satır Otomatik Sığdırma**
+Bir satırın genişliğini ve yüksekliğini otomatik ayarlamanın en basit yolu Worksheet sınıfının autoFitRow metodunu çağırmaktır. autoFitRow metodu, (yeniden boyutlandırılacak olan satırın) bir satır indeksi olarak bir parametre alır.
 
 **Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def autofit_row(self):
 
@@ -32,7 +33,7 @@ worksheet.autoFitRow(2)
 
 \# cells (from 1st to 9th column) within the row
 
-# worksheet.autoFitRow(2,0,8) # Uncomment this line if you to do AutoFit Row in a Range of Cells. Also, comment line 288.
+#worksheet.autoFitRow(2,0,8) # Uncomment this line if you to do AutoFit Row in a Range of Cells. Also, comment line 288.
 
 \# Saving the modified Excel file in default (that is Excel 2003) format
 
@@ -41,12 +42,12 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-###  **Sütun Nasıl Otomatik Sığdırılır**
-Bir sütunun genişliğini ve yüksekliğini otomatik olarak boyutlandırmanın en kolay yolu, Worksheet sınıfının autoFitColumn yöntemini çağırmaktır. autoFitColumn yöntemi, parametre olarak sütun dizinini (yeniden boyutlandırılmak üzere olan sütunun) alır.
+### **Sütun Otomatik Sığdırma**
+Bir sütunun genişliğini ve yüksekliğini otomatik boyutlandırmanın en kolay yolu Worksheet sınıfının autoFitColumn metodunu çağırmaktır. autoFitColumn metodu, (yeniden boyutlandırılacak olan sütunun) bir sütun indeksini parametre olarak alır.
 
 **Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def autofit_column(self):
 
@@ -66,7 +67,7 @@ worksheet.autoFitColumn(3)
 
 \# cells (from 1st to 9th row) within the column
 
-# worksheet.autoFitColumn(3,0,8) #Uncomment this line if you to do AutoFit Column in a Range of Cells. Also, comment line 310.
+#worksheet.autoFitColumn(3,0,8) #Uncomment this line if you to do AutoFit Column in a Range of Cells. Also, comment line 310.
 
 \# Saving the modified Excel file in default (that is Excel 2003) format
 
@@ -75,7 +76,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-##  **Çalışan Kodu İndir**
-İndirmek**Satırları ve Sütunları Otomatik Sığdır (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+## **Çalışan Kodu İndir**
+Aşağıda belirtilen sosyal kodlama sitelerinden **Satırları ve Sütunları Otomatik Daraltma (Aspose.Cells)** dosyasını indirebilirsiniz:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

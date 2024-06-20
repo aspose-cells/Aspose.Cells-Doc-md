@@ -1,16 +1,17 @@
-﻿---
-title: ArrayList'ten içe aktarma
+---
+title: ArrayList ten alma
 type: docs
 weight: 20
 url: /tr/net/importing-from-arraylist/
 ---
- Geliştiriciler, ArrayList'i çağırarak çalışma sayfalarına veri aktarabilir.**ImportArrayList** Cells koleksiyonunun yöntemi. ImportArray yöntemi aşağıdaki parametreleri alır:**Dizi Listesi** , içeriğinin içe aktarılması gereken ArrayList nesnesini temsil eder
 
-- Satır Numarası , verilerin içe aktarılacağı ilk hücrenin satır numarasını gösterir.
-- Sütun Numarası , verilerin içe aktarılacağı ilk hücrenin sütun numarasını gösterir.
-- Is Vertical , verilerin dikey veya yatay olarak içe aktarılacağını belirten bir boole değeri
+Geliştiriciler, Hücreler koleksiyonunun **ImportArrayList** yöntemini çağırarak verileri ArrayList'ten çalışma sayfalarına alabilirler. ImportArray yöntemi aşağıdaki parametreleri alır: **ArrayList** , içeriği alınması gereken ArrayList nesnesini temsil eder
 
-{{< highlight "csharp" >}}
+- Satır Numarası , verinin alınacağı ilk hücrenin satır numarasını temsil eder
+- Sütun Numarası , verinin alınacağı ilk hücrenin sütun numarasını temsil eder
+- Dikey, verinin dikey veya yatay olarak alınmasını belirten boolean bir değerdir
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 

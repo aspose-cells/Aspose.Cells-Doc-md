@@ -1,26 +1,27 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.5.2
+---
+title: Ändringar i offentlig API i Aspose.Cells 8.5.2
 type: docs
 weight: 180
 url: /sv/net/public-api-changes-in-aspose-cells-8-5-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.5.1 till 8.5.2 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder,[lagt till klasser etc.](/cells/sv/net/public-api-changes-in-aspose-cells-8-5-2/), men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Dokumentet beskriver ändringarna i Aspose.Cells API från version 8.5.1 till 8.5.2, som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, [tillagda klasser etc.](/cells/sv/net/public-api-changes-in-aspose-cells-8-5-2/), utan beskriver också eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Återge arbetsblad till grafisk kontext**
- Denna utgåva av Aspose.Cells for .NET API har exponerat två nya överbelastningar av SheetRender.ToImage-metoden som nu tillåter att acceptera en instans av klassen System.Drawing.Graphics till[rendera i grafiksammanhang](/cells/sv/net/render-worksheet-to-graphic-context/). Signaturerna för nyligen tillagda metoder är följande.
+## **Tillagda API:er**
+### **Rendera kalkylblad till grafiskt sammanhang**
+Denna version av Aspose.Cells for .NET API har exponerat två nya överbelastningar av SheetRender.ToImage-metoden som nu tillåter att acceptera en instans av klassen System.Drawing.Graphics för [rendering i grafikkontext](/cells/sv/net/render-worksheet-to-graphic-context/). Signaturerna för de nytt tillagda metoderna är följande.
 
 1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
-1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float höjd)
+1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -59,14 +60,14 @@ bmp.Save("test.png", ImageFormat.Png);
 {{< /highlight >}}
 
 
-### **Metod PivotTable.GetCellByDisplayName tillagd**
- Aspose.Cells for .NET 8.5.2 har exponerat metoden PivotTable.GetCellByDisplayName som kan användas för att[hämta objektet Cell med namnet PivotField](/cells/sv/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Den här metoden kan vara användbar i scenarier där du vill markera eller formatera PivotField-huvudet.
+### **Tillagd PivotTable.GetCellByDisplayName-metod**
+Aspose.Cells for .NET 8.5.2 har exponerat metoden PivotTable.GetCellByDisplayName som kan användas för att [hämta Cell-objektet efter namnet på PivotField](/cells/sv/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Denna metod kan vara användbar i scenarier där du vill markera eller formatera PivotField-rubriken.
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -103,35 +104,35 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Property SaveOptions.MergeAreas tillagd**
-Aspose.Cells for .NET 8.5.2 har avslöjat egenskapen SaveOptions.MergeAreas som kan acceptera booleskt typvärde. Standardvärdet är falskt, men om det är satt till sant, försöker Aspose.Cells for .NET API slå samman den individuella CellArea innan filen sparas.
+### **Lade till SaveOptions.MergeAreas-egenskapen**
+Aspose.Cells for .NET 8.5.2 har exponerat SaveOptions.MergeAreas-egenskapen som kan acceptera Boolean-värde. Standardvärdet är falskt, men om det är inställt på true, försöker Aspose.Cells for .NET API att sammanfoga individuella CellArea före sparandet av filen.
 
 {{% alert color="primary" %}} 
 
-Om ett kalkylark har för många enskilda celler med validering, finns det chanser att det resulterande kalkylarket kan skadas. En möjlig lösning är att slå samman cellerna med identiska valideringsregler eller så kan du nu använda egenskapen SaveOptions.MergeAreas för att styra API för att automatiskt sammanfoga CellAreas innan sparaoperationen.
+Om ett kalkylblad har för många individuella celler med tillämpad validering finns det chanser att det resulterande kalkylbladet kan bli korrupt. En möjlig lösning är att sammanfoga cellerna med identiska valideringsregler eller så kan du nu använda SaveOptions.MergeAreas-egenskapen för att instruera API att automatiskt sammanfoga CellAreas före sparningen.
 
 {{% /alert %}} 
-### **Egenskap Shape.Geometry.ShapeAdjustValues Added**
- Med lanseringen av v8.5.2 har Aspose.Cells API avslöjat egenskapen Shape.Geometry.ShapeAdjustValues som kan användas för att[gör ändringar i justeringspunkterna för olika former](/cells/sv/net/change-adjustment-values-of-the-shape/).
+### **Lade till Shape.Geometry.ShapeAdjustValues-egenskapen**
+Med utgivningen av v8.5.2 har Aspose.Cells API exponerat Shape.Geometry.ShapeAdjustValues-egenskapen som kan användas för [att göra ändringar i justeringspunkterna för olika former](/cells/sv/net/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel-gränssnittet visas justeringspunkterna som gula diamantnoder.
+I Microsoft Excel-gränssnittet visas justeringspunkterna som gula diamantnoder.
 
 {{% /alert %}} 
 
 Till exempel,
 
-1. Rundad rektangel har en justering för att ändra bågen
-1. Triangeln har en justering för att ändra platsen för punkten
-1. Trapets har en justering för att ändra toppens bredd
-1. Pilarna har två justeringar för att ändra formen på huvudet och svansen
+1. Avrundad rektangel har en justering för att ändra bågen
+1. Triangel har en justering för att ändra platsen för punkten
+1. Trapets har en justering för att ändra bredden på toppen
+1. Pilar har två justeringar för att ändra formen på huvudet och svansen
 
-Här är det enklaste användningsscenariot.
+Här är det enklaste användningsscenario.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -164,18 +165,18 @@ workbook.Save("output.xls);
 {{< /highlight >}}
 
 
-### **Enumeration Field ConsolidationFunction.DistinctCount lagt till**
- Aspose.Cells for .NET 8.5.2 har exponerat fältet ConsolidationFunction.DistinctCount som kan användas för att[tillämpa konsolideringsfunktionen Distinct Count](/cells/sv/net/consolidation-function/) på datafältet i en pivottabell.
+### **Tillägg av värde ConsilidationFunction.DistinctCount**
+Aspose.Cells for .NET 8.5.2 har exponerat ConsilidationFunction.DistinctCount-fältet som kan användas för att [tillämpa sammanställningsfunktionen Distinct Count](/cells/sv/net/consolidation-function/) på DataField i en PivotTable.
 
 {{% alert color="primary" %}} 
 
-Funktionen Distinct Count-konsolidering stöds endast av Microsoft Excel 2013.
+Unik räkning konsolideringsfunktion stöds endast av Microsoft Excel 2013.
 
 {{% /alert %}} 
-### **Bättre händelsehantering för GridDesktop**
-Den här utgåvan av Aspose.Cells.GridDesktop har avslöjat 4 nya händelser. 2 av dessa händelser utlöses vid olika tillstånd för inläsning av kalkylbladsfiler i GridDesktop medan de andra två utlöses vid beräkning av formler.
+### **Bättre hantering av händelser för GridDesktop**
+Denna version av Aspose.Cells.GridDesktop har exponerat 4 nya händelser. 2 av dessa händelser triggas vid olika stadier av inläsning av kalkylbladsfiler i GridDesktop, medan de andra 2 triggas vid beräkning av formler.
 
-Händelserna listas enligt följande.
+Händelserna är listade enligt följande.
 
 1. GridDesktop.BeforeLoadFile
 1. GridDesktop.FinishLoadFile

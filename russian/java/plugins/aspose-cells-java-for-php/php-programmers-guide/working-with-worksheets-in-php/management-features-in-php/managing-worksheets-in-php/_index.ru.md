@@ -1,16 +1,17 @@
-﻿---
-title: Управление рабочими листами в Php
+---
+title: Управление листами данных в Php
 type: docs
 weight: 10
 url: /ru/java/managing-worksheets-in-php/
 ---
+
 ## **Aspose.Cells - Управление рабочими листами**
 ### **Добавление рабочих листов в новый файл Excel**
- Чтобы добавить рабочий лист в новый файл Excel, используя**Aspose.Cells Java for PHP** , просто позвоните**add_worksheet** метод**Управление рабочими листами** модуль.
+Чтобы добавить лист данных в новый файл Excel с помощью **Aspose.Cells Java для PHP**, просто вызовите метод **add_worksheet** модуля **MangingWorksheets**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object
 
@@ -33,12 +34,12 @@ $worksheet->setName("My Worksheet");
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-### **Удаление рабочих листов с использованием имени листа**
- Чтобы удалить рабочий лист по имени листа, используя**Aspose.Cells Java for PHP** , просто позвоните**remove_worksheet_by_name** метод**Управление рабочими листами** модуль.
+### **Удаление листов с использованием имени листа**
+Чтобы удалить лист данных по названию листа с помощью **Aspose.Cells Java для PHP**, просто вызовите метод **remove_worksheet_by_name** модуля **MangingWorksheets**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,12 +62,12 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-### **Удаление рабочих листов с помощью индекса листов**
- Чтобы удалить рабочий лист по индексу листа, используя**Aspose.Cells Java for PHP** , просто позвоните**remove_worksheet_by_index** метод**Управление рабочими листами** модуль.
+### **Удаление рабочих листов с использованием индекса листа.**
+Чтобы удалить лист данных по индексу листа с помощью **Aspose.Cells Java для PHP**, просто вызовите метод **remove_worksheet_by_index** модуля **MangingWorksheets**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -89,7 +90,7 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Управление рабочими листами (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите управление рабочими листами (Aspose.Cells) с любого из упомянутых ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

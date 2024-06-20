@@ -1,15 +1,16 @@
-﻿---
-title: Déprotéger une feuille de calcul en Php
+---
+title: Déverrouiller une feuille de calcul en Php
 type: docs
 weight: 20
 url: /fr/java/unprotect-a-worksheet-in-php/
 ---
-## **Aspose.Cells - Déprotéger une feuille de calcul**
- Pour protéger la feuille de calcul à l'aide de**Aspose.Cells Java for PHP** , téléphoner à**unprotect_worksheet** méthode de**protection** module.
+
+## **Aspose.Cells - Déverrouiller une feuille de calcul**
+Pour protéger une feuille de calcul avec **Aspose.Cells Java pour PHP**, appelez la méthode **unprotect_worksheet** du module **protection**.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $filesFormatType = new FileFormatType();
 
@@ -32,7 +33,7 @@ $worksheet->unprotect("aspose");
 $workbook->save($dataDir . "output.xls", $filesFormatType->EXCEL_97_TO_2003); 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Déprotéger une feuille de calcul (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Déverrouiller une feuille de calcul (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/UnprotectingPasswordProtectedWorksheet.php)

@@ -1,34 +1,35 @@
-﻿---
-title: Copia sparkline specificando l'intervallo di dati e la posizione del gruppo sparkline
+---
+title: Copia Sparkline specificando intervallo dati e posizione del gruppo di Sparkline
 type: docs
 weight: 120
 url: /it/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/
 ---
-Copia sparkline specificando l'intervallo di dati e la posizione del gruppo sparkline in MS Excel
 
-Microsoft Excel consente di copiare uno sparkline specificando l'intervallo di dati e la posizione del gruppo sparkline. Segui questi passaggi per copiare il tuo Sparkline in altre celle.
+Copia Sparkline specificando intervallo dati e posizione del gruppo di Sparkline in MS Excel
 
-- Seleziona la cella contenente il tuo Sparkline.
--  Selezionare**Modifica dati** dal**Scintilla** sezione all'interno del**Design** scheda
--  Scegliere**Modifica posizione e dati del gruppo...**
-- Specificare l'intervallo di dati e la posizione e fare clic su OK.
+Microsoft Excel consente di copiare una Sparkline specificando l'intervallo dati e la posizione del gruppo di Sparkline. Segui questi passaggi per copiare la tua Sparkline su altre celle.
+
+- Seleziona la cella contenente la tua Sparkline.
+- Seleziona **Modifica dati** dalla sezione **Sparkline** all'interno della scheda **Design**
+- Scegli **Modifica Posizione Gruppo & Dati...**
+- Specifica l'intervallo dei dati e la posizione e fai clic su OK.
 
 ## Esempio
 
- Aspose.Cells fornisce il[**SparklineCollection.add(dataRange, riga, colonna)**](https://reference.aspose.com/cells/java/com.aspose.cells/SparklineCollection) metodo per specificare l'intervallo di dati e la posizione del gruppo sparkline.
+Aspose.Cells fornisce il metodo [**SparklineCollection.add(dataRange, row, column)**](https://reference.aspose.com/cells/java/com.aspose.cells/SparklineCollection) per specificare l'intervallo dei dati e la posizione del gruppo di Sparkline.
 
-### Screenshot dei file di origine e di output
+### Schermate dei file sorgente e di output
 
-Lo screenshot seguente mostra il file Excel di origine utilizzato all'interno del codice. L'area evidenziata in rosso mostra "**Modifica posizione e dati del gruppo...**" opzione per specificare l'intervallo di dati e la posizione del gruppo sparkline. La cella P4 mostra la sparkline che verrà copiata nelle altre quattro celle riempite di colore giallo utilizzando Aspose.Cells.
+La seguente schermata mostra il file Excel sorgente utilizzato nel codice. L'area evidenziata in rosso mostra l'opzione "**Modifica Posizione Gruppo & Dati...**" per specificare l'intervallo dati e la posizione del gruppo di sparkline. La cella P4 mostra la sparkline che verrà copiata nelle altre quattro celle riempite di colore giallo utilizzando Aspose.Cells.
 
-![cose da fare:immagine_alt_testo](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_1.png)
+![todo:image_alt_text](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_1.png)
 
-Lo screenshot seguente mostra il file Excel di output generato dal codice di esempio. Come puoi vedere, la sparkline nella cella P4 è stata copiata nelle successive quattro celle nella colonna P ciascuna con un intervallo di dati diverso.
+La seguente schermata mostra il file Excel di output generato dal codice di esempio. Come puoi vedere, la sparkline nella cella P4 è stata copiata nelle quattro celle successive nella colonna P ciascuna con un intervallo dati diverso.
 
-![cose da fare:immagine_alt_testo](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_2.png)
+![todo:image_alt_text](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_2.png)
 
-### Java codice per copiare il grafico sparkline specificando l'intervallo di dati e la posizione del gruppo sparkline
+### Codice Java per copiare la sparkline specificando l'intervallo dati e la posizione del gruppo di sparkline
 
-Il seguente codice di esempio carica il file Excel di origine come mostrato nello screenshot precedente, quindi accede al primo gruppo sparkline e aggiunge intervalli di dati e posizioni all'interno del gruppo sparkline. Infine, scrive il file Excel di output su disco, mostrato anche nello screenshot qui sopra.
+Il seguente codice di esempio carica il file Excel sorgente come mostrato nella schermata sopra, quindi accede al primo gruppo di sparkline e aggiunge intervalli di dati e posizioni all'interno del gruppo di sparkline. Infine, scrive il file Excel di output su disco che è anche mostrato nella schermata sopra.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}

@@ -1,20 +1,21 @@
-﻿---
-title: Personalizzazione dell'XML della barra multifunzione
-linktitle: Personalizza il menu di Excel
+---
+title: Personalizzazione del file Ribbon XML
+linktitle: Personalizzare il Menu di Excel
 type: docs
 weight: 1500
 url: /it/net/customizing-the-ribbon-xml/
 ---
+
 {{% alert color="primary" %}} 
 
- Microsoft Office ha sostituito i menu e le barre degli strumenti con una barra multifunzione nella parte superiore della finestra dell'applicazione a partire da Office 2007. La barra multifunzione è personalizzabile.
-Aspose.Cells te lo consente
+Microsoft Office ha sostituito i menu e le barre degli strumenti con un Ribbon nella parte superiore della finestra dell'applicazione a partire dall'ufficio 2007. Il Ribbon è personalizzabile. 
+Aspose.Cells ti consente di
 
-- Mantieni Ribbon XML senza analizzarlo,
+- Mantenere il Ribbon XML senza analizzarlo,
 - Leggere e scrivere Ribbon XML senza analizzarlo,
-- Ottieni e imposta i dati XML della barra multifunzione.
+- Ottenere e impostare i dati del Ribbon XML.
 
-Se si desidera modificare l'XML della barra multifunzione, è necessario analizzarlo con un parser XML o un altro strumento XML della barra multifunzione.
+Se si desidera modificare il Ribbon XML, è necessario analizzarlo con un analizzatore XML o altro strumento Ribbon XML.
 
 {{% /alert %}} 
 

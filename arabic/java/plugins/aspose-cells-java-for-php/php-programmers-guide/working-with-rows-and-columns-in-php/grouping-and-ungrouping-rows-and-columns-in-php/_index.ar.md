@@ -1,20 +1,21 @@
-﻿---
-title: تجميع الصفوف والأعمدة وإلغاء تجميعها في PHP
+---
+title: تجميع وإلغاء تجميع الصفوف والأعمدة في PHP
 type: docs
 weight: 40
 url: /ar/java/grouping-and-ungrouping-rows-and-columns-in-php/
 ---
-## **Aspose.Cells - إدارة المجموعة للصفوف والأعمدة**
-### **تجميع الصفوف والأعمدة**
-من الممكن تجميع الصفوف أو الأعمدة عن طريق استدعاء التابعين groupRows و groupColumns للمجموعة Cells. تأخذ كلتا الطريقتين المعلمات التالية:
 
-- أول صف / فهرس العمود ، أول صف أو عمود في المجموعة.
-- فهرس الصف / العمود الأخير ، الصف أو العمود الأخير في المجموعة.
-- مخفي ، معلمة منطقية تحدد ما إذا كان سيتم إخفاء الصفوف / الأعمدة بعد التجميع أم لا.
+## **Aspose.Cells - إدارة تجميع الصفوف والأعمدة**
+### **تجميع الصفوف والأعمدة**
+يمكن تجميع الصفوف أو الأعمدة عن طريق استدعاء أساليب groupRows و groupColumns في مجموعة Cells. تأخذ كلا الطريقتين المعلمات التالية:
+
+- مؤشر الصف أو العمود الأول في المجموعة.
+- مؤشر الصف أو العمود الأخير في المجموعة.
+- يتم إخفاءها، معلمة منطقية تحدد ما إذا كان سيتم إخفاء الصفوف/الأعمدة بعد التجميع أم لا.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function group_rows_columns($dataDir)
 
@@ -47,15 +48,15 @@ url: /ar/java/grouping-and-ungrouping-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-### **فك تجميع الصفوف والأعمدة**
-قم بفك تجميع الصفوف أو الأعمدة المجمعة عن طريق استدعاء أساليب UngroupRows و UngroupColumns للمجموعة Cells. تأخذ كلتا الطريقتين نفس المعلمات:
+### **إلغاء تجميع الصفوف والأعمدة**
+إلغاء تجميع الصفوف أو الأعمدة المجمعة عن طريق استدعاء أساليب UngroupRows و UngroupColumns لمجموعة Cells. تأخذ كلا الطريقتين نفس المعلمات:
 
-- الصف الأول أو فهرس العمود ، الصف / العمود الأول المراد فك تجميعه.
-- فهرس الصف أو العمود الأخير ، الصف / العمود الأخير المراد فك تجميعه.
+- الصف الأول أو فهرس العمود، الصف/العمود الأول الذي سيتم إلغاء تجميعه.
+- الصف/العمود الأخير الذي سيتم إلغاء تجميعه.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function ungroup_rows_columns($dataDir)
 
@@ -88,7 +89,7 @@ url: /ar/java/grouping-and-ungrouping-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**تجميع وفك تجميع الصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **تجميع وفك تجميع الصفوف والأعمدة (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

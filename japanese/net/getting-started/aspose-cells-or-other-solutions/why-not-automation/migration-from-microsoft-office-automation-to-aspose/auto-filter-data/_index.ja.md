@@ -1,35 +1,36 @@
-﻿---
-title: 自動フィルター データ
+---
+title: データの自動フィルタリング
 type: docs
 weight: 120
 url: /ja/net/auto-filter-data/
 ---
+
 {{% alert color="primary" %}}
 
-範囲内のデータを理解するには、多くの場合、順序付けされていないデータの列を見るよりも、データを並べ替えてフィルター処理する方が簡単です。並べ替えにより、データが昇順または降順で整理されるため、特定の値を見つけやすくなります。データをフィルタリングすると、特定の値のみを表示できます。たとえば、販売記録の特定のアイテムに焦点を当てるのに役立ちます。
+範囲内のデータを理解するためには、データを並べ替えたりフィルタリングしたりする方が、順序なしのデータの列を見るよりも簡単です。並び替えは、昇順または降順でデータを整理して特定の値を見つけやすくします。データのフィルタリングでは、特定の値のみを表示できます。たとえば、販売レコードの中の特定のアイテムに焦点を当てるのに役立ちます。
 
-Microsoft Excel のユーザーは、列に自動フィルターを適用できます。自動フィルター処理により、列の上部にメニューが追加され、そこから列データをフィルター処理できます。この機能は、VSTO または Aspose.Cells for .NET を通じて、Excel スプレッドシートを使用する開発者も利用できます。
+Microsoft Excelのユーザーは、列に自動フィルタを適用することができます。自動フィルタは、列データを並べ替えまたはフィルタリングするためのメニューを列の上部に追加します。この機能は、VSTOまたはAspose.Cells for .NETを使用するExcelスプレッドシートを扱う開発者にも利用できます。
 
 {{% /alert %}}
 
-## **データの自動フィルタリング**
+## **自動データフィルタリング**
 
 列に自動フィルタリングを適用するには:
 
-1. ワークブックを作成します。
-1. ワークシートを取得します。
+1. ワークブックを作成する。
+1. ワークシートを取得する。
 1. サンプルデータを追加します。
-1. オートフィルターを適用します。
-1. 列を自動調整して表示を魅力的にします。
+1. 自動フィルターを適用します。
+1. 表示を魅力的にするために列を自動調整します。
 1. スプレッドシートを保存します。
 
-この記事のコード サンプルは、以下を使用してこれらの手順を実行する方法を示しています。[VSTO](/cells/ja/net/auto-filter-data/) C# または Visual Basic を使用するか、[Apose.Cells](/cells/ja/net/auto-filter-data/)、再び C# または Visual Basic を使用します。
+この記事のコードサンプルは、これらの手順を[C#またはVisual Basic](/cells/ja/net/auto-filter-data/)を使用してVSTOで実行する方法、または[C#またはVisual Basic](/cells/ja/net/auto-filter-data/)を使用してApose.Cellsで行う方法を示しています。
 
-### **VSTO によるデータの自動フィルタリング**
+### **VSTOでデータの自動フィルタリング**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -57,27 +58,27 @@ Excel.Worksheet sheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Add data into A1 and B1 Cells as headers.
 
-sheet.Cells[1, 1]= "Product ID";
+sheet.Cells[1, 1] = "Product ID";
 
-sheet.Cells[1, 2]= "Product Name";
+sheet.Cells[1, 2] = "Product Name";
 
 //Add data into details cells.
 
-sheet.Cells[2, 1]= 1;
+sheet.Cells[2, 1] = 1;
 
-sheet.Cells[3, 1]= 2;
+sheet.Cells[3, 1] = 2;
 
-sheet.Cells[4, 1]= 3;
+sheet.Cells[4, 1] = 3;
 
-sheet.Cells[5, 1]= 4;
+sheet.Cells[5, 1] = 4;
 
-sheet.Cells[2, 2]= "Apples";
+sheet.Cells[2, 2] = "Apples";
 
-sheet.Cells[3, 2]= "Bananas";
+sheet.Cells[3, 2] = "Bananas";
 
-sheet.Cells[4, 2]= "Grapes";
+sheet.Cells[4, 2] = "Grapes";
 
-sheet.Cells[5, 2]= "Oranges";
+sheet.Cells[5, 2] = "Oranges";
 
 //Enable Auto-filter.           
 
@@ -109,15 +110,15 @@ objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
 {{< /highlight >}}
 
-**VSTO で適用されるオートフィルター** 
+**VSTOで自動フィルタリングが適用されました** 
 
-![todo:画像_代替_文章](auto-filter-data_1.png)
+![todo:image_alt_text](auto-filter-data_1.png)
 
-### **Aspose.Cells for .NET によるデータの自動フィルタリング**
+### **Aspose.Cells for .NETでデータの自動フィルタリング**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -169,6 +170,6 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 
 {{< /highlight >}}
 
-**Aspose.Cells for .NET でオートフィルター適用** 
+**Aspose.Cells for .NETで自動フィルタリングが適用されました** 
 
-![todo:画像_代替_文章](auto-filter-data_2.png)
+![todo:image_alt_text](auto-filter-data_2.png)

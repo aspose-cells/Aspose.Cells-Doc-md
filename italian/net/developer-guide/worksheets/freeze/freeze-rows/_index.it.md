@@ -1,45 +1,43 @@
 ---
-title: Blocca le righe superiori del foglio di lavoro Excel
-linktitle: Blocca righe
+title: Congelare la/e riga/e superiore/i del foglio di calcolo di Excel
+linktitle: Congelare righe
 type: docs
 weight: 190
 url: /it/net/how-to-freeze-rows-of-excel-worksheet
-description: In questo articolo imparerai come bloccare le righe superiori dei fogli di lavoro Excel a livello di codice utilizzando la libreria C# con .NET API.
-keywords: Freeze top rows, Feeze top row.
+description: In questo articolo imparerai come congelare le righe superiori dei fogli di lavoro di Excel in modo programmato usando la libreria C# con API .NET.
+keywords: Blocca le righe in alto
 ---
-{{% alert color="primary" %}}
 
-In questo articolo impareremo come bloccare le righe superiori.
-Quando hai un'enorme quantità di dati sotto un'intestazione comune, non riesci a vedere l'intestazione quando scorri verso il basso il foglio di lavoro. Puoi bloccare le righe superiori in modo da poter vedere la parte bloccata anche quando viene fatto scorrere il resto dei dati. Puoi facilmente vedere le intestazioni nelle righe superiori.
+## **Introduzione**
 
-{{% /alert %}}
+In questo articolo, impareremo come bloccare (freezare) righe in alto. Quando hai una grande quantità di dati sotto un'intestazione comune e non riesci a vedere l'intestazione quando scendi verticalmente, puoi bloccare le righe in alto in modo da poter vedere quella parte fissa anche quando si scorrono il resto dei dati. In questo modo, puoi vedere facilmente le intestazioni nelle righe in alto.
 
-##  **Blocca righe in Excel**
+## **Congelare le righe in Excel**
 
-**![Blocca le righe superiori in Excel](Freeze-Rows.png)**
+**![Congelare la/e riga/e superiore/i in Excel](Freeze-Rows.png)**
 
 
-1. Se desideri congelare le righe superiori, seleziona prima la riga sotto quella che deve essere congelata
+1. Se si desidera congelare la/e riga/e superiore/i, selezionare prima la riga sotto la riga che deve essere congelata
 2. Fare clic su Visualizza > Blocca riquadri.
-3. Nel menu a discesa, fare clic su Blocca riga superiore.
-4. Se scorri verso il basso, la prima riga è sempre nella vista dall'alto.
+3. Nel menu a discesa, fare clic su Congela riga superiore.
+4. Se si scorre verso il basso, la prima riga è sempre nella vista superiore.
 
-**![Fila Fonzen](Frozen-Row.png)**
+**![Fila congelata](Frozen-Row.png)**
 
-Come puoi vedere la prima riga è bloccata, la prima riga rimane sempre nella parte superiore della visualizzazione quando scorri verso il basso.
+Come puoi vedere, la prima riga è congelata, la prima riga rimane sempre in cima alla visualizzazione quando scorri verso il basso.
 
-Blocca righe ti consente di visualizzare dati di grandi dimensioni senza tenere traccia dell'etichetta della riga.
-
-
+Congelare le righe ti consente di visualizzare i tuoi dati di grandi dimensioni senza dover tenere traccia dell'etichetta della riga.
 
 
-##  **Blocca righe con Aspose.Cells per .Net**
- È semplice bloccare le righe con Aspose.Cells per .Net.
- Si prega di utilizzare il[**Foglio di lavoro.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/)metodo per fissare le righe nella riga selezionata.
-1. Costruisci cartella di lavoro per aprire il file o creare un file vuoto.
-2. Blocca la prima riga con il metodo Worksheet.FreezePanes().
+
+
+## **Congelare le righe con Aspose.Cells per .Net**
+È semplice congelare la/e riga/e con Aspose.Cells per .Net. 
+Si prega di utilizzare il metodo [**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/) per congelare la/e riga/e alla riga selezionata.
+1. Costruire un libro di lavoro per aprire il file o creare un file vuoto.
+2. Congelare la prima riga con il metodo Worksheet.FreezePanes().
 3. Salvare il file.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Row.cs" >}}
 
- Allegato[file Excel di origine del campione](../Freeze.xlsx).
+File Excel di esempio allegato(../Freeze.xlsx).

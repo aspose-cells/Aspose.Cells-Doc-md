@@ -1,18 +1,19 @@
-﻿---
-title: Cortador de formato
+---
+title: Formato de filtro
 type: docs
 weight: 20
 url: /es/net/formatting-slicer/
 ---
-## **Posibles escenarios de uso**
 
-Puede formatear la segmentación en Microsoft Excel configurando su número de columnas o configurando su estilo, etc. Aspose.Cells también le permite hacer esto usando el[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)y[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)propiedades.
+## **Escenarios de uso posibles**
 
-## **Cortador de formato**
+Puede dar formato al filtro en Microsoft Excel estableciendo su número de columnas o su estilo, etc. Aspose.Cells también le permite hacerlo utilizando las propiedades [**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns) y [**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype).
 
-Por favor vea el siguiente código, carga el[ejemplo de archivo de Excel](67338473.xlsx)que contiene una cortadora. Accede a la segmentación y establece su número de columnas y tipo de estilo y lo guarda como[archivo de salida de Excel](67338474.xlsx). La captura de pantalla muestra cómo se ve la segmentación después de la ejecución del código de muestra.
+## ** Formatear rebanador**
 
-![todo:imagen_alternativa_texto](formatting-slicer_1.png)
+Consulte el siguiente código, carga el [archivo Excel de muestra](67338473.xlsx) que contiene un filtro. Accede al filtro, ajusta su número de columnas, tipo de estilo y lo guarda como [archivo Excel de salida](67338474.xlsx). La captura de pantalla muestra cómo se ve el filtro después de la ejecución del código de ejemplo.
+
+![todo:image_alt_text](formatting-slicer_1.png)
 
 ## **Código de muestra**
 

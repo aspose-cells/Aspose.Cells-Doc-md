@@ -1,24 +1,25 @@
-﻿---
-title: تعيين خيار الجدول المحوري - لعرض Cells فارغ
+---
+title: ضبط خيار جدول الدوري  إظهار الخلايا الفارغة
 type: docs
 weight: 30
 url: /ar/java/setting-pivot-table-option-for-empty-cells-show/
 ---
-{{% alert color="primary" %}}
 
-يمكنك تعيين خيارات مختلفة للجدول المحوري باستخدام Aspose.Cells. أحد هذه الخيارات هو "إظهار الخلايا الفارغة". يعني تعيين هذا الخيار أنه يتم عرض جميع الخلايا الفارغة في الجدول المحوري بسلسلة محددة.
+## **مقدمة**
 
-للبحث عن هذا الخيار وتعيينه في Microsoft Excel:
+يمكنك ضبط خيارات مختلفة لجدول الدوري باستخدام Aspose.Cells. أحد هذه الخيارات هو "إظهار الخلايا الفارغة". ضبط هذا الخيار يعني أن جميع الخلايا الفارغة في جدول الدوري تُعرض بسلسلة محددة.
 
-1. حدد جدولاً محوريًا وانقر عليه بزر الماوس الأيمن.
-1.  يختار**خيارات PivotTable**.
-1.  حدد ملف**التخطيط والتنسيق** التبويب.
-1.  حدد ملف**للخلايا الفارغة تظهر** الخيار وتحديد سلسلة.
+للعثور على هذا الخيار وضبطه في Microsoft Excel:
 
-![ما يجب القيام به: image_بديل_نص](setting-pivot-table-option-for-empty-cells-show_1.png)
+1. حدد جدول دوري وانقر بزر الماوس الأيمن.
+1. حدد **خيارات الجدول الدوري**.
+1. حدد علامة التبويب **التخطيط والشكل**.
+1. حدد خيار **إظهار الخلايا الفارغة** وحدد سلسلة.
 
-{{% /alert %}}
+![todo:image_alt_text](setting-pivot-table-option-for-empty-cells-show_1.png)
 
-يوفر Aspose.Cells ملف[**PivotTable.setDisplayNullString ()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#DisplayNullString) و[**PivotTable.setNullString ()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#NullString)خصائص لتعيين خيار الجدول المحوري "للخلايا الفارغة".
+## **كيفية ضبط خيار جدول البيانات - لعرض الخلايا الفارغة**
+
+يوفر Aspose.Cells الخصائص [**PivotTable.setDisplayNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#DisplayNullString) و [**PivotTable.setNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#NullString) لضبط خيار "إظهار الخلايا الفارغة" في جدول الدوري.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPivotTableOption-SettingPivotTableOption.java" >}}

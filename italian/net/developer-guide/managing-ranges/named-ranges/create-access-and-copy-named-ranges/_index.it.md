@@ -1,106 +1,107 @@
-﻿---
-title: Crea accessi e copia intervalli denominati
+---
+title: Crea Accesso e Copia Intervalli con Nome
 type: docs
 weight: 200
 url: /it/net/create-access-and-copy-named-ranges/
 ---
-## **introduzione**
 
-Normalmente, le etichette di colonna e riga vengono utilizzate per riferirsi a singole celle. È possibile creare nomi descrittivi per rappresentare celle, intervalli di celle, formule o valori costanti. La parola**nome** può fare riferimento a una stringa di caratteri che rappresenta una cella, un intervallo di celle, una formula o un valore costante. Assegnare un nome a un intervallo significa che quell'intervallo di celle può essere indicato con il suo nome. Utilizzare nomi di facile comprensione, ad esempio Prodotti, per fare riferimento a intervalli di difficile comprensione, ad esempio Vendite!C20:C30. Le etichette possono essere utilizzate in formule che fanno riferimento a dati sullo stesso foglio di lavoro; se vuoi rappresentare un intervallo su un altro foglio di lavoro, puoi usare un nome. *Gli intervalli denominati sono tra le funzionalità più potenti di Microsoft Excel, soprattutto se utilizzati come intervallo di origine per controlli elenco, tabelle pivot, grafici e così via.
+## **Introduzione**
 
-## **Lavorare con l'intervallo denominato utilizzando Microsoft Excel**
+Normalmente, le etichette di righe e colonne vengono utilizzate per fare riferimento a singole celle. È possibile creare nomi descrittivi per rappresentare celle, intervalli di celle, formule o valori costanti. La parola **nome** può fare riferimento a una stringa di caratteri che rappresenta una cella, un intervallo di celle, una formula o un valore costante. Assegnare un nome a un intervallo significa che quel intervallo di celle può essere riferito dal suo nome. Utilizza nomi di facile comprensione, come Prodotti, per fare riferimento a intervalli difficili da capire, come Vendite!C20:C30. Le etichette possono essere utilizzate in formule che fanno riferimento a dati sullo stesso foglio di lavoro; se vuoi rappresentare un intervallo su un altro foglio di lavoro, puoi usare un nome. *Gli intervalli con nome sono tra le funzionalità più potenti di Microsoft Excel, specialmente quando utilizzati come intervallo di origine per controlli di elenco, tabelle pivot, grafici e così via.
 
-### **Crea intervalli denominati**
+## **Lavorare con l'intervallo con nome usando Microsoft Excel**
 
- I seguenti passaggi descrivono come denominare una cella o un intervallo di celle utilizzando**Microsoft Excel** . Questo metodo si applica a**Microsoft Ufficio Excel 2003**, **Microsoft Excel 97**, **2000** e**2002**.
+### **Creare intervalli con nome**
 
-1. Selezionare la cella, l'intervallo di celle a cui si desidera assegnare un nome.
-1.  Clicca il**Casella del nome** all'estremità sinistra della barra della formula.
-1. Digitare il nome delle celle.
-1. Premere Invio.
+I seguenti passaggi descrivono come nominare una cella o un intervallo di celle utilizzando **MS Excel**. Questo metodo si applica a **Microsoft Office Excel 2003**, **Microsoft Excel 97**, **2000** e **2002**.
+
+1. Seleziona la cella o l'intervallo di celle che desideri nominare.
+1. Fai clic sulla **Casella di nome** all'estremità sinistra della barra della formula.
+1. Digita il nome delle celle.
+1. Premi INVIO.
 
 {{% alert color="primary" %}}
 
-Non puoi nominare una cella mentre stai modificando il contenuto della cella.
+Non è possibile nominare una cella mentre si sta modificando il contenuto della cella.
 
 {{% /alert %}}
 
-## **Lavorare con l'intervallo denominato utilizzando Aspose.Cells**
+## **Lavorare con l'intervallo nominato utilizzando Aspose.Cells**
 
-Qui, usiamo lo Aspose.Cells API per svolgere l'attività.
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione.
+Qui, utilizziamo l'API Aspose.Cells per svolgere il compito.
+Aspose.Cells fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contiene una raccolta [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) che consente l'accesso a ogni foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce una raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells).
 
-### **Crea intervallo denominato**
+### **Creare intervallo nominato**
 
- È possibile creare un intervallo denominato chiamando l'overloaded[**Crea intervallo**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) metodo del[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione. Una tipica versione di[**Crea intervallo**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) metodo accetta i seguenti parametri:
+È possibile creare un intervallo nominato chiamando il metodo sovraccaricato [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) della raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Una versione tipica del metodo [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) richiede i seguenti parametri:
 
 - Nome della cella in alto a sinistra, il nome della cella in alto a sinistra nell'intervallo.
 - Nome della cella in basso a destra, il nome della cella in basso a destra nell'intervallo.
 
- Quando il[**Crea intervallo**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) viene chiamato il metodo, restituisce l'intervallo appena creato come istanza di[**Allineare**](https://reference.aspose.com/cells/net/aspose.cells/range) classe. Usa questo[**Allineare**](https://reference.aspose.com/cells/net/aspose.cells/range) oggetto per configurare l'intervallo denominato. Ad esempio, imposta il nome dell'intervallo utilizzando il[**Nome**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) proprietà. L'esempio seguente mostra come creare un intervallo denominato di celle che si estende su B4:G14.
+Quando il metodo [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) è chiamato, restituisce il nuovo intervallo creato come un'istanza della classe [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range). Utilizzare questo oggetto [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) per configurare l'intervallo nominato. Ad esempio, impostare il nome dell'intervallo utilizzando la proprietà [**Name**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name). L'esempio seguente mostra come creare un intervallo nominato di celle che si estende da B4:G14.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CreateNamedRangeofCells-1.cs" >}}
 
-### **Immettere i dati in Cells nell'intervallo denominato**
+### **Inserimento dei dati nelle celle dell'intervallo nominato**
 
 È possibile inserire dati nelle singole celle di un intervallo seguendo il modello
 
-- **C#**: Intervallo[riga,colonna]
-- **V.B**: Intervallo(riga,colonna)
+- **C#**: Range[row,column]
+- **VB**: Range(row,column)
 
-Supponi di avere un intervallo denominato di celle che si estende su A1: C4. La matrice fa 4 * 3 = 12 celle. Le singole celle dell'intervallo sono disposte in sequenza: Intervallo[0,0], Intervallo[0,1], Intervallo[0,2], Intervallo[1,0], Intervallo[1,1], Intervallo[1,2], Intervallo[2,0], Intervallo[2,1], Intervallo[2,2], Intervallo[3,0], Intervallo[3,1], Intervallo[3,2].
+Supponiamo di avere un intervallo nominato di celle che va da A1:C4. La matrice contiene 4 * 3 = 12 celle. Le singole celle dell'intervallo sono disposte in sequenza: Intervallo[0,0], Intervallo[0,1], Intervallo[0,2], Intervallo[1,0], Intervallo[1,1], Intervallo[1,2], Intervallo[2,0], Intervallo[2,1], Intervallo[2,2], Intervallo[3,0], Intervallo[3,1], Intervallo[3,2].
 
-Utilizzare le seguenti proprietà per identificare le celle nell'intervallo:
+Usa le seguenti proprietà per identificare le celle nell'intervallo:
 
-- FirstRow restituisce l'indice della prima riga nell'intervallo denominato.
-- FirstColumn restituisce l'indice della prima colonna nell'intervallo denominato.
-- RowCount restituisce il numero totale di righe nell'intervallo denominato.
-- ColumnCount restituisce il numero totale di colonne nell'intervallo denominato.
+- FirstRow restituisce l'indice della prima riga nell'intervallo nominato.
+- FirstColumn restituisce l'indice della prima colonna nell'intervallo nominato.
+- RowCount restituisce il numero totale di righe nell'intervallo nominato.
+- ColumnCount restituisce il numero totale di colonne nell'intervallo nominato.
 
 L'esempio seguente mostra come inserire alcuni valori nelle celle di un intervallo specificato.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-InputDataInCellsInRange-1.cs" >}}
 
-### **Identificare Cells nell'intervallo denominato**
+### **Identifica le celle nell'intervallo nominato**
 
-Puoi inserire dati nelle singole celle di un intervallo seguendo il modello:
+È possibile inserire dati nelle singole celle di un intervallo seguendo lo schema:
 
-- **C#**: Intervallo[riga,colonna]
-- **V.B**: Intervallo(riga,colonna)
+- **C#**: Range[row,column]
+- **VB**: Range(row,column)
 
-Se disponi di un intervallo denominato che si estende su A1:C4. La matrice fa 4 * 3 = 12 celle. Le singole celle dell'intervallo sono disposte in sequenza: Intervallo[0,0], Intervallo[0,1], Intervallo[0,2], Intervallo[1,0] ,Intervallo[1,1], Intervallo[1,2], Intervallo[2,0], Intervallo[2,1], Intervallo[2,2], Intervallo[3,0], Intervallo[3,1], Intervallo[3,2].
+Se hai un intervallo nominato che comprende A1:C4. La matrice genera 4 * 3 = 12 celle. Le singole celle dell'intervallo sono disposte in sequenza: Intervallo[0,0], Intervallo[0,1], Intervallo[0,2], Intervallo[1,0] ,Intervallo[1,1], Intervallo[1,2], Intervallo[2,0], Intervallo[2,1], Intervallo[2,2], Intervallo[3,0], Intervallo[3,1], Intervallo[3,2].
 
-Utilizzare le seguenti proprietà per identificare le celle nell'intervallo:
+Usa le seguenti proprietà per identificare le celle nell'intervallo:
 
-- FirstRow restituisce l'indice della prima riga nell'intervallo denominato.
-- FirstColumn restituisce l'indice della prima colonna nell'intervallo denominato.
-- RowCount restituisce il numero totale di righe nell'intervallo denominato.
-- ColumnCount restituisce il numero totale di colonne nell'intervallo denominato.
+- FirstRow restituisce l'indice della prima riga nell'intervallo nominato.
+- FirstColumn restituisce l'indice della prima colonna nell'intervallo nominato.
+- RowCount restituisce il numero totale di righe nell'intervallo nominato.
+- ColumnCount restituisce il numero totale di colonne nell'intervallo nominato.
 
 L'esempio seguente mostra come inserire alcuni valori nelle celle di un intervallo specificato.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-IdentifyCellsinNamedRange-1.cs" >}}
 
-### **Accedere a intervalli denominati**
+### **Accedi agli intervalli nominati**
 
-#### **Accedi a un intervallo denominato specifico**
+#### **Accedi a un intervallo nominato specifico**
 
- Chiama il[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) della collezione[**Ottieni intervallo per nome**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) metodo per ottenere un intervallo in base al nome specificato. Un tipico[**Ottieni intervallo per nome**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) Il metodo accetta il nome dell'intervallo denominato e restituisce l'intervallo denominato specificato come istanza di[**Allineare**](https://reference.aspose.com/cells/net/aspose.cells/range) classe. L'esempio seguente mostra come accedere a un intervallo specificato in base al relativo nome.
+Chiama il metodo [**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) della collezione [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) per ottenere un intervallo con il nome specificato. Un tipico metodo [**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) prende il nome dell'intervallo nominato e restituisce l'intervallo nominato specificato come un'istanza della classe [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range). L'esempio seguente mostra come accedere a un intervallo specificato per nome.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessSpecificNamedRange-1.cs" >}}
 
-#### **Accedi a tutti gli intervalli denominati in un foglio di calcolo**
+#### **Accedi a tutti gli intervalli nominati in un foglio di calcolo**
 
- Chiama il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) della collezione[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) metodo per ottenere tutti gli intervalli denominati in un foglio di calcolo. Il[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) Il metodo restituisce un array di tutti gli intervalli di nomi nel file[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) collezione.
+Chiamare il metodo [**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) della raccolta [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) per ottenere tutti i nomi definiti in un foglio di calcolo. Il metodo [**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) restituisce un array di tutti i nomi definiti nella raccolta [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection).
 
-L'esempio seguente mostra come accedere a tutti gli intervalli denominati in una cartella di lavoro.
+L'esempio seguente mostra come accedere a tutti i nomi definiti in un libro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessAllNamedRanges-1.cs" >}}
 
-### **Copia intervalli denominati**
+### **Copiare i Nomi Definiti**
 
- Aspose.Cells fornisce[**Intervallo.Copia()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) metodo per copiare un intervallo di celle con formattazione in un altro intervallo.
+Aspose.Cells fornisce il metodo [**Range.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) per copiare un intervallo di celle con formattazione in un altro intervallo.
 
-L'esempio seguente mostra come copiare un intervallo di celle di origine in un altro intervallo denominato.
+L'esempio seguente mostra come copiare un intervallo di celle di origine in un altro nome definito.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}

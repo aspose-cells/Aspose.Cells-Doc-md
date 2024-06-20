@@ -1,12 +1,13 @@
-﻿---
-title: Tillämpa stilar på intervall i arbetsböcker
+---
+title: Applicera stilar på områden i arbetsböckerna
 type: docs
 weight: 40
 url: /sv/net/apply-styles-to-ranges-in-workbooks/
 ---
-Nedan är kodjämförelsen för att tillämpa stil på rader och kolumner i arbetsböcker:
+
+Nedan är kodjämförelsen av att tillämpa stil på rader och kolumner i arbetsböcker:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -30,7 +31,7 @@ Nedan är kodjämförelsen för att tillämpa stil på rader och kolumner i arbe
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -81,5 +82,5 @@ Nedan är kodjämförelsen för att tillämpa stil på rader och kolumner i arbe
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Ladda ner**
+## **Nerladdning**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)

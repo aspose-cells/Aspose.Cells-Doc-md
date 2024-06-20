@@ -1,25 +1,26 @@
-﻿---
+---
 title: Supporto tecnico gratuito di classe mondiale
 type: docs
 weight: 60
 url: /it/reportingservices/world-class-free-technical-support/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose è rinomato per il suo supporto tecnico gratuito e illimitato fornito direttamente dagli sviluppatori dei prodotti. Se è disponibile una nuova versione di un prodotto o se la risoluzione di una domanda comporta una correzione, tutte le nuove versioni sono gratuite se si dispone di un abbonamento attivo.
+Aspose è rinomata per il suo supporto tecnico gratuito e illimitato fornito direttamente dagli sviluppatori dei prodotti. Se è disponibile una nuova versione di un prodotto, o se risolvere una domanda porta a una correzione, tutti i nuovi rilasci sono gratuiti se si dispone di un abbonamento attivo.
 
 {{% /alert %}}
 
-**Ottenere supporto**
+Ottenere supporto
 
-- **Forum**
+- Forum
 
-[Forum di supporto di Aspose](https://forum.aspose.com/) è il luogo non solo per risolvere problemi tecnici, ma anche per partecipare alle discussioni con la vivace e crescente comunità di utenti di Aspose. Attualmente sono oltre 190.000 gli utenti registrati al sito Aspose.
+[I forum di supporto di Aspose](https://forum.aspose.com/) non sono solo il posto per risolvere questioni tecniche, ma anche per partecipare a discussioni con la vivace e crescente comunità di utenti di Aspose. Attualmente ci sono oltre 190.000 utenti registrati sul sito di Aspose.
 
-- **Blog**
+- Blog
 
-[Aspose.Blogs](https://blog.aspose.com/) è il posto dove cercare informazioni sulle ultime versioni e su cosa hanno da dire gli sviluppatori di Aspose.
+[Aspose.Blogs](https://blog.aspose.com/) è il posto giusto per trovare informazioni sui rilasci più recenti e su ciò che gli sviluppatori di Aspose hanno da dire.
 
-- **Hai bisogno di più supporto?**
+- Hai bisogno di ulteriore supporto?
 
-Aspose offre supporto gratuito a tutti gli utenti. Per le aziende che vogliono che il loro problema abbia la priorità, o che vogliono influenzare la nostra road map di sviluppo del prodotto, ci sono[opzioni di supporto avanzate](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) come il supporto prioritario e il supporto aziendale.
+Aspose offre supporto gratuito a tutti gli utenti. Per le aziende che desiderano che la loro problematica venga prioritizzata, o che vogliono influenzare la nostra roadmap di sviluppo del prodotto, ci sono [opzioni di supporto avanzate](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) come il Supporto prioritario e il Supporto enterprise.

@@ -1,127 +1,128 @@
-﻿---
-title: DNN Veritabanı Verilerini Excel'e Aktarıcı
+---
+title: DNN Veritabanı Veri Dışa Aktarımcısı için Excel
 type: docs
 weight: 10
 url: /tr/net/dnn-database-data-exporter-to-excel/
 ---
+
 ## **Giriş**
 
-Aspose .NET DNN Data Exporter to Excel Module, kullanıcıların verileri doğrudan yerel veya uzak veritabanı tablolarından, görünümlerinden ve özel sorgu yoluyla Microsoft Excel veya OpenOffice Elektronik Tablosuna aktarmalarına olanak tanır. Bu modül, Aspose.Cells tarafından sağlanan güçlü elektronik tablo oluşturma özelliğini göstermektedir.
+Aspose .NET DNN Veri Dışa Aktarımı için Excel Modülü, kullanıcılara yerel veya uzak veritabanı tablolarından, görünümlerden ve özel sorgudan doğrudan Microsoft Excel veya OpenOffice Elektronik Tablo'ya veri dışa aktarma imkanı tanır. Bu modül, Aspose.Cells tarafından sağlanan güçlü elektronik tablo oluşturma özelliğini göstermektedir.
 
 ### **Modül Özellikleri**
 
-Modülün bu ilk sürümü, Dışa Aktarma işlemini basit ve kullanımı kolay hale getirmek için aşağıdaki harika özelliklerle zenginleştirilmiştir.
+Modülün bu ilk sürümü, dışa aktarma işlemini kolay ve kullanımı kolay hale getirmek için aşağıdaki harika özelliklerle zenginleştirilmiştir
 
-- Yerel MS SQL Server Veritabanına bağlanmaya izin ver
-- Uzak MS SQL Server Veritabanına bağlanmaya izin ver
-- Bağlı veritabanından tüm Tabloları doldurun
-- Tüm Görünümleri bağlı veritabanından doldur
-- Özel Sorgu yazmaya izin ver
-- Sütunları içeriğin uzunluğuna Otomatik Sığdır.
-- Excel hücrelerinde 32k'den fazla dize atlamaya izin ver (LoadOptions)
-- Başlık Sütunu biçimlendirmesini Kalın Metin olarak uygula
-- Veri Kaynağı olarak kullanılmasına izin ver (Tablo, Görünümler, Özel Sorgu)
-- Verileri Microsoft Excel Belgelerine Aktar (.xls, .xlsx ve .xlsb)
-- Verileri Sekmeyle ayrılmış metin belgesine (*.txt) Aktar
-- Verileri CSV'e (Virgülle ayrılmış) (*.csv) Aktar
-- Verileri OpenDocument Elektronik Tablosuna Aktarın (*.ods)
-- Dışa aktarmadan önce istenen çıktı formatını seçme seçeneği.
-- Dışa aktarılan belge, indirilmek üzere otomatik olarak tarayıcıya gönderilir.
+- Yerel MS SQL Server Veritabanına Bağlanma İzni
+- Uzak MS SQL Server Veritabanına Bağlanma İzni
+- Bağlanılan veritabanından Tüm Tabloları Doldurma
+- Bağlanılan veritabanından Tüm Görünümleri Doldurma
+- Özel Sorgu Yazma İzni
+- İçeriği otomatik olarak kolon uzunluğuna sığacak biçimde uyarlama
+- Excel hücrelerindeki 32k'dan uzun dizeyi atlamak için izin verme (LoadOptions)
+- Kalın Metin olarak Başlık Sütunu biçimlendirme uygulama
+- Veri Kaynağı olarak kullanma izni (Tablo, Görünümler, Özel Sorgu)
+- Verileri Microsoft Excel Belgesine Aktarma (.xls, .xlsx ve .xlsb)
+- Verileri Sekme sınırlı metin belgesine aktarma (*.txt)
+- Verileri CSV'ye Aktar (Virgülle Sınırlı) (*.csv)
+- Verileri OpenDöküman Elektronik Tabloya Aktar (*.ods)
+- İhracat öncesinde istenen çıkış biçimini seçme seçeneği.
+- İhrac edilen belge, otomatik olarak indirilmek üzere tarayıcıya gönderilir.
 
-![yapılacaklar:resim_alternatif_metin](picture1.png)
+![todo:image_alt_text](picture1.png)
 
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
 
-### **sistem gereksinimleri**
+### **Sistem Gereksinimleri**
 
-DNN modülleri için Aspose.Cells .NET'i kurmak için aşağıdaki gereksinimleri karşılamanız gerekir:
+Aspose.Cells .NET için DNN modüllerini kurmak için aşağıdaki gereksinimlerin karşılanmış olması gerekmektedir:
 
 - DNN 7.0 +
 
-Bu modülleri DNN'nin diğer sürümlerine kurmak isterseniz lütfen bizimle iletişime geçmekten çekinmeyin.
+Bu modülleri başka DNN sürümlerine yüklemek isterseniz lütfen bize ulaşın.
 
 ### **Desteklenen Platformlar**
 
-Şu anda desteklenen DNN modülleri için Aspose.Cells .NET
+Aspose.Cells .NET için DNN modülleri şu anda şunları desteklemektedir
 
 - DNN 7.0 +
 
-Bu modülleri DNN'nin diğer sürümlerine kurmak isterseniz lütfen bizimle iletişime geçmekten çekinmeyin.
+Bu modülleri başka DNN sürümlerine yüklemek isterseniz lütfen bize ulaşın.
 
-## **indiriliyor**
+## **İndirme**
 
-DNN modülü için Aspose .NET Cells Database Data Exporter to Excel'i aşağıdaki lokasyonlardan birinden indirebilirsiniz.
+Aspose .NET Hücreleri Veritabanı Veri Dışa Aktarıcısını DNN modülü için aşağıdaki konumlardan birinden indirebilirsiniz
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsDNNDatatoExcel)
 
-## **yükleme**
+## **Yüklemek**
 
-İndirdikten sonra, modülü DNN web sitenize yüklemek için lütfen şu adımları izleyin:
+İndirdikten sonra, lütfen modülü DNN web sitenize kurmak için aşağıdaki adımları izleyin:
 
-1. Sitenizde Ana Bilgisayar veya başka bir süper kullanıcı düzeyinde hesap olarak oturum açın.
-1.  Şuraya git:**Ev sahibi** menü ve seçin**Uzantılar**.
-1.  Tıklamak**Uzantı Sihirbazını Kur**.
-1. Belirtildiği gibi, indirilen zip dosyasının konumuna göz atın, onu seçin ve ardından tıklayın**Açık**.
-1.  Tıklamak**Sonraki** , lisansı kabul edin, kuruluma devam edin. Bittiğinde tıklayın**Geri dönmek** buton.
+1. Sitenize Yönetici veya başka bir süper kullanıcı düzeyinde hesapla giriş yapın.
+1. **Yönetici** menüsüne gidin ve **Eklentileri** seçin.
+1. **Eklenti Yükleyici Sihirbazı**'nı tıklayın.
+1. Talimatları takip ederek indirilen zip dosyasının konumuna göz atın, dosyayı seçin ve sonra **Aç**'ı tıklayın.
+1. **İleri**'yi tıklayın, lisansı kabul edin, kurulumu tamamlayın. Tamamlandığında **Geri** düğmesine tıklayın.
 
- lütfen kontrol edin[bu modül kurulum videosu](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) Daha fazla ayrıntı için DNN'den.
+Daha fazla ayrıntı için DNN tarafından sağlanan [bu modül kurulum videosunu](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) kontrol edin.
 
-## **kullanma**
+## **Kullanarak**
 
-Aspose .NET Database Data Expoeter for DNN modülünü kurduktan sonra web sitenizde kullanmaya başlamak gerçekten çok basit. Başlamak için lütfen şu basit adımları izleyin:
+Aspose .NET Veritabanı Veri Dışa Aktarıcısını DNN modülünü yükledikten sonra web sitenizde kullanmaya başlamak gerçekten kolaydır. Başlamak için lütfen bu basit adımları izleyin:
 
-1. DNN'de Ana Bilgisayar veya Yönetici düzeyinde bir hesapla oturum açtığınızdan emin olun.
-1. Dışa Aktarma modülünü eklemek istediğiniz sayfaya gidin.
-1.  Seçme**Modüller** bunu takiben**Yeni Modül Ekle** üst şeritten.
-1. Listeden 'Aspose.NET DNN Data Exporter to Excel to Excel Kullanarak Aspose.Cells' öğesini seçin ve konumuna sürükleyin.
+1. Yönetici veya Yönetici düzeyinde bir hesapla DNN'e giriş yaptığınızdan emin olun.
+1. İhracat modülünü eklemek istediğiniz sayfaya gidin.
+1. Üst şeritten **Modüller**'e ardından **Yeni Modül Ekle**'yi seçin.
+1. listeden ‘Aspose.NET DNN Data Exporter to Excel Using Aspose.Cells’ı seçip konumuna sürükleyin.
 
-![yapılacaklar:resim_alternatif_metin](picture2.png)
+![todo:image_alt_text](picture2.png)
 
-Aspose .NET Database Data Exporter for Excel for DNN modülünü sayfanıza başarıyla eklediniz.
+Aspose .NET Veritabanı Veri Dışa Aktarıcısını DNN modülünü başarılı bir şekilde sayfanıza eklediniz.
 
-![yapılacaklar:resim_alternatif_metin](picture3.png)
+![todo:image_alt_text](picture3.png)
 
-1. Önceden doldurulmuş MS SQL Server Bağlantı Dizesi Girin veya Kullanın
-1. Seletec Veri Kaynağı Türü (Tablo, Görünüm, Özel Sorgu)
+1. MSSQL Server Bağlantı Dizesi Girin veya Ön Yüklü Olanı Kullanın
+1. Veri Kaynağı Türünü Seçin (Tablo, Görünüm, Özel Sorgu)
 1. Veri Kaynağını Seçin veya Girin (Tablo, Görünüm, Özel Sorgu)
 1. Dışa Aktarma Türünü Seçin
-1. Verileri Dışa Aktar'a tıklayın
+1. Veri Dışa Aktarımını Tıklayın
 1. İstenen dosya otomatik olarak indirilecektir.
 
-## **Video Demosu**
+## **Video Demo**
 
- lütfen kontrol edin[video](https://www.youtube.com/watch?v=weqS_sq4FjI) modülü çalışırken görmek için aşağıdaki
+Modülün işleyişini görmek için lütfen [video](https://www.youtube.com/watch?v=weqS_sq4FjI) bağlantısına tıklayın.
 
-## **Destekleyin, Genişletin ve Katkıda Bulunun**
+## **Destek, Genişletme ve Katkıda Bulunma**
 
-### **Destek olmak**
+### **Destek**
 
-Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
+Aspose'un ilk günlerinden itibaren, müşterilerimize sadece iyi ürünler sunmanın yeterli olmayacağını biliyorduk. Ayrıca iyi bir hizmet sunmamız gerekiyordu. Kendi geliştiricileri olduğumuz için, teknik bir sorun veya yazılımdaki bir tuhaflık sizi yapmanız gereken şeyden alıkoyduğunda ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
-Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
+Bu nedenle ücretsiz destek sunuyoruz. Ürünlerimizi kullanan herkes, bunları satın almış olsun veya değerlendirme yapılıyor olsun, tam dikket ve saygıyı hak ediyor.
 
-DNN Modülleri için Aspose.Cells .NET ile ilgili her türlü sorun ve önerilerinizi aşağıdaki platformlardan herhangi birini kullanarak loglayabilirsiniz.
+Aspose.Cells için DNN Modülleri ile ilgili herhangi bir sorunu veya öneriyi aşağıdaki platformlardan herhangi birini kullanarak bildirebilirsiniz
 
 - [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
-### **Genişletin ve Katkıda Bulunun**
+### **Genişletme ve Katkı Sağlama**
 
-Aspose .NET Cells DNN için Excel'den Kullanıcı İçe Aktar modülü açık kaynaktır ve kaynak kodları aşağıda listelenen başlıca sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirmeleri ve işlevselliği kendi gereksinimlerine göre genişletmeleri önerilir.
+Aspose .NET Hücreleri İçe Aktar Excel kullanıcılar modülü DNN, açık kaynaklıdır ve kaynak kodları aşağıda listelenen popüler sosyal kodlama sitelerinde mevcuttur. Geliştiriciler, kaynak kodunu indirip kendi gereksinimlerine göre işlevselliği genişletmeleri konusunda teşvik edilirler.
 
-#### **Kaynak kodu**
+#### **Kaynak Kodu**
 
-En son kaynak kodunu aşağıdaki konumlardan birinden alabilirsiniz.
+En son kaynak kodunu aşağıdaki konumlardan birinden edinebilirsiniz
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET)
 
-#### **Kaynak kodu nasıl yapılandırılır**
+#### **Kaynak kodunu yapılandırmak için**
 
-Kaynak kodunu açıp genişletmek için aşağıdakilerin kurulu olması gerekir.
+Aşağıdakileri açıp kaynak kodunu genişletmek için aşağıdakilere sahip olmanız gerekir
 
-- Visual Studio 2010 veya üzeri
+- Visual Studio 2010 veya daha yükseği
 
 Başlamak için lütfen bu basit adımları izleyin
 
-1. Kaynak kodunu indirin/Klonlayın.
-1.  Visual Studio 2010'u açın ve Seçin**Dosya** > **Açık Proje**
-1.  İndirdiğiniz ve açtığınız en son kaynak koduna göz atın, örneğin**Aspose.DNN.DatabaseDataExporterToExcel.sln**
+1. Kaynak kodunu indirin/kopyalayın.
+1. Visual Studio 2010'u açın ve **Dosya** > **Proje Aç**'ı seçin
+1. İndirdiğiniz en son kaynak koduna göz atın ve örneğin **Aspose.DNN.DatabaseDataExporterToExcel.sln**'i açın

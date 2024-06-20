@@ -1,21 +1,22 @@
 ---
-title: 標準または最小サイズで Excel を PDF に保存します
+title: Excelを標準サイズまたは最小サイズのPDFに保存する
 type: docs
 weight: 340
 url: /ja/python-net/save-excel-into-pdf-with-standard-or-minimum-size/
-description: Excel を標準サイズまたは最小サイズ (Aspose.Cells for Python via .NET API) で PDF に保存する方法について説明します。
-keywords: Save Excel into PDF with Standard or Minimum Size using Aspose.Cells for Python via .NET
+description: Aspose.Cells for Python via .NET APIを使用して、標準サイズまたは最小サイズでExcelをPDFに保存する方法
+keywords: Aspose.Cells for Python via .NETを使用して、標準サイズまたは最小サイズでExcelをPDFに保存する
 ---
+
 {{% alert color="primary" %}} 
 
-デフォルトでは、Aspose.Cells は Excel を標準サイズの PDF に保存します。ただし、次を使用して最小サイズで保存することもできます。[PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/)財産。次の値を受け入れます
+デフォルトでは、Aspose.CellsはExcelを標準サイズでPDFに保存します。ただし[PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/)プロパティを使用して、最小サイズで保存することもできます。以下の値が受け入れられます。
 
 - PdfOptimizationType.STANDARD
 - PdfOptimizationType.MINIMUM_SIZE
 
 {{% /alert %}} 
-##  **Aspose.Cells for Python via .NET を使用して、標準または最小サイズで Excel を PDF に保存します**
-次のサンプル コードは、Excel を標準サイズまたは最小サイズで PDF に保存する方法を示しています。[PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/)財産。
+## **Aspose.Cells for Python via .NETを使用して、標準サイズまたは最小サイズでExcelをPDFに保存する**
+以下のサンプルコードは、[PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/)プロパティを使用して、Excelを標準サイズまたは最小サイズのPDFに保存する方法を示しています。
 
 
 

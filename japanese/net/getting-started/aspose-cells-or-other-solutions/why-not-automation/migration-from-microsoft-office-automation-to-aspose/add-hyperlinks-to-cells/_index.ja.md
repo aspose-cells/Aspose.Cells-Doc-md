@@ -1,41 +1,42 @@
-﻿---
-title: ハイパーリンクを Cells に追加
+---
+title: セルにハイパーリンクを追加する
 type: docs
 weight: 60
 url: /ja/net/add-hyperlinks-to-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET を使用すると、ユーザーが Microsoft Excel で実行できるほぼすべてのタスクをアプリケーションから実行できます。この記事では、VSTO と Aspose.Cells for .NET を使用してワークシートのセルにハイパーリンクを追加する方法を比較します。
+Aspose.Cells for .NETを使用すると、Microsoft Excelでユーザーが実行できるほとんどのタスクをアプリケーションを通じて実行できます。この記事では、VSTOとAspose.Cells for .NETを使用してワークシートのセルにハイパーリンクを追加する方法を比較しています。
 
 {{% /alert %}}
 
-## **Cells へのハイパーリンクの追加**
+## **セルへのハイパーリンクの追加**
 
-スプレッドシートのセルにハイパーリンクを追加するには、次の手順を実行します。
+スプレッドシートのセルにハイパーリンクを追加するには、以下の手順を実行してください:
 
-1. ワークシートを設定します。
- 1. Application オブジェクトをインスタンス化します。
- (VSTO のみ。)
- 1. ワークブックを追加します。
- 1. 最初のシートを取得します。
- 1. ハイパーリンクを追加するセルにテキストを追加します。
-1. ハイパーリンクを追加します。
-1. ドキュメントを保存します。
+1. ワークシートを設定します:
+   1. アプリケーションオブジェクトをインスタンス化します。
+      （VSTOの場合に限る。）
+   1. ワークブックを追加する
+   1. 最初のシートを取得する
+   1. ハイパーリンクを追加するセルにテキストを追加する
+1. ハイパーリンクを追加する
+1. ドキュメントを保存する
 
-これらの手順は、以下のコード例に示されています。最初の例は、使用方法を示しています[VSTO](/cells/ja/net/add-hyperlinks-to-cells/)セルにハイパーリンクを追加するには、C# または Visual Basic を使用します。以下の例は、以下を使用して同じことを行う方法を示しています。[Aspose.Cells for .NET](/cells/ja/net/add-hyperlinks-to-cells/)、再び C# または Visual Basic を使用します。
+これらの手順は以下のコード例で示されています。最初の例では、[VSTO](/cells/ja/net/add-hyperlinks-to-cells/)を使用してセルにハイパーリンクを追加する方法（C#またはVisual Basicのいずれか）が示されています。その後の例では、[Aspose.Cells for .NET](/cells/ja/net/add-hyperlinks-to-cells/)を使用して同じことを行う方法（C#またはVisual Basicのいずれか）が示されています。
 
-コード サンプルは、最初のワークシートのセル A1 にハイパーリンクを含む Excel ファイルを生成します。
+コードサンプルは、最初のワークシートのセルA1にハイパーリンクを持つExcelファイルを生成します。
 
-![todo:画像_代替_文章](add-hyperlinks-to-cells_1.png)
+![todo:image_alt_text](add-hyperlinks-to-cells_1.png)
 
-**ハイパーリンクがセル A1 に追加されます。**
+**セルA1にハイパーリンクが追加されます。**
 
-### **VSTO を使用して Cells にハイパーリンクを追加する**
+### **VSTOを使用したセルへのハイパーリンクの追加**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -87,11 +88,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Aspose.Cells for .NET で Cells にハイパーリンクを追加する**
+### **Aspose.Cells for .NETを使用したセルへのハイパーリンクの追加**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

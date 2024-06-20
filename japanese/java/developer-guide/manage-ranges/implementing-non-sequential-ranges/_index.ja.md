@@ -1,13 +1,14 @@
-﻿---
-title: 非順次範囲の実装
+---
+title: 非連続範囲の実装
 type: docs
 weight: 1200
 url: /ja/java/implementing-non-sequential-ranges/
 ---
-通常は、[名前付き範囲](/cells/ja/java/named-ranges/)セルが連続し、互いに隣接している長方形です。ただし、セルが隣接していない連続していないセル範囲を使用する必要がある場合もあります。 Aspose.Cells は、隣接していないセルを含む名前付き範囲の作成をサポートしています。このために、API は[**Name.RefersTo**](https://reference.aspose.com/cells/java/com.aspose.cells/name#RefersTo)財産。
 
-## Java 非順次範囲を実装するコード
+通常、[名前付き範囲](/cells/ja/java/named-ranges/)は、連続して隣接するセルで矩形状になります。しかし、隣接していないセルで非連続のセル範囲を使用する必要があることがあります。Aspose.Cellsは隣接していないセルで名前付き範囲を作成することをサポートしています。これには、APIが[**Name.RefersTo**](https://reference.aspose.com/cells/java/com.aspose.cells/name#RefersTo)プロパティを提供しています。
 
-次のコード サンプルは、Aspose.Cells for Java を使用して、名前付きの非連続範囲を作成する方法を示しています。
+## 非連続範囲を実装するJavaコード
+
+以下のコードサンプルは、Aspose.Cells for Javaを持つ名前付き非連続範囲を作成する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementingNonSequentialRanges-ImplementingNonSequentialRanges.java" >}}

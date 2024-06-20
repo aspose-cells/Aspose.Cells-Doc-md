@@ -1,17 +1,18 @@
-﻿---
-title: Cell Zengin Metin Bölümlerine Erişin ve Güncelleyin
+---
+title: Hücrenin Zengin Metin Kısımlarına Erişim ve Güncelleme
 linktitle: Zengin Biçimlendirme Metni
 type: docs
 weight: 440
 url: /tr/java/access-and-update-the-portions-of-rich-text-of-cell/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells, hücrenin zengin metin bölümlerine erişmenizi ve bunları güncellemenizi sağlar. Bunun için Cell.getCharacters() ve Cell.setCharacters() metodlarını kullanabilirsiniz. Bu yöntemler, yazı tipi adı, yazı tipi rengi, kalınlık vb. gibi yazı tipinin çeşitli özelliklerine erişmek ve güncellemek için kullanabileceğiniz FontSetting nesneleri dizisini döndürür ve kabul eder.
+Aspose.Cells, hücrenin zengin metninin bölümlerine erişmenizi ve güncellemenizi sağlar. Bu amaçla, Cell.getCharacters() ve Cell.setCharacters() metotlarını kullanabilirsiniz. Bu metotlar, font adı, font rengi, kalın olma vb. gibi fontun çeşitli özelliklerine erişmeniz ve bunları güncellemeniz için kullanabileceğiniz FontSetting nesnelerinin dizisini döndürecek ve kabul edecektir.
 
 {{% /alert %}} 
-## **Cell Zengin Metin Bölümlerine Erişin ve Güncelleyin**
- Aşağıdaki kod, Cell.getCharacters() ve Cell.setCharacters() yönteminin kullanımını gösterir.[kaynak excel dosyası](5472937.xlsx) verilen bağlantıdan indirebilirsiniz. Kaynak excel dosyasının A1 hücresinde zengin bir metin var. 3 bölümden oluşur ve her bölümün yazı tipi farklıdır. Bu bölümlere erişeceğiz ve ilk bölümü yeni yazı tipi adıyla güncelleyeceğiz. Sonunda çalışma kitabını şu şekilde kaydeder:[çıktı excel dosyası](5472930.xlsx) . Açtığınızda, metnin ilk bölümünün yazı tipinin şu şekilde değiştiğini göreceksiniz:**"Arial"**.
+## **Zengin Metnin Kısımlarına Erişme ve Güncelleme**
+Aşağıdaki kod, [kaynak excel dosyasını](5472937.xlsx) kullanarak Cell.getCharacters() ve Cell.setCharacters() metodlarının kullanımını gösterir. Kaynak excel dosyasında A1 hücresinde zengin metin bulunmaktadır. 3 kısmı vardır ve her bir kısmı farklı bir yazı tipine sahiptir. Bu kısımlara erişeceğiz ve ilk kısmı yeni yazı tipi ile güncelleyeceğiz. Son olarak, çalışma kitabını [çıktı excel dosyası](5472930.xlsx) olarak kaydeder. Bu dosyayı açtığınızda, metnin ilk kısmının yazı tipinin **"Arial"** olarak değiştiğini göreceksiniz.
 
 
 
@@ -24,10 +25,10 @@ Aspose.Cells, hücrenin zengin metin bölümlerine erişmenizi ve bunları günc
 
 
 
-## **Konsol Çıkışı**
- İşte yukarıdaki örnek kodun konsol çıktısı[kaynak excel dosyası](5472937.xlsx).
+## **Konsol Çıktısı**
+Yukarıdaki örnek kodun konsol çıktısı için [kaynak excel dosyası](5472937.xlsx) kullanılarak konsol çıktısı verilmiştir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Before updating the font settings....
 

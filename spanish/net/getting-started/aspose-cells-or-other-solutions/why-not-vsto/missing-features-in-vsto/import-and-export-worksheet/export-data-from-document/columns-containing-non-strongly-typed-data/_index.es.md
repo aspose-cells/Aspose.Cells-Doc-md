@@ -1,12 +1,13 @@
-﻿---
-title: Columnas que contienen datos no fuertemente tipados
+---
+title: Columnas que contienen datos no tipificados
 type: docs
 weight: 10
 url: /es/net/columns-containing-non-strongly-typed-data/
 ---
- Si todos los valores en las columnas de una hoja de trabajo no están fuertemente tipados (eso significa que los valores en una columna pueden tener diferentes tipos de datos), entonces podemos exportar el contenido de la hoja de trabajo llamando a la**ExportDataTableAsStringExportDataTableAsString** método de la clase Cells.**ExportDataTableAsStringExportDataTableAsString** El método toma el mismo conjunto de parámetros que el de**ExportDataTableExportDataTable** método para exportar datos de la hoja de trabajo como**Tabla de datos** objeto.
 
-{{< highlight "csharp" >}}
+Si todos los valores en las columnas de una hoja de cálculo no están fuertemente tipados (es decir, los valores en una columna pueden tener diferentes tipos de datos), entonces podemos exportar el contenido de la hoja de cálculo llamando al método **ExportDataTableAsString** de la clase Cells. El método **ExportDataTableAsString** toma el mismo conjunto de parámetros que el método **ExportDataTable** para exportar los datos de la hoja de cálculo como un objeto **DataTable**.
+
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -38,11 +39,11 @@ fstream.Close();
 
 A continuación se muestran las capturas de pantalla:
 
-![todo:imagen_alternativa_texto](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-![todo:imagen_alternativa_texto](picture2.png)
+![todo:image_alt_text](picture2.png)
 
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

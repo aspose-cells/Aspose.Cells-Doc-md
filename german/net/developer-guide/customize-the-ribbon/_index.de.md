@@ -1,20 +1,21 @@
-﻿---
-title: Anpassen des Multifunktionsleisten-XML
-linktitle: Passen Sie das Excel-Menü an
+---
+title: Anpassen des Ribbon XML
+linktitle: Excel Menü anpassen
 type: docs
 weight: 1500
 url: /de/net/customizing-the-ribbon-xml/
 ---
+
 {{% alert color="primary" %}} 
 
- Microsoft Office hat seit Office 2007 Menüs und Symbolleisten durch eine Multifunktionsleiste am oberen Rand des Anwendungsfensters ersetzt. Die Multifunktionsleiste ist anpassbar.
+ Microsoft Office hat seit Office 2007 Menüs und Symbolleisten durch ein Ribbon oben im Anwendungsfenster ersetzt. Das Ribbon ist anpassbar. 
 Aspose.Cells ermöglicht es Ihnen
 
-- Ribbon-XML behalten, ohne es zu parsen,
-- Ribbon-XML lesen und schreiben, ohne es zu analysieren,
-- Abrufen und Festlegen von Multifunktionsleisten-XML-Daten.
+- Ribbon-XML ohne Analyse beizubehalten,
+- Ribbon-XML ohne Analyse zu lesen und zu schreiben,
+- Ribbon-XML-Daten zu erhalten und zu setzen.
 
-Wenn Sie das Ribbon-XML ändern möchten, müssen Sie es mit einem XML-Parser oder einem anderen Ribbon-XML-Tool parsen.
+Wenn Sie das Ribbon-XML ändern möchten, müssen Sie es mit einem XML-Parser oder einem anderen Ribbon-XML-Tool analysieren.
 
 {{% /alert %}} 
 

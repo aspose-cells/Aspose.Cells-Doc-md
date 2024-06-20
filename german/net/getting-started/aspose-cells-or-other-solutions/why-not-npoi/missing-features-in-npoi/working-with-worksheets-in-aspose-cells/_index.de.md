@@ -1,9 +1,10 @@
-﻿---
-title: Arbeiten mit Arbeitsblättern in Aspose.Cells
+---
+title: Arbeiten mit Tabellenblättern in Aspose.Cells
 type: docs
 weight: 40
 url: /de/net/working-with-worksheets-in-aspose-cells/
 ---
-**Dieser Abschnitt umfasst die folgenden Themen:** 
-- [Speichern Sie jedes Arbeitsblatt unter einem anderen PDF](/cells/de/net/save-each-worksheet-to-different-pdf/)
-- [Legen Sie die Farbe des Arbeitsblatt-Registers in Aspose.Cells fest](/cells/de/net/set-worksheet-tab-color-in-aspose-cells/)
+
+ **Dieser Abschnitt umfasst die folgenden Themen:** 
+- [Jedes Arbeitsblatt in verschiedene PDFs speichern](/cells/de/net/save-each-worksheet-to-different-pdf/)
+- [Arbeitsblatt-Registerfarbe in Aspose.Cells festlegen](/cells/de/net/set-worksheet-tab-color-in-aspose-cells/)

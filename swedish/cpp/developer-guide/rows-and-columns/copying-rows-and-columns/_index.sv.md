@@ -4,35 +4,36 @@ type: docs
 weight: 20
 url: /sv/cpp/copying-rows-and-columns/
 ---
-##  **Introduktion**
-Ibland behöver du kopiera rader och kolumner i ett kalkylblad utan att kopiera hela kalkylbladet. Med Aspose.Cells är det möjligt att kopiera rader och kolumner inom eller mellan arbetsböcker.
-När en rad (eller kolumn) kopieras, kopieras även data som finns i den, inklusive formler - med uppdaterade referenser - och värden, kommentarer, formatering, dolda celler, bilder och andra ritobjekt.
-##  **Kopiera rader och kolumner med Microsoft Excel**
-1. Välj den rad eller kolumn som du vill kopiera.
-1.  För att kopiera rader eller kolumner, klicka**Kopiera** på**Standard** verktygsfältet, eller tryck**CTRL**+*C**.
-1. Välj en rad eller kolumn nedan eller till höger om var du vill kopiera ditt val.
-1.  Klicka på när du kopierar rader eller kolumner**Kopierat Cells** på**Föra in** meny.
+
+## **Introduktion**
+Ibland behöver du kopiera rader och kolumner i ett arbetsblad utan att kopiera hela arbetsbladet. Med Aspose.Cells är det möjligt att kopiera rader och kolumner inom eller mellan arbetsböcker.
+När en rad (eller kolumn) kopieras kopieras data som finns i den, inklusive formler - med uppdaterade referenser - och värden, kommentarer, formatering, dolda celler, bilder och andra ritobjekt också.
+## **Kopiera rader och kolumner med Microsoft Excel**
+1. Markera raden eller kolumnen som du vill kopiera.
+1. För att kopiera rader eller kolumner, klicka på **Kopiera** på **Standard** verktygsfältet, eller tryck på **CTRL**+**C**.
+1. Välj en rad eller en kolumn nedanför eller till höger om där du vill kopiera ditt val.
+1. När du kopierar rader eller kolumner, klicka på **Kopierade celler** på menyn **Infoga**.
 
 {{% alert color="primary" %}} 
 
- Om du klickar**Klistra** på**Standard** verktygsfältet eller tryck**CTRL**+**V** istället för att klicka på ett kommando på **Infoga** menyn, ersätts allt innehåll i destinationscellerna.
+Om du klickar på **Klistra in** på verktygsfältet **Standard** eller trycker på **CTRL**+**V** istället för att klicka på en kommando i menyn **Infoga**, ersätts eventuellt innehållet i destinationscellerna.
 
 {{% /alert %}} 
-##  **Använder Aspose.Cells**
-###  **Kopiera rader**
-Aspose.Cells tillhandahåller CopyRow-metoden för klassen Aspose::Cells::ICells. Denna metod kopierar alla typer av data inklusive formler, värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källraden till målraden.
+## **Använda Aspose.Cells**
+### **Kopiera rader**
+Aspose.Cells tillhandahåller CopyRow-metoden i Aspose::Cells::ICells-klassen. Denna metod kopierar alla typer av data inklusive formler, värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källraden till destinationsraden.
 
 CopyRow-metoden tar följande parametrar:
 
-- källan Cells objekt,
+- källans Cells-objekt,
 - källradens index, och
-- destinationsradindex.
+- destinationsradens index.
 
-Använd den här metoden för att kopiera en rad i ett ark eller till ett annat ark. CopyRow-metoden fungerar på liknande sätt som Microsoft Excel. Så, till exempel, behöver du inte ställa in höjden på destinationsraden explicit, det värdet kopieras också.
+Använd denna metod för att kopiera en rad inom ett blad eller till ett annat blad. CopyRow-metoden fungerar på ett liknande sätt som Microsoft Excel. Så, till exempel, behöver du inte ställa in höjden på destinationsraden explicit, det värdet kopieras också.
 
-Följande exempel visar hur man kopierar en rad i ett kalkylblad. Den använder en mall Microsoft Excel-fil och kopierar den andra raden (komplett med data, formatering, kommentarer, bilder och så vidare) och klistra in den på 12:e raden i samma kalkylblad.
+Exemplet nedan visar hur du kopierar en rad i en arbetsbok. Det använder en mall för Microsoft Excel-fil och kopierar den andra raden (komplett med data, formatering, kommentarer, bilder och så vidare) och klistrar in den i den 12: e raden i samma arbetsbok.
 
- Du kan hoppa över steget som får källradens höjd med hjälp av**Get RowHeigh** metod och ställer sedan in destinationsradens höjd med hjälp av**SetRowHeight** metod som**CopyRow** metod tar automatiskt hand om radhöjden.
+Du kan hoppa över steget som hämtar källradshöjden med hjälp av **GetRowHeigh**-metoden och sedan ställer in destinationsradens höjd med hjälp av **SetRowHeight**-metoden eftersom **CopyRow**-metoden automatiskt tar hand om radhöjden.
 
 
 
@@ -40,24 +41,24 @@ Följande exempel visar hur man kopierar en rad i ett kalkylblad. Den använder 
 
 {{% alert color="primary" %}} 
 
-När du kopierar rader är det viktigt att notera relaterade bilder, diagram eller andra ritobjekt eftersom detta är samma sak med Microsoft Excel:
+När du kopierar rader är det viktigt att notera relaterade bilder, diagram eller andra ritobjekt eftersom det är detsamma som med Microsoft Excel:
 
-1. Om källradens index är 5, kopieras bilden, diagrammet etc. om det finns i de tre raderna (startradindex är 4 och slutradens index är 6).
-1. De befintliga bilderna, sjökorten etc. i destinationsraden kommer inte att tas bort.
+1. Om källradindexet är 5 kopieras bilden, diagrammet osv., om det ingår i de tre raderna (det startande radindexet är 4 och det slutliga radindexet är 6).
+1. De befintliga bilderna, diagrammen osv. i destinationsraden kommer inte att tas bort.
 
 {{% /alert %}} 
-###  **Kopiera kolumner**
-Aspose.Cells tillhandahåller CopyColumn-metoden för klassen Aspose::Cells::ICells, denna metod kopierar alla typer av data, inklusive formler - med uppdaterade referenser - och värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källan kolumnen till destinationskolumnen.
+### **Kopiera kolumner**
+Aspose.Cells tillhandahåller CopyColumn-metoden i Aspose::Cells::ICells-klassen, denna metod kopierar alla typer av data, inklusive formler - med uppdaterade referenser - och värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källkolumnen till destinationskolumnen.
 
-Metoden CopyColumn använder följande parametrar:
+Metoden CopyColumn tar följande parametrar:
 
-- källan Cells objekt,
-- källkolumnindex och
-- målkolumnindex.
+- källans Cells-objekt,
+- källkolumnens index och
+- destinationskolumnens index.
 
-Använd metoden CopyColumn för att kopiera en kolumn inom ett ark eller till ett annat ark.
+Använd CopyColumn-metoden för att kopiera en kolumn inom ett blad eller till ett annat blad.
 
-Det här exemplet kopierar en kolumn från ett kalkylblad och klistrar in den i ett kalkylblad i en annan arbetsbok.
+Detta exempel kopierar en kolumn från ett blad och klistrar in den i ett blad i en annan arbetsbok.
 
 
 

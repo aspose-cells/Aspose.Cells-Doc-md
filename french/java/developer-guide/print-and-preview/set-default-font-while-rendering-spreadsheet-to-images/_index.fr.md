@@ -1,23 +1,24 @@
-﻿---
-title: Définir la police par défaut lors du rendu de la feuille de calcul en images
+---
+title: Définir la police par défaut lors du rendu de feuilles de calcul en images
 type: docs
 weight: 840
 url: /fr/java/set-default-font-while-rendering-spreadsheet-to-images/
 ---
+
 {{% alert color="primary" %}} 
 
- Veuillez utiliser le[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) propriété pour définir la police par défaut lors du rendu de la feuille de calcul en images. Cette propriété ne sera effective que lorsque la police par défaut du classeur ne pourra pas restituer vos caractères. La police par défaut spécifiée avec[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) La propriété est utilisée pour toutes les cellules qui ont des polices invalides ou inexistantes.
+Veuillez utiliser la propriété [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) pour définir la police par défaut lors du rendu de la feuille de calcul en images. Cette propriété ne sera efficace que lorsque la police par défaut du classeur ne peut pas afficher vos caractères. La police par défaut spécifiée avec la propriété [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) est utilisée pour toutes ces cellules qui ont des polices invalides ou inexistantes.
 
 {{% /alert %}} 
 ## **Définir la police par défaut lors du rendu de la feuille de calcul en images**
-L'exemple de code suivant crée un classeur, ajoute du texte dans la cellule A4 de la première feuille de calcul et définit sa police sur une police non valide ou inexistante. Ensuite, il prend deux images de la feuille de calcul. La première image est prise en réglant le[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) propriété à*Courrier Nouveau* et la deuxième image est prise en réglant le[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) propriété à*Times New Roman*.
+Le code d'exemple suivant crée un classeur, ajoute du texte dans la cellule A4 de la première feuille de calcul et défini sa police sur une police invalide ou inexistante. Ensuite, il prend deux images de la feuille de calcul. La première image est prise en définissant la propriété [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) sur *Courier New* et la deuxième image est prise en définissant la propriété [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) sur *Times New Roman*.
 
- Il s'agit de l'image de sortie après avoir défini le[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) propriété à*Courrier Nouveau*.
+Voici l'image de sortie après avoir défini la propriété [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) sur *Courier New*.
 
-![tâche : image_autre_texte](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
- Il s'agit de l'image de sortie après avoir défini le[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) propriété à*Times New Roman*.
+Voici l'image de sortie après avoir défini la propriété [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) sur *Times New Roman*.
 
-![tâche : image_autre_texte](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToImages-.java" >}}

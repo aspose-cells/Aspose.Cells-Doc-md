@@ -1,18 +1,19 @@
-﻿---
-title: Преобразование рабочей книги Excel в Ods, Sxc и Fods (OpenOffice/LibreOffice calc).
-linktitle: шансы
+---
+title: Преобразование книги Excel в ODS, SXC и FODS (OpenOffice / LibreOffice Calc).
+linktitle: Ods
 type: docs
 weight: 20
 url: /ru/java/opendocument-ods/
 ---
+
 ## **Об OpenDocument**
 
-[Формат OpenDocument (ODF)](https://en.wikipedia.org/wiki/OpenDocument) — это бесплатный и открытый формат файлов для электронных офисных документов, первоначально разработанный Sun для пакета Open Office. Электронная таблица OpenDocument (ODS) — это формат файла для документов Excel. OpenDocument в настоящее время является стандартом OASIS и ISO.
+[Формат OpenDocument (ODF)](https://en.wikipedia.org/wiki/OpenDocument) - бесплатный и открытый формат файла для электронных офисных документов, изначально разработанный Sun для пакета Open Office. OpenDocument Spreadsheet (ODS) - это формат файла для документов Excel. OpenDocument в настоящее время является стандартом OASIS и ISO.
 
 ## **ODS в Aspose.Cells**
 
- Aspose.Cells поддерживает загрузку документов OpenDocument 1.1 и 1.2. Aspose.Cells сохраняет документы в формате OpenDocument 1.1. Вы также можете увидеть[подробная спецификация](/cells/ru/java/opendocument-ods/) о том, какие функции OpenDocument поддерживаются.
+Aspose.Cells поддерживает загрузку документов OpenDocument 1.1 и 1.2. Aspose.Cells сохраняет документы в формате OpenDocument 1.1. Вы также можете увидеть [подробную спецификацию](/cells/ru/java/opendocument-ods/) о поддерживаемых функциях формата OpenDocument.
 
-**Образец документа ODS, созданный Aspose.Cells и открытый в OpenOffice Writer.** 
+**Пример документа ODS, созданного с помощью Aspose.Cells и открытого в OpenOffice Writer** 
 
-![дело:изображение_альтернативный_текст](opendocument-ods_1.png)
+![todo:image_alt_text](opendocument-ods_1.png)

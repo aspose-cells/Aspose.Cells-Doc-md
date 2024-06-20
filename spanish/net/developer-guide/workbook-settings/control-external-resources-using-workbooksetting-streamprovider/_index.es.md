@@ -1,18 +1,19 @@
-﻿---
-title: Controle los recursos externos mediante WorkbookSetting.StreamProvider
+---
+title: Controlar Recursos Externos usando WorkbookSetting.StreamProvider
 type: docs
 weight: 10
 url: /es/net/control-external-resources-using-workbooksetting-streamprovider/
 ---
-## **Posibles escenarios de uso**
 
-A veces, su archivo de Excel contiene recursos externos, por ejemplo, imágenes vinculadas, etc. Aspose.Cells le permite controlar estos recursos externos usando[**Libro de trabajo.Configuración.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider)que lleva la implementación de la[**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)interfaz. Cada vez que intente representar su hoja de trabajo que contiene recursos externos, por ejemplo, imágenes vinculadas, los métodos del[**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)Se invocará la interfaz que le permitirá tomar las medidas adecuadas para sus recursos externos.
+## **Escenarios de uso posibles**
 
-## **Controle los recursos externos mediante WorkbookSetting.StreamProvider**
+A veces, su archivo de Excel contiene recursos externos, como imágenes vinculadas, etc. Aspose.Cells le permite controlar estos recursos externos utilizando [**Workbook.Settings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) que toma la implementación de la interfaz [**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider). Cada vez que intente renderizar su hoja de cálculo que contiene recursos externos, como imágenes vinculadas, se invocarán los métodos de la interfaz [**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) que le permitirán tomar acciones apropiadas para sus recursos externos.
 
-El siguiente código de ejemplo explica el uso de la[**Libro de trabajo.Configuración.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) . carga el[ejemplo de archivo de Excel](61767863.xlsx) que contiene una imagen vinculada. El código reemplaza la imagen vinculada con[Aspose Logotipo](61767862.png) y convierte toda la hoja en una sola imagen usando[**HojaRenderizar**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) clase. La siguiente captura de pantalla muestra el archivo de ejemplo de Excel y su[imagen de salida renderizada](61767865.png) para una referencia. Como puede ver, la imagen vinculada rota se reemplaza con el logotipo Aspose.
+## **Controlar Recursos Externos usando WorkbookSetting.StreamProvider**
 
-![todo:imagen_alternativa_texto](control-external-resources-using-workbooksetting-streamprovider_1.png)
+El siguiente código de muestra explica el uso del [**Workbook.Settings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider). Carga el [archivo Excel de muestra](61767863.xlsx) que contiene una imagen vinculada. El código reemplaza la imagen vinculada con el [Logo de Aspose](61767862.png) y renderiza toda la hoja en una sola imagen utilizando la clase [**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender). La siguiente captura de pantalla muestra el archivo Excel de muestra y su [imagen de salida renderizada](61767865.png) como referencia. Como puedes ver, la imagen vinculada rota es reemplazada por el Logo de Aspose.
+
+![todo:image_alt_text](control-external-resources-using-workbooksetting-streamprovider_1.png)
 
 ## **Código de muestra**
 

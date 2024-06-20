@@ -1,24 +1,25 @@
-﻿---
-title: مقاطعة أو إلغاء حساب صيغة المصنف
+---
+title: انقطاع أو إلغاء حساب الصيغة لورقة العمل
 type: docs
 weight: 30
 url: /ar/java/interrupt-or-cancel-the-formula-calculation-of-workbook/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يوفر Aspose.Cells آلية لمقاطعة أو إلغاء حساب صيغة المصنف باستخدام طريقة المقاطعة () الخاصة بـ[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) صف دراسي. يكون هذا مفيدًا عندما يستغرق حساب صيغة المصنف وقتًا طويلاً وتريد إلغاء معالجته.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **مقاطعة أو إلغاء حساب صيغة المصنف**
+توفر Aspose.Cells آلية لإيقاف أو إلغاء عملية حساب الصيغ في دفتر العمل باستخدام طريقة  interrupt() من الفئة [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor). هذا مفيد عندما تستغرق عملية حساب الصيغ في دفتر عمل وقتًا طويلاً وترغب في إلغاء معالجتها.
 
-نموذج التعليمات البرمجية التالي بتنفيذ[**beforeCalculate ()**](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationmonitor#beforeCalculate(int,%20int,%20int)) طريقة ال[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor)صف دراسي. داخل هذه الطريقة ، تجد اسم الخلية باستخدام معلمات فهرس الصفوف والعمود. إذا كان اسم الخلية هو B8 ، فإنه يقطع عملية الحساب عن طريق استدعاء طريقة AbstractCalculationMonitor.interrupt (). مرة واحدة ، فئة ملموسة من[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor)تم تنفيذ فئة ، تم تعيين مثيلها إلى[**CalculationOptions.CalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#CalculationMonitor)خاصية. أخيراً،[**Workbook.calculateFormula ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)) يسمى بالمرور[**خيارات الحساب**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationOptions)كمعامل. الرجاء مراجعة[نموذج لملف Excel](51740744.xlsx)تستخدم داخل الكود بالإضافة إلى إخراج وحدة التحكم للرمز الوارد أدناه كمرجع.
+## **إيقاف أو إلغاء حساب الصيغ في سجل العمل**
 
-## **عينة من الرموز**
+يقوم الكود المثالي التالي بتنفيذ الأسلوب [**beforeCalculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationmonitor#beforeCalculate(int,%20int,%20int)) في فئة [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor). داخل هذا الأسلوب ، يتم العثور على اسم الخلية باستخدام معلمتي فهرس الصف والعمود. إذا كان اسم الخلية هو B8 ، يقوم بإخلاء عملية الحساب عن طريق استدعاء الأسلوب AbstractCalculationMonitor.interrupt(). بمجرد تنفيذ فئة [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) ، يتم تعيين مثيلها إلى [**CalculationOptions.CalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#CalculationMonitor) أخيرًا ، يتم استدعاء [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)) عن طريق تمرير [**CalculationOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationOptions) كمعلمة. يرجى الرجوع إلى [ملف Excel نموذجي](51740744.xlsx) المستخدم داخل الكود وإخراج وحدة التحكم في الكونسول للكود المعطى أدناه للرجوع إلى المرجع.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Formulas-InterruptOrCancelFormulaCalculationOfWorkbook.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 0----1----3----D2
 

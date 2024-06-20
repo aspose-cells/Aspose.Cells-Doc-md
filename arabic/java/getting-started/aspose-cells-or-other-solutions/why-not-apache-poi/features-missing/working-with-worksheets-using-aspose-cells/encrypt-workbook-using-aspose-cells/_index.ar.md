@@ -1,15 +1,16 @@
-﻿---
-title: تشفير المصنف باستخدام Aspose.Cells
+---
+title: تشفير دفتر العمل باستخدام Aspose.Cells
 type: docs
 weight: 60
 url: /ar/java/encrypt-workbook-using-aspose-cells/
 ---
-## **Aspose.Cells - تشفير المصنف**
-يوضح المثال التالي كيف يمكنك تشفير / حماية كلمة المرور لملف excel باستخدام Aspose.Cells API.
+
+## **Aspose.Cells - تشفير دفتر العمل**
+يوضح المثال التالي كيف يمكنك تشفير / حماية ملف Excel باستخدام واجهة برمجة التطبيقات لـ Aspose.Cells.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -32,14 +33,14 @@ workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128)
 workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل رمز التشغيل**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeEncryptSpreadsheets.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeEncryptSpreadsheets.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[تشفير ملفات اكسل](/cells/ar/java/encrypting-excel-files/).
+لمزيد من التفاصيل، قم بزيارة [تشفير ملفات Excel](/cells/ar/java/encrypting-excel-files/).
 
 {{% /alert %}}

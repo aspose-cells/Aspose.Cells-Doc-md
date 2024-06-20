@@ -1,143 +1,146 @@
-﻿---
-title: Çalışma Sayfasındaki Köprüleri Yönetin
+---
+title: Çalışsayfada Hiperbağlantıları Yönetme
 type: docs
 weight: 100
-url: /tr/net/manage-hyperlinks-in-worksheet/
+url: /tr/net/aspose-cells-gridweb/manage-hyperlinks-in-worksheet/
+keywords: GridWeb, hyperlink
+description: Bu makale, GridWeb de hyperlink ile nasıl çalışılacağını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konuda, Aspose.Cells.GridWeb'de ne tür köprülerin desteklendiği ve bunların programlı olarak nasıl yönetileceği anlatılmaktadır. Köprüler, web URL'lerine bağlantılar oluşturmak veya bir sunucuya geri gönderme gerçekleştirmek için kullanılabilir.
+Bu konu Aspose.Cells.GridWeb'de desteklenen bağlantı türlerini ve bunları programlı olarak nasıl yöneteceğinizi tartışmaktadır. Bağlantılar, web URL'lerine bağlantı oluşturmak veya sunucuya postback yapmak için kullanılabilir.
 
 {{% /alert %}} 
-## **Köprülerle Çalışmak**
-### **Köprü Türleri**
-Genel olarak, aşağıdaki köprüler Aspose.Cells.GridWeb tarafından desteklenir:
+## **Hiperbağlantıyla Çalışma**
+### **Bağlantı Türleri**
+Genellikle, Aspose.Cells.GridWeb tarafından desteklenen aşağıdaki hiperbağlantılar:
 
-- [URL köprüleri](/cells/tr/net/manage-hyperlinks-in-worksheet/), web URL'lerine bağlanabilen köprüler.
-- [Metin köprüleri](/cells/tr/net/manage-hyperlinks-in-worksheet/), metne uygulanan URL köprüleri.
-- [Görüntü köprüleri](/cells/tr/net/manage-hyperlinks-in-worksheet/), Resimlere uygulanan URL köprüleri.
-- [Cell komut köprüleri](/cells/tr/net/manage-hyperlinks-in-worksheet/), verileri bir sunucuya gönderen köprüler. Bu tür köprüler, tıklandığında sunucu tarafı olayını tetikleyen bir düğme gibi davranır.
+- [URL hiperbağlantıları](/cells/tr/net/aspose-cells-gridweb/manage-hyperlinks-in-worksheet/), web URL'lerine bağlanabilen hiperbağlantılar.
+- [Metin hiperbağlantıları](/cells/tr/net/aspose-cells-gridweb/manage-hyperlinks-in-worksheet/), metne uygulanan URL hiperbağlantıları.
+- [Görüntü hiperbağlantıları](/cells/tr/net/aspose-cells-gridweb/manage-hyperlinks-in-worksheet/), görüntülere uygulanan URL hiperbağlantıları.
+- [Hücre işlemi hiperbağlantıları](/cells/tr/net/aspose-cells-gridweb/manage-hyperlinks-in-worksheet/), sunucuya veri gönderen hiperbağlantılar. Bu tür hiperbağlantılar, tıklandığında sunucu taraflı bir etkinlik başlatan bir düğme gibi davranır.
 
-Aşağıdaki bölümlerde, her tür köprünün kullanımı ayrıntılı olarak açıklanmaktadır. Ayrıca bağlantılara nasıl erişileceğini veya kaldırılacağını da tartışır.
-### **Köprü Ekleme**
+Aşağıdaki bölümler, tüm hiperbağlantı türlerinin ayrıntılı kullanımını açıklar. Ayrıca bağlantılara erişme veya kaldırma konuları da tartışılır.
+### **Hyperlinkler Ekleme**
 
-#### **URL Köprüleri**
-URL köprüleri, normalde web sitelerinde gördüğünüz basit köprülere benzer. URL köprüsü, hücredeki bir bağlantı gibi çalışır. Tıklandığında, bir web sayfasına gider veya yeni bir tarayıcı penceresi açar.
+#### **URL Hiperbağlantıları**
+URL hiperbağlantıları, genellikle web sitelerinde gördüğünüz basit bağlantılara daha çok benzer. Bir URL hiperbağlantısı, hücrede bir çapa gibi çalışır. Tıkladığınızda web sayfasına gitmek veya yeni bir tarayıcı penceresi açmak gibi işlev görür.
 
-Farklı türde URL köprüleri vardır:
+Farklı türde URL hiperbağlantıları bulunmaktadır:
 
-- Metin köprüleri.
-- Görüntü köprüleri.
+- Metin hiperbağlantıları.
+- Resim hiperbağlantıları.
 
-Geliştiriciler, köprü için bir görüntü belirtebilir. Bir görüntü belirtilmezse, bir metin köprüsü oluşturulur; aksi takdirde bir görüntü köprüsü oluşturulur.
+Geliştiriciler, hiperbağlantı için bir resim belirleyebilirler. Eğer bir resim belirtilmemişse, bir metin hiperbağlantısı oluşturulur; aksi halde bir resim hiperbağlantısı oluşturulur.
 
 
-##### **Metin Köprüleri**
-Bir çalışma sayfasına metin köprüsü eklemek için:
+##### **Metin Hiperbağlantıları**
+Bir çalışma sayfasına metin hiperbağlantısı eklemek için:
 
 1. Aspose.Cells.GridWeb denetimini Web Formunuza ekleyin.
-1. Bir çalışma sayfasına erişin.
-1. Çalışma sayfasındaki bir hücreye köprü ekleyin.
+1. Bir çalışsayı açın.
+1. Bir hücreye bir hiperbağlantı ekleyin.
 1. Hücrede gösterilecek metni ayarlayın.
-1. Köprünün URL'sini ayarlayın.
-1. İsterseniz köprünün hedefini ayarlayın.
-1. İstenirse bir araç ucu ayarlayın.
+1. Hiperbağlantının URL'sini ayarlayın.
+1. Hiperbağlantının hedefini isteğe bağlı olarak ayarlayın.
+1. İstenirse bir araç ipucu ayarlayın.
 
 {{% alert color="primary" %}} 
 
- NOT: Köprü hedefi şu şekilde ayarlanabilir:_ öz,_top veya _parent, web URL'lerini sırasıyla yeni, geçerli veya üst pencerede açmak için.
+NOT: Hiperbağlantı hedefi, web URL'lerini yeni, mevcut veya en üst pencerede açmak için sırasıyla _self, _top veya _parent olarak ayarlanabilir.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek, bir çalışma sayfasına iki köprü ekler. Birinin hedefi yok, diğeri ise _parent olarak ayarlı.
+Aşağıdaki örnek, bir çalışma sayfasına iki hiperbağlantı ekler. Biri hedefi olmaksızın, diğeri ise _parent olarak ayarlanmıştır.
 
-**Çıktı: çalışma sayfasına eklenen metin köprüleri** 
+**Çıktı: çalışma sayfasına eklenen metin bağlantıları** 
 
-![yapılacaklar:resim_alternatif_metin](manage-hyperlinks-in-worksheet_1.png)
+![todo:image_alt_text](manage-hyperlinks-in-worksheet_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AddHyperlinks.aspx-AddTextHyperlinks.cs" >}}
 
 
-##### **Görüntü Köprüleri**
-Bir resim köprüsü eklemek için:
+##### **Resim Hiperbağlantıları**
+Bir resim hiperbağlantısı eklemek için:
 
 1. Aspose.Cells.GridWeb denetimini Web Formunuza ekleyin.
-1. Bir çalışma sayfasına erişin.
-1. Bir hücreye köprü ekleyin.
-1. Köprü olarak görüntülenecek görüntünün URL'sini ayarlayın.
-1. Köprü URL'sini ayarlayın.
-1. İstenirse bir araç ucu ayarlayın.
-1. İsterseniz köprü metnini ayarlayın.
+1. Bir çalışsayı açın.
+1. Bir hücreye bir bağlantı ekleyin.
+1. Hiperbağlantı olarak görüntülenecek resmin URL'sini ayarlayın.
+1. Hiperbağlantının URL'sini ayarlayın.
+1. İstenirse bir araç ipucu ayarlayın.
+1. İsteniyorsa hiperbağlantı metnini ayarlayın.
 
-**Çıktı: çalışma sayfasına eklenen görüntü köprüleri** 
+**Çıktı: çalışma sayfasına eklenen resim hiperbağlantıları** 
 
-![yapılacaklar:resim_alternatif_metin](manage-hyperlinks-in-worksheet_2.png)
+![todo:image_alt_text](manage-hyperlinks-in-worksheet_2.png)
 
 {{% alert color="primary" %}} 
 
- Görüntü köprüsünün AltText'ini ayarlamak, bir<ALT> HTML'deki etiket. Metin yalnızca köprü bağlantılı resim görüntülenmiyorsa görüntülenir. (Örneğin, resim belirtilen konumda değilse.) İkinci köprünün resmi bulunmazsa, aşağıdaki kod parçacığının çıktısı aşağıdaki gibi görünecektir.
+Setting the image hyperlink's AltText fills a similar function as setting an <ALT> tag in HTML. The text is displayed only if the hyperlinked image is not displayed. (For example, if the image isn't at the specified location.) If the image of the second hyperlink is not found, the output of the code snippet below would look as follows.
 
-**Resim URL'si için resim bulunamadı** 
+**Resim URL'si bulunamadı** 
 
-![yapılacaklar:resim_alternatif_metin](manage-hyperlinks-in-worksheet_3.png)
+![todo:image_alt_text](manage-hyperlinks-in-worksheet_3.png)
 
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AddHyperlinks.aspx-AddImageHyperlinks.cs" >}}
 
 
-#### **Cell Komut Köprüleri**
-Hücre komut köprüsü, bir web sayfası açmak yerine sunucu tarafı olayını tetikleyen özel bir köprü türüdür. Geliştiriciler, sunucu tarafı olayına kod ekleyebilir ve köprü tıklandığında herhangi bir görevi gerçekleştirebilir. Bu özellik, geliştiricilerin daha etkileşimli uygulamalar oluşturmasını sağlar.
+#### **Hücre Komut Hiperbağlantıları**
+Hücre komut hiperbağlantısı, bir web sayfası açmak yerine sunucu tarafında bir olayı tetikleyen özel bir hiperbağlantı türüdür. Geliştiriciler, hiperbağlantıya tıklandığında sunucu tarafı olayına kod ekleyebilir ve herhangi bir görevi gerçekleştirebilir. Bu özellik, geliştiricilere daha etkileşimli uygulamalar oluşturmalarını sağlar.
 
-Bir hücre komutu köprüsü eklemek için:
+Hücre komutu bağlantısını eklemek için:
 
 1. Aspose.Cells.GridWeb denetimini Web Formunuza ekleyin.
-1. Bir çalışma sayfasına erişin.
-1. Bir hücreye köprü ekleyin.
-1. Köprünün Komutunu istediğiniz herhangi bir değere ayarlayın.
- Değer, köprünün olay işleyicisi tarafından onu tanımak için kullanılır.
-1. İstenirse bir araç ucu ayarlayın.
-1. Köprü olarak görüntülenecek Görüntü için URL'yi ayarlayın.
+1. Bir çalışsayı açın.
+1. Bir hücreye bir bağlantı ekleyin.
+1. Bağlantının Komutunu istenen herhangi bir değere ayarlayın.
+   Değer, bağlantının olay işleyicisi tarafından tanınması için kullanılır.
+1. İstenirse bir araç ipucu ayarlayın.
+1. Bağlantı olarak görüntülenecek Görüntü için URL'yi ayarlayın.
 
-**Çalışma sayfasına bir hücre komut köprüsü eklendi** 
+**Çalışma sayfasına bir hücre komut bağlantısı eklenmiş.** 
 
-![yapılacaklar:resim_alternatif_metin](manage-hyperlinks-in-worksheet_4.png)
+![todo:image_alt_text](manage-hyperlinks-in-worksheet_4.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AddHyperlinks.aspx-AddCellCommandHyperlinks.cs" >}}
-##### **Cell Komut Köprülerinin Olay İşleme**
-Geliştiricilerin, belirli bir hücre komut köprüsü tıklandığında belirli görevleri gerçekleştirmek üzere GridWeb denetiminin CellCommand olayı için bir olay işleyicisi oluşturması gerekir. CellCommand olayının olay işleyicisi, Argument özelliğini sunan CellEventArgs türünde bir nesne sağlar. CellCommand değerini karşılaştırarak belirli bir köprüyü tanımlamak için Argument özelliğini kullanın.
+##### **Hücre Komutu Bağlantılarının Olay İşlemesi**
+Geliştiriciler, belirli bir hücre komutu bağlantısı tıklandığında belirli görevleri gerçekleştirmek için GridWeb denetiminin CellCommand etkinliği için bir olay işleyici oluşturmalıdırlar. CellCommand etkinliğinin olay işleyicisi, Argument özelliği sunan CellEventArgs türünde bir nesne sağlar. Bir belirli bağlantıyı tanımlamak için Argument özelliğini kullanın.
 
-Aşağıdaki örnek, yukarıdaki kodda oluşturulan hücre komut köprüsü için bir olay işleyici oluşturur. Köprünün CellCommand'ı Click olarak ayarlandı. Bu nedenle, olay işleyicide önce kontrol edin ve ardından A6 hücresinde bir mesaj görüntüleyen kodu ekleyin.
+Aşağıdaki örnek, yukarıdaki kodda oluşturulan hücre komutu bağlantısı için bir olay işleyici oluşturur. Bağlantının CellCommand'u Tıkla olarak ayarlandı. Bu nedenle, olay işleyicisinde önce kontrol edin ve ardından A6 hücresinde bir ileti gösteren kod ekleyin.
 
-Olay işleyicisi, köprü tıklandığında çağrılır.
+Olay işleyicisi, bağlantı tıklandığında çağrılır.
 
-**Çıktı: köprü tıklandığında A6 hücresine eklenen metin** 
+**Çıktı: bağlantı tıklandığında A6 hücresine eklenen metin** 
 
-![yapılacaklar:resim_alternatif_metin](manage-hyperlinks-in-worksheet_5.png)
+![todo:image_alt_text](manage-hyperlinks-in-worksheet_5.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AddHyperlinks.aspx-HandleCellCommandHyperlinkEvent.cs" >}}
-### **Köprülere Erişim**
-Mevcut bir köprüye erişmek için:
+### **Bağlantıları Erişme**
+Mevcut bir bağlantıya erişmek için:
 
-1. Onu içeren hücreye erişin.
-1. Hücre referansını alın.
-1. Köprüye erişmek için başvuruyu Köprüler koleksiyonunun GetHyperlink yöntemine iletin.
-1. Köprünün özelliklerini değiştirin.
+1. İçeren hücreye erişin.
+1. Hücre başvurusunu alın.
+1. Başvuruyu Hyperlinks koleksiyonunun GetHyperlink yöntemine iletmek için geçirin.
+1. Bağlantının özelliklerini değiştirin.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-ManageHyperlinks.aspx-AccessHyperlinks.cs" >}}
-### **Köprüleri Kaldırma**
-Bir köprüyü kaldırmak için:
+### **Bağlantıları Kaldırma**
+Bir bağlantıyı kaldırmak için:
 
 1. Etkin çalışma sayfasına erişin.
-1. Köprüler koleksiyonunun Kaldır yöntemini kullanarak bir köprüyü kaldırın.
+1. Hyperlinks koleksiyonunun Kaldır yöntemini kullanarak bir bağlantıyı kaldırın.
 
 
 

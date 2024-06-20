@@ -1,28 +1,29 @@
-﻿---
-title: HTML Bağlantı Hedefi Türünü değiştirin
+---
+title: HTML Bağlantısı Hedef Türünü Değiştirme
 type: docs
 weight: 450
 url: /tr/java/change-the-html-link-target-type/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells, HTML bağlantı hedefi türünü değiştirmenizi sağlar. HTML bağlantısı şöyle görünür:
+Aspose.Cells size HTML bağlantı hedef türünü değiştirme olanağı sağlar. HTML bağlantısı şuna benzer:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <a href="http://www.aspose.com/" target="_self">
 
 {{< /highlight >}}
 
-Yukarıdaki HTML bağlantısındaki hedef özniteliği görebileceğiniz gibi **_self** şeklindedir. [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) özelliğini kullanarak bu hedef niteliğini kontrol edebilirsiniz. Bu özellik, aşağıdaki değerlere sahip [HtmlLinkTargetType](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlLinkTargetType) numaralandırmasını alır.
+Yukarıdaki HTML bağlantısında hedef özniteliği **_self** olarak görünüyor. Bu hedef özniteliğini [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) özelliğini kullanarak kontrol edebilirsiniz. Bu özellik [HtmlLinkTargetType](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlLinkTargetType) numarasını alır ve aşağıdaki değerlere sahiptir.
 
-- [BOŞLUK](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#BLANK)
-- [EBEVEYN](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#PARENT)
-- [KENDİNE](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#SELF)
-- [TEPE](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#TOP)
+- [BLANK](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#BLANK)
+- [PARENT](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#PARENT)
+- [SELF](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#SELF)
+- [TOP](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#TOP)
 
 {{% /alert %}} 
-## **HTML Bağlantı Hedefi Türünü değiştirin**
- Aşağıdaki kod kullanımını göstermektedir[HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) Emlak. Bağlantı hedefi türünü şu şekilde değiştirir:**boşluk**. Varsayılan olarak,**ebeveyn** . alabilirsin[kaynak excel dosyası](5472932.xlsx) ancak bu bağlantıdan, bu kodu çalıştırmak için içinde HTML hiper bağlantısı bulunan herhangi bir excel dosyasını kullanabilirsiniz.
+## **HTML Bağlantı Hedef Türünü Değiştirme**
+Aşağıdaki kod, [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) özelliğinin kullanımını gösterir. Bu kod bağlantı hedef türünü **blank** olarak değiştirir. Varsayılan olarak, hedef türü **parent**'tır. Bu kodu çalıştırmak için [kaynak excel dosyasını](5472932.xlsx) kullanabilirsiniz, ancak içindeki HTML bağlantısı olan herhangi bir excel dosyasını kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}

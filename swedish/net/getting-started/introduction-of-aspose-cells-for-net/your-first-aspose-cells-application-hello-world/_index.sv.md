@@ -1,39 +1,40 @@
 ---
-title: Din första Aspose.Cells-ansökan - Hello World
+title: Din första Aspose.Cells applikation  Hej världen
 type: docs
 weight: 30
 url: /sv/net/your-first-aspose-cells-application-hello-world/
-description: Skapa, redigera och spara din första Excel-fil i alla format som stöds med Aspose.Cells for .NET för att uppleva dess enkelhet och kraft i C#.
-keywords: C# Hello World, Aspose.Cells for .NET Hello World, The first application using Aspose.Cells for .NET, The first program via Aspose.Cells for .NET.
+description: Skapa, redigera och spara din första excel fil i valfria format som stöds med Aspose.Cells for .NET för att uppleva dess enkelhet och kraft i C#.
+keywords: C# Hej världen, Aspose.Cells for .NET Hej världen, Den första applikationen som använder Aspose.Cells for .NET, Det första programmet via Aspose.Cells for .NET.
 ---
+
 {{% alert color="primary" %}}
 
-Denna handledning visar hur man skapar en allra första applikation (Hello World) med Aspose.Cells' simple API. Denna enkla applikation skapar en Microsoft Excel-fil med texten 'Hello World' i en specificerad kalkylbladscell.
+I den här handledningen visas hur man skapar en mycket enkel applikation (Hej världen) med Aspose.Cells' enkla API. Denna enkla applikation skapar en Microsoft Excel-fil med texten 'Hej världen' i en angiven kalkylarks cell.
 
 {{% /alert %}}
 
-##  **Hur man skapar Hello World-applikationen**
+## **Hur man skapar applikationen Hej världen**
 
-Stegen nedan skapar Hello World-applikationen med hjälp av Aspose.Cells API:
+Följande steg skapar Hello World-applikationen med Aspose.Cells API:
 
-1.  Skapa en instans av[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass.
-1.  Om du har en licens, då[tillämpa den](/cells/sv/net/licensing/).
- Om du använder utvärderingsversionen, hoppa över de licensrelaterade kodraderna.
-1. Skapa en ny Excel-fil eller öppna en befintlig Excel-fil.
-1. Få åtkomst till valfri cell i ett kalkylblad i Excel-filen.
-1.  Sätt in orden**Hello World!** in i en cell som nås.
+1. Skapa en instans av [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook)-klassen.
+1. Om du har en licens, [ansök om den](/cells/sv/net/licensing/).
+   Om du använder utvärderingsversionen, hoppa över licensrelaterade kodrader.
+1. Skapa en ny Excel-fil, eller öppna en befintlig Excel-fil.
+1. Åtkomst till valfri cell i ett kalkylblad i Excel-filen.
+1. Infoga orden **Hello World!** i en åtkomstcell.
 1. Generera den modifierade Microsoft Excel-filen.
 
-Implementeringen av stegen ovan visas i exemplen nedan.
+Implementeringen av ovanstående steg visas i exemplen nedan.
 
-###  **Hur man skapar en ny arbetsbok**
+### **Hur man skapar en ny arbetsbok**
 
-Följande exempel skapar en ny arbetsbok från början, skriver Hello World! i cell A1 på det första kalkylbladet och sparar Excel-filen.
+Följande exempel skapar en ny arbetsbok från grunden, skriver Hej världen! i cell A1 på det första kalkylarket och sparar Excel-filen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
 
-###  **Hur man öppnar en befintlig fil**
+### **Hur man öppnar en befintlig fil**
 
-Följande exempel öppnar en befintlig Microsoft Excel-mallfil med namnet "Sample.xlsx", matar in "Hello World!" text i A1-cellen i det första kalkylbladet och sparar arbetsboken.
+Följande exempel öppnar en befintlig Microsoft Excel-mallfil vid namn "Sample.xlsx", matar in texten "Hej världen!" i cell A1 i det första kalkylarket och sparar arbetsboken.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}

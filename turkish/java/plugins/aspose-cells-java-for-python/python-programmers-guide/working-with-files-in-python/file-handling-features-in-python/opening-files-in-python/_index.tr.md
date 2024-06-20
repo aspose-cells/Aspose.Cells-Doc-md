@@ -1,15 +1,16 @@
-﻿---
-title: Dosyaları Python'de Açma
+---
+title: Python da Dosyaları Açma
 type: docs
 weight: 10
 url: /tr/java/opening-files-in-python/
 ---
-## **Aspose.Cells - Dosyaları Python'de Açma**
-Aspose.Cells Java içinde Python kullanarak bir dosyayı açmak için Document sınıfının openfile() yöntemini çağırmanız ve sona eklenecek ikinci belgeyi belirtmeniz yeterlidir.
 
-**Python Kod**
+## **Aspose.Cells - Python'da Dosyaları Açma**
+Aspose.Cells Java ile Python'da bir dosyayı açmak için, sadece Document sınıfının openfile() yöntemini çağırın ve sonuna eklemek için ikinci belgeyi belirtin.
 
-{{< highlight "java" >}}
+**Python Kodu**
+
+{{< highlight java >}}
 
  fileFormatType = self.FileFormatType
 
@@ -23,11 +24,11 @@ print "Workbook opened using path successfully.";
 
 \# 2 Opening workbook from stream
 
-# Create a Stream object
+#Create a Stream object
 
 fstream = self.FileInputStream(self.dataDir + "Book2.xls")
 
-# Creating an Workbook object with the stream object
+#Creating an Workbook object with the stream object
 
 workbook2 = self.Workbook(fstream)
 
@@ -39,11 +40,11 @@ print ("Workbook opened using stream successfully.");
 
 \# Opening Microsoft Excel 97 Files
 
-# Createing and EXCEL_97_TO_2003 LoadOptions object
+#Createing and EXCEL_97_TO_2003 LoadOptions object
 
 loadOptions1 = self.LoadOptions(fileFormatType.EXCEL_97_TO_2003)
 
-# Creating an Workbook object with excel 97 file path and the loadOptions object
+#Creating an Workbook object with excel 97 file path and the loadOptions object
 
 workbook3 = self.Workbook(self.dataDir + "Book_Excel97_2003.xls", loadOptions1)
 
@@ -55,11 +56,11 @@ print("Excel 97 Workbook opened successfully.");
 
 \# Opening Microsoft Excel 2007 XLSX Files
 
-# Createing and XLSX LoadOptions object
+#Createing and XLSX LoadOptions object
 
 loadOptions2 = self.LoadOptions(fileFormatType.XLSX)
 
-# Creating an Workbook object with 2007 xlsx file path and the loadOptions object
+#Creating an Workbook object with 2007 xlsx file path and the loadOptions object
 
 workbook4 = self.Workbook(self.dataDir + "Book_Excel2007.xlsx", loadOptions2)
 
@@ -72,11 +73,11 @@ print ("Excel 2007 Workbook opened successfully.")
 
 \# Opening SpreadsheetML Files
 
-# Creating and EXCEL_2003_XML LoadOptions object
+#Creating and EXCEL_2003_XML LoadOptions object
 
 loadOptions3 = self.LoadOptions(fileFormatType.EXCEL_2003_XML)
 
-# Creating an Workbook object with SpreadsheetML file path and the loadOptions object
+#Creating an Workbook object with SpreadsheetML file path and the loadOptions object
 
 workbook5 = self.Workbook(self.dataDir + "Book3.xml", loadOptions3)
 
@@ -88,11 +89,11 @@ print ("SpreadSheetML format workbook has been opened successfully.");
 
 \# Opening CSV Files
 
-# Creating and CSV LoadOptions object
+#Creating and CSV LoadOptions object
 
 loadOptions4 = self.LoadOptions(fileFormatType.CSV)
 
-# Creating an Workbook object with CSV file path and the loadOptions object
+#Creating an Workbook object with CSV file path and the loadOptions object
 
 workbook6 = self.Workbook(self.dataDir + "Book_CSV.csv", loadOptions4)
 
@@ -145,6 +146,6 @@ print ("Encrypted workbook has been opened successfully.");
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Dosya Açılıyor (Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Dosya Açma (Aspose.Cells)**'i indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

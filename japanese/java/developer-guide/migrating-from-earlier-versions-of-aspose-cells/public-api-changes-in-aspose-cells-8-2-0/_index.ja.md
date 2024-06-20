@@ -1,32 +1,33 @@
-﻿---
-title: パブリック API Aspose.Cells 8.2.0 の変更点
+---
+title: Aspose.Cells 8.2.0でのパブリックAPIの変更
 type: docs
 weight: 80
 url: /ja/java/public-api-changes-in-aspose-cells-8-2-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、バージョン 8.1.2 から 8.2.0 への Aspose.Cells API の変更点について説明します。これは、モジュール/アプリケーション開発者にとって興味深いものです。これには、新規および更新されたパブリック メソッドだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントでは、Aspose.Cellsのバージョン8.1.2から8.2.0へのAPIの変更について説明しており、モジュール/アプリケーション開発者に興味を持たれる可能性があります。新しいおよび更新されたパブリックメソッドだけでなく、Aspose.Cellsの内部の動作に変更がある場合についても説明しています。
 
 {{% /alert %}} 
-## **Cells クラスの MultiThreadReading プロパティを追加**
-Aspose.Cells for Java 8.2.0 では、MultiThreadReading プロパティが Cells クラスに追加され、複数のスレッドでセル値を同時に読み取るためのより堅牢なメカニズムが提供されます。マルチスレッド アプリケーションでブール型プロパティを true に設定すると、各スレッドが正しいセル値を受け取るようになります。
+## **CellsクラスのためのMultiThreadReadingプロパティが追加されました**
+Aspose.Cells for Java 8.2.0では、複数スレッドでセルの値を同時に読み取るためのより堅牢なメカニズムを提供するために、CellsクラスにMultiThreadReadingプロパティが追加されました。マルチスレッドアプリケーションでブール型のプロパティをtrueに設定すると、各スレッドが正しいセルの値を受信することが保証されます。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をご確認ください[マルチスレッド環境で Cells 値を同時に読み取る](/cells/ja/java/reading-cell-values-in-multiple-threads-simultaneously/)詳細については。
+詳細な記事は[マルチスレッド環境での同時にセル値を読み取る](/cells/ja/java/reading-cell-values-in-multiple-threads-simultaneously/)をご確認ください。
 
 {{% /alert %}}
-## **autoFitRows および autoFitColumns メソッドのオーバーロードを追加**
-autoFitRows と autoFitColumns の新しいオーバーロードが Worksheet クラスに追加され、開発者は AutoFitterOptions クラスのインスタンスを渡しながら、それぞれの範囲に基づいて行と列を自動調整できるようになりました。
+## **autoFitRowsおよびautoFitColumnsメソッドへのオーバーロードが追加されました**
+Worksheetクラスに新しいautoFitRowsおよびautoFitColumnsのオーバーロードが追加され、AutoFitterOptionsクラスのインスタンスを渡すことで、それぞれの範囲に基づいて行および列を自動調整することが可能になりました。 
 
-前述のメソッドのシグネチャは次のとおりです。
+上記のメソッドのシグネチャは次の通りです:
 
-1. autoFitRows(int startRow、int endRow、AutoFitterOptions オプション)
-1. autoFitColumns(int firstColumn、int lastColumn、AutoFitterOptions オプション)
+1. autoFitRows(int startRow, int endRow, AutoFitterOptions options)
+1. autoFitColumns(int firstColumn, int lastColumn, AutoFitterOptions options)
 
 {{% alert color="primary" %}} 
 
-の詳細記事をご確認ください[行と列の自動調整](http://aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns).
+詳細な記事は[行および列の自動調整](http://aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns)をご確認ください。
 
 {{% /alert %}}

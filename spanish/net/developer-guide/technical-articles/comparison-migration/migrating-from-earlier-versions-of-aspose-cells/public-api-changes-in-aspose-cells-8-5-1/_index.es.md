@@ -1,21 +1,22 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.5.1
+---
+title: Cambios en la API pública en Aspose.Cells 8.5.1
 type: docs
 weight: 170
 url: /es/net/public-api-changes-in-aspose-cells-8-5-1/
 ---
+
 {{% alert color="primary" %}} 
 
- Este documento describe los cambios al Aspose.Cells API de la versión 8.5.0 a la 8.5.1 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados,[Clases añadidas, etc.](/cells/es/net/public-api-changes-in-aspose-cells-8-5-1/), pero también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.5.0 hasta la 8.5.1 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo nuevos y actualizados métodos públicos, [clases añadidas, etc.](/cells/es/net/public-api-changes-in-aspose-cells-8-5-1/), sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Método Workbook.Dispose Agregado**
-El objeto Workbook ahora implementa la interfaz System.IDisposable que tiene un solo método Dispose. Puede llamar directamente al método Workbook.Dispose o crear un objeto Workbook en una estructura Using para llamar a este método automáticamente.
+## **APIs Añadidas**
+### **Método Workbook.Dispose añadido**
+Ahora el objeto Workbook implementa la interfaz System.IDisposable que tiene un solo método Dispose. Puedes llamar directamente al método Workbook.Dispose o crear un objeto Workbook en una estructura Using para llamar a este método automáticamente.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -38,23 +39,23 @@ using (Workbook book = new Workbook())
 {{< /highlight >}}
 
 
-### **Método Cell.GetHeightOfValue agregado**
- Aspose.Cells for .NET 8.5.1 ha expuesto el método Cell.GetHeightOfValue para obtener la altura del valor de la celda. Al usar este método, puede calcular la altura del valor de la celda y luego establecer la altura de la fila de esa celda respectivamente. Consulte el artículo detallado sobre[cómo calcular la altura y el ancho de la celda](/cells/es/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
-### **Tabla de enumeraciónDataSourceType agregado**
-Aspose.Cells for .NET 8.5.1 ha expuesto la enumeración Aspose.Cells.Tables.TableDataSourceType para recuperar el tipo de fuente de datos de ListObject. La enumeración TableDataSourceType como los siguientes campos.
+### **Se añadió el método Cell.GetHeightOfValue**
+Aspose.Cells for .NET 8.5.1 ha expuesto el método Cell.GetHeightOfValue para obtener la altura del valor de la celda. Al usar este método, puedes calcular la altura del valor de la celda y luego ajustar la altura de la fila de esa celda respectivamente. Consulta el artículo detallado sobre [cómo calcular la altura y el ancho de la celda](/cells/es/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+### **Se añadió la enumeración TableDataSourceType**
+Aspose.Cells for .NET 8.5.1 ha expuesto la enumeración Aspose.Cells.Tables.TableDataSourceType para recuperar el tipo de origen de datos de un ListObject. La enumeración TableDataSourceType tiene los siguientes campos.
 
 1. TableDataSourceType.QueryTable
 1. TableDataSourceType.SharePoint
-1. TableDataSourceType.Hoja de trabajo
+1. TableDataSourceType.Worksheet
 1. TableDataSourceType.XML
-### **Propiedad ListObject.DataSourceType agregado**
-Con el lanzamiento de v8.5.1, el Aspose.Cells API ha expuesto la propiedad ListObject.DataSourceType de solo lectura que se puede usar para detectar el tipo de fuente de datos de un ListObject.
+### **Añadida la propiedad ListObject.DataSourceType**
+Con el lanzamiento de v8.5.1, la API de Aspose.Cells ha expuesto la propiedad de solo lectura ListObject.DataSourceType que se puede utilizar para detectar el tipo de fuente de datos de un ListObject.
 
-Este es el escenario de uso más simple.
+Aquí se presenta el escenario de uso más simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("D:/book1.xlsx");
 

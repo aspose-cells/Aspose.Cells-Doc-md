@@ -1,12 +1,13 @@
-﻿---
+---
 title: 数式関数を使用してデータを処理する
 type: docs
 weight: 140
 url: /ja/net/use-formulas-functions-to-process-data/
 ---
+
 {{% alert color="primary" %}}
 
-この技術的なヒントでは、数式/関数を使用してデータを処理する方法を説明します**VSTO**と**Aspose.Cells for .NET**コードを通して。
+この技術ヒントでは、**VSTO**および**Aspose.Cells for .NET**を使用してコードを介してデータを処理する方法を説明します。 
 
 {{% /alert %}}
 
@@ -17,7 +18,7 @@ url: /ja/net/use-formulas-functions-to-process-data/
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -89,7 +90,7 @@ void AddingCellFormula()
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void AddingCellFormula()
 
@@ -151,12 +152,12 @@ void AddingCellFormula()
 
 ### **1) VSTO**
 
-![todo:画像_代替_文章](use-formulas-functions-to-process-data_1.png)
+![todo:image_alt_text](use-formulas-functions-to-process-data_1.png)
 
-**図1：** VSTO で数式を使用して出力する
+**図1:** VSTOを使用した数式の出力
 
 ### **2) Aspose.Cells for .NET**
 
-![todo:画像_代替_文章](use-formulas-functions-to-process-data_2.png)
+![todo:image_alt_text](use-formulas-functions-to-process-data_2.png)
 
-**図 2:** Aspose.Cells for .NET の数式を使用して出力
+**図 2:** Aspose.Cells for .NETを使用した数式の出力

@@ -1,59 +1,60 @@
-﻿---
+---
 title: إدارة الضوابط
 type: docs
 weight: 150
 url: /ar/net/managing-controls/
 ---
+
 ## **مقدمة**
 
-يمكن للمطورين إضافة كائنات رسم مختلفة مثل مربعات النص وخانات الاختيار وأزرار الاختيار ومربعات التحرير والسرد والتسميات والأزرار والخطوط والمستطيلات والأقواس والأشكال البيضاوية وأشرطة التمرير ومربعات المجموعة وما إلى ذلك ، يوفر Aspose.Cells Aspose.Cells. كل الكائنات الرسومية. ومع ذلك ، هناك عدد قليل من الكائنات الرسومية أو الأشكال التي لم يتم دعمها بعد. قم بإنشاء هذه الكائنات الرسومية في جدول بيانات مصمم باستخدام Microsoft Excel ثم قم باستيراد جدول بيانات المصمم إلى Aspose.Cells. يسمح لك Aspose.Cells بتحميل هذه الكائنات الرسومية من جدول بيانات مصمم وكتابتها في ملف تم إنشاؤه.
+يمكن للمطورين إضافة أجسام رسم مختلفة مثل صناديق النص، صناديق الاختيار، أزرار الراديو، صناديق الاختيار المتعدد، تسميات الأزرار، الخطوط، المستطيلات، الأقواس، البيضاويات، الدوارات، شرائط التمرير، صور المجموعات الخ. Aspose.Cells توفر مساحة اسم Aspose.Cells.Drawing التي تحتوي على جميع أجسام الرسم. ومع ذلك، هناك بعض أجسام الرسم أو الأشكال التي لم يتم دعمها بعد. أنشئ هذه الأجسام الرسم في ورقة عمل مصممة باستخدام Microsoft Excel ثم استوردها إلى Aspose.Cells. تتيح لك Aspose.Cells تحميل هذه الأجسام الرسم من ورقة عمل مصممة وكتابتها إلى ملف مولد.
 
-## **إضافة عنصر تحكم مربع نص إلى ورقة عمل**
+## **إضافة مربع نص إلى ورقة العمل**
 
- تتمثل إحدى طرق التأكيد على المعلومات المهمة في التقرير في استخدام مربع نص. على سبيل المثال ، أضف نصًا لتمييز اسم الشركة أو للإشارة إلى المنطقة الجغرافية ذات أعلى مبيعات وما إلى ذلك. يوفر Aspose.Cells[**TextBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection) فئة ، تستخدم لإضافة مربع نص جديد إلى المجموعة. هناك فئة أخرى ،[**مربع الكتابة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox)، والذي يمثل مربع نص يستخدم لتحديد جميع أنواع الإعدادات. لها بعض الأعضاء المهمين:
+الطريقة الوحيدة لتوضيح المعلومات الهامة في تقرير هو استخدام صندوق نص. على سبيل المثال، إضافة نص لتسليط الضوء على اسم الشركة أو للإشارة إلى المنطقة الجغرافية التي تحقق أعلى مبيعات وما إلى ذلك. توفر Aspose.Cells الفئة [**TextBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection)، المستخدمة لإضافة صندوق نص جديد إلى المجموعة. هناك فئة أخرى، [**TextBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox)، التي تمثل صندوق نص يتم استخدامه لتحديد جميع أنواع الإعدادات. يحتوي على بعض الأعضاء الهامة:
 
--  ال[**TextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textframe) إرجاع الممتلكات أ[**MsoTextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msotextframe) كائن يستخدم لضبط محتويات مربع النص.
--  ال[**تحديد مستوى**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) تحدد الخاصية نوع الموضع.
--  ال[**الخط**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font) تحدد الخاصية سمات الخط.
--  ال[**إضافة ارتباط تشعبي**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink) أسلوب يضيف ارتباط تشعبي لمربع النص.
--  ال[**ملء**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) إرجاع الممتلكات[**تنسيق MsoFillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msofillformat) المستخدم لتعيين تنسيق التعبئة لمربع النص.
--  ال[**تنسيق الخط**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) خاصية إرجاع ال[**تنسيق MsoLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msolineformat) عادةً ما يتم استخدام الكائن في نمط سطر مربع النص ووزنه.
--  ال[**نص**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) تحدد الخاصية نص الإدخال لمربع النص.
+- الخاصية [**TextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textframe) تُرجع كائن [**MsoTextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msotextframe) يُستخدم لضبط محتويات صندوق النص.
+- الخاصية [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) تُحدد نوع التوضع.
+- الخاصية [**Font**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font) تُحدد سمات الخط.
+- الطريقة [**AddHyperlink**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink) تضيف ارتباطًا تشعبيًا لصندوق النص.
+- الخاصية [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) ترجع كائن [**MsoFillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msofillformat) يُستخدم لتعيين تنسيق التعبئة لصندوق النص.
+- تُعيد الخاصية [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) كائن [**MsoLineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msolineformat) المستخدم عادة لتنسيق ووزن خط مربع النص.
+- الخاصية [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) تحدد النص الذي يُدخل في صندوق النص.
 
-يقوم المثال التالي بإنشاء مربعين نصيين في ورقة العمل الأولى من المصنف. تم تجهيز مربع النص الأول جيدًا بإعدادات تنسيق مختلفة. والثاني بسيط.
+المثال التالي ينشئ مربعي نص في الورقة العمل الأولى من الدفتر. المربع النص الأول مؤثث جيدًا بإعدادات تنسيق مختلفة. الثاني بسيط.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingTextBoxControl-1.cs" >}}
 
-## **معالجة عناصر تحكم مربع النص في جداول بيانات المصمم**
+## **التحكم في صندوقات النص في جداول البيانات المصممة**
 
- يتيح لك Aspose.Cells أيضًا الوصول إلى مربعات النص في أوراق عمل المصمم ومعالجتها. استخدم ال[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes) للحصول على مجموعة مربعات النص في الورقة.
+تتيح Aspose.Cells أيضًا لك الوصول إلى مربعات النص في جداول البيانات المصممة والتلاعب بها. استخدم الخاصية [**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes) للحصول على مجموعة مربعات النص في الورقة.
 
-يستخدم المثال التالي ملف Excel Microsoft الذي أنشأناه في المثال أعلاه. يحصل على السلاسل النصية لمربعي النص ويغير نص مربع النص الثاني لحفظ الملف.
+يستخدم المثال التالي ملف Microsoft Excel الذي أنشأناه في المثال أعلاه. يحصل على سلاسل نصيّة لصندوقي النص ويغير نص الصندوق الثاني لحفظ الملف.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-ManipulatingTextBoxControls-1.cs" >}}
 
-## **إضافة عنصر تحكم خانة اختيار إلى ورقة عمل**
+## **إضافة عنصر تحكم خانة اختيار إلى ورقة العمل**
 
-تكون خانات الاختيار سهلة الاستخدام إذا كنت تريد توفير طريقة للمستخدم للاختيار بين خيارين ، مثل صواب أو خطأ ؛ نعم أو لا. Aspose.Cells يسمح لك باستخدام مربعات الاختيار في أوراق العمل. على سبيل المثال ، ربما تكون قد طورت ورقة عمل الإسقاط المالي حيث يمكنك إما حساب عملية استحواذ معينة أم لا. في هذه الحالة ، قد ترغب في وضع خانة اختيار أعلى ورقة العمل. يمكنك بعد ذلك ربط حالة خانة الاختيار هذه بخلية أخرى ، بحيث إذا تم تحديد خانة الاختيار ، فإن قيمة الخلية هي True ؛ إذا لم يتم تحديدها ، فإن قيمة الخلية هي False.
+تكون مربعات الاختيار مفيدة إذا كنت ترغب في توفير طريقة للمستخدم لاختيار بين خيارين، مثل صحيح أو خطأ؛ نعم أو لا. تسمح Aspose.Cells لك باستخدام مربعات الاختيار في جداول البيانات. على سبيل المثال، قد تكون قد وضعت ورقة عمل للتنبؤ المالي يمكنك فيها إما أن تأخذ في الاعتبار استحواذ معين أو لا. في هذه الحالة، قد ترغب في وضع مربع اختيار في أعلى الورقة. يمكنك بعد ذلك ربط حالة هذا المربع بخلية أخرى، بحيث إذا تم تحديده، يكون قيمة الخلية صحيحة؛ إذا لم يتم تحديده، تكون قيمة الخلية خاطئة.
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
-لوضع عنصر تحكم خانة اختيار في ورقة العمل الخاصة بك ، اتبع الخطوات التالية:
+لوضع تحكم مربع الاختيار في ورقة العمل الخاصة بك، اتبع هذه الخطوات:
 
-1. تأكد من عرض شريط أدوات النماذج.
-1.  انقر على**خانة اختيار** أداة على شريط أدوات النماذج.
-1. في منطقة ورقة العمل الخاصة بك ، انقر واسحب لتحديد المستطيل الذي سيحتفظ بخانة الاختيار والتسمية بجانب خانة الاختيار.
-1. بمجرد وضع مربع الاختيار ، حرك مؤشر الماوس إلى منطقة الملصق وقم بتغيير التسمية.
-1.  في ال**Cell رابط**، حدد عنوان الخلية التي يجب ربط خانة الاختيار هذه بها.
-1.  انقر فوق**نعم**.
+1. تأكد من عرض شريط الأدوات النماذج.
+1. انقر على أداة **مربع اختيار** في شريط الأدوات النماذج.
+1. في منطقة ورقة العمل الخاصة بك، انقر واسحب لتحديد المستطيل الذي سيحتوي على مربع الاختيار والتسمية بجانب مربع الاختيار.
+1. بمجرد وضع مربع الاختيار، قم بتحريك مؤشر الماوس إلى منطقة التسمية وقم بتغيير التسمية.
+1. في حقل **رابط الخلية**، حدد عنوان الخلية التي يجب ربط مربع الاختيار بها.
+1. انقر فوق **موافق**.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
- يوفر Aspose.Cells ملف[**CheckBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkboxcollection) class ، والتي تُستخدم لإضافة خانة اختيار جديدة إلى المجموعة. هناك فئة أخرى ،[**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox)، والذي يمثل خانة اختيار. لها بعض الأعضاء المهمين:
+توفر Aspose.Cells الفئة [**CheckBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkboxcollection) ، التي تُستخدم لإضافة مربع اختيار جديد إلى المجموعة. هناك فئة أخرى ، [**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox) ، التي تمثل مربع اختيار. لديها بعض الأعضاء المهمين:
 
--  ال[**لينكدسل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) تحدد الخاصية خلية مرتبطة بخانة الاختيار.
--  ال[**نص**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) تحدد الخاصية سلسلة النص المرتبطة بخانة الاختيار. إنها تسمية خانة الاختيار.
--  ال[**قيمة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox/properties/value) تحدد الخاصية ما إذا تم تحديد خانة الاختيار أم لا.
+- تحدد خاصية [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) خلية مرتبطة بخانة الاختيار.
+- تحدد خاصية [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) السلسلة النصية المرتبطة بخانة الاختيار. إنها تسمية خانة الاختيار.
+- تحدد خاصية [**Value**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox/properties/value) ما إذا كانت خانة الاختيار محددة أم لا.
 
 يوضح المثال التالي كيفية إضافة خانة اختيار إلى ورقة العمل.
 
@@ -61,322 +62,322 @@ url: /ar/net/managing-controls/
 
 ## **إضافة عنصر تحكم زر الراديو إلى ورقة العمل**
 
-زر الاختيار ، أو زر الخيار ، هو عنصر تحكم مصنوع من صندوق دائري. يتخذ المستخدم قراره عن طريق تحديد المربع الدائري. عادة ما يكون زر الاختيار مصحوبًا بآخرين ، إن لم يكن دائمًا. تظهر أزرار الاختيار هذه وتتصرف كمجموعة. يقرر المستخدم أي زر يكون صالحًا عن طريق اختيار زر واحد فقط. عندما ينقر المستخدم على زر واحد ، يتم ملؤه. عند تحديد زر واحد في المجموعة ، تكون أزرار المجموعة نفسها فارغة.
+زر الراديو أو زر الخيار هو عنصر تحكم مكون من صندوق مستدير. يقوم المستخدم باتخاذ قراره عن طريق تحديد مربع المستدير. يتم عادةً ، إذا لم يكن دائمًا ، خيار زر الراديو مصحوبًا بآخرين. يظهر زر الراديو ويتصرف كمجموعة. يقرر المستخدم أي زر صالح عن طريق تحديد واحد فقط منها. عندما ينقر المستخدم على زر واحد ، يتم ملؤه. عند تحديد زر واحد في المجموعة ، تكون أزرار نفس المجموعة فارغة.
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
-لوضع عنصر تحكم زر راديو في ورقة العمل الخاصة بك ، اتبع الخطوات التالية:
+لوضع عنصر تحكم زر الراديو في ورقتك العمل ، اتبع هذه الخطوات:
 
-1.  تأكد من أن**نماذج** يتم عرض شريط الأدوات.
-1.  انقر على**زر الخيارات** أداة.
-1. في ورقة العمل ، انقر واسحب لتحديد المستطيل الذي سيحتفظ بزر الخيار والتسمية بجانب زر الخيار.
-1. بمجرد وضع زر الاختيار في ورقة العمل ، حرك مؤشر الماوس إلى منطقة التسمية وقم بتغيير التسمية.
-1.  في ال**Cell رابط** ، حدد عنوان الخلية التي يجب أن يرتبط بها زر الاختيار هذا.
-1.  انقر**نعم**.
+1. تأكد من عرض شريط الأدوات **النماذج**.
+1. انقر على أداة **Button الخيار**.
+1. في ورقة العمل ، انقر واسحب لتحديد المستطيل الذي سيحتوي على زر الخيار والتسمية بجانب زر الخيار.
+1. بمجرد وضع زر الراديو في ورقة العمل ، قم بتحريك مؤشر الماوس إلى منطقة التسمية وقم بتغيير التسمية.
+1. في حقل **رابط الخلية** ، حدد عنوان الخلية التي يجب أن يكون مرتبطًا بها زر الراديو هذا.
+1. انقر على **موافق**.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
-[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**AddRadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addradiobutton) ، والتي تُستخدم لإضافة عنصر تحكم زر اختيار إلى ورقة العمل. تقوم الطريقة بإرجاع ملف[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) موضوع. الطبقة[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) يمثل زر الخيار. لها بعض الأعضاء المهمين:
+توفر الفئة [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) طريقة تسمى [**AddRadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addradiobutton)، والتي تُستخدم لإضافة عنصر تحكم زر الراديو إلى ورقة عمل. تُرجع الطريقة كائنًا [**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton). تمثل الفئة [**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) زر اختيار. لها بعض الأعضاء الهامة:
 
--  ال[**لينكدسل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) تحدد الخاصية خلية مرتبطة بزر الاختيار.
--  ال[**نص**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)تحدد الخاصية سلسلة النص المرتبطة بزر الاختيار. إنها تسمية زر الاختيار.
--  ال[**مفحوص**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton/properties/ischecked) تحدد الخاصية ما إذا كان زر الاختيار محددًا أم لا.
--  ال[**ملء**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) تحدد الخاصية تنسيق تعبئة زر الاختيار.
--  ال[**تنسيق الخط**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) تحدد الخاصية أنماط تنسيق الخط لزر الخيار.
+- يُحدد خاصية [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) الخلية المرتبطة بزر الراديو.
+- تُحدد خاصية [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) سلسلة النص المرتبطة بزر الراديو. إنها علامة زر الراديو.
+- تُحدد خاصية [**IsChecked**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton/properties/ischecked) ما إذا كان زر الراديو محددًا أم لا.
+- تُحدد خاصية [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) تنسيق التعبئة لزر الراديو.
+- تُحدد خاصية [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) أنماط تنسيق الخط لزر الخيار.
 
-يوضح المثال التالي كيفية إضافة أزرار اختيار إلى ورقة عمل. يضيف المثال ثلاثة أزرار اختيار تمثل الفئات العمرية.
+المثال التالي يوضح كيفية إضافة أزرار الراديو إلى ورقة العمل. يضيف المثال ثلاثة أزرار راديو تمثل مجموعات عمرية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingRadioButtonControl-1.cs" >}}
 
-## **إضافة عنصر تحكم مربع التحرير والسرد إلى ورقة عمل**
+## **إضافة عنصر تحكم مربع القائمة المنسدلة إلى ورقة العمل**
 
-لتسهيل إدخال البيانات ، أو لتقييد الإدخالات بعناصر معينة تحددها ، يمكنك إنشاء مربع تحرير وسرد أو قائمة منسدلة للإدخالات الصالحة التي تم تجميعها من خلايا في مكان آخر بورقة العمل. عند إنشاء قائمة منسدلة لخلية ، فإنها تعرض سهمًا بجوار تلك الخلية. لإدخال معلومات في تلك الخلية ، انقر فوق السهم ، ثم انقر فوق الإدخال الذي تريده.
+لتسهيل إدخال البيانات، أو لتقييد الإدخالات إلى بعض العناصر التي تعرفها، يمكنك إنشاء مربع قائمة منسدلة، أو قائمة منسدلة للإدخالات الصحيحة التي تتم تجميعها من خلايا في مكان آخر على ورقة العمل. عند إنشاء قائمة منسدلة لخلية، تظهر سهم بجانب تلك الخلية. لإدخال معلومات في تلك الخلية، انقر على السهم، ثم انقر على الإدخال الذي تريده.
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
-لوضع عنصر تحكم مربع تحرير وسرد في ورقة العمل الخاصة بك ، اتبع الخطوات التالية:
+لوضع عنصر تحكم مربع الجمع في ورقة العمل الخاصة بك، اتبع هذه الخطوات:
 
-1.  تأكد من أن**نماذج** يتم عرض شريط الأدوات.
-1.  اضغط على**صندوق التحرير** أداة.
-1. في منطقة ورقة العمل الخاصة بك ، انقر واسحب لتحديد المستطيل الذي سيحتوي على مربع التحرير والسرد.
-1.  بمجرد وضع مربع التحرير والسرد في ورقة العمل ، انقر بزر الماوس الأيمن فوق عنصر التحكم للنقر**تنسيق التحكم** وحدد نطاق الإدخال.
-1.  في ال**Cell رابط** ، حدد عنوان الخلية التي يجب ربط مربع التحرير والسرد بها.
-1.  انقر فوق**نعم**.
+1. تأكد من عرض شريط الأدوات **النماذج**.
+1. انقر على أداة **مربع الجمع**.
+1. في منطقة ورقة العمل الخاصة بك، انقر واسحب لتعريف المستطيل الذي سيحمل مربع الجمع.
+1. بمجرد أن يتم وضع مربع الجمع في ورقة العمل، انقر بزر الماوس الأيمن على عنصر التحكم ثم انقر على **تنسيق التحكم** وحدد نطاق الإدخال.
+1. في حقل **ارتباط الخلية**، حدد عنوان الخلية التي يجب ربطها بهذا مربع الجمع.
+1. انقر فوق **موافق**.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
- ال[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**AddComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcombobox) ، والذي يستخدم لإضافة عنصر تحكم مربع تحرير وسرد إلى ورقة عمل. تقوم الطريقة بإرجاع ملف[**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) موضوع. الطبقة[**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) يمثل مربع التحرير والسرد. لها بعض الأعضاء المهمين:
+توفر فئة [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) طريقة تحمل اسم [**AddComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcombobox)، والتي تُستخدم لإضافة عنصر تحكم مربع الجمع إلى ورقة العمل. تُعيد الطريقة كائن [**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox). الفئة [**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) تمثل مربع جمع. لديها بعض الأعضاء المهمة:
 
--  ال[**لينكدسل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) تحدد الخاصية خلية مرتبطة بمربع التحرير والسرد.
--  ال[**نطاق الإدخال**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange) تحدد الخاصية نطاق خلايا ورقة العمل المستخدمة لتعبئة مربع التحرير والسرد.
--  ال[**خطوط منسدلة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/dropdownlines) تحدد الخاصية عدد أسطر القائمة المعروضة في الجزء المنسدل من مربع التحرير والسرد.
--  ال[**ظل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/shadow) تشير الخاصية إلى ما إذا كان مربع التحرير والسرد به تظليل ثلاثي الأبعاد.
+- يحدد الخاصية [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) خلية مرتبطة بمربع الجمع.
+- تحدد الخاصية [**InputRange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange) نطاق ورقة العمل للخلايا المستخدمة لملء مربع الجمع.
+- تحدد الخاصية [**DropDownLines**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/dropdownlines) عدد خطوط القائمة المعروضة في الجزء المنسدل لمربع الجمع.
+- تُشير الخاصية [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/shadow) ما إذا كان مربع الجمع له تظليل ثلاثي الأبعاد.
 
-يوضح المثال التالي كيفية إضافة مربع تحرير وسرد إلى ورقة العمل.
+المثال التالي يوضح كيفية إضافة مربع الجمع إلى ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingComboBoxControl-1.cs" >}}
 
-## **إضافة عنصر تحكم التسمية إلى ورقة عمل**
+## **إضافة عنصر تحكم تسمية إلى ورقة العمل**
 
- الملصقات هي وسيلة لمنح المستخدمين معلومات حول محتويات ورقة speadsheet. يتيح Aspose.Cells إضافة ومعالجة التسميات في ورقة العمل. ال[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**AddLabel**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabel) ، تستخدم لإضافة عنصر تحكم تسمية إلى ورقة العمل. تقوم الطريقة بإرجاع ملف[**مُلصَق**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) موضوع. الطبقة[**مُلصَق**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) يمثل تسمية في ورقة العمل. لها بعض الأعضاء المهمين:
+التسميات هي وسيلة لتزويد المستخدمين بمعلومات حول محتويات جدول البيانات. يجعل Aspose.Cells من الممكن إضافة وتلاعب بالتسميات في ورقة العمل. توفر فئة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) طريقة تحمل اسم [**AddLabel**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabel)، تستخدم لإضافة عنصر تحكم تسمية إلى ورقة العمل. تُعيد الطريقة كائن [**Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label). الفئة [**Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) تمثل تسمية في ورقة العمل. لديها بعض الأعضاء المهمة:
 
--  ال[**نص**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) الأسلوب يحدد سلسلة التسمية التوضيحية.
--  ال[**تحديد مستوى**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) تحدد الطريقة[**نوع الموضع**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، طريقة إرفاق التسمية بالخلايا في ورقة العمل.
+- تحدد الطريقة [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) سلسلة تسمية التسمية.
+- تحدد الطريقة [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، الطريقة التي يتم بها تثبيت التسمية على الخلايا في ورقة العمل.
 
-يوضح المثال التالي كيفية إضافة تسمية إلى ورقة العمل.
+المثال التالي يوضح كيفية إضافة تسمية إلى ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingLabelControl-1.cs" >}}
 
-## **إضافة عنصر تحكم مربع قائمة إلى ورقة عمل**
+## **إضافة عنصر تحكم مربع القائمة إلى ورقة العمل**
 
-ينشئ عنصر تحكم مربع القائمة عنصر تحكم قائمة يسمح بتحديد عنصر واحد أو عدة عناصر.
+ينشئ عنصر تحكم مربع القائمة عنصر تحكم يسمح باختيار عنصر واحد أو عدة عناصر.
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
-لوضع عنصر تحكم مربع قائمه في ورقه عمل:
+لوضع عنصر تحكم مربع القائمة في ورقة العمل:
 
-1.  تأكد من أن**نماذج** يتم عرض شريط الأدوات.
-1.  اضغط على**مربع القائمة** أداة.
-1. في منطقة ورقة العمل الخاصة بك ، انقر واسحب لتحديد المستطيل الذي سيحتوي على مربع القائمة.
-1.  بمجرد وضع مربع القائمة في ورقة العمل ، انقر بزر الماوس الأيمن فوق عنصر التحكم للنقر**تنسيق التحكم** وحدد نطاق الإدخال.
-1.  في ال**Cell رابط**، حدد عنوان الخلية التي يجب ربط مربع القائمة هذا بها وقم بتعيين نوع التحديد (فردي ، متعدد ، ممتد)
-1.  انقر**نعم**.
+1. تأكد من عرض شريط الأدوات **النماذج**.
+1. انقر على أداة **مربع القائمة**.
+1. في منطقة ورقة العمل الخاصة بك، انقر واسحب لتعريف المستطيل الذي سيحتوي على مربع القائمة.
+1. بمجرد وضع مربع القائمة في ورقة العمل، انقر بزر الماوس الأيمن على العنصر التحكم للنقر فوق **تنسيق العنصر التحكم** وتحديد نطاق الإدخال.
+1. في حقل **رابط الخلية**، حدد عنوان الخلية التي يجب أن يكون مربع القائمة مرتبطًا بها وتعيين نوع الاختيار (فردي، متعدد، توسيع) السمة
+1. انقر على **موافق**.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
- ال[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**AddListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlistbox) ، والذي يستخدم لإضافة عنصر تحكم مربع قائمة إلى ورقة عمل. تقوم الطريقة بإرجاع ملف[**Aspose.Cells.Drawing.ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox) موضوع. الطبقة[**ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox) يمثل مربع قائمة. لها بعض الأعضاء المهمين:
+توفر فئة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) طريقة تُسمى [**AddListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlistbox)، والتي تُستخدم لإضافة عنصر تحكم مربع قائمة إلى ورقة العمل. تعيد الطريقة كائنًا [**Aspose.Cells.Drawing.ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox). تُمثل الفئة [**ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox) مربع قائمة. لها بعض الأعضاء الهامة:
 
--  ال[**لينكدسل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) الطريقة تحدد خلية مرتبطة بمربع القائمة.
--  ال[**نطاق الإدخال**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange) تحدد الطريقة نطاق خلايا ورقة العمل المستخدمة لملء مربع القائمة.
--  ال[**نوع الاختيار**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/selectiontype)طريقة تحديد وضع التحديد لمربع القائمة.
--  ال[**ظل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/shadow) يشير الأسلوب إلى ما إذا كان مربع القائمة يحتوي على تظليل ثلاثي الأبعاد.
+- تحدد الطريقة [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) خلية مقترنة بمربع القائمة.
+- تحدد الطريقة [**InputRange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange) نطاق ورقة العمل للخلايا المستخدمة لملء مربع القائمة.
+- تحدد الطريقة [**SelectionType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/selectiontype) وضع تحديد مربع القائمة.
+- تُشير الطريقة [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/shadow) ما إذا كان لمربع القائمة تظليل ثلاثي الأبعاد.
 
 يوضح المثال التالي كيفية إضافة مربع قائمة إلى ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingListBoxControl-1.cs" >}}
 
-## **إضافة زر التحكم إلى ورقة عمل**
+## **إضافة عنصر تحكم زر إلى ورقة العمل**
 
-الأزرار مفيدة لأداء بعض الإجراءات. في بعض الأحيان ، يكون من المفيد تعيين VBA Macro للزر أو تعيين ارتباط تشعبي لفتح صفحة ويب.
+الأزرار مفيدة للقيام ببعض الإجراءات. في بعض الأحيان، من المفيد تعيين ماكرو VBA للزر أو تعيين ارتباط تشعبي لفتح صفحة ويب.
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
 لوضع عنصر تحكم زر في ورقة العمل الخاصة بك:
 
-1.  تأكد من أن**نماذج** يتم عرض شريط الأدوات.
-1.  اضغط على**زر** أداة.
-1. في منطقة ورقة العمل الخاصة بك ، انقر واسحب لتحديد المستطيل الذي سيحتفظ بالزر.
-1.  بمجرد وضع مربع القائمة في ورقة العمل ، انقر بزر الماوس الأيمن فوق عنصر التحكم وحدد**تنسيق التحكم**، ثم حدد VBA Macro والسمات ذات الصلة بالخط والمحاذاة والحجم والهامش وما إلى ذلك.
-1.  انقر فوق**نعم**.
+1. تأكد من عرض شريط الأدوات **النماذج**.
+1. انقر على أداة **الزر**.
+1. في منطقة ورقة العمل الخاصة بك، انقر واسحب لتعريف المستطيل الذي سيحتوي على الزر.
+1. بمجرد وضع مربع القائمة في ورقة العمل، انقر بزر الماوس الأيمن على العنصر التحكم واختر **تنسيق العنصر التحكم**، ثم حدد ماكرو VBA وسمات تتعلق بالخط، التوضيب، الحجم، الهامش وما إلى ذلك.
+1. انقر فوق **موافق**.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
- ال[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**AddButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addbutton) ، تستخدم لإضافة عنصر تحكم زر إلى ورقة العمل. تقوم الطريقة بإرجاع ملف[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button) موضوع. الطبقة[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button) يمثل زر. لها بعض الأعضاء المهمين:
+الفئة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر طريقة تسمى [**AddButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addbutton)، تستخدم لإضافة عنصر تحكم زر إلى ورقة العمل. تعيد الطريقة كائن [**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button). الفئة [**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button) تمثل زرًا. لديها بعض الأعضاء الهامة:
 
--  ال[**نص**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) تحدد الخاصية التسمية التوضيحية للزر.
--  ال[**الخط**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font) تحدد الخاصية سمات الخط لتسمية عنصر تحكم الزر.
--  ال[**تحديد مستوى**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) تحدد الخاصية[**نوع الموضع**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، طريقة إرفاق الزر بالخلايا في ورقة العمل.
--  ال[**إضافة ارتباط تشعبي**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink) تضيف الخاصية ارتباطًا تشعبيًا لعنصر التحكم في الزر. سيؤدي النقر فوق الزر إلى الانتقال إلى عنوان URL ذي الصلة.
+- الخاصية [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) تحدد التسمية للزر.
+- الخاصية [**Font**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font) تحدد سمات الخط لتسمية عنصر تحكم الزر.
+- الخاصية [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) تحدد [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، الطريقة التي يتم بها ربط الزر بالخلايا في ورقة العمل.
+- الخاصية [**AddHyperlink**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink) تضيف ارتباطًا تشعبيًا لعنصر تحكم الزر. بالنقر على الزر، سيتم التنقل إلى عنوان URL ذي الصلة.
 
-يوضح المثال التالي كيفية إضافة زر إلى ورقة العمل.
+المثال التالي يوضح كيفية إضافة زر إلى ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingButtonControl-1.cs" >}}
 
 ## **إضافة عنصر تحكم الخط إلى ورقة العمل**
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
-1.  على ال**رسم** شريط الأدوات ، انقر فوق**أشكال تلقائية** ، يشير إلى**خطوط**، وحدد نمط الخط الذي تريده.
+1. على شريط الأدوات **الرسم**، انقر على **أشكال تلقائية**, اشير إلى **الخطوط**, واختر نمط الخط الذي تريده.
 1. اسحب لرسم الخط.
-1. قم بأحد الإجراءين التاليين أو كليهما:
- 1. لتقييد الخط بالرسم بزاوية 15 درجة من نقطة البداية ، اضغط باستمرار على المفتاح SHIFT أثناء السحب.
- 1. لإطالة الخط في اتجاهين متعاكسين من نقطة النهاية الأولى ، اضغط باستمرار على CTRL أثناء السحب.
+1. قم بإحدى الخطوتين أو كليهما:
+   1. لتقييد رسم الخط لزوايا 15 درجة من نقطته الأولى، اضغط باستمرار على SHIFT أثناء السحب.
+   1. لتمديد الخط في اتجاهين معاكسين من نقطة النهاية الأولى، اضغط باستمرار على CTRL أثناء السحب.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
- ال[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**AddLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline) ، والتي تستخدم لإضافة شكل خط إلى ورقة العمل. طريقة إرجاع أ[**شكل خط**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) موضوع. الطبقة[**شكل خط**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) يمثل خط. لها بعض الأعضاء المهمين:
+توفر فئة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) طريقة تسمى [**AddLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)، التي تُستخدم لإضافة شكل خط إلى ورقة العمل. تعيد الطريقة كائن [**LineShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape). الفئة [**LineShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) تمثل خطًا. لديها بعض الأعضاء الهامة:
 
--  ال[**تنسيق الخط**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) تحدد الطريقة تنسيق الخط.
--  ال[**تحديد مستوى**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) تحدد الطريقة[**نوع الموضع**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، طريقة إرفاق الخط بالخلايا في ورقة العمل.
+- تحدد الطريقة [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) تنسيق الخط.
+- تحدد الطريقة [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) الـ [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، الطريقة التي يتم بها ربط الخط بالخلايا في ورقة العمل.
 
-يوضح المثال التالي كيفية إضافة أسطر إلى ورقة العمل. يقوم بإنشاء ثلاثة خطوط بأنماط مختلفة.
+توضح الأمثلة التالية كيفية إضافة خطوط إلى ورقة العمل. يتم إنشاء ثلاث خطوط بأنماط مختلفة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingLineControl-1.cs" >}}
 
 ### **إضافة رأس سهم إلى خط**
 
-يسمح لك Aspose.Cells أيضًا برسم خطوط الأسهم. من الممكن إضافة رأس سهم إلى خط ، وتنسيق الخط. على سبيل المثال ، يمكنك تغيير لون الخط أو تحديد سمك الخط ونمطه.
+تسمح Aspose.Cells أيضًا برسم خطوط سهم. من الممكن إضافة رأس سهم إلى خط وتنسيق الخط. على سبيل المثال، يمكنك تغيير لون الخط أو تحديد وزن ونمط الخط.
 
-يوضح المثال التالي كيفية إضافة رأس سهم إلى خط.
+توضح الأمثلة التالية كيفية إضافة رأس سهم إلى خط.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddinganArrowHead-1.cs" >}}
 
-## **إضافة عنصر تحكم مستطيل إلى ورقة عمل**
+## **إضافة تحكم مستطيل إلى ورقة عمل**
 
-يسمح لك Aspose.Cells برسم أشكال مستطيلة في أوراق العمل الخاصة بك. يمكنك إنشاء مستطيل أو مربع وما إلى ذلك. يُسمح لك أيضًا بتنسيق لون التعبئة ولون خط الحدود لعنصر التحكم. على سبيل المثال ، يمكنك تغيير لون المستطيل وتعيين لون التظليل وتحديد وزن المستطيل ونمطه حسب حاجتك.
+تسمح Aspose.Cells لك برسم أشكال مستطيلة في ورقة عملك. قد تقوم بإنشاء مستطيل، مربع وما إلى ذلك. كما يُسمح لك بتنسيق لون الملء ولون خط الحدود للتحكم. على سبيل المثال، يمكنك تغيير لون المستطيل، تحديد لون التظليل، تحديد وزن ونمط المستطيل حسب احتياجاتك.
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
-1.  على ال**رسم** شريط الأدوات ، انقر فوق**مستطيل**.
+1. في شريط الرسم، انقر فوق **المستطيل**.
 1. اسحب لرسم المستطيل.
-1. قم بأحد الإجراءين التاليين أو كليهما:
- 1. لتقييد المستطيل برسم مربع من نقطة البداية ، اضغط باستمرار على المفتاح SHIFT أثناء السحب.
- 1. لرسم مستطيل من نقطة مركزية ، اضغط باستمرار على CTRL أثناء السحب.
+1. قم بإحدى الخطوتين أو كليهما:
+   1. للقيد في رسم المستطيل لرسم مربع من نقطته البداية، اضغط باستمرار على SHIFT أثناء السحب.
+   1. لرسم مستطيل من نقطة مركزية، اضغط باستمرار على CTRL أثناء السحب.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
- ال[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**إضافة مستطيل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle) ، والتي تستخدم لإضافة شكل مستطيل إلى ورقة العمل. طريقة إرجاع[**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) موضوع. الطبقة[**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) يمثل مستطيلاً. لها بعض الأعضاء المهمين:
+توفر فئة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) طريقة تسمى [**AddRectangle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)، التي تُستخدم لإضافة شكل مستطيل إلى ورقة عمل. تعيد الطريقة كائن [**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape). الفئة [**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) تمثل مستطيلًا. لديها بعض الأعضاء الهامة:
 
--  ال[**تنسيق الخط**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) تحدد الخاصية سمات تنسيق الخط للمستطيل.
--  ال[**تحديد مستوى**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) تحدد الخاصية[**نوع الموضع**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، طريقة إرفاق المستطيل بالخلايا في ورقة العمل.
--  ال[**ملء**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) تحدد الخاصية أنماط تنسيق التعبئة لمستطيل.
+- يحدد الخاصية [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) سمات تنسيق الخط لمستطيل.
+- يحدد الخاصية [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) الـ [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، الطريقة التي يتم بها ربط المستطيل بالخلايا في ورقة العمل.
+- الخاصية [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) تحدد أساليب تنسيق التعبئة الخاصة بمستطيل.
 
-يوضح المثال التالي كيفية إضافة مستطيل إلى ورقة العمل.
+المثال التالي يظهر كيفية إضافة مستطيل إلى ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingRectangleControl-1.cs" >}}
 
-## **إضافة عنصر تحكم القوس إلى ورقة العمل**
+## **إضافة تحكم بالقوس إلى ورقة العمل**
 
-Aspose.Cells يسمح لك برسم أشكال قوس في أوراق العمل الخاصة بك. يمكنك إنشاء أقواس بسيطة ومليئة. يُسمح لك بتنسيق لون التعبئة ولون خط الحدود لعنصر التحكم. على سبيل المثال ، يمكنك تحديد / تغيير لون القوس ، وتعيين لون التظليل ، وتحديد وزن الشكل ونمطه حسب حاجتك.
+تسمح Aspose.Cells لك برسم أشكال القوس في ورقة العمل الخاصة بك. يمكنك إنشاء أقواس بسيطة وممتلئة. يُسمح لك بتنسيق لون التعبئة ولون الخط الحدودي للتحكم. على سبيل المثال، يمكنك تحديد / تغيير لون القوس، تحديد لون الظلال، تحديد الوزن والنمط للشكل حسب احتياجك.
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
-1.  على ال**رسم** شريط الأدوات ، انقر فوق**قوس** في ال**أشكال تلقائية**.
+1. على شريط الأدوات **الرسم**، انقر على **القوس** في **الأشكال التلقائية**.
 1. اسحب لرسم القوس.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
- ال[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**AddArc**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addarc) ، والتي تستخدم لإضافة شكل قوس إلى ورقة العمل. تقوم الطريقة بإرجاع ملف[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) موضوع. الطبقة[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) يمثل القوس. لها بعض الأعضاء المهمين:
+توفر الفئة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) طريقة بعنوان [**AddArc**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addarc)، والتي تُستخدم لإضافة شكل قوس إلى ورقة عمل. تُرجع الطريقة كائنًا من النوع [**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape). تُمثل الفئة [**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) قوسًا. ولها بعض الأعضاء المهمة:
 
--  ال[**تنسيق الخط**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) تحدد الخاصية سمات تنسيق الخط لشكل القوس.
--  ال[**تحديد مستوى**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) تحدد الخاصية[**نوع الموضع**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، الطريقة التي يتم بها ربط القوس بالخلايا في ورقة العمل.
--  ال[**ملء**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)تحدد الخاصية أنماط تنسيق التعبئة للشكل.
--  ال[**LowerRightRow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) تحدد الخاصية فهرس صف الركن الأيمن السفلي.
--  ال[**LowerRightColumn**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) تحدد الخاصية فهرس عمود الركن الأيمن السفلي.
+- الخاصية [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) تحدد سمات تنسيق الخط الخاصة بشكل القوس.
+- الخاصية [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) تحدد [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، الطريقة التي يتم بها إرفاق القوس بالخلايا في ورقة العمل.
+- خاصية [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) تحدد أنماط تنسيق التعبئة للشكل.
+- تحدد خاصية [**LowerRightRow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) مؤشر الصف الأيمن الأدنى.
+- تحدد خاصية [**LowerRightColumn**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) مؤشر العمود الأيمن الأدنى.
 
-يوضح المثال التالي كيفية إضافة أشكال قوس إلى ورقة العمل. ينشئ المثال شكلين قوسين: أحدهما ممتلئ والآخر بسيط.
+المثال التالي يظهر كيفية إضافة أشكال قوسية إلى ورقة العمل. ينشئ المثال شكلين قوسيين: أحدهما ممتلئ والآخر بسيط.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingArcControl-1.cs" >}}
 
-## **إضافة تحكم بيضاوي إلى ورقة عمل**
+## **إضافة تحكم بالشكل البيضوي إلى ورقة عمل**
 
-Aspose.Cells يسمح لك برسم أشكال بيضاوية في أوراق العمل. قم بإنشاء أشكال بيضاوية بسيطة ومعبأة وقم بتنسيق لون التعبئة ولون خط الحدود لعنصر التحكم. على سبيل المثال ، يمكنك تحديد / تغيير لون الشكل البيضاوي ، وتعيين لون التظليل ، وتحديد وزن الشكل ونمطه.
+تسمح Aspose.Cells لك برسم أشكال بيضوية في ورقات العمل. يمكنك إنشاء أشكال بيضوية بسيطة وممتلئة وتنسيق لون التعبئة ولون الخط الحدودي للتحكم. على سبيل المثال، يمكنك تحديد / تغيير لون الشكل البيضوي، تحديد لون الظلال، تحديد الوزن والنمط للشكل حسب احتياجك.
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
--  على ال*رسم* شريط الأدوات ، انقر فوق*بيضاوي*.
-- اسحب لرسم الشكل البيضاوي.
-- قم بأحد الإجراءين التاليين أو كليهما:
-- لتقييد الشكل البيضاوي لرسم دائرة من نقطة البداية ، اضغط باستمرار على المفتاح SHIFT أثناء السحب.
-- لرسم شكل بيضاوي من نقطة مركزية ، اضغط باستمرار على CTRL أثناء السحب.
+- على شريط الأدوات *الرسم*، انقر على *البيضوي*.
+- اسحب لرسم البيضوي.
+- قم بأحد أو كل من الآتي:
+- لتقييد الشكل البيضاوي لرسم دائرة من نقطته البدء، اضغط على مفتاح SHIFT أثناء سحبه.
+- لرسم شكل بيضاوي من نقطة مركزية، اضغط على CTRL أثناء سحبه.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
- ال[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**AddOval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addoval) ، والتي تستخدم لإضافة شكل بيضاوي إلى ورقة العمل. تقوم الطريقة بإرجاع ملف[**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval) موضوع. الطبقة[**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval) يمثل شكل بيضاوي. لها بعض الأعضاء المهمين:
+تقدم فئة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) طريقة تسمى [**AddOval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addoval)، التي تُستخدم لإضافة شكل بيضوي إلى ورقة العمل. تُرجع الطريقة كائن [**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval). الفئة [**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval) تمثل شكل بيضوي. لها بعض الأعضاء الهامة:
 
--  ال[**تنسيق الخط**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) تحدد الخاصية سمات تنسيق الخط للشكل البيضاوي.
--  ال[**تحديد مستوى**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) تحدد الخاصية[**نوع الموضع**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، طريقة إرفاق الشكل البيضاوي بالخلايا في ورقة العمل.
--  ال[**ملء**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)تحدد الخاصية أنماط تنسيق التعبئة للشكل.
--  ال[**LowerRightRow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) تحدد الخاصية فهرس صف الركن الأيمن السفلي.
--  ال[**LowerRightColumn**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) تحدد الخاصية فهرس عمود الركن الأيمن السفلي.
+- تحدد خاصية [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) سمات تنسيق الخط لشكل بيضوي.
+- خاصية [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) تحدد [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)، الطريقة التي يتم فيها تعلق الشكل البيضاوي بالخلايا في ورقة العمل.
+- خاصية [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) تحدد أنماط تنسيق التعبئة للشكل.
+- تحدد خاصية [**LowerRightRow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) مؤشر الصف الأيمن الأدنى.
+- تحدد خاصية [**LowerRightColumn**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) مؤشر العمود الأيمن الأدنى.
 
-يوضح المثال التالي كيفية إضافة أشكال بيضاوية إلى ورقة العمل. ينشئ المثال شكلين بيضاويين: أحدهما مملوء بشكل بيضاوي والآخر عبارة عن دائرة بسيطة.
+المثال التالي يوضح كيفية إضافة أشكال بيضوية إلى ورقة العمل. ينشئ المثال شكلين بيضويين: أحدهما ممتلئ والآخر هو دائرة بسيطة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingOvalControl-1.cs" >}}
 
 ## **إضافة عنصر تحكم Spinner إلى ورقة العمل**
 
- مربع الزيادة والنقصان هو مربع نص مرفق بزر (يسمى زر زيادة ونقصان) يتكون من سهم لأعلى وسهم لأسفل تنقر فوقه لتغيير القيمة في مربع النص بشكل تدريجي. باستخدام مربعات الدوران ، يمكنك أن ترى كيف ستؤدي تغييرات المدخلات في نموذجك المالي إلى تغيير مخرجات النموذج. يمكنك إرفاق زر زيادة ونقصان بخلية إدخال محددة. أثناء النقر فوق السهم لأعلى أو السهم لأسفل على زر زيادة ونقصان ، تزداد قيمة العدد الصحيح في خلية الإدخال المستهدفة أو تنقص.*Aspose.Cells* يسمح لك بإنشاء مغازل في أوراق العمل الخاصة بك.
+مربع الدوران هو مربع نص مرتبط بزر (يسمى زر دوران) يتكون من سهمين لأعلى ولأسفل تنقر فوقهما لتغيير القيمة بشكل تدريجي في مربع النص. يمكنك من خلال استخدام مربعات الدوران أن ترى كيف تؤثر التغييرات في المدخلات على نموذجك المالي على إخراج النموذج. يمكنك ربط زر دوران بخلية مدخل معينة. أثناء النقر على زر الصعود أو النزول على زر الفاصل الزمني، تزداد قيمة العدد الصحيح في الخلية المدخل المستهدفة أو تنقص. *Aspose.Cells* يتيح لك إنشاء مربعات دوران في أوراق العمل الخاصة بك.
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
-لوضع عنصر تحكم في مربع التدوير في ورقة العمل الخاصة بك:
+لوضع عنصر تحكم مربع الدوران في ورقة العمل الخاصة بك:
 
--  تأكد من أن*نماذج* يتم عرض شريط الأدوات.
--  انقر على*سبينر* أداة.
-- في منطقة ورقة العمل الخاصة بك ، انقر واسحب لتحديد المستطيل الذي سيحمل القرص الدوار.
--  بمجرد وضع زر الزيادة والنقصان في ورقة العمل ، انقر بزر الماوس الأيمن فوق عنصر التحكم وانقر*تنسيق التحكم* وتحديد القيم القصوى والدنيا والتزايدية.
--  في ال*Cell رابط* ، حدد عنوان الخلية التي يجب ربط مربع الدوران هذا بها.
--  انقر فوق*نعم*.
+- تأكد من عرض شريط الأدوات *النماذج*.
+- انقر فوق أداة *Spinner*.
+- في منطقة ورقة العمل، انقر واسحب لتحديد المستطيل الذي سيحتوي على عنصر التحكم.
+- بمجرد وضع عنصر التحكم في ورقة العمل، انقر بزر الفأرة الأيمن على العنصر التحكم وانقر على *تنسيق التحكم* وحدد القيم القصوى والصغرى والقيم التزايدية.
+- في حقل *ارتباط الخلية*، حدد عنوان الخلية التي يجب أن يكون مربع الدوران مرتبط بها.
+- انقر فوق *موافق*.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
- ال[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**AddSpinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addspinner)، والذي يستخدم لإضافة عنصر تحكم مربع زيادة ونقصان إلى ورقة العمل. تقوم الطريقة بإرجاع ملف[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner) موضوع. الطبقة[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner) يمثل مربع تدور. لها بعض الأعضاء المهمين:
+فئة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) تُوفر طريقة تسمى [**AddSpinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addspinner)، والتي تُستخدم لإضافة عنصر تحكم مربع دوراني إلى ورقة العمل. تُرجِع الطريقة كائن [**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner). الفئة [**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner) تمثل مربع دوراني. لديها بعض الأعضاء الهامة:
 
--  ال[**لينكدسل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) تحدد الخاصية خلية مرتبطة بصندوق الدوران.
--  ال[**الأعلى**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/max) تحدد الخاصية الحد الأقصى لقيمة نطاق مربع الدوران.
--  ال[**دقيقة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/min) تحدد الخاصية الحد الأدنى لقيمة نطاق مربع الدوران.
--  ال[**تغيير تدريجي**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/incrementalchange) تحدد الخاصية مقدار القيمة التي يتم فيها زيادة زر الزيادة والنقصان لتمرير سطر.
--  ال[**ظل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/shadow) تشير الخاصية إلى ما إذا كان مربع الدوران يحتوي على تظليل ثلاثي الأبعاد.
--  ال[**القيمة الحالية**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/currentvalue) تحدد الخاصية القيمة الحالية لمربع الدوران.
+- يحدد الخاصية [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) الخلية المرتبطة بمربع الدوران.
+- يحدد الخاصية [**Max**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/max) القيمة القصوى لنطاق مربع الدوران.
+- يحدد الخاصية [**Min**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/min) القيمة الدنيا لنطاق مربع الدوران.
+- يحدد الخاصية [**IncrementalChange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/incrementalchange) كمية القيمة التي يتم زيادتها عند التمرير بخطوة واحدة.
+- تشير الخاصية [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/shadow) ما إذا كان مربع الدوران يحتوي على تظليل ثلاثي الأبعاد.
+- يحدد الخاصية [**CurrentValue**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/currentvalue) القيمة الحالية لمربع الدوران.
 
-يوضح المثال التالي كيفية إضافة مربع زيادة ونقصان إلى ورقة العمل.
+المثال التالي يوضح كيفية إضافة مربع دوراني إلى ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingSpinnerControl-1.cs" >}}
 
-## **إضافة عنصر تحكم شريط التمرير إلى ورقة عمل**
+## **إضافة عنصر تحكم شريط التمرير إلى ورقة العمل**
 
-يتم استخدام عنصر تحكم شريط التمرير للمساعدة في تحديد البيانات في ورقة العمل بطريقة مشابهة لعنصر التحكم في مربع الدوران. بإضافة عنصر التحكم إلى ورقة عمل وربطه بخلية ، من الممكن إرجاع قيمة رقمية للموضع الحالي لعنصر التحكم.
+يُستخدم عنصر التحكم بشريط التمرير لمساعدة في تحديد البيانات على ورقة العمل بشكل مماثل لعنصر تحكم مربع الدوران. من خلال إضافة العنصر التحكم إلى ورقة العمل وربطه بخلية، يكون من الممكن العودة بقيمة رقمية للموضع الحالي للعنصر التحكم.
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
-- لإضافة شريط تمرير في Excel 2003 والإصدارات السابقة ، انقر فوق*شريط التمرير* زر على*نماذج* شريط الأدوات ، ثم قم بإنشاء شريط تمرير يغطي الخلايا B2: B6 في الارتفاع ويكون حوالي ربع عرض العمود.
--  لإضافة شريط تمرير في Excel 2007 ، انقر فوق*مطور* علامة التبويب ، انقر فوق*إدراج* ، ثم انقر فوق*شريط التمرير* في قسم ضوابط النموذج.
--  انقر بزر الماوس الأيمن فوق شريط التمرير ، ثم انقر فوق موافق*تنسيق التحكم*.
--  اكتب المعلومات التالية ، وانقر فوق*نعم*:
- - في ال*القيمة الحالية* مربع ، اكتب 1.
- - في ال*الحد الأدنى للقيمة* في المربع ، اكتب 1. تقيد هذه القيمة الجزء العلوي من شريط التمرير بالعنصر الأول في القائمة.
- - في ال*القيمة القصوى* ، اكتب 20. هذا الرقم يحدد الحد الأقصى لعدد الإدخالات في القائمة.
- - في ال*تغيير تدريجي* في المربع ، اكتب 1. تتحكم هذه القيمة في عدد الأرقام التي يزيد فيها عنصر التحكم في شريط التمرير من القيمة الحالية.
- - في ال*تغيير الصفحة* المربع ، اكتب 5. يتحكم هذا الإدخال في مقدار زيادة القيمة الحالية إذا نقرت داخل شريط التمرير على جانبي مربع التمرير.
- لوضع قيمة رقمية في الخلية G1 (بناءً على العنصر المحدد في القائمة) ، اكتب G1 في ملف*Cell رابط* علبة.
-- انقر فوق أي خلية حتى لا يتم تحديد شريط التمرير.
+- لإضافة شريط تمرير في Excel 2003 والإصدارات السابقة، انقر فوق زر *شريط التمرير* على شريط الأدوات *النماذج*، ثم أنشئ شريط تمرير يغطي الخلايا B2:B6 في الارتفاع ويكون بنسبة رُبع عرض العمود.
+- لإضافة شريط تمرير في Excel 2007، انقر فوق علامة *المطور*، ثم انقر على *إدراج*، ومن ثم انقر على *شريط التمرير* في قسم عناصر النماذج.
+- انقر بزر الماوس الأيمن على شريط التمرير، ومن ثم انقر فوق *تنسيق الضبط*.
+- اكتب المعلومات التالية، وانقر فوق *موافق*:
+  - في مربع القيمة الحالية، اكتب 1.
+  - في مربع القيمة الدنيا، اكتب 1. يحدد هذا القيمة الحد الأقصى لشريط التمرير لأول عنصر في القائمة.
+  - في مربع القيمة القصوى، اكتب 20. تُحدد هذه الرقم الحد الأقصى لعدد الإدخالات في القائمة.
+  - في مربع التغيير التدريجي، اكتب 1. تحكم هذه القيمة في كم عدد الأرقام التي يزيد بها تحكم شريط التمرير القيمة الحالية.
+  - في مربع تغيير الصفحة، اكتب 5. تحكم هذا الإدخال في مقدار زيادة القيمة الحالية إذا نقرت داخل شريط التمرير على أي جانب من جوانب المربع التمرير.
+  - لوضع قيمة رقمية في الخلية G1 (تبعًا للعنصر المحدد في القائمة)، اكتب G1 في مربع الرابط الخلوي.
+- انقر فوق أي خلية بحيث لا يتم تحديد شريط التمرير.
 
-عند النقر فوق عنصر التحكم لأعلى أو لأسفل في شريط التمرير ، يتم تحديث الخلية G1 إلى رقم يشير إلى القيمة الحالية لشريط التمرير بالإضافة إلى التغيير المتزايد لشريط التمرير أو طرحه.
+عندما تنقر فوق التحكم بتحريك لأعلى أو لأسفل على شريط التمرير، يتم تحديث الخلية G1 إلى الرقم الذي يشير إلى القيمة الحالية لشريط التمرير بالإضافة إلى أو ناقص تغيير التحكم التدريجي لشريط التمرير.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
- ال[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**AddScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addscrollbar) ، والذي يستخدم لإضافة عنصر تحكم شريط التمرير إلى ورقة العمل. تقوم الطريقة بإرجاع ملف[**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar) موضوع. الطبقة[**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar) يمثل شريط التمرير. لها بعض الأعضاء المهمين:
+يوفر الفصيلة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) طريقة تُدعى [**AddScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addscrollbar)، والتي تُستخدم لإضافة تحكم شريط التمرير إلى ورقة العمل. تُرجع الطريقة كائن [**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar). الفصيلة [**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar) تُمثل تحكم شريط التمرير. لها بعض الأعضاء المهمة:
 
--  ال[**لينكدسل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) تحدد الخاصية خلية مرتبطة بشريط التمرير.
--  ال[**الأعلى**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/max) تحدد الخاصية الحد الأقصى لقيمة نطاق شريط التمرير.
--  ال[**دقيقة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/min) تحدد الخاصية الحد الأدنى لقيمة نطاق شريط التمرير.
--  ال[**تغيير تدريجي**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/incrementalchange) تحدد الخاصية مقدار القيمة التي يتزايد بها شريط التمرير لتمرير سطر.
--  ال[**ظل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/shadow) تشير الخاصية إلى ما إذا كان شريط التمرير به تظليل ثلاثي الأبعاد.
--  ال[**القيمة الحالية**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/currentvalue) تحدد الخاصية القيمة الحالية لشريط التمرير.
--  ال[**تغيير الصفحة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/pagechange)تحدد الخاصية مقدار الزيادة في القيمة الحالية إذا نقرت داخل شريط التمرير على جانبي مربع التمرير.
+- تحدد الخاصية [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) الخلية المرتبطة بشريط التمرير.
+- تحدد الخاصية [**Max**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/max) القيمة القصوى لنطاق شريط التمرير.
+- تحدد الخاصية [**Min**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/min) القيمة الدنيا لنطاق شريط التمرير.
+- تحدد الخاصية [**IncrementalChange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/incrementalchange) مقدار القيمة الذي يتم به زيادة شريط التمرير بتمريرة.
+- توضح الخاصية [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/shadow) ما إذا كان لشريط التمرير تظليل ثلاثي الأبعاد أم لا.
+- تحدد الخاصية [**CurrentValue**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/currentvalue) القيمة الحالية لشريط التمرير.
+- تحدد الخاصية [**PageChange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/pagechange) مقدار زيادة القيمة الحالية إذا نقرت داخل شريط التمرير على أي جانب من جوانب المربع التمرير.
 
-يوضح المثال التالي كيفية إضافة شريط تمرير إلى ورقة العمل.
+المثال التالي يظهر كيفية إضافة شريط تمرير إلى ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingScrollBarControl-1.cs" >}}
 
-## **إضافة عنصر تحكم GroupBox إلى مجموعة عناصر التحكم في ورقة عمل**
+## **إضافة تحكم مجموعة إلى تحكمات المجموعة في ورقة عمل**
 
-في بعض الأحيان تحتاج إلى تنفيذ أزرار الاختيار أو عناصر التحكم الأخرى التي تنتمي إلى مجموعة معينة ، يمكنك تنفيذها عن طريق تضمين إما مربع مجموعة أو عنصر تحكم مستطيل. أي من هذين الكائنين سيكون بمثابة محدد المجموعة. بعد إضافة أحد هذه الأشكال ، يمكنك بعد ذلك إضافة زري اختيار أو أكثر أو كائنات مجموعة أخرى.
+في بعض الأحيان قد تحتاج إلى تنفيذ أزرار الراديو أو تحكمات أخرى تنتمي إلى مجموعة معينة، يمكنك تنفيذ ذلك من خلال تضمين إما مربع مجموعة أو تحكم مستطيل. يمكن لأي من هاتين الشكلين أن يكون محدد المجموعة. بعد إضافة أحد هاتين الشكلين، يمكنك بعد ذلك إضافة اثنين أو أكثر من أزرار الراديو أو أجهزة مجموعة أخرى.
 
-### **باستخدام Microsoft إكسل**
+### **استخدام Microsoft Excel**
 
-لوضع عنصر تحكم مربع المجموعة في ورقة العمل الخاصة بك ووضع عناصر تحكم فيه:
+لوضع تحكم مربع المجموعة في ورقة العمل الخاصة بك ووضع تحكمات فيه:
 
--  لبدء نموذج ، في القائمة الرئيسية ، انقر فوق "نعم"*منظر* ، تليها*أشرطة الأدوات* و*نماذج*.
--  على ال*نماذج* شريط الأدوات ، انقر فوق*صندوق المجموعة* وارسم مستطيلاً على ورقة العمل.
-- اكتب سلسلة تسمية توضيحية للمربع.
--  على ال*نماذج* شريط الأدوات ، انقر فوق*زر الخيارات* وانقر داخل ملف*صندوق المجموعة* فقط تحت سلسلة التسمية التوضيحية.
--  من*نماذج* شريط الأدوات مرة أخرى ، انقر فوق*زر الخيارات* وانقر داخل ملف*صندوق المجموعة*تحت زر الاختيار الأول.
--  مرة أخرى على*نماذج* شريط الأدوات ، انقر فوق*زر الخيارات* وانقر داخل ملف*صندوق المجموعة* تحت زر الاختيار السابق.
+- لبدء النموذج، على القائمة الرئيسية، انقر فوق *عرض*، ثم *شرائط الأدوات*، ثم *نماذج*.
+- في شريط الأدوات *النماذج*، انقر فوق *مربع التجميع* وارسم مستطيلًا على ورقة العمل.
+- اكتب سلسلة تسمية للمربع.
+- في شريط أدوات *النماذج*، انقر فوق *زر الاختيار* وانقر داخل *مربع التجميع* مباشرة تحت سلسلة التسمية.
+- من شريط الأدوات *النماذج* مرة أخرى، انقر *زر الاختيار* وانقر داخل *مربع التجميع* تحت الزر الإشعاري الأول.
+- مرة أخرى على شريط الأدوات *النماذج*، انقر فوق *زر الاختيار* وانقر داخل *مربع التجميع* تحت الزر الإشعاري السابق.
 
-### **باستخدام Aspose.Cells**
+### **استخدام Aspose.Cells**
 
- ال[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) توفر class طريقة تسمى[**AddGroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addgroupbox) ، والذي يستخدم لإضافة عنصر تحكم مربع المجموعة إلى ورقة العمل. تقوم الطريقة بإرجاع ملف[**Aspose.Cells.Drawing.GroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox) موضوع. وعلاوة على ذلك، فإن[**مجموعة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/group) طريقة[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) فئة المجموعات الأشكال ، يستغرق[**شكل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) صفيف كمعامل وإرجاع[**المجموعة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape) موضوع. الطبقة[**Aspose.Cells.Drawing.GroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox) يمثل صندوق المجموعة. لها بعض الأعضاء المهمين:
+توفر فئة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) الأسلوب المسمى [**AddGroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addgroupbox)، والذي يُستخدم لإضافة عنصر تحكم مربع تجميع إلى ورقة العمل. يُرجع الأسلوب كائن [**Aspose.Cells.Drawing.GroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox). علاوة على ذلك، فإن الأسلوب [**Group**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/group) لفئة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) يجمع بين الأشكال، حيث يأخذ مصفوفة [**Shape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) كمعلمة ويُرجع كائن [**GroupShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape). تمثل الفئة [**Aspose.Cells.Drawing.GroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox) مربع تجميع. تحتوي على بعض الأعضاء المهمة:
 
--  ال[**نص**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) تحدد الخاصية سلسلة التسمية التوضيحية لمربع المجموعة.
--  ال[**ظل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox/properties/shadow) تشير الخاصية إلى ما إذا كان مربع المجموعة به تظليل ثلاثي الأبعاد.
+- تحدد الخاصية [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) سلسة تسمية مربع التجميع.
+- تشير الخاصية [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox/properties/shadow) ما إذا كان مربع التجميع لديه تظليل ثلاثي الأبعاد.
 
-يوضح المثال التالي كيفية إضافة مربع مجموعة وتجميع عناصر التحكم في ورقة العمل.
+المثال التالي يُظهر كيفية إضافة مربع تجميع وتجميع عناصر التحكم في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingGroupBoxControl-1.cs" >}}
 
-## **موضوعات مسبقة**
-- [أضف عناصر تحكم ActiveX باستخدام Aspose.Cells](/cells/ar/net/add-activex-controls-using-aspose-cells/)
-- [قم بإزالة عنصر تحكم ActiveX](/cells/ar/net/remove-activex-control/)
+## **مواضيع متقدمة**
+- [إضافة عناصر تحكم ActiveX باستخدام Aspose.Cells](/cells/ar/net/add-activex-controls-using-aspose-cells/)
+- [إزالة عنصر تحكم ActiveX](/cells/ar/net/remove-activex-control/)
 - [تحديث عنصر تحكم ActiveX ComboBox](/cells/ar/net/update-activex-combobox-control/)

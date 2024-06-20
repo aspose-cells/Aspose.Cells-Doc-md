@@ -1,17 +1,18 @@
-﻿---
-title: 計算項目を含むピボット テーブルの更新と計算
+---
+title: ピボットテーブルを更新し計算項目を持つピボットテーブルを更新する
 type: docs
 weight: 40
 url: /ja/net/refresh-and-calculate-pivot-table-having-calculated-items/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells は、計算項目を持つピボット テーブルの更新と計算をサポートするようになりました。をご利用ください[**PivotTable.RefreshData()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/refreshdata)と[**PivotTable.CaclulateData()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/calculatedata)通常どおり、この機能を実行します。
+Aspose.Cellsは今、計算項目を持つピボットテーブルを更新および計算する機能をサポートしています。この機能を実行するには通常通りに[**PivotTable.RefreshData()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/refreshdata)および[**PivotTable.CaclulateData()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/calculatedata)を使用してください。
 
 {{% /alert %}}
 
-## **計算項目を含むピボット テーブルの更新と計算**
+## **計算項目を持つピボットテーブルを更新および計算する**
 
-次のサンプル コードは、[ソースエクセルファイル](5115238.xlsx)「add」、「div」、「div2」などの 3 つの計算項目を持つピボット テーブルが含まれています。最初にセル D2 の値を 20 に変更し、Aspose.Cells API を使用してピボット テーブルを更新して計算し、ワークブックを PDF 形式で保存します。での結果[出力 PDF](5115229.pdf)Aspose.Cells が、計算項目を含むピボット テーブルを更新して計算したことを示しています。 Microsoft Excel を使用してセル D2 に値 20 を手動で入力し、Alt+F5 ショートカット キーを使用してピボット テーブルを更新するか、ピボット テーブルの [更新] ボタンをクリックして確認できます。
+以下のサンプルコードは、"add"、"div"、"div2"などの3つの計算項目を持つピボットテーブルを含む[ソースエクセルファイル](5115238.xlsx)を読み込みます。最初にセルD2の値を20に変更し、Aspose.CellsのAPIを使用してピボットテーブルを更新および計算し、その結果をPDF形式で保存します。[出力PDF](5115229.pdf)の結果で、Aspose.Cellsが計算項目を持つピボットテーブルを成功裏に更新および計算したことが示されています。手動でセルD2に値20を入力し、Alt+F5ショートカットキーを使用するか、ピボットテーブルの更新ボタンをクリックしてMicrosoft Excelで検証できます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-RefreshAndCalculateItems-1.cs" >}}

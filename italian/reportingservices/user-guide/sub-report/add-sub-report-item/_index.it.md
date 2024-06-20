@@ -1,66 +1,67 @@
-﻿---
-title: Aggiungi elemento report secondario
+---
+title: Aggiungi Elemento del Sub Report
 type: docs
 weight: 20
 url: /it/reportingservices/add-sub-report-item/
 ---
-Per aggiungere un elemento del sottoreport:
 
-1. Selezionare la cella che farà riferimento all'elemento del sottoreport.
-1.  Clic**Sottorapporto** (
+Per aggiungere un elemento del sub-report:
 
-![cose da fare:immagine_alt_testo](add-sub-report-item_1.png)
+1. Selezionare la cella che farà riferimento all'elemento del sub-report.
+1. Fare clic su **Sub-Report** (
+
+![todo:image_alt_text](add-sub-report-item_1.png)
 
 ).
- Viene visualizzato il modulo del sottoreport.
+Viene mostrato il modulo del sub-report. 
 
-**Il modulo Sottoreport** 
+**Il modulo SubReport** 
 
-![cose da fare:immagine_alt_testo](add-sub-report-item_2.png)
-
-
+![todo:image_alt_text](add-sub-report-item_2.png)
 
 
-1.  Clic**Aggiungi sottoreport**.
- Viene visualizzato il modulo Recupera rapporto.
-1.  Seleziona un rapporto.
+
+
+1. Fare clic su **Aggiungi Sub-Report**.
+   Viene visualizzato il modulo Recupera Report.
+1. Selezionare un report. 
 
    **Selezione di un rapporto** 
 
-![cose da fare:immagine_alt_testo](add-sub-report-item_3.png)
+![todo:image_alt_text](add-sub-report-item_3.png)
 
 
 
 
-1.  Clic**Chiudere**. 
+1. Fare clic su **Chiudi**. 
 
-   **È stato selezionato un sottoreport** 
+   **È stato selezionato un sub-report** 
 
-![cose da fare:immagine_alt_testo](add-sub-report-item_4.png)
-
-
-
-
-1.  Fare doppio clic sull'elenco dei parametri per visualizzare la finestra di dialogo Modifica formula.
-
-   **La finestra di dialogo Modifica formula** 
-
-![cose da fare:immagine_alt_testo](add-sub-report-item_5.png)
+![todo:image_alt_text](add-sub-report-item_4.png)
 
 
 
 
-1.  Modifica e/o aggiorna il valore di un parametro.
+1. Fare doppio clic sull'elenco dei parametri per mostrare il dialogo Modifica Formula. 
 
-   **Denominazione del sottoreport** 
+   **Il dialogo Modifica Formula** 
 
-![cose da fare:immagine_alt_testo](add-sub-report-item_6.png)
-
-
+![todo:image_alt_text](add-sub-report-item_5.png)
 
 
-1.  Clic**Inserisci sottoreport**. 
 
-   **Il sottoreport inserito in una tabella di report** 
 
-![cose da fare:immagine_alt_testo](add-sub-report-item_7.png)
+1. Modifica e/o aggiorna un valore del parametro. 
+
+   **Dare nome al sotto-report** 
+
+![todo:image_alt_text](add-sub-report-item_6.png)
+
+
+
+
+1. Fare clic su **Inserisci sotto-report**. 
+
+   **Il sotto-report inserito in una tabella di report** 
+
+![todo:image_alt_text](add-sub-report-item_7.png)

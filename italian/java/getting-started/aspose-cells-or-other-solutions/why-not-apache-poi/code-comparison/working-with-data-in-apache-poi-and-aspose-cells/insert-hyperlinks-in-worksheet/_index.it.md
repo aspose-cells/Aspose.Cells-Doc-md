@@ -1,17 +1,18 @@
-﻿---
-title: Inserisci collegamenti ipertestuali nel foglio di lavoro
+---
+title: Inserire Collegamenti IperTestuali nel Foglio di Lavoro
 type: docs
 weight: 20
 url: /it/java/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Inserisci collegamenti ipertestuali nel foglio di lavoro**
-**Aggiunta di un collegamento a un numero Cell nello stesso file**
 
-È possibile aggiungere collegamenti ipertestuali alle celle nello stesso file Excel chiamando il metodo Add della raccolta Hyperlink. Il metodo Add funziona sia per i collegamenti ipertestuali interni che per quelli esterni.
+## **Aspose.Cells - Inserire Collegamenti IperTestuali nel Foglio di Lavoro**
+**Aggiungere un Link a una Cella nello Stesso File**
+
+È possibile aggiungere collegamenti ipertestuali alle celle nello stesso file Excel chiamando il metodo Add della collezione Hyperlink. Il metodo Add funziona sia per collegamenti interni che esterni.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the first worksheet.
 
@@ -48,18 +49,18 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 
 {{< /highlight >}}
 
-**Aggiunta di un collegamento a un file esterno**
+**Aggiungere un Link a un File Esterno**
 
-È possibile aggiungere collegamenti ipertestuali a file Excel esterni chiamando il metodo Add della raccolta Hyperlinks. Il metodo Add accetta i seguenti parametri:
+È possibile aggiungere collegamenti ipertestuali a file Excel esterni chiamando il metodo Add della raccolta Hyperlinks. Il metodo Add richiede i seguenti parametri:
 
-- Cell nome, il nome della cella a cui verrà aggiunto il collegamento ipertestuale.
+- Nome della cella, il nome della cella a cui verrà aggiunto il collegamento ipertestuale.
 - Numero di righe, il numero di righe in questo intervallo di collegamenti ipertestuali.
 - Numero di colonne, il numero di colonne in questo intervallo di collegamenti ipertestuali.
-- URL, l'indirizzo del file Excel esterno di destinazione.
+- URL, l'indirizzo di destinazione, file Excel esterno.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  cell = cells.get("A3");
 
@@ -74,10 +75,10 @@ hyperlinks = sheet.getHyperlinks();
 hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Inserisci collegamenti ipertestuali nel foglio di lavoro**
+## **Apache POI SS - HSSF XSSF - Inserire collegamenti ipertestuali nel foglio di lavoro**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  CellStyle hlink_style = wb.createCellStyle();
 
@@ -159,7 +160,7 @@ cell.setCellStyle(hlink_style);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlink)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlink)
 

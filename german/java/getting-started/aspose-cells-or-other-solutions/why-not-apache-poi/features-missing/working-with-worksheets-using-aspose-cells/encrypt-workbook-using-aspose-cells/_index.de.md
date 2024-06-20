@@ -1,15 +1,16 @@
-﻿---
-title: Verschlüsseln Sie die Arbeitsmappe mit Aspose.Cells
+---
+title: Arbeitsmappe mithilfe von Aspose.Cells verschlüsseln
 type: docs
 weight: 60
 url: /de/java/encrypt-workbook-using-aspose-cells/
 ---
-## **Aspose.Cells – Arbeitsmappe verschlüsseln**
-Das folgende Beispiel zeigt, wie Sie eine Excel-Datei mit der Aspose.Cells API verschlüsseln / mit einem Passwort schützen können.
+
+## **Aspose.Cells - Arbeitsmappe verschlüsseln**
+Das folgende Beispiel zeigt, wie Sie eine Excel-Datei mithilfe der Aspose.Cells-API verschlüsseln/passwortgeschützt machen können.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -32,7 +33,7 @@ workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128)
 workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
@@ -40,6 +41,6 @@ workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Verschlüsseln von Excel-Dateien](/cells/de/java/encrypting-excel-files/).
+Für weitere Details besuchen Sie [Verschlüsselung von Excel-Dateien](/cells/de/java/encrypting-excel-files/).
 
 {{% /alert %}}

@@ -1,13 +1,17 @@
-﻿---
-title: Berechnen Sie benutzerdefinierte Funktionen in GridWeb
+---
+title: Benutzerdefinierte Funktionen in GridWeb berechnen
 type: docs
 weight: 90
-url: /de/net/calculate-custom-functions-in-gridweb/
+url: /de/net/aspose-cells-gridweb/calculate-custom-functions-in-gridweb/
+keywords: GridWeb,custom functions,custom,function
+description: Dieser Artikel stellt Funktionen benutzerdefinierter Funktionen in GridWeb vor.
 ---
-## **Mögliche Nutzungsszenarien**
-Aspose.Cells. GridWeb unterstützt die Berechnung benutzerdefinierter Funktionen mit der Eigenschaft GridWeb.CustomCalculationEngine. Diese Eigenschaft übernimmt die Instanz der GridAbstractCalculationEngine-Schnittstelle. Bitte implementieren Sie die GridAbstractCalculationEngine-Schnittstelle und berechnen Sie Ihre benutzerdefinierten Funktionen mit Ihrer eigenen Logik.
-## **Berechnen Sie benutzerdefinierte Funktionen in GridWeb**
-Der folgende Beispielcode fügt eine benutzerdefinierte Funktion namens MYTESTFUNC() in Zelle B3 hinzu. Dann berechnen wir den Wert dieser Funktion, indem wir die Schnittstelle GridAbstractCalculationEngine implementieren. Wir berechnen MYTESTFUNC() so, dass es seinen Parameter mit 2 multipliziert und das Ergebnis zurückgibt. Wenn sein Parameter also 9 ist, wird 2*9 = 18 zurückgegeben.
+
+
+## **Mögliche Verwendungsszenarien**
+Aspose.Cells.GridWeb unterstützt die Berechnung von benutzerdefinierten Funktionen mit der Eigenschaft GridWeb.CustomCalculationEngine. Diese Eigenschaft nimmt die Instanz des GridAbstractCalculationEngine-Interfaces. Bitte implementieren Sie das GridAbstractCalculationEngine-Interface und berechnen Sie Ihre benutzerdefinierten Funktionen mit Ihrer eigenen Logik.
+## **Berechnen von benutzerdefinierten Funktionen in GridWeb**
+Der folgende Beispielcode fügt eine benutzerdefinierte Funktion mit dem Namen MYTESTFUNC() in Zelle B3 hinzu. Dann berechnen wir den Wert dieser Funktion, indem wir das GridAbstractCalculationEngine-Interface implementieren. Wir berechnen MYTESTFUNC() so, dass es seinen Parameter mit 2 multipliziert und das Ergebnis zurückgibt. Wenn sein Parameter also 9 ist, wird es 2*9 = 18 zurückgeben.
 ### **Beispielcode**
 
 

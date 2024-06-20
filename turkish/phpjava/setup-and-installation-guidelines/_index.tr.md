@@ -1,58 +1,61 @@
-﻿---
-title: Kurulum ve Kurulum Yönergeleri
+---
+title: Kurulum ve Kurulum Kılavuzları
 type: docs
 weight: 20
 url: /tr/php-java/setup-and-installation-guidelines/
-keywords: php, excel, instal
-description: kurulum Aspose.Cells for PHP via Java ve kurulum yönergeleri
+keywords: "php, excel, install"
+description: "Aspose.Cells for PHP via Java ve kurulum kılavuzunu kuruluyor."
 ---
-## **sistem gereksinimleri**
-Aspose.Cells for PHP via Java platformdan bağımsızdır API ve herhangi bir platformda (Windows, Linux, MacOS vb.) kullanılabilir.[PHP](https://www.php.net/downloads.php)7 veya daha büyük sürümler kurulur. Kurulumu kurmadan önce makinede Oracle JDK 7 veya üzeri sürümler bulunmalıdır.
-## **Kurulum ve Kullanım**
-Aspose.Cells for PHP via Java ZIP arşivi olarak dağıtılmaktadır.
 
-Ortamı kurmak, yüklemek ve kullanmak için Aspose.Cells for PHP via Java, talimatları izleyin:
+
+
+## **Sistem Gereksinimleri**
+Aspose.Cells for PHP via Java platform bağımsız bir API'dir ve [PHP](https://www.php.net/downloads.php) 7 veya daha üst sürümlerinin yüklü olduğu herhangi bir platformda (Windows, Linux, MacOS vb.) kullanılabilir. Makinenin Oracle JDK 7 veya daha üst sürümlerine sahip olması kurulumdan önce gereklidir.
+## **Kurulum ve Kullanım**
+Aspose.Cells for PHP via Java ZIP arşivi olarak dağıtılır.
+
+Çevre kurmak, Aspose.Cells for PHP via Java'ü yüklemek ve kullanmak için talimatları izleyin:
 ### **Linux:**
-- İndirmek[PHP](https://www.php.net/downloads.php)kaynak ve yükleyin. Veya ikili php yüklemek için “sudo apt install php-xxx” komutunu kullanın.
-- Linux için Oracle JDK (1.7 veya 1.8) yükleyin, Java_HOME ortam değişkenini yapılandırın.
-- "Aspose.Cells for PHP via Java" API'i indirin/alın ve ayıklayın. "aspose.cells" adında bir klasör olacak.
-- PHP/Java Bridge ikili dosyasını (JavaBridge.jar) http://php-java-bridge.sourceforge.net/pjb/download.php adresinden indirin ve "aspose.cells" klasörüne kaydedin.
-- Java/Java.inc PHP kitaplığını (Java.inc) http://php-java-bridge.sourceforge.net/pjb/download.php adresinden indirin ve "aspose.cells" klasörüne kaydedin.
+- [PHP](https://www.php.net/downloads.php) kaynağını indirin ve kurun. Veya, php ikili dosyasını yüklemek için “sudo apt install php-xxx” komutunu kullanın.
+- Linux için Oracle JDK (1.7 veya 1.8) yükleyin, JAVA_HOME ortam değişkenini yapılandırın.
+- "Aspose.Cells for PHP via Java" API'sini indirin ve çıkartın. "aspose.cells" adında bir klasör bulunacaktır.
+- http://php-java-bridge.sourceforge.net/pjb/download.php adresinden PHP/Java Bridge ikili dosyasını (JavaBridge.jar) indirin ve "aspose.cells" klasörüne kaydedin.
+- http://php-java-bridge.sourceforge.net/pjb/download.php adresinden java/Java.inc PHP kütüphanesini (Java.inc) indirin ve "aspose.cells" klasörüne kaydedin.
 - Aşağıdaki komutla yukarıdaki klasörde “PHP/Java Bridge” çalıştırın.
 
-|$JAVA_HOME/bin/java -Djava.ext.dirs=lib -jar JavaBridge.jar SERVLET_YEREL:8080 >/dev/null 2>&1 &|
-|:- |
-- Örneği aşağıdaki komutla çalıştırmak için "aspose.cells" klasöründeki "example.php" dosyasını çalıştırın:
+|$JAVA_HOME/bin/java -Djava.ext.dirs=lib -jar JavaBridge.jar SERVLET_LOCAL:8080 >/dev/null 2>&1 &|
+| :- |
+- "aspose.cells" klasöründe "example.php"'yi aşağıdaki komutla çalıştırın:
 
-|$ php örneği.php|
-|:- |
+|$ php example.php|
+| :- |
 ### **Windows:**
-- İndirmek[PHP](https://www.php.net/downloads.php)windows ikili dosyasını açın ve PATH'e "php.exe" ekleyin.
-- Windows için Oracle JDK'yi (1.7 veya 1.8) yükleyin ve Java_HOME ortam değişkenini yapılandırın.
-- "Aspose.Cells for PHP via Java" API'i indirin ve çıkartın. "aspose.cells" adında bir klasör olacak.
-- PHP/Java Bridge ikili dosyasını (JavaBridge.jar) http://php-java-bridge.sourceforge.net/pjb/download.php adresinden indirin ve "aspose.cells" klasörüne kaydedin.
-- Java/Java.inc PHP kitaplığını (Java.inc) http://php-java-bridge.sourceforge.net/pjb/download.php adresinden indirin ve "aspose.cells" klasörüne kaydedin.
-- Aşağıdaki komutla yukarıdaki klasörde “PHP/Java Bridge” çalıştırın. Köprü başladığında 8080 http listener portunu seçin ve OK butonuna tıklayın.
+- [PHP](https://www.php.net/downloads.php) Windows ikili dosyasını indirin ve "php.exe" dosyasını PATH'e ekleyin.
+- Windows için Oracle JDK (1.7 veya 1.8) yükleyin ve JAVA_HOME ortam değişkenini yapılandırın.
+- "Aspose.Cells for PHP via Java" API'sını indirin ve çıkarın. "aspose.cells" adında bir klasör olacak.
+- http://php-java-bridge.sourceforge.net/pjb/download.php adresinden PHP/Java Bridge ikili dosyasını (JavaBridge.jar) indirin ve "aspose.cells" klasörüne kaydedin.
+- http://php-java-bridge.sourceforge.net/pjb/download.php adresinden java/Java.inc PHP kütüphanesini (Java.inc) indirin ve "aspose.cells" klasörüne kaydedin.
+- Yukarıdaki klasörde aşağıdaki komutla "PHP/Java Bridge"'i çalıştırın. Köprü başladığında 8080 http dinleyici bağlantı noktasını seçin ve Tamam düğmesine tıklayın.
 
 |> %JAVA_HOME%/bin/java -Djava.ext.dirs=lib -jar JavaBridge.jar|
-|:- |
-- Örneği aşağıdaki komutla çalıştırmak için "aspose.cells" klasöründeki "example.php" dosyasını çalıştırın:
+| :- |
+- "aspose.cells" klasöründe "example.php"'yi aşağıdaki komutla çalıştırın:
 
-|> php örneği.php|
-|:- |
+|> php example.php|
+| :- |
 ### **Mac:**
-- Düzenlemek[PHP](https://www.php.net/downloads.php).
-- Mac için Oracle JDK (1.7 veya 1.8) kurun, Java_HOME ortam değişkenini yapılandırın.
-- "Aspose.Cells for PHP via Java" API'i indirin ve çıkartın. "aspose.cells" adında bir klasör olacak.
-- PHP/Java Bridge ikili dosyasını (JavaBridge.jar) http://php-java-bridge.sourceforge.net/pjb/download.php adresinden indirin ve "aspose.cells" klasörüne kaydedin.
-- Java/Java.inc PHP kitaplığını (Java.inc) http://php-java-bridge.sourceforge.net/pjb/download.php adresinden indirin ve "aspose.cells" klasörüne kaydedin.
-- Aşağıdaki komutla yukarıdaki klasörde “PHP/Java Bridge” çalıştırın. Köprü başladığında 8080 http listener portunu seçin ve OK butonuna tıklayın.
+- [PHP](https://www.php.net/downloads.php) yükleyin.
+- Mac için Oracle JDK (1.7 veya 1.8) yükleyin ve JAVA_HOME ortam değişkenini yapılandırın.
+- "Aspose.Cells for PHP via Java" API'sını indirin ve çıkarın. "aspose.cells" adında bir klasör olacak.
+- http://php-java-bridge.sourceforge.net/pjb/download.php adresinden PHP/Java Bridge ikili dosyasını (JavaBridge.jar) indirin ve "aspose.cells" klasörüne kaydedin.
+- http://php-java-bridge.sourceforge.net/pjb/download.php adresinden java/Java.inc PHP kütüphanesini (Java.inc) indirin ve "aspose.cells" klasörüne kaydedin.
+- Yukarıdaki klasörde aşağıdaki komutla "PHP/Java Bridge"'i çalıştırın. Köprü başladığında 8080 http dinleyici bağlantı noktasını seçin ve Tamam düğmesine tıklayın.
 
-|$$JAVA_HOME/bin/java -Djava.ext.dirs=lib -jar JavaBridge.jar|
-|:- |
-- Örneği aşağıdaki komutla çalıştırmak için "aspose.cells" klasöründeki "example.php" dosyasını çalıştırın:
+|$ $JAVA_HOME/bin/java -Djava.ext.dirs=lib -jar JavaBridge.jar|
+| :- |
+- "aspose.cells" klasöründe "example.php"'yi aşağıdaki komutla çalıştırın:
 
-|$ php örneği.php|
-|:- |
+|$ php example.php|
+| :- |
 
 

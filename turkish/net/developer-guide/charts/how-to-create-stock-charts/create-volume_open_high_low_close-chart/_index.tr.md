@@ -1,20 +1,21 @@
 ---
-title: Hacim-Açık-Yüksek-Düşük-Kapanış(VOHLC) Hisse Senedi Grafiği Oluştur
-description: Aspose.Cells for .NET numaralı telefonu kullanarak hacim-açılış-yüksek-düşük-kapanış hisse senedi grafiğini nasıl oluşturacağınızı öğrenin. Kılavuzumuz, daha iyi analiz için hacim, açılış, en yüksek, en düşük ve kapanış fiyatları da dahil olmak üzere borsa verilerinin bir grafiğe nasıl çizileceğini gösterecektir. ve görselleştirme.
-keywords: Aspose.Cells for .NET, Volume-Open-High-Low-Close Stock Chart, Stock Market Data, Analysis, Visualization.
+title: Hacim Açılış Yüksek Düşük Kapanış (VAYDK) Hisse Senedi Grafiği Oluşturma
+description: Aspose.Cells for .NET kullanarak hacim açılış yüksek düşük kapanış hisse senedi grafiği nasıl oluşturulur öğrenin. Kılavuzumuz, hisse senedi piyasası verilerini, hacmi, açılışı, yükseği, düşüğü ve kapanış fiyatlarını grafik üzerine çizmek için daha iyi analiz ve görselleştirme yapmanın nasıl olduğunu gösterecektir.
+keywords: Aspose.Cells for .NET, Hacim Açılış Yüksek Düşük Kapanış Hisse Senedi Grafiği, Hisse Senedi Piyasa Verileri, Analiz, Görselleştirme.
 type: docs
 weight: 184
 url: /tr/net/create-volume-open-high-low-close-stock-chart/
 ---
-##  **Olası Kullanım Senaryoları**
-Bakacağımız dördüncü hisse senedi grafiği Hacim Açık Yüksek Düşük Kapanış grafiğidir. Verilerin doğru sırada olması gerektiğini bir kez daha tekrarlamak önemlidir. Veri tablonuzu yeniden düzenlemeniz gerekiyorsa bunu grafiğinizi oluşturmadan önce yapmalısınız.
-Bu grafik, ilk (kategori) sütunun hemen ardından hacim için bir sütun içerir ve grafikler, ana eksende bu hacmi gösteren bir sütun grafiği içerir, fiyatlar ise ikincil eksene taşınır.
 
-![yapılacak şey:image_alt_text](data.png)
-##  **Hacim-Açık-Yüksek-Düşük-Kapanış (VHLC) hisse senedi grafiği**
+## **Olası Kullanım Senaryoları**
+Üçüncü hisse senedi grafiği, Hacim Açılış Yüksek Düşük Kapanış grafiğidir. Tekrar etmek önemlidir, verilerin doğru sıraya sahip olması gerektiğini tekrarlamak önemlidir. Veri tablonuzu yeniden düzenlemeniz gerekiyorsa, grafiğinizi kurmadan önce bunu yapmalısınız.
+Bu grafik, ilk (kategori) sütunun hemen ardından bir hacim sütunu içerir ve grafikler, bu hacmi gösteren birincil eksende bir sütun grafiği içerirken fiyatlar ikincil eksene taşınır.
 
-![yapılacak şey:image_alt_text](sample.png)
-##  **Basit kod**
- Aşağıdaki örnek kod,[örnek Excel dosyası](Volume-Open-High-Low-Close.xlsx) ve üretir[Excel dosyasının çıktısı](out.xlsx).
+![todo:image_alt_text](data.png)
+## **Hacim-Açılış-Yüksek-Düşük-Kapanış (VAYDK) hisse senedi grafiği**
+
+![todo:image_alt_text](sample.png)
+## **Örnek Kod**
+Aşağıdaki örnek kod, [örnek Excel dosyasını](Volume-Open-High-Low-Close.xlsx) yükler ve [çıktı Excel dosyasını](out.xlsx) oluşturur.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-volume-open-high-low-close-stock-chart.cs" >}}

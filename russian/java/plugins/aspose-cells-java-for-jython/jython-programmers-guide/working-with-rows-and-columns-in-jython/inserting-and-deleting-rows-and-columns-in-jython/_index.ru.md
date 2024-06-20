@@ -1,15 +1,16 @@
-﻿---
+---
 title: Вставка и удаление строк и столбцов в Jython
 type: docs
 weight: 60
 url: /ru/java/inserting-and-deleting-rows-and-columns-in-jython/
 ---
+
 ## **Aspose.Cells - Вставка и удаление строк и столбцов**
- Для добавления документов с помощью**Aspose.Cells Java для Jython**. Здесь вы можете увидеть пример кода.
+Для добавления документов с помощью **Aspose.Cells Java для Jython**. Здесь вы можете увидеть примерный код.
 
 **Код Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -281,7 +282,7 @@ if __name__ == '__main__':
     RowsAndColumns()
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Добавить документы (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Append Documents (Aspose.Cells)** c любого из упомянутых ниже социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

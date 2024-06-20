@@ -2,65 +2,66 @@
 title: ピボットテーブルの書式設定
 type: docs
 weight: 10
-url: /ja/net/formatting-pivot-table/
-description: Aspose.Cells for Python via .NET でピボット テーブルを書式設定する方法。
-keywords: Format pivot table.
+url: /ja/python-net/formatting-pivot-table/
+description: Aspose.Cells for Python via .NETでピボットテーブルの書式設定方法
+keywords: ピボットテーブルのフォーマット。
 ---
-##  **ピボットテーブルの外観**
 
-ピボット テーブルの作成方法では、簡単なピボット テーブルを作成する方法について説明します。この記事では、さまざまなプロパティを設定してピボット テーブルの外観をカスタマイズする方法について説明します。
+## **ピボットテーブルの外観**
 
-- ピボットテーブル形式のオプション
-- ピボットフィールドの形式オプション
-- データフィールド形式のオプション
+ピボットテーブルの外観をカスタマイズする方法については、「ピボットテーブルの作成」でシンプルなピボットテーブルの作成方法が説明されています。この記事では、さまざまなプロパティを設定してピボットテーブルの外観をカスタマイズする方法について説明します:
 
-###  **ピボットテーブル形式オプションの設定**
+- ピボットテーブルの書式オプション
+- ピボットフィールドの書式オプション
+- データフィールドの書式オプション
 
-の[**ピボットテーブル**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/)クラスはピボット テーブル全体を制御し、さまざまな方法でフォーマットできます。
+### **ピボットテーブルフォーマットオプションの設定方法**
 
-####  **オートフォーマットタイプの設定**
+[**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/) クラスは、全体のピボットテーブルを制御し、さまざまな方法で書式設定できます。
 
-Microsoft Excel には、さまざまな事前設定されたレポート形式が用意されています。 Aspose.Cells for Python via .NET は、これらの書式設定オプションもサポートしています。アクセスするには:
+#### **自動フォーマットタイプの設定方法**
 
-1. セット[**PivotTable.is_auto_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_auto_format/)*本当**に。
-1. から書式設定オプションを割り当てます。[**ピボットテーブルのオートフォーマットの種類**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottableautoformattype/)列挙。
+Microsoft Excelにはさまざまなプリセットのレポートフォーマットがあります。Aspose.Cells for Python via .NETもこれらの書式設定オプションをサポートしています。アクセスするためには:
+
+1. [**PivotTable.is_auto_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_auto_format/) を **true** に設定します。
+1. [**PivotTableAutoFormatType**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottableautoformattype/) 列挙型から書式設定オプションを割り当てます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingAutoFormat-1.py" >}}
 
-####  **フォーマットオプションの設定**
+#### **フォーマットオプションの設定方法**
 
-以下のコード サンプルは、行と列の総計を表示するためにピボット テーブルを書式設定する方法と、レポートのフィールド順序を設定する方法を示しています。また、顧客文字列を NULL 値に設定する方法も示します。
+以下のコードサンプルは、ピボットテーブルを書式設定して行と列の合計を表示する方法、およびレポートのフィールド順序を設定する方法を示しています。また、null 値にカスタム文字列を設定する方法も示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingFormatOptions-1.py" >}}
 
-####  **ルック アンド フィールを手動で書式設定する**
+#### **見た目と手触りの書式設定**
 
-ピボット テーブル レポートの外観を手動で書式設定するには、事前設定されたレポート形式を使用する代わりに、[**PivotTable.format_all(スタイル)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/)そして[**PivotTable.format(行、列、スタイル)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/)メソッド。希望する書式設定のスタイル オブジェクトを作成します。次に例を示します。
+事前設定されたレポート形式を使用せずに、ピボットテーブルレポートの外観を手動でフォーマットする場合、[**PivotTable.format_all(style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) メソッドと [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/) メソッドを使用します。所望のフォーマットのためのスタイルオブジェクトを作成します。たとえば：
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-FormattingLook-1.py" >}}
 
-###  **ピボットフィールド形式オプションの設定**
+### **ピボットフィールドのフォーマットオプションの設定方法**
 
-の[**ピボットフィールド**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/)クラスはピボット テーブル内のフィールドを表し、さまざまな方法で書式設定できます。以下のコードサンプルは、次の方法を示しています。
+[**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/) クラスは、ピボットテーブルのフィールドを表し、さまざまな方法で書式設定できます。以下のコードサンプルは、次のように行います:
 
-- 行フィールドにアクセスします。
+- 行フィールドへのアクセス。
 - 小計の設定。
 - 自動並べ替えの設定。
 - 自動表示の設定。
 
-####  **行/列/ページフィールドの形式の設定**
+#### **行/列/ページフィールドのフォーマット設定方法**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingPageFieldFormat-1.py" >}}
 
-###  **データフィールド形式の設定**
+### **データフィールドのフォーマット設定方法**
 
 以下のコードサンプルは、データフィールドの表示形式と数値形式を設定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingDataFieldFormat-1.py" >}}
 
-###  **ピボットフィールドのクリア**
+### **ピボットフィールドをクリアする方法**
 
-の[**ピボットフィールドコレクション**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/)という名前のメソッドがあります[**clear()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#)これにより、ピボット フィールドをクリアできるようになります。ページ、列、行、データなどの領域内のすべてのピボット フィールドをクリアする場合に使用します。
-以下のコード サンプルは、データ領域内のすべてのピボット フィールドをクリアする方法を示しています。
+[**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/) には、ピボットフィールドをクリアするための [**clear()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#) メソッドがあります。たとえば、ページ、列、行、またはデータなど、領域内のすべてのピボットフィールドをクリアしたい場合に使用します。
+以下のコードサンプルは、データ領域内のすべてのピボットフィールドをクリアする方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}

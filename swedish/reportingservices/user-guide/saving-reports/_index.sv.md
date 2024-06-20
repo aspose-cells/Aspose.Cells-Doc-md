@@ -1,12 +1,13 @@
-﻿---
+---
 title: Spara rapporter
 type: docs
 weight: 80
 url: /sv/reportingservices/saving-reports/
 ---
+
 {{% alert color="primary" %}} 
 
- Klicka på för att spara en rapport**Spara rapport** verktygsfältet Aspose.Cells.Report.Designer (
+För att spara en rapport, klicka på **Spara rapport** i Aspose.Cells.Report.Designer-verktygsfältet (
 
 ![todo:image_alt_text](saving-reports_1.png)
 

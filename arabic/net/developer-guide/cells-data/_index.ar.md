@@ -1,86 +1,87 @@
 ---
-title: إدارة بيانات ملفات Excel
-linktitle: Cells بيانات
+title: إدارة بيانات ملفات إكسل
+linktitle: بيانات الخلايا
 type: docs
 weight: 110
 url: /ar/net/view-and-edit-excel-data/
-description: توضح هذه المقالة كيفية عرض وتحرير بيانات ملفات Excel باستخدام مكتبة Aspose.Cells.
-keywords: Aspose.Cells C# Manage data of Excel file, add data to Excel file, get data from excel file, How to Improve Efficiency of adding data, manage cells data, update cells data, get cells data, insert cells data
+description: يصف هذا المقال كيفية عرض وتحرير بيانات ملفات Excel باستخدام مكتبة Aspose.Cells.
+keywords: Aspose.Cells C# إدارة بيانات ملف Excel، إضافة بيانات إلى ملف Excel، الحصول على بيانات من ملف Excel، كيفية تحسين كفاءة إضافة البيانات، إدارة بيانات الخلايا، تحديث بيانات الخلايا، الحصول على بيانات الخلايا، إدراج بيانات الخلايا
 ---
+
 {{% alert color="primary" %}}
 
- في[الوصول إلى Cells من ورقة العمل](/cells/ar/net/accessing-cells-of-a-worksheet/)ناقشنا الأساليب الأساسية للوصول إلى الخلايا في ورقة العمل. تستخدم هذه المقالة أحد هذه الطرق لإضافة أنواع مختلفة من البيانات إلى الخلايا.
+في [الوصول إلى الخلايا في ورق العمل](/cells/ar/net/accessing-cells-of-a-worksheet/)، ناقشنا الطرق الأساسية للوصول إلى الخلايا في ورقة العمل. يستخدم هذا المقال إحدى تلك الطرق لإضافة أنواع مختلفة من البيانات إلى الخلايا.
 
 {{% /alert %}}
 
-##  **كيفية إضافة البيانات إلى Cells**
+## **كيفية إضافة بيانات إلى الخلايا**
 
- Aspose.Cells يوفر فئة،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يحتوي الفصل على أ[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) المجموعة التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فصل. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) يوفر الفصل أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة. كل عنصر في[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) تمثل المجموعة كائنًا من[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)فصل.
+توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، التي تمثل ملف Microsoft Excel. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. تمثل ورقة العمل بالفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). يمثل كل عنصر في مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) كائنًا من الفئة [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
- Aspose.Cells يسمح للمطورين بإضافة بيانات إلى الخلايا في أوراق العمل عن طريق استدعاء[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)فصل'[**ضع القيمة**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) طريقة. Aspose.Cells يوفر إصدارات مثقلة من[**ضع القيمة**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) طريقة تتيح للمطورين إضافة أنواع مختلفة من البيانات إلى الخلايا. باستخدام هذه الإصدارات المحملة بشكل زائد من[**ضع القيمة**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)الطريقة، من الممكن إضافة قيم منطقية، أو سلسلة، أو مزدوجة، أو عدد صحيح، أو تاريخ/وقت، وما إلى ذلك إلى الخلية.
+تسمح Aspose.Cells للمطورين بإضافة بيانات إلى الخلايا في ورقات العمل عن طريق استدعاء طريقة [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) لفئة [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell). توفر Aspose.Cells إصدارات متعددة من الطريقة [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) التي تتيح للمطورين إضافة أنواع مختلفة من البيانات إلى الخلايا. باستخدام هذه الإصدارات المتعددة للطريقة [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)، يمكن إضافة قيم بوليانية، نصية، مزدوجة، صحيحة أو تاريخ / وقت،إلى الخلية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
-##  **كيفية تحسين الكفاءة**
+## **كيفية تحسين الكفاءة**
 
- إذا كنت تستخدم[**ضع القيمة**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)لإضافة كمية كبيرة من البيانات إلى ورقة العمل، يجب عليك إضافة قيم إلى الخلايا، أولاً حسب الصفوف ثم حسب الأعمدة. يعمل هذا الأسلوب على تحسين كفاءة تطبيقاتك بشكل كبير.
+إذا استخدمت الطريقة [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) لوضع كمية كبيرة من البيانات في ورقة عمل، يجب أولاً إضافة القيم إلى الخلايا حسب الصفوف ثم حسب الأعمدة. هذا النهج يحسن بشكل كبير كفاءة تطبيقاتك.
 
-##  **كيفية استرجاع البيانات من Cells**
+## **كيفية استرداد البيانات من الخلايا**
 
- Aspose.Cells يوفر فئة،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) الذي يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يحتوي الفصل على أ[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) المجموعة التي تسمح بالوصول إلى أوراق العمل الموجودة في الملف. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فصل. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) يوفر الفصل أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة. كل عنصر في[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) تمثل المجموعة كائنًا من[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)فصل.
+توفر Aspose.Cells فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) التي تمثل ملف Microsoft Excel. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) التي تسمح بالوصول إلى أوراق العمل في الملف. تمثل ورقة العمل بالفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). كل عنصر في مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) يمثل كائنًا من الفئة [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
- ال[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)يوفر class العديد من الخصائص التي تسمح للمطورين باسترداد القيم من الخلايا وفقًا لأنواع البيانات الخاصة بهم. تشمل هذه الخصائص:
+توفر الفئة [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) خصائصًا عدة تسمح للمطورين باسترداد القيم من الخلايا وفقًا لأنواع بياناتها. تتضمن هذه الخصائص:
 
-- [**قيمة السلسلة**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue): تقوم بإرجاع قيمة السلسلة للخلية.
-- [**قيمة مزدوجة**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): إرجاع القيمة المزدوجة للخلية.
-- [**قيمة منطقية**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/boolvalue): إرجاع القيمة المنطقية للخلية.
-- [**قيمة التاريخ والوقت**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/datetimevalue): إرجاع قيمة التاريخ/الوقت للخلية.
-- [**القيمة العائمة**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue): إرجاع القيمة العائمة للخلية.
-- [**قيمة دولية**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/intvalue): إرجاع القيمة الصحيحة للخلية.
+- [**StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue): يعيد قيمة السلسلة للخلية.
+- [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): يعيد قيمة مزدوجة للخلية.
+- [**BoolValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/boolvalue): يعيد قيمة Boolean للخلية.
+- [**DateTimeValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/datetimevalue): يعيد قيمة تاريخ / وقت للخلية.
+- [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue): يعيد قيمة عائمة للخلية.
+- [**IntValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/intvalue): يعيد قيمة العدد الصحيح للخلية.
 
- عندما لا يتم ملء الحقل، يتم استخدام الخلايا[**قيمة مزدوجة**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) أو[**القيمة العائمة**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)يلقي استثناء.
+عندما لا يتم ملؤها، تثير الخلايا مع [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) أو [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue) استثناء.
 
- يمكن أيضًا التحقق من نوع البيانات الموجودة في الخلية باستخدام[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)فصل'[**يكتب**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) ملكية. في الواقع، فإن[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)فصل'[**يكتب**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) الملكية مبنية على[**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)التعداد الذي تم إدراج قيمه المحددة مسبقًا أدناه:
+يمكن أيضًا فحص نوع البيانات الموجود في خلية باستخدام خاصية [**Type**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) لفئة [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) . في الواقع، تعتمد خاصية [**Type**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) لفئة [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) على تعداد [**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype) والذي تم سرده أسفله:
 
-|**Cell أنواع القيمة**|**وصف**|
+|**أنواع قيم الخلية**|**الوصف**|
 | :- | :- |
-|IsBool|يحدد أن قيمة الخلية هي منطقية.|
-|IsDateTime|يحدد أن قيمة الخلية هي التاريخ/الوقت.|
-|باطل|يمثل خلية فارغة.|
-|IsNumeric|يحدد أن قيمة الخلية رقمية.|
-|IsString|يحدد أن قيمة الخلية هي سلسلة.|
-|غير معروف|يحدد أن قيمة الخلية غير معروفة.|
+|IsBool| يحدد أن قيمة الخلية هي بولية.
+|IsDateTime| يحدد أن قيمة الخلية هي تاريخ/وقت.
+|IsNull| تمثل خلية فارغة.
+|IsNumeric| يحدد أن قيمة الخلية هي رقمية.
+|IsString| يحدد أن قيمة الخلية هي نصية.
+|IsUnknown| يحدد أن قيمة الخلية غير معروفة.
 
-يمكنك أيضًا استخدام أنواع قيم الخلايا المحددة مسبقًا أعلاه للمقارنة مع نوع البيانات الموجودة في كل خلية.
+يمكنك أيضًا استخدام أنواع قيم الخلية المحددة مسبقًا أعلاه للمقارنة مع نوع البيانات الحاضرة في كل خلية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-RetrievingDataFromCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-أثناء العمل على أوراق العمل، يمكن للمستخدمين إضافة أنواع مختلفة من البيانات في الخلايا. قد تتضمن أنواع البيانات هذه قيمًا منطقية، أو عددًا صحيحًا، أو نقطة عائمة، أو نصًا، أو قيمًا للتاريخ/الوقت. مع Aspose.Cells يمكنك الحصول على القيم المناسبة من الخلايا حسب أنواع البيانات الخاصة بها.
+أثناء العمل على أوراق العمل، قد يضيف المستخدمون أنواعًا مختلفة من البيانات في الخلايا. يمكن أن تشمل هذه الأنواع البيانية بولية وأعدادية ونقطية عائمة ونصية وقيم التاريخ/الوقت. باستخدام Aspose.Cells، يمكنك الحصول على القيم المناسبة من الخلايا وفقًا لأنواعها.
 
 {{% /alert %}}
 
-##  **مواضيع متقدمة**
-- [الوصول إلى Cells من ورقة العمل](/cells/ar/net/accessing-cells-of-a-worksheet/)
-- [تحويل البيانات الرقمية النصية إلى رقم](/cells/ar/net/convert-text-numeric-data-to-number/)
-- [إنشاء الإجماليات الفرعية](/cells/ar/net/creating-subtotals/)
+## **مواضيع متقدمة**
+- [الوصول إلى الخلايا في ورقة العمل](/cells/ar/net/accessing-cells-of-a-worksheet/)
+- [تحويل بيانات النص الرقمية إلى رقم](/cells/ar/net/convert-text-numeric-data-to-number/)
+- [إنشاء المجاميع الفرعية](/cells/ar/net/creating-subtotals/)
 - [تصفية البيانات](/cells/ar/net/data-filtering/)
 - [فرز البيانات](/cells/ar/net/sort-data-of-excel/)
-- [تأكيد صحة البيانات](/cells/ar/net/data-validation/)
+- [التحقق من البيانات](/cells/ar/net/data-validation/)
 - [تصدير البيانات من ورقة العمل](/cells/ar/net/export-data-from-worksheet/)
-- [البحث عن البيانات أو البحث عنها](/cells/ar/net/find-or-search-data/)
-- [احصل على قيمة سلسلة Cell مع التنسيق وبدونه](/cells/ar/net/get-cell-string-value-with-and-without-formatting/)
-- [إضافة HTML نص منسق داخل Cell](/cells/ar/net/adding-html-rich-text-inside-the-cell/)
-- [إدراج الارتباطات التشعبية في Excel أو OpenOffice](/cells/ar/net/insert-hyperlinks-to-excel/)
+- [العثور على البيانات أو البحث](/cells/ar/net/find-or-search-data/)
+- [الحصول على قيمة سلسلة الخلية بتنسيق وبدون تنسيق](/cells/ar/net/get-cell-string-value-with-and-without-formatting/)
+- [إضافة نص فائق النص الغني HTML داخل الخلية](/cells/ar/net/adding-html-rich-text-inside-the-cell/)
+- [إدراج الروابط التشعبية في إكسل أو أوبن أوفيس](/cells/ar/net/insert-hyperlinks-to-excel/)
 - [استيراد البيانات إلى ورقة العمل](/cells/ar/net/import-data-into-worksheet/)
-- [كيف وأين يتم استخدام العدادين](/cells/ar/net/how-and-where-to-use-enumerators/)
-- [قم بقياس العرض والارتفاع لقيمة Cell بوحدة البكسل](/cells/ar/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)
-- [قراءة Cell القيم في مواضيع متعددة في وقت واحد](/cells/ar/net/reading-cell-values-in-multiple-threads-simultaneously/)
+- [كيفية استخدام العدادات وأين استخدامها](/cells/ar/net/how-and-where-to-use-enumerators/)
+- [قياس عرض وارتفاع قيمة الخلية بوحدة البكسل](/cells/ar/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)
+- [قراءة قيم الخلية في مواضيع متعددة بشكل متزامن](/cells/ar/net/reading-cell-values-in-multiple-threads-simultaneously/)
 - [التحويل بين اسم الخلية وفهرس الصف/العمود](/cells/ar/net/names-and-indices/)
-- [تعبئة البيانات أولاً حسب الصف ثم حسب العمود](/cells/ar/net/populate-data-first-by-row-then-by-column/)
-- [احتفظ ببادئة الاقتباس المفردة ذات القيمة أو النطاق Cell](/cells/ar/net/preserve-single-quote-prefix-of-cell-value-or-range/)
-- [الوصول إلى أجزاء النص المنسق لـ Cell وتحديثها](/cells/ar/net/access-and-update-the-portions-of-rich-text-of-cell/)
+- [ملء البيانات أولاً حسب الصف ثم حسب العمود](/cells/ar/net/populate-data-first-by-row-then-by-column/)
+- [الحفاظ على بادئة اقتباس واحدة لقيمة الخلية أو النطاق](/cells/ar/net/preserve-single-quote-prefix-of-cell-value-or-range/)
+- [الوصول إلى وتحديث أجزاء النص الغني للخلية](/cells/ar/net/access-and-update-the-portions-of-rich-text-of-cell/)
 
 
 

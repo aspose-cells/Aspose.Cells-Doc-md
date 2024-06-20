@@ -1,14 +1,15 @@
-﻿---
-title: Sprid formel i tabell eller listobjekt automatiskt medan du anger data i nya rader
-linktitle: Ställer tabellformel
+---
+title: Sprid formel i tabell eller listobjekt automatiskt när du matar in data i nya rader
+linktitle: Ställer in tabellformel
 type: docs
 weight: 260
 url: /sv/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/
 ---
-## **Möjliga användningsscenarier**
- Ibland vill du att en formel i din tabell eller listobjekt automatiskt ska spridas till nya rader samtidigt som ny data skrivs in. Detta är standardbeteendet för Microsoft Excel. För att uppnå samma sak med Aspose.Cells, använd[ListColumn.Formula](https://reference.aspose.com/cells/net/aspose.cells.tables/listcolumn/properties/formula)fast egendom.
-## **Sprid formel i tabell eller listobjekt automatiskt medan du anger data i nya rader**
-Följande exempelkod skapar ett tabell- eller listobjekt på ett sådant sätt att formeln i kolumn B automatiskt sprids till nya rader när du anger nya data. Vänligen kontrollera[output excel-fil](5115469.xlsx) genereras med denna kod. Om du anger valfritt tal i cell A3 kommer du att se att formeln i cell B2 automatiskt fortplantas till cell B3.
+
+## **Möjliga användningsscenario**
+Ibland vill du att en formel i din tabell eller listobjekt sprider automatiskt till nya rader vid inmatning av nya data. Detta är standardbeteendet i Microsoft Excel. För att uppnå samma sak med Aspose.Cells, använd [ListColumn.Formula](https://reference.aspose.com/cells/net/aspose.cells.tables/listcolumn/properties/formula) egenskapen.
+## **Sprid formel i tabell eller listobjekt automatiskt när du matar in data i nya rader**
+Exemplarkoden nedan skapar en tabell eller listobjekt på ett sådant sätt att formeln i kolumn B automatiskt sprider sig till nya rader när du anger ny data. Var god kontrollera den [utdata Excelfilen](5115469.xlsx) genererad med denna kod. Om du anger något nummer i cell A3, kommer du att se att formeln i cell B2 automatiskt sprider sig till cell B3.
 
 
 

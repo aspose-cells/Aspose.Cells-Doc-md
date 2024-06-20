@@ -1,15 +1,16 @@
-﻿---
-title: Aspose.Cells の数式計算エンジン
+---
+title: Aspose.Cellsの数式計算エンジン
 type: docs
 weight: 50
 url: /ja/java/formula-calculation-engine-in-aspose-cells/
 ---
+
 ## **Aspose.Cells - 数式計算エンジン**
-数式計算エンジンは Aspose.Cells に組み込まれています。デザイナー スプレッドシート ファイルからインポートされた数式を再計算できるだけでなく、実行時に追加された数式の結果を計算することもサポートします。
+数式計算エンジンはAspose.Cellsに組み込まれています。設計用スプレッドシートファイルからインポートされた数式を再計算するだけでなく、ランタイムで追加された数式の結果を計算することもサポートしています。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -58,7 +59,7 @@ book.calculateFormula();
 book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
@@ -66,6 +67,6 @@ book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[式計算エンジン](/cells/ja/java/aspose-cells-formula-calculation-engine).
+[Aspose.Cellsの数式計算エンジン](/cells/ja/java/aspose-cells-formula-calculation-engine)を詳しく見るには
 
 {{% /alert %}}

@@ -1,20 +1,21 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.0.1
+---
+title: Offentliga API ändringar i Aspose.Cells 8.0.1
 type: docs
 weight: 20
 url: /sv/net/public-api-changes-in-aspose-cells-8-0-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Dessa sida listar offentliga API ändringar som infördes i Aspose.Cells 8.0.1. Den innehåller inte bara nya och föråldrade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells som kan påverka befintlig kod. Varje beteende som introduceras som kan ses som en regression och modifierar existerande beteende är särskilt viktigt och dokumenteras här.
+Dessa sidor listar offentliga API-ändringar som introducerades i Aspose.Cells 8.0.1. Det inkluderar inte bara nya och föråldrade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells som kan påverka befintlig kod. Eventuellt beteende som kan betraktas som en regression och ändrar befintligt beteende är särskilt viktigt och dokumenteras här.
 
 {{% /alert %}} 
-## **MemorySetting-egenskap tillagd till Cells Klass**
-Klassen Cells har exponerat MemorySetting-egenskapen som kan användas för att optimera minnesanvändningen för celldata och därmed minska den totala minneskostnaden. Följande exempel visar hur man skriver en stor data till ett kalkylblad i optimerat läge.
+## **MemorySetting-egenskap tillagd till Cells-klassen**
+Cells-klassen har exponerat MemorySetting-egenskapen som kan användas för att optimera minnesanvändningen för celldata och därmed minska den totala minneskostnaden. Följande exempel visar hur man skriver stora data till en arbetsbok i optimerat läge.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -36,10 +37,10 @@ cells.MemorySetting = MemorySetting.MemoryPreference;
 
 {{< /highlight >}}
 
-Minnesinställningarna fungerar inte för standardarket som skapas automatiskt av Workbook-objektet. För att ändra minnesinställningarna för befintliga ark, använd minnesinställningen manuellt innan du utför någon datamanipulation.
+Minnesinställningarna fungerar inte automatiskt för standardarket som skapas av Workbook-objektet. För att ändra minnesinställningarna för befintliga blad, används minnesinställningen manuellt innan någon datamanipulation utförs.
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera den detaljerade artikeln om[Optimera minnet när du arbetar med stora datamängder](/cells/sv/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
+Kolla in den detaljerade artikeln om [Optimizing Memory while Working with Large Data Sets](/cells/sv/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}

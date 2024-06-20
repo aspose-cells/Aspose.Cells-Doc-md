@@ -1,15 +1,16 @@
-﻿---
-title: Удаление рабочих листов с помощью индекса листа в PHP
+---
+title: Удаление листов с использованием индекса листа в PHP
 type: docs
 weight: 30
 url: /ru/net/removing-worksheets-using-sheet-index-in-php/
 ---
-## **Удаление рабочих листов с помощью индекса листов**
-Удаление рабочих листов с помощью индекса листов
+
+## **Удаление листов с использованием индекса листа**
+Удаление листов с использованием индекса листа
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -30,7 +31,7 @@ url: /ru/net/removing-worksheets-using-sheet-index-in-php/
         $ptr->Call($workbook,"Save",array($dataDir."/output.xls"));
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Удаление рабочих листов с помощью указателя листов (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **Удаление листов по индексу (Aspose.Cells)** с любого из нижеперечисленных сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetIndex.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetIndex.php)

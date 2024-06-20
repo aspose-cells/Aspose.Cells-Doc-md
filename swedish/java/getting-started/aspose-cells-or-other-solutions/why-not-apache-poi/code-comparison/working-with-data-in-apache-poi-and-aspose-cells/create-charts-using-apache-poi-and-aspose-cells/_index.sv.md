@@ -1,15 +1,16 @@
-﻿---
+---
 title: Skapa diagram med Apache POI och Aspose.Cells
 type: docs
 weight: 50
 url: /sv/java/create-charts-using-apache-poi-and-aspose-cells/
 ---
+
 ## **Aspose.Cells - Skapa diagram**
-Det är möjligt att lägga till en mängd olika diagram till kalkylblad med Aspose.Cells. Aspose.Cells tillhandahåller många flexibla diagramobjekt.
+Det är möjligt att lägga till olika diagram i kalkylblad med Aspose.Cells. Aspose.Cells tillhandahåller många flexibla diagramobjekt.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -77,7 +78,7 @@ series.setType(ChartType.LINE);
 ## **Apache POI SS (HSSF + XSSF) - Skapa diagram**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();
 
@@ -141,17 +142,17 @@ data.addSeries(xs, ys2);
 chart.plot(data, bottomAxis, leftAxis);
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner körningsexempel för**Skapa diagram med Apache POI och Aspose.Cells** från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Hämta körande exempel för **Skapa diagram med Apache POI och Aspose.Cells** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-## **Ladda ner källkod**
- Ladda ner källkod för**Skapa diagram med Apache POI och Aspose.Cells** från någon av nedan nämnda webbplatser för social kodning:
+## **Hämta källkod**
+Hämta källkod för **Skapa diagram med Apache POI och Aspose.Cells** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Skapa anpassade diagram](/cells/sv/java/creating-and-customizing-charts/).
+För mer information, besök [Skapa Anpassade Diagram](/cells/sv/java/creating-and-customizing-charts/).
 
 {{% /alert %}}

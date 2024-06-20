@@ -1,30 +1,31 @@
 ---
-title: Grafikte hangi Eksenin bulunduğunu belirleyin
-description: Aspose.Cells for .NET kullanılarak oluşturulan bir grafikte hangi eksenin bulunduğunu nasıl belirleyeceğinizi öğrenin. Kılavuzumuz, kategori, değer ve ikincil eksenler dahil olmak üzere bir grafikteki farklı eksenleri nasıl tanımlayacağınızı ve bunlara nasıl erişeceğinizi anlamanıza yardımcı olacaktır.
-keywords: Aspose.Cells for .NET, chart, axis, existence, category, value, secondary.
+title: Grafiğin hangi Eksenin varolduğunu belirle.
+description: Aspose.Cells for .NET kullanarak oluşturulan bir grafikte hangi ekseni belirlemenin nasıl yapılacağını öğrenin. Rehberimiz, kategori, değer ve ikincil eksenler de dahil olmak üzere bir grafikte farklı ekseni tanımlamanıza ve erişmenize yardımcı olacaktır.
+keywords: Aspose.Cells for .NET, grafik, eksen, varlık, kategori, değer, ikincil.
 type: docs
 weight: 140
 url: /tr/net/determine-which-axis-exists-in-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen kullanıcının Grafikte belirli bir eksenin mevcut olup olmadığını bilmesi gerekir. Örneğin grafikte İkincil Değer Ekseninin var olup olmadığını bilmek istiyor. Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded vb. gibi bazı grafiklerin ekseni yoktur.
+Bazı durumlarda kullanıcı, belirli bir eksenin grafikte var olup olmadığını bilmek isteyebilir. Örneğin, grafikte İkincil Değer Ekseni'nin var olup olmadığını bilmek isteyebilir. Bazı grafikler (Pasta, Patlamış Pasta, PastaPasta, PastaBar, Pasta3D, Patlamış Pasta3D, Donut, Patlamış Donut vb.) ekseni bulundurmaz.
 
- Aspose.Cells sağlar[**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) Grafiğin belirli bir eksene sahip olup olmadığını belirleme yöntemi.
+Aspose.Cells, belirli bir eksenin grafikte var olup olmadığını belirlemek için [**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) methodunu sağlar.
 
 {{% /alert %}}
 
- Aşağıdaki örnek kod kullanımını göstermektedir:[**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis)Örnek grafiğin Birincil ve İkincil Kategori ve Değer Eksenine sahip olup olmadığını belirlemek için.
+Aşağıdaki örnek kod, örnek grafikte Birincil ve İkincil Kategori ve Değer Ekseni'nin olup olmadığını belirlemek için [**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis)'nin kullanımını göstermektedir.
 
-##  Grafikte hangi eksenin bulunduğunu belirlemek için C# kodu
+## Grafikte hangi eksenin varolduğunu belirlemek için C# kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DetermineAxisInChart-DetermineAxisInChart.cs" >}}
 
-## Örnek kod tarafından oluşturulan konsol çıktısı
+## Örnek Kod Tarafından Oluşturulan Konsol Çıktısı
 
-Kodun Birincil Kategori ve Değer Ekseni için doğru, İkincil Kategori ve Değer Ekseni için yanlış değerini gösteren konsol çıktısı aşağıda gösterilmiştir.
+Kodun konsol çıktısı aşağıda gösterilmiştir, Birincil Kategori ve Değer Eksenleri için true ve İkincil Kategori ve Değer Eksenleri için false göstermektedir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Has Primary Category Axis: True
 

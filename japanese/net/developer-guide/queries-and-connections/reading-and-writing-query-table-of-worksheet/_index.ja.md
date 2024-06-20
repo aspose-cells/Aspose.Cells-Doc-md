@@ -1,36 +1,37 @@
-﻿---
-title: ワークシートのクエリ テーブルの読み取りと書き込み
+---
+title: ワークシートのクエリテーブルの読み取りと書き込み
 type: docs
 weight: 40
 url: /ja/net/reading-and-writing-query-table-of-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells は、インデックスによってタイプ QueryTable のオブジェクトを返す Worksheet.QueryTables コレクションを提供します。次の 2 つのプロパティがあります。
+Aspose.Cellsは、Worksheet.QueryTablesコレクションを提供し、インデックスでQueryTable型のオブジェクトを返します。以下に2つのプロパティがあります
 
 - QueryTable.AdjustColumnWidth
 - QueryTable.PreserveFormatting
 
-これらは両方ともブール値です。それらは、[データ] > [接続] > [プロパティ] を使用して Microsoft Excel で表示できます。
+これらはどちらもBoolean値です。Microsoft ExcelでData > Connections > Propertiesから表示できます。
 
 {{% /alert %}}
 
-## ワークシートのクエリ テーブルの読み取りと書き込み
+ワークシートのクエリテーブルの読み書き
 
-次のサンプル コードは、最初のワークシートの最初の QueryTable を読み取り、両方の QueryTable プロパティを出力します。次に、QueryTable.PreserveFormatting を true に設定します。
+以下のサンプルコードは、最初のワークシートの最初のQueryTableを読み込み、そのQueryTableプロパティの両方を出力します。その後、QueryTable.PreserveFormattingをtrueに設定します。
 
-このコードで使用されているソース Excel ファイルと、コードによって生成された出力 Excel ファイルは、次のリンクからダウンロードできます。
+このコードで使用される元のExcelファイルとコードによって生成された出力Excelファイルは、以下のリンクからダウンロードできます。
 
-- [ソース Excel ファイル](5115533.xlsx)
-- [出力 Excel ファイル](5115537.xlsx)
+- [元のExcelファイル](5115533.xlsx)
+- [出力Excelファイル](5115537.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.cs" >}}
 
-### コンソール出力
+コンソール出力
 
-上記のサンプル コードのコンソール出力は次のとおりです。
+上記のサンプルコードのコンソール出力は次の通りです
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Adjust Column Width: True
 
@@ -38,8 +39,8 @@ Preserve Formatting: False
 
 {{< /highlight >}}
 
-## クエリ テーブルの結果範囲を取得する
+クエリテーブルの結果範囲を取得
 
- Aspose.Cells は、アドレス、つまりクエリ テーブルのセルの結果範囲を読み取るオプションを提供します。次のコードは、クエリ テーブルの結果範囲のアドレスを読み取ることにより、この機能を示しています。サンプルファイルをダウンロードできます[ここ](72417290.xlsx).
+Aspose.Cellsには、クエリテーブルの結果範囲のアドレスを読み取るオプションがあります。次のコードは、クエリテーブルの結果範囲のアドレスを読み取る機能を示しています。サンプルファイルは[こちら](72417290.xlsx)からダウンロードできます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}

@@ -3,27 +3,28 @@ title: Rilevamento di fogli di lavoro vuoti
 type: docs
 weight: 410
 url: /it/net/detecting-empty-worksheets/
-description: Questo articolo mostra il codice che spiega come rilevare i fogli di lavoro vuoti delle cartelle di lavoro di Excel a livello di codice usando C# API con la libreria .NET.
-keywords: detect empty worksheet c#, find empty excel worksheet c#
+description: Questo articolo ti mostra del codice che spiega come individuare i fogli di lavoro vuoti dei fogli di lavoro di Excel in modo programmato utilizzando l API C# con la libreria .NET.
+keywords: individuare il foglio di lavoro vuoto c#, trovare il foglio di lavoro excel vuoto c#
 ---
-##  **Controlla Popolato Cells**
 
- fogli di lavoro possono avere una o più celle popolate con valori in cui un valore può essere semplice (testo, numerico, data/ora) o una formula o un valore basato su una formula. In tal caso, è facile rilevare se un determinato foglio di lavoro è vuoto o meno. Tutto quello che dobbiamo controllare è il[**Cells.MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow) O[**Cells.MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn)proprietà. Se le suddette proprietà restituiscono valori zero o positivi, significa che una o più celle sono state popolate, tuttavia, se una di queste proprietà restituisce -1 che indica che nessuna delle celle è stata popolata nel foglio di lavoro specificato.
+## **Controllare le celle popolate**
+
+I fogli di lavoro possono avere una o più celle popolate con valori in cui un valore può essere semplice (testo, numerico, data/ora) o una formula o un valore basato su formula. In tal caso, è facile individuare se un determinato foglio di lavoro è vuoto o meno. Tutto ciò che dobbiamo fare è controllare le proprietà [**Cells.MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow) o [**Cells.MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn). Se le proprietà suddette restituiscono zero o valori positivi ciò significa che una o più celle sono state popolate, tuttavia, se una qualsiasi di queste proprietà restituisce -1 ciò indica che nessuna delle celle è stata popolata nel foglio di lavoro fornito.
 
 {{% alert color="primary" %}}
 
-Le raccolte di righe e colonne hanno un indice in base zero, quindi una cella alla riga 0 e alla colonna 0 indica la prima cella nel foglio di lavoro, che è A1.
+Le raccolte righe e colonne hanno un indice a base zero quindi una cella nella riga 0 e colonna 0 significa la prima cella nel foglio di lavoro, che è A1.
 
 {{% /alert %}}
 
-##  **Verificare la presenza di vuoto inizializzato Cells**
+## **Controllare le celle inizializzate vuote**
 
- Tutte le celle che hanno valori vengono inizializzate automaticamente, tuttavia, esiste la possibilità che un foglio di lavoro abbia celle con solo la formattazione applicata. In uno scenario del genere, il[**Cells.MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow)O[**Cells.MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn)properties restituirà -1 che indica l'assenza di valori popolati ma le celle inizializzate a causa della formattazione delle celle non possono essere rilevate utilizzando questo approccio. Per verificare se un foglio di lavoro ha celle inizializzate vuote, si consiglia di utilizzare il metodo IEnumerator.MoveNext sull'enumeratore acquisito da[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione. Se il metodo IEnumerator.MoveNext restituisce**VERO** ciò significa che ci sono una o più celle inizializzate nel foglio di lavoro specificato.
+Tutte le celle che hanno valori vengono inizializzate automaticamente, tuttavia, c'è la possibilità che un foglio di lavoro abbia celle con solo la formattazione applicata. In uno scenario del genere, le proprietà [**Cells.MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow) o [**Cells.MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) restituiranno -1 indicando l'assenza di valori popolati ma le celle inizializzate a causa della formattazione delle celle non possono essere individuate utilizzando questo approccio. Per verificare se un foglio di lavoro ha celle vuote inizializzate, si consiglia di utilizzare il metodo IEnumerator.MoveNext sull'enumeratore acquisito dalla raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Se il metodo IEnumerator.MoveNext restituisce **true** ciò significa che ci sono una o più celle inizializzate nel foglio di lavoro fornito.
 
-##  **Controlla le forme**
+## **Controllare le forme**
 
- È possibile che un determinato foglio di lavoro non contenga celle popolate, tuttavia potrebbe contenere forme e oggetti come controlli, grafici, immagini e così via. Se dobbiamo verificare se un foglio di lavoro contiene una forma, possiamo farlo ispezionando il file[**ShapeCollection.Count**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)proprietà. Qualsiasi valore positivo indica la presenza di forme nel foglio di lavoro.
+È possibile che un determinato foglio di lavoro non abbia celle popolate, tuttavia potrebbe contenere forme e oggetti come elementi di controllo, grafici, immagini e così via. Se abbiamo bisogno di verificare se un foglio di lavoro contiene una qualsiasi forma, possiamo farlo ispezionando la proprietà [**ShapeCollection.Count**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection). Qualsiasi valore positivo indica la presenza di una o più forme nel foglio di lavoro.
 
-##  **Esempio di programmazione**
+## **Esempio di programmazione**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DetectEmptyWorksheets-DetectEmptyWorksheets.cs" >}}

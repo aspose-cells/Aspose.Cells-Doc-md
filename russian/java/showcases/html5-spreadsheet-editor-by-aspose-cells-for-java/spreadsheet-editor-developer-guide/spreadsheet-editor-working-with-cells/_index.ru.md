@@ -1,28 +1,29 @@
-﻿---
-title: Редактор электронных таблиц — работа с Cells
+---
+title: Редактор электронных таблиц  Работа с ячейками
 type: docs
 weight: 40
 url: /ru/java/spreadsheet-editor-working-with-cells/
 ---
-**Оглавление**
 
-- [Выбор Cell](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
- - Cell выбор обратного вызова
-- [Удалить Cell](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
- - WorksheetView.removeCellShiftUp
- - WorksheetView.removeCellShiftLeft
-- [Очистить Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- WorksheetView.clearCurrentCellFormatting
- - WorksheetView.clearCurrentCellContents
- - WorksheetView.clearCurrentCell
-### **Выбор Cell**
-Используйте указатель мыши, чтобы указать на ячейку. Щелкните ячейку, чтобы выбрать ее. Выбранная ячейка выделяется жирным прямоугольником.
+**Содержание**
+
+- [Выбор ячейки](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
+  - Обратный вызов выбора ячейки
+- [Удаление ячейки](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
+  - WorksheetView.removeCellShiftUp
+  - WorksheetView.removeCellShiftLeft
+- [Очистить ячейку](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
+  - WorksheetView.clearCurrentCellFormatting
+  - WorksheetView.clearCurrentCellContents
+  - WorksheetView.clearCurrentCell
+### **Выбор ячейки**
+Используйте указатель мыши для выделения ячейки. Щелкните по ячейке, чтобы выбрать ее. Выбранная ячейка выделяется жирным прямоугольником.
 
 **Как это работает?**
 
-Когда пользователь щелкает ячейку, событие обрабатывается функцией обратного вызова JavaScript, которая прикреплена к компоненту Primefaces.
-#### **Cell выбор обратного вызова**
-{{< highlight "java" >}}
+Когда пользователь щелкает по ячейке, событие обрабатывается функцией обратного вызова JavaScript, которая привязана к компоненту Primefaces.
+#### **Функция обратного вызова выбора ячейки**
+{{< highlight java >}}
 
                      var columnId = $(this).find('.ui-cell-editor-input input').attr('data-columnid');
 
@@ -91,21 +92,21 @@ url: /ru/java/spreadsheet-editor-working-with-cells/
                     $this.selectedCell = this;
 
 {{< /highlight >}}
-### **Удалить Cell**
+### **Удаление ячейки**
 Чтобы удалить ячейку:
 
-1. Нажмите на ячейку, которую хотите удалить.
-1.  Переключить на**Вкладка Формат**.
-1.  Нажмите**Удалить Cell** кнопка.
-1.  выберите**Сдвиг Cells Вверх** или же**Сдвиг Cells Левый** кнопка.
+1. Щелкните по ячейке, которую хотите удалить.
+1. Переключитесь на вкладку **Формат**.
+1. Нажмите на кнопку **Удалить ячейку**.
+1. Выберите кнопку **Сдвинуть ячейки вверх** или **Сдвинуть ячейки влево**.
 
-Редактор удалит выбранную ячейку. Соседние ячейки будут автоматически сдвигаться по горизонтали или по вертикали, чтобы отрегулировать пространство.
+Редактор удалит выбранную ячейку. Смежные ячейки автоматически сдвинутся горизонтально или вертикально, чтобы скорректировать пространство.
 
 **Как это работает?**
 
-**Сдвиг Cells Вверх** и**Сдвиг Cells Левый** обрабатываются внутренним компонентом JSF**Вид рабочего листа**. Исходный код соответствующих методов выглядит следующим образом:
+**Сдвинуть ячейки вверх** и **Сдвинуть ячейки влево** обрабатываются бэкэнд-бином JSF **WorksheetView**. Исходный код соответствующих методов выглядит следующим образом:
 #### **WorksheetView.removeCellShiftUp**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftUp() {
 
@@ -124,7 +125,7 @@ url: /ru/java/spreadsheet-editor-working-with-cells/
 {{< /highlight >}}
 
 #### **WorksheetView.removeCellShiftLeft**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftLeft() {
 
@@ -141,21 +142,21 @@ url: /ru/java/spreadsheet-editor-working-with-cells/
     }
 
 {{< /highlight >}}
-### **Очистить Cell**
+### **Очистить ячейку**
 Чтобы очистить ячейку:
 
-1. Нажмите на ячейку, которую хотите очистить.
-1.  Переключить на**Вкладка Формат**.
-1.  Нажмите**Очистить Cell** кнопка.
-1.  выберите**Форматы**, **Содержание** или же**Обе** вариант.
+1. Щелкните по ячейке, которую хотите очистить.
+1. Переключитесь на вкладку **Формат**.
+1. Нажмите на кнопку **Очистить ячейку**.
+1. Выберите опцию **Форматы**, **Содержимое** или **Оба**.
 
 Редактор очистит выбранную ячейку.
 
 **Как это работает?**
 
-**Форматы**, **Содержание** и**Обе** обрабатываются внутренним компонентом JSF**Вид рабочего листа**. Исходный код соответствующих методов выглядит следующим образом:
+**Форматы**, **Содержимое** и **Оба** обрабатываются бэкэнд-бином JSF **WorksheetView**. Исходный код соответствующих методов приведен ниже:
 #### **WorksheetView.clearCurrentCellFormatting**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellFormatting() {
 
@@ -176,7 +177,7 @@ url: /ru/java/spreadsheet-editor-working-with-cells/
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCellContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellContents() {
 
@@ -197,7 +198,7 @@ url: /ru/java/spreadsheet-editor-working-with-cells/
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCell**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCell() {
 

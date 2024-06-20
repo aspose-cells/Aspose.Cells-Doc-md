@@ -1,20 +1,21 @@
-﻿---
-title: Cells データ テーブル行を挿入するときに最初の行を下にシフトする
+---
+title: セルデータテーブル行を挿入するときに、最初の行を下にシフトします
 type: docs
 weight: 180
 url: /ja/java/shift-first-row-down-when-inserting-cells-data-table-rows/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells を使用すると、テーブルをワークシートに挿入するときに最初の行を下にシフトできます。このドキュメントでは、Aspose.Cells API を使用してタスクを達成する方法について説明します。
+## **可能な使用シナリオ**
 
-## **Cells データ テーブル行を挿入するときに最初の行を下にシフトする**
+Aspose.Cellsを使用して、ワークシートにテーブルを挿入する際に、最初の行を下にシフトすることができます。このドキュメントでは、Aspose.Cells APIを使用してこのタスクを達成する方法について説明します。
 
-次のサンプル コードは、テーブルをワークシートに挿入するときに最初の行を下にシフトする方法を示しています。コードで単純なテンプレート Excel ファイルを使用して、機能を示します。ブール値を設定することで機能を実行できます[**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#ShiftFirstRowDown)属性**真/偽**それをよりよく理解するために。をご覧ください[サンプル Excel ファイル](45056043.xlsx), [出力 Excel False ファイル](45056044.xlsx)、 と[出力 Excel True ファイル](45056045.xlsx)ご参考までに。
+## **セルデータテーブル行を挿入するときに、最初の行を下にシフト**
+
+以下のサンプルコードは、ワークシートにテーブルを挿入する際に最初の行を下にシフトする方法を示しています。この機能をよりよく理解するために、コードで単純なテンプレートExcelファイルを使用しました。この機能を実施するには、**True/False**属性を設定することで、[サンプルExcelファイル](45056043.xlsx)、[出力Excel Falseファイル](45056044.xlsx)、および[出力Excel Trueファイル](45056045.xlsx)を参照してください。
 
 ## **スクリーンショット**
 
-![todo:画像_代替_文章](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
+![todo:image_alt_text](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
 
 ## **サンプルコード**
 

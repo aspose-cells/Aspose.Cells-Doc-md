@@ -1,20 +1,21 @@
-﻿---
-title: Public API Changements dans Aspose.Cells 8.0.2
+---
+title: Changements de l API publique dans Aspose.Cells 8.0.2
 type: docs
 weight: 30
 url: /fr/net/public-api-changes-in-aspose-cells-8-0-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.Cells API de la version 8.0.1 à 8.0.2, qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement des méthodes publiques nouvelles et mises à jour, mais également une description de tout changement de comportement dans les coulisses de Aspose.Cells.
+Ce document décrit les changements apportés à l'API Aspose.Cells de la version 8.0.1 à la 8.0.2, qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement de nouvelles méthodes publiques et mises à jour, mais aussi une description de tout changement dans le comportement en arrière-plan d'Aspose.Cells.
 
 {{% /alert %}} 
-## **Ajout de la propriété TextDirection à la classe Shape**
-La classe Shape a une propriété TextDirection exposée qui peut être utilisée pour obtenir ou définir la direction du flux de texte pour l'objet Shape. La propriété TextDirection peut également être utilisée pour définir la direction de texte souhaitée pour les commentaires dans une feuille de calcul, comme illustré ci-dessous.
+## **Propriété TextDirection ajoutée à la classe Shape**
+La classe Shape expose la propriété TextDirection qui peut être utilisée pour obtenir ou définir la direction de l'écoulement du texte pour l'objet Shape. La propriété TextDirection peut également être utilisée pour définir la direction souhaitée du texte pour les commentaires dans une feuille de calcul, comme le montre l'exemple ci-dessous.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -52,15 +53,15 @@ book.Save(myDir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
- Veuillez consulter l'article détaillé sur[Modification de la direction du texte du commentaire](/cells/fr/net/change-text-direction-of-the-comment/)
+Veuillez consulter l'article détaillé sur [Changer la direction du texte du commentaire](/cells/fr/net/change-text-direction-of-the-comment/)
 
 {{% /alert %}}
-## **Ajout de la propriété ConvertFormulasData à la classe HTMLLoadOptions**
-La propriété ConvertFormulasData a été ajoutée à la classe HTMLLoadOptions, afin de permettre aux développeurs de charger des formules Excel à partir de fichiers HTML. La propriété booléenne ConvertFormulasData indique s'il faut ou non convertir la chaîne en formule lorsque la valeur de la chaîne commence par le caractère '='.
+## **Propriété ConvertFormulasData ajoutée à la classe HTMLLoadOptions**
+La propriété ConvertFormulasData a été ajoutée à la classe HTMLLoadOptions, afin de faciliter aux développeurs le chargement des formules Excel à partir de fichiers HTML. La propriété booléenne ConvertFormulasData indique si oui ou non convertir la chaîne en formule lorsque la valeur de la chaîne commence par le caractère '='.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of HTMLLoadOptions
 
@@ -83,7 +84,7 @@ Workbook workbook = new Workbook(myDir + "spreadsheet.html", loadOptions);
 La valeur par défaut de la propriété ConvertFormulasData est false.
 
 {{% /alert %}}
-## **Ajout de la propriété ImageOptions à la classe HtmlSaveOptions**
+## **Propriété ImageOptions ajoutée à la classe HtmlSaveOptions**
 La propriété ImageOptions a été ajoutée à la classe HtmlSaveOptions. L'exposition de la propriété ImageOptions a permis aux développeurs de définir les préférences pour les images intégrées dans le HTML lors de l'exportation des feuilles de calcul.
-## **Propriété HtmlSaveOptions.ExportChartImageFormat obsolète**
-HtmlSaveOptions.ExportChartImageFormat a été marqué comme obsolète à partir de Aspose.Cells for .NET 8.0.2. Il est conseillé d'utiliser plutôt HtmlSaveOptions.ImageOptions pour les paramètres de format d'image lors de l'exportation de feuilles de calcul au format HTML.
+## **Propriété ExportChartImageFormat d'HtmlSaveOptions obsolète**
+HtmlSaveOptions.ExportChartImageFormat a été marquée obsolète à partir de Aspose.Cells for .NET 8.0.2. Il est conseillé d'utiliser HtmlSaveOptions.ImageOptions à la place pour les paramètres de format d'image lors de l'exportation des feuilles de calcul au format HTML.

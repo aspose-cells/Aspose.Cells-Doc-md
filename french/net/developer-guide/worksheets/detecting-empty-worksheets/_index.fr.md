@@ -1,29 +1,30 @@
 ---
-title: Détection des feuilles de calcul vides
+title: Détection de feuilles de calcul vides
 type: docs
 weight: 410
 url: /fr/net/detecting-empty-worksheets/
-description: Cet article vous montre le code expliquant comment détecter par programme les feuilles de calcul vides des classeurs Excel à l'aide de la bibliothèque C# API avec la bibliothèque .NET.
-keywords: detect empty worksheet c#, find empty excel worksheet c#
+description: Cet article vous montre un code expliquant comment détecter programmatoirement les feuilles de calcul vides des classeurs Excel en utilisant l API C# avec la bibliothèque .NET.
+keywords: détecter la feuille de calcul vide c#, trouver la feuille de calcul Excel vide c#
 ---
-##  **Vérifier le Cells peuplé**
 
-Les feuilles de calcul peuvent avoir une ou plusieurs cellules remplies de valeurs où une valeur peut être simple (texte, numérique, date/heure) ou une formule ou une valeur basée sur une formule. Dans un tel cas, il est facile de détecter si une feuille de calcul donnée est vide ou non. Il ne nous reste plus qu'à vérifier[**Cells.MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow) ou[**Cells.MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn)propriétés. Si les propriétés susmentionnées renvoient des valeurs nulles ou positives, cela signifie qu'une ou plusieurs cellules ont été remplies, cependant, si l'une de ces propriétés renvoie -1, cela indique qu'aucune des cellules n'a été remplie dans la feuille de calcul donnée.
+## **Vérifier les cellules peuplées**
+
+Les feuilles de calcul peuvent avoir une ou plusieurs cellules peuplées de valeurs où une valeur peut être simple (texte, numérique, date/heure) ou une formule ou une valeur basée sur une formule. Dans ce cas, il est facile de détecter si une feuille de calcul donnée est vide ou non. Il suffit de vérifier les propriétés [**Cells.MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow) ou [**Cells.MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn). Si les propriétés mentionnées retournent zéro ou des valeurs positives, cela signifie qu'une ou plusieurs cellules ont été peuplées, cependant, si l'une de ces propriétés retourne -1, cela indique que aucune des cellules n'a été peuplée dans la feuille de calcul donnée.
 
 {{% alert color="primary" %}}
 
-Les collections de lignes et de colonnes ont un index de base zéro. Par conséquent, une cellule à la ligne 0 et à la colonne 0 signifie la première cellule de la feuille de calcul, qui est A1.
+Les collections de lignes et de colonnes ont un index à base zéro, donc une cellule à la ligne 0 et à la colonne 0 signifie la première cellule dans la feuille de calcul, qui est A1.
 
 {{% /alert %}}
 
-##  **Vérifier vide initialisé Cells**
+## **Vérifier les cellules initialisées vides**
 
- Toutes les cellules contenant des valeurs sont automatiquement initialisées, cependant, il est possible qu'une feuille de calcul contienne des cellules auxquelles seule la mise en forme est appliquée. Dans un tel scénario, le[**Cells.MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow)ou[**Cells.MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn)properties renverra -1 indiquant l'absence de toute valeur peuplée, mais les cellules initialisées en raison du formatage des cellules ne peuvent pas être détectées à l'aide de cette approche. Afin de vérifier si une feuille de calcul contient des cellules initialisées vides, il est conseillé d'utiliser la méthode IEnumerator.MoveNext sur l'énumérateur acquis à partir de[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection. Si la méthode IEnumerator.MoveNext renvoie**vrai** cela signifie qu'il y a une ou plusieurs cellules initialisées dans la feuille de calcul donnée.
+Toutes les cellules qui ont des valeurs sont automatiquement initialisées, cependant, il est possible qu'une feuille de calcul ait des cellules avec seulement une mise en forme appliquée. Dans un tel scénario, les propriétés [**Cells.MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow) ou [**Cells.MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) retourneront -1 indiquant l'absence de valeurs peuplées mais des cellules initialisées en raison de la mise en forme des cellules ne peuvent pas être détectées en utilisant cette approche. Afin de vérifier si une feuille de calcul a des cellules initialisées vides, il est conseillé d'utiliser la méthode IEnumerator.MoveNext sur l'énumérateur acquis à partir de la collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Si la méthode IEnumerator.MoveNext retourne **true**, cela signifie qu'il y a une ou plusieurs cellules initialisées dans la feuille de calcul donnée.
 
-##  **Vérifier les formes**
+## **Vérifier les formes**
 
- Il est possible qu'une feuille de calcul donnée n'ait pas de cellules remplies, cependant, elle peut contenir des formes et des objets tels que des contrôles, des graphiques, des images, etc. Si nous devons vérifier si une feuille de calcul contient une forme, nous pouvons le faire en inspectant le[**ShapeCollection.Count**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)propriété. Toute valeur positive indique la présence de forme(s) dans la feuille de calcul.
+Il est possible qu'une feuille de calcul donnée n'ait pas de cellules peuplées, cependant, elle pourrait contenir des formes et des objets tels que des contrôles, des graphiques, des images, etc. Si nous devons vérifier si une feuille de calcul contient une forme, nous pouvons le faire en inspectant la propriété [**ShapeCollection.Count**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection). Toute valeur positive indique la présence de forme(s) dans la feuille de calcul.
 
-##  **Exemple de programmation**
+## **Exemple de programmation**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DetectEmptyWorksheets-DetectEmptyWorksheets.cs" >}}

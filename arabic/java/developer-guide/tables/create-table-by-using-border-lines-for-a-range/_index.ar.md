@@ -1,21 +1,22 @@
-﻿---
-title: إنشاء جدول باستخدام خطوط الحدود لنطاق
+---
+title: إنشاء جدول باستخدام خطوط حدود لنطاق
 type: docs
 weight: 50
 url: /ar/java/create-table-by-using-border-lines-for-a-range/
-description: كيفية إنشاء جدول بنطاق باستخدام خطوط الحدود. يوفر Aspose.Cells for Java طريقة سهلة لاستخدام API يمكن استخدامها لإضافة حدود إلى نطاق.
-keywords: create table, range to table, range to table excel, excel range to table, range to table with borders, how to create table from range, convert range to table, excel convert range to table, excel create table, range to table java 
+description: كيفية إنشاء جدول مع نطاق باستخدام خطوط حدود. يوفر Aspose.Cells for Java واجهة برمجة تطبيق بسيطة للغاية يمكن استخدامها لإضافة حدود إلى نطاق.
+keywords: إنشاء جدول، نطاق إلى جدول، نطاق إلى جدول Excel، عمود Excel إلى جدول، نطاق إلى جدول بحدود، كيفية إنشاء جدول من نطاق، تحول النطاق إلى جدول، تحويل Excel النطاق إلى جدول، إنشاء جدول Excel، نطاق لجدول جافا 
 ---
+
 {{% alert color="primary" %}}
 
- في بعض الأحيان ، قد ترغب في إنشاء جدول عن طريق إضافة خطوط حدود لملف**نطاق**/**CellArea** بناءً على عنوان الخلايا التي لديك. يمكنك استخدام[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) طريقة لإنشاء نطاق من الخلايا. ال[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) طريقة إرجاع أ[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) موضوع. يمكنك إنشاء ملف[**أسلوب**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) الكائن وحدد خيارات الحدود (أعلى ، يسار ، أسفل ، يمين) وفقًا لذلك. في وقت لاحق ، قد تحصل على خلايا[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)وقم بتطبيق التنسيق المطلوب على الخلايا.
+في بعض الأحيان، ترغب في إنشاء جدول عن طريق إضافة خطوط حدودية لـ **المجال**/**منطقة الخلية** باستناد إلى عنوان الخلايا التي لديك. يمكنك استخدام الطريقة [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) لإنشاء مجموعة من الخلايا. تُعيد الطريقة [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) كائن [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range). يمكنك إنشاء كائن [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) وتحديد الحدود (العلوية، اليسرى، السفلية، اليمنى) وفقًا للخيارات. في وقت لاحق، يمكنك الحصول على الخلايا من [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) وتطبيق التنسيق المطلوب على الخلايا الخاصة بك.
 
 {{% /alert %}}
 
- يوضح المثال التالي كيفية إنشاء ملف[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)وحدد خطوط الحدود لخلايا النطاق.
+المثال التالي يوضح كيفية إنشاء [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) وتحديد حدود الخلايا المدى الزمني.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateTableforRange-CreateTableforRange.java" >}}
 
-بعد تشغيل الكود أعلاه ، يمكننا الحصول على ملف Excel الذي تم إنشاؤه والذي يحتوي على الجدول المنسق ؛ هنا لقطة من الملف.
+بعد تشغيل الكود أعلاه، يمكننا الحصول على ملف إكسيل المولد الذي يحتوي على الجدول المنسق؛ هنا هو لقطة للملف.
 
-![ما يجب القيام به: image_بديل_نص](create-table-by-using-border-lines-for-a-range_1.png)
+![todo:image_alt_text](create-table-by-using-border-lines-for-a-range_1.png)

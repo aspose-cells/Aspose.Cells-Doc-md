@@ -1,109 +1,110 @@
-﻿---
-title: Sitefinity تصدير المستخدمين إلى Excel
+---
+title: تصدير مستخدمي Sitefinity إلى إكسل
 type: docs
 weight: 20
 url: /ar/net/sitefinity-export-users-to-excel/
 ---
-**ملخص المحتويات**
+
+ملخص المحتويات
 
 - [مقدمة](#SitefinityExportUserstoExcel-Introduction)
-- [متطلبات النظام والأنظمة الأساسية المدعومة](#SitefinityExportUserstoExcel-SystemRequirementsandSupportedPlatforms) 
+- [متطلبات النظام والمنصات المدعومة](#SitefinityExportUserstoExcel-SystemRequirementsandSupportedPlatforms) 
   - [متطلبات النظام](#SitefinityExportUserstoExcel-SystemRequirements)
   - [المنصات المدعومة](#SitefinityExportUserstoExcel-SupportedPlatforms)
-- [مصدر الرمز](#SitefinityExportUserstoExcel-SourceCode) 
-  - [كيفية تكوين شفرة المصدر](#SitefinityExportUserstoExcel-Howtoconfigurethesourcecode)
+- [رمز المصدر](#SitefinityExportUserstoExcel-SourceCode) 
+  - [كيفية تكوين كود المصدر](#SitefinityExportUserstoExcel-Howtoconfigurethesourcecode)
 - [التثبيت والاستخدام](#SitefinityExportUserstoExcel-InstallationandUsage) 
-  - [جارى التحميل](#SitefinityExportUserstoExcel-Downloading)
+  - [التحميل](#SitefinityExportUserstoExcel-Downloading)
   - [التثبيت](#SitefinityExportUserstoExcel-Installing)
-- [استخدام وعرض الفيديو](#SitefinityExportUserstoExcel-UsingandVideoDemo) 
+- [استخدام وفيديو ديمو](#SitefinityExportUserstoExcel-UsingandVideoDemo) 
   - [استخدام](#SitefinityExportUserstoExcel-Using)
-  - [فيديو تجريبي](#SitefinityExportUserstoExcel-VideoDemo)
+  - [فيديو توضيحي](#SitefinityExportUserstoExcel-VideoDemo)
 - [الدعم](#SitefinityExportUserstoExcel-Support)
 - [تمديد والمساهمة](#SitefinityExportUserstoExcel-ExtendandContribute)
 ## **مقدمة**
-Aspose .NET تصدير المستخدمين إلى Excel لـ SiteFinity Module يسمح للمطورين بتصدير مستخدمي SiteFinity إلى Microsoft Excel أو OpenOffice Spreadsheet. توضح هذه الوحدة ميزة إنشاء جداول البيانات القوية التي يوفرها Aspose.Cells.
+يسمح وحدة التصدير من Aspose .NET لمستخدمي Excel لوحدة SiteFinity للمطورين بتصدير مستخدمي SiteFinity إلى Microsoft Excel أو جدول بيانات OpenOffice. توضح هذه الوحدة ميزة بناء جدول البيانات القوية التي يوفرها Aspose.Cells.
 
-## **متطلبات النظام والأنظمة الأساسية المدعومة**
+## **متطلبات النظام والمنصات المدعومة**
 ### **متطلبات النظام**
-من أجل إعداد Aspose.Cells .NET لوظائف Sitefinity الإضافية ، يجب أن يكون لديك المتطلبات التالية:
+لإعداد إضافات Aspose.Cells .NET لـ Sitefinity ، يجب أن تتوفر لديك الشروط التالية:
 
-- يعمل Sitefinity CMS على ASP.NET 4.0
+- تعمل نظام Sitefinity CMS على ASP.NET 4.0
 
-لا تتردد في الاتصال بنا إذا كانت لديك أية مشكلات في إعداد الوظيفة الإضافية لـ Sitefinity.
+يرجى عدم التردد في الاتصال بنا إذا كان لديك أي مشاكل في إعداد هذه إضافة Sitefinity.
 ### **المنصات المدعومة**
-الوظيفة الإضافية مدعومة في جميع إصدارات
+تدعم الإضافة على جميع الإصدارات
 
-- يعمل Sitefinity CMS على ASP.NET 4.0
-## **مصدر الرمز**
-يمكنك الحصول على أحدث كود مصدر من أحد المواقع التالية
+- تعمل نظام Sitefinity CMS على ASP.NET 4.0
+## **رمز المصدر**
+يمكنك الحصول على آخر رمز مصدري من أحد المواقع التالية
 
-- [ جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity)
-### **كيفية تكوين شفرة المصدر**
-يجب أن يكون لديك ما يلي مثبتًا لفتح كود المصدر وتوسيعه
+- [جيتهاب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity)
+### **كيفية تكوين كود المصدر**
+عليك أن تكون قد قمت بتثبيت ما يلي لفتح وتوسيع كود المصدر
 
-- Visual Studio 2010 أو أعلى
+- Visual Studio 2010 أو أحدث
 
 يرجى اتباع هذه الخطوات البسيطة للبدء
 
-1. تنزيل / استنساخ الكود المصدري.
-1.  افتح Visual Studio 2010 واختر**ملف** > **مشروع مفتوح**
-1.  استعرض للوصول إلى أحدث كود مصدر قمت بتنزيله وافتح ملف**.sln** ملف.
+1. قم بتنزيل/نسخ كود المصدر.
+1. افتح فيجوال ستوديو 2010 واختر **ملف** > **فتح مشروع**
+1. تصفح إلى أحدث شفرة مصدرية قمت بتنزيلها وافتح ملف **.sln**.
 ## **التثبيت والاستخدام**
-### **جارى التحميل**
-يمكنك تنزيل Aspose .NET Content Exporter لوحدة Sitefinity من أحد المواقع التالية
+### **التحميل**
+يمكنك تنزيل وحدة تصدير Aspose .NET Content Exporter for Sitefinity من إحدى المواقع التالية
 
-- [ جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
+- [جيتهاب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
 ### **التثبيت**
-بمجرد التنزيل ، يرجى اتباع هذه الخطوات لتثبيت الوظيفة الإضافية في موقع الويب Sitefinity الخاص بك:
+بمجرد تنزيله، يرجى اتباع هذه الخطوات لتثبيت الإضافة في موقع الويب Sitefinity الخاص بك:
 
 **الخطوة 1: انسخ الملفات إلى تثبيت Sitefinity الخاص بك**
 
-يرجى استخراج ملف ZIP الذي تم تنزيله. ستحتاج إلى FTP أو وصول مباشر إلى مجلد تثبيت Sitefinity على الخادم لإجراء ما يلي:
+يرجى استخراج ملف ZIP الذي تم تنزيله. ستحتاج إلى FTP أو إمكانية الوصول المباشر إلى مجلد تثبيت Sitefinity على الخادم لأداء ما يلي:
 
-1.  انسخ Aspose.Cells.dll و Aspose.SiteFinity.ExportUsersToExcel.dll في**سلة مهملات** مجلد تثبيت Sitefinity.
-1.  انسخ ال**الإضافات** مجلد على جذر تثبيت Sitefinity حيث يكون ملف**سلة مهملات** يقع المجلد.
+1. انسخ Aspose.Cells.dll و Aspose.SiteFinity.ExportUsersToExcel.dll إلى مجلد **bin** في تثبيت Sitefinity.
+1. انسخ مجلد **Addons** في الجذر من تثبيت Sitefinity حيث يتواجد مجلد **bin**.
 
-**الخطوة 2: قم بتسجيل الوظيفة الإضافية Aspose Sitefinity Content Export في Sitefinity**
+**الخطوة 2: قم بتسجيل إضافة Aspose Sitefinity Content Export في Sitefinity**
 
-1. قم بتسجيل الدخول إلى Sitefinity CMS الخاص بك باستخدام "**مدير** ' الحساب. يمكن الوصول إلى صفحة تسجيل الدخول عن طريق<http://www.mywebsite.com/sitefinity>
-1.  انقر**الادارة** وثم**إعدادات**.
-تظهر صفحة الإعدادات الأساسية.
-1.  انقر على**متقدم** حلقة الوصل.
- تظهر صفحة الإعدادات.
-1.  في الجزء الأيمن ، انقر فوق "نعم"**صناديق الأدوات** تليها**صناديق الأدوات** ، ومن بعد**PageControls**, **الأقسام** و**ContentToolboxSection** ، ومن بعد**أدوات.**
-1.  انقر**خلق جديد إبداع جديد**.
- يظهر نموذج تسجيل القطعة.
-1.  املأ حقول النموذج على النحو التالي:
- 1. تأكد**ممكن** تم الإختيار.
- 1. أضف ~ / Addons / Aspose.SiteFinity.ExportUsersToExcel / AsposeExportUsersToExcel.ascx
+1. Log into your Sitefinity CMS with an ‘**Administrator**’ account. The login page can be reached by <http://www.mywebsite.com/sitefinity>
+1. انقر **الإدارة** ثم **الإعدادات**.
+   يظهر صفحة الإعدادات الأساسية.
+1. انقر فوق الرابط **Advanced**.
+   يظهر صفحة الإعدادات.
+1. في اللوحة اليسارية، انقر على **Toolboxes** تليها **Toolboxes**, **PageControls**, **Sections** و **ContentToolboxSection**, ثم **Tools.**
+1. انقر على **إنشاء جديد**.
+   يظهر نموذج تسجيل المربع.
+1. ملء حقول النموذج على النحو التالي: 
+   1. تأكد من اختيار **تمكين**.
+   1. أضف ~/Addons/Aspose.SiteFinity.ExportUsersToExcel/AsposeExportUsersToExcel.ascx
 
- 1. ` `in**التحكم في نوع CLR أو المسار الظاهري** مجال.
- 1. أضف**اسم**, **لقب** و**وصف** كما يلي:
- Aspose.SiteFinity.ExportUsersToExcel
- Aspose تصدير مستخدمي SiteFinity إلى Excel
- تصدير مستخدمي SiteFinity إلى Excel
- 1. يمكنك ترك جميع الحقول الأخرى كما هي.
-1.  عند الانتهاء ، انقر فوق**احفظ التغييرات**.
- يتم تسجيل عنصر واجهة المستخدم في صندوق الأدوات ويمكن استخدامه في Sitefinity.
-## **استخدام وعرض الفيديو**
+   1. في حقل **نوع CLR للتحكم أو المسار الظاهري**.
+   1. أضف **الاسم**، **العنوان** و **الوصف** على النحو التالي:
+      Aspose.SiteFinity.ExportUsersToExcel
+      Aspose Export SiteFinity Users to Excel
+      تصدير مستخدمي SiteFinity إلى Excel
+   1. يمكنك ترك كافة الحقول الأخرى كما هي.
+1. عند الانتهاء، انقر على **حفظ التغييرات**.
+   يتم تسجيل العنصر النائب في لوحة الأدوات ويمكن استخدامه في Sitefinity.
+## **استخدام وفيديو ديمو**
 ### **استخدام**
-بعد تثبيت وتكوين الوظيفة الإضافية Aspose Sitefinity Export Users to Excel ، من السهل حقًا البدء في استخدامها على موقع الويب الخاص بك. يرجى اتباع هذه الخطوات البسيطة للبدء:
+بعد تثبيت وتكوين إضافة Aspose Sitefinity Export Users to Excel، فمن السهل حقًا البدء في استخدامه على موقع الويب الخاص بك. يرجى اتباع هذه الخطوات البسيطة للبدء:
 
-1. تأكد من تسجيل الدخول إلى Sitefinity بحساب مستوى المسؤول.
-1. انتقل إلى الصفحة حيث تريد إضافة وظيفة التصدير الإضافية. تأكد من فتح الصفحة في وضع التحرير.
-1.  من**أدوات السحب** القائمة على اليمين ، حدد Aspose تصدير المستخدمين إلى Excel واسحبه إلى الموضع.
+1. تأكد من تسجيل الدخول إلى Sitefinity باستخدام حساب مستوى مسؤول.
+1. انتقل إلى الصفحة التي ترغب في إضافة الوظيفة الإضافية لتصديرها. تأكد من فتح الصفحة في وضع التحرير.
+1. من القائمة **سحب عناصر واجهة المستخدم** على اليمين، حدد تصدير مستخدمي SiteFinity إلى Excel واسحبه إلى الموضع المناسب.
 
 
-لقد نجحت في إضافة Aspose Sitefinity Export Users إلى Excel.
-### **فيديو تجريبي**
- يرجى المراجعة[الفيديو](https://www.youtube.com/watch?v=O1524u-Pom4) أدناه للاطلاع على الوحدة قيد التنفيذ.
+لقد قمت بإضافة Aspose Sitefinity Export Users to Excel بنجاح.
+### **فيديو توضيحي**
+يرجى التحقق [من الفيديو](https://www.youtube.com/watch?v=O1524u-Pom4) أدناه لرؤية الوحدة في العمل.
 ## **الدعم**
-منذ الأيام الأولى من Aspose ، علمنا أن مجرد تقديم منتجات جيدة لعملائنا لن يكون كافيًا. كنا بحاجة أيضًا إلى تقديم خدمة جيدة. نحن مطورون بأنفسنا ونفهم مدى الإحباط عندما تمنعك مشكلة فنية أو غرابة في البرنامج من القيام بما تحتاج إلى القيام به. نحن هنا لحل المشاكل وليس خلقها.
+منذ الأيام الأولى لـ Aspose ، كنا نعلم أن مجرد منح عملائنا منتجات جيدة لن يكون كافيًا. كنا بحاجة أيضًا إلى تقديم خدمة جيدة. نحن أنفسنا مطورين ونفهم مدى إزعاج القضايا التقنية أو العيوب في البرمجيات التي توقفك عن القيام بما تحتاج إلى القيام به. نحن هنا لحل المشاكل ، وليس لخلقها.
 
-هذا هو السبب في أننا نقدم الدعم المجاني. أي شخص يستخدم منتجاتنا ، سواء اشتراها أو استخدم تقييمًا ، يستحق كامل اهتمامنا واحترامنا.
+هذا هو السبب في أننا نقدم الدعم المجاني. يستحق أي شخص يستخدم منتجاتنا ، سواء اشتروها أو كانوا يستخدمون تقييمًا ، كامل انتباهنا واحترامنا.
 
-يمكنك تسجيل أي مشكلات أو اقتراحات تتعلق بـ Aspose.Cells .NET لوحدات Sitefinity النمطية باستخدام أي من الأنظمة الأساسية التالية
+يمكنك تسجيل أي مشاكل أو اقتراحات تتعلق بوحدات Aspose.Cells .NET for Sitefinity باستخدام أي من المنصات التالية
 
-- [ جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+- [جيتهاب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 ## **تمديد والمساهمة**
-Aspose Sitefinity Widgets / Modules مفتوحة المصدر وكودها المصدر متاح على مواقع الترميز الاجتماعي الرئيسية المدرجة أدناه. يتم تشجيع المطورين على تنزيل الكود المصدري وتوسيع الوظائف وفقًا لمتطلباتهم الخاصة.
+Aspose Sitefinity Widgets/Modules مفتوحة المصدر وكودها متاح على المواقع الرئيسية لتشفير الشبكات الاجتماعية المدرجة أدناه. يشجع المطورون على تنزيل كود المصدر وتوسيع الوظائف وفقًا لمتطلباتهم الخاصة.

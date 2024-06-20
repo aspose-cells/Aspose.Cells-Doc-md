@@ -1,15 +1,16 @@
-﻿---
-title: Konvertera kalkylark till PDF i Aspose.Cells
+---
+title: Konvertera kalkylblad till PDF i Aspose.Cells
 type: docs
 weight: 10
 url: /sv/net/convert-spreadsheet-to-pdf-in-aspose-cells/
 ---
-## **Aspose.Cells - Konvertera kalkylark till PDF**
-PDF dokument används ofta som ett standardformat för utbyte av dokument mellan organisationer, statliga sektorer och individer. Mjukvaruutvecklare uppmanas ofta att skapa ett sätt att enkelt konvertera Microsoft Excel-filer till PDF-dokument. Aspose.Cells stöder denna funktion.
+
+## **Aspose.Cells - Konvertera kalkylblad till PDF**
+PDF-dokument används ofta som standardformat för utbyte av dokument mellan organisationer, regeringssektorer och individer. Programutvecklare ombeds ofta att skapa en enkel metod för att konvertera Microsoft Excel-filer till PDF-dokument. Aspose.Cells stödjer denna funktion.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook("../../data/test.xlsx");
 
@@ -18,7 +19,7 @@ PDF dokument används ofta som ett standardformat för utbyte av dokument mellan
 workbook.Save("AsposeConvert.pdf", SaveFormat.Pdf);
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Konvertera kalkylark till PDF** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Konvertera kalkylblad till PDF** från någon av nedan nämnda sociala kodningsplatser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Spreadsheet.To.PDF.Aspose.Cells.zip)

@@ -3,32 +3,33 @@ title: تكرار الصفوف والأعمدة
 type: docs
 weight: 50
 url: /ar/java/iterate-rows-and-columns/
-description: تعرف على كيفية تكرار الصفوف والأعمدة من خلال واجهات برمجة التطبيقات Aspose.Cells for Java.
-keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
+description: تعلم كيفية تكرار الصفوف والأعمدة من خلال واجهة برمجة التطبيقات Aspose.Cells for Java.
+keywords: كيفية تصفح الصفوف والأعمدة في جافا ، تصفح الصفوف باستخدام جافا ، جافا تصفح الأعمدة. 
 ---
-##  **كيفية تكرار الصفوف والأعمدة باستخدام Aspose.Cells for Java**
 
-يمكن تكرار الصفوف والأعمدة باستخدام مجموعة الصفوف والأعمدة.
+## **كيفية تصفح الصفوف والأعمدة باستخدام Aspose.Cells for Java**
+
+يمكن تصفح الصفوف والأعمدة باستخدام مجموعة الصفوف والأعمدة.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- // الوصول إلى نطاق العرض الأقصى
+ //Access the Maximum Display Range
 
-نطاق النطاق = ورقة العمل.getCells().getMaxDisplayRange();
+Range range = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("إجمالي الصفوف:" + trows);
+System.out.println("Total Rows:" + trows);
 
-System.out.println("إجمالي الألوان:" + tcols);
+System.out.println("Total Cols:" + tcols);
 
-RowCollectionrows = cell.getRows();
+RowCollection rows = cells.getRows();
 
- من أجل (int i = 0؛ i< rows.getCount() ; i++)
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -46,13 +47,13 @@ RowCollectionrows = cell.getRows();
 
 {{< /highlight >}}
 
-##  **Apache POI SS - HSSF XSSF - تكرار الصفوف والأعمدة**
+## **أباتشي POI SS - HSSF XSSF - تصفح الصفوف والأعمدة**
 
-يمكن تكرار الصفوف وCells على الورقة. تم ذكر نموذج التعليمات البرمجية أدناه:
+يمكن تصفح الصفوف والخلايا على الورقة. يتم ذكر الشيفرة العينية أدناه:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = WorkbookFactory.create(inStream);
 
@@ -74,11 +75,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-##  **تحميل كود التشغيل**
+## **تحميل رمز التشغيل**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-##  **تنزيل نموذج التعليمات البرمجية**
+## **تحميل رمز عينة**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/Java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

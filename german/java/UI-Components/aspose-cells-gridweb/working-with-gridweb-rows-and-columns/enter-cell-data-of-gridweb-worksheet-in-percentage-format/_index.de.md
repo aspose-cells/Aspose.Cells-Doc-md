@@ -1,22 +1,23 @@
 ---
-title: Geben Sie Cell Daten des GridWeb-Arbeitsblatts im Prozentformat ein
+title: Geben Sie Zelldaten des GridWeb Arbeitsblatts im Prozentformat ein
 type: docs
 weight: 1010
 url: /de/java/enter-cell-data-of-gridweb-worksheet-in-percentage-format/
 ---
-##  **Mögliche Nutzungsszenarien**
-GridWeb unterstützt Benutzer jetzt bei der Eingabe von Zelldaten im Prozentformat wie 3 %, und die Daten in der Zelle werden automatisch als 3,00 % formatiert. Allerdings müssen Sie den Zellenstil auf „Prozentformat“ einstellen, das entweder „GridTableItemStyle.NumberType“ oder „9“ oder „10“ ist. Die Zahl 9 formatiert 3 % als 3 %, aber die Zahl 10 formatiert 3 % als 3,00 %.
+
+## **Mögliche Verwendungsszenarien**
+GridWeb unterstützt jetzt Benutzer dabei, Zelldaten im Prozentformat wie 3% einzugeben, und die Daten in der Zelle werden automatisch als 3,00% formatiert. Sie müssen jedoch den Zellstil auf Prozentformat setzen, welches entweder GridTableItemStyle.NumberType 9 oder 10 ist. Die Nummer 9 wird 3% als 3% formatieren, aber die Nummer 10 wird 3% als 3,00% formatieren.
 
 {{% alert color="primary" %}} 
 
-Wenn Sie den Zellenstil nicht auf „Prozentformat“ eingestellt haben, werden die Eingabedaten 3 % als 0,03 angezeigt.
+Wenn Sie den Zellstil nicht auf Prozentformat gesetzt haben, wird die Eingabedaten 3% als 0,03 angezeigt.
 
 {{% /alert %}} 
-##  **Geben Sie Cell Daten des GridWeb-Arbeitsblatts im Prozentformat ein**
-Der folgende Beispielcode setzt die Zelle A1 GridTableItemStyle.NumberType auf 10, daher werden die Eingabedaten 3 % automatisch als 3,00 % formatiert, wie im Screenshot gezeigt.
+## **Eingabe von Zelldaten des GridWeb-Arbeitsblatts im Prozentformat**
+Der folgende Beispielcode setzt die Zelle A1 GridTableItemStyle.NumberType auf 10. Daher wird die Eingabedaten 3% automatisch als 3,00% formatiert, wie im Screenshot gezeigt.
 
 ![todo:image_alt_text](enter-cell-data-of-gridweb-worksheet-in-percentage-format_1.png)
-##  **Beispielcode**
+## **Beispielcode**
 
 
 

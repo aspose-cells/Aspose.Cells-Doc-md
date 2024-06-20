@@ -1,18 +1,19 @@
-﻿---
-title: Экспорт комментариев при сохранении файла Excel на номер HTML
+---
+title: Экспорт комментариев при сохранении файла Excel в HTML
 type: docs
 weight: 40
 url: /ru/net/export-comments-while-saving-excel-file-to/
 ---
+
 ## **Возможные сценарии использования**
 
-Когда вы сохраняете файл Excel в HTML, комментарии не экспортируются. Однако Aspose.Cells предоставляет эту функцию с помощью[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/) имущество. Если вы установите его**истинный**то HTML также отобразит комментарии, присутствующие в вашем файле Excel.
+Когда вы сохраняете свой Excel файл в HTML, комментарии не экспортируются. Однако Aspose.Cells предоставляет эту функцию с помощью свойства [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/). Если вы установите его **true**, то HTML также будет отображать комментарии, присутствующие в вашем Excel файле.
 
-## **Экспорт комментариев при сохранении файла Excel на номер HTML**
+## **Экспортировать комментарии при сохранении файла Excel в HTML**
 
-В следующем примере кода объясняется использование[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)имущество. На снимке экрана показано действие кода на HTML, когда он установлен на**истинный** . Пожалуйста, загрузите[образец файла Excel](50528260.xlsx) и[сгенерировано HTML](5052826.txt) для справки.
+Следующий образец кода объясняет использование свойства [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/). На скриншоте показан эффект этого кода на HTML, когда он установлен в **true**. Для справки загрузите [образец Excel файла](50528260.xlsx) и [сгенерированный HTML](5052826.txt).
 
-![дело:изображение_альтернативный_текст](export-comments-while-saving-excel-file-to-html_1.png)
+![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 
 ## **Образец кода**
 

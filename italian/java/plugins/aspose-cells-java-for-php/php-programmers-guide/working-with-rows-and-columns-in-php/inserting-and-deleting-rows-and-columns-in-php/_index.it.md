@@ -1,18 +1,19 @@
 ---
-title: Inserimento ed eliminazione di righe e colonne in PHP
+title: Inserimento e cancellazione di righe e colonne in PHP
 type: docs
 weight: 60
 url: /it/java/inserting-and-deleting-rows-and-columns-in-php/
-description: Scopri come inserire ed eliminare righe e colonne tramite le API Aspose.Cells for PHP via Java.
-keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Columns using PHP, PHP Delete Rows and Columns, Insert Rows or Columns with PHP, Delete Rows or Columns via PHP.
+description: Scopri come inserire e cancellare righe e colonne tramite le API Aspose.Cells per PHP via Java.
+keywords: Come inserire e cancellare righe e colonne in PHP, Inserire righe e colonne utilizzando PHP, PHP Cancellare righe e colonne, Inserire righe o colonne con PHP, Cancellare righe o colonne tramite PHP.
 ---
-##  **Aspose.Cells - Gestione Righe/Colonne**
-###  **Inserimento di una riga**
-Inserisci una riga in qualsiasi posizione chiamando il metodo insertRows della raccolta Cells. Il metodo insertRows prende l'indice della riga in cui verrà inserita la nuova riga come primo argomento e il numero di righe da inserire come secondo argomento.
+
+## **Aspose.Cells - Gestione delle righe/colonne**
+### **Inserimento di una riga**
+Inserire una riga in qualsiasi posizione chiamando il metodo insertRows della collezione Cells. Il metodo insertRows prende l'indice della riga in cui verrà inserita la nuova riga come primo argomento e il numero di righe da inserire come secondo argomento.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_row($dataDir)
 
@@ -39,15 +40,15 @@ Inserisci una riga in qualsiasi posizione chiamando il metodo insertRows della r
 }  
 
 {{< /highlight >}}
-###  **Inserimento di più righe**
-Per inserire più righe nel foglio di lavoro, chiamare il metodo insertRows della raccolta Cells. Il metodo InsertRows accetta due parametri:
+### **Inserimento di Più Righe**
+Per inserire più righe nel foglio di lavoro, chiamare il metodo insertRows della collezione Cells. Il metodo insertRows prende due parametri:
 
-- Indice riga, l'indice della riga da cui verranno inserite le nuove righe.
-- Numero di righe, numero totale di righe da inserire.
+- Indice di riga, l'indice della riga da cui saranno inserite le nuove righe.
+- Numero di righe, numero totale di righe che devono essere inserite.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_multiple_rows($dataDir)
 
@@ -74,15 +75,15 @@ Per inserire più righe nel foglio di lavoro, chiamare il metodo insertRows dell
 }
 
 {{< /highlight >}}
-###  **Eliminazione di una riga**
-Per eliminare una riga in qualsiasi posizione, chiama il metodo deleteRows della raccolta Cells. Il metodo DeleteRows accetta due parametri:
+### **Eliminazione di una riga**
+Per eliminare una riga in qualsiasi posizione, chiamare il metodo deleteRows della collezione Cells. Il metodo DeleteRows prende due parametri:
 
-- Indice riga, l'indice della riga da cui verranno eliminate le righe.
+- Indice riga, l'indice della riga da cui partiranno le eliminazioni.
 - Numero di righe, numero totale di righe che devono essere eliminate.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_row($dataDir)
 
@@ -109,15 +110,15 @@ Per eliminare una riga in qualsiasi posizione, chiama il metodo deleteRows della
 }
 
 {{< /highlight >}}
-###  **Eliminazione di più righe**
-Per eliminare più righe da un foglio di lavoro, chiama il metodo deleteRows della raccolta Cells. Il metodo DeleteRows accetta due parametri:
+### **Eliminazione di Più Righe**
+Per eliminare più righe da un foglio di lavoro, chiamare il metodo deleteRows della collezione Cells. Il metodo DeleteRows prende due parametri:
 
-- Indice riga, l'indice della riga da cui verranno eliminate le righe.
+- Indice riga, l'indice della riga da cui partiranno le eliminazioni.
 - Numero di righe, numero totale di righe che devono essere eliminate.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_multiple_rows($dataDir)
 
@@ -144,15 +145,15 @@ Per eliminare più righe da un foglio di lavoro, chiama il metodo deleteRows del
 }
 
 {{< /highlight >}}
-###  **Inserimento di una colonna**
-Gli sviluppatori possono anche inserire una colonna nel foglio di lavoro in qualsiasi posizione chiamando il metodo insertColumns della raccolta Cells. Il metodo insertColumns accetta due parametri:
+### **Inserimento di una colonna**
+Gli sviluppatori possono anche inserire una colonna nel foglio di lavoro in qualsiasi posizione chiamando il metodo insertColumns della collezione Cells. Il metodo insertColumns prende due parametri:
 
-- Indice colonna, l'indice della colonna da cui verrà inserita la colonna
-- Numero di colonne, numero totale di colonne da inserire
+- Indice della colonna, l'indice della colonna da cui verrà inserita la colonna
+- Numero di colonne, numero totale di colonne che devono essere inserite
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_column($dataDir)
 
@@ -179,16 +180,16 @@ Gli sviluppatori possono anche inserire una colonna nel foglio di lavoro in qual
 }
 
 {{< /highlight >}}
-###  **Eliminazione di una colonna**
-Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiama il metodo deleteColumns della raccolta Cells. Il metodo deleteColumns accetta i seguenti parametri:
+### **Eliminare una colonna**
+Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiamare il metodo deleteColumns della collezione Cells. Il metodo deleteColumns richiede i seguenti parametri:
 
-- Indice colonna, l'indice della colonna da cui verrà eliminata la colonna.
+- Indice della colonna, l'indice della colonna da cui verrà eliminata la colonna.
 - Numero di colonne, numero totale di colonne che devono essere eliminate.
-- Sposta celle, parametro booleano per indicare se spostare le celle a sinistra dopo la cancellazione.
+- Spostare celle, parametro booleano per indicare se spostare le celle a sinistra dopo l'eliminazione.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_column($dataDir)
 
@@ -215,7 +216,7 @@ Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiama il
 }  
 
 {{< /highlight >}}
-##  **Scarica il codice in esecuzione**
- Scaricamento**Gestione righe/colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding indicati di seguito:
+## **Scarica il codice in esecuzione**
+Scarica **Gestione righe/colonne (Aspose.Cells)** da uno qualsiasi dei siti di codice sociale menzionati di seguito:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

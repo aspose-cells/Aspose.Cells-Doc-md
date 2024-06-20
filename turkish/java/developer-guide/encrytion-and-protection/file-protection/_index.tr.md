@@ -1,41 +1,42 @@
-﻿---
-title: Excel dosyalarını şifreleyin ve şifresini çözün
+---
+title: Excel Dosyalarını Şifrelemek ve Çözmek
 type: docs
 weight: 40
 url: /tr/java/encrypt-and-decrypt-excel-files/
-description: Java kullanarak excel dosyalarını şifreleme ve şifrelerini çözme. Excel dosyalarını kilitleyin ve kilidini açın.
+description: Java kullanarak excel dosyalarını şifreleme ve şifresini çözme nasıl yapılır. Excel dosyalarını kilitleme ve kilidini açma.
 ---
+
 {{% alert color="primary" %}}
-Microsoft Excel (97 - 365 ), elektronik tablolarınızı şifrelemenizi / parola ile korumanızı sağlar. Crypto Service Provider tarafından sağlanan algoritmaları kullanır. Bir Kripto Hizmet Sağlayıcısı veya CSP, farklı özelliklere sahip bir dizi kriptografik algoritmadır. Varsayılan CSP "Office 97/2000 Uyumlu" veya "Hafta Şifreleme (XOR)" şeklindedir. Uygun bir şifreleme anahtarı uzunluğu seçmek de önemlidir. Kripto Hizmet Sağlayıcılarından bazıları 40 veya 56 bitten fazlasını desteklemez. Bu, zayıf bir şifreleme türü olarak kabul edilir. Ancak, güçlü şifreleme türü için minimum 128 bit anahtar uzunluğu gereklidir. Microsoft Windows, güçlü şifreleme türleri de sunan Kripto Hizmet Sağlayıcıları içerir, örneğin 'Microsoft Güçlü Şifreleme Sağlayıcı'. Bir fikir vermek gerekirse, 128 bit şifreleme, bankaların İnternet Bankacılığı Sistemleri ile bağlantıyı şifrelemek için kullandıkları şeydir. Aspose.Cells, excel dosyalarınızı istediğiniz şifreleme türü ile şifrelemenizi / şifre korumanızı sağlar.
+Microsoft Excel (97 - 365 ), elektronik tablolarınızı şifreleme / parola koruma imkanı sunar. Bu, Cryptographic Service Provider tarafından sağlanan algoritmaları kullanır. Cryptographic Service Provider veya CSP, farklı özelliklere sahip bir dizi şifreleme algoritmasıdır. Varsayılan CSP "Office 97/2000 Uyumlu" veya "Hafta Şifreleme (XOR)"'dir. Ayrıca uygun bir şifreleme anahtarı uzunluğunu seçmek de önemlidir. Bazı Cryptographic Service Provider'lar 40 veya 56 biti aşmayan şifreleme tiplerini desteklemez. Bu, zayıf bir şifreleme türü olarak kabul edilir. Ancak, güçlü şifreleme türü için, minimum 128 bitlik bir anahtar uzunluğu gereklidir. Ayrıca Microsoft Windows, örneğin,'Microsoft Strong Cryptographic Provider' gibi güçlü şifreleme türlerini sunan Cryptographic Service Provider'lar içerir. Bir fikir vermek gerekirse, 128 bit şifreleme, bankaların İnternet Bankacılık Sistemleri ile bağlantıyı şifrelemek için kullandığı şeydir. Aspose.Cells, istediğiniz şifreleme türüyle excel dosyalarını şifrelemenize / parola korumanıza imkan tanır.
 
 {{% /alert %}}
 
-## **MS Excel'i kullanma**
+## **MS Excel Kullanarak**
 
-MS Excel'de (örn. MS Excel 2003), dosya şifreleme ayarlarını uygulamak için şunları deneyebilirsiniz:
+MS Excel'de (örneğin MS Excel 2003), dosya şifreleme ayarlarını gerçekleştirmek için şunları deneyebilirsiniz:
 
--  itibaren**Araçlar** menü, seç**Seçenekler** ve ardından**Güvenlik** sekme.
--  Giriş**açmak için şifre** ve tıklayın**Gelişmiş** buton.
-- Şifreleme türünü seçin ve parolayı onaylayın.
+- **Araçlar** menüsünden **Seçenekler**'i seçin ve ardından **Güvenlik** sekmesini seçin.
+- **Açmak için Şifre**'yi girin ve **Gelişmiş** düğmesine tıklayın.
+- Şifreleme türünü seçin ve şifreyi doğrulayın.
 
-![yapılacaklar:resim_alternatif_metin](encrypting-excel-files_1.png)
+![todo:image_alt_text](encrypting-excel-files_1.png)
 
 **Şekil: Seçenekler iletişim kutusu**
 
-![yapılacaklar:resim_alternatif_metin](encrypting-excel-files_2.png)
+![todo:image_alt_text](encrypting-excel-files_2.png)
 
 **Şekil: Şifreleme Türü iletişim kutusu**
 
-## **Excel dosyasını şifreleme**
-Aşağıdaki örnek, Aspose.Cells API kullanarak bir excel dosyasını nasıl şifreleyebileceğinizi / parolayla koruyabileceğinizi gösterir.
+## **Excel dosyası şifreleme**
+Aşağıdaki örnek, Aspose.Cells API'sını kullanarak bir Excel dosyasını şifrelemenin / parolayla korumanın nasıl yapılabileceğini göstermektedir.
 
-### **Basit kod:**
+### **Örnek Kod:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-EncryptingFiles-EncryptingFiles.java" >}}
 
 
 ## **Aspose.Cells ile Excel dosyasının şifresini çözme**
-Parola korumalı excel dosyasını açmak ve aşağıdaki kodlar gibi Aspose.Cells API kullanarak şifresini çözmek çok önemlidir:
+Koruma altındaki Excel dosyasını açmak ve Aspose.Cells API'sını kullanarak aşağıdaki kodları kullanarak şifresini çözmek çok kolaydır:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Decrypt-Excel-File.java" >}}
 

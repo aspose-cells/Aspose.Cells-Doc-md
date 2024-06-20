@@ -1,26 +1,27 @@
 ---
-title: اقرأ تسميات المحاور بعد حساب المخطط
-description: تعرف على كيفية قراءة تسميات المحاور في Aspose.Cells for Java بعد حساب الرسم البياني. سيوضح لك دليلنا كيفية الوصول إلى تسميات المحاور واستردادها، بما في ذلك تنسيقها وموضعها.
-keywords: Aspose.Cells for Java, chart, axis labels, calculation, reading, accessing, retrieving, formatting, positioning.
+title: قراءة تسميات المحور بعد حساب الرسم البياني
+description: تعلم كيفية قراءة تسميات المحور في Aspose.Cells for Java بعد حساب الرسم البياني. سيعرض دليلنا لك كيفية الوصول إلى تسميات المحور واستردادها، بما في ذلك تنسيقها وموضعها.
+keywords: Aspose.Cells for Java، رسم بياني، تسميات المحور، حساب، قراءة، الوصول، استرداد، تنسيق، موضع
 type: docs
 weight: 90
 url: /ar/java/read-axis-labels-after-calculating-the-chart/
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-يمكنك قراءة تسميات محاور المخطط الخاص بك بعد حساب قيمها باستخدام[**الرسم البياني. احسب ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart/#calculate--)طريقة. الرجاء استخدام[**المحور.getAxisTexts()**](https://reference.aspose.com/cells/java/com.aspose.cells/axis/#getAxisTexts--)طريقة لهذا الغرض والتي ستعيد قائمة تسميات المحاور.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **اقرأ تسميات المحاور بعد حساب المخطط**
+يمكنك قراءة تسميات محور الرسم البياني بعد حساب قيمه باستخدام الطريقة [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart/#calculate--). يرجى استخدام الطريقة [**Axis.getAxisTexts()**](https://reference.aspose.com/cells/java/com.aspose.cells/axis/#getAxisTexts--) لهذا الغرض التي ستقوم بإرجاع قائمة تسميات المحور.
 
-الرجاء مراجعة نموذج التعليمات البرمجية التالي الذي يقوم بتحميل ملف[عينة من ملف إكسل](64716829.xlsx)ويقرأ تسميات محور الفئة للمخطط في ورقة العمل الأولى. ثم يقوم بطباعة قيم تسميات المحاور على وحدة التحكم. يرجى الاطلاع على مخرجات وحدة التحكم الخاصة بنموذج التعليمات البرمجية الموضح أدناه للحصول على مرجع.
+## **قراءة تسميات المحور بعد حساب الرسم البياني**
 
-##  **عينة من الرموز**
+يرجى الاطلاع على الشيفرة المرجعية التالية التي تحمل الملف اكسل المرفق وتقوم بقراءة علامات محور الفئة للرسم البياني في الورقة العمل الأولى. ثم تقوم بطباعة قيم علامات المحور على واجهة الاستخدام. يرجى الاطلاع على الناتج الناتج من الشيفرة المرجعية المرفقة أدناه للإحالة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-ReadAxisLabelsAfterCalculatingTheChart.java" >}}
 
-##  **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Category Axis Labels:
 

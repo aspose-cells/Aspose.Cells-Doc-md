@@ -1,16 +1,17 @@
-﻿---
-title: Mantenga separadores para filas en blanco al exportar hojas de cálculo al formato CSV
+---
+title: Mantener separadores para filas en blanco al exportar hojas de cálculo a formato CSV
 type: docs
 weight: 110
 url: /es/java/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/
 ---
-## **Mantenga separadores para filas en blanco al exportar hojas de cálculo al formato CSV**
 
-Aspose.Cells brinda la capacidad de mantener los separadores de línea al convertir hojas de cálculo al formato CSV. Para ello, puede utilizar el**[KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow)**propiedad de**[TxtSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/TxtSaveOptions)**clase.**[KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow)**es una propiedad booleana. Para mantener los separadores para las líneas en blanco al convertir el archivo de Excel a CSV, configure el**[KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow)**propiedad a**verdadero**.
+## **Mantener separadores para filas en blanco al exportar hojas de cálculo a formato CSV**
 
-El siguiente código de ejemplo carga el[archivo fuente de Excel](KeepSeparatorsForBlankRow.xlsx). se pone**[TxtSaveOptions.KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow)**propiedad a**verdadero** y lo guarda como[KeepSeparatorsForBlankRow.out.csv](KeepSeparatorsForBlankRow.out.csv). La captura de pantalla muestra la comparación entre el archivo Excel de origen, la salida predeterminada generada al convertir la hoja de cálculo a CSV y la salida generada al configurar**[KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow)**a**verdadero**.
+Aspose.Cells proporciona la capacidad de mantener los separadores de línea al convertir hojas de cálculo a formato CSV. Para esto, puede usar la propiedad [**KeepSeparatorsForBlankRow**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow) de la clase [**TxtSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TxtSaveOptions). [**KeepSeparatorsForBlankRow**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow) es una propiedad booleana. Para mantener los separadores para líneas en blanco al convertir el archivo de Excel a CSV, configure la propiedad [**KeepSeparatorsForBlankRow**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow) en **true**.
 
-![todo:imagen_alternativa_texto](keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format_1.jpg)
+El siguiente código de muestra carga el [archivo de Excel de origen](KeepSeparatorsForBlankRow.xlsx). Configura la propiedad [**TxtSaveOptions.KeepSeparatorsForBlankRow**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow) a **true** y lo guarda como [KeepSeparatorsForBlankRow.out.csv](KeepSeparatorsForBlankRow.out.csv). La captura de pantalla muestra la comparación entre el archivo de Excel de origen, la salida predeterminada generada al convertir la hoja de cálculo a CSV y la salida generada configurando [**KeepSeparatorsForBlankRow**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow) a **true**.
+
+![todo:image_alt_text](keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format_1.jpg)
 
 ## **Código de muestra**
 

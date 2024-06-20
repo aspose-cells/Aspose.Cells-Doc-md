@@ -1,29 +1,30 @@
 ---
-title: Licensing
+title: ライセンス
 type: docs
 weight: 50
 url: /ja/java/licensing/
-description: JAVA の Aspose.Cells では、さまざまな購入プランが提供されるか、Licensing と Java のサブスクリプション ポリシーを使用した評価用の無料トライアルと 30 日間の一時ライセンスが提供されます。
-keywords: Java Apply License from Disk or Stream. Java Set License from Disk or Stream. Apply License in Aspose.Cells for Java.
+description: Aspose.Cells for JAVAでは、Javaのライセンスとサブスクリプションポリシーを使用して、購入のための異なる計画や無料トライアル、30日間の評価用の一時ライセンスを提供しています。
+keywords: Javaでディスクまたはストリームからライセンスを適用する。Javaでディスクまたはストリームからライセンスを設定する。Aspose.Cells for Javaにライセンスを適用する。.
 ---
-##  **Aspose.Cells コンポーネントにライセンスを適用する方法**
 
-ライセンスは、製品名、ライセンスが付与されている開発者の数、サブスクリプションの有効期限などの詳細が含まれるプレーン テキストの XML ファイルです。ファイルはデジタル署名されているため、ファイルを変更しないでください。ファイルに不注意で余分な改行を追加した場合でも、ファイルは無効になります。
+## **Aspose.Cells コンポーネントでライセンスを適用する方法**
 
-Aspose.Cells の評価制限を回避するには、Aspose.Cells を利用する前にライセンスを設定する必要があります。ライセンスを設定する必要があるのは、アプリケーションまたはプロセスごとに 1 回だけです。
+ライセンスの設定
 
-ライセンスは、次の場所にあるストリームまたはファイルからロードできます。
+ライセンスは、製品名、ライセンスされた開発者の数、サブスクリプションの有効期限などの詳細が含まれるプレーンテキストのXMLファイルです。ファイルはデジタル署名されているため、ファイルを変更しないでください。ファイルに行を追加した場合でも、それは無効になります。Aspose.Cellsを利用する前にライセンスを設定する必要があります。アプリケーションまたはプロセスごとにライセンスを1回だけ設定する必要があります。
+
+ライセンスは、次の場所からストリームまたはファイルからロードできます：1. 明示的なパス。
 
 1. 明示的なパス。
-1. Aspose.Cells.jar が含まれるフォルダー。
+1. Aspose.Cells.jar を含むフォルダ。
 
-使用[License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) メソッドでコンポーネントのライセンスを取得します。多くの場合、ライセンスを設定する最も簡単な方法は、次の例に示すように、ライセンス ファイルを Aspose.Cells.jar と同じフォルダーに置き、パスを指定せずにファイル名だけを指定することです。
+[License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) メソッドを使用して、コンポーネントにライセンスを付与します。ライセンスを設定する最も簡単な方法は、Aspose.Cells.jar と同じフォルダにライセンスファイルを配置し、次の例に示すようにパスを指定せずにファイル名だけを指定することです。
 
-###  **ディスクからライセンスを適用する方法**
+### **ディスクからライセンスを適用する方法**
 
-この例では**Aspose.Cells**は、アプリケーションの JAR が含まれるフォルダー内のライセンス ファイルの検索を試みます。
+この例では、**Aspose.Cells** はアプリケーションの JAR のフォルダにライセンスファイルを検索しようとします。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 com.aspose.cells.License license = new com.aspose.cells.License();
 
@@ -31,11 +32,11 @@ license.setLicense("Aspose.Cells.Java.lic");
 
 {{< /highlight >}}
 
-###  **ストリームからライセンスを適用する方法**
+### **ストリームからライセンスを適用する方法**
 
 ストリームからライセンスを初期化します。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 com.aspose.cells.License license = new com.aspose.cells.License();
 
@@ -43,11 +44,11 @@ license.setLicense(new java.io.FileInputStream("Aspose.Cells.Java.lic"));
 
 {{< /highlight >}}
 
-###  **Aspose.Cells.GridWeb でライセンスを適用する方法**
+### **Aspose.Cells.GridWeb でライセンスを適用する方法**
 
-ライセンス コードは、Web アプリケーション内の最初に処理される場所に配置することをお勧めします。
+ウェブアプリケーションでライセンスコードを処理するための推奨される場所。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate an instance of license and set the license file through its path
 
@@ -57,13 +58,13 @@ lic.setLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-##  **従量制課金ライセンスを適用する方法**
+## **メータード ライセンスの適用方法**
 
-Aspose.Cells を使用すると、開発者は従量制キーを適用できます。これは新しいライセンスメカニズムです。新しいライセンス メカニズムは、既存のライセンス方式と併用されます。 API 機能の使用量に基づいて請求されることを希望する顧客は、従量制ライセンスを使用できます。詳細については、を参照してください。[従量制 Licensing よくある質問](https://purchase.aspose.com/faqs/licensing/metered)セクション。
+Aspose.Cellsでは、開発者がメータードキーを適用することができます。これは新しいライセンスメカニズムです。新しいライセンスメカニズムは、既存のライセンス方法と併用されます。API機能の使用に基づいて請求を受けたい顧客は、メータードライセンスを使用できます。詳細については、[メータードライセンスFAQ](https://purchase.aspose.com/faqs/licensing/metered)セクションを参照してください。
 
-新しいクラス[従量制](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)従量制キーを適用するために導入されました。以下は、従量制の公開キーと秘密キーを設定する方法を示すサンプル コードです。
+メーターキーを設定する方法を示すサンプルコードは、新しいクラス [Metered](https://reference.aspose.com/cells/java/com.aspose.cells/Metered) が導入されました。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 //Set metered public and private keys
 

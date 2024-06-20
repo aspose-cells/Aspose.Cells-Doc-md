@@ -1,34 +1,35 @@
-﻿---
-title: Stellen Sie sicher, dass der Wert Cell die Datenvalidierungsregeln erfüllt
+---
+title: Überprüfen Sie, ob der Zellenwert den Datenvalidierungsregeln entspricht
 type: docs
 weight: 90
 url: /de/java/verify-that-cell-value-satisfies-data-validation-rules/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel ermöglicht Benutzern das Hinzufügen von Datenvalidierungsregeln zu Arbeitsblattzellen. Beispielsweise kann eine Dezimalvalidierung angewendet werden, um die Zahlen zwischen 10 und 20 einzuschränken. Wenn eine andere Zahl außerhalb dieses angegebenen Bereichs eingegeben wird, zeigt Excel Microsoft eine Fehlermeldung an und fordert den Benutzer auf, eine Zahl aus dem richtigen Bereich erneut einzugeben. Wenn der Benutzer eine Zahl, z. B. 3, in die Zelle einfügt, führt Excel die Validierungsprüfung nicht aus oder zeigt eine Fehlermeldung an.
+Microsoft Excel ermöglicht es Benutzern, Datenvalidierungsregeln für Arbeitsblattzellen hinzuzufügen. Beispielsweise kann eine Dezimalvalidierung angewendet werden, um die Zahlen zwischen 10 und 20 einzuschränken. Wenn eine beliebige andere Zahl außerhalb dieses festgelegten Bereichs eingegeben wird, zeigt Microsoft Excel eine Fehlermeldung an und fordert den Benutzer auf, eine Zahl aus dem korrekten Bereich erneut einzugeben. Wenn der Benutzer eine Zahl, sagen wir 3, in die Zelle kopiert, führt Excel keine Validierungsprüfung durch oder zeigt eine Fehlermeldung an.
 
 {{% /alert %}}
 
-## Stellen Sie sicher, dass der Wert Cell die Datenvalidierungsregeln erfüllt
+## Überprüfen Sie, ob der Zellenwert den Datenvalidierungsregeln entspricht
 
-Manchmal ist es erforderlich, dynamisch zu überprüfen, ob ein bestimmter Wert die auf die Zelle angewendeten Datenvalidierungsregeln erfüllt. Hierfür stellen die Aspose.Cells APIs die[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) Methode. Wenn der Wert in einer Zelle die auf diese Zelle angewendete Datenvalidierungsregel nicht erfüllt, wird er zurückgegeben**FALSCH** , anders**Wahr**.
+Manchmal ist es erforderlich, dynamisch zu überprüfen, ob ein bestimmter Wert den für die Zelle geltenden Datenvalidierungsregeln entspricht. Hierfür bieten die Aspose.Cells-APIs die Methode [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--). Wenn der Wert in einer Zelle den für diese Zelle geltenden Datenvalidierungsregeln nicht entspricht, gibt die Methode **False** zurück, andernfalls **True**.
 
-Die folgende Excel-Beispieldatei Microsoft wird mit dem folgenden Beispielcode verwendet, um die[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) Methode. Wie Sie im Schnappschuss sehen können, sind die Zellen**C1** hat**dezimale Datenvalidierung** angewendet und akzeptiert nur Werte**zwischen 10 und 20** . Immer wenn der Wert der Zelle zwischen 10 und 20 liegt,[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) Methode zurück**Wahr** , andernfalls kehrt es zurück**FALSCH**.
+Die folgende Beispielmicrosoft-excel-Datei wird mit dem unten stehenden Beispielcode verwendet, um die Methode [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) zu testen. Wie in der Momentaufnahme zu sehen ist, hat die Zelle **C1** eine **dezimale Datenvalidierung** und akzeptiert nur Werte **zwischen 10 und 20**. Wann immer der Wert der Zelle zwischen 10 und 20 liegt, gibt die Methode [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) **True** zurück, ansonsten gibt sie **False** zurück.
 
-![todo: Bild_alt_Text](verify-that-cell-value-satisfies-data-validation-rules_1.png)
+![todo:image_alt_text](verify-that-cell-value-satisfies-data-validation-rules_1.png)
 
- Der folgende Beispielcode veranschaulicht, wie die[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) Methode funktioniert. Zuerst trägt er den Wert 3 in C1 ein. Da dies die Datenvalidierungsregel nicht erfüllt, wird die[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) Methode gibt zurück**FALSCH** . Dann trägt er den Wert 15 in C1 ein. Da dieser Wert die Datenvalidierungsregel erfüllt, wird die[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) Methode gibt zurück**Wahr** . Ebenso kehrt es zurück**FALSCH** für Wert 30.
+Der folgende Beispielcode veranschaulicht, wie die Methode [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) funktioniert. Zunächst gibt er den Wert 3 in C1 ein. Da dies den Datenvalidierungsregeln nicht entspricht, gibt die Methode [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) **False** zurück. Dann gibt er den Wert 15 in C1 ein. Da dieser Wert den Datenvalidierungsregeln entspricht, gibt die Methode [**cell.getValidationValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue--) **True** zurück. Ebenso gibt sie für den Wert 30 ebenfalls **False** zurück.
 
-## Java-Code, um zu überprüfen, ob ein Cell-Wert die Datenvalidierungsregeln erfüllt
+## Java-Code zum Überprüfen, ob der Zellenwert den Datenvalidierungsregeln entspricht
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-VerifyCellValueSatisfiesDataValidationRules-VerifyCellValueSatisfiesDataValidationRules.java" >}}
 
-## Vom Beispielcode generierte Konsolenausgabe
+## Von dem Beispielcode generierte Konsolenausgabe
 
-Hier ist die Konsolenausgabe, die generiert wird, wenn der Beispielcode mit der oben gezeigten Beispiel-Excel-Datei ausgeführt wird.
+Hier ist die von der Beispielmethode generierte Konsolenausgabe, wenn der Beispielcode mit der obigen Beispieldatei ausgeführt wird.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is 3 a Valid Value for this Cell: False
 

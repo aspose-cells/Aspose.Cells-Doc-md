@@ -1,15 +1,16 @@
-﻿---
-title: チャートを作成する
+---
+title: チャートを作成
 type: docs
 weight: 20
 url: /ja/net/create-charts/
 ---
-## **Aspose.Cells - チャートの作成**
-Aspose.Cells を使用して、さまざまなチャートをスプレッドシートに追加することができます。Aspose.Cells は、多くの柔軟なチャート オブジェクトを提供します。
+
+## **Aspose.Cells - チャートを作成**
+Aspose.Cells を使用してスプレッドシートにさまざまな種類のグラフを追加することができます。Aspose.Cells には多くの柔軟なグラフオブジェクトが提供されています。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -68,13 +69,13 @@ serieses.Add("A1:B3", true);
 workbook.Save("Chart_Aspose.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**チャートを作成する**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから **チャートを作成** をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[チャートの作成方法](/cells/ja/net/create-charts/).
+詳細については、[チャートの作成方法](/cells/ja/net/create-charts/)をご覧ください。
 
 {{% /alert %}}

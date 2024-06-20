@@ -1,31 +1,36 @@
-﻿---
-title: Hur man får information om OData-anslutning
+---
+title: Hur man får OData anslutningsinformation
 type: docs
 weight: 60
 url: /sv/java/how-to-get-odata-connection-information/
 ---
-## **Få information om OData-anslutning**
 
-Det kan finnas fall där utvecklare behöver extrahera OData-information från excel-filen. Aspose.Cells tillhandahåller[**Arbetsbok.DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup)egenskap som returnerar DataMashup-informationen som finns i Excel-filen. Denna information representeras av DataMashup-klassen. Klassen DataMashup tillhandahåller egenskapen PowerQueryFormulas som returnerar samlingen PowerQueryFormulaCollction. Från PowerQueryFormulaCollction kan du få tillgång till PowerQueryFormula och PowerQueryFormulaItem.
+## **Få OData-anslutningsinformation**
 
-Följande kodavsnitt visar användningen av dessa klasser för att hämta OData-informationen.
+Det kan finnas fall där utvecklare behöver extrahera OData information från excelfilen. Aspose.Cells tillhandahåller [**Workbook.DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup) egenskapen som returnerar DataMashup-informationen som finns i Excel-filen. Denna information representeras av DataMashup-klassen. DataMashup-klassen tillhandahåller egenskapen PowerQueryFormulas som returnerar PowerQueryFormulaCollction-samlingen. Från PowerQueryFormulaCollction kan du få tillgång till PowerQueryFormula och PowerQueryFormulaItem.
 
-Källfilen som används i följande kodavsnitt bifogas som referens.
+Följande kodsnutt visar användningen av dessa klasser för att hämta OData-informationen.
 
-[Källfilen](ODataSample.xlsx)
+Källfilen som används i den följande kodsnutten bifogas för din referens.
+
+[Källfil](ODataSample.xlsx)
 
 ### **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-GetOdataDetails-1.java" >}}
 
-### **Konsolutgång**
+### **Konsoloutput**
 
-Anslutningsnamn: Beställningar
+{{< highlight java >}}
 
-Namn: Källa
+Connection Name: Orders
 
-Värde: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
+Name: Source
 
-Namn: Order_table
+Value: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
 
-Värde: Källa{[Name="Orders",Signature="table"]}[Data]
+Name: Orders_table
+
+Value: Source{[Name="Orders",Signature="table"]}[Data]
+
+{{< /highlight >}}

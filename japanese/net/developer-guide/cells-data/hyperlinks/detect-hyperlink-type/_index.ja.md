@@ -1,29 +1,30 @@
 ---
-title: ハイパーリンクの種類の検出
+title: ハイパーリンクタイプの検出
 type: docs
 weight: 160
 url: /ja/net/detect-hyperlink-type/
-description: Aspose.Cells for .NET API を通じてハイパーリンク タイプを検出する方法を学習します。
-keywords: Detect hyperlink type, Detect the type of hyperlink, Get the type of hyperlink
+description: Aspose.Cells for .NET APIを介してハイパーリンクのタイプを検出する方法を学ぶ
+keywords: ハイパーリンクのタイプの検出、ハイパーリンクのタイプを検出、ハイパーリンクのタイプを取得
 ---
-##  **ハイパーリンクの種類の検出**
 
-Excel ファイルには、外部リンク、セル参照、ファイル パスなどのさまざまなタイプのハイパーリンクを含めることができます。Aspose.Cells は、ハイパーリンクのタイプを検出する機能をサポートしています。ハイパーリンクの種類は次のように表されます。[**ターゲットモードタイプ**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)列挙。の[**ターゲットモードタイプ**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Enumeration には次のメンバーがあります。
+## **ハイパーリンクタイプの検出**
 
-- 外部: 外部リンク
-- FilePath: ファイル/フォルダーへのローカルおよびフルパス。
-- 電子メール: 電子メール
-- CellReference: セルまたは名前付き範囲へのリンク。
+Excelファイルには、外部リンク、セル参照、ファイルパスなど、異なるタイプのハイパーリンクがあります。Aspose.Cellsはハイパーリンクのタイプを検出する機能をサポートしています。ハイパーリンクのタイプは[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)列挙型によって表されます。[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)列挙型には以下のメンバーがあります。
 
-ハイパーリンクの種類を確認するには、[**ハイパーリンク**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink)クラスが提供するのは[**リンクタイプ**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)戻り値の型が次のプロパティ[**ターゲットモードタイプ**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)。次のコード スニペットは、[**リンクタイプ**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)これを使用してプロパティを[ソースエクセルファイル](94896195.xlsx).
+- External: 外部リンク
+- FilePath: ファイル/フォルダへのローカルな完全なパス
+- Email: Email
+- CellReference: セルや名前付き範囲へのリンク
+
+ハイパーリンクのタイプを確認するには、[**Hyperlink**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink)クラスには[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)プロパティがあり、戻り値の型は[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)です。次のコードスニペットは、この[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)プロパティの使用方法を示しています。
 
 ### ソースコード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-DetectLinkTypes-1.cs" >}}
 
-以下は、上記のコード スニペットによって生成された出力です。
+上記のコードスニペットによって生成された出力は以下の通りです。
 
-### コンソール出力
+コンソール出力
 ```
 LinkTypes.xlsx: FilePath </br>
 C:\Windows\System32\cmd.exe: FilePath </br>

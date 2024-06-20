@@ -1,18 +1,21 @@
-﻿---
-title: Cell Veri Doğrulamaları Ekle
+---
+title: Hücre Veri Doğrulamaları Ekle
 type: docs
 weight: 90
-url: /tr/net/add-cell-data-validations/
+url: /tr/net/aspose-cells-gridweb/add-cell-data-validations/
+keywords: GridWeb, validation, veri doğrulama, GridValidation
+description: Bu makale, GridWeb de veri doğrulamanın (GridValidation) nasıl eklenileceğini tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb eklemenizi sağlar**Veri doğrulama** GridWorksheet.Validations.Add() yöntemini kullanarak. Bu yöntemi kullanarak, belirtmeniz gerekir**Cell Aralık** Ancak, tek bir GridCell'de Veri Doğrulama oluşturmak istiyorsanız, bunu doğrudan GridCell.CreateValidation() yöntemini kullanarak yapabilirsiniz. Benzer şekilde, kaldırabilirsiniz**Veri doğrulama** GridCell.RemoveValidation() yöntemini kullanarak bir GridCell'den.
+Aspose.Cells.GridWeb, GridWorksheet.Validations.Add() yöntemini kullanarak **Veri Doğrulaması** eklemenizi sağlar. Bu yöntemi kullanarak **Hücre Aralığı**nı belirtmeniz gerekmektedir. Ancak tek bir GridCell'de Veri Doğrulaması oluşturmak istiyorsanız, GridCell.CreateValidation() yöntemini doğrudan kullanabilirsiniz. Benzer şekilde, GridCell.RemoveValidation() yöntemini kullanarak bir GridCell'den **Veri Doğrulaması** kaldırabilirsiniz.
 
 {{% /alert %}} 
-## **GridWeb'in GridCell'inde Veri Doğrulaması Oluşturma**
- Aşağıdaki örnek kod, bir**Veri doğrulama** B3 hücresinde. 20 ile 40 arasında olmayan bir değer girerseniz, B3 hücresi görünecektir.**Doğrulama Hatası** şeklinde**kırmızı XXXX** bu ekran görüntüsünde gösterildiği gibi.
+## **GridWeb'in GridCell'inde Veri Doğrulama Oluşturma**
+Aşağıdaki örnek kod, B3 hücresinde bir **Veri Doğrulaması** oluşturur. 20 ile 40 arasında olmayan bir değer girerseniz, B3 hücresi **Kırmızı XXXX** şeklinde bir **Doğrulama Hatası** gösterecektir, bu ekran görüntüsünde gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_metin](add-cell-data-validations_1.png)
+![todo:image_alt_text](add-cell-data-validations_1.png)
 
 
 

@@ -1,15 +1,16 @@
-﻿---
+---
 title: DataTable からのインポート
 type: docs
 weight: 40
 url: /ja/net/importing-from-datatable/
 ---
-開発者は、**データ表**を呼び出してワークシートに**ImportDataTable**Cells コレクションのメソッド。には多くのオーバーロードされたバージョンがあります**ImportDataTable**メソッドですが、典型的なオーバーロードは次のパラメーターを取ります。**データ表**は、**データ表**コンテンツをインポートする必要があるオブジェクト
 
-- **フィールド名は表示されますか**は、DataTable の列の名前を最初の行としてワークシートにインポートするかどうかを指定します
-- **スタート Cell**は、DataTable の内容をインポートする開始セル (つまり "A1") の名前を表します
+開発者は、Cells コレクションの **ImportDataTable** メソッドを呼び出すことで、**DataTable** からデータをワークシートにインポートできます。**ImportDataTable** メソッドには多くのオーバーロードされたバージョンがありますが、典型的なオーバーロードは次のパラメーターを取ります：**DataTable**、インポートする内容の **DataTable** オブジェクトを表します
 
-{{< highlight "csharp" >}}
+- **フィールド名が表示される**、DataTable の列の名前をワークシートに最初の行としてインポートするかどうかを指定します
+- **開始セル**、**DataTable** のコンテンツをインポートする開始セル（たとえば「A1」）の名前を表します
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -41,11 +42,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -57,11 +58,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 
@@ -79,5 +80,5 @@ workbook.Save("Import From Data Table.xls");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Import.to.Worksheet.Aspose.Cells.zip)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Import.to.Worksheet.Aspose.Cells.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)

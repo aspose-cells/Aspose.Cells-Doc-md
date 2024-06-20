@@ -1,45 +1,46 @@
-﻿---
-title: Rubyでワークシートを画像に変換する
+---
+title: Ruby で Worksheet をイメージに変換する
 type: docs
 weight: 60
 url: /ja/java/converting-worksheet-to-image-in-ruby/
 ---
-## **Aspose.Cells - ワークシートを画像に変換する**
-Ruby で Aspose.Cells for Java を使用して Worksheet を Image に変換するには、単に Converter モジュールを呼び出します。
 
-**ルビーコード**
+## **Aspose.Cells - Worksheet をイメージに変換する**
+Ruby で Aspose.Cells for Java を使用して Worksheet をイメージに変換するには、Converter モジュールを単純に呼び出します。
 
-{{< highlight "ruby" >}}
+**Ruby Code**
 
-デフォルトワークシート_に_画像(ワークブック)
+{{< highlight ruby >}}
 
-#ImageOptions のオブジェクトを作成する
+ def worksheet_to_image(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
+    #Create an object for ImageOptions
 
-
-
-# 画像の種類を設定
-
-image_format = Rjb::import('com.aspose.cells.ImageFormat')
-
-画像_options.setImageFormat(画像_format.getPng())
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
 
 
-# 最初のワークシートを取得します。
+    # Set the image type
 
-シート = workbook.getWorksheets().get(0)
+    image_format = Rjb::import('com.aspose.cells.ImageFormat')
 
-# 対象シートの SheetRender オブジェクトを作成する
-
-sr = Rjb::import('com.aspose.cells.SheetRender').new(シート, img_options)
+    img_options.setImageFormat(image_format.getPng())
 
 
 
-j = 0
+    # Get the first worksheet.
 
-ながらj< sr.getPageCount()
+    sheet = workbook.getWorksheets().get(0)
+
+    # Create a SheetRender object for the target sheet
+
+    sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+
+
+
+    j = 0
+
+    while j < sr.getPageCount()
 
         # Generate an image for the worksheet
 
@@ -54,7 +55,7 @@ j = 0
 end 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートを画像に変換 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**Aspose.Cells**を使用してワークシートを画像に変換するファイルをダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

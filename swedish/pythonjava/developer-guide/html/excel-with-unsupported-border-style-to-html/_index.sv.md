@@ -1,13 +1,14 @@
-﻿---
-title: Excel med kantstil som inte stöds till HTML
+---
+title: Excel med icke supporterad kantstil till HTML
 type: docs
 weight: 80
 url: /sv/python-java/excel-with-unsupported-border-style-to/
 ---
-## **Excel med kantstil som inte stöds till HTML**
-Microsoft Excel stöder någon typ av streckade kanter som inte stöds av webbläsare. När sådana filer konverteras till HTML med Aspose.Cells tas dessa gränser bort. Aspose.Cells for Python via Java stöder dock visning av liknande ramar med[HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportSimilarBorderStyle)fast egendom. Du kan ställa in värdet på[HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportSimilarBorderStyle) egendom till**Sann** att exportera gränser som inte stöds.
 
-Följande exempelkod laddar[exempel på Excel-fil](sampleExportSimilarBorderStyle.xlsx)som innehåller några gränser som inte stöds som visas i följande skärmdump. Skärmdumpen illustrerar ytterligare effekten av[HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportSimilarBorderStyle)egendom inuti[utgång HTML](outputExportSimilarBorderStyle.zip).
+## **Excel med icke-supporterad kantstil till HTML**
+Microsoft Excel stöder vissa typer av streckade kanter som inte stöds av webbläsare. När sådana filer konverteras till HTML med hjälp av Aspose.Cells tas dessa kanter bort. Aspose.Cells för Python via Java stöder dock visning av liknande kanter med egenskapen [HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportSimilarBorderStyle). Du kan ange värdet för [HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportSimilarBorderStyle) till **Sant** för att exportera icke-supporterade kanter.
+
+Följande kodexempel laddar den [exempelvis filen i Excel-format](sampleExportSimilarBorderStyle.xlsx) som innehåller vissa icke-supporterade kanter som visas i följande skärmbild. Skärmbilden illustrerar ytterligare effekten av egenskapen [HtmlSaveOptions.ExportSimilarBorderStyle](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportSimilarBorderStyle) inuti [utmatnings-HTML-filen](outputExportSimilarBorderStyle.zip).
 
 ![todo:image_alt_text](Export-Similar-Border-Style.png)
 

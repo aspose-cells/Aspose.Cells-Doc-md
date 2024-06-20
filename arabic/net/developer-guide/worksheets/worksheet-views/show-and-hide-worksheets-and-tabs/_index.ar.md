@@ -1,59 +1,60 @@
-﻿---
-title: إظهار وإخفاء أوراق العمل وعلامات التبويب
+---
+title: إظهار وإخفاء الأوراق والألسنة
 type: docs
 weight: 10
 url: /ar/net/show-and-hide-worksheets-and-tabs/
-description: توفر هذه المقالة نموذج التعليمات البرمجية لاستخدام C# API أو .NET Library لعرض وإخفاء ورقة عمل Excel برمجيًا. بالإضافة إلى ذلك ، كيفية إظهار وإخفاء علامات تبويب مصنف Excel.
+description: يقدم هذا المقال شيفرة مثالية لاستخدام واجهة برمجة التطبيقات C# أو مكتبة .NET لعرض وإخفاء ورقة عمل إكسل برمجيًا. بالإضافة إلى كيفية إظهار وإخفاء ألسنة سجل عمل إكسل.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells يسمح للمستخدم بإظهار وإخفاء عناصر مصنف بما في ذلك أوراق العمل وعلامات التبويب.
+تسمح Aspose.Cells للمستخدم بإظهار وإخفاء عناصر دفتر العمل بما في ذلك الأوراق والألسنة.
 
 {{% /alert %}}
 
-## **إظهار وإخفاء ورقة العمل**
+## **إظهار وإخفاء ورقة عمل**
 
- يمكن أن يحتوي ملف Excel على ورقة عمل واحدة أو أكثر. عندما نقوم بإنشاء ملف Excel ، نضيف أوراق العمل إلى ملف Excel الذي نعمل فيه. كل ورقة عمل في ملف Excel مستقلة عن ورقة العمل الأخرى من خلال وجود بياناتها وإعدادات التنسيق الخاصة بها وما إلى ذلك. في بعض الأحيان ، قد يطلب المطورون إخفاء أوراق عمل قليلة والأخرى مرئية في ملف Excel لمصلحتهم الخاصة. وبالتالي،**Aspose.Cells** يسمح للمطورين بالتحكم في رؤية أوراق العمل في ملفات Excel الخاصة بهم.
+يمكن أن يحتوي ملف إكسل على ورقة عمل واحدة أو أكثر. كلما أنشأنا ملف إكسل، نضيف أوراق عمل إلى الملف إكسل الذي نعمل فيه. تكون كل ورقة عمل في ملف إكسل مستقلة عن الورقة العمل الأخرى بوجود بياناتها الخاصة وإعدادات التنسيق وما إلى ذلك. في بعض الأحيان، قد يحتاج المطورون إلى إخفاء بعض الأوراق العمل وجعل البعض الآخر مرئية في ملف إكسل لمصلحتهم الخاصة. لذا، **Aspose.Cells** يتيح للمطورين التحكم في رؤية أوراق العمل في ملفاتهم إكسل.
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
+يوفر Aspose.Cells صنفًا، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، الذي يمثل ملف إكسل. يحتوي صنف ال [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة الـ [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) التي تسمح بالوصول إلى كل ورقة عمل في ملف إكسل.
 
- يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)توفر class مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل. للتحكم في رؤية ورقة العمل ، استخدم ملحق[**مرئي**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) ممتلكات[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي.[**مرئي**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) هي خاصية منطقية ، مما يعني أنه يمكنها فقط تخزين ملف**حقيقي** أو**خاطئة** القيمة.
+تمثل الورقة العمل بواسطة الصنف [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). يوفر الصنف ال [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة واسعة من الخصائص والأساليب لإدارة الأوراق العمل. للتحكم في رؤية ورقة العمل، استخدم الخاصية [**IsVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) للصنف [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). [**IsVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) هي خاصية بوليانية، مما يعني أنها يمكنها تخزين قيمة **true** أو **false** فقط.
 
 ### **جعل ورقة العمل مرئية**
 
- اجعل ورقة العمل مرئية عن طريق تعيين ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي'[**مرئي**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) ملكية ل**حقيقي**
+اجعل ورقة العمل مرئية عن طريق تعيين خاصية [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) للصنف [**IsVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) إلى **true**
 
-### **إخفاء ورقة العمل**
+### **إخفاء ورقة عمل**
 
-إخفاء ورقة العمل عن طريق تعيين[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي'[**مرئي**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) ملكية ل**خاطئة**.
+إخفاء ورقة العمل عن طريق تعيين خاصية [**IsVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) للصنف [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) إلى **false**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-HideUnhideWorksheet-1.cs" >}}
 
-## **إظهار وإخفاء علامات التبويب**
+## **إظهار وإخفاء الألسنة**
 
-إذا نظرت عن كثب إلى الجزء السفلي من ملف Excel Microsoft ، فسترى عددًا من عناصر التحكم. وتشمل هذه:
+إذا نظرت عن كثب في أسفل ملف Microsoft Excel، سترى عددًا من الضوابط. تشمل هذه:
 
-- علامات تبويب الأوراق.
-- أزرار التمرير لعلامة التبويب.
+- ألسنة الصفحات.
+- أزرار تمرير الألسنة.
 
-تمثل علامات تبويب الأوراق أوراق العمل في ملف Excel. انقر فوق أي علامة تبويب للتبديل إلى ورقة العمل هذه. كلما زاد عدد أوراق العمل في المصنف ، زاد عدد علامات تبويب الأوراق. إذا كان ملف Excel يحتوي على عدد جيد من أوراق العمل ، فأنت بحاجة إلى أزرار للتنقل خلالها. لذلك ، يوفر Microsoft Excel أزرار تمرير علامة التبويب للتمرير عبر علامات تبويب الأوراق.
+تمثل ألسنة الصفحات الأوراق العمل في ملف الإكسل. انقر على أي علامة تبويب للانتقال إلى تلك الورقة العمل. كلما زاد عدد الأوراق العمل في الدفتر الحسابي، زادت ألسنة الصفحة. إذا كان لديك عدد جيد من الأوراق العمل في دفتر العمل، يلزمك الأزرار للتنقل خلالها. لذا، يوفر مايكروسوفت إكسل أزرار تمرير الألسنة للتمرير من خلال ألسنة الصفحات.
 
-باستخدام Aspose.Cells ، يمكن للمطورين التحكم في رؤية علامات تبويب الأوراق وأزرار تمرير علامات التبويب في ملفات Excel.
+باستخدام Aspose.Cells، يمكن للمطورين التحكم في رؤية علامات الجدول وأزرار التمرير في ملفات Excel.
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) توفر class مجموعة واسعة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية علامات التبويب في ملف Excel ، يمكن للمطورين استخدام الامتداد[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs) خاصية.[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs) هي خاصية منطقية ، مما يعني أنه يمكنها فقط تخزين ملف**حقيقي** أو**خاطئة** القيمة.
+توفر Aspose.Cells فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) تمثل ملف Excel. توفر فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) تشكيلة واسعة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية العلامات في ملف Excel، يمكن للمطورين استخدام خاصية [**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs) لفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook). [**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs) هي خاصية بوليانية، مما يعني أنها يمكنها فقط تخزين القيمة **صحيحة** أو **خاطئة**.
 
 ### **جعل علامات التبويب مرئية**
 
- اجعل علامات التبويب مرئية بامتداد[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs) ملكية ل**حقيقي**.
+اجعل التبويبات مرئية باستخدام خاصية [**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs) لفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) إلى **صحيح**.
 
-### **علامات التبويب الاختباء**
+### **إخفاء علامات التبويب**
 
- إخفاء علامات التبويب في ملف Excel عن طريق تعيين الامتداد[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs)الخاصية إلى خطأ.
+إخفاء التبويبات في ملف Excel عن طريق ضبط خاصية [**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs) لفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) إلى خاطئ.
 
-يوجد أدناه مثال كامل يفتح ملف Excel (book1.xls) ، ويخفي علامات التبويب الخاصة به ويحفظ الملف المعدل كـ output.xls. بعد تنفيذ التعليمات البرمجية ، سترى أن علامات تبويب المصنف مخفية.
+فيما يلي مثال كامل يفتح ملف Excel (book1.xls)، يخفي علاماته ويحفظ الملف المعدل بصيغة output.xls. بعد تنفيذ الكود، سترى أن تبويبات الدفتر مخفية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-HideTabs-1.cs" >}}
 
-### **التحكم في عرض شريط الجدولة**
+### **السيطرة على عرض شريط التبويب**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ControlTabBarWidth-1.cs" >}}

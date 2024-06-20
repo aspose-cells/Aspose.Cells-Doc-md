@@ -1,14 +1,15 @@
-﻿---
-title: Pivot Tablo için Dilimleyici Oluşturma
+---
+title: Pivot Tablosuna Dilimleyici Oluştur
 type: docs
 weight: 10
 url: /tr/python-java/create-slicer-to-a-pivot-table/
 ---
-## **Olası Kullanım Senaryoları**
-Dilimleyiciler, verileri hızlı bir şekilde filtrelemek için kullanılır. Hem tablodaki hem de pivot tablodaki verileri filtrelemek için kullanılabilirler. Microsoft Excel, bir tablo veya pivot tablo seçip ardından*Ekle > Dilimleyici*. Aspose.Cells for Python via Java, dilimleyici oluşturmak için Worksheet.getSlicers().add() yöntemini sağlar.
-## **Pivot Tablo için Dilimleyici Oluşturma**
-Aşağıdaki kod parçacığı,[örnek excel dosyası](106364966.xlsx)pivot tabloyu içerir. Ardından, ilk temel pivot alanını temel alarak dilimleyiciyi oluşturur. Son olarak, çalışma kitabını şuraya kaydeder:[çıkış XLSX](106364967.xlsx)biçim. Aşağıdaki ekran görüntüsü, çıktı Excel dosyasında Aspose.Cells tarafından oluşturulan dilimleyiciyi göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](create-slicer-to-a-pivot-table_1.png)
-## **Basit kod**
+## **Olası Kullanım Senaryoları**
+Dilimleyiciler verileri hızlı bir şekilde filtrelemek için kullanılır. Tablo veya pivot tabloda verileri filtrelemek için kullanılabilirler. Microsoft Excel size bir tablo veya pivot tablosu seçerek ardından *Ekle > Dilimleyici* tıklayarak bir dilimleyici oluşturmanıza olanak tanır. Aspose.Cells for Python via Java, dilimleyici oluşturmak için Worksheet.getSlicers().add() yöntemini sağlar.
+## **Pivot Tablosuna Dilimleyici Oluştur**
+Aşağıdaki kod parçası, pivot tablosunu içeren [örnek Excel dosyasını](106364966.xlsx) yükler. İlk temel pivot alanına dayalı olarak dilimleyici oluşturur. Son olarak, çalışma kitabını [çıktı XLSX formatında](106364967.xlsx) kaydeder. Aşağıdaki ekran görüntüsü, Aspose.Cells'in oluşturduğu dilimleyiciyi çıktı Excel dosyasında gösterir.
+
+![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Slicers-CreateSlicerToPivotTable.py" >}}

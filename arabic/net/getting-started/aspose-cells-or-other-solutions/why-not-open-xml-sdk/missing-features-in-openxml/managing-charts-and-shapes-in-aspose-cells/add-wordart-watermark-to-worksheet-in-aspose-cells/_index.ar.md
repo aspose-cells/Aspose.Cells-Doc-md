@@ -1,26 +1,27 @@
-﻿---
-title: أضف علامة WordArt المائية إلى ورقة العمل في Aspose.Cells
+---
+title: إضافة علامة مائية WordArt إلى ورقة العمل في Aspose.Cells
 type: docs
 weight: 20
 url: /ar/net/add-wordart-watermark-to-worksheet-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-استخدم WordArt لإضافة تأثيرات نصية خاصة إلى جداول البيانات. على سبيل المثال ، قم بتمديد عنوان عبر الجزء العلوي من الملف ، وقم بتزيين النص ، وجعل النص يتناسب مع شكل معين مسبقًا ، أو قم بتطبيق نص على ورقة Excel كعلامة مائية في الخلفية. يصبح WordArt عنصرًا يمكنك نقله أو وضعه في جداول البيانات لإضافة زخرفة.
+استخدام كلمة الفن لإضافة تأثيرات نص خاصة إلى جداول البيانات، على سبيل المثال، تمدد عنوان عبر الجزء العلوي من الملف، زينة النص، وجعل النص يتناسب مع شكل محدد مسبقًا، أو تطبيق النص إلى ورقة Excel كعلامة مائية خلفية. تصبح كلمة الفن كائنًا يمكنك نقله أو تحديد موقعه في جداول البيانات لإضافة زخرفة.
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إضافة شكل WordArt لتعيين علامة مائية في الخلفية لورقة عمل.
+المثال التالي يوضح كيفية إضافة شكل WordArt لتعيين علامة مائية في الخلفية لورقة العمل.
 
-بعد تشغيل الكود ، يحتوي ملف الإخراج على علامة مائية WordArt حمراء شاحبة.
+بعد تشغيل الكود، يحتوي ملف الإخراج على علامة مائية WordArt حمراء شاحبة.
 
-**ملف الإخراج** 
+ملف الإخراج 
 
-![ما يجب القيام به: image_بديل_نص](picture1.png)
+![todo:image_alt_text](picture1.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -66,10 +67,10 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 
-## **تنزيل نموذج التعليمات البرمجية**
+## **تحميل رمز عينة**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark)
 
-## **تحميل مثال الجري**
+## **تنزيل مثال التشغيل**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

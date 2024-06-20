@@ -1,36 +1,37 @@
-﻿---
-title: Çalışma Sayfasının Sorgu Tablosunu Okuma ve Yazma
+---
+title: Çalışsaydı, Çalışma Sorgusu Tablosu Okuma ve Yazma
 type: docs
 weight: 40
 url: /tr/net/reading-and-writing-query-table-of-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, dizine göre QueryTable türündeki nesneyi döndüren Worksheet.QueryTables koleksiyonu sağlar. Aşağıdaki iki özelliğe sahiptir
+Aspose.Cells, İçerikSorgusunu döndüren Worksheet.QueryTables koleksiyonunu sağlar. Bu koleksiyon bir endekse göre QueryTable türünde bir nesne döndürür. Aşağıdaki iki özelliğe sahiptir
 
 - QueryTable.AdjustColumnWidth
 - QueryTable.PreserveFormatting
 
-Bunların her ikisi de Boole değerleridir. Bunları Microsoft Excel'de Veri > Bağlantılar > Özellikler aracılığıyla görüntüleyebilirsiniz.
+Bunlar her ikisi de Boolean değerlerdir. Bunları Microsoft Excel'de Veri > Bağlantılar > Özellikler menüsünde görebilirsiniz.
 
 {{% /alert %}}
 
-## Çalışma Sayfasının Sorgu Tablosunu Okuma ve Yazma
+## Çalışsayfa Sorgu Tablosu Okuma ve Yazma
 
-Aşağıdaki örnek kod, ilk çalışma sayfasının ilk QueryTable'ını okur ve ardından QueryTable özelliklerinin her ikisini de yazdırır. Sonra QueryTable.PreserveFormatting'i true olarak ayarlar.
+Aşağıdaki örnek kod, ilk çalışsayfanın ilk Sorgu Tablosunu okur ve ardından Sorgu Tablosunun her iki özelliğini de yazdırır. Daha sonra QueryTable.PreserveFormatting özelliğini true olarak ayarlar.
 
-Bu kodda kullanılan kaynak Excel dosyasını ve kodun oluşturduğu çıktı Excel dosyasını aşağıdaki bağlantılardan indirebilirsiniz.
+Bu kodda kullanılan kaynak Excel dosyasını ve kod tarafından oluşturulan çıktı Excel dosyasını aşağıdaki bağlantılardan indirebilirsiniz.
 
 - [Kaynak Excel Dosyası](5115533.xlsx)
 - [Çıktı Excel Dosyası](5115537.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.cs" >}}
 
-### Konsol Çıkışı
+### Konsol Çıktısı
 
-İşte yukarıdaki örnek kodun konsol çıktısı
+Yukarıdaki örnek kodun konsol çıktısı aşağıdaki gibidir
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Adjust Column Width: True
 
@@ -38,8 +39,8 @@ Preserve Formatting: False
 
 {{< /highlight >}}
 
-## Sorgu tablosu sonuç aralığını al
+## Sorgu tablosu sonuç aralığını alın
 
- Aspose.Cells, bir sorgu tablosu için adresi, yani sonuç hücre aralığını okuma seçeneği sunar. Aşağıdaki kod, bir sorgu tablosu için sonuç aralığının adresini okuyarak bu özelliği gösterir. Örnek dosya indirilebilir[Burada](72417290.xlsx).
+Aspose.Cells, bir sorgu tablosu için hücrelerin adresini yani sonuç aralığını okuma seçeneği sağlar. Aşağıdaki kod, bir sorgu tablosunun sonuç aralığının adresini okuyarak bu özelliği göstermektedir. Örnek dosyayı [buradan](72417290.xlsx) indirebilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}

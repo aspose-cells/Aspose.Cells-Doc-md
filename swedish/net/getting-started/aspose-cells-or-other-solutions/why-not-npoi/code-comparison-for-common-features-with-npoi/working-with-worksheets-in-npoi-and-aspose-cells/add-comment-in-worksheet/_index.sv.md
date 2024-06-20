@@ -1,13 +1,14 @@
-﻿---
-title: Lägg till kommentar i arbetsbladet
+---
+title: Lägg till kommentar i arbetsblad
 type: docs
 weight: 10
 url: /sv/net/add-comment-in-worksheet/
 ---
-## **Aspose.Cells - Lägg till kommentar i arbetsbladet**
+
+## **Aspose.Cells - Lägg till kommentar i arbetsblad**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -47,10 +48,10 @@ workbook.Save("Output-AddingComment.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Lägg till kommentar i arbetsbladet**
+## **NPOI - HSSF XSSF - Lägg till kommentar i arbetsblad**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -94,13 +95,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Lägg till bild i arbetsbladet** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Lägg till bild i arbetsblad** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Add.Comment.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Arbeta med arbetsblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+För mer information, besök [Arbeta med kalkylblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

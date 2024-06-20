@@ -1,15 +1,16 @@
-﻿---
-title: ページ設定 - ページ設定に合わせる
+---
+title: ページ設定  ページに合わせて設定
 type: docs
 weight: 30
 url: /ja/java/page-setup-fit-to-page-setting/
 ---
-## **Aspose.Cells - ページ設定 - ページ設定に合わせる**
-ワークシートの内容を特定のページ数に合わせるには、[ページ設定](/cells/ja/java/page-setup-fit-to-page-setting/)クラスの setFitToPagesTall および setFitToPagesWide メソッド。これらのメソッドは、ワークシートのスケーリングにも使用されます。
+
+## **Aspose.Cells - ページ設定 - ページに合わせて設定**
+ワークシートのコンテンツを特定のページ数に合わせるには、PageSetupクラスのsetFitToPagesTallおよびsetFitToPagesWideメソッドを使用します。 これらのメソッドはワークシートを拡大縮小するためにも使用されます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -36,12 +37,12 @@ pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF & XSSF - ページ設定 - ページ設定に合わせる**
-Apache POI SS は、setFitHeight および setFitWidth メソッドを使用して、ページに合わせる設定を行います。
+## **Apache POI SS - HSSF＆XSSF - ページ設定 - ページに合わせて設定**
+Apache POI SSは、fit to pageの設定にsetFitHeightとsetFitWidthメソッドを使用します。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();  //or new HSSFWorkbook();
 
@@ -56,13 +57,13 @@ ps.setFitHeight((short) 1);
 ps.setFitWidth((short) 1);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/fittoonepage)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ページ オプションの設定](http://www.aspose.com/docs/display/cellsjava/Setting+Page+Options).
+詳細については、[ページのオプション設定](http://www.aspose.com/docs/display/cellsjava/Setting+Page+Options)を参照してください。
 
 {{% /alert %}}

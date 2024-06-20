@@ -1,16 +1,17 @@
-﻿---
-title: عرض أو إخفاء خطوط الشبكة في Php
+---
+title: عرض أو إخفاء خطوط الشبكة في PHP
 type: docs
 weight: 10
 url: /ar/java/display-or-hide-gridlines-in-php/
 ---
+
 ## **Aspose.Cells - عرض أو إخفاء خطوط الشبكة**
 ### **إخفاء خطوط الشبكة**
- لإخفاء ورقة العمل باستخدام**Aspose.Cells Java for PHP** ، مكالمة**displayhidegridlines** وحدة.
+لإخفاء ورقة العمل باستخدام **Aspose.Cells Java for PHP** ، اتصل بوحدة **displayhidegridlines**.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ $workbook->save($dataDir . "output.xls");
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**عرض خطوط الشبكة أو إخفاؤها (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **عرض أو إخفاء خطوط الشبكة (Aspose.Cells)** من أي من المواقع المشفرة المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideGridlines.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideGridlines.php)

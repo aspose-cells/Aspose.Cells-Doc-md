@@ -1,23 +1,24 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 9.0.0
+---
+title: تغييرات API العامة في Aspose.Cells 9.0.0
 type: docs
 weight: 340
 url: /ar/java/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.9.2 إلى 9.0.0 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.9.2 إلى 9.0.0 التي قد تثير اهتمام مطوري الوحدات/التطبيقات. وتشمل ليس فقط الطرق العامة الجديدة والمحدثة، والفئات المضافة والمحذوفة وما إلى ذلك، ولكن أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **تمت إضافة خاصية Shape.TextOptions**
-كشف Aspose.Cells for Java خاصية TextOptions لفئة الشكل للتحكم في مظهر الأجزاء النصية للشكل.
+## **واجهات برمجة التطبيقات الجديدة**
+### **خاصية TextOptions الجديدة**
+تمكين Aspose.Cells for Java الخاصية TextOptions لفئة Shape للتحكم في ظهور الأجزاء النصية للشكل.
 
-فيما يلي سيناريو الاستخدام البسيط لخاصية Shape.TextOptions.
+فيما يلي سيناريو استخدام بسيط لخاصية TextOptions للشكل.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize an instance of Workbook
 
@@ -49,43 +50,43 @@ textbox.getTextOptions().setBold(true);
 
 {{< /highlight >}}
 ### **تمت إضافة خاصية ChartPoint.IsInSecondaryPlot**
-كشف Aspose.Cells for Java خاصية ChartPoint.IsInSecondaryPlot التي يمكن استخدامها لاكتشاف ما إذا كانت ChartPoint موجودة في مخطط ثانوي لمخطط دائري أو شريطي.
+Aspose.Cells for Java قد فتح الخاصية ChartPoint.IsInSecondaryPlot التي يمكن استخدامها لاكتشاف ما إذا كانت ChartPoint يقع على رسم ثانوي لرسم بياني لـ Pie أو Bar.
 
 فيما يلي سيناريو استخدام بسيط لخاصية Shape.Line.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[العثور على DataPoint يكمن في قطعة الأرض الثانية](/cells/ar/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
+تحقق من المقال المفصل على [العثور على DataPoint يقع على Second Plot](/cells/ar/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-chart/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- // تحميل جدول بيانات موجود يحتوي على مخطط دائري
+ //Load an existing spreadsheet containing a Pie chart
 
-كتاب المصنف = مصنف جديد (dir + "PieBar.xlsx") ؛
+Workbook book = new Workbook(dir + "PieBar.xlsx");
 
-// قم بتحميل ورقة العمل في فهرس 0
+//Load the Worksheet at 0 index
 
-ورقة عمل = book.getWorksheets (). get (0)؛
+Worksheet sheet = book.getWorksheets().get(0);
 
-// قم بتحميل الرسم البياني الأول من المجموعة
+//Load the first chart from the collection
 
-مخطط الرسم البياني = sheet.getCharts (). get (0)؛
+Chart chart = sheet.getCharts().get(0);
 
-// احسب المخطط قبل الوصول إلى خصائصه
+//Calculate the chart before accessing its properties
 
-chart.calculate () ،
+chart.calculate();
 
-// الوصول إلى السلسلة الأولى من الرسم البياني
+//Accessing chart's first series
 
-سلسلة السلسلة = chart.getNSeries (). get (0)؛
+Series series = chart.getNSeries().get(0);
 
-// حلقة فوق مجموعة ChartPoint
+//Loop over the ChartPoint collection
 
- لـ (int ص = 0 ؛ ص< series.getPoints().getCount(); p++)
+for(int p = 0 ; p < series.getPoints().getCount(); p++)
 
 {
 
@@ -101,19 +102,19 @@ chart.calculate () ،
 
 {{< /highlight >}}
 ### **تمت إضافة خاصية OleObject.ClassIdentifier**
-كشف Aspose.Cells for Java 9.0.0 خاصية OleObject.ClassIdentifier التي يمكن استخدامها لتحديد سلوك التطبيق لتحميل OleObject. على سبيل المثال ، يمكن تضمين ملف PPT في جدول بيانات بطريقتين مختلفتين ، أي ؛ عرض العرض التقديمي أو عرض الشرائح ، في حين أن كلا العرضين لهما قيم معرف فئة مختلفة.
+Aspose.Cells for Java 9.0.0 قد فتح الخاصية OleObject.ClassIdentifier والتي يمكن استخدامها لتحديد سلوك التطبيق لتحميل كائن OleObject. على سبيل المثال ، يمكن تضمين ملف PPT في ورقة النشر مع وجهتي نظر مختلفتين ، وهي عرض العرض أو عرض الشريحة ، في حين أن كلا العرضين لهما قيم معرف فئة مختلفة.
 
-فيما يلي سيناريو الاستخدام البسيط لخاصية OleObject.ClassIdentifier.
+فيما يلي سيناريو استخدام بسيط لخاصية OleObject.ClassIdentifier.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[استخدام OleObject.ClassIdentifier](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+تحقق من المقال المفصل على [استخدام OleObject.ClassIdentifier](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet containing a presentation as OleObject
 
@@ -129,13 +130,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 String progID = "";
 
@@ -145,7 +146,7 @@ String sourceFullName = "";
 
 Boolean isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 //Get the first worksheet from the collection
 
@@ -226,24 +227,24 @@ if (classId != null)
 }
 
 {{< /highlight >}}
-## **واجهات برمجة التطبيقات التي عفا عليها الزمن**
-### **Worksheet.setBackground طريقة قديمة**
-الرجاء استخدام الخاصية Worksheet.BackgroundImage بدلاً من ذلك.
-### **LineShape.Begin ArrowheadStyle و ArcShape.BeginArrowheadStyle Properties**
-الرجاء استخدام خاصية Shape.Line.BeginArrowheadStyle كبديل.
-### **LineShape.EndArrowheadStyle و ArcShape.End ArrowheadStyle Properties**
-الرجاء استخدام خاصية Shape.Line.EndArrowheadStyle كبديل.
-### **LineShape.egin.ArrowheadWidth & ArcShape.BeginArrowheadWidth Properties**
-الرجاء استخدام خاصية Shape.Line.BeginArrowheadWidth كبديل.
-### **خط متقادم الشكل ، بداية السهم ، الطول والشكل المقوس. بداية السهم ، خصائص الطول**
-الرجاء استخدام خاصية Shape.Line.BeginArrowheadLength بدلاً من ذلك.
-### **LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth خصائص**
-الرجاء استخدام خاصية Shape.Line.EndArrowheadWidth بدلاً من ذلك.
-### **خط متقادم الشكل.رأس السهمالطول والشكل القوسي. نهاية السهم**
-الرجاء استخدام خاصية Shape.Line.EndArrowheadLength بدلاً من ذلك.
-## **واجهات برمجة التطبيقات المحذوفة**
-### **طريقة تنسيق Worksheet.copyConditionalFormatting المحذوفة**
-### **Workbook.checkWriteProtectedPassword الأسلوب المحذوف**
-## **إعادة تسمية واجهات برمجة التطبيقات**
-### **إعادة تسمية Workbook.removeDigitallySign Method**
-تمت إعادة تسمية طريقة Workbook.removeDigitallySign إلى Workbook.removeDigitalSignature.
+## **واجهات برمجة التطبيق القديمة**
+### **الواجهة القديمة Worksheet.setBackground تم إهمالها**
+يرجى استخدام خاصية Worksheet.BackgroundImage بدلاً منها.
+### **تم إهمال خصائص LineShape.BeginArrowheadStyle و ArcShape.BeginArrowheadStyle**
+يرجى استخدام خاصية Shape.Line.BeginArrowheadStyle كبديل.
+### **تم إهمال خصائص LineShape.EndArrowheadStyle و ArcShape.EndArrowheadStyle**
+يرجى استخدام خاصية Shape.Line.EndArrowheadStyle كبديل.
+### **تم إهمال خصائص LineShape.BeginArrowheadWidth و ArcShape.BeginArrowheadWidth**
+يرجى استخدام خاصية Shape.Line.BeginArrowheadWidth كبديل.
+### **تم الاستغناء عن خصائص Obsoleted LineShape.BeginArrowheadLength و ArcShape.BeginArrowheadLength**
+يرجى استخدام خاصية Shape.Line.BeginArrowheadLength بدلاً من ذلك.
+### **تم الاستغناء عن خصائص Obsoleted LineShape.EndArrowheadWidth و ArcShape.EndArrowheadWidth**
+يرجى استخدام خاصية Shape.Line.EndArrowheadWidth بدلاً من ذلك.
+### **تم الاستغناء عن خصائص Obsoleted LineShape.EndArrowheadLength و ArcShape.EndArrowheadLength**
+يرجى استخدام خاصية Shape.Line.EndArrowheadLength بدلاً من ذلك.
+## **حذف واجهات برمجة التطبيق**
+### **حذف أسلوب Worksheet.copyConditionalFormatting**
+### **حذف أسلوب Workbook.checkWriteProtectedPassword**
+## **تغيير أسماء الواجهات البرمجية**
+### **تمت تسمية أسلوب Workbook.removeDigitallySign**
+تم تغيير أسم أسلوب Workbook.removeDigitallySign إلى Workbook.removeDigitalSignature.

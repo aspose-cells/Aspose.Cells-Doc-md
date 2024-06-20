@@ -1,27 +1,28 @@
 ---
-title: إدارة Cells سلسلة HTML
+title: إدارة سلاسل HTML للخلايا
 type: docs
 weight: 600
 url: /ar/net/manage-cells-html-string/
-description: تعلم كيفية إدارة Cells سلسلة HTML من خلال Aspose.Cells for .NET API.
-keywords: Add HTML String inside the Cell, Set HTML String inside the Cell, Add HTML String, Get HTML String of Cell, Manage Cells Html String
+description: تعلم كيفية إدارة سلاسل HTML للخلايا من خلال Aspose.Cells for .NET API.
+keywords: إضافة سلسلة HTML داخل الخلية, تعيين سلسلة HTML داخل الخلية, إضافة سلسلة HTML, الحصول على سلسلة HTML للخلية, إدارة سلاسل HTML للخلايا
 ---
-##  **سيناريوهات الاستخدام المحتملة**
-عندما تحتاج إلى تعيين بيانات نمطية لـ Cell محددًا، يمكنك تعيين سلسلة html إلى Cell. بالطبع، يمكنك أيضًا الحصول على سلسلة HTML للخلية. Aspose.Cells يقدم هذه الميزة. Aspose.Cells يوفر لك الخصائص والأساليب التالية التي تساعدك على تحقيق أهدافك.
+
+## **سيناريوهات الاستخدام المحتملة**
+عندما تحتاج إلى تعيين بيانات مهيأة للخلية المحددة، يمكنك تعيين سلسلة HTML للخلية. بالطبع، يمكنك أيضًا الحصول على سلسلة HTML للخلية. تقدم Aspose.Cells هذه الميزة. توفر Aspose.Cells الخصائص والطرق التالية لمساعدتك في تحقيق أهدافك.
 - [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/htmlstring)
 
-##  **الحصول على سلسلة HTML وتعيينها باستخدام Aspose.Cells**
-يوضح هذا المثال كيفية:
+## **الحصول على سلسلة html وتعيينها باستخدام Aspose.Cells**
+يوضح هذا المثال كيف:
 
-1. إنشاء مصنف وإضافة بعض البيانات.
-1. احصل على Cell المحدد في ورقة العمل الأولى.
-1. اضبط سلسلة html على Cell.
-1. احصل على سلسلة HTML من Cell.
+1. إنشاء دفتر عمل وإضافة بعض البيانات.
+1. الحصول على خلية محددة في الجدول الداخلي الأول.
+1. تعيين سلسلة HTML للخلية.
+1. الحصول على سلسلة HTML للخلية.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-htmlstring.cs" >}}
 
-##  الإخراج الناتج عن نموذج التعليمات البرمجية
+## الإخراج الذي تم توليده بواسطة رمز العينة
 
-توضح لقطة الشاشة التالية إخراج نموذج التعليمات البرمجية أعلاه.
+تُظهر اللقطة الشاشية التالية الإخراج الناتج من الكود المثالي السابق.
 
-![ما يجب القيام به:image_alt_text](htmlstring.png)
+![todo:image_alt_text](htmlstring.png)

@@ -1,29 +1,30 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.8.2
+---
+title: Offentliga API ändringar i Aspose.Cells 8.8.2
 type: docs
 weight: 280
 url: /sv/net/public-api-changes-in-aspose-cells-8-8-2/
 ---
-{{% alert color="primary" %}} 
-
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.8.1 till 8.8.2 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
-
-{{% /alert %}} 
-## **Lade till API:er**
-### **Uppdatera referenser automatiskt medan du tar bort tomma rader och kolumner**
-Aspose.Cells for .NET 8.8.2 har avslöjat de överbelastade versionerna av metoderna Cells.DeleteBlankRows & Cells.DeleteBlankColumns. De nya metoderna kan acceptera en instans av DeleteOptions-klassen och kan användas för att övervinna de situationer som kan uppstå på grund av de trasiga referenserna i formler, diagramseriedata och så vidare. Klassen DeleteOptions har för närvarande bara en medlem, en egenskap av boolesk typ med namnet UpdateReference. Om egenskapen är satt till true och instansen av DeleteOptions-klassen skickas till metoderna Cells.DeleteBlankRows & Cells.DeleteBlankColumns, kommer API internt att justera formelreferenserna (om några) för att anpassas till ändringarna.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Ta bort tomma rader och kolumner med uppdaterade referenser](/cells/sv/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/).
+Detta dokument beskriver ändringarna av Aspose.Cells API från version 8.8.1 till 8.8.2 som kan vara av intresse för modul/apputvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+
+{{% /alert %}} 
+## **Tillagda API:er**
+### **Uppdatera Referenser Automatiskt medan du Tar bort Tomma Rader & Kolumner**
+Aspose.Cells for .NET 8.8.2 har exponerat överbelastade versioner av Cells.DeleteBlankRows & Cells.DeleteBlankColumns metoder. De nya metoderna kan acceptera en instans av DeleteOptions-klassen och kan användas för att övervinna situationer som kan uppstå på grund av brutna referenser i formler, diagramseriedata och så vidare. DeleteOptions-klassen har för närvarande endast en medlem, en Boolesk-typ egenskap med namnet UpdateReference. Om nämnda egenskap är inställd på true och instansen av DeleteOptions-klassen skickas till Cells.DeleteBlankRows & Cells.DeleteBlankColumns metoderna, kommer API:et internt justera formelreferenser (om några) för att ryma ändringarna.
+
+{{% alert color="primary" %}} 
+
+För mer information om denna funktion, vänligen se den detaljerade artikeln om [Ta bort Tomma Rader & Kolumner med Uppdaterade Referenser](/cells/sv/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook & load an existing spreadsheet
 

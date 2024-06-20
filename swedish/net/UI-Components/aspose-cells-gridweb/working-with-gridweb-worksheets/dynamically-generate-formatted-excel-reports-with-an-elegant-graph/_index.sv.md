@@ -1,54 +1,57 @@
-﻿---
-title: Generera formaterade Excel-rapporter dynamiskt med en elegant graf
+---
+title: Dynamiskt generera formaterade Excel rapporter med en elegant graf
 type: docs
 weight: 130
-url: /sv/net/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+url: /sv/net/aspose-cells-gridweb/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+keywords: GridWeb, generera rapport, rapport
+description: Den här artikeln introducerar hur man genererar rapport i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Detta dokument är utformat för att ge den nödvändiga informationen hur vi kan extrahera data från någon datakälla till ett fantastiskt rutnät som kontroll, klistra in ett diagram i det och exportera rapporten med graf till MS Excel för att göra analys, jämförelser och utskrift.
+Detta dokument är utformat för att tillhandahålla nödvändig information om hur vi kan extrahera data från någon datakälla till en praktfull gridliknande kontroll, klistra in en graf i den och exportera rapporten med grafen till MS Excel för analys, jämförelser och utskrifter.
 
 {{% /alert %}} 
 ## **Översikt**
-Det finns vissa webbscenarier som kräver både rapportering och presentationer, en kombination av delar eller objekt som kan fungera bra tillsammans. Artikeln förklarar hur enkelt det är att designa och generera snygga excel-rapporter dynamiskt på WYSIWYG-sätt. Den exporterar data från en XML-fil (du kan också använda andra datakällor) till Aspose.Cells. GridWeb-kontroll som ger dig den verkliga miljön som låter dig tillämpa ett rikt och tilltalande format på data och beräkna formelresultat som MS Excel. Det genererar också ett sofistikerat diagram baserat på källdata för kalkylbladet med hjälp av[Aspose.Cells](https://products.aspose.com/cells/) komponenten och klistrar in diagrambilden i försäljningsrapporten. Slutligen sparas excel-rapporten med bifogad graf på disk med Aspose.Cells-komponenten.
+Det finns vissa webbscenarier som kräver både rapportering och presentationer, en kombination av delar eller objekt som kan fungera bra tillsammans. Artikeln förklarar hur enkelt det är att designa och generera snygga Excel-rapporter dynamiskt på ett WYSIWYG-sätt. Den exporterar data från en XML-fil (du kan också använda andra datakällor) till Aspose.Cells.GridWeb-kontrollen som ger dig den verkliga miljö som tillåter dig att tillämpa rik och attraktiv formatering på data och beräkna formelresultat som MS Excel. Den genererar också en sofistikerad graf baserad på källdataarket med hjälp av [Aspose.Cells](https://products.aspose.com/cells/) komponent och klistrar in grafikbilden i Försäljningsrapporten. Slutligen sparas Excel-rapporten med bifogad graf på disken med hjälp av Aspose.Cells-komponenten.
 
-Den här artikeln innehåller källkoden och demoprojektet med alla funktioner för sådan funktionalitet.
+Den här artikeln inkluderar källkod och en fullt utrustad demoapplikation för en sådan funktionalitet.
 
-Det ger användarna en detaljerad uppfattning om hur man skapar en affärsrapport för att mata in data i ett kalkylblad i rutnätet och tillämpa viss formatering på cellerna i raderna och kolumnerna, bädda in en graf baserad på källdataintervallet innan de sparas excel-rapport till disken.
+Den ger användarna en detaljerad uppfattning om hur man skapar en affärsrapport för att mata in data i ett kalkylblad i rutan och tillämpa viss formatering på cellerna i raderna och kolumnerna, bädda in en graf baserad på källdataräckvidden före att spara Excel-rapporten på disken.
 ## **Aspose-komponenterna**
- Jag använder tre av[Aspose](http://www.aspose.com/) s komponenter för att utföra uppgiften med lätthet.[Aspose](http://www.aspose.com/) , .NET och Java Component Publisher, tillhandahåller en mängd funktionsrika komponenter.[Aspose](http://www.aspose.com/) ger en stor rad med .NET och Java komponenter. Tillförlitliga av tusentals kunder över hela världen, produkterna inkluderar filformatskomponenter, rapporteringsprodukter, visuella komponenter och verktygskomponenter som gör det möjligt att programmatiskt öppna, modifiera, generera, spara, slå samman, konvertera etc. dokument i olika format inklusive DOC, RTF, WordML, HTML, PDF, XLS, SpreadsheetML, Tab Delimited, CSV, PPT, SWF, EMF, WMF, MPX, MPD och andra format.
+Jag använder tre av [Aspose](http://www.aspose.com/) komponenter för att utföra uppgiften med lätthet. [Aspose](http://www.aspose.com/), The .NET and Java Component Publisher, tillhandahåller olika komponenter med rika funktioner. [Aspose](http://www.aspose.com/) tillhandahåller en stor samling av .NET- och Java-komponenter. Produkterna inkluderar filformatkomponenter, rapporteringsprodukter, visuella komponenter och hjälpprogram som möjliggör att programmatiskt öppna, ändra, generera, spara, sammanfoga, konvertera etc. dokument i olika format inklusive DOC, RTF, WordML, HTML, PDF, XLS, SpreadsheetML, tabulatorbaserad, CSV, PPT, SWF, EMF,WMF, MPX, MPD och andra format.
 
-Jag skulle ta tillfället i akt att presentera tre av dessa komponenter för dig som har använts i detta uppdrag.
+Jag vill härmed ta tillfället i akt att introducera tre av dessa komponenter som har använts i denna quest.
 ## **Aspose.Cells Grid Controls**
- Aspose.Cells Grid Controls är en komplett rutnätslösning. Aspose.Cells Grid Controls levereras med två olika GUI .NET-komponenter (Aspose.Cells.GridDesktop och Aspose.Cells.GridWeb): en för att stödja skrivbordsapplikationer och en annan för att stödja webbapplikationer. Båda versionerna är lika matchade för att göra implementering i båda plattformarna på ett kick. Aspose.Cells.GridWeb ger möjlighet att importera från och exportera till Excel-kalkylblad. Så alla som är bekanta med Excel (även slutanvändare) kan designa utseendet och känslan av ett rutnät. Aspose.Cells.GridWeb erbjuder också en lättanvänd, funktionsrik API som ger utvecklare fullständig kontroll över utseendet, känslan och beteendet i deras rutnät. För att veta mer om produkten, dess funktioner och för en programmerares guide, vänligen se sammanfattningen av Features List, Aspose.Cells.GridWeb Documentation and online featured[Demos](https://aspose.github.io/)
+Aspose.Cells Grid Controls är en total gridlösning. Aspose.Cells Grid Controls levereras med två olika GUI .NET-komponenter (Aspose.Cells.GridDesktop och Aspose.Cells.GridWeb): en för att stödja skrivbordsapplikationer och den andra för att stödja webbapplikationer. Båda versionerna matchar varandra för att göra implementeringen på någon plattform enkel. Aspose.Cells.GridWeb ger möjlighet att importera från och exportera till Excalkalkylblad, så att vem som helst som är bekant med Excel (även slutanvändare) kan designa gridens utseende. Aspose.Cells.GridWeb erbjuder också ett lättanvänt, funktionsrikt API som ger utvecklare fullständig kontroll över utseendet, känslan och beteendet hos deras rutnät. För att veta mer om produkten, dess funktioner och för en programvaruhandbok, kolla igenom sammanfattningen av funktionerna, Aspose.Cells.GridWeb-dokumentationen och de onlinebaserade [Demona](https://aspose.github.io/)
 ## **Aspose.Cells**
-**Aspose.Cells**är en Excel-kalkylbladsrapporteringskomponent som gör att du kan läsa och skriva Excel-kalkylblad utan att använda Microsoft Excel för att installeras antingen på klient- eller serversidan.**Aspose.Cells** är en funktionsrik komponent som erbjuder mycket mer än bara grundläggande export av data. Med**Aspose.Cells** utvecklare kan exportera data, formatera kalkylblad i varje detalj och på varje nivå, importera bilder, importera diagram, skapa diagram, manipulera diagram, strömma Excel-data, spara i olika format inklusive XLS, CSV, SpreadsheetML, TabDelimited, 0816143 (XML)[Aspose.Pdf](https://products.aspose.com/pdf/) integrerad) och många fler.**Aspose.Cells** erbjuder en lättanvänd, funktionsrik**API** för programmerarna. Den har en enorm lista med funktioner. För att veta mer om produkten, dess funktioner och för en programmerares guide, se sammanfattningen av**Funktionslista**, **Aspose.Cells Dokumentation** och demos online. Du får[ladda ner](https://downloads.aspose.com/cells) dess utvärderingsversion gratis.
+**Aspose.Cells** är en Excel-kalkylrapporteringskomponent som gör att du kan läsa och skriva Excel- kalkylblad utan att använda Microsoft Excel som är installerat vare sig på klient- eller serversidan. **Aspose.Cells** är en funktionsspäckad komponent som erbjuder mycket mer än bara grundläggande export av data. Med **Aspose.Cells** kan utvecklare exportera data, formatera kalkylblad i varje detalj och på varje nivå, importera bilder, importera diagram, skapa diagram, manipulera diagram, strömma Excel-data, spara i olika format inklusive XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/) integrerad) och många fler.**Aspose.Cells** erbjuder en lättanvänd, funktionsrik **API** för programmerare. Den har en enorm lista över funktioner. För att veta mer om produkten, dess funktioner och för en programmerarhandbok, kolla sammanfattnngen av **Funktionslistan**, **Aspose.Cells-dokumentationen** och de onlinebaserade Demona. Du kan [ladda ner](https://downloads.aspose.com/cells) dess utvärderingsversion gratis.
 ## **Designa gränssnittet**
-Vi börjar skapa en ny Asp.Net webbapplikation i Visual Studio.Net.
+Vi börjar skapa en ny Asp.Net-webbapplikation i Visual Studio.Net.
 
- jag**Lägg till referens**till de tre komponenterna ieAspose.Cells.GridWeb.dll, Aspose.Chart.dll och Aspose.Cells.dll till projektet först. Jag placerar lite kontroll på sidan och ställer in deras egenskaper, dvs en rullgardinslista, en kommandoknapp och en etikett. Jag placerar då**Aspose.Cells.GridWeb****kontrollera**(**GridWeb**) till den från verktygslådan, eftersom efter att ha lagt till referenser till de tre komponenterna,**GridWeb**kontroll visas på verktygslådan. De andra två komponenterna (**Aspose.Chart**och**Aspose.Cells**) är bara bibliotek, bara hänvisas till projektet.
+Jag **Lägger till referens** till de tre komponenterna dvs. Aspose.Cells.GridWeb.dll, Aspose.Chart.dll och Aspose.Cells.dll till projektet först. Jag placerar några kontroller på sidan och ställer in deras egenskaper, dvs. en rullgardinsmeny, en kommandoknapp och en etikett. Jag placerar sedan **Aspose.Cells.GridWeb**-kontrollen (**GridWeb**) i den från verktygsfältet, eftersom efter att ha lagt till referenser till de tre komponenterna, visas **GridWeb**-kontrollen på verktygsfältet. De andra två komponenterna (**Aspose.Chart** och **Aspose.Cells**) är bara bibliotek, blir bara refererade till projektet.
 
-Jag skapar också två mappar "fil" och "bilder", lägger till "Products.xml" och "chart.gif" till dessa respektive mappar. XML-filen är en datakällfil från vilken data kommer att extraheras för att fylla**GridWeb**arbetsblad. Bildfilen kommer att tillhandahålla en bild för en anpassad knapp placerad på**GridWeb**kontrollera.
+Jag skapar också två mappar "fil" och "bilder", lägger till "Products.xml" och "chart.gif" i dessa mappar respektive. Xml-filen är en datakällfil från vilken data kommer att hämtas för att fylla**GridWeb**-kalkylarket. Bildfilen kommer att tillhandahålla en bild för en anpassad knapp som placeras på**GridWeb**-kontrollen.
 
-Jag skapar nu en anpassad kommandoknapp. Jag högerklickar helt enkelt på**GridWeb**kontrollera och klicka på alternativet "Anpassade kommandoknappar...".
+Nu skapar jag en anpassad kommandoknapp. Jag högerklickar helt enkelt på**GridWeb**-kontrollen och väljer alternativet "Anpassade kommandoknappar...".
 
-Det kommer att aktivera Custom Command Button editor, editorn låter dig skapa anpassade kommandobildsknappar med verktygstips bifogat. Jag anger värdena för vissa egenskaper för knappen, t.ex. Kommando (Namn) ->"btnChart", ImageUrl -> ge sökvägen till bildfilen ("chart.gif") och ToolTip -> ge verktygstipset.
+Det kommer att aktivera anpassaren för anpassade kommandoknappar. Anpassaren låter dig skapa anpassade kommando bildknappar med verktygstips bifogat. Jag specificerar värden för några egenskaper för knappen t.ex. Kommando (namn) -> "btnChart", Bild-URL -> ange sökvägen till bildfilen ("chart.gif") och Verktygstips -> ange verktygstipset.
 
-Så den anpassade kommandoknappen läggs till som du kan se den (omringad med röd färg) i följande skärmdump.
+Så, den anpassade kommandoknappen läggs till, som du kan se den (omringad med rött) på följande skärmbild.
 
 |![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
-|:- |
+| :- |
 
 
-Slutligen ställer jag in några teckensnittsattribut (fet) för etiketten och kommandoknappen. Jag justerar också storleken på kontrollerna för att få det slutgiltiga utseendet.
+Slutligen ställer jag in några teckensnittsegenskaper (fetstil) för etiketten och kommandoknappen. Jag justerar också storleken på kontrollerna för att få det slutgiltiga utseendet.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
-## **Hämta data från en XML-fil**
-Följande är XML-filstruktur som används i projektet.
+## **Hämta Data från en XML-fil**
+Det följande är XML-filstrukturen som används i projektet.
 ### **XML-filstruktur**
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?xml version="1.0" standalone="yes"?>
 
@@ -76,7 +79,7 @@ Följande är XML-filstruktur som används i projektet.
 
 {{< /highlight >}}
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -160,7 +163,7 @@ if (!IsPostBack)
 
 //This method is used to filter distinct values from CategoryName field in the datatable.
 
-private object[]GetDistinctValues(DataTable dtable, string colName)
+private object[] GetDistinctValues(DataTable dtable, string colName)
 
 {
 
@@ -193,12 +196,12 @@ private object[]GetDistinctValues(DataTable dtable, string colName)
 }
 
 {{< /highlight >}}
-## **Fylla i arbetsbladet för Aspose.Cells.GridWeb-kontrollen med data**
-Jag använder några API av**GridWeb**kontroll för att fylla ett kalkylblad med data från XML-källfilen. Jag skriver kod i kommandoknappen (märkt "Visa rapport")s klickhändelsehanterare. Datarapporten filtreras baserat på det valda objektet från rullgardinsmenyn.
+## **Fylla i kalkylarket för Aspose.Cells.GridWeb-kontrollen med data**
+Jag använder några API av**GridWeb**-kontrollen för att fylla ett kalkylblad med data från den käll-XML-filen. Jag skriver kod i kommandoknappen (märkt"Visa rapport") 's klickhändelsehanterare. Datarapporten filtreras baserat på det valda objektet från listrutan.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Clears datasheets of the GridWeb control.
 
@@ -231,86 +234,86 @@ dv.RowFilter = "CategoryName ='" + DropDownList1.SelectedItem.Text + "'";
 GridWeb1.WebWorksheets.ImportDataView(dv, null, null,"Products",3,0);
 
 {{< /highlight >}}
-## **Formatera data i Cells**
-För att skilja mellan olika typer av information på ett kalkylblad, för optimal visning av data på ditt kalkylblad och för att göra ett kalkylblad lättare att skanna, formaterar du kalkylbladet. A**Formatera**representerar en stil och definieras som en uppsättning egenskaper, såsom teckensnitt och teckenstorlekar, talformat, cellkanter, cellskuggning med enfärgad bakgrundsfärg eller ett specifikt färgmönster, indrag, justering och textorientering i cellerna.
+## **Formatering av data i cellerna**
+För att särskilja mellan olika typer av information på ett kalkylblad, för optimal visning av datan på ditt kalkylblad och för att göra ett kalkylblad lättare att skanna, formaterar du kalkylbladet. En**Format**representerar en stil och är definierad som en uppsättning egenskaper, såsom teckensnitt och teckenstorlekar, nummerformat, cellgränser, cellfyllning med solid bakgrundsfärg eller ett specifikt färgbeteende, indrag, justering och textorientering i cellerna.
 
-Jag slår ihop några fler rader kod till ovan. Jag placerar rubriken/underrubriken på rapporten, formaterar lite till rubrik, underrubrik och detaljceller. Jag tillämpar även nummerformatering på de två fälten (ställ in valutanummerformat till fälten Enhetspris och Försäljning) och justerar höjden/bredden på rader och kolumner med**Aspose.Cells.GridWeb**API.
+Jag lägger till några fler rader kod till ovanstående. Jag placerar titeln /undertiteln för rapporten, gör lite formatering av titel, undertitel och detaljceller. Jag tillämpar också nummerformatering på de två fälten (anger valutanummerformat för EnhetPris och Försäljningsfält) och justerar höjden/ bredden på rader och kolumner med**Aspose.Cells.GridWeb**-API.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Skapa titelcellen (A1) i arket och använd formatering.
+ //Create the title cell (A1) in the sheet and apply formattings.
 
-//Följande rader matar in ett strängvärde till cellen, specificera
+//The following lines input a string value to the cell, specify
 
-//fontstorlek, ange horisontella och vertikala inställningar, ställ in
+//font size, specify horizontal and vertical align settings, set
 
-//förgrunds- och bakgrundsfärger och slå samman celler (A1:E2).
+//foreground and background colors and merge cells (A1:E2).
 
 WebWorksheet sheet = GridWeb1.WebWorksheets[0];
 
-sheet.Cells["A1"].PutValue("Produktförsäljning per kategori");
+sheet.Cells["A1"].PutValue("Product Sales By Category");
 
-ark.Cells["A1"].Style.Font.Size = new FontUnit("20pt");
+sheet.Cells["A1"].Style.Font.Size = new FontUnit("20pt");
 
-ark.Cells["A1"].Style.HorizontalAlign = HorizontalAlign.Center;
+sheet.Cells["A1"].Style.HorizontalAlign = HorizontalAlign.Center;
 
-ark.Cells["A1"].Style.VerticalAlign = VerticalAlign.Middle;
+sheet.Cells["A1"].Style.VerticalAlign = VerticalAlign.Middle;
 
-ark.Cells["A1"].Style.BackColor = Färg.Himmelblå;
+sheet.Cells["A1"].Style.BackColor = Color.SkyBlue;
 
-ark.Cells["A1"].Style.ForeColor = Färg.Blå;
+sheet.Cells["A1"].Style.ForeColor = Color.Blue;
 
-ark.Cells.Sammanfoga(0, 0, 2, 5);
+sheet.Cells.Merge(0, 0, 2, 5);
 
-//Skapa undertextcellen (A3) i arket och använd formatering.
+//Create the subtitle cell (A3) in the sheet and apply formattings.
 
-//Följande rader matar in ett strängvärde till cellen, specificera
+//The following lines input a string value to the cell, specify
 
-//fontstorlek med attribut, ange horisontell och vertikal justering
+//font size with attributes, specify horizontal and vertical align
 
-//inställningar, ställ in förgrunds- och bakgrundsfärger och slå samman celler
+//settings, set foreground and background colors and merge cells
 
 //(A3:E3).
 
-ark.Cells["A3"].PutValue(DropDownList1.SelectedItem.Text);
+sheet.Cells["A3"].PutValue(DropDownList1.SelectedItem.Text);
 
-ark.Cells["A3"].Style.Font.Size = new FontUnit("13pt");
+sheet.Cells["A3"].Style.Font.Size = new FontUnit("13pt");
 
-ark.Cells["A3"].Style.Font.Fet = sant;
+sheet.Cells["A3"].Style.Font.Bold = true;
 
-ark.Cells["A3"].Style.Font.Italic = sant;
+sheet.Cells["A3"].Style.Font.Italic = true;
 
-ark.Cells["A3"].Style.HorizontalAlign = HorizontalAlign.Left;
+sheet.Cells["A3"].Style.HorizontalAlign = HorizontalAlign.Left;
 
-ark.Cells["A3"].Style.VerticalAlign = VerticalAlign.Middle;
+sheet.Cells["A3"].Style.VerticalAlign = VerticalAlign.Middle;
 
-ark.Cells["A3"].Style.BackColor = Color.SeaGreen;
+sheet.Cells["A3"].Style.BackColor = Color.SeaGreen;
 
-ark.Cells["A3"].Style.ForeColor = Färg.Gul;
+sheet.Cells["A3"].Style.ForeColor = Color.Yellow;
 
-ark.Cells.Sammanfoga(2, 0, 1, 5);
+sheet.Cells.Merge(2, 0, 1, 5);
 
-//Hämta de sista rad- och kolumnindexen (som innehåller data).
+//Obtain the last row and column (which contain data) indexes.
 
-int totalrad = ark.Cells.MaxRow +1;
+int totalrow = sheet.Cells.MaxRow +1;
 
 int totalcol = sheet.Cells.MaxColumn;
 
-//Hämta arket Cells samlingar
+//Get the sheet Cells collections
 
-WebCells celler = ark.Cells;
+WebCells cells = sheet.Cells;
 
-//Definiera objektet Cell.
+//Define the Cell object.
 
 WebCell cell;
 
-//Bläddra igenom data i arket och formatera två fält med
+//Loop through the data in the sheet and format two fields with
 
-//Stil för valutanummer.
+//Currency number style.
 
-för (int i = 4;i<=totalrow;i++)
+for (int i = 4;i<=totalrow;i++)
 
 {
 
@@ -363,14 +366,14 @@ cells.SetColumnWidth(4, new Unit("50pt"));
 
 
 {{< /highlight >}}
-## **Att producera den formaterade rapporten (.XLS-fil) med Graph med komponenten Aspose.Cells**
-Nu ska jag skriva lite kod för att spara den formaterade rapporten med grafen på disken. jag använder**GridWeb** s**Spara**knappen, The**GridWeb** s**SaveCommand**händelsen aktiveras när du klickar på knappen Spara, så jag kommer att hantera det. Här använder jag**Aspose.Cells**komponent för att exportera den formaterade rapporten till MS Excel, generera diagram och bädda in den i utdata Excel-filen. Jag har inte infogat diagrambilden (skapad av**Aspose.Chart**komponent) skapa snarare ett liknande diagram med hjälp av API av**Aspose.Cells**så att du kan redigera diagram i MS Excel för dina behov.
+## **Producera den formaterade rapporten (.XLS-fil) med grafik med hjälp av Aspose.Cells-komponenten**
+Nu ska jag skriva några koder för att spara den formaterade rapporten med grafik på hårddisken. Jag använder**GridWeb** 's**Spara**-knapp, **GridWeb** 's**SparaKommando**-händelse aktiveras när du klickar på Spara-knappen, så jag kommer att hantera den. Här använder jag**Aspose.Cells**-komponenten för att exportera den formaterade rapporten till MS Excel, generera diagram och bädda in det i den resulterande Excel-filen. Jag har inte satt in diagrambilden (skapad av**Aspose.Chart**-komponenten) utan skapat ett liknande diagram med hjälp av**Aspose.Cells**-API, så att du kan redigera diagrammet i MS Excel enligt ditt behov.
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //This GridWeb control event is fired when you click on the "Save" button
 
@@ -532,51 +535,51 @@ chartIndex = sheet.Charts.Add(Aspose.Cells.ChartType.Pie,maxrow,0,maxrow+28,5);
 
 {{< /highlight >}}
 ## **Kör applikationen**
-Nu kör jag applikationen. Rullgardinslistan är fylld med de distinkta kategorierna.
+Nu kör jag applikationen. Listrutan fylls med de olika kategorierna.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
 
-Jag väljer en kategori för vilken jag vill visa försäljningsrapporten och klickar på knappen "Visa rapport".
+Jag väljer en kategori genom vilken jag vill visa försäljningsrapporten och klickar på"Visa rapport"-knappen.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
 
-Så rapporten visas i**GridWeb**baserat på den valda kategorin. Rapporten formateras som standard baserat på koden (skriven tidigare).
+Så visas rapporten i**GridWeb**baserat på den valda kategorin. Rapporten formateras som standard baserat på den tidigare skrivna koden.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
 
-Om du vill formatera data till några av cellerna på WYSIWYG-sätt kan du göra det ganska enkelt.**Aspose.Cells.GridWeb**tillhandahåller**Format Cells**editor, välj önskad cell(er) och högerklicka på den, klicka på alternativet "Format Cell...".
+Om du vill formatera data i några av cellerna på visuellt sätt kan du göra det ganska enkelt.**Aspose.Cells.GridWeb**ger**Format Cell**-redigeraren, välj önskad cell(er) och högerklicka på den, klicka på"Format Cell..."-alternativet.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
 
-Dialogrutan Format Cell visas.
+Dialogrutan för Formatcell visas.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
 
-Jag anger några teckensnittsattribut och klickar på OK.
+Jag specificerar några teckensnittsegenskaper och klickar på OK.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
 
-Och få resultatet.
+Och får resultatet.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
 
-Förutom cellformatering kan du också redigera dina cellvärden. Dubbelklicka på önskad cell(er) och redigera värdet.
+Förutom cellformatering kan du också redigera dina cellvärden. Dubbelklicka på önskad(e) cell(er) och redigera värdet.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
 
-För att skicka in redigeringsresultatet och räkna om alla formler klickar jag på den relaterade knappen (omringad med röd färg) för att uppdatera rapporten.
+För att skicka in redigeringsresultatet och beräkna om alla formler klickar jag på den relaterade knappen (omringad med rött) för att uppdatera rapporten.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
 
-Nu ska jag skapa diagrammet och klistra in det i kontrollen. Jag klickar på den anpassade kommandoknappen (omringad med röd färg) för att skapa ett cirkeldiagram baserat på dataintervallet.
+Nu kommer jag att skapa diagrammet och klistra in det i kontrollen. Jag klickar på den anpassade kommandoknappen (omringad med rött) för att skapa cirkeldiagrammet baserat på datområdet.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
 
-Slutligen kommer jag att exportera denna datarapport med graf till MS Excel. Jag klickar på**Spara**knapp (omringad med röd färg). Genom att klicka på**Spara**knappen visas**Filhämtning**dialog kan du antingen**Öppen**den resulterande rapporten (utdata excel-fil med graf) till MS Excel eller spara den på disken.
+Slutligen exporterar jag denna data rapport med diagram till MS Excel. Jag klickar på**Spara**-knappen (omringad med rött). När du klickar på**Spara**-knappen visas en**File Download**-dialogruta, där kan du antingen**Öppna**den resulterande rapporten (output excel-fil med diagram) i MS Excel eller Spara den på hårddisken.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
 
-När jag klickar på Öppna-knappen (Hämta fil), exporteras excel-rapporten med graf till MS Excel. Den övre delen av rapporten visas.
+När jag klickar på Öppna-knappen (File Download dialogruta), exporteras excel-rapporten med diagrammet till MS Excel. Övre delen av rapporten visas.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
 

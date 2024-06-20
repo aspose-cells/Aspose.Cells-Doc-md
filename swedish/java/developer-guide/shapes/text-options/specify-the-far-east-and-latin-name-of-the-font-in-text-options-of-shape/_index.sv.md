@@ -1,16 +1,17 @@
-﻿---
-title: Ange Fjärran Östern och det latinska namnet på teckensnittet i textalternativ i form
+---
+title: Ange det fjärrösterländska och latinska namnet på teckensnittet i texternas alternativ för Shape
 type: docs
 weight: 120
 url: /sv/java/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/
 ---
-## **Möjliga användningsscenarier**
 
-Ibland vill du visa text i Fjärran Östern språktypsnitt, t.ex. japanska, kinesiska, thailändska, etc. Aspose.Cells tillhandahåller[**TextOptions.FarEastName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#FarEastName)egenskap som kan användas för att ange teckensnittsnamnet för språket Fjärran Östern. Dessutom kan du också ange det latinska teckensnittsnamnet med hjälp av[**TextOptions.LatinName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#LatinName)fast egendom.
+## **Möjliga användningsscenario**
 
-## **Ange Fjärran Östern och det latinska namnet på teckensnittet i textalternativ i form**
+Ibland vill du visa text i teckensnitt för fjärröstliga språk, t.ex. japanska, kinesiska, thailändska, osv. Aspose.Cells tillhandahåller egenskapen [**TextOptions.FarEastName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#FarEastName) som kan användas för att ange teckensnittsnamnet för fjärröstligt språk. Dessutom kan du också ange det latinska teckensnittsnamnet med hjälp av egenskapen [**TextOptions.LatinName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#LatinName).
 
-Följande exempelkod skapar en textruta och lägger till lite japansk text i den. Den anger sedan textens latinska och Fjärran Östern teckensnittsnamn och sparar arbetsboken som[utdata Excel-fil](67338341.xlsx). Följande skärmdump visar teckensnittsnamnen i Latin och Fjärran Östern för utdatatextrutan i Microsoft Excel.
+## **Ange det fjärrösterländska och latinska namnet på teckensnittet i texternas alternativ för Shape**
+
+Följande exempelkod skapar en textruta och lägger till lite japansk text i den. Den anger sedan texternas latinska och fjärröstliga teckensnittsnamn och sparar arbetsboken som [utdata Excel-filen](67338341.xlsx). Följande skärmbild visar de latinska och fjärröstliga teckensnittsnamnen för textrutan i Microsoft Excel.
 
 ![todo:image_alt_text](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
 

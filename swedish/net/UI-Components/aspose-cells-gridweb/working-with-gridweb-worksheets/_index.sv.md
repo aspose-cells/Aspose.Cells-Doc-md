@@ -1,6 +1,8 @@
-﻿---
-title: Arbeta med GridWeb-arbetsblad
+---
+title: Arbeta med GridWeb ark
 type: docs
 weight: 40
-url: /sv/net/working-with-gridweb-worksheets/
+url: /sv/net/aspose-cells-gridweb/working-with-gridweb-worksheets/
 ---
+
+

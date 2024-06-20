@@ -1,23 +1,24 @@
-﻿---
-title: 序章
+---
+title: はじめに
 type: docs
 weight: 10
 url: /ja/reportingservices/introduction/
 ---
+
 {{% alert color="primary" %}}
 
-このセクションでは、Aspose.Cells for Reporting Services をインストールおよびアンインストールする方法について説明します。
+このセクションでは、Aspose.Cells for Reporting Servicesのインストールおよびアンインストール方法について説明します。
 
-Aspose.Cells for Reporting Services は、次の 2 つの方法でデプロイできます。
+Aspose.Cells for Reporting Servicesを2つの方法で展開できます：
 
-- 完全な MSI インストーラーを使用するか、
-- 単一の DLL を使用します。
+- フルMSIインストーラを使用するか
+- 単一のDLLを使用するか
 
-インストーラーと DLL はどちらも、Aspose.Cells for Reporting Services から無料でダウンロードできます。[ダウンロードページ](https://downloads.aspose.com/cells/reportingservices).
+インストーラとDLLは、Aspose.Cells for Reporting Servicesの[ダウンロードページ](https://downloads.aspose.com/cells/reportingservices)で無料でダウンロードできます。
 
-インストーラーを使用すると、いくつかの利点があります。
+インストーラを使用するといくつかの利点があります：
 
-1. Microsoft Excel を COM アプリケーションに公開するために必要なすべてのエントリをシステム レジストリに作成します。
-1. これには、コード サンプルを入手できるデモ プロジェクトが含まれています。
+1. システムレジストリに必要なエントリをすべて作成し、Microsoft ExcelをCOMアプリケーションに公開します。
+1. コードサンプルを入手できるデモプロジェクトが含まれています。
 
 {{% /alert %}}

@@ -1,15 +1,16 @@
-﻿---
-title: Ta bort arbetsblad med Sheet Name i PHP
+---
+title: Ta bort arbetsblad med hjälp av arknamn i PHP
 type: docs
 weight: 40
 url: /sv/net/removing-worksheets-using-sheet-name-in-php/
 ---
-## **Ta bort kalkylblad med hjälp av arbetsbladsnamn**
-Ta bort kalkylblad med hjälp av arbetsbladsnamn
+
+## **Ta bort arbetsblad med hjälp av arknamn**
+Ta bort arbetsblad med hjälp av arknamn
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -32,7 +33,7 @@ Ta bort kalkylblad med hjälp av arbetsbladsnamn
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Ta bort kalkylblad med hjälp av arbetsbladsnamn (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Hämta **Ta bort arbetsblad med hjälp av arknamn (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetName.php)

@@ -1,25 +1,26 @@
-﻿---
+---
 title: Vista previa de varios documentos
 type: docs
 weight: 40
 url: /es/sharepoint/preview-multiple-documents/
 ---
- Puede obtener una vista previa de varios documentos de Excel en la biblioteca de documentos.
 
- Para obtener una vista previa de todos los archivos en una carpeta:
+Puede previsualizar varios documentos de Excel en la biblioteca de documentos. 
 
-1.  Seleccione**Vista previa del documento con Aspose.Cells** en el ECB para su carpeta deseada mientras permanece en el padre.
+Para previsualizar todos los archivos en una carpeta: 
 
-Para obtener una vista previa de varios archivos dentro de una carpeta:
+1. Seleccione **Vista previa del documento con Aspose.Cells** en el ECB para la carpeta deseada mientras permanece en la carpeta principal.
 
-1. Seleccione varios archivos.
-1.  Con los archivos aún seleccionados, seleccione**Vista previa del documento con Aspose.Cells**.
+Para previsualizar varios archivos desde una carpeta:
 
-**Vista previa del documento desde dentro de SharePoint** 
+1. Selecciona múltiples archivos.
+1. Con los archivos aún seleccionados, seleccione **Vista previa del documento con Aspose.Cells**.
 
-![todo:imagen_alternativa_texto](preview-multiple-documents_1.png)
+**Vista previa del documento desde Sharepoint** 
 
-Cuando obtiene una vista previa de varios documentos, el área de datos muestra el primer documento de la lista. La lista de documentos muestra todos los documentos de vista previa. Para ver otro documento:
+![todo:image_alt_text](preview-multiple-documents_1.png)
 
-1. Seleccione un documento en la lista.
-1.  Hacer clic**Avance**.
+Cuando estás previsualizando varios documentos, el área de datos muestra el primer documento en la lista. La lista de documentos muestra todos los documentos previsualizados. Para ver otro documento:
+
+1. Selecciona un documento en la lista.
+1. Haz clic en **Previsualizar**.

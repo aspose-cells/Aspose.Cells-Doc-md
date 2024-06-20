@@ -1,54 +1,57 @@
-﻿---
-title: 洗練されたグラフを使用して書式設定された Excel レポートを動的に生成する
+---
+title: エレガントなグラフを使用したフォーマット済みのExcelレポートの動的生成
 type: docs
 weight: 130
-url: /ja/net/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+url: /ja/net/aspose-cells-gridweb/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+keywords: GridWeb,レポート生成,レポート
+description: この記事では、GridWebでのレポート生成方法について紹介しています。
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントは、データ ソースからコントロールのような素晴らしいグリッドにデータを抽出し、そこにグラフを貼り付け、分析、比較、および印刷を行うためにグラフ付きのレポートを MS Excel にエクスポートする方法について、必要な情報を提供するように設計されています。
+このドキュメントは、データをデータソースから抽出し、見栄えの良いグリッドのようなコントロールに貼り付け、チャートを含めてそのレポートをMS Excelにエクスポートして分析、比較、印刷を行う方法について提供するよう設計されています。
 
 {{% /alert %}} 
 ## **概要**
-レポートとプレゼンテーションの両方を必要とする特定の Web シナリオがあります。これは、うまく連携できるパーツまたはオブジェクトの組み合わせです。この記事では、WYSIWYG 方式でスタイリッシュな Excel レポートを動的に設計および生成することがいかに簡単かを説明しています。 XML ファイル (他のデータ ソースを利用することもできます) から Aspose.Cells.GridWeb コントロールにデータをエクスポートします。これにより、リッチで魅力的な形式をデータに適用し、MS Excel のような式の結果を計算できる実際の環境が提供されます。また、ワークシートのソース データに基づいて洗練されたグラフを生成します。[Aspose.Cells](https://products.aspose.com/cells/)コンポーネントを作成し、チャート イメージを販売レポートに貼り付けます。最後に、グラフが添付された Excel レポートが Aspose.Cells コンポーネントを使用してディスクに保存されます。
+報告とプレゼンテーションの両方を要求する特定のWebシナリオがあります。この記事では、WYSIWYGの方法で動的にスタイリッシュなExcelレポートを設計および生成するのがどれほど簡単かについて説明します。 Aspose.Cells.GridWebコントロールを使用して、XMLファイルからデータをエクスポートし（他のデータソースも利用可能）、MS Excelのように豊かで魅力的なフォーマットを適用し、セルの計算結果を得る環境を提供します。 Aspose.Cellsコンポーネントを使用して、Worksheetソースデータに基づいた洗練されたチャートを生成し、Sales Reportにチャート画像を貼り付けます。最後に、添付されたグラフを含むExcelレポートをAspose.Cellsコンポーネントを使用してディスクに保存します。
 
-この記事には、そのような機能のソース コードとフル機能のデモ プロジェクトが含まれています。
+この記事には、その機能を備えたソースコードと完全機能のデモプロジェクトが含まれています。
 
-これにより、ビジネス レポートの作成方法に関する詳細な認識を持つユーザーは、グリッドのワークシートにデータを入力し、行と列のセルに書式設定を適用し、データを保存する前にデータのソース範囲に基づいてグラフを埋め込むことができます。ディスクへの Excel レポート。
-## **Aspose コンポーネント**
-の3つを使っています[Aspose](http://www.aspose.com/)のコンポーネントを使用してタスクを簡単に実行できます。[Aspose](http://www.aspose.com/) 、.NET および Java Component Publisher は、さまざまな機能豊富なコンポーネントを提供します。[Aspose](http://www.aspose.com/) .NET および Java コンポーネントの優れたラインを提供します。世界中の何千もの顧客から信頼されている製品には、ファイル形式コンポーネント、レポート製品、ビジュアル コンポーネント、ユーティリティ コンポーネントが含まれており、DOC、RTF、WordML、 HTML、PDF、XLS、SpreadsheetML、タブ区切り、CSV、PPT、SWF、EMF、WMF、MPX、MPD およびその他の形式。
+ユーザーがワークシートにデータを入力し、行や列のセルにフォーマットを適用し、データソースの範囲に基づいてグラフを埋め込んでから、Excelレポートをディスクに保存する方法について、詳細な理解を提供します。
+## **Asposeのコンポーネント**
+私は[Aspose](http://www.aspose.com/)の3つのコンポーネントを使用して、このタスクを簡単に実行しています。 [Aspose](http://www.aspose.com/)は、.NETおよびJavaのコンポーネントのパブリッシャーで、機能豊富なコンポーネントを提供しています。 [Aspose](http://www.aspose.com/)は、ファイル形式コンポーネント、レポート製品、ビジュアルコンポーネント、ユーティリティコンポーネントなど、さまざまな形式のドキュメント（DOC、RTF、WordML、HTML、PDF、XLS、SpreadsheetML、Tab Delimited、CSV、PPT、SWF、EMF、WMF、MPX、MPDなど）をプログラムで開く、変更する、生成する、保存する、マージする、変換するなどの機能を提供しています。
 
-この機会に、このクエストで使用された 3 つのコンポーネントを紹介します。
-## **Aspose.Cells グリッド コントロール**
-Aspose.Cells グリッド コントロールは、トータル グリッド ソリューションです。 Aspose.Cells グリッド コントロールには、2 つの異なる GUI .NET コンポーネント (Aspose.Cells.GridDesktop および Aspose.Cells.GridWeb) がパッケージされています。1 つはデスクトップ アプリケーションをサポートし、もう 1 つは Web アプリケーションをサポートします。どちらのプラットフォームでも簡単に実装できるように、両方のバージョンが等しく一致しています。 Aspose.Cells.GridWeb は、Excel スプレッドシートからインポートおよびエクスポートする機能を提供します。そのため、Excel に精通している人なら誰でも (エンド ユーザーであっても)、グリッドのルック アンド フィールをデザインできます。 Aspose.Cells.GridWeb は、使いやすく機能豊富な API も提供します。これにより、開発者はグリッドのルック、フィール、および動作を完全に制御できます。製品、その機能、およびプログラマー ガイドの詳細については、機能リストの概要、Aspose.Cells.GridWeb ドキュメント、およびオンラインの機能を確認してください。[デモ](https://aspose.github.io/)
+このクエストで使用された3つのコンポーネントをご紹介する機会を頂きたいと思います。
+## **Aspose.Cells Grid Controls**
+Aspose.Cells Grid Controlsは、総合的なグリッドソリューションです。 Aspose.Cells Grid Controlsには、デスクトップアプリケーションをサポートする2つの異なるGUI .NETコンポーネント（Aspose.Cells.GridDesktopおよびAspose.Cells.GridWeb）がパッケージ化されています。デスクトップアプリケーションおよびWebアプリケーションをサポートするために、両バージョンは同等の機能を備えています。 Aspose.Cells.GridWebは、Excelスプレッドシートへのインポートおよびエクスポートの機能を提供します。Excelに詳しい人（最終ユーザーでも）でも、グリッドの外観や操作をデザインすることができます。 Aspose.Cells.GridWebは、開発者にグリッドの外観、操作や挙動に対する完全な制御機能を提供する使いやすく、機能豊富なAPIを提供しています。製品の詳細や機能については、特長一覧の概要、Aspose.Cells.GridWebドキュメント、 [デモ](https://aspose.github.io/)をオンラインで掲載しているものを確認してください。
 ## **Aspose.Cells**
-**Aspose.Cells**Microsoft Excel をクライアント側またはサーバー側にインストールすることなく、Excel スプレッドシートの読み書きを可能にする Excel スプレッドシート レポート コンポーネントです。**Aspose.Cells**は、基本的なデータのエクスポート以上の機能を提供する豊富な機能を備えたコンポーネントです。と**Aspose.Cells**開発者は、データのエクスポート、あらゆる詳細およびあらゆるレベルでのスプレッドシートの書式設定、画像のインポート、チャートのインポート、チャートの作成、チャートの操作、Excel データのストリーミング、XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML などのさまざまなフォーマットでの保存を行うことができます ([Aspose.Pdf](https://products.aspose.com/pdf/)統合) など。**Aspose.Cells**使いやすく、豊富な機能を提供します**API**プログラマー向け。機能の膨大なリストがあります。製品、その機能、およびプログラマー ガイドの詳細については、次の概要を確認してください。**機能一覧**, **Aspose.Cells ドキュメンテーション**およびオンライン特集デモ。してもいいです[ダウンロード](https://downloads.aspose.com/cells)その評価版は無料です。
-## **インターフェイスの設計**
-Visual Studio.Net で新しい Asp.Net Web アプリケーションの作成を開始します。
+**Aspose.Cells**は、Microsoft Excelのインストールをクライアントまたはサーバーサイドで利用しないでExcelスプレッドシートを読み書きできるようにするExcelスプレッドシートレポーティングコンポーネントです。 **Aspose.Cells**は、データの基本的なエクスポート以上の機能を提供する機能豊富なコンポーネントです。 **Aspose.Cells**を使用すると、データのエクスポート、スプレッドシートの細部や各レベルでのフォーマット設定、画像のインポート、チャートのインポート、チャートの作成、チャートの操作、Excelデータのストリーム処理、XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML（[Aspose.Pdf](https://products.aspose.com/pdf/)統合）など、さまざまな形式での保存などができます。 **Aspose.Cells**は、プログラマー向けの使いやすく、機能豊富な**API**を提供しており、多くの機能が用意されています。製品の詳細や機能については、機能一覧、**Aspose.Cells**ドキュメント、オンラインのデモをご確認ください。評価版を [ダウンロード](https://downloads.aspose.com/cells)して無料で利用することができます。
+## **インターフェースの設計**
+Visual Studio.Net で新しい Asp.Net ウェブアプリケーションの作成を始めます。
 
-私**参照を追加** つのコンポーネント ieAspose.Cells.GridWeb.dll、Aspose.Chart.dll、および Aspose.Cells.dll を最初にプロジェクトに追加します。ページにいくつかのコントロールを配置し、ドロップダウン リスト、コマンド ボタン、ラベルなどのプロパティを設定します。次に配置します**Aspose.Cells.GridWeb****コントロール**(**グリッドウェブ**をツールボックスから追加します。これは、3 つのコンポーネントへの参照を追加した後、**グリッドウェブ**コントロールがツールボックスに表示されます。他の 2 つのコンポーネント (**Aspose.Chart**と**Aspose.Cells**は単なるライブラリであり、プロジェクトへの参照のみを取得します。
+最初に、プロジェクトに Aspose.Cells.GridWeb.dll、Aspose.Chart.dll、Aspose.Cells.dll の 3 つのコンポーネントの**参照を追加**します。次に、ページにいくつかのコントロールを配置し、それらのプロパティを設定します（ドロップダウンリスト、コマンドボタン、ラベル）。そして、ツールボックスから**GridWeb**コントロール(**Aspose.Cells.GridWeb**制御)を追加します。この3つのコンポーネントに参照を追加した後、**GridWeb**コントロールがツールボックスに表示されます。他の2つのコンポーネント（**Aspose.Chart**および**Aspose.Cells**）は、ライブラリのみでプロジェクトに参照が追加されます。
 
-また、「file」と「images」という 2 つのフォルダーを作成し、これらのフォルダーにそれぞれ「Products.xml」と「chart.gif」を追加します。 xml ファイルは、データを抽出してデータを埋めるデータ ソース ファイルです。**グリッドウェブ**ワークシート。イメージ ファイルは、**グリッドウェブ**コントロール。
+また、「file」と「images」の 2 つのフォルダを作成し、「Products.xml」と「chart.gif」をそれぞれ追加します。XML ファイルは、データを**GridWeb**ワークシートに入力するために抽出されるデータソースファイルです。画像ファイルは、**GridWeb**コントロールに配置されるカスタムボタンに画像を提供します。
 
-ここで、カスタム コマンド ボタンを作成します。私は単に右クリックします**グリッドウェブ**コントロールし、[カスタム コマンド ボタン…] オプションをクリックします。
+今、カスタムコマンドボタンを作成します。**GridWeb**コントロールを右クリックし、「カスタムコマンドボタン...」オプションをクリックします。
 
-カスタム コマンド ボタン エディターがアクティブになります。このエディターを使用すると、ツール ヒントが添付されたカスタム コマンド イメージ ボタンを作成できます。ボタンのいくつかのプロパティの値を指定します。たとえば、Command (Name) ->"btnChart"、ImageUrl -> 画像ファイル ("chart.gif") へのパスを指定し、ToolTip -> ツール ヒントを指定します。
+これにより、カスタムコマンドボタンエディタが起動されます。エディタでは、ツールチップが添付されたカスタムコマンド画像ボタンを作成することができます。ボタンのいくつかのプロパティの値を指定します。 たとえば、コマンド（名前）-> "btnChart"、ImageUrl -> 画像ファイルへのパス（"chart.gif"）、ToolTip -> ツールチップを指定します。
 
-そのため、次のスクリーン ショットでわかるように、カスタム コマンド ボタンが追加されます (赤い色で囲まれています)。
+これで、赤い枠で囲まれたカスタムコマンドボタンが次のスクリーンショットで表示されます。
 
-|![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
-|:- |
+|![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
+| :- |
 
 
-最後に、ラベルとコマンド ボタンにいくつかのフォント属性 (太字) を設定します。コントロールのサイズも調整して、最終的な外観を取得します。
+最後に、ラベルとコマンドボタンのフォント属性（太字）を設定します。また、コントロールのサイズを調整して最終的な外観を整えます。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
-## **XML ファイルからのデータの取得**
-以下は、プロジェクトで使用される XML ファイル構造です。
-### **XML ファイル構造**
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
+## **XMLファイルからのデータの取得**
+プロジェクトで使用される XML ファイル構造は次のとおりです。
+### **XMLファイル構造**
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?xml version="1.0" standalone="yes"?>
 
@@ -76,7 +79,7 @@ Visual Studio.Net で新しい Asp.Net Web アプリケーションの作成を�
 
 {{< /highlight >}}
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -160,7 +163,7 @@ if (!IsPostBack)
 
 //This method is used to filter distinct values from CategoryName field in the datatable.
 
-private object[]GetDistinctValues(DataTable dtable, string colName)
+private object[] GetDistinctValues(DataTable dtable, string colName)
 
 {
 
@@ -194,11 +197,11 @@ private object[]GetDistinctValues(DataTable dtable, string colName)
 
 {{< /highlight >}}
 ## **Aspose.Cells.GridWeb コントロールのワークシートにデータを入力する**
-私はいくつかの API を使用します**グリッドウェブ**コントロールを使用して、ソース XML ファイルからのデータをワークシートに入力します。コマンド ボタン ("Show Report" というラベルが付いています) のクリック イベント ハンドラーにコードを記述します。データ レポートは、ドロップダウン リストから選択した項目に基づいてフィルタリングされます。
+**GridWeb**コントロールの API を使用して、ソース XML ファイルからワークシートにデータを入力します。コマンドボタン（ラベル"Show Report"）のクリックイベントハンドラにコードを記述します。データレポートは、ドロップダウンリストから選択されたアイテムに基づいてフィルタリングされます。
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Clears datasheets of the GridWeb control.
 
@@ -231,26 +234,26 @@ dv.RowFilter = "CategoryName ='" + DropDownList1.SelectedItem.Text + "'";
 GridWeb1.WebWorksheets.ImportDataView(dv, null, null,"Products",3,0);
 
 {{< /highlight >}}
-## **Cells のデータの書式設定**
-ワークシート上のさまざまな種類の情報を区別し、ワークシート上のデータを最適に表示し、ワークシートを簡単にスキャンできるようにするには、ワークシートを書式設定します。あ**フォーマット**スタイルを表し、フォントとフォント サイズ、数値形式、セルの境界線、無地の背景色または特定の色パターンによるセルの陰影、インデント、配置、およびセル内のテキストの向きなどの一連の特性として定義されます。
+## **セルのデータのフォーマット**
+ワークシート上の異なるタイプの情報を区別するため、データを最適に表示し、ワークシートを見やすくするために、ワークシートのフォーマットを行います。**Format**はスタイルを表し、フォントやフォントサイズ、数値形式、セルの境界線、セルの塗りつぶし、インデント、セル内の配置やテキストの向きなどの一連の特性で定義されます。
 
-さらにいくつかのコード行を上記に統合します。レポートのタイトル/サブタイトルを配置し、タイトル、サブタイトル、および詳細セルに書式を設定します。また、数値書式を 2 つのフィールドに適用し (通貨の数値書式を UnitPrice フィールドと Sale フィールドに設定)、行と列の高さ/幅を次のように調整します。**Aspose.Cells.GridWeb**API.
+上記に追加のコードを組み合わせます。レポートのタイトル/サブタイトルを配置し、タイトル、サブタイトル、詳細セルにフォーマットを適用します。2 つのフィールド（UnitPrice および Sale フィールド）に数値形式を適用し、**Aspose.Cells.GridWeb**API を使用して行と列の高さ/幅を調整します。
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //シートにタイトル セル (A1) を作成し、書式を適用します。
+ //Create the title cell (A1) in the sheet and apply formattings.
 
-//次の行はセルに文字列値を入力し、指定します
+//The following lines input a string value to the cell, specify
 
-//フォント サイズ、水平方向と垂直方向の配置設定を指定、設定
+//font size, specify horizontal and vertical align settings, set
 
-//前景色と背景色と結合セル (A1:E2)。
+//foreground and background colors and merge cells (A1:E2).
 
-WebWorksheet シート = GridWeb1.WebWorksheets[0];
+WebWorksheet sheet = GridWeb1.WebWorksheets[0];
 
-sheet.Cells["A1"].PutValue("カテゴリ別商品売上");
+sheet.Cells["A1"].PutValue("Product Sales By Category");
 
 sheet.Cells["A1"].Style.Font.Size = new FontUnit("20pt");
 
@@ -264,13 +267,13 @@ sheet.Cells["A1"].Style.ForeColor = Color.Blue;
 
 sheet.Cells.Merge(0, 0, 2, 5);
 
-//シートにサブタイトル セル (A3) を作成し、書式を適用します。
+//Create the subtitle cell (A3) in the sheet and apply formattings.
 
-//次の行はセルに文字列値を入力し、指定します
+//The following lines input a string value to the cell, specify
 
-// 属性付きのフォント サイズ、水平方向と垂直方向の配置を指定
+//font size with attributes, specify horizontal and vertical align
 
-//設定、前景色と背景色の設定、セルの結合
+//settings, set foreground and background colors and merge cells
 
 //(A3:E3).
 
@@ -292,23 +295,23 @@ sheet.Cells["A3"].Style.ForeColor = Color.Yellow;
 
 sheet.Cells.Merge(2, 0, 1, 5);
 
-//最後の行と列 (データを含む) のインデックスを取得します。
+//Obtain the last row and column (which contain data) indexes.
 
 int totalrow = sheet.Cells.MaxRow +1;
 
 int totalcol = sheet.Cells.MaxColumn;
 
-// シート Cells コレクションを取得します
+//Get the sheet Cells collections
 
-WebCells セル = sheet.Cells;
+WebCells cells = sheet.Cells;
 
-// Cell オブジェクトを定義します。
+//Define the Cell object.
 
-WebCell セル;
+WebCell cell;
 
-//シート内のデータをループし、次のように 2 つのフィールドをフォーマットします
+//Loop through the data in the sheet and format two fields with
 
-//通貨番号スタイル。
+//Currency number style.
 
 for (int i = 4;i<=totalrow;i++)
 
@@ -363,14 +366,14 @@ cells.SetColumnWidth(4, new Unit("50pt"));
 
 
 {{< /highlight >}}
-## **Aspose.Cells コンポーネントを使用して、グラフで書式設定されたレポート (.XLS ファイル) を作成する**
-ここで、グラフを含む書式設定されたレポートをディスクに保存するためのコードを記述します。私は利用します**グリッドウェブ**の**セーブ**ボタン、**グリッドウェブ**の**保存コマンド**保存ボタンをクリックするとイベントが発生するので、処理します。ここで、私は使用します**Aspose.Cells**コンポーネントを使用して、書式設定されたレポートを MS Excel にエクスポートし、グラフを生成して出力 Excel ファイルに埋め込みます。チャート画像を挿入していません (作成者:**Aspose.Chart**コンポーネント) の API を使用して同様のチャートを作成します。**Aspose.Cells**、必要に応じて MS Excel でチャートを編集できるようにします。
+## **Aspose.Cells コンポーネントを使用して、グラフ付きのフォーマット済みレポート（.XLS ファイル）を生成する**
+次に、フォーマット済みレポートをディスクに保存するためのコードを記述します。**GridWeb**の**Save**ボタンを利用します。**GridWeb**の**SaveCommand**イベントは、保存ボタンをクリックすると発生し、ここでフォーマット済みレポートを MS Excel にエクスポートし、グラフを生成して出力エクセルファイルに埋め込みます。**Aspose.Chart**コンポーネントで作成されたチャート画像を挿入せずに、**Aspose.Cells**のAPIを使用して類似のチャートを作成し、MS Excel でチャートを編集できるようにします。
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //This GridWeb control event is fired when you click on the "Save" button
 
@@ -532,54 +535,54 @@ chartIndex = sheet.Charts.Add(Aspose.Cells.ChartType.Pie,maxrow,0,maxrow+28,5);
 
 {{< /highlight >}}
 ## **アプリケーションの実行**
-次に、アプリケーションを実行します。ドロップダウン リストには、個別のカテゴリが表示されます。
+アプリケーションを実行します。ドロップダウンリストには異なるカテゴリが表示されます。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
 
-販売レポートを表示するカテゴリを選択し、[レポートを表示] ボタンをクリックします。
+販売レポートを表示したいカテゴリを選択し、「Show Report」ボタンをクリックします。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
 
-そのため、レポートは**グリッドウェブ**選択したカテゴリに基づいています。レポートは、コード (以前に記述) に基づいて既定で書式設定されます。
+これにより、選択したカテゴリに基づいて**GridWeb**にレポートが表示されます。レポートは、事前に書かれたコードに基づいてデフォルトでフォーマットされています。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
 
-WYSIWYG 方式で一部のセルにデータをフォーマットする場合は、非常に簡単に行うことができます。**Aspose.Cells.GridWeb**提供します**フォーマット Cells**エディターで、目的のセルを選択して右クリックし、[フォーマット Cell…] オプションをクリックします。
+セルのデータをWYSIWYG形式でフォーマットしたい場合は、これを簡単に行うことができます。**Aspose.Cells.GridWeb**は**フォーマットセル**エディタを提供し、セルを選択して右クリックし、「セルの整形...」オプションをクリックします。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
 
-フォーマット Cell ダイアログが表示されます。
+「フォーマットセル」ダイアログが表示されます。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
 
-いくつかのフォント属性を指定して、[OK] をクリックします。
+フォント属性を指定し、OKをクリックします。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
 
-そして結果を得る。
+結果が表示されます。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
 
-セルの書式設定とは別に、セルの値を編集することもできます。目的のセルをダブルクリックして、値を編集します。
+セルのフォーマットだけでなく、セルの値も編集できます。対象のセルをダブルクリックし、値を編集します。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
 
-編集結果を送信し、すべての式を再計算するには、関連するボタン (赤い丸で囲んだ部分) をクリックしてレポートを更新します。
+編集結果を送信し、すべての式を再計算するには、レポートを更新するための関連ボタン（赤い枠で囲まれている）をクリックします。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
 
-次に、グラフを作成してコントロールに貼り付けます。カスタム コマンド ボタン (赤い丸で囲んだ部分) をクリックして、データ範囲に基づいて円グラフを作成します。
+次に、グラフを作成し、コントロールに貼り付けます。データ範囲に基づいて円グラフを作成するためのカスタムコマンドボタン（赤い枠で囲まれている）をクリックします。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
 
-最後に、このデータ レポートをグラフと共に MS Excel にエクスポートします。私は**セーブ**ボタン (赤い色で囲まれています)。をクリックすると**セーブ**ボタンが表示されます**ファイルのダウンロード**ダイアログで、次のいずれかを実行できます**開ける**結果のレポート (グラフを含む出力 Excel ファイル) を MS Excel に出力するか、ディスクに保存します。
+最後に、このデータレポートとグラフを MS Excel にエクスポートします。**Save**ボタン（赤い枠で囲まれている）をクリックします。**Save**ボタンをクリックすると、**ファイルのダウンロード**ダイアログが表示されます。出力エクセルファイルとグラフを MS Excel に**開く**かディスクに**保存**できます。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
 
-[開く] ボタン ([ファイルのダウンロード] ダイアログ) をクリックすると、グラフ付きの Excel レポートが MS Excel にエクスポートされます。レポートの上部が表示されます。
+「開く」ボタンをクリックすると、Excel レポートが MS Excel にエクスポートされます。レポートの上部が表示されます。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
 
-Excel レポートの下部が表示されます。
+Excelレポートの下部が表示されます。
 
-![todo:画像_代替_文章](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)

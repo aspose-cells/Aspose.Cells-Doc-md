@@ -1,49 +1,53 @@
-﻿---
-title: Ändern Sie die Größe von GridWeb und seiner Kopfleiste
+---
+title: GridWeb und seine Headerleiste neu dimensionieren
 type: docs
 weight: 30
-url: /de/net/resize-gridweb-and-its-header-bar/
+url: /de/net/aspose-cells-gridweb/resize-gridweb-and-its-header-bar/
+keywords: GridWeb, anpassen
+description: Dieser Artikel zeigt, wie man in GridWeb anpasst.
 ---
-{{% alert color="primary" %}} 
-
-[GridWeb zum Webformular hinzufügen](/cells/de/net/add-gridweb-to-web-form/), erläuterte die Größenänderung des Aspose.Cells.GridWeb-Steuerelements mithilfe von WYSIWYG. In diesem Artikel wird erläutert, wie Sie dasselbe tun, jedoch zur Laufzeit mit dem Aspose.Cells.GridWeb API. Außerdem wird erläutert, wie Sie die Größe der Kopfleisten des Aspose.Cells.GridWeb-Steuerelements ändern, um ihre Daten leichter lesbar zu machen.
-
-{{% /alert %}} 
-## **Breite und Höhe von Aspose.Cells.GridWeb ändern**
-Das Ändern der Breite und Höhe des Aspose.Cells.GridWeb-Steuerelements ist eine einfache, aber wichtige Funktion. Das Aspose.Cells.GridWeb-Steuerelement wird durch die GridWeb-Klasse in API dargestellt. Um die Breite und Höhe des GridWeb-Steuerelements zu ändern, verwenden Sie einfach seine Breiten- und Höheneigenschaften.
 
 {{% alert color="primary" %}} 
 
-Breite und Höhe des Steuerelements können in Pixeln oder Punkten angegeben werden.
+[GridWeb zu Web-Formular hinzufügen](/cells/de/net/aspose-cells-gridweb/add-gridweb-to-web-form/), behandelt die Größenänderung des Aspose.Cells.GridWeb-Steuerelements mit WYSIWYG. In diesem Artikel wird erläutert, wie Sie dasselbe zur Laufzeit mithilfe der Aspose.Cells.GridWeb-API tun können. Es wird auch erklärt, wie Sie die Kopfzeilenleisten des Aspose.Cells.GridWeb-Steuerelements anpassen, um die Daten leichter lesbar zu machen.
+
+{{% /alert %}} 
+## **Ändern von Breite & Höhe von Aspose.Cells.GridWeb**
+Die Änderung der Breite und Höhe des Aspose.Cells.GridWeb-Steuerelements ist eine einfache, aber wichtige Funktion. Das Aspose.Cells.GridWeb-Steuerelement wird durch die GridWeb-Klasse in der API dargestellt. Um die Breite und Höhe des GridWeb-Steuerelements zu ändern, verwenden Sie einfach seine Breiten- und Höheneigenschaften.
+
+{{% alert color="primary" %}} 
+
+Die Breite und
+Höhe des Steuerelements können in Pixel oder Punkten definiert werden.
 
 {{% /alert %}} 
 
-Die Ausgabe des folgenden Code-Snippets ist unten dargestellt.
+Der Ausgabewert des folgenden Code-Schnipsels wird unten angezeigt.
 
 **Geänderte Breite und Höhe des GridWeb-Steuerelements** 
 
-![todo: Bild_alt_Text](resize-gridweb-and-its-header-bar_1.png)
+![todo:image_alt_text](resize-gridweb-and-its-header-bar_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ResizeGridWeb.aspx-ResizeGridWeb.cs" >}}
-### **Breite und Höhe der Kopfleiste ändern**
-Aspose.Cells. Das GridWeb-Steuerelement enthält zwei Kopfleisten wie folgt:
+### **Ändern von Breite & Höhe der Kopfleiste**
+Das Aspose.Cells.GridWeb-Steuerelement enthält zwei Kopfleisten wie folgt:
 
-- Obere Kopfleiste, diese Kopfleiste repräsentiert Spalten als A , B , C , D usw.
-- Linke Kopfleiste, diese Kopfleiste repräsentiert Zeilen als 1 , 2 , 3 , 4 usw.
+- Obere Kopfzeile, diese Kopfzeile repräsentiert Spalten als A, B, C, usw.
+- Linke Kopfzeile, diese Kopfzeile repräsentiert Zeilen als 1, 2, 3, 4, usw.
 
-Diese beiden Kopfleisten sind unten dargestellt.
+Beide dieser Kopfleisten sind unten aufgeführt.
 
 **Kopfleisten** 
 
-![todo: Bild_alt_Text](resize-gridweb-and-its-header-bar_2.png)
+![todo:image_alt_text](resize-gridweb-and-its-header-bar_2.png)
 
-Ändern Sie die Höhe der oberen Kopfleiste und die Breite der linken Kopfleiste mit den Eigenschaften HeaderBarHeight und HeaderBarWidth des GridWeb-Steuerelements. Die folgende Abbildung zeigt die Ausgabe des folgenden Codebeispiels.
+Ändern Sie die Höhe der oberen Kopfzeile und die Breite der linken Kopfzeile mithilfe der Eigenschaften HeaderBarHeight und HeaderBarWidth des GridWeb-Steuerelements. Die Abbildung unten zeigt die Ausgabe des nachfolgenden Codebeispiels.
 
-**Breite und Höhe der Kopfleiste geändert** 
+**Geänderte Kopfzeilenbreite und -höhe** 
 
-![todo: Bild_alt_Text](resize-gridweb-and-its-header-bar_3.png)
+![todo:image_alt_text](resize-gridweb-and-its-header-bar_3.png)
 
 
 

@@ -1,143 +1,144 @@
-﻿---
-title: Excel'i PDF, Resim ve diğer biçimlere dönüştürün
+---
+title: Excel i Pdf, Görüntü ve diğer biçimlere dönüştürün
 linktitle: Çalışma Kitabı Dönüşümleri
 type: docs
 weight: 65
 url: /tr/net/convert-workbook-to-different-formats/
-description: Excel dosyalarını Word, Excel, PowerPoint, PDF, CSV, JPG, HTML, MHT, ODS, BMP, PNG, SVG, TIFF, 076193611, 076193611, XPS, TIFF, XML ve daha fazlasına dönüştürün
+description: Excel dosyalarını Word, Excel, PowerPoint, PDF, CSV, JPG, HTML, MHT, ODS, BMP, PNG, SVG, TIFF, XPS, JSON, SQL, XML ve daha fazlasına dönüştürme.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, birçok biçim arasında dönüştürmeyi destekler. Teknik olarak dönüştürme, bir çalışma kitabını bir dosya biçiminde yüklemek ve onu başka bir dosya biçiminde kaydetmek anlamına gelir.
+Aspose.Cells, birçok biçim arasında dönüşümü destekler. Teknik olarak, dönüştürme, bir elektronik tabloyu bir dosya biçiminde yüklemek ve başka bir biçimde kaydetmek anlamına gelir.
 
 {{% /alert %}}
 
 ## **Excel Çalışma Kitabını PDF'e Dönüştür**
 
-PDF dosyaları, kuruluşlar, devlet sektörleri ve bireyler arasında belge alışverişinde bulunmak için yaygın olarak kullanılır. Standart bir belge biçimidir ve yazılım geliştiricilerden genellikle Microsoft Excel dosyalarını PDF belgelerine dönüştürmenin bir yolunu bulmaları istenir.
+PDF dosyaları, kuruluşlar, devlet kurumları ve bireyler arasında belge değişiminde geniş ölçüde kullanılır. Standart bir belge biçimidir ve yazılım geliştiriciler genellikle Microsoft Excel dosyalarını PDF belgelerine dönüştürmek için bir yol bulmaları istenir.
 
-Aspose.Cells, Excel dosyalarının PDF'e dönüştürülmesini destekler ve dönüştürmede yüksek görsel doğruluk sağlar.
+Aspose.Cells, Excel dosyalarını PDF'ye dönüştürmeyi destekler ve dönüşümde yüksek görsel sadakati korur.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-PDF.cs" >}}
 
-## **Excel Çalışma Kitabını JPG'ye Dönüştür**
-Aspose.Cells, Excel dosyalarının JPG'ye dönüştürülmesini destekler.
-Aşağıdaki kod örneği, bir çalışma kitabının JPG olarak nasıl kaydedileceğini gösterir.
+## **Excel Çalışma Kitabını JPG'e Dönüştür**
+Aspose.Cells, Excel dosyalarını JPG'ye dönüştürmeyi destekler.
+Aşağıdaki kod örneği, bir çalışma kitabını JPG olarak kaydetmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JPG.cs" >}}
 
 ## **Excel Çalışma Kitabını Görüntüye Dönüştür**
-Aspose.Cells, Excel dosyalarının görüntülere dönüştürülmesini destekler.
-Aşağıdaki kod örneği, bir çalışma kitabının resim olarak nasıl kaydedileceğini gösterir.
+Aspose.Cells, Excel dosyalarını görüntülere dönüştürmeyi destekler.
+Aşağıdaki kod örneği, bir çalışma kitabını resim olarak kaydetme yöntemini gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-Image.cs" >}}
 
-## **Excel Çalışma Kitabını XPS'e Dönüştürme**
+## **Excel Çalışma Kitabını XPS'ye Dönüştürme**
 
-XPS belge formatı, bir belgenin düzenini ve her sayfanın görsel görünümünü tanımlayan yapılandırılmış XML işaretlemesinin yanı sıra belgeleri dağıtmak, arşivlemek, işlemek, işlemek ve yazdırmak için işleme kurallarından oluşur.
+XPS belge formatı, her bir sayfanın düzenini ve her bir sayfanın görsel görünümünü tanımlayan yapılandırılmış XML işaretleme ve belgelerin dağıtımı, arşivleme, işleme ve yazdırma kurallarıyla birlikte renderleme kurallarından oluşur.
 
-XPS için biçimlendirme dili, XAML'nin bir alt kümesidir ve Windows Presentation Foundation (WPF) ilkellerini işaretlemek için XAML kullanarak belgelerdeki vektör grafik öğelerini birleştirmesine olanak tanır. Kullanılan öğeler, yollar ve diğer geometrik ilkel öğeler açısından açıklanmıştır.
+XPS için işaretleme dili, XAML'nin bir alt kümesi olup Windows Presentation Foundation (WPF) temel yapı taşlarını kullanarak belgelere vektör grafik öğelerini dahil etmesine izin verir. Kullanılan öğeler, yol ve diğer geometrik temel yapı taşları terimleriyle tanımlanır.
 
-Bir XPS dosyası aslında, belgeyi oluşturan dosyaları içeren Açık Paketleme Kurallarını kullanan bir unicode ZIP arşividir. Bunlar, her sayfa için bir XML biçimlendirme dosyası, metin, gömülü yazı tipleri, raster görüntüler, 2B vektör grafikleri ve ayrıca dijital haklar yönetimi bilgilerini içerir. Bir XPS dosyasının içeriği, dosyayı ZIP dosyalarını destekleyen bir uygulamada açarak incelenebilir.
+Bir XPS dosyası aslında belgeyi oluşturan dosyaları içeren Open Packaging Conventions kullanan bir Unicode ZIP arşividir. Bunlar, her sayfa için bir XML işaretleme dosyasını, metni, gömülü yazı tiplerini, rastgele görüntüleri ve 2D vektör grafikleri yanı sıra dijital hak yönetimi bilgilerini içerir. Bir XPS dosyasının içeriği, ZIP dosyalarını destekleyen bir uygulamada açılarak kolayca incelenebilir.
 
-Aspose.Cells 6.0.0'dan, Microsoft Excel'den XPS'e dönüştürme desteklenir.
+Aspose.Cells 6.0.0'dan itibaren Microsoft Excel'den XPS dönüşümü desteklenmektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToXPS-1.cs" >}}
 
-## **Excel'i Ods, Sxc ve Fods'a Dönüştür (OpenOffice / LibreOffice Calc)**
- Aspose.Cells, Excel dosyalarının Ods, Sxc ve Fods dosyalarına dönüştürülmesini destekler. Aşağıdaki kod örneği, nasıl dönüştürüleceğini gösterir.[şablon](book1.xlsx) Ods, Sxc ve Fods dosyasına.
+## **Excel'i Ods, Sxc ve Fods (OpenOffice / LibreOffice Calc) formatına dönüştür**
+Aspose.Cells, Excel dosyalarını Ods, Sxc ve Fods dosyalarına dönüştürmeyi destekler. Aşağıdaki kod örneği, [şablonu](book1.xlsx) Ods, Sxc ve Fods dosyasına nasıl dönüştüreceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
 
 
 ## **Excel Çalışma Kitabını MHTML Dosyalarına Dönüştürme**
 
-MHTML, normal HTML'i harici kaynaklarla (yani resimler, animasyonlar, ses vb. genellikle bağlantılı olan içerik) tek bir dosyada birleştirir. .mht dosya uzantılı e-postalar için kullanılırlar.
+MHTML, normal HTML'yi dış kaynaklarla (genellikle bağlantılı olarak bulunan, resimler, animasyonlar, sesler vb.) tek bir dosyaya birleştirir. Bunlar, .mht dosya uzantılı e-postalar için kullanılır.
 
-Aspose.Cells, MHTML dosyalarının okunmasını ve yazılmasını destekler.
+Aspose.Cells, MHTML dosyalarını okuma ve yazma desteği sağlamaktadır.
 
-Aşağıdaki kod örneği, bir çalışma kitabının MHTML dosyası olarak nasıl kaydedileceğini gösterir.
+Aşağıdaki kod örneği, bir çalışma kitabını MHTML dosyası olarak kaydetmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToMHTMLFiles-1.cs" >}}
 
-## **Excel Çalışma Kitabını HTML'e Dönüştürme**
+## **Excel Çalışma Kitabını HTML'ye Dönüştürme**
 
- Aspose.Cells API, elektronik tabloların HTML biçiminde dışa aktarılması için destek sağlar. Aspose.Cells bu amaçla**[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**HTML çıkışının çeşitli yönlerini kontrol etme esnekliği sağlamak için sınıf.
+Aspose.Cells API, elektronik tabloları HTML biçimine dışa aktarma desteği sağlar. Bu amaçla, Aspose.Cells [**HtmlSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions) sınıfını kullanır ve çıktı HTML'nin birçok yönünü kontrol etme esnekliği sağlar.
 
-Aşağıdaki kod örneği, bir çalışma kitabının HTML dosyası olarak nasıl kaydedileceğini gösterir.
+Aşağıdaki kod örneği, bir çalışma kitabını HTML dosyası olarak kaydetme yöntemini gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToHTMLFiles -1.cs" >}}
 
 ## **HTML için Görüntü Tercihlerini Ayarlama**
 
- 8.0.2'den başlayarak, Aspose.Cells ortaya çıktı**[Görüntü Seçenekleri](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions)** için**[HtmlSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**sınıfı, geliştiricilerin e-tabloları HTML biçiminde kaydederken görüntü tercihlerini belirlemesine olanak tanır.
+8.0.2'den itibaren Aspose.Cells, elektronik tabloları HTML biçimine kaydederken [**ImageOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions) sınıfını [**HtmlSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions) sınıfı için açığa çıkardı ve geliştiricilere görüntü tercihlerini belirtme olanağı sağlar.
 
-Aşağıda, uygulanabilen bazı görüntü ayarlarının ayrıntıları verilmiştir.
+Uygulanabilecek bazı görüntü ayarlarının detayları aşağıda verilmiştir.
 
-- **[ImageType](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)**: Görüntü tipini belirtir. Grafikler dahil tüm şekillerin HTML çıktısında görüntü olarak işlendiğini lütfen unutmayın.
-- **[SmoothingMode](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/smoothingmode)**: Doldurulmuş alanların çizgileri, eğrileri ve kenarları için kenar yumuşatmayı belirtir.
-- **[TextRenderingHint](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/textrenderinghint)**: Metin oluşturma kalitesini belirtir.
-- **[Kalite](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/quality)** : Görüntünün kalitesini 0 ila 100 arasında belirtir.**[ImageType](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)**jpeg olarak belirtilir.
-- **[Dikey Çözünürlük](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/vertical Resolution)**: Görüntünün dikey çözünürlüğünü inç başına nokta cinsinden alır veya ayarlar.
-- **[Yatay Çözünürlük](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontal Resolution)**Görüntünün yatay çözünürlüğünü inç başına nokta cinsinden alır veya ayarlar.
-- **[TiffCompression](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression)** : Görüntüler için sıkıştırma türünü alır veya ayarlar.**[ImageType](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)**Tiff olarak belirtilir.
-- **[Şeffaf](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent)**: ImageFormat Png olarak belirtildiğinde görüntünün arka planının saydam olup olmayacağını belirtir.
+- [**ImageType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype): Görüntü türünü belirtir. Lütfen not edin, tüm şekiller, grafikler de dahil olmak üzere çıktı HTML'de resim olarak oluşturulur.
+- [**SmoothingMode**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/smoothingmode): Çizgilerin, eğrilerin ve doldurulmuş alanların kenarlarının düzgünleştirilmesini belirtir.
+- [**TextRenderingHint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/textrenderinghint): Metin düzeltme kalitesini belirtir.
+- [**Quality**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/quality): Jpeg olarak belirtildiğinde 0 ila 100 arasında görüntü kalitesini belirtir.
+- [**VerticalResolution**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution): Görselin dikey düzeyde inç başına nokta cinsinden çözünürlüğünü alır veya ayarlar.
+- [**HorizontalResolution**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution): Görselin yatay düzeyde inç başına nokta cinsinden çözünürlüğünü alır veya ayarlar.
+- [**TiffCompression**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression): Tiff olarak belirtildiğinde, görüntülerin sıkıştırma tipini alır veya ayarlar.
+- [**Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent): Görüntü biçimi Png olarak belirtildiğinde bir görüntünün arka planının saydam olup olmayacağını belirtir.
 
- Aşağıdaki kod nasıl kullanılacağını gösterir**[HtmlSaveOptions.ImageOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions)**farklı tercihler belirlemek için.
+Aşağıdaki kod, [**HtmlSaveOptions.ImageOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions) kullanarak farklı tercihleri belirtmek için nasıl kullanılacağını gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SettingImagePrefrencesforHTML-1.cs" >}}
 
 ## **Excel Çalışma Kitabını Markdown'a Dönüştür**
 
-Aspose.Cells API, elektronik tabloların Markdown formatına dışa aktarılması için destek sağlar. Aktif çalışma sayfasını Markdown'a aktarmak için,**[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** ikinci parametre olarak**[Workbook.Save](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)** yöntem. Ayrıca kullanabilirsiniz**[MarkdownSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)**Çalışma sayfasını Markdown'a dışa aktarmak için ek ayarlar belirtmek için sınıf.
+Aspose.Cells API, elektronik tabloları Markdown formatına dışa aktarma desteği sağlar. Etkin çalışma sayfasını Markdown'e dışa aktarmak için [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) metodunun ikinci parametresi olarak [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) geçirin. Ayrıca, çalışma sayfasını Markdown'e dışa aktarmak için ek ayarlar belirtmek için [**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions) sınıfını da kullanabilirsiniz.
 
- Aşağıdaki kod örneği, etkin çalışma sayfasını kullanarak Markdown'a aktarmayı gösterir.**[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** numaralandırma üyesi Lütfen bkz[çıkış Markdown dosyası](md_sample.txt)referans için kod tarafından oluşturulur.
+Aşağıdaki kod örneği, etkin çalışma sayfasını Markdown'a [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) numaralı üye kullanarak dışa aktarma işlemini göstermektedir. Kod ile oluşturulan [çıktı Markdown dosyasını](md_sample.txt) inceleyebilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToMarkdown-1.cs" >}}
 
-## **Excel Çalışma Kitabını JSON'e Dönüştür**
+## **Excel Çalışma Kitabını JSON'a Dönüştür**
 
-Aspose.Cells, bir çalışma kitabının Json(JavaScript Object Notation) dosyasına dönüştürülmesini destekler.
+Aspose.Cells, bir çalışma kitabını Json (JavaScript Object Notation) dosyasına dönüştürmeyi destekler.
 
-Aşağıdaki kod örneği, etkin çalışma sayfasını kullanarak Json'a aktarmayı gösterir.[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) numaralandırma üyesi Lütfen dönüştürülecek koda bakın[Kaynak dosyası](Book1.xlsx) için[çıktı Json dosyası](Book1.Json)referans için kod tarafından oluşturulur.
+Aşağıdaki kod örneği, etkin çalışma sayfasını [**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) numaralı üye kullanarak Json'a dışa aktarma işlemini göstermektedir. Kod ile oluşturulan [çıktı Json dosyasını](Book1.Json) inceleyebilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 
 ## **Excel'i XML'e Dönüştür**
-Aspose.Cells, bir çalışma kitabının Excel 2003 Elektronik Tablo XML'sine ve düz XML verilerine dönüştürülmesini destekler.
+Aspose.Cells, bir çalışma kitabını Excel 2003 Elektronik Tablo XML ve düz XML veriye dönüştürmeyi destekler.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-XML.cs" >}}
 
 ## **Excel Çalışma Kitabını TIFF'e Dönüştür**
-Aspose.Cells, bir çalışma kitabının TIFF dosyasına dönüştürülmesini destekler.
+Aspose.Cells, bir çalışma kitabını TIFF dosyasına dönüştürmeyi destekler.
 
-Aşağıdaki kod parçacığı, Excel'in TIFF'e nasıl dönüştürüleceğini gösterir:
+Aşağıdaki kod parçası, Excel'i TIFF'e dönüştürmeyi göstermektedir:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-TIFF.cs" >}}
 
 ## **Excel Çalışma Kitabını DOCX'e Dönüştür**
 
-Aspose.Cells API, elektronik tabloları DOCX formatına dönüştürmek için destek sağlar. Çalışma kitabını DOCX'e aktarmak için[**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) ikinci parametre olarak[**Çalışma Kitabı.Kaydet**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) yöntem. Ayrıca kullanabilirsiniz[**DocxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/docxsaveoptions) çalışma sayfasını DOCX'e dışa aktarmak için ek ayarlar belirtmek üzere sınıf.
+Aspose.Cells API, elektronik tabloları DOCX biçimine dönüştürmeyi destekler. Çalışma kitabını DOCX'e aktarmak için, [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) yönteminin ikinci parametresi olarak [**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) parametresini geçirin. Elektronik tabloyu DOCX'e aktarırken ek ayarları belirtmek için [**DocxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/docxsaveoptions) sınıfını da kullanabilirsiniz.
 
- Aşağıdaki kod örneği, etkin çalışma sayfasını kullanarak DOCX'e aktarmayı gösterir.[**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) numaralandırma üyesi Lütfen bkz[çıktı DOCX dosyası](Book1.docx)referans için kod tarafından oluşturulur.
+Aşağıdaki kod örneği, etkin çalışma sayfasını [**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) numaralı üye kullanarak DOCX'e dışa aktarma işlemini göstermektedir. Kod ile oluşturulan [çıktı DOCX dosyasını](Book1.docx) inceleyebilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToDocx-1.cs" >}}
 
 ## **Excel Çalışma Kitabını PPTX'e Dönüştür**
 
-Aspose.Cells API, elektronik tabloları PPTX formatına dönüştürmek için destek sağlar. Çalışma kitabını PPTX'e aktarmak için[**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) ikinci parametre olarak[**Çalışma Kitabı.Kaydet**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) yöntem. Ayrıca kullanabilirsiniz[**PptxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pptxsaveoptions) çalışma sayfasını PPTX'e dışa aktarmak için ek ayarlar belirtmek üzere sınıf.
+Aspose.Cells API, elektronik tabloları PPTX biçimine dönüştürmeyi destekler. Çalışma kitabını PPTX'e aktarmak için, [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) yönteminin ikinci parametresi olarak [**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) parametresini geçirin. Elektronik tabloyu PPTX'e aktarırken ek ayarları belirtmek için [**PptxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pptxsaveoptions) sınıfını da kullanabilirsiniz.
 
- Aşağıdaki kod örneği, etkin çalışma sayfasını kullanarak PPTX'e aktarmayı gösterir.[**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) numaralandırma üyesi Lütfen bkz[çıktı PPTX dosyası](Book1.pptx)referans için kod tarafından oluşturulur.
+Aşağıdaki kod örneği, etkin çalışma sayfasını [**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) numaralı üye kullanarak PPTX'e dışa aktarma işlemini göstermektedir. Kod ile oluşturulan [çıktı PPTX dosyasını](Book1.pptx) inceleyebilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
-## **ileri konular**
-- [XLSB Revizyonunu XLSM olarak dönüştür](/cells/tr/net/convert-revision-of-xlsb-to-xlsm/)
+## **Gelişmiş Konular**
+- [XLSB Revizyonunu XLSM'ye Dönüştür](/cells/tr/net/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/tr/net/convert-excel-to-html/)
-- [resim](/cells/tr/net/convert-excel-to-image/)
+- [Görüntü](/cells/tr/net/convert-excel-to-image/)
 - [Json](/cells/tr/net/convert-workbook-to-json/)
-- [Excel çalışma kitabını Ods, Sxc ve Fods'a (OpenOffice / LibreOffice calc) dönüştürün.](/cells/tr/net/convert-excel-to-ods/)
+- [Excel çalışma kitabını Ods, Sxc ve Fods (OpenOffice / LibreOffice calc) biçimine dönüştürme.](/cells/tr/net/convert-excel-to-ods/)
 - [Pdf](/cells/tr/net/convert-excel-workbook-to-pdf/)
-- [Excel'i CSV,TSV ve Txt'ye dönüştürün](/cells/tr/net/convert-excel-to-csv-tsv-and-txt/)
-- [Belge Dönüştürme İlerlemesini İzleme](/cells/tr/net/track-document-conversion-progress/)
-- [CSV, TSV ve TXT'i Excel'e dönüştürün](/cells/tr/net/convert-csv-tsv-and-txt-to-excel/)
+- [Excel'i CSV, TSV ve Txt'ye dönüştür](/cells/tr/net/convert-excel-to-csv-tsv-and-txt/)
+- [Belge Dönüşüm İlerlemesini İzle](/cells/tr/net/track-document-conversion-progress/)
+- [CSV, TSV ve TXT'yi Excel'e Dönüştür](/cells/tr/net/convert-csv-tsv-and-txt-to-excel/)

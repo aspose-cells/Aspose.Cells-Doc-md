@@ -1,28 +1,29 @@
-﻿---
+---
 title: Configuration des démos
 type: docs
 weight: 40
 url: /fr/jasperreports/demos-setup/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for JasperReports comprend un certain nombre de projets de démonstration pour vous aider à démarrer l'exportation de rapports aux formats de document Excel Microsoft à partir de votre application.
+Aspose.Cells for JasperReports comprend un certain nombre de projets de démonstration pour vous aider à commencer à exporter des rapports vers des formats de document Microsoft Excel à partir de votre application.
 
-Les démos fournies avec Aspose.Cells for JasperReports sont des démos JasperReports standard modifiées pour démontrer l'utilisation des nouveaux exportateurs.
+Les démonstrations fournies avec Aspose.Cells for JasperReports sont des démonstrations standard de JasperReports modifiées pour illustrer l'utilisation des nouveaux exportateurs.
 
 {{% /alert %}}
 
-Pour exécuter les démos Aspose.Cells for JasperReports, procédez comme suit :
+Pour exécuter les démos Aspose.Cells for JasperReports, suivez les étapes suivantes :
 
-1.  Télécharger JasperReports (par exemple<https://sourceforge.net/projects/jasperreports/files/archive/>). Assurez-vous de télécharger l'intégralité du projet archivé avec le code source et les démos, pas seulement un seul JAR.
-1. Décompressez le projet archivé à un emplacement sur votre disque dur, par exemple C:\.
-1.  Copiez tous les dossiers de démonstration du dossier \demo de**Aspose.Cells.JasperReports.zip** à**\<InstallDir>\demo\samples**, où "\<InstallDir>" est l'emplacement dans lequel vous avez décompressé JasperReports. Cette étape est nécessaire car les scripts de construction de démonstration reposent sur la structure de dossiers de JasperReports, sinon vous devrez modifier les scripts de construction.
-1.  Copie**aspose.cells.jasperreports.jar** du dossier \lib de Aspose.Cells.JasperReports.zip vers**\<InstallDir>\lib**.
-1.  Préparez Ant Build Tool et Ivy Dependency Manager, voir**\<InstallDir>\readme.txt**.
-1.  Modifier le**build.xml** à**\<InstallDir>\demo\samples**, ajoutez aspose.cells.jasperreports.jar dans le classpath :
+1. Download JasperReports (e.g <https://sourceforge.net/projects/jasperreports/files/archive/>). Make sure to download the entire archived project with the source code and demos, not just a single JAR.
+1. Décompressez le projet archivé à un emplacement quelconque sur votre disque dur, par exemple C:\.
+1. Copy all demo folders from the \demo folder of **Aspose.Cells.JasperReports.zip** to **\<InstallDir>\demo\samples**, where "\<InstallDir>" is the location you have unpacked JasperReports to. This step is required because demo build scripts rely on the JasperReports’ folder structure, otherwise you will need to modify build scripts.
+1. Copy **aspose.cells.jasperreports.jar** from the \lib folder of Aspose.Cells.JasperReports.zip to **\<InstallDir>\lib**.
+1. Prepare Ant Build Tool and Ivy Dependency Manager, see **\<InstallDir>\readme.txt**.
+1. Modify the **build.xml** at **\<InstallDir>\demo\samples**, add the aspose.cells.jasperreports.jar into the classpath:
    **\<path id="project-classpath"> ... \<pathelement location="../../lib/aspose.cells.jasperreports.jar"/> </path>**.
-1.  Changer le répertoire courant en**\<InstallDir>\demo\hsqldb** et exécutez la ligne de commande suivante :
-   **fourmi runServer**
-1.  Changez le répertoire actuel pour l'une des démos Aspose.Cells for JasperReports, par exemple**\<InstallDir>\demo\samples\ac.charts** et exécutez les commandes suivantes dans la ligne de commande :
-   **test de fourmi** - de produire des fichiers de rapport à l'aide de l'exportateur Aspose XLS.
-1.  Ouvrez l'un des documents résultants pour afficher, par exemple**\<InstallDir>\demo\samples\ac.charts\build\reports\AreaChartReport.xls** dans Microsoft Excel ou une autre application.
+1. Change the current directory to **\<InstallDir>\demo\hsqldb** and run the following command line:
+   **ant runServer**
+1. Change the current directory to one of the Aspose.Cells for JasperReports demos, for example **\<InstallDir>\demo\samples\ac.charts** and run the following commands in the command line:
+   **ant test** - pour produire des fichiers de rapport en utilisant l'exportateur Aspose XLS.
+1. Open one of the resulting documents to view, for example **\<InstallDir>\demo\samples\ac.charts\build\reports\AreaChartReport.xls** in Microsoft Excel or another application.

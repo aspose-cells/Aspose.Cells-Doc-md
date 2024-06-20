@@ -1,19 +1,20 @@
-﻿---
-title: Biçimlendirme Dilimleyici
+---
+title: Dilimleyici Biçimlendirme
 type: docs
 weight: 20
 url: /tr/net/formatting-slicer/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Dilimleyiciyi Microsoft Excel'de sütun sayısını veya stilini vb. ayarlayarak biçimlendirebilirsiniz. Aspose.Cells ayrıca bunu kullanarak yapmanıza olanak tanır.[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)ve[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)özellikler.
+Dilimleyiciyi Microsoft Excel'de sütun sayısını ayarlayarak veya stili ayarlayarak biçimlendirebilirsiniz. Aspose.Cells ayrıca bunu [**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns) ve [**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype) özelliklerini kullanarak yapmanıza olanak tanır.
 
-## **Biçimlendirme Dilimleyici**
+## **Dilimleyici Biçimlendirme**
 
-Lütfen aşağıdaki koda bakın,[örnek excel dosyası](67338473.xlsx)bir dilimleyici içerir. Dilimleyiciye erişir ve sütun sayısını ve stil tipini ayarlar ve şu şekilde kaydeder:[çıktı excel dosyası](67338474.xlsx). Ekran görüntüsü, örnek kodun yürütülmesinden sonra dilimleyicinin nasıl göründüğünü gösterir.
+Lütfen aşağıdaki kodu görün. İçinde bir dilimleyici içeren [örnek Excel dosyasını](67338473.xlsx) yükler. Dilimleyiciye erişir ve sütun sayısını ve stil türünü ayarlar ve bu şekilde [çıkış Excel dosyasını](67338474.xlsx) kaydeder. Ekran görüntüsü, örnek kodun çalıştırılmasından sonra dilimleyicinin nasıl göründüğünü gösterir.
 
-![yapılacaklar:resim_alternatif_metin](formatting-slicer_1.png)
+![todo:image_alt_text](formatting-slicer_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-FormattingSlicer.cs" >}}

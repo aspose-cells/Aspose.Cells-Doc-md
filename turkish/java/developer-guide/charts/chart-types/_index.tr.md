@@ -1,258 +1,259 @@
-﻿---
+---
 title: Grafik Türleri
 type: docs
 weight: 10
 url: /tr/java/chart-types/
 ---
+
 {{% alert color="primary" %}} 
 
-Grafik, bilgilerin görsel bir gösterimidir. Aspose.Cells, geliştiricilerin tıpkı Microsoft Excel'in yaptığı gibi grafiklerdeki bilgileri görselleştirmesine olanak tanır. Bilgileri grafikler halinde sunmak, karar vericilerin hızlı ve zamanında kararlar almaları için her zaman yardımcı olur. Verilerdeki karşılaştırmaları, kalıpları ve eğilimleri grafiklerle hızlı bir şekilde görmek, ham sayılara göre daha kolaydır. Bir elektronik tablodaki verilere dayalı olarak çalışma zamanında grafikler oluşturmak, Aspose.Cells'in en güçlü özelliklerinden biridir.
+Grafik, bilgilerin görsel bir şekilde gösterimidir. Aspose.Cells, geliştiricilere Microsoft Excel'in yaptığı gibi grafiklerde bilgileri görselleştirmelerine olanak tanır. Bilgilerin grafiklerde sunulması, hızlı ve zamanında kararlar almak için karar vericilere her zaman yardımcı olur. Grafiklerde bilgi sunmak, karşılaştırmaları, desenleri ve eğilimleri hızlı bir şekilde görmek, ham sayılardan daha kolaydır. Bir elektronik tablodaki verilere dayalı olarak grafikler oluşturmak, Aspose.Cells'ın en güçlü özelliklerinden biridir.
 
 {{% /alert %}} 
 ## **Grafik Türleri**
-Aspose.Cells, Microsoft Excel'de desteklenen hemen hemen tüm grafik türlerini destekler. Grafikler iki ana kategoriye ayrılır:
+Aspose.Cells, neredeyse tüm Microsoft Excel'de desteklenen grafik türlerini destekler. Grafikler, iki ana kategoriye ayrılmıştır:
 
-- [standart tipler](/cells/tr/java/chart-types/).
+- [Standart tipler](/cells/tr/java/chart-types/).
 - [Özel tipler](/cells/tr/java/chart-types/).
-### **Standart Tipler**
-Standart grafikler, normalde standart biçimlendirmeyle kullanılanlardır:
+### **Standart Türler**
+Standart grafikler, genellikle standart biçimlendirme ile kullanılan grafiklerdir:
 
-|<p>- [Kolon](/cells/tr/java/chart-types/)</p><p>- [Bar](/cells/tr/java/chart-types/)</p><p>- [Astar](/cells/tr/java/chart-types/)</p><p>- [Turta](/cells/tr/java/chart-types/)</p><p>- [Dağılım](/cells/tr/java/chart-types/)</p><p>- [Alan](/cells/tr/java/chart-types/)</p><p>- [Tatlı çörek](/cells/tr/java/chart-types/)</p>|<p>- [Radar](/cells/tr/java/chart-types/)</p><p>- [Yüzey 3D](/cells/tr/java/chart-types/)</p><p>- [kabarcık](/cells/tr/java/chart-types/)</p><p>- [Stoklamak](/cells/tr/java/chart-types/)</p><p>- [silindir](/cells/tr/java/chart-types/)</p><p>- [koni](/cells/tr/java/chart-types/)</p><p>- [Piramit](/cells/tr/java/chart-types/)</p><p>- [ağaç haritası](/cells/tr/java/chart-types/)</p><p>- [güneş patlaması](/cells/tr/java/chart-types/)</p><p>- [histogram](/cells/tr/java/chart-types/)</p><p>- [Kutu ve Bıyık](/cells/tr/java/chart-types/)</p><p>- [Şelale](/cells/tr/java/chart-types/)</p>|
-|:- |:- |
-Standart grafik türlerinin her biri aşağıda daha ayrıntılı olarak açıklanmaktadır.
+|<p>- [Sütun](/hücreler/tr/java/grafik-türleri/)</p><p>- [Çubuk](/hücreler/tr/java/grafik-türleri/)</p><p>- [Çizgi](/hücreler/tr/java/grafik-türleri/)</p><p>- [Pasta](/hücreler/tr/java/grafik-türleri/)</p><p>- [Serpme](/hücreler/tr/java/grafik-türleri/)</p><p>- [Alan](/hücreler/tr/java/grafik-türleri/)</p><p>- [Çörek](/hücreler/tr/java/grafik-türleri/)</p>|<p>- [Radar](/hücreler/tr/java/grafik-türleri/)</p><p>- [Yüzey 3D](/hücreler/tr/java/grafik-türleri/)</p><p>- [Küre](/hücreler/tr/java/grafik-türleri/)</p><p>- [Stok](/hücreler/tr/java/grafik-türleri/)</p><p>- [Silindir](/hücreler/tr/java/grafik-türleri/)</p><p>- [Koni](/hücreler/tr/java/grafik-türleri/)</p><p>- [Piramit](/hücreler/tr/java/grafik-türleri/)</p><p>- [Harita Ağacı](/hücreler/tr/java/grafik-türleri/)</p><p>- [Güneş Patlaması](/hücreler/tr/java/grafik-türleri/)</p><p>- [Histogram](/hücreler/tr/java/grafik-türleri/)</p><p>- [Kutu ve Bıyıklı](/hücreler/tr/java/grafik-türleri/)</p><p>- [Su Düşümü](/hücreler/tr/java/grafik-türleri/)</p>|
+| :- | :- |
+Her bir standart grafik türü aşağıda daha ayrıntılı olarak açıklanmıştır.
 #### **Sütun Grafikleri**
-Sütun grafikleri, bir veya daha fazla veri öğesinin farklı değerlerini görüntülemek için dikey çubuklar (sütunlar olarak adlandırılır) kullanır. Sütun grafikleri çoğunlukla farklı kategorilerdeki değerleri karşılaştırmak için kullanılır. Örneğin bir bütçe analizi yaparken, bir öğenin değerindeki zaman içindeki değişimleri göstermek için idealdirler.
+Sütun grafikleri, farklı kategorilerdeki bir veya daha fazla veri öğesinin farklı değerlerini göstermek için dikey çubuklar (sütunlar olarak adlandırılır) kullanır. Sütun grafikleri, farklı kategoriler arasındaki değerleri karşılaştırmak için çoğunlukla kullanılır. Bir öğenin değerindeki değişiklikleri göstermek için idealdir, örneğin, bir bütçe analizi yapılırken zaman içinde bir öğenin değerindeki değişiklikleri göstermek için idealdir.
 
-**Microsoft Excel'de desteklenen sütun grafikler** 
+**Microsoft Excel'de desteklenen sütun grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_1.png)
+![todo:image_alt_text](chart-types_1.png)
 
-Aşağıdaki sütun grafikleri Aspose.Cells'de desteklenir:
+Aşağıdaki sütun grafikleri Aspose.Cells tarafından desteklenmektedir:
 
-- Kümelenmiş sütun grafiği
-- Yığılmış sütun grafiği
-- %100 yığın sütun grafiği
-- 3B kümelenmiş sütun grafiği
-- 3B yığılmış sütun grafiği
-- 3B %100 yığılmış sütun grafiği
-- 3B sütun grafiği
-#### **Çubuk grafikler**
-Çubuk grafikler, sütun grafiklerle hemen hemen aynı türdedir. Aradaki fark, dikey çubuklar yerine yatay çubuklar kullanmalarıdır.
+- Clustered column chart
+- Stacked column chart
+- 100% stacked column chart
+- 3D clustered column chart
+- 3D stacked column chart
+- 3D 100% stacked column chart
+- 3D column chart
+#### **Çubuk Grafikleri**
+Bar grafikleri neredeyse sütun grafikleriyle aynı türdedir. Fark, dikey yerine yatay çubuklar kullanmalarıdır.
 
-**Microsoft Excel'de desteklenen çubuk grafikler** 
+**Microsoft Excel'de desteklenen çubuk grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_2.png)
+![todo:image_alt_text](chart-types_2.png)
 
-Aşağıdaki çubuk grafikler Aspose.Cells'de desteklenir:
+Aspose.Cells'de desteklenen aşağıdaki bar grafikleri:
 
-- Kümelenmiş çubuk grafik
-- Yığılmış çubuk grafik
-- %100 yığılmış çubuk grafik
-- 3B kümelenmiş çubuk grafik
-- 3B yığılmış çubuk grafik
-- 3B %100 yığılmış çubuk grafik
-#### **Çizgi Grafikler**
-Çizgi grafikler, bilgileri görüntülemek için çizgilerden yararlanır. Bu çizelgeler, zaman içindeki geçici bir eğilimi göstermek için çok kullanışlıdır ve genellikle zaman içinde birden fazla öğenin değerindeki değişiklikleri göstermek için kullanılır.
+- Clustered bar chart
+- Stacked bar chart
+- 100% stacked bar chart
+- 3D clustered bar chart
+- 3D stacked bar chart
+- 3D 100% stacked bar chart
+#### **Çizgi Grafikleri**
+Çizgi grafikleri, bilgiyi göstermek için çizgilerden yararlanır. Bu grafikler, zamana göre geçici bir eğilimi göstermek için çok kullanışlıdır ve genellikle birden fazla öğenin değerindeki değişimleri göstermek için kullanılır.
 
-**Microsoft Excel'de desteklenen çizgi grafikler** 
+**Microsoft Excel'de desteklenen çizgi grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_3.png)
+![todo:image_alt_text](chart-types_3.png)
 
-Aşağıdaki çizgi grafikler Aspose.Cells'de desteklenir:
+Aspose.Cells'de desteklenen aşağıdaki çizgi grafikleri:
 
-- basit çizgi grafiği
-- Yığılmış çizgi grafiği
-- %100 yığılmış çizgi grafiği
-- Veri işaretleri içeren çizgi grafiği
-- Veri işaretçileri içeren yığınlı çizgi grafiği
-- Veri işaretleri içeren %100 yığın çizgi grafiği
-- 3B çizgi grafiği
+- Simple line chart
+- Stacked line chart
+- 100% stacked line chart
+- Line chart with data markers
+- Stacked line chart with data markers
+- 100% stacked line chart with data markers
+- 3D line chart
 
 {{% alert color="primary" %}} 
 
-Veri işaretçileri, bir grafikte çizilen bireysel değerler olan veri noktalarını temsil etmek için kullanılır. Aynı renkteki veri işaretçileri bir veri serisi oluşturur.
+Veri işaretleri, bir grafikte çizilen bireysel değerleri temsil etmek için kullanılır. Aynı renkteki veri işaretleri bir veri serisini oluşturur.
 
 {{% /alert %}} 
-#### **Pasta grafikler**
-Pasta grafikler çoğunlukla, bir bütünün farklı kısımlarını veya bir toplamın yüzdelerini temsil etmek istediğinizde bilgileri görüntülemek için kullanılır.
+#### **Pasta Grafikleri**
+Pasta grafikleri, bir bütünün farklı parçalarını veya bir toplamın yüzdelerini temsil etmek istediğinizde genellikle kullanılır.
 
-**Microsoft Excel'de desteklenen pasta grafikler** 
+**Microsoft Excel'de desteklenen pasta grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_4.png)
+![todo:image_alt_text](chart-types_4.png)
 
-Aşağıdaki pasta grafikler Aspose.Cells'de desteklenir:
+Aspose.Cells'de desteklenen aşağıdaki pasta grafikleri:
 
-- basit pasta grafik
-- 3B pasta grafik
-- Pasta grafiği pastası
-- Patlatılmış pasta grafik
-- 3B patlatılmış pasta grafik
-- Pasta grafiği çubuğu
-#### **Dağılım Grafikleri**
-Dağılım çizelgeleri çoğunlukla istatistiklerde, her biri yatay ("X") ve dikey ("Y") eksende bir koordinata sahip olan yalnızca sonlu sayıda noktayı görüntüleyerek ilgili iki niceliksel veya sayısal veri kümesini görsel olarak görüntülemek ve karşılaştırmak için kullanılır.
+- Simple pie chart
+- 3D pie chart
+- Pie of pie chart
+- Exploded pie chart
+- 3D exploded pie chart
+- Bar of pie chart
+#### **Saçılma Grafikleri**
+Saçılma grafikleri, genellikle istatistiklerde iki ilgili nicel veya sayısal veri setini görsel olarak göstermek ve karşılaştırmak için kullanılır. Her birinin yatay ("X") ve dikey ("Y") eksende bir koordinatı olan sonlu sayıda noktayı sergileyerek.
 
-**Microsoft Excel'de desteklenen dağılım grafikleri** 
+**Microsoft Excel'de desteklenen serpme grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_5.png)
+![todo:image_alt_text](chart-types_5.png)
 
-Aşağıdaki dağılım grafikleri Aspose.Cells'de desteklenir:
+Aspose.Cells'de desteklenen aşağıdaki saçılma grafikleri:
 
-- Basit dağılım grafiği
-- Veri işaretçileri ile eğrilerle birbirine bağlı dağılım tablosu
-- Veri işaretleri olmadan, eğrilerle birbirine bağlı dağılım tablosu
-- Veri işaretçileri ile çizgilerle birbirine bağlı dağılım grafiği
-- Veri işaretleri olmadan çizgilerle birbirine bağlı dağılım tablosu
+- Simple scatter chart
+- Scatter chart connected by curves, with data markers
+- Scatter chart connected by curves, without data markers
+- Scatter chart connected by lines, with data markers
+- Scatter chart connected by lines, without data markers
 #### **Alan Grafikleri**
-Alan grafiği, grafiği çizilen bilgi parçaları arasındaki ilişkileri vurgulamak için her alana düz bir renk veya desen verilen bir tür çizgi grafiğidir.
+Bir alan grafiği, her bir alana, grafikli bilgi parçaları arasındaki ilişkileri vurgulamak için sağlam bir renk veya desen verilen bir çizgi grafiği türüdür.
 
 **Microsoft Excel'de desteklenen alan grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_6.png)
+![todo:image_alt_text](chart-types_6.png)
 
-Aşağıdaki alan grafikleri Aspose.Cells'de desteklenir:
+Aspose.Cells'de desteklenen aşağıdaki alan grafikleri:
 
-- Basit alan grafiği
-- Yığılmış alan grafiği
-- %100 yığılmış alan grafiği
-- 3B alan grafiği
-- 3B yığılmış alan grafiği
-- 3B %100 yığın alan grafiği
-#### **Halka Grafikler**
-Halka grafiği, pasta grafiğine benzer ve çoğunlukla veri oranlarının bütüne nasıl katkıda bulunduğunu göstermek için kullanılır.
+- Simple area chart
+- Stacked area chart
+- 100% stacked area chart
+- 3D area chart
+- 3D stacked area chart
+- 3D 100% stacked area chart
+#### **Halka Grafikleri**
+Bir halka grafiği, bir pasta grafiği gibi ve veri oranlarını bir bütüne nasıl katkıda bulunduklarını göstermek için genellikle kullanılır.
 
-**Microsoft Excel'de desteklenen halka grafikler** 
+**Microsoft Excel'de desteklenen çörek grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_7.png)
+![todo:image_alt_text](chart-types_7.png)
 
-Aşağıdaki halka grafikler Aspose.Cells'de desteklenir:
+Aspose.Cells'de desteklenen aşağıdaki halka grafikleri:
 
-- Basit halka grafiği
-- Patlatılmış halka grafiği
+- Simple doughnut chart
+- Exploded doughnut chart
 #### **Radar Grafikleri**
-Radar çizelgeleri, bir öğeyle ilgili birkaç farklı faktöre bakmak istediğinizde en çok kullanışlıdır. Bu grafikler, verilerin çizilebileceği birden çok eksene sahiptir.
+Radar grafikleri, bir öğeye ilişkin birkaç farklı faktöre bakmak istediğinizde en kullanışlıdır. Bu grafiklerin, verilerin birbirine göre konumlandırılabileceği çoklu eksenleri vardır.
 
 **Microsoft Excel'de desteklenen radar grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_8.png)
+![todo:image_alt_text](chart-types_8.png)
 
-Aşağıdaki radar çizelgeleri Aspose.Cells'de desteklenir:
+Aşağıdaki radar grafikleri Aspose.Cells tarafından desteklenir:
 
-- Basit radar grafiği
-- Veri işaretleri içeren radar grafiği
-- Dolu radar grafiği
+- Simple radar chart
+- Radar chart with data markers
+- Filled radar chart
 #### **Yüzey 3D Grafikleri**
-Diğer 3B grafikler gibi, yüzey 3B grafikleri de X, Y ve Z eksenlerini temel alır. Bu çizelgeler, diğer iki değişken olan "X" ve "Y"ye göre "Z" değişkenindeki değişimi göstermek için kullanışlıdır.
+Diğer 3D grafikler gibi, yüzey 3D grafikleri de X, Y ve Z eksenlerine dayanmaktadır. Bu grafikler, diğer iki değişkene göre "Z" değişkenindeki bir varyasyonu göstermek için kullanışlıdır.
 
-**Microsoft Excel'de desteklenen yüzey 3B grafikleri** 
+**Microsoft Excel'de desteklenen yüzey 3D grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_9.png)
+![todo:image_alt_text](chart-types_9.png)
 
-Aşağıdaki yüzey 3B grafikleri Aspose.Cells'de desteklenir:
+Aspose.Cells'de desteklenen aşağıdaki yüzey 3D grafikleri:
 
-- 3B yüzey tablosu
-- Tel kafes 3B yüzey grafiği
-- Yüzey kontur grafiği
-- Tel kafes kontur grafiği
-#### **Kabarcık Grafikleri**
-Kabarcık grafiği, veri noktalarının baloncuklarla değiştirildiği dağılım grafiğinin bir çeşididir. Verileriniz her biri bir dizi değer içeren üç veri serisine sahipse, dağılım grafiği yerine Balon grafiği kullanılabilir. Kabarcık grafikler çoğunlukla finansal verileri görüntülemek için kullanılır.
+- 3D surface chart
+- Wireframe 3D surface chart
+- Surface contour chart
+- Wireframe contour chart
+#### **Balon Grafikleri**
+Bir balon grafiği, veri noktalarının yerine balonlarla değiştirildiği bir dağılım grafiği varyasyonudur. Bir Balon grafiği, her biri bir dizi değer içeren üç veri serisine sahipseniz, yayılma grafiği yerine kullanılabilir. Balon grafikleri genellikle finansal verileri göstermek için kullanılır.
 
-**Microsoft Excel'de desteklenen kabarcık grafikler** 
+**Microsoft Excel'de desteklenen balon grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_10.png)
+![todo:image_alt_text](chart-types_10.png)
 
-Aşağıdaki kabarcık grafikleri Aspose.Cells'de desteklenir:
+Aspose.Cells'de desteklenen aşağıdaki balon grafikleri:
 
-- basit balon grafiği
-- 3D balon grafiği
-#### **Hisse Senedi Grafikleri**
-Hisse senedi grafikleri çoğunlukla hisse senedi fiyat verileri için kullanılır, ancak bilimsel veriler için de kullanılabilir.
+- Simple bubble chart
+- 3D bubble chart
+#### **Stok Grafikleri**
+Stok grafikleri genellikle stok fiyat verileri için kullanılır, ancak aynı zamanda bilimsel veriler için de kullanılabilir.
 
 **Microsoft Excel'de desteklenen hisse senedi grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_11.png)
+![todo:image_alt_text](chart-types_11.png)
 
-Aşağıdaki hisse senedi grafikleri Aspose.Cells'de desteklenmektedir:
+Aspose.Cells tarafından desteklenen stok grafikleri şunlardır:
 
-- Yüksek-düşük-kapanış hisse senedi grafiği
-- Açık-yüksek-düşük-kapanış hisse senedi grafiği
-- Hacim-yüksek-düşük-kapanış hisse senedi grafiği
-- Hacim-açık-yüksek-düşük-kapanış hisse senedi grafiği
+- High-low-close stock chart
+- Open-high-low-close stock chart
+- Volume-high-low-close stock chart
+- Volume-open-high-low-close stock chart
 #### **Silindir Grafikleri**
-Bu grafik türleri, sütun, çubuk ve 3B sütun grafiklere dramatik bir etki vermek için silindir veri işaretçilerini kullanır.
+Bu grafik türleri, sütun, bar ve 3D sütun grafiklerine dramatik bir etki kazandırmak için silindir veri işaretçileri kullanır.
 
 **Microsoft Excel'de desteklenen silindir grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_12.png)
+![todo:image_alt_text](chart-types_12.png)
 
-Aşağıdaki silindir grafikleri Aspose.Cells'de desteklenir:
+Aspose.Cells tarafından desteklenen silindir grafikleri şunlardır:
 
-- Basit silindir grafiği
-- Yığılmış silindir grafiği
-- %100 yığılmış silindir grafiği
-- Silindirik çubuk grafik
-- Yığılmış silindirik çubuk grafik
-- %100 yığılmış silindirik çubuk grafik
-- 3B silindirik sütun grafiği
+- Simple cylinder chart
+- Stacked cylinder chart
+- 100% stacked cylinder chart
+- Cylindrical bar chart
+- Stacked cylindrical bar chart
+- 100% stacked cylindrical bar chart
+- 3D cylindrical column chart
 #### **Koni Grafikleri**
- Bu grafik türleri, sütun, çubuk ve 3B sütun grafiklere dramatik bir etki vermek için koni veri işaretçilerini kullanır.
+Bu grafik türleri, sütun, bar ve 3D sütun grafiklerine dramatik bir etki kazandırmak için koni veri işaretçileri kullanır. 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_13.png)
+![todo:image_alt_text](chart-types_13.png)
 
 
-**Microsoft Excel'de desteklenen koni grafikleri**
+**Microsoft Excel'de desteklenen konik grafikler**
 
-Aşağıdaki koni grafikleri Aspose.Cells'de desteklenir:
+Aspose.Cells tarafından desteklenen koni grafikleri şunlardır:
 
-- basit koni grafiği
-- yığılmış koni grafiği
-- %100 yığılmış koni grafiği
-- konik çubuk grafik
-- Yığılmış konik çubuk grafik
-- %100 yığılmış konik çubuk grafik
-- 3B konik sütun grafiği
+- Simple cone chart
+- Stacked cone chart
+- 100% stacked cone chart
+- Conical bar chart
+- Stacked conical bar chart
+- 100% stacked conical bar chart
+- 3D conical column chart
 #### **Piramit Grafikleri**
-Bu grafik türleri, sütun, çubuk ve 3B sütun grafiklere dramatik bir etki vermek için piramit veri işaretçilerini kullanır.
+Bu grafik türleri, sütun, bar ve 3D sütun grafiklerine dramatik bir etki kazandırmak için piramit veri işaretçileri kullanır.
 
-**Microsoft Excel'de desteklenen piramit grafikler** 
+**Microsoft Excel'de desteklenen piramit grafikleri** 
 
-![yapılacaklar:resim_alternatif_metin](chart-types_14.png)
+![todo:image_alt_text](chart-types_14.png)
 
-Aşağıdaki piramit grafikler Aspose.Cells'de desteklenir:
+Aspose.Cells tarafından desteklenen piramit grafikleri şunlardır:
 
-- Basit piramit grafiği
-- Yığılmış piramit grafiği
-- %100 yığılmış piramit grafiği
-- Piramit çubuk grafiği
-- Yığılmış piramit çubuk grafiği
-- %100 yığılmış piramit çubuk grafiği
-- 3B piramit sütun grafiği
+- Simple pyramid chart
+- Stacked pyramid chart
+- 100% stacked pyramid chart
+- Pyramid bar chart
+- Stacked pyramid bar chart
+- 100% stacked pyramid bar chart
+- 3D pyramid column chart
 #### **Ağaç Haritası Grafiği**
-Bir ağaç haritası grafiği, verilerinizin hiyerarşik bir görünümünü sağlar ve bir mağazanın en çok satan ürünleri gibi kalıpları belirlemeyi kolaylaştırır. Ağaç dalları dikdörtgenlerle temsil edilir ve her alt dal daha küçük bir dikdörtgen olarak gösterilir. Ağaç haritası grafiği, kategorileri renk ve yakınlığa göre görüntüler ve diğer grafik türlerinde zor olabilecek çok sayıda veriyi kolayca gösterebilir.
+Ağaç haritası grafiği verilerinizin hiyerarşik bir görünümünü sağlar ve hangi ürünlerin bir mağazanın en çok satanları olduğunu görmek gibi desenleri kolayca belirlemenize olanak tanır. Ağaç dalları dikdörtgenlerle temsil edilir ve her alt dal daha küçük bir dikdörtgen olarak gösterilir. Ağaç haritası grafikleri kategorileri renk ve yakınlıkla gösterir ve diğer grafik türleri ile zor olacak birçok veriyi kolayca gösterebilir.
 
-Ağaç haritası grafiği Aspose.Cells'de desteklenmektedir.
+Ağaç haritası grafiği Aspose.Cells tarafından desteklenir.
 
-#### **Güneş patlaması Tablosu**
-Güneş patlaması grafiği, hiyerarşik verileri görüntülemek için idealdir. Hiyerarşinin her düzeyi, en içteki daire hiyerarşinin en üstünde olacak şekilde bir halka veya daire ile temsil edilir. Herhangi bir hiyerarşik veri (bir kategori düzeyi) içermeyen bir güneş patlaması grafiği, bir halka grafiğine benzer. Bununla birlikte, birden çok kategori düzeyine sahip bir güneş patlaması grafiği, dış halkaların iç halkalarla nasıl ilişkili olduğunu gösterir. Güneş patlaması grafiği, bir halkanın katkıda bulunan parçalara nasıl ayrıldığını göstermede en etkilidir, diğer bir hiyerarşik grafik türü olan ağaç haritası grafiği ise göreli boyutları karşılaştırmak için idealdir.
+#### **Güneş Patlaması Grafiği**
+Güneş patlaması grafiği, hiyerarşik verileri göstermek için idealdir. Hiyerarşinin her seviyesi, iç içe geçmiş halka veya daire ile temsil edilir ve en içteki daire hiyerarşinin üstünü temsil eder. Hiyerarşik verisi olmayan bir güneş patlaması grafiği (bir seviye kategoriler), bir çörek grafiğine benzer. Ancak, çok seviyeli kategorileri olan bir güneş patlaması grafiği, dış halkaların iç halkalarla nasıl ilişkili olduğunu gösterir. Güneş patlaması grafiği, bir halkanın nasıl katkıda bulunan parçalara bölündüğünü göstermede en etkilidir, diğer bir hiyerarşik grafik türü olan ağaç haritası grafiği, göreceli boyutları karşılaştırmak için idealdir.
 
-Güneş patlaması tablosu Aspose.Cells'de desteklenmektedir.
+Güneş patlaması grafiği Aspose.Cells tarafından desteklenir.
 
 #### **Histogram Grafiği**
 Histogram, frekans verilerini gösteren bir sütun grafiğidir.
 
-Aşağıdaki radar çizelgeleri Aspose.Cells'de desteklenir:
+Aşağıdaki radar grafikleri Aspose.Cells tarafından desteklenir:
 
-- histogram grafiği
-- pareto grafiği
+- Histogram chart
+- Pareto chart
 
-#### **Kutu ve Bıyık Tablosu**
-Bir kutu ve bıyık grafiği, ortalama ve aykırı değerleri vurgulayarak verilerin çeyreklere dağılımını gösterir. Kutularda “bıyık” adı verilen dikey uzanan çizgiler olabilir. Bu çizgiler, üst ve alt çeyreklerin dışındaki değişkenliği gösterir ve bu çizgilerin veya bıyıkların dışındaki herhangi bir nokta, aykırı değer olarak kabul edilir.
+#### **Kutu ve Bıyık Grafiği**
+Kutu ve bıyık grafiği, verinin dağılımını dörtte birliklere gösterir, ortalamayı ve aykırıları vurgular. Kutuların dışında dikey olarak uzanan çizgilere “bıyık” denir. Bu çizgiler, üstteki ve alttaki dörtte birler dışındaki değişkenliği gösterir, ve bu çizgilerin veya bıyıkların dışında kalan herhangi bir nokta aykırı olarak kabul edilir.
 
-Kutu ve yatay çizgi tablosu Aspose.Cells'de desteklenmektedir.
+Kutu ve bıyık grafiği Aspose.Cells tarafından desteklenir.
 
-#### **Şelale Tablosu**
-Şelale grafiği, değerler eklendikçe veya çıkarılırken değişen bir toplamı gösterir. Bir başlangıç değerinin (örneğin, net gelir) bir dizi pozitif ve negatif değerden nasıl etkilendiğini anlamak için yararlıdır.
+#### **Şelale Grafiği**
+Şelale grafiği, değerler eklenir veya çıkarıldıkça birikmiş toplamı gösterir. Bu, başlangıç ​​değerinin (örneğin net gelir) pozitif ve negatif değerler serisi tarafından nasıl etkilendiğini anlamak için kullanışlıdır.
 
-Şelale grafiği Aspose.Cells'de desteklenmektedir.
+Şelale grafiği Aspose.Cells tarafından desteklenir.
 
 ### **Özel Grafik Türleri**
- Özel grafikler, diğer grafiklere de uygulanabilen özel biçimlendirmeli grafikler oluşturmanıza olanak tanır. Burada sadece standart çizelgeleri tartıştık. Özel grafikler hakkında daha fazla ayrıntı öğrenmek istiyorsanız lütfen[Özel Grafikler Oluşturma](/cells/tr/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects) özel grafiklerin nasıl oluşturulacağını açıklayan makale.
+Özel grafikler, diğer grafiklere uygulanabilen özel biçimlendirme ile grafikler oluşturmanıza olanak tanır. Burada sadece standart grafikler tartışılmıştır. Özel grafikler hakkında daha fazla bilgi edinmek istiyorsanız lütfen [Özel Grafikler Oluşturma](/cells/tr/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects) makalesini okuyun. Bu makale, özel grafiklerin nasıl oluşturulacağını açıklar.

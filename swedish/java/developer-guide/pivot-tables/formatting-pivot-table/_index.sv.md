@@ -1,72 +1,73 @@
-﻿---
-title: Formatera pivottabell
+---
+title: Formatera Pivot tabell
 type: docs
 weight: 60
 url: /sv/java/formatting-pivot-table/
 ---
+
 ## **Pivottabellens utseende**
 
-[Hur man skapar en pivottabell](/cells/sv/java/create-pivot-table/) visade hur man skapar en enkel pivottabell. Den här artikeln går längre och diskuterar hur man anpassar en pivottabells utseende genom att ställa in egenskaper.
+[Hur man skapar en pivot-tabell](/cells/sv/java/create-pivot-table/) visade hur man skapar en enkel pivot-tabell. Den här artikeln går vidare och diskuterar hur man anpassar ett pivot-tabells utseende genom att ställa in egenskaper.
 
-### **Ställa in alternativ för pivottabellformat**
+### **Inställning av pivottabellformatalternativ**
 
- De[**Pivottabell**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) class låter dig ställa in olika formateringsalternativ för en pivottabell.
+[**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) -klassen låter dig ange olika formateringsalternativ för en pivot-tabell.
 
-#### **Ställa in AutoFormat och PivotTableStyle Typer**
+#### **Inställning av AutoFormat och PivotTableStyle-typer**
 
- Kodexemplet som följer illustrerar hur du ställer in autoformattypen och pivottabellstiltypen med hjälp av[**AutoFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType) och[**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType) egenskaper.
+Det följande kodexemplet illustrerar hur man ställer in autoformat-typen och pivot-tabellstil-typen med hjälp av [**AutoFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType) och [**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType) egenskaperna.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SetAutoFormatandPivotTableStyleTypes-SetAutoFormatandPivotTableStyleTypes.java" >}}
 
-#### **Ställa in formatalternativ**
+#### **Inställning av formatalternativ**
 
-Kodexemplet som följer illustrerar hur du ställer in ett antal formateringsalternativ för en pivottabellsrapport, inklusive att lägga till totalsummor för rader och kolumner.
+Kodexemplet nedan illustrerar hur man anger ett antal formateringsalternativ för en pivot-tabellrapport, inklusive att lägga till totaler för rader och kolumner.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SettingFormatOptions-SettingFormatOptions.java" >}}
 
-### **Ställa in PivotFields-formatalternativ**
+### **Anger PivotFields formatalternativ**
 
-Förutom att styra formateringen av den övergripande pivottabellen tillåter Aspose.Cells for Java finjusterad kontroll av formateringen för radfält, kolumnfält och sidfält.
+Förutom att kontrollera formateringen av den övergripande pivot-tabellen, tillåter Aspose.Cells for Java finjusterad kontroll av formateringen för radfält, kolumnfält och sidofält.
 
-#### **Ställa in format för rad-, kolumn- och sidfält**
+#### **Anger format för rad-, kolumn- och sidofält**
 
-Kodexemplet som följer visar hur man kommer åt radfält, kommer åt en viss rad, ställer in delsummor, tillämpar automatisk sortering och använder alternativet autoShow.
+Exemplet nedan visar hur man får åtkomst till radfält, får åtkomst till en specifik rad, anger delsummer, tillämpar automatisk sortering och använder autoVisa-alternativet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SetRowColumnPageFieldsFormat-SetRowColumnPageFieldsFormat.java" >}}
 
-### **Ställa in datafältsformat**
+### **Anger format för datafält**
 
-Följande kodrader illustrerar hur man formaterar datafält.
+De följande kodraderna illustrerar hur man formaterar datafält.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SettingDataFieldFormat-SettingDataFieldFormat.java" >}}
 
-### **Ändra en pivottabells snabbstil**
+### **Ändra en Pivottabells snabbstil**
 
-Kodexemplen som följer visar hur man ändrar den snabbstil som tillämpas på en pivottabell.
+Exemplen nedan visar hur man ändrar den snabba stilen som tillämpas på en pivottabell.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ModifyPivotTableQuickStyle-ModifyPivotTableQuickStyle.java" >}}
 
-### **Rensa pivotfält**
+### **Rensa pivottabellsfält**
 
-[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) har en metod som heter[**klar()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear()som rensar pivotfält. Använd den för att rensa pivotfält i alla områden, till exempel sida, kolumn, rad eller data.
+[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) har en metod med namnet [**clear()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear--) som rensar pivotfält. Använd den för att rensa pivotfält i alla områden, till exempel sidor, kolumner, rader eller data.
 Kodexemplet nedan visar hur man rensar alla pivotfält i dataområdet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ClearPivotFields-ClearPivotFields.java" >}}
 
 ## **Konsolideringsfunktion**
 
-### **Tillämpa ConsolidationFunction på datafält i pivottabellen**
+### **Tillämpning av ConsolidationFunction på datavärderna i pivottabellen**
 
- Aspose.Cells kan användas för att tillämpa ConsolidationFunction på datafält (eller värdefält) i pivottabellen. I Microsoft Excel kan du högerklicka på värdefältet och sedan välja**Inställningar för värdefält...** och välj sedan fliken**Sammanfatta värden efter**. Därifrån kan du välja valfri konsolideringsfunktion som Summa, Antal, Genomsnitt, Max, Min, Produkt, Distinkt antal etc.
+Aspose.Cells kan användas för att tillämpa ConsolidationFunction på datavärderna (eller värdefälten) i pivottabellen. I Microsoft Excel kan du högerklicka på värdefältet och sedan välja alternativet **Värdefältsinställningar...** och sedan välja fliken **Summera värden efter**. Där kan du välja valfri ConsolidationFunction som Summa, Antal, Medel, Max, Min, Produkt, Distinkt antal etc.
 
- Aspose.Cells tillhandahåller[**Konsolideringsfunktion**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) uppräkning för att stödja följande konsolideringsfunktioner.
+Aspose.Cells tillhandahåller uppräkning för att stödja följande konsolideringsfunktioner.
 
 - [**ConsolidationFunction.AVERAGE**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#AVERAGE)
 - [**ConsolidationFunction.COUNT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT)
-- [**Consolidation Function.COUNT_NUMS**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT_NUMS)
+- [**ConsolidationFunction.COUNT_NUMS**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT_NUMS)
 - [**ConsolidationFunction.DISTINCT_COUNT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#DISTINCT_COUNT)
 - [**ConsolidationFunction.MAX**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#MAX)
-- [**Consolidation Function.MIN**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#MIN)
+- [**ConsolidationFunction.MIN**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#MIN)
 - [**ConsolidationFunction.PRODUCT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#PRODUCT)
 - [**ConsolidationFunction.STD_DEV**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#STD_DEV)
 - [**ConsolidationFunction.STD_DEVP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#STD_DEVP)
@@ -74,11 +75,11 @@ Kodexemplet nedan visar hur man rensar alla pivotfält i dataområdet.
 - [**ConsolidationFunction.VAR**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VAR)
 - [**ConsolidationFunction.VARP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VARP)
 
- Följande kod gäller**Medel** konsolideringsfunktion till första datafältet (eller värdefältet) och**DistinctCount** konsolideringsfunktion till andra datafält (eller värdefält).
+Den följande koden tillämpar **Medelvärde** konsolideringsfunktionen på det första datavärdet (eller värdefältet) och **Distinkt antal** konsolideringsfunktionen på det andra datavärdet (eller värdefältet).
 
 {{% alert color="primary" %}}
 
-DistinctCount-konsolideringsfunktionen stöds endast av Microsoft Excel 2013.
+Distinkt antal konsolideringsfunktionen stöds endast av Microsoft Excel 2013.
 
 {{% /alert %}}
 

@@ -1,54 +1,55 @@
-﻿---
-title: Çalışma Kitabı veya Çalışma Sayfası yüklenirken Nesneleri Filtrele
+---
+title: Çalışma Kitabı veya Çalışsayfa Yüklenirken Nesneleri Filtrele
 type: docs
 weight: 1060
 url: /tr/java/filter-objects-while-loading-workbook-or-worksheet/
 ---
-## **Olası Kullanım Senaryoları**
- Lütfen kullan[LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) çalışma kitabından verileri filtrelerken özelliği. Ancak verileri tek tek çalışma sayfalarından filtrelemek istiyorsanız, geçersiz kılmanız gerekir.[LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\) ) yöntem. Lütfen uygun değeri girin[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) oluştururken veya birlikte çalışırken numaralandırma[Yük Filtresi](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
 
- bu[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions)numaralandırma aşağıdaki değerlere sahiptir.
+## **Olası Kullanım Senaryoları**
+[LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) özelliğini kullanarak çalışma kitabından veri filtrelerken. Ancak, tek tek çalışsayfalardan veri filtrelemek istiyorsanız, [LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\)) yöntemini geçersiz kılmanız gerekecek. [LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) numaralandırmasından uygun değeri sağlarken [LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter) ile oluştururken veya çalışırken, lütfen uygun bir değer sağlayın.
+
+[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) numaralandırmasının aşağıdaki değerleri bulunmaktadır.
 
 - [YOK](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#NONE)
-- [HERŞEY](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
-- [HÜCRE_BLANK](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BLANK)
-- [CELL_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_STRING)
-- [CELL_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_NUMERIC)
+- [TÜMÜ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
+- [HÜCRE_BOŞ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BLANK)
+- [HÜCRE_METİN](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_STRING)
+- [HÜCRE_SAYISAL](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_NUMERIC)
 - [HÜCRE_HATA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_ERROR)
-- [CELL_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BOOL)
-- [HÜCRE_DEĞERİ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_VALUE)
+- [HÜCRE_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BOOL)
+- [HÜCRE_DEĞER](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_VALUE)
 - [FORMÜL](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#FORMULA)
-- [HÜCRE_VERİLERİ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_DATA)
-- [ÇİZELGE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CHART)
+- [HÜCRE_VERİ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_DATA)
+- [GRAFİK](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CHART)
 - [ŞEKİL](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE)
-- [MERGED_AREA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED_AREA)
-- [KOŞULLU BİÇİMLENDİRME](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL_FORMATTING)
-- [VERİ DOĞRULAMA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA_VALIDATION)
-- [PİVOT TABLO](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#PIVOT_TABLE)
-- [MASA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#TABLE)
-- [KÖPRÜLER](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#HYPERLINKS)
-- [SHEET_SETTINGS](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_SETTINGS)
-- [SHEET_DATA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_DATA)
+- [BİRLEŞTİRİLMİŞ_ALAN](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED_AREA)
+- [KOŞULLU_FORMAT](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL_FORMATTING)
+- [VERİ_DOĞRULAMA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA_VALIDATION)
+- [ÖZET_TABLO](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#PIVOT_TABLE)
+- [TABLO](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#TABLE)
+- [HYPERLINKLER](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#HYPERLINKS)
+- [SAYFA_AYARLARI](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_SETTINGS)
+- [SAYFA_VERİ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_DATA)
 - [KİTAP_AYARLARI](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#BOOK_SETTINGS)
 - [AYARLAR](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SETTINGS)
-- [XML_MAP](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#XML_MAP)
+- [XML_HARİTASI](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#XML_MAP)
 - [YAPI](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STRUCTURE)
-- [DÖKÜMAN ÖZELLİKLERİ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DOCUMENT_PROPERTIES)
-- [DEFINED_NAMES](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)
+- [BELGE ÖZELLİKLERİ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DOCUMENT_PROPERTIES)
+- [TANIMLI_AD](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [STİL](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
-## **Çalışma Kitabını Yüklerken Nesneleri Filtrele**
- Aşağıdaki örnek kod, çalışma kitabından grafiklerin nasıl filtreleneceğini gösterir. lütfen kontrol ediniz[örnek excel dosyası](5472489.xlsx) Bu kodda kullanılan ve[çıkış PDF](5472488.pdf)onun tarafından oluşturulur. PDF çıktısında görebileceğiniz gibi, tüm grafikler çalışma kitabından filtrelendi.
+## **Çalışma Kitabı Yüklenirken Nesneleri Filtrele**
+Aşağıdaki örnek kod, çalışma kitabından grafikleri filtrelemeyi göstermektedir. Lütfen bu kodda kullanılan [örnek excel dosyasını](5472489.xlsx) ve bunun tarafından üretilen [çıktı PDF'yi](5472488.pdf) kontrol edin. Çıktı PDF'de, tüm grafiklerin çalışma kitabından filtre edildiğini görebilirsiniz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FilterObjectsLoadingWorkbook-FilterObjectsLoadingWorkbook.java" >}}
-## **Çalışma Sayfasını Yüklerken Nesneleri Filtrele**
- Aşağıdaki örnek kod,[kaynak excel dosyası](5472492.xlsx) ve özel bir filtre kullanarak aşağıdaki verileri çalışma sayfalarından filtreler.
+## **Çalışma Sayfası Yüklenirken Nesneleri Filtrele**
+Aşağıdaki örnek kod, [kaynak excel dosyasını](5472492.xlsx) yükler ve çalışma sayfalarındaki belirli verileri özel bir filtre kullanarak filtreler.
 
-- NoCharts adlı çalışma sayfasındaki Grafikleri filtreler.
-- NoShapes adlı çalışma sayfasındaki Şekilleri filtreler.
-- NoConditionalFormatting adlı çalışma sayfasından Koşullu Biçimlendirmeyi filtreler.
+- Tablo adı NoCharts olan çalışma sayfasından Grafikleri filtreler.
+- Tablo adı NoShapes olan çalışma sayfasından Şekilleri filtreler.
+- Tablo adı NoConditionalFormatting olan çalışma sayfasından Koşullu Biçimlendirmeyi filtreler.
 
- Bir kez, yükler[kaynak excel dosyası](5472492.xlsx) özel bir filtre ile tüm çalışma sayfalarının resimlerini tek tek alır. İşte referansınız için çıktı görüntüleri. Gördüğünüz gibi, ilk resimde grafikler yok, ikinci resimde şekiller yok ve üçüncü resimde koşullu biçimlendirme yok.
+Özelleştirilmiş bir filtre kullanarak [kaynak excel dosyasını](5472492.xlsx) yükledikten sonra, tüm çalışma sayfalarının resimlerini tek tek alır. İşte referansınız için çıktı resimleri. Görebileceğiniz gibi, ilk resimde grafikler yok, ikinci resimde şekiller yok ve üçüncü resimde koşullu biçimlendirme yok.
 
 - [NoCharts.png](5472493.png)
 - [NoShapes.png](5472491.png)

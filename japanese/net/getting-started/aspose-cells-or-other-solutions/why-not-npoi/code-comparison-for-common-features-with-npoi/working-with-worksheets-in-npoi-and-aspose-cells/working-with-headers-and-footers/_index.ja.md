@@ -1,13 +1,14 @@
-﻿---
-title: ヘッダーとフッターの操作
+---
+title: ヘッダーとフッターの操作方法
 type: docs
 weight: 110
 url: /ja/net/working-with-headers-and-footers/
 ---
-## **Aspose.Cells - ヘッダーとフッターの操作**
+
+## **Aspose.Cells - ヘッダーとフッターの操作方法**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -49,10 +50,10 @@ workbook.Save("../../data/headerfooter.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - ヘッダーとフッターの操作**
+## **NPOI - HSSF XSSF - ヘッダーとフッターの操作方法**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -73,13 +74,13 @@ wb.Write(sw);
 sw.Close(); 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ヘッダーとフッターの操作**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下に記載されているソーシャルコーディングサイトのいずれかから**ヘッダーとフッターの操作方法**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+詳細については、[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/)ページを参照してください。
 
 {{% /alert %}}

@@ -1,21 +1,22 @@
 ---
-title: أضف Cells إلى Microsoft نافذة مراقبة صيغة Excel
-description: كيفية استخدام مكتبة Aspose.Cells لإضافة خلايا إلى نافذة مراقبة الصيغة في إكسيل. عن طريق تحميل ملف Excel موجود أو إنشاء ملف جديد، يمكننا التعامل مع الخلايا فيه وتعيين الصيغ. وأخيرًا، نقوم بحفظ ملف Excel المعدل على القرص.
-keywords: Aspose.Cells, Excel, Formula Watch Window, Cells, Adding
+title: إضافة الخلايا إلى نافذة مراقبة الصيغ في Microsoft Excel
+description: كيفية استخدام مكتبة Aspose.Cells لإضافة الخلايا إلى نافذة مراقبة الصيغ في Excel. من خلال تحميل ملف Excel الحالي أو إنشاء ملف جديد، يمكننا التلاعب بالخلايا فيه وضبط الصيغ. في النهاية، نقوم بحفظ ملف Excel المعدل على القرص.
+keywords: Aspose.Cells، Excel، نافذة مراقبة الصيغ، الخلايا، الإضافة
 type: docs
 weight: 60
 url: /ar/net/add-cells-to-microsoft-excel-formula-watch-window/
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-Microsoft Excel Watch Window هي أداة مفيدة لمشاهدة قيم الخلية وصيغها بسهولة في النافذة. يمكنك فتح*نافذة المراقبة* باستخدام Microsoft Excel بالنقر فوق*الصيغ > مشاهدة* *نافذة او شباك*. لديها * إضافة ساعة*الزر الذي يمكن استخدامه لإضافة الخلايا للفحص. وبالمثل، يمكنك استخدام[**Worksheet.CellWatches.Add()**](https://reference.aspose.com/cells/net/aspose.cells/cellwatchcollection/methods/add/index) طريقة إضافة الخلايا إلى*نافذة المراقبة*باستخدام Aspose.Cells API.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **أضف Cells إلى Microsoft نافذة مراقبة صيغة Excel**
+نافذة مراقبة Microsoft Excel هي أداة مفيدة لمراقبة قيم الخلية وصيغها بشكل ملائم في نافذة. يمكنك فتح *Watch Window* في Microsoft Excel عن طريق النقر على *Formulas > Watch Window*. لديها زر *Add Watch* الذي يمكن استخدامه لإضافة الخلايا للتفتيش. بالمثل، يمكنك استخدام الطريقة [**Worksheet.CellWatches.Add()**](https://reference.aspose.com/cells/net/aspose.cells/cellwatchcollection/methods/add/index) لإضافة الخلايا إلى *Watch Window* باستخدام واجهة برمجة التطبيقات Aspose.Cells.
 
- نموذج التعليمات البرمجية التالي يعين صيغة الخلايا C1 وE1 ويضيف كليهما إلى نافذة المراقبة. ثم يقوم بحفظ المصنف باسم[إخراج ملف إكسل](67338481.xlsx). إذا قمت بفتح ملف Excel الناتج وعرضت *نافذة المراقبة*، فسترى كلا الخليتين كما هو موضح في لقطة الشاشة هذه.
+## **إضافة الخلايا إلى نافذة مراقبة صيغ Microsoft Excel**
 
-![ما يجب القيام به:image_alt_text](add-cells-to-microsoft-excel-formula-watch-window_1.png)
+يقوم الكود العيني التالي بتعيين صيغة للخلايا C1 و E1 وإضافة كلتاهما إلى نافذة المراقبة. ثم يقوم بحفظ دفتر العمل كـ [ملف Excel الناتج](67338481.xlsx). إذا فتحت ملف Excel الناتج وعرضت *Watch Window*، سترى كلا الخليتين كما هو موضح في لقطة الشاشة هذه.
 
-##  **عينة من الرموز**
+![todo:image_alt_text](add-cells-to-microsoft-excel-formula-watch-window_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.cs" >}}

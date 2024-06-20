@@ -1,30 +1,31 @@
-﻿---
-title: Excel Dosyasını Yüklerken Uyarılar Alın
+---
+title: Excel Dosyası Yüklenirken Uyarıları Al
 type: docs
 weight: 60
 url: /tr/java/get-warnings-while-loading-excel-file/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Bazen kullanıcı, biraz bozuk ancak yüklenebilir olan çalışma kitabını yüklemeye çalışır. Böyle bir durumda Aspose.Cells çalışma kitabını yüklerken uyarı veriyor. Bu uyarıları uygulayarak yakalayabilirsiniz.**[IWarningCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback)** arayüz ve ayar**[LoadOptions.WarningCallback](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback)**Emlak.
+Bazen kullanıcı, biraz bozuk ancak yüklenebilir bir çalışma kitabını yüklemeye çalışır. Bu durumda, Aspose.Cells çalışma kitabını yüklerken uyarılar fırlatır. Bu uyarıları yakalamak için [**IWarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) arayüzünü uygulayarak ve [**LoadOptions.WarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback) özelliğini ayarlayarak bunları yakalayabilirsiniz.
 
-## **Excel Dosyasını Yüklerken Uyarılar Alın**
+## **Excel Dosyası Yüklenirken Uyarıları Al**
 
- Aşağıdaki örnek kod, excel dosyası yüklenirken uyarıların nasıl alınacağını açıklar. Kod şunu yükler:[örnek excel dosyası](sampleDuplicateDefinedName.xlsx) hangi atar**[DuplicateDefinedName](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME)** yükleme uyarısı. Bu uyarı daha sonra tarafından yakalanır**[IWarningCallback.Warning()](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo))** konsoldaki uyarı mesajlarını yazdıran yöntem. Kod daha sonra çalışma kitabını şu şekilde kaydeder:[çıktı excel dosyası](outputDuplicateDefinedName.xlsx)Örnek excel dosyasını Microsoft Excel'de açarsanız bu ekran görüntüsündeki gibi size bu uyarıyı da verecektir. Lütfen daha iyi anlamak için aşağıda verilen kodun konsol çıktısını da kontrol edin.
+Aşağıdaki örnek kod, excel dosyasını yüklerken uyarıları nasıl alacağını açıklar. Kod, yüklenirken [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME) uyarısı fırlatan [örnek excel dosyasını](sampleDuplicateDefinedName.xlsx) yükler. Bu uyarı daha sonra [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)) yöntemi ile yakalanır ve konsolda uyarı mesajlarını yazdırır. Kod daha sonra çalışma kitabını [çıktı excel dosyası](outputDuplicateDefinedName.xlsx) olarak kaydeder. Eğer örnek excel dosyasını MS Excel'de açarsanız, size bu uyarıyı gösterecektir. Daha iyi anlamak için aşağıdaki kodun konsol çıktısını da kontrol edin.
 
-![yapılacaklar:resim_alternatif_metin](get-warnings-while-loading-excel-file_1.png)
+![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-WarningCallback-WarningCallback.java" >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-GetWarningLoadingAnExcel-GetWarningLoadingAnExcel.java" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
- Sağlanan ile çalıştırıldığında yukarıdaki kodun konsol çıktısı aşağıdadır.[örnek excel dosyası](sampleDuplicateDefinedName.xlsx).
+Yukarıdaki kodun, verilen [örnek excel dosyası](sampleDuplicateDefinedName.xlsx) ile çalıştırıldığında konsol çıktısı şöyledir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Introduction!$D$16:$D$17
 

@@ -4,43 +4,44 @@ type: docs
 weight: 10
 url: /ru/cpp/adjusting-row-height-and-column-width/
 ---
+
 {{% alert color="primary" %}} 
 
-При работе с электронными таблицами и добавлении данных в строки или столбцы вам может потребоваться изменить высоту строк или ширину столбцов. Иногда применение форматирования к строкам или столбцам означает, что для отображения данных необходимо изменить текущую высоту или ширину. Обычно пользователи настраивают высоту строк и ширину столбцов в среде WYSIWYG, используя Microsoft Excel. Но с помощью Aspose.Cells разработчики могут выполнять эти операции во время выполнения.
+При работе с электронными таблицами и добавлении данных в строки или столбцы может потребоваться изменение высоты строк или ширины столбцов. Иногда применение форматирования к строкам или столбцам означает, что текущая высота или ширина должны измениться для отображения данных. Обычно пользователи изменяют высоту строк и ширины столбцов в среде WYSIWYG с помощью Microsoft Excel. Однако разработчики Aspose.Cells могут выполнять эти операции во время выполнения.
 
 {{% /alert %}} 
-##  **Работа со строками**
-###  **Настройка высоты строки**
- Aspose.Cells предоставляет класс,[Рабочая тетрадь](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) который представляет файл Excel Microsoft.[Рабочая тетрадь](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) класс содержит[Рабочий ЛистКоллекция](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)это обеспечивает доступ к каждому листу в файле Excel. Рабочий лист представлен[Рабочий лист](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) сорт.[Рабочий лист](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) класс обеспечивает[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) коллекция, представляющая все ячейки на листе.[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)Коллекция предоставляет несколько методов для управления строками и столбцами на листе. Некоторые из них обсуждаются ниже более подробно.
-####  **Установка высоты строки**
- Можно установить высоту одной строки, вызвав функцию[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) коллекция[SetRowHeight](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setrowheight/) метод.[SetRowHeight](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setrowheight/)метод принимает следующие параметры следующим образом:
+## **Работа со строками**
+### **Изменение высоты строки**
+Aspose.Cells предоставляет класс [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), который представляет собой файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) содержит [WorksheetCollection](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/), который позволяет получить доступ ко всем листам Excel файла. Лист представлен классом [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Класс [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) предоставляет коллекцию [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/), которая представляет все ячейки на листе. Коллекция [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) предоставляет несколько методов для управления строками или столбцами на листе. Некоторые из них подробно обсуждаются ниже.
+#### **Установка высоты строки**
+Можно установить высоту отдельной строки, вызвав метод [SetRowHeight](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setrowheight/) коллекции [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/). Метод [SetRowHeight](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setrowheight/) принимает следующие параметры:
 
-- *Индекс строки** — индекс строки, высоту которой вы меняете.
-- *Высота строки**: высота строки, применяемая к строке.
+- **Индекс строки**, индекс строки, высоту которой вы изменяете.
+- **Высота строки**, высота строки, применяемая к строке.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingHeightOfRow-new.cpp" >}}
 
 
-####  **Установка высоты всех строк на листе**
- Если разработчикам необходимо установить одинаковую высоту для всех строк на листе, они могут сделать это с помощью[УстановитьСтандартнуюВысоту](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setstandardheight/) метод[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)коллекция.
+#### **Установка высоты всех строк на листе**
+Если разработчикам нужно установить одинаковую высоту строки для всех строк на листе, они могут сделать это, используя метод [SetStandardHeight](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setstandardheight/) коллекции [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/).
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingHeightOfAllRowsInWorksheet-new.cpp" >}}
-##  **Работа со столбцами**
-###  **Установка ширины столбца**
- Установите ширину столбца, вызвав метод[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) коллекция[SetColumnWidth](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setcolumnwidth/) метод.[SetColumnWidth](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setcolumnwidth/)метод принимает следующие параметры:
+## **Работа с колонками**
+### **Установка ширины колонки**
+Установите ширину колонки, вызвав метод [SetColumnWidth](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) коллекции [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/). Метод [SetColumnWidth](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setcolumnwidth/) принимает следующие параметры:
 
-- *Индекс столбца** — индекс столбца, ширину которого вы меняете.
-- *Ширина столбца** — желаемая ширина столбца.
+- **Индекс колонки**, индекс колонки, ширину которой вы изменяете.
+- **Ширина колонки**, желаемая ширина колонки.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingWidthOfColumn-new.cpp" >}}
-###  **Установка ширины всех столбцов на листе**
- Чтобы установить одинаковую ширину столбца для всех столбцов на листе, используйте[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) коллекция[Установитьстандартную ширину](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setstandardwidth/)метод.
+### **Установка ширины всех колонок на листе**
+Чтобы установить одинаковую ширину колонки для всех колонок на листе, используйте метод [SetStandardWidth](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setstandardwidth/) коллекции [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/).
 
 
 

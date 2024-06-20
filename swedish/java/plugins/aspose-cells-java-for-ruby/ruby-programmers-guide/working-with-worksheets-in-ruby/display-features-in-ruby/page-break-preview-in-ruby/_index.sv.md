@@ -1,15 +1,16 @@
-﻿---
-title: Förhandsvisning av sidbrytning i Ruby
+---
+title: Sidbrytningsgranskning i Ruby
 type: docs
 weight: 70
 url: /sv/java/page-break-preview-in-ruby/
 ---
-## **Aspose.Cells - Förhandsgranskning av sidbrytning**
- För att ställa in kalkylblad till förhandsgranskning av sidbrytning med**Aspose.Cells Java för Ruby** , helt enkelt åberopa**PageBreakPreview** modul.
 
-**Ruby kod**
+## **Aspose.Cells - Sidbrytningsgranskning**
+För att ställa in ark till sidbrytningsgranskning med **Aspose.Cells Java för Ruby**, ange helt enkelt modulen **PageBreakPreview**.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -36,7 +37,7 @@ workbook.save(data_dir + "output.xls")
 puts "Set page break preview, please check the output file."
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Förhandsgranskning av sidbrytning (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Sidbrytningsgranskning (Aspose.Cells)** från någon av sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreakpreview.rb)

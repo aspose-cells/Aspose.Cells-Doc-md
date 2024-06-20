@@ -1,23 +1,24 @@
 ---
-title: Pivot Tabloyu Biçimlendir Cells
+title: Döşeme Özeti Hücreleri Biçimlendir
 type: docs
 weight: 30
 url: /tr/python-net/format-pivot-table-cells/
-description: Pivot tablo hücreleri Aspose.Cells for Python via .NET ile nasıl biçimlendirilir?
-keywords: Format pivot table cells.
+description: Aspose.Cells for Python via .NET ile dinamik tablo hücrelerini nasıl biçimlendireceğinizi gösteren makale.
+keywords: Dinamik tablo hücrelerini biçimlendirme.
 ---
+
 {{% alert color="primary" %}}
 
- Bazen pivot tablo hücrelerini biçimlendirmek istersiniz. Örneğin, pivot tablo hücrelerine arka plan rengi uygulamak istiyorsunuz. Aspose.Cells for Python via .NET iki yöntem sunar[**PivotTable.format_all(stil)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) Ve[**PivotTable.format(satır, sütun, stil)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/), bu amaçla kullanabilirsiniz.
+Bazı durumlarda, dinamik tablo hücrelerini biçimlendirmek isteyebilirsiniz. Örneğin, dinamik tablo hücrelerine arka plan rengi uygulamak isteyebilirsiniz. Aspose.Cells for Python via .NET, bu amaçla kullanabileceğiniz iki yöntem [**PivotTable.format_all(style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) ve [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/) sağlar.
 
-[**PivotTable.format_all(stil)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) stili pivot tablonun tamamına uygularken[**PivotTable.format(satır, sütun, stil)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/) stili pivot tablonun tek bir hücresine uygular.
+[**PivotTable.format_all(style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/), stilin tam döşeme tablosuna [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/), stilin döşeme tablosunun tek bir hücresine uygulanmasını sağlar.
 
 {{% /alert %}}
- Aşağıdaki örnek kod,[örnek Excel dosyası](pivot_format.xlsx) iki pivot tablo içeren ve pivot tablonun tamamını biçimlendirme ve pivot tablodaki tek tek hücreleri biçimlendirme işlemini gerçekleştiren.
+Aşağıdaki örnek kod, iki döşeme tablosu içeren [örnek Excel dosyasını](pivot_format.xlsx) yükler ve tam döşeme tablosunu biçimlendirme ve döşeme tablosundaki bireysel hücreleri biçimlendirme işlemini başarır.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-FormatPivotTableCells-1.py" >}}
 
-##  İlgili Makaleler
+## İlgili Makaleler
 
-- [Pivot Tabloyu Biçimlendirme](/cells/tr/python-net/formatting-pivot-table/)
-- [Pivot Table'da DataField'ın veri görüntüleme formatlarıyla çalışma](/cells/tr/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+- [Pivot Tablosu Biçimlendirme](/cells/tr/python-net/formatting-pivot-table/)
+- [Pivot Tablosundaki DataField'ın veri görüntüleme formatları ile çalışma](/cells/tr/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)

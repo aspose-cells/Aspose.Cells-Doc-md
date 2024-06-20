@@ -3,142 +3,143 @@ title: Pdf
 type: docs
 weight: 220
 url: /ja/python-net/convert-excel-to-pdf/
-description: Excel を Aspose.Cells for Python via .NET API と PDF に変換する方法を学びます。
-keywords: Python converT Excel to PDF, ConverT Excel to PDF using Python, Python save Excel to PDF, Excel to PDF in Python
+description: Aspose.Cells for Python via .NET APIを使用してExcelをPDFに変換する方法を学ぶ。
+keywords: PythonでExcelをPDFに変換する、PythonでExcelをPDFに変換する、PythonでExcelをPDFに保存する、PythonでExcelをPDFに変換する。
 ---
-{{% alert color="primary" %}}
-
-Aspose.Cells for Python via .NET は、Excel ワークブックから PDF への変換をサポートしています。この例では、Excel ワークブックから PDF への完全な変換を確認します。
-
-{{% /alert %}}
-
-##  **Excel ワークブックを PDF に変換する**
-
-PDF ファイルは、組織、政府部門、個人の間で文書を交換するために広く使用されています。これは標準のドキュメント形式であり、ソフトウェア開発者はよく Microsoft Excel ファイルを PDF ドキュメントに変換する方法を見つけるように求められます。
-
-Aspose.Cells for Python via .NET は、Excel ファイルの PDF への変換をサポートし、変換時に高い視覚的忠実度を維持します。
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Python via .NET は、API とバージョン番号に関する情報を出力ドキュメントに直接書き込みます。たとえば、Document を PDF にレンダリングすると、Aspose.Cells for Python via .NET が設定されます。**PDF プロデューサー**値を含むフィールド (例: 'Aspose.Cells for Python via .NET v23.2')。
-
-出力ドキュメント内のこの情報は、次の方法で変更できることに注意してください。**[PdfSaveOptions.Producer](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/Producer/)**財産。
+Aspose.Cells for Python via .NETは、ExcelワークブックをPDFに完全に変換することをサポートしています。この例では、Excelワークブックを完全にPDFに変換する方法を見ていきます。
 
 {{% /alert %}}
 
-###  **直接変換**
+## **ExcelワークブックをPDFに変換する**
 
- Aspose.Cells for Python via .NET は、他のソフトウェアから独立してスプレッドシートから PDF への変換をサポートします。次のコマンドを使用して Excel ファイルを PDF に保存するだけです。**[ワークブック](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)**クラス'**[保存](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)**方法。の**[保存](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)**メソッドが提供するのは、**[SaveFormat.PDF](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)**ネイティブ Excel ファイルを PDF 形式に変換する列挙メンバー。
+PDFファイルは、組織、政府部門、個人間で文書を交換するために広く使用されています。これは標準のドキュメント形式であり、ソフトウェア開発者はしばしばMicrosoft ExcelファイルをPDFドキュメントに変換する方法を見つけるよう求められます。
 
-Excel スプレッドシートを PDF 形式に直接変換するには、以下の手順に従ってください。
+Aspose.Cells for Python via .NETは、高いビジュアルの忠実度を保ちながらExcelファイルをPDFに変換することをサポートしています。
 
-1. のオブジェクトをインスタンス化します。**[ワークブック](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)**空のコンストラクターを呼び出してクラスを作成します。
-1. 既存のテンプレート ファイルを開いて読み込むことも、ワークブックを最初から作成する場合はこの手順をスキップすることもできます。
-1. Aspose.Cells for Python via .NET' API を使用して、スプレッドシート上で作業 (データの入力、書式設定の適用、数式の設定、画像やその他の描画オブジェクトの挿入など) を実行します。
-1. スプレッドシートのコードが完成したら、**[ワークブック](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)**クラス'**[保存](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)**スプレッドシートを保存するメソッド。
+{{% alert color="primary" %}}
 
-ファイル形式は PDF である必要があるので、選択します。*PDF* (事前定義された値)**[保存形式](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)**列挙して最終的な PDF ドキュメントを生成します。
+Aspose.Cells for Python via .NETは、出力ドキュメントにAPIとバージョン番号の情報を直接書き込みます。例えば、DocumentをPDFにレンダリングする際、Aspose.Cells for Python via .NETは**PDF Producer**フィールドに値を出力します。たとえば、'Aspose.Cells for Python via .NET v23.2'。
+
+出力ドキュメントでこの情報を変更することができることに注意してください。
+
+{{% /alert %}}
+
+### **直接変換**
+
+Aspose.Cells for Python via .NETは、他のソフトウェアに依存せずにスプレッドシートをPDFに変換することをサポートしています。ネイティブのExcelファイルをPDF形式に変換するための[**save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)メソッドを使用してExcelファイルをPDFに保存する。
+
+以下の手順に従って、Excelスプレッドシートを直接PDF形式に変換します:
+
+1. 空のコンストラクタを呼び出して[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスのオブジェクトをインスタンス化します。
+1. 既存のテンプレートファイルを開いたり読み込んだりするか、ワークブックをゼロから作成している場合は、この手順をスキップします。
+1. Aspose.Cells for Python via .NETのAPIを使用してスプレッドシートで作業を行います（入力データを設定、書式を適用、数式を設定、画像やその他の図形オブジェクトを挿入など）。
+1. スプレッドシートのコードが完了したら、[**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)クラスの[**save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)メソッドを呼び出してスプレッドシートを保存します。
+
+ファイル形式はPDFである必要があるため、最終的なPDFドキュメントを生成するために[**SaveFormat**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)（事前定義された値）から選択します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-XlstoPDFDirectConversation-1.py" >}}
 
-###  **高度な変換**
+### **高度な変換**
 
-を使用することもできます。**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)**変換用のさまざまな属性を設定するクラス。のさまざまなプロパティを設定する**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)**クラスを使用すると、出力 PDF の印刷、フォント、セキュリティ、圧縮設定を制御できます。最も重要なプロパティは次のとおりです。**[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)**これにより、Excel ファイルを PDF/A 準拠の PDF ファイルに保存できるようになります。
+[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)クラスを使用して、変換のためにさまざまな属性を設定することもできます。[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)クラスのさまざまなプロパティを設定すると、出力PDFの印刷、フォント、セキュリティ、圧縮設定を制御できます。最も重要なプロパティは[**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)で、このプロパティを使用するとExcelファイルをPDF/A準拠のPDFファイルに保存できます。
 
-####  **ワークブックを PDF/A コンパイル済みファイルに保存**
+#### **PDF/A準拠ファイルへのワークブックの保存**
 
-以下に提供されるコード スニペットは、**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)**Excel ファイルを PDF/A 準拠の PDF 形式で保存するクラス。
+以下のコードスニペットは、[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) クラスを使用してExcelファイルをPDF/A準拠のPDF形式に保存する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AdvancedConversiontoPdf-1.py" >}}
 
 {{% alert color="primary" %}}
 
-ご注意ください。**[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)**プロパティは、Aspose.Cells for Python via .NET for .NET 5.3.0 のリリースで追加されました。
+[**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)プロパティは、Aspose.Cells for Python via .NET for .NET 5.3.0で追加されましたので、ご留意ください。
 
 {{% /alert %}}
 
-####  **PDF 作成時刻を設定します**
+#### **PDF作成時間の設定**
 
-とともに**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)**クラスでは、PDF の作成時間を取得または設定できます。次のコードは、の使用法を示しています。**[PdfSaveOptions.created_time](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/created_time/)**プロパティを使用して、PDF ファイルの作成時間を設定します。
+[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) クラスを使用すると、PDF作成時刻を取得または設定することができます。次のコードは、[**PdfSaveOptions.created_time**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/created_time/) プロパティを使用してPDFファイルの作成時刻を設定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SetPDFCreationTime-1.py" >}}
 
-####  **ContentCopyForAccessibility オプションを設定する**
+#### **ContentCopyForAccessibilityオプションの設定**
 
-とともに**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)**クラスでは、PDF を取得または設定できます**[PdfSecurityOptions.accessibility_extract_content](https://reference.aspose.com/cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibility_extract_content/)**変換された PDF のコンテンツ アクセスを制御するオプション。
+[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) クラスを使用すると、変換されたPDFのコンテンツアクセスを制御するためのPDF [**PdfSecurityOptions.accessibility_extract_content**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibility_extract_content/) オプションを取得または設定できます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SetContentCopyForAccessibility-1.py" >}}
 
-####  **カスタム プロパティを PDF にエクスポート**
+#### **PDFへのカスタムプロパティのエクスポート**
 
-とともに**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)**クラスを使用すると、ソース ワークブックのカスタム プロパティを PDF にエクスポートできます。**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfcustompropertiesexport/)**列挙子は、プロパティをエクスポートする方法を指定するために提供されます。これらのプロパティは、次の図に示すように、「ファイル」をクリックしてから「プロパティ」オプションをクリックすることで、Adobe Acrobat Reader で確認できます。テンプレートファイル「sourceWithCustProps.xlsx」がダウンロード可能[ここ](sourceWithCustProps.xlsx)テストと出力用に PDF ファイル「outSourceWithCustProps」が利用可能です[ここ](outSourceWithCustProps.pdf)分析用に。
+[**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) クラスを使用すると、元のワークブック内のカスタムプロパティをPDFにエクスポートすることができます。プロパティのエクスポート方法を指定するために [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfcustompropertiesexport/) 列挙型が提供されています。これらのプロパティは、次の画像に示すように、Adobe Acrobat Readerで[ファイル]をクリックして[プロパティ]オプションをクリックすることで観察することができます。テンプレートファイル "sourceWithCustProps.xlsx" は[こちら](sourceWithCustProps.xlsx)からダウンロードでき、解析用の出力PDFファイル "outSourceWithCustProps" は[こちら](outSourceWithCustProps.pdf)で利用できます。
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ExportCustomPropertiesToPdf-1.py" >}}
 
-###  **変換属性**
+### **変換属性**
 
-新しいリリースごとに変換機能の強化に取り組んでいます。 Aspose.Cell の Excel から PDF への変換には、まだいくつかの制限があります。 PDF 形式に変換する場合、MapChart はサポートされません。また、一部の描画オブジェクトは適切にサポートされていません。
+新しいリリースごとに変換機能を強化しています。Aspose.CellのExcelからPDFへの変換にはまだいくつかの制限があります。MapChartはPDF形式への変換時にサポートされていません。また、一部の図形オブジェクトには十分なサポートがありません。
 
-次の表には、Aspose.Cells for Python via .NET を使用して PDF にエクスポートするときに完全または部分的にサポートされるすべての機能がリストされています。この表は最終的なものではなく、スプレッドシートの属性をすべて網羅しているわけではありませんが、変換がサポートされていない、または部分的にサポートされている機能を示しています。 PDFまで。
+以下の表は、Aspose.Cells for Python via .NETを使用してPDFに変換する際に完全または一部サポートされている機能を示しています。この表は最終版ではなく、スプレッドシート属性のすべてを網羅していませんが、PDFへの変換において完全にサポートされていないまたは部分的にサポートされている機能を識別しています。
 
-|**文書要素**|**属性**|**サポートされています**|**ノート**|
+|**ドキュメント要素**|**属性**|**サポート**|**注釈**|
 | :- | :- | :- | :- |
-|位置合わせ| |はい| |
-|背景設定| |はい| |
-|国境|色|はい| |
-|国境|線のスタイル|はい| |
-|国境|線幅|はい| |
-|Cell データ| |はい| |
-|コメント| |はい| |
-|条件付き書式| |はい| |
-|ドキュメントのプロパティ| |はい| |
-|描画オブジェクト| |部分的に|描画オブジェクトの影と 3D 効果は十分にサポートされていません。ワードアートとスマートアートは部分的にサポートされています。|
-|フォント|サイズ|はい| |
-|フォント|色|はい| |
-|フォント|スタイル|はい| |
-|フォント|下線|はい| |
+|配置| |はい| |
+|背景設定| |はい| |
+|ボーダー|色|はい| |
+|ボーダー|線のスタイル|はい| |
+|ボーダー|線の幅|はい| |
+|セルデータ| |はい| |
+|コメント| |はい| |
+|条件付き書式| |はい| |
+|ドキュメントプロパティ| |はい| |
+|図形オブジェクト| |部分的|図形オブジェクトの影や3D効果には十分なサポートがありません。WordArtとSmartArtは部分的にサポートされています。|
+|フォント|サイズ|はい| |
+|フォント|色|はい| |
+|フォント|スタイル|はい| |
+|フォント|下線|はい| |
 |フォント|効果|はい||
-|画像| |はい| |
-|ハイパーリンク| |はい| |
-|チャート| |部分的に|マップチャートはサポートされていません。|
-|合併済み Cells| |はい| |
-|改ページ| |はい| |
-|ページ設定|ヘッダー/フッター|はい| |
-|ページ設定|余白|はい| |
-|ページ設定|ページの向き|はい| |
-|ページ設定|ページサイズ|はい| |
-|ページ設定|印刷領域|はい| |
-|ページ設定|タイトルを印刷する|はい| |
-|ページ設定|スケーリング|はい| |
-|行の高さ/列の幅| |はい| |
-|RTL (右から左へ) 言語| |はい| |
+|画像| |はい| |
+|ハイパーリンク| |はい| |
+|チャート|  |部分的に| MapChartはサポートされていません。|
+|セルの結合|  |はい|  |
+|改ページ|  |はい|  |
+|ページ設定|ヘッダー/フッター|はい|  |
+|ページ設定|余白|はい|  |
+|ページ設定|ページの向き|はい|  |
+|ページ設定|ページサイズ|はい|  |
+|ページ設定|印刷範囲|はい|  |
+|ページ設定|印刷タイトル|はい|  |
+|ページ設定|拡大/縮小|はい|  |
+|行の高さ/列の幅|  |はい|  |
+|右から左への言語|  |はい|  |
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、次のように呼び出すのが最善です。[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)スプレッドシートを PDF 形式にレンダリングする直前のメソッド。そうすることで、式に依存する値が再計算され、PDF に正しい値が表示されるようになります。
+スプレッドシートに数式が含まれている場合、スプレッドシートをPDF形式にレンダリングする直前に[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)メソッドを呼び出すのが最適です。これにより、数式に依存する値が再計算され、PDFに正しい値がレンダリングされます。
 
 {{% /alert %}}
 
-##  **アドバンストトピック**
-- [PDF ブックマークを追加](/cells/ja/python-net/add-pdf-bookmarks/)
-- [名前付き宛先を含む PDF ブックマークを追加する](/cells/ja/python-net/add-pdf-bookmarks-with-named-destinations/)
-- [印刷するものが何もない場合の出力 PDF の空白ページを回避する](/cells/ja/python-net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
+## **高度なトピック**
+- [PDFブックマークを追加](/cells/ja/python-net/add-pdf-bookmarks/)
+- [名前付き目次でPDFブックマークを追加する](/cells/ja/python-net/add-pdf-bookmarks-with-named-destinations/)
+- [出力PDFの空白ページを回避する](/cells/ja/python-net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
 - [XLSXファイルをPDF形式に変換](/cells/ja/python-net/convert-xlsx-file-to-pdf-format/)
-- [Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換します](/cells/ja/python-net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
-- [画像またはグラフを含む XLS ファイルを PDF に変換します](/cells/ja/python-net/convert-xls-file-with-images-or-charts-to-pdf/)
-- [グラフ シートの PdfBookmarkEntry を作成する](/cells/ja/python-net/create-pdfbookmarkentry-for-chart-sheet/)
-- [ワークシートのすべての列を 1 つの PDF ページに収める](/cells/ja/python-net/fit-all-worksheet-columns-on-single-pdf-page/)
-- [Excel を PDF にレンダリングする際のエラーを無視する](/cells/ja/python-net/ignore-errors-while-rendering-excel-to-pdf/)
-- [生成されるページ数を制限する - Excel から PDF への変換](/cells/ja/python-net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/)
-- [PDF に保存中にコメントを印刷](/cells/ja/python-net/print-comments-while-saving-to-pdf/)
-- [Excel を PDF に変換するときに Office アドインをレンダリングする](/cells/ja/python-net/render-office-add-ins-while-converting-excel-to-pdf/)
-- [Excel ワークシートごとに 1 つの PDF ページをレンダリング - Excel から PDF への変換](/cells/ja/python-net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/)
-- [出力 PDF の Unicode 補助文字を Aspose.Cells でレンダリングします](/cells/ja/python-net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/)
-- [追加された画像のリサンプリング - Excel から PDF への変換](/cells/ja/python-net/resampling-added-images-excel-to-pdf-conversion/)
-- [各ワークシートを別の PDF ファイルに保存](/cells/ja/python-net/save-each-worksheet-to-a-different-pdf-file/)
-- [標準または最小サイズで Excel を PDF に保存します](/cells/ja/python-net/save-excel-into-pdf-with-standard-or-minimum-size/)
-- [指定したワークシートを PDF に保存](/cells/ja/python-net/save-specified-worksheets-to-pdf/)
-- [安全な PDF ドキュメント](/cells/ja/python-net/secure-pdf-documents/)
-- [出力PDFと画像の文字列を交差させる方法を指定します](/cells/ja/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)
+- [PDFA-1aに準拠したExcelファイルをPDF形式に変換する](/cells/ja/python-net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [画像やチャートを含むXLSファイルをPDFに変換](/cells/ja/python-net/convert-xls-file-with-images-or-charts-to-pdf/)
+- [チャートシートの PdfBookmarkEntry を作成](/cells/ja/python-net/create-pdfbookmarkentry-for-chart-sheet/)
+- [1つのPDFページでワークシートのすべての列を表示する](/cells/ja/python-net/fit-all-worksheet-columns-on-single-pdf-page/)
+- [Excel を PDF にレンダリングする際のエラーを無視](/cells/ja/python-net/ignore-errors-while-rendering-excel-to-pdf/)
+- [生成されるページ数を制限する - ExcelからPDFへの変換](/cells/ja/python-net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/)
+- [PDFへ保存する際にコメントを印刷する](/cells/ja/python-net/print-comments-while-saving-to-pdf/)
+- [ExcelをPDFに変換する際のOffice Add-Insのレンダリング](/cells/ja/python-net/render-office-add-ins-while-converting-excel-to-pdf/)
+- [Excelのワークシートごとに1つのPDFページをレンダリング - ExcelからPDFへの変換](/cells/ja/python-net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/)
+- [Aspose.Cellsによる出力PDFでUnicode補助文字をレンダリングする](/cells/ja/python-net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/)
+- [追加された画像のリサンプリング - ExcelからPDFへの変換](/cells/ja/python-net/resampling-added-images-excel-to-pdf-conversion/)
+- [異なるPDFファイルごとに各ワークシートを保存](/cells/ja/python-net/save-each-worksheet-to-a-different-pdf-file/)
+- [標準または最小サイズでExcelをPDFに保存](/cells/ja/python-net/save-excel-into-pdf-with-standard-or-minimum-size/)
+- [指定されたワークシートをPDFに保存](/cells/ja/python-net/save-specified-worksheets-to-pdf/)
+- [PDFドキュメントをセキュアにする](/cells/ja/python-net/secure-pdf-documents/)
+- [出力PDFおよび画像内の文字列の交差方法を指定](/cells/ja/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)

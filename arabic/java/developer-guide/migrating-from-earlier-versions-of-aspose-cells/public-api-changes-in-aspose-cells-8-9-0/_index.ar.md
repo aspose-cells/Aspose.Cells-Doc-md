@@ -1,21 +1,22 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.9.0
+---
+title: التغييرات في واجهة برمجة التطبيقات العامة في Aspose.Cells 8.9.0
 type: docs
 weight: 310
 url: /ar/java/public-api-changes-in-aspose-cells-8-9-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.8.3 إلى 8.9.0 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات العامة في Aspose.Cells من الإصدار 8.8.3 إلى 8.9.0 التي قد تكون مثيرة لاهتمام مطوري الوحدات/التطبيقات. يتضمن الوثيقة ليس فقط الطرق العامة الجديدة والمحدثة والفئات المُضافة والمُزالة إلخ، بل وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
+## **واجهات برمجة التطبيقات الجديدة**
 ### **تمت إضافة خاصية HtmlSaveOptions.DefaultFontName**
-كشف Aspose.Cells for Java 8.9.0 الخاصية DefaultFontName لفئة HtmlSaveOptions التي تسمح بتحديد اسم الخط الافتراضي أثناء تحويل جداول البيانات إلى تنسيق HTML. سيتم استخدام الخط الافتراضي فقط في حالة عدم وجود خط النمط. القيمة الافتراضية لخاصية HtmlSaveOptions.DefaultFontName خالية مما يعني أن Aspose.Cells for Java API سيستخدم الخط العام الذي له نفس العائلة مع الخط الأصلي.
+قامت Aspose.Cells for Java 8.9.0 بتعريض خاصية DefaultFontName لفئة HtmlSaveOptions التي تسمح بتحديد اسم الخط الافتراضي أثناء تقديم جداول البيانات إلى تنسيق HTML. سيتم استخدام الخط الافتراضي فقط عندما لا يكون الخط من النوع الذي تستخدمه النمط. القيمة الافتراضية لخاصية HtmlSaveOptions.DefaultFontName هي null وهذا يعني أن واجهة برمجة التطبيقات Aspose.Cells for Java ستستخدم الخط العالمي الذي يحمل نفس العائلة مع الخط الأصلي.
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة على[تحديد الخط الافتراضي لتحويل جداول البيانات إلى نسق HTML](/cells/ar/java/set-default-font-while-rendering-spreadsheet-to/).
+لمزيد من التفاصيل حول هذه الميزة، يرجى مراجعة المقالة حول [تعيين الخط الأساسي لتقديم جداول البيانات في تنسيق HTML](/cells/ar/java/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 
@@ -23,7 +24,7 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-9-0/
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of HtmlSaveOptions
 
@@ -43,15 +44,15 @@ book.save(dir + "output.html", options);
 
 {{< /highlight >}}
 ### **تمت إضافة خاصية ImageOrPrintOptions.DefaultFont**
- Aspose.Cells for Java 8.9.0 يسمح بتعيين اسم طاقم الطباعة الافتراضي لفئة ImageOrPrintOptions عن طريق كشف خاصية الخط الافتراضي. يمكن استخدام الخاصية المذكورة عندما لا يتم تعيين أحرف Unicode في جدول البيانات بالخط الصحيح في نمط الخلية ، وبالتالي قد تظهر هذه الأحرف ككتل في الصور الناتجة.
+Aspose.Cells for Java 8.9.0 يسمح بتعيين اسم الخط الأساسي لفئة ImageOrPrintOptions عن طريق تعريض خاصية DefaultFont. يمكن استخدام الخاصية المذكورة عندما لا يتم تعيين الأحرف اليونيكود في جدول البيانات بالخط الصحيح في نمط الخلية وبالتالي قد تظهر هذه الأحرف كمربعات في الصور الناتجة. 
 
 {{% alert color="primary" %}} 
 
- قم بتعيين خاصية الخط الافتراضي إلى MingLiu أو MS Gothic لإظهار أحرف Unicode. إذا لم يتم تعيين الخاصية المذكورة ، فسيستخدم Aspose.Cells الخط الافتراضي للنظام لإظهار أحرف Unicode.
+قم بتعيين خاصية DefaultFont إلى MingLiu أو MS Gothic لعرض الأحرف اليونيكود. إذا لم يتم تعيين الخاصية المذكورة، فسوف يستخدم Aspose.Cells الخط الأساسي للنظام لعرض الأحرف اليونيكود. 
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة على[تعيين الخط الافتراضي لعرض جداول البيانات في تنسيقات الصورة](/cells/ar/java/set-default-font-while-rendering-spreadsheet-to-images/).
+لمزيد من التفاصيل حول هذه الميزة، يرجى مراجعة المقالة حول [تعيين الخط الأساسي لتقديم جداول البيانات في تنسيقات الصور](/cells/ar/java/set-default-font-while-rendering-spreadsheet-to-images/).
 
 {{% /alert %}} 
 
@@ -59,7 +60,7 @@ book.save(dir + "output.html", options);
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of ImageOrPrintOptions
 
@@ -86,12 +87,12 @@ SheetRender render = new SheetRender(sheet, options);
 render.toImage(0, dir + "output.png");
 
 {{< /highlight >}}
-### **تمت إضافة خاصية متوافقة مع PivotTable.Excel2003**
-كشف Aspose.Cells for Java API الخاصية المتوافقة Excel2003 من النوع المنطقي لفئة PivotTable التي تسمح بتحديد ما إذا كان PivotTable متوافقًا مع Excel 2003 لأغراض التحديث. القيمة الافتراضية للخاصية المتوافقة في Excel2003 صحيحة ، وهذا يعني أن السلسلة يجب أن تكون أقل من أو تساوي 255 حرفًا. إذا كانت السلسلة أكبر من 255 حرفًا ، فسيتم قطعها. إذا كانت خاطئة ، فلن يتم فرض القيد المذكور أعلاه.
+### **تمت إضافة خاصية PivotTable.Excel2003Compatible**
+Aspose.Cells for Java API قد عرضت خاصية Excel2003Compatible من نوع Boolean لفئة PivotTable مما يسمح بتحديد ما إذا كانت جدول الأحصاء متوافقة مع Excel 2003 لأغراض التحديث. القيمة الافتراضية لخاصية Excel2003Compatible هي true، وهذا يعني أنه يجب أن تكون السلسلة أقل من أو تساوي 255 حرفًا. إذا كانت السلسلة أكبر من 255 حرفًا، فسيتم تقليصها. إذا تم تعيين القيمة على الخطأ، فإن القيود المذكورة سابقًا لن تكون منفذة.
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة على[التوافق مع Excel 2003 لتحديث الجداول المحورية](/cells/ar/java/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/).
+لمزيد من التفاصيل حول هذه الميزة، يرجى مراجعة المقالة حول [التوافق مع Excel 2003 لتحديث جداول البيانات الخمولية](/cells/ar/java/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/).
 
 {{% /alert %}} 
 
@@ -99,7 +100,7 @@ render.toImage(0, dir + "output.png");
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet in an instance of Workbook
 

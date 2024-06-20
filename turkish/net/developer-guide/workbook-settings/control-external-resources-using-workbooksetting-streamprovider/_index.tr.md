@@ -1,19 +1,20 @@
-﻿---
-title: WorkbookSetting.StreamProvider kullanarak Harici Kaynakları Kontrol Edin
+---
+title: WorkbookSetting.StreamProvider Kullanarak Harici Kaynakları Kontrol Etme
 type: docs
 weight: 10
 url: /tr/net/control-external-resources-using-workbooksetting-streamprovider/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Bazen, Excel dosyanız bağlantılı resimler vb. gibi harici kaynaklar içerir. Aspose.Cells, bu harici kaynakları kullanarak kontrol etmenize olanak tanır.[**Workbook.Settings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider)uygulanmasını gerektiren[**IStream Sağlayıcı**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)arayüz. Bağlantılı resimler gibi harici kaynaklar içeren çalışma sayfanızı ne zaman oluşturmaya çalışsanız,[**IStream Sağlayıcı**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)dış kaynaklarınız için uygun eylemleri gerçekleştirmenizi sağlayacak arayüz çağrılacaktır.
+Bazen Excel dosyanız harici kaynaklar içerebilir, örneğin bağlantılı resimler vb. Aspose.Cells, [**Workbook.Settings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) kullanarak bu harici kaynakları kontrol etmenize izin verir ki bu, [**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) arayüzünün uygulamasını alır. Eğer çalışma sayfasınız harici kaynaklar içeren bir resmi oluşturulduğunda, [**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) arayüzünün yöntemleri tetiklenecek ve harici kaynaklarınıza uygun eylemleri gerçekleştirmenize olanak sağlayacaktır.
 
-## **WorkbookSetting.StreamProvider kullanarak Harici Kaynakları Kontrol Edin**
+## **WorkbookSetting.StreamProvider Kullanarak Harici Kaynakları Kontrol Etme**
 
-Aşağıdaki örnek kod,[**Workbook.Settings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) . o yükler[örnek excel dosyası](61767863.xlsx) bağlantılı bir resim içerir. Kod, bağlantılı resmi şu şekilde değiştirir:[Aspose logosu](61767862.png) kullanarak tüm sayfayı tek bir görüntüye dönüştürür.[**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) sınıf. Aşağıdaki ekran görüntüsü, örnek Excel dosyasını ve[işlenmiş çıktı görüntüsü](61767865.png) referans için Gördüğünüz gibi kopuk bağlantılı resim Aspose Logosu ile değiştirilmiştir.
+Aşağıdaki örnek kod, [**Workbook.Settings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) kullanımını açıklar. [Örnek Excel dosyasını](61767863.xlsx) içeren bağlantılı bir resim bulunmaktadır. Kod, bağlantılı resmi [Aspose Logosu](61767862.png) ile değiştirir ve [**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) sınıfını kullanarak çalışma sayfasını tek bir resim haline getirir. Aşağıdaki ekran görüntüsü, örnek Excel dosyasını ve referans için [oluşturulmuş çıktı resmi](61767865.png)'ni göstermektedir. Bozuk bağlantılı resmi Aspose Logosu ile değiştirildiği gibi görünmektedir.
 
-![yapılacaklar:resim_alternatif_metin](control-external-resources-using-workbooksetting-streamprovider_1.png)
+![todo:image_alt_text](control-external-resources-using-workbooksetting-streamprovider_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-ControlExternalResourcesUsingWorkbookSetting_StreamProvider-1.cs" >}}

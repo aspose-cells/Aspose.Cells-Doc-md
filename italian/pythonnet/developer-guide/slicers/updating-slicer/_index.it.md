@@ -1,19 +1,22 @@
 ---
-title: Aggiornamento dell'affettatrice
+title: Aggiornamento Slicer
 type: docs
 weight: 50
 url: /it/python-net/updating-slicer/
+description: Scopri come aggiornare un filtro con Aspose.Cells per Python via .NET.
+keywords: Aspose.Cells per Python Excel, libreria Python Excel, aggiornare il filtro senza Excel in Python, Aggiornare il filtro usando Aspose.Cells per Python.
 ---
-##  **Possibili scenari di utilizzo**
 
-Se desideri aggiornare l'affettatrice in Microsoft Excel, seleziona o deseleziona i suoi elementi, quindi aggiornerà di conseguenza la tabella dell'affettatrice o la tabella pivot. Si prega di utilizzare[**Slicer.slicer_cache.slicer_cache_items**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercache/slicer_cache_items/)per selezionare o deselezionare gli elementi dell'affettatrice con Aspose.Cells for Python via .NET e poi chiamare[**Slicer.refresh()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/refresh/#)metodo per aggiornare la tabella dei dati o la tabella pivot.
+## **Possibili Scenari di Utilizzo**
 
-##  **Aggiornamento dell'affettatrice**
+Se desideri aggiornare un filtro in Microsoft Excel, seleziona o deseleziona i suoi elementi, quindi aggiornerà la tabella del filtro o la tabella pivot di conseguenza. Si prega di utilizzare [**Slicer.slicer_cache.slicer_cache_items**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercache/slicer_cache_items/) per selezionare o deselezionare gli elementi del filtro con Aspose.Cells per Python via .NET e chiamare il metodo [**Slicer.refresh()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/refresh/#) per aggiornare la tabella del filtro o la tabella pivot.
 
- Il codice di esempio seguente carica il file[file Excel di esempio](67338475.xlsx) che contiene un'affettatrice esistente. Deseleziona il 2° e il 3° elemento dell'affettatrice e aggiorna l'affettatrice. Quindi salva la cartella di lavoro come[file Excel di output](67338476.xlsx)La schermata seguente mostra l'effetto del codice di esempio sul file Excel di esempio. Come puoi vedere nello screenshot, l'aggiornamento dell'affettatrice con gli elementi selezionati ha aggiornato di conseguenza anche la tabella pivot.
+## **Come aggiornare un filtro utilizzando la libreria Excel Aspose.Cells per Python**
 
-![cose da fare:immagine_alt_testo](updating-slicer_1.png)
+Il seguente codice di esempio carica il [file Excel di esempio](67338475.xlsx) che contiene un filtro esistente. Deseleziona il 2° e 3° elemento del filtro e aggiorna il filtro. Quindi salva il lavoro come [file Excel di output](67338476.xlsx). La seguente schermata mostra l'effetto del codice di esempio sul file Excel di esempio. Come puoi vedere nella schermata, l'aggiornamento del filtro con gli elementi selezionati ha anche aggiornato la tabella pivot di conseguenza.
 
-##  **Codice d'esempio**
+![todo:image_alt_text](updating-slicer_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-UpdatingSlicer.py" >}}

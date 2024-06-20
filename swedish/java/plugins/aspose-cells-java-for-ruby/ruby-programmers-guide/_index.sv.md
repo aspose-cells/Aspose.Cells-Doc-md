@@ -1,10 +1,11 @@
-﻿---
-title: Ruby programmerare guide
+---
+title: Ruby programmerarguide
 type: docs
 weight: 20
 url: /sv/java/ruby-programmers-guide/
 ---
-**Det här avsnittet innehåller följande ämnen:**
+
+**Denna avsnitt innehåller följande ämnen:**
 
 - [Introduktion i Ruby](/cells/sv/java/introduction-in-ruby/)
 - [Arbeta med filer i Ruby](/cells/sv/java/working-with-files-in-ruby/)

@@ -1,15 +1,16 @@
-﻿---
-title:  Anpassade sammanhangsmenyer för GridJs
+---
+title: Anpassade kontextmenyer för GridJs  
 type: docs
 weight: 250
 url: /sv/net/aspose-cells-gridjs/custommenu/
-description: Den här artikeln beskriver hur du konfigurerar snabbmenyer för GridJs.
-keywords: custom menu items, context menu
+description: Denna artikel beskriver hur du konfigurerar kontextmenyer för GridJs.
+keywords: GridJs, anpassade menyobjekt, kontextmeny, anpassad, kontext, meny
 ---
-# Anpassade sammanhangsmenyer
-Vi har några inbyggda kontextmenyalternativ, till exempel infoga/ta bort rad/kolumn och så vidare
-Men om användaren vill anpassa kontextmenyalternativ.
-Vi stöder inställning av snabbmenyalternativ i laddningsalternativ.
+
+# Anpassade kontextmenyer
+Vi har några inbyggda menyalternativ, till exempel infoga/radera rad/kolumn och så vidare
+Om användaren vill anpassa menyobjekt
+Vi stöder att ställa in menyobjekt i laddningsalternativ.
 till exempel:
 ```javascript
         const onMyActionClick1 = (sheet) => {
@@ -34,15 +35,15 @@ till exempel:
             })
 ```
 
-Vi stöder nedanstående JS API:er för anpassade kontextmenyobjekt vid körning
+Vi stöder följande JS API för anpassade menyobjekt vid körning
 
 
-- få anpassade snabbmenyalternativ
+-  få anpassade menyobjekt
 ```javascript
 xs.sheet.getCustomContextMenuItems()
 ```
 
-- lägg till anpassade kontextmenyobjekt
+-  lägg till anpassade menyobjekt
 ```javascript
 xs.sheet.addCustomContextMenuItems(itemsarray)
  // the parameter is:
@@ -50,7 +51,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'menu4','callback':(x)=>{console.log('hello4444');}},{'key':'key3','text':'menu3','callback':(x)=>{console.log('hello3333');}}]
 ```
 
-- ta bort anpassade snabbmenyalternativ
+-  ta bort anpassade menyobjekt
 ```javascript
  xs.sheet.delCustomContextMenuItems(keysarray)()
  // the parameter is:
@@ -58,7 +59,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-- infoga ett anpassat snabbmenyalternativ på angiven position
+-  infoga anpassad menyobjekt på specificerad position
 ```javascript
 xs.sheet.insertCustomContextMenuItem(item,postion)
  // the parameter is:
@@ -67,7 +68,7 @@ xs.sheet.insertCustomContextMenuItem(item,postion)
  postion:the postion for the inserted item in the items array
 ```
 
-- uppdatera anpassad snabbmenypost med tangenten
+-  uppdatera anpassat menyobjektet med nyckeln
 ```javascript
 xs.sheet.updateCustomContextMenuItem(key,item)
  // the parameter is:
@@ -77,12 +78,12 @@ xs.sheet.updateCustomContextMenuItem(key,item)
 ```
 
 
-- få anpassade kontextmenyalternativ för bild/form
+-  få anpassade menyobjekt för bild/form
 ```javascript
 xs.sheet.getImageContextMenuItems()
 ```
 
-- lägg till anpassade kontextmenyalternativ för bild/form
+-  lägg till anpassade menyobjekt för bild/form
 ```javascript
 xs.sheet.addImageContextMenuItems(itemsarray)
  // the parameter is:
@@ -90,7 +91,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'img operation1','callback':(x)=>{console.log('operation1 on image');}},{'key':'key3','text':'img operation2','callback':(x)=>{console.log('operation2 on image');}}]
 ```
 
-- ta bort anpassade kontextmenyalternativ för bild/form
+-  ta bort anpassade menyobjekt för bild/form
 ```javascript
  xs.sheet.delImageContextMenuItems(keysarray)()
  // the parameter is:
@@ -98,7 +99,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-Du kan hitta mer på vår github-demosida https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+Du kan hitta mer på vår github demosida https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
 
 
- 
+

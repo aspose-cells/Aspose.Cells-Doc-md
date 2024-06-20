@@ -1,26 +1,27 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 16.11.0
+---
+title: Offentliga API ändringar i Aspose.Cells 16.11.0
 type: docs
 weight: 360
 url: /sv/java/public-api-changes-in-aspose-cells-16-11-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 16.10.0 till 16.11.0 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringarna i Aspose.Cells API från version 16.10.0 till 16.11.0 som kan vara av intresse för modul/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser osv., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
+## **Tillagda API:er**
 ### **Stöd för globaliseringsinställningar**
-Aspose.Cells 16.11.0 har exponerat GlobalizationSettings-klassen tillsammans med WorkbookSettings.GlobalizationSettings-egenskapen för att tvinga Aspose.Cells API:erna att använda anpassade etiketter för delsummor. Klassen GlobalizationSettings har följande metoder som kan åsidosättas i den anpassade implementeringen för att ge önskade namn till etiketterna**Total** & **Totalsumma**.
+Aspose.Cells 16.11.0 har exponerat GlobalizationSettings-klassen tillsammans med WorkbookSettings.GlobalizationSettings-egenskapen för att tvinga Aspose.Cells API:er att använda anpassade etiketter för delsummer. GlobalizationSettings-klassen har följande metoder som kan åsidosättas i den anpassade implementationen för att ge önskade namn till etiketterna Total & Grand Total.
 
 - GlobalizationSettings.getTotalName: Hämtar det totala namnet på funktionen.
-- GlobalizationSettings.getGrandTotalName: Får det totala namnet på funktionen.
+- GlobalizationSettings.getGrandTotalName: Hämtar det stora totala namnet på funktionen.
 
-Här är en enkel anpassad klass som utökar GlobalizationSettings-klassen och åsidosätter dess ovannämnda metoder för att returnera anpassade etiketter för konsolideringsfunktionen Average.
+Här är en enkel anpassad klass som utökar GlobalizationSettings-klassen och åsidosätter dess ovanstående metoder för att returnera anpassade etiketter för konsolideringsfunktionen Medelvärde.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomSettings extends GlobalizationSettings
 
@@ -72,11 +73,11 @@ Här är en enkel anpassad klass som utökar GlobalizationSettings-klassen och �
 
 {{< /highlight >}}
 
-Följande utdrag läser in ett befintligt kalkylblad och lägger till delsumman av typen Average på data som redan finns i kalkylbladet. Klassen CustomSettings och dess getTotalName & getGrandTotalName-metoder kommer att anropas när Subtotal läggs till i kalkylbladet.
+Följande kodsnutt laddar en befintlig kalkylblad och lägger till delsumma av typen genomsnitt på data som redan finns tillgänglig i arbetsbladet. Klassen CustomSettings och dess metoder getTotalName och getGrandTotalName kommer att anropas när delsumma läggs till arbetsbladet.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing some data
 
@@ -96,7 +97,7 @@ Worksheet sheet = book.getWorksheets().get(0);
 
 //Adds SubTotal of type Average to the worksheet
 
-sheet.getCells().subtotal(CellArea.createCellArea("A2", "B9"), 0, ConsolidationFunction.AVERAGE, new int[]{ 0,1 });
+sheet.getCells().subtotal(CellArea.createCellArea("A2", "B9"), 0, ConsolidationFunction.AVERAGE, new int[] { 0,1 });
 
 //Calculates Formulas
 
@@ -112,11 +113,11 @@ book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
 
-Klassen GlobalizationSettings erbjuder också metoden getOtherName som är användbar för att få namnet på "Other"-etiketter för cirkeldiagram. Här är ett enkelt användningsscenario för metoden GlobalizationSettings.getOtherName.
+GlobalizationSettings-klassen erbjuder också metoden getOtherName som är användbar för att få namnet på "Övrigt"-etiketter för kagendiagram. Här är ett enkelt användningsscenario av GlobalizationSettings.getOtherName-metoden.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomSettings extends GlobalizationSettings
 
@@ -160,11 +161,11 @@ Klassen GlobalizationSettings erbjuder också metoden getOtherName som är anvä
 
 {{< /highlight >}}
 
-Följande utdrag laddar ett befintligt kalkylblad som innehåller ett cirkeldiagram och renderar diagrammet till bild samtidigt som klassen CustomSettings som skapats ovan används.
+Följande utdrag laddar en befintlig kalkylblad som innehåller ett cirkeldiagram och renderar diagrammet till bild genom att använda klassen CustomSettings som skapats ovan.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing a pie chart
 
@@ -193,14 +194,14 @@ chart.calculate();
 chart.toImage(dir + "output.png", new ImageOrPrintOptions());
 
 {{< /highlight >}}
-### **Lade till CellsFactory Class**
-Aspose.Cells 16.11.0 har exponerat klassen CellsFactory som för närvarande har en metod, det vill säga; skapa stil. Metoden CellsFactory.createStyle kan användas för att skapa en instans av klassen Style utan att lägga till den i poolen av arbetsboksstilar.
+### **Tillagd CellsFactory-klass**
+Aspose.Cells 16.11.0 har exponerat CellsFactory-klassen som för närvarande har en metod, det vill säga createStyle. CellsFactory.createStyle-metoden kan användas för att skapa en instans av Style-klassen utan att lägga till den i arbetsbokens stilar.
 
-Här är ett enkelt användningsscenario för metoden CellsFactory.createStyle.
+Här är ett enkelt användningsscenario av CellsFactory.createStyle-metoden.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initializes the CellsFactory class
 
@@ -211,22 +212,22 @@ CellsFactory factory = new CellsFactory();
 Style style = factory.createStyle();
 
 {{< /highlight >}}
-### **Lade till Workbook.AbsolutePath-egenskap**
-Aspose.Cells 16.11.0 har exponerat egenskapen Workbook.AbsolutePath gör det möjligt att hämta eller ställa in den absoluta sökvägen för arbetsboken som lagras i filen workbook.xml. Den här egenskapen är användbar endast vid uppdatering av externa länkar.
-### **Lade till GridHyperlinkCollection.getHyperlink Method**
-Aspose.Cells.GridWeb 16.11.0 har exponerat getHyperlink-metoden för GridHyperlinkCollection-klassen som gör det möjligt att hämta instansen av GridHyperlink genom att antingen skicka en instans GridCell eller ett par heltal som motsvarar radkolumnindexen.
+### **Tillagd Workbook.AbsolutePath-egenskap**
+Aspose.Cells 16.11.0 har exponerat Workbook.AbsolutePath-egenskapen som tillåter att hämta eller ange den absoluta kalkylbladsbanan som är lagrad i workbook.xml-filen. Denna egenskap är användbar vid endast uppdatering av externa länkar.
+### **Lades till GridHyperlinkCollection.getHyperlink-metod**
+Aspose.Cells.GridWeb 16.11.0 har exponerat getHyperlink-metoden till GridHyperlinkCollection-klassen som tillåter att få instansen av GridHyperlink antingen genom att passera en instans av GridCell eller ett par heltal som motsvarar rad- och kolumnindex.
 
 {{% alert color="primary" %}} 
 
-Om ingen hyperlänk har hittats i den angivna cellen skulle getHyperlink-metoden returnera null.
+Om ingen hyperlänk har hittats på den angivna cellen skulle getHyperlink-metoden returnera null.
 
 {{% /alert %}} 
 
-Här är ett enkelt användningsscenario för getHyperlink-metoden.
+Här är ett enkelt användningsscenario av getHyperlink-metoden.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Gets the active worksheet from the collection
 
@@ -245,17 +246,17 @@ GridHyperlink link = links.getHyperlink(sheet.getCells().get("A1"));
 link = links.getHyperlink(0, 3);
 
 {{< /highlight >}}
-## **Föråldrade API:er**
-### **Föråldrad stilkonstruktör**
-Använd cellsFactory.createStyle-metoden som ett alternativ.
-## **Borttagna API:er**
-### **Borttagen Cell.getConditionalStyle Method**
-Använd metoden Cell.getConditionalFormattingResult istället.
-### **Raderad Cells.getMaxDataRowInColumn(int kolumn) Metod**
-Använd metoden Cells.getLastDataRow(int) som ett alternativ.
-### **Borttagen PageSetup.Draft-egenskap**
-Det rekommenderas att använda egenskapen PageSetup.PrintDraft istället.
+## **Obsoletterade API:er**
+### **Obsoleterad Style-konstruktor**
+Använd vänligen cellsFactory.createStyle-metoden som ett alternativ.
+## **Raderade API:er**
+### **Raderad Cell.getConditionalStyle-metod**
+Använd vänligen Cell.getConditionalFormattingResult-metoden istället.
+### **Raderad Cells.getMaxDataRowInColumn(int column)-metod**
+Använd vänligen Cells.getLastDataRow(int)-metoden som ett alternativ.
+### **Raderad PageSetup.Draft-egenskap**
+Det rekommenderas att använda PageSetup.PrintDraft-egenskapen istället.
 ### **Raderad AutoFilter.FilterColumnCollection-egenskap**
-Överväg att använda egenskapen AutoFilter.FilterColumns för att uppnå samma mål.
-### **Raderade TickLabels.Rotation Property**
-Använd egenskapen TickLabels.RotationAngle istället.
+Överväg att använda AutoFilter.FilterColumns-egenskapen för att uppnå samma mål.
+### **Raderad TickLabels.Rotation-egenskap**
+Använd istället TickLabels.RotationAngle-egenskapen.

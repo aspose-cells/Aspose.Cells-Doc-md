@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tekniska artiklar
 type: docs
 weight: 90

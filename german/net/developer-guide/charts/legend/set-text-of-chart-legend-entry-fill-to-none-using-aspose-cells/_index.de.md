@@ -1,20 +1,21 @@
 ---
-title: Setzen Sie den Text für die Füllung des Diagrammlegendeneintrags mit Aspose.Cells auf „Keine“.
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET den Text einer Diagrammlegendeneintragsfüllung auf „Keine“ setzen. Unser Leitfaden zeigt, wie Sie die Füllfarbe von Legendeneinträgen in Microsoft Excel-Diagrammen ändern, um eine bessere Visualisierung und Anpassung zu ermöglichen.
-keywords: Aspose.Cells for .NET, Chart Legend Entry Fill, Microsoft Excel, Visualization, Customization.
+title: Legenden Eintragsfüllung des Diagramms auf keinen Text setzen mit Aspose.Cells
+description: Erfahren Sie, wie Sie Aspose.Cells for .NET verwenden, um den Text eines Diagrammlegendeneintrags auf keine zu setzen. Unser Leitfaden wird zeigen, wie Sie die Füllfarbe von Legenden Einträgen in Microsoft Excel Diagrammen zur besseren Visualisierung und Anpassung ändern können.
+keywords: Aspose.Cells for .NET, Diagrammlegendeneintragsfüllung, Microsoft Excel, Visualisierung, Anpassung.
 type: docs
 weight: 320
 url: /de/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Wenn Sie den Text für die Füllung des Legendeneintrags des Diagramms auf „Keine“ festlegen möchten, damit er nicht in der Diagrammlegende angezeigt wird, legen Sie bitte fest[**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) zu *wahr**.
+Wenn Sie den Text der Diagrammlegendeneintragsfüllung auf keine setzen möchten, sodass er nicht im Diagrammlegendenbereich angezeigt wird, setzen Sie bitte [**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) auf **true**.
 
 {{% /alert %}}
 
-Der folgende Beispielcode setzt den Text der zweiten Legendeneintragsfüllung des Diagramms auf „Keine“. Bitte laden Sie die herunter[Beispiel-Excel-Datei](5115219.xlsx) in diesem Code verwendet und die[Excel-Datei ausgeben](5115217.xlsx) Die von ihm generierten Informationen dienen als Referenz.
+Der folgende Beispielcode setzt den Text der zweiten Diagrammlegendeneintragsfüllung auf keine. Laden Sie bitte die [Beispieldatei Excel](5115219.xlsx) herunter, die in diesem Code verwendet wird, und die [Ausgabedatei Excel](5115217.xlsx), die von ihr generiert wird, zur Referenz.
 
-Der folgende Screenshot verdeutlicht die Auswirkung dieses Codes auf[Beispiel-Excel-Datei](5115219.xlsx).
+Der folgende Screenshot hebt die Auswirkung dieses Codes auf die [Beispieldatei Excel](5115219.xlsx) hervor.
 
 ![todo:image_alt_text](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 

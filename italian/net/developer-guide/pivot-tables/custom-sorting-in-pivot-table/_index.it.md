@@ -1,19 +1,20 @@
-﻿---
-title: Ordinamento personalizzato nella tabella pivot
+---
+title: Ordinamento personalizzato nella Tabella Pivot
 type: docs
 weight: 130
 url: /it/net/custom-sorting-in-pivot-table/
 ---
-## **Ordinamento personalizzato nella tabella pivot**
-Utilizzando Aspose.Cells API, è possibile ordinare le tabelle pivot in base ai valori dei campi. Il seguente frammento di codice carica il file Excel di esempio e aggiunge tre tabelle pivot. La prima tabella pivot è senza ordinamento personalizzato, la seconda tabella pivot è ordinata in base ai valori del campo riga "SeaFood" e la terza tabella pivot è ordinata in base ai valori del campo colonna "28/07/2000".
 
-Il file sorgente di esempio e i file di output possono essere scaricati da qui per testare il codice di esempio:
+## **Ordinamento personalizzato in tabella pivot**
+Utilizzando l'API di Aspose.Cells, è possibile ordinare le tabelle pivot sui valori dei campi. Il seguente snippet di codice carica il file excel di esempio e aggiunge tre tabelle pivot. La prima tabella pivot è senza ordinamento personalizzato, la seconda tabella pivot è ordinata sui valori dei campi di riga "SeaFood" e la terza tabella pivot è ordinata sui valori dei campi di colonna "28/07/2000".
 
-[File Excel di origine](98107428.xlsx)
+Il file di origine e i file di output di esempio possono essere scaricati da qui per testare il codice di esempio:
 
-[File Excel di output](98107429.xlsx)
+[File Excel di Origine](98107428.xlsx)
 
-[Uscita PDF File](98107430.pdf)
+[File Excel di Output](98107429.xlsx)
+
+[File PDF di Output](98107430.pdf)
 
 
 

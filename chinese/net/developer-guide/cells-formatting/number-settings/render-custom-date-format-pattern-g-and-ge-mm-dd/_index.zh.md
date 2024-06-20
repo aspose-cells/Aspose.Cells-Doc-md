@@ -1,7 +1,7 @@
 ---
 title: 以自定义日期格式模式g和ge.mm.dd呈现
-description: Aspose.Cells 是一个用于处理电子表格文件的 .NET 库，支持使用自定义日期格式模式 'g' 和 'ge' 渲染日期。本文将描述如何使用 Aspose.Cells 库渲染自定义日期格式模式，以便用户可以控制日期的显示方式。
-keywords: Aspose.Cells，.NET库，电子电子表格，自定义日期格式，渲染，模式'g'，模式'ge'，控制显示
+description: Aspose.Cells 是一个用于处理电子表格文件的 .NET 库，支持使用自定义日期格式模式 g 和 ge 渲染日期。本文将描述如何使用 Aspose.Cells 库渲染自定义日期格式模式，以便用户可以控制日期的显示方式。
+keywords: Aspose.Cells，.NET库，电子电子表格，自定义日期格式，渲染，模式 g ，模式 ge ，控制显示
 type: docs
 weight: 160
 url: /zh/net/render-custom-date-format-pattern-g-and-ge-mm-dd/

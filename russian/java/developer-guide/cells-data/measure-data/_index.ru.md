@@ -1,21 +1,22 @@
-﻿---
-title: Вычислить ширину и высоту значения Cell в единицах пикселей
-linktitle: Измерить данные
+---
+title: Расчет ширины и высоты значения ячейки в пикселях
+linktitle: Измерение данных
 type: docs
 weight: 280
 url: /ru/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/
 ---
+
 {{% alert color="primary" %}} 
 
- Иногда вам нужно рассчитать ширину и высоту значения ячейки, чтобы оно соответствовало значению ячейки внутри ячейки. Aspose.Cells предоставляет[Cell.getWidthOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getWidthOfValue\(\) ) и[Cell.getHeightOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getHeightOfValue\(\)методы для этой цели. Используя эти методы, вы можете рассчитать ширину и высоту значения ячейки, а затем установить ширину столбца и высоту строки этой ячейки соответственно, и это затем отрегулирует или подгонит значение ячейки внутри ячейки.
+Иногда вам нужно рассчитать ширину и высоту значения ячейки, чтобы поместить его внутри ячейки. Aspose.Cells предоставляет методы [Cell.getWidthOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getWidthOfValue\(\)) и [Cell.getHeightOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getHeightOfValue\(\)) для этой цели. Используя эти методы, вы можете рассчитать ширину и высоту значения ячейки, а затем установить ширину столбца и высоту строки соответственно для этой ячейки, после чего значение ячейки будет соответствующим образом отрегулировано или помещено внутри ячейки.
 
- Кроме того, вы также можете[автоподгонка строк и столбцов вашей ячейки или диапазона ячеек](/cells/ru/java/autofit-rows-and-columns/) используя API Aspose.Cells.
+Кроме того, вы также можете [автоподгонять строки и столбцы вашей ячейки или диапазона ячеек](/cells/ru/java/autofit-rows-and-columns/) с помощью API Aspose.Cells.
 
 {{% /alert %}} 
-## **Вычислить ширину и высоту значения Cell в единицах пикселей**
- Следующий код объясняет использование[Cell.getWidthOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getWidthOfValue\(\) )  и[Cell.getHeightOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getHeightOfValue\(\)) методы.
+## **Расчет ширины и высоты значения ячейки в пикселях**
+Следующий код объясняет использование методов [Cell.getWidthOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getWidthOfValue\(\)) и [Cell.getHeightOfValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getHeightOfValue\(\)).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculateWidthAndHeightOfCell-CalculateWidthAndHeightOfCell.java" >}}
 
-## **Предварительные темы**
-- [Получить ширину текста Cell Значение](/cells/ru/java/get-text-width-of-cell-value/)
+## **Продвинутые темы**
+- [Получить ширину текста значения ячейки](/cells/ru/java/get-text-width-of-cell-value/)

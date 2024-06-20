@@ -1,24 +1,25 @@
-﻿---
-title: Suchen Sie Abfragetabellen und listen Sie Objekte auf, die sich auf externe Datenverbindungen beziehen
+---
+title: Suchen Sie Abfrage Tabellen und Listenobjekte im Zusammenhang mit externen Datenverbindungen
 type: docs
 weight: 20
 url: /de/net/find-query-tables-and-list-objects-related-to-external-data-connections/
 ---
+
 {{% alert color="primary" %}} 
 
-Manchmal müssen Sie Abfragetabellen herausfinden und Objekte auflisten, die sich auf eine externe Datenverbindung beziehen. Abfragetabellen beziehen sich auf ein externes Datenverbindungsobjekt mit Verbindungs-ID, während Listenobjekte auf eine Abfragetabelle bezogen sind.
+Manchmal müssen Sie Abfrage-Tabellen und Listenobjekte im Zusammenhang mit einer externen Datenverbindung finden. Abfrage-Tabellen sind mit der Verbindungs-ID des externen Datenverbindungsobjekts verbunden, während Listenobjekte mit einer Abfrage-Tabelle verbunden sind.
 
 {{% /alert %}} 
-## **Suchen Sie Abfragetabellen und listen Sie Objekte auf, die sich auf externe Datenverbindungen beziehen**
- Die folgenden Beispielcodes mit[Excel-Beispieldatei](5115493.xlsm) erklären, wie Abfragetabellen und Listenobjekte im Zusammenhang mit externen Datenverbindungen gefunden werden.
+## **Abfrage-Tabellen und Listenobjekte im Zusammenhang mit externen Datenverbindungen finden**
+Die folgenden Beispielcodes mit der [Beispiel-Excel-Datei](5115493.xlsm) erläutern, wie man Abfrage-Tabellen und Listenobjekte im Zusammenhang mit externen Datenverbindungen finden kann.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-FindQueryTablesAndListObjectsOfExternalDataConnections.cs" >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-PrintTables.cs" >}}
 
- Das Folgende ist die Konsolenausgabe der Ausführung der obigen Beispielcodes damit[Excel-Beispieldatei](5115493.xlsm).
+Folgendes ist die Konsolenausgabe beim Ausführen der oben genannten Beispielcodes mit dieser [Beispiel-Excel-Datei](5115493.xlsm).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  connection: AAPL Connection
 

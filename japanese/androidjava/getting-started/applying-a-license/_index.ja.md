@@ -1,32 +1,33 @@
-﻿---
-title: ライセンスの適用
+---
+title: ライセンスを適用する
 type: docs
 weight: 40
 url: /ja/java/applying-a-license/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cellsの評価に満足したら、[ライセンスを購入する](https://purchase.aspose.com/buy)Aspose ウェブサイトで。さまざまなことに慣れ親しむ[ライセンスの種類](https://purchase.aspose.com/policies/license-types/)提供されます。ご不明な点がございましたら、お気軽にお問い合わせください。[Aspose 営業チームにお問い合わせください](https://about.aspose.com/contact).
+Aspose.Cellsの評価が完了したら、[Asposeのウェブサイト](https://purchase.aspose.com/buy)でライセンスを購入してください。提供されている異なる[ライセンスタイプ](https://purchase.aspose.com/policies/license-types/)について知っておいてください。ご質問がある場合は、[Asposeの営業チームにお問い合わせ](https://about.aspose.com/contact)してください。
 
-すべての Aspose ライセンスには、この期間中に出てくる新しいバージョンまたは修正への無料アップグレードのための 1 年間のサブスクリプションが含まれています。テクニカル サポートは無料で無制限で、ライセンス ユーザーと評価ユーザーの両方に提供されます。
+Asposeのライセンスには、新しいバージョンや修正版が登場した場合に1年間の無料アップグレード資格が含まれています。テクニカルサポートは、ライセンスを取得したユーザーと評価ユーザーの両方に対して無料で無制限で提供されます。
 
-ライセンスは、製品名、ライセンスを受けた開発者の数、サブスクリプションの有効期限などの詳細を含むプレーン テキストの XML ファイルです。ファイルはデジタル署名されているため、ファイルを変更しないでください。ファイルに余分な改行を追加しても、ファイルは無効になります。
+ライセンスはプレーンテキストのXMLファイルであり、製品名、ライセンスされた開発者数、サブスクリプションの有効期限などの詳細が含まれています。ファイルはデジタル署名されているため、ファイルを変更しないでください。ファイルに余分な改行を追加すると、ファイルが無効になります。
 
-ドキュメントの操作を行う前に、ライセンスを設定する必要があります。 Document オブジェクトを作成する前に、必ずこれを行ってください。アプリケーションまたはプロセスごとに 1 回だけライセンスを設定する必要があります。
+ドキュメントの操作を行う前にライセンスを設定する必要があります。Documentオブジェクトを作成する前にこれを行う必要があります。1つのアプリケーションまたはプロセスにつき、ライセンスを1度だけ設定する必要があります。
 
 {{% /alert %}}
 
-## **ライセンス ファイルのロード**
+## **ライセンスファイルを読み込む**
 
-Aspose.Cells for Android via Java では、ライセンスは[リソースとして組み込まれている](/cells/ja/java/applying-a-license/#applying-a-license-from-an-embedded-resource)、またはストリームからロード:
+Aspose.Cells for Android via Javaでは、ライセンスは[埋め込みリソースとして](/cells/ja/java/applying-a-license/#applying-a-license-from-an-embedded-resource)使用するか、ストリームから読み込むことができます。
 
-1. ライセンス ファイルを任意の場所に置きます。**/mnt/sdcard/**.
+1. ライセンスファイルを**/mnt/sdcard/**に配置します。
 1. ファイルを参照するストリームを作成します。
-1. ストリーム (ライセンス ファイルを含む) を SetLicense メソッドに渡します。
+1. ライセンスファイルを含むストリームをSetLicenseメソッドに渡します。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  String dataDir = Environment.getExternalStorageDirectory().getPath() + "/";
 
@@ -44,17 +45,17 @@ license.setLicense(fstream);
 
 {{< /highlight >}}
 
-### **組み込みリソースからのライセンスの適用**
+### **埋め込みリソースからライセンスを適用する**
 
-Android パッケージ ファイルからリソースとしてライセンスに名前でアクセスするには:
+Androidパッケージファイルから名前でライセンスにアクセスします。
 
-1. ライセンス ファイルをリソースとしてアプリケーションの**解像度/生**フォルダ。
-ライセンス ファイルは、**解像度/生**フォルダ。
-1. 次のコード サンプルを使用して、リソースからライセンスにアクセスして読み込みます。
+1. アプリケーションの**res/raw**フォルダにライセンスファイルを追加します。
+   ライセンスファイルは**res/raw**フォルダに表示されるはずです。
+以下のコードサンプルでリソースからライセンスをアクセス/ロードします。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  License license = new License();
 

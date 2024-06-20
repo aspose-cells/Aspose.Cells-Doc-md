@@ -1,18 +1,19 @@
-﻿---
-title: Option Berichtsfilterseiten anzeigen
+---
+title: Option "Seiten des Berichtsfilters anzeigen"
 type: docs
 weight: 140
 url: /de/java/show-report-filter-pages-option/
 ---
-## **Option Berichtsfilterseiten anzeigen**
 
-Excel unterstützt das Erstellen von Pivot-Tabellen, das Hinzufügen von Berichtsfiltern und das Aktivieren der Option „Berichtsfilterseiten anzeigen“. Aspose.Cells unterstützt diese Funktion auch, um die Option „Berichtsfilterseiten anzeigen“ in der erstellten Pivot-Tabelle zu aktivieren. Das Folgende ist der Bildschirm, der die Option in Excel zeigt.
+## **Option für Berichtsfilterseiten anzeigen**
 
-![todo: Bild_alt_Text](show-report-filter-pages-option_1.png)
+Excel unterstützt das Erstellen von Pivot-Tabellen, das Hinzufügen von Berichtsfiltern und das Aktivieren der Option "Seiten des Berichtsfilter anzeigen". Aspose.Cells unterstützt auch dieses Feature, um die Option "Seiten des Berichtsfilter anzeigen" in der erstellten Pivot-Tabelle zu aktivieren. Hier ist die Ansicht, die die Option in Excel zeigt.
 
-Als Ergebnis dieser Option enthält die erstellte Arbeitsmappe mehr Arbeitsblätter. Es teilt jeden möglichen Wert des Berichtsfilters in ein separates Arbeitsblatt auf. In diesem Beispiel hat es einen Filter für "Position" und die Daten haben drei verschiedene Positionen (A, B, C). Diese Funktion fügt 3 zusätzliche Arbeitsblätter mit den Namen A, B, C hinzu, die die gleiche Pivot-Tabelle sind, jedoch mit vorausgewählter Option A, B und C.
+![todo:image_alt_text](show-report-filter-pages-option_1.png)
 
-Die Beispieldatei und die Ausgabedatei können über die folgenden Links heruntergeladen werden:
+Durch diese Option enthält die erstellte Arbeitsmappe mehr Arbeitsblätter. Sie teilt jede mögliche Wert des Berichtsfilters in ein separates Arbeitsblatt auf. In diesem Beispiel fügt sie 3 zusätzliche Arbeitsblätter namens A, B, C hinzu, die dieselbe Pivot-Tabelle, jedoch mit der vordefinierten Option A, B und C enthalten.
+
+Die Beispieldatei und die Ausgabedatei können von den folgenden Links heruntergeladen werden:
 
 [samplePivotTable.xlsx](81920917.xlsx)
 

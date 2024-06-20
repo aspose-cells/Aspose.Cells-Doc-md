@@ -1,110 +1,113 @@
-﻿---
-title: Implementazione della funzionalità di associazione dati GridDesktop nei fogli di lavoro
+---
+title: Implementazione della funzionalità di binding dei dati GridDesktop nei fogli di lavoro
 type: docs
 weight: 10
-url: /it/net/implementing-griddesktops-data-binding-feature-in-worksheets/
+url: /it/net/aspose-cells-griddesktop/implementing-data-binding-feature-in-worksheets/
+keywords: GridDesktop, binding dei dati, dati, bind
+description: Questo articolo introduce come fare il binding dei dati in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Il Data Binding è un'entusiasmante funzionalità offerta dal Framework Microsoft .NET. Sappiamo che il controllo DataGrid offerto da Microsoft supporta il data binding, il che significa che un DataGrid può essere associato a qualsiasi origine dati (utilizzando oggetti DataSet, DataTable e DataView). Questa funzione ha reso la vita degli sviluppatori molto più semplice. Sulla base dello stesso concetto, Aspose.Cells.GridDesktop supporta anche l'associazione dati, che consente agli sviluppatori di associare fogli di lavoro a qualsiasi origine dati. Questo articolo esplora la funzionalità.
+Il binding dei dati è una funzionalità eccitante offerta dal framework Microsoft .NET. Sappiamo che il controllo DataGrid offerto da Microsoft supporta il binding dei dati, il che significa che un DataGrid può essere collegato a qualsiasi origine dei dati (utilizzando oggetti DataSet, DataTable e DataView). Questa funzionalità ha reso la vita degli sviluppatori molto più semplice. Sulla base dello stesso concetto, Aspose.Cells.GridDesktop supporta anche il binding dei dati, che consente agli sviluppatori di collegare i fogli di lavoro a qualsiasi origine dati. Questo articolo esplora la funzionalità.
 
 {{% /alert %}} 
 ## **Creazione di un database di esempio**
-1.  Creare un database di esempio da utilizzare con l'esempio. Abbiamo usato Microsoft Access per creare un database di esempio con una tabella Prodotti (schema sotto).
+1. Creare un database di esempio da utilizzare nell'esempio. Abbiamo utilizzato Microsoft Access per creare un database di esempio con una tabella Prodotti (schema di seguito). 
 
-![cose da fare:immagine_alt_testo](implementing-griddesktops-data-binding-feature-in-worksheets_1.png)
+![todo:image_alt_text](implementing-griddesktops-data-binding-feature-in-worksheets_1.png)
 
-1. Tre record fittizi vengono aggiunti alla tabella Prodotti.
+1. Sono stati aggiunti tre record falsi alla tabella Prodotti.
    **Record nella tabella Prodotti** 
 
-![cose da fare:immagine_alt_testo](implementing-griddesktops-data-binding-feature-in-worksheets_2.png)
-## **Crea un'applicazione di esempio**
-Ora crea una semplice applicazione desktop in Visual Studio e procedi come segue.
+![todo:image_alt_text](implementing-griddesktops-data-binding-feature-in-worksheets_2.png)
+## **Creare un'applicazione di esempio**
+Ora creare un'applicazione desktop semplice in Visual Studio e fare quanto segue.
 
 1. Trascina il controllo "GridControl" dalla casella degli strumenti e rilascialo sul modulo.
-1. Rilascia quattro pulsanti dalla casella degli strumenti nella parte inferiore del modulo e imposta la loro proprietà di testo come**Rilega foglio di lavoro**, **Aggiungi riga**, **Elimina riga** e**Aggiorna al database** rispettivamente.
-## **Aggiunta di namespace e dichiarazione di variabili globali**
-Poiché questo esempio usa un database Access Microsoft, aggiungi lo spazio dei nomi System.Data.OleDb all'inizio del codice.
+1. Trascina quattro pulsanti dalla casella degli strumenti in fondo al modulo e imposta la loro proprietà di testo rispettivamente come **Collega foglio di lavoro**, **Aggiungi riga**, **Elimina riga** e **Aggiorna al Database**.
+## **Aggiunta di Namespace e Dichiarazione di Variabili Globali**
+Poiché questo esempio utilizza un database Microsoft Access, aggiungi il namespace System.Data.OleDb nella parte superiore del codice.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-AddingNamespaceToTheTop.cs" >}}
 
 
-È ora possibile utilizzare le classi contenute in questo spazio dei nomi.
+Ora puoi utilizzare le classi contenute in questo namespace.
 
-1. Dichiarare variabili globali.
+1. Dichiarare le variabili globali.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-DeclareGlobalVariable.cs" >}}
-## **Riempimento di DataSet con dati dal database**
-Ora connettiti al database di esempio per recuperare e inserire i dati in un oggetto DataSet.
+## **Riempimento DataSet con Dati dal Database**
+Ora connettiti al database di esempio per recuperare e riempire i dati in un oggetto DataSet.
 
-1. Utilizza l'oggetto OleDbDataAdapter per connetterti al nostro database di esempio e riempi un DataSet con i dati recuperati dalla tabella Products nel database, come mostrato nel codice seguente.
+1. Utilizzare l'oggetto OleDbDataAdapter per connettersi al nostro database di esempio e riempire un DataSet con i dati recuperati dalla tabella Prodotti nel database, come mostrato nel codice sottostante.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-FillDataSet.cs" >}}
-## **Foglio di lavoro vincolante con DataSet**
-Associa il foglio di lavoro alla tabella Prodotti del DataSet:
+## **Collegamento foglio di lavoro con DataSet**
+Collega il foglio di lavoro con la tabella Prodotti del DataSet:
 
 1. Accedi a un foglio di lavoro desiderato.
-1. Associare il foglio di lavoro alla tabella Products del DataSet.
+1. Collega il foglio di lavoro con la tabella Prodotti del DataSet.
 
- Aggiungere il seguente codice al file**Associa foglio di lavoro** evento clic del pulsante.
+Aggiungi il seguente codice all'evento di clic del pulsante **Collega foglio di lavoro**.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-BindWorksheet.cs" >}}
-## **Impostazione delle intestazioni di colonna del foglio di lavoro**
-Il foglio di lavoro associato ora carica i dati correttamente, ma le intestazioni di colonna sono etichettate come A, B e C per impostazione predefinita. Sarebbe meglio impostare le intestazioni di colonna sui nomi delle colonne nella tabella del database.
+## **Impostazione Intestazioni Colonne del Foglio di Lavoro**
+Ora il foglio di lavoro vincolato carica con successo i dati, ma gli header delle colonne sono etichettati di default come A, B e C. Sarebbe meglio impostare gli header delle colonne con i nomi delle colonne nella tabella del database.
 
-Per impostare le intestazioni di colonna del foglio di lavoro:
+Per impostare gli header delle colonne del foglio di lavoro:
 
-1. Ottenere le didascalie per ogni colonna della DataTable (prodotti) nel DataSet.
-1. Assegna le didascalie alle intestazioni delle colonne del foglio di lavoro.
+1. Ottenere le didascalie per ogni colonna del DataTable (Prodotti) nel DataSet.
+1. Assegnare le didascalie agli header delle colonne del foglio di lavoro.
 
- Aggiungi il codice scritto nel file**Associa foglio di lavoro** evento clic del pulsante con il seguente frammento di codice. In questo modo le vecchie intestazioni di colonna (A, B e C) verranno sostituite con ProductID, ProductName e ProductPrice.
+Aggiungere il codice scritto nell'evento di clic del pulsante **Vincola foglio di lavoro** con il seguente snippet di codice. In questo modo, gli header delle colonne precedenti (A, B e C) saranno sostituiti con ProductID, ProductName e ProductPrice.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-SettingColumnHeader.cs" >}}
-## **Personalizzazione della larghezza e degli stili delle colonne**
-Per migliorare ulteriormente l'aspetto del foglio di lavoro, è possibile impostare la larghezza e gli stili delle colonne. Ad esempio, a volte, l'intestazione della colonna o il valore all'interno della colonna è costituito da un lungo numero di caratteri che non rientrano nella cella. Per risolvere tali problemi, Aspose.Cells.GridDesktop supporta la modifica della larghezza delle colonne.
+## **Personalizzazione della larghezza e dello stile delle colonne**
+Per migliorare ulteriormente l'aspetto del foglio di lavoro, è possibile impostare la larghezza e lo stile delle colonne. Ad esempio, a volte, l'header della colonna o il valore all'interno della colonna consiste in un lungo numero di caratteri che non si adattano dentro la cella. Per risolvere tali problemi, Aspose.Cells.GridDesktop supporta la modifica delle larghezze delle colonne.
 
- Aggiungere il seguente codice al file**Associa foglio di lavoro** pulsante. Le larghezze delle colonne verranno personalizzate in base alle nuove impostazioni.
+Aggiungere il seguente codice al pulsante **Vincola foglio di lavoro**. Le larghezze delle colonne verranno personalizzate in base alle nuove impostazioni.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-CustomizingStyle.cs" >}}
 
 
- Aspose.Cells.GridDesktop supporta anche l'applicazione di stili personalizzati alle colonne. Il seguente codice, aggiunto al**Associa foglio di lavoro** pulsante, personalizza gli stili delle colonne per renderle più presentabili.
+Aspose.Cells.GridDesktop supporta anche l'applicazione di stili personalizzati alle colonne. Il seguente codice, aggiunto al pulsante **Vincola foglio di lavoro**, personalizza gli stili delle colonne per renderli più presentabili.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-ApplyCustomStyle.cs" >}}
 
 
- Ora esegui l'applicazione e fai clic su**Associa foglio di lavoro** Pulsante.
+Ora eseguire l'applicazione e fare clic sul pulsante **Vincola foglio di lavoro**.
 ## **Aggiunta di righe**
-Per aggiungere nuove righe a un foglio di lavoro, utilizzare il metodo AddRow della classe Worksheet. Ciò aggiunge una riga vuota nella parte inferiore e un nuovo DataRow viene aggiunto all'origine dati (qui, un nuovo DataRow viene aggiunto alla DataTable del DataSet). Gli sviluppatori possono aggiungere tutte le righe che desiderano chiamando ripetutamente il metodo AddRow. Quando una riga è stata aggiunta, gli utenti possono inserirvi dei valori.
+Per aggiungere nuove righe a un foglio di lavoro, utilizzare il metodo AddRow della classe Worksheet. Questo aggiunge una riga vuota in basso e viene aggiunta una nuova DataRow al data source (qui, viene aggiunta una nuova DataRow alla DataTable del DataSet). Gli sviluppatori possono aggiungere quante righe desiderano chiamando di nuovo il metodo AddRow. Quando una riga è stata aggiunta, gli utenti possono inserire valori al suo interno.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-AddingRows.cs" >}}
-## **Eliminazione di righe**
-Aspose.Cells.GridDesktop supporta anche l'eliminazione di righe chiamando il metodo RemoveRow della classe Worksheet. La rimozione di una riga utilizzando Aspose.Cells.GridDesktop richiede l'eliminazione dell'indice della riga.
+## **Eliminazione delle righe**
+Aspose.Cells.GridDesktop supporta anche l'eliminazione delle righe chiamando il metodo RemoveRow della classe Worksheet. Rimuovere una riga utilizzando Aspose.Cells.GridDesktop richiede l'indice della riga da eliminare.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-DeletingRows.cs" >}}
 
 
- Aggiungendo il codice sopra al file**Elimina riga** pulsante ed eseguire l'applicazione. Alcuni record vengono visualizzati prima che la riga venga rimossa. Selezionando una riga e facendo clic su**Elimina riga** pulsante rimuove la riga selezionata.
-## **Salvataggio delle modifiche al database**
-Infine, per salvare nel database eventuali modifiche apportate dagli utenti al foglio di lavoro, utilizzare il metodo Update dell'oggetto OleDbDataAdapter. Il metodo Update accetta l'origine dati (DataSet, DataTable e così via) del foglio di lavoro per aggiornare il database.
+Aggiungere il codice sopra al pulsante **Elimina riga** e eseguire l'applicazione. Alcuni record vengono visualizzati prima che la riga venga rimossa. Selezionando una riga e facendo clic sul pulsante **Elimina riga** verrà rimossa la riga selezionata.
+## **Salvataggio delle modifiche nel database**
+Infine, per salvare qualsiasi modifica apportata dagli utenti al foglio di lavoro nel database, utilizzare il metodo Update dell'oggetto OleDbDataAdapter. Il metodo Update prende il data source (DataSet, DataTable ecc.) del foglio di lavoro per aggiornare il database.
 
 
 
@@ -113,8 +116,8 @@ Infine, per salvare nel database eventuali modifiche apportate dagli utenti al f
 
 
 
-1.  Aggiungi il codice sopra al file**Aggiorna al database** pulsante.
+1. Aggiungere il codice sopra al pulsante **Aggiorna al database**.
 1. Eseguire l'applicazione.
-1. Esegui alcune operazioni sui dati del foglio di lavoro, magari aggiungendo nuove righe e modificando o rimuovendo dati esistenti.
-1.  Quindi fare clic**Aggiorna al database** per salvare le modifiche al database.
+1. Eseguire alcune operazioni sui dati del foglio di lavoro, magari aggiungendo nuove righe e modificando o rimuovendo dati esistenti.
+1. Quindi fare clic su **Aggiorna al Database** per salvare le modifiche nel database.
 1. Controllare il database per verificare che i record della tabella siano stati aggiornati di conseguenza.

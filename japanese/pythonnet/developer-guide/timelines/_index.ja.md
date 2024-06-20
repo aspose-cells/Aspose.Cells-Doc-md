@@ -1,22 +1,24 @@
 ---
-title: タイムラインの挿入
+title: タイムラインを挿入
 linktitle: タイムライン
 type: docs
 weight: 170
 url: /ja/python-net/create-timeline/
-description: Aspose.Cells for Python via .NET を使用してタイムラインを作成する方法を学びます。
+description: Aspose.Cells for Python via .NETを使用してタイムラインを作成する方法について学ぶ
+keywords: Aspose.Cells for Python Excel、Excel Pythonライブラリ、Python Create timeline without Excel、Add timeline via Aspose.Cells for Python、Insert timeline using Aspose.Cells for Python
 ---
-##  **考えられる使用シナリオ**
 
-フィルターを調整して日付を表示する代わりに、ピボットテーブル タイムラインを使用できます。これは、日付/時刻で簡単にフィルターしたり、スライダー コントロールを使用して必要な期間を拡大したりできる動的フィルター オプションです。 Microsoft Excel では、ピボット テーブルを選択し、*挿入 > タイムライン* をクリックしてタイムラインを作成できます。 Aspose.Cells for Python via .NET を使用してタイムラインを作成することもできます。[**Worksheet.timelines.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.timelines/timelinecollection/#methods)方法。
+## **可能な使用シナリオ**
 
-##  **ピボットテーブルへのタイムラインの作成**
+日付を表示するフィルターを調整する代わりに、PivotTableタイムラインを使用することができます。これは、日付/時刻別に簡単にフィルタリングし、スライダーコントロールで必要な期間にズームインできる動的フィルタオプションです。マイクロソフトExcelでは、ピボットテーブルを選択し、*挿入 > タイムライン*をクリックすることでタイムラインを作成できます。Aspose.Cells for Python via .NETでも、[**Worksheet.timelines.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.timelines/timelinecollection/#methods)メソッドを使用してタイムラインを作成できます。
 
-次のサンプルコードを参照してください。それはロードします[サンプル Excel ファイル](input.xlsx)ピボットテーブルが含まれています。次に、最初のベース ピボット フィールドに基づいてタイムラインを作成します。最後に、ワークブックを次の場所に保存します。[出力XLSX](output.xlsx)フォーマット。次のスクリーンショットは、出力 Excel ファイル内で Aspose.Cells for Python via .NET によって作成されたタイムラインを示しています。
+## **Aspose.Cells for Python Excelライブラリを使用してピボットテーブルにタイムラインを作成する方法**
+
+次のサンプルコードをご覧ください。ピボットテーブルを含む[サンプルExcelファイル](input.xlsx)を読み込みます。次に、最初の基本ピボットフィールドに基づいてタイムラインを作成します。最後に、[出力XLSX](output.xlsx)形式でワークブックを保存します。以下のスクリーンショットは、出力ExcelファイルにAspose.Cells for Python via .NETによって作成されたタイムラインを示しています。
 
 ![todo:image_alt_text](create-timeline-to-a-pivot-table_1.png)
 
-###  **サンプルコード**
+### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Timelines-CreateTimelineToPivotTable.py" >}}
 

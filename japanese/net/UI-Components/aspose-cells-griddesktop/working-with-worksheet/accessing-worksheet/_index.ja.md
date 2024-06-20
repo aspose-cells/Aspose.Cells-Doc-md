@@ -1,40 +1,43 @@
-﻿---
+---
 title: ワークシートへのアクセス
 type: docs
 weight: 10
-url: /ja/net/accessing-worksheet/
+url: /ja/net/aspose-cells-griddesktop/access-worksheet/
+keywords: GridDesktop、worksheet
+description: この記事では、GridDesktopでワークシートを操作する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-ワークシートは、Excel ファイルの不可欠な部分です。実際、Excel ファイルは 1 つ以上のワークシートで構成されています。各ワークシートは、最大 65,536 行と 256 列のみで構成できます。 Excelファイルにデータを保持するワークシートです。
+ワークシートはExcelファイルの中でも重要な部分です。 実際、Excelファイルは1つ以上のワークシートで構成されています。 各ワークシートは最大で65,536行と256列で構成されています。 Excelファイルでデータを保持するのはワークシートです。
 
-Aspose.Cells.GridDesktop は、既存および新規の Excel ファイルを作成および操作できるため、もちろん、Aspose.Cells.GridDesktop を使用してワークシートにアクセスする方法があります。このトピックでは、その方法について説明します。
+Aspose.Cells.GridDesktopは既存のExcelファイルを作成および操作できるため、Aspose.Cells.GridDesktopを使用してワークシートにアクセスする方法もあります。 このトピックではその手順について説明します。
 
 {{% /alert %}} 
-## **ワークシート インデックスの使用**
-開発者は、以下の例に示すように、目的のワークシートのワークシート インデックスを使用して、任意のワークシートのインスタンスにアクセスできます。このアプローチは、Excel ファイル内の多数のワークシートを反復処理する場合に適しています。
+## **ワークシートのインデックスを使用する**
+開発者は、例に示されているように任意のワークシートのワークシートインデックスを使用して、Aspose.Cells.GridDesktopのインスタンスにアクセスできます。このアプローチは、Excelファイル内の複数のワークシートを反復処理するために適しています。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AccessingWorksheets-AccessingWithIndex.cs" >}}
-## **ワークシート名の使用**
-ワークシートの名前がわかっている場合は、以下に示すように、その名前を使用してワークシートにアクセスできます。
+## **ワークシートの名前を使用する**
+ワークシートの名前がわかっている場合、次に示すようにその名前を使用してワークシートにアクセスすることができます。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AccessingWorksheets-AccessingWithName.cs" >}}
-## **アクティブなワークシートへのアクセス**
-Excel ファイルに複数のワークシートが含まれる場合があります。ユーザーが作業している 1 つの htat は、アクティブなワークシートと呼ばれます。アクティブシートにアクセスできます。
+## **アクティブワークシートへのアクセス**
+Excelファイルには複数のワークシートが含まれる可能性があります。ユーザーが作業しているワークシートはアクティブワークシートと呼ばれます。アクティブシートにアクセスすることができます。
 
-アクティブなワークシートにアクセスするために、Aspose.Cells.GridDesktop には 2 つの方法があります。
-### **AcriveSheetIndex プロパティの使用**
-Aspose.Cells.GridDesktop コントロールを使用してアクティブなワークシートにアクセスする 1 つの方法は、GridDesktop コントロールの ActiveSheetIndex プロパティを使用することです。このプロパティを使用すると、Aspose.Cells.GridDesktop コントロールでアクティブなワークシートのインデックスを取得できます。次に、そのインデックスを使用して、以下に示すように従来の方法でワークシートにアクセスできます。
+アクティブワークシートへのアクセスには、Aspose.Cells.GridDesktopが2つのアプローチを提供します
+### **ActiveSheetIndexプロパティを使用する**
+Aspose.Cells.GridDesktopコントロールを使用してアクティブなワークシートにアクセスする方法の1つは、GridDesktopコントロールのActiveSheetIndexプロパティを使用することです。このプロパティを使用すると、Aspose.Cells.GridDesktopコントロール内のアクティブなワークシートのインデックスを取得することができます。そのインデックスを使用して、次に示すようにワークシートにアクセスすることができます。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AccessingWorksheets-AccessingWithActiveWorksheet.cs" >}}
-### **GetActiveWorksheet メソッドの使用**
-もう 1 つの方法は、GridDesktop コントロールの GetActiveWorksheet メソッドを呼び出すことです。このメソッドは、以下に示すように、Aspose.Cells.GridDesktop コントロールで現在アクティブなワークシートの参照を提供します。
+### **GetActiveWorksheetメソッドを使用する**
+もう一つのアプローチは、GridDesktopコントロールのGetActiveWorksheetメソッドを呼び出すことです。このメソッドは、Aspose.Cells.GridDesktopコントロールで現在アクティブなワークシートの参照を提供します。
 
 
 

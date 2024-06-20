@@ -1,30 +1,31 @@
 ---
-title: Cancella filtro nella tabella pivot
+title: Elimina filtro nella tabella pivot
 type: docs
 weight: 130
 url: /it/net/clear-filter-in-pivot-table/
-description: Come cancellare PivotFilter dallo specifico PivotField nella tabella pivot con Aspose.Cells.
-keywords: Clear PivotFilter in pivot table.
+description: Come cancellare il filtro PivotFilter dal campo PivotField specifico nella tabella pivot con Aspose.Cells.
+keywords: Cancella il filtro PivotFilter nella tabella pivot.
 ---
-##  **Possibili scenari di utilizzo**
- Quando crei una tabella pivot con dati noti e desideri filtrare la tabella pivot, devi imparare e utilizzare il filtro. Può aiutarti a filtrare i dati che desideri in modo efficace. Utilizzando Aspose.Cells API, è possibile utilizzare il filtro sui valori dei campi nelle tabelle pivot.
 
-##  **Cancella filtro nella tabella pivot in Excel**
-Cancella filtro nella tabella pivot in Excel, attenersi alla seguente procedura:
+## **Possibili Scenari di Utilizzo**
+Quando crei una tabella pivot con dati noti e vuoi filtrare la tabella pivot, devi imparare e utilizzare il filtro. Può aiutarti a filtrare efficacemente i dati che desideri. Utilizzando l'API Aspose.Cells, puoi operare un filtro sui valori dei campi nelle tabelle pivot. 
 
-1.  Selezionare la tabella pivot per cui si desidera cancellare il filtro.
-2. Fare clic sulla freccia dell'elenco a discesa per il filtro che si desidera cancellare nella tabella pivot.
-3. Selezionare "Cancella filtro" dal menu a discesa.
+## **Cancella il filtro nella tabella pivot in Excel**
+Elimina filtro nella tabella pivot in Excel, segui questi passaggi:
+
+1. Seleziona la tabella pivot da cui desideri eliminare il filtro. 
+2. Fai clic sulla freccia a discesa per il filtro che desideri eliminare nella tabella pivot.
+3. Seleziona "Elimina filtro" dal menu a discesa.
 <img src="1.png" width=80% />
-4. Se si desidera cancellare tutti i filtri dalla tabella pivot, è anche possibile fare clic sul pulsante "Cancella filtri" nella scheda Analizza tabella pivot sulla barra multifunzione in Excel.
+4. Se desideri eliminare tutti i filtri dalla tabella pivot, puoi anche fare clic sul pulsante "Elimina filtri" nella scheda Analizza tabella pivot nel nastro di Excel.
 <img src="2.png" width=80% />
 
-##  **Cancella filtro nella tabella pivot utilizzando C#**
- Cancella filtro nella tabella pivot utilizzando Aspose.Cells. Vedere il seguente codice di esempio.
-1.  Imposta i dati e crea una tabella pivot basata su di essi.
-2. Aggiungi un filtro sul campo riga della tabella pivot.
- 3. Salva la cartella di lavoro in[uscita XLSX](out_add.xlsx) formato. Dopo aver eseguito il codice di esempio, al foglio di lavoro viene aggiunta una tabella pivot con filtro top10.
- 4. Cancellare il filtro su un pivotfield specifico. Dopo aver eseguito il codice per cancellare il filtro, il filtro sullo specifico pivotfield verrà cancellato. Si prega di controllare[uscita XLSX](out_delete.xlsx).
+## **Cancella il filtro nella tabella pivot Utilizzando C#**
+Cancella il filtro nella tabella pivot utilizzando Aspose.Cells. Si prega di vedere il seguente codice di esempio. 
+1. Impostare i dati e creare una tabella pivot basata su di essi. 
+2. Aggiungere un filtro sul campo di riga della tabella pivot. 
+3. Salvare il workbook nel formato [output XLSX](out_add.xlsx). Dopo aver eseguito il codice di esempio, una tabella pivot con filtro top10 viene aggiunta al foglio di lavoro. 
+4. Cancella il filtro su un campo pivot specifico. Dopo aver eseguito il codice per cancellare il filtro, il filtro sul campo pivot specifico verrà cancellato. Si prega di controllare il [output XLSX](out_delete.xlsx).
 
-##  **Codice d'esempio**
+## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-Clear-filter-in-PivotTable.cs" >}}

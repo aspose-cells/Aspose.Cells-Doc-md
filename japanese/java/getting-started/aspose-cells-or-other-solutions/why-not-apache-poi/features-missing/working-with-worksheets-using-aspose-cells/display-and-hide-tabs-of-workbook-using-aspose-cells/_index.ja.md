@@ -1,15 +1,16 @@
-﻿---
-title: Aspose.Cells を使用してワークブックのタブを表示および非表示にする
+---
+title: Aspose.Cells を使用してワークブックのタブの表示および非表示を制御
 type: docs
 weight: 50
 url: /ja/java/display-and-hide-tabs-of-workbook-using-aspose-cells/
 ---
-## **Aspose.Cells - ワークブックのタブの表示と非表示**
-Aspose.Cells は、Microsoft Excel ファイルを表すクラス Workbook を提供します。 Workbook クラスは、Excel ファイルを管理するためのさまざまなプロパティとメソッドを提供します。 Excel ファイル内のタブの表示を制御するために、開発者は Workbook クラスの setShowTabs メソッドを使用できます。
+
+## **Aspose.Cells - ワークブックのタブの表示および非表示**
+Aspose.Cellsでは、Microsoft Excelファイルを表す **Workbook** クラスが提供されています。 **Workbook** クラスには、Excelファイルを管理するためのさまざまなプロパティとメソッドが提供されています。Excelファイル内のタブの表示を制御するために、開発者は **Workbook** クラスの **setShowTabs** メソッドを使用することができます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -34,7 +35,7 @@ workbook.getSettings().setShowTabs(true);
 workbook.save(dataDir + "AsposeDisplayTabs.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideTabs.java)

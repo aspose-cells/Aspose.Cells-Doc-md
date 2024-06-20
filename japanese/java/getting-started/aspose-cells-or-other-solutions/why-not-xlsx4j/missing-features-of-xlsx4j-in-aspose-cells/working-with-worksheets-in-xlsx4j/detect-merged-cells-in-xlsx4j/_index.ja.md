@@ -1,16 +1,17 @@
-﻿---
-title: xlsx4jでマージされたCellsを検出
+---
+title: xlsx4jでマージされたセルを検出
 type: docs
 weight: 20
 url: /ja/java/detect-merged-cells-in-xlsx4j/
 ---
-## **Aspose.Cells - マージされた検出 Cells**
-Microsoft Excel では、複数のセルを 1 つに結合できます。これは、複雑なテーブルを作成したり、複数の列にまたがる見出しを保持するセルを作成したりするためによく使用されます。
-Aspose.Cells を使用すると、ワークシート内の結合されたセル領域を識別できます。それらをマージ解除することもできます。
+
+## **Aspose.Cells - マージされたセルを検出**
+Microsoft Excelでは、複数のセルを1つにマージすることができます。これは、複雑なテーブルを作成したり、複数の列にまたがる見出しを作成するためによく使用されます。
+Aspose.Cellsを使用すると、ワークシート内のマージされたセル領域を識別できます。また、それらをアンマージすることもできます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the merged cells list to put it into the arraylist object
 
@@ -53,13 +54,13 @@ for(int i = al.size()-1 ; i > -1; i--)
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/detectmergecells/AsposeDetectMergeCells.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークシートでマージされた Cells を検出する](/cells/ja/java/detect-merged-cells-in-a-worksheet).
+ワークシートでのマージされたセルの検出についての詳細は、[マージされたセルの検出](/cells/ja/java/detect-merged-cells-in-a-worksheet)をご覧ください。
 
 {{% /alert %}}

@@ -1,17 +1,18 @@
-﻿---
-title: إضافة مقياس لونين وتنسيقات شرطية ذات 3 ألوان
+---
+title: إضافة التدرج اللوني ثنائي اللون والثلاثي اللون وتنسيقهما الشرطي
 type: docs
 weight: 520
 url: /ar/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 ---
+
 {{% alert color="primary" %}} 
 
-**2-مقياس اللون** و**مقياس 3 ألوان** تتم إضافة التنسيقات الشرطية بنفس الطريقة فيما عدا اختلافها[FormatCondition.ColorScale.Is3ColorScale](https://reference.aspose.com/cells/java/com.aspose.cells/colorscale#Is3ColorScale) خاصية. هذه الخاصية**خاطئة** لمقياس لونين و**حقيقي** للتنسيقات الشرطية لمقياس الألوان 3.
+يتم إضافة التدرج اللوني ثنائي اللون والثلاثي اللون بنفس الطريقة باستثناء أنهم يختلفون بواسطة خاصية [FormatCondition.ColorScale.Is3ColorScale](https://reference.aspose.com/cells/java/com.aspose.cells/colorscale#Is3ColorScale) . تكون هذه الخاصية **false** لتدرج اللوني ثنائي اللون و **true** لتدرج اللوني الثلاثي اللون.
 
 {{% /alert %}} 
-## **إضافة مقياس لونين وتنسيقات شرطية ذات 3 ألوان**
- يضيف نموذج التعليمات البرمجية التالي تنسيقات شرطية ثنائية اللون وثلاثية اللون. يولد[ملف اكسل الناتج](5472511.xlsx) كما هو مبين أدناه.
+## **إضافة التدرج اللوني ثنائي اللون والثلاثي اللون**
+يضم الكود العينة التالي إضافة التدرج اللوني ثنائي وثلاثي اللون. ويولد [ملف الإكسل الناتج](5472511.xlsx) كما هو موضح أدناه.
 
-![ما يجب القيام به: image_بديل_نص](adding-2-color-scale-and-3-color-scale-conditional-formattings_1.png)
+![todo:image_alt_text](adding-2-color-scale-and-3-color-scale-conditional-formattings_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddingTwoAndThreeColorScale-AddingTwoAndThreeColorScale.java" >}}

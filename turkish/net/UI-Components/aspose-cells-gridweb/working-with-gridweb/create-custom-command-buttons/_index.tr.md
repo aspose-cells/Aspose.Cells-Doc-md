@@ -1,51 +1,54 @@
-﻿---
-title: Özel Komut Düğmeleri Oluşturun
+---
+title: Özel Komut Düğmeleri Oluşturma
 type: docs
 weight: 100
-url: /tr/net/create-custom-command-buttons/
+url: /tr/net/aspose-cells-gridweb/create-custom-command-buttons/
+keywords: GridWeb, komut düğmeleri, özel komut düğmeleri, özel
+description: Bu makale, GridWeb de özel komut düğmeleri nasıl oluşturulacağını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb gibi özel düğmeler içerir**Göndermek**, **Kayıt etmek** ve**Geri alma**. Tüm bu düğmeler, Aspose.Cells.GridWeb için belirli görevleri yerine getirir.
-Özel görevleri gerçekleştiren özel düğmeler eklemek de mümkündür. Bu konuda, bu özelliğin nasıl kullanılacağı açıklanmaktadır.
+Aspose.Cells.GridWeb özel **Gönder**, **Kaydet** ve **Geri Al** gibi özel düğmeler içerir. Tüm bu düğmeler Aspose.Cells.GridWeb için belirli görevleri gerçekleştirir.
+Özel görevleri gerçekleştiren özel düğmeler eklemek de mümkündür. Bu konu, bu özelliğin nasıl kullanılacağını açıklar.
 
 {{% /alert %}} 
 ## **Özel Komut Düğmeleri Oluşturma**
 Aspose.Cells.GridWeb'de özel bir komut düğmesi oluşturmak için:
 
-1. Web formuna Aspose.Cells.GridWeb denetimi ekleyin.
-1. Bir çalışma sayfasına erişin.
+1. Aspose.Cells.GridWeb denetimini web formuna ekleyin.
+1. Bir çalışsayı açın.
 1. CustomCommandButton sınıfının bir örneğini oluşturun.
 1. Düğmenin Komutunu bir değere ayarlayın. Bu değer, düğmenin olay işleyicisinde kullanılır.
 1. Düğmenin metnini ayarlayın.
-1. Düğmenin resim URL'sini ayarlayın.
+1. Düğmenin görüntü URL'sini ayarlayın.
 1. Son olarak, CustomCommandButton nesnesini GridWeb denetiminin CustomCommandButtons koleksiyonuna ekleyin.
 
 {{% alert color="primary" %}} 
 
-Visual Studio'nun Özellikler iletişim kutusu kullanılarak WYSIWYG modunda özel komut düğmeleri de eklenebilir.
+Özel komut düğmeleri ayrıca Visual Studio'nun Özellikler iletişim kutusunu kullanarak WYSIWYG modunda da eklenebilir.
 
 {{% /alert %}} 
 
 Kod parçacığının çıktısı aşağıda gösterilmiştir:
 
-**GridWeb kontrolüne eklenen özel bir komut düğmesi** 
+**GridWeb denetimine özel bir komut düğmesi eklendi** 
 
-![yapılacaklar:resim_alternatif_metin](create-custom-command-buttons_1.png)
+![todo:image_alt_text](create-custom-command-buttons_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-InitCustomCommandButton.aspx-InitCustomCommandButton.cs" >}}
-### **Özel Komut Düğmesinin Olay İşleme**
-Özel komut düğmelerinin en önemli yönü, tıklandığında gerçekleştirdikleri eylemdir. Eylemi ayarlamak için GridWeb denetiminin CustomCommand olayı için bir olay işleyicisi oluşturun.
+### **Özel Komut Düğmesi Olay İşleme**
+Özel komut düğmelerinin en önemli yönü, tıklanıldığında gerçekleştirdikleri eylemdir. Eylemi ayarlamak için, GridWeb denetiminin CustomCommand olayı için bir olay işleyici oluşturun.
 
-CustomCommand olayı, her zaman özel bir komut düğmesine tıklandığında tetiklenir. Bu nedenle, olay işleyici, düğmeyi GridWeb denetimine eklerken Komut kümesi tarafından uygulanan belirli özel komut düğmesini tanımlamalıdır. Son olarak, düğme tıklandığında yürütülen özel kodu ekleyin.
+CustomCommand olayı her zaman özel komut düğmesi tıklandığında tetiklenir. Bu nedenle, olay işleyicisinin, düğmeyi GridWeb denetimine eklerken ayarlanan Komutla bağlantılı belirli özel komut düğmesini tanımlaması gerekir. Son olarak, düğme tıklandığında yürütülen özel kodu ekleyin.
 
-Aşağıdaki kod örneğinde butona tıklandığında A1 hücresine bir metin mesajı eklenmektedir.
+Aşağıdaki kod örneğinde, düğme tıklandığında A1 hücresine bir metin mesajı eklenir.
 
-**Özel komut düğmesi tıklandığında A1 hücresine eklenen metin** 
+**Özel komut düğmesine tıklandığında A1 hücresine eklenen metin** 
 
-![yapılacaklar:resim_alternatif_metin](create-custom-command-buttons_2.png)
+![todo:image_alt_text](create-custom-command-buttons_2.png)
 
 
 

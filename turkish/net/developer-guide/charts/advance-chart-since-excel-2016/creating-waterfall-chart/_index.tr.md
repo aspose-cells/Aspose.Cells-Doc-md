@@ -1,24 +1,25 @@
 ---
-title: Şelale grafiği nasıl oluşturulur?
+title: Suş grafik nasıl oluşturulur
 type: docs
 weight: 160
 url: /tr/net/creating-waterfall-chart/
-description: C# ve Aspose.Cells for .NET API ile Excel'de şelale grafikleri oluşturun.
-keywords: c# create waterfall chart in excel, c# creating waterfall chart in excel, creating waterfall chart in excel with c#, create waterfall chart in excel with c#, create waterfall chart in excel c#, create waterfall chart excel c#, create waterfall chart in excel programmatically, how to create waterfall chart in excel with c#
+description: C# ve Aspose.Cells for .NET API ile Excel de suş grafikleri oluşturun.
+keywords: c#, excel de suş grafik oluşturma, c# ile suş grafik oluşturma, c# ile excel de suş grafik oluşturma, excel de suş grafik oluşturma c#, excel de suş grafik oluşturma c#, excel de suş grafik oluşturmak programatik, c# ile excel de suş grafik oluşturma, excel de suş grafik oluşturmak
 ---
+
 {{% alert color="primary" %}}
 
-Şelale grafiği, normalde başlangıç konumunun nasıl arttığını veya azaldığını göstermek için kullanılan özel bir grafik türüdür. Microsoft Excel'de sütun, çizgi, pasta, çubuk, radar vb. dahil olmak üzere önceden tanımlanmış birçok grafik türü bulunur, ancak şelale grafiği temel grafiklerin ötesindedir ve çok az veya daha fazla özelleştirmeyle mevcut grafik türleri kullanılarak oluşturulabilir.
+Su düşümü grafiği, genellikle başlangıç pozisyonunun artıp azaldığını göstermek için kullanılan özel bir grafik türüdür. Microsoft Excel, sütun, çizgi, pasta, bar, radar vb. dahil olmak üzere birçok önceden tanımlanmış grafik türüne sahiptir, ancak su düşümü grafiği temel grafiklerin ötesindedir ve mevcut grafik türlerini az veya çok özelleştirerek oluşturulabilir.
 
 {{% /alert %}} 
 
- Aspose.Cells API'ler çizgi grafik yardımıyla şelale grafiği oluşturmanıza olanak sağlar. API ayrıca grafik görünümünün şelale şeklini verecek şekilde özelleştirilmesine de olanak tanır.[**Series.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) & [**Seri.AşağıBarlar**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars)özellikler.
+Aspose.Cells API'leri, suş grafik oluşturmayı çizgi grafiği kullanarak sağlar. API ayrıca grafik görünümünü özelleştirmenize izin verir ve suşi şeklinde vermesi için [**Series.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) ve [**Series.DownBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars) özelliklerini ayarlayarak grafik özelliğini özelleştirmenize olanak tanır.
 
-Aşağıda verilen kod pasajı, sıfırdan bir şelale grafiği oluşturmak için Aspose.Cells for .NET API'in kullanımını göstermektedir.
+Aşağıdaki kod örneği, Aspose.Cells for .NET API'sının kullanımını, sıfırdan bir suş grafiği oluşturmayı göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateWaterfallChart-1.cs" >}}
 
-##  İlgili Makaleler
+## İlgili Makaleler
 
-- [Grafik Oluşturma](/cells/tr/net/creating-charts/)
+- [Grafikler Oluşturma](/cells/tr/net/creating-charts/)
 - [Grafikleri Özelleştirme](/cells/tr/net/customizing-charts/)

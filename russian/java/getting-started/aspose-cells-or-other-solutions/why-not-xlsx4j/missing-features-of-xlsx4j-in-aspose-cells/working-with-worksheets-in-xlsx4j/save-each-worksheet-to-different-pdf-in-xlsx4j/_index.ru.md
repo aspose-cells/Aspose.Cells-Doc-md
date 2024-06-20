@@ -1,33 +1,34 @@
-﻿---
-title: Сохраните каждый рабочий лист в другом PDF в xlsx4j
+---
+title: Сохранить каждый лист в отдельный PDF в xlsx4j
 type: docs
 weight: 50
 url: /ru/java/save-each-worksheet-to-different-pdf-in-xlsx4j/
 ---
-## **Aspose.Cells - Сохранение каждого рабочего листа в другой PDF**
-Aspose.Cells поддерживает преобразование файлов XLS (содержащих изображения, диаграммы и т. д.) в документы PDF. Aspose.Cells for Java может работать независимо для преобразования электронной таблицы в документ PDF, и вам больше не нужно использовать Aspose.Pdf for Java для преобразования. Преобразование также не требует создания/использования каких-либо временных файлов, так как весь процесс может выполняться в памяти.
+
+## **Aspose.Cells - Сохранить каждый лист в отдельный PDF-файл**
+Aspose.Cells поддерживает преобразование файлов XLS (содержащих изображения, диаграммы и т. д.) в документы PDF. Aspose.Cells for Java может работать независимо для преобразования электронной таблицы в документ Pdf, и вам больше не нужно использовать Aspose.Pdf для Java для этого преобразования. Преобразование также не требует создания / использования каких-либо временных файлов, так как весь процесс может быть выполнен в памяти.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Получить путь к файлу Excel
+ //Get the Excel file path
 
-Строка filePath = dataDir + "workbook.xlsx";
+String filePath = dataDir + "workbook.xlsx";
 
-//Создаем новую книгу и открываем Excel
+//Instantiate a new workbook and open the Excel
 
-//Файл из его местоположения
+//File from its location
 
-Книга рабочей книги = новая рабочая книга (путь к файлу);
+Workbook workbook = new Workbook(filePath);
 
-//Получить количество рабочих листов в рабочей книге
+//Get the count of the worksheets in the workbook
 
 int sheetCount = workbook.getWorksheets().getCount();
 
-//Делаем все листы невидимыми, кроме первого рабочего листа
+//Make all sheets invisible except first worksheet
 
- для (целое я = 1; я< workbook.getWorksheets().getCount(); i++)
+for (int i = 1; i < workbook.getWorksheets().getCount(); i++)
 
 {
 
@@ -58,13 +59,13 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/saveeachworksheettopdf/AsposeSaveEachWorksheetToDifferentPDF.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/saveeachworksheettopdf/AsposeSaveEachWorksheetToDifferentPDF.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Сохраните каждый рабочий лист в другой файл PDF](/cells/ru/java/save-each-worksheet-to-a-different-pdf-file).
+Для получения дополнительной информации посетите [Сохранение каждого листа в отдельный файл PDF](/cells/ru/java/save-each-worksheet-to-a-different-pdf-file).
 
 {{% /alert %}}

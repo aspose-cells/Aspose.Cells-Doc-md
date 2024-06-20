@@ -1,39 +1,40 @@
 ---
-title: La tua prima richiesta allo Aspose.Cells - Hello World
+title: La tua prima applicazione Aspose.Cells  Ciao mondo
 type: docs
 weight: 30
 url: /it/net/your-first-aspose-cells-application-hello-world/
-description: Crea, modifica e salva il tuo primo file Excel in qualsiasi formato supportato utilizzando Aspose.Cells for .NET per sperimentarne la semplicità e la potenza in C#.
-keywords: C# Hello World, Aspose.Cells for .NET Hello World, The first application using Aspose.Cells for .NET, The first program via Aspose.Cells for .NET.
+description: Crea, modifica e salva il tuo primo file excel in qualsiasi formato supportato usando Aspose.Cells for .NET per sperimentarne la semplicità e la potenza in C#.
+keywords: C# Ciao Mondo, Aspose.Cells for .NET Ciao Mondo, La prima applicazione usando Aspose.Cells for .NET, Il primo programma tramite Aspose.Cells for .NET.
 ---
+
 {{% alert color="primary" %}}
 
-Questo tutorial mostra come creare una primissima applicazione (Hello World) utilizzando Aspose.Cells' semplice API. Questa semplice applicazione crea un file Excel Microsoft con il testo 'Hello World' in una cella del foglio di lavoro specificata.
+Questo tutorial mostra come creare una prima applicazione (Ciao Mondo) utilizzando la semplice API di Aspose.Cells. Questa semplice applicazione crea un file Microsoft Excel con il testo 'Ciao Mondo' in una cella di un foglio di lavoro specificato.
 
 {{% /alert %}}
 
-##  **Come creare l'applicazione Hello World**
+## **Come Creare l'Applicazione Ciao Mondo**
 
-I passaggi seguenti creano l'applicazione Hello World utilizzando Aspose.Cells API:
+I passi seguenti creano l'applicazione Hello World utilizzando l'API Aspose.Cells:
 
-1.  Crea un'istanza di[Cartella di lavoro](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe.
-1.  Se hai la licenza, allora[applicarlo](/cells/it/net/licensing/).
- Se stai utilizzando la versione di valutazione, salta le righe di codice relative alla licenza.
-1. Crea un nuovo file Excel o apri un file Excel esistente.
-1. Accedi a qualsiasi cella desiderata di un foglio di lavoro nel file Excel.
-1.  Inserisci le parole**Hello World!** in una cella a cui si accede.
-1. Genera il file Excel Microsoft modificato.
+1. Crea un'istanza della classe [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+1. Se hai una licenza, quindi [applicala](/cells/it/net/licensing/).
+   Se stai utilizzando la versione di valutazione, salta le righe di codice relative alla licenza.
+1. Crea un nuovo file Excel, oppure apri un file Excel esistente.
+1. Accedi a qualsiasi cella desiderata di un foglio di lavoro nel file di Excel.
+1. Inserisci le parole **Hello World!** in una cella accessibile.
+1. Genera il file modificato di Microsoft Excel.
 
-L'implementazione dei passaggi precedenti è dimostrata negli esempi seguenti.
+L'implementazione dei passaggi sopra è dimostrata negli esempi seguenti.
 
-###  **Come creare una nuova cartella di lavoro**
+### **Come Creare un Nuovo Workbook**
 
-L'esempio seguente crea una nuova cartella di lavoro da zero, scrive Hello World! nella cella A1 del primo foglio di lavoro e salva il file Excel.
+Nell'esempio seguente viene creato un nuovo workbook da zero, viene scritto Hello World! nella cella A1 del primo foglio di lavoro e viene salvato il file Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
 
-###  **Come aprire un file esistente**
+### **Come Aprire un File Esistente**
 
-L'esempio seguente apre un file modello Excel Microsoft esistente denominato "Sample.xlsx", immette "Hello World!" testo nella cella A1 nel primo foglio di lavoro e salva la cartella di lavoro.
+Nell'esempio seguente viene aperto un file di modello Microsoft Excel esistente chiamato "Sample.xlsx", viene inserito il testo "Hello World!" nella cella A1 del primo foglio di lavoro e viene salvato il workbook.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}

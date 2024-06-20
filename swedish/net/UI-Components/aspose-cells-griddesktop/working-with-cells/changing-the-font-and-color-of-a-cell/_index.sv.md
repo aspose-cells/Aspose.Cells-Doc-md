@@ -1,22 +1,25 @@
-﻿---
-title: Ändra teckensnitt och färg för en Cell
+---
+title: Ändra teckensnitt och färg i en cell
 type: docs
 weight: 40
-url: /sv/net/changing-the-font-and-color-of-a-cell/
+url: /sv/net/aspose-cells-griddesktop/change-the-font-and-color-of-a-cell/
+keywords: GridDesktop,font,color,change font,change color
+description: Den här artikeln introducerar hur man uppdaterar teckensnitt och färg i cellen i arbetsbladet i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-I det här ämnet kommer vi att diskutera hur man ändrar teckensnitt och teckensnittsfärg för en cell. Den här funktionen ger utvecklare mer djupgående kontroll av kalkylblad. Med den här funktionen kan utvecklare anpassa teckensnittet och färgen på valfri cell.
+I det här avsnittet kommer vi att diskutera hur man ändrar teckensnittet och teckensnittsfärgen för en cell i GridDesktop. Den här funktionen ger utvecklarna mer djupgående kontroll över arbetsblad. Med den här funktionen kan utvecklare anpassa teckensnittet och färgen för valfri cell.
 
 {{% /alert %}} 
-## **Ändra teckensnitt och färg för en Cell**
-För att ändra teckensnitt och färg på en cell med Aspose.Cells.GridDesktop, följ stegen nedan:
+## **Ändra teckensnitt och färg i en cell**
+För att ändra teckensnittet och färgen i en cell med hjälp av Aspose.Cells.GridDesktop, följ stegen nedan:
 
--  Få åtkomst till alla önskade**Arbetsblad**
--  Tillgång a**Cell** vars teckensnitt och färg ska ändras
--  Skapa en anpassad**Font**
--  Ställ in**Font** av**Cell** till den skräddarsydda
--  Slutligen, ställ in**Fontfärg** av**Cell** till någon önskad**Färg**
+- Kom åt något önskat **Kalkylblad**
+- Öppna en **Cell** vars teckensnitt och färg ska ändras
+- Skapa en anpassad **Font**
+- Ställ in **Teckensnittet** för **Cellen** till det anpassade
+- Slutligen, ställ in **Teckensnittsfärgen** för **Cellen** till valfri **Färg**
 
 
 
@@ -24,6 +27,6 @@ För att ändra teckensnitt och färg på en cell med Aspose.Cells.GridDesktop, 
 
 {{% alert color="primary" %}} 
 
- Om du bara behöver få information om cellens typsnitt eller teckensnittsfärg så kan du också använda**GetFont** och**GetFontColor** cellens metoder.
+Om du bara behöver information om teckensnittet eller teckensnittsfärgen i cellen kan du också använda metoderna **GetFont** och **GetFontColor** för cellen.
 
 {{% /alert %}}

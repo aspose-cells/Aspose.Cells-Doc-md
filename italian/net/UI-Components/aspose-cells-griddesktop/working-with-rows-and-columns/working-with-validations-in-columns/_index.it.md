@@ -1,36 +1,39 @@
-﻿---
-title: Utilizzo delle convalide nelle colonne
+---
+title: Lavorare con le Validazioni nelle Colonne
 type: docs
 weight: 80
-url: /it/net/working-with-validations-in-columns/
+url: /it/net/aspose-cells-griddesktop/work-with-validations-in-columns/
+keywords: GridDesktop,validazione,validazioni
+description: Questo articolo introduce come utilizzare le validazioni nelle colonne in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
- In uno dei nostri argomenti precedenti, abbiamo discusso delle convalide, ma questo era nel contesto di[Convalide nei fogli di lavoro](/cells/it/net/working-with-validations-in-worksheets/) (per avere informazioni generali sulla validazione e sulle modalità di validazione, gli sviluppatori possono fare riferimento a questo argomento). In questo argomento, spiegheremo le convalide rispetto alle colonne. Utilizzando questa funzione, è possibile per gli sviluppatori applicare una regola di convalida su qualsiasi colonna del foglio di lavoro. Discutiamolo in dettaglio.
+In uno dei nostri argomenti precedenti, abbiamo discusso delle validazioni ma questo era nel contesto di [Validazioni nei Fogli di Lavoro](/cells/it/net/working-with-validations-in-worksheets/) (per avere informazioni generali sulle validazioni e le modalità di validazione, gli sviluppatori possono fare riferimento a questo argomento). In questo argomento, spiegheremo le validazioni relativamente alle colonne. Utilizzando questa funzionalità, è possibile per gli sviluppatori applicare una regola di validazione su qualsiasi colonna del foglio di lavoro. Parliamone in dettaglio.
 
 {{% /alert %}} 
-## **Aggiunta della convalida della colonna**
-Per aggiungere qualsiasi tipo di convalida a una colonna, procedi nel seguente modo:
+## **Aggiunta della Validazione della Colonna**
+Per aggiungere qualsiasi tipo di validazione a una colonna, seguire i passaggi seguenti:
 
--  Aggiungi il controllo Aspose.Cells.GridDesktop al tuo**Modulo**
--  Accedi a qualsiasi desiderato**Foglio di lavoro**
-- **Aggiungere** un desiderato**Convalida** a qualsiasi colonna
+- Aggiungi il controllo Aspose.Cells.GridDesktop al tuo **Form**
+- Accedere a qualsiasi **Foglio di lavoro** desiderato
+- **Aggiungi** una **Validazione** desiderata a qualsiasi colonna
 
-**IMPORTANTE:**Per ulteriori informazioni sui tipi di convalida (o modalità di convalida come**È richiesta la convalida**, **Convalida delle espressioni regolari** e**Convalida personalizzata** ) e l'attuazione**Convalida personalizzata** , per favore riferisci a[Utilizzo delle convalide nei fogli di lavoro.](/cells/it/net/working-with-validations-in-worksheets/)
+**IMPORTANTE:** Per ulteriori informazioni sui tipi di validazione (o modalità di validazione come **Validazione Richiesta**, **Validazione Espressioni Regolari** e **Validazione Personalizzata**) e sull'implementazione della **Validazione Personalizzata**, si prega di fare riferimento a [Lavorare con le Validazioni nei Fogli di Lavoro.](/cells/it/net/working-with-validations-in-worksheets/)
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-WorkingWithColumnValidations-AddValidation.cs" >}}
-## **Accesso alla convalida della colonna**
-Per accedere alla convalida di una colonna specifica, procedi nel seguente modo:
+## **Accesso alla Validazione di Colonna**
+Per accedere a una specifica validazione di colonna, si prega di seguire i passaggi seguenti:
 
--  Accedi a un file desiderato**Foglio di lavoro**
--  Accedi a una colonna specifica**Convalida** nel**Foglio di lavoro**
--  Modificare**Convalida** attributi, se lo si desidera
+- Accedi a un **Foglio di lavoro** desiderato
+- Accedi a una specifica validazione di colonna nel **Foglio di Lavoro**
+- Modifica gli attributi di **Validazione**, se desiderato
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing first worksheet of the Grid
 
@@ -49,15 +52,15 @@ validation.RegEx = "";
 validation.CustomValidation = null;
 
 {{< /highlight >}}
-## **Rimozione della convalida della colonna**
-Per rimuovere una convalida di colonna specifica dal foglio di lavoro, procedi nel seguente modo:
+## **Rimozione della Validazione di Colonna**
+Per rimuovere una specifica validazione di colonna dal foglio di lavoro, si prega di seguire i passaggi seguenti:
 
--  Accedi a un file desiderato**Foglio di lavoro**
--  Rimuovi una colonna specifica**Convalida** dal**Foglio di lavoro**
+- Accedi a un **Foglio di lavoro** desiderato
+- Rimuovi una specifica validazione di colonna dal **Foglio di Lavoro**
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing first worksheet of the Grid
 

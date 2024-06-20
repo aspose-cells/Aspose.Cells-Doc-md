@@ -1,18 +1,19 @@
-﻿---
-title: シェイプのテキスト オプションでフォントの極東およびラテン名を指定します
+---
+title: テキストオプションのフォントの遠隔地およびラテン名を指定する
 type: docs
 weight: 120
 url: /ja/java/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/
 ---
-## **考えられる使用シナリオ**
 
-日本語、中国語、タイ語などの極東言語のフォントでテキストを表示したい場合があります。[**TextOptions.極東名**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#FarEastName)極東言語のフォント名を指定するために使用できるプロパティ。また、ラテン語のフォント名を指定することもできます[**TextOptions.LatinName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#LatinName)財産。
+## **可能な使用シナリオ**
 
-## **シェイプのテキスト オプションでフォントの極東およびラテン名を指定します**
+時々、日本語、中国語、タイ語などの遠隔地の言語フォントでテキストを表示したい場合があります。Aspose.Cellsは[**TextOptions.FarEastName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#FarEastName) プロパティを提供し、遠隔地の言語のフォント名を指定するために使用できます。また、[**TextOptions.LatinName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#LatinName) プロパティを使用してラテンのフォント名を指定できます。
 
-次のサンプル コードは、テキスト ボックスを作成し、その中に日本語のテキストを追加します。次に、テキストのラテン語と極東語のフォント名を指定し、ワークブックを次の名前で保存します。[出力エクセルファイル](67338341.xlsx).次のスクリーンショットは、Microsoft Excel の出力テキスト ボックスのラテン語と極東語のフォント名を示しています。
+## **テキストオプションのフォントの遠隔地およびラテン名を指定する**
 
-![todo:画像_代替_文章](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
+次のサンプルコードは、テキストボックスを作成し、いくつかの日本語のテキストを追加します。その後、テキストのラテンと遠隔地のフォント名を指定し、ワークブックを[output Excel file](67338341.xlsx)として保存します。次のスクリーンショットは、Microsoft Excelでの出力テキストボックスのラテンおよび遠隔地のフォント名を示しています。
+
+![todo:image_alt_text](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
 
 ## **サンプルコード**
 

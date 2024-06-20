@@ -1,16 +1,17 @@
-﻿---
-title: Ruby'de Sayfa Seçeneklerini Ayarlama
+---
+title: Ruby de Sayfa Seçeneklerini Ayarlama
 type: docs
 weight: 10
 url: /tr/java/setting-page-options-in-ruby/
 ---
-## **Aspose.Cells - Ayar Sayfası Seçenekleri**
-### **Sayfa yönlendirmesi**
- kullanarak sayfa yönü ayarlarını uygulamak için**Yakut için Aspose.Cells Java** , Arama**Sayfa yönlendirmesi** yöntemi**sayfa ayarı** modül.
 
-**Yakut Kodu**
+## **Aspose.Cells - Sayfa Seçeneklerini Ayarlama**
+### **Sayfa Yönlendirmesi**
+**Aspose.Cells Java için Ruby** kullanarak sayfa yönlendirme ayarlarını uygulamak için **pagesetup** modülünün **page_orientation** yöntemini çağırın.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  def page_orientation()
 
@@ -51,12 +52,12 @@ url: /tr/java/setting-page-options-in-ruby/
 end   
 
 {{< /highlight >}}
-### **Ölçekleme faktörü**
- kullanarak ölçekleme uygulamak için**Yakut için Aspose.Cells Java** , Arama**ölçekleme** yöntemi**sayfa ayarı** modül.
+### **Ölçekleme Faktörü**
+**Aspose.Cells Java için Ruby** kullanarak ölçekleme uygulamak için **pagesetup** modülünün **scaling** yöntemini çağırın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def scaling()
 
@@ -97,6 +98,6 @@ end
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Ayar Sayfası Seçenekleri (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Sayfa Seçeneklerini Ayarlama (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)

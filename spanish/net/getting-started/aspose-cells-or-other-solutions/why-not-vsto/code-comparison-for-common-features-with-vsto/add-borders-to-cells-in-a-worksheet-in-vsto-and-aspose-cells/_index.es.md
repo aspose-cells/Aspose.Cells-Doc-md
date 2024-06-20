@@ -1,33 +1,34 @@
-﻿---
-title: Agregue bordes a Cells en una hoja de trabajo en VSTO y Aspose.Cells
+---
+title: Agregar bordes a las celdas en una hoja de cálculo en VSTO y Aspose.Cells
 type: docs
 weight: 10
 url: /es/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Para agregar bordes a las celdas de una hoja de cálculo, siga los siguientes pasos:
 
-1.  Configure la hoja de trabajo:
- 1. Crear una instancia de un objeto de aplicación (solo VSTO)
- 1. Agregar un libro de trabajo
- 1. Obtenga la primera hoja
- 1. Agregue texto a las celdas a las que agregará bordes
-1.  Añadir bordes:
- 1. Defina un rango
- 1. Aplicar un estilo de borde al rango
- 1. Repita para cada rango y cada estilo de borde que desee configurar. Este ejemplo aplica líneas delgadas, delgadas, medianas y gruesas.
-1.  Finalizar:
- 1. Autoajustar la columna en la que se encuentran las celdas para que el texto se ajuste perfectamente
- 1. Guarde el documento
+Para agregar bordes a las celdas en una hoja de cálculo, sigue los siguientes pasos:
 
-Estos pasos se muestran en el código a continuación. Los primeros ejemplos de código muestran cómo implementarlos mediante VSTO con C# o Visual Basic. Después de los ejemplos de VSTO, hay ejemplos que muestran cómo realizar los mismos pasos usando Aspose.Cells for .NET, nuevamente usando C# o Visual Basic. Los ejemplos de código Aspose.Cells son mucho más cortos porque Aspose.Cells está optimizado para una codificación eficiente.
+1. Configurar la hoja de cálculo: 
+   1. Instanciar un objeto de Aplicación (solo VSTO)
+   1. Agregar un libro de trabajo
+   1. Obtener la primera hoja
+   1. Agregar texto a las celdas a las que agregarás bordes
+1. Agregar bordes: 
+   1. Definir un rango
+   1. Aplicar un estilo de borde al rango
+   1. Repetir para cada rango y cada estilo de borde que desee establecer. Este ejemplo aplica líneas finas, medianas y gruesas
+1. Terminar: 
+   1. Ajustar automáticamente la columna en la que se encuentran las celdas para que el texto quede ordenado
+   1. Guardar el documento
 
-El código genera un archivo de Excel con un número de celdas en la primera hoja, cada una con un borde diferente:
+Estos pasos se muestran en el código a continuación. Los primeros ejemplos de código muestran cómo implementarlos utilizando VSTO con C# o Visual Basic. Después de los ejemplos de VSTO, hay ejemplos que muestran cómo realizar los mismos pasos utilizando Aspose.Cells for .NET, nuevamente usando C# o Visual Basic. Los ejemplos de código de Aspose.Cells son mucho más cortos porque Aspose.Cells está optimizado para la codificación eficiente.
 
-![todo:imagen_alternativa_texto](picture1.png)
+El código genera un archivo de Excel con varias celdas en la primera hoja, cada una con un borde diferente:
 
-Cells con bordes aplicados.
+![todo:image_alt_text](picture1.png)
+
+Celdas con bordes aplicados.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -43,13 +44,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -145,7 +146,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -209,7 +210,7 @@ objBook.Save("ApplyBorders.xls");
 
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [forjafuente](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/descargar)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).Código Postal)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

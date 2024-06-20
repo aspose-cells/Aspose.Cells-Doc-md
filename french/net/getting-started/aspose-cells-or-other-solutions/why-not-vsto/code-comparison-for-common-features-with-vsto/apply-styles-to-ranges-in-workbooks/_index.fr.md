@@ -1,12 +1,13 @@
-﻿---
-title: Appliquer des styles aux plages dans les classeurs
+---
+title: Appliquer des styles aux plages dans des classeurs
 type: docs
 weight: 40
 url: /fr/net/apply-styles-to-ranges-in-workbooks/
 ---
-Vous trouverez ci-dessous la comparaison de code de l'application du style aux lignes et aux colonnes des classeurs :
+
+Voici la comparaison du code pour appliquer un style aux lignes et aux colonnes des classeurs:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -30,7 +31,7 @@ Vous trouverez ci-dessous la comparaison de code de l'application du style aux l
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

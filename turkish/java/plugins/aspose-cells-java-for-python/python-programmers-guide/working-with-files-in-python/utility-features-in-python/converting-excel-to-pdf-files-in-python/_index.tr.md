@@ -1,21 +1,22 @@
-﻿---
-title: Python'de Excel'i PDF Dosyalarına Dönüştürme
+---
+title: Python da Excel Dosyalarını PDF Dosyalarına Dönüştürme
 type: docs
 weight: 20
 url: /tr/java/converting-excel-to-pdf-files-in-python/
 ---
-## **Aspose.Cells - Excel'i PDF'ye Dönüştürme**
-Aspose.Cells for Java'i Python'de kullanarak Excel'i PDF dosyasına dönüştürmek için excel'i çağırmanız yeterlidir_ile_Dönüştürücü modülünün pdf() yöntemi.
 
-**Python Kod**
+## **Aspose.Cells - Excel'i Pdf'e Dönüştürme**
+Python'da Aspose.Cells for Java kullanarak Excel'i Pdf dosyasına dönüştürmek için, Converter modülünün excel_to_pdf() yöntemini basitçe çağırın.
 
-{{< highlight "python" >}}
+**Python Kodu**
+
+{{< highlight python >}}
 
  saveFormat = self.SaveFormat
 
 workbook = self.Workbook(self.dataDir + "Book1.xls")
 
-# Save the document in PDF format
+#Save the document in PDF format
 
 workbook.save(self.dataDir + "OutBook1.pdf", saveFormat.PDF)
 
@@ -25,6 +26,6 @@ print "\n Excel to PDF conversion performed successfully."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Excel'i PDF'ye Dönüştürme (Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Altta belirtilen sosyal kodlama sitelerinden herhangi birinden  **Excel'i Pdf'e Dönüştürme (Aspose.Cells)**'ı İndir
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

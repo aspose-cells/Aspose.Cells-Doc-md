@@ -1,34 +1,35 @@
-﻿---
-title: Modificación de atributos de informe
+---
+title: Modificando los atributos del reporte
 type: docs
 weight: 90
 url: /es/reportingservices/modifying-report-attributes/
 ---
-Para modificar los atributos de un informe:
 
-1.  Hacer clic**Modificar atributo**en la barra de herramientas Aspose.Cells.Report.Designer (
+Para modificar los atributos de un reporte:
 
-![todo:imagen_alternativa_texto](modifying-report-attributes_1.png)
+1. Haga clic en **Modificar Atributo** en la barra de herramientas del diseñador de Aspose.Cells.Report.
+
+![todo:image_alt_text](modifying-report-attributes_1.png)
 
 ).
-Los informes disponibles se enumeran en el panel izquierdo.
+Los reportes disponibles se enumeran en el panel izquierdo. 
 
-1.  Seleccione un informe y haga clic en**Modificar**. 
+1. Seleccione un reporte y haga clic en **Modificar**. 
 
    **Seleccionar un informe** 
 
-![todo:imagen_alternativa_texto](modifying-report-attributes_2.png)
+![todo:image_alt_text](modifying-report-attributes_2.png)
 
 
 
 
-1.  Modifique los atributos del informe.
+1. Modifique los atributos del reporte. 
 
    **Modificando los atributos** 
 
-![todo:imagen_alternativa_texto](modifying-report-attributes_3.png)
+![todo:image_alt_text](modifying-report-attributes_3.png)
 
 
 
 
-1.  Hacer clic**Comprometerse** para terminar.
+1. Haga clic en **Confirmar** para finalizar.

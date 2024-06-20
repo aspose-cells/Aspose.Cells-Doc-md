@@ -1,99 +1,91 @@
 ---
-title: 番号設定
-description: Aspose.Cells は、さまざまなセル番号設定をサポートするスプレッドシート ファイルを操作するための .NET ライブラリです。この記事では、ユーザーが必要に応じてスプレッドシートの数値形式を調整できるように、Aspose.Cells ライブラリを使用してセルの数値設定を管理する方法を紹介します。
-keywords: Aspose.Cells, .NET library, electronic spreadsheet, cell number settings, formatting, management, Formats of Numbers and Dates
+title: 数字の設定
+description: .NETライブラリであるAspose.Cellsはスプレッドシートファイルの操作をサポートし、多くの異なるセル番号設定をサポートしています。この記事では、Aspose.Cellsライブラリを使用してセルの番号設定を管理する方法について紹介します。これによりユーザーはスプレッドシート内の番号形式を必要に応じて調整できます。
+keywords: Aspose.Cells、.NETライブラリ、電子スプレッドシート、セルの番号設定、フォーマット、管理、数字と日付の形式
 type: docs
 weight: 10
 url: /ja/net/cells-number-settings/
 ---
-##  **Numbersと日付の表示形式を設定する方法**
 
-Microsoft Excel の非常に強力な機能は、数値や日付の表示形式をユーザーが設定できることです。数値データを使用して、小数、通貨、パーセンテージ、分数、会計上の値などのさまざまな値を表すことができることはわかっています。これらの数値はすべて、それが表す情報の種類に応じて異なる形式で表示されます。同様に、日付や時刻を表示できる形式は数多くあります。
-Aspose.Cells はこの機能をサポートしており、開発者は数値または日付の表示形式を設定できます。
+## **数字と日付の表示形式を設定する方法**
 
-###  **Microsoft Excel で表示形式を設定する方法**
+Microsoft Excelの非常に強力な機能の1つは、ユーザーが数値値や日付の表示形式を設定できることです。数値データは10進数、通貨、パーセンテージ、分数、会計などを含むさまざまな値を表すために使用できることを知っています。すべてのこれらの数値値は、それが表す情報の種類に応じて異なる形式で表示されます。同様に、日付や時刻を表示するための多くの形式があります。
+Aspose.Cellsはこの機能をサポートし、開発者が数値や日付の表示形式を設定できるようにします。
 
-Microsoft Excel で表示形式を設定するには:
+### **Microsoft Excelで表示形式を設定する方法**
+
+Microsoft Excelで表示形式を設定するには：
 
 1. 任意のセルを右クリックします。
-1. *形式 Cells** を選択します。任意の種類の値の表示形式を設定するためのダイアログが表示されます。
+1. **セルの書式設定** を選択します。ダイアログが表示され、さまざまな種類の値の表示形式を設定するのに使用されます。
 
-ダイアログの左側には、次のような値のカテゴリが多数あります。**一般**、**数値**、**通貨**、**会計**、**日付**、**時刻**、**パーセント、**など。Aspose.Cells はこれらの表示形式をすべてサポートしています。
+ダイアログの左側には**一般**、**数値**、**通貨**、**会計**、**日付**、**時間**、**パーセンテージ**などの値のカテゴリが多数あります。Aspose.Cellsはこれらすべての表示形式をサポートしています。
 
-Aspose.Cells はクラスを提供します。[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)これは Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートへのアクセスを許可するコレクション。ワークシートは次のように表されます。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスが提供するのは[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクション。の各項目[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションはオブジェクトを表します[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラス。
+Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスできる[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスは[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションを提供します。[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクション内の各項目は[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラスのオブジェクトを表します。
 
- Aspose.Cellsが提供します[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)そして[**スタイルの設定**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle)のためのメソッド[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラス。これらのメソッドは、セルの書式設定を取得および設定するために使用されます。の[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)クラスは、数値と日付の表示形式を処理するための便利なプロパティをいくつか提供します。
+Aspose.Cellsは、[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラスの[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)および[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle)メソッドを提供します。これらのメソッドはセルの書式設定を取得および設定するために使用されます。[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)クラスは、数値や日付の表示形式に対応するためのいくつかの有用なプロパティを提供します。
 
-###  **組み込みの数値形式の使用方法**
+### **組み込みの数値形式の使用方法**
 
-Aspose.Cells は、数値と日付の表示形式を構成するためのいくつかの組み込み数値形式を提供します。これらの組み込みの数値形式は、[**番号**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number)の財産[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)物体。すべての組み込み数値形式には、一意の数値が与えられます。開発者は、任意の数値を[**番号**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number)の財産[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)表示形式を適用するオブジェクト。このアプローチは高速です。 Aspose.Cells でサポートされる組み込みの数値形式を以下に示します。
+Aspose.Cellsは、数値や日付の表示形式を構成するためのいくつかの組み込みの数値形式を提供しています。これらの組み込みの数値形式は、[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**Number**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number)プロパティを使用して適用できます。すべての組み込みの数値形式には固有の数値が割り当てられています。開発者は[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**Number**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number)プロパティに任意の数値を割り当てて、表示形式を適用することができます。この方法は高速です。Aspose.Cellsでサポートされている組み込みの数値形式は以下のとおりです。
 
-|**価値**|**タイプ**|**フォーマット文字列**|
+|**値**|**タイプ**|**フォーマット文字列**|
 | :- | :- | :- |
-|0|General|一般的な|
+|0|General|General|
 |1|Decimal|0|
 |2|Decimal|0.00|
-|3|Decimal|# ,##0
-|
-|4|Decimal|# ,##0.00
-|
+|3|Decimal|#,##0|
+|4|Decimal|#,##0.00|
 |5|Currency|$#,##0;$-#,##0|
-|6|Currency|$#,##0;[赤]$-#,##0|
+|6|Currency|$#,##0;[Red]$-#,##0|
 |7|Currency|$#,##0.00;$-#,##0.00|
-|8|Currency|$#,##0.00;[レッド]$-#,##0.00|
+|8|Currency|$#,##0.00;[Red]$-#,##0.00|
 |9|Percentage|0%|
 |10|Percentage|0.00%|
 |11|Scientific|0.00E+00|
-|12|Fraction|#  ?/?
-|
-|13|Fraction|#  */*
-|
-|14|Date|月/日/yyyy|
-|15|Date|うーん、うん|
-|16|Date|うーん|
-|17|Date|うーん、うん|
-|18|Time|時:分 午前/午後|
-|19|Time|時:mm:s 午前/午後|
-|20|Time|ふーむ|
-|21|Time|時:mm:ss|
-|22|Time|m/d/yy 時:mm|
-|37|Currency|# ,##0;-#,##0
-|
-|38|Currency|# ,##0;[赤]-#,##0
-|
-|39|Currency|# ,##0.00;-#,##0.00
-|
-|40|Currency|# ,##0.00;[赤]-#,##0.00
-|
+|12|Fraction|# ?/?|
+|13|Fraction|# */*|
+|14|Date|m/d/yyyy|
+|15|Date|d-mmm-yy|
+|16|Date|d-mmm|
+|17|Date|mmm-yy|
+|18|Time|h:mm AM/PM|
+|19|Time|h:mm:ss AM/PM|
+|20|Time|h:mm|
+|21|Time|h:mm:ss|
+|22|Time|m/d/yy h:mm|
+|37|Currency|#,##0;-#,##0|
+|38|Currency|#,##0;[Red]-#,##0|
+|39|Currency|#,##0.00;-#,##0.00|
+|40|Currency|#,##0.00;[Red]-#,##0.00|
 |41|Accounting|_ * #,##0_ ;_ * "_ ;_ @_|
 |42|Accounting|_ $* #,##0_ ;_ $* "_ ;_ @_|
 |43|Accounting|_ * #,##0.00_ ;_ * "??_ ;_ @_|
 |44|Accounting|_ $* #,##0.00_ ;_ $* "??_ ;_ @_|
 |45|Time|mm:ss|
-|46|Time|時:mm:ss|
+|46|Time|h :mm:ss|
 |47|Time|mm:ss.0|
-|48|Scientific|## 0.0E+00
-|
+|48|Scientific|##0.0E+00|
 |49|Text|@|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingBuiltInNumberFormats-1.cs" >}}
 
-###  **カスタム数値形式の使用方法**
+### **カスタム数値形式の使用方法**
 
-表示形式を設定するための独自のカスタマイズされた形式文字列を定義するには、[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**カスタム**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)財産。このアプローチは、プリセット形式を使用するほど高速ではありませんが、より柔軟です。
+表示形式を設定するために独自のカスタムフォーマット文字列を定義するには、[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)プロパティを使用します。この方法は事前に設定された形式を使用するよりも速くはありませんが、柔軟性があります。
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingCustomNumber-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-を使用する場合は、[**カスタム**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)数値形式を設定するプロパティ。以前の形式は、[**番号**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number)プロパティはオーバーライドされ、その逆も同様です。
+[**Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)プロパティを使用して数値形式を設定する場合、[**Number**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number)プロパティを使用して設定された以前の形式は上書きされ、その逆も同様です。
 
 {{% /alert %}}
 
-##  **アドバンストトピック**
-- [Style.Custom プロパティを設定するときにカスタム数値形式を確認する](/cells/ja/net/check-custom-number-format-when-setting-style-custom-property/)
+## **高度なトピック**
+- [Style.Customプロパティを設定する際のカスタム数値形式を確認する](/cells/ja/net/check-custom-number-format-when-setting-style-custom-property/)
 - [サポートされている数値形式のリスト](/cells/ja/net/list-of-supported-number-formats/)
-- [カスタム日付形式パターン g および ge mm dd をレンダリングする](/cells/ja/net/render-custom-date-format-pattern-g-and-ge-mm-dd/)
-- [ワークブックのカスタム数値の小数点およびグループ区切り文字を指定する](/cells/ja/net/specify-custom-number-decimal-and-group-separators-for-workbook/)
-- [DBNum カスタム パターン形式の指定](/cells/ja/net/specifying-dbnum-custom-pattern-formatting/)
+- [カスタム日付形式パターン g および ge mm dd の表現](/cells/ja/net/render-custom-date-format-pattern-g-and-ge-mm-dd/)
+- [ブックでのカスタム数値小数点およびグループの区切りの指定](/cells/ja/net/specify-custom-number-decimal-and-group-separators-for-workbook/)
+- [DBNumカスタムパターンの書式設定の指定](/cells/ja/net/specifying-dbnum-custom-pattern-formatting/)

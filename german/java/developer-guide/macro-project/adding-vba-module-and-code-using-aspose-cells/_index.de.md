@@ -1,20 +1,21 @@
-﻿---
-title: Hinzufügen von VBA-Modul und Code mit Aspose.Cells
+---
+title: Hinzufügen von VBA Modul und Code mit Aspose.Cells
 type: docs
 weight: 20
 url: /de/java/adding-vba-module-and-code-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells ermöglicht es Ihnen, ein neues VBA-Modul und Makrocode mit Aspose.Cells hinzuzufügen. Bitte verwenden Sie die[**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet))-Methode, um das neue VBA-Modul in der Arbeitsmappe hinzuzufügen
+Aspose.Cells ermöglicht es Ihnen, ein neues VBA-Modul und Makrocode mithilfe von Aspose.Cells hinzuzufügen. Verwenden Sie bitte die Methode [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) um das neue VBA-Modul in der Arbeitsmappe hinzuzufügen
 
 {{% /alert %}}
 
 ## **Hinzufügen von VBA-Modul und Code mit Aspose.Cells**
 
-Der folgende Beispielcode erstellt eine neue Arbeitsmappe, fügt ein neues VBA-Modul und einen neuen Makrocode hinzu und speichert die Ausgabe im Format XLSM. Einmal öffnen Sie die Ausgabedatei XLSM in Microsoft Excel und klicken auf die**Entwickler > Visual Basic** Menübefehle sehen Sie ein Modul namens "TestModule" und darin sehen Sie den folgenden Makrocode.
+Der folgende Beispielcode erstellt ein neues Arbeitsblatt, fügt ein neues VBA-Modul und einen Makrocode hinzu und speichert die Ausgabe im XLSM-Format. Sobald Sie die Ausgabe-XLSM-Datei in Microsoft Excel öffnen und auf die Menübefehle **Entwickler > Visual Basic** klicken, sehen Sie ein Modul namens "TestModule", und darin sehen Sie den folgenden Makrocode.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -26,6 +27,6 @@ End Sub
 
 ## Beispielcode
 
-Hier ist ein Beispielcode zum Generieren der Ausgabedatei XLSM mit VBA-Modul und Makrocode.
+Hier ist ein Beispielcode, um die Ausgabedatei XLSM mit VBA-Modul und Makrocode zu generieren.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}

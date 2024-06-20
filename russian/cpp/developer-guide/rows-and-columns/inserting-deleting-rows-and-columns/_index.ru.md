@@ -4,58 +4,59 @@ type: docs
 weight: 40
 url: /ru/cpp/inserting-deleting-rows-and-columns/
 ---
-##  **Введение**
-Независимо от того, создаете ли вы новый лист с нуля или работаете над существующим листом, нам может потребоваться добавить дополнительные строки или столбцы, чтобы разместить больше данных. И наоборот, нам также может потребоваться удалить строки или столбцы из указанных позиций на листе. Чтобы выполнить эти требования, Aspose.Cells предоставляет очень простой набор классов и методов, обсуждаемых ниже.
-###  **Управление строками и столбцами**
- Aspose.Cells предоставляет класс,[Рабочая тетрадь](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) , который представляет файл Excel Microsoft.[Рабочая тетрадь](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) класс содержит[Рабочие листы](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)коллекция, которая обеспечивает доступ к каждому листу в файле Excel. Рабочий лист представлен[Рабочий лист](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) сорт.[Рабочий лист](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) класс обеспечивает[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)коллекция, представляющая все ячейки на листе.
 
-[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)Коллекция предоставляет несколько методов управления строками и столбцами на листе. Некоторые из них обсуждаются ниже.
+## **Введение**
+При создании новой рабочей книги с нуля или работы с существующей рабочей книгой нам может понадобиться добавить дополнительные строки или столбцы для размещения дополнительных данных. Наоборот, нам также может потребоваться удалить строки или столбцы из указанных позиций в рабочем листе. Для выполнения этих требований Aspose.Cells предоставляет очень простой набор классов и методов, описанных ниже.
+### **Управление строками и столбцами**
+Aspose.Cells предоставляет класс [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), который представляет собой файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) содержит коллекцию [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/), которая позволяет получить доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен классом [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Класс [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) предоставляет коллекцию [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/), представляющую все ячейки на рабочем листе.
+
+Коллекция [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) предоставляет несколько методов для управления строками и столбцами на рабочем листе. Некоторые из них описаны ниже.
 
 {{% alert color="primary" %}} 
 
-При добавлении строк или столбцов содержимое листа смещается вниз или вправо, а если строки или столбцы удаляются, содержимое смещается вверх или влево.
+При добавлении строк или столбцов содержимое на рабочем листе сдвигается вниз или вправо, а если строки или столбцы удаляются, содержимое сдвигается вверх или влево.
 
 {{% /alert %}} 
-####  **Вставить строку**
- Вставьте строку на лист в любое место, вызвав метод[Вставитьстроку](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) метод[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) коллекция.[Вставитьстроку](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/)Метод принимает индекс строки, в которую будет вставлена новая строка.
+#### **Вставить строку**
+Вставьте строку в рабочий лист в любом месте, вызвав метод [InsertRow](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) из коллекции [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/). Метод [InsertRow](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) принимает индекс строки, куда будет вставлена новая строка.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-InsertingDeletingRowsAndColumns-InsertRow-new.cpp" >}}
 
 
-####  **Вставка нескольких строк**
- Чтобы вставить несколько строк в лист, вызовите метод[Вставитьстроки](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) метод[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) коллекция.[Вставитьстроки](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/)метод принимает два параметра:
+#### **Вставка нескольких строк**
+Для вставки нескольких строк в рабочий лист вызовите метод [InsertRows](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) из коллекции [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/). Метод [InsertRows](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) принимает два параметра:
 
-- Индекс строки — индекс строки, из которой будут вставлены новые строки.
-- Количество строк — общее количество строк, которые необходимо вставить.
+- Индекс строки, индекс строки, с которой будут вставлены новые строки.
+- Количество строк, общее количество строк, которые необходимо вставить.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-InsertingDeletingRowsAndColumns-InsertingMultipleRows-new.cpp" >}}
 
 
-####  **Удаление нескольких строк**
- Чтобы удалить несколько строк из листа, вызовите метод[Удалитьстроки](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) метод[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) коллекция.[Удалитьстроки](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/)метод принимает два параметра:
+#### **Удаление нескольких строк**
+Для удаления нескольких строк из рабочего листа вызовите метод [DeleteRows](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) из коллекции [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/). Метод [DeleteRows](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) принимает два параметра:
 
-- Индекс строки — индекс строки, из которой строки будут удалены.
-- Количество строк — общее количество строк, которые необходимо удалить.
+- Индекс строки, индекс строки, с которой строки будут удалены.
+- Количество строк, общее количество строк, которые нужно удалить.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-InsertingDeletingRowsAndColumns-DeletingMultipleRows-new.cpp" >}}
 
 
-####  **Вставить столбец**
- Разработчики также могут вставить столбец в рабочий лист в любом месте, вызвав метод[Вставитьколонку](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/) метод[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) коллекция.[Вставитьколонку](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/)Метод принимает индекс столбца, в который будет вставлен новый столбец.
+#### **Вставить столбец**
+Разработчики также могут вставить столбец в рабочий лист в любом месте, вызвав метод [InsertColumn](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/) из коллекции [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/). Метод [InsertColumn](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/) принимает индекс столбца, куда будет вставлен новый столбец.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-InsertingDeletingRowsAndColumns-InsertColumn-new.cpp" >}}
 
 
-####  **Удалить столбец**
- Чтобы удалить столбец с листа в любом месте, вызовите метод[Удалитьколонку](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/) метод[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) коллекция.[Удалитьколонку](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/)Метод принимает индекс столбца, который нужно удалить.
+#### **Удалить столбец**
+Чтобы удалить столбец из рабочего листа в любом месте, вызовите метод [DeleteColumn](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/) из коллекции [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/). Метод [DeleteColumn](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/) принимает индекс столбца для удаления.
 
 
 

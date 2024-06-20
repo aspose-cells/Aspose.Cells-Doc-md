@@ -1,18 +1,19 @@
-﻿---
-title: Aspose.Cells'i kullanarak Pivot Grafikler oluşturun
+---
+title: Aspose.Cells Kullanarak Pivot Grafikleri Oluşturma
 type: docs
 weight: 40
 url: /tr/java/create-pivot-charts-using-aspose-cells/
 ---
-## **Aspose.Cells - Pivot Grafikler Oluştur**
-Pivot tablo, kayıtların etkileşimli bir özetidir. Örneğin, bir çalışma sayfasındaki bir listede yüzlerce fatura girişiniz olabilir. Bir pivot tablo, faturaları müşteriye, ürüne veya tarihe göre toplayabilir. Microsoft Excel ile, düğmeleri yeni bir konuma sürükleyerek pivot tablodaki bilgileri hızlı bir şekilde yeniden düzenlemek mümkündür.
-Pivot grafik, pivot tablodaki verilerin etkileşimli bir grafik temsilidir. Pivot grafikler Excel 2000'de kullanılmaya başlandı. Pivot tablo otomatik olarak ara toplamlar ve toplamlar oluşturduğundan, pivot grafik kullanmak verilerin anlaşılmasını daha da kolaylaştırır.
 
-Aspose.Cells pivot tabloları ve pivot çizelgeleri destekler.
+## **Aspose.Cells - Pivot Grafik Oluşturma**
+Bir özet tablo, kayıtların etkileşimli bir özeti. Örneğin, bir çalışma sayfasındaki bir listede yüzlerce fatura girişiniz olabilir. Bir özet tablo, faturaları müşteri, ürün veya tarihe göre toplayabilir. Microsoft Excel ile özet tablonun düğmeleri sürüklenerek bilgileri hızlı bir şekilde yeniden düzenlemek mümkündür.
+Bir özet grafik, bir özet tablonun verilerinin etkileşimli grafiksel bir temsilidir. Özet grafikler Excel 2000'de tanıtılmıştır. Özet grafik kullanmak, özet tablonun alt toplamlarını ve toplamlarını otomatik olarak oluşturduğu için verileri anlamak daha da kolaylaştırır.
+
+Aspose.Cells, pivot tabloları ve pivot grafiklerini destekler.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating an Workbook object
 
@@ -44,11 +45,11 @@ chart.setHidePivotFieldButtons(false);
 ## **Çalışan Kodu İndir**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/charts/AsposePivotChart.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Pivot Tablolar ve Pivot Grafikler Oluşturun](/cells/tr/java/create-pivot-tables-and-pivot-charts/).
+Daha fazla ayrıntı için [Pivot Tabloları ve Pivot Grafikler Oluşturma](/cells/tr/java/create-pivot-tables-and-pivot-charts/) sayfasını ziyaret edin.
 
 {{% /alert %}}

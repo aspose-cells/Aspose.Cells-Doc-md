@@ -1,13 +1,14 @@
-﻿---
-title: قم بإنشاء ورقة عمل جديدة
+---
+title: إنشاء ورقة العمل الجديدة
 type: docs
 weight: 50
 url: /ar/net/create-new-worksheet/
 ---
-## **Aspose.Cells - تكوين ورقة عمل جديدة**
+
+## **Aspose.Cells - إنشاء ورقة العمل الجديدة**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -25,10 +26,10 @@ workbook.Save("newWorksheet.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - إنشاء ورقة عمل جديدة**
+## **NPOI - HSSF XSSF - إنشاء ورقة العمل الجديدة**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -74,13 +75,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**قم بإنشاء ورقة عمل جديدة** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **إنشاء ورقة العمل الجديدة** من أي من مواقع التحرير الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Create.New.Worksheet.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Create.New.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+لمزيد من التفاصيل، قم بزيارة [العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

@@ -1,21 +1,22 @@
 ---
-title: Salva Excel in PDF con dimensione standard o minima
+title: Salva Excel in PDF con dimensioni standard o minime
 type: docs
 weight: 340
 url: /it/python-net/save-excel-into-pdf-with-standard-or-minimum-size/
-description: Scopri come salvare Excel in PDF con dimensione standard o minima con Aspose.Cells for Python via .NET API.
-keywords: Save Excel into PDF with Standard or Minimum Size using Aspose.Cells for Python via .NET
+description: Scopri come Salvare Excel in PDF con Dimensioni Standard o Minime con Aspose.Cells for Python via .NET API.
+keywords: Salva Excel in PDF con Dimensioni Standard o Minime utilizzando Aspose.Cells for Python via .NET
 ---
+
 {{% alert color="primary" %}} 
 
-Per impostazione predefinita, Aspose.Cells salva Excel in PDF con dimensioni Standard. Tuttavia, puoi anche salvarlo con Dimensione minima utilizzando il file[PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/) proprietà. Accetta i seguenti valori
+Di default, Aspose.Cells salva Excel in PDF con dimensioni Standard. Tuttavia, puoi anche salvarlo con dimensioni Minime utilizzando la proprietà [PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/). Accetta i seguenti valori
 
 - PdfOptimizationType.STANDARD
 - PdfOptimizationType.MINIMUM_SIZE
 
 {{% /alert %}} 
-##  **Salva Excel in PDF con dimensione standard o minima utilizzando Aspose.Cells for Python via .NET**
- Il seguente codice di esempio mostra come salvare Excel in PDF con dimensione Standard o Minima utilizzando[PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/)proprietà.
+## **Salva Excel in PDF con dimensioni standard o minime utilizzando Aspose.Cells per Python via .NET**
+Il seguente codice di esempio mostra come è possibile salvare Excel in PDF con dimensioni standard o minime utilizzando la proprietà [PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/).
 
 
 

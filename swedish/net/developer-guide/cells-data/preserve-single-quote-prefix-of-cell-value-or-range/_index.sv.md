@@ -1,30 +1,31 @@
 ---
-title: Bevara enstaka citatprefix för Cell värde eller intervall
+title: Bevara Enkelkavot Prefix of Cell Value or Range
 type: docs
 weight: 310
 url: /sv/net/preserve-single-quote-prefix-of-cell-value-or-range/
-description: Lär dig hur du bevarar enstaka citatprefix för Cell värde eller intervall genom Aspose.Cells for .NET API.
-keywords: Preserve Single Quote Prefix of Cell Value or Range, Hide leading apostrophe or single quote mark, Show leading apostrophe or single quote mark
+description: Lär dig hur man bevarar enkla citattecken eller en räckesprefix genom Aspose.Cells for .NET API.
+keywords: Bevara enkla citattecken eller en räckesprefix, Göm ledande apostrof eller enkla citattecken, Visa ledande apostrof eller enkla citattecken
 ---
-##  **Möjliga användningsscenarier**
 
-När du lägger ett värde inuti cellen som har inledande apostrof eller enstaka citattecken, döljer Microsoft Excel det, men när du markerar cellen visar den den inledande apostrof eller enstaka citattecken i en formelrad som visas i följande skärmdump.
+## **Möjliga användningsscenario**
+
+När du sätter ett värde i cellen som har ledande apostrof eller citattecken, döljer sedan Microsoft Excel det, men när du väljer cellen visas den ledande apostrof eller citattecken i en formlerad som visas i följande skärmbild.
 
 ![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-Aspose.Cells döljer också den ledande apostrof eller enstaka citat som Microsoft Excel men det ställer in[**Style.CitatPrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) som**Sann** för den cellen. Om du ställer in en tom stil för cellen, då[**Style.CitatPrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) blir**falsk** igen. För att hantera denna fråga tillhandahåller Aspose.Cells[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) egenskap, när den är inställd**false**, då uppdateras inte [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) alls och dess gamla värde bevaras . Det betyder att om det gamla värdet för egenskapen [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) var **true**, så kommer att förbli **sant** och om det gamla värdet var *falskt** förblir det *falskt**.
+Aspose.Cells gömmer också det ledande apostrofen eller enkla citattecknet som Microsoft Excel, men det sätter [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) som **true** för den cellen. Om du ställer in en tom stil för cellen blir [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) **false** igen. För att hantera detta problem tillhandahåller Aspose.Cells egendomen [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix), när den är inställd på **false**, uppdateras inte [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) alls och dess gamla värde bevaras. Det betyder att om det gamla värdet för egenskapen [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) var **true**, kommer det förbli **true** och om det gamla värdet var **false**, kommer det förbli **false**.
 
-##  **Bevara enstaka citatprefix för Cell värde eller intervall**
+## **Bevara enskild citattecken prefiks av cellvärde eller område**
 
-Följande exempelkod förklarar användningen av[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)egendom som beskrivits tidigare. Vänligen läs kommentarerna i koden och se konsolutgången för koden nedan för mer hjälp.
+Följande exempelkod förklarar användningen av egenskapen [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) som tidigare beskrivits. Läs kommentarerna inne i koden och se konsolresultatet för koden nedan för mer hjälp.
 
-##  **Exempelkod**
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
 
-##  **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Quote Prefix of Cell A1: False
 

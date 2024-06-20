@@ -1,20 +1,21 @@
-﻿---
-title: レンダリング用ワークシートのカスタム用紙サイズの実装
+---
+title: レンダリング用のワークシートのカスタム用紙サイズを実装する
 type: docs
 weight: 30
 url: /ja/java/implement-custom-paper-size-of-worksheet-for-rendering/
 ---
-## **考えられる使用シナリオ**
 
-MS Excel でカスタム用紙サイズを作成するための直接的なオプションはありませんが、Excel ファイルを PDF ファイル形式にレンダリングするときに、目的のワークシートのカスタム用紙サイズを設定できます。このドキュメントでは、Aspose.Cells API を使用してワークシートのカスタム用紙サイズを設定する方法について説明します。
+## **可能な使用シナリオ**
 
-## **レンダリング用ワークシートのカスタム用紙サイズの実装**
+MS Excelにはカスタム用紙サイズを作成する直接的なオプションはありませんが、ExcelファイルをPDFファイル形式にレンダリングする際に、希望のワークシートのカスタム用紙サイズを設定することができます。この文書では、Aspose.Cells APIを使用してワークシートのカスタム用紙サイズを設定する方法について説明します。
 
-Aspose.Cells を使用すると、ワークシートの目的の用紙サイズを実装できます。[**カスタム用紙サイズ**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double) の方法[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup).次のサンプル コードは、ブックの最初のワークシートにカスタム用紙サイズを指定する方法を示しています。もご覧ください[出力 PDF](45056030.pdf)参照用に次のコードで生成されます。
+## **レンダリングのためのワークシートのカスタム用紙サイズを実装する**
+
+Aspose.Cellsを使用すると、ワークシートの希望する用紙サイズを [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) の [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) メソッドを使用して指定できます。次のサンプルコードは、ワークブック内の最初のワークシートのカスタム用紙サイズを指定する方法を説明しています。参照のために、以下のコードによって生成された [出力PDF](45056030.pdf) もご覧ください。
 
 ## **スクリーンショット**
 
-![todo:画像_代替_文章](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+![todo:image_alt_text](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
 
 ## **サンプルコード**
 

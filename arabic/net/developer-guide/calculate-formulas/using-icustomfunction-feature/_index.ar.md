@@ -1,46 +1,47 @@
 ---
 title: استخدام ميزة ICustomFunction
-description: توضح هذه المقالة كيفية إنشاء دالة مخصصة في Microsoft Excel باستخدام ميزة ICustomFunction في مكتبة Aspose.Cells. من خلال تحميل ملف Excel موجود أو إنشاء ملف Excel جديد، يمكننا استخدام الطرق التي يوفرها Aspose.Cells لتحديد وتسجيل الوظائف المخصصة والحصول على النتائج. وأخيرًا، نقوم بحفظ ملف Excel المعدل على القرص.
-keywords: Aspose.Cells, Excel, ICustomFunction features, custom functions
+description: يصف هذا المقال كيفية إنشاء وظيفة مخصصة في Microsoft Excel باستخدام ميزة ICustomFunction في مكتبة Aspose.Cells. من خلال تحميل ملف Excel الحالي أو إنشاء ملف Excel جديد ، يمكننا استخدام الطرق المقدمة من Aspose.Cells لتعريف وتسجيل الوظائف المخصصة والحصول على النتائج. في النهاية ، نقوم بحفظ ملف Excel المعدل على القرص.
+keywords: Aspose.Cells، Excel، ميزات ICustomFunction، وظائف مخصصة
 type: docs
 weight: 30
 url: /ar/net/using-icustomfunction-feature/
 ---
+
 {{% alert color="primary" %}} 
 
-توفر هذه المقالة فهمًا تفصيليًا لكيفية استخدام ميزة ICustomFunction لتنفيذ الوظائف المخصصة باستخدام واجهات برمجة التطبيقات Aspose.Cells.
+يوفر هذا المقال فهمًا مفصلًا لكيفية استخدام ميزة ICustomFunction لتنفيذ الوظائف المخصصة باستخدام واجهات برمجة التطبيقات (APIs) لـ Aspose.Cells.
 
-تسمح واجهة ICustomFunction بإضافة وظائف حساب الصيغة المخصصة لتوسيع محرك الحساب الأساسي Aspose.Cells من أجل تلبية متطلبات معينة. هذه الميزة مفيدة لتحديد الوظائف المخصصة (المحددة من قبل المستخدم) في ملف قالب أو في التعليمات البرمجية حيث يمكن تنفيذ الوظيفة المخصصة وتقييمها باستخدام Aspose.Cells APIs مثل أي وظيفة Excel افتراضية أخرى Microsoft.
+تسمح واجهة ICustomFunction بإضافة وظائف حساب المعادلة المخصصة لتوسيع محرك الحساب الأساسي لـ Aspose.Cells من أجل تلبية متطلبات معينة. تُستخدم هذه الميزة لتعريف الوظائف المخصصة (تعريف المستخدم) في ملف نموذج أو في الكود حيث يمكن تنفيذ الوظيفة المخصصة وتقييمها باستخدام واجهات برمجة التطبيقات (APIs) لـ Aspose.Cells مثل أي وظيفة افتراضية أخرى في Microsoft Excel.
 
- يرجى ملاحظة أنه تم استبدال هذه الواجهة بـ[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/)وسيتم إزالتها في المستقبل. بعض المقالات/الأمثلة الفنية حول API الجديد:[هنا](/cells/ar/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) و[هنا](/cells/ar/net/returning-a-range-of-values-using-abstractcalculationengine/)
+يرجى ملاحظة أن هذه الواجهة قد تم استبدالها بـ [AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) وستُزال في المستقبل. بعض المقالات الفنية/الأمثلة حول الواجهة البرمجية الجديدة: [هنا](/cells/ar/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) و[هنا](/cells/ar/net/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} 
-##  **إنشاء وتقييم وظيفة محددة من قبل المستخدم**
- توضح هذه المقالة تنفيذ واجهة ICustomFunction لكتابة دالة مخصصة واستخدامها في جدول البيانات للحصول على النتائج. سوف نقوم بتحديد وظيفة مخصصة بالاسم**MyFunc** والتي سوف تقبل معلمتين مع التفاصيل التالية.
+## **إنشاء وتقييم وظيفة معرفة المستخدم**
+يُظهر هذا المقال تنفيذ واجهة ICustomFunction لكتابة وظيفة مخصصة واستخدامها في جدول البيانات للحصول على النتائج. سنقوم بتحديد وظيفة مخصصة بالاسم **MyFunc** التي ستقبل 2 معلمة بالتفاصيل التالية.
 
-- تشير المعلمة الأولى إلى خلية واحدة
-- تشير المعلمة الثانية إلى نطاق من الخلايا
+- يشير المعلم الأول إلى خلية واحدة
+- يشير المعلم الثاني إلى مجموعة من الخلايا
 
-ستضيف الوظيفة المخصصة جميع القيم من نطاق الخلايا المحدد كمعلمة ثانية وتقسم النتيجة على القيمة الموجودة في المعلمة الأولى.
+سيقوم الدالة المخصصة بإضافة جميع القيم من نطاق الخلية المحدد كمعلم ثاني وتقسيم النتيجة على القيمة في المعلم الأول.
 
-إليك كيفية تنفيذ طريقة CalculateCustomFunction.
+هنا كيف قمنا بتنفيذ طريقة CalculateCustomFunction.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-UsingICustomFunctionfeature-ICustomFunction.cs" >}}
 
 
-فيما يلي كيفية استخدام الوظيفة المحددة حديثًا في جدول البيانات
+هنا كيفية استخدام الدالة المحددة حديثا في جدول بيانات
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-UsingICustomFunctionfeature-UsingICustomFunctionFeature.cs" >}}
-##  **ملخص**
-تقوم واجهات برمجة التطبيقات Aspose.Cells فقط بوضع كائن ReferredArea في "paramsList" عندما تكون المعلمة المقابلة مرجعًا أو تكون النتيجة المحسوبة مرجعًا. إذا كنت بحاجة إلى المرجع نفسه، فيمكنك استخدام المنطقة المشار إليها مباشرة. إذا كنت تريد الحصول على قيمة خلية واحدة من المرجع المتوافق مع موضع الصيغة، فيمكنك استخدام طريقة ReferredArea.GetValue(rowOffset, int colOffset). إذا كنت بحاجة إلى مصفوفة قيم الخلايا للمنطقة بأكملها، فيمكنك استخدام طريقة ReferredArea.GetValues.
+## **نظرة عامة**
+تضع واجهات برمجة التطبيقات للخلايا Aspose.Cells كائن ReferredArea في "paramsList" عندما يكون المعلم المقابل مرجعًا أو نتاجه المحسوب هو مرجع. إذا كنت بحاجة إلى المرجع نفسه ثم يمكنك استخدام ReferredArea مباشرة. إذا كنت تحتاج إلى الحصول على قيمة خلية واحدة من المرجع المقابل مع وضع الصيغة، يمكنك استخدام طريقة ReferredArea.GetValue(rowOffset، int colOffset). إذا كنت بحاجة إلى مجموعة قيم الخلية للمنطقة بأكملها ثم يمكنك استخدام طريقة ReferredArea.GetValues.
 
-نظرًا لأن واجهات برمجة التطبيقات Aspose.Cells تعطي المنطقة المشار إليها في "paramsList"، فلن تكون هناك حاجة إلى ReferredAreaCollection في "contextObjects" بعد الآن (في الإصدارات القديمة لم يكن قادرًا على إعطاء خريطة فردية لمعلمات الوظيفة المخصصة دائمًا) لذلك تمت إزالته من "كائنات السياق".
+نظرًا لأن واجهات برمجة التطبيقات Aspose.Cells تقدم ReferredArea في "paramsList"، فستكون مجموعة ReferredArea في "contextObjects" غير مطلوبة بعد الآن (في الإصدارات القديمة لم تكن دائمًا قادرة على تقديم خريطة واحد إلى واحد لمعلمات الدالة المخصصة) ولذلك تمت إزالتها من "contextObjects".
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 

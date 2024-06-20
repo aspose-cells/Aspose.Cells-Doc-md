@@ -1,4 +1,4 @@
-﻿---
+---
 title: Çalışma Kitabı VBA Projesi
 linktitle: Makro Projesi
 type: docs

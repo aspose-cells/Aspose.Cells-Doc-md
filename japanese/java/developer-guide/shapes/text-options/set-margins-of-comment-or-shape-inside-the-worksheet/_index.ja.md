@@ -1,18 +1,19 @@
-﻿---
-title: ワークシート内のコメントまたはシェイプの余白を設定する
+---
+title: ワークシート内のコメントまたは図形の余白を設定する
 type: docs
 weight: 90
 url: /ja/java/set-margins-of-comment-or-shape-inside-the-worksheet/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells を使用すると、任意の図形またはコメントの余白を設定できます。[**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#TextAlignment)財産。このプロパティは、のオブジェクトを返します[**ShapeTextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeTextAlignment)たとえば、さまざまなプロパティを持つクラス[**上余白ポイント**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#TopMarginPt), [**左余白ポイント**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#LeftMarginPt), [**BottomMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#BottomMarginPt), [**右余白点**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RightMarginPt)などを使用して、上、左、下、右の余白を設定できます。
+## **可能な使用シナリオ**
 
-## **ワークシート内のコメントまたはシェイプの余白を設定する**
+Aspose.Cellsを使用して、[**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#TextAlignment) プロパティを使用して任意の図形またはコメントの余白を設定できます。このプロパティは、上部、左部、下部、右部の余白を設定するために使用できる[**ShapeTextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeTextAlignment) クラスのオブジェクトを返します。
 
-以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](61767867.xlsx) つの形状が含まれています。このコードは、図形に 1 つずつアクセスし、上、左、下、および右の余白を設定します。をご覧ください[出力エクセルファイル](61767866.xlsx)出力 Excel ファイルに対するコードの効果を示すコードとスクリーンショットによって生成されます。
+## **ワークシート内のコメントまたは図形の余白を設定する**
 
-![todo:画像_代替_文章](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
+次のサンプルコードをご覧ください。このコードは、2つの図形を含む[sample Excel file](61767867.xlsx)をロードし、その図形ごとに上部、左部、下部、右部の余白を設定します。コードで生成された[output Excel file](61767866.xlsx)と、それに対するコードの効果を示すスクリーンショットを参照してください。
+
+![todo:image_alt_text](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
 
 ## **サンプルコード**
 

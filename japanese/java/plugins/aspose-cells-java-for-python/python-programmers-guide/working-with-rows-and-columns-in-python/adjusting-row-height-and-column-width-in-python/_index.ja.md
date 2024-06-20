@@ -1,21 +1,22 @@
-﻿---
-title: Python で行の高さと列の幅を調整する
+---
+title: Pythonにおける行の高さと列の幅の調整
 type: docs
 weight: 10
 url: /ja/java/adjusting-row-height-and-column-width-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel pytho
-description: Python Excel API を使用して、Python で Excel ファイルを作成します。MS Office を使用しない Python アプリケーションでは、XLSX または XLS で行の高さと列の幅を調整します。
+keywords: PythonでXLSXを作成、PythonでXLSを作成、XLS python、XLSX python、行の高さ python、列の幅 python、Excel pythonの作成
+description: PythonでExcelファイルを作成するためにPython Excel APIを使用します。MS Officeを使用せずに、PythonアプリケーションでXLSXまたはXLSの行の高さと列の幅を調整します。
 ---
-## **Python の Excel スプレッドシート - 行の高さと列の幅の調整**
+
+## **PythonでExcelスプレッドシート - 行の高さと列の幅を調整**
 ### **行の高さの設定**
-Aspose.Cells では、Cells コレクションの setRowHeight メソッドを呼び出すことで、Python の 1 つの行の高さを設定できます。 setRowHeight メソッドは、次のパラメーターを取ります。
+Aspose.Cellsを使用すると、CellsコレクションのsetRowHeightメソッドを呼び出すことで、Pythonで単一の行の高さを設定できます。setRowHeightメソッドには以下のパラメータが必要です。
 
-- **行インデックス**、高さを変更する行のインデックス。
-- **行の高さ**、行に適用する行の高さ。
+- **行インデックス**：高さを変更する行のインデックス。
+- **行の高さ**：行に適用する行の高さ。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_row_height(self):
 
@@ -40,15 +41,15 @@ workbook.save(self.dataDir + "Set Row Height.xls")
 print "Set Row Height Successfully." 
 
 {{< /highlight >}}
-### **列幅の設定**
-Cells コレクションの setColumnWidth メソッドを呼び出して、列の幅を設定します。 setColumnWidth メソッドは、次のパラメーターを取ります。
+### **列の幅の設定**
+Cells 集合の setColumnWidth メソッドを呼び出すことで、列の幅を設定することが可能です。 setColumnWidth メソッドは、以下のパラメータを取ります。
 
-- **列インデックス**、幅を変更する列のインデックス。
-- **列幅**、目的の列幅。
+- **列インデックス**：幅を変更する列のインデックス。
+- **列の幅**：設定したい列の幅。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_column_width(self):
 
@@ -73,7 +74,7 @@ workbook.save(self.dataDir + "Set Column Width.xls")
 print "Set Column Width Successfully." 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**行の高さと列の幅を調整する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから、**Adjusting Row Height and Column Width (Aspose.Cells)** をダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

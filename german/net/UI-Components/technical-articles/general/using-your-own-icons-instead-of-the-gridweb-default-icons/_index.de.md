@@ -1,20 +1,23 @@
-﻿---
-title: Verwenden Ihrer eigenen Symbole anstelle der GridWeb-Standardsymbole
+---
+title: Verwenden Sie Ihre eigenen Symbole anstelle der standardmäßigen GridWeb Symbole
 type: docs
 weight: 10
-url: /de/net/using-your-own-icons-instead-of-the-gridweb-default-icons/
+url: /de/net/aspose-cells-gridweb/use-your-own-icons-instead-of-the-default-icons/
+keywords: GridWeb, Symbol, Symbole
+description: Dieser Artikel beschreibt, wie Symbole in GridWeb verwendet werden.
 ---
+
 {{% alert color="primary" %}} 
 
-Manchmal möchten Sie möglicherweise Ihre eigenen Symbole (Bilder) anstelle der Standardsymbole des Steuerelements Aspose.Cells.GridWeb verwenden. Dieser Artikel erklärt, wie das geht.
+Manchmal möchten Sie möglicherweise Ihre eigenen Symbole (Bilder) anstelle der standardmäßigen Symbole der Aspose.Cells.GridWeb-Steuerung verwenden. Dieser Artikel erklärt, wie das gemacht werden kann.
 
 {{% /alert %}} 
 
-Die Standardsymbole des Steuerelements befinden sich im URL-Pfad „/acw_client/". Der Dateipfad kann lauten: "C:\Programme\Aspose\Aspose.Cells for .NET\acw_client" standardmäßig. In diesem Ordner finden Sie Dateien wie submit.gif, save.gif usw. Wenn Sie diese Bilder durch Ihre eigenen ersetzen möchten, fügen Sie einen Konfigurationsabschnitt zur Datei web.config Ihrer Webanwendung hinzu.
+Die standardmäßigen Symbole der Steuerung befinden sich im URL-Pfad "/acw_client/". Der Dateipfad ist standardmäßig "C:\Program Files\Aspose\Aspose.Cells for .NET\acw_client". In diesem Ordner finden Sie Dateien wie submit.gif, save.gif usw. Wenn Sie diese Bilder durch eigene ersetzen möchten, fügen Sie einen Konfigurationsabschnitt zur Web.config-Datei Ihrer Webanwendung hinzu.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <appSettings>
 
@@ -26,10 +29,10 @@ Die Standardsymbole des Steuerelements befinden sich im URL-Pfad „/acw_client/
 
 {{< /highlight >}}
 
-Sie haben vielleicht bemerkt, dass diese Konfiguration nur den Bildpfad des Steuerelements betrifft und nicht den Client-Skriptpfad des Steuerelements. Wenn Sie beispielsweise Ihre Seite mit dem GridWeb-Steuerelement ausführen und die Quelldatei im Browser überprüfen, stellen Sie möglicherweise fest, dass die acw_ Klient_path-Eigenschaft des DIV-Elements des Grids sagt immer noch: „/yourApp/webform1.aspx/“. In einigen Fällen müssen Sie möglicherweise den Client-Skriptpfad neu definieren. Um das Steuerelement zu zwingen, den neu definierten Bildpfad als Client-Skriptpfad zu verwenden, fügen Sie eine weitere Konfigurationseinstellung im Abschnitt „appSettings“ hinzu
+Sie haben möglicherweise bemerkt, dass diese Konfiguration nur den Bildpfad der Steuerung betrifft und den Client-Skript-Pfad der Steuerung nicht beeinflusst. Wenn Sie beispielsweise Ihre Seite mit der GridWeb-Steuerung ausführen und die Quelldatei im Browser überprüfen, finden Sie möglicherweise, dass die acw_client _path-Eigenschaft des DIV-Elements der Tabelle immer noch sagt: "/IhreApp/webform1.aspx/". In einigen Fällen müssen Sie möglicherweise den Client-Skript-Pfad neu definieren. Um die Steuerung zu zwingen, den neu definierten Bildpfad als Client-Skript-Pfad zu verwenden, fügen Sie eine weitere Konfigurationseinstellung im appSettings-Bereich hinzu.
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <add key="Aspose.Cells.GridWeb.force_script_path" value="true" />
 
@@ -39,6 +42,6 @@ Sie haben vielleicht bemerkt, dass diese Konfiguration nur den Bildpfad des Steu
 
 {{% alert color="primary" %}} 
 
-Diese Konfiguration wird nur mit der lizenzierten Steuerung wirksam.
+Diese Konfiguration wirkt sich nur auf die lizenzierte Steuerung aus.
 
 {{% /alert %}}

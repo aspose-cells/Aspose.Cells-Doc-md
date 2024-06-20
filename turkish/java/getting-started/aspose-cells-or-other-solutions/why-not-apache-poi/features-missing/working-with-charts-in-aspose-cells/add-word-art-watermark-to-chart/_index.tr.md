@@ -1,15 +1,16 @@
-﻿---
-title: Grafiğe Word Art Filigranı Ekleyin
+---
+title: Tabloya Word Art Filigran Ekle
 type: docs
 weight: 10
 url: /tr/java/add-word-art-watermark-to-chart/
 ---
-## **Aspose.Cells - Grafiğe Word Art Filigranı Ekleyin**
-Elektronik tablolara özel metin efektleri eklemek için WordArt'ı kullanabilirsiniz. Örneğin, bir başlığı genişletin, metni süsleyin, metni önceden ayarlanmış bir şekle sığdırın veya etkilenen metni bir grafiğin çizim alanına filigran olarak uygulayın. WordArt, dekorasyon eklemek için elektronik tablolarınızda taşıyabileceğiniz veya konumlandırabileceğiniz bir nesne haline gelir.
+
+## **Aspose.Cells - Tabloya Word Art Filigran Ekle**
+Tablolara özel metin efektlerini eklemek için WordArt'ı kullanabilirsiniz. Örneğin, bir başlığı gererek, metni süsleyerek, metni önceden belirlenmiş bir şekile sığdırarak veya etkilenen metni bir grafik bölgesine filigran olarak uygulayarak elektronik tablolarınıza dekorasyon ekleyebilirsiniz. WordArt, elektronik tablonuza hareket ettirebileceğiniz veya konumlandırabileceğiniz bir nesne olur.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook.
 
@@ -47,11 +48,11 @@ workbook.save(dataDir + "AsposeChartWatermarked_Out.xls", SaveFormat.EXCEL_97_TO
 ## **Çalışan Kodu İndir**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/charts/AddWordArtWatermarkToChart.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Grafiğe WordArt Filigranı Ekleme](/cells/tr/java/add-wordart-watermark-to-chart).
+Daha fazla bilgi için [Tabloya Word Art Filigranı Ekle](/cells/tr/java/add-wordart-watermark-to-chart)'ı ziyaret edin.
 
 {{% /alert %}}

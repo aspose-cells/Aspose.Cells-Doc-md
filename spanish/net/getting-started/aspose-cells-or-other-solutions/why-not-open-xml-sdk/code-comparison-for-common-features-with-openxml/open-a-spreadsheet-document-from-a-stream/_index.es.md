@@ -1,11 +1,12 @@
-﻿---
-title: Abrir un documento de hoja de cálculo desde una secuencia
+---
+title: Abrir un documento de hoja de cálculo desde un flujo
 type: docs
 weight: 110
 url: /es/net/open-a-spreadsheet-document-from-a-stream/
 ---
-## **Excel XML abierto**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -73,7 +74,7 @@ public static void OpenAndAddToSpreadsheetStream(Stream stream)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -98,7 +99,7 @@ public static void OpenAndAddToSpreadsheetStream(Stream stream)
 }
 
 {{< /highlight >}}
-## **Descargar ejemplo de código en ejecución**
+## **Descargar Ejemplo de Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
 ## **Código de muestra**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Open%20from%20a%20stream/OpenXML%20Spreadshhets)

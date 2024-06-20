@@ -1,5 +1,5 @@
-﻿---
-title: Administrar cuadro de texto
+---
+title: Gestionar TextBox
 type: docs
 weight: 20
 url: /es/java/managing-textbox-of-excel/

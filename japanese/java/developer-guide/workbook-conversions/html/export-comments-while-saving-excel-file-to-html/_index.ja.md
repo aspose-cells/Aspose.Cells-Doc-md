@@ -1,18 +1,19 @@
-﻿---
-title: ExcelファイルをHTMLに保存しながらコメントをエクスポートする
+---
+title: Excel ファイルを HTML に保存する際にコメントをエクスポート
 type: docs
 weight: 40
 url: /ja/java/export-comments-while-saving-excel-file-to-html/
 ---
-## **考えられる使用シナリオ**
 
-Excel ファイルを HTML に保存すると、コメントがエクスポートされません。ただし、Aspose.Cells は、[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments)財産。設定すれば**真実**、次に HTML は、Excel ファイルに存在するコメントも表示します。
+## **可能な使用シナリオ**
 
-## **ExcelファイルをHtmlに保存しながらコメントをエクスポート**
+Excel ファイルを HTML に保存する際、コメントはエクスポートされません。ただし、Aspose.Cells ではこの機能を [**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments) プロパティを使用して提供しています。true に設定すると、HTML に Excel ファイル内のコメントが表示されます。
 
-次のサンプル コードは、[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments)財産。スクリーンショットは、プロパティがに設定されている場合の HTML に対するコードの効果を示しています。**真実**.をダウンロードしてください[サンプル Excel ファイル](50528270.xlsx)そしてその[生成された HTML](50528269)参考までに。
+## **Excel ファイルを HTML に保存する際にコメントをエクスポート**
 
-![todo:画像_代替_文章](export-comments-while-saving-excel-file-to-html_1.png)
+次のサンプルコードは、[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments) プロパティの使用方法を説明しています。コードが true に設定されたときの HTML への影響を示すスクリーンショットです。参照には、[サンプル Excel ファイル](50528270.xlsx) と生成された[HTML](50528269) をダウンロードしてください。
+
+![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 
 ## **サンプルコード**
 

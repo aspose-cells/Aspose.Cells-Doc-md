@@ -1,15 +1,16 @@
-﻿---
-title: حماية أوراق العمل في Php
+---
+title: حماية الأوراق العمل في PHP
 type: docs
 weight: 10
 url: /ar/java/protecting-worksheets-in-php/
 ---
-## **Aspose.Cells - حماية أوراق العمل**
- لحماية ورقة العمل باستخدام**Aspose.Cells Java for PHP** ، مكالمة**حماية_ورقة العمل** طريقة**الحماية** وحدة.
+
+## **Aspose.Cells - حماية ورقة عمل**
+لحماية ورقة العمل باستخدام **Aspose.Cells Java for PHP**, اتصل بطريقة **protect_worksheet** في وحدة **protection**.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -40,7 +41,7 @@ $protection->setPassword("1234");
 $excel->save($dataDir . "output.xls");  
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**حماية أوراق العمل (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **حماية الأوراق العمل (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/ProtectingWorksheet.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/ProtectingWorksheet.php)

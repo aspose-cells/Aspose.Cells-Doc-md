@@ -1,6 +1,8 @@
-﻿---
-title: GridDesktop の操作
+---
+title: GridDesktopでの作業
 type: docs
 weight: 30
-url: /ja/net/working-with-griddesktop/
+url: /ja/net/aspose-cells-griddesktop/working-with-griddesktop/
 ---
+
+

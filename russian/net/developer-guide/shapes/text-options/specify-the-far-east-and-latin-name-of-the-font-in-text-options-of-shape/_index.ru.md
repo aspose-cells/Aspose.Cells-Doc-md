@@ -1,18 +1,19 @@
-﻿---
-title: Укажите дальневосточное и латинское название шрифта в параметрах текста формы.
+---
+title: Укажите Дальний Восток и латинское название шрифта в опциях текста формы
 type: docs
 weight: 1600
 url: /ru/net/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/
 ---
+
 ## **Возможные сценарии использования**
 
-Иногда требуется отобразить текст шрифтом дальневосточного языка, например, японского, китайского, тайского и т. д. Aspose.Cells обеспечивает[**TextOptions.FarEastName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/fareastname)свойство, которое можно использовать для указания названия шрифта дальневосточного языка. Кроме того, вы также можете указать имя латинского шрифта, используя[**TextOptions.LatinName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/latinname)имущество.
+Иногда вам может потребоваться отображать текст шрифтом на Дальнем Востоке, например, японским, китайским, тайским и т. д. Aspose.Cells предоставляет свойство [**TextOptions.FarEastName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/fareastname), которое можно использовать для указания названия шрифта на Дальнем Востоке. Кроме того, можно указать также латинское название шрифта с помощью свойства [**TextOptions.LatinName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/latinname).
 
-## **Укажите дальневосточное и латинское название шрифта в параметрах текста формы.**
+## **Укажите Дальний Восток и латинское название шрифта в опциях текста формы**
 
- Следующий пример кода создает текстовое поле и добавляет в него текст на японском языке. Затем он указывает латинские и дальневосточные имена шрифтов текста и сохраняет книгу как[выходной файл Excel](67338274.xlsx). На следующем снимке экрана показаны латинские и дальневосточные шрифты выходного текстового поля в Microsoft Excel.
+Приведенный ниже образец кода создает текстовое поле и добавляет в него некоторый японский текст. Затем указываются имена шрифтов для латинского и дальневосточного текста и сохраняется книга как [выходной файл Excel](67338274.xlsx). Ниже приведено скриншот, показывающий имена шрифтов для латинского и дальневосточного текста в текстовом поле выходного файла в Microsoft Excel.
 
-![дело:изображение_альтернативный_текст](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
+![todo:image_alt_text](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
 
 ## **Образец кода**
 

@@ -1,80 +1,81 @@
-﻿---
-title: Linux'ta TrueType Yazı Tiplerini Kurma
+---
+title: Linux ta TrueType Fontlarını Nasıl Yükleyebilirsiniz
 type: docs
 weight: 20
 url: /tr/java/how-to-install-truetype-fonts-on-linux/
 ---
-{{% alert color="primary" %}}
-
-En olası senaryo, elektronik tabloları PDF'e dönüştürmek için Aspose.Cells'i kullanmanızdır. Bunu Linux gibi Windows tabanlı olmayan bir işletim sisteminde yapıyorsanız, bu konuda Aspose.Cells'in elektronik tablolarınızı en iyi doğrulukla işlemesini nasıl sağlayacağınız açıklanmaktadır.
-
-Aspose.Cells tarafından dönüştürülen elektronik tabloların orijinaline olabildiğince yakın görünmesini sağlamak için Linux sisteminize "Windows yazı tipleri" veya "TrueType yazı tipleri" yüklemeniz gerekebilir çünkü en sık kullanılan TrueType yazı tipleri önceden yüklenmiş olarak gelmez. Varsayılan olarak Linux dağıtımları.
-
-Bir Linux sisteminde TrueType yazı tiplerini almanın iki ana yolu vardır:
-
-1. Bir Windows makinesinden Linux makinenize yazı tipi dosyalarını (.TTF ve .TTC) kopyalayın.
-1. msttcorefonts gibi bir TrueType yazı tipi paketi kurun.
-
-{{% /alert %}}
-
-## **Bir Windows Makinesinden Yazı Tiplerini Kopyalayın**
-
-Kolay ve hızlı bir yol, .TTF ve .TTC dosyalarını bir Windows makinesindeki C:\Windows\Fonts dizininden Linux makinenizdeki bir dizine kopyalamaktır. Bu fontları herhangi bir şekilde Linux üzerinde kurmanız veya kaydettirmeniz gerekmez, uygulamanızda FontConfigs.setFontFolder yöntemini kullanarak fontların konumunu belirtmeniz yeterlidir.
 
 {{% alert color="primary" %}}
 
-Anlayabildiğimiz kadarıyla, Microsoft yazı tiplerini herkesin özgürce kullanması için lisanslıyor, ancak lütfen yazı tipi lisanslarını kendiniz kontrol edin.
+Muhtemelen sen Aspose.Cells'i elektronik tabloları PDF'e dönüştürmek için kullanıyorsun. Eğer bunu Linux gibi Windows olmayan bir işletim sistemi üzerinde yapıyorsanız, bu konu Aspose.Cells'in elektronik tablolarınızı en iyi sadakatle renderlamasını nasıl sağlayacağını açıklar.
+
+Aspose.Cells tarafından dönüştürülen elektronik tabloların orijinale mümkün olan en yakın şekilde görünmesini sağlamak için, Linux sisteminize "Windows fontları" veya "TrueType fontları" yüklemeniz gerekebilir, çünkü en yaygın kullanılan TrueType fontlar Linux dağıtımlarıyla varsayılan olarak gelmez.
+
+Linux sistemine TrueType fontları almanın iki ana yolu vardır:
+
+1. Windows makinesinden font dosyalarını (.TTF ve .TTC) Linux makinenize kopyalayın.
+1. msttcorefonts gibi bir TrueType font paketi yükleyin.
 
 {{% /alert %}}
 
-## **Bir TrueType Yazı Tipleri Paketi Kurun**
+## **Bir Windows Makinesinden Yazı Tiplerini Kopyalama**
 
-Aşağıda verilen bilgiler, Microsoft'in en ünlü TrueType yazı tiplerini Fedora ve Red Hat Enterprise Linux (RHEL) gibi Linux dağıtımlarına yüklemek için size adım adım rehberlik edecektir.
+Windows makinesinin C:\Windows\Fonts dizininden .TTF ve .TTC dosyalarını Linux makinenizdeki bir dizine kopyalamak için kolay ve hızlı bir yol. Bu yazı tiplerini Linux'ta herhangi bir şekilde yüklemenize veya kaydetmenize gerek yok, uygulamanızda FontConfigs.setFontFolder yöntemini kullanarak yazı tiplerinin konumunu belirtmeniz yeterli.
 
 {{% alert color="primary" %}}
 
-'root' düzeyinde ayrıcalıklara ihtiyaç duyabilirsiniz, bu nedenle 'root' olarak oturum açın veya sudo'yu yapılandırın.
+Microsoft'un yazı tiplerini özgürce kullanmak için lisansladığını belirleyebildiğimiz kadarıyla, ancak lütfen yazı tipi lisansını kendiniz kontrol edin.
 
 {{% /alert %}}
 
-İşte Terminal kullanarak bunu nasıl yapacağınız.
+## **TrueType Yazı Tipleri Paketi Yükleme**
 
-1. Aşağıdaki RPM paketlerinin kurulu olduğundan emin olun.
-   1. **rpm-inşa**: Kurulu değilse, rpm-build paketini kurmak için aşağıdaki komutu kullanın
+Aşağıdaki bilgiler, Fedora ve Red Hat Enterprise Linux (RHEL) gibi Linux dağıtımlarına Microsoft'un en ünlü TrueType yazı tiplerini nasıl yükleyeceğinizi adım adım gösterecektir.
 
-{{< highlight "java" >}}
+{{% alert color="primary" %}}
+
+'root' seviye yetkilerine ihtiyacınız olabilir, bu nedenle 'root' olarak oturum açın veya sudo yapılandırın.
+
+{{% /alert %}}
+
+Bunu Terminal kullanarak nasıl yapılacağı
+
+1. Aşağıdaki RPM paketlerinin yüklü olduğundan emin olun.
+   1. **rpm-build**: Yüklü değilse, rpm-build paketini yüklemek için aşağıdaki komutu kullanın
+
+{{< highlight java >}}
 
 yum install rpm-build cabextract ttmkfdir
 
 {{< /highlight >}}
 
-1. **wget**: Kurulu değilse, aşağıdaki komutu kullanın
+1. **wget**: Yüklü değilse, aşağıdaki komutu kullanarak yükleyin
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 yum \-y install wget
 
 {{< /highlight >}}
 
-1. Aşağıdaki komutu kullanarak SourceForge'dan en son msttcorefonts spec dosyasını indirin,
+1. En son msttcorefonts spec dosyasını SourceForge'dan aşağıdaki komutu kullanarak indirin
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 wget http://corefonts.sourceforge.net/msttcorefonts-2.5-1.spec
 
 {{< /highlight >}}
 
-1. Daha önce indirilen spec dosyasını ve aşağıdaki komutu kullanarak bir RPM dosyası oluşturun,
+1. Önceki indirilen spec dosyasını ve aşağıdaki komutu kullanarak bir RPM dosyası oluşturun
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 rpmbuild \-ba msttcorefonts-2.5-1.spec
 
 {{< /highlight >}}
 
-1. RPM dosyası şu konumda saklanacaktır: /root/rpmbuild/RPMS/noarch/, aşağıdaki gibi kurun,
+1. RPM dosyası şurada depolanacaktır: /root/rpmbuild/RPMS/noarch/, aşağıdaki gibi yükleyin
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 rpm \-ivh /root/rpmbuild/RPMS/noarch/msttcorefonts-2.5-1.noarch.rpm
 
@@ -82,22 +83,22 @@ rpm \-ivh /root/rpmbuild/RPMS/noarch/msttcorefonts-2.5-1.noarch.rpm
 
 1. Değişikliklerin etkili olması için makineyi yeniden başlatın.
 
-Yukarıda verilen talimatlar, aşağıdaki yazı tipi ailelerini içeren Microsoft TTFs paketini yükleyecektir:
+Yukarıda verilen talimatlar, aşağıdaki font ailelerini içeren Microsoft TTF paketini yükleyecektir:
 
-1. Endülüs Mono
-1. Arial Siyah/Arial (Kalın, İtalik, Kalın İtalik)
+1. Andale Mono
+1. Arial Black/Arial (Kalın, İtalik, Kalın İtalik)
 1. Comic Sans MS (Kalın)
 1. Courier New (Kalın, İtalik, Kalın İtalik)
-1. Gürcistan (Kalın, İtalik, Kalın İtalik)
-1. Darbe
+1. Georgia (Kalın, İtalik, Kalın İtalik)
+1. Impact
 1. Tahoma
 1. Times New Roman (Kalın, İtalik, Kalın İtalik)
-1. Mancınık (Kalın, İtalik, Kalın İtalik)
+1. Trebuchet (Kalın, İtalik, Kalın İtalik)
 1. Verdana (Kalın, İtalik, Kalın İtalik)
-1. ağlar
+1. Webdings
 
 {{% alert color="primary" %}}
 
- Ubuntu'da Synaptic Paket Yöneticisine gidin. bulun ve yükleyin**ttf-mscorefonts-yükleyici** paket.
+Ubuntu'da, Synaptic Paket Yöneticisine gidin. **ttf-mscorefonts-installer** paketini bulun ve yükleyin.
 
 {{% /alert %}}

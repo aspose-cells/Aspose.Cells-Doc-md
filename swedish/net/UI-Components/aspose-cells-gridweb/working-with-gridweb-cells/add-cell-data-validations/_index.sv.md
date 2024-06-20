@@ -1,16 +1,19 @@
-﻿---
-title: Lägg till Cell Datavalideringar
+---
+title: Lägg till celldata validering
 type: docs
 weight: 90
-url: /sv/net/add-cell-data-validations/
+url: /sv/net/aspose-cells-gridweb/add-cell-data-validations/
+keywords: GridWeb, validering, data validering, GridValidation
+description: Den här artikeln introducerar hur man lägger till datavalidering (GridValidation) i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb låter dig lägga till**Datavalidering** med metoden GridWorksheet.Validations.Add(). Med den här metoden måste du ange**Cell Räckvidd** Men om du vill skapa en datavalidering i en enda GridCell kan du göra det direkt med metoden GridCell.CreateValidation(). På samma sätt kan du ta bort**Datavalidering** från en GridCell med metoden GridCell.RemoveValidation().
+Aspose.Cells.GridWeb tillåter dig att lägga till **Data Validation** genom att använda metoden GridWorksheet.Validations.Add(). Med denna metod måste du specificera **Cell Range**. Men om du vill skapa en datavalidering i en enda GridCell kan du göra det direkt med metoden GridCell.CreateValidation(). På samma sätt kan du ta bort **Data Validation** från en GridCell med hjälp av metoden GridCell.RemoveValidation().
 
 {{% /alert %}} 
 ## **Skapa datavalidering i en GridCell av GridWeb**
- Följande exempelkod skapar en**Datavalidering** i en cell B3. Om du anger något värde som inte är mellan 20 och 40, visas cellen B3**Valideringsfel** i formen av**Röd XXXX** som visas i denna skärmdump.
+Följande exempelkod skapar en **Data Validering** i en cell B3. Om du anger något värde som inte ligger mellan 20 och 40, kommer cellen B3 att visa en **Valideringsfel** i form av **Rött XXXX** som visas på skärmdumpen.
 
 ![todo:image_alt_text](add-cell-data-validations_1.png)
 

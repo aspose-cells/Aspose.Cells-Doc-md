@@ -1,73 +1,76 @@
-﻿---
-title: Création d'une feuille de vue hiérarchique
+---
+title: Créer une vue hiérarchique de la feuille
 type: docs
 weight: 30
-url: /fr/net/creating-hierarchical-view-sheet/
+url: /fr/net/aspose-cells-gridweb/create-hierarchical-view-sheet/
+keywords: GridWeb, hiérarchique
+description: Cet article présente comment créer une vue hiérarchique dans GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
- La liaison de données est une fonctionnalité GridWeb puissante et conviviale. Les données stockées dans les tables de base de données sont récupérées dans un DataSet et remplies de données
+La liaison de données est une fonctionnalité puissante et conviviale de GridWeb. Les données stockées dans les tables de base de données sont récupérées dans un DataSet et remplies de données représentant les tables de données. En utilisant la fonctionnalité de liaison de données, vous pouvez créer une vue hiérarchique (une vue maître-enfant) de données interconnectées et l'afficher dans le contrôle pour la rendre plus élégante. 
 
- représentant les tables de données. À l'aide de la fonction de liaison de données, vous pouvez créer une vue hiérarchique (une vue maître-enfant) des données interconnectées et
+représentant les tables de données. En utilisant la fonctionnalité de liaison des données, vous pouvez créer une vue hiérarchique (une vue maître-enfant) de données interconnectées et 
 
- l'afficher dans le champ pour le rendre plus élégant.
+Cet article discute de la création d'une vue hiérarchique de la feuille. Certaines lignes de la feuille possèdent des vues enfants. Lorsqu'un utilisateur clique sur **Étendre** la ligne 
 
- Cette rubrique traite de la création d'une feuille de vue hiérarchique. Certaines lignes de la feuille ont des vues enfant. Lorsqu'un utilisateur clique sur la ligne**Développer**
+Ce sujet traite de la création d'une vue hiérarchique de feuille. Certaines des lignes de la feuille possèdent des vues enfant. Lorsqu'un utilisateur clique sur l'**Étendre** de la ligne
 
- bouton{{< emoticons/cross >}} , la table de vue enfant de cette ligne est développée vers le bas. Cette fonctionnalité est très utile pour créer un rapport de vue hiérarchique.
+button {{< emoticons/cross >}}, the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report. 
 
-**Un tableau avec une vue hiérarchique** 
+**Une table avec une vue hiérarchique** 
 
-![tâche : image_autre_texte](creating-hierarchical-view-sheet_1.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
-## **Créer des relations pour les tables de données**
-Par exemple, vous utilisez ADO.Net API et extrayez des données des tables de la base de données. Pour créer une feuille de vue hiérarchique, vous devez concevoir un DataSet
+## **Créer des relations pour les DataTables**
+Par exemple, vous utilisez l'API ADO.Net et extrayez des données des tables de la base de données. Pour créer une feuille de vue hiérarchique, vous devez concevoir un DataSet
 
- objet basé sur certaines tables et créez d'abord une relation entre elles. Utilisez les VS.NET**Concepteur d'ensembles de données** pour créer la relation. Dans
+objet basé sur certaines tables et créer une relation entre elles en premier lieu. Utilisez le **Concepteur de DataSet** de VS.NET pour créer la relation. Dans 
 
- cet exemple, il y a trois DataTables : Customers, Orders, Order Details. La feuille affiche toutes les informations du client par défaut. Lorsque
+cet exemple, il y a trois DataTables : Clients, Commandes, Détails de commande. La feuille affiche toutes les informations client par défaut. Lorsque 
 
- l'utilisateur développe un client, la grille affiche toutes les commandes passées par ce client. Lorsque l'utilisateur développe une commande, la grille affiche les détails
+l'utilisateur développe un client, la grille montre toutes les commandes que ce client a passées. Lorsque l'utilisateur développe une commande, la grille montre les détails 
 
-de cet ordre. Les données sont hiérarchiques : les détails des commandes sont répertoriés sous les commandes et les commandes sont répertoriées sous les clients.
+de cette commande. Les données sont hiérarchiques : les détails de commande sont répertoriés sous les commandes, et les commandes sont répertoriées sous les clients.
 
-Pour que cela fonctionne, les relations suivantes doivent être établies entre les tables de données :
+Pour que cela fonctionne, les relations suivantes doivent être établies entre les tables de données:
 
-1.  Créez une clé étrangère sur DataTable Orders, le champ clé est CustomerID
+1. Créer une clé étrangère sur DataTable Orders, le champ clé est CustomerID 
 
-![tâche : image_autre_texte](creating-hierarchical-view-sheet_2.png)
-
-
-
-
-1. Créez une clé étrangère sur DataTable Order Details, le champ clé est OrderID.
-
-![tâche : image_autre_texte](creating-hierarchical-view-sheet_3.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_2.png)
 
 
 
- Le DataSet Designer ressemble maintenant à ceci :
 
-![tâche : image_autre_texte](creating-hierarchical-view-sheet_4.png)
-### **Relier la feuille de travail**
- Utilisez maintenant le**Concepteur de feuilles de travail** pour définir DataSource et DataMember pour la feuille de calcul et configurer les colonnes de liaison de champ de données.
+1. Créer une clé étrangère sur DataTable Order Details, le champ clé est OrderID. 
 
- Le contrôle ajoute automatiquement une icône + pour chaque ligne correspondant à un enregistrement dont l'objet de liaison (généralement un objet DataRowView) a
+![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
 
- vues d'enfants. Lorsque vous cliquez sur l'icône +, l'enregistrement se développe pour afficher la vue enfant. L'exemple ci-dessous utilise le**Concepteur de feuilles de travail** lier le
 
- feuille de calcul au parent racine DataTable Customers.
 
-![tâche : image_autre_texte](creating-hierarchical-view-sheet_5.png)
-### **Personnaliser les colonnes de liaison des tables enfants**
- Le contrôle fournit un événement nommé GridWeb.BindingChildView que les développeurs utilisent pour personnaliser les colonnes de liaison des tables enfants. Cet exemple
+Le Concepteur de DataSet ressemble maintenant à ceci: 
 
- doit afficher les détails de la commande'**Prix unitaire** champ dans un format monétaire. Ajoutez un gestionnaire d'événements pour modifier le format numérique de la colonne de liaison.
+![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
+### **Lier la feuille de travail**
+Utilisez maintenant le **Concepteur de feuilles de travail** pour définir la source de données et le membre de données pour la feuille, et configurer les colonnes de liaison de champ de donnée. 
+
+Le contrôle ajoute automatiquement une icône + pour chaque ligne correspondant à un enregistrement dont l'objet de liaison (généralement un objet DataRowView) a 
+
+des vues filles. Lorsque l'icône + est cliquée, l'enregistrement s'étend pour afficher la vue enfant. L'exemple ci-dessous utilise le **Concepteur de feuilles de travail** pour lier la 
+
+feuille de travail à la table de données parent Customers. 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_5.png)
+### **Personnaliser les Colonnnes de Liaison des Tables Enfants**
+Le contrôle fournit un événement appelé GridWeb.BindingChildView que les développeurs utilisent pour personnaliser les colonnes de liaison des tables enfants. Cet exemple 
+
+doit afficher le champ **PrixUnitaire** des détails de commande au format de devise. Ajoutez un gestionnaire d'événement pour changer le format de nombre de la colonne de liaison. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Handles the BindingChildView event to set the UnitPrice column.
 
@@ -93,7 +96,7 @@ private void GridWeb1_BindingChildView(Aspose.Cells.GridWeb.GridWeb childGrid, A
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Handles the BindingChildView event to set the UnitPrice column.
 
@@ -114,38 +117,38 @@ End Sub
 
 
 {{< /highlight >}}
-### **Charger des données à partir de la base de données et de la liaison**
-Comme décrit dans[Liaison d'une feuille de calcul à un ensemble de données à l'aide du concepteur de feuilles de calcul de GridWeb](/cells/fr/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
- vous devez ajouter du code au bloc Page_Load pour charger des données dans le DataSet à partir d'une base de données et lier le DataSet à la feuille dans le
+### **Charger des données à partir de la base de données et liaison**
+Comme décrit dans [Liaison de la feuille de calcul à un jeu de données à l'aide du concepteur de feuilles de calcul de GridWeb](/cells/fr/net/liaison-feuille-de-calcul-jeu-de-donnees-concepteur-gridwebs-feuilles-de-calcul/),
+vous devez ajouter du code au bloc Page_Load pour charger des données dans le jeu de données à partir d'une base de données, et lier le jeu de données à la feuille dans la 
 
- L'étape suivante.
+prochaine étape. 
 
-La classe Asppose.Grid.Web.Data.WebWorksheet possède des propriétés utiles.
+La classe Asppose.Grid.Web.Data.WebWorksheet a certaines propriétés utiles.
 
 - Par exemple, la propriété EnableCreateBindColumnHeader est utilisée pour créer les en-têtes de la colonne liée dans la feuille, ou la colonne
 
- headers affiche les noms des colonnes liées. Il prend les valeurs**vrai** ou alors**faux**. 
+headers affiche les noms des colonnes liées. Elle prend les valeurs **true** ou **false**. 
 
 - Les propriétés BindStartRow et BindStartColumn spécifient la position dans la feuille du contrôle GridWeb auquel la source doit être liée.
-- La propriété EnableExpandChildView est utilisée pour désactiver la vue enfant développée pour la feuille de calcul. Par défaut, il est défini sur vrai.
+- La propriété EnableExpandChildView est utilisée pour désactiver la vue enfant étendue pour la feuille. Par défaut, elle est définie sur true.
 
- La classe a aussi quelques méthodes utiles.
+La classe a aussi quelques méthodes utiles. 
 
 - La méthode DataBind() lie une feuille à la source.
-- Le CreateNewBindRow() ajoute une nouvelle ligne et la lie à la source de données.
-- Le DeleteBindRow() supprime une ligne liée.
-- La méthode SetRowExpand() définit la ligne développée et affiche le contenu de la vue enfant en mode de liaison de données.
-- La méthode GetRowExpand() obtient une valeur booléenne qui indique si la ligne est développée ou non.
+- La méthode CreateNewBindRow() ajoute une nouvelle ligne et la lie à la source de données.
+- La méthode DeleteBindRow() supprime une ligne liée.
+- La méthode SetRowExpand() définit la ligne étendue et affiche le contenu de la vue enfant en mode de liaison de données.
+- La méthode GetRowExpand() obtient une valeur booléenne qui indique si la ligne est étendue ou non.
 
- Dans le code ci-dessous, l'objet DataSet "dataSet21" est rempli de données basées sur trois tables. La table Clients est filtrée pour en faire la
+Dans le code ci-dessous, l'objet DataSet "dataSet21" est rempli de données basées sur trois tables. La table Customers est filtrée pour en faire la 
 
- premier tableau de l'affichage hiérarchique. Un objet WebWorksheet nommé "feuille" est créé, qui efface d'abord la feuille, puis la définit
+première table dans l'affichage hiérarchique. Un objet WebWorksheet nommé "feuille" est créé, qui efface d'abord la feuille puis la lie 
 
- lié à la source de données.
+au source de données. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -199,7 +202,7 @@ private void BindWithoutInSheetHeaders()
 
         dataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'";
 
-        WebWorksheet sheet = GridWeb1.WebWorksheets[0];
+        WebWorksheet sheet = GridWeb1.WorkSheets[0];
 
         // Clears the sheet.
 
@@ -235,53 +238,53 @@ private void BindWithoutInSheetHeaders()
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Gère MyBase.Load
+ Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
- 'Mettre le code utilisateur pour initialiser la page ici
+    'Put user code to initialize the page here
 
- Sinon IsPostBack Then
+    If Not IsPostBack Then
 
- BindWithoutInSheetHeaders()
+        BindWithoutInSheetHeaders()
 
- Fin si
+    End If
 
-Sous-titre de fin
+End Sub
 
-Privé Sub BindWithoutInSheetHeaders()
+Private Sub BindWithoutInSheetHeaders()
 
- Dim db As DemoDatabase2 = New DemoDatabase2()
+    Dim db As DemoDatabase2 = New DemoDatabase2()
 
-Dim path As String = MapPath(".")
+    Dim path As String = MapPath(".")
 
- chemin = chemin.Substring(0, chemin.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- chemin = chemin.Substring(0, chemin.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + "\Database\Northwind.mdb"
+    db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + "\Database\Northwind.mdb"
 
- Essayer
+    Try
 
- ' Se connecte à la base de données et récupère les données.
+        ' Connects to database and fetches data.
 
- ' Tableau des clients.
+        ' Customers Table.
 
- db.OleDbDataAdapter1.Fill(DataSet21)
+        db.OleDbDataAdapter1.Fill(DataSet21)
 
- ' Tableau des commandes.
+        ' Orders Table.
 
- db.OleDbDataAdapter2.Fill(DataSet21)
+        db.OleDbDataAdapter2.Fill(DataSet21)
 
- ' Tableau des détails de la commande.
+        ' OrderDetailTable.
 
- db.OleDbDataAdapter3.Fill(DataSet21)
+        db.OleDbDataAdapter3.Fill(DataSet21)
 
- ' Filtrer les données
+        ' Filter data
 
- DataSet21.Customers.DefaultView.RowFilter = "ID client<'BSAAA'"
+        DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
 
-        Dim sheet As WebWorksheet = GridWeb1.WebWorksheets(0)
+        Dim sheet As WebWorksheet = GridWeb1.WorkSheets(0)
 
         ' Clears the sheet.
 

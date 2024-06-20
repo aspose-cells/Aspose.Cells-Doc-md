@@ -1,6 +1,8 @@
-﻿---
-title: Utilizzo di GridWeb Client Side Script
+---
+title: Lavorare con lo script lato client di GridWeb
 type: docs
 weight: 30
-url: /it/net/working-with-gridweb-client-side-script/
+url: /it/net/aspose-cells-gridweb/working-with-gridweb-client-side-script/
 ---
+
+

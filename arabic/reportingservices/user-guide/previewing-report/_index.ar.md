@@ -1,34 +1,35 @@
-﻿---
+---
 title: معاينة التقرير
 type: docs
 weight: 130
 url: /ar/reportingservices/previewing-report/
 ---
+
 {{% alert color="primary" %}} 
 
-تساعدك معاينة تقرير على التأكد من أنه التقرير الذي تريده.
+معاينة التقرير تساعدك في التأكد من أنه هو التقرير الذي تريده.
 
 {{% /alert %}} 
 
 لمعاينة تقرير:
 
-1.  انقر**منظر** 
+1. انقر **عرض** 
 
-![ما يجب القيام به: image_بديل_نص](previewing-report_1.png)
+![todo:image_alt_text](previewing-report_1.png)
 
-على Aspose.Cells.Report.Designer شريط الأدوات.
+على شريط أدوات Aspose.Cells.Report.Designer.
 
-1.  أدخل عنوان URL لخادم التقرير وانقر فوق**تحديث** زر.
+1. أدخل عنوان URL لخادم التقارير وانقر على زر **تحديث**.
 
-![ما يجب القيام به: image_بديل_نص](previewing-report_2.png)
-
-
+![todo:image_alt_text](previewing-report_2.png)
 
 
-1.  حدد تقريرًا وانقر فوق**معاينة** زر.
 
-![ما يجب القيام به: image_بديل_نص](previewing-report_3.png)
 
-1.  في مربع الحوار ، أدخل معلمات التقرير وحدد تنسيق ملف التصدير. انقر على**نعم** زر لتصدير التقرير.
+1. حدد تقريرًا وانقر فوق زر **معاينة**. 
 
-![ما يجب القيام به: image_بديل_نص](previewing-report_4.png)
+![todo:image_alt_text](previewing-report_3.png)
+
+1. في مربع الحوار، أدخل معلمات التقرير وحدد تنسيق ملف التصدير. انقر على زر **موافق** لتصدير التقرير.
+
+![todo:image_alt_text](previewing-report_4.png)

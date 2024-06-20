@@ -1,17 +1,20 @@
-﻿---
-title: Erstellen Sie eine Signaturzeile in einer Excel-Arbeitsmappe mit Aspose.Cells
+---
+title: Erstellen Sie eine Signaturlinie in einer Excel Arbeitsmappe mit Aspose.Cells
 type: docs
 weight: 150
 url: /de/net/create-signature-line-in-an-excel-workbook-using-aspose-cells/
+description: In diesem Artikel wird beschrieben, wie man mit C# Codes und Aspose.Cells für .NET eine Signaturlinie in einer Excel Arbeitsmappe erstellt.
+keywords: Signaturlinie in einer Excel Arbeitsmappe erstellen, Wie man eine Signaturlinie in einer Excel Arbeitsmappe erstellt, Wie man eine Signaturlinie hinzufügt, Wie man eine Signaturlinie zur Excel Datei hinzufügt.
 ---
-{{% alert color="primary" %}}
 
- Microsoft Excel bietet eine Funktion zum Hinzufügen**Signaturzeile** in Excel-Arbeitsmappen. Sie können eine Signaturzeile hinzufügen, indem Sie auf klicken**Einfügung** Tab und dann auswählen**Signaturzeile** von dem**Text** Gruppe.
+## **Einführung**
 
- Aspose.Cells bietet auch diese Funktion und hat die freigelegt[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) Eigentum für diesen Zweck. In diesem Artikel wird erläutert, wie Sie diese Eigenschaft verwenden, um eine Signaturzeile mit Aspose.Cells hinzuzufügen.
+Microsoft Excel bietet die Möglichkeit, **Signaturlinie** in Excel-Arbeitsmappen hinzuzufügen. Sie können eine Signaturlinie hinzufügen, indem Sie auf die Registerkarte **Einfügen** klicken und dann **Signaturlinie** aus der Gruppe **Text** auswählen.
 
-{{% /alert %}}
+## **Wie man eine Signaturlinie für Excel erstellt**
 
- Der folgende Beispielcode fügt eine Signaturzeile mit hinzu[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)-Eigenschaft und speichert die Arbeitsmappe.
+Aspose.Cells bietet diese Funktion ebenfalls und hat die Eigenschaft [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) für diesen Zweck freigegeben. Dieser Artikel erläutert, wie diese Eigenschaft verwendet werden kann, um eine Signaturlinie mit Aspose.Cells hinzuzufügen.
+
+Der folgende Beispielcode fügt mit der Eigenschaft [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) eine Signaturlinie hinzu und speichert die Arbeitsmappe.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateSignatureLineInWorkbook-CreateSignatureLineInWorkbook.cs" >}}

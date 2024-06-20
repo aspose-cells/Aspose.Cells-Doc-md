@@ -1,20 +1,21 @@
-﻿---
-title: احفظ Html مع StreamProvider
+---
+title: حفظ Html باستخدام StreamProvider
 type: docs
 weight: 80
 url: /ar/net/convert-excel-to-html-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-عند تحويل ملفات Excel التي تحتوي على iamges والأشكال إلى ملفات html ، فإننا نواجه المسألتين التاليتين:
-1. أين يجب أن نحفظ الصور والأشكال عند حفظ ملف Excel في دفق html.
-1. استبدل المسار الافتراضي بالمسار المستثنى.
+عند تحويل ملفات Excel التي تحتوي على صور وأشكال إلى ملفات HTML، نواجه في كثير من الأحيان المشاكل الاتية:
+1.أين يجب أن نحفظ الصور والأشكال عند حفظ ملف Excel إلى تدفق HTML.
+1. استبدال المسار الافتراضي بالمسار المتوقع.
 
- تشرح هذه المقالة كيفية التنفيذ[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) واجهة لتعيين[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) خاصية. من خلال تنفيذ هذه الواجهة ، ستتمكن من حفظ الموارد التي تم إنشاؤها أثناء توليد HTML في مواقعك المحددة أو تدفقات الذاكرة.
+يشرح هذا المقال كيفية تنفيذ واجهة [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) لضبط خاصية [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider). من خلال تنفيذ هذه الواجهة، ستتمكن من حفظ الموارد التي تم إنشاؤها أثناء توليد صفحات HTML إلى مواقعك المحددة أو تدفقات الذاكرة الداخلية.
 
 {{% /alert %}} 
 
- هذا هو الكود الرئيسي الذي يوضح استخدام[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)خاصية
+هذا هو الرمز الرئيسي الذي يظهر استخدام [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) كخاصية
 
 
 
@@ -22,7 +23,7 @@ url: /ar/net/convert-excel-to-html-with-streamprovider/
 
 
 
- هنا هو رمز*ExportStreamProvider* الطبقة التي تنفذ[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)الواجهة المستخدمة داخل الكود أعلاه.
+فيما يلي الرمز لفئة *ExportStreamProvider* التي تنفذ [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) المستخدمة داخل الرمز المذكور أعلاه.
 
 
 

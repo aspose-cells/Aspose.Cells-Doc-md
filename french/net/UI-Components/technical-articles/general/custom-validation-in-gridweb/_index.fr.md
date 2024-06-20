@@ -2,22 +2,26 @@
 title: Validation personnalisée dans GridWeb
 type: docs
 weight: 90
-url: /fr/net/custom-validation-in-gridweb/
-keywords: validation,custom,server
+url: /fr/net/aspose-cells-gridweb/custom-validation-in-gridweb/
+keywords: GridWeb,validation,custom,server
+description: Cet article présente la validation personnalisée dans GridWeb.
+
 ---
-##  **Scénarios d'utilisation possibles**
-Aspose.Cells.GridWeb fournit des types de validation que la normale définie dans l'API de validation des cellules.
-le type de validation normal dans les cellules :<https://docs.aspose.com/cells/net/data-validation/>
 
- l'utilisation normale de la validation dans la démo GridWeb :<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/GridWeb.Net4/CSharp/Miscellaneous/Common/DataValidation.aspx.cs>
 
- ici, nous pouvons vérifier GridValidationType :<https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridvalidationtype/>
+## **Scénarios d'utilisation possibles**
+Aspose.Cells.GridWeb fournit différents types de validation par rapport à ce qui est normalement défini dans l'api de validation des cellules.
+the normal validation type in cells :<https://docs.aspose.com/cells/net/data-validation/>
 
-ci-dessous se trouve la validation étendue que nous pouvons utiliser dans GridWeb
- 
+the normal validation usage in GridWeb demo: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/GridWeb.Net4/CSharp/Miscellaneous/Common/DataValidation.aspx.cs>
 
-##  **GridValidationType.DropDownList**
-code:
+here we can check GridValidationType: <https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridvalidationtype/>
+
+Ci-dessous se trouve la validation étendue que nous pouvons utiliser dans GridWeb.
+
+
+## **GridValidationType.DropDownList**
+code :
 ```C#
             // ExStart:AddDropDownListValidation
             // Accessing the cells collection of the worksheet that is currently active
@@ -32,7 +36,7 @@ code:
 
             // Creating DropDownList validation for the "C1" cell
             var validation = cell.CreateValidation(GridValidationType.DropDownList, true);
-                        
+
             // Adding values to DropDownList validation
             var values = new System.Collections.Specialized.StringCollection();
             values.Add("Bachelor");
@@ -42,10 +46,10 @@ code:
 ```
 
 résultat:
-![todo:le résultat de la validation](gridvalidation_dropdownlist.png) 
+![todo:the validation result](gridvalidation_dropdownlist.png) 
 
-##  **GridValidationType.FreeList**
-code:
+## **GridValidationType.FreeList**
+code :
 ```C#
              GridValidation validationOfList = this.GridWeb1.ActiveSheet.Validations.Add("c1");
              validationOfList.ValidationType = GridValidationType.DropDownList;
@@ -60,24 +64,24 @@ code:
 ```
 
 résultat:
-![todo:le résultat de la validation](gridvalidation_freelist.png)  
+![todo:the validation result](gridvalidation_freelist.png)  
 
-##  **GridValidationType.CustomExpression**
-code:
+## **GridValidationType.CustomExpression**
+code :
 ```C#
              var sheet = GridWeb1.ActiveSheet;
              GridCell cell = sheet.Cells["B1"];
              cell.PutValue("Please enter Date in cell C3 e.g. 2018-02-18");
-	    
+
              //Access cell B3 and add the Date Pattern
              cell = sheet.Cells["B3"];
              cell.PutValue("Date (yyyy-mm-dd):");
-	    
+
              // Access cell C3 and add to it custom expression validation to accept dates in yyyy-mm-dd format
              cell = sheet.Cells["C3"];
              var validation = cell.CreateValidation(GridValidationType.CustomExpression, true);
              validation.RegEx = @"\d{4}-\d{2}-\d{2}";
-	    
+
              //Set the column widths
              sheet.Cells.SetColumnWidth(1, 40);
              sheet.Cells.SetColumnWidth(2, 30);
@@ -86,66 +90,66 @@ code:
 	     // Assigning the name of JavaScript function to OnCellErrorClientFunction property of GridWeb
              GridWeb1.OnCellErrorClientFunction = "ValidationErrorFunction";
 ```
-ajouter une fonction javascript dans la page client
+ajouter une fonction JavaScript sur la page client
 ```javascript
-   
+
          function ValidationErrorFunction()
         {
             // Showing an alert message where "this" refers to GridWeb
             console.log(this.id + ": Please correct your input error.");
         }
-   
+
 ```
 
 résultat:
 après avoir entré une valeur invalide
-![todo:le résultat de la validation](gridvalidation_customexpression.png)  
+![à faire: le résultat de la validation](gridvalidation_customexpression.png)  
 
-##  **GridValidationType.Boolean**
-code:
+## **GridValidationType.Boolean**
+code :
 ```C#
  //add boolean validation at d1
   GridWeb1.ActiveSheet.Cells[0, 3].CreateValidation(GridValidationType.Boolean,true);
 ```
 
 résultat:
- après avoir entré une valeur invalide
-![todo:le résultat de la validation](gridvalidation_bool.png)  
+après avoir entré une valeur invalide 
+![à faire: le résultat de la validation](gridvalidation_bool.png)  
 
- après avoir entré la vraie valeur
-![todo:le résultat de la validation](gridvalidation_bool2.png)  
+après avoir entré une valeur vraie 
+![à faire: le résultat de la validation](gridvalidation_bool2.png)  
 
-##  **GridValidationType.DateTime**
-code:
+## **GridValidationType.DateTime**
+code :
 ```C#
   //add DateTime validation at d3
   GridWeb1.ActiveSheet.Cells[2, 3].CreateValidation(GridValidationType.DateTime, true);
 ```
 
 résultat:
-![todo:le résultat de la validation](gridvalidation_datetime.png)  
+![à faire: le résultat de la validation](gridvalidation_datetime.png)  
 
-##  **GridValidationType.CheckBox**
-code:
+## **GridValidationType.CheckBox**
+code :
 ```C#
    //add checkbox validation at d1
    GridWeb1.ActiveSheet.Cells[0, 3].CreateValidation(GridValidationType.CheckBox,true);
 ```
 
 résultat:
-![todo:le résultat de la validation](gridvalidation_checkbox.png)  
+![à faire: le résultat de la validation](gridvalidation_checkbox.png)  
 
 
-##  **GridValidationType.CustomFunction**
-code:
+## **GridValidationType.CustomFunction**
+code :
 ```C#
       //add boolean validation at d4
      GridValidation customValidation= GridWeb1.ActiveSheet.Cells[3, 3].CreateValidation(GridValidationType.CustomFunction, true);
      customValidation.ClientValidationFunction = "MyClientValidation";
 ```
-ajouter une fonction javascript dans la page client
+ajouter une fonction JavaScript sur la page client
 ```javascript
-   
+
         function MyClientValidation(source, value)
         {
             if (Number(value) > 10000)
@@ -153,14 +157,14 @@ ajouter une fonction javascript dans la page client
             else
                 return false;
         }
-   
+
 ```
 
-résultat : après avoir entré une valeur invalide en d4
-![todo:le résultat de la validation](gridvalidation_customfunction.png)  
+résultat: après avoir saisi une valeur invalide à d4
+![à faire: le résultat de la validation](gridvalidation_customfunction.png)  
 
-##  **GridValidationType.CustomServerFunction**
-code:
+## **GridValidationType.CustomServerFunction**
+code :
 ```C#
   //define server side validation class which implment GridCustomServerValidation and ISerializable
   // GridCustomServerValidation and ISerializable are the required interface to be done
@@ -169,7 +173,7 @@ code:
         string s;
        void ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
        {
-         
+
            info.AddValue("s",s);
        }
        protected myservervalid(SerializationInfo info, StreamingContext context)
@@ -195,7 +199,7 @@ code:
             }
         }
     }
-         
+
         //add CustomServerFunction validation at G5 to G8
          GridValidation val = this.GridWeb1.ActiveSheet.Validations.Add(new GridCellArea(5,6, 8, 6));
          val.ValidationType = GridValidationType.CustomServerFunction;
@@ -204,9 +208,9 @@ code:
          val.ErrorMessage=("error message is here");
          val.ErrorTitle=("this is error title");
 ```
-ajouter une fonction javascript dans la page client
+ajouter une fonction JavaScript sur la page client
 ```javascript
-   
+
         var lastselectvalue = null;
         var localvalue = {};
         function ValidationErrorClientFunctionCallback(cell,msg)
@@ -231,8 +235,8 @@ ajouter une fonction javascript dans la page client
             lastselectvalue = localvalue[key];
             setInnerText(cell.children[0], lastselectvalue);
         }
-   
+
 ```
-résultat : après avoir entré la valeur en g6
-![todo:le résultat de la validation](gridvalidation_customserverfunction.png) 
+résultat: après avoir saisi une valeur à g6
+![à faire: le résultat de la validation](gridvalidation_customserverfunction.png) 
 

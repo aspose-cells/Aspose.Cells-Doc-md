@@ -1,19 +1,20 @@
-﻿---
-title: Şeklin Metin Seçeneklerinde Yazı Tipinin Uzak Doğu ve Latin Adını Belirtin
+---
+title: Şekil Metin Seçenekleri nde Uzak Doğu ve Latin Yazı Tipi Adını Belirtin
 type: docs
 weight: 120
 url: /tr/java/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Bazen metni Uzak Doğu yazı tipinde görüntülemek istersiniz, örneğin Japonca, Çince, Tayca vb. Aspose.Cells sağlar[**TextOptions.FarEastName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#FarEastName)Uzakdoğu dilinin yazı tipi adını belirtmek için kullanılabilecek özellik. Ayrıca, kullanarak Latin yazı tipi adını da belirleyebilirsiniz.[**TextOptions.LatinAdı**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#LatinName)Emlak.
+Bazen metni Japonca, Çince, Tayca vb. Uzak Doğu dil yazı karakterleri ile göstermek isteyebilirsiniz. Aspose.Cells, Uzak Doğu dil yazı karakterleri için yazı tipi adını belirlemek için kullanılabilen [**TextOptions.FarEastName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#FarEastName) özelliğini sağlar. Ayrıca, Latince yazı tipi adını [**TextOptions.LatinName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#LatinName) özelliğini kullanarak belirtebilirsiniz.
 
-## **Şeklin Metin Seçeneklerinde Yazı Tipinin Uzak Doğu ve Latin Adını Belirtin**
+## **Şekil Metin Seçenekleri'nde Uzak Doğu ve Latin Yazı Tipi Adını Belirtin**
 
-Aşağıdaki örnek kod, bir metin kutusu oluşturur ve içine biraz Japonca metin ekler. Daha sonra metnin Latin ve Uzak Doğu yazı tipi adlarını belirtir ve çalışma kitabını şu şekilde kaydeder:[çıktı excel dosyası](67338341.xlsx). Aşağıdaki ekran görüntüsü, Microsoft Excel'deki çıktı metin kutusunun Latin ve Uzak Doğu yazı tipi adlarını gösterir.
+Aşağıdaki örnek kod, bir metin kutusu oluşturur ve içine bazı Japonca metin ekler. Ardından metnin Latin ve Uzak Doğu font adlarını belirtir ve çalışsayısını [çıktı Excel dosyası](67338341.xlsx) olarak kaydeder. Aşağıdaki ekran görüntüsü, çıktı metin kutusunun Microsoft Excel'de Latin ve Uzak Doğu font adlarını nasıl gösterdiğini göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
+![todo:image_alt_text](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.java" >}}

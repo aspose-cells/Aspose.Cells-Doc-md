@@ -1,27 +1,28 @@
-﻿---
-title: ワークシートで値の代わりに数式を表示する
+---
+title: ワークシートで値ではなく数式を表示する
 type: docs
 weight: 100
 url: /ja/java/show-formulas-instead-of-values-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-を使用して Microsoft Excel で計算値の代わりに数式を表示することが可能です*数式を表示*からのオプション**数式**リボン。数式が表示されると、Microsoft Excel はワークシートに数式を表示します。 Aspose.Cells を使用して同じことを達成できます。
+Microsoft Excelでは、**数式**リボンの**数式を表示**オプションを使用して、計算された値の代わりに数式を表示することができます。数式が表示されると、Microsoft Excelはワークシートに数式を表示します。Aspose.Cellsを使用して同じことを実現することができます。
 
 {{% /alert %}} 
 
-Aspose.Cells は[**Worksheet.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas)財産。これを**真実**数式を表示するには、Microsoft Excel を設定します。
+Aspose.Cellsは**[**Worksheet.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas)**プロパティを提供します。これを**true**に設定すると、Microsoft Excelが数式を表示するようになります。
 
-次の図は、セル A3 に数式が含まれているワークシートを示しています: =Sum(A1:A2)。
+次の画像は、セルA3に数式=Sum(A1:A2)があるワークシートを示しています。
 
-**セル A3 に数式を含むワークシート**
+**セルA3に数式があるワークシート**
 
-![todo:画像_代替_文章](show-formulas-instead-of-values-in-a-worksheet_1.png)
+![todo:image_alt_text](show-formulas-instead-of-values-in-a-worksheet_1.png)
 
-次の図は、計算値の代わりに式を示しています。[**Worksheet.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas)プロパティへ**真実** Aspose.Cellsで。
+次の画像は、Aspose.Cellsを使用して**[**Worksheet.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas)**プロパティを**true**に設定することで、計算された値の代わりに数式を表示しているワークシートを示しています。
 
-**ワークシートに計算値ではなく式が表示されるようになりました**
+**ワークシートには、計算値の代わりに数式が表示されています**
 
-![todo:画像_代替_文章](show-formulas-instead-of-values-in-a-worksheet_2.png)
+![todo:image_alt_text](show-formulas-instead-of-values-in-a-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowFormulas-ShowFormulas.java" >}}

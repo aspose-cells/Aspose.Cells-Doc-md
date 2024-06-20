@@ -1,19 +1,20 @@
-﻿---
-title: Pivot Tablo için Genelleştirme Ayarlarını Özelleştirme
+---
+title: Pivot Tablo için Küreselleştirme Ayarlarını Özelleştir
 type: docs
 weight: 20
 url: /tr/java/customize-globalization-settings-for-pivot-table/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- Bazen özelleştirmek istersiniz*Özet Toplam, Alt Toplam, Genel Toplam, Tüm Öğeler, Birden Çok Öğe, Sütun Etiketleri, Satır Etiketleri, Boş Değerler*gereksinimlerinize göre metin. Aspose.Cells, bu tür senaryolarla başa çıkmak için pivot tablonun genelleştirme ayarlarını özelleştirmenize olanak tanır. Etiketleri Arapça, Hintçe, Lehçe vb. diğer dillere değiştirmek için de bu özelliği kullanabilirsiniz.
+Bazen *Pivot Toplamı, Ara Toplam, Genel Toplam, Tüm Öğeler, Çoklu Öğeler, Sütun Etiketleri, Satır Etiketleri, Boş Değerler* metinlerini gereksinimlerinize göre özelleştirmek isteyebilirsiniz. Aspose.Cells, pivot tablosunun küreselleştirme ayarlarını özelleştirmenize olanak tanır. Bu özelliği, etiketleri Arapça, Hintçe, Lehçe vb. gibi diğer dillere değiştirmek için kullanabilirsiniz.
 
-## **Pivot Tablo için Genelleştirme Ayarlarını Özelleştirme**
+## **Pivot Tablo için Küreselleştirme Ayarlarını Özelleştir**
 
- Aşağıdaki örnek kod, pivot tablo için genelleştirme ayarlarının nasıl özelleştirileceğini açıklar. Bir sınıf oluşturur*ÖzelPivotTableGlobalizationSettings* bir temel sınıftan türetilen[**KüreselleşmeAyarları**](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) ve gerekli tüm yöntemlerini geçersiz kılar. Bu yöntemler için özelleştirilmiş metni döndürür.*Özet Toplam, Alt Toplam, Genel Toplam, Tüm Öğeler, Birden Çok Öğe, Sütun Etiketleri, Satır Etiketleri, Boş Değerler* . Sonra bu sınıfın nesnesini şuna atar:[**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) Emlak. Kod şunu yükler:[kaynak excel dosyası](40468491.xlsx) pivot tabloyu içeren, verilerini yeniler, hesaplar ve şu şekilde kaydeder:[çıktı PDF dosyası](40468490.pdf) . Aşağıdaki ekran görüntüsü, örnek kodun PDF çıktısı üzerindeki etkisini göstermektedir. Ekran görüntüsünde de görebileceğiniz gibi, pivot tablonun farklı bölümleri artık geçersiz kılınan yöntemlerle döndürülen özelleştirilmiş bir metne sahiptir.[**KüreselleşmeAyarları**](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)sınıf.
+Aşağıdaki örnek kod, pivot tablosu için küreselleştirme ayarlarını nasıl özelleştireceğinizi açıklar. Bu, gerekli tüm yöntemlerini geçersiz kılan bir temel sınıf [**GlobalizationSettings**](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) türetilmiş olan *CustomPivotTableGlobalizationSettings* adlı bir sınıf oluşturur. Bu yöntemler, *Pivot Toplamı, Ara Toplam, Genel Toplam, Tüm Öğeler, Çoklu Öğeler, Sütun Etiketleri, Satır Etiketleri, Boş Değerler* için özelleştirilmiş metni döndürür. Daha sonra bu sınıfın nesnesini [**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) özelliğine atar. Kod, pivot tablosunu içeren [kaynak excel dosyasını](40468491.xlsx) yükler, verilerini tazeleyip hesaplar ve [çıktı PDF dosyası olarak](40468490.pdf) kaydeder. Aşağıdaki ekran görüntüsü, çıktı PDF üzerinde örnek kodun etkisini gösterir. Ekran görüntüsünde, pivot tablosunun farklı bölümlerinin [**GlobalizationSettings**](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) sınıfının geçersiz kılan yöntemleri tarafından döndürülen özelleştirilmiş metni olduğunu görebilirsiniz.
 
-![yapılacaklar:resim_alternatif_metin](customize-globalization-settings-for-pivot-table_1.png)
+![todo:image_alt_text](customize-globalization-settings-for-pivot-table_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-CustomizeGlobalizationSettingsforPivotTable-1.java" >}}

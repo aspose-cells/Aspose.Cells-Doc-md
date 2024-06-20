@@ -1,60 +1,61 @@
-﻿---
-title: Dynamics CRM の更新インポート ツール
+---
+title: Dynamics CRM用のインポートツールの更新
 type: docs
 weight: 10
 url: /ja/net/update-import-tool-for-dynamics-crm/
 ---
-**目次のまとめ**
 
-- [序章](#UpdateImportToolforDynamicsCRM-Introduction)
-- [システム要件とサポートされるプラットフォーム](#UpdateImportToolforDynamicsCRM-SystemRequirementsandSupportedPlatforms) 
-  - [システム要求](#UpdateImportToolforDynamicsCRM-SystemRequirements)
+**内容の要約**
+
+- [紹介](#UpdateImportToolforDynamicsCRM-Introduction)
+- [システム要件およびサポートされるプラットフォーム](#UpdateImportToolforDynamicsCRM-SystemRequirementsandSupportedPlatforms) 
+  - [システム要件](#UpdateImportToolforDynamicsCRM-SystemRequirements)
   - [サポートされているプラットフォーム](#UpdateImportToolforDynamicsCRM-SupportedPlatforms)
-- [ダウンロード中](#UpdateImportToolforDynamicsCRM-Downloading)
+- [ダウンロード](#UpdateImportToolforDynamicsCRM-Downloading)
 - [インストールまたはアンインストール](#UpdateImportToolforDynamicsCRM-InstallingorUninstalling) 
   - [ライセンスの適用](#UpdateImportToolforDynamicsCRM-ApplyingLicense)
-- [使用する](#UpdateImportToolforDynamicsCRM-Using)
+- [を使用する](#UpdateImportToolforDynamicsCRM-Using)
 - [サポート](#UpdateImportToolforDynamicsCRM-Support)
-- [拡張して貢献する](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
-## **序章**
-Aspose Update Import Tool は、Microsoft Dynamic CRM で使用されるオープン ソースのアドオンです。このアドオンは、CRM から Aspose.Cells スプレッドシートにデータを自動的に更新および/またはエクスポートすることができます。手動で何もする必要がなく、このアドオンをインストールして、作業をより簡単かつ迅速に行うことができます。
+- [拡張と貢献](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
+## **紹介**
+Aspose Update Import Toolは、Microsoft Dynamic CRMで使用するためのオープンソースのアドオンです。このアドオンは、CRMからAspose.Cells Spreadsheetsにデータを自動的に更新および/またはエクスポートする機能があります。手動で何かをしなくても、このアドオンをインストールし、作業を容易に迅速にすることができます。
 
-このアドオンは、CRM から自動的に更新および/またはエクスポートする機能を提供します。ワンクリックで、CRM との間でレコードをインポート/エクスポートします。
+このアドオンは、CRMから自動的に更新および/またはエクスポートする機能を提供します。ワンクリックでCRMとレコードをインポート/エクスポートできます。
 
-このアドオンの主な機能は次のとおりです。
+このアドオンの主な機能は次のとおりです:
 
-- 目的の CRM への接続を確立します。
-- ユーザーが目的のエンティティとフィールドを選択できるようにします。
-- グリッドに表示された CRM からレコードを取得します。
-- レコードを Aspose.Cells スプレッドシートにエクスポートします。
-- Aspose.Cells からレコードを取得 スプレッドシートをグリッド表示。
-- グリッドから CRM にレコードをエクスポートします。
-## **システム要件とサポートされるプラットフォーム**
-### **システム要求**
-Aspose .Net Update Import Tool for Microsoft Dynamics CRM をインストールして使用するには、次の CRM バージョンのいずれかがインストールされている必要があります。
+- 希望するCRMへの接続を確立します。
+- ユーザーに希望するエンティティやフィールドを選択させます。
+- CRMからのレコードをグリッドに表示します。
+- レコードをAspose.Cellsスプレッドシートにエクスポートします。
+- Aspose.Cellsスプレッドシートからレコードを取得し、グリッドに表示します。
+- グリッドからレコードをCRMにエクスポートします。
+## **システム要件およびサポートされるプラットフォーム**
+### **システム要件**
+Aspose .Net Update Import Tool for Microsoft Dynamics CRMをインストールおよび使用するには、次のCRMバージョンのいずれかをインストールする必要があります。
 
-- Microsoft ダイナミクス CRM 2013。
-- Microsoft ダイナミクス CRM 2015。
-- Microsoft Dynamics CRM オンライン。
+- Microsoft Dynamics CRM 2013.
+- Microsoft Dynamics CRM 2015.
+- Microsoft Dynamics CRM Online.
 
-このアドオンのインストールまたは使用中に問題が発生した場合は、お気軽にお問い合わせください。
+インストールや使用に関する問題がある場合は、お気軽にお問い合わせください。
 ### **サポートされているプラットフォーム**
-このアドオンは、Microsoft Dynamics CRM のすべてのバージョンで動作します:
+このアドオンは、すべてのMicrosoft Dynamics CRMのバージョンと動作します。
 
-- Microsoft ダイナミクス CRM 2013。
-- Microsoft ダイナミクス CRM 2015。
-- Microsoft Dynamics CRM オンライン。
-## **ダウンロード中**
-Aspose .NET CRM 用ドキュメント ジェネレーターは、次のいずれかの場所からダウンロードできます。
+- Microsoft Dynamics CRM 2013.
+- Microsoft Dynamics CRM 2015.
+- Microsoft Dynamics CRM Online.
+## **ダウンロード**
+Aspose .NET Document Generator for CRMは次の場所からダウンロードできます:
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETUpdateExportTool)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETUpdateExportTool)
 ## **インストールまたはアンインストール**
-これはカスタム開発ツールであり、インストールやアンインストールは必要ありません。
-ツールをダウンロードしてドライブに解凍するだけで、すぐに使用できます。
+これはカスタム開発されたツールであり、インストールまたはアンインストールは必要ありません。
+単にツールをダウンロードし、ドライブに展開して使用準備ができます。
 ### **ライセンスの適用**
-ライセンス ファイルへのパスを指定して、次のコードをフォームに追加します。
+ライセンスファイルのパスを指定して、次のコードをフォームに追加します:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
   if (LicenseFilePath != "" && File.Exists(LicenseFilePath))
 
@@ -67,14 +68,14 @@ Aspose .NET CRM 用ドキュメント ジェネレーターは、次のいずれ
  }
 
 {{< /highlight >}}
-## **使用する**
-指示に従って、Dynamics CRM の Aspose .NET Update Import Tool を簡単に構成して使用する[ここ](/cells/ja/net/using-and-configuring-crm-update-import-tool/).
+## **を使用する**
+Aspose .NET Update Import Tool for Dynamics CRMを簡単に構成および使用するには、[こちら](/cells/ja/net/using-and-configuring-crm-update-import-tool/)の指示に従います。
 ## **サポート**
-無料サポートを提供しています。私たちの製品を購入したか、評価を使用しているかにかかわらず、私たちの製品を使用するすべての人は、私たちの十分な注意と尊敬に値します.
+無料のサポートを提供しています。製品を使用しているすべてのユーザーに、購入したかどうかにかかわらず、丁寧に対応します。
 
-次のプラットフォームのいずれかを使用して、Aspose .Net Update Import Tool に関連する問題や提案をログに記録できます。
+Aspose .Net Update Import Toolに関連する問題や提案を記録するには、次のいずれかのプラットフォームを使用できます:
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/wiki/Aspose-.NET-Update-Import-Tool)
-## **拡張して貢献する**
-このアドオンはオープンソースです。問題を作成して解決したシナリオは、エンド ユーザーとは異なる場合があります。最新のソース コードをダウンロードして、ビジネス ニーズに応じて更新できます。
-最新のソースコードとコード例を見つけてください[ここ](/cells/ja/net/extend-and-contribute-to-crm-update-import-tool/).
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/wiki/Aspose-.NET-Update-Import-Tool)
+## **拡張と貢献**
+このアドオンはオープンソースです。私たちが作成し問題を解決したシナリオとエンドユーザーのものは異なる場合があります。最新のソースコードをダウンロードし、ビジネスニーズに合わせて更新できます。
+最新のソースコードとコード例は、[こちら](/cells/ja/net/extend-and-contribute-to-crm-update-import-tool/)でご確認ください。

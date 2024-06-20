@@ -1,40 +1,41 @@
 ---
-title: Excel Grafiklerinin Eksenlerini Yönetme
-description: Aspose.Cells for .NET numaralı telefondan grafik eksenlerini nasıl yapılandıracağınızı öğrenin. Kılavuzumuz, grafiklerinizi geliştirmek için birincil ve ikincil eksenleri nasıl ayarlayacağınızı, aralıklarını nasıl ayarlayacağınızı ve özelliklerini nasıl değiştireceğinizi gösterecektir.
-keywords: Aspose.Cells for .NET, chart axes, configuration, primary axes, secondary axes, range, properties.
+title: Excel Grafiklerinin Eksenleri Yönetme
+description: Aspose.Cells for .NET de grafik eksenlerini nasıl yapılandıracağınızı öğrenin. Rehberimiz size birincil ve ikincil eksenleri ayarlamanın, aralıklarını ayarlamanın ve özelliklerini değiştirmenin nasıl olduğunu gösterecektir.
+keywords: Aspose.Cells for .NET, grafik eksenleri, yapılandırma, birincil eksenler, ikincil eksenler, aralık, özellikler.
 linktitle: Eksenler
 type: docs
 weight: 50
 url: /tr/net/chart-axes/
 ---
+
 {{% alert color="primary" %}}
 
-Excel grafiklerinde 3 tür Eksen vardır:
-1. Yatay(Kategori) Eksen : X Ekseni
-1. Dikey(Değer) Ekseni : Y Ekseni
-1. Derinlik(Seri) Ekseni : Z Ekseni
+Excel grafiklerinde 3 çeşit eksen bulunmaktadır:
+1. Yatay(Kategori) Ekseni: X Ekseni
+1. Dikey(Değer) Ekseni: Y Ekseni
+1. Derinlik(Seriler) Ekseni: Z Ekseni
 
 
 
 {{% /alert %}}
 
-##  **Eksen Seçenekleri**
- Aspose.Cells ayrıca çalışma zamanında grafiğin eksenlerini yönetmeye de olanak tanır.[Eksen](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/) Axis'in tüm seçeneklerini Excel'de olduğu gibi değiştirebilirsiniz.
+## **Eksen Seçenekleri**
+Aspose.Cells ayrıca grafiklerin eksenlerini çalışma zamanında yönetmeyi sağlar, [Axis](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/) nesnesi ile Excel'de yapıldığı gibi Eksenin tüm seçeneklerini değiştirebilirsiniz.
 
-|![yapılacak şey:image_alt_text](chart_axes.png)|
+|![todo:image_alt_text](chart_axes.png)|
 
-##  **X ve Y Eksenlerini Yönetin**
+## **X ve Y Eksenlerini Yönetme**
 
-Excel grafiğinde yatay ve dikey eksenler en popüler iki eksendir.
+Excel grafikte, yatay ve dikey ekseni kullanmak en popüler iki eksendir.
 
-Aşağıdaki kod parçacığı, X ve Y ekseni seçeneklerinin nasıl ayarlanacağını gösterir.
+Aşağıdaki kod parçası X ve Y eksenlerinin seçeneklerini nasıl ayarlayacağını göstermektedir.
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Chart-XY-Axes.cs" >}}
 
-##  **İleri konular**
-- [Onay Etiketi Yönünü Değiştir](/cells/tr/net/change-tick-label-direction/)
-- [Grafikte hangi Eksenin bulunduğunu belirleyin](/cells/tr/net/determine-which-axis-exists-in-the-chart/)
-- [Microsoft Excel gibi Grafik Ekseninin Otomatik Birimlerini Kullanın](/cells/tr/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
-- [Grafiği Hesapladıktan Sonra Eksen Etiketlerini Okuyun](/cells/tr/net/read-axis-labels-after-calculating-the-chart/)
-- [Excel Grafiğinde Kategori Ekseni Nasıl Ayarlanır?](/cells/tr/net/how-to-set-category-axis/)
+## **Gelişmiş Konular**
+- [Tick Etiketi Yönünü Değiştirme](/cells/tr/net/change-tick-label-direction/)
+- [Grafikte Hangi Eksenin Var Olduğunu Belirleme](/cells/tr/net/determine-which-axis-exists-in-the-chart/)
+- [Grafik Ekseni Otomatik Birimleri ile Başa Çık](/cells/tr/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+- [Grafik Hesaplandıktan Sonra Eksen Etiketlerini Okuma](/cells/tr/net/read-axis-labels-after-calculating-the-chart/)
+- [Excel Grafikte Kategori Eksenini Nasıl Ayarlayacağınız](/cells/tr/net/how-to-set-category-axis/)

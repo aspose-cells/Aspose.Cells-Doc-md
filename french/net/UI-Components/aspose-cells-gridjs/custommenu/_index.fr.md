@@ -1,16 +1,17 @@
-﻿---
-title:  Menus contextuels personnalisés pour GridJs
+---
+title: Menus contextuels personnalisés pour GridJs  
 type: docs
 weight: 250
 url: /fr/net/aspose-cells-gridjs/custommenu/
-description: Cet article décrit comment configurer les menus contextuels pour GridJs.
-keywords: custom menu items, context menu
+description: Cet article décrit comment configurer des menus contextuels pour GridJs.
+keywords: GridJs, éléments de menu personnalisés, menu contextuel, personnalisé, contexte, menu
 ---
+
 # Menus contextuels personnalisés
-Nous avons des éléments de menu contextuel intégrés, par exemple insérer/supprimer une ligne/colonne, etc.
-Toutefois, si l'utilisateur souhaite personnaliser les éléments du menu contextuel.
-Nous prenons en charge les éléments de menu contextuel définis dans les options de chargement.
-par exemple:
+Nous avons quelques éléments de menus contextuels intégrés, par exemple insérer/supprimer une ligne/colonne, etc.
+Cependant, si l'utilisateur souhaite personnaliser les éléments de menu contextuel.
+Nous prenons en charge la définition des éléments de menu contextuel dans les options de chargement.
+par exemple :
 ```javascript
         const onMyActionClick1 = (sheet) => {
             console.log('my action clicked1' +  sheet.data.name)
@@ -34,7 +35,7 @@ par exemple:
             })
 ```
 
-Nous prenons en charge les API JS ci-dessous pour les éléments de menu contextuel personnalisés lors de l'exécution
+Nous prenons en charge les API JS ci-dessous pour les éléments de menu contextuel personnalisés en temps d'exécution
 
 
 - obtenir des éléments de menu contextuel personnalisés
@@ -58,7 +59,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-- insérer un élément de menu contextuel personnalisé à la position spécifiée
+- insérer un élément de menu contextuel personnalisé à une position spécifiée
 ```javascript
 xs.sheet.insertCustomContextMenuItem(item,postion)
  // the parameter is:
@@ -67,7 +68,7 @@ xs.sheet.insertCustomContextMenuItem(item,postion)
  postion:the postion for the inserted item in the items array
 ```
 
-- mettre à jour l'élément de menu contextuel personnalisé par la clé
+- mettre à jour un élément de menu contextuel personnalisé par la clé
 ```javascript
 xs.sheet.updateCustomContextMenuItem(key,item)
  // the parameter is:
@@ -77,12 +78,12 @@ xs.sheet.updateCustomContextMenuItem(key,item)
 ```
 
 
-- obtenir des éléments de menu contextuel personnalisés pour l'image/la forme
+- obtenir des éléments de menu contextuel personnalisés pour une image/forme
 ```javascript
 xs.sheet.getImageContextMenuItems()
 ```
 
-- ajouter des éléments de menu contextuel personnalisés pour l'image/la forme
+- ajouter des éléments de menu contextuel personnalisés pour une image/forme
 ```javascript
 xs.sheet.addImageContextMenuItems(itemsarray)
  // the parameter is:
@@ -90,7 +91,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'img operation1','callback':(x)=>{console.log('operation1 on image');}},{'key':'key3','text':'img operation2','callback':(x)=>{console.log('operation2 on image');}}]
 ```
 
-- supprimer les éléments de menu contextuel personnalisés pour l'image/la forme
+- supprimer des éléments de menu contextuel personnalisés pour une image/forme
 ```javascript
  xs.sheet.delImageContextMenuItems(keysarray)()
  // the parameter is:
@@ -98,7 +99,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-Vous pouvez en savoir plus sur notre page de démonstration github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+Vous pouvez trouver plus d'informations sur notre page de démonstration GitHub https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
 
 
- 
+

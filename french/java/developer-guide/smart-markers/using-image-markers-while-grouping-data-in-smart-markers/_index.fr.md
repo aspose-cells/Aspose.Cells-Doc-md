@@ -1,18 +1,19 @@
-﻿---
-title: Utilisation de marqueurs d'image lors du regroupement de données dans des marqueurs intelligents
+---
+title: Utilisation des marqueurs d image lors du regroupement de données dans les Smart Markers
 type: docs
 weight: 630
 url: /fr/java/using-image-markers-while-grouping-data-in-smart-markers/
 ---
+
 {{% alert color="primary" %}} 
 
-Cet article présente un exemple qui illustre l'utilisation de marqueurs d'image lors du regroupement de données dans des marqueurs intelligents.
+Cet article présente un exemple qui illustre l'utilisation des marqueurs d'image lors du regroupement de données dans les smart markers.
 
 {{% /alert %}} 
-## **Utilisation de marqueurs d'image lors du regroupement de données dans des marqueurs intelligents**
-L'exemple de code suivant crée un classeur, puis ajoute les balises de marqueur intelligent suivantes dans les cellules D2, E2 et F2 respectivement.
+## **Utilisation des marqueurs d'image lors du regroupement des données dans des marqueurs intelligents**
+Le code d'exemple suivant crée un classeur, puis ajoute les balises de smart marker suivantes dans les cellules D2, E2 et F2 respectivement.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  &=Person.Name(group:normal,skip:1)
 
@@ -22,9 +23,9 @@ L'exemple de code suivant crée un classeur, puis ajoute les balises de marqueur
 
 {{< /highlight >}}
 
- Ensuite, il remplit la source de données avec des données et appelle le[WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\) ) pour traiter les marqueurs intelligents. Le code utilise ces images, c'est-à-dire[lune.png](5472549.png) et[lune2.png](5472548.png) mais vous pouvez utiliser n'importe quelle image. La capture d'écran suivante montre la sortie de cet exemple de code. Comme vous pouvez le voir, les données des colonnes E et F sont regroupées par rapport aux données de la colonne D.
+Il remplit ensuite la source de données avec des données et appelle la méthode [WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\)) pour traiter les balises smart marker. Le code utilise ces images à savoir [moon.png](5472549.png) et [moon2.png](5472548.png) mais vous pouvez utiliser n'importe quelle image. La capture d'écran suivante montre la sortie de ce code d'exemple. Comme vous pouvez le constater, les données des colonnes E et F sont regroupées par rapport aux données de la colonne D.
 
-![tâche : image_autre_texte](using-image-markers-while-grouping-data-in-smart-markers_1.png)
+![todo:image_alt_text](using-image-markers-while-grouping-data-in-smart-markers_1.png)
 
 
 

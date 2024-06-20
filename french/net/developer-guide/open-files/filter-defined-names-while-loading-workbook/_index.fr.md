@@ -1,19 +1,20 @@
-﻿---
+---
 title: Filtrer les noms définis lors du chargement du classeur
 type: docs
 weight: 50
 url: /fr/net/filter-defined-names-while-loading-workbook/
 ---
+
 ## **Scénarios d'utilisation possibles**
 
-Aspose.Cells vous permet de filtrer ou de supprimer des noms définis présents dans le classeur. Veuillez utiliser[**LoadDataFilterOptions.DefinedNames**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)pour charger les noms définis et utiliser ~[**LoadDataFilterOptions.DefinedNames**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)pour les supprimer lors du chargement du classeur. Veuillez noter que si vous supprimez les noms définis, les formules à l'intérieur du classeur peuvent se briser.
+Aspose.Cells vous permet de filtrer ou de supprimer les noms définis présents dans le classeur. Veuillez utiliser [**LoadDataFilterOptions.DefinedNames**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) pour charger les noms définis et utilisez ~[**LoadDataFilterOptions.DefinedNames**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) pour les supprimer lors du chargement du classeur. Veuillez noter que si vous supprimez les noms définis, alors les formules à l'intérieur du classeur peuvent être altérées.
 
 ## **Filtrer les noms définis lors du chargement du classeur**
 
- L'exemple de code suivant charge le[exemple de fichier Excel](61767860.xlsx) qui a une formule dans la cellule**C1** contenant les noms définis, c'est-à-dire*=SOMME(MonNom1, MonNom2)*. Puisque nous utilisons ~[**LoadDataFilterOptions.DefinedNames**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) pour supprimer les noms définis lors du chargement du classeur, la formule de la cellule C1 dans[fichier Excel de sortie](61767861.xlsx) rompt et tu vois*#NAME?*au lieu. Veuillez consulter la capture d'écran suivante qui montre l'effet du code sur l'exemple de fichier Excel.
+La code d'exemple suivant charge le [fichier Excel exemple](61767860.xlsx) qui contient une formule dans la cellule **C1** contenant les noms définis, c'est-à-dire *=SUM(MyName1, MyName2)*. Comme nous utilisons ~[**LoadDataFilterOptions.DefinedNames**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) pour supprimer les noms définis lors du chargement du classeur, la formule dans la cellule C1 dans le [fichier Excel de sortie](61767861.xlsx) est altérée et vous voyez *#NAME?* à la place. Veuillez consulter la capture d'écran suivante qui montre l'effet du code sur le fichier Excel exemple.
 
-![tâche : image_autre_texte](filter-defined-names-while-loading-workbook_1.png)
+![todo:image_alt_text](filter-defined-names-while-loading-workbook_1.png)
 
-## **Exemple de code**
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Workbook-FilterDefinedNamesWhileLoadingWorkbook.cs" >}}

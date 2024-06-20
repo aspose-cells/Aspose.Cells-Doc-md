@@ -1,20 +1,21 @@
-﻿---
-title: Ruby での行と列のグループ化とグループ解除
+---
+title: Ruby で行や列のグループ化とグループ解除
 type: docs
 weight: 40
 url: /ja/java/grouping-and-ungrouping-rows-and-columns-in-ruby/
 ---
+
 ## **Aspose.Cells - 行と列のグループ管理**
 ### **行と列のグループ化**
-Cells コレクションの groupRows および groupColumns メソッドを呼び出して、行または列をグループ化することができます。どちらのメソッドも、次のパラメーターを取ります。
+CellsコレクションのgroupRowsおよびgroupColumnsメソッドを呼び出すことで、行または列をグループ化することが可能です。両方のメソッドには、次のパラメーターがあります：
 
-- 最初の行/列インデックス、グループ内の最初の行または列。
-- 最後の行/列インデックス、グループ内の最後の行または列。
-- グループ化後に行/列を非表示にするかどうかを指定するブール値パラメーターです。
+- 最初の行/列インデックス、グループ内の最初の行または列
+ - グループ内の最後の行/列のインデックス、最後の行または列。
+- 非表示かどうか、グループ化後に行または列を非表示にするかどうかを指定するブールパラメータ。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def group_rows_columns()
 
@@ -50,14 +51,14 @@ end  
 
 {{< /highlight >}}
 ### **行と列のグループ解除**
-Cells コレクションの UngroupRows メソッドと UngroupColumns メソッドを呼び出して、グループ化された行または列のグループ化を解除します。どちらのメソッドも同じパラメーターを取ります。
+UngroupRowsとUngroupColumnsメソッドを使用して、Cellsコレクションのグループ化された行や列を解除できます。両方のメソッドには、次のパラメーターがあります：
 
-- 最初の行または列のインデックス。グループ化を解除する最初の行/列。
+- 最初の行または列のインデックス、グループ化を解除する最初の行/列。
 - 最後の行または列のインデックス、グループ化を解除する最後の行/列。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def ungroup_rows_columns()
 
@@ -92,7 +93,7 @@ Cells コレクションの UngroupRows メソッドと UngroupColumns メソッ
 end
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**行と列のグループ化とグループ解除 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**グループとアングループの行と列（Aspose.Cells）**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

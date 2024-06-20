@@ -1,17 +1,18 @@
 ---
-title: GridCell コメントの作成と削除および取得
+title: GridCellコメントの作成、削除、取得
 type: docs
 weight: 10
 url: /ja/java/create-remove-and-get-gridcell-comments/
 ---
-##  **考えられる使用シナリオ**
-次の記事では、GridWeb ワークシート内で GridCell コメントを作成、削除、取得する方法について説明します。このスクリーンショットに示すように、セルの上にマウスを置くと、GridWeb は MS-Excel のようにツールチップとしてコメントを表示することに注意してください。
+
+## **可能な使用シナリオ**
+次の記事では、GridWebワークシート内のGridCellコメントの作成、削除、取得方法について説明しています。 GridWebは、マウスをセルの上に置くとMS-Excelのようにコメントをツールチップとして表示します。
 
 ![todo:image_alt_text](create-remove-and-get-gridcell-comments_1.png)
-##  **Cell 内に Comment オブジェクトを作成します**
-GridCell.CreateComment メソッドを使用して、セル内にコメント オブジェクトを作成してください。次のサンプル コードは、GridWeb の最初のワークシートのセル B4 にサンプル コメントを作成します。
+## **セル内にコメントオブジェクトを作成**
+セル内にコメントオブジェクトを作成するには、GridCell.CreateCommentメソッドを使用してください。次のサンプルコードは、GridWebの最初のワークシートのセルB4にサンプルコメントを作成します。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Access first worksheet of GridWeb
 
@@ -28,12 +29,12 @@ GridCell cell = sheet.getCells().get("B4");
 cell.createComment("This is a B4 note.", "Peter", true);
 
 {{< /highlight >}}
-##  **Cell からコメントオブジェクトを削除**
-セルからコメント オブジェクトを削除するには、GridCell.RemoveComment メソッドを使用してください。次のサンプル コードは、GridWeb の最初のワークシート内のセル B4 のコメントを削除します。
+## **セルからコメントオブジェクトを削除**
+GridWebの最初のワークシート内のセルB4コメントを削除するには、GridCell.RemoveCommentメソッドを使用してください。次のサンプルコードは、セルB4のコメントを削除します。
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Access first worksheet of GridWeb
 
@@ -48,10 +49,10 @@ GridCell cell = sheet.getCells().get("B4");
 cell.removeComment();
 
 {{< /highlight >}}
-##  **Cell からコメントオブジェクトを取得**
-セルからコメント オブジェクトを取得するには、GridCell.GetComment() メソッドを使用してください。次のサンプル コードは、セル B4 からコメント オブジェクトを取得し、作成者、メモ、表示設定などのさまざまなプロパティにアクセスします。
+## **セルからコメントオブジェクトを取得**
+GridCell.GetComment()メソッドを使用して、セルからコメントオブジェクトを取得してください。次のサンプルコードは、セルB4からコメントオブジェクトを取得し、Author、Note、Visibilityなどのさまざまなプロパティにアクセスします。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Access first worksheet of GridWeb
 

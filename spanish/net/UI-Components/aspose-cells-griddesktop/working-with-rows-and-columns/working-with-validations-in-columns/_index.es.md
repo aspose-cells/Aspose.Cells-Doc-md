@@ -1,36 +1,39 @@
-﻿---
+---
 title: Trabajar con Validaciones en Columnas
 type: docs
 weight: 80
-url: /es/net/working-with-validations-in-columns/
+url: /es/net/aspose-cells-griddesktop/work-with-validations-in-columns/
+keywords: GridDesktop, validación, validaciones
+description: Este artículo presenta cómo usar validaciones en columnas en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
- En uno de nuestros temas anteriores, hemos discutido acerca de las validaciones, pero eso fue en el contexto de[Validaciones en hojas de trabajo](/cells/es/net/working-with-validations-in-worksheets/) (para tener información general sobre la validación y los modos de validación, los desarrolladores pueden consultar este tema). En este tema, explicaremos las validaciones con respecto a las columnas. Con esta función, los desarrolladores pueden aplicar una regla de validación en cualquier columna de la hoja de trabajo. Vamos a discutirlo en detalle.
+En uno de nuestros temas anteriores, hemos discutido sobre las validaciones, pero eso fue en el contexto de [Validaciones en Hojas de Cálculo](/cells/es/net/working-with-validations-in-worksheets/) (para obtener información general sobre la validación y los modos de validación, los desarrolladores pueden consultar este tema). En este tema, explicaremos las validaciones con respecto a las columnas. Con esta función, los desarrolladores pueden aplicar una regla de validación en cualquier columna de la hoja de cálculo. Analicémoslo en detalle.
 
 {{% /alert %}} 
-## **Agregar validación de columna**
-Para agregar cualquier tipo de validación a una columna, siga los pasos a continuación:
+## **Añadiendo Validación de Columna**
+Para agregar cualquier tipo de validación a una columna, siga los siguientes pasos:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
--  Accede a cualquier deseado**Hoja de cálculo**
-- **Agregar** un deseado**Validación** a cualquier columna
+- Agregar el control Aspose.Cells.GridDesktop a su **Formulario**
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- **Agregue** una **Validación** deseada a cualquier columna
 
-**IMPORTANTE:**Para obtener más información sobre los tipos de validación (o modos de validación como**Se Requiere Validación**, **Validación de expresiones regulares** y**Validación personalizada** ) e implementar**Validación personalizada** , por favor refiérase a[Trabajando con Validaciones en Hojas de Trabajo.](/cells/es/net/working-with-validations-in-worksheets/)
+**IMPORTANTE:** Para obtener más información sobre los tipos de validación (o modos de validación como **Validación Requerida**, **Validación de Expresiones Regulares** y **Validación Personalizada**) e implementar **Validación Personalizada**, consulte [Trabajar con Validaciones en Hojas de Cálculo.](/cells/es/net/working-with-validations-in-worksheets/)
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-WorkingWithColumnValidations-AddValidation.cs" >}}
-## **Acceso a la validación de columnas**
-Para acceder a una validación de columna específica, siga los pasos a continuación:
+## **Accediendo a la Validación de Columna**
+Para acceder a una validación específica de columna, siga los siguientes pasos:
 
--  Accede a un deseado**Hoja de cálculo**
--  Acceder a una columna específica**Validación** en el**Hoja de cálculo**
--  Editar**Validación** atributos, si se desea
+- Acceda a una **Hoja de cálculo** deseada
+- Acceda a una **Validación** específica de columna en la **Hoja de Cálculo**
+- Edite los atributos de la **Validación**, si es necesario
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing first worksheet of the Grid
 
@@ -49,15 +52,15 @@ validation.RegEx = "";
 validation.CustomValidation = null;
 
 {{< /highlight >}}
-## **Eliminación de la validación de columnas**
-Para eliminar una validación de columna específica de la hoja de trabajo, siga los pasos a continuación:
+## **Eliminando Validación de Columna**
+Para quitar una validación de columna específica de la hoja de cálculo, siga los pasos a continuación:
 
--  Accede a un deseado**Hoja de cálculo**
--  Eliminar una columna específica**Validación** desde el**Hoja de cálculo**
+- Acceda a una **Hoja de cálculo** deseada
+- Elimine una **Validación** de columna específica de la **Hoja de cálculo**
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing first worksheet of the Grid
 

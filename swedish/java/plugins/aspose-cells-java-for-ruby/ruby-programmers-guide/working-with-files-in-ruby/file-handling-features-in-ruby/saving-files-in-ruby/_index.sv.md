@@ -1,16 +1,17 @@
-﻿---
+---
 title: Spara filer i Ruby
 type: docs
 weight: 20
 url: /sv/java/saving-files-in-ruby/
 ---
+
 ## **Aspose.Cells - Spara filer**
-### **Sparar filen på någon plats**
- Om utvecklare behöver spara sina filer med**Aspose.Cells Java för Ruby** till någon lagringsplats kan de helt enkelt ange filnamnet (med dess fullständiga lagringssökväg) och önskat filformat (med hjälp av**FileFormatType**uppräkning) medan du anropar**spara**metod av**Arbetsbok**objekt.
+### **Spara filen på en viss plats**
+Om utvecklare behöver spara sina filer med hjälp av **Aspose.Cells Java för Ruby** på en viss lagringsplats kan de helt enkelt ange filnamnet (med dess fullständiga lagringsväg) och önskat filformat (använda **FileFormatType** uppräkningen) vid anrop av **save** metoden för **Workbook** objektet.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -20,7 +21,7 @@ file_format_type = Rjb::import('com.aspose.cells.FileFormatType')
 
 workbook.save(data_dir + "Book1.xls")
 
-# Save in Excel2003 format
+#Save in Excel2003 format
 
 workbook.save(data_dir + "Book1.xls", file_format_type.EXCEL_97_TO_2003)
 

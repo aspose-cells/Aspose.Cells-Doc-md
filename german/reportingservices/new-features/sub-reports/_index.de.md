@@ -1,23 +1,24 @@
-﻿---
+---
 title: Unterberichte
 type: docs
 weight: 20
 url: /de/reportingservices/sub-reports/
 ---
+
 {{% alert color="primary" %}} 
 
-Wir haben die Unterstützung für das Einbetten eines Unterberichts in eine Tabellengruppenzeile integriert. Das Format ist:
+Wir haben die Unterstützung für das Einbetten eines Unterberichts in einer Tabellengruppenzeile integriert. Das Format lautet:
 
-&=subreport{ReportName=Ihr Berichtsname; Parameter1-Name = Parameter1-Wert; Parameter2-Name = Parameter2-Wert;......} 
+&=subreport{ReportName=your report name; parameter1 name = parameter1 value; parameter2 name = parameter2 value;......} 
 
 {{% /alert %}} 
 ### **Beispiel**
 **Ein Unterbericht in einer Tabelle** 
 
-![todo: Bild_alt_Text](sub-reports_1.png)
+![todo:image_alt_text](sub-reports_1.png)
 
- Im Beispiel lautet der Name des Unterberichts „Sales Order Detail“. Es hat einen Parameter,*Verkaufsauftragsnummer* . Der Wert des Parameters ist*EmpSalesDetail.SalesOrderNumber.*
+Im Beispiel ist der Name des Unterberichts "Verkaufsdetail". Es hat einen Parameter, *SalesOrderNumber*. Der Wert des Parameters ist *EmpSalesDetail.SalesOrderNumber*.
 #### **Einschränkungen bei der Verwendung von Unterberichten**
-- Der Unterbericht sollte mit dem Tool Aspose.Cells.Reporting Services Designer entworfen werden.
-- Der Unterbericht kann nur in die Tabellengruppenzeile eingebettet werden und die Gruppenzeile darf keine anderen Elemente außer dem Unterbericht enthalten. Das Einbetten eines Unterberichts in die Tabellendetailzeilen oder Fußzeilen ist nicht zulässig.
-- Derzeit wird das Verschachteln von mehr als einer Ebene nicht unterstützt. Der Unterbericht darf keinen eingebetteten Bericht enthalten.
+- Der Unterbericht sollte mit dem Aspose.Cells.Reporting Services Designer-Tool entworfen werden.
+- Der Unterbericht kann nur in der Tabellengruppenzeile eingebettet werden, und die Gruppenzeile darf keine anderen Elemente außer dem Unterbericht enthalten. Das Einbetten eines Unterberichts in den Tabellendetailzeilen oder Fußzeilen ist nicht erlaubt.
+- Derzeit wird keine Verschachtelung von mehr als einer Ebene unterstützt. Der Unterbericht kann keinen eingebetteten Bericht enthalten.

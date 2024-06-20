@@ -1,73 +1,74 @@
-﻿---
+---
 title: 組み込みスタイルの使用
 type: docs
 weight: 80
 url: /ja/net/using-built-in-styles/
-description: C# Aspose.Cells for .NET API で Excel 組み込みスタイルを使用するコード
-keywords: c# use excel built in styles, c# programmatically apply styles in workbook, programmatically apply styles in workbook, c# apply built in styles in excel, c# apply built in styles in workbook, c# code apply built in styles in workbook, c# code apply built in styles in excel workbook
+description: C#コードを使用して、Aspose.Cells for .NET APIとExcelの組み込みスタイルを使用する方法
+keywords: C#でExcelの組み込みスタイルを使用する、ワークブックでプログラム的にスタイルを適用する、プログラム的にワークブックでスタイルを適用する、C#でExcelの組み込みスタイルを適用する、C#でワークブックに組み込みスタイルを適用する、C#コードでワークブックに組み込みスタイルを適用する、C#コードでExcelワークブックに組み込みスタイルを適用する
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells は、スプレッドシート ドキュメントのセルをフォーマットするための再利用可能なスタイルの膨大なコレクションを提供します。ワークブックで組み込みのスタイルを使用したり、カスタム スタイルを作成したりできます。
+Aspose.Cellsは、スプレッドシートドキュメントのセルを書式設定するための多くの再利用可能なスタイルを提供しています。ワークブックで組み込みのスタイルを使用したり、カスタムスタイルを作成したりすることができます。
 
 {{% /alert %}}
 
 ## **組み込みスタイルの使用方法**
 
-方法[**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle)そして列挙[**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype)組み込みスタイルの使用を便利にします。可能なすべての組み込みスタイルのリストを次に示します。
+[**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle)メソッドと[**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype)列挙型を使用すると、組み込みスタイルを簡単に使用できます。以下にすべての可能な組み込みスタイルのリストがあります:
 
-- 20_パーセント_ACCENT_1
-- 20_パーセント_ACCENT_2
-- 20_パーセント_ACCENT_3
-- 20_パーセント_ACCENT_4
-- 20_パーセント_ACCENT_5
-- 20_パーセント_ACCENT_6
-- フォーティー_パーセント_ACCENT_1
-- フォーティー_パーセント_ACCENT_2
-- フォーティー_パーセント_ACCENT_3
-- フォーティー_パーセント_ACCENT_4
-- フォーティー_パーセント_ACCENT_5
-- フォーティー_パーセント_ACCENT_6
-- シックスティ_パーセント_ACCENT_1
-- シックスティ_パーセント_ACCENT_2
-- シックスティ_パーセント_ACCENT_3
-- シックスティ_パーセント_ACCENT_4
-- シックスティ_パーセント_ACCENT_5
-- シックスティ_パーセント_ACCENT_6
+- TWENTY_PERCENT_ACCENT_1
+- TWENTY_PERCENT_ACCENT_2
+- TWENTY_PERCENT_ACCENT_3
+- TWENTY_PERCENT_ACCENT_4
+- TWENTY_PERCENT_ACCENT_5
+- TWENTY_PERCENT_ACCENT_6
+- FORTY_PERCENT_ACCENT_1
+- FORTY_PERCENT_ACCENT_2
+- FORTY_PERCENT_ACCENT_3
+- FORTY_PERCENT_ACCENT_4
+- FORTY_PERCENT_ACCENT_5
+- FORTY_PERCENT_ACCENT_6
+- 60_PERCENT_ACCENT_1
+- 60_PERCENT_ACCENT_2
+- 60_PERCENT_ACCENT_3
+- 60_PERCENT_ACCENT_4
+- 60_PERCENT_ACCENT_5
+- 60_PERCENT_ACCENT_6
 - ACCENT_1
 - ACCENT_2
 - ACCENT_3
 - ACCENT_4
 - ACCENT_5
 - ACCENT_6
-- 悪い
-- 計算
+- BAD
+- CALCULATION
 - CHECK_CELL
-- コンマ
+- COMMA
 - COMMA_1
-- 通貨
+- CURRENCY
 - CURRENCY_1
-- EXPLANATORY_TEXT
-- 良い
+- 解説文
+- 良好
 - HEADER_1
 - HEADER_2
 - HEADER_3
 - HEADER_4
-- ハイパーリンク
-- FOLLOWED_HYPERLINK
+- HYPERLINK
+- ハイパーリンクをタップ後
 - 入力
-- LINKED_CELL
-- 中性
-- 正常
+- リンク先のセル
+- 中立
+- 通常
 - ノート
 - 出力
 - パーセント
-- 題名
+- タイトル
 - 合計
-- WARNING_TEXT
-- ROW_LEVEL
-- COLUMN_LEVEL
+- 警告テキスト
+- 行レベル
+- 列レベル
 
-## C# 組み込みスタイルを使用するコード
+## C＃コードを使用して組み込みスタイルを利用する
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}

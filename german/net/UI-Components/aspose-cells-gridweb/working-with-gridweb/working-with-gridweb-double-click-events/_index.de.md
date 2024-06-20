@@ -1,26 +1,29 @@
-﻿---
-title: Arbeiten mit GridWeb Double Click Events
+---
+title: Arbeiten mit GridWeb Doppelklickereignissen
 type: docs
 weight: 80
-url: /de/net/working-with-gridweb-double-click-events/
+url: /de/net/aspose-cells-gridweb/gridweb-double-click-event/
+keywords: GridWeb, Doppelklick, Klickevent, Ereignis
+description: Dieser Artikel stellt vor, wie man das Doppelklick Ereignis in GridWeb verwendet.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb enthält drei Arten von Doppelklickereignissen:
+Aspose.Cells.GridWeb enthält drei Arten von Double-Click-Ereignissen:
 
-- CellDoubleClick, wird ausgelöst, wenn auf eine Zelle doppelgeklickt wird.
-- ColumnDoubleClick, wird ausgelöst, wenn auf eine Spaltenüberschrift doppelgeklickt wird.
-- RowDoubleClick, wird ausgelöst, wenn auf eine Zeilenüberschrift doppelgeklickt wird.
+- CellDoubleClick, ausgelöst, wenn auf eine Zelle doppelgeklickt wird.
+- ColumnDoubleClick, ausgelöst, wenn auf eine Spaltenüberschrift doppelgeklickt wird.
+- RowDoubleClick, ausgelöst, wenn auf eine Zeilenüberschrift doppelgeklickt wird.
 
-In diesem Thema wird erläutert, wie Doppelklickereignisse in Aspose.Cells.GridWeb aktiviert werden. Außerdem wird das Erstellen von Ereignishandlern für diese Ereignisse erläutert.
+In diesem Thema wird erläutert, wie Double-Click-Ereignisse in Aspose.Cells.GridWeb aktiviert werden können. Es wird auch die Erstellung von Ereignishandlern für diese Ereignisse erläutert.
 
 {{% /alert %}} 
-## **Aktivieren von Doppelklickereignissen**
-Alle Arten von Doppelklickereignissen können clientseitig aktiviert werden, indem die EnableDoubleClickEvent-Eigenschaft des GridWeb-Steuerelements auf „true“ festgelegt wird.
+## **Aktivieren von Double-Click-Ereignissen**
+Alle Arten von Double-Click-Ereignissen können clientseitig aktiviert werden, indem die Eigenschaft EnableDoubleClickEvent des GridWeb-Steuerelements auf true gesetzt wird.
 
 {{% alert color="primary" %}} 
 
-Standardmäßig ist die Eigenschaft „EnableDoubleClickEvent“ auf „false“ gesetzt. Das bedeutet, dass Doppelklickereignisse standardmäßig nicht aktiviert sind. Um solche Ereignisse zu implementieren, aktivieren Sie zuerst die Funktion.
+Standardmäßig ist die Eigenschaft EnableDoubleClickEvent auf false gesetzt. Dies bedeutet, dass Double-Click-Ereignisse standardmäßig nicht aktiviert sind. Um solche Ereignisse zu implementieren, muss zunächst die Funktion aktiviert werden.
 
 {{% /alert %}} 
 
@@ -28,27 +31,27 @@ Standardmäßig ist die Eigenschaft „EnableDoubleClickEvent“ auf „false“
 
 
 
-Sobald Doppelklick-Ereignisse aktiviert sind, ist es möglich, Ereignishandler für beliebige Doppelklick-Ereignisse zu erstellen. Diese Ereignishandler führen bestimmte Aufgaben aus, wenn ein bestimmtes Doppelklickereignis ausgelöst wird.
-## **Umgang mit Doppelklickereignissen**
-So erstellen Sie einen Ereignishandler in Visual Studio:
+Sobald Double-Click-Ereignisse aktiviert sind, ist es möglich, Ereignishandler für jedes Double-Click-Ereignis zu erstellen. Diese Ereignishandler führen spezifische Aufgaben aus, wenn ein bestimmtes Double-Click-Ereignis ausgelöst wird.
+## **Behandlung von Doppelklickereignissen**
+Um einen Ereignishandler in Visual Studio zu erstellen:
 
-1.  Doppelklicken Sie auf ein Ereignis in der**Veranstaltungen** Liste im Bereich Eigenschaften.
+1. Doppelklicken Sie auf ein Ereignis in der **Ereignisse**-Liste im Eigenschaftenfenster.
 
-Für dieses Beispiel haben wir Ereignishandler für verschiedene Doppelklickereignisse implementiert.
-### **Doppelklicken Sie auf Cell**
-Der Ereignishandler für das CellDoubleClick-Ereignis stellt ein Argument vom Typ CellEventArgs bereit, das die vollständigen Informationen der Zelle bereitstellt, auf die doppelgeklickt wird.
+In diesem Beispiel haben wir Ereignishandler für verschiedene Doppelklick-Ereignisse implementiert.
+### **Zelle doppelklicken**
+Der Ereignisbehandlungsroutinen für das CellDoubleClick-Ereignis stellt ein Argument vom Typ CellEventArgs bereit, das die vollständigen Informationen über die Zelle liefert, die doppelgeklickt wurde.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-HandleDoubleClickEvents.aspx-CellDoubleClickEvent.cs" >}}
-### **Doppelklicken Sie auf die Spaltenüberschrift**
-Der Ereignishandler für das ColumnDoubleClick-Ereignis stellt ein Argument des RowColumnEventArgs-Typs bereit, das die Indexnummer der Spalte für die Überschrift bereitstellt, auf die doppelt geklickt wurde, sowie weitere Informationen.
+### **Spaltenkopf doppelklicken**
+Der Ereignisbehandlungsroutinen für das ColumnDoubleClick-Ereigniss stellt ein Argument vom Typ RowColumnEventArgs bereit, das die Indexnummer der Spalte für den doppelgeklickten Kopf sowie andere Informationen liefert.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-HandleDoubleClickEvents.aspx-ColumnDoubleClickEvent.cs" >}}
-### **Doppelklicken Sie auf den Zeilenkopf**
-Der Ereignishandler für das RowDoubleClick-Ereignis stellt ein Argument des RowColumnEventArgs-Typs bereit, das die Indexnummer der Zeile für den Header, auf den doppelgeklickt wurde, und andere zugehörige Informationen bereitstellt.
+### **Zeilenkopf doppelklicken**
+Der Ereignisbehandilungsroutinen für das RowDoubleClick-Ereignis stellt ein Argument vom Typ RowColumnEventArgs bereit, das die Indexnummer der Reihe für den doppelgeklickten Kopf sowie andere relevante Informationen liefert.
 
 
 

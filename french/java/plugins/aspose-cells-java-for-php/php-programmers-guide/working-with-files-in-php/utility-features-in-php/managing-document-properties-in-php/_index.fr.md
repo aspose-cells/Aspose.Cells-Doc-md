@@ -1,15 +1,16 @@
-﻿---
-title: Gestion des propriétés de document en PHP
+---
+title: Gestion des propriétés du document en PHP
 type: docs
 weight: 70
 url: /fr/java/managing-document-properties-in-php/
 ---
+
 ## **Aspose.Cells - Ajout de propriétés personnalisées**
-Pour ajouter des propriétés de document personnalisées à l'aide de Aspose.Cells Java for PHP, appelez**add_custom_property** méthode de la**Document** module.
+Pour ajouter des propriétés de document personnalisées à l'aide de Aspose.Cells Java pour PHP, appelez la méthode **add_custom_property** du module **Document**.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -45,7 +46,7 @@ $customProperties->remove("Publisher");
 $workbook->save($dataDir . "Test_Workbook_RemovedProperty.xls");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Accès aux propriétés du document (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Accéder aux propriétés du document (Aspose.Cells)** sur l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

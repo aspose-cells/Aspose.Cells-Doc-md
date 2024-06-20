@@ -1,19 +1,20 @@
 ---
-title: Style.Custom プロパティを設定するときにカスタム数値形式を確認する
-description: Aspose.Cells は、スプレッドシート ファイルを操作するための .NET ライブラリで、スタイル設定時のカスタム数値形式のチェックをサポートします。この記事では、Aspose.Cells ライブラリを使用してカスタム数値形式をチェックし、スタイルが正しいことを確認する方法を説明します。
-keywords: Aspose.Cells, NET libraries, spreadsheets, styling, custom number formatting, checking, validation
+title: スタイル.Customプロパティを設定する際にカスタム番号書式をチェックする
+description: Aspose.Cellsはスプレッドシートファイルを操作するための.NETライブラリであり、スタイリング時にカスタム番号形式をチェックすることをサポートしています。この記事では、Aspose.Cellsライブラリを使用してカスタム番号形式をチェックする方法を説明します。
+keywords: Aspose.Cells, .NETライブラリ, スプレッドシート, スタイリング, カスタム番号形式, チェック, 検証
 type: docs
 weight: 170
 url: /ja/net/check-custom-number-format-when-setting-style-custom-property/
 ---
-##  **考えられる使用シナリオ**
 
-無効なカスタム数値形式を割り当てた場合[**スタイル.カスタム**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)プロパティを指定すると、Aspose.Cells は例外をスローしません。ただし、Aspose.Cells で割り当てられたカスタム番号形式が有効かどうかを確認したい場合は、[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat)プロパティを *true** に設定します。
+## **可能な使用シナリオ**
 
-##  **Style.Custom プロパティを設定するときにカスタム数値形式をチェックする**
+[**Style.Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)プロパティに無効なカスタム番号形式を割り当てた場合、Aspose.Cellsは例外をスローしません。ただし、Aspose.Cellsに割り当てたカスタム番号形式が有効かどうかをチェックする場合は、[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat)プロパティを**true**に設定してください。
 
-次のサンプル コードは、無効なカスタム数値形式を[**スタイル.カスタム**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)財産。すでに設定されているため、[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat)プロパティを *true** に設定すると、例外がスローされます (例: 無効な数値形式)。詳細については、コード内のコメントをお読みください。
+## **スタイルのカスタムプロパティを設定する際のカスタム番号形式をチェック**
 
-##  **サンプルコード**
+次のサンプルコードは、[**Style.Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)プロパティに無効なカスタム番号形式を割り当てます。すでに[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat)プロパティを**true**に設定しているため、例外（無効な番号形式など）がスローされます。詳細についてはコード内のコメントをお読みください。
+
+## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CheckCustomFormatPattern.cs" >}}

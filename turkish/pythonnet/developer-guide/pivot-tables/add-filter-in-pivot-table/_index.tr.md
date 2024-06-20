@@ -1,16 +1,17 @@
 ---
-title: Pivot Tabloya filtre ekleme
+title: Pivot Tablosuna Filtre Ekleyin
 type: docs
 weight: 130
 url: /tr/python-net/add-filter-in-pivot-table/
-description: Aspose.Cells for Python via .NET ile pivot tabloya nasıl filtre ekleyeceğinizi öğrenin.
-keywords: Adding a filter in pivot table without office 2013, office 2016, office 2019 and office 365.
+description: Python için Aspose.Cells ile pivot tablosuna filtre eklemeyi nasıl yapacağınızı öğrenin via .NET.
+keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, Aspose.Cells for Python Excel Kütüphanesi kullanarak pivot tablosuna filtre eklemek.
 ---
-##  **Olası Kullanım Senaryoları**
- Bilinen verilerle pivot tablo oluşturduğunuzda ve pivot tabloyu filtrelemek istediğinizde filtreyi öğrenmeniz ve kullanmanız gerekir. İstediğiniz verileri etkili bir şekilde filtrelemenize yardımcı olabilir. Aspose.Cells for Python via .NET API'i kullanarak Pivot Tablolardaki alan değerlerine filtre ekleyebilirsiniz.
 
-##  **Pivot Tabloya filtre ekleme**
- Lütfen aşağıdaki örnek koda bakın. Verileri ayarlar ve buna göre bir PivotTable oluşturur. Daha sonra pivot tablonun satır alanına bir filtre ekleyin. Son olarak çalışma kitabını kaydeder.[çıkış XLSX](filterout.xlsx) biçim. Örnek kodu çalıştırdıktan sonra çalışma sayfasına top10 filtreli bir pivot tablo eklenir.
+## **Olası Kullanım Senaryoları**
+Bilinen verilerle bir pivot tablosu oluşturduğunuzda ve pivot tablosunu filtrelemek istediğinizde, filtrelemeyi öğrenmeniz ve kullanmanız gerekecektir. Size istediğiniz verileri etkili bir şekilde filtrelemenizde yardımcı olabilir. Aspose.Cells for Python via .NET API'sini kullanarak, Pivot Tablolarındaki alan değerlerine filtre ekleyebilirsiniz.  
 
-##  **Basit kod**
+## **Aspose.Cells for Python Excel Kütüphanesi Kullanarak Pivot Tablosuna Filtre Ekleme**
+Lütfen aşağıdaki örnek kodu inceleyin. Veriyi ayarlar ve buna dayalı bir PivotTablo oluşturur. Daha sonra pivot tablosunun satır alanına bir filtre ekler. Son olarak, çalışma kitabını [çıktı XLSX](filterout.xlsx) formatında kaydeder. Örnek kodu çalıştırdıktan sonra, bir sayfada top10 filtresi eklenmiş bir pivot tablosu eklenir.
+
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-Add-filter-in-PivotTable.py" >}}

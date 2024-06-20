@@ -1,23 +1,24 @@
-﻿---
-title: HTML'e kaydederken Alt Seviye Açığa Çıkan Yorumları devre dışı bırakın
+---
+title: HTML ye kaydederken Downlevel Açıklanan Yorumları Devre Dışı Bırak
 type: docs
 weight: 20
 url: /tr/net/disable-downlevel-revealed-comments-while-saving-to/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Excel dosyanızı HTML'e kaydettiğinizde, Aspose.Cells, Alt Düzey Koşullu Yorumları gösterir. Bu koşullu yorumlar çoğunlukla Internet Explorer'ın eski sürümleriyle ilgilidir ve modern Web Tarayıcılarıyla ilgisizdir. Onlarla ilgili detaylı bilgiyi aşağıdaki linkten okuyabilirsiniz.
+Excel dosyanızı HTML'e kaydettiğinizde, Aspose.Cells Downlevel Koşullu Yorumları ortaya çıkarır. Bu koşullu yorumlar genellikle eski Internet Explorer sürümleriyle ilgilidir ve modern Web Tarayıcıları için geçerli değildir. Bu yorumlar hakkında detaylı bilgiyi aşağıdaki bağlantıda okuyabilirsiniz:
 
-- [Koşullu yorum - Alt seviye tarafından açıklanan koşullu yorum](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
+- [Koşullu yorum - Downlevel-açıklanan koşullu yorum](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
 
-Aspose.Cells, bu Alt Düzey Açığa Çıkan Yorumları ortadan kaldırmanıza olanak tanır.[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) mülkiyet**doğru**.
+Aspose.Cells, Downlevel Açıklanan Yorumları  **true** olarak ayarlayarak ortadan kaldırmanıza olanak tanır.
 
-## **HTML'e kaydederken Alt Seviye Açığa Çıkan Yorumları devre dışı bırakın**
+## **HTML'ye kaydederken Downlevel Açıklanan Yorumları Devre Dışı Bırak**
 
-Aşağıdaki örnek kod, kullanımını gösterir[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) Emlak. Ekran görüntüsü, true olarak ayarlanmadığında bu özelliğin etkisini gösterir. Lütfen indirin[örnek excel dosyası](50528257.xlsx) Bu kodda kullanılan ve[çıkış HTML](50528258.zip) bir referans için onun tarafından oluşturulur.
+Aşağıdaki örnek kod, [**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) özelliğinin kullanımını gösterir. Ekran görüntüsü, bu özelliğin true olarak ayarlanmadığı durumun etkisini gösterir. Lütfen bu kodda kullanılan [örnek Excel dosyasını](50528257.xlsx) ve bunun tarafından oluşturulan [çıktı HTML'yi](50528258.zip) referans için indirin.
 
-![yapılacaklar:resim_alternatif_metin](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
+![todo:image_alt_text](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-DisableDownlevelRevealedCommentsWhileSavingToHTML.cs" >}}

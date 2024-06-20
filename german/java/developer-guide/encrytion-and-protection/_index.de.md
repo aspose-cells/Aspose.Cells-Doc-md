@@ -1,33 +1,35 @@
-﻿---
-title: Verschlüsseln, entschlüsseln, schützen und entschützen Sie Excel-Dateien
+---
+title: Excel Dateien verschlüsseln, entschlüsseln, schützen und freigeben
 linktitle: Verschlüsselung und Schutz
 type: docs
 weight: 53
 url: /de/java/protect-and-unprotect/
-description: Dieses Snippet stellt vor, wie Sie Excel-Dateien verschlüsseln und entschlüsseln, die Daten in Excel-Dateien mit JAVA-Codes schützen und den Schutz aufheben.
+description: Dieser Ausschnitt stellt vor, wie man Excel Dateien verschlüsselt und entschlüsselt, Daten in Excel Dateien schützt und entschützt, indem man JAVA Codes verwendet.
 ---
+
+
 {{% alert color="primary" %}}
-Aspose.Cells for Java bietet ein breites Spektrum an Schutz und Aufhebung des Schutzes von der Datei- bis zur Datenebene wie MS Excel:
+Aspose.Cells for Java bietet eine Vielzahl von Schutzmaßnahmen und Entschutzungen von der Datei- bis zur Datenebene, wie z.B. MS Excel:
 {{% /alert %}}
 
 
-## [**Verschlüsseln und entschlüsseln Sie Excel-Dateien**](/cells/de/java/encrypt-and-decrypt-excel-files/)
-Um zu verhindern, dass andere auf Daten in Excel-Dateien zugreifen, schützen Sie die Excel-Datei mit einem Kennwort.
+## [**Encrypt and decrypt Excel files**](/cells/de/java/encrypt-and-decrypt-excel-files/)
+Um anderen den Zugriff auf Daten in Excel-Dateien zu verwehren, schützen Sie die Excel-Datei mit einem Kennwort.
 
-## [**Arbeitsmappe schützen und Schutz aufheben**](/cells/de/java/protect-and-unprotect-workbook-structure/)
-Um zu verhindern, dass andere Benutzer ausgeblendete Arbeitsblätter anzeigen, Arbeitsblätter hinzufügen, verschieben, löschen oder ausblenden und Arbeitsblätter umbenennen, können Sie die Struktur Ihrer Excel-Arbeitsmappe mit einem Kennwort schützen.
+## [**Protect and unprotect workbook**](/cells/de/java/protect-and-unprotect-workbook-structure/)
+Um zu verhindern, dass andere Benutzer versteckte Arbeitsblätter einsehen, Arbeitsblätter hinzufügen, verschieben, löschen oder ausblenden und Arbeitsblätter umbenennen, können Sie die Struktur Ihres Excel-Arbeitsblatts mit einem Kennwort schützen.
 
-## [**Arbeitsblatt schützen und Schutz aufheben**](/cells/de/java/protect-and-unprotect-worksheet/)
-Um zu verhindern, dass andere Benutzer versehentlich oder absichtlich Daten in einem Arbeitsblatt ändern, verschieben oder löschen, können Sie die Zellen in Ihrem Excel-Arbeitsblatt sperren und das Blatt dann mit einem Kennwort schützen.
+## [**Protect and unprotect worksheet**](/cells/de/java/protect-and-unprotect-worksheet/)
+Um zu verhindern, dass andere Benutzer versehentlich oder absichtlich Daten in einem Arbeitsblatt ändern, verschieben oder löschen, können Sie die Zellen in Ihrem Excel-Arbeitsblatt sperren und das Blatt dann mit einem Kennwort schützen. 
 
-## [**Freigegebene Arbeitsmappe schützen und Schutz aufheben**](/cells/de/java/password-protect-or-unprotect-the-shared-workbook/)
-Schützen Sie die freigegebene Arbeitsmappe und heben Sie den Schutz auf.
+## [**Protect and unprotect shared workbook**](/cells/de/java/password-protect-or-unprotect-the-shared-workbook/)
+Schützen und den Schutz für die freigegebene Arbeitsmappe aufheben.
 
-## [**Digitale Signatur in Office-Dateien**](/cells/de/java/assign-and-validate-digital-signatures/)
-Schützen Sie die Authentizität des Inhalts eines Dokuments, indem Sie eine digitale Signatur hinzufügen.
+## [**Digital signature in Office files**](/cells/de/java/assign-and-validate-digital-signatures/)
+Schützen Sie die Authentizität des Dokumenteninhalts, indem Sie eine digitale Signatur hinzufügen.
 
-## **Themen vorantreiben**
-- [Erkennen Sie das Dateiformat von verschlüsselten Office Open XML - OOXML-Dateien](/cells/de/java/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
-- [So erkennen Sie ein Dateiformat und prüfen, ob die Datei verschlüsselt ist](/cells/de/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+## **Erweiterte Themen**
+- [Erkennen Sie das Dateiformat verschlüsselter Office Open XML - OOXML-Dateien](/cells/de/java/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
+- [Wie erkennt man ein Dateiformat und überprüft, ob die Datei verschlüsselt ist](/cells/de/java/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
 
 

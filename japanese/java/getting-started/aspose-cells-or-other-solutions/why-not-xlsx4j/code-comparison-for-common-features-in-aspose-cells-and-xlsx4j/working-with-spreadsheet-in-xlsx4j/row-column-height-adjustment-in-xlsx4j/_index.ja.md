@@ -1,23 +1,24 @@
-﻿---
-title: xlsx4j での行の列の高さの調整
+---
+title: xlsx4j で行列の高さを調整する
 type: docs
 weight: 50
 url: /ja/java/row-column-height-adjustment-in-xlsx4j/
 ---
-## **Aspose.Cells - 行列の高さ調整**
-Cells コレクションの setRowHeight メソッドを呼び出すことで、1 行の高さを設定できます。 setRowHeight メソッドは、次のパラメーターを取ります。
 
-- **行インデックス**、高さを変更する行のインデックス。
-- **行の高さ**、行に適用する行の高さ。
+## **Aspose.Cells - 行列の高さを調整する**
+Cells 集合の setRowHeight メソッドを呼び出すことで、単一の行の高さを設定することが可能です。 setRowHeight メソッドは、以下のパラメータを取ります。
 
-Cells コレクションの setColumnWidth メソッドを呼び出して、列の幅を設定します。 setColumnWidth メソッドは、次のパラメーターを取ります。
+- **行インデックス**：高さを変更する行のインデックス。
+- **行の高さ**：行に適用する行の高さ。
 
-- **列インデックス**、幅を変更する列のインデックス。
-- **列幅**、目的の列幅。
+Cells 集合の setColumnWidth メソッドを呼び出すことで、列の幅を設定することが可能です。 setColumnWidth メソッドは、以下のパラメータを取ります。
+
+- **列インデックス**：幅を変更する列のインデックス。
+- **列の幅**：設定したい列の幅。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cells.setRowHeight(1, 40);
 cells.setColumnWidth(1, 17.5);
 
 {{< /highlight >}}
-## **xlsx4j - 行列の高さ調整**
-Row.setHt は、xlsx4j を使用して行のカスタムの高さを設定するために使用されます。 setCustomHeight を TRUE に設定する必要があります。
+## **xlsx4j - 行列の高さを調整する**
+Row.setHt を使用して、xlsx4j を使用して行のカスタム高さを設定します。 setCustomHeight は TRUE に設定する必要があります。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SpreadsheetMLPackage pkg = SpreadsheetMLPackage.createPackage();
 
@@ -88,13 +89,13 @@ row.getC().add(cell2);
 sheetData.getRow().add(row);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[行の高さと列の幅の調整](/java/adjusting-row-height-and-volumn-width).
+詳細については、[行の高さと列の幅を調整](/java/adjusting-row-height-and-volumn-width) をご覧ください。
 
 {{% /alert %}}

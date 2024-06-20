@@ -1,129 +1,130 @@
 ---
-title: Veri doğrulama
+title: Veri Doğrulama
 type: docs
 weight: 90
 url: /tr/net/data-validation/
-description: Aspose.Cells for .NET API numaralı telefondan veri doğrulamayı nasıl ekleyeceğinizi öğrenin.
-keywords: Add Data Validation, Get Validation Value, Add Whole Number Data Validation, Add List Data Validation, Add Date Data Validation, Add Time Data Validation, Add Text Length Data Validation, Add CellArea to existing Validation, Check if validation in cell is dropdown, Add Custom Valication  
+description: Aspose.Cells for .NET API si aracılığıyla veri doğrulama eklemeyi öğrenin.
+keywords: Veri Doğrulama Ekle, Doğrulama Değerini Al, Tamsayı Veri Doğrulama Ekle, Liste Veri Doğrulama Ekle, Tarih Veri Doğrulama Ekle, Zaman Veri Doğrulama Ekle, Metin Uzunluğu Veri Doğrulama Ekle, Mevcut Doğrulamaya CellArea Ekle, hücredeki doğrulamanın açılır menü olup olmadığını kontrol etmek, Özel Doğrulama Ekle  
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel, çalışma sayfası verilerini otomatik olarak filtrelemek veya doğrulamak için bazı iyi özellikler sağlar.Aspose.Cells, Microsoft Excel'in veri doğrulama ve Otomatik Filtreleme özelliklerini tam olarak destekler. Bu makalede, Microsoft Excel'deki özelliklerin nasıl kullanılacağı ve bunların Aspose.Cells kullanılarak nasıl kodlanacağı açıklanmaktadır.
+Microsoft Excel, bir çalışma sayfasındaki verileri otomatik olarak filtreleme veya doğrulama için iyi özellikler sağlar. Aspose.Cells, Microsoft Excel'in veri doğrulama ve Otomatik Filtre özelliklerini tamamen destekler. Bu makale, Microsoft Excel'deki özelliklerin nasıl kullanılacağını ve Aspose.Cells'u nasıl kodlayacağını açıklar.
 
 {{% /alert %}}
 
-##  **Veri Doğrulama Türleri ve Yürütülmesi**
+## **Veri Doğrulama Türleri ve Uygulama**
 
-Veri doğrulama, bir çalışma sayfasına girilen verilere ilişkin kuralları belirleme yeteneğidir. Örneğin, DATE etiketli bir sütunun yalnızca tarihleri içerdiğinden veya başka bir sütunun yalnızca sayılar içerdiğinden emin olmak için doğrulamayı kullanın. Hatta DATE etiketli bir sütunun yalnızca belirli bir aralıktaki tarihleri içerdiğinden bile emin olabilirsiniz. Veri doğrulama ile çalışma sayfasındaki hücrelere nelerin girildiğini kontrol edebilirsiniz.
+Veri doğrulama, çalışsayadaki girilen verilere ilişkin kuralların ayarlanabilme yeteneğidir. Örneğin, bir sütunun TARIH olarak etiketlendiğinden emin olmak için doğrulamayı kullanın ve yalnızca tarihlerin bulunduğu veya başka bir sütunda yalnızca sayıların bulunduğundan emin olun. Aynı zamanda BELİRLİ bir tarih aralığında yalnızca tarihlerin bulunduğundan emin olabilirsiniz. Veri doğrulama ile çalışarak, çalışsayadaki hücrelere neyin girileceğini kontrol edebilirsiniz.
 
-Microsoft Excel bir dizi farklı veri doğrulama türünü destekler. Her tür, bir hücreye veya hücre aralığına ne tür verinin girildiğini kontrol etmek için kullanılır. Aşağıda kod parçacıkları bunun nasıl doğrulanacağını göstermektedir:
+Microsoft Excel, çeşitli farklı veri doğrulama türlerini desteklemektedir. Her tür, bir hücre veya hücre aralığına hangi veri türünün girileceğini kontrol etmek için kullanılır. Aşağıda, aşağıdaki durumların doğrulanma şeklini gösteren kod örnekleri bulunmaktadır:
 
-- Numbers tamdır, yani ondalık kısmı yoktur.
-- Ondalık sayılar doğru yapıyı takip eder. Kod örneği, bir hücre aralığının iki ondalık boşluğa sahip olması gerektiğini tanımlar.
-- Değerler bir değerler listesiyle sınırlıdır. Liste doğrulama, bir hücreye veya hücre aralığına uygulanabilecek değerlerin ayrı bir listesini tanımlar.
-- Tarihler belirli bir aralıkta yer almaktadır.
-- Bir zaman belirli bir aralıktadır.
-- Bir metin belirli bir karakter uzunluğundadır.
+- Sayıların tam olduğunu, yani onların ondalık kısmının olmadığını doğrulama.
+- Ondalık sayıların doğru yapısı takip edildiğini doğrulama. Kod örneği, bir hücre aralığının iki ondalık alanı olması gerektiğini tanımlar.
+- Değerlerin belirli bir değer listesine sınırlı olduğunu doğrulama. Liste doğrulama, bir hücre veya hücre aralığına uygulanabilen ayrı bir değer listesi tanımlar.
+- Tarihlerin belirli bir aralıkta olmasını sağlama.
+- Zamanın belirli bir aralıkta olup olmadığını kontrol etme.
+- Bir metnin belirli bir karakter uzunluğunda olup olmadığını kontrol etme.
 
-###  **Microsoft Excel ile Veri Doğrulama**
+### **Microsoft Excel ile Veri Doğrulama**
 
-Microsoft Excel'i kullanarak doğrulamalar oluşturmak için:
+Microsoft Excel kullanarak doğrulamalar oluşturmak için:
 
-1. Çalışma sayfasında doğrulama uygulamak istediğiniz hücreleri seçin.
-1.  itibaren**Veri** menüsünde *Doğrulama**'yı seçin. Doğrulama iletişim kutusu görüntülenecektir.
-1.  Tıkla**Ayarlar** sekmesine tıklayın ve ayarları girin.
+1. Bir çalışsayfada, doğrulama uygulamak istediğiniz hücreleri seçin.
+1. **Data** menüsünden **Doğrulama** seçeneğini seçin. Doğrulama iletişim kutusu görüntülenecektir.
+1. **Ayarlar** sekmesine tıklayın ve ayarları girin.
 
-###  **Aspose.Cells ile Veri Doğrulama**
+### **Aspose.Cells ile Veri Doğrulama**
 
-Veri doğrulama, çalışma sayfalarına girilen bilgilerin doğrulanması için güçlü bir özelliktir. Veri doğrulamayla geliştiriciler kullanıcılara bir seçenek listesi sunabilir, veri girişlerini belirli bir tür veya boyutla sınırlandırabilir vb.
- Aspose.Cells'de her biri[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)sınıf var[**Doğrulamalar**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/validations) koleksiyonunu temsil eden mülk[**Doğrulama**](https://reference.aspose.com/cells/net/aspose.cells/validation) nesneler. Doğrulamayı ayarlamak için bazı ayarları yapın.[**Doğrulama**](https://reference.aspose.com/cells/net/aspose.cells/validation)class'ın özellikleri aşağıdaki gibidir:
+Veri doğrulaması, çalışma tablolarına girilen bilgileri doğrulamak için güçlü bir özelliktir. Veri doğrulaması ile geliştiriciler, kullanıcılara bir liste seçeneği sunabilir, veri girişlerini belirli bir tür veya boyuta sınırlayabilir, vb.
+Aspose.Cells'de, her [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfının bir [**Validations**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/validations) özelliği vardır. Bu özellik, bir [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) koleksiyonunu temsil eder. Doğrulamayı kurmak için, [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) sınıfının bazı özelliklerini aşağıdaki gibi ayarlayın:
 
-- Tür – önceden tanımlanmış değerlerden biri kullanılarak belirtilebilen doğrulama türünü temsil eder.[**Doğrulama Türü**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)numaralandırma.
--  Operatör – doğrulamada kullanılacak operatörü temsil eder ve bu operatör, önceden tanımlanmış değerlerden biri kullanılarak belirtilebilir.[**Operatör Türü**](https://reference.aspose.com/cells/net/aspose.cells/operatortype)numaralandırma.
-- Formül1 – veri doğrulamanın ilk bölümüyle ilişkili değeri veya ifadeyi temsil eder.
-- Formül2 – veri doğrulamanın ikinci kısmıyla ilişkili değeri veya ifadeyi temsil eder.
+- Tip - [**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype) numaralı sayısal değerlerden birini kullanarak belirtilebilen doğrulama tipini temsil eder.
+- Operatör - doğrulamada kullanılacak operatörü temsil eder, bu, [**OperatorType**](https://reference.aspose.com/cells/net/aspose.cells/operatortype) numaralandırmasındaki önceden tanımlanmış değerlerden birini kullanarak belirtilebilir.
+- Formül1 - Doğrulamanın ilk parçasıyla ilişkilendirilen değeri veya ifadeyi temsil eder.
+- Formül2 - Doğrulamanın ikinci parçası ile ilişkilendirilen değeri veya ifadeyi temsil eder.
 
- Ne zaman[**Doğrulama**](https://reference.aspose.com/cells/net/aspose.cells/validation) nesnenin özellikleri yapılandırıldığında, geliştiriciler[**Hücre Alanı**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)Oluşturulan doğrulama kullanılarak doğrulanacak hücre aralığı hakkındaki bilgileri depolayan yapı.
+[**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) nesnesinin özellikleri yapılandırıldığında, geliştiriciler oluşturulan doğrulamayı kullanarak doğrulanacak hücre aralığı hakkında bilgileri depolamak için [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) yapısını kullanabilir.
 
-####  **Veri Doğrulama Türleri**
+#### **Veri Doğrulama Türleri**
 
-[**Doğrulama Türü**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)numaralandırma aşağıdaki üyelere sahiptir:
+[**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype) numaralandırmasının aşağıdaki üyeleri bulunmaktadır:
 
-|**Üye adı**|**Tanım**|
+|**Üye Adı**|**Açıklama**|
 | :- | :- |
-|Herhangi bir değer|Herhangi bir türden bir değeri belirtir.|
-|Bütün sayı|Tam sayılar için doğrulama türünü belirtir.|
-|Ondalık|Ondalık sayılar için doğrulama türünü belirtir.|
-|Liste|Açılır liste için doğrulama türünü belirtir.|
-|Tarih|Tarihler için doğrulama türünü belirtir.|
-|Zaman|Zaman için doğrulama türünü belirtir.|
-|Metin Uzunluğu|Metnin uzunluğu için doğrulama türünü belirtir.|
-|Gelenek|Özel doğrulama türünü belirtir.|
+|AnyValue|Herhangi bir türün bir değeri olarak belirtilir.
+|WholeNumber|Tamsayılar için doğrulama türünü belirtir.
+|Decimal|Ondalık sayılar için doğrulama türünü belirtir.
+|List|Açılır kutu listesi için doğrulama türünü belirtir.
+|Date|Tarihler için doğrulama türünü belirtir.
+|Time|Zamanlar için doğrulama türünü belirtir.
+|TextLength|Metnin uzunluğu için doğrulama türünü belirtir.
+|Custom|Özel doğrulama türünü belirtir.
 
-#####  **Tam Sayı Veri Doğrulaması**
+##### **Tamsayı Veri Doğrulaması**
 
-Bu doğrulama türüyle kullanıcılar, doğrulanan hücrelere yalnızca belirli bir aralıktaki tam sayıları girebilir. Aşağıdaki kod örnekleri WholeNumber doğrulama türünün nasıl uygulanacağını gösterir. Örnek, yukarıda Microsoft Excel'i kullanarak oluşturduğumuz Aspose.Cells'i kullanarak aynı veri doğrulamayı oluşturur.
+Bu tür doğrulama ile kullanıcılar doğrulanmış hücrelere yalnızca belirli bir aralık içinde tam sayılar girebilirler. Aşağıdaki örnek kodlar, WholeNumber doğrulama türünü uygulamanın nasıl yapılacağını göstermektedir. Örnek, Aspose.Cells kullanılarak Microsoft Excel ile yukarıda oluşturduğumuz aynı veri doğrulamasını oluşturur.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-WholeNumberDataValidation-1.cs" >}}
 
-#####  **Veri Doğrulamasını Listeleme**
+##### **Liste Veri Doğrulaması**
 
-Bu tür doğrulama, kullanıcının açılır listeden değer girmesine olanak tanır. Bir liste sağlar: veri içeren bir dizi satır. Örnekte liste kaynağını tutmak için ikinci bir çalışma sayfası eklenmiştir. Kullanıcılar yalnızca listeden değer seçebilir. Doğrulama alanı, ilk çalışma sayfasındaki A1:A5 hücre aralığıdır.
+Bu tür doğrulama, kullanıcının bir açılır kutu listesinden değerler girmesine izin verir. Bu, veri içeren bir dizi satırın bir listesini sağlar. Örnekte, listedeki kaynağı tutmak için ikinci bir çalışma tablosu eklenir. Kullanıcılar yalnızca listeden değer seçebilir. Doğrulama alanı, birinci çalışma tablosundaki A1:A5 hücre aralığıdır.
 
- Burada ayarlamanız önemlidir.[**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown)özelliği *true** olarak değiştirin.
+Burada önemli olan nokta, [**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) özelliğini **true** olarak ayarlamanızdır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-ListDataValidation-1.cs" >}}
 
-#####  **Tarih Veri Doğrulaması**
+##### **Tarih Veri Doğrulaması**
 
-Bu tür doğrulamayla kullanıcılar, doğrulanan hücrelere belirli bir aralıktaki veya belirli kriterleri karşılayan tarih değerlerini girer. Örnekte, kullanıcının 1970 ila 1999 arasındaki tarihleri girmesi sınırlandırılmıştır. Burada doğrulama alanı B1 hücresidir.
+Bu tür doğrulama ile, kullanıcılar belirli bir aralıkta veya belirli kriterlere uyan tarih değerlerini doğrulanmış hücrelere girerler. Örnekte, kullanıcının 1970 ila 1999 arasında tarih girmesi kısıtlanmıştır. Burada doğrulama alanı B1 hücresidir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-DateDataValidation-1.cs" >}}
 
-#####  **Zaman Veri Doğrulaması**
+##### **Zaman Veri Doğrulaması**
 
-Bu doğrulama türüyle kullanıcılar, doğrulanan hücrelere belirli bir aralıktaki veya bazı kriterleri karşılayan süreleri girebilir. Örnekte, kullanıcının 09:00 ile 11:30 arası saatleri girmesi sınırlandırılmıştır. Burada doğrulama alanı B1 hücresidir.
+Bu tür doğrulama ile, kullanıcılar belirli bir aralıkta veya belirli kriterlere uyan saatleri doğrulanmış hücrelere girebilirler. Örnekte, kullanıcının 09:00 ile 11:30 arasında zaman girmesi kısıtlanmıştır. Burada doğrulama alanı B1 hücresidir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-TimeDataValidation-1.cs" >}}
 
-#####  **Metin Uzunluğu Veri Doğrulaması**
+##### **Metin Uzunluğu Veri Doğrulaması**
 
-Bu doğrulama türüyle kullanıcılar, doğrulanan hücrelere belirli uzunluktaki metin değerlerini girebilir. Örnekte, kullanıcının en fazla 5 karakter içeren dize değerleri girmesi sınırlandırılmıştır. Doğrulama alanı B1 hücresidir.
+Bu tür doğrulama ile kullanıcılar, doğrulanan hücrelere belirli bir uzunluktaki metin değerlerini girebilirler. Örnekte, kullanıcıya en fazla 5 karakter içeren dize değerlerini girmesi engellenir. Doğrulama alanı B1 hücresidir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-TextLengthDataValidation-1.cs" >}}
 
-###  **Veri Doğrulama Kuralları**
+### **Veri Doğrulama Kuralları**
 
- Veri doğrulamaları uygulandığında, hücrelere farklı değerler atanarak doğrulama kontrol edilebilir.[**Cell.GetValidationValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) doğrulama sonucunu almak için kullanılabilir. Aşağıdaki örnekte bu özellik farklı değerlerle gösterilmektedir. Örnek dosya test için aşağıdaki bağlantıdan indirilebilir:
+Veri doğrulamaları uygulandığında, doğrulamanın farklı hücrelere farklı değerler atayarak kontrol edilebilir. Doğrulama sonucunu almak için [**Cell.GetValidationValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) kullanılabilir. Aşağıdaki örnek bu özelliği farklı değerlerle göstermektedir. Test için örnek dosya aşağıdaki bağlantıdan indirilebilir:
 
 [sampleDataValidationRules.xlsx](77496339.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DataValidationRules-1.cs" >}}
 
-##  **Hücredeki doğrulamanın açılır olup olmadığını kontrol edin**
+## **Hücrede doğrulamanın açılır menü olup olmadığını kontrol et**
 
- Gördüğümüz gibi bir hücre içinde uygulanabilecek birçok doğrulama türü vardır. Doğrulamanın açılır olup olmadığını kontrol etmek istiyorsanız,[**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown)özelliği bunu test etmek için kullanılabilir. Aşağıdaki örnek kod, bu özelliğin kullanımını gösterir. Test için örnek bir dosya aşağıdaki bağlantıdan indirilebilir:
+Gördüğümüz gibi bir hücre içinde uygulanabilecek birçok doğrulama türü bulunmaktadır. Doğrulamanın açılır menü olup olmadığını kontrol etmek istiyorsanız, [**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) özelliği bunu test etmek için kullanılabilir. Aşağıdaki örnek kod, bu özelliğin kullanımını göstermektedir. Test için örnek bir dosyayı aşağıdaki bağlantıdan indirebilirsiniz:
 
 [sampleValidation.xlsx](79527947.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CheckIfValidationInCellDropDown-1.cs" >}}
 
-##  **Mevcut Doğrulamaya CellArea'yı ekle**
+## **Mevcut Doğrulama Alanına Hücre Alanı Ekle**
 
- Eklemek isteyebileceğiniz durumlar olabilir[**Hücre Alanı**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)mevcut olana[**Doğrulama**](https://reference.aspose.com/cells/net/aspose.cells/validation). Eklediğinizde[**Hücre Alanı**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) kullanarak[**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells, yeni alanın zaten mevcut olup olmadığını görmek için mevcut tüm alanları kontrol eder. Dosyada çok sayıda doğrulama varsa bu durum performansta bir düşüşe neden olur. Bunun üstesinden gelmek için API şunları sağlar:[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) yöntem.*kontrolKavşak* parametresi belirli bir alanın mevcut doğrulama alanlarıyla kesişmesinin kontrol edilip edilmeyeceğini gösterir. Bunu ayarlamak**YANLIŞ** diğer alanların kontrolünü devre dışı bırakacaktır.*checkEdge*parametresi uygulanan alanların kontrol edilip edilmeyeceğini gösterir. Yeni alan sol üst alan haline gelirse dahili ayarlar yeniden oluşturulur. Yeni alanın sol üst alan olmadığından eminseniz bu parametreyi *false** olarak ayarlayabilirsiniz.
+Mevcut [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation)'e [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) eklemek isteyebileceğiniz durumlar olabilir. Yeni alanı eklerken [**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea) kullanarak [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) eklerseniz, Aspose.Cells, yeni alanın zaten var olup olmadığını kontrol etmek için tüm mevcut alanları kontrol eder. Dosyada çok sayıda doğrulama varsa, bu performansı olumsuz etkiler. Bunu aşmak için API, [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) yöntemini sağlar. *checkIntersection* parametresi, verilen alanın mevcut doğrulama alanlarıyla kesişimini kontrol edip etmeyeceğini belirtir. **false** ayarlamak diğer alanların kontrolünü devre dışı bırakır. *checkEdge* parametresi, uygulanan alanların kontrol edilip edilmeyeceğini belirtir. Yeni alanın sol üst alan olması durumunda iç ayarlar yeniden oluşturulur. Yeni alanın sol üst alan olmadığından eminseniz, bu parametreyi **false** olarak ayarlayabilirsiniz.
 
-Aşağıdaki kod parçacığı kullanımını göstermektedir[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) yeni ekleme yöntemi[**Hücre Alanı**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)mevcut olana[**Doğrulama**](https://reference.aspose.com/cells/net/aspose.cells/validation).
+Aşağıdaki kod örneği, mevcut [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation)'e yeni [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) eklemek için [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) yönteminin kullanımını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddValidationArea-1.cs" >}}
 
-Kaynak ve çıktı excel dosyaları referans amacıyla eklenmiştir.
+Kaynak ve çıktı excel dosyaları referans için ekte sunulmuştur.
 
-[Kaynak dosyası](96928093.xlsx)
+[Kaynak Dosyası](96928093.xlsx)
 
-[Çıktı dosyası](96928220.xlsx)
+[Çıkış Dosyası](96928220.xlsx)
 
 
-##  **İleri konular**
-- [ODS Dosyalarında Cell Doğrulamasını Alın](/cells/tr/net/get-cell-validation-in-ods-files/)
-- [Doğrulamayı Cell numarasına uygulayın](/cells/tr/net/get-validation-applied-on-a-cell/)
-- [Cell Değerinin Veri Doğrulama Kurallarını Karşıladığını Doğrulayın](/cells/tr/net/verify-that-cell-value-satisfies-data-validation-rules/)
+## **Gelişmiş Konular**
+- [ODS Dosyalarında Hücre Doğrulamasını Al](/cells/tr/net/get-cell-validation-in-ods-files/)
+- [Bir Hücreye Uygulanan Doğrulamayı Al](/cells/tr/net/get-validation-applied-on-a-cell/)
+- [Hücre Değerinin Veri Doğrulama Kurallarını Karşıladığını Doğrulama](/cells/tr/net/verify-that-cell-value-satisfies-data-validation-rules/)

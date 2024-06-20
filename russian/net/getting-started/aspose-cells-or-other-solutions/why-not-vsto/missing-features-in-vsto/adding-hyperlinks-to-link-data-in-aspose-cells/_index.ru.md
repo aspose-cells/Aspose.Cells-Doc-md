@@ -1,41 +1,42 @@
-﻿---
-title: Добавление гиперссылок к данным связи в Aspose.Cells
+---
+title: Добавление гиперссылок для связи данных в Aspose.Cells
 type: docs
 weight: 10
 url: /ru/net/adding-hyperlinks-to-link-data-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Гиперссылка используется для создания связи между двумя объектами. Все знакомы с использованием гиперссылок, особенно на веб-сайтах.
+Гиперссылка используется для создания связи между двумя сущностями. Каждый знаком с использованием гиперссылок, особенно на веб-сайтах.
 
-Используя Aspose.Cells, разработчики могут создавать различные типы гиперссылок в Microsoft файлах Excel. В этом разделе обсуждается, какие типы гиперссылок поддерживаются Aspose.Cells и как их можно использовать в наших файлах Excel.
+Используя Aspose.Cells, разработчики могут создавать различные виды гиперссылок в файлах Microsoft Excel. В этой теме обсуждается, какие типы гиперссылок поддерживает Aspose.Cells и как они могут быть использованы в наших файлах Excel.
 
 {{% /alert %}}
 
 ## **Добавление гиперссылок**
 
-С помощью Aspose.Cells в ячейку можно добавить три типа гиперссылок:
+С помощью Aspose.Cells можно добавлять три типа гиперссылок в ячейку:
 
-- [Добавление ссылки к URL](#adding-link-to-a-url).
+- [Добавление ссылки на URL](#adding-link-to-a-url).
 - [Добавление ссылки на другую ячейку в том же файле](#adding-a-link-to-a-cell-in-the-same-file).
 - [Добавление ссылки на внешний файл](#adding-a-link-to-an-external-file).
 
- Aspose.Cells позволяет разработчикам добавлять гиперссылки в файлы Excel либо с помощью API, либо[дизайнерские таблицы](/cells/ru/net/what-is-a-designer-spreadsheet/)(электронные таблицы, в которых гиперссылки создаются вручную, а Aspose.Cells используется для их импорта в другие электронные таблицы).
+Aspose.Cells позволяет разработчикам добавлять гиперссылки в файлы Excel с помощью API или [дизайнерских электронных таблиц](/cells/ru/net/what-is-a-designer-spreadsheet/) (таблиц, в которых гиперссылки создаются вручную, а Aspose.Cells используется для их импорта в другие таблицы).
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) который представляет собой файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочий листКоллекция**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) который позволяет получить доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Класс предоставляет различные методы для добавления различных гиперссылок в файлы Excel.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) содержит [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection), который позволяет получать доступ к каждому листу в файле Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) предоставляет различные методы для добавления различных гиперссылок в файлы Excel.
 
-### **Добавление ссылки к URL-адресу**
+### **Добавление ссылки на URL**
 
-[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс содержит[**Гиперссылки**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) коллекция. Каждый элемент в коллекции Hyperlinks представляет гиперссылку. Добавьте гиперссылки к URL-адресам, вызвав метод Add коллекции Hyperlinks. Метод Add принимает следующие параметры:
+Класс [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) содержит коллекцию [**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks). Каждый элемент в коллекции Hyperlinks представляет собой гиперссылку. Добавьте гиперссылки на URL, вызвав метод Add коллекции Hyperlinks. Метод Add принимает следующие параметры:
 
-- Cell имя, имя ячейки, в которую будет добавлена гиперссылка.
+- Имя ячейки, в которую будет добавлена гиперссылка.
 - Количество строк, количество строк в этом диапазоне гиперссылок.
 - Количество столбцов, количество столбцов в этом диапазоне гиперссылок
-- URL-адрес, URL-адрес.
+- URL-адрес, адрес URL.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -59,18 +60,18 @@ workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
 
-### **Добавление ссылки на Cell в тот же файл**
+### **Добавление ссылки на ячейку в том же файле**
 
-Можно добавить гиперссылки в ячейки в том же файле Excel, вызвав метод Add коллекции Hyperlink. Метод Add работает как для внутренних, так и для внешних гиперссылок. Одна версия перегруженного метода принимает следующие параметры:
+Возможно добавить гиперссылки в ячейки в том же файле Excel при вызове метода Add коллекции Hyperlink. Метод Add работает как для внутренних, так и для внешних гиперссылок. Одна из версий перегруженного метода принимает следующие параметры:
 
-- Cell имя, имя ячейки, в которую будет добавлена гиперссылка.
+- Имя ячейки, имя ячейки, в которую будет добавлена гиперссылка.
 - Количество строк, количество строк в этом диапазоне гиперссылок.
 - Количество столбцов, количество столбцов в этом диапазоне гиперссылок.
 - URL, адрес целевой ячейки.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -94,16 +95,16 @@ workbook.Save("C:\\book1.xls");
 
 ### **Добавление ссылки на внешний файл**
 
-Можно добавить гиперссылки во внешние файлы Excel, вызвав метод Add коллекции Hyperlinks. Метод Add принимает следующие параметры:
+Возможно добавить гиперссылку на внешний файл Excel, вызвав метод Add коллекции Hyperlinks. Метод Add принимает следующие параметры:
 
-- Cell имя, имя ячейки, в которую будет добавлена гиперссылка.
+- Имя ячейки, в которую будет добавлена гиперссылка.
 - Количество строк, количество строк в этом диапазоне гиперссылок.
 - Количество столбцов, количество столбцов в этом диапазоне гиперссылок.
 - URL, адрес цели, внешний файл Excel.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -129,10 +130,10 @@ workbook.Save("C:\\book2.xls");
 
 {{< /highlight >}}
 
-## **Скачать рабочий код**
+## **Скачать работающий код**
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Adding%20Hyperlinks%20to%20Link%20Data)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Adding%20Hyperlinks%20to%20Link%20Data)
 
-## **Скачать пример кода**
+## **Загрузить образец кода**
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

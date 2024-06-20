@@ -1,17 +1,18 @@
 ---
-title: ابحث عن Cells بأسلوب محدد
+title: العثور على الخلايا ذات النمط المحدد
 type: docs
 weight: 190
 url: /ar/net/find-cells-with-specific-style/
-description: تعرف على كيفية البحث عن الخلايا أو البحث عنها باستخدام نمط معين مطبق من خلال Aspose.Cells for .NET API.
-keywords: Find cells with a particular style applied, Search cells with a particular style applied
+description: تعلم كيفية العثور على الخلايا ذات النمط المحدد أو البحث عن الخلايا ذات النمط المحدد من خلال واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: البحث عن الخلايا ذات النمط المحدد، البحث عن الخلايا ذات النمط المحدد
 ---
+
 {{% alert color="primary" %}}
 
- في بعض الأحيان، تحتاج إلى البحث عن خلايا تم تطبيق نمط معين عليها. يمكنك استخدام Aspose.Cells للعثور على كافة الخلايا ذات النمط المشترك. Aspose.Cells يوفر[**FindOptions.Style**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/style) الخاصية التي يمكنك استخدامها لتحديد النمط الذي سيتم البحث عنه في الخلايا.
+في بعض الأحيان، تحتاج إلى العثور على الخلايا ذات النمط المحدد. يمكنك استخدام Aspose.Cells للعثور على جميع الخلايا ذات النمط المشترك. توفر Aspose.Cells الخاصية [**FindOptions.Style**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/style) التي يمكنك استخدامها لتحديد النمط الخاص للبحث عن الخلايا.
 
 {{% /alert %}}
 
-يعثر التعليمة البرمجية الموجودة في هذا المثال على كافة الخلايا التي لها نفس نمط الخلية A1. بعد تنفيذ التعليمات البرمجية، تحتوي كافة الخلايا التي لها نفس نمط A1 على النص "تم العثور عليه".
+الشفرة في هذا المثال تجد جميع الخلايا التي لها نفس النمط مثل الخلية A1. بعد تنفيذ الشفرة، تحتوي جميع الخلايا التي لها نفس النمط كما في A1 على نص "تم العثور".
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindCellsWithSpecificStyle-1.cs" >}}

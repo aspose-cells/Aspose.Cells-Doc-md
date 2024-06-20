@@ -1,24 +1,25 @@
-﻿---
+---
 title: Arbeiten mit PivotTable
 type: docs
 weight: 100
 url: /de/reportingservices/working-with-pivottable/
 ---
+
 {{% alert color="primary" %}} 
 
- EIN*Pivot-Tabelle* ist eine interaktive Tabelle, die Daten zusammenfasst und sinnvoll darstellt. SQL Server Reporting Services kann einen Bericht nicht in das Microsoft Excel-Format exportieren, während eine Pivot-Tabelle beibehalten wird. Berichtsbenutzer müssen Pivot-Tabellen jedes Mal manuell erstellen, wenn sie einen Pivot-Tabellenbericht von Reporting Services nach Microsoft Excel exportieren. Mit Aspose.Cells for Reporting Services können Sie einmalig zur Entwurfszeit des Berichts eine Pivot-Tabelle entwerfen. Jedes Mal, wenn der Bericht ausgeführt wird, exportiert Aspose.Cells for Reporting Services den Bericht nach Microsoft Excel und aktualisiert die Daten in der Pivot-Tabelle.
+Ein *Pivot-Table* ist eine interaktive Tabelle, die Daten zusammenfasst und sie auf sinnvolle Weise präsentiert. SQL Server Reporting Services können einen Bericht nicht im Microsft Excel-Format exportieren, während ein Pivot-Table erhalten bleibt. Benutzer von Berichten müssen jedes Mal manuell Pivot-Tables erstellen, wenn sie einen Pivot-Table-Bericht aus den Reporting Services in Microsoft Excel exportieren. Mit Aspose.Cells for Reporting Services können Sie einmalig zur Entwurfszeit einen Pivot-Table entwerfen. Jedes Mal, wenn der Bericht ausgeführt wird, exportiert Aspose.Cells for Reporting Services den Bericht in Microsoft Excel und aktualisiert die Daten des Pivot-Table.
 
 {{% /alert %}} 
 
-So erstellen Sie einen Pivot-Tabellenbericht:
+Um einen Pivot-Table-Bericht zu erstellen:
 
-1. Erstellen Sie ein Dataset als Datenquelle für die Pivot-Tabelle.
- Unten verwenden wir die AdventureWorks-Beispieldatenbank, die im Lieferumfang von SQL Server Reporting Services 2005 enthalten ist, und erstellen ein Dataset mit dem Namen „Sales“.
-Die SQL für das Dataset lautet wie folgt:
+1. Erstellen Sie ein Dataset als Datenquelle für das Pivot-Table.
+   Im Folgenden verwenden wir die Beispieldatenbank AdventureWorks, die mit SQL Server Reporting Services 2005 ausgeliefert wird, und erstellen ein Dataset namens "Sales".
+   Der SQL für das Dataset lautet wie folgt: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT  PC.Name AS ProdCat,
 
@@ -52,77 +53,77 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 {{% alert color="primary" %}} 
 
- Bitte beziehen Sie sich auf[Datenquellen und Abfragen](/cells/de/reportingservices/data-sources-and-queries/) um mehr über das Erstellen einer Datenquelle und eines Datensatzes mit Aspose.Cells.Report.Designer zu erfahren.
+Bitte lesen Sie [Datenquellen und Abfragen](/cells/de/reportingservices/data-sources-and-queries/) um mehr darüber zu erfahren, wie Sie eine Datenquelle und ein Dataset mit Aspose.Cells.Report.Designer erstellen können.
 
 {{% /alert %}} 
 
-1.  Erstellen Sie einen Tabellenbericht gemäß der Anleitung in[Tabellenbericht erstellen](/cells/de/reportingservices/creating-tabular-report/), Wie nachfolgend dargestellt.
- Die Tabelle dient als Datenquelle für die Pivot-Tabelle.
+1. Erstellen Sie einen Tabellenbericht gemäß der Anleitung in [Erstellen eines tabellarischen Berichts](/cells/de/reportingservices/creating-tabular-report/), wie unten gezeigt.
+   Die Tabelle wird die Datenquelle für den Pivot-Tabellen sein. 
 
-![todo: Bild_alt_Text](working-with-pivottable_1.png)
-
-
-
-
-1.  In Microsoft Excel, von der**Einfügung** Menü, auswählen**Name** und dann**Definieren**.
-1. Definieren Sie einen Namen als „Verkäufe“.
- Der Bereich des Namens beginnt mit der ersten Zelle des Kopfzeilentitels und endet mit der letzten Zelle der Tabellendatenzeile, wie unten gezeigt.
-
-![todo: Bild_alt_Text](working-with-pivottable_2.png)
+![todo:image_alt_text](working-with-pivottable_1.png)
 
 
 
 
-1.  Klicken**OK** beenden.
+1. In Microsoft Excel, wählen Sie im **Einfügen**-Menü **Name** und dann **Definieren**.
+1. Definieren Sie einen Namen als “Umsatz”.
+   Der Bereich des Namens beginnt mit der ersten Zelle des Überschriftstitels und endet an der letzten Zelle der Tabellendatenzeile wie unten gezeigt. 
+
+![todo:image_alt_text](working-with-pivottable_2.png)
+
+
+
+
+1. Klicken Sie auf **OK**, um abzuschließen.
 1. Erstellen Sie ein neues Blatt für die Pivot-Tabelle.
-1.  Von dem**Daten** Menü, auswählen**PivotTable- und PivotChart-Bericht** um eine Pivot-Tabelle hinzuzufügen.
- Ein Dialogfeld wird angezeigt.
-1.  Wählen**Microsoft Office Excel-Liste oder -Datenbank** als Datenquelle u**Pivot-Tabelle** als Berichtstyp.
-1.  Klicken**Nächste** weitermachen.
+1. Wählen Sie im **Daten**-Menü **PivotTable und PivotChart-Bericht**, um eine Pivot-Tabelle hinzuzufügen.
+   Es wird ein Dialogfeld angezeigt.
+1. Wählen Sie **Microsoft Office Excel-Liste oder -Datenbank** als Datenquelle und **Pivot-Tabelle** als Berichtstyp.
+1. Klicken Sie auf **Weiter**, um fortzufahren. 
 
-![todo: Bild_alt_Text](working-with-pivottable_3.png)
-
-
-
-
-1. Geben Sie im Dialogfeld „Umsatz“ ein, den oben definierten Namen.
-1.  Klicken**Nächste** weitermachen.
-
-![todo: Bild_alt_Text](working-with-pivottable_4.png)
+![todo:image_alt_text](working-with-pivottable_3.png)
 
 
 
 
-1.  Klicken**Fertig**. 
+1. Geben Sie im Dialogfeld “Umsatz” ein, den Sie oben definiert haben.
+1. Klicken Sie auf **Weiter**, um fortzufahren. 
 
-![todo: Bild_alt_Text](working-with-pivottable_5.png)
-
-
-
-
-1.  Entwerfen Sie die Pivot-Tabelle in Excel.
-
-![todo: Bild_alt_Text](working-with-pivottable_6.png)
-
-
-
- Die entworfene Pivot-Tabelle ist unten dargestellt.
-
-![todo: Bild_alt_Text](working-with-pivottable_7.png)
+![todo:image_alt_text](working-with-pivottable_4.png)
 
 
 
 
-1.  Klicken Sie mit der rechten Maustaste auf die Pivot-Tabelle und wählen Sie sie aus**Tabellenoptionen**.
-1.  Stelle sicher das**Beim Öffnen aktualisieren** ist ausgewählt.
+1. Klicken Sie auf **Fertig stellen**. 
 
-![todo: Bild_alt_Text](working-with-pivottable_8.png)
-
+![todo:image_alt_text](working-with-pivottable_5.png)
 
 
 
-1. Speichern Sie den Bericht und veröffentlichen Sie ihn auf dem Berichtsserver.
-1. Exportieren Sie den Bericht vom Berichtsserver.
- Das Ergebnis ist unten gezeigt.
 
-![todo: Bild_alt_Text](working-with-pivottable_9.png)
+1. Entwerfen Sie die Pivot-Tabelle in Excel. 
+
+![todo:image_alt_text](working-with-pivottable_6.png)
+
+
+
+Die entworfene Pivot-Tabelle ist unten gezeigt. 
+
+![todo:image_alt_text](working-with-pivottable_7.png)
+
+
+
+
+1. Klicken Sie mit der rechten Maustaste auf die Pivot-Tabelle und wählen Sie **Tabellenoptionen**.
+1. Stellen Sie sicher, dass **Aktualisierung beim Öffnen** ausgewählt ist. 
+
+![todo:image_alt_text](working-with-pivottable_8.png)
+
+
+
+
+1. Speichern Sie den Bericht und veröffentlichen Sie ihn auf dem Report Server.
+1. Exportieren Sie den Bericht vom Report Server.
+   Das Ergebnis ist unten gezeigt. 
+
+![todo:image_alt_text](working-with-pivottable_9.png)

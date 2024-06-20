@@ -4,225 +4,227 @@ type: docs
 weight: 20
 url: /de/java/working-with-gridweb/
 ---
-##  **Öffnen einer Microsoft Excel-Datei**
 
-Aspose.Cells.GridWeb-Steuerelement kann Microsoft Excel-Dateien öffnen und laden – komplett mit Daten, Formatierungen, Diagrammen, Bildern usw. In diesem Thema wird erklärt, wie.
+## **Öffnen einer Microsoft Excel-Datei**
 
-So öffnen Sie eine Excel-Datei mit dem GridWeb-Steuerelement:
+Die Aspose.Cells.GridWeb-Steuerung kann Microsoft Excel-Dateien öffnen und laden, inklusive Daten, Formatierungen, Diagrammen, Bildern usw. Dieser Abschnitt erläutert wie.
 
-1. Fügen Sie das Aspose.Cells.GridWeb-Steuerelement zu einem Webformular oder einer Webseite hinzu.
+Um eine Excel-Datei mithilfe der GridWeb-Steuerung zu öffnen:
+
+1. Fügen Sie das Aspose.Cells.GridWeb-Steuerelement einem Webformular oder einer Seite hinzu.
 1. Importieren Sie die Excel-Datei, indem Sie den Dateipfad angeben.
-1. Führen Sie die Anwendung aus oder öffnen Sie die Seite.
+1. Starten Sie die Anwendung oder öffnen Sie die Seite.
 
-Um den Inhalt aus einer Excel-Datei in das Aspose.Cells.GridWeb-Steuerelement zu laden, müssen Sie die Methode importExcelFile aufrufen, um den Pfad der Excel-Datei anzugeben. Danach findet das GridWeb-Steuerelement automatisch die Datei im angegebenen Pfad und zeigt ihren Inhalt darin an. Unten finden Sie einen Codeausschnitt, der den Inhalt einer Excel-Datei lädt.
+Um den Inhalt aus einer Excel-Datei in die Aspose.Cells.GridWeb-Steuerung zu laden, müssen Sie die importExcelFile-Methode aufrufen, um den Pfad der Excel-Datei anzugeben. Danach findet die GridWeb-Steuerung automatisch die Datei im angegebenen Pfad und zeigt deren Inhalt an. Ein Code-Ausschnitt, der den Inhalt einer Excel-Datei lädt, wird unten bereitgestellt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-OpeningfromFile-OpeningfromFile.jsp" >}}
 
-Der obige Codeausschnitt kann beliebig verwendet werden. Um beispielsweise beim Laden eines Webformulars automatisch eine Excel-Datei zu laden, fügen Sie diesen Code zum Page_Load-Ereignis des Formulars hinzu, das Sie selbst angegeben haben.
+Der obenstehende Code-Ausschnitt kann auf beliebige Weise verwendet werden. Fügen Sie beispielsweise diesen Code zum Page_Load-Ereignis des Formulars hinzu, das Sie selbst spezifiziert haben, um automatisch eine Excel-Datei zu laden.
 
 **Eine Excel-Datei wird in GridWeb geladen**
 
 ![todo:image_alt_text](working-with-gridweb_1.png)
 
-##  **Speichern einer Microsoft Excel-Datei**
+## **Speichern einer Microsoft Excel-Datei**
 
-Mit dem Aspose.Cells.GridWeb-Steuerelement ist es möglich, auf Websites im GUI-Modus neue Microsoft Excel-Dateien zu erstellen oder vorhandene zu bearbeiten. Die Dateien können dann als Excel-Dateien gespeichert werden. Aspose.Cells.GridWeb dient effektiv als Online-Tabellenkalkulationseditor. In diesem Thema wird beschrieben, wie Sie Rasterinhalte in Excel-Dateien speichern.
+Es ist möglich, neue oder vorhandene Microsoft Excel-Dateien auf Websites im GUI-Modus mithilfe der Aspose.Cells.GridWeb-Steuerung zu erstellen oder zu bearbeiten. Die Dateien können dann in Excel-Dateien gespeichert werden. Aspose.Cells.GridWeb fungiert effektiv als Online-Tabellenkalkulations-Editor. Dieser Abschnitt beschreibt, wie Gitterinhalt in Excel-Dateien gespeichert werden kann.
 
-###  **Als Datei speichern**
+### **Als Datei speichern**
 
-So speichern Sie den Inhalt des Aspose.Cells.GridWeb-Steuerelements als Excel-Datei:
+Um den Inhalt der Aspose.Cells.GridWeb-Steuerelement als Excel-Datei zu speichern:
 
-1. Fügen Sie das Aspose.Cells.GridWeb-Steuerelement zu einem Webformular oder einer Webseite hinzu.
-1. Speichern Sie Ihre Arbeit als Excel-Datei unter einem angegebenen Pfad.
-1. Führen Sie die Anwendung aus oder öffnen Sie die Seite.
+1. Fügen Sie das Aspose.Cells.GridWeb-Steuerelement einem Webformular oder einer Seite hinzu.
+1. Speichern Sie Ihre Arbeit als Excel-Datei an einem bestimmten Pfad.
+1. Starten Sie die Anwendung oder öffnen Sie die Seite.
 
-Das folgende Codebeispiel veranschaulicht, wie Rasterinhalte in einer Excel-Datei gespeichert werden.
+Das untenstehende Codebeispiel zeigt, wie der Inhalte des Gitters in eine Excel-Datei gespeichert werden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-SavingasFile-SavingasFile.jsp" >}}
 
- Der obige Codeausschnitt kann auf verschiedene Arten verwendet werden. Eine übliche Methode besteht darin, eine Schaltfläche hinzuzufügen, die beim Klicken den Rasterinhalt in einer Excel-Datei speichert. Aspose.Cells.GridWeb bietet einen einfacheren Ansatz für diese Aufgabe. Aspose.Cells.GridWeb hat ein Ereignis namens SaveCommand. Der obige Codeausschnitt kann dem Ereignishandler des SaveCommand-Ereignisses hinzugefügt werden, sodass Benutzer ihre Arbeit speichern können, indem sie auf das integrierte Aspose.Cells.GridWeb klicken**Speichern** Taste.
+Der obige Code-Schnipsel kann auf verschiedene Arten verwendet werden. Eine häufige Methode besteht darin, eine Schaltfläche hinzuzufügen, die den Gitterinhalt in eine Excel-Datei speichert, wenn darauf geklickt wird. Aspose.Cells.GridWeb bietet einen einfacheren Ansatz für diese Aufgabe. Aspose.Cells.GridWeb verfügt über ein Ereignis namens SaveCommand. Der obige Code-Schnipsel kann dem Ereignishandler des SaveCommand-Ereignisses hinzugefügt werden, der es Benutzern ermöglicht, ihre Arbeit durch Klicken auf die integrierte **Speichern**-Schaltfläche von Aspose.Cells.GridWeb zu speichern.
 
-##  **Größenänderung von Aspose.Cells.GridWeb und seiner Kopfleiste**
+## **Ändern der Größe von Aspose.Cells.GridWeb und seiner Kopfleiste**
 
-In diesem Artikel wird erläutert, wie Sie die Größe von GridWeb zur Laufzeit mithilfe des Aspose.Cells.GridWeb-Steuerelements API ändern. Außerdem wird erläutert, wie Sie die Größe der Kopfleisten des Aspose.Cells.GridWeb-Steuerelements ändern, um deren Daten leichter lesbar zu machen.
+In diesem Artikel erfahren Sie, wie Sie mithilfe der Aspose.Cells.GridWeb-API das GridWeb zur Laufzeit neu dimensionieren und die Kopfleiste des Aspose.Cells.GridWeb-Steuerelements neu dimensionieren, um die Daten leichter lesbar zu machen.
 
-###  **Breite und Höhe von Aspose.Cells.GridWeb ändern**
+### **Ändern von Breite & Höhe von Aspose.Cells.GridWeb**
 
-Das Ändern der Breite und Höhe des Aspose.Cells.GridWeb-Steuerelements ist eine einfache, aber wichtige Funktion. Das Aspose.Cells.GridWeb-Steuerelement wird durch die GridWeb-Klasse in API dargestellt. Um die Breite und Höhe des GridWeb-Steuerelements zu ändern, verwenden Sie einfach seine Eigenschaften width und height.
+Die Änderung der Breite und Höhe des Aspose.Cells.GridWeb-Steuerelements ist eine einfache, aber wichtige Funktion. Das Aspose.Cells.GridWeb-Steuerelement wird durch die GridWeb-Klasse in der API dargestellt. Um die Breite und Höhe des GridWeb-Steuerelements zu ändern, verwenden Sie einfach seine Breiten- und Höheneigenschaften.
 
 {{% alert color="primary" %}}
 
-Die Breite und Höhe des Steuerelements können in Pixeln oder Punkten definiert werden.
+Die Breite und
+Höhe des Steuerelements können in Pixel oder Punkten definiert werden.
 
 {{% /alert %}}
 
-Die Ausgabe des folgenden Codeausschnitts wird unten angezeigt.
+Der Ausgabewert des folgenden Code-Schnipsels wird unten angezeigt.
 
-**Breite und Höhe des GridWeb-Steuerelements geändert**
+**Geänderte Breite und Höhe des GridWeb-Steuerelements**
 
 ![todo:image_alt_text](working-with-gridweb_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangedwidthheightofGridWebcontrol-ChangedwidthheightofGridWebcontrol.jsp" >}}
 
-###  **Breite und Höhe der Kopfzeile ändern**
+### **Ändern von Breite & Höhe der Kopfleiste**
 
-Aspose.Cells. Das GridWeb-Steuerelement enthält zwei Kopfzeilen wie folgt:
+Das Aspose.Cells.GridWeb-Steuerelement enthält zwei Kopfleisten wie folgt:
 
-- Obere Kopfleiste. Diese Kopfleiste stellt Spalten wie A, B, C, D usw. dar.
-- Linke Kopfzeile. Diese Kopfzeile stellt die Zeilen 1, 2, 3, 4 usw. dar.
+- Obere Kopfleiste, diese Kopfleiste stellt Spalten als A, B, C, D, usw. dar.
+- Linke Kopfleiste, diese Kopfleiste stellt Zeilen als 1, 2, 3, 4, usw. dar.
 
-Beide Kopfzeilen werden unten angezeigt.
+Beide dieser Kopfleisten sind unten aufgeführt.
 
-**Kopfzeilen**
+**Kopfleisten**
 
 ![todo:image_alt_text](working-with-gridweb_3.png)
 
-Ändern Sie die Höhe der oberen Kopfzeile und die Breite der linken Kopfzeile mithilfe der Eigenschaften HeaderBarHeight und HeaderBarWidth des GridWeb-Steuerelements. Die folgende Abbildung zeigt die Ausgabe des folgenden Codebeispiels.
+Ändern Sie die Höhe der oberen Kopfzeile und die Breite der linken Kopfzeile mithilfe der Eigenschaften HeaderBarHeight und HeaderBarWidth des GridWeb-Steuerelements. Die Abbildung unten zeigt die Ausgabe des nachfolgenden Codebeispiels.
 
-**Breite und Höhe der Kopfzeile geändert**
+**Geänderte Kopfzeilenbreite und -höhe**
 
 ![todo:image_alt_text](working-with-gridweb_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangingWidthandHeightofHeaderBar-ChangingWidthandHeightofHeaderBar.jsp" >}}
 
-##  **Arbeiten mit Aspose.Cells.GridWeb Events**
+## **Arbeiten mit Aspose.Cells.GridWeb-Ereignissen**
 
-Alle Entwickler müssen mit Ereignissen und deren Zweck vertraut sein. Ereignisse werden verwendet, um Benachrichtigungen über Änderungen zu senden, die in einem Steuerelement oder einer Klasse auftreten können. Aspose.Cells.GridWeb verfügt über mehrere Ereignisse, die zur Ausführung bestimmter Aufgaben verwendet werden können, wenn bestimmte Änderungen im Steuerelement auftreten.
+Alle Entwickler müssen mit Ereignissen und ihrem Zweck vertraut sein. Ereignisse werden verwendet, um Benachrichtigungen über Änderungen zu senden, die in einem Steuerelement oder einer Klasse auftreten können. Aspose.Cells.GridWeb verfügt über mehrere Ereignisse, die verwendet werden können, um bestimmte Aufgaben auszuführen, wenn bestimmte Änderungen im Steuerelement auftreten.
 
-Dieses Thema bietet eine Einführung in alle vom Aspose.Cells.GridWeb-Steuerelement unterstützten Ereignisse sowie einige Details zum Umgang mit diesen Ereignissen.
+Dieses Thema bietet eine Einführung in alle von Aspose.Cells.GridWeb-Steuerelement unterstützten Ereignisse sowie einige Details dazu, wie diese Ereignisse gehandhabt werden können.
 
-###  **Einführung in Grid-Events**
+### **Einführung in Grid-Ereignisse**
 
-Aspose.Cells. Das GridWeb-Steuerelement unterstützt mehrere Ereignisse, die mehr Kontrolle für die Ausführung von Vorgängen bieten, wenn bestimmte Ereignisse im Steuerelement ausgelöst werden. Eine vollständige Liste der vom Aspose.Cells.GridWeb-Steuerelement unterstützten Ereignisse finden Sie unten.
+Das Aspose.Cells.GridWeb-Steuerelement unterstützt mehrere Ereignisse, die eine genauere Steuerung bei der Ausführung von Operationen ermöglichen, wenn bestimmte Ereignisse im Steuerelement ausgelöst werden. Eine vollständige Liste der von Aspose.Cells.GridWeb-Steuerelement unterstützten Ereignisse finden Sie unten.
 
-|**Veranstaltungen**|**Beschreibung**|
+|**Ereignisse**|**Beschreibung**|
 | :- | :- |
-|CellCommand|Tritt auf, wenn auf den Befehls-Hyperlink einer Zelle geklickt wird. Wenn dieses Ereignis ausgelöst wird, stellt sein Parameter e.Argument den Namen des Befehls bereit.|
-|CellDoubleClick|Tritt auf, wenn auf die Zelle doppelgeklickt wird.|
-|SpalteGelöscht|Tritt auf, wenn ein Benutzer über das clientseitige Menü eine Spalte aus einem Arbeitsblatt löscht.|
-|SpalteLöschen|Tritt auf, wenn ein Benutzer versucht, über das clientseitige Menü eine Spalte aus einem Arbeitsblatt zu löschen.|
-|ColumnDoubleClick|Tritt auf, wenn auf die Spaltenüberschrift doppelgeklickt wird.|
-|SpalteEingefügt|Tritt auf, wenn ein Benutzer über das clientseitige Menü eine Spalte in ein Arbeitsblatt einfügt.|
-|Benutzerdefinierter Befehl|Tritt auf, wenn ein Benutzer auf eine benutzerdefinierte Befehlsschaltfläche klickt.|
-|LoadCustomData|Tritt auf, wenn die EnableSession-Eigenschaft des Steuerelements auf „false“ festgelegt ist und Arbeitsblattdaten geladen werden müssen. Sie können dieses Ereignis im sitzungslosen Modus verarbeiten, um Arbeitsblattdaten aus einer Datei oder Datenbank zu laden.|
-|PageIndexChanged|Tritt auf, wenn der Blattseitenindex des Steuerelements geändert wird.|
-|Zeile gelöscht|Tritt auf, wenn ein Benutzer über das clientseitige Menü eine Zeile aus dem Arbeitsblatt löscht.|
-|Zeile löschen|Tritt auf, wenn ein Benutzer versucht, über das clientseitige Menü eine Zeile aus einem Arbeitsblatt zu löschen.|
-|RowDoubleClick|Tritt auf, wenn auf den Zeilenkopf doppelgeklickt wird.|
-|Zeile eingefügt|Tritt auf, wenn ein Benutzer über das clientseitige Menü eine Zeile in das Arbeitsblatt einfügt.|
-|SaveCommand| Tritt auf, wenn die**Speichern** Schaltfläche angeklickt wird.|
-|SheetTabClick|Tritt auf, wenn auf eine Blattregisterkarte geklickt wird.|
-|SubmitCommand| Tritt auf, wenn die**Einreichen** Schaltfläche angeklickt wird.|
-|UndoCommand| Tritt auf, wenn die**Rückgängig machen** Schaltfläche angeklickt wird.|
-|AjaxCallFinished|Wird ausgelöst, wenn die AJAX-Aktualisierung des Steuerelements abgeschlossen ist. (EnableAJAX muss auf true gesetzt sein).|
-|CellModifiedOnAjax|Wird ausgelöst, wenn die Zelle in einem AJAX-Aufruf geändert wird.|
-|AfterColumnFilter|Wird ausgelöst, wenn der Filter auf eine Spalte angewendet wird.|
+|CellCommand| Tritt auf, wenn der Befehls-Hyperlink einer Zelle geklickt wird. Wenn dieses Ereignis ausgelöst wird, liefert sein Parameter e.Argument den Namen des Befehls.
+|CellDoubleClick| Tritt auf, wenn die Zelle doppelgeklickt wird.
+|ColumnDeleted| Tritt auf, wenn ein Benutzer eine Spalte aus einem Arbeitsblatt mithilfe des Client-Seitenmenüs löscht.
+|ColumnDeleting| Tritt auf, wenn ein Benutzer versucht, eine Spalte aus einem Arbeitsblatt mithilfe des Client-Seitenmenüs zu löschen.
+|ColumnDoubleClick| Tritt auf, wenn auf die Spaltenüberschrift doppelgeklickt wird.
+|ColumnInserted| Tritt auf, wenn ein Benutzer mithilfe des Client-Seitenmenüs eine Spalte in ein Arbeitsblatt einfügt.
+|CustomCommand| Tritt auf, wenn ein Benutzer auf eine benutzerdefinierte Befehlsschaltfläche klickt.
+|LoadCustomData| Tritt auf, wenn die Eigenschaft EnableSession des Steuerelements auf false gesetzt ist und Arbeitsblattdaten geladen werden müssen. In einer sitzungslosen Sitzung können Sie dieses Ereignis handhaben, um Arbeitsblattdaten aus einer Datei oder einer Datenbank zu laden.
+|PageIndexChanged| Tritt auf, wenn der Blattseitenindex des Steuerelements geändert wird.
+|RowDeleted| Tritt auf, wenn ein Benutzer eine Zeile aus dem Arbeitsblatt mithilfe des Client-Seitenmenüs löscht.
+|RowDeleting| Tritt auf, wenn ein Benutzer versucht, eine Zeile aus einem Arbeitsblatt mithilfe des Client-Seitenmenüs zu löschen.
+|RowDoubleClick| Tritt auf, wenn auf die Zeilenüberschrift doppelgeklickt wird.
+|RowInserted|Tritt auf, wenn ein Benutzer eine Zeile in das Arbeitsblatt über das clientseitige Menü einfügt.
+|SaveCommand|Tritt auf, wenn auf die **Speichern**-Schaltfläche geklickt wird.
+|SheetTabClick|Tritt auf, wenn auf eine Blattregisterkarte geklickt wird.
+|SubmitCommand|Tritt auf, wenn auf die **Senden**-Schaltfläche geklickt wird.
+|UndoCommand|Tritt auf, wenn auf die **Rückgängig**-Schaltfläche geklickt wird.
+|AjaxCallFinished|Wird ausgelöst, wenn die AJAX-Aktualisierung des Steuerelements abgeschlossen ist. (EnableAJAX muss auf true gesetzt sein).
+|CellModifiedOnAjax|Wird ausgelöst, wenn die Zelle in einem AJAX-Aufruf geändert wird.
+|AfterColumnFilter|Wird ausgelöst, wenn ein Filter auf eine Spalte angewendet wird.
 
-###  **Umgang mit Grid-Ereignissen**
+### **Behandlung von Grid-Ereignissen**
 
-Um eine bestimmte Operation zum Auslösen eines bestimmten Ereignisses auszuführen, müssen wir einen Ereignishandler erstellen. Ein Event-Handler führt die gewünschte Aufgabe aus, wenn ein bestimmtes Ereignis ausgelöst wird. Das folgende Beispiel zeigt, wie ein einfaches Rasterereignis behandelt wird.
+Um eine bestimmte Operation bei Auslösung eines bestimmten Ereignisses durchzuführen, muss ein Ereignishandler erstellt werden. Ein Ereignishandler führt die gewünschte Aufgabe aus, wenn ein bestimmtes Ereignis ausgelöst wird. Das folgende Beispiel zeigt, wie mit einem einfachen Grid-Ereignis umgegangen werden kann.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-HandlingGridEvents-HandlingGridEvents.jsp" >}}
 
-##  **Arbeiten mit Doppelklick-Ereignissen**
+## **Arbeiten mit Double-Click-Ereignissen**
 
-Aspose.Cells.GridWeb enthält drei Arten von Doppelklick-Ereignissen:
+Aspose.Cells.GridWeb enthält drei Arten von Double-Click-Ereignissen:
 
-- CellDoubleClick, wird ausgelöst, wenn auf eine Zelle doppelgeklickt wird.
-- ColumnDoubleClick, wird ausgelöst, wenn auf eine Spaltenüberschrift doppelgeklickt wird.
-- RowDoubleClick, wird ausgelöst, wenn auf einen Zeilenkopf doppelgeklickt wird.
+- CellDoubleClick, ausgelöst, wenn auf eine Zelle doppelgeklickt wird.
+- ColumnDoubleClick, ausgelöst, wenn auf eine Spaltenüberschrift doppelgeklickt wird.
+- RowDoubleClick, ausgelöst, wenn auf eine Zeilenüberschrift doppelgeklickt wird.
 
-In diesem Thema wird erläutert, wie Doppelklickereignisse in Aspose.Cells.GridWeb aktiviert werden. Außerdem wird die Erstellung von Ereignishandlern für diese Ereignisse erläutert.
+In diesem Thema wird erläutert, wie Double-Click-Ereignisse in Aspose.Cells.GridWeb aktiviert werden können. Es wird auch die Erstellung von Ereignishandlern für diese Ereignisse erläutert.
 
-###  **Doppelklick-Ereignisse aktivieren**
+### **Aktivieren von Double-Click-Ereignissen**
 
-Alle Arten von Doppelklickereignissen können clientseitig aktiviert werden, indem die EnableDoubleClickEvent-Eigenschaft des GridWeb-Steuerelements auf „true“ gesetzt wird.
+Alle Arten von Double-Click-Ereignissen können clientseitig aktiviert werden, indem die Eigenschaft EnableDoubleClickEvent des GridWeb-Steuerelements auf true gesetzt wird.
 
 {{% alert color="primary" %}}
 
-Standardmäßig ist die Eigenschaft „EnableDoubleClickEvent“ auf „false“ festgelegt. Das bedeutet, dass Doppelklickereignisse standardmäßig nicht aktiviert sind. Um solche Ereignisse zu implementieren, aktivieren Sie zunächst die Funktion.
+Standardmäßig ist die Eigenschaft EnableDoubleClickEvent auf false gesetzt. Dies bedeutet, dass Double-Click-Ereignisse standardmäßig nicht aktiviert sind. Um solche Ereignisse zu implementieren, muss zunächst die Funktion aktiviert werden.
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-EnablingDoubleClickEvents-EnablingDoubleClickEvents.jsp" >}}
 
-Sobald Doppelklick-Ereignisse aktiviert sind, ist es möglich, Ereignishandler für beliebige Doppelklick-Ereignisse zu erstellen. Diese Ereignishandler führen bestimmte Aufgaben aus, wenn ein bestimmtes Doppelklick-Ereignis ausgelöst wird.
+Sobald Double-Click-Ereignisse aktiviert sind, ist es möglich, Ereignishandler für jedes Double-Click-Ereignis zu erstellen. Diese Ereignishandler führen spezifische Aufgaben aus, wenn ein bestimmtes Double-Click-Ereignis ausgelöst wird.
 
-###  **Umgang mit Doppelklick-Ereignissen**
+### **Behandlung von Doppelklickereignissen**
 
-####  **Doppelklicken Sie auf Cell**
+#### **Zelle doppelklicken**
 
-Der Ereignishandler für das CellDoubleClick-Ereignis stellt ein Argument vom Typ CellEventArgs bereit, das die vollständigen Informationen der Zelle bereitstellt, auf die doppelgeklickt wird.
+Der Ereignisbehandlungsroutinen für das CellDoubleClick-Ereignis stellt ein Argument vom Typ CellEventArgs bereit, das die vollständigen Informationen über die Zelle liefert, die doppelgeklickt wurde.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickCell-DoubleClickCell.jsp" >}}
 
-####  **Doppelklicken Sie auf die Spaltenüberschrift**
+#### **Spaltenkopf doppelklicken**
 
-Der Ereignishandler für das ColumnDoubleClick-Ereignis stellt ein Argument vom Typ RowColumnEventArgs bereit, das die Indexnummer der Spalte für die Kopfzeile, auf die doppelt geklickt wurde, und andere Informationen bereitstellt.
+Der Ereignisbehandlungsroutinen für das ColumnDoubleClick-Ereigniss stellt ein Argument vom Typ RowColumnEventArgs bereit, das die Indexnummer der Spalte für den doppelgeklickten Kopf sowie andere Informationen liefert.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickColumnHeader-DoubleClickColumnHeader.jsp" >}}
 
-####  **Doppelklicken Sie auf Zeilenkopf**
+#### **Zeilenkopf doppelklicken**
 
-Der Ereignishandler für das RowDoubleClick-Ereignis stellt ein Argument vom Typ RowColumnEventArgs bereit, das die Indexnummer der Zeile für die Kopfzeile bereitstellt, auf die doppelt geklickt wurde, sowie andere zugehörige Informationen.
+Der Ereignisbehandilungsroutinen für das RowDoubleClick-Ereignis stellt ein Argument vom Typ RowColumnEventArgs bereit, das die Indexnummer der Reihe für den doppelgeklickten Kopf sowie andere relevante Informationen liefert.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickRowHeader-DoubleClickRowHeader.jsp" >}}
 
-##  **Festlegen des Stils oder Erscheinungsbilds von Aspose.Cells.GridWeb**
+## **Stil oder Erscheinung von Aspose.Cells.GridWeb festlegen**
 
-Aspose.Cells.GridWeb hat sein eigenes Standard-Look & Feel, es ist jedoch möglich, sein Erscheinungsbild zu ändern. Aspose.Cells.GridWeb bietet mehrere Eigenschaften, mit denen Entwickler das Erscheinungsbild vollständig steuern können. In diesem Thema werden einige dieser Eigenschaften erläutert.
+Aspose.Cells.GridWeb hat sein eigenes Standardaussehen, aber es ist möglich, sein Erscheinungsbild zu ändern. Aspose.Cells.GridWeb bietet mehrere Eigenschaften, um Entwicklern die vollständige Kontrolle über sein Aussehen zu ermöglichen. Dieses Thema erörtert einige dieser Eigenschaften.
 
-###  **Festlegen des Stils oder Erscheinungsbilds von Aspose.Cells.GridWeb**
+### **Stil oder Erscheinung von Aspose.Cells.GridWeb festlegen**
 
-####  **Voreingestellte Stile**
+#### **Voreingestellte Stile**
 
-Um Entwicklern den Aufwand zu ersparen, bietet Aspose.Cells.GridWeb einige voreingestellte Stile. Wählen Sie einfach einen Stil aus der Liste aus, um den Stil anzuwenden.
+Um den Aufwand der Entwickler zu reduzieren, bietet Aspose.Cells.GridWeb einige voreingestellte Stile an. Wählen Sie einfach einen Stil aus der Liste aus, um ihn anzuwenden.
 
 |**Stile**|**Farbschema**|
 | :- | :- |
-|Standard|Silber|
-|Bunt1|Rose|
-|Bunt2|Blau|
-|Professionell1|Cyan|
-|Professionell2|Wieder Cyan|
-|Traditionell1|Dunkel|
-|Traditionell2|Grau|
-|Brauch|Maßgeschneidert|
-Wenn ein bestimmter Stil ausgewählt wird, ändert sich das gesamte Erscheinungsbild des GridWeb-Steuerelements. Entwickler können mithilfe der flexiblen API von Aspose.Cells.GridWeb einen voreingestellten Stil auswählen, der zur Laufzeit angewendet werden soll.
+|Standard|Silver|
+|Colorful1|Rose|
+|Colorful2|Blue|
+|Professional1|Cyan|
+|Professional2|Cyan again|
+|Traditional1|Dark|
+|Traditional2|Gray|
+|Custom|Customized|
+Wenn ein bestimmter Stil ausgewählt wird, ändert dies das gesamte Erscheinungsbild der GridWeb-Steuerung. Entwickler können einen voreingestellten Stil auswählen, der zur Laufzeit mittels der flexiblen API von Aspose.Cells.GridWeb angewendet wird.
 
-Das GridWeb-Steuerelement stellt die PresetStyle-Eigenschaft bereit, der Entwickler jeden gewünschten voreingestellten Stil zuweisen können.
+Die GridWeb-Steuerung bietet die Eigenschaft PresetStyle, der Entwickler einen beliebigen voreingestellten Stil zuweisen können.
 
-Die Ausgabe des folgenden Codeausschnitts wird unten angezeigt.
+Der Ausgang des folgenden Code-Schnipsels wird unten angezeigt.
 
-**GridWeb-Steuerelement mit darauf angewendetem Colourful1-Stil**
+**GridWeb-Steuerung mit angewendetem Colorful1-Stil**
 
 ![todo:image_alt_text](working-with-gridweb_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
-####  **Kopfzeilenstil**
+#### **Kopfzeilen-Stil**
 
-Wenn Sie einen Blick auf das GridWeb-Steuerelement werfen, werden Sie zwei Kopfzeilen bemerken. Eine für Spalten (also A, B, C, D usw.) und eine für Zeilen (also 1, 2, 3, 4 usw.). Aspose.Cells.GridWeb ermöglicht Entwicklern, das Erscheinungsbild dieser Kopfleisten zu steuern. Entwickler können den Stil der Kopfzeilen zur Laufzeit festlegen.
+Wenn Sie sich die GridWeb-Steuerung ansehen, werden Sie zwei Kopfzeilen bemerken. Eine für Spalten (das ist A, B, C, D usw.) und die andere für Zeilen (das ist 1, 2, 3, 4, usw.). Aspose.Cells.GridWeb ermöglicht es Entwicklern, das Erscheinungsbild dieser Kopfzeilen zu kontrollieren. Entwickler können das Erscheinungsbild der Kopfzeilen zur Laufzeit festlegen.
 
 {{% alert color="primary" %}}
 
-Das GridWeb-Steuerelement stellt die HeaderBarStyle-Eigenschaft bereit, die einen Stil auf beide Kopfzeilen des Steuerelements anwendet.
+Die GridWeb-Steuerung bietet die Eigenschaft HeaderBarStyle, die einen Stil auf beide Kopfzeilen der Steuerung anwendet.
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
-####  **Stil der Tab-Leiste**
+#### **Tab-Leistenstil**
 
-Es ist auch möglich, den Stil der Tab-Leiste festzulegen. Bitte beachten Sie den folgenden Code
+Es ist auch möglich, den Stil der Registerkarte festzulegen. Bitte beachten Sie den folgenden Code.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-HeaderBarStyle-HeaderBarStyle.jsp" >}}
 
-####  **Stildatei wird geladen**
+#### **Stil-Datei laden**
 
-Um Stileinstellungen aus einer vorhandenen Stildatei auf das GridWeb-Steuerelement anzuwenden, können Entwickler den Pfad der Stildatei auf die CustomStyleFileName-Eigenschaft des Steuerelements festlegen. Zuvor muss jedoch die PresetStyle-Eigenschaft des Steuerelements auf „Custom“ gesetzt werden. Dies liegt daran, dass diese Stildatei benutzerdefinierte Stilinformationen enthält, die bereits von einem Entwickler definiert wurden.
+Um Stil-Einstellungen aus einer vorhandenen Stil-Datei auf das GridWeb-Steuerelement anzuwenden, können Entwickler den Pfad der Stil-Datei auf die Eigenschaft CustomStyleFileName des Steuerelements setzen. Bevor dies jedoch geschieht, muss die Eigenschaft PresetStyle des Steuerelements auf Benutzerdefiniert gesetzt werden. Das liegt daran, dass die Stil-Datei benutzerdefinierte Stilinformationen enthält, die bereits von einem Entwickler definiert wurden.
 
-Bitte sehen Sie sich das folgende Bild an, das GridWeb mit dem darauf angewendeten benutzerdefinierten Stil zeigt.
+Bitte beachten Sie das folgende Bild, das GridWeb mit dem angewendeten benutzerdefinierten Stil zeigt.
 
 ![todo:image_alt_text](working-with-gridweb_6.png)
 
@@ -230,33 +232,33 @@ Bitte sehen Sie sich das folgende Bild an, das GridWeb mit dem darauf angewendet
 
 {{% alert color="primary" %}}
 
-WICHTIG: Das Laden einer Stildatei in das GridWeb-Steuerelement hat keinen Einfluss auf die Formatierungseinstellungen der Zellen des Steuerelements.
+WICHTIG: Das Laden einer Stil-Datei in das GridWeb-Steuerelement hat keine Auswirkungen auf die Formatierungseinstellungen der Zellen des Steuerelements.
 
 {{% /alert %}}
 
-####  **Beispiel einer benutzerdefinierten Stilvorlage**
+#### **Beispiel für benutzerdefiniertes Stil-Template**
 
-Hier ist die Beispielvorlage für einen benutzerdefinierten Stil. Sie können es entsprechend Ihren Anforderungen ändern.
+Hier ist das Beispiel für das benutzerdefinierte Stil-Template. Sie können es entsprechend Ihren Anforderungen anpassen.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <aspose.excel.web.viewerStyletemplate runat="server" HeaderBarWidth="30pt" ScrollBarBaseColor="#AFEEEE" SelectCellBgColor="#FFFAF0" ActiveHeaderBgColor="#DAA520" ActiveCellBgColor="#DDDDFF" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LeftBorderStyle-BorderWidth="" FrameTableStyle-LeftBorderStyle-BorderColor="" FrameTableStyle-LayoutFixed="Fixed" FrameTableStyle-RightBorderStyle-BorderWidth="" FrameTableStyle-RightBorderStyle-BorderColor="" FrameTableStyle-BorderWidth="1px" FrameTableStyle-CellSpacing="0" FrameTableStyle-BorderColor="#C0FFC0" FrameTableStyle-CellPadding="0" FrameTableStyle-TopBorderStyle-BorderWidth="" FrameTableStyle-TopBorderStyle-BorderColor="" FrameTableStyle-BackColor="#FFFFCC" FrameTableStyle-BottomBorderStyle-BorderWidth="" FrameTableStyle-BottomBorderStyle-BorderColor="" HeaderBarStyle-LeftBorderStyle-BorderWidth="" HeaderBarStyle-LeftBorderStyle-BorderColor="" HeaderBarStyle-verticalalign="Middle" HeaderBarStyle-RightBorderStyle-BorderWidth="" HeaderBarStyle-RightBorderStyle-BorderColor="" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-font-size="10pt" HeaderBarStyle-BorderColor="#00C0C0" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-horizontalalign="Center" HeaderBarStyle-ForeColor="Red" HeaderBarStyle-TopBorderStyle-BorderWidth="" HeaderBarStyle-TopBorderStyle-BorderColor="" HeaderBarStyle-BackColor="#D8BFD8" HeaderBarStyle-BottomBorderStyle-BorderWidth="" HeaderBarStyle-BottomBorderStyle-BorderColor="" ViewTableStyle-LeftBorderStyle-BorderWidth="" ViewTableStyle-LeftBorderStyle-BorderColor="" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-RightBorderStyle-BorderWidth="" ViewTableStyle-RightBorderStyle-BorderColor="" ViewTableStyle-BorderWidth="0px" ViewTableStyle-CellSpacing="0" ViewTableStyle-CellPadding="0" ViewTableStyle-TopBorderStyle-BorderWidth="" ViewTableStyle-TopBorderStyle-BorderColor="" ViewTableStyle-BottomBorderStyle-BorderWidth="" ViewTableStyle-BottomBorderStyle-BorderColor="" BottomTableStyle-LeftBorderStyle-BorderWidth="" BottomTableStyle-LeftBorderStyle-BorderColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-RightBorderStyle-BorderWidth="" BottomTableStyle-RightBorderStyle-BorderColor="" BottomTableStyle-Height="32pt" BottomTableStyle-BorderWidth="0px" BottomTableStyle-CellSpacing="0" BottomTableStyle-BorderColor="#80FF80" BottomTableStyle-CellPadding="0" BottomTableStyle-ForeColor="#FFE0C0" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="#FF69B4" BottomTableStyle-BottomBorderStyle-BorderWidth="" BottomTableStyle-BottomBorderStyle-BorderColor="" HeaderBarHeight="15pt" ActiveTabStyle-LeftBorderStyle-BorderWidth="" ActiveTabStyle-LeftBorderStyle-BorderColor="" ActiveTabStyle-RightBorderStyle-BorderWidth="" ActiveTabStyle-RightBorderStyle-BorderColor="" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-font-size="10pt" ActiveTabStyle-BorderColor="#00C0C0" ActiveTabStyle-BorderStyle="Solid" ActiveTabStyle-ForeColor="#FF00FF" ActiveTabStyle-TopBorderStyle-BorderWidth="" ActiveTabStyle-TopBorderStyle-BorderColor="" ActiveTabStyle-BackColor="#80FFFF" ActiveTabStyle-BottomBorderStyle-BorderWidth="" ActiveTabStyle-BottomBorderStyle-BorderColor="" HeaderBarTableStyle-LeftBorderStyle-BorderWidth="" HeaderBarTableStyle-LeftBorderStyle-BorderColor="" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-RightBorderStyle-BorderWidth="" HeaderBarTableStyle-RightBorderStyle-BorderColor="" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-CellSpacing="0" HeaderBarTableStyle-CellPadding="0" HeaderBarTableStyle-TopBorderStyle-BorderWidth="" HeaderBarTableStyle-TopBorderStyle-BorderColor="" HeaderBarTableStyle-BackColor="#C0FFC0" HeaderBarTableStyle-BottomBorderStyle-BorderWidth="" HeaderBarTableStyle-BottomBorderStyle-BorderColor="" DefaultGridLineColor="#228B22" TabStyle-LeftBorderStyle-BorderWidth="" TabStyle-LeftBorderStyle-BorderColor="" TabStyle-RightBorderStyle-BorderWidth="" TabStyle-RightBorderStyle-BorderColor="" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-font-size="8pt" TabStyle-BorderColor="#8080FF" TabStyle-BorderStyle="Groove" TabStyle-ForeColor="#FFFFCC" TabStyle-TopBorderStyle-BorderWidth="" TabStyle-TopBorderStyle-BorderColor="" TabStyle-BackColor="#C0C0FF" TabStyle-BottomBorderStyle-BorderWidth="" TabStyle-BottomBorderStyle-BorderColor="" scrollbararrowColor="#778899"/>
 
 {{< /highlight >}}
 
-##  **Erstellen eines Steuerelements in einem Webformular**
+## **Steuerung auf einem Webformular erstellen**
 
-In diesem Artikel erfahren Sie, wie Sie ein einfaches Webformular-JSP (Java-Serverseite) mit GridWeb-Steuerung erstellen.
+In diesem Artikel erfahren Sie, wie Sie ein einfaches Webformular JSP (Java Server Page) erstellen, das das GridWeb-Steuerelement enthält.
 
-**Schritt 1 – Verzeichnisstruktur erstellen**
+**Schritt 1 - Verzeichnisstruktur erstellen**
 
- Sie müssen die folgende Verzeichnisstruktur im erstellen**Webapps**Verzeichnis des Tomcat-Servers
+Sie müssen die folgende Verzeichnisstruktur im Verzeichnis **webapps** des Tomcat-Servers erstellen
 
 ![todo:image_alt_text](working-with-gridweb_7.png)
 
- Dies sind die Verzeichnisse und Dateien, die Sie erstellen müssen. Bitte lesen Sie die Kommentare und folgen Sie ihnen. Sie können die neuesten Aspose.Cells.GridWeb for Java-Release-Archive von erhalten[dieser Link](https://downloads.aspose.com/cells/java).
+Das sind die Verzeichnisse und Dateien, die Sie erstellen müssen. Bitte lesen Sie die Kommentare und folgen Sie ihnen. Sie können die neuesten Aspose.Cells.GridWeb für Java Release-Archive von [diesem Link](https://downloads.aspose.com/cells/java) erhalten.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SamplePageGridWebJava
 
@@ -286,13 +288,13 @@ SamplePageGridWebJava\SamplePage.jsp
 
 {{< /highlight >}}
 
-**Schritt 2 – Codes in erstellte Dateien hinzufügen**
+**Schritt 2 - Codes in erstellte Dateien hinzufügen**
 
-Dieser Abschnitt zeigt den Code für verschiedene Dateien, die in der obigen Verzeichnisstruktur erstellt wurden. Bitte besorgen Sie sich diese Codes und fügen Sie sie Ihren Dateien hinzu, indem Sie sie im Editor öffnen und kopieren/einfügen.
+In diesem Abschnitt wird der Code für verschiedene Dateien erstellt, die in der obigen Verzeichnisstruktur erstellt wurden. Bitte holen Sie sich diese Codes und fügen Sie sie in Ihre Dateien ein, indem Sie sie in Notepad öffnen und sie kopieren/einfügen.
 
 **Web.xml**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <?xml version="1.0" encoding="UTF-8"?>
 
@@ -330,7 +332,7 @@ Dieser Abschnitt zeigt den Code für verschiedene Dateien, die in der obigen Ver
 
 **head.jsp**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <%
 
@@ -440,91 +442,91 @@ span.wrap {
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-SamplePage-SamplePage.jsp" >}}
 
-**Schritt 3 – Ausführen Ihrer Beispiel-JSP-Webseite**
+**Schritt 3 - Ausführen Ihrer Beispiel-JSP-Webseite**
 
-Jetzt haben Sie alles erledigt. Es ist Zeit, die Webseite auszuführen. Bitte starten Sie Ihren Tomcat-Server und fügen Sie dann die folgende URL in den Webbrowser ein.
+Jetzt haben Sie alles erledigt. Es ist an der Zeit, die Webseite auszuführen. Starten Sie bitte Ihren Tomcat-Server und fügen Sie dann die folgende URL in den Webbrowser ein.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  http://localhost:8080/SamplePageGridWebJava/SamplePage.jsp
 
 {{< /highlight >}}
 
-Sie sehen etwa den folgenden Screenshot. Herzlichen Glückwunsch, Sie haben das GridWeb-Steuerelement erfolgreich auf Ihrer JSP-Seite verwendet.
+Sie werden etwas Ähnliches wie den folgenden Screenshot sehen. Herzlichen Glückwunsch, Sie haben die GridWeb-Steuerung erfolgreich auf Ihrer JSP-Seite verwendet.
 
 ![todo:image_alt_text](working-with-gridweb_8.png)
 
-##  **Drucken von GridWeb**
+## **GridWeb drucken**
 
-Es gibt Zeiten, in denen Entwickler den von einer Webseite eingebundenen GridWeb-Inhalt ausdrucken müssen, ohne eine Microsoft Excel-Datei zu speichern. Das Aspose.Cells.GridWeb-Steuerelement unterstützt diese Funktion.
+Es gibt Zeiten, in denen Entwickler den Inhalt des GridWeb von einer Webseite drucken müssen, ohne eine Microsoft Excel-Datei zu speichern. Die Aspose.Cells.GridWeb-Steuerung unterstützt diese Funktion.
 
-###  **Drucken von GridWeb**
+### **GridWeb drucken**
 
-Um zu drucken, ohne eine separate Datei zu speichern, rufen Sie clientseitig die print()-Methode der GridWeb-Klasse auf, um das Raster zu drucken. Sie können auch eine passende Veranstaltung auswählen.
+Um ohne separate Dateispeicherung zu drucken, rufen Sie die print()-Methode der GridWeb-Klasse clientseitig auf, um das Raster zu drucken. Sie können auch ein geeignetes Ereignis auswählen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-PrintingGridWeb-PrintingGridWeb.jsp" >}}
 
-Da Sie es von der Clientseite aus aufrufen, müssen Sie zunächst die Gridweb-Client-ID abrufen. Sie können die Client-ID mit der Methode „gridweb.getClientID()“ abrufen.
+Da Sie es vom Client aus aufrufen, müssen Sie zuerst die Client-ID des GridWeb abrufen. Sie können die Client-ID mit der Methode gridweb.getClientID() abrufen.
 
-###  **Clientseitiger Beispielcode**
+### **Beispielcode auf der Clientseite**
 
-Bitte sehen Sie sich den folgenden Link an, der die Methode „gridweb.print()“ von der Clientseite aus aufruft.
+Bitte sehen Sie sich den folgenden Link an, der die Methode gridweb.print() von der Clientseite aufruft.
 
 **HTML**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <a href="#" onclick='<%=gridweb.getClientID()%>.print(); '>Print Function of GridWeb</a>
 
 {{< /highlight >}}
 
-##  **Einführung in verschiedene Rastermodi**
+## **Einführung in verschiedene Rastermodi**
 
-In diesem Artikel werden die verschiedenen Modi von Aspose.Cells.GridWeb beschrieben. Diese Modi werden aufgrund ihrer unterschiedlichen Merkmale und Verhaltensweisen logisch unterschieden. Wir haben verschiedene Arten von Modi identifiziert:
+Dieser Artikel beschreibt die verschiedenen Modi von Aspose.Cells.GridWeb. Diese Modi unterscheiden sich logisch aufgrund ihrer unterschiedlichen Funktionen und Verhaltensweisen. Wir haben verschiedene Arten von Modi identifiziert:
 
 - Bearbeitungsmodus
-- Ansichtsmodus
+- Anzeigemodus
 
-Alle diese Modi haben ihre eigenen Eigenschaften. Entwickler können je nach Bedarf in jedem Modus mit Aspose.Cells.GridWeb arbeiten. Wir werden uns jeden Modus unten ansehen.
+Jeder dieser Modi hat seine eigenen Merkmale. Entwickler können mit Aspose.Cells.GridWeb in jedem Modus gemäß ihren Anforderungen arbeiten. Wir werden uns jeden Modus unten genauer ansehen.
 
-###  **Bearbeitungsmodus**
+### **Bearbeitungsmodus**
 
-Standardmäßig befindet sich das Aspose.Cells.GridWeb-Steuerelement im Bearbeitungsmodus. Im Bearbeitungsmodus können Sie den Rasterinhalt mithilfe aller vom Aspose.Cells.GridWeb-Steuerelement angebotenen Funktionen vollständig bearbeiten oder ändern. Zu diesen Funktionen gehören:
+Standardmäßig ist die Aspose.Cells.GridWeb-Steuerung im Bearbeitungsmodus. Im Bearbeitungsmodus können Sie den Rasterinhalt vollständig bearbeiten oder modifizieren und dabei alle Funktionen der Aspose.Cells.GridWeb-Steuerung nutzen. Zu diesen Funktionen gehören:
 
 - Speichern des Rasterinhalts in Microsoft Excel-Dateien.
 - Übermittlung von Daten an einen Server.
-- Formeln berechnen.
-- Vorherige Aktionen rückgängig machen oder verwerfen.
+- Berechnung von Formeln.
+- Rückgängigmachen oder Verwerfen früherer Aktionen.
 - Verwalten von Zeilen und Spalten.
 - Ausschneiden, Kopieren oder Einfügen von Daten.
 - Formatieren von Zellen usw.
 
-**GridWeb-Steuerelement im Bearbeitungsmodus**
+**GridWeb Steuerelement im Bearbeitungsmodus**
 
 ![todo:image_alt_text](working-with-gridweb_9.png)
 
 Entwickler können auch programmgesteuert in den Bearbeitungsmodus wechseln, indem sie die EditMode-Eigenschaft des GridWeb-Steuerelements auf true setzen.
 
-###  **Codebeispiel**
+### **Codebeispiel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-GridWebEditMode-GridWebEditMode.jsp" >}}
 
-###  **Ansichtsmodus**
+### **Anzeigemodus**
 
-Wenn sich das GridWeb-Steuerelement im Ansichtsmodus befindet, können Benutzer den Rasterinhalt nicht bearbeiten oder ändern, was bedeutet, dass Benutzer den Rasterinhalt nur anzeigen können. Aus diesem Grund wird dieser Modus Ansichtsmodus genannt. Im Ansichtsmodus sind einige Schaltflächen („Senden“,**Speichern** Und**Rückgängig machen**) werden ausgeblendet und das beim Rechtsklick erscheinende Menü enthält nur das **Kopieren** Und**Finden** Möglichkeit.
+Wenn das GridWeb-Steuerelement im Anzeigemodus ist, können Benutzer den Rasterinhalt nicht bearbeiten oder ändern, das bedeutet, dass Benutzer nur den Rasterinhalt anzeigen können. Aus diesem Grund wird dieser Modus Anzeigemodus genannt. Im Anzeigemodus sind einige Schaltflächen (**Senden**, **Speichern** und **Rückgängig**) ausgeblendet und das Menü, das beim Rechtsklicken erscheint, enthält nur die Optionen **Kopieren** und **Suchen**.
 
-**GridWeb-Steuerelement im Ansichtsmodus** 
+**GridWeb Steuerelement im Anzeigemodus** 
 
 ![todo:image_alt_text](working-with-gridweb_10.png)
 
-Wenn Entwickler möchten, dass ihre Benutzer nur Daten anzeigen, können sie programmgesteuert in den Ansichtsmodus wechseln, indem sie die EditMode-Eigenschaft des GridWeb-Steuerelements auf *false** setzen.
+Wenn Entwickler möchten, dass ihre Benutzer nur Daten anzeigen können, können sie programmgesteuert in den Anzeigemodus wechseln, indem sie die EditMode-Eigenschaft des GridWeb-Steuerelements auf **false** setzen.
 
-###  **Codebeispiel**
+### **Codebeispiel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-GridWebViewMode-GridWebViewMode.jsp" >}}
 
 {{% alert color="primary" %}}
 
-Auch im Ansichtsmodus können Benutzer die Höhe und Breite von Zeilen und Spalten ändern.
+Auch im Anzeigemodus können Benutzer die Höhe und Breite von Zeilen und Spalten ändern.
 
 {{% /alert %}}

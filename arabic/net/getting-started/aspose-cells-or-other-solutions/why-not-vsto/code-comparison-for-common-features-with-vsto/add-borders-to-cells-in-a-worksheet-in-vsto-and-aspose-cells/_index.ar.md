@@ -1,33 +1,34 @@
-﻿---
-title: أضف الحدود إلى Cells في ورقة عمل في VSTO و Aspose.Cells
+---
+title: إضافة حدود إلى الخلايا في ورق العمل في VSTO و Aspose.Cells
 type: docs
 weight: 10
 url: /ar/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-لإضافة حدود إلى خلايا في جدول بيانات ، اتبع الخطوات التالية:
 
-1.  قم بإعداد ورقة العمل:
- 1. إنشاء كائن تطبيق (VSTO فقط)
- 1. إضافة مصنف
- 1. احصل على الورقة الأولى
- 1. أضف نصًا إلى الخلايا التي ستضيف حدودًا إليها
-1.  أضف الحدود:
- 1. تحديد نطاق
- 1. قم بتطبيق نمط حد على النطاق
- 1. كرر لكل نطاق وكل نمط حد تريد تعيينه. ينطبق هذا المثال على الخطوط الرفيعة والمتوسطة والسميكة
-1.  ينهي:
- 1. احتواء تلقائي للعمود الذي توجد فيه الخلايا لتلائم النص بدقة
- 1. احفظ المستند
+لإضافة حدود إلى الخلايا في جدول بيانات، اتبع الخطوات التالية:
 
-هذه الخطوات موضحة في الكود أدناه. توضح أمثلة التعليمات البرمجية الأولى كيفية تنفيذها باستخدام VSTO مع C# أو Visual Basic. بعد أمثلة VSTO هي أمثلة توضح كيفية تنفيذ نفس الخطوات باستخدام Aspose.Cells for .NET ، مرة أخرى باستخدام إما C# أو Visual Basic. عينات الكود Aspose.Cells هي أقصر بكثير لأن Aspose.Cells هو الأمثل للتشفير الفعال.
+1. إعداد الورقة العمل: 
+   1. تعيين كائن تطبيق (VSTO فقط)
+   1. إضافة كتاب عمل
+   1. الحصول على الورقة الأولى
+   1. إضافة نص إلى الخلايا التي ستضيف لها حدود
+1. إضافة حدود: 
+   1. تحديد مدى
+   1. تطبيق نمط حد للمدى
+   1. تكرار لكل نطاق ونمط حد ترغب في تعيينه. يطبق هذا المثال خطوط عند الشعرة وخطوط نحيفة ومتوسطة وسميكة
+1. الانتهاء: 
+   1. تلائم تلقائي للعمود الذي تكون فيه الخلايا ليتناسب مع النص بشكل مناسب
+   1. حفظ المستند
 
-يُنشئ الرمز ملف Excel مع عدد من الخلايا في الورقة الأولى ، ولكل منها حدود مختلفة:
+يتم عرض هذه الخطوات في الكود أدناه. تُظهر أمثلة الكود الأولى كيفية تنفيذها باستخدام VSTO بإمكانية استخدام إما C# أو Visual Basic. بعد أمثلة VSTO يُظهر كيفية أداء نفس الخطوات باستخدام Aspose.Cells for .NET مرة أخرى باستخدام إما C# أو Visual Basic. تكون أمثلة كود Aspose.Cells أقصر بكثير لأن Aspose.Cells مُحسّنة للبرمجة الفعالة.
 
-![ما يجب القيام به: image_بديل_نص](picture1.png)
+يولّد الكود ملف Excel مع عدد من الخلايا على الورقة الأولى، كل منها بحدود مختلفة:
 
-Cells مع تطبيق الحدود.
+![todo:image_alt_text](picture1.png)
+
+الخلايا التي تم تطبيق حدود لها.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -43,13 +44,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -145,7 +146,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -209,7 +210,7 @@ objBook.Save("ApplyBorders.xls");
 
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [سورس فورج](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip / تنزيل)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).أَزِيز)
+## **تحميل رمز عينة**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

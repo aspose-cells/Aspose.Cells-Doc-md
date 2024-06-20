@@ -1,18 +1,19 @@
-﻿---
-title: Konvertieren Sie die Smart Art in eine Gruppenform
+---
+title: Konvertieren Sie die SmartArt in eine Gruppenform
 type: docs
 weight: 200
 url: /de/net/convert-the-smart-art-to-group-shape/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Sie können Smart Art Shape mithilfe von in Group Shape umwandeln[**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart)Methode. Es ermöglicht Ihnen, Smart Art Shape wie eine Gruppenform zu handhaben. Folglich haben Sie Zugriff auf die einzelnen Teile oder Formen der Gruppenform.
+## **Mögliche Verwendungsszenarien**
 
-## **Konvertieren Sie die Smart Art in eine Gruppenform**
+Sie können eine SmartArt-Form in eine Gruppenform mit der Methode [**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) umwandeln. Dadurch können Sie die SmartArt-Form wie eine Gruppenform behandeln. Somit haben Sie Zugriff auf die einzelnen Teile oder Formen der Gruppenform.
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](55541793.xlsx)mit einer intelligenten Kunstform, wie in diesem Screenshot gezeigt. Anschließend wird die SmartArt-Form in eine Gruppenform konvertiert und die Shape.IsGroup-Eigenschaft gedruckt. Bitte sehen Sie sich die Konsolenausgabe des unten angegebenen Beispielcodes an.
+## **Konvertieren des SmartArt in Gruppenform**
 
-![todo: Bild_alt_Text](convert-the-smart-art-to-group-shape_1.png)
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](55541793.xlsx), die eine SmartArt-Form enthält, wie in diesem Screenshot gezeigt. Anschließend wird die SmartArt-Form in eine Gruppenform umgewandelt und die Shape.IsGroup Eigenschaft ausgegeben. Bitte beachten Sie die Konsolenausgabe des unten angegebenen Beispielcodes.
+
+![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
 
 ## **Beispielcode**
 
@@ -20,7 +21,7 @@ Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](55541793.xlsx)mit eine
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: True
 

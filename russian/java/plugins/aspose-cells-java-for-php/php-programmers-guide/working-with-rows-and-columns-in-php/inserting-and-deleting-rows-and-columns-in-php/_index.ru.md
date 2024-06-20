@@ -3,16 +3,17 @@ title: Вставка и удаление строк и столбцов в PHP
 type: docs
 weight: 60
 url: /ru/java/inserting-and-deleting-rows-and-columns-in-php/
-description: Узнайте, как вставлять и удалять строки и столбцы с помощью API Aspose.Cells for PHP via Java.
-keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Columns using PHP, PHP Delete Rows and Columns, Insert Rows or Columns with PHP, Delete Rows or Columns via PHP.
+description: Узнайте, как вставлять и удалять строки и столбцы через Aspose.Cells для PHP via Java APIs.
+keywords: Как вставлять и удалять строки и столбцы в PHP, вставлять строки и столбцы с помощью PHP, удалять строки и столбцы PHP, вставлять строки или столбцы с помощью PHP, удалять строки или столбцы через PHP.
 ---
-##  **Aspose.Cells - Управление строками/столбцами**
-###  **Вставка строки**
-Вставьте строку в любое место, вызвав метод InsertRows коллекции Cells. Метод InsertRows принимает индекс строки, в которую будет вставлена новая строка, в качестве первого аргумента, а количество строк, которые будут вставлены, в качестве второго аргумента.
+
+## **Aspose.Cells - Управление строками/столбцами**
+### **Вставка строки**
+Вставьте строку в любом месте, вызвав метод insertRows коллекции Cells. Метод insertRows принимает индекс строки, куда будет вставлена новая строка, в качестве первого аргумента, и количество строк, которые следует вставить, в качестве второго аргумента.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_row($dataDir)
 
@@ -39,15 +40,15 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }  
 
 {{< /highlight >}}
-###  **Вставка нескольких строк**
-Чтобы вставить несколько строк в лист, вызовите метод InsertRows коллекции Cells. Метод InsertRows принимает два параметра:
+### **Вставка нескольких строк**
+Чтобы вставить несколько строк в лист, вызовите метод insertRows коллекции Cells. Метод InsertRows принимает два параметра:
 
-- Индекс строки — индекс строки, из которой будут вставлены новые строки.
-- Количество строк, общее количество строк, которые необходимо вставить.
+- Индекс строки, индекс строки, с которой будут вставлены новые строки.
+- Количество строк, общее число строк, которые необходимо вставить.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_multiple_rows($dataDir)
 
@@ -74,15 +75,15 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }
 
 {{< /highlight >}}
-###  **Удаление строки**
-Чтобы удалить строку в любом месте, вызовите метод deleteRows коллекции Cells. Метод DeleteRows принимает два параметра:
+### **Удаление строки**
+Для удаления строки в любом месте вызовите метод deleteRows коллекции Cells. Метод DeleteRows принимает два параметра:
 
-- Индекс строки — индекс строки, из которой строки будут удалены.
+- Индекс строки, индекс строки, с которой строки будут удалены.
 - Количество строк, общее количество строк, которые необходимо удалить.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_row($dataDir)
 
@@ -109,15 +110,15 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }
 
 {{< /highlight >}}
-###  **Удаление нескольких строк**
-Чтобы удалить несколько строк из листа, вызовите метод deleteRows коллекции Cells. Метод DeleteRows принимает два параметра:
+### **Удаление нескольких строк**
+Чтобы удалить несколько строк из листа, вызовите метод deleteRows коллекции Cells. Метод DeleteRows принимает два параметра:
 
-- Индекс строки — индекс строки, из которой строки будут удалены.
+- Индекс строки, индекс строки, с которой строки будут удалены.
 - Количество строк, общее количество строк, которые необходимо удалить.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_multiple_rows($dataDir)
 
@@ -144,15 +145,15 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }
 
 {{< /highlight >}}
-###  **Вставка столбца**
-Разработчики также могут вставить столбец в лист в любое место, вызвав метод InsertColumns коллекции Cells. Метод InsertColumns принимает два параметра:
+### **Вставка столбца**
+Разработчики также могут вставить столбец в лист в любом месте, вызвав метод insertColumns коллекции Cells. Метод insertColumns принимает два параметра:
 
-- Индекс столбца, индекс столбца, из которого столбец будет вставлен.
-- Количество столбцов, общее количество столбцов, которые необходимо вставить
+- Индекс столбца, индекс столбца, в который будет вставлен столбец
+- Количество столбцов, общее количество столбцов, которые нужно вставить.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_column($dataDir)
 
@@ -179,16 +180,16 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }
 
 {{< /highlight >}}
-###  **Удаление столбца**
-Чтобы удалить столбец с листа в любом месте, вызовите метод deleteColumns коллекции Cells. Метод deleteColumns принимает следующие параметры:
+### **Удаление столбца**
+Чтобы удалить столбец из листа в любом месте, вызовите метод deleteColumns коллекции Cells. Метод deleteColumns принимает следующие параметры:
 
-- Индекс столбца — индекс столбца, из которого столбец будет удален.
+- Индекс столбца, индекс столбца, откуда будет удален столбец.
 - Количество столбцов, общее количество столбцов, которые необходимо удалить.
-- Сдвиг ячеек, логический параметр, указывающий, следует ли смещать ячейки, оставшиеся после удаления.
+- Сдвиг ячеек, логический параметр, указывающий, следует ли сдвигать ячейки влево после удаления.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_column($dataDir)
 
@@ -215,7 +216,7 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }  
 
 {{< /highlight >}}
-##  **Загрузить рабочий код**
- Скачать**Управление строками/столбцами (Aspose.Cells)**с любого из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Управление строками/столбцами (Aspose.Cells)** с любого из упомянутых ниже сайтов для социального кодирования:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

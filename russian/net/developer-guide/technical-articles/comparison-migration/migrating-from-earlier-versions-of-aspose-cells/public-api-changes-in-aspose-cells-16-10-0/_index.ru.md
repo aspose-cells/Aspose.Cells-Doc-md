@@ -1,38 +1,39 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 16.10.0
+---
+title: Изменения в открытом API в Aspose.Cells 16.10.0
 type: docs
 weight: 340
 url: /ru/net/public-api-changes-in-aspose-cells-16-10-0/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 9.0.0 до 16.10.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+В этом документе описаны изменения в API Aspose.Cells с версии 9.0.0 до 16.10.0, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные открытые методы, добавленные и удаленные классы и т.д., но также описание любых изменений в поведении внутри Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
+## **Добавленные API**
 ### **Поддержка эффектов отражения**
-Aspose.Cells 16.10.0 предоставляет класс ReflectionEffect вместе со свойством Shape.Reflection для управления эффектами отражения объекта Shape. Класс ReflectionEffect имеет следующие свойства.
+Aspose.Cells 16.10.0 представил класс ReflectionEffect вместе с свойством Shape.Reflection для управления отражением объекта Shape. Класс ReflectionEffect имеет следующие свойства.
 
-- ReflectionEffect.Blur: получает/задает радиус размытия в точках.
-- ReflectionEffect.Direction: получает/задает направление градиента альфа-канала относительно самой фигуры.
-- ReflectionEffect.Distance: получает/устанавливает расстояние отражения в единицах точек.
-- ReflectionEffect.FadeDirection: получает/задает направление смещения отражения.
-- ReflectionEffect.RotWithShape: получает/устанавливает, должно ли отражение вращаться вместе с фигурой.
-- ReflectionEffect.Size: получает/задает конечную позицию (вдоль шкалы альфа-градиента) конечного альфа-значения в процентах.
-- ReflectionEffect.Transparency: получает/задает степень начальной прозрачности отражения в виде значения от 0,0 (непрозрачный) до 1,0 (прозрачный).
-- ReflectionEffect.Type: получает/устанавливает предустановленный эффект отражения.
+- ReflectionEffect.Blur: Получает/устанавливает радиус размытия в единицах точек.
+- ReflectionEffect.Direction: Получает/устанавливает направление альфа-градиента относительно самой формы.
+- ReflectionEffect.Distance: Получает/устанавливает расстояние отражения в единицах точек.
+- ReflectionEffect.FadeDirection: Получает/устанавливает направление смещения отражения.
+- ReflectionEffect.RotWithShape: Получает/устанавливает, должно ли отражение вращаться вместе с формой.
+- ReflectionEffect.Size: Получает/устанавливает конечную позицию (вдоль альфа-градиента) конечного значения альфа в процентах.
+- ReflectionEffect.Transparency: Получает/устанавливает степень начальной прозрачности отражения в виде значения от 0,0 (непрозрачный) до 1,0 (прозрачный).
+- ReflectionEffect.Type: Получает/устанавливает предустановленный эффект отражения.
 
 Вот простой сценарий использования свойства Shape.Reflection.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Работа с эффектами отражения](/cells/ru/net/working-with-the-reflection-effect-of-shape-or-chart/)
+Проверьте подробную статью по теме [Работа с эффектами отражения](/cells/ru/net/working-with-the-reflection-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -69,28 +70,28 @@ book.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Поддержка теневых эффектов**
-Aspose.Cells 16.10.0 предоставляет свойство Shape.ShadowEffect вместе с классом ShadowEffect, которые все вместе позволяют установить эффект тени для объекта Shape. Класс ShadowEffect имеет следующие свойства.
+### **Поддержка эффектов тени**
+Aspose.Cells 16.10.0 представил свойство Shape.ShadowEffect вместе с классом ShadowEffect, которые вместе позволяют устанавливать эффект тени на объект Shape. Класс ShadowEffect имеет следующие свойства.
 
-- ShadowEffect.Angle: получает/устанавливает угол освещения в диапазоне от 0 до 359,9 градусов.
-- ShadowEffect.Blur: получает и задает размытие тени в диапазоне от 0 до 100 баллов.
-- ShadowEffect.Color: получает/устанавливает цвет тени.
-- ShadowEffect.Distance: получает/устанавливает расстояние тени в диапазоне от 0 до 200 точек.
-- ShadowEffect.PresetType: получает/устанавливает предустановленный тип тени тени.
-- ShadowEffect.Size: получает/устанавливает размер тени в диапазоне от 0 до 2,0. Это будет бессмысленно в случае внутренней тени.
-- ShadowEffect.Transparency: получает/задает степень прозрачности тени в диапазоне от 0,0 (непрозрачная) до 1,0 (прозрачная).
+- ShadowEffect.Angle: Получает/устанавливает угол освещения в пределах от 0 до 359,9 градусов.
+- ShadowEffect.Blur: Получает и устанавливает размытие тени в пределах от 0 до 100 точек.
+- ShadowEffect.Color: Получает/устанавливает цвет тени.
+- ShadowEffect.Distance: Получает/устанавливает расстояние тени в пределах от 0 до 200 точек.
+- ShadowEffect.PresetType: Получает/устанавливает предустановленный тип тени тени.
+- ShadowEffect.Size: Получает/устанавливает размер тени в пределах от 0 до 2,0. Будет бессмысленным в случае внутренней тени.
+- ShadowEffect.Transparency: Получает/устанавливает степень прозрачности тени в пределах от 0,0 (непрозрачный) до 1,0 (прозрачный).
 
-Вот простой сценарий использования вышеупомянутого свойства.
+Вот простой сценарий использования упомянутого свойства.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Работа с теневыми эффектами](/cells/ru/net/working-with-the-shadow-effect-of-shape-or-chart/)
+Проверьте подробную статью по [Работа с эффектами тени](/cells/ru/net/working-with-the-shadow-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -130,22 +131,22 @@ book.Save("output.xlsx");
 
 
 ### **Поддержка эффектов свечения**
-Aspose.Cells 16.10.0 предоставляет свойство Shape.Glow вместе с классом GlowEffect, которые вместе позволяют установить эффект свечения объекта Shape. Класс GlowEffect задает эффект свечения, при котором контур с размытым цветом добавляется за пределы краев объекта с помощью следующих свойств.
+Aspose.Cells 16.10.0 добавил свойство Shape.Glow вместе с классом GlowEffect, которые вместе позволяют установить эффект свечения объекта формы. Класс GlowEffect указывает свечение, в котором цветной размытый контур добавляется снаружи краев объекта с использованием следующих свойств.
 
 - GlowEffect.Size: Получает/устанавливает радиус свечения в единицах точек.
-- GlowEffect.Transparency: получает/задает степень прозрачности эффекта свечения в диапазоне от 0,0 (непрозрачный) до 1,0 (прозрачный).
+- GlowEffect.Transparency: Получает/устанавливает степень прозрачности свечения от 0.0 (непрозрачный) до 1.0 (прозрачный).
 
 Вот простой сценарий использования свойства Shape.Glow.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Работа с эффектом свечения](/cells/ru/net/working-with-the-glow-effect-of-shape-or-chart/)
+Проверьте подробную статью по [Работа с эффектом свечения](/cells/ru/net/working-with-the-glow-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -179,40 +180,40 @@ book.Save("output.xlsx");
 
 
 ### **Поддержка формата 3D**
-Aspose.Cells 16.10.0 предоставляет свойство Shape.ThreeDFormat вместе с классом ThreeDFormat, которые вместе можно использовать для управления трехмерным форматированием объекта Shape. Класс ThreeDFormat представляет трехмерное форматирование фигуры и имеет следующие свойства.
+Aspose.Cells 16.10.0 добавил свойство Shape.ThreeDFormat вместе с классом ThreeDFormat, что вместе можно использовать для управления форматированием 3D объекта формы. Класс ThreeDFormat представляет трехмерное форматирование формы и имеет следующие свойства.
 
-- ThreeDFormat.BottomBevelHeight: получает/задает высоту нижнего скоса или глубину его применения в фигуре в точках.
-- ThreeDFormat.BottomBevelType: получает/задает тип нижнего скоса или глубину его применения в фигуре в точках.
-- ThreeDFormat.BottomBevelWidth: получает/задает ширину нижнего скоса или глубину его применения в фигуре в точках.
-- ThreeDFormat.ContourColor: получает/задает цвет контура фигуры.
-- ThreeDFormat.ContourWidth: получает/задает ширину контура фигуры в точках.
-- ThreeDFormat.ExtrusionColor: получает цвет экструзии фигуры.
-- ThreeDFormat.ExtrusionHeight: получает/задает высоту экструзии, применяемую к фигуре, в точках.
-- ThreeDFormat.LightAngle: получает/задает угол экструзионного освещения.
-- ThreeDFormat.Lighting: получает/устанавливает тип установки освещения.
-- ThreeDFormat.LightingDirection: получает/задает направление, с которого установка освещения ориентирована по отношению к сцене.
-- ThreeDFormat.Material: представляет предустановленный материал, который в сочетании со свойствами освещения придает окончательный вид и ощущение формы.
-- ThreeDFormat.Perspective: получает/задает угол, под которым можно просматривать объект ThreeDFormat.
-- ThreeDFormat.PresetCameraType: получает/задает предустановленную камеру экструзии.
-- ThreeDFormat.RotationX: получает/задает вращение вытянутой формы вокруг оси X в градусах.
-- ThreeDFormat.RotationY: получает/задает вращение вытянутой формы вокруг оси Y в градусах.
-- ThreeDFormat.RotationZ: получает/задает вращение вытянутой формы вокруг оси Z в градусах.
-- ThreeDFormat.TopBevelHeight: получает/задает высоту верхнего скоса или глубину его применения в фигуре в точках.
-- ThreeDFormat.TopBevelType: получает/задает тип верхнего скоса или глубину его применения в форме в точках.
-- ThreeDFormat.TopBevelWidth: получает/задает ширину верхнего скоса или глубину его применения в фигуре в точках.
-- ThreeDFormat.Z: определяет расстояние от земли для трехмерной формы.
+- ThreeDFormat.BottomBevelHeight: Получает/устанавливает высоту нижней фаски или насколько далеко она применяется к форме, в единицах точек.
+- ThreeDFormat.BottomBevelType: Получает/устанавливает тип нижней фаски или насколько далеко она применяется к форме, в единицах точек.
+- ThreeDFormat.BottomBevelWidth: Получает/устанавляет ширину нижней фаски или насколько далеко она применяется к форме, в единицах точек.
+- ThreeDFormat.ContourColor: Получает/устанавливает цвет контура формы.
+- ThreeDFormat.ContourWidth: Получает/устанавливает ширину контура на форме, в единицах точек.
+- ThreeDFormat.ExtrusionColor: Получает цвет выдавливания на форме.
+- ThreeDFormat.ExtrusionHeight: Получает/устанавливает высоту выдавливания, применяемую к форме, в единицах точек.
+- ThreeDFormat.LightAngle: Получает/устанавливает угол светового выдавливания.
+- ThreeDFormat.Lighting: Получает/устанавливает тип источника света.
+- ThreeDFormat.LightingDirection: Получает/устанавливает направление, откуда ориентирован источник света относительно сцены.
+- ThreeDFormat.Material: Представляет предустановленный материал, который в сочетании с освещением дает окончательный внешний вид и ощущение формы.
+- ThreeDFormat.Perspective: Получает/устанавливает угол, под которым объект ThreeDFormat может быть просмотрен.
+- ThreeDFormat.PresetCameraType: Получает/устанавливает предустановленную камеру экструзии.
+- ThreeDFormat.RotationX: Получает/устанавливает вращение выдавленной формы вокруг оси X в градусах.
+- ThreeDFormat.RotationY: Получает/устанавливает вращение выдавленной формы вокруг оси Y в градусах.
+- ThreeDFormat.RotationZ: Получает/устанавливает вращение выдавленной формы вокруг оси Z в градусах.
+- ThreeDFormat.TopBevelHeight: Получает/устанавливает высоту верхней фаски или расстояние, на которое она применяется к форме, в пунктах.
+- ThreeDFormat.TopBevelType: Получает/устанавливает тип верхней фаски или расстояние, на которое она применяется к форме, в пунктах.
+- ThreeDFormat.TopBevelWidth: Получает/устанавливает ширину верхней фаски или расстояние, на которое она применяется к форме, в пунктах.
+- ThreeDFormat.Z: Задает расстояние от земли для 3D-формы.
 
 Ниже приведен простой сценарий использования свойства Shape.ThreeDFormat.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Работа с форматированием 3D](/cells/ru/net/working-with-the-threedformat-of-shape-or-chart/)
+Проверьте подробную статью по [Работа с 3D-форматированием](/cells/ru/net/working-with-the-threedformat-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -245,20 +246,20 @@ book.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Поддержка стилей WordArt в тексте фигуры**
-Aspose.Cells 16.10.0 предоставляет методы FontSettingCollection.SetWordArtStyle и FontSetting.SetWordArtStyle, чтобы установить предустановленный стиль WordArt для текста объекта Shape.
+### **Поддержка стилей WordArt в тексте формы**
+Aspose.Cells 16.10.0 добавил методы FontSettingCollection.SetWordArtStyle и FontSetting.SetWordArtStyle для установки предустановленного стиля WordArt в тексте объекта Shape.
 
-Вот простой сценарий использования вышеупомянутых методов.
+Вот пример простого сценария использования указанных выше методов.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Работа со стилями WordArt](/cells/ru/net/set-preset-wordart-style-to-the-text-of-the-shape/)
+Проверьте подробную статью по [Работа со стилями WordArt](/cells/ru/net/set-preset-wordart-style-to-the-text-of-the-shape/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create workbook object
 
@@ -278,7 +279,7 @@ textBox.Font.Size = 44;
 
 // Set preset WordArt style to the text of the shape
 
-FontSetting fntSetting = textBox.GetCharacters()[0]as FontSetting;
+FontSetting fntSetting = textBox.GetCharacters()[0] as FontSetting;
 
 fntSetting.SetWordArtStyle(PresetWordArtStyle.WordArtStyle3);
 
@@ -286,19 +287,19 @@ fntSetting.SetWordArtStyle(PresetWordArtStyle.WordArtStyle3);
 
 
 ### **Поддержка встроенных стилей WordArt**
-Aspose.Cells 16.10.0 предоставляет метод ShapeCollection.AddWordArt вместе с перечислением PresetWordArtStyle, чтобы обеспечить поддержку добавления предустановленных объектов WordArt, начиная с Excel 2007.
+Aspose.Cells 16.10.0 добавил метод ShapeCollection.AddWordArt вместе с перечислением PresetWordArtStyle для добавления поддержки предустановленных объектов WordArt начиная с Excel 2007.
 
-Вот простой сценарий использования метода ShapeCollection.AddWordArt.
+Ниже приведен простой сценарий использования метода ShapeCollection.AddWordArt.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Добавьте WordArt со встроенными стилями](/cells/ru/net/add-word-art-text-with-built-in-styles/)
+Проверьте подробную статью по [Добавлению WordArt с встроенными стилями](/cells/ru/net/add-word-art-text-with-built-in-styles/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -331,18 +332,18 @@ book.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Добавлен метод XmlMapCollection.Add.**
-Aspose.Cells предоставил метод XmlMapCollection.Add, который позволяет добавить карту Xml в электронную таблицу. Вот простой сценарий использования метода XmlMapCollection.Add.
+### **Добавлен метод XmlMapCollection.Add**
+Aspose.Cells теперь предоставляет метод XmlMapCollection.Add, позволяющий добавлять Xml Map в электронную таблицу. Вот простой сценарий использования метода XmlMapCollection.Add.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Добавить XML-карту в электронную таблицу](/cells/ru/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
+Проверьте подробную статью по [Добавлению XML-карты к электронной таблице](/cells/ru/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -355,20 +356,20 @@ book.Worksheets.XmlMaps.Add("sample.xml");
 {{< /highlight >}}
 
 
-### **Добавлен метод Cells.LinkToXmlMap.**
-Aspose.Cells теперь предоставляет метод Cells.LinkToXmlMap для связывания ячеек с элементами карты XML.
+### **Добавлен метод Cells.LinkToXmlMap**
+Aspose.Cells теперь предоставляет метод Cells.LinkToXmlMap для связи ячеек с элементами XML-карты.
 
 Вот простой сценарий использования метода Cells.LinkToXmlMap.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Ссылка Cells на элементы карты XML](/cells/ru/net/link-cells-to-xml-map-elements/)
+Проверьте подробную статью по [Связыванию ячеек с элементами XML-карты](/cells/ru/net/link-cells-to-xml-map-elements/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet in an instance of Workbook
 
@@ -404,19 +405,19 @@ sheet.Cells.LinkToXmlMap(map.Name, 5, 5, "/root/row/FIELD8");
 
 
 ### **Добавлено свойство ListColumn.Formula**
-Aspose.Cells 16.10.0 предоставило свойство ListColumn.Formula для автоматического распространения формулы на вновь вставленные строки.
+Aspose.Cells 16.10.0 предоставляет свойство ListColumn.Formula для автоматической передачи формулы в новые вставленные строки.
 
 Вот простой сценарий использования свойства ListColumn.Formula.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Автоматически распространять формулу в объекте списка](/cells/ru/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
+Проверьте подробную статью по [Автоматическому распространению формул в объекте списка](/cells/ru/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -442,7 +443,7 @@ listObject.DisplayName = "Table";
 
 // Set the formula of second column so that it could automatically propagate to new rows while entering data
 
-listObject.ListColumns[1].Formula = "=[Column A]+ 1";
+listObject.ListColumns[1].Formula = "=[Column A] + 1";
 
 // Save the result in XLSX format
 
@@ -451,20 +452,20 @@ book.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Поддержка расчета пользовательских функций с помощью GridWeb**
-Aspose.Cells.GridWeb 16.10.0 предоставляет свойство GridWeb.CustomCalculationEngine вместе с классом GridAbstractCalculationEngine, которые вместе позволяют определять и вычислять пользовательские функции внутри компонента GridWeb.
+### **Поддержка вычисления пользовательских функций с GridWeb**
+Aspose.Cells.GridWeb 16.10.0 теперь предоставляет свойство GridWeb.CustomCalculationEngine вместе с классом GridAbstractCalculationEngine, что вместе позволяет определять и вычислять пользовательские функции в компоненте GridWeb.
 
-Вот простой сценарий использования вышеупомянутых API.
+Вот простой сценарий использования упомянутых API.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Вычисление пользовательских функций с помощью GridWeb](/cells/ru/net/calculate-custom-functions-in-gridweb/)
+Проверьте подробную статью по [Вычислению пользовательских функций с GridWeb](/cells/ru/net/calculate-custom-functions-in-gridweb/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private class GridWebCustomCalculationEngine : GridAbstractCalculationEngine
 

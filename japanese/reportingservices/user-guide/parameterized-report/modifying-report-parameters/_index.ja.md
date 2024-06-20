@@ -1,32 +1,33 @@
-﻿---
-title: レポート パラメータの変更
+---
+title: レポートパラメータの変更
 type: docs
 weight: 20
 url: /ja/reportingservices/modifying-report-parameters/
 ---
-レポート パラメータを変更するには:
 
-1. Microsoft エクセルを開きます。
-1. クリック**レポート パラメータ**Aspose.Cells.Report.Designer ツールバー (
+レポートパラメータを変更するには: 
 
-![todo:画像_代替_文章](modifying-report-parameters_1.png)
+1. Microsoft Excel を開きます。
+1. Aspose.Cells.Report.Designer ツールバーで **Report Parameter** をクリックします。
+
+![todo:image_alt_text](modifying-report-parameters_1.png)
 
 ).
 
-1. たとえば、左側のパネルにリストされているレポート パラメータを選択します。**報告月**.
-1. クリック**変更**. 
+1. 左パネルにリストされているレポートパラメーターから、例えば **ReportMonth** を選択します。
+1. **変更** をクリックします。 
 
-   **パラメータの選択** 
+   **パラメーターの選択** 
 
-![todo:画像_代替_文章](modifying-report-parameters_2.png)
-
-
+![todo:image_alt_text](modifying-report-parameters_2.png)
 
 
-1. レポート パラメータ情報を変更します。
 
-   **パラメータの変更** 
 
-![todo:画像_代替_文章](modifying-report-parameters_3.png)
+1. レポートパラメーター情報を変更します。 
 
-1. クリック**セーブ**.
+   **パラメーターの変更** 
+
+![todo:image_alt_text](modifying-report-parameters_3.png)
+
+1. **保存** をクリックします。

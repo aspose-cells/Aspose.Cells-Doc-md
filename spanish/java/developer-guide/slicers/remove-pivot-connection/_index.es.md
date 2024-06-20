@@ -1,18 +1,19 @@
-﻿---
-title: Eliminar conexión de pivote
+---
+title: Eliminar conexión de tabla dinámica
 type: docs
 weight: 30
 url: /es/java/remove-pivot-connection/
-description: Aprenda a eliminar la conexión pivote con la biblioteca Aspose.Cells Java.
-keywords: Remove pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Aprenda cómo eliminar la conexión de tabla dinámica con la biblioteca Aspose.Cells Java.
+keywords: Eliminar conexión de tabla dinámica sin office 2013, office 2016, office 2019 y office 365.
 ---
-## **Posibles escenarios de uso**
 
-Si desea desasociar la segmentación y la tabla dinámica en Excel, debe hacer clic con el botón derecho en la segmentación y seleccionar el elemento "Informar conexiones...". En la lista de opciones, puede operar en la casilla de verificación. Del mismo modo, si desea desasociar la segmentación y la tabla dinámica utilizando Aspose.Cells API mediante programación, utilice el[**Slicer.removePivotConnection(pivote de tabla dinámica)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)) método. Desasociará la segmentación y la tabla dinámica.
+## **Escenarios de uso posibles**
 
-## **Eliminación de la cortadora**
+Si desea desvincular un filtro y una tabla dinámica en Excel, debe hacer clic con el botón derecho en el filtro y seleccionar el elemento "Conexiones de informe...". En la lista de opciones, puede operar en la casilla de verificación. Del mismo modo, si desea desvincular un filtro y una tabla dinámica utilizando la API de Aspose.Cells de forma programática, utilice el método [**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)). Desvinculará el filtro y la tabla dinámica.
 
-El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](remove-pivot-connection.xlsx)que contiene una segmentación existente. Accede a las segmentaciones y luego desasocia la segmentación y la tabla dinámica. Finalmente, guarda el libro de trabajo como[archivo de salida de Excel](remove-pivot-connection-out.xlsx). 
+## **Eliminar rebanador**
+
+El siguiente código de ejemplo carga el [archivo Excel de muestra](remove-pivot-connection.xlsx) que contiene un filtro existente. Accede a los filtros y luego disocia el filtro y la tabla dinámica. Finalmente, guarda el libro como [archivo Excel de salida](remove-pivot-connection-out.xlsx). 
 
 
 ## **Código de muestra**

@@ -1,18 +1,19 @@
-﻿---
-title: Avinstallerar Aspose.Cells for SharePoint
+---
+title: Avinstallation av Aspose.Cells for SharePoint
 type: docs
 weight: 50
 url: /sv/sharepoint/uninstalling-aspose-cells-for-sharepoint/
 ---
+
 {{% alert color="primary" %}} 
 
-För att avinstallera Aspose.Cells for SharePoint, kör installationsprogrammet. Om Aspose.Cells for SharePoint redan är installerat, föreslår installationsprogrammet att du tar bort eller reparerar det.
+För att avinstallera Aspose.Cells for SharePoint, kör installationsprogrammet. Om Aspose.Cells for SharePoint redan är installerat föreslår installationsprogrammet att ta bort eller reparera det.
 
 {{% /alert %}} 
-### **Avinstallation**
- Under borttagning avaktiverar installationsprogrammet Aspose.Cells for SharePoint för alla webbplatssamlingar och drar tillbaka lösningen från serverfarmen.
+### **Avinstallering**
+Under borttagningen avaktiverar installationsprogrammet Aspose.Cells for SharePoint för alla webbplatsamlingar och drar tillbaka lösningen från servergården. 
 
-**Avinstallerar Aspose.Cells** 
+**Avinstallera Aspose.Cells** 
 
 ![todo:image_alt_text](uninstalling-aspose-cells-for-sharepoint_1.png)
 
@@ -21,8 +22,8 @@ För att avinstallera Aspose.Cells for SharePoint, kör installationsprogrammet.
 
 {{% alert color="primary" %}} 
 
- Observera att körning av**Reparera**alternativet återaktiverar inte Aspose.Cells for SharePoint på webbplatssamlingar. Istället måste funktionen aktiveras manuellt efter ominstallation med**Reparera** alternativ.
+Observera att köra **Reparation**-alternativet inte återaktiverar Aspose.Cells for SharePoint på webbplatsamlingar. Istället måste funktionen aktiveras manuellt efter ommappning med **Reparation**-alternativet.
 
- Avinstallera med hjälp av**Ta bort** alternativet och sedan ominstallera kan vara bekvämare eftersom det låter dig välja målwebbapplikationer och webbplatssamlingar under installationen.
+Avinstallera med **Ta bort**-alternativet och sedan återinstallera kan vara mer praktiskt då det gör det möjligt att välja målwebbprogram och webbplatsamlingar under installationen. 
 
 {{% /alert %}}

@@ -1,12 +1,13 @@
-﻿---
+---
 title: Utilizzare le funzioni delle formule per elaborare i dati in VSTO e Aspose.Cells
 type: docs
 weight: 240
 url: /it/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/
 ---
-## **Aggiunta della formula Cell**
+
+## **Aggiungere una formula della cella**
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -72,7 +73,7 @@ private void AddingCellFormula()
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void AddingCellFormula()
 
@@ -131,5 +132,5 @@ private void AddingCellFormula()
 {{< /highlight >}}
 ## **Scarica il codice di esempio**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Use.Formulas.Functions.to.Process.Data.Aspose.Cells.zip)
-- [SourceForge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).zip/scarica)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).cerniera lampo)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).zip)

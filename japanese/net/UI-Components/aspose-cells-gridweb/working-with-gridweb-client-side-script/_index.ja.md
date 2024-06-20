@@ -1,6 +1,8 @@
-﻿---
-title: GridWeb クライアント側スクリプトの操作
+---
+title: GridWeb クライアントサイドスクリプトでの作業
 type: docs
 weight: 30
-url: /ja/net/working-with-gridweb-client-side-script/
+url: /ja/net/aspose-cells-gridweb/working-with-gridweb-client-side-script/
 ---
+
+

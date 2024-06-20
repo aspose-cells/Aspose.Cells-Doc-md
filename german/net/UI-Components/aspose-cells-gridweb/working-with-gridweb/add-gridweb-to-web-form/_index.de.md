@@ -1,98 +1,101 @@
-﻿---
-title: GridWeb zum Webformular hinzufügen
+---
+title: GridWeb zu Webform hinzufügen
 type: docs
 weight: 10
-url: /de/net/add-gridweb-to-web-form/
+url: /de/net/aspose-cells-gridweb/add-gridweb-to-web-form/
+keywords: GridWeb,webform,form
+description: Dieser Artikel zeigt, wie man mit Webformularen in GridWeb arbeitet.
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Thema enthält eine grundlegende Schritt-für-Schritt-Anleitung für Anfänger, um ihnen beim Erstellen und Verwenden des Aspose.Cells.GridWeb-Steuerelements in Webanwendungen zu helfen.
+Dieser Artikel bietet Anfängern eine grundlegende schrittweise Anleitung, wie sie die Aspose.Cells.GridWeb-Steuerung in Webanwendungen erstellen und verwenden können.
 
 {{% /alert %}} 
-## **Erstellen und Verwenden von Aspose.Cells.GridWeb Control**
+## **Erstellen & Verwenden der Aspose.Cells.GridWeb-Steuerung**
 ### **Schritt 1: Erstellen eines Webanwendungsprojekts**
-Erstellen Sie zunächst ein Webanwendungsprojekt, in dem das Aspose.Cells.GridWeb-Steuerelement verwendet werden soll:
+Erstellen Sie zunächst ein Webanwendungsprojekt, in dem Sie die Aspose.Cells.GridWeb-Steuerung verwenden:
 
 1. Öffnen Sie Visual Studio.
-1.  Von dem**Datei** Menü, auswählen**Neu** gefolgt von**Projekt**. 
+1. Wählen Sie im Menü **Datei** zunächst **Neu**, gefolgt von **Projekt** aus. 
 
-![todo: Bild_alt_Text](add-gridweb-to-web-form_1.png)
+![todo:image_alt_text](add-gridweb-to-web-form_1.png)
 
 
 
-Ein Dialogfeld „Neues Projekt“ wird angezeigt.
+Ein Dialogfeld für ein neues Projekt wird angezeigt.
 
-1.  Wählen**ASP.NET Webanwendung** für die gewünschte Sprache.
+1. Wählen Sie die gewünschte Sprache für **ASP.NET-Webanwendung** aus. 
 
-![todo: Bild_alt_Text](add-gridweb-to-web-form_2.png)
+![todo:image_alt_text](add-gridweb-to-web-form_2.png)
 
-1.  Wählen**Webformulare** Vorlage.
+1. Wählen Sie die Vorlage **Webformulare** aus. 
 
-![todo: Bild_alt_Text](add-gridweb-to-web-form_3.png)
+![todo:image_alt_text](add-gridweb-to-web-form_3.png)
 
-1. Fügen Sie dem Projekt ein neues Webformular hinzu.
-### **Schritt 2: Steuerelement in das Webformular einbetten**
- Ziehen Sie das Aspose.Cells.GridWeb-Steuerelement per Drag & Drop aus der Visual Studio-Toolbox in das Webformular.
+1. Fügen Sie ein neues Webformular dem Projekt hinzu.
+### **Schritt 2: Einbetten der Steuerelemente in das Webformular**
+Ziehen Sie das Aspose.Cells.GridWeb-Steuerelement aus dem Visual Studio-Toolbox auf das Webformular. 
 
-![todo: Bild_alt_Text](add-gridweb-to-web-form_4.png)
+![todo:image_alt_text](add-gridweb-to-web-form_4.png)
 
 {{% alert color="primary" %}} 
 
- Um zu erfahren, wie Sie Aspose.Cells Grid-Steuerelemente zur Visual Studio-Toolbox hinzufügen, lesen Sie bitte[Integrieren Sie Aspose.Cells.Grid Controls mit Visual Studio.NET](/cells/de/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/).
+Lesen Sie [Integrieren von Aspose.Cells.Grid-Steuerungselementen mit Visual Studio.NET](/cells/de/net/aspose-cells-gridweb/integrate-aspose-cells-grid-controls-with-visual-studio-net/), um zu erfahren, wie Aspose.Cells Grid-Steuerungselemente zur Visual Studio-Toolbox hinzugefügt werden.
 
 {{% /alert %}} 
 
- Wenn das Steuerelement zum Formular hinzugefügt wurde, wird es wie folgt gerendert:
+Wenn das Steuerelement dem Formular hinzugefügt wurde, wird es so gerendert: 
 
-![todo: Bild_alt_Text](add-gridweb-to-web-form_5.png)
-### **Schritt 3: Steuerung der Größenänderung**
-Das Formular wird in einer Standardgröße gerendert. Passen Sie die Größe an, indem Sie die Ränder oder Ecken ziehen.
+![todo:image_alt_text](add-gridweb-to-web-form_5.png)
+### **Schritt 3: Größenanpassung des Steuerelements**
+Das Formular wird standardmäßig in einer bestimmten Größe gerendert. Passen Sie die Größe an, indem Sie die Ränder oder Ecken ziehen. 
 
-![todo: Bild_alt_Text](add-gridweb-to-web-form_6.png)
+![todo:image_alt_text](add-gridweb-to-web-form_6.png)
 ### **Schritt 4: Festlegen der Steuerelementeigenschaften**
- Aspose.Cells. GridWeb Control kann auch über verschiedene Eigenschaften konfiguriert werden.
+Auch das Aspose.Cells.GridWeb-Steuerelement kann mit verschiedenen Eigenschaften konfiguriert werden. 
 
-![todo: Bild_alt_Text](add-gridweb-to-web-form_7.png)
+![todo:image_alt_text](add-gridweb-to-web-form_7.png)
 
-Viele Eigenschaften des Steuerelements können über den Eigenschaftendialog angepasst werden. Zu den grundlegenden Eigenschaften gehören Höhe, Breite, Farbe und visuelle Stile. Zu den erweiterten Eigenschaften gehören der Bearbeitungsmodus, der Sitzungsmodus und der Doppelklickmodus. Darüber hinaus ist es möglich, benutzerdefinierte Event-Handler im Eigenschaften-Dialog festzulegen.
+Es ist möglich, viele Eigenschaften des Steuerelements mit dem Eigenschaften-Dialog anzupassen. Zu den grundlegenden Eigenschaften gehören Höhe, Breite, Farbe und visuelle Stile. Zu den erweiterten Eigenschaften gehören der Bearbeitungsmodus, der Sitzungsmodus und der Doppelklickmodus. Darüber hinaus ist es möglich, benutzerdefinierte Ereignishandler im Eigenschaften-Dialog festzulegen.
 
-Es gibt auch einige zusätzliche Konfigurationstools für Aspose.Cells.GridWeb, die am unteren Rand des Eigenschaftendialogs als Hyperlinks angezeigt werden, oder klicken Sie mit der rechten Maustaste auf das GridWeb-Steuerelement, um sie zu finden. Zu diesen Konfigurationstools gehören:
+Es gibt auch zusätzliche Konfigurationstools für Aspose.Cells.GridWeb, die am unteren Rand des Eigenschaften-Dialogs als Hyperlinks eingesehen werden können oder mit einem Rechtsklick auf das GridWeb-Steuerelement gefunden werden können. Zu diesen Konfigurationstools gehören:
 
 - Benutzerdefinierte Befehlsschaltflächen
 #### **Benutzerdefinierte Befehlsschaltflächen**
 So öffnen Sie den Editor für benutzerdefinierte Befehlsschaltflächen:
- Klicken Sie mit der rechten Maustaste auf das GridWeb-Steuerelement, und wählen Sie es aus**Benutzerdefinierte Befehlsschaltflächen**. 
+Klicken Sie mit der rechten Maustaste auf das GridWeb-Steuerelement und wählen Sie **Benutzerdefinierte Befehlsschaltflächen**. 
 
-![todo: Bild_alt_Text](add-gridweb-to-web-form_8.png)
+![todo:image_alt_text](add-gridweb-to-web-form_8.png)
 
 
 
- Das Dialogfeld CustomCommandButton Collection Editor wird angezeigt.
+Der Dialog für den Editor der CustomCommandButton-Sammlung wird angezeigt. 
 
-![todo: Bild_alt_Text](add-gridweb-to-web-form_9.png)
+![todo:image_alt_text](add-gridweb-to-web-form_9.png)
 
-Das Dialogfeld ermöglicht es Entwicklern, benutzerdefinierte Befehlsschaltflächen im GridWeb-Steuerelement hinzuzufügen und zu entfernen.
+Der Dialog ermöglicht es Entwicklern, benutzerdefinierte Befehlsschaltflächen im GridWeb-Steuerelement hinzuzufügen und zu entfernen.
 
 
 ### **Wichtig**
-Aspose.Cells. GridWeb stellt auch seine Ressourcendateien mit dem Steuerelement bereit. Das „acw_client" ist ein Ordner (@ Ihrem Installationsverzeichnis), der Dateien und Aspose.Cells enthält. GridWeb verwendet diesen Ordner, um seine interne Konfiguration und andere Funktionen zu verwalten, er enthält Skriptdateien, Bilddateien und andere Dateien, um das Verhalten von GridWeb festzulegen und andere Vorgänge festzulegen config-Datei wird verwendet, um die eingebetteten Client-Ressourcen (Bilder, Skripte usw.) zu verwalten. Außerdem würden Sie, wenn Sie die Webanwendung mit GridWeb-Steuerung bereitstellen müssen, auch die Datei „acw_client"-Verzeichnis in Ihren Projektordner, zumindest konnte Ihre Webanwendung (die über den Server bereitgestellt wird) es nicht finden. Sie können den Ressourcenordner jederzeit angeben, indem Sie die folgenden Codezeilen in den Konfigurationsabschnitt einfügen (z. B. in die Datei web.config in Ihrer .config-Datei). VS.NET Projekt):
+Aspose.Cells.GridWeb stellt auch seine Ressourcendateien mit dem Steuerelement bereit. Der Ordner "acw_client" ist ein Verzeichnis, das Dateien enthält, die von Aspose.Cells.GridWeb zur Verwaltung seiner internen Konfiguration und anderer Funktionen verwendet werden. Es enthält Skriptdateien, Bilddateien und andere Dateien zur Spezifizierung des Verhaltens von GridWeb und zur Durchführung anderer Operationen. Die Konfigurationsdatei wird verwendet, um die eingebetteten Client-Ressourcen (Bilder, Skripte usw.) zu verwalten. Darüber hinaus, wenn Sie die Webanwendung mit dem GridWeb-Steuerelement bereitstellen müssen, sollten Sie auch das Verzeichnis "acw_client" in Ihren Projektordner kopieren, da Ihre Webanwendung (deployed over the server) es sonst nicht finden könnte. Sie können den Ressourcenordner jederzeit angeben, indem Sie die folgenden Zeilen Code in den Konfigurationsabschnitt hinzufügen (z. B. in die web.config-Datei in Ihrem VS.NET-Projekt):
 
 
 
-|<p>{{< highlight "java" >}}</p><p> <appSettings></p><p>  <add key="aspose.cells.gridweb.acw_client_path" value="/grid/acw_client/"/> </p><p></appSettings></p><p>{{< /highlight >}}</p>|
-|:- |
+|<p>{{< highlight java >}}</p><p> <appSettings></p><p>  <add key="aspose.cells.gridweb.acw_client_path" value="/grid/acw_client/"/> </p><p></appSettings></p><p>{{< /highlight >}}</p>|
+| :- |
 
 
 {{% alert color="primary" %}}
 
-Der Pfad bezieht sich immer auf das Projektverzeichnis. Sie sollten kein Verzeichnis außerhalb des Projektverzeichnisses verwenden. Daher ist es notwendig, das Verzeichnis "acw_client" (@ Ihren GridWeb-Installationsordner) in das Verzeichnis/Unterverzeichnis des Projekts zu kopieren.
+Der Pfad ist immer mit dem Verzeichnis des Projekts verbunden. Sie sollten kein Verzeichnis außerhalb des Verzeichnisses des Projekts verwenden. Daher ist es notwendig, das Verzeichnis "acw_client" (in Ihrem GridWeb-Installationsverzeichnis) in das Verzeichnis/Unterverzeichnis des Projekts zu kopieren.
 
 {{% /alert %}}
-### **Schritt 5: Ausführen der Webanwendung**
- Führen Sie die Anwendung aus, indem Sie Strg+F5 drücken oder auf klicken**Start** Knopf.
+### **Schritt 5: Webanwendung ausführen**
+Führen Sie die Anwendung durch Drücken von Strg+F5 oder Klicken auf die **Start**-Schaltfläche aus. 
 
- Wenn die Anwendung in einem Browser ausgeführt wird, wird die Seite WebForm1.aspx angezeigt, die jetzt ein leeres Aspose.Cells.GridWeb-Steuerelement enthält. Fügen Sie Zellen Werte hinzu, indem Sie darauf klicken. Es ist auch möglich, andere Aufgaben auszuführen, wie z. B. das Ändern der Höhe einer Zeile oder der Breite einer Spalte, das Kopieren (Strg+C) oder Ausschneiden (Strg+X) von Zelldaten in die Zwischenablage und das Einfügen (Strg+V) von Daten in die Zelle . Um weitere Vorgänge auszuführen, klicken Sie mit der rechten Maustaste auf das Steuerelement, um die vollständige Liste der Optionen anzuzeigen.
+Wenn die Anwendung in einem Browser ausgeführt wird, wird die Seite WebForm1.aspx angezeigt, die jetzt eine leere Aspose.Cells.GridWeb-Steuerung enthält. Fügen Sie Werte zu Zellen hinzu, indem Sie auf sie klicken. Es ist auch möglich, andere Aufgaben auszuführen, wie das Ändern der Höhe einer Zeile oder der Breite einer Spalte, das Kopieren (Strg+C) oder Ausschneiden (Strg+X) von Zellendaten in die Zwischenablage und das Einfügen (Strg+V) von Daten in die Zelle. Um weitere Operationen auszuführen, klicken Sie mit der rechten Maustaste auf die Steuerung, um die vollständige Liste der Optionen anzuzeigen. 
 
-**Kontextmenü des GridWeb-Steuerelements** 
+**Kontextmenü der GridWeb-Steuerung** 
 
-![todo: Bild_alt_Text](add-gridweb-to-web-form_10.png)
+![todo:image_alt_text](add-gridweb-to-web-form_10.png)

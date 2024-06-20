@@ -1,23 +1,24 @@
-﻿---
-title: Aspose.Cells の画像マーカー
+---
+title: Aspose.Cellsの画像マーカー
 type: docs
 weight: 20
 url: /ja/net/image-markers-in-aspose-cells/
 ---
-Aspose.Cells スマートマーカーは画像マーカーもサポートしています。このセクションでは、スマート マーカーを使用して画像を挿入する方法について説明します。
+
+Aspose.Cellsのスマートマーカーでは画像マーカーもサポートされています。このセクションでは、スマートマーカーを使用して画像を挿入する方法を示します。
 ## **画像パラメータ**
-画像を管理するためのスマート マーカー パラメータ。
+画像を操作するためのスマートマーカーのパラメータ。
 
-- **画像:FitToCell** - 画像をセルの行の高さと列の幅に自動調整します。
-- **写真:ScaleN** - 高さと幅を N パーセントにスケーリングします。
-- **写真:幅:忍&高さ:忍** 高さ N インチ、幅 N インチのイメージをレンダリングします。あなたもすることができます
-Left と Top の位置をポイント単位で指定します。
+- **Picture:FitToCell** - 画像をセルの行の高さと列の幅に自動調整します。
+- **Picture:ScaleN** - 高さと幅をNパーセントにスケーリングします。
+- **Picture:Width:Nin&Height:Nin** - 画像をNインチの高さとNインチの幅でレンダリングします。左上の位置（ポイント単位）を指定することもできます。
+  左上および上部の位置（ポイント単位）も指定できます。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the image data.
 
-byte[]imageData = File.ReadAllBytes("Thumbnail.jpg");
+byte[] imageData = File.ReadAllBytes("Thumbnail.jpg");
 
 //Create a datatable.
 
@@ -35,7 +36,7 @@ dc.DataType = typeof(object);
 
 DataRow row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -45,7 +46,7 @@ imageData = File.ReadAllBytes("Desert.jpg");
 
 row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -71,4 +72,4 @@ designer.Workbook.Save("out_ImageSmartBook.xls");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)

@@ -1,34 +1,35 @@
-﻿---
-title: Inserisci un'immagine di sfondo in Excel
+---
+title: Inserire un immagine di sfondo in Excel
 type: docs
 weight: 90
 url: /it/java/insert-background-image-to-excel/
-description: Come inserire un'immagine di sfondo in Excel utilizzando Aspose.Cells for Java
+description: "Come inserire un immagine di sfondo in Excel utilizzando Aspose.Cells for Java."
 ---
+
 {{% alert color="primary" %}} 
 
-Puoi rendere un foglio di lavoro più accattivante aggiungendo un'immagine come sfondo del foglio di lavoro. Questa funzione può essere molto efficace se si dispone di una grafica aziendale speciale che aggiunge un accenno di sfondo senza oscurare i dati sul foglio. È possibile impostare l'immagine di sfondo per un foglio utilizzando Aspose.Cells API.
+Puoi rendere un foglio di lavoro più accattivante aggiungendo un'immagine come sfondo del foglio. Questa funzionalità può essere molto efficace se hai una grafica aziendale speciale che aggiunge un tocco di sfondo senza oscurare i dati nel foglio. Puoi impostare l'immagine di sfondo per un foglio utilizzando l'API Aspose.Cells.
 
 {{% /alert %}} 
 
-## **Impostazione dello sfondo del foglio in Microsoft Excel**
+## **Impostare lo sfondo del foglio in Microsoft Excel**
 
-Per impostare l'immagine di sfondo di un foglio in Microsoft Excel (ad esempio, Microsoft Excel 2019):
+Impostare un'immagine di sfondo di un foglio in Microsoft Excel (ad esempio, Microsoft Excel 2019):
 
-1.  Dal**Layout di pagina** menu, trova il**Impostazione della pagina** opzione, quindi fare clic su**Sfondo** opzione.
-1. Seleziona un'immagine per impostare l'immagine di sfondo del foglio.
+1. Dal menu **Layout di pagina**, individuare l'opzione **Imposta pagina** e fare clic sull'opzione **Sfondo**.
+1. Seleziona un'immagine da impostare come sfondo del foglio.
 
    **Impostazione di uno sfondo del foglio**
 
-![cose da fare:immagine_alt_testo](set-background-picture-for-a-worksheet_1.jpg)
+![todo:image_alt_text](set-background-picture-for-a-worksheet_1.jpg)
 
-## **Impostazione dello sfondo del foglio con Aspose.Cells**
+## **Impostare lo sfondo del foglio con Aspose.Cells**
 
-Il codice seguente imposta un'immagine di sfondo utilizzando un'immagine da un flusso.
+Il codice di seguito imposta un'immagine di sfondo utilizzando un'immagine da un flusso.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-SetBackgroundPictureforWorksheet-1.java" >}}
 
-## articoli Correlati
+## Articoli correlati
 
 - [Lavorare con lo sfondo nei file ODS](/cells/it/java/working-with-background-in-ods-files/)
 

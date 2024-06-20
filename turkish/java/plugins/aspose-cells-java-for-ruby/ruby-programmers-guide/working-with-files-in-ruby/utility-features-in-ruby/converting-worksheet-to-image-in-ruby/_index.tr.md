@@ -1,45 +1,46 @@
-﻿---
-title: Çalışma Sayfasını Ruby'de Görüntüye Dönüştürme
+---
+title: Ruby de Çalışma Sayfasını Resme Dönüştürme
 type: docs
 weight: 60
 url: /tr/java/converting-worksheet-to-image-in-ruby/
 ---
-## **Aspose.Cells - Çalışma Sayfasını Resme Dönüştürme**
-Ruby'de Aspose.Cells for Java kullanarak Çalışma Sayfasını Görüntüye dönüştürmek için Dönüştürücü modülünü çağırmanız yeterlidir.
 
-**Yakut Kodu**
+## **Aspose.Cells - Çalışma Sayfasını Görüntüye Dönüştürme**
+Ruby'de Aspose.Cells for Java kullanarak Çalışma Sayfasını Görüntüye dönüştürmek için, Converter modülünü basitçe çağırın.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
 
- def çalışma sayfası_ile_resim(çalışma kitabı)
+{{< highlight ruby >}}
 
-#ImageOptions için bir nesne oluştur
+ def worksheet_to_image(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
+    #Create an object for ImageOptions
 
-
-
-# Görüntü türünü ayarlayın
-
-image_format = Rjb::import('com.aspose.cells.ImageFormat')
-
-img_options.setImageFormat(resim_format.getPng())
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
 
 
-# İlk çalışma sayfasını alın.
+    # Set the image type
 
-sayfa = workbook.getWorksheets().get(0)
+    image_format = Rjb::import('com.aspose.cells.ImageFormat')
 
-# Hedef sayfa için bir SheetRender nesnesi oluşturun
-
-sr = Rjb::import('com.aspose.cells.SheetRender').new(sayfa, img_options)
+    img_options.setImageFormat(image_format.getPng())
 
 
 
-j = 0
+    # Get the first worksheet.
 
- j iken< sr.getPageCount()
+    sheet = workbook.getWorksheets().get(0)
+
+    # Create a SheetRender object for the target sheet
+
+    sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+
+
+
+    j = 0
+
+    while j < sr.getPageCount()
 
         # Generate an image for the worksheet
 
@@ -55,6 +56,6 @@ end 
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Çalışma Sayfasını Resme Dönüştürme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Çalışma Sayfasını Görüntüye Dönüştürme (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

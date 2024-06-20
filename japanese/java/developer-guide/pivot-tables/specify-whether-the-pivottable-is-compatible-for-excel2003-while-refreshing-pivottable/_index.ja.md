@@ -1,24 +1,25 @@
-﻿---
-title: ピボットテーブルの更新中に、ピボットテーブルが Excel2003 と互換性があるかどうかを指定します
+---
+title: PivotTableがExcel2003に互換性があるかどうかを指定する
 type: docs
 weight: 880
 url: /ja/java/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells は[PivotTable.IsExcel2003互換](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible)ピボットテーブルを更新するときに、ピボットテーブルが Excel2003 と互換性があるかどうかを指定するために使用できるプロパティ。もしも**真実**、文字列は 255 文字以下である必要があるため、文字列が 255 文字を超える場合は切り捨てられます。もしも**間違い**、文字列には前述の制限はありません。デフォルト値は**真実**.
+Aspose.Cells は、PivotTable をリフレッシュする際の Excel2003 との互換性を指定するための [PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) プロパティを提供しており、**true** の場合は、文字列は255文字以下である必要があります。したがって、文字列が255文字を超える場合、切り捨てられます。**false** の場合は、文字列に前述の制限はありません。デフォルト値は **true** です。
 
 {{% /alert %}} 
-## **ピボットテーブルの更新中に、ピボットテーブルが Excel2003 と互換性があるかどうかを指定します**
-次のサンプル コードは、[PivotTable.IsExcel2003互換](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible)財産。元の文字列の長さは 383 文字です。でもいつ[PivotTable.IsExcel2003互換](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible)プロパティはに設定されています**真実**ピボット テーブルを更新すると、ピボット テーブルのセル B5 のデータが切り捨てられ、255 文字になります。ただし、[PivotTable.IsExcel2003互換](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible)プロパティが設定されています**間違い**ピボット テーブルを再度更新すると、ピボット テーブルのセル B5 のデータは切り捨てられず、383 文字のままです。をダウンロードしてください[サンプルエクセルファイル](5472558.xlsx)このコードで使用されている、[出力エクセルファイル](5472557.xlsx)それによって生成されたものと、参照用のコンソール出力。このプロパティをよりよく理解するために、コード内のコメントもお読みください。
+## **PivotTableを更新する際にExcel2003に互換性があるかどうかを指定する**
+次のサンプルコードは、[PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) プロパティの使用方法を説明しています。元の文字列は383文字です。しかし、[PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) プロパティを **true** に設定し、ピボットテーブルをリフレッシュすると、ピボットテーブルのセル B5 のデータが切り捨てられ、255文字になります。ただし、[PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) プロパティを **false** に設定し、ピボットテーブルを再度リフレッシュすると、ピボットテーブルのセル B5 のデータは切り捨てられず、383文字のままです。このコードで使用されている [サンプルエクセルファイル](5472558.xlsx)、生成された [出力エクセルファイル](5472557.xlsx)、およびコンソール出力をダウンロードして参照してください。このプロパティの理解を深めるために、コード内のコメントも必ずお読みください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-IsPivotTableCompatibleForExcel2003-.java" >}}
 ## **コンソール出力**
-上記のサンプル コードを特定のコマンドで実行した場合のコンソール出力は次のとおりです。[サンプルエクセルファイル](5472558.xlsx).
+上記のサンプルコードを指定の [サンプルエクセルファイル](5472558.xlsx) で実行した際のコンソール出力はこちらです。
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Length of original data string: 383
 

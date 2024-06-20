@@ -1,14 +1,15 @@
-﻿---
-title: البحث والاستبدال في جدول البيانات
+---
+title: البحث والاستبدال في جدول بيانات
 type: docs
 weight: 30
 url: /ar/net/find-and-replace-in-spreadsheet/
 ---
-![ما يجب القيام به: image_بديل_نص](Find_and_Replace.png)
 
-عندما نضغط على زر البحث ، يكون الرمز التالي هو:
+![todo:image_alt_text](Find_and_Replace.png)
 
-{{< highlight "csharp" >}}
+عند النقر على زر البحث يتم تنفيذ الكود التالي:
+
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "")
 
@@ -54,9 +55,9 @@ url: /ar/net/find-and-replace-in-spreadsheet/
 
 {{< /highlight >}}
 
-النقر على زر استبدال يتم تنفيذ الكود التالي:
+عند النقر على زر الاستبدال يتم تنفيذ الكود التالي:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "" && TXBX_Replace.Text!="")
 
@@ -108,7 +109,7 @@ url: /ar/net/find-and-replace-in-spreadsheet/
 
 {{< /highlight >}}
 
-## **تنزيل نموذج التعليمات البرمجية**
+## **تحميل رمز عينة**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)

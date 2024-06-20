@@ -1,12 +1,13 @@
-﻿---
+---
 title: فرز البيانات في أوراق العمل
 type: docs
 weight: 230
 url: /ar/net/sort-data-in-worksheets/
 ---
-يوجد أدناه مثال رمز المقارنة لـ VSTO و Aspose.Cells.
+
+أدناه مقارنة لأمثلة الرمز المصدري لـ VSTO و Aspose.Cells.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -36,7 +37,7 @@ url: /ar/net/sort-data-in-worksheets/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -54,4 +55,4 @@ url: /ar/net/sort-data-in-worksheets/
 
 {{< /highlight >}}
 ## **تحميل
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)

@@ -1,22 +1,23 @@
-﻿---
-title: 画像とチャートを含む XLS を PDF に変換します
+---
+title: 画像とグラフを含むXLSファイルをPDFに変換
 type: docs
 weight: 230
 url: /ja/java/convert-xls-with-images-and-charts-to-pdf/
-description: Aspose.Cells for Java API を使用して、画像とグラフを含む Excel ファイルを PDF 形式に変換する Java コード。
-keywords: excel to pdf java, convert excel to pdf, convert excel to pdf java, convert excel with images to pdf java, convert excel with charts to pdf java, convert xls to pdf, convert xlsx to pdf, xls to pdf java, xlsx to pdf java, excel to pdf
+description: Aspose.Cells for Java APIを使用して、画像とグラフを含むExcelファイルをPDF形式に変換するJavaコード。
+keywords: excel to pdf java、excelをpdfに変換、excelをpdfに変換するjava、画像を含むexcelをpdfに変換するjava、グラフを含むexcelをpdfに変換するjava、xlsをpdfに変換、xlsxをpdfに変換、xlsをpdf java、xlsxをpdf java、excelをpdf
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells は、画像とチャートを含む XLS ファイルの PDF ドキュメントへの変換をサポートします。 Aspose.Cells for Java は独立してスプレッドシートを PDF に変換できます: Aspose.PDF API は変換に必要ありません。
+Aspose.Cellsは、画像とグラフを含むXLSファイルをPDF文書に変換することをサポートしています。Aspose.Cells for JavaはスプレッドシートをPDFに変換する際に独立して動作します：Aspose.PDF APIは変換に必要ありません。
 
 {{% /alert %}}
 
-プロセスは一時または中間の XML ファイルに依存しないため、プロセスはメモリ内で実行できます。これは、画像、チャート、その他の描画オブジェクトを含む大きな Excel ファイルをすばやく効率的に変換できることを意味します。
+このプロセスは一時的な中間XMLファイルに依存しないため、メモリ上で実行できます。つまり、画像やグラフなどの描画オブジェクトを含む大きなExcelファイルも迅速かつ効率的に変換することができます。
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()メソッドを PDF にレンダリングする直前に実行します。これにより、式に依存する値が再計算され、正しい値が PDF にレンダリングされます。
+スプレッドシートに数式が含まれている場合は、PDFへのレンダリング直前に[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--)メソッドを呼び出すのが最適です。これにより、数式に依存する値が再計算され、正しい値がPDFにレンダリングされます。
 
 {{% /alert %}}
 
@@ -24,5 +25,5 @@ Aspose.Cells は、画像とチャートを含む XLS ファイルの PDF ドキ
 
 ## 関連記事
 
-- [Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換します](/cells/ja/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
-- [チャートのレンダリング](/cells/ja/java/chart-rendering/)
+- [PDFA-1aに準拠したExcelファイルをPDF形式に変換する](/cells/ja/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [グラフのレンダリング](/cells/ja/java/chart-rendering/)

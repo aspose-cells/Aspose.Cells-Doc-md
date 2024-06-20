@@ -1,119 +1,120 @@
 ---
-title: Gráfico a imagen
-description: Aprenda a usar Aspose.Cells for .NET para convertir un gráfico a un formato de imagen, como JPEG o PNG. Nuestra guía le demostrará cómo exportar un gráfico desde Microsoft Excel y guardarlo como una imagen independiente para su uso y manipulación posteriores.
-keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
-linktitle: Gráfico a imagen
+title: Gráfico a Imagen
+description: Aprenda cómo usar Aspose.Cells for .NET para convertir un gráfico a un formato de imagen, como JPEG o PNG. Nuestra guía demostrará cómo exportar un gráfico desde Microsoft Excel y guardarlo como una imagen independiente para su posterior uso y manipulación.
+keywords: Aspose.Cells for .NET, Gráfico a Imagen, Microsoft Excel, Conversión de Imagen, Exportación, Imagen Independiente.
+linktitle: Gráfico a Imagen
 type: docs
 weight: 46
 url: /es/net/chart-to-image/
 ---
-##  **Representación de gráficos**
 
- Aspose.Cells Las API admiten la conversión de gráficos de Excel a formatos de imágenes sin necesidad de herramientas o aplicaciones adicionales. Para brindar soporte de prestación, el[**Cuadro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) la clase ha expuesto[**A la imagen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) métodos con una variedad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
+## **Renderización de Gráficos**
 
-###  **Representar gráficos en imágenes**
+Las API de Aspose.Cells admiten la conversión de gráficos de Excel a formatos de imágenes sin requerir herramientas o aplicaciones adicionales. Para proporcionar soporte de renderizado, la clase [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) ha expuesto [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) métodos con una variedad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
 
- El[**Gráfico.AImagen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) El método tiene una gran cantidad de sobrecargas para admitir renderizado simple y avanzado. Si el requisito de la aplicación es representar el gráfico en sus dimensiones predeterminadas, le sugerimos que utilice el[**Gráfico.AImagen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)método como sigue.
+### **Renderizar Gráficos a Imágenes**
+
+El método [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) tiene una variedad de sobrecargas para admitir tanto el renderizado simple como el avanzado. Si el requisito de la aplicación es renderizar el gráfico en sus dimensiones predeterminadas, le sugerimos que use el método [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) como sigue.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
- También es posible renderizar los gráficos en imágenes con configuraciones avanzadas. Aspose.Cells Las API han expuesto una versión sobrecargada de[**Gráfico.AImagen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) método que podría aceptar una instancia de[**Opciones de imagen o impresión**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)al tiempo que permite especificar parámetros como resolución, modo de suavizado, formato de imagen, etc.
+También es posible renderizar los gráficos a imágenes con configuraciones avanzadas. Las API de Aspose.Cells han expuesto una versión sobrecargada del método [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) que podría aceptar una instancia de [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), permitiendo especificar parámetros como resolución, modo de suavizado, formato de imagen, etc.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-##  **Tipos de gráficos admitidos para renderizado**
+## **Tipos de Gráficos Soportados para Renderizado**
 
- Hay algunos tipos de gráficos que actualmente no son compatibles con la representación. Estos tipos de gráficos contienen**N** en el **Soportado** columna de la siguiente tabla.
+Hay algunos tipos de gráficos que actualmente no están soportados para el renderizado. Dichos tipos de gráficos contienen **N** en la columna **Soportado** de la siguiente tabla.
 
-|**Tipo de gráfico**|**Subtipo de gráfico**|**Soportado**|
+|**Tipo de Gráfico**|**Subtipo de Gráfico**|**Soportado**|
 | :- | :- | :- |
-|**Columna**|Columna|*Sí**|
-| |Columna Apilada|*Sí**|
-| |Columna100PorcentajeApilada|*Sí**|
-| |Columna3DClustered|*Sí**|
-| |Columna3DSapilada|*Sí**|
-| |Columna3D100PorcentajeApilado|*Sí**|
-| |Columna3D|*Sí**|
-|**Bar**|Bar|*Sí**|
-| |barra apilada|*Sí**|
-| |Barra100PorCientoApilados|*Sí**|
-| |Bar3DClustered|*Sí**|
-| |Barra3DSapilada|*Sí**|
-| |Bar3D100PorcentajeApilado|*Sí**|
-|**Línea**|Línea|*Sí**|
-| |líneaapilada|*Sí**|
-| |Línea100PorcentajeApilado|*Sí**|
-| |Línea con marcadores de datos|*Sí**|
-| |Línea apilada con marcadores de datos|*Sí**|
-| |Línea 100 por ciento apilada con marcadores de datos|*Sí**|
-| |Línea 3D|*Sí**|
-|**Tarta**|Tarta|*Sí**|
-| |pastel3D|*Sí**|
-| |Pastel Pastel|*Sí**|
-| |PastelExplotado|*Sí**|
-| |pastel3DExplotado|*Sí**|
-| |Barra de pastel|*Sí**|
-|**Dispersión**|Dispersión|*Sí**|
-| |Dispersión conectada por curvas con marcador de datos|*Sí**|
-| |Dispersión conectada por curvas sin marcador de datos|*Sí**|
-| |DispersiónConnectedByLinesWithDataMarker|*Sí**|
-| |DispersiónConectadoPorLineasSinMarcadorDeDatos|*Sí**|
-|**Área**|Área|*Sí**|
-| |ÁreaApilada|*Sí**|
-| |Área100PorCientoApilado|*Sí**|
-| |Área3D|*Sí**|
-| |Área3DSapiladas|*Sí**|
-| |Área3D100PorcentajeApilado|*Sí**|
-|**Rosquilla**|Rosquilla|*Sí**|
-| |DonutExplotado|*Sí**|
-|**Radar**|Radar|*Sí**|
-| |RadarConMarcadores De Datos|*Sí**|
-| |RadarLleno|*Sí**|
-|**Superficie**|Superficie3D|N|
-| |SuperficieAlámbrica3D|N|
-| |Contorno de superficie|N|
-| |SuperficieContornoEstructura Alámbrica|N|
-|**Burbuja**|Burbuja|*Sí**|
-| |burbuja3d|N|
-|**Existencias**|StockAltoBajoCerrar|*Sí**|
-| |StockAbiertoAltoBajoCerrar|*Sí**|
-| |StockVolumenAltoBajoCerrar|*Sí**|
-| |StockVolumenAbrirAltoBajoCerrar|*Sí**|
-|**Cilindro**|Cilindro|*Sí**|
-| |CilindroApilado|*Sí**|
-| |Cilindro100PorCientoApilado|*Sí**|
-| |Barra cilíndrica|*Sí**|
-| |CilíndricoBarApilados|*Sí**|
-| |CilíndricoBarra100PorCientoApilado|*Sí**|
-| |CilíndricoColumna3D|*Sí**|
-|**Cono**|Cono|*Sí**|
-| |ConoApilado|*Sí**|
-| |Cono100PorCientoApilados|*Sí**|
-| |Barra cónica|*Sí**|
-| |Barra CónicaApiladas|*Sí**|
-| |Barra cónica 100 por ciento apilada|*Sí**|
-| |Columna Cónica3D|*Sí**|
-|**Pirámide**|Pirámide|*Sí**|
-| |pirámideapilada|*Sí**|
-| |Pirámide100PorCientoApilados|*Sí**|
-| |Barra Pirámide|*Sí**|
-| |PirámideBarApilados|*Sí**|
-| |PyramidBar100PorcentajeApilado|*Sí**|
-| |PirámideColumna3D|*Sí**|
-|**CajaBigote**|CajaBigote|Y|
-|**Embudo**|Embudo|*Sí**|
-|**Línea de Pareto**|Línea de Pareto|*Sí**|
-|**resplandor solar**|resplandor solar|*Sí**|
-|**Mapa de árbol**|Mapa de árbol|*Sí**|
-|**Cascada**|Cascada|*Sí**|
-|**Histograma**|Histograma|Y|
-|**Mapa**|Mapa|*NORTE**|
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
+| |SurfaceContourWireframe|N|
+|**Bubble**|Bubble|**Y**|
+| |Bubble3D|N|
+|**Stock**|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
+|**BoxWhisker**|BoxWhisker|Y|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-En caso de que intente representar los tipos de gráficos no admitidos en una imagen o PDF, puede terminar con imágenes de tamaño 0 o PDF en blanco.
+En caso de intentar renderizar los tipos de gráficos no soportados a imagen o PDF, es posible que se obtengan imágenes de tamaño 0 o PDF en blanco.
 
 {{% /alert %}}
 
-##  **Temas avanzados**
-- [Convertir gráfico a PDF](/cells/es/net/chart-to-pdf/)
+## **Temas avanzados**
+- [Convertir Gráfico a PDF](/cells/es/net/chart-to-pdf/)

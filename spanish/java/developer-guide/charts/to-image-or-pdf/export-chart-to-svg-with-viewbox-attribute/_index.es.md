@@ -1,14 +1,15 @@
-﻿---
+---
 title: Exportar gráfico a SVG con el atributo viewBox
 type: docs
 weight: 190
 url: /es/java/export-chart-to-svg-with-viewbox-attribute/
 ---
- Por defecto, cuando el gráfico se exporta al formato SVG, el**viewBox** atributo no está incluido en su XML. Sin embargo, Aspose.Cells proporciona[**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort) propiedad que cuando se establece en**verdadero** exporta el gráfico a SVG con el atributo viewBox.
 
- Si abre el gráfico SVG en el bloc de notas, encontrará el**viewBox**atributo similar a este.
+Por defecto, al exportar el gráfico a formato SVG, el atributo **viewBox** no se incluye en su XML. Sin embargo, Aspose.Cells proporciona la propiedad [**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort) que, cuando se establece en **true**, exporta el gráfico a SVG con el atributo viewBox.
 
-{{< highlight "java" >}}
+Si abres el SVG del gráfico en el bloc de notas, encontrarás el atributo **viewBox** similar a este:
+
+{{< highlight java >}}
 
  <svg xmlns="http://www.w3.org/2000/svg"
 
@@ -27,4 +28,4 @@ url: /es/java/export-chart-to-svg-with-viewbox-attribute/
 ## Artículos relacionados
 
 - [Representación de gráficos](/cells/es/java/chart-rendering/)
-- [Exportar hoja de trabajo o gráfico a una imagen con el ancho y la altura deseados](/cells/es/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+- [Exportar hoja de cálculo o gráfico a imagen con ancho y alto deseados](/cells/es/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)

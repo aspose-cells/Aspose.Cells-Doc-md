@@ -1,29 +1,30 @@
-﻿---
-title: Disabilita la disposizione del testo per le etichette dati del grafico
+---
+title: Disabilita il rientro del testo per le etichette dei dati del grafico
 type: docs
 weight: 60
 url: /it/java/disable-text-wrapping-for-data-labels-of-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel 2013 consente agli utenti di disporre o separare il testo all'interno delle etichette dei dati di un grafico. Per impostazione predefinita, il testo dell'etichetta dati è a capo.
+Microsoft Excel 2013 consente agli utenti di andare a capo o non andare a capo il testo all'interno delle etichette dati di un grafico. In genere, il testo dell'etichetta dati è andato a capo.
 
 {{% /alert %}}
 
-Aspose.Cells fornisce il[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) metodo. Impostato**Vero** o**Falso** rispettivamente per abilitare o disabilitare la disposizione del testo sulle etichette dei dati.
+Aspose.Cells fornisce il metodo [**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped). Imposta su **True** o **False** per abilitare o disabilitare il testo a capo sulle etichette dati rispettivamente.
 
- Allo stesso modo, usa il[**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)metodo per scoprire se un'etichetta dati è già racchiusa.
+Allo stesso modo, utilizza il metodo [**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) per verificare se un'etichetta dati è già andata a capo.
 
-Questa schermata mostra un file Excel Microsoft di esempio contenente un grafico in cui è racchiuso il testo delle etichette dei dati. Come puoi vedere, puoi controllare o cancellare il file**Avvolgi il testo in forma** opzione nella sezione ALLINEAMENTO del pannello Formato etichette dati in Microsoft Excel 2013.
+Questa schermata mostra un campione di file Microsoft Excel contenente un grafico in cui il testo delle etichette dati è andato a capo. Come puoi vedere, puoi selezionare o deselezionare l'opzione **Andamento testo nella forma** nella sezione ALLINEAMENTO del pannello Formato etichette dati in Microsoft Excel 2013.
 
-**Avvolgere etichette dati**
+**Andamento etichette dati**
 
-![cose da fare:immagine_alt_testo](disable-text-wrapping-for-data-labels-of-the-chart_1.png)
+![todo:image_alt_text](disable-text-wrapping-for-data-labels-of-the-chart_1.png)
 
- Il codice di esempio che segue carica il file Excel Microsoft di esempio utilizzando Aspose.Cells e disabilita il ritorno a capo del testo dell'etichetta dati utilizzando il[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)metodo. Quando il codice viene eseguito, il grafico ha questo aspetto. Il testo precedentemente inserito viene ora scartato.
+Il codice di esempio che segue carica il file di esempio di Microsoft Excel utilizzando Aspose.Cells e disabilita il testo a capo delle etichette dati utilizzando il metodo [**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped). Quando il codice viene eseguito, il grafico appare così. Il testo precedentemente andato a capo ora non è più andato a capo.
 
-**Visualizzazione delle etichette dei dati su una sola riga**
+**Visualizzazione di etichette dati su una sola riga**
 
-![cose da fare:immagine_alt_testo](disable-text-wrapping-for-data-labels-of-the-chart_2.png)
+![todo:image_alt_text](disable-text-wrapping-for-data-labels-of-the-chart_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisableTextWrapping-DisableTextWrapping.java" >}}

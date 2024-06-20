@@ -1,28 +1,29 @@
 ---
-title: تصدير الرسم البياني إلى SVG مع سمة viewBox
+title: تصدير الرسم البياني إلى SVG مع خاصية viewBox
 type: docs
 weight: 280
 url: /ar/python-net/export-chart-to-svg-with-viewbox-attribute/
-description: تصدير المخطط إلى SVG مع سمة viewBox باستخدام Aspose.Cells for Python via .NET API.
-keywords: Python Export Chart to SVG with viewBox attribute, Export Chart to SVG with viewBox attribute in Python via NET, Python Convert Chart to SVG with viewBox attribute.
+description: تصدير الرسم البياني إلى SVG بخاصية viewBox باستخدام Aspose.Cells for Python via .NET API.
+keywords: تصدير الرسم البياني إلى SVG بخاصية viewBox في Python, تصدير الرسم البياني إلى SVG بخاصية viewBox في Python via NET, تحويل الرسم البياني إلى SVG بخاصية viewBox في Python.
 ---
+
 {{% alert color="primary" %}}
 
- بشكل افتراضي، عندما يتم تصدير المخطط إلى تنسيق SVG، سيتم عرض الملف**viewBox** لم يتم تضمين السمة في XML الخاص به. غير أن Aspose.Cells for Python via .NET يوفر[**ImageOrPrintOptions.svg_fit_to_view_port**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/svg_fit_to_view_port/) الخاصية التي عند تعيينها على**حقيقي** تصدير المخطط إلى SVG مع سمة viewBox.
+بشكل افتراضي، عند تصدير الرسم البياني إلى تنسيق SVG، لا تتم تضمين خاصية **viewBox** في XML الخاص به. ومع ذلك، يوفر Aspose.Cells for Python via .NET خاصية [**ImageOrPrintOptions.svg_fit_to_view_port**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/svg_fit_to_view_port/) عندما يتم تعيينها على **true** يتم تصدير الرسم البياني إلى SVG بخاصية viewBox.
 
 {{% /alert %}}
 
-##  تصدير الرسم البياني إلى SVG مع سمة viewBox
+## تصدير الرسم البياني إلى SVG بسمة viewBox
 
-يقوم نموذج التعليمات البرمجية التالي بتصدير المخطط إلى تنسيق SVG باستخدام سمة viewBox.
+الرمز العينة التالي يقوم بتصدير الرسم البياني إلى تنسيق SVG مع سمة viewBox.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ExportChartToSvgWithViewBox.py" >}}
 
 {{% alert color="primary" %}}
 
- إذا قمت بفتح SVG للمخطط في المفكرة، فستجد**viewBox** صفة مشابهة لهذا.
+إذا فتحت ملف SVG الخاص بالرسم البياني في المفكرة، فستجد سمة viewBox مماثلة لهذه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <svg xmlns="http://www.w3.org/2000/svg"
 

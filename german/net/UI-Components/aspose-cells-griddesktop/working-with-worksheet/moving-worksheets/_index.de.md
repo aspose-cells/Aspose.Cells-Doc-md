@@ -1,18 +1,21 @@
-﻿---
+---
 title: Arbeitsblätter verschieben
 type: docs
 weight: 150
-url: /de/net/moving-worksheets/
+url: /de/net/aspose-cells-griddesktop/move-worksheets/
+keywords: GridDesktop, Arbeitsblatt verschieben, move
+description: Dieser Artikel stellt vor, wie man mit Arbeitsblättern in GridDesktop arbeitet.
 ---
+
 {{% alert color="primary" %}} 
 
 Aspose.Cells.GridDesktop unterstützt das Verschieben von Arbeitsblättern innerhalb der Arbeitsmappe.
 
 {{% /alert %}} 
 ## **Arbeitsblätter innerhalb einer Arbeitsmappe verschieben**
-Aspose.Cells.GridDesktop stellt eine Methode bereit, Aspose.Cells.GridDesktop.WorksheetCollection.MoveTo(), die verwendet wird, um ein Arbeitsblatt in den angegebenen Index zu verschieben. Es verwendet die Indizes (nullbasiert) des Quellarbeitsblatts und des Zielarbeitsblatts als Parameter. Es wird im Wesentlichen verwendet, um ein Arbeitsblatt an eine andere Stelle in derselben Tabelle zu verschieben.
+Aspose.Cells.GridDesktop bietet eine Methode, Aspose.Cells.GridDesktop.WorksheetCollection.MoveTo(), die verwendet wird, um ein Arbeitsblatt an den angegebenen Index zu verschieben. Es nimmt die Indizes (nullbasiert) des Quellarbeitsblatts und des Zielarbeitsblatts als Parameter. Es wird im Wesentlichen verwendet, um ein Arbeitsblatt an einen anderen Ort in derselben Tabelle zu verschieben.
 
-Das folgende Beispiel zeigt, wie Sie ein Arbeitsblatt an eine andere Stelle innerhalb der Arbeitsmappe verschieben.
+Das folgende Beispiel zeigt, wie ein Arbeitsblatt an einen anderen Ort innerhalb der Arbeitsmappe verschoben wird.
 
 
 

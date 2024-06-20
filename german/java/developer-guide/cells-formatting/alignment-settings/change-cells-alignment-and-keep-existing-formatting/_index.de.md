@@ -1,18 +1,19 @@
-﻿---
-title: Ändern Sie die Cells-Ausrichtung und behalten Sie die vorhandene Formatierung bei
+---
+title: Zellenausrichtung ändern und bestehendes Format beibehalten
 type: docs
 weight: 260
 url: /de/java/change-cells-alignment-and-keep-existing-formatting/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Manchmal möchten Sie die Ausrichtung mehrerer Zellen ändern, aber auch die vorhandene Formatierung beibehalten. Aspose.Cells ermöglicht Ihnen dies mit der[**StyleFlag.Alignments**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments) Eigentum. Wenn Sie es einstellen**wahr** , Ausrichtungsänderungen finden sonst nicht statt. Bitte beachten Sie,[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) Objekt wird als Parameter an übergeben[**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag))-Methode, die die Formatierung tatsächlich auf den Zellbereich anwendet.
+## **Mögliche Verwendungsszenarien**
 
-## **Ändern Sie die Cells-Ausrichtung und behalten Sie die vorhandene Formatierung bei**
+Manchmal möchten Sie die Ausrichtung mehrerer Zellen ändern, aber gleichzeitig die bestehende Formatierung beibehalten. Mit Aspose.Cells können Sie dies mit der [**StyleFlag.Alignments**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments)-Eigenschaft tun. Wenn Sie sie auf **true** setzen, werden Änderungen am Ausrichtung stattfinden, ansonsten nicht. Bitte beachten Sie, dass als Parameter an die Methode [**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) ein [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)-Objekt übergeben wird, das tatsächlich die Formatierung auf den Zellenbereich anwendet.
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](67338592.xlsx), erstellt den Bereich und zentriert ihn horizontal und vertikal und behält die vorhandene Formatierung bei. Der folgende Screenshot vergleicht die Beispiel-Excel-Datei und[Excel-Datei ausgeben](67338591.xlsx)und zeigt, dass die gesamte vorhandene Formatierung der Zellen gleich ist, außer dass die Zellen jetzt horizontal und vertikal zentriert ausgerichtet sind.
+## **Zellenausrichtung ändern und vorhandenes Format beibehalten**
 
-![todo: Bild_alt_Text](change-cells-alignment-and-keep-existing-formatting_1.png)
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](67338592.xlsx), erstellt den Bereich, zentriert ihn horizontal und vertikal und behält die bestehende Formatierung bei. Der folgende Screenshot vergleicht die Beispiel-Excel-Datei und die [Ausgabedatei Excel](67338591.xlsx) und zeigt, dass die bestehende Formatierung der Zellen gleich ist, außer dass die Zellen nun horizontal und vertikal zentriert sind.
+
+![todo:image_alt_text](change-cells-alignment-and-keep-existing-formatting_1.png)
 
 ## **Beispielcode**
 

@@ -1,31 +1,32 @@
-﻿---
-title: Grafik Eğilim Çizgisinin Denklem Metnini Alın
-linktitle: trend çizgisi
+---
+title: Grafik Eğrisi Eğilimi Denklem Metnini Alın
+linktitle: Trendline
 type: docs
 weight: 90
 url: /tr/java/get-equation-text-of-chart-trendline/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells'i kullanarak Grafik Eğilim Çizgisinin Denklem Metnini alabilirsiniz. Aspose.Cells şunları sağlar:[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text) grafik eğilim çizgisinin Denklem Metnini döndüren özellik. Bu özellikten yararlanmak için önce aramanız gerekecek[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()) yöntem.
+Aspose.Cells kullanarak Grafik Eğilim Çizgisinin Denklem Metnini alabilirsiniz. Aspose.Cells, eğilim çizgisinin denklem metnini döndüren [**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text) özelliğini sağlar. Bu özelliği kullanmak için öncelikle [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate--) yöntemini çağırmanız gerekecektir.
 
 {{% /alert %}}
 
-## **Örnek vermek**
+## **Örnek**
 
-Aşağıdaki ekran görüntüsü Trend Çizgili Grafiği gösterir ve Denklem Metni Kırmızı renkte gösterilir. Bu metni kullanarak geri alacağız.[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)özelliği aşağıdaki örnek kodda.
+Aşağıdaki ekran görüntüsü eğilim çizgisi olan Grafiği ve Denklem Metnini Kırmızı renkte göstermektedir. Bu metni aşağıdaki örnek kodda [**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text) özelliğini kullanarak alacağız.
 
-![yapılacaklar:resim_alternatif_metin](get-equation-text-of-chart-trendline_1.png)
+![todo:image_alt_text](get-equation-text-of-chart-trendline_1.png)
 
-### Grafik eğilim çizgisinin denklem metnini almak için Java kodu
+### Grafik trend çizgisinin denklem metnini almak için Java kodu
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetEquationText-GetEquationText.java" >}}
 
-### Örnek kod tarafından oluşturulan çıktı
+### Örnek kod tarafından üretilen çıktı
 
-Bu, yukarıdaki örnek kodun konsol çıktısıdır.
+Yukarıdaki örnek kodun konsol çıktısı budur.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Equation Text: y = 8.1333x + 5
 

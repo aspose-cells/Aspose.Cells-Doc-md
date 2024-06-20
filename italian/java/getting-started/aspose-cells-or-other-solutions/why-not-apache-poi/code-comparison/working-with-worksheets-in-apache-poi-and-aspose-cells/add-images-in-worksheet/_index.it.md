@@ -1,15 +1,16 @@
-﻿---
-title: Aggiungi immagini nel foglio di lavoro
+---
+title: Aggiungere immagini nel foglio di lavoro
 type: docs
 weight: 20
 url: /it/java/add-images-in-worksheet/
 ---
-## **Aspose.Cells - Aggiungi immagini nel foglio di lavoro**
+
+## **Aspose.Cells - Aggiungere immagini nel foglio di lavoro**
 La classe Picture è disponibile per gestire le immagini nel foglio di lavoro
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the first worksheet
 
@@ -41,18 +42,18 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Aggiungi immagini nel foglio di lavoro**
+## **Apache POI SS - HSSF XSSF - Aggiungere immagini nel foglio di lavoro**
 La classe Picture è disponibile per gestire le immagini nel foglio di lavoro
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //add picture data to this workbook.
 
 InputStream is = new FileInputStream(dataDir + "aspose.jpg");
 
-byte[]bytes = IOUtils.toByteArray(is);
+byte[] bytes = IOUtils.toByteArray(is);
 
 int pictureIdx = wb.addPicture(bytes, Workbook.PICTURE_TYPE_JPEG);
 
@@ -88,12 +89,12 @@ pict.resize();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/addimages)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/addimages)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Aggiungi collegamenti ipertestuali alle immagini](/java/add-image-hyperlinks).
+Per ulteriori dettagli, visita [Aggiungi collegamenti ipertestuali alle immagini](/java/aggiungi-collegamenti-ipertestuali-immagini).
 
 {{% /alert %}}

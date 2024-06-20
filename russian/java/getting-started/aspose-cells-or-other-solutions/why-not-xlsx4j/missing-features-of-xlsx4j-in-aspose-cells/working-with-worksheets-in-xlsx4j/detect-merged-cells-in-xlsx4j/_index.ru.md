@@ -1,16 +1,17 @@
-﻿---
-title: Обнаружение слияния Cells в xlsx4j
+---
+title: Обнаружение объединенных ячеек в xlsx4j
 type: docs
 weight: 20
 url: /ru/java/detect-merged-cells-in-xlsx4j/
 ---
-## **Aspose.Cells - Обнаружение слияния Cells**
-В Microsoft Excel несколько ячеек можно объединить в одну. Это часто используется для создания сложных таблиц или для создания ячейки с заголовком, охватывающим несколько столбцов.
-Aspose.Cells позволяет идентифицировать объединенные области ячеек на листе. Вы также можете разъединить их.
+
+## **Aspose.Cells - Обнаружение объединенных ячеек**
+В Microsoft Excel несколько ячеек могут быть объединены в одну. Это часто используется для создания сложных таблиц или для создания ячейки, содержащей заголовок, который охватывает несколько столбцов.
+Aspose.Cells позволяет определить области объединенных ячеек в листе электронной таблицы. Вы также можете отменить объединение ячеек.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the merged cells list to put it into the arraylist object
 
@@ -53,13 +54,13 @@ for(int i = al.size()-1 ; i > -1; i--)
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/detectmergecells/AsposeDetectMergeCells.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/detectmergecells/AsposeDetectMergeCells.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Обнаружение слияния Cells на рабочем листе](/cells/ru/java/detect-merged-cells-in-a-worksheet).
+Для получения дополнительной информации посетите [Обнаружение объединенных ячеек на листе Excel](/cells/ru/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}

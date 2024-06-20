@@ -1,41 +1,42 @@
-﻿---
-title: Aggiunta di collegamenti ipertestuali ai dati di collegamento in Aspose.Cells
+---
+title: Aggiunta di collegamenti ipertestuali per collegare i dati in Aspose.Cells
 type: docs
 weight: 10
 url: /it/net/adding-hyperlinks-to-link-data-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Un collegamento ipertestuale viene utilizzato per creare un collegamento tra due entità. Tutti hanno familiarità con l'uso dei collegamenti ipertestuali, specialmente sui siti web.
+Un collegamento ipertestuale viene utilizzato per creare un collegamento tra due entità. Tutti sono familiari con l'uso dei collegamenti ipertestuali, specialmente sui siti web.
 
-Utilizzando Aspose.Cells, gli sviluppatori possono creare diversi tipi di collegamenti ipertestuali nei file Excel Microsoft. Questo argomento illustra quali tipi di collegamenti ipertestuali sono supportati da Aspose.Cells e come possono essere utilizzati nei nostri file Excel.
+Utilizzando Aspose.Cells, gli sviluppatori possono creare diversi tipi di collegamenti ipertestuali nei file Microsoft Excel. Questo argomento discute quali tipi di collegamenti ipertestuali sono supportati da Aspose.Cells e come possono essere utilizzati nei nostri file Excel.
 
 {{% /alert %}}
 
-## **Aggiunta di collegamenti ipertestuali**
+## **Aggiunta di Collegamenti Ipotestuali**
 
-È possibile aggiungere tre tipi di collegamento ipertestuale a una cella utilizzando Aspose.Cells:
+Tre tipi di collegamento ipertestuale possono essere aggiunti a una cella utilizzando Aspose.Cells:
 
-- [Aggiunta di collegamento a un URL](#adding-link-to-a-url).
-- [Aggiunta di un collegamento a un'altra cella nello stesso file](#adding-a-link-to-a-cell-in-the-same-file).
-- [Aggiunta di un collegamento a un file esterno](#adding-a-link-to-an-external-file).
+- [Aggiungere un collegamento a un URL](#adding-link-to-a-url).
+- [Aggiungere un collegamento a un'altra cella nello stesso file](#adding-a-link-to-a-cell-in-the-same-file).
+- [Aggiungere un collegamento a un file esterno](#adding-a-link-to-an-external-file).
 
- Aspose.Cells consente agli sviluppatori di aggiungere collegamenti ipertestuali ai file Excel utilizzando API o[fogli di calcolo del progettista](/cells/it/net/what-is-a-designer-spreadsheet/)(fogli di calcolo in cui i collegamenti ipertestuali vengono creati manualmente e Aspose.Cells viene utilizzato per importarli in altri fogli di calcolo).
+Aspose.Cells consente agli sviluppatori di aggiungere collegamenti ipertestuali ai file Excel utilizzando l'API o [fogli elettronici progettati](/cells/it/net/what-is-a-designer-spreadsheet/) (fogli elettronici in cui i collegamenti ipertestuali vengono creati manualmente e Aspose.Cells viene utilizzato per importarli in altri fogli elettronici).
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce diversi metodi per aggiungere diversi collegamenti ipertestuali ai file Excel.
+Aspose.Cells fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contiene un [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce diversi metodi per aggiungere diversi collegamenti ipertestuali ai file Excel.
 
-### **Aggiunta di un collegamento a un URL**
+### **Aggiunta di un link a un URL**
 
- Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe contiene un[**Collegamenti ipertestuali**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) collezione. Ogni elemento nella raccolta Collegamenti ipertestuali rappresenta un collegamento ipertestuale. Aggiungere collegamenti ipertestuali agli URL chiamando il metodo Add della raccolta Hyperlinks. Il metodo Add accetta i seguenti parametri:
+La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) contiene una collezione [**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks). Ogni elemento nella collezione degli collegamenti ipertestuali rappresenta un collegamento ipertestuale. Aggiungi collegamenti ipertestuali agli URL chiamando il metodo Aggiungi della collezione degli collegamenti ipertestuali. Il metodo Aggiungi richiede i seguenti parametri:
 
-- Cell nome, il nome della cella a cui verrà aggiunto il collegamento ipertestuale.
+- Nome della cella, il nome della cella a cui verrà aggiunto il collegamento ipertestuale.
 - Numero di righe, il numero di righe in questo intervallo di collegamenti ipertestuali.
-- Numero di colonne, il numero di colonne in questo intervallo di collegamenti ipertestuali
+- Numero di colonne, il numero di colonne in questo intervallo di collegamento ipertestuale
 - URL, l'indirizzo URL.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -59,18 +60,18 @@ workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
 
-### **Aggiunta di un collegamento a un numero Cell nello stesso file**
+### **Aggiunta di un link a una cella nello stesso file**
 
-È possibile aggiungere collegamenti ipertestuali alle celle nello stesso file Excel chiamando il metodo Add della raccolta Hyperlink. Il metodo Add funziona sia per i collegamenti ipertestuali interni che per quelli esterni. Una versione del metodo sottoposto a overload accetta i seguenti parametri:
+È possibile aggiungere collegamenti ipertestuali alle celle nello stesso file Excel chiamando il metodo Add della collezione Hyperlink. Il metodo Add funziona sia per collegamenti interni che esterni. Una versione del metodo sovraccaricato accetta i seguenti parametri:
 
-- Cell nome, il nome della cella a cui verrà aggiunto il collegamento ipertestuale.
+- Nome della cella, il nome della cella alla quale verrà aggiunto il collegamento ipertestuale.
 - Numero di righe, il numero di righe in questo intervallo di collegamenti ipertestuali.
 - Numero di colonne, il numero di colonne in questo intervallo di collegamenti ipertestuali.
 - URL, l'indirizzo della cella di destinazione.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -92,18 +93,18 @@ workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
 
-### **Aggiunta di un collegamento a un file esterno**
+### **Aggiunta di un link a un file esterno**
 
-È possibile aggiungere collegamenti ipertestuali a file Excel esterni chiamando il metodo Add della raccolta Hyperlinks. Il metodo Add accetta i seguenti parametri:
+È possibile aggiungere collegamenti ipertestuali a file Excel esterni chiamando il metodo Add della raccolta Hyperlinks. Il metodo Add richiede i seguenti parametri:
 
-- Cell nome, il nome della cella a cui verrà aggiunto il collegamento ipertestuale.
+- Nome della cella, il nome della cella a cui verrà aggiunto il collegamento ipertestuale.
 - Numero di righe, il numero di righe in questo intervallo di collegamenti ipertestuali.
 - Numero di colonne, il numero di colonne in questo intervallo di collegamenti ipertestuali.
-- URL, l'indirizzo del file Excel esterno di destinazione.
+- URL, l'indirizzo di destinazione, file Excel esterno.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -131,8 +132,8 @@ workbook.Save("C:\\book2.xls");
 
 ## **Scarica il codice in esecuzione**
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Adding%20Hyperlinks%20to%20Link%20Data)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Adding%20Hyperlinks%20to%20Link%20Data)
 
 ## **Scarica il codice di esempio**
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

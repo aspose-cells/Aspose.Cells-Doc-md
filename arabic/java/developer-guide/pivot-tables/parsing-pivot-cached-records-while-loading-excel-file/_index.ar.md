@@ -1,19 +1,20 @@
-﻿---
-title: تحليل السجلات المحورية المخزنة مؤقتًا أثناء تحميل ملف Excel
+---
+title: تحليل السجلات المخزنة في حقول Pivot أثناء تحميل ملف Excel
 type: docs
 weight: 100
 url: /ar/java/parsing-pivot-cached-records-while-loading-excel-file/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-عند إنشاء Pivot Table ، يأخذ Microsoft Excel نسخة من البيانات المصدر ويخزنها في Pivot Cache. يتم الاحتفاظ بـ Pivot Cache داخل ذاكرة Microsoft Excel. لا يمكنك رؤيته ولكن هذه هي البيانات التي يشير إليها Pivot Table عند إنشاء Pivot Table أو تغيير تحديد Slicer أو نقل الصفوف / الأعمدة حولها. يتيح ذلك لـ Microsoft Excel أن يكون سريع الاستجابة للتغييرات في Pivot Table ولكن يمكنه أيضًا مضاعفة حجم ملفك. بعد كل شيء ، تعد ذاكرة التخزين المؤقت Pivot مجرد نسخة مكررة من بيانات المصدر الخاصة بك ، لذا فمن المنطقي أن حجم ملفك سيتضاعف على الأرجح.
+## **سيناريوهات الاستخدام المحتملة**
 
-عند تحميل ملف Excel داخل كائن المصنف ، يمكنك تحديد ما إذا كنت تريد أيضًا تحميل سجلات ذاكرة التخزين المؤقت المحورية أم لا ، باستخدام[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)خاصية. القيمة الافتراضية لهذه الخاصية هي**خاطئة**. إذا كانت ذاكرة التخزين المؤقت المحورية كبيرة جدًا ، فيمكنها زيادة الأداء. ولكن إذا كنت تريد أيضًا تحميل سجلات Pivot Cache ، فيجب عليك تعيين هذه الخاصية على أنها**حقيقي**.
+عند إنشاء جدول محوري، تقوم Microsoft Excel بنسخ البيانات المصدرية وتخزينها في ذاكرة التخزين المؤقت. تكون ذاكرة التخزين المؤقت موجودة داخل ذاكرة Microsoft Excel. لا يمكنك رؤيتها ولكن هذه هي البيانات التي يشير إليها الجدول المحوري عند بناء الجدول المحوري أو تغيير اختيار Slicer أو تحريك الصفوف/الأعمدة. يمكن لذلك Microsoft Excel أن يكون متجاوبًا جدًا مع التغييرات في الجدول المحوري ولكن يمكنه أيضًا مضاعفة حجم ملفك. بعد كل شيء، ذاكرة التخزين المؤقت مجرد نسخة مكررة من بياناتك المصدرية لذا يبدو منطقيًا أن يكون حجم ملفك مضاعف بشكل محتمل.
 
-## **تحليل السجلات المحورية المخزنة مؤقتًا أثناء تحميل ملف Excel**
+عند تحميل ملف Excel داخل كائن الورقة، يمكنك أن تقرر ما إذا كنت تريد أيضًا تحميل السجلات في ذاكرة التخزين المؤقت المحوري أم لا، باستخدام خاصية ([**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)). القيمة الافتراضية لهذه الخاصية هي **false**. إذا كانت ذاكرة التخزين المؤقت كبيرة بما فيه الكفاية، فقد يزيد ذلك من الأداء. ولكن إذا كنت أيضًا تريد تحميل السجلات في ذاكرة التخزين المؤقت، يجب عليك ضبط هذه الخاصية على **true**.
 
-يشرح نموذج التعليمات البرمجية التالي استخدام[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)خاصية. يقوم بتحميل ملف[نموذج لملف Excel](61767786.xlsx)أثناء تحليل السجلات المخبأة المحورية. ثم يقوم بتحديث الجدول المحوري وحفظه كملف[إخراج ملف Excel](61767785.xlsx).
+## **تحليل السجلات المخزنة في حقول Pivot أثناء تحميل ملف Excel**
 
-## **عينة من الرموز**
+الكود عينة التالي يشرح استخدام خاصية ([**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)). يقوم بتحميل ملف Excel العيني (61767786.xlsx) أثناء تحليل السجلات المخزنة في حقول Pivot. ثم يقوم بتحديث الجدول المحوري وحفظه كملف Excel الناتج (61767785.xlsx).
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-ParsingPivotCachedRecordsWhileLoadingExcelFile.java" >}}

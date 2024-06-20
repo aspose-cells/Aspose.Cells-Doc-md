@@ -1,16 +1,17 @@
-﻿---
-title: Ruby でのワークシートのコピーと移動
+---
+title: Rubyでワークシートのコピーと移動する
 type: docs
 weight: 10
 url: /ja/java/copying-and-moving-worksheets-in-ruby/
 ---
+
 ## **Aspose.Cells - ワークシートのコピーと移動**
-### **ワークブック内でワークシートをコピーする**
-を使用してワークシートをコピーするには**Aspose.Cells ルビーで for Java**、 電話**copy_worksheet**方法**コピーワークシート**モジュール。以下にコード例を示します。
+### **ブック内でのワークシートのコピー**
+**RubyでAspose.Cells for Javaを使用してワークシートをコピーする**場合は、**copyworksheets**モジュールの**copy_worksheet**メソッドを呼び出します。以下に、コード例が示されています。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_worksheet(workbook)
 
@@ -32,11 +33,11 @@ end 
 
 {{< /highlight >}}
 ### **ワークブック内でワークシートを移動する**
-を使用してワークシートを移動するには**Aspose.Cells ルビーで for Java**、 電話**move_worksheet**方法**コピーワークシート**モジュール。以下にコード例を示します。
+**RubyでAspose.Cells for Javaを使用してワークシートを移動する**場合は、**copyworksheets**モジュールの**move_worksheet**メソッドを呼び出します。以下に、コード例が示されています。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def move_worksheet(workbook)
 
@@ -57,7 +58,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートのコピーと移動 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のどちらかのソーシャルコーディングサイトから、**Aspose.Cells**の**ワークシートのコピーと移動**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/copyworksheets.rb)

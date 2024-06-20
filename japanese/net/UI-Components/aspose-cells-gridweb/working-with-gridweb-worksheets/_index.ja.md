@@ -1,6 +1,8 @@
-﻿---
-title: GridWeb ワークシートの操作
+---
+title: GridWeb ワークシートでの作業
 type: docs
 weight: 40
-url: /ja/net/working-with-gridweb-worksheets/
+url: /ja/net/aspose-cells-gridweb/working-with-gridweb-worksheets/
 ---
+
+

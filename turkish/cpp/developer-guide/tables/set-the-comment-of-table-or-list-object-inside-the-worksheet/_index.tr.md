@@ -1,16 +1,17 @@
 ---
-title: Çalışma Sayfasındaki Tablo veya Liste Nesnesinin Yorumunu Ayarlama
+title: Çalışma Sayfası içinde Masa veya Liste Nesnesi Yorumunu Ayarlayın
 type: docs
 weight: 20
 url: /tr/cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
- Lütfen çalışma sayfasının içindeki Tablo veya Liste Nesnesinin yorumunu aşağıdaki komutu kullanarak ayarlayın:[ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/) yöntem. Yorum xl/tables/tableName.xml dosyasının içinde görünecektir.
+Lütfen çalışma sayfasındaki Tablo veya Liste Nesnesi yorumunu [ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/) yöntemi kullanarak ayarlayın. Yorum, xl/tables/tableName.xml dosyasının içinde görülebilir.
 
 {{% /alert %}} 
-##  **Çalışma Sayfasındaki Tablo veya Liste Nesnesinin Yorumunu Ayarlama**
-Aşağıdaki örnek kod, kaynak excel dosyasını yükler ve çalışma sayfasındaki ilk tablonun veya liste nesnesinin yorumunu ayarlar.
+## **Çalışma Sayfası içinde Masa veya Liste Nesnesi Yorumunu Ayarlayın**
+Aşağıdaki örnek kod kaynağı excel dosyasını yükler ve çalışma sayfasındaki ilk tablo veya liste nesnesinin yorumunu ayarlar.
 
 
 

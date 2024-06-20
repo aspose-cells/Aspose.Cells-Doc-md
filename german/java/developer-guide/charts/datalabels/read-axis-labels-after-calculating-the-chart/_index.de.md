@@ -1,26 +1,27 @@
 ---
-title: Lesen Sie die Achsenbeschriftungen nach der Berechnung des Diagramms
-description: Erfahren Sie, wie Sie Achsenbeschriftungen in Aspose.Cells for Java lesen, nachdem Sie das Diagramm berechnet haben. Unser Leitfaden zeigt Ihnen, wie Sie auf Achsenbeschriftungen zugreifen und diese abrufen, einschließlich ihrer Formatierung und Positionierung.
-keywords: Aspose.Cells for Java, chart, axis labels, calculation, reading, accessing, retrieving, formatting, positioning.
+title: Achsenbeschriftungen nach Berechnen des Diagramms lesen
+description: Erfahren Sie, wie Sie Achsenbeschriftungen in Aspose.Cells for Java nach der Berechnung des Diagramms lesen. Unser Leitfaden zeigt Ihnen, wie Sie auf Achsenbeschriftungen zugreifen und diese abrufen, einschließlich ihrer Formatierung und Positionierung.
+keywords: Aspose.Cells for Java, Diagramm, Achsenbeschriftungen, Berechnung, Lesen, Zugriff, Abrufen, Formatierung, Positionierung.
 type: docs
 weight: 90
 url: /de/java/read-axis-labels-after-calculating-the-chart/
 ---
-##  **Mögliche Nutzungsszenarien**
 
-Sie können Achsenbeschriftungen Ihres Diagramms lesen, nachdem Sie dessen Werte mithilfe von berechnet haben[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart/#calculate--)Methode. Bitte nutzen Sie die[**Axis.getAxisTexts()**](https://reference.aspose.com/cells/java/com.aspose.cells/axis/#getAxisTexts--)Methode für diesen Zweck, die die Liste der Achsenbeschriftungen zurückgibt.
+## **Mögliche Verwendungsszenarien**
 
-##  **Lesen Sie die Achsenbeschriftungen nach der Berechnung des Diagramms**
+Sie können die Achsenbeschriftungen Ihres Diagramms nach der Berechnung seiner Werte mit der Methode [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart/#calculate--) lesen. Bitte verwenden Sie zu diesem Zweck die Methode [**Axis.getAxisTexts()**](https://reference.aspose.com/cells/java/com.aspose.cells/axis/#getAxisTexts--), die die Liste der Achsenbeschriftungen zurückgibt.
 
-Bitte sehen Sie sich den folgenden Beispielcode an, der das lädt[Beispiel-Excel-Datei](64716829.xlsx)und liest die Kategorieachsenbeschriftungen des Diagramms im ersten Arbeitsblatt. Anschließend werden die Werte der Achsenbeschriftungen auf der Konsole gedruckt. Eine Referenz finden Sie in der Konsolenausgabe des unten angegebenen Beispielcodes.
+## **Lesen Sie die Achsenbeschriftungen nach der Berechnung des Diagramms**
 
-##  **Beispielcode**
+Bitte beachten Sie den folgenden Beispielcode, der die [Beispieldatei von Excel](64716829.xlsx) lädt und die Kategoriensachsenbeschriftungen des Diagramms im ersten Arbeitsblatt liest. Anschließend werden die Werte der Achsenbeschriftungen in der Konsole ausgegeben. Bitte beachten Sie die Konsolenausgabe des untenstehenden Beispielcodes als Referenz.
+
+## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-ReadAxisLabelsAfterCalculatingTheChart.java" >}}
 
-##  **Konsolenausgabe**
+## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Category Axis Labels:
 

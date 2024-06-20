@@ -1,13 +1,14 @@
-﻿---
-title: Teilen Sie Cells im Arbeitsblatt auf
+---
+title: Zellen im Arbeitsblatt aufteilen
 type: docs
 weight: 90
 url: /de/net/split-cells-in-worksheet/
 ---
-## **Aspose.Cells - Split Cells im Arbeitsblatt**
+
+## **Aspose.Cells - Zellen im Arbeitsblatt aufteilen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -29,10 +30,10 @@ workbook.Save("output-Split.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Split Cells im Arbeitsblatt**
+## **NPOI - HSSF XSSF - Zellen im Arbeitsblatt aufteilen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -59,6 +60,6 @@ file.Close();
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Arbeiten mit Arbeitsblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Für weitere Details besuchen Sie [Arbeiten mit Tabellenblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

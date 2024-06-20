@@ -1,30 +1,31 @@
-﻿---
-title: Ställ in bakgrundsbild av ett arbetsblad
+---
+title: Ställ in bakgrundsbild på ett kalkylblad
 type: docs
 weight: 90
 url: /sv/net/set-background-picture-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Bakgrundsbilder sitter bakom texten och raderna i ett kalkylblad. De används för att ge information om en arbetsbok, till exempel när de används som statusvattenstämplar, men kan också lägga till företagets varumärke eller dekoration. Microsoft Excel tillåter användare att lägga till bakgrundsbilder manuellt.
+Bakgrundsbilder ligger bakom texten och linjerna i en kalkyl. De används för att ge information om en arbetsbok, till exempel när de används som statusvattenstämplar, men kan också lägga till företagsprofil eller dekoration. Microsoft Excel tillåter användare att manuellt lägga till bakgrundsbilder.
 
-Utvecklare kan också lägga till bakgrundsbilder genom sina applikationer, antingen med Aspose.Cells for .NET eller VSTO. Den här artikeln jämför de två tillvägagångssätten.
+Utvecklare kan också lägga till bakgrundsbilder genom sina applikationer, antingen med Aspose.Cells for .NET eller VSTO. Den här artikeln jämför de två metoderna.
 
 {{% /alert %}}
 
-## **Ställa in en bakgrundsbild på ett arbetsblad**
+## **Ställa in en bakgrundsbild på ett kalkylblad**
 
-Så här använder du en bakgrundsbild på ett kalkylblad:
+För att tillämpa en bakgrundsbild på ett kalkylblad:
 
-1. Skapa en arbetsbok och öppna arket du vill använda en bakgrundsbild på.
-1. Använd bakgrundsbilden.
+1. Skapa en arbetsbok och kom åt det blad du vill tillämpa en bakgrundsbild på.
+1. Tillämpa bakgrundsbilden.
 1. Spara arbetsboken.
 
- Kodexemplen som följer visar hur man gör detta först med[VSTO](/cells/sv/net/set-background-picture-of-a-worksheet/) , med antingen C# eller Visual Basic, och sedan med[Aspose.Cells for .NET](/cells/sv/net/set-background-picture-of-a-worksheet/), återigen med antingen C# eller Visual Basic.
+Kodexemplen nedan visar hur du gör detta först med [VSTO](/cells/sv/net/set-background-picture-of-a-worksheet/), med antingen C# eller Visual Basic, och sedan med [Aspose.Cells for .NET](/cells/sv/net/set-background-picture-of-a-worksheet/), igen med antingen C# eller Visual Basic.
 
-Kodexemplen i den här artikeln skapar ett kalkylblad med en återkommande bakgrundsbild, som den i skärmdumpen nedan.
+Kodexemplen i den här artikeln skapar ett kalkylblad med en upprepande bakgrundsbild, liknande den i skärmdumpen nedan.
 
-**En bakgrund har ställts in för arbetsbladet.**
+**En bakgrund har ställts in för kalkylbladet.**
 
 ![todo:image_alt_text](set-background-picture-of-a-worksheet_1.png)
 
@@ -32,7 +33,7 @@ Kodexemplen i den här artikeln skapar ett kalkylblad med en återkommande bakgr
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -76,11 +77,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Ställ in bakgrundsbilder med Aspose.Cells for .NET**
+### **Ställa in bakgrundsbilder med Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -108,7 +109,7 @@ FileStream fs = File.OpenRead(ImageUrl);
 
 //Define a byte array.
 
-byte[]imageData = new Byte[fs.Length];
+byte[] imageData = new Byte[fs.Length];
 
 //Obtain the picture into the array of bytes from streams.
 

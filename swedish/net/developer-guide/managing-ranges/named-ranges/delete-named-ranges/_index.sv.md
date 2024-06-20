@@ -1,40 +1,41 @@
 ---
-title: Ta bort namngivna intervall
+title: Ta bort namngivna områden
 type: docs
 weight: 90
 url: /sv/net/Delete-named-ranges/
-description: Du kan lära dig hur du tar bort definierade namn eller namngivna intervall från Excel- eller OpenOffice-filer med Aspose.Cells för .Net .
+description: Du kan lära dig hur man tar bort definierade namn eller namngivna områden från Excel eller OpenOffice filer med Aspose.Cells for .Net .
 ---
-##  **Introduktion**
-Om det finns för många definierade namn eller namngivna intervall i Excel-filerna måste vi rensa några för de hänvisas inte igen.
 
-##  **Ta bort Namn Range i MS Excel**
+## **Introduktion**
+Om det finns för många definierade namn eller namngivna områden i Excel-filerna måste vi rensa några så att de inte längre refereras till.
 
-För att ta bort ett namngivet intervall från Excel, kan du följa dessa steg:
-1. Öppna Microsoft Excel och öppna arbetsboken som innehåller det namngivna intervallet.
-2. Gå till fliken "Formler" i Excel-bandet.
-3. Klicka på knappen "Name Manager" i gruppen "Defined Names". Detta öppnar dialogrutan Namnhanterare.
-4. I dialogrutan Namnhanterare väljer du det namngivna intervallet som du vill ta bort.
-5. Klicka på knappen "Ta bort". Bekräfta raderingen när du uppmanas.
-6. Klicka på knappen "Stäng" för att stänga dialogrutan Namnhanterare.
+## **Ta bort namngivet område i MS Excel**
+
+För att ta bort ett namngivet område från Excel kan du följa dessa steg:
+1. Öppna Microsoft Excel och öppna arbetsboken som innehåller det namngivna området.
+2. Gå till fliken "Formler" i Excel-ribbonen.
+3. Klicka på knappen "Namnhanterare" i gruppen "Definierade namn". Detta öppnar dialogrutan för Namnhanterare.
+4. I dialogrutan för Namnhanterare väljer du det namngivna området du vill ta bort.
+5. Klicka på knappen "Ta bort". Bekräfta borttagningen vid behov.
+6. Klicka på knappen "Stäng" för att stänga dialogrutan för Namnhanterare.
 7. Spara arbetsboken för att behålla ändringarna.
 
 
-##  ** Tar bort Named Range med Aspose.Cells för .Net**
- Med Aspose.Cells för .Net kan du ta bort namngivna intervall eller definierade namn genom att[text](https://reference.aspose.com/cells/net/aspose.cells/namecollection/remove/#remove) eller[index](https://reference.aspose.com/cells/net/aspose.cells/namecollection/removeat/#removeat) i listan.
+## **Tar bort namngivet område med Aspose.Cells for .Net**
+Med Aspose.Cells for .Net kan du ta bort namngivna områden eller definierade namn genom [text](https://reference.aspose.com/cells/net/aspose.cells/namecollection/remove/#remove) eller [index](https://reference.aspose.com/cells/net/aspose.cells/namecollection/removeat/#removeat) i listan.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-named-range.cs" >}}
 
-Obs: om det definierade namnet refereras av formler, kunde det inte tas bort . Vi kan bara ta bort formeln för det definierade namnet.
+Observera: Om det definierade namnet används av formler kan det inte tas bort. Vi kan bara ta bort formeln för det definierade namnet.
 
-##  **Tar bort några namngivna intervall**
-När vi tar bort ett definierat namn måste vi kontrollera om det refereras av alla formler i filen.
-För att förbättra prestanda för att ta bort namngivna intervall kan vi ta bort några tillsammans.
+## **Tar bort vissa namngivna områden**
+När vi tar bort ett definierat namn måste vi kontrollera om det används av alla formler i filen.
+För att förbättra prestandan för att ta bort namngivna områden kan vi ta bort vissa tillsammans.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-named-ranges.cs" >}}
 
-##  **Ta bort dubbletter av definierade namn**
-Vissa Excel-filer är korrupta eftersom vissa definierade namn är dubbletter. Så vi kan ta bort dessa dubblettnamn för att reparera filen.
+## **Ta bort dubbla definierade namn**
+Vissa Excel-filer korrumperas eftersom vissa definierade namn är dubletter. Så vi kan ta bort dessa dubbla namn för att reparera filen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-duplicate-defined-names.cs" >}}
 

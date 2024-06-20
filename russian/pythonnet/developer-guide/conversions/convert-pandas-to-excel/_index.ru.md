@@ -1,28 +1,29 @@
 ---
-title: Преобразование DataFrame Pandas в Excel
+title: Преобразовать объект DataFrame Pandas в Excel
 type: docs
 weight: 30
 url: /ru/python-net/convert-pandas-dataframe-to-excel/
-description: Преобразуйте Pandas в Excel, используя Aspose.Cells for Python via .NET API.
-keywords: Python Convert Pandas DataFrame to Excel, Import Pandas DataFrame to Excel in Python via NET, Python Convert Pandas DataFrame to xlsx, Load for import Pandas DataFrame to Excel.
+description: Преобразовать Pandas в Excel с помощью Aspose.Cells для Python via .NET API.
+keywords: Преобразование DataFrame Pandas в Excel, Импорт DataFrame Pandas в Excel в Python via NET, Преобразование DataFrame Pandas в xlsx в Python, Загрузка для импорта DataFrame Pandas в Excel.
 ---
+
 {{% alert color="primary" %}}
 
-Используя Aspose.Cells for Python via .NET API, вы можете конвертировать DataFrame pandas в Excel, OpenOffice, Pdf, Json и многие другие форматы.
+Используя Aspose.Cells для Python via .NET API, вы можете преобразовать объект DataFrame Pandas в Excel, OpenOffice, Pdf, Json и многие другие форматы.
 
 {{% /alert %}}
 
-##  **Преобразование Pandas DataFrame в Excel через данные json**
-Вот пример фрагмента кода, демонстрирующий, как импортировать данные из DataFrame pandas в файл Excel, используя Aspose.Cells for Python via .NET:
+## **Преобразовать объект DataFrame Pandas в Excel через данные JSON**
+Вот пример фрагмента кода для демонстрации способа импорта данных из DataFrame pandas в файл Excel с использованием Aspose.Cells для Python via .NET:
 1. Создайте образец данных DataFrame pandas.
 1. Используйте библиотеку pandas для преобразования данных DataFrame в данные JSON.
-1. Импортируйте данные JSON, используя Aspose.Cells for Python via .NET.
+1. Импортируйте данные JSON, используя Aspose.Cells для Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-by-json.py" >}}
 
-##  **Преобразование DataFrame Pandas в Excel напрямую**
-Вот пример фрагмента кода, демонстрирующий, как импортировать данные из DataFrame pandas в файл Excel, используя Aspose.Cells for Python via .NET:
+## **Преобразуйте DataFrame Pandas непосредственно в Excel**
+Вот пример фрагмента кода для демонстрации способа импорта данных из DataFrame pandas в файл Excel с использованием Aspose.Cells для Python via .NET:
 1. Создайте образец данных DataFrame pandas.
-1. Пройдите DataFrame и импортируйте данные, используя Aspose.Cells for Python via .NET.
+1. Обойдите DataFrame и импортируйте данные с использованием Aspose.Cells для Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-directly.py" >}}

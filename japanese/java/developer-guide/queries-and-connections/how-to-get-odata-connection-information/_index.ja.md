@@ -1,16 +1,17 @@
-﻿---
-title: OData 接続情報を取得する方法
+---
+title: OData接続情報を取得する方法
 type: docs
 weight: 60
 url: /ja/java/how-to-get-odata-connection-information/
 ---
-## **OData 接続情報を取得する**
 
-開発者が Excel ファイルから OData 情報を抽出する必要がある場合があります。 Aspose.Cells は[**Workbook.DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup)Excel ファイルに存在する DataMashup 情報を返すプロパティ。この情報は、DataMashup クラスによって表されます。 DataMashup クラスは、PowerQueryFormulaColllction コレクションを返す PowerQueryFormulas プロパティを提供します。 PowerQueryFormulaColllction から、PowerQueryFormula と PowerQueryFormulaItem にアクセスできます。
+## **OData接続情報を取得**
 
-次のコード スニペットは、これらのクラスを使用して OData 情報を取得する方法を示しています。
+開発者がExcelファイルからOData情報を取り出す必要がある場合があります。Aspose.Cellsは、Excelファイルに含まれるDataMashup情報を返す[**Workbook.DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup)プロパティを提供します。この情報はDataMashupクラスで表されます。DataMashupクラスにはPowerQueryFormulasプロパティがあり、これはPowerQueryFormulaCollctionコレクションを返します。PowerQueryFormulaCollctionからPowerQueryFormulaとPowerQueryFormulaItemにアクセスできます。
 
-次のコード スニペットで使用されているソース ファイルは、参照用に添付されています。
+次のコードスニペットは、これらのクラスを使用してOData情報を取得する方法を示しています。
+
+以下のコードスニペットで使用されるソースファイルは参照用に添付されています。
 
 [ソースファイル](ODataSample.xlsx)
 
@@ -20,12 +21,16 @@ url: /ja/java/how-to-get-odata-connection-information/
 
 ### **コンソール出力**
 
-接続名: 注文
+{{< highlight java >}}
 
-名前: ソース
+Connection Name: Orders
 
-値: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
+Name: Source
 
-名前: Orders_table
+Value: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
 
-値: ソース{[名前="注文",署名="テーブル"]}[データ]
+Name: Orders_table
+
+Value: Source{[Name="Orders",Signature="table"]}[Data]
+
+{{< /highlight >}}

@@ -1,28 +1,29 @@
-﻿---
-title: Çalışma Kitaplarını Koruma ve Korumayı Kaldırma
+---
+title: Çalışma Kitaplarını Koruma ve Korumasını Kaldırma
 type: docs
 weight: 20
 url: /tr/net/protecting-and-unprotecting-workbooks/
 ---
+
 {{% alert color="primary" %}} 
 
-Birinin çalışma sayfalarını yanlışlıkla veya kasıtlı olarak değiştirmesini, taşımasını veya silmesini önlemek için, çalışma kitabı öğelerini parolayla veya parola olmadan koruyabilirsiniz. Bir çalışma kitabının yapısını korumak için çalışma kitabındaki çalışma sayfalarının taşınması, silinmesi, gizlenmesi, gösterilmesi veya yeniden adlandırılması ve yeni çalışma sayfalarının eklenmemesi için, ProtectionType'ı Yapı olarak belirtin.
+Kullanıcıların çalışma sayfalarını yanlışlıkla veya kasıtlı olarak değiştirmesini, taşımasını veya silmesini engellemek için çalışma kitabı öğelerini şifreleyebilirsiniz. Yeni çalışma sayfaları eklenmeyip, taşınamayan, silinemeyen, gizlenemeyen veya yeniden adlandırılamayan bir çalışma kitabının yapısını korumak için KorumaTürünü belirtin.
 
- Çalışma kitabı her açıldığında aynı boyut ve konumda olacak şekilde Windows'i korumak için, ProtectionType'ı Windows olarak belirtin. Bu makalede, nasıl yapılacağını gösteriyoruz.[korumak](/cells/tr/net/protecting-and-unprotecting-workbooks/) ve[korumayı kaldırmak](/cells/tr/net/protecting-and-unprotecting-workbooks/) iki yöntemi karşılaştırmanıza izin vermek için VSTO ve Aspose.Cells for .NET kullanan çalışma kitapları.
+Çalışma kitaplarınızı korumak ve korumayı kaldırmak için VSTO ve Aspose.Cells for .NET kullanarak iki yöntemi karşılaştırabilmeniz için [koruma](/cells/tr/net/protecting-and-unprotecting-workbooks/) ve [korumayı kaldırma](/cells/tr/net/protecting-and-unprotecting-workbooks/) yöntemlerini nasıl göstereceğimizi gösteren paralel kod parçalarını aşağıda bulabilirsiniz.
 
-Aspose.Cells, Microsoft Ofis Otomasyonundan bağımsız olarak çalışır ve kullanımı kolay ve düzgün kod üretecek şekilde geliştirilmiştir.
+Aspose.Cells, Microsoft Office Otomasyonundan bağımsız olarak çalışır ve kullanımı kolay olacak şekilde geliştirilmiştir ve temiz kod üretir.
 
-Bir çalışma kitabının korunması, kullanıcıların hücreleri düzenlemesini engellemez. Verileri korumak için çalışma sayfalarını korumanız gerekir.
+Bir çalışma kitabını korumak, kullanıcıların hücreleri düzenlemesini durdurmaz. Verileri korumak için çalışma sayfalarını korumalısınız.
 
 {{% /alert %}} 
-## **Çalışma Kitabını Koruma**
-Mevcut bir Microsoft Excel dosyasını açmak için çalışma kitabını yapı ve Windows öznitelikleri ile koruyun ve dosyayı kaydedin.
+## **Bir Çalışma Kitabını Koruma**
+Var olan bir Microsoft Excel dosyasını açın, çalışma kitabını yapı ve Windows özellikleriyle koruyun ve dosyayı kaydedin.
 
-Aşağıda, bir çalışma kitabının nasıl korunacağını gösteren VSTO (C#, VB) ve Aspose.Cells for .NET (C#, VB) için paralel kod parçacıkları bulunmaktadır.
+Bir çalışma kitabını korumanın nasıl yapıldığını gösteren VSTO (C#, VB) ve Aspose.Cells for .NET (C#, VB) üzerinde paralel kod parçaları aşağıda verilmiştir.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -80,7 +81,7 @@ excelApp.Quit();
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -110,12 +111,12 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 
 {{< /highlight >}}
-## **Bir Çalışma Kitabının Korumasını Kaldırmak**
-Bir çalışma kitabının korumasını kaldırmak için VSTO (C#, VB) ve Aspose.Cells for .NET (C#, VB) için aşağıdaki kod satırlarını kullanın.
+## **Bir Çalışma Kitabını Korumasız Bırakma**
+Bir çalışma kitabını korumasız bırakmak için VSTO (C#, VB) ve Aspose.Cells for .NET (C#, VB) için aşağıdaki kod satırlarını kullanın.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 
@@ -129,7 +130,7 @@ excelApp.ActiveWorkbook.Unprotect("007");
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 

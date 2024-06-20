@@ -1,15 +1,16 @@
-﻿---
+---
 title: 小計の計算
 type: docs
 weight: 10
 url: /ja/net/calculate-sub-totals/
 ---
+
 ## **Aspose.Cells - 小計の計算**
-スプレッドシートで繰り返される値の小計を自動的に作成できます。 Aspose.Cells は、小計をプログラムでスプレッドシートに追加するのに役立つ API 機能を提供します。
+スプレッドシート内の繰り返し値に自動的に小計を作成できます。Aspose.Cellsには、スプレッドシートに小計をプログラムで追加するのに役立つAPI機能が備わっています。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -35,20 +36,20 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[]{ 1 });
+cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
 
 //Save the excel file
 
 workbook.Save("AsposeTotal.xls"); 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**小計の計算**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下に記載されているソーシャルコーディングサイトのいずれかから**小計の計算**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[小計の作成](/cells/ja/net/creating-subtotals/).
+詳細については、[サブトータルの作成](/cells/ja/net/creating-subtotals/)をご覧ください。
 
 {{% /alert %}}

@@ -1,35 +1,36 @@
-﻿---
-title: Управление метками данных диаграмм Excel
+---
+title: Управление DataLabels диаграмм Excel
 linktitle: Метки данных
 type: docs
 weight: 50
 url: /ru/java/insert-datalabels-to-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Метки данных — важная часть диаграммы.
-Мы можем легко узнать значение, процент и т. д. каждой серии.
+Метки данных - важная часть диаграммы.
+Мы легко можем узнать значение, процент и т. д. каждого ряда
 
 {{% /alert %}}
 
-## **Параметры меток данных**
- Aspose.Cells также позволяет управлять метками данных диаграммы во время выполнения с помощью[Метки данных](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabels) объект, легко перемещать, обновлять и форматировать метки данных диаграммы.
+## **Опции меток данных**
+Aspose.Cells также позволяет управлять метками данных диаграммы во время выполнения, с помощью объекта [DataLabels](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabels) просто перемещать, обновлять и форматировать метки данных диаграммы.
 
-|![дело:изображение_альтернативный_текст](chart_datalabels.png)|
+|![todo:image_alt_text](chart_datalabels.png)|
 
 ## **Управление метками данных диаграммы**
- Легко управлять метками данных диаграммы с Aspose.Cells[Метки данных](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabels).
+Просто управляйте метками данных диаграммы с помощью [DataLabels](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabels) Aspose.Cells.
 
-В следующем фрагменте кода показано, как управлять метками данных:
+Следующий фрагмент кода демонстрирует, как управлять метками данных:
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "chart_datalabels.java" >}}
 
-## **Предварительные темы**
-- [Добавление пользовательских меток к точкам данных в серии диаграммы](/cells/ru/java/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)
-- [Отключить перенос текста для меток данных диаграммы](/cells/ru/java/disable-text-wrapping-for-data-labels-of-the-chart/)
-- [Прочитайте метки осей после расчета диаграммы](/cells/ru/java/read-axis-labels-after-calculating-the-chart/)
-- [Изменить размер формы метки данных диаграммы, чтобы она соответствовала тексту](/cells/ru/java/resize-chart-s-data-label-shape-to-fit-text/)
-- [Пользовательская метка данных Rich Text для точки диаграммы](/cells/ru/java/rich-text-custom-data-label-of-chart-point/)
-- [Установите тип формы меток данных диаграммы](/cells/ru/java/set-the-shape-type-of-data-labels-of-chart/)
-- [Отображение диапазона Cell в виде меток данных](/cells/ru/java/showing-cell-range-as-the-data-labels/)
+## **Продвинутые темы**
+- [Добавление пользовательских меток к данным точек в серии диаграммы](/cells/ru/java/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)
+- [Отключение переноса текста для меток данных диаграммы](/cells/ru/java/disable-text-wrapping-for-data-labels-of-the-chart/)
+- [Чтение меток оси после вычисления диаграммы](/cells/ru/java/read-axis-labels-after-calculating-the-chart/)
+- [Изменение формы метки данных диаграммы для подгонки текста](/cells/ru/java/resize-chart-s-data-label-shape-to-fit-text/)
+- [Настройка метки данных диаграммы точки с использованием разностных стилей](/cells/ru/java/rich-text-custom-data-label-of-chart-point/)
+- [Установка типа формы меток данных диаграммы](/cells/ru/java/set-the-shape-type-of-data-labels-of-chart/)
+- [Показ диапазона ячеек в качестве меток данных](/cells/ru/java/showing-cell-range-as-the-data-labels/)

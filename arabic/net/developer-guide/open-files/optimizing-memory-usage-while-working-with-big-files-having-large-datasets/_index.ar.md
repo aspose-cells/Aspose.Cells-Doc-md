@@ -1,35 +1,36 @@
-﻿---
-title: تحسين استخدام الذاكرة أثناء العمل مع الملفات الكبيرة التي تحتوي على مجموعات بيانات كبيرة
+---
+title: تحسين استخدام الذاكرة أثناء العمل مع ملفات كبيرة تحتوي على مجموعات بيانات كبيرة
 type: docs
 weight: 180
 url: /ar/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/
 ---
+
 {{% alert color="primary" %}}
 
-عند إنشاء مصنف بمجموعات بيانات كبيرة ، أو قراءة ملف إكسل Microsoft كبير ، فإن الحجم الإجمالي لذاكرة الوصول العشوائي التي ستستغرقها العملية دائمًا ما يكون مصدر قلق. هناك تدابير يمكن تكييفها لمواجهة التحدي. يوفر Aspose.Cells بعض الخيارات ذات الصلة ومكالمات API لخفض وتقليل وتحسين استخدام الذاكرة. أيضًا ، يمكن أن يساعد العملية على العمل بكفاءة أكبر وتشغيل أسرع.
+عند بناء دفتر عمل مع مجموعات بيانات كبيرة، أو قراءة ملف Microsoft Excel كبير، يكون المبلغ الإجمالي لذاكرة الوصول العشوائي التي سيستغرقها العملية دائمًا محل اهتمام. هناك إجراءات يمكن اعتمادها للتعامل مع التحدي. يوفر Aspose.Cells بعض الخيارات القابلة للتكيف واستدعاءات واجهة برمجة التطبيقات ذات الصلة لتقليل وتقليل وتحسين استخدام الذاكرة. بالإضافة إلى ذلك، يمكن أن يساعد في جعل العملية تعمل بكفاءة أكبر وتشغيلها بصورة أسرع.
 
- استخدم ال[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)خيار لتحسين استخدام الذاكرة لبيانات الخلايا وتقليل التكلفة الإجمالية للذاكرة. عند إنشاء مجموعة بيانات كبيرة للخلايا ، يمكنها توفير قدر معين من الذاكرة مقارنة باستخدام الإعداد الافتراضي ([**إعداد الذاكرة**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
+استخدام الخيار [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) لتحسين استخدام الذاكرة لبيانات الخلايا وتقليل التكلفة الإجمالية للذاكرة. عند بناء مجموعة بيانات كبيرة للخلايا، يمكن أن يوفر مبلغًا معينًا من الذاكرة بالمقارنة بالاستخدام الافتراضي ([**MemorySetting.Normal**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
 
 {{% /alert %}}
 
 ## **تحسين الذاكرة**
 
-### **قراءة ملفات إكسل الكبيرة**
+### **قراءة ملفات Excel الكبيرة**
 
-يوضح المثال التالي كيفية قراءة ملف Excel كبير Microsoft في الوضع الأمثل.
+توضح المثال التالي كيفية قراءة ملف إكسل كبير بوضع محسن.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-OptimizingMemoryUsage-ReadingLargeExcelFiles-1.cs" >}}
 
-### **كتابة ملفات إكسل كبيرة**
+### **كتابة ملفات إكسيل الكبيرة**
 
-يوضح المثال التالي كيفية كتابة مجموعة بيانات كبيرة إلى ورقة عمل في وضع محسن.
+المثال التالي يوضح كيفية كتابة مجموعة بيانات كبيرة إلى ورقة عمل بوضع محسن.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-OptimizingMemoryUsage-WritingLargeExcelFiles-1.cs" >}}
 
-## **الحذر**
+## **احترس**
 
- الخيار الافتراضي ،[**إعداد الذاكرة**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)يتم تطبيقه على جميع الإصدارات. بالنسبة لبعض المواقف ، مثل إنشاء مصنف بمجموعة بيانات كبيرة للخلايا ، فإن ملف[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)الخيار قد يحسن استخدام الذاكرة ويقلل من تكلفة الذاكرة للتطبيق. ومع ذلك ، قد يؤدي هذا الخيار إلى تدهور الأداء في بعض الحالات الخاصة مثل المتابعة.
+الخيار الافتراضي، [**MemorySetting.Normal**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) يُطبق على جميع الإصدارات. لبعض الحالات، مثل بناء جدول عمل مع مجموعة بيانات كبيرة للخلايا، يمكن أن يُحسن الخيار [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) استخدام الذاكرة ويُقلل من تكلفة الذاكرة للتطبيق. ومع ذلك، قد يُتدنى أداء هذا الخيار في بعض الحالات الخاصة مثلما يلي.
 
-1. **يتم الدخول على Cells بشكل عشوائي ومتكرر** : التسلسل الأكثر فاعلية للوصول إلى مجموعة الخلايا هو خلية بخلية في صف واحد ، ثم صفًا بصف. على وجه الخصوص ، إذا قمت بالوصول إلى الصفوف / الخلايا التي تم الحصول عليها من Enumerator[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells), [**مجموعة RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection) و[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row) ، سيتم تعظيم الأداء مع[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting).
-1. **إدراج وحذف Cells الصفوف** : يرجى ملاحظة أنه إذا كان هناك الكثير من عمليات الإدراج / الحذف لـ Cells / Rows ، فسيكون تدهور الأداء ملحوظًا في*الذاكرة التفضيل* الوضع بالمقارنة مع*طبيعي*الوضع.
-1. **تعمل بأنواع Cell مختلفة** : إذا كانت معظم الخلايا تحتوي على قيم سلسلة أو صيغ ، فستكون تكلفة الذاكرة هي نفسها*طبيعي* الوضع ولكن إذا كان هناك عدد كبير من الخلايا الفارغة ، أو إذا كانت قيم الخلايا رقمية أو منطقية وما إلى ذلك ، فإن ملف[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)سيعطي الخيار أداء أفضل.
+1. **الوصول العشوائي والمتكرر إلى الخلايا**: أكثر تسلسل فعالية للوصول إلى مجموعة الخلايا هو الخلية بالخلية في صف واحد، ثم صف بعد صف. خاصة إذا أمكنك الوصول إلى الصفوف/الخلايا من خلال المدرج المصرف من [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)، [**RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection) و [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row)، سيتم تحقيق أقصى أداء مع [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting).
+1. **إدراج وحذف الخلايا والصفوف**: يرجى ملاحظة أنه إذا كانت هناك الكثير من عمليات الإدراج/الحذف للخلايا/الصفوف، سيكون التدهور في الأداء ملحوظًا في وضع *تفضيل الذاكرة* مقارنةً بوضع *طبيعي*.
+1. **العمل على أنواع الخلايا المختلفة**: إذا كانت معظم الخلايا تحتوي على قيم سلسلة أو صيغًا، ستكون تكلفة الذاكرة نفسها كوضع *طبيعي* ولكن إذا كانت هناك الكثير من الخلايا الفارغة، أو قيم الخلايا تكون رقمية، بولية وما إلى ذلك، فإن الخيار [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) سيمنح أداءً أفضل.

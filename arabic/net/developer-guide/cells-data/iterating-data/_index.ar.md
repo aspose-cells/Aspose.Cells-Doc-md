@@ -1,84 +1,85 @@
 ---
-title: كيف وأين يتم استخدام العدادين
+title: كيف وأين يتم استخدام معدلات الإحصاء
 linktitle: تكرار البيانات
 type: docs
 weight: 55
 url: /ar/net/how-and-where-to-use-enumerators/
-description: تعرف على كيفية ومكان استخدام العدادين من خلال Aspose.Cells for .NET API.
-keywords: How to use Enumerators, Cells Enumerator, Rows Enumerator, Columns Enumerator
+description: تعلم كيف وأين يتم استخدام المعدلات الإحصائية من خلال واجهة البرمجة التطبيقية Aspose.Cells for .NET.
+keywords: كيفية استخدام المعدلات الإحصائية، معدل الخلايا، معدل الصفوف، معدل الأعمدة
 ---
+
 {{% alert color="primary" %}}
 
-العداد هو كائن يوفر القدرة على اجتياز حاوية أو مجموعة. يمكن استخدام العدادات لقراءة البيانات الموجودة في المجموعة، ولكن لا يمكن استخدامها لتعديل المجموعة الأساسية، في حين أن IEnumerable عبارة عن واجهة تحدد طريقة واحدة GetEnumerator والتي ترجع واجهة IEnumerator، وهذا بدوره يسمح بالوصول للقراءة فقط إلى مجموعة.
+المعدل هو كائن يوفر القدرة على عبور حاوية أو مجموعة. يمكن استخدام المعدلات الإحصائية لقراءة البيانات في المجموعة، ولكن لا يمكن استخدامها لتعديل المجموعة الأساسية. بينما IEnumerable هو واجهة تحدد أحد الأساليب GetEnumerator التي تعيد واجهة IEnumerator، وهذا، بدوره، يسمح بالوصول القراءة فقط إلى مجموعة.
 
-توفر واجهات برمجة التطبيقات Aspose.Cells مجموعة من العدادين، ومع ذلك، تناقش هذه المقالة بشكل أساسي الأنواع الثلاثة كما هو موضح أدناه.
+توفر واجهات برمجة تطبيقات Aspose.Cells مجموعة من المعدلات الإحصائية، ومع ذلك، يناقش هذا المقال بشكل رئيسي الثلاثة أنواع المذكورة أدناه.
 
-1. Cells عداد
-1. عداد الصفوف
-1. عداد الأعمدة
+1. معدل الخلايا
+1. معدل الصفوف
+1. معدل الأعمدة
 
 {{% /alert %}}
 
-##  **كيفية استخدام التعداد**
+## **كيفية استخدام المعدلات الإحصائية**
 
-###  **Cells عداد**
+### **معدل الخلايا**
 
-هناك طرق مختلفة للوصول إلى عداد Cells، ويمكن استخدام أي من هذه الطرق بناءً على متطلبات التطبيق. فيما يلي الطرق التي تقوم بإرجاع عداد الخلايا.
+هناك طرق مختلفة للوصول إلى معدل الخلايا، ويمكن للشخص استخدام أيًا من هذه الطرق استنادًا إلى متطلبات التطبيق. هنا الطرق التي تُرجع معدل الخلايا.
 
 1. [**Cells.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getenumerator)
 1. [**Row.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/getenumerator)
 1. [**Range.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/getenumerator)
 
-تقوم جميع الطرق المذكورة أعلاه بإرجاع العداد الذي يسمح باجتياز مجموعة الخلايا التي تمت تهيئتها.
+تعود الطرق المذكورة أعلاه جميعًا بمُحدِّد العناصر الذي يسمح بجَولة جمعية الخلايا التي تم تهيئتها.
 
 {{% alert color="primary" %}}
 
-أثناء اجتياز الخلايا، لا ينبغي تعديل المجموعة (العمليات التي ستتسبب في إنشاء مثيل Cell الجديد أو حذف Cell الموجود). بخلاف ذلك، قد لا يتمكن العداد من اجتياز جميع الخلايا بشكل صحيح (قد يتم اجتياز بعض العناصر بشكل متكرر أو تخطيها).
+أثناء جولة الخلايا، يجب ألا يتم تعديل المجموعة (العمليات التي ستؤدي إلى إنشاء خلية جديدة أو حذف خلية موجودة). وإلا فإن المُحدِّد قد لا يكون قادرًا على جولة جميع الخلايا بشكل صحيح (قد يكون بعض العناصر قد تجولت بشكل متكرر أو تم تخطيها).
 
 {{% /alert %}}
 
-يوضح مثال التعليمات البرمجية التالي تنفيذ واجهة IEnumerator لمجموعة Cells.
+يُظهر المثال البرمجي التالي تنفيذ واجهة IEnumerator لمجموعة الخلايا.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-CellsEnumerator.cs" >}}
 
-###  **عداد الصفوف**
+### **مُحدِّد الصفوف**
 
- يمكن الوصول إلى عداد الصفوف أثناء استخدام[**RowCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection/methods/getenumerator) طريقة. يوضح مثال التعليمات البرمجية التالي تطبيق واجهة IEnumerator لـ[**RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection).
+يمكن الوصول إلى مُحدِّد الصفوف أثناء استخدام الطريقة [**RowCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection/methods/getenumerator). يُظهر المثال البرمجي التالي تنفيذ واجهة IEnumerator لـ [**RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-RowEnumerator.cs" >}}
 
-###  **عداد الأعمدة**
+### **مُحدِّد الأعمدة**
 
- يمكن الوصول إلى عداد الأعمدة أثناء استخدام[**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection) طريقة. يوضح مثال التعليمات البرمجية التالي تطبيق واجهة IEnumerator لـ[**ColumnCollection**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
+يمكن الوصول إلى مُحدِّد الأعمدة أثناء استخدام الطريقة [**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection). يُظهر المثال البرمجي التالي تنفيذ واجهة IEnumerator لـ [**ColumnCollection**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-ColumnEnumerator.cs" >}}
 
-##  **أين يمكن استخدام العدادات**
+## **أين يجب استخدام المُحدِّدات**
 
-من أجل مناقشة مزايا استخدام العدادين، دعونا نأخذ مثالا في الوقت الحقيقي.
+لنناقش فوائد استخدام المُحدِّدات، دعونا نأخذ مثالًا واقعيًا.
 
 **سيناريو**
 
- شرط التطبيق هو اجتياز جميع الخلايا في معين[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)لقراءة قيمهم. يمكن أن يكون هناك عدة طرق لتنفيذ هذا الهدف. يتم عرض عدد قليل أدناه.
+متطلبات التطبيق تتطلب جولة جميع الخلايا في [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) معينة لقراءة قيمها. يمكن تنفيذ هذا الهدف بعدة طرق. يُظهر بعضها أدناه.
 
-###  **استخدام نطاق العرض**
+### **استخدام نطاق العرض**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingDisplayRange.cs" >}}
 
-###  **باستخدام MaxDataRow وMaxDataColumn**
+### **استخدام MaxDataRow و MaxDataColumn**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingMaxDataRowAndMaxDataColumn.cs" >}}
 
-كما يمكنك ملاحظة أن كلا النهجين المذكورين أعلاه يستخدمان منطقًا مشابهًا إلى حد ما، أي؛ قم بالتكرار فوق جميع الخلايا في المجموعة لقراءة قيم الخلية. قد يكون هذا مشكلة لعدد من الأسباب كما هو موضح أدناه.
+كما يمكنك أن تلاحظ أن كلتا الطريقتين المذكورتين تستخدمان تقريبًا نفس المنطق، وهو: الدوران حول جميع الخلايا في المجموعة لقراءة قيم الخلايا. قد يكون هذا مشكلة لعدة أسباب كما سيتم مناقشتها أدناه.
 
-1.  واجهات برمجة التطبيقات مثل[**ماكس رو**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxrow), [**MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow), [**MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxcolumn), [**MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) & [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)تتطلب وقتًا إضافيًا لجمع الإحصائيات المقابلة. في حالة كون مصفوفة البيانات (صفوف × أعمدة) كبيرة، فإن استخدام واجهات برمجة التطبيقات هذه قد يفرض عقوبة على الأداء.
-1. في معظم الحالات، لا يتم إنشاء مثيل لجميع الخلايا في نطاق معين. في مثل هذه المواقف، لا يكون فحص كل خلية في المصفوفة فعالاً مقارنةً بفحص الخلايا التي تمت تهيئتها فقط.
-1. سيؤدي الوصول إلى خلية في حلقة كصف Cells وعمود إلى إنشاء مثيل لجميع كائنات الخلية في النطاق، مما قد يؤدي في النهاية إلى OutOfMemoryException.
+1. تتطلب واجهات برمجة التطبيقات مثل [**MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxrow)، [**MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow)، [**MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxcolumn)، [**MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) و [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) وقت إضافي لجمع الإحصاءات المقابلة. في حالة كانت المصفوفة البيانات (صفوف × أعمدة) كبيرة، فإن استخدام هذه الواجهات قد يفرض عقوبة أداء.
+1. في معظم الحالات، لا تتم إنشاء جميع الخلايا في النطاق المعطى. في مثل هذه الحالات، فحص كل خلية في البيانات ليس فعَّالًا كمقارنة بفحص الخلايا المهيئة فقط.
+1. الوصول إلى خلية في حلقة مثل Cells row، column سيؤدي إلى إنشاء جميع كائنات الخلايا في النطاق، مما قد يؤدي في النهاية إلى حدوث استثناء نفاد الذاكرة.
 
-##  **خاتمة**
+## **الاستنتاج**
 
-بناءً على الحقائق المذكورة أعلاه، فيما يلي السيناريوهات المحتملة التي ينبغي فيها استخدام القائمين بالتعداد.
+بناءً على الحقائق المذكورة أعلاه، فإن السيناريوهات الممكنة التالية هي التي يجب استخدام المُحدِّدات فيها.
 
-1. مطلوب الوصول للقراءة فقط لمجموعة الخلايا، وهذا هو؛ الشرط هو فحص الخلايا فقط.
-1. يجب اجتياز عدد كبير من الخلايا.
-1. فقط الخلايا/الصفوف/الأعمدة التي تم تهيئتها سيتم اجتيازها.
+1. الوصول القراءة فقط لمجموعة الخلايا مطلوب، أي؛ المتطلب هو تفقّد الخلايا فقط.
+1. يتعين عبور عدد كبير من الخلايا.
+1. يجب عبور الخلايا/الصفوف/الأعمدة المهيأة فقط.

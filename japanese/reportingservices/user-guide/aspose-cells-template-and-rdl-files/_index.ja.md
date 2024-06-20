@@ -1,13 +1,14 @@
-﻿---
-title: Aspose.Cells テンプレートと RDL ファイル
+---
+title: Aspose.Cells テンプレートおよび RDL ファイル
 type: docs
 weight: 40
 url: /ja/reportingservices/aspose-cells-template-and-rdl-files/
 ---
+
 {{% alert color="primary" %}} 
 
-レポート定義には、レポートのデータ取得およびレイアウト情報が含まれています。レポート定義言語 (RDL) は、レポート定義の XML 表現です。 RDL はオープン スキーマです。開発者は追加の属性と要素を使用して RDL を拡張できます。レポート定義ファイルの標準のファイル拡張子は .rdl です。その MIME タイプは text/xml です。
+レポート定義には、レポートのデータ取得およびレイアウト情報が含まれます。レポート定義言語 (RDL) は、レポート定義のための XML 表現です。RDL はオープンスキーマです。開発者は、RDL を追加の属性や要素で拡張できます。レポート定義ファイルの標準ファイル拡張子は .rdl です。その MIME タイプは text/xml です。 
 
-Aspose.Cells テンプレートは、レポート レイアウト情報を含む Microsoft Excel ワークブックであり、テンプレートの設計作業が完了すると RDL ファイル (形式) に保存されます。 Aspose.Cells テンプレートを含まない RDL ファイルを開くと、そのデータ ソースとクエリのみが Aspose.Cells.Report.Designer で使用できます。 Aspose.Cells テンプレートを含む RDL ファイルを開くと、テンプレートが取得され、Microsoft Excel でワークブックとして開かれます。
+Aspose.Cells テンプレートは、レポートのレイアウト情報を含む Microsoft Excel ワークブックで、テンプレートの設計作業が完了したときに RDL ファイル (フォーマット) として保存されます。Aspose.Cells テンプレートを含まない RDL ファイルが開かれると、データソースおよびクエリのみが Aspose.Cells.Report.Designer で使用可能になります。Aspose.Cells テンプレートを含む RDL ファイルが開かれると、テンプレートが取得され、Microsoft Excel でワークブックとして開かれます。
 
 {{% /alert %}}

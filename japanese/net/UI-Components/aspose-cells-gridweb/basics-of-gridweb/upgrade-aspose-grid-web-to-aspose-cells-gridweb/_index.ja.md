@@ -1,40 +1,43 @@
-﻿---
-title: Aspose.Grid.Web を Aspose.Cells.GridWeb にアップグレード
+---
+title: Aspose.Grid.WebをAspose.Cells.GridWebにアップグレードする
 type: docs
 weight: 30
-url: /ja/net/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
+url: /ja/net/aspose-cells-gridweb/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
+keywords: GridWeb 
+description: この記事では、GridWebのアップグレード方法について紹介します。
 ---
-{{% alert color="primary" %}}
-
-アップグレードを容易にするために、既存のユーザー、特に古い Aspose.Grid.Web を使用していて、統合された Aspose.Cells.GridWeb にアップグレードする必要があるユーザーにとって重要な情報を説明するドキュメントを維持しています。
-
-これらは簡単なメモを目的としています。詳細については、[開発者ガイド](/cells/ja/net/developer-guide/).
-
-{{% /alert %}}
-
-## **Aspose.Cells.GridWeb へのアップグレード**
-
-Aspose.Grid.Web ユーザーが新しい Aspose.Cells.GridWeb にアップグレードすると、問題が発生する可能性があります。 Aspose.Grid.Web は名前が変更され、Aspose.Cells の一部になっていることに注意してください。そのため、古いバージョンのコントロールを継続または修正することはありません。
-
-最新の Aspose.Cells.GridWeb コンポーネントにアップグレードするのは難しくありません。
 
 {{% alert color="primary" %}}
 
-API にはいくつかの変更があります。メンバー、構造体、列挙型などを持つクラスは同じままです。ほとんどの変更は、コントロールの名前空間とその他のタグまたは属性に対して行われています。
+アップグレードを容易にするために、既存ユーザー向けに特に古いAspose.Grid.Webを使用し、Aspose.Cells.GridWebにアップグレードする必要があるユーザー向けに重要な情報を記述したドキュメントを維持しています。
+
+これらは簡単なメモのつもりであり、[開発者ガイド](/cells/ja/net/aspose-cells-gridweb/developer-guide/)のセクションを見ることでさらに情報を見つけることができるはずです。
 
 {{% /alert %}}
 
-以下は、現在変更されている名前空間のリストとその他の属性/タグです。
+## **Aspose.Cells.GridWebにアップグレードする**
 
-1. Aspose.Grid.Web 名前空間は Aspose.Cells.GridWeb に名前が変更されました。
-1. Aspose.Grid.Web.Data 名前空間は Aspose.Cells.GridWeb.Data に名前が変更されました。
-1. Aspose.Grid.Web.Design 名前空間は Aspose.Cells.GridWeb.Design に名前が変更されました。
-1. Aspose.Grid.Formula 名前空間は Aspose.Cells.GridFormula に名前が変更され、コンポーネントの最近のリリースでは、この名前空間はパブリック API から完全に削除されました。
-1. タグ agw:GridWeb は aspx 形式で acw:GridWeb に変更されました。
-1. 古い Aspose.Grid.Web クライアント パス agw_クライアント、acw に変更されました_Aspose.Cells.GridWeb のクライアント。
-1.  web.config ファイルのクライアント パス設定。例:
+Aspose.Grid.Webのユーザーは、新しいAspose.Cells.GridWebを使用する際に問題に遭遇する可能性があります。 Aspose.Grid.WebはAspose.Cellsの一部として名前が変更され、旧バージョンのコントロールの継続や修正は行わないことに留意する必要があります。 
 
-{{< highlight "java" >}}
+最新のAspose.Cells.GridWebコンポーネントへのアップグレードは難しくありません。
+
+{{% alert color="primary" %}}
+
+クラス、構造体、列挙型などのメンバーを持つAPIにはわずかな変更があります。変更の大部分はコントロールの名前空間やその他のタグまたは属性に加えられています。
+
+{{% /alert %}}
+
+以下は、変更された名前空間リストとその他の属性/タグです：
+
+1. Aspose.Grid.Web名前空間はAspose.Cells.GridWebに変更されました。
+1. Aspose.Grid.Web.Data名前空間はAspose.Cells.GridWeb.Dataに変更されました。
+1. Aspose.Grid.Web.Design名前空間はAspose.Cells.GridWeb.Designに変更されました。
+1. Aspose.Grid.Formula名前空間はAspose.Cells.GridFormulaに改名され、コンポーネントの最新リリースでは、該当する名前空間が公開APIから完全に削除されました。
+1. aspxフォーム内でagw:GridWebタグがacw:GridWebに変更されました。
+1. 以前のAspose.Grid.Webクライアントパスであるagw_clientはAspose.Cells.GridWebのためにacw_clientに変更されました。
+1. Web.configファイル内のクライアントパスの設定例： 
+
+{{< highlight java >}}
 
  <appSettings> 
 
@@ -48,9 +51,9 @@ API にはいくつかの変更があります。メンバー、構造体、列�
 
 {{< /highlight >}}
 
-に変わりました
+から 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <appSettings>
 

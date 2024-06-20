@@ -1,11 +1,12 @@
-﻿---
-title: Spesifik Metni Alın Cell
+---
+title: Belirli Hücrenin Metnini Al
 type: docs
 weight: 130
 url: /tr/net/get-text-of-specific-cell/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -45,7 +46,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the excel file path.
 
@@ -69,6 +70,6 @@ Console.ReadKey();
 
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Get.Text.of.Specific.Cell.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Get%20Text%20of%20Specific%20Cell)

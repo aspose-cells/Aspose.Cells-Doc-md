@@ -1,29 +1,30 @@
-﻿---
-title: ワークブックのカスタム数値の小数点記号とグループ区切り記号を指定する
+---
+title: ブックでのカスタム番号の小数点とグループの区切り記号を指定する
 type: docs
 weight: 110
 url: /ja/net/specify-custom-number-decimal-and-group-separators-for-workbook/
-description: Aspose.Cells for .NET API.
-keywords: specify custom decimal separator excel, specify custom decimal separator excel c#, specify custom group separator excel, specify custom group separator excel c#, specify custom decimal and group separator excel, specify custom decimal and group separator excel c#, change decimal and group separator excel c#, change decimal and group separator excel, change decimal separator excel, change decimal separator excel c#, change group separator excel, change group separator excel c#
+description: Aspose.Cells for .NETAPIを使用して、MS Excelで数値の小数点とグループの区切り記号を変更する。
+keywords: Excelの 高度なExcelオプション からシステムの区切り記号を使用する代わりに、Microsoft Excelでは、C#コードを使用してカスタムの小数点と千桁の区切り記号を指定できます（例：Aspose.Cells for .NET API）。
 ---
+
 {{% alert color="primary" %}}
 
- Microsoft Excel では、システム区切り記号を使用する代わりに、カスタムの小数点記号と桁区切り記号を指定できます。**高度な Excel オプション**下のスクリーンショットに示すように。
+Microsoft Excelでは、**その他のExcelオプション** から **詳細設定** を使用せずに、カスタムの小数点および千の区切り記号を指定できます。次のスクリーンショットでは、その手順が示されています。
 
-Aspose.Cells は[**WorkbookSettings.NumberDecimalSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numberdecimalseparator)と[**WorkbookSettings.NumberGroupSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numbergroupseparator)プロパティを使用して、数値の書式設定/解析用のカスタム セパレータを設定します。
+Aspose.Cellsは、数値のフォーマット/解析のためにカスタムセパレータを設定するための[**WorkbookSettings.NumberDecimalSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numberdecimalseparator)と[**WorkbookSettings.NumberGroupSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numbergroupseparator)プロパティを提供します。
 
 {{% /alert %}}
 
-## **Microsoft Excel を使用したカスタム セパレータの指定**
+## **Microsoft Excelを使用してカスタムセパレータを指定する**
 
-次のスクリーンショットは、**高度な Excel オプション**セクションを強調表示して、**カスタムセパレーター**.
+次のスクリーンショットは、**詳細設定** タブを示し、**カスタムセパレータ** を指定するセクションを強調しています。
 
-![todo:画像_代替_文章](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
+![todo:image_alt_text](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 
-## **Aspose.Cells を使用したカスタム セパレータの指定**
+## **Aspose.Cellsを使用してカスタムセパレータを指定する**
 
-次のサンプル コードは、Aspose.Cells API を使用してカスタム セパレータを指定する方法を示しています。これは、カスタム数値の小数点とグループ セパレータをそれぞれドットとスペースとして指定しています。
+次のサンプルコードは、Aspose.Cells APIを使用してカスタムセパレータを指定する方法を示しています。これにより、カスタム数値の10進セパレータとグループセパレータを、それぞれドットとスペースに設定します。
 
-### C# コードを使用して、カスタム数値の小数点およびグループ区切り記号を指定します
+### C#コードでカスタム数値の10進セパレータとグループセパレータを指定
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CustomDecimalAndGroupSeparator-CustomDecimalAndGroupSeparator.cs" >}}

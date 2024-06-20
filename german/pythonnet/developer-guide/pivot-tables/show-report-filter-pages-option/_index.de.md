@@ -1,21 +1,22 @@
 ---
-title: Option „Berichtsfilterseiten anzeigen“.
+title: Option für Berichtsfilterseiten anzeigen
 type: docs
 weight: 110
 url: /de/python-net/show-report-filter-pages-option/
-description: In diesem Artikel wird gezeigt, wie die Option „Berichtsfilterseiten“ mit Aspose.Cells for Python via .NET angezeigt wird.
-keywords: Show report filter pages option
+description: In diesem Artikel wird gezeigt, wie Sie die Option zum Anzeigen von Berichtsfilterseiten mit Aspose.Cells für Python via .NET aktivieren.
+keywords: Aspose.Cells für Python Excel, Excel Python Bibliothek, Option zum Anzeigen von Berichtsfilterseiten.
 ---
-##  **Option „Berichtsfilterseiten anzeigen“.**
-Excel unterstützt das Erstellen von Pivot-Tabellen, das Hinzufügen von Berichtsfiltern und die Aktivierung der Option „Berichtsfilterseiten anzeigen“. Aspose.Cells for Python via .NET unterstützt auch diese Funktion, um die Option „Berichtsfilterseiten anzeigen“ in der erstellten Pivot-Tabelle zu aktivieren. Im Folgenden sehen Sie den Bildschirm mit der Option „Berichtsfilterseiten anzeigen“ in Excel.
+
+## **Wie man die Option zum Anzeigen von Berichtsfilterseiten aktiviert**
+Excel unterstützt das Erstellen von Pivot-Tabellen, das Hinzufügen von Berichtsfiltern und das Aktivieren der Option "Berichtsfilterseiten anzeigen". Aspose.Cells für Python via .NET unterstützt auch diese Funktion zum Aktivieren der Option "Berichtsfilterseiten anzeigen" in der erstellten Pivot-Tabelle. Der folgende Screenshot zeigt die Option "Berichtsfilterseiten anzeigen" in Excel.
 
 ![todo:image_alt_text](show-report-filter-pages-option_1.png)
 
-Beispielquelldatei und Ausgabedateien können hier heruntergeladen werden, um den Beispielcode zu testen:
+Die Beispieldatei und die Ausgabedateien können von hier heruntergeladen werden, um den Beispielcode zu testen:
 
-` `[Quell-Excel-Datei](81920786.xlsx) 
+[Quelldatei Excel](81920786.xlsx) 
 
-[Excel-Datei ausgeben](81920787.xlsx)
+[Ausgabedatei Excel](81920787.xlsx)
 
 
 

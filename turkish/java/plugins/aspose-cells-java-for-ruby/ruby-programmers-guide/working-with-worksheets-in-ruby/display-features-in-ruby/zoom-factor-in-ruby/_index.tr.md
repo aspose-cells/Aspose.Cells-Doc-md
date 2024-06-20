@@ -1,15 +1,16 @@
-﻿---
-title: Ruby'de Yakınlaştırma Faktörü
+---
+title: Ruby de Yakınlaştırma Faktörü
 type: docs
 weight: 90
 url: /tr/java/zoom-factor-in-ruby/
 ---
+
 ## **Aspose.Cells - Yakınlaştırma Faktörü**
- kullanarak Yakınlaştırma Faktörünü ayarlamak için**Yakut için Aspose.Cells Java** , sadece çağırmak**Yakınlaştırma Faktörü** modül.
+Yakınlaştırma Faktörünü **Aspose.Cells Java for Ruby** kullanarak ayarlamak için, **ZoomFactor** modülünü basitçe çağırın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -35,6 +36,6 @@ puts "Set zoom factor, please check the output file."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Yakınlaştırma Faktörü (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+İndirin **Yakınlaştırma Faktörü (Aspose.Cells)** any of the aşağıda bahsedilen sosyal kodlama sitelerinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/zoomfactor.rb)

@@ -1,16 +1,17 @@
-﻿---
-title: Skicka form fram eller bak i arbetsbladet
+---
+title: Skicka form framåt eller bakåt inne i Arbetsbladet
 type: docs
 weight: 600
 url: /sv/java/send-shape-front-or-back-inside-the-worksheet/
 ---
-## **Möjliga användningsscenarier**
 
-När det finns flera former på samma plats avgörs hur de kommer att synas av deras z-ordningspositioner. Aspose.Cells tillhandahåller[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)) metod som ändrar formens z-ordningsposition. Om du vill skicka form till baksida kommer du att använda ett negativt tal som -1, -2, -3, etc. och om du vill skicka form till framsidan kommer du att använda ett positivt tal som 1, 2, 3, etc.
+## **Möjliga användningsscenario**
 
-## **Skicka form fram eller bak i arbetsbladet**
+När det finns flera former på samma plats bestäms deras synlighet av deras z-ordningspositioner. Aspose.Cells tillhandahåller metoden [**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)) som ändrar z-positionspositionen för formen. Om du vill skicka en form bakåt kommer du att använda ett negativt nummer som -1, -2, -3 osv. och om du vill skicka en form framåt kommer du att använda ett positivt nummer som 1, 2, 3 osv.
 
-Följande exempelkod förklarar användningen av[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)) metod. Vänligen se[exempel på Excel-fil](50528362.xlsx)används i koden och[utdata Excel-fil](50528361.xlsx)genereras av det. Skärmdumpen visar effekten av koden på exemplet på Excel-filen vid exekvering.
+## **Skicka form framåt eller bakåt inne i Arbetsbladet**
+
+Följande exempelkod förklarar användningen av [**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)) -metoden. Var god se den [exempel-Excel-filen](50528362.xlsx) som används i koden och den [utdata-Excel-filen](50528361.xlsx) som genereras av den. Skärmbilden visar effekten av koden på exempel-Excel-filen vid körning.
 
 ![todo:image_alt_text](send-shape-front-or-back-inside-the-worksheet_1.png)
 

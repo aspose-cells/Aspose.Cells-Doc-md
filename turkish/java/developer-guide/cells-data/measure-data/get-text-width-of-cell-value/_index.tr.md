@@ -1,15 +1,16 @@
-﻿---
-title: Cell Değerinin Metin Genişliğini Alın
+---
+title: Hücre Değeri Metnin Genişliğini Alma
 type: docs
 weight: 40
 url: /tr/java/get-text-width-of-cell-value/
 ---
-## **Cell Değerinin Metin Genişliğini Alın**
 
-Bazen geliştiricilerin, verileri bir düzende düzenlemek için hücrenin değerinin genişliğini hesaplaması gerekebilir. Aspose.Cells şunları sağlar:[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double)) geliştiricilerin hücrenin değerinin metin genişliğini almasına izin veren yöntem. Aşağıdaki örnek kod, nasıl kullanılacağını gösterir[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double)) hücrenin değerinin metin genişliğine erişmek için.
+## **Hücre Değeri Metnin Genişliğini Alma**
 
-Aşağıdaki kod parçacığında kullanılan Kaynak dosyası, referansınız için eklenmiştir.
+Bazen geliştiriciler, metnin düzenin bir kısmına yerleştirilebilmesi için hücre değerinin genişliğini hesaplamak isteyebilirler. Aspose.Cells, hücre değerinin metin genişliğini almak için [**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double)) yöntemini sunar. Aşağıdaki örnek kod, hücre değerinin metin genişliğini almayı göstermektedir.
 
-[Kaynak dosyası](GetTextWidthSample.xlsx)
+Aşağıdaki kod parçasında kullanılan Kaynak dosyası, referansınız için ekte bulunmaktadır.
+
+[Kaynak Dosyası](GetTextWidthSample.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-CellsHelperClass-GetTextWidth-1.java" >}}

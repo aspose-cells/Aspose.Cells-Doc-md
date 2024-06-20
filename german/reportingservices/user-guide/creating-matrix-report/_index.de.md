@@ -1,69 +1,70 @@
-﻿---
+---
 title: Matrixbericht erstellen
 type: docs
 weight: 10
 url: /de/reportingservices/creating-matrix-report/
 ---
+
 {{% alert color="primary" %}} 
 
- Mit Aspose.Cells for Reporting Services können Sie eine Matrix in Microsoft Excel entwerfen.
+Aspose.Cells for Reporting Services ermöglicht es Ihnen, eine Matrix in Microsoft Excel zu entwerfen. 
 
 {{% /alert %}} 
-### **Matrix-Vorlage**
-In einer Aspose.Cells-Berichtsvorlage besteht eine Matrix aus Ecken, Zeilengruppen, Spaltengruppen und Datenteilen. Eine Beispielmatrix ist unten gezeigt.
+### **Matrixvorlage**
+In einem Aspose.Cells-Berichts-Template besteht eine Matrix aus Ecken, Zeilengruppen, Spaltengruppen und Datenbereichen. Eine Beispielsmatrix wird unten angezeigt.
 
-**Eine Probenmatrix** 
+**Eine Beispielsmatrix** 
 
-![todo: Bild_alt_Text](creating-matrix-report_1.png)
+![todo:image_alt_text](creating-matrix-report_1.png)
 
-- **Matrix-Ecke**: befindet sich in der oberen linken Ecke oder in der oberen rechten Ecke für von rechts nach links (RTL) Layouts. Dieser Bereich wird automatisch erstellt, wenn Sie einem Matrixdatenbereich sowohl Zeilengruppen als auch Spaltengruppen hinzufügen. In diesem Bereich können Sie eingebettete Textfeld-Berichtselemente in Zellen zusammenführen.
-- **Bereich Matrixspaltengruppen**befindet sich in der oberen rechten Ecke (obere linke Ecke für RTL-Layout). Dieser Bereich wird automatisch erstellt, wenn Sie eine Spaltengruppe hinzufügen. Die Zellen in diesem Bereich stellen Mitglieder der Spaltengruppenhierarchie dar und zeigen die Instanzwerte der Spaltengruppe an. In der Abbildung sind die Zellen, die OrderYear anzeigen, eine verschachtelte Spaltengruppe, und die Zelle, die OrderQtr anzeigt, ist eine benachbarte Spaltengruppe.
-- **Bereich Matrixzeilengruppen**: befindet sich in der unteren linken Ecke (unten rechts für RTL-Layout). Dieser Bereich wird automatisch erstellt, wenn Sie eine Zeilengruppe hinzufügen. Die Zellen in diesem Bereich stellen Mitglieder der Zeilengruppenhierarchie dar und zeigen Zeilengruppeninstanzwerte an. In der Abbildung sind diese Zellen verschachtelte Zeilengruppen.
-- **Matrixdatenbereich**befindet sich in der unteren rechten Ecke (unten links für RTL-Layout). Die Matrixdaten zeigen detaillierte und gruppierte Daten an. In diesem Beispiel werden nur aggregierte Daten verwendet. Standardmäßig werden die Zellen in einer Gruppenzeile oder -spalte, die einfache Ausdrücke enthalten, die keine Aggregatfunktion enthalten, mit dem ersten Wert in der Gruppe ausgewertet. In der Abbildung zeigen die Zellen die aggregierten Summen für die Zeilensummen für alle Verkaufsaufträge.
+- **Matrix-Ecke**: befindet sich in der oberen linken Ecke, oder in der oberen rechten Ecke für rechts-nach-links (RTL)-Layouts. Dieser Bereich wird automatisch erstellt, wenn Sie sowohl Zeilengruppen als auch Spaltengruppen zu einem Matrix-Datenbereich hinzufügen. In diesem Bereich können Sie Zellen mit eingebettetem Textfeld-Berichtselement zusammenführen.
+- **Bereich mit Matrix-Spaltengruppen**: befindet sich in der oberen rechten Ecke (obere linke Ecke für RTL-Layout). Dieser Bereich wird automatisch erstellt, wenn Sie eine Spaltengruppe hinzufügen. Die Zellen in diesem Bereich repräsentieren Elemente der Spaltengruppenhierarchie und zeigen die Werte der Spaltengruppeninstanz an. In der Abbildung sind die Zellen, die OrderYear anzeigen, eine verschachtelte Spaltengruppe, und die Zelle, die OrderQtr anzeigt, eine benachbarte Spaltengruppe.
+- **Bereich mit Matrix-Zeilengruppen**: befindet sich in der unteren linken Ecke (unten rechts für RTL-Layout). Dieser Bereich wird automatisch erstellt, wenn Sie eine Zeilengruppe hinzufügen. Die Zellen in diesem Bereich repräsentieren Elemente der Zeilengruppenhierarchie und zeigen die Werte der Zeilengruppeninstanz an. In der Abbildung handelt es sich um verschachtelte Zeilengruppen.
+- **Bereich mit Matrix-Daten**: befindet sich in der unteren rechten Ecke (unten links für RTL-Layout). Die Matrixdaten zeigen Detail- und gruppierte Daten an. In diesem Beispiel werden nur aggregierte Daten verwendet. Standardmäßig bewerten sich die Zellen in einer Gruppenzeile oder -spalte, die einfache Ausdrücke enthalten, die keine Aggregatfunktion enthalten, zum ersten Wert in der Gruppe. In der Abbildung zeigen die Zellen die aggregierten Summen für die Gesamtsummen für alle Verkaufsbestellungen an.
 #### **Erstellen einer Matrixvorlage**
- Erstellen Sie vor dem Erstellen eines Matrixberichts die Datenquellen, Datensätze und Berichtsparameter (optional). (Folgen Sie den Anweisungen in[Datenquellen und Abfragen](/cells/de/reportingservices/data-sources-and-queries/) falls Sie Hilfe benötigen.) Im Beispiel verwenden wir die AdventureWorks-Beispieldatenbank, die im Lieferumfang von SQL Server Reporting Services 2008 enthalten ist.
+Bevor Sie einen Matrixbericht erstellen, erstellen Sie die Datenquellen, Datensätze und optionalen Berichtsparameter (Folgen Sie den Anweisungen in [Datenquellen und Abfragen](/cells/de/reportingservices/data-sources-and-queries/), wenn Sie Hilfe benötigen.) Im Beispiel verwenden wir die AdventureWorks-Beispieldatenbank, die mit SQL Server Reporting Services 2008 ausgeliefert wird.
 
-So erstellen Sie eine neue Matrix:
+Um eine neue Matrix zu erstellen:
 
 1. Öffnen Sie Microsoft Excel.
-1.  Klicken**Bericht öffnen** , um eine RDL-Berichtsdatei zu öffnen, die die im Voraus erstellten Datenquellen, Datensätze und Berichtsparameter enthält.
-Sobald die Datei erfolgreich geöffnet wurde, stehen alle ihre Informationen zur Verwendung zur Verfügung, beispielsweise werden ihre Datensätze in der aufgelistet**Datensatz** aufführen.
-1.  Öffnen Sie ein Microsoft Excel-Arbeitsblatt und wählen Sie einen Datensatz aus.
+1. Klicken Sie auf **Bericht öffnen**, um eine RDL-Berichtsdatei zu öffnen, die im Voraus erstellte Datenquellen, Datensätze und Berichtsparameter enthält.
+   Sobald die Datei erfolgreich geöffnet wurde, steht alle ihre Informationen zur Verfügung, zum Beispiel sind ihre Datensätze in der **Datensatz**-Liste aufgeführt.
+1. Öffnen Sie ein Microsoft Excel-Arbeitsblatt und wählen Sie ein Datenset aus. 
 
-![todo: Bild_alt_Text](creating-matrix-report_2.png)
-
-
-
-
-1.  Setzen Sie Zeilengruppen und Spaltengruppen durch**Gruppe festlegen**. 
-
-![todo: Bild_alt_Text](creating-matrix-report_3.png)
+![todo:image_alt_text](creating-matrix-report_2.png)
 
 
 
 
-1. Verbinden Sie Zellen, um die Matrixecke festzulegen.
+1. Legen Sie Zeilengruppen und Spaltengruppen durch **Gruppe fest** fest. 
 
-![todo: Bild_alt_Text](creating-matrix-report_4.png)
-
-
-
-
-1.  Matrixecke durch Einfügen einer Formel setzen.
-
-![todo: Bild_alt_Text](creating-matrix-report_5.png)
+![todo:image_alt_text](creating-matrix-report_3.png)
 
 
 
 
-![todo: Bild_alt_Text](creating-matrix-report_6.png)
+1. Führen Sie Zellen zusammen, um die Matrixecke festzulegen.
+
+![todo:image_alt_text](creating-matrix-report_4.png)
 
 
 
 
-1.  Klicken**Attribut festlegen** um das Matrixattribut zu setzen.
+1. Legen Sie die Matrixecke durch Einfügen einer Formel fest. 
 
-![todo: Bild_alt_Text](creating-matrix-report_7.png)
+![todo:image_alt_text](creating-matrix-report_5.png)
+
+
+
+
+![todo:image_alt_text](creating-matrix-report_6.png)
+
+
+
+
+1. Klicken Sie auf **Attribut festlegen**, um Matrixattribut festzulegen. 
+
+![todo:image_alt_text](creating-matrix-report_7.png)
 
 
 
@@ -71,9 +72,9 @@ Es besteht aus Name, Bereich, Gruppe und Reihenfolge.
 
 1. Durch Klicken auf Attribut ändern werden alle Matrixattribute des aktuellen Arbeitsblatts überprüft und geändert.
 
-![todo: Bild_alt_Text](creating-matrix-report_8.png)
+![todo:image_alt_text](creating-matrix-report_8.png)
 
 
 
 
-1. Bericht speichern, veröffentlichen und überprüfen.
+1. Speichern, veröffentlichen und Bericht überprüfen.

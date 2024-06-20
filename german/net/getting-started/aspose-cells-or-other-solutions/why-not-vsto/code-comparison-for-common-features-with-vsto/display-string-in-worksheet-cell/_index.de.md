@@ -1,11 +1,12 @@
-﻿---
-title: Zeichenfolge in Arbeitsblatt Cell anzeigen
+---
+title: Anzeige von Zeichenfolgen in Zellen des Arbeitsblatts
 type: docs
 weight: 110
 url: /de/net/display-string-in-worksheet-cell/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -17,7 +18,7 @@ url: /de/net/display-string-in-worksheet-cell/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -30,5 +31,5 @@ url: /de/net/display-string-in-worksheet-cell/
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Download**
+## **Herunterladen**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DisplayStringInCell.Aspose.Cells.zip)

@@ -1,18 +1,19 @@
-﻿---
-title: Carica o importa il file CSV con le formule
+---
+title: Carica o importa file CSV con formule
 type: docs
 weight: 350
 url: /it/net/load-or-import-csv-file-with-formulas/
 ---
+
 {{% alert color="primary" %}} 
 
- CSV contiene principalmente dati testuali e non contengono formule. Tuttavia, a volte capita che i file CSV contengano anche formule. Tali file CSV devono essere caricati impostando l'estensione[TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/hasformula) come**VERO** . Una volta impostata questa proprietà**VERO**, Aspose.Cells non considererà la formula come semplice testo. Saranno trattati come formula e il motore di calcolo della formula Aspose.Cells li elaborerà come al solito.
+Il file CSV contiene principalmente dati testuali e non contiene formule. Tuttavia, a volte succede che i file CSV contengano anche formule. Tali file CSV dovrebbero essere caricati impostando [TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/hasformula) su **true**. Una volta impostata questa proprietà su **true**, Aspose.Cells non tratterà la formula come semplice testo. Saranno trattati come formula e il motore di calcolo delle formule di Aspose.Cells le elaborerà come al solito.
 
 {{% /alert %}} 
 
- Il codice seguente illustra come caricare e importare un file CSV con formule. Puoi utilizzare qualsiasi file CSV. A scopo illustrativo, utilizziamo il[semplice file csv](5115034.csv) che contiene questi dati. Come vedi contiene una formula.
+Il codice seguente illustra come è possibile caricare e importare un file CSV con formule. È possibile utilizzare qualsiasi file CSV. A scopo illustrativo, utilizziamo il [semplice file CSV](5115034.csv) che contiene questi dati. Come puoi vedere contiene una formula.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  300,500,=Sum(A1:B1)
 
@@ -22,8 +23,8 @@ url: /it/net/load-or-import-csv-file-with-formulas/
 
 
 
-Il codice carica prima il file CSV, quindi lo importa nuovamente nella cella D4. Infine, salva l'oggetto cartella di lavoro in formato XSLX. Il[output XLSX file](5115052.xlsx) Somiglia a questo. Come vedi le celle C3 e F4 contengono la formula e il suo risultato 800.
+Il codice carica prima il file CSV, poi lo importa nuovamente nella cella D4. Infine, salva l'oggetto del foglio di lavoro in formato XSLX. Il [file XLSX in output](5115052.xlsx) appare così. Come si vede, le celle C3 e F4 contengono una formula e il suo risultato è 800.
 
-|![cose da fare:immagine_alt_testo](load-or-import-csv-file-with-formulas_1.png)|
-|:- |
+|![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
+| :- |
 

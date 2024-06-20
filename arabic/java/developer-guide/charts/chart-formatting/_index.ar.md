@@ -1,70 +1,71 @@
-﻿---
-title: تنسيق المخطط
+---
+title: تنسيق الرسم البياني
 type: docs
 weight: 20
 url: /ar/java/chart-formatting/
 ---
-## **ضبط مظهر المخطط**
 
- في[أنواع المخططات](/cells/ar/java/chart-types/)، قدمنا مقدمة موجزة عن أنواع المخططات وعناصر الرسوم البيانية التي يقدمها Aspose.Cells.
+## **ضبط مظهر الرسم البياني**
 
-في هذه المقالة ، نناقش كيفية تخصيص مظهر المخططات من خلال تعيين عدد من الخصائص المختلفة:
+في [أنواع الرسوم البيانية](/cells/ar/java/chart-types/) ، قدمنا ​​مقدمة موجزة لأنواع الرسوم البيانية وكائنات الرسم البياني التي تقدمها Aspose.Cells.
 
-- [تحديد منطقة المخطط](/cells/ar/java/chart-formatting/#setting-chart-area).
-- [تحديد خطوط الرسم البياني](/cells/ar/java/chart-formatting/#setting-chart-lines).
+في هذه المقالة، نناقش كيفية تخصيص مظهر الرسوم البيانية عن طريق تعيين عدد من الخصائص المختلفة:
+
+- [ضبط منطقة الرسم البياني](/cells/ar/java/chart-formatting/#setting-chart-area).
+- [ضبط خطوط الرسم البياني](/cells/ar/java/chart-formatting/#setting-chart-lines).
 - [تطبيق السمات](/cells/ar/java/chart-formatting/#applying-microsoft-excel-20072010-themes-to-charts).
-- [تحديد العناوين للمخططات والمحاور](/cells/ar/java/chart-formatting/#setting-the-titles-of-charts-or-axes).
+- [ضبط عناوين الرسوم البيانية والمحاور](/cells/ar/java/chart-formatting/#setting-the-titles-of-charts-or-axes).
 - [العمل مع خطوط الشبكة](/cells/ar/java/chart-formatting/#setting-major-gridlines).
-- [وضع حدود للجدران الخلفية والجانبية](/cells/ar/java/chart-formatting/#setting-borders-for-back-and-side-walls).
+- [ضبط حدود الجدران الخلفية والجانبية](/cells/ar/java/chart-formatting/#setting-borders-for-back-and-side-walls).
 
-### **إعداد منطقة المخطط**
+### **تعيين منطقة الرسم البياني**
 
-توجد أنواع مختلفة من المساحات في المخطط ويوفر Aspose.Cells مرونة في تعديل مظهر كل منطقة. يمكن للمطورين تطبيق إعدادات تنسيق مختلفة على منطقة ما عن طريق تغيير لون المقدمة ولون الخلفية وتنسيق التعبئة وما إلى ذلك.
+هناك أنواع مختلفة من المناطق في الرسم البياني وتوفر Aspose.Cells مرونة تعديل مظهر كل منطقة. يمكن للمطورين تطبيق إعدادات تنسيق مختلفة على منطقة عن طريق تغيير لون الخلفية ولون الخلفية وتنسيق الملء وما إلى ذلك.
 
-في المثال الموضح أدناه ، قمنا بتطبيق إعدادات تنسيق مختلفة على أنواع مختلفة من مناطق الرسم البياني. تشمل هذه المناطق:
+في المثال الوارد أدناه، قمنا بتطبيق إعدادات تنسيق مختلفة على أنواع مختلفة من المناطق في رسم بياني. هذه المناطق تشمل:
 
-- منطقة المؤامرة
+- منطقة الرسم
 - منطقة الرسم البياني
-- [**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) منطقة
-- منطقة نقطة واحدة في[**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
+- منطقة [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
+- منطقة نقطة واحدة في [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
 
-بعد تنفيذ رمز المثال ، ستتم إضافة مخطط عمودي إلى ورقة العمل كما هو موضح أدناه:
+بعد تنفيذ كود المثال، سيتم إضافة رسم بياني للعمود إلى ورقة العمل كما هو موضح أدناه:
 
-**مخطط عمودي بمساحات معبأة** 
+**رسم بياني للعمود مع مناطق مملوءة** 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_1.png)
+![todo:image_alt_text](chart-formatting_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartArea-SettingChartArea.java" >}}
 
-### **تحديد خطوط الرسم البياني**
+### **تعيين خطوط الرسم البياني**
 
- يمكن للمطورين أيضًا تطبيق أنواع مختلفة من الأنماط على الخطوط أو علامات البيانات في ملف[**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)كما هو موضح أدناه في المثال. يؤدي تنفيذ رمز المثال إلى إضافة مخطط عمودي إلى ورقة العمل كما هو موضح أدناه:
+يمكن للمطورين أيضًا تطبيق أنواع مختلفة من الأنماط على الخطوط أو علامات البيانات لـ [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) كما هو موضح أدناه في المثال. تنفيذ كود المثال يضيف رسم بياني لورقة العمل كما هو موضح أدناه:
 
-**مخطط العمود بعد تطبيق أنماط الخط** 
+**رسم بياني للأعمدة بعد تطبيق أنماط الخطوط** 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_2.png)
+![todo:image_alt_text](chart-formatting_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartLines-SettingChartLines.java" >}}
 
-### **تطبيق سمات Microsoft Excel 2007/2010 على المخططات**
+### **تطبيق سمات مايكروسوفت اكسيل 2007/2010 على الرسوم البيانية**
 
-يمكن للمطورين تطبيق سمات وألوان Microsoft مختلفة على برنامج Excel[**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)أو كائنات أخرى في المخطط كما هو موضح في المثال أدناه.
+يمكن للمطورين تطبيق ثيمات وألوان مايكروسوفت إكسيل المختلفة على [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) أو كائنات الرسم البياني الأخرى كما هو موضح في المثال أدناه.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
-### **تحديد عناوين المخططات أو المحاور**
+### **ضبط عناوين الرسوم البيانية أو المحاور**
 
-يمكنك استخدام Microsoft Excel لتعيين عناوين المخطط ومحاوره في بيئة WYSIWYG كما هو موضح أدناه.
+يمكنك استخدام مايكروسوفت إكسيل لتعيين عناوين لرسم بياني ومحاوره في بيئة WYSIWYG كما هو موضح أدناه:
 
-**تحديد عناوين الرسم البياني ومحاوره باستخدام Microsoft Excel** 
+**تعيين عناوين لرسم بياني & محاوره باستخدام مايكروسوفت إكسيل** 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_3.png)
+![todo:image_alt_text](chart-formatting_3.png)
 
- يسمح Aspose.Cells أيضًا للمطورين بتعيين عناوين المخطط ومحاوره في وقت التشغيل. تحتوي جميع المخططات ومحاورها على ملف[**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)الطريقة التي يمكن استخدامها لتعيين عناوينها كما هو موضح أدناه في مثال. بعد تنفيذ رمز المثال ، ستتم إضافة مخطط عمودي إلى ورقة العمل كما هو موضح أدناه:
+تسمح Aspose.Cells أيضًا للمطورين بتعيين عناوين لرسم بياني ومحاوره عند التشغيل. تحتوي جميع الرسوم البيانية ومحاورها على طريقة [**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text) يمكن استخدامها لتعيين عناوينها كما هو موضح أدناه في مثال. بعد تنفيذ كود المثال، سيتم إضافة رسم بياني للعمود إلى ورقة العمل كما هو موضح أدناه:
 
-**مخطط العمود بعد تحديد العناوين** 
+**رسم بياني للأعمدة بعد تعيين العناوين** 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_4.png)
+![todo:image_alt_text](chart-formatting_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingTitlesAxes-SettingTitlesAxes.java" >}}
 
@@ -72,161 +73,161 @@ url: /ar/java/chart-formatting/
 
 #### **إخفاء خطوط الشبكة الرئيسية**
 
- يمكن للمطورين التحكم في رؤية خطوط الشبكة الرئيسية باستخدام[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible) طريقة[**خط**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)موضوع. بعد إخفاء خطوط الشبكة الرئيسية ، يظهر مخطط العمود المضاف إلى ورقة العمل بالشكل التالي:
+يمكن للمطورين التحكم في رؤية خطوط الشبكة الرئيسية عن طريق استخدام طريقة [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible) في كائن [**Line**](https://reference.aspose.com/cells/java/com.aspose.cells/Line). بعد إخفاء خطوط الشبكة الرئيسية، يظهر الرسم البياني العمودي المضاف إلى ورقة العمل بالمظهر التالي:
 
-**مخطط عمودي مع خطوط شبكة رئيسية مخفية** 
+**رسم بياني عمودي مع خطوط شبكة رئيسية مخفية** 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_5.png)
+![todo:image_alt_text](chart-formatting_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-MajorGridlines-1.java" >}}
 
 #### **تغيير إعدادات خطوط الشبكة الرئيسية**
 
-لا يستطيع المطورون فقط التحكم في رؤية خطوط الشبكة الرئيسية ولكن أيضًا في الخصائص الأخرى بما في ذلك لونها وما إلى ذلك. بعد تعيين لون خطوط الشبكة الرئيسية ، سيظهر مخطط العمود المضاف إلى ورقة العمل بالشكل التالي:
+لا يمكن للمطورين فقط التحكم في رؤية خطوط الشبكة الرئيسية ولكن أيضًا خصائص أخرى بما في ذلك لونها وما إلى ذلك. بعد تعيين لون خطوط الشبكة الرئيسية، سيكون الرسم البياني العمودي المضاف إلى ورقة العمل بالمظهر التالي:
 
-**مخطط عمودي بخطوط شبكة رئيسية ملونة** 
+**رسم بياني عمودي مع خطوط شبكة رئيسية ملونة** 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_6.png)
+![todo:image_alt_text](chart-formatting_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-ChangingMajorGridlines-1.java" >}}
 
-### **وضع حدود للجدران الخلفية والجانبية**
+### **تعيين حدود للجدران الخلفية والجانبية**
 
- منذ إصدار Microsoft Excel 2007 ، تم تقسيم جدران المخطط ثلاثي الأبعاد إلى جزأين: جدار جانبي وجدار خلفي ، لذلك يتعين علينا استخدام جزأين[**الجدران**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) كائنات لتمثيلها بشكل منفصل ويمكنك الوصول إليها باستخدام[**Chart.getBackWall ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) و[**Chart.getSideWall ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall).
+منذ إصدار Microsoft Excel 2007، تم تقسيم جدران الرسم البياني ثلاثي الأبعاد إلى قسمين: الجدار الجانبي والجدار الخلفي، لذا يجب علينا استخدام كائنين [**Walls**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) لتمثيلهما على حدة ويمكنك الوصول إليهما من خلال استخدام [**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) و [**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall).
 
-يوضح المثال الموضح أدناه كيفية تعيين حدود الجدار الجانبي باستخدام سمات مختلفة.
+المثال أدناه يوضح كيفية تعيين حدود الجدار الجانبي باستخدام سمات مختلفة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-SettingBorders-1.java" >}}
 
-## **قم بتغيير موضع المخطط وحجمه**
+## **تغيير موقع الرسم البياني وحجمه**
 
- في بعض الأحيان ، تريد تغيير موضع أو حجم المخطط الجديد أو الموجود داخل ورقة العمل. يوفر Aspose.Cells ملف[**Chart.getChartObject ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)خاصية لتحقيق ذلك. يمكنك استخدام خصائصه الفرعية لتغيير حجم المخطط بجديد**ارتفاع** و**العرض** أو إعادة وضعه مع جديد** X ** و**Y ** إحداثيات.
+في بعض الأحيان، قد ترغب في تغيير الموضع أو الحجم للرسم البياني الجديد أو القائم داخل ورقة العمل. توفر Aspose.Cells الخاصية [**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject) لتحقيق ذلك. يمكنك استخدام خصائصه الفرعية لإعادة تحجيم الرسم البياني بارتفاع وعرض جديدين أو إعادة تمركزه بإحداثيات **X** و **Y** جديدة.
 
-### **تعديل موضع الرسم البياني وحجمه**
+### **تعديل موقع وحجم الرسم البياني**
 
-لتغيير موضع الرسم البياني (إحداثيات س ، ص) وحجمه (ارتفاع ، عرض) ، استخدم هذه الخصائص:
+لتغيير موقع الرسم البياني (إحداثيات X و Y) وحجمه (ارتفاع وعرض)، استخدم هذه الخصائص:
 
-1. [**Chart.getChartObject (). get / setWidth ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Width)
-1. [**Chart.getChartObject (). get / setHeight ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Height)
-1. [**Chart.getChartObject (). get / setX ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#X)
-1. [**Chart.getChartObject (). get / setY ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Y)
+1. [**Chart.getChartObject().get/setWidth()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Width)
+1. [**Chart.getChartObject().get/setHeight()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Height)
+1. [**Chart.getChartObject().get/setX()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#X)
+1. [**Chart.getChartObject().get/setY()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Y)
 
-يوضح المثال التالي استخدام الخصائص المذكورة أعلاه. يقوم بتحميل المصنف الحالي الذي يحتوي على مخطط في ورقة العمل الأولى الخاصة به. ثم يعيد حجم المخطط ويعيد مواضعه ويحفظ المصنف.
+المثال التالي يشرح كيفية استخدام الخصائص أعلاه. يحمل الدفتر العمل الموجود الذي يحتوي على رسم بياني في ورقته الأولى. ثم يقوم بإعادة تحجيم وإعادة تمركز الرسم البياني ويحفظ الدفتر العمل.
 
-قبل تنفيذ نموذج التعليمات البرمجية ، يبدو الملف المصدر كما يلي:
+قبل تنفيذ كود العينة، يبدو الملف الأصلي على النحو التالي:
 
-**حجم المخطط وموضعه قبل تنفيذ نموذج التعليمات البرمجية** 
+**حجم الرسم البياني وموضعه قبل تنفيذ رمز العينة** 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_7.png)
+![todo:image_alt_text](chart-formatting_7.png)
 
-بعد التنفيذ ، يبدو ملف الإخراج كالتالي:
+بعد التنفيذ، يبدو ملف الإخراج هكذا:
 
-**حجم المخطط وموضعه بعد تنفيذ نموذج التعليمات البرمجية** 
+حجم وموقع الرسم البياني بعد تنفيذ الشفرة المثالية 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_8.png)
+![todo:image_alt_text](chart-formatting_8.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChangeChartPositionAndSize-ChangeChartPositionAndSize.java" >}}
 
-## **معالجة مخططات المصمم**
+## **تلاعب الرسوم البيانية للمصمم**
 
-هناك وقت قد تحتاج فيه إلى معالجة المخططات أو تعديلها في ملفات قالب المصمم. يدعم Aspose.Cells بالكامل معالجة مخططات المصمم بمحتوياتها وعناصرها. يمكن الاحتفاظ بالبيانات ومحتويات المخطط وصورة الخلفية والتنسيق بدقة.
+هناك وقت قد تحتاج فيه إلى تلاعب أو تعديل الرسومات في ملفات القوالب المصممة. Aspose.Cells تدعم بشكل كامل تلاعب الرسومات المصممة مع محتوياتها وعناصرها. يمكن الحفاظ على البيانات ومحتويات الرسم البياني وصورة الخلفية والتنسيق بدقة.
 
-### **معالجة مخططات المصمم في ملفات القوالب**
+### **تلاعب برسومات المصمم في ملفات القوالب**
 
- لمعالجة مخططات المصمم في ملف قالب ، استخدم كافة استدعاءات API المتعلقة بالرسم البياني. على سبيل المثال ، استخدم[**Worksheet.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts) للحصول على مجموعة المخططات الموجودة في ملف القالب.
+لتلاعب برسومات المصمم في ملف القالب، استخدم جميع المكالمات البرمجية ذات الصلة بالرسم البياني. على سبيل المثال، استخدم خاصية [**Worksheet.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts) للحصول على مجموعة الرسوم البيانية الحالية في ملف القالب.
 
-#### **إنشاء مخطط**
+#### **إنشاء رسم بياني**
 
-يوضح المثال التالي كيفية إنشاء مخطط دائري. سوف نتعامل مع هذا المخطط لاحقًا. يتم إنشاء الإخراج التالي بواسطة الكود.
+المثال التالي يوضح كيفية إنشاء رسم بياني دائري. سنقوم لاحقًا بتلاعب في هذا الرسم البياني. الإخراج التالي مولّد بواسطة الشفرة.
 
-**مخطط الإدخال الدائري** 
+تم تعديل رسم الكعكة 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_9.png)
+![todo:image_alt_text](chart-formatting_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
-#### **التلاعب في الرسم البياني**
+#### **تلاعب الرسم البياني**
 
-يوضح المثال التالي كيفية التعامل مع المخطط الحالي. في هذا المثال نقوم بتعديل الرسم البياني الذي تم إنشاؤه أعلاه. يتم إنشاء الإخراج التالي بواسطة الكود. لاحظ أن لون عنوان المخطط قد تغير من الأزرق إلى الأسود ، كما تم تغيير "إنجلترا 30000" إلى "المملكة المتحدة ، 30 ألفًا".
+المثال التالي يوضح كيفية تلاعب الرسم البياني الحالي. في هذا المثال نقوم بتعديل الرسم البياني الذي تم إنشاؤه أعلاه. الإخراج التالي مولّد بواسطة الشفرة. لاحظ أن لون عنوان الرسم البياني تغير من الأزرق إلى الأسود، وتغير 'إنجلترا 30000' إلى 'المملكة المتحدة، 30 ألف'.
 
-**تم تعديل المخطط الدائري** 
+تم تعديل رسم الكعكة 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_10.png)
+![todo:image_alt_text](chart-formatting_10.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyPieChart-ModifyPieChart.java" >}}
 
-#### **معالجة مخطط خطي في قالب المصمم**
+#### **تلاعب رسم بياني الخط في القالب المصمم**
 
-في هذا المثال ، سنتعامل مع مخطط خطي. سنضيف بعض سلاسل البيانات إلى المخطط الحالي ونغير ألوان خطها.
+في هذا المثال، سنقوم بتلاعب رسم بياني خطي. سنضيف بعض سلاسل البيانات إلى الرسم البياني الحالي وتغيير ألوان خطوطها.
 
-أولاً ، ألق نظرة على مخطط خط المصمم.
+أولاً، دعنا نلقي نظرة على رسم البياني الخطي المصمم.
 
-**مخطط خط الإدخال** 
+تم تعديل رسم البياني الخطي 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_11.png)
+![todo:image_alt_text](chart-formatting_11.png)
 
- الآن نحن نتعامل مع المخطط الخطي (الموجود في ملف**linechart.xls** file) باستخدام الكود التالي. يتم إنشاء الإخراج التالي بواسطة الكود.
+الآن نقوم بتلاعب في رسم البياني الخطي (الموجود في ملف linechart.xls) باستخدام الشفرة التالية. الإخراج التالي مولّد بواسطة الشفرة.
 
-**المخطط الخطي المتلاعب به** 
+تم تعديل رسم البياني الخطي 
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_12.png)
+![todo:image_alt_text](chart-formatting_12.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyLineChart-ModifyLineChart.java" >}}
 
-## **باستخدام خطوط سباركلينز**
+## **استخدام الشرائط**
 
-Microsoft يمكن لبرنامج Excel 2010 تحليل المعلومات بطرق أكثر من أي وقت مضى. يسمح للمستخدمين بتتبع اتجاهات البيانات المهمة وإبرازها باستخدام أدوات تحليل وتصور جديدة للبيانات. خطوط المؤشر هي مخططات مصغرة يمكنك وضعها داخل الخلايا بحيث يمكنك عرض البيانات والمخطط على نفس الجدول. عندما يتم استخدام خطوط المؤشرات بشكل صحيح ، يكون تحليل البيانات أسرع وأكثر دقة. كما أنها توفر عرضًا بسيطًا للمعلومات ، وتجنب أوراق العمل المزدحمة بالكثير من المخططات المزدحمة.
+يمكن لبرنامج Microsoft Excel 2010 تحليل المعلومات بطرق أكثر من أي وقت مضى. يسمح للمستخدمين بتتبع وتسليط الضوء على اتجاهات البيانات المهمة باستخدام أدوات تحليل البيانات والرؤية الجديدة. الشرائط هي رسومات مصغرة يمكنك وضعها داخل الخلايا بحيث يمكنك عرض البيانات والرسم البياني على الجدول نفسه. عند استخدام الشرائط بشكل صحيح، يكون تحليل البيانات أسرع وأكثر دقة. كما أنها توفر رؤية بسيطة للمعلومات، مما يجنب ورقات العمل المزدحمة بالرسوم البيانية الكثيرة.
 
-يوفر Aspose.Cells API لمعالجة خطوط المؤشرات في جداول البيانات.
+توفر Aspose.Cells واجهة برمجة التطبيقات للتلاعب في الشرائط في جداول البيانات.
 
-### **خطوط سباركلينز في Microsoft Excel**
+### **الشرائط في Microsoft Excel**
 
-لإدراج خطوط مؤشر في Microsoft Excel 2010:
+لإدراج الشرائط في Microsoft Excel 2010:
 
-1. حدد الخلايا التي تريد ظهور خطوط المؤشر فيها. لتسهيل عرضها ، حدد الخلايا الموجودة بجانب البيانات.
-1.  انقر**إدراج** على الشريط ثم اختر**عمود** في ال**سباركلينز** مجموعة.
+1. حدد الخلايا التي ترغب في ظهور الشرائط فيها. لجعلها سهلة الرؤية، حدد الخلايا على جانب البيانات.
+1. انقر على **Insert** في الشريط واختر **column** في **Sparklines**.
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_13.png)
+![todo:image_alt_text](chart-formatting_13.png)
 
-1. حدد أو أدخل نطاق الخلايا في ورقة العمل التي تحتوي على البيانات المصدر.
- تظهر الرسوم البيانية.
+1. حدد أو أدخل نطاق الخلايا في ورقة العمل التي تحتوي على بيانات المصدر.
+   ستظهر الرسوم البيانية.
 
-تساعدك Sparklines على رؤية الاتجاهات ، على سبيل المثال ، أو سجل الفوز أو الخسارة لدوري الكرة اللينة. يمكن أن تلخص Sparklines الموسم بأكمله لكل فريق في الدوري.
+تساعد التأثيرات البصرية الصغيرة في رؤية الاتجاهات، على سبيل المثال، أو سجل الفوز أو الخسارة لرابطة الكرة اللينة. يمكن للتأثيرات البصرية الصغيرة حتى تلخص موسم كل فريق في الرابطة بأكمله.
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_14.png)
+![todo:image_alt_text](chart-formatting_14.png)
 
-### **خطوط الشرارة باستخدام Aspose.Cells**
+### **شرائط البيانات باستخدام Aspose.Cells**
 
-يمكن للمطورين إنشاء أو حذف أو قراءة خطوط المؤشرات (في ملف القالب) باستخدام API المقدم بواسطة Aspose.Cells. بإضافة رسومات مخصصة لنطاق بيانات معين ، يتمتع المطورون بحرية إضافة أنواع مختلفة من المخططات الصغيرة إلى مناطق الخلايا المحددة.
+يمكن للمطورين إنشاء، حذف أو قراءة التأثيرات البصرية الصغيرة (في ملف القالب) باستخدام واجهة برمجة التطبيقات المقدمة بواسطة Aspose.Cells. من خلال إضافة رسومات مخصصة لنطاق البيانات المعطى، يحظى المطورون بحرية إضافة أنواع مختلفة من الرسوم البيانية الصغيرة إلى مناطق الخلايا المحددة.
 
-يوضح المثال أدناه ميزة Sparklines. يوضح المثال كيفية:
+يوضح المثال أدناه ميزة شرائط البيانات. يوضح المثال كيفية:
 
-1. افتح ملف قالب بسيط.
-1. اقرأ معلومات خطوط المؤشرات لورقة عمل.
-1. أضف خطوط مؤشرات جديدة لنطاق بيانات معين إلى منطقة خلية.
-1. يحفظ ملف Excel على القرص.
+1. فتح ملف قالب بسيط.
+1. قراءة معلومات شرائط البيانات لورقة عمل.
+1. إضافة شرائط بيانات جديدة لنطاق بيانات معطى إلى منطقة خلية.
+1. حفظ ملف Excel إلى القرص.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-UsingSparklines-UsingSparklines.java" >}}
 
 ## **تطبيق تنسيق ثلاثي الأبعاد على الرسم البياني**
 
-قد تحتاج إلى أنماط مخططات ثلاثية الأبعاد حتى تتمكن من الحصول على نتائج السيناريو الخاص بك فقط. توفر واجهات برمجة التطبيقات Aspose.Cells API ذي الصلة لتطبيق تنسيق Microsoft Excel 2007 ثلاثي الأبعاد كما هو موضح في هذه المقالة.
+قد تحتاج إلى أنماط الرسوم البيانية ثلاثية الأبعاد حتى تحصل على النتائج المناسبة لسيناريو الخاص بك. توفر واجهات برمجة التطبيقات لـ Aspose.Cells الواجهة البرمجية ذات الصلة لتطبيق التنسيق ثلاثي الأبعاد لـ Microsoft Excel 2007 كما هو موضح في هذا المقال.
 
-### **ضبط تنسيق ثلاثي الأبعاد على الرسم البياني**
+### **تحديد تنسيق ثلاثي الأبعاد للرسم البياني**
 
-يوجد مثال كامل أدناه لتوضيح كيفية إنشاء مخطط وتطبيق تنسيق Microsoft Excel 2007 3D. بعد تنفيذ رمز المثال أعلاه ، ستتم إضافة مخطط عمودي (مع تأثيرات ثلاثية الأبعاد) إلى ورقة العمل كما هو موضح أدناه.
+يتضمن المثال الكامل أدناه لتوضيح كيفية إنشاء رسم بياني وتطبيق تنسيق ثلاثي الأبعاد لـ Microsoft Excel 2007. بعد تنفيذ رمز المثال أعلاه، سيتم إضافة رسم بياني عمودي (برؤوس ثلاثية الأبعاد) إلى ورقة العمل كما هو موضح أدناه.
 
-**مخطط عمودي بتنسيق ثلاثي الأبعاد**
+**رسم بياني عمودي بتنسيق ثلاثي الأبعاد**
 
-![ما يجب القيام به: image_بديل_نص](chart-formatting_15.png)
+![todo:image_alt_text](chart-formatting_15.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-Applying3DFormat-Applying3DFormat.java" >}}
 
 {{% alert color="primary" %}}
 
- للحصول على قائمة كاملة بالمخططات ثنائية وثلاثية الأبعاد المدعومة ، راجع[أنواع الرسوم البيانية المدعومة للعرض](/cells/ar/java/chart-rendering/#supported-chart-types-for-rendering).
+للحصول على قائمة كاملة باستخدام أنواع الرسوم البيانية ثنائية وثلاثية الأبعاد المدعمة، انظر [أنواع الرسوم البيانية المدعومة للعرض](/cells/ar/java/chart-rendering/#supported-chart-types-for-rendering).
 
 {{% /alert %}}
 
-## **موضوعات مسبقة**
-- [قم بتعيين الصورة كخلفية تعبئة في المخطط](/cells/ar/java/set-picture-as-background-fill-in-the-chart/)
+## **مواضيع متقدمة**
+- [تعيين صورة كحشو خلفية في الرسم البياني](/cells/ar/java/set-picture-as-background-fill-in-the-chart/)

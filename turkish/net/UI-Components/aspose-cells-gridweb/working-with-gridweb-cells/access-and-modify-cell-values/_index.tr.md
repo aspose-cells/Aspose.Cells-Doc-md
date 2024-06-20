@@ -1,25 +1,28 @@
-﻿---
-title: Cell Değerlerine Erişin ve Değiştirin
+---
+title: Hücre Değerine Erişme ve Değiştirme
 type: docs
 weight: 20
-url: /tr/net/access-and-modify-cell-values/
+url: /tr/net/aspose-cells-gridweb/access-and-modify-cell-value/
+keywords: GridWeb, hücre değeri, değiştirme, değer
+description: Bu makale, GridWeb de hücre değerine nasıl erişilip değiştirileceğini tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-[Erişim Çalışma Sayfası Cells](/cells/tr/net/access-worksheet-cells/) hücrelere erişim tartışıldı. Bu konu, bu tartışmayı Aspose.Cells.GridWeb API kullanarak hücre değerlerine nasıl erişileceğini ve değiştirileceğini gösterecek şekilde genişletir.
+[Hücrelere Erişme](/cells/tr/net/aspose-cells-gridweb/access-worksheet-cells/) hücrelere erişmeyi tartışmıştı. Bu konu, Aspose.Cells.GridWeb API'sını kullanarak hücre değerlerine nasıl erişileceğini göstermek için o tartışmayı genişletir.
 
 {{% /alert %}} 
-## **Bir Cell Değerine Erişme ve Değiştirme**
+## **Hücrenin Değerine Erişme ve Değiştirme**
 ### **Dize Değerleri**
- Bir hücreye erişmeden ve hücrenin değerini değiştirmeden önce, hücrelere nasıl erişeceğinizi bilmeniz gerekir. Hücrelere erişim için farklı yaklaşımlar hakkında ayrıntılar için bkz.[Erişim Çalışma Sayfası Cells](/cells/tr/net/access-worksheet-cells/).
+Bir hücrenin değerine erişmeden ve bunu değiştirmeden önce, hücrelere erişmenin farklı yaklaşımları hakkında bilgi sahibi olmanız gerekir. Hücrelere erişimin farklı yaklaşımları hakkında ayrıntılı bilgi için [Hücrelere Erişme](/cells/tr/net/aspose-cells-gridweb/access-worksheet-cells/) buraya bakın.
 
-Her hücrenin StringValue adlı bir özelliği vardır. Bir hücreye erişildikten sonra geliştiriciler, hücrelerin dize değerine erişmek için StringValue özelliğini kullanabilir. Hücre değerlerini değiştirmek için, hücrenin dize değerini güncellemek için kullanılabilecek özel bir PutValue yöntemi sağlanmıştır.
+Her hücrenin StringValue adında bir özelliği vardır. Bir hücreye erişildikten sonra, geliştiriciler StringValue özelliğini hücrenin dize değerine erişmek için kullanabilirler. Hücre değerlerini değiştirmek için, hücrenin dize değerini güncellemek için kullanılan PutValue adlı özel bir yöntem bulunmaktadır.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ModifyCells.aspx-AddCellStringValue.cs" >}}
-### **Her Türlü Değer**
-Bir hücrenin nesnesinin PutValue yöntemi, bir hücredeki herhangi bir değer türünü (Boolean, int, double, DateTime ve string) değiştirmek için kullanılabilen 8 aşırı yüklemeye sahiptir.
+### **Tüm Değer Türleri**
+Bir hücrenin PutValue yönteminin kullanılabilmesi için 8 aşırı yüklemesi bulunmaktadır, bu aşırı yüklemeler hücrede herhangi bir türde değeri (Boolean, int, double, DateTime ve dize) değiştirmek için kullanılabilir.
 
 
 
@@ -27,7 +30,7 @@ Bir hücrenin nesnesinin PutValue yöntemi, bir hücredeki herhangi bir değer t
 
 
 
-Ayrıca, PutValue yönteminin dize biçimindeki her türlü değeri alıp otomatik olarak uygun bir veri türüne dönüştürebilen aşırı yüklenmiş bir sürümü de vardır. Bunun gerçekleşmesi için aşağıdaki örnekte gösterildiği gibi True Boolean değerini PutValue yönteminin başka bir parametresine iletin.
+Ayrıca PutValue yönteminin dize biçiminde herhangi bir türde değeri alabilen aşırı yüklenmiş bir sürümü de bulunmaktadır ve bunu yapabilmek için, aşağıdaki örnekte gösterildiği gibi, PutValue yönteminin başka bir parametresine true Boolean değeri geçirin.
 
 
 

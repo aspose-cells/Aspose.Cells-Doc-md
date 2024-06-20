@@ -1,50 +1,51 @@
-﻿---
-title: Liste Nesnesi Oluşturma
+---
+title: Bir Liste Objesi Oluşturma
 type: docs
 weight: 20
 url: /tr/python-java/creating-a-list-object/
 ---
-Çalışma sayfalarının kullanımı, örneğin farklı türde listelerle çalışmayı kolaylaştırır. telefon listeleri, görev listeleri. vb. Aspose.Cells, liste oluşturmayı ve yönetmeyi destekler.
 
-## **Liste Nesnesinin Avantajları**
+Çeşitli türde listelerle çalışmayı kolaylaştırmak için çalışsayfalarının kullanımı kolaydır, örneğin telefon listeleri, görev listeleri vb. Aspose.Cells, listeler oluşturmayı ve yönetmeyi destekler.
 
-Bir veri listesini gerçek bir Liste Nesnesine dönüştürdüğünüzde pek çok avantaj vardır:
+## **Liste Nesnesi Avantajları**
 
-- Yeni satırlar ve sütunlar otomatik olarak dahil edilir.
-- SUM, AVERAGE, COUNT, vb. görüntülemek için listenizin en altına bir toplam satırı kolayca eklenebilir.
-- Sağa eklenen sütunlar otomatik olarak List nesnesine eklenir.
-- Satır ve sütunlara dayalı grafikler otomatik olarak genişletilecektir.
+Bir veri listesini gerçek bir Liste Objesine dönüştürdüğünüzde birkaç avantaj vardır:
+
+- Yeni satır ve sütunlar otomatik olarak dahil edilir.
+- Listenizin altından toplam satırı SUM, AVERAGE, COUNT vb. göstermek için kolayca ekleyebilirsiniz.
+- Sağa eklenen sütunlar otomatik olarak List nesnesine dahil edilir.
+- Satırlar ve sütunlara dayalı grafikler otomatik olarak genişletilecektir.
 - Satırlara ve sütunlara atanan adlandırılmış aralıklar otomatik olarak genişletilir.
-- Liste, yanlışlıkla satır ve sütun silinmesine karşı korumalıdır.
+- Liste kazara satır ve sütun silme işlemlerine karşı korunur.
 
-## **Microsoft Excel kullanarak Liste Nesnesi Oluşturma**
+## **Microsoft Excel Kullanarak Bir Liste Nesnesi Oluşturma**
 
-**Liste nesnesi oluşturmak için veri aralığı seçme** 
+**Liste nesnesi oluşturmak için veri aralığını seçme** 
 
-![yapılacaklar:resim_alternatif_metin](picture1.png)
+![todo:image_alt_text](picture1.png)
 
 Bu, Liste Oluştur iletişim kutusunu görüntüler.
 
 **Liste Oluştur iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_metin](picture2.png)
+![todo:image_alt_text](picture2.png)
 
-List nesnesini uygulama ve Toplam Satırı belirtme (Select**Veri**, o zamanlar**Liste**bunu takiben**Toplam Satır**).
+Liste nesnesi uygulama ve Toplam Satır belirtme (Seçim **Veri**, ardından **Liste**, devamında **Toplam Satır**).
 
-**Liste nesnesi oluşturma** 
+**Liste Nesnesi Oluşturma** 
 
-![yapılacaklar:resim_alternatif_metin](picture3.png)
+![todo:image_alt_text](picture3.png)
 
-## **Aspose.Cells API kullanarak Liste Nesnesi Oluşturma**
+## **Aspose.Cells API kullanarak bir Liste Objesi oluşturma**
 
-Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/python/asposecells.api/Workbook)sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection)bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir sınıf olan [**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook) sağlar. [**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook) sınıfı, bir Excel dosyasındaki her çalışsayfaya erişim sağlayan bir [**Worksheets**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) koleksiyonu içerir.
 
-Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)class, bir çalışma sayfasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Oluşturmak için[**Nesne Listesi**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)bir çalışma sayfasında, kullanın[**Nesneleri Listele**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)toplama özelliği[**Çalışma kağıdı**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)sınıf. Her biri[**Nesne Listesi**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)aslında bir nesnedir[**Nesne Koleksiyonunu Listele**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)ayrıca sağlayan sınıf,[**Ekle**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) List nesnesi ekleme ve liste için bir hücre aralığı belirtme yöntemi.
+Çalışsayfa, [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) sınıfı, bir çalışsayfayı yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Bir çalışsayfada [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) oluşturmak için, [**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects) sınıfının [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) koleksiyon özelliğini kullanın. Her [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) aslında [**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection) sınıfının bir nesnesidir ve ayrıca [**add**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) yöntemini sağlar, bu yöntemle Liste Objesi eklenip liste için hücre aralığı belirtilebilir.
 
-Liste nesnesi, belirtilen hücre aralığına göre çalışma sayfasında Aspose.Cells tarafından oluşturulur.[**Nesne Listesi**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)Listeyi kontrol etmek için sınıf.
+Belirtilen hücre aralığına göre, Aspose.Cells tarafından çalışsayfada Liste Objesi oluşturulur. [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) sınıfının özellikleri (örneğin, Toplamları Göster, Liste Sütunları vb.) ile listeyi kontrol etmek için kullanın.
 
-Aşağıda verilen örnekte, aynısını oluşturduk[**Nesne Listesi**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)Yukarıdaki bölümde Aspose.Cells Excel kullanarak oluşturduğumuz gibi Aspose.Cells for Python via Java API kullanarak.
+Aşağıdaki örnekte, yukarıdaki bölümde Microsoft Excel kullanarak oluşturduğumuz aynı [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)'yi Aspose.Cells for Python via Java API kullanarak nasıl oluşturduğumuzu göstermekteyiz.
 
-## Kaynak kodu
+## Kaynak Kod
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Tables-CreatingListObject.py" >}}

@@ -1,35 +1,36 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.3.2
+---
+title: معدلات واجهة برمجة التطبيقات العامة في Aspose.Cells 8.3.2
 type: docs
 weight: 120
 url: /ar/net/public-api-changes-in-aspose-cells-8-3-2/
 ---
-{{% alert color="primary" %}} 
-
- يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.3.1 إلى 8.3.2 والتي قد تهم مطوري الوحدة النمطية / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/net/public-api-changes-in-aspose-cells-8-3-2/) و[الفئات المحذوفة وما إلى ذلك.](/cells/ar/net/public-api-changes-in-aspose-cells-8-3-2/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
-
-{{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **آلية لتعيين الوضع المطلق لـ PivotItem**
- من أجل توفير الميزة[وضع PivotItem المطلق](/cells/ar/net/specifying-the-absolute-position-of-the-pivot-item/)، أظهر Aspose.Cells for .NET 8.3.2 سلسلة من الخصائص وطرق المساعدة كما هو موضح أدناه.
-
-- يمكن استخدام خاصية PivotItem.Position لتحديد فهرس الموضع في جميع عناصر PivotItems بغض النظر عن العقدة الأصلية.
-- يمكن استخدام خاصية PivotItem.PositionInSameParentNode لتحديد فهرس الموضع في PivotItems ضمن نفس العقدة الأصلية.
-- يمكن استخدام طريقة PivotItem.Move (عدد صحيح ، منطقي isSameParent) لتحريك العنصر لأعلى أو لأسفل بناءً على قيمة العد ، حيث يكون العدد هو رقم الموضع لتحريك PivotItem لأعلى أو لأسفل. إذا كانت قيمة العد أقل من الصفر ، فسيتم نقل العنصر لأعلى حيث كما لو كانت قيمة العد أكبر من الصفر ، سينتقل PivotItem إلى أسفل ، والنوع المنطقي هو نفس المعلمة الأصلية تحدد ما إذا كان يجب تنفيذ عملية النقل في نفس العقدة الأصلية أم لا.
 
 {{% alert color="primary" %}} 
 
-يرجى ملاحظة أنه من الضروري استدعاء أساليب PivotTable.RefreshData و PivotTable.CalculateData قبل استخدام طريقة PivotItem.Position و PivotItem.PositionInSameParentNode و PivotItem.Move (عدد int ، bool isSameParent).
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات ل Aspose.Cells من الإصدار 8.3.1 إلى 8.3.2 التي قد تكون ذات أهمية لمطوري الوحدات/التطبيقات. يشمل ليس فقط الطرق العامة الجديدة والمحدثة، [أصناف الفصل المضافة الخ](/cells/ar/net/public-api-changes-in-aspose-cells-8-3-2/)، و[أصناف التفصيل المزالة الخ](/cells/ar/net/public-api-changes-in-aspose-cells-8-3-2/)، ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-### **تمت إضافة سطر توقيع الفصل**
-Aspose.Cells for .NET 8.3.2 يوفر الدعم لخط التوقيع لتقليد الميزة المكافئة لبرنامج MS Excel. كشف هذا الإصدار من Aspose.Cells for .NET فئة SignatureLine وخاصية Picture.SignatureLine لهذا الغرض.
+## **واجهات برمجة التطبيقات الجديدة**
+### **آلية لوضع الموقع المطلق لـ PivotItem**
+لتوفير ميزة [تحديد الموضع المطلق للعنصر (PivotItem)](/cells/ar/net/specifying-the-absolute-position-of-the-pivot-item/), قام Aspose.Cells for .NET 8.3.2 بتعريض سلسلة من الخصائص والطرق المساعدة كما هو مدرج أدناه.
 
-يضيف نموذج التعليمات البرمجية التالي خط التوقيع باستخدام الخاصية Picture.SignatureLine إلى المصنف.
+- يمكن استخدام خاصية PivotItem.Position لتحديد فهرس الموضع في جميع PivotItems بغض النظر عن العقدة الأم.
+- يمكن استخدام خاصية PivotItem.PositionInSameParentNode لتحديد فهرس الموضع في PivotItems تحت نفس العقدة الأم.
+- يمكن استخدام طريقة PivotItem.Move(int count, bool isSameParent) لنقل العنصر أعلى أو أسفل استنادًا إلى قيمة العدد، حيث يُمثل العدد عدد المواقع التي يتم نقل PivotItem إليها لأعلى أو لأسفل. إذا كانت قيمة العدد أقل من الصفر، سيتم نقل العنصر لأعلى، أما إذا كانت قيمة العدد أكبر من الصفر، سيتم نقل PivotItem لأسفل، يُحدد المعلم النوع Boolean isSameParent ما إذا كان يجب تنفيذ عملية النقل في نفس العقدة الأم أم لا.
+
+{{% alert color="primary" %}} 
+
+يرجى ملاحظة، من الضروري استدعاء طرق PivotTable.RefreshData وPivotTable.CalculateData قبل استخدام خصائص PivotItem.Position، PivotItem.PositionInSameParentNode، وطريقة PivotItem.Move(int count, bool isSameParent).
+
+{{% /alert %}} 
+### **تم إضافة توقيع الفئة SignatureLine**
+قدم Aspose.Cells for .NET 8.3.2 الدعم لخط التوقيع لتقليد الميزة المعادة حول مايكروسوفت إكسيل. لهذا الغرض، قد عرض هذا الإصدار من Aspose.Cells for .NET الفئة SignatureLine وخاصية Picture.SignatureLine.
+
+الكود العيني التالي يضيف خط توقيع باستخدام خاصية Picture.SignatureLine إلى دفتر العمل.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -60,14 +61,14 @@ pic.SignatureLine = s;
 {{< /highlight >}}
 
 
-### **طريقة الرسم البياني**
-مع إصدار v8.3.2 ، قدم Aspose.Cells API المخطط. طريقة HasAxis (AxisType axisType ، bool isPrimary) لتحديد ما إذا كان المخطط يحتوي على محور معين أم لا.
+### **تمت إضافة طريقة Chart.HasAxis**
+مع إصدار v8.3.2، قدمت واجهة برمجة التطبيقات Aspose.Cells طريقة Chart.HasAxis(AxisType axisType, bool isPrimary) لتحديد ما إذا كان الرسم البياني يحتوي على محور معين أم لا.
 
-يوضح نموذج التعليمات البرمجية التالي استخدام أسلوب Chart.HasAxis لتحديد ما إذا كان المخطط النموذجي يحتوي على المحور الأساسي والثانوي والقيمة.
+يوضح الكود النموذجي التالي استخدام طريقة Chart.HasAxis لتحديد ما إذا كان الرسم البياني النموذجي يحتوي على محور أساسي وثانوي، والقيمة.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -102,12 +103,12 @@ Console.WriteLine("Has Secondary Value Axis: " + ret);
 {{< /highlight >}}
 
 
-### **الأسلوب WorkbookSettings.CheckWriteProtectedPassword مضاف**
-طريقة WorkbookSettings.CheckWriteProtectedPassword تمكن المطورين من التحقق مما إذا كانت كلمة مرور معينة لتعديل جدول البيانات صحيحة أم لا.
+### **تمت إضافة طريقة WorkbookSettings.CheckWriteProtectedPassword**
+تمكن طريقة WorkbookSettings.CheckWriteProtectedPassword المطورين من التحقق مما إذا كانت كلمة المرور المعطاة لتعديل جدول البيانات صحيحة أم لا.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify password to open inside the load options
 
@@ -128,14 +129,14 @@ Console.WriteLine("Is 567 correct Password to modify: " + ret);
 {{< /highlight >}}
 
 
-### **طرق التحميل الزائد WorkbookRender.ToPrinter & SheetRender.ToPrinter المضافة**
-قدم Aspose.Cells for .NET 8.3.2 أساليب WorkbookRender.ToPrinter (سلسلة PrinterName، int PrintPageIndex، int PrintPageCount) و SheetRender.ToPrinter (سلسلة PrinterName، int PrintPageIndex، int PrintPageCount) لطباعة نطاق صفحات المصنف وورقة العمل على التوالي.
+### **تمت إضافة طرق السيرة المتوالية WorkbookRender.ToPrinter & SheetRender.ToPrinter**
+قدم Aspose.Cells for .NET 8.3.2 طرق WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) وSheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) لطباعة نطاق الصفحات لدفتر العمل وجدول البيانات على التوالي.
 
-يوضح نموذج التعليمات البرمجية التالي استخدام الأساليب المذكورة أعلاه لطباعة الصفحات 2-5 من المصنف وورقة العمل.
+يوضح الكود العيني التالي استخدام الطرق المذكورة أعلاه لطباعة الصفحات 2-5 من المصنف والصفحة.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -164,32 +165,32 @@ sr.ToPrinter(printerName, 1, 4);
 {{< /highlight >}}
 
 
-### **الطريقة Worksheet.RefreshPivotTables المضافة**
-الطريقة المضافة حديثًا Worksheet.RefreshPivotTables تسمح بتحديث جميع الجداول المحورية في جدول بيانات معين في مكالمة واحدة.
+### **أضيفت أسلوب تحديث الجداول المحورية في الورقة**
+أسلوب تحديث الجداول المحورية المضاف حديثًا في الورقة يسمح بتحديث جميع الجداول المحورية في جدول بيانات معين بمكالمة واحدة.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  worksheet.RefreshPivotTables();
 
 {{< /highlight >}}
 
 
-### **أسلوب Workbook.GetNamedStyle المضافة**
-كشف Aspose.Cells for .NET API طريقة Workbook.GetNamedStyle التي تقبل السلسلة كمعامل وتسترجع كائن النمط بناءً على المعامل الذي تم تمريره.
-### **الطريقة Cells. تمت إضافة PortTwoDimensionArray**
-Aspose.Cells for .NET API أتاح استيراد مصفوفات ثنائية الأبعاد لخلايا جدول البيانات بتعريض طريقة Cells.ImportTwoDimensionArray (object [،]، object [،]، int، int، TxtLoadOptions). تستورد الطريقة المذكورة صفيفًا ثنائي الأبعاد من البيانات في ورقة عمل بخيارات أكثر مرونة محددة في TxtLoadOptions.
-### **تمت إضافة خصائص OnePagePerSheet و PageIndex و PageCount**
-كشف Aspose.Cells for .NET 8.3.2 خصائص OnePagePerSheet و PageIndex و PageCount لفئة XpsSaveOptions. يمكن للمستخدم احتواء جميع محتويات جدول البيانات على صفحة واحدة من XPS باستخدام خاصية OnePagePerSheet و / أو استرداد عدد الصفحات المراد طباعتها باستخدام خاصية PageCount. تحصل خاصية PageIndex على / تعين الفهرس الذي يستند إلى 0 للصفحة الأولى المراد حفظها.
+### **تم إضافة أسلوب الحصول على الأسلوب المسمى في الدفتر**
+قامت Aspose.Cells for .NET API بعرض أسلوب Workbook.GetNamedStyle الذي يقبل السلسلة كمعلمة ويسترجع كائن الأسلوب بناءً على المعلمة الممررة.
+### **تمت إضافة أسلوب الاستيراد لمصفوفة ثنائية الأبعاد للخلايا**
+قامت Aspose.Cells for .NET API بجعله ممكنًا استيراد المصفوفات ثنائية الأبعاد إلى خلايا جدول البيانات عن طريق عرض أسلوب Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). يقوم الأسلوب المذكور باستيراد مصفوفة ثنائية الأبعاد من البيانات في ورقة عمل مع خيارات أكثر مرونة تم تعريفها في TxtLoadOptions.
+### **تمت إضافة خصائص OnePagePerSheet وPageIndex & PageCount**
+قدمت Aspose.Cells for .NET 8.3.2 خصائص OnePagePerSheet, PageIndex و PageCount لفئة XpsSaveOptions. يمكن للمستخدم تناسب كل محتويات جدول بيانات على صفحة واحدة من XPS باستخدام خاصية OnePagePerSheet و/أو استرداد عدد الصفحات المراد طباعتها باستخدام خاصية PageCount. يتم الحصول على خاصية PageIndex للحصول على / تعيين الفهرس القائم على القيم التي ستتم حفظها.
 ### **تمت إضافة خصائص NumberDecimalSeparator & NumberGroupSeparator**
-قدم Aspose.Cells for .NET 8.3.2 خصائص NumberDecimalSeparator & NumberGroupSeparator التي يمكنها الحصول على / تعيين الفواصل المخصصة المستخدمة لتنسيق وتحليل القيم الرقمية في جداول البيانات.
+قدمت Aspose.Cells for .NET 8.3.2 خصائص NumberDecimalSeparator و NumberGroupSeparator التي يمكن الحصول عليها/تعيينها لفصل المحتوى المخصص المستخدم لتنسيق وتحليل القيم الرقمية في جداول بيانات.
 
-يوضح نموذج التعليمات البرمجية التالي كيفية تحديد الفواصل المخصصة باستخدام Aspose.Cells API. يحدد الكود التالي الفواصل العشرية والمجموعة المخصصة كنقطة ومسافة على التوالي.
+الكود المقترح التالي يوضح كيفية تحديد الفواصل المخصصة باستخدام واجهة برمجة التطبيقات Aspose.Cells. يُحدد الكود التالي الفاصل المخصص العشري وفاصل المجموعة المخصصة كنقطة وفراغ على التوالي.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook();
 
@@ -202,12 +203,12 @@ workbook.Settings.NumberGroupSeparator = ' ';
 {{< /highlight >}}
 
 
-### **تمت إضافة خاصية PdfSaveOptions.IsFontSubstitutionCharGranularity**
-كشف Aspose.Cells for .NET 8.3.2 خاصية PdfSaveOptions.IsFontSubstitutionCharGranularity للتغلب على المشكلة حيث لا يمكن عرض بعض أحرف Unicode باستخدام عائلة خطوط معينة. عند تعيين خاصية PdfSaveOptions.IsFontSubstitutionCharGranularity إلى true ، سيتم تغيير خط الحرف المحدد الذي لا يمكن عرضه إلى الخط القابل للعرض ويجب أن تظل بقية الكلمة أو الجملة بالخط الأصلي.
+### **تمت إضافة خصائص PdfSaveOptions.IsFontSubstitutionCharGranularity**
+قدمت Aspose.Cells for .NET 8.3.2 خاصية PdfSaveOptions.IsFontSubstitutionCharGranularity لتجاوز المشكلة حيث لا يمكن عرض بعض الأحرف اليونيكود باستخدام عائلة الخط الخاصة. عندما يتم تعيين خاصية PdfSaveOptions.IsFontSubstitutionCharGranularity على true سيتم تغيير الخط الخاص بالحرف المعين الذي لا يمكن عرضه إلى خط قابل للعرض ويجب أن يظل بقية الكلمة أو الجملة بنفس الخط الأصلي.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Save to Pdf after setting PdfSaveOptions.IsFontSubstitutionCharGranularity to true
 
@@ -218,56 +219,56 @@ opts.IsFontSubstitutionCharGranularity = true;
 {{< /highlight >}}
 
 
-## **إزالة واجهات برمجة التطبيقات**
-### **إزالة الطرق المتقادمة**
-تمت إزالة الأساليب التالية من API العامة.
+## **تمت إزالة واجهات برمجة التطبيقات**
+### **تمت إزالة الأساليب القديمة**
+الأساليب التالية تم إزالتها من واجهة برمجة التطبيقات العامة.
 
-- Workbook.Open & Workbook.Save الأساليب.
-- طريقة Workbook.SetOleSize.
-- طريقة Workbook.LoadData.
-- WorkbookDesigner.Open & WorkbookDesigner.Save الطرق.
-- طريقة WorksheetCollection.DeleteName.
-### **تمت إزالة الخصائص المتقادمة**
-تمت إزالة الخصائص التالية من API العامة.
+- أساليب فتح وحفظ الدفتر.
+- أساليب مجموعة OleSize.
+- أسلوب LoadData للدفتر.
+- تشمل الأساليب WorkbookDesigner.Open و WorkbookDesigner.Save.
+- تشمل الأساليب WorksheetCollection.DeleteName.
+### **تمت إزالة الخصائص القديمة**
+الخصائص التالية تم إزالتها من واجهة برمجة التطبيقات العامة.
 
-- المصنف خاصية محمية.
-- المصنف خاصية اللغة.
-- المصنف الملكية المنطقة.
-- WorkbookSettings.ReCalcOnOpen الخاصية.
-- إعدادات المصنف. خاصية اللغة.
-- إعدادات المصنف. خاصية الترميز.
+- تشمل الخاصية Workbook.IsProtected.
+- خاصية Workbook.Language.
+- خاصية Workbook.Region.
+- خاصية WorkbookSettings.ReCalcOnOpen.
+- خاصية WorkbookSettings.Language.
+- خاصية WorkbookSettings.Encoding.
 - خاصية WorkbookSettings.ConvertNumericData.
-- الخاصية WorksheetCollection.HidePivotFieldList.
+- خاصية WorksheetCollection.HidePivotFieldList.
 - خاصية WorksheetCollection.EnableHTTPCompression.
-- WorksheetCollection.Is الخاصية المصغرة.
-- WorksheetCollection.Is الخاصية المخفية.
-- الخاصية WorksheetCollection.SheetTabBarWidth.
+- تشمل الخاصية WorksheetCollection.IsMinimized.
+- تشمل الخاصية WorksheetCollection.IsHidden.
+- خاصية WorksheetCollection.SheetTabBarWidth.
 - خاصية WorksheetCollection.WindowLeft.
-- الخاصية WorksheetCollection.WindowLeftInch.
-- الخاصية WorksheetCollection.WindowLeftCM.
+- خاصية WorksheetCollection.WindowLeftInch.
+- خاصية WorksheetCollection.WindowLeftCM.
 - خاصية WorksheetCollection.WindowTop.
-- الخاصية WorksheetCollection.WindowTopInch.
-- الخاصية WorksheetCollection.WindowTopCM.
-- الخاصية WorksheetCollection.WindowWidth.
-- الخاصية WorksheetCollection.WindowWidthInch.
-- الخاصية WorksheetCollection.WindowWidthCM.
-- الخاصية WorksheetCollection.WindowHeight.
-- الخاصية WorksheetCollection.WindowHeightInch.
-- الخاصية WorksheetCollection.WindowHeightCM.
-- Worksheet.HPageBreaks.
-- Worksheet.VPageBreaks.
-- الخاصية HtmlSaveOptions.DisplayHTMLCrossString.
-- HtmlSaveOptions.ExportChartImageFormat الخاصية.
-- SaveOptions.ExpCellNameToXLSX.
-- SaveOptions.DefaultFont.
-- SaveOptions.Compliance الخاصية.
-- SaveOptions.Pdf خاصية الإشارة المرجعية.
+- خاصية WorksheetCollection.WindowTopInch.
+- خاصية WorksheetCollection.WindowTopCM.
+- خاصية WorksheetCollection.WindowWidth.
+- خاصية WorksheetCollection.WindowWidthInch.
+- خاصية WorksheetCollection.WindowWidthCM.
+- خاصية WorksheetCollection.WindowHeight.
+- خاصية WorksheetCollection.WindowHeightInch.
+- خاصية WorksheetCollection.WindowHeightCM.
+- خاصية Worksheet.HPageBreaks.
+- خاصية Worksheet.VPageBreaks.
+- خاصية HtmlSaveOptions.DisplayHTMLCrossString.
+- خاصية HtmlSaveOptions.ExportChartImageFormat.
+- خاصية SaveOptions.ExpCellNameToXLSX.
+- خاصية SaveOptions.DefaultFont.
+- خاصية SaveOptions.Compliance.
+- خاصية SaveOptions.PdfBookmark.
 - خاصية SaveOptions.PdfImageCompression.
-- TxtSaveOptions.Always اقتباس الممتلكات.
-## **واجهات برمجة التطبيقات المهجورة**
-### **مصنف الخاصية. SaveOptions قديم**
-يجب تمرير كائن من SaveOptions إلى أسلوب Workbook.Save بعد تعيين خصائص SaveOptions المناسبة.
-### **مصنفات الملكية.الأنماط ونمط الصف**
-يُنصح باستخدام طريقة Workbook.CreateStyle لإنشاء أسلوب ومعالجته لمثيل المصنف بدلاً من إنشاء أسلوب باستخدام أسلوب StyleCollection.Add. علاوة على ذلك ، يمكن استخدام طريقة Workbook.GetNamedStyle (سلسلة نصية) للحصول على نمط مسمى بدلاً من StyleCollection [سلسلة].
-### **الأسلوب PivotItem.Move (عدد العمليات) قديم**
-مع إصدار Aspose.Cells 8.3.2 ، قدم API حملًا زائدًا آخر لطريقة PivotItem.Move التي تقبل معلمة العدد الصحيح للمعامل count والمعلمة المنطقية لنقل PivotItem داخل العقدة الأصلية.
+- خاصية TxtSaveOptions.AlwaysQuoted.
+## **واجهات برمجة التطبيقات المهملة**
+### **واجهة برمجة تطبيقات قديمة لخاصية Workbook.SaveOptions**
+يجب تمرير كائن SaveOptions إلى طريقة Workbook.Save بعد ضبط خصائص SaveOptions الصحيحة.
+### **خاصية Workbook.Styles & فئة StyleCollection قديمة**
+يُفضل استخدام طريقة Workbook.CreateStyle لإنشاء وتلاعب بالنمط لمثيل المصنف بدلاً من إنشاء نمط بطريقة StyleCollection.Add. علاوة على ذلك، يمكن استخدام الطريقة Workbook.GetNamedStyle(string) للحصول على نمط مسمى بدلاً من StyleCollection[string].
+### **طريقة PivotItem.Move قديمة**
+مع إصدار Aspose.Cells 8.3.2، قد قدمت واجهة API تحميل زائد آخر لطريقة PivotItem.Move تقبل المعلمة الصحيحة للعدد والمعلمة البولية لتحريك PivotItem داخل العقد الأصلي.

@@ -1,5 +1,5 @@
 ---
-title: 电子表格编辑器 - 组件
+title: 电子表格编辑器  组件
 type: docs
 weight: 50
 url: /zh/java/spreadsheet-editor-components/

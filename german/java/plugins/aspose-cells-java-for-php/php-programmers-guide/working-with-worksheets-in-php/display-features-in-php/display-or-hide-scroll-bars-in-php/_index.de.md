@@ -1,16 +1,17 @@
-﻿---
-title: Bildlaufleisten in Php anzeigen oder ausblenden
+---
+title: Anzeigen oder Ausblenden von Bildlaufleisten in Php
 type: docs
 weight: 20
 url: /de/java/display-or-hide-scroll-bars-in-php/
 ---
-## **Aspose.Cells – Bildlaufleisten anzeigen oder ausblenden**
-### **Bildlaufleisten ausblenden**
- So blenden Sie Bildlaufleisten mit aus**Aspose.Cells Java for PHP** , Anruf**Bildlaufleisten ausblenden** Modul.
+
+## **Aspose.Cells - Scrollleisten anzeigen oder ausblenden**
+### **Verbergen von Bildlaufleisten**
+Um Bildlaufleisten in **Aspose.Cells Java für PHP** auszublenden, rufen Sie das Modul **displayhidescrollbars** auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -29,7 +30,7 @@ $workbook->getSettings()->setHScrollBarVisible(false);
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Bildlaufleisten anzeigen oder ausblenden (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Anzeigen oder Ausblenden von Bildlaufleisten (Aspose.Cells)** von einer der unten aufgeführten Social-Coding-Sites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideScrollBars.php)

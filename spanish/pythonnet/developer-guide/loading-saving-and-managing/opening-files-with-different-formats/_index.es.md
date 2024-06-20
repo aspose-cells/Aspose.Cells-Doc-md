@@ -1,82 +1,84 @@
-﻿---
+---
 title: Apertura de archivos con diferentes formatos
 type: docs
 weight: 30
 url: /es/python-net/opening-files-with-different-formats/
-description: Aspose.Cells for .NET API le permite abrir/leer diferentes formatos como XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
-keywords: open xlsx files, open html files, read fods files, read ods files, read sxc files, open csv files, Tab Delimited, SpreadsheetML, tsv, mhtml
+
+description: Aspose.Cells for .NET La API le permite abrir/leer diferentes formatos como XLSX, HTML, CSV, ODS, TSV, SXC, FODS, etc.
+keywords: abrir archivos xlsx, abrir archivos html, leer archivos fods, leer archivos ods, leer archivos sxc, abrir archivos csv, Delimitado por tabulaciones, SpreadsheetML, tsv, mhtml
 ---
+
 {{% alert color="primary" %}}
 
- Usando Aspose.Cells puede abrir archivos con diferentes formatos.**Aspose.Cells** puede abrir una variedad de formatos de archivo como Microsoft hojas de cálculo de Excel (XLS, XLSX, XLSM, XLSB), SpreadsheetML, archivos de valores separados por comas (CSV), archivos delimitados por tabuladores o valores separados por tabuladores (TSV), etc.
+Con Aspose.Cells puedes abrir archivos con diferentes formatos. **Aspose.Cells** puede abrir una variedad de formatos de archivo como hojas de cálculo de Microsoft Excel (XLS, XLSX, XLSM, XLSB), SpreadsheetML, valores separados por comas (CSV), archivos de valores delimitados por tabuladores (TSV), etc.
 
-Si necesita conocer todos los formatos de archivo admitidos, consulte las siguientes páginas:
+Si necesitas conocer todos los formatos de archivo admitidos, consulta las siguientes páginas:
 [Formatos de archivo admitidos](https://docs.aspose.com/cells/python-net/supported-file-formats/)
 
 {{% /alert %}}
 
-## **Apertura de archivos con diferentes formatos**
+## **Abriendo Archivos con Diferentes Formatos**
 
-Aspose.Cells permite a los desarrolladores abrir archivos de hoja de cálculo con diferentes formatos, como SpreadsheetML, valores separados por comas (CSV), valores delimitados por tabulaciones o separados por tabulaciones (TSV), archivos ODS. Para abrir dichos archivos, los desarrolladores pueden usar la misma metodología que usan para abrir archivos de diferentes versiones de Excel Microsoft.
+Aspose.Cells permite a los desarrolladores abrir archivos de hoja de cálculo con diferentes formatos como SpreadsheetML, valores separados por comas (CSV), valores delimitados por tabuladores (TSV), archivos ODS. Para abrir tales archivos, los desarrolladores pueden usar la misma metodología que usan para abrir archivos de diferentes versiones de Microsoft Excel.
 
-### **Apertura de archivos SpreadsheetML**
+### **Abriendo Archivos de SpreadsheetML**
 
-Los archivos SpreadsheetML son representaciones XML de hojas de cálculo que incluyen toda la información al respecto, como formato, fórmulas, etc. Desde Microsoft Excel XP, se agrega una opción de exportación XML a Microsoft Excel que exporta sus hojas de cálculo a archivos SpreadsheetML.
+Los archivos de SpreadsheetML son representaciones XML de hojas de cálculo que incluyen toda la información sobre ellas, como formato, fórmulas, etc. Desde Microsoft Excel XP, se añadió una opción de exportación XML a Microsoft Excel que exporta tus hojas de cálculo a archivos de SpreadsheetML.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenSpreadsheetMLFile.py" >}}
 
-### **Apertura de archivos HTML**
+### **Abriendo Archivos HTML**
 
-Aspose.Cells le permite abrir el archivo HTML en el objeto Libro de trabajo. El archivo HTML debería estar orientado a Excel, es decir, MS-Excel debería poder abrirlo.
+Aspose.Cells te permite abrir archivos HTML en un objeto Workbook. El archivo HTML debe estar orientado a Microsoft Excel, es decir, MS-Excel debería poder abrirlo.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenHTMLFile.py" >}}
 
-### **Apertura de archivos CSV**
+### **Abriendo Archivos CSV**
 
-Los archivos de valores separados por comas (CSV) contienen registros donde los valores están separados por comas. Los datos se almacenan como una tabla donde cada columna está separada por el carácter de coma y citada por el carácter de comillas dobles. Si un valor de campo contiene un carácter de comillas dobles, se escapa con un par de caracteres de comillas dobles. También puede usar Microsoft Excel para exportar datos de hojas de cálculo a CSV.
+Los archivos de Valores Separados por Comas (CSV) contienen registros donde los valores están separados por comas. Los datos se almacenan en una tabla donde cada columna está separada por el carácter de coma y entre comillas por el carácter de comillas dobles. Si un valor de campo contiene un carácter de comillas dobles, se escapa con un par de caracteres de comillas dobles. También puedes usar Microsoft Excel para exportar datos de hoja de cálculo a CSV.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenCSVFile.py" >}}
 
-#### **Abrir archivos CSV y reemplazar caracteres no válidos**
+#### **Abriendo Archivos CSV y reemplazando caracteres inválidos**
 
-En Excel, cuando se abre el archivo CSV con caracteres especiales, los caracteres se reemplazan automáticamente. Lo mismo hace Aspose.Cells API, que se demuestra en el ejemplo de código que se proporciona a continuación.
+En Excel, cuando se abre un archivo CSV con caracteres especiales, los caracteres se reemplazan automáticamente. Lo mismo hace la API de Aspose.Cells, como se demuestra en el ejemplo de código que se muestra a continuación.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenCSVFileAndReplaceInvalidCharacters.py" >}}
 
-El archivo fuente de muestra se puede descargar desde los siguientes enlaces para probar esta función.
+Puedes descargar el archivo fuente de muestra desde los siguientes enlaces para probar esta función.
 
-[Caracteres no válidos.csv](InvalidCharacters.csv)
+[InvalidCharacters.csv](InvalidCharacters.csv)
 
-### **Apertura de archivos de texto con separador personalizado**
+### **Abriendo Archivos de Texto con Separador Personalizado**
 
-Los archivos de texto se utilizan para contener datos de hojas de cálculo sin formato. El archivo es una especie de archivo de texto sin formato que puede tener algunos delimitadores personalizados.
+Los archivos de texto se usan para contener datos de hojas de cálculo sin formato. El archivo es un tipo de archivo de texto sin formato que puede tener algunos delimitadores personalizados.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenTextFilewithCustomSeparator.py" >}}
 
-El archivo fuente de muestra se puede descargar desde los siguientes enlaces para probar esta función.
+Puedes descargar el archivo fuente de muestra desde los siguientes enlaces para probar esta función.
 
 [CustomSeparator.txt](CustomSeparator.txt)
 
-### **Apertura de archivos delimitados por tabulaciones**
+### **Apertura de archivos con formato de pestañas**
 
-El archivo delimitado por tabuladores (texto) contiene datos de hoja de cálculo pero sin ningún formato. Los datos se organizan en filas y columnas como en tablas y hojas de cálculo. Básicamente, un archivo delimitado por tabulaciones es un tipo especial de archivo de texto sin formato con una tabulación entre cada columna.
+El archivo con formato de pestañas (Texto) contiene datos de hojas de cálculo pero sin ningún formato. Los datos están organizados en filas y columnas como en tablas y hojas de cálculo. Básicamente, un archivo con formato de pestañas es un tipo especial de archivo de texto plano con una pestaña entre cada columna.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenTabDelimitedFile.py" >}}
 
-### **Abrir archivos de valores separados por tabuladores (TSV)**
+### **Apertura de archivos de Valores Separados por Comas y con pestañas (TSV)**
 
-El archivo de valores separados por tabuladores (TSV) contiene datos de hoja de cálculo pero sin ningún formato. Es lo mismo con el archivo delimitado por tabuladores donde los datos se organizan en filas y columnas como en tablas y hojas de cálculo.
+El archivo de valores separados por comas y con pestañas (TSV) contiene datos de hojas de cálculo pero sin ningún formato. Es lo mismo que un archivo con formato de pestañas donde los datos están organizados en filas y columnas como en tablas y hojas de cálculo.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenTSVFile.py" >}}
 
 ### **Apertura de archivos SXC**
 
-StarOffice Calc es similar a Microsoft Excel y admite fórmulas, gráficos, funciones y macros. Las hojas de cálculo creadas con este software se guardan con la extensión SXC. El archivo SXC también se usa para los archivos de hoja de cálculo de OpenOffice.org Calc. Aspose.Cells puede leer archivos SXC como se demuestra en el siguiente ejemplo de código.
+StarOffice Calc es similar a Microsoft Excel y admite fórmulas, gráficos, funciones y macros. Las hojas de cálculo creadas con este software se guardan con la extensión SXC. El archivo SXC también se utiliza para los archivos de hojas de cálculo de OpenOffice.org Calc. Aspose.Cells puede leer archivos SXC como se muestra en el siguiente ejemplo de código.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenSXCFile.py" >}}
 
 ### **Apertura de archivos FODS**
 
-El archivo FODS es una hoja de cálculo guardada en OpenDocument XML sin compresión. Aspose.Cells puede leer archivos FODS como se demuestra en el siguiente ejemplo de código.
+El archivo FODS es una hoja de cálculo guardada en OpenDocument XML sin ninguna compresión. Aspose.Cells puede leer archivos FODS como se muestra en el siguiente ejemplo de código.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenFODSFile.py" >}}

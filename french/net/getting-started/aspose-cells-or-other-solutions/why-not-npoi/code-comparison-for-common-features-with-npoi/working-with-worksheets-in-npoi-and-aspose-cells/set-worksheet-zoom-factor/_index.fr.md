@@ -1,13 +1,14 @@
-﻿---
-title: Définir le facteur de zoom de la feuille de calcul
+---
+title: Définir un facteur de zoom de la feuille de calcul
 type: docs
 weight: 80
 url: /fr/net/set-worksheet-zoom-factor/
 ---
-## **Aspose.Cells - Définir le facteur de zoom de la feuille de calcul**
+
+## **Aspose.Cells - Définir un facteur de zoom de la feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -27,10 +28,10 @@ workbook.Save("../../data/newWorksheet.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Définir le facteur de zoom de la feuille de calcul**
+## **NPOI - HSSF XSSF - Définir un facteur de zoom de la feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -45,13 +46,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Définir le facteur de zoom de la feuille de calcul** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Définir un facteur de zoom de la feuille de calcul** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Zoom.Factor.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Travailler avec des feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

@@ -1,15 +1,16 @@
-﻿---
-title: Jython でのドキュメント プロパティの管理
+---
+title: Jython でドキュメントのプロパティを管理
 type: docs
 weight: 60
 url: /ja/java/managing-document-properties-in-jython/
 ---
-## **Aspose.Cells - ドキュメント プロパティの管理**
-を使用してドキュメントを追加するには**Aspose.Cells Jython の場合は Java**.ここでサンプルコードを見ることができます。
 
-**Jython コード**
+## **Aspose.Cells - ドキュメントプロパティの管理**
+**Aspose.Cells Java for Jython**を使用してドキュメントを追加します。ここでは例を示します。
 
-{{< highlight "java" >}}
+**Jythonコード**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -63,7 +64,7 @@ if __name__ == '__main__':
     ManagingDocumentProperties()
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**添付書類 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に示すいずれかのソーシャルコーディングサイトから**Aspose.Cellsのドキュメントを追加する**をダウンロード:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ManagingDocumentProperties.py)

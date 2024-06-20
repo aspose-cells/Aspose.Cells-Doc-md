@@ -1,28 +1,29 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.6.1
+---
+title: Cambios en la API pública en Aspose.Cells 8.6.1
 type: docs
 weight: 200
 url: /es/net/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.Cells API de la versión 8.6.0 a la 8.6.1 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, clases agregadas, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.6.0 hasta la 8.6.1 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo nuevos y actualizados métodos públicos, clases agregadas, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Compatibilidad con el tipo de destino de enlace HTML**
- Esta versión de Aspose.Cells for .NET API ha expuesto una enumeración llamada HtmlLinkTargetType junto con una nueva propiedad HtmlSaveOptions.LinkTargetType que juntos permiten[establezca el tipo de destino para los enlaces en la hoja de cálculo durante la conversión al formato HTML](/cells/es/net/change-the-html-link-target-type/). Los valores posibles de la enumeración HtmlLinkTargetType son los siguientes, donde el valor predeterminado es Self.
+## **APIs Añadidas**
+### **Soporte para tipo de enlace HTML**
+Esta versión de la API Aspose.Cells for .NET ha expuesto una enumeración llamada HtmlLinkTargetType junto con una nueva propiedad HtmlSaveOptions.LinkTargetType que juntas permiten [establecer el tipo de destino para los enlaces en la hoja de cálculo durante la conversión a formato HTML](/cells/es/net/change-the-html-link-target-type/). Los posibles valores de la enumeración HtmlLinkTargetType son los siguientes, donde el valor predeterminado es Self.
 
-1. HtmlLinkTargetType.Blank: abre el documento o la página vinculados en una nueva ventana o pestaña.
-1. HtmlLinkTargetType.Parent: abre el documento o la página vinculados en el marco principal.
-1. HtmlLinkTargetType.Self: abre el documento o la página vinculados en el mismo marco donde se hizo clic en el vínculo.
-1. HtmlLinkTargetType.Top: abre el documento o la página vinculados en el cuerpo completo de la ventana.
+1. HtmlLinkTargetType.Blank: Abre el documento/enlace vinculado en una nueva ventana o pestaña.
+1. HtmlLinkTargetType.Parent: Abre el documento/enlace vinculado en el marco padre.
+1. HtmlLinkTargetType.Self: Abre el documento/enlace vinculado en el mismo marco donde se hizo clic en el enlace.
+1. HtmlLinkTargetType.Top: Abre el documento/enlace vinculado en el cuerpo completo de la ventana.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -43,14 +44,14 @@ workbook.Save(outputFilePath, options);
 {{< /highlight >}}
 
 
-### **Método VbaModuleCollection.Remove Agregado**
-Aspose.Cells for .NET 8.6.1 ha expuesto otra sobrecarga del método VbaModuleCollection.Remove que ahora puede aceptar una instancia de Worksheet para eliminar todos los módulos VBA asociados con la hoja de trabajo especificada.
+### **Agregado el Método VbaModuleCollection.Remove**
+Aspose.Cells for .NET 8.6.1 ha expuesto otra sobrecarga del método VbaModuleCollection.Remove que ahora puede aceptar una instancia de Worksheet para eliminar todos los módulos VBA asociados con la hoja de cálculo especificada.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -67,14 +68,14 @@ modules.Remove(workbook.Worksheets[0]);
 {{< /highlight >}}
 
 
-### **Método RangeCollection.Add Agregado**
-Aspose.Cells for .NET 8.6.1 ha expuesto el método RangeCollection.Add que se puede usar para agregar objetos Range a la colección de rangos para una hoja de trabajo en particular.
+### **Agregado el Método RangeCollection.Add**
+Aspose.Cells for .NET 8.6.1 ha expuesto el método RangeCollection.Add que se puede usar para agregar objetos Range a la colección de rangos para una hoja de cálculo específica.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -95,14 +96,14 @@ ranges.Add(cells.CreateRange("A1:B4"));
 {{< /highlight >}}
 
 
-### **Método Cell. Establecer caracteres añadidos**
- El método Cell.SetCharacters se puede utilizar para[actualizar las partes del texto enriquecido](/cells/es/net/access-and-update-the-portions-of-rich-text-of-cell/) de un objeto Cell dado. El método Cell.GetCharacters se debe usar para acceder a las partes del texto y luego se pueden hacer enmiendas usando el método Cell.SetCharacters mientras que el**Conseguir** El método devuelve una matriz de objetos FontSetting que se pueden manipular para establecer varias propiedades: nombre de fuente, color de fuente, negrita, etc.**Colocar** El método se puede utilizar para aplicar los cambios.
+### **Método Cell.SetCharacters Agregado**
+El método Cell.SetCharacters se puede utilizar para [actualizar las partes del texto enriquecido](/cells/es/net/access-and-update-the-portions-of-rich-text-of-cell/) de un objeto Cell dado. El método Cell.GetCharacters se utiliza para acceder a las partes del texto y luego se pueden realizar modificaciones utilizando el método Cell.SetCharacters, mientras que el método **Get** devuelve una matriz de objetos FontSetting que se pueden manipular para establecer varias propiedades como el nombre de la fuente, color de la fuente, negrita, etc. y el método **Set** se puede usar para aplicar los cambios.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -118,7 +119,7 @@ Cell cell = worksheet.Cells["A1"];
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.GetCharacters();
+FontSetting[] settings = cell.GetCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -131,14 +132,14 @@ cell.SetCharacters(settings);
 {{< /highlight >}}
 
 
-### **Propiedad VbaProject.IsSigned agregada**
- Aspose.Cells for .NET 8.6.1 ha expuesto la propiedad VbaProject.IsSigned que se puede utilizar para[probar si un VbaProject en un libro de trabajo está firmado o no](/cells/es/net/check-if-vba-project-in-a-workbook-is-signed/)La propiedad de tipo booleano devuelve verdadero si el proyecto está firmado.
+### **Propiedad VbaProject.IsSigned Agregada**
+Aspose.Cells for .NET 8.6.1 ha expuesto la propiedad VbaProject.IsSigned que se puede utilizar para [comprobar si un proyecto VbaProject en un libro de trabajo está firmado o no](/cells/es/net/check-if-vba-project-in-a-workbook-is-signed/). La propiedad de tipo Boolean devuelve verdadero si el proyecto está firmado.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -167,9 +168,9 @@ else
 }
 
 {{< /highlight >}}
-## **API modificadas**
-### **Método Cell.GetFormatConditions modificado**
-Con el lanzamiento de v8.6.1, Aspose.Cells for .NET API ha modificado el tipo de devolución del método Cell.GetFormatConditions que ahora devuelve una matriz de tipo FormatConditionCollection.
-## **API obsoletas**
-### **Método Workbook.CheckWriteProtectedPassword obsoleto**
-Con el lanzamiento de v8.6.1, el método Workbook.CheckWriteProtectedPassword se ha marcado como obsoleto. Se recomienda utilizar el método WorkbookSettings.WriteProtection.ValidatePassword que puede aceptar un valor de cadena como parámetro y devuelve un valor booleano si la contraseña coincide con la contraseña preestablecida de la hoja de cálculo.
+## **APIs Modificados**
+### **Método Modificado Cell.GetFormatConditions**
+Con el lanzamiento de v8.6.1, la API Aspose.Cells for .NET ha modificado el tipo de retorno del método Cell.GetFormatConditions que ahora devuelve una matriz de tipo FormatConditionCollection.
+## **APIs obsoletas**
+### **Método Workbook.CheckWriteProtectedPassword Obsoleto**
+Con el lanzamiento de v8.6.1, el método Workbook.CheckWriteProtectedPassword ha sido marcado como obsoleto. Se recomienda utilizar el método WorkbookSettings.WriteProtection.ValidatePassword que puede aceptar un valor de cadena como parámetro y devuelve un Boolean si la contraseña coincide con la contraseña preestablecida de la hoja de cálculo.

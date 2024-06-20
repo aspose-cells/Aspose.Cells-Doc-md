@@ -1,40 +1,41 @@
-﻿---
-title: Installerar Aspose.Cells for SharePoint
+---
+title: Installation av Aspose.Cells for SharePoint
 type: docs
 weight: 10
 url: /sv/sharepoint/installing-aspose-cells-for-sharepoint/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for SharePoint är nedladdningsbart som Aspose.Cells.SharePoint.zip-arkivet.
+Aspose.Cells for SharePoint är nedladdningsbar som Aspose.Cells.SharePoint.zip-arkiv. 
 
 {{% /alert %}} 
 ### **Arkivinnehåll**
 Arkivet Aspose.Cells.SharePoint.zip innehåller:
 
-- Aspose.Cells.SharePoint.wsp – SharePoint-lösningsfil. Aspose.Cells for SharePoint är paketerad som en SharePoint-lösning för att underlätta driftsättning/återdragning och funktionsaktivering/deaktivering över serverfarmen.
-- Aspose_LicenseAgreement.rtf – Slutanvändarlicensavtal
+- Aspose.Cells.SharePoint.wsp – SharePoint-lösningsfil. Aspose.Cells for SharePoint är paketerad som en SharePoint-lösning för att underlätta utrullning/återkallelse samt aktivering/inaktivering av funktioner över hela servergården.
+- Aspose_LicenseAgreement.rtf – Licensavtal för slutanvändare
 - Aspose.Cells for SharePoint.pdf – Användardokumentation
-- Aspose.Cells for SharePoint Documentation.chm – Användardokumentation med offentlig referens API
-- setup.exe – installationsprogram
-- setup.exe.config – Installationskonfigurationsfil
+- Aspose.Cells for SharePoint Documentation.chm – Användardokumentation med offentlig API-referens
+- setup.exe – Installationsprogram
+- setup.exe.config – Inställningskonfigurationsfil
 
-Installationsprogrammet kontrollerar följande villkor innan du fortsätter med installationen:
+Installationsprogrammet kontrollerar följande villkor innan installationen fortsätter:
 
 - WSS 3.0, MOSS 2007 eller SharePoint 2010 är installerat.
 - Användaren har behörighet att installera SharePoint-lösningar.
 - SharePoint-databasen är online.
-- WSS Administrationstjänst startas.
-- WSS Timer-tjänst startas.
+- WSS-administrationstjänsten är startad.
+- WSS-tidtjänsten är startad.
 
-WSS Administrationstjänst och Timertjänst behövs eftersom vissa installationsåtgärder förlitar sig på ett timerjobb för att spridas till alla servrar i serverfarmen.
+WSS-administrationstjänsten och tidtjänsten behövs eftersom vissa installationsåtgärder är beroende av en tidsinställd uppgift för att spridas till alla servrar i servergården. 
 #### **För att installera Aspose.Cells for SharePoint**
-1. Packa upp Aspose.Cells.SharePoint zip till den lokala enheten på MOSS 7.0- eller WSS 3.0-servern.
-1. Kör setup.exe och följ instruktionerna på skärmen.
+1. Packa upp Aspose.Cells.SharePoint-zip till den lokala enheten för MOSS 7.0 eller WSS 3.0-servern.
+2. Kör setup.exe och följ anvisningarna på skärmen.
 
 Installationsprogrammet utför följande åtgärder:
 
-1.  Kontrollera installationsförutsättningarna. Installationen fortsätter inte om någon kontroll misslyckas.
+1. Kontrollera installationsförutsättningarna. Installationen kommer inte att fortsätta om någon kontroll misslyckas. 
 
    **Systemkontroll** 
 
@@ -43,7 +44,7 @@ Installationsprogrammet utför följande åtgärder:
 
 
 
-1.  Visa slutanvändarlicensavtal. Användaren måste acceptera avtalet för att kunna fortsätta.
+2. Visa licensavtalet för slutanvändaren. Användaren måste acceptera avtalet för att fortsätta. 
 
    **EULA** 
 
@@ -52,16 +53,16 @@ Installationsprogrammet utför följande åtgärder:
 
 
 
-1.  Visa dialogrutan för val av distributionsmål. Användaren väljer webbapplikationer och webbplatssamlingar där funktionen ska aktiveras. Se figuren nedan.
+3. Visa dialogrutan för val av utrullningsmål. Användaren väljer webbapplikationer och webbplatssamlingar där funktionen ska aktiveras. Se figuren nedan. 
 
-   **Utbyggnadsmål** 
+   **Utrullningsmål** 
 
 ![todo:image_alt_text](installing-aspose-cells-for-sharepoint_3.png)
 
 
 
 
-1.  Distribuera funktionen till serverfarmen.
+4. Utveckla funktionen till servergården. 
 
    **Kör installation** 
 
@@ -70,9 +71,9 @@ Installationsprogrammet utför följande åtgärder:
 
 
 
-1. Aktivera funktionen för de valda webbplatssamlingarna och konfigurera deras överordnade webbapplikationer.
-1. Visa en lista över webbapplikationer och webbplatssamlingar där funktionen har distribuerats och aktiverats.
+5. Aktivera funktionen för de valda webbplatssamlingarna och konfigurera deras överordnade webbapplikationer.
+6. Visa en lista över webbapplikationer och webbplatssamlingar där funktionen har utrullats och aktiverats. 
 
-   **Installationen är klar** 
+   **Installation slutförd** 
 
 ![todo:image_alt_text](installing-aspose-cells-for-sharepoint_5.png)

@@ -1,37 +1,40 @@
-﻿---
-title: Satırları ve Sütunları Dondur
+---
+title: Satırları ve Sütunları Dondurmak/Kaldırmak
 type: docs
 weight: 70
-url: /tr/net/freeze-unfreeze-rows-and-columns/
+url: /tr/net/aspose-cells-griddesktop/freeze-unfreeze-rows-and-columns/
+keywords: GridDesktop,dondur,kaldır
+description: Bu makale, GridDesktop ta satır/sütunu dondurma/kaldırma işleminin nasıl yapılacağını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konu, bir çalışma sayfasının satırlarını ve sütunlarını dondurma ve çözmeyle ilgili bilgileri ele alır. Sütunları veya satırları dondurmak, kullanıcıların çalışma sayfasının diğer bölümlerine kaydırırken sütun başlıklarını veya satır başlıklarını görünür durumda tutmalarını sağlar. Bu özellik, büyük miktarda veri içeren çalışma sayfalarında gezinmek için çok yararlıdır. Çünkü bu gibi durumlarda kullanıcılar verileri kaydırdıklarında sadece veriler aşağı kaydırılacak ve verilerin okunabilirliğini artırmak için başlıklar orada kalacaktır.
+Bu konu, çalışma sayfasının satır ve sütunlarını dondurma ve kaldırma hakkındaki bilgileri içerir. Sütunları veya satırları dondurmak, kullanıcıların çalışma sayfasının diğer kısımlarına kaydırırken sütun başlıklarını veya satır başlıklarını görüntülenebilir tutmalarını sağlar. Bu özellik, kullanıcılara büyük veri hacmi içeren çalışma sayfaları üzerinde kaydırırken başlıkların okunabilirliğini artırmak için çok yardımcıdır.
 
 {{% /alert %}} 
-## **Dondurucu Sütunlar**
+## **Sütunları Dondurmak**
 Aspose.Cells.GridDesktop kullanarak bir çalışma sayfasının sütunlarını dondurmak için lütfen aşağıdaki adımları izleyin:
 
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  sayısını ayarla**Donmuş Sütunlar** içinde**çalışma sayfası**
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- **Çalışma Sayfasında** dondurulmuş **Sütun** sayısını ayarlayın
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-FreezeColumns.cs" >}}
-## **Sütunları Çözme**
-Aspose.Cells.GridDesktop kullanarak bir çalışma sayfasının sütunlarını çözmek için lütfen aşağıdaki adımları izleyin:
+## **Sütunların Dondurulmasını Kaldırmak**
+Aspose.Cells.GridDesktop kullanarak bir çalışma sayfasının sütunlarını dondurmak için lütfen aşağıdaki adımları izleyin:
 
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  sayısını ayarla**Donmuş Sütunlar** içinde**çalışma sayfası** Sıfıra (0). Donmamış sütunların etkisini üretecek
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- **Çalışma Sayfasında** **Dondurulmuş Sütunların** sayısını Sıfır (0) olarak ayarlayın. Bu, sütunların çözülmemiş etkisini meydana getirecektir.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-UnFreezeColumns.cs" >}}
-## **Satırları Dondurucu**
+## **Satırları Dondurma**
 Aspose.Cells.GridDesktop kullanarak bir çalışma sayfasının satırlarını dondurmak için lütfen aşağıdaki adımları izleyin:
 
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  sayısını ayarla**Donmuş Sıralar** içinde**çalışma sayfası**
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- **Çalışma Sayfasında** **Dondurulmuş Satırların** sayısını ayarlayın
 
 
 
@@ -39,8 +42,8 @@ Aspose.Cells.GridDesktop kullanarak bir çalışma sayfasının satırlarını d
 ## **Satırları Çözme**
 Aspose.Cells.GridDesktop kullanarak bir çalışma sayfasının satırlarını çözmek için lütfen aşağıdaki adımları izleyin:
 
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  sayısını ayarla**Donmuş Sıralar** içinde**çalışma sayfası** Sıfıra (0). Donmamış satırların etkisini üretecek
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- **Çalışma Sayfasında** **Dondurulmuş Satırlların** sayısını Sıfır (0) olarak ayarlayın. Bu, sütunların çözülmemiş etkisini meydana getirecektir
 
 
 

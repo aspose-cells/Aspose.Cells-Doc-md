@@ -1,15 +1,16 @@
-﻿---
-title: Импорт данных в рабочие листы с использованием Aspose.Cells
+---
+title: Импортировать данные на листы с использованием Aspose.Cells
 type: docs
 weight: 30
 url: /ru/java/import-data-to-worksheets-using-aspose-cells/
 ---
-## **Aspose.Cells - Импорт данных в рабочие листы**
+
+## **Aspose.Cells - Импорт данных в листы**
 Импорт данных из массивов
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -25,7 +26,7 @@ Worksheet worksheet= workbook.getWorksheets().get(sheetIndex);
 
 //Creating an array containing names as string values
 
-String[]names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
+String[] names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -39,7 +40,7 @@ cells.importArray(names,0,0,false);
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  ArrayList<String> list = new ArrayList<String>();
 
@@ -62,8 +63,8 @@ cells.importArrayList(list,2,0,true);
 workbook.save(dataDir + "AsposeDataImport.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
+## **Скачать работающий код**
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/ImportDataToWorksheets.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/ImportDataToWorksheets.java)

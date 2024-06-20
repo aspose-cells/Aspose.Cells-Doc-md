@@ -4,19 +4,21 @@ linktitle: الجداول الزمنية
 type: docs
 weight: 170
 url: /ar/python-net/create-timeline/
-description: تعرف على كيفية إنشاء مخطط زمني مع Aspose.Cells for Python via .NET.
+description: تعلم كيفية إنشاء جدول زمني باستخدام Aspose.Cells for Python via .NET.
+keywords: Aspose.Cells for Python Excel ، مكتبة Excel Python ، Python Create timeline without Excel ، Add timeline via Aspose.Cells for Python، Insert timeline using Aspose.Cells for Python.
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-بدلاً من ضبط عوامل التصفية لإظهار التواريخ، يمكنك استخدام PivotTable Timeline —— وهو خيار تصفية ديناميكي يتيح لك التصفية بسهولة حسب التاريخ/الوقت، وتكبير الفترة التي تريدها باستخدام عنصر تحكم شريط التمرير. Microsoft يتيح لك Excel إنشاء مخطط زمني عن طريق تحديد جدول محوري ثم النقر فوق *إدراج > المخطط الزمني*. Aspose.Cells for Python via .NET يتيح لك أيضًا إنشاء مخطط زمني باستخدام[**ورقة العمل.timelines.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.timelines/timelinecollection/#methods)طريقة.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **إنشاء جدول زمني لجدول محوري**
+بدلاً من ضبط الفلاتر لعرض التواريخ، يمكنك استخدام جدول الإحصاء الزمني - خيار فلتر ديناميكي يتيح لك الفلترة بسهولة حسب الوقت/التاريخ، كما يمكنك التقريب على الفترة التي تريدها باستخدام عنصر تحكم المنزلق. يسمح Microsoft Excel لك بإنشاء جدول زمني عن طريق تحديد جدول إحصاء ثم النقر على *إدراج > جدول زمني*. كما يسمح Aspose.Cells for Python via .NET لك بإنشاء جدول زمني باستخدام الطريقة [**Worksheet.timelines.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.timelines/timelinecollection/#methods).
 
- الرجاء مراجعة نموذج التعليمات البرمجية التالي. يقوم بتحميل[عينة من ملف إكسل](input.xlsx)الذي يحتوي على الجدول المحوري. ثم يقوم بإنشاء المخطط الزمني استنادًا إلى الحقل المحوري الأساسي الأول. وأخيرا، فإنه يحفظ المصنف في[الإخراج XLSX](output.xlsx) شكل. تُظهر لقطة الشاشة التالية الجدول الزمني الذي تم إنشاؤه بواسطة Aspose.Cells for Python via .NET في ملف Excel الناتج.
+## **كيفية إنشاء جدول زمني لجدول إحصاء باستخدام مكتبة Aspose.Cells for Python Excel**
 
-![ما يجب القيام به:image_alt_text](create-timeline-to-a-pivot-table_1.png)
+الرجاء رؤية الكود النموذجي التالي. يحمل [ملف Excel النموذجي](input.xlsx) الذي يحتوي على الجدول الإحصائي، ثم يقوم بإنشاء جدول الزمني على أساس أول حقل أساسي للجدول. وأخيراً، يحفظ المصنف بصيغة [XLSX الناتجة](output.xlsx). يُظهر اللقطة الشاشة التالية الجدول الزمني الذي تم إنشاؤه بواسطة Aspose.Cells for Python via .NET في ملف الإكسل الناتج.
 
-###  **عينة من الرموز**
+![todo:image_alt_text](create-timeline-to-a-pivot-table_1.png)
+
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Timelines-CreateTimelineToPivotTable.py" >}}
 

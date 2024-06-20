@@ -1,73 +1,76 @@
-﻿---
-title: Crear hoja de vista jerárquica
+---
+title: Creando vista jerárquica de hoja
 type: docs
 weight: 30
-url: /es/net/creating-hierarchical-view-sheet/
+url: /es/net/aspose-cells-gridweb/create-hierarchical-view-sheet/
+keywords: GridWeb, jerárquico
+description: Este artículo introduce cómo crear una vista jerárquica en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
- El enlace de datos es una función potente y fácil de usar de GridWeb. Los datos almacenados en las tablas de la base de datos se obtienen en un DataSet y se llenan con datos
+La vinculación de datos es una característica poderosa y fácil de usar de GridWeb. Los datos almacenados en tablas de base de datos se recuperan a un DataSet y se llenan con datos 
 
- representando las tablas de datos. Con la función de vinculación de datos, puede crear una vista jerárquica (una vista maestro-secundario) de datos interrelacionados y
+representando las tablas de datos. Utilizando la característica de vinculación de datos, puedes crear una vista jerárquica (una vista maestro-hijo) de datos interconectados y 
 
- mostrarlo en el control para hacerlo más elegante.
+mostrarla en el control para que sea más elegante. 
 
- Este tema trata sobre la creación de una hoja de vista jerárquica. Algunas de las filas de la hoja tienen vistas secundarias. Cuando un usuario hace clic en la fila**Expandir**
+Este tema trata sobre la creación de una hoja de vista jerárquica. Algunas de las filas en la hoja tienen vistas secundarias. Cuando un usuario hace clic en **Expandir** de la fila
 
- botón{{< emoticons/cross >}} , la tabla de vista secundaria de esa fila se expande hacia abajo. Esta función es muy útil para crear un informe de vista jerárquica.
+button {{< emoticons/cross >}}, the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report. 
 
-**Una tabla con una vista jerárquica** 
+**Una tabla con vista jerárquica** 
 
-![todo:imagen_alternativa_texto](creating-hierarchical-view-sheet_1.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
-## **Crear relaciones para DataTables**
-Por ejemplo, usa ADO.Net API y extrae datos de las tablas de la base de datos. Para crear una hoja de vista jerárquica, debe diseñar un DataSet
+## **Crear Relaciones para Tablas de Datos**
+Por ejemplo, puedes usar la API de ADO.Net y extraer datos de las tablas de base de datos. Para crear una hoja de vista jerárquica, primero debes diseñar un DataSet
 
- objeto basado en algunas tablas y cree una relación entre ellos primero. Utilice los VS.NET**Diseñador de conjuntos de datos** para crear la relación. En
+basado en algunas tablas y crear una relación entre ellas. Usa el **Diseñador de DataSet** de VS.NET para crear la relación. En 
 
- En este ejemplo, hay tres DataTables: Clientes, Pedidos, Detalles del pedido. La hoja muestra toda la información del cliente por defecto. Cuándo
+este ejemplo, hay tres DataTables: Clientes, Órdenes, Detalles de la Órden. La hoja muestra toda la información del cliente por defecto. Cuando 
 
- el usuario expande un cliente, la cuadrícula muestra todos los pedidos que ha realizado el cliente. Cuando el usuario expande un pedido, la grilla muestra los detalles
+el usuario expande un cliente, el grid muestra todas las órdenes que ese cliente ha realizado. Cuando el usuario expande una orden, el grid muestra los detalles 
 
-de ese orden. Los datos son jerárquicos: los detalles del pedido se enumeran en pedidos y los pedidos se enumeran en clientes.
+de esa orden. Los datos son jerárquicos: los detalles de la orden se enumeran bajo las órdenes, y las órdenes se enumeran bajo los clientes.
 
-Para que esto funcione, se deben establecer las siguientes relaciones entre las tablas de datos:
+Para que esto funcione, las siguientes relaciones deben establecerse entre las tablas de datos:
 
-1.  Cree una clave externa en los pedidos de DataTable, el campo clave es CustomerID
+1. Crear una clave foránea en el DataTable de Órdenes, el campo clave es CustomerID 
 
-![todo:imagen_alternativa_texto](creating-hierarchical-view-sheet_2.png)
-
-
-
-
-1. Cree una clave externa en Detalles de pedido de DataTable, el campo clave es OrderID.
-
-![todo:imagen_alternativa_texto](creating-hierarchical-view-sheet_3.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_2.png)
 
 
 
- El diseñador de conjuntos de datos ahora se ve así:
 
-![todo:imagen_alternativa_texto](creating-hierarchical-view-sheet_4.png)
-### **Encuadernar hoja de trabajo**
- Ahora usa el**Diseñador de hojas de trabajo** para establecer DataSource y DataMember para la hoja de trabajo y configurar las columnas de enlace de campo de datos.
+2. Crear una clave foránea en el DataTable de Detalles de la Órden, el campo clave es OrderID. 
 
- El control agrega automáticamente un ícono + para cada fila que corresponde a un registro cuyo objeto vinculante (generalmente un objeto DataRowView) tiene
+![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
 
- opiniones de niños. Cuando se hace clic en el ícono +, el registro se expande para mostrar la vista secundaria. El siguiente ejemplo utiliza el**Diseñador de hojas de trabajo** para atar el
 
- hoja de trabajo a los Clientes de DataTable padre raíz.
 
-![todo:imagen_alternativa_texto](creating-hierarchical-view-sheet_5.png)
-### **Personalizar las columnas de enlace de las tablas secundarias**
- El control proporciona un evento llamado GridWeb.BindingChildView que los desarrolladores usan para personalizar las columnas de vinculación de las tablas secundarias. este ejemplo
+El Diseñador de DataSet ahora se ve así: 
 
- necesita mostrar los detalles del pedido'**Precio unitario** campo en un formato de moneda. Agregue un controlador de eventos para cambiar el formato de número de la columna de vinculación.
+![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
+### **Vincular Hoja de Cálculo**
+Ahora usa el **Diseñador de Hojas de Cálculo** para establecer el Origen de Datos y el Miembro de Datos para la hoja de cálculo y configurar las columnas de enlace de campo de datos. 
+
+El control agrega automáticamente un icono + para cada fila que corresponde a un registro cuyo objeto de enlace (generalmente un objeto DataRowView) tiene 
+
+vistas secundarias. Cuando se hace clic en el icono +, el registro se expande para mostrar la vista secundaria. El ejemplo a continuación usa el **Diseñador de Hojas de Cálculo** para vincular el 
+
+hoja de cálculo en la raíz del DataTable principal de Clientes. 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_5.png)
+### **Personalizar las columnas de vinculación de tablas secundarias**
+El control provee un evento llamado GridWeb.BindingChildView que los desarrolladores utilizan para personalizar las columnas de vinculación de las tablas secundarias. Este ejemplo 
+
+necesita mostrar el campo **Precio unitario** de los detalles del pedido en un formato de moneda. Agregar un manejador de eventos para cambiar el formato de número de la columna de vinculación. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Handles the BindingChildView event to set the UnitPrice column.
 
@@ -93,7 +96,7 @@ private void GridWeb1_BindingChildView(Aspose.Cells.GridWeb.GridWeb childGrid, A
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Handles the BindingChildView event to set the UnitPrice column.
 
@@ -115,37 +118,37 @@ End Sub
 
 {{< /highlight >}}
 ### **Cargar datos desde la base de datos y vinculación**
-Como se describe en[Vinculación de una hoja de trabajo a un conjunto de datos mediante el diseñador de hojas de trabajo de GridWeb](/cells/es/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
- necesita agregar código al bloque Page_Load para cargar datos al DataSet desde una base de datos, y vincular el DataSet a la hoja en el
+Como se describe en [Vincular Hoja de Cálculo a un Conjunto de Datos usando el Diseñador de Hojas de Cálculo de GridWeb](/cells/es/net/vincular-hoja-de-calculo-a-un-conjunto-de-datos-usando-el-diseñador-de-hojas-de-calculo-de-gridweb/),
+necesitas agregar código al bloque Page_Load para cargar datos al DataSet desde una base de datos, y vincular el DataSet a la hoja en el 
 
- próximo paso.
+próximo paso. 
 
-La clase Asppose.Grid.Web.Data.WebWorksheet tiene algunas propiedades útiles.
+La Clase Asppose.Grid.Web.Data.WebWorksheet tiene algunas propiedades útiles.
 
-- Por ejemplo, la propiedad EnableCreateBindColumnHeader se usa para crear los encabezados de la columna enlazada dentro de la hoja, o la columna
+- Por ejemplo, la propiedad EnableCreateBindColumnHeader se utiliza para crear los encabezados de la columna vinculada dentro de la hoja, o los encabezados de columna
 
- headers muestra los nombres de las columnas enlazadas. toma los valores**verdadero** o**falso**. 
+muestran los nombres de la columna vinculada. Toma los valores **true** o **false**. 
 
-- Las propiedades BindStartRow y BindStartColumn especifican la posición en la hoja del control GridWeb a la que debe vincularse el origen.
-- La propiedad EnableExpandChildView se usa para deshabilitar la vista secundaria expandida para la hoja de trabajo. De forma predeterminada, se establece en verdadero.
+- Las propiedades BindStartRow y BindStartColumn especifican la posición en la hoja del control GridWeb que debería estar vinculado a la fuente.
+- La propiedad EnableExpandChildView se utiliza para deshabilitar la vista secundaria expandida para la hoja. Por defecto está configurado en true.
 
- La clase también tiene algunos métodos útiles.
+La clase también tiene algunos métodos útiles. 
 
-- El método DataBind() vincula una hoja con la fuente.
-- CreateNewBindRow() agrega una nueva fila y la vincula a la fuente de datos.
-- DeleteBindRow() elimina una fila enlazada.
-- El método SetRowExpand() establece la fila expandida y muestra el contenido de la vista secundaria en el modo de enlace de datos.
-- El método GetRowExpand() obtiene un valor booleano que indica si la fila se expande o no.
+- El método DataBind() vincula una hoja con la fuente de datos.
+- El método CreateNewBindRow() agrega una nueva fila y la vincula a la fuente de datos.
+- El método DeleteBindRow() elimina una fila vinculada.
+- El método SetRowExpand() establece la fila expandida y muestra el contenido de la vista secundaria en el modo de vinculación de datos.
+- El método GetRowExpand() obtiene un valor booleano que indica si la fila está expandida o no.
 
- En el siguiente código, el objeto DataSet "dataSet21" se llena con datos basados en tres tablas. La tabla Clientes se filtra para convertirla en la
+En el código a continuación, el objeto DataSet "dataSet21" se llena con datos basados en tres tablas. La tabla de Clientes se filtra para que sea la primera tabla en la vista jerárquica. Se crea un objeto WebWorksheet llamado "sheet", que primero borra la hoja y luego la establece 
 
- primera tabla en la visualización jerárquica. Se crea un objeto WebWorksheet llamado "hoja", que primero borra la hoja y luego la establece
+vinculada a la fuente de datos. 
 
- vinculado a la fuente de datos.
+**VB.NET** 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -199,7 +202,7 @@ private void BindWithoutInSheetHeaders()
 
         dataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'";
 
-        WebWorksheet sheet = GridWeb1.WebWorksheets[0];
+        WebWorksheet sheet = GridWeb1.WorkSheets[0];
 
         // Clears the sheet.
 
@@ -235,53 +238,53 @@ private void BindWithoutInSheetHeaders()
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Private Sub Page_Load (ByVal sender As System.Object, ByVal e As System.EventArgs) Maneja MyBase.Load
+ Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
- 'Ponga el código de usuario para inicializar la página aquí
+    'Put user code to initialize the page here
 
- If Not IsPostBack Entonces
+    If Not IsPostBack Then
 
- BindWithoutInSheetHeaders()
+        BindWithoutInSheetHeaders()
 
- Terminara si
+    End If
 
-Finalizar sub
+End Sub
 
-Enlace secundario privado sin encabezados de hoja ()
+Private Sub BindWithoutInSheetHeaders()
 
- Dim db como DemoDatabase2 = Nueva DemoDatabase2()
+    Dim db As DemoDatabase2 = New DemoDatabase2()
 
-Dim ruta como cadena = MapPath(".")
+    Dim path As String = MapPath(".")
 
- ruta = ruta.Subcadena(0, ruta.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- ruta = ruta.Subcadena(0, ruta.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- db.OleDbConnection1.ConnectionString = "Proveedor=Microsoft.Jet.OLEDB.4.0;Fuente de datos=" + ruta + "\Base de datos\Northwind.mdb"
+    db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + "\Database\Northwind.mdb"
 
- Tratar
+    Try
 
- ' Se conecta a la base de datos y obtiene datos.
+        ' Connects to database and fetches data.
 
- 'Tabla de Clientes.
+        ' Customers Table.
 
- db.OleDbDataAdapter1.Fill(DataSet21)
+        db.OleDbDataAdapter1.Fill(DataSet21)
 
- 'Tabla de pedidos.
+        ' Orders Table.
 
- db.OleDbDataAdapter2.Fill(DataSet21)
+        db.OleDbDataAdapter2.Fill(DataSet21)
 
- ' TablaDetallesPedido.
+        ' OrderDetailTable.
 
- db.OleDbDataAdapter3.Fill(DataSet21)
+        db.OleDbDataAdapter3.Fill(DataSet21)
 
- ' Filtrar datos
+        ' Filter data
 
- DataSet21.Customers.DefaultView.RowFilter = "ID de cliente<'BSAAA'"
+        DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
 
-        Dim sheet As WebWorksheet = GridWeb1.WebWorksheets(0)
+        Dim sheet As WebWorksheet = GridWeb1.WorkSheets(0)
 
         ' Clears the sheet.
 

@@ -1,25 +1,26 @@
-﻿---
-title: Excel ワークシートごとに 1 つの PDF ページをレンダリング - Excel から PDF への変換
+---
+title: Excelワークシートごとに1つのPDFページをレンダリングする  ExcelからPDFへの変換
 type: docs
 weight: 40
 url: /ja/java/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 ---
+
 {{% alert color="primary" %}}
 
-大きな Microsoft Excel ファイル (たとえば、50 列と 300 行以上のデータを含む多数のシートを含むワークブック) を操作する場合、ワークシートのサイズに関係なく、PDF の出力でワークシートごとに 1 ページを表示することが必要な場合があります。 .これは、各ページのページ サイズが根本的に異なる可能性が高いことを意味します。これは、Aspose.Cells for Java を使用して実現できます。
+大きなMicrosoft Excelファイル（たとえば、各シートに50の列と300行以上のデータがあるワークブック）を扱う際に、ワークシートのサイズに関係なく1ページに1つのワークシートが表示されるようにPDF出力を表示したい場合があります。これにより、各ページのサイズが大きく異なることがあります。これはAspose.Cells for Javaを使用することで実現できます。
 
 {{% /alert %}}
 
-複数のワークシートを含む Excel ファイルを PDF に変換する次のサンプル コードを参照してください。
+複数のワークシートを持つExcelファイルをPDFに変換するサンプルコードをご確認ください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExceltoPDF-ExceltoPDF.java" >}}
 
 {{% alert color="primary" %}}
 
-もし[**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet)オプションはに設定されています**真実**、すべてのシート コンテンツが 1 つの PDF ページにレンダリングされます。で設定した用紙サイズ[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)無効ですが、で設定された他の設定[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)まだ有効です。
+[**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet)オプションが**true**に設定されている場合、すべてのシートの内容が1つのPDFページにレンダリングされます。[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)で設定された用紙サイズは無効ですが、[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)で設定された他の設定は引き続き有効です。
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()メソッドをスプレッドシートを PDF にレンダリングする直前に実行します。これにより、式に依存する値が再計算され、正しい値が PDF にレンダリングされます。
+スプレッドシートに数式が含まれている場合、PDFにレンダリングする直前に[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--)メソッドを呼び出すことが最善です。これにより、数式に依存する値が再計算され、PDFに正しい値がレンダリングされます。
 
 {{% /alert %}}

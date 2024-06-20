@@ -1,31 +1,32 @@
-﻿---
-title: إنشاء نطاقات مسماة ذات نطاق وورقة عمل
-linktitle: نطاق مسمى
+---
+title: إنشاء نطاقات مسماة لمصنف العمل وورقة العمل
+linktitle: النطاق المسمى
 type: docs
 weight: 40
 url: /ar/net/create-workbook-and-worksheet-scoped-named-ranges/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft يسمح Excel للمستخدمين بتعريف النطاقات المسماة بنطاقين مختلفين: المصنف (المعروف أيضًا باسم النطاق العام) وورقة العمل.
+يسمح Microsoft Excel للمستخدمين بتحديد مجالات مسماة بنطاقين مختلفين: نطاق العمل (المعروف أيضا باسم نطاق عالمي) ونطاق الورقة العمل.
 
-- يمكن الوصول إلى النطاقات المسماة بنطاق مصنف من أي ورقة عمل داخل هذا المصنف ببساطة باستخدام اسمه.
-- يتم الوصول إلى نطاقات ورقة العمل المحددة النطاق باستخدام مرجع ورقة العمل المحددة التي تم إنشاؤها فيها.
+- يمكن الوصول إلى مجالات مسماة ذات نطاق العمل من أي ورقة عمل ضمن هذا المصنف ببساطة عن طريق استخدام اسمها.
+- تتم الوصول إلى مجالات المسميات ذات نطاق ورقة العمل باستخدام مرجع لورقة العمل المعينة التي تم إنشاء المسمى فيها.
 
-يوفر Aspose.Cells نفس الوظيفة مثل Microsoft Excel لإضافة مصنف وورقة عمل نطاقات مسماة محددة النطاق. عند إنشاء ورقة عمل ذات نطاق مسمى ، يجب استخدام مرجع ورقة العمل في النطاق المسمى لتحديده على أنه نطاق مسمى بورقة عمل.
+يوفر Aspose.Cells نفس الوظائف كما في Microsoft Excel لإضافة نطاقات مسماة في نطاق كتيب أو ورق العمل. عند إنشاء نطاق بتسمية نطاق ورق العمل، يجب استخدام مرجع ورق العمل في النطاق المسمى لتحديده كنطاق مسمى بنطاق ورق العمل.
 
 {{% /alert %}} 
-## **إضافة نطاق مسمى باستخدام نطاق المصنف**
+## **إضافة نطاق مسمى بنطاق سجل العمل**
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkbookScopedNamedRanges-AddWorkbookScopedNamedRange-1.cs" >}}
-## **إضافة نطاق مسمى بنطاق ورقة العمل**
+## **إضافة نطاق مسمى بنطاق ورق العمل**
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkbookScopedNamedRanges-WorksheetNamedRange-1.cs" >}}
 
-## **موضوعات مسبقة**
-- [إنشاء الوصول ونسخ النطاقات المسماة](/cells/ar/net/create-access-and-copy-named-ranges/)
-- [تنسيق وتعديل النطاقات المسماة](/cells/ar/net/format-and-modify-named-ranges/)
-- [احصل على النطاق مع الروابط الخارجية](/cells/ar/net/get-range-with-external-links/)
-- [تنفيذ نطاقات غير متسلسلة](/cells/ar/net/implementing-non-sequential-ranges/)
+## **مواضيع متقدمة**
+- [إنشاء الوصول ونسخ نطاقات مسماة](/cells/ar/net/create-access-and-copy-named-ranges/)
+- [تنسيق وتعديل نطاقات مسماة](/cells/ar/net/format-and-modify-named-ranges/)
+- [الحصول على نطاق مع روابط خارجية](/cells/ar/net/get-range-with-external-links/)
+- [تنفيذ نطاقات غير متتابعة](/cells/ar/net/implementing-non-sequential-ranges/)

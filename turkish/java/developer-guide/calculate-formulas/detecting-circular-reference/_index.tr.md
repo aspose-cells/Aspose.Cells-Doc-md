@@ -1,29 +1,30 @@
-﻿---
-title: Döngüsel Referans Algılama
+---
+title: Döngüsel Referansın Algılanması
 type: docs
 weight: 70
 url: /tr/java/detecting-circular-reference/
 ---
+
 ## **Giriş**
 
-Çalışma kitaplarında döngüsel referanslar olabilir ve bazen döngüsel referansların olup olmadığını tespit etmek gerekir.
+Çalışma kitaplarında döngüsel referanslar olabilir ve bazen döngüsel referansların olup olmadığını tespit etmeniz gerekebilir.
 
-## **Dairesel referansı algılamanın ardındaki konsept**
+## **Döngüsel referansın tespiti arkasındaki kavram**
 
-Dairesel referanslar yalnızca formül hesaplandığında algılanabilir çünkü bir formülün referansları genellikle diğer kısımların veya diğer formüllerin hesaplanan sonucuna bağlıdır. Bu nedenle, formül hesaplama sürecinde bu gereksinim için (döngüsel referanslara sahip hücreleri toplamak için) yeni API'ler sağlıyoruz:
+Döngüsel referanslar yalnızca formül hesaplandığında algılanabilir çünkü bir formülün referansları genellikle diğer kısımların veya diğer formüllerin hesaplanmış sonucuna bağlıdır. Bu nedenle bu gereksinim için yeni API'lar sağlarız (döngüsel referanslara sahip hücreleri toplamak için):
 
-[**Hesaplama Hücresi**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell): Hesaplanan bir hücreyle ilgili ilgili verilerin hesaplanmasını temsil eder
+[**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell): Hesaplanan bir hücrenin ilgili verilerinin hesaplanmasını temsil eder
 
-[**AbstractCalculationMonitor.OnCircular(IEnumerator daireselCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): döngüsel başvurularla karşılaşıldığında formül hesaplama motoru tarafından çağrılacak, numaralandırıcıdaki öğe[**Hesaplama Hücresi**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) tek bir dairedeki tüm hücreleri temsil eden nesneler. Döndürülen değer, formül motorunun bu aramadan sonra bu hücreleri döngüsel olarak hesaplaması gerekip gerekmediğini gösterir.
+[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): döngüsel referans ile karşılaştığında formül hesaplama motoru tarafından çağrılacaktır, numaralandırıcıdaki elemanlar, bir dairedeki tüm hücreleri temsil eden [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) nesnelerdir. Döngü sonrasındaki çağrıda formül motorunun bu hücreleri hesaplaması gerekip gerekmediğini belirttiğiniz değeri döndürür.
 
- Kullanıcı, bu döngüsel referansları aşağıdakilerin uygulanmasında toplayabilir:[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) yöntem.
+Kullanıcı, bu döngüsel referansları [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) yönteminin uygulanmasında toplayabilir.
 
-Kaynak örnek dosya aşağıdaki bağlantıdan indirilebilir:
+Kaynak örnek dosyası aşağıdaki bağlantıdan indirilebilir:
 
-[Dairesel Formüller.xls](77496332.xls)
+[Circular Formulas.xls](77496332.xls)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-1.java" >}}
 
-Tanımı*Dairesel Monitör* türetilen sınıf[**ÖzetHesaplamaMonitör**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) sınıf aşağıdaki gibidir:
+Aşağıdaki *CircularMonitor* sınıfının tanımı, [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) sınıfından türetilmiştir:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}

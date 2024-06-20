@@ -1,27 +1,28 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.2.2
+---
+title: Изменения в общедоступном API в Aspose.Cells 8.2.2
 type: docs
 weight: 90
 url: /ru/net/public-api-changes-in-aspose-cells-8-2-2/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.2.1 до 8.2.2, которые могут представлять интерес для разработчиков модулей/приложений.
+Этот документ описывает изменения в общедоступном API Aspose.Cells от версии 8.2.1 до 8.2.2, которые могут быть интересны разработчикам модулей/приложений.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Свойство BuiltInDocumentPropertyCollection.Version добавлено**
-Новое свойство Version было добавлено в класс BuiltInDocumentPropertyCollection, чтобы позволить разработчикам получать версию приложения, создавшего данную электронную таблицу.
+## **Добавленные API**
+### **Добавлено свойство Version в класс BuiltInDocumentPropertyCollection**
+Было добавлено новое свойство Version в класс BuiltInDocumentPropertyCollection для того, чтобы разработчики могли получить версию приложения, создавшую заданную электронную таблицу.
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей[Получить версию приложения, создавшего электронную таблицу](/cells/ru/net/get-the-version-number-of-the-application-that-created-the-excel-document/) для дополнительной информации.
+Пожалуйста, ознакомьтесь с подробной статьей [Получение версии приложения, создавшего электронную таблицу](/cells/ru/net/get-the-version-number-of-the-application-that-created-the-excel-document/) для получения дополнительной информации.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -32,18 +33,18 @@ Console.WriteLine(properties.Version);
 {{< /highlight >}}
 
 
-### **Добавлен график свойств. Рабочий лист**
-До выпуска Aspose.Cells 8.2.2 было невозможно получить экземпляр рабочего листа из содержащегося в нем объекта диаграммы. Aspose.Cells 8.2.2 заполнил этот пробел, предоставив свойство Chart.Worksheet.
+### **Добавлено свойство Chart.Worksheet**
+До выпуска Aspose.Cells 8.2.2 не было возможности извлечь экземпляр Worksheet из содержащего его объекта Chart. Aspose.Cells 8.2.2 заполнила этот пробел, предоставив свойство Chart.Worksheet.
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей[Получить рабочий лист диаграммы](/cells/ru/net/get-worksheet-of-the-chart/) для дополнительной информации.
+Пожалуйста, ознакомьтесь с подробной статьей [Получить таблицу диаграммы](/cells/ru/net/get-worksheet-of-the-chart/) для более подробной информации.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var workbook = new Workbook("sample.xlsx");
 

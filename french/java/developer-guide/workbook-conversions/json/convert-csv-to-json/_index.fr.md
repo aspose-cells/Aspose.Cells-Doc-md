@@ -1,25 +1,61 @@
-﻿---
-title: Convertir CSV en JSON
+---
+title: Convertir un fichier CSV en JSON
 type: docs
 weight: 170
 url: /fr/java/convert-csv-to-json/
 ---
+
 ## **Convertir CSV en JSON**
 
-Aspose.Cells prend en charge la conversion de CSV en JSON. Pour cela, le API fournit[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)et[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)Des classes. Le[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)fournit les options d'exportation de la plage vers JSON. La[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)classe a les propriétés suivantes.
+Aspose.Cells prend en charge la conversion du CSV en JSON. Pour cela, l'API fournit les classes [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions) et [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility). La classe [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions) fournit les options pour exporter la plage en JSON. La classe [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions) a les propriétés suivantes.
 
-- [**Exporter en tant que chaîne**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#ExportAsString): cela exporte la valeur de chaîne des cellules vers JSON.
-- [**HasHeaderRowHasHeaderRow**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#HasHeaderRow): Cela indique si la plage contient une ligne d'en-tête.
-- [**Retrait**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#Indent): Indique le retrait.
+- [**ExportAsString**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#ExportAsString): Cela exporte la valeur de chaîne des cellules au format JSON.
+- [**HasHeaderRow**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#HasHeaderRow): Indique si la plage contient une ligne d'en-tête.
+- [**Indent**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#Indent): Indique l'indentation.
 
-Le[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)classe exporte le JSON en utilisant les options d'exportation définies avec le[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)classe.
+La classe [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) exporte le JSON en utilisant les options d'export définies avec la classe [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions).
 
-L'exemple de code suivant illustre l'utilisation de[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)et[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)classes pour charger[fichier source CSV](SampleCsv.csv)et imprime le[JSON](SampleJson_out.csv) sortie dans la console.
+L'exemple de code suivant démontre l'utilisation des classes [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions) et [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) pour charger le fichier CSV source (SampleCsv.csv) et afficher la sortie JSON (SampleJson_out.csv) dans la console.
 
-### **Exemple de code**
+### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertCsvToJson-1.java" >}}
 
 ### **Sortie console**
 
-[ { "id": 1, "language": "Java", "edition": "troisième", "author": "Herbert Schildt", "streetAddress": 126, "city": "San Jone", "état": "CA", "code postal": 394221 }, { "id": 2, "langue": "C++", "édition": "deuxième", "author": "EAAAA", "streetAddress": 126, "city": "San Jones", "state": "CA", "postalCode": 394221 }, { "id": 3 , "language": ".Net", "edition": "second", "author": "E.Balagurusamy", "streetAddress": 126, "city": "San Jone", " état": "CA", "code postal": 394221 } ]
+{{< highlight java >}}
+
+[
+{
+"id": 1,
+"language": "Java",
+"edition": "third",
+"author": "Herbert Schildt",
+"streetAddress": 126,
+"city": "San Jone",
+"state": "CA",
+"postalCode": 394221
+},
+{
+"id": 2,
+"language": "C++",
+"edition": "second",
+"author": "EAAAA",
+"streetAddress": 126,
+"city": "San Jone",
+"state": "CA",
+"postalCode": 394221
+},
+{
+"id": 3,
+"language": ".Net",
+"edition": "second",
+"author": "E.Balagurusamy",
+"streetAddress": 126,
+"city": "San Jone",
+"state": "CA",
+"postalCode": 394221
+}
+]
+
+{{< /highlight >}}

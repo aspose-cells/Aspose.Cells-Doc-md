@@ -1,19 +1,22 @@
-﻿---
+---
 title: Entfernen einer Spalte aus dem Arbeitsblatt
 type: docs
 weight: 20
-url: /de/net/removing-a-column-from-worksheet/
+url: /de/net/aspose-cells-griddesktop/remove-a-column-from-worksheet/
+keywords: GridDesktop, Spalte entfernen, löschen, Spalte
+description: In diesem Artikel wird erläutert, wie eine Spalte in GridDesktop entfernt wird
 ---
+
 {{% alert color="primary" %}} 
 
-Dies ist ein grundlegendes Thema für die Entwickler, das nur den einfachsten Ansatz zum Entfernen einer Spalte aus dem Arbeitsblatt beschreibt. Es sieht einfach aus, ist aber eine praktische Funktion, die von Entwicklern bei ihren Routineaufgaben verwendet werden kann, während sie mit Aspose.Cells.GridDesktop arbeiten.
+Dies ist ein grundlegendes Thema für Entwickler, das lediglich den einfachsten Ansatz zum Entfernen einer Spalte aus dem Arbeitsblatt beschreibt. Es sieht einfach aus, ist aber eine praktische Funktion, die von Entwicklern bei ihren routinemäßigen Aufgaben beim Arbeiten mit Aspose.Cells.GridDesktop verwendet werden kann
 
 {{% /alert %}} 
 ## **Entfernen einer Spalte aus dem Arbeitsblatt**
-Um eine Spalte aus dem Arbeitsblatt zu entfernen, führen Sie bitte die folgenden Schritte aus:
+Um eine Spalte aus dem Arbeitsblatt zu entfernen, befolgen Sie bitte die folgenden Schritte:
 
--  Greifen Sie beliebig zu**Arbeitsblatt**
--  Entfernen**Spalte** von dem**Arbeitsblatt** indem Sie den Index der zu entfernenden Spalte angeben
+- Greifen Sie auf jedes gewünschte **Arbeitsblatt** zu
+- Entfernen Sie die **Spalte** aus dem **Arbeitsblatt**, indem Sie den Index der zu entfernenden Spalte angeben
 
 
 

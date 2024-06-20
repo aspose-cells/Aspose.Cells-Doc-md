@@ -1,77 +1,78 @@
 ---
-title: إدراج وحذف الصفوف والأعمدة في ملف Excel
+title: إدراج وحذف الصفوف والأعمدة من ملف إكسل
 linktitle: إدراج وحذف الصفوف والأعمدة
 type: docs
 weight: 70
 url: /ar/net/inserting-and-deleting-rows-and-columns/
 description: توضح هذه المقالة كيفية إدراج وحذف الصفوف والأعمدة بواسطة Aspose.Cells for .NET API.
-keywords: Aspose.Cells C# manage rows and columns, insert rows and columns, delete rows and columns
+keywords: تدير Aspose.Cells C# الصفوف والأعمدة، تقوم بإدراج الصفوف والأعمدة، تقوم بحذف الصفوف والأعمدة
 ---
-##  **مقدمة**
 
-سواء قمت بإنشاء ورقة عمل جديدة من البداية أو العمل على ورقة عمل موجودة، فقد نحتاج إلى إضافة صفوف أو أعمدة إضافية لاستيعاب المزيد من البيانات. وعلى العكس من ذلك، قد نحتاج أيضًا إلى حذف صفوف أو أعمدة من مواضع محددة في ورقة العمل.
-لتحقيق هذه المتطلبات، يوفر Aspose.Cells مجموعة أبسط جدًا من الفئات والأساليب، الموضحة أدناه.
+## **مقدمة**
 
-###  **إدارة الصفوف والأعمدة**
+سواء كنت تقوم بإنشاء ورقة عمل جديدة من الصفر أو العمل في ورقة عمل موجودة، قد نحتاج إلى إضافة صفوف أو أعمدة إضافية لاستيعاب المزيد من البيانات. بالعكس، قد نحتاج أيضًا إلى حذف صفوف أو أعمدة من مواقع محددة في ورقة العمل.
+لتلبية هذه المتطلبات، توفر Aspose.Cells مجموعة بسيطة جدًا من الفئات والأساليب، والتي سنناقشها أدناه.
 
-Aspose.Cells يوفر فئة[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يحتوي الفصل على أ[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فصل. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) يوفر الفصل أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)المجموعة التي تمثل كافة الخلايا في ورقة العمل.
+### **إدارة الصفوف والأعمدة**
 
- ال[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)توفر المجموعة عدة طرق لإدارة الصفوف والأعمدة في ورقة العمل. وتناقش بعض هذه أدناه.
+توفر Aspose.Cells فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، التي تمثل ملف Excel من Microsoft. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. تمثل ورقة العمل بفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) التي تمثل جميع الخلايا في ورقة العمل.
+
+تقدم مجموعة الفئة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) العديد من الأساليب لإدارة الصفوف والأعمدة في ورقة عمل. يتم مناقشة بعض هذه الأساليب أدناه.
 
 {{% alert color="primary" %}}
 
-عند إضافة صفوف أو أعمدة، يتم نقل المحتوى الموجود في ورقة العمل إلى الأسفل أو إلى اليمين، وإذا تمت إزالة الصفوف أو الأعمدة، يتم نقل المحتوى إلى الأعلى أو إلى اليسار.
+عند إضافة صفوف أو أعمدة، يتم نقل المحتوى في ورقة العمل لأسفل أو لليمين، وإذا تمت إزالة الصفوف أو الأعمدة، يتم نقل المحتوى لأعلى أو لليسار.
 
 {{% /alert %}}
 
 
-##  **إدراج صفوف وأعمدة**
+## **إدراج الصفوف والأعمدة**
 
-###  **كيفية إدراج صف**
+### **كيفية إدراج صف**
 
- قم بإدراج صف في ورقة العمل في أي مكان عن طريق استدعاء[**الصف إدراج**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) طريقة[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة. ال[**الصف إدراج**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow)تأخذ الطريقة فهرس الصف الذي سيتم إدراج الصف الجديد فيه.
+قم بإدراج صف في ورقة العمل في أي موقع عن طريق استدعاء ال[**InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) من مجموعة ال[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). يأخذ ال[**InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) المؤشر للصف الذي سيتم إدراج الصف الجديد فيه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARow-1.cs" >}}
 
-###  **كيفية إدراج صفوف متعددة**
+### **كيفية إدراج عدة صفوف**
 
- لإدراج صفوف متعددة في ورقة عمل، قم باستدعاء[**إدراج صفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) طريقة[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة. ال[**إدراج صفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)تأخذ الطريقة معلمتين:
+لإدراج عدة صفوف في ورقة العمل، اتصل بالطريقة [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) في تجميعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). طريقة [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) تأخذ محددتين:
 
-- فهرس الصف، فهرس الصف الذي سيتم إدراج الصفوف الجديدة منه.
+- فهرس الصف، الفهرس للصف من حيث إن الصفوف الجديدة ستدرج.
 - عدد الصفوف، إجمالي عدد الصفوف التي يجب إدراجها.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingMultipleRows-1.cs" >}}
 
-###  **كيفية إدراج صف مع التنسيق**
+### **كيفية إدراج صف مع تنسيق**
 
-لإدراج صف يحتوي على خيارات التنسيق، استخدم الزر[**إدراج صفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)الزائد الذي يأخذ[**خيارات الإدراج**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) كمعلمة. تعيين[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) ممتلكات[**خيارات الإدراج**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) فئة مع[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) تعداد. ال[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype)التعداد لديه ثلاثة أعضاء كما هو موضح أدناه.
+لإدراج صف بخيارات تنسيق، استخدم الحمولة [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) التي تأخذ [**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) كمعلمة. ثبّت خصية [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) لفئة [**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) بقيمة الترقيم [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype). الفئة [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) لها ثلاثة أعضاء كما هو مدرج أدناه.
 
-- SameAsAbove: يقوم بتنسيق الصف بنفس الصف الموجود أعلاه.
-- SameAsBelow: يقوم بتنسيق الصف بنفس الصف الموجود أدناه.
-- مسح: مسح التنسيق.
+- SameAsAbove: ينسق الصف نفسه كصف الذي في الأعلى.
+- SameAsBelow: ينسق الصف نفسه كصف الذي في الأسفل.
+- Clear: يُمسح التنسيق.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARowWithFormatting-1.cs" >}}
 
-###  **كيفية إدراج عمود**
+### **كيفية إدراج عمود**
 
- يمكن للمطورين أيضًا إدراج عمود في ورقة العمل في أي مكان عن طريق استدعاء[**InsertColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) طريقة[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)مجموعة. ال[**InsertColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn)تأخذ الطريقة فهرس العمود الذي سيتم إدراج العمود الجديد فيه.
+يمكن للمطورين أيضًا إدراج عمود في ورقة العمل في أي موقع عن طريق استدعاء الطريقة [**InsertColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) في تجميعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). الطريقة [**InsertColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) تأخذ مؤشر العمود حيث سيتم إدراج العمود الجديد.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingAColumn-1.cs" >}}
 
-##  **حذف الصفوف والأعمدة**
+## **حذف الصفوف والأعمدة**
 
-###  **كيفية حذف صفوف متعددة**
+### **كيفية حذف عدة صفوف**
 
- لحذف صفوف متعددة من ورقة العمل، اتصل بـ[**حذف الصفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) طريقة[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة. ال[**حذف الصفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows)تأخذ الطريقة معلمتين:
+لحذف صفوف متعددة من ورقة العمل، اتصل بالطريقة [**DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) في تجميعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). الطريقة [**DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) تأخذ محددتين:
 
-- فهرس الصف، فهرس الصف الذي سيتم حذف الصفوف منه.
-- عدد الصفوف، إجمالي عدد الصفوف التي يجب حذفها.
+- فهرس الصف، الفهرس للصف من حيث سيتم حذف الصفوف.
+- عدد الصفوف، الإجمالي لعدد الصفوف التي يجب حذفها.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingMultipleRows-1.cs" >}}
 
 
-###  **كيفية حذف عمود**
+### **كيفية حذف عمود**
 
- لحذف عمود من ورقة العمل في أي مكان، اتصل بـ[**حذف العمود**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) طريقة[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة. ال[**حذف العمود**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn)تأخذ الطريقة فهرس العمود المراد حذفه.
+لحذف عمود من ورقة العمل في أي موقع، اتصل بالطريقة [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) في تجميعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). الطريقة [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) تأخذ مؤشر العمود للحذف.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}

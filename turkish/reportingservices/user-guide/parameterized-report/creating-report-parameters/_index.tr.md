@@ -1,54 +1,55 @@
-﻿---
+---
 title: Rapor Parametreleri Oluşturma
 type: docs
 weight: 10
 url: /tr/reportingservices/creating-report-parameters/
 ---
+
 Aspose.Cells.Report.Designer'da bir rapor parametresi oluşturmak için:
 
 1. Microsoft Excel'i açın.
-1.  Tıklamak**Rapor Parametresi** Aspose.Cells.Report.Designer araç çubuğunda. (
+Aspose.Cells.Report.Designer araç çubuğunda **Rapor Parametresi**'ne tıklayın. (
 
-![yapılacaklar:resim_alternatif_metin](creating-report-parameters_1.png)
+![todo:image_alt_text](creating-report-parameters_1.png)
 
 )
- İletişim kutusunda, tüm rapor parametreleri sol panelde listelenir.
+Açılan iletişim kutusunda, tüm rapor parametreleri sol panelde listelenir. 
 
-1.  Tıklamak**Eklemek**. 
+1. **Ekle**'ye tıklayın. 
 
    **Rapor Parametresi Yapılandırma formu** 
 
-![yapılacaklar:resim_alternatif_metin](creating-report-parameters_2.png)
+![todo:image_alt_text](creating-report-parameters_2.png)
 
 
 
 
-1.  İletişim kutusunda, rapor parametresi bilgilerini girin.
+1. İlgili kutuda rapor parametre bilgilerini girin. 
 
-   **Parametre bilgisi ekleme** 
+   **Parametre bilgisi eklemek** 
 
-![yapılacaklar:resim_alternatif_metin](creating-report-parameters_3.png)
+![todo:image_alt_text](creating-report-parameters_3.png)
 
 
 
-Bir rapor parametresi için geçerli değerler, bir veri kümesinden veya bir grup kullanıcı tanımlı değerden gelebilir. Bir rapor parametresinin iki veri alanı vardır: etiket ve değer. Etiket değeri null olabilir.
+Bir rapor parametresinin geçerli değerleri bir veri kümesinden veya kullanıcı tanımlı değer grubundan gelebilir. Bir rapor parametresinin iki veri alanı vardır: etiket ve değer. Etiket değeri null olabilir. 
 
-1.  Tıklamak**Kurmak** Rapor parametresi için bir değer grubu ayarlamak için.
-1.  için değerler ekleyin**Etiket** ve**Değer** alanlar.
+1. Rapor parametresi için bir değer grubu kurmak için **Kurulum**'a tıklayın.
+1. **Etiket** ve **Değer** alanları için değer ekleyin. 
 
    **Etiket ve değer ekleme** 
 
-![yapılacaklar:resim_alternatif_metin](creating-report-parameters_4.png)
+![todo:image_alt_text](creating-report-parameters_4.png)
 
 
 
 
-1.  Tıklamak**Eklemek**.
- Parametre için başka değerler eklemek için tekrarlayın.
-1.  Tıklamak**Kapalı**.
-1.  Tıklamak**Kayıt etmek** parametreyi kaydetmek için.
-1.  Yeni rapor parametresi sol panelde listelenir.
+1. **Ekle**'ye tıklayın.
+   Parametre için diğer değerleri eklemek için tekrarlayın.
+1. **Kapat**'a tıklayın.
+1. Parametreyi kaydetmek için **Kaydet**'e tıklayın. 
+1. Yeni rapor parametresi sol panelde listelenir. 
 
-   **yeni parametre** 
+   **Yeni parametre** 
 
-![yapılacaklar:resim_alternatif_metin](creating-report-parameters_5.png)
+![todo:image_alt_text](creating-report-parameters_5.png)

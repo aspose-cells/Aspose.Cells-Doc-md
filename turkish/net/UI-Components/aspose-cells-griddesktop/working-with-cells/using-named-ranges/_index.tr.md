@@ -1,18 +1,21 @@
-﻿---
-title: Adlandırılmış Aralıkları Kullanma
+---
+title: İsimli Aralıkları Kullanmak
 type: docs
 weight: 110
-url: /tr/net/using-named-ranges/
+url: /tr/net/aspose-cells-griddesktop/use-named-ranges/
+keywords: GridDesktop,isimli aralıklar,isimler
+description: Bu makale, GridDesktop taki isimli aralıkları tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
- Normalde, bir çalışma sayfasındaki sütunların ve satırların etiketlerini, bu sütunlar ve satırlardaki hücrelere başvurmak için kullanırsınız. Ancak hücreleri, hücre aralıklarını, formülleri veya sabit değerleri temsil etmek için açıklayıcı adlar oluşturabilirsiniz. Kelime**İsim**bir hücreyi, hücre aralığını, formülü veya sabit değeri temsil eden bir karakter dizisine atıfta bulunabilir. Örneğin, bir hücreyi, hücre aralığını, formülü veya sabit değeri temsil etmek için Sales!C20:C30 gibi anlaşılması zor aralıklara başvurmak için Ürünler gibi anlaşılması kolay adlar kullanın. Etiketler, aynı çalışma sayfasındaki verilere atıfta bulunan formüllerde kullanılabilir; başka bir çalışma sayfasındaki bir aralığı temsil etmek istiyorsanız, bir ad kullanabilirsiniz.**Adlandırılmış Aralıklar** Microsoft'in en güçlü özelliklerinden biridir. Kullanıcılar, adlandırılmış bir aralığa bir ad atayabilir, böylece bu hücre aralığı formüllerde adıyla anılabilir.**Aspose.Cells.GridDesktop** bu özelliği destekler.
+Normalde, bir çalışma sayfasındaki sütun ve satır etiketlerini o sütun ve satırlardaki hücrelere başvurmak için kullanırsınız. Ancak, hücreleri, hücre aralıklarını, formülleri veya sabit değerleri temsil eden açıklayıcı isimler oluşturabilirsiniz. **Ad**, bir hücre, hücre aralığı, formül veya sabit değeri temsil eden karakterler dizisine atıfta bulunan bir dize olabilir. Örneğin, Satış!C20:C30 gibi anlaşılması zor aralıklara başvurmak için Ürünler gibi anlaşılması kolay isimler kullanın. Formüllerde aynı çalışma sayfasındaki verilere başvurmak için etiketler kullanılabilir; başka bir çalışma sayfasındaki bir aralığı temsil etmek istiyorsanız bir isim kullanabilirsiniz. **İsimli Aralıklar**, Microsoft'un en güçlü özelliklerinden biridir. Kullanıcılar, bu bir adla adlandırılmış aralığa bir ad atayabilir, böylece bu hücrelerin aralığı formüllerde adıyla başvurulabilir. **Aspose.Cells.GridDesktop**, bu özelliği destekler.
 
 {{% /alert %}} 
-## **Formüllerde Adlandırılmış Aralıkları Ekleme/Başvuruda Bulunma**
-GridDesktop denetimi, Excel dosyalarındaki adlandırılmış aralıkları içe/dışa aktarmayı destekler, iki sınıf sağlar (**İsim** ve**İsim Koleksiyonu**) adlandırılmış aralıklarla çalışmak için.
+## **Formüllerde İsimli Aralıkları Ekleme/Başvuru Yapma**
+GridDesktop kontrolü, Excel dosyalarında isimli aralıkları içe/dışa aktarmayı destekler, bu işlemler için isimli aralıklar ile çalışmak için iki sınıf (**Name** ve **NameCollection**) sağlar.
 
-Aşağıdaki kod parçacığı, bunları nasıl kullanacağınız konusunda size yardımcı olacaktır.
+Aşağıdaki kod parçası, onları nasıl kullanacağınızı size yardımcı olacaktır.
 
 
 

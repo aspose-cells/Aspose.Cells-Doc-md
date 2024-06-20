@@ -1,18 +1,19 @@
-﻿---
-title: Uso de marcadores de imagen al agrupar datos en marcadores inteligentes
+---
+title: Uso de Marcadores de Imagen al Agrupar Datos en Marcadores Inteligentes
 type: docs
 weight: 630
 url: /es/java/using-image-markers-while-grouping-data-in-smart-markers/
 ---
+
 {{% alert color="primary" %}} 
 
 Este artículo presenta un ejemplo que ilustra el uso de marcadores de imagen al agrupar datos en marcadores inteligentes.
 
 {{% /alert %}} 
-## **Uso de marcadores de imagen al agrupar datos en marcadores inteligentes**
-El siguiente código de ejemplo crea un libro de trabajo y luego agrega las siguientes etiquetas de marcador inteligente en las celdas D2, E2 y F2 respectivamente.
+## **Usar Marcadores de Imagen mientras se agrupan datos en Marcadores Inteligentes**
+El siguiente código de ejemplo crea un libro y luego agrega las siguientes etiquetas de Marcador Inteligente en las celdas D2, E2 y F2 respectivamente.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  &=Person.Name(group:normal,skip:1)
 
@@ -22,9 +23,9 @@ El siguiente código de ejemplo crea un libro de trabajo y luego agrega las sigu
 
 {{< /highlight >}}
 
- Luego llena la fuente de datos con datos y llama al[WorkbookDesigner.Proceso()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\) ) método para procesar etiquetas de marcadores inteligentes. El código utiliza estas imágenes, es decir[luna.png](5472549.png) y[luna2.png](5472548.png) pero puedes usar cualquier imagen. La siguiente captura de pantalla muestra el resultado de este código de ejemplo. Como puede ver, los datos de la columna E y F están agrupados con respecto a los datos de la columna D.
+Luego llena la fuente de datos con datos y llama al método [WorkbookDesigner.Process()](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\)) para procesar las etiquetas de Marcador Inteligente. El código utiliza estas imágenes, es decir, [moon.png](5472549.png) y [moon2.png](5472548.png) pero se pueden usar cualquier imagen. La siguiente captura de pantalla muestra la salida de este código de ejemplo. Como se puede ver, los datos en la columna E y F están agrupados con respecto a los datos en la columna D.
 
-![todo:imagen_alternativa_texto](using-image-markers-while-grouping-data-in-smart-markers_1.png)
+![todo:image_alt_text](using-image-markers-while-grouping-data-in-smart-markers_1.png)
 
 
 

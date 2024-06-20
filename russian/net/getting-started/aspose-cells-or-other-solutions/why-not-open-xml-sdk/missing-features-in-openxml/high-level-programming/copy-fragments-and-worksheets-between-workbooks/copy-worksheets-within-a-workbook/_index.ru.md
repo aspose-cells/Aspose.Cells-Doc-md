@@ -1,14 +1,15 @@
-﻿---
-title: Копировать рабочие листы в рабочую книгу
+---
+title: Копирование листов внутри книги
 type: docs
 weight: 20
 url: /ru/net/copy-worksheets-within-a-workbook/
 ---
-**Aspose.Cells** предоставляет перегруженный метод,**Aspose.Cells.WorksheetCollection.AddCopy()**, который используется для добавления листа в коллекцию и копирования данных из существующего листа. Одна версия метода принимает в качестве параметра индекс исходного листа. Другая версия принимает в качестве параметра имя исходного рабочего листа.
 
-В следующем примере показано, как скопировать существующий рабочий лист в рабочую книгу.
+Aspose.Cells предоставляет перегруженный метод Aspose.Cells.WorksheetCollection.AddCopy(), который используется для добавления листа в коллекцию и копирования данных из существующего листа. Одна версия метода принимает индекс исходного листа в качестве параметра. Другая версия принимает имя исходного листа в качестве параметра.
 
-{{< highlight "csharp" >}}
+В следующем примере показано, как скопировать существующий лист в рамках рабочей книги.
+
+{{< highlight csharp >}}
 
  //Create a new Workbook.
 
@@ -33,6 +34,6 @@ sheets.AddCopy("MySheet");
 wb.Save("Copy Worksheet.xls");
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Worksheet%20%28Aspose.Cells%29.zip)
+## **Загрузить образец кода**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Worksheet%20%28Aspose.Cells%29.zip)

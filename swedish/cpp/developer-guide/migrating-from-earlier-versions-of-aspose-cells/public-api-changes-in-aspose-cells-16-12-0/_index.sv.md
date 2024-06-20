@@ -1,23 +1,24 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 16.12.0
+---
+title: Offentliga API ändringar i Aspose.Cells 16.12.0
 type: docs
 weight: 10
 url: /sv/cpp/public-api-changes-in-aspose-cells-16-12-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 16.11.0 till 16.12.0 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringar i Aspose.Cells API från version 16.11.0 till 16.12.0 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser osv., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Stöd för pivottabeller**
-Den andra versionen av Aspose.Cells for C++ stöder skapande såväl som manipulering av pivottabellerna. Aspose.Cells for C++ tillhandahåller klassen IPivotTable som representerar ett pivottabellobjekt medan IPivotTableCollection representerar en samling pivottabeller. IPivotTableCollection kan nås via IWorksheet-objektet och en ny pivottabell kan läggas till i samlingen när du använder metoden IPivotTableCollection.Add.
+## **Tillagda API:er**
+### **Stöd för pivot-tabeller**
+Den andra versionen av Aspose.Cells for C++ stöder skapande och manipulation av pivot-tabeller. Aspose.Cells for C++ tillhandahåller klassen IPivotTable som representerar ett pivot-tabellobjekt medan IPivotTableCollection representerar en samling pivot-tabeller. IPivotTableCollection kan nås via IWorksheet-objektet och en ny pivot-tabell kan läggas till i samlingen medan man använder IPivotTableCollection.Add-metoden.
 
- Följande kodavsnitt visar hur enkelt det är att använda Aspose.Cells for C++ API för att[skapa pivottabeller från grunden](/cells/sv/cpp/create-pivot-table/).
+Följande kodsnutt demonstrerar hur enkelt det är att använda Aspose.Cells for C++ API för att [skapa pivot-tabeller från grunden](/cells/sv/cpp/create-pivot-table/).
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -85,13 +86,13 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 
-Förutom att skapa nya pivottabeller stöder Aspose.Cells for C++ API:er även för att manipulera befintliga pivottabeller. API stöder för närvarande att ändra data vid källintervallet för pivottabellen och sedan uppdatera den. När pivottabellen har manipulerats enligt önskemål är det bäst att använda metoderna IPivotTable.RefreshData och IPivotTable.CalculateData för att uppdatera pivottabellen mot den uppdaterade datakällan.
+Förutom att skapa nya pivot-tabeller, stöder Aspose.Cells for C++-API:erna också att manipulera befintliga pivot-tabeller. API:et stöder för närvarande att ändra data i källområdet för pivot-tabellen och sedan uppdatera den. När pivot-tabellen har manipulerats enligt önskemål, är det bäst att använda IPivotTable.RefreshData och IPivotTable.CalculateData-metoderna för att uppdatera pivot-tabellen mot uppdaterade datakällan.
 
-Följande kodavsnitt använder Aspose.Cells for C++ API till[manipulera en befintlig pivottabell](/cells/sv/cpp/manipulate-pivot-table/).
+Följande kodsnutt använder Aspose.Cells for C++-API:et för att [manipulera en befintlig pivot-tabell](/cells/sv/cpp/manipulate-pivot-table/).
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -132,8 +133,8 @@ printf("After refreshing Pivot Table value of cell H8: %s\r\n%", val->charValue(
 wb->Save(outputPath);
 
 {{< /highlight >}}
-### **Stöd för regler för villkorlig formatering**
- Aspose.Cells for C++ ger nu möjligheten att lägga till villkorliga formateringsregler till kalkylbladet genom att exponera klassen IFormatCondition. Ovannämnda klass tillhandahåller vidare följande metoder för att[tillämpa reglerna för villkorlig formatering](/cells/sv/cpp/apply-conditional-formatting-in-worksheet/) enligt applikationskraven.
+### **Stöd för villkors- formateringsregler**
+Aspose.Cells for C++ tillhandahåller nu möjligheten att lägga till villkorsformateringsregler på arbetsbladet genom att exponera klassen IFormatCondition. Ovan nämnda klass tillhandahåller vidare följande metoder för att [tillämpa villkorsformateringsregler](/cells/sv/cpp/apply-conditional-formatting-in-worksheet/) enligt programvaru kraven.
 
 - IFormatCondition.GetIAboveAverage
 - IFormatCondition.GetIColorScale
@@ -141,11 +142,11 @@ wb->Save(outputPath);
 - IFormatCondition.GetIIconSet
 - IFormatCondition.GetITop10
 
-Följande exempelkod visar hur man lägger till en villkorlig formateringsregel av typen Cell Värde i cellerna A1 och B2.
+Följande exempelkod visar hur man lägger till en villkorsformateringsregel av typen Cellvärde på cellerna A1 och B2.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an empty workbook
 
@@ -190,12 +191,12 @@ ws->GetICells()->GetObjectByIndex(new String("A10"))->PutValue(msgStr);
 wb->Save(outputPath);
 
 {{< /highlight >}}
-### **Stöd för hyperlänkar**
- Aspose.Cells for C++ stöds nu[lägga till hyperlänkar till kalkylbladets celler](/cells/sv/cpp/add-hyperlinks-to-the-cells/)För att tillhandahålla den här funktionen har Aspose.Cells for C++ 16.12.0 exponerat klassen IHyperlinkCollection som är tillgänglig via IWorksheet-objektet medan en hyperlänk kan läggas till i samlingen med IHyperlinkCollection.Add-metoden som visas nedan.
+### **Stöd för Hyperlänkar**
+Aspose.Cells for C++ stödjer nu [att lägga till hyperlänkar till arbetsbladscellerna](/cells/sv/cpp/add-hyperlinks-to-the-cells/). För att tillhandahålla denna funktion har Aspose.Cells for C++ 16.12.0 exponerat klassen IHyperlinkCollection som är åtkomlig via IWorksheet-objektet medan en hyperlänk kan läggas till i samlingen under användning av IHyperlinkCollection.Add-metoden enligt nedan.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a new workbook
 
@@ -225,18 +226,18 @@ wb->Save(dirPath->Append(new String("output.xlsx")), SaveFormat_Xlsx);
 
 {{< /highlight >}}
 ### **Stöd för dokumentegenskaper**
-Excel-applikationen stöder 2 typer av dokumentegenskaper enligt listan nedan.
+Excel-programmet stöder 2 typer av dokumentegenskaper enligt nedan.
 
-- Systemdefinierade (inbyggda) egenskaper: Inbyggda egenskaper innehåller allmän information om dokumentet som dokumenttitel, författarens namn, dokumentstatistik och så vidare.
-- Användardefinierade (anpassade) egenskaper: Anpassade egenskaper definierade av slutanvändaren i form av namnvärdepar.
+- Systemdefinierade (inbyggda) egenskaper: Inbyggda egenskaper innehåller allmän information om dokumentet som dokumenttitel, författarens namn, dokumentstatistik osv.
+- Användardefinierade (användardefinierade) egenskaper: Användardefinierade egenskaper definieras av slutanvändaren i form av namn-värdepar.
 
- Aspose.Cells for C++ stöder[hantera båda typerna av dokumentegenskaper, inbyggda och anpassade](/cells/sv/cpp/managing-document-properties/)Aspose.Cells' IWorkbook-klassen representerar en Excel-fil. För att komma åt de inbyggda dokumentegenskaperna, använd IWorkbook.GetBuiltInDocumentProperties medan de anpassade dokumentegenskaperna kan nås när du använder metoden IWorkbook.GetCustomDocumentProperties.
+Aspose.Cells for C++ stöder [hantering av både inbyggda och anpassade dokumentegenskaper](/cells/sv/cpp/managing-document-properties/). Aspose.Cells IWorkbook-klassen representerar en Excel-fil. För att få åtkomst till de inbyggda dokumentegenskaperna, använd IWorkbook.GetBuiltInDocumentProperties medan de anpassade dokumentegenskaperna kan nås med hjälp av metoden IWorkbook.GetCustomDocumentProperties.
 
-Följande exempelkod läser in ett befintligt exempelkalkylblad och läser de inbyggda dokumentegenskaperna som Titel, Ämne och anpassad egenskap med namnet MyCustom1.
+Följande kodexempel laddar en befintlig exempelkalkyl och läser de inbyggda dokumentegenskaperna som Titel, Ämne och anpassad egenskap med namnet MyCustom1.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -286,13 +287,13 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Stöd för ListObjects**
- En Excel-tabell är en matris av celler som innehåller valfritt antal rader och kolumner medan samma tabell hänvisas till som ett listobjekt i Aspose.Cells for C++ API:er. Namnutrymmet Aspose::Cells::Tables innehåller alla nödvändiga klasser som hanterar operationerna relaterade till listobjekten. Mest värda att nämna klasser är IListObject och IListObjectCollection som tillåter det[skapa och formatera listobjekt](/cells/sv/cpp/create-and-format-table/) och så vidare.
+En Excel-tabell är en matris av celler som innehåller ett valfritt antal rader och kolumner, medan samma tabell kallas en List Object i Aspose.Cells for C++-API:er. Namnrymden Aspose::Cells::Tables innehåller alla nödvändiga klasser som hanterar operationer relaterade till List Objects. De mest noterbara klasserna är IListObject och IListObjectCollection som möjliggör [skapande och formatering av List Objects](/cells/sv/cpp/create-and-format-table/) och så vidare.
 
-Följande exempelkod läser in exempelkalkylarksfilen och skapar sedan ett listobjekt (tabell) i intervallet A1:H10, och använd sedan dess olika metoder för att visa delsumman.
+Följande kodexempel laddar exempelkalkylfilen och skapar sedan en List Object (tabell) i en omfattning A1:H10, och använder sedan olika metoder för att visa delsumman.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -335,14 +336,14 @@ lo->GetIListColumns()->GetObjectByIndex(4)->SetTotalsCalculation(TotalsCalculati
 wb->Save(outputPath);
 
 {{< /highlight >}}
-### **Stöd för rad- och kolumngruppering**
- Aspose.Cells for C++ API kan användas för att gruppera rader och kolumner samtidigt som klassen ICells används som i princip är samlingen av alla celler i ett givet kalkylblad. Klassen ICells erbjuder metoderna GroupRows och GroupColumns för att[gruppera rader och kolumner](/cells/sv/cpp/group-rows-and-columns-of-worksheet/) respektive.
+### **Stöd för gruppering av rader och kolumner**
+Aspose.Cells for C++-API:er kan användas för att gruppera rader och kolumner med hjälp av ICells-klassen som i grund och botten är samlingen av alla celler i en given arbetsblad. ICells-klassen erbjuder metoderna GroupRows och GroupColumns för att [gruppera rader och kolumner](/cells/sv/cpp/group-rows-and-columns-of-worksheet/) respektive.
 
-Följande kodavsnitt visar det enkla användningsscenariot för båda ovannämnda metoder.
+Följande kodsnutt visar det enkla användningsscenario för båda ovan nämnda metoderna.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an empty workbook
 
@@ -422,13 +423,13 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Stöd för teman**
-Aspose.Cells for C++ API:er stödjer nu att använda och manipulera teman som erbjuds av Excel-applikationen.
-#### **Möjlighet att applicera de anpassade temafärgerna**
- Följande utdrag försöker[skapa ett nytt tema med anpassade färger](/cells/sv/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/) för arbetsboken.
+Aspose.Cells for C++-API:er stöder nu användning och manipulering av teman som erbjuds av Excel-applikationen.
+#### **Möjlighet att tillämpa anpassade temafärger**
+Följande kodsnutt försöker [skapa ett nytt tema med anpassade färger](/cells/sv/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/) för arbetsboken.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook
 
@@ -495,12 +496,12 @@ wb->CustomTheme(new String("AnyTheme"), clrs);
 wb->Save(outputPath);
 
 {{< /highlight >}}
-#### **Stöd för manipulering av temafärger**
- Följande exempelkod visar hur man gör[läsa och ändra temafärgerna i arbetsboken](/cells/sv/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). Exempelkoden laddar ett befintligt kalkylblad, läser dess temafärger, dvs. Accent1-Accent6, och ändrar färgerna innan kalkylarket sparas.
+#### **Stöd för manipulation av temafärger**
+Följande kodexempel visar hur man [läser och ändrar temafärger i arbetsboken](/cells/sv/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). Kodexemplet laddar en befintlig kalkyl, läser dess temafärger, dvs Accent1-Accent6, och ändrar färgerna innan kalkylen sparas.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -561,12 +562,12 @@ printf("Accent6: %x\r\n", (clr_Accent6->ToArgb())&0xffffff);
 wb->Save(outputPath);
 
 {{< /highlight >}}
-#### **Möjlighet att kopiera teman över arbetsböcker**
- Följande exempelkod visar hur man gör[kopiera tema från en arbetsbok till en annan](/cells/sv/cpp/copy-theme-from-one-workbook-to-another/), vilket kan vara användbart för att tillämpa inbyggda eller anpassade teman på flera kalkylblad.
+#### **Möjlighet att kopiera teman mellan arbetsböcker**
+Följande kodexempel visar hur man [kopierar tema från en arbetsbok till en annan](/cells/sv/cpp/copy-theme-from-one-workbook-to-another/), vilket kan vara användbart för att tillämpa inbyggda eller anpassade teman på flera kalkyler.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Read excel file that has Damask theme applied on it
 
@@ -585,54 +586,54 @@ wb->CopyTheme(damask);
 wb->Save(outputPath, SaveFormat_Xlsx);
 
 {{< /highlight >}}
-## **Omdöpta API:er**
-Med lanseringen av Aspose.Cells for C++ 16.12.0 har vi bytt namn på några metoder för att hålla gränssnitten enhetliga. Listan över alla omdöpta API:er är följande.
-#### **Döpte om ICell::SetStyle-metoden till ICell::SetIStyle**
-#### **Döpte om ICell::SetCharacters-metoden till ICell::SetIFontSettings**
-#### **Omdöpt ICellsColor::SetThemeColor-metoden till ICellsColor::SetIThemeColor**
-#### **Omdöpt ICells::SetStyle-metoden till ICells::SetIStyle**
-#### **Döpte om ICellsHelper::GetDPI_i-metoden till ICellsHelper::GetDPI**
-#### **Döpte om ICellsHelper::SetDPI_i-metoden till ICellsHelper::SetDPI**
-#### **Döpte om ICellsHelper::GetVersion_i-metoden till ICellsHelper::GetVersion**
-#### **Döpte om ICellsHelper::IsProtectedByRMS_i-metoden till ICellsHelper::IsProtectedByRMS**
-#### **Döpte om ICellsHelper::IsProtectedByRMS_i-metoden till ICellsHelper::IsProtectedByRMS**
-#### **Döpte om ICellsHelper::CellNameToIndex_i-metoden till ICellsHelper::CellNameToIndex**
-#### **Döpte om ICellsHelper::CellIndexToName_i-metoden till ICellsHelper::CellIndexToName**
-#### **Döpte om ICellsHelper::ColumnIndexToName_i-metoden till ICellsHelper::ColumnIndexToName**
-#### **Döpte om ICellsHelper::ColumnNameToIndex_i-metoden till ICellsHelper::ColumnNameToIndex**
-#### **Döpte om ICellsHelper::RowIndexToName_i-metoden till ICellsHelper::RowIndexToName**
-#### **Döpte om ICellsHelper::RowNameToIndex_i-metoden till ICellsHelper::RowNameToIndex**
-#### **Döpte om ICellsHelper::ConvertR1C1FormulaToA1_i-metoden till ICellsHelper::ConvertR1C1FormulaToA1**
-#### **Döpte om ICellsHelper::ConvertA1FormulaToR1C1_i-metoden till ICellsHelper::ConvertA1FormulaToR1C1**
-#### **Döpte om ICellsHelper::GetDateTimeFromDouble_i-metoden till ICellsHelper::GetDateTimeFromDouble**
-#### **Döpte om ICellsHelper::GetDoubleFromDateTime_i-metoden till ICellsHelper::GetDoubleFromDateTime**
-#### **Döpte om ICellsHelper::DetectLoadFormat_i-metoden till ICellsHelper::DetectLoadFormat**
-#### **Döpte om ICellsHelper::DetectFileFormat_i-metoden till ICellsHelper::DetectFileFormat**
-#### **Döpte om ICellsHelper::GetFontDir_i-metoden till ICellsHelper::GetFontDir**
-#### **Döpte om ICellsHelper::SetFontDir_i-metoden till ICellsHelper::SetFontDir**
-#### **Döpte om ICellsHelper::GetFontDirs_i-metoden till ICellsHelper::GetFontDirs**
-#### **Döpte om ICellsHelper::SetFontDirs_i-metoden till ICellsHelper::SetFontDirs**
-#### **Döpte om ICellsHelper::GetFontFiles_i-metoden till ICellsHelper::GetFontFiles**
-#### **Döpte om ICellsHelper::SetFontFiles_i-metoden till ICellsHelper::SetFontFiles**
-#### **Döpte om ICellsHelper::GetStartupPath_i-metoden till ICellsHelper::GetStartupPath**
-#### **Döpte om ICellsHelper::SetStartupPath_i-metoden till ICellsHelper::SetStartupPath**
-#### **Döpte om ICellsHelper::GetAltStartPath_i-metoden till ICellsHelper::GetAltStartPath**
-#### **Döpte om ICellsHelper::SetAltStartPath_i-metoden till ICellsHelper::SetAltStartPath**
-#### **Döpte om ICellsHelper::GetLibraryPath_i-metoden till ICellsHelper::GetLibraryPath**
-#### **Döpte om ICellsHelper::SetLibraryPath_i-metoden till ICellsHelper::SetLibraryPath**
-#### **Döpte om ICellsHelper::GetUsedColors_i-metoden till ICellsHelper::GetUsedColors**
-#### **Omdöpt ICellsHelper::AddAddInFunction_i-metoden till ICellsHelper::AddAddInFunction**
-#### **Döpte om ICellsHelper::MergeFiles_i-metoden till ICellsHelper::MergeFiles**
-#### **Omdöpt IColumnCollection::GetByIndex_i-metoden till IColumnCollection::GetIColumn**
-#### **Döpte om metoden IFileFormatUtil::DetectFileFormat_i till IFileFormatUtil::DetectFileFormat**
-#### **Döpte om metoden IFileFormatUtil::ExtensionToSaveFormat_i till IFileFormatUtil::ExtensionToSaveFormat**
-#### **Döpte om metoden IFileFormatUtil::IsTemplateFormat_i till IFileFormatUtil::IsTemplateFormat**
-#### **Döpte om metoden IFileFormatUtil::LoadFormatToExtension_i till IFileFormatUtil::LoadFormatToExtension**
-#### **Döpte om metoden IFileFormatUtil::LoadFormatToSaveFormat_i till IFileFormatUtil::LoadFormatToSaveFormat**
-#### **Döpte om metoden IFileFormatUtil::SaveFormatToExtension_i till IFileFormatUtil::SaveFormatToExtension**
-#### **Döpte om metoden IFileFormatUtil::SaveFormatToLoadFormat_i till IFileFormatUtil::SaveFormatToLoadFormat**
-#### **Döpte om IRange::SetStyle-metoden till IRange::SetIStyle**
-#### **Döpte om IFindOptions::SetRange-metoden till IFindOptions::SetIRange**
-#### **Omdöpt ILoadOptions::SetLoadDataOptions-metoden till ILoadOptions::SetILoadDataOptions**
-#### **Döpte om IWorkbook::SetSettings-metoden till IWorkbook::SetISettings**
-#### **Döpte om IWorkbook::SetDefaultStyle-metoden till IWorkbook::SetDefaultIStyle**
+## **Namnändrade API:er**
+Med släppet av Aspose.Cells for C++ 16.12.0 har vi namnändrat några metoder för att hålla gränssnitten enhetliga. Listan över alla namnändrade API:er är följande.
+#### **Namnändrade ICell::SetStyle-metod till ICell::SetIStyle**
+#### **Namnändrade ICell::SetCharacters-metod till ICell::SetIFontSettings**
+#### **Namnändrade ICellsColor::SetThemeColor-metod till ICellsColor::SetIThemeColor**
+#### **Namnändrade ICells::SetStyle-metod till ICells::SetIStyle**
+#### **Namnändrade ICellsHelper::GetDPI_i-metod till ICellsHelper::GetDPI**
+#### **Namnändrade ICellsHelper::SetDPI_i-metod till ICellsHelper::SetDPI**
+#### **Namnändrade ICellsHelper::GetVersion_i-metod till ICellsHelper::GetVersion**
+#### **Namnändrade ICellsHelper::IsProtectedByRMS_i-metod till ICellsHelper::IsProtectedByRMS**
+#### **Namnändrade ICellsHelper::IsProtectedByRMS_i-metod till ICellsHelper::IsProtectedByRMS**
+#### **Namnändrade ICellsHelper::CellNameToIndex_i-metod till ICellsHelper::CellNameToIndex**
+#### **Namnändrade ICellsHelper::CellIndexToName_i-metod till ICellsHelper::CellIndexToName**
+#### **Namnändrade ICellsHelper::ColumnIndexToName_i-metod till ICellsHelper::ColumnIndexToName**
+#### **Omdöptes ICellsHelper::ColumnNameToIndex_i-metoden till ICellsHelper::ColumnNameToIndex**
+#### **Omdöptes ICellsHelper::RowIndexToName_i-metoden till ICellsHelper::RowIndexToName**
+#### **Omdöptes ICellsHelper::RowNameToIndex_i-metoden till ICellsHelper::RowNameToIndex**
+#### **Omdöptes ICellsHelper::ConvertR1C1FormulaToA1_i-metoden till ICellsHelper::ConvertR1C1FormulaToA1**
+#### **Omdöptes ICellsHelper::ConvertA1FormulaToR1C1_i-metoden till ICellsHelper::ConvertA1FormulaToR1C1**
+#### **Omdöptes ICellsHelper::GetDateTimeFromDouble_i-metoden till ICellsHelper::GetDateTimeFromDouble**
+#### **Omdöptes ICellsHelper::GetDoubleFromDateTime_i-metoden till ICellsHelper::GetDoubleFromDateTime**
+#### **Omdöptes ICellsHelper::DetectLoadFormat_i-metoden till ICellsHelper::DetectLoadFormat**
+#### **Omdöptes ICellsHelper::DetectFileFormat_i-metoden till ICellsHelper::DetectFileFormat**
+#### **Omdöptes ICellsHelper::GetFontDir_i-metoden till ICellsHelper::GetFontDir**
+#### **Omdöptes ICellsHelper::SetFontDir_i-metoden till ICellsHelper::SetFontDir**
+#### **Omdöptes ICellsHelper::GetFontDirs_i-metoden till ICellsHelper::GetFontDirs**
+#### **Omdöptes ICellsHelper::SetFontDirs_i-metoden till ICellsHelper::SetFontDirs**
+#### **Omdöptes ICellsHelper::GetFontFiles_i-metoden till ICellsHelper::GetFontFiles**
+#### **Omdöptes ICellsHelper::SetFontFiles_i-metoden till ICellsHelper::SetFontFiles**
+#### **Omdöptes ICellsHelper::GetStartupPath_i-metoden till ICellsHelper::GetStartupPath**
+#### **Omdöptes ICellsHelper::SetStartupPath_i-metoden till ICellsHelper::SetStartupPath**
+#### **Omdöptes ICellsHelper::GetAltStartPath_i-metoden till ICellsHelper::GetAltStartPath**
+#### **Omdöptes ICellsHelper::SetAltStartPath_i-metoden till ICellsHelper::SetAltStartPath**
+#### **Omdöptes ICellsHelper::GetLibraryPath_i-metoden till ICellsHelper::GetLibraryPath**
+#### **Omdöptes ICellsHelper::SetLibraryPath_i-metoden till ICellsHelper::SetLibraryPath**
+#### **Omdöptes ICellsHelper::GetUsedColors_i-metoden till ICellsHelper::GetUsedColors**
+#### **Omdöptes ICellsHelper::AddAddInFunction_i-metoden till ICellsHelper::AddAddInFunction**
+#### **Omdöptes ICellsHelper::MergeFiles_i-metoden till ICellsHelper::MergeFiles**
+#### **Omdöptes IColumnCollection::GetByIndex_i-metoden till IColumnCollection::GetIColumn**
+#### **Omdöptes IFileFormatUtil::DetectFileFormat_i-metoden till IFileFormatUtil::DetectFileFormat**
+#### **Omdöptes IFileFormatUtil::ExtensionToSaveFormat_i-metoden till IFileFormatUtil::ExtensionToSaveFormat**
+#### **Omdöptes IFileFormatUtil::IsTemplateFormat_i-metoden till IFileFormatUtil::IsTemplateFormat**
+#### **Omdöptes IFileFormatUtil::LoadFormatToExtension_i-metoden till IFileFormatUtil::LoadFormatToExtension**
+#### **Omdöptes IFileFormatUtil::LoadFormatToSaveFormat_i-metoden till IFileFormatUtil::LoadFormatToSaveFormat**
+#### **Bytte namn på metoden IFileFormatUtil::SaveFormatToExtension_i till IFileFormatUtil::SaveFormatToExtension**
+#### **Bytte namn på metoden IFileFormatUtil::SaveFormatToLoadFormat_i till IFileFormatUtil::SaveFormatToLoadFormat**
+#### **Bytte namn på metoden IRange::SetStyle till IRange::SetIStyle**
+#### **Bytte namn på metoden IFindOptions::SetRange till IFindOptions::SetIRange**
+#### **Bytte namn på metoden ILoadOptions::SetLoadDataOptions till ILoadOptions::SetILoadDataOptions**
+#### **Bytte namn på metoden IWorkbook::SetSettings till IWorkbook::SetISettings**
+#### **Bytte namn på metoden IWorkbook::SetDefaultStyle till IWorkbook::SetDefaultIStyle**

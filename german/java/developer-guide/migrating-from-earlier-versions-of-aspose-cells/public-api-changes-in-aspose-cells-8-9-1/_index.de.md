@@ -1,36 +1,37 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.9.1
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.9.1
 type: docs
 weight: 320
 url: /de/java/public-api-changes-in-aspose-cells-8-9-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.9.0 zu 8.9.1, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells API von Version 8.9.0 auf 8.9.1, die für Modul- / Anwendungsentwickler von Interesse sein können. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung von Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Konfigurierbare Schriftartquellen**
-Aspose.Cells for Java hat eine Reihe von Klassen verfügbar gemacht, um die Unterstützung für konfigurierbare Schriftartquellen zum Rendern von Tabellenkalkulationen bereitzustellen. Hier ist die Liste der Klassen, die mit Aspose.Cells for Java 8.9.1 hinzugefügt wurden.
+## **Hinzugefügte APIs**
+### **Konfigurierbare Schriftquellen**
+Aspose.Cells for Java hat eine Reihe von Klassen freigegeben, um die Unterstützung für konfigurierbare Schriftquellen für die Darstellung von Tabellenkalkulationen bereitzustellen. Hier ist die Liste der Klassen, die mit Aspose.Cells for Java 8.9.1 hinzugefügt wurden.
 
-1. Die FontConfigs-Klasse gibt die Schriftarteinstellungen an.
-1. Die FontSourceBase-Klasse ist eine abstrakte Basisklasse für die Klassen, die es dem Benutzer ermöglichen, verschiedene Schriftartquellen anzugeben.
-1. Die FileFontSource-Klasse stellt die einzelne TrueType-Schriftartdatei dar, die im Dateisystem gespeichert ist.
-1. Die FolderFontSource-Klasse stellt den Ordner dar, der TrueType-Schriftartdateien enthält.
-1. Die MemoryFontSource-Klasse stellt die einzelne TrueType-Schriftartdatei dar, die im Arbeitsspeicher gespeichert ist.
-1. Die Aufzählung FontSourceType gibt den Typ einer Schriftartquelle an.
+1. Die Klasse FontConfigs gibt die Schrifteinstellungen an.
+1. Die Klasse FontSourceBase ist eine abstrakte Basisklasse für die Klassen, die es dem Benutzer ermöglichen, verschiedene Schriftquellen anzugeben.
+1. Die Klasse FileFontSource repräsentiert die einzelne TrueType-Schriftartdatei, die im Dateisystem gespeichert ist.
+1. Die Klasse FolderFontSource repräsentiert den Ordner, der TrueType-Schriftartdateien enthält.
+1. Die Klasse MemoryFontSource repräsentiert die einzelne TrueType-Schriftartdatei, die im Speicher gespeichert ist.
+1. Die Enumeration FontSourceType gibt den Typ einer Schriftquelle an.
 
-Mit den oben genannten Änderungen ermöglicht die Aspose.Cells for Java die Einstellung der Schriftarten wie unten beschrieben.
+Mit den oben genannten Änderungen ermöglicht Aspose.Cells for Java das Festlegen der Schriften wie folgt.
 
-1. Legen Sie einen benutzerdefinierten Schriftartenordner fest, während Sie die Methode FontConfigs.setFontFolder verwenden.
-1. Legen Sie mehrere Ordner für benutzerdefinierte Schriftarten fest, während Sie die Methode FontConfigs.setFontFolders verwenden.
-1. Legen Sie Schriftartquellen aus einem benutzerdefinierten Schriftartordner, einer einzelnen Schriftartdatei oder Schriftartdaten aus einem Array von Bytes fest, während Sie die Methode FontConfigs.setFontSources verwenden.
+1. Legen Sie einen benutzerdefinierten Schriftordner fest, während Sie die Methode FontConfigs.setFontFolder verwenden.
+1. Legen Sie mehrere benutzerdefinierte Schriftordner fest, während Sie die Methode FontConfigs.setFontFolders verwenden.
+1. Legen Sie Schriftquellen aus einem benutzerdefinierten Schriftordner, einer einzelnen Schriftartdatei oder Schriftendaten aus einem Byte-Array fest, während Sie die Methode FontConfigs.setFontSources verwenden.
 
-Hier ist ein einfaches Anwendungsszenario der oben genannten Methoden.
+Hier ist ein einfaches Anwendungsszenario für die oben genannten Methoden.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Defining string variables to store paths to font folders & font file
 
@@ -50,7 +51,7 @@ FontConfigs.setFontFolder(fontFolder1, true);
 
 //Second parameter prohibits the API to search the sub folders for font files
 
-FontConfigs.setFontFolders(new String[]{ fontFolder1, fontFolder2 }, false);
+FontConfigs.setFontFolders(new String[] { fontFolder1, fontFolder2 }, false);
 
 //Defining FolderFontSource
 
@@ -62,62 +63,62 @@ FileFontSource sourceFile = new FileFontSource(fontFile);
 
 //Defining MemoryFontSource
 
-byte[]bytes = Files.readAllBytes(new File(fontFile).toPath());
+byte[] bytes = Files.readAllBytes(new File(fontFile).toPath());
 
 MemoryFontSource sourceMemory = new MemoryFontSource(bytes);
 
 //Setting font sources
 
-FontConfigs.setFontSources(new FontSourceBase[]{ sourceFolder, sourceFile, sourceMemory});
+FontConfigs.setFontSources(new FontSourceBase[] { sourceFolder, sourceFile, sourceMemory});
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
 
- Beide FontConfigs.setFontFolder- und FontConfigs.setFontFolders-Methoden akzeptieren einen zweiten Parameter vom Typ Boolean. Die Übergabe von true als zweiten Parameter weist die Aspose.Cells-APIs an, die Unterordner nach den Schriftartdateien zu durchsuchen.
+Die Methoden FontConfigs.setFontFolder und FontConfigs.setFontFolders akzeptieren beide einen zweiten Parameter vom Typ Boolean. Wenn true als zweiter Parameter übergeben wird, werden die Aspose.Cells APIs angewiesen, nach den Schriftartdateien in den Unterordnern zu suchen. 
 
 {{% /alert %}} 
 
-Aspose.Cells for Java ermöglicht auch die Konfiguration der Schriftersetzung. Dieser Mechanismus ist hilfreich, wenn eine erforderliche Schriftart auf dem Computer, auf dem die Konvertierung stattfinden soll, nicht verfügbar ist. Benutzer können eine Liste mit Schriftartnamen als Alternative zur ursprünglich erforderlichen Schriftart bereitstellen. Um dies zu erreichen, haben die Aspose.Cells-APIs die Methode FontConfigs.setFontSubstitutes verfügbar gemacht, die zwei Parameter akzeptiert. Der erste Parameter ist vom Typ string, der der Name der Schriftart sein sollte, die ersetzt werden muss. Der zweite Parameter ist ein Array vom Typ String. Benutzer können eine Liste mit Schriftartnamen als Ersatz für den ursprünglichen Schriftartnamen (angegeben im ersten Parameter) bereitstellen.
+Aspose.Cells for Java ermöglicht auch die Konfiguration der Schriftarten-Substitution. Dieser Mechanismus ist hilfreich, wenn eine erforderliche Schriftart auf dem Computer, auf dem die Konvertierung stattfinden soll, nicht verfügbar ist. Benutzer können eine Liste von Schriftartnamen als Alternative zur ursprünglich benötigten Schriftart angeben. Um dies zu ermöglichen, haben die Aspose.Cells APIs die Methode FontConfigs.setFontSubstitutes freigegeben, die 2 Parameter akzeptiert. Der erste Parameter ist vom Typ String und sollte der Name der Schriftart sein, die ersetzt werden muss. Der zweite Parameter ist ein Array vom Typ String. Benutzer können eine Liste von Schriftartnamen als Ersatz für den ursprünglichen Schriftartnamen angeben (der im ersten Parameter angegeben ist).
 
-Hier ist ein einfaches Nutzungsszenario der Methode FontConfigs.SetFontSubstitutes.
+Hier ist ein einfaches Anwendungsszenario für die Methode FontConfigs.SetFontSubstitutes.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Substituting the Arial font with Times New Roman & Calibri
 
-FontConfigs.setFontSubstitutes("Arial", new String[]{ "Times New Roman", "Calibri" });
+FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calibri" });
 
 {{< /highlight >}}
 
-Die Aspose.Cells for Java hat auch Mittel bereitgestellt, um Informationen darüber zu sammeln, welche Quellen und Substitutionen eingestellt wurden.
+Aspose.Cells for Java hat auch Mittel bereitgestellt, um Informationen darüber zu sammeln, welche Quellen und Substitutionen festgelegt wurden.
 
-1. Die Methode FontConfigs.getFontSources gibt ein Array vom Typ FontSourceBase zurück, das die Liste der angegebenen Schriftartquellen enthält. Falls keine Quellen festgelegt wurden, gibt die Methode FontConfigs.getFontSources ein leeres Array zurück.
-1. Die Methode „FontConfigs.getFontSubstitutes“ akzeptiert einen Parameter vom Typ „String“, mit dem der Schriftartname angegeben werden kann, für den eine Ersetzung festgelegt wurde. Falls für den angegebenen Schriftartnamen keine Ersetzung festgelegt wurde, gibt die Methode FontConfigs.getFontSubstitutes null zurück.
+1. Die Methode FontConfigs.getFontSources gibt ein Array vom Typ FontSourceBase zurück, das die Liste der angegebenen Schriftquellen enthält. Falls keine Quellen festgelegt wurden, wird die Methode FontConfigs.getFontSources ein leeres Array zurückgeben.
+1. Die Methode FontConfigs.getFontSubstitutes akzeptiert einen Parameter vom Typ String, mit dem der Schriftname angegeben werden kann, für den eine Substitution festgelegt wurde. Falls keine Substitution für den angegebenen Schriftname festgelegt wurde, gibt die Methode FontConfigs.getFontSubstitutes null zurück.
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu FontConfigs finden Sie im Artikel unter[Konfigurieren von Schriftarten zum Rendern von Tabellenkalkulationen](/cells/de/java/configuring-fonts-for-rendering-spreadsheets/).
+Weitere Details zu FontConfigs finden Sie im Artikel über die [Konfiguration von Schriftarten für das Rendern von Tabellenkalkulationen](/cells/de/java/configuring-fonts-for-rendering-spreadsheets/).
 
 {{% /alert %}} 
-### **IFilePathProvider Interface & HtmlSaveOptions.FilePathProvider-Eigenschaft hinzugefügt**
-Aspose.Cells for Java 8.9.1 ermöglicht das Abrufen/Setzen des IFilePathProvider zum Exportieren von Arbeitsblättern in separate HTML-Dateien. Diese neuen APIs sind in Szenarien hilfreich, in denen Hyperlinks in einem Arbeitsblatt auf eine Position in einem anderen Arbeitsblatt verweisen, in denen die Anwendungsanforderung darin besteht, jedes Arbeitsblatt in eine separate HTML-Datei zu rendern. Die Implementierung des IFilePathProvider ermöglicht es, die oben genannten Hyperlinks intakt zu halten, unabhängig davon, ob sie auf einen Ort in einer separaten resultierenden HTML-Datei verweisen.
+### **Hinzugefügt: IFilePathProvider-Schnittstelle & HtmlSaveOptions.FilePathProvider-Eigenschaft**
+Aspose.Cells for Java 8.9.1 ermöglicht das Abrufen/Festlegen des IFilePathProvider zum Exportieren von Tabellenkalkulationen in separate HTML-Dateien. Diese neuen APIs sind in Szenarien hilfreich, in denen Hyperlinks in einer Arbeitsmappe auf einen Speicherort in einer anderen Arbeitsmappe verweisen und jede Arbeitsmappe in eine separate HTML-Datei gerendert werden soll. Durch Implementierung des IFilePathProvider bleiben die genannten Hyperlinks unabhängig von der Tatsache, dass sie auf einen Speicherort in einer separaten resultierenden HTML-Datei verweisen, intakt.
 
-Im Folgenden ist das einfache Verwendungsszenario der HtmlSaveOptions.FilePathProvider-Eigenschaft dargestellt.
+Im Folgenden wird das einfache Anwendungsszenario der Eigenschaft HtmlSaveOptions.FilePathProvider beschrieben.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Eine Tabelle in eine Instanz von Workbook laden
+ //Load a spreadsheet in an instance of Workbook
 
-Arbeitsmappenbuch = neue Arbeitsmappe (dir + "sample.xlsx");
+Workbook book = new Workbook(dir + "sample.xlsx");
 
-// Speichern Sie jedes Arbeitsblatt in einer separaten HTML-Datei
+//Save each Worksheet to separate  HTML file
 
- für (int i = 0; i< book.getWorksheets().getCount(); i++)
+for (int i = 0; i < book.getWorksheets().getCount(); i++)
 
 {
 
@@ -173,17 +174,17 @@ Arbeitsmappenbuch = neue Arbeitsmappe (dir + "sample.xlsx");
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Verbesserung finden Sie im Artikel auf[Implementieren der IFilePathProvider-Schnittstelle](/cells/de/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
+Weitere Details zu dieser Verbesserung finden Sie im Artikel über die [Implementierung des IFilePathProvider Interface](/cells/de/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
 
 {{% /alert %}} 
-### **CopyOptions.ReferToDestinationSheet-Eigenschaft und Überladung für Cells.copyRows-Methode hinzugefügt**
-Aspose.Cells for Java API hat die CopyOptions.ReferToDestinationSheet-Eigenschaft des booleschen Typs zusammen mit einer Überladung der Cells.copyRows-Methode verfügbar gemacht, um den Vorgang zum Kopieren von Zeilen zu vereinfachen, wenn zu kopierende Zeilen auch ein Diagramm und seine Datenquelle enthalten. Entwickler können diese neuen APIs verwenden, um die Datenquelle des Diagramms auf die Quell- oder Zielarbeitsblätter zu verweisen.
+### **Hinzugefügt: CopyOptions.ReferToDestinationSheet-Eigenschaft & Überladung für Cells.copyRows-Methode**
+Aspose.Cells for Java API hat die Eigenschaft CopyOptions.ReferToDestinationSheet vom Typ Boolean und eine Überladung der Cells.copyRows-Methode freigegeben, um die Kopiervorgänge von Zeilen zu erleichtern, wenn die zu kopierenden Zeilen auch ein Diagramm und seine Datenquelle enthalten. Entwickler können diese neuen APIs verwenden, um die Datenquelle des Diagramms auf die Quell- oder Zielarbeitsblätter zu verweisen.
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet in an instance of Workbook
 
@@ -215,17 +216,17 @@ book.save(dir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im Artikel auf[Steuern Sie die Datenquelle des Diagramms beim Kopieren von Zeilen](/cells/de/java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
+Weitere Details zu diesem Feature finden Sie im Artikel über die [Steuerung der Datenquelle des Diagramms beim Kopieren von Zeilen](/cells/de/java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
 
 {{% /alert %}} 
-### **CalculationOptions.Recursive-Eigenschaft hinzugefügt**
-Aspose.Cells for Java 8.9.1 hat die CalculationOptions.Recursive-Eigenschaft des booleschen Typs verfügbar gemacht. Durch Festlegen der Eigenschaft „CalculationOptions.Recursive“ auf „true“ und Übergeben des Objekts an die Methode „Workbook.calculateFormula“ werden die Aspose.Cells-APIs angewiesen, die abhängigen Zellen rekursiv zu berechnen, wenn Zellen berechnet werden, die von anderen Zellen abhängen.
+### **Hinzugefügt: CalculationOptions.Recursive-Eigenschaft**
+Aspose.Cells for Java 8.9.1 hat die Eigenschaft CalculationOptions.Recursive vom Typ Boolean freigegeben. Durch Setzen der Eigenschaft CalculationOptions.Recursive auf true und Übergeben des Objekts an die Workbook.calculateFormula-Methode weisen Sie die Aspose.Cells APIs an, die abhängigen Zellen rekursiv zu berechnen, wenn Zellen berechnet werden, die von anderen Zellen abhängen.
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet in an instance of Workbook
 
@@ -245,13 +246,13 @@ book.calculateFormula(options);
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im Artikel auf[Berechnungszeit optimieren](/cells/de/java/decrease-the-calculation-time-of-cell-calculate-method/).
+Weitere Details zu diesem Feature finden Sie im Artikel über die [Optimierung der Berechnungszeit](/cells/de/java/decrease-the-calculation-time-of-cell-calculate-method/).
 
 {{% /alert %}}
 ## **Veraltete APIs**
-### **Veraltete CellsHelper.FontDir-Eigenschaft**
-Es wird empfohlen, stattdessen die Methode FontConfigs.setFontFolder(String, boolean) zu verwenden, wobei der Ordner rekursiv zu false ist.
-### **Veraltete CellsHelper.FontDirs-Eigenschaft**
-Verwenden Sie stattdessen die Methode „FontConfigs.setFontFolders(String[], boolean)“, wobei der Ordner rekursiv zu „false“ wird.
-### **Veraltete CellsHelper.FontFiles-Eigenschaft**
+### **Veraltete Eigenschaft CellsHelper.FontDir**
+Es wird empfohlen, die Methode FontConfigs.setFontFolder(String, boolean) mit rekursivem Ordner auf false zu verwenden.
+### **Veraltete Eigenschaft CellsHelper.FontDirs**
+Verwenden Sie die Methode FontConfigs.setFontFolders(String[], boolean) mit rekursivem Ordner auf false.
+### **Veraltete Eigenschaft CellsHelper.FontFiles**
 Verwenden Sie stattdessen die Methode FontConfigs.setFontSources(FontSourceBase[]).

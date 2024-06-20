@@ -1,19 +1,20 @@
-﻿---
-title: Pivot Tablodaki Pivot Alanlarını Gruplandırma
+---
+title: Pivot Tablosunda Alanları Gruplandırın
 type: docs
 weight: 80
 url: /tr/net/group-pivot-fields-in-the-pivot-table/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Microsoft Excel, pivot tablonun pivot alanlarını gruplandırmanıza olanak tanır. Bir pivot alanıyla ilgili büyük miktarda veri olduğunda, bunları bölümler halinde gruplandırmak genellikle yararlıdır. Aspose.Cells ayrıca bu özelliği kullanarak[**PivotTable.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index)yöntem.
+Microsoft Excel, pivot tablosunun pivot alanlarını gruplamanıza olanak tanır. Bir pivot alanına ilişkin büyük miktarda veri olduğunda, bunları bölümlere ayırmak genellikle faydalıdır. Aspose.Cells, [**PivotTable.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index) yöntemini kullanarak bu özelliği sağlar.
 
-## **Pivot Tablodaki Pivot Alanlarını Gruplandırma**
+## **Pivot Tablosunda Alanları Gruplandırın**
 
- Aşağıdaki örnek kod,[örnek excel dosyası](64716818.xlsx) kullanarak ilk pivot alanında gruplandırma gerçekleştirir.[**PivotTable.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index)yöntem. Daha sonra pivot tablonun verilerini yeniler ve hesaplar ve çalışma kitabını şu şekilde kaydeder:[çıktı excel dosyası](64716817.xlsx). Ekran görüntüsü, örnek kodun örnek Excel dosyası üzerindeki etkisini gösterir. Ekran görüntüsünde görebileceğiniz gibi, ilk pivot alanı artık aylara ve çeyreklere göre gruplandırılmıştır.
+Aşağıdaki örnek kod, [örnek Excel dosyasını](64716818.xlsx) yükler ve ilk pivot alanında [**PivotTable.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index) yöntemini kullanarak gruplama yapar. Ardından pivot tablosunun verilerini yeniler ve hesaplar ve çalışma kitabını [çıktı Excel dosyası olarak](64716817.xlsx) kaydeder. Ekran görüntüsü, örnek kodun örneğin Excel dosyası üzerindeki etkisini göstermektedir. Ekran görüntüsünde gördüğünüz gibi, ilk pivot alanı artık aylara ve çeyreklere göre gruplandırılmış durumda.
 
-![yapılacaklar:resim_alternatif_metin](group-pivot-fields-in-the-pivot-table_1.png)
+![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-GroupPivotFieldsInPivotTable.cs" >}}

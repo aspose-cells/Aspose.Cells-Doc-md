@@ -1,15 +1,16 @@
-﻿---
-title: Hello World
+---
+title: Merhaba Dünya
 type: docs
 weight: 10
 url: /tr/java/hello-world/
 ---
+
 ## **Aspose.Cells - Hello World**
-PHP'de Aspose.Cells for Java kullanarak Elektronik Tablo Belgesine herhangi bir şey yazmak için HelloWorld modülünü çağırmanız yeterlidir.
+PHP'de Aspose.Cells for Java kullanarak Elektronik Tablo Belgesine herhangi bir şey yazmak için, sadece HelloWorld modülünü çağırın.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Instantiating a Workbook object that represents a Microsoft Excel file.
 
@@ -41,6 +42,6 @@ print "Document has been saved, please check the output file.";
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Hello World (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden **Merhaba Dünya (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/quickstart/HelloWorld.php)

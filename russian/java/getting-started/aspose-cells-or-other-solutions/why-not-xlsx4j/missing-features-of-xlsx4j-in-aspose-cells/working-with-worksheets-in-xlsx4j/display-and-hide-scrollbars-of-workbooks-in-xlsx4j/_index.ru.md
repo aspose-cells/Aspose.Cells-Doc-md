@@ -1,15 +1,16 @@
-﻿---
-title: Отображение и скрытие полос прокрутки книг в xlsx4j
+---
+title: Отображение и скрытие полос прокрутки рабочих книг в xlsx4j
 type: docs
 weight: 30
 url: /ru/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/
 ---
-## **Aspose.Cells - Отображение и скрытие полос прокрутки книг**
- Aspose.Cells предоставляет класс,**Рабочая тетрадь** который представляет файл Excel.**Рабочая тетрадь** Класс предоставляет широкий спектр свойств и методов для управления файлом Excel. Но для управления видимостью полос прокрутки в файле Excel разработчики могут использовать**setVScrollBarVisible** & **setHScrollBarVisible** методы**Рабочая тетрадь** учебный класс.
+
+## **Aspose.Cells - Отображение и скрытие полос прокрутки рабочих книг**
+Aspose.Cells предоставляет класс **Workbook**, который представляет собой файл Excel. Класс **Workbook** предоставляет широкий спектр свойств и методов для управления файлом Excel. Однако, для управления видимостью полос прокрутки в файле Excel разработчики могут использовать методы **setVScrollBarVisible** и **setHScrollBarVisible** класса **Workbook**.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -43,7 +44,7 @@ workbook.save(dataDir + "AsposeDisplaySrollbars.xls");
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/displayandhidescrollbars/AsposeDisplayAndHideScrollbars.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/displayandhidescrollbars/AsposeDisplayAndHideScrollbars.java)

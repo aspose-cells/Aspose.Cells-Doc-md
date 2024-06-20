@@ -1,4 +1,4 @@
-﻿---
+---
 title: Свойства документа
 type: docs
 weight: 59

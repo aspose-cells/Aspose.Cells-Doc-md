@@ -1,22 +1,23 @@
-﻿---
+---
 title: Utilisation de la fonction FormulaText dans Aspose.Cells
 type: docs
 weight: 530
 url: /fr/java/using-formulatext-function-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-*TexteFormule* est une fonction Excel 2013 et versions ultérieures. Il n'est pas supporté par les versions précédentes comme Excel 2010 ou 2007 etc. Comme son nom l'indique, il imprime le texte de la formule qui est présente dans une cellule donnée. Cet article vous montrera comment utiliser cette fonction en utilisant Aspose.Cells.
+*FormulaText* est une fonction Excel 2013 et ultérieure. Elle n'est pas prise en charge par les versions précédentes telles qu'Excel 2010 ou 2007, etc. Comme son nom l'indique, elle imprime le texte de la formule présente dans une cellule donnée. Cet article vous montrera comment utiliser cette fonction à l'aide d'Aspose.Cells.
 
 {{% /alert %}} 
 ## **Utilisation de la fonction FormulaText dans Aspose.Cells**
- L'exemple de code suivant montre l'utilisation de*TexteFormule* avec Aspose.Cells. Le code écrit d'abord une formule dans la cellule A1, puis imprime le texte de la formule en utilisant*TexteFormule*dans la cellule A2.
+Le code d'exemple suivant montre l'utilisation de *FormulaText* avec Aspose.Cells. Le code écrit d'abord une formule dans la cellule A1, puis imprime le texte de la formule à l'aide de *FormulaText* dans la cellule A2.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingFormulaTextfunction-UsingFormulaTextfunction.java" >}}
 ## **Sortie console**
-Voici la sortie console de l'exemple de code ci-dessus.
+Voici la sortie de la console du code d'exemple ci-dessus.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  =SUM(B1:B10)
 

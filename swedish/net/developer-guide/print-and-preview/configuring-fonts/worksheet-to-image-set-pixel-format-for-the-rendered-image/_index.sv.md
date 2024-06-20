@@ -1,16 +1,17 @@
-﻿---
-title: Arbetsblad till bild - Ställ in pixelformat för den renderade bilden
+---
+title: Kalkylblad till bild  Ställ in bildpunktsformat för den renderade bilden
 type: docs
 weight: 200
 url: /sv/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/
 ---
+
 {{% alert color="primary" %}} 
 
-Ibland vill du ange pixelformatet när du renderar ett kalkylblad till bildformat. Som standard använder Aspose.Cells 32 bitar per pixel. Aspose.Cells låter dig anpassa pixelformatet (bitdjup) med alternativ för den renderade bilden.
+Ibland vill du ange bildpunktsformatet vid rendering av ett kalkylblad till bildformat. Som standard använder Aspose.Cells 32 bitar per pixel. Aspose.Cells tillåter dig att anpassa bildpunktsformatet (bitdjup) med hjälp av alternativ för den renderade bilden.
 
 {{% /alert %}} 
 
-Se exempelkoden nedan som visar hur du ställer in det önskade pixelformatet medan du renderar bilder av arken.
+Se den nedanstående exempelkoden som visar hur man ställer in önskat bildpunktsformat vid rendering av arkens bilder.
 
 
 

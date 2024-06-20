@@ -1,17 +1,20 @@
-﻿---
-title: قم بإنشاء سطر التوقيع في مصنف Excel باستخدام Aspose.Cells
+---
+title: إنشاء سطر توقيع في سجل Excel باستخدام Aspose.Cells
 type: docs
 weight: 150
 url: /ar/net/create-signature-line-in-an-excel-workbook-using-aspose-cells/
+description: يصف هذا المقال كيفية إنشاء خط توقيع في سجل عمل Excel باستخدام رموز C# مع Aspose.Cells for .Net.
+keywords: إنشاء خط توقيع في سجل عمل Excel، كيفية إنشاء خط توقيع في سجل عمل Excel، كيفية إضافة خط توقيع، كيفية إضافة خط توقيع إلى ملف Excel.
 ---
-{{% alert color="primary" %}}
 
- يوفر Microsoft Excel ميزة للإضافة**خط التوقيع** في مصنفات Excel. يمكنك إضافة سطر التوقيع بالنقر فوق**إدراج** انقر ثم اختر**خط التوقيع** من**نص** مجموعة.
+## **مقدمة**
 
- يوفر Aspose.Cells أيضًا هذه الميزة وقد قام بكشف ملف[**الصورة ، خط التوقيع**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) خاصية لهذا الغرض. تشرح هذه المقالة كيفية استخدام هذه الخاصية لإضافة سطر توقيع باستخدام Aspose.Cells.
+توفر Microsoft Excel ميزة إضافة **سطر توقيع** في سجل Excel. يمكنك إضافة سطر توقيع عن طريق النقر فوق علامة **إدراج** ثم تحديد **سطر توقيع** من مجموعة **نص**.
 
-{{% /alert %}}
+## **كيفية إنشاء خط توقيع لإكسل**
 
- يضيف نموذج التعليمات البرمجية التالي خط التوقيع باستخدام[**الصورة ، خط التوقيع**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)الممتلكات ويحفظ المصنف.
+توفر Aspose.Cells أيضًا هذه الميزة وقد عرضت الخاصية [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) لهذا الغرض. سيشرح هذا المقال كيفية استخدام هذه الخاصية لإضافة سطر توقيع باستخدام Aspose.Cells.
+
+الشفرة النموذجية التالية تضيف خط توقيع باستخدام الخاصية [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) وتحفظ ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateSignatureLineInWorkbook-CreateSignatureLineInWorkbook.cs" >}}

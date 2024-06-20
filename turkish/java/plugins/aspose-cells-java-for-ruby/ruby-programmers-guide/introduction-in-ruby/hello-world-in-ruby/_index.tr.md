@@ -1,15 +1,16 @@
-﻿---
-title: Yakut içinde Hello World
+---
+title: Ruby de Merhaba Dünya
 type: docs
 weight: 10
 url: /tr/java/hello-world-in-ruby/
 ---
+
 ## **Aspose.Cells - Hello World**
-Ruby'de Aspose.Cells for Java kullanarak Elektronik Tablo Belgesine herhangi bir şey yazmak için HelloWorld modülünü çağırmanız yeterlidir.
+Ruby'de Aspose.Cells for Java kullanarak E-tablo Belgesine Herhangi Bir Şey Yazmak için sadece HelloWorld modülünü çağırın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -43,6 +44,6 @@ puts "Document has been saved, please check the output file."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Hello World (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden **Merhaba Dünya (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/helloworld.rb)

@@ -1,21 +1,22 @@
-﻿---
-title: Power Query Formül Öğesini Güncelle
+---
+title: Güç Sorgusu Formül Öğesini Güncelle
 type: docs
 weight: 120
 url: /tr/net/update-power-query-formula-item/
 ---
+
 ## **Kullanım Senaryosu**
 
- Veri kaynağı dosyalarının taşındığı ve excel dosyasının dosyayı bulamadığı durumlar olabilir. Bu gibi durumlarda, Aspose.Cells API, Power Query Formula öğesini kullanarak güncelleme seçeneği sunar.[*PowerQueryFormulaÖğesi*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem) kaynak dosyanın konumunu güncellemek için sınıf.
+Veri kaynağı dosyalarının taşındığı ve excel dosyasının dosyayı bulamadığı durumlar olabilir. Bu gibi durumlarda, Aspose.Cells API'si[*PowerQueryFormulaItem*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem) sınıfını kullanarak Power Query Formül öğesini güncelleme seçeneği sunar.
 
 ## **Power Query Formül Öğesini Güncelleme**
 
- Aspose.Cells API, Power Query Formül Öğelerini güncelleme yeteneği sağlar. Aşağıdaki kod parçacığı, Excel dosyasındaki veri kaynağı dosya konumunun[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)Emlak. Referansınız için ekli kaynak ve çıktı dosyaları.
+Aspose.Cells API'si, Power Query Formül öğelerini güncelleme olanağı sunar. Aşağıdaki kod örneği, excel dosyasındaki veri kaynağı dosya konumunun güncellenmesini [**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value) özelliğini kullanarak göstermektedir. Referansınız için kaynak ve çıktı dosyaları ekte sunulmuştur.
 
 - [Kaynak Dosya 1](106364953.xlsx)
 - [Kaynak Dosya 2](106364954.xlsx)
-- [Çıktı dosyası](106364955.xlsx)
+- [Çıktı Dosyası](106364955.xlsx)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-UpdatePowerQueryFormulaItem-1.cs" >}}

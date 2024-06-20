@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Cells Formelberäkningsmotor
 type: docs
 weight: 70

@@ -1,22 +1,25 @@
-﻿---
+---
 title: Çalışma Sayfasını Yeniden Adlandırma
 type: docs
 weight: 40
-url: /tr/net/rename-a-worksheet/
+url: /tr/net/aspose-cells-griddesktop/rename-a-worksheet/
+keywords: GridDesktop, yeniden adlandır, çalışma sayfası
+description: Bu makale, GridDesktop ta çalışma sayfasının nasıl yeniden adlandırılacağını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konuda, Aspose.Cells.GridDesktop kullanılarak bir çalışma sayfasının adının nasıl değiştirileceği anlatılmaktadır.
+Bu konu, Aspose.Cells.GridDesktop kullanarak bir çalışma sayfasının adını nasıl değiştireceğimizi tartışmaktadır.
 
 {{% /alert %}} 
-## **Örnek vermek**
-Bir çalışma sayfasını yeniden adlandırmak, çok yararlı olabilecek basit bir iştir. Örneğin, çalışma sayfalarını, her birinin ne içerdiğini açıkça gösterecek şekilde etiketlemek istiyorsanız. Örneğin, bir modelde gider bilgilerini tutmak için her biri aya göre adlandırılan 12 çalışma sayfası olabilir.
+## **Örnek**
+Çalışma sayfasının adını değiştirmek, oldukça faydalı olabilen basit bir görevdir. Örneğin, her birinin içerdiği şeyin açık olduğu etiketleri çalışma sayfalarına koymak istiyorsanız. Örneğin, bir modelin, her biri ay adıyla adlandırılan 12 çalışma sayfası olabilir, masraf bilgilerini tutmak için.
 
-Aspose.Cells.GridDesktop kontrolünü kullanarak bir çalışma sayfasını yeniden adlandırmak için:
+Aspose.Cells.GridDesktop kontrolünü kullanarak bir çalışma sayfasının adını değiştirmek için:
 
-1. Bir forma Aspose.Cells.GridDesktop denetimi ekleyin.
-1. İstediğiniz bir çalışma sayfasının referansını alın.
-1. Başvurusunu kullanarak çalışma sayfasının adını ayarlayın.
+1. Bir Aspose.Cells.GridDesktop kontrolünü forma ekleyin.
+1. İstenen çalışma sayfasının referansını alın.
+1. Referansını aldığınız çalışma sayfasının adını belirleyin.
 
 
 
@@ -24,6 +27,6 @@ Aspose.Cells.GridDesktop kontrolünü kullanarak bir çalışma sayfasını yeni
 
 {{% alert color="primary" %}} 
 
- Çalışma sayfasının adını değiştirmeden önce, o çalışma sayfasının referansına erişmek gerekir. Bir çalışma sayfası başvurusuna erişmenin birçok yolu vardır. Bu yollar hakkında bilgi edinmek için lütfen bkz.[Çalışma Sayfalarına Erişim](/cells/tr/net/accessing-worksheet/).
+Çalışma sayfasının adını değiştirmeden önce, o çalışma sayfasının referansına erişmek gereklidir. Bir çalışma sayfasına erişmenin birçok yolu vardır. Bu yollar hakkında bilgi edinmek için lütfen [Çalışma Sayfalarına Erişim](/cells/tr/net/aspose-cells-griddesktop/accessing-worksheet/) konusuna bakınız.
 
 {{% /alert %}}

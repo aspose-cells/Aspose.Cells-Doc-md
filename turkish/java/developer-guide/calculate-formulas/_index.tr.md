@@ -1,71 +1,72 @@
-﻿---
+---
 title: Formülleri Hesapla
 type: docs
 weight: 110
 url: /tr/java/calculate-formulas/
 ---
-## **Formül Ekleme ve Sonuçları Hesaplama**
 
-Aspose.Cells yerleşik bir formül hesaplama motoruna sahiptir. Yalnızca tasarımcı şablonlarından içe aktarılan formülleri yeniden hesaplamakla kalmaz, aynı zamanda çalışma zamanında eklenen formüllerin sonuçlarını hesaplamayı da destekler.
+## **Formüller Ekleyin ve Sonuçlarını Hesaplayın**
 
- Aspose.Cells, Microsoft Excel'in parçası olan formüllerin veya işlevlerin çoğunu destekler (Oku[hesaplama motoru tarafından desteklenen işlevlerin bir listesi](/cells/tr/java/supported-formula-functions/)). Bu işlevler, API'ler veya tasarımcı elektronik tabloları aracılığıyla kullanılabilir. Aspose.Cells, çok sayıda matematiksel, dizi, boole, tarih/saat, istatistik, veritabanı, arama ve referans formüllerini destekler.
+Aspose.Cells, yerleşik bir formül hesaplama motoruna sahiptir. Sadece tasarımcı şablonlarından içe aktarılan formülleri yeniden hesaplayabileceği gibi, çalışma zamanında eklenen formül sonuçlarını da hesaplama desteği sağlar.
 
- Kullan[**formül**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) mülk veya[**Formülü Ayarla(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula(java.lang.String,%20com.aspose.cells.FormulaParseOptions,%20java.lang.Object) ) yöntemleri[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)hücreye formül eklemek için sınıf. Bir formülü uygularken, Microsoft Excel'de formül oluştururken yaptığınız gibi dizeye her zaman eşittir işaretiyle (=) başlayın ve işlev parametrelerini ayırmak için virgül (,) kullanın.
+Aspose.Cells, Microsoft Excel'in bir parçası olan çoğu formülü veya işlevi destekler (Formül Motoru tarafından desteklenen işlevlerin bir listesini okuyun). Bu işlevler, API'ler veya tasarımcı elektronik tabloları aracılığıyla kullanılabilir. Aspose.Cells, matematiksel, dize, mantıksal, tarih/saat, istatistiksel, veritabanı, arama ve referans formüllerinin geniş bir setini destekler.
 
- Formüllerin sonuçlarını hesaplamak için kullanıcı[**HesaplaFormül**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)) yöntemi[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)bir Excel dosyasına katıştırılmış tüm formülleri işleyen sınıf. Veya, kullanıcı arayabilir[**HesaplaFormül**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(com.aspose.cells.CalculationOptions,%20boolean)) yöntemi[**Worsheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) bir sayfaya katıştırılmış tüm formülleri işleyen sınıf. Veya kullanıcı ayrıca[**Hesaplamak**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#calculate(com.aspose.cells.CalculationOptions)) yöntemi[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)bir Cell formülünü işleyen sınıf:
+Bir hücreye formül eklemek için [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) sınıfının [**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) özelliğini veya [**SetFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setFormula(java.lang.String,%20com.aspose.cells.FormulaParseOptions,%20java.lang.Object)) yöntemlerini kullanın. Bir formül uygularken, her zaman bir eşittir işareti ile ( = ) başlayın, Microsoft Excel'de bir formül oluştururken yaptığınız gibi ve bir virgül ( , ) kullanarak fonksiyon parametrelerini sınırlayın.
+
+Formüllerin sonuçlarını hesaplamak için, kullanıcı, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) sınıfının [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)) yöntemini çağırabilir, bir Excel dosyasına gömülü olan tüm formülleri işleyen. Veya, kullanıcı, [**Worsheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfının [**CalculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(com.aspose.cells.CalculationOptions,%20boolean)) yöntemini çağırabilir, bir sayfaya gömülü olan tüm formülleri işleyen. Ya da, kullanıcı, [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) sınıfının [**Calculate**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#calculate(com.aspose.cells.CalculationOptions)) yöntemini çağırabilir, bir Hücrenin formülünü işleyen:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulas-CalculatingFormulas.java" >}}
 
-### **Bilmeniz Önemli**
+### **Bilinmesi Gerekenler**
 
 {{% alert color="primary" %}}
 
- bu**formül** mülkiyet ve**Formülü Ayarla(...)** yöntemleri[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)sınıftan farklı çalışır**Hesaplamak** yöntemleri[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), [**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) ve[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) sınıflar. bu**formül** mülkiyet ve**Formülü Ayarla(...)** yöntemler yalnızca formülü bir hücreye ekler ancak çalışma zamanında sonucu hesaplamaz. Formüllerin sonucunu almak için lütfen arayınız.**Hesaplamak** yöntemler.
+[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) sınıfının **Formül** özelliği ve **SetFormula(...)** yöntemleri, **[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) ve [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)** sınıflarının **Hesapla** yöntemlerinden farklı çalışır. **Formül** özelliği ve **SetFormula(...)** yöntemleri, sadece bir formülü bir hücreye ekler ancak çalışma zamanında sonucu hesaplamaz. Formüllerin sonucunu elde etmek için lütfen **Hesapla** yöntemlerini çağırın.
 
 {{% /alert %}}
 
 ## **Formülün Doğrudan Hesaplanması**
 
-Aspose.Cells yerleşik bir formül hesaplama motoruna sahiptir. Aspose.Cells, bir tasarımcı dosyasından içe aktarılan formülleri hesaplamanın yanı sıra, formül sonuçlarını doğrudan hesaplayabilir.
+Aspose.Cells, gömülü bir formül hesaplama motoruna sahiptir. Bir tasarımcı dosyasından içe aktarılmış formülleri hesaplamanın yanı sıra, Aspose.Cells, formül sonuçlarını doğrudan hesaplamayı da destekler.
 
-Bazen, formül sonuçlarını bir çalışma sayfasına eklemeden doğrudan hesaplamanız gerekir. Formülde kullanılan hücrelerin değerleri bir çalışma sayfasında zaten var ve ihtiyacınız olan tek şey, formülü bir çalışma sayfasına eklemeden bazı Microsoft Excel formüllerine dayalı olarak bu değerlerin sonucunu bulmak.
+Bazen, bir elektronik tabloya formül eklemadan, formülde kullanılan hücre değerlerinin sonuçlarını, Microsoft Excel formülüne dayalı olarak bulmanız gerekebilir. Formülde kullanılan hücrelerin değerleri zaten bir elektronik tabloda mevcutsa ve ihtiyacınız olan tek şey bir elektronik tabloya formül eklemek değilse, Aspose.Cells'in formül hesaplama motoru API'lerini kullanarak bu tür formüllerin sonuçlarını {0} için {1} hesaplayabilirsiniz.
 
- Aspose.Cells' formül hesaplama motoru API'lerini aşağıdakiler için kullanabilirsiniz:[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) ile[**hesaplamak**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#calculateFormula(java.lang.String,%20com.aspose.cells.CalculationOptions)) çalışma sayfasına eklemeden bu tür formüllerin sonuçları:
+Yukarıdaki kod aşağıdaki çıktıyı üretir:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DirectCalculationFormula-DirectCalculationFormula.java" >}}
 
-Yukarıdaki kod aşağıdaki çıktıyı üretir:
-{{< highlight "java" >}}
+Formülleri Tekrarlı Hesaplamak İçin Nasıl
+{{< highlight java >}}
 Value of A1: 20
 Value of A2: 30
 Result of Sum(A1:A2): 50.0
 {{< /highlight >}}
 
-## **Formülleri tekrar tekrar hesaplamak**
+## **Formüllerin Tekrarlayarak Hesaplanması**
 
- Çalışma kitabında çok sayıda formül olduğunda ve kullanıcının bunları yalnızca küçük bir bölümünü değiştirerek tekrar tekrar hesaplaması gerektiğinde, formül hesaplama zincirini etkinleştirmek performans açısından yararlı olabilir:[**FormulaSettings.EnableCalculationChain**](https://reference.aspose.com/cells/java/com.aspose.cells/formulasettings#EnableCalculationChain).
+Çalışma kitabında çok sayıda formül bulunduğunda ve kullanıcının bunların bir kısmını tekrarlanacak şekilde sık sık hesaplaması gerektiğinde, formül hesaplama zincirini etkinleştirmek, yalnızca bir elektronik tablo kısmını değiştirerek tekrarlamak için formül hesaplama zincirini etkinleştirmek performans için yararlı olabilir: [**FormulaSettings.EnableCalculationChain**](https://reference.aspose.com/cells/java/com.aspose.cells/formulasettings#EnableCalculationChain).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-CalculatingFormulasOnce-CalculatingFormulasOnce.java" >}}
 
-### **Bilmeniz Önemli**
+### **Bilinmesi Gerekenler**
 
 {{% alert color="primary" %}}
 
-Hesaplama zinciri varsayılan olarak devre dışıdır. Zinciri oluşturmak da ekstra zaman gerektirdiğinden, formülleri ilk kez hesaplarken ([**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))) zincirsiz hesaplama formülleriyle karşılaştırıldığında daha fazla CPU işleme süresi ve bellek tüketebilir. Kullanıcının formülleri tekrar tekrar hesaplaması gerekmiyorsa, varsayılan davranış (hesaplama zinciri oluşturmadan formülü doğrudan hesaplama) daha iyi bir yol olmalıdır.
+Varsayılan olarak hesaplama zinciri devre dışıdır. Zinciri oluşturmak da ekstra zaman gerektirdiğinden, formülleri hesaplamanın ilk kez yapılması ([**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions))) zincir oluşturmadan formülleri hesaplama ile karşılaştırıldığında daha fazla CPU işleme zamanı ve bellek tüketebilir. Kullanıcı formülleri tekrar tekrar hesaplamak istemiyorsa, varsayılan davranış (hesaplama zinciri oluşturmadan doğrudan formül hesaplama) daha iyi bir yol olmalıdır.
 
 {{% /alert %}}
 
-## **ileri konular**
-- [Cells'i Microsoft'e ekleyin Excel Formül İzleme Penceresi](/cells/tr/java/add-cells-to-microsoft-excel-formula-watch-window/)
+## **Gelişmiş Konular**
+- [Microsoft Excel Formül İzleme Penceresine Hücreler Ekleme](/cells/tr/java/add-cells-to-microsoft-excel-formula-watch-window/)
 - [Aspose.Cells Formül Hesaplama Motoru](/cells/tr/java/aspose-cells-formula-calculation-engine/)
-- [Aspose.Cells kullanarak IFNA işlevini hesaplama](/cells/tr/java/calculating-ifna-function-using-aspose-cells/)
-- [Veri Tablolarının Dizi Formülünün Hesaplanması](/cells/tr/java/calculation-of-array-formula-of-data-tables/)
+- [Aspose.Cells ile IFNA işlevinin hesaplanması](/cells/tr/java/calculating-ifna-function-using-aspose-cells/)
+- [Veri Tablolarının Dizi Formül Hesaplama](/cells/tr/java/calculation-of-array-formula-of-data-tables/)
 - [Excel 2016 MINIFS ve MAXIFS işlevlerinin hesaplanması](/cells/tr/java/calculation-of-excel-2016-minifs-and-maxifs-functions/)
-- [Cell'in Hesaplama Süresini azaltın. Hesaplama yöntemi](/cells/tr/java/decrease-the-calculation-time-of-cell-calculate-method/)
-- [Döngüsel Referans Algılama](/cells/tr/java/detecting-circular-reference/)
-- [Bir çalışma sayfasına yazmadan özel işlevin doğrudan hesaplanması](/cells/tr/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
-- [Aspose.Cells Varsayılan Hesaplama Motorunu genişletmek için Özel Hesaplama Motorunu uygulayın](/cells/tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
-- [Çalışma Kitabının Formül Hesaplamasını Durdurun veya İptal Edin](/cells/tr/java/interrupt-or-cancel-the-formula-calculation-of-workbook/)
-- [AbstractCalculationEngine kullanarak bir Değer Aralığı Döndürme](/cells/tr/java/returning-a-range-of-values-using-abstractcalculationengine/)
-- [ICustomFunction kullanarak bir Değer Aralığı Döndürme](/cells/tr/java/returning-a-range-of-values-using-icustomfunction/)
-- [ICustomFunction Özelliğini Kullanma](/cells/tr/java/using-icustomfunction-feature/)
+- [Hücre.Calculate yönteminin Hesaplama Süresini Azaltma](/cells/tr/java/decrease-the-calculation-time-of-cell-calculate-method/)
+- [Dairesel Referansı Algılama](/cells/tr/java/detecting-circular-reference/)
+- [Özel işlevin çalışma tablosuna yazılmadan doğrudan hesaplanması](/cells/tr/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
+- [Aspose.Cells'in Varsayılan Hesaplama Motorunu Genişletmek için Özel Hesaplama Motoru Uygulamak](/cells/tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+- [Çalışma Kitabının Formül Hesaplamasını Kesmek veya İptal Etmek](/cells/tr/java/interrupt-or-cancel-the-formula-calculation-of-workbook/)
+- [AbstractCalculationEngine Kullanarak Bir Değer Aralığı Döndürme](/cells/tr/java/returning-a-range-of-values-using-abstractcalculationengine/)
+- [ICustomFunction Kullanarak Bir Değer Aralığı Döndürme](/cells/tr/java/returning-a-range-of-values-using-icustomfunction/)
+- [ICustomFunction Özelliğinin Kullanımı](/cells/tr/java/using-icustomfunction-feature/)

@@ -1,8 +1,9 @@
 ---
-title: GridWeb の行と列の操作
+title: GridWeb の行や列での作業
 type: docs
 weight: 40
 url: /ja/java/working-with-gridweb-rows-and-columns/
 ---
-##  **このセクションの記事**
+
+## **このセクションに含まれる記事**
 

@@ -1,26 +1,29 @@
-﻿---
-title: DataTable からグリッドへのデータのインポート
+---
+title: DataTableからグリッドにデータをインポートする
 type: docs
 weight: 50
-url: /ja/net/importing-data-from-a-datatable-to-grid/
+url: /ja/net/aspose-cells-griddesktop/import-data-from-a-datatable-to-grid/
+keywords: GridDesktop、import、data、datatable
+description: この記事では、GridDesktopでデータをインポートする方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-.NET フレームワークのリリース以来、Microsoft は DataTable オブジェクトの形式でオフライン モードでデータを保存する優れた方法を提供してきました。開発者のニーズを理解し、Aspose.Cells.GridDesktop はデータ テーブルからのデータのインポートもサポートしています。このトピックでは、これを行う方法について説明します。
+.NET Frameworkのリリース以来、MicrosoftはDataTableオブジェクトの形式でデータをオフラインモードで保存する優れた方法を提供してきました。開発者のニーズを理解して、Aspose.Cells.GridDesktopもデータテーブルからデータをインポートする機能をサポートしています。このトピックでは、これを行う方法について説明します。
 
 {{% /alert %}} 
 ## **例**
-Aspose.Cells.GridDesktop コントロールを使用してデータ テーブルの内容をインポートするには:
+Aspose.Cells.GridDesktopコントロールを使用してデータテーブルの内容をインポートするには:
 
-1. Aspose.Cells.GridDesktop コントロールをフォームに追加します。
-1. インポートするデータを含む DataTable オブジェクトを作成します。
-1. 目的のワークシートの参照を取得します。
-1. データ テーブルの内容をワークシートにインポートします。
-1. データ テーブルの列名に従って、ワークシートの列ヘッダーを設定します。
-1. 必要に応じて、列の幅を設定します/
+1. フォームにAspose.Cells.GridDesktopコントロールを追加します。
+1. インポートされるデータを含むDataTableオブジェクトを作成します。
+1. 所望のワークシートの参照を取得します。
+1. データテーブルの内容をワークシートにインポートします。
+1. データテーブルの列名に応じてワークシートの列ヘッダーを設定します。
+1. 必要に応じて列の幅を設定します。
 1. ワークシートを表示します。
 
-以下の例では、DataTable オブジェクトを作成し、Products という名前のデータベース テーブルから取得したデータを入力しています。最後に、Aspose.Cells.GridDesktop を使用して、その DataTable オブジェクトから目的のワークシートにデータをインポートしました。
+以下の例では、DataTableオブジェクトを作成し、データベーステーブル「Products」から取得したいくつかのデータでそれを埋めました。最後に、そのDataTableオブジェクトからデータを希望のワークシートにインポートしました。
 
 
 

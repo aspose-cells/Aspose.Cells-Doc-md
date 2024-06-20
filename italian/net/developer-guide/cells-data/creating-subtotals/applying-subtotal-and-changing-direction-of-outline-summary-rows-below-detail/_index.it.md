@@ -1,43 +1,44 @@
 ---
-title: Applicazione del totale parziale e modifica della direzione delle righe di riepilogo della struttura sotto i dettagli
+title: Applicare il subtotale e cambiare direzione delle righe di riepilogo dell outline sotto il dettaglio
 type: docs
 weight: 100
 url: /it/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
-description: Scopri come applicare il totale parziale e modificare la direzione del riepilogo dello schema Righe sotto i dettagli utilizzando Aspose.Cells for .NET API.
-keywords: Apply subtotal, Add subtotal, change direction of outline summary Rows below Detail, change direction of outline summary Columns to right of Detail, Create subtotal and change direction of outline summary Rows below Detail
+description: Scopri come applicare il subtotale e cambiare la direzione del riepilogo dell outline. Righe sotto il Dettaglio utilizzando l API Aspose.Cells for .NET.
+keywords: Applica subtotale, Aggiungi subtotale, cambia direzione del riepilogo dell outline. Righe sotto il Dettaglio, cambia direzione del riepilogo dell outline. Colonne a destra del Dettaglio, Crea subtotale e cambia direzione del riepilogo dell outline. Righe sotto il Dettaglio
 ---
+
 {{% alert color="primary" %}}
 
-Questo articolo spiegherà come applicare il totale parziale ai dati e modificare la direzione delle righe di riepilogo della struttura sotto i dettagli.
+Questo articolo spiegherà come applicare il subtotale ai dati e cambiare la direzione delle righe di riepilogo dell'outline sotto il dettaglio.
 
- È possibile applicare il totale parziale ai dati utilizzando[**Foglio di lavoro.Cells.Subtotale()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) metodo. Richiede i seguenti parametri.
+È possibile applicare il subtotale ai dati utilizzando il metodo [**Worksheet.Cells.Subtotal()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index). Richiede i seguenti parametri.
 
-- **CellArea** - L'intervallo su cui applicare il totale parziale
-- **Raggruppa per** - Il campo in base al quale raggruppare, come offset intero in base zero
-- **Funzione** - La funzione subtotale.
-- **Elenco totale** Una matrice di offset dei campi in base zero, che indica i campi a cui vengono aggiunti i totali parziali.
-- **Sostituire** - Indica se sostituire i totali parziali correnti
-- **Interruzioni di pagina** - Indica se aggiungere interruzioni di pagina tra i gruppi
-- **Riepilogo sottoDati** - Indica se aggiungere un riepilogo sotto i dati.
+- **AreaCella** - L'intervallo su cui applicare il subtotale
+- **RaggruppaPer** - Il campo su cui raggruppare, come un offset intero basato su zero
+- **Funzione** - La funzione del subtotale
+- **ListaTotale** - Un array di offset del campo basato su zero, indicando i campi a cui vengono aggiunti i subtotali
+- **Sostituisci** - Indica se sostituire i subtotali attuali
+- **InterruzioniPagina** - Indica se aggiungere un'interruzione di pagina tra i gruppi
+- **RiepilogoSottoDati** - Indica se aggiungere il riepilogo sotto i dati
 
- Inoltre, puoi controllare la direzione di Outline**Righe di riepilogo sotto i dettagli** come mostrato nello screenshot seguente utilizzando la proprietà Worksheet.Outline.SummaryRowBelow. È possibile aprire questa impostazione in Microsoft Excel utilizzando**Dati > Struttura > Impostazioni**
+Inoltre, è possibile controllare la direzione delle **righe di riepilogo dell'outline sotto il dettaglio** come mostrato nella seguente immagine utilizzando la proprietà Worksheet.Outline.SummaryRowBelow. È possibile aprire questa impostazione in Microsoft Excel utilizzando **Dati > Riepilogo > Impostazioni**
 
-![cose da fare:immagine_alt_testo](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
+![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
 
 {{% /alert %}}
 
-##  Immagini dei file di origine e di output
+## Immagini dei file di origine e di output
 
-Lo screenshot seguente mostra il file Excel di origine utilizzato nel codice di esempio riportato di seguito che contiene alcuni dati nelle colonne A e B.
+La seguente immagine mostra il file Excel di origine utilizzato nel codice di esempio sottostante che contiene alcuni dati nelle colonne A e B.
 
-![cose da fare:immagine_alt_testo](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_2.png)
+![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_2.png)
 
-Lo screenshot seguente mostra il file Excel di output generato dal codice di esempio. Come puoi vedere, il totale parziale è stato applicato all'intervallo A2:B11 e la direzione del contorno è rappresentata dalle righe di riepilogo sotto i dettagli.
+La seguente schermata mostra il file Excel generato dal codice di esempio. Come si può vedere, è stato applicato un subtotale al range A2:B11 e la direzione dell'outline è righe di riepilogo sotto i dettagli.
 
-![cose da fare:immagine_alt_testo](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
+![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
 
-## Codice C# per applicare il totale parziale e modificare la direzione delle righe di riepilogo del contorno
+## Codice C# per applicare il subtotal e cambiare la direzione delle righe di riepilogo dell'outline
 
-Ecco il codice di esempio per ottenere l'output come mostrato sopra.
+Ecco il codice di esempio per ottenere l'output mostrato sopra.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ApplyingSubtotalChangeSummaryDirection-1.cs" >}}

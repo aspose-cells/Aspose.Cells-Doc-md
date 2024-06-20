@@ -1,15 +1,16 @@
-﻿---
-title: Преобразование рабочей книги в HTML в xlsx4j
+---
+title: Преобразовать книгу в формат HTML в xlsx4j
 type: docs
 weight: 10
 url: /ru/java/convert-workbook-to-html-in-xlsx4j/
 ---
-## **Aspose.Cells — преобразовать рабочую книгу в HTML**
- API-интерфейсы Aspose.Cells обеспечивают поддержку экспорта электронных таблиц в формат HTML. Для этого**Aspose.Cells** использует**Хтмлсавеоптионс** class, который позволяет разработчикам контролировать несколько аспектов вывода HTML.
+
+## **Aspose.Cells - Преобразование книги в формат HTML**
+API Aspose.Cells обеспечивает поддержку экспорта электронных таблиц в формат HTML. Для этой цели **Aspose.Cells** использует класс **HtmlSaveOptions**, который позволяет разработчикам контролировать несколько аспектов выходного HTML.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Specify the HTML Saving Options
 
@@ -24,13 +25,13 @@ Workbook book = new Workbook(dataDir + "book1.xls");
 book.save(dataDir + "AsposeHTMLSpreadsheet.html", save);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/converttohtml/AsposeConvertToHTML.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/converttohtml/AsposeConvertToHTML.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Преобразование файлов Excel в HTML](/cells/ru/java/converting-workbook-to-different-formats/).
+Дополнительные сведения см. на странице [Преобразование файлов Excel в HTML](/cells/ru/java/converting-workbook-to-different-formats/).
 
 {{% /alert %}}

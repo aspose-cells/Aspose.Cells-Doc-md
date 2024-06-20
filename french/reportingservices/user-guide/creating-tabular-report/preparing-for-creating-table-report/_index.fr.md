@@ -1,19 +1,20 @@
-﻿---
-title: Préparation à la création d'un rapport de tableau
+---
+title: Préparation pour la création d un rapport tabulaire
 type: docs
 weight: 10
 url: /fr/reportingservices/preparing-for-creating-table-report/
 ---
- Avant de créer un rapport tabulaire, l'utilisateur doit d'abord créer des sources de données, des ensembles de données et des paramètres de rapport (facultatif) comme décrit dans[Sources de données et requêtes](/cells/fr/reportingservices/data-sources-and-queries/).
 
-Ci-dessous, nous utilisons l'exemple de base de données AdventureWorks fourni avec SQL Server Reporting Services 2005.
+Avant de créer un rapport tabulaire, l'utilisateur doit d'abord créer des sources de données, des jeux de données et des paramètres de rapport (en option) comme décrit dans [Sources de données et requêtes](/cells/fr/reportingservices/data-sources-and-queries/).
 
-1. Créez un ensemble de données nommé EmpSalesDetail. Nous l'utiliserons comme source de données de la table. L'ensemble de données a trois paramètres : ReportYear, ReportMonth et EmpID.
- Le SQL qui définit EmpSalesDetail est le suivant :
+Ci-dessous, nous utilisons la base de données d'exemple AdventureWorks fournie avec SQL Server Reporting Services 2005.
+
+1. Créez un jeu de données nommé EmpSalesDetail. Nous l'utiliserons comme source de données du tableau. Le jeu de données comporte trois paramètres : ReportYear, ReportMonth et EmpID.
+   Le SQL qui définit EmpSalesDetail est le suivant : 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT C.FirstName+' '+C.LastName 'Employee',
 
@@ -83,12 +84,12 @@ PC.Name
 
 {{< /highlight >}}
 
-1. Créez un ensemble de données nommé SalesEmps. Nous l'utiliserons comme valeurs valides pour le paramètre EmpID.
- Le SQL qui définit SalesEmps est :
+1. Créez un jeu de données nommé SalesEmps. Nous l'utiliserons comme valeurs valides pour le paramètre EmpID.
+   Le SQL qui définit SalesEmps est : 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT  E.EmployeeID,  C.FirstName + N' ' + C.LastName AS Employee
 
@@ -102,28 +103,28 @@ ON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName
 
 {{< /highlight >}}
 
-1.  Créez trois paramètres de rapport : ReportYear, ReportMonth et EmpID.
- 1. Les valeurs valides pour le paramètre ReportYear sont :
+1. Créez trois paramètres de rapport : ReportYear, ReportMonth et EmpID. 
+   1. Les valeurs valides pour le paramètre ReportYear sont : 
 
-![tâche : image_autre_texte](preparing-for-creating-table-report_1.png)
-
-
-
-
-1. Les valeurs valides pour le paramètre ReportMonth sont :
-
-![tâche : image_autre_texte](preparing-for-creating-table-report_2.png)
+![todo:image_alt_text](preparing-for-creating-table-report_1.png)
 
 
 
 
-1.  La valeur valide pour le paramètre EmpID est :
+1. La valeur valable pour le paramètre ReportMonth est : 
 
-![tâche : image_autre_texte](preparing-for-creating-table-report_3.png)
-
-
+![todo:image_alt_text](preparing-for-creating-table-report_2.png)
 
 
-1.  Mappez les paramètres de l'ensemble de données aux paramètres du rapport, comme suit :
 
-![tâche : image_autre_texte](preparing-for-creating-table-report_4.png)
+
+1. La valeur valable pour le paramètre EmpID est : 
+
+![todo:image_alt_text](preparing-for-creating-table-report_3.png)
+
+
+
+
+1. Associez les paramètres du jeu de données aux paramètres du rapport, comme suit : 
+
+![todo:image_alt_text](preparing-for-creating-table-report_4.png)

@@ -1,19 +1,20 @@
-﻿---
-title: حدد إصدار المستند لملف Excel باستخدام خصائص المستند المضمنة
+---
+title: تحديد إصدار المستند لملف الإكسل باستخدام خصائص المستند المضمنة
 type: docs
 weight: 20
 url: /ar/java/specify-document-version-of-the-excel-file-using-builtin-document-properties/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك تغيير*رقم الإصدار*من ملف Excel عن طريق النقر بزر الماوس الأيمن فوق الملف ثم تحديد*الخصائص> التفاصيل*ثم قم بتحرير ملف*رقم الإصدار*مجال. الرجاء استخدام[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)لتغييره برمجيًا باستخدام واجهات برمجة تطبيقات Aspose.Cells.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **حدد إصدار المستند لملف Excel باستخدام خصائص المستند المضمنة**
+يمكنك تغيير *رقم الإصدار* لملف Excel من خلال النقر بزر الماوس الأيمن على الملف ثم اختيار *الخصائص > التفاصيل* ثم تحرير حقل *رقم الإصدار*. يُرجى استخدام [**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion) خصائص لتغييره بشكل برمجي باستخدام واجهات برمجة تطبيقات Aspose.Cells.
 
-نموذج التعليمات البرمجية التالي بإنشاء مصنف وتغيير خصائص المستند المضمنة الخاصة به التي تتضمن*لقب*, *المؤلفون* و*رقم الإصدار*. الرجاء مراجعة[إخراج ملف Excel](64716836.xlsx)التي تم إنشاؤها بواسطة الكود ولقطة الشاشة التي تعرض ملف*رقم الإصدار*بواسطة[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)خاصية.
+## **تحديد إصدار المستند لملف الإكسل باستخدام خصائص المستند المضمنة**
 
-![ما يجب القيام به: image_بديل_نص](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
+الرمز النموذجي التالي يُنشئ سجل العمل ويُغير خصائص المستند المدمجة التي تتضمن *العنوان*، *المؤلفون* و *رقم الإصدار*. يرجى الاطلاع على [ملف إكسيل الناتج] (64716836.xlsx) الذي تم إنشاؤه بواسطة الرمز واللقطة التي تُظهر *رقم الإصدار* المعدل من [**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion) الخاصية.
 
-## **عينة من الرموز**
+![todo:image_alt_text](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "LoadingSavingConvertingAndManaging-SpecifyDocumentVersionOfExcelFile.java" >}}

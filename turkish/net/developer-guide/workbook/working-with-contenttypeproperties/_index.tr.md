@@ -1,17 +1,18 @@
-﻿---
+---
 title: ContentTypeProperties ile Çalışma
 type: docs
 weight: 150
 url: /tr/net/working-with-contenttypeproperties/
 ---
- Aspose.Cells sağlar[**Workbook.ContentTypeProperties.Add**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) bir excel dosyasına özel ContentTypeProperties ekleme yöntemi. ayarlayarak özelliği isteğe bağlı hale de getirebilirsiniz.[**ContentTypeProperty.IsNillaable**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypeproperty/properties/isnillable) mülkiyet**doğru**. Aşağıdaki kod parçacığı, bir excel dosyasına isteğe bağlı özel ContentTypeProperties eklemeyi gösterir. Aşağıdaki görüntü, örnek kod tarafından eklenen her iki özelliği de göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](working-with-contenttypeproperties_1.jpg)
+Aspose.Cells, özel ContentTypeProperties'leri bir excel dosyasına eklemek için [**Workbook.ContentTypeProperties.Add**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) yöntemi sağlar. Ayrıca, [**ContentTypeProperty.IsNillable**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypeproperty/properties/isnillable) özelliğini **true** olarak ayarlayarak özelliği isteğe bağlı hale getirebilirsiniz. Aşağıdaki kod örneği, bir excel dosyasına isteğe bağlı özel ContentTypeProperties eklemenin nasıl yapıldığını göstermektedir. Örnek kod tarafından eklenen her iki özelliği de gösteren aşağıdaki resme bakabilirsiniz.
 
-Örnek kod tarafından oluşturulan çıktı dosyası başvuru için eklenmiştir.
+![todo:image_alt_text](working-with-contenttypeproperties_1.jpg)
 
-[Çıktı dosyası](95584314.xlsx)
+Örnek kod tarafından oluşturulan çıktı dosyası referans için ekte bulunmaktadır.
 
-## **Basit kod**
+[Çıkış Dosyası](95584314.xlsx)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-WorkingWithContentTypeProperties-1.cs" >}}

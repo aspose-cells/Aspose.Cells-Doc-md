@@ -1,19 +1,20 @@
 ---
-title: Autopassa rad och kolumn
+title: Automatisk anpassning av rad och kolumn
 type: docs
 weight: 10
 url: /sv/java/auto-fit-row-and-column/
-description: Lär dig hur du automatiskt anpassar rad och kolumn genom Aspose.Cells for Java API.
-keywords: How to Autofit Row and Column in Java, Autofit Row Data in workbook using Java, Java Autofit Column Data. 
+description: Lär dig hur man automatiskt anpassar rad och kolumn genom API Aspose.Cells for Java.
+keywords: Hur man automatiskt anpassar rad och kolumn i Java, Automatisk datanpassning av rader i arbetsbok med Java, Java autofit kolumndata. 
 ---
-##  **Så här anpassar du rader och kolumner automatiskt med Aspose.Cells for Java**
-Det enklaste sättet att automatiskt anpassa bredd och höjd på en rad är att anropa metoden Worksheet.autoFitRow. AutoFitRow-metoden tar ett radindex (för raden som ska ändras storlek) som en parameter.
 
-**Vänligen notera:**Om du vill automatiskt anpassa rader och kolumner i Excel-kalkylblad med Java, vänligen besök[Autopassa rader och kolumner](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+## **Så här använder du Aspose.Cells for Java för automatisk anpassning av rad och kolumn**
+Det mest raka tillvägagångssättet för att automatiskt ändra bredd och höjd på en rad är att använda metoden Worksheet.autoFitRow. Metoden autoFitRow tar ett radindex (av den rad som ska ändras storleken på) som parameter.
+
+** Observera:** Om du vill anpassa rader och kolumner i Excel-kalkylblad med Java, besök [Autofit Rader och Kolumner](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook("workbook.xls");
 
@@ -31,12 +32,12 @@ workbook.save("AutoFit_Aspose.xls");
 
 
 {{< /highlight >}}
-##  **Apache POI SS - HSSF XSSF - Autopassning av rad och kolumn**
-Apache POI SS - HSSF och XSSF tillhandahåller Sheet.autoSizeColumn för att automatiskt anpassa kolumner
+## **Apache POI SS - HSSF XSSF - Auto Fit Row and Column**
+Apache POI SS - HSSF och XSSF tillhandahåller Sheet.autoSizeColumn för att automatiskt anpassa kolumnerna
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  InputStream inStream = new FileInputStream("workbook.xls");
 
@@ -57,7 +58,7 @@ workbook.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-##  **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-##  **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)

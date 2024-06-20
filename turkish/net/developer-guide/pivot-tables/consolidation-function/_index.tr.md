@@ -1,36 +1,37 @@
-﻿---
+---
 title: Konsolidasyon Fonksiyonu
 type: docs
 weight: 20
 url: /tr/net/consolidation-function/
 ---
-## **Konsolidasyon işlevi**
 
- Aspose.Cells, pivot tablonun veri alanlarına (veya değer alanlarına) ConsolidationFunction uygulamak için kullanılabilir. Microsoft Excel'de, değer alanına sağ tıklayıp ardından**Değer Alanı Ayarları...** seçeneği ve ardından sekmeyi seçin**Değerleri Şuna Göre Özetle**. Oradan, Toplam, Sayı, Ortalama, Maks, Min, Ürün, Ayrı Sayım vb. gibi istediğiniz herhangi bir BirleştirmeFonksiyonunu seçebilirsiniz.
+## **Konsolidasyon fonksiyonu**
 
- Aspose.Cells sağlar[**KonsolidasyonFonksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/consolidationfunction) aşağıdaki konsolidasyon işlevlerini desteklemek için numaralandırma.
+Aspose.Cells, Pivot tablosunun veri alanlarına (veya değer alanlarına) KonsolidasyonFonksiyonu uygulamak için kullanılabilir. Microsoft Excel'de, değer alanına sağ tıkladıktan sonra **Değer Alanı Ayarları...** seçeneğini seçebilir ve ardından **Değerleri Nasıl Özetleyeceğinizi Seçin** sekmesini seçebilirsiniz. Oradan, Sum, Count, Average, Max, Min, Product, DistinctCount vb. gibi istediğiniz herhangi bir KonsolidasyonFonksiyonunu seçebilirsiniz.
 
-- KonsolidasyonFonksiyonu.Ortalama
-- KonsolidasyonFonksiyonu.Sayı
+Aspose.Cells, aşağıdaki konsolidasyon işlevlerini desteklemek için [**ConsolidationFunction**](https://reference.aspose.com/cells/net/aspose.cells/consolidationfunction) numaralı sıralamayı sağlamaktadır.
+
+- ConsolidationFunction.Average
+- ConsolidationFunction.Count
 - ConsolidationFunction.CountNums
 - ConsolidationFunction.DistinctCount
-- KonsolidasyonFonksiyonu.Maks.
-- KonsolidasyonFonksiyonu.Min
-- KonsolidasyonFonksiyonu.Ürün
+- ConsolidationFunction.Max
+- ConsolidationFunction.Min
+- ConsolidationFunction.Product
 - ConsolidationFunction.StdDev
 - ConsolidationFunction.StdDevp
-- KonsolidasyonFonksiyonu.Toplam
-- KonsolidasyonFonksiyonu.Var
-- KonsolidasyonFonksiyonu.Varp
+- ConsolidationFunction.Sum
+- ConsolidationFunction.Var
+- ConsolidationFunction.Varp
 
-### **Pivot Tablonun Veri Alanlarına ConsolidationFunction Uygulama**
+### **Döndürme Tablosunun Veri Alanlarına Konsolidasyon İşlevi Uygulama**
 
- Aşağıdaki kod geçerlidir**Ortalama** ilk veri alanına (veya değer alanına) konsolidasyon işlevi ve**Farklı Sayı** ikinci veri alanına (veya değer alanına) konsolidasyon işlevi.
+Aşağıdaki kod **Ortalama** konsolidasyon fonksiyonunu birinci veri alanına (veya değer alanına) ve ikinci veri alanına (veya değer alanına) **FarklıSayıyıSay** konsolidasyon fonksiyonunu uygular.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ConsolidationFunctions-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-DistinctCount konsolidasyon işlevi yalnızca Microsoft Excel 2013 tarafından desteklenir.
+Farklı Sayı Sayımı konsolidasyon işlevi sadece Microsoft Excel 2013 tarafından desteklenmektedir.
 
 {{% /alert %}}

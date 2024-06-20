@@ -1,4 +1,4 @@
-﻿---
+---
 title: Oggetti di disegno
 type: docs
 weight: 76

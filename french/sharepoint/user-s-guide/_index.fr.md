@@ -1,10 +1,11 @@
-﻿---
-title: Guide de l'utilisateur
+---
+title: Guide de l utilisateur
 type: docs
 weight: 20
 url: /fr/sharepoint/user-s-guide/
 ---
-###### **Cette section comprend les rubriques suivantes :**
+
+###### **Cette section comprend les sujets suivants :** 
 - [Convertir un fichier](/cells/fr/sharepoint/convert-one-file/)
 - [Convertir plusieurs fichiers](/cells/fr/sharepoint/convert-multiple-files/)
 - [Aperçu du document](/cells/fr/sharepoint/preview-document/)

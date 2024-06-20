@@ -1,20 +1,21 @@
-﻿---
-title: Grouper et dissocier des lignes et des colonnes en PHP
+---
+title: Regroupement et dégroupement de lignes et de colonnes en PHP
 type: docs
 weight: 40
 url: /fr/java/grouping-and-ungrouping-rows-and-columns-in-php/
 ---
-## **Aspose.Cells - Gestion de groupe de lignes et de colonnes**
-### **Regroupement de lignes et de colonnes**
-Il est possible de regrouper des lignes ou des colonnes en appelant les méthodes groupRows et groupColumns de la collection Cells. Les deux méthodes prennent les paramètres suivants :
 
-- Index de la première ligne/colonne, la première ligne ou colonne du groupe.
-- Index de la dernière ligne/colonne, la dernière ligne ou colonne du groupe.
-- Est masqué, un paramètre booléen qui spécifie s'il faut masquer ou non les lignes/colonnes après le regroupement.
+## **Aspose.Cells - Gestion du groupement des lignes et des colonnes**
+### **Regroupement des lignes et des colonnes**
+Il est possible de regrouper des lignes ou des colonnes en appelant les méthodes groupRows et groupColumns de la collection Cells. Les deux méthodes prennent les paramètres suivants:
+
+- Indice de la première ligne/colonne, la première ligne ou colonne du groupe.
+- Indice de la dernière ligne/colonne, la dernière ligne ou colonne du groupe.
+- Est caché, un paramètre booléen qui spécifie s'il faut masquer ou non les lignes/colonnes après le regroupement.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function group_rows_columns($dataDir)
 
@@ -47,15 +48,15 @@ Il est possible de regrouper des lignes ou des colonnes en appelant les méthode
 }
 
 {{< /highlight >}}
-### **Dégrouper des lignes et des colonnes**
-Dissociez les lignes ou les colonnes groupées en appelant les méthodes UngroupRows et UngroupColumns de la collection Cells. Les deux méthodes prennent les mêmes paramètres :
+### **Dégroupement des lignes & des colonnes**
+Dégrouper les lignes ou les colonnes groupées en appelant les méthodes UngroupRows et UngroupColumns de la collection Cells. Les deux méthodes prennent les mêmes paramètres:
 
-- Premier index de ligne ou de colonne, la première ligne/colonne à dissocier.
-- Index de la dernière ligne ou colonne, la dernière ligne/colonne à dissocier.
+- Indice de la première ligne ou colonne, la première ligne/colonne à dissocier.
+- Indice de la dernière ligne ou colonne, la dernière ligne/colonne à dissocier.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function ungroup_rows_columns($dataDir)
 
@@ -88,7 +89,7 @@ Dissociez les lignes ou les colonnes groupées en appelant les méthodes Ungroup
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Grouper et dégrouper des lignes et des colonnes (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Grouper et Dégrouper des lignes et des colonnes (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

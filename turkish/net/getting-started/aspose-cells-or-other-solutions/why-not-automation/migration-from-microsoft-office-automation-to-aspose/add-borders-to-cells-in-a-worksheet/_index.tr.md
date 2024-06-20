@@ -1,46 +1,47 @@
-﻿---
-title: Çalışma Sayfasında Cells'e Kenarlık Ekleme
+---
+title: Bir Çalışma Sayfasında Hücrelere Kenarlık Eklemek
 type: docs
 weight: 50
 url: /tr/net/add-borders-to-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET, bir kullanıcının Microsoft Excel'de gerçekleştirebileceği hemen hemen tüm görevleri uygulamanız üzerinden gerçekleştirmenizi sağlar. Aspose.Cells, yüksek performanslı ve sağlamdır ve ayrıca Microsoft Otomasyonundan bağımsız olarak çalışma avantajına sahiptir. Bu makale, VSTO ile karşılaştırıldığında Aspose.Cells for .NET kullanılarak bir çalışma sayfasındaki hücrelere nasıl kenarlık ekleneceğini gösterir.
+Aspose.Cells for .NET, Microsoft Excel'de bir kullanıcının gerçekleştirebileceği neredeyse tüm görevleri uygulamanız aracılığıyla gerçekleştirmenize olanak tanır. Aspose.Cells performanslı ve sağlamdır ve Microsoft Automation'dan bağımsız olarak çalışma avantajına sahiptir. Bu makale, VSTO'ya kıyasla Aspose.Cells for .NET kullanarak bir çalışma sayfasındaki hücrelere kenarlık eklemenin nasıl yapıldığını göstermektedir.
 
 {{% /alert %}}
 
-## **Cells'e Kenarlık Ekleme**
+## **Hücrelere Kenarlık Eklemek**
 
-Elektronik tablodaki hücrelere kenarlık eklemek için aşağıdaki adımları izleyin:
+Bir elektronik tabloya hücrelere kenarlık eklemek için aşağıdaki adımları izleyin:
 
-1. Çalışma sayfasını ayarlayın:
- 1. Bir Uygulama nesnesi oluşturun.
- (Yalnızca VSTO.)
- 1. Bir Çalışma Kitabı ekleyin.
- 1. İlk sayfayı alın.
- 1. Kenarlık ekleyeceğiniz hücrelere metin ekleyin.
+1. Çalışma sayfasını kurun:
+   1. Bir Uygulama nesnesi örnekleyin.
+      (Sadece VSTO.)
+   1. Bir çalışma kitabı ekleyin.
+   1. İlk sayfayı alın.
+   1. Sınırlar ekleyeceğiniz hücrelere metin ekleyin.
 1. Kenarlık ekle:
- 1. Bir aralık tanımlayın.
-1. Aralığa bir kenarlık stili uygulayın.
- Ayarlamak istediğiniz her aralık ve her kenarlık stili için tekrarlayın. Bu örnek, saç çizgileri, ince, orta ve kalın çizgiler için geçerlidir.
-1. Bitiş:
- 1. Metni düzgün bir şekilde sığdırmak için hücrelerin bulunduğu sütunu otomatik sığdırın.
- 1. Belgeyi kaydedin.
+   1. Bir aralık tanımlayın.
+   1. Arağ stilini aralığa uygulayın.
+      Her aralık ve sınır stili için tekrarlayın. Bu örnek, hairlines, thin, medium ve thick çizgiler uygular.
+1. Bitir:
+   1. Hücrelerin bulunduğu sütunu metne sığacak şekilde otomatik boyutlandırın.
+   1. Belgeyi kaydedin.
 
- Bu adımlar aşağıdaki kodda gösterilmiştir. İlk kod örnekleri, bunları kullanarak nasıl uygulanacağını gösterir.[VSTO](/cells/tr/net/add-borders-to-cells-in-a-worksheet/) C# veya Visual Basic ile. VSTO örneklerinden sonra, aynı adımları kullanarak nasıl gerçekleştirileceğini gösteren örnekler vardır.[Aspose.Cells for .NET](/cells/tr/net/add-borders-to-cells-in-a-worksheet/), yine C# veya Visual Basic kullanarak. Aspose.Cells kod örnekleri çok daha kısadır çünkü Aspose.Cells verimli kodlama için optimize edilmiştir.
+Bu adımlar aşağıda verilen kod örneğinde gösterilmiştir. İlk kod örnekleri, [VSTO](/cells/tr/net/add-borders-to-cells-in-a-worksheet/) kullanarak bunları C# veya Visual Basic ile nasıl uygulayacağınızı gösterir. VSTO örneklerinden sonra, aynı adımları yapmak için [Aspose.Cells for .NET](/cells/tr/net/add-borders-to-cells-in-a-worksheet/) kullanarak, yine C# veya Visual Basic ile nasıl yapılacağını gösteren örnekler bulunmaktadır. Aspose.Cells kod örnekleri daha kısadır çünkü Aspose.Cells verimli kodlama için optimize edilmiştir.
 
-Kod, ilk sayfada her biri farklı kenarlığa sahip birkaç hücre içeren bir Excel dosyası oluşturur:
+Kod, birinci sayfadaki farklı kenarlıklı birçok hücreye sahip bir Excel dosyası oluşturur
 
-![yapılacaklar:resim_alternatif_metin](add-borders-to-cells-in-a-worksheet_1.png)
+![todo:image_alt_text](add-borders-to-cells-in-a-worksheet_1.png)
 
-**Cells, kenarlık uygulanmış.**
+**Sınırlı Hücreler.**
 
-### **VSTO kullanarak Kenarlıklar Ekleme**
+### **VSTO Kullanarak Sınırlar Ekleme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -70,13 +71,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -186,11 +187,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Aspose.Cells for .NET kullanarak Kenarlık Ekleme**
+### **Aspose.Cells for .NET Kullanarak Sınırlar Ekleme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

@@ -1,109 +1,112 @@
-﻿---
-title: Lista de funciones admitidas
+---
+title: Lista de Funciones Soportadas
 type: docs
 weight: 10
-url: /es/net/list-of-supported-functions/
+url: /es/net/aspose-cells-griddesktop/list-of-supported-functions/
+keywords: GridDesktop,functions,formula
+description: Este artículo introduce las funciones admitidas en GridDesktop.
 ---
-## **Introducción**
-Hay muchas funciones integradas compatibles con Aspose.Cells Grid Controls. Estas funciones pertenecen a las siguientes categorías:
 
-- **Funciones Matemáticas** , proporciona un gran conjunto de funciones que se pueden utilizar en numerosos cálculos matemáticos
-- **Funciones de texto y datos** , proporciona varias funciones para realizar diferentes tipos de operaciones en texto y datos
-- **Funciones de fecha y hora** , proporciona algunas funciones útiles relacionadas con los datos y el tiempo
-- **Funciones lógicas** , proporciona un pequeño conjunto de funciones lógicas para manejar alguna operación lógica en los datos
+## **Introducción**
+Hay muchas funciones incorporadas admitidas por el Control Aspose.Cells.GridDesktop. Estas funciones pertenecen a las siguientes categorías:
+
+- **Funciones Matemáticas**, proporciona un conjunto enorme de funciones que se pueden utilizar en numerosos cálculos matemáticos
+- **Funciones de Texto y Datos**, proporciona varias funciones para realizar diferentes tipos de operaciones en texto y datos
+- **Funciones de Fecha y Hora**, proporciona algunas funciones útiles relacionadas con la fecha y la hora
+- **Funciones Lógicas**, proporciona un pequeño conjunto de funciones lógicas para manejar algunas operaciones lógicas en los datos
 ### **Funciones Matemáticas**
-- TECHO, COMBIN, COS, COSH, COUNTIF
-- GRADOS
-- PAR,EXP
-- HECHO,PISO
-- EN T
-- LN,REGISTRO,REGISTRO10
-- MODIFICACIÓN
-- IMPAR
-- PI, POTENCIA, PRODUCTO
-- RADIANES, ALEATORIO, REDONDO, REDONDO HACIA ABAJO, REDONDO HACIA ARRIBA
-- SEÑAL,PECADO,PECADO
-- SQRT,SUMA,SUMAR.SI,SUMAPRODUCTO,SUMSQ,SUMX2MY2,SUMX2PY2,SUMXMY2
-- TAN, TANH, TRONCO
-### **Funciones de texto y datos**
-- CARÁCTER, CÓDIGO, CONCATENAR
-- DÓLAR
-- EXACTO
-- ENCONTRAR, FIJO
-- IZQUIERDO, LEN, INFERIOR
-- MEDIO
-- FÓSFORO
-- REEMPLAZAR,REPETIR,DERECHO
-- BUSCAR,SUSTITUIR
-- T, TEXTO, RECORTE
-- SUPERIOR
-- VALOR
-- BUSCAR
-- BUSCARV
-- CARÁCTER ANCHO
-### **Funciones de fecha y hora**
-- HORA
-- MINUTO, MES
-- AHORA
-- SEGUNDO
-- TIEMPO, HOY
-- DÍA LABORABLE
-- AÑO
-### **Funciones lógicas**
-- FALSO
-- SI
-- NO
-- O
-- CIERTO
-### **Nuevas funciones**
-- MÍN.
-- ROW (Soportado en Aspose.Cells. GridWeb solamente)
-- ROW S (Soportado en Aspose.Cells. GridWeb solamente)
-- COLUMNA (Admitido en Aspose.Cells. Solo GridWeb)
-- COLUMNA S (Soportado en Aspose.Cells. Solo GridWeb)
-- DIRECCIÓN (Admitido en Aspose.Cells. Solo GridWeb)
-- COMPENSAR
-- INDIRECTO
-- ESRR
-- ES NÚMERO
-- LIMPIO
+- CEILING,COMBIN,COS,COSH,COUNTIF
+- DEGREES
+- EVEN,EXP
+- FACT,FLOOR
+- INT
+- LN,LOG,LOG10
+- MOD
+- ODD
+- PI,POWER,PRODUCT
+- RADIANES,RAND,REDONDEAR,REDONDEAR.MENOS,REDONDEAR.MAS
+- SIGN,SIN,SINH
+- SQRT,SUM,SUMIF,SUMPRODUCT,SUMSQ,SUMX2MY2,SUMX2PY2,SUMXMY2
+- TAN,TANH,TRUNC
+### **Funciones de Texto y Datos**
+- CHAR,CODE,CONCATENATE
+- DOLLAR
+- EXACT
+- FIND,FIXED
+- LEFT,LEN,LOWER
+- MID
+- MATCH
+- REPLACE,REPT,RIGHT
+- SEARCH,SUBSTITUTE
+- T,TEXT,TRIM
+- UPPER
+- VALUE
+- LOOKUP
+- VLOOKUP
+- WIDECHAR
+### **Funciones de Fecha y Hora**
+- HOUR
+- MINUTE,MONTH
+- NOW
+- SECOND
+- TIME,TODAY
+- WEEKDAY
+- YEAR
+### **Funciones Lógicas**
+- FALSE
+- IF
+- NOT
+- OR
+- TRUE
+### **Nuevas Funciones**
+- MIN
+- FILA (Compatible solo con Aspose.Cells.GridWeb)
+- FILAS (Compatible solo con Aspose.Cells.GridWeb)
+- COLUMNA (Compatible solo con Aspose.Cells.GridWeb)
+- COLUMNA S (Soportado solo en Aspose.Cells.GridWeb)
+- DIRECCIÓN (Soportado solo en Aspose.Cells.GridWeb)
+- OFFSET
+- INDIRECT
+- ISERR
+- ISNUMBER
+- CLEAN
 - RMB
-- HECHO DOBLE
-- MCD
-- MCM
-- REDONDO
+- FACTDOUBLE
+- GCD
+- LCM
+- MROUND
 - MULTINOMIAL
-- COCIENTE
-- ALEATORIO ENTRE
-- SERIESUMA
+- QUOTIENT
+- RANDBETWEEN
+- SERIESSUM
 - SQRTPI
-- TOTAL PARCIAL
-- CONTAR
-- CONTARA
-- ÍNDICE
-- CELDA
-- MEDIANA
-- TIPO.ERROR
-- ESTÁ EN BLANCO
-- ESERROR
-- ISLOGICO
+- SUBTOTAL
+- COUNT
+- COUNTA
+- INDEX
+- CELL
+- MEDIAN
+- ERROR.TYPE
+- ISBLANK
+- ISERROR
+- ISLOGICAL
 - ISNA
-- NO ES TEXTO
-- ISTEXTO
+- ISNONTEXT
+- ISTEXT
 - ISREF
-- norte
-- N / A
-- ESCRIBE
-- CUENTA EN BLANCO
-- GRANDE
+- N
+- NA
+- TYPE
+- COUNTBLANK
+- LARGE
 - MAXA
 - MINA
-- PROMEDIOA
-- MODO
-- PERCENTIL
-- RANGO PORCENTUAL
-- RANGO
-- ESCOGER
-- BUSCARH
-- PEQUEÑO (Admitido en Aspose.Cells. GridWeb solamente)
+- AVERAGEA
+- MODE
+- PERCENTILE
+- PERCENTRANK
+- RANK
+- CHOOSE
+- HLOOKUP
+- SMALL (Soportado solo en Aspose.Cells.GridWeb)
 

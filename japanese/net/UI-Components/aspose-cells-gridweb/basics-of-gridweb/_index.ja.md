@@ -1,17 +1,19 @@
 ---
-title: GridWeb の基本
+title: GridWeb の基礎
 type: docs
 weight: 10
-url: /ja/net/basics-of-gridweb/
+url: /ja/net/aspose-cells-gridweb/basics-of-gridweb/
+keywords: GridWeb
+description: この記事は GridWeb を紹介します。
 ---
-##  GridWeb の基本
-GridWeb は、スプレッドシート ファイルを表示および編集するための、使いやすい .net/java Web コントロールです。
+## GridWeb の基礎
+GridWeb は、表示およびスプレッドシートファイルの編集に使用するシンプルな .net/java webcontrol です。
 {{% alert color="primary" %}} 
 
-使い方は簡単です。
+使いやすくシンプルです。
 
-スプレッドシート ファイル用のオンライン Web エディタを迅速に構築するのに役立ちます。
+スプレッドシートファイルのオンライン Web エディタを素早く構築できます。
 
-また、MS Excel ファイルと 100% 互換性のあるあらゆる種類のスプレッドシート形式ファイルのインポートとエクスポートもサポートしています。
+MS Excel ファイルと完全に互換性のあるあらゆるスプレッドシート形式ファイルのインポートとエクスポートもサポートします。
 
 

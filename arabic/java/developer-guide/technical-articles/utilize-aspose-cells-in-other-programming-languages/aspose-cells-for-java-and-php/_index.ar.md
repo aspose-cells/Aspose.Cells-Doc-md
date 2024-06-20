@@ -1,39 +1,40 @@
-﻿---
-title: Aspose.Cells for Java و PHP
+---
+title: Aspose.Cells for Java وPHP
 type: docs
 weight: 20
 url: /ar/java/aspose-cells-for-java-and-php/
 ---
+
 {{% alert color="primary" %}} 
 
- يمكن لمطوري PHP استخدام Aspose.Cells for Java في تطبيقات PHP. للعمل مع Aspose.Cells for Java و PHP ، استخدم PHP الإصدار 5 (المعروف باسم PHP5). يمكن أيضًا استخدام PHP4 للوصول إلى Aspose.Cells for Java ولكنه أكثر تعقيدًا من استخدام PHP5.
+يمكن لمطوري PHP استخدام Aspose.Cells for Java في تطبيقات PHP. للعمل مع Aspose.Cells for Java وPHP، استخدم إصدار PHP 5 (المعروف باسم PHP5). يمكن أيضًا استخدام PHP4 للوصول إلى Aspose.Cells for Java ولكنه أكثر تعقيدًا من استخدام PHP5. 
 
 {{% /alert %}} 
 ## **العمل مع PHP**
-### **باستخدام PHP5**
- يوفر Aspose.Cells for Java فئات مجمعة PHP5 تسهل على المطورين استخدام مكتبة Aspose.Cells دون العمل مع فئات Java مباشرة.
+### **استخدام PHP5**
+يوفر Aspose.Cells for Java فئات تعليف PHP5 تجعل من السهل على المطورين استخدام مكتبة Aspose.Cells دون العمل مع فئات جافا مباشرة. 
 
- يمكن العثور على فئات المجمّع هذه في دليل PHP لأرشيف aspose.cells.zip في شكل ملف PHP.
-## **باستخدام PHP4**
- يعمل PHP4 أيضًا مع Aspose.Cells for Java ولكن في هذه الحالة ، سيحتاج المطورون إلى العمل مع فئات Java مباشرةً.
+يمكن العثور على هذه الفئات التعليف في دليل PHP لأرشيف aspose.cells.zip على شكل ملف PHP. 
+## **استخدام PHP4**
+يعمل أيضاً PHP4 مع Aspose.Cells for Java ولكن في هذه الحالة، سيحتاج المطورون إلى العمل مع فئات Java مباشرة. 
 
 {{% alert color="primary" %}} 
 
- لا تنس إضافة aspose.cells.jar إلى java.class.path في ملف php.ini.
+لا تنسى إضافة aspose.cells.jar إلى java.class.path في ملف php.ini. 
 
- توفر فئات المجمّع PHP بعض الطرق الثابتة لإنشاء فئات PHP لفئة Java المقابلة ، في ClassFactory مع التوقيع createXXX (). إذا تم تحميل المُنشئات بشكل زائد ، يتم تعريف جميع الطرق المقابلة في ClassFactory على أنها إنشاء + الرقم التسلسلي + اسم الفئة ، على سبيل المثال: ((createXXX ()}} ، create1XXX (args ...) ، create2XXX (args ...) ، وهكذا.
+توفر فئات الغلاف الخاصة بـ PHP بعض الطرق الثابتة لإنشاء فئات PHP للفئة Java المقابلة، في ClassFactory مع توقيع createXXX(). إذا كانت البناءات محملة، يتم تعريف جميع الطرق المقابلة في ClassFactory كـ create+الرقم التسلسلي+اسم الفئة، على سبيل المثال: ((createXXX()}}, create1XXX(args...), create2XXX(args...), وهكذا. 
 
-يتم تعريف جميع الثوابت في PHP على أنها ClassName + "" + ConstantName ، على سبيل المثال ، BorderLineType.NONE يتم تعريفها على أنها BorderLineType NONE في PHP.
+تم تعريف جميع الثوابت في PHP كـ اسم الفئة+" "+اسم الثابت، على سبيل المثال، تم تعريف BorderLineType.NONE كـ BorderLineType NONE في PHP. 
 
- إذا تم تحميل الطرق بشكل زائد ، يتم تعريفها على أنها اسم الطريقة + الرقم التسلسلي ، على سبيل المثال cell.setValue ، cell.setValue1 () ، cell.setValue2 () ، وما إلى ذلك.
+إذا كانت الطرق محملة، تم تعريفها كـ اسم الطريقة+الرقم التسلسلي، على سبيل المثال cell.setValue، cell.setValue1()، cell.setValue2()، وهكذا. 
 
- يتم تعريف طريقة clone () على أنها cloneObject ().
+تم تعريف طريقة الاستنساخ (clone()) كـ cloneObject(). 
 
 {{% /alert %}} 
 
-**بي أتش بي**
+**PHP**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?php
 

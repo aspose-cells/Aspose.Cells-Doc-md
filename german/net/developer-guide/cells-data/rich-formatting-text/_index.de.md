@@ -1,31 +1,32 @@
 ---
-title: Greifen Sie auf die Rich-Text-Teile von Cell zu und aktualisieren Sie sie
-linktitle: Text mit reichhaltiger Formatierung
+title: Zugriff und Aktualisierung der Teile von Rich Text einer Zelle
+linktitle: Rich Text Formatierung
 type: docs
 weight: 40
 url: /de/net/access-and-update-the-portions-of-rich-text-of-cell/
-description: Erfahren Sie, wie Sie auf die Rich-Text-Teile von Cell über Aspose.Cells for .NET API zugreifen und diese aktualisieren.
-keywords: Access and Update Rich Text of Cell, Get Rich Text of Cell, Edit Rich Text of Cell, Access Rich Text of Cell, Update Rich Text of Cell, Change Rich Text of Cell
+description: Lernen Sie, wie Sie über die Aspose.Cells for .NET API auf Teile des Rich Texts einer Zelle zugreifen und diese aktualisieren können.
+keywords: Zugriff und Aktualisierung des Rich Texts einer Zelle, Abrufen des Rich Texts einer Zelle, Rich Text einer Zelle bearbeiten, Rich Text einer Zelle abrufen, Rich Text einer Zelle aktualisieren, Rich Text einer Zelle ändern
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells ermöglicht Ihnen den Zugriff auf und die Aktualisierung der Teile des Rich-Textes der Zelle. Zu diesem Zweck können Sie verwenden[**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) Und[**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) Methoden. Diese Methoden geben das Array von zurück und akzeptieren es[**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting)Objekte, mit denen Sie auf verschiedene Eigenschaften der Schriftart zugreifen und diese aktualisieren können, z. B. den Namen der Schriftart, die Schriftfarbe, die Fettschrift usw.
+Mit Aspose.Cells können Sie auf die Teile des Rich-Texts einer Zelle zugreifen und diese aktualisieren. Hierfür können Sie die [**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) und [**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) Methoden verwenden. Diese Methoden geben ein Array von [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting)-Objekten zurück und akzeptieren dieses, mit dem Sie verschiedene Eigenschaften der Schriftart wie Schriftartname, Schriftfarbe, Fettgedrucktheit usw. ändern können.
 
 {{% /alert %}}
 
-##  **Greifen Sie auf die Rich-Text-Teile von Cell zu und aktualisieren Sie sie**
+## **Teile des Rich-Texts der Zelle zugreifen und aktualisieren**
 
- Der folgende Code demonstriert die Verwendung von[**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) Und[**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) Methode mit der[Quell-Excel-Datei](5112369.xlsx) die Sie über den bereitgestellten Link herunterladen können. Die Excel-Quelldatei enthält einen Rich-Text in der Zelle A1. Es besteht aus 3 Teilen und jeder Teil hat eine andere Schriftart. Der folgende Codeausschnitt greift auf diese Teile zu und aktualisiert den ersten Teil mit einem neuen Schriftartnamen. Schließlich wird die Arbeitsmappe als gespeichert[Excel-Datei ausgeben](5112366.xlsx). Wenn Sie es öffnen, werden Sie feststellen, dass die Schriftart des ersten Teils des Textes in *„Arial“** geändert wurde.
+Der folgende Code zeigt die Verwendung der [**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index)- und [**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters)-Methode mit der [Quelldatei Excel](5112369.xlsx), die Sie über den bereitgestellten Link herunterladen können. Die Quelldatei Excel enthält einen Rich-Text in der Zelle A1. Es hat 3 Teile, und jeder Teil hat eine andere Schriftart. Der folgende Codeschnipsel greift auf diese Teile zu und aktualisiert den ersten Teil mit einem neuen Schriftartnamen. Schließlich speichert es die Arbeitsmappe als [Ausgabedatei Excel](5112366.xlsx). Wenn Sie es öffnen, werden Sie feststellen, dass sich die Schriftart des ersten Teils des Textes zu **"Arial"** geändert hat.
 
-###  C#-Code für den Zugriff und die Aktualisierung der Rich-Text-Teile von Cell
+### C#-Code zum Zugriff und zur Aktualisierung der Teile des Rich Texts einer Zelle
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UpdateRichTextCells-1.cs" >}}
 
-### Durch den Beispielcode generierte Konsolenausgabe
+### Von der Beispiellösung generierte Konsolenausgabe
 
- Hier ist die Konsolenausgabe des obigen Beispielcodes unter Verwendung von[Quell-Excel-Datei](5112369.xlsx).
+Hier ist die Konsolenausgabe des obigen Beispielscodes unter Verwendung der [Quelldatei Excel](5112369.xlsx).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Before updating the font settings....
 

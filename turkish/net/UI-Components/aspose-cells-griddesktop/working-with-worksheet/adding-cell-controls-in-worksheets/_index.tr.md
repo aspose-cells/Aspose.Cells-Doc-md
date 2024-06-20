@@ -1,86 +1,89 @@
-﻿---
-title: Çalışma Sayfalarına Cell Kontrolleri Ekleme
+---
+title: Çalışma Sayfalarında Hücre Denetimleri Eklemek
 type: docs
 weight: 120
-url: /tr/net/adding-cell-controls-in-worksheets/
+url: /tr/net/aspose-cells-griddesktop/add-cell-controls-in-worksheets/
+keywords: GridDesktop,add,control,button,checkbox,combobox
+description: Bu makale, GridDesktop içinde çalışma sayfasına denetim eklemenin nasıl yapıldığını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
- Cell kontrolleri aslında çalışma sayfalarına eklenebilen kontrollerdir. biz onlara diyoruz**Cell Kontroller** çünkü bu kontroller hücrelerde görüntülenir. Bu konuda, bu hücre kontrollerinin olaylarını ekleme ve işleme hakkında tartışacağız.
+Hücre denetimleri aslında çalışma sayfalarına eklenebilecek denetimlerdir. Onları **Hücre Denetimleri** olarak adlandırıyoruz çünkü bu denetimler hücrelerde görüntülenir. Bu konuda bu hücre denetimlerini eklemek ve olaylarını ele almak üzerinde konuşacağız.
 
 {{% /alert %}} 
 ## **Giriş**
-Şu anda Aspose.Cells.GridDesktop, aşağıdakileri içeren üç tür hücre denetimi eklemeyi destekler:
+Şu anda, Aspose.Cells.GridDesktop, aşağıdakileri içeren üç tür hücre denetimi eklemeyi desteklemektedir:
 
-- **Buton**
+- **Düğme**
 - **Onay Kutusu**
-- **Açılan kutu**
+- **Kombo Kutusu**
 
-Bu kontrollerin tümü soyut bir sınıftan türetilmiştir,**Hücre Kontrolü**Her çalışma sayfası bir koleksiyon içerir**Kontroller**. Bu kullanılarak yeni hücre kontrolleri eklenebilir ve mevcut olanlara erişilebilir.**Kontroller**kolayca toplayın.
+Tüm bu denetimler, **HücreDenetim** soyut sınıfından türetilmiştir. Her çalışma sayfası, **Denetimler** adlı bir koleksiyon içerir. Yeni hücre denetimleri eklenip mevcut olanlara bu **Denetimler** koleksiyonunu kullanarak kolayca erişilebilir.
 
-**ÖNEMLİ:**Tek tek eklemek yerine bir sütunun tüm hücrelerine hücre kontrolleri eklemek istiyorsanız, o zaman başvurabilirsiniz.[Cell Kontrollerini Sütunlarda Yönetme.](/cells/tr/net/adding-cell-controls-in-worksheets/)
-### **Ekleme Düğmesi**
+**ÖNEMLİ:** Bir sütunun tüm hücrelerine tek tek eklemek yerine yönetmeniz gerekiyorsa [Sütunlarda Hücre Denetimlerini Yönetme.](/cells/tr/net/aspose-cells-griddesktop/adding-cell-controls-in-worksheets/) bağlantısına bakabilirsiniz.
+### **Düğme Ekleme**
 Aspose.Cells.GridDesktop kullanarak çalışma sayfasına düğme eklemek için lütfen aşağıdaki adımları izleyin:
 
-- Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
-- İstediğiniz herhangi birine erişin**Çalışma kağıdı**
-- Eklemek**Buton**için**Kontroller**koleksiyonu**Çalışma kağıdı**
+- **Form**'unuza Aspose.Cells.GridDesktop denetimini ekleyin
+- Herhangi bir istenen **Elektronik Tablo**'na erişin
+- **Denetimler** koleksiyonuna **Düğme** ekleyin
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingButton.cs" >}}
 
 
-eklerken**Buton**, hücrenin konumunu (nerede görüntüleneceğini), genişliğini ve yüksekliğini ve düğmenin başlığını belirtebiliriz.
-#### **Düğmenin Olay İşleme**
-ekleme hakkında konuştuk**Buton**kontrol etmek**Çalışma kağıdı**ancak kullanamıyorsak, çalışma sayfasında bir düğme olmasının avantajı nedir? Bu nedenle, düğmenin olay işleme ihtiyacı burada ortaya çıkıyor.
+**Düğme** eklerken, hücrenin konumunu (nerede görüntüleneceği), genişliği ve yüksekliği ve düğmenin açıklamasını belirleyebiliriz.
+#### **Düğmenin Olaylarını Ele Alma**
+**Düğme** denetimini **Çalışma Sayfası**'na eklemeyi tartıştık ancak sadece bir düğmeye sahip olmanın avantajı nedir, eğer kullanamıyorsak. İşte burada, düğmenin olaylarını ele almanın gerekliliği ortaya çıkar.
 
-işlemek için**Tıklamak**olayı**Buton**kontrol, Aspose.Cells.GridDesktop sağlar**HücreDüğmesiTıklama**geliştiriciler tarafından ihtiyaçlarına göre uygulanması gereken olay. Örneğin, aşağıda gösterildiği gibi, düğmeye tıklandığında bir mesaj görüntüledik:
+**Düğme** denetiminin **Tıklama** olayını ele almak için, Aspose.Cells.GridDesktop, **CellButtonClick** olayını geliştiricilere ihtiyaçlarına göre uygulamaları için sağlar. Örneğin, aşağıdaki gibi düğmeye tıklandığında bir mesajı sadece görüntüledik.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-HandlingButton.cs" >}}
-#### **Düğme Denetimi için Arka Plan Görüntüsü Belirtme**
-Aşağıdaki kodda gösterildiği gibi etiketi/metni ile düğme kontrolü için arka plan resmini/resmini ayarlayabiliriz:
+#### **Düğme Denetimi İçin Arka Plan Resmi Belirtme**
+Düğme denetiminin arkaplan resmini resmini/ görüntüsünü aşağıdaki kodda gösterildiği şekilde etiket/metin ile birlikte belirleyebiliriz:
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-SetBackground.cs" >}}
 
 
-**ÖNEMLİ:**Hücre kontrollerinin tüm olayları bir**CellControlEventArgs**hücre kontrolünü içeren (olayı tetiklenen) hücrenin satır ve sütun numaralarını sağlayan bağımsız değişken.
-### **Onay Kutusu Ekleme**
-Aspose.Cells.GridDesktop kullanarak çalışma sayfasına bir onay kutusu eklemek için lütfen aşağıdaki adımları izleyin:
+**ÖNEMLİ:** Hücre denetimlerinin tüm olayları, tetiklenen hücre denetimini içeren **CellControlEventArgs** argümanını içerir (veya sağlar);
+### **CheckBox Ekleme**
+Aspose.Cells.GridDesktop kullanarak elektronik tabloya bir onay kutusu eklemek için lütfen aşağıdaki adımları izleyin:
 
-- Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
-- İstediğiniz herhangi birine erişin**Çalışma kağıdı**
-- Eklemek**Onay Kutusu**için**Kontroller**koleksiyonu**Çalışma kağıdı**
+- **Form**'unuza Aspose.Cells.GridDesktop denetimini ekleyin
+- Herhangi bir istenen **Elektronik Tablo**'na erişin
+- **CheckBox**'ı **Elektronik Tablo**'nun **Denetimler** koleksiyonuna ekleyin
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingCheckbox.cs" >}}
 
 
-eklerken**Onay Kutusu**, hücrenin konumunu (nerede görüntüleneceğini) ve onay kutusunun durumunu belirtebiliriz.
+**CheckBox** eklerken, kutunun konumunu (nerede görüntüleneceğini) ve onay kutusunun durumunu belirtebiliriz.
 #### **CheckBox Olay İşleme**
-Aspose.Cells.GridDesktop sağlar**Hücre Kontrol EdildiDeğiştirildi**olduğunda tetiklenen olay**Kontrol**onay kutusunun durumu değiştirilir. Geliştiriciler bu olayı gereksinimlerine göre işleyebilir. Örneğin, göstermek için az önce bir mesaj görüntüledik.**Kontrol**aşağıdaki koddaki onay kutusunun durumu:
+Aspose.Cells.GridDesktop, onay kutusunun **İşaretlendi**ği durumun değiştiğinde tetiklenen **CellCheckedChanged** olayını sağlar. Geliştiriciler bu olaya kendi gereksinimlerine göre işleyebilir. Örneğin, aşağıdaki kodda onay kutusunun İşaretlendi durumunu göstermek için sadece bir iletiyi gösterdik:
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-HandlingCheckbox.cs" >}}
-### **ComboBox ekleme**
-Aspose.Cells.GridDesktop kullanarak çalışma sayfasına açılan kutu eklemek için lütfen aşağıdaki adımları izleyin:
+### **ComboBox Ekleme**
+Aspose.Cells.GridDesktop kullanarak elektronik tabloya bir açılır kutu eklemek için lütfen aşağıdaki adımları izleyin:
 
-- Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
-- İstediğiniz herhangi birine erişin**Çalışma kağıdı**
-- Eklenecek bir dizi öğe (veya değer) oluşturun**Açılan kutu**
-- Eklemek**Açılan kutu**için**Kontroller**koleksiyonu**Çalışma kağıdı**hücrenin konumunu (birleşik kutunun görüntüleneceği yer) ve açılan kutu tıklandığında görüntülenecek öğeleri/değerleri belirterek
+- **Form**'unuza Aspose.Cells.GridDesktop denetimini ekleyin
+- Herhangi bir istenen **Elektronik Tablo**'na erişin
+- **ComboBox**'ın tıklanacağında görüntülenecek hücrenin konumunu (açılır kutunun görüntüleneceği konum) ve öğeler/değerler dizisini oluşturun
+- **ComboBox**'ı **Elektronik Tablo**'nun **Denetimler** koleksiyonuna konumunu (açılır kutunun görüntüleneceği hücrenin konumu) ve combobox tıklanıldığında görüntülenecek öğeler/değerler dizisini belirterek ekleyin
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingCombobox.cs" >}}
 #### **ComboBox Olay İşleme**
-Aspose.Cells.GridDesktop sağlar**CellSelectedIndexChanged**olduğunda tetiklenen olay**Seçilmiş Dizin**açılan kutunun şekli değişti. Geliştiriciler bu olayı kendi isteklerine göre halledebilirler. Örneğin, göstermek için az önce bir mesaj görüntüledik.**Seçilen öğe**açılan kutunun:
+Aspose.Cells.GridDesktop, açılır kutunun **Seçilen İndeks**i değiştiğinde tetiklenen **CellSelectedIndexChanged** olayını sağlar. Geliştiriciler bu olayı isteklerine göre işleyebilirler. Örneğin, aşağıdaki kodda sadece açılır kutunun **Seçili Öğe** sini göstermek için bir iletiyi gösterdik:
 
 
 

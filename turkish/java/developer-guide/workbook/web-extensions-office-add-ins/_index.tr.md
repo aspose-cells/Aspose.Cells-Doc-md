@@ -1,43 +1,48 @@
-﻿---
-title: Web Uzantıları - Office Eklentileri
+---
+title: Web Eklentileri  Ofis Eklentileri
 type: docs
 weight: 120
 url: /tr/java/web-extensions-office-add-ins/
 ---
-Web Uzantıları, Office uygulamalarını genişletir ve Office belgelerindeki içerikle etkileşim kurar. Web Uzantıları, kullanıcı deneyimini ve üretkenliği geliştirmek için Office istemcisine ek işlevler ekler.
 
-Aspose.Cells ayrıca Web Uzantıları ile çalışma olanağı sağlar.
+Web Eklentileri, Ofis belgelerindeki içerikle etkileşimde bulunarak Ofis uygulamalarını genişletir. Web Eklentileri, kullanıcı deneyimini ve üretkenliği artırmak için Ofis istemcisine ek işlevsellik ekler.
 
-## **Web Uzantısı Ekle**
+Aspose.Cells, Web Eklentileri ile çalışma kabiliyeti de sunar.
 
-Web Uzantılarını (Office Eklentileri) Excel'e tıklayarak ekleyebilirsiniz.**Sokmak**sekmesine tıklayın ve ardından**Mağaza**/**Eklentileri Alın**bağlantı. Eklentiler kutusunda, istediğiniz eklentiye göz atın ve ekleyin.
+## **Web Eklentisi Ekleme**
 
-Aspose.Cells ayrıca WebExtension ve WebExtensionTaskPane sınıflarını kullanarak Web Uzantıları ekleme özelliği sağlar. Aşağıdaki kod örneği, Excel dosyasına bir web uzantısı eklemek için WebExtension ve WebExtensionTaskPane sınıflarının kullanımını gösterir. Lütfen bkz[çıktı excel dosyası](AddWebExtension_Out.xlsx)referans için kod tarafından oluşturulur.
+Excel'de Web Uzantıları(Office Eklentileri) ekleyebilirsiniz. **Ekle** sekmesine tıklayarak ardından **Mağaza**/**Eklenti Al** bağlantısına tıklayın. Eklentiler kutusunda istediğiniz eklentiyi bulun ve ekleyin.
 
-### **Basit kod**
+Aspose.Cells ayrıca, Web Uzantıları eklemek için WebExtension ve WebExtensionTaskPane sınıflarını kullanma özelliği sağlar. Aşağıdaki kod örneği, Excel dosyasına web uzantısı eklemek için WebExtension ve WebExtensionTaskPane sınıflarının kullanımını göstermektedir. Referans için lütfen kod tarafından oluşturulan [çıktı Excel dosyasına](AddWebExtension_Out.xlsx) bakınız.
+
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AddWebExtension-1.java" >}}
 
-## **Web Uzantısı Bilgilerine Erişim**
+## **Web Eklentisi Bilgilerine Erişme**
 
-Aspose.Cells, Excel dosyasındaki Web Uzantılarının bilgilerine erişme olanağı sağlar. Aşağıdaki kod örneği, yükleyerek web uzantısı bilgilerine nasıl erişileceğini gösterir.[örnek excel dosyası](WebExtensionsSample.xlsx). Lütfen referans için kod tarafından oluşturulan konsol çıktısına bakın.
+Aspose.Cells, Excel dosyasındaki Web Uzantılarının bilgilerine erişme olanağı sağlar. Aşağıdaki kod örneği, [örnek Excel dosyasını](WebExtensionsSample.xlsx) yükleyerek web uzantısı bilgilerine nasıl erişileceğini göstermektedir. Referans için lütfen kod tarafından oluşturulan konsol çıktısına bakınız.
 
-### **Basit kod**
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AccessWebExtensionInformation-1.java" >}}
 
-### **Konsol Çıkışı**
+### **Konsol Çıktısı**
 
-Genişlik: 350
+{{< highlight java >}}
 
-Görünür: Doğru
+Width: 350
 
-Kilitli: Yanlış
+IsVisible: True
 
-DockState: doğru
+IsLocked: False
 
-MağazaAdı: tr-US
+DockState: right
 
-Mağaza Tipi: OMEX
+StoreName: en-US
+
+StoreType: OMEX
 
 WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
+
+{{< /highlight >}}

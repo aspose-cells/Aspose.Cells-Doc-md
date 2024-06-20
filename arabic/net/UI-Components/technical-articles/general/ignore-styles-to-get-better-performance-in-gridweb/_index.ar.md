@@ -1,33 +1,34 @@
-﻿---
+---
 title: تجاهل الأنماط للحصول على أداء أفضل في GridWeb
 type: docs
 weight: 1060
 url: /ar/net/aspose-cells-gridweb/ignorestylewithnodata
-description: توضح هذه المقالة كيفية استخدام IgnoreStyleWithNoData للحصول على أداء أفضل لمكتبة Aspose.Cells.GridWeb.
-keywords: performance
+description: يصف هذا المقال كيفية استخدام IgnoreStyleWithNoData للحصول على أداء أفضل في GridWeb.
+keywords: GridWeb,performance
 ---
-## **سيناريوهات الاستخدام الممكنة**
- الرجاء استخدام[GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata)الخاصية لتحميل عدد أقل من الصفوف / الأعمدة المطلوبة من المصنف.
- 
-## **احصل على أداء أفضل أثناء تحميل المصنف**
- رجاء تاكد من[نموذج ملف اكسل](largerowswithstyle.xlsx) 
 
-عند تعيين IgnoreStyleWithNoData = صحيح ؛
+## **سيناريوهات الاستخدام المحتملة**
+يرجى استخدام خاصية [GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata) لتحميل الصفوف / الأعمدة المطلوبة بشكل أقل من الدفتر.
 
-كما ترى ، فإنه يعرض الصفوف (إلى 15) والأعمدة (إلى L) ، ولن يعرض آخر الصفوف والأعمدة المستمرة بدون بيانات في الخلايا ، وبالتالي سيكون وقت التحميل أقل.
+## **احصل على أداء أفضل أثناء تحميل الدفتر**
+يرجى التحقق من [ملف الإكسل عينة](largerowswithstyle.xlsx) 
 
-![المصنف بنمط التجاهل](ignorestyletrue.png)
+عند تعيين IgnoreStyleWithNoData = true؛
+
+كما يمكنك رؤية، فإنه يعرض الصفوف (15) والأعمدة (L)، ولن يعرض الصفوف والأعمدة المستمرة الأخيرة بدون بيانات في الخلايا، وبالتالي سيكون وقت التحميل أقل.
+
+![دفتر بإمكانية تجاهل النمط](ignorestyletrue.png)
 
 
-عند تعيين IgnoreStyleWithNoData = false ؛ (القيمة الافتراضية هي false)
+عند تعيين IgnoreStyleWithNoData = false؛ (القيمة الافتراضية هي false)
 
-كما ترى ، فإنه يعرض عددًا أكبر من الصفوف (حتى 500) والأعمدة (إلى تشيكوسلوفاكيا)
+كما يمكنك رؤية، فإنه يعرض صفوفًا أكثر بكثير (حتى 500) وأعمدة (حتى CZ)
 
-من الصف 16 إلى الصف 500 ، قامت بعض الخلايا بتعيين نمط boder ، لكن الخلايا لا تحتوي على بيانات.
+من الصف 16 إلى الصف 500، تم تعيين النمط الحدودي لبعض الخلايا، ومع ذلك فإن الخلايا لا تحتوي على بيانات.
 
-من العمود M إلى العمود CZ ، قامت بعض الخلايا بتعيين نمط boder ، لكن الخلايا لا تحتوي على بيانات.
+من العمود M إلى العمود CZ، تم تعيين النمط الحدودي لبعض الخلايا، ومع ذلك فإن الخلايا لا تحتوي على بيانات.
 
-![المصنف دون تجاهل النمط](ignorestylefalse.png)
- 
- 
- 
+![دفتر بدون إمكانية تجاهل النمط](ignorestylefalse.png)
+
+
+

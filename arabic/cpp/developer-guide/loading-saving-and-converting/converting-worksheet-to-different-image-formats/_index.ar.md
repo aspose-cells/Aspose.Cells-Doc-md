@@ -1,43 +1,44 @@
 ---
-title: تحويل ورقة العمل إلى تنسيقات الصور المختلفة
+title: تحويل ورقة العمل إلى تنسيقات صور مختلفة
 type: docs
 weight: 90
 url: /ar/cpp/converting-worksheet-to-different-image-formats/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells يسمح لك بتصدير ورقة عمل من مصنف وتحويلها إلى تنسيقات صور مختلفة. يشرح هذا المقال كيفية تحويل ورقة عمل إلى تنسيقات صور مختلفة.
+Aspose.Cells  يسمح لك بتصدير ورقة البيانات من جدول بيانات وتحويلها إلى تنسيقات صور مختلفة. يشرح هذا المقال كيفية تحويل ورقة البيانات إلى تنسيقات صور مختلفة.
 
 {{% /alert %}} 
-##  **تحويل ورقة العمل إلى صورة**
-تحتوي أوراق العمل على البيانات التي تريد تحليلها. على سبيل المثال، يمكن أن تحتوي ورقة العمل على معلمات وإجماليات ونسب مئوية واستثناءات وحسابات.
+## **تحويل ورقة عمل إلى صورة**
+تحتوي الأوراق العمل على البيانات التي ترغب في تحليلها. على سبيل المثال، يمكن أن تحتوي ورقة العمل على معلمات وإجماليات ونسب واستثناءات وحسابات.
 
-كمطور، قد تحتاج إلى تقديم أوراق العمل كصور. على سبيل المثال، قد تحتاج إلى استخدام صورة ورقة عمل في تطبيق أو صفحة ويب. قد ترغب في إدراج صورة في مستند Word Microsoft أو ملف PDF أو عرض تقديمي PowerPoint أو أي نوع آخر من المستندات. ببساطة، أنت تريد عرض ورقة العمل كصورة بحيث يمكنك استخدامها في مكان آخر.
+كمطور، قد تحتاج إلى عرض الأوراق العمل كصور. على سبيل المثال، قد تحتاج إلى استخدام صورة لورقة عمل في تطبيق أو صفحة ويب. قد ترغب في إدراج صورة في مستند Microsoft Word أو ملف PDF أو عرض PowerPoint أو نوع مستند آخر. ببساطة، ترغب في عرض ورقة عمل كصورة حتى تتمكن من استخدامها في مكان آخر.
 
-Aspose.Cells يدعم تحويل أوراق عمل Excel إلى صور. لاستخدام هذه الميزة، تحتاج إلى استيراد ملف[Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/)مساحة الاسم لبرنامجك أو مشروعك. لديها عدة فئات قيمة للعرض والطباعة، على سبيل المثال،[SheetRender](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [خيارات الصورة أو الطباعة](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/)و اخرين.
+Aspose.Cells يدعم تحويل ورقات العمل في Excel إلى صور. لاستخدام هذه الميزة، تحتاج إلى استيراد فضاء الاسم [Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/) إلى برنامجك أو مشروعك. يوجد فيه عدة فئات قيمة للتقديم والطباعة، على سبيل المثال، [SheetRender](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/)، [ImageOrPrintOptions](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/) وغيرها.
 
-تمثل الفئة `Aspose.Cells.Rendering.ISheetRender` ورقة عمل لعرضها كصور. لديها طريقة مثقلة ،[ToImage](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/)، يمكنه تحويل ورقة العمل إلى ملف (ملفات) صورة بسمات أو خيارات مختلفة. يتم دعم العديد من صيغ الصور، على سبيل المثال، BMP، PNG، GIF، JPG، JPEG، TIFF، EMF.
+تمثل فئة `Aspose.Cells.Rendering.ISheetRender` ورقة عمل يتم تقديمها كصور. لديها أسلوب مفرط، [ToImage](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/)، الذي يمكن أن يحول ورقة عمل إلى ملف صورة (صور) بخصائص أو خيارات مختلفة. يتم دعم عدة تنسيقات صور، على سبيل المثال، BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية تحويل ورقة عمل في ملف Excel إلى ملف صورة.
-###  **PNG تنسيق**
- الرجاء مراجعة نموذج التعليمات البرمجية التالي، الخاص به[عينة من ملف إكسل](67338402.xlsx) ، و ال[إخراج PNG الصور](67338401.zip).
+يوضح مقتطف الكود التالي كيفية تحويل ورقة عمل في ملف Excel إلى ملف صورة.
+### **تنسيق PNG**
+يرجى رؤية الكود عينة التالي، ملف الإكسل [عينة](67338402.xlsx) و [صور PNG النتج](67338401.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG-new.cpp" >}}
 
-###  **TIFF تنسيق**
- الرجاء مراجعة نموذج التعليمات البرمجية التالي، الخاص به[عينة من ملف إكسل](67338402.xlsx) ، و ال[إخراج TIFF صورة](67338419.zip).
+### **تنسيق TIFF**
+يرجى رؤية الكود عينة التالي، ملف الإكسل [عينة](67338402.xlsx) و [صورة TIFF الناتجة](67338419.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF-new.cpp" >}}
 
-##  **تحويل ورقة العمل إلى SVG**
-SVG يرمز إلى رسومات المتجهات القابلة للتطوير. SVG هي مواصفات تعتمد على معايير XML للرسومات المتجهة ثنائية الأبعاد. وهو معيار مفتوح قيد التطوير بواسطة اتحاد شبكة الويب العالمية (W3C) منذ عام 1999.
+## **تحويل ورقة عمل إلى SVG**
+تعني SVG Scalable Vector Graphics. SVG هو مواصفة تعتمد على معايير XML للرسومات الناقلة ثنائية الأبعاد. إنها معيار مفتوح تحت تطوير من قبل الجمعية العالمية للويب (W3C) منذ عام 1999.
 
-تمكن Aspose.Cells for C++ من تحويل أوراق العمل إلى صورة SVG منذ الإصدار 18.5.0.
+Aspose.Cells for C++ تمكن من تحويل ورقات العمل إلى صور SVG منذ الإصدار 18.5.0.
 
-لاستخدام هذه الميزة، قم باستيراد مساحة الاسم `Aspose.Cells.Rendering` إلى برنامجك أو مشروعك. وله عدة فئات قيمة للعرض والطباعة، على سبيل المثال، `ISheetRender`، `IImageOrPrintOptions`، وغيرها.
+للاستفادة من هذه الميزة، استيراد فضاء الاسم `Aspose.Cells.Rendering` إلى برنامجك أو مشروعك. يوجد فيه عدة فئات قيمة للتقديم والطباعة، على سبيل المثال، `ISheetRender`، `IImageOrPrintOptions` وغيرها.
 
-تحدد الفئة `Aspose.Cells.Rendering.IImageOrPrintOptions` أنه سيتم حفظ ورقة العمل بتنسيق SVG. يوضح مقتطف التعليمات البرمجية التالي كيفية تحويل ورقة عمل في ملف Excel إلى ملف صورة SVG
+تحدد فئة `Aspose.Cells.Rendering.IImageOrPrintOptions` أنه سيتم حفظ ورقة العمل بتنسيق SVG. الكود المصغر التالي يظهر كيفية تحويل ورقة عمل في ملف Excel إلى ملف صورة SVG
 
- الرجاء مراجعة نموذج التعليمات البرمجية التالي، الخاص به[عينة من ملف إكسل](67338402.xlsx) ، و ال[إخراج SVG الصور](67338403.zip).
+يرجى رؤية الكود عينة التالي، ملف الإكسل [عينة](67338402.xlsx) و [صور SVG الناتجة](67338403.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG-new.cpp" >}}

@@ -1,25 +1,26 @@
 ---
-title: Cómo crear gráficos de acciones
+title: Cómo crear gráficos de cotización
 type: docs
 weight: 71
 url: /es/java/how-to-create-stock-charts/
 description: Cómo crear un gráfico de cotizaciones, cómo agregar un gráfico de cotizaciones, cómo generar un gráfico de cotizaciones.
-keywords: Add stock charts, Create stock charts, Generate stock charts.
+keywords: Agregar gráficos de cotizaciones, Crear gráficos de cotizaciones, Generar gráficos de cotizaciones.
 ---
+
 {{% alert color="primary" %}}
 
-Este párrafo le indicará cómo crear un gráfico de cotizaciones, que incluye cuatro tipos:
+Este párrafo te indicará cómo crear un gráfico de cotización, que incluye cuatro tipos:
 - **HLC** – Alto-Bajo-Cierre.
-- **OHLC** – Abrir-Alto-Bajo-Cerrar.
+- **OHLC** – Apertura-Alto-Bajo-Cierre.
 - **VHLC** – Volumen-Alto-Bajo-Cierre.
-- **VOHLC**– Volumen-Abrir-Alto-Bajo-Cerrar.
+- **VOHLC** – Volumen-Apertura-Alto-Bajo-Cierre.
 
 {{% /alert %}}
 
-##  **¿Qué es el gráfico de acciones?**
+## **¿Qué es un gráfico de cotización?**
 
-Los gráficos de acciones son gráficos específicos que se utilizan para rastrear los cambios en el precio de los activos negociados. Activos como materias primas, acciones y criptomonedas. Le permiten ver valores máximos y mínimos a lo largo del tiempo, junto con valores de apertura y cierre en un gráfico. Aspose.Cells ofrece 4 gráficos de cotizaciones y, para utilizarlos, debe tener disponibles los conjuntos de datos correctos y seleccionar las columnas en el orden correcto.
+Los gráficos de cotización son un tipo específico de gráfico utilizado para rastrear los cambios en el precio de los activos negociados, como materias primas, acciones y criptomonedas. Permiten ver los valores máximos y mínimos a lo largo del tiempo, junto con los valores de apertura y cierre en un solo gráfico. Aspose.Cells ofrece 4 tipos de gráficos de cotización y, para usarlos, debes tener los conjuntos de datos correctos disponibles y debes seleccionar las columnas en el orden correcto.
 
- El siguiente conjunto de datos muestra la información comercial diaria de una acción. Usaremos estos datos para crear cada uno de los 4 gráficos de acciones disponibles en Aspose.Cells.
+El siguiente conjunto de datos muestra la información de negociación diaria de una acción. Vamos a utilizar estos datos para crear cada uno de los 4 gráficos de acciones disponibles en Aspose.Cells. 
 
 ![todo:image_alt_text](stock.chart.data.png)

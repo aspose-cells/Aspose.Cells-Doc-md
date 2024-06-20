@@ -1,13 +1,14 @@
-﻿---
-title: تاريخ الإنشاء Cell في Apache POI و Aspose.Cells
+---
+title: إنشاء خلية التاريخ في أباتشي بوي وأسبوز.سيلز
 type: docs
 weight: 90
 url: /ar/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - تاريخ الإنشاء Cell**
+
+## **أسبوز.سيلز - إنشاء خلية تاريخ**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,10 +35,10 @@ style.setCustom("d-mmm-yy");
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - تاريخ الإنشاء Cell**
+## **أباتشي بوي أس (HSSF + XSSF) - إنشاء خلية التاريخ**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -86,17 +87,17 @@ cell.setCellValue(Calendar.getInstance());
 cell.setCellStyle(cellStyle);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تنزيل أمثلة تشغيل لـ**تاريخ الإنشاء Cell في Aspose.Cells و Apache POI** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل امثلة التشغيل لـ **إنشاء خلية تاريخ في أسبوز.سيلز وأباتشي بوي** من أي من المواقع الاجتماعية التالية:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-## **تحميل شفرة المصدر**
- تنزيل الكود المصدري لـ**تاريخ الإنشاء Cell في Aspose.Cells و Apache POI** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
+## **تحميل مصدر الكود**
+تنزيل رمز المصدر لـ **إنشاء خلية تاريخ في أسبوز.سيلز وأباتشي بوي** من أي من المواقع الاجتماعية التالية:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إضافة البيانات إلى Cells](/cells/ar/java/add-data-in-cells/).
+لمزيد من التفاصيل، قم بزيارة [إضافة بيانات إلى الخلايا](/cells/ar/java/add-data-in-cells/).
 
 {{% /alert %}}

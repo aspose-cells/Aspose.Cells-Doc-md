@@ -1,11 +1,12 @@
 ---
-title: Daten suchen oder suchen
+title: Daten finden oder suchen
 type: docs
 weight: 80
 url: /de/cpp/find-or-search-data/
 ---
-##  **Daten suchen oder suchen**
-Mit der folgenden Methode können Sie Aspose.Cells verwenden, um Daten auf verschiedene Weise zu finden oder zu durchsuchen.
+
+## **Daten suchen oder suchen**
+Sie können Aspose.Cells verwenden, um Daten auf verschiedene Weise mithilfe der folgenden Methode zu finden oder zu suchen.
 
 - [GetEnumerator](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getenumerator/)
 - [GetFormula](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getformula/)
@@ -17,19 +18,19 @@ Mit der folgenden Methode können Sie Aspose.Cells verwenden, um Daten auf versc
 - [GetDoubleValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetDoubleValue/)
 - [GetFloatValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetFloatValue/)
 
- Sicht[mehr](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) Methoden.
+Zeigen Sie [mehr](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) Methoden.
 
- Der folgende Beispielcode veranschaulicht die Verwendung der oben genannten Methoden mithilfe von[Beispiel-Excel-Datei](21266434.xlsx) wie in diesem Screenshot gezeigt.
+Der folgende Beispielcode veranschaulicht die Verwendung der obigen Methoden unter Verwendung der [Beispieldatei](21266434.xlsx), wie in diesem Screenshot dargestellt.
 
 ![todo:image_alt_text](find-or-search-data_1.png)
-##  **Beispielcode**
+## **Beispielcode**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-FindOrSearchData-new.cpp" >}}
-##  **Konsolenausgabe**
- Dies ist die Konsolenausgabe des obigen Beispielcodes, wenn er mit dem angegebenen ausgeführt wird[Beispiel-Excel-Datei](21266434.xlsx).
+## **Konsolenausgabe**
+Dies ist die Konsolenausgabe des obigen Beispielcodes bei Ausführung mit der angegebenen [Beispieldatei](21266434.xlsx).
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Name of the cell containing formula =SUM(A5:A10): C6
 Name of the cell containing the formula that contains CHA: C7

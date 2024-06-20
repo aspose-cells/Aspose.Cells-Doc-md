@@ -1,15 +1,16 @@
-﻿---
-title: تحويل Excel إلى HTML بالعناوين
+---
+title: تحويل Excel إلى HTML مع العناوين
 type: docs
 weight: 10
 url: /ar/java/convert-excel-to-html-with-headings/
 ---
-## **تحويل Excel إلى HTML بالعناوين**
 
-يوفر Aspose.Cells خيار تصدير العناوين أثناء تحويل Excel إلى HTML. لهذا ، يمكنك تعيين[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings) ملكية ل**حقيقي**. القيمة الافتراضية لـ[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings)الملكية**خاطئة**. توضح الصورة التالية ملف الإخراج الذي تم إنشاؤه بواسطة الكود التالي.
+## **تحويل Excel إلى HTML مع عناوين**
 
-![ما يجب القيام به: image_بديل_نص](convert-excel-to-html-with-headings_1.jpg)
+توفر Aspose.Cells الخيار لتصدير التصريحات أثناء تحويل ملف إكسل إلى HTML. لهذا، يمكنك تعيين خاصية [**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings) إلى **true**. قيمة افتراضية للخاصية [**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings) هي **false**. تُظهر الصورة التالية الملف الخرجي الذي تم إنشاؤه بواسطة الشيفرة التالية.
 
-## **عينة من الرموز**
+![todo:image_alt_text](convert-excel-to-html-with-headings_1.jpg)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-PrintHeadings-1.java" >}}

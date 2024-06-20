@@ -1,40 +1,41 @@
-﻿---
-title: Mini Grafikleri ve Ayarları 3B Formatını Kullanma
+---
+title: Sparklines ve 3D Format Ayarlarını Kullanma
 type: docs
 weight: 40
 url: /tr/net/using-sparklines-and-settings-3d-format/
 ---
-## **Mini Grafikleri Kullanma**
-Microsoft Excel 2010, bilgileri her zamankinden daha fazla yöntemle analiz edebilir. Kullanıcıların, yeni veri analizi ve görselleştirme araçlarıyla önemli veri trendlerini izlemesine ve vurgulamasına olanak tanır. Mini grafikler, verileri ve grafiği aynı tabloda görüntüleyebilmeniz için hücrelerin içine yerleştirebileceğiniz mini grafiklerdir. Küçük grafikler düzgün kullanıldığında, veri analizi daha hızlı ve isabetlidir. Ayrıca, birçok meşgul çizelge içeren aşırı kalabalık çalışma sayfalarından kaçınarak basit bir bilgi görünümü sağlarlar.
 
-Aspose.Cells, elektronik tablolardaki mini grafikleri işlemek için bir API sağlar.
-### **Microsoft Excel'deki Mini Grafikler**
-Microsoft Excel 2010'da minik grafikler eklemek için:
+## **Sparklines Kullanma**
+Microsoft Excel 2010, bilgileri daha önce hiç olmadığı kadar fazla şekilde analiz etmenizi sağlar. Kullanıcıların yeni veri analiz ve görselleştirme araçlarıyla önemli veri eğilimlerini takip etmesine ve vurgulamasına izin verir. Sparklines, veriyi ve tabloyu aynı anda görüntüleyebileceğiniz mini grafiklerdir. Sparklines uygun şekilde kullanıldığında, veri analizi daha hızlı ve daha anlaşılır olur. Ayrıca, aşırı kalabalık çalışma tablolarını çok fazla meşgul grafiklerle önler. Onlar, aynı tabloda veriyi görmek için basit bir görünüm sağlar. Ayrıca, Aspose.Cells, elektronik tablolardaki sparklines'ı manipüle etmek için bir API sağlar.
 
-1. Mini grafiklerin görünmesini istediğiniz hücreleri seçin. Görüntülenmelerini kolaylaştırmak için verilerin yan tarafındaki hücreleri seçin.
-1.  Tıklamak**Sokmak** şeritte ve ardından seçin**kolon** içinde**mini grafikler** grup.
-1. Çalışma sayfasında kaynak verileri içeren hücre aralığını seçin veya girin. Grafikler görünecektir.
+Aspose.Cells, elektronik tablolardaki sparklines'ları manipüle etmek için bir API sağlar.
+### **Microsoft Excel'de Sparklines Kullanma**
+Microsoft Excel 2010'da Sparklines eklemek için:
 
-Mini grafikler, trendleri görmenize yardımcı olur, örneğin bir softbol liginin galibiyet veya mağlubiyet rekoru. Mini grafikler, ligdeki her takımın tüm sezonunu bile özetleyebilir.
-### **Aspose.Cells kullanan mini grafikler**
- Geliştiriciler, Aspose.Cells tarafından sağlanan API'i kullanarak mini grafikler oluşturabilir, silebilir veya okuyabilir (şablon dosyasında). Mini grafikleri yöneten sınıflar,[Aspose.Cells.Charts](https://reference.aspose.com/cells/net/aspose.cells.charts)bu nedenle, bu özellikleri kullanmadan önce bu ad alanını içe aktarmanız gerekir.
+1. Sparklines'ların görünmesini istediğiniz hücreleri seçin. Onları görüntülemeyi kolaylaştırmak için, verinin yanındaki hücreleri seçin.
+1. Menü şeridinde **Ekle**'yi tıklayın, ardından **Sparklines** grubunda **Sütun**'u seçin.
+1. Kaynak verinin bulunduğu çalışma sayfasındaki hücre aralığını seçin veya girin. Grafikler görünecektir.
 
-Geliştiriciler, belirli bir veri aralığı için özel grafikler ekleyerek, seçilen hücre alanlarına farklı türde küçük grafikler ekleme özgürlüğüne sahip olur.
+Sparklines, örneğin, bir bayan voleybol ligi için kazanma veya kaybetme kaydını görmek için size yardımcı olur. Sparklines, ligdeki her takımın tüm sezonlarının toplamını dahi verebilir.
+### **Aspose.Cells, kullanıcıların verilen veri aralığı için özel grafikleri ekleyerek seçilen hücre alanlarına farklı tipte minik grafikler ekleyebilecekleri özgürlüğü sunar.**
+Geliştiriciler, Aspose.Cells tarafından sağlanan API'yı kullanarak (şablon dosyasında) sparklines oluşturabilir, silebilir veya okuyabilir. Sparklines'ları yöneten sınıflar [Aspose.Cells.Charts](https://reference.aspose.com/cells/net/aspose.cells.charts) ad alanında bulunduğundan, bu özellikleri kullanmadan önce bu ad alanını içe aktarmanız gerekmektedir.
 
-Aşağıdaki örnek Mini Grafikler özelliğini göstermektedir. Örnek, aşağıdakilerin nasıl yapılacağını gösterir:
+Belirli bir veri aralığı için özel grafikler ekleyerek, geliştiriciler seçili hücre alanlarına farklı türde küçük grafikler eklemek özgürlüğüne sahiptir.
 
-1. Basit bir şablon dosyası açın.
-1. Bir çalışma sayfası için mini grafik bilgilerini okuyun.
-1. Belirli bir veri aralığı için bir hücre alanına yeni mini grafikler ekleyin.
+Aşağıdaki örnek, Sparklines özelliğini sergiler. Örnek, şunları gösterir:
+
+1. Basit bir şablon dosyasını açın.
+1. Bir çalışma sayfası için sparklines bilgilerini okuyun.
+1. Belirli bir veri aralığı için yeni sparklines ekleyin.
 1. Excel dosyasını diske kaydedin.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-UsingSparklines-1.cs" >}}
-## **3D Formatını Ayarlama**
-Yalnızca senaryonuz için sonuçları alabilmek için 3B grafik stillerine ihtiyacınız olabilir. Aspose.Cells, Microsoft Excel 2007 3B biçimlendirmesini uygulamak için ilgili API'i sağlar.
+## **3B Formatını Ayarlama**
+Senaryonuz için sadece sonuçları alabilirsiniz, bu nedenle 3B grafik stillerine ihtiyacınız olabilir. Aspose.Cells, Microsoft Excel 2007 3B biçimlendirmesini uygulamak için ilgili API'yi sağlar.
 
-Bir grafiğin nasıl oluşturulacağını ve Microsoft Excel 2007 3B biçimlendirmesinin nasıl uygulanacağını gösteren eksiksiz bir örnek aşağıda verilmiştir. Örnek kodu çalıştırdıktan sonra, çalışma sayfasına bir sütun grafiği (3B efektli) eklenecektir.
+Aşağıda, bir grafik oluşturmayı ve Microsoft Excel 2007 3B biçimlendirmesini uygulamayı sergilemek için tam bir örnek verilmiştir. Örnek kodu çalıştırdıktan sonra bir sütun grafiği (3B efektleri ile) çalışma sayfasına eklenecektir.
 
 
 

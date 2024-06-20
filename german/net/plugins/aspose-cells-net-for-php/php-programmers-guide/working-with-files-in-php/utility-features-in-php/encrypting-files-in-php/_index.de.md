@@ -1,15 +1,16 @@
-﻿---
+---
 title: Verschlüsseln von Dateien in PHP
 type: docs
 weight: 10
 url: /de/net/encrypting-files-in-php/
 ---
-## **Aspose.Cells – Excel-Dateien verschlüsseln**
+
+## **Aspose.Cells - Excel-Dateien verschlüsseln**
 Verschlüsseln einer Microsoft Excel-Datei
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -40,7 +41,7 @@ Verschlüsseln einer Microsoft Excel-Datei
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Dateien verschlüsseln (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Dateien verschlüsseln (Aspose.Cells)** von einer der unten genannten sozialen Codierungsseiten herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)

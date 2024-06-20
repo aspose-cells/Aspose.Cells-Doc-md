@@ -1,24 +1,25 @@
-﻿---
-title: Geben Sie an, wie die Zeichenfolge in Ausgabe PDF und Bild gekreuzt werden soll
+---
+title: Angabe, wie Zeichen in der Ausgabedatei PDF und Bild gekreuzt werden sollen
 type: docs
 weight: 120
 url: /de/net/specify-how-to-cross-string-in-output-pdf-and-image/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn eine Zelle Text oder eine Zeichenfolge enthält, aber größer als die Breite der Zelle ist, läuft die Zeichenfolge über, wenn die nächste Zelle in der nächsten Spalte null oder leer ist. Wenn Sie Ihre Excel-Datei in PDF/Image speichern, können Sie diesen Überlauf steuern, indem Sie den Kreuztyp mit angeben[**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype)Aufzählung. Es hat die folgenden Werte
+## **Mögliche Verwendungsszenarien**
 
-- **TextCrossType.Default**: Text wie MS Excel anzeigen, der von der nächsten Zelle abhängt. Wenn die nächste Zelle null ist, kreuzt sich die Zeichenfolge oder sie wird abgeschnitten.
+Wenn eine Zelle Text oder einen String enthält, der breiter ist als die Breite der Zelle, dann überläuft der String, wenn die nächste Zelle in der nächsten Spalte leer ist. Wenn Sie Ihre Excel-Datei in PDF/Bild speichern, können Sie dieses Überlaufen kontrollieren, indem Sie den Kreuztyp mithilfe der Aufzählung [**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype) angeben. Es hat die folgenden Werte
 
-- **TextCrossType.CrossKeep**: Zeigen Sie die Zeichenfolge wie MS Excel beim Exportieren von PDF/Image an
+- **TextCrossType.Default**: Zeige den Text wie in MS Excel, der von der nächsten Zelle abhängt. Wenn die nächste Zelle leer ist, überquert der String oder er wird abgeschnitten.
 
-- **TextCrossType.CrossOverride**: Zeigen Sie den gesamten Text an, indem Sie andere Zellen kreuzen, und überschreiben Sie den Text von gekreuzten Zellen
+- **TextCrossType.CrossKeep**: Zeigen Sie den String wie beim Exportieren von PDF/Bildern aus MS Excel an
 
-- **TextCrossType.StrictInCell**: Zeigen Sie die Zeichenfolge nur innerhalb der Breite der Zelle an.
+- **TextCrossType.CrossOverride**: Zeige den gesamten Text an, indem andere Zellen überquert und der Text von überquerten Zellen überschrieben wird
 
-## **Geben Sie an, wie die Zeichenfolge in der Ausgabe PDF/Image mit TextCrossType gekreuzt werden soll**
+- **TextCrossType.StrictInCell**: Zeige nur den String innerhalb der Breite der Zelle an.
 
-Der folgende Beispielcode lädt die Beispiel-Excel-Datei und speichert sie im Format PDF/Image, indem er different[**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype). Die Excel-Beispieldatei und die Ausgabedateien können über die folgenden Links heruntergeladen werden:
+## **Angabe, wie Zeichen in der Ausgabedatei PDF/Bild mithilfe von TextCrossType überquert werden sollen**
+
+Der folgende Beispielcode lädt die Beispiel-Excel-Datei und speichert sie im PDF/Bildformat, indem verschiedene [**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype) angegeben werden. Die Beispiel-Excel-Datei und die Ausgabedateien können von den folgenden Links heruntergeladen werden:
 
 [sampleCrossType.xlsx](81920905.xlsx)
 

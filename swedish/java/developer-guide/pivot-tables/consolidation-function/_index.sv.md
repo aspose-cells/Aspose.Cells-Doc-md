@@ -1,36 +1,37 @@
-﻿---
+---
 title: Konsolideringsfunktion
 type: docs
 weight: 20
 url: /sv/java/consolidation-function/
-description: Använd ConsolidationFunction på datafälten i pivottabellen.
+description: Tillämpa konsolideringsfunktion på datapositioner i pivot tabellen.
 ---
+
 ## **Konsolideringsfunktion**
 
- Aspose.Cells kan användas för att tillämpa ConsolidationFunction på datafält (eller värdefält) i pivottabellen. I Microsoft Excel kan du högerklicka på värdefältet och sedan välja**Inställningar för värdefält...** och välj sedan fliken**Sammanfatta värden efter**. Därifrån kan du välja valfri konsolideringsfunktion som Summa, Antal, Genomsnitt, Max, Min, Produkt, Distinkt antal, etc.
+Aspose.Cells kan användas för att tillämpa konsolideringsfunktion på datafält (eller värdefält) i pivottabellen. I Microsoft Excel kan du högerklicka på värdefältet och sedan välja **Värdefältsinställningar...** alternativet och sedan välja fliken **Sammanfatta värden med**. Där kan du välja valfri konsolideringsfunktion som Summa, Antal, Medel, Max, Min, Produkt, Distinkt antal, etc.
 
- Aspose.Cells tillhandahåller[**Konsolideringsfunktion**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) uppräkning för att stödja följande konsolideringsfunktioner.
+Aspose.Cells tillhandahåller uppräkning för att stödja följande konsolideringsfunktioner.
 
 - ConsolidationFunction.SUM
 - ConsolidationFunction.COUNT
 - ConsolidationFunction.AVERAGE
 - ConsolidationFunction.MAX
-- Consolidation Function.MIN
+- ConsolidationFunction.MIN
 - ConsolidationFunction.PRODUCT
-- Consolidation Function.COUNT_NUMS
+- ConsolidationFunction.COUNT_NUMS
 - ConsolidationFunction.STD_DEV
 - ConsolidationFunction.STD_DEVP
 - ConsolidationFunction.VAR
 - ConsolidationFunction.VARP
 - ConsolidationFunction.DISTINCT_COUNT
 
-### **Tillämpa ConsolidationFunction på datafält i pivottabellen**
+### **Tillämpning av ConsolidationFunction på datavärderna i pivottabellen**
 
- Följande kod gäller**MEDEL** konsolideringsfunktion till det första datafältet (eller värdefältet) och**STD_DEV** konsolideringsfunktion till det andra datafältet (eller värdefältet).
+Följande kod tillämpar konsolideringsfunktionen **MEDEL** på den första datapositionen (eller värdepsitionen) och **STD_AVVIK** konsolideringsfunktion på den andra datapositionen (eller värdepsitionen).
 
-Exempel på källfil och utdatafiler kan laddas ner härifrån för att testa exempelkoden:
+Provfil och utdatafiler kan laddas ner här för att testa provkoden:
 
-[Excel-källfil](source.xlsx)
+[Käll-Excel-fil](source.xlsx)
 
 [Utdata Excel-fil](output.xlsx)
 
@@ -38,7 +39,7 @@ Exempel på källfil och utdatafiler kan laddas ner härifrån för att testa ex
 
 {{% alert color="primary" %}}
 
-DistinctCount-konsolideringsfunktionen stöds endast av Microsoft Excel 2013.
+Distinkt antal konsolideringsfunktionen stöds endast av Microsoft Excel 2013.
 
 {{% /alert %}}
 

@@ -1,27 +1,28 @@
-﻿---
-title: Lägg till gruppfunktion i Aspose.Cells for Reporting Services Klient
+---
+title: Lägg till gruppfunktion i Aspose.Cells for Reporting Services klienten
 type: docs
 weight: 120
 url: /sv/reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/
 ---
-Den ställer in gruppattributen för tabellrapportobjektet genom Ändra attribut. Parametrarna inkluderar Typ, Namn, Nivå och Hide.
 
-- Typ representerar grupptyp. Det inkluderar Row Group och Column Group.
+Det ställer in gruppens attribut för tabellrapportdelen genom att ändra attribut. Parametrarna inkluderar typ, namn, nivå och dölj.
+
+- Typ representerar gruppens typ. Det inkluderar radgrupp och kolumngrupp.
 - Namn representerar gruppnamn.
 - Nivå representerar gruppnivå.
-- Dölj representerar gruppdölj.
+- Dölj representerar dölj grupp.
 
-Att ändra rapporten innebär följande steg:
-Öppna dialogrutan "Ändra rapport" och välj fliken Kontur.
+Att ändra rapport innebär följande steg:
+Öppna dialogrutan "Ändra rapport" och välj kontur-fliken.
 
 ![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
 
 
- Klick**Ändra** knappen och uppdatera Dölj konfiguration.
+Klicka på **Ändra**-knappen och uppdatera döljkonfigurationen. 
 
 ![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
 
 
- Klick**Begå** knappen och spara dölj konfigurationer.
+Klicka på **Bekräfta**-knappen och spara döljkonfigurationer. 
 
 ![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)

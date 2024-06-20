@@ -1,28 +1,29 @@
 ---
-title: Определение успешности загрузки лицензии
+title: Определение успешной загрузки лицензии
 type: docs
 weight: 260
 url: /ru/net/determining-if-the-license-is-loaded-successfully/
-description: Узнайте, как определить, успешно ли загружена лицензия, с помощью API Aspose.Cells для NET.
-keywords: How to Detect if the License is loaded successfully in C#, Determine if the License is loaded successfully using C#, Check if the License is loaded successfully via C#, check the status of license.
+description: Узнайте, как определить успешную загрузку лицензии через API Aspose.Cells for NET.
+keywords: Как определить успешную загрузку лицензии в C#, Определение успешной загрузки лицензии с помощью C#, Проверка успешной загрузки лицензии через C#, проверка статуса лицензии.
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells обеспечивает[**Рабочая книга.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) свойство, которое вы можете использовать, чтобы определить, успешно ли загружена лицензия. Если вы получите доступ к этому свойству до установки лицензии, оно вернется**ЛОЖЬ** и если вы вызовете это свойство после установки лицензии, оно вернется**истинный** указывая, что лицензия успешно загружена.
+Aspose.Cells предоставляет свойство [**Workbook.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed), которое можно использовать для определения успешной загрузки лицензии. Если вы обратитесь к этому свойству до установки лицензии, оно вернет **false**, а если вы вызовете это свойство после установки лицензии, оно вернет **true**, что указывает на успешную загрузку лицензии.
 
 {{% /alert %}}
 
-##  Код C#, чтобы определить, успешно ли загружена лицензия.
+## Код на C#, чтобы определить успешную загрузку лицензии
 
- Следующий код обращается к[**Рабочая книга.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed)перед установкой лицензии и возвращает *false**. Затем он загружает лицензию и снова обращается к свойству, которое теперь возвращает *true**.
+Следующий код обращается к свойству [**Workbook.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) до установки лицензии и возвращает **false**. Затем он загружает лицензию, снова обращается к свойству, которое теперь возвращает **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DeterminingLicenseLoading-DeterminingLicenseLoading.cs" >}}
 
-##  **Консольный вывод**
+## **Вывод в консоль**
 
-Вот консольный (отладочный) вывод приведенного выше примера кода.
+Вот отладочный вывод примерного кода
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 False
 

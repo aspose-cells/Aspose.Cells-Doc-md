@@ -1,33 +1,34 @@
-﻿---
-title: Aspose.Cells Schablone und intelligente Marker
+---
+title: Aspose.Cells Vorlage und Smart Marker
 type: docs
 weight: 30
 url: /de/reportingservices/aspose-cells-template-and-smart-markers/
 ---
+
 {{% alert color="primary" %}} 
 
- Eine Aspose.Cells-Vorlage ist eine Microsoft-Excel-Arbeitsmappe, die Smart Marker enthält. Intelligente Markierungen fungieren als Datenplatzhalter für Berichtselemente und werden beim Rendern durch die entsprechenden Daten ersetzt. Es gibt fünf Arten von Smart-Markern, die unten aufgeführt sind. Alle Marker können per Aspose.Cells.Report.Designer in eine Vorlage eingefügt werden. Die können auch manuell bearbeitet werden.
+Eine Aspose.Cells-Vorlage ist eine Microsoft Excel-Arbeitsmappe, die Smart-Marker enthält. Smart-Marker fungiert als Datenplatzhalter für Berichtselemente und wird zur Zeit der Ausgabe durch die entsprechenden Daten ersetzt. Es gibt fünf Arten von Smart-Markern, die unten aufgeführt sind. Alle Marker können von Aspose.Cells.Report.Designer in eine Vorlage eingefügt werden. Sie können auch manuell bearbeitet werden. 
 
 {{% /alert %}} 
-### **Intelligente Markierungen**
-#### **Datenmarkierungen**
- Das Format von**Datenmarkierungen**ist &=Datensatzname.Feldname. Beispiel: &=SalesDetail.sales wobei SalesDetail der Name eines Datensatzes oder einer Abfrage und sales der Name eines seiner Felder ist. Beim Rendern werden Datenmarkierungen durch die Werte des von Reporting Services bereitgestellten Datensatzes ersetzt.
-#### **Reporting Services-Formelmarkierungen**
- Das Format von Reporting Services'**Formeln Markierungen** ist &=Ausdruck. Beispiel: &=sum(SalesDetail.sales)/100. Der Ausdruck besteht aus Funktion, Datensatzfeldern, Operator usw. Zur Renderzeit. Reporting Services-Formelmarkierungen werden durch berechnete Werte ersetzt.
-#### **Globale Variablenmarkierungen von Reporting Services**
- Das Format von Reporting Services'**globale Variablenmarker** ist &=Global! Variablennamen. Beispiel: &=Globals!ExecutionTime wobei ExecutionTime der Name einer globalen Variablen ist. Globale Variablenmarkierungen werden zum Zeitpunkt des Renderns durch globale Variablenwerte ersetzt.
-#### **Reporting Services-Parametermarkierungen**
-Ein Berichtsparameter hat zwei Attribute: Wert und Bezeichnung. Folglich,**Parametermarkierungen** haben zwei Formate: &= Parameter! ParamName.Wert und &=Parameter! ParamName.Label. Sie geben den Namen bzw. das Label des Parameters an. Beim Rendern werden Parametermarkierungen durch die vom Benutzer eingegebenen Parameterwerte ersetzt.
+### **Smart Marker**
+#### **Datenmarker**
+Das Format von **Datenmarkern** lautet &=DataSetName.FieldName. Zum Beispiel: &=SalesDetail.sales, wobei SalesDetail der Name eines Datensatzes oder einer Abfrage und sales der Name eines seiner Felder ist. Zur Zeit der Ausgabe werden Datenmarker durch die Werte des von Reporting Services bereitgestellten Datensatzes ersetzt.
+#### **Markersätze von Reporting Services-Formeln**
+Das Format der **Formel-Marker** von Reporting Services ist &=expression. Zum Beispiel: &=sum(SalesDetail.sales)/100. Der Ausdruck besteht aus Funktionen, Datensatzfeldern, Operatoren usw. Zur Renderzeit werden die Marker für Reporting Services-Formeln durch berechnete Werte ersetzt.
+#### **Markersätze von Reporting Services-Globalvariablen**
+Das Format der **Marker für globale Variablen** von Reporting Services ist &=Globals!Variablenname. Zum Beispiel: &=Globals!ExecutionTime, wobei ExecutionTime der Name einer globalen Variablen ist. Die Marker für globale Variablen werden zur Renderzeit durch die Werte globaler Variablen ersetzt.
+#### **Markersätze von Reporting Services-Parametern**
+Ein Berichtsparameter hat zwei Attribute: Wert und Beschriftung. Dementsprechend haben **Parametermarker** zwei Formate: &= Parameters!ParamName.Value und &=Parameters!ParamName.Label. Sie geben den Namen und die Beschriftung des Parameters an. Zur Renderzeit werden die Parametermarker durch die vom Benutzer eingegebenen Parameterwerte ersetzt.
 #### **Dynamische Formeln**
- Verwenden Sie dynamische Formeln, um Berechnungen für eingefügte Zeilen durchzuführen.**Dynamische Formeln** ermöglichen Ihnen das Einfügen von Microsoft Excel-Formeln in Zellen, selbst wenn eine Formel auf Zeilen verweist, die während des Exportvorgangs eingefügt werden. Sie können für jede eingefügte Zeile wiederholt oder nur mit Zellen verwendet werden, in denen Datenmarkierungen für sie platziert sind.
+Um Berechnungen für eingefügte Zeilen durchzuführen, verwenden Sie dynamische Formeln. **Dynamische Formeln** ermöglichen es Ihnen, Microsoft Excel-Formeln in Zellen einzufügen, auch wenn eine Formel auf Zeilen verweist, die während des Exportvorgangs eingefügt werden. Sie können für jede eingefügte Zeile wiederholt oder nur mit Zellen verwendet werden, in denen Datenmarker für sie platziert sind.
 
 Das Format dynamischer Formeln ist &=&=RepeatDynamicFormula.
 
 Dynamische Formeln ermöglichen die folgenden zusätzlichen Optionen:
 
 - {r} – Aktuelle Zeilennummer.
-- {2}, {-1} – Offset zur aktuellen Zeilennummer.
+- {2}, {-1} – Versatz zur aktuellen Zeilennummer.
 
-**Eine sich wiederholende dynamische Formel und das resultierende Excel-Arbeitsblatt** 
+**Eine wiederholte dynamische Formel und das resultierende Excel-Arbeitsblatt** 
 
-![todo: Bild_alt_Text](aspose-cells-template-and-smart-markers_1.png)
+![todo:image_alt_text](aspose-cells-template-and-smart-markers_1.png)

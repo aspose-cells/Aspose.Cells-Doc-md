@@ -1,27 +1,28 @@
-﻿---
-title: إنشاء مخطط الشلال
+---
+title: إنشاء مخطط شلال المياه
 type: docs
 weight: 140
 url: /ar/java/creating-waterfall-chart/
-description: قم بإنشاء مخططات انحدارية في Excel باستخدام Java و Aspose.Cells for Java API.
-keywords: java create waterfall chart in excel, java creating waterfall chart in excel, creating waterfall chart in excel with java, create waterfall chart in excel with java, create waterfall chart in excel java, create waterfall chart excel java, create waterfall chart in excel programmatically, how to create waterfall chart in excel with java
+description: إنشاء مخططات شلال المياه في Excel باستخدام جافا وAPI Aspose.Cells for Java.
+keywords: جافا إنشاء مخطط شلال المياه في Excel، جافا إنشاء مخطط شلال المياه في Excel، إنشاء مخطط شلال المياه في Excel مع جافا، إنشاء مخطط شلال المياه في Excel مع جافا، إنشاء مخطط شلال المياه في Excel جافا، إنشاء مخطط شلال المياه Excel جافا، إنشاء مخطط شلال المياه في Excel برمجيًا، كيفية إنشاء مخطط شلال المياه في Excel باستخدام جافا
 ---
+
 {{% alert color="primary" %}}
 
-الرسم البياني الانحداري هو نوع خاص من المخططات التي تُستخدم عادةً لتوضيح كيفية زيادة أو نقصان موضع البداية. Microsoft يحتوي Excel على العديد من أنواع المخططات المحددة مسبقًا ، بما في ذلك العمود ، والخط ، والدائرة ، والشريط ، والرادار ، وما إلى ذلك ، لكن مخطط الشلال يتجاوز الرسوم البيانية الأساسية ويمكن إنشاؤه باستخدام أنواع المخططات الحالية مع تخصيص قليل أو أكثر.
+مخطط شلال المياه هو نوع خاص من المخطط يستخدم عادة لإظهار كيفية زيادة أو انخفاض الوضع الابتدائي. تحتوي Microsoft Excel على العديد من أنواع المخططات المحددة مسبقًا، بما في ذلك العمود والخط والدائري والشريطي والراداري، وما إلى ذلك، ولكن مخطط شلال المياه يتجاوز الرسوم البيانية الأساسية ويمكن إنشاؤه باستخدام أنواع المخططات الحالية مع التخصيص القليل أو الكبير.
 
 {{% /alert %}}
 
-## إنشاء مخطط شلال
+## إنشاء مخطط شلال المياه
 
- تسمح واجهات برمجة التطبيقات Aspose.Cells بإنشاء مخطط انحداري بمساعدة المخطط الخطي. يسمح API أيضًا بتخصيص مظهر المخطط لإعطائه شكل الشلال من خلال تعيين أهم الخصائص لتشكيل المخطط ، أي ؛[**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) & [**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars)الخصائص.
+تسمح APIs Aspose.Cells بإنشاء مخطط شلال المياه بمساعدة مخطط خطي. كما تسمح الواجهة البرمجية أيضًا بتخصيص مظهر المخطط لإعطائه شكل شلال عن طريق ضبط الخصائص الأكثر أهمية لتشكيل المخطط، وهي الخصائص [**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) و [**Series.DownBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars).
 
-يوضح مقتطف الكود أدناه استخدام Aspose.Cells for Java API لإنشاء مخطط انحداري من البداية.
+يوضح مقتطف الكود المقدم أدناه استخدام واجهة برمجة التطبيقات Aspose.Cells for Java لإنشاء مخطط شلال المياه من البداية.
 
-### Java لتكوين مخطط انحداري
+### كود جافا لإنشاء مخطط الشلال المائي
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateWaterfallChart-CreateWaterfallChart.java" >}}
 
 ## مقالات ذات صلة
 
-- [إنشاء الرسوم البيانية وتخصيصها](/cells/ar/java/creating-and-customizing-charts/)
+- [إنشاء وتخصيص المخططات](/cells/ar/java/creating-and-customizing-charts/)

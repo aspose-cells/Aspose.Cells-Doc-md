@@ -1,38 +1,39 @@
-﻿---
-title: PdfSaveOptions と ImageOrPrintOptions の DefaultFont プロパティを優先するように設定する
+---
+title: PdfSaveOptionsおよびImageOrPrintOptionsのDefaultFontプロパティを設定し、優先度を持たせます。
 type: docs
 weight: 30
 url: /ja/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/
 ---
-## **考えられる使用シナリオ**
 
-を設定しながら**デフォルトフォント**のプロパティ[**PDF保存オプション**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)と[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)、PDFまたは画像に保存するとそれが設定されると予想するかもしれません**デフォルトフォント**不足している (インストールされていない) フォントを持つブック内のすべてのテキストに。
+## **可能な使用シナリオ**
 
-通常、PDF またはイメージに保存する場合、Aspose.Cells は最初に Workbook のデフォルト フォントを設定しようとします (つまり、[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) ）。ワークブックの既定のフォントでもテキストを適切に表示/レンダリングできない場合、Aspose.Cells は言及されたフォントでレンダリングを試みます。**デフォルトフォント**の属性[**PDF保存オプション**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+**DefaultFont** プロパティを **[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)** および **[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)** に設定する際、インストールされていないフォントを持つワークブック内のすべてのテキストにその **DefaultFont** を設定することが期待されます。
 
-あなたの期待に応えるために、「」という名前のブール型プロパティがあります。**CheckWorkbookDefaultFont** " の[**PDF保存オプション**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) false に設定して、ワークブックの既定のフォントの試行を無効にするか、**デフォルトフォント**で設定[**PDF保存オプション**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)優先すること。
+通常、PDFや画像形式に保存する際、Aspose.Cellsはまずワークブックのデフォルトフォント（つまり、**[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)**）を設定しようとします。ワークブックのデフォルトフォントでもテキストを適切に表示/レンダリングできない場合は、**[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)**/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) の **DefaultFont** 属性で指定されたフォントでレンダリングを試みます。
 
-## **PdfSaveOptions/ImageOrPrintOptions の DefaultFont プロパティを設定します**
+あなたの期待に応えるために、[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) には "**CheckWorkbookDefaultFont**" というブール型のプロパティがあります。これをfalseに設定すると、ワークブックのデフォルトフォントを試みないようにすることができます。または、**[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)** の **DefaultFont** 設定が優先されるようにすることができます。
 
-次のサンプル コードは、Excel ファイルを開きます。 A1 セル (最初のワークシート内) には、"Christmas Time Font text" に設定されたテキストがあります。マシンにインストールされていないフォント名は「Christmas Time Personal Use」です。設定しました**デフォルトフォント**の属性[**PDF保存オプション**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)「タイムズニューローマン」へ。私たちも設定しました**CheckWorkbookDefaultFont**" へのブール値プロパティ**間違い**" これにより、A1 セルのテキストが "Times New Roman" フォントでレンダリングされ、ワークブックの既定のフォント (この場合は "Calibri") を使用しないことが保証されます。最終的に PDF ファイル形式にレンダリングされます。
+## **PdfSaveOptions/ImageOrPrintOptionsのDefaultFontプロパティを設定します**
+
+以下のサンプルコードは、Excelファイルを開きます。 A1セル（最初のワークシートの）には、"クリスマス・タイム文字"というテキストが設定されています。フォント名は、マシンにインストールされていない"Christmas Time Personal Use"です。**DefaultFont**属性を [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) に "Times New Roman" に設定します。また、**CheckWorkbookDefaultFont** ブール型プロパティを "**false**" に設定することで、A1セルのテキストが "Times New Roman" フォントでレンダリングされ、ワークブックのデフォルトフォント（この場合は"Calibri"）を使用しないことを保証します。コードは最初のワークシートをPNGおよびTIFFイメージ形式にレンダリングし、最終的にPDFファイル形式にレンダリングします。
 
 {{% alert color="primary" %}}
 
-のデフォルト値***CheckWorkbookDefaultFont***属性は**真実**.
+***CheckWorkbookDefaultFont*** 属性のデフォルト値は **true** です。
 
 {{% /alert %}}
 
-これはのスクリーンショットです[テンプレートファイル](49446914.xlsx)サンプルコードで使用されます。
+これは、例コードで使用される [テンプレートファイル](49446914.xlsx) のスクリーンショットです。
 
-![todo:画像_代替_文章](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-これは、設定後の出力 PNG 画像です。[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)「Times New Roman」へのプロパティ。
+これは、**DefaultFont** プロパティを "Times New Roman" に設定した後の出力PNGイメージです。
 
-![todo:画像_代替_文章](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-出力を見る[TIFF](out1_imageTIFF.tiff)設定後のイメージ[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)「Times New Roman」へのプロパティ。
+"Times New Roman"を[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)プロパティに設定した後の[TIFF](out1_imageTIFF.tiff)イメージを参照してください。
 
-出力を見る[PDF](out1_pdf.pdf)設定後のファイル[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont)「Times New Roman」へのプロパティ。
+"Times New Roman"を[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont) プロパティに設定した後の[PDF](out1_pdf.pdf)ファイルを参照してください。
 
 ## **サンプルコード**
 

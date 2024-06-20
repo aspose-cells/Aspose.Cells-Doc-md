@@ -1,15 +1,16 @@
-﻿---
-title: PHP で数式を計算する
+---
+title: PHP での数式の計算
 type: docs
 weight: 10
 url: /ja/net/calculating-formulas-in-php/
 ---
+
 ## **数式の計算**
 数式の計算
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -64,7 +65,7 @@ url: /ja/net/calculating-formulas-in-php/
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**数式の計算 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから**Calculating Formulas (Aspose.Cells)**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingwithFormulas/CalculatingFormulas.php)

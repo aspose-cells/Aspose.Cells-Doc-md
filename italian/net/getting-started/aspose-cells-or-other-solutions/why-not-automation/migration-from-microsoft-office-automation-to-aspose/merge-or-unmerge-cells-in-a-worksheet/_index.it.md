@@ -1,20 +1,21 @@
-﻿---
-title: Unisci o separa Cells in un foglio di lavoro
+---
+title: Unire o dividere celle in un foglio di lavoro
 type: docs
 weight: 40
 url: /it/net/merge-or-unmerge-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Mentre lavori con i fogli di lavoro, spesso devi creare un titolo/intestazione in una singola cella che si estende nella parte superiore del foglio di lavoro. Potresti creare una fattura e desiderare meno colonne per i valori totali o di riepilogo. Quando vuoi creare una cella da due o più celle, unisci le celle. Svolgiamo l'attività utilizzando VSTO e Aspose.Cells for .NET in modo indipendente.
+Mentre si lavora con i fogli di lavoro, spesso è necessario creare un titolo/intestazione in una singola cella che si estende nella parte superiore del tuo foglio di lavoro. Potresti essere in procinto di creare una fattura e desiderare un minor numero di colonne per i valori totali o di riepilogo. Quando si desidera fare una cella da due o più celle, si uniscono le celle. Svolgiamo il compito utilizzando VSTO e Aspose.Cells for .NET in modo indipendente.
 
 {{% /alert %}}
 
 ## **Descrizione**
 
-Apri un file excel esistente, unisci alcune celle nel primo foglio di lavoro nella cartella di lavoro e salva il file excel.
+Aprire un file Excel esistente, unire alcune celle nel primo foglio di lavoro nel workbook e salvare il file di Excel.
 
-## **Fusione Cells**
+## **Unione di celle**
 
 Di seguito sono riportati i frammenti di codice paralleli per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB).
 
@@ -22,7 +23,7 @@ Di seguito sono riportati i frammenti di codice paralleli per VSTO (C#, VB) e As
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -86,7 +87,7 @@ excelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -122,15 +123,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **Separare lo Cells**
+## **Annullare l'unione delle celle**
 
-Per separare le celle, utilizzare le seguenti righe di codice per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB).
+Per disunire la/e cella/e, utilizzare le seguenti righe di codice per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB).
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 
@@ -148,7 +149,7 @@ rng1.UnMerge();     
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 

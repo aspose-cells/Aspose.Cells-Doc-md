@@ -1,5 +1,5 @@
 ---
-title: 设置数据透视表选项 - 对空单元格显示
+title: 设置数据透视表选项  对空单元格显示
 type: docs
 weight: 40
 url: /zh/python-net/setting-pivot-table-option-for-empty-cells-show/

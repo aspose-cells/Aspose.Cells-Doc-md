@@ -1,29 +1,30 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.7.1
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.7.1
 type: docs
 weight: 240
 url: /de/net/public-api-changes-in-aspose-cells-8-7-1/
 ---
-{{% alert color="primary" %}} 
-
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.7.0 zu 8.7.1, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
-
-{{% /alert %}} 
-## **APIs hinzugefügt**
-### **LookInType.OriginalValues-Eigenschaft hinzugefügt**
- Aspose.Cells APIs unterstützen bereits die[Daten finden oder suchen](/cells/de/net/find-or-search-data/)Funktion für Tabellenkalkulationen, um bestimmte Inhalte in Zellenwerten und Formeln zu finden. Dieser Funktion fehlte jedoch der Aspekt der auf die Zelle angewendeten Formatierung, die das Erscheinungsbild sowie den Wert des Inhalts ändern kann und folglich den Text unter Verwendung des ursprünglichen Werts nicht durchsuchbar macht. Mit dieser Version der Aspose.Cells-APIs wurde eine weitere Konstante mit dem Namen LookInType.OriginalValues für die Öffentlichkeit API verfügbar gemacht, wodurch die oben beschriebene Situation überwunden werden kann.
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im ausführlichen Artikel unter[Daten mit Originalwerten suchen](/cells/de/net/search-data-using-original-values/)
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 8.7.0 auf 8.7.1, die für Modul-/Anwendungs-Entwickler interessant sein könnten. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte & entfernte Klassen usw., sondern auch eine Beschreibung von Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
+
+{{% /alert %}} 
+## **Hinzugefügte APIs**
+### **Added LookInType.OriginalValues-Eigenschaft**
+Aspose.Cells APIs unterstützen bereits das Feature zum Suchen von Daten in Tabellenkalkulationen, um bestimmte Inhalte in Zellwert & Formel zu finden. Dieses Feature mangelte jedoch an dem Aspekt der auf die Zelle angewendeten Formatierung, die das Erscheinungsbild sowie den Wert der Inhalte ändern kann und folglich den Text unsearchable macht, indem der Originalwert verwendet wird. Mit dieser Version der Aspose.Cells APIs wurde eine weitere Konstante namens LookInType.OriginalValues in die öffentliche API freigelegt, die es ermöglicht, die oben diskutierte Situation zu überwinden.
+
+{{% alert color="primary" %}} 
+
+Für weitere Details zu diesem Feature lesen Sie bitte den ausführlichen Artikel zu [Suchen von Daten mithilfe der Originalwerte](/cells/de/net/search-data-using-original-values/)
 
 {{% /alert %}} 
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -84,14 +85,14 @@ Console.WriteLine(foundCell);
 {{< /highlight >}}
 
 
-### **OnBeforeColumnFilter-Ereignis für GridWeb hinzugefügt**
-Aspose.Cells.GridWeb for .NET 8.7.1 hat das OnBeforeColumnFilter-Ereignis verfügbar gemacht, das als Rückruf für den Filtermechanismus dient, der über die GridWeb-Benutzeroberfläche ausgeführt wird. Wie der Name schon sagt, wird das Ereignis ausgelöst, bevor die Spaltenfilterung angewendet wird, und kann verwendet werden, um die Filterinformationen wie den Spaltenindex und den Wert, auf den der Filter angewendet werden muss, abzurufen.
+### **Hinzugefügtes OnBeforeColumnFilter-Ereignis für GridWeb**
+Aspose.Cells.GridWeb für .NET 8.7.1 hat das OnBeforeColumnFilter-Ereignis freigegeben, das als Rückrufmechanismus für den Filtermechanismus über die GridWeb-Benutzeroberfläche dient. Wie der Name schon sagt, wird das Ereignis ausgelöst, bevor die Spaltenfilterung angewendet wird, und kann verwendet werden, um die Filterinformationen wie Spaltenindex und Wert zu erhalten, auf die der Filter angewendet werden soll.
 
-Ein einfaches Nutzungsszenario sieht wie folgt aus.
+Das einfache Anwendungsszenario sieht wie folgt aus.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void GridWeb1_ColumnFilter(object sender, Aspose.Cells.GridWeb.RowColumnEventArgs e)
 
@@ -105,6 +106,6 @@ Ein einfaches Nutzungsszenario sieht wie folgt aus.
 
 {{% alert color="primary" %}} 
 
-Vergessen Sie nicht, das Ereignis im GridWeb-Steuerelement zu registrieren<acw:gridweb OnBeforeColumnFilter="GridWeb1_ColumnFilter"/>
+Do not forget to register the event to GridWeb control <acw:gridweb OnBeforeColumnFilter="GridWeb1_ColumnFilter"/>
 
 {{% /alert %}}

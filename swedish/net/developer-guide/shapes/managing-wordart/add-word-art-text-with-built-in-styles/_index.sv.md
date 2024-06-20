@@ -1,13 +1,14 @@
-﻿---
-title: Lägg till Word Art-text med inbyggda stilar
+---
+title: Lägg till Word Art Text med Inbyggda Stilar
 type: docs
 weight: 270
 url: /sv/net/add-word-art-text-with-built-in-styles/
 ---
-## **Möjliga användningsscenarier**
- Du kan lägga till Word Art-text med inbyggda stilar med Aspose.Cells. Använd[ShapeCollection.AddWordArt()](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addwordart)metod för detta ändamål.
-## **Lägg till Word Art-text med inbyggda stilar**
- Följande exempelkod lägger till Word Art-texter med olika inbyggda stilar. Vänligen kontrollera[output excel-fil](5115470.xlsx) genereras med denna kod. Detta är hur[output excel-fil](5115470.xlsx)ser i Microsoft Excel.
+
+## **Möjliga användningsscenario**
+Du kan lägga till Word Art Text med inbyggda stilar med hjälp av Aspose.Cells. Använd [ShapeCollection.AddWordArt()](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addwordart) metoden för detta ändamål.
+## **Lägg till Word Art Text med Inbyggda Stilar**
+Följande kodexempel lägger till Word Art-texter med olika inbyggda stilar. Vänligen kontrollera [output excel-filen](5115470.xlsx) som genererats med denna kod. Så här ser [output excel-filen](5115470.xlsx) ut i Microsoft Excel.
 
 ![todo:image_alt_text](add-word-art-text-with-built-in-styles_1.png)
 

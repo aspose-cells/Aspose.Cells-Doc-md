@@ -1,15 +1,16 @@
-﻿---
-title: Объединить Cells
+---
+title: Объединить ячейки
 type: docs
 weight: 60
 url: /ru/java/merge-cells/
 ---
-## **Aspose.Cells - Объединение Cells**
-Класс Cells имеет несколько полезных методов для этой задачи. Например, метод слияния объединяет ячейки в одну ячейку в пределах указанного диапазона ячеек.
+
+## **Aspose.Cells - Объединить ячейки**
+У класса Cells есть несколько полезных методов для этой задачи. Например, метод merge объединяет ячейки в одну ячейку в указанном диапазоне ячеек.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a Workbook.
 
@@ -36,12 +37,12 @@ worksheet.getCells().get(5,2).setValue("This is a test of merging");
 wbk.save(dataDir + "merge_Aspose.xls");
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF XSSF — слияние Cells**
-Sheet.addMergedRegion можно использовать для слияния Cells.
+## **Apache POI SS - HSSF XSSF - Объединение ячеек**
+Для объединения ячеек можно использовать метод Sheet.addMergedRegion.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -66,13 +67,13 @@ sheet.addMergedRegion(new CellRangeAddress(
 ));
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/mergecells)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/mergecells)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Слияние и разделение (разделение) Cells](/cells/ru/java/merging-and-unmerging-cells).
+Для получения дополнительной информации посетите [Объединение и разъединение (разбиение) ячеек](/cells/ru/java/merging-and-unmerging-cells).
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
-﻿---
-title: Formülleri dinamik olarak hesaplayın veya yeniden hesaplayın
+---
+title: Formülleri Dinamik Olarak Hesaplayın veya Yeniden Hesaplayın
 type: docs
 weight: 10
 url: /tr/net/calculate-or-recalculate-formulas-dynamically/
 ---
-**formül hesaplama** motor gömülü**Aspose.Cells**. Yalnızca tasarımcı dosyasından içe aktarılan formülü yeniden hesaplamakla kalmaz, aynı zamanda çalışma zamanında eklenen formüllerin sonuçlarını hesaplamayı da destekler.
-## **Formül Ekleme ve Sonuçları Hesaplama**
-Aspose.Cells, Microsoft Excel'in parçası olan formüllerin veya işlevlerin çoğunu destekler. Geliştiriciler, bu formülleri API veya Tasarımcı Elektronik Tablolarını kullanarak kullanabilir. Aspose.Excel, çok sayıda Matematiksel, Dize, Boolean, Tarih/Saat, İstatistiksel, Veritabanı, Arama ve Referans formüllerini destekler.
 
-Bir hücreye formül eklemek için Cell sınıfının Formula özelliğini kullanın. Bir hücreye formül uygularken, Microsoft Excel'de formül oluştururken yaptığınız gibi dizeye her zaman eşittir işaretiyle (=) başlayın. İşlev parametrelerini ayırmak için virgül (,) kullanın.
+**Formula Hesaplama** motoru **Aspose.Cells** içine gömülüdür. Sadece tasarımcı dosyasından alınan formülleri yeniden hesaplamakla kalmaz, aynı zamanda çalışma zamanında eklenen formüllerin sonuçlarını hesaplama desteği de sunar.
+## **Formüller Ekleyin ve Sonuçlarını Hesaplayın**
+Aspose.Cells, Microsoft Excel'in büyük bir kısmını oluşturan formülleri veya işlevleri destekler. Geliştiriciler, bu formülleri API veya Tasarımcı Elektronik Tablolar kullanarak kullanabilirler. Aspose.Excel, Matematik, Dize, Boolean, Tarih/Saat, İstatistiksel, Veritabanı, Arama ve Referans formüllerinin geniş bir setini destekler.
 
- Formüllerin sonuçlarını hesaplamak için Excel sınıfının bir Excel dosyasına katıştırılmış tüm formülleri işleyen CalculateFormula yöntemini çağırın. Okumak[url:CalculateFormula yöntemi tarafından desteklenen işlevlerin listesi](/cells/tr/net/supported-formula-functions/).
+Hücre sınıfının Formula özelliğini kullanarak bir hücreye formül eklemek için kullanın. Bir hücreye formül uygularken, her zaman bir Microsoft Excel formülü oluştururken olduğu gibi eşittir işareti (=) ile başlayın. Bir virgül (,) işlev parametrelerini ayırmak için kullanın.
 
-{{< highlight "csharp" >}}
+Formüllerin sonuçlarını hesaplamak için Excel sınıfının CalculateFormula yöntemini çağırın, bu işlemle bir Excel dosyasına gömülü tüm formülleri işler. [url:CalculateFormula yöntemi tarafından desteklenen fonksiyonların listesi](/cells/tr/net/supported-formula-functions/)ni okuyun.
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -55,15 +56,15 @@ string value = worksheet.Cells["A4"].Value.ToString();
 workbook.Save("Adding Formula.xls");
 
 {{< /highlight >}}
-## **Formülleri Yalnızca Bir Kez Hesaplama**
-Kullanıcı, çalışma kitabı şablonu içindeki formüllerin değerlerini hesaplamak için Workbook.CalculateFormula() öğesini çağırdığında, Aspose.Cells bir hesaplama zinciri oluşturur. Formüller ikinci, üçüncü kez vb. hesaplandığında performansı artırır.
-Bununla birlikte, kullanıcı şablonu çok sayıda farklı formül içeriyorsa, ilk kez formül hesaplaması çok fazla CPU işlem süresi ve bellek tüketebilir.
+## **Formülleri Yalnızca Bir Kez Hesaplayın**
+Kullanıcı, Workbook.CalculateFormula() yöntemini çağırdığında, Aspose.Cells, bir hesaplama zinciri oluşturur. Formüller ikinci veya üçüncü kez hesaplandığında performansı artırır.
+Ancak, kullanıcı şablonu çok çeşitli formüller içeriyorsa, formül hesaplamanın ilk kez CPU işlem süresi ve bellek kullanımı çok fazla olabilir.
 
-Aspose.Cells, dosyanızın formüllerini yalnızca bir kez hesaplamak istediğiniz senaryolarda yararlı olan hesaplama zinciri oluşturmayı kapatmanıza olanak tanır.
+Aspose.Cells, sadece dosyanızın formüllerini bir kez hesaplamak istediğiniz senaryolarda hesaplama zinciri oluşturmayı devre dışı bırakmanıza olanak tanır.
 
- Aspose.Cells ile formül hesaplamalarının performansını artırmak istiyor ve formül hesaplama zinciri oluşturmak istemiyorsanız, lütfen**FormulaSettings.EnableCalculationChain** olarak**YANLIŞ** . Varsayılan olarak, şu şekilde ayarlanmıştır:**doğru**.
+Aspose.Cells formül hesaplamalarının performansını iyileştirmeyi ve formül hesaplama zinciri oluşturmak istemiyorsanız, lütfen **FormulaSettings.EnableCalculationChain** özelliğini **false** olarak ayarlayın. Varsayılan olarak bu **true** olarak ayarlıdır.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -93,12 +94,12 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 ## **Formülün Doğrudan Hesaplanması**
-Formül hesaplama motoru Aspose.Cells içine gömülüdür. Ayrıca, tasarımcı dosyasından içe aktarılan formülün yeniden hesaplanmasının yanı sıra, Aspose.Cells, formül sonuçlarının doğrudan hesaplanmasını da destekler.
-Bazen formül sonuçlarını bir çalışma sayfasına eklemeden doğrudan hesaplamanız gerekir. Formülde kullanılan hücrelerin değerleri bir çalışma sayfasında zaten var ve ihtiyacınız olan tek şey, formülü bir çalışma sayfasına eklemeden bazı Ms-Excel formüllerine dayalı olarak bu değerlerin sonucunu bulmak.
+Aspose.Cells'e gömülü formül hesaplama motoru. Tasarımcı dosyasından alınan formülü yeniden hesaplamakla kalmaz, aynı zamanda formül sonuçlarını doğrudan hesaplama desteği de sunar.
+Bazı durumlarda, hücrelerin değerleri zaten bir elektronik tabloda mevcut olup bir Ms-Excel formülüne dayalı olarak bu değerlerin sonucunu bulmak istersiniz, fakat formülü elektronik tabloya eklemek zorunda değilsiniz. Bu tür formüllerin sonuçlarını hesaplamak için Aspose.Cells Formula Calculation Engine API'sini yani  **worksheet.Calculate(string formula)** kullanabilirsiniz.
 
- Aspose.Cells Formül Hesaplama Motorunu kullanabilirsiniz API yani**worksheet.Calculate(dize formülü)**bu tür formüllerin sonuçlarını çalışma sayfasına fiilen eklemeden hesaplamak için.
+Aspose.Cells Formül Hesaplama Motoru API'sini, yani **worksheet.Calculate(string formül)**'ü bu tür formüllerin sonuçlarını çalışsayfaya gerçekten eklemeksizin hesaplamak için kullanabilirsiniz.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook
 
@@ -139,6 +140,6 @@ Debug.WriteLine("Result of Sum(A1:A2): " + results.ToString());
 workbook.Save("Calulate Any Formulae.xls");
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip)

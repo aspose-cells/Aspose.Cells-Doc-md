@@ -3,34 +3,35 @@ title: HTMLをPDFに変換する方法
 type: docs
 weight: 80
 url: /ja/python-net/convert-html-to-pdf/
-description: このトピックでは、NET 経由で Aspose.Cells for Python を使用して、HTML を PDF 保存形式に、および MHTML から PDF 保存形式に変換する方法を示します。
-keywords: convert HTML to PDF saveformat and MHTML to PDF saveformat.
+description: Aspose.Cells for Python via NET を使用して、HTML を PDF 保存形式および MHTML を PDF 保存形式に変換する方法を示すトピック。
+keywords: HTML を PDF 保存形式および MHTML を PDF 保存形式に変換する。
 ---
-##  **概要**
-<b>Aspose.Cells for Python 経由 NET</b>は、Web ページから PDF ファイルを生成したり、アプリケーションで生の HTML コードを生成したりできるプロフェッショナルなソリューションです。
 
-この記事ではその方法について説明します<b>HTML を PDF に変換します</b>。以下のトピックについて説明します。
+## **概要**
+<b>Aspose.Cells for Python via NET</b> is a professional solution that allows you to generate PDF files from web pages and raw HTML code in your applications. 
+
+This article explains how to <b>HTMLをPDFに変換する</b>. It covers the following topics.
 
 <ul>
-<li><a href="#python-convert-html-to-pdf">Python via NET HTML ～ PDF</a></li>
-<li><a href="#python-convert-html-to-pdf">Python via NET HTML を PDF に変換</a></li>
-<li><a href="#python-convert-html-to-pdf">Python via NET HTML を PDF に変換する方法</a></li>
+<li><a href="#python-convert-html-to-pdf">Python via NET で HTML を PDF に</a></li>
+<li><a href="#python-convert-html-to-pdf">Python via NET で HTML を PDF に変換する</a></li>
+<li><a href="#python-convert-html-to-pdf">Python via NET で HTML を PDF に変換する方法</a></li>
 </ul>
 
-##  **HTML から PDF Python での変換**
-HTMLをPDFに変換するにはどうすればよいですか?と[Aspose.Cells for Python 経由 NET](https://pypi.org/project/aspose-cells-python/)ライブラリを使用すると、数行のコードでプログラム的に HTML を PDF に簡単に変換できます。 Aspose.Cells for Python via NET は、すべての Excel ファイルを生成、変更、変換、レンダリング、印刷できるクロスプラットフォーム アプリケーションを構築できます。
+## **Python での HTML to PDF 変換**
+[Aspose.Cells for Python via NET](https://pypi.org/project/aspose-cells-python/) ライブラリを使用して、わずか数行のコードで HTML を PDF にプログラム的に変換できます。Aspose.Cells for Python via NET は、すべての Excel ファイルを生成、変更、変換、レンダリング、印刷する能力を持つクロスプラットフォームアプリケーションを構築することができます。
 
-##  **Python HTML を PDF に変換**
-次の C# コード サンプルは、次のメソッドを使用して HTML ドキュメントを PDF に変換する方法を示しています。[Aspose.Cells for Python 経由 NET](https://pypi.org/project/aspose-cells-python/).
+## **Python で HTML を PDF に変換する**
+次の C# コードサンプルは、[Aspose.Cells for Python via NET](https://pypi.org/project/aspose-cells-python/) を使用して HTML ドキュメントを PDF に変換する方法を示しています。
 
-1. のインスタンスを作成します。[HTMLLoadオプション](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/)クラス。
-1. 初期化する[ワークブック](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/)物体。
+1. [HtmlLoadOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/) クラスのインスタンスを作成します。
+1. [Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) オブジェクトを初期化します。
 1. Workbook.save() メソッドを呼び出して、出力 PDF ドキュメントを保存します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-save-to-pdf.py" >}}
 
-##  **オンラインで HTML を PDF に変換してみてください**
+## **オンラインでHTMLをPDFに変換してみてください**
 
-[Aspose.Cells for Python 経由 NET](https://pypi.org/project/aspose-cells-python/)オンライン無料アプリケーションをプレゼントします<a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">「HTML ～ PDF」</a>ここで、動作する機能と品質を調査してみるとよいでしょう。
+[Aspose.Cells for Python via NET](https://pypi.org/project/aspose-cells-python/) presents you online free application <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">「HTMLをPDFに」</a>, where you may try to investigate the functionality and quality it works.
 <br>
 <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf"><img src="htmltopdf.png" width=80%></a>

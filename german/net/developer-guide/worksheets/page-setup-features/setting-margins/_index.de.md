@@ -1,42 +1,43 @@
 ---
-title: Ränder festlegen
+title: Seitenränder einrichten
 type: docs
 weight: 20
 url: /de/net/setting-margins/
-description: In diesem Artikel erfahren Sie, wie Sie mithilfe von Beispielcode die Ränder eines Excel-Arbeitsblatts festlegen. Sie erfahren außerdem, wie Sie mithilfe der Bibliothek C#, API oder .NET die Ränder für die Seitenmitte sowie die Kopf- und Fußzeilenränder der Seiteneinrichtung programmgesteuert festlegen.
-keywords: set excel worksheet margin to center c#, set worksheet header and footer margin c#
+description: In diesem Artikel erfahren Sie, wie Sie die Ränder eines Excel Arbeitsblatts mithilfe von Beispielcode einrichten. Außerdem lernen Sie, wie Sie mithilfe der C# API oder der .NET Bibliothek programmgesteuert die Ränder für die Seitenmitte sowie die Kopf und Fußzeilenränder für das Seitenlayout einstellen.
+keywords: Excel Arbeitsblattrand auf Mitte einstellen C#, Arbeitsblatt Kopf und Fußzeilenrand einstellen C#
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells unterstützt die Seiteneinrichtungsoptionen von Microsoft Excel vollständig. Entwickler müssen möglicherweise Seiteneinrichtungseinstellungen für Arbeitsblätter konfigurieren, um den Druckvorgang zu steuern. In diesem Thema wird erläutert, wie Sie Aspose.Cells zum Konfigurieren von Seitenrändern verwenden.
+Aspose.Cells unterstützt vollständig die Seiteneinrichtungsoptionen von Microsoft Excel. Entwickler müssen möglicherweise die Seiteneinrichtungseinstellungen für Arbeitsblätter konfigurieren, um den Druckprozess zu steuern. Dieses Thema erläutert, wie Sie Aspose.Cells verwenden, um die Seitennränder zu konfigurieren.
 
 {{% /alert %}}
 
-##  **Ränder festlegen**
+## **Ränder einstellen**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , das eine Excel-Datei darstellt. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält die[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Klasse.
+Aspose.Cells stellt eine Klasse, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), bereit, die eine Excel-Datei darstellt. Die Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) enthält die Sammlung [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets), die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) repräsentiert.
 
- Der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet die[**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) Eigenschaft, die zum Festlegen der Seiteneinrichtungsoptionen für ein Arbeitsblatt verwendet wird. Der[**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) Attribut ist ein Objekt von[**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) Klasse, die es Entwicklern ermöglicht, verschiedene Seitenlayoutoptionen für ein gedrucktes Arbeitsblatt festzulegen. Der[**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)Die Klasse stellt verschiedene Eigenschaften und Methoden zum Festlegen von Seiteneinrichtungsoptionen bereit.
+Die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) stellt die Eigenschaft [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) bereit, die zur Festlegung der Seiteneinrichtungsoptionen für ein Arbeitsblatt verwendet wird. Das Attribut [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) ist ein Objekt der Klasse [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup), das Entwicklern ermöglicht, verschiedene Seiteneinrichtungsoptionen für ein gedrucktes Arbeitsblatt festzulegen. Die Klasse [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) stellt verschiedene Eigenschaften und Methoden zur Verfügung, um Seiteneinrichtungsoptionen festzulegen.
 
-###  **Seitenränder**
+### **Seitenränder**
 
- Legen Sie die Seitenränder fest (links, rechts, oben, unten) mit[**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup)Klassenmitglieder. Nachfolgend sind einige der Methoden aufgeführt, die zum Festlegen von Seitenrändern verwendet werden:
+Setzen Sie Seitenränder (links, rechts, oben, unten) mithilfe der Member der Klasse [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup). Im Folgenden sind einige der Methoden aufgeführt, die zur Festlegung von Seitenrändern verwendet werden:
 
 - [**LeftMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/leftmargin)
 - [**RightMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/rightmargin)
-- [**Oberer Rand**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/topmargin)
-- [**Unterer Rand**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/bottommargin)
+- [**TopMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/topmargin)
+- [**BottomMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/bottommargin)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-1.cs" >}}
 
-###  **Auf Seite zentrieren**
+### **In der Lage zu zentrieren etwas auf einer Seite horizontal und vertikal. Die Klasse {0} hat Mitglieder zu diesem Zweck: {1} und {2}.**
 
- Es ist möglich, etwas horizontal und vertikal auf einer Seite zu zentrieren. Dafür gibt es einige nützliche Mitglieder der[**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) Klasse,[**MitteHorizontal**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centerhorizontally) Und[**CenterVertically**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centervertically).
+Es ist möglich, etwas horizontal und vertikal auf einer Seite zu zentrieren. Dafür gibt es einige nützliche Member der Klasse [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup), [**CenterHorizontally**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centerhorizontally) und [**CenterVertically**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centervertically).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-CenterOnPage.cs" >}}
 
-###  **Kopf- und Fußzeilenränder**
+### **Kopf- und Fußzeilen Ränder**
 
- Legen Sie die Ränder von Kopf- und Fußzeilen mit fest[**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) Klassenmitglieder wie[**HeaderMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin) Und[**Fußzeilenrand**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin).
+Legen Sie Kopf- und Fußzeilenränder mit den Membern der Klasse [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) fest, wie beispielsweise [**HeaderMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin) und [**FooterMargin**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.cs" >}}

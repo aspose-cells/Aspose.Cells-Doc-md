@@ -1,6 +1,7 @@
-﻿---
-title: Rendu, impression et prévisualisation
+---
+title: Rendu, impression et aperçu
 type: docs
 weight: 56
 url: /fr/java/rendering/
 ---
+

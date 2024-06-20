@@ -4,26 +4,28 @@ type: docs
 weight: 220
 url: /ar/python-net/convert-csv-to-json/
 description: تحويل CSV إلى JSON باستخدام Aspose.Cells for Python via .NET API.
-keywords: Convert CVS to JSON, Convert CSV to JSON in Python via NET, Python convert CSV to JSON, Save CSV to JSON
+keywords: تحويل CVS إلى JSON، تحويل CSV إلى JSON في Python via NET، تحويل CSV إلى JSON في Python، حفظ CSV إلى JSON
 ---
-##  **تحويل CSV إلى JSON**
 
-Aspose.Cells for Python via .NET يدعم تحويل CSV إلى JSON. ولهذا يوفر API**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**و**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)** الطبقات. ال**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**توفر الفئة خيارات لتصدير النطاق إلى JSON**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**الطبقة لديها الخصائص التالية.
+## **تحويل CSV إلى JSON**
 
-- *[Export_as_string](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string/)**: يؤدي ذلك إلى تصدير قيمة سلسلة الخلايا إلى JSON.
-- *[has_header_row](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row/)**: يشير هذا إلى ما إذا كان النطاق يحتوي على صف رأس.
-- *[مسافة بادئة](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/indent/)**: يشير إلى المسافة البادئة.
+Aspose.Cells for Python via .NET يدعم تحويل CSV إلى JSON. لهذا، يوفر الواجهة البرمجية [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) و [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility). الفئة [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) توفر الخيارات لتصدير النطاق إلى JSON. الفئة [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) لها الخصائص التالية.
 
-ال**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)**تقوم الفئة بتصدير JSON باستخدام خيارات التصدير المعينة مع**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**فصل.
+- [**export_as_string**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string/): يقوم بتصدير قيمة السلسلة للخلايا إلى JSON.
+- [**has_header_row**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row/): يشير إذا كانت المدى يحتوي على صف رأسي.
+- [**indent**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/indent/): يشير إلى التنسيق.
 
-يوضح نموذج التعليمات البرمجية التالي استخدام**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**و**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)** فئات لتحميل[المصدر CSV الملف](104398879.csv)ويطبع الناتج JSON في وحدة التحكم.
+تقوم الفئة [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility) بتصدير JSON باستخدام خيارات التصدير المعينة باستخدام الفئة [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions).
 
-###  **عينة من الرموز**
+يُظهر الكود العيني التالي استخدام واجهة البرمجة [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) وواجهة البرمجة [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility) لتحميل [ملف CSV المصدر](104398879.csv) ويطبع الإخراج JSON في وحدة التحكم.
+
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "LoadingSavingConvertingAndManaging-ConvertCsvToJson-1.py" >}}
 
-###  **إخراج وحدة التحكم**
-```json
+### **مخرجات الوحدة**
+{{< highlight java >}}
+
 [
 {
 "id": 1,
@@ -56,4 +58,5 @@ Aspose.Cells for Python via .NET يدعم تحويل CSV إلى JSON. ولهذا
 "postalCode": 394221
 }
 ]
-```
+
+{{< /highlight >}}

@@ -1,25 +1,26 @@
-﻿---
-title: أوجد Aspose.Cells
+---
+title: تقييم Aspose.Cells
 type: docs
 weight: 50
 url: /ar/jasperreports/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- يمكنك بسهولة تنزيل Aspose.Cells for JasperReports للتقييم من[صفحة التحميل](https://downloads.aspose.com/cells/jasperreports) . تنزيل التقييم مماثل للتنزيل الذي تم شراؤه. يصبح الإصدار التقييمي مرخصًا بعد ذلك[تطبيق ترخيص](/cells/ar/jasperreports/licensing/).
+يمكنك بسهولة تنزيل Aspose.Cells for JasperReports للتقييم من [صفحة التنزيل](https://downloads.aspose.com/cells/jasperreports). التنزيل التقييمي هو نفس التنزيل المدفوع. تصبح النسخة التجريبية مرخصة ببساطة بعد [تطبيق الترخيص](/cells/ar/jasperreports/licensing/).
 
 {{% /alert %}}
 
-يوفر إصدار التقييم Aspose.Cells for JasperReports (بدون ترخيص محدد) وظائف المنتج غير كاملة إلى حد ما. أحد القيود هو أنه يقوم دائمًا بحقن ورقة عمل إضافية مع علامة مائية للتقييم عند فتح / حفظ أي مستند جدول بيانات.
+النسخة التجريبية من Aspose.Cells for JasperReports (دون تحديد ترخيص) توفر وظائف المنتج إلى حد ما ولكن ليست كاملة تمامًا. إحدى القيود هي أنها تقوم دائمًا بإدراج ورقة عمل إضافية مع علامة مائية تجريبية عند فتح / حفظ أي وثيقة جدول بيانات.
 
-![ما يجب القيام به: image_بديل_نص](evaluate-aspose-cells_1.png)
+![todo:image_alt_text](evaluate-aspose-cells_1.png)
 
-**شكل:** تم إنشاء جدول بيانات تجريبي بواسطة مكون Aspose.Cells
+**الشكل:** جدول بيانات تجريبي تم إنشاؤه بواسطة مكون Aspose.Cells
 
-ستقوم بحقن ورقة عمل علامة مائية إضافية للتقييم في المصنف.
+سيحقن ورقة عمل تقييمية إضافية إلى دفتر العمل.
 
-![ما يجب القيام به: image_بديل_نص](evaluate-aspose-cells_2.png)
+![todo:image_alt_text](evaluate-aspose-cells_2.png)
 
-**شكل:** تحذير التقييم - ورقة عمل إضافية
+**الشكل:** تحذير التقييم - ورقة عمل إضافية
 
- إذا كنت ترغب في اختبار Aspose.Cells for JasperReports بدون قيود إصدار التقييم ، فيمكنك ذلك[طلب ترخيص مؤقت لمدة 30 يومًا](https://purchase.aspose.com/temporary-license).
+إذا كنت ترغب في اختبار Aspose.Cells for JasperReports دون قيود النسخة التجريبية ، يمكنك [طلب ترخيص مؤقت لمدة 30 يومًا](https://purchase.aspose.com/temporary-license).

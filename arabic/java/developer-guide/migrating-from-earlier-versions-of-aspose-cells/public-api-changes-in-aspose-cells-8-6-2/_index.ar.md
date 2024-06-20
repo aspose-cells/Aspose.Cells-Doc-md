@@ -1,21 +1,22 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.6.2
+---
+title: تغييرات في واجهة برمجة التطبيقات العامة في Aspose.Cells 8.6.2
 type: docs
 weight: 220
 url: /ar/java/public-api-changes-in-aspose-cells-8-6-2/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.6.1 إلى 8.6.2 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة ، ولكن أيضًا وصف أي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات ل Aspose.Cells من الإصدار 8.6.1 إلى 8.6.2 التي قد تكون مثيرة للاهتمام لمطوري الوحدات/التطبيقات. فهو يتضمن ليس فقط الطرق العامة الجديدة والمحدثة والفصول المضافة، ولكن أيضًا وصفًا لأي تغييرات في السلوك الذي يكمن وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم معاودة الاتصال باستخدام العلامات الذكية**
- كشف هذا الإصدار من Aspose.Cells for Java API عن حقل WorkbookDesigner.CallBack وواجهة ISmartMarkerCallBack التي تسمح معًا[الحصول على إشعارات حول مرجع الخلية و / أو العلامة الذكية قيد المعالجة](/cells/ar/java/getting-notifications-while-merging-data-with-smart-markers/) . يوضح الجزء التالي من التعليمات البرمجية استخدام واجهة ISmartMarkerCallBack لتحديد فئة جديدة تتعامل مع استدعاء طريقة WorkbookDesigner.process.
+## **واجهات برمجة التطبيقات الجديدة**
+### **دعم معاودة الاتصال مع علامات Smart Markers**
+قد فتح هذا الإصدار من واجهة برمجة التطبيقات Aspose.Cells for Java حقل WorkbookDesigner.CallBack وواجهة ISmartMarkerCallBack التي تسمح معًا بالحصول على [الإشعارات حول مرجع الخلية و/أو علامة Smart Marker التي يتم معالجتها](/cells/ar/java/getting-notifications-while-merging-data-with-smart-markers/). يوضح الكود التالي استخدام واجهة ISmartMarkerCallBack لتعريف صنف جديد يتعامل مع المعاودة لطريقة WorkbookDesigner.process. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class SmartMarkerCallBack implements ISmartMarkerCallBack 
 
@@ -49,11 +50,11 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-6-2/
 
 {{< /highlight >}}
 
-تتضمن بقية العملية تحميل جدول بيانات المصمم الذي يحتوي على العلامات الذكية باستخدام WorkbookDesigner أو إنشاء واحد من البداية ومعالجته عن طريق تعيين مصدر البيانات. ومع ذلك ، لتمكين الإعلامات ، من الضروري تعيين خاصية WorkbookDesigner.CallBack قبل استدعاء طريقة WorkbookDesigner.process كما هو موضح أدناه.
+ويتضمن بقية العملية تحميل جدول البيانات المصمم يحتوي على علامات Smart Markers مع WorkbookDesigner أو إنشاء واحدة من البداية ومعالجتها عن طريق تعيين مصدر البيانات. ومع ذلك، من أجل تمكين الإشعارات، من الضروري تعيين خاصية WorkbookDesigner.CallBack قبل استدعاء طريقة WorkbookDesigner.process كما هو موضح أدناه.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook designer
 
@@ -71,7 +72,7 @@ sheet.getCells().get("A1").putValue("&=$VariableArray");
 
 //Set the data source for the marker(s)
 
-report.setDataSource("VariableArray", new String[]{ "English", "Arabic", "Hindi", "Urdu", "French" });
+report.setDataSource("VariableArray", new String[] { "English", "Arabic", "Hindi", "Urdu", "French" });
 
 //Set the CallBack property
 
@@ -83,13 +84,13 @@ report.process(false);
 
 {{< /highlight >}}
 ### **تمت إضافة طريقة Chart.toPdf**
-كشف Aspose.Cells for Java 8.6.2 طريقة Chart.toPdf التي يمكن استخدامها لتقديم شكل المخطط مباشرة إلى تنسيق PDF. تقبل الطريقة المذكورة حاليًا معلمة من النوع String كموقع مسار الملف لتخزين الملف الناتج على القرص.
+Aspose.Cells for Java 8.6.2 قامت بتعريض طريقة Chart.toPdf التي يمكن استخدامها لعرض شكل الرسم البياني مباشرة إلى تنسيق PDF. تقبل الطريقة المذكورة حاليًا معلمًا من نوع String كموقع لمسار الملف الناتج لتخزين الملف الناتج على القرص.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet containing charts
 
@@ -108,14 +109,14 @@ Chart chart = worksheet.getCharts().get(0);
 chart.toPdf(outputFilePath);
 
 {{< /highlight >}}
-### **أسلوب Workbook.removeUnusedStyles مضاف**
- كشف Aspose.Cells for Java 8.6.2 طريقة Workbook.removeUnusedStyles التي يمكن استخدامها[قم بإزالة كافة كائنات النمط غير المستخدمة من مجموعة الأنماط](/cells/ar/java/remove-unused-styles-inside-the-workbook/). 
+### **تمت إضافة طريقة Workbook.removeUnusedStyles**
+Aspose.Cells for Java 8.6.2 قامت بتعريض طريقة Workbook.removeUnusedStyles التي يمكن استخدامها لإزالة جميع كائنات النمط غير المستخدمة من مجموعة أنماط. 
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet
 
@@ -126,14 +127,14 @@ Workbook workbook = new Workbook(inputFilePath);
 workbook.removeUnusedStyles();
 
 {{< /highlight >}}
-### **الخاصية Cells. تمت إضافة النمط**
-يمكن استخدام الخاصية Cells.Style للوصول إلى النمط الخاص بورقة العمل الذي يمثل النمط الافتراضي.
+### **تمت إضافة خاصية Cells.Style**
+يمكن استخدام خاصية Cells.Style للوصول إلى النمط لورقة العمل التي تمثل النمط الافتراضي.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -145,7 +146,7 @@ Style style = book.getWorksheets().get(0).getCells().getStyle();
 
 {{< /highlight >}}
 ### **تمت إضافة الأحداث لـ GridWeb**
-Aspose.Cells.GridWeb for Java 8.6.2 كشف الحدثين الجديدين التاليين.
+قام Aspose.Cells.GridWeb لجافا 8.6.2 بتعريض الأحداث الجديدة التالية.
 
-1. AjaxCallFinished: يتم إطلاقه عند انتهاء تحديث AJAX لعنصر التحكم. (يجب تعيين EnableAJAX على true).
-1. CellModifiedOnAjax: الحرائق عندما يتم تعديل الخلية في استدعاء AJAX.
+1. AjaxCallFinished: يتم إطلاق الحدث عند انتهاء التحديث الآجاك للتحكم. (يجب تعيين EnableAJAX على true).
+1. CellModifiedOnAjax: يتم إطلاق الحدث عند تعديل الخلية في استدعاء AJAX.

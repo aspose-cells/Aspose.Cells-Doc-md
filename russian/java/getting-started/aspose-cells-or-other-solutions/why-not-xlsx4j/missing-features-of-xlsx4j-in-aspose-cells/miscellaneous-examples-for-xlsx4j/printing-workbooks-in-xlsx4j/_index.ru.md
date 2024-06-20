@@ -1,17 +1,18 @@
-﻿---
+---
 title: Печать книг в xlsx4j
 type: docs
 weight: 30
 url: /ru/java/printing-workbooks-in-xlsx4j/
 ---
-## **Aspose.Cells - Печать рабочих тетрадей**
-После того, как вы закончите создание электронной таблицы, вы, вероятно, захотите распечатать бумажную копию листа для своих нужд. Когда вы печатаете, MS Excel предполагает, что вы хотите напечатать всю область рабочего листа, если вы не укажете свой выбор.
 
-**Печать рабочего листа**
+## **Aspose.Cells - Печать книг**
+После того, как вы закончите создание своей электронной таблицы, вам, вероятно, захочется напечатать твердую копию листа по своему усмотрению. Когда вы печатаете, MS Excel предполагает, что вы хотите напечатать всю область листа, если не сделано какого-либо выбор.
+
+ **Печать листа**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,11 +36,11 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 
-**Печать книги**
+ **Печать книги**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a WorkbookRender object with respect to your workbook
 
@@ -50,13 +51,13 @@ WorkbookRender wr = new WorkbookRender(book, imgOptions);
 wr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/print/printworkbook/AsposePrintWorkbook.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/print/printworkbook/AsposePrintWorkbook.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[ Печать рабочих тетрадей](/cells/ru/java/printing-workbooks).
+Для получения более подробной информации посетите [Печать Рабочих Книг](/cells/ru/java/printing-workbooks).
 
 {{% /alert %}}

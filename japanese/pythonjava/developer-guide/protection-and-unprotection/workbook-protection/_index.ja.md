@@ -1,35 +1,37 @@
-﻿---
+---
 title: ブック構造の保護と保護解除
 type: docs
 weight: 40
 url: /ja/python-java/protect-and-unprotect-workbook-structure/
-description: Python コードを使用して、Excel ファイルのワークブック構造を保護および保護解除します。
+description: Pythonコードを使用してExcelファイルのブック構造を保護および保護解除します。
 ---
+
+
 {{% alert color="primary" %}}
-他のユーザーが非表示のワークシートを表示したり、ワークシートを追加、移動、削除、非表示にしたり、ワークシートの名前を変更したりできないようにするために、Excel ブックの構造をパスワードで保護できます。
-Aspose.Cells for Python は、Excel ファイルのブック構造の保護と保護解除をサポートします。
+他のユーザーによる隠しワークシートの表示、追加、移動、削除、または非表示、およびワークシートの名前の変更を防ぐために、Excelブックの構造をパスワードで保護できます。
+Aspose.Cells for Pythonは、Excelファイルのブック構造の保護と保護解除をサポートしています。
 {{% /alert %}}
 
 
-## **MS Excel でワークブック構造を保護および保護解除する**
+## **MS Excelでのブック構造の保護と保護解除**
 
-**![ワークブック構造の保護と保護解除](protect-and-unprotect-workbook-structure.png)**
+**![ブック構造の保護と保護解除](protect-and-unprotect-workbook-structure.png)**
 
-1. クリック**レビュー > ブックの保護**.
-1. にパスワードを入力してください**パスワードボックス**.
-1. 選択する**わかった**、パスワードを再入力して確認し、**わかった**また。
+1. **レビュー > ブックの保護** をクリックします。
+1. **パスワードボックス** にパスワードを入力します。
+1. **OK** を選択し、パスワードを再入力して確認し、その後再度 **OK** を選択します。
 
 
-## **Aspose.Cell for Python を使用してブック構造を保護する**
-Excel ファイルのワークブック構造の保護を実装するには、次の単純なコード行のみが必要です。
+## **Aspose.Cell for Pythonを使用してブック構造を保護します。**
+Excelファイルのワークシートの構造を保護するためには、次の簡単なコード行のみが必要です。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Protect-Workbook-Structure.py" >}}
 
-## **Aspose.Cell for Python を使用してブック構造の保護を解除する**
-Aspose.Cells API を使用すると、ブック構造の保護を簡単に解除できます。
+## **Aspose.Cell for Pythonを使用してブックの構造を保護解除します。**
+Aspose.Cells APIを使用してワークブック構造を保護解除するのは簡単です。正しいパスワードが必要です。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Unprotect-Workbook-Structure.py" >}}
 
 {{% alert color="primary" %}}
-注: 正しいパスワードが必要です。
+注意：正しいパスワードが必要です。
 {{% /alert %}}

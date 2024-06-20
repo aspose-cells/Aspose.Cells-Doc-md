@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeitsmappeneinstellungen
 type: docs
 weight: 200

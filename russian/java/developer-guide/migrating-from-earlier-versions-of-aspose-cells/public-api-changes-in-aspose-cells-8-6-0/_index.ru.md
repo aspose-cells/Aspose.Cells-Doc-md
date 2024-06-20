@@ -1,23 +1,24 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.6.0
+---
+title: Изменения в общедоступном API в Aspose.Cells 8.6.0
 type: docs
 weight: 200
 url: /ru/java/public-api-changes-in-aspose-cells-8-6-0/
 ---
+
 {{% alert color="primary" %}} 
 
- В этом документе описаны изменения в Aspose.Cells API с версии 8.5.2 до 8.6.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы,[добавлены классы и т.д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-6-0/), но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 8.5.2 по 8.6.0, которые могут быть интересны разработчикам модуля/приложения. Он включает в себя не только новые и обновленные общедоступные методы, [добавленные классы и т. д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-6-0/), но также описание любых изменений в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Поддержка манипулирования метаданными без создания объекта рабочей книги**
-В этом выпуске Aspose.Cells for Java API представлены два новых класса, а именно WorkbookMetadata и MetadataOptions, а также новое перечисление MetadataType, которое теперь позволяет управлять свойствами документа (метаданными) без создания экземпляра Workbook. Класс WorkbookMetadata имеет небольшой вес и предоставляет очень простой в использовании эффективный механизм для[читать, писать и обновлять свойства документа, не влияя на общую производительность](/cells/ru/java/using-workbookmetadata/). 
+## **Добавленные API**
+### **Поддержка манипулирования метаданными без создания объекта книги**
+В этой версии Aspose.Cells for Java API были выставлены два новых класса WorkbookMetadata и MetadataOptions, а также новое перечисление MetadataType, которое теперь позволяет манипулировать свойствами документа (метаданными) без создания экземпляра Workbook. Класс WorkbookMetadata является легким и предоставляет очень простой в использовании, эффективный механизм для [чтения, записи и обновления свойств документа без влияния на общую производительность](/cells/ru/java/using-workbookmetadata/). 
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Open Workbook metadata while specifying the appropriate MetadataType
 
@@ -34,14 +35,14 @@ metaWorkbook.getCustomDocumentProperties().add("test", "test");
 metaWorkbook.save(filePath);
 
 {{< /highlight >}}
-### **Добавлено свойство HtmlSaveOptions.ExportFrameScriptsAndProperties.**
-Aspose.Cells for Java 8.6.0 предоставляет свойство HtmlSaveOptions.ExportFrameScriptsAndProperties, которое можно использовать для влияния на создание дополнительных сценариев при преобразовании электронных таблиц в формат HTML. С настройками по умолчанию API-интерфейсы Aspose.Cells экспортируют электронную таблицу в формате HTML, поскольку приложение Excel выполняет экспорт, то есть; результирующий HTML содержит фреймы и условные комментарии, которые определяют тип браузера и соответствующим образом настраивают макет. Значение по умолчанию свойства HtmlSaveOptions.ExportFrameScriptsAndProperties равно true, это означает; экспорт осуществляется в соответствии со стандартами Excel. Если свойство установлено в false, API не будет[генерировать скрипты, относящиеся к фреймам и условным комментариям](/cells/ru/java/disable-exporting-frame-scripts-and-document-properties/). В этом случае результирующий HTML можно корректно просмотреть в любом браузере, однако его нельзя импортировать обратно с помощью API Aspose.Cells.
+### **Добавлено свойство HtmlSaveOptions.ExportFrameScriptsAndProperties**
+Aspose.Cells for Java 8.6.0 выставил свойство HtmlSaveOptions.ExportFrameScriptsAndProperties, которое можно использовать для влияния на создание дополнительных скриптов при преобразовании таблиц в HTML формат. С настройками по умолчанию, Aspose.Cells APIs экспортируют таблицу в формате HTML так, как это делает приложение Excel; результат HTML содержит фреймы и условные комментарии, которые определяют тип браузера и подстраивают макет соответственно. Значение по умолчанию свойства HtmlSaveOptions.ExportFrameScriptsAndProperties равно true, что означает, что экспорт выполняется в соответствии с стандартами Excel. Если свойство установлено в false, API не будет [генерировать связанные со скриптами фреймов и условных комментариев](/cells/ru/java/disable-exporting-frame-scripts-and-document-properties/). В этом случае результат HTML можно корректно просмотреть в любом браузере, однако он не сможет быть импортирован обратно с использованием Aspose.Cells API.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the spreadsheet
 
@@ -59,13 +60,13 @@ book.save("output.html", options)
 
 {{< /highlight >}}
 ### **Добавлено свойство Shape.MarcoName**
-Aspose.Cells for Java 8.6.0 предоставило свойство Shape.MarcoName, которое можно использовать для[назначить модуль VBA элементу управления формой](/cells/ru/java/assign-macro-code-to-form-control/) такую кнопку, чтобы обеспечить взаимодействие. Свойство имеет строковый тип, поэтому оно может принимать имя модуля и присваивать его элементу управления.
+Aspose.Cells for Java 8.6.0 выставил свойство Shape.MarcoName, которое можно использовать для [назначения модуля VBA элементу управления формы](/cells/ru/java/assign-macro-code-to-form-control/), такому как кнопка, чтобы обеспечить взаимодействие. Свойство имеет тип string, поэтому оно может принимать имя модуля и назначать его элементу управления.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a new Workbook object
 
@@ -115,4 +116,4 @@ workbook.save("output.xlsm");
 
 {{< /highlight >}}
 ### **Добавлено свойство OoxmlSaveOptions.UpdateZoom**
-В версии 8.6.0 в Aspose.Cells for Java API появилось свойство OoxmlSaveOptions.UpdateZoom, которое можно использовать для обновления PageSetup.Zoom, если свойства PageSetup.FitToPagesWide и/или PageSetup.FitToPagesTall использовались для управления масштабированием рабочего листа.
+С выходом v8.6.0, Aspose.Cells for Java API выставил свойство OoxmlSaveOptions.UpdateZoom, которое можно использовать для обновления масштабирования страницы, если использовались свойства PageSetup.FitToPagesWide и/или PageSetup.FitToPagesTall для управления масштабированием Листа.

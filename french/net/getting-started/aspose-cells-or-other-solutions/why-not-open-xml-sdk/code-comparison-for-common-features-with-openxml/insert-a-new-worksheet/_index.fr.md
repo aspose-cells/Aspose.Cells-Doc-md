@@ -1,11 +1,12 @@
-﻿---
+---
 title: Insérer une nouvelle feuille de calcul
 type: docs
 weight: 70
 url: /fr/net/insert-a-new-worksheet/
 ---
+
 ## **OpenXML Excel**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -63,7 +64,7 @@ using (SpreadsheetDocument spreadSheet = SpreadsheetDocument.Open(docName, true)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -93,7 +94,7 @@ private static void InsertWorksheet(string docName)
 
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Insert%20a%20new%20worksheet%20\(Aspose.Cells\).zip/télécharger)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Insert%20a%20new%20worksheet%20\(Aspose.Cells\).Zip *: français)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Insert%20a%20new%20worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Insert%20a%20new%20worksheet%20\(Aspose.Cells\).zip)

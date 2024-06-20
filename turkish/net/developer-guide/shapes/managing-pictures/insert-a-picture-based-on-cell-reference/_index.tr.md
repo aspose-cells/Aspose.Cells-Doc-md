@@ -1,18 +1,19 @@
-﻿---
-title: Cell Referansına Göre Bir Resim Ekleyin
+---
+title: Hücre Referansına Dayalı Bir Resim Eklemek
 type: docs
 weight: 150
 url: /tr/net/insert-a-picture-based-on-cell-reference/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen boş bir resminiz olur ve formül çubuğunda bir hücre referansı ayarlayarak resimdeki verileri veya içeriği göstermeniz gerekir. Aspose.Cells bu özelliği destekler (Microsoft Excel 2010).
+Bazen boş bir resminiz vardır ve resimde verileri veya içeriği bir hücre referansı belirleyerek göstermek istersiniz. Aspose.Cells bu özelliği destekler (Microsoft Excel 2010).
 
 {{% /alert %}}
 
-## Cell Referansına Göre Resim Ekleme
+## Hücre Referansına Dayalı Bir Resim Eklemek
 
-Aspose.Cells, bir çalışma sayfası hücresinin içeriğinin görüntü şeklinde görüntülenmesini destekler. Resmi, görüntülemek istediğiniz verileri içeren hücreye bağlayabilirsiniz. Hücre veya hücre aralığı grafik nesnesine bağlı olduğundan, o hücre veya hücre aralığındaki verilerde yaptığınız değişiklikler otomatik olarak grafik nesnesinde görünür. çağırarak çalışma sayfasına bir resim ekleyin.[**Resim Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpicture/index) yöntemi[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) koleksiyon (kapsüllenmiş[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) nesne). kullanarak hücre aralığını belirtin.[**formül**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/formula) özniteliği[**Resim**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)nesne.
+Aspose.Cells, bir resim şeklinde bir çalışma sayfası hücresindeki içeriği görüntülemenin destekler. Resmi, istemci tarafı uygulamasında kullanılan kolay Aspose.Cells API'sinin bir yöntemi olan [**AddPicture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpicture/index) yöntemini çağırarak çalışma sayfasına ekleyebilirsiniz. Hücre aralığını, [**Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) nesnesinin [**Formula**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/formula) özelliğini kullanarak belirtin.
 
 ### Kod Örneği
 

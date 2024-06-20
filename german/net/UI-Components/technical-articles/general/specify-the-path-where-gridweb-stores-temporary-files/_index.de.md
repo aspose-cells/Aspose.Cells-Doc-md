@@ -1,16 +1,17 @@
 ---
-title: Geben Sie den Pfad an, in dem GridWeb temporäre Dateien speichert
+title: Geben Sie den Pfad an, an dem GridWeb temporäre Dateien speichert
 type: docs
 weight: 50
-url: /de/net/gridweb-cache-files/
-keywords: cache,session,storage
+url: /de/net/aspose-cells-gridweb/gridweb-cache-files/
+keywords: GridWeb,cache,Sitzung,Speicher
+description: Dieser Artikel beschreibt den Speicher in GridWeb.
 ---
-###  über den Datei-Cache
+### zum Datei-Cache
 {{% alert color="primary" %}} 
 
-Wenn der GridWeb-Sitzungsmodus ViewState ist, speichert es seine temporären Sitzungsdateien im Anwendungsbasisverzeichnis. Manchmal ist es nicht in Ordnung, temporäre Sitzungsdateien dort zu speichern, da das Anwendungsbasisverzeichnis möglicherweise keine Schreibberechtigungen dafür hat. In solchen Fällen löst GridWeb eine solche Ausnahme aus
+Wenn der GridWeb-Sitzungsmodus ViewState ist, speichert er seine temporären Sitzungsdateien im Anwendungs-Basisverzeichnis. Manchmal ist es nicht in Ordnung, temporäre Sitzungsdateien dort zu speichern, da das Anwendungs-Basisverzeichnis möglicherweise keine Schreibberechtigungen hat. In solchen Fällen wirft GridWeb eine solche Ausnahme
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  [UnauthorizedAccessException: Access to
 
@@ -18,45 +19,45 @@ the path 'D:\inetpub\wwwroot\AsposeExcelTest\gwb_tempGridWeb1' is denied.]
 
 {{< /highlight >}}
 
-Die Lösung des oben genannten Problems besteht darin, Schreibzugriff auf das Anwendungsbasisverzeichnis zu gewähren oder den Pfad der temporären GridWeb-Sitzungsdateien mit Schreibzugriff mithilfe der Eigenschaft GridWeb.SessionStorePath zu ändern. Dieser Pfad sollte relativ zum Anwendungsbasisverzeichnis sein.
+Die Lösung für das obige Problem besteht darin, dem Anwendungs-Basisverzeichnis Schreibzugriff zu gewähren oder den Pfad für temporäre Sitzungsdateien von GridWeb zu ändern und Schreibzugriff zu haben, indem die Eigenschaft GridWeb.SessionStorePath verwendet wird. Dieser Pfad sollte relativ zum Anwendungs-Basisverzeichnis sein.
 
 {{% /alert %}} 
-####  **Geben Sie den Pfad an, in dem GridWeb temporäre Sitzungsdateien speichert**
-Der folgende Beispielcode gibt den Pfad an, in dem GridWeb temporäre Sitzungsdateien speichert.
+#### **Geben Sie den Pfad an, an dem GridWeb temporäre Sitzungsdateien speichert**
+Der folgende Beispielcode gibt den Pfad an, an dem GridWeb temporäre Sitzungsdateien speichert.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-SpecifySessionStorePath.aspx-SpecifySessionStorePath.cs" >}}
 
-###  über den Bildcache
+### zum Bild-Cache
 
-Wenn das Arbeitsblatt Formen/Bilder enthält, speichert GridWeb alle Formen/Bilder in einem Cache-Pfad
+Wenn es Formen/Bilder im Arbeitsblatt gibt, speichert GridWeb alle Formen/Bilder in einem Cache-Pfad
 
- Der Standard-Cache-Pfad lautet***System.Web.HttpContext.Current.Server.MapPath("/acwcache")***
+Der Standard-Cache-Pfad ist ***System.Web.HttpContext.Current.Server.MapPath("/acwcache")***
 
- auch wir können verwenden***GridWeb.PictureCachePath*** um diesen Pfad auf einen bestimmten Pfad festzulegen.
+Auch können wir ***GridWeb.PictureCachePath*** verwenden, um diesen Pfad auf einen bestimmten Pfad festzulegen.
 
-Wenn wir eine Seite öffnen, löst GridWeb die angeforderte Bild-URL auf und ruft den Bildstream anhand der URL-ID aus dem Cache ab.
+Wenn wir eine Seite öffnen, wird GridWeb die angeforderte Bild-URL auflösen und den Bild-Stream aus dem Cache anhand der URL-ID abrufen.
 
- zum Beispiel, wenn Ihre Seitenadresse ist*http://ip/mygridwebapp/test.aspx*  
+Beispielsweise, wenn Ihre Seitenadresse *http://ip/meinegridwebanwendung/test.aspx* lautet  
 
-Die von GridWeb generierte Bildanforderungs-URL lautet *http://ip/mygridwebapp/test.aspx/acw_image/imageid*.
+Die von GridWeb generierte Bildanforderungs-URL wird *http://ip/meinegridwebanwendung/test.aspx/acw_image/imageid* lauten.
 
-####  Manchmal werden die Formen/Bilder bei der Verwendung nicht geladen[Freundliche URL](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms).
+#### Manchmal werden Formen/Bilder nicht geladen, wenn Sie [Freundliche URLs](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms) verwenden.
 
 Sie müssen die Bild-URL-Anfrage überprüfen.
 
- Die normale Bildanfrage sieht wie folgt aus:*http://ip/mygridwebapp/test.aspx/acw_image/imageid*
+Die normale Bildanforderung sollte so aussehen: *http://ip/mygridwebapp/test.aspx/acw_image/imageid*
 
-aber Ihre Anfrage sieht so aus:*http://ip/mygridwebapp/test/acw_image/imageid*
+Aber Ihre Anforderung sieht so aus: *http://ip/mygridwebapp/test/acw_image/imageid*
 
-Wenn Sie FriendlyUrl verwenden, müssen Sie die Bild-URL-Anfrage für GridWeb herausfiltern.
+Wenn Sie FriendlyUrl verwenden, müssen Sie die Bild-URL-Anforderung für GridWeb filtern.
 
-Somit kann der GridWeb-Steuerungsserver die Anfrage abrufen und auflösen und den Bildstream aus dem Cache-Pfad finden.
+Daher kann die GridWeb-Steuerungsserver die Anforderung erhalten und auflösen und den Bildstream aus dem Cache-Pfad finden.
 
-Beispielsweise gehen wir davon aus, dass Ihre Seiten-URL wie folgt aussieht:*http://ip/mygridwebapp/test.aspx*
+Beispiel: Wir nehmen an, dass die URL Ihrer Seite so aussieht: *http://ip/mygridwebapp/test.aspx*
 
-Dann ist der folgende Code eine Problemumgehung, um dieses Problem zu beheben.
+Dann ist der folgende Code ein Workaround, um ein solches Problem zu beheben.
 ```csharp
 //write your custom url resolver:MyWebFormsFriendlyUrlResolver
 public class MyWebFormsFriendlyUrlResolver : WebFormsFriendlyUrlResolver

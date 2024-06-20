@@ -1,37 +1,38 @@
-﻿---
-title: Varför inte öppna XML SDK
+---
+title: Varför inte Open XML SDK
 type: docs
 weight: 20
 url: /sv/java/why-not-open-xml-sdk/
 ---
+
 {{% alert color="primary" %}} 
 
-Ibland hör vi denna fråga:
+Vi hör ibland den här frågan:
 
-**Varför ska vi använda Aspose-produkter snarare än gratis Open XML SDK?**
+**Varför ska vi använda Aspose-produkter istället för den gratis Open XML SDK?**
 
- Denna fråga är lätt att besvara:**funktioner och funktionalitet**.
+Den här frågan är lätt att besvara: **funktioner och funktionalitet**.
 
 {{% /alert %}} 
-## ** Vad är Open XML SDK?**
-Enligt MSDN-biblioteket definieras Open XML SDK som: Open XML SDK 2.0 förenklar uppgiften att manipulera Open XML-paket och de underliggande Open XML-schemaelementen i ett paket. Open XML SDK 2.0 kapslar in många vanliga uppgifter som utvecklare utför på Open XML-paket, så att du kan utföra komplexa operationer med bara några rader kod.OOXML-dokument är i huvudsak zippade XML-filer och Open XML SDK är en samling klasser som tillåter dig att arbeta med innehållet i OOXML-dokument på ett starkt skrivet sätt. Det är istället för att packa upp en fil för att extrahera XML, ladda den XML-en i ett DOM-träd och arbeta med XML-element och -attribut direkt, Open XML SDK tillhandahåller klasser för att göra det.
-## ** Vad är Aspose.Cells?**
-Aspose.Cells är ett klassbibliotek som låter din applikation utföra följande kalkylbladsbearbetningsuppgifter: Högkvalitativa konverteringar mellan alla populära Excel-format, inklusive konvertering till PDF, HTML, TIFF och utskrift. Programmering med en arbetsboksobjektmodell. Möjlighet att bygga dokument från fragment, från ett eller flera dokument, samtidigt som data automatiskt sammanfogas genom stilistisk formatering, diagram och grafik. Funktioner på hög nivå, såsom import av data från olika datakällor inklusive Array, ArrayList, DataTable / ResultSet. Robust formelberäkningsmotor som stöder nästan alla standard- och avancerade Microsoft Excel-funktioner.
+## **Vad är Open XML SDK?**
+Enligt MSDN Library definieras Open XML SDK som: Open XML SDK 2.0 förenklar uppgiften att manipulera Open XML-paket och de underliggande Open XML-schemaelementen inom ett paket. Open XML SDK 2.0 kapslar in många vanliga uppgifter som utvecklare utför på Open XML-paket, så att du kan utföra komplexa operationer med bara några få rader kod. OOXML-dokument är i huvudsak zippade XML-filer och Open XML SDK är en samling klasser som gör det möjligt för dig att arbeta med innehållet i OOXML-dokument på ett starkt typat sätt. Det vill säga istället för att packa upp en fil för att extrahera XML, ladda in den XML i ett DOM-träd och arbeta med XML-element och attribut direkt, tillhandahåller Open XML SDK klasser för att göra det.
+## **Vad är Aspose.Cells?**
+Aspose.Cells är ett klassbibliotek som tillåter din applikation att utföra följande kalkylbladsbehandling: Högkvalitativa konverteringar mellan alla populära Excel-format, inklusive konvertering till PDF, HTML, TIFF och utskrift. Programmering med arbetsbokobjektmodell. Möjlighet att bygga dokument från fragment, från en eller flera dokument, samtidigt som data automatiskt sammanfogas med stilistisk formatering, diagram och grafik. Högnivåfunktioner, såsom import av data från olika datakällor inklusive Array, ArrayList, DataTable / ResultSet. Robust formelberäkningssystem som stöder nästan alla standard- och avancerade Microsoft Excel-funktioner.
 
 {{% alert color="primary" %}}
-## ** Jämför Open XML SDK och Aspose.Cells**
- Följande tabell jämför Open XML SDK och Aspose.Cells funktioner.{{% /alert %}}
+## **Jämför Open XML SDK och Aspose.Cells**
+Följande tabell jämför Open XML SDK och Aspose.Cells-funktioner.
 
-|**Funktion eller funktionskategori**|**Öppna XML SDK**|**Aspose.Cells**|
-|:- |:- |:- |
-|Excel eller andra format som stöds|XLSX|XLS, CSV, SpreadsheetML 2003, XLSX, HTML, Tab Delimited, ODS, vanlig text (TXT), 0816143474|
+|**Funktion eller funktionskategori**|**Open XML SDK**|**Aspose.Cells**|
+| :- | :- | :- |
+|Stödda Excel- eller andra format|XLSX|XLS, CSV, SpreadsheetML 2003, XLSX, HTML, Tab-separerad, ODS, vanlig text (TXT), PDF, XPS|
 |Konvertera mellan Excel-format|Nej|Ja|
-|<p>Högnivåprogrammering med en arbetsboksobjektmodell:</p><p>- Hitta och ersätta.</p><p>- Sätt ihop kalkylblad.</p><p>- Kopiera fragment och kalkylblad mellan arbetsböcker.</p>|Nej|Ja|
-|Detaljerad programmering med en dokumentobjektmodell, tillgång till enskilda element och formateringsegenskaper för alla kalkylbladselement.|Ja|Ja|
-|Direkt och fullständig tillgång på låg nivå till de underliggande XML-elementen och attributen såsom relationsidentifierare, listidentifierare för ett OOXML-dokument.|Ja|Nej|
-|<p>Generera rapporter, fyll i dokument med data:</p><p>- Importera/exportera data till/från en*Datatabell /*Resultatet satt.</p><p>- Funktionen Smart Markers.</p><p>- Infoga/ta bort rader/kolumner/intervall.</p><p>- Anpassade datakällor.</p>|Nej|Ja|
-|<p>Rendering och utskrift:* Återge kalkylbladssidor till rasterbilder (TIFF, flersidiga TIFF, PNG, JPEG, BMP).*Återge kalkylbladssidor till vektorbilder (EMF).* Konvertera diagram till bilder (TIFF, flersidigt TIFF, PNG, JPEG, BMP, BMP, EMF, alternativ för bildkvalitet, <p>, etc.</p> andra kvalitet, komprimering etc.) </p><p>- Skriv ut kalkylblad med .NET utskriftsinfrastruktur. Komponenten har en inbyggd utskriftsmetod för att skriva ut kalkylbladen som visas i Förhandsgranskning av MS Excel.</p>|Nej|Ja|
-|Beräkna/beräkna om formler dynamiskt| Nej| Ja|
-|Plattformar som stöds|Windows, .NET|Windows, Linux, Java, .NET, Mono|
+|<p>Högnivåprogrammering med arbetsboksobjektmodellen:</p><p>- Hitta och ersätta.</p><p>- Sammanställa kalkylblad.</p><p>- Kopiera fragment och kalkylblad mellan arbetsböcker.</p>|Nej|Ja|
+|Detaljerad programmering med dokumentobjektmodellen, åtkomst till individuella element och formateringsegenskaper för alla kalkylbladselement.|Ja|Ja|
+|Lågnivå direkt och fullständig åtkomst till de underliggande XML-elementen och attributen som relationsidentifierare, listidentifierare för ett OOXML-dokument.|Ja|Nej|
+|<p>Generera rapporter, fylla dokument med data:</p><p>- Importera/exportera data till/från en *DataTable / *ResultSet.</p><p>- Smart Markers-funktion.</p><p>- Infoga/Ta bort rader/kolumner/omfång.</p><p>- Anpassade datakällor.</p>|Nej|Ja|
+|<p>Rendering och utskrift:* Rendera kalkylbladssidor till rasterbilder (TIFF, multipage TIFF, PNG, JPEG, BMP).* Rendera kalkylbladssidor till vektorbilder (EMF).* Konvertera diagram till bilder (TIFF, multipage TIFF, PNG, JPEG, BMP, EMF etc.)</p><p>- Ange bildupplösning, kvalitet, komprimering och andra alternativ.</p><p>- Skriv ut kalkylblad med .NET-utskriftsinfrastructure. Komponenten har inbyggd utskriftsmetod för att skriva ut kalkylbladen som visas i utskriftsgranskningen av MS Excel.</p>|Nej|Ja|
+|Beräkna/dynamiskt omberäkna formler|Nej|Ja|
+|Stödda plattformar|Windows, .NET|Windows, Linux, Java, .NET, Mono|
 ## **Slutsats**
-  {{% alert color="primary" %}}Open XML SDK och Aspose.Cells konkurrerar inte head to head eftersom de adresserar ganska olika behov och målgrupper. Open XML SDK är ett klassbibliotek för att tillhandahålla ett välskrivet sätt att arbeta med OOXML-dokument. Aspose.Cells är ett mycket användbart bibliotek för bearbetning av kalkylblad som ger bra stöd för alla Microsoft Excel och andra filformat. Om allt du behöver göra är en ganska grundläggande programmeringsoperation på ett XLSX-dokument, kan Open XML SDK vara ett lämpligt val. Med Open XML SDK kommer du att vara ganska bekväm med att göra enkla uppgifter som att skapa ett enkelt XLSX-dokument eller ta bort kommentarer, sidhuvuden/sidfötter, extrahera bilder eller annat. Vissa uppgifter kan uppnås med Open XML SDK, men kan inte uppnås med Aspose.Cells. Om du till exempel behöver direkt tillgång till XML-elementen och attributen för ett OOXML-dokument, bör du använda Open XML SDK. Men om du behöver utföra komplexa operationer på dokument, som några av följande uppgifter, då är det bästa alternativet att använda Aspose.Cells: Stöd andra filformat utöver XLSX. Kopiera fragment och kalkylblad mellan arbetsböcker eller sammanfoga arbetsböcker på ett sätt som kombinerar objekt, stilar och annat formatering på ett lämpligt sätt. Ersätt formaterad eller oformaterad text. Funktioner på hög nivå, såsom import av data från olika datakällor inklusive Array, ArrayList, DataTable / ResultSet. Skapa ett affärsdokument, till exempel en beställning med orderinformation från en datakälla. Konvertera ett dokument till PDF eller XPS så att det ser ut precis som Microsoft Excel skulle ha konverterat det. Utveckla en .NET- eller Java-applikation.{{% /alert %}}
+  {{% alert color="primary" %}}Open XML SDK and Aspose.Cells do not compete head to head because they address quite different needs and audiences. Open XML SDK is a class library to provide a strong-typed way to work with OOXML documents. Aspose.Cells is a very useful spreadsheet processing library that provides great support for all Microsoft Excel and other file formats. If all you need to do is a fairly basic programming operation on a XLSX document, then Open XML SDK might be a suitable choice. With Open XML SDK you will be fairly comfortable doing simple tasks like generating a simple XLSX document or removing comments, headers/footers, extracting images or others. Some tasks can be achieved with Open XML SDK, but cannot be achieved with Aspose.Cells. For example, if you need to directly access the XML elements and attributes of an OOXML document, then you should use Open XML SDK.However, if you need to perform complex operations on documents, such as some of the following tasks, then using Aspose.Cells is your best option: Support other file formats in addition to XLSX. Copy fragments and worksheets between workbooks or join workbooks in a way that combines objects, styles and other formatting in an appropriate manner. Replace formatted or unformatted text. High-level functions, such as, import data from different data sources including Array, ArrayList, DataTable / ResultSet. Generate a business document, such as an order with order details from a data source. Convert a document to PDF or XPS so it appears exactly like Microsoft Excel would have converted it. Develop a .NET or Java application. {{% /alert %}}

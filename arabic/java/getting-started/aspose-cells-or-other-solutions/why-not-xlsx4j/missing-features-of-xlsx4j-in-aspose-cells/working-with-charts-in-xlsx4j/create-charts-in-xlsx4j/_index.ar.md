@@ -1,15 +1,16 @@
-﻿---
-title: أنشئ مخططات في xlsx4j
+---
+title: إنشاء رسوم بيانية في xlsx4j
 type: docs
 weight: 20
 url: /ar/java/create-charts-in-xlsx4j/
 ---
-## **Aspose.Cells - تكوين الرسوم البيانية**
-من الممكن إضافة مجموعة متنوعة من المخططات إلى جداول البيانات باستخدام Aspose.Cells. يوفر Aspose.Cells العديد من كائنات الرسوم البيانية المرنة.
+
+## **Aspose.Cells - إنشاء الرسوم البيانية**
+من الممكن إضافة مجموعة متنوعة من الرسوم البيانية إلى جداول البيانات بمساعدة Aspose.Cells. Aspose.Cells توفر العديد من كائنات الرسم البياني المرنة.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -68,7 +69,7 @@ serieses.add("A1:B3", true);
 workbook.save(dataDir + "Chart_Aspose.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/charts/createcharts/AsposeCreateCharts.java)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/charts/createcharts/AsposeCreateCharts.java)

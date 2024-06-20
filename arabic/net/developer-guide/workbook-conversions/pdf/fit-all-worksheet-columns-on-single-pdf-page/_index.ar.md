@@ -1,29 +1,30 @@
-﻿---
-title: احتواء كافة أعمدة ورقة العمل على PDF صفحة واحدة
+---
+title: ملائمة جميع أعمدة الصفحة العملية على صفحة PDF واحدة
 type: docs
 weight: 160
 url: /ar/net/fit-all-worksheet-columns-on-single-pdf-page/
 ---
+
 {{% alert color="primary" %}}
 
- في بعض الأحيان تريد إنشاء ملف PDF يناسب جميع أعمدة ورقة العمل في صفحة واحدة. ال[**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet) توفر الخاصية هذه الميزة بطريقة سهلة الاستخدام للغاية. تتم معالجة الحسابات المعقدة مثل ارتفاع وعرض الناتج PDF داخليًا وتعتمد على البيانات الموجودة في ورقة العمل.
+أحيانًا تحتاج إلى إنشاء ملف PDF يلائم جميع أعمدة صفحة العملية على صفحة واحدة. توفر الخاصية [**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet) هذه الميزة بطريقة سهلة الاستخدام جدًا. يتم التعامل مع الحسابات المعقدة مثل ارتفاع وعرض PDF الناتج داخليًا ويستند إلى البيانات في صفحة العملية.
 
 {{% /alert %}}
 
-## **احتواء أعمدة ورقة العمل في صفحة واحدة PDF**
+## **ملائمة أعمدة صفحة العملية على صفحة PDF واحدة**
 
-[**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet)يضمن عرض جميع الأعمدة في ورقة العمل على صفحة PDF واحدة ، على الرغم من إمكانية توسيع الصفوف إلى عدة صفحات اعتمادًا على البيانات الموجودة في ورقة العمل.
+تضمن [**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet) أن تتم عرض كل الأعمدة في صفحة العملية على صفحة PDF واحدة، على الرغم من أن الصفوف قد تمتد إلى عدة صفحات اعتمادًا على البيانات في صفحة العملية.
 
-يوضح نموذج التعليمات البرمجية أدناه كيفية الاستخدام[**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet)لعرض ورقة عمل كبيرة من 100 عمود.
+الكود النموذجي أدناه يوضح كيفية استخدام [**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet) لعرض صفحة عمل كبيرة تحتوي على 100 عمود.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FitAllWorksheetColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-عندما تحتوي ورقة عمل معينة على العديد من الأعمدة ، فقد يعرض الملف PDF المحتوى بحجم صغير جدًا. لا يزال من الممكن قراءته عند توسيع نطاقه في تطبيق عرض مثل Acrobat Reader.
+عندما يحتوي ورق العمل المعطى على العديد من الأعمدة، قد يظهر ملف PDF المقرن بحجم صغير جدًا. لا يزال قابلاً للقراءة عند تكبيره في تطبيق العرض مثل Acrobat Reader.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل الاتصال[**المصنف .CalculateFormula ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)مباشرة قبل تحويل جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في PDF.
+إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، من الأفضل استدعاء [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) قبل تحويل جدول البيانات إلى تنسيق PDF. وذلك سيضمن إعادة حساب قيم الصيغ الخاصة وتقديم القيم الصحيحة في الملف الناتج PDF.
 
 {{% /alert %}}

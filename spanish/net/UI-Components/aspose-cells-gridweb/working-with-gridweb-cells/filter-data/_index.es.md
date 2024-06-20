@@ -1,34 +1,37 @@
-﻿---
-title: Filtrar datos
+---
+title: Filtrar Datos
 type: docs
 weight: 80
-url: /es/net/filter-data/
+url: /es/net/aspose-cells-gridweb/filter-data/
+keywords: GridWeb, filtro, filtrar datos, filtrado de datos
+description: Este artículo introduce cómo filtrar datos en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb proporciona funciones de filtro automático y filtro de datos personalizado. Estas características le brindan una manera de seleccionar solo aquellos elementos en una hoja de trabajo que desea mostrar en una lista. Además, puede filtrar elementos en una lista de acuerdo con criterios establecidos. Filtre texto, números o fechas con las funciones de filtrado.
+Aspose.Cells.GridWeb proporciona funciones de autofiltrado y filtrado personalizado de datos. Estas características te permiten seleccionar solo aquellos elementos en una hoja de cálculo que deseas mostrar en una lista. Además, puedes filtrar elementos en una lista de acuerdo con criterios establecidos. Filtra texto, números o fechas con las características de filtrado.
 
 {{% /alert %}} 
 ## **Trabajar con filtros**
-Utilice el método AddAutoFilter de la hoja de trabajo para habilitar el filtro automático para una hoja de trabajo. Este método acepta los índices de fila, inicio y final de columna.
+Utiliza el método AddAutoFilter de la hoja de cálculo para habilitar el autofiltro para una hoja de cálculo. Este método acepta los índices de fila, columna de inicio y fin.
 
-Para habilitar el filtro personalizado, use el método AddCustomFilter de la hoja de trabajo que acepta el índice de fila al que se debe aplicar el filtro y los criterios de filtrado personalizados.
+Para habilitar el filtro personalizado, utiliza el método AddCustomFilter de la hoja de cálculo que acepta el índice de fila al cual se debe aplicar el filtro y los criterios de filtrado personalizado.
 
-El siguiente ejemplo implementa filtros de datos automáticos y personalizados. En el ejemplo, la función de filtro automático está habilitada y las filas filtradas se buscan según algunos criterios.
+El siguiente ejemplo implementa tanto autofiltros como filtros de datos personalizados. En el ejemplo, se habilita la función de autofiltro y se buscan filas filtradas basadas en algunos criterios.
 
-**Entrada: la lista de datos en la primera hoja de trabajo** 
+**Entrada: la lista de datos en la primera hoja de cálculo** 
 
-![todo:imagen_alternativa_texto](filter-data_1.jpg)
+![todo:image_alt_text](filter-data_1.jpg)
 
-**Salida: habilitar la función de filtro automático** 
+**Salida: habilitar la función de autofiltro** 
 
-![todo:imagen_alternativa_texto](filter-data_2.jpg)
-### **Auto-filtro**
+![todo:image_alt_text](filter-data_2.jpg)
+### **Autofiltro**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-SetAutoFilter.aspx-SetAutoFilter.cs" >}}
-### **Filtro de datos personalizado**
+### **Filtro de Datos Personalizado**
 **Datos filtrados personalizados basados en los criterios** 
 
-![todo:imagen_alternativa_texto](filter-data_3.jpg)
+![todo:image_alt_text](filter-data_3.jpg)
 
 
 

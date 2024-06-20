@@ -1,14 +1,15 @@
-﻿---
-title: Erhalten Sie eine Textbreite von Cell Wert
+---
+title: Textbreite des Zellenwerts erhalten
 type: docs
 weight: 40
 url: /de/java/get-text-width-of-cell-value/
 ---
-## **Erhalten Sie eine Textbreite von Cell Wert**
 
-Manchmal müssen die Entwickler möglicherweise die Breite des Zellenwerts berechnen, um Daten in einem bestimmten Layout anzuordnen. Aspose.Cells bietet die[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double))-Methode, die es Entwicklern ermöglicht, die Textbreite des Zellwerts abzurufen. Der folgende Beispielcode veranschaulicht die Verwendung[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double)), um auf die Textbreite des Zellenwerts zuzugreifen.
+## **Breite des Zellenwerts abrufen**
 
-Die im folgenden Codeausschnitt verwendete Quelldatei ist als Referenz beigefügt.
+Manchmal müssen Entwickler die Breite des Zellwerts berechnen, um Daten in einem Layout anzuordnen. Aspose.Cells bietet die [**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double))-Methode, die Entwicklern ermöglicht, die Textbreite des Zellwerts zu erhalten. Der folgende Beispielcode veranschaulicht, wie man [**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double)) verwendet, um die Textbreite des Zellwerts zu erhalten.
+
+Die im folgenden Code-Ausschnitt verwendete Quelldatei ist zur Referenz angehängt.
 
 [Quelldatei](GetTextWidthSample.xlsx)
 

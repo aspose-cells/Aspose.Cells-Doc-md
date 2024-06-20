@@ -1,11 +1,12 @@
-﻿---
+---
 title: Obtener rango con enlaces externos
 type: docs
 weight: 60
 url: /es/python-java/get-range-with-external-links/
 ---
-## **Obtener rango con enlaces externos**
-Hay muchos casos en los que los archivos de Excel acceden a datos de otros archivos de Excel mediante el uso de enlaces externos. Aspose.Cells for Python via Java ofrece la opción de recuperar estos enlaces externos mediante el[Nombre.GetReferredAreas](https://reference.aspose.com/cells/python/asposecells.api/name#getReferredAreas\(boolean\)) método. Él[Nombre.GetReferredAreas](https://reference.aspose.com/cells/python/asposecells.api/name#getReferredAreas\(boolean\)) método devuelve una matriz de tipo[Área referida](https://reference.aspose.com/cells/python/asposecells.api/ReferredArea). Él[Área referida](https://reference.aspose.com/cells/python/asposecells.api/ReferredArea)la clase proporciona una[Nombre de archivo externo](https://reference.aspose.com/cells/python/asposecells.api/referredarea#ExternalFileName)propiedad que devuelve el nombre del archivo externo.
+
+## **Obtener Rango con Vínculos Externos**
+Hay muchas instancias donde los archivos de Excel acceden a datos de otros archivos de Excel mediante el uso de enlaces externos. Aspose.Cells for Python via Java proporciona la opción de recuperar estos enlaces externos mediante el uso del método [Name.GetReferredAreas](https://reference.aspose.com/cells/python/asposecells.api/name#getReferredAreas\(boolean\)). El método [Name.GetReferredAreas](https://reference.aspose.com/cells/python/asposecells.api/name#getReferredAreas\(boolean\)) devuelve una matriz del tipo [ReferredArea](https://reference.aspose.com/cells/python/asposecells.api/ReferredArea). La clase [ReferredArea](https://reference.aspose.com/cells/python/asposecells.api/ReferredArea) proporciona una propiedad [ExternalFileName](https://reference.aspose.com/cells/python/asposecells.api/referredarea#ExternalFileName) que devuelve el nombre del archivo externo.
 
 El siguiente fragmento de código muestra cómo obtener enlaces externos.
 

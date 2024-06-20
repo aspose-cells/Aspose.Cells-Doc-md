@@ -1,19 +1,20 @@
-﻿---
-title: Получить строку HTML5 от Cell
+---
+title: Получить строку HTML5 из ячейки
 type: docs
 weight: 40
 url: /ru/python-java/get-html5-string-from-cell/
 ---
-## **Получить строку HTML5 от Cell**
-Используя Aspose.Cells for Python via Java, вы можете получить строку HTML из ячейки. Это может быть достигнуто с помощью[getHtmlString (логическое значение html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) метод, предоставленный API. Если вы пройдете**ЛОЖЬ**в качестве параметра он вернет вам Normal HTML, но если вы пройдете**истинный**в качестве параметра он вернет строку HTML5.
 
-В следующем примере кода создается объект книги и добавляется текст в ячейку A1 первого рабочего листа. Затем он получает строку Normal HTML и строку HTML5 из ячейки A1, используя[getHtmlString (логическое значение html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) метод и печатает их.
+## **Получение строки HTML5 из ячейки**
+С помощью Aspose.Cells для Python via Java можно получить HTML-строку из ячейки. Это можно достичь с помощью метода getHtmlString(boolean html5), предоставляемого API. Если передать false в качестве параметра, он вернет вам обычную HTML-строку, но если передать true, то вернет HTML5-строку.
+
+В следующем образце кода создается объект книги и добавляется некоторый текст в ячейку A1 первого листа.Затем получается обычная HTML-строка и HTML5-строка из ячейки A1 с помощью метода getHtmlString(boolean html5) и выводятся.
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-GetHTML5StringFromCell.py" >}}
 
-Ниже приведен вывод, созданный приведенным выше фрагментом кода.
+Ниже приведенный вывод, сгенерированный вышеуказанным образцом кода.
 ## **Вывод**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Normal:
 

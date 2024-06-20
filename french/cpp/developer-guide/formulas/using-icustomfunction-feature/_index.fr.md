@@ -1,13 +1,14 @@
 ---
-title: Utilisation de la fonctionnalité ICustomFunction
+title: Utilisation de la fonction ICustomFunction
 type: docs
 weight: 20
 url: /fr/cpp/using-icustomfunction-feature/
 ---
-##  **Obsolète**
+
+## **Obsolète**
 Utilisez plutôt AbstractCalculationEngine.
 
-**Cette classe a été remplacée par AbstractCalculationEngine dans la nouvelle version, mais la fonction est toujours en cours d'amélioration, alors restez à l'écoute.**
+**Cette classe a été remplacée par AbstractCalculationEngine dans la nouvelle version, mais la fonction est encore en cours d'amélioration, restez à l'écoute.**
 
-**faire référence à** [Utilisation de la fonctionnalité AbstractCalculationEngine](../using-abstractcalculationengine-feature/)
+**voir** [Utilisation de la fonction AbstractCalculationEngine](../using-abstractcalculationengine-feature/)
 

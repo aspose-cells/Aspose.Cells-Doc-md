@@ -3,27 +3,28 @@ title: Как исправить java.lang.ClassNotFoundException
 type: docs
 weight: 30
 url: /ru/java/how-to-fix-java-lang-classnotfoundexception/ 
-description: Узнайте, как исправить исключение java.lang.ClassNotFoundException в Aspose.Cells for Java.
-keywords: How to fix BouncyCastleProvider ClassNotFoundException in Java, Solve BouncyCastleProvider exception using Java, Java solve ClassNotFoundException BouncyCastleProvider.
+description: Узнайте, как исправить java.lang.ClassNotFoundException в Aspose.Cells for Java.
+keywords: Как исправить ошибку ClassNotFoundException BouncyCastleProvider в Java, Решение исключения BouncyCastleProvider с помощью Java, Решение ClassNotFoundException BouncyCastleProvider в Java.
 ---
-Aspose.Cells for Java API зависит от некоторых дополнительных библиотек, если они отсутствуют, может быть выдано исключение "java.lang.ClassNotFoundException".
-В этой статье перечислены такие исключения и объяснено, какие библиотеки установлены для их устранения.
 
-##  Как исправить ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider
-###  **Краткое содержание**
-Aspose.Cells for Java API зависит от функций шифрования и дешифрования Bouncy Castle, то есть, если программе требуется загружать или сохранять зашифрованные электронные таблицы, необходимо добавить ссылку на bcprov-jdk16-146.jar в путь к классам проекта.
-###  **Симптомы**
- Вы можете получить исключение java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider.
-###  **Решение**
-Решение на самом деле очень простое, как описано ниже.
+API Aspose.Cells for Java зависит от дополнительных библиотек, и если они отсутствуют, может возникнуть исключение "java.lang.ClassNotFoundException".
+Эта статья перечисляет такие виды исключений и объясняет, какие библиотеки установлены для их устранения.
 
-1.  Загрузите любую крупную версию[Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
-1. Распакуйте загруженный архив и перейдите в каталог \JDK 1.6\aspose-cells-xx0-java\lib.
-1. Создайте ссылку на bcprov-jdk16-146.jar в пути к классам проекта.
+## Как исправить ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider
+### **Сводка**
+API Aspose.Cells for Java зависит от Bouncy Castle для функций шифрования и дешифрования, то есть, если программа требуется загрузить или сохранить зашифрованные электронные таблицы, необходимо добавить ссылку на bcprov-jdk16-146.jar в путь класса проекта.
+### **Симптомы**
+Вы можете получить java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider. 
+### **Решение**
+Решение очень простое и описано ниже.
 
-Альтернативно вы можете добавить зависимость в pom.xml и позволить проекту разрешить зависимость через maven.
+1. Скачайте любую основную версию [Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
+1. Извлеките скачанный архив и перейдите в каталог \JDK 1.6\aspose-cells-x.x.0-java\lib.
+1. Добавьте ссылку на bcprov-jdk16-146.jar в путь класса проекта.
 
-{{< highlight "java" >}}
+Кроме того, вы можете добавить зависимость в pom.xml и позволить проекту разрешить зависимость через maven.
+
+{{< highlight java >}}
 
  <dependencies>
 

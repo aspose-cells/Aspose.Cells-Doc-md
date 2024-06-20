@@ -1,15 +1,16 @@
-﻿---
+---
 title: Seitenumbruchvorschau in Ruby
 type: docs
 weight: 70
 url: /de/java/page-break-preview-in-ruby/
 ---
+
 ## **Aspose.Cells - Seitenumbruchvorschau**
- So stellen Sie das Arbeitsblatt auf Seitenumbruchvorschau ein**Aspose.Cells Java für Rubin** , einfach aufrufen**Seitenumbruchvorschau** Modul.
+Um ein Arbeitsblatt auf die Seitenumbruchvorschau mit Aspose.Cells Java für Ruby einzustellen, rufen Sie einfach das Modul PageBreakPreview auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -36,7 +37,7 @@ workbook.save(data_dir + "output.xls")
 puts "Set page break preview, please check the output file."
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Seitenumbruch-Vorschau (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Download von **Seitenumbruchvorschau (Aspose.Cells)** von einer der unten genannten sozialen Coding-Seiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreakpreview.rb)

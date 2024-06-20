@@ -1,32 +1,33 @@
 ---
-title: "Configuración de la opción de tabla dinámica: para mostrar Cells vacío"
+title: Configurar Opción de tabla dinámica  Mostrar celdas vacías
 type: docs
 weight: 40
 url: /es/python-net/setting-pivot-table-option-for-empty-cells-show/
-description: Este artículo muestra cómo configurar la opción de tabla dinámica con Aspose.Cells for Python via .NET.
-keywords: Set Pivot Table Option
+description: Este artículo muestra cómo configurar la opción de tabla dinámica con Aspose.Cells para Python via .NET.
+keywords: Aspose.Cells for Python Excel, biblioteca de Excel para Python, configurar opción de tabla dinámica.
 ---
+
 {{% alert color="primary" %}}
 
-Puede configurar diferentes opciones de tabla dinámica usando Aspose.Cells for Python via .NET. Una de esas opciones es "Para celdas vacías, mostrar". Al configurar esta opción, todas las celdas vacías de una tabla dinámica se muestran como una cadena especificada.
+Puede configurar diferentes opciones de tabla dinámica utilizando Aspose.Cells for Python via .NET. Una de esas opciones es "Mostrar celdas vacías". Al configurar esta opción, todas las celdas vacías en una tabla dinámica se muestran como una cadena especificada.
 
 {{% /alert %}}
 
-##  **Configuración de la opción de tabla dinámica en Microsoft Excel**
+## **Cómo configurar la opción de tabla dinámica en Microsoft Excel**
 
-Para buscar y configurar esta opción en Microsoft Excel:
+Para encontrar y configurar esta opción en Microsoft Excel:
 
 1. Seleccione una tabla dinámica y haga clic derecho.
-1. Seleccione *Opciones de tabla dinámica**.
-1.  Selecciona el**Diseño y formato** pestaña.
-1.  Selecciona el**Para celdas vacías mostrar** opción y especifique una cadena.
+2. Seleccione **Opciones de tabla dinámica**.
+3. Seleccione la pestaña **Diseño y formato**.
+4. Seleccione la opción **Mostrar celdas vacías** y especifique una cadena.
 
-##  **Configuración de la opción de tabla dinámica usando Aspose.Cells for Python via .NET**
+## **Cómo configurar la opción de tabla dinámica usando la biblioteca de Excel de Python Aspose.Cells**
 
-Aspose.Cells for Python via .NET proporciona la[**Tabla dinámica.display_null_string**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/display_null_string/) y[**Tabla dinámica.null_string**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/null_string/) propiedades para configurar la opción de tabla dinámica "Para celdas vacías mostrar".
+Aspose.Cells para Python via .NET proporciona las propiedades [**PivotTable.display_null_string**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/display_null_string/) y [**PivotTable.null_string**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/null_string/) para configurar la opción de tabla dinámica "Mostrar en celdas vacías".
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingPivotTableOption-SettingPivotTableOption.py" >}}
 
-##  Artículos relacionados
+## Artículos relacionados
 
-- [Formato de tabla dinámica](/cells/es/net/formatting-pivot-table/)
+- [Dar formato a la tabla dinámica](/cells/es/net/formatting-pivot-table/)

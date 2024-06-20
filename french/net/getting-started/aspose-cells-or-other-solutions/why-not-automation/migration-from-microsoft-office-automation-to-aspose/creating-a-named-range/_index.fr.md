@@ -1,39 +1,40 @@
-﻿---
-title: Création d'une plage nommée
+---
+title: Création d une plage nommée
 type: docs
 weight: 70
 url: /fr/net/creating-a-named-range/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET permet aux développeurs d'effectuer la plupart des tâches que les utilisateurs peuvent effectuer dans Microsoft Excel via leurs applications. Cet article explique comment appliquer une plage nommée par programme.
+Aspose.Cells for .NET permet aux développeurs d'effectuer la plupart des tâches que les utilisateurs peuvent effectuer dans Microsoft Excel via leurs applications. Cet article explique comment appliquer une plage nommée de manière programmable.
 
-Une plage nommée est une fonctionnalité Excel qui vous permet d'attribuer un nom à une cellule ou à une plage de cellules dans une feuille de calcul Excel. Vous pouvez ensuite utiliser le nom dans les formules pour faire référence à la cellule (ou à la plage). Des gammes bien nommées facilitent la compréhension des formules.
+Une plage nommée est une fonctionnalité Excel qui vous permet d'attribuer un nom à une cellule, ou à une plage de cellules, dans une feuille de calcul Excel. Vous pouvez ensuite utiliser le nom dans des formules pour faire référence à la cellule (ou à la plage). Des plages nommées de manière sensée rendent les formules plus faciles à comprendre.
 
-Une plage nommée doit être unique dans sa portée, n'utilisez donc pas le même nom pour plusieurs plages dans une feuille de calcul. Les noms de plage descriptifs permettent d'éviter cela : par exemple, OrderSubTotal est plus descriptif que SubTotal et également moins susceptible d'être dupliqué sur une feuille.
+Une plage nommée doit être unique dans son champ d'application, ne pas utiliser le même nom pour plusieurs plages dans une feuille de calcul. Des noms de plage descriptifs aident à éviter cela : par exemple, 'Sous-totalCommande' est plus descriptif que 'Sous-total' et moins susceptible d'être dupliqué sur une feuille.
 
 {{% /alert %}}
 
 ## **Création d'une plage nommée**
 
-Pour créer une plage nommée :
+Pour créer une plage nommée :
 
-1. Configurez la feuille de calcul :
- 1. Instanciez un objet Application.
- (VSTO uniquement.)
- 1. Ajoutez un classeur.
- 1. Obtenez la première feuille.
-1. Créez une plage nommée :
- 1. Définissez une plage.
- 1. Nommez la plage.
+1. Mettez en place la feuille de calcul:
+   1. Instancier un objet Application.
+      (VSTO uniquement.)
+   1. Ajouter un classeur.
+   1. Obtenir la première feuille.
+1. Créer une plage nommée :
+   1. Définir une plage.
+   1. Nommer la plage.
 1. Enregistrez le fichier.
 
- Les exemples de code ci-dessous montrent comment effectuer ces étapes à l'aide de[VSTO](/cells/fr/net/creating-a-named-range/) avec C# ou Visual Basic. Les exemples de code qui suivent montrent comment faire la même chose en utilisant[Aspose.Cells for .NET](/cells/fr/net/creating-a-named-range/), toujours avec C# ou Visual Basic.
+Les exemples de code ci-dessous montrent comment effectuer ces étapes à l'aide de [VSTO](/cells/fr/net/creating-a-named-range/) avec soit C# soit Visual Basic. Les exemples de code suivants montrent comment faire la même chose en utilisant [Aspose.Cells for .NET](/cells/fr/net/creating-a-named-range/), encore une fois avec soit C# soit Visual Basic.
 ### **Création d'une plage nommée avec VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -97,32 +98,32 @@ xl.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-en utilisant Aspose.Cells ;
+using Aspose.Cells;
 
 .......
 
 
-//Instanciation d'un objet Workbook
+//Instantiating a Workbook object
 
-classeur classeur = nouveau classeur();
+Workbook workbook = new Workbook();
 
-//Accéder à la première feuille de calcul du fichier Excel
+//Accessing the first worksheet in the Excel file
 
-Feuille de calcul feuille de calcul = workbook.Worksheets[0] ;
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Création d'une plage nommée
+//Creating a named range
 
-Plage plage = worksheet.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Définition du nom de la plage nommée
+//Setting the name of the named range
 
-range.Name = "Test_Range" ;
+range.Name = "Test_Range";
 
- pour (int ligne = 0; ligne< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 

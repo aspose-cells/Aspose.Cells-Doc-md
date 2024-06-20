@@ -1,34 +1,35 @@
 ---
-title: 安全な PDF ドキュメント
+title: セキュアなPDFドキュメント
 type: docs
 weight: 260
 url: /ja/java/secure-pdf-documents/
-description: Excel ファイルから変換する際に PDF ファイルを保護します。この記事では、Aspose.Cells for Java API を使用して Excel から安全な PDF ファイルを生成する方法を示します。
-keywords: secure pdf documents java, secure pdf documents, excel to secure pdf, excel to secure pdf java, convert excel to secure pdf, convert excel to secure pdf java, convert excel to password protected pdf, convert excel to password protected pdf java, excel to password protected pdf java, excel to password protected pdf
+description: Excelファイルからの変換時にセキュアなPDFファイルを作成します。この記事では、Aspose.Cells for Java APIを使用してExcelからセキュアなPDFファイルを生成する方法を示します。
+keywords: セキュアPDFドキュメントjava、セキュアPDFドキュメント、ExcelからセキュアPDF、ExcelからセキュアPDF java、Excelからパスワード保護されたPDFに変換、Excelからパスワード保護されたPDFに変換java、Excelからパスワード保護されたPDFに変換、Excelからパスワード保護されたPDFに変換java、Excelからパスワード保護されたPDFに変換java、Excelからパスワード保護されたPDF
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、開発者は暗号化された PDF ファイルを操作する必要があります。例えば：
+開発者は、暗号化されたPDFファイルと作業する必要がある場合があります。
 
-- 所有者パスワードとユーザーパスワードを使用してドキュメントを保護し、誰でも開くことができないようにします。
-- ドキュメントを開いた後、ドキュメントに対する制限またはアクセス許可を設定します。たとえば、ドキュメントのコンテンツを印刷または抽出できるかどうかを制限します。
+- ドキュメントをオーナーパスワードとユーザーパスワードでセキュリティ保護して、誰もがそれを開けなくする。
+- ドキュメントを開いた後にドキュメントに制限や権限を設定します。例: ドキュメントの内容を印刷または抽出できるかどうかを制限します。
 
-この記事では、スプレッドシートを PDF に保存するときに PDF セキュリティ オプションを渡す方法について説明します。
+この記事では、スプレッドシートをPDFに保存する際にPDFセキュリティオプションを渡す方法について説明します。
 
 {{% /alert %}}
 
- Aspose.Cellsが提供します[**PDFセキュリティオプション**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions/)セキュリティ関連の作業に使用します。 PDF に保存するときに、所有者パスワードとユーザー パスワードを設定できます。暗号化された PDF ドキュメントを開いて表示するには、所有者パスワードまたはユーザー パスワードが必要です。
+Aspose.Cells はセキュリティを扱うための [**PdfSecurityOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions/) を提供します。 PDFに保存する際に所有者パスワードとユーザーパスワードを設定することができます。 オーナーパスワードまたはユーザーパスワードは、ビューで暗号化されたPDFドキュメントを開くために必要です。
 
-- ユーザー パスワードには null または空の文字列を指定できます。この場合、PDF ドキュメントを開くときにユーザーにパスワードは要求されません。
-- 正しい所有者パスワードを使用して PDF ドキュメントを開くと、ドキュメントへのフル アクセス (アクセス制限が指定されていない) が許可されます。
-- 正しいユーザー パスワードを使用して PDF 文書を開くと (またはユーザー パスワードを持たない文書を開くと)、指定されたアクセス許可に従って制限付きアクセスが許可されます。
+- ユーザーパスワードはnullまたは空の文字列にすることができます。この場合、ユーザーがPDFドキュメントを開く際にパスワードが要求されません。
+- 正しい所有者パスワードでPDFドキュメントを開くと、ドキュメントへのフルアクセス（指定されたアクセス制限なし）が可能です。
+- 正しいユーザーパスワードでPDFドキュメントを開く（またはユーザーパスワードのないドキュメントを開く）と、指定された権限に応じて限定されたアクセスが可能です。
 
-以下のサンプル コードでは、Aspose.Cells for Java API で保護された PDF ファイルを作成する方法を説明します。
+以下のサンプルコードは、Aspose.Cells for Java APIを使用してセキュアなPDFファイルを作成する方法を説明しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SecurePDFDocuments-SecurePDFDocuments.java" >}}
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、次のように呼び出すのが最善です。[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()これにより、式に依存する値が再計算され、正しい値が PDF にレンダリングされるようになります。
+スプレッドシートに数式が含まれている場合、PDFにレンダリングする直前に [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) を呼び出すことが最善です。これにより、数式に依存する値が再計算され、PDFで正しい値がレンダリングされます。
 
 {{% /alert %}}

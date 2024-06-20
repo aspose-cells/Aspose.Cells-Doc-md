@@ -1,22 +1,23 @@
-﻿---
-title: Exportera intervallet Cells i ett kalkylblad till bild
+---
+title: Exportera område av celler i en arbetsbok till bild
 type: docs
 weight: 60
 url: /sv/net/export-range-of-cells-in-a-worksheet-to-image/
 ---
-## **Möjliga användningsscenarier**
 
-Du kan skapa en bild av ett kalkylblad med Aspose.Cells. Men ibland behöver du bara exportera ett cellintervall i ett kalkylblad till en bild. Den här artikeln förklarar hur du uppnår detta.
+## **Möjliga användningsscenario**
 
-## **Exportera intervallet Cells i ett kalkylblad till bild**
+Du kan skapa en bild av en arbetsbok med hjälp av Aspose.Cells. Ibland behöver du dock exportera endast ett område av celler i en arbetsbok till en bild. Den här artikeln förklarar hur du åstadkommer detta.
 
- För att ta en bild av ett område, ställ in utskriftsområdet till önskat område och ställ sedan in alla marginaler till 0. Ställ även in[**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet) till**Sann** . Följande kod tar en bild av området D8:G16. Nedan är en skärmdump av[exempel på Excel-fil](47153160.xlsx) används i koden. Du kan prova koden med valfri Excel-fil.
+## **Exportera område av celler i en arbetsbok till bild**
 
-## **Skärmdump av exempel på Excel-fil och dess exporterade bild**
+För att ta en bild av ett område, ange utskriftsområdet till det önskade området och ställ sedan in alla marginaler till 0. Ställ också in [**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet) till **true**. Följande kod tar en bild av området D8:G16. Nedan finns en skärmbild av den [exempelfil i Excel](47153160.xlsx) som används i koden. Du kan prova koden med vilken Excel-fil som helst.
+
+## **Skärmbild av exempelfil i Excel och dess exporterade bild**
 
 **![todo:image_alt_text](export-range-of-cells-in-a-worksheet-to-image_1.png)**
 
-Genom att köra koden skapas endast en bild av området D8:G16.
+Genom att köra koden skapas en bild av området D8:G16 endast.
 
 **![todo:image_alt_text](Output-Image.png)**
 

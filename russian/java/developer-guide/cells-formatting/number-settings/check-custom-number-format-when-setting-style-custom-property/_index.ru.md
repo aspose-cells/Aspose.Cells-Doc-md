@@ -1,16 +1,17 @@
-﻿---
-title: Проверьте пользовательский числовой формат при настройке свойства Style.Custom
+---
+title: Проверьте пользовательский формат чисел при установке Style.Custom свойства
 type: docs
 weight: 160
 url: /ru/java/check-custom-number-format-when-setting-style-custom-property/
 ---
+
 ## **Возможные сценарии использования**
 
- Если вы назначите недопустимый пользовательский формат номера для[**Стиль.Пользовательский**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)свойство, то Aspose.Cells не будет вызывать никаких исключений. Но если вы хотите, чтобы Aspose.Cells проверял, действителен ли назначенный формат пользовательского номера, установите[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) собственность на**истинный**.
+Если вы назначите недопустимый пользовательский формат числа для свойства [**Style.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom), то Aspose.Cells не выдаст никакого исключения. Но если вы хотите, чтобы Aspose.Cells проверил, допустим ли назначенный пользовательский формат числа или нет, то установите свойство [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) на **true**.
 
-## **Проверьте пользовательский числовой формат при настройке свойства Style.Custom.**
+## **Проверьте пользовательский формат числа при установке Style.Custom свойства**
 
- Следующий пример кода назначает недопустимый формат пользовательского номера для[**Стиль.Пользовательский**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) имущество. Поскольку мы уже установили[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) собственность на**истинный** , поэтому API вызовет исключение CellsException, например*Неверный числовой формат*.
+Приведенный ниже образец кода назначает недопустимый пользовательский формат числа для свойства [**Style.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom). Поскольку мы уже установили свойство [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) на **true**, API выдаст исключение CellsException, например, *Invalid number format*.
 
 ## **Образец кода**
 

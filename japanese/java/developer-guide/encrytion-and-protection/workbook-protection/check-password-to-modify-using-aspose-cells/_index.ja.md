@@ -1,30 +1,31 @@
-﻿---
-title: Aspose.Cells を使用して変更するパスワードを確認してください
+---
+title: Aspose.Cellsを使用して変更用パスワードを確認する
 type: docs
 weight: 190
 url: /ja/java/check-password-to-modify-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-割り当てることができます**開くためのパスワード**そして**変更するパスワード**Microsoft Excel でワークブックを作成している間。これらのパスワードを指定するために Excel が提供するインターフェース Microsoft を示すこのスクリーンショットを参照してください。
+Microsoft Excelでブックを作成する際に**開くためのパスワード**と**変更用のパスワード**を割り当てることができます。これらのパスワードを指定するインターフェースを提供しているMicrosoft Excelのスクリーンショットをご覧ください。
 
-![todo:画像_代替_文章](check-password-to-modify-using-aspose-cells_1.png)
+![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
-場合によっては、指定されたパスワードが一致するかどうかを確認する必要があります**変更するパスワード**プログラム的に。 Aspose.Cells提供[**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)）変更するために指定されたパスワードが正しいかどうかを確認するために使用できるメソッド。
+時々、プログラムで指定されたパスワードが**変更用のパスワード**と一致するかどうかをチェックする必要があります。Aspose.Cellsは、指定された変更用パスワードが正しいかどうかを確認するための[**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String))メソッドを提供しています。
 
 {{% /alert %}}
 
-## Java 確認するコード Aspose.Cells を使用して変更するパスワード
+## Aspose.Cellsを使用して変更用パスワードを確認するためのJavaコード
 
-次のサンプル コードは、[ソースエクセル](5473057.xlsx)ファイル。として開くためのパスワードがあります*1234*および変更するパスワード*5678*.コードは最初に以下をチェックします*567*変更する正しいパスワードであり、それが返されます**間違い**そして、それは*5678*変更するパスワードであり、それが返されます**真実**.
+以下のサンプルコードは、[ソースExcel](5473057.xlsx)ファイルをロードします。開くためのパスワードは*1234*、変更用のパスワードは*5678*です。コードはまず*567*が変更用のパスワードの正しさを確認し、**false**を返し、次に*5678*が変更用のパスワードであるかどうかを確認し、**true**を返します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckPassword-CheckPassword.java" >}}
 
-## Java コードによって生成されたコンソール出力
+## Javaコードによって生成されるコンソール出力
 
-上記のサンプル コードをロードした後のコンソール出力は次のとおりです。[ソースエクセル](5473057.xlsx)ファイル。
+以上が、上記サンプルコードによって生成された[ソースExcel](5473057.xlsx)ファイルをロードした後のコンソール出力です。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is 567 correct Password to modify: false
 

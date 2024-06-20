@@ -1,4 +1,4 @@
-﻿---
+---
 title: スライサー
 type: docs
 weight: 180

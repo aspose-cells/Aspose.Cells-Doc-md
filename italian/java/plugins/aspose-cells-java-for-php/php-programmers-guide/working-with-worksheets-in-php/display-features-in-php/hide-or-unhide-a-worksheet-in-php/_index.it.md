@@ -1,16 +1,17 @@
-﻿---
-title: Nascondere o scoprire un foglio di lavoro in Php
+---
+title: Nascondi o mostra un foglio di lavoro in Php
 type: docs
 weight: 50
 url: /it/java/hide-or-unhide-a-worksheet-in-php/
 ---
-## **Aspose.Cells - Nascondi o mostra un foglio di lavoro**
+
+## **Aspose.Cells - Nascondi o Mostra un Foglio**
 ### **Nascondere un foglio di lavoro**
- Per nascondere il foglio di lavoro utilizzando Aspose.Cells Java for PHP, chiama**hideunhideworksheet** modulo.
+Per nascondere il foglio di lavoro utilizzando Aspose.Cells Java per PHP, chiama il modulo **hideunhideworksheet**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -33,6 +34,6 @@ $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Nascondere o scoprire un foglio di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Nascondi o Mostra un Foglio (Aspose.Cells)** da uno dei siti di codice sociale sotto indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/HideUnhideWorksheet.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/HideUnhideWorksheet.php)

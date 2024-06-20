@@ -1,26 +1,27 @@
-﻿---
-title: Manuelle Integration mit Visual Studio 2005 oder 2008 Report Designer
+---
+title: Manuelles Integrieren mit Visual Studio 2005 oder 2008 Report Designer
 type: docs
 weight: 30
 url: /de/reportingservices/integrating-manually-with-visual-studio-2005-or-2008-report-designer/
 ---
+
 {{% alert color="primary" %}} 
 
-Bitte führen Sie die folgenden Schritte der Reihe nach aus, wenn Sie Aspose.Cells for Reporting Services manuell für Microsoft Visual Studio Report Designer ohne das MSI-Installationsprogramm installieren möchten. Wir empfehlen Ihnen, das MSI-Installationsprogramm zu verwenden, da es alle erforderlichen Installationen und Konfigurationen automatisch durchführt. Wenn die Installation mit dem MSI-Installationsprogramm jedoch fehlschlägt, befolgen Sie bitte die folgenden Richtlinien.
- In diesem Abschnitt wird beschrieben, wie Sie Aspose.Cells for Reporting Services auf einem Computer mit Business Intelligence Development Studio installieren. Dadurch können Sie Berichte zur Entwurfszeit aus dem Microsoft Visual Studio 2005 oder 2008 Report Designer in Microsoft Excel-Formate exportieren.
+Bitte führen Sie die folgenden Schritte in der richtigen Reihenfolge aus, wenn Sie Aspose.Cells for Reporting Services manuell für den Microsoft Visual Studio Report Designer installieren möchten, ohne das MSI-Installationsprogramm. Wir empfehlen die Verwendung des MSI-Installationsprogramms, da es alle notwendigen Installationen und Konfigurationen automatisch durchführt. Wenn die Installation mit dem MSI-Installationsprogramm jedoch fehlschlägt, befolgen Sie bitte die folgenden Anleitungen. 
+In diesem Abschnitt wird beschrieben, wie Sie Aspose.Cells for Reporting Services auf einem Computer mit Business Intelligence Development Studio installieren. Dadurch können Sie Berichte im Designzeitbereich vom Microsoft Visual Studio 2005 oder 2008 Report Designer in Microsoft Excel-Formate exportieren. 
 
 {{% /alert %}} 
 - **Integrationsprozess**
-1.  Kopieren**Aspose.Cells.ReportingServices.dll** in das Visual Studio-Verzeichnis.
- 1. Zur Integration mit Visual Studio 2005 Report Designer: kopieren**Aspose.Cells.ReportingServices.dll** in das Verzeichnis C:\Programme\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies.
- 1. Zur Integration mit Visual Studio 2008 Report Designer: kopieren**Aspose.Cells.ReportingServices.dll**in das Verzeichnis C:\Programme\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies.
-1.  Registrieren Sie Aspose.Cells for Reporting Services als Rendering-Erweiterung:
- 1. Öffnen**C:\Programme\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config** 
- (wo<Version> ist „8“ für Visual Studio 2005 oder „9.0“ für Visual Studio 2008) und fügen Sie die folgenden Zeilen in die hinzu<Render> Element:
+1. Kopieren Sie **Aspose.Cells.ReportingServices.dll** in das Visual Studio-Verzeichnis. 
+   1. Um mit dem Visual Studio 2005 Report Designer zu integrieren: Kopieren Sie **Aspose.Cells.ReportingServices.dll** in das Verzeichnis C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies.
+   1. Um mit dem Visual Studio 2008 Report Designer zu integrieren: Kopieren Sie **Aspose.Cells.ReportingServices.dll** in das Verzeichnis C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies.
+1. Aspose.Cells for Reporting Services als Rendering-Erweiterung registrieren: 
+   1. Open **C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config** 
+      (where <Version> is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following lines into the <Render> element: 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Extension Name="ACXLS" Type="Aspose.Cells.ReportingServices.XlsRenderer,Aspose.Cells.ReportingServices" />
 
@@ -44,13 +45,13 @@ Bitte führen Sie die folgenden Schritte der Reihe nach aus, wenn Sie Aspose.Cel
 
 {{< /highlight >}}
 
-1.  Geben Sie Aspose.Cells for Reporting Services Berechtigungen zum Ausführen:
- 1. Öffnen Sie C:\Programme\Microsoft Visual Studio<Version>\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config
- (wo<Version> ist „8“ für Visual Studio 2005 oder „9.0“ für Visual Studio 2008) und fügen Sie Folgendes als letztes Element in der zweiten nach außen hinzu<CodeGroup> Element (das sein sollte<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">): 
+1. Geben Sie Aspose.Cells for Reporting Services die Berechtigung zur Ausführung: 
+   1. Open C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config
+      (where <Version> is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following as the last item in the second to outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">): 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <CodeGroup>
 
@@ -78,10 +79,10 @@ Bitte führen Sie die folgenden Schritte der Reihe nach aus, wenn Sie Aspose.Cel
 
 {{< /highlight >}}
 
-1.  Überprüfen Sie, ob Aspose.Cells for Reporting Services erfolgreich installiert wurde:
- 1. Führen Sie Microsoft Visual Studio 2005 oder 2008 Report Designer aus oder starten Sie ihn neu.
- In der Liste der Exportformate sollten Sie neue verfügbare Formate bemerken.
+1. Überprüfen Sie, ob Aspose.Cells for Reporting Services erfolgreich installiert wurde: 
+   1. Führen Sie Microsoft Visual Studio 2005 oder 2008 Report Designer aus oder starten Sie es neu.
+      Sie sollten neue Formate in der Liste der Exportformate bemerken. 
 
-**Wenn die Komponente registriert wurde, erscheinen neue Exportformate im Report Designer** 
+**Wenn das Komponente registriert wurde, erscheinen neue Exportformate im Report Designer** 
 
-![todo: Bild_alt_Text](integrating-manually-with-visual-studio-2005-or-2008-report-designer_1.png)
+![todo:image_alt_text](integrating-manually-with-visual-studio-2005-or-2008-report-designer_1.png)

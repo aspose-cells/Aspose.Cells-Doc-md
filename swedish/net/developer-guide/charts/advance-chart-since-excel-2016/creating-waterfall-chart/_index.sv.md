@@ -1,24 +1,25 @@
 ---
-title: Hur man skapar vattenfallsdiagram
+title: Hur man skapar en vattenfallstabell
 type: docs
 weight: 160
 url: /sv/net/creating-waterfall-chart/
-description: Skapa vattenfallsdiagram i Excel med C# och Aspose.Cells for .NET API.
-keywords: c# create waterfall chart in excel, c# creating waterfall chart in excel, creating waterfall chart in excel with c#, create waterfall chart in excel with c#, create waterfall chart in excel c#, create waterfall chart excel c#, create waterfall chart in excel programmatically, how to create waterfall chart in excel with c#
+description: Skapa vattenfallstabeller i Excel med C# och Aspose.Cells for .NET API.
+keywords: c# skapa vattenfallstabell i Excel, c# skapa vattenfallstabell i Excel, skapa vattenfallstabell i Excel med c#, skapa vattenfallstabell i Excel med c#, skapa vattenfallstabell i Excel c#, skapa vattenfallstabell excel c#, skapa vattenfallstabell i Excel programmatically, hur man skapar vattenfallstabell i Excel med c#
 ---
+
 {{% alert color="primary" %}}
 
-Ett vattenfallsdiagram är en speciell typ av sjökort som normalt används för att visa hur startpositionen antingen ökar eller minskar. Microsoft Excel har många fördefinierade diagramtyper, inklusive kolumn, linje, cirkel, stapel, radar, etc. men vattenfallsdiagrammet är bortom de grundläggande graferna och kan skapas med de befintliga diagramtyperna med lite eller mer anpassning.
+En vattenfallstabell är en speciell typ av diagram som normalt används för att visa hur den startpositionen antingen ökar eller minskar. Microsoft Excel har många fördefinierade diagramtyper, inklusive stapel, linje, cirkel, stapeldiagram, radardiagram osv. men vattenfallstabellen går bortom de grundläggande graferna och kan skapas med de befintliga diagramtyperna med lite eller mer anpassning.
 
 {{% /alert %}} 
 
- Aspose.Cells API:er gör det möjligt att skapa ett vattenfallsdiagram med hjälp av linjediagram. API gör det också möjligt att anpassa diagrammets utseende för att ge det formen av vattenfallet genom att ställa in[**Series.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) & [**Series.DownBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars)egenskaper.
+Aspose.Cells API:er tillåter att skapa en vattenfallstabell med hjälp av linjediagram. API:et tillåter också anpassning av diagrammets utseende för att ge det formen av ett vattenfall genom att ställa in [**Series.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) och [**Series.DownBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars) egenskaper.
 
-Nedan medföljande kodavsnitt visar användningen av Aspose.Cells for .NET API för att skapa ett vattenfallsdiagram från grunden.
+Nedanstående kodsnutt visar användningen av Aspose.Cells for .NET API för att skapa en vattenfallstabell från grunden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateWaterfallChart-1.cs" >}}
 
-##  relaterade artiklar
+## Relaterade artiklar
 
 - [Skapa diagram](/cells/sv/net/creating-charts/)
-- [Anpassa diagram](/cells/sv/net/customizing-charts/)
+- [Anpassning av diagram](/cells/sv/net/customizing-charts/)

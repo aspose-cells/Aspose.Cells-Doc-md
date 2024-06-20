@@ -1,11 +1,12 @@
-﻿---
-title: Lavorare con le cartelle di lavoro in NPOI e Aspose.Cells
+---
+title: Lavorare con i Libri in NPOI e Aspose.Cells
 type: docs
 weight: 30
 url: /it/net/working-with-workbooks-in-npoi-and-aspose-cells/
 ---
-Questa sezione ha i seguenti argomenti:
 
-- [Aggiungi dati in Cells](/cells/it/net/add-data-in-cells/)
-- [Crea nuova cartella di lavoro](/cells/it/net/create-new-workbook/)
-- [Imposta area di stampa](/cells/it/net/set-print-area/)
+Questa sezione tratta i seguenti argomenti:
+
+- [Aggiungere Dati nelle Celle](/cells/it/net/add-data-in-cells/)
+- [Creare un nuovo Workbook](/cells/it/net/create-new-workbook/)
+- [Impostare l'area di stampa](/cells/it/net/set-print-area/)

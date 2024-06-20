@@ -1,41 +1,42 @@
-﻿---
-title: Python'de Çalışma Sayfasını Görüntüye Dönüştürme
+---
+title: Python da Çalışsayfayı Görsele Dönüştürme
 type: docs
 weight: 40
 url: /tr/java/converting-worksheet-to-image-in-python/
 ---
-## **Aspose.Cells - Çalışma Sayfasını Resme Dönüştürme**
-Ruby'de Aspose.Cells for Java kullanarak Çalışma Sayfasını Görüntüye dönüştürmek için Dönüştürücü modülünü çağırmanız yeterlidir.
 
-**Python Kod**
+## **Aspose.Cells - Çalışma Sayfasını Görüntüye Dönüştürme**
+Ruby'de Aspose.Cells for Java kullanarak Çalışma Sayfasını Görüntüye dönüştürmek için, Converter modülünü basitçe çağırın.
 
-{{< highlight "python" >}}
+**Python Kodu**
+
+{{< highlight python >}}
 
  imageFormat = self.ImageFormat
 
-# Instantiate a workbook with path to an Excel file
+#Instantiate a workbook with path to an Excel file
 
 book = self.Workbook(self.dataDir + "Book1.xls")
 
-# Create an object for ImageOptions
+#Create an object for ImageOptions
 
 imgOptions = self.ImageOrPrintOptions()
 
-# Set the image type
+#Set the image type
 
 imgOptions.setImageFormat(imageFormat.getPng())
 
-# Get the first worksheet.
+#Get the first worksheet.
 
 sheet = book.getWorksheets().get(0)
 
-# Create a SheetRender object for the target sheet
+#Create a SheetRender object for the target sheet
 
 sr =self.SheetRender(sheet, imgOptions)
 
 for i in range(sr.getPageCount()):
 
-# Generate an image for the worksheet
+#Generate an image for the worksheet
 
 sr.toImage(i, self.dataDir + "mysheetimg" + ".png")
 
@@ -46,6 +47,6 @@ print "Images generated successfully."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfasından Görüntüye (Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Altta belirtilen sosyal kodlama sitelerinden herhangi birinden  **Görsele Dönüştürme (Aspose.Cells)**'ı İndir
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

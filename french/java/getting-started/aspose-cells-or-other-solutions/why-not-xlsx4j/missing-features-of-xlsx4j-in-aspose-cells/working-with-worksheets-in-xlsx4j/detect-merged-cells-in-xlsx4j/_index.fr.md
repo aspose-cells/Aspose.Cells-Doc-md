@@ -1,16 +1,17 @@
-﻿---
-title: Détecter fusionné Cells dans xlsx4j
+---
+title: Détecter les cellules fusionnées dans xlsx4j
 type: docs
 weight: 20
 url: /fr/java/detect-merged-cells-in-xlsx4j/
 ---
-## **Aspose.Cells - Détecter fusionné Cells**
-Dans Microsoft Excel, plusieurs cellules peuvent être fusionnées en une seule. Ceci est souvent utilisé pour créer des tableaux complexes ou pour créer une cellule contenant un en-tête qui s'étend sur plusieurs colonnes.
-Aspose.Cells vous permet d'identifier les zones de cellules fusionnées dans une feuille de calcul. Vous pouvez également les dissocier.
+
+## **Aspose.Cells - Détecter les cellules fusionnées**
+Dans Microsoft Excel, plusieurs cellules peuvent être fusionnées en une seule. Cela est souvent utilisé pour créer des tableaux complexes, ou pour créer une cellule qui contient un titre qui couvre plusieurs colonnes.
+Aspose.Cells vous permet d'identifier les zones de cellules fusionnées dans une feuille de calcul. Vous pouvez aussi les défusionner.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the merged cells list to put it into the arraylist object
 
@@ -53,13 +54,13 @@ for(int i = al.size()-1 ; i > -1; i--)
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/detectmergecells/AsposeDetectMergeCells.java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Détecter fusionné Cells dans une feuille de calcul](/cells/fr/java/detect-merged-cells-in-a-worksheet).
+Pour plus de détails, visitez [Détecter les cellules fusionnées dans une feuille de calcul](/cells/fr/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}

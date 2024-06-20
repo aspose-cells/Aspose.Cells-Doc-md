@@ -1,12 +1,13 @@
-﻿---
+---
 title: Sortera data i kalkylblad
 type: docs
 weight: 230
 url: /sv/net/sort-data-in-worksheets/
 ---
-Nedan finns ett exempel på jämförelsekod för VSTO och Aspose.Cells.
+
+Nedan finns jämförelse-kodexemplet för VSTO och Aspose.Cells.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -36,7 +37,7 @@ Nedan finns ett exempel på jämförelsekod för VSTO och Aspose.Cells.
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -53,5 +54,5 @@ Nedan finns ett exempel på jämförelsekod för VSTO och Aspose.Cells.
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Ladda ner
+## **Ladda ned
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)

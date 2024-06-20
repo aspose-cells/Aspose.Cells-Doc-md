@@ -1,15 +1,16 @@
-﻿---
-title: PHP'de Sayfa Dizini Kullanarak Çalışma Sayfalarını Kaldırma
+---
+title: PHP de Sayfa İndeksini Kullanarak Sayfaları Kaldırma
 type: docs
 weight: 30
 url: /tr/net/removing-worksheets-using-sheet-index-in-php/
 ---
-## **Sayfa Dizini Kullanarak Çalışma Sayfalarını Kaldırma**
-Sayfa Dizini Kullanarak Çalışma Sayfalarını Kaldırma
 
-**PHP Kodu**
+## **Sayfa İndeksini Kullanarak Sayfaları Kaldırma**
+Sayfa İndeksini Kullanarak Sayfaları Kaldırma
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -31,6 +32,6 @@ Sayfa Dizini Kullanarak Çalışma Sayfalarını Kaldırma
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Sayfa Dizini Kullanarak Çalışma Sayfalarını Kaldırma (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Sheet Dizinini Kullanarak Çalışma Sayfalarını Kaldırma (Aspose.Cells) kılavuzunu aşağıdaki sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetIndex.php)

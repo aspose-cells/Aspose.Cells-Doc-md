@@ -1,16 +1,17 @@
-﻿---
+---
 title: Показать или скрыть полосы прокрутки в Php
 type: docs
 weight: 20
 url: /ru/java/display-or-hide-scroll-bars-in-php/
 ---
-## **Aspose.Cells — Показать или скрыть полосы прокрутки**
+
+## **Aspose.Cells - Показать или скрыть полосы прокрутки**
 ### **Скрытие полос прокрутки**
- Чтобы скрыть полосы прокрутки с помощью**Aspose.Cells Java for PHP** , вызов**показать скрыть полосы прокрутки** модуль.
+Чтобы скрыть полосы прокрутки с помощью **Aspose.Cells Java для PHP**, вызовите модуль **displayhidescrollbars**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -29,7 +30,7 @@ $workbook->getSettings()->setHScrollBarVisible(false);
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Показать или скрыть полосы прокрутки (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Показать или скрыть полосы прокрутки (Aspose.Cells)** с любого из указанных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideScrollBars.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideScrollBars.php)

@@ -1,30 +1,31 @@
-﻿---
-title: Применить проверку к номеру Cell
+---
+title: Получить примененную валидацию для ячейки
 type: docs
 weight: 80
 url: /ru/java/get-validation-applied-on-a-cell/
-description: В этой статье показано, как применить проверку на Cell с Java.
-keywords: apply cell validation in excel with java, apply validation on a cell in excel with java, apply validation in excel with java, cell validation in excel with java, java apply cell validation in excel, java apply validation on a cell in excel, java cell validation in excel, java cell validation
+description: В этой статье показано, как применять проверку в ячейке с помощью Java
+keywords: применить проверку ячейки в Excel с помощью Java, применить проверку к ячейке в Excel с помощью Java, применить проверку в Excel с помощью Java, проверка ячейки в Excel с помощью Java, Java применить проверку ячейки в Excel, Java применить проверку к ячейке в Excel, Java проверка ячейки в Excel, Java проверка ячейки
 ---
+
 {{% alert color="primary" %}}
 
- Вы можете использовать Aspose.Cells API, чтобы применить проверку к любой ячейке. Aspose.Cells обеспечивает[**Cell.getValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation() ) метод для этой цели. Если в ячейке нет проверки, возвращается значение null. Точно так же вы можете использовать[**Worksheet.getValidations().getValidationInCell (строка int, столбец int)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)) для получения проверки, примененной к ячейке, путем предоставления ее индексов строки и столбца.
+Вы можете использовать Aspose.Cells API, чтобы получить проверку, примененную к любой ячейке. Aspose.Cells предоставляет метод [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) для этой цели. Если на ячейке нет проверки, он возвращает null. Точно так же, вы можете использовать метод [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)), чтобы получить проверку, примененную к ячейке, указав ее индексы строки и столбца.
 
 {{% /alert %}}
 
- На следующем снимке показан образец файла Excel Microsoft, используемый в примере кода ниже. Cell**С1** имеет**десятичная проверка** применяется и может принимать только значения**между 10 и 20**.
+На следующем снимке экрана показан образец файла Microsoft Excel, используемый в следующем образце кода. Ячейка **C1** имеет примененную **десятичную проверку** и может принимать только значения **от 10 до 20**.
 
 **Ячейка с проверкой**
 
-![дело:изображение_альтернативный_текст](get-validation-applied-on-a-cell_1.png)
+![todo:image_alt_text](get-validation-applied-on-a-cell_1.png)
 
-В приведенном ниже примере кода проверка применяется к C1 и считываются его различные свойства.
+В следующем образце кода получается примененная проверка к ячейке C1 и считываются ее различные свойства.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetValidationAppliedonCell-GetValidationAppliedonCell.java" >}}
 
-Вот вывод консоли из примера кода, выполненного с образцом файла, показанным на снимке выше.
+Вот вывод на консоль из примера кода, выполненного с образцом файла, показанным на снимке экрана выше.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Reading Properties of Validation
 
@@ -42,6 +43,6 @@ Ignore blank: true
 
 {{< /highlight >}}
 
-## Статьи по Теме
+## Связанные статьи
 
 - [Валидация данных](/cells/ru/java/data-validation/)

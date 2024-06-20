@@ -1,12 +1,13 @@
-﻿---
-title: Utilisation de types anonymes ou d'objets personnalisés dans Aspose.Cells
+---
+title: Utilisation de types anonymes ou d objets personnalisés dans Aspose.Cells
 type: docs
 weight: 30
 url: /fr/net/using-anonymous-types-or-custom-objects-in-aspose-cells/
 ---
-Aspose.Cells prend également en charge les types anonymes ou les objets personnalisés dans les marqueurs intelligents. Dans l'exemple ci-dessous, la classe de produit doit être définie avant utilisation.
 
-{{< highlight "csharp" >}}
+Aspose.Cells prend également en charge les types anonymes ou les objets personnalisés dans les marqueurs intelligents. Dans l'exemple ci-dessous, la classe Product doit être définie avant utilisation.
+
+{{< highlight csharp >}}
 
  //Instantiate the workbookdesigner object.
 
@@ -47,5 +48,5 @@ report.Process(false);
 report.Workbook.Save("Smart Marker Customobjects.xls");
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)

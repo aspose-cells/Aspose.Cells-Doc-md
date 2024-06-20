@@ -1,17 +1,18 @@
-﻿---
-title: Impression de classeurs en xlsx4j
+---
+title: Imprimer des classeurs dans xlsx4j
 type: docs
 weight: 30
 url: /fr/java/printing-workbooks-in-xlsx4j/
 ---
-## **Aspose.Cells - Impression de cahiers**
-Après avoir fini de créer votre feuille de calcul, vous souhaiterez probablement imprimer une copie papier de la feuille selon vos besoins. Lorsque vous imprimez, MS Excel suppose que vous souhaitez imprimer toute la zone de la feuille de calcul, sauf si vous spécifiez votre sélection.
 
-**Feuille de travail d'impression**
+## **Aspose.Cells - Impression de classeurs**
+Après avoir créé votre feuille de calcul, vous voudrez probablement en imprimer une copie papier pour vos besoins. Lors de l'impression, MS Excel suppose que vous souhaitez imprimer toute la zone de la feuille à moins que vous ne spécifiez votre sélection.
+
+**Imprimer la feuille de calcul**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,11 +36,11 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 
-**Cahier d'impression**
+**Imprimer le classeur**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a WorkbookRender object with respect to your workbook
 
@@ -50,13 +51,13 @@ WorkbookRender wr = new WorkbookRender(book, imgOptions);
 wr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/print/printworkbook/AsposePrintWorkbook.java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[ Impression de classeurs](/cells/fr/java/printing-workbooks).
+Pour plus de détails, visitez [Impression des classeurs](/cells/fr/java/printing-workbooks).
 
 {{% /alert %}}

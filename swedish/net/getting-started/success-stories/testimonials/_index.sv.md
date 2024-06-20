@@ -1,13 +1,14 @@
-﻿---
-title: Rekommendationer
+---
+title: Testimonials
 type: docs
 weight: 10
 url: /sv/net/testimonials/
 ---
+
 {{% alert color="primary" %}}
 
-För rekommendationer från Aspose.Cells kunder, vänligen kontrollera:
+För testimonials från Aspose.Cells kunder, var vänlig kontrollera:
 
-[Rekommendationer](https://downloads.aspose.com/corporate/case-studies/aspose.cells/)
+[Testimonials](https://downloads.aspose.com/corporate/case-studies/aspose.cells/)
 
 {{% /alert %}}

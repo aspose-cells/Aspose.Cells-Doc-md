@@ -4,143 +4,146 @@ type: docs
 weight: 220
 url: /ar/net/convert-excel-to-pdf/
 ---
-{{% alert color="primary" %}}
-
-يدعم Aspose.Cells تحويل مصنف Excel إلى PDF. في هذا المثال، سنرى التحويل الكامل لمصنف Excel إلى PDF.
-
-{{% /alert %}}
-
-##  **تحويل مصنف Excel إلى PDF**
-
-تُستخدم ملفات PDF على نطاق واسع لتبادل المستندات بين المؤسسات والقطاعات الحكومية والأفراد. إنه تنسيق مستند قياسي وغالبًا ما يُطلب من مطوري البرامج إيجاد طريقة لتحويل ملفات Excel Microsoft إلى PDF مستندًا.
-
-Aspose.Cells يدعم تحويل ملفات Excel إلى PDF ويحافظ على دقة بصرية عالية في التحويل.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET يكتب مباشرة المعلومات حول API ورقم الإصدار في مستندات الإخراج. على سبيل المثال، عند تقديم المستند إلى PDF، تتم تعبئة Aspose.Cells for .NET**PDF منتج** حقل ذو قيمة، على سبيل المثال "Aspose.Cells v23.2".
-
- يرجى ملاحظة أنه يمكنك تغيير هذه المعلومات في المستندات الناتجة عن طريق**[PdfSaveOptions.Producer](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/producer/)** ملكية.
+تدعم Aspose.Cells تحويل سجل العمل في Excel إلى PDF. في هذا المثال، سنرى التحويل الكامل لسجل عمل Excel إلى PDF.
 
 {{% /alert %}}
 
-###  **التحويل المباشر**
+## **تحويل سجل عمل Excel إلى PDF**
 
- Aspose.Cells for .NET يدعم التحويل من جداول البيانات إلى PDF بشكل مستقل عن البرامج الأخرى. ما عليك سوى حفظ ملف Excel على الرقم PDF باستخدام ملف**[المصنف](https://reference.aspose.com/cells/net/aspose.cells/workbook)**فصل'**[حفظ](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** طريقة. ال**[حفظ](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** توفر الطريقة**[حفظ التنسيق.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**عضو التعداد الذي يحول ملفات Excel الأصلية إلى تنسيق PDF.
+تستخدم ملفات PDF على نطاق واسع لتبادل المستندات بين المؤسسات والقطاعات الحكومية والأفراد. إنها صيغة مستند قياسية وغالبًا ما يُطلب من مطوري البرامج أن يجدوا طريقة لتحويل ملفات Microsoft Excel إلى مستندات PDF.
 
-اتبع الخطوات التالية لتحويل جداول بيانات Excel مباشرة إلى تنسيق PDF:
+تدعم Aspose.Cells تحويل ملفات Excel إلى PDF وتحافظ على دقة الرؤية العالية في التحويل.
 
-1.  إنشاء مثيل لكائن من**[المصنف](https://reference.aspose.com/cells/net/aspose.cells/workbook)**فئة عن طريق استدعاء منشئها الفارغ.
-1. يمكنك فتح/تحميل ملف قالب موجود أو تخطي هذه الخطوة إذا كنت تقوم بإنشاء المصنف من البداية.
-1. قم بأي عمل (إدخال البيانات، وتطبيق التنسيق، وتعيين الصيغ، وإدراج الصور أو الكائنات الرسومية الأخرى، وما إلى ذلك) في جدول البيانات باستخدام واجهات برمجة التطبيقات Aspose.Cells.
-1.  عند اكتمال رمز جدول البيانات، اتصل بـ**[المصنف](https://reference.aspose.com/cells/net/aspose.cells/workbook)**فصل'**[حفظ](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**طريقة حفظ جدول البيانات.
+{{% alert color="primary" %}}
 
- يجب أن يكون تنسيق الملف PDF لذا اختر*Pdf* (قيمة محددة مسبقًا) من**[حفظ التنسيق](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**التعداد لإنشاء مستند PDF النهائي.
+يكتب Aspose.Cells for .NET مباشرة المعلومات حول الواجهة البرمجية ورقم الإصدار في المستندات الناتجة. على سبيل المثال، عند تقديم مستند إلى PDF، يملأ Aspose.Cells for .NET حقل **PDF Producer** بالقيمة، على سبيل المثال 'Aspose.Cells v23.2'.
+
+يرجى ملاحظة أنه يمكنك تغيير هذه المعلومات في مستندات الإخراج عن طريق خاصية [**PdfSaveOptions.Producer**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/producer/).
+
+{{% /alert %}}
+
+### **التحويل المباشر**
+
+يدعم Aspose.Cells for .NET التحويل من جداول البيانات إلى ملف PDF بشكل مستقل عن البرمجيات الأخرى. ما عليك سوى حفظ ملف Excel كملف PDF باستخدام طريقة [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) في فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook). طريقة [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) توفر عضو تعداد [**SaveFormat.Pdf**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) الذي يحول الملفات الأصلية للExcel إلى تنسيق PDF.
+
+اتبع الخطوات التالية لتحويل الجداول الحسابية في Excel مباشرة إلى تنسيق PDF:
+
+1. قم بإنشاء كائن من فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) بالاتصال ببنائه الفارغ.
+1. يمكنك فتح/تحميل ملف قالب موجود أو تخطي هذه الخطوة إذا كنت تقوم بإنشاء السجل العمل من البداية.
+1. أدخل أي عمل (البيانات الدخلية، تطبيق التنسيق، ضبط الصيغ، إدراج الصور أو كائنات الرسم الأخرى، وما إلى ذلك) على ورق العمل باستخدام واجهات برمجة التطبيقات Aspose.Cells.
+1. عند اكتمال رمز الجداول، اتصل بطريقة [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) في فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) لحفظ الجدول.
+
+يجب أن يكون تنسيق الملف PDF، لذا حدد *Pdf* (قيمة محددة مسبقًا) من تعداد [**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) لتوليد مستند PDF النهائي.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-XlstoPDFDirectConversation-1.cs" >}}
 
-###  **التحويل المتقدم**
+### **التحويل المتقدم**
 
- يمكنك أيضًا اختيار استخدام**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** class لتعيين سمات مختلفة للتحويل. تحديد خصائص مختلفة لل**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** تمنحك الفئة التحكم في إعدادات الطباعة والخط والأمان والضغط للإخراج PDF. الخاصية الأكثر أهمية هي**[الامتثال](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**والتي تمكنك من حفظ ملفات Excel إلى ملفات PDF/A المتوافقة مع PDF.
+يمكنك أيضًا استخدام الفصيلة [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) لتعيين خصائص مختلفة للتحويل. تعيين خصائص مختلفة للفصيلة [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) يمنحك السيطرة على إعدادات الطباعة، الخط، الأمان، والضغط لمخرج PDF. 
 
-####  **حفظ المصنف في PDF/A الملفات الممتثلة**
+أهم خاصية هي [**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance) التي تمكّنك من تعيين مستوى الامتثال لمعايير PDF. حاليًا، يمكنك حفظ إلى صيغ PDF 1.4، PDF 1.5، PDF 1.6، PDF 1.7، PDF/A-1a، PDF/A-1b، PDF/A-2a، PDF/A-2b، PDF/A-2u، PDF/A-3a، PDF/A-2ab، وصيغ PDF/A-3u. يرجى ملاحظة أنه مع صيغة PDF/A، يكون حجم الملف الناتج أكبر من حجم ملف PDF عادي.
 
- يوضح مقتطف الكود المتوفر أدناه كيفية استخدام**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**فئة لحفظ ملفات Excel بتنسيق PDF/A المتوافق PDF.
+#### **حفظ جدول البيانات إلى ملف PDF/A المتوافق**
+
+مقطع الرمز المقدم أدناه يوضح كيفية استخدام فئة [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) لحفظ ملفات Excel إلى تنسيق PDF/A متوافق مع PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AdvancedConversiontoPdf-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-يرجى ملاحظة أن**[الامتثال](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**تمت إضافة الخاصية مع إصدار Aspose.Cells for .NET 5.3.0.
+يرجى ملاحظة أن تمت إضافة خاصية [**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance) مع إصدار Aspose.Cells for .NET 5.3.0.
 
 {{% /alert %}}
 
-####  **اضبط وقت الإنشاء PDF**
+#### **تعيين وقت إنشاء ملف PDF**
 
- مع ال**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**فئة، يمكنك الحصول على أو ضبط وقت الإنشاء PDF. الكود التالي يوضح استخدام**[PdfSaveOptions.CreatedTime](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/createdtime)** الخاصية لتعيين وقت إنشاء الملف PDF.
+مع فئة [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)، يمكنك الحصول على أو تعيين وقت إنشاء PDF. يوضح الرمز التالي استخدام الخاصية [**PdfSaveOptions.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/createdtime) لتعيين وقت إنشاء ملف PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetPDFCreationTime-1.cs" >}}
 
-####  **قم بتعيين خيار ContentCopyForAccessibility**
+#### **تعيين خيار ContentCopyForAccessibility**
 
-مع ال**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** فئة، يمكنك الحصول على أو تعيين PDF**[AccessibilityExtractContent](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)** خيار للتحكم في الوصول إلى المحتوى في PDF المحول.
+مع فئة [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)، يمكنك الحصول على أو تعيين خيار [**AccessibilityExtractContent**](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent) للتحكم في وصول المحتوى في ملف PDF المحول.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetContentCopyForAccessibility-1.cs" >}}
 
-####  **تصدير الخصائص المخصصة إلى PDF**
+#### **تصدير الخصائص المخصصة إلى ملف PDF**
 
-مع ال**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** فئة، يمكنك تصدير الخصائص المخصصة في المصنف المصدر إلى PDF.**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)**يتم توفير العداد لتحديد الطريقة التي يتم بها تصدير الخصائص. ويمكن ملاحظة هذه الخصائص في برنامج Adobe Acrobat Reader بالضغط على خيار File ثم خصائص كما هو موضح في الصورة التالية. يمكن تنزيل ملف القالب "sourceWithCustProps.xlsx".[هنا](sourceWithCustProps.xlsx) للاختبار والإخراج PDF ملف "outSourceWithCustProps" متاح[هنا](outSourceWithCustProps.pdf) للتحليل.
+مع فئة [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)، يمكنك تصدير الخصائص المخصصة في دفتر العمل المصدر إلى PDF. وتوفر مُعدّلة [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport) لتحديد الطريقة التي يتم بها تصدير الخصائص. يمكن ملاحظة هذه الخصائص في Adobe Acrobat Reader بالنقر فوق ملف ثم الخصائص كما هو موضح في الصورة التالية. يمكن تنزيل ملف القالب "sourceWithCustProps.xlsx" من [هنا](sourceWithCustProps.xlsx) للفحص وملف PDF الناتج "outSourceWithCustProps" متاح [هنا](outSourceWithCustProps.pdf) للتحليل.
 
-![ما يجب القيام به:image_alt_text](convert-excel-workbook-to-pdf_1.png)
+![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ExportCustomPropertiesToPdf-1.cs" >}}
 
-###  **سمات التحويل**
+### **سمات التحويل**
 
-نحن نعمل على تحسين ميزات التحويل مع كل إصدار جديد. لا يزال تحويل Aspose.Cell من Excel إلى PDF به بعض القيود. MapChart غير مدعوم عند التحويل إلى تنسيق PDF. كما أن بعض الكائنات الرسومية غير معتمدة بشكل جيد.
+نحن نعمل على تعزيز ميزات التحويل مع كل إصدار جديد. لا تزال عملية تحويل Excel إلى PDF من Aspose.Cells تحتوي على بعض القيود. لا يتم دعم MapChart عند التحويل إلى تنسيق PDF. أيضًا، بعض الكائنات الرسومية لا تتمتع بدعم جيد.
 
-يسرد الجدول التالي جميع الميزات المدعومة كليًا أو جزئيًا عند التصدير إلى PDF باستخدام Aspose.Cells. هذا الجدول ليس نهائيًا ولا يغطي جميع سمات جدول البيانات ولكنه يحدد الميزات غير المدعومة أو المدعومة جزئيًا للتحويل إلى PDF .
+الجدول التالي يقوم بسرد جميع الميزات المدعومة جزئيًا أو بالكامل عند التصدير إلى PDF باستخدام Aspose.Cells. هذا الجدول ليس نهائيًا ولا يغطي جميع خصائص جدول البيانات ولكنه يحدد تلك الميزات التي لا تتم دعمها أو يتم دعمها جزئيًا للتحويل إلى PDF.
 
-|**عنصر الوثيقة**|**يصف**|**أيد**|**ملحوظات**|
+|**عنصر المستند**|**السمة**|**مدعوم**|**ملاحظات**|
 | :- | :- | :- | :- |
-|تنسيق| |نعم| |
+|المحاذاة| |نعم| |
 |إعدادات الخلفية| |نعم| |
-|حدود|لون|نعم| |
-|حدود|أسلوب الخط|نعم| |
-|حدود|عرض الخط|نعم| |
-|Cell بيانات| |نعم| |
-|تعليقات| |نعم| |
-|تنسيق مشروط| |نعم| |
+|الحدود|لون|نعم| |
+|الحدود|نمط الخط|نعم| |
+|الحدود|سمك الخط|نعم| |
+|بيانات الخلية| |نعم| |
+|التعليقات| |نعم| |
+|تنسيق شرطي| |نعم| |
 |خصائص المستند| |نعم| |
-|كائنات الرسم| |جزئيا|لا يتم دعم تأثيرات الظل والتأثيرات ثلاثية الأبعاد للكائنات الرسومية بشكل جيد؛ يتم دعم WordArt وSmartArt جزئيًا.|
-|الخط|مقاس|نعم| |
-|الخط|لون|نعم| |
-|الخط|أسلوب|نعم| |
-|الخط|تسطير|نعم| |
-|الخط|تأثيرات|نعم||
+|كائنات الرسم| |جزئيا|لا يتم دعم الظل والتأثيرات ثلاثية الأبعاد لكائنات الرسم بشكل جيد؛ WordArt و SmartArt يتم دعمهما جزئيا.|
+|الخط|الحجم|نعم| |
+|الخط|اللون|نعم| |
+|الخط|النمط|نعم| |
+|الخط|التسطير|نعم| |
+|الخط|التأثيرات|نعم||
 |الصور| |نعم| |
-|الارتباط التشعبي| |نعم| |
-|الرسوم البيانية| |جزئيا|MapChart غير مدعوم.|
-|تم الدمج Cells| |نعم| |
-|فاصل صفحة| |نعم| |
-|اعداد الصفحة|تذييل الرأس|نعم| |
-|اعداد الصفحة|هوامش|نعم| |
-|اعداد الصفحة|اتجاه الصفحة|نعم| |
-|اعداد الصفحة|مقاس الصفحه|نعم| |
-|اعداد الصفحة|منطقة الطباعة|نعم| |
-|اعداد الصفحة|طباعة العناوين|نعم| |
-|اعداد الصفحة|التحجيم|نعم| |
+|الارتباط| |نعم| |
+|الرسوم البيانية| |جزئيا|لم يتم دعم MapChart.|
+|الخلايا المدمجة| |نعم| |
+|فاصل الصفحة| |نعم| |
+|إعداد الصفحة|الرأس/التذييل|نعم| |
+|إعداد الصفحة|الهوامش|نعم| |
+|إعداد الصفحة|اتجاه الصفحة|نعم| |
+|إعداد الصفحة|حجم الصفحة|نعم| |
+|إعداد الصفحة|منطقة الطباعة|نعم| |
+|إعداد الصفحة|عناوين الطباعة|نعم| |
+|إعداد الصفحة|تحجيم|نعم| |
 |ارتفاع الصف/عرض العمود| |نعم| |
-|لغة RTL (من اليمين إلى اليسار).| |نعم| |
+|لغة من اليمين إلى اليسار| |نعم| |
 
 {{% alert color="primary" %}}
 
- إذا كان جدول البيانات الخاص بك يحتوي على صيغ، فمن الأفضل الاتصال به**[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)** مباشرة قبل تقديم جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة، وتقديم القيم الصحيحة في PDF.
+إذا كان جدول البيانات الخاص بك يحتوي على صيغ، فمن الأفضل استدعاء [**Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) قبل عرض الجدول في تنسيق PDF. هذا سيضمن إعادة حساب القيم المعتمدة على الصيغ، وعرض القيم الصحيحة في ملف PDF.
 
 {{% /alert %}}
 
-##  **مواضيع متقدمة**
-- [إضافة PDF الإشارات المرجعية](/cells/ar/net/add-pdf-bookmarks/)
-- [إضافة PDF الإشارات المرجعية مع الوجهات المسماة](/cells/ar/net/add-pdf-bookmarks-with-named-destinations/)
-- [تجنب الصفحة الفارغة في الإخراج PDF عندما لا يكون هناك شيء للطباعة](/cells/ar/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
-- [قم بتغيير الخط على أحرف Unicode المحددة فقط مع الحفظ في PDF](/cells/ar/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)
-- [التحكم في تحميل الموارد الخارجية في MS Excel Workbook أثناء العرض إلى PDF](/cells/ar/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+## **مواضيع متقدمة**
+- [إضافة علامات مرجعية لملف PDF](/cells/ar/net/add-pdf-bookmarks/)
+- [إضافة علامات مرجعية لملف PDF باستخدام وجهات مسماة](/cells/ar/net/add-pdf-bookmarks-with-named-destinations/)
+- [تجنب الصفحة الفارغة في ملف PDF الناتج عندما لا يوجد شيء للطباعة](/cells/ar/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
+- [تغيير الخط المستخدم للرموز اليونيكود الخاصة عند حفظ الملف إلى PDF](/cells/ar/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)
+- [التحكم في تحميل الموارد الخارجية في دفتر العمل في MS Excel أثناء تحويله إلى PDF](/cells/ar/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [تحويل ملف XLSX إلى تنسيق PDF](/cells/ar/net/convert-xlsx-file-to-pdf-format/)
 - [تحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA-1a](/cells/ar/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
-- [تحويل XLS ملف بالصور أو المخططات إلى PDF](/cells/ar/net/convert-xls-file-with-images-or-charts-to-pdf/)
+- [تحويل ملف XLS مع صور أو رسوم بيانية إلى تنسيق PDF](/cells/ar/net/convert-xls-file-with-images-or-charts-to-pdf/)
 - [إنشاء PdfBookmarkEntry لورقة الرسم البياني](/cells/ar/net/create-pdfbookmarkentry-for-chart-sheet/)
-- [احتواء جميع أعمدة ورقة العمل في صفحة PDF واحدة](/cells/ar/net/fit-all-worksheet-columns-on-single-pdf-page/)
-- [احصل على DrawObject and Bound أثناء العرض إلى PDF باستخدام فئة DrawObjectEventHandler](/cells/ar/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/)
-- [احصل على تحذيرات بشأن استبدال الخط أثناء عرض ملف Excel](/cells/ar/net/get-warnings-for-font-substitution-while-rendering-excel-file/)
-- [تجاهل الأخطاء أثناء تقديم Excel إلى PDF](/cells/ar/net/ignore-errors-while-rendering-excel-to-pdf/)
-- [الحد من عدد الصفحات التي تم إنشاؤها - تحويل Excel إلى PDF](/cells/ar/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/)
-- [اطبع التعليقات أثناء الحفظ في PDF](/cells/ar/net/print-comments-while-saving-to-pdf/)
-- [عرض وظائف Office الإضافية أثناء تحويل Excel إلى PDF](/cells/ar/net/render-office-add-ins-while-converting-excel-to-pdf/)
-- [تقديم صفحة واحدة PDF لكل ورقة عمل Excel - تحويل Excel إلى PDF](/cells/ar/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/)
-- [تقديم أحرف Unicode التكميلية في الإخراج PDF بواسطة Aspose.Cells](/cells/ar/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/)
-- [إعادة تشكيل الصور المضافة - تحويل Excel إلى PDF](/cells/ar/net/resampling-added-images-excel-to-pdf-conversion/)
-- [احفظ كل ورقة عمل في ملف PDF مختلف](/cells/ar/net/save-each-worksheet-to-a-different-pdf-file/)
-- [احفظ Excel في PDF بالحجم القياسي أو الحد الأدنى](/cells/ar/net/save-excel-into-pdf-with-standard-or-minimum-size/)
-- [احفظ أوراق العمل المحددة في PDF](/cells/ar/net/save-specified-worksheets-to-pdf/)
-- [تأمين PDF الوثائق](/cells/ar/net/secure-pdf-documents/)
-- [حدد كيفية عبور السلسلة في الإخراج PDF والصورة](/cells/ar/net/specify-how-to-cross-string-in-output-pdf-and-image/)
+- [تناسب جميع أعمدة ورقة العمل على صفحة PDF واحدة](/cells/ar/net/fit-all-worksheet-columns-on-single-pdf-page/)
+- [الحصول على DrawObject والحدود أثناء تقديمها إلى PDF باستخدام فئة DrawObjectEventHandler](/cells/ar/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/)
+- [الحصول على تحذيرات بديلة للخط أثناء تحويل ملف Excel إلى PDF](/cells/ar/net/get-warnings-for-font-substitution-while-rendering-excel-file/)
+- [تجاهل الأخطاء أثناء تحويل Excel إلى PDF](/cells/ar/net/ignore-errors-while-rendering-excel-to-pdf/)
+- [تحديد عدد الصفحات التي يتم إنشاؤها – تحويل من Excel إلى PDF](/cells/ar/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/)
+- [طباعة التعليقات عند الحفظ إلى PDF](/cells/ar/net/print-comments-while-saving-to-pdf/)
+- [تقديم الإضافات المكتبية أثناء تحويل Excel إلى PDF](/cells/ar/net/render-office-add-ins-while-converting-excel-to-pdf/)
+- [تقديم صفحة PDF واحدة لكل ورقة عمل إكسل - تحويل إكسل إلى PDF](/cells/ar/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/)
+- [عرض الحروف اليونيكود الإضافية في ملف PDF الناتج باستخدام Aspose.Cells](/cells/ar/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/)
+- [إعادة عينات الصور المضافة - تحويل إكسل إلى PDF](/cells/ar/net/resampling-added-images-excel-to-pdf-conversion/)
+- [حفظ كل ورقة عمل في ملف PDF مختلف](/cells/ar/net/save-each-worksheet-to-a-different-pdf-file/)
+- [حفظ إكسل في ملف PDF بحجم قياسي أو حد أدنى](/cells/ar/net/save-excel-into-pdf-with-standard-or-minimum-size/)
+- [حفظ ورقات العمل المحددة في ملف PDF](/cells/ar/net/save-specified-worksheets-to-pdf/)
+- [مستندات PDF آمنة](/cells/ar/net/secure-pdf-documents/)
+- [تحديد كيفية عبور السلسلة في ملف PDF والصورة](/cells/ar/net/specify-how-to-cross-string-in-output-pdf-and-image/)

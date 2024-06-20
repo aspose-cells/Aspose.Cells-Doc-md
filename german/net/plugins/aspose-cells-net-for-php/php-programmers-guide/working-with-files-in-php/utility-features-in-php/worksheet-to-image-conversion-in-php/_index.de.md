@@ -1,15 +1,16 @@
-﻿---
-title: Umwandlung von Arbeitsblättern in Bilder in PHP
+---
+title: Arbeitsblatt in Bild umwandeln in PHP
 type: docs
 weight: 40
 url: /de/net/worksheet-to-image-conversion-in-php/
 ---
-## **Aspose.Cells - Arbeitsblatt in Bild konvertieren**
-Konvertieren Sie ein Microsoft Excel-Arbeitsblatt in eine Bilddatei
+
+## **Aspose.Cells - Arbeitsblatt in Bild umwandeln**
+Konvertieren eines Microsoft Excel-Arbeitsblatts in eine Bilddatei
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -44,7 +45,7 @@ Konvertieren Sie ein Microsoft Excel-Arbeitsblatt in eine Bilddatei
         print "Conversion to Image(s) completed!" . PHP_EOL;
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Arbeitsblatt zu Bild (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Arbeitsblatt in Bild umwandeln (Aspose.Cells)** von einer der unten genannten sozialen Codierungsseiten herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

@@ -1,22 +1,25 @@
-﻿---
-title: 数値キーパッドから小数点記号を変更する
+---
+title: 10進記号の変更を数字キーパッドから変更する
 type: docs
 weight: 150
-url: /ja/net/change-the-decimal-separator-from-numeric-keypad/
+url: /ja/net/aspose-cells-gridweb/change-the-decimal-separator-from-numeric-keypad/
+keywords: GridWeb、10進数、10進数の記号
+description: この記事では、GridWebで10進数の記号を変更する方法について紹介します。
 ---
-## **考えられる使用シナリオ**
-デフォルトでは、Aspose.Cells.GridWeb は、マシンのロケール/地域設定に応じて数値データを表示します。 Aspose.Cells.GridWeb API を使用して、数値キーパッドから小数点記号をプログラムで変更できます。そのため、ファイルを GridWeb マトリックスにインポートするか、(数値キーパッドから) 数値データを新しいワークシート セルに入力すると、目的の小数点を持つ必要があります。セパレーターを視覚的に設定します。
-## **数値キーパッドから小数点記号を変更する**
-を使用して**GridWorksheetCollection.NumberDecimalSeparator**プロパティを使用すると、数値キーパッドからプログラムで小数点記号を変更できます。それがどのように機能するかを示すスクリーンショットをご覧ください
 
-![todo:画像_代替_文章](change-the-decimal-separator-from-numeric-keypad_1.png)
+## **可能な使用シナリオ**
+Aspose.Cells.GridWebは、デフォルトでは、機械のロケール/地域設定に基づいて数値データを表示します。Aspose.Cells.GridWeb APIを使用して、Numericパッドからの小数点セパレータをプログラムで変更することができます。したがって、ファイルをGridWebマトリックスにインポートするか、新しいワークシートセルに数値データ（Numericパッドから）を入力すると、望ましい小数点セパレータが視覚的に設定されます。 
+## **Numericパッドからの小数点セパレータを変更する**
+**GridWorksheetCollection.NumberDecimalSeparator**プロパティを使用して、Numericパッドからの小数点セパレータをプログラムで変更することができます。その動作については、スクリーンショットを参照してください。
 
-![todo:画像_代替_文章](change-the-decimal-separator-from-numeric-keypad_2.png)
+![todo:image_alt_text](change-the-decimal-separator-from-numeric-keypad_1.png)
+
+![todo:image_alt_text](change-the-decimal-separator-from-numeric-keypad_2.png)
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Worksheets-ChangeDecimalSeparatorFromNumericKeypad.aspx.cs" >}}
 
 {{% alert color="primary" %}} 
 
-小数点記号の変更は、GridWeb でのユーザーの視覚的な経験のためだけのものであることに注意してください。ワークブックを編集して保存すると、ロケール/地域の小数点記号に従って数値が (スプレッドシートに) 保存されます。
+小数点セパレータの変更は、GridWeb上のユーザーの視覚的な体験のためのものです。ワークブックを編集して保存する際、スプレッドシート内の数値は引き続きロケール/地域の小数点セパレータに基づいて格納されます。
 
 {{% /alert %}}

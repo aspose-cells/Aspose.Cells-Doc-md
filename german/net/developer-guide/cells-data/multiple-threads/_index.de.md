@@ -1,39 +1,40 @@
 ---
-title: Cell-Werte in mehreren Threads gleichzeitig lesen
-linktitle: Mehrere Threads
+title: Lesen von Zellwerten in mehreren Threads gleichzeitig.
+linktitle: Mehrere Threads.
 type: docs
 weight: 1800
 url: /de/net/reading-cell-values-in-multiple-threads-simultaneously/
-description: Erfahren Sie, wie Sie Cell-Werte in mehreren Threads gleichzeitig über Aspose.Cells for .NET API lesen.
-keywords: Read Cell Values in Multiple Threads Simultaneously, Aspose.Cells C# Multiple Threads, Read data in Multiple Threads
+description: Erfahren Sie, wie Sie Cell Werte gleichzeitig in mehreren Threads durch die API Aspose.Cells for .NET lesen.
+keywords: Lesen Sie Zellwerte gleichzeitig in mehreren Threads, Aspose.Cells C# mehrere Threads, Lesen von Daten in mehreren Threads.
 ---
+
 {{% alert color="primary" %}}
 
-Das gleichzeitige Lesen von Zellwerten in mehreren Threads ist eine häufige Anforderung. In diesem Artikel wird erläutert, wie Sie Aspose.Cells für diesen Zweck verwenden.
+Es ist häufig erforderlich, Zellwerte gleichzeitig in mehreren Threads zu lesen. Dieser Artikel erläutert, wie Sie Aspose.Cells zu diesem Zweck verwenden.
 
 {{% /alert %}}
 
- Um Zellwerte in mehr als einem Thread gleichzeitig zu lesen, legen Sie fest[**Arbeitsblatt.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading)zu *wahr**. Andernfalls erhalten Sie möglicherweise falsche Zellwerte.
+Um gleichzeitig Zellwerte in mehreren Threads zu lesen, setzen Sie [**Worksheet.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading) auf **true**. Andernfalls erhalten Sie möglicherweise die falschen Zellwerte.
 
 Der folgende Code:
 
-1. Erstellt eine Arbeitsmappe.
+1. Erstellt ein Arbeitsblatt.
 1. Fügt ein Arbeitsblatt hinzu.
-1. Füllt das Arbeitsblatt mit Zeichenfolgenwerten.
-1. Anschließend werden zwei Threads erstellt, die gleichzeitig Werte aus zufälligen Zellen lesen.
- Wenn die gelesenen Werte korrekt sind, passiert nichts. Wenn die gelesenen Werte falsch sind, wird eine Meldung angezeigt.
+1. Befüllt das Arbeitsblatt mit Zeichenfolgen.
+1. Es erstellt dann zwei Threads, die gleichzeitig Werte aus zufälligen Zellen lesen.
+   Wenn die gelesenen Werte korrekt sind, passiert nichts. Wenn die gelesenen Werte inkorrekt sind, wird eine Meldung angezeigt.
 
 Wenn Sie diese Zeile kommentieren:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  testWorkbook.Worksheets[0].Cells.MultiThreadReading = true;
 
 {{< /highlight >}}
 
-dann wird folgende Meldung angezeigt:
+dann wird die folgende Nachricht angezeigt:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  if (s != "R" + row + "C" + col)
 
@@ -45,6 +46,6 @@ dann wird folgende Meldung angezeigt:
 
 {{< /highlight >}}
 
-Andernfalls läuft das Programm ohne Anzeige einer Meldung, was bedeutet, dass alle aus den Zellen gelesenen Werte korrekt sind.
+Ansonsten läuft das Programm ohne Anzeige einer Meldung, was bedeutet, dass alle Werte, die aus den Zellen gelesen wurden, korrekt sind.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCellValuesInMultipleThreadsSimultaneously-1.cs" >}}

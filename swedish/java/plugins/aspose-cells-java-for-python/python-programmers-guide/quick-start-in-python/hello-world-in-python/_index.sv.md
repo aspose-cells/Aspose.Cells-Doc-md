@@ -1,15 +1,16 @@
-﻿---
+---
 title: Hello World i Python
 type: docs
 weight: 10
 url: /sv/java/hello-world-in-python/
 ---
+
 ## **Aspose.Cells - Hello World**
-Hello World med Aspose.Cells Java i Python, anropa helt enkelt HelloWorld()-metoden i klassen Document och ange det andra dokumentet som ska läggas till i slutet.
+Hello World med Aspose.Cells Java i Python, helt enkelt anropa metoden HelloWorld() från Document-klassen och ange den andra dokumentet att lägga till i slutet.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  workbook = self.Workbook()
 
@@ -26,7 +27,7 @@ workbook.save(self.dataDir + "HelloWorld.xls" , file_format_type.EXCEL_97_TO_200
 print "Document has been saved, please check the output file.";
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Hello World (Aspose.Cells)** från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Hello World (Aspose.Cells)** från någon av nedan nämnda sociala kodningssidor:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

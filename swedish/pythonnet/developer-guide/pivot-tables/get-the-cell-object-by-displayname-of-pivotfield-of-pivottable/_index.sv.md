@@ -1,27 +1,28 @@
 ---
-title: Hämta objektet Cell av DisplayName of PivotField of PivotTable
+title: Hämta Cell objektet genom visningsnamn för PivotField i PivotTable
 type: docs
 weight: 70
 url: /sv/python-net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
-description: Så här hämtar du objektet Cell med DisplayName of PivotField of PivotTable med Aspose.Cells for Python via .NET.
-keywords: Get the Cell object by DisplayName of PivotField of PivotTable.
+description: Hur man får cellobjektet genom visningsnamn för PivotField av PivotTable med Aspose.Cells for Python via .NET.
+keywords: Aspose.Cells for Python Excel, Excel Python bibliotek, Hämta cellobjektet genom visningsnamn för PivotField av PivotTable med Aspose.Cells for Python Excel Library.
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for Python via .NET tillhandahåller[**PivotTable.get_cell_by_display_name(display_name)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/get_cell_by_display_name/#str) metod som du kan använda för att komma åt cellobjektet genom att visa namnet på pivotfältet. Den här metoden är användbar när du vill markera eller formatera ditt pivotfältshuvud. Den här artikeln förklarar hur du hämtar cellobjektet med visningsnamnet för datafältet och sedan tillämpar formatering på det.
+Aspose.Cells for Python via .NET tillhandahåller [**PivotTable.get_cell_by_display_name(display_name)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/get_cell_by_display_name/#str)-metoden som du kan använda för att komma åt cellobjektet genom visningsnamnet för pivottabellfält. Denna metod är användbar när du vill markera eller formatera rubriken för ditt pivottabellfält. Denna artikel förklarar hur du hämtar cellobjektet genom visningsnamnet för datafältet och sedan tillämpar formatering på det.
 
 {{% /alert %}}
 
-##  **Hämta objektet Cell av DisplayName of PivotField of PivotTable**
+## **Hur man får cellobjektet genom visningsnamn för PivotField av PivotTable**
 
-Följande kod kommer åt den första pivottabellen i kalkylbladet och hämtar sedan cell efter visningsnamn för det andra datafältet i pivottabellen. Den ändrar sedan fyllningsfärgen och teckensnittsfärgen för cellen till ljusblå respektive svart. Skärmdumparna nedan visar hur pivottabellen ser ut före och efter exekvering av koden.
+Följande kod får åtkomst till den första pivottabellen i kalkylarket och sedan får cellen genom visningsnamn för det andra datafältet i pivottabellen. Det ändrar sedan fyllningsfärgen och teckensnittsfärgen på cellen till ljusblått och svart, respektive. Nedan visas skärmbilderna hur pivottabellen ser ut före och efter att koden har utförts.
 
-|**Pivottabell - Före**|
+|**Pivot-tabel - Före**|
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-GetCellByDisplayName-GetCellObjectByDisplayName.py" >}}
 
-|**Pivottabell - Efter**|
+|**Pivot-tabel - Efter**|
 | :- |
 |![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|

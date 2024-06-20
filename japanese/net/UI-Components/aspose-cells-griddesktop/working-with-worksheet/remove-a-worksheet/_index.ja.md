@@ -1,27 +1,30 @@
-﻿---
-title: ワークシートを削除する
+---
+title: ワークシートの削除
 type: docs
 weight: 30
-url: /ja/net/remove-a-worksheet/
+url: /ja/net/aspose-cells-griddesktop/remove-a-worksheet/
+keywords: GridDesktop, ワークシートの削除
+description: この記事では、GridDesktopでワークシートを削除する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-このトピックでは、Aspose.Cells.GridDesktop コントロールを使用したワークシートの削除について説明します。この基本的なタスクを実行するには、いくつかの簡単な方法があります。
+このトピックでは、Aspose.Cells.GridDesktopコントロールを使用したワークシートの削除について説明します。この基本的なタスクを達成するためのいくつかのシンプルなアプローチがあります。
 
 {{% /alert %}} 
 ## **ワークシートの削除**
-Aspose.Cells.GridDesktop コントロールを使用してワークシートを削除するには、次の手順に従ってください。
+Aspose.Cells.GridDesktopコントロールを使用してワークシートを削除するには、以下の手順に従ってください：
 
-1. Aspose.Cells.GridDesktop コントロールをフォームに追加します。
-1. GridDesktop コントロールで Worksheets コレクションの Remove メソッドを呼び出します。
-### **ワークシート インデックスの使用**
-この方法では、削除するワークシートのワークシート インデックス (グリッドのワークシート コレクション内) を渡すだけです。
+1. Aspose.Cells.GridDesktopコントロールをフォームに追加します。
+1. GridDesktopコントロールのワークシートコレクションのRemoveメソッドを呼び出します。
+### **ワークシートのインデックスを使用する**
+この方法では、グリッドのワークシートコレクション内のワークシートのインデックスを単に渡します。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-RemoveWorksheet-RemoveUsingIndex.cs" >}}
-### **ワークシート名の使用**
-ワークシートの名前がわかっている場合は、その名前を指定して特定のワークシートを削除できます。
+### **ワークシートの名前を使用する**
+ワークシートの名前がわかっている場合、その名前を指定して特定のワークシートを削除することができます。
 
 
 
@@ -29,6 +32,6 @@ Aspose.Cells.GridDesktop コントロールを使用してワークシートを�
 
 {{% alert color="primary" %}} 
 
-削除はメソッドです。ワークシート コレクション内のインデックスを使用してワークシートを削除するか、RemoveAt メソッドを使用してインデックス/名前を使用してワークシートを削除します。
+削除はメソッドです。ワークシートのインデックス（ワークシートコレクション内）を使用してワークシートを削除するにはこれを使用するか、インデックス/名前を使用してワークシートを削除するには RemoveAt メソッドを使用します。
 
 {{% /alert %}}

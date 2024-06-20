@@ -1,57 +1,58 @@
 ---
 title: Pivot Tablo Ekle
-linktitle: Pivot Tablolar
+linktitle: Pivot Tabloları
 type: docs
 weight: 160
 url: /tr/python-net/create-pivot-table/
-description: Aspose.Cells for Python via .NET ile Pivot Tablo oluşturun ve biçimlendirin.
-keywords: Create Pivot Table, Insert Pivot Table, Format Pivot Table.
+description: Aspose.Cells for Python via .NET ile Pivot Tablosu oluşturma ve biçimlendirme.
+keywords: Pivot Tablosu Oluştur, Pivot Tablosu Ekle, Pivot Tablosu Biçimlendir.
 ---
-##  **Pivot Tablo Oluştur**
 
-Program aracılığıyla e-tablolara pivot tablolar eklemek için Aspose.Cells for Python via .NET'i kullanmak mümkündür.
+## **Pivot Tablosu Oluştur**
 
-###  **Pivot Tablo Nesne Modeli**
+Aspose.Cells for Python via .NET kullanarak elektronik tablolara programlı olarak pivot tabloları eklemek mümkündür.
 
- Aspose.Cells for Python via .NET özel bir sınıf seti sunmaktadır.[**aspose.cells.pivot**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/) Pivot tabloları oluşturmak ve kontrol etmek için kullanılan ad alanı. Bu sınıflar oluşturmak ve ayarlamak için kullanılır[**Pivot tablo**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/)nesneler, pivot tablonun yapı taşlarıdır. Nesneler şunlardır:
+### **Pivot Tablosu Nesne Modeli**
 
-- [**Pivot Alanı**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/) bir alanı temsil eder[**Pivot tablo**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/).
-- [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) tümünün bir koleksiyonunu temsil eder[**Pivot Alanı**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield) içindeki nesneler[**Pivot tablo**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable).
-- [**Pivot tablo**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable)çalışma sayfasındaki PivotTable'ı temsil eder.
-- [**PivotTableKoleksiyonu**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection) tümünün bir koleksiyonunu temsil eder[**Pivot tablo**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable)çalışma sayfasındaki nesneler.
+Aspose.Cells for Python via .NET, bir pivot tablosu oluşturmak ve kontrol etmek için kullanılan [**aspose.cells.pivot**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/) ad alanında özel bir sınıf seti sağlar. Bu sınıflar, bir pivot tablosunun yapı taşları olan [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/) nesnelerini oluşturmak ve ayarlamak için kullanılır. Nesneler şunlardır:
 
-###  **Aspose.Cells Kullanarak Basit Bir Pivot Tablo Oluşturma**
+- [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/), bir [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/) içindeki bir alanı temsil eder.
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection), [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) içindeki tüm [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield) nesnelerinin bir koleksiyonunu temsil eder.
+- [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable), bir çalışma sayfasındaki bir PivotTable'ı temsil eder.
+- [**PivotTableCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection), bir çalışma sayfasındaki tüm [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) nesnelerinin bir koleksiyonunu temsil eder.
 
-1.  kullanarak çalışma sayfasına veri ekleyin.[**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) nesnenin[**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#str) yöntem.
- Bu veriler pivot tablonun veri kaynağı olarak kullanılacaktır.
-1.  çağırarak çalışma sayfasına bir pivot tablo ekleyin.[**PivotTable'lar**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection) Koleksiyonun[**eklemek**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/add/#str-str-str)Worksheet nesnesinde kapsüllenmiş olan yöntem.
-1.  Yeniye erişin[**Pivot tablo**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) gelen nesne[**PivotTable'lar**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection)PivotTable dizinini geçirerek toplama.
-1.  Aşağıdakilerden herhangi birini kullanın:[**Pivot tablo**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable)Pivot tabloyu yönetmek için nesneler (yukarıda açıklanmıştır).
+### **Aspose.Cells Kullanarak Basit Bir Pivot Tablosu Oluşturma**
 
-Örnek kodu çalıştırdıktan sonra çalışma sayfasına bir pivot tablo eklenir.
+1. [**Cell**](https://reference.aspose.com/cells/python-net/aspose.cells/cell) nesnesinin [**put_value**](https://reference.aspose.com/cells/python-net/aspose.cells/cell/put_value/#str) metodu kullanılarak bir çalışma sayfasına veri ekleyin.
+   Bu veri, pivot tablosunun veri kaynağı olarak kullanılacaktır.
+2. Çağrılan [**add**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/add/#str-str-str) metoduna (Worksheet nesnesinde kapsüllenmiş olan) [**PivotTables**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection) koleksiyonuna bir pivot tablosu ekleyin.
+3. PivotTable endeksini geçerek [**PivotTables**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection) koleksiyonundan yeni [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) nesnesine erişin.
+4. Pivot tablosunu yönetmek için yukarıda açıklanan [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable) nesnelerinden herhangi birini kullanın.
+
+Örnek kodu çalıştırdıktan sonra bir pivot tablosu çalışma sayfasına eklenir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTable-CreatePivotTable-1.py" >}}
 
 {{% alert color="primary" %}}
 
-Veri kaynağı olarak bir hücre aralığı atarken aralığın sol üstten sağ alta doğru gitmesi gerekir. Örneğin, "A1:C3" geçerlidir ancak "C3:A1" değildir.
+Veri kaynağı olarak bir hücre aralığı atadığınızda, aralığın sol üstten sağ alta gitmesi gerekir. Örneğin, "A1:C3" geçerlidir ancak "C3:A1" geçerli değildir.
 
 {{% /alert %}}
 
-##  **İleri konular**
-- [Konsolidasyon Fonksiyonu](/cells/tr/python-net/consolidation-function/)
-- [Pivot Tabloda özel sıralama](/cells/tr/python-net/custom-sorting-in-pivot-table/)
-- [Pivot Tablo için Genelleştirme Ayarlarını Özelleştirme](/cells/tr/python-net/customize-globalization-settings-for-pivot-table/)
+## **Gelişmiş Konular**
+- [Konsolidasyon İşlevi](/cells/tr/python-net/consolidation-function/)
+- [Pivot Tablosunda Özel Sıralama](/cells/tr/python-net/custom-sorting-in-pivot-table/)
+- [Pivot Tablo için Küreselleştirme Ayarlarını Özelleştir](/cells/tr/python-net/customize-globalization-settings-for-pivot-table/)
 - [Pivot Tablo Şeritlerini Devre Dışı Bırak](/cells/tr/python-net/disable-pivot-table-ribbons/)
-- [Ana Pivot Tablonun Yuvalanmış veya Alt Pivot Tablolarını Bulma ve Yenileme](/cells/tr/python-net/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/)
-- [Pivot Tabloyu Biçimlendirme](/cells/tr/python-net/formatting-pivot-table/)
-- [Pivot Tablonun Harici Bağlantı Veri Kaynağını Alma](/cells/tr/python-net/get-external-connection-data-source-of-pivot-table/)
-- [Pivot Tablo yenileme tarihini alın ve kim bilgilerine göre yenileyin](/cells/tr/python-net/get-pivot-table-refresh-date-and-refresh-by-who-information/)
-- [Pivot Tablodaki Grup Pivot Alanları](/cells/tr/python-net/group-pivot-fields-in-the-pivot-table/)
-- [Excel dosyasını yüklerken Pivot Önbelleğe Alınmış Kayıtları Ayrıştırma](/cells/tr/python-net/parsing-pivot-cached-records-while-loading-excel-file/)
-- [Pivot Tablo ve Kaynak Veriler](/cells/tr/python-net/pivot-table-and-source-data/)
-- [Pivot Tablo Verileri Gizle ve Sırala](/cells/tr/python-net/pivot-table-hide-and-sort-data/)
-- [Hesaplanan Öğelere Sahip Pivot Tabloyu Yenileyin ve Hesaplayın](/cells/tr/python-net/refresh-and-calculate-pivot-table-having-calculated-items/)
-- [Pivot Tabloyu ODS dosyasına kaydedin](/cells/tr/python-net/save-pivot-table-in-ods-file/)
-- [Rapor filtre sayfaları seçeneğini göster](/cells/tr/python-net/show-report-filter-pages-option/)
-- [Pivot Table'da DataField'ın veri görüntüleme formatlarıyla çalışma](/cells/tr/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+- [Ana Pivot Tablosunun İçindeki Yerleşik veya Çocuk Pivot Tablolarını Bul ve Yenile](/cells/tr/python-net/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/)
+- [Pivot Tablosu Biçimlendirme](/cells/tr/python-net/formatting-pivot-table/)
+- [Pivot Tablosunun Harici Bağlantı Veri Kaynağını Alın](/cells/tr/python-net/get-external-connection-data-source-of-pivot-table/)
+- [Pivot Tablosu yenileme tarihi ve kim tarafından yenilendiği bilgisini al](/cells/tr/python-net/get-pivot-table-refresh-date-and-refresh-by-who-information/)
+- [Pivot Tablosunda Alanları Gruplandırın](/cells/tr/python-net/group-pivot-fields-in-the-pivot-table/)
+- [Excel dosyasını yüklerken Pivot Önbellek Kayıtlarını Ayrıştırın](/cells/tr/python-net/parsing-pivot-cached-records-while-loading-excel-file/)
+- [Pivot Tablosu ve Kaynak Veri](/cells/tr/python-net/pivot-table-and-source-data/)
+- [Özet Tablo Verilerini Gizleme ve Sıralama](/cells/tr/python-net/pivot-table-hide-and-sort-data/)
+- [Hesaplanmış öğeleri olan özet tabloyu yenileme ve hesaplama](/cells/tr/python-net/refresh-and-calculate-pivot-table-having-calculated-items/)
+- [Pivot Tablosunu ODS dosyasına kaydetme](/cells/tr/python-net/save-pivot-table-in-ods-file/)
+- [Rapor filtre sayfalarını göster seçeneği](/cells/tr/python-net/show-report-filter-pages-option/)
+- [Pivot Tablosundaki DataField'ın veri görüntüleme formatları ile çalışma](/cells/tr/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/)

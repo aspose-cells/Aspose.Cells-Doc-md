@@ -1,17 +1,20 @@
 ---
-title: تغيير خصائص القطاعة
+title: تغيير خصائص المنقي
 type: docs
 weight: 70
 url: /ar/python-net/change-slicer-properties/
+description: تعلم كيفية تغيير خصائص شاحنة القطع باستخدامAspose.Cells for Python via .NET.
+keywords: Aspose.Cells for Python Excel, Excel مكتبة بلغة Python، تغيير خصائص شاحنة القطع بدون إكسل بواسطة Python، تعديل خصائص شاحنة القطع بدون إكسل، تغيير خصائص شاحنة القطع باستخدام مكتبةAspose.Cells for Python excel.
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-قد تكون هناك مواقف حيث قد ترغب في تغيير خصائص مقسم طريقة العرض مثل الموضع أو ارتفاع الصف. Aspose.Cells for Python via .NET يوفر لك خيار تحديث هذه الخصائص.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **تغيير خصائص القطاعة**
+قد تواجه حالات تحتاج فيها إلى تغيير خصائص شاحنة القطع مثل الوضع أو ارتفاع الصف. توفر Aspose.Cells for Python via .NET لك الخيار لتحديث هذه الخصائص.
 
- الرجاء مراجعة نموذج التعليمات البرمجية التالي. يقوم بتحميل[عينة من ملف إكسل](sampleCreateSlicerToExcelTable.xlsx)الذي يحتوي على جدول. ثم يقوم بعد ذلك بإنشاء مقسم طريقة العرض استنادًا إلى العمود الأول وتغيير خصائصه مثل ارتفاع الصف وعرضه وقابليته للطباعة والعنوان وما إلى ذلك. ويقوم بحفظ المصنف باسم[OutputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
+## **كيفية تغيير خصائص شاحنة القطع باستخدام مكتبة Aspose.Cells for Python Excel**
 
-##  **عينة من الرموز**
+يرجى الاطلاع على الكود العيني التالي. يحمل [ملف Excel العيني](sampleCreateSlicerToExcelTable.xlsx) الذي يحتوي على جدول. ينشئ بعد ذلك المنقي بناءً على العمود الأول ويقوم بتغيير خصائصه مثل ارتفاع الصف، العرض، القابلية للطباعة، العنوان، وما إلى ذلك. يحفظ المصنف كـ [ملف الإخراج لتغيير خصائص المنقي](outputChangeSlicerProperties.xlsx).
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-ChangeSlicerProperties-1.py" >}}

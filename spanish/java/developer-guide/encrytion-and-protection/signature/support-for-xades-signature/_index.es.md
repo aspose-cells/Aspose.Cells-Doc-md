@@ -1,12 +1,13 @@
-﻿---
-title: Soporte para firma XAdES
+---
+title: Soporte para Firma XAdES
 type: docs
 weight: 110
 url: /es/java/support-for-xades-signature/
 ---
-Aspose.Cells admite la firma de libros de trabajo con la firma XAdES. Para esto, el API proporciona[**Firma digital**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature)clase y[**Tipo XAdEST**](https://reference.aspose.com/cells/java/com.aspose.cells/XAdESType)enumeración.
 
-El siguiente fragmento de código demuestra el uso de la[**Firma digital**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature)clase para firmar el[fuente](sourceFile.xlsx)libro de trabajo.
+Aspose.Cells proporciona soporte para firmar libros de trabajo con Firma XAdES. Para esto, la API proporciona la clase [**DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) y la enumeración [**XAdESType**](https://reference.aspose.com/cells/java/com.aspose.cells/XAdESType).
+
+El siguiente fragmento de código demuestra el uso de la clase {0} para firmar el libro de trabajo de {source](sourceFile.xlsx).
 
 ## **Código de muestra**
 

@@ -1,35 +1,36 @@
-﻿---
-title: Ricevi avvisi per la sostituzione dei caratteri durante il rendering del file Excel
+---
+title: Ottieni avvisi per la sostituzione dei font durante il rendering del file Excel
 type: docs
 weight: 120
 url: /it/java/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
+
 {{% alert color="primary" %}}
 
-A volte, durante il rendering di file Excel Microsoft in PDF, Aspose.Cells sostituisce i caratteri. Aspose.Cells fornisce una funzionalità che consente agli sviluppatori di sapere che un determinato carattere è stato sostituito attivando un avviso. Questa è una funzione utile che può aiutarti a identificare perché Aspose.Cells reso PDF è diverso dal file Excel effettivo e puoi quindi intraprendere le azioni appropriate. Ad esempio, è possibile installare i caratteri mancanti in modo che i risultati del rendering abbiano lo stesso aspetto.
+A volte, quando si rendono file di Microsoft Excel in PDF, Aspose.Cells sostituisce i caratteri. Aspose.Cells fornisce una funzionalità che consente ai programmatori di sapere che un determinato carattere è stato sostituito generando un avviso. Questa è una funzionalità utile che può aiutarti a capire perché il PDF reso da Aspose.Cells è diverso rispetto al file di Excel effettivo e quindi puoi prendere azioni appropriate. Ad esempio, puoi installare i caratteri mancanti in modo che i risultati della resa possano apparire uguali.
 
-Se si desidera ottenere gli avvisi per la sostituzione dei caratteri durante il rendering di un file Excel in PDF, implementare l'interfaccia IWarningCallback e impostare il metodo PdfSaveOptions.setWarningCallback() con l'interfaccia implementata.
+Se desideri ottenere gli avvisi per la sostituzione dei caratteri durante la resa di un file Excel in PDF, implementa l'interfaccia IWarningCallback e imposta il metodo PdfSaveOptions.setWarningCallback() con la tua interfaccia implementata.
 
 {{% /alert %}}
 
-Lo screenshot seguente mostra il file Excel di origine utilizzato nel codice seguente. Ha del testo nelle celle A6 e A7 in caratteri che non sono resi bene da Microsoft Excel.
+La schermata qui sotto mostra il file Excel di origine utilizzato nel codice seguente. Contiene del testo nelle celle A6 e A7 in caratteri che non sono ben resi da Microsoft Excel.
 
-![cose da fare:immagine_alt_testo](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)
+![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)
 
-Aspose.Cells sostituirà i caratteri nelle celle A6 e A7 con caratteri idonei come mostrato di seguito.
+Aspose.Cells sostituirà i font nelle celle A6 e A7 con font appropriati come mostrato di seguito.
 
-![cose da fare:immagine_alt_testo](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
+![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
 
-## **Scarica il file sorgente e l'output PDF**
+## **Scarica file di origine e PDF di output**
 
-È possibile scaricare il file Excel sorgente e l'output PDF dai seguenti collegamenti
+È possibile scaricare il file Excel di origine e il PDF di output dai seguenti collegamenti
 
-- [fonte.xlsx](5472700.xlsx)
-- [uscita.pdf](5472699.pdf)
+- [source.xlsx](5472700.xlsx)
+- [output.pdf](5472699.pdf)
 
- Il codice seguente implementa il[**AvvisoRichiamata**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) e impostare il[**PdfSaveOptions.setWarningCallback()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#WarningCallback) metodo con l'interfaccia implementata. Ora, ogni volta che qualsiasi carattere verrà sostituito in qualsiasi cella, Aspose.Cells genererà un avviso all'interno del metodo WarningCallback.warning().
+Il codice seguente implementa il [**IWarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) e imposta il metodo [**PdfSaveOptions.setWarningCallback()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#WarningCallback) con l'interfaccia implementata. Ora, ogni volta che viene sostituito un carattere in una qualsiasi cella, Aspose.Cells genererà un avviso all'interno del metodo WarningCallback.warning().
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public class WarningCallback implements IWarningCallback {
 
@@ -69,20 +70,20 @@ static void Run() throws Exception
 
 {{< /highlight >}}
 
-## **Uscita avvisi**
+## **Avvisi di output**
 
-Dopo aver convertito il file di origine, nella console di debug vengono visualizzati i seguenti avvisi:
+Dopo la conversione del file di origine, i seguenti avvisi vengono visualizzati sulla console di debug:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
-WARNING INFO: Font substitution: Font [ Athene Logos; Regular ]has been substituted in Cell [ A6 ]in Sheet [ Sheet1 ].
+WARNING INFO: Font substitution: Font [ Athene Logos; Regular ] has been substituted in Cell [ A6 ] in Sheet [ Sheet1 ].
 
-WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted in Cell [ A7 ]in Sheet [ Sheet1 ].
+WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substituted in Cell [ A7 ] in Sheet [ Sheet1 ].
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
 
- Se il tuo foglio di calcolo contiene formule, è meglio chiamare il metodo Workbook.calculateFormula appena prima di eseguire il rendering del foglio di calcolo nel formato PDF. In questo modo si assicurerà che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati in PDF.
+Se il foglio di lavoro contiene formule, è meglio chiamare il metodo Workbook.calculateFormula appena prima di rendere il foglio di lavoro nel formato PDF. Farlo garantirà che i valori dipendenti dalle formule vengano ricalcolati e i valori corretti vengano resi nel PDF. 
 
 {{% /alert %}}

@@ -1,27 +1,28 @@
-﻿---
-title: Şelale Grafiği Oluşturma
+---
+title: Su Düşümü Grafiği Oluşturma
 type: docs
 weight: 140
 url: /tr/java/creating-waterfall-chart/
-description: Java ve Aspose.Cells for Java API ile Excel'de şelale grafikler oluşturun.
-keywords: java create waterfall chart in excel, java creating waterfall chart in excel, creating waterfall chart in excel with java, create waterfall chart in excel with java, create waterfall chart in excel java, create waterfall chart excel java, create waterfall chart in excel programmatically, how to create waterfall chart in excel with java
+description: Java ve Aspose.Cells for Java API sı ile Excel de su düşümü grafikleri oluşturun.
+keywords: java ile excel de su düşümü grafiği oluşturma, java ile excel de su düşümü grafiği oluşturma, java ile excel de su düşümü grafiği oluşturma, java ile excel de su düşümü grafiği oluşturma, java ile excel de su düşümü grafiği oluşturma, java ile excel de su düşümü grafiği oluşturma, java ile excel de su düşümü grafiği programlı olarak oluşturma, java ile excel de su düşümü grafiği oluşturma hakkında nasıl
 ---
+
 {{% alert color="primary" %}}
 
-Şelale grafiği, normalde başlangıç konumunun nasıl arttığını veya azaldığını göstermek için kullanılan özel bir tablo türüdür. Microsoft Excel, sütun, çizgi, pasta, çubuk, radar vb. dahil olmak üzere önceden tanımlanmış birçok grafik türüne sahiptir, ancak şelale grafiği, temel grafiklerin ötesindedir ve çok az veya daha fazla özelleştirme ile mevcut grafik türleri kullanılarak oluşturulabilir.
+Su düşümü grafiği, genellikle başlangıç pozisyonunun artıp azaldığını göstermek için kullanılan özel bir grafik türüdür. Microsoft Excel, sütun, çizgi, pasta, bar, radar vb. dahil olmak üzere birçok önceden tanımlanmış grafik türüne sahiptir, ancak su düşümü grafiği temel grafiklerin ötesindedir ve mevcut grafik türlerini az veya çok özelleştirerek oluşturulabilir.
 
 {{% /alert %}}
 
-## Şelale Grafiği Oluşturma
+## Su Düşümü Grafiği Oluşturma
 
- Aspose.Cells API'leri, çizgi grafiği yardımıyla bir şelale grafiği oluşturmaya izin verir. API ayrıca, grafiği şekillendirmek için en önemli özellikleri ayarlayarak, tablo görünümünü şelalenin şeklini verecek şekilde özelleştirmeye olanak tanır;[**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) & [**Seri.Aşağı Çubuklar**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars)özellikler.
+Aspose.Cells API'leri, su düşümü grafiği oluşturmayı çizgi grafiği yardımıyla sağlar. API ayrıca grafiğin şeklini vermek için en önemli özellikleri belirleyerek grafiğin görünümünü özelleştirmeye izin verir; [**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) ve [**Series.DownBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars) özellikleri.
 
-Aşağıda sağlanan kod parçacığı, sıfırdan bir şelale grafiği oluşturmak için Aspose.Cells for Java API kullanımını göstermektedir.
+Aşağıda Aspose.Cells for Java API'nın kullanımını baştan bir su düşümü grafiği oluşturmak için örnek kod bulunmaktadır.
 
-### Şelale grafiği oluşturmak için Java kodu
+### Su Düşümü Grafiği Oluşturma için Java kodu
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateWaterfallChart-CreateWaterfallChart.java" >}}
 
 ## İlgili Makaleler
 
-- [Grafikler Oluşturma ve Özelleştirme](/cells/tr/java/creating-and-customizing-charts/)
+- [Graflar Oluşturma ve Özelleştirme](/cells/tr/java/creating-and-customizing-charts/)

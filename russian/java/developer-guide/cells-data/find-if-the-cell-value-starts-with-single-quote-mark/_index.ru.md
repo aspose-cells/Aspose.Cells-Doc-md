@@ -1,16 +1,17 @@
-﻿---
-title: Найдите, начинается ли значение ячейки с одинарной кавычки
+---
+title: Узнайте, начинается ли значение ячейки с одинарной кавычки через Aspose.Cells для API Python via .NET.
 type: docs
 weight: 610
 url: /ru/java/find-if-the-cell-value-starts-with-single-quote-mark/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells теперь предоставляет[Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) свойство, чтобы определить, начинается ли значение ячейки с одинарной кавычки. До этого свойства не было способа различить такие строки, как образец, 'образец и т. д.
+Теперь Aspose.Cells предоставляет свойство [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) для определения, начинается ли значение ячейки с одинарной кавычки. До появления этого свойства не было способа различить строки, такие как образец и 'образец и т. д.
 
 {{% /alert %}} 
-## **Найдите, начинается ли значение ячейки с одинарной кавычки**
-В следующем примере кода поясняется, что такие строки, как sample и 'sample, нельзя различить с помощью[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) имущество. Поэтому мы должны использовать[Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)свойство различать их.
+## **Определите, начинается ли значение ячейки с одинарной кавычки**
+В следующем примере кода объясняется, что строки, такие как образец и 'образец, не могут быть отличены с помощью свойства [Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue). Поэтому мы должны использовать свойство [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) для их различения.
 
 
 

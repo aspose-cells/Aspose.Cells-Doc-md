@@ -1,21 +1,22 @@
-﻿---
-title: Affianca l'immagine come texture all'interno della forma
+---
+title: Immagine del piastrella come texture all interno della forma
 type: docs
 weight: 1700
 url: /it/net/tile-picture-as-a-texture-inside-the-shape/
 ---
-## **Possibili scenari di utilizzo**
 
-Quando l'immagine è piccola e non copre l'intera superficie della forma senza perdere la sua qualità, allora hai la possibilità di affiancarla. La piastrellatura riempie la superficie della forma con una piccola immagine ripetendole come se fossero tessere.
+## **Possibili Scenari di Utilizzo**
 
-## **Affianca l'immagine come texture all'interno della forma**
+Quando l'immagine è piccola e non copre l'intera superficie della forma senza perdere la sua qualità, hai l'opzione di piastrellarla. La piastrellatura riempie la superficie della forma con un'immagine piccola ripetendola come se fossero piastrelle.
 
- Puoi riempire la superficie della forma con un'immagine e affiancarla usando il[**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/net/aspose.cells.drawing/texturefill/properties/istiling) proprietà e impostarla**VERO** . Si prega di vedere il seguente codice di esempio, its[esempio di file Excel](46465050.xlsx) così come lo screenshot per riferimento.
+## **Immagine del piastrella come texture all'interno della forma**
 
-## **Immagine dello schermo**
+È possibile riempire la superficie della forma con un'immagine e ripetere l'immagine utilizzando la proprietà [**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/net/aspose.cells.drawing/texturefill/properties/istiling) e impostandola su **true**. Si prega di vedere il seguente codice di esempio, il [file Excel di esempio](46465050.xlsx) e la schermata per un riferimento.
 
-![cose da fare:immagine_alt_testo](tile-picture-as-a-texture-inside-the-shape_1.png)
+## **Screenshot**
 
-## **Codice d'esempio**
+![todo:image_alt_text](tile-picture-as-a-texture-inside-the-shape_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-TilePictureAsTextureInsideShape.cs" >}}

@@ -1,26 +1,27 @@
-﻿---
-title: API عام تغييرات في Aspose.Cells 16.11.0
+---
+title: تغييرات واجهة برمجة التطبيقات العامة في Aspose.Cells 16.11.0
 type: docs
 weight: 350
 url: /ar/net/public-api-changes-in-aspose-cells-16-11-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 16.10.0 إلى 16.11.0 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات (API) لـ Aspose.Cells من الإصدار 16.10.0 إلى الإصدار 16.11.0 التي قد تكون مثيرة لاهتمام مطوري النماذج / التطبيقات. يتضمن ليس فقط الأساليب الجديدة والمحدثة العامة والفئات المضافة والمحذوفة إلخ، بل وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells أيضًا.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
+## **واجهات برمجة التطبيقات الجديدة**
 ### **دعم إعدادات العولمة**
-كشف Aspose.Cells 16.11.0 عن فئة GlobalizationSettings جنبًا إلى جنب مع خاصية WorkbookSettings.GlobalizationSettings من أجل فرض Aspose.Cells APIs لاستخدام تسميات مخصصة للمجموعات الفرعية. تحتوي فئة GlobalizationSettings على الطرق التالية التي يمكن تجاوزها في التنفيذ المخصص لإعطاء الأسماء المطلوبة للتسميات**مجموع** & **المبلغ الإجمالي**.
+أصدر Aspose.Cells 16.11.0 فئة GlobalizationSettings إلى جانب خاصية WorkbookSettings.GlobalizationSettings لفرض استخدام واجهات برمجة التطبيقات لـ Aspose.Cells لاستخدام تسميات مخصصة لإجمالي الأرقام الفرعية. تحتوي فئة GlobalizationSettings على الطرق التالية التي يمكن استبدالها في التنفيذ المخصص لإعطاء أسماء مرغوبة للتسميات **الإجمالي** و**الإجمالي الكلي**.
 
-- GlobalizationSettings.GetTotalName: الحصول على الاسم الإجمالي للوظيفة.
-- GlobalizationSettings.GetGrandTotalName: الحصول على الاسم الإجمالي الكلي للدالة.
+- GlobalizationSettings.GetTotalName: يحصل على اسم المجموع.
+- GlobalizationSettings.GetGrandTotalName: يحصل على اسم الإجمالي الكبرى للوظيفة.
 
-فيما يلي فئة مخصصة بسيطة تعمل على توسيع فئة GlobalizationSettings وتتجاوز الأساليب المذكورة أعلاه لإرجاع تسميات مخصصة لوظيفة الدمج المتوسط.
+فيما يلي فئة مخصصة بسيطة توسع فئة GlobalizationSettings وتستبدل طرقها المذكورة أعلاه لإرجاع تسميات مخصصة لدالة التجميع المتوسطية.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomSettings : GlobalizationSettings
 
@@ -72,11 +73,11 @@ url: /ar/net/public-api-changes-in-aspose-cells-16-11-0/
 
 
 
-المقتطف التالي يقوم بتحميل جدول بيانات موجود ويضيف الإجمالي الفرعي لنوع المتوسط على البيانات المتوفرة بالفعل في ورقة العمل. سيتم استدعاء فئة CustomSettings وأساليب GetTotalName & GetGrandTotalName الخاصة بها في وقت إضافة Subtotal إلى ورقة العمل.
+تحميل المقتطف التالي ورقة عمل موجودة بالفعل ويضيف Subtotal من النوع المتوسط على البيانات المتاحة بالفعل في ورقة العمل. سيتم استدعاء فئة CustomSettings وأساليب GetTotalName و GetGrandTotalName في وقت إضافة Subtotal إلى ورقة العمل.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Loads an existing spreadsheet containing some data
 
@@ -96,7 +97,7 @@ Worksheet sheet = book.Worksheets[0];
 
 // Adds SubTotal of type Average to the worksheet
 
-sheet.Cells.Subtotal(CellArea.CreateCellArea("A2", "B9"), 0, ConsolidationFunction.Average, new int[]{ 0,1 });
+sheet.Cells.Subtotal(CellArea.CreateCellArea("A2", "B9"), 0, ConsolidationFunction.Average, new int[] { 0,1 });
 
 // Calculates Formulas
 
@@ -114,11 +115,11 @@ book.Save(dir + "output.xlsx");
 
 
 
-تقدم فئة GlobalizationSettings أيضًا طريقة GetOtherName والتي تعد مفيدة للحصول على اسم تسميات "أخرى" للمخططات الدائرية. فيما يلي سيناريو استخدام بسيط لطريقة GlobalizationSettings.GetOtherName.
+تقدم فئة GlobalizationSettings أيضًا أسلوب GetOtherName والذي يعد مفيدًا للحصول على اسم "آخر" للرسوم البيانية الدائرية. هنا سيناريو استخدام بسيط لأسلوب GlobalizationSettings.GetOtherName.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomSettings : GlobalizationSettings
 
@@ -162,11 +163,11 @@ book.Save(dir + "output.xlsx");
 
 
 
-يقوم المقتطف التالي بتحميل جدول بيانات موجود يحتوي على مخطط دائري ، ويعرض المخطط للصورة أثناء استخدام فئة CustomSettings التي تم إنشاؤها أعلاه.
+المقتطف التالي يقوم بتحميل جدول بيانات موجود يحتوي على رسم بياني دائري، ويقوم بتقديم الرسم البياني إلى صورة أثناء استخدام فئة CustomSettings التي تم إنشاؤها أعلاه.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Loads an existing spreadsheet containing a pie chart
 
@@ -198,13 +199,13 @@ chart.ToImage(dir + "output.png", new ImageOrPrintOptions());
 
 
 ### **تمت إضافة فئة CellsFactory**
-كشف Aspose.Cells 16.11.0 عن فئة CellsFactory التي لها حاليًا طريقة واحدة ، وهي ؛ خلق نمط. يمكن استخدام طريقة CellsFactory.CreateStyle لإنشاء مثيل لفئة Style دون إضافتها إلى مجموعة أنماط المصنف.
+Aspose.Cells 16.11.0 قد عرضت فئة CellsFactory التي تحتوي حاليًا على طريقة واحدة، وهي؛ CreateStyle. يمكن استخدام طريقة CellsFactory.CreateStyle لإنشاء مثيل لفئة Style دون إضافته إلى مجموعة أنماط دفتر العمل.
 
-فيما يلي سيناريو الاستخدام البسيط لطريقة CellsFactory.CreateStyle.
+هنا سيناريو استخدام بسيط لطريقة CellsFactory.CreateStyle.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initializes the CellsFactory class
 
@@ -217,22 +218,22 @@ Style style = factory.CreateStyle();
 {{< /highlight >}}
 
 
-### **تمت إضافة المصنف. خاصية AbsolutePath**
-كشف Aspose.Cells 16.11.0 المصنف. تسمح الخاصية AbsolutePath بالحصول على المسار المطلق للمصنف المخزن في ملف workbook.xml أو تعيينه. هذه الخاصية مفيدة أثناء تحديث الروابط الخارجية فقط.
-### **تمت إضافة أسلوب GridHyperlinkCollection.GetHyperlink**
-كشف Aspose.Cells.GridWeb 16.11.0 طريقة GetHyperlink لفئة GridHyperlinkCollection التي تسمح بالحصول على مثيل GridHyperlink إما بتمرير مثيل GridCell أو زوج من الأعداد الصحيحة المقابلة لمؤشرات عمود الصف.
+### **تمت إضافة خاصية Workbook.AbsolutePath**
+أصدر Aspose.Cells 16.11.0 خاصية Workbook.AbsolutePath التي تسمح بالحصول على مسار العمل المؤقت المخزن في ملف workbook.xml أو تعيينه. تعتبر هذه الخاصية مفيدة أثناء تحديث الروابط الخارجية فقط.
+### **تمت إضافة طريقة GridHyperlinkCollection.GetHyperlink**
+قد عرض Aspose.Cells.GridWeb 16.11.0 طريقة GetHyperlink إلى فئة GridHyperlinkCollection التي تسمح بالحصول على مثيل من GridHyperlink سواء عن طريق تمرير مثيل GridCell أو زوج من الأعداد الصحيحة المقابلة لفهار الصف العمود.
 
 {{% alert color="primary" %}} 
 
-في حالة عدم العثور على ارتباط تشعبي في الخلية المحددة ، فإن طريقة GetHyperlink سترجع فارغة.
+في حال عدم العثور على ارتباط تشعبي على الخلية المحددة ستقوم طريقة GetHyperlink بإرجاع قيمة فارغة.
 
 {{% /alert %}} 
 
-فيما يلي سيناريو الاستخدام البسيط لطريقة GetHyperlink.
+هنا سيناريو استخدام بسيط لطريقة GetHyperlink.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Gets the active worksheet from the collection
 
@@ -251,17 +252,17 @@ GridHyperlink link = links.GetHyperlink(sheet.Cells["A1"]);
 link = links.GetHyperlink(0, 3);
 
 {{< /highlight >}}
-## **واجهات برمجة التطبيقات التي عفا عليها الزمن**
-### **منشئ أسلوب قديم**
-يرجى استخدام طريقة cellFactory.CreateStyle كبديل.
-## **واجهات برمجة التطبيقات المحذوفة**
-### **تم حذف Cell.GetConditionalStyle Method**
-الرجاء استخدام طريقة Cell.GetConditionalFormattingResult بدلاً من ذلك.
-### **تم حذف طريقة Cells.MaxDataRowInColumn (عمود int)**
-الرجاء استخدام طريقة Cells.GetLastDataRow (int) كبديل.
-### **خاصية PageSetup.Draft المحذوفة**
-يُنصح باستخدام خاصية PageSetup.PrintDraft بدلاً من ذلك.
-### **تم حذف خاصية AutoFilter.FilterColumnCollection**
-يرجى مراعاة استخدام خاصية AutoFilter.FilterColumns لتحقيق نفس الهدف.
-### **TickLabels المحذوفة. خاصية الدوران**
-الرجاء استخدام خاصية TickLabels.RotationAngle بدلاً من ذلك.
+## **واجهات برمجة التطبيق القديمة**
+### **مُنشئ نمط مهجور**
+يرجى استخدام طريقة cellsFactory.CreateStyle كبديل.
+## **حذف واجهات برمجة التطبيق**
+### **الاكتشاف الشعبي للخلية.**
+يرجى استخدام طريقة Cell.GetConditionalFormattingResult بدلاً من طريقة GetConditionalStyle.
+### **طريقة حذف الخلايا.حدث الصف الأقصى في العمود(int column)**
+يرجى استخدام طريقة Cells.GetLastDataRow(int) كبديل.
+### **خاصية Draft في PageSetup تم حذفها**
+من المستحسن استخدام خاصية PrintDraft في PageSetup بدلاً من ذلك.
+### **خاصية FilterColumnCollection في AutoFilter تم حذفها**
+يرجى النظر في استخدام خاصية FilterColumns في AutoFilter لتحقيق نفس الهدف.
+### **خاصية Rotation في TickLabels تم حذفها**
+الرجاء استخدام خاصية RotationAngle في TickLabels بدلاً من ذلك.

@@ -1,119 +1,120 @@
 ---
-title: Diagram till bild
-description: Lär dig hur du använder Aspose.Cells for .NET för att konvertera ett diagram till ett bildformat, till exempel JPEG eller PNG. Vår guide kommer att visa hur du exporterar ett diagram från Microsoft Excel och sparar det som en fristående bild för vidare användning och manipulation.
-keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
-linktitle: Diagram till bild
+title: Diagram till Bild
+description: Lär dig hur du använder Aspose.Cells for .NET för att konvertera ett diagram till en bild i format som JPEG eller PNG. Vår guide kommer att visa hur man exporterar ett diagram från Microsoft Excel och sparar det som en fristående bild för ytterligare användning och manipulation.
+keywords: Aspose.Cells for .NET, Diagram till Bild, Microsoft Excel, Bildkonvertering, Export, Fristående Bild.
+linktitle: Diagram till Bild
 type: docs
 weight: 46
 url: /sv/net/chart-to-image/
 ---
-##  **Återgivning av diagram**
 
- Aspose.Cells API:er stöder för att konvertera Excel-diagram till bildformat utan att behöva några ytterligare verktyg eller applikationer. För att ge renderingsstöd,[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) klass har avslöjat[**Att föreställa sig**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) metoder med en sanning av överbelastningar för att bäst passa applikationskraven.
+## **Rendering av diagram**
 
-###  **Återge diagram till bilder**
+Aspose.Cells API stödjer att konvertera Excel-diagram till bildformat utan att kräva några ytterligare verktyg eller applikationer. För att tillhandahålla renderingstöd har klassen [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) exponerat [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) metoder med olika överbelastningar för att bäst passa applikationskraven.
 
- De[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) Metoden har en sanning av överbelastningar för att stödja enkel såväl som avancerad rendering. Om applikationskravet är att återge diagrammet i dess standarddimensioner, föreslår vi att du använder[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)metod enligt följande.
+### **Rendera diagram till bilder**
+
+Metoden [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) har olika överbelastningar för att stödja enkel samt avancerad rendering. Om applikationskravet är att rendera diagrammet i dess standarddimensioner föreslår vi att du använder metoden [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) enligt följande.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
- Det är också möjligt att rendera diagrammen till bilder med avancerade inställningar. Aspose.Cells API:er har avslöjat en överbelastningsversion av[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) metod som skulle kunna acceptera en instans av[**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)samtidigt som du tillåter att ange parametrar som upplösning, utjämningsläge, bildformat och så vidare.
+Det är också möjligt att rendera diagram till bilder med avancerade inställningar. Aspose.Cells API har exponerat en överbelastad version av metoden [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) som kan acceptera en instans av [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), samtidigt som den tillåter att specificera parametrar som upplösning, utjämningsläge, bildformat och så vidare.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-##  **Sjökortstyper som stöds för rendering**
+## **Supportade diagramtyper för rendering**
 
- Det finns några diagramtyper som för närvarande inte stöds för rendering. Sådana diagramtyper innehåller**N** i **Stöds** kolumnen i tabellen nedan.
+Det finns några diagramtyper som för närvarande inte stöds för rendering. Sådana diagramtyper innehåller **N** i **Stöds** kolumnen i nedanstående tabell.
 
-|**Diagramtyp**|**Diagram undertyp**|**Stöds**|
+|**Diagramtyp**|**Diagramundertyp**|**Stöd**|
 | :- | :- | :- |
-|**Kolumn**|Kolumn|*Y**|
-| |KolumnStackad|*Y**|
-| |Kolumn100ProcentStackad|*Y**|
-| |Kolumn3DClustrerad|*Y**|
-| |Kolumn3DStackad|*Y**|
-| |Kolumn3D100PercentStacked|*Y**|
-| |Kolumn 3D|*Y**|
-|**Bar**|Bar|*Y**|
-| |BarStacked|*Y**|
-| |Bar100PercentStacked|*Y**|
-| |Bar3DClustered|*Y**|
-| |Bar3DStacked|*Y**|
-| |Bar3D100PercentStacked|*Y**|
-|**Linje**|Linje|*Y**|
-| |LineStacked|*Y**|
-| |Line100PercentStacked|*Y**|
-| |LineWithDataMarkers|*Y**|
-| |LineStackedWithDataMarkers|*Y**|
-| |Line100PercentStackedWithDataMarkers|*Y**|
-| |Line3D|*Y**|
-|**Paj**|Paj|*Y**|
-| |Pie3D|*Y**|
-| |PiePie|*Y**|
-| |PieExploderade|*Y**|
-| |Pie3DE exploderade|*Y**|
-| |PieBar|*Y**|
-|**Sprida ut**|Sprida ut|*Y**|
-| |ScatterConnectedByCurvesWithDataMarker|*Y**|
-| |ScatterConnectedByCurvesWithoutDataMarker|*Y**|
-| |ScatterConnectedByLinesWithDataMarker|*Y**|
-| |ScatterConnectedByLinesWithoutDataMarker|*Y**|
-|**Område**|Område|*Y**|
-| |AreaStacked|*Y**|
-| |Area100PercentStacked|*Y**|
-| |Area3D|*Y**|
-| |Area3DStacked|*Y**|
-| |Area3D100PercentStacked|*Y**|
-|**Munk**|Munk|*Y**|
-| |Doughnut Exploderade|*Y**|
-|**Radar**|Radar|*Y**|
-| |RadarWithDataMarkers|*Y**|
-| |Radarfylld|*Y**|
-|**Yta**|Surface3D|N|
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
 | |SurfaceWireframe3D|N|
-| |Ytkontur|N|
+| |SurfaceContour|N|
 | |SurfaceContourWireframe|N|
-|**Bubbla**|Bubbla|*Y**|
+|**Bubble**|Bubble|**Y**|
 | |Bubble3D|N|
-|**Stock**|StockHighLowClose|*Y**|
-| |LagerÖppnaHögLågStäng|*Y**|
-| |LagervolymHögLågStäng|*Y**|
-| |Lagervolym ÖppenHögLågStäng|*Y**|
-|**Cylinder**|Cylinder|*Y**|
-| |CylinderStacked|*Y**|
-| |Cylinder100PercentStacked|*Y**|
-| |Cylindrical Bar|*Y**|
-| |CylindricalBarStacked|*Y**|
-| |CylindricalBar100PercentStacked|*Y**|
-| |CylindricalColumn3D|*Y**|
-|**Kon**|Kon|*Y**|
-| |ConeStacked|*Y**|
-| |Cone100PercentStacked|*Y**|
-| |ConicalBar|*Y**|
-| |ConicalBarStacked|*Y**|
-| |ConicalBar100PercentStacked|*Y**|
-| |Konisk kolumn3D|*Y**|
-|**Pyramid**|Pyramid|*Y**|
-| |PyramidStackad|*Y**|
-| |Pyramid100ProcentStacked|*Y**|
-| |PyramidBar|*Y**|
-| |PyramidBarStacked|*Y**|
-| |PyramidBar100PercentStacked|*Y**|
-| |PyramidColumn3D|*Y**|
+|**Stock**|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
 |**BoxWhisker**|BoxWhisker|Y|
-|**Tratt**|Tratt|*Y**|
-|**ParetoLine**|ParetoLine|*Y**|
-|**Sunburst**|Sunburst|*Y**|
-|**Trädkarta**|Trädkarta|*Y**|
-|**Vattenfall**|Vattenfall|*Y**|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
 |**Histogram**|Histogram|Y|
-|**Karta**|Karta|*N**|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-Om du försöker rendera diagramtyperna som inte stöds till bild eller PDF, kan du sluta med 0-stora bilder eller tomma PDF.
+Om du försöker rendera de icke-supportade diagramtyperna till bild eller PDF kan du sluta med bilder som är 0 i storlek eller blanka PDF:er.
 
 {{% /alert %}}
 
-##  **Förhandsämnen**
-- [Konvertera diagram till PDF](/cells/sv/net/chart-to-pdf/)
+## **Fortsatta ämnen**
+- [Konvertera Diagram till PDF](/cells/sv/net/chart-to-pdf/)

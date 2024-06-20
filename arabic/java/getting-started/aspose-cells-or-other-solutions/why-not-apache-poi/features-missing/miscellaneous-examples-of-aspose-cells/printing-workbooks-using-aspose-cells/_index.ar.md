@@ -1,17 +1,18 @@
-﻿---
-title: طباعة مصنفات باستخدام Aspose.Cells
+---
+title: طباعة الدفاتر باستخدام Aspose.Cells
 type: docs
 weight: 20
 url: /ar/java/printing-workbooks-using-aspose-cells/
 ---
-## **Aspose.Cells - طباعة دفاتر العمل**
-بعد الانتهاء من إنشاء جدول البيانات ، قد ترغب في طباعة نسخة ورقية من الورقة حسب حاجتك. عندما تقوم بالطباعة ، يفترض MS Excel أنك تريد طباعة منطقة ورقة العمل بأكملها ما لم تحدد اختيارك.
 
-ورقة عمل الطباعة
+## **Aspose.Cells - طباعة دفاتر العمل**
+بعد الانتهاء من إنشاء ورقة البيانات الخاصة بك، من المحتمل أن ترغب في طباعة نسخة ورقية من الورقة لحاجتك. عند الطباعة، يفترض MS Excel أنك تريد طباعة منطقة ورقة العمل بأكملها ما لم تحدد تحديدك.
+
+طباعة ورقة البيانات
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,11 +36,11 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 
-كتاب الطباعة
+طباعة الدفتر
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a WorkbookRender object with respect to your workbook
 
@@ -50,14 +51,14 @@ WorkbookRender wr = new WorkbookRender(book, imgOptions);
 wr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل رمز التشغيل**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/print/AsposePrintWorkbook.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/print/AsposePrintWorkbook.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[دفاتر الطباعة](/cells/ar/java/printing-workbooks).
+لمزيد من التفاصيل، قم بزيارة [طباعة الدفاتر](/cells/ar/java/printing-workbooks).
 
 {{% /alert %}}

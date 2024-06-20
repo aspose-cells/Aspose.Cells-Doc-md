@@ -1,23 +1,24 @@
 ---
-title: Cell Değerinin Genişliğini ve Yüksekliğini Piksel Birimi cinsinden ölçün
+title: Hücre Değeri Genişliğini ve Yüksekliğini Piksel Biriminde Ölçün
 linktitle: Boyutu Ölçün
 type: docs
 weight: 260
 url: /tr/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/
-description: Cell Değerinin Genişliğini ve Yüksekliğini Aspose.Cells for .NET API aracılığıyla Piksel Birimi cinsinden nasıl ölçeceğinizi öğrenin.
-keywords: Measure the Width of the Cell Value in Unit of Pixels, Measure the Height of the Cell Value in Unit of Pixels, Get the Width of the Cell Value in Unit of Pixels, Get the Height of the Cell Value in Unit of Pixels
+description: Aspose.Cells for .NET API aracılığıyla Hücre Değerinin Genişliğini ve Yüksekliğini Piksel Birimiyle Ölçmeyi Nasıl Öğrenirsiniz.
+keywords: Hücre Değerinin Genişliğini Piksel Birimiyle Ölçün, Hücre Değerinin Yüksekliğini Piksel Birimiyle Ölçün, Hücre Değerinin Genişliğini Piksel Birimiyle Alın, Hücre Değerinin Yüksekliğini Piksel Birimiyle Alın.
 ---
+
 {{% alert color="primary" %}}
 
- Bazen hücre değerini hücrenin içine sığdırmak için hücre değerinin genişliğini ve yüksekliğini hesaplamanız gerekir. Aspose.Cells sağlar[**Cell.GetWidthOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getwidthofvalue) Ve[**Cell.GetHeightOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getheightofvalue)Bu amaca yönelik yöntemler. Bu yöntemleri kullanarak, hücre değerinin genişliğini ve yüksekliğini hesaplayabilir ve daha sonra sırasıyla o hücrenin sütun genişliğini ve satırının yüksekliğini ayarlayabilirsiniz; bu daha sonra hücre değerini hücrenin içine ayarlayacak veya sığdıracaktır.
+Bazen hücre değerinin genişliğini ve yüksekliğini, hücre içine hücre değerini sığdırmak için hesaplamanız gerekir. Aspose.Cells bu amaçla [**Cell.GetWidthOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getwidthofvalue) ve [**Cell.GetHeightOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getheightofvalue) yöntemlerini sağlar. Bu yöntemleri kullanarak hücre değerinin genişliğini ve yüksekliğini hesaplayabilir, ardından o hücrenin sütun genişliğini ve satır yüksekliğini ayarlayabilirsiniz ve bu, hücre değerini hücrenin içine otomatik olarak ayarlar veya sığdırır.
 
- Alternatif olarak şunları da yapabilirsiniz:[Hücrenizin veya hücre aralığınızın satırlarını ve sütunlarını otomatik olarak sığdırın](/cells/tr/net/autofit-rows-and-columns/) Aspose.Cells API'leri kullanarak.
+Alternatif olarak, Aspose.Cells API'larını kullanarak hücre veya hücre aralığının [otomatik sığdırılmasını](/cells/tr/net/autofit-rows-and-columns/) da gerçekleştirebilirsiniz.
 
 {{% /alert %}}
 
- Aşağıdaki kod kullanımını açıklamaktadır[**Cell.GetWidthOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getwidthofvalue) Ve[**Cell.GetHeightOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getheightofvalue)yöntemler.
+Aşağıdaki kod, [**Cell.GetWidthOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getwidthofvalue) ve [**Cell.GetHeightOfValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getheightofvalue) yöntemlerinin kullanımını açıklar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-CalculateWidthAndHeight-CalculateWidthAndHeightOfCellValueInUnitOfPixel.cs" >}}
 
-##  **İleri konular**
-- [Cell Değerinin Metin Genişliğini Al](/cells/tr/net/get-text-width-of-cell-value/)
+## **Gelişmiş Konular**
+- [Hücre Değeri Metnin Genişliğini Alma](/cells/tr/net/get-text-width-of-cell-value/)

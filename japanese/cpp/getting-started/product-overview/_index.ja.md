@@ -1,24 +1,25 @@
-﻿---
-title: 製品の概要
+---
+title: 製品概要
 type: docs
 weight: 10
 url: /ja/cpp/product-overview/
 ---
+
 {{% alert color="primary" %}}
 
-**![todo:image_alt_text](製品概要_1)**
+**![todo:image_alt_text](product-overview_1)**
 
-**Aspose.Cells for C++ ドキュメント セクションへようこそ**
+**Aspose.Cells for C++ドキュメントセクションへようこそ**
 
-Aspose.Cells for C++ は、C++ 開発者が Office Automation や Microsoft Excel アプリケーションを必要とせずにプログラムでスプレッドシートを作成、操作、および変換できるようにするネイティブ C++ ライブラリです。
+Aspose.Cells for C++は、Office AutomationまたはMicrosoft Excelアプリケーションを必要とせずに、C++開発者がプログラム的にスプレッドシートを作成、操作、および変換できるネイティブC++ライブラリです。
 
-Aspose.Cells for C++ は、Excel 97-2003 Workbook 形式や Open Office XML 形式などのスプレッドシート形式をサポートしています。
+Aspose.Cells for C++では、Excel 97-2003ワークブック形式やOpen Office XML形式など、スプレッドシート形式がサポートされています。
 
 {{% /alert %}}
 
-## **利点**
+## **Benefits**
 
-アプリケーションで Aspose.Cells for C++ を使用すると、次の利点があります。
+アプリケーションでAspose.Cells for C++を使用すると、以下の利点が得られます：
 
 - 豊富な機能
 - プラットフォームの独立性
@@ -26,58 +27,58 @@ Aspose.Cells for C++ は、Excel 97-2003 Workbook 形式や Open Office XML 形�
 
 ### **豊富な機能**
 
-Aspose.Cells for C++ は、スプレッドシートの作成、変換、および操作のための幅広い機能を提供します。
+Aspose.Cells for C++は、スプレッドシートの作成、変換、操作のための多様な機能を提供しています：
 
-- 組み込みプロパティ
-- カスタム プロパティ
+- 組み込みのプロパティ
+- カスタムプロパティ
 - テーマ
-- スタイルとフォーマット
-- データ検証
+- スタイルと書式
+- データの検証
 - 条件付き書式
 - ハイパーリンク
 - オートフィルター
 - ページ設定
-- 数式の読み取り、書き込み、および計算
-- 行と列をグループ化する
+- 読み込み、書き込み、および数式の計算
+- 行と列のグループ化
 - ピボットテーブル
 - テーブル
 
-### **プラットフォーム非依存**
+### **プラットフォームの独立性**
 
-Aspose.Cells for C++ を使用して、任意のタイプの 32 ビットおよび 64 ビット C++ アプリケーションをビルドします。
+32ビットおよび64ビットのC++アプリケーションを構築するためにAspose.Cells for C++を使用してください。
 
 ### **パフォーマンスとスケーラビリティ**
 
-Aspose.Cells for C++ は、サーバー側でもクライアント側でも同じように機能するように設計されています。 Aspose.Cells for C++ は、コピーするだけでデプロイできるネイティブ アセンブリです。他のサービスやモジュールについて心配する必要はありません。
+Aspose.Cells for C++は、サーバーサイドまたはクライアントサイドのいずれでも同様に優れたパフォーマンスを提供するように設計されています。 Aspose.Cells for C++ は、単にコピーして展開できるネイティブアセンブリです。他のサービスやモジュールについて心配する必要はありません。
 
-## **技術サポート**
+## **テクニカルサポート**
 
-Aspose は、すべての製品に対して無制限の無料テクニカル サポートを提供します。評価を含め、すべてのユーザーがサポートを利用できます。
+Asposeは、全ての製品に対して無制限の無料の技術サポートを提供しています。評価を含め、全ユーザーがサポートを受けることができます。
 
- Aspose.Cells for C++ でサポートが必要な場合[Aspose.Forumsにアクセスしてください](https://forum.aspose.com/c/cells/9)Aspose.Cells for C++ フォーラムに質問を投稿すると、数時間以内に回答が得られます。質問には、Aspose.Cells for C++ サポート チームが直接回答します。
+Aspose.Cells for C++に関する問題がある場合は、[Aspose.Forumsを訪問してください](https://forum.aspose.com/c/cells/9)。Aspose.Cells for C++フォーラムで質問を投稿すると、数時間以内に回答されます。質問には、Aspose.Cells for C++サポートチームが直接回答します。
 
-フォーラムでの返信を期待する場合は、タイム ゾーンの違いを考慮してください。
+フォーラムで返信を期待する場合は、時差を考慮してください。
 
-Aspose.Cells for C++ に問題がある場合は、次の簡単な手順に従って、最も効率的な方法で問題が解決されていることを確認してください。
+Aspose.Cells for C++に問題がある場合は、効率的な解決のために次の簡単な手順に従ってください：
 
-- 問題を報告する前に、最新の Aspose.Cells for C++ バージョンを使用していることを確認してください。
-- 問題を報告するときは、元のドキュメントと、場合によっては問題の原因となっているコードの断片を含めてください。複数のファイルを添付する必要がある場合は、それらを 1 つに圧縮します。あなたと Aspose 開発者のみが添付ファイルにアクセスできるため、Aspose.Forums にドキュメントを添付しても安全です。
-- スレッドごとに 1 つの問題を報告するようにしてください。別の問題がある場合は、別のスレッドで報告してください。
+- 問題を報告する前に、最新のAspose.Cells for C++バージョンを使用していることを確認してください。
+- 問題を報告する際は、元の文書と問題を引き起こす可能性のあるコードの断片を含めてください。複数のファイルを添付する必要がある場合は、それらを1つに圧縮してください。Aspose.Forumsに文書を添付しても安全です。なぜなら添付ファイルにアクセスできるのはあなたとAsposeの開発者だけだからです。
+- 1つのスレッドにつき1つの問題を報告してください。別の問題がある場合は、別のスレッドで報告してください。
 
 {{% alert color="primary" %}}
 
-Aspose では、電話によるテクニカル サポートは提供していません。電話サポートは、販売および購入に関する質問にのみ利用できます。
+Asposeは電話での技術サポートを提供していません。電話サポートは販売および購入に関する質問にのみ利用可能です。
 
 {{% /alert %}}
 
-## **資力**
+## **リソース**
 
-この表は、Aspose.Cells for C++ の重要な技術リソースを示しています。
+この表には重要なAspose.Cells for C++の技術リソースがリストされています。
 
 |**リソース**|**説明**|
-|:- |:- |
-|[Aspose.Cells ホームページ](https://products.aspose.com/cells/cpp/)|製品のホームページ。|
-|[Aspose.Cells ブログ](https://blog.aspose.com/category/cells/)|新しいリリースに関する情報と Aspose.Cells に関する役立つヒントについては、これを頻繁に確認してください。|
-|[Aspose.Cells for C++ ダウンロード](https://downloads.aspose.com/cells/cpp)|ここから Aspose.Cells の最新バージョンをダウンロードします。私たちは頻繁にリリースします。|
-|[Aspose.Cells for C++ サポートフォーラム](https://forum.aspose.com/c/cells/9)|迅速な解決のために、質問や問題をここに投稿してください。|
-|[Aspose.Cells for C++ 製品資料](/cells/ja/cpp/)|このドキュメントと Aspose.Cells API リファレンスを含む完全なオンライン ドキュメント。|
+| :- | :- |
+|[Aspose.Cells ホームページ](https://products.aspose.com/cells/cpp/)|製品ホームページ。
+|[Aspose.Cells ブログ](https://blog.aspose.com/category/cells/)|Aspose.Cellsに関する新リリースの情報や役立つヒントについての情報はこちらで確認してください。
+|[Aspose.Cells for C++ ダウンロード](https://downloads.aspose.com/cells/cpp)|ここからAspose.Cellsの最新バージョンをダウンロードしてください。頻繁にリリースしています。
+|[Aspose.Cells for C++ サポートフォーラム](https://forum.aspose.com/c/cells/9)|迅速な解決のためにこちらで質問や問題を投稿してください。
+|[Aspose.Cells for C++ 製品ドキュメント](/cells/ja/cpp/)|このドキュメントとAspose.Cells APIリファレンスを含む完全なオンラインドキュメント。

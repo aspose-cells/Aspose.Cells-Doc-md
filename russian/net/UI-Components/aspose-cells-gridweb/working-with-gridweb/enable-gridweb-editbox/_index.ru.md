@@ -1,22 +1,25 @@
-﻿---
-title: Включить поле редактирования GridWeb
+---
+title: Включить поле ввода GridWeb
 type: docs
 weight: 110
-url: /ru/net/enable-gridweb-editbox/
+url: /ru/net/aspose-cells-gridweb/enable-gridweb-editbox/
+keywords: GridWeb, поле ввода, панель формул
+description: Эта статья представляет, как работать с панелью формул или полем ввода в GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Поле редактирования GridWeb — это панель инструментов, отображаемая в верхней части элемента управления, которую можно использовать для просмотра/ввода или копирования данных/формул в ячейки. Он также показывает имя ячейки, которую вы редактируете. После щелчка по рамке или при вводе данных или вводе символа равенства (=) поле редактирования будет активировано.
+Поле ввода GridWeb (в Excel называется панель формул) - это панель инструментов, которая отображается в верхней части элемента управления, и которую можно использовать для отображения или ввода значения или копирования данных/формулы для выделенной ячейки. Она также показывает имя ячейки, которую вы редактируете. После щелчка по рамке или при начале ввода данных или набора знака равенства (=) поле ввода будет активировано.
 
 {{% /alert %}} 
-## **Настройка поля редактирования Aspose.Cells.GridWeb**
-Элемент управления GridWeb предоставляет свойство ShowCellEditBox, которому разработчики могут присвоить значение «True», чтобы включить панель инструментов. Значение атрибута по умолчанию — False. Если вы установите для него значение "True", поле редактирования появится в верхней части элемента управления GridWeb.
+## **Настройка поля ввода Aspose.Cells.GridWeb**
+Элемент управления GridWeb предоставляет свойство ShowCellEditBox, которое разработчики могут установить в "True" для отображения панели инструментов. Значение по умолчанию этого атрибута - False. Когда его значение установлено в "True", поле ввода появится в верхней части элемента управления GridWeb.
 
 {{% alert color="primary" %}} 
 
- Чтобы включить эту функцию, вам нужно импортировать файл «jquery.js» в свой проект и сослаться на него на своих страницах .aspx, чтобы он работал. Вы можете скачать архив jQuery с<https://jqueryui.com/download/all/> и поместите файл (ы) библиотеки в какую-либо папку в проекте и добавьте ссылку на файл библиотеки через<script> тег в вашей веб-форме .aspx следующим образом. Все последние версии jQuery в порядке.
+To enable this feature, you need to import "jquery.js" file to your project and refer it in your .aspx page(s) to make it work. You may download the jQuery archive from <https://jqueryui.com/download/all/> and put the library file(s) into some folder in the project and add reference to the library file via <script> tag in your .aspx web form as following. All the latest jQuery versions are OK.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <head id="Head1" runat="server">
 
@@ -32,9 +35,9 @@ url: /ru/net/enable-gridweb-editbox/
 
 {{% /alert %}} 
 
-**Элемент управления GridWeb с полем редактирования** 
+**Элемент управления GridWeb с полем ввода** 
 
-![дело:изображение_альтернативный_текст](enable-gridweb-editbox_1.png)
+![todo:image_alt_text](enable-gridweb-editbox_1.png)
 ### **Пример**
 
 

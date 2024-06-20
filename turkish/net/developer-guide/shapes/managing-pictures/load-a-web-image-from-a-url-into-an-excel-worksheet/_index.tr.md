@@ -1,21 +1,22 @@
-﻿---
-title: Bir URL'den bir Web Görüntüsünü Excel Çalışma Sayfasına Yükleme
+---
+title: Bir URL den Web Resmini Excel Çalışma Sayfasına Yükleme
 type: docs
 weight: 30
 url: /tr/net/load-a-web-image-from-a-url-into-an-excel-worksheet/
-description: Bir Görüntüyü URL'den gerçek Excel görüntüsüne nasıl dönüştürebilirim? Bu makale, C# ve kullanımı kolay Aspose.Cells for .NET API kullanarak bunu gerçekleştirmeyi göstermektedir.
-keywords: excel show image from url, excel url to image, show image in excel from url, excel insert image from url, convert url to image in excel, excel image from url, load image from url in excel, C#, Excel
+description: Bir URL den Resmi gerçek Excel resmine nasıl dönüştürülür? Bu makale, bu işlemi C# ve basit ve kullanışlı Aspose.Cells for .NET API sını kullanarak nasıl gerçekleştireceğinizi anlatmaktadır.
+keywords: excel url adresinden resim göster, excel url adresini resim, excel de url den resim gösterme, excel url adresinden resim ekleme, url yi excel de resme dönüştürme, excel url adresinden resim, url den excel de resim yükleme, C#, Excel
 ---
-## URL'den Excel Çalışma Sayfasına Resim Yükleme
 
-Aspose.Cells for .NET API, URL'lerden Excel Çalışma Sayfalarına resim yüklemek için basit ve kolay bir yol sağlar. Bu makalede, görüntü verilerinin bir akışa indirilmesi ve ardından Aspose.Cells API kullanılarak çalışma sayfasına eklenmesi açıklanmaktadır. Bu yöntem kullanıldığında, görüntüler excel dosyasının bir parçası haline gelir ve çalışma sayfası her açıldığında indirilmez.
+## Bir URL'den Bir Resmi Excel Çalışma Sayfasına Yükleme
 
-## Basit kod
+Aspose.Cells for .NET API, URL'lerden resimleri Excel Çalışma Sayfalarına yükleme için kolay ve basit bir yöntem sağlar. Bu makale, resim verilerini bir akışa indirme ve daha sonra Aspose.Cells API'sini kullanarak çalışma sayfasına eklemenin işlemini açıklamaktadır. Bu yöntemi kullanarak, resimler excel dosyasının bir parçası haline gelir ve her çalışma sayfası açıldığında indirilmez.
+
+## Örnek Kod
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LoadWebImage-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Her zaman bir URL'den güncellenen resmi istediğiniz durumlar olabilir. Bunu başarmak için, aşağıda verilen talimatları takip edebilirsiniz.[Web Adresinden Bağlantılı Resim Ekleme](/cells/tr/net/insert-a-linked-picture-from-web-address/) makale. Bu yöntemi izleyerek, çalışma sayfası her açıldığında resim URL'den yüklenir.
+Her zaman güncellenmiş bir resmi URL'den almak istediğiniz durumlar olabilir. Bunu başarmak için, [Web Adresinden Bağlantılı Bir Resim Eklemek](/cells/tr/net/insert-a-linked-picture-from-web-address/) makalesinde verilen talimatları takip edebilirsiniz. Bu yöntemi takip ederek, resim her çalışma sayfası açıldığında URL'den yüklenir.
 
 {{% /alert %}}

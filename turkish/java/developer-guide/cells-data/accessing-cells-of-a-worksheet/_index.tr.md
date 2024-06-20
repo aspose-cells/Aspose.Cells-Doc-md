@@ -1,34 +1,35 @@
-﻿---
-title: Bir Çalışma Sayfasının Cells'ine Erişme
+---
+title: Çalışma Sayfasının Hücrelerine Erişme
 type: docs
 weight: 10
 url: /tr/java/accessing-cells-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Tüm çalışma sayfalarının temel olarak hücrelerde saklanan (bir çalışma sayfasını oluşturan) veriler içerebileceğini biliyoruz. Hücre, çalışma sayfasının tamamını satırlar ve sütunlar dizisi olarak oluşturmak için kullanılan temel bir parçasıdır. Bir çalışma sayfasındaki verilere erişmeye çalışmadan önce, hücrelerine erişmemiz gerekir. Dolayısıyla, bu konuda, çalışma zamanında Aspose.Cells kullanarak çalışma sayfası hücrelerine erişmek için bazı temel yaklaşımları tartışacağız.
+Tüm çalışma sayfalarının temelini oluşturan hücrelerde depolanan temelde veri içeren verileri içerebileceğini biliyoruz. Bir hücre, çalışma sayfasının tümünü satırlar ve sütunlar dizisi olarak oluşturmak için kullanılan çalışma sayfasının temel parçasıdır. Bir çalışma sayfasından veri almadan önce, hücrelerine erişim sağlamamız gerekecektir. Bu nedenle, bu konuda, Aspose.Cells'i kullanarak çalışma sayfasının çalışma zamanında hücrelere erişmek için bazı temel yaklaşımları tartışacağız.
 
 {{% /alert %}} 
-## **Cells'e erişim**
- Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf bir sağlar[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)çalışma sayfasındaki tüm hücreleri temsil eden koleksiyon.
+## **Hücrelere Erişim**
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) adlı bir sınıf sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışsayfaya erişim izni veren [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) koleksiyonunu içerir. Bir çalışsayfa, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı, çalışsayfadaki tüm hücreleri temsil eden bir [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonu sağlar.
 
- kullanabiliriz[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)çalışma sayfasındaki hücrelere erişmek için koleksiyon. Aspose.Cells, hücrelere erişim için farklı temel yaklaşımlar sunar:
+[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunu, bir çalışsayfadaki hücrelere erişmek için kullanabiliriz. Aspose.Cells, hücrelere erişim için farklı temel yaklaşımlar sağlar:
 
-1. [Hücre adını kullanma](/cells/tr/java/accessing-cells-of-a-worksheet/).
-1. [Satır ve sütun indeksini kullanma](/cells/tr/java/accessing-cells-of-a-worksheet/).
-### **Cell Adını Kullanma**
- Geliştiriciler, hücre adını şuraya geçirerek herhangi bir belirli hücreye erişebilir:[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)sınıf.
+1. [Hücre adı kullanarak](/cells/tr/java/accessing-cells-of-a-worksheet/).
+1. [Satır ve sütun indeksi kullanarak](/cells/tr/java/accessing-cells-of-a-worksheet/).
+### **Hücre Adı Kullanarak**
+Geliştiriciler, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfının [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonuna hücre adını ileterek belirli bir hücreye erişebilirler.
 
- Başlangıçta boş bir çalışma sayfası oluşturursanız,[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)Koleksiyon sıfırdır. Bir hücreye erişmek için bu yaklaşımı kullandığınızda, bu hücrenin koleksiyonda var olup olmadığını kontrol edecektir. Evet ise, koleksiyondaki hücre nesnesini döndürür, aksi takdirde yeni bir hücre nesnesi oluşturur.[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) nesne, nesneyi şuraya ekler:[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)koleksiyon ve ardından nesneyi döndürür. Bu yaklaşım, Microsoft Excel'e aşina iseniz hücreye erişmenin en kolay yoludur, ancak diğer yaklaşımlardan daha yavaştır.
+Eğer başlangıçta boş bir çalışsayfa oluşturursanız, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun sayısı sıfırdır. Bu yaklaşımı hücreye erişmek için kullandığınızda, bu hücrenin koleksiyonda var olup olmadığını kontrol eder. Var ise, hücre nesnesini koleksiyonda döndürür, aksi takdirde yeni bir [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) nesnesi oluşturur, nesneyi [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonuna ekler ve sonra nesneyi döndürür. Bu yaklaşım, Microsoft Excel ile tanıdık iseniz, hücreye erişmenin en kolay yoludur ama diğer yaklaşımlardan daha yavaştır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UsingCellName-UsingCellName.java" >}}
 
 
 
-### **Cell'in Satır ve Sütun Dizinini Kullanma**
- Geliştiriciler, herhangi bir hücreye, satırının ve sütununun indekslerini[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)sınıf.
+### **Hücrenin Satır ve Sütun İndeksini Kullanma**
+Geliştiriciler, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfının [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonuna hücrenin satır ve sütun indekslerini ileterek belirli bir hücreye erişebilirler.
 
-Bu yaklaşım, ilk yaklaşımla aynı şekilde çalışır.
+Bu yaklaşım, ilk yaklaşımın çalışma şekliyle aynı şekilde çalışır.
 
 
 
@@ -39,20 +40,20 @@ Bu yaklaşım, ilk yaklaşımla aynı şekilde çalışır.
 - [Adlandırılmış Aralıklar](/cells/tr/java/named-ranges/)
 
 {{% /alert %}} 
-## **Çalışma Sayfasının Maksimum Görüntüleme Aralığına Erişme**
-Aspose.Cells, geliştiricilerin bir çalışma sayfasının maksimum görüntüleme aralığına erişmesine olanak tanır. Maksimum görüntüleme aralığı (içeriğe sahip ilk ve son hücre arasındaki hücre aralığı), bir çalışma sayfasının tüm içeriğini bir görüntüde kopyalamanız, seçmeniz veya görüntülemeniz gerektiğinde kullanışlıdır.
+## **Çalışsayfanın Maksimum Görüntü Aralığına Erişme**
+Aspose.Cells, geliştiricilere bir çalışma sayfasının maksimum görüntüleme aralığına erişme imkanı sunar. Maksimum görüntüleme aralığı - içerik bulunan ilk ve son hücre aralığı - bir çalışma sayfasının tüm içeriğini bir resimde kopyalamak, seçmek veya görüntülemek istediğinizde kullanışlıdır.
 
- Bir çalışma sayfasının maksimum görüntüleme aralığına şunu kullanarak erişebilirsiniz:[Worksheet.getCells().getMaxDisplayRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange).
+Bir çalışsayfanın maksimum görüntü aralığına, [Worksheet.getCells().getMaxDisplayRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange) yöntemini kullanarak erişebilirsiniz.
 
-Aşağıdaki şekilde, seçilen çalışma sayfasının maksimum görüntüleme aralığı A1:G15'tir.
+Aşağıdaki şekilde, seçilen çalışsayfanın maksimum görüntü aralığı A1:G15'tir.
 
-**Bu çalışma sayfasının maksimum görüntüleme aralığı gösteriliyor** 
+**Bu çalışma sayfasının maksimum görüntü aralığını gösteriyor** 
 
-![yapılacaklar:resim_alternatif_metin](accessing-cells-of-a-worksheet_1.png)
+![todo:image_alt_text](accessing-cells-of-a-worksheet_1.png)
 
- Aşağıdaki örnek kod, nasıl erişileceğini gösterir.[Maksimum Görüntü Aralığı](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange)Emlak. Kod aşağıdaki çıktıyı üretir.
+Aşağıdaki örnek kod, [MaxDisplayRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange) özelliğine nasıl erişileceğini açıklar. Kod aşağıdaki çıktıyı oluşturur.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Maximum Display Range: =Sheet1!$A$1:$G$15
 

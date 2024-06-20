@@ -1,22 +1,23 @@
-﻿---
-title: Editor di fogli di calcolo - Lavorare con le funzioni
+---
+title: Editor di Fogli di Calcolo  Lavorare con le Funzioni
 type: docs
 weight: 60
 url: /it/java/spreadsheet-editor-working-with-functions/
 ---
-**Sommario**
 
-- [Barra della formula](#SpreadsheetEditor-WorkingwithFunctions-FormulaBar) 
- - saveFormulaBarContents
-- [Inserisci una funzione](#SpreadsheetEditor-WorkingwithFunctions-InsertaFunction)
-### **Barra della formula**
-La barra della formula è una casella di testo sopra l'area del foglio. Visualizza la formula della cella corrente e consente all'utente di modificarla.
+**Tabella dei contenuti**
+
+- [Barra delle Formule](#SpreadsheetEditor-WorkingwithFunctions-FormulaBar) 
+  - saveFormulaBarContents
+- [Inserisci una Funzione](#SpreadsheetEditor-WorkingwithFunctions-InsertaFunction)
+### **Barra delle Formule**
+La barra delle formule è una casella di testo in cima all'area del foglio. Mostra la formula della cella corrente e consente all'utente di modificarla.
 
 **Come funziona?**
 
- Quando si seleziona una cella, la barra della formula viene sincronizzata con la cella e viene visualizzata la formula. L'utente è autorizzato a modificare. Quando l'utente modifica e preme il tasto Invio, la funzione JavaScript**saveFormulaBarContents** viene eseguito
+Quando una cella è selezionata, la barra delle formule si sincronizza con la cella e visualizza la formula. All'utente è consentito modificare. Quando l'utente modifica e preme il tasto Invio, la funzione JavaScript **salvaContenutiBarraFormule** viene eseguita
 #### **saveFormulaBarContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  function saveFormulaBarContents() {
 
@@ -31,9 +32,9 @@ La barra della formula è una casella di testo sopra l'area del foglio. Visualiz
 }
 
 {{< /highlight >}}
-### **Inserisci una funzione**
-Per inserire una funzione o una formula:
+### **Inserisci una Funzione**
+Per inserire una funzione o formula:
 
 1. Fare clic su una cella per selezionarla.
-1.  Clic**Inserisci funzione** pulsante in alto.
-1.  Seguire le istruzioni sul**Inserisci funzione** dialogo.
+1. Fare clic sul pulsante **Inserisci Funzione** in alto.
+1. Seguire le istruzioni sulla finestra di dialogo **Inserisci Funzione**.

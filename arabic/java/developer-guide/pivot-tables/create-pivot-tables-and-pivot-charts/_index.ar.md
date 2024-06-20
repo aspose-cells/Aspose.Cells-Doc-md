@@ -1,48 +1,49 @@
-﻿---
-title: إنشاء جداول محورية ومخططات محورية
+---
+title: إنشاء جداول محورية ورسوم بيانية محورية
 type: docs
 weight: 10
 url: /ar/java/create-pivot-tables-and-pivot-charts/
-description: قم بإنشاء جداول محورية ومخططات محورية باستخدام Aspose.Cells for Java API.
-keywords: excel create pivot table java, excel create pivot chart java, excel create pivot table and pivot chart java, create excel pivot table java, create excel pivot chart java, create excel pivot table and pivot chart java, java create excel pivot table and pivot chart, how to create excel pivot table and pivot chart java
+description: إنشاء جداول محورية ورسوم بيانية محورية باستخدام واجهة برمجة التطبيقات Aspose.Cells for Java.
+keywords: جدول excel create pivot table java، excel create pivot chart java، excel create pivot table and pivot chart java، create excel pivot table java، create excel pivot chart java، create excel pivot table and pivot chart java، java create excel pivot table and pivot chart، كيفية إنشاء جدول محوري excel ورسم بياني محوري java
 ---
+
 {{% alert color="primary" %}}
 
-الجدول المحوري هو ملخص تفاعلي للسجلات. على سبيل المثال ، قد يكون لديك المئات من إدخالات الفاتورة في قائمة بورقة عمل. يمكن للجدول المحوري إجمالي الفواتير حسب العميل أو المنتج أو التاريخ. باستخدام Microsoft Excel ، من الممكن إعادة ترتيب المعلومات في الجدول المحوري بسرعة عن طريق سحب الأزرار إلى موضع جديد.
+الجدول المحوري هو ملخص تفاعلي للسجلات. على سبيل المثال، قد تحتوي على مئات الإدخالات الخاصة بالفواتير في قائمة داخل صفحة العمل. يمكن للجدول المحوري إجمالي الفواتير حسب العميل، المنتج أو التاريخ. باستخدام مايكروسوفت إكسل يمكن بسرعة إعادة ترتيب المعلومات في الجدول المحوري عن طريق سحب الأزرار إلى موقع جديد.
 
-المخطط المحوري هو تمثيل رسومي تفاعلي للبيانات في جدول محوري. تم تقديم المخططات المحورية في Excel 2000. ويسهل استخدام المخطط المحوري فهم البيانات نظرًا لأن الجدول المحوري ينشئ الإجماليات الفرعية والإجماليات تلقائيًا.
+الرسم البياني المحوري هو تمثيل رسومي تفاعلي للبيانات في الجدول المحوري. تم إدخال الرسوم البيانية المحورية في إكسل 2000. باستخدام الرسم البياني المحوري يصبح أسهل فهم البيانات نظرًا لأن الجدول المحوري يقوم تلقائيًا بإنشاء المجاميع الفرعية والمجاميع.
 
- Aspose.Cells يدعم[الجداول المحورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-table) و[المخططات المحورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-chart-based-on-the-pivot-table).
+يدعم Aspose.Cells [الجداول المحورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-table) و[الرسوم البيانية المحورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-chart-based-on-the-pivot-table).
 
 {{% /alert %}}
 
-## **إضافة الجداول المحورية والمخططات**
+## **إضافة الجداول المحورية والرسوم البيانية**
 
-يوفر Aspose.Cells مجموعة خاصة من الفئات المستخدمة لتكوين جداول محورية. تُستخدم هذه الفئات لإنشاء كائنات PivotTable وتعيينها ، والتي تعمل بمثابة كتل الإنشاء الأساسية لكائن PivotTable:
+توفر Aspose.Cells مجموعة خاصة من الفئات المستخدمة لإنشاء الجداول المحورية. يتم استخدام هذه الفئات لإنشاء وتعيين كائنات PivotTable، والتي تعمل كبنية أساسية لكائن PivotTable:
 
-- PivotField ، حقل في تقرير جدول محوري.
-- PivotFields ، مجموعة من كل كائنات PivotField في جدول محوري.
-- PivotTable ، تقرير PivotTable في ورقة عمل.
-- PivotTables ، مجموعة من كل كائنات PivotTable في ورقة العمل.
+- PivotField، حقل في تقرير جدول محوري.
+- PivotFields، مجموعة من جميع كائنات PivotField في جدول محوري.
+- PivotTable، تقرير PivotTable على صفحة العمل.
+- PivotTables، مجموعة من جميع كائنات PivotTable على صفحة العمل.
 
 ### **التحضير لاستخدام Aspose.Cells**
 
 1. قم بتنزيل وتثبيت Aspose.Cells.Zip:
    1. [تحميل Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
- 1. قم بفك ضغطه على جهاز الكمبيوتر الخاص بك.
- الجميع[Aspose](http://www.aspose.com/) المكونات ، عند تثبيتها ، تعمل في وضع التقييم. لا يوجد حد زمني لوضع التقييم ويقوم فقط بحقن العلامات المائية في المستندات المنتجة.
-1. أنشئ مشروعًا
- 1. يمكنك إما إنشاء مشروع باستخدام محرر Java مثل Eclipse أو إنشاء برنامج بسيط باستخدام NotePad.
-1. إضافة مسار الفصل:
- لتعيين مسار فئة باستخدام Eclipse:
-1. قم باستخراج Aspose.Cells.jar و dom4j_1.6.1.jar من Aspose.Cells.zip.
- 1. قم بتعيين مسار الفصل للمشروع في Eclipse:
-1. حدد مشروعك في Eclipse ثم انقر فوق قوائم Project-Properties.
- 1. حدد "Java Build Path" في الجانب الأيسر من النافذة المنبثقة ، ثم حدد علامة التبويب "Libraries" ، وانقر فوق "Add JARs" أو "Add External JARs" لتحديد Aspose.Cells.jar و dom4j_1.6.1.jar وإضافتها في بناء المسارات.
- 1. اكتب تطبيقًا لاستدعاء واجهات برمجة التطبيقات لمكونات Aspose.
- أو يمكنك ضبطه في وقت التشغيل في دوس موجه في Windows.
+   1. قم بفك الضغط عنها في جهاز التطوير الخاص بك.
+      جميع [مكونات Aspose](http://www.aspose.com/) ، عند التثبيت، تعمل في وضع التقييم. وضع التقييم ليس له حد زمني ولكنه يضيف علامات مائية فقط إلى المستندات المنتجة.
+1. إنشاء مشروع
+   1. يمكنك إما إنشاء مشروع باستخدام محرر جافا مثل Eclipse أو إنشاء برنامج بسيط باستخدام NotePad.
+1. إضافة مسار الفئة:
+   لتعيين مسار الفئة باستخدام Eclipse:
+   1. استخراج Aspose.Cells.jar و dom4j_1.6.1.jar من Aspose.Cells.zip.
+   1. ضبط مسار الفئة للمشروع في Eclipse:
+   1. حدد مشروعك في الإكليبس ثم انقر فوق القوائم مشروع -> الخصائص.
+   1. حدد “Java Build Path” في الجانب الأيسر من نافذة العرض المنبثق، ثم حدد علامة التبويب “المكتبات”، انقر على “إضافة JARs” أو “إضافة JARs الخارجية” لتحديد Aspose.Cells.jar و dom4j_1.6.1.jar وأضفها إلى مسارات البناء.
+   1. كتابة التطبيق لاستدعاء واجهات برمجة التطبيقات من مكونات Aspose.
+      أو يمكنك ضبطه خلال التشغيل في سطر الأوامر في نظام التشغيل ويندوز.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  javac \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName 
 
@@ -52,53 +53,53 @@ keywords: excel create pivot table java, excel create pivot chart java, excel cr
 
 لإنشاء جدول محوري باستخدام Aspose.Cells:
 
-1. أضف بعض البيانات إلى خلايا ورقة العمل باستخدام أسلوب PutValue / setValue الخاص بالكائن Cell. يمكنك أيضًا استخدام ملف قالب مملوء بالفعل بالبيانات. سيتم استخدام البيانات كمصدر بيانات للجدول المحوري.
-1. أضف جدولاً محوريًا إلى ورقة العمل عن طريق استدعاء طريقة إضافة مجموعة PivotTables (مغلفة في كائن ورقة العمل).
-1. قم بالوصول إلى كائن PivotTable الجديد من مجموعة PivotTables بتمرير الفهرس الخاص به.
-1. استخدم أيًا من كائنات الجدول المحوري المغلفة في كائن PivotTable لإدارة الجدول.
+1. أضف بعض البيانات إلى خلايا ورق العمل باستخدام أسلوب PutValue/setValue لكائن الخلية. يمكنك أيضًا استخدام ملف قالب مملوء بالفعل بالبيانات. سيتم استخدام البيانات كمصدر بيانات الجدول الدوري.
+1. أضف جدول محوري إلى ورقة العمل عن طريق استدعاء طريقة add في مجموعة PivotTables (مغلّفة في كائن الورقة).
+1. الوصول إلى كائن PivotTable الجديد من مجموعة PivotTables عن طريق تمرير فهرسه.
+1. استخدم أيًا من كائنات الجدول الدوري المغلّفة في كائن PivotTable لإدارة الجدول.
 
-يتم إعطاء نموذج التعليمات البرمجية أدناه. يؤدي تنفيذ التعليمات البرمجية إلى إنشاء ملف جديد: pivotTable_test.xls.
+يتم إعطاء عينة الكود أدناه. تنفيذ الكود يولد ملفًا جديدًا: pivotTable_test.xls.
 
-**ادخال البيانات** 
+**بيانات الإدخال** 
 
-![ما يجب القيام به: image_بديل_نص](create-pivot-tables-and-pivot-charts_1.png)
+![todo:image_alt_text](create-pivot-tables-and-pivot-charts_1.png)
 
-**الجدول المحوري الناتج**
+**جدول الجدول الدوري الناتج**
 
-![ما يجب القيام به: image_بديل_نص](create-pivot-tables-and-pivot-charts_2.png)
+![todo:image_alt_text](create-pivot-tables-and-pivot-charts_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotTable-CreatePivotTable.java" >}}
 
-### **إنشاء مخطط Pivot استنادًا إلى Pivot Table**
+### **إنشاء رسم بياني محوري استنادًا إلى جدول الجدول الدوري**
 
-لإنشاء مخطط محوري باستخدام Aspose.Cells:
+لإنشاء رسم بياني محوري باستخدام Aspose.Cells:
 
-1. أضف مخططًا.
-1. قم بتعيين PivotSource في المخطط للإشارة إلى جدول محوري موجود في جدول البيانات.
-1. ضع سمات أخرى.
+1. أضف رسم بياني.
+1. قم بتعيين PivotSource للرسم البياني للإشارة إلى جدول محوري موجود في جدول البيانات.
+1. قم بتعيين سمات أخرى.
 
-يوجد أدناه الرمز الذي يستخدمه المكون لإنجاز المهمة. يؤدي تنفيذ الكود إلى إنشاء ملف جديد: pivotChart_test.xls.
+أدناه الكود المستخدم لتنفيذ المهمة من قبل المكون. تنفيذ الكود يولد ملفًا جديدًا: pivotChart_test.xls.
 
-**ورقة الرسم البياني المحورية**
+**ورقة الرسم البياني الدوري**
 
-![ما يجب القيام به: image_بديل_نص](create-pivot-tables-and-pivot-charts_3.png)
+![todo:image_alt_text](create-pivot-tables-and-pivot-charts_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotChartbasedonPivotTable-CreatePivotChartbasedonPivotTable.java" >}}
 
 {{% alert color="primary" %}}
 
-توضح هذه المقالة كيفية إنشاء الجداول المحورية والمخططات المحورية باستخدام Aspose.Cells. ونأمل أن تساعدك على استخدام هذه الميزات في السيناريوهات الخاصة بك.
+يوضح هذا المقال كيفية إنشاء جداول محورية ورسوم بيانية محورية باستخدام Aspose.Cells. نأمل أن يساعدك في استخدام هذه الميزات في سيناريوهاتك الخاصة.
 
-لقد استفاد Aspose.Cells من سنوات من البحث والتصميم والضبط الدقيق.
+استفاد Aspose.Cells من سنوات من الأبحاث والتصميم والضبط الدقيق.
 
- نرحب باستفساراتك وتعليقاتك واقتراحاتك على[Aspose.Cells المنتدى](https://forum.aspose.com/c/cells/9). نحن نضمن الرد السريع.
+نرحب باستفساراتكم وتعليقاتكم واقتراحاتكم في [منتدى Aspose.Cells](https://forum.aspose.com/c/cells/9). نحن نضمن الرد السريع.
 
 {{% /alert %}}
 
 ## مقالات ذات صلة
 
-- [فرز مخصص في Pivot Table](/cells/ar/java/custom-sorting-in-pivot-table/)
-- [تنسيق الجدول المحوري](/cells/ar/java/formatting-pivot-table/)
-- [تحديث وحساب الجدول المحوري الذي يحتوي على عناصر محسوبة](/cells/ar/java/refresh-and-calculate-pivot-table-having-calculated-items/)
+- [ترتيب مخصص في جدول محوري](/cells/ar/java/custom-sorting-in-pivot-table/)
+- [تنسيق جدول الجدول المحوري](/cells/ar/java/formatting-pivot-table/)
+- [تحديث وحساب الجدول الدوري الذي يحتوي على عناصر محسوبة](/cells/ar/java/refresh-and-calculate-pivot-table-having-calculated-items/)
 - [تعطيل شرائط الجدول المحوري](/cells/ar/java/disable-pivot-table-ribbons/)
 

@@ -1,33 +1,34 @@
-﻿---
-title: VSTO と Aspose.Cells のワークシートで Cells に境界線を追加します。
+---
+title: VSTOおよびAspose.Cellsでワークシートのセルに境界線を追加する
 type: docs
 weight: 10
 url: /ja/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-スプレッドシートのセルに罫線を追加するには、次の手順を実行します。
 
-1. ワークシートを設定します。
- 1. アプリケーション オブジェクトをインスタンス化する (VSTO のみ)
- 1. ワークブックを追加する
-1. 最初のシートを入手する
-1. 罫線を追加するセルにテキストを追加します
-1. 境界線を追加:
- 1.範囲を定義する
-1.範囲にボーダースタイルを適用する
-1. 設定する各範囲と境界線スタイルごとに繰り返します。この例では、ヘアライン、細い線、中程度の線、太い線を適用します
-1. 終了：
- 1.セルが入っている列をテキストに合わせて自動調整します
-1. ドキュメントを保存する
+スプレッドシートのセルに境界線を追加するには、以下の手順を実行してください:
 
-これらの手順を以下のコードに示します。最初のコード例は、C# または Visual Basic で VSTO を使用してそれらを実装する方法を示しています。 VSTO の例の後に、Aspose.Cells for .NET を使用して同じ手順を実行する方法を示す例があり、ここでも C# または Visual Basic を使用しています。 Aspose.Cells は効率的なコーディングのために最適化されているため、Aspose.Cells のコード サンプルはかなり短くなります。
+1. ワークシートを設定します: 
+   1. Applicationオブジェクトをインスタンス化する(VSTOのみ)
+   1. ワークブックを追加する
+   1. 最初のシートを取得する
+   1. 境界線を追加するためのセルにテキストを追加する
+1. 境界線を追加する: 
+   1. 範囲を定義する
+   1. 範囲に境界スタイルを適用する
+   1. 各範囲と設定する境界スタイルごとに繰り返す。この例は毛管、細線、中線、太線を適用します。
+1. 終了: 
+   1. セルが含まれる列を自動的に調整してテキストがきれいに収まるようにする
+   1. ドキュメントを保存する
 
-このコードは、最初のシートに多数のセルを含む Excel ファイルを生成し、それぞれに異なる境界線があります。
+これらの手順は以下のコードで示されています。最初のコード例では、VSTOを使用してこれらを実装する方法が表示され、C#またはVisual Basicのどちらかを使用します。VSTOの例の後には、同じ手順を実行する方法を示す例がありますが、Aspose.Cells for .NETを使用し、再度C#またはVisual Basicのどちらかを使用します。Aspose.Cellsコードサンプルは、効率的なコーディングに最適化されているため、はるかに短くなります。
 
-![todo:画像_代替_文章](picture1.png)
+コードは、最初のシート上のいくつかのセルに異なる境界線を持つExcelファイルを生成します。
 
-Cells 縁取りあり。
+![todo:image_alt_text](picture1.png)
+
+境界線が適用されたセル。
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -43,13 +44,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -145,7 +146,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -210,6 +211,6 @@ objBook.Save("ApplyBorders.xls");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [ソースフォージ](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\)。ジップ）
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

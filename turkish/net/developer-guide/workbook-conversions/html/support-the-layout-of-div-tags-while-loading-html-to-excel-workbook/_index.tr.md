@@ -1,16 +1,17 @@
-﻿---
-title: Excel çalışma kitabına HTML yüklenirken DIV etiketlerinin düzenini destekleyin
+---
+title: HTML yi elektronik tabloya yüklerken DIV etiketlerinin düzenini destekleyin
 type: docs
 weight: 50
 url: /tr/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
 ---
+
 {{% alert color="primary" %}} 
 
-Normalde, bir excel çalışma kitabı nesnesine HTML yüklenirken div etiketlerinin düzeni yok sayılır. Ancak, div etiketlerinin düzeninin göz ardı edilmemesini istiyorsanız, lütfen[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) mülkiyet**doğru** . Bu özelliğin varsayılan değeri**YANLIŞ**.
+Normalde, bir HTML dosyasını bir elektronik tablo nesnesine yüklerken DIV etiketlerinin düzeni görmezden gelinir. Ancak, DIV etiketlerinin düzeninin görmezden gelinmemesini istiyorsanız, lütfen [HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) özelliğini **true** olarak ayarlayın. Bu özelliğin varsayılan değeri **false**'dir.
 
 {{% /alert %}} 
 
- Aşağıdaki örnek kod, kullanımını göstermektedir[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) Emlak. Lütfen indirin[Aspose logosu](5115218.png) HTML girişinin içinde kullanılır ve[çıktı excel dosyası](5115220.xlsx) kod tarafından oluşturulur.
+Aşağıdaki örnek kod, [HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) özelliğini kullanımını göstermektedir. Lütfen, giriş HTML içinde kullanılan [Aspose Logosu](5115218.png) ve kod tarafından oluşturulan [çıktı excel dosyasını](5115220.xlsx) indirin.
 
 
 

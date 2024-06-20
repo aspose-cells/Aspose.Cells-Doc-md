@@ -1,54 +1,55 @@
-﻿---
-title: Creación de parámetros de informe
+---
+title: Creación de Parámetros de Informe
 type: docs
 weight: 10
 url: /es/reportingservices/creating-report-parameters/
 ---
+
 Para crear un parámetro de informe en Aspose.Cells.Report.Designer:
 
-1. Abra Microsoft Excel.
-1.  Hacer clic**Parámetro de informe** en la barra de herramientas Aspose.Cells.Report.Designer. (
+1. Abre Microsoft Excel.
+1. Haz clic en **Parámetro de Informe** en la barra de herramientas de Aspose.Cells.Report.Designer. (
 
-![todo:imagen_alternativa_texto](creating-report-parameters_1.png)
+![todo:image_alt_text](creating-report-parameters_1.png)
 
 )
- En el cuadro de diálogo, todos los parámetros del informe se enumeran en el panel izquierdo.
+En el cuadro de diálogo, todos los parámetros de informe se enumeran en el panel izquierdo. 
 
-1.  Hacer clic**Agregar**. 
+1. Haga clic en **Agregar**. 
 
-   **El formulario de configuración de parámetros de informe** 
+   **El formulario de Configuración de Parámetro de Informe** 
 
-![todo:imagen_alternativa_texto](creating-report-parameters_2.png)
-
-
-
-
-1.  En el cuadro de diálogo, ingrese la información del parámetro del informe.
-
-   **Adición de información de parámetros** 
-
-![todo:imagen_alternativa_texto](creating-report-parameters_3.png)
-
-
-
-Los valores válidos para un parámetro de informe pueden provenir de un conjunto de datos o un grupo de valores definidos por el usuario. Un parámetro de informe tiene dos campos de datos: etiqueta y valor. El valor de la etiqueta puede ser nulo.
-
-1.  Hacer clic**Configuración** para configurar un grupo de valores para el parámetro de informe.
-1.  Agregar valores para el**Etiqueta** y**Valor** los campos.
-
-   **Agregando etiqueta y valor** 
-
-![todo:imagen_alternativa_texto](creating-report-parameters_4.png)
+![todo:image_alt_text](creating-report-parameters_2.png)
 
 
 
 
-1.  Hacer clic**Agregar**.
- Repita para agregar otros valores para el parámetro.
-1.  Hacer clic**Cerrar**.
-1.  Hacer clic**Ahorrar** para guardar el parámetro.
-1.  El nuevo parámetro de informe aparece en el panel izquierdo.
+1. En el cuadro de diálogo, introduzca la información del parámetro del informe. 
+
+   **Añadiendo información del parámetro** 
+
+![todo:image_alt_text](creating-report-parameters_3.png)
+
+
+
+Los valores válidos para un parámetro de informe pueden provenir de un conjunto de datos o de un grupo de valores definidos por el usuario. Un parámetro de informe tiene dos campos de datos: etiqueta y valor. El valor de la etiqueta puede ser nulo. 
+
+1. Haga clic en **Configuración** para establecer un grupo de valores para el parámetro del informe.
+1. Agregue valores para los campos **Etiqueta** y **Valor**. 
+
+   **Añadiendo etiqueta y valor** 
+
+![todo:image_alt_text](creating-report-parameters_4.png)
+
+
+
+
+1. Haga clic en **Agregar**.
+   Repita para agregar otros valores para el parámetro.
+1. Haga clic en **Cerrar**.
+1. Haga clic en **Guardar** para guardar el parámetro. 
+1. El nuevo parámetro de informe se muestra en el panel izquierdo. 
 
    **El nuevo parámetro** 
 
-![todo:imagen_alternativa_texto](creating-report-parameters_5.png)
+![todo:image_alt_text](creating-report-parameters_5.png)

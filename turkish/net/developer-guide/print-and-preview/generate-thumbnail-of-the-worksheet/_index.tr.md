@@ -1,16 +1,17 @@
-﻿---
-title: Çalışma Sayfasının Küçük Resmini Oluştur
+---
+title: Çalışma Sayfasının Küçük Resmi Oluşturma
 type: docs
 weight: 110
 url: /tr/net/generate-thumbnail-of-the-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Çalışma sayfalarından küçük resimler oluşturmak yararlı olabilir. Küçük resim, çalışma sayfasında ne olduğuna dair bir önizleme vermek için bir Word belgesine veya PowerPoint sunumuna yapıştırılabilen küçük bir resimdir. Orijinal belgeyi indirmek için bir bağlantı içeren bir web sayfasına eklenebilir ve bir dizi başka kullanıma sahiptir.
+Çalışma sayfalarından küçük resimler oluşturmak faydalı olabilir. Bir küçük resim, çalışma sayfasındaki içeriğin bir ön izlemesini vermek üzere bir Word belgesine veya bir PowerPoint sunumuna yapıştırılabilir. Gerçek belgenin indirme bağlantısına bir bağlantıyla bir web sayfasına eklenebilir ve diğer birçok kullanımı bulunmaktadır.
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET, çalışma sayfalarının çıktısını görüntü dosyalarına almanızı sağlar, böylece küçük resim yapmak kolaydır. Aşağıdaki örnek kod, çalışma sayfalarının görüntü dosyalarına nasıl yazdırılacağını gösterir.
+Aspose.Cells for .NET ile çalışma sayfalarını resim dosyalarına çıkarabilirsiniz, bu nedenle küçük bir resim oluşturmak kolaydır. Aşağıdaki örnek kod, çalışma sayfalarını resim dosyalarına çıkarma işlemini göstermektedir.
 
 
 

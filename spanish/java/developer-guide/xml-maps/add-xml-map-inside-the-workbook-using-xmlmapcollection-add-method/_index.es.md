@@ -1,18 +1,19 @@
-﻿---
-title: Agregue el mapa XML dentro del libro de trabajo usando el método XmlMapCollection.Add
+---
+title: Agregar mapa XML dentro del libro usando el método XmlMapCollection.Add
 type: docs
 weight: 10
 url: /es/java/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
 ---
-## **Posibles escenarios de uso**
 
-Aspose.Cells proporciona[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object)) método que puede usar para importar su mapa XML dentro del libro de trabajo.
+## **Escenarios de uso posibles**
 
-## **Agregue el mapa XML dentro del libro de trabajo usando el método XmlMapCollection.Add**
+Aspose.Cells proporciona el método [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object)) que puede utilizar para importar su XML Map dentro del libro de trabajo.
 
- El siguiente código de muestra agrega un mapa XML dentro del libro de trabajo usando el[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object) ) y lo guarda como[archivo de salida de Excel](5472533.xlsx) . La captura de pantalla muestra el mapa XML que se ha importado desde el[muestra.xml](5472532.xml) dentro del archivo de salida de Excel.
+## **Agregar mapa XML dentro del libro utilizando el método XmlMapCollection.Add**
 
-![todo:imagen_alternativa_texto](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
+El siguiente código de ejemplo agrega un XML Map dentro del libro de trabajo utilizando el método [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object)) y lo guarda como [archivo de Excel de salida](5472533.xlsx). La captura de pantalla muestra el XML Map que se ha importado desde el [sample.xml](5472532.xml) dentro del archivo de Excel de salida.
+
+![todo:image_alt_text](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
 
 ## **Código de muestra**
 

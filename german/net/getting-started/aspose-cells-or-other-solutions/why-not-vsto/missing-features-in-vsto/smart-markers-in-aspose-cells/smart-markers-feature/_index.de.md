@@ -1,34 +1,35 @@
-﻿---
-title: Smart-Marker-Funktion
+---
+title: Smart Markers Funktion
 type: docs
 weight: 30
 url: /de/net/smart-markers-feature/
 ---
-**Intelligente Markierungen** werden verwendet, um Aspose.Cells mitzuteilen, welche Informationen in einer Microsoft Excel-Designertabelle platziert werden sollen. Mit intelligenten Markierungen können Sie Vorlagen erstellen, die nur bestimmte Informationen und Formatierungen enthalten.
-## **Designer-Tabellenkalkulation und intelligente Markierungen**
-Designer-Arbeitsblätter sind standardmäßige Excel-Dateien, die visuelle Formatierungen, Formeln und intelligente Markierungen enthalten. Sie können intelligente Markierungen enthalten, die auf eine oder mehrere Datenquellen verweisen, z. B. Informationen aus einem Projekt und Informationen zu verwandten Kontakten. Intelligente Markierungen werden in die Zellen geschrieben, in denen Sie die Informationen wünschen.
 
-Alle intelligenten Markierungen beginnen mit &=. Ein Beispiel für eine Datenmarkierung ist &=Party.FullName. Wenn die Datenmarkierung mehr als ein Element ergibt, z. B. eine vollständige Zeile, werden die folgenden Zeilen automatisch nach unten verschoben, um Platz für alle neuen Informationen zu schaffen. Somit können Zwischensummen und Gesamtsummen unmittelbar nach der Datenmarkierung in die Zeile eingefügt werden, um Berechnungen basierend auf den eingefügten Daten durchzuführen. Verwenden Sie dynamische Formeln, um Berechnungen für die eingefügten Zeilen durchzuführen.
+**Smart-Marker** werden verwendet, um Aspose.Cells mitzuteilen, welche Informationen in ein Microsoft Excel-Designer-Tabellenblatt eingefügt werden sollen. Mit Smart Markers können Sie Vorlagen erstellen, die nur bestimmte Informationen und Formatierungen enthalten.
+## **Designer-Tabelle & Intelligente Marker**
+Designer-Tabellen sind Standard-Excel-Dateien, die visuelle Formatierungen, Formeln und intelligente Marker enthalten. Sie können intelligente Marker enthalten, die auf eine oder mehrere Datenquellen verweisen, z. B. Informationen aus einem Projekt und Informationen zu relevanten Kontakten. Intelligente Marker werden in die Zellen geschrieben, in denen Sie die Informationen platzieren möchten.
 
- Intelligente Markierungen bestehen aus der**Datenquelle** und**Feldname**Teile für die meisten Informationen. Bei Variablen und Variablenarrays können auch spezielle Informationen übergeben werden. Variablen füllen immer nur eine Zelle, während Variablenarrays mehrere füllen können. Verwenden Sie nur einen Datenmarker pro Zelle. Nicht verwendete Smart-Marker werden entfernt.
+Alle Smart Marker beginnen mit &=. Ein Beispiel für einen Datamarker ist &=Party.FullName. Wenn der Datamarker zu mehr als einem Element führt, beispielsweise einer vollständigen Zeile, werden die folgenden Zeilen automatisch nach unten verschoben, um Platz für alle neuen Informationen zu schaffen. So können Zwischensummen und Gesamtsummen in der Zeile unmittelbar nach dem Datamarker platziert werden, um Berechnungen auf Basis der eingefügten Daten durchzuführen. Verwenden Sie dynamische Formeln, um Berechnungen auf den eingefügten Zeilen durchzuführen.
 
-Smart Marker kann auch Parameter enthalten. Mit Parametern können Sie ändern, wie die Informationen angeordnet werden. Sie werden als kommaseparierte Liste in Klammern an das Ende des Smart-Markers angehängt.
-### **Smart-Marker-Optionen**
+Intelligente Marker bestehen aus den Teilen **Datenquelle** und **Feldname** für die meisten Informationen. Spezielle Informationen können auch mit Variablen und Variablenarrays übergeben werden. Variablen füllen immer nur eine Zelle aus, während Variablenarrays mehrere Zellen ausfüllen können. Verwenden Sie nur einen Datenmarker pro Zelle. Nicht verwendete intelligente Marker werden entfernt.
+
+Smart-Marker können auch Parameter enthalten. Mit Parametern können Sie festlegen, wie die Informationen angeordnet werden sollen. Sie werden als kommagetrennte Liste in Klammern am Ende des Smart Markers angehängt.
+### **Intelligente Marker-Optionen**
 - &=Datenquelle.Feldname
 - &=Datenquelle.Feldname
-- &=$VariablenName
+- &=$VariableName
 - &=$VariableArray
-- &==DynamischeFormel
-- &=&=DynamischeFormel wiederholen
+- &==DynamicFormula
+- &=&=RepeatDynamicFormula
 ### **Parameter**
 Folgende Parameter sind erlaubt:
 
-- noadd - Fügen Sie keine zusätzlichen Zeilen hinzu, um Daten anzupassen.
-- skip:n – Überspringe n Zeilen für jede Datenzeile.
-- aufsteigend:n oder absteigend:n - Daten in Smartmarkern sortieren. Wenn n 1 ist, dann ist die Spalte der erste Schlüssel des Sortierers. Die Daten werden nach Verarbeitung der Datenquelle sortiert. ZB &=Tabelle1.Feld3(aufsteigend:1).
-- horizontal - Schreiben Sie Daten von links nach rechts, anstatt von oben nach unten.
-- Numerisch - Konvertieren Sie Text nach Möglichkeit in eine Zahl. Wird nur in der Version .NET unterstützt.
-- shift - Nach unten oder rechts verschieben, wodurch zusätzliche Zeilen oder Spalten erstellt werden, um die Daten anzupassen. Der Shift-Parameter funktioniert genauso wie in Microsoft Excel. Wenn Sie beispielsweise in MS Excel einen Zellbereich auswählen, klicken Sie mit der rechten Maustaste und wählen Sie Einfügen und geben Sie Zellen nach unten verschieben, Zellen nach rechts verschieben und andere Optionen an. Kurz gesagt erfüllt der Verschiebungsparameter die gleiche Funktion für vertikale/normale (von oben nach unten) oder horizontale (von links nach rechts) Smartmarker.
-- copystyle – Kopiert den Stil der Basiszelle in alle Zellen in dieser Spalte.
+- noadd - Fügen Sie keine zusätzlichen Zeilen hinzu, um die Daten anzupassen.
+- skip:n - Überspringen Sie n Zeilen für jede Datensatzzeile.
+- aufsteigend:n oder absteigend:n - Sortieren Sie die Daten in Smart-Markierungen.
+- horizontal - Schreiben Sie die Daten von links nach rechts anstatt von oben nach unten.
+- numerisch - Konvertieren Sie Text, wenn möglich, in eine Zahl.
+- verschieben - Verschieben Sie nach unten oder rechts, erstellen Sie zusätzliche Zeilen oder Spalten, um die Daten anzupassen.
+- kopierenstil - Kopieren Sie den Basiszellenstil in alle Zellen dieser Spalte.
 
- Die Parameter**noadd** und skip können kombiniert werden, um Daten in abwechselnden Zeilen einzufügen. Da die Vorlage von unten nach oben verarbeitet wird, sollten Sie in der ersten Zeile noadd hinzufügen, um zu vermeiden, dass zusätzliche Zeilen vor der alternativen Zeile eingefügt werden.
+Die Parameter **noadd** und skip können kombiniert werden, um Daten in abwechselnden Zeilen einzufügen.

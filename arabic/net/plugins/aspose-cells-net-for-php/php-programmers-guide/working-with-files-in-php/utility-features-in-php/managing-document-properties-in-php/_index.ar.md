@@ -1,15 +1,16 @@
-﻿---
-title: إدارة خصائص الوثيقة في PHP
+---
+title: إدارة خصائص المستند في PHP
 type: docs
 weight: 30
 url: /ar/net/managing-document-properties-in-php/
 ---
-## **Aspose.Cells - إدارة خصائص الوثيقة**
-إدارة خصائص الوثيقة لملف إكسل Microsoft
+
+## **Aspose.Cells - إدارة خصائص المستند**
+إدارة خصائص ملف Microsoft Excel
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -78,7 +79,7 @@ url: /ar/net/managing-document-properties-in-php/
         $ptr->Call($workbook,"Save",array($dataDir . "/Test_Workbook_RemovedProperty.xls"));
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إدارة خصائص الوثيقة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **إدارة خصائص المستند (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

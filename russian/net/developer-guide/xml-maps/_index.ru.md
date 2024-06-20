@@ -1,42 +1,43 @@
-﻿---
-title:  Импорт XML в книгу Excel
-linktitle: XML-карты
+---
+title: Импорт XML в книгу Excel 
+linktitle: Сопоставления XML
 type: docs
 weight: 210
 url: /ru/net/import-xml-map-inside-a-workbook-using-aspose-cells/
-description: Импорт данных из файлов данных XML в Microsoft Excel.
+description: Импорт данных из файлов XML в Microsoft Excel.
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells позволяет импортировать карту XML внутри книги с помощью[**Рабочая книга.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) метод. Вы можете импортировать XML-карту с помощью Excel Microsoft, выполнив следующие действия.
+Aspose.Cells позволяет импортировать XML-карту внутри книги с использованием метода [**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index). Вы можете импортировать XML-карту с помощью Microsoft Excel, выполнив следующие шаги.
 
--  Выбирать**Разработчик** вкладка
--  Нажмите**импорт** в разделе XML и выполните необходимые действия.
+- Выберите вкладку **Разработчик**
+- Нажмите **Импорт** в разделе XML и следуйте необходимым шагам.
 
- Вам нужно будет предоставить данные XML для завершения импорта. Вот[образец XML-данных](5115037.txt) которые вы можете использовать для тестирования.
+Для завершения импорта вам потребуется предоставить свои XML-данные. Вот [пример XML-данных](5115037.txt), который вы можете использовать для тестирования.
 
 {{% /alert %}}
 
-## **Импорт XML-карты с помощью Microsoft Excel**
+## **Импорт XML-схемы с использованием Microsoft Excel**
 
-На следующем снимке экрана показано, как импортировать XML-карту с помощью Microsoft Excel.
+На следующем скриншоте показано, как импортировать XML-схему с использованием Microsoft Excel.
 
-|![дело:изображение_альтернативный_текст](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
-|:- |
+|![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
+| :- |
 
-## **Импорт XML-карты с использованием Aspose.Cells**
+## **Импорт XML-схемы с использованием Aspose.Cells**
 
-В следующем примере кода показано, как использовать[**Рабочая книга.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) . Он генерирует[выходной файл excel](5115036.xlsx) как показано на этом снимке экрана.
+В следующем примере кода показано, как использовать [**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index). Это генерирует [выходной файл Excel](5115036.xlsx), как показано на этом снимке экрана.
 
-|![дело:изображение_альтернативный_текст](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
-|:- |
+|![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
+| :- |
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ImportXmlData-ImportXmlDataIntoWorkbook.cs" >}}
 
-## **Предварительные темы**
-- [Добавьте XML-карту в книгу с помощью метода XmlMapCollection.Add.](/cells/ru/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
-- [Экспорт данных XML, связанных с картой XML внутри рабочей книги](/cells/ru/net/export-xml-data-linked-to-xml-map-inside-the-workbook/)
-- [Найдите имя корневого элемента XML-карты](/cells/ru/net/find-the-root-element-name-of-xml-map/)
-- [Ссылка Cells на элементы карты XML](/cells/ru/net/link-cells-to-xml-map-elements/)
-- [Запрос Cell Области, сопоставленные с путем карты XML с использованием метода Worksheet.XmlMapQuery](/cells/ru/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
+## **Продвинутые темы**
+- [Добавить XML-отображение внутри книги с использованием метода XmlMapCollection.Add](/cells/ru/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
+- [Экспорт XML-данных, связанных с XML-схемой, внутри книги](/cells/ru/net/export-xml-data-linked-to-xml-map-inside-the-workbook/)
+- [Найдите имя корневого элемента XML-карты.](/cells/ru/net/find-the-root-element-name-of-xml-map/)
+- [Привязка ячеек к элементам XML-отображения](/cells/ru/net/link-cells-to-xml-map-elements/)
+- [Запрос областей ячеек, привязанных к пути XML-отображения, с использованием метода Worksheet.XmlMapQuery](/cells/ru/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 

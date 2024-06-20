@@ -1,12 +1,13 @@
-﻿---
+---
 title: Использование анонимных типов или пользовательских объектов в Aspose.Cells
 type: docs
 weight: 30
 url: /ru/net/using-anonymous-types-or-custom-objects-in-aspose-cells/
 ---
-Aspose.Cells также поддерживает анонимные типы или пользовательские объекты в смарт-маркерах. В приведенном ниже примере класс продукта необходимо определить перед использованием.
 
-{{< highlight "csharp" >}}
+Aspose.Cells также поддерживает анонимные типы или пользовательские объекты в умных маркерах. В приведенном ниже примере класс Product должен быть определен перед использованием.
+
+{{< highlight csharp >}}
 
  //Instantiate the workbookdesigner object.
 
@@ -47,5 +48,5 @@ report.Process(false);
 report.Workbook.Save("Smart Marker Customobjects.xls");
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)
+## **Загрузить образец кода**
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)

@@ -1,36 +1,37 @@
 ---
-title: Excel Grafiklerinin DataLabel'lerini Yönetme
-description: Aspose.Cells for .NET numaralı telefonu kullanarak Excel grafiklerindeki veri etiketlerini etkili bir şekilde nasıl yöneteceğinizi öğrenin. Kapsamlı kılavuzumuz, grafiğin okunabilirliğini ve kullanılabilirliğini geliştirmek için etiketlerin eklenmesi, kaldırılması ve değiştirilmesi de dahil olmak üzere çeşitli yönetim görevlerini kapsar.
-keywords: Aspose.Cells for .NET, Excel charts, data labels, management, readability, usability, adding, removing, modifying.
-linktitle: Veri etiketleri
+title: Excel Grafiklerinin Veri Etiketlerini Yönetme
+description: Aspose.Cells for .NET kullanarak Excel grafiklerinde veri etiketlerini etkin bir şekilde yönetmeyi öğrenin. Kapsamlı rehberimiz, eklemenin, kaldırmanın ve değiştirmenin de dahil olduğu çeşitli yönetim görevlerini kapsar, böylece grafiklerin okunabilirliğini ve kullanılabilirliğini artırabilirsiniz.
+keywords: Aspose.Cells for .NET, Excel grafikleri, veri etiketleri, yönetim, okunabilirlik, kullanılabilirlik, ekleme, kaldırma, değiştirme.
+linktitle: VeriEtiketleri
 type: docs
 weight: 50
 url: /tr/net/insert-datalabels-to-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Veri Etiketleri grafiğin önemli bir parçasıdır.
-Her serinin değerini, yüzdesini vb. kolaylıkla bilebiliriz.
+VeriEtiketleri, bir grafikte önemli bir parçadır.
+Her seri için değeri, yüzdeyi vb. kolayca öğrenebiliriz
 
 {{% /alert %}}
 
-##  **Veri Etiketleri Seçenekleri**
- Aspose.Cells ayrıca çalışma zamanında grafiğin veri etiketlerinin yönetilmesine de olanak tanır.[Veri etiketleri](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/) Grafiğin veri etiketlerini taşımak, güncellemek ve biçimlendirmek kolaydır.
+## **VeriEtiketleri Seçenekleri**
+Aspose.Cells ayrıca çalışma zamanında grafiklerin veri etiketlerini [DataLabels](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/) nesnesi ile yönetmeyi de sağlar, grafiklerin veri etiketlerini taşımak, güncellemek ve biçimlendirmek kolaydır.
 
-|![yapılacak şey:image_alt_text](chart_datalabels.png)|
+|![todo:image_alt_text](chart_datalabels.png)|
 
-##  **Grafiğin Veri Etiketlerini Yönetme**
- Grafiğin veri etiketlerini Aspose.Cells ile yönetmek kolaydır[Veri etiketleri](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/).
+## **Grafiğin VeriEtiketlerini Yönetme**
+Aspose.Cells ile grafiklerin veri etiketlerini yönetmek oldukça basittir [DataLabels](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/) ile.
 
-Aşağıdaki kod parçacığı DataLabels'ın nasıl yönetileceğini gösterir:
+Aşağıdaki kod örneği, VeriEtiketlerini nasıl yöneteceğinizi göstermektedir:
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chart_datalabels.cs" >}}
 
-##  **İleri konular**
-- [Grafik Dizisindeki Veri Noktalarına Özel Etiketler Ekleme](/cells/tr/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)
-- [Grafiğin Veri Etiketleri için Metin Sarmayı Devre Dışı Bırakma](/cells/tr/net/disable-text-wrapping-for-data-labels-of-the-chart/)
-- [Grafiğin Veri Etiketi Şeklini Metne Sığdıracak Şekilde Yeniden Boyutlandır](/cells/tr/net/resize-chart-s-data-label-shape-to-fit-text/)
+## **Gelişmiş Konular**
+- [Grafiğin Serisinde Veri Noktalarına Özel Etiketler Ekleme](/cells/tr/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/)
+- [Grafiklerin Veri Etiketlerinde Metin Kırpmayı Devre Dışı Bırak](/cells/tr/net/disable-text-wrapping-for-data-labels-of-the-chart/)
+- [Veri Etiket Şeklini Metne Sığacak Şekilde Yeniden Boyutlandır](/cells/tr/net/resize-chart-s-data-label-shape-to-fit-text/)
 - [Grafik Noktasının Zengin Metin Özel Veri Etiketi](/cells/tr/net/rich-text-custom-data-label-of-chart-point/)
 - [Grafiğin Veri Etiketlerinin Şekil Türünü Ayarlama](/cells/tr/net/set-the-shape-type-of-data-labels-of-chart/)
-- [Veri Etiketleri Olarak Cell Aralığı Gösteriliyor](/cells/tr/net/showing-cell-range-as-the-data-labels/)
+- [Veri Etiketleri Olarak Hücre Aralığını Gösterme](/cells/tr/net/showing-cell-range-as-the-data-labels/)

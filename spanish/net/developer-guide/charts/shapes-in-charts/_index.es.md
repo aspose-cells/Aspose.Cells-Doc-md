@@ -1,82 +1,83 @@
 ---
 title: Formas en gráficos
-description: Aprenda a usar Aspose.Cells for .NET para agregar controles y personalizar gráficos en Microsoft Excel. Nuestra guía le demostrará cómo manipular los elementos del gráfico, ajustar el formato y mejorar la apariencia general y la usabilidad de sus gráficos.
-keywords: Aspose.Cells for .NET, Chart Controls, Chart Customization, Microsoft Excel, Chart Elements, Formatting.
+description: Aprenda cómo usar Aspose.Cells for .NET para agregar controles y personalizar gráficos en Microsoft Excel. Nuestra guía demostrará cómo manipular elementos de gráficos, ajustar el formato y mejorar la apariencia general y la usabilidad de sus gráficos.
+keywords: Aspose.Cells for .NET, Controles de gráfico, Personalización de gráfico, Microsoft Excel, Elementos de gráfico, Formato.
 type: docs
 weight: 70
 url: /es/net/controls-in-charts/
 ---
+
 {{% alert color="primary" %}}
 
-A veces es necesario insertar objetos de dibujo como etiquetas, cuadros de texto, imágenes, etc. en un gráfico. Aspose.Cells puede agregar los controles a un gráfico en tiempo de ejecución.
+A veces es necesario insertar objetos de dibujo como etiquetas, cuadros de texto, imágenes, etc., en un gráfico. Aspose.Cells puede agregar los controles a un gráfico en tiempo de ejecución.
 
 {{% /alert %}}
 
-##  **Agregar control de etiqueta al gráfico**
+## **Agregar control de etiqueta al gráfico**
 
-Las etiquetas proporcionan un medio para brindar información a los usuarios sobre el contenido de una hoja de cálculo.
+Las etiquetas proporcionan un medio para proporcionar información a los usuarios sobre el contenido de una hoja de cálculo.
 Aspose.Cells le permite agregar y manipular etiquetas incluso en gráficos.
 
-El[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) La clase proporciona un método llamado[**Agregar etiqueta en el gráfico**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabelinchart), utilizado para agregar un control de etiqueta a un gráfico. A continuación se muestra una lista de los parámetros utilizados para el método:
+La clase [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) proporciona un método llamado [**AddLabelInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabelinchart), utilizado para agregar un control de etiqueta a un gráfico. A continuación, se muestra una lista de los parámetros utilizados para el método:
 
-- **arriba**– el desplazamiento vertical de la etiqueta desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
-- **izquierda**– el desplazamiento vertical de la etiqueta desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
+- **arriba** – el desplazamiento vertical de la etiqueta desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
+- **izquierda** – el desplazamiento horizontal de la etiqueta desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
 - **altura** – la altura de la etiqueta, en unidades de 1/4000 del área del gráfico.
 - **ancho** – el ancho de la etiqueta, en unidades de 1/4000 del área del gráfico.
 
- El método regresa[**Aspose.Cells.Drawing.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label)objeto. El[**Etiqueta**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) La clase representa una etiqueta en el gráfico. Tiene algunos miembros importantes:
+El método devuelve un objeto [**Aspose.Cells.Drawing.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label). La clase [**Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) representa una etiqueta en el gráfico. Tiene algunos miembros importantes:
 
-- [**Texto**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)(propiedad): especifica la cadena de título de una etiqueta.
-- [**Llenar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fill) (propiedad): especifica los atributos del color de relleno.
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) (propiedad) - especifica la cadena de título de una etiqueta.
+- [**Fill**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fill) (propiedad) - especifica los atributos del color de relleno.
 
-El siguiente ejemplo muestra cómo agregar una etiqueta al gráfico. El ejemplo utiliza un archivo de diseñador (**exp_piechart.xls**) que contiene un gráfico. Usamos este archivo para insertar una etiqueta en el gráfico. A continuación se muestra el código original para agregar una etiqueta al gráfico. El siguiente resultado se genera al ejecutar el código.
+Con el siguiente ejemplo se muestra cómo añadir una etiqueta al gráfico. El ejemplo utiliza un archivo del diseñador (**exp_piechart.xls**) que contiene un gráfico. Usamos este archivo para insertar una etiqueta en el gráfico. A continuación se muestra el código original para añadir una etiqueta al gráfico. La siguiente salida se genera al ejecutar el código.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingLabelControl-1.cs" >}}
 
-##  **Agregar control TextBox al gráfico**
+## **Añadiendo un Control de Cuadro de Texto al Gráfico**
 
-Una forma de resaltar información importante en un informe es utilizar un cuadro de texto. Por ejemplo, ingrese texto para resaltar el nombre de la empresa o para indicar la región geográfica con mayores ventas. El[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) La clase proporciona un método llamado[**Agregar cuadro de texto en el gráfico**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart), que se utiliza para agregar un control de cuadro de texto a un gráfico. A continuación se muestra la lista de parámetros utilizados para el método:
+Una forma de resaltar información importante en un informe es mediante el uso de un cuadro de texto. Por ejemplo, introducir texto para resaltar el nombre de la empresa o indicar la región geográfica con mayores ventas. La clase [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) proporciona un método llamado [**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart), que se utiliza para añadir un control de cuadro de texto a un gráfico. A continuación se muestra la lista de parámetros utilizados para el método:
 
-- **arriba** – el desplazamiento vertical del cuadro de texto desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
-- **izquierda** – el desplazamiento vertical del cuadro de texto desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
-- **altura** – la altura del cuadro de texto, en unidades de 1/4000 del área del gráfico.
-- **ancho** – el ancho del cuadro de texto, en unidades de 1/4000 del área del gráfico.
+- **arriba** - el desplazamiento vertical del cuadro de texto desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
+- **izquierda** - el desplazamiento vertical del cuadro de texto desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
+- **altura** - la altura del cuadro de texto, en unidades de 1/4000 del área del gráfico.
+- **ancho** - el ancho del cuadro de texto, en unidades de 1/4000 del área del gráfico.
 
- El método regresa[**Aspose.Cells.Drawing.TextBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox) objeto. El[**Caja de texto**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox)La clase representa un cuadro de texto en el gráfico.
+El método devuelve un objeto [**Aspose.Cells.Drawing.TextBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox). La clase [**TextBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox) representa un cuadro de texto en el gráfico.
 
-El siguiente ejemplo muestra cómo agregar un cuadro de texto a un gráfico. El ejemplo utiliza el archivo de diseñador anterior (**exp_piechart.xls**) que contiene un gráfico. Usamos este archivo para insertar un cuadro de texto en el gráfico para mostrar el título del gráfico. A continuación se muestra el código original para agregar un cuadro de texto al gráfico.
+El siguiente ejemplo muestra cómo añadir un cuadro de texto a un gráfico. El ejemplo utiliza el archivo del diseñador anterior (**exp_piechart.xls**) que contiene un gráfico. Usamos este archivo para insertar un cuadro de texto en el gráfico para mostrar el título del gráfico. A continuación se muestra el código original para añadir un cuadro de texto al gráfico.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingTextBoxControl-1.cs" >}}
 
-##  **Agregar imagen al gráfico**
+## **Añadiendo una Imagen al Gráfico**
 
-Aspose.Cells le permite insertar imágenes en un gráfico. Por ejemplo, agregue una imagen para enfatizar o darle más significado a un gráfico o su contenido, o inserte un archivo de imagen de marca.
+Aspose.Cells te permite insertar imágenes en un gráfico. Por ejemplo, agregar una imagen para resaltar o dar más significado a un gráfico o sus contenidos, o insertar un archivo de imagen de marca.
 
- El[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) La clase proporciona un método llamado[**Agregar imagen en el gráfico**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpictureinchart), que se utiliza para agregar un objeto de imagen al gráfico. A continuación se muestra la lista de parámetros utilizados para el método:
+La clase [**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) proporciona un método llamado [**AddPictureInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpictureinchart), que se utiliza para añadir un objeto de imagen al gráfico. A continuación se muestra la lista de parámetros utilizados para el método:
 
-- **arriba** – el desplazamiento vertical de la imagen desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
-- **izquierda** – el desplazamiento vertical de la imagen desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
-- **arroyo** – un objeto de flujo que contiene los datos de la imagen.
-- **anchoEscala** – la escala del ancho de la imagen, un valor porcentual.
-- **alturaEscala** – la escala de altura de la imagen, un valor porcentual.
+- **arriba** - el desplazamiento vertical de la imagen desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
+- **izquierda** - el desplazamiento vertical de la imagen desde la esquina superior izquierda en unidades de 1/4000 del área del gráfico.
+- **flujo** - un objeto de flujo que contiene los datos de la imagen.
+- **escalaAncho** - la escala del ancho de la imagen, un valor porcentual.
+- **escalaAlto** - la escala de la altura de la imagen, un valor porcentual.
 
- El método devuelve un[**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) objeto. El[**Imagen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)La clase representa un objeto de imagen en el gráfico.
+El método devuelve un objeto [**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture). La clase [**Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) representa un objeto de imagen en el gráfico.
 
-El siguiente ejemplo muestra cómo agregar una imagen al gráfico. El ejemplo utiliza el archivo de diseñador anterior (**exp_piechart.xls**) que contiene un gráfico. Usamos este archivo para insertar una imagen en el gráfico. A continuación se muestra el código original para agregar una imagen al gráfico.
+El siguiente ejemplo muestra cómo agregar una imagen al gráfico. El ejemplo utiliza el archivo de diseñador anterior (**exp_piechart.xls**) que tiene un gráfico en él. Utilizamos este archivo para insertar una imagen en el gráfico. A continuación se muestra el código original para agregar una imagen al gráfico.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-AddingPictureToChart-1.cs" >}}
 
-##  **Agregar casilla de verificación en el gráfico**
+## **Agregar casilla de verificación en el gráfico**
 
- Aspose.Cells le permite insertar casillas de verificación en una hoja de gráfico usando[**Tipo de dibujo Mso**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msodrawingtype) enumeración. El siguiente ejemplo demuestra cómo agregar una casilla de verificación a una hoja de gráfico.
+Aspose.Cells le permite insertar casillas de verificación en una hoja de gráfico utilizando la enumeración [**MsoDrawingType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msodrawingtype). El siguiente ejemplo demuestra cómo agregar una casilla de verificación a una hoja de gráfico.
 
-La siguiente imagen muestra la hoja del gráfico con la casilla de verificación en el archivo de salida.
+La siguiente imagen muestra la hoja de gráfico con la casilla de verificación en el archivo de salida.
 
 ![todo:image_alt_text](controls-in-charts_1.jpg)
 
- El[archivo de salida](101089316.xlsx) generado por el siguiente fragmento de código se adjunta para su referencia.
+El [archivo de salida](101089316.xlsx) generado por el siguiente fragmento de código se adjunta para su referencia.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertingControlsintoCharts-InsertCheckboxInChartSheet-1.cs" >}}
 
-##  **Temas avanzados**
+## **Temas avanzados**
 - [Agregar marca de agua de WordArt al gráfico](/cells/es/net/add-wordart-watermark-to-chart/)

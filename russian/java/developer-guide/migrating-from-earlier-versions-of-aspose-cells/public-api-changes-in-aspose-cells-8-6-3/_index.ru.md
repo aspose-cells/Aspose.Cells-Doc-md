@@ -1,23 +1,24 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.6.3
+---
+title: Изменения общедоступного API в Aspose.Cells 8.6.3
 type: docs
 weight: 230
 url: /ru/java/public-api-changes-in-aspose-cells-8-6-3/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.6.2 до 8.6.3, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы, добавленные классы, но и описание любых изменений поведения за кулисами в Aspose.Cells.
+В этом документе описаны изменения в API Aspose.Cells от версии 8.6.2 до 8.6.3, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные общедоступные методы, добавленные классы, но также описание любых изменений в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Поддержка анализа HTML при импорте данных**
-В этом выпуске Aspose.Cells for Java API представлен атрибут ImportTableOptions.setHtmlString, который указывает API анализировать теги HTML при импорте данных на рабочий лист и задавать проанализированный результат как значение ячейки. Обратите внимание, что API-интерфейсы Aspose.Cells уже предоставляют атрибут Cell.setHtmlString для выполнения этой задачи для одной ячейки, однако при массовом импорте данных атрибут ImportTableOptions.setHtmlString (если установлено значение true) пытается проанализировать все поддерживаемые теги и наборы HTML. проанализированные результаты в соответствующие ячейки.
+## **Добавленные API**
+### **Поддержка разбора HTML при импорте данных**
+В этом выпуске Aspose.Cells for Java API был добавлен атрибут ImportTableOptions.setHtmlString, который направляет API на разбор тегов HTML при импорте данных на лист и задает разобранный результат в качестве значения ячейки. Обратите внимание, что API Aspose.Cells уже предоставляет атрибут Cell.setHtmlString для выполнения этой задачи для одной ячейки, однако при импорте данных массово атрибут ImportTableOptions.setHtmlString (если установлен в true) пытается разобрать все поддерживаемые теги HTML и задать разобранные результаты соответствующим ячейкам.
 
 Вот самый простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //create an instance of ImportTableOptions
 
@@ -33,13 +34,13 @@ cells.importData(iTable, 0, 0, importOptions);
 
 {{< /highlight >}}
 ### **Добавлен метод Workbook.createBuiltinStyle**
- Aspose.Cells for Java 8.6.3 предоставил метод Workbook.createBuiltinStyle, который можно использовать для создания объекта класса Style, соответствующего одному из[встроенные стили, предлагаемые приложением Excel](/cells/ru/java/using-built-in-styles/)Метод Workbook.createBuiltinStyle принимает константу из перечисления BuiltinStyleType. Обратите внимание, что в предыдущих выпусках API Aspose.Cells ту же задачу можно было выполнить с помощью метода StyleCollection.createBuiltinStyle, но, поскольку последние выпуски API Aspose.Cells удалили класс StyleCollection, поэтому недавно открытый метод Workbook.createBuiltinStyle можно рассматривать как альтернативный подход к добиться того же.
+Aspose.Cells for Java 8.6.3 добавил метод Workbook.createBuiltinStyle, который можно использовать для создания объекта класса Style, соответствующего одному из [встроенных стилей, предлагаемых приложением Excel](/cells/ru/java/using-built-in-styles/). Метод Workbook.createBuiltinStyle принимает константу из перечисления BuiltinStyleType. Обратите внимание, что с предыдущими версиями API Aspose.Cells ту же задачу можно было выполнить с помощью метода StyleCollection.createBuiltinStyle, но так как недавние выпуски API Aspose.Cells удалили класс StyleCollection, новый метод Workbook.createBuiltinStyle можно рассматривать как альтернативный подход к достижению той же цели.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -53,13 +54,13 @@ Style style = book.createBuiltinStyle(BuiltinStyleType.TITLE);
 
 {{< /highlight >}}
 ### **Добавлено свойство LoadDataOption.OnlyVisibleWorksheet**
-Aspose.Cells for Java 8.6.3 предоставило свойство LoadDataOption.OnlyVisibleWorksheet, которое при установке значения true повлияет на механизм загрузки Aspose.Cells for Java API, в результате чего будут загружены только видимые рабочие листы из данной электронной таблицы.
+Aspose.Cells for Java 8.6.3 добавило свойство LoadDataOption.OnlyVisibleWorksheet, которое при установке в true повлияет на механизм загрузки API Aspose.Cells for Java, в результате будут загружены только видимые листы из данной электронной таблицы.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadDataOption
 
@@ -85,7 +86,7 @@ Workbook book = new Workbook(inputFilePath, loadOptions);
 
 {{< /highlight >}}
 ## **Устаревшие API**
-### **Метод Worksheet.copyConditionalFormatting устарел**
+### **Устаревший метод Worksheet.copyConditionalFormatting**
 В качестве альтернативы методу Worksheet.copyConditionalFormatting рекомендуется использовать любой из методов Cells.copyRows или Range.copy.
-### **Свойство Cells.Конец Устарело**
-Используйте свойство Cells.LastCell в качестве альтернативы свойству Cells.End.
+### **Устаревшее свойство Cells.End**
+Пожалуйста, используйте свойство Cells.LastCell в качестве альтернативы свойству Cells.End.

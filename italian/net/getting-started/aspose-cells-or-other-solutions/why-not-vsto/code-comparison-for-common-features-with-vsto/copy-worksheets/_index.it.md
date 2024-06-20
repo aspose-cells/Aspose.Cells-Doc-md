@@ -1,17 +1,18 @@
-﻿---
-title: Copia fogli di lavoro
+---
+title: Copia Fogli di lavoro
 type: docs
 weight: 60
 url: /it/net/copy-worksheets/
 ---
+
 ## **Suggerimento per la migrazione:**
-\1. Crea un oggetto Cartella di lavoro e ottieni Foglio di lavoro.
-\2. Inserisci il testo nel foglio di lavoro.
-\3. Crea un nuovo foglio di lavoro e copialo nel foglio di lavoro precedente.
+1. Creare l'oggetto Workbook e ottenere il foglio di lavoro.
+2. Inserire del testo nel foglio di lavoro.
+3. Creare un nuovo foglio di lavoro e copiarlo nel foglio di lavoro precedentemente creato.
 ### **VSTO**
-Errore durante il rendering della macro 'codice': valore non valido specificato per il parametro lang
+Errore durante il rendering del macro 'code': valore non valido specificato per il parametro lang
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   private static string fileName ="CopyWorksheets.xlsx";
 
@@ -30,5 +31,5 @@ Errore durante il rendering della macro 'codice': valore non valido specificato 
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Scaricamento**
-- [Git Hub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)
+## **Scarica**
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)

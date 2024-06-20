@@ -1,23 +1,24 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.4.2
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.4.2
 type: docs
 weight: 160
 url: /de/java/public-api-changes-in-aspose-cells-8-4-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.4.1 zu 8.4.2, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden,[zusätzliche Klassen usw.](/cells/de/java/public-api-changes-in-aspose-cells-8-4-2/), sondern auch eine Beschreibung etwaiger Verhaltensänderungen hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen der Aspose.Cells-API von Version 8.4.1 auf 8.4.2, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, [hinzugefügte Klassen usw.](/cells/de/java/public-api-changes-in-aspose-cells-8-4-2/), sondern auch eine Beschreibung von Änderungen im Verhalten im Hintergrund von Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Verbesserter Diagrammerstellungsmechanismus**
-Die Klasse com.aspose.cells.charts.Chart hat die Methode setChartDataRange verfügbar gemacht, um die Aufgabe der Diagrammerstellung zu vereinfachen. Die setChartDataRange-Methode akzeptiert zwei Parameter, wobei der erste Parameter vom Typ string ist, der den Zellbereich angibt, aus dem die Datenreihe gezeichnet werden soll. Der zweite Parameter ist vom Typ Boolean, der die Plotausrichtung angibt, d. h.; ob die Diagrammdatenreihen aus einem Bereich von Zellenwerten nach Zeile oder nach Spalten gezeichnet werden sollen.
+## **Hinzugefügte APIs**
+### **Verbessertes Diagrammerstellungsmechanismus**
+Die Klasse com.aspose.cells.charts.Chart hat die Methode setChartDataRange freigelegt, um die Aufgabe der Diagrammerstellung zu erleichtern. Die Methode setChartDataRange akzeptiert zwei Parameter, wobei der erste Parameter vom Typ string den Zellbereich angibt, aus dem die Datenreihen geplottet werden sollen. Der zweite Parameter ist vom Typ Boolean und gibt die Plot-Ausrichtung an, d.h. ob die Datenreihen des Diagramms aus einem Bereich von Zellenwerten zeilen- oder spaltenweise geplottet werden sollen.
 
-Das folgende Code-Snippet zeigt, wie ein Säulendiagramm mit wenigen Codezeilen erstellt wird, vorausgesetzt, dass die Diagrammseriendaten des Diagramms auf demselben Arbeitsblatt von Zelle A1 bis D4 vorhanden sind.
+Der folgende Codeausschnitt zeigt, wie Sie mit wenigen Zeilen Code ein Säulendiagramm erstellen können, wobei angenommen wird, dass die Diagrammseriendaten auf demselben Arbeitsblatt von Zelle A1 bis D4 vorhanden sind.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Add a new chart of type Column to chart collection
 
@@ -33,14 +34,14 @@ chart.setChartDataRange("A1:D4", true);
 
 {{< /highlight >}}
 
-### **Methode VbaModuleCollection.add Hinzugefügt**
-Aspose.Cells for Java 8.4.2 hat die Methode VbaModuleCollection.add verfügbar gemacht, um der Instanz von Workbook ein neues VBA-Modul hinzuzufügen. Die Methode VbaModuleCollection.add akzeptiert einen Parameter vom Typ Arbeitsblatt, um ein arbeitsblattspezifisches Modul hinzuzufügen.
+### **Hinzugefügter VbaModuleCollection.add-Methode**
+Aspose.Cells for Java 8.4.2 hat die VbaModuleCollection.add-Methode freigelegt, um ein neues VBA-Modul zur Instanz des Arbeitsmappens hinzuzufügen. Die VbaModuleCollection.add-Methode akzeptiert einen parameter vom Typ Worksheet, um ein arbeitsblattspezifisches Modul hinzuzufügen.
 
 Der folgende Codeausschnitt zeigt, wie die VbaModuleCollection.add-Methode verwendet wird.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create new workbook
 
@@ -72,14 +73,14 @@ workbook.save(output, SaveFormat.XLSM);
 
 {{< /highlight >}}
 
-### **Überladene Methode Cells.copyColumns Hinzugefügt**
-Aspose.Cells for Java 8.4.2 hat eine überladene Version der Methode Cells.copyColumns bereitgestellt, um die Quellspalten auf dem Ziel zu wiederholen. Die neu verfügbar gemachte Methode akzeptiert insgesamt 5 Parameter, wobei die ersten 4 Parameter dieselben sind wie bei der allgemeinen Methode Cells.copyColumns. Der letzte Parameter vom Typ int gibt jedoch die Anzahl der Zielspalten an, auf denen die Quellspalten wiederholt werden müssen.
+### **Überladene Methode Cells.copyColumns hinzugefügt**
+Aspose.Cells for Java 8.4.2 hat eine überladene Version der Cells.copyColumns-Methode freigelegt, um die Quellspalten auf das Ziel zu wiederholen. Die neu freigegebene Methode akzeptiert insgesamt 5 Parameter, wobei die ersten 4 Parameter wie bei der üblichen Cells.copyColumns-Methode sind. Der letzte Parameter vom Typ int gibt jedoch an, wie viele Zielspalten auf denen die Quellspalten wiederholt werden sollen.
 
-Der folgende Codeausschnitt zeigt, wie die neu verfügbar gemachte Cells.copyColumns-Methode verwendet wird.
+Der folgende Codeausschnitt zeigt, wie die neu freigegebene Cells.copyColumns-Methode verwendet wird.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -109,17 +110,17 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-### **Aufzählungsfelder PasteType.DEFAULT & PasteType.ALL_EXCEPT_BORDERS Hinzugefügt**
-Mit der Veröffentlichung von v8.4.2 hat die Aspose.Cells API 2 neue Aufzählungsfelder für PasteType hinzugefügt, wie unten beschrieben.
+### **Enumeration Felder PasteType.DEFAULT & PasteType.ALL_EXCEPT_BORDERS hinzugefügt**
+Mit der Version 8.4.2 hat die Aspose.Cells-API 2 neue Enumerationsfelder für PasteType hinzugefügt.
 
-- PasteType.DEFAULT: Funktioniert ähnlich wie die „Alle“-Funktion von Excel zum Einfügen von Zellbereichen.
-- PasteType.ALL_AUSSER_RÄNDER: Funktioniert ähnlich wie die Excel-Funktion „Alle außer Ränder“ zum Einfügen von Zellbereichen.
+- PasteType.DEFAULT: Funktioniert ähnlich wie die "Alle"-Funktionalität von Excel zum Einfügen von Zellenbereichen.
+- PasteType.ALL_EXCEPT_BORDERS: Funktioniert ähnlich wie die Funktionalität "Alle außer Rahmen" von Excel zum Einfügen von Zellenbereichen.
 
-Der folgende Beispielcode demonstriert die Verwendung des PasteType.DEFAULT-Felds.
+Der folgende Beispielcode zeigt die Verwendung des PasteType.DEFAULT-Feldes.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -157,6 +158,6 @@ workbook.save(output);
 
 {{% alert color="primary" %}} 
 
-Ab der Version Aspose.Cells for Java 8.4.2 verhält sich das Enumerationsfeld PasteType.ALL anders als die „All“-Funktion von Excel zum Einfügen von Zellbereichen. Jetzt kopiert PasteType.ALL auch die Spaltenbreiten in den Zielbereich, im Gegensatz zu Excels „All“-Funktionalität. Um das „All“-Verhalten von Excel nachzuahmen, verwenden Sie bitte PasteType.DEFAULT.
+Ab der Version Aspose.Cells for Java 8.4.2 verhält sich das Enumerationsfeld PasteType.ALL anders als die Funktionalität "Alle" von Excel zum Einfügen von Zellenbereichen. Jetzt kopiert auch das PasteType.ALL die Spaltenbreiten auf den Zielenbereich im Gegensatz zur "Alle"-Funktionalität von Excel. Um das Verhalten"Alle" von Excel zu imitieren, verwenden Sie bitte den PasteType.DEFAULT.
 
 {{% /alert %}}

@@ -1,6 +1,8 @@
-﻿---
-title: Aspose.Cells Caractéristiques
+---
+title: Fonctionnalités Aspose.Cells
 type: docs
 weight: 40
 url: /fr/net/aspose-cells-features/
 ---
+
+

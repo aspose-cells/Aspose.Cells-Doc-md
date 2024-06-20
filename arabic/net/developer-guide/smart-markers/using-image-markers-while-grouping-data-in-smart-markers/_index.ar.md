@@ -1,13 +1,14 @@
-﻿---
-title: استخدام علامات الصورة أثناء تجميع البيانات في العلامات الذكية
+---
+title: استخدام علامات الصور أثناء تجميع البيانات في العلامات الذكية
 type: docs
 weight: 30
 url: /ar/net/using-image-markers-while-grouping-data-in-smart-markers/
 ---
-## **استخدام علامات الصورة أثناء تجميع البيانات في العلامات الذكية**
-ينشئ النموذج التالي مصنفًا ثم يضيف علامات العلامة الذكية التالية في الخلايا D2 و E2 و F2 على التوالي.
 
-{{< highlight "java" >}}
+## **استخدام علامات الصور أثناء تجميع البيانات في العلامات الذكية**
+العينة التالية تقوم بإنشاء دفتر العمل ثم إضافة العلامات الذكية التالية في الخلايا D2، E2 و F2 على التوالي.
+
+{{< highlight java >}}
 
  &=Person.Name(group:normal,skip:1)
 
@@ -17,7 +18,7 @@ url: /ar/net/using-image-markers-while-grouping-data-in-smart-markers/
 
 {{< /highlight >}}
 
- ثم يملأ مصدر البيانات بالبيانات ويستدعي[المصنف المصمم. العملية ()](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/methods/process) طريقة لمعالجة علامات العلامات الذكية. يستخدم الرمز هذه الصور أي[moon.png](5115492.png) و[moon2.png](5115491.png) لكن يمكنك استخدام أي صورة.
+ثم يقوم بملء مصدر البيانات بالبيانات ويستدعي طريقة [WorkbookDesigner.Process()](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/methods/process) لمعالجة العلامات الذكية للعلامات الممتازة. يستخدم الكود هذه الصور ، مثل [moon.png](5115492.png) و [moon2.png](5115491.png) ولكن يمكنك استخدام أي صورة.
 
 
 

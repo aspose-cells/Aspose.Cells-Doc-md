@@ -1,15 +1,16 @@
-﻿---
+---
 title: Calcular subtotales usando Aspose.Cells
 type: docs
 weight: 20
 url: /es/java/calculate-sub-totals-using-aspose-cells/
 ---
-## **Aspose.Cells - Calcular subtotales**
-Puede crear automáticamente subtotales para cualquier valor repetido en una hoja de cálculo. Aspose.Cells proporciona funciones API que lo ayudan a agregar subtotales a las hojas de cálculo mediante programación.
+
+## **Aspose.Cells - Calcular Subtotales**
+Puedes crear automáticamente subtotales para cualquier valor que se repita en una hoja de cálculo. Aspose.Cells proporciona funciones de API que te ayudan a agregar subtotales a las hojas de cálculo de forma programática.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,20 +36,20 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[]{ 1 });
+cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 
 //Save the excel file
 
 workbook.save("AsposeTotal.xls");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/formula/AsposeCreateSubTotals.java)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Creación de subtotales](/cells/es/java/creating-subtotals).
+Para más detalles, visite [Creación de Subtotales](/cells/es/java/creating-subtotals).
 
 {{% /alert %}}

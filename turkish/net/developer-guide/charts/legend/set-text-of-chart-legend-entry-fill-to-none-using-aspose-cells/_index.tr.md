@@ -1,21 +1,22 @@
 ---
-title: Aspose.Cells'i kullanarak grafik göstergesi girişi dolgusunun metnini yok olarak ayarlayın
-description: Bir grafik göstergesi girişi dolgusunun metnini yok olarak ayarlamak için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Kılavuzumuz, daha iyi görselleştirme ve özelleştirme için Microsoft Excel grafiklerindeki gösterge girişlerinin dolgu renginin nasıl değiştirileceğini gösterecektir.
-keywords: Aspose.Cells for .NET, Chart Legend Entry Fill, Microsoft Excel, Visualization, Customization.
+title: Grafik lejant giriş dolgu metnini Aspose.Cells kullanarak hiçbir şeye ayarlayın
+description: Grafik efsane giriş doldurmasını hiçbiri olarak ayarlamak için Aspose.Cells for .NET nin nasıl kullanılacağını öğrenin. Kılavuzumuz, Microsoft Excel grafiklerinde efsane girişlerinin doldur renklerini değiştirmenin ve özelleştirmenin daha iyi görselleştirme ve özelleştirme için nasıl olduğunu gösterecektir.
+keywords: Aspose.Cells for .NET, Grafik Efsane Giriş Doldurma, Microsoft Excel, Görselleştirme, Özelleştirme.
 type: docs
 weight: 320
 url: /tr/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Grafiğin açıklama girişi dolgusunun metnini hiçbiri olarak ayarlamak ve böylece grafik açıklamasının içinde görüntülenmemesini istiyorsanız lütfen[**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) *doğruya**.
+Eğer grafik efsanesinin giriş doldurmasını hiçbiri olarak ayarlamak istiyorsanız, lütfen [**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill)'yi **true** olarak ayarlayın.
 
 {{% /alert %}}
 
-Aşağıdaki örnek kod, grafiğin ikinci gösterge girişi dolgusunun metnini yok olarak ayarlar. Lütfen indirin[örnek excel dosyası](5115219.xlsx) Bu kodda kullanılan ve[excel dosyasının çıktısını almak](5115217.xlsx) referansınız için onun tarafından oluşturulmuştur.
+Aşağıdaki örnek kod, grafik efsanesinin ikinci giriş doldurmasını hiçbiri olarak ayarlar. Lütfen bu kodda kullanılan [örnek excel dosyasını](5115219.xlsx) ve bununla oluşturulan [çıktı excel dosyasını](5115217.xlsx) indirin.
 
-Aşağıdaki ekran görüntüsünde bu kodun etkisi vurgulanmaktadır.[örnek excel dosyası](5115219.xlsx).
+Aşağıdaki ekran görüntüsü, bu kodun [örnek excel dosyası](5115219.xlsx) üzerindeki etkilerini vurgular.
 
-![yapılacak şey:image_alt_text](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
+![todo:image_alt_text](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChartLegendEntry-1.cs" >}}

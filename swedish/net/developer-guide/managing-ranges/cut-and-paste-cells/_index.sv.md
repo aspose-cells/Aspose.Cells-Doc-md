@@ -1,19 +1,20 @@
-﻿---
-title: Klipp och klistra intervall
+---
+title: Klipp och Klistra Range
 type: docs
 weight: 130
 url: /sv/net/cut-and-paste-cells/
 ---
-## **Klipp ut och klistra Cells**
 
-Aspose.Cells ger dig möjligheten att klippa ut och klistra in celler i ett kalkylblad genom att använda[**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) metod för[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling. De[**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells)accepterar följande parametrar.
+## **Klipp och klistra celler**
 
-- [**Räckvidd**](https://reference.aspose.com/cells/net/aspose.cells/range)Området av celler som ska skäras.
-- Radindex: Indexet för raden för att infoga celler.
-- Kolumnindex: Indexet för kolumnen för att infoga celler.
-- [**ShiftType**](https://reference.aspose.com/cells/net/aspose.cells/shifttype): Kolumnernas förskjutningsriktning.
+Aspose.Cells ger dig möjlighet att klippa och klistra celler inom en arbetsbok genom att använda [**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells)-metoden för [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samlingen. [**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) accepterar följande parametrar.
 
-Följande exempel visar hur du klipper ut och klistrar in celler i ett kalkylblad.
+- [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range): Området med celler som ska klippas.
+- Radindex: Index för raden att infoga celler.
+- Kolumnindex: Index för kolumnen att infoga celler.
+- [**ShiftType**](https://reference.aspose.com/cells/net/aspose.cells/shifttype): Kolumnernas förflyttningsriktning.
+
+Följande exempel visar hur du klipper och klistrar celler inom en arbetsbok.
 
 ## **Exempelkod**
 

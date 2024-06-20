@@ -1,26 +1,27 @@
 ---
-title: 表示されている行データをワークシートからエクスポート
+title: ワークシートから表示される行データをエクスポート
 type: docs
 weight: 10
 url: /ja/net/export-visible-rows-data-from-worksheet/
-description: Aspose.Cells for .NET API を通じてワークシートから可視行データをエクスポートする方法を学習します。
-keywords: Export Visible Rows Data to DataTable, Export unhidden Rows Data to DataTable, Export Rows Data to DataTable and Exclude hidden rows, Ignore Hidden Rows while Exporting Worksheet Data to Data Table
+description: Aspose.Cells for .NET API を介してワークシートから表示される行データをエクスポートする方法を学びます。
+keywords: データテーブルに表示される行データをエクスポート, 非表示行データをデータテーブルにエクスポート, 行データをデータテーブルにエクスポートして非表示行を除外, ワークシートデータをデータテーブルにエクスポートする際に非表示行を無視
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells を使用して、ワークシートからデータ テーブルにデータをエクスポートできます。表示されている行のデータのみをエクスポートしたい場合があります。 Aspose.Cells はこれを実現する方法を提供します。使用[**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows)表示されている行データのみをエクスポートすることを指定します。
+Aspose.Cells を使用してワークシートからデータテーブルにデータをエクスポートできます。時々、表示される行のデータのみをエクスポートしたい場合があります。Aspose.Cells では、これを実現する方法が用意されています。[**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows) を使用して、表示される行のデータのみをエクスポートすることを指定します。
 
 {{% /alert %}}
 
-この例では、次のワークシートからデータをエクスポートする方法を示します。行 5、6、7 は非表示になります。
+この例では、以下のワークシートからデータをエクスポートする方法を示しています。5行目、6行目、7行目が非表示になっています。
 
-|**ワークシートのサンプル データ、行 5、6、および 7 が非表示になっています**|
+|**ワークシートのサンプルデータ、5行目、6行目、7行目が非表示です**|
 | :- |
 |![todo:image_alt_text](export-visible-rows-data-from-worksheet_1.png)|
 
-データがデータテーブルにエクスポートされると、[**Worksheet.Cells.ExportDataTable()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index)を使用したメソッド[**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows)オプションを選択すると、このようになります。非表示の行は空白の行としてプロットされます
+表示される行データのみをエクスポートする際に、データは [**Worksheet.Cells.ExportDataTable()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index)メソッドと [**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows)オプションを使用してデータテーブルにエクスポートされます。非表示の行は空行としてプロットされます
 
-|**非表示の行は空白行としてデータテーブルにエクスポートされます**|
+|**非表示の行はデータテーブルに空行としてエクスポートされます**|
 | :- |
 |![todo:image_alt_text](export-visible-rows-data-from-worksheet_2.png)|
 

@@ -1,24 +1,25 @@
-﻿---
-title: ODS ファイルの暗号化と復号化
+---
+title: ODSファイルの暗号化と複合化
 type: docs
 weight: 10
 url: /ja/java/encrypt-and-decrypt-ods-files/
-description: パスワードで保護し、純粋な Java ライブラリである Aspose.Cells for Java を使用して ODS ファイルを暗号化します。
+description: 純粋なJavaライブラリであるAspose.Cells for Javaを使用して、ODSファイルにパスワードを設定し、暗号化することができます。
 ---
+
 {{% alert color="primary" %}}
-OpenOffice.org は、パスワード保護とファイルの暗号化をサポートするフル機能のオフィス スイートです。ただし、暗号化された ODS ファイルは、パスワードを入力した後にのみ OpenOffice で開くことができます。 Excel は暗号化された ODS ファイルを開くことができず、警告メッセージが表示される場合があります。暗号化オプションは、他のファイル タイプとは異なり、ODS ファイルには適用されません。
- Aspose.Cells は、ODS ファイルの暗号化と復号化を許可します。復号化された ODS ファイルは、Excel と OpenOffice の両方で開くことができます。
+OpenOffice.orgはパスワード保護とファイルの暗号化をサポートする完全な機能を備えたオフィススイートです。ただし、暗号化されたODSファイルはパスワードを提供した後にのみOpenOfficeで開くことができ、Excelは暗号化されたODSファイルを開くことはできません。暗号化オプションは、その他のファイルタイプとは異なり、ODSファイルには適用されません。 
+Aspose.Cellsを使用して、ODSファイルの暗号化と複合化が可能です。複合されたODSファイルはExcelとOpenOfficeの両方で開くことができます。 
 {{% /alert %}}
 
-## **OpenOffice Calc で暗号化する**
-1. 選択する**名前を付けて保存**をクリックし、**パスワード付きで保存**箱。
-1. クリック**セーブ**ボタン。
-1. 必要なパスワードを両方に入力します**パスワードを入力して開く**と**パスワードを認証する**表示される [パスワードの設定] ウィンドウのフィールド。
-1. クリック**わかった**ボタンをクリックしてファイルを保存します。
+## **OpenOffice Calcで暗号化**
+1. 「名前を付けて保存」を選択し、「パスワードで保存」ボックスをクリックします。
+1. **保存**ボタンをクリックします。
+1. 開いた「パスワードの設定」ウィンドウの「開くためのパスワードを入力」および「パスワードを確認」フィールドに希望するパスワードを入力します。 
+1. ファイルを保存するために **OK** ボタンをクリックします。
 
-## **暗号化/復号化 ODS ファイル:**
+## **ODSファイルの暗号化/復号化:**
 
- ODS ファイルを暗号化するには、ファイルをロードし、実際のパスワードを[**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password)保存する前に。出力の暗号化された ODS ファイルは、OpenOffice でのみ開くことができます。 ODS ファイルを復号化するには、[**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password) .ファイルがロードされたら、関数を呼び出します[**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String) ) 引数として実際のパスワードを使用し、最後に null をに渡します[**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
+ODSファイルを暗号化するには、ファイルを読み込み、保存する前に実際のパスワードを [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) に渡します。出力される暗号化されたODSファイルはOpenOfficeでのみ開くことができます。ODSファイルを復号化するには、[**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password) にパスワードを提供してファイルを読み込みます。ファイルを読み込んだ後は、実際のパスワードを引数として関数 [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String)) を呼び出し、最後に [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) にnullを渡します。
 
 ### **サンプルコード:**
 

@@ -1,13 +1,14 @@
-﻿---
+---
 title: Adatta automaticamente le colonne nel foglio di lavoro
 type: docs
 weight: 30
 url: /it/net/auto-fit-columns-in-worksheet/
 ---
-## **Aspose.Cells - Adattamento automatico colonne nel foglio di lavoro**
+
+## **Aspose.Cells - Adatta automaticamente le colonne nel foglio di lavoro**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -48,10 +49,10 @@ worksheet.AutoFitColumn(3);
 workbook.Save("AutoFiltRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Adattamento automatico colonne nel foglio di lavoro**
+## **NPOI - HSSF XSSF - Adatta automaticamente le colonne nel foglio di lavoro**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -79,12 +80,12 @@ file.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Colonna adatta automaticamente** formare uno dei siti di social coding sotto indicati:
+Scarica **Adatta automaticamente la colonna** da uno dei siti di codifica sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Lavorare con i fogli di lavoro](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Per ulteriori dettagli, visita [Working with Worksheets](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

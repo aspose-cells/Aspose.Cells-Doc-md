@@ -1,16 +1,17 @@
-﻿---
-title: Rendering di una pagina PDF per foglio di lavoro Excel - Conversione da Excel a PDF
+---
+title: Rendere una pagina PDF per foglio di lavoro di Excel  Conversione di Excel in PDF
 type: docs
 weight: 100
 url: /it/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 ---
+
 {{% alert color="primary" %}} 
 
-Quando si lavora con file Excel Microsoft di grandi dimensioni (ad esempio una cartella di lavoro con molti fogli, ciascuno con 50 colonne e 300 o più righe di dati), è possibile che l'output PDF mostri una pagina per foglio di lavoro, indipendentemente dalle dimensioni del foglio di lavoro . Ciò significherebbe che è probabile che ogni pagina abbia una dimensione di pagina radicalmente diversa. Ciò può essere ottenuto utilizzando Aspose.Cells for .NET.
+Quando si lavora con grandi file di Microsoft Excel (ad esempio un documento di lavoro che ha molti fogli, ognuno con 50 colonne e 300 o più righe di dati), potrebbe essere necessario che l'output in PDF mostri una pagina per foglio di lavoro, indipendentemente dalle dimensioni del foglio di lavoro. Questo significa che ogni pagina è probabile che abbia dimensioni della pagina radicalmente diverse. Questo può essere ottenuto utilizzando Aspose.Cells for .NET.
 
 {{% /alert %}} 
 
-Vedere il seguente codice di esempio che converte un file Excel con più fogli di lavoro in PDF.
+Si prega di vedere il seguente codice di esempio che converte un file di Excel con più fogli di lavoro in PDF.
 
 
 
@@ -18,10 +19,10 @@ Vedere il seguente codice di esempio che converte un file Excel con più fogli d
 
 {{% alert color="primary" %}} 
 
- Se la[Una pagina per foglio](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet) l'opzione è impostata su**VERO**, tutto il contenuto del foglio verrà visualizzato in una pagina PDF.
+Se l'opzione [OnePagePerSheet](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet) è impostata su **true**, tutto il contenuto del foglio viene reso in una pagina PDF.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-Se il tuo foglio di calcolo contiene formule, è meglio chiamare[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)appena prima di eseguire il rendering del foglio di calcolo in PDF. Ciò garantisce che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati in PDF.
+Se il foglio di calcolo contiene formule, è meglio chiamare [Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) appena prima del rendering del foglio di calcolo in PDF. Ciò garantisce che i valori dipendenti dalle formule vengano ricalcolati e i valori corretti siano resi in PDF.
 
 {{% /alert %}}

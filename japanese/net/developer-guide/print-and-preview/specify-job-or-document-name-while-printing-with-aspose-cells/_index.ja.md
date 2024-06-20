@@ -1,18 +1,19 @@
-﻿---
-title: Aspose.Cells で印刷中にジョブまたはドキュメント名を指定する
+---
+title: Aspose.Cells で印刷時にジョブまたはドキュメント名を指定する
 type: docs
 weight: 270
 url: /ja/net/specify-job-or-document-name-while-printing-with-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-WorkbookRender または SheetRender オブジェクトを使用してワークブックまたはワークシートを印刷するときに、ジョブまたはドキュメント名を指定できます。 Aspose.Cells は、ワークブックまたはワークシートの印刷中にジョブ名を指定するために使用できる WorkbookRender.ToPrinter(printerName, jobName) および SheetRender.ToPrinter(printerName, jobName) メソッドを提供します
+WorkbookRender や SheetRender オブジェクトを使用してワークブックやワークシートを印刷する際にジョブまたはドキュメント名を指定することができます。Aspose.Cells は、指定したジョブ名を使用してワークブックやワークシートを印刷するための WorkbookRender.ToPrinter(printerName, jobName) および SheetRender.ToPrinter(printerName, jobName) メソッドを提供しています。
 
 {{% /alert %}}
 
-## Aspose.Cells で印刷中にジョブまたはドキュメント名を指定する
+## Aspose.Cellsを使用して印刷時にジョブまたは文書名を指定する
 
-サンプル コードは、ソース Excel ファイルを読み込み、WorkbookRender.ToPrinter(printerName, jobName) および SheetRender.ToPrinter(printerName, jobName) メソッドを使用してジョブまたはドキュメント名を指定することにより、プリンターに送信します。
+サンプルコードは、元のExcelファイルをロードし、WorkbookRender.ToPrinter（printerName、jobName）およびSheetRender.ToPrinter（printerName、jobName）メソッドを使用してジョブまたは文書名を指定して印刷用に送信します。
 
 ## サンプルコード
 

@@ -1,84 +1,85 @@
-﻿---
+---
 title: Microsoft Excel Spreadsheet Management Library
 type: docs
 weight: 20
 url: /sv/net/microsoft-excel-spreadsheet-management-library/
 ---
+
 ## **Aspose.Cells – Microsoft Excel Spreadsheet Management Library**
 ### **Dokumentfunktioner**
 - Öppna vanliga eller krypterade Microsft Excel-filer (Excel97 - Excel2007/2010/2013) från olika källor.
-- Spara Excel-filer (Excel 97 - Excel2007/2010/2013) i olika format (XLS, XLSX/XLSM, XLTX, XLTM, 0761537481, 7115376481, 71113481, etc
+- Spara Excel-filer (Excel 97 - Excel2007/2010/2013) i olika format (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Separated, TSV, HTML etc.)
 - Konvertera Excel-fil till PDF-dokument.
 - Konvertera Excel-kalkylblad till XPS-dokument.
-- Konvertera till taggat bildfilformat (TIFF).
-- Läs och skriv OpenDocument Spreadsheet-format (ODS).
-- Ändra dokumentegenskaperna för Excel-filer.
+- Konvertera till Tagged Image File Format (TIFF).
+- Läs och skriv OpenDocument-kalkylarksformat (ODS).
+- Ändra dokumentegenskaper för Excel-filer.
 ### **Arbetsbladsfunktioner**
-#### **Skärmalternativ**
-- Dölj eller visa ett kalkylblad.
-- Visa eller dölj flikar, rullningslister, rutnät och rad- och kolumnrubriker.
+#### **Visningsalternativ**
+- Dölj eller visa en arbetsbok.
+- Visa eller dölj flikar, rullfält, rutnät och rad- och kolumnrubriker.
 - Förhandsgranska sidbrytningar.
-- Ställ in zoomnivå för kalkylbladet.
-- Se till att valda data förblir synliga medan du rullar med hjälp av frysrutor.
-#### **Arbetsbladsskydd**
-- Skydda innehåll, objekt och scenarier i ett kalkylblad.
-#### **Alternativ för sidinställningar**
-- Ställ in sidriktning, skalning, pappersstorlek, utskriftskvalitet etc.
-- Ställ in sidmarginaler som topp, vänster, höger, botten etc.
-- Ställ in sidhuvuden och sidfötter.
-- Ställ in utskriftsområde, utskriftstitel etc.
+- Ange zoomnivå för kalkylarket.
+- Låt markerade data förbli synliga vid scrollning med frysbara rutor.
+#### **Kalkylskydd**
+- Skydda innehåll, objekt och scenarier för ett kalkylblad.
+#### **Sidouppställningsalternativ**
+- Ange sidorientering, skalning, pappersstorlek, utskriftskvalitet etc.
+- Ange sidmarginaler som top, vänster, höger, botten etc.
+- Ange sidhuvuden och sidfötter.
+- Ange utskriftsområde, utskriftsrubrik etc.
 #### **Sidbrytningar**
-- Infoga horisontella och vertikala sidbrytningar i en angiven cell.
-### **Funktioner för rader och kolumner**
-- Justera radhöjden.
-- Justera kolumnbredden efter behov.
-- Automatisk storlek på cellernas bredd och höjd enligt deras innehåll.
+- Infoga horisontella och vertikala sidbrytningar vid en specificerad cell.
+### **Rad- och kolumnfunktioner**
+- Justera radhöjd.
+- Justera kolumnbredd som krävs.
+- Autosize bredden och höjden på celler enligt deras innehåll.
 - Infoga eller ta bort rader och kolumner.
 - Dölj eller visa rader och kolumner.
 - Gruppera eller avgruppera rader och kolumner.
-### **Datahanteringsfunktioner**
-- Gå till valfri cell i kalkylbladet.
-- Lägg till data till önskade celler vid körning.
-- Importera data till kalkylblad från olika datakällor.
+### **Datamhanteringsfunktioner**
+- Åtkomst till valfri cell i arbetsbladet.
+- Lägg till data i önskade celler vid körning.
+- Importera data till arbetsblad från olika datakällor.
 - Hämta data från celler enligt deras datatyper.
-- Exportera celldata till DataTable.
-- Hitta eller sök efter specifika data i celler.
-- Ställ in formler med inbyggda eller tilläggsfunktioner.
-- Ställ in array och R1C1-referensstilsformel.
+- Exportera cellers data till DataTable.
+- Hitta eller söka efter specifik data i celler.
+- Ange formler med inbyggda eller tilläggssfunktioner.
+- Ange matris- och R1C1-referensstilformel.
 - Lägg till olika typer av hyperlänkar.
-- Skapa eller få tillgång till namngivna intervall.
+- Skapa eller komma åt namngivna områden.
 - Tillämpa datavalidering och automatisk filtrering.
 ### **Formateringsfunktioner**
 - Tillämpa olika stilar på celler.
-- Tillämpa inställningar för nummerformat på celler.
+- Tillämpa nummerformatsinställningar på celler.
 - Formatera cell som ett datum.
-- Ställ in textjustering.
-- Slå samman flera celler.
-- Använd olika typer av teckensnittsinställningar på celler.
-- Använd olika färger på celler, typsnitt, rutnät, grafiska objekt etc.
-- Ställ in rik text i en enda cell.
-- Tillämpa olika raminställningar på celler.
-- Applicera olika bakgrundsmönster på celler.
-- Tillämpa formatinställningar på ett kalkylblad, rad eller kolumn etc.
-- Använd villkorlig formatering på celler.
-### **Kart- och grafikfunktioner**
-- Stöder alla standarddiagramtyper som kolumn, stapel, linje, cirkel, scatter etc.
+- Ange textjustering.
+- Sammanfoga flera celler.
+- Tillämpa olika typer av teckensnittsinställningar på celler.
+- Tillämpa olika färger på celler, teckensnitt, rutnät, grafiska objekt osv.
+- Ange rik text i en enda cell.
+- Tillämpa olika kantinställningar på celler.
+- Tillämpa olika bakgrundsmönster på celler.
+- Tillämpa formateringsinställningar på ett arbetsblad, rad eller kolumn osv.
+- Tillämpa villkorsstyrd formatering på celler.
+### **Diagram- och grafikfunktioner**
+- Stöder alla standarddiagramtyper som staplar, stapeldiagram, linje, cirkeldiagram, spridningsdiagram osv.
 - Skapa olika typer av diagram enkelt.
-- Anpassa diagram genom att ställa in deras olika egenskaper.
-- Ställ in data för diagrammen dynamiskt.
-- Lägg till anpassade diagram till kalkylblad med API.
-- Lägg till bilder i kalkylblad under körning.
-- Skapa och lägg till kommentarer till celler.
+- Anpassa diagram genom att ange deras olika egenskaper.
+- Ange data för diagrammen dynamiskt.
+- Lägg till anpassade diagram i arbetsblad med hjälp av API.
+- Lägg till bilder i arbetsbladet under körningstid.
+- Skapa och lägg till kommentarer i celler.
 - Konvertera diagram till bildfil.
-- Konvertera kalkylblad till bildfil.
+- Konvertera arbetsblad till bildfil.
 - Skriv ut arbetsblad.
 ### **Avancerade funktioner**
-- Skapa designerkalkylblad och arbeta med smarta markörer.
-- Formelberäkningar gjorda snabbt av en robust formelberäkningsmotor.
-- Åtkomst Aspose.Cells från COM-klienter.
-- Ändra källdata för en pivottabell vid körning.
+- Skapa designerkalkylblad och arbeta med Smart Markers.
+- Formelberäkningar snabbt med en robust formelberäkningsmotor.
+- Få åtkomst till Aspose.Cells från COM-klienter.
+- Ändra källdata för ett pivottabell vid körning.
 - Skapa och manipulera pivottabeller.
 - Manipulera VBA-kod eller makron.
-### **Plattformar som stöds**
-- Desktop Windows Applikation
-- Webbapplikation för företag
+### **Stödda plattformar**
+- Skrivbordsapplikation för Windows
+- Företagswebbapplikation

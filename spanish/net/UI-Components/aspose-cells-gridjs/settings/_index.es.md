@@ -1,15 +1,17 @@
-﻿---
+---
 title: Configuraciones para GridJs
 type: docs
 weight: 250
 url: /es/net/aspose-cells-gridjs/settings/
-description: Este artículo describe la configuración de GridJs.
-keywords: settings
+description: Este artículo describe la configuración para GridJs.
+keywords: GridJs,ajustes,Configuración de GridWorkbook
 ---
-Hay algunas configuraciones que podemos especificar mediante set GridWorkbookSettings:
 
- 
-- **[Configuración de GridWorkbook](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)**
+
+Hay algunas configuraciones que podemos especificar mediante GridWorkbookSettings:
+
+
+- [**GridWorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)
 
 
 Por ejemplo, el siguiente código establece ReCalculateOnOpen en falso para detener el cálculo al abrir el archivo:
@@ -21,7 +23,7 @@ Por ejemplo, el siguiente código establece ReCalculateOnOpen en falso para dete
     gw.Settings = gws;
     gw.ImportExcelFile(@"c:\test.xlsx");
 ```
- el siguiente código establece el autor del archivo:
+ El siguiente código establece el autor para el archivo:
 ```C#
    GridJsWorkbook gw = new GridJsWorkbook();
    GridWorkbookSettings gws = new GridWorkbookSettings();
@@ -30,5 +32,5 @@ Por ejemplo, el siguiente código establece ReCalculateOnOpen en falso para dete
     gw.Settings = gws;
     gw.ImportExcelFile(@"c:\test.xlsx");
 ```
-Puede consultar más configuraciones en esta clase.
- 
+Puede verificar más ajustes en esta clase.
+

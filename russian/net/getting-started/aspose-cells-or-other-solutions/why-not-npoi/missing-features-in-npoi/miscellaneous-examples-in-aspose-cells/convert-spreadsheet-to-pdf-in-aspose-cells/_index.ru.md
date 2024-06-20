@@ -1,15 +1,16 @@
-﻿---
-title: Преобразование электронной таблицы в PDF в Aspose.Cells
+---
+title: Преобразовать Таблицу в PDF в Aspose.Cells
 type: docs
 weight: 10
 url: /ru/net/convert-spreadsheet-to-pdf-in-aspose-cells/
 ---
-## **Aspose.Cells - преобразовать электронную таблицу в PDF**
-Документы PDF широко используются в качестве стандартного формата обмена документами между организациями, государственными секторами и частными лицами. Разработчиков программного обеспечения часто просят найти способ легко конвертировать Microsoft файлы Excel в PDF документы. Aspose.Cells поддерживает эту функцию.
+
+## **Aspose.Cells - Преобразовать Таблицу в PDF**
+PDF-документы широко используются в качестве стандартного формата обмена документами между организациями, государственными секторами и частными лицами. Часто разработчиков программного обеспечения просят разработать способ легкого преобразования файлов Microsoft Excel в документы PDF. Aspose.Cells поддерживает эту функцию.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook("../../data/test.xlsx");
 
@@ -18,7 +19,7 @@ url: /ru/net/convert-spreadsheet-to-pdf-in-aspose-cells/
 workbook.Save("AsposeConvert.pdf", SaveFormat.Pdf);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Преобразование электронной таблицы в PDF** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Преобразовать Таблицу в PDF** с любого из упомянутых выше социальных сайтов для кодинга:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Spreadsheet.To.PDF.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Spreadsheet.To.PDF.Aspose.Cells.zip)

@@ -1,21 +1,22 @@
-﻿---
-title: Aggiorna elemento formula Power Query
+---
+title: Aggiornare l Elemento della Formula di Power Query
 type: docs
 weight: 120
 url: /it/net/update-power-query-formula-item/
 ---
-## **Scenario di utilizzo**
 
- Potrebbero verificarsi casi in cui i file di origine dati vengono spostati e il file excel non è in grado di individuare il file. In tali casi, Aspose.Cells API offre la possibilità di aggiornare l'elemento Formula Power Query utilizzando il[*PowerQueryFormulaItem*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem) class per aggiornare la posizione del file di origine.
+## **Scenario di Utilizzo**
 
-## **Aggiornamento dell'elemento della formula di Power Query**
+Potrebbero esserci casi in cui i file di origine del database vengono spostati e il file Excel non è in grado di individuare il file. In tali casi, l'API Aspose.Cells fornisce l'opzione per aggiornare l'elemento di Formula Power Query utilizzando la classe [*PowerQueryFormulaItem*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem) per aggiornare la posizione del file di origine.
 
- Aspose.Cells API offre la possibilità di aggiornare gli elementi della formula di Power Query. Il seguente frammento di codice illustra l'aggiornamento della posizione del file di origine dati nel file Excel utilizzando l'estensione[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)proprietà. I file di origine e di output allegati per riferimento.
+## **Aggiornare l'Elemento della Formula Power Query**
 
-- [File sorgente 1](106364953.xlsx)
-- [File sorgente 2](106364954.xlsx)
-- [File di uscita](106364955.xlsx)
+L'API Aspose.Cells fornisce la possibilità di aggiornare gli elementi di formula di Power Query. Il seguente frammento di codice mostra come aggiornare la posizione del file di origine dei dati nel file di Excel utilizzando la proprietà [**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value). Sono allegati i file di origine e di output per il tuo riferimento.
 
-## **Codice d'esempio**
+- [File di origine 1](106364953.xlsx)
+- [File di origine 2](106364954.xlsx)
+- [File di output](106364955.xlsx)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-UpdatePowerQueryFormulaItem-1.cs" >}}

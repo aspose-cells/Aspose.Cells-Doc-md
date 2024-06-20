@@ -1,19 +1,20 @@
-﻿---
-title: Adlandırılmış Hedeflerle PDF Yer İmleri Ekle
+---
+title: Adlandırılmış hedeflerle PDF Yer İmlerini Ekleyin
 type: docs
 weight: 20
 url: /tr/net/add-pdf-bookmarks-with-named-destinations/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Adlandırılmış Hedefler, PDF'deki PDF sayfalarına bağlı olmayan özel yer işaretleri veya bağlantı türleridir. Bu, PDF'den sayfalar eklenir veya silinirse, yer imlerinin geçersiz hale gelebileceği ancak adlandırılmış hedeflerin olduğu gibi kalacağı anlamına gelir. Adlandırılmış Hedef oluşturmak için lütfen[**PdfYer İşaretiGirişi.DestinationName**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry/properties/destinationname)Emlak.
+Adlandırılmış hedefler, PDF'de PDF sayfalarına bağlı olmayan özel yer işaretleri veya bağlantılardır. Bu, PDF'ye sayfalar eklenip çıkarıldığında yer işaretlerinin geçersiz olabileceği anlamına gelir, ancak adlandırılmış hedefler aynı kalır. Adlandırılmış Hedef oluşturmak için lütfen [**PdfBookmarkEntry.DestinationName**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry/properties/destinationname) özelliğini ayarlayınız.
 
-## **Adlandırılmış Hedeflerle PDF Yer İmleri Ekle**
+## **Adlandırılmış Yer İmleriyle PDF Yer İmi Ekleyin**
 
- Lütfen aşağıdaki örnek koda bakın,[kaynak Excel dosyası](50528348.xlsx) , ve Onun[çıktı PDF dosyası](50528349.pdf). Ekran görüntüsü, PDF çıktısındaki yer imlerini ve adlandırılmış hedefleri gösterir. Ekran görüntüsü ayrıca Adlandırılmış Hedefleri nasıl görüntüleyeceğinizi ve Acrobat Reader'ın Profesyonel sürümüne ihtiyacınız olduğunu açıklar.
+Aşağıdaki örnek kodu, [kaynak Excel dosyasını](50528348.xlsx) ve [çıktı PDF dosyasını](50528349.pdf) inceleyin. Ekran görüntüsü, çıktı PDF içindeki yer imlerini ve isimli hedefleri gösterir. Ekran görüntüsü ayrıca İsimli Hedeflerin nasıl görüntüleneceğini ve Adobe Acrobat Reader'ın Profesyonel sürümüne ihtiyacınız olduğunu açıklar.
 
-![yapılacaklar:resim_alternatif_metin](add-pdf-bookmarks-with-named-destinations_1.png)
+![todo:image_alt_text](add-pdf-bookmarks-with-named-destinations_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-AddPDFBookmarksWithNamedDestinations.cs" >}}

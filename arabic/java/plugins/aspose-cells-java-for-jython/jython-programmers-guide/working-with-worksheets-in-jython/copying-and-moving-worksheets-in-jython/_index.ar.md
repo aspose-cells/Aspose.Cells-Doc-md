@@ -1,15 +1,16 @@
-﻿---
-title: نسخ أوراق العمل ونقلها في جايثون
+---
+title: نسخ ونقل أوراق العمل في Jython
 type: docs
 weight: 20
 url: /ar/java/copying-and-moving-worksheets-in-jython/
 ---
+
 ## **Aspose.Cells - نسخ ونقل أوراق العمل**
- لإلحاق المستندات باستخدام**Aspose.Cells Java لـ Jython**. هنا يمكنك أن ترى رمز المثال.
+لإلحاق المستندات باستخدام **Aspose.Cells Java for Jython**. هنا يمكنك رؤية رمز المثال.
 
-**كود جايثون**
+**رمز Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -97,7 +98,7 @@ if __name__ == '__main__':
     CopyingAndMovingWorksheets()
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إرفاق المستندات (Aspose.Cells)** من أي من الترميز الاجتماعي المذكور أدناه
+## **تحميل رمز التشغيل**
+تحميل **إضافة مستندات (Aspose.Cells)** من أحد مواقع الترميز الاجتماعي المذكورة أسفله 
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)

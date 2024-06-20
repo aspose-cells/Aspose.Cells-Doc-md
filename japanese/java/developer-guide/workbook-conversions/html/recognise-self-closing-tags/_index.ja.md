@@ -1,10 +1,11 @@
-﻿---
-title: 自己終了タグを認識する
+---
+title: 自己クロージングタグを認識する
 type: docs
 weight: 120
 url: /ja/java/recognise-self-closing-tags/
 ---
-HTML は、\ のような空のタグに対してさまざまなタグ形式を設定できます<td>\</td>また \<td/>. Aspose.Cells は、以前は \ のみをサポートしていましたが、現在は両方の形式をサポートしています。<td>\</td>タグのように。この機能は、添付のサンプル HTML ファイルを Excel ファイルに変換することでテストできます。サンプル HTML ファイルと出力ファイルは、テスト用に次のリンクからダウンロードできます。
+
+HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td/>. Aspose.Cells supports both these formats now whereas earlier it was supporting only \<td>\</td> like tags. This feature can be tested by converting the attached sample HTML file to Excel file. The sample HTML file and output files can be downloaded from the following links for testing.
 
 [sampleSelfClosingTags.html](74776600)
 

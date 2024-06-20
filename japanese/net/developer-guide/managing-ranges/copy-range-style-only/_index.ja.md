@@ -1,21 +1,22 @@
-﻿---
-title: 範囲スタイルのみコピー
+---
+title: スタイルのみをコピーします。
 type: docs
 weight: 620
 url: /ja/net/copy-range-style-only/
 ---
+
 {{% alert color="primary" %}}
 
-[範囲データのみをコピー](/cells/ja/net/copy-range-data-only/)と[スタイル付きの範囲データをコピー](/cells/ja/net/copy-range-data-with-style/)ある範囲から別の範囲にデータを単独でコピーする方法、または書式を設定して完全にコピーする方法を説明しました。書式のみコピーすることも可能です。この記事では、その方法を示します。
+[Copy Range Data Only](/cells/ja/net/copy-range-data-only/)および[Copy Range Data with Style](/cells/ja/net/copy-range-data-with-style/)では、範囲のデータを単独でコピーする方法や書式を含めてコピーする方法について説明しました。また、書式のみをコピーすることも可能です。この記事ではその方法について説明します。
 
 {{% /alert %}} 
 
-この例では、ブックを作成し、それにデータを入力して、範囲のスタイルのみをコピーします。
+この例では、ワークブックを作成し、データで埋め、範囲のスタイルのみをコピーします。
 
 1. 範囲を作成します。
-1. 作成する[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)指定されたフォーマット属性を持つオブジェクト。
-1. スタイルの書式設定を範囲に適用します。
-1. セルの 2 番目の範囲を作成します。
-1. 最初の範囲の書式を 2 番目の範囲にコピーします。
+1. 指定した書式属性で[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)を作成します。
+1. 範囲にスタイルを適用します。
+1. 別のセルの範囲を作成します。
+最初の範囲の書式を2番目の範囲にコピーします。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeStyleOnly-1.cs" >}}

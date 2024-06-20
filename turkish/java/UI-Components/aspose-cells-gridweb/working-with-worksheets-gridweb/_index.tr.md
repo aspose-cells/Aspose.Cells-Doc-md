@@ -1,363 +1,364 @@
 ---
-title: Çalışma Sayfalarıyla Çalışma GridWeb
+title: GridWeb ile Çalışma Sayfaları
 type: docs
 weight: 30
 url: /tr/java/working-with-worksheets-gridweb/
 ---
-##  **Çalışma Sayfalarına Erişim**
 
-Bu konuda GridWeb denetiminin çalışma sayfalarına erişim anlatılmaktadır. Bu çalışma sayfalarına GridWeb'e ait olması ve web uygulamalarında kullanılması nedeniyle web çalışma sayfaları da diyebiliriz.
+## **Çalışma Sayfalarına Erişme**
 
-GridWeb denetiminde bulunan tüm çalışma sayfaları, GridWeb denetiminin GridWorksheetCollection'ında depolanır. Belirli bir çalışma sayfasına sayfa dizininden erişmek kolaydır.
+Bu konu, GridWeb kontrolünün çalışma sayfalarına erişimini tartışmaktadır. Bu sayfalar web uygulamalarında kullanıldığından bunlara web sayfaları da diyebiliriz.
 
-Geliştiriciler, aşağıda örnek kod parçacığında gösterildiği gibi sayfa dizinini belirterek belirli bir çalışma sayfasına erişebilirler.
+GridWeb kontrolünde bulunan tüm çalışma sayfaları, GridWeb kontrolünün GridWorksheetCollection'ında depolanır. Bir çalışma sayfasına, sayfa indeksi ile basitçe erişmek mümkündür.
+
+Geliştiriciler, örnek kod parçasında gösterildiği gibi, belirli bir çalışma sayfasına sayfa indeksi belirterek erişebilirler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AccessingWorksheet-AccessingWorksheet.jsp" >}}
 
-##  **Çalışma Sayfasını Kaldırma**
+## **Bir Çalışma Sayfasını Kaldırmak**
 
-Bu konu, GridWeb API'i kullanarak Microsoft Excel dosyalarından çalışma sayfalarını kaldırma hakkında kısa bilgi sağlar. Bir çalışma sayfasını, sayfa dizinini belirterek kaldırın.
+Bu konu, Microsoft Excel dosyalarından GridWeb API'si kullanılarak çalışma sayfalarının kaldırılması hakkında kısa bilgi sağlar. Bir çalışma sayfasını, sayfa indeksi belirterek kaldırabilirsiniz.
 
-Geliştiriciler, aşağıda örnek kod parçacığında gösterildiği gibi GridWorksheetCollection koleksiyonunun RemoveAt yöntemini kullanarak sayfa dizinini belirterek belirli bir çalışma sayfasını kaldırabilir.
+Geliştiriciler, örnek kod parçasında gösterildiği gibi, GridWorksheetCollection koleksiyonunun removeAt yöntemini kullanarak belirli bir çalışma sayfasını kaldırabilirler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-RemovingWorksheet-RemovingWorksheet.jsp" >}}
 
-##  **Çalışma Sayfaları Ekleme**
+## **Çalışma Sayfaları Ekleme**
 
-Çalışma sayfaları GridWeb'in ayrılmaz bir parçasıdır. Tüm veriler çalışma sayfaları biçiminde yönetilir ve saklanır. GridWeb, geliştiricilerin Aspose.Cells.GridWeb denetimine bir veya daha fazla çalışma sayfası eklemesine olanak tanır. Bu konu, GridWeb'e çalışma sayfaları eklemeye yönelik basit yaklaşımları gösterir.
+Çalışma sayfaları GridWeb'ın ayrılmaz bir parçasıdır. Tüm veri, çalışma sayfaları şeklinde yönetilir ve depolanır. GridWeb, geliştiricilere Aspose.Cells.GridWeb kontrolüne bir veya daha fazla çalışma sayfası ekleme olanağı tanır. Bu konu, GridWeb'a çalışma sayfaları eklemenin basit yaklaşımlarını gösterir.
 
-###  **Sayfa Adı Belirtilmeden**
+### **Sayfa Adı Belirtmeden**
 
-Aspose.Cells.GridWeb'e çalışma sayfası eklemenin en basit yolu, GridWeb denetiminde GridWorksheetCollection sınıfının ekleme yöntemini çağırmaktır. Bu, varsayılan adları (Sayfa1, Sayfa2, Sayfa3 vb.) kullanan çalışma sayfaları oluşturur ve bunları GridWeb denetimine ekler.
+Aspose.Cells.GridWeb'e bir çalışma sayfası eklemenin en basit yolu, GridWeb kontrolündeki GridWorksheetCollection sınıfının add yöntemini çağırmaktır. Bu, varsayılan adları kullanan çalışma sayfaları oluşturur (yani, Sheet1, Sheet2, Sheet3 vb.) ve bunları GridWeb kontrolüne ekler.
 
-**Çıktı: GridWeb'e varsayılan ada sahip bir çalışma sayfası eklendi** 
+**Çıktı: varsayılan adlı bir çalışma sayfası, GridWeb'e eklenmiştir** 
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_1.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingWorksheetWithoutSpecificName-AddingWorksheetWithoutSpecificName.jsp" >}}
 
-###  **Belirtilen Sayfa Adıyla**
+### **Belirtilen Sayfa Adıyla**
 
-Varsayılan adlandırma şemasını kullanmak yerine GridWeb denetimine belirli bir ada sahip bir çalışma sayfası eklemek için, belirtilen SheetName dizesini alan add yönteminin aşırı yüklenmiş bir sürümünü çağırın. Örneğin, aşağıdaki örnekte Fatura adında bir çalışma sayfası eklenmiştir.
+Varsayılan adlandırma düzeni yerine GridWeb kontrolüne belirli bir ad ile çalışma sayfası eklemek için, belirtilen dize SayfaAdı'nı alabilen add yönteminin aşırı yüklenmiş bir sürümünü çağırın. Örneğin, aşağıdaki örnek, Invoice adında bir çalışma sayfası ekler.
 
-**Çıktı: GridWeb'e belirtilen ada sahip bir çalışma sayfası eklendi** 
+**Çıktı: belirtilen adlı bir çalışma sayfası, GridWeb'e eklenmiştir** 
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_2.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingWorksheetWithSpecificName-AddingWorksheetWithSpecificName.jsp" >}}
 
 {{% alert color="primary" %}}
 
- add() yöntemi, bu çalışma sayfasının örneğine erişmek için kullanılabilecek yeni çalışma sayfasının dizinini döndürür. Çalışma sayfalarına nasıl erişileceğine ilişkin daha fazla ayrıntı için bkz.[Çalışma Sayfalarına Erişim](/cells/tr/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets).
+add() yöntemi, eklenen yeni çalışma sayfasının indeksini döndürür; bu indeks, bu çalışma sayfasının örneğine erişmek için kullanılabilir. Aspose.Cells.GridWeb'de çalışma sayfalarına erişim hakkında daha fazla bilgi için [Çalışma Sayfalarına Erişme](/cells/tr/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets) konusuna bakın.
 
 {{% /alert %}}
 
-##  **Çalışma Sayfasını Yeniden Adlandırma**
+## **Çalışma Sayfasını Yeniden Adlandırma**
 
-GridWeb'de birçok çalışma sayfasıyla çalışırken ve onları daha anlamlı hale getirmek için adlarını değiştirmeye karar verdiğinizde, bir çalışma sayfasını yeniden adlandırmak çok yararlı olabilir. Örneğin, fatura içeren bir çalışma sayfası Sayfa1 yerine Fatura olarak yeniden adlandırılabilir. Bu konu, bu basit ama kullanışlı özelliği açıklamaktadır.
+Çalışma sayfasını yeniden adlandırmak, GridWeb'de birçok çalışma sayfası ile çalışırken onların adlarını daha anlamlı hale getirmeye karar verdiğinizde çok faydalı olabilir. Örneğin, Sheet1 yerine Fatura adı taşıyan bir çalışma sayfası, Invoice olarak yeniden adlandırılabilir. Bu konu, bu basit ancak kullanışlı özelliği açıklar.
 
-###  **Çalışma Sayfasını Yeniden Adlandırma**
+### **Çalışma Sayfasını Yeniden Adlandırma**
 
-Tüm çalışma sayfaları, geliştiricilerin çalışma sayfalarının adlarına erişmesine veya bunları değiştirmesine olanak tanıyan bir Ad özelliği içerir. Bir çalışma sayfasını yeniden adlandırmak için:
+Tüm çalışma sayfaları, geliştiricilerin çalışma sayfalarının adlarını erişebilmesini veya değiştirebilmesini sağlayan bir Name özelliğine sahiptir. Bir çalışma sayfasını yeniden adlandırmak için:
 
 1. GridWorksheetCollection'dan bir çalışma sayfasına erişin.
-1. Seçilen çalışma sayfasını yeniden adlandırın.
+1. Seçili çalışma sayfasını yeniden adlandırın.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells.GridWeb'deki çalışma sayfalarına nasıl erişileceğine ilişkin daha fazla ayrıntı için lütfen şu adrese bakın:[Çalışma Sayfalarına Erişim](/cells/tr/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets).
+Aspose.Cells.GridWeb'de çalışma sayfalarına erişim hakkında daha fazla bilgi için lütfen [Çalışma Sayfalarına Erişme](/cells/tr/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets) konusuna başvurun.
 
 {{% /alert %}}
 
-Kodu çalıştırmadan önce çalışma sayfasının Sayfa1 gibi varsayılan bir adı vardır.
+Kodu çalıştırmadan önce, çalışma sayfasının varsayılan adı olan Sheet1 olarak adlandırıldığını unutmayın.
 
-**Giriş dosyası: Varsayılan adı Sayfa1 olan bir çalışma sayfası** 
+**Giriş dosyası: varsayılan adı Sheet1 olan bir çalışma sayfası** 
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_3.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_3.png)
 
-Kodu çalıştırdıktan sonra çalışma sayfası Fatura olarak yeniden adlandırıldı.
+Kodu çalıştırdıktan sonra, çalışma sayfası Invoice olarak yeniden adlandırılmıştır.
 
-**Çıktı: çalışma sayfası Fatura olarak yeniden adlandırıldı** 
+**Çıktı: çalışma sayfası Invoice olarak yeniden adlandırılmıştır** 
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_4.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-RenamingWorksheet-RenamingWorksheet.jsp" >}}
 
-##  **Çalışma Sayfasını Kopyalamak**
+## **Çalışsayfalarını Kopyalama**
 
-[Çalışma Sayfaları Ekleme](/cells/tr/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-addingworksheets)GridWeb'e yeni çalışma sayfalarının nasıl ekleneceğini açıklar. Aspose.Cells.GridWeb denetimine başka bir çalışma sayfasının kopyasını (veya kopyasını) eklemek de mümkündür. Bu özellik, bir çalışma sayfasındaki aynı veya benzer verilere başka bir çalışma sayfasında da ihtiyaç duyulduğunda yararlı olabilir. Durum böyle olduğunda, mevcut bir çalışma sayfasını sıfırdan oluşturmak yerine kopyalayıp Aspose.Cells.GridWeb'e yeni bir çalışma sayfası olarak eklemek daha kolaydır.
+[Çalışsayfası Ekleme](/cells/tr/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-addingworksheets), GridWeb'e yeni çalışsayfaları nasıl ekleyeceğinizi anlatır. Ayrıca Aspose.Cells.GridWeb denetimine başka bir çalışsayfanın kopyasını (veya replikasını) eklemek de mümkündür. Bu özellik, aynı veya benzer verilerin bir çalışsayfada başka bir çalışsayfada da gereklidir durumda işe yarayabilir. Bu durumda, var olan bir çalışsayfanın kopyasını kopyalamak ve Aspose.Cells.GridWeb'e yeni bir çalışsayfa olarak eklemek, sıfırdan oluşturmaktan daha kolaydır.
 
-###  **Sayfa dizinini kullanma**
+### **Sayfa indeksi Kullanma**
 
-Aşağıdaki örnek kod, GridWorksheetCollection'ın addCopy yönteminde çalışma sayfasının dizinini belirterek çalışma sayfasının bir kopyasının GridWeb denetimine nasıl ekleneceğini gösterir.
+Aşağıdaki örnek kod, GridWorksheetCollection'ın addCopy yönteminde çalışsayfanın indeksini belirterek GridWeb denetimine bir çalışsayfa kopyası nasıl ekleyeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-CopyWorksheetUsingSheetIndex-CopyWorksheetUsingSheetIndex.jsp" >}}
-###  **Sayfa Adını Kullanma**
-Aşağıdaki örnek kod, çalışma sayfasının adını GridWorksheetCollection'ın addCopy yönteminde belirterek GridWeb denetimine bir çalışma sayfasının kopyasının nasıl ekleneceğini gösterir.
+### **Sayfa Adını Kullanma**
+Aşağıdaki örnek kod, GridWorksheetCollection'ın addCopy yönteminde çalışsayfanın adını belirterek GridWeb denetimine bir çalışsayfa kopyası nasıl ekleyeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-CopyWorksheetUsingSheetName-CopyWorksheetUsingSheetName.jsp" >}}
 
 {{% alert color="primary" %}}
 
- addCopy yöntemi, çalışma sayfası örneğine erişmek için kullanılabilecek yeni eklenen çalışma sayfasının dizinini döndürür. Çalışma sayfalarına nasıl erişileceğine ilişkin daha fazla ayrıntı için bkz.[Çalışma Sayfalarına Erişim](/cells/tr/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets).
+addCopy yöntemi, yeni eklenen çalışsayfanın indeksini döndürür ve bu indeksi kullanarak çalışsayfa örneğine erişilebilir. Çalışsayfalara erişim hakkında daha fazla bilgi için [Çalışsayfalara Erişme](/cells/tr/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets) bölümünü okuyun.
 
 {{% /alert %}}
 
-##  **Adlandırılmış Aralıklarla Çalışma**
+## **Adlandırılmış Aralıklarla Çalışma**
 
-Normalde sütun ve satır etiketleri hücrelere benzersiz şekilde atıfta bulunmak için kullanılır. Ancak hücreleri, hücre aralıklarını, formülleri veya sabit değerleri temsil edecek açıklayıcı adlar oluşturabilirsiniz.
+Genellikle sütun ve satır etiketleri hücrelere benzersiz bir şekilde atıfta bulunmak için kullanılır. Ancak hücreleri, hücre aralıklarını, formülleri veya sabit değerleri temsil etmek için betimleyici adlar oluşturabilirsiniz.
 
- Kelime**isim** bir hücreyi, hücre aralığını, formülü veya sabit değeri temsil eden bir karakter dizisine atıfta bulunabilir. Örneğin, Satış!C20:C30 gibi anlaşılması zor aralıklara atıfta bulunmak için Ürünler gibi anlaşılması kolay adlar kullanın.
+Kelime **adı**, bir hücreyi, hücre aralığını, formülü veya sabit değeri temsil eden bir karakter dizisine atıfta bulunabilir. Örneğin, Satışlar!C20:C30 gibi anlaşılması zor aralıklara atıfta bulunmak için, Ürünler gibi anlaşılması kolay adlar kullanın.
 
- Etiketler aynı çalışma sayfasındaki verilere başvuran formüllerde kullanılabilir; Başka bir çalışma sayfasında bir aralığı temsil etmek istiyorsanız bir ad kullanabilirsiniz.**Adlandırılmış aralıklar** Microsoft Excel'in en güçlü özelliklerinden biridir.
+Etiketler, aynı çalışsayfadaki verilere atıfta bulunan formüllerde kullanılabilir; başka bir çalışsayfadaki bir aralığı temsil etmek isterseniz bir ad kullanabilirsiniz. **Adlandırılmış aralıklar**, Microsoft Excel'in en güçlü özelliklerinden biridir.
 
-Kullanıcılar bir aralığa ad atayabilir ve bu adı formüllerde kullanabilir. Aspose.Cells.GridWeb bu özelliği desteklemektedir.
+Kullanıcılar bir aralığa ad atayabilir ve bu adı formüllerde kullanabilir. Aspose.Cells.GridWeb bu özelliği destekler.
 
-###  **Formüllerde Adlandırılmış Aralıkları Ekleme/Referans Alma**
+### **Formüllerde İsimli Aralıkları Ekleme/Başvuru Yapma**
 
-GridWeb kontrolü, adlandırılmış aralıklarla çalışmak için iki sınıf (GridName ve GridNameCollection) sağlar.
+GridWeb denetimi, adlandırılmış aralıklarla çalışmak için iki sınıf (GridName ve GridNameCollection) sağlar.
 
 Aşağıdaki kod parçacığı, bunları nasıl kullanacağınızı anlamanıza yardımcı olacaktır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingNamedRangesinFormulas-AddingNamedRangesinFormulas.jsp" >}}
 
-##  **Çalışma Sayfasındaki Yorumları Yönetme**
+## **Çalışsayfadaki Yorumları Yönetme**
 
-Bu konuda çalışma sayfalarındaki yorumların eklenmesi, bunlara erişilmesi ve yorumların kaldırılması anlatılmaktadır. Yorumlar, sayfayla çalışacak kullanıcılar için not veya faydalı bilgi eklemek açısından faydalıdır. Geliştiriciler çalışma sayfasının herhangi bir hücresine yorum ekleme esnekliğine sahiptir.
+Bu konu, çalışsayfalardan yorum eklemeyi, erişmeyi ve kaldırmayı tartışır. Yorumlar, çalışsayfa ile çalışacak olan kullanıcılar için not veya kullanışlı bilgiler eklemek için kullanışlıdır. Geliştiriciler, çalışsayfanın herhangi bir hücresine yorum eklemekte esneklik sahip olurlar.
 
-###  **Yorumlarla Çalışmak**
+### **Yorumlarla Çalışma**
 
-####  **Yorum Ekleme**
+#### **Yorum Ekleme**
 
-Çalışma sayfasına yorum eklemek için lütfen aşağıdaki adımları izleyin:
+Bir çalışsayfaya yorum eklemek için lütfen aşağıdaki adımları izleyin:
 
 1. Aspose.Cells.GridWeb denetimini Web Formuna ekleyin.
-1. Yorum eklediğiniz çalışma sayfasına erişin.
+2. Yorum eklemek istediğiniz çalışsayfaya erişin.
 1. Bir hücreye yorum ekleyin.
-1. Yeni yorum için bir not ayarlayın.
+4. Yeni yorum için bir not ayarlayın.
 
-**Çalışma sayfasına bir yorum eklendi** 
+**Çalışsayfaya bir yorum eklenmiştir** 
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_5.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingComments-AddingComments.jsp" >}}
 
-####  **Yorumlara Erişim**
+#### **Yorumlara Erişme**
 
 Bir yoruma erişmek için:
 
-1. Yorumu içeren hücreye erişin.
-1. Hücrenin referansını alın.
-1. Yoruma erişmek için referansı Yorum koleksiyonuna iletin.
+1. Yorum içeren hücreye erişin.
+2. Hücrenin referansını alın.
+3. Yoruma erişmek için referansı Comment koleksiyonuna iletil.
 1. Artık yorumun özelliklerini değiştirmek mümkün.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AccessingComments-AccessingComments.jsp" >}}
 
-####  **Yorumları Kaldırma**
+#### **Yorumları Kaldırma**
 
 Bir yorumu kaldırmak için:
 
 1. Yukarıda açıklandığı gibi hücreye erişin.
-1. Yorumu kaldırmak için Yorum koleksiyonunun RemoveAt yöntemini kullanın.
+1. Yorum koleksiyonunun removeAt yöntemini kullanarak yorumu kaldırın.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-RemovingComments-RemovingComments.jsp" >}}
 
-##  **Çalışma Sayfasındaki Köprüleri Yönetme**
+## **Çalışma Sayfasındaki Bağlantıları Yönetme**
 
-Bu konu, Aspose.Cells.GridWeb'de hangi tür köprülerin desteklendiğini ve bunların programlı olarak nasıl yönetileceğini açıklamaktadır. Köprüler, web URL'lerine bağlantılar oluşturmak veya bir sunucuya geri gönderme gerçekleştirmek için kullanılabilir.
+Bu konu Aspose.Cells.GridWeb'de desteklenen bağlantı türlerini ve bunları programlı olarak nasıl yöneteceğinizi tartışmaktadır. Bağlantılar, web URL'lerine bağlantı oluşturmak veya sunucuya postback yapmak için kullanılabilir.
 
-###  **Köprü Türleri**
+### **Bağlantı Türleri**
 
-Aşağıdaki köprüler Aspose.Cells.GridWeb tarafından desteklenir:
+Aspose.Cells.GridWeb tarafından desteklenen aşağıdaki bağlantılar:
 
-- Metin URL köprüleri, metne uygulanan URL köprüleri.
-- Resim URL köprüleri, resimlere uygulanan URL köprüleri.
+- Metin URL bağlantıları, metne uygulanan URL bağlantıları.
+- Görüntü URL bağlantıları, resimlere uygulanan URL bağlantıları.
 
-####  **Metin URL'si Köprüleri**
+#### **Metin URL Bağlantıları**
 
-Aşağıdaki örnek, bir çalışma sayfasına iki köprü ekler. Birinin _blank hedefi varken diğerinin _parent olarak ayarlı olması.
+Aşağıdaki örnek bir çalışma sayfasına iki bağlantı ekler. Birinde _blank hedefi varken diğeri _parent'e ayarlanmıştır.
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_6.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_6.png)
 
-**Çıktı: çalışma sayfasına eklenen metin köprüleri**
+**Çıktı: çalışma sayfasına eklenen metin bağlantıları**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-TextURLHyperlinks-TextURLHyperlinks.jsp" >}}
 
-####  **Resim URL'si Köprüleri**
+#### **Görüntü URL Bağlantıları**
 
-Aşağıdaki örnek, bir çalışma sayfasına resim URL'si köprüsü ekler.
+Aşağıdaki örnek, bir çalışma sayfasına görüntü URL bağlantısını ekler.
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_7.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_7.png)
 
-**Çıktı: çalışma sayfasına resim köprüsü eklendi**
+**Çıktı: çalışma sayfasına eklenen görüntü bağlantısı**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-ImageURLHyperlinks-ImageURLHyperlinks.jsp" >}}
 
-##  **Verileri Sıralama**
+## **Veri Sıralama**
 
-Sıralama, veri işleme söz konusu olduğunda çok değerli bir özelliktir. Sıralanmamış veriler, belirli bilgileri ararken kullanıcılar için sıkıntı yaratır. Aspose.Cells.GridWeb güçlü sıralama özelliklerini destekler. Bu konuda Aspose.Cells.GridWeb API kullanılarak verilerin sıralanması anlatılmaktadır.
+Sıralama, veri işleme konusunda çok değerli bir özelliktir. Sırasız veri, belirli bilgileri ararken kullanıcılar için bir baş ağrısıdır. Aspose.Cells.GridWeb güçlü sıralama özelliklerini destekler. Bu konu, Aspose.Cells.GridWeb API'sını kullanarak veri sıralamanın nasıl yapıldığını tartışmaktadır.
 
-Aspose.Cells.GridWeb, geliştiricilerin verileri yatay ve dikey olarak sıralamasına olanak tanır, böylece geliştiriciler verileri yukarıdan aşağıya veya soldan sağa sıralayabilir.
+Aspose.Cells.GridWeb, geliştiricilere verileri yatay ve dikey olarak sıralama imkanı tanır, böylece geliştiriciler verileri yukarıdan aşağıya veya soldan sağa sıralayabilirler.
 
-###  **Baştan aşağı**
+### **Yukarıdan Aşağıya**
 
-Verileri yukarıdan aşağıya doğru sıralamak için:
+Verileri yukarıdan aşağıya doğrultusunda sıralamak için:
 
 1. Aspose.Cells.GridWeb denetimini Web Formunuza ekleyin.
-1. Sıralamak istediğiniz çalışma sayfasına erişin.
-1. Veri aralığını herhangi bir sıraya göre (artan veya azalan) sıralayın. Yukarıdan aşağıya yönlendirmeyi seçtiğinizden emin olun.
+1. Sıralamak istediğiniz çalışsayfaya erişin.
+1. Veri aralığını herhangi bir düzende (artan veya azalan) sıralayın. Yukarıdan aşağıya doğrultusunda sıralamayı seçtiğinizden emin olun.
 
-Aşağıdaki örnek, bir çalışma sayfasının iki sütunundaki (Öğrenci Kimliği ve Öğrenci Adı) verileri artan düzende sıralar. İki sütundan oluşan yalnızca on iki satır yukarıdan aşağıya doğru sıralanır.
+Aşağıdaki örnek, bir çalışma sayfasının iki sütununu (Öğrenci Kimliği ve Öğrenci Adı) artan düzende yukarıdan aşağıya doğrultusunda sıralar. İki sütunun sadece on iki satırı artan düzende sıralanmıştır.
 
-Kodu uygulamadan önce çalışma sayfası sıralanmamış veriler içeriyor.
+Kod uygulanmadan önce çalışsayfa düzensiz veri içerir.
 
-**Giriş: sıralanmamış veriler** 
+**Giriş: sıralanmamış veri** 
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_8.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_8.png)
 
-Kodun çalıştırılmasından sonra veriler artan düzende sıralanır.
+Kodun çalıştırılmasından sonra, veri artan düzende sıralanmıştır.
 
-**Çıktı: veriler yukarıdan aşağıya doğru artan sırada sıralanır** 
+**Çıktı: yukarıdan aşağıya doğrultusunda artan düzende sıralanmış veri** 
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_9.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-datasortedfromtoptobottomascendingorder-datasortedfromtoptobottomascendingorder.jsp" >}}
 
-###  **Soldan sağa**
+### **Soldan Sağa**
 
 Verileri soldan sağa sıralamak için:
 
 1. Aspose.Cells.GridWeb denetimini Web Formunuza ekleyin.
-1. Sıralamak istediğiniz çalışma sayfasına erişin.
-1. Veri aralığını herhangi bir sıraya göre (artan veya azalan) sıralayın. Soldan sağa seçtiğinizden emin olun.
+1. Sıralamak istediğiniz çalışsayfaya erişin.
+1. Veri aralığını istenen düzende sıralayın (artan veya azalan). Soldan sağa seçtiğinizden emin olun.
 
-Aşağıdaki örnek, verileri iki satırda (Öğrenci Kimliği ve Öğrenci Adı) artan düzende sıralar. Dört sütundan yalnızca iki satır soldan sağa sıralanır.
+Aşağıdaki örnek, iki satırda (Öğrenci ID ve Öğrenci Adı) bulunan verileri artan sırada sıralar. Dört sütunun sadece iki satırı soldan sağa sıralanır.
 
-Kodu uygulamadan önce çalışma sayfası sıralanmamış veriler içeriyor.
+Kod uygulanmadan önce çalışsayfa düzensiz veri içerir.
 
-**Giriş: kod pasajını çalıştırmadan önce sıralanmamış veriler** 
+**Giriş: kod parçasını uygulamadan önce sıralanmamış veri** 
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_10.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_10.png)
 
-Kodun çalıştırılmasından sonra veriler artan sırada sıralanır.
+Kod uygulandıktan sonra veri artan sırada sıralanır.
 
-**Çıktı: veriler soldan sağa artan sırada sıralanır** 
+**Çıkış: soldan sağa artan sırada sıralanmış veri** 
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_11.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_11.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-datasortedfromleftrightascendingorder-datasortedfromleftrightascendingorder.jsp" >}}
 
-##  **Arama ve Değiştirme**
+## **Arama ve Değiştirme**
 
-Büyük bir e-tabloda tekrarlayan değişiklikler yapmanın en hızlı yollarından biri bul ve değiştir özelliğini kullanmaktır. Bul, bir metin dizesini veya veriyi bulmanıza yardımcı olur ve onu yeni bir değerle değiştirir. Aspose.Cells.GridWeb bu özelliği sağlar. Basit bir iletişim kutusu aracılığıyla çalışma sayfasının istemci tarafında belirli bir metin dizesini veya değeri aramanıza ve değiştirmenize olanak tanır. Kısmi verileri aramanıza bile olanak tanır.
+Büyük bir elektronik tabloda tekrarlayan değişiklikler yapmanın en hızlı yollarından biri bul ve değiştir özelliğini kullanmaktır. Bul, bir metin dizesini veya veriyi bulmanıza ve değiştir, yeni bir değerle değiştirmenize yardımcı olur. Aspose.Cells.GridWeb bu özelliği sağlar. Basit bir iletişim kutusu aracılığıyla çalışsayfada metin dizesi veya değeri bulmanıza ve değiştirme olanağı sağlar. Hatta kısmi veri aramanıza bile izin verir.
 
-###  **Bul/Değiştir İletişim Kutusu**
+### **Bul/Değiştir İletişim Kutusu**
 
 Bul/Değiştir iletişim kutusunu açmanın iki yolu vardır:
 
-1.  Kontrol aktif olduğunda tuşuna basın.**CTRL+F** iletişim kutusunu açmak için veya tuşuna basın.**CTRL+R** ile diyalogu açmak için tuşuna basın.**Yer değiştirmek** düğmesi etkinleştirildi.
-1.  İmleci çalışma sayfasındaki hücre alanına taşıyın, ardından sağ tıklayın. Seçme**Bulmak** veya**Yer değiştirmek** menüden.
+1. Denetim etkin olduğunda, iletişim kutusunu açmak için **CTRL+F** tuşuna basın veya **CTRL+R** tuşuna basarak Değiştir düğmesini etkinleştirin.
+1. Çalışsayfadaki hücre alanına imleci taşıyın, ardından sağ tıklayın. Menüden **Bul** veya **Değiştir** i seçin.
 
-**Bul'u Seçme**
+**Bul seçimi**
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_12.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_12.png)
 
-Bul ve değiştir iletişim kutusu görüntülenir.
+Bul ve değiştirme iletişim kutusu görüntülenir.
 
 **Bul/Değiştir iletişim kutusu**
 
-![yapılacak şey:image_alt_text](working-with-worksheets-gridweb_13.png)
+![todo:image_alt_text](working-with-worksheets-gridweb_13.png)
 
-**Bul'u kullanma**
+**Bulma Kullanma**
 
-Aramak:
+Arama yapmak için:
 
 1. Bul/Değiştir iletişim kutusunu açın.
-1. Aramak istediğiniz dizeyi Aranan alanına yazın.
-1. Aramak için Sonrakini Bul'u tıklayın.
+1. Aramak istediğiniz dizesini Bul alanına yazın.
+1. Aramak için Bul Next ü tıklayın.
 
-Bulma koşulunuzla eşleşen bir sonraki hücre vurgulanır.
+Arama koşulunuzu karşılayan sonraki hücre vurgulanır.
 
 {{% alert color="primary" %}}
 
-Arama kriteriniz bulunamazsa bunu size bildiren bir iletişim kutusu görüntülenir.
+Arama kriteriniz bulunamazsa, size bildirmek için bir iletişim kutusu görüntülenir.
 
 {{% /alert %}}
 
-###  **Arama Seçenekleri**
+### **Arama Seçenekleri**
 
-İletişim kutusunda özelleştirebileceğiniz bazı arama seçenekleri vardır. Aşağıdaki tablo bunları listelemektedir.
+İleride özelleştirebileceğiniz bazı arama seçenekleri bulunmaktadır. Aşağıdaki tabloda bunlar listelenmiştir.
 
-|**HAYIR.**|**Seçenek Adı**|**Tanım**|
+|**No.**|**Seçenek Adı**|**Açıklama**|
 | :- | :- | :- |
-|1|Maç durumu|Aramada büyük/küçük harfe duyarlı kullanılıp kullanılmayacağını belirtir.|
-|2|Tüm kelimeyi eşleştir|Aramada kelimenin tamamının eşleştirilip eşleştirilmeyeceğini belirtir.|
-|3|Yukarı ara|Aramanın aşağıdan yukarıya doğru yapılıp yapılmayacağını belirtir.|
-|4|Düzenli ifade|İşaretlendiğinde denetim, Arama sürecinde Aranan metin kutusundaki dizeyi normal ifade olarak ele alır.|
-|5|Formüllerde/Değerlerde Bul|Formüller seçildiğinde, formül veya biçimlendirilmemiş değer mevcutsa denetim, hücrelerin formülüyle veya biçimlendirilmemiş değeriyle eşleşir. Değerler seçildiğinde kontrol yalnızca hücrelerin görüntülenen değeriyle eşleşir.|
+|1|Büyük/küçük harf eşleşmesi|Aramada büyük/küçük harf duyarlı olup olunmayacağını gösterir.|
+|2|Tam kelime eşleştir|Aramada tam kelime eşleştirip eşleştirmediğini belirtir.|
+|3|Yukarıdan aşağıya ara|Aramanın aşağıdan yukarıya yapılıp yapılmayacağını belirtir.|
+|4|Düzenli ifade|İşlem sırasında Bul alandaki metni düzenli ifade olarak işleyip işlemediğini belirtir.|
+|5|Formüller/Değerlerde Bul|Formüller seçildiğinde, kontrol, hücrelerin formülünü veya biçimsiz değerini eşleştirir. Değerler seçildiğinde, kontrol yalnızca hücrelerin görüntülenen değerini eşleştirir.|
 
-###  **Değiştir'i kullanma**
+### **Değiştirme Kullan**
 
 Metni veya değerleri değiştirmek için:
 
-1.  Bul/Değiştir iletişim kutusunu tuşuna basarak açın.**CTRL+F** veya bir hücreye sağ tıklayıp **Bul'u seçin** *Değiştir**'e tıklamadan önce.
-1.  Değiştirilecek dizeyi şuraya yazın:**İle değiştirin**alan.
-1. *Değiştir**'i tıklayın.
+1. **CTRL+F** tuşuna basarak Bul/Değiştir iletişim kutusunu açın veya Değiştir'e tıklamadan önce bir hücreye sağ tıklayın ve ardından **Bul**'ü seçin.
+1. Yerine yazılacak dizeyi **Yerine Yaz** alanına yazın.
+1. **Yerine Yaz**'a tıklayın.
 
 Metni değiştirmek için:
 
 1. İletişim kutusunu açın.
-1.  Bulmak istediğiniz metni girin**Ne buldun** alanı ve onu değiştirmek istediğiniz metni seçin.**İle değiştirin** alan.
-1.  Tıklayarak aynı anda bir örneği değiştirin**Sonraki Bul** ardından *Değiştir**.
-1. Çalışma sayfasının içeriğinden tam olarak eminseniz *Tümünü Değiştir**'i tıklayın.
+1. **Bul** alanına bulmak istediğiniz metni girin ve **Yerine Yaz** alanına değiştirmek istediğiniz metni girin.
+1. **Sonrakini Bul**'e tıklayarak bir seferinde bir önceği değiştirerek **Sonrakini Bul**'e tıklayın.
+1. Çalışma sayfasının ne içerdiğinden eminseniz, **Tümünü Değiştir**'e tıklayın.
 
 {{% alert color="primary" %}}
 
- Çalışma sayfası düzenleme modunda değilse,**Yer değiştirmek** düğmesi görüntülenmiyor.
+Eğer çalışma sayfası düzenleme modunda değilse, **Değiştir** düğmesi görüntülenmez.
 
 {{% /alert %}}
 
-## İstemci Tarafından Köprü Ekleme/Kaldırma
+## İstemci Tarafından Bağlantıları Ekle/Kaldır
 
-Aspose.Cells GridWeb artık istemci tarafından köprü ekleme ve kaldırma işlemlerini destekliyor. Bunun için API "addCelllink" ve "delCelllink" fonksiyonlarını sağlar. Aşağıdaki kod parçacıkları, GridWeb'de istemci tarafından köprülerin eklenmesini ve kaldırılmasını gösterir.
+Aspose.Cells GridWeb artık istemci tarafından bağlantı ekleme ve kaldırma işlemini destekler. Bunun için API, "addCelllink" ve "delCelllink" işlevlerini sağlar. Aşağıdaki kod parçaları, GridWeb'de istemci tarafından bağlantı ekleme ve kaldırma işlemini göstermektedir.
 
-###  Basit kod
+### Örnek Kod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-add-remove-hyperlink-from-client-side-1.jsp" >}}
 
-Aşağıdaki kod parçacığını kullanarak da sayfaya bağlantı verebilirsiniz.
+Ayrıca, aşağıdaki kod parçasını kullanarak sayfaya bağlantı kurabilirsiniz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-add-remove-hyperlink-from-client-side-2.jsp" >}}
 
-##  Yazı Tipi Ayarlarını İstemci Tarafından Güncelleyin
+## İstemci Tarafından Yazı Tipi Ayarlarını Güncelle
 
-Aspose.Cells GridWeb artık yazı tipi ayarlarının istemci tarafından değiştirilmesini destekliyor. Bunun için API aşağıdaki fonksiyonları sağlar
+Aspose.Cells GridWeb artık istemci tarafından yazı tipi ayarlarını değiştirme işlemini destekler. Bunun için API aşağıdaki işlevleri sağlar
 
-- *updateCellFontStyle**: Params - normal/italik/kalın/italik&&kalın için r/i/b/ib
-- *updateCellFontSize**: Parametreler - yazı tipi adı vb. 'Sistem'
-- *updateCellFontName**: Parametreler - yazı tipi boyutu vb. '12pt'
-- *updateCellFontColor**: Params - yok/u/l/ul/ yok için/altı çizili/üstü çizili/altı çizili&&üstünü çizili
-- *updateCellFontLine**: Params - #aa22ee gibi html rengi veya yeşil, kırmızı, gibi iyi bilinen renk adı...
-- *updateCellBackGroundColor**: Params - #aa22ee gibi html rengi veya yeşil, kırmızı, gibi iyi bilinen renk adı...
+- **updateCellFontStyle**: Parametreler - r/i/b/ib: normal/italik/kalın/italik&&kalın
+- **updateCellFontSize**: Parametreler - yazıtipi, vb. 'Sistem'
+- **updateCellFontName**: Parametreler - yazı boyutu, vb. '12pt'
+- **updateCellFontColor**: Parametreler - yok/u/l/ul/ for yok/altı çizili/üzeri çizili/altı&&üzeri çizili
+- **updateCellFontLine**: Parametreler - html rengi #aa22ee veya yeşil, kırmızı gibi yaygın olarak bilinen renk ismi
+- **updateCellBackGroundColor**: Parametreler - html rengi #aa22ee veya yeşil, kırmızı gibi yaygın olarak bilinen renk ismi
 
-Aşağıdaki kod parçacığı, GridWeb'de istemci tarafından yazı tipi ayarlarının değiştirilmesini göstermektedir.
+Aşağıdaki kod parçacığı, GridWeb'de istemci tarafından yazı tipi ayarlarını değiştirme işlemini göstermektedir.
 
-###  Basit kod
+### Örnek Kod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-update_font_from_client_side-1.jsp" >}}
 
-##  İstemci Tarafından Yorum Ekle/Kaldır
+## İstemci Tarafından Yorumları Ekle/Kaldır
 
-Aspose.Cells GridWeb artık istemci tarafından Yorum eklemeyi ve kaldırmayı destekliyor. Bunun için API "eklemeler" ve "silmeler" fonksiyonlarını sağlar. Aşağıdaki kod parçacığı, GridWeb'de istemci tarafından yorumların eklenmesini ve kaldırılmasını gösterir.
+Aspose.Cells GridWeb artık istemci tarafından Yorum eklemeyi ve kaldırmayı destekler. Bu amaçla, API "addcomments" ve "delcomments" işlevlerini sağlar. Aşağıdaki kod parçacığı, istemci tarafından GridWeb'de yorum eklemeyi ve kaldırmayı göstermektedir.
 
-###  Basit kod
+### Örnek Kod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-add_remove_comments_from_client_side.jsp" >}}
 
-##  Çalışma Sayfası Eklemek/Kaldırmak için düğmeleri göster
+## Çalışsayı Ekle/Kaldır Düğmelerini Göster
 
- Aspose.Cells GridWeb artık araç çubuğundaki düğmeleri kullanarak sayfa eklemeyi ve kaldırmayı destekliyor. Düğmelerin ön uçta görünmesi için ayarlamanız gerekir.**GridWeb1.ShowAddButton** *doğruya**. Aşağıdaki kod parçacığı, GridWeb araç çubuğuna Ekle/Kaldır düğmelerinin eklenmesini gösterir.
+Aspose.Cells GridWeb artık araç çubuğundaki düğmeleri kullanarak sayfa eklemeyi ve kaldırmayı destekler. Ön tarafta düğmelerin görünmesi için **GridWeb1.ShowAddButton**'ı **true** olarak ayarlamanız gerekir. Aşağıdaki kod parçacığı, GridWeb araç çubuğuna Ekle/Kaldır düğmeleri eklemeyi göstermektedir.
 
-###  Basit kod
+### Örnek Kod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "GridWeb-show_add_remove_worksheet_buttons.java" >}}

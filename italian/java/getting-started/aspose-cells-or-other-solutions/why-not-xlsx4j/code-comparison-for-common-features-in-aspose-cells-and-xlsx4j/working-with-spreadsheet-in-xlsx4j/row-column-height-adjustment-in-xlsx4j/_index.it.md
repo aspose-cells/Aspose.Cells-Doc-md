@@ -1,23 +1,24 @@
-﻿---
-title: Regolazione altezza colonna riga in xlsx4j
+---
+title: Regolazione altezza riga colonna in xlsx4j
 type: docs
 weight: 50
 url: /it/java/row-column-height-adjustment-in-xlsx4j/
 ---
-## **Aspose.Cells - Regolazione Altezza Colonna Riga**
-È possibile impostare l'altezza di una singola riga chiamando il metodo setRowHeight della raccolta Cells. Il metodo setRowHeight accetta i seguenti parametri:
 
-- **Indice di riga**, l'indice della riga di cui stai modificando l'altezza.
+## **Aspose.Cells - Regolazione altezza riga colonna**
+È possibile impostare l'altezza di una singola riga chiamando il metodo setRowHeight della collezione Cells. Il metodo setRowHeight prende i seguenti parametri:
+
+- **Indice di riga**, l'indice della riga a cui si sta modificando l'altezza.
 - **Altezza della riga**, l'altezza della riga da applicare alla riga.
 
-Impostare la larghezza di una colonna chiamando il metodo setColumnWidth della raccolta Cells. Il metodo setColumnWidth accetta i seguenti parametri:
+Imposta la larghezza di una colonna chiamando il metodo setColumnWidth della collezione Cells. Il metodo setColumnWidth richiede i seguenti parametri:
 
-- **Indice di colonna**, l'indice della colonna di cui stai modificando la larghezza.
-- **Larghezza della colonna**, la larghezza della colonna desiderata.
+- **Indice di colonna**, l'indice della colonna a cui si sta modificando la larghezza.
+- **Larghezza di colonna**, la larghezza desiderata della colonna.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cells.setRowHeight(1, 40);
 cells.setColumnWidth(1, 17.5);
 
 {{< /highlight >}}
-## **xlsx4j - Regolazione altezza colonna riga**
-Row.setHt viene utilizzato per impostare l'altezza personalizzata per le righe utilizzando xlsx4j. setCustomHeight deve essere impostato su TRUE.
+## **xlsx4j - Regolazione dell'Altezza delle Righe e delle Colonne**
+Row.setHt viene utilizzato per impostare l'altezza personalizzata delle righe utilizzando xlsx4j. setCustomHeight deve essere impostato su TRUE.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SpreadsheetMLPackage pkg = SpreadsheetMLPackage.createPackage();
 
@@ -89,12 +90,12 @@ sheetData.getRow().add(row);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Regolazione dell'altezza della riga e della larghezza della colonna](/java/adjusting-row-height-and-volumn-width).
+Per ulteriori dettagli, visita [Regolazione dell'Altezza delle Righe e delle Colonne](/java/adjusting-row-height-and-volumn-width).
 
 {{% /alert %}}

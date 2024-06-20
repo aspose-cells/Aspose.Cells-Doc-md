@@ -1,14 +1,15 @@
-﻿---
-title: Elektronik Tabloları HTML'e Dönüştürürken WordArt İçin Degrade Dolgu İşleyin
+---
+title: Hücre Dizelerini HTML ye Dönüştürürken WordArt için Gradient Doldurmayı Oluşturma
 type: docs
 weight: 90
 url: /tr/net/render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to/
 ---
-## **Olası Kullanım Senaryoları**
-Aspose.Cells 17.1'den önce, Aspose.Cells, Excel dosyası HTML biçimine dönüştürüldüğünde word art'ın degrade dolgusunu oluşturmuyordu. Aspose.Cells 17.1 sürümünden bu yana word art gradyan dolgusu desteklenmektedir. Aşağıdaki ekran görüntüsü, Aspose.Cells 17.1 ve eski sürümü kullanarak excel dosyasını dönüştürerek degrade dolgu üzerindeki etkiyi karşılaştırır.
 
-![yapılacaklar:resim_alternatif_metin](render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to-html_1.png)
-## **E-tabloları HTML'e dönüştürürken WordArt için Gradient Fill oluşturun**
- Aşağıdaki örnek kod,[kaynak excel dosyası](22774111.xlsx) içine[çıktı HTML formatı](22774109.zip). Kaynak excel dosyası, yukarıdaki ekran görüntüsünde gösterildiği gibi gradyan dolgulu bir word art nesnesi içerir.
-## **Basit kod**
+## **Olası Kullanım Senaryoları**
+Aspose.Cells 17.1'den önce, Aspose.Cells Excel dosyası HTML formatına dönüştürüldüğünde word art'ın gradient doldurudğunu oluşturmazdı. Aspose.Cells 17.1'in piyasaya sürülmesinden bu yana, word art gradient doldurma desteklenmektedir. Aşağıdaki ekran görüntüsü, excel dosyasının Aspose.Cells 17.1 ile ve eski sürüm ile dönüştürülmesinin gradient doldurmadaki etkisini karşılaştırıyor.
+
+![todo:image_alt_text](render-gradient-fill-for-the-wordart-while-converting-spreadsheets-to-html_1.png)
+## **Hücre Dizelerini HTML'ye dönüştürürken word art için gradient doldurmayı oluştur.**
+Aşağıdaki örnek kod, [kaynak excel dosyasını](22774111.xlsx) [çıktı HTML formatına](22774109.zip) dönüştürür. Kaynak excel dosyası yukarıdaki ekran görüntüsünde gösterilen gibi gradient doldurulu word art nesnelerini içerir.
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithHTMLFormat-RenderGradientFillToHTML.cs" >}}

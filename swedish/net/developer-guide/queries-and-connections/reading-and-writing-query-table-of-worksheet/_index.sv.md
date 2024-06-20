@@ -1,36 +1,37 @@
-﻿---
-title: Läsa och skriva frågetabell med arbetsblad
+---
+title: Läsning och skrivning av frågetabell i arbetsblad
 type: docs
 weight: 40
 url: /sv/net/reading-and-writing-query-table-of-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells tillhandahåller Worksheet.QueryTables-samlingen som returnerar objektet av typen QueryTable efter index. Den har följande två egenskaper
+Aspose.Cells tillhandahåller Worksheet.QueryTables-samlingen som returnerar objektet av typ QueryTable efter index. Den har följande två egenskaper
 
 - QueryTable.AdjustColumnWidth
 - QueryTable.PreserveFormatting
 
-Dessa är båda booleska värden. Du kan se dem i Microsoft Excel via Data > Anslutningar > Egenskaper.
+Dessa är båda Boolean-värden. Du kan se dem i Microsoft Excel via Data > Connections > Properties.
 
 {{% /alert %}}
 
-## Läsa och skriva frågetabell med arbetsblad
+## Läsning och skrivning av frågetabell i arbetsblad
 
-Följande exempelkod läser den första frågetabellen i det första kalkylbladet och skriver sedan ut båda QueryTable-egenskaperna. Sedan ställs QueryTable.PreserveFormatting till sant.
+Följande kodexempel läser den första frågetabellen på det första arbetsbladet och skriver sedan ut båda frågetabellegenskaperna. Sedan ställer den QueryTable.PreserveFormatting till true.
 
-Du kan ladda ner källfilen för Excel som används i den här koden och Excel-utdatafilen som genereras av koden från följande länkar.
+Du kan ladda ned den angivna källfilen Excel som används i koden och den genererade utdatafilen Excel med hjälp av följande länkar.
 
-- [Excel-källfil](5115533.xlsx)
-- [Utdata Excel-fil](5115537.xlsx)
+- [Käll-Excel-fil](5115533.xlsx)
+- [Utdata-Excel-fil](5115537.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.cs" >}}
 
-### Konsolutgång
+### Konsolutfall
 
-Här är konsolutgången för ovanstående exempelkod
+Här är konsoloutputen av ovanstående kodexempel
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Adjust Column Width: True
 
@@ -38,8 +39,8 @@ Preserve Formatting: False
 
 {{< /highlight >}}
 
-## Hämta resultatintervall för frågetabell
+## Hämta frågetabellens resultatintervall
 
- Aspose.Cells ger möjlighet att läsa adressen, dvs resultatintervall av celler för en frågetabell. Följande kod demonstrerar denna funktion genom att läsa adressen till resultatintervallet för en frågetabell. Exempelfil kan laddas ner[här](72417290.xlsx).
+Aspose.Cells ger möjlighet att läsa adressen dvs resultatintervallen av celler för en frågetabell. Följande kod visar denna funktion genom att läsa adressen för resultatintervallen för en frågetabell. Exempelfilen kan laddas ner [här](72417290.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}

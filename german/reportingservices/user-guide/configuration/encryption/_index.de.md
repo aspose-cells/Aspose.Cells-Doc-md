@@ -1,14 +1,15 @@
-﻿---
+---
 title: Verschlüsselung
 type: docs
 weight: 40
 url: /de/reportingservices/encryption/
 ---
-Aspose.Cells for Reporting Services unterstützt drei Arten der Verschlüsselung: XOR, WEAK ENCRYPTION und Microsoft Strong Cryptographic Provider. Siehe die Informationen zur Verschlüsselungskonfiguration in der**Aspose.Cells.ReportingServices.xml** Datei.
 
- Wenn der Wert von Encryption ist**aus**, Aspose.Cells for Reporting Services schaltet die Verschlüsselungsfunktionen aus.
+Aspose.Cells for Reporting Services unterstützt drei Arten von Verschlüsselung: XOR, WEAK ENCRYPTION und Microsoft Strong Cryptographic Provider. Sehen Sie die Verschlüsselungskonfigurationsinformationen in der **Aspose.Cells.ReportingServices.xml**-Datei.
 
-{{< highlight "java" >}}
+Wenn der Wert von Encryption auf **aus** steht, schaltet Aspose.Cells for Reporting Services die Verschlüsselungsfunktionen aus.
+
+{{< highlight java >}}
 
    < Encryption value="off">
 
@@ -26,9 +27,9 @@ Aspose.Cells for Reporting Services unterstützt drei Arten der Verschlüsselung
 
 {{< /highlight >}}
 
- Wenn der Wert von Encryption ist**an**, Aspose.Cells for Reporting Services schaltet die Verschlüsselung ein.
+Wenn der Wert von Encryption auf **an** steht, schaltet Aspose.Cells for Reporting Services die Verschlüsselung ein.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
@@ -36,12 +37,12 @@ Aspose.Cells for Reporting Services unterstützt drei Arten der Verschlüsselung
 
 Es gibt vier Parameter im Verschlüsselungsabschnitt:
 
-- **Berichtsname**: verweist auf einen Bericht, der verschlüsselt werden muss. Wenn der Parameter leer gelassen wird, verwenden alle Berichte dieselbe Verschlüsselungsmethode.
-- **Passwort**: Legt das Passwort fest. Darf nicht leer sein.
-- **Verschlüsselungstyp**: legt einen Verschlüsselungstyp fest. Darf nicht leer sein.
-- **Schlüssellänge**: Legt die Schlüssellänge fest. Darf nicht leer sein.
+- **ReportName**: verweist auf einen Bericht, der Verschlüsselung benötigt. Wenn der Parameter leer gelassen wird, verwenden alle Berichte die gleiche Verschlüsselungsmethode.
+- **Password**: setzt das Passwort. Darf nicht leer sein.
+- **EncryptionType**: setzt einen Verschlüsselungstyp. Darf nicht leer sein.
+- **KeyLength**: setzt die Schlüssellänge. Darf nicht leer sein.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 

@@ -1,52 +1,53 @@
-﻿---
+---
 title: データの追加と取得
 type: docs
 weight: 20
 url: /ja/java/add-and-retrieve-data/
 ---
+
 {{% alert color="primary" %}} 
 
-の[ワークシートの Cells へのアクセス](/cells/ja/java/accessing-cells-of-a-worksheet/)では、ワークシート内のセルにアクセスするための基本的な方法について説明しました。この記事では、これらのアプローチの 1 つを使用して、さまざまな種類のデータをセルに追加します。
+[ワークシートのセルへのアクセス](/cells/ja/java/accessing-cells-of-a-worksheet/)では、ワークシートのセルに異なるタイプのデータを追加するための基本的なアプローチについて説明しました。
 
 {{% /alert %}} 
-## **Cells にデータを追加する**
-Aspose.Cells はクラスを提供し、[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)、Microsoft Excel ファイルを表します。の[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)クラスには[ワークシート コレクション](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)これにより、Excel ファイル内の各ワークシートにアクセスできます。ワークシートは、[ワークシート](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラス。の[ワークシート](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラスは[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクション。の各項目[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションはのオブジェクトを表します[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラス。
+## **セルへのデータの追加**
+Aspose.Cellsは、Microsoft Excelファイルを表す[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)クラスを提供しています。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) クラスには、Excelファイル内の各ワークシートにアクセスできる[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) が含まれています。ワークシートは[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) クラスで表されます。 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) クラスは、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションを提供します。[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクション内の各アイテムは[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) クラスのオブジェクトを表します。
 
-Aspose.Cells を使用すると、開発者は、[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラス'[setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)財産。を使用することにより、[setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)プロパティを使用すると、ブール、文字列、倍精度、整数、日付/時刻などの値をセルに追加できます。
+Aspose.Cellsを使用すると、[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) クラスの[setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) プロパティを呼び出すことで、ワークシート内のセルにデータを追加できます。[setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) プロパティを使用することで、ブール値、文字列、倍精度浮動小数点数、整数、日付/時間などの値をセルに追加することができます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingDataToCells-AddingDataToCells.java" >}}
 ### **効率の向上**
 {{% alert color="primary" %}} 
 
-を使用する場合[setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)プロパティを使用して大量のデータをワークシートに追加するには、最初に行ごと、次に列ごとにセルに値を追加する必要があります。このアプローチにより、アプリケーションの効率が大幅に向上します。
+[setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) プロパティを使用してワークシートに大量のデータを追加する場合、まず行ごとにそのセルに値を追加し、次に列ごとに値を追加する必要があります。このアプローチにより、アプリケーションの効率が大幅に向上します。
 
 {{% /alert %}} 
 
-ワークシートで作業している間、ユーザーはセルにさまざまな種類のデータを追加できます。これらのデータ項目には、ブール、整数、浮動小数点、テキスト、または日付/時刻の値が含まれる場合があります。 Aspose.Cells を使用して、データ型に従ってセルから適切な値を取得できます。
-## **Cells からのデータの取得**
-Aspose.Cells はクラスを提供し、[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)これは Excel ファイルを表します。[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)クラスには[ワークシート コレクション](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)これにより、Excel ファイル内の各ワークシートにアクセスできます。ワークシートは、[ワークシート](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラス。の[ワークシート](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラスは[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクション。の各項目[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションはのオブジェクトを表します[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラス。
+ワークシートで作業中、ユーザーはセルにさまざまな種類のデータを追加することができます。これらのデータ項目には、ブール値、整数、浮動小数点、テキスト、または日付/時刻の値が含まれる場合があります。Aspose.Cellsを使用して、データ型に応じてセルから適切な値を取得できます。
+## **セルからデータを取得**
+Aspose.Cellsには、Excelファイルを表す[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)クラスがあります。 [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) クラスには、Excelファイル内の各ワークシートへのアクセスを可能にする[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)が含まれます。ワークシートは[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) クラスによって表されます。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) クラスは[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)のコレクションを提供します。[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)のコレクション内の各アイテムは、[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) クラスのオブジェクトを表します。
 
-の[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラスには、開発者がデータ型に従ってセルから値を取得できるいくつかのプロパティが用意されています。これらのプロパティは次のとおりです。
+[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) クラスには、セルから値を取得するためのいくつかのプロパティがあります。これらのプロパティには次のものがあります:
 
-- [文字列値](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue)、セルの文字列値。
-- [DoubleValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#DoubleValue)、セルの double 値を返します。
-- [ブール値](https://reference.aspose.com/cells/java/com.aspose.cells/cell#BoolValue)、セルのブール値。
-- [日時値](https://reference.aspose.com/cells/java/com.aspose.cells/cell#DateTimeValue)、セルの日付/時刻値。
-- [浮動小数点値](https://reference.aspose.com/cells/java/com.aspose.cells/cell#FloatValue)、セルの float 値。
+- [StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue)、セルの文字列値。
+- [DoubleValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#DoubleValue)、セルの倍精度浮動小数点数値を返します。
+- [BoolValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#BoolValue)、セルのブール値。
+- [DateTimeValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#DateTimeValue)、セルの日付/時刻値。
+- [FloatValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#FloatValue)、セルの浮動小数点数値。
 - [IntValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#IntValue)、セルの整数値。
 
-さらに、セルに含まれるデータの種類は、[タイプ](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type)のプロパティ[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラス。実際、[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラス'[タイプ](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type)プロパティはに基づいています[CellValueType](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueType)定義済みの値が以下にリストされている列挙型:
+また、セルに含まれるデータの種類は、[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) クラスの[Type](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type)プロパティを使用してチェックすることもできます。実際、[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) クラスの[Type](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type)プロパティは、[CellValueType](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueType)列挙型に基づいており、その事前定義値は以下のとおりです:
 
-|**Cell 値の種類**|**説明**|
-|:- |:- |
-|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)|セル値がブールであることを指定します。|
-|[は_日にち_時間](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|セル値が日付/時刻であることを指定します。|
+|**セル値の種類**|**説明**|
+| :- | :- |
+|[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)|セル値がブール値であることを示します。|
+|[IS_DATE_TIME](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|セル値が日付/時刻であることを示します。|
 |[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_ERROR)|セルにエラー値が含まれていることを表します|
-|[無効です](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NULL)|空白のセルを表します。|
-|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NUMERIC)|セル値が数値であることを指定します。|
-|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_STRING)|セル値が文字列であることを指定します。|
-|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_UNKNOWN)|セル値が不明であることを指定します。|
-上記の事前定義されたセル値タイプを使用して、各セルに存在するデータのタイプと比較することもできます。
+|[IS_NULL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NULL)|空白のセルを表します。
+|[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NUMERIC)|セル値が数値であることを示します。
+|[IS_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_STRING)|セル値が文字列であることを示します。
+|[IS_UNKNOWN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_UNKNOWN)|セル値が不明であることを示します。
+さらに、上記の事前定義セル値タイプを使用して、各セルに含まれるデータのタイプと比較することもできます。
 
 
 

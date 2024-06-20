@@ -1,30 +1,31 @@
-﻿---
-title: احصل على تطبيق التحقق من الصحة على Cell
+---
+title: الحصول على التحقق المطبق على خلية ما
 type: docs
 weight: 80
 url: /ar/java/get-validation-applied-on-a-cell/
-description: توضح هذه المقالة كيفية تطبيق التحقق من الصحة على Cell مع Java
-keywords: apply cell validation in excel with java, apply validation on a cell in excel with java, apply validation in excel with java, cell validation in excel with java, java apply cell validation in excel, java apply validation on a cell in excel, java cell validation in excel, java cell validation
+description: يوضح هذا المقال كيفية تطبيق التحقق على خلية بستخدام جافا
+keywords: تطبيق التحقق من الخلية في Excel باستخدام جافا، تطبيق التحقق على خلية ما في Excel باستخدام جافا، تطبيق التحقق في Excel باستخدام جافا، التحقق من الخلية في Excel باستخدام جافا، جافا تطبيق التحقق من الخلية في Excel، جافا تطبيق التحقق على خلية في Excel، جافا التحقق من الخلية في Excel، جافا التحقق من الخلية
 ---
+
 {{% alert color="primary" %}}
 
- يمكنك استخدام Aspose.Cells API لتطبيق التحقق على أي خلية. يوفر Aspose.Cells ملف[**Cell.getValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation() ) طريقة لهذا الغرض. إذا لم يكن هناك تحقق في الخلية ، فإنها ترجع فارغة. وبالمثل ، يمكنك استخدام ملف[**Worksheet.getValidations (). getValidationInCell (الصف int ، العمود int)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)) للحصول على التحقق المطبق على خلية من خلال توفير فهارس الصفوف والعمود.
+يمكنك استخدام واجهة برمجة تطبيقات Aspose.Cells للحصول على التحقق المطبق على أي خلية. توفر Aspose.Cells الطريقة [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) لهذا الغرض. إذا لم يكن هناك أي تحقق على الخلية، فإنها تُعيد قيمة فارغة. بالمثل، يمكنك استخدام الطريقة [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)) للحصول على التحقق المطبق على خلية عن طريق توفير مؤشرات صف وعمود الخلية.
 
 {{% /alert %}}
 
- تُظهر اللقطة التالية نموذج ملف Excel Microsoft المستخدم في نموذج التعليمات البرمجية أدناه. Cell**C1** لديها**التحقق العشري** تم تطبيقها ويمكن أن تأخذ القيم فقط**بين 10 و 20**.
+تظهر اللقطة الفوتوغرافية التالية الملف النموذجي لمايكروسوفت إكسل المستخدم في الشيفرة البرمجية النموذجية أدناه. الخلية **C1** لديها **تحقق عشري** مطبق ويمكنها فقط قبول القيم **بين 10 و 20**.
 
-**خلية مع التحقق من الصحة**
+**خلية ذات تحقق**
 
-![ما يجب القيام به: image_بديل_نص](get-validation-applied-on-a-cell_1.png)
+![todo:image_alt_text](get-validation-applied-on-a-cell_1.png)
 
-يحصل نموذج التعليمات البرمجية أدناه على التحقق المطبق على C1 ويقرأ خصائصه المختلفة.
+تحصل الشيفرة النموذجية أدناه على التحقق المطبق على C1 وتقرأ خصائصها المتنوعة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetValidationAppliedonCell-GetValidationAppliedonCell.java" >}}
 
-هنا هو إخراج وحدة التحكم من نموذج التعليمات البرمجية المنفذة مع نموذج الملف الموضح في اللقطة أعلاه.
+هنا ناتج الوحدة من الشيفرة النموذجية تم تنفيذه مع الملف النموذجي الموضح في اللقطة الفوتوغرافية أعلاه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Reading Properties of Validation
 
@@ -44,4 +45,4 @@ Ignore blank: true
 
 ## مقالات ذات صلة
 
-- [تأكيد صحة البيانات](/cells/ar/java/data-validation/)
+- [التحقق من البيانات](/cells/ar/java/data-validation/)

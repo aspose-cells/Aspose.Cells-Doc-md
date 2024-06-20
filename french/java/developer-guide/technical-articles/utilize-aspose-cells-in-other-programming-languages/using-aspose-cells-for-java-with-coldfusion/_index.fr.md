@@ -1,42 +1,43 @@
-﻿---
-title: Utilisation de Aspose.Cells for Java avec ColdFusion
+---
+title: Utiliser Aspose.Cells for Java avec ColdFusion
 type: docs
 weight: 40
 url: /fr/java/using-aspose-cells-for-java-with-coldfusion/
 ---
+
 {{% alert color="primary" %}}
 
 Cet article donne les informations de base et le segment de code dont les développeurs ColdFusion ont besoin pour utiliser Aspose.Cells for Java dans leur application ColdFusion.
 
-Cet article explique comment créer une page Web simple à l'aide de ColdFusion et utiliser Aspose.Cells for Java pour générer un fichier Excel simple.
+Cet article montre comment créer une simple page web en utilisant ColdFusion et utiliser Aspose.Cells for Java pour générer un simple fichier Excel.
 
 {{% /alert %}}
 
-## **Aspose.Cells : Le vrai produit**
+## **Aspose.Cells : Le véritable produit**
 
-Avec Aspose.Cells, les développeurs peuvent exporter des données, formater des feuilles de calcul dans les moindres détails et à tous les niveaux, importer des images, importer des graphiques, créer des graphiques, manipuler des graphiques, diffuser des données Excel Microsoft, enregistrer dans différents formats, notamment XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) intégré) et bien d'autres.
+Avec Aspose.Cells, les développeurs peuvent exporter des données, formater des feuilles de calcul dans les moindres détails et à chaque niveau, importer des images, importer des graphiques, créer des graphiques, manipuler des graphiques, diffuser des données Microsoft Excel, enregistrer dans divers formats, y compris XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML (intégré avec [Aspose.Pdf](https://products.aspose.com/pdf/java/)) et bien plus encore.
 
- Pour en savoir plus sur les informations produit, les fonctionnalités et pour un guide du programmeur, reportez-vous à la documentation Aspose.Cells et en ligne en vedette[démos](https://github.com/aspose-cells/Aspose.Cells-for-Java) . Tu peux[Télécharger](https://downloads.aspose.com/cells/java) et évaluez-le gratuitement.
+Pour plus d'informations sur le produit, les fonctionnalités et pour un guide du programmeur, veuillez vous référer à la documentation et aux démonstrations en ligne de Aspose.Cells ([demos](https://github.com/aspose-cells/Aspose.Cells-for-Java)). Vous pouvez le [télécharger](https://downloads.aspose.com/cells/java) et l'évaluer gratuitement.
 
-### **Conditions préalables**
+### **Prérequis**
 
-Pour utiliser Aspose.Cells for Java dans les applications ColdFusion, copiez le fichier Aspose.Cells.jar dans le dossier {InstallationFolder\\}\wwwroot\WEB-INF\lib.
+Pour utiliser Aspose.Cells for Java dans des applications ColdFusion, copiez le fichier Aspose.Cells.jar dans le dossier {DossierD'Installation\\}\wwwroot\WEB-INF\lib.
 
-N'oubliez pas de redémarrer le serveur d'applications ColdFusion après avoir placé de nouveaux fichiers JAR dans le dossier lib.
+N'oubliez pas de redémarrer le serveur d'application ColdFusion après avoir ajouté de nouveaux JAR dans le dossier lib.
 
-### **Utilisation de Aspose.Cells for Java et ColdFusion pour créer un fichier Excel**
+### **Utiliser Aspose.Cells for Java & ColdFusion pour créer un fichier Excel**
 
 Ci-dessous, nous créons une application simple qui génère un fichier Excel Microsoft vide, insère du contenu et l'enregistre en tant que fichier XLS.
 
 Voici le code réel (ColdFusion & Aspose.Cells for Java). Après l'exécution du code, un fichier Excel, output.xls, est généré.
 
-**Sortie générée.xls**
+**output.xls généré**
 
-![tâche : image_autre_texte](using-aspose-cells-for-java-with-coldfusion_1.png)
+![todo:image_alt_text](using-aspose-cells-for-java-with-coldfusion_1.png)
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <html>
 
@@ -72,8 +73,8 @@ Voici le code réel (ColdFusion & Aspose.Cells for Java). Après l'exécution du
 
 Cet article explique comment utiliser Aspose.Cells for Java avec ColdFusion.
 
-Aspose.Cells offre une grande flexibilité et offre une vitesse, une efficacité et une fiabilité exceptionnelles. Aspose.Cells a bénéficié d'années de recherche, de conception et de réglage minutieux.
+Aspose.Cells offre une grande flexibilité et une vitesse, une efficacité et une fiabilité exceptionnelles. Aspose.Cells a bénéficié de nombreuses années de recherche, de conception et d'ajustements minutieux.
 
- Nous accueillons les questions, commentaires et suggestions dans le[Aspose.CellsForum](https://forum.aspose.com/c/cells/9).
+Nous accueillons les questions, les commentaires et les suggestions sur le [Forum Aspose.Cells](https://forum.aspose.com/c/cells/9).
 
 {{% /alert %}}

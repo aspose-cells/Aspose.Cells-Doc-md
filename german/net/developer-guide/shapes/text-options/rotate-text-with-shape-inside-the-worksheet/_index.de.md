@@ -1,18 +1,19 @@
-﻿---
-title: Drehen Sie Text mit Form innerhalb des Arbeitsblatts
+---
+title: Text mit Shape innerhalb des Arbeitsblatts drehen
 type: docs
 weight: 1300
 url: /de/net/rotate-text-with-shape-inside-the-worksheet/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Mit Microsoft Excel können Sie Text in jede beliebige Form einfügen. Wenn Sie eine Form mit dem sehr alten Microsoft Excel 2003 hinzufügen, dreht sich der Text nicht mit der Form. Wenn Sie jedoch eine Form mit neueren Versionen von Microsoft Excel hinzufügen, z. B. 2007, 2010, 2013 oder 2016 usw., dreht sich der Text mit der Form. Sie können steuern, ob sich der Text mit der Form drehen soll oder nicht[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape) Eigentum. Der Standardwert davon ist**wahr**was bedeutet, dass sich der Text mit der Form dreht, aber wenn Sie ihn so einstellen**FALSCH**, dann dreht sich der Text nicht mit der Form.
+## **Mögliche Verwendungsszenarien**
 
-## **Drehen Sie Text mit Form innerhalb des Arbeitsblatts**
+Sie können Text in jede Form innerhalb von Microsoft Excel einfügen. Wenn Sie eine Form mithilfe des sehr alten Microsoft Excel 2003 hinzufügen, wird der Text nicht mit der Form gedreht. Wenn Sie jedoch eine Form mit neueren Versionen von Microsoft Excel, z. B. 2007, 2010, 2013 oder 2016, usw., hinzufügen, wird der Text mit der Form gedreht. Sie können steuern, ob der Text mit der Form gedreht werden soll oder nicht, indem Sie die Eigenschaft [**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape) verwenden. Der Standardwert dafür ist **true**, was bedeutet, dass der Text mit der Form gedreht wird. Wenn Sie ihn jedoch auf **false** setzen, wird der Text nicht mit der Form gedreht.
 
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](64716896.xlsx) das eine Dreiecksform hat und dessen Text sich mit der Form dreht. Wenn Sie die Beispiel-Excel-Datei in Microsoft Excel öffnen und die Dreiecksform drehen, dreht sich auch der Text mit. Der Code setzt dann die[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape) Eigentum als**FALSCH** und speichert es als[Excel-Datei ausgeben](64716897.xlsx). Wenn Sie jetzt die Excel-Ausgabedatei in Microsoft Excel öffnen und die Dreiecksform drehen, dreht sich der Text nicht mit. Als Referenz sehen Sie sich bitte den folgenden Screenshot an, der die Auswirkung des Codes auf die Beispiel-Excel-Datei zeigt.
+## **Text mit Form im Arbeitsblatt drehen**
 
-![todo: Bild_alt_Text](rotate-text-with-shape-inside-the-worksheet_1.png)
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](64716896.xlsx) mit einer Dreiecksform und deren Text dreht sich mit der Form. Wenn Sie die Beispiel-Excel-Datei in Microsoft Excel öffnen und die Dreiecksform drehen, dreht sich auch der Text mit. Der Code stellt dann die [**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape) Eigenschaft als **false** ein und speichert sie als [Ausgabedatei](64716897.xlsx). Wenn Sie nun die Ausgabedatei in Microsoft Excel öffnen und die Dreiecksform drehen, wird sich der Text nicht mit ihr drehen. Bitte beachten Sie den folgenden Screenshot, der die Wirkung des Codes auf die Beispiel-Excel-Datei zur Veranschaulichung zeigt.
+
+![todo:image_alt_text](rotate-text-with-shape-inside-the-worksheet_1.png)
 
 ## **Beispielcode**
 

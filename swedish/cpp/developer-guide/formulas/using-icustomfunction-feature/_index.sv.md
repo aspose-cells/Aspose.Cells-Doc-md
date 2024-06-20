@@ -1,13 +1,14 @@
 ---
-title: Använder ICustomFunction-funktionen
+title: Använda funktionen ICustomFunction
 type: docs
 weight: 20
 url: /sv/cpp/using-icustomfunction-feature/
 ---
-##  **Föråldrad**
+
+## **Inaktuellt**
 Använd AbstractCalculationEngine istället.
 
-**Denna klass har ersatts av AbstractCalculationEngine i den nya versionen, men funktionen förbättras fortfarande, så håll utkik.**
+**Denna klass har ersatts av AbstractCalculationEngine i den nya versionen, men funktionen förbättras fortfarande, så håll dig uppdaterad.**
 
-**hänvisa till** [Använder AbstractCalculationEngine-funktionen](../using-abstractcalculationengine-feature/)
+**se** [Använda AbstractCalculationEngine-funktionen](../using-abstractcalculationengine-feature/)
 

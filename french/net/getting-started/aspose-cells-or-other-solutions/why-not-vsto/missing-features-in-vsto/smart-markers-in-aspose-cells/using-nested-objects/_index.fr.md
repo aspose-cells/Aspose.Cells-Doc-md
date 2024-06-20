@@ -1,14 +1,15 @@
-﻿---
-title: Utilisation d'objets imbriqués
+---
+title: Utilisation d objets imbriqués
 type: docs
 weight: 50
 url: /fr/net/using-nested-objects/
 ---
-Aspose.Cells prend en charge les objets imbriqués dans les marqueurs intelligents, les objets imbriqués doivent être simples.**Individuel** la classe doit être définie par l'utilisateur pour le code ci-dessous.
 
-Nous utilisons un simple fichier modèle. Consultez la feuille de calcul du concepteur qui contient des marqueurs intelligents imbriqués.
+Aspose.Cells prend en charge les objets imbriqués dans les marqueurs intelligents, les objets imbriqués doivent être simples. La classe **Individuel** doit être définie par l'utilisateur pour le code ci-dessous.
 
-{{< highlight "csharp" >}}
+Nous utilisons un fichier de modèle simple. Consultez la feuille de calcul du concepteur qui contient certains marqueurs intelligents imbriqués.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -62,6 +63,6 @@ designer.Workbook.Save(FileName);
 
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **Télécharger le code source d'exemple**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)

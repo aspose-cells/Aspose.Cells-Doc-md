@@ -1,29 +1,30 @@
-﻿---
-title: Python'de Sayfa Sonu Önizlemesi
+---
+title: Python da Sayfa Aralığı Önizlemesi
 type: docs
 weight: 60
 url: /tr/java/page-break-preview-in-python/
 ---
+
 ## **Aspose.Cells - Hello World**
- Çalışma sayfasını kullanarak sayfa sonu önizlemesini ayarlamak için**Aspose.Cells Java for Python** , sadece çağırmak**PageBreakÖnizleme** modül.
+**Aspose.Cells Java for Python** kullanarak çalışma sayfasını sayfa aralığı önizlemesine ayarlamak için basitçe **PageBreakPreview** modülünü çağırın.
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  workbook = self.Workbook(self.dataDir + "Book1.xls")
 
-# Adding a new worksheet to the Workbook object
+#Adding a new worksheet to the Workbook object
 
 worksheets = workbook.getWorksheets()
 
 worksheet = worksheets.get(0)
 
-# Displaying the worksheet in page break preview
+#Displaying the worksheet in page break preview
 
 worksheet.setPageBreakPreview(True)
 
-# Saving the modified Excel file in default format
+#Saving the modified Excel file in default format
 
 workbook.save(self.dataDir + "output.xls")
 
@@ -33,6 +34,6 @@ print "Page break preview is enabled for sheet 1, please check the output docume
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Sayfa Sonu Önizlemesi (Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Sayfa Aralığı Önizlemesi (Aspose.Cells)**'ı indirin
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

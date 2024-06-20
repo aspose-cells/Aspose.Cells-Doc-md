@@ -1,27 +1,28 @@
-﻿---
-title: Genel API Aspose.Cells 8.9.2'deki değişiklikler
+---
+title: Aspose.Cells 8.9.2 de Kamu API Değişiklikleri
 type: docs
 weight: 320
 url: /tr/net/public-api-changes-in-aspose-cells-8-9-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 8.9.1 sürümünden 8.9.2 sürümüne Aspose.Cells API üzerindeki değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, sürüm 8.9.1'den 8.9.2'ye Aspose.Cells API'sindeki değişiklikleri açıklar ki bu, modül/uygulama geliştiricilerinin ilgisini çekebilir. Yalnızca yeni ve güncellenmiş kamu yöntemleri, eklendi & kaldırılan sınıflar vb. değil, aynı zamanda Aspose.Cells'in arka plandaki davranışındaki herhangi bir değişikliği de içerir.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Lütfen ayrıca kontrol edin[Genel API Aspose.Cells for .NET 8.9.1'de yapılan değişiklikler](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1)
+Ayrıca [Aspose.Cells for .NET 8.9.1'de Tanıtılan Genel API Değişikliklerine](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1) de bakınız.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **TextOptions Sınıfı ve FontSettings.TextOptions Özelliği Eklendi**
-Aspose.Cells for .NET, bir Şeklin metinsel bölümlerinin görünümünü kontrol etmek için TextOptions sınıfını FontSettings.TextOptions özelliğiyle birlikte kullanıma sundu.
+## **Eklenen API'lar**
+### **TextOptions Sınıfı & FontSettings.TextOptions Özelliği eklendi**
+Aspose.Cells for .NET, Şekil'in metinsel kısımlarının görünümünü kontrol etmek için FontSettings.TextOptions özelliği ile birlikte TextOptions sınıfını sunmuştur.
 
-İşte FontSettings.TextOptions özelliğinin basit kullanım senaryosu.
+FontSettings.TextOptions özelliğinin basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -43,13 +44,13 @@ var textOptions = shape.TextBody[1].TextOptions;
 
 
 ### **TextOptions.Fill, Outline & Shadow Özellikleri Eklendi**
-Aspose.Cells for .NET 8.9.2, sırasıyla dolgu, gölge ve anahat gibi şeklin metin içeriğinin yönlerini kontrol etmeyi sağlayan TextOptions.Fill, TextOptions.Outline & TextOptions.Shadow özelliklerini ortaya çıkardı.
+Aspose.Cells for .NET 8.9.2, şeklin metin içeriğinin görünümünü kontrol etmek için Fill, Outline ve Shadow özelliklerini içeren TextOptions.Fill, TextOptions.Outline ve TextOptions.Shadow özelliklerini sunmuştur.
 
-İşte yukarıda belirtilen özelliklerin basit kullanım senaryosu.
+Yukarıdaki özelliklerin basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -88,14 +89,14 @@ textOptions.Outline.SetOneColorGradient(Color.Blue, 0.3, GradientStyleType.Horiz
 {{< /highlight >}}
 
 
-### **Shape.Line Özelliği Eklendi**
-Aspose.Cells for .NET, Shape anahatlarının görünümünü kontrol etmek için LineFormat örneğini döndüren Shape.Line özelliğini kullanıma sundu.
+### **Eklenen Shape.Line Özelliği**
+Aspose.Cells for .NET, Şekil'in dış çizgilerinin görünümünü kontrol etmek için Line özelliğini sunmuştur.
 
 İşte Shape.Line özelliğinin basit kullanım senaryosu.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -120,14 +121,14 @@ line.Weight = 1;
 {{< /highlight >}}
 
 
-### **Shape.Fill özelliği eklendi**
-Aspose.Cells for .NET 8.9.2, şekil alanının farklı yönlerini kontrol etmek için bir FillFormat örneği döndüren Shape.Fill özelliğini ortaya çıkardı.
+### **Eklenen Shape.Fill özelliği**
+Aspose.Cells for .NET 8.9.2, şekil alanının farklı yönlerini kontrol etmek için FillFormat örneğini döndüren Shape.Fill özelliğini sunmuştur.
 
-Shape.Fill özelliğinin basit kullanım senaryosu aşağıdadır.
+İşte Shape.Fill özelliğinin basit kullanım senaryosu.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -150,16 +151,16 @@ var fill = shape.Fill;
 fill.SetOneColorGradient(Color.Red, 0.1, GradientStyleType.Horizontal, 2);
 
 {{< /highlight >}}
-## **Eski API'ler**
-### **Eski ShapeFont Sınıfı**
+## **Eskimiş API'lar**
+### **Eskiye Dair ShapeFont Sınıfı**
 Lütfen bunun yerine TextOptions sınıfını kullanın.
-### **Eski ShapeFormat Sınıfı**
+### **Eskiye Dair ShapeFormat Sınıfı**
 Lütfen doğrudan Shape.Fill ve Shape.Line özelliklerini kullanın.
-### **Eski Shape.Format Özelliği**
+### **Eskiye Dair Shape.Format Özelliği**
 Lütfen doğrudan Shape.Fill ve Shape.Line özelliklerini kullanın.
-### **Eski Shape.LineFormat Özelliği**
+### **Eskiye Dair Shape.LineFormat Özelliği**
 Lütfen bunun yerine Shape.Line özelliğini kullanın.
-### **Eski Shape.FillFormat Özellik**
+### **Eskiye Dair Shape.FillFormat Özelliği**
 Lütfen bunun yerine Shape.Fill özelliğini kullanın.
-### **Eski FontSetting.ShapeFont Özelliği**
+### **Eskiye Dair FontSetting.ShapeFont Özelliği**
 Lütfen bunun yerine FontSetting.TextOptions özelliğini kullanın.

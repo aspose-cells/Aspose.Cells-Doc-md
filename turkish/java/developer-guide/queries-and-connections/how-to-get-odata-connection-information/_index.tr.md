@@ -1,31 +1,36 @@
-﻿---
-title: OData Bağlantı Bilgileri nasıl alınır?
+---
+title: OData Bağlantı Bilgilerini Nasıl Alınır
 type: docs
 weight: 60
 url: /tr/java/how-to-get-odata-connection-information/
 ---
+
 ## **OData Bağlantı Bilgilerini Alın**
 
-Geliştiricilerin OData bilgilerini excel dosyasından çıkarması gereken durumlar olabilir. Aspose.Cells şunları sağlar:[**Workbook.DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup)Excel dosyasında bulunan DataMashup bilgilerini döndüren özellik. Bu bilgiler DataMashup sınıfı tarafından temsil edilir. DataMashup sınıfı, PowerQueryFormulaCollction koleksiyonunu döndüren PowerQueryFormulas özelliğini sağlar. PowerQueryFormulaCollction'dan, PowerQueryFormula ve PowerQueryFormulaItem öğelerine erişebilirsiniz.
+Geliştiricilerin excel dosyasından OData bilgisi çıkarmaları gereken durumlar olabilir. Aspose.Cells, Excel dosyasında bulunan VeriMashup bilgisini döndüren [**Workbook.DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup) özelliğini sağlar. Bu bilgi, DataMashup sınıfı tarafından temsil edilir. DataMashup sınıfı, PowerQueryFormulas özelliğini döndüren PowerQueryFormulaCollction koleksiyonunu sağlar. PowerQueryFormulaCollction'dan, PowerQueryFormula ve PowerQueryFormulaItem'a erişebilirsiniz.
 
-Aşağıdaki kod parçacığı, OData bilgilerini almak için bu sınıfların kullanımını gösterir.
+Aşağıdaki kod parçası, bu sınıfları kullanarak OData bilgisini almayı göstermektedir.
 
-Aşağıdaki kod parçacığında kullanılan Kaynak dosyası, referansınız için eklenmiştir.
+Aşağıdaki kod parçasında kullanılan Kaynak dosyası, referansınız için ekte bulunmaktadır.
 
-[Kaynak dosyası](ODataSample.xlsx)
+[Kaynak Dosyası](ODataSample.xlsx)
 
-### **Basit kod**
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-GetOdataDetails-1.java" >}}
 
-### **Konsol Çıkışı**
+### **Konsol Çıktısı**
 
-Bağlantı Adı: Siparişler
+{{< highlight java >}}
 
-İsim: Kaynak
+Connection Name: Orders
 
-Değer: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
+Name: Source
 
-İsim: Orders_table
+Value: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
 
-Değer: Source{[Name="Orders",Signature="table"]}[Data]
+Name: Orders_table
+
+Value: Source{[Name="Orders",Signature="table"]}[Data]
+
+{{< /highlight >}}

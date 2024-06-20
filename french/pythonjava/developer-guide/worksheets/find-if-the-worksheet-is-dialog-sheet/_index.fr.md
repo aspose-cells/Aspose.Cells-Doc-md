@@ -1,18 +1,23 @@
-﻿---
-title: Rechercher si la feuille de calcul est une feuille de dialogue
+---
+title: Vérifier si la feuille de calcul est une feuille de dialogue
 type: docs
 weight: 70
 url: /fr/python-java/find-if-the-worksheet-is-dialog-sheet/
 ---
+
 ## **Scénarios d'utilisation possibles**
-La feuille de dialogue est un ancien format de la feuille qui contient une boîte de dialogue. Une telle feuille pourrait être insérée par une ancienne version d'Excel Microsoft, par exemple 2003, comme indiqué dans cette capture d'écran. Il peut également être inséré avec VBA dans les versions plus récentes, par exemple Microsoft Excel 2016.
+La feuille de dialogue est un ancien format de feuille qui contient une boîte de dialogue. Une telle feuille pourrait être insérée par une ancienne version de Microsoft Excel, par exemple 2003, comme le montre cette capture d'écran. Elle peut également être insérée avec VBA dans des versions plus récentes, par exemple Microsoft Excel 2016.
 
-![tâche : image_autre_texte](DialogSheet.png)
-## **Rechercher si la feuille de calcul est une feuille de dialogue**
-Aspose.Cells for Python via Java vous permet de vérifier si la feuille de calcul est une feuille de dialogue. Pour cela, il fournit la[Feuille de travail.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)la propriété. Si[Feuille de travail.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)renvoie la valeur d'énumération[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), cela signifie que vous avez affaire à une feuille de dialogue.
+![todo:image_alt_text](DialogSheet.png)
+## **Trouver si la Feuille de calcul est une Feuille de dialogue**
+Aspose.Cells pour Python via Java vous offre la possibilité de vérifier si la feuille de calcul est une feuille de dialogue. Pour ce faire, il fournit la propriété [Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type). Si [Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type) retourne la valeur d'énumération [SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), cela signifie que vous travaillez avec une feuille de dialogue.
 
-L'extrait de code suivant montre comment rechercher une feuille de boîte de dialogue. La sortie de la console générée par le code est donnée ci-dessous pour référence.
+Le code suivant montre comment vérifier une feuille de dialogue. La sortie console générée par le code est donnée ci-dessous à titre de référence.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-FindIfWorksheetIsDialogSheet.py" >}}
 ## **Sortie console**
-La feuille de calcul est une feuille de dialogue.
+{{< highlight java >}}
+
+Worksheet is a Dialog Sheet.
+
+{{< /highlight >}}

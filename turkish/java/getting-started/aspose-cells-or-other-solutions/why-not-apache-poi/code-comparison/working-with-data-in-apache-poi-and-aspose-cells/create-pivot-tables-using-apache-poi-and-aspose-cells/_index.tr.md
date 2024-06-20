@@ -1,19 +1,20 @@
-﻿---
-title: Apache POI ve Aspose.Cells kullanarak Pivot Tablolar oluşturun
+---
+title: Apache POI ve Aspose.Cells Kullanarak Pivot Tabloları Oluştur
 type: docs
 weight: 40
 url: /tr/java/create-pivot-tables-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Pivot Tablo Oluştur**
-Aspose.Cells'i kullanarak bir pivot tablo oluşturmak için:
 
-1. Cell nesnesinin setValue yöntemini kullanarak çalışma sayfası hücrelerine bazı veriler ekleyin. Ayrıca önceden verilerle doldurulmuş bir şablon dosyası da kullanırsınız. Veriler, pivot tablonun veri kaynağı olarak kullanılacaktır.
-1. PivotTableCollection ekleme yöntemini ({{Worksheet }}nesnesi içine alınmış) çağırarak çalışma sayfasına bir pivot tablo ekleyin.
-1. Dizinini geçirerek PivotTableCollection koleksiyonundan yeni PivotTable nesnesine erişin.
+## **Aspose.Cells - Özet Tablo Oluştur**
+Aspose.Cells kullanarak bir pivot tablosu oluşturmak için:
+
+1. Bir Cell nesnesinin setValue metodunu çağırarak bir çalışma sayfasındaki hücrelere bazı veriler ekleyin. Ayrıca, verilerle doldurulmuş bir şablon dosyası da kullanabilirsiniz. Veriler, pivot tablosunun veri kaynağı olarak kullanılacaktır. 
+1. {{Çalışma Sayfası}} nesnesine kapsüllenmiş olan PivotTableCollection add metodunu çağırarak çalışma sayfasına bir pivot tablosu ekleyin.
+1. Yeni oluşturulan PivotTable nesnesine, indeksini ileterek PivotTableCollection koleksiyonundan erişin.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -152,10 +153,10 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - Pivot Tablolar Oluşturun**
+## **Apache POI SS (HSSF + XSSF) - Pivot Tabloları Oluştur**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  XSSFWorkbook wb = new XSSFWorkbook();
 
@@ -187,16 +188,16 @@ pivotTable.addReportFilter(3);
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- Şunun için çalışan örnekleri indirin:**Apache POI ve Aspose.Cells kullanarak Pivot Tablolar oluşturun** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Apache POI ve Aspose.Cells Kullanarak **Pivot Tabloları Oluşturma** için çalışan örnekleri aşağıdaki sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-## **Kaynak Kodunu İndir**
- için kaynak kodunu indirin**Apache POI ve Aspose.Cells kullanarak Pivot Tablolar oluşturun** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+## **Kaynak Kodu İndir**
+Apache POI ve Aspose.Cells Kullanarak **Pivot Tabloları Oluşturma** için kaynak kodu aşağıdaki sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Pivot Tablolar ve Pivot Grafikler Oluşturun](/cells/tr/java/create-pivot-tables-and-pivot-charts/).
+Daha fazla ayrıntı için [Pivot Tabloları ve Pivot Grafikler Oluşturma](/cells/tr/java/create-pivot-tables-and-pivot-charts/) sayfasını ziyaret edin.
 
 {{% /alert %}}

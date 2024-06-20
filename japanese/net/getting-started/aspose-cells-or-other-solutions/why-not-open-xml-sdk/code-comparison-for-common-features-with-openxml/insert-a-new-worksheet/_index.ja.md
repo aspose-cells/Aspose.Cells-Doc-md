@@ -1,11 +1,12 @@
-﻿---
-title: 新しいワークシートを挿入する
+---
+title: 新しいワークシートを挿入
 type: docs
 weight: 70
 url: /ja/net/insert-a-new-worksheet/
 ---
-## **OpenXML エクセル**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -63,7 +64,7 @@ using (SpreadsheetDocument spreadSheet = SpreadsheetDocument.Open(docName, true)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -95,5 +96,5 @@ private static void InsertWorksheet(string docName)
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [ソースフォージ](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Insert%20a%20new%20worksheet%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Insert%20a%20new%20worksheet%20\(Aspose.Cells\)。ジップ）
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Insert%20a%20new%20worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Insert%20a%20new%20worksheet%20\(Aspose.Cells\).zip)

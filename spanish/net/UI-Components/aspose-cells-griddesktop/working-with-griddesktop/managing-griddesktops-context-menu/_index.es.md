@@ -1,27 +1,30 @@
-﻿---
-title: Gestión del menú contextual de GridDesktops
+---
+title: Gestionar Menús Contextuales de GridDesktop
 type: docs
 weight: 40
-url: /es/net/managing-griddesktops-context-menu/
+url: /es/net/aspose-cells-griddesktop/manage-griddesktops-context-menu/
+keywords: GridDesktop, contexto, menú contextual
+description: Este artículo presenta cómo personalizar el menú contextual en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop tiene un menú contextual que tiene todos los comandos de uso común. El control le permite ocultar/mostrar elementos del menú. Además, es posible agregar nuevos elementos de menú con controladores de eventos al menú.
+Aspose.Cells.GridDesktop tiene un menú contextual que cuenta con todos los comandos comúnmente utilizados. El control permite ocultar/mostrar elementos de menú. Además, es posible añadir nuevos elementos de menú con controladores de eventos al menú.
 
 {{% /alert %}} 
 ## **Introducción**
-La clase ContextMenuManager se utiliza para administrar los elementos del menú contextual. El atributo GridDesktop.ContextMenuManager obtiene la instancia del objeto ContextMenuManager. Por ejemplo, el atributo ContextMenuManager.MenuItemAvailable_Copy obtiene o establece un valor que indica si el elemento del menú contextual **Copiar** está disponible o no. Del mismo modo, tenemos todos los atributos correspondientes para diferentes elementos del menú contextual.
+La clase ContextMenuManager se utiliza para gestionar los elementos del menú contextual. El atributo GridDesktop.ContextMenuManager obtiene la instancia del objeto ContextMenuManager. Por ejemplo, el atributo ContextMenuManager.MenuItemAvailable_Copy obtiene o establece un valor que indica si el elemento del menú contextual **Copiar** está disponible o no. De manera similar, tenemos todos los atributos correspondientes para diferentes elementos del menú contextual.
 
-**IMPORTANTE:** De forma predeterminada, todos los elementos del menú contextual están visibles en la lista.
-## **Gestión del menú contextual**
-### **Ocultar elementos del menú contextual**
+**IMPORTANTE:** Por defecto, todos los elementos del menú contextual son visibles en la lista.
+## **Gestionando el Menú Contextual**
+### **Ocultar Elementos del Menú Contextual**
 Para realizar esta tarea, primero echamos un vistazo al menú contextual predeterminado que tiene GridDesktop.
 
-**Menú predeterminado de GridDeskop** 
+**Menú predeterminado de GridDesktop** 
 
-![todo:imagen_alternativa_texto](managing-griddesktops-context-menu_1.png)
+![todo:image_alt_text](managing-griddesktops-context-menu_1.png)
 
-Ahora, oculta algunos elementos del menú usando el siguiente código:
+Ahora, ocultar algunos elementos del menú utilizando el código a continuación:
 
 
 
@@ -33,9 +36,9 @@ Después de ejecutar el código anterior, algunos elementos del menú no serán 
 
 **Algunos elementos del menú están ocultos** 
 
-![todo:imagen_alternativa_texto](managing-griddesktops-context-menu_2.png)
-### **Adición de nuevos elementos de menú**
-Agregue un nuevo elemento de menú contextual a la lista mediante el siguiente fragmento de código.
+![todo:image_alt_text](managing-griddesktops-context-menu_2.png)
+### **Añadiendo nuevos elementos de menú**
+Agregue un nuevo elemento al menú contextual a la lista utilizando el siguiente fragmento de código.
 
 
 
@@ -50,8 +53,8 @@ También especificamos un controlador de eventos para el nuevo comando/opción.
 
 
 
-Después de ejecutar el código anterior, se puede ver un nuevo elemento de menú en el menú contextual. También aparecerá un mensaje cuando se haga clic en la celda.
+Después de ejecutar el código anterior, se podrá ver un nuevo elemento de menú en el menú contextual. También aparecerá un mensaje cuando se haga clic en la celda.
 
-**Se agrega un nuevo elemento de menú a la lista.** 
+**Se añade un nuevo elemento de menú a la lista** 
 
-![todo:imagen_alternativa_texto](managing-griddesktops-context-menu_3.png)
+![todo:image_alt_text](managing-griddesktops-context-menu_3.png)

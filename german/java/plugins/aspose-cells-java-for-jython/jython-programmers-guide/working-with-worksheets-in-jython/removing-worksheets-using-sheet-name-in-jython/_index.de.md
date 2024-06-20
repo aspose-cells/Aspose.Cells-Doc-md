@@ -1,15 +1,16 @@
-﻿---
-title: Entfernen von Arbeitsblättern mit Blattnamen in Jython
+---
+title: Arbeitsblätter unter Verwendung des Blattnamens in Jython entfernen
 type: docs
 weight: 120
 url: /de/java/removing-worksheets-using-sheet-name-in-jython/
 ---
-## **Aspose.Cells – Entfernen von Arbeitsblättern unter Verwendung des Blattnamens**
- Zum Anhängen von Dokumenten mit**Aspose.Cells Java für Jython**. Hier sehen Sie Beispielcode.
+
+## **Aspose.Cells - Arbeitsblätter unter Verwendung des Blattnamens entfernen**
+Zum Anfügen von Dokumenten mit **Aspose.Cells Java für Jython**. Hier sehen Sie Beispielscode.
 
 **Jython-Code**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -55,7 +56,7 @@ if __name__ == '__main__':
     RemovingWorksheetsusingSheetName()
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Dokumente anhängen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Dokumente anfügen (Aspose.Cells)** von einer der unten genannten Plattformen für soziale Codierung herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetName.py)

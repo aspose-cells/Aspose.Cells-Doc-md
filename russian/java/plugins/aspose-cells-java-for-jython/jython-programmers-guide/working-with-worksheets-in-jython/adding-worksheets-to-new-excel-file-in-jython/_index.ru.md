@@ -1,15 +1,16 @@
-﻿---
-title: Добавление рабочих листов в новый файл Excel в Jython
+---
+title: Добавление листов в новый файл Excel в Jython
 type: docs
 weight: 10
 url: /ru/java/adding-worksheets-to-new-excel-file-in-jython/
 ---
-## **Aspose.Cells - Добавление рабочих листов в новый Excel**
- Для добавления документов с помощью**Aspose.Cells Java для Jython**. Здесь вы можете увидеть пример кода.
+
+## **Aspose.Cells - Добавление листов в новый Excel**
+Для добавления документов с помощью **Aspose.Cells Java для Jython**. Здесь вы можете увидеть примерный код.
 
 **Код Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -53,7 +54,7 @@ if __name__ == '__main__':
     AddingWorksheetstoNewExcelFile()
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Добавить документы (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Append Documents (Aspose.Cells)** c любого из упомянутых ниже социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/AddingWorksheetstoNewExcelFile.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/AddingWorksheetstoNewExcelFile.py)

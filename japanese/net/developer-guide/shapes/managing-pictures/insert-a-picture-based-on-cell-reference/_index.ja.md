@@ -1,18 +1,19 @@
-﻿---
-title: Cell 参照に基づいて画像を挿入する
+---
+title: セル参照に基づいて画像を挿入する
 type: docs
 weight: 150
 url: /ja/net/insert-a-picture-based-on-cell-reference/
 ---
+
 {{% alert color="primary" %}}
 
-空白の画像があり、数式バーでセル参照を設定して画像にデータやコンテンツを表示する必要がある場合があります。 Aspose.Cells はこの機能をサポートしています (Microsoft Excel 2010)。
+時々、空の画像があり、Formula Barでセル参照を設定して画像内のデータや内容を表示する必要があります。 Aspose.Cellsはこの機能（Microsoft Excel 2010）をサポートしています。
 
 {{% /alert %}}
 
-## Cell 参照に基づく画像の挿入
+## セル参照に基づいて画像を挿入する
 
-Aspose.Cells は、ワークシート セルの内容を画像の形で表示することをサポートします。表示するデータを含むセルに画像をリンクできます。セルまたはセル範囲はグラフィック オブジェクトにリンクされているため、そのセルまたはセル範囲のデータに加えた変更は、グラフィック オブジェクトに自動的に反映されます。を呼び出して、ワークシートに画像を追加します。[**画像を追加**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpicture/index)の方法[**シェイプコレクション**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)コレクション ([**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)物体）。を使用してセル範囲を指定します。[**方式**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/formula)の属性[**写真**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)物体。
+Aspose.Cellsは、ワークシートのセルの内容を画像形状で表示する機能をサポートしています。指定のセルまたはセル範囲をリンクして、データを表示したい画像に紐付けることができます。セルまたはセル範囲がグラフィックオブジェクトにリンクされているため、そのセルまたはセル範囲のデータを変更すると、自動的にグラフィックオブジェクトにも反映されます。[**AddPicture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpicture/index)メソッドを呼び出してワークシートに画像を追加します。このメソッドは[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection)コレクションの[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)オブジェクトでカプセル化されています。[**Formula**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/formula)属性を使用してセル範囲を指定します。この属性は[**Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)オブジェクトのものです。
 
 ### コード例
 

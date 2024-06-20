@@ -1,16 +1,17 @@
-﻿---
-title: Ruby でページ オプションを設定する
+---
+title: Rubyでのページオプションの設定
 type: docs
 weight: 10
 url: /ja/java/setting-page-options-in-ruby/
 ---
-## **Aspose.Cells - ページ オプションの設定**
+
+## **Aspose.Cells - ページオプションの設定**
 ### **ページの向き**
-を使用してページの向きの設定を適用するには**Aspose.Cells Ruby の場合は Java**、 電話**page_orientation**方法**ページ設定**モジュール。
+**Aspose.Cells Java for Ruby** を使用してページの向き設定を適用するには、**pagesetup** モジュールの **page_orientation** メソッドを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def page_orientation()
 
@@ -51,12 +52,12 @@ url: /ja/java/setting-page-options-in-ruby/
 end   
 
 {{< /highlight >}}
-### **スケーリング係数**
-を使用してスケーリングを適用するには**Aspose.Cells Ruby の場合は Java**、 電話**スケーリング**方法**ページ設定**モジュール。
+### **拡大/縮小率**
+Aspose.Cells Java for Rubyを使用してスケーリングを適用するには、**pagesetup**モジュールの**scaling**メソッドを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def scaling()
 
@@ -96,7 +97,7 @@ end
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ページオプションの設定 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のどちらかのソーシャルコーディングサイトから、**Aspose.Cells**の**ページオプションの設定**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)

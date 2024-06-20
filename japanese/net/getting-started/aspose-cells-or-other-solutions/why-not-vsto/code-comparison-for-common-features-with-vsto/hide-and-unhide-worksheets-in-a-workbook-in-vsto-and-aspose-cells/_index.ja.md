@@ -1,26 +1,27 @@
-﻿---
-title: VSTO および Aspose.Cells でブック内のワークシートを非表示および再表示する
+---
+title: VSTOとAspose.Cellsでワークブック内のワークシートを非表示および表示する
 type: docs
 weight: 140
 url: /ja/net/hide-and-unhide-worksheets-in-a-workbook-in-vsto-and-aspose-cells/
 ---
-この記事では、C# または Visual Basic を使用して VSTO でワークシートを非表示および再表示することと、C# または Visual Basic を使用して Aspose.Cells で同じタスクを実行することを比較します。 Aspose.Cells では、Microsoft Excel がインストールされていなくても作業できます。
 
-ワークシートを非表示にする手順は次のとおりです。
+この記事では、VSTOを使用してワークシートを非表示および表示し、C＃またはVisual Basicを使用し、同じタスクをAspose.Cellsを使用して実行する方法について比較しています。 Aspose.Cellsを使用すると、Microsoft Excelをインストールせずに作業できます。
 
-1. ファイルを開きます。
-1. ワークシートを取得します。
-1. ワークシートを非表示にします。
+ワークシートを非表示にする手順：
+
+1. ファイルを開く。
+1. ワークシートを取得する。
+1. ワークシートを非表示にする。
 1. ファイルを保存します。
-ワークシートを再度表示するには、非表示のシートの表示をオンに切り替えます。
+   ワークシートを再表示するには、非表示になったシートの表示をトグルするだけです。
 
-以下のコード サンプルは、最初にワークシートを非表示にする方法を示しています。最初のサンプルは、C# を使用した Aspose.Cells と比較して、C# を使用した VSTO のプロセスを示しています。
+以下のコードサンプルでは、最初にワークシートを非表示にする方法を示します。最初のサンプルはVSTOを使用し、C＃を使用した場合と、Aspose.Cellsを使用し、再度C＃を使用した場合について比較しています。
 
-コード サンプルの 2 番目のセットは、VSTO または Aspose.Cells でワークシートを再表示するために使用される行を示しています。
+2番目のコードサンプルセットは、VSTOまたはAspose.Cellsでワークシートを非表示にするために使用される行を示します。
 ## **ワークシートを非表示にする**
-以下は、ブック内のワークシートを非表示にする方法を示す VSTO および Aspose.Cells のコード サンプルです。
+以下は、VSTOおよびAspose.Cellsのコードサンプルで、ワークブック内のワークシートを非表示にする方法を示しています。
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -65,7 +66,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -92,10 +93,10 @@ objSheet.IsVisible = false;
 workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **ワークシートの再表示**
-以下は、VSTO と Aspose.Cells のコード サンプルで、ブック内のワークシートを再表示する方法を示しています。
+## **ワークシートの非表示を解除する**
+以下は、VSTOおよびAspose.Cellsのコードサンプルで、ワークブック内のワークシートを非表示から表示する方法を示しています。
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
@@ -103,7 +104,7 @@ workbook.Save("Book1.xls");
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
@@ -111,6 +112,6 @@ objSheet.IsVisible = true;
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Hide.and.Unhide.Worksheets.in.a.Workbook.Aspose.Cells.zip)
-- [ソースフォージ](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\)。ジップ）
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Hide.and.Unhide.Worksheets.in.a.Workbook.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip)

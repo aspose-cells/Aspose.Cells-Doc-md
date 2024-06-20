@@ -1,28 +1,29 @@
-﻿---
-title: Éditeur de feuille de calcul - Travailler avec Cells
+---
+title: Éditeur de feuilles de calcul  Travailler avec les cellules
 type: docs
 weight: 40
 url: /fr/java/spreadsheet-editor-working-with-cells/
 ---
+
 **Table des matières**
 
-- [Sélection d'un Cell](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
- - Rappel de sélection Cell
-- [Supprimer un Cell](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
- - WorksheetView.removeCellShiftUp
- - WorksheetView.removeCellShiftLeft
-- [Effacer un Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- WorksheetView.clearCurrentCellFormatting
- - WorksheetView.clearCurrentCellContents
- - WorksheetView.clearCurrentCell
-### **Sélection d'un Cell**
-Utilisez le pointeur de votre souris pour pointer sur une cellule. Cliquez sur une cellule pour la sélectionner. La cellule sélectionnée est mise en évidence par un rectangle gras.
+- [Sélection d'une cellule](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
+  - Rappel de sélection de cellule
+- [Supprimer une cellule](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
+  - WorksheetView.removeCellShiftUp
+  - WorksheetView.removeCellShiftLeft
+- [Effacer une cellule](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
+  - WorksheetView.clearCurrentCellFormatting
+  - WorksheetView.clearCurrentCellContents
+  - WorksheetView.clearCurrentCell
+### **Sélection d'une cellule**
+Utilisez votre pointeur de souris pour pointer vers une cellule. Cliquez sur une cellule pour la sélectionner. La cellule sélectionnée est mise en évidence par un rectangle en gras.
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
-Lorsque l'utilisateur clique sur une cellule, l'événement est géré par la fonction de rappel JavaScript qui est attachée au composant Primefaces.
-#### **Cell rappel de sélection**
-{{< highlight "java" >}}
+Lorsque l'utilisateur clique sur une cellule, l'événement est traité par une fonction de rappel JavaScript qui est attachée au composant Primefaces.
+#### **Callback de sélection de cellule**
+{{< highlight java >}}
 
                      var columnId = $(this).find('.ui-cell-editor-input input').attr('data-columnid');
 
@@ -91,21 +92,21 @@ Lorsque l'utilisateur clique sur une cellule, l'événement est géré par la fo
                     $this.selectedCell = this;
 
 {{< /highlight >}}
-### **Supprimer un Cell**
-Pour supprimer une cellule :
+### **Supprimer une cellule**
+Pour supprimer une cellule:
 
-1. Cliquez sur une cellule que vous souhaitez supprimer.
-1.  Basculer vers**Onglet Format**.
-1.  Cliquez sur**Supprimer Cell** bouton.
-1.  Choisir**Maj Cells vers le haut** ou alors**Maj Cells Gauche** bouton.
+1. Cliquez sur une cellule que vous voulez supprimer.
+1. Basculez sur l'onglet **Format**.
+1. Cliquez sur le bouton **Supprimer la cellule**.
+1. Choisissez le bouton **Décaler les cellules vers le haut** ou **Décaler les cellules vers la gauche**.
 
-L'éditeur supprimera la cellule sélectionnée. Les cellules adjacentes seront automatiquement décalées horizontalement ou verticalement pour ajuster l'espace.
+L'éditeur supprimera la cellule sélectionnée. Les cellules adjacentes seront automatiquement déplacées soit horizontalement, soit verticalement pour adapter l'espace.
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
- Le**Maj Cells vers le haut** et**Maj Cells Gauche** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
+Les **Décaler les cellules vers le haut** et **Décaler les cellules vers la gauche** sont gérés par le bean backend JSF **WorksheetView**. Le code source des méthodes respectives est le suivant:
 #### **WorksheetView.removeCellShiftUp**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftUp() {
 
@@ -124,7 +125,7 @@ L'éditeur supprimera la cellule sélectionnée. Les cellules adjacentes seront 
 {{< /highlight >}}
 
 #### **WorksheetView.removeCellShiftLeft**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftLeft() {
 
@@ -141,21 +142,21 @@ L'éditeur supprimera la cellule sélectionnée. Les cellules adjacentes seront 
     }
 
 {{< /highlight >}}
-### **Effacer un Cell**
-Pour vider une cellule :
+### **Effacer une cellule**
+Pour effacer une cellule:
 
-1. Cliquez sur une cellule que vous souhaitez effacer.
-1.  Basculer vers**Onglet Format**.
-1.  Cliquez sur**Clair Cell** bouton.
-1.  Choisir**Formats**, **Contenu** ou alors**Tous les deux** option.
+1. Cliquez sur une cellule que vous voulez effacer.
+1. Basculez sur l'onglet **Format**.
+1. Cliquez sur le bouton **Effacer la cellule**.
+1. Choisissez l'option **Formats**, **Contenus** ou **Les deux**.
 
 L'éditeur effacera la cellule sélectionnée.
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
- Le**Formats**, **Contenu** et**Tous les deux** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
+Les **Formats**, **Contenus** et **Les deux** sont gérés par le bean backend JSF **WorksheetView**. Le code source des méthodes respectives est le suivant:
 #### **WorksheetView.clearCurrentCellFormatting**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellFormatting() {
 
@@ -176,7 +177,7 @@ L'éditeur effacera la cellule sélectionnée.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCellContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellContents() {
 
@@ -197,7 +198,7 @@ L'éditeur effacera la cellule sélectionnée.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCell**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCell() {
 

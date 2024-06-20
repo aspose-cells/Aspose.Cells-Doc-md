@@ -1,34 +1,35 @@
 ---
-title: Excel グラフのタイトルを管理する
-description: Aspose.Cells for .NET Excel でグラフと軸のタイトルを追加して書式設定する方法を説明します。このガイドでは、さまざまなタイプのタイトルを設定し、その外観を調整し、より良いデータ表現と明確さのために軸タイトルを変更する方法を説明します。
-keywords: Aspose.Cells for .NET, Chart Titles, Axis Titles, Microsoft Excel, Data Representation, Appearance.
+title: Excelチャートのタイトルを管理する
+description: Microsoft ExcelでAspose.Cells for .NETを使用して、チャートや軸のタイトルを追加および書式設定する方法を学びます。当ガイドでは、タイトルの異なるタイプを設定し、外観を調整し、データ表現とクラリティを向上させるために軸のタイトルを修正する方法を示します。
+keywords: Aspose.Cells for .NET、チャートタイトル、軸のタイトル、Microsoft Excel、データ表現、外観。
 linktitle: タイトル
 type: docs
 weight: 50
 url: /ja/net/chart-and-axis-titles/
 ---
+
 {{% alert color="primary" %}}
 
-Excel グラフには 2 種類のタイトルがあります。
-1. チャートのタイトル
+Excelチャートには、2種類のタイトルがあります:
+1. チャートタイトル 
 1. 軸のタイトル
 
 
 
 {{% /alert %}}
 
-##  **タイトルオプション**
-Aspose.Cells を使用すると、実行時にチャートのタイトルを管理することもできます。[タイトル](https://reference.aspose.com/cells/net/aspose.cells.charts/title/)オブジェクトでは、タイトルのテキスト、フォント、塗りつぶし形式を変更できます。
+## **タイトルオプション**
+Aspose.Cellsでは、[Title](https://reference.aspose.com/cells/net/aspose.cells.charts/title/) オブジェクトで、チャートのタイトルをランタイムで管理することもできます。このオブジェクトを使用して、タイトルのテキスト、フォント、塗りつぶしの書式を変更することができます。
 
 |![todo:image_alt_text](chart_title.png)|
 
-##  **グラフまたは軸のタイトルの設定**
-Microsoft Excel を使用して、WYSIWYG 環境でグラフのタイトルとその軸を設定できます。 Aspose.Cells を使用すると、開発者は実行時にグラフのタイトルとその軸を設定できます。すべてのグラフとその軸には、[タイトル](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title)以下の例に示すように、タイトルを設定するために使用できるプロパティ。
+## **チャートや軸のタイトルの設定**
+Microsoft Excelを使用してチャートおよびその軸のタイトルをWYSIWYG環境で設定することができます。Aspose.Cellsでは、開発者がランタイムでチャートおよびその軸のタイトルを設定することも可能です。すべてのチャートおよびその軸には、タイトルを設定するために使用できる[Title](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title)プロパティが含まれています。以下に示すように、以下はそれを示す一例です。
 
-次のコード スニペットは、グラフと軸にタイトルを設定する方法を示しています。
+次のコードスニペットは、チャートや軸にタイトルを設定する方法を示しています。
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingTitlesAxes-1.cs" >}}
 
-##  **アドバンストトピック**
-- [ODS ファイルからチャートのサブタイトルを読み取る](/cells/ja/net/read-chart-subtitle-from-ods-file/)
+## **高度なトピック**
+- [ODSファイルからチャートサブタイトルを読む](/cells/ja/net/read-chart-subtitle-from-ods-file/)

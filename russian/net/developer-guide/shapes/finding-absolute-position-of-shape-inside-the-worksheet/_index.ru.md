@@ -1,18 +1,19 @@
-﻿---
-title: Нахождение абсолютного положения формы внутри рабочего листа
+---
+title: Нахождение абсолютной позиции формы внутри Листа книги Excel
 type: docs
 weight: 8000
 url: /ru/net/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
- Иногда вам нужно знать абсолютное положение фигуры на листе. Aspose.Cells обеспечивает[**Shape.Лефттокорнер**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) и[**Shape.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner) свойств для этой цели. Эти свойства возвращают абсолютное положение фигуры внутри рабочего листа в пикселях.
+Иногда вам нужно знать абсолютное положение формы на листе. Aspose.Cells предоставляет свойства [**Shape.LeftToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) и [**Shape.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner) для этой цели. Эти свойства возвращают абсолютное положение формы внутри листа в пикселях.
 
 {{% /alert %}}
 
-В следующем примере кода отображается абсолютное положение первой фигуры на листе в пикселях. Пример кода отображает следующий вывод консоли:
+Следующий образец кода отображает абсолютное положение первой формы на листе в пикселях. Образец кода отображает следующий вывод в консоли:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Absolute Position of this Shape is (320 , 183)
 

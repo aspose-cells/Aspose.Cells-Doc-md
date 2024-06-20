@@ -1,73 +1,76 @@
-﻿---
-title: إنشاء ورقة عرض هرمية
+---
+title: إنشاء عرض ورقة هرمية
 type: docs
 weight: 30
-url: /ar/net/creating-hierarchical-view-sheet/
+url: /ar/net/aspose-cells-gridweb/create-hierarchical-view-sheet/
+keywords: GridWeb، هرمي
+description: يقدم هذا المقال كيفية إنشاء العرض الهرمي في GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
- يعد ربط البيانات ميزة GridWeb قوية وسهلة الاستخدام. يتم جلب البيانات المخزنة في جداول قاعدة البيانات إلى DataSet وتعبئتها بالبيانات
+ربط البيانات هو ميزة قوية وسهلة الاستخدام في GridWeb. يتم جلب البيانات المخزنة في جداول قاعدة البيانات في مجموعة بيانات وملؤها بالبيانات 
 
- تمثل جداول البيانات. باستخدام ميزة ربط البيانات ، يمكنك إنشاء عرض هرمي (عرض رئيسي-فرعي) للبيانات المترابطة و
+ممثلة الجداول البيانية. باستخدام ميزة ربط البيانات، يمكنك إنشاء عرض هرمي (عرض أب-ابن) للبيانات المترابطة و 
 
- اعرضه في عنصر التحكم لجعله أكثر أناقة.
+عرضها في التحكم لجعلها أكثر أناقة. 
 
- يناقش هذا الموضوع إنشاء ورقة عرض هرمية. تحتوي بعض الصفوف في الورقة على طرق عرض فرعية. عندما ينقر المستخدم على الصفوف**وسعت**
+تناقش هذه الموضوع إنشاء ورقة عرض هرمية. بعض الصفوف في الورقة لديها عروض فرعية. عندما ينقر المستخدم على الصف الموسع
 
- زر{{< emoticons/cross >}} ، يتم توسيع جدول العرض الفرعي لهذا الصف لأسفل. هذه الميزة مفيدة جدًا لإنشاء تقرير عرض هرمي.
+button {{< emoticons/cross >}}, the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report. 
 
-**جدول مع عرض هرمي** 
+**جدول بعرض تسلسلي** 
 
-![ما يجب القيام به: image_بديل_نص](creating-hierarchical-view-sheet_1.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
-## **قم بإنشاء علاقات لـ DataTables**
-على سبيل المثال ، يمكنك استخدام ADO.Net API واستخراج البيانات من جداول قاعدة البيانات. لإنشاء ورقة عرض هرمية ، يجب عليك تصميم DataSet
+## **إنشاء علاقات للجداول البيانية**
+على سبيل المثال، تستخدم واجهة برمجة التطبيقات ADO.Net وتستخرج البيانات من جداول قاعدة البيانات. لإنشاء جدول بعرض تسلسلي، يجب عليك تصميم مجموعة بيانات
 
- بناء على بعض الجداول وإنشاء علاقة بينها أولاً. استخدم VS.NET's**مصمم مجموعة البيانات** لخلق العلاقة. في
+يستند إلى بعض الجداول وإنشاء علاقة بينها أولاً. استخدم مصمم الجداول التلقائية لإنشاء العلاقة. في هذا المثال، هناك ثلاثة جداول بيانات: العملاء، الطلبات، تفاصيل الطلب. يظهر الجدول جميع معلومات العملاء افتراضيًا. عندما 
 
- في هذا المثال ، هناك ثلاثة جداول بيانات: العملاء ، الطلبات ، تفاصيل الطلب. تعرض الورقة جميع معلومات العميل بشكل افتراضي. متي
+يقوم المستخدم بتوسيع عميل، يظهر الشبكة جميع الطلبات التي قام بها هذا العميل. عندما يوسع المستخدم طلبًا، تظهر الشبكة التفاصيل 
 
- يقوم المستخدم بتوسيع العميل ، تعرض الشبكة جميع الطلبات التي وضعها العميل. عندما يقوم المستخدم بتوسيع طلب ، تعرض الشبكة التفاصيل
+لهذا الطلب. البيانات تسلسلية: يتم سرد تفاصيل الطلب تحت الطلبات، وتوجد الطلبات تحت العملاء. 
 
-من هذا الترتيب. البيانات هرمية: تفاصيل الطلب مدرجة ضمن الطلبات ، والأوامر مدرجة ضمن العملاء.
+لكي يعمل هذا، يجب إنشاء العلاقات التالية بين جداول البيانات:
 
-لكي يعمل هذا ، يجب إنشاء العلاقات التالية بين جداول البيانات:
+لكي يعمل هذا، يجب إنشاء العلاقات التالية بين جداول البيانات:
 
-1.  قم بإنشاء مفتاح خارجي في طلبات DataTable ، حقل المفتاح هو CustomerID
+1. إنشاء مفتاح خارجي على جدول البيانات الخاص بالطلبات، حقل المفتاح هو معرف العميل 
 
-![ما يجب القيام به: image_بديل_نص](creating-hierarchical-view-sheet_2.png)
-
-
-
-
-1. إنشاء مفتاح خارجي في DataTable Order Details ، حقل المفتاح هو OrderID.
-
-![ما يجب القيام به: image_بديل_نص](creating-hierarchical-view-sheet_3.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_2.png)
 
 
 
- يبدو مصمم DataSet الآن كما يلي:
 
-![ما يجب القيام به: image_بديل_نص](creating-hierarchical-view-sheet_4.png)
+2. إنشاء مفتاح خارجي على جدول تفاصيل الطلب، حقل المفتاح هو معرف الطلب. 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
+
+
+
+يبدو مصمم مجموعة البيانات الآن على النحو التالي: 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
 ### **ربط ورقة العمل**
- الآن استخدم ملف**مصمم أوراق العمل** لتعيين مصدر البيانات وعضو البيانات لورقة العمل ، وتكوين أعمدة ربط حقل البيانات.
+استخدم الآن **مصمم ورق العمل** لتعيين مصدر البيانات والمشترك لورقة العمل، وضبط أعمدة ربط حقول البيانات. 
 
- يضيف عنصر التحكم تلقائيًا رمز + لكل صف يتوافق مع سجل يحتوي كائن ربطه (بشكل عام كائن DataRowView)
+يضيف الضبط تلقائيًا أيقونة + لكل صف يتوافق مع سجل تعيينه (عمومًا كائن DataRowView) لديه 
 
- آراء الأطفال. عند النقر فوق الرمز + ، يتم توسيع السجل لإظهار طريقة العرض الفرعية. يستخدم المثال أدناه ملف**مصمم أوراق العمل** لربط
+عروض فرعية. عند النقر على الرمز +، يتم توسيع السجل لعرض العرض الفرعي. يستخدم المثال أدناه **مصمم ورق العمل** لربط 
 
- ورقة عمل لجذر عملاء DataTable.
+ورقة العمل إلى جدول البيانات الرئيسي للعملاء. 
 
-![ما يجب القيام به: image_بديل_نص](creating-hierarchical-view-sheet_5.png)
-### **تخصيص الجداول الفرعية ربط الأعمدة**
- يوفر عنصر التحكم حدثًا يسمى GridWeb.BindingChildView يستخدمه المطورون لتخصيص أعمدة ربط الجداول التابعة. هذا المثال
+![todo:image_alt_text](creating-hierarchical-view-sheet_5.png)
+### **تخصيص أعمدة ربط الجداول الفرعية**
+يوفر الضبط حدثًا يسمى GridWeb.BindingChildView يستخدمه المطورون لتخصيص أعمدة ربط الجداول الفرعية. يحتاج هذا المثال 
 
- يحتاج إلى عرض تفاصيل الطلب "**سعر الوحدة** في شكل عملة. أضف معالج حدث لتغيير تنسيق رقم عمود الربط.
+إلى عرض حقل تفاصيل الطلبات **UnitPrice** بتنسيق العملة. أضف معالج حدث لتغيير تنسيق الرقم لعمود الربط. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Handles the BindingChildView event to set the UnitPrice column.
 
@@ -93,7 +96,7 @@ private void GridWeb1_BindingChildView(Aspose.Cells.GridWeb.GridWeb childGrid, A
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Handles the BindingChildView event to set the UnitPrice column.
 
@@ -115,37 +118,37 @@ End Sub
 
 {{< /highlight >}}
 ### **تحميل البيانات من قاعدة البيانات والربط**
-كما هو موضح في[ورقة عمل ملزمة لمجموعة بيانات باستخدام مصمم أوراق عمل GridWeb](/cells/ar/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
- تحتاج إلى إضافة رمز إلى كتلة Page_Load لتحميل البيانات إلى DataSet من قاعدة بيانات ، وربط DataSet بالورقة في
+كما هو موضح في [ربط ورقة البيانات بمجموعة البيانات باستخدام مصمم ورق الأعمال في GridWeb](/cells/ar/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/)
+يجب عليك إضافة كود إلى كتلة Page_Load لتحميل البيانات إلى مجموعة البيانات من قاعدة بيانات، وربط مجموعة البيانات بالورقة في الخطوة التالية. 
 
- الخطوة التالية.
+الخطوة التالية. 
 
-تحتوي فئة Asppose.Grid.Web.Data.WebWorksheet على بعض الخصائص المفيدة.
+تمتلك فئة Asppose.Grid.Web.Data.WebWorksheet بعض الخصائص المفيدة.
 
-- على سبيل المثال ، يتم استخدام الخاصية EnableCreateBindColumnHeader لإنشاء عناوين العمود المرتبط داخل الورقة أو العمود
+- على سبيل المثال، يُستخدم خاصية EnableCreateBindColumnHeader لإنشاء عناوين العمود المرتبط ضمن الورقة، أو العمود الذي يعرض العناوين
 
- الرؤوس يعرض أسماء الأعمدة المرتبطة. يأخذ القيم**حقيقي** أو**خاطئة**. 
+يأخذ القيم **true** أو **false**. 
 
-- تحدد الخصائص BindStartRow و BindStartColumn الموضع في ورقة تحكم GridWeb التي يجب أن يرتبط المصدر بها.
-- يتم استخدام الخاصية EnableExpandChildView لتعطيل العرض الفرعي الموسع لورقة العمل. بشكل افتراضي يتم تعيينه على صحيح.
+- تحدد الخصائص BindStartRow وBindStartColumn الموقع في الورقة لعنصر تحكم GridWeb التي يجب أن يتم ربط المصدر بها.
+- تُستخدم خاصية EnableExpandChildView لتعطيل عرض الطفل الموسع للورقة. بشكل افتراضي، يتم تعيينها على true.
 
- الفصل لديه بعض الأساليب المفيدة أيضًا.
+تمتلك الفئة أيضًا بعض الأساليب المفيدة. 
 
-- تقوم طريقة DataBind () بربط الورقة بالمصدر.
-- يضيف CreateNewBindRow () صفًا جديدًا ويربطه بمصدر البيانات.
-- يقوم DeleteBindRow () بحذف صف منضم.
-- يعين الأسلوب SetRowExpand () الصف الموسع ويظهر محتوى العرض الفرعي في وضع ربط البيانات.
-- يحصل أسلوب GetRowExpand () على قيمة منطقية تشير إلى ما إذا كان الصف قد تم توسيعه أم لا.
+- تقوم الأسلوب DataBind() بربط ورقة بالمصدر.
+- يضيف CreateNewBindRow() صفًا جديدًا ويربطه بمصدر البيانات.
+- يقوم DeleteBindRow() بحذف صف مرتبط.
+- يقوم الأسلوب SetRowExpand() بتعيين الصف الموسع وعرض محتوى العرض الفرعي في وضع ربط البيانات.
+- يقوم الأسلوب GetRowExpand() بالحصول على قيمة بولية تشير إلى ما إذا كان الصف قد تم توسيعه أم لا.
 
- في التعليمات البرمجية أدناه ، يتم تعبئة كائن DataSet "dataSet21" ببيانات تستند إلى ثلاثة جداول. يتم تصفية جدول العملاء لجعله
+في الكود أدناه، يتم ملء كائن مجموعة البيانات "dataSet21" بالبيانات بناءً على ثلاث جداول. يتم تصفية جدول العملاء لتكون 
 
- الجدول الأول في العرض الهرمي. يتم إنشاء كائن WebWorksheet المسمى "الورقة" ، والذي يمسح الورقة أولاً ثم يعينها
+أول جدول في العرض التسلسلي. يتم إنشاء كائن WebWorksheet يسمى "sheet"، والذي يُطهر الورقة أولاً ثم يعينها 
 
- مرتبطة بمصدر البيانات.
+مرتبة إلى مصدر البيانات. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -199,7 +202,7 @@ private void BindWithoutInSheetHeaders()
 
         dataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'";
 
-        WebWorksheet sheet = GridWeb1.WebWorksheets[0];
+        WebWorksheet sheet = GridWeb1.WorkSheets[0];
 
         // Clears the sheet.
 
@@ -235,53 +238,53 @@ private void BindWithoutInSheetHeaders()
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- تحميل الصفحة الفرعية الخاصة (المرسل ByVal كـ System.Object ، ByVal e As System.EventArgs) يعالج MyBase.Load
+ Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
- ضع رمز المستخدم لتهيئة الصفحة هنا
+    'Put user code to initialize the page here
 
- إذا لم يكن الأمر كذلك ، فقم بإعادة الإرسال
+    If Not IsPostBack Then
 
- BindWithoutInSheetHeaders ()
+        BindWithoutInSheetHeaders()
 
- إنهاء إذا
+    End If
 
 End Sub
 
-BindWithoutInSheetHeaders الخاص ()
+Private Sub BindWithoutInSheetHeaders()
 
- Dim db As DemoDatabase2 = New DemoDatabase2 ()
+    Dim db As DemoDatabase2 = New DemoDatabase2()
 
-مسار خافت كسلسلة = MapPath (".")
+    Dim path As String = MapPath(".")
 
- المسار = path.Substring (0، path.LastIndexOf ("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- المسار = path.Substring (0، path.LastIndexOf ("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- db.OleDbConnection1.ConnectionString = "الموفر = Microsoft.Jet.OLEDB.4.0 ؛ مصدر البيانات =" + المسار + "\ Database \ Northwind.mdb"
+    db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + "\Database\Northwind.mdb"
 
- يحاول
+    Try
 
- يتصل بقاعدة البيانات ويجلب البيانات.
+        ' Connects to database and fetches data.
 
- جدول العملاء.
+        ' Customers Table.
 
- db.OleDbDataAdapter1.Fill (DataSet21)
+        db.OleDbDataAdapter1.Fill(DataSet21)
 
- جدول الطلبات.
+        ' Orders Table.
 
- db.OleDbDataAdapter2.Fill (DataSet21)
+        db.OleDbDataAdapter2.Fill(DataSet21)
 
- OrderDetailTable.
+        ' OrderDetailTable.
 
- db.OleDbDataAdapter3.Fill (DataSet21)
+        db.OleDbDataAdapter3.Fill(DataSet21)
 
- تصفية البيانات
+        ' Filter data
 
- DataSet21.Customers.DefaultView.RowFilter = "معرف العميل<'BSAAA'"
+        DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
 
-        Dim sheet As WebWorksheet = GridWeb1.WebWorksheets(0)
+        Dim sheet As WebWorksheet = GridWeb1.WorkSheets(0)
 
         ' Clears the sheet.
 

@@ -1,20 +1,21 @@
-﻿---
-title: Ladda HTML till Excel med StreamProvider
+---
+title: Ladda in html till Excel med StreamProvider
 type: docs
 weight: 80
 url: /sv/java/convert-html-to-excel-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-När vi laddar html som innehåller externa resurser möter vi följande två problem:
-1. När html-strömmen laddas kan de bilder och externa resurser som html-filen refererar till inte erhållas via relativa sökvägar.
-1. Externa resurssökvägar som refereras till i html-filer måste mappas.
+När du laddar html som innehåller externa resurser stöter vi ofta på följande två problem:
+1. När html-strömmen laddas kan inte bilderna och externa resurser som refereras av html-filen erhållas genom relativa sökvägar.
+1. Externa resurs-sökvägar som refereras i html-filer behöver kartläggas.
 
- Den här artikeln förklarar hur du implementerar[**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) gränssnitt för att ställa in[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider) fast egendom. Genom att implementera detta gränssnitt kommer du att kunna ladda externa resurser under laddning av HTML-strömmar eller så är dessa externa resurser relativa.
+Den här artikeln förklarar hur man implementerar [**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)gränssnitt för att ställa in [**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)egenskapen. Genom att implementera detta gränssnitt kommer du att kunna ladda externa resurser vid inläsning av Html-strömmar eller dessa externa resurser är relativa.
 
 {{% /alert %}} 
 
-Detta är huvudkoden som visar användningen av[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
+Det här är huvudkoden som visar användningen av [**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
 
 
 

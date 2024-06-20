@@ -1,22 +1,23 @@
-﻿---
-title: Carica il file excel di origine senza grafici
+---
+title: Carica file excel di origine senza grafici
 type: docs
 weight: 750
 url: /it/java/load-source-excel-file-without-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells ti permette di caricare il tuo file excel senza grafici. Utilizzare la proprietà LoadOptions.LoadFilter per questo scopo.
+Aspose.Cells consente di caricare il file excel di origine senza grafici. Si prega di utilizzare la proprietà di caricamento LoadOptions.LoadFilter a tale scopo.
 
 {{% /alert %}} 
-## **Carica il file excel di origine senza grafici**
-Il seguente codice di esempio carica il file excel di esempio senza grafici e lo salva in formato pdf di output.
+## **Carica file excel di origine senza grafici**
+Il codice di esempio seguente carica l'esempio di file excel senza grafici e lo salva in formato pdf di output.
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Specify the load options and filter the data
 

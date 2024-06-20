@@ -1,16 +1,17 @@
-﻿---
-title: Zusammengeführte Cells mit Aspose.Cells erkennen
+---
+title: Zusammengeführte Zellen mit Aspose.Cells erkennen
 type: docs
 weight: 30
 url: /de/java/detect-merged-cells-using-aspose-cells/
 ---
-## **Aspose.Cells - Zusammengeführte Cells erkennen**
-In Microsoft Excel können mehrere Zellen zu einer zusammengeführt werden. Dies wird häufig verwendet, um komplexe Tabellen zu erstellen oder um eine Zelle zu erstellen, die eine Überschrift enthält, die sich über mehrere Spalten erstreckt.
-Aspose.Cells ermöglicht es Ihnen, verbundene Zellbereiche in einem Arbeitsblatt zu identifizieren. Sie können die Zusammenführung auch aufheben.
+
+## **Aspose.Cells - Erkennen von zusammengeführten Zellen**
+In Microsoft Excel können mehrere Zellen zu einer zusammengeführt werden. Dies wird oft verwendet, um komplexe Tabellen zu erstellen oder um eine Zelle zu erstellen, die über mehrere Spalten hinweg einen Kopf enthält.
+Aspose.Cells ermöglicht es Ihnen, zusammengeführte Zellbereiche in einem Arbeitsblatt zu identifizieren. Sie können sie auch wieder aufteilen.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the merged cells list to put it into the arraylist object
 
@@ -53,7 +54,7 @@ for(int i = al.size()-1 ; i > -1; i--)
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
@@ -61,6 +62,6 @@ for(int i = al.size()-1 ; i > -1; i--)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Zusammengeführte Cells in einem Arbeitsblatt erkennen](/cells/de/java/detect-merged-cells-in-a-worksheet).
+Besuchen Sie für weitere Details [Zusammengeführte Zellen in einem Arbeitsblatt erkennen](/cells/de/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}

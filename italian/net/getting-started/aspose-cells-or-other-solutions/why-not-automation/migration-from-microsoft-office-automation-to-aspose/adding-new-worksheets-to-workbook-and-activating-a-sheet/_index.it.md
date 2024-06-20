@@ -1,77 +1,78 @@
-﻿---
-title: Aggiunta di nuovi fogli di lavoro alla cartella di lavoro e attivazione di un foglio
+---
+title: Aggiunta di nuovi fogli di lavoro e attivazione di un foglio
 type: docs
 weight: 10
 url: /it/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Quando si lavora con un file modello, a volte è necessario aggiungere altri fogli di lavoro alla cartella di lavoro per raccogliere i dati. Le nuove celle verranno riempite con dati in posizioni e posizioni specificate in ogni foglio di lavoro.
+Quando si lavora con un file di modello, a volte c'è la necessità di aggiungere fogli di lavoro aggiuntivi nel workbook per raccogliere dati. I nuovi celle verranno riempite con dati in posizioni e localizzazioni specifiche in ogni foglio di lavoro.
 
-Allo stesso modo, potrebbe essere necessario che un foglio di lavoro specifico sia attivo e visualizzato per primo quando il file viene aperto in Microsoft Excel. Un "foglio attivo" è il foglio su cui stai lavorando in una cartella di lavoro. Il nome sulla scheda del foglio attivo è in grassetto per impostazione predefinita.
+Allo stesso modo, potresti avere bisogno di un determinato foglio di lavoro attivo e visualizzato per primo quando il file viene aperto in Microsoft Excel. Un "foglio attivo" è il foglio su cui stai lavorando in un workbook. Il nome sulla scheda del foglio attivo è in grassetto per impostazione predefinita.
 
- L'aggiunta di fogli di lavoro e l'impostazione del foglio attivo sono attività comuni e semplici che gli sviluppatori devono sapere come eseguire. In questo articolo, svolgiamo queste attività utilizzando[VSTO](/cells/it/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) e[Aspose.Cells for .NET](/cells/it/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
+Aggiungere fogli di lavoro e impostare quale foglio è attivo sono compiti comuni e semplici che i developer devono sapere come eseguire. In questo articolo, eseguiamo questi compiti utilizzando [VSTO](/cells/it/net/aggiunta-di-nuovi-fogli-di-lavoro-e-attivazione-di-un-foglio/) e [Aspose.Cells for .NET](/cells/it/aggiunta-di-nuovi-fogli-di-lavoro-e-attivazione-di-un-foglio/).
 
 {{% /alert %}} 
-## **Aggiunta di fogli di lavoro e attivazione di un foglio**
-Ai fini di questo suggerimento per la migrazione:
+## **Aggiungere fogli e attivare un foglio**
+Per i fini di questo suggerimento sulla migrazione:
 
-1. Aggiungi nuovi fogli di lavoro a un file Excel Microsoft esistente.
-1. Inserisci i dati nelle celle di ogni nuovo foglio di lavoro.
-1. Attiva un foglio nella cartella di lavoro.
-1. Salva come file Excel Microsoft.
+1. Aggiungi nuovi fogli di lavoro a un file esistente di Microsoft Excel.
+1. Riempire i dati nelle celle di ogni nuovo foglio di lavoro.
+1. Attiva un foglio di lavoro nel workbook.
+1. Salvare come file di Microsoft Excel.
 
-Di seguito sono riportati frammenti di codice paralleli per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB), che mostrano come eseguire queste attività.
+Di seguito sono riportati frammenti di codice paralleli per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB) che mostrano come eseguire queste attività.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-utilizzando Microsoft.VisualStudio.Tools.Applications.Runtime;
+using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
-utilizzando Excel = Microsoft.Office.Interop.Excel;
+using Excel = Microsoft.Office.Interop.Excel;
 
-utilizzando Office = Microsoft.Office.Core;
+using Office = Microsoft.Office.Core;
 
-usando System.Reflection;
+using System.Reflection;
 
 .......
 
-//Crea un'istanza dell'oggetto Application.
+//Instantiate the Application object.
 
 Excel.Application excelApp = new Excel.ApplicationClass();
 
-//Specifica il percorso del file excel del modello.
+//Specify the template excel file path.
 
 string myPath = @"d:\test\My_Book1.xls";
 
-//Apri il file excel.
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Valore.mancante, Valore.mancante,
+Missing.Value, Missing.Value,
 
-Valore.mancante, Valore.mancante,
+Missing.Value, Missing.Value,
 
-Valore.mancante, Valore.mancante,
+Missing.Value, Missing.Value,
 
-Valore.mancante, Valore.mancante,
+Missing.Value, Missing.Value,
 
-Valore.mancante, Valore.mancante,
+Missing.Value, Missing.Value,
 
-Valore.Mancante, Valore.Mancante);
+Missing.Value, Missing.Value);
 
-//Dichiara un oggetto foglio di lavoro.
+//Declare a Worksheet object.
 
-Excel.Foglio di lavoro nuovoFoglio di lavoro;
+Excel.Worksheet newWorksheet;
 
-//Aggiungi 5 nuovi fogli di lavoro alla cartella di lavoro e inserisci alcuni dati
+//Add 5 new worksheets to the workbook and fill some data
 
-//nelle celle.
+//into the cells.
 
- per (int i = 1; i< 6; i++)
+for (int i = 1; i < 6; i++)
 
 {
 
@@ -109,9 +110,9 @@ excelApp.Quit();
 
 {{< /highlight >}}
 
-**V.B**
+**VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -185,41 +186,41 @@ excelApp.Quit()
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-utilizzando il numero Aspose.Cells;
+using Aspose.Cells;
 
 .......
 
-//Crea un'istanza di licenza e imposta il file di licenza
+//Instantiate an instance of license and set the license file
 
-//attraverso il suo percorso
+//through its path
 
-Aspose.Cells.License licenza = new Aspose.Cells.License();
+Aspose.Cells.License license = new Aspose.Cells.License();
 
-licenza.SetLicense("Aspose.Cells.lic");
+license.SetLicense("Aspose.Cells.lic");
 
-//Specifica il percorso del file excel del modello.
+//Specify the template excel file path.
 
 string myPath =@"d:\test\My_Book1.xls";
 
-//Crea un'istanza di una nuova cartella di lavoro.
+//Instantiate a new Workbook.
 
-//Apri il file excel.
+//Open the excel file.
 
-Cartella di lavoro cartella di lavoro = new Cartella di lavoro(myPath);
+Workbook workbook = new Workbook(myPath);
 
-//Dichiara un oggetto foglio di lavoro.
+//Declare a Worksheet object.
 
-Foglio di lavoro nuovoFoglio di lavoro;
+Worksheet newWorksheet;
 
-//Aggiungi 5 nuovi fogli di lavoro alla cartella di lavoro e inserisci alcuni dati
+//Add 5 new worksheets to the workbook and fill some data
 
-//nelle celle.
+//into the cells.
 
- per (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -253,9 +254,9 @@ workbook.Save(@"d:\test\out_My_Book1.xls");
 
 {{< /highlight >}}
 
-**V.B**
+**VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

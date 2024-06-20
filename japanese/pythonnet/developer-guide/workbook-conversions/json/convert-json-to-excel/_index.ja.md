@@ -1,28 +1,29 @@
 ---
-title: JSON を Excel に変換
+title: JSONをExcelに変換する
 type: docs
 weight: 300
 url: /ja/python-net/convert-json-to-excel/
-description: Aspose.Cells for Python via .NET API を使用して json を Excel ファイルに変換する方法を学びます。
-keywords: Python Convert json to excel, Convert json to excel Pyton via NET, Export json to excel, Convert json to excel
+description: Aspose.Cells for Python via .NET APIを使用して、JSONをExcelファイルに変換する方法を学びます。
+keywords: PythonでJSONをExcelに変換、PythonでJSONをExcelに変換するvia NET、JSONをExcelにエクスポートする、JSONをExcelに変換する。
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET は、Json(JavaScript Object Notation) ファイルから Excel ワークブックへの変換をサポートしています。
+Aspose.Cells for Python via .NETは、Json（JavaScript Object Notation）ファイルをExcelワークブックに変換する機能をサポートしています。
 
 {{% /alert %}}
 
-##  **JSON を Excel ワークブックに変換**
-JSON を Excel ファイルに変換する方法を考える必要はありません。Aspose.Cells for Python via .NET ライブラリが最適な決定を行うからです。 Aspose.Cells for Python via .NET API は、JSON 形式をスプレッドシートに変換するためのサポートを提供します。使用できます**[JsonLoadOptions](https://reference.aspose.com/cells/python-net/aspose.cells/JsonLoadOptions)** JSON をワークブックにインポートするための追加設定を指定するクラス。
+## **JSONをExcelワークブックに変換する**
+Aspose.Cells for Python via .NETライブラリがベストな判断を提供しているため、JSONをExcelファイルに変換する方法を不明に思う必要はありません。Aspose.Cells for Python via .NET APIは、JSON形式をスプレッドシートに変換する機能を提供します。[**JsonLoadOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/JsonLoadOptions) クラスを使用して、ワークブックにJSONをインポートするための追加設定を指定できます。
 
-次のコード例は、JSON を Excel ワークブックにインポートする方法を示しています。変換するコードを参照してください[ソースファイル](sample.json)参照用にコードによって生成された xlsx ファイルにコピーします。
+以下のコード例は、JSONをExcelワークブックにインポートする方法を示しています。参照用に、[ソースファイル](sample.json)をコードによって生成されたxlsxファイルに変換するためのコードが含まれています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-to-Excel-New.py" >}}
 
- JsonLoadOptions クラスを使用して追加の設定を指定する次のコード例は、JSON を Excel ワークブックにインポートする方法を示しています。変換するコードを参照してください[ソースファイル](sample.json)参照用にコードによって生成された xlsx ファイルにコピーします。
+以下のコード例は、JsonLoadOptionsクラスを使用して追加の設定を指定することで、JSONをExcelワークブックにインポートする方法を示しています。コードで生成されたxlsxファイルへの変換のために、[source file](sample.json)を参照してください。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-to-Excel-New2.py" >}}
 
-次のコード例は、JSON 文字列を Excel ワークブックにインポートする方法を示しています。 JSON をインポートするときにレイアウトの場所を指定することもできます。参考として、JSON 文字列をコードによって生成される xlsx ファイルに変換するコードを参照してください。
+以下のコード例は、JSON文字列をExcelワークブックにインポートする方法を示しています。JSONのインポート時にレイアウトの場所を指定することもできます。コードで生成されたxlsxファイルへの変換のために、JSON文字列を参照してください。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-String-to-Excel.py" >}}

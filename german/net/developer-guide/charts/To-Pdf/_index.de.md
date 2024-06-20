@@ -1,21 +1,22 @@
 ---
-title:  Diagramm bis PDF
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET ein Diagramm in ein PDF-Dokument konvertieren. Unser Leitfaden zeigt, wie Sie ein Diagramm aus Microsoft Excel exportieren und es zur weiteren Verteilung und Archivierung als PDF speichern.
-keywords: Aspose.Cells for .NET, Chart to PDF, Microsoft Excel, PDF Conversion, Export, Distribution, Archiving.
+title: Diagramm in PDF umwandeln 
+description: Erfahren Sie, wie Sie Aspose.Cells for .NET verwenden, um ein Diagramm in ein PDF Dokument zu konvertieren. Unser Leitfaden zeigt, wie Sie ein Diagramm aus Microsoft Excel exportieren und als PDF speichern können, um es weiter zu verteilen und zu archivieren.
+keywords: Aspose.Cells for .NET, Diagramm in PDF, Microsoft Excel, PDF Konvertierung, Export, Verteilung, Archivierung.
 type: docs
 weight: 47
 url: /de/net/chart-to-pdf/
 ---
-##  **Rendering-Diagramm bis PDF**
 
- Um das Diagramm im PDF-Format zu rendern, haben die Aspose.Cells-APIs das bereitgestellt[**Chart.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)Methode mit der Möglichkeit, das Ergebnis PDF auf dem Disc-Pfad oder Stream zu speichern.
+## **Diagramm in PDF umwandeln**
+
+Um das Diagramm im PDF-Format zu rendern, hat Aspose.Cells APIs die [**Chart.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)-Methode freigelegt, die das resultierende PDF auf dem Dateipfad oder im Stream speichern kann.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 
-##  **Erstellen Sie das Diagramm PDF mit der gewünschten Seitengröße**
-Sie können mit Aspose.Cells ein Diagramm-PDF mit der gewünschten Seitengröße erstellen und angeben, wie Sie das Diagramm innerhalb der Seite ausrichten möchten, z. B. oben, unten, in der Mitte, links, rechts usw. Außerdem kann das Ausgabediagramm im Stream oder auf der Festplatte erstellt werden. Bitte sehen Sie sich den folgenden Beispielcode an, der das lädt[Beispiel-Excel-Datei](64716906.xlsx) , greift auf das erste Diagramm im Arbeitsblatt zu und konvertiert es dann in[Ausgabe-PDF](64716907.pdf) mit gewünschter Seitengröße. Der folgende Screenshot zeigt, dass die Seitengröße im Ausgabe-PDF 7x7 beträgt, wie im Code angegeben, und dass das Diagramm sowohl horizontal als auch vertikal mittig ausgerichtet ist.
+## **Erstellen Sie ein Diagramm-PDF mit gewünschter Seitengröße**
+Sie können mit Aspose.Cells ein Diagramm-PDF mit Ihrer gewünschten Seitengröße erstellen und angeben, wie Sie das Diagramm in der Seite positionieren möchten, z.B. oben, unten, zentriert, links, rechts usw. Darüber hinaus kann das Ausgabediagramm im Stream oder auf der Festplatte erstellt werden. Bitte beachten Sie den folgenden Beispielcode, der die [Beispiel-Excel-Datei](64716906.xlsx) lädt, auf das erste Diagramm im Arbeitsblatt zugreift und es dann in das [Ausgabepdf](64716907.pdf) mit gewünschter Seitengröße konvertiert. Der folgende Screenshot zeigt, dass die Seitengröße im Ausgabepdf wie im Code spezifiziert 7x7 beträgt und das Diagramm sowohl horizontal als auch vertikal zentriert ist. 
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
-##  **Beispielcode**
+## **Beispielcode**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
 

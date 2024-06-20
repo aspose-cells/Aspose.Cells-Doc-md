@@ -1,72 +1,73 @@
-﻿---
-title: Utilisation des styles intégrés
+---
+title: Utilisation de styles intégrés
 type: docs
 weight: 80
 url: /fr/net/using-built-in-styles/
-description: C# code pour utiliser les styles intégrés Excel avec Aspose.Cells for .NET API
-keywords: c# use excel built in styles, c# programmatically apply styles in workbook, programmatically apply styles in workbook, c# apply built in styles in excel, c# apply built in styles in workbook, c# code apply built in styles in workbook, c# code apply built in styles in excel workbook
+description: Code C# pour utiliser les styles intégrés d Excel avec l API Aspose.Cells for .NET
+keywords: c# utiliser les styles intégrés d Excel, c# appliquer les styles de manière programmée dans le classeur, appliquer les styles de manière programmée dans le classeur, c# appliquer les styles intégrés dans Excel, c# appliquer les styles intégrés dans le classeur, code c# appliquer les styles intégrés dans le classeur, code c# appliquer les styles intégrés dans le classeur Excel
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells fournit une vaste collection de styles réutilisables pour formater une cellule dans un document de feuille de calcul. Nous pouvons utiliser des styles intégrés dans notre classeur et également créer des styles personnalisés.
+Aspose.Cells propose une vaste collection de styles réutilisables pour formater une cellule dans un document de feuille de calcul. Nous pouvons utiliser des styles intégrés dans notre classeur et créer également des styles personnalisés.
 
 {{% /alert %}}
 
 ## **Comment utiliser les styles intégrés**
 
- La méthode[**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) et l'énumération[**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) rendre pratique l'utilisation des styles intégrés. Voici une liste de tous les styles intégrés possibles :
+La méthode [**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) et l'énumération [**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) rendent pratique l'utilisation des styles intégrés. Voici une liste de tous les styles intégrés possibles:
 
-- VINGT_POUR CENT_ACCENT_1
-- VINGT_POUR CENT_ACCENT_2
-- VINGT_POUR CENT_ACCENT_3
-- VINGT_POUR CENT_ACCENT_4
-- VINGT_POUR CENT_ACCENT_5
-- VINGT_POUR CENT_ACCENT_6
-- QUARANTE_POUR CENT_ACCENT_1
-- QUARANTE_POUR CENT_ACCENT_2
-- QUARANTE_POUR CENT_ACCENT_3
-- QUARANTE_POUR CENT_ACCENT_4
-- QUARANTE_POUR CENT_ACCENT_5
-- QUARANTE_POUR CENT_ACCENT_6
-- SOIXANTE_POUR CENT_ACCENT_1
-- SOIXANTE_POUR CENT_ACCENT_2
-- SOIXANTE_POUR CENT_ACCENT_3
-- SOIXANTE_POUR CENT_ACCENT_4
-- SOIXANTE_POUR CENT_ACCENT_5
-- SOIXANTE_POUR CENT_ACCENT_6
+- VINGT_POURCENT_ACCENT_1
+- VINGT_POURCENT_ACCENT_2
+- VINGT_POURCENT_ACCENT_3
+- VINGT_POURCENT_ACCENT_4
+- VINGT_POURCENT_ACCENT_5
+- VINGT_POURCENT_ACCENT_6
+- QUARANTE_POURCENT_ACCENT_1
+- QUARANTE_POURCENT_ACCENT_2
+- QUARANTE_POURCENT_ACCENT_3
+- QUARANTE_POURCENT_ACCENT_4
+- QUARANTE_POURCENT_ACCENT_5
+- QUARANTE_POURCENT_ACCENT_6
+- SOIXANTE_POURCENT_ACCENT_1
+- SOIXANTE_POURCENT_ACCENT_2
+- SOIXANTE_POURCENT_ACCENT_3
+- SOIXANTE_PERCENT_ACCENT_4
+- SOIXANTE_PERCENT_ACCENT_5
+- SOIXANTE_PERCENT_ACCENT_6
 - ACCENT_1
 - ACCENT_2
 - ACCENT_3
 - ACCENT_4
 - ACCENT_5
 - ACCENT_6
-- MAL
+- MAUVAIS
 - CALCUL
-- CHECK_CELL
+- VÉRIFIER_CELLULE
 - VIRGULE
 - VIRGULE_1
 - DEVISE
-- CURRENCY_1
-- EXPLICATION_TEXTE
+- DEVISE_1
+- TEXTE_EXPOLICATIF
 - BIEN
-- HEADER_1
-- HEADER_2
-- HEADER_3
-- HEADER_4
-- HYPERLIEN
-- FOLLOWED_HYPERLINK
-- CONTRIBUTION
-- LINKED_CELL
+- EN-TÊTE_1
+- EN-TÊTE_2
+- TITRE_3
+- TITRE_4
+- HYPERLINK
+- LIEN_HYPERTEXTUEL_SUIVI
+- SAISIE
+- CELLULE_LIEE
 - NEUTRE
-- ORDINAIRE
-- REMARQUE
-- PRODUCTION
-- POUR CENT
+- NORMAL
+- NOTE
+- SORTIE
+- POURCENTAGE
 - TITRE
 - TOTAL
-- AVERTISSEMENT_TEXTE
-- ROW_LEVEL
-- COLUMN_LEVEL
+- TEXTE_AVERTISSEMENT
+- NIVEAU_LIGNE
+- NIVEAU_COLONNE
 
 ## Code C# pour utiliser les styles intégrés
 

@@ -1,25 +1,26 @@
-﻿---
-title: Convert-Excel-to-JSON
+---
+title: Konvertieren Sie Excel in JSON
 type: docs
 weight: 300
 url: /de/python-java/convert-excel-to-json/
-description: Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells for Python via Java in json konvertieren.
-keywords: Exporting Workbook to json without office 2013, office 2016, office 2019 and office 365
+description: Erfahren Sie, wie Sie mit Aspose.Cells for Python via Java eine Excel Datei in JSON konvertieren.
+keywords: Exportieren von Arbeitsmappe nach JSON ohne Office 2013, Office 2016, Office 2019 und Office 365
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via Java unterstützt die Konvertierung einer Arbeitsmappe in eine Json-Datei (JavaScript Object Notation).
+Aspose.Cells für Python via Java unterstützt die Konvertierung eines Arbeitsbuchs in eine JSON (JavaScript Object Notation)-Datei.
 
 {{% /alert %}}
 
-## **Konvertieren Sie die Excel-Arbeitsmappe in JSON**
+## **Excel-Arbeitsmappe in JSON konvertieren**
 
-Sie müssen sich nicht fragen, wie Sie eine Excel-Arbeitsmappe in JSON konvertieren, denn die Bibliothek Aspose.Cells for Python via Java hat die beste Entscheidung. Aspose.Cells for Python via Java API bietet Unterstützung für die Konvertierung von Tabellenkalkulationen in das JSON-Format. Um die Arbeitsmappe nach JSON zu exportieren, pass[**SaveFormat.JSON**](https://reference.aspose.com/cells/python-java/asposecells.api/saveformat) als zweiter Parameter von[**Arbeitsmappe.speichern**](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#save\(java.lang.String,%20int\) ) Methode. Sie können auch verwenden[**JsonSaveOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/JsonSaveOptions) Klasse, um zusätzliche Einstellungen für den Export von Arbeitsblättern nach JSON anzugeben.
+Sie müssen sich nicht wundern, wie man Excel-Arbeitsmappe in JSON konvertiert, denn die Aspose.Cells for Python via Java-Bibliothek trifft die beste Entscheidung. Die Aspose.Cells for Python via Java-API bietet Unterstützung für die Konvertierung von Tabellenkalkulationen in das JSON-Format. Um die Arbeitsmappe in JSON zu exportieren, geben Sie [**SaveFormat.JSON**](https://reference.aspose.com/cells/python-java/asposecells.api/saveformat) als den zweiten Parameter der [**Workbook.save**](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#save\(java.lang.String,%20int\))-Methode an. Sie können auch die [**JsonSaveOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/JsonSaveOptions)-Klasse verwenden, um zusätzliche Einstellungen für den Export von Tabellenkalkulationen in JSON festzulegen.
 
- Das folgende Codebeispiel veranschaulicht das Exportieren einer Excel-Arbeitsmappe in Json. Bitte sehen Sie sich den Code zum Konvertieren an[Quelldatei](sample.xlsx) in die JSON-Datei, die vom Referenzcode generiert wurde.
+Das folgende Codebeispiel zeigt, wie man eine Excel-Arbeitsmappe in Json exportiert. Bitte sehen Sie sich den Code zur Konvertierung der [Quelldatei](sample.xlsx) in die mit dem Code generierte Json-Datei als Referenz an.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Convert-Excel-to-JSON.py" >}}
 
- Das folgende Codebeispiel, das die JsonSaveOptions-Klasse verwendet, um zusätzliche Einstellungen anzugeben, veranschaulicht das Exportieren von Excel-Arbeitsmappen in Json. Bitte sehen Sie sich den Code zum Konvertieren an[Quelldatei](sample.xlsx) in die JSON-Datei, die vom Referenzcode generiert wurde.
+Das folgende Codebeispiel, das die Klasse JsonSaveOptions verwendet, um zusätzliche Einstellungen festzulegen, zeigt, wie man eine Excel-Arbeitsmappe in Json exportiert. Bitte sehen Sie sich den Code zur Konvertierung der [Quelldatei](sample.xlsx) in die mit dem Code generierte Json-Datei als Referenz an.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Convert-Excel-to-JSON2.py" >}}

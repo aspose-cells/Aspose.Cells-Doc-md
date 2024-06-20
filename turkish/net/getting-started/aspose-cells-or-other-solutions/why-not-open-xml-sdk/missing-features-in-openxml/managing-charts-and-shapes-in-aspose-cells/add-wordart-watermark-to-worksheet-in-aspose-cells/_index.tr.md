@@ -1,26 +1,27 @@
-﻿---
-title: Aspose.Cells'de Çalışma Sayfasına WordArt Filigranı Ekleyin
+---
+title: Aspose.Cells te Çalışma Sayfasına Kelime Sanatı Filigran Ekle
 type: docs
 weight: 20
 url: /tr/net/add-wordart-watermark-to-worksheet-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Elektronik tablolara özel metin efektleri eklemek için WordArt'ı kullanın. Örneğin, bir başlığı dosyanın üst kısmına uzatın, metni süsleyin ve metni önceden ayarlanmış bir şekle sığdırın veya metni bir Excel sayfasına arka plan filigranı olarak uygulayın. WordArt, dekorasyon eklemek için elektronik tablolarda taşıyabileceğiniz veya konumlandırabileceğiniz bir nesne haline gelir.
+WordArt'ı kullanarak elektronik tablolara özel metin efektleri ekleyin. Örneğin, başlığı dosyanın üst kısmına uzatın, metni süsleyin ve metni önceden ayarlanmış bir şekle uygun hale getirin veya metni bir Excel çalışma sayfasına arka plan filigranı olarak uygulayın. WordArt, elektronik tablolara dekorasyon eklemek için taşıyabileceğiniz bir nesne haline gelir.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfası için arka plan filigranı ayarlamak üzere WordArt şeklinin nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfası için arka plan filigranı olarak bir WordArt şekli eklemenin nasıl yapıldığını göstermektedir.
 
-Kodu çalıştırdıktan sonra çıktı dosyası soluk kırmızı bir WordArt filigranı içerir.
+Kod çalıştırıldıktan sonra çıktı dosyası soluk kırmızı bir WordArt filigranı içerir.
 
-**çıktı dosyası** 
+**Çıkış dosyası** 
 
-![yapılacaklar:resim_alternatif_metin](picture1.png)
+![todo:image_alt_text](picture1.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -66,10 +67,10 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark)
 
-## **Çalışan Örneği İndirin**
+## **Örnek Çalışmayı İndir**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

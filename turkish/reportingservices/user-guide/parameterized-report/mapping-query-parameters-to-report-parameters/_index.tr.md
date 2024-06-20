@@ -1,41 +1,42 @@
-﻿---
-title: Sorgu Parametrelerini Rapor Parametrelerine Eşleme
+---
+title: Rapor Parametrelerini Sorgu Parametrelerine Eşleme
 type: docs
 weight: 30
 url: /tr/reportingservices/mapping-query-parameters-to-report-parameters/
 ---
-1. Microsoft Excel'i açın.
-1.  Tıklamak**Veri Kümesi Oluştur**Aspose.Cells.Report.Designer araç çubuğunda (
 
-![yapılacaklar:resim_alternatif_metin](mapping-query-parameters-to-report-parameters_1.png)
+1. Microsoft Excel'i açın.
+1. Aspose.Cells.Report.Designer araç çubuğunda **Veri Kümesi Oluştur**'a tıklayın (
+
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_1.png)
 
 ).
 
-1.  Sol panelde bir veri seti seçin, örneğin**EmpSalesDetay**. 
+1. Sol panelde bir veri kümesi seçin, örneğin **EmpSalesDetail**. 
 
-   **Bir veri seti seçme** 
+   **Bir veri kümesi seçme** 
 
-![yapılacaklar:resim_alternatif_metin](mapping-query-parameters-to-report-parameters_2.png)
-
-
-
-
-1. Veri kümesinin parametrelerini listelemek için sağ paneldeki Parametreler sekmesine tıklayın.
-1.  Tıkla**Bağlı Rapor Parametresi** kolon.
- Önceden oluşturulmuş tüm rapor parametreleri listelenir.
-1.  Bir parametre seçin.
-
-   **eşleme parametreleri** 
-
-![yapılacaklar:resim_alternatif_metin](mapping-query-parameters-to-report-parameters_3.png)
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_2.png)
 
 
 
 
-1.  Tüm sorgu parametrelerini rapor parametreleriyle eşlemek için tekrarlayın.
+1. Sağ panelde Parametreler sekmesine tıklayın ve veri kümesinin parametrelerini listeleyin.
+1. **Eşlenmiş Rapor Parametresi** sütununa tıklayın.
+   Önceden oluşturulmuş tüm rapor parametreleri listelenir. 
+1. Bir parametre seçin. 
+
+   **Parametreleri eşleme** 
+
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_3.png)
+
+
+
+
+1. Tüm sorgu parametrelerini rapor parametrelerine eşlemek için tekrarlayın. 
 
    **Eşleme tamamlandı** 
 
-![yapılacaklar:resim_alternatif_metin](mapping-query-parameters-to-report-parameters_4.png)
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_4.png)
 
-1.  Tıklamak**Kapalı**.
+1. **Kapat**'a tıklayın.

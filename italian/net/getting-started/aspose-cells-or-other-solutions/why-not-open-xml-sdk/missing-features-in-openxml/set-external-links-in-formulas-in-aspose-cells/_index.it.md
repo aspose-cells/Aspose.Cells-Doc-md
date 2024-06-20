@@ -1,20 +1,21 @@
-﻿---
+---
 title: Imposta collegamenti esterni nelle formule in Aspose.Cells
 type: docs
 weight: 90
 url: /it/net/set-external-links-in-formulas-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-A volte, è necessario includere collegamenti a file esterni nelle formule, ad esempio per valutare un valore di cella o intervallo in base a essi. Aspose.Cells fornisce questa funzione e questo documento spiega come utilizzarla.
+A volte è necessario includere collegamenti a file esterni nelle formule, ad esempio per valutare un valore di cella o di intervallo rispetto ad essi. Aspose.Cells fornisce questa funzionalità e questo documento spiega come utilizzarla.
 
 {{% /alert %}} 
 
-Il codice di esempio seguente mostra come includere file esterni nelle formule.
+Il codice di esempio qui sotto mostra come includere file esterni nelle formule.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -47,5 +48,5 @@ workbook.Save(FileName);
 {{< /highlight >}}
 ## **Scarica il codice di esempio**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Set%20External%20Links%20in%20Formula)
-## **Scarica l'esempio di esecuzione**
+## **Scarica Esempio in Esecuzione**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

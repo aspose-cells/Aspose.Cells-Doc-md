@@ -1,20 +1,21 @@
-﻿---
-title: Verschieben Sie die erste Zeile nach unten, wenn Sie Cells Datentabellenzeilen einfügen
+---
+title: Erste Zeile nach unten verschieben, wenn Datentabellenzeilen eingefügt werden
 type: docs
 weight: 180
 url: /de/java/shift-first-row-down-when-inserting-cells-data-table-rows/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells ermöglicht es Ihnen, die erste Zeile nach unten zu verschieben, wenn Sie eine Tabelle in das Arbeitsblatt einfügen. In diesem Dokument wird erläutert, wie Sie die Aufgabe mithilfe von Aspose.Cells-APIs ausführen können.
+## **Mögliche Verwendungsszenarien**
 
-## **Verschieben Sie die erste Zeile nach unten, wenn Sie Cells Datentabellenzeilen einfügen**
+Aspose.Cells ermöglicht es Ihnen, die erste Zeile nach unten zu verschieben, wenn Sie eine Tabelle in das Arbeitsblatt einfügen. Dieses Dokument erläutert, wie Sie die Aufgabe mithilfe der Aspose.Cells APIs ausführen können.
 
- Der folgende Beispielcode veranschaulicht, wie die erste Zeile nach unten verschoben wird, wenn eine Tabelle in das Arbeitsblatt eingefügt wird. Wir verwenden eine einfache Excel-Vorlagendatei im Code, um die Funktion zu demonstrieren. Sie können die Funktion ausführen, indem Sie den booleschen Wert setzen[**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#ShiftFirstRowDown) zuschreiben**Wahr falsch** um es besser zu verstehen. Bitte sehen Sie sich ... an[Beispiel-Excel-Datei](45056043.xlsx), [Excel-False-Datei ausgeben](45056044.xlsx) , und[Excel True-Datei ausgeben](45056045.xlsx)für ihre referenz.
+## **Erste Zeile nach unten verschieben beim Einfügen von Zellen-Datentabellenzeilen**
 
-## **Bildschirmfoto**
+Der folgende Beispielcode veranschaulicht, wie die erste Zeile nach unten verschoben wird, wenn eine Tabelle in das Arbeitsblatt eingefügt wird. Wir verwenden eine einfache Vorlagen-Excel-Datei im Code, um die Funktion zu demonstrieren. Sie können die Funktion ausüben, indem Sie das boolesche [**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#ShiftFirstRowDown)-Attribut auf **True/False** setzen, um es besser zu verstehen. Bitte beachten Sie die [Beispiel-Excel-Datei](45056043.xlsx), die [Ausgabedatei für False](45056044.xlsx) und die [Ausgabedatei für True](45056045.xlsx) zu Ihrer Referenz.
 
-![todo: Bild_alt_Text](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
+## **Screenshot**
+
+![todo:image_alt_text](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
 
 ## **Beispielcode**
 

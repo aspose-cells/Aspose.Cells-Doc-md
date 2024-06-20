@@ -1,21 +1,22 @@
-﻿---
-title: Cell Hizalama Ayarları
+---
+title: Hücre Hizalama Ayarları
 type: docs
 weight: 20
 url: /tr/java/cell-alignment-settings/
 ---
-## **Aspose.Cells - Cell Hizalama Ayarları**
-Aspose.Cells, bir Excel dosyasını temsil eden bir çalışma kitabı sınıfı sağlar. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası, Worksheet sınıfı tarafından temsil edilir.
 
-Worksheet sınıfı bir Cells koleksiyonu sağlar. Cells koleksiyonundaki her öğe, Cell sınıfının bir nesnesini temsil eder.
+## **Aspose.Cells - Hücre Hizalama Ayarları**
+Aspose.Cells, bir Excel dosyasını temsil eden bir Workbook sınıfını sağlar. Workbook sınıfı, Excel dosyasındaki her bir çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası, Worksheet sınıfı tarafından temsil edilir.
 
-Aspose.Cells, hücre biçimlendirmesinde kullanılan Cell sınıfında setStyle yöntemini sağlar. Style sınıfı, yazı tipi ayarlarını yapılandırmak için yararlı özellikler sağlar.
+Worksheet sınıfı bir Cells koleksiyonu sağlar. Cells koleksiyonundaki her bir öge, bir Hücre sınıfı nesnesini temsil eder.
+
+Aspose.Cells, Cell sınıfında hücrenin biçimlendirmesini sağlayan setStyle yöntemini sağlar. Style sınıfı, yazı tipi ayarlarını yapılandırmak için kullanışlı özellikler sağlar.
 
 TextAlignmentType numaralandırmasını kullanarak herhangi bir metin hizalama türünü seçin.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -48,14 +49,14 @@ style.setHorizontalAlignment(TextAlignmentType.CENTER);
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF & XSSF - Cell Hizalama Ayarları**
-HSSFCellStyle, Apache POI API'i kullanarak hücrelerde hizalama stili sağlar.
+## **Apache POI SS - HSSF & XSSF - Hücre Hizalama Ayarları**
+Apache POI API'sını kullanarak hücrelerde hizalama için HSSFCellStyle sağlar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws IOException
+ public static void main(String[] args) throws IOException
 
 {
 
@@ -128,11 +129,11 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/Java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/cellalignment)
+## **Örnek Kod İndir**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/cellalignment)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Hizalama Ayarlarını Yapılandırma](/cells/tr/java/data-formatting/).
+Daha fazla ayrıntı için [Hizalama Ayarlarını Yapılandırma](/cells/tr/java/data-formatting/) adresini ziyaret edin.
 
 {{% /alert %}}

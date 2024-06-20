@@ -1,12 +1,13 @@
-﻿---
-title: Eliminar control ActiveX
+---
+title: Eliminar Control ActiveX
 type: docs
 weight: 1000
 url: /es/net/remove-activex-control/
 ---
+
 ## **Eliminar control ActiveX**
 
- Aspose.Cells ofrece la posibilidad de eliminar ActiveX Control de los libros de trabajo. Para esto, el API proporciona el[**Forma.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol)método. El siguiente fragmento de código demuestra el uso de la[**Forma.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol)método para eliminar ActiveX Control.
+Aspose.Cells proporciona la capacidad para eliminar un Control ActiveX de hojas de cálculo. Para esto, la API proporciona el método [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol). El siguiente fragmento de código demuestra el uso del método [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol) para eliminar el Control ActiveX.
 
 ## **Código de muestra**
 

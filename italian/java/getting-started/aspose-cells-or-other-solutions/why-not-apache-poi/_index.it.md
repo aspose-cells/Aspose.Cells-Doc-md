@@ -1,164 +1,165 @@
-﻿---
-title: Aspose.Cells Java per Apache POI SS - HSSF e XSSF
+---
+title: Aspose.Cells Java for Apache POI SS  HSSF e XSSF
 linktitle: Perché non Apache POI
 type: docs
 weight: 40
 url: /it/java/aspose-cells-java-for-apache-poi-ss-hssf-and-xssf/
-description: Perché non Apache POI SS - HSSF e XSSF.
+description: Perché non Apache POI SS  HSSF e XSSF.
 ---
+
 {{% alert color="primary" %}}
-A volte riceviamo la seguente domanda: perché dovremmo usare i prodotti Aspose invece del POI di Apache? È facile rispondere a questa domanda: caratteristiche e funzionalità.
+A volte ci viene posta la seguente domanda: perché dovremmo utilizzare i prodotti Aspose anziché Apache POI? Questa domanda è facile da rispondere: funzionalità e funzionalità.
 {{% /alert %}}
 
 
 ## **Apache POI SS - HSSF e XSSF**
-**HSSF**è la pura Java implementazione del progetto POI del formato di file Excel '97(-2007).
-**XSSF** è la pura Java implementazione del progetto POI del formato di file Excel 2007 OOXML (.xlsx).
+**HSSF** è l'implementazione puramente Java del progetto POI del formato file Excel '97(-2007).
+**XSSF** è l'implementazione puramente Java del progetto POI del formato file Excel 2007 OOXML (.xlsx).
 
-HSSF e XSSF forniscono modi per leggere fogli di calcolo creare, modificare, leggere e scrivere fogli di calcolo XLS. Loro forniscono:
+HSSF e XSSF forniscono modi per leggere, creare, modificare, leggere e scrivere fogli di calcolo XLS. Forniscono:
 
-- strutture di basso livello per persone con bisogni speciali
-- un'API eventmodel per un accesso efficiente in sola lettura
-- un'API usermodel completa per creare, leggere e modificare i file XLS
+- strutture a basso livello per coloro con esigenze speciali
+- un api di eventmodel per un accesso efficiente in sola lettura
+- un'api di usermodel completa per la creazione, la lettura e la modifica dei file XLS
 
- Leggi di più su[poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
+Leggi di più su [poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF e formati di file immagine nelle proprie applicazioni Java senza dover fare affidamento su Microsoft Excel®.
+Aspose.Cells for Java è un premiato componente di fogli di calcolo Excel che consente ai programmatori Java di incorporare la capacità di leggere, scrivere e manipolare fogli di calcolo Excel® (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF e formati di file immagine nei propri applicazioni Java senza dover fare affidamento su Microsoft Excel®.
 
-Aspose.Cells for Java è un componente maturo, scalabile e ricco di funzionalità che offre molte funzioni che vanno ben oltre le semplici capacità di esportazione dei dati di altri fornitori. Con Aspose.Cells for Java gli sviluppatori possono esportare dati, formattare fogli di calcolo al livello più granulare, importare immagini, creare grafici, applicare e calcolare formule complesse, eseguire lo streaming di dati Excel®, salvare in vari formati e molto altro - tutto questo senza bisogno di Microsoft Excel® o Microsoft Domotica.
+Aspose.Cells for Java è un componente maturo, scalabile e ricco di funzionalità che offre molte funzioni che vanno ben oltre le semplici capacità di esportazione dati di altri venditori. Con Aspose.Cells for Java, i programmatori possono esportare dati, formattare fogli di calcolo al livello più granulare, importare immagini, creare grafici, applicare e calcolare formule complesse, trasmettere dati da Excel®, salvare in vari formati e molto altro, tutto ciò senza la necessità di Microsoft Excel® o Automazione di Microsoft Office.
 
- Leggi di più su[aspose.com](https://products.aspose.com/cells/java/)
+Leggi di più su [aspose.com](https://products.aspose.com/cells/java/)
 
 ## **Perché non Apache POI SS - HSSF e XSSF**
 
-Vale la pena notare che alcune attività possono essere eseguite con Aspose.Cells, ma non possono essere eseguite con Apache POI. Ad esempio, se devi convertire i file Excel in Pdf, JSON e immagini, non puoi utilizzare solo Apache POI, hai bisogno anche di Microsoft Excel 365 o altri strumenti.
+È interessante notare che alcune attività possono essere realizzate con Aspose.Cells, ma non possono essere completate con Apache POI. Ad esempio, se hai bisogno di convertire file Excel in Pdf, JSON e immagini, allora non puoi utilizzare solo Apache POI, hai anche bisogno di Microsoft Excel 365 o di altri strumenti.
 
-Puoi confrontare POI con Aspose.Cells Per fare ciò, ti suggeriamo di familiarizzare con il progetto Aspose.Cells per POI (HSSF e XSSF) – mostra come diverse attività possono essere eseguite utilizzando Aspose.Cells per .Java API rispetto a POI. Il progetto copre anche funzionalità per lavorare con documenti di testo che sono disponibili solo in Aspose.Cells, ma non in Apache POI.
+Puoi confrontare POI con Aspose.Cells Per fare ciò, ti suggeriamo di familiarizzare con il progetto Aspose.Cells for POI (HSSF e XSSF) - mostra come diverse attività possono essere realizzate utilizzando l'API Aspose.Cells for .Java rispetto a POI. Il progetto copre anche funzionalità per lavorare con documenti di testo che sono disponibili solo in Aspose.Cells, ma non in Apache POI.
 
-Questo progetto è utile anche per gli sviluppatori che desiderano migrare da POI a Aspose.Cells.
+Questo progetto è anche utile per gli sviluppatori che vogliono migrare da POI ad Aspose.Cells.
 
 {{% alert color="primary" %}}
 
- Esplorare[il plug-in con esempi di codice sorgente delle caratteristiche Aspose.Cells for Java rispetto a POI](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0).
+Esplora [il plugin con esempi di codice sorgente di Aspose.Cells for Java funzionalità a confronto con POI](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0).
 
- Questo plugin utilizza la versione di valutazione di Aspose.Cells. Quando sei soddisfatto della tua valutazione, puoi acquistare una licenza dal[Aspose sito web](https://purchase.aspose.com/buy) . Per rimuovere il messaggio di valutazione e le limitazioni delle funzionalità, è necessario applicare una licenza del prodotto. Dopo aver acquistato il prodotto, riceverai un file di licenza. Si prega di seguire le istruzioni in["Licenza e abbonamento"](/cells/it/java/licensing/) articolo per farlo.
+Questo plugin utilizza la versione di valutazione di Aspose.Cells. Quando sei soddisfatto della tua valutazione, puoi acquistare una licenza dal [sito web di Aspose](https://purchase.aspose.com/buy). Per rimuovere il messaggio di valutazione e le limitazioni delle funzionalità, devi applicare una licenza del prodotto. Dopo l'acquisto del prodotto, riceverai un file di licenza. Segui le istruzioni nell'articolo ["Licenze e abbonamenti"](/cells/it/java/licensing/) per farlo.
 
 {{% /alert %}}
 
-Nelle sezioni e negli articoli seguenti, daremo un'occhiata più da vicino ad alcune delle funzionalità e abilità fornite da Aspose.Cells.
+Nelle sezioni e negli articoli seguenti, approfondiremo alcune delle funzionalità e delle capacità fornite da Aspose.Cells.
 
 ### Stabilità
 
-Aspose i componenti sono accuratamente testati. Poiché i componenti Aspose sono confezionati in un singolo JAR, non sarà mai necessario installare parti o pezzi aggiuntivi per il loro funzionamento. Ciò consente non solo di fornire un lavoro stabile con Aspose.Cells, ma anche di ridurre praticamente a zero il rischio di situazioni impreviste.
+I componenti di Aspose sono attentamente testati. Poiché i componenti di Aspose sono confezionati in un unico JAR, non sarà mai necessario installare parti o pezzi aggiuntivi affinché funzionino. Questo consente non solo di garantire un lavoro stabile con Aspose.Cells, ma anche di ridurre il rischio di situazioni impreviste praticamente a zero.
 
-### Scalabilità e velocità
+### Scalabilità e Velocità
 
-Aspose sono altamente scalabili e velocissimi. Sono una vera soluzione .NET e funzionano in modo impeccabile su un singolo server che alimenta una singola applicazione o su una web farm con bilanciamento del carico che alimenta un'applicazione aziendale.
+I componenti Aspose sono altamente scalabili e veloci. Sono una vera soluzione .NET e si comportano in modo impeccabile sia su un singolo server che alimenta un'applicazione singola, sia su un web farm bilanciato che alimenta un'applicazione aziendale.
 
-### Caratteristiche
+### Funzionalità
 
-I componenti Aspose forniscono tutto il necessario per gestire i file di Office e molto altro ancora. Sono progettati con la filosofia di consentire agli sviluppatori di ottenere i massimi risultati con la minima quantità di lavoro.
+I componenti Aspose forniscono tutto ciò di cui hai bisogno per gestire i file di Office, e molto altro ancora. Sono progettati con la filosofia di consentire ai programmatori di ottenere i risultati migliori con il minor sforzo possibile.
 
- componenti Aspose forniscono molte potenti funzioni per risparmiare tempo. Per esempio,[Aspose.Cells](https://products.aspose.com/cells/java/) offre una funzionalità che consente agli sviluppatori di importare JSON in file Excel. Vale la pena notare che ogni componente della famiglia Aspose offre il proprio set di funzionalità uniche e potenti.
+I componenti di Aspose forniscono molte funzioni potenti che permettono di risparmiare tempo. Ad esempio, [Aspose.Cells](https://products.aspose.com/cells/java/) offre una funzionalità che consente agli sviluppatori di importare JSON nei file Excel. È utile notare che ogni componente della famiglia Aspose offre il proprio set di funzionalità uniche e potenti.
 
-## **Supporto, estensione e contributo**
+## **Supporto, Estendi e Contribuisci**
 ### **Supporto**
-Fin dai primi giorni di Aspose, sapevamo che solo dare ai nostri clienti buoni prodotti non sarebbe bastato. Avevamo anche bisogno di fornire un buon servizio. Siamo sviluppatori noi stessi e comprendiamo quanto sia frustrante quando un problema tecnico o una stranezza nel software ti impedisce di fare ciò che devi fare. Siamo qui per risolvere i problemi, non per crearli.
+Fin dai primi giorni di Aspose, sapevamo che fornire ai nostri clienti solo buoni prodotti non sarebbe stato sufficiente. Dovevamo anche offrire un buon servizio. Siamo anche sviluppatori e comprendiamo quanto sia frustrante quando un problema tecnico o una stranezza nel software ti impedisce di fare ciò che devi fare. Siamo qui per risolvere i problemi, non per crearli.
 
-Per questo offriamo assistenza gratuita. Chiunque utilizzi il nostro prodotto, sia che lo abbia acquistato o che stia utilizzando una valutazione, merita la nostra piena attenzione e rispetto.
+Ecco perché offriamo un supporto gratuito. Chiunque utilizzi il nostro prodotto, che li abbia acquistati o li stia usando in valutazione, merita la nostra piena attenzione e rispetto.
 
-È possibile registrare eventuali problemi o suggerimenti relativi a Aspose.Cells Java per Apache POI SS - HSSF e XSSF utilizzando una delle seguenti piattaforme:
+Puoi registrare eventuali problemi o suggerimenti relativi a Aspose.Cells Java per Apache POI SS - HSSF e XSSF utilizzando una delle seguenti piattaforme:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
-### **Estendi e contribuisci**
-Aspose.Cells Java per Apache POI (HSSF+XSSF) è open source e il suo codice sorgente è disponibile sui principali siti Web di social coding elencati di seguito. Gli sviluppatori sono incoraggiati a scaricare il codice sorgente ea contribuire suggerendo o aggiungendo nuove funzionalità o migliorando quelle esistenti, in modo che anche altri possano trarne vantaggio.
-### **Codice sorgente**
-È possibile ottenere il codice sorgente più recente da una delle seguenti posizioni
+### **Estensione e Contribuzione**
+Aspose.Cells Java per Apache POI (HSSF+XSSF) è open source e il suo codice sorgente è disponibile sui principali siti di codice sociale elencati di seguito. Gli sviluppatori sono incoraggiati a scaricare il codice sorgente e contribuire suggerendo o aggiungendo nuove funzionalità o migliorando quelle esistenti, in modo che anche gli altri possano trarne beneficio.
+### **Codice Sorgente**
+Puoi ottenere l'ultimo codice sorgente da uno dei seguenti siti
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 ### **Come configurare il codice sorgente**
-Si prega di seguire questi semplici passaggi per aprire ed estendere il codice sorgente durante l'utilizzo:
+Si prega di seguire questi semplici passaggi per aprire ed estendere il codice sorgente durante l'uso:
 #### **Eclipse IDE**
-1. Scarica/clona il codice sorgente.
-1.  Apri Eclipse e scegli**File** > **Importare...**
-1. Selezionare**Generale** > **Progetti esistenti in Workspace**.
-1. Sfoglia per**selezionare la directory principale**dell'ultimo codice sorgente che hai scaricato.
-1. Clic**Fine**per importare correttamente il progetto scaricato.
-#### **IDE di NetBeans**
-1. Scarica/clona il codice sorgente.
-1. Apri NetBeans e scegli**File** > **Nuovo progetto...**
-1.  In**Scegli Progetto** scheda: Seleziona**Java** > **Java Progetto con Fonti Esistenti**.
-1.  In**Nome e posizione** scheda: Fornisci il tuo desiderato**Nome del progetto** e**Cartella del progetto**.
-1.  In**Fonti esistenti** scheda: fare clic**Aggiungi cartella...** e sfoglia per selezionare la directory principale dell'ultimo codice sorgente che hai scaricato.
-1.  Clic**Fine** per creare correttamente il progetto scaricato.
+1. Scarica/Clona il codice sorgente.
+1. Apri Eclipse e Scegli **File** > **Importa...**
+1. Seleziona **Generale** > **Progetti Esistenti nel Workspace**.
+1. Passa a **selezionare la directory principale** dell'ultima versione del codice sorgente che hai scaricato.
+1. Fare clic su **Fine** per importare con successo il progetto scaricato.
+#### **NetBeans IDE**
+1. Scarica/Clona il codice sorgente.
+1. Apri NetBeans e scegli **File** > **Nuovo Progetto...**
+1. Nella scheda **Scegli Progetto**: Seleziona **Java** > **Progetto Java con Sorgenti Esistenti**.
+1. Nella scheda **Nome e Posizione**: Fornisci il **Nome del Progetto** desiderato e la **Cartella del Progetto**.
+1. Nella scheda **Sorgenti Esistenti**: Fare clic su **Aggiungi Cartella...** e navigare per selezionare la directory radice del codice sorgente più recente scaricato.
+1. Fare clic su **Fine** per creare con successo il progetto scaricato.
 ## **Esempi di codice di esempio**
 Questa sezione include i seguenti argomenti
 
-- [Confronto di codici per caratteristiche comuni in Aspose.Cells e Apache POI - HSSF e XSSF](/cells/it/java/code-comparison-for-common-features-in-aspose-cells-and-apache-poi-hssf-and-xssf/)
-  - [Utilizzo dei fogli di lavoro in Apache POI e Aspose.Cells](/cells/it/java/working-with-worksheets-in-apache-poi-and-aspose-cells/)
-    - [Crea nuovo foglio di lavoro](/cells/it/java/create-new-worksheet/)
-    - [Aggiungi immagini nel foglio di lavoro](/cells/it/java/add-images-in-worksheet/)
-    - [Converti foglio di lavoro in CSV](/cells/it/java/convert-worksheet-to-csv/)
-    - [Copia foglio all'interno della cartella di lavoro](/cells/it/java/copy-sheet-within-workbook/)
-    - [Riordina i fogli all'interno della cartella di lavoro](/cells/it/java/re-order-sheets-within-workbook/)
-    - [Intestazione e piè di pagina](/cells/it/java/header-and-footers/)
-    - [Zoom Factor utilizzando Apache POI e Aspose.Cells](/cells/it/java/zoom-factor-using-apache-poi-and-aspose-cells/)
-  - [Lavorare con le cartelle di lavoro in Apache POI e Aspose.Cells](/cells/it/java/working-with-workbooks-in-apache-poi-and-aspose-cells/)
-    - [Aggiungi dati in Cells](/cells/it/java/add-data-in-cells/)
-    - [Crea nuova cartella di lavoro](/cells/it/java/create-new-workbook/)
-    - [Imposta pagina - Adatta alla pagina](/cells/it/java/page-setup-fit-to-page-setting/)
-    - [Imposta area di stampa](/cells/it/java/set-print-area/)
-  - [Utilizzo di Cells, righe e colonne in Apache POI e Aspose.Cells](/cells/it/java/working-with-cells-rows-and-columns-in-apache-poi-and-aspose-cells/)
-    - [Adatta riga e colonna automaticamente](/cells/it/java/auto-fit-row-and-column/)
-    - [Cell Impostazioni allineamento](/cells/it/java/cell-alignment-settings/)
-    - [Nascondi e scopri Cells](/cells/it/java/hide-and-unhide-cells/)
-    - [Inserisci i commenti Cell](/cells/it/java/insert-cell-comments/)
-    - [Itera righe e colonne](/cells/it/java/iterate-rows-and-columns/)
-    - [Unisci Cells](/cells/it/java/merge-cells/)
-    - [Riquadri divisi in Apache POI e Aspose.Cells](/cells/it/java/split-panes-in-apache-poi-and-aspose-cells/)
-    - [Congela riquadri in Apache POI e Aspose.Cells](/cells/it/java/freeze-panes-in-apache-poi-and-aspose-cells/)
-    - [Crea data Cell in Apache POI e Aspose.Cells](/cells/it/java/create-date-cell-in-apache-poi-and-aspose-cells/)
-    - [Crea diversi tipi Cell in Apache POI e Aspose.Cells](/cells/it/java/create-different-cell-types-in-apache-poi-and-aspose-cells/)
+- [Confronto del Codice per le Funzionalità Comuni in Aspose.Cells e Apache POI - HSSF e XSSF](/cells/it/java/code-comparison-for-common-features-in-aspose-cells-and-apache-poi-hssf-and-xssf/)
+  - [Lavorare con i Fogli di Lavoro in Apache POI e Aspose.Cells](/cells/it/java/working-with-worksheets-in-apache-poi-and-aspose-cells/)
+    - [Creare un nuovo Foglio di Lavoro](/cells/it/java/create-new-worksheet/)
+    - [Aggiungere Immagini nel Foglio di Lavoro](/cells/it/java/add-images-in-worksheet/)
+    - [Convertire il Foglio di Lavoro in CSV](/cells/it/java/convert-worksheet-to-csv/)
+    - [Copia Foglio all'Interno del Workbook](/cells/it/java/copy-sheet-within-workbook/)
+    - [Riordinare i Fogli all'Interno del Workbook](/cells/it/java/re-order-sheets-within-workbook/)
+    - [Intestazioni e Piè di Pagina](/cells/it/java/header-and-footers/)
+    - [Fattore di Zoom utilizzando Apache POI e Aspose.Cells](/cells/it/java/zoom-factor-using-apache-poi-and-aspose-cells/)
+  - [Lavorare con i Workbooks in Apache POI e Aspose.Cells](/cells/it/java/working-with-workbooks-in-apache-poi-and-aspose-cells/)
+    - [Aggiungere Dati nelle Celle](/cells/it/java/add-data-in-cells/)
+    - [Creare un nuovo Workbook](/cells/it/java/create-new-workbook/)
+    - [Impostazioni Pagina - Impostazione di Adattamento alla Pagina](/cells/it/java/page-setup-fit-to-page-setting/)
+    - [Impostare l'area di stampa](/cells/it/java/set-print-area/)
+  - [Lavorare con le celle, le righe e le colonne in Apache POI e Aspose.Cells](/cells/it/java/working-with-cells-rows-and-columns-in-apache-poi-and-aspose-cells/)
+    - [Adattamento Automatico della Riga e della Colonna](/cells/it/java/auto-fit-row-and-column/)
+    - [Impostazioni di Allineamento della Cellula](/cells/it/java/cell-alignment-settings/)
+    - [Nascondere e Mostrare le Celle](/cells/it/java/hide-and-unhide-cells/)
+    - [Inserire Commenti nella Cellula](/cells/it/java/insert-cell-comments/)
+    - [Iterare Riga e Colonna](/cells/it/java/iterate-rows-and-columns/)
+    - [Unisci celle](/cells/it/java/merge-cells/)
+    - [Dividi riquadri in Apache POI e Aspose.Cells](/cells/it/java/split-panes-in-apache-poi-and-aspose-cells/)
+    - [Blocca riquadri in Apache POI e Aspose.Cells](/cells/it/java/freeze-panes-in-apache-poi-and-aspose-cells/)
+    - [Crea cella di data in Apache POI e Aspose.Cells](/cells/it/java/create-date-cell-in-apache-poi-and-aspose-cells/)
+    - [Crea tipi di cella diversi in Apache POI e Aspose.Cells](/cells/it/java/create-different-cell-types-in-apache-poi-and-aspose-cells/)
   - [Lavorare con i dati in Apache POI e Aspose.Cells](/cells/it/java/working-with-data-in-apache-poi-and-aspose-cells/)
-    - [Ottenere Cell Contenuto](/cells/it/java/getting-cell-contents/)
-    - [Inserisci collegamenti ipertestuali nel foglio di lavoro](/cells/it/java/insert-hyperlinks-in-worksheet/)
-    - [Nuova Linea allo Cells](/cells/it/java/new-line-in-cells/)
+    - [Ottenere contenuti delle celle](/cells/it/java/getting-cell-contents/)
+    - [Inserisci collegamenti ipertestuali in foglio di lavoro](/cells/it/java/insert-hyperlinks-in-worksheet/)
+    - [Nuova riga in celle](/cells/it/java/new-line-in-cells/)
     - [Crea tabelle pivot utilizzando Apache POI e Aspose.Cells](/cells/it/java/create-pivot-tables-using-apache-poi-and-aspose-cells/)
     - [Crea grafici utilizzando Apache POI e Aspose.Cells](/cells/it/java/create-charts-using-apache-poi-and-aspose-cells/)
-  - [Utilizzo delle funzioni di formattazione in Apache POI e Aspose.Cells](/cells/it/java/working-with-formatting-features-in-apache-poi-and-aspose-cells/)
+  - [Lavorare con le funzionalità di formattazione in Apache POI e Aspose.Cells](/cells/it/java/working-with-formatting-features-in-apache-poi-and-aspose-cells/)
     - [Lavorare con i bordi in Apache POI e Aspose.Cells](/cells/it/java/working-with-borders-in-apache-poi-and-aspose-cells/)
     - [Lavorare con i colori in Apache POI e Aspose.Cells](/cells/it/java/working-with-colors-in-apache-poi-and-aspose-cells/)
     - [Lavorare con i caratteri in Apache POI e Aspose.Cells](/cells/it/java/working-with-fonts-in-apache-poi-and-aspose-cells/)
-- [Aspose.Cells funzionalità mancanti in Apache POI SS - HSSF e XSSF](/cells/it/java/aspose-cells-features-missing-in-apache-poi-ss-hssf-and-xssf/)
-  - [Funzioni di gestione dei dati utilizzando Aspose.Cells](/cells/it/java/data-handling-features-using-aspose-cells/)
-    - [Trova valore in Cells utilizzando Aspose.Cells](/cells/it/java/find-value-in-cells-using-aspose-cells/)
-    - [Calcola i totali parziali utilizzando Aspose.Cells](/cells/it/java/calculate-sub-totals-using-aspose-cells/)
-    - [Importa dati in fogli di lavoro utilizzando Aspose.Cells](/cells/it/java/import-data-to-worksheets-using-aspose-cells/)
-    - [Esporta dati da fogli di lavoro](/cells/it/java/export-data-from-worksheets/)
+- [Funzionalità di Aspose.Cells mancanti in Apache POI SS - HSSF e XSSF](/cells/it/java/aspose-cells-features-missing-in-apache-poi-ss-hssf-and-xssf/)
+  - [Funzionalità di gestione dei dati utilizzando Aspose.Cells](/cells/it/java/data-handling-features-using-aspose-cells/)
+    - [Trova Valore nelle celle utilizzando Aspose.Cells](/cells/it/java/find-value-in-cells-using-aspose-cells/)
+    - [Calcola Subtotali utilizzando Aspose.Cells](/cells/it/java/calculate-sub-totals-using-aspose-cells/)
+    - [Importa dati nei fogli di lavoro utilizzando Aspose.Cells](/cells/it/java/import-data-to-worksheets-using-aspose-cells/)
+    - [Esporta dati dai fogli di lavoro](/cells/it/java/export-data-from-worksheets/)
     - [Motore di calcolo delle formule in Aspose.Cells](/cells/it/java/formula-calculation-engine-in-aspose-cells/)
-    - [Tracciare precedenti e dipendenti utilizzando Aspose.Cells](/cells/it/java/tracing-precedents-and-dependents-using-aspose-cells/)
+    - [Tracciatura dei precedenti e dei dipendenti utilizzando Aspose.Cells](/cells/it/java/tracing-precedents-and-dependents-using-aspose-cells/)
     - [Ordina i dati nei fogli di calcolo](/cells/it/java/sort-data-in-spreadsheets/)
   - [Lavorare con i fogli di lavoro utilizzando Aspose.Cells](/cells/it/java/working-with-worksheets-using-aspose-cells/)
-    - [Aggiungi filigrana Word Art al foglio di lavoro utilizzando Aspose.Cells](/cells/it/java/add-word-art-watermark-to-worksheet-using-aspose-cells/)
-    - [Converti cartella di lavoro in HTML utilizzando Aspose.Cells](/cells/it/java/convert-workbook-to-html-using-aspose-cells/)
-    - [Rileva Merged Cells utilizzando Aspose.Cells](/cells/it/java/detect-merged-cells-using-aspose-cells/)
-    - [Mostra e nascondi le barre di scorrimento delle cartelle di lavoro](/cells/it/java/display-and-hide-scrollbars-of-workbooks/)
-    - [Mostra e nascondi le schede della cartella di lavoro utilizzando Aspose.Cells](/cells/it/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
-    - [Crittografare la cartella di lavoro utilizzando Aspose.Cells](/cells/it/java/encrypt-workbook-using-aspose-cells/)
-    - [Leggi il file CSV con più codifiche](/cells/it/java/read-csv-file-with-multiple-encodings/)
-    - [Salva ogni foglio di lavoro in un diverso PDF utilizzando Aspose.Cells](/cells/it/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+    - [Aggiungi un'immagine di testo artistico al foglio di lavoro utilizzando Aspose.Cells](/cells/it/java/add-word-art-watermark-to-worksheet-using-aspose-cells/)
+    - [Converti il foglio di lavoro in HTML utilizzando Aspose.Cells](/cells/it/java/convert-workbook-to-html-using-aspose-cells/)
+    - [Rileva celle unite utilizzando Aspose.Cells](/cells/it/java/detect-merged-cells-using-aspose-cells/)
+    - [Visualizza e nascondi le barre di scorrimento dei fogli di lavoro](/cells/it/java/display-and-hide-scrollbars-of-workbooks/)
+    - [Visualizza e nascondi le schede di lavoro utilizzando Aspose.Cells](/cells/it/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
+    - [Crittografa il foglio di lavoro utilizzando Aspose.Cells](/cells/it/java/encrypt-workbook-using-aspose-cells/)
+    - [Leggi file CSV con più codifiche](/cells/it/java/read-csv-file-with-multiple-encodings/)
+    - [Salva ciascun foglio di lavoro in PDF diversi utilizzando Aspose.Cells](/cells/it/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
     - [Imposta il colore della scheda del foglio di lavoro in Aspose.Cells](/cells/it/java/set-worksheet-tab-color-in-aspose-cells/)
-  - [Utilizzo dei grafici in Aspose.Cells](/cells/it/java/working-with-charts-in-aspose-cells/)
-    - [Aggiungi filigrana Word Art al grafico](/cells/it/java/add-word-art-watermark-to-chart/)
-    - [Cambia la posizione e le dimensioni del grafico](/cells/it/java/change-chart-position-and-size/)
-    - [Converti grafico in immagini utilizzando Aspose.Cells](/cells/it/java/convert-chart-to-images-using-aspose-cells/)
-    - [Crea grafici pivot utilizzando Aspose.Cells](/cells/it/java/create-pivot-charts-using-aspose-cells/)
-  - [Esempi vari di Aspose.Cells](/cells/it/java/miscellaneous-examples-of-aspose-cells/)
-    - [Imposta i titoli di stampa](/cells/it/java/set-print-titles/)
-    - [Stampa di cartelle di lavoro utilizzando Aspose.Cells](/cells/it/java/printing-workbooks-using-aspose-cells/)
-    - [Converti foglio di calcolo in PDF utilizzando Aspose.Cells](/cells/it/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
+  - [Lavorare con i grafici in Aspose.Cells](/cells/it/java/working-with-charts-in-aspose-cells/)
+    - [Aggiungi un'immagine di testo artistico al grafico](/cells/it/java/add-word-art-watermark-to-chart/)
+    - [Modifica Posizione e Dimensioni del Grafico](/cells/it/java/change-chart-position-and-size/)
+    - [Converti Grafico in Immagini utilizzando Aspose.Cells](/cells/it/java/convert-chart-to-images-using-aspose-cells/)
+    - [Crea Grafici Pivot utilizzando Aspose.Cells](/cells/it/java/create-pivot-charts-using-aspose-cells/)
+  - [Esempi Vari di Aspose.Cells](/cells/it/java/miscellaneous-examples-of-aspose-cells/)
+    - [Impostare i titoli di stampa](/cells/it/java/set-print-titles/)
+    - [Stampa dei Workbook utilizzando Aspose.Cells](/cells/it/java/printing-workbooks-using-aspose-cells/)
+    - [Converti Foglio di Calcolo in PDF utilizzando Aspose.Cells](/cells/it/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
 
-## Guarda anche
+## Vedi Anche
 
 * [Maggiori informazioni su Apache POI](https://poi.apache.org/)

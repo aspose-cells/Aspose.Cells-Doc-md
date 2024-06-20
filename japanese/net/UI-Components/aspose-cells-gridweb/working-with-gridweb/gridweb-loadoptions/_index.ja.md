@@ -1,23 +1,25 @@
 ---
-title: GridWeb の LoadOptions
+title: GridWebのためのLoadOptions
 type: docs
 weight: 90
-url: /ja/net/aspose-cells-gridweb/loadoptions/
-keywords: loadoption,loadoptions,setting,
+url: /ja/net/aspose-cells-gridweb/aspose-cells-gridweb/loadoptions/
+keywords: loadoption、loadoptions、setting、load、options、option
+description: この記事ではGridWebでのロードオプションの使用方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-ファイルをインポートする前に設定できるロードオプションがいくつかあります。
+ファイルをインポートする前に設定できるいくつかのロードオプションがあります。
 
-私たちは使うことができます[グリッドロードオプション](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridloadoptions/)(一般的なファイルの場合) および[GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridtxtloadoptions/) (csvファイルの場合)
- 
+[GridLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridloadoptions/)（一般的なファイル用）および[GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridtxtloadoptions/)（csvファイル用）を使用できます	
+
 {{% /alert %}} 
-##  **他のエンコードでロードする**
-csv ファイルの場合、実際にはテキストベースのファイルであり、xlsx 形式ファイルに記述されている特定のエンコーディングはありません。
+## **他のエンコードでロードする**
+csvファイルの場合、実際にはxlsx形式ファイルに記載されている特定のエンコードがありません。
 
 したがって、ユーザーはファイルをロードする前に特定の文字エンコーディングを設定できます。
 
-これは中国語でロードするサンプルコードです:
+中国語でロードするサンプルコードが以下に示されています:
 
 ```csharp
     GridTxtLoadOptions topt = new GridTxtLoadOptions();

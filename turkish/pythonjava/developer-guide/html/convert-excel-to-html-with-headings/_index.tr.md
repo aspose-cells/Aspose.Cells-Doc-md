@@ -1,14 +1,15 @@
-﻿---
-title: Excel'i başlıklarla HTML'e dönüştürün
+---
+title: Başlıkları İle Excel i HTML e Dönüştürme
 type: docs
 weight: 10
 url: /tr/python-java/convert-excel-to-html-with-headings/
 ---
-## **Excel'i başlıklarla HTML'e dönüştürün**
-Aspose.Cells, Excel'i HTML'e dönüştürürken satır ve sütun başlıklarını dışa aktarma seçeneği sunar. Bu,[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings)API tarafından sağlanan özellik. Varsayılan değer[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) dır-dir**YANLIŞ** . Geçmek**Doğru** HTML çıktı dosyasında başlıkları işlemek için parametre olarak. Aşağıdaki görüntü, aşağıdaki kod tarafından oluşturulan çıktı dosyasını gösterir.
 
-![yapılacaklar:resim_alternatif_metin](PrintHeadings.jpg)
+## **Başlıkları İle Excel'i HTML'e Dönüştürme**
+Aspose.Cells, Excel'i HTML'e dönüştürürken sütun ve satır başlıklarını dışa aktarma seçeneği sunar. Bu, API tarafından sağlanan [HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) özelliği kullanılarak elde edilebilir. [HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) 'in varsayılan değeri **False**' dur. Başlıkları çıktı HTML dosyasına renderlamak için parametre olarak **True** 'yi geçirin. Aşağıdaki resim, aşağıdaki kod tarafından oluşturulan çıktı dosyasını gösterir
 
-Aşağıdaki örnek kod,[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings)çıktı HTML dosyasındaki başlıkları işleme özelliği.
-## **Basit kod**
+![todo:image_alt_text](PrintHeadings.jpg)
+
+Aşağıdaki örnek kod, başlıkları çıktı HTML dosyasında renderlamak için [HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) özelliğini kullanmayı gösterir.
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-GetHTML5StringFromCell.py" >}}

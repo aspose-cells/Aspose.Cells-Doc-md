@@ -1,25 +1,26 @@
-﻿---
-title: Установка теней для текстовых эффектов фигуры или текстового поля
+---
+title: Установка тени текстовых эффектов формы или текстового поля
 type: docs
 weight: 670
 url: /ru/java/setting-shadow-of-text-effects-of-shape-or-textbox/
 ---
+
 {{% alert color="primary" %}} 
 
- Вы можете установить**Тень** из**Текстовые эффекты** любой фигуры или текстового поля. Пожалуйста, используйте[Shape.TextBody](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody) имущество. Он представляет настройку текста формы и возвращает[FontSettingCollection](https://reference.aspose.com/cells/java/com.aspose.cells/FontSettingCollection) . После доступа[Настройка шрифта](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) от него, пожалуйста, установите**Тень** с помощью[FontSetting.getTextOptions().getShadow().setPresetType()](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#PresetType) имущество. Это свойство имеет тип[PresetShadowType](https://reference.aspose.com/cells/java/com.aspose.cells/PresetShadowType)который имеет несколько значений. Некоторые из них
+Вы можете установить **тень** **текстовых эффектов** любой формы или текстового поля. Пожалуйста, используйте свойство [Shape.TextBody](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody). Оно представляет настройку текста формы и возвращает [FontSettingCollection](https://reference.aspose.com/cells/java/com.aspose.cells/FontSettingCollection). После получения доступа к [FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) из него, установите **тень** через свойство [FontSetting.getTextOptions().getShadow().setPresetType()](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#PresetType). Это свойство имеет тип [PresetShadowType](https://reference.aspose.com/cells/java/com.aspose.cells/PresetShadowType), у которого есть несколько значений. Некоторые из них:
 
-- [КОМПЕНСИРОВАТЬ_ДИАГОНАЛЬ_ВНИЗУ СПРАВА](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_BOTTOM_RIGHT)
-- [OFFSET_BOTTOM](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_BOTTOM)
-- [КОМПЕНСИРОВАТЬ_ДИАГОНАЛЬ_В ПРАВОМ ВЕРХНЕМ УГЛУ](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_TOP_RIGHT)
-- [INSIDE_LEFT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE_LEFT)
-- [ВНУТРИ_ЦЕНТРА](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE_CENTER)
-- [ПЕРСПЕКТИВА_ДИАГОНАЛЬ_ВЕРХНИЙ ЛЕВЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_LEFT)
-- [ПЕРСПЕКТИВА_ДИАГОНАЛЬ_ВЕРХНИЙ ПРАВЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_RIGHT)
+- [СМЕЩЕНИЕ_ДИАГОНАЛЬНОЕ_СНИЗУ_СПРАВА](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_BOTTOM_RIGHT)
+- [СМЕЩЕНИЕ_СНИЗУ](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_BOTTOM)
+- [СМЕЩЕНИЕ_ДИАГОНАЛЬНОЕ_СВЕРХУ_СПРАВА](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_TOP_RIGHT)
+- [ВНУТРИ_СЛЕВА](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE_LEFT)
+- [ВНУТРИ_ПО_ЦЕНТРУ](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE_CENTER)
+- [ПЕРСПЕКТИВА_ДИАГОНАЛЬНАЯ_ВЕРХНЯЯ_СЛЕВА](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_LEFT)
+- [ПЕРСПЕКТИВА_ДИАГОНАЛЬНАЯ_ВЕРХНЯЯ_СПРАВА](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_RIGHT)
 
 {{% /alert %}} 
-## **Установка теней для текстовых эффектов фигуры или текстового поля**
-На следующем снимке экрана показано[выходной файл excel](5473446.xlsx) созданный с помощью следующего примера кода. На скриншоте также показано значение**Тень** который был установлен как**Смещение снизу**.
+## **Настройка тени текстовых эффектов формы или текстового поля**
+На следующем снимке экрана показан [исходный файл Excel вывода](5473446.xlsx), сгенерированный с помощью следующего образцового кода. На снимке экрана также показано значение **тени**, которое было установлено как **Нижняя граница**.
 
-![дело:изображение_альтернативный_текст](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
+![todo:image_alt_text](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingTextEffectsShadowOfShapeOrTextbox-SettingTextEffectsShadowOfShapeOrTextbox.java" >}}

@@ -1,45 +1,46 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 17.1.0
+---
+title: Изменения в общедоступном API в Aspose.Cells 17.1.0
 type: docs
 weight: 370
 url: /ru/net/public-api-changes-in-aspose-cells-17-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 16.12.0 до 17.1.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 16.12.0 до 17.1.0, которые могут быть интересны для разработчиков модулей/приложений. Он включает не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но также описание любых изменений в поведении внутри Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
+## **Добавленные API**
 ### **Поддержка диаграмм Excel 2016**
-Aspose.Cells В API добавлена поддержка нескольких диаграмм Excel 2016 путем расширения перечисления ChartType. В выпуске Aspose.Cells 17.1.0 были добавлены следующие новые поля.
+API Aspose.Cells добавили поддержку нескольких диаграмм Excel 2016 путем расширения перечисления ChartType. Следующие новые поля были добавлены с выпуском Aspose.Cells 17.1.0.
 
-- ChartType.BoxWhisker: серия представлена в виде прямоугольника и усов.
-- ChartType.Funnel: серия представлена в виде воронки.
-- ChartType.ParetoLine: серия представлена в виде линий Парето.
-- ChartType.Sunburst: серия представлена в виде солнечных лучей.
-- ChartType.Treemap: серия представлена в виде древовидной карты.
-- ChartType.Waterfall: Серия построена в виде водопада.
-- ChartType.Histogram: ряд представлен в виде гистограммы.
+- ChartType.BoxWhisker: Серия представлена в виде ящика и усов.
+- ChartType.Funnel: Серия представлена в виде воронки.
+- ChartType.ParetoLine: Серия представлена в виде кривых Парето.
+- ChartType.Sunburst: Серия представлена в виде sunburst.
+- ChartType.Treemap: Серия представлена в виде дерева.
+- ChartType.Waterfall: Серия представлена в виде водопада.
+- ChartType.Histogram: Серия представлена в виде гистограммы.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Чтение типов диаграмм Excel 2016](/cells/ru/net/read-and-manipulate-excel-2016-charts/)
+Проверьте подробную статью по [чтению типов диаграмм Excel 2016](/cells/ru/net/read-and-manipulate-excel-2016-charts/)
 
 {{% /alert %}} 
-### **Добавлен установщик для свойства LoadFilter.LoadDataFilterOptions.**
-Aspose.Cells В версии 17.1.0 добавлен установщик для свойства LoadFilter.LoadDataFilterOptions, заменяющий переменную экземпляра m_LoadDataFilterOptions. Пользователи могут изменить свойство LoadDataFilterOptions в собственной реализации класса LoadFilter, чтобы изменить поведение загрузки файлов шаблонов.
+### **Добавлен сеттер для свойства LoadFilter.LoadDataFilterOptions**
+Aspose.Cells 17.1.0 добавил сеттер для свойства LoadFilter.LoadDataFilterOptions для замены переменной экземпляра m_LoadDataFilterOptions. Пользователи могут изменять свойство LoadDataFilterOptions в собственной реализации класса LoadFilter, чтобы изменить поведение загрузки шаблонных файлов.
 
 Вот простой сценарий использования.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Пользовательская фильтрация шаблонов](/cells/ru/net/filter-objects-while-loading-workbook-or-worksheet/)
+Проверьте подробную статью по [Custom Template Filtering](/cells/ru/net/filter-objects-while-loading-workbook-or-worksheet/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomFilter : Aspose.Cells.LoadFilter
 
@@ -77,19 +78,19 @@ Aspose.Cells В версии 17.1.0 добавлен установщик для
 
 
 ### **Добавлено свойство CellsHelper.SignificantDigits**
-Aspose.Cells 17.1.0 предоставил свойство SignificantDigits из класса CellsHelper, которое позволяет получить или установить количество значащих цифр для числовых значений в электронной таблице. Значение свойства CellsHelper.SignificantDigits по умолчанию равно 17, тогда как оно применимо, только если результат должен быть сохранен в формате файла XLSX.
+Aspose.Cells 17.1.0 вывело свойство SignificantDigits из класса CellsHelper, которое позволяет устанавливать количество значащих цифр для числовых значений в электронной таблице. Значение по умолчанию свойства CellsHelper.SignificantDigits равно 17 и применимо только в случае, если результат должен быть сохранен в формате файла XLSX.
 
-Вот простой сценарий, демонстрирующий использование свойства CellsHelper.SignificantDigits.
+Вот простой сценарий для демонстрации использования свойства CellsHelper.SignificantDigits.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Установка количества значащих цифр](/cells/ru/net/specifying-significant-digits-to-be-stored-in-excel-file/)
+Проверьте подробную статью по [Setting Number of Significant Digits](/cells/ru/net/specifying-significant-digits-to-be-stored-in-excel-file/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Specify the number of significant digits
 
@@ -98,20 +99,20 @@ CellsHelper.SignificantDigits = 15;
 {{< /highlight >}}
 
 
-### **Добавлено свойство GlowEffect.Color.**
-Aspose.Cells В версии 17.1.0 добавлено свойство GlowEffect.Color, которое можно использовать для получения цвета эффекта свечения.
+### **Добавлено свойство GlowEffect.Color**
+Aspose.Cells 17.1.0 добавил свойство GlowEffect.Color, которое можно использовать для извлечения цвета свечения.
 
-В следующем фрагменте используется свойство GlowEffect.Color.
+Следующий фрагмент использует свойство GlowEffect.Color.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Чтение цвета свечения фигуры](/cells/ru/net/read-color-of-shape-s-glow-effect/)
+Проверьте подробную статью по [Reading the Shape's Glow Color](/cells/ru/net/read-color-of-shape-s-glow-effect/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Read the source excel file
 
@@ -135,25 +136,25 @@ var color = glow.Color;
 
 
 ### **Добавлены свойства PageSetup.PaperWidth и PaperHeight.**
-Aspose.Cells 17.1.0 предоставляет свойства PaperWidth и PaperHeight для класса PageSetup. Свойства PageSetup.PaperWidth и PageSetup.PaperHeight имеют тип double, представляющий ширину и высоту бумаги в дюймах с учетом ориентации страницы.
+Aspose.Cells 17.1.0 добавил свойства PaperWidth и PaperHeight для класса PageSetup. Свойства PageSetup.PaperWidth и PageSetup.PaperHeight имеют тип double и представляют ширину и высоту бумаги в дюймах с учетом ориентации страницы.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Получение размера бумаги рабочего листа](/cells/ru/net/get-paper-width-and-height-of-page-setup-of-worksheet/)
+Проверьте подробную статью по [Retrieving Worksheet's Paper Size](/cells/ru/net/get-paper-width-and-height-of-page-setup-of-worksheet/)
 
 {{% /alert %}} 
 ### **Добавлено свойство WorkbookSettings.CheckCustomNumberFormat.**
-Aspose.Cells 17.1.0 добавило свойство CheckCustomNumberFormat в класс WorkbookSettings. CheckCustomNumberFormat полезен для проверки правильности установки свойства Style.Custom. В случае, если свойство Style.Custom установлено неправильно, т.е. значение не соответствует допустимому шаблону, тогда API-интерфейсы Aspose.Cells вызовут исключение CellsException с соответствующим сообщением.
+Aspose.Cells 17.1.0 добавил свойство CheckCustomNumberFormat в класс WorkbookSettings. CheckCustomNumberFormat полезен для проверки, правильно ли установлено свойство Style.Custom или нет. Если свойство Style.Custom было неправильно установлено, т.е. значение не соответствует действительному шаблону, то API Aspose.Cells выдаст исключение CellsException с соответствующим сообщением.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Проверка пользовательского формата](/cells/ru/net/check-custom-number-format-when-setting-style-custom-property/)
+Проверьте подробную статью по [Verifying Custom Format](/cells/ru/net/check-custom-number-format-when-setting-style-custom-property/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -193,7 +194,7 @@ cell.SetStyle(style);
 
 
 ### **Добавлено поле DisplayUnitType.Percentage**
-Aspose.Cells 17.1.0 также предоставляет поле Percentage перечислению DisplayUnitType. Поле DisplayUnitType.Percentage указывает, что значения на графике должны быть разделены на 0,01.
-## **Удаленные API**
-### **Переменная экземпляра m_LoadDataFilterOptions удалена**
-В этом выпуске удалена переменная экземпляра m_LoadDataFilterOptions. Вместо этого рекомендуется использовать свойство LoadFilter.LoadDataFilterOptions.
+Aspose.Cells 17.1.0 также добавил поле Percentage в перечисление DisplayUnitType. Поле DisplayUnitType.Percentage указывает, что значения на диаграмме будут делиться на 0.01.
+## **Удалены API**
+### **Экземплярная переменная m_LoadDataFilterOptions удалена.**
+Этот релиз удалил экземплярную переменную m_LoadDataFilterOptions. Рекомендуется использовать свойство LoadFilter.LoadDataFilterOptions вместо нее.

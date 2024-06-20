@@ -1,28 +1,31 @@
-﻿---
+---
 title: Importar DataView a GridWeb
 type: docs
 weight: 60
-url: /es/net/import-dataview-to-gridweb/
+url: /es/net/aspose-cells-gridweb/import-dataview-to-gridweb/
+keywords: GridWeb, importar
+description: Este artículo introduce cómo importar datos en GridWeb.
 ---
-{{% alert color="primary" %}} 
-
-Con el lanzamiento del marco Microsoft .NET, se introdujo una nueva forma de almacenar datos. Ahora objetos DataSet, DataTable y DataView que almacenan datos en modo fuera de línea. Estos objetos son muy útiles como repositorios de datos. Usando Aspose.Cells.GridWeb, es posible importar datos desde objetos DataTable o DataView a hojas de trabajo. Aspose.Cells. GridWeb solo admite la importación de datos desde un DataView. pero un objeto DataTable también se puede usar indirectamente. Vamos a discutir esta característica en detalle.
-
-{{% /alert %}} 
-## **Importación de datos desde DataView**
-Importe datos de un objeto DataView mediante el método ImportDataView de GridWorsheetCollection en el control GridWeb. Pase el objeto DataView del que desea importar datos al método ImportDataView. Es posible especificar encabezados de columna y estilos de datos durante la importación.
 
 {{% alert color="primary" %}} 
 
-Cuando se importan datos de un objeto DataView, se crea una nueva hoja de trabajo para contener los datos importados. La hoja de cálculo tiene el mismo nombre que DataTable.
+Con el lanzamiento del Microsoft .NET Framework, se introdujo una nueva forma de almacenar datos. Ahora, los objetos DataSet, DataTable y DataView almacenan datos en modo sin conexión. Estos objetos son muy útiles como repositorios de datos. Usando Aspose.Cells.GridWeb, es posible importar datos desde los objetos DataTable o DataView en hojas de cálculo. Aspose.Cells.GridWeb solo admite la importación de datos desde un objeto DataView, pero un objeto DataTable también se puede utilizar indirectamente. Discutamos esta función en detalle.
+
+{{% /alert %}} 
+## **Importar datos desde DataView**
+Importar datos desde un objeto DataView usando el método ImportDataView de la colección GridWorsheetCollection en el control GridWeb. Pasa el objeto DataView del cual deseas importar datos al método ImportDataView. Es posible especificar el encabezado de columna y los estilos de datos durante la importación.
+
+{{% alert color="primary" %}} 
+
+Cuando los datos se importan desde un objeto DataView, se crea una nueva hoja de cálculo para contener los datos importados. La hoja de cálculo se nombra igual que el DataTable.
 
 {{% /alert %}} 
 
-**Salida: datos importados de un DataView a una nueva hoja de cálculo** 
+**Salida: Datos importados desde un DataView a una nueva hoja de cálculo** 
 
-![todo:imagen_alternativa_texto](import-dataview-to-gridweb_1.png)
+![todo:image_alt_text](import-dataview-to-gridweb_1.png)
 
- Los anchos de las columnas se ajustan para mostrar todos los datos que contienen. Cuando los datos se importan desde DataView, los anchos de columna no se ajustan automáticamente. Los usuarios deben ajustarlos por sí mismos. Para ajustar el ancho de las columnas mediante programación, consulte[Cambiar el tamaño de filas y columnas](/cells/es/net/resize-rows-and-columns/).
+Los anchos de las columnas se ajustan para mostrar todos los datos que contienen. Cuando se importan los datos de un DataView, los anchos de columna no se ajustan automáticamente. Los usuarios necesitan ajustarlos por ellos mismos. Para ajustar los anchos de columna programáticamente, consulta [Redimensionar Filas y Columnas](/cells/es/net/aspose-cells-gridweb/resize-rows-and-columns/).
 
 
 

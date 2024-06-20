@@ -1,19 +1,20 @@
-﻿---
-title: قم بتعيين هوامش التعليق أو الشكل داخل ورقة العمل
+---
+title: تعيين الهوامش للتعليق أو الشكل داخل ورقة العمل
 type: docs
 weight: 90
 url: /ar/java/set-margins-of-comment-or-shape-inside-the-worksheet/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
- Aspose.Cells يسمح لك بتعيين هوامش أي شكل أو تعليق باستخدام[**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#TextAlignment) خاصية. تقوم هذه الخاصية بإرجاع كائن[**ShapeTextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeTextAlignment) فئة لها خصائص مختلفة على سبيل المثال[**الهامش العلوي**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#TopMarginPt), [**LeftMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#LeftMarginPt), [**الهامش السفلي**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#BottomMarginPt), [**الهامش الأيمن**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RightMarginPt)، إلخ. التي يمكن استخدامها لتعيين الهوامش العلوية واليسرى والسفلية واليمنى.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **قم بتعيين هوامش التعليق أو الشكل داخل ورقة العمل**
+تسمح Aspose.Cells لك بتحديد الهوامش لأي شكل أو تعليق باستخدام الخاصية [**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#TextAlignment). تُرجع هذه الخاصية كائن من فئة [**ShapeTextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeTextAlignment) تحتوي على خصائص مختلفة مثل [**TopMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#TopMarginPt)، [**LeftMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#LeftMarginPt)، [**BottomMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#BottomMarginPt)، [**RightMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RightMarginPt) وغيرها يمكن استخدامها لتحديد الهوامش العلوية، اليسرى، السفلية واليمنى.
 
- يرجى الاطلاع على نموذج التعليمات البرمجية التالي. يقوم بتحميل ملف[نموذج لملف Excel](61767867.xlsx) الذي يحتوي على شكلين. يصل الرمز إلى الأشكال واحدًا تلو الآخر ويضبط هوامشها العلوية واليسرى والسفلية واليمنى. الرجاء مراجعة[إخراج ملف Excel](61767866.xlsx) تم إنشاؤه بواسطة الكود ولقطة الشاشة التي توضح تأثير الكود على ملف Excel الناتج.
+## **تعيين هوامش التعليق أو الشكل داخل ورقة العمل**
 
-![ما يجب القيام به: image_بديل_نص](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
+يرجى رؤية الكود العيني التالي. يقوم بتحميل [ملف إكسل عيني](61767867.xlsx) الذي يحتوي على شكلين. يصل الكود إلى الأشكال واحد تلو الآخر ويضبط هوامشها العلوية واليسرى والسفلية واليمنى. يرجى الاطلاع على [ملف إكسل الناتج](61767866.xlsx) الذي تم إنشاؤه بواسطة الكود والصورة العينية التي تظهر تأثير الكود على ملف إكسل الناتج.
 
-## **عينة من الرموز**
+![todo:image_alt_text](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.java" >}}

@@ -1,13 +1,14 @@
-﻿---
-title: Travailler avec les volets Figer
+---
+title: Travailler avec les volets figés
 type: docs
 weight: 100
 url: /fr/net/working-with-freeze-panes/
 ---
-## **Aspose.Cells - Travailler avec les volets de gel**
+
+## **Aspose.Cells - Travailler avec les volets figés**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -26,13 +27,13 @@ workbook.Save("output-FreezeFile-Aspose.Cells.xls");
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Méthode FreezePanes](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
+Pour plus de détails, visitez [Méthode FreezePanes](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
 
 {{% /alert %}} 
-## **NPOI - HSSF XSSF - Utilisation des volets de gel**
+## **NPOI - HSSF XSSF - Travailler avec les volets figés**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -62,13 +63,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Travailler avec les volets Figer** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Travailler avec les volets gelés** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Travailler avec des feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

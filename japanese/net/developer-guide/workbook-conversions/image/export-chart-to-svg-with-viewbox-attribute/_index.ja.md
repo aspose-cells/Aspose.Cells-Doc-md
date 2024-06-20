@@ -1,26 +1,27 @@
-﻿---
-title: viewBox属性を使用してグラフをSVGにエクスポートします
+---
+title: viewBox属性を使用してチャートをSVG形式にエクスポート
 type: docs
 weight: 280
 url: /ja/net/export-chart-to-svg-with-viewbox-attribute/
 ---
+
 {{% alert color="primary" %}}
 
-デフォルトでは、グラフが SVG 形式でエクスポートされると、**ビューボックス**属性はその XML に含まれていません。ただし、Aspose.Cells は提供します[**ImageOrPrintOptions.SVGFitToViewPort**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/svgfittoviewport)に設定されたときのプロパティ**真実**viewBox 属性を使用してチャートを SVG にエクスポートします。
+デフォルトでは、チャートをSVG形式にエクスポートするとき、そのXMLには**viewBox**属性が含まれません。しかし、Aspose.Cellsは、**true**に設定された場合に**viewBox**属性でチャートをSVG形式でエクスポートする[**ImageOrPrintOptions.SVGFitToViewPort**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/svgfittoviewport)プロパティを提供します。
 
 {{% /alert %}}
 
-## viewBox属性を使用してグラフをSVGにエクスポートします
+## viewBox属性を含むSVG形式でチャートをエクスポート
 
-次のサンプル コードは、viewBox 属性を使用してグラフを SVG 形式にエクスポートします。
+次のコードサンプルは、viewBox属性を含むSVG形式でチャートをエクスポートします。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-ExportChartToSvgWithViewBox-ExportChartToSvgWithViewBox.cs" >}}
 
 {{% alert color="primary" %}}
 
-チャートの SVG をメモ帳で開くと、**ビューボックス**これに似た属性。
+チャートのSVGをNotepadで開くと、次のような**viewBox**属性が見つかります。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <svg xmlns="http://www.w3.org/2000/svg"
 

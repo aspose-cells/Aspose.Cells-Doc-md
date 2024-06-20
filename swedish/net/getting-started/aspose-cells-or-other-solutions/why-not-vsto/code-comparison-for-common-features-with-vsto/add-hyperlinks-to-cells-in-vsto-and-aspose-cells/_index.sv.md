@@ -1,30 +1,31 @@
-﻿---
-title: Lägg till hyperlänkar till Cells i VSTO och Aspose.Cells
+---
+title: Lägga till hyperlänkar till celler i VSTO och Aspose.Cells
 type: docs
 weight: 20
 url: /sv/net/add-hyperlinks-to-cells-in-vsto-and-aspose-cells/
 ---
-För att lägga till hyperlänkar till celler i ett kalkylblad, gör följande:
 
-1.  Konfigurera arbetsbladet:
- 1. Instantiera ett applikationsobjekt.(endast VSTO.)
- 1. Lägg till en arbetsbok.
- 1. Skaffa det första arket.
- 1. Lägg till text i cellerna som du ska lägga till en hyperlänk till.
+För att lägga till hyperlänkar till celler i ett kalkylblad, följ följande steg:
+
+1. Ställ in kalkylbladet: 
+   1. Instantiera en Application-objekt. (Endast VSTO)
+   1. Lägg till en arbetsbok.
+   1. Hämta det första arket.
+   1. Lägg till text i cellerna som du kommer att lägga till en hyperlänk till.
 1. Lägg till hyperlänk.
 1. Spara dokumentet.
 
-Dessa steg visas i kodexemplen nedan. De första exemplen visar hur man använder VSTO med antingen C# för att lägga till en hyperlänk till en cell. Exemplen som följer visar hur man gör samma sak med Aspose.Cells for .NET, igen med C#.
+Dessa steg visas i kodexemplen nedan. Det första exemplet visar hur man använder VSTO med antingen C# för att lägga till en hyperlänk till en cell. Exemplen som följer visar hur man gör samma sak med hjälp av Aspose.Cells for .NET, igen med C#.
 
-Kodexemplen genererar en Excel-fil som har en hyperlänk i cell A1 på det första kalkylbladet.
+Kodexemplen genererar en Excelfil med en hyperlänk i cell A1 på det första arket.
 
 ![todo:image_alt_text](picture1.png)
 
-En hyperlänk läggs till i cell A1.
+En hyperlänk läggs till cell A1.
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -60,7 +61,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook object.
 
@@ -88,8 +89,8 @@ workbook.Save("Hyperlink_test.xls");
 
 {{< /highlight >}}
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/download)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).blixtlås)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip)

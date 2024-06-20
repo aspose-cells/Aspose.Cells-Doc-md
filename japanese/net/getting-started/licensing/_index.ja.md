@@ -1,30 +1,31 @@
 ---
-title: Licensing
+title: ライセンス
 type: docs
 weight: 120
 url: /ja/net/licensing/
-description: Aspose.Cells for .NET では、さまざまな購入プランが提供されるか、Licensing と C# のサブスクリプション ポリシーを使用した評価用の無料トライアルと 30 日間の一時ライセンスが提供されます。
-keywords: C# Apply License from Disk or Stream. C# Set License from Disk or Stream. Apply License in Aspose.Cells for NET.
+description: Aspose.Cells for .NET では、購入用の異なるプランを提供したり、Free Trial や評価用の30日間の仮ライセンスを提供したりすることができます。
+keywords: C# でディスクまたはストリームからライセンスを適用する。C# でディスクまたはストリームからライセンスを設定する。 Aspose.Cells for NET でライセンスを適用する。
 ---
-##  **Aspose.Cells コンポーネントにライセンスを適用する方法**
 
-ライセンスは、製品名、ライセンスが付与されている開発者の数、サブスクリプションの有効期限などの詳細が含まれるプレーン テキストの XML ファイルです。ファイルはデジタル署名されているため、ファイルを変更しないでください。ファイルに誤って余分な改行を追加した場合でも、ファイルは無効になります。評価制限を回避したい場合は、Aspose.Cells を利用する前にライセンスを設定する必要があります。ライセンスを設定する必要があるのは、アプリケーション (またはプロセス) ごとに 1 回だけです。ライセンスは、ファイル、ストリーム、または埋め込みリソースからロードできます。
+## **Aspose.Cells コンポーネントでライセンスを適用する方法**
 
-Aspose.Cells は、次の場所でライセンスを検索しようとします。
+ライセンスは、製品名、ライセンスを受け取る開発者数、サブスクリプションの有効期限などの詳細を含むプレーンテキストの XML ファイルです。このファイルはデジタル署名されているため、ファイルを変更しないでください。ファイルに行を誤って追加すると、ファイルが無効になります。Aspose.Cells を利用する前にライセンスを設定する必要があります。アプリケーション（またはプロセス）ごとに一度だけライセンスを設定する必要があります。ライセンスはファイル、ストリーム、または埋め込みリソースから読み込むことができます。
+
+Aspose.Cells は次の場所にライセンスを取得しようとします:
 
 - 明示的なパス
-- Aspose.Cells.dllが含まれるフォルダー
-- Aspose.Cells.dll を呼び出したアセンブリを含むフォルダー
-- エントリ アセンブリ (.exe) が含まれるフォルダー
-- Aspose.Cells.dll を呼び出すアセンブリ内の埋め込みリソース
+- Aspose.Cells.dll を含むフォルダ
+- Aspose.Cells.dll を呼び出したアセンブリを含むフォルダ
+- エントリ アセンブリ（.exe ファイル）を含むフォルダ
+- Aspose.Cells.dll を呼び出したアセンブリに埋め込まれたリソース
 
-ライセンスを適用するには、ファイルまたはストリームから、または埋め込みリソースとして適用する 2 つの一般的な方法があります。
+ライセンスを適用する一般的な方法には、ファイルまたはストリームから、または埋め込みリソースとしてロードする方法があります。
 
-###  **ディスクまたはストリームからライセンスを適用する方法**
+### **ディスクまたはストリームからライセンスを適用する方法**
 
-ライセンスを設定する最も簡単な方法は、ライセンス ファイルを Aspose.Cells.dll と同じフォルダーに置き、パスを指定せずにファイル名だけを指定することです。
+ライセンスを設定する最も簡単な方法は、Aspose.Cells.dll と同じフォルダにライセンス ファイルを置き、そのパスを指定するだけです。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate an instance of license and set the license file through its path
 
@@ -36,13 +37,13 @@ license.SetLicense("Aspose.Cells.lic");
 
 {{% alert color="primary" %}}
 
-SetLicense メソッドを呼び出すときは、ライセンス名がライセンス ファイル名と同じである必要があります。たとえば、ライセンス ファイル名を *Aspose.Cells.lic.xml** に変更できます。次に、コード内で SetLicense メソッドに変更したライセンス名 (**Aspose.Cells.lic.xml**) を使用する必要があります。
+SetLicense メソッドを呼び出すとき、ライセンス名はライセンス ファイル名と同じである必要があります。たとえば、ライセンス ファイル名を**Aspose.Cells.lic.xml**に変更できます。その後、コードで変更したライセンス名(**Aspose.Cells.lic.xml**)を SetLicense メソッドに使用する必要があります。
 
 {{% /alert %}}
 
-ストリームからライセンスをロードすることもできます。
+ストリームからライセンスをロードすることも可能です。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate an instance of license and set the license through a stream
 
@@ -52,13 +53,13 @@ license.SetLicense(myStream);
 
 {{< /highlight >}}
 
-###  **従量制課金ライセンスを適用する方法**
+### **メータード ライセンスの適用方法**
 
-Aspose.Cells を使用すると、開発者は従量制キーを適用できます。これは新しいライセンスメカニズムです。新しいライセンス メカニズムは、既存のライセンス方式と併用されます。 API 機能の使用量に基づいて請求されることを希望する顧客は、従量制ライセンスを使用できます。詳細については、を参照してください。[従量制 Licensing よくある質問](https://purchase.aspose.com/faqs/licensing/metered)セクション。
+Aspose.Cellsでは、開発者がメータードキーを適用することができます。これは新しいライセンスメカニズムです。新しいライセンスメカニズムは、既存のライセンス方法と併用されます。API機能の使用に基づいて請求を受けたい顧客は、メータードライセンスを使用できます。詳細については、[メータードライセンスFAQ](https://purchase.aspose.com/faqs/licensing/metered)セクションを参照してください。  
 
-新しいクラス[従量制](https://reference.aspose.com/cells/net/aspose.cells/metered)従量制キーを適用するために導入されました。以下は、従量制の公開キーと秘密キーを設定する方法を示すサンプル コードです。
+新しいクラス[Metered](https://reference.aspose.com/cells/net/aspose.cells/metered)が導入され、メータードキーを適用する方法を示すサンプルコードが次に示されています。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Set metered public and private keys
 
@@ -98,16 +99,16 @@ Console.WriteLine(amountAfter);
 
 {{< /highlight >}}
 
-###  **埋め込みリソースの使用方法**
+### **埋め込みリソースの使用方法**
 
-ライセンスをアプリケーションにパッケージ化し、ライセンスが失われないようにするもう 1 つの優れた方法は、Aspose.Cells を呼び出すアセンブリの 1 つに埋め込みリソースとしてライセンスを含めることです。ライセンス ファイルを埋め込みリソースとして含めるには、次の手順を実行します。 :
+ライセンスファイルをアプリケーションにパッケージ化し、失われないようにするもう一つの便利な方法は、Aspose.Cellsを呼び出すアセンブリの埋め込みリソースとして含めることです。ライセンスファイルを埋め込みリソースとして含めるには、次の手順を実行します。
 
-1.  Visual Studio .NET で、ライセンス (.lic) ファイルを選択してプロジェクトに含めます。**既存のアイテムを追加**から**ファイル**メニュー。
-1. ソリューション エクスプローラーでファイルを選択し、設定します。**ビルドアクション**に**埋め込みリソース**プロパティウィンドウで
+1. Visual Studio .NETで、**ファイル**メニューから**既存のアイテムの追加**を選択して、プロジェクトにライセンス（.lic）ファイルを含めます。
+1. ソリューションエクスプローラでファイルを選択し、プロパティウィンドウで**ビルドアクション**を**埋め込みリソース**に設定します。
 
-アセンブリに埋め込まれたライセンス (埋め込みリソースとして) にアクセスするには、Microsoft .NET フレームワークの System.Reflection.Assembly クラスの GetExecutingAssembly メソッドと GetManifestResourceStream メソッドを呼び出す必要はありません。必要なのは、ライセンス ファイルを埋め込みリソースとしてプロジェクトに追加し、ライセンス ファイルの名前を SetLicense メソッドに渡すことだけです。の**Aspose.Cells.License**クラスは、埋め込みリソース内のライセンス ファイルを自動的に検索します。アプリケーションにライセンス (埋め込み) を設定するこの方法を理解するには、以下の例を参照してください。
+アセンブリに埋め込まれているライセンス（埋め込みリソース）にアクセスするには、Microsoft .NET FrameworkのSystem.Reflection.AssemblyクラスのGetExecutingAssemblyおよびGetManifestResourceStreamメソッドを呼び出す必要はありません。必要なのは、プロジェクトにライセンスファイルを埋め込みリソースとして追加し、そのライセンスファイルの名前をSetLicenseメソッドに渡すだけです。**Aspose.Cells.License**クラスは、埋め込みリソースでライセンスファイルを自動的に見つけます。このライセンス（埋め込み）をアプリケーションに設定する方法を理解するために、以下に示されている例を確認してください。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the License class
 
@@ -119,27 +120,27 @@ license.SetLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-##  **Aspose.Cells グリッド コントロールでライセンスを設定する方法**
+## **Aspose.Cells Gridコントロールでのライセンスの設定方法**
 
-Aspose.Cells Grid Suite では、ファイル、ストリーム、または埋め込みリソースからライセンスをロードできます。 Aspose.Cells.GridDesktop / Aspose.Cells.GridWeb は、次の場所でライセンスを検索しようとします。
+Aspose.Cells Grid Suiteでは、ライセンスをファイル、ストリーム、または埋め込みリソースからロードできます。Aspose.Cells.GridDesktop / Aspose.Cells.GridWebは、ライセンスを次の場所で検索しようとします。
 
 1. 明示的なパス
-1. コンポーネントの DLL が含まれるフォルダー (Aspose.Cells.GridDesktop または Aspose.Cells.GridWeb に含まれます)
-1. コンポーネントの dll を呼び出したアセンブリを含むフォルダー (Aspose.Cells.GridDesktop または Aspose.Cells.GridWeb に含まれる)
-1. エントリ アセンブリ (.exe) が含まれるフォルダー
-1. コンポーネントの dll を呼び出すアセンブリ内の埋め込みリソース (Aspose.Cells.GridDesktop または Aspose.Cells.GridWeb に含まれる)
+1. コンポーネントのDLL（Aspose.Cells.GridDesktopまたはAspose.Cells.GridWebに含まれる）が含まれているフォルダ
+1. コンポーネントのDLL（Aspose.Cells.GridDesktopまたはAspose.Cells.GridWebに含まれている）を呼び出したアセンブリが含まれているフォルダ
+1. エントリアセンブリ（.exe）が含まれているフォルダ
+1. コンポーネントのDLL（Aspose.Cells.GridDesktopまたはAspose.Cells.GridWebに含まれる）を呼び出したアセンブリに埋め込まれているリソース
 
 {{% alert color="primary" %}}
 
-Aspose.Cells.GridDesktop コントロールを使用している場合、ライセンス クラスは Aspose.Cells.GridDesktop.License として使用されますが、Aspose.Cells.GridWeb コントロールを使用している場合は、ライセンスの設定に Aspose.Cells.GridWeb.License クラスが使用されます。
+Aspose.Cells.GridDesktopコントロールを使用している場合は、ライセンスクラスとしてAspose.Cells.GridDesktop.Licenseが使用されますが、Aspose.Cells.GridWebコントロールを使用している場合は、Aspose.Cells.GridWeb.Licenseクラスが使用されます。
 
 {{% /alert %}}
 
-###  **ディスクまたはストリームからライセンスを適用する方法**
+### **ディスクまたはストリームからライセンスを適用する方法**
 
-ライセンスを設定する最も簡単な方法は、ライセンス ファイルをコンポーネントの DLL と同じフォルダー (Aspose.Cells.GridWeb に含まれる) に置き、パスを指定せずにファイル名だけを指定することです。
+ライセンスを設定する最も簡単な方法は、ライセンスファイルをコンポーネントのDLLと同じフォルダに配置し、ファイル名のパスを指定するだけです（Aspose.Cells.GridWebに含まれています）。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate an instance of license and set the license file through its path
 
@@ -151,13 +152,13 @@ license.SetLicense("MyLicense.lic");
 
 {{% alert color="primary" %}}
 
-SetLicense メソッドを呼び出すとき、ライセンス名はライセンス ファイル名と同じである必要があります。たとえば、ライセンス ファイル名を「MyLicense.lic.xml」に変更できます。次に、コード内で SetLicense メソッドに変更したライセンス名 (MyLicense.lic.xml) を使用する必要があります。
+SetLicenseメソッドを呼び出す際、ライセンス名はライセンスファイル名と同じである必要があります。たとえば、ライセンスファイル名を"MyLicense.lic.xml"に変更することができます。次に、コードでは、修正済みのライセンス名（つまりMyLicense.lic.xml）をSetLicenseメソッドに使用する必要があります。
 
 {{% /alert %}}
 
-ストリームからライセンスをロードすることもできます。
+ストリームからライセンスをロードすることも可能です。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate an instance of license and set the license through a stream
 
@@ -167,17 +168,17 @@ license.SetLicense(myStream);
 
 {{< /highlight >}}
 
-###  **ライセンスを埋め込みリソースとして適用する方法**
+### **埋め込みリソースとしてライセンスを適用する方法**
 
-ライセンスをアプリケーションにパッケージ化し、ライセンスが失われないようにするもう 1 つの優れた方法は、コンポーネントの DLL (Aspose.Cells.GridDesktop に含まれる) を呼び出すアセンブリの 1 つに埋め込みリソースとしてライセンスを含めることです。ライセンス ファイルを埋め込みリソースとして含めるには、次の手順を実行します。
+ライセンスをアプリケーションにパッケージ化し、失われないようにするもう一つの便利な方法は、コンポーネントのDLL（Aspose.Cells.GridDesktopに含まれる）を呼び出すアセンブリの埋め込みリソースとして含めることです。ライセンスファイルを埋め込みリソースとして含めるには、次の手順を実行します。
 
-1.  Visual Studio .NET で、ライセンス (.lic) ファイルをプロジェクトに含めます。**既存のアイテムを追加**のオプション**ファイル**メニュー。
-1. ソリューション エクスプローラーでファイルを選択し、プロパティ ウィンドウでビルド アクションを埋め込みリソースに設定します。
-1. アセンブリに埋め込まれたライセンス (埋め込みリソースとして) にアクセスするには、Microsoft .NET フレームワークの System.Reflection.Assembly クラスの GetExecutingAssembly メソッドと GetManifestResourceStream メソッドを呼び出す必要はありません。代わりに、ライセンス ファイルを埋め込みリソースとしてプロジェクトを作成し、ライセンス ファイルの名前を SetLicense メソッドに渡します。 License クラスは、埋め込みリソース内のライセンス ファイルを自動的に検索します。
+1. Visual Studio .NETで、**ファイル**メニューで**既存のアイテムの追加**オプションを使用して、プロジェクトにライセンス（.lic）ファイルを含めます。
+1. ソリューションエクスプローラでファイルを選択し、プロパティウィンドウでビルドアクションを埋め込みリソースに設定します。
+アセンブリ（埋め込みリソースとして）に埋め込まれたライセンスにアクセスするには、Microsoft .NET FrameworkのSystem.Reflection.AssemblyクラスのGetExecutingAssemblyおよびGetManifestResourceStreamメソッドを呼び出す必要はありません。代わりに、プロジェクトにライセンスファイルを埋め込みリソースとして追加し、そのライセンスファイルの名前をSetLicenseメソッドに渡すだけです。ライセンスクラスは、埋め込みリソースでライセンスファイルを自動的に見つけます。
 
-ライセンスを埋め込みリソースとしてアプリケーションに適用するこの方法を理解するには、以下の例を参照してください。
+このアプリケーションに埋め込みリソースとしてライセンスを適用する方法について理解するために、以下に示されている例を確認してください。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the License class
 
@@ -189,11 +190,11 @@ license.SetLicense("Aspose.Total.lic");
 
 {{< /highlight >}}
 
-##  **WinForm アプリケーションの Aspose.Cells.GridDesktop でライセンスを適用する方法**
+## **WinFormアプリケーションでAspose.Cells.GridDesktopのライセンスを適用する方法**
 
-アプリケーションを開始する前にライセンス コードを入力し、適用するのは 1 回だけにすることをお勧めします。たとえば、Windows C# アプリケーションの場合、ライセンス コードを Main メソッドに置きます。
+アプリケーションが開始する前にライセンスコードを配置し、一度だけ適用することをお勧めします。たとえば、Windows C#アプリケーションの場合は、Mainメソッドにライセンスコードを配置します。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 public class Form1 : System.Windows.Forms.Form
 
@@ -277,11 +278,11 @@ gridDesktop1.ActiveSheetIndex = 1;
 
 {{< /highlight >}}
 
-##  **Aspose.Cells.GridWebでライセンスを適用する場合の注意事項**
+## **Aspose.Cells.GridWebでのライセンスの適用に関する注意事項**
 
-ライセンス コードを Web アプリケーションの Global.asax.cs に配置することをお勧めします (このライセンス ファイルは「 d:\ 」ドライブに配置されているものとします)。
+WebアプリケーションのGlobal.asax.csにライセンスコードを配置することをお勧めします（このライセンスファイルは"d:\"ドライブに配置されたと仮定されます）。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void Application_Start(Object sender, EventArgs e)
 
@@ -295,9 +296,9 @@ gridDesktop1.ActiveSheetIndex = 1;
 
 {{< /highlight >}}
 
-ストリームからのライセンスのロード
+ストリームからライセンスを読み込む
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void Application_Start(Object sender, EventArgs e)
 

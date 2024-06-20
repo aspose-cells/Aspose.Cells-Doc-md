@@ -1,5 +1,5 @@
-﻿---
-title: スタイリングとデータのフォーマット
+---
+title: スタイルとデータの書式設定
 linktitle: スタイル
 type: docs
 weight: 60

@@ -1,35 +1,36 @@
-﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.4.0
+---
+title: Modifiche dell API pubblica in Aspose.Cells 8.4.0
 type: docs
 weight: 140
 url: /it/java/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.3.2 alla 8.4.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-0/) e[classi rimosse ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-0/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche apportate all'API di Aspose.Cells dalla versione 8.3.2 alla 8.4.0 che potrebbero interessare agli sviluppatori di moduli/applicazioni. Include non solo nuovi e aggiornati metodi pubblici, [classi aggiunte, ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-0/) e [classi rimosse, ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-0/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Meccanismo per modificare il codice VBA/Macro nei fogli di calcolo**
- Al fine di fornire la funzionalità di[Manipolazione codice VBA/Macro](/cells/it/java/modifying-vba-or-macro-code-using-aspose-cells/), Aspose.Cells for Java 8.4.0 ha esposto una serie di nuove classi e proprietà nel pacchetto com.aspose.cells.Vba. Alcuni dei dettagli importanti di queste nuove classi sono i seguenti.
+Per fornire la funzionalità di [Manipolazione del codice VBA/Macro](/cells/it/java/modifying-vba-or-macro-code-using-aspose-cells/), il Aspose.Cells for Java 8.4.0 ha esposto una serie di nuove classi e proprietà nel package com.aspose.cells.Vba. Alcuni dei dettagli importanti di queste nuove classi sono i seguenti.
 
-- La classe VbaProject può essere utilizzata per recuperare il progetto VBA da un determinato foglio di calcolo.
-- La classe VbaModuleCollection rappresenta la raccolta di moduli VBA che fanno parte di un dato VbaProject.
-- La classe VbaModule rappresenta un singolo modulo di VbaModuleCollection.
+- La classe VbaProject può essere utilizzata per recuperare il progetto VBA da un dato foglio di calcolo.
+- La classe VbaModuleCollection rappresenta la raccolta di moduli VBA che fanno parte di un dato progetto VbaProject.
+- La classe VbaModule rappresenta un singolo modulo dalla VbaModuleCollection.
 
-Il seguente frammento di codice mostra come modificare dinamicamente i segmenti di codice VBA.
+Il seguente snippet di codice mostra come modificare dinamicamente i segmenti di codice VBA.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Cartella di lavoro cartella di lavoro = new Cartella di lavoro("source.xlsm");
+ Workbook workbook = new Workbook("source.xlsm");
 
-//Cambia il codice del modulo VBA
+//Change the VBA Module Code
 
-Moduli VbaModuleCollection = cartella di lavoro.getVbaProject().getModules();
+VbaModuleCollection modules = workbook.getVbaProject().getModules();
 
- for(int i=0; i< modules.getCount(); i++)
+for(int i=0; i < modules.getCount(); i++)
 
 {
 
@@ -56,17 +57,17 @@ Moduli VbaModuleCollection = cartella di lavoro.getVbaProject().getModules();
 workbook.save("output.xlsm");
 
 {{< /highlight >}}
-### **Possibilità di rimuovere la tabella pivot**
-Aspose.Cells for Java 8.4.0 ha esposto due metodi per PivotTableCollection per fornire la funzione di rimozione della tabella pivot da un determinato foglio di calcolo. I dettagli delle suddette modalità sono i seguenti.
+### **Possibilità di rimuovere una tabella pivot**
+Aspose.Cells for Java 8.4.0 ha esposto due metodi per la PivotTableCollection per fornire la funzionalità di rimozione della tabella pivot da un foglio di calcolo. I dettagli dei suddetti metodi sono i seguenti.
 
-- Il metodo PivotTableCollection.remove accetta un oggetto della tabella pivot e lo rimuove dalla raccolta.
-- Il metodo PivotTableCollection.removeAt accetta un valore intero basato su indice zero e rimuove la specifica tabella pivot dalla raccolta.
+- Il metodo PivotTableCollection.remove accetta un oggetto di tipo PivotTable e lo rimuove dalla collezione.
+- Il metodo PivotTableCollection.removeAt accetta un valore intero basato su un indice zero e rimuove il particolare PivotTable dalla collezione.
 
-Il seguente frammento di codice mostra come rimuovere la tabella pivot utilizzando entrambi i metodi sopra menzionati.
+Il seguente snippet di codice mostra come rimuovere la tabella pivot utilizzando entrambi i metodi sopra menzionati.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -93,24 +94,24 @@ worksheet.getPivotTables().removeAt(0);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Supporto per diversi layout di tabelle pivot**
-Aspose.Cells for Java 8.4.0 fornisce il supporto per diversi layout predefiniti per le tabelle pivot. Per fornire questa funzionalità, le API Aspose.Cells hanno esposto tre metodi per la classe PivotTable come descritto di seguito.
+### **Supporto per Layout di Tabelle Pivot Diversi**
+Aspose.Cells for Java 8.4.0 fornisce il supporto per diversi layout predefiniti per le tabelle pivot. Per fornire questa funzionalità, le API di Aspose.Cells hanno esposto tre metodi per la classe PivotTable come dettagliato di seguito.
 
-- Il metodo PivotTable.showInCompactForm esegue il rendering della tabella pivot in un layout compatto.
-- Il metodo PivotTable.showInOutlineForm esegue il rendering della tabella pivot nel layout Struttura.
-- Il metodo PivotTable.showInTabularForm esegue il rendering della tabella pivot in layout tabulare.
+- Il metodo PivotTable.showInCompactForm rende la tabella pivot in un layout Compatto.
+- Il metodo PivotTable.showInOutlineForm rende la tabella pivot in un layout ad Albero.
+- Il metodo PivotTable.showInTabularForm rende la tabella pivot in un layout Tabulare.
 
 {{% alert color="primary" %}} 
 
- È importante chiamare PivotTable.refreshData e PivotTable.calculateData dopo aver impostato uno dei layout sopra menzionati.
+È importante chiamare i metodi PivotTable.refreshData & PivotTable.calculateData dopo aver impostato uno qualsiasi dei layout sopra menzionati. 
 
 {{% /alert %}} 
 
-Il codice di esempio seguente imposta layout diversi per una tabella pivot e archivia il risultato su disco.
+Il seguente codice di esempio imposta layout diversi per una tabella pivot e memorizza il risultato su disco.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -167,19 +168,19 @@ pivotTable.calculateData();
 workbook.save("TabularForm.xlsx");
 
 {{< /highlight >}}
-### **Classe TxtLoadStyleStrategy e proprietà TxtLoadOptions.LoadStyleStrategy aggiunto**
-Aspose.Cells for Java 8.4.0 ha esposto la classe TxtLoadStyleStrategy e la proprietà TxtLoadOptions.LoadStyleStrategy per specificare la strategia per formattare i valori analizzati durante la conversione del valore stringa in numero o data/ora.
-### **Metodo DataBar.ToImage aggiunto**
-Con il rilascio della v8.4.0, il Aspose.Cells API ha fornito il metodo DataBar.toImage per salvare la DataBar con formattazione condizionale in formato immagine. Il metodo {DataBar.toImage}} accetta due parametri come descritto di seguito.
+### **Classe TxtLoadStyleStrategy e Proprietà TxtLoadOptions.LoadStyleStrategy Aggiunta**
+Aspose.Cells for Java 8.4.0 ha esposto la classe TxtLoadStyleStrategy e la proprietà TxtLoadOptions.LoadStyleStrategy per specificare la strategia per formattare i valori analizzati durante la conversione da valore stringa a numero o data.
+### **Aggiunto Metodo DataBar.ToImage**
+Con il rilascio della v8.4.0, l'API di Aspose.Cells ha fornito il metodo DataBar.toImage per salvare la DataBar formattata condizionalmente in formato immagine. Il metodo {DataBar.toImage}} accetta due parametri come dettagliato di seguito.
 
 - Il primo parametro è di tipo com.aspose.cells.Cell su cui è stata applicata la formattazione condizionale.
 - Il secondo parametro è di tipo com.aspose.cells.rendering.ImageOrPrintOptions per impostare diversi parametri dell'immagine risultante.
 
-Il codice di esempio seguente illustra l'utilizzo del metodo DataBar.toImage per eseguire il rendering di DataBar in formato immagine.
+Il seguente codice di esempio dimostra l'uso del metodo DataBar.toImage per rendere la DataBar in formato immagine.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -209,7 +210,7 @@ opts.setImageFormat(ImageFormat.getPng());
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.toImage(cell, opts);
+byte[] imgBytes = dbar.toImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -220,24 +221,24 @@ out.write(imgBytes);
 out.close();
 
 {{< /highlight >}}
-### **Proprietà Border.ThemeColor aggiunto**
-Aspose.Cells Le API consentono di estrarre i dati relativi al tema dai fogli di calcolo. Con il rilascio di Aspose.Cells for Java 8.4.0, API ha esposto la proprietà Border.ThemeColor che può essere utilizzata per recuperare gli attributi del colore del tema dei bordi Cell.
-### **Proprietà DrawObject.ImageBytes aggiunto**
-Aspose.Cells for Java 8.4.0 ha esposto la proprietà DrawObject.ImageBytes per ottenere i dati dell'immagine da Chart o Shape.
-### **Proprietà HtmlSaveOptions.ExportBogusRowData aggiunta**
- Aspose.Cells for Java 8.4.0 ha fornito la proprietà {HtmlSaveOptions.ExportBogusRowData}}. La proprietà del tipo booleano determina se API inietterà dati fasulli della riga inferiore durante l'esportazione del foglio di calcolo nel formato HTML.
+### **Aggiunta Proprietà Border.ThemeColor**
+Le API di Aspose.Cells consentono di estrarre dati correlati ai temi dai fogli di calcolo. Con il rilascio del Aspose.Cells for Java 8.4.0, l'API ha esposto la proprietà Border.ThemeColor che può essere utilizzata per recuperare gli attributi del colore di tema dei bordi delle celle.
+### **Aggiunta Proprietà DrawObject.ImageBytes**
+Aspose.Cells for Java 8.4.0 ha esposto la proprietà DrawObject.ImageBytes per ottenere i dati dell'immagine da Grafico o Forma.
+### **Aggiunta Proprietà HtmlSaveOptions.ExportBogusRowData**
+Aspose.Cells for Java 8.4.0 ha fornito la proprietà {HtmlSaveOptions.ExportBogusRowData. La proprietà di tipo Boolean determina se l'API inserirà dati di fila fittizi in basso durante l'esportazione del foglio di calcolo in formato HTML. 
 
 {{% alert color="primary" %}} 
 
-Il valore predefinito è vero.
+Il valore predefinito è true.
 
 {{% /alert %}} 
 
-Il seguente codice di esempio illustra l'utilizzo della suddetta proprietà.
+Il seguente codice di esempio illustra l'uso della proprietà sopra citata.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -256,8 +257,8 @@ Workbook workbook = new Workbook("source.xlsx");
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Proprietà HtmlSaveOptions.CellCssPrefix aggiunta**
-La proprietà appena aggiunta HtmlSaveOptions.CellCssPrefix consente di impostare il prefisso per i file CSS durante l'esportazione dei fogli di calcolo nel formato HTML.
+### **Aggiunta Proprietà HtmlSaveOptions.CellCssPrefix**
+La nuova proprietà aggiunta HtmlSaveOptions.CellCssPrefix consente di impostare il prefisso per i file CSS durante l'esportazione dei fogli di calcolo in formato HTML.
 
 {{% alert color="primary" %}} 
 
@@ -265,7 +266,7 @@ Il valore predefinito è "" (stringa vuota).
 
 {{% /alert %}}
 ## **API obsolete**
-### **Metodi Cells.getCellByIndex e Row.getCellByIndex Obsoleti**
-Utilizzare invece il metodo getEnumerator per iterare tutte le celle.
-### **Proprietà DrawObject.Image Obsoleto**
-Usare invece la proprietà DrawObject.ImageBytes per ottenere i dati dell'immagine.
+### **Metodi Cells.getCellByIndex & Row.getCellByIndex obsoleti**
+Usa il metodo getEnumerator per iterare tutte le celle.
+### **Proprietà Image obsoleta di DrawObject**
+Utilizzare la proprietà DrawObject.ImageBytes per ottenere i dati dell'immagine invece.

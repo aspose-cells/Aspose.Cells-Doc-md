@@ -1,41 +1,42 @@
-﻿---
-title: Genel API Aspose.Cells 8.8.0'daki değişiklikler
+---
+title: Aspose.Cells 8.8.0 da Genel API Değişiklikleri
 type: docs
 weight: 270
 url: /tr/java/public-api-changes-in-aspose-cells-8-8-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.7.2'den 8.8.0'a modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, 8.7.2'den 8.8.0 sürümüne Aspose.Cells API'deki değişiklikleri modül/uygulama geliştiricilerin ilgisini çekebilecek herhangi bir değişikliği içermektedir. Yeni ve güncellenmiş genel yöntemler, eklendi ve kaldırılan sınıflar vb. yanı sıra Aspose.Cells'in arka plandaki davranışındaki herhangi bir değişikliğin açıklamasını içermektedir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Dış Bağlantı İçin Cell Referans Alın**
- Aspose.Cells for Java 8.8.0, elektronik tabloda saklanan harici bağlantılar için hedef ve çıkış hücresi referanslarının alınmasına yardımcı olan aşağıdaki yeni özellikleri ortaya çıkardı.
+## **Eklenen API'lar**
+### **Dış Bağlantı için Hücre Referanslarını Al**
+Aspose.Cells for Java 8.8.0, elektronik tabloya kaydedilen dış bağlantılar için hedef ve çıkış hücre referanslarını almak için yardımcı olan aşağıdaki yeni özellikleri ortaya çıkardı. 
 
 1. QueryTable.ConnectionId: Sorgu tablosunun bağlantı kimliğini alır.
-1. ExternalConnection.Id: Harici bağlantının kimliğini alır.
+1. ExternalConnection.Id: Dış bağlantının kimliğini alır.
 1. ListObject.QueryTable: Bağlantılı QueryTable'ı alır.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Dış Veri Bağlantılarıyla İlgili Sorgu Tablolarını ve Liste Nesnelerini Bulun](/cells/tr/java/find-query-tables-and-list-objects-related-to-external-data-connections/)
+Bu özelliğe ilişkin daha fazla ayrıntı için lütfen [Uzak Veri Bağlantılarıyla İlgili Sorgu Tabloları ve List Objeleri Bulun](/cells/tr/java/find-query-tables-and-list-objects-related-to-external-data-connections/) başlıklı detaylı makaleye göz atın.
 
 {{% /alert %}} 
-### **HTMLLoadOptions.KeepPrecision Özelliği eklendi**
-Aspose.Cells for Java 8.8.0, HTML dosyalarını içe aktarırken uzun sayısal değerlerin üstel gösterime dönüştürülmesini kontrol etmek için HTMLLoadOptions.KeepPrecision özelliğini ekledi. Veriler HTML dizisinden veya dosyasından içe aktarılıyorsa, varsayılan olarak 15 basamaktan uzun herhangi bir değer üstel gösterime dönüştürülür. Ancak, artık kullanıcılar bu davranışı HTMLLoadOptions.KeepPrecision özelliğinin yardımıyla kontrol edebilir. Söz konusu özellik true olarak ayarlanırsa, değerler kaynakta olduğu gibi içe aktarılır.
+### **HTMLLoadOptions.KeepPrecision Özelliği Eklendi**
+Aspose.Cells for Java 8.8.0, HTML dosyalarını içe aktarırken uzun sayısal değerlerin üstel gösterimine dönüştürülmesini kontrol etmek için HTMLLoadOptions.KeepPrecision özelliğini ekledi. Varsayılan olarak, 15 haneden uzun herhangi bir değer, HTML dizesi veya dosyasından veri içe aktarılıyorsa üstel gösterime dönüştürülür. Ancak şimdi kullanıcılar, HTMLLoadOptions.KeepPrecision özelliğinin yardımıyla bu davranışı kontrol edebilir. Söz konusu özellik true olarak ayarlanmışsa, değerler kaynaktaki gibi içe aktarılacaktır.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[ Büyük Sayısal Değerlerin Üstel Gösterime Dönüştürülmesinden Kaçının](/cells/tr/java/avoid-exponential-notation-of-large-numbers-while-importing-from/)
+Bu özelliğe ilişkin daha fazla ayrıntı için lütfen [Büyük Sayısal Değerlerin Üstel Gösterimine Dönüştürülmesini Engelle](/cells/tr/java/avoid-exponential-notation-of-large-numbers-while-importing-from/) başlıklı detaylı makaleye göz atın.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Sample Html containing large number with digits greater than 15
 
@@ -51,7 +52,7 @@ String html = "<html>"
 
 //Convert Html to byte array
 
-byte[]byteArray = html.getBytes();
+byte[] byteArray = html.getBytes();
 
 //Set Html load options and keep precision true
 
@@ -80,20 +81,20 @@ worksheet.autoFitColumns();
 workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **HTMLLoadOptions.DeleteRedundantSpaces Özelliği eklendi**
-Aspose.Cells for Java 8.8.0, satır sonu etiketinden () sonraki fazladan boşlukları korumak veya silmek için HTMLLoadOptions.DeleteRedundantSpaces özelliğini kullanıma sundu.<br>Etiketi) HTML dizisinden veya dosyasından verileri içe aktarırken. HTMLLoadOptions.DeleteRedundantSpaces özelliği, false olarak varsayılan değere sahiptir; bu, tüm fazladan boşlukların korunacağı ve Workbook nesnesine aktarılacağı anlamına gelir, ancak, true olarak ayarlandığında, API, satır sonu etiketinden sonra gelen tüm gereksiz boşlukları siler.
+### **HTMLLoadOptions.DeleteRedundantSpaces Özelliği Eklendi**
+Aspose.Cells for Java 8.8.0 has exposed the HTMLLoadOptions.DeleteRedundantSpaces property in order to keep or delete the extra spaces after the line break tag (<br> Tag) while importing the data from the HTML string or file. The HTMLLoadOptions.DeleteRedundantSpaces property has the default value as false that means, all extra spaces will be preserved and imported to the Workbook object, however, when set to true, the API will delete all the redundant spaces coming after the line break tag.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[HTML'den Fazla Alanları Sil](/cells/tr/java/delete-redundant-spaces-after-line-break-while-importing/)
+Bu özelliğe ilişkin daha fazla ayrıntı için lütfen [HTML'den Redundant Boşlukları Silme](/cells/tr/java/delete-redundant-spaces-after-line-break-while-importing/) başlıklı detaylı makaleye göz atın.
 
 {{% /alert %}} 
 
- Basit kullanım senaryosu aşağıdaki gibidir.
+Basit kullanım senaryosu aşağıdaki gibi görünüyor. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Sample Html containing redundant spaces after <br> tag
 
@@ -125,7 +126,7 @@ String html = "<html>"
 
 //Convert Html to byte array
 
-byte[]byteArray = html.getBytes();
+byte[] byteArray = html.getBytes();
 
 //Set Html load options and keep precision true
 
@@ -155,19 +156,19 @@ workbook.save(dataDir + "output-" + loadOptions.getDeleteRedundantSpaces() + ".x
 
 {{< /highlight >}}
 ### **Style.QuotePrefix Özelliği Eklendi**
- Aspose.Cells for Java 8.8.0, bir hücre değerinin tek tırnak simgesiyle başlayıp başlamadığını algılamak için Style.QuotePrefix özelliğini kullanıma sundu.
+Aspose.Cells for Java 8.8.0, hücre değerinin tek tırnak işaretiyle başlayıp başlamadığını algılamak için Style.QuotePrefix özelliğini ortaya çıkardı. 
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Cell Değerinin Başında Tek Alıntı Algıla](/cells/tr/java/find-if-the-cell-value-starts-with-single-quote-mark/)
+Bu özelliğe ilişkin daha fazla ayrıntı için lütfen [Hücre Değerinin Başında Tek Tırnak İşareti Var Mı Bul](/cells/tr/java/find-if-the-cell-value-starts-with-single-quote-mark/) başlıklı detaylı makaleye göz atın.
 
 {{% /alert %}} 
 
- Basit kullanım senaryosu aşağıdaki gibidir.
+Basit kullanım senaryosu aşağıdaki gibi görünüyor. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of workbook
 
@@ -210,6 +211,6 @@ System.out.println("A1 has a quote prefix: " + s1.getQuotePrefix());
 System.out.println("A2 has a quote prefix: " + s2.getQuotePrefix());
 
 {{< /highlight >}}
-## **Eski API'ler**
-### **Eski LoadOptions.ConvertNumericData Özelliği**
-Aspose.Cells 8.8.0, LoadOptions.ConvertNumericData özelliğini eskimiş olarak işaretledi. Lütfen HTMLLoadOptions veya TxtLoadOptions sınıflarından ilgili özelliği kullanın.
+## **Eskimiş API'lar**
+### **LoadOptions.ConvertNumericData Özelliği Eski Duruma Alındı**
+Aspose.Cells 8.8.0, LoadOptions.ConvertNumericData özelliğini eski duruma aldı. Lütfen HTMLLoadOptions veya TxtLoadOptions sınıflarından karşılık gelen özelliği kullanın.

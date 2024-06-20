@@ -1,17 +1,18 @@
-﻿---
-title: Bestätigen Sie das Kennwort, das zum Schutz des Arbeitsblatts verwendet wird
+---
+title: Das Verifizieren des zum Schutz des Arbeitsblatts verwendeten Passworts
 type: docs
 weight: 290
 url: /de/java/verify-password-used-to-protect-the-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells APIs haben die verbessert[**Schutz**](https://reference.aspose.com/cells/java/com.aspose.cells/Protection) Klasse durch die Einführung einiger nützlicher Eigenschaften und Methoden. Eine solche Methode ist die[**Passwort bestätigen**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String)), die die Angabe eines Kennworts als Instanz von String ermöglicht und überprüft, ob dasselbe Kennwort zum Schutz des Arbeitsblatts verwendet wurde.
+Die Aspose.Cells-APIs haben die Klasse [**Protection**](https://reference.aspose.com/cells/java/com.aspose.cells/Protection) durch die Einführung einiger nützlicher Eigenschaften und Methoden verbessert. Eine solche Methode ist die [**verifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String)), mit der ein Passwort als Instanz von String angegeben und überprüft wird, ob dasselbe Passwort verwendet wurde, um das Arbeitsblatt zu schützen.
 
 {{% /alert %}}
 
-## **Bestätigen Sie das Kennwort, das zum Schutz des Arbeitsblatts verwendet wird**
+## **Überprüfen Sie das verwendete Kennwort zum Schutz des Arbeitsblatts**
 
- Das[**Protection.verifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String) ) Methode gibt zurück**wahr** wenn das angegebene Passwort mit dem Passwort übereinstimmt, das zum Schutz des angegebenen Arbeitsblatts verwendet wird,**FALSCH** wenn das angegebene Passwort nicht übereinstimmt. Der folgende Codeabschnitt verwendet die[**Protection.verifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String) ) Methode in Verbindung mit[**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword)-Eigenschaft, um den Kennwortschutz zu erkennen, und überprüft das Kennwort.
+Die Methode [**Protection.verifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String)) gibt **true** zurück, wenn das angegebene Passwort mit dem zum Schutz des angegebenen Arbeitsblatts verwendeten Passwort übereinstimmt, andernfalls **false**. Der folgende Code verwendet die Methode [**Protection.verifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String)) in Verbindung mit der Eigenschaft [**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword), um den Passwortschutz zu erkennen und das Passwort zu überprüfen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-VerifyPasswordtoProtectWorksheet-VerifyPasswordtoProtectWorksheet.java" >}}

@@ -1,16 +1,17 @@
-﻿---
-title: Tablo veya Liste Nesnesinin Yorumunu Ayarlama
+---
+title: Tablo veya Liste Nesnesi Yorumunu Ayarlayın
 type: docs
 weight: 60
 url: /tr/python-java/set-the-comment-of-table-or-list-object/
 ---
-## **Çalışma Sayfasında Tablo veya Liste Nesnesinin Yorumunu Ayarlama**
-Aspose.Cells for Python via Java, Liste Nesnesinin yorumunun eklenmesini destekler. Bunun için API,[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)Emlak. tarafından eklenen yorum[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)özellik içinde görünür olacak*xl/tables/tableName.xml* dosya.
 
-Aşağıdaki ekran görüntüsü, kırmızı dikdörtgen içinde örnek kod tarafından oluşturulan yorumu göstermektedir.
+## **Çalışma Sayfası içinde Masa veya Liste Nesnesi Yorumunu Ayarlayın**
+Aspose.Cells için Python via Java, Liste Nesnesi yorumunu eklemeyi destekler. Bunun için API, [ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment) özelliğini sağlar. [ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment) özelliği tarafından eklenen yorum *xl/tables/tableName.xml* dosyasının içinde görünecektir.
 
-![yapılacaklar:resim_alternatif_metin](setting-list-object-comment.png)
+Aşağıdaki ekran görüntüsü, örnek kod tarafından oluşturulan yorumu kırmızı dikdörtgen içinde gösterir.
 
-Aşağıdaki örnek kod,[kaynak excel dosyası](source.xlsx), çalışma sayfasındaki ilk tablonun veya liste nesnesinin açıklamasını ayarlar
+![todo:image_alt_text](setting-list-object-comment.png)
+
+Aşağıdaki örnek kod [kaynak excel dosyasını](source.xlsx) yükler, çalışsayfadaki ilk tablonun veya liste nesnesinin yorumunu ayarlar 
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Tables-SetTheCommentOfTableOrListObject.py" >}}

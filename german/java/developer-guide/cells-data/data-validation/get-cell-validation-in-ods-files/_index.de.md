@@ -1,14 +1,15 @@
-﻿---
-title: Holen Sie sich die Cell-Validierung in ODS-Dateien
+---
+title: Zellvalidierung in ODS Dateien erhalten.
 type: docs
 weight: 190
 url: /de/java/get-cell-validation-in-ods-files/
 ---
-## **Holen Sie sich die Cell-Validierung in ODS-Dateien**
 
-Mit Aspose.Cells können Sie die Validierung auf eine Zelle in ODS-Dateien anwenden lassen. Dafür sorgt die API[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) Methode der[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)Klasse.
+## **Zellvalidierung in ODS-Dateien erhalten**
 
-Das folgende Codebeispiel demonstriert die Verwendung von[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation())-Methode durch Laden der[Quelle ODS](SampleBook1.ods)Datei und Lesen der Validierung der Zelle A9.
+Mit Aspose.Cells können Sie die auf eine Zelle in ODS-Dateien angewendete Validierung erhalten. Dafür bietet die API die Methode [**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) der Klasse [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell).
+
+Der folgende Beispielcode veranschaulicht die Verwendung der Methode [**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) durch Laden der [Quell-ODS-Datei](SampleBook1.ods) und Lesen der Validierung der Zelle A9.
 
 ### **Beispielcode**
 

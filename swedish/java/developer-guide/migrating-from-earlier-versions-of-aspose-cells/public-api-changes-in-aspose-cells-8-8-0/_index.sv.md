@@ -1,41 +1,42 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.8.0
+---
+title: Offentliga API ändringar i Aspose.Cells 8.8.0
 type: docs
 weight: 270
 url: /sv/java/public-api-changes-in-aspose-cells-8-8-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.7.2 till 8.8.0 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver förändringarna i Aspose.Cells API från version 8.7.2 till 8.8.0 som kan vara av intresse för modul/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan även en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Få Cell referenser för extern anslutning**
- Aspose.Cells for Java 8.8.0 har avslöjat följande nya egenskaper som är användbara för att hämta mål- och utdatacellreferenser för externa anslutningar lagrade i kalkylarket.
+## **Tillagda API:er**
+### **Hämta Cellreferenser för extern anslutning**
+Aspose.Cells for Java 8.8.0 har exponerat följande nya egenskaper som är användbara för att hämta mål- och utdatacellreferenser för externa anslutningar som lagras i kalkylarket. 
 
 1. QueryTable.ConnectionId: Hämtar anslutnings-ID för frågetabellen.
 1. ExternalConnection.Id: Hämtar ID för den externa anslutningen.
-1. ListObject.QueryTable: Hämtar den länkade frågetabellen.
+1. ListObject.QueryTable: Hämtar länkad frågetabell.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Hitta frågetabeller och listobjekt relaterade till externa dataanslutningar](/cells/sv/java/find-query-tables-and-list-objects-related-to-external-data-connections/)
+För mer detaljer om denna funktion, vänligen granska den detaljerade artikeln om [Hitta Frågetabeller och Listobjekt relaterade till externa dataanslutningar](/cells/sv/java/find-query-tables-and-list-objects-related-to-external-data-connections/)
 
 {{% /alert %}} 
-### **Tillagd HTMLLoadOptions.KeepPrecision-egenskap**
-Aspose.Cells for Java 8.8.0 har lagt till egenskapen HTMLLoadOptions.KeepPrecision för att kontrollera konverteringen av långa numeriska värden till exponentiell notation vid import av HTML-filer. Som standard konverteras alla värden som är längre än 15 siffror till exponentiell notation om data importeras från HTML sträng eller fil. Men nu kan användarna kontrollera detta beteende med hjälp av HTMLLoadOptions.KeepPrecision-egenskapen. Om egenskapen är satt till true kommer värdena att importeras som de är i källan.
+### **Tillagt HTMLLoadOptions.KeepPrecision Egenskap**
+Aspose.Cells for Java 8.8.0 har lagt till HTMLLoadOptions.KeepPrecision egenskapen för att kontrollera konverteringen av långa numeriska värden till exponentiell notation vid import av HTML-filer. Som standard konverteras alla värden längre än 15 siffror till exponentiell notation om datan importeras från HTML-sträng eller fil. Nu kan användarna dock kontrollera detta beteende med hjälp av HTMLLoadOptions.KeepPrecision egenskapen. Om den aktuella egenskapen är satt till true kommer värdena att importeras som de är från källan.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[ Undvik konvertering av stora numeriska värden till exponentiell notation](/cells/sv/java/avoid-exponential-notation-of-large-numbers-while-importing-from/)
+För mer detaljer om denna funktion, vänligen granska den detaljerade artikeln om [Undvik Konvertering av Stora Numeriska Värden till Exponentiell Notation](/cells/sv/java/avoid-exponential-notation-of-large-numbers-while-importing-from/)
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Sample Html containing large number with digits greater than 15
 
@@ -51,7 +52,7 @@ String html = "<html>"
 
 //Convert Html to byte array
 
-byte[]byteArray = html.getBytes();
+byte[] byteArray = html.getBytes();
 
 //Set Html load options and keep precision true
 
@@ -80,20 +81,20 @@ worksheet.autoFitColumns();
 workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **Tillagd HTMLLoadOptions.DeleteRedundantSpaces-egenskap**
-Aspose.Cells for Java 8.8.0 har avslöjat egenskapen HTMLLoadOptions.DeleteRedundantSpaces för att behålla eller ta bort de extra mellanslagen efter radbrytningstaggen (<br>Tag) medan du importerar data från HTML-strängen eller filen. Egenskapen HTMLLoadOptions.DeleteRedundantSpaces har standardvärdet som false, vilket betyder att alla extra mellanslag kommer att bevaras och importeras till Workbook-objektet, men när den är satt till true, kommer API att ta bort alla redundanta mellanslag som kommer efter radbrytningstaggen.
+### **Tillagt HTMLLoadOptions.DeleteRedundantSpaces Egenskap**
+Aspose.Cells for Java 8.8.0 has exposed the HTMLLoadOptions.DeleteRedundantSpaces property in order to keep or delete the extra spaces after the line break tag (<br> Tag) while importing the data from the HTML string or file. The HTMLLoadOptions.DeleteRedundantSpaces property has the default value as false that means, all extra spaces will be preserved and imported to the Workbook object, however, when set to true, the API will delete all the redundant spaces coming after the line break tag.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Ta bort redundanta mellanslag från HTML](/cells/sv/java/delete-redundant-spaces-after-line-break-while-importing/)
+För mer detaljer om denna funktion, vänligen granska den detaljerade artikeln om [Radera Överflödiga Mellanrum från HTML](/cells/sv/java/delete-redundant-spaces-after-line-break-while-importing/)
 
 {{% /alert %}} 
 
- Enkelt användningsscenario ser ut som följer.
+Enkelt användningsscenarie ser ut som följande. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Sample Html containing redundant spaces after <br> tag
 
@@ -125,7 +126,7 @@ String html = "<html>"
 
 //Convert Html to byte array
 
-byte[]byteArray = html.getBytes();
+byte[] byteArray = html.getBytes();
 
 //Set Html load options and keep precision true
 
@@ -154,20 +155,20 @@ worksheet.autoFitColumns();
 workbook.save(dataDir + "output-" + loadOptions.getDeleteRedundantSpaces() + ".xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **Tillagd Style.QuotePrefix-egenskap**
- Aspose.Cells for Java 8.8.0 har exponerat egenskapen Style.QuotePrefix för att upptäcka om ett cellvärde börjar med ett enda citattecken.
+### **Tillagt Style.QuotePrefix Egenskap**
+Aspose.Cells for Java 8.8.0 har exponerat Style.QuotePrefix egenskapen för att upptäcka om en cellvärde börjar med ett enkelt citattecken. 
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Upptäck enstaka offert i början av Cell-värde](/cells/sv/java/find-if-the-cell-value-starts-with-single-quote-mark/)
+För mer detaljer om denna funktion, vänligen granska den detaljerade artikeln om [Upptäcka Enkelt Citattecken i Början av Cellvärde](/cells/sv/java/find-if-the-cell-value-starts-with-single-quote-mark/)
 
 {{% /alert %}} 
 
- Enkelt användningsscenario ser ut som följer.
+Enkelt användningsscenarie ser ut som följande. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of workbook
 
@@ -210,6 +211,6 @@ System.out.println("A1 has a quote prefix: " + s1.getQuotePrefix());
 System.out.println("A2 has a quote prefix: " + s2.getQuotePrefix());
 
 {{< /highlight >}}
-## **Föråldrade API:er**
-### **Föråldrad LoadOptions.ConvertNumericData Property**
-Aspose.Cells 8.8.0 har markerat egenskapen LoadOptions.ConvertNumericData som föråldrad. Använd motsvarande egenskap från klasserna HTMLLoadOptions eller TxtLoadOptions.
+## **Obsoletterade API:er**
+### **Föråldrad LoadOptions.ConvertNumericData Egenskap**
+Aspose.Cells 8.8.0 har markerat LoadOptions.ConvertNumericData egenskapen som föråldrad. Vänligen använd motsvarande egenskap från klasserna HTMLLoadOptions eller TxtLoadOptions.

@@ -1,6 +1,6 @@
-﻿---
-title: Şekillendirme ve Veri Biçimlendirme
-linktitle: stiller
+---
+title: Stil ve Veri Biçimlendirme
+linktitle: Stil
 type: docs
 weight: 60
 url: /tr/java/styling-and-data-formatting/

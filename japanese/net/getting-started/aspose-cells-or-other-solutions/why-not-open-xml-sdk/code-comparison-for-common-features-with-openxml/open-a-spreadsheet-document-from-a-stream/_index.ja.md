@@ -1,11 +1,12 @@
-﻿---
-title: ストリームからスプレッドシート ドキュメントを開く
+---
+title: ストリームからスプレッドシートドキュメントを開く
 type: docs
 weight: 110
 url: /ja/net/open-a-spreadsheet-document-from-a-stream/
 ---
-## **OpenXML エクセル**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -73,7 +74,7 @@ public static void OpenAndAddToSpreadsheetStream(Stream stream)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 

@@ -1,23 +1,24 @@
-﻿---
-title: Pivot Öğesinin mutlak konumunu belirleme
+---
+title: Pivot Öğesi nin mutlak konumunu belirtme
 type: docs
 weight: 40
 url: /tr/java/specifying-the-absolute-position-of-the-pivot-item/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen kullanıcının pivot öğelerinin mutlak konumunu belirtmesi gerekir, Aspose.Cells API birkaç yeni özellik ve bu kullanıcı ihtiyacını karşılamak için bir yöntem ortaya koymuştur.
+Kullanıcı bazen pivot öğelerin mutlak konumunu belirlemek isteyebilir, Aspose.Cells API bu kullanıcı gereksinimini karşılamak için birkaç yeni özellik ve bir yöntem sunar.
 
--  Katma[**PivotItem.setPosition()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#Position) üst düğümden bağımsız olarak tüm PivotItem'lerdeki konum dizinini belirtmek için kullanılabilen özellik. Katma[**PivotItem.setPositionInSameParentNode()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#PositionInSameParentNode) aynı üst düğüm altındaki PivotItems içindeki konum dizinini belirtmek için kullanılabilen özellik.
--  Katma[**PivotItem.move(int sayısı, boole isSameParent)**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#move(int,%20boolean)yöntemi, sayım değerine bağlı olarak öğeyi yukarı veya aşağı taşımak için kullanılır; burada sayı, Özet Öğeyi yukarı veya aşağı hareket ettirmek için konumların sayısıdır. Sayım değeri sıfırdan küçükse, öğe yukarı taşınırken, sayım değeri sıfırdan büyükse, PivotItem aşağı hareket eder, taşıma işleminin aynı üst düğümde mi yoksa aynı üst düğümde mi gerçekleştirileceğini belirten Boolean isSameParent parametresi olumsuzluk.
--  Eskimiş*PivotItem.move(int sayısı)* yöntemi, bu nedenle, yeni eklenen yöntemin kullanılması önerilir.[**PivotItem.move(int sayısı, boole isSameParent)**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#move(int,%20boolean)) yerine.
+- Tüm ebeveyn düğümün bağımsızında PivotItems içindeki pozisyon indeksini belirlemek için kullanılabilecek [**PivotItem.setPosition()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#Position) özelliği eklendi. - Aynı ebeveyn düğümdeki PivotItems içindeki pozisyon indeksini belirlemek için kullanılabilecek [**PivotItem.setPositionInSameParentNode()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#PositionInSameParentNode) özelliği eklendi.
+- PivotItem'ı yukarı veya aşağı hareket ettirmek için [**PivotItem.move(int count, boolean isSameParent)**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#move(int,%20boolean)) yöntemi eklenmiştir, burada sayım, PivotItem'ın yukarı veya aşağı hareket edilecek pozisyon sayısıdır. Eğer sayım değeri sıfırdan küçükse, öğe yukarı taşınacak, eğer sayım değeri sıfırdan büyükse, PivotItem aşağı taşınacak, Boolean tipi isSameParent parametresi taşıma işleminin aynı üst düğümde gerçekleştirilmesi gerekip gerekmediğini belirtir.
+- *PivotItem.move(int sayım)* yöntemi kullanılmayacak, bu nedenle yeni eklenen yöntemin [**PivotItem.move(int count, boolean isSameParent)**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#move(int,%20boolean)) kullanılması önerilir.
 
- Lütfen dikkat, aramanız gerekir.[**PivotTable.refreshData**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#refreshData() ) ve[**PivotTable.calculateData**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#calculateData() ) yöntemleri kullanmadan önce[**PivotItem.setPosition()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#Position), [**PivotItem.setPositionInSameParentNode()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#PositionInSameParentNode) özellikler ve[**PivotItem.move(int sayısı, boole isSameParent)**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#move(int,%20boolean)) yöntem.
+Lütfen, [**PivotTable.refreshData**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#refreshData--) ve [**PivotTable.calculateData**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#calculateData--) yöntemlerini kullanmadan önce [**PivotItem.setPosition()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#Position), [**PivotItem.setPositionInSameParentNode()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#PositionInSameParentNode) özelliklerini ve [**PivotItem.move(int count, boolean isSameParent)**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#move(int,%20boolean)) yöntemini kullanmak gereklidir.
 
 {{% /alert %}}
 
-## Basit kod
+## Örnek Kod
 
-Aşağıdaki örnek kod, bir Pivot Tablo oluşturur ve ardından aynı üst düğümdeki Pivot Öğeleri konumlarını belirtir.
+Aşağıdaki örnek kod bir pivot tablo oluşturur ve daha sonra aynı üst düğümdeki Pivot Öğelerinin pozisyonlarını belirtir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyAbsolutePositionOfPivotItem-SpecifyAbsolutePositionOfPivotItem.java" >}}

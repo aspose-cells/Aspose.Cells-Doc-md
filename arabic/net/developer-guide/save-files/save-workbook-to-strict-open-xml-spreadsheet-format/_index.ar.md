@@ -1,19 +1,20 @@
-﻿---
-title: حفظ المصنف لتقييد تنسيق جدول بيانات XML المفتوح
+---
+title: حفظ الدفتر إلى تنسيق جدول بيانات إكس الإكس إم الصارم
 type: docs
 weight: 150
 url: /ar/net/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-Aspose.Cells يسمح لك بحفظ المصنف بتنسيق*جدول بيانات XML مفتوح صارم*صيغة. لهذا الغرض ، فإنه يوفر**[Workbook.Settings.Compliance] (https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)**خاصية. إذا قمت بتعيين قيمته كـ**[OoxmlCompliance.Iso29500_2008_Strict] (https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)**، ثم سيتم حفظ ملف Excel الناتج بتنسيق Strict Open XML Spreadsheet.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **حفظ المصنف لتقييد تنسيق جدول بيانات XML المفتوح**
+تسمح Aspose.Cells لك بحفظ سجل العمل في تنسيق *Strict Open XML Spreadsheet*. لهذا الغرض، فإنها توفر الخاصية [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance). إذا قمت بتعيين قيمته كـ [**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)، سيتم حفظ ملف Excel الناتج في تنسيق *Strict Open XML Spreadsheet*.
 
-نموذج التعليمات البرمجية التالي إنشاء مصنف وتعيين قيمة**[Workbook.Settings.Compliance] (https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)** الملكية مثل**[OoxmlCompliance.Iso29500_2008_Strict] (https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)** ويحفظها باسم[إخراج ملف Excel](67338272.xlsx) . إذا فتحت ملف Excel الناتج في Microsoft Excel وفتحت مربع الحوار حفظ باسم ... ، فسترى تنسيقه على أنه*جدول بيانات XML مفتوح صارم*كما هو موضح في لقطة الشاشة هذه.
+## **حفظ الدفتر إلى تنسيق جدول بيانات إكس الإكس إم الصارم**
 
-![ما يجب القيام به: image_بديل_نص](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
+تقوم الشفرة العينية التالية بإنشاء سجل عمل وتعيين قيمة الخاصية [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance) بصفتها [**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance) وحفظها كـ [ملف Excel الناتج](67338272.xlsx). إذا فتحت ملف Excel الناتج في Microsoft Excel وفتحت مربع حفظ كٌ...، سترى تنسيقه كـ *Strict Open XML Spreadsheet* كما هو موضح في هذه اللقطة الشاشة.
 
-## **عينة من الرموز**
+![todo:image_alt_text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.cs" >}}

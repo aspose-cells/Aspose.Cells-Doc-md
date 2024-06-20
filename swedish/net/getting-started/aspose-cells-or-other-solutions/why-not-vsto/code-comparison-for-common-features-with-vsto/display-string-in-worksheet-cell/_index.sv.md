@@ -1,11 +1,12 @@
-﻿---
-title: Visa sträng i kalkylblad Cell
+---
+title: Visa sträng i kalkylbladscell
 type: docs
 weight: 110
 url: /sv/net/display-string-in-worksheet-cell/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -17,7 +18,7 @@ url: /sv/net/display-string-in-worksheet-cell/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -30,5 +31,5 @@ url: /sv/net/display-string-in-worksheet-cell/
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Ladda ner**
+## **Nerladdning**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DisplayStringInCell.Aspose.Cells.zip)

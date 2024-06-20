@@ -1,17 +1,18 @@
-﻿---
+---
 title: Lavorare con i bordi in Apache POI e Aspose.Cells
 type: docs
 weight: 10
 url: /it/java/working-with-borders-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Lavorare con i confini**
-Aspose.Cells offre un corso,[Cartella di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)che rappresenta un file Excel Microsoft. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe Worksheet fornisce una raccolta Cells. Ogni articolo della collezione Cells rappresenta un oggetto della[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe.
 
-Aspose.Cells fornisce il metodo setStyle nel file[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe utilizzata per impostare lo stile di formattazione di una cella. Inoltre, l'oggetto Style di[Stile](http://docs.aspose.com:8082/docs/display/cellsjava/Style)viene utilizzata la classe e fornisce le proprietà per la configurazione delle impostazioni dei caratteri.
+## **Aspose.Cells - Lavorare con i bordi**
+Aspose.Cells fornisce una classe, [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) che rappresenta un file Microsoft Excel. La classe Workbook contiene una WorksheetCollection che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet). La classe Worksheet fornisce una raccolta di celle. Ogni elemento nella raccolta Cells rappresenta un oggetto della classe [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell).
+
+Aspose.Cells fornisce il metodo setStyle nella classe [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell) utilizzato per impostare lo stile di formattazione di una cella. Inoltre, viene utilizzato l'oggetto Style della classe [Style](http://docs.aspose.com:8082/docs/display/cellsjava/Style) che fornisce proprietà per configurare le impostazioni del font.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Style the cell with borders all around.
 
@@ -35,7 +36,7 @@ La classe CellStyle fornisce funzionalità per impostare le impostazioni dei bor
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Setting the line of the top border
 
@@ -59,12 +60,12 @@ cell.setStyle(style);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/borders)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/borders)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Aggiunta di bordi a Cells](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Borders+to+Cells).
+Per ulteriori dettagli, visita [Aggiunta di bordi alle celle](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Borders+to+Cells).
 
 {{% /alert %}}

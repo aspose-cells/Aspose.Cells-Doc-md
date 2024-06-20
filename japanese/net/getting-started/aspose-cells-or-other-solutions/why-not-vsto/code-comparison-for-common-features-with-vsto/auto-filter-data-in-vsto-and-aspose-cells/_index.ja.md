@@ -1,21 +1,22 @@
-﻿---
-title: VSTO および Aspose.Cells のデータの自動フィルター処理
+---
+title: VSTOとAspose.Cellsでデータを自動フィルタリング
 type: docs
 weight: 50
 url: /ja/net/auto-filter-data-in-vsto-and-aspose-cells/
 ---
+
 列に自動フィルタリングを適用するには:
 
-1. ワークブックを作成します。
-1. ワークシートを取得します。
+1. ワークブックを作成する。
+1. ワークシートを取得する。
 1. サンプルデータを追加します。
-1. オートフィルターを適用します。
-1. 列を自動調整して表示を魅力的にします。
+1. 自動フィルターを適用します。
+1. 表示を魅力的にするために列を自動調整します。
 1. スプレッドシートを保存します。
 
-この記事のコード サンプルは、VSTO を C# で使用するか、Apose.Cells を使用して、再び C# でこれらの手順を実行する方法を示しています。
+この記事のコードサンプルでは、これらの手順をC#を使用したVSTOまたはC#を使用したApose.Cellsを使って実行する方法が示されています。
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Excel.Application ExcelApp = Application;
 
@@ -29,27 +30,27 @@ Excel.Worksheet sheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Add data into A1 and B1 Cells as headers.
 
-sheet.Cells[1, 1]= "Product ID";
+sheet.Cells[1, 1] = "Product ID";
 
-sheet.Cells[1, 2]= "Product Name";
+sheet.Cells[1, 2] = "Product Name";
 
 //Add data into details cells.
 
-sheet.Cells[2, 1]= 1;
+sheet.Cells[2, 1] = 1;
 
-sheet.Cells[3, 1]= 2;
+sheet.Cells[3, 1] = 2;
 
-sheet.Cells[4, 1]= 3;
+sheet.Cells[4, 1] = 3;
 
-sheet.Cells[5, 1]= 4;
+sheet.Cells[5, 1] = 4;
 
-sheet.Cells[2, 2]= "Apples";
+sheet.Cells[2, 2] = "Apples";
 
-sheet.Cells[3, 2]= "Bananas";
+sheet.Cells[3, 2] = "Bananas";
 
-sheet.Cells[4, 2]= "Grapes";
+sheet.Cells[4, 2] = "Grapes";
 
-sheet.Cells[5, 2]= "Oranges";
+sheet.Cells[5, 2] = "Oranges";
 
 //Enable Auto-filter.
 
@@ -73,7 +74,7 @@ objBook.SaveCopyAs("vsto_autofilter.xlsx");
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -122,6 +123,6 @@ objBook.Save("aspose-cells_autofilter.xlsx");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Auto.Filter.Data.Aspose.Cells.zip)
-- [ソースフォージ](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Auto%20Filter%20Data%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Auto%20Filter%20Data%20\(Aspose.Cells\)。ジップ）
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Auto.Filter.Data.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Auto%20Filter%20Data%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Auto%20Filter%20Data%20\(Aspose.Cells\).zip)

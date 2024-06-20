@@ -1,17 +1,18 @@
 ---
-title: Доступ к объекту гиперссылки GridWeb Cell
+title: Доступ к объекту гиперссылки в ячейке GridWeb
 type: docs
 weight: 60
 url: /ru/java/access-hyperlink-object-of-the-gridweb-cell/
 ---
-##  **Возможные сценарии использования**
-Вы можете проверить, содержит ли ячейка гиперссылку или нет, используя следующие два метода. Эти методы вернут значение null, если ячейка не содержит гиперссылки, а если она содержит гиперссылку, она вернет объект GridHyperlink.
 
-- GridHyperlinkCollection.getHyperlink (ячейка GridCell)
-- GridHyperlinkCollection.getHyperlink (строка int, столбец int)
-##  **Открыть гиперссылку в новом или существующем окне**
- Если ваш файл Excel содержит гиперссылку, которая ведет на какой-либо URL-адрес, например<http://wwww.aspose.com/> и вы загружаете его в GridWeb, тогда гиперссылки будут отображаться с целевым атрибутом, установленным на _blank. Это означает, что когда вы щелкнете гиперссылку в ячейке GridWeb, она откроется в новом окне вместо существующего. Кроме того, если вы хотите открыть гиперссылку в существующем окне, установите для GridHyperlink.Target значение _self.
-##  **Доступ к объекту гиперссылки GridWeb Cell**
-Следующий пример кода осуществляет доступ к гиперссылке ячейки A1. Если ячейка A1 содержит гиперссылку, она вернет объект GridHyperlink, в противном случае она вернет ноль.
-##  **Образец кода**
+## **Возможные сценарии использования**
+Вы можете проверить, содержит ли ячейка гиперссылку, используя следующие два метода. Эти методы вернут null, если ячейка не содержит гиперссылки, и если она содержит гиперссылку, то вернут объект GridHyperlink.
+
+- GridHyperlinkCollection.getHyperlink(GridCell cell)
+- GridHyperlinkCollection.getHyperlink(int row,int column)
+## **Открыть гиперссылку в новом или существующем окне**
+If your excel file contains hyperlink which links to some URL like <http://wwww.aspose.com/> and you load it in GridWeb then the hyperlinks will be rendered with target attribute set to _blank. It means, when you will click the hyperlink in a GridWeb cell, it will open up in a new window instead of the existing window. Besides, if you want to open the hyperlink in the existing window, then please set the GridHyperlink.Target to _self.
+## **Доступ к объекту гиперссылки в ячейке GridWeb**
+В следующем примере кода осуществляется доступ к гиперссылке ячейки A1. Если ячейка A1 содержит гиперссылку, то будет возвращен объект GridHyperlink, в противном случае будет возвращено значение null.
+## **Образец кода**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-AccessHyperlinkobjectofGridWebCell-AccessHyperlinkobjectofGridWebCell.jsp" >}}

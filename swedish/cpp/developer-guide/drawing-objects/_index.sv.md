@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rita objekt
 type: docs
 weight: 76

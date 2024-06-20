@@ -1,35 +1,36 @@
-﻿---
-title: Erhalten Sie Warnungen für die Schriftartersetzung beim Rendern von Excel-Dateien
+---
+title: Warnungen für Schriftarten ersetzen beim Rendern von Excel Dateien erhalten
 type: docs
 weight: 120
 url: /de/java/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
+
 {{% alert color="primary" %}}
 
-Manchmal werden beim Rendern von Microsoft-Excel-Dateien in PDF Schriftarten durch Aspose.Cells ersetzt. Aspose.Cells bietet eine Funktion, die Entwickler durch das Auslösen einer Warnung darüber informiert, dass eine bestimmte Schriftart ersetzt wurde. Dies ist eine nützliche Funktion, mit der Sie feststellen können, warum Aspose.Cells als PDF gerendert wird und sich von der eigentlichen Excel-Datei unterscheidet, und Sie können dann entsprechende Maßnahmen ergreifen. Beispielsweise können Sie die fehlenden Schriftarten installieren, damit die Rendering-Ergebnisse gleich aussehen.
+Manchmal ersetzt Aspose.Cells beim Rendern von Microsoft Excel-Dateien in PDF-Schriftarten. Aspose.Cells bietet eine Funktion, die Entwickler darüber informiert, dass eine bestimmte Schriftart durch Auslösen einer Warnung ersetzt wurde. Dies ist eine nützliche Funktion, die Ihnen dabei helfen kann zu erkennen, warum das von Aspose.Cells gerenderte PDF anders ist als die tatsächliche Excel-Datei, und Sie können dann entsprechende Maßnahmen ergreifen. Zum Beispiel können Sie die fehlenden Schriften installieren, damit das Rendernergebnis gleich aussieht.
 
-Wenn Sie beim Rendern einer Excel-Datei in PDF die Warnungen für die Schriftartersetzung erhalten möchten, implementieren Sie die Schnittstelle IWarningCallback und legen Sie die Methode PdfSaveOptions.setWarningCallback() mit Ihrer implementierten Schnittstelle fest.
+Wenn Sie die Warnungen für Schriftarten ersetzen möchten, während Sie eine Excel-Datei in PDF rendert, implementieren Sie das Interface IWarningCallback und setzen Sie die Methode PdfSaveOptions.setWarningCallback() mit Ihrem implementierten Interface.
 
 {{% /alert %}}
 
-Der folgende Screenshot zeigt die Excel-Quelldatei, die im folgenden Code verwendet wird. Es enthält Text in den Zellen A6 und A7 in Schriftarten, die von Microsoft Excel nicht gut wiedergegeben werden.
+Der untenstehende Screenshot zeigt die verwendete Excel-Quelldatei im folgenden Code. Sie enthält einige Texte in den Zellen A6 und A7 in Schriftarten, die von Microsoft Excel nicht gut wiedergegeben werden.
 
-![todo: Bild_alt_Text](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)
+![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)
 
-Aspose.Cells ersetzt die Schriftarten in den Zellen A6 und A7 durch geeignete Schriftarten, wie unten gezeigt.
+Aspose.Cells wird die Schriftarten in den Zellen A6 und A7 durch geeignete Schriftarten ersetzen, wie unten gezeigt.
 
-![todo: Bild_alt_Text](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
+![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
 
 ## **Quelldatei herunterladen und PDF ausgeben**
 
-Sie können die Excel-Quelldatei und die Ausgabe PDF über die folgenden Links herunterladen
+Sie können die Quelldatei und das PDF-Output von den folgenden Links herunterladen
 
 - [source.xlsx](5472700.xlsx)
-- [Ausgabe.pdf](5472699.pdf)
+- [output.pdf](5472699.pdf)
 
- Der folgende Code implementiert die[**IWarnungRückruf**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) und setze die[**PdfSaveOptions.setWarningCallback()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#WarningCallback) Methode mit der implementierten Schnittstelle. Wenn jetzt eine Schriftart in einer Zelle ersetzt wird, löst Aspose.Cells eine Warnung innerhalb der Methode WarningCallback.warning() aus.
+Der folgende Code implementiert das [**IWarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) und setzt die [**PdfSaveOptions.setWarningCallback()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#WarningCallback)-Methode mit dem implementierten Interface. Nun, wann immer eine Schriftart in einer Zelle ersetzt wird, gibt Aspose.Cells eine Warnung in der WarningCallback.warning() Methode aus.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public class WarningCallback implements IWarningCallback {
 
@@ -69,20 +70,20 @@ static void Run() throws Exception
 
 {{< /highlight >}}
 
-## **Ausgabe von Warnungen**
+## **Warnausgabe**
 
-Nach der Konvertierung der Quelldatei werden folgende Warnungen an der Debug-Konsole ausgegeben:
+Nach der Konvertierung der Quelldatei werden die folgenden Warnungen in der Debug-Konsole ausgegeben:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
-WARNING INFO: Font substitution: Font [ Athene Logos; Regular ]has been substituted in Cell [ A6 ]in Sheet [ Sheet1 ].
+WARNING INFO: Font substitution: Font [ Athene Logos; Regular ] has been substituted in Cell [ A6 ] in Sheet [ Sheet1 ].
 
-WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted in Cell [ A7 ]in Sheet [ Sheet1 ].
+WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substituted in Cell [ A7 ] in Sheet [ Sheet1 ].
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
 
- Wenn Ihre Tabelle Formeln enthält, ist es am besten, die Methode Workbook.calculateFormula direkt vor dem Rendern der Tabelle in das Format PDF aufzurufen. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet und die richtigen Werte in PDF wiedergegeben werden.
+Wenn Ihre Tabelle Formeln enthält, ist es am besten, die Methode Workbook.calculateFormula kurz vor dem Rendern der Tabelle im PDF-Format aufzurufen. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet werden und die richtigen Werte im PDF gerendert werden. 
 
 {{% /alert %}}

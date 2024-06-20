@@ -1,14 +1,15 @@
 ---
-title: Representación de gráficos
+title: Renderizado de Gráficos
 type: docs
 weight: 30
 url: /es/cpp/chart-rendering/
 ---
-##  **Crear gráficos**
 
-Aspose.Cells Las API admiten la creación de una variedad de gráficos de Excel como se detalla en el tema[Crear y personalizar gráficos de Excel](/cells/es/cpp/creating-and-customizing-charts/). Para demostrar el uso de las API Aspose.Cells para representar los gráficos en formato de imagen y PDF, crearemos un gráfico de tipo Columna según el siguiente fragmento.
+## **Creando gráficos**
 
-{{< highlight "cpp" >}}
+Las API de Aspose.Cells admiten la creación de una variedad de gráficos de Excel, como se detalla en el tema [Creating & Customizing Excel Charts](/cells/es/cpp/creating-and-customizing-charts/). Para demostrar el uso de las API de Aspose.Cells para renderizar los gráficos en formato de imagen y PDF, crearemos un gráfico de tipo Columna según el siguiente fragmento de código.
+
+{{< highlight cpp >}}
 
 Aspose::Cells::Startup();
 
@@ -52,15 +53,15 @@ Aspose::Cells::Cleanup();
 
 {{< /highlight >}}
 
-##  **Representación de gráficos**
+## **Renderización de Gráficos**
 
-Las API Aspose.Cells admiten la conversión de gráficos de Excel a imágenes y formatos PDF sin necesidad de herramientas o aplicaciones adicionales. Para brindar soporte de renderizado, la clase Chart ha expuesto los métodos ToImage y ToPdf con una variedad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
+Las API de Aspose.Cells admiten la conversión de los gráficos de Excel a imágenes y formatos PDF sin necesidad de herramientas o aplicaciones adicionales. Para proporcionar soporte de renderizado, la clase Chart ha expuesto los métodos ToImage y ToPdf con una variedad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
 
-###  **Representar gráficos en imágenes**
+### **Renderizar Gráficos a Imágenes**
 
-El método Chart.toImage tiene una serie de sobrecargas para admitir renderizado simple y avanzado. Si el requisito de la aplicación es representar el gráfico en sus dimensiones predeterminadas, le sugerimos que utilice el método Chart.toImage de la siguiente manera.
+El método Chart.toImage tiene una variedad de sobrecargas para admitir renderizados simples y avanzados. Si el requisito de la aplicación es renderizar el gráfico en sus dimensiones predeterminadas, le sugerimos que utilice el método Chart.toImage como se indica a continuación.
 
-{{< highlight "cpp" >}}
+{{< highlight cpp >}}
 
 // Path of output image file
 U16String outputChartImage = outDir + u"out1image.png";
@@ -70,11 +71,11 @@ chart.ToImage(outputChartImage, ImageType::Png);
 
 {{< /highlight >}}
 
-###  **Gráfico de renderizado al PDF**
+### **Renderizando gráfico a PDF**
 
-Para representar el gráfico en formato PDF, las API de Aspose.Cells han expuesto el método Chart.ToPdf con la capacidad de almacenar el PDF resultante en la ruta del disco o en Stream.
+Para renderizar el gráfico en formato PDF, las API de Aspose.Cells han expuesto el método Chart.ToPdf con la capacidad de almacenar el PDF resultante en una ruta de disco o en un flujo.
 
-{{< highlight "cpp" >}}
+{{< highlight cpp >}}
 
 // Path of output pdf file
 U16String outputPdfFile = outDir + u"out1pdf.pdf";
@@ -84,96 +85,96 @@ chart.ToPdf(outputPdfFile);
 
 {{< /highlight >}}
 
-##  **Tipos de gráficos admitidos para renderizado**
+## **Tipos de Gráficos Soportados para Renderizado**
 
-Hay algunos tipos de gráficos que actualmente no son compatibles con la representación. Estos tipos de gráficos contienen**N** en el **Soportado**columna de la siguiente tabla.
+Hay pocos tipos de gráficos que actualmente no son compatibles con la renderización. Tales tipos de gráficos contienen **N** en la columna **Supported** de la siguiente tabla.
 
-|**Tipo de gráfico**|**Subtipo de gráfico**|**Soportado**|
+|**Tipo de Gráfico**|**Subtipo de Gráfico**|**Soportado**|
 | :- | :- | :- |
-|**Columna**|Columna|*Sí**|
-| |Columna Apilada|*Sí**|
-| |Columna100PorcentajeApilada|*Sí**|
-| |Columna3DClustered|*Sí**|
-| |Columna3DSapilada|*Sí**|
-| |Columna3D100PorcentajeApilado|*Sí**|
-| |Columna3D|*Sí**|
-|**Bar**|Bar|*Sí**|
-| |barra apilada|*Sí**|
-| |Barra100PorCientoApilados|*Sí**|
-| |Bar3DClustered|*Sí**|
-| |Barra3DSapilada|*Sí**|
-| |Bar3D100PorcentajeApilado|*Sí**|
-|**Línea**|Línea|*Sí**|
-| |líneaapilada|*Sí**|
-| |Línea100PorcentajeApilado|*Sí**|
-| |Línea con marcadores de datos|*Sí**|
-| |Línea apilada con marcadores de datos|*Sí**|
-| |Línea 100 por ciento apilada con marcadores de datos|*Sí**|
-| |Línea 3D|*Sí**|
-|**Tarta**|Tarta|*Sí**|
-| |pastel3D|*Sí**|
-| |Pastel Pastel|*Sí**|
-| |PastelExplotado|*Sí**|
-| |pastel3DExplotado|*Sí**|
-| |Barra de pastel|*Sí**|
-|**Dispersión**|Dispersión|*Sí**|
-| |Dispersión conectada por curvas con marcador de datos|*Sí**|
-| |Dispersión conectada por curvas sin marcador de datos|*Sí**|
-| |DispersiónConnectedByLinesWithDataMarker|*Sí**|
-| |DispersiónConectadoPorLineasSinMarcadorDeDatos|*Sí**|
-|**Área**|Área|*Sí**|
-| |ÁreaApilada|*Sí**|
-| |Área100PorCientoApilado|*Sí**|
-| |Área3D|*Sí**|
-| |Área3DSapiladas|*Sí**|
-| |Área3D100PorcentajeApilado|*Sí**|
-|**Rosquilla**|Rosquilla|*Sí**|
-| |DonutExplotado|*Sí**|
-|**Radar**|Radar|*Sí**|
-| |RadarConMarcadores De Datos|*Sí**|
-| |RadarLleno|*Sí**|
-|**Superficie**|Superficie3D|N|
-| |SuperficieAlámbrica3D|N|
-| |Contorno de superficie|N|
-| |SuperficieContornoEstructura Alámbrica|N|
-|**Burbuja**|Burbuja|*Sí**|
-| |burbuja3d|N|
-|Existencias|StockAltoBajoCerrar|*Sí**|
-| |StockAbiertoAltoBajoCerrar|*Sí**|
-| |StockVolumenAltoBajoCerrar|*Sí**|
-| |StockVolumenAbrirAltoBajoCerrar|*Sí**|
-|**Cilindro**|Cilindro|*Sí**|
-| |CilindroApilado|*Sí**|
-| |Cilindro100PorCientoApilado|*Sí**|
-| |Barra cilíndrica|*Sí**|
-| |CilíndricoBarApilados|*Sí**|
-| |CilíndricoBarra100PorCientoApilado|*Sí**|
-| |CilíndricoColumna3D|*Sí**|
-|**Cono**|Cono|*Sí**|
-| |ConoApilado|*Sí**|
-| |Cono100PorCientoApilados|*Sí**|
-| |Barra cónica|*Sí**|
-| |Barra CónicaApiladas|*Sí**|
-| |Barra cónica 100 por ciento apilada|*Sí**|
-| |Columna Cónica3D|*Sí**|
-|**Pirámide**|Pirámide|*Sí**|
-| |pirámideapilada|*Sí**|
-| |Pirámide100PorCientoApilados|*Sí**|
-| |Barra Pirámide|*Sí**|
-| |PirámideBarApilados|*Sí**|
-| |PyramidBar100PorcentajeApilado|*Sí**|
-| |PirámideColumna3D|*Sí**|
-|**CajaBigote**|CajaBigote|Y|
-|**Embudo**|Embudo|*Sí**|
-|**Línea de Pareto**|Línea de Pareto|*Sí**|
-|**resplandor solar**|resplandor solar|*Sí**|
-|**Mapa de árbol**|Mapa de árbol|*Sí**|
-|**Cascada**|Cascada|*Sí**|
-|**Histograma**|Histograma|Y|
-|**Mapa**|Mapa|*NORTE**|
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
+| |SurfaceContourWireframe|N|
+|**Bubble**|Bubble|**Y**|
+| |Bubble3D|N|
+|Stock|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
+|**BoxWhisker**|BoxWhisker|Y|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-En caso de que intente representar los tipos de gráficos no admitidos en una imagen o PDF, puede terminar con imágenes de tamaño 0 o PDF en blanco.
+En caso de intentar renderizar los tipos de gráficos no soportados a imagen o PDF, es posible que se obtengan imágenes de tamaño 0 o PDF en blanco.
 
 {{% /alert %}}

@@ -1,6 +1,8 @@
-﻿---
+---
 title: Lavorare con GridWeb
 type: docs
 weight: 20
-url: /it/net/working-with-gridweb/
+url: /it/net/aspose-cells-gridweb/working-with-gridweb/
 ---
+
+

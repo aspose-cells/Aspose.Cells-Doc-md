@@ -1,36 +1,37 @@
-﻿---
-title: シートのアクティブ化とワークシートでの Cell のアクティブ化
+---
+title: シートの有効化とワークシート内のセルの有効化
 type: docs
 weight: 5
 url: /ja/java/activating-sheets-and-activating-a-cell-in-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-ユーザーが Excel で Microsoft Excel ファイルを開いたときに、特定のワークシートをアクティブにして表示する必要がある場合があります。同様に、特定のセルをアクティブにして、アクティブ セルを表示するようにスクロール バーを設定することもできます。 Aspose.Cells は、以下に示すように、これらすべてのタスクを実行できます。
+時には、Microsoft ExcelファイルをExcelで開くときに特定のワークシートが有効になり表示されることが求められます。同様に、特定のセルを有効にしてスクロールバーをアクティブなセルを表示するように設定したいことがあります。Aspose.Cellsでは、以下に示すタスクをすべて実行できます。
 
-- アン**アクティブシート**は作業中のシートです。タブ上のアクティブなシートの名前は、デフォルトで太字になっています。
-- アン**アクティブセル**選択されたセル (入力を開始したときにデータが入力されるセル) です。一度にアクティブになるセルは 1 つだけです。アクティブ セルは、太い境界線で強調表示されます。
+アクティブな**シート**は、作業中のシートです: タブの上のアクティブなシートの名前は通常太字で表示されます。
+アクティブな**セル**は選択されたセルであり、入力を開始するときにデータが入力されるセルです。同時にアクティブなセルは1つだけです。アクティブなセルは太い枠でハイライト表示されます。
 
 {{% /alert %}}
 
-## **シートの有効化と Cell の有効化**
+## **シートの有効化とセルのアクティブ化**
 
-Aspose.Cells は、シートとセルをアクティブ化するための特定の API 呼び出しを提供します。たとえば、[**WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#ActiveSheetIndex)プロパティは、ワークブックのアクティブ シートを設定するのに役立ちます。同様に、[**Worksheet.ActiveCell**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ActiveCell)プロパティを使用して、ワークシート内のアクティブ セルを設定および取得できます。
+Aspose.Cellsでは、ワークブック内のアクティブなシートを設定するために**[**WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#ActiveSheetIndex) プロパティ**が役立ちます。同様に、ワークシート内のアクティブなセルを設定および取得するために**[**Worksheet.ActiveCell**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ActiveCell) プロパティ**を使用できます。
 
-水平または垂直スクロールバーが、特定のデータを表示したい行と列のインデックス位置にあることを確認するには、[**Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleRow)と[**Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleColumn)プロパティ。
+特定のデータを表示するために水平または垂直のスクロールバーが行や列のインデックス位置にあることを確認するには、**[**Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleRow) プロパティ**と**[**Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleColumn) プロパティ**を使用します。
 
-次の例は、ワークシートをアクティブにして、その中にアクティブ セルを作成する方法を示しています。コードを実行すると、次の出力が生成されます。スクロールバーがスクロールされ、2 番目の行と 2 番目の列が最初に表示される行と列になります。
+以下の例は、ワークシートを有効にし、その中でアクティブなセルを作成する方法を示しています。コードの実行時に生成される出力は次のとおりです。スクロールバーは1番目の可視行および列として2行目と2列目にスクロールされています。
 
-**B2セルをアクティブセルに設定**
+**B2セルをアクティブセルとして設定**
 
-![todo:画像_代替_文章](activating-sheets-and-activating-a-cell-in-worksheet_1.png)
+![todo:image_alt_text](activating-sheets-and-activating-a-cell-in-worksheet_1.png)
 
-## Java Excel でアクティブなワークシートを設定するコード
+## Excelでアクティブなワークシートを設定するJavaコード
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ActivatingSheetsandActivatingCell-ActivatingSheetsandActivatingCell.java" >}}
 
 {{% alert color="primary" %}}
 
-の**評価**モード、つまり;有効なライセンスを設定しないと、アクティブなワークシートは常に評価版の透かしを含むものになります。この動作は、アプリケーションの開始時にライセンスを設定することによってのみオーバーライドできます。
+**評価**モード（有効なライセンスを設定しない状態）では、アクティブなワークシートは常に評価用途の透かしを含むワークシートになります。この動作はアプリケーションの開始時にライセンスを設定することでのみ上書きできます。
 
 {{% /alert %}}

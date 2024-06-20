@@ -1,33 +1,34 @@
-﻿---
-title: Fügen Sie Grenzen zu Cells in einem Arbeitsblatt in VSTO und Aspose.Cells hinzu
+---
+title: Rahmen zu Zellen in einem Arbeitsblatt in VSTO und Aspose.Cells hinzufügen
 type: docs
 weight: 10
 url: /de/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Führen Sie die folgenden Schritte aus, um Rahmen zu Zellen in einer Tabelle hinzuzufügen:
 
-1.  Erstellen Sie das Arbeitsblatt:
- 1. Instanziieren Sie ein Anwendungsobjekt (nur VSTO)
- 1. Fügen Sie eine Arbeitsmappe hinzu
- 1. Holen Sie sich das erste Blatt
- 1. Fügen Sie Text zu den Zellen hinzu, denen Sie Rahmen hinzufügen möchten
-1.  Grenzen hinzufügen:
- 1. Definieren Sie einen Bereich
- 1. Wenden Sie einen Rahmenstil auf den Bereich an
- 1. Wiederholen Sie dies für jeden Bereich und jeden Rahmenstil, den Sie festlegen möchten. Dieses Beispiel wendet Haarlinien, dünne, mittlere und dicke Linien an
-1.  Fertig:
- 1. Passen Sie die Spalte, in der sich die Zellen befinden, automatisch an den Text an
- 1. Speichern Sie das Dokument
+Um Rahmen zu Zellen in einem Tabellenblatt hinzuzufügen, befolgen Sie die folgenden Schritte:
 
-Diese Schritte sind im folgenden Code dargestellt. Die ersten Codebeispiele zeigen, wie sie mithilfe von VSTO mit C# oder Visual Basic implementiert werden. Nach den VSTO-Beispielen folgen Beispiele, die zeigen, wie dieselben Schritte mit Aspose.Cells for .NET ausgeführt werden, wiederum mit C# oder Visual Basic. Die Codebeispiele für Aspose.Cells sind viel kürzer, da Aspose.Cells für effizientes Codieren optimiert ist.
+1. Richten Sie das Arbeitsblatt ein: 
+   1. Ein Application-Objekt instanziieren (nur VSTO)
+   1. Ein Arbeitsbuch hinzufügen
+   1. Das erste Blatt abrufen
+   1. Fügen Sie Text zu den Zellen hinzu, zu denen Sie Rahmen hinzufügen möchten
+1. Füge Rahmen hinzu: 
+   1. Definieren Sie einen Bereich
+   1. Wenden Sie einen Rahmenstil auf den Bereich an
+   1. Wiederholen Sie dies für jeden Bereich und jeden Rahmenstil, den Sie einstellen möchten. Dieses Beispiel wendet Haarlinien, dünnen, mittleren und dicken Linien an
+1. Beenden: 
+   1. Passen Sie die Spalte, in der die Zellen stehen, an, um den Text ordentlich anzupassen
+   1. Speichern Sie das Dokument
 
-Der Code generiert eine Excel-Datei mit einer Reihe von Zellen auf dem ersten Blatt, jede mit einem anderen Rahmen:
+Diese Schritte sind im folgenden Code dargestellt. Die ersten Codebeispiele zeigen, wie man sie mit VSTO entweder in C# oder Visual Basic implementiert. Nach den VSTO-Beispielen folgen Beispiele, die zeigen, wie man dieselben Schritte mithilfe von Aspose.Cells for .NET ausführt, wiederum entweder in C# oder Visual Basic. Die Aspose.Cells-Codebeispiele sind viel kürzer, da Aspose.Cells für effizientes Codieren optimiert ist.
 
-![todo: Bild_alt_Text](picture1.png)
+Der Code generiert eine Excel-Datei mit einer Anzahl von Zellen auf dem ersten Blatt, von denen jede einen anderen Rahmen hat:
 
-Cells mit aufgebrachten Rändern.
+![todo:image_alt_text](picture1.png)
+
+Zellen mit angewendeten Rahmen.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -43,13 +44,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -145,7 +146,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -210,6 +211,6 @@ objBook.Save("ApplyBorders.xls");
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [Quellenschmiede](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/herunterladen)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).Postleitzahl)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

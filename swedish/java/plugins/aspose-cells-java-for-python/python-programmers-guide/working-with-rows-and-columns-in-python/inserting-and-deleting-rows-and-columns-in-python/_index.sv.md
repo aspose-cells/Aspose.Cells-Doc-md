@@ -1,23 +1,24 @@
-﻿---
+---
 title: Infoga och ta bort rader och kolumner i Python
 type: docs
 weight: 60
 url: /sv/java/inserting-and-deleting-rows-and-columns-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel pytho
-description: Använd Python Excel API för att skapa Excel-kalkylblad i Python. Infoga eller ta bort rader från XLSX eller XLS i dina Python-program utan MS Office.
+keywords: "skapa XLSX i Python, skapa XLS i Python, XLS python, XLSX python, XLT python, XLTX python, infoga rad python, infoga kolumn python, Excel python"
+description: Använd Python Excel API för att skapa Excelspridblad i Python. Infoga eller ta bort rader från XLSX eller XLS i dina Python applikationer utan MS Office.
 ---
-## **Skapa Excel-kalkylblad i Python - Hantera rader/kolumner**
+
+## **Skapa Excelspridblad i Python - Hantera rader/kolumner**
 ### **Infoga en rad**
-Infoga en rad på valfri plats genom att anropa metoden insertRows i samlingen Cells. Metoden insertRows tar indexet för raden där den nya raden kommer att infogas som det första argumentet, och antalet rader som ska infogas som det andra argumentet. Följande är stegen:
+Infoga en rad på valfri plats genom att anropa metoden insertRows i Cells-samlingen. Metoden insertRows tar index för raden där den nya raden ska infogas som första argument, och antalet rader som ska infogas som andra argument. Följande är stegen:
 
-- Ladda XLS eller XLSX arbetsbok
-- Gå till arbetsbladet
-- Sätt in raden
-- Spara som XLS eller XLSX arbetsbok
+- Läs in XLS- eller XLSX-arbetsbok
+- Öppna arket
+- Infoga raden
+- Spara som XLS- eller XLSX-arbetsbok
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_row(self):
 
@@ -41,14 +42,14 @@ print "Insert Row Successfully."
 
 {{< /highlight >}}
 ### **Infoga flera rader**
-Om du vill infoga flera rader i kalkylbladet anropar du metoden insertRows i samlingen Cells. Metoden InsertRows tar två parametrar:
+För att infoga flera rader i arket, anropa insertRows metoden i Cells-kollektionen. InsertRows metoden tar två parametrar:
 
-- Radindex, indexet för raden varifrån de nya raderna kommer att infogas.
+- Radindex, index för raden från vilken de nya raderna ska infogas.
 - Antal rader, totalt antal rader som behöver infogas.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_multiple_rows(self):
 
@@ -73,14 +74,14 @@ print "Insert Multiple Rows Successfully."
 
 {{< /highlight >}}
 ### **Ta bort en rad**
-För att ta bort en rad på valfri plats, anropa metoden deleteRows för samlingen Cells. Metoden DeleteRows tar två parametrar:
+För att ta bort en rad på valfri plats, anropa deleteRows metoden i Cells-kollektionen. DeleteRows metoden tar två parametrar:
 
-- Radindex, indexet för raden där raderna kommer att tas bort.
+- Radindex, index för raden från vilken raderna ska tas bort.
 - Antal rader, totalt antal rader som behöver raderas.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_row(self):
 
@@ -104,14 +105,14 @@ print "Delete Row Successfully."
 
 {{< /highlight >}}
 ### **Ta bort flera rader**
-Om du vill ta bort flera rader från ett kalkylblad anropar du metoden deleteRows i samlingen Cells. Metoden DeleteRows tar två parametrar:
+För att ta bort flera rader från ett kalkylblad, anropa deleteRows metoden i Cells-kollektionen. DeleteRows metoden tar två parametrar:
 
-- Radindex, indexet för raden där raderna kommer att tas bort.
+- Radindex, index för raden från vilken raderna ska tas bort.
 - Antal rader, totalt antal rader som behöver raderas.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_multiple_rows(self):
 
@@ -136,14 +137,14 @@ print "Delete Multiple Rows Successfully."
 
 {{< /highlight >}}
 ### **Infoga en kolumn**
-Utvecklare kan också infoga en kolumn i kalkylbladet var som helst genom att anropa metoden insertColumns i samlingen Cells. metoden insertColumns tar två parametrar:
+Utvecklare kan också infoga en kolumn i arbetsbladet på valfri plats genom att anropa metoden insertColumns i Cells-samlingen. insertColumns-metoden tar två parametrar:
 
-- Kolumnindex, indexet för den kolumn varifrån kolumnen kommer att infogas
+- Kolumnindex, index av kolumn där kolumnen ska infogas
 - Antal kolumner, totalt antal kolumner som behöver infogas
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_column(self):
 
@@ -168,15 +169,15 @@ print "Insert Column Successfully."
 
 {{< /highlight >}}
 ### **Ta bort en kolumn**
-För att ta bort en kolumn från kalkylbladet på valfri plats, anropa metoden deleteColumns i samlingen Cells. Metoden deleteColumns använder följande parametrar:
+För att ta bort en kolumn från arbetsbladet på valfri plats, anropas deleteColumns-metoden i Cells-samlingen. deleteColumns-metoden tar följande parametrar:
 
-- Kolumnindex, indexet för den kolumn där kolumnen kommer att tas bort.
-- Antal kolumner, totalt antal kolumner som behöver raderas.
-- Skift celler, boolesk parameter för att indikera om cellerna ska flyttas åt vänster efter radering.
+- Kolumnindex, index av kolumn där kolumnen ska tas bort.
+- Antal kolumner, totalt antal kolumner som behöver tas bort.
+- Skifta celler, en boolesk parameter för att indikera om cellerna ska skiftas åt vänster efter borttagning.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_column(self):
 
@@ -200,7 +201,7 @@ print "Delete Column Successfully."
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Hantera rader/kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ned **Hantering av rader/kolumner (Aspose.Cells)** från någon av de nämnda sociala kodsajterna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

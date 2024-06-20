@@ -1,15 +1,16 @@
-﻿---
-title: Einfrieren von Fenstern in Php
+---
+title: Fensterbereiche in Php einfrieren
 type: docs
 weight: 40
 url: /de/java/freeze-panes-in-php/
 ---
-## **Aspose.Cells - Fenster einfrieren**
- So frieren Sie Fenster im Tabellenkalkulationsdokument ein**Aspose.Cells Java for PHP** , einfach aufrufen**FreezePanes** Modul.
+
+## **Aspose.Cells - Spalten einfrieren**
+Um das Einfrieren von Fenstern im Tabellendokument mithilfe von **Aspose.Cells Java for PHP** durchzuführen, rufen Sie einfach das Modul **FreezePanes** auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -30,7 +31,7 @@ $worksheet->freezePanes(3,2,3,2);
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Fenster einfrieren (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Download von **Freeze Panes (Aspose.Cells)** von einer der unten genannten sozialen Coding-Seiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)

@@ -1,8 +1,9 @@
 ---
-title: GridWeb クライアント側スクリプトの使用
+title: GridWeb クライアントサイドスクリプトでの作業
 type: docs
 weight: 100
 url: /ja/java/working-with-gridweb-client-side-script/
 ---
-##  **このセクションの記事**
+
+## **このセクションに含まれる記事**
 

@@ -1,21 +1,22 @@
 ---
-title: Excel dosyasını yüklerken Pivot Önbelleğe Alınmış Kayıtları Ayrıştırma
+title: Excel dosyasını yüklerken Pivot Önbellek Kayıtlarını Ayrıştırın
 type: docs
 weight: 70
 url: /tr/python-net/parsing-pivot-cached-records-while-loading-excel-file/
-description: Aspose.Cells for Python via .NET ile Excel dosyası yüklenirken Pivot Önbelleğe Alınmış Kayıtlar nasıl ayrıştırılır.
-keywords: Parse Pivot Cached Records while loading Excel file.
+description: Python için Aspose.Cells ile Excel dosyasını yüklerken Pivot Önbellek Kayıtlarının Ayrıştırılması via .NET.
+keywords: Python için Aspose.Cells Excel, Excel Python kütüphanesi, Aspose.Cells ile Excel dosyasını yüklerken Pivot Önbellek Kayıtlarını Ayrıştırma.
 ---
-##  **Olası Kullanım Senaryoları**
 
-Bir Pivot Tablo oluşturduğunuzda, Microsoft Excel, kaynak verilerin bir kopyasını alır ve bunu Pivot Önbelleğinde saklar. Pivot Cache, Microsoft Excel'in belleğinde tutulur. Bunu göremezsiniz ancak Pivot Tablonuzu oluşturduğunuzda veya bir Dilimleyici seçimini değiştirdiğinizde veya satırları/sütunları hareket ettirdiğinizde Pivot Tablonun referans verdiği veriler budur. Bu, Microsoft Excel'in Pivot Tablodaki değişikliklere çok duyarlı olmasını sağlar, ancak dosyanızın boyutunu da iki katına çıkarabilir. Sonuçta Pivot Önbellek, kaynak verilerinizin yalnızca bir kopyasıdır, dolayısıyla dosya boyutunuzun potansiyel olarak iki katı olması mantıklıdır.
+## **Olası Kullanım Senaryoları**
 
-Excel dosyanızı Çalışma Kitabı nesnesine yüklediğinizde Pivot Cache kayıtlarını da yüklemek isteyip istemediğinize karar verebilirsiniz.[**LoadOptions.parsing_pivot_cached_records**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/parsing_pivot_cached_records/)mülk. Bu özelliğin varsayılan değeri *yanlış**'tır. Pivot Cache oldukça büyükse performansı arttırabilir. Ancak Pivot Cache'in kayıtlarını da yüklemek istiyorsanız bu özelliği *true** olarak ayarlamalısınız.
+Bir Pivot Tablosu oluşturduğunuzda, Microsoft Excel kaynak verinin bir kopyasını alır ve Pivot Önbelleğine saklar. Pivot Önbelleği, Microsoft Excel'in belleğinin içinde bulunur. Onu göremezsiniz, ancak bu, Pivot Tablonuzu oluştururken veya bir Dilim Seçimi değiştirdiğinizde veya satırlar/sütunlar etrafında hareket ettiğinizde Pivot Tablosunun başvurduğu veridir. Bu, Microsoft Excel'in Pivot Tablosundaki değişikliklere çok duyarlı olmasını sağlar, ancak dosya boyutunun potansiyel olarak iki kat artmasına neden olabilir.
 
-##  **Excel dosyasını yüklerken Pivot Önbelleğe Alınmış Kayıtları Ayrıştırma**
+Excel dosyanızı Workbook nesnesi içine yüklerken, Pivot Önbellek kayıtlarını da yüklemek isteyip istemediğinize karar verebilirsiniz. Bunun için [**LoadOptions.parsing_pivot_cached_records**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/parsing_pivot_cached_records/) özelliğini kullanabilirsiniz. Bu özelliğin varsayılan değeri **false**'dur. Pivot Önbellek oldukça büyükse, performansı artırabilir. Ancak eğer Pivot Önbellek kayıtlarını da yüklemek istiyorsanız, bu özelliği **true** olarak ayarlamalısınız.
 
-Aşağıdaki örnek kod, kullanımını açıklamaktadır.[**LoadOptions.parsing_pivot_cached_records**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/parsing_pivot_cached_records/)mülk. Şunu yükler:[örnek Excel dosyası](61767773.xlsx) Pivot önbelleğe alınmış kayıtları ayrıştırırken. Daha sonra pivot tabloyu yeniler ve onu şu şekilde kaydeder:[Excel dosyasının çıktısı](61767774.xlsx).
+## **Excel dosyasını yüklerken Pivot Önbellek Kayıtlarını Ayrıştırma**
 
-##  **Basit kod**
+Aşağıdaki örnek kod, [**LoadOptions.parsing_pivot_cached_records**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/parsing_pivot_cached_records/) özelliğinin kullanımını açıklar. Pivot önbellek kayıtları ayrıştırılırken [örnek Excel dosyasını](61767773.xlsx) yükler. Ardından pivot tablosunu yeniler ve [çıktı Excel dosyası olarak](61767774.xlsx) kaydeder.
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ParsingPivotCachedRecordsWhileLoadingExcelFile.py" >}}

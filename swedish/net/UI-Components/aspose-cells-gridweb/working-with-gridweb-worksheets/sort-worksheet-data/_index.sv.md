@@ -1,50 +1,53 @@
-﻿---
-title: Sortera kalkylbladsdata
+---
+title: Sortera Kalkylbladsdata
 type: docs
 weight: 80
-url: /sv/net/sort-worksheet-data/
+url: /sv/net/aspose-cells-gridweb/sort-worksheet-data/
+keywords: GridWeb,sortera
+description: Den här artikeln introducerar hur man sorterar data i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Sortering är en mycket värdefull funktion när det kommer till databehandling. Osorterade data är jobbigt för användare när de söker efter specifik information. Aspose.Cells.GridWeb stöder kraftfulla sorteringsfunktioner. Det här ämnet diskuterar sortering av data med hjälp av Aspose.Cells.GridWeb API.
+Att sortera är en mycket värdefull funktion när det gäller datahantering. Osorterad data är smärtsamt för användare när de söker efter specifik information. Aspose.Cells.GridWeb stödjer kraftfulla sorteringsfunktioner. Det här ämnet diskuterar sortering av data med hjälp av Aspose.Cells.GridWeb API.
 
 {{% /alert %}} 
-## **Sortering av data**
-Aspose.Cells.GridWeb låter utvecklare sortera data horisontellt och vertikalt så att utvecklare kan sortera data från topp till botten eller vänster till höger.
-### **Från topp till tå**
-Så här sorterar du data från topp till botten:
+## **Sortera Data**
+Aspose.Cells.GridWeb tillåter utvecklare att sortera data horisontellt och vertikalt så att utvecklare kan sortera data uppifrån och ner eller från vänster till höger.
+### **Från Uppifrån och Ner**
+För att sortera data från upptill och ner orientering:
 
-1. Lägg till Aspose.Cells.GridWeb-kontrollen till ditt webbformulär.
-1. Öppna kalkylbladet som du vill sortera.
-1. Sortera dataintervallet i valfri ordning (stigande eller fallande). Var noga med att välja topp till botten orientering.
+1. Lägg till Aspose.Cells.GridWeb-kontrollen i ditt webbformulär.
+1. Kom åt kalkylbladet som du vill sortera.
+1. Sortera dataområdet i valfri ordning (stigande eller fallande). Se till att välja upptill och ner orientering.
 
-Exemplet nedan sorterar data i fyra kolumner i ett kalkylblad i fallande ordning. Endast tjugo rader av de fyra kolumnerna är sorterade i topp till botten orientering.
+Exemplet nedan sorterar data i fyra kolumner på ett kalkylblad i fallande ordning. Endast tjugo rader av de fyra kolumnerna är sorterade i upptill och ner orientering.
 
-Innan du använder koden innehåller kalkylbladet oordnade data.
+Innan du tillämpar koden innehåller kalkylbladet ostrukturerad data.
 
 ![todo:image_alt_text](sort-worksheet-data_1.png)
 
-Efter exekvering av koden sorteras data i stigande ordning.
+Efter att koden har körts är datan sorterad i stigande ordning.
 
 ![todo:image_alt_text](sort-worksheet-data_2.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-SortData.aspx-SortTopToBottom.cs" >}}
-### **Från vänster till höger**
-Så här sorterar du data från vänster till höger:
+### **Från Vänster till Höger**
+För att sortera data från vänster till höger:
 
-1. Lägg till Aspose.Cells.GridWeb-kontrollen till ditt webbformulär.
-1. Öppna kalkylbladet som du vill sortera.
-1. Sortera dataintervallet i valfri ordning (stigande eller fallande). Var noga med att välja vänster till höger.
+1. Lägg till Aspose.Cells.GridWeb-kontrollen i ditt webbformulär.
+1. Kom åt kalkylbladet som du vill sortera.
+1. Sortera dataområdet i valfri ordning (stigande eller fallande). Se till att välja vänster till höger orientering.
 
-Exemplet nedan sorterar data i fyra rader i stigande ordning. Endast fyra rader med sju kolumner sorteras från vänster till höger.
+Exemplet nedan sorterar data i fyra rader i stigande ordning. Endast fyra rader av sju kolumner sorteras från vänster till höger.
 
-Innan du använder koden innehåller kalkylbladet oordnade data.
+Innan du tillämpar koden innehåller kalkylbladet ostrukturerad data.
 
 ![todo:image_alt_text](sort-worksheet-data_3.png)
 
-Efter exekvering av koden sorteras data i stigande ordning.
+Efter att koden har körts är datan sorterad i stigande ordning.
 
 ![todo:image_alt_text](sort-worksheet-data_4.png)
 
@@ -54,6 +57,6 @@ Efter exekvering av koden sorteras data i stigande ordning.
 
 {{% alert color="primary" %}} 
 
-VIKTIGT: Exemplen ovan visar sorteringsdata på basis av en kolumn (uppifrån och ned) eller rad (vänster till höger). Aspose.Cells.GridWeb kan också sortera data efter mer än en kolumn eller rad. För att göra det, skicka en matris med kolumn- eller radindex till sorteringsmetoden. Hybrid sortering av datatyper stöds också.
+VIKTIGT: Ovanstående exempel visar sortering av data baserat på en kolumn (uppifrån och ner) eller rad (vänster till höger). Aspose.Cells.GridWeb kan också sortera data enligt mer än en kolumn eller rad. För att göra det, skicka en array av kolumn- eller radindex till Sort-metoden. Hybriddatatypsortering stöds också.
 
 {{% /alert %}}

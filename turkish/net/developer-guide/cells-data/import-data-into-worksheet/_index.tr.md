@@ -1,146 +1,147 @@
 ---
-title: Verileri Çalışma Sayfasına Aktar
+title: Çalışma Sayfasına Veri İçe Aktarma
 type: docs
 weight: 170
 url: /tr/net/import-data-into-worksheet/
-description: Aspose.Cells for .NET API numaralı telefondan verileri Çalışma Sayfasına nasıl aktaracağınızı öğrenin.
-keywords: C# Import Data into Worksheet, Import data into Excel with ICellsDataTable interface, Import data from Array, Import Data from ArrayList, Import Data from Custom Objects, Import Data from Custom Objects to merged area, Import Data from DataTable, Import Data from dynamic object as data source, Import Data from DataColumn, Import Data from DataView, Import Data from DataGrid, Import Data from GridView, Import HTML formatted data, Import Data Data from JSON
+description: Aspose.Cells for .NET API si aracılığıyla çalışma sayfasına nasıl veri aktarılacağını öğrenin.
+keywords: C# ile Çalışma Sayfasına Veri İçe Aktarma, ICellsDataTable arayüzü ile Excel e veri aktarma, Diziden veri aktarma, ArrayList ten veri aktarma, Özel Nesnelerden veri aktarma, Birleştirilmiş alana özel nesnelerden veri aktarma, DataTable den veri aktarma, Dinamik nesne kaynağı olarak veri aktarma, Veri sütunundan veri aktarma, DataView den veri aktarma, DataGrid den veri aktarma, GridView den veri aktarma, HTML biçimli veri aktarma, JSON verilerinden veri aktarma
 ---
+
 {{% alert color="primary" %}}
 
-Bu makalede, geliştiricilerin Aspose.Cells aracılığıyla erişebildiği bazı veri içe aktarma teknikleri anlatılmaktadır.
+Bu makale, geliştiricilerin Aspose.Cells üzerinden erişebilecekleri bazı veri aktarma tekniklerini tartışmaktadır.
 
 {{% /alert %}}
 
-##  **Verileri Çalışma Sayfasına Aktarma**
+## **Çalışma Sayfasına Veri İçe Aktarma Nasıl Yapılır**
 
-Aspose.Cells numaralı Excel dosyasını açtığınızda dosyadaki tüm veriler otomatik olarak içe aktarılır. Aspose.Cells ayrıca diğer veri kaynaklarından verileri de içe aktarabilir.
+Aspose.Cells ile bir Excel dosyasını açtığınızda, dosyadaki tüm veriler otomatik olarak içe aktarılır. Aspose.Cells ayrıca diğer veri kaynaklarından da veri içe aktarabilir.
 
-Aspose.Cells şunları sağlar:[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Microsoft Excel dosyasını temsil eden sınıf.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf bir içerir[**Çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Bir Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon. Bir çalışma sayfası şu şekilde temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Toplamak.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)toplama, farklı veri kaynaklarından verileri içe aktarmak için yararlı yöntemler sağlar. Bu makalede bu yöntemlerin nasıl kullanılabileceği açıklanmaktadır.
+Aspose.Cells, Microsoft Excel dosyasını temsil eden bir sınıf olan [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişime izin veren bir [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonunu içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı ile temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu sağlar. [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu, farklı veri kaynaklarından veri içe aktarmak için kullanışlı yöntemler sağlar. Bu makale, bu yöntemlerin nasıl kullanılabileceğini açıklar.
 
-##  **ICellsDataTable arayüzü ile verileri Excel'e aktarma**
- Uygulamak[ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable) çeşitli veri kaynaklarınızı sarmak için kullanın ve ardından[Cells.ImportData()](https://reference.aspose.com/cells/net/aspose.cells/cells/importdata/#importdata) Verileri Excel çalışma sayfasına aktarmak için.
-###  **Basit kod**
+## **ICellsDataTable arayüzü ile Excel'e veri aktarma işlemi nasıl yapılır**
+Çeşitli veri kaynaklarını sarmak için [ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable) ı uygulayın, ardından [Cells.ImportData()](https://reference.aspose.com/cells/net/aspose.cells/cells/importdata/#importdata) yöntemini kullanarak verileri Excel çalışma sayfasına aktarın.
+### **Örnek Kod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ImportICellsDataTableIntoWorksheet.cs" >}}
 
-uygulanması*CustomerDataSource*, *Customer* ve *CustomerList* sınıflar aşağıda verilmiştir
+*CustomerDataSource*, *Customer*, ve *CustomerList* sınıflarının uygulaması aşağıda verilmiştir
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ICellsDataTableDataSourceForWorkbookDesigner-2.cs" >}}
 
 
-##  **Diziden Excel'e Veri Nasıl Aktarılır**
+## **Diziden Excel'e Veri Aktarma**
 
- Bir diziden bir e-tabloya veri aktarmak için[**İçe Aktarma Dizisi**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Toplamak. Birçok aşırı yüklenmiş sürümü vardır.[**İçe Aktarma Dizisi**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index)yöntem ancak tipik bir aşırı yük aşağıdaki parametreleri alır:
+Bir diziden elektronik tabloya veri aktarmak için, [**ImportArray**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index) koleksiyonunun [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) yöntemini çağırın. [**ImportArray**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index) yönteminin birçok aşırı yüklenmiş sürümü vardır, ancak tipik bir aşırı yüklenmenin aşağıdaki parametreleri alır:
 
-- *Array**, içeriği içe aktardığınız dizi nesnesi.
-- *Satır numarası**, verilerin aktarılacağı ilk hücrenin satır numarası.
-- *Sütun numarası**, verilerin aktarılacağı ilk hücrenin sütun numarası.
-- *Dikeydir**, verilerin dikey mi yoksa yatay olarak mı içe aktarılacağını belirten bir Boolean değeridir.
+- **Dizi**, içeriği aktardığınız dizi nesnesi.
+- **Satır numarası**, verilerin aktarılacağı ilk hücrenin satır numarası.
+- **Sütun numarası**, verilerin aktarılacağı ilk hücrenin sütun numarası.
+- **Dikey mi**, verinin dikey olarak mı yoksa yatay olarak mı aktarılacağını belirten bir Boolean değeri.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromArray-1.cs" >}}
 
-##  **ArrayList'ten Excel'e Veri Nasıl Aktarılır**
+## **ArrayList'ten Excel'e Veri Aktarma**
 
- Verileri bir dosyadan içe aktarmak için*Dizi Listesi* çalışma sayfalarına, arayın[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Koleksiyonun[**Dizi Listesini İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarraylist)yöntem. ImportArray yöntemi aşağıdaki parametreleri alır:
+*ArrayList* daki verileri elektronik tablolara aktarmak için, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonunun [**ImportArrayList**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarraylist) yöntemini çağırın. ImportArray yöntemi aşağıdaki parametreleri alır:
 
--  *Dizi listesi**,*Dizi Listesi*içe aktardığınız nesne.
-- *Satır numarası**, verinin aktarılacağı ilk hücrenin satır numarasını temsil eder.
-- *Sütun numarası**, verinin aktarılacağı ilk hücrenin sütun numarasını temsil eder.
-- *Dikeydir**, verilerin dikey mi yoksa yatay olarak mı içe aktarılacağını belirten bir Boolean değeridir.
+- **Array list**, içeriği aktardığınız *ArrayList* nesnesini temsil eder.
+- **Satır numarası**, verilerin aktarılacağı ilk hücrenin satır numarasını temsil eder.
+- **Sütun numarası**, verilerin aktarılacağı ilk hücrenin sütun numarasını temsil eder.
+- **Dikey mi**, verinin dikey olarak mı yoksa yatay olarak mı aktarılacağını belirten bir Boolean değeri.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromArrayList-1.cs" >}}
 
-##  **Özel Nesnelerden Excel'e Veri Nasıl Aktarılır**
+## **Özel Nesnelerden Excel'e Veri Aktarma**
 
- Bir nesne koleksiyonundan verileri bir çalışma sayfasına aktarmak için şunu kullanın:[**Özel Nesneleri İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importcustomobjects/index). İstediğiniz nesne listesini görüntülemek için yönteme bir sütun/özellik listesi sağlayın.
+Nesne koleksiyonundan bir çalışma sayfasına veri aktarmak için [**ImportCustomObjects**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importcustomobjects/index) kullanın. İstenen nesnelerin listeni yönteme sağlayarak istediğiniz nesne listesini görüntüleyin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromCustomObject-1.cs" >}}
 
-##  **Özel Nesnelerden birleştirilmiş alana Verileri Excel'e Aktarma**
+## **Özel Nesnelerden Excel'e Veri Aktarma ve Birleştirilmiş Alanı Kontrol Etme**
 
-Bir nesne koleksiyonundan birleştirilmiş hücreleri içeren bir çalışma sayfasına veri aktarmak için şunu kullanın:[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) mülk. Excel şablonunda birleştirilmiş hücreler varsa değerini ayarlayın.[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)özellik doğru. Geç[**Tablo Seçeneklerini İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions) İstediğiniz nesne listesini görüntüleme yöntemine sütun/özellik listesiyle birlikte nesne ekleyin. Aşağıdaki kod örneği kullanımını gösterir:[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) Özel Nesnelerden birleştirilmiş hücrelere veri aktarma özelliği. Lütfen eke bakın[kaynak Excel](90112033.xlsx) dosya ve[Excel'in çıktısı](90112034.xlsx) referans için dosya.
+Birleştirilmiş hücreler içeren bir çalışma sayfasından nesne koleksiyonundan veri aktarmak için [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) özelliğini kullanın. Excel şablonunda birleştirilmiş hücreler varsa, [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) özelliğinin değerini true olarak ayarlayın. İstenen nesne listesini göstermek için yönteme [**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions) nesnesini ve sütun/özelliklerin listesini sağlayın. Aşağıdaki kod örneği, özel nesnelerden birleştirilmiş hücrelere veri aktarmak için [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) özelliğinin kullanımını gösterir. Referans için lütfen ekteki [kaynak Excel](90112033.xlsx) dosyasını ve [çıktı Excel](90112034.xlsx) dosyasını inceleyin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportCustomObjectsToMergedArea-1.cs" >}}
 
-##  **DataTable'dan Excel'e Veri Nasıl Aktarılır**
+## **DataTable'dan Excel'e Veri Aktarma**
 
-*DataTable*'dan veri aktarmak için[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Koleksiyonun[**Veri Tablosunu İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index) yöntem. Birçok aşırı yüklenmiş sürümü vardır.[**Veri Tablosunu İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index)yöntem ancak tipik bir aşırı yük aşağıdaki parametreleri alır:
+*DataTable* dan veri aktarmak için, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonunun [**ImportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index) yöntemini çağırın. [**ImportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index) yönteminin birçok aşırı yüklenmiş sürümü vardır, ancak tipik bir aşırı yüklenmenin aşağıdaki parametreleri alır:
 
--  *Veri tablosu**,*Veri tablosu* İçeriği içe aktardığınız nesne.
--  *Alan adı gösteriliyor mu**, alan adlarının gösterilip gösterilmeyeceğini belirtir.*Veri tablosu*sütunlar çalışma sayfasına ilk satır olarak aktarılmalı veya aktarılmamalıdır.
-- *Başlangıç hücresi**, *DataTable* içeriğinin içe aktarılacağı başlangıç hücresinin adını (örneğin "A1") temsil eder.
+- **Data table**, içeriği aktardığınız *DataTable* nesnesi.
+- **Alan adı gösterilir mi**, *DataTable* sütunlarının çalışma sayfasına birinci satır olarak aktarılıp aktarılmayacağını belirler.
+- **Başlangıç hücresi**, *DataTable* içeriğini nereden aktarılacağını temsil eder (örneğin "A1").
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
 
-##  **Veri kaynağı olarak dinamik nesneden Excel'e Veri Alma**
+## **Dinamik nesne olarak veri kaynağından Excel'e Veri Aktarma**
 
-Aspose.Cells, veri kaynağı olarak dinamik nesnelerle çalışma özellikleri sağlar. Özelliklerin nesnelere dinamik olarak eklendiği veri kaynağının kullanılmasına yardımcı olur. Özellikler nesneye eklendiğinde, Aspose.Cells ilk girişi şablon olarak kabul eder ve gerisini buna göre işler. Bu, bazı dinamik özelliklerin yalnızca ilk öğeye eklenmesi ve diğer nesnelere eklenmemesi durumunda Aspose.Cells'in koleksiyondaki tüm öğelerin aynı olması gerektiğini dikkate aldığı anlamına gelir.
+Aspose.Cells, dinamik nesnelerle çalışmak için özellikler sağlar. Özelliklerin nesnelere dinamik olarak eklenmesine yardımcı olur. Özellikler nesneye eklenir eklenmez, Aspose.Cells ilk girişi şablon olarak kabul eder ve geri kalanı buna göre işler. Bu, bir dinamik özellik yalnızca ilk öğeye eklenirse ve diğer nesnelere eklenmezse, Aspose.Cells'ın tüm öğelerin aynı olması gerektiğini düşünmesi anlamına gelir.
 
-Bu örnekte başlangıçta yalnızca iki değişken içeren bir şablon model kullanılmıştır. Bu Liste, Dinamik nesnelerin listesine dönüştürülür. Daha sonra içine bazı ek alanlar eklenir ve son olarak çalışma kitabına yüklenir. Çalışma kitabı yalnızca şablon XLSX dosyasındaki değerleri seçer. Bu şablon çalışma kitabı, parametreleri de içeren Akıllı İşaretleyicileri kullanır. Parametreler bilgilerin düzenlenme şeklini değiştirmenize olanak tanır. Akıllı İşaretleyiciler ile ilgili detaylı bilgiye aşağıdaki makaleden ulaşabilirsiniz:
+Bu örnekte, başlangıçta yalnızca iki değişken içeren bir şablon model kullanılmaktadır. Bu Liste Listesi dinamik nesnelerin Liste'sine dönüştürülmüştür. Daha sonra buna bazı ek alan eklenir ve Son olarak Bildirime yüklenir. Excel, yalnızca şablon XLSX dosyasındaki değerleri alır. Bu şablon çalışma kitabı, ayrıca parametreler içeren Zeki İşaretçiler kullanır. Parametreler, bilgilerin nasıl düzenlendiğini değiştirmenize olanak tanır. Zeki İşaretçi hakkındaki ayrıntılar aşağıdaki makaleden elde edilebilir: 
 
-[Akıllı İşaretleyicileri Kullanma](/cells/tr/net/using-smart-markers/)
+[Akıllı İşaretçiler Kullanarak](/cells/tr/net/using-smart-markers/)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDynamicDataTable-1.cs" >}}
 
-##  **DataColumn'dan Excel'e Veri Alma (.NET)**
+## **Excel'e DataColumn Nasıl İçe Aktarılır**
 
-A *Veri tablosu*veya*Veri görünümü*nesne bir veya daha fazla sütundan oluşur. Geliştiriciler ayrıca herhangi bir Sütundan/Sütunundan veri aktarabilir.*Veri tablosu*veya*Veri görünümü*arayarak[**Verileri İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Toplamak.[**Verileri İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)yöntem türünde bir parametre kabul eder[**Tablo Seçeneklerini İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions).[**Tablo Seçeneklerini İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions) sınıf sağlar[**Sütun Dizinleri**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)bir dizi sütun dizini kabul eden özellik.
+Bir *DataTable* ya da *DataView* nesnesi bir veya daha fazla sütundan oluşur. Geliştiriciler, *DataTable* ya da *DataView*'in herhangi bir Sütun/Sütunlar'ından veri içe aktarabilirler. *[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)* koleksiyonunun *[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)* yöntemini çağırarak *DataTable* ya da *DataView* içeriğini içe aktarabilirler. *[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)* yöntemi, *[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)* türünde bir parametre alır. *[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)* sınıfı, bir dizi sütun indeksini kabul eden *[**ColumnIndexes**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)* özelliği sağlar.
 
-Aşağıda verilen örnek kod kullanımını göstermektedir.[**ImportTableOptions.ColumnIndexes**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)Seçici sütunları içe aktarmak için.
+Aşağıdaki örnek kod, seçici sütunları içe aktarmak için *[**ImportTableOptions.ColumnIndexes**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)* kullanımını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataColumn-1.cs" >}}
 
-##  **DataView'dan Excel'e Veri Alma (.NET)**
+## **Excel'e DataView Nasıl İçe Aktarılır**
 
- *DataView*'dan veri aktarmak için[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Koleksiyonun[**Verileri İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) yöntem. Birçok aşırı yüklenmiş sürümü vardır.[**Verileri İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)yöntem ancak DataView için olanı aşağıdaki parametreleri alır:
+*DataView*'den veri içe aktarmak için, *[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)* koleksiyonunun *[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)* yöntemini çağırın. *[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)* yönteminin birçok aşırı yüklenmiş sürümü bulunmaktadır ancak DataView için tipik bir aşırı yüklemenin aldığı parametreler şunlardır:
 
-- **Veri görünümü:***Veri görünümü*İçeriği içe aktarmak üzere olduğunuz nesne.
-- **İlk sıra:**verilerin aktarılacağı ilk hücrenin satır numarası.
-- **İlk sütun:**verilerin aktarılacağı ilk hücrenin sütun numarası.
-- **İçe Aktarma Tablosu Seçenekleri:**İçe aktarma seçenekleri.
+- **DataView:** İçeriği içe aktarmak istediğiniz *DataView* nesnesi.
+- **İlk Satır:** Verinin içe aktarılacağı ilk hücrenin satır numarası.
+- **İlk Sütun:** Verinin içe aktarılacağı ilk hücrenin sütun numarası.
+- **ImportTableOptions:** İçe aktarma seçenekleri.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataView-1.cs" >}}
 
-##  **DataGrid'den Excel'e Veri Alma (.NET)**
+## **DataGrid Nasıl Excel'e İçe Aktarılır**
 
- Verileri bir dosyadan içe aktarmak mümkündür.*Veri şebekesi* arayarak[**DataGrid'i İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Toplamak. Birçok aşırı yüklenmiş sürümü vardır.[**DataGrid'i İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index)yöntem ancak tipik bir aşırı yük aşağıdaki parametreleri alır:
+*DataGrid*'den veri içe aktarmak mümkündür, *[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)* koleksiyonunun *[**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index)* yöntemini çağırarak. *[**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index)* yönteminin birçok aşırı yüklenmiş sürümü bulunmaktadır ancak tipik bir aşırı yüklemenin aldığı parametreler şunlardır:
 
--  *Veri kılavuzu**,*Veri şebekesi*İçeriği içe aktardığınız nesne.
-- *Satır Numarası**, verilerin aktarılacağı ilk hücrenin satır numarası.
-- *Sütun Numarası**, verilerin aktarılacağı ilk hücrenin sütun numarası.
-- *Satır Ekle**, verileri sığdırmak için çalışma sayfasına fazladan satırların eklenmesi gerekip gerekmediğini belirten bir Boolean özelliği.
+- **Data grid**, içerik içe aktardığınız *DataGrid* nesnesi.
+- **Satır Numarası**, verinin içe aktarılacağı ilk hücrenin satır numarası.
+- **Sütun Numarası**, verinin içe aktarılacağı ilk hücrenin sütun numarası.
+- **Satırlar Ekle**, veriyi sığdırmak için çalışma sayfasına ekstra satır eklenip eklenmeyeceğini belirten Boolean özelliği.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataGrid-1.cs" >}}
 
-##  **GridView'dan Excel'e Veri Nasıl Aktarılır**
+## **GridView Nasıl Excel'e İçe Aktarılır**
 
- Verileri bir dosyadan içe aktarmak için*Izgara Görünümü* kontrol edin, arayın[**Grid Görünümünü İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Toplamak.
+*GridView* kontrolünden veri içe aktarmak için, *[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)* koleksiyonunun *[**ImportGridView**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview)* yöntemini çağırın.
 
-Aspose.Cells, e-tabloya veri aktarırken HTML biçimlendirilmiş değerlerine uymamıza olanak tanır. Verileri içe aktarırken HTML ayrıştırma etkinleştirildiğinde, Aspose.Cells, HTML'i karşılık gelen hücre formatına dönüştürür.
+Aspose.Cells, veriyi elektronik tabloya içe aktarırken HTML biçimli değerleri dikkate almamıza olanak tanır. Verileri içe aktarırken HTML ayrıştırması etkinleştirildiğinde, Aspose.Cells HTML'i karşılık gelen hücre biçimlemesine dönüştürür.
 
-##  **HTML formatlı verileri Excel'e nasıl aktarırım**
+## **HTML Biçimli Veriler Nasıl Excel'e İçe Aktarılır**
 
- Aspose.Cells şunları sağlar:[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Harici veri kaynaklarından veri içe aktarmak için çok kullanışlı yöntemler sağlayan sınıf. Bu makalede, verileri içe aktarırken HTML biçimli metnin nasıl ayrıştırılacağı ve HTML'in biçimlendirilmiş hücre değerlerine nasıl dönüştürüleceği gösterilmektedir.
+Aspose.Cells, dış veri kaynaklarından veri içe aktarmak için çok kullanışlı yöntemler sağlayan bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) sınıfı sağlar. Bu makale, veri içe aktarırken HTML biçimli metni ayrıştırma ve HTML'i biçimli hücre değerlerine dönüştürme işlemlerini göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportHtmlFormattedData-1.cs" >}}
 
-##  **JSON'den Excel'e Veri Nasıl Aktarılır**
+## **JSON'dan Excel'e Veri İçe Aktarma**
 
-Aspose.Cells şunları sağlar:[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) JSON'in işlenmesi için sınıf.[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) sınıf var[**Verileri İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) JSON verilerini içe aktarma yöntemi. Aspose.Cells ayrıca bir de sağlar[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) JSON düzeninin seçeneklerini temsil eden sınıf.[**Verileri İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)yöntem kabul edilir[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)parametre olarak.[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)class aşağıdaki özellikleri sağlar.
+Aspose.Cells, JSON işleme için bir [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) sınıfı sağlar. [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) sınıfı, JSON verisini içe aktarmak için bir [**ImportData**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) yöntemine sahiptir. Aspose.Cells ayrıca, JSON düzeni seçeneklerini temsil eden bir [**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) sınıfı sağlar. [**ImportData**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) yöntemi, bir parametre olarak [**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) kabul eder. [**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) sınıfı aşağıdaki özellikleri sağlar.
 
-- [**DiziAsTablo**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable): Dizide tablo olarak işlenip işlenmeyeceğini belirtir.
-- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): JSON'deki dizenin sayısala mı yoksa tarihe mi dönüştürüleceğini gösteren bir değer alır veya ayarlar.
-- [**Tarih formatı**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/dateformat): Tarih değerinin biçimini alır ve ayarlar.
-- [**IgnoreArrayTitle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle): Nesnenin özelliği bir dizi ise başlığın yoksayılıp yok sayılmayacağını belirtir
-- [**YoksayNull**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorenull): Boş değerin göz ardı edilip edilmeyeceğini belirtir.
-- [**NesneBaşlığını Yoksay**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignoreobjecttitle): Nesnenin özelliği bir nesne ise başlığın göz ardı edilip edilmeyeceğini belirtir.
-- [**Sayı Formatı**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/numberformat): Sayısal değerin biçimini alır ve ayarlar.
-- [**BaşlıkStil**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/titlestyle): Başlığın stilini alır ve ayarlar.
+- [**ArrayAsTable**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable): Array içindeki öğenin tablo olarak işlenip işlenmeyeceğini belirtir.
+- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): JSON içindeki dizenin sayısal veya tarihsel bir değere dönüştürülüp dönüştürülmeyeceğini alır veya ayarlar.
+- [**DateFormat**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/dateformat): Tarih değerinin biçimlendirilmesini alır ve ayarlar.
+- [**IgnoreArrayTitle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle): Nesnenin özelliği bir dizi ise başlığın dikkate alınıp alınmayacağını belirtir.
+- [**IgnoreNull**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorenull): null değerinin dikkate alınıp alınmayacağını belirler.
+- [**IgnoreObjectTitle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignoreobjecttitle): Nesnenin özelliği bir nesne ise başlığın dikkate alınıp alınmayacağını belirtir.
+- [**NumberFormat**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/numberformat): Sayısal değerin biçimlendirmesini alır ve ayarlar.
+- [**TitleStyle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/titlestyle): Başlık stilini alır ve ayarlar.
 
-Aşağıda verilen örnek kod,[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) Ve[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)JSON verilerini içe aktaracak sınıflar.
+Aşağıda verilen örnek kod, JSON verilerini içe aktarmak için [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) ve [**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) sınıflarının kullanımını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromJson-1.cs" >}}
 
-##  **İleri konular**
-- [Verileri Çalışma Sayfasına Aktarırken Formül Alanlarını Belirleme](/cells/tr/net/specify-formula-fields-while-importing-data-to-worksheet/)
-- [Cells Veri Tablosu Satırlarını eklerken İlk Satırı aşağı kaydır](/cells/tr/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+## **Gelişmiş Konular**
+- [Çalışma Sayfasına Veri İçeri Aktarırken Formül Alanlarını Belirt](/cells/tr/net/specify-formula-fields-while-importing-data-to-worksheet/)
+- [Hücreler Veri Tablosu Satırlarını Eklerken İlk Satırı Aşağıya Kaydırma](/cells/tr/net/shift-first-row-down-when-inserting-cells-data-table-rows/)

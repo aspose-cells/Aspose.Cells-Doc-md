@@ -1,35 +1,36 @@
-﻿---
-title: Verileri Otomatik Filtrele
+---
+title: Verileri Başlangıç Filtrele
 type: docs
 weight: 120
 url: /tr/net/auto-filter-data/
 ---
+
 {{% alert color="primary" %}}
 
-Hangi verilerin bir aralıkta olduğunu anlamak için, genellikle sıralanmamış veri sütunlarına bakmaktansa verileri sıralamak ve filtrelemek daha kolaydır. Sıralama, verileri artan veya azalan düzende düzenleyerek belirli değerleri bulmayı kolaylaştırır. Verileri filtrelemek, yalnızca belirli değerleri göstermenizi sağlar. Örneğin, satış kayıtlarındaki belirli kalemlere odaklanmaya yardımcı olur.
+Bir aralıktaki verilerin ne olduğunu anlamak için, sütunlardaki düzenlenmemiş verilere bakmaktan ziyade verileri sıralamak ve filtrelemek genellikle daha kolaydır. Sıralama, verileri artan veya azalan düzende düzenler ve belirli değerleri bulmayı kolaylaştırır. Verileri filtrelemek, yalnızca belirli değerleri göstermenize olanak tanır. Örneğin, satış kayıtlarında belirli öğelere odaklanmanıza yardımcı olur.
 
-Microsoft Excel kullanıcıları sütunlara otomatik filtreleme uygulayabilir. Otomatik filtreleme, sütunun üstüne, sütun verilerini filtreleyebileceğiniz bir menü ekler. Bu özellik, VSTO veya Aspose.Cells for .NET aracılığıyla Excel elektronik tablolarıyla çalışan geliştiriciler tarafından da kullanılabilir.
+Microsoft Excel kullanıcıları sütunlara otomatik filtreleme uygulayabilirler. Otomatik filtreleme, sütun verilerine sıralama veya filtre uygulamanızı sağlayan bir menü ekler. Bu özellik, Excel elektronik tablolarıyla çalışan geliştiricilere de [VSTO](/hücreler/tr/net/verileri-başlangıç-filtrele/) veya [Aspose.Cells for .NET](/hücreler/tr/net/verileri-başlangıç-filtrele/) ile erişilebilir.
 
 {{% /alert %}}
 
 ## **Verileri Otomatik Filtreleme**
 
-Bir sütuna otomatik filtreleme uygulamak için:
+Bir sütuna otomatik filtre uygulamak için:
 
-1. Bir çalışma kitabı oluşturun.
-1. Bir çalışma sayfası alın.
-1. Örnek verileri ekleyin.
+1. Bir çalışma kitabı oluşturma.
+1. Bir çalışsayfayı alın.
+1. Örnek veri ekleyin.
 1. Otomatik filtre uygulayın.
-1. Görüntüyü çekici hale getirmek için sütunları otomatik sığdırın.
+1. Görüntüyü çekici hale getirmek için sütunları otomatik uygun hale getirin.
 1. Elektronik tabloyu kaydedin.
 
- Bu makaledeki kod örnekleri, kullanarak bu adımların nasıl gerçekleştirileceğini gösterir.[VSTO](/cells/tr/net/auto-filter-data/) C# veya Visual Basic ile veya kullanarak[Apose.Cells](/cells/tr/net/auto-filter-data/), yine C# veya Visual Basic ile.
+Bu makaledeki kod örnekleri, bu adımları [VSTO](/hücreler/tr/net/verileri-başlangıç-filtrele/) ile C# veya Visual Basic veya [Apose.Cells](/hücreler/tr/net/verileri-başlangıç-filtrele/), tekrar C# veya Visual Basic kullanarak nasıl gerçekleştireceğinizi gösterir.
 
 ### **VSTO ile Verileri Otomatik Filtreleme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -57,27 +58,27 @@ Excel.Worksheet sheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Add data into A1 and B1 Cells as headers.
 
-sheet.Cells[1, 1]= "Product ID";
+sheet.Cells[1, 1] = "Product ID";
 
-sheet.Cells[1, 2]= "Product Name";
+sheet.Cells[1, 2] = "Product Name";
 
 //Add data into details cells.
 
-sheet.Cells[2, 1]= 1;
+sheet.Cells[2, 1] = 1;
 
-sheet.Cells[3, 1]= 2;
+sheet.Cells[3, 1] = 2;
 
-sheet.Cells[4, 1]= 3;
+sheet.Cells[4, 1] = 3;
 
-sheet.Cells[5, 1]= 4;
+sheet.Cells[5, 1] = 4;
 
-sheet.Cells[2, 2]= "Apples";
+sheet.Cells[2, 2] = "Apples";
 
-sheet.Cells[3, 2]= "Bananas";
+sheet.Cells[3, 2] = "Bananas";
 
-sheet.Cells[4, 2]= "Grapes";
+sheet.Cells[4, 2] = "Grapes";
 
-sheet.Cells[5, 2]= "Oranges";
+sheet.Cells[5, 2] = "Oranges";
 
 //Enable Auto-filter.           
 
@@ -109,15 +110,15 @@ objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
 {{< /highlight >}}
 
-**VSTO ile uygulanan otomatik filtre** 
+**VSTO ile uygulanan otomatik filtreleme** 
 
-![yapılacaklar:resim_alternatif_metin](auto-filter-data_1.png)
+![todo:image_alt_text](auto-filter-data_1.png)
 
 ### **Aspose.Cells for .NET ile Verileri Otomatik Filtreleme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -169,6 +170,6 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 
 {{< /highlight >}}
 
-**Aspose.Cells for .NET ile uygulanan otomatik filtre** 
+**Aspose.Cells for .NET ile otomatik filtreleme uygulandı** 
 
-![yapılacaklar:resim_alternatif_metin](auto-filter-data_2.png)
+![todo:image_alt_text](auto-filter-data_2.png)

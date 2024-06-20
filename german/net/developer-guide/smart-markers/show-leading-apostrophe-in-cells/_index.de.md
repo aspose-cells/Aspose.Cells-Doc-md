@@ -1,16 +1,17 @@
-﻿---
-title: Führenden Apostroph in Zellen anzeigen
+---
+title: Führende Apostroph in Zellen anzeigen
 type: docs
 weight: 70
 url: /de/net/show-leading-apostrophe-in-cells/
 ---
- In Microsoft Excel ist der führende Apostroph im Wert der Zelle ausgeblendet. Aspose.Cells bietet die Funktion zum standardmäßigen Anzeigen des Apostrophs. Dafür sorgt die API[Workbook.Settings.QuotePrefixToStyle](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) Eigentum. Diese Eigenschaft gibt an, ob festgelegt werden soll[ZitatPräfix](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)-Eigenschaft, wenn Sie einen Zeichenfolgenwert eingeben, der mit einem einfachen Anführungszeichen in die Zelle beginnt. Einstellung der[Workbook.Settings.QuotePrefixToStyle](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) Eigentum zu**FALSCH**zeigt den führenden Apostroph in der Excel-Ausgabedatei an.
 
-Der folgende Screenshot zeigt die ausgegebene Excel-Datei mit dem sichtbaren Apostroph.
+In Microsoft Excel wird der führende Apostroph im Zellenwert ausgeblendet. Aspose.Cells bietet die Funktion, den Apostroph standardmäßig anzuzeigen. Dafür bietet die API die Eigenschaft [Workbook.Settings.QuotePrefixToStyle](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle). Diese Eigenschaft gibt an, ob die Eigenschaft [QuotePrefix](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) gesetzt werden soll, wenn ein Zeichenfolgenwert, der mit einem einfachen Anführungszeichen beginnt, in die Zelle eingegeben wird. Wenn die Eigenschaft [Workbook.Settings.QuotePrefixToStyle](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) auf **false** gesetzt wird, wird der führende Apostroph in der Ausgabedatei angezeigt.
 
-![todo: Bild_alt_Text](show-leading-apostrophe-in-cells_1.jpg)
+Der folgende Screenshot zeigt die Ausgabedatei mit dem sichtbaren Apostroph.
 
-Das folgende Code-Snippet demonstriert dies durch Hinzufügen von Daten mit Smart Markers in der Excel-Quelldatei. Die Quell- und Ausgabe-Excel-Dateien sind als Referenz beigefügt.
+![todo:image_alt_text](show-leading-apostrophe-in-cells_1.jpg)
+
+Der folgende Code-Ausschnitt zeigt dies, indem Daten mit Smart Markern in der Quell-Excel-Datei hinzugefügt werden. Die Quell- und Ausgabedateien für Referenzzwecke sind angehängt.
 
 [Quelldatei](98107425.xlsx)
 
@@ -18,6 +19,6 @@ Das folgende Code-Snippet demonstriert dies durch Hinzufügen von Daten mit Smar
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-1.cs" >}}
 
-Die Implementierung von*Datenobjekt*Klasse ist unten angegeben
+Die Implementierung der *DataObject* Klasse ist unten angegeben
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-2.cs" >}}

@@ -1,26 +1,27 @@
-﻿---
-title: Ocultar y mostrar hojas de trabajo en un libro de trabajo en VSTO y Aspose.Cells
+---
+title: Ocultar y mostrar hojas de cálculo en un libro en VSTO y Aspose.Cells
 type: docs
 weight: 140
 url: /es/net/hide-and-unhide-worksheets-in-a-workbook-in-vsto-and-aspose-cells/
 ---
-Este artículo compara la ocultación y visualización de hojas de trabajo con VSTO, usando C# o Visual Basic, con la realización de la misma tarea con Aspose.Cells, nuevamente usando C# o Visual Basic. Aspose.Cells le permite trabajar sin Microsoft Excel instalado.
 
-Los pasos para ocultar una hoja de trabajo son:
+Este artículo compara cómo ocultar y mostrar hojas de cálculo con VSTO, utilizando C# o Visual Basic, con la realización de la misma tarea con Aspose.Cells, nuevamente utilizando C# o Visual Basic. Aspose.Cells te permite trabajar sin tener instalado Microsoft Excel.
 
-1. Abre un archivo.
-1. Consigue una hoja de trabajo.
-1. Ocultar la hoja de trabajo.
-1. Guarda el archivo.
- Para volver a mostrar una hoja de cálculo, simplemente active la visibilidad de la hoja oculta.
+Los pasos para ocultar una hoja de cálculo son:
 
-Los ejemplos de código a continuación muestran primero cómo ocultar una hoja de trabajo. Los primeros ejemplos muestran el proceso con VSTO, usando C#, en comparación con el uso de Aspose.Cells, nuevamente usando C#.
+1. Abrir un archivo.
+1. Obtener una hoja de cálculo.
+1. Ocultar la hoja de cálculo.
+1. Guarde el archivo.
+   Para mostrar una hoja de cálculo nuevamente, simplemente cambie la visibilidad de la hoja oculta.
 
-El segundo conjunto de ejemplos de código muestra la línea utilizada para mostrar la hoja de trabajo en VSTO o Aspose.Cells.
-## **Ocultar hojas de trabajo**
-A continuación se muestran ejemplos de código para VSTO y Aspose.Cells que ilustran cómo ocultar una hoja de cálculo en un libro.
+Las muestras de código a continuación muestran primero como ocultar una hoja de cálculo. Las primeras muestras muestran el proceso con VSTO, utilizando C#, en comparación con el uso de Aspose.Cells, nuevamente utilizando C#.
+
+El segundo conjunto de muestras de código muestra la línea utilizada para mostrar la hoja de cálculo oculta en VSTO o Aspose.Cells.
+## **Ocultar Hojas de Cálculo**
+A continuación se muestran muestras de código para VSTO y Aspose.Cells que ilustran cómo ocultar una hoja de cálculo en un libro.
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -65,7 +66,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -92,10 +93,10 @@ objSheet.IsVisible = false;
 workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **Hoja de trabajo para mostrar**
-A continuación se muestran ejemplos de código para VSTO y Aspose.Cells que ilustran cómo mostrar una hoja de trabajo en un libro.
+## **Mostrar Hoja de Cálculo**
+A continuación se muestran muestras de código para VSTO y Aspose.Cells que ilustran cómo mostrar una hoja de cálculo en un libro.
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
@@ -103,14 +104,14 @@ A continuación se muestran ejemplos de código para VSTO y Aspose.Cells que ilu
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
 objSheet.IsVisible = true;
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Hide.and.Unhide.Worksheets.in.a.Workbook.Aspose.Cells.zip)
-- [forjafuente](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/descargar)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).Código Postal)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip)

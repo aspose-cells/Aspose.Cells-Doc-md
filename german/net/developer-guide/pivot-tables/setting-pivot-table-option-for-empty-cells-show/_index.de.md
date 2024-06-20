@@ -1,30 +1,31 @@
-﻿---
-title: Einstellen der Pivot-Tabellenoption - Für leere Cells-Anzeige
+---
+title: Pivot Tabellen Option einstellen – Leere Zellen anzeigen
 type: docs
 weight: 40
 url: /de/net/setting-pivot-table-option-for-empty-cells-show/
 ---
+
 {{% alert color="primary" %}}
 
-Mit Aspose.Cells können Sie verschiedene Optionen für Pivot-Tabellen festlegen. Eine dieser Optionen ist "Für leere Zellen anzeigen". Durch Setzen dieser Option werden alle leeren Zellen in einer Pivot-Tabelle als festgelegter String angezeigt.
+Sie können verschiedene Pivot-Tabellen-Optionen mit Aspose.Cells einstellen. Eine Option ist "Leere Zellen anzeigen". Durch Festlegen dieser Option werden alle leeren Zellen in einer Pivot-Tabelle als bestimmter Text angezeigt.
 
 {{% /alert %}}
 
-## **Festlegen der Pivot-Tabellenoption in Microsoft Excel**
+## **Pivot-Tabellen-Option in Microsoft Excel einstellen**
 
-So finden und setzen Sie diese Option in Microsoft Excel:
+Um diese Option in Microsoft Excel zu finden und einzustellen:
 
 1. Wählen Sie eine Pivot-Tabelle aus und klicken Sie mit der rechten Maustaste.
-1.  Wählen**PivotTable-Optionen**.
-1.  Wähle aus**Layout & Format** Tab.
-1.  Wähle aus**Für leere Zellen anzeigen** Option und geben Sie eine Zeichenfolge an.
+1. Wählen Sie **PivotTable-Optionen** aus.
+1. Wählen Sie das Registerkarte **Layout & Format** aus.
+1. Wählen Sie die Option **Leere Zellen anzeigen** aus und geben Sie einen Text an.
 
-## **Festlegen der Pivot-Tabellenoption mit Aspose.Cells**
+## **Pivot-Tabellen-Option mit Aspose.Cells einstellen**
 
- Aspose.Cells bietet die[**PivotTable.DisplayNullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/displaynullstring) und[**PivotTable.NullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/nullstring) Eigenschaften zum Festlegen der Pivot-Tabellenoption "Für leere Zellen anzeigen".
+Aspose.Cells bietet die Eigenschaften [**PivotTable.DisplayNullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/displaynullstring) und [**PivotTable.NullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/nullstring) zum Einstellen der Pivot-Tabellen-Option "Leere Zellen anzeigen".
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-SettingPivotTableOption-SettingPivotTableOption.cs" >}}
 
-## Zum Thema passende Artikel
+## Verwandte Artikel
 
 - [Pivot-Tabelle formatieren](/cells/de/net/formatting-pivot-table/)

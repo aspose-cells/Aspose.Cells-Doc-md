@@ -1,13 +1,14 @@
-﻿---
-title: İşleme Dilimleyici
+---
+title: Süzgeci Rendering Etme
 type: docs
 weight: 40
 url: /tr/java/rendering-slicer/
 ---
-## **Olası Kullanım Senaryoları**
-Aspose.Cells, dilimleyici şeklinin oluşturulmasını destekler. Çalışma sayfanızı bir görüntüye dönüştürürseniz veya çalışma kitabınızı PDF veya HTML formatlarında kaydederseniz, dilimleyicilerin düzgün bir şekilde işlendiğini göreceksiniz.
-## **İşleme Dilimleyici**
-Aşağıdaki örnek kod,[örnek excel dosyası](67338485.xlsx)mevcut bir dilimleyici içerir. Yalnızca dilimleyiciyi kaplayan yazdırma alanını ayarlayarak çalışma sayfasını bir görüntüye dönüştürür. Akan görüntü ise[çıktı görüntüsü](67338486.png)işlenen dilimleyiciyi gösterir. Gördüğünüz gibi, dilimleyici düzgün bir şekilde oluşturuldu ve örnek Excel dosyasındakiyle aynı görünüyor.
 
-![yapılacaklar:resim_alternatif_metin](rendering-slicer_1)
-## **Basit kod**
+## **Olası Kullanım Senaryoları**
+Aspose.Cells süzgeç şeklini görüntülemeyi destekler. Çalışma sayfanızı bir resme dönüştürür veya çalışma kitabını PDF veya HTML biçimlerinde kaydeder, süzgeçlerin düzgün bir şekilde görüntülendiğini göreceksiniz.
+## **Süzgeci Rendering Etme**
+Aşağıdaki örnek kod, mevcut bir dilimleyici içeren örnek Excel dosyasını [örnek Excel dosyası](67338485.xlsx) yükler. Çalışma sayfasını, yalnızca dilimleyiciyi kapsayan baskı alanını ayarlayarak bir resme dönüştürür. Aşağıdaki resim, işlenmiş dilimleyiciyi gösteren [çıkış resmi](67338486.png) dir. Görebileceğiniz gibi, dilimleyici uygun bir şekilde işlenmiş ve örnek Excel dosyasındaki gibi görünüyor.
+
+![todo:image_alt_text](rendering-slicer_1)
+## **Örnek Kod**

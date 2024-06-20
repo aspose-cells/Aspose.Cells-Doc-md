@@ -1,25 +1,25 @@
 ---
-title: Come gestire il grafico pivot con PivotOptions
-linktitle: Opzioni pivot
+title: Come gestire PivotChart con PivotOptions
+linktitle: Opzioni Pivot
 type: docs
 weight: 10
 url: /it/java/how-to-manage-pivotchart-with-pivotoptions/
-description: Come gestire il grafico pivot con PivotOptions.
+description: Come gestire PivotChart con PivotOptions.
 keywords: PivotChart
 ---
-##  Cos'è il grafico pivot
+## Cosa è un PivotChart
 
-Un grafico pivot in Excel è una rappresentazione grafica dei dati creati da una tabella pivot. Consente agli utenti di visualizzare e analizzare i dati in modo dinamico riepilogando e visualizzando le informazioni sotto forma di grafico. I grafici pivot sono interattivi e possono essere facilmente modificati per mostrare diverse prospettive dei dati, rendendoli un potente strumento per l'analisi e la presentazione dei dati in Excel.
+Un PivotChart in Excel è una rappresentazione grafica dei dati creata da una tabella pivot. Consente agli utenti di visualizzare e analizzare dinamicamente i dati riassumendo e visualizzando le informazioni in forma di grafico. I PivotCharts sono interattivi e possono essere facilmente modificati per mostrare diverse prospettive dei dati, rendendoli uno strumento potente per l'analisi e la presentazione dei dati in Excel.
 
-##  Come gestire il grafico pivot con PivotOptions
+## Come gestire PivotChart con PivotOptions
 
- Utilizzando Aspose.Cells, è possibile utilizzare[**Opzioni pivot**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotoptions/) per gestire il grafico pivot.
+Utilizzando Aspose.Cells, è possibile utilizzare [**PivotOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotoptions/) per gestire il PivotChart.
 
-File e codice di esempio:
+File di esempio e codice:
 [File di esempio](Sample.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotOptions.java" >}}
 
-Con il codice di esempio sopra, puoi controllare il file dei risultati con il seguente effetto, come mostrato nella figura:
+Con il codice di esempio sopra, è possibile controllare il file di risultato con l'effetto seguente, come mostrato nella figura:
 
-**![Uscita](Uscita.png)**
+**![Output](Output.png)**

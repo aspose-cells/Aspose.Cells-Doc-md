@@ -1,23 +1,24 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.6.3
+---
+title: Изменения общедоступного API в Aspose.Cells 8.6.3
 type: docs
 weight: 220
 url: /ru/net/public-api-changes-in-aspose-cells-8-6-3/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.6.2 до 8.6.3, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы, добавленные классы, но и описание любых изменений поведения за кулисами в Aspose.Cells.
+В этом документе описаны изменения в API Aspose.Cells от версии 8.6.2 до 8.6.3, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные общедоступные методы, добавленные классы, но также описание любых изменений в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Поддержка анализа HTML при импорте данных**
-В этом выпуске Aspose.Cells for .NET API реализовано свойство ImportTableOptions.IsHtmlString, которое указывает API анализировать теги HTML при импорте данных на рабочий лист и задавать проанализированный результат как значение ячейки. Обратите внимание, что API-интерфейсы Aspose.Cells уже предоставляют Cell.HtmlString для выполнения этой задачи для одной ячейки, однако при массовом импорте данных, например из DataTable, свойство ImportTableOptions.IsHtmlString (если установлено значение true) пытается проанализировать все поддерживаемые HTML помечает и устанавливает проанализированные результаты в соответствующие ячейки.
+## **Добавленные API**
+### **Поддержка разбора HTML при импорте данных**
+Данное обновление Aspose.Cells for .NET API предоставило свойство ImportTableOptions.IsHtmlString, которое направляет API разбирать HTML-теги при импорте данных в Лист и устанавливать разобранный результат в качестве значения ячейки. Обратите внимание, что в Aspose.Cells API уже предусмотрен метод Cell.HtmlString для выполнения этой задачи для одной ячейки, однако при импорте данных в большом объеме, таком как из DataTable, свойство ImportTableOptions.IsHtmlString (если установлено в true) пытается разобрать все поддерживаемые HTML-теги и устанавливает разобранные результаты в соответствующие ячейки.
 
 Вот самый простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //create an instance of ImportTableOptions
 
@@ -35,13 +36,13 @@ cells.ImportData(table, 0, 0, importOptions);
 
 
 ### **Добавлен метод Workbook.CreateBuiltinStyle**
- Aspose.Cells for .NET 8.6.3 предоставил метод Workbook.CreateBuiltinStyle, который можно использовать для создания объекта класса Style, соответствующего одному из[встроенные стили, предлагаемые приложением Excel](/cells/ru/net/using-built-in-styles/)Метод Workbook.CreateBuiltinStyle принимает константу из перечисления BuiltinStyleType. Обратите внимание, что в предыдущих выпусках API-интерфейсов Aspose.Cells ту же задачу можно было выполнить с помощью метода StyleCollection.CreateBuiltinStyle, но, поскольку последние выпуски API-интерфейсов Aspose.Cells удалили класс StyleCollection, поэтому недавно представленный метод Workbook.CreateBuiltinStyle можно рассматривать как альтернативный подход к добиться того же.
+Aspose.Cells for .NET 8.6.3 добавил метод Workbook.CreateBuiltinStyle, который можно использовать для создания объекта класса Style, соответствующего одному из [встроенных стилей, предлагаемых приложением Excel](/cells/ru/net/using-built-in-styles/). Метод Workbook.CreateBuiltinStyle принимает константу из перечисления BuiltinStyleType. Обратите внимание, что в предыдущих версиях Aspose.Cells API ту же задачу можно было выполнить с помощью метода StyleCollection.CreateBuiltinStyle, но поскольку недавние версии Aspose.Cells API удалили класс StyleCollection, то новый метод Workbook.CreateBuiltinStyle можно рассматривать как альтернативный подход к достижению того же результата.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -57,13 +58,13 @@ var style = book.CreateBuiltinStyle(BuiltinStyleType.Title);
 
 
 ### **Добавлен метод Cells.ImportGridView**
-Aspose.Cells for .NET 8.6.3 представила перегруженную версию Cells.ImportGridView, которая теперь может принимать экземпляр ImportTableOptions, чтобы обеспечить больший контроль над процессом импорта.
+Aspose.Cells for .NET 8.6.3 добавил перегруженную версию метода Cells.ImportGridView, которая теперь может принимать экземпляр ImportTableOptions для более тонкого контроля процесса импорта.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -91,13 +92,13 @@ cells.ImportGridView(gridView, 0, 0, importOptions);
 
 
 ### **Добавлено свойство ImportTableOptions.ConvertGridStyle**
-В связи с вышеупомянутыми улучшениями последняя версия Aspose.Cells for .NET API также предоставляет свойство ImportTableOptions.ConvertGridStyle. Это свойство логического типа позволяет разработчикам управлять внешним видом импортированных данных, где установка для свойства ImportTableOptions.ConvertGridStyle значения true указывает, что API применит стиль GridView к ячейкам, в которые были импортированы данные.
+В связи с вышеупомянутыми улучшениями, последняя версия API Aspose.Cells for .NET также добавила свойство ImportTableOptions.ConvertGridStyle. Это логическое свойство позволяет разработчикам контролировать внешний вид импортированных данных, где установка свойства ImportTableOptions.ConvertGridStyle в true указывает, что API будет применять стиль GridView к ячейкам, в которые импортированы данные.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -127,13 +128,13 @@ cells.ImportGridView(gridView, 0, 0, importOptions);
 
 
 ### **Добавлено свойство LoadDataOption.OnlyVisibleWorksheet**
- Aspose.Cells for .NET 8.6.3 предоставило свойство LoadDataOption.OnlyVisibleWorksheet, которое при установке значения true повлияет на механизм загрузки Aspose.Cells for .NET API, в результате чего будут загружены только видимые рабочие листы из данной электронной таблицы. Пожалуйста, проверьте[подробная статья](/cells/ru/net/different-ways-to-open-files/) на эту тему.
+Aspose.Cells for .NET 8.6.3 добавил свойство LoadDataOption.OnlyVisibleWorksheet, которое при установке в true повлияет на механизм загрузки API Aspose.Cells for .NET, в результате будут загружены только видимые листы из заданной книги. Пожалуйста, ознакомьтесь с [подробной статьей](/cells/ru/net/different-ways-to-open-files/) по этому вопросу.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadDataOption
 
@@ -161,7 +162,7 @@ var book = new Workbook(inputFilePath, loadOptions);
 
 {{< /highlight >}}
 ## **Устаревшие API**
-### **Метод Worksheet.CopyConditionalFormatting устарел**
-В качестве альтернативы методу Worksheet.CopyConditionalFormatting рекомендуется использовать любой из методов Cells.CopyRows или Range.Copy.
-### **Свойство Cells.Конец Устарело**
-Используйте свойство Cells.LastCell в качестве альтернативы свойству Cells.End.
+### **Устаревший метод Worksheet.CopyConditionalFormatting**
+Вместо метода Worksheet.CopyConditionalFormatting рекомендуется использовать любой из методов Cells.CopyRows или Range.Copy.
+### **Устаревшее свойство Cells.End**
+Пожалуйста, используйте свойство Cells.LastCell в качестве альтернативы свойству Cells.End.

@@ -1,15 +1,16 @@
-﻿---
-title: Ruby'de Grafiği Görüntüye Dönüştürme
+---
+title: Ruby de Grafikleri Görüntüye Dönüştürme
 type: docs
 weight: 10
 url: /tr/java/converting-chart-to-image-in-ruby/
 ---
-## **Aspose.Cells - Grafiği Resme Dönüştürme**
-Ruby'de Aspose.Cells for Java kullanarak Grafiği Görüntüye dönüştürmek için Dönüştürücü modülünü çağırmanız yeterlidir.
 
-**Yakut Kodu**
+## **Aspose.Cells - Grafikleri Resme Dönüştürme**
+Ruby'de Aspose.Cells for Java kullanarak Grafikleri Resme Dönüştürmek için, Converter modülünü basitçe çağırın.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  def chart_to_image()
 
@@ -143,6 +144,6 @@ end   
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Grafiği Resme Dönüştürme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+**Aspose.Cells ile Grafikleri Resme Dönüştürme**'yi aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

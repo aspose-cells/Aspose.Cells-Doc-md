@@ -1,15 +1,16 @@
-﻿---
-title: Lägg till kalkylblad till ny Excel-fil i PHP
+---
+title: Lägg till arbetsblad i ny Excel fil i PHP
 type: docs
 weight: 20
 url: /sv/net/add-worksheets-to-new-excel-file-in-php/
 ---
-## **Lägg till kalkylblad till ny Excel-fil**
-Lägg till kalkylblad till ny Excel-fil
+
+## **Lägg till arbetsblad i ny Excel-fil**
+Lägg till arbetsblad i ny Excel-fil
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -36,7 +37,7 @@ Lägg till kalkylblad till ny Excel-fil
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Lägg till kalkylblad till ny Excel-fil (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Hämta **Lägg till arbetsblad i ny Excel-fil (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddingWorksheetsToNewExcelFile.php)

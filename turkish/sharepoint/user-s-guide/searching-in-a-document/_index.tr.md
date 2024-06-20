@@ -1,23 +1,24 @@
-﻿---
-title: Bir Belgede Arama
+---
+title: Belgede Arama
 type: docs
 weight: 50
 url: /tr/sharepoint/searching-in-a-document/
 ---
-Bir klasördeki tüm dosyaları aramak için:
 
-1.  Seçme**Aspose.Cells ile Belgede Ara** ebeveynde kalırken istenen klasörün ECB'sinde.
+Bir klasördeki tüm dosyalarda arama yapmak için:
 
-Birkaç dosyayı aynı anda aramak için:
+1. Üst klasörde kalırken istenen klasörün ECB'sinde **Aspose.Cells ile Belge İçinde Ara**'yı seçin.
+
+Bir seferde birkaç dosyada arama yapmak için:
 
 1. Birden fazla dosya seçin.
-1.  Dosyalar hala seçiliyken,**Aspose.Cells ile Belge Ara**.
+1. Dosyalar hâlâ seçiliyken, **Aspose.Cells ile Belge Araması**'nı seçin.
 
 **Belgeleri arama** 
 
-![yapılacaklar:resim_alternatif_metin](searching-in-a-document_1.png)
+![todo:image_alt_text](searching-in-a-document_1.png)
 
 Aşağıdaki seçenekler mevcuttur:
 
-- **Bul Seçenekleri**: Hücrelerde formül arayarak veya belirli bir ifade içeren formüller bularak aramanıza odaklanın.
-- **Harfe duyarlı**: Büyük/küçük harfe duyarlı seçeneği seçildiğinde, arama, küçük ve büyük harfler dahil olmak üzere karakterleri tam olarak eşleştirir.
+- **Arama Seçenekleri**: Hücrelerde arama yaparak, formüller için veya belirli bir ifade içeren formülleri bulun.
+- **Büyük/küçük harf duyarlı**: Büyük/küçük harf duyarlı seçeneği seçildiğinde, arama karakterleri tam olarak eşleşir, küçük ve büyük harfler dahil.

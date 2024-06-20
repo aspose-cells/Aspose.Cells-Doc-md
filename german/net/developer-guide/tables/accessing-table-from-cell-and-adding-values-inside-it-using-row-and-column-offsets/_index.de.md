@@ -1,33 +1,34 @@
-﻿---
-title: Zugriff auf die Tabelle von Cell und Hinzufügen von Werten darin mithilfe von Zeilen- und Spalten-Offsets
+---
+title: Zugriff auf Tabelle von Zelle und Hinzufügen von Werten in sie unter Verwendung von Zeilen und Spaltenversatz
 type: docs
 weight: 230
 url: /de/net/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/
 ---
+
 {{% alert color="primary" %}}
 
- Normalerweise fügen Sie Werte innerhalb des Tabellen- oder Listenobjekts hinzu, indem Sie verwenden[**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)Methode. Aber manchmal müssen Sie möglicherweise Werte innerhalb des Tabellen- oder Listenobjekts hinzufügen, indem Sie die Zeilen- und Spalten-Offsets verwenden.
+Normalerweise fügen Sie Werte in die Tabelle oder das Listenobjekt mit der [**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)-Methode ein. Manchmal müssen Sie jedoch Werte in die Tabelle oder das Listenobjekt unter Verwendung des Zeilen- und Spaltenoffsets hinzufügen.
 
-Um von einer Zelle aus auf Tabellen- oder Listenobjekte zuzugreifen, verwenden Sie die[**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) Methode. Um darin Werte mithilfe der Zeilen- und Spalten-Offsets hinzuzufügen, verwenden Sie die[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) Methode.
+Um auf eine Tabelle oder eine Liste aus einer Zelle zuzugreifen, verwenden Sie die [**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) Methode. Um Werte unter Verwendung der Zeilen- und Spaltenversätze hinzuzufügen, verwenden Sie die [**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) Methode.
 
 {{% /alert %}}
 
- Der folgende Screenshot zeigt die im Code verwendete Excel-Quelldatei. Sie enthält die leere Tabelle und hebt die Zelle D5 hervor, die innerhalb der Tabelle liegt. Auf diese Tabelle greifen wir von Zelle D5 aus mit zu[**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) -Methode und fügen Sie dann die darin enthaltenen Werte mit beiden hinzu[**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) und[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue)Methoden.
+Der folgende Screenshot zeigt die verwendete Excel-Quelldatei im Code. Sie enthält die leere Tabelle und hebt die Zelle D5 hervor, die sich innerhalb der Tabelle befindet. Wir werden auf diese Tabelle von der Zelle D5 aus mit der [**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable)-Methode zugreifen und dann die Werte darin mit den [**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)- und [**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue)-Methoden hinzufügen.
 
 ## Beispiel
 
-### Screenshots, die die Quell- und Ausgabedateien vergleichen
+### Screenshots zum Vergleich der Quell- und Ausgabedateien
 
-|![todo: Bild_alt_Text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)|
-|:- |
+|![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)|
+| :- |
 
-Der folgende Screenshot zeigt die vom Code generierte Excel-Ausgabedatei. Wie Sie sehen können, hat Zelle D5 einen Wert und Zelle F6, die sich am Offset 2,2 der Tabelle befindet, hat einen Wert.
+Der folgende Screenshot zeigt die durch den Code generierte Ausgabedatei. Wie Sie sehen können, hat die Zelle D5 einen Wert und die Zelle F6, die sich im Offset 2,2 der Tabelle befindet, hat ebenfalls einen Wert.
 
-|![todo: Bild_alt_Text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)|
-|:- |
+|![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)|
+| :- |
 
-### C#-Code für den Zugriff auf die Tabelle aus der Zelle und das Hinzufügen von Werten darin mithilfe von Zeilen- und Spalten-Offsets
+### C#-Code, um auf die Tabelle aus der Zelle zuzugreifen und Werte mit Zeilen- und Spaltenversätzen hinzuzufügen
 
-Der folgende Beispielcode lädt die Excel-Quelldatei, wie im obigen Screenshot gezeigt, fügt Werte in die Tabelle ein und generiert die Excel-Ausgabedatei, wie oben gezeigt.
+Der folgende Beispielcode lädt die oben gezeigte Excel-Quelldatei und fügt Werte in die Tabelle ein, um die oben gezeigte Ausgabedatei zu generieren.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-AccessTableFromCellAndAddValue-AccessTableFromCellAndAddValue.cs" >}}

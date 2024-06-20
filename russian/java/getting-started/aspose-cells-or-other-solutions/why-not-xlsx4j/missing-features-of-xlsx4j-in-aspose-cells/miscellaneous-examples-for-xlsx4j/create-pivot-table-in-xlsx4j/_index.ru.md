@@ -1,19 +1,20 @@
-﻿---
-title: Создать сводную таблицу в xlsx4j
+---
+title: Создание сводной таблицы в xlsx4j
 type: docs
 weight: 20
 url: /ru/java/create-pivot-table-in-xlsx4j/
 ---
-## **Aspose.Cells - Создать сводную таблицу**
-Чтобы создать сводную таблицу с помощью Aspose.Cells:
 
-1. Добавьте некоторые данные в ячейки листа, используя метод PutValue/setValue объекта Cell. Вы также используете файл шаблона, уже заполненный данными. Данные будут использоваться в качестве источника данных сводной таблицы.
-1. Добавьте сводную таблицу на рабочий лист, вызвав метод добавления коллекции сводных таблиц (инкапсулированный в объекте рабочего листа).
-1. Получите доступ к новому объекту сводной таблицы из коллекции сводных таблиц, передав его индекс. # Используйте любой из объектов сводной таблицы, инкапсулированных в объект PivotTable, для управления таблицей.
+## **Aspose.Cells - Создание сводной таблицы**
+Для создания сводной таблицы с использованием Aspose.Cells:
+
+1. Добавьте некоторые данные в ячейки листа с использованием метода PutValue/setValue объекта Cell (ячейки). Вы также можете использовать шаблонный файл, уже заполненный данными. Данные будут использованы в качестве источника данных сводной таблицы.
+1. Добавьте сводную таблицу на лист, вызвав метод add коллекции PivotTables (инкапсулированной в объекте Worksheet).
+1. Получите новый объект PivotTable из коллекции PivotTables, передав его индекс. # Используйте любой из инкапсулированных в объекте PivotTable объектов сводной таблицы для управления таблицей.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -157,13 +158,13 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/tables/createpivottable/AsposeCreatePivotTable.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/tables/createpivottable/AsposeCreatePivotTable.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Создание сводных таблиц и сводных диаграмм](/cells/ru/java/create-pivot-tables-and-pivot-charts).
+Дополнительные сведения см. в разделе [Создание сводных таблиц и сводных диаграмм](/cells/ru/java/create-pivot-tables-and-pivot-charts).
 
 {{% /alert %}}

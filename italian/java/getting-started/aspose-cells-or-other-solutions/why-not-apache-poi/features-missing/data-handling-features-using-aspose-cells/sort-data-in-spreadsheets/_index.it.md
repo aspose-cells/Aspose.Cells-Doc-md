@@ -1,23 +1,24 @@
-﻿---
-title: Ordina i dati nei fogli di calcolo
+---
+title: Ordina dati nei fogli di calcolo
 type: docs
 weight: 70
 url: /it/java/sort-data-in-spreadsheets/
 ---
-## **Aspose.Cells - Ordina i dati nei fogli di calcolo**
+
+## **Aspose.Cells - Ordina i Dati nei Fogli di Calcolo**
 {{% alert color="primary" %}} 
 
-Per ordinare i dati nel foglio di calcolo utilizzando Aspose.Cells, è sufficiente richiamare il metodo DataSorter.sorter() dopo aver impostato alcune proprietà facili da impostare dell'area della cella.
+Per ordinare i dati nel foglio di calcolo utilizzando Aspose.Cells, basta invocare il metodo DataSorter.sorter() dopo aver impostato alcune proprietà facili da impostare dell'area delle celle.
 
-Java è riportato di seguito.
+Il codice Java è menzionato di seguito.
 
 {{% /alert %}} 
 
-Ordina i dati utilizzando Aspose.Cells
+Ordina i Dati usando Aspose.Cells
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtain the DataSorter object in the workbook
 
@@ -65,12 +66,12 @@ sorter.sort(cells, ca);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/AsposeDataSort.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Ordina dati](/java/sort-data) , o[Ordinamento dei dati](/cells/it/java/data-sorting).
+Per ulteriori dettagli, visita [Ordina i Dati](/java/sort-data), o [Ordinamento Dati](/cells/it/java/data-sorting).
 
 {{% /alert %}}

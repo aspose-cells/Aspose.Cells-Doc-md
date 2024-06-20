@@ -1,15 +1,16 @@
-﻿---
-title: ワークシートをJythonで画像化
+---
+title: Jythonでワークシートを画像に変換する
 type: docs
 weight: 90
 url: /ja/java/worksheet-to-image-in-jython/
 ---
-## **Aspose.Cells - 画像へのワークシート**
-を使用してドキュメントを追加するには**Aspose.Cells Jython の場合は Java**.ここでサンプルコードを見ることができます。
 
-**Jython コード**
+## **Aspose.Cells - ワークシートを画像に変換**
+**Aspose.Cells Java for Jython**を使用してドキュメントを追加します。ここでは例を示します。
 
-{{< highlight "java" >}}
+**Jythonコード**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -74,7 +75,7 @@ if __name__ == '__main__':
     WorksheetToImage()
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**添付書類 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に示すいずれかのソーシャルコーディングサイトから**Aspose.Cellsのドキュメントを追加する**をダウンロード:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/WorksheetToImage.py)

@@ -1,25 +1,26 @@
-﻿---
-title: تحديد الموضع المطلق للعنصر المحوري
+---
+title: تحديد الموقع المطلق لعنصر الجدول المحوري
 type: docs
 weight: 50
 url: /ar/net/specifying-the-absolute-position-of-the-pivot-item/
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، يحتاج المستخدم إلى تحديد الموضع المطلق للعناصر المحورية ، وقد كشف Aspose.Cells API عن بعض الخصائص الجديدة وطريقة لتحقيق متطلبات المستخدم.
+بعض الأحيان، يحتاج المستخدم إلى تحديد الموقع المطلق لعناصر الجدول المحوري، وقد قامت واجهة برمجة التطبيقات لـ Aspose.Cells بفتح بعض الخصائص الجديدة والطريقة لتحقيق متطلبات المستخدم.
 
--  مضاف[**PivotItem. الوظيفة**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position) الخاصية التي يمكن استخدامها لتحديد فهرس الموضع في جميع عناصر PivotItems بغض النظر عن العقدة الأصلية. مضاف[**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) الخاصية التي يمكن استخدامها لتحديد فهرس الموضع في PivotItems ضمن نفس العقدة الأصلية.
--  مضاف[**PivotItem.Move (عدد صحيح ، منطقي هو نفس الأصل)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move)لتحريك العنصر لأعلى أو لأسفل استنادًا إلى قيمة الجرد ، حيث يكون العدد هو رقم الموضع لتحريك PivotItem لأعلى أو لأسفل. إذا كانت قيمة العد أقل من الصفر ، فسيتم نقل العنصر لأعلى حيث كما لو كانت قيمة العد أكبر من الصفر ، سينتقل PivotItem إلى أسفل ، والنوع المنطقي هو نفس المعلمة الأصلية تحدد ما إذا كان يجب تنفيذ عملية النقل في نفس العقدة الأصلية أم لا.
--  عفا عليها الزمن*PivotItem.Move (عدد العمليات)* لذلك يُقترح استخدام الطريقة المضافة حديثًا[**PivotItem.Move (عدد صحيح ، منطقي هو نفس الأصل)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) بدلاً من.
+- تمت إضافة [**PivotItem.Position**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position) الخاصية التي يمكن استخدامها لتحديد مؤشر الموقع في كافة PivotItems بغض النظر عن العقدة الأم. تمت إضافة [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) للخاصية التي يمكن استخدامها لتحديد مؤشر الموقع في PivotItems تحت نفس العقدة الأم.
+- تمت إضافة طريقة [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) لنقل العنصر لأعلى أو لأسفل بناءً على قيمة العدد، حيث يعد العدد هو عدد الموقع الذي سيتم نقل عنصر الجدول المحوري إليه. إذا كانت قيمة العدد أقل من الصفر، سيتم نقل العنصر لأعلى، بينما إذا كانت قيمة العدد أكبر من الصفر، فإن عنصر الجدول المحوري سيتم نقله لأسفل. يقوم المعامل من نوع Boolean، isSameParent، بتحديد ما إذا كانت العملية المتحركة يجب أن تتم في نفس العقد الأصلي أم لا.
+- تم تجاهل *طريقة PivotItem.Move(int count)* ومن ثم يُفضل استخدام الطريقة المضافة حديثًا [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) بدلاً منها.
 
 {{% /alert %}}
 
- ينشئ نموذج التعليمات البرمجية التالي جدولاً محوريًا ثم يحدد مواضع العناصر المحورية في نفس العقدة الأصلية. يمكنك تنزيل ملف[مصدر Excel](5112632.xlsx) و[الإخراج إكسل](5112619.xlsx) ملفات للرجوع اليها. إذا فتحت ملف Excel الناتج ، فسترى العنصر المحوري "4H12" في الموضع 0 في الأصل "K11" و "DIF400" في المركز الثالث. وبالمثل ، فإن CA32 في الموضع 1 و AAA3 في الموضع 2
+الشيفرة التجريبية التالية تقوم بإنشاء جدول محوري ثم تحدد مواقع عناصر الجدول المحوري في نفس العقد الأصلي. يمكنك تنزيل [ملف إكسل المصدر](5112632.xlsx) و[ملف إكسل الناتج](5112619.xlsx) للإشارة إليه. إذا قمت بفتح ملف إكسل الناتج، سترى أن عنصر الجدول المحوري "4H12" عند الموضع 0 في العقد "K11" و"DIF400" في الموضع 3. بالمثل، CA32 في الموضع 1 وAAA3 في الموضع 2.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-SpecifyAbsolutePositionOfPivotItem-SpecifyAbsolutePositionOfPivotItem.cs" >}}
 
 {{% alert color="primary" %}}
 
-يرجى ملاحظة أنه من الضروري استدعاء أساليب PivotTable.RefreshData و PivotTable.CalculateData قبل استخدام[**PivotItem. الوظيفة**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position), [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) خصائص و[**PivotItem.Move (عدد صحيح ، منطقي هو نفس الأصل)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) طريقة.
+يرجى ملاحظة أنه من الضروري استدعاء طرق PivotTable.RefreshData وPivotTable.CalculateData قبل استخدام الخصائص [**PivotItem.Position**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position)، [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) والطريقة [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move).
 
 {{% /alert %}}

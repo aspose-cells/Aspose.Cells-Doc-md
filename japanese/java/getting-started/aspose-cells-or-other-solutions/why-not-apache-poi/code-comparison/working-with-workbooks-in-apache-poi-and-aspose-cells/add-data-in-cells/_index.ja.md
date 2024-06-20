@@ -1,15 +1,16 @@
-﻿---
-title: Cells にデータを追加
+---
+title: セルにデータを追加
 type: docs
 weight: 10
 url: /ja/java/add-data-in-cells/
 ---
-## **Aspose.Cells - Cells にデータを追加**
-Aspose.Cells は、Microsoft Excel ファイルを表すクラス Workbook を提供します。 Workbook クラスには、Excel ファイル内の各ワークシートへのアクセスを許可する WorksheetCollection が含まれています。ワークシートは Worksheet クラスによって表されます。 Worksheet クラスは Cellscollection を提供します。 Cells コレクションの各アイテムは、Cell クラスのオブジェクトを表します。
+
+## **Aspose.Cells - セルにデータを追加**
+Aspose.Cellsは、Microsoft Excelファイルを表すWorkbookクラスを提供します。Workbookクラスには、Excelファイル内の各ワークシートにアクセスできるWorksheetCollectionが含まれています。ワークシートはWorksheetクラスで表され、WorksheetクラスにはCellsコレクションがあります。Cellsコレクションの各アイテムは、Cellクラスのオブジェクトを表します。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cell.setStyle(style);
 workbook.save(dataDir + "DataInCells_Aspose.xls"); //Saving the Excel file
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Cells にデータを追加**
-Apache POI SS では、row.createCell(1).setCellValue を使用してセルにデータを追加できます。
+## **Apache POI SS - HSSF XSSF - セルにデータを追加**
+Apache POI SSのrow.createCell(1).setCellValueを使用して、セルにデータを追加できます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -86,13 +87,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/adddataincells)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[Cells にデータを追加する](/java/adding-data-to-cells).
+[セルへのデータの追加](/java/adding-data-to-cells)の詳細については、こちらをご覧ください。
 
 {{% /alert %}}

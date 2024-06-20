@@ -1,24 +1,27 @@
-﻿---
-title: Gestión de controles Cell en columnas
+---
+title: Gestión de Controles de Celda en Columnas
 type: docs
 weight: 100
-url: /es/net/managing-cell-controls-in-columns/
+url: /es/net/aspose-cells-griddesktop/manage-cell-controls-in-columns/
+keywords: GridDesktop, controles, control
+description: Este artículo presenta cómo establecer controles en columna GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Este tema analiza algunos conceptos importantes sobre la administración de controles de celda en columnas mediante Aspose.Cells.GridDesktop API. Explicaremos cómo pueden los desarrolladores acceder, modificar y eliminar controles de celda de las columnas de sus hojas de trabajo. Echémosle un vistazo.
+Este tema discute algunos conceptos importantes sobre la gestión de controles de celda en columnas utilizando la API Aspose.Cells.GridDesktop. Explicaremos cómo los desarrolladores pueden acceder, modificar y eliminar controles de celda de las columnas de sus hojas de cálculo. Echemos un vistazo.
 
 {{% /alert %}} 
-## **Acceso a los controles Cell**
- Para acceder y modificar un control de celda existente en la columna, los desarrolladores pueden usar la propiedad CellControl de un**Aspose.Cells.GridDesktop.Data.GridColumn** . Una vez que se accede a un control de celda, los desarrolladores pueden modificar sus propiedades en tiempo de ejecución. Por ejemplo, en el ejemplo que se muestra a continuación, hemos accedido a un**Caja** control celular de un determinado**Aspose.Cells.GridDesktop.Data.GridColumn** y modificó su propiedad Checked.
+## **Acceso a los Controles de Celda**
+Para acceder y modificar un control de celda existente en la columna, los desarrolladores pueden usar la propiedad CellControl de un **Aspose.Cells.GridDesktop.Data.GridColumn**. Una vez que se accede a un control de celda, los desarrolladores pueden modificar sus propiedades en tiempo de ejecución. Por ejemplo, en el ejemplo dado a continuación, hemos accedido a un control de celda **CheckBox** existente de una **Aspose.Cells.GridDesktop.Data.GridColumn** específica y modificado su propiedad Checked.
 
-**IMPORTANTE:** La propiedad CellControl proporciona un control de celda en forma de**CellControl**objeto. Entonces, si necesita acceder a un tipo específico de control de celda, digamos**Caja** entonces tendrás que encasillar el**CellControl** oponerse a**Caja** clase.
+**IMPORTANTE:** La propiedad CellControl proporciona un control de celda en forma de un objeto **CellControl**. Por lo tanto, si necesita acceder a un tipo específico de control de celda, por ejemplo **CheckBox**, entonces tendrá que convertir el objeto **CellControl** a la clase **CheckBox**.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-ManagingControlsInColumns-AccessCheckbox.cs" >}}
-## **Extracción de los controles Cell**
- Para eliminar un control de celda existente, los desarrolladores simplemente pueden acceder a la hoja de trabajo deseada y luego**Eliminar** el control de celda de la columna específica usando el**RemoveCellControl** método de**Aspose.Cells.GridDesktop.Data.GridColumn**.
+## **Eliminación de Controles de Celda**
+Para eliminar un control de celda existente, los desarrolladores pueden simplemente acceder a una hoja de cálculo deseada y luego **Eliminar** el control de celda de la columna específica usando el método **RemoveCellControl** de **Aspose.Cells.GridDesktop.Data.GridColumn**.
 
 
 
@@ -26,6 +29,6 @@ Este tema analiza algunos conceptos importantes sobre la administración de cont
 
 {{% alert color="primary" %}} 
 
- Cada columna en el**columnas** colección de la**Hoja de cálculo** está representado por una instancia de**Aspose.Cells.GridDesktop.Data.GridColumn** clase.
+Cada columna en la colección **Columns** de la **Hoja de cálculo** está representada por una instancia de la clase **Aspose.Cells.GridDesktop.Data.GridColumn**.
 
 {{% /alert %}}

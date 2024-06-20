@@ -1,59 +1,60 @@
 ---
-title: فرز البيانات
+title: ترتيب البيانات
 type: docs
 weight: 130
 url: /ar/net/sort-data-of-excel/
-description: تعرف على كيفية فرز البيانات باستخدام Aspose.Cells for .NET API.
-keywords: Sort data in ascending or descending order, Sort data based on the background color
+description: تعلم كيفية فرز البيانات باستخدام واجهة البرمجة التطبيقية Aspose.Cells for .NET.
+keywords: فرز البيانات بترتيب تصاعدي أو تنازلي، فرز البيانات بناءً على لون الخلفية
 ---
+
 {{% alert color="primary" %}}
 
-يعد فرز البيانات أحد الميزات العديدة المفيدة في برنامج Excel Microsoft. يتيح للمستخدمين طلب البيانات لتسهيل عملية المسح. يتيح Aspose.Cells للمطورين فرز بيانات ورقة العمل أبجديًا أو رقميًا والذي يعمل بنفس الطريقة التي يعمل بها Microsoft Excel لفرز البيانات.
+فرز البيانات هو واحد من الميزات المفيدة في Microsoft Excel. يتيح للمستخدمين ترتيب البيانات لجعلها أسهل في المسح. تتيح Aspose.Cells للمطورين ترتيب بيانات ورقة العمل ترتيب أبجدي أو رقمي والذي يعمل بنفس الطريقة التي يقوم بها Microsoft Excel لفرز البيانات.
 
 {{% /alert %}}
 
-##  **فرز البيانات في Microsoft إكسل**
+## **فرز البيانات في Microsoft Excel**
 
-لفرز البيانات في Microsoft إكسل:
+لفرز البيانات في Microsoft Excel:
 
-1.  يختار**بيانات** من**نوع** قائمة طعام. سيتم عرض مربع الحوار "فرز".
+1. حدد **البيانات** من قائمة **الترتيب**. سيتم عرض مربع الحوار للترتيب.
 1. حدد خيار الفرز.
 
-بشكل عام، يتم إجراء الفرز على قائمة - يتم تعريفها على أنها مجموعة متجاورة من البيانات حيث يتم عرض البيانات في أعمدة.
+عموماً، يتم إجراء الفرز على قائمة - المعرفة بأنها مجموعة متواصلة من البيانات حيث يتم عرض البيانات في أعمدة.
 
-##  **فرز البيانات مع Aspose.Cells**
+## **فرز البيانات مع Aspose.Cells**
 
- Aspose.Cells يوفر[**فارز البيانات**](https://reference.aspose.com/cells/net/aspose.cells/datasorter)فئة تستخدم لفرز البيانات بترتيب تصاعدي أو تنازلي. تحتوي الفئة على بعض الأعضاء المهمين، على سبيل المثال، خصائص مثل Key1 ... Key3 و Order1 ... Order3. يتم استخدام هؤلاء الأعضاء لتحديد المفاتيح التي تم فرزها وتحديد ترتيب فرز المفاتيح.
+يوفر Aspose.Cells الفئة [**DataSorter**](https://reference.aspose.com/cells/net/aspose.cells/datasorter) المستخدمة لفرز البيانات بترتيب تصاعدي أو تنازلي. تحتوي الفئة على بعض الأعضاء المهمة، على سبيل المثال، خصائص مثل Key1 ... Key3 و Order1 ... Order3. يتم استخدام هذه الأعضاء لتعريف المفاتيح المرتبة وتحديد ترتيب ترتيب المفتاح.
 
- يجب عليك تحديد المفاتيح وتعيين ترتيب الفرز قبل تنفيذ فرز البيانات. يوفر الفصل[**نوع**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/sort/index)الطريقة المستخدمة لإجراء فرز البيانات بناءً على بيانات الخلية الموجودة في ورقة العمل.
+يجب عليك تعريف المفاتيح وتعيين ترتيب الفرز قبل تنفيذ فرز البيانات. توفر الفئة الطريقة [**Sort**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/sort/index) المستخدمة لأداء فرز البيانات بناءً على بيانات الخلية في ورقة العمل.
 
- ال[**نوع**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/sort/methods/1)تقبل الطريقة المعلمات التالية:
+تقبل الطريقة [**Sort**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/sort/methods/1) البيانات التالية:
 
-- [**Aspose.Cells.Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)، خلايا ورقة العمل الأساسية.
-- [**Aspose.Cells.CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)، نطاق الخلايا. حدد منطقة الخلية قبل تطبيق فرز البيانات.
+- [**Aspose.Cells.Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)، الخلايا للورقة العمل الأساسية.
+- [**Aspose.Cells.CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)، نطاق الخلايا. قم بتحديد منطقة الخلية قبل تطبيق فرز البيانات.
 
-يستخدم هذا المثال ملف القالب "Book1.xls" الذي تم إنشاؤه في Microsoft Excel. بعد تنفيذ التعليمات البرمجية أدناه، يتم فرز البيانات بشكل مناسب.
+يستخدم هذا المثال ملف القالب "Book1.xls" الذي تم إنشاؤه في Microsoft Excel. بعد تنفيذ الكود أدناه، يتم فرز البيانات بشكل مناسب.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-DataSorting-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- إذا كنت تريد فرز *LeftToRight*، فاستخدم الملف[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortlefttoright) يصف.
+إذا كنت ترغب في فرز *من اليسار إلى اليمين*، استخدم السمة [**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortlefttoright).
 
 {{% /alert %}}
 
-###  **فرز البيانات مع لون الخلفية**
+### **فرز البيانات مع لون الخلفية**
 
-يوفر Excel ميزات لفرز البيانات بناءً على لون الخلفية. يتم توفير نفس الميزة باستخدام Aspose.Cells باستخدام DataSorter حيث[**SortOnType**](https://reference.aspose.com/cells/net/aspose.cells/sortontype) يمكن استخدام .CellColor في[**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey) لفرز البيانات بناءً على لون الخلفية. كافة الخلايا التي تحتوي على اللون المحدد في[**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey)، يتم وضع الوظيفة في الأعلى أو الأسفل وفقًا لإعداد SortOrder ولا يتغير ترتيب بقية الخلايا على الإطلاق.
+يوفر Excel ميزات لفرز البيانات بناءً على لون الخلفية. نفس الميزة متوفرة باستخدام Aspose.Cells باستخدام DataSorter حيث يمكن استخدام [**SortOnType**](https://reference.aspose.com/cells/net/aspose.cells/sortontype).CellColor في [**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey) لفرز البيانات بناءً على لون الخلفية. يتم وضع جميع الخلايا التي تحتوي على اللون المحدد في [**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey)، الوظيفة في الأعلى أو الأسفل وفقًا لإعداد SortOrder ولم يتم تغيير ترتيب بقية الخلايا على الإطلاق.
 
-فيما يلي نماذج الملفات التي يمكن تنزيلها لاختبار هذه الميزة:
+فيما يلي الملفات العينية التي يمكن تنزيلها لاختبار هذه الميزة:
 
-[SampleBackGroundFile.xlsx](81920906.xlsx)
+[sampleBackGroundFile.xlsx](81920906.xlsx)
 
-[OutputsampleBackGroundFile.xlsx](81920907.xlsx)
+[outputsampleBackGroundFile.xlsx](81920907.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithBackgroundColor-1.cs" >}}
 
-##  **مواضيع متقدمة**
-- [فرز البيانات في العمود باستخدام قائمة الفرز المخصصة](/cells/ar/net/sort-data-in-column-with-custom-sort-list/)
+## **مواضيع متقدمة**
+- [فرز البيانات في العمود بقائمة فرز مخصصة](/cells/ar/net/sort-data-in-column-with-custom-sort-list/)
 - [تحديد تحذير الفرز أثناء فرز البيانات](/cells/ar/net/specifying-sort-warning-while-sorting-data/)

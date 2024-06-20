@@ -1,19 +1,20 @@
-﻿---
-title: Получить дату обновления сводной таблицы и обновить информацию о том, кто
+---
+title: Получить дату обновления сводной таблицы и информацию о том, кем она обновлялась
 type: docs
 weight: 100
 url: /ru/net/get-pivot-table-refresh-date-and-refresh-by-who-information/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells теперь поддерживает получение даты обновления и информации об обновлении кем из книги.
+Aspose.Cells теперь поддерживает получение даты обновления и информации о том, кем она обновлялась из книги.
 
 {{% /alert %}}
 
-[**Сводная таблица. RefreshDate**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/refreshdate) возвращает дату последнего обновления отчета сводной таблицы. Сходным образом[**Сводная таблица. RefreshByWho**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/refreshedbywho) Свойство возвращает имя пользователя, который обновлял отчет в последний раз. В следующем примере демонстрируется эта функция, а образец файла можно загрузить по следующей ссылке.
+[**PivotTable.RefreshDate**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/refreshdate) возвращает дату последнего обновления сводного отчета. Аналогично свойство [**PivotTable.RefreshByWho**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/refreshedbywho) возвращает имя пользователя, который последний раз обновлял отчет. Приведенный ниже пример демонстрирует эту функцию, и образец файла можно загрузить по следующей ссылке.
 
 [SourcePivotTable.xlsx](77496335.xlsx)
 
-**Образец кода**
+**Пример кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-GetPivotTableRefreshDate-1.cs" >}}

@@ -1,26 +1,31 @@
-﻿---
-title: Çalışma Kitabı ve Çalışma Sayfası Baskı Önizleme
+---
+title: Çalışma Kitabı ve Çalışma Sayfası Baskı Önizlemesi
 type: docs
 weight: 130
 url: /tr/java/workbook-and-worksheet-print-preview/
 ---
+
 ## **Kullanım Senaryosu**
 
-Milyonlarca sayfa içeren Excel dosyalarının PDF veya görsellere dönüştürülmesi gereken durumlar olabilir. Bu tür dosyaların işlenmesi çok fazla zaman ve kaynak tüketecektir. Bu gibi durumlarda, Çalışma Kitabı ve Çalışma Sayfası Baskı Önizleme özelliği yararlı olabilir. Bu tür dosyaları dönüştürmeden önce, kullanıcı toplam sayfa sayısını kontrol edebilir ve ardından dosyanın dönüştürülüp dönüştürülmeyeceğine karar verebilir. Bu makale,[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview)ve[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview)toplam sayfa sayısını öğrenmek için sınıflar.
+Milyonlarca sayfalık Excel dosyalarının PDF veya görüntülere dönüştürülmesi gereken durumlar olabilir. Bu tür dosyaların işlenmesi çok zaman ve kaynak tüketebilir. Bu durumlarda, Çalışma Kitabı ve Çalışma Sayfası Baskı Önizleme özelliği faydalı olabilir. Bu tür dosyalar dönüştürülmeden önce, kullanıcı toplam sayfa sayısını kontrol edebilir ve dosyanın dönüştürülüp dönüştürülmeyeceğine karar verebilir. Bu makale, [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview) ve [**SheetPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview) sınıflarını kullanarak toplam sayfa sayısını bulmaya odaklanmaktadır.
 
-## **Çalışma Kitabı ve Çalışma Sayfası Baskı Önizleme**
+## **Çalışma Kitabı ve Çalışma Sayfası Baskı Önizlemesi**
 
-Aspose.Cells, baskı ön izleme özelliği sağlar. Bunun için API şunları sağlar:[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview)ve[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview)sınıflar. Tüm çalışma kitabının baskı ön izlemesini oluşturmak için,[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview)geçerek sınıf[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)ve[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)yapıcıya nesneler. bu[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview)sınıf bir sağlar[**Değerlendirilen Sayfa Sayısı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookprintingpreview#EvaluatedPageCount)oluşturulan önizlemedeki sayfa sayısını döndüren yöntem. Benzer[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview)sınıf,[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview)class, belirli bir çalışma sayfası için bir baskı ön izleme oluşturmak için kullanılır. Bir çalışma sayfasının baskı ön izlemesini oluşturmak için,[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview)geçerek sınıf[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)ve[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)yapıcıya nesneler. bu[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview)sınıf ayrıca bir[**Değerlendirilen Sayfa Sayısı**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetprintingpreview#EvaluatedPageCount)oluşturulan önizlemedeki sayfa sayısını döndüren yöntem.
+Aspose.Cells, baskı önizleme özelliği sağlar. Bunun için API, [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview) ve [**SheetPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview) sınıflarını sağlar. Tüm çalışma kitabının baskı önizlemesini oluşturmak için, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) ve [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) nesnelerini yapıcıya geçirerek [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview) sınıfının bir örneğini oluşturun. [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview) sınıfı, oluşturulan önizlemedeki sayfa sayısını döndüren bir [**EvaluatedPageCount**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookprintingpreview#EvaluatedPageCount) metodu sağlar. [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview) sınıfına benzer şekilde, [**SheetPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview) sınıfı belirli bir çalışma sayfası için bir baskı önizlemesi oluşturmak için kullanılır. Bir çalışma sayfasının baskı önizlemesini oluşturmak için, [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) ve [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) nesnelerini yapıcıya geçirerek [**SheetPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview) sınıfının bir örneğini oluşturun. [**SheetPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview) sınıfı ayrıca oluşturulan önizlemedeki sayfa sayısını döndüren bir [**EvaluatedPageCount**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetprintingpreview#EvaluatedPageCount) metodu sağlar.
 
-Aşağıdaki kod parçacığı, her ikisinin de kullanımını gösterir.[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview)ve[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview)sınıfları kullanarak[örnek excel dosyası](Book1.xlsx).
+Aşağıdaki kod parçası, [örnek excel dosyasını](Book1.xlsx) kullanarak hem [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview) hem de [**SheetPrintingPreview**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview) sınıflarının kullanımını göstermektedir.
 
-### **Basit kod**
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-PrintPreview-1.java" >}}
 
-Yukarıdaki kod yürütülerek oluşturulan çıktı aşağıdadır.
+Yukarıdaki kodun yürütülmesiyle oluşturulan çıktı aşağıdaki gibidir.
 
-### **Konsol Çıkışı**
+### **Konsol Çıktısı**
 
-Çalışma kitabı sayfa sayısı: 1</br>
-Çalışma sayfası sayfa sayısı: 1
+{{< highlight java >}}
+
+Workbook page count: 1</br>
+Worksheet page count: 1
+
+{{< /highlight >}}

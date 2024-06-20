@@ -1,20 +1,21 @@
-﻿---
-title: パブリック API Aspose.Cells 8.0.1 の変更点
+---
+title: Aspose.Cells 8.0.1での公開API変更
 type: docs
 weight: 30
 url: /ja/java/public-api-changes-in-aspose-cells-8-0-1/
 ---
+
 {{% alert color="primary" %}} 
 
-これらのページには、Aspose.Cells 8.0.1 で導入された public API の変更がリストされています。これには、新しいパブリック メソッドと廃止されたパブリック メソッドだけでなく、既存のコードに影響を与える可能性のある Aspose.Cells の舞台裏での動作の変更の説明も含まれています。回帰と見なされ、既存の動作を変更する可能性のある導入された動作は特に重要であり、ここに文書化されています。
+Aspose.Cells 8.0.1で導入された公開APIの変更をリストアップしています。新しいメソッドや廃止された公開メソッドだけでなく、Aspose.Cellsの背後にある動作に変更がある場合についても説明しており、既存のコードに影響を与える可能性がある場合に特に重要です。
 
 {{% /alert %}} 
-## **Cells クラスに追加された MemorySetting プロパティ**
-Cells クラスは、セル データのメモリ使用量を最適化するために使用できる setMemorySetting および getMemorySetting メソッドを公開し、全体的なメモリ コストを削減します。次の例は、最適化モードで大きなデータをワークシートに書き込む方法を示しています。
+## **CellsクラスにMemorySettingプロパティを追加しました**
+Cellsクラスは、セルデータのメモリ使用量を最適化するためにsetMemorySettingおよびgetMemorySettingメソッドを公開し、全体的なメモリコストを削減することができます。次の例は、最適化モードで大量のデータをワークシートに書き込む方法を示しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -38,10 +39,10 @@ cells.setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 
 {{% alert color="primary" %}} 
 
- Workbook によって自動的に作成された既定のシートでは、メモリ設定は機能しません。既存のシートのメモリ設定を変更するには、データ操作を実行する前にメモリ設定を手動で適用してください。
+メモリ設定は、ワークブックによって自動的に作成されるデフォルトのシートには適用されません。既存のシートのメモリ設定を変更するには、データ操作を行う前にメモリ設定を手動で適用してください。 
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-の詳細記事をご確認ください[大規模なデータ セットを操作する際のメモリの最適化](/cells/ja/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
+詳細な記事は、[大規模なデータセットを操作する際のメモリの最適化](/cells/ja/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)をご覧ください。
 
 {{% /alert %}}

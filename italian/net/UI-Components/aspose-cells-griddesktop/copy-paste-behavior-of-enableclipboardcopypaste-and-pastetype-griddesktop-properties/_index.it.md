@@ -1,23 +1,26 @@
 ---
-title: Comportamento di copia e incolla delle proprietà EnableClipboardCopyPaste e PasteType GridDesktop
+title: Comportamento di copia incolla di EnableClipboardCopyPaste e delle proprietà PasteType GridDesktop
 type: docs
 weight: 80
-url: /it/net/copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties/
+url: /it/net/aspose-cells-griddesktop/copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties/
+keywords: copia, incolla, GridPasteType
+description: Questo articolo descrive come utilizzare il GridPasteType per effettuare operazioni di copia e incolla in GridDesktop.
 ---
-##  **Possibili scenari di utilizzo**
-GridDesktop fornisce diversi tipi di opzioni di tipo copia e incolla con la proprietà Aspose.Cells.GridDesktop.GridDesktop.PasteType. Queste opzioni vengono specificate con l'enumerazione Aspose.Cells.GridDesktop.Data.GridPasteType. Alcuni di questi sono i seguenti
+
+## **Possibili Scenari di Utilizzo**
+GridDesktop fornisce differenti opzioni di tipo di copia e incolla con la proprietà PasteType di Aspose.Cells.GridDesktop.GridDesktop. Queste opzioni sono specificate con l'enumerazione Aspose.Cells.GridDesktop.Data.GridPasteType. Alcune di queste sono le seguenti
 
 - GridPasteType.All
 
-Copia e incolla tutto, dalle celle di origine alle celle di destinazione.
+Copia e incolla tutto dalle celle di origine alle celle di destinazione.
 
 - GridPasteType.Formulas
 
-Copia e incolla le formule dalle celle di origine alle celle di destinazione.
+Copia e incolla formule dalle celle di origine alle celle di destinazione.
 
 - GridPasteType.Comments
 
-Copia e incolla i commenti dalle celle di origine alle celle di destinazione.
+Copia e incolla commenti dalle celle di origine alle celle di destinazione.
 
 - GridPasteType.RowHeights
 
@@ -25,22 +28,22 @@ Copia e incolla l'altezza delle righe dalle celle di origine alle celle di desti
 
 - GridPasteType.ColumnWidths
 
-Copia e incolla la larghezza delle colonne dalle celle di origine alle celle di destinazione.
+Copia e incolla le larghezze delle colonne dalle celle di origine alle celle di destinazione.
 
-eccetera.
-##  **Imposta la proprietà EnableClipboardCopyPaste su True per abilitare la proprietà PasteType**
-La proprietà Aspose.Cells.GridDesktop.GridDesktop.PasteType funziona solo se imposti la proprietà Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste su true come mostrato in questo screenshot.
+ecc.
+## **Imposta la proprietà EnableClipboardCopyPaste su True per abilitare la proprietà PasteType.**
+La proprietà Aspose.Cells.GridDesktop.GridDesktop.PasteType funziona solo se si imposta la proprietà Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste su true come mostrato in questa schermata.
 
-![cose da fare:immagine_alt_testo](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
-##  **Comportamento delle proprietà EnableClipboardCopyPaste e PasteType**
-Dato che EnableClipboardCopyPaste è false e PasteType è All, lo screenshot seguente mostra che quando la cella B3 viene copiata e incollata nella cella C5.
+![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
+## **Comportamento delle proprietà EnableClipboardCopyPaste e PasteType**
+Dato che EnableClipboardCopyPaste è false e PasteType è All, la seguente schermata mostra che quando la cella B3 viene copiata e incollata nella cella C5.
 
-![cose da fare:immagine_alt_testo](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
+![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
 
-Dato che EnableClipboardCopyPaste è true e PasteType è All, dopo aver copiato un'immagine da Windows. lo screenshot seguente mostra che quando la cella B3 viene copiata e incollata nella cella C5, copia anche l'immagine nella cella C5.
+Dato che EnableClipboardCopyPaste è true e PasteType è All, dopo aver copiato un'immagine da Windows, la seguente schermata mostra che quando la cella B3 viene copiata e incollata nella cella C5, copia anche l'immagine nella cella C5.
 
-![todo: copia l'immagine](copyimage.png)
+![todo:copiare l'immagine](copiaimmagine.png)
 
-![cose da fare: dopo aver copiato, incolla](aftercopy.png)
+![todo:dopo aver copiato fare incolla](dopocopia.png)
 
 

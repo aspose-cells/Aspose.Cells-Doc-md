@@ -4,6 +4,6 @@ linktitle: ワークブック
 type: docs
 weight: 60
 url: /ja/net/managing-workbooks-and-worksheets/
-description: Aspose.Cells for .NET API を使用してワークブックを管理する方法を学習します。
-keywords: How to Manage Workbook in C#, Manage Workbook and worksheets using C#, Operate workbook and worksheets in C#. 
+description: Aspose.Cells for .NETのAPIを介してワークブックを管理する方法を学ぶ。
+keywords: C#でワークブックの管理方法、C#を使用したワークブックおよびワークシートの管理、C#でワークブックおよびワークシートを操作する方法。 
 ---

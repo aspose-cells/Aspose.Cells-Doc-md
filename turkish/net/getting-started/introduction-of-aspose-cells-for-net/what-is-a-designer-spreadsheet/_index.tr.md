@@ -1,40 +1,41 @@
-﻿---
-title: Tasarımcı Elektronik Tablosu nedir?
+---
+title: Tasarımcı Elektronik Tablo Nedir
 type: docs
 weight: 50
 url: /tr/net/what-is-a-designer-spreadsheet/
 ---
+
 {{% alert color="primary" %}}
 
-Gelişimi Hızlandırmak İster misiniz? Esnek API yardımıyla sıfırdan Excel dosyaları oluşturmak için Aspose.Cells'i kullanabilirsiniz. Aspose.Cells'in en yaygın kullanımlarından biri, mevcut bir veritabanından, bir kullanıcıdan veya diğer kaynaklardan gelebilecek verilerle Excel dosyaları oluşturmak ve doldurmaktır. dinamik olarak. Excel dosyalarına veri eklemenin yanı sıra biçimlendirme (bak ve hisset) uygulamak için de yazmanız gerekir.
+Geliştirmeyi Hızlandırmak İster Misiniz? Esnek API'si ile Aspose.Cells'i kullanarak Excel dosyalarını sıfırdan oluşturabilirsiniz. Aspose.Cells'in en yaygın kullanım alanlarından biri, var olan bir veritabanından, bir kullanıcıdan veya başka kaynaklardan gelen verilerle Excel dosyaları oluşturmak ve doldurmaktır, dinamik olarak. Veri eklemeye ek olarak Excel dosyalarına biçimlendirme (görünüm ve his) uygulamanız da gerekecektir.
 
-Biçimlendirme zaman alır. Gelişimi ne hızlandırabilir?
+Biçimlendirme zaman alır. Gelişimi hızlandıracak şey nedir?
 
 {{% /alert %}}
 
-## **Çözüm - Tasarımcı Elektronik Tabloları**
+## **Çözüm - Tasarımcı Elektronik Tablolar**
 
-Geliştirmenizi hızlandırmak için Aspose.Cells, heyecan verici özellik tasarımcısı e-tablosunu sunar.
+Gelişiminizi hızlandırmak için Aspose.Cells heyecan verici bir özellik olan tasarımcı elektronik tablo sunar.
 
-### **Tasarımcı Elektronik Tablosu nedir?**
+### **Tasarım Elektronik Tablo Nedir?**
 
-Bir tasarımcı elektronik tablosu, Microsoft Excel kullanılarak oluşturulan ve tüm biçimlendirmenin zaten uygulanmış olduğu ve içeriğine tasarım zamanında karar verilebilen bir Excel dosyasıdır. Daha çok, aşağıda gösterildiği gibi herhangi bir veri içermeyen, yalnızca biçimlendirme içeren bir şablon dosyası gibidir:
+Bir tasarımcı elektronik tablo, tüm biçimleri zaten uygulanmış ve içeriklerin tasarım zamanında belirlenebileceği bir Microsoft Excel'de oluşturulan Excel dosyasıdır. Bu daha çok, yalnızca biçimlendirmeyi içeren veri olmayan bir şablon dosyasına benziyor, aşağıda gösterildiği gibi:
 
-|**Tasarımcı e-tablosu**|
-|:- |
-|![yapılacaklar:resim_alternatif_metin](what-is-a-designer-spreadsheet_1.png)|
- Örnekler için, Örnek projeyi adresinden indirebilirsiniz.[Burada](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
+|**Tasarım elektronik tablo**|
+| :- |
+|![todo:image_alt_text](what-is-a-designer-spreadsheet_1.png)|
+Örnekler için [buradan](https://github.com/aspose-cells/Aspose.Cells-for-.NET) Örnek projesini indirebilirsiniz.
 
-### **Bu nasıl kullanılır?**
+### **Nasıl Kullanılır?**
 
- Bir tasarımcı elektronik tablosu oluşturduktan sonra, tasarımcı elektronik tablosunu okumak ve çalışma zamanında belirtilen konumlarına (önceden tanımlanmış biçim ayarlarına göre) veri eklemek için Aspose.Cells'i kullanın. Örneğin, yukarıdaki ekran görüntüsünde, eklemeye tasarım zamanında karar verdiğimizi görebilirsiniz.**Ürün adı**, **Kategori adı**, **Birim Başına Miktar** ve**Stoktaki Birimler**sütunlar. Henüz verileri yok: bu çalışma zamanında eklenir. Yukarıdaki şekilde çok basit bir elektronik tablo gösterilmektedir, ancak tasarımcı elektronik tabloları, karmaşık elektronik tablolarda bile size zaman kazandırır.
+Bir tasarımcı elektronik tablo oluşturduktan sonra, Aspose.Cells'i kullanarak tasarımcı elektronik tabloyu okuyun ve belirlenmiş pozisyonlarına (önceden tanımlanmış format ayarlarına göre) çalışma zamanında veri ekleyin. Örneğin yukarıdaki ekran görüntüsünde, tasarım zamanında **Ürün Adı**, **Kategori Adı**, **Birim Başına Miktar** ve **Stok Miktarı** sütunlarını eklemeye karar verdik. Henüz herhangi bir veri içermiyorlar: Bunlar çalışma zamanında eklenecek. Yukarıdaki şekil çok basit bir elektronik tabloyu gösteriyor ama tasarımcı elektronik tablolar karmaşık elektronik tablolarda bile zaman kazandırır.
 
-### **Akıllı İşaretleyiciler**
+### **Akıllı İşaretçiler**
 
- Ek olarak, Aspose.Cells, eklemenizi sağlar[akıllı işaretleyiciler](/cells/tr/net/smart-markers/) tasarımcı e-tablosuna. Akıllı işaretleyiciler, çalışma zamanında aşağıdakiler kullanılarak işlenir:[**Çalışma KitabıTasarımcısı**](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) sınıfın İşlem yöntemi. Bu, daha az kod yazmanıza ve yine de harika sonuçlar almanıza yardımcı olabilir.
+Ek olarak, Aspose.Cells tasarım elektronik tablolarına [akıllı işaretler](/cells/tr/net/smart-markers/) eklemenize olanak tanır. Akıllı işaretler, [**WorkbookDesigner**](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) sınıfının Process yöntemini kullanarak çalışma zamanında işlenir. Bu, daha az kod yazmanıza yardımcı olabilir ve harika sonuçlar elde etmenize olanak tanır.
 
 {{% alert color="primary" %}}
 
-[Akıllı işaretleyiciler hakkında daha fazla bilgi edinin](/cells/tr/net/smart-markers/).
+[Akıllı işaretler hakkında daha fazla bilgi edinin](/cells/tr/net/smart-markers/).
 
 {{% /alert %}}

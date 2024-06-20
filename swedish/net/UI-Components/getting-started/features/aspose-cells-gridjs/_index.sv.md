@@ -1,46 +1,49 @@
-﻿---
-title: Aspose.Cells.GridJs
+---
+title: Aspose.Cells.GridJs funktioner
 type: docs
 weight: 40
-url: /sv/net/aspose-cells-gridjs-features/
+url: /sv/net/aspose-cells-gridjs/features/
+keywords: GridJs, funktioner, funktion
+description: Den här artikeln introducerar funktioner för GridJs.
 ---
+
 ## **Aspose.Cells.GridJs**
-### **Import/exportfunktioner**
+### **Import-/Exportfunktioner**
 - Importera från och exportera till Excel-kalkylblad.
 
 ### **Arbetsbladsfunktioner**
-- Lägg till/ta bort/byt namn på kalkylblad.
+- Lägg till/ta bort/byt namn på arbetsblad.
 
 
 ### **Rad- och kolumnfunktioner**
-- Lägg till, infoga och ta bort rader och kolumner i ett kalkylblad.
+- Lägg till, infoga och ta bort rader och kolumner i ett arbetsblad.
 - Dölj och visa rader och kolumner.
-- Frys och lås upp rader och kolumner.
- 
-### **Cell Funktioner**
-- Redigera flera celler.
-- Stöder formatinställningar för nummer, datum, valuta och tid.
+- Frysa och avfrysa rader och kolumner.
+
+### **Cellfunktioner**
+- Redigera flera celler .
+- Stöder inställningar för nummer, datum, valuta och tidsformat.
 - Stöder anpassade formatinställningar.
-- Stöder bakgrundsfärginställningar.
-- Stöder autofyll.
+- Stöder bakgrundsfärgsinställningar.
+- Stöder automatifyllning.
 - Kontrollera textjustering.
-- Kontrollera textinbrytning.
-- Hantera gränser.
-- Kontrollera teckensnittsinställningarna.
-- Slå samman eller dela celler
+- Kontrollera textomslutning.
+- Hantera kanter.
+- Kontrollera typsnittsinställningar.
+- Sammanslå eller dela celler
 ### **Formateringsfunktioner**
-- Skapa webbaserade interaktiva rutnätsapplikationer som ser ut och känns som kalkylbladsapplikationer på skrivbordet.
+- Skapa webbaserade interaktiva rutapplikationer som ser ut och känns som skrivbordskalkylblad.
 - Stöder cellformatering.
 
 ### **Verktygsfunktioner**
-- Stöder validering av rullgardinslistor.
-- Lägg till/ta bort/sök i kommentarer.
-- Rotera/Ändra storlek/Flytta bilder/former.
+- Stöder rullgardinslistevalidering.
+- Lägg till/ta bort/sök kommentarer.
+- Rotera/Ändra storlek/Flytta bilder/figurer.
 
 - Tangentbordsnavigering.
 ### **Avancerade funktioner**
-- Stöder skapa och beräkna formler på webbsidor.
-- Tillhandahåller 80+ fördefinierade funktioner relaterade till matematik, text och data, datum och tid och logik.
+- Stöder skapande och beräkning av formler på webbsidor.
+- Erbjuder 80+ fördefinierade funktioner relaterade till matematik, text och data, datum och tid samt logik.
 
 ### **Webbläsare som stöds**
 - Microsoft Internet Explorer
@@ -48,7 +51,7 @@ url: /sv/net/aspose-cells-gridjs-features/
 - Opera
 - Google Chrome
 - Microsoft Edge
-### **Microsoft Excel stöds**
+### **Microsoft Excel som stöds**
 - Microsoft Excel 97
 - Microsoft Excel 2000
 - Microsoft Excel XP
@@ -57,6 +60,6 @@ url: /sv/net/aspose-cells-gridjs-features/
 - Microsoft Excel 2010
 - Microsoft Excel 2013
 ### **Plattformar som stöds**
-- ASP.NET kärna
+- ASP.NET core
 
 

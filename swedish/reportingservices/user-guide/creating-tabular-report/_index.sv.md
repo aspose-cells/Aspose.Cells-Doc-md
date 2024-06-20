@@ -1,49 +1,50 @@
-﻿---
+---
 title: Skapa tabellrapport
 type: docs
 weight: 70
 url: /sv/reportingservices/creating-tabular-report/
 ---
+
 {{% alert color="primary" %}} 
 
-En tabell i en Aspose.Cells rapportmall består av en sidhuvud, tabelldatarader, radgrupper och sidfötter. En exempeltabell visas nedan.
+En tabell i en Aspose.Cells Rapportmall består av en sidhuvud, tabellraddata, radgrupper och sidfötter. Ett exempel på en tabell visas nedan.
 
-**En exempeltabell** 
+**Ett exempel på en tabell** 
 
 ![todo:image_alt_text](creating-tabular-report_1.png)
 #### **Tabellhuvud**
-Tabellrubrik innehåller normalt rubriken för varje tabellkolumn och andra textobjekt som statisk text, rapportparametrar, globala rapportvariabler och så vidare. Tabellhuvudet är valfritt. Om du använder en rubrik ska rubriktaggen placeras till vänster om den första kolumnen med tabelldata för att indikera att raden är en rubrik.
-#### **Tabelldatarad**
-En tabelldatarad är en rad med celler som innehåller smarta markörer. En tabell kan bara innehålla en enda datarad.
+Tabellhuvudet innehåller vanligtvis titeln för varje tabellkolumn och andra textobjekt som statisk text, rapportparametrar, globala rapportvariabler och så vidare. Tabellhuvudet är valfritt. Om du använder en rubrik ska rubriktaggen placeras till vänster om första kolumnen av tabelldata för att ange att raden är en rubrik.
+#### **Tabellraddata**
+En tabellraddata är en rad med celler som innehåller smarta markörer. En tabell kan bara innehålla en enda rad för data.
 #### **Radgrupp**
-Radgruppen följer tätt efter tabelldataraden och består av två delar: grupptagg och gruppdatarad.
+Radgruppen följer tätt efter tabellraddata och består av två delar: grupptagg och gruppdata. rad. 
 
-Grupptaggen ska placeras till vänster om den första tabelldatakolumnen för att indikera att raden är radgruppens datarad. Formatet för grupptaggen är ##group{GroupColumn}, till exempel ##group{SalesOrderNumber} där SalesOrderNumber är ett av datamängden kolumnnamn. En tabell kan bara innehålla en radgrupp, men en radgrupp kan innehålla mer än en gruppdatarad. Grupptaggen får endast placeras i den första dataraden, som visas i exemplet ovan.
+Grupptaggen ska placeras till vänster om den första tabelldatakolumnen för att ange att raden är radgruppens datarad. Formatet för grupptaggen är ##group{GroupColumn}, till exempel ##group{SalesOrderNumber} där SalesOrderNumber är ett av datasetets kolumnnamn. En tabell kan bara innehålla en radgrupp, men en radgrupp kan innehålla mer än en grupprad. Grupptaggen kan endast placeras i den första data raden, som visas i exemplet ovan.
 
-Grupptaggen tas bort från utdatafilen Microsoft Excel vid renderingstidpunkten. Radgrupper är valfria.
+Grupptaggen tas bort från den resulterande Microsoft Excel-filen vid renderingtiden. Radgrupper är valfria.
 #### **Sidfötter**
- Sidfötter kommer efter radgruppen och innehåller tre delar: sidfotstagg, sidfotsdatarad och sidfotstextområde.
+Sidfötter kommer efter radgruppen och inkluderar tre delar: fotslag, fotodata rad och fototextområde. 
 
-Footer-taggen ska placeras till vänster om den första kolumnen i tabelldatakolumnen som anger att raden är tabellsidfoten. En tabell kan innehålla mer än en sidfotsdatarad och varje sidfotsrad måste markeras med en sidfotstagg.
+Fotslaget ska placeras till vänster om den första kolumnen i tabelldatakolumnen som anger att raden är tabellfoten. En tabell kan innehålla mer än en fotodatarad och varje fotrad måste markeras med ett fotslag. 
 
-Sidfotstextområdet kan innehålla statisk text, rapportparametrar och globala rapportvariabler, som visas i exemplet ovan.
+Fototextområdet kan innehålla statisk text, rapportparametrar och globala rapportvariabler, som visas i exemplet ovan.
 
-Footer-taggen tas bort från utdata Microsoft Excel-fil vid rendering. Sidfötter är valfria.
+Fotslaget tas bort från utmatnings Microsoft Excel-filen vid renderingtiden. Sidfötter är valfria.
 
-Utdata från exempelmallen visas nedan.
+Utmatningen av exempelmallen visas nedan.
 
-**Exempel mall** 
+**Exempel på mall** 
 
 ![todo:image_alt_text](creating-tabular-report_2.png)
 
 {{% /alert %}} 
-###### **Det här avsnittet innehåller följande ämnen:**
-- [Förbereder för att skapa tabellrapport](/cells/sv/reportingservices/preparing-for-creating-table-report/)
-- [Lägger till basinformation för tabell](/cells/sv/reportingservices/adding-base-information-for-table/)
-- [Lägga till formler för Reporting Services](/cells/sv/reportingservices/adding-reporting-services-formulas/)
-- [Lägger till tabellgrupp](/cells/sv/reportingservices/adding-table-group/)
-- [Lägga till tabellsidfot](/cells/sv/reportingservices/adding-table-footers/)
-- [Lägger till rapportparametrar till rapport](/cells/sv/reportingservices/adding-report-parameters-to-report/)
-- [Lägga till rapporteringstjänster globala variabler till rapport](/cells/sv/reportingservices/adding-reporting-services-global-variables-to-report/)
-- [Ställa in rapportattribut](/cells/sv/reportingservices/setting-report-attributes/)
-- [Ändra rapportattribut](/cells/sv/reportingservices/modifying-report-attributes/)
+###### **Denna avsnitt innehåller följande ämnen:** 
+- [Förberedelse för att skapa tabellrapport](/cells/sv/reportingservices/preparing-for-creating-table-report/)
+- [Lägga till grundinformation för tabell](/cells/sv/reportingservices/adding-base-information-for-table/)
+- [Lägga till formler för rapporttjänster](/cells/sv/reportingservices/adding-reporting-services-formulas/)
+- [Lägga till tabellgrupp](/cells/sv/reportingservices/adding-table-group/)
+- [Lägga till tabellfötter](/cells/sv/reportingservices/adding-table-footers/)
+- [Lägga till rapportparametrar till rapporten](/cells/sv/reportingservices/adding-report-parameters-to-report/)
+- [Lägga till globala variabler för rapporttjänster till rapporten](/cells/sv/reportingservices/adding-reporting-services-global-variables-to-report/)
+- [Inställning av rapportattribut](/cells/sv/reportingservices/setting-report-attributes/)
+- [Modifiera rapportattribut](/cells/sv/reportingservices/modifying-report-attributes/)

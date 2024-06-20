@@ -1,23 +1,24 @@
-﻿---
+---
 title: Zugriff erstellen und benannte Bereiche kopieren
 type: docs
 weight: 200
 url: /de/net/create-access-and-copy-named-ranges/
 ---
+
 ## **Einführung**
 
-Normalerweise beziehen sich Spalten- und Zeilenbeschriftungen auf einzelne Zellen. Es ist möglich, aussagekräftige Namen zu erstellen, um Zellen, Zellbereiche, Formeln oder konstante Werte darzustellen. Das Wort**Name** kann sich auf eine Zeichenfolge beziehen, die eine Zelle, einen Zellbereich, eine Formel oder einen konstanten Wert darstellt. Das Zuweisen eines Namens zu einem Bereich bedeutet, dass auf diesen Zellbereich mit seinem Namen verwiesen werden kann. Verwenden Sie leicht verständliche Namen, z. B. Produkte, um auf schwer verständliche Bereiche zu verweisen, z. B. Sales!C20:C30. Beschriftungen können in Formeln verwendet werden, die auf Daten auf demselben Arbeitsblatt verweisen; Wenn Sie einen Bereich auf einem anderen Arbeitsblatt darstellen möchten, können Sie einen Namen verwenden. *Benannte Bereiche gehören zu den leistungsstärksten Funktionen von Microsoft Excel, insbesondere wenn sie als Quellbereich für Listensteuerelemente, Pivot-Tabellen, Diagramme usw. verwendet werden.
+Normalerweise werden Spalten- und Zeilenbezeichnungen verwendet, um auf individuelle Zellen zu verweisen. Es ist möglich, aussagekräftige Namen zu erstellen, um Zellen, Zellenbereiche, Formeln oder Konstantenwerte zu repräsentieren. Das Wort **Name** kann sich auf eine Zeichenfolge beziehen, die eine Zelle, einen Zellenbereich, eine Formel oder einen Konstantenwert darstellt. Durch Zuweisen eines Namens an einen Bereich kann auf diesen Bereich von seinem Namen aus zugegriffen werden. Verwenden Sie leicht verständliche Namen, wie z.B. Produkte, um auf schwer verständliche Bereiche, wie z.B. Umsatz!C20:C30, zu verweisen. Bezeichnungen können in Formeln verwendet werden, die sich auf Daten im gleichen Arbeitsblatt beziehen; wenn Sie einen Bereich auf einem anderen Arbeitsblatt darstellen möchten, können Sie einen Namen verwenden. *Benannte Bereiche gehören zu den leistungsfähigsten Funktionen von Microsoft Excel, insbesondere wenn sie als Quellbereich für Listensteuerungen, Pivot-Tabellen, Diagramme usw. verwendet werden.
 
-## **Arbeiten mit benannten Bereichen mit Microsoft Excel**
+## **Arbeiten mit benannten Bereich unter Verwendung von Microsoft Excel**
 
 ### **Benannte Bereiche erstellen**
 
- Die folgenden Schritte beschreiben, wie Sie eine Zelle oder einen Zellbereich mit benennen**MS-Excel** . Diese Methode gilt für**Microsoft Office Excel 2003**, **MicrosoftExcel 97**, **2000** und**2002**.
+Die folgenden Schritte beschreiben, wie man eine Zelle oder einen Zellenbereich mit **MS Excel** benennt. Diese Methode gilt für **Microsoft Office Excel 2003**, **Microsoft Excel 97**, **2000** und **2002**.
 
-1. Wählen Sie die Zelle oder den Zellbereich aus, den Sie benennen möchten.
-1.  Drücke den**Namensfeld** am linken Ende der Bearbeitungsleiste.
+1. Wählen Sie die Zelle oder den Zellenbereich aus, den Sie benennen möchten.
+1. Klicken Sie auf das **Namensfeld** am linken Ende der Formelzeile.
 1. Geben Sie den Namen für die Zellen ein.
-1. Drücken Sie Enter.
+1. Drücken Sie die EINGABETASTE.
 
 {{% alert color="primary" %}}
 
@@ -25,73 +26,73 @@ Sie können eine Zelle nicht benennen, während Sie den Inhalt der Zelle ändern
 
 {{% /alert %}}
 
-## **Arbeiten mit benanntem Bereich unter Verwendung von Aspose.Cells**
+## **Arbeiten mit benannten Bereich unter Verwendung von Aspose.Cells**
 
 Hier verwenden wir die Aspose.Cells API, um die Aufgabe zu erledigen.
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung.
+Aspose.Cells bietet eine Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), die eine Microsoft Excel-Datei repräsentiert. Die Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) enthält eine [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-Sammlung, die den Zugriff auf jede Arbeitsmappe in einer Excel-Datei ermöglicht. Eine Arbeitsmappe wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) repräsentiert. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) bietet eine [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung.
 
 ### **Benannten Bereich erstellen**
 
- Es ist möglich, einen benannten Bereich zu erstellen, indem Sie die überladene aufrufen[**Bereich erstellen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung. Eine typische Version von[**Bereich erstellen**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) Die Methode nimmt die folgenden Parameter an:
+Es ist möglich, einen benannten Bereich zu erstellen, indem die überladene [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index)-Methode der [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung aufgerufen wird. Eine typische Version der [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3)-Methode nimmt die folgenden Parameter:
 
-- Name der oberen linken Zelle, der Name der oberen linken Zelle im Bereich.
-- Name der unteren rechten Zelle, der Name der unteren rechten Zelle im Bereich.
+- Name der oberen linken Zelle, Name der oberen linken Zelle im Bereich.
+- Name der unteren rechten Zelle, Name der unteren rechten Zelle im Bereich.
 
- Wenn die[**Bereich erstellen**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) -Methode aufgerufen wird, gibt sie den neu erstellten Bereich als Instanz von zurück[**Bereich**](https://reference.aspose.com/cells/net/aspose.cells/range) Klasse. Benutze das[**Bereich**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt, um den benannten Bereich zu konfigurieren. Legen Sie beispielsweise den Namen des Bereichs mithilfe von fest[**Name**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) Eigentum. Das folgende Beispiel zeigt, wie Sie einen benannten Zellbereich erstellen, der sich über B4:G14 erstreckt.
+Wenn die Methode [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) aufgerufen wird, wird der neu erstellte Bereich als Instanz der Klasse [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) zurückgegeben. Verwenden Sie dieses Objekt [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range), um den benannten Bereich zu konfigurieren. Setzen Sie beispielsweise den Namen des Bereichs mit der [**Name**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name)-Eigenschaft. Das folgende Beispiel zeigt, wie man einen benannten Bereich von Zellen erstellt, der sich über B4:G14 erstreckt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CreateNamedRangeofCells-1.cs" >}}
 
-### **Geben Sie Daten in Cells im benannten Bereich ein**
+### **Daten in die Zellen des benannten Bereichs eingeben**
 
-Sie können Daten nach dem Muster in die einzelnen Zellen eines Bereichs einfügen
+Sie können Daten in die einzelnen Zellen eines Bereichs einfügen, indem Sie dem Muster folgen
 
-- **C#**: Bereich[Zeile,Spalte]
-- **VB**: Bereich (Zeile, Spalte)
+- **C#**: Range[row,column]
+- **VB**: Range(row,column)
 
-Angenommen, Sie haben einen benannten Zellbereich, der sich über A1:C4 erstreckt. Die Matrix ergibt 4 * 3 = 12 Zellen. Die einzelnen Range-Zellen sind der Reihe nach angeordnet: Range[0,0], Range[0,1], Range[0,2], Range[1,0], Range[1,1], Range[1,2], Bereich[2,0], Bereich[2,1], Bereich[2,2], Bereich[3,0], Bereich[3,1], Bereich[3,2].
+Angenommen, Sie haben einen benannten Bereich von Zellen, der sich über A1:C4 erstreckt. Die Matrix enthält 4 * 3 = 12 Zellen. Die einzelnen Bereichszellen sind sequentiell angeordnet: Bereich[0,0], Bereich[0,1], Bereich[0,2], Bereich[1,0], Bereich[1,1], Bereich[1,2], Bereich[2,0], Bereich[2,1], Bereich[2,2], Bereich[3,0], Bereich[3,1], Bereich[3,2].
 
 Verwenden Sie die folgenden Eigenschaften, um die Zellen im Bereich zu identifizieren:
 
 - FirstRow gibt den Index der ersten Zeile im benannten Bereich zurück.
 - FirstColumn gibt den Index der ersten Spalte im benannten Bereich zurück.
-- RowCount gibt die Gesamtzahl der Zeilen im benannten Bereich zurück.
-- ColumnCount gibt die Gesamtzahl der Spalten im benannten Bereich zurück.
+- RowCount gibt die Gesamtanzahl der Zeilen im benannten Bereich zurück.
+- ColumnCount gibt die Gesamtanzahl der Spalten im benannten Bereich zurück.
 
 Das folgende Beispiel zeigt, wie einige Werte in die Zellen eines bestimmten Bereichs eingegeben werden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-InputDataInCellsInRange-1.cs" >}}
 
-### **Identifizieren Sie Cells im benannten Bereich**
+### **Zellen im benannten Bereich identifizieren**
 
-Sie können Daten nach folgendem Muster in die einzelnen Zellen eines Bereichs einfügen:
+Sie können Daten in die einzelnen Zellen eines Bereichs einfügen, indem Sie dem Muster folgen:
 
-- **C#**: Bereich[Zeile,Spalte]
-- **VB**: Bereich (Zeile, Spalte)
+- **C#**: Range[row,column]
+- **VB**: Range(row,column)
 
-Wenn Sie einen benannten Bereich haben, der A1:C4 umfasst. Die Matrix ergibt 4 * 3 = 12 Zellen. Die einzelnen Range-Zellen sind der Reihe nach angeordnet: Range[0,0], Range[0,1], Range[0,2], Range[1,0] ,Range[1,1], Range[1,2], Bereich[2,0], Bereich[2,1], Bereich[2,2], Bereich[3,0], Bereich[3,1], Bereich[3,2].
+Wenn Sie einen benannten Bereich haben, der A1:C4 umfasst. Die Matrix umfasst 4 * 3 = 12 Zellen. Die einzelnen Bereichszellen sind sequentiell angeordnet: Bereich[0,0], Bereich[0,1], Bereich[0,2], Bereich[1,0] ,Bereich[1,1], Bereich[1,2], Bereich[2,0], Bereich[2,1], Bereich[2,2], Bereich[3,0], Bereich[3,1], Bereich[3,2].
 
 Verwenden Sie die folgenden Eigenschaften, um die Zellen im Bereich zu identifizieren:
 
 - FirstRow gibt den Index der ersten Zeile im benannten Bereich zurück.
 - FirstColumn gibt den Index der ersten Spalte im benannten Bereich zurück.
-- RowCount gibt die Gesamtzahl der Zeilen im benannten Bereich zurück.
-- ColumnCount gibt die Gesamtzahl der Spalten im benannten Bereich zurück.
+- RowCount gibt die Gesamtanzahl der Zeilen im benannten Bereich zurück.
+- ColumnCount gibt die Gesamtanzahl der Spalten im benannten Bereich zurück.
 
 Das folgende Beispiel zeigt, wie einige Werte in die Zellen eines bestimmten Bereichs eingegeben werden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-IdentifyCellsinNamedRange-1.cs" >}}
 
-### **Greifen Sie auf benannte Bereiche zu**
+### **Zugriff auf benannte Bereiche**
 
-#### **Greifen Sie auf einen bestimmten benannten Bereich zu**
+#### **Auf einen bestimmten benannten Bereich zugreifen**
 
- Ruf den ... an[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Sammlung[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) -Methode, um einen Bereich mit dem angegebenen Namen abzurufen. Ein typisches[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) -Methode nimmt den Namen des benannten Bereichs und gibt den angegebenen benannten Bereich als Instanz von zurück[**Bereich**](https://reference.aspose.com/cells/net/aspose.cells/range) Klasse. Das folgende Beispiel zeigt, wie auf einen angegebenen Bereich über seinen Namen zugegriffen wird.
+Rufen Sie die Methode [**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) der [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)-Sammlung auf, um einen Bereich nach dem angegebenen Namen zu erhalten. Eine typische [**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname)-Methode nimmt den Namen des benannten Bereichs entgegen und gibt den angegebenen benannten Bereich als Instanz der [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range)-Klasse zurück. Das folgende Beispiel zeigt, wie auf einen bestimmten Bereich nach seinem Namen zugegriffen wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessSpecificNamedRange-1.cs" >}}
 
-#### **Greifen Sie auf alle benannten Bereiche in einer Tabelle zu**
+#### **Zugriff auf alle benannten Bereiche in einer Arbeitsmappe**
 
- Ruf den ... an[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Sammlung[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) -Methode, um alle benannten Bereiche in einer Tabelle abzurufen. Das[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) -Methode gibt ein Array aller Namensbereiche in der zurück[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Sammlung.
+Rufen Sie die Methode [**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) der [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)-Sammlung auf, um alle benannten Bereiche in einer Arbeitsmappe zu erhalten. Die [**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges)-Methode gibt ein Array aller benannten Bereiche in der [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)-Sammlung zurück.
 
 Das folgende Beispiel zeigt, wie auf alle benannten Bereiche in einer Arbeitsmappe zugegriffen wird.
 
@@ -99,8 +100,8 @@ Das folgende Beispiel zeigt, wie auf alle benannten Bereiche in einer Arbeitsmap
 
 ### **Benannte Bereiche kopieren**
 
- Aspose.Cells bietet[**Range.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) Methode zum Kopieren eines Zellbereichs mit Formatierung in einen anderen Bereich.
+Aspose.Cells bietet die [**Range.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/copy/index)-Methode zum Kopieren eines Zellenbereichs mit Formatierung in einen anderen Bereich.
 
-Das folgende Beispiel zeigt, wie Sie einen Quellzellenbereich in einen anderen benannten Bereich kopieren.
+Das folgende Beispiel zeigt, wie ein Quellbereich von Zellen in einen anderen benannten Bereich kopiert wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}

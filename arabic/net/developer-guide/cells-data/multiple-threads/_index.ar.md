@@ -1,39 +1,40 @@
 ---
-title: قراءة Cell القيم في مواضيع متعددة في وقت واحد
-linktitle: خيوط متعددة
+title: قراءة قيم الخلية في خيوط متعددة بشكل متزامن
+linktitle: الخيوط المتعددة
 type: docs
 weight: 1800
 url: /ar/net/reading-cell-values-in-multiple-threads-simultaneously/
-description: تعرف على كيفية قراءة قيم Cell في مؤشرات الترابط المتعددة في وقت واحد من خلال Aspose.Cells for .NET API.
-keywords: Read Cell Values in Multiple Threads Simultaneously, Aspose.Cells C# Multiple Threads, Read data in Multiple Threads
+description: تعلم كيفية قراءة قيم الخلية في خيوط متعددة بشكل متزامن من خلال واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: قراءة قيم الخلية في خيوط متعددة بشكل متزامن، Aspose.Cells C# خيوط متعددة، قراءة البيانات في خيوط متعددة
 ---
+
 {{% alert color="primary" %}}
 
-تعد الحاجة إلى قراءة قيم الخلايا في سلاسل رسائل متعددة في وقت واحد مطلبًا شائعًا. يشرح هذا المقال كيفية استخدام Aspose.Cells لهذا الغرض.
+من الضروري قراءة قيم الخلية في خيوط متعددة بشكل متزامن ، وهو متطلب شائع. يشرح هذا المقال كيفية استخدام Aspose.Cells لهذا الغرض.
 
 {{% /alert %}}
 
- لقراءة قيم الخلايا في أكثر من مؤشر ترابط واحد في وقت واحد، قم بتعيين[**ورقة عمل.Cells.قراءة متعددة الخيوط**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading)إلى *صحيح**. إذا لم تقم بذلك، فقد تحصل على قيم الخلايا الخاطئة.
+لقراءة قيم الخلية في أكثر من خيط بشكل متزامن، ضبط [**Worksheet.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading) إلى **true**. إذا لم تفعل ذلك ، قد تحصل على قيم الخلية الخاطئة.
 
 الكود التالي:
 
-1. يقوم بإنشاء مصنف.
+1. ينشئ دفتر عمل.
 1. إضافة ورقة عمل.
-1. يملأ ورقة العمل بقيم السلسلة.
-1. ثم يقوم بعد ذلك بإنشاء خيطين يقرأان القيم من الخلايا العشوائية في نفس الوقت.
- إذا كانت القيم المقروءة صحيحة، فلن يحدث شيء. إذا كانت القيم المقروءة غير صحيحة، فسيتم عرض رسالة.
+1. ملء ورقة العمل بقيم السلسلة.
+1. ثم ينشئ خيطين يقرأان قيمًا بشكل متزامن من الخلايا العشوائية.
+   إذا كانت القيم المقروءة صحيحة، لا يحدث شيء. إذا كانت القيم المقروءة غير صحيحة، يتم عرض رسالة.
 
-إذا قمت بالتعليق على هذا السطر:
+إذا قمت بتعليق هذا السطر:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  testWorkbook.Worksheets[0].Cells.MultiThreadReading = true;
 
 {{< /highlight >}}
 
-ثم يتم عرض الرسالة التالية:
+سيتم عرض الرسالة التالية:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  if (s != "R" + row + "C" + col)
 
@@ -45,6 +46,6 @@ keywords: Read Cell Values in Multiple Threads Simultaneously, Aspose.Cells C# M
 
 {{< /highlight >}}
 
-وبخلاف ذلك، يعمل البرنامج دون ظهور أي رسالة مما يعني أن جميع القيم المقروءة من الخلايا صحيحة.
+وإلا، يعمل البرنامج بدون عرض أي رسالة مما يعني أن جميع القيم المقروءة من الخلايا صحيحة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCellValuesInMultipleThreadsSimultaneously-1.cs" >}}

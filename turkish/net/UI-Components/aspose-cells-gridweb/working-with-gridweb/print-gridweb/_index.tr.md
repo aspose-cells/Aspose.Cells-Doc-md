@@ -1,16 +1,19 @@
-﻿---
-title: GridWeb'i Yazdır
+---
+title: GridWeb Yazdır
 type: docs
 weight: 90
-url: /tr/net/print-gridweb/
+url: /tr/net/aspose-cells-gridweb/print-gridweb/
+keywords: GridWeb, yazdır
+description: Bu makale, GridWeb de nasıl yazdırılacağını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Geliştiricilerin sonucu Microsoft Excel elektronik tablo dosyası olarak kaydetmeden GridWeb içeriğini bir web sayfasından yazdırması gereken zamanlar vardır. Aspose.Cells.GridWeb kontrolü, istemci tarafı işlevi aracılığıyla bu özelliği destekler.
+Geliştiricilerin Microsoft Excel elektronik tablo dosyası olarak sonucu kaydetmeden web sayfasından GridWeb içeriğini yazdırması gereken zamanlar vardır. Aspose.Cells.GridWeb kontrolü, bu özelliği istemci tarafı işlevi aracılığıyla destekler.
 
 {{% /alert %}} 
-## **GridWeb'i Yazdırma**
-İçeriği yazdırmak için Aspose.Cells.GridWeb for .NET, aşağıda gösterildiği gibi bir JavaScript çağrısında kullanılabilen GridWeb.Print istemci tarafı işlevini kullanıma sunmuştur.
+## **GridWeb Yazdırma**
+İçeriği yazdırmak için, Aspose.Cells.GridWeb for .NET, JavaScript çağrısında kullanılabilecek GridWeb.Print istemci tarafı işlevini açığa çıkarmıştır.
 
 
 
@@ -18,7 +21,7 @@ Geliştiricilerin sonucu Microsoft Excel elektronik tablo dosyası olarak kaydet
 
 
 
-JavaScript işlevi devreye girdikten sonra, tercih edilen herhangi bir olayda tetiklenebilir. Lütfen bir düğme tıklama olayında yukarıda tanımlanan JavaScript işlevini kullanan aşağıdaki ASP.NET kod parçasını kontrol edin.
+JavaScript işlevi yerine getirildiğinde, isteğe bağlı herhangi bir etkinlikte tetiklenebilir. Lütfen aşağıda tanımlanan JavaScript işlevini bir düğmeye tıklandığında kullanan aşağıdaki ASP.NET kodunu kontrol edin.
 
 
 

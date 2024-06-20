@@ -1,18 +1,19 @@
-﻿---
-title: Länka Cells till XML Map Elements
+---
+title: Länka celler till XML kartelement
 type: docs
 weight: 50
 url: /sv/java/link-cells-to-xml-map-elements/
 ---
-## **Möjliga användningsscenarier**
 
-Du kan länka dina celler till XML Map-element med Aspose.Cells. Använd[**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) metod för detta ändamål.
+## **Möjliga användningsscenario**
 
-## **Länka Cells till XML Map Elements**
+Du kan länka dina celler till XML-kartelement med hjälp av Aspose.Cells. Använd gärna metoden [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) för detta ändamål.
 
- Följande exempelkod laddar[source excel-fil](5472518.xlsx) som innehåller XML Map och sedan länkar celler A1, B2, C3, D4, E5 och F6 till XML Map element FÄLT1, FÄLT2, FÄLT4, FÄLT5, FÄLT7 respektive FÄLT8 och sparar sedan arbetsboken i[output excel-fil](5472517.xlsx).
+## **Länka celler till XML-kartelement**
 
- Om du öppnar[output excel-fil](5472517.xlsx) och klicka på*Utvecklare > Källa*knappen, ser du att cellerna är länkade med XML Map-element och de kommer också att markeras av Microsoft Excel som visas i den här bilden.
+Följande exempelkod laddar den [källa Excel-fil](5472518.xlsx) som innehåller XML-karta och sedan länkar cellerna A1, B2, C3, D4, E5 och F6 till XML-kartelementen FIELD1, FIELD2, FIELD4, FIELD5, FIELD7 och FIELD8 respektive och sparar sedan arbetsboken i [utdata Excel-fil](5472517.xlsx).
+
+Om du öppnar den [utdata Excel-filen](5472517.xlsx) och klickar på knappen *Utvecklare > Källa*, kommer du att se att cellerna är länkade med XML-kartelement och de kommer också att markeras av Microsoft Excel, som visas i denna bild.
 
 ![todo:image_alt_text](link-cells-to-xml-map-elements_1.png)
 

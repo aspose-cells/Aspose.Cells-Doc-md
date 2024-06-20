@@ -1,30 +1,31 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.1.0
+---
+title: Cambios en la API pública en Aspose.Cells 8.1.0
 type: docs
 weight: 50
 url: /es/java/public-api-changes-in-aspose-cells-8-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.Cells API de la versión 8.0.2 a la 8.1.0, que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.0.2 hasta la 8.1.0, que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo nuevos y actualizados métodos públicos, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-## **Se agregó la propiedad HtmlSaveOptions.ExportHiddenWorksheet**
-La clase HtmlSaveOptions ha expuesto la propiedad ExportHiddenWorksheet que se puede usar para especificar si las hojas de trabajo ocultas se exportan al formato HTML. El valor por defecto es verdadero. mientras que si se establece en falso, el Aspose.Cells no exportará el contenido oculto de la hoja de trabajo.
+## **Propiedad HtmlSaveOptions.ExportHiddenWorksheet Agregada**
+La clase HtmlSaveOptions ha expuesto la propiedad ExportHiddenWorksheet la cual puede ser utilizada para especificar si las hojas de cálculo ocultas son exportadas al formato HTML. El valor predeterminado es true. mientras que si se establece en false, Aspose.Cells no exportará el contenido de la hoja de cálculo oculta.
 
 {{% alert color="primary" %}} 
 
- Consulte el artículo detallado sobre[Impedir la exportación de hojas de cálculo ocultas](/cells/es/java/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
+Por favor revise el artículo detallado sobre [Prevenir la Exportación de la Hoja de Cálculo Oculta](/cells/es/java/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
 
 {{% /alert %}}
-## **Se agregó la propiedad Cell.StringValueWithoutFormat**
- La propiedad StringValueWithoutFormat se ha agregado a la clase Cell para facilitar a los desarrolladores la recuperación del valor de la celda sin aplicar ningún formato.
+## **Propiedad Cell.StringValueWithoutFormat Agregada**
+Se ha agregado la propiedad StringValueWithoutFormat a la Clase Cell, para que los desarrolladores puedan recuperar el valor de la celda sin aplicar ningún formato. 
 
-El fragmento de código proporcionado a continuación demuestra el uso del método Cell.getStringValueWithoutFormat en comparación con el método cell.getDisplayStringValue al crear una hoja de cálculo desde cero y aplicar el formato de número a una de las celdas.
+El fragmento de código proporcionado a continuación demuestra el uso del método Cell.getStringValueWithoutFormat en comparación con cell.getDisplayStringValue creando una hoja de cálculo desde cero y aplicando el formato numérico a una de las celdas. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -82,9 +83,9 @@ System.out.println("Un-formatted String Value: " + unformatted);
 
 La salida del código anterior es la siguiente
 
-Valor de cadena con formato: 123,456
-Valor de cadena sin formato: 123456
+Valor de Cadena con Formato: 123,456
+Valor de Cadena sin Formato: 123456
 
 {{% /alert %}}
-## **Propiedades de bytes, caracteres, caracteres con espacios, líneas y párrafos obsoletos**
- Muchas propiedades de la clase BuiltInDocumentPropertyCollection se han marcado como obsoletas a partir de Aspose.Cells for .NET 8.1.0. Estas propiedades incluyen bytes, caracteres, caracteres con espacios, líneas y párrafos. La razón es que las propiedades antes mencionadas no sirven para conservar las hojas de cálculo de Excel porque Excel las omite. Donde estas propiedades se escribieron originalmente para documentos de Word y presentaciones PowerPoint.
+## **Propiedades Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs Obsoletas**
+Muchas propiedades de la clase BuiltInDocumentPropertyCollection han sido marcadas como obsoletas a partir de Aspose.Cells for .NET 8.1.0. Estas propiedades incluyen Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. La razón es que dichas propiedades no son útiles para la preservación de hojas de cálculo de Excel ya que Excel las omite. Estas propiedades fueron originalmente escritas para documentos de Word y presentaciones de PowerPoint. 

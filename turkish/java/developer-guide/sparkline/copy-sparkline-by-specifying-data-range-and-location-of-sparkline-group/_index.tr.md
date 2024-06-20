@@ -1,34 +1,35 @@
-﻿---
-title: Mini Grafik Grubunun Veri Aralığını ve Konumunu Belirterek Mini Tabloyu Kopyalayın
+---
+title: Belirli Veri Aralığını ve Sparkline Grubu Konumunu Belirterek Sparkline Kopyalama
 type: docs
 weight: 120
 url: /tr/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/
 ---
-MS Excel'de Sparkline Grubunun Veri Aralığını ve Konumunu Belirterek Mini Tabloyu Kopyalayın
 
-Microsoft Excel, Mini Grafik Grubunun Veri Aralığı ve Konumunu belirterek bir Mini Grafik kopyalamanıza olanak tanır. Sparkline'ınızı diğer hücrelere kopyalamak için bu adımları izleyin.
+MS Excel'de Sparkline Grubunun Veri Aralığını ve Konumunu Belirleyerek Sparkline Kopyalama
 
-- Sparkline'ınızı içeren hücreyi seçin.
--  Seçme**Verileri Düzenle** dan**küçük resim** içindeki bölüm**Tasarım** sekme
--  Seçmek**Grup Konumunu ve Verilerini Düzenle...**
-- Veri Aralığı ve Konumunu belirtin ve Tamam'a tıklayın.
+Microsoft Excel, Sparkline'ı kopyalamak için Veri Aralığını ve Sparkline Grubunun Konumunu belirleyerek izin verir. Sparkline'ınızı diğer hücrelere kopyalamak için şu adımları izleyin.
 
-## Örnek vermek
+- Sparkline'ı içeren hücreyi seçin.
+- **Tasarım** sekmesi içindeki **Sparkline** bölümünden **Düzenle Veri**'yi seçin.
+- **Grup Konumunu Düzenle & Veriyi Düzenle...**'yi seçin.
+- Veri Aralığını ve Konumu belirleyin ve Tamam'ı tıklayın.
 
- Aspose.Cells şunları sağlar:[**SparklineCollection.add(dataRange, satır, sütun)**](https://reference.aspose.com/cells/java/com.aspose.cells/SparklineCollection) Mini Grafik Grubunun Veri Aralığını ve Konumunu belirtme yöntemi.
+## Örnek
+
+Aspose.Cells, Sparkline Grubunun Veri Aralığını ve Konumunu belirlemek için [**SparklineCollection.add(dataRange, row, column)**](https://reference.aspose.com/cells/java/com.aspose.cells/SparklineCollection) yöntemini sağlar.
 
 ### Kaynak ve çıktı dosyalarının ekran görüntüleri
 
-Aşağıdaki ekran görüntüsü, kodun içinde kullanılan kaynak Excel dosyasını göstermektedir. Kırmızıyla vurgulanan alan "**Grup Konumunu ve Verilerini Düzenle...**Mini grafik grubunun veri aralığını ve konumunu belirtmek için " seçeneği. P4 hücresi, Aspose.Cells kullanılarak sarı renkle doldurulmuş diğer dört hücreye kopyalanacak mini grafiği gösterir.
+Aşağıdaki ekran görüntüsü, kod içinde kullanılan kaynak Excel dosyasını göstermektedir. Kırmızı vurgulanmış alan, 'Grup Konumunu Düzenle & Veri...' seçeneğini gösterir ve kıvılcım çizgisi grubunun veri aralığını ve konumunu belirtmek içindir. P4 hücresi, Aspose.Cells kullanarak sarı renkli dört hücreye kopyalanan kıvılcım çizgisini gösterir.
 
-![yapılacaklar:resim_alternatif_metin](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_1.png)
+![todo:image_alt_text](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_1.png)
 
-Aşağıdaki ekran görüntüsü, örnek kod tarafından oluşturulan çıktı Excel dosyasını gösterir. Gördüğünüz gibi, P4 hücresindeki mini grafik, her biri farklı veri aralığına sahip P sütunundaki sonraki dört hücreye kopyalanmıştır.
+Aşağıdaki ekran görüntüsü, örnek kod tarafından oluşturulan çıktı Excel dosyasını göstermektedir. Gördüğünüz gibi, P4 hücresindeki kıvılcım, sırasıyla farklı veri aralıklarına sahip P sütunundaki diğer dört hücreye kopyalanmıştır.
 
-![yapılacaklar:resim_alternatif_metin](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_2.png)
+![todo:image_alt_text](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_2.png)
 
-### Mini grafik grubunun veri aralığını ve konumunu belirterek mini grafiği kopyalamak için Java kodu
+Kıvılcım grubu veri aralığını ve konumunu belirterek kıvılcım kopyalama için Java kodu
 
-Aşağıdaki örnek kod, yukarıdaki ekran görüntüsünde gösterildiği gibi kaynak Excel dosyasını yükler, ardından ilk mini grafik grubuna erişir ve mini grafik grubu içindeki veri aralıklarını ve konumları ekler. Son olarak, yukarıdaki ekran görüntüsünde de gösterilen çıktı Excel dosyasını diske yazar.
+Aşağıdaki örnek kod, yukarıdaki ekran görüntüsünde gösterildiği gibi kaynak Excel dosyasını yükler, ardından ilk kıvılcım grubuna erişir ve kıvılcım grubu içindeki veri aralıklarını ve konumlarını ekler. Son olarak, aynı şekilde ekran görüntüsünde gösterildiği gibi çıktı Excel dosyasını diske yazar.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}

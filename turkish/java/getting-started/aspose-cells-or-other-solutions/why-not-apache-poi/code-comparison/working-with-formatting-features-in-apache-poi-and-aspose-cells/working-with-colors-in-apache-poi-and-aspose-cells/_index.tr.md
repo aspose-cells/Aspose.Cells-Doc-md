@@ -1,17 +1,18 @@
-﻿---
-title: Apache POI ve Aspose.Cells'de Renklerle Çalışma
+---
+title: Apache POI ve Aspose.Cells ile Renklerle Çalışma
 type: docs
 weight: 20
 url: /tr/java/working-with-colors-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Renklerle Çalışmak**
-Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook), bu bir Microsoft Excel dosyasını temsil eder. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)sınıf. Worksheet sınıfı bir Cellscollection sağlar. Cells koleksiyonundaki her öğe, bir nesneyi temsil eder.[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)sınıf.
 
-Aspose.Cells, hücre biçimlendirmesini ayarlamak için kullanılan Cell sınıfında setStyle yöntemini sağlar. Ayrıca, Style sınıfının Style nesnesi yazı tipi ayarlarını yapılandırmak için kullanılabilir.
+## **Aspose.Cells - Renklerle Çalışma**
+Aspose.Cells, Microsoft Excel dosyasını temsil eden [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) adlı bir sınıf sağlar. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası, [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet) sınıfı tarafından temsil edilir. Worksheet sınıfı, bir Cells koleksiyonunu sağlar. Cells koleksiyonundaki her öğe, [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell) sınıfının bir nesnesini temsil eder.
+
+Aspose.Cells, Cell sınıfındaki setStyle metodunu sağlar, bu metot hücrenin biçimlendirmesini ayarlamak için kullanılır. Ayrıca, Style sınıfının Style nesnesi yazı tipi ayarlarını yapılandırmak için kullanılabilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Accessing cell from the worksheet
 
@@ -60,11 +61,11 @@ cell.setStyle(style);
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - Renklerle Çalışma**
-CellStyle sınıfı, arka plan ve dolgu deseni ayarlarını yapmak için kullanılabilir.
+CellStyle sınıfı arka plan ve doldurma deseni ayarlamak için kullanılabilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Aqua background
 
@@ -97,11 +98,11 @@ cell.setCellStyle(style);
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/biçimlendirme/renkler)
+## **Örnek Kod İndir**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/colors)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Renkler ve Arka Plan Desenleri](http://docs.aspose.com:8082/docs/display/cellsjava/Colors+and+Background+Patterns).
+Daha fazla bilgi için [Renkler ve Arka Plan Desenleri](http://docs.aspose.com:8082/docs/display/cellsjava/Colors+and+Background+Patterns) ziyaret edin.
 
 {{% /alert %}}

@@ -1,16 +1,17 @@
-﻿---
-title: Excel إلى HTML - استخدم خيار العرض التقديمي المفضل لتخطيط أفضل
+---
+title: Excel to HTML  استخدام خيار PresentationPreference لتحسين التخطيط
 type: docs
 weight: 220
 url: /ar/net/excel-to-html-use-presentationpreference-option-for-better-layout/
 ---
+
 {{% alert color="primary" %}} 
 
-يوفر Aspose.Cells خاصية HtmlSaveOptions.PresentationPreference مفيدة للمطورين الذين يحتاجون إلى تقديم تخطيط أفضل عند حفظ ملف Excel Microsoft بتنسيق HTML أو MHT. القيمة الافتراضية للخاصية خاطئة. نوصي بتعيين هذه الخاصية على "true" للحصول على عرض تقديمي أكثر جاذبية لتقارير Excel.
+ توفر Aspose.Cells خاصية HtmlSaveOptions.PresentationPreference المفيدة للمطورين الذين يحتاجون إلى عرض تخطيط أفضل عند حفظ ملف Microsoft Excel إلى تنسيق HTML أو MHT. القيمة الافتراضية للخاصية هي false. نوصي بتعيين هذه الخاصية إلى true للحصول على عرض مقبول أكثر للتقارير من Excel.
 
 {{% /alert %}} 
 
-الرجاء الاطلاع على نموذج التعليمات البرمجية أدناه الذي يوضح كيفية عرض ملف HTML من تقرير Excel مع تشغيل تفضيل العرض التقديمي.
+يرجى الرجوع إلى الشيفرة النموذجية أدناه التي توضح كيفية عرض ملف HTML من تقرير Excel بتفضيل العرض.
 
 
 

@@ -1,30 +1,31 @@
-﻿---
-title: Kontrollera lösenord för att ändra med Aspose.Cells
+---
+title: Kontrollera lösenordet för att ändra med Aspose.Cells
 type: docs
 weight: 190
 url: /sv/java/check-password-to-modify-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Du kan tilldela en**Lösenord för att öppna** och a**Lösenord att ändra** medan du skapar dina arbetsböcker i Microsoft Excel. Se den här skärmdumpen som visar gränssnittet Microsoft Excel tillhandahåller för att ange dessa lösenord.
+Du kan tilldela ett **lösenord för att öppna** och ett **lösenord för att ändra** när du skapar dina arbetsböcker i Microsoft Excel. Vänligen se denna skärmdump som visar gränssnittet Microsoft Excel tillhandahåller för att ange dessa lösenord.
 
 ![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
- Ibland måste du kontrollera om det angivna lösenordet matchar**Lösenord att ändra** programmatiskt. Aspose.Cells tillhandahåller[**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)) metod som du kan använda för att kontrollera om det angivna lösenordet som ska ändras är korrekt eller inte.
+Ibland behöver du kontrollera om det angivna lösenordet överensstämmer med **lösenordet för att ändra** programmatiskt. Aspose.Cells tillhandahåller [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String))-metoden som du kan använda för att kontrollera om det angivna lösenordet för ändring är korrekt eller inte.
 
 {{% /alert %}}
 
-## Java kod för att kontrollera Lösenord för att ändra med Aspose.Cells
+## Java-kod för att kontrollera lösenordet för att ändra med Aspose.Cells
 
- Följande exempelkoder laddar[käll Excel](5473057.xlsx) fil. Den har ett lösenord att öppna som*1234* och lösenord att ändra som*5678* . Koden kontrollerar först om*567* är korrekt lösenord att ändra och det returneras**falsk** och sedan kontrollerar den om*5678* är lösenordet att ändra och det returneras**Sann**.
+Följande exempelkoder laddar [käll-Excel-filen](5473057.xlsx). Den har ett lösenord för att öppna som *1234* och lösenord för att ändra som *5678*. Koden kontrollerar först om *567* är korrekt lösenord för att ändra och den returnerar **false** och sedan kontrollerar den om *5678* är lösenord för att ändra och den returnerar **true**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckPassword-CheckPassword.java" >}}
 
-## Konsolutgång genererad av koden Java
+## Konsolutmatning genererad av Java-koden
 
- Här är konsolutgången för ovanstående exempelkod efter att ha laddat[käll Excel](5473057.xlsx) fil.
+Här är konsolresultatet av den ovanstående exempelkoden efter att ha laddat [käll-Excel-filen](5473057.xlsx).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is 567 correct Password to modify: false
 

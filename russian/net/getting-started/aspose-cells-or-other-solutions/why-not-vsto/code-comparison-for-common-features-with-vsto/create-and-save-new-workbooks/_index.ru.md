@@ -1,18 +1,19 @@
-﻿---
-title: Создание и сохранение новых рабочих книг
+---
+title: Создание и сохранение новых книг Excel
 type: docs
 weight: 70
 url: /ru/net/create-and-save-new-workbooks/
 ---
-## **Советы по миграции:**
-\1. Создать объект рабочей книги
-\2. Получить текущий рабочий лист.
-\3. Вставьте текст в любую ячейку.
-\4. Сохраните рабочую книгу.
-### **ВСТО**
-Ниже приведен пример кода для VSTO.
 
-{{< highlight "csharp" >}}
+## **Советы по миграции:**
+\1. Создать объект книги Excel
+\2. Получить текущий лист.
+\3. Вставить текст в любую ячейку.
+\4. Сохранить книгу.
+### **VSTO**
+Ниже приведен пример кода для VSTO
+
+{{< highlight csharp >}}
 
   Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
 
@@ -26,9 +27,9 @@ url: /ru/net/create-and-save-new-workbooks/
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-Ниже приведен пример кода для Aspose.Cells.
+Ниже приведен пример кода для Aspose.Cells
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook newWorkbook = new Workbook();
 
@@ -41,5 +42,5 @@ url: /ru/net/create-and-save-new-workbooks/
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Скачать**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)
+## **Загрузка**
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)

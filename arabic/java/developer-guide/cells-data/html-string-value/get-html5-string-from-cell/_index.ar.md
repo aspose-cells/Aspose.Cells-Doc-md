@@ -1,24 +1,25 @@
-﻿---
-title: احصل على سلسلة HTML5 من Cell
+---
+title: الحصول على سلسلة HTML5 من الخلية
 type: docs
 weight: 90
 url: /ar/java/get-html5-string-from-cell/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-تقوم Aspose.Cells بارجاع سلسلة HTML للخلية باستخدام[**getHtmlString (قيمة منطقية html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)طريقة. إذا مررت**خاطئة**كمعامل ، سيعود لك HTML عادي ولكن إذا نجحت**حقيقي**كمعامل ، فإنه سيعيد سلسلة HTML5.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **احصل على سلسلة HTML5 من Cell**
+تقوم Aspose.Cells بإرجاع سلسلة HTML للخلية باستخدام الطريقة [**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString). إذا قمت بتمرير **false** كمعلمة، فسترجع لك نص HTML عادي ولكن إذا قمت بتمرير **true** كمعلمة، فسترجع سلسلة HTML5.
 
-نموذج التعليمات البرمجية التالي ينشئ كائن مصنف ويضيف بعض النص في الخلية A1 من ورقة العمل الأولى. ثم تحصل على السلسلة العادية HTML و HTML5 من الخلية A1 باستخدام امتداد[**getHtmlString (قيمة منطقية html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)الطريقة وطباعتها على وحدة التحكم.
+## **الحصول على سلسلة HTML5 من الخلية**
 
-## **عينة من الرموز**
+الكود العيني التالي يقوم بإنشاء كائن دفتر العمل وإضافة نص معين في الخلية A1 من ورقة العمل الأولى. ثم يحصل على سلسلة HTML عادية وسلسلة HTML5 من الخلية A1 باستخدام الطريقة [**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) ويقوم بطباعتها على وحدة التحكم.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-GetHTML5StringFromCell.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Normal:
 

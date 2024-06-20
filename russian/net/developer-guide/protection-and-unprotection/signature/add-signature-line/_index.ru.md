@@ -1,22 +1,22 @@
-﻿---
-title: Добавить строку подписи на лист
+---
+title: Добавить строку подписи на листе
 type: docs
 weight: 200
 url: /ru/net/add-signature-line/
+description: В этой статье описано, как добавить строку подписи в рабочем листе с использованием кодов C# с помощью Aspose.Cells для .Net.
+keywords: Добавить строку подписи на рабочем листе, Как добавить строку подписи на рабочем листе, Как добавить строку подписи на рабочем листе, Как добавить строку подписи на рабочем листе.
 ---
-## **Возможные сценарии использования**
 
-{{% alert color="primary" %}}
+## **Введение**
 
- Aspose.Cells обеспечивает[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) свойство, чтобы добавить строку подписи рабочего листа.
+Aspose.Cells предоставляет свойство [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) для добавления строки подписи листа.
 
-{{% /alert %}}
 
-## **Добавьте строку подписи на рабочий лист**
+## **Как добавить строку подписи на рабочем листе**
 
- В следующем примере кода показано, как использовать[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)свойство, чтобы добавить строку подписи рабочего листа. На снимке экрана показано влияние примера кода на образец файла Excel после выполнения.
+Приведенный ниже образец кода демонстрирует способ использования свойства [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) для добавления строки подписи на листе. Снимок экрана показывает эффект образца кода на образец файла Excel после выполнения.
 
-![дело:изображение_альтернативный_текст](add-signature-line.png)
+![todo:image_alt_text](add-signature-line.png)
 
 ## **Образец кода**
 

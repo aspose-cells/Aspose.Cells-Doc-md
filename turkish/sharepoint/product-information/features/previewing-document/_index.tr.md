@@ -1,25 +1,26 @@
-﻿---
+---
 title: Belge önizleme
 type: docs
 weight: 40
 url: /tr/sharepoint/previewing-document/
 ---
-Share Point için Aspose.Cells, belgeleri doğrudan SharePoint'ten önizlemeyi destekler. Aşağıdaki biçimler önizlemeyi destekler:
+
+Aspose.Cells for Share Point, SharePoint'ten doğrudan belge önizleme desteği sağlar. Aşağıdaki formatlar önizlemeyi destekler:
 
 - XLS – Microsoft Excel 97 - 2003
-- XLSX – Office Açık XML
-- XLSM, XLTX, XLTM – Office Açık XML
+- XLSX – Office Open XML
+- XLSM, XLTX, XLTM – Office Open XML
 - XML – Microsoft Excel SpreadsheetML
 
-**Önizlemek için bir belge seçme** 
+Önizlemek için bir belge seçme 
 
-![yapılacaklar:resim_alternatif_metin](previewing-document_1.png)
+![todo:image_alt_text](previewing-document_1.png)
 
 
 
-**Bir SharePoint kitaplığından belge önizlemesi** 
+Bir SharePoint kütüphanesinden belge önizleme 
 
-![yapılacaklar:resim_alternatif_metin](previewing-document_2.png)
+![todo:image_alt_text](previewing-document_2.png)
 
 
 

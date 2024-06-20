@@ -1,8 +1,9 @@
 ---
-title: GridWeb Satırları ve Sütunlarıyla Çalışmak
+title: GridWeb Satırlar ve Sütunlar ile Çalışmak
 type: docs
 weight: 40
 url: /tr/java/working-with-gridweb-rows-and-columns/
 ---
-##  **Bu bölümdeki makaleler**
+
+## **Bu bölümdeki makaleler**
 

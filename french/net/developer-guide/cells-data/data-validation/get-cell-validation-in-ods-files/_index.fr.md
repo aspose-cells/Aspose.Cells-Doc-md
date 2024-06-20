@@ -1,17 +1,18 @@
 ---
-title: Obtenez la validation Cell dans les fichiers ODS
+title: Obtenir la validation de la cellule dans les fichiers ODS
 type: docs
 weight: 180
 url: /fr/net/get-cell-validation-in-ods-files/
-description: Découvrez comment obtenir la validation Cell dans les fichiers ODS via Aspose.Cells for .NET API.
-keywords: Get Cell Validation, Obtain Cell Validation 
+description: Apprenez à obtenir la validation de la cellule dans les fichiers ODS via l API Aspose.Cells for .NET.
+keywords: Obtenir la validation de la cellule, obtenir la validation de la cellule 
 ---
-##  **Obtenez la validation Cell dans les fichiers ODS**
 
-Avec Aspose.Cells, vous pouvez obtenir la validation appliquée à une cellule dans les fichiers ODS. Pour cela, le API met à disposition le[**ObtenirValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) méthode du[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe.
+## **Obtenir la validation de la cellule dans les fichiers ODS**
 
-L'exemple de code suivant illustre l'utilisation de[**ObtenirValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) méthode en chargeant le[source ODS](101089354.ods)fichier et lecture de la validation de la cellule A9.
+Avec Aspose.Cells, vous pouvez obtenir la validation appliquée à une cellule dans les fichiers ODS. Pour cela, l'API fournit la méthode [**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) de la classe [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
-###  **Exemple de code**
+L'exemple de code suivant montre l'utilisation de la méthode [**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) en chargeant le fichier source ODS (101089354.ods) et en lisant la validation de la cellule A9.
+
+### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetCellValidationInODS-1.cs" >}}

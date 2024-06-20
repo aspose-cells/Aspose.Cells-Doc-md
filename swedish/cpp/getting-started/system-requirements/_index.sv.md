@@ -4,15 +4,16 @@ type: docs
 weight: 30
 url: /sv/cpp/system-requirements/
 ---
-Aspose.Cells for C++ är ett inbyggt C++-bibliotek som gör det möjligt för C++-utvecklare att skapa, manipulera och konvertera kalkylblad programmatiskt utan att behöva Office Automation eller Microsoft Excel-applikation.
 
-##  Operativsystem som stöds
+Aspose.Cells for C++ är en nativ C++-bibliotek som gör det möjligt för C++-utvecklare att skapa, manipulera och konvertera kalkylblad programmatiskt utan att kräva Office Automation eller Microsoft Excel-applikation.
 
-Aspose.Cells for C++ stöder följande 64-bitars eller 32-bitars operativsystem och plattformar:
+## Stödda operativsystem
+
+Aspose.Cells for C++ stöder följande 64-bitars- eller 32-bitars-operativsystem och plattformar:
 
 <table>  
 	<tr>
-			<td style="font-weight: bold; width:400px">Operativ system</td>
+			<td style="font-weight: bold; width:400px">Operativsystem</td>
 			<td style="font-weight: bold; width:400px">Versioner</td>
 		</tr>
   <tr>
@@ -22,21 +23,21 @@ Aspose.Cells for C++ stöder följande 64-bitars eller 32-bitars operativsystem 
   </tr>
   <tr>
 			<td>Linux</td>
-			<td><ul><li>Linux x86_64</li><!---li>Ubuntu 20.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>Linux för ARM (aarch64)</li></ul></td>
+			<td><ul><li>Linux x86_64</li><!---li>Ubuntu 20.04 eller senare</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>Linux för ARM (aarch64)</li></ul></td>
 		</tr>
   <tr>
-			<td>Mac OS</td>
+			<td>macOS</td>
 			<td><ul><li>macOS 11 eller senare (arm64, x86_64)</li></ul></td>
 		</tr>
 </table>
 
-##  Utvecklingsmiljö
+## Utvecklingsmiljö
 
-Du kan använda Aspose.Cells for C++ när du utvecklar applikationer för Windows, Linux eller macOS.
+Du kan använda Aspose.Cells for C++ vid utveckling av applikationer för Windows, Linux eller macOS.
 
-###  Windows
+### Windows
 
- Aspose.Cells for C++ kan användas för att utveckla applikationer i alla utvecklingsmiljöer som stöder[Microsoft Visual Studio v142 Platform Toolset](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), men de miljöer som anges i följande tabell stöds uttryckligen:
+Aspose.Cells for C++ kan användas för att utveckla applikationer i vilken utvecklingsmiljö som stöder [Microsoft Visual Studio v142 Platform Toolset](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), men de miljöer som listas i följande tabell stöds explicit:
 
 <table>  
 	<tr>
@@ -47,9 +48,9 @@ Du kan använda Aspose.Cells for C++ när du utvecklar applikationer för Window
 			</tr>
 </table>
 
-###  Linux
+### Linux
 
-Aspose.Cells for C++ kan användas för att utveckla applikationer i utvecklingsmiljön som stöder C++11 eller högre, men följande kompilator och verktyg stöds uttryckligen:
+Aspose.Cells for C++ kan användas för att utveckla applikationer i utvecklingsmiljön som stödjer C++11 eller högre, men följande kompilator och verktyg stöds explicit:
 
 <table>  
 	<tr>
@@ -60,15 +61,15 @@ Aspose.Cells for C++ kan användas för att utveckla applikationer i utvecklings
 			</tr>
 </table>
 
-###  Ytterligare beroende av Linux
- Aspose.Cells for C++ på Linux beror på<a href="https://www.freedesktop.org/wiki/Software/fontconfig/">fontconfig</a> binärer både dynamiskt bibliotek och verktyg. Installera det innan du använder:
+### Ytterligare beroende på Linux
+Aspose.Cells for C++ on Linux depends on <a href="https://www.freedesktop.org/wiki/Software/fontconfig/">fontconfig</a> binaries both dynamic library and tool. Please install it before using:
 
-1. Installera fontconfig på Ubuntu eller Debian<br>
+1. Installing fontconfig on Ubuntu or Debian<br>
 `sudo apt install libfontconfig fontconfig`
-1. Installerar fontconfig på Fedora eller CentOs<br>
+1. Installing fontconfig on Fedora or CentOs<br>
 `sudo yum install fontconfig`
 
-###  Mac OS
+### macOS 
 Aspose.Cells for C++ kan användas för att utveckla applikationer i följande utvecklingsmiljöer:
 * Xcode 12.5.1 eller senare
-* Clang och libc++ (som levereras som standard med Xcode)
+* Clang och libc++ (vilket levereras som standard med Xcode)

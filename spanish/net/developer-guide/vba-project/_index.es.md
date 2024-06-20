@@ -1,21 +1,22 @@
-﻿---
-title: Administre los códigos VBA del libro de Excel habilitado para macros.
-linktitle: Proyecto macro
+---
+title: Gestiona los códigos VBA de libros de Excel habilitados para macros.
+linktitle: Proyecto de Macros
 type: docs
 weight: 200
 url: /es/net/manage-vba-project/
-description: Agregue el módulo VBA y modifique VBA o macro con la biblioteca Aspose.Cells.
+description: Agregar un módulo de VBA y modificar el VBA o Macro con la librería Aspose.Cells.
 ---
-## **Agregue un módulo VBA en C#**
+
+## **Agregar un módulo de VBA en C#**
 {{% alert color="primary" %}}
 
- Aspose.Cells le permite agregar un nuevo módulo VBA y código de macro usando Aspose.Cells. Utilice el[**Libro de trabajo.VbaProject.Modules.Add()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/add/index) método para agregar el nuevo Módulo VBA dentro del libro de trabajo
+Aspose.Cells te permite agregar un nuevo módulo de VBA y código de macro utilizando Aspose.Cells. Por favor, utiliza el método [**Workbook.VbaProject.Modules.Add()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/add/index) para agregar el nuevo módulo de VBA dentro del libro de trabajo
 
 {{% /alert %}}
 
-El siguiente código de muestra crea un nuevo libro de trabajo y agrega un nuevo módulo VBA y código de macro y guarda la salida en el formato XLSM. Una vez, abrirá el archivo de salida XLSM en Microsoft Excel y haga clic en el**Desarrollador > Visual Basic** comandos de menú, verá un módulo llamado "TestModule" y dentro de él, verá el siguiente código de macro.
+El siguiente código de ejemplo crea un nuevo libro de trabajo y agrega un nuevo módulo de VBA y código de macro, y guarda la salida en formato XLSM. Una vez que abras el archivo de salida XLSM en Microsoft Excel y hagas clic en los comandos del menú **Desarrollador > Visual Basic**, verás un módulo llamado "TestModule" y dentro de él verás el siguiente código de macro.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -25,28 +26,28 @@ End Sub
 
 {{< /highlight >}}
 
-Aquí está el código de muestra para generar el archivo de salida XLSM con el módulo VBA y el código de macro.
+Aquí tienes el código de ejemplo para generar el archivo de salida XLSM con módulo de VBA y código de macro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
 
-## **Modificar VBA o Macro en C#**
+## **Modificar el VBA o Macro en C#**
 
 {{% alert color="primary" %}} 
 
-Puede modificar VBA o código de macro usando Aspose.Cells. Aspose.Cells ha agregado el siguiente espacio de nombres y clases para leer y modificar el proyecto de VBA en el archivo de Excel.
+Puedes modificar el código de VBA o macro utilizando Aspose.Cells. Aspose.Cells ha añadido el siguiente espacio de nombres y clases para leer y modificar el proyecto de VBA en el archivo de Excel.
 
 - Aspose.Cells.Vba
-- Proyecto Vba
+- VbaProject
 - VbaModuleCollection
-- Módulo Vba
+- VbaModule
 
-Este artículo le mostrará cómo cambiar el código VBA o macro dentro del archivo fuente de Excel usando Aspose.Cells.
+Este artículo te mostrará cómo cambiar el código de VBA o macro dentro del archivo de Excel fuente utilizando Aspose.Cells.
 
 {{% /alert %}} 
 
-El siguiente código de muestra carga el archivo fuente de Excel que tiene un código VBA o macro siguiente dentro de él.
+El siguiente código de ejemplo carga el archivo de Excel fuente que contiene el siguiente código de VBA o macro.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -56,9 +57,9 @@ End Sub
 
 {{< /highlight >}}
 
-Después de la ejecución del código de muestra Aspose.Cells, el código VBA o Macro se modificará de esta manera
+Después de la ejecución del código de ejemplo de Aspose.Cells, el código de VBA o macro será modificado de la siguiente manera
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -68,23 +69,23 @@ End Sub
 
 {{< /highlight >}}
 
- Puedes descargar el[archivo fuente de Excel](5112508.xlsm) y el[archivo de salida de Excel](5112511.xlsm) de los enlaces dados.
+Puedes descargar el [archivo de Excel fuente](5112508.xlsm) y el [archivo de Excel de salida](5112511.xlsm) desde los enlaces proporcionados.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ModifyingVBAOrMacroCode-ModifyingVBAOrMacroCode.cs" >}}
 
 ## **Temas avanzados**
-- [Agregue una referencia de biblioteca al proyecto VBA en el libro de trabajo](/cells/es/net/add-a-library-reference-to-vba-project-in-workbook/)
-- [Asignar macro al control de formulario](/cells/es/net/assign-macro-to-form-control/)
-- [Compruebe si la firma digital del código VBA es válida](/cells/es/net/check-if-digital-signature-of-vba-code-is-valid/)
-- [Compruebe si el código VBA está firmado](/cells/es/net/check-if-vba-code-is-signed/)
-- [Compruebe si el proyecto de VBA en un libro de trabajo está firmado](/cells/es/net/check-if-vba-project-in-a-workbook-is-signed/)
-- [Compruebe si el proyecto VBA está protegido y bloqueado para su visualización](/cells/es/net/check-if-vba-project-is-protected-and-locked-for-viewing/)
-- [Copie VBA Macro UserForm DesignerStorage de la plantilla al libro de trabajo de destino](/cells/es/net/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
-- [Firme digitalmente un proyecto de código VBA con certificado](/cells/es/net/digitally-sign-a-vba-code-project-with-certificate/)
-- [Exportar certificado VBA a archivo o transmisión](/cells/es/net/export-vba-certificate-to-file-or-stream/)
-- [Filtre el proyecto VBA mientras carga un libro de trabajo](/cells/es/net/filter-vba-project-while-loading-a-workbook/)
-- [Averigüe si el proyecto VBA está protegido](/cells/es/net/find-out-if-vba-project-is-protected/)
-- [Proteger con contraseña el proyecto VBA del libro de Excel](/cells/es/net/password-protect-the-vba-project-of-excel-workbook/)
+- [Agregar una referencia de librería al proyecto de VBA en el libro de trabajo](/cells/es/net/add-a-library-reference-to-vba-project-in-workbook/)
+- [Asignar Macro a un control de formulario](/cells/es/net/assign-macro-to-form-control/)
+- [Comprobar si la firma digital del código VBA es válida](/cells/es/net/check-if-digital-signature-of-vba-code-is-valid/)
+- [Comprobar si el código VBA está firmado](/cells/es/net/check-if-vba-code-is-signed/)
+- [Comprobar si el proyecto de VBA en un libro de Excel está firmado](/cells/es/net/check-if-vba-project-in-a-workbook-is-signed/)
+- [Comprobar si el proyecto de VBA está protegido y bloqueado para ver](/cells/es/net/check-if-vba-project-is-protected-and-locked-for-viewing/)
+- [Copiar el diseñador de almacenamiento de formularios de usuario Macro de VBA de la plantilla al libro de Excel de destino](/cells/es/net/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
+- [Firmar digitalmente un proyecto de código VBA con certificado](/cells/es/net/digitally-sign-a-vba-code-project-with-certificate/)
+- [Exportar certificado de VBA a archivo o flujo de datos](/cells/es/net/export-vba-certificate-to-file-or-stream/)
+- [Filtrar proyecto de VBA al cargar un libro de Excel](/cells/es/net/filter-vba-project-while-loading-a-workbook/)
+- [Descubrir si el proyecto de VBA está protegido](/cells/es/net/find-out-if-vba-project-is-protected/)
+- [Proteger con contraseña el proyecto de VBA del libro de Excel](/cells/es/net/password-protect-the-vba-project-of-excel-workbook/)
 

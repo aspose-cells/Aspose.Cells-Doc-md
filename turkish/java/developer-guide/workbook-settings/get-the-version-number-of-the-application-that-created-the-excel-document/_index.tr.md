@@ -1,20 +1,21 @@
-﻿---
-title: Excel Belgesini Oluşturan Uygulamanın Sürüm Numarasını Alın
+---
+title: Excel Belgesini Oluşturan Uygulamanın Sürüm Numarasını Almak
 type: docs
 weight: 150
 url: /tr/java/get-the-version-number-of-the-application-that-created-the-excel-document/
 ---
+
 {{% alert color="primary" %}}
 
- Genellikle Microsoft Excel belgesini oluşturan uygulamanın sürüm numarasını bilmeniz gerekir. Aspose.Cells sağlar[**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version) Bu amaçla mülk.
+Sıklıkla, bir Microsoft Excel belgesini oluşturan uygulamanın sürüm numarasını bilmeniz gerekir. Aspose.Cells bu amaca yönelik [**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version) özelliğini sağlar.
 
 {{% /alert %}}
 
- Aşağıdaki örnek kod,[**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)Emlak. Microsoft Excel 2003, 2007, 2010 ve 2013 ile oluşturulan Excel dosyalarını yükler ve bu Excel belgelerini oluşturan uygulamanın sürüm numarasını yazdırır.
+Aşağıdaki örnek kod, [**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version) özelliğinin nasıl kullanılacağını göstermektedir. Microsoft Excel 2003, 2007, 2010 ve 2013 ile oluşturulmuş Excel dosyalarını yükler ve bu Excel belgelerini oluşturan uygulamanın sürüm numarasını yazdırır.
 
-Referans olması için, örnek kodun oluşturduğu konsol çıktısı aşağıdadır.
+Referansınız için, aşağıda örnek kodun oluşturduğu konsol çıktısı bulunmaktadır.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Excel 2003 XLS Version: 726502
 

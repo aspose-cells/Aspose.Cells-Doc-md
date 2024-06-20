@@ -1,6 +1,6 @@
-﻿---
-title: Cultura
+---
+title: Globalización y localización
 type: docs
 weight: 235
-url: /es/net/language/
+url: /es/net/globalization-and-localization/
 ---

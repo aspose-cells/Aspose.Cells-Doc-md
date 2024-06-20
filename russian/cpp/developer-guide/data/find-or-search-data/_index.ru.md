@@ -1,35 +1,36 @@
 ---
-title: Найти или найти данные
+title: Нахождение или Поиск Данных
 type: docs
 weight: 80
 url: /ru/cpp/find-or-search-data/
 ---
-##  **Найти или найти данные**
-Вы можете использовать Aspose.Cells для поиска данных различными способами, используя следующий метод.
+
+## **Поиск или поиск данных**
+Вы можете использовать Aspose.Cells для нахождения или поиска данных различными способами с помощью следующего метода.
 
 - [GetEnumerator](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getenumerator/)
-- [Получить формулу](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getformula/)
+- [GetFormula](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getformula/)
 - [GetType](https://reference.aspose.com/cells/cpp/aspose.cells/cell/gettype/)
 - [GetStringValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstringvalue/)
 - [GetIntValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getintvalue/)
 - [GetBoolValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getboolvalue/)
 - [GetDateTimeValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getdatetimevalue/)
-- [Получить двойное значение](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetDoubleValue/)
+- [GetDoubleValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetDoubleValue/)
 - [GetFloatValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetFloatValue/)
 
- Вид[более](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) методы.
+Просмотреть [больше](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) методы.
 
- Следующий пример кода иллюстрирует использование вышеуказанных методов с использованием[образец файла Excel](21266434.xlsx) как показано на этом скриншоте.
+Приведенный ниже образец кода иллюстрирует использование вышеуказанных методов с использованием [образца файла Excel](21266434.xlsx), как показано на этом скриншоте.
 
-![задача: image_alt_text](find-or-search-data_1.png)
-##  **Образец кода**
+![todo:image_alt_text](find-or-search-data_1.png)
+## **Образец кода**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-FindOrSearchData-new.cpp" >}}
-##  **Консольный вывод**
- Это вывод консоли приведенного выше примера кода при выполнении с заданной[образец файла Excel](21266434.xlsx).
+## **Вывод в консоль**
+Это вывод консоли вышеуказанного образца кода при выполнении с данным [образцом файла Excel](21266434.xlsx).
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Name of the cell containing formula =SUM(A5:A10): C6
 Name of the cell containing the formula that contains CHA: C7

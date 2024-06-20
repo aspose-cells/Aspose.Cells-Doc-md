@@ -1,34 +1,35 @@
-﻿---
+---
 title: Aspose.Cells Java for Python
 type: docs
 weight: 60
 url: /de/java/aspose-cells-java-for-python/
 ---
+
 ## **JPype**
 
-JPype ist ein Versuch, Python-Programmen vollen Zugriff auf Java-Klassenbibliotheken zu ermöglichen. Dies wird nicht durch die Neuimplementierung von Python erreicht, wie es Jython/JPython getan hat, sondern durch eine Schnittstelle auf nativer Ebene in beiden virtuellen Maschinen.
+JPype ist ein Versuch, Python-Programmen den vollen Zugriff auf Java-Klassenbibliotheken zu ermöglichen. Dies wird nicht durch eine Neuimplementierung von Python, wie es Jython/JPython getan hat, sondern durch eine Schnittstelle auf nativer Ebene in beiden virtuellen Maschinen erreicht.
 
- Lesen Sie mehr unter[readthedocs.org](https://jpype.readthedocs.io/en/latest/userguide.html)
+Lesen Sie mehr unter [readthedocs.org](https://jpype.readthedocs.io/en/latest/userguide.html)
 
 ## **Aspose.Cells for Java**
 
-Aspose.Cells for Java ist eine erweiterte Klassenbibliothek for Java , mit der Sie eine große Auswahl an Dokumentenverarbeitungsaufgaben direkt in Ihren Java Anwendungen ausführen können.
+Aspose.Cells for Java ist eine hochentwickelte Klassenbibliothek für Java, mit der Sie eine Vielzahl von Dokumentenverarbeitungsaufgaben direkt in Ihren Java-Anwendungen durchführen können.
 
-Aspose.Cells for Java supports processing Excel (XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM), CSV (Comma Separated Value), TSV (Tab-separated values), TabDelimited (Tab delimited text file), Html, MHtml, ODS ( OpenDocument Spreadsheet), SpreadsheetML und Numbers (Dokument wird von Apples Anwendung „Numbers“ erstellt). Mit Aspose.Cells können Sie Dokumente generieren, ändern und konvertieren, ohne Microsoft Excel zu verwenden.
+Aspose.Cells for Java unterstützt die Verarbeitung von Excel (XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM), CSV (durch Kommas getrennte Werte), TSV (Tabstopp-getrennte Werte), TabDelimited (Tabstopp-getrennte Textdatei), Html, MHtml, ODS (OpenDocument-Spreadsheet), SpreadsheetML und Numbers (Dokument erstellt durch die Anwendung "Numbers" von Apple). Mit Aspose.Cells können Sie Dokumente generieren, modifizieren und konvertieren, ohne Microsoft Excel zu verwenden.
 
-## **Aspose.Cells Java für Jython**
+## **Aspose.Cells Java for Jython**
 
-Aspose.Cells Java for Python ist ein Projekt, das die Verwendungsbeispiele Aspose.Cells for Java API in Python demonstriert/bereitstellt.
+Aspose.Cells Java für Python ist ein Projekt, das die Aspose.Cells for Java-API-Verwendungsbeispiele in Python demonstriert/bereitstellt.
 
-## **System Anforderungen**
+## **Systemanforderungen**
 
-**Im Folgenden sind die Systemanforderungen für die Verwendung von Aspose.Cells Java for Python aufgeführt:**
+**Die folgenden sind die Systemanforderungen zur Verwendung von Aspose.Cells Java für Python:**
 
 - Jpype
-- Komponente Aspose.Cells heruntergeladen.
+- Aspose.Cells-Komponente heruntergeladen.
 
 ## **Unterstützte Plattformen**
 
-**Im Folgenden sind die unterstützten Plattformen aufgeführt:**
+**Folgende Plattformen werden unterstützt:**
 
-- Python 2.7.xx
+- Python 2.7.x.x

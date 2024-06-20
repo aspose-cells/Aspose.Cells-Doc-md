@@ -1,16 +1,17 @@
-﻿---
-title: Ta reda på om cellvärdet börjar med ett citattecken
+---
+title: Ta reda på om cellvärdet börjar med citattecken
 type: docs
 weight: 610
 url: /sv/java/find-if-the-cell-value-starts-with-single-quote-mark/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells tillhandahåller nu[Style.CitatPrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) egenskap för att hitta om cellvärdet börjar med ett enda citattecken. Innan den här egenskapen fanns det inget sätt att skilja mellan strängar som sample och 'sample etc.
+Aspose.Cells tillhandahåller nu [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) -egenskapen för att ta reda på om cellvärdet börjar med ett enda citattecken. Innan denna egenskap fanns det inget sätt att skilja mellan strängar som exempelvis sample och 'sample etc.
 
 {{% /alert %}} 
-## **Ta reda på om cellvärdet börjar med ett citattecken**
-Följande exempelkod förklarar att strängar som sample och 'sample inte kan särskiljas med[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) fast egendom. Därför måste vi använda[Style.CitatPrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)egendom för att särskilja dem.
+## **Ta reda på om cellvärdet börjar med citattecken**
+Följande exempelkod förklarar att strängarna som exempelvis sample och 'sample inte kan skiljas åt med hjälp av egenskapen [Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue). Därför måste vi använda egenskapen [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) för att skilja dem åt.
 
 
 

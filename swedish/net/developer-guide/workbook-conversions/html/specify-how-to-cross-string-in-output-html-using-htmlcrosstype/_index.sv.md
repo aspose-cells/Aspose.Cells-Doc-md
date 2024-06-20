@@ -1,24 +1,25 @@
-﻿---
-title: Ange hur strängen ska korsas i utdata HTML med HtmlCrossType
+---
+title: Ange hur texten ska korsas i utdata HTML med HtmlCrossType
 type: docs
 weight: 140
 url: /sv/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ---
-## **Möjliga användningsscenarier**
 
-När cellen innehåller text eller sträng men den är större än cellens bredd, svämmar strängen över om nästa cell i nästa kolumn är null eller tom. När du sparar din Excel-fil i HTML kan du kontrollera detta överflöde genom att ange korstypen med hjälp av[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) uppräkning. Den har följande värden
+## **Möjliga användningsscenario**
 
-- **HtmlCrossType.Default**: Visa som MS Excel, beror på nästa cell. Om nästa cell är null kommer strängen att korsas eller trunkeras.
+När cellen innehåller text eller sträng men är större än cellens bredd, så överlappar strängen om nästa cell i nästa kolumn är null eller tom. När du sparar din Excel-fil i HTML kan du styra detta överlapp genom att ange korsningstypen med användning av [**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). Den har följande värden
 
-- **HtmlCrossType.MSExport**: Visa strängen som MS Excel som exporterar HTML.
+- **HtmlCrossType.Default**: Visa som MS Excel, beror på nästa cell. Om nästa cell är null kommer strängen att överlappa eller den kommer att avkortas.
 
-- **HtmlCrossType.Cross**: Visa HTML korssträng, prestandan för att skapa stora HTML-filer kommer att vara mer än tio gånger snabbare än att ställa in värdet på Default eller FitToCell.
+- **HtmlCrossType.MSExport**: Visa strängen som MS Excel exporterar HTML.
 
-- **HtmlCrossType.FitToCell**: Visar endast strängen inom cellens bredd.
+- **HtmlCrossType.Cross**: Visa HTML-korssträngen, prestandan för att skapa stora HTML-filer kommer att vara mer än tio gånger snabbare än att ställa in värdet till Default eller FitToCell.
 
-## **Ange hur strängen ska korsas i utdata HTML med HtmlCrossType**
+- **HtmlCrossType.FitToCell**: Visa endast strängen inom cellens bredd.
 
- Följande exempelkod laddar[exempel på Excel-fil](51740732.xlsx) och sparar den till HTML-format genom att ange olika[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) . Vänligen ladda ner[mata ut HTMLs](51740734.zip) genereras med denna kod. Exemplet i Excel-filen innehåller bilden kantad med röd färg som visas i den här skärmdumpen som visar effekten av[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) värden på utgång HTML.
+## **Ange hur man korsar sträng i utmatnings-HTML med HtmlCrossType**
+
+Följande provkod laddar [prov Excel-filen](51740732.xlsx) och sparar den i HTML-format genom att ange olika [**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). Vänligen ladda ner de [utmatnings-HTML-filer](51740734.zip) som genereras med denna kod. Provexcelfilen innehåller bilden omgiven av röd färg som visas i den här skärmbilden som visar effekten av de [**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)-värden på utmatnings-HTML-filen.
 
 ![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 

@@ -1,16 +1,17 @@
-﻿---
-title: Использование CustomImplementationFactory для создания пользовательской реализации Memory Stream
+---
+title: Использование CustomImplementationFactory для создания пользовательской реализации потока памяти
 type: docs
 weight: 40
 url: /ru/net/using-customimplementationfactory-to-create-custom-implementation-of-memory-stream/
 ---
+
 ## **Возможные сценарии использования**
 
- Aspose.Cells предоставил имя API[**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory)который позволяет пользователю предоставить пользовательскую реализацию, такую как использование реализации Recyclable memory вместо MemoryStream по умолчанию.
+Aspose.Cells предоставляет API с названием [**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory), которое позволяет пользователю предоставить пользовательскую реализацию, такую как использование реализации памяти Recyclable вместо стандартного MemoryStream.
 
-## **Использование CustomImplementationFactory для создания пользовательской реализации Memory Stream**
+## **Использование CustomImplementationFactory для создания пользовательской реализации потока памяти**
 
-В следующем примере кода показано, как использовать[**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory)в вашей программе. Иногда в вашей системе достаточно памяти, но память не является непрерывной. Объекты Memory Stream используют непрерывную память, но вы можете реализовать реализацию Memory Stream таким образом, чтобы вместо этого он использовал несмежную память.
+Нижеприведенный образец кода иллюстрирует, как использовать [**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory) в вашей программе. Иногда в вашей системе достаточно памяти, но память не является непрерывной. Объекты Memory Stream используют непрерывную память, но вы можете предоставить реализацию Memory Stream таким образом, что он будет использовать непрерывную память.
 
 ## **Образец кода**
 

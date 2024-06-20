@@ -1,15 +1,16 @@
-﻿---
+---
 title: Преобразование в файлы MHTML в Ruby
 type: docs
 weight: 50
 url: /ru/java/converting-to-mhtml-files-in-ruby/
 ---
+
 ## **Aspose.Cells - Преобразование в файлы MHTML**
-Чтобы преобразовать рабочий лист в файл MHTML, используя Aspose.Cells for Java в Ruby, просто вызовите рабочий лист_к_Метод mhtml() модуля Converter.
+Чтобы преобразовать Лист в файл MHTML, используя Aspose.Cells for Java в Ruby, просто вызовите метод worksheet_to_mhtml() модуля Converter.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def worksheet_to_mhtml(workbook)
 
@@ -28,7 +29,7 @@ url: /ru/java/converting-to-mhtml-files-in-ruby/
 end
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Преобразование в файлы MHTML (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Преобразование в файлы MHTML (Aspose.Cells)** с любого из указанных ниже сайтов для социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

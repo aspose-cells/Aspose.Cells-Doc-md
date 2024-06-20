@@ -1,21 +1,25 @@
-﻿---
-title: Cell GridWebワークシートのデータをパーセンテージ形式で入力
+---
+title: GridWebワークシートのセルデータをパーセント形式で入力します
 type: docs
 weight: 80
-url: /ja/net/enter-cell-data-of-gridweb-worksheet-in-percentage-format/
+url: /ja/net/aspose-cells-gridweb/enter-cell-data-in-percentage-format/
+keywords: GridWeb,percentage,format
+description: この記事では、GridWebでパーセント形式でセルデータを入力する方法について紹介します。
 ---
-## **考えられる使用シナリオ**
-GridWeb では、ユーザーが 3% などのパーセンテージ形式でセル データを入力できるようになり、セル内のデータは自動的に 3.00% としてフォーマットされます。ただし、セル スタイルをパーセンテージ形式に設定する必要があります。これは GridTableItemStyle.NumberType が 9 または 10 のいずれかです。数値 9 は 3% を 3% として書式設定しますが、数値 10 は 3% を 3.00% として書式設定します。
+
+
+## **可能な使用シナリオ**
+GridWebは今、ユーザーが3%などのパーセント形式でセルデータを入力できるようにサポートしており、セルのデータは自動的に3.00%のようにフォーマットされます。しかし、セルスタイルをパーセンテージ形式に設定する必要があります。これはGridTableItemStyle.NumberTypeの9または10です。数字9は3%を3%としてフォーマットしますが、数字10は3%を3.00%としてフォーマットします。
 
 {{% alert color="primary" %}} 
 
-セル スタイルをパーセント形式に設定していない場合、入力データ 3% は 0.03 として表示されます。
+セルスタイルをパーセント形式に設定していない場合、入力データ3%は0.03として表示されます。
 
 {{% /alert %}} 
-## **Cell GridWebワークシートのデータをパーセンテージ形式で入力**
-次のサンプル コードは、セル A1 GridTableItemStyle.NumberType を 10 に設定するため、スクリーンショットに示すように、入力データ 3% は自動的に 3.00% としてフォーマットされます。
+## **GridWebワークシートのセルデータをパーセント形式で入力する**
+次のサンプルコードはセルA1のGridTableItemStyle.NumberTypeを10に設定しています。したがって、入力データ3%は自動的に3.00%としてフォーマットされます（スクリーンショットを参照）。
 
-![todo:画像_代替_文章](enter-cell-data-of-gridweb-worksheet-in-percentage-format_1.png)
+![todo:image_alt_text](enter-cell-data-of-gridweb-worksheet-in-percentage-format_1.png)
 ### **サンプルコード**
 
 

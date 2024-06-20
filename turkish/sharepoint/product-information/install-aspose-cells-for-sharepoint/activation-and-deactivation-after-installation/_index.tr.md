@@ -1,15 +1,16 @@
-﻿---
-title: Kurulumdan sonra Etkinleştirme ve Devre Dışı Bırakma
+---
+title: Kurulumdan sonra etkinleştirme ve devre dışı bırakma
 type: docs
 weight: 30
 url: /tr/sharepoint/activation-and-deactivation-after-installation/
 ---
+
 {{% alert color="primary" %}} 
 
-[Yükleme sırasında](/cells/tr/sharepoint/installing-aspose-cells-for-sharepoint/) , Aspose.Cells for SharePoint[Aktif](/cells/tr/sharepoint/deployment-and-activation/) seçilen tüm site koleksiyonları için. Kurulumdan sonra, kullanın**Site İşlemleri** Aspose.Cells for SharePoint'i etkinleştirmek ve devre dışı bırakmak için bir site koleksiyonunun kök web sitesindeki menü.
+Kurulum sırasında, seçilen tüm site koleksiyonları için Aspose.Cells for SharePoint [etkinleştirilir](/cells/tr/sharepoint/deployment-and-activation/). Kurulumdan sonra, bir site koleksiyonunun kök web sitesinde, Aspose.Cells for SharePoint'u etkinleştirmek ve devre dışı bırakmak için **Site Eylemleri** menüsünü kullanın.
 
 {{% /alert %}} 
-### **Bir site koleksiyonunda Aspose.Cells for SharePoint etkinleştiriliyor.**
-**Aspose.Cells etkinleştiriliyor** 
+### **Bir site koleksiyonunda Aspose.Cells for SharePoint'un etkinleştirilmesi.**
+**Aspose.Cells'in Aktive Edilmesi** 
 
-![yapılacaklar:resim_alternatif_metin](activation-and-deactivation-after-installation_1.png)
+![todo:image_alt_text](activation-and-deactivation-after-installation_1.png)

@@ -1,22 +1,23 @@
-﻿---
+---
 title: java.security.InvalidKeyException
 type: docs
 weight: 10
 url: /ru/java/java-security-invalidkeyexception/
 ---
-## **Резюме**
-По умолчанию AES поддерживает 128-битный ключ. Если вы планируете использовать 192-битный или 256-битный ключ, компилятор Java выдаст исключение «Недопустимый размер ключа». Это происходит не из-за какой-то ошибки Aspose.Cells API, а из-за ограниченной функции самого JDK/JRE. Файлы политик JDK/JRE по умолчанию повреждены из-за ограничений на импорт в некоторых странах. Пользователи должны получить файлы политики «Неограниченная сила» и установить их в свою JRE, чтобы использовать расширенные криптографические функции для шифрования/дешифрования.
+
+## **Сводка**
+По умолчанию AES поддерживает ключ длиной 128 бит, если вы планируете использовать ключ длиной 192 или 256 бит, компилятор java выдаст исключение Illegal key size. Это не из-за какой-либо ошибки Aspose.Cells API, а из-за ограниченной функциональности JDK/JRE. Файлы политики по умолчанию в JDK/JRE ограничены из-за импортных ограничений в некоторых странах. Пользователям необходимо получить файлы политики "Unlimited Strength" и установить их в их JRE для использования расширенной функциональности криптографии для шифрования/дешифрования.
 ## **Симптомы**
- Вы можете получить java.security.InvalidKeyException: недопустимый размер ключа или параметры по умолчанию или java.security.InvalidKeyException: недопустимый размер ключа при загрузке защищенной электронной таблицы.
+Вы можете получить исключение java.security.InvalidKeyException: Illegal key size или параметры по умолчанию, или java.security.InvalidKeyException: Illegal key size при загрузке защищенной электронной таблицы. 
 ## **Решение**
-Решение на самом деле очень простое, как описано ниже.
+Решение очень простое и описано ниже.
 
-1. Загрузите Java Расширение криптографии (JCE) Файлы политик юрисдикции неограниченной силы.
-1. Извлеките файлы JAR из загруженного архива и поместите их в каталог ${java.home}/jre/lib/security/.
+1. Скачайте расширение криптографии Java (JCE) Unlimited Strength Jurisdiction Policy Files.
+1. Распакуйте JAR файлы из скачанного архива и поместите их в каталог ${java.home}/jre/lib/security/.
 1. Перезапустите программу.
-## **Ссылки для скачивания**
-Используйте ссылку для скачивания, соответствующую вашей версии JDK/JRE.
+## **Ссылки для загрузки**
+Пожалуйста, используйте ссылку для загрузки, которая соответствует вашей версии JDK/JRE.
 
-- [Java Расширение криптографии (JCE) Файлы политик юрисдикции неограниченной силы 6](https://www.oracle.com/java/technologies/jce-6-download.html)
-- [Java Расширение криптографии (JCE) Файлы политик юрисдикции неограниченной силы 7](https://www.oracle.com/java/technologies/jce-7-download.html)
-- [Java Расширение криптографии (JCE) Файлы политик юрисдикции неограниченной силы 8](https://www.oracle.com/java/technologies/javase-jce8-downloads.html)
+- [Расширение криптографии Java (JCE) Unlimited Strength Jurisdiction Policy Files 6](https://www.oracle.com/java/technologies/jce-6-download.html)
+- [Расширение криптографии Java (JCE) Unlimited Strength Jurisdiction Policy Files 7](https://www.oracle.com/java/technologies/jce-7-download.html)
+- [Расширение криптографии Java (JCE) Unlimited Strength Jurisdiction Policy Files 8](https://www.oracle.com/java/technologies/javase-jce8-downloads.html)

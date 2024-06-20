@@ -1,18 +1,23 @@
-﻿---
-title: ワークシートがダイアログ シートかどうかを調べる
+---
+title: ワークシートがダイアログシートであるかを検索する
 type: docs
 weight: 70
 url: /ja/python-java/find-if-the-worksheet-is-dialog-sheet/
 ---
-## **考えられる使用シナリオ**
-ダイアログ シートは、ダイアログ ボックスを含む古い形式のシートです。このようなシートは、このスクリーンショットに示すように、2003 などの古いバージョンの Microsoft Excel で挿入できます。 Microsoft Excel 2016 など、新しいバージョンの VBA で挿入することもできます。
 
-![todo:画像_代替_文章](DialogSheet.png)
-## **ワークシートがダイアログ シートかどうかを調べる**
-Aspose.Cells for Python via Java は、ワークシートがダイアログ シートであるかどうかを確認する機能を提供します。このために、それは[Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)財産。もしも[Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)列挙値を返します[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG)の場合は、ダイアログ シートを扱っていることを意味します。
+## **可能な使用シナリオ**
+ダイアログシートは、ダイアログボックスを含むシートの古い形式です。このようなシートは、Microsoft Excel 2003などの古いバージョンによって挿入される場合があります（以下のスクリーンショットで示されています）。また、Microsoft Excel 2016などの最新バージョンではVBAによって挿入することもできます。
 
-次のコード スニペットは、ダイアログ シートを確認する方法を示しています。コードによって生成されたコンソール出力を参照用に以下に示します。
+![todo:image_alt_text](DialogSheet.png)
+## **ワークシートがダイアログシートであるかを検索する**
+Aspose.Cells for Python via Java では、ワークシートがダイアログ シートかどうかを確認する機能を提供します。これには、[Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type) プロパティがあります。[Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type) が列挙値 [SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG) を返す場合、ダイアログ シートが操作対象であることを意味します。
+
+次のコードスニペットには、ダイアログ シートの確認方法が示されています。コードによって生成されるコンソール出力例が以下に示されています。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-FindIfWorksheetIsDialogSheet.py" >}}
 ## **コンソール出力**
-ワークシートはダイアログシートです。
+{{< highlight java >}}
+
+Worksheet is a Dialog Sheet.
+
+{{< /highlight >}}

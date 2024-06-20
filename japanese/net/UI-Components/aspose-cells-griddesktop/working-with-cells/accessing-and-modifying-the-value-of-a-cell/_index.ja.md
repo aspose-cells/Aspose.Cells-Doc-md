@@ -1,25 +1,28 @@
-﻿---
-title: Cell の値へのアクセスと変更
+---
+title: セルの値を取得および変更する
 type: docs
 weight: 20
-url: /ja/net/accessing-and-modifying-the-value-of-a-cell/
+url: /ja/net/aspose-cells-griddesktop/accessing-and-modifying-the-value-of-a-cell/
+keywords: GridDesktop,cell,modify cell,get cell,modify cell value,get cell value
+description: この記事では、GridDesktopのワークシート内でセルの値を取得および変更する方法を紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-前のトピックでは、ワークシートのセルへのアクセスについて説明しました。このトピックでは、Aspose.Cells.GridDesktop の API を使用してセルの値にアクセスして変更する方法を開発者に示すために、そのトピックを単純に拡張します。
+前のトピックでワークシートのセルにアクセスする方法について説明しました。このトピックでは、それを拡張して、Aspose.Cells.GridDesktopのAPIを使用してセルの値をアクセスおよび変更する方法を開発者に示します。
 
 {{% /alert %}} 
-## **Aspose.Cells.GridDesktop を使用して Cell 値にアクセスして変更します**
-セルの値にアクセスして変更する前に、セルへのアクセス方法を知っておく必要があります。ワークシートのセルにアクセスするには、3 つの方法があります。これら 3 つのアプローチの詳細については、[ワークシートで Cells にアクセスします。](/cells/ja/net/accessing-cells-in-a-worksheet/)
+## **Aspose.Cells.GridDesktopを使用したセルの値へのアクセスと変更**
+セルの値にアクセスして変更する前に、ワークシートのセルにアクセスする方法を知っておく必要があります。ワークシートのセルにアクセスする方法については、３つのアプローチがあります。これらの３つのアプローチの詳細については、[ワークシートのセルにアクセスする](/cells/ja/net/accessing-cells-in-a-worksheet/)を参照してください。
 
-各セルには、 Value という名前のプロパティがあります。そのため、セルにアクセスすると、開発者は Value プロパティの内容にアクセスして変更し、セルの値にアクセスして変更することができます。
+それぞれのセルにはValueというプロパティがあります。ですので、一度セルにアクセスしたら、開発者はValueプロパティの内容にアクセスして変更し、セルの値をアクセスおよび変更できます。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-AccessAndModifyCells-UsingValue.cs" >}}
 
 
-**重要：**セルの Value プロパティを使用してその値を変更することは、単一または少数のセルの値を設定するための優れた方法です。多くのセルの値を設定する必要がある場合、このアプローチのパフォーマンスは良くありません。したがって、多くのセルの値を設定するには、使用する必要があります**SetCellValue**アプリケーションのパフォーマンスを向上させるためのセルのメソッド。を使用した上記のコード スニペットの修正版**SetCellValue**方法を以下に示します。
+**重要：** セルのValueプロパティを使用して値を変更することは、1つまたは数個のセルの値を設定するための適切な方法です。しかし、多くのセルの値を設定する必要がある場合は、このアプローチのパフォーマンスが良くない可能性があります。そのため、多くのセルの値を設定する場合は、アプリケーションのパフォーマンスを向上させるために、セルの**SetCellValue**メソッドを使用する必要があります。**SetCellValue**メソッドを使用した上記のコードスニペットの改良版を以下に示します。
 
 
 

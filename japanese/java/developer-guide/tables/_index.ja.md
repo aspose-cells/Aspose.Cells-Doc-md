@@ -1,4 +1,4 @@
-﻿---
+---
 title: テーブル
 type: docs
 weight: 160

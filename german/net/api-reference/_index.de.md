@@ -3,13 +3,14 @@ title: API Referenz
 type: docs
 weight: 40
 url: /de/net/api-reference/
-description: Erfahren Sie eine Erklärung und Beispiele von Aspose.Cells for .NET Klassen und Methoden zum Generieren, Konvertieren, Ändern, Rendern und Drucken von Excel-Dateien ohne Verwendung von Microsoft Excel.
-keywords: Aspose.Cells for .NET API Reference, C# generate excel files apis, C# convert excel files apis, C# fix and repair excel files apis, C# render excel files apis, C# print excel files apis
+description: Erlernen Sie eine Erklärung und Beispiele von Aspose.Cells for .NET Klassen und Methoden zur Generierung, Konvertierung, Modifizierung, Darstellung und Druck von Excel Dateien ohne Verwendung von Microsoft Excel.
+keywords: Aspose.Cells for .NET API Referenz, C# generiere Excel Dateien APIs, C# konvertiere Excel Dateien APIs, C# repariere Excel Dateien APIs, C# stelle Excel Dateien dar APIs, C# drucke Excel Dateien APIs
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for .NET ist eine Tabellenkalkulations-Programmierbibliothek, die es Softwareentwicklern ermöglicht, Tabellenkalkulationsdateien aus ihren eigenen Anwendungen heraus zu bearbeiten und zu konvertieren. Aspose.Cells for .NET unterstützt die gängigen Tabellenkalkulationsdateiformate (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) und ermöglicht den Export von Excel-Dateien nach PDF, XPS, HTML, MHTML, Plain Text, TIFF, JPG, PNG, 07611 13481 und SVG.
+Aspose.Cells for .NET ist eine Tabellenkalkulations-Programmierbibliothek, die es Softwareentwicklern ermöglicht, Tabellenkalkulationsdateien in ihren eigenen Anwendungen zu manipulieren und zu konvertieren. Aspose.Cells for .NET unterstützt die beliebten Tabellenkalkulationsdateiformate (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) und ermöglicht das Exportieren von Excel-Dateien in PDF, XPS, HTML, MHTML, Klartext, TIFF, JPG, PNG, BMP und SVG.
 
- Die neueste Referenz API finden Sie unter[Aspose.Cells for .NET API Referenz](https://reference.aspose.com/cells/net).
+Die neueste API-Referenz finden Sie unter [Aspose.Cells for .NET API-Referenz](https://reference.aspose.com/cells/net).
 
 {{% /alert %}}

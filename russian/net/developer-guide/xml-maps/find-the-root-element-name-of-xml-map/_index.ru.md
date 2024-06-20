@@ -1,24 +1,25 @@
-﻿---
-title: Найдите имя корневого элемента XML-карты
+---
+title: Поиск имени корневого элемента XML схемы
 type: docs
 weight: 30
 url: /ru/net/find-the-root-element-name-of-xml-map/
 ---
+
 ## **Возможные сценарии использования**
 
- Вы можете найти*Имя корневого элемента Xml-карты*используя Aspose.Cells с[**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname)имущество. На следующем снимке экрана показано имя корневого элемента карты XML в Microsoft Excel.
+Вы можете найти *имя корневого элемента XML-карты* с помощью Aspose.Cells с помощью свойства [**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname). На следующем скриншоте показано имя корневого элемента XML-карты в Microsoft Excel.
 
-![дело:изображение_альтернативный_текст](find-the-root-element-name-of-xml-map_1.png)
+![todo:image_alt_text](find-the-root-element-name-of-xml-map_1.png)
 
 ## **Образец кода**
 
- Следующий пример кода загружает[образец файла Excel](55541789.xlsx) и получает доступ к первой XML-карте и печатает ее[**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname)имущество. Пожалуйста, посмотрите консольный вывод примера кода, приведенного ниже.
+Следующий образец кода загружает [образец Excel-файла](55541789.xlsx), обращается к первой XML-карте и печатает ее свойство [**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname). Пожалуйста, ознакомьтесь с консольным выводом образца кода, приведенным ниже.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-XmlMaps-FindRootElementNameOfXmlMap.cs" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Root Element Name Of Xml Map: MiscData
 

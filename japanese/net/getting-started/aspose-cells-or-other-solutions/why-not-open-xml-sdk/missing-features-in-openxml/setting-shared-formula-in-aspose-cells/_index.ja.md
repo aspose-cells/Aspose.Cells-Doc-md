@@ -1,30 +1,31 @@
-﻿---
-title: Aspose.Cells に共有数式を設定する
+---
+title: Aspose.Cellsでの共有フォーミュラの設定
 type: docs
 weight: 110
 url: /ja/net/setting-shared-formula-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-データが入力されたワークシートがあるとします。
+データで埋められたワークシートがあるとします。
 
-データの最初の行の消費税を計算する関数を B2 に追加します。税金は**9%**.売上税を計算する式は次のとおりです。**「=A2*0.09」**.この記事では、この式を Aspose.Cells に適用する方法について説明します。
+B2に関数を追加し、最初のデータ行の売上税を計算したいとします。税金は9%です。売上税を計算する式は次のとおりです:"=A2*0.09"。この記事では、Aspose.Cellsでこの式を適用する方法について説明します。
 
 {{% /alert %}} 
 
-Aspose.Cells では、Cell.Formula プロパティを使用して数式を指定できます。
+Aspose.Cellsを使用すると、Cell.Formulaプロパティを使用して式を指定できます。
 
-列の他のセル (B3、B4、B5 など) に数式を追加するには、2 つのオプションがあります。
+列の他のセル（B3、B4、B5など）に数式を追加するための2つのオプションがあります。
 
-最初のセルに対して行ったことを実行し、各セルの数式を効果的に設定し、それに応じてセル参照を更新します (A3*0.09、A4*0.09、A5*0.09 など)。これには、各行のセル参照を更新する必要があります。また、各数式を個別に解析するには Aspose.Cells が必要です。これは、大きなスプレッドシートや複雑な数式では時間がかかる可能性があります。また、コードの余分な行を追加しますが、ループを使用すると多少削減できます。
+最初のセルに実行したことと同様に、各セルの式を設定し、セル参照を更新する必要があります（A3*0.09、A4*0.09、A5*0.09など）。各行のためにセル参照を更新する必要があります。また、Aspose.Cellsが個々の式を解析する必要があり、大きなスプレッドシートや複雑な式の場合は時間がかかる場合があります。また、ループはそれらを削減できますが、余分なコード行が追加されます。
 
-別のアプローチは、**共有式**.共有数式を使用すると、税金が適切に計算されるように、各行のセル参照の数式が自動的に更新されます。 Cell.SetSharedFormula メソッドは、最初のメソッドより効率的です。
+別の方法は**共有フォーミュラ**を使用することです。共有フォーミュラを使用すると、各行のセル参照に対して自動的に式が更新され、税金が正しく計算されます。Cell.SetSharedFormulaメソッドは、最初の方法よりも効率的です。
 
-次の例は、その使用方法を示しています。
+次の例では、その使用方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -48,6 +49,6 @@ workbook.Save(FileName, SaveFormat.Xlsx);
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Setting%20Shared%20Formula)
-## **実行例をダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Setting%20Shared%20Formula)
+## **実行例のダウンロード**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

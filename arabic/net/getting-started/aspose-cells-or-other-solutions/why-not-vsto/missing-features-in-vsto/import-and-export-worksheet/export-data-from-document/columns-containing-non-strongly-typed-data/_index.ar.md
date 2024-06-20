@@ -1,12 +1,13 @@
-﻿---
-title: الأعمدة التي تحتوي على بيانات غير مكتوبة بشدة
+---
+title: أعمدة تحتوي على بيانات ليست من النوع المقيد
 type: docs
 weight: 10
 url: /ar/net/columns-containing-non-strongly-typed-data/
 ---
- إذا لم يتم كتابة جميع القيم في أعمدة ورقة العمل بشكل قوي (وهذا يعني أن القيم الموجودة في عمود قد تحتوي على أنواع بيانات مختلفة) ، فيمكننا تصدير محتوى ورقة العمل عن طريق استدعاء**ExportDataTableAsString** طريقة الفئة Cells.**ExportDataTableAsString** تأخذ الطريقة نفس مجموعة المعلمات مثل تلك الخاصة بـ**ExportDataTable** طريقة لتصدير بيانات ورقة العمل كملف**جدول البيانات** موضوع.
 
-{{< highlight "csharp" >}}
+إذا كانت جميع القيم في أعمدة ورقة عمل ليست من النوع المقيد (وهذا يعني أن القيم في العمود قد تكون لها أنواع بيانات مختلفة) ثم يمكننا تصدير محتوى الورقة العمل باستدعاء طريقة **ExportDataTableAsString** من فئة الخلايا. طريقة **ExportDataTableAsString** تأخذ نفس مجموعة المعاملات كطريقة **ExportDataTable** لتصدير بيانات ورقة العمل ككائن **DataTable**.
+
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -36,13 +37,13 @@ fstream.Close();
 
 {{< /highlight >}}
 
-فيما يلي لقطات الشاشة:
+أدناه تظهر الصور:
 
-![ما يجب القيام به: image_بديل_نص](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-![ما يجب القيام به: image_بديل_نص](picture2.png)
+![todo:image_alt_text](picture2.png)
 
-## **تنزيل نموذج التعليمات البرمجية**
+## **تحميل رمز عينة**
 
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

@@ -1,14 +1,15 @@
-﻿---
+---
 title: Digitala signaturer
 type: docs
 weight: 50
 url: /sv/reportingservices/digital-signatures/
 ---
-Aspose.Cells for Reporting Services stöder digitala signaturer vid export av Microsoft Excel 2007-filer eller ODS-filer. Vi har en del konfigurationsinformation för digitala signaturer som kan ställas in i**Aspose.Cells.ReportingServices.xml** fil.
 
- När värdet på DigitalSignature är**av**, Aspose.Cells for Reporting Services stänger av digitala signaturer.
+Aspose.Cells for Reporting Services stöder digitala signaturer vid export av Microsoft Excel 2007-filer eller ODS-filer. Vi har viss konfigurationsinformation för digitala signaturer som kan ställas in i filen **Aspose.Cells.ReportingServices.xml**.
 
-{{< highlight "java" >}}
+När värdet av DigitalSignature är **av** stänger Aspose.Cells for Reporting Services av digitala signaturer.
+
+{{< highlight java >}}
 
  <DigitalSignature value="off">
 
@@ -18,22 +19,22 @@ Aspose.Cells for Reporting Services stöder digitala signaturer vid export av Mi
 
 {{< /highlight >}}
 
- När värdet på DigitalSignature är**på**, Aspose.Cells for Reporting Services aktiverar digitala signaturer.
+När värdet av DigitalSignature är **på** aktiverar Aspose.Cells for Reporting Services digitala signaturer.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <DigitalSignature value="on">
 
 {{< /highlight >}}
 
- Det finns fyra parametrar i avsnittet DigitalSignatur. Dessa är:
+Det finns fyra parametrar i avsnittet DigitalSignature. Dessa är: 
 
-- **namn**: representerar en rapport som behöver en digital signatur. När parametern lämnas tom använder rapporterna en PFX-fil för digitala signaturer.
-- **pfxFilnamn**: refererar till en PFX-fil. Filnamnet ska vara ett fullständigt kvalificerat filnamn, komplett med sökväg och filtillägg. Får inte vara tom.
-- **pfxPwd**: ställer in lösenordet. Får inte vara tom.
-- **syfte**: en beskrivning av vad signaturen är för. Kan vara tomt.
+- **namn**: representerar en rapport som behöver en digital signatur. När parametern lämnas blank använder rapporterna en PFX-fil för digitala signaturer.
+- **pfxFilename**: hänvisar till en PFX-fil. Filnamnet ska vara ett fullständigt kvalificerat filnamn, komplett med sökväg och filändelse. Får inte vara blank.
+- **pfxPwd**: ställer in lösenordet. Får inte vara blank.
+- **ändamål**: en beskrivning av vad signaturen används för. Kan vara blank.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <DigitalSignature value="on">
 

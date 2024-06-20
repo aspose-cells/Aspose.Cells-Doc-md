@@ -1,16 +1,17 @@
-﻿---
-title: ضبط خيارات الصفحة في روبي
+---
+title: ضبط خيارات الصفحة في Ruby
 type: docs
 weight: 10
 url: /ar/java/setting-page-options-in-ruby/
 ---
+
 ## **Aspose.Cells - ضبط خيارات الصفحة**
 ### **اتجاه الصفحة**
- لتطبيق إعدادات اتجاه الصفحة باستخدام**Aspose.Cells Java لروبي** ، مكالمة**اتجاه الصفحة** طريقة**اعداد الصفحة** وحدة.
+لتطبيق إعدادات اتجاه الصفحة باستخدام **Aspose.Cells Java for Ruby**، ادعو إلى الاستدعاء **page_orientation** لوحدة **pagesetup**.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def page_orientation()
 
@@ -51,12 +52,12 @@ url: /ar/java/setting-page-options-in-ruby/
 end   
 
 {{< /highlight >}}
-### **عامل التحجيم**
- لتطبيق التحجيم باستخدام**Aspose.Cells Java لروبي** ، مكالمة**التحجيم** طريقة**اعداد الصفحة** وحدة.
+### **عامل التحليل**
+لتطبيق التحليل باستخدام **Aspose.Cells Java for Ruby**، ادعو إلى الاستدعاء **scaling** لوحدة **pagesetup**.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def scaling()
 
@@ -96,7 +97,7 @@ end
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**ضبط خيارات الصفحة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل  **ضبط خيارات الصفحة (Aspose.Cells)**  من أي من مواقع التعاون البرمجي الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)

@@ -1,30 +1,31 @@
-﻿---
-title: Tabellen zusammenstellen
+---
+title: Zusammenstellen von Arbeitsmappen
 type: docs
 weight: 10
 url: /de/net/assemble-spreadsheets/
 ---
-In diesem Abschnitt wird beschrieben, wie Sie:
 
-Erstellen Sie eine neue Excel-Datei von Grund auf neu und fügen Sie ihr ein Arbeitsblatt hinzu.
+Dieser Abschnitt beschreibt, wie:
 
-- Fügen Sie Arbeitsblätter zu Designer-Tabellen hinzu.
-- Greifen Sie über den Blattnamen auf Arbeitsblätter zu.
-- Entfernen Sie ein Arbeitsblatt aus einer Excel-Datei unter Verwendung seines Blattnamens.
-- Entfernen Sie ein Arbeitsblatt aus einer Excel-Datei, indem Sie seinen Blattindex verwenden.
-- Aspose.Cells stellt eine Klasse Workbook bereit, die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine Worksheets-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
+Eine neue Excel-Datei erstellen und ein Arbeitsblatt hinzufügen.
 
-Ein Arbeitsblatt wird durch die Worksheet-Klasse dargestellt. Die Worksheet-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern.
-## **Hinzufügen von Arbeitsblättern zu einer neuen Excel-Datei**
-So erstellen Sie programmgesteuert eine neue Excel-Datei:
+Arbeitsblätter zu Designer-Arbeitsmappen hinzufügen.
+Auf Arbeitsblätter über den Blattnamen zugreifen.
+Ein Arbeitsblatt aus einer Excel-Datei anhand des Blattnamens entfernen.
+Ein Arbeitsblatt anhand des Blattindex aus einer Excel-Datei entfernen.
+Aspose.Cells bietet eine Klasse, Workbook, die eine Excel-Datei repräsentiert. Die Workbook-Klasse enthält eine Sammlung von Arbeitsblättern, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
 
-- Erstellen Sie ein Objekt der Workbook-Klasse.
-- Rufen Sie die Add-Methode der Worksheets-Auflistung auf. Der Excel-Datei * wird automatisch ein leeres Arbeitsblatt hinzugefügt. Es kann darauf verwiesen werden, indem der Blattindex des neuen Arbeitsblatts an die Worksheets-Auflistung übergeben wird.
-- Besorgen Sie sich eine Arbeitsblattreferenz.
-- Bearbeiten Sie die Arbeitsblätter.
-- Speichern Sie die neue Excel-Datei mit neuen Arbeitsblättern, indem Sie die Save-Methode der Workbook-Klasse aufrufen.
+Ein Arbeitsblatt wird durch die Arbeitsblattklasse repräsentiert. Die Arbeitsblattklasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern.
+## **Arbeitsblätter zu einer neuen Excel-Datei hinzufügen**
+Um programmgesteuert eine neue Excel-Datei zu erstellen:
 
-{{< highlight "csharp" >}}
+Ein Objekt der Klasse Workbook erstellen.
+Die Add-Methode der Arbeitsblattsammlung aufrufen. Ein leeres Arbeitsblatt wird automatisch zur Excel-Datei hinzugefügt und kann durch Übergabe des Blattindex des neuen Arbeitsblatts an die Arbeitsblattsammlung referenziert werden.
+Eine Arbeitslblattreferenz abrufen.
+Arbeiten an den Arbeitsblättern durchführen.
+Die neue Excel-Datei mit neuen Arbeitsmappen durch Aufrufen der Save-Methode der Workbook-Klasse speichern.
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -47,10 +48,10 @@ worksheet.Name = "My Worksheet";
 workbook.Save("Adding Worksheet.xls");
 
 {{< /highlight >}}
-## **Hinzufügen von Arbeitsblättern zu einer Designer-Tabelle**
-Der Vorgang zum Hinzufügen von Arbeitsblättern zu einem Designer-Arbeitsblatt ist der gleiche wie beim Hinzufügen eines neuen Arbeitsblatts, mit der Ausnahme, dass die Excel-Datei bereits vorhanden ist und daher geöffnet werden sollte, bevor Arbeitsblätter hinzugefügt werden. Ein Designer-Arbeitsblatt kann von der Workbook-Klasse geöffnet werden.
+## **Arbeitsblätter zu einem Designer-Arbeitsblatt hinzufügen**
+Der Prozess zum Hinzufügen von Arbeitsblättern zu einer Designer-Arbeitsmappe ist derselbe wie bei einem neuen Arbeitsblatt, außer dass die Excel-Datei bereits existiert und vor dem Hinzufügen von Arbeitsblättern geöffnet werden sollte. Eine Designer-Arbeitsmappe kann durch die Workbook-Klasse geöffnet werden.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -83,10 +84,10 @@ workbook.Save("Designer Spreadsheet.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Zugriff auf Arbeitsblätter mit Blattname**
-Greifen Sie auf ein beliebiges Arbeitsblatt zu oder rufen Sie es ab, indem Sie seinen Namen oder Index angeben.
+## **Zugriff auf Arbeitsblätter mithilfe des Blattnamens**
+Zugriff oder Abrufen eines Arbeitsblatts durch Angabe des Namens oder Index.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -103,10 +104,10 @@ Workbook workbook = new Workbook(fstream);
 Worksheet worksheet = workbook.Worksheets["Sheet1"];
 
 {{< /highlight >}}
-## **Entfernen von Arbeitsblättern unter Verwendung des Blattnamens**
-Um Arbeitsblätter aus einer Datei zu entfernen, rufen Sie die RemoveAt-Methode der Worksheets-Auflistung auf. Übergeben Sie den Blattnamen an die RemoveAt-Methode, um ein bestimmtes Arbeitsblatt zu entfernen.
+## **Arbeitsblätter anhand des Blattnamens entfernen**
+Um Arbeitsblätter aus einer Datei zu entfernen, die RemoveAt-Methode der Arbeitsblattsammlung aufrufen. Übergeben Sie den Blattnamen an die RemoveAt-Methode, um ein bestimmtes Arbeitsblatt zu entfernen.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -125,10 +126,10 @@ workbook.Worksheets.RemoveAt("Sheet3");
 workbook.Save("WorksHeet Operations.xls");
 
 {{< /highlight >}}
-## **Arbeitsblätter mit Blattindex entfernen**
-Das Entfernen von Arbeitsblättern nach Namen funktioniert gut, wenn der Name des Arbeitsblatts bekannt ist. Wenn Sie den Namen des Arbeitsblatts nicht kennen, verwenden Sie eine überladene Version der RemoveAt-Methode, die den Blattindex des Arbeitsblatts anstelle des Blattnamens übernimmt.
+## **Arbeitsblätter anhand des Blattindex entfernen**
+Das Entfernen von Arbeitsblättern nach Namen funktioniert gut, wenn der Name des Arbeitsblatts bekannt ist. Wenn der Name des Arbeitsblatts nicht bekannt ist, verwenden Sie eine überladene Version der RemoveAt-Methode, die den Blattindex des Arbeitsblatts anstelle seines Blattnamens benötigt.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //creating a file stream containing the Excel file to be opened
 
@@ -148,5 +149,5 @@ workbook.Save("WorksHeet Operations.xls");
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Assemble%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Assemble%20Worksheet%20%28Aspose.Cells%29.zip)

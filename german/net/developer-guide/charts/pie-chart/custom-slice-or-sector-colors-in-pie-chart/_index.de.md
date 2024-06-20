@@ -1,32 +1,33 @@
 ---
-title: Benutzerdefinierte Segment- oder Sektorfarben im Kreisdiagramm
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET die Farben von Segmenten und Sektoren in einem Kreisdiagramm anpassen. Unser Leitfaden zeigt, wie Sie jedem Abschnitt, Sektor oder jeder Legion eindeutige Farben zuweisen, um die visuelle Attraktivität und Datendarstellung zu verbessern.
-keywords: Aspose.Cells for .NET, Pie Chart, Custom Slice Colors, Custom Sector Colors, Visual Appeal, Data Representation.
+title: Benutzerdefinierte Slice oder Sektorenfarben in einem Tortendiagramm
+description: Erfahren Sie, wie Sie Aspose.Cells for .NET verwenden, um Slice und Sektorenfarben in einem Tortendiagramm anzupassen. Unser Leitfaden wird zeigen, wie Sie einzigartige Farben für jeden Slice, Sektor oder Legion zuweisen können, um die visuelle Anziehungskraft und die Datenrepräsentation zu verbessern.
+keywords: Aspose.Cells for .NET, Tortendiagramm, benutzerdefinierte Slice Farben, benutzerdefinierte Sektorfarben, visuelle Anziehungskraft, Datenrepräsentation.
 type: docs
 weight: 60
 url: /de/net/custom-slice-or-sector-colors-in-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-In diesem Artikel wird erläutert, wie Sie benutzerdefinierte Farben zu Kreisdiagrammabschnitten/-sektoren hinzufügen. Standardmäßig verwenden Kreisdiagramme die Excel-Standardvorlage Microsoft. Um andere Farben zu verwenden, definieren Sie die Farben im Diagramm neu.
+In diesem Artikel wird erläutert, wie benutzerdefinierte Farben zu Tortendiagrammslices/Sektoren hinzugefügt werden. Standardmäßig verwenden Tortendiagramme die Microsoft Excel-Standardvorlage. Um andere Farben zu verwenden, definieren Sie die Farben im Diagramm neu.
 
 {{% /alert %}}
 
-So legen Sie eine benutzerdefinierte Farbe für die einzelnen Abschnitte oder Sektoren eines Kreisdiagramms fest:
+Um eine benutzerdefinierte Farbe für die einzelnen Slices oder Sektoren eines Tortendiagramms festzulegen:
 
-1.  Greife auf ... zu[**Serie**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) Objekt[**ChartPoint**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
-1. Weisen Sie die Farbe Ihrer Wahl zu[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)Eigentum.
+1. Greifen Sie auf das [**Series**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)-Objekt's [**ChartPoint**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint) zu.
+1. Weisen Sie die Farbe Ihrer Wahl mit der [**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)-Eigenschaft zu.
 
-In diesem Artikel wird außerdem Folgendes erläutert:
+In diesem Artikel wird auch erläutert, wie:
 
 - Die Kategoriedaten eines Diagramms.
 - Ein Diagrammtitel, der mit einer Zelle verknüpft ist.
-- Die Einstellungen für die Schriftart des Diagrammtitels.
+- Die Schriftarteinstellungen des Diagrammtitels.
 - Die Position der Legende.
 
 {{% alert color="primary" %}}
 
-[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor) ist nicht spezifisch für Kreisdiagramme, kann aber für alle Arten von Diagrammen verwendet werden.
+[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor) ist nicht spezifisch für Tortendiagramme, kann aber für alle Arten von Diagrammen verwendet werden.
 
 {{% /alert %}}
 

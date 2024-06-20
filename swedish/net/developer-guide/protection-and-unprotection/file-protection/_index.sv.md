@@ -1,49 +1,50 @@
-﻿---
-title: Kryptera och dekryptera Excel-filer
+---
+title: Kryptera och dekryptera Excel filer
 type: docs
 weight: 10
 url: /sv/net/encrypt-and-decrypt-excel-files/
-description: Hur man krypterar och dekrypterar Excel-filer med C#. Lås och lås upp Excel-filer.
+description: Hur man krypterar och dekrypterar excel filer med C#. Lås och lås upp Excel filer.
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel (97 - 365) gör att du kan kryptera och lösenordsskydda dina kalkylblad. Den använder algoritmer som tillhandahålls av en kryptografisk tjänsteleverantör, eller CSP, en uppsättning kryptografiska algoritmer med olika egenskaper. Standard-CSP är 'Office 97/2000 Compatible' eller 'Weak Encryption (XOR)'. Det är viktigt att välja rätt längd på krypteringsnyckeln. Vissa CSP:er stöder inte mer än 40 eller 56 bitar. Det anses vara svag kryptering. För stark kryptering krävs en minsta nyckellängd på 128 bitar. Microsoft Windows innehåller CSP:er som också erbjuder starka krypteringstyper, till exempel 'Microsoft Strong Cryptographic Provider'. För att ge dig en uppfattning är 128-bitars kryptering vad banker använder för att kryptera anslutningen till sina Internetbanksystem.
+Microsoft Excel (97 - 365) gör det möjligt för dig att kryptera och lösenordsskydda dina kalkylblad. Det använder algoritmer som tillhandahålls av en kryptografisk tjänsteleverantör, eller CSP, en uppsättning krypteringsalgoritmer med olika egenskaper. Standard-CSP är 'Kontors 97/2000-kompatibel' eller 'Svag kryptering (XOR)'. Det är viktigt att välja rätt krypteringsnyckellängd. Vissa CSP:er stöder inte mer än 40 eller 56 bitar. Det anses vara svag kryptering. För stark kryptering krävs en minsta nyckellängd på 128 bitar. Microsoft Windows innehåller också CSP:er som erbjuder starka krypteringstyper, till exempel 'Microsoft Strong Cryptographic Provider'. För att ge dig en uppfattning, 128 bitar kryptering är vad banker använder för att kryptera anslutningen med sina internetbankssystem.
 
-Aspose.Cells låter dig kryptera och lösenordsskydda Microsoft Excel-filer med önskad krypteringstyp.
+Aspose.Cells gör det möjligt för dig att kryptera och lösenordsskydda Microsoft Excel-filer med önskad krypteringstyp.
 
 {{% /alert %}}
 
-## **Använder Microsoft Excel**
+## **Använda Microsoft Excel**
 
-Så här ställer du in filkrypteringsinställningar i Microsoft Excel (här Microsoft Excel 2003):
+För att ställa in filkrypteringsinställningar i Microsoft Excel (här Microsoft Excel 2003):
 
-1.  Från**Verktyg** menyn, välj**alternativ**En dialogruta visas.
-1.  Välj**säkerhet** flik.
-1.  Ange ett lösenord och klicka**Avancerad**
+1. Från menyn **Verktyg**, välj **Alternativ**. En dialogruta kommer att visas.
+1. Välj fliken **Säkerhet**.
+1. Ange ett lösenord och klicka på **Avancerat**
 1. Välj krypteringstyp och bekräfta lösenordet.
 
-## **Krypterar Excel-fil med Aspose.Cells**
+## **Kryptera Excel-fil med Aspose.Cells**
 
-Följande exempel visar hur man krypterar och lösenordsskyddar en excel-fil med Aspose.Cells API.
+Exemplet nedan visar hur man krypterar och lösenordsskyddar en Excel-fil med hjälp av Aspose.Cells API.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingFiles-1.cs" >}}
 
-### **Ange lösenord för att ändra Alternativ**
+### **Ange lösenord för att ändra alternativ**
 
- Följande exempel visar hur du ställer in**Lösenord att ändra** Microsoft Excel-alternativ för en befintlig fil med Aspose.Cells API.
+Följande exempel visar hur man ställer in alternativet **Lösenord för att ändra** i Microsoft Excel för en befintlig fil med hjälp av Aspose.Cells API.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingFiles-SpecifyPasswordToModifyOption.cs" >}}
 
 
-## **Dekrypterar Excel-fil med Aspose.Cells**
-Det är mycket att öppna lösenordsskyddad excel-fil och dekryptera med Aspose.Cells API som följande koder:
+## **Avkryptering av Excelfil med Aspose.Cells**
+Det är väldigt enkelt att öppna ett lösenordsskyddat excelfil och avkryptera det med hjälp av Aspose.Cells API enligt följande koder:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Decrypt-Excel-File.cs" >}}
 
 
-## **Förhandsämnen**
+## **Fortsatta ämnen**
 - [Kryptera och dekryptera ODS-filer](/cells/sv/net/encrypt-and-decrypt-ods-files/)
-- [Ställa in stark krypteringstyp](/cells/sv/net/setting-strong-encryption-type/)
-- [Ange författare medan skrivskyddande arbetsbok](/cells/sv/net/specify-author-while-write-protecting-workbook/)
-- [Verifiera lösenordet för krypterade filer](/cells/sv/net/verify-password-of-encrypted-excel-and-ods-files/)
+- [Ange stark krypterings typ](/cells/sv/net/setting-strong-encryption-type/)
+- [Ange författare vid skrivskydd av arbetsbok](/cells/sv/net/specify-author-while-write-protecting-workbook/)
+- [Verifiera lösenord för krypterade filer](/cells/sv/net/verify-password-of-encrypted-excel-and-ods-files/)
 

@@ -1,28 +1,29 @@
 ---
-title: Lisansın başarıyla yüklenip yüklenmediğini belirleme
+title: Lisansın Başarıyla Yüklendiğini Belirleme
 type: docs
 weight: 260
 url: /tr/net/determining-if-the-license-is-loaded-successfully/
-description: NET API'leri için Lisansın Aspose.Cells aracılığıyla başarıyla yüklenip yüklenmediğini nasıl tespit edeceğinizi öğrenin.
-keywords: How to Detect if the License is loaded successfully in C#, Determine if the License is loaded successfully using C#, Check if the License is loaded successfully via C#, check the status of license.
+description: Lisansın başarıyla yüklendiğini Aspose.Cells for NET API leri üzerinden nasıl algılayacağınızı öğrenin.
+keywords: C# da Lisansın Başarıyla Yüklendiğini Nasıl Algılayacağınız, C# kullanarak Lisansın Başarıyla Yüklendiğini Belirleme, C# ile Lisansın Başarıyla Yüklendiğini Kontrol Etme, Lisansın Durumunu Kontrol Etme.
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells sağlar[**Çalışma Kitabı.Lisanslıdır**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) Lisansın başarıyla yüklenip yüklenmediğini belirlemek için kullanabileceğiniz özellik. Lisansı ayarlamadan önce bu özelliğe erişirseniz,**YANLIŞ** ve lisansı ayarladıktan sonra bu özelliği çağırırsanız geri dönecektir**doğru** Lisansın başarıyla yüklendiğini gösterir.
+Aspose.Cells, lisansın başarıyla yüklendiğini belirlemek için [**Workbook.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) özelliğini sağlar. Bu özelliği lisansı ayarlamadan önce erişirseniz **false** döndürecek, lisansı ayarladıktan sonra ise başarıyla yüklendiğini belirten **true** döndürecektir.
 
 {{% /alert %}}
 
-##  Lisansın başarıyla yüklenip yüklenmediğini belirlemek için C# kodu
+## Lisansın Başarıyla Yüklendiğini Belirleme için C# kodu
 
- Aşağıdaki kod erişim sağlar[**Çalışma Kitabı.Lisanslıdır**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed)Bir lisans ayarlamadan önce özellik kullanılır ve *false** değeri döndürülür. Daha sonra lisansı yükler ve özelliğe yeniden erişir; bu özellik artık *true** değerini döndürür.
+Aşağıdaki kod, bir lisansı ayarlamadan önce [**Workbook.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) özelliğine erişir ve **false** döndürür. Ardından lisansı yükler ve tekrar özelliğe erişir, bu kez **true** döner.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DeterminingLicenseLoading-DeterminingLicenseLoading.cs" >}}
 
-##  **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-Yukarıdaki örnek kodun konsol (hata ayıklama) çıktısı aşağıdadır
+Yukarıdaki örnek kodun konsol (hata ayıklama) çıktısı şöyle
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 False
 

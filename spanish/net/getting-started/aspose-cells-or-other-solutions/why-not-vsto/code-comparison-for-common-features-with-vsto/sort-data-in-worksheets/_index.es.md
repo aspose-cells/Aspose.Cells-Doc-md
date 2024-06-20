@@ -1,12 +1,13 @@
-﻿---
-title: Ordenar datos en hojas de trabajo
+---
+title: Ordenar datos en hojas de cálculo
 type: docs
 weight: 230
 url: /es/net/sort-data-in-worksheets/
 ---
-A continuación se muestra el ejemplo de código de comparación para VSTO y Aspose.Cells.
+
+A continuación se muestra un ejemplo de código de comparación para VSTO y Aspose.Cells.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -36,7 +37,7 @@ A continuación se muestra el ejemplo de código de comparación para VSTO y Asp
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

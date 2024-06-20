@@ -1,125 +1,112 @@
-﻿---
-title: Infoga bilder och former av Excel-filer.
+---
+title: Infoga bilder och former från Excelfiler.
 linktitle: Former
 type: docs
 weight: 140
 url: /sv/net/insert-shapes/
-description: Hantera bilder, oleobject, former till Excel-filer.
+description: Hantera bilder, oleobjekt, former i Excelfiler.
 ---
+
 {{% alert color="primary" %}}
 
-Ibland behöver du infoga några nödvändiga former i kalkylbladet. Du kan behöva infoga samma form på olika positioner i kalkylbladet. Eller så måste du infoga former i kalkylbladet.
+Ibland behöver du infoga vissa nödvändiga former i arbetsbladet. Du kan behöva infoga samma form på olika positioner på arbetsbladet. Eller så behöver du satsvis infoga former i arbetsbladet.
 
- Oroa dig inte![Aspose.Cells](https://products.aspose.com/cells/)stöder alla dessa operationer.
+Var inte orolig! [Aspose.Cells](https://products.aspose.com/cells/) stöder alla dessa operationer.
 
 {{% /alert %}}
 
-Formerna i excel är huvudsakligen indelade i följande typer:
+Formerna i Excel är huvudsakligen uppdelade i följande typer:
 - **Bilder**
-- **OleObjects**
-- **Rader**
+- **OleObjekt**
+- **Linjer**
 - **Rektanglar**
-- **Grundläggande former**
-- **Block pilar**
-- **Ekvationsformer**
-- **Flödesdiagram**
+- **Grundformer**
+- **Blockpilar**
+- **Ekvationformer**
+- **Flödesscheman**
 - **Stjärnor och banderoller**
-- **Bildtexter**
+- **Inrop**
 
- Detta guidedokument kommer att välja en eller två former från varje typ för att göra prover. Genom dessa exempel kommer du att lära dig hur du använder[Aspose.Cells](https://products.aspose.com/cells/) för att infoga den angivna formen i kalkylbladet.
+Denna guide kommer att välja en eller två former från varje typ för att skapa exempel. Genom dessa exempel kommer du att lära dig hur du använder [Aspose.Cells](https://products.aspose.com/cells/) för att infoga den angivna formen i arbetsbladet.
 
-## **Lägga till bilder i Excel-arbetsblad i C#**
+## **Lägga till bilder i Excelkalkylblad i C#**
 
-Det är väldigt enkelt att lägga till bilder i ett kalkylblad. Det tar bara några rader kod:
- Ring helt enkelt[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) metod för[**Bilder**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) samling (inkapslad i[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) objekt). De[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)metoden tar följande parametrar:
+Att lägga till bilder i ett kalkylblad är mycket enkelt. Det tar bara några rader kod:
+Ring helt enkelt [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)-metoden för [**Pictures**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection)-samlingen (inkapslad i [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-objektet). Metoden [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) tar följande parametrar:
 
-- **Övre vänstra radens index**, indexet för den övre vänstra raden.
+- **Övre vänstra radindex**, indexet för den övre vänstra raden.
 - **Övre vänstra kolumnindex**, indexet för den övre vänstra kolumnen.
-- **Bildfilens namn**, namnet på bildfilen, komplett med sökväg.
+- **Bildfilnamn**, namnet på bildfilen, komplett med sökväg.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-AddingPictures-1.cs" >}}
 
 
-## **Infoga OLE-objekt i Excel-kalkylblad i C#**
+## **Infoga OLE-objekt i Excelkalkylblad i C#**
 
-Aspose.Cells stöder att lägga till, extrahera och manipulera OLE-objekt i kalkylblad. Av denna anledning har Aspose.Cells[**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) klass, används för att lägga till ett nytt OLE-objekt till samlingslistan. En annan klass,[**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), representerar ett OLE-objekt. Den har några viktiga medlemmar:
+Aspose.Cells stöder att lägga till, extrahera och manipulera OLE-objekt i arbetsblad. Av den anledningen har Aspose.Cells klassen [**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection), som används för att lägga till ett nytt OLE-objekt i samlingens lista. En annan klass, [**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), representerar ett OLE-objekt. Den har några viktiga medlemmar:
 
--  De[**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)egenskapen specificerar bilddata (ikon) av byte-arraytyp. Bilden kommer att visas för att visa OLE-objektet i kalkylbladet.
--  De[**Objektdata**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)egenskapen specificerar objektdata i form av en byte-array. Dessa data kommer att visas i dess relaterade program när du dubbelklickar på OLE-objektikonen.
+- Egenskapen [**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata) anger bild (ikon) data av typen byte array. Bilden kommer att visas för att visa OLE-objektet i arbetsbladet.
+- Egenskapen [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata) anger objektdata i form av en byte array. Denna data kommer att visas i sitt relaterade program när du dubbelklickar på OLE-objektikonen.
 
-Följande exempel visar hur man lägger till ett eller flera OLE-objekt i ett kalkylblad.
+Följande exempel visar hur man lägger till en OLE-objekt/-objekt i ett arbetsblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
-## **Infoga en rad till Excel-kalkylblad i C#**
+## **Infoga en linje i Excelkalkylblad i C#**
 
- Linjens form tillhör**rader** kategori.
+Linjens form tillhör kategorin **linjer**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga raden
+- Välj cellen där du vill infoga linjen
 - Klicka på Infoga-menyn och klicka på Former.
-- Välj sedan raden från "Nyligen använda former" eller "Linjer"
+- Välj sedan linjen från 'Nyligen använda former' eller 'Linjer'
 
 ![](line.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en rad i kalkylbladet.
+Du kan använda följande metod för att infoga en linje i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public LineShape AddLine(
- int upperLeftRow,
- int topp,
- int övre vänstra kolumnen,
- int vänster,
- int höjd,
- int bredd
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- Metoden returnerar en[LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) objekt.
+Metoden returnerar ett [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar en rad i ett kalkylblad.
+Följande exempel visar hur man infogar en linje i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Line.cs" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](line2.png)
 
 
 
-## **Infoga en linjepil i Excel-kalkylblad i C#**
+## **Infoga en linskära till Excel arbetsblad i C#**
 
- Formen på linjepilen tillhör**Rader** kategori. Det är ett specialfall av linje.
+Linjepilen tillhör kategorin **Linjer**. Det är ett specialfall av linje.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga linjepilen
+- Välj cellen där du vill infoga linjepilen
 - Klicka på Infoga-menyn och klicka på Former.
-- Välj sedan linjepilen från "Nyligen använda former" eller "Linjer"
+- Välj sedan linjepilen från 'Nyligen använda former' eller 'Linjer'
 
 ![](line_arrow1.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en linjepil i kalkylbladet.
+Du kan använda följande metod för att infoga en linjepil i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public LineShape AddLine(
- int upperLeftRow,
- int topp,
- int övre vänstra kolumnen,
- int vänster,
- int höjd,
- int bredd
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn,	int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- Metoden returnerar en[LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) objekt.
+Metoden returnerar ett [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) objekt.
 
 {{% /alert %}}
 
@@ -127,82 +114,67 @@ Följande exempel visar hur man infogar en linjepil i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-LineArrow.cs" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](line_arrow2.png)
 
 
 
-## **Infoga en rektangel till Excel-kalkylblad i C#**
+## **Infoga en rektangel till Excel arbetsblad i C#**
 
- Formen på rektangeln tillhör**Rektanglar** kategori.
+Rektangeln tillhör kategorin **Rektanglar**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga rektangeln
+- Välj cellen där du vill infoga rektangeln
 - Klicka på Infoga-menyn och klicka på Former.
-- Välj sedan rektangeln från "Nyligen använda former" eller "Rektanglar"
+- Välj sedan rektangeln från 'Nyligen använda former' eller 'Rektanglar'
 
 ![](rectangle.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en rektangel i kalkylbladet.
+Du kan använda följande metod för att infoga en rektangel i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public RectangleShape AddRectangle(
- int upperLeftRow,
- int topp,
- int övre vänstra kolumnen,
- int vänster,
- int höjd,
- int bredd
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
+[**public RectangleShape AddRectangle(int upperLeftRow,	int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
 
- Metoden returnerar en[RectangleShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) objekt.
+Metoden returnerar ett [RectangleShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur du infogar rektangel i ett kalkylblad.
+Följande exempel visar hur man infogar en rektangel i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Rectangle.cs" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](rectangle2.png)
 
 
 
-## **Infoga en kub till Excel-arbetsblad i C#**
+## **Infoga en kub i Excel-kalkylbladet i C#**
 
-Formen på kuben tillhör**Grundläggande former** kategori.
+Kuben tillhör kategorin **Grundformer**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga kuben
+- Välj cellen där du vill infoga kuben
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan kuben från**Grundläggande former**
+- Välj sedan kuben från **Grundläggande former**
 
 ![](cube.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en kub i kalkylbladet.
+Du kan använda följande metod för att infoga en kub i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType typ,
- int upperLeftRow,
- int topp,
- int övre vänstra kolumnen,
- int vänster,
- int höjd,
- int bredd
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)-objekt.
 
 {{% /alert %}}
 
@@ -210,236 +182,196 @@ Följande exempel visar hur man infogar en kub i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Cube.cs" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](cube2.png)
 
 
 
-## **Infoga en bildtext quad-pil i Excel-kalkylblad i C#**
+## **Infoga en pratbubbla med pil till Excel-kalkylbladet i C#**
 
- Formen på bildtexten quad pil tillhör**Block pilar** kategori.
+Formen av återuppringningpilar tillhör kategorin **Blockpilar**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga bildtexten quad-pilen
+- Välj cellen där du vill infoga återuppringningspilar
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan bildtexten quad-pilen från**Block pilar**
+- Välj sedan återuppringningspilar från **Blockpilar**
 
 ![](callout_quad_arrow.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en bildtext quad-pil i kalkylbladet.
+Du kan använda följande metod för att infoga återuppringningspilar i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType typ,
- int upperLeftRow,
- int topp,
- int övre vänstra kolumnen,
- int vänster,
- int höjd,
- int bredd
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar bildtext quad-pil i ett kalkylblad.
+Följande exempel visar hur man infogar återuppringningspilar i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.cs" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](callout_quad_arrow2.png)
 
 
 
-## **Infoga ett multiplikationstecken i Excel-kalkylblad i C#**
+## **Infoga ett multiplikationstecken i Excel-kalkylbladet i C#**
 
- Formen på multiplikationstecknet tillhör**Ekvationsformer** kategori.
+Formen av multiplikationstecken tillhör kategorin **Ekvationformer**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga multiplikationstecknet
+- Välj cellen där du vill infoga multiplikationstecknet
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan multiplikationstecknet från**Ekvationsformer**
+- Välj sedan multiplikationstecknet från **Ekvationformer**
 
 ![](multiplication_sign.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga ett multiplikationstecken i kalkylbladet.
+Du kan använda följande metod för att infoga ett multiplikationstecken i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType typ,
- int upperLeftRow,
- int topp,
- int övre vänstra kolumnen,
- int vänster,
- int höjd,
- int bredd
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar multiplikationstecken i ett kalkylblad.
+Följande exempel visar hur man infogar ett multiplikationstecken i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.cs" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](multiplication_sign2.png)
 
 
 
-## **Infoga ett multidokument till Excel-kalkylblad i C#**
+## **Infoga en multidokument till Excel-kalkylbladet i C#**
 
- Formen på multidokument tillhör**Flödesdiagram** kategori.
+Formen av multidokument tillhör kategorin **Flödesscheman**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga multidokumentet
+- Välj cellen där du vill infoga multi-dokument
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan multidokumentet från**Flödesdiagram**
+- Välj sedan multi-dokumentet från **Flödesscheman**
 
 ![](multidocument.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga ett multidokument i kalkylbladet.
+Du kan använda följande metod för att infoga ett multi-dokument i arbetsbladet.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType typ,
- int upperLeftRow,
- int topp,
- int övre vänstra kolumnen,
- int vänster,
- int höjd,
- int bredd
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar flera dokument i ett kalkylblad.
+Följande exempel visar hur man infogar multi-dokument i ett arbetsblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Multidocument.cs" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](multidocument2.png)
 
 
 
-## **Infoga en femuddig stjärna i Excel-arbetsbladet i C#**
+## **Infoga en femuddig stjärna till Excel-kalkylbladet i C#**
 
- Formen på en femuddig stjärna tillhör**Stjärnor och banderoller** kategori.
+Formen av Femuddig stjärna tillhör kategorin **Stjärnor och band**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga den femuddiga stjärnan
+- Välj cellen där du vill infoga Femuddig stjärna
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan den femuddiga stjärnan från**Stjärnor och banderoller**
+- Välj sedan Femuddig stjärna från **Stjärnor och band**
 
 ![](star_5_points.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en femuddig stjärna i kalkylbladet.
+Du kan använda följande metod för att infoga en Femuddig stjärna i arbetsbladet.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType typ,
- int upperLeftRow,
- int topp,
- int övre vänstra kolumnen,
- int vänster,
- int höjd,
- int bredd
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar en femuddig stjärna i ett kalkylblad.
+Följande exempel visar hur man infogar Femuddig stjärna i ett arbetsblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-FivePointedStar.cs" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](star_5_points2.png)
 
 
 
-## **Infogar ett tankebubbelmoln i Excel-arbetsblad i C#**
+## **Infoga en pratbubbla till Excel-kalkylbladet i C#**
 
- Formen på tankebubbelmoln tillhör**Bildtexter** kategori.
+Formen av pratbubblan tillhör kategorin **Pilfunktioner**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Välj cellen där du vill infoga tankebubbelmolnet
+- Välj cellen där du vill infoga pratbubblan
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan tankebubblans moln från**Bildtexter**
+- Välj sedan pratbubblan från **Pilfunktioner**
 
 ![](thought_bubble_cloud.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga ett tankebubbelmoln i kalkylbladet.
+Du kan använda följande metod för att infoga en pratbubbla i arbetsbladet.
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType typ,
- int upperLeftRow,
- int topp,
- int övre vänstra kolumnen,
- int vänster,
- int höjd,
- int bredd
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar tankebubblor i ett kalkylblad.
+Följande exempel visar hur man infogar pratbubblan i ett arbetsblad.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.cs" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](thought_bubble_cloud2.png)
 
-## **Förhandsämnen**
+## **Fortsatta ämnen**
 - [Ändra justeringsvärden för formen](/cells/sv/net/change-adjustment-values-of-the-shape/)
 - [Kopiera former mellan kalkylblad](/cells/sv/net/copy-shapes-between-worksheets/)
 - [Data i icke-primitiv form](/cells/sv/net/data-in-non-primitive-shape/)
-- [Hitta den absoluta positionen av formen i arbetsbladet](/cells/sv/net/finding-absolute-position-of-shape-inside-the-worksheet/)
-- [Få anslutningspunkter från form](/cells/sv/net/get-connection-points-from-shape/)
+- [Hitta absolut position av formen inuti kalkylbladet](/cells/sv/net/finding-absolute-position-of-shape-inside-the-worksheet/)
+- [Hämta anslutningspunkter från formen](/cells/sv/net/get-connection-points-from-shape/)
 - [Hantera kontroller](/cells/sv/net/managing-controls/)
-- [Lägg till ikoner i arbetsbladet](/cells/sv/net/insert-svg-to-excel/)
+- [Lägg till ikoner i kalkylbladet](/cells/sv/net/insert-svg-to-excel/)
 - [Hantera OLE-objekt](/cells/sv/net/managing-ole-objects/)
 - [Hantera bilder](/cells/sv/net/managing-pictures/)
-- [Hantera Smart Art](/cells/sv/net/managing-smartart/)
+- [Hantera SmartArt](/cells/sv/net/managing-smartart/)
 - [Hantera TextBox](/cells/sv/net/managing-textbox-of-excel/)
-- [Lägg till WordArt vattenstämpel i arbetsbladet](/cells/sv/net/add-wordart-watermark-to-worksheet/)
-- [Uppdatera värden för länkade former](/cells/sv/net/refresh-values-of-linked-shapes/)
-- [Skicka form fram eller bak i arbetsbladet](/cells/sv/net/send-shape-front-or-back-inside-the-worksheet/)
+- [Lägg till WordArt-vattenstämpel på arbetsbladet](/cells/sv/net/add-wordart-watermark-to-worksheet/)
+- [Uppdatera värdena i länkade former](/cells/sv/net/refresh-values-of-linked-shapes/)
+- [Skicka form framåt eller bakåt inne i Arbetsbladet](/cells/sv/net/send-shape-front-or-back-inside-the-worksheet/)
 - [Hantera formalternativ](/cells/sv/net/managing-shape-options/)
-- [Hantera formtextalternativ](/cells/sv/net/managing-shape-text-options/)
-- [Webbtillägg - Office-tillägg](/cells/sv/net/web-extensions-office-add-ins/)
+- [Hantera textalternativ för formen](/cells/sv/net/managing-shape-text-options/)
+- [Webbutökningar - Office-tillägg](/cells/sv/net/web-extensions-office-add-ins/)
 

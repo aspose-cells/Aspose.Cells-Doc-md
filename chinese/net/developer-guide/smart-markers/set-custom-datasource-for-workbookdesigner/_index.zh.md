@@ -1,5 +1,5 @@
 ---
-title: 设置[WorkbookDesigner](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner)的自定义数据源
+title: 设置[WorkbookDesigner](https //reference.aspose.com/cells/net/aspose.cells/workbookdesigner)的自定义数据源
 type: docs
 weight: 60
 url: /zh/net/set-custom-datasource-for-workbookdesigner/

@@ -1,15 +1,16 @@
-﻿---
-title: ضبط ارتفاع الصف وعرض العمود في جايثون
+---
+title: ضبط ارتفاع الصف وعرض العمود في Jython
 type: docs
 weight: 10
 url: /ar/java/adjusting-row-height-and-column-width-in-jython/
 ---
+
 ## **Aspose.Cells - ضبط ارتفاع الصف وعرض العمود**
- لإلحاق المستندات باستخدام**Aspose.Cells Java لـ Jython**. هنا يمكنك أن ترى رمز المثال.
+لإلحاق المستندات باستخدام **Aspose.Cells Java for Jython**. هنا يمكنك رؤية رمز المثال.
 
-**كود جايثون**
+**رمز Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -88,7 +89,7 @@ if __name__ == '__main__':
     RowsAndColumns()
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إرفاق المستندات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **مستندات الإضافة (Aspose.Cells)** من أي من المواقع الاجتماعية للترميز الواردة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

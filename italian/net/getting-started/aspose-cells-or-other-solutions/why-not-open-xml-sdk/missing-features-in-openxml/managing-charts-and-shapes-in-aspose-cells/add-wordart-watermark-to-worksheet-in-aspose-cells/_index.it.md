@@ -1,26 +1,27 @@
-﻿---
-title: Aggiungi filigrana WordArt al foglio di lavoro in Aspose.Cells
+---
+title: Aggiungere un watermark WordArt al foglio di lavoro in Aspose.Cells
 type: docs
 weight: 20
 url: /it/net/add-wordart-watermark-to-worksheet-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Usa WordArt per aggiungere effetti di testo speciali ai fogli di calcolo. Ad esempio, allunga un titolo nella parte superiore del file, decora il testo e adatta il testo a una forma predefinita oppure applica il testo a un foglio Excel come filigrana di sfondo. La WordArt diventa un oggetto che puoi spostare o posizionare nei fogli di calcolo per aggiungere decorazioni.
+Usa WordArt per aggiungere effetti speciali al testo nei fogli di calcolo. Ad esempio, distendi un titolo sulla parte superiore del file, decora il testo e fai adattare il testo a una forma preimpostata, o applica il testo a un foglio di Excel come un watermark di sfondo. Il WordArt diventa un oggetto che puoi spostare o posizionare nei fogli di calcolo per aggiungere decorazioni.
 
 {{% /alert %}}
 
-L'esempio seguente mostra come aggiungere una forma WordArt per impostare una filigrana di sfondo per un foglio di lavoro.
+L'esempio seguente mostra come aggiungere una forma WordArt per impostare un watermark di sfondo per un foglio di lavoro.
 
-Dopo aver eseguito il codice, il file di output contiene una filigrana WordArt rosso pallido.
+Dopo aver eseguito il codice, il file di output contiene un watermark WordArt rosso pallido.
 
-**Il file di output** 
+**Il file di output 
 
-![cose da fare:immagine_alt_testo](picture1.png)
+![todo:image_alt_text](picture1.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -70,6 +71,6 @@ workbook.Save(FileName);
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark)
 
-## **Scarica l'esempio di esecuzione**
+## **Scarica Esempio in Esecuzione**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

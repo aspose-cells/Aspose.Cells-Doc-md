@@ -1,17 +1,18 @@
-﻿---
-title: Работа с эффектом свечения фигуры или диаграммы
+---
+title: Работа с эффектом свечения формы или диаграммы
 type: docs
 weight: 240
 url: /ru/net/working-with-the-glow-effect-of-shape-or-chart/
 ---
+
 ## **Возможные сценарии использования**
- Aspose.Cells обеспечивает[Форма.Свечение](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) имущество вместе с[Эффект свечения](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) класс для работы с эффектом свечения фигуры или диаграммы.[Эффект свечения](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)Класс содержит следующие свойства, которые можно настроить для достижения различных результатов в соответствии с требованиями приложения.
+Aspose.Cells предоставляет свойство [Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) вместе с классом [GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) для работы с эффектом свечения формы или диаграммы. Класс [GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) содержит следующие свойства, которые можно установить для достижения различных результатов в соответствии с требованиями приложения.
 
 - [GlowEffect.Size](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/size)
-- [GlowEffect.Прозрачность](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)
-- [GlowEffect.Цвет](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)
-## **Работа с эффектом свечения фигуры или диаграммы**
- Следующий пример кода загружает[исходный файл excel](5115407.xlsx) и получает доступ к первой фигуре на первом рабочем листе и устанавливает подсвойства[Форма.Свечение](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) свойство, а затем сохраняет книгу в[выходной файл excel](5115414.xlsx).
+- [GlowEffect.Transparency](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)
+- [GlowEffect.Color](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)
+## **Работа с эффектом свечения формы или диаграммы**
+Следующий образец кода загружает [исходный файл Excel](5115407.xlsx) и обращается к первой форме на первом листе и устанавливает подсвойства [Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow), а затем сохраняет книгу в [выходном файле Excel](5115414.xlsx).
 
 
 

@@ -1,30 +1,33 @@
-﻿---
-title: Şeklin Parıltı Efektinin Rengini Okuyun
+---
+title: Şeklin Parlama Etkisinin Rengini Oku
 type: docs
 weight: 330
 url: /tr/net/read-color-of-shape-s-glow-effect/
 ---
+
 ## Olası Kullanım Senaryoları
 
- Herhangi bir şeklin parlama efektinin rengini okumak istiyorsanız, lütfen[**Şekil.Glow.Color**](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)Emlak. Şeklin ışıma efektinin rengiyle ilgili çeşitli özellikleri bulmanıza yardımcı olacaktır.
+Herhangi bir şeklin parlama efektinin rengini okumak istiyorsanız, lütfen [**Shape.Glow.Color**](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color) özelliğini kullanın. Bu, şeklin parlama efektinin rengi ile ilgili çeşitli özellikleri bulmanıza yardımcı olacaktır.
 
-## Şeklin Işıma Efektinin Rengini Okuyun
+## Şeklin Parlama Efektinin Rengini Oku
 
- Lütfen aşağıdaki örnek koda ve onun[kaynak excel dosyası](22774108.xlsx)ve referansınız için konsol çıktısı. Aşağıdaki ekran görüntüsü, Microsoft Excel'de görüntülendiğinde şeklin kaynak excel dosyası içindeki parlama efektini göstermektedir.
+Lütfen aşağıdaki örnek kodu ve [kaynak excel dosyasını](22774108.xlsx) ve başvurunuz için konsol çıktısını görün. Aşağıdaki ekran görüntüsü, Microsoft Excel'de görüldüğünde kaynak excel dosyasının parlama efektini gösterir.
 
-![yapılacaklar:resim_alternatif_metin](read-color-of-shape-s-glow-effect_1.png)
+![todo:image_alt_text](read-color-of-shape-s-glow-effect_1.png)
 
-## C# kodu, şekillerin renginin parlama efektini okumak için
+## C# kodu şekillerin parlama efektinin rengini okumak için
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ReadColorOfShapesGlowEffect.cs" >}}
 
 ## Konsol Çıkışı
 
- Sağlanan ile çalıştırıldığında yukarıdaki örnek kodun konsol çıktısı aşağıdadır.[kaynak excel dosyası](22774108.xlsx).
+Yukarıdaki örnek kodun, sağlanan [kaynak excel dosyası](22774108.xlsx) ile birlikte çalıştırıldığında konsol çıktısı. İşte yukarıdaki örnek kodun konsol çıktısı.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
-Color: Color [A=222, R=255, G=0, B=0]ColorIndex: 16711672
+Color: Color [A=222, R=255, G=0, B=0]
+
+ColorIndex: 16711672
 
 IsShapeColor: True
 

@@ -1,15 +1,16 @@
-﻿---
-title: Seitenumbruch-Vorschau in Php
+---
+title: Seitenumbruchvorschau in Php
 type: docs
 weight: 60
 url: /de/java/page-break-preview-in-php/
 ---
+
 ## **Aspose.Cells - Seitenumbruchvorschau**
- So stellen Sie das Arbeitsblatt auf Seitenumbruchvorschau ein**Aspose.Cells Java for PHP** , einfach aufrufen**Seitenumbruchvorschau** Modul.
+Um ein Arbeitsblatt auf die Seitenumbruchvorschau mit **Aspose.Cells Java for PHP** festzulegen, rufen Sie einfach das Modul **PageBreakPreview** auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -30,7 +31,7 @@ $worksheet->setPageBreakPreview(true);
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Seitenumbruch-Vorschau (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Download von **Seitenumbruchvorschau (Aspose.Cells)** von einer der unten genannten sozialen Coding-Seiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/PageBreakPreview.php)

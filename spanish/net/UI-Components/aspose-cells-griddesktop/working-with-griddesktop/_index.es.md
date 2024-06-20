@@ -1,6 +1,8 @@
-﻿---
+---
 title: Trabajando con GridDesktop
 type: docs
 weight: 30
-url: /es/net/working-with-griddesktop/
+url: /es/net/aspose-cells-griddesktop/working-with-griddesktop/
 ---
+
+

@@ -1,15 +1,16 @@
-﻿---
-title: Jython'da ExcelFiles'ı Html'ye Dönüştürme
+---
+title: Jython da Excel Dosyalarını Html e Dönüştürme
 type: docs
 weight: 10
 url: /tr/java/converting-excelfiles-to-html-in-jython/
 ---
-## **Aspose.Cells - ExcelFiles'ı Html'ye Dönüştürme**
- Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
+
+## **Aspose.Cells - Excel Dosyalarını Html'e Dönüştürme**
+**Aspose.Cells Java for Jython** ile belgeler eklemek için. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -46,6 +47,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belgeleri Ekleyin (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Append Documents (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ConvertingExcelFilesToHtml.py)

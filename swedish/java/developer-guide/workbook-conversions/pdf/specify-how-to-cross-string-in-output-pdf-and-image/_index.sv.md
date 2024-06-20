@@ -1,24 +1,25 @@
-﻿---
-title: Ange hur strängen ska korsas i utgång PDF och bild
+---
+title: Ange hur du ska korsa strängen i utdata PDF och bild
 type: docs
 weight: 110
 url: /sv/java/specify-how-to-cross-string-in-output-pdf-and-image/
 ---
-## **Möjliga användningsscenarier**
 
-När en cell innehåller text eller sträng men den är större än cellens bredd, svämmar strängen över om nästa cell i nästa kolumn är null eller tom. När du sparar din Excel-fil i PDF/Image kan du kontrollera detta överflöde genom att ange korstypen med hjälp av[**TextCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextCrossType)uppräkning. Den har följande värden
+## **Möjliga användningsscenario**
 
-- [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT): Visa som MS Excel, beror på nästa cell. Om nästa cell är null kommer strängen att korsas eller trunkeras.
+När en cell innehåller text eller sträng men den är större än cellens bredd, då överlappar strängen om nästa cell i nästa kolumn är tom eller tom. När du sparar din Excel-fil i PDF/Bildformat kan du kontrollera detta överskott genom att specificera korsa-typen med hjälp av [**TextCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextCrossType)-enumerationen. Den har följande värden
 
-- [**TextCrossType. CROSS_BEHÅLL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP): Visa strängen som MS Excel som exporterar PDF/bild
+- [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT): Visa som MS Excel, beroende på nästa cell. Om nästa cell är tom kommer strängen att korsa eller bli avhuggen.
 
-- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE): Visa all text genom att korsa andra celler och åsidosätta text i korsade celler
+- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP): Visa strängen som MS Excel exporterar till PDF/Bild
 
-- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL): Visar endast strängen inom cellens bredd.
+- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE): Visa all text genom att korsa andra celler och åsidosätta texten från de korsade cellerna
 
-## **Ange hur strängen ska korsas i utdata PDF/Bild med TextCrossType**
+- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL): Endast visa strängen inom cellens bredd.
 
-Följande exempelkod laddar exemplet i Excel-filen och sparar den i PDF/bildformat genom att ange olika[**TextCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextCrossType). Exemplet på Excel-filen och utdatafilerna kan laddas ner från följande länkar:
+## **Ange hur du ska korsa strängen i utdata PDF/Bild med hjälp av TextCrossType**
+
+Följande exempelkod laddar den prov Excel-filen och sparar den i PDF/Bildformat genom att specificera olika [**TextCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextCrossType). Provfilen och utdatafilerna kan laddas ner från följande länkar:
 
 [sampleCrossType.xlsx](sampleCrossType.xlsx)
 

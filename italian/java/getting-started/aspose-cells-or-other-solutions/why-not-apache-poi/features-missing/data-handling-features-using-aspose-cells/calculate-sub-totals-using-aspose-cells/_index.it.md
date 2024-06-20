@@ -1,15 +1,16 @@
-﻿---
-title: Calcola i totali parziali utilizzando Aspose.Cells
+---
+title: Calcola i Sub Totali utilizzando Aspose.Cells
 type: docs
 weight: 20
 url: /it/java/calculate-sub-totals-using-aspose-cells/
 ---
-## **Aspose.Cells - Calcola sub totali**
-Puoi creare automaticamente subtotali per qualsiasi valore ripetuto in un foglio di calcolo. Aspose.Cells fornisce API funzionalità che consentono di aggiungere subtotali ai fogli di calcolo in modo programmatico.
+
+## **Aspose.Cells - Calcolare i subtotali**
+Puoi creare automaticamente subtotale per qualsiasi valore ripetuto in un foglio di calcolo. Aspose.Cells fornisce funzionalità API che ti aiutano ad aggiungere subtotali ai fogli di calcolo in modo programmato.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,7 +36,7 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[]{ 1 });
+cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 
 //Save the excel file
 
@@ -43,12 +44,12 @@ workbook.save("AsposeTotal.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/formula/AsposeCreateSubTotals.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/formula/AsposeCreateSubTotals.java)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Creazione di subtotali](/cells/it/java/creating-subtotals).
+Per ulteriori dettagli, visita [Creazione dei Sotto Totali](/cells/it/java/creating-subtotals).
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
-﻿---
-title: ワークシート内の形状でテキストを回転させる
+---
+title: ワークシート内の図形と一緒にテキストを回転する
 type: docs
 weight: 110
 url: /ja/java/rotate-text-with-shape-inside-the-worksheet/
 ---
-## **考えられる使用シナリオ**
 
-Microsoft Excel を使用して、任意の図形内にテキストを追加できます。非常に古い Microsoft Excel 2003 を使用して図形を追加すると、テキストは図形と共に回転しません。ただし、Microsoft Excel の新しいバージョン (2007、2010、2013、2016 など) を使用して形状を追加すると、テキストは形状と共に回転します。テキストをシェイプに合わせて回転させるかどうかを制御できます。[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RotateTextWithShape)財産。そのデフォルト値は**真実**これは、テキストが形状とともに回転することを意味しますが、次のように設定した場合**間違い**の場合、テキストは形状とともに回転しません。
+## **可能な使用シナリオ**
 
-## **ワークシート内の形状でテキストを回転させる**
+Microsoft Excelを使用して、任意の図形にテキストを追加できます。Microsoft Excel 2003以前を使用して図形を追加すると、テキストは図形と一緒に回転しません。ただし、Microsoft Excel 2007、2010、2013または2016などの新しいバージョンを使用して図形を追加すると、テキストは図形と一緒に回転します。テキストが図形と一緒に回転するかどうかを[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RotateTextWithShape)プロパティを使用して制御できます。デフォルト値は**true**で、これはテキストが図形と一緒に回転することを意味しますが、**false**に設定すると、テキストは図形と一緒に回転しません。
 
-次のサンプル コードは、[サンプル Excel ファイル](64716919.xlsx)三角形の形をしており、そのテキストは形に合わせて回転します。 Microsoft Excel でサンプルの Excel ファイルを開いて三角形を回転させると、テキストも一緒に回転します。次に、コードは[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RotateTextWithShape)プロパティとして**間違い**そしてそれをとして保存します[出力エクセルファイル](64716917.xlsx).出力された Excel ファイルを Microsoft Excel で開き、三角形を回転させても、テキストは回転しません。サンプルの Excel ファイルに対するコードの効果を示す次のスクリーンショットを参照してください。
+## **ワークシート内の図形と一緒にテキストを回転する**
 
-![todo:画像_代替_文章](rotate-text-with-shape-inside-the-worksheet_1.png)
+次のサンプルコードは、図形とそのテキストが一緒に回転する三角形のサンプルExcelファイルをロードします。サンプルExcelファイルをMicrosoft Excelで開き、三角形の図形を回転させると、テキストもそれに従って回転します。次に、[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RotateTextWithShape)プロパティを**false**として設定し、[output Excel file](64716917.xlsx)として保存します。これで、Microsoft Excelで出力Excelファイルを開き、三角形の図形を回転させると、テキストはそれに従って回転しません。参考のために、サンプルExcelファイルへのコードの効果を示すスクリーンショットを参照してください。
+
+![todo:image_alt_text](rotate-text-with-shape-inside-the-worksheet_1.png)
 
 ## **サンプルコード**
 

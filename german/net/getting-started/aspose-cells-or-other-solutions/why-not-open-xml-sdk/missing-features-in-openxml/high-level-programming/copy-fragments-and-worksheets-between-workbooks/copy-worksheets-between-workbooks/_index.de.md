@@ -1,30 +1,31 @@
-﻿---
+---
 title: Arbeitsblätter zwischen Arbeitsmappen kopieren
 type: docs
 weight: 10
 url: /de/net/copy-worksheets-between-workbooks/
 ---
-Aspose.Cells stellt eine Methode bereit, Aspose.Cells.Worksheet.Copy(), die verwendet wird, um Daten und Formatierungen von einem Quellarbeitsblatt in ein anderes Arbeitsblatt innerhalb oder zwischen Arbeitsmappen zu kopieren. Die Methode nimmt das Quellarbeitsblattobjekt als Parameter.
 
-Das folgende Beispiel zeigt, wie Sie ein Arbeitsblatt von einer Arbeitsmappe in eine andere Arbeitsmappe kopieren.
+Aspose.Cells bietet eine Methode, Aspose.Cells.Worksheet.Copy(), die zum Kopieren von Daten und Formatierungen von einem Quellarbeitsblatt in ein anderes Arbeitsblatt innerhalb oder zwischen Arbeitsmappen verwendet wird. Die Methode nimmt das Quellarbeitsblattobjekt als Parameter.
 
-{{< highlight "csharp" >}}
+Das folgende Beispiel zeigt, wie ein Arbeitsblatt von einer Arbeitsmappe in eine andere kopiert wird.
 
-string FilePath = @"..\..\..\Beispieldateien\";
+{{< highlight csharp >}}
 
-string FileName = FilePath + "Blatt zwischen Workbook.xlsx kopieren";
+ string FilePath = @"..\..\..\Sample Files\";
 
-//Eine neue Arbeitsmappe erstellen.
+string FileName = FilePath + "Copy Sheet between Workbook.xlsx";
 
-Arbeitsmappe excelWorkbook0 = neue Arbeitsmappe();
+//Create a new Workbook.
 
-//Erstes Arbeitsblatt im Buch holen.
+Workbook excelWorkbook0 = new Workbook();
 
-Arbeitsblatt ws0 = excelWorkbook0.Worksheets[0];
+//Get the first worksheet in the book.
 
-//Einige Daten in Kopfzeilen einfügen (A1:A4)
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
- für (int i = 0; i< 5; i++)
+//Put some data into header rows (A1:A4)
+
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -76,23 +77,23 @@ excelWorkbook1.Save(FileName);
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
-Das folgende Beispiel zeigt, wie Sie ein Arbeitsblatt von einer Arbeitsmappe in eine andere Arbeitsmappe kopieren.
+Das folgende Beispiel zeigt, wie ein Arbeitsblatt von einer Arbeitsmappe in eine andere kopiert wird.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Eine neue Arbeitsmappe erstellen.
+ //Create a new Workbook.
 
-Arbeitsmappe excelWorkbook0 = neue Arbeitsmappe();
+Workbook excelWorkbook0 = new Workbook();
 
-//Erstes Arbeitsblatt im Buch holen.
+//Get the first worksheet in the book.
 
-Arbeitsblatt ws0 = excelWorkbook0.Worksheets[0];
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-//Einige Daten in Kopfzeilen einfügen (A1:A4)
+//Put some data into header rows (A1:A4)
 
- für (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -145,5 +146,5 @@ excelWorkbook1.Save("copyworksheet.xls");
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)

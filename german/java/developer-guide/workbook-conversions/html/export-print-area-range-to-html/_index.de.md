@@ -1,16 +1,17 @@
-﻿---
-title: Exportieren Sie den Druckbereichsbereich nach HTML
+---
+title: Bereich des Druckbereichs in HTML exportieren
 type: docs
 weight: 60
 url: /de/java/export-print-area-range-to-html/
 ---
-## Mögliche Nutzungsszenarien
 
-Dies ist ein sehr häufiges Szenario, bei dem wir nur den Druckbereich exportieren müssen, dh einen ausgewählten Zellbereich, anstatt das gesamte Blatt nach HTML zu exportieren. Diese Funktion ist bereits für das Rendern von PDF verfügbar, jetzt können Sie diese Aufgabe jedoch auch für HTML ausführen. Legen Sie zunächst den Druckbereich im Seiteneinrichtungsobjekt des Arbeitsblatts fest. Spätere Verwendung[**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportPrintAreaOnly)-Eigenschaft, um nur den ausgewählten Bereich zu exportieren.
+## Mögliche Anwendungsszenarien
 
-## Java-Code zum Exportieren des Druckbereichsbereichs auf HTML
+Dies ist ein sehr häufiges Szenario, bei dem wir nur den Druckbereich, d.h. einen ausgewählten Zellenbereich anstelle des gesamten Blatts, in HTML exportieren müssen. Diese Funktion ist bereits für die PDF-Erstellung verfügbar, jedoch können Sie nun diese Aufgabe auch für HTML ausführen. Legen Sie zunächst den Druckbereich im Seitenlayoutobjekt des Arbeitsblatts fest. Verwenden Sie später die [**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportPrintAreaOnly) Eigenschaft, um nur den ausgewählten Bereich zu exportieren.
 
-Der folgende Beispielcode lädt eine Arbeitsmappe und exportiert dann den Druckbereich in HTML. Die Beispieldatei zum Testen dieser Funktion kann über den folgenden Link heruntergeladen werden:
+## Java-Code zum Exportieren des Druckbereichs in HTML
+
+Nachfolgender Beispielscode lädt eine Arbeitsmappe und exportiert dann den Druckbereich in das HTML. Die Beispieldatei zur Prüfung dieser Funktion kann von folgendem Link heruntergeladen werden:
 
 [sampleInlineCharts.xlsx](79527960.xlsx)
 

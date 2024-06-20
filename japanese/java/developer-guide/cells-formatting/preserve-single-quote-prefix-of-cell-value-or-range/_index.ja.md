@@ -1,20 +1,21 @@
-﻿---
-title: Cell 値または範囲の一重引用符プレフィックスを保持
+---
+title: セル値または範囲の接頭辞を保存します
 type: docs
 weight: 1900
 url: /ja/java/preserve-single-quote-prefix-of-cell-value-or-range/
 ---
-## **考えられる使用シナリオ**
 
-先頭にアポストロフィまたは一重引用符があるセル内に値を入力すると、Microsoft Excel はそれを非表示にしますが、セルを選択すると、次のスクリーンショットに示すように数式バーに先頭のアポストロフィまたは一重引用符が表示されます。
+## **可能な使用シナリオ**
 
-![todo:画像_代替_文章](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
+先頭にアポストロフィやシングルクォートマークがあるセルに値を入れると、Microsoft Excelはそれを非表示にしますが、セルを選択すると、次のスクリーンショットに示すように、既定の値が表示されます。
 
-Aspose.Cells も、Microsoft Excel のように先頭のアポストロフィまたは一重引用符を非表示にしますが、[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)なので**真実**そのセルのために。セルの空のスタイルを設定すると、[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)になる**間違い**また。この問題に対処するために、Aspose.Cells が提供します。[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)プロパティ、設定時**間違い**、 それから[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)はまったく更新されず、古い値が保持されます。の古い値が[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)プロパティは**真実**、それは true のままで、古い値が false だった場合は false のままです。
+![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-## **Cell 値または範囲の一重引用符プレフィックスを保持**
+Aspose.Cells は、Microsoft Excel のように先頭のアポストロフィやシングルクォートを非表示にしますが、そのセルに対して[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)を**true**に設定します。セルの空のスタイルを設定すると、[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)は再び **false**になります。この問題に対処するために、Aspose.Cells は[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)プロパティを提供し、それが**false**に設定されている場合、[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) は全く更新されず、古い値が保持されます。つまり、[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) プロパティの古い値が**true**であれば、それは変わらず、古い値がfalseであれば、そのままfalseのままです。
 
-次のサンプル コードは、[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)プロパティは前述のとおりです。詳細については、コード内のコメントを読み、以下に示すコードのコンソール出力を参照してください。
+## **セル値または範囲の先頭にシングルクォートのプレフィックスを保存**
+
+次のサンプルコードは、前述の[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)プロパティの使用法を説明しています。コード内のコメントを読んで、以下のコードのコンソール出力を参照してください。
 
 ## **サンプルコード**
 
@@ -22,7 +23,7 @@ Aspose.Cells も、Microsoft Excel のように先頭のアポストロフィま
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Quote Prefix of Cell A1: false
 

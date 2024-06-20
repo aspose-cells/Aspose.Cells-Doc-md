@@ -1,17 +1,18 @@
-﻿---
-title: XLS أو XLSX تصدير
+---
+title: تصدير XLS أو XLSX
 type: docs
 weight: 20
 url: /ar/jasperreports/xls-or-xlsx-export/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for JasperReports يسمح لك بتسليم التقارير بالتنسيق XLS و XLSX دون فقد التخطيط أو التنسيق. لإنشاء جداول بيانات بتنسيقات Microsoft Excel ، يعتمد Aspose.Cells for JasperReports على إصدار مضمن من[Aspose.Cells for Java](https://products.aspose.com/cells/java/)، مكتبة رائدة في معالجة جداول البيانات من Aspose.
+يسمح Aspose.Cells for JasperReports لك بتقديم التقارير في تنسيقات XLS و XLSX بدون فقدان التخطيط أو التنسيق. لإنشاء جداول في تنسيقات Microsoft Excel، يعتمد Aspose.Cells for JasperReports على الإصدار المدمج من [Aspose.Cells for Java](https://products.aspose.com/cells/java/)، وهو مكتبة معالجة الجداول المعروفة من Aspose.
 
-Microsoft Excel غير مطلوب لإنشاء مستندات مع Aspose.Cells.
+ليس هناك حاجة لبرنامج Microsoft Excel لإنشاء وثائق بمساعدة Aspose.Cells.
 
-**تم تصدير نموذج تقرير XLS باستخدام Aspose.Cells for JasperReports** 
+**مثال على تقرير XLS تم تصديره باستخدام Aspose.Cells for JasperReports** 
 
-![ما يجب القيام به: image_بديل_نص](xls-or-xlsx-export_1.png)
+![todo:image_alt_text](xls-or-xlsx-export_1.png)
 
 {{% /alert %}}

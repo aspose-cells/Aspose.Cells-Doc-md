@@ -1,15 +1,16 @@
-﻿---
-title: أوجد القيمة في Cells في xlsx4j
+---
+title: العثور على قيمة في الخلايا في xlsx4j
 type: docs
 weight: 30
 url: /ar/java/find-value-in-cells-in-xlsx4j/
 ---
-## **Aspose.Cells - أوجد القيمة في Cells**
-في Microsoft Excel ، يمكن للمستخدمين البحث عن الخلايا التي تحتوي على بيانات محددة. على سبيل المثال ، النقر فوق**تعديل**وثم**يجد**يفتح مربع حوار البحث. يقوم المستخدمون بإدخال قيمة والنقرات**نعم**للبحث عنه. يبرز Excel الحقول المتطابقة.
+
+## **أسبوز.خلايا - العثور على القيمة في الخلايا**
+في Microsoft Excel ، يمكن للمستخدمين البحث عن الخلايا التي تحتوي على بيانات محددة. على سبيل المثال، بالنقر على **تحرير** ثم **البحث** يفتح مربع البحث. يُدخل المستخدم قيمة وينقر **موافق** للبحث عنها. يقوم Excel بتحديد الحقول المطابقة.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -38,13 +39,13 @@ Cell cell = cells.find("SH",null,findOptions);
 System.out.println("Name of the cell containing String: " + cell.getName());
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/findvalueincells/AsposeFindValueInCells.java)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/findvalueincells/AsposeFindValueInCells.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[البحث عن البيانات أو البحث عنها](/cells/ar/java/find-or-search-data).
+لمزيد من التفاصيل، قم بزيارة [البحث عن البيانات](/cells/ar/java/find-or-search-data).
 
 {{% /alert %}}

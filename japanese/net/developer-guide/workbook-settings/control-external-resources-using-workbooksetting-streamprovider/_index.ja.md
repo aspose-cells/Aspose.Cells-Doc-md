@@ -1,18 +1,19 @@
-﻿---
-title: WorkbookSetting.StreamProvider を使用して外部リソースを制御する
+---
+title: WorkbookSetting.StreamProvider を使用して外部リソースを制御する
 type: docs
 weight: 10
 url: /ja/net/control-external-resources-using-workbooksetting-streamprovider/
 ---
-## **考えられる使用シナリオ**
 
-Excel ファイルには、リンクされた画像などの外部リソースが含まれている場合があります。Aspose.Cells を使用すると、これらの外部リソースを制御できます。[**Workbook.Settings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider)の実装を取ります[**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)インターフェース。リンクされた画像などの外部リソースを含むワークシートをレンダリングしようとするときはいつでも、[**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)インターフェイスが呼び出され、外部リソースに対して適切なアクションを実行できるようになります。
+## **可能な使用シナリオ**
 
-## **WorkbookSetting.StreamProvider を使用して外部リソースを制御する**
+時には、Excelファイルにはリンクされた画像などの外部リソースが含まれています。Aspose.Cellsを使用すると、[**Workbook.Settings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider)というインターフェースの実装を使用して、これらの外部リソースを制御することができます。ワークシートに外部リソース（リンクされた画像など）を含む場合、[**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)インターフェースのメソッドが呼び出され、外部リソースに対する適切なアクションを取ることが可能になります。
 
-次のサンプル コードは、[**Workbook.Settings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) .それは[サンプル Excel ファイル](61767863.xlsx)リンクされた画像が含まれています。コードは、リンクされた画像を次のように置き換えます[Aspose ロゴ](61767862.png)を使用して、シート全体を単一の画像にレンダリングします[**シートレンダリング**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)クラス。次のスクリーンショットは、サンプルの Excel ファイルとその[レンダリングされた出力イメージ](61767865.png)参考までに。ご覧のとおり、壊れたリンク画像は Aspose ロゴに置き換えられています。
+## **[Workbook.Settings.StreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#StreamProvider)を使用して外部リソースを制御する**
 
-![todo:画像_代替_文章](control-external-resources-using-workbooksetting-streamprovider_1.png)
+次のサンプルコードは、[**Workbook.Settings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider)の使用方法を説明しています。[サンプルExcelファイル](61767863.xlsx)をロードし、リンクされた画像を[Asposeロゴ](61767862.png)で置き換え、[**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)クラスを使用してシート全体を単一の画像にレンダリングします。以下のスクリーンショットは、サンプルExcelファイルと[レンダリングされた出力画像](61767865.png)を参照のこと。壊れたリンクされた画像がAsposeロゴで置き換えられていることが分かります。
+
+![todo:image_alt_text](control-external-resources-using-workbooksetting-streamprovider_1.png)
 
 ## **サンプルコード**
 

@@ -1,43 +1,44 @@
 ---
-title: Licensing
+title: ライセンス
 type: docs
 weight: 50
 url: /ja/cpp/licensing/
 ---
-##  **評価版の制限事項**
-Aspose.Cells for C++ の無料評価版は、Aspose の Web サイトのダウンロード セクションからダウンロードできます。<https://downloads.aspose.com/cells/cpp>.
-##  **ファイルまたはストリーム オブジェクトを使用してライセンスを適用する**
-ライセンスはファイルまたはストリーム オブジェクトからロードできます。 Aspose.Cells for C++ は、次の場所でライセンスを検索しようとします。
+
+## **評価版の制限**
+A free evaluation version of Aspose.Cells for C++ can be downloaded from the downloads section of Aspose's web site at: <https://downloads.aspose.com/cells/cpp>.
+## **ファイルまたはストリームオブジェクトを使用してライセンスを適用する**
+ライセンスはファイルまたはストリームオブジェクトから読み込むことができます。 Aspose.Cells for C++は次の場所でライセンスを検索しようとします：
 
 1. 明示的なパス。
-1. Aspose.Cells.dll が含まれるフォルダー。
-1. Aspose.Cells.dll を呼び出したアセンブリが含まれるフォルダー。
-1. エントリ アセンブリ (.exe) が含まれるフォルダー。
-1. Aspose.Cells.dll というアセンブリ内の埋め込みリソース。
+1. Aspose.Cells.dllを含むフォルダー。
+1. Aspose.Cells.dllを呼び出したアセンブリを含むフォルダー。
+1. エントリアセンブリ（.exe）を含むフォルダー。
+1. Aspose.Cells.dllを呼び出したアセンブリ内の埋め込みリソース。
 
-ライセンスを設定する最も簡単な方法は、次の例に示すように、ライセンス ファイルを Aspose.Cells.dll ファイルと同じフォルダーに置き、パスを指定せずにファイル名を指定することです。
-###  **ファイルからライセンスをロードする**
-ライセンスを適用する最も簡単な方法は、ライセンス ファイルを Aspose.Cells.dll ファイルと同じフォルダーに置き、パスを指定せずにファイル名だけを指定することです。
+ライセンスを設定する最も簡単な方法は、Aspose.Cells.dllファイルと同じフォルダにライセンスファイルを配置し、以下の例に示すように、パスなしでファイル名を指定することです。
+### **ファイルからライセンスを読み込む**
+ライセンスを適用する最も簡単な方法は、Aspose.Cells.dllファイルと同じフォルダにライセンスファイルを配置し、パスなしでファイル名のみを指定することです。
 
 {{% alert color="primary" %}} 
 
-SetLicense メソッドを呼び出す場合、渡すライセンス名はライセンス ファイルのライセンス名である必要があります。たとえば、ライセンス ファイル名を「Aspose.Cells.lic.xml」に変更する場合は、そのファイル名を Cells->SetLicense(…) メソッドに渡します。
+SetLicenseメソッドを呼び出す際に、渡すライセンス名はライセンスファイルのものである必要があります。たとえば、ライセンスファイル名を"Aspose.Cells.lic.xml"に変更した場合、そのファイル名をCells->SetLicense(…)メソッドに渡してください。
 
 {{% /alert %}} 
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
   License license;
   license.SetLicense(u"Aspose.Cells.lic");
 
 {{< /highlight >}}
-###  **ストリームオブジェクトからのライセンスのロード**
-次の例は、ストリームからライセンスをロードする方法を示しています。
+### **ストリームオブジェクトからライセンスを読み込む**
+以下の例は、ストリームからライセンスを読み込む方法を示しています。
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   License license;
 

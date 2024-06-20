@@ -1,16 +1,17 @@
-﻿---
-title: Establecer el espaciado de línea del párrafo en una forma o cuadro de texto
+---
+title: Establecer espaciado de línea del párrafo en una forma o cuadro de texto
 type: docs
 weight: 810
 url: /es/java/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 ---
+
 {{% alert color="primary" %}} 
 
-Puede establecer el espacio de línea del párrafo, su espacio antes y después usando TextParagraph.LineSpace, TextParagraph.SpaceBefore y TextParagraph.SpaceAfter respectivamente.
+Puedes establecer el espaciado de línea del párrafo, su espacio antes y después utilizando TextParagraph.LineSpace, TextParagraph.SpaceBefore y TextParagraph.SpaceAfter respectivamente.
 
 {{% /alert %}} 
-## **Establecer el espaciado de línea del párrafo en una forma o cuadro de texto**
- El siguiente código de ejemplo explica el uso de las propiedades mencionadas. Por favor descarga el[archivo de salida de Excel](5473432.xlsx) generado por el código para su referencia.
+## **Establecer Espaciado de Línea del Párrafo en una Forma o Cuadro de Texto**
+El siguiente código de muestra explica el uso de las propiedades mencionadas. Por favor, descarga el [archivo de Excel de salida](5473432.xlsx) generado por el código como referencia.
 
 
 

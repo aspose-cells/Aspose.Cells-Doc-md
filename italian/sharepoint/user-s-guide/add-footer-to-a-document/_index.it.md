@@ -1,21 +1,22 @@
-﻿---
+---
 title: Aggiungi piè di pagina a un documento
 type: docs
 weight: 70
 url: /it/sharepoint/add-footer-to-a-document/
 ---
-Se desideri aggiungere un piè di pagina in un file Excel, scegli l'opzione "Aggiungi piè di pagina con Aspose.Cells" nell'Edit Control Block (ECB) del documento.
 
-![cose da fare:immagine_alt_testo](add-footer-to-a-document_1.png)
+Se desideri aggiungere un piè di pagina a un file Excel, seleziona l'opzione "Aggiungi piè di pagina con Aspose.Cells" nel Blocco di Controllo Modifica (ECB) del documento.
 
-Le seguenti opzioni sono disponibili durante l'impostazione dell'aggiunta del piè di pagina:
+![todo:image_alt_text](add-footer-to-a-document_1.png)
 
-![cose da fare:immagine_alt_testo](add-footer-to-a-document_2.png)
+Le seguenti opzioni sono disponibili durante la configurazione dell'aggiunta del piè di pagina:
+
+![todo:image_alt_text](add-footer-to-a-document_2.png)
 
 **Sezione**
 
-Aggiungi la posizione del piè di pagina: Sezione sinistra, Sezione centrale, Sezione destra.
+Posizione del piè di pagina: Sezione sinistra, Sezione centrale, Sezione destra.
 
-**Script piè di pagina**
+**Script del piè di pagina**
 
-Rappresenta lo script di formattazione del piè di pagina. Comandi di script: Comando | Descrizione| &P Numero pagina corrente| &N Conteggio pagine|&D Data corrente| &T Ora corrente &A Nome foglio &F Nome file senza percorso &"<FontName>" Nome del carattere, ad esempio: &"Arial" &"<FontName>, <FontStyle>" Nome e stile del carattere, ad esempio: &"Arial,Bold" &<FontSize>Dimensione del font. Se questo comando è seguito da un numero in chiaro da stampare nell'intestazione, sarà separato dall'altezza del carattere con un carattere di spazio. &G Script immagine Ad esempio: "&Arial,Bold&8Footer Note".
+It represents Footer formatting script. Script commands: Command | Description| &P Current page number| &N Page count|&D Current date| &T Current time &A Sheet name &F File name without path &"<FontName>" Font name, for example: &"Arial" &"<FontName>, <FontStyle>" Font name and font style, for example: &"Arial,Bold" &<FontSize> Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. &G Image script For example: "&Arial,Bold&8Footer Note".

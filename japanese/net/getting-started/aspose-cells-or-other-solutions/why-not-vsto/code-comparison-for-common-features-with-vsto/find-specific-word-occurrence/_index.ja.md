@@ -1,11 +1,12 @@
-﻿---
-title: 特定の単語出現箇所を検索
+---
+title: 特定の単語の出現箇所を見つける
 type: docs
 weight: 120
 url: /ja/net/find-specific-word-occurrence/
 ---
-## **VSTO エクセル**
-{{< highlight "csharp" >}}
+
+## **VSTO Excel**
+{{< highlight csharp >}}
 
  Excel.Application excelApp = Application;
 
@@ -42,9 +43,9 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- static void Main(string[]args)
+ static void Main(string[] args)
 
 {
 
@@ -117,6 +118,6 @@ private static void findNow(Worksheet objSheet, string textToFind)
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Find.Specific.Word.Occurrence.Aspose.Cells.zip)
-- [ソースフォージ](https://sourceforge.net/p/asposevsto/wiki/Home/)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Find%20Specific%20Word%20Occurrence)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Find.Specific.Word.Occurrence.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Find%20Specific%20Word%20Occurrence)

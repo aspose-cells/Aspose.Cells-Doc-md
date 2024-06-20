@@ -1,54 +1,55 @@
-﻿---
-title: ワークブックに新しいワークシートを追加し、VSTO および Aspose.Cells でシートをアクティブ化する
+---
+title: VSTOとAspose.Cellsで新しいワークシートをワークブックに追加し、シートをアクティブ化する
 type: docs
 weight: 30
 url: /ja/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-in-vsto-and-aspose-cells/
 ---
-## **移行のヒント:**
-1. 新しいワークシートを既存の Microsoft Excel ファイルに追加します。
-1. 新しい各ワークシートのセルにデータを入力します。
-1. ワークブックでシートをアクティブにします。
-1. Microsoft Excel ファイルとして保存します。
 
-以下は、VSTO (C#) と Aspose.Cells for .NET (C#) の並列コード スニペットで、これらのタスクを達成する方法を示しています。
+## **移行のヒント：**
+1. 既存のMicrosoft Excelファイルに新しいワークシートを追加します。
+1. 各新しいワークシートのセルにデータを入力します。
+1. ブック内のシートをアクティブにします。
+1. Microsoft Excelファイルとして保存します。
+
+以下は、これらのタスクを達成するためのVSTO（C#）およびAspose.Cells for .NET（C#）用の並行コードスニペットです。
 
 **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-// アプリケーション オブジェクトを開始する
+ //intiate application object
 
-Excel.Application excelApp = アプリケーション;
+Excel.Application excelApp = Application;
 
-// テンプレートの Excel ファイルのパスを指定します。
+//Specify the template excel file path.
 
 string myPath = "Book1.xls";
 
-//エクセルファイルを開く。
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value、
+Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value、
+Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value、
+Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value、
+Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value、
+Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value);
+Missing.Value, Missing.Value);
 
-//Worksheet オブジェクトを宣言します。
+//Declare a Worksheet object.
 
 Excel.Worksheet newWorksheet;
 
-// ワークブックに 5 つの新しいワークシートを追加し、いくつかのデータを入力します
+//Add 5 new worksheets to the workbook and fill some data
 
-//セルに。
+//into the cells.
 
-for (int i = 1; i< 6; i++){
+for (int i = 1; i < 6; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -88,35 +89,35 @@ excelApp.Quit();
 
 **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //ライセンスのインスタンスをインスタンス化し、ライセンス ファイルを設定します
+ //Instantiate an instance of license and set the license file
 
-//そのパスを介して
+//through its path
 
-Aspose.Cells.License ライセンス = 新しい Aspose.Cells.License();
+Aspose.Cells.License license = new Aspose.Cells.License();
 
 license.SetLicense("Aspose.Total.lic");
 
-// テンプレートの Excel ファイルのパスを指定します。
+//Specify the template excel file path.
 
 string myPath = "Book1.xls";
 
-// 新しい Workbook をインスタンス化します。
+//Instantiate a new Workbook.
 
-//エクセルファイルを開く。
+//Open the excel file.
 
-ワークブック ワークブック = 新しいワークブック(myPath);
+Workbook workbook = new Workbook(myPath);
 
-//Worksheet オブジェクトを宣言します。
+//Declare a Worksheet object.
 
-ワークシート newWorksheet;
+Worksheet newWorksheet;
 
-// ワークブックに 5 つの新しいワークシートを追加し、いくつかのデータを入力します
+//Add 5 new worksheets to the workbook and fill some data
 
-//セルに。
+//into the cells.
 
-for (int i = 0; i< 5; i++){
+for (int i = 0; i < 5; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -146,6 +147,6 @@ workbook.Save("out_My_Book1.xls");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
-- [ソースフォージ](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\)。ジップ）
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip)

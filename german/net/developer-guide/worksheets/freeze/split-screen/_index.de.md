@@ -1,56 +1,53 @@
 ---
-title: Geteilter Bildschirm des Excel-Arbeitsblatts
-linktitle: Geteilter Bildschirm
+title: Aufteilen des Bildschirms des Excel Arbeitsblatts
+linktitle: Bildschirm aufteilen
 type: docs
 weight: 190
 url: /de/net/how-to-split-screen-of-excel-worksheet
-description: In diesem Artikel erfahren Sie, wie Sie bestimmte Zeilen und/oder Spalten in separaten Bereichen anzeigen, indem Sie das Arbeitsblatt mithilfe der Bibliothek C# mit .NET API programmgesteuert in zwei oder vier Teile aufteilen.
-keywords: Freeze top rows, Feeze top row.
+description: In diesem Artikel erfahren Sie, wie Sie bestimmte Zeilen und/oder Spalten in separaten Fenstern anzeigen können, indem Sie das Arbeitsblatt programmgesteuert in zwei oder vier Teile aufteilen mithilfe der C# Bibliothek mit .NET API.
+keywords: Obere Zeilen einfrieren, Oberste Zeile einfrieren.
 ---
-{{% alert color="primary" %}}
 
-In diesem Artikel erfahren Sie, wie Sie bestimmte Zeilen und/oder Spalten in separaten Bereichen anzeigen, indem Sie das Arbeitsblatt in zwei oder vier Teile aufteilen.
-Wenn wir mit großen Datenmengen arbeiten, müssen wir jeweils einige Bereiche desselben Arbeitsblatts sehen, um verschiedene Teilmengen von Daten vergleichen zu können.
-Die Split-Screen-Funktion kann Ihren Anforderungen gerecht werden.
+## **Einführung**
 
-{{% /alert %}}
+In diesem Artikel erfahren Sie, wie man bestimmte Zeilen und/oder Spalten in separate Fenster aufteilt, indem man das Arbeitsblatt in zwei oder vier Teile aufteilt. Wenn Sie mit großen Datenmengen arbeiten, müssen Sie gleichzeitig verschiedene Teile desselben Arbeitsblatts sehen, um verschiedene Teilmengen von Daten vergleichen zu können. Mit der Funktion zum Aufteilen des Bildschirms können Sie Ihre Anforderungen erfüllen.
 
-##  **So teilen Sie den Bildschirm in Excel**
-Gehen Sie wie folgt vor, um ein Arbeitsblatt in zwei oder vier Teile aufzuteilen:
+## **Wie man den Bildschirm in Excel aufteilt**
+Um ein Arbeitsblatt in zwei oder vier Teile aufzuteilen, führen Sie folgende Schritte aus:
 
-1. Wählen Sie die Zeile/Spalte/Zelle aus, vor der Sie die Teilung platzieren möchten.
-2. Klicken Sie auf der Registerkarte „Ansicht“ in der Gruppe „Windows“ auf die Schaltfläche „Teilen“.
+1. Wählen Sie die Zeile/Spalte/Zelle aus, vor der Sie den Split platzieren möchten.
+2. Klicken Sie im Register Ansicht auf der Registerkarte Fenster in der Gruppe Windows auf die Schaltfläche Split.
 
-**![Geteilter Bildschirm](Split-Screen.png)**
+**![Bildschirm teilen](Split-Screen.png)**
 
-##  **Teilen Sie das Arbeitsblatt vertikal in Spalten auf**
+## **Arbeitsblatt vertikal in Spalten teilen**
 
-Um zwei Bereiche der Tabelle vertikal zu trennen, wählen Sie die Spalte rechts neben der Spalte aus, in der die Aufteilung erfolgen soll, und klicken Sie in Excel auf die Schaltfläche „Teilen“.
+Um zwei Bereiche des Tabellenblatts vertikal zu trennen, wählen Sie die Spalte rechts von der Spalte aus, an der die Trennung erscheinen soll, und klicken Sie auf die Schaltfläche Split in Excel.
 
-Mit Aspose.Cells für .Net ist es einfach, ein Arbeitsblatt programmgesteuert vertikal in Spalten aufzuteilen. Wir müssen dann nur eine Zelle in der oberen Zeile als aktive Zelle auswählen
-geteilt mit[**Arbeitsblatt.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) Methode.
+Es ist einfach, das Arbeitsblatt vertikal in Spalten programmgesteuert mit Aspose.Cells for .Net zu teilen, wir müssen nur eine Zelle in der obersten Reihe als aktive Zelle auswählen und dann
+mit der Methode [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) teilen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Vertically-Split.cs" >}}
 
-##  **Arbeitsblatt horizontal in Zeilen aufteilen**
-Um Ihr Excel-Fenster horizontal zu teilen, wählen Sie die Zeile unterhalb der Zeile aus, in der die Teilung in Excel erfolgen soll.
+## **Arbeitsblatt horizontal in Zeilen teilen**
+Um Ihr Excel-Fenster horizontal zu trennen, wählen Sie die Zeile unterhalb der Zeile, an der die Trennung in Excel erfolgen soll.
 
-Mit Aspose.Cells für .Net ist es einfach, ein Arbeitsblatt programmgesteuert horizontal in Zeilen aufzuteilen. Wir müssen dann nur eine Zelle in der linken Spalte als aktive Zelle auswählen
-geteilt mit[**Arbeitsblatt.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) Methode.
+Es ist einfach, das Arbeitsblatt horizontal in Zeilen programmgesteuert mit Aspose.Cells for .Net zu teilen, wir müssen nur eine Zelle in der linken Spalte als aktive Zelle auswählen und dann
+mit der Methode [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) teilen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Horizontally-Split.cs" >}}
 
-##  **Teilen Sie das Arbeitsblatt in vier Teile**
-Um vier verschiedene Abschnitte desselben Arbeitsblatts gleichzeitig anzuzeigen, teilen Sie Ihren Bildschirm in Excel sowohl vertikal als auch horizontal.
+## **Arbeitsblatt in vier Teile teilen**
+Um vier verschiedene Abschnitte desselben Arbeitsblatts gleichzeitig anzuzeigen, teilen Sie Ihren Bildschirm sowohl vertikal als auch horizontal in Excel.
 
-Mit Aspose.Cells für .Net ist es einfach, ein Arbeitsblatt programmgesteuert vertikal in Spalten aufzuteilen. Wir müssen dann nur eine Zelle, die sich nicht in der ersten Zeile und Spalte befindet, als aktive Zelle auswählen
-geteilt mit[**Arbeitsblatt.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) Methode.
+Es ist einfach, das Arbeitsblatt vertikal in Spalten programmgesteuert mit Aspose.Cells for .Net zu teilen, wir müssen nur eine Zelle nicht in der ersten Zeile und Spalte als aktive Zelle auswählen und dann
+mit der Methode [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) teilen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Split-Four.cs" >}}
 
-##  **So entfernen Sie Split**
-Um die Arbeitsblattaufteilung aufzuheben, klicken Sie einfach erneut auf die Schaltfläche „Teilen“.
+## **So entfernen Sie die Trennung**
+Um die Trennung des Arbeitsblatts zu entfernen, klicken Sie einfach erneut auf die Schaltfläche Split.
 
- Aspose.Cells für .Net bietet eine[**Arbeitsblatt.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) Methode zum Entfernen der Split-Einstellung.
+Aspose.Cells for .Net bietet eine Methode [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) zum Entfernen der Trennungseinstellung.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}

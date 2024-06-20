@@ -1,58 +1,59 @@
-﻿---
-title: Показать и скрыть линии сетки и заголовки столбцов строк
+---
+title: Показывать и скрывать сетку и заголовки строк и столбцов
 type: docs
 weight: 30
 url: /ru/net/show-and-hide-gridlines-and-row-column-headers/
-description: В этой статье представлен пример кода для использования библиотеки C# API или .NET для программного скрытия или отображения линий сетки, заголовков строк и столбцов листа Excel.
+description: В этой статье приведен образцовый код для использования API C# или библиотеки .NET для программного скрытия или показа сетки, заголовков строк и столбцов на листе Excel.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells поддерживает скрытие и отображение линий сетки рабочего листа, которые видны по умолчанию. Он также обеспечивает контроль видимости заголовков столбцов строк рабочего листа.
+Aspose.Cells поддерживает скрытие и показ сетки листа Excel, которая обычно видна. Он также обеспечивает контроль видимости заголовков строк и столбцов листа.
 
 {{% /alert %}}
 
-## **Показать и скрыть линии сетки**
+## **Отображение и скрытие линий сетки**
 
-Все рабочие листы Excel имеют линии сетки по умолчанию. Они помогают разграничить ячейки, чтобы было легко вводить данные в определенные ячейки. Линии сетки позволяют нам рассматривать рабочий лист как набор ячеек, где каждую ячейку легко идентифицировать.
+Все листы Excel по умолчанию имеют сетку. Они помогают выделять клетки для удобства ввода данных. Сетка позволяет нам просматривать лист как коллекцию клеток, каждая клетка легко идентифицируется.
 
-### **Управление видимостью линий сетки**
+### **Управление видимостью сетки**
 
-Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook), представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook)класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)коллекция, которая позволяет разработчикам получать доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Класс предоставляет широкий спектр свойств и методов для управления рабочим листом. Для управления видимостью линий сетки используйте[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) имущество.[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) является логическим свойством, что означает, что оно может хранить только**истинный** или же**ЛОЖЬ** стоимость.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) содержит коллекцию [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets), позволяющую разработчикам получить доступ к каждому листу Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) предоставляет широкий спектр свойств и методов для управления листом. Чтобы контролировать видимость сетки, используйте свойство [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) класса [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) - это логическое свойство, что означает, что оно может содержать только значение **true** или **false**.
 
-#### **Делаем линии сетки видимыми**
+#### **Отображение линий сетки**
 
- Сделайте линии сетки видимыми, установив[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) собственность на**истинный**.
+Сделать сетку видимой, установив для свойства [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) класса [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) значение **true**.
 
 #### **Скрытие линий сетки**
 
- Скройте линии сетки, установив[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) собственность на**ЛОЖЬ**.
+Скрыть сетку, установив для свойства [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) класса [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) значение **false**.
 
- Ниже приведен полный пример, демонстрирующий использование[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)свойство, открыв файл Excel (book1.xls), скрыв линии сетки на первом листе и сохранив измененный файл как output.xls.
+Приведен полный пример, демонстрирующий использование свойства [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) путем открытия файла Excel (book1.xls), скрытия сетки на первом листе и сохранения измененного файла как output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideGridlines-1.cs" >}}
 
-## **Показать и скрыть заголовки столбцов строк**
+## **Показывать и скрывать заголовки строк и столбцов**
 
-Все рабочие листы в файле Excel состоят из ячеек, расположенных в строках и столбцах. Все строки и столбцы имеют уникальные значения, которые используются для их идентификации и идентификации отдельных ячеек. Например, строки пронумерованы — 1, 2, 3, 4 и т. д. — а столбцы упорядочены в алфавитном порядке — A, B, C, D и т. д. Значения строк и столбцов отображаются в заголовках. Используя Aspose.Cells, разработчики могут контролировать видимость этих заголовков строк и столбцов.
+Все листы Excel состоят из клеток, расположенных в строках и столбцах. Все строки и столбцы имеют уникальные значения, которые используются для их идентификации и для идентификации отдельных клеток. Например, строки нумеруются - 1, 2, 3, 4 и т. д., а столбцы упорядочены по алфавиту - A, B, C, D и т. д. Значения строк и столбцов отображаются в заголовках. С помощью Aspose.Cells разработчики могут управлять видимостью этих заголовков строк и столбцов.
 
-### **Управление видимостью рабочих листов**
+### **Управление видимостью листов**
 
-Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook), представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook)класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)коллекция, которая позволяет разработчикам получать доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Класс предоставляет широкий спектр свойств и методов для управления рабочим листом. Чтобы управлять видимостью заголовков строк и столбцов, используйте[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс[**Исровколумнхедерсвидибле**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) имущество.[**Исровколумнхедерсвидибле**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) является логическим свойством, что означает, что оно может хранить только**истинный** или же**ЛОЖЬ**стоимость.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) содержит коллекцию [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets), позволяющую разработчикам получить доступ к каждому листу Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) предоставляет широкий спектр свойств и методов для управления листом. Для управления видимости заголовков строк и столбцов используйте свойство [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) класса [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) - это логическое свойство, что означает, что оно может содержать только значение **true** или **false**.
 
 #### **Отображение заголовков строк/столбцов**
 
- Сделайте заголовки строк и столбцов видимыми, установив[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс[**Исровколумнхедерсвидибле**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) собственность на**истинный**.
+Сделать заголовки строк и столбцов видимыми, установив для свойства [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) класса [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) значение **true**.
 
 #### **Скрытие заголовков строк/столбцов**
 
- Скройте заголовки строк и столбцов, установив[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс[**Исровколумнхедерсвидибле**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) собственность на**ЛОЖЬ**.
+Скрыть заголовки строк и столбцов, установив для свойства [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) класса [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) значение **false**.
 
-Ниже приведен полный пример, который показывает, как использовать[**Исровколумнхедерсвидибле**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)свойство, открыв файл Excel (book1.xls), скрыв заголовки строк и столбцов на первом рабочем листе и сохранив измененный файл как output.xls.
+Приведен полный пример, показывающий, как использовать свойство [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) путем открытия файла Excel (book1.xls), скрытия заголовков строк и столбцов на первом листе и сохранения измененного файла как output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideRowColumnHeaders-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Также можно использовать[**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) и[**Показать столбцы**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) методы[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) класс, чтобы сделать несколько строк и столбцов видимыми.
+Также возможно использовать методы [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) и [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) класса [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells), чтобы сделать несколько строк и столбцов видимыми.
 
 {{% /alert %}}

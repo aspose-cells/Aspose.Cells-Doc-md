@@ -1,21 +1,22 @@
 ---
-title: قم بإزالة إعدادات PrinterSettings الموجودة من أوراق العمل في ملف Excel
+title: إزالة إعدادات الطابعة الحالية لورقة العمل في ملف Excel
 type: docs
 weight: 60
 url: /ar/net/remove-existing-printersettings-of-worksheets-in-excel-file/
-description: في هذه المقالة ، ستتعلم كيفية إزالة PrinterSettings من ورقة العمل الموجودة داخل ملف Excel من خلال كائن إعداد الصفحة برمجيًا باستخدام نموذج التعليمات البرمجية باستخدام C# API أو مكتبة .NET.
-keywords: remove printer settings of worksheet c#, remove printer settings of excel worksheet c#
+description: في هذا المقال، ستتعلم كيفية إزالة إعدادات الطابعة الحالية لورقة العمل داخل ملف Excel بواسطة كائن إعداد الصفحة برمجيًا باستخدام واجهة برمجة التطبيقات C# أو .NET.
+keywords: إزالة إعدادات الطابعة لورقة العمل c#، إزالة إعدادات الطابعة لورقة عمل إكسل c#
 ---
-##  **سيناريوهات الاستخدام الممكنة**
-يريد المطورون أحيانًا منع Excel من تضمين ملفات*.سلة مهملات* ملفات إعدادات الطابعة في ملفات XLSX المحفوظة. توجد ملفات إعدادات الطابعة أسفل*"[ملف" جذر "] \ xl \ إعدادات الطابعة".* يشرح هذا المستند كيفية إزالة إعدادات الطابعة الحالية باستخدام Aspose.Cells APIs.
-##  **قم بإزالة إعدادات PrinterSettings الموجودة من أوراق العمل في ملف Excel**
-يسمح لك Aspose.Cells بإزالة إعدادات الطابعة الموجودة المحددة لأوراق مختلفة في ملف Excel. يوضح نموذج التعليمات البرمجية التالي كيفية إزالة إعدادات الطابعة الموجودة لكافة أوراق العمل في المصنف. يرجى الاطلاع عليها[نموذج لملف Excel](45056020.xlsx), [إخراج ملف Excel](45056021.xlsx)، إخراج وحدة التحكم وكذلك لقطة الشاشة كمرجع.
-##  **لقطة شاشة**
-![ما يجب القيام به: image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
-##  **عينة من الرموز**
+
+## **سيناريوهات الاستخدام المحتملة**
+في بعض الأحيان، يرغب المطورون في منع Excel من تضمين ملفات *.bin* لإعدادات الطابعة في ملفات XLSX المحفوظة. تقع ملفات إعدادات الطابعة تحت *“[file "root"]\xl\printerSettings”.* يوضح هذا المستند كيفية إزالة إعدادات الطابعة الحالية باستخدام واجهة برمجة التطبيقات Aspose.Cells.
+## **إزالة إعدادات الطابعة الحالية لورقات العمل في ملف Excel**
+تتيح Aspose.Cells إزالة إعدادات الطابعة الحالية المحددة لورقات العمل المختلفة في ملف Excel. يوضح الكود العينات التالية كيفية إزالة إعدادات الطابعة الحالية لجميع ورقات العمل في الدفتر. يرجى الاطلاع على [ملف Excel عينة](45056020.xlsx)، [ملف Excel الناتج](45056021.xlsx)، الإخراج على وحدة التحكم، فضلاً عن اللقطة للإشارة.
+## **لقطة شاشة**
+![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.cs" >}}
-##  **إخراج وحدة التحكم**
-{{< highlight "java" >}}
+## **مخرجات الوحدة**
+{{< highlight java >}}
 
  PrinterSettings of this worksheet exist.
 

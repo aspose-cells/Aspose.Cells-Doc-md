@@ -1,47 +1,48 @@
-﻿---
-title: Supporto di più formati
+---
+title: Supporto a Più Formati
 type: docs
 weight: 10
 url: /it/sharepoint/multiple-format-support/
 ---
+
 {{% alert color="primary" %}}
 
-Con Aspose.Cells for SharePoint puoi convertire documenti tra molti formati di documenti per ufficio popolari da una raccolta documenti di SharePoint. La maggior parte delle conversioni viene eseguita con alta fedeltà e precisione.
+Con Aspose.Cells for SharePoint puoi convertire documenti tra molti formati di documenti d'ufficio popolari da una libreria documenti SharePoint. La maggior parte delle conversioni viene effettuata con alta fedeltà e precisione.
 
 {{% /alert %}}
 
-## **Formati di input supportati**
+## **Formati di Input Supportati**
 
 Aspose.Cells for SharePoint supporta i seguenti formati di input:
 
 - XLS – Microsoft Excel 97~2003
-- XLSX – Ufficio OpenXML
+- XLSX – Office Open XML
 - XLSM, XLTX, XLTM – Office Open XML
-- CSV – Documento del foglio di lavoro con valori separati da virgola
+- CSV – Documento di Foglio di Calcolo a Valori Separati da Virgola
 - ODS – OpenDocument
 - XML – Microsoft Excel SpreadsheetML
 
- Per generare documenti, Aspose.Cells for SharePoint si affida a una versione integrata di[Aspose.Cells for .NET](https://products.aspose.com/cells/net/)il componente di elaborazione di fogli di calcolo leader di mercato da Aspose. Microsoft Excel non viene utilizzato per generare documenti.
+Per generare documenti, Aspose.Cells for SharePoint si affida a una versione integrata di [Aspose.Cells for .NET](https://products.aspose.com/cells/net/), il componente leader di mercato per l'elaborazione di fogli di calcolo di Aspose. Microsoft Excel non viene utilizzato per generare documenti.
 
-## **Formati di output supportati**
+## **Formati di Output Supportati**
 
 L'elenco completo dei formati di output supportati da Aspose.Cells for SharePoint è:
 
-- PDF – Documento portatile Adobe
+- PDF - Adobe Portable Document
 - XLS – Microsoft Excel 97 - 2003
-- XLSX – Ufficio OpenXML
-- XLSM – Office Open XML per macro abilitato
-- TXT – Testo normale
+- XLSX – Office Open XML
+- XLSM – Office Open XML for macros enabled
+- TXT – Plain Text
 - XML – Microsoft Excel SpreadsheetML
 - ODS – OpenDocument
-- CSV – Valori separati da virgola
-- XLSB – Microsoft Excel binario 2007
-- MHTML – Estensione posta Internet multiuso HTML
-- XPS – Specifica carta XML
-- TIFF – Formato file immagine con tag
-- SVG – Grafica vettoriale scalabile
-- DIF – Formato interscambio disegni
+- CSV – Comma Separated Values
+- XLSB – Microsoft Excel Binary 2007
+- MHTML – Multipurpose Internet Mail Extension HTML
+- XPS – XML Paper Specification
+- TIFF – Tagged Image File Format
+- SVG – Scalable Vector Graphics
+- DIF – Drawing Interchange Format
 
-**Vengono elencati i formati di conversione supportati disponibili per un file** 
+**I formati di conversione supportati disponibili per un file sono elencati** 
 
-![cose da fare:immagine_alt_testo](multiple-format-support_1.png)
+![todo:image_alt_text](multiple-format-support_1.png)

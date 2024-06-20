@@ -1,40 +1,43 @@
-﻿---
-title: Aspose.Cells.GridDesktop の使い方
+---
+title: Aspose.Cells.GridDesktopの使用方法
 type: docs
 weight: 10
-url: /ja/net/how-to-use-aspose-cells-griddesktop/
+url: /ja/net/aspose-cells-griddesktop/how-to-use-aspose-cells-griddesktop/
+keywords: GridDesktop
+description: この記事では、GridDesktopの使用方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-開発者が簡単にアップグレードできるように、既存のユーザー、特に古い Aspose.Grid.Desktop を使用していて、新しいまたは統合された Aspose.Cells.GridDesktop にアップグレードする必要があるユーザーにとって重要な情報を説明するドキュメントを維持しています。
+開発者がアップグレードしやすいように、特に古いAspose.Grid.Desktopを使用してきたユーザー向けに、重要な情報を記載したドキュメントを管理しています。古いAspose.Grid.Desktopを使用していたユーザーや、新しいまたは統合されたAspose.Cells.GridDesktopにアップグレードする必要があるユーザーにとって、この情報が重要です。
 
-このトピックでは、初心者が Aspose.Grid.Desktop を Aspose.Cells.GridDesktop コントロールにアップグレードし、Windows アプリケーションで Aspose.Cells.GridDesktop コントロールを作成して使用するための基本的なステップ バイ ステップ ガイドを提供します。
+このトピックでは、Aspose.Grid.DesktopをAspose.Cells.GridDesktopコントロールにアップグレードし、WindowsアプリケーションでAspose.Cells.GridDesktopコントロールを作成および使用するための初心者向けの基本的なステップバイステップガイドを提供します。
 
 {{% /alert %}} 
-## **Aspose.Grid.Desktop から Aspose.Cells.GridDesktop コントロールへのアップグレード**
-Aspose.Grid.Desktop を使用していた開発者は、アップグレード時に新しい Aspose.Cells.GridDesktop を使用すると問題に遭遇する可能性があります。名前が変更された名前空間は次のとおりです。
+## **Aspose.Grid.DesktopからAspose.Cells.GridDesktopコントロールにアップグレード**
+Aspose.Grid.Desktopで作業していた開発者が、新しいAspose.Cells.GridDesktopを使用する際に問題に直面することがあります。以下は、名前空間の変更内容です:
 
-1. **Aspose.Grid.Desktop 名前空間は Aspose.Cells.GridDesktop 名前空間に名前が変更されました。**
-## **Aspose.Cells.GridDesktop コントロールの作成と使用**
-### **Windows アプリケーション プロジェクトの作成**
-まず、Aspose.Cells.GridDesktop コントロールを使用する Windows アプリケーション プロジェクトを作成します。次の手順に従います。
+1. **Aspose.Grid.Desktop namespaceはAspose.Cells.GridDesktop namespaceに変更されました。**
+## **Aspose.Cells.GridDesktopコントロールの作成と使用**
+### **Windowsアプリケーションプロジェクトの作成**
+ますます、Aspose.Cells.GridDesktopコントロールを使用するWindowsアプリケーションプロジェクトを作成します。以下の手順に従います。
 
-1. **Visual Studio.NET IDE を開きます。**
-1. **[ファイル] メニューから、[新規]、[プロジェクト] を選択します。**
-1. **[新しいプロジェクト] ダイアログから Windows アプリケーションを選択します。**
+1. **Visual Studio.NET IDEを開きます。**
+1. **ファイル**メニューから、**新規**、**プロジェクト**を選択します。
+1. **新しいプロジェクトのダイアログから、Windowsアプリケーションを選択します。**
 
-上記の手順を実行すると、ウィンドウ アプリケーションが空のフォームで作成されます。
-### **GridDesktop コントロールをフォームに追加する**
-Aspose.Cells.GridDesktop コントロールをツールボックスからフォームにドラッグ アンド ドロップします。この後、次のようないくつかのアクションを実行できるコントロールがフォームに表示されます**サイズ変更**, **プロパティを変更する**, **等**.
-### **アプリケーションを実行する**
-最後に、押してアプリケーションを実行します**Ctrl+F5**または**始める**ボタン。アプリケーションを実行すると、空の Aspose.Cells.GridDesktop コントロールを含むフォームが表示されます。セルをクリックして値を追加できるようになりました。次のスクリーンショットは、アプリケーションが最終的にどのように見えるかを示しています。
+上記の手順を実行した後、空のフォームを持つウィンドウアプリケーションが作成されます。
+### **フォームにGridDesktopコントロールを追加**
+ToolboxからAspose.Cells.GridDesktopコントロールをドラッグしてフォームに追加します。これにより、コントロールがフォーム上に表示され、**サイズ変更**、**プロパティの変更**などの複数のアクションを実行できます。
+### **アプリケーションの実行**
+最後に、**Ctrl+F5**を押すか、**開始**ボタンをクリックしてアプリケーションを実行します。アプリケーションが実行されると、空のAspose.Cells.GridDesktopコントロールを含むフォームが表示されます。これで、セルに値を追加できます。以下のスクリーンショットは、アプリケーションの最終的な外観を示しています。
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-griddesktop_1.png)
+![todo:image_alt_text](how-to-use-aspose-cells-griddesktop_1.png)
 
-コントロールに値を追加するだけでなく、行の高さや列の幅の変更、クリップボードへのセル データのコピー (Ctrl+C) または切り取り (Ctrl+X) などの他のタスクを実行することもできます。セルへのデータの貼り付け (Ctrl+V) など。さらに操作を実行するには、コントロールを右クリックしてコンテキスト メニューを表示します。
+コントロールに値を追加するだけでなく、行の高さや列の幅を変更したり、セルデータをクリップボードにコピー（Ctrl+C）または切り取り（Ctrl+X）してセルにデータを貼り付け（Ctrl+V）するなどの他のタスクを実行することもできます。さらなる操作を行うには、コントロールを右クリックしてそのコンテキストメニューを表示します。 
 
 {{% alert color="primary" %}} 
 
-Aspose.Grid.Desktop は名前が変更され、Aspose.Cells の一部になったため、古いバージョンの Aspose.Grid.Desktop は使用できなくなりました。強調しておきたいのは、Aspose.Cells.GridDesktop コンポーネントの最新バージョンへのアップグレードに伴う作業はそれほど多くないということです。メンバー、構造体、列挙型などを持つクラスは同じままであるため、API に変更はありません。行われた唯一の変更は、コントロールの名前空間に関するものです。
+Aspose.Grid.DesktopはAspose.Cellsの一部として名称変更されたため、古いバージョンのAspose.Grid.Desktopを使用することはできなくなりました。強調すると、Aspose.Cells.GridDesktopコンポーネントの最新バージョンにアップグレードするための作業はほとんど必要ありません。クラス、メンバー、構造体、列挙などのAPIには変更はありません。唯一の変更点は、コントロールの名前空間に関するものです。
 
 {{% /alert %}}

@@ -1,29 +1,31 @@
 ---
-title: CSV を JSON に変換します
+title: CSVをJSONに変換
 type: docs
 weight: 220
 url: /ja/python-net/convert-csv-to-json/
-description: Aspose.Cells for Python via .NET API を使用して、CSV を JSON に変換します。
-keywords: Convert CVS to JSON, Convert CSV to JSON in Python via NET, Python convert CSV to JSON, Save CSV to JSON
+description: Aspose.Cells for Python via .NET APIを使用してCSVをJSONに変換します。
+keywords: CSVをJSONに変換する、PythonでCSVをJSONに変換するvia NET、PythonでCSVをJSONに変換する、CSVをJSONに保存する。
 ---
-##  **CSV を JSON に変換します**
 
-Aspose.Cells for Python via .NET は、CSV から JSON への変換をサポートしています。このために、API は以下を提供します。**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**そして**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)**クラス。の**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**クラスは、範囲を JSON にエクスポートするためのオプションを提供します。**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**クラスには次のプロパティがあります。
+## **CSVをJSONに変換**
 
-- *[文字列としてエクスポート](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string/)**: これにより、セルの文字列値が JSON にエクスポートされます。
-- *[has_header_row](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row/)**: これは、範囲にヘッダー行が含まれるかどうかを示します。
-- *[インデント](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/indent/)**: インデントを示します。
+Aspose.Cells for Python via .NETは、CSVをJSONに変換する機能をサポートしています。このために、APIは[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)および[**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)クラスを提供しています。[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)クラスはJSONをエクスポートするためのオプションを提供します。[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)クラスには次のプロパティがあります。
 
-の**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)**クラスは、で設定されたエクスポート オプションを使用して JSON をエクスポートします。**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**クラス。
+- [**export_as_string**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string/): セルの文字列値をJSONにエクスポートします。
+- [**has_header_row**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row/):範囲にヘッダー行が含まれているかどうかを示します。
+- [**indent**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/indent/): インデントを示します。
 
-次のコードサンプルは、の使用法を示しています。**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**そして**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)**をロードするクラス[ソース CSV ファイル](104398879.csv)そして、コンソールに JSON 出力を出力します。
+この[**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)クラスは、[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)クラスで設定されたエクスポートオプションを使用してJSONをエクスポートします。
 
-###  **サンプルコード**
+以下のコードサンプルは、[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)および[**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)クラスを使用して[ソースのCSVファイル](104398879.csv)をロードし、コンソールにJSON出力を出力する方法を示しています。
+
+### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "LoadingSavingConvertingAndManaging-ConvertCsvToJson-1.py" >}}
 
-###  **コンソール出力**
-```json
+### **コンソール出力**
+{{< highlight java >}}
+
 [
 {
 "id": 1,
@@ -56,4 +58,5 @@ Aspose.Cells for Python via .NET は、CSV から JSON への変換をサポー�
 "postalCode": 394221
 }
 ]
-```
+
+{{< /highlight >}}

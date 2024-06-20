@@ -1,31 +1,32 @@
-﻿---
-title: Excel'i PDF'e dönüştür
+---
+title: Excel i PDF ye Dönüştür
 type: docs
 weight: 50
 url: /tr/python-java/convert-excel-to-pdf/
-description: Python ile Excel'i PDF'e dönüştürme. Bu makale, Python ve kullanımı kolay Aspose.Cells for Python via Java API kullanarak Excel dosyalarını PDF'e dönüştürmeyi göstermektedir.
+description: Python ile Excel i PDF e nasıl dönüştürebileceğiniz hakkında bilgi edinin. Bu makale, Python ve kullanımı kolay Aspose.Cells for Python via Java API sını kullanarak Excel dosyalarını PDF e dönüştürmeyi göstermektedir.
 keywords: excel to pdf python, python convert excel to pdf, python excel to pdf, convert excel to pdf python, convert excel to pdf in python, convert excel to pdf using python, excel to pdf in python, excel to pdf using python, aspose excel to pdf, aspose convert excel to pdf
 ---
+
 ## **Excel'i PDF'e dönüştür**
 
-PDF belgeleri, kuruluşlar, devlet sektörleri ve bireyler arasında belge alışverişinde standart bir format olarak yaygın şekilde kullanılmaktadır. Yazılım geliştiricilerden genellikle Microsoft Excel dosyalarını kolayca PDF belgelerine dönüştürmenin bir yolunu bulmaları istenir. Aspose.Cells for Python via Java API, Excel dosyalarını PDF belgesine (PDF/A dahil) dönüştürme olanağı sağlar. Aspose.Cell, elektronik tabloları yüksek derecede doğruluk ve doğrulukla PDF'e dönüştürür.
+PDF belgeleri, kuruluşlar, hükümet sektörleri ve bireyler arasında belge değişimi için standart bir formatta yaygın olarak kullanılır. Yazılım geliştiricileri genellikle Microsoft Excel dosyalarını PDF belgelerine kolayca dönüştürmek için bir yöntem geliştirmeleri istenir. Aspose.Cells for Python via Java API, Excel dosyalarını PDF belgelerine (PDF/A dahil) dönüştürme olanağı sağlar. Aspose.Cell, elektronik tabloları yüksek doğruluk ve sadakat derecesiyle PDF'ye dönüştürür.
 
 ### **Doğrudan Dönüşüm**
 
-Bir Excel dosyasını doğrudan PDF'e kaydetmek için,[**çalışma kitabı.kaydet**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) yöntem ve geçiş[**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF) ikinci parametre olarak
+Bir Excel dosyasını doğrudan PDF olarak kaydetmek için, [**Workbook.save**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) yöntemini kullanabilir ve ikinci parametre olarak [**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF)i geçebilirsiniz.
 
-Aşağıdaki kod parçacığı, kullanımını gösterir[**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF)ve[**çalışma kitabı.kaydet**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) Excel'i PDF biçimine dönüştürme yöntemi.
+Aşağıdaki kod parçası, Excel'in PDF biçimine dönüştürülmesi için [**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF) ve [**Workbook.save**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) yöntemlerinin kullanımını göstermektedir.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-ConvertingToPDFFiles.py" >}}
 
 ### **Gelişmiş Dönüşüm**
 
-PDF'e dönüştürme üzerinde daha fazla kontrole sahip olmak için API,[**PdfKaydetmeSeçenekleri**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)sınıf. bu[**PdfKaydetmeSeçenekleri**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)sınıf, dönüştürme için farklı öznitelikler ayarlamak için kullanılabilir. Farklı özelliklerin ayarlanması[**PdfKaydetmeSeçenekleri**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)class, ortaya çıkan PDF dosyası için Yazdırma, Yazı Tipi, Güvenlik ve Sıkıştırma ayarları üzerinde kontrol sahibi olmanızı sağlar. En dikkate değer özellik,[**uyma**](https://reference.aspose.com/cells/python/asposecells.api/pdfsaveoptions#Compliance)Excel dosyalarını PDF/A uyumlu PDF dosyalarına kaydetmenizi sağlar.
+PDF'ye dönüşüm üzerinde daha fazla kontrol sahibi olmak için API, [**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions) sınıfını sağlar. [**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions) sınıfı, dönüşüm için farklı özellikler belirlemek için kullanılabilir. [**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions) sınıfının farklı özelliklerinin belirlenmesi, sonuç PDF dosyası için Yazdırma, Yazı Tipi, Güvenlik ve Sıkıştırma ayarları üzerinde kontrol sağlar. En dikkat çekici özellik, Excel dosyalarını PDF/A uyumlu PDF dosyalarına kaydetmenizi sağlayan [**Compliance**](https://reference.aspose.com/cells/python/asposecells.api/pdfsaveoptions#Compliance) özelliğidir.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-AdvancedConversiontoPdf.py" >}}
 
 {{% alert color="primary" %}}
 
- e-tablonuz formüller içeriyorsa,[**Workbook.calculateFormula**](https://reference.aspose.com/cells/python/asposecells.api/workbook#calculateFormula()) yöntemi, elektronik tabloyu PDF'e dönüştürmeden hemen önce. Bu, formüle bağlı değerlerin yeniden hesaplanmasını ve PDF'de doğru değerlerin oluşturulmasını sağlar.
+Eğer elektronik tablonuz formüller içeriyorsa, elektronik tabloyu PDF'ye dönüştürmeden hemen önce [**Workbook.calculateFormula**](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#calculateFormula()) yöntemini çağırın. Bu, formüle bağımlı değerlerin yeniden hesaplanmasını ve doğru değerlerin PDF'e aktarılmasını sağlar.
 
 {{% /alert %}}

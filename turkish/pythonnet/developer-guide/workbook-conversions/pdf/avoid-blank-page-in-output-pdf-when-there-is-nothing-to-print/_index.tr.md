@@ -1,26 +1,27 @@
 ---
-title: Yazdırılacak Bir Şey Olmadığında PDF Çıkışında Boş Sayfadan Kaçının
+title: Boş sayfa olmadığında Çıktı PDF de Boş Sayfa İşlemi
 type: docs
 weight: 30
 url: /tr/python-net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
-description: Aspose.Cells for Python via .NET API ile Yazdırılacak Hiçbir Şey Olmadığında PDF Çıkışındaki Boş Sayfayı Nasıl Önleyeceğinizi öğrenin.
-keywords: Python Avoid Blank Page in Output PDF when there is Nothing to Print
+description: Aspose.Cells for Python via .NET API ile çıktı PDF sinde Boş Sayfa Bulunmaması konusunda nasıl bir adım atmanız gerektiğini öğrenin.
+keywords: Python da Çıktı PDF sinde Boş Sayfa Bulunmaması
 ---
-##  **Olası Kullanım Senaryoları**
 
-Excel dosyası boş olduğunda ve kullanıcı bunu Aspose.Cells for Python via .NET kullanarak PDF'e kaydettiğinde, PDF çıktısında boş bir sayfa oluşturur. Bazen bu varsayılan davranış istenmeyen bir durumdur. Aspose.Cells for Python via .NET şunları sağlar[**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/)Bu sorunla başa çıkmak için mülk. *yanlış** olarak ayarlarsanız, o zaman[**Hücrelerİstisna**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/)PDF çıktısında yazdırılacak hiçbir şey olmadığında meydana gelecektir.
+## **Olası Kullanım Senaryoları**
 
-##  **Yazdırılacak Bir Şey Olmadığında PDF Çıkışında Boş Sayfadan Kaçının**
+Excel dosyası boş olduğunda ve kullanıcı bu dosyayı Aspose.Cells for Python via .NET kullanarak PDF olarak kaydettiğinde, çıktı PDF'de boş bir sayfa gösterilir. Bu varsayılan davranış bazen istenmeyebilir. Aspose.Cells for Python via .NET bu sorunla başa çıkmak için [**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/) özelliğini sağlar. Bu özelliği **false** olarak ayarlarsanız, çıktı PDF'de hiçbir şey yazdırılacak bir şey olmadığında **[**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/)** olur.
 
-Aşağıdaki örnek kod boş bir çalışma kitabı oluşturur ve bunu PDF olarak ayarladıktan sonra kaydeder.[**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/)özelliği *yanlış** olarak belirtin. PDF çıktısında yazdırılacak bir şey olmadığından,[**Hücrelerİstisna**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/)aşağıda gösterildiği gibi gerçekleşir.
+## **Çıktı PDF'inde Boş Sayfa Oluşmasını Engelle**
 
-##  **Basit kod**
+Aşağıdaki örnek kod, boş bir çalışma kitabı oluşturur ve ardından **false** olarak ayarlanmış olan [**PdfSaveOptions.output_blank_page_when_nothing_to_print**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/output_blank_page_when_nothing_to_print/) özelliğini ayarladıktan sonra PDF olarak kaydeder. Çıktı PDF'de yazdırılacak bir şey olmadığı için aşağıdaki gibi **[**CellsException**](https://reference.aspose.com/cells/python-net/aspose.cells/cellsexception/)** gösterilir.
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint.py" >}}
 
-##  **İstisna**
+## **İstisna**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Aspose.Cells.CellsException was unhandled
 

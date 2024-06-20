@@ -1,24 +1,25 @@
 ---
-title: Holen Sie sich das Arbeitsblatt des Diagramms
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET das mit einem Excel-Diagramm verknüpfte Arbeitsblatt abrufen. Unser Leitfaden zeigt Ihnen, wie Sie auf das Arbeitsblatt zugreifen und Vorgänge daran ausführen, um die zugrunde liegenden Daten des Diagramms zu manipulieren.
-keywords: Aspose.Cells for .NET, Excel charts, worksheets, data manipulation, underlying data, operations.
+title: Arbeitsblatt des Diagramms abrufen
+description: Erfahren Sie, wie Sie das mit einem Excel Diagramm verbundene Arbeitsblatt mithilfe von Aspose.Cells for .NET abrufen können. Unser Leitfaden zeigt Ihnen, wie Sie auf das Arbeitsblatt zugreifen und Operationen zum Manipulieren der zugrunde liegenden Daten des Diagramms durchführen können.
+keywords: Aspose.Cells for .NET, Excel Diagramme, Arbeitsblätter, Datenmanipulation, zugrunde liegende Daten, Operationen.
 type: docs
 weight: 1000
 url: /de/net/get-worksheet-of-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
- Manchmal möchten Sie über die Referenz eines Diagramms auf ein Arbeitsblatt zugreifen. Aspose.Cells bietet die[**Diagramm.Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) Eigenschaft, die die Referenz des Arbeitsblatts zurückgibt, das das Diagramm enthält.
+Manchmal möchten Sie auf ein Arbeitsblatt über einen Diagrammverweis zugreifen. Aspose.Cells bietet die [**Chart.Worksheet**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)-Eigenschaft, die den Verweis auf das Arbeitsblatt zurückgibt, das das Diagramm enthält.
 
 {{% /alert %}}
 
- Das folgende Beispiel zeigt die Verwendung von[**Diagramm.Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) Eigentum. Der Code gibt zunächst den Namen des Arbeitsblatts aus und greift dann auf das erste Diagramm im Arbeitsblatt zu. Anschließend wird der Name des Arbeitsblatts erneut ausgedruckt[**Diagramm.Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)Eigentum.
+Im folgenden Beispiel ist gezeigt, wie die [**Chart.Worksheet**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)-Eigenschaft verwendet wird. Der Code druckt zunächst den Namen des Arbeitsblatts, greift dann auf das erste Diagramm auf dem Arbeitsblatt zu. Danach wird erneut der Arbeitsblattname gedruckt, mithilfe der [**Chart.Worksheet**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)-Eigenschaft.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GetWorksheetOfTheChart-GetWorksheetOfTheChart.cs" >}}
 
-Nachfolgend sehen Sie die Konsolenausgabe, zu der der Beispielcode führt. Wie Sie sehen können, wird in beiden Fällen derselbe Arbeitsblattname ausgegeben.
+Unten ist die Konsolenausgabe, die das Beispiel des Codes ergibt. Wie Sie sehen können, druckt es den Arbeitsblattnamen beide Male gleich aus.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet Name: Portfolio
 

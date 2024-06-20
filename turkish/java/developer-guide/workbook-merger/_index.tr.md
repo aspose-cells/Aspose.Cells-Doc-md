@@ -1,70 +1,71 @@
-﻿---
-title: Birden Fazla Çalışma Kitabını Tek Bir Çalışma Kitabında Birleştirin
+---
+title: Birden Fazla Çalışma Kitabını Birleştirme
 linktitle: Çalışma Kitabı Birleştirme
 type: docs
 weight: 50
 url: /tr/java/combine-multiple-workbooks-into-a-single-workbook/
-description: Java kodunu ve Aspose.Cells for Java API kodunu kullanarak birden çok çalışma kitabını tek bir çalışma kitabında birleştirin.
-keywords: combine multiple workbooks into one, combine multiple workbooks into one java, combine multiple workbooks into one with java, combine multiple workbooks into single workbook with java, combine multiple workbooks into single workbook java, java code to combine multiple workbooks into single workbook, how to combine multiple workbooks into single workbook with java, how to combine multiple workbooks into one with java, merge multiple workbooks into one with java, how to merge multiple workbooks into one java, how to merge multiple workbooks into one with java
+description: Java kodu ve Aspose.Cells for Java API sini kullanarak birden fazla çalışma kitabını tek bir çalışma kitabına birleştirme.
+keywords: birden fazla çalışma kitabını birleştir, birden fazla çalışma kitabını birleştirme java, birden fazla çalışma kitabını birleştirme java ile, birden fazla çalışma kitabını tek bir çalışma kitabına birleştirme java ile, birden fazla çalışma kitabını tek bir çalışma kitabına birleştirme java, java kodunu kullanarak birden fazla çalışma kitabını tek bir çalışma kitabına birleştirme, birden fazla çalışma kitabını tek bir çalışma kitabına birleştirmek için java, birden fazla çalışma kitabını tek bir çalışma kitabına birleştirmek için java, birden fazla çalışma kitabını tek bir çalışma kitabına bi
 ---
+
 {{% alert color="primary" %}}
 
-Bazen resimler, grafikler ve veriler gibi çeşitli içeriklere sahip çalışma kitaplarını tek bir çalışma kitabında birleştirmeniz gerekir. Aspose.Cells bu özelliği destekler. Bu makale, Aspose.Cells kullanarak çalışma kitaplarını birkaç basit kod satırıyla birleştirmek için basit bir uygulamanın nasıl oluşturulacağını gösterir.
+Bazen, resimler, grafikler ve veri gibi çeşitli içeriklere sahip çalışma kitaplarını tek bir çalışma kitabına birleştirmeniz gerekebilir. Aspose.Cells bu özelliği destekler. Bu makale, Aspose.Cells kullanarak birkaç basit satır kodla çalışma kitaplarını birleştirmek için basit bir uygulama oluşturmayı gösterir.
 
 {{% /alert %}}
 
 ## **Çalışma Kitaplarını Birleştirme**
 
- Örnek kod, Aspose.Cells for Java kullanarak iki çalışma kitabını tek bir çalışma kitabında birleştirir. Kod, kaynak çalışma kitaplarını yükler,[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) yöntemini birleştirir ve çalışma kitabını çıktı olarak kaydeder.
+Örnek kod, Aspose.Cells for Java kullanarak iki çalışma kitabını tek bir çalışma kitabına birleştirir. Kod, kaynak çalışma kitaplarını yükler, bunları birleştirmek için [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) yöntemini kullanır ve çıktı çalışma kitabını kaydeder.
 
 ### **Kaynak Çalışma Kitapları**
 
-- [çizelgeler.xlsx](5473097.xlsx)
-- [resim.xlsx](5473096.xlsx)
+- [charts.xlsx](5473097.xlsx)
+- [picture.xlsx](5473096.xlsx)
 
 ### **Çıktı Çalışma Kitapları**
 
-- [kombine.xlsx](5473095.xlsx)
+- [combined.xlsx](5473095.xlsx)
 
-### **Ekran görüntüleri**
+### **Ekran Görüntüleri**
 
-Aşağıda kaynak ve çıktı çalışma kitaplarının ekran görüntüleri bulunmaktadır.
+Aşağıda, kaynak ve çıktı çalışma kitaplarının ekran görüntüleri bulunmaktadır.
 
 {{% alert color="primary" %}}
 
-Herhangi bir kaynak çalışma kitabını kullanabilirsiniz. Bu resimler sadece örnekleme amaçlıdır.
+Herhangi bir kaynak çalışma kitabını kullanabilirsiniz. Bu resimler sadece görsel amaçlar içindir.
 
 {{% /alert %}}
 
-**Grafikler çalışma kitabının ilk çalışma sayfası - yığılmış**
+**Grafik çalışma kitabının ilk çalışsayfası - yığılmış**
 
-![yapılacaklar:resim_alternatif_metin](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
 
-**Grafikler çalışma kitabının ikinci çalışma sayfası - satır**
+**Grafik çalışma kitabının ikinci çalışsayfası - çizgi**
 
-![yapılacaklar:resim_alternatif_metin](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
 
 **Resim çalışma kitabının ilk çalışma sayfası - resim**
 
-![yapılacaklar:resim_alternatif_metin](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
 
-**Birleştirilmiş çalışma kitabındaki üç çalışma sayfasının tümü - yığın, çizgi, resim**
+**Birleşik çalışma kitabındaki tüm üç çalışma sayfası - yığılmış, çizgi, resim**
 
-![yapılacaklar:resim_alternatif_metin](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
-Aşağıdaki kod parçacığı, birden çok çalışma kitabının tek bir çalışma kitabında nasıl birleştirileceğini gösterir.
+Aşağıdaki kod parçası birden fazla çalışma kitabını tek bir çalışma kitabına birleştirmenin nasıl yapıldığını gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CombineMultipleWorkbooks-CombineMultipleWorkbooks.java" >}}
 
-## **Ek kaynaklar**
+## **Ek Kaynaklar**
 
 {{% alert color="primary" %}}
 
- bulabilirsin[Birden Çok Çalışma Sayfasını Tek Bir Çalışma Sayfasında Birleştirin](/cells/tr/java/combine-multiple-worksheets-into-a-single-worksheet/) Daha fazla bilgi için yararlı makale.
+Daha fazla bilgi için [Birden Fazla Çalışma Sayfasını Tek Bir Çalışma Sayfasına Birleştirme](/cells/tr/java/combine-multiple-worksheets-into-a-single-worksheet/) makalesini yararlı bulabilirsiniz.
 
 {{% /alert %}}
 
-## **ileri konular**
-- [Birden Çok Çalışma Sayfasını Tek Bir Çalışma Sayfasında Birleştirme](/cells/tr/java/combine-multiple-worksheets-into-a-single-worksheet/)
-- [Dosyaları Birleştir](/cells/tr/java/merge-files/)
+## **Gelişmiş Konular**
+- [Birden Fazla Çalışma Sayfasını Tek Bir Çalışma Sayfasına Birleştirme](/cells/tr/java/combine-multiple-worksheets-into-a-single-worksheet/)
+- [Dosyaları Birleştirme](/cells/tr/java/merge-files/)
 

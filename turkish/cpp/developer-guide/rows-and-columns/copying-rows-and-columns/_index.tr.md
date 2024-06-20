@@ -1,38 +1,39 @@
 ---
-title: Satırları ve Sütunları Kopyalama
+title: Satır ve Sütunları Kopyalama
 type: docs
 weight: 20
 url: /tr/cpp/copying-rows-and-columns/
 ---
-##  **giriiş**
-Bazen çalışma sayfasının tamamını kopyalamadan, çalışma sayfasındaki satırları ve sütunları kopyalamanız gerekir. Aspose.Cells ile çalışma kitaplarının içinde veya arasında satır ve sütun kopyalamak mümkündür.
-Bir satır (veya sütun) kopyalandığında, güncellenmiş referanslarla birlikte formüller ve değerler, yorumlar, biçimlendirme, gizli hücreler, resimler ve diğer çizim nesneleri de dahil olmak üzere satır (veya sütun) içindeki veriler de kopyalanır.
-##  **Microsoft Excel ile Satır ve Sütunların Kopyalanması**
+
+## **Giriş**
+Bazen çalışma sayfasındaki tüm çalışma sayfasını kopyalamadan satır ve sütunları kopyalamanız gerekebilir. Aspose.Cells ile, satırları ve sütunları çalışma kitabı içinde veya arasında kopyalamak mümkündür.
+Bir satır (veya sütun) kopyalandığında, içerdiği veriler, güncellenmiş referanslarla formulalar ve değerler, yorumlar, biçimlendirme, gizli hücreler, görüntüler ve diğer çizim nesneleri de kopyalanır.
+## **Microsoft Excel ile Satır ve Sütunları Kopyalama**
 1. Kopyalamak istediğiniz satırı veya sütunu seçin.
-1.  Satırları veya sütunları kopyalamak için**Kopyala** üzerinde**Standart** araç çubuğuna basın veya**CTRL**+*C**.
-1. Seçiminizi kopyalamak istediğiniz yerin altından veya sağından bir satır veya sütun seçin.
-1.  Satırları veya sütunları kopyalarken**Kopyalandı Cells** üzerinde**Sokmak** Menü.
+1. Satır veya sütunları kopyalamak için **Standart** araç çubuğunda **Kopyala**'yı tıklayın veya **CTRL**+**C**'ye basın.
+1. Kopyalamak istediğiniz seçimin altında veya sağındaki bir satır veya sütunu seçin.
+1. Satır veya sütunları kopyalarken, **Ekle** menüsünde **Kopyalanan Hücreler**'i tıklayın.
 
 {{% alert color="primary" %}} 
 
- Eğer tıklarsan**Yapıştırmak** üzerinde**Standart** araç çubuğuna veya tuşuna basın**CTRL**+****Ekle'deki bir komuta tıklamak yerine V**** Menüde, hedef hücrelerin içeriği değiştirilir.
+**Insert** menüsünde bir komut üzerine tıklamak yerine **Standart** araç çubuğundaki **Yapıştır**'a tıklarsanız veya **CTRL**+**V** tuşlarına basarsanız, hedef hücrelerin içeriği değiştirilir.
 
 {{% /alert %}} 
-##  **Aspose.Cells'i kullanma**
-###  **Satırları Kopyalama**
-Aspose.Cells, Aspose::Cells::ICells sınıfının CopyRow yöntemini sağlar. Bu yöntem, formüller, değerler, yorumlar, hücre formatları, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere her türlü veriyi kaynak satırdan hedef satıra kopyalar.
+## **Aspose.Cells Kullanımı**
+### **Satırları Kopyalama**
+Aspose.Cells, Aspose::Cells::ICells sınıfının CopyRow yöntemini sağlar. Bu yöntem, kaynak satırdan hedef satıra formülleri, değerleri, yorumları, hücre biçimlerini, gizli hücreleri, görüntüleri ve diğer çizim nesnelerini de içeren tüm veri türlerini kopyalar.
 
 CopyRow yöntemi aşağıdaki parametreleri alır:
 
 - kaynak Cells nesnesi,
-- kaynak satır dizini ve
+- kaynak satır dizini, ve
 - hedef satır dizini.
 
-Bir sayfanın içindeki bir satırı veya başka bir sayfaya kopyalamak için bu yöntemi kullanın. CopyRow yöntemi Microsoft Excel'e benzer şekilde çalışır. Yani örneğin hedef satırın yüksekliğini açıkça ayarlamanıza gerek yok, o değer de kopyalanır.
+Bu yöntemi, bir çalışma sayfası içinde veya başka bir sayfaya bir satır kopyalamak için kullanabilirsiniz. CopyRow yöntemi, Microsoft Excel ile benzer şekilde çalışır. Örneğin, hedef satırın yüksekliğini ayrıca ayarlamanıza gerek yoktur, o değer de kopyalanır.
 
-Aşağıdaki örnek, çalışma sayfasındaki bir satırın nasıl kopyalanacağını gösterir. Bir şablon Microsoft Excel dosyası kullanır ve ikinci satırı (veriler, biçimlendirme, yorumlar, resimler vb. ile birlikte) kopyalar ve aynı çalışma sayfasının 12. satırına yapıştırır.
+Aşağıdaki örnek, bir çalışma sayfasında bir satırı nasıl kopyalayacağınızı göstermektedir. Bir şablon Microsoft Excel dosyası kullanır ve ikinci satırı (veriler, biçimlendirme, yorumlar, görüntüler vb. ile birlikte) kopyalar ve aynı çalışma sayfasındaki 12. satıra yapıştırır.
 
- kullanarak kaynak satır yüksekliğini elde eden adımı atlayabilirsiniz.**GetRowHeigh** yöntemini kullanın ve ardından hedef satır yüksekliğini kullanarak**Satır Yüksekliğini Ayarla** olarak yöntem**Kopyalama Satırı** yöntemi otomatik olarak satır yüksekliğini dikkate alır.
+**GetRowHeigh** yöntemi ile kaynak satırın yüksekliğini almak ve ardından **SetRowHeight** yöntemini kullanarak hedef satır yüksekliğini ayarlayan adımı atlayabilirsiniz, çünkü **CopyRow** yöntemi otomatik olarak satır yüksekliğiyle ilgilenir.
 
 
 
@@ -40,24 +41,24 @@ Aşağıdaki örnek, çalışma sayfasındaki bir satırın nasıl kopyalanacağ
 
 {{% alert color="primary" %}} 
 
-Satırları kopyalarken, ilgili görselleri, grafikleri veya diğer çizim nesnelerini not etmek önemlidir; çünkü bu, Microsoft Excel'de de aynıdır:
+Satırları kopyalarken, bu, Microsoft Excel ile aynı olan ilgili resimler, grafikler veya diğer çizim nesnelerinin dikkate alınması önemlidir:
 
-1. Kaynak satır dizini 5 ise, resim, grafik vb. üç satırda yer alıyorsa kopyalanır (başlangıç satır dizini 4 ve bitiş satır dizini 6'dır).
-1. Hedef satırdaki mevcut görseller, grafikler vb. kaldırılmayacaktır.
+1. Kaynak satır dizini 5 ise, resim, grafik vb. 4 ve 6 olan üç satırlarda kapsanmışsa kopyalanır (başlangıç satır dizini 4 ve bitiş satır dizini 6).
+1. Hedef satırdaki mevcut resimler, grafikler vb. kaldırılmaz.
 
 {{% /alert %}} 
-###  **Sütunları Kopyalama**
-Aspose.Cells, Aspose::Cells::ICells sınıfının CopyColumn yöntemini sağlar; bu yöntem, güncelleştirilmiş referanslarla birlikte formüller ve değerler, yorumlar, hücre formatları, gizli hücreler, görüntüler ve diğer çizim nesneleri de dahil olmak üzere tüm veri türlerini kaynaktan kopyalar. sütununu hedef sütuna taşıyın.
+### **Sütunları Kopyalama**
+Aspose.Cells, Aspose::Cells::ICells sınıfının CopyColumn yöntemini sağlar, bu yöntem, kaynaktan hedefe sütun endeksine formülleri - güncellenmiş referanslarla - ve değerleri, yorumları, hücre biçimlerini, gizli hücreleri, görüntüleri ve diğer çizim nesnelerini de içeren tüm veri türlerini kopyalar.
 
 CopyColumn yöntemi aşağıdaki parametreleri alır:
 
 - kaynak Cells nesnesi,
-- kaynak sütun dizini ve
-- hedef sütun dizini.
+- kaynak sütun indeksi ve
+- hedef sütun indeksi.
 
-Bir sayfanın içindeki bir sütunu veya başka bir sayfaya kopyalamak için CopyColumn yöntemini kullanın.
+Bir sayfa içindeki bir sütunu kopyalamak veya başka bir sayfaya yapıştırmak için CopyColumn yöntemini kullanın.
 
-Bu örnek, bir çalışma sayfasından bir sütunu kopyalayıp başka bir çalışma kitabındaki bir çalışma sayfasına yapıştırır.
+Bu örnek, bir çalışma sayfasından bir sütunu kopyalar ve başka bir iş kitabındaki bir çalışma sayfasına yapıştırır.
 
 
 

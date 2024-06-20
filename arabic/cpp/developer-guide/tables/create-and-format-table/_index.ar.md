@@ -4,54 +4,55 @@ type: docs
 weight: 10
 url: /ar/cpp/create-and-format-table/
 ---
-##  **اصنع جدول**
-إحدى مزايا جداول البيانات هي أنها تسمح لك بإنشاء أنواع مختلفة من القوائم، على سبيل المثال، قوائم الهاتف، أو قوائم المهام، أو قوائم المعاملات، أو الأصول أو الخصوم. يمكن للعديد من المستخدمين العمل معًا لاستخدام قوائم متنوعة وإنشائها والاحتفاظ بها.
 
-Aspose.Cells يدعم إنشاء وإدارة القوائم.
-###  **مزايا كائن القائمة**
-هناك عدد لا بأس به من المزايا عند تحويل قائمة البيانات إلى كائن قائمة فعلي
+## **إنشاء جدول**
+أحد ميزات الجداول الإلكترونية هو أنها تتيح لك إنشاء أنواع مختلفة من القوائم، على سبيل المثال: قوائم الهواتف، قوائم المهام، قوائم المعاملات، الأصول أو المطلوبات. يمكن لعدة مستخدمين العمل معًا لاستخدام وإنشاء وصيانة قوائم مختلفة.
 
-- يتم تضمين الصفوف والأعمدة الجديدة تلقائيًا.
-- يمكن بسهولة إضافة صف إجمالي في أسفل قائمتك لعرض SUM، وAVERAGE، وCOUNT، وما إلى ذلك.
+يدعم Aspose.Cells إنشاء وإدارة القوائم.
+### **مزايا كائن القائمة**
+هناك العديد من المزايا عند تحويل قائمة البيانات إلى كائن قائمة فعلي
+
+- يتم تضمين صفوف وأعمدة جديدة تلقائيًا.
+- يمكن بسهولة إضافة صف إجمالي في أسفل القائمة لعرض الجمع والمتوسط والعد، إلخ.
 - يتم دمج الأعمدة المضافة إلى اليمين تلقائيًا في كائن القائمة.
-- سيتم توسيع المخططات المستندة إلى الصفوف والأعمدة تلقائيًا.
-- سيتم توسيع النطاقات المسماة المخصصة للصفوف والأعمدة تلقائيًا.
-- القائمة محمية من الحذف غير المقصود للصفوف والأعمدة.
-###  **إنشاء كائن قائمة باستخدام Microsoft Excel**
+- ستتم توسيع الرسوم البيانية استنادًا إلى الصفوف والأعمدة تلقائيًا.
+- ستتم توسيع النطاقات المسماة المخصصة للصفوف والأعمدة تلقائيًا.
+- تكون القائمة محمية من حذف الصف والعمود بطريق الخطأ.
+### **إنشاء كائن قائمة باستخدام Microsoft Excel**
 
-|**تحديد نطاق البيانات لإنشاء كائن القائمة**|
+| **تحديد نطاق البيانات لإنشاء كائن القائمة** |
 | :- |
-|![ما يجب القيام به:image_alt_text](jHcNq4o.png)|
-يؤدي هذا إلى عرض مربع الحوار "إنشاء قائمة".
+|![todo:image_alt_text](jHcNq4o.png)|
+يعرض ذلك مربع حوار إنشاء القائمة.
 
-|**إنشاء مربع حوار القائمة**|
+| **مربع حوار إنشاء القائمة** |
 | :- |
-|![ما يجب القيام به:image_alt_text](kJmukRF.png)|
-تنفيذ كائن القائمة للبيانات وتحديد الصف الإجمالي (اختر *البيانات**، ثم *القائمة**، متبوعة بـ *الصف الإجمالي**).
+|![todo:image_alt_text](kJmukRF.png)|
+تنفيذ كائن القائمة للبيانات وتحديد الصف الإجمالي (حدد **البيانات**, ثم **القائمة**, تتبعها **الصف الإجمالي**).
 
-|**إنشاء كائن القائمة**|
+| **إنشاء كائن قائمة** |
 | :- |
-|![ما يجب القيام به:image_alt_text](ECSGVdR.png)|
-###  **باستخدام Aspose.Cells API**
- Aspose.Cells يوفر فئة[دفتر العمل](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) الذي يمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) يحتوي الفصل على[أوراق عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
+|![todo:image_alt_text](ECSGVdR.png)|
+### **استخدام واجهة برمجة تطبيقات Aspose.Cells**
+توفر Aspose.Cells فئة [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) التي تمثل ملف Microsoft Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) على مجموعة [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
 
-يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) فصل. ال[ورقة عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) يوفر الفصل مجموعة واسعة من الأساليب لإدارة ورقة العمل. لإنشاء[ListObject](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/) في ورقة العمل، استخدم[GetListObjects](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getlistobjects/) طريقة جمع ال[ورقة عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) فصل. كل `[ListObject]` هو في الواقع كائن من[ListObjectCollection](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/) الطبقة، والتي توفر كذلك[يضيف](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/add/)طريقة لإضافة كائن `[ListObject]` وتحديد نطاق من الخلايا للقائمة.
+تمثل ورقة العمل بواسطة الفئة [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)، وتقدم الفئة [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) مجموعة واسعة من الأساليب لإدارة ورقة العمل. لإنشاء *ListObject* في ورقة عمل ، استخدم `ListObjectCollection`. كل `[ListObject]` هو في الواقع كائن من الفئة `ListObjectCollection` ، والتي توفر بالإضافة إلى ذلك الأسلوب [Add](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/add/) لإضافة كائن `[ListObject]` وتحديد نطاق الخلايا التي يجب أن يشملها. وفقًا لنطاق الخلايا المحدد ، يتم إنشاء كائن *ListObject* في ورقة العمل بواسطة Aspose.Cells. استخدم السمات (على سبيل المثال، [SetTableStyleType](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/settablestyletype/)) لكائن *ListObject* لتنسيق الجدول وفقًا لاحتياجاتك.
 
- وفقًا لنطاق الخلايا المحدد، يتم إنشاء الكائن `[ListObject]` بواسطة Aspose.Cells. استخدم السمات (على سبيل المثال[SetShowTotals](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setshowtotals/) و[GetListColumns](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/getlistcolumns/)إلخ) للفئة `[ListObject]` للتحكم في القائمة.
+وفقًا لنطاق الخلايا المحدد ، يتم إنشاء كائن `[ListObject]` بواسطة Aspose.Cells. استخدم السمات (على سبيل المثال [SetShowTotals](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setshowtotals/) و [GetListColumns](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/getlistcolumns/) وما إلى ذلك) لفئة `[ListObject]` للتحكم في القائمة.
 
-في المثال الموضح أدناه، قمنا بإنشاء نفس `[ListObject]` باستخدام Aspose.Cells API كما أنشأنا باستخدام Microsoft Excel في القسم أعلاه.
+في المثال الوارد أدناه ، لقد قمنا بإنشاء نفس `[ListObject]` باستخدام واجهة برمجة التطبيقات Aspose.Cells كما قمنا بذلك باستخدام Microsoft Excel في الجزء السابق.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-CreatingListObjects-new.cpp" >}}
-##  **تنسيق جدول**
-لإدارة مجموعة من البيانات المرتبطة وتحليلها، من الممكن تحويل نطاق من الخلايا إلى كائن قائمة (يُعرف أيضًا باسم جدول Excel). الجدول عبارة عن سلسلة من الصفوف والأعمدة التي تحتوي على بيانات مرتبطة تتم إدارتها بشكل مستقل عن البيانات الموجودة في الصفوف والأعمدة الأخرى. بشكل افتراضي، يتم تمكين التصفية في صف الرأس لكل عمود في الجدول بحيث يمكنك تصفية بيانات كائن القائمة أو فرزها بسرعة. يمكنك إضافة صف إجمالي (صف خاص في قائمة يوفر مجموعة مختارة من الوظائف التجميعية المفيدة للعمل مع البيانات الرقمية) إلى كائن القائمة الذي يوفر قائمة منسدلة للوظائف التجميعية لكل خلية صف الإجماليات. Aspose.Cells يوفر خيارات لإنشاء وإدارة القوائم (أو الجداول).
-###  **تنسيق كائن القائمة**
- Aspose.Cells يوفر فئة[دفتر العمل](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) الذي يمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) يحتوي الفصل على[أوراق عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
+## **تنسيق الجدول**
+لإدارة وتحليل مجموعة من البيانات ذات الصلة ، من الممكن تحويل نطاق الخلايا إلى كائن قائمة (المعروف أيضًا باسم جدول Excel). الجدول هو سلسلة من الصفوف والأعمدة التي تحتوي على بيانات ذات صلة يتم إدارتها بشكل مستقل عن البيانات في الصفوف والأعمدة الأخرى. بشكل افتراضي ، يتم تمكين عمود كلي في الجدول في الصف الرأسي بحيث يمكنك تصفية أو فرز بيانات كائن القائمة بسرعة. يمكنك إضافة صف إجمالي (صف خاص في القائمة يوفر تحديد وظائف الفحص المجمعة المفيدة للعمل مع البيانات الرقمية) إلى كائن القائمة الذي يوفر قائمة منسدلة من وظائف الفحص المجمعة لكل خلية صفات الإجمالي. توفر Aspose.Cells خيارات لإنشاء وإدارة القوائم (أو الجداول).
+### **تنسيق كائن قائمة**
+توفر Aspose.Cells فئة [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) التي تمثل ملف Microsoft Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) على مجموعة [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
 
-يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) فصل. ال[ورقة عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) يوفر الفصل مجموعة واسعة من الأساليب لإدارة أوراق العمل. لخلق*ListObject*في ورقة العمل، استخدم `ListObjectCollection`. كل `[ListObject]` هو في الواقع كائن من فئة `ListObjectCollection`، مما يوفر المزيد[يضيف](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/add/)طريقة لإضافة كائن `[ListObject]` وتحديد نطاق الخلايا التي يجب أن يشملها. وفقا لمجموعة محددة من الخلايا، أ*ListObject* تم إنشاؤه في ورقة العمل بواسطة Aspose.Cells. استخدم السمات (على سبيل المثال،[SetTableStyleType](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/settablestyletype/)) للفئة `[ListObject]` لتنسيق الجدول حسب متطلباتك.
+تمثل ورقة العمل بواسطة الفئة [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)، وتقدم الفئة [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) مجموعة واسعة من الأساليب لإدارة ورقة العمل. لإنشاء كائن قائمة في ورقة عمل ، استخدم `ListObjectCollection`. كل `[ListObject]` هو في الواقع كائن من فئة `ListObjectCollection` ، والتي توفر بالإضافة إلى ذلك الأسلوب [Add](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/add/) لإضافة كائن `[ListObject]` وتحديد نطاق الخلايا التي يجب أن يشملها. وفقًا لنطاق الخلايا المحدد ، يتم إنشاء كائن قائمة في ورقة العمل بواسطة Aspose.Cells. استخدم السمات (على سبيل المثال، [SetTableStyleType](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/settablestyletype/)) لكائن `[ListObject]` لتنسيق الجدول وفقًا لاحتياجاتك.
 
-يضيف المثال أدناه بيانات نموذجية إلى ورقة عمل، ويضيف `[ListObject]` ويطبق الأنماط الافتراضية عليها. أنماط `[ListObject]` مدعومة بـ Microsoft Excel 2007/2010.
+يضيف المثال أدناه بيانات عينية إلى ورقة عمل ، ويضيف `[ListObject]` ويطبق الأنماط الافتراضية عليه. تتمتع أنماط `[ListObject]` بدعم من قبل Microsoft Excel 2007/2010.
 
 
 

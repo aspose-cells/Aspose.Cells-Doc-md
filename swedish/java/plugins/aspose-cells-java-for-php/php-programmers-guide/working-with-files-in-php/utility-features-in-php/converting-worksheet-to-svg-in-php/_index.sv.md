@@ -1,15 +1,16 @@
-﻿---
+---
 title: Konvertera arbetsblad till SVG i PHP
 type: docs
 weight: 60
 url: /sv/java/converting-worksheet-to-svg-in-php/
 ---
-## **Aspose.Cells - Konvertera arbetsblad till SVG**
-För att konvertera kalkylblad till SVG med Aspose.Cells for Java i PHP, anropa kalkylblad_till_svg()-metoden för omvandlarmodulen.
+
+## **Aspose.Cells - Konvertering av kalkylblad till SVG**
+För att konvertera arbetsblad till SVG med Aspose.Cells for Java i PHP, helt enkelt anropa worksheet_to_svg() metoden i konverteringsmodulen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $saveFormat = new SaveFormat();
 
@@ -54,7 +55,7 @@ for($i=0; $i < $sheetCount; $i++)
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Konvertera arbetsblad till SVG (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ned **Konvertera kalkylblad till SVG (Aspose.Cells)** från någon av nedanstående sociala kodningssajter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingWorksheetToSVG.php)

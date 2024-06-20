@@ -1,22 +1,23 @@
-﻿---
-title: XLS'i Resimler ve Grafikler ile PDF'e dönüştürün
+---
+title: Görüntü ve Grafiklerle XLS i PDF ye Dönüştür
 type: docs
 weight: 230
 url: /tr/java/convert-xls-with-images-and-charts-to-pdf/
-description: Java kodu, resimler ve grafikler içeren Excel dosyalarını Aspose.Cells for Java API kullanarak PDF formatına dönüştürür.
+description: Aspose.Cells for Java API sini kullanarak görsel ve grafiklerle Excel dosyalarını PDF formatına dönüştürmek için Java kodu.
 keywords: excel to pdf java, convert excel to pdf, convert excel to pdf java, convert excel with images to pdf java, convert excel with charts to pdf java, convert xls to pdf, convert xlsx to pdf, xls to pdf java, xlsx to pdf java, excel to pdf
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, resim ve çizelgeler içeren XLS dosyalarının PDF belgelerine dönüştürülmesini destekler. Aspose.Cells for Java, bir elektronik tabloyu PDF'e dönüştürmek için bağımsız olarak çalışabilir: Aspose.PDF Dönüşüm için API'ler gerekli değildir.
+Aspose.Cells, görüntü ve grafikler içeren XLS dosyalarını PDF belgelerine dönüştürmeyi destekler. Aspose.Cells for Java, bir elektronik tabloyu PDF'ye dönüştürmek  için Aspose.PDF API'larına gerek duymadan bağımsız olarak çalışabilir.
 
 {{% /alert %}}
 
-İşlem, geçici veya aracı XML dosyalarına bağlı olmadığı için bellekte yapılabilir. Bu, örneğin resimler, grafikler ve diğer çizim nesneleri içeren büyük Excel dosyalarının hızlı ve verimli bir şekilde dönüştürülebileceği anlamına gelir.
+İşlem, geçici veya ara XML dosyalarına bağlı olmadığı için bellekte gerçekleştirilebilir. Bu, örneğin, görüntü, grafik ve diğer çizim nesneleri içeren büyük Excel dosyalarının hızlı ve verimli bir şekilde dönüştürülebileceği anlamına gelir.
 
 {{% alert color="primary" %}}
 
- Elektronik tablo formüller içeriyorsa, en iyisi[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()yöntemi PDF'e dönüştürülmeden hemen önce. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve PDF'de doğru değerlerin oluşturulmasını sağlar.
+Eğer elektronik tablo formüller içeriyorsa, PDF'ye dönüştürmeden hemen önce [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) yöntemini çağırmak en iyisidir. Bu sayede formül bağımlı değerler yeniden hesaplanır ve doğru değerler PDF'de gösterilir.
 
 {{% /alert %}}
 
@@ -24,5 +25,5 @@ Aspose.Cells, resim ve çizelgeler içeren XLS dosyalarının PDF belgelerine d�
 
 ## İlgili Makaleler
 
-- [Excel dosyasını PDFA-1a ile uyumlu PDF biçimine dönüştürün](/cells/tr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
-- [Grafik Oluşturma](/cells/tr/java/chart-rendering/)
+- [PDFA-1a uyumlu PDF biçimine Excel dosyasını dönüştür](/cells/tr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [Grafik Rendeleme](/cells/tr/java/chart-rendering/)

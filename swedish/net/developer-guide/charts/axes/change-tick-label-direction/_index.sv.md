@@ -1,14 +1,15 @@
 ---
-title: Ändra kryssetikettens riktning
-description: Lär dig hur du ändrar riktningen för fästingetiketter i Aspose.Cells for .NET. Vår guide hjälper dig att förstå hur du justerar orienteringen för fästingetiketter på axlar, inklusive horisontella, vertikala och vinklade orienteringar.
-keywords: Aspose.Cells for .NET, tick labels, direction, orientation, axes, horizontal, vertical, angled.
+title: Ändra riktning för ticketiketter
+description: Lär dig hur man ändrar riktningen för ticketiketter i Aspose.Cells for .NET. Vår guide hjälper dig att förstå hur man anpassar orienteringen för ticketiketter på axlarna, inklusive horisontella, vertikala och snedställda orienteringar.
+keywords: Aspose.Cells for .NET, ticketiketter, riktning, orientering, axlar, horisontell, vertikal, snedställd.
 type: docs
 weight: 170
 url: /sv/net/change-tick-label-direction/
 ---
-##  **Ändra kryssetikettens riktning**
 
-Aspose.Cells ger dig möjligheten att ändra riktningen för kartmarkeringsetiketten genom att använda[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) fast egendom. De[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype)egendom accepterar[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) uppräkningsvärde. De[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)uppräkning ger följande medlemmar
+## **Ändra riktning för ticketiketter**
+
+Aspose.Cells ger dig möjlighet att ändra riktningen för ticketiketter i diagrammet genom att använda egenskapen [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype). Egenskapen [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) accepterar värdet för uppräkningen av ticketiketten. Upräkningen [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) tillhandahåller följande medlemmar
 
 - Horisontell
 - Vertikal
@@ -18,22 +19,22 @@ Aspose.Cells ger dig möjligheten att ändra riktningen för kartmarkeringsetike
 
 Följande bild jämför käll- och utdatafilerna
 
-###  **Källfilsbild**
+### **Källfilens bild**
 
 ![todo:image_alt_text](change-tick-label-direction_1.jpg)
 
-###  **Utdatafilbild**
+### **Utdatasfilens bild**
 
 ![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-Följande kodavsnitt ändrar kryssetikettens riktning från Rotate90 till Horizontal.
+Följande kodsnutt ändrar ticketikettens riktning från Rotera 90 till Horisontell.
 
-##  **Exempelkod**
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChangeTickLabelDirection-1.cs" >}}
 
-Käll- och utdatafilerna kan laddas ner från följande länkar.
+Käll- och utdatafilerna kan laddas ned från följande länkar.
 
-[Källfilen](105480221.xlsx)
+[Källfil](105480221.xlsx)
 
-[Utdatafil](105480223.xlsx)
+[Utdatasfil](105480223.xlsx)

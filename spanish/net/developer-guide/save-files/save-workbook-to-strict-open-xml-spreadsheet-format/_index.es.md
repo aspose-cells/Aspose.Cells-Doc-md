@@ -1,18 +1,19 @@
-﻿---
-title: Guardar libro de trabajo en formato de hoja de cálculo XML abierto estricto
+---
+title: Guardar libro de trabajo en formato de hoja de cálculo de Open XML estricto
 type: docs
 weight: 150
 url: /es/net/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
-## **Posibles escenarios de uso**
 
-Aspose.Cells le permite guardar el libro de trabajo en*Hoja de cálculo XML abierta estricta*formato. Para tal efecto, dispone la**[Libro de trabajo.Configuración.Cumplimiento](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)**propiedad. Si establece su valor como**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)**, el archivo de salida de Excel se guardará en formato de hoja de cálculo XML abierto estricto.
+## **Escenarios de uso posibles**
 
-## **Guardar libro de trabajo en formato de hoja de cálculo XML abierto estricto**
+Aspose.Cells te permite guardar el libro de trabajo en formato de hoja de cálculo Open XML estricto. Para ese propósito, proporciona la propiedad [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance). Si estableces su valor como [**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance), entonces el archivo de Excel de salida se guardará en formato estricto de hoja de cálculo Open XML.
 
-El siguiente código de ejemplo crea un libro de trabajo y establece el valor de la**[Libro de trabajo.Configuración.Cumplimiento](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)** propiedad como**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)** y lo guarda como[archivo de salida de Excel](67338272.xlsx) . Si abre el archivo de salida de Excel en Microsoft Excel y abre el cuadro de diálogo Guardar como..., verá su formato como*Hoja de cálculo XML abierta estricta*como se muestra en esta captura de pantalla.
+## **Guardar libro de trabajo en formato de hoja de cálculo de Open XML estricto**
 
-![todo:imagen_alternativa_texto](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
+El siguiente código de ejemplo crea un libro de trabajo y establece el valor de la propiedad [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance) como [**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance) y lo guarda como [archivo de Excel de salida](67338272.xlsx). Si abres el archivo de Excel de salida en Microsoft Excel y abres el cuadro de diálogo Guardar como..., verás que su formato es de hoja de cálculo Open XML estricto como se muestra en esta captura de pantalla.
+
+![todo:image_alt_text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 
 ## **Código de muestra**
 

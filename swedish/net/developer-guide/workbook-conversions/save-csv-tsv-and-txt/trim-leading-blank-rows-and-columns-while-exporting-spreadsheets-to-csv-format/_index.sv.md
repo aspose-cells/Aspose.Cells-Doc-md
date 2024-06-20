@@ -1,32 +1,33 @@
-﻿---
-title: Trimma ledande tomma rader och kolumner samtidigt som du exporterar kalkylblad till formatet CSV
+---
+title: Strimla ledande tomma rader och kolumner vid export av kalkylblad till CSV format
 type: docs
 weight: 100
 url: /sv/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
 ---
-## **Möjliga användningsscenarier**
 
-Ibland har din Excel- eller CSV-fil ledande tomma kolumner eller rader. Tänk till exempel på den här linjen
+## **Möjliga användningsscenario**
 
-{{< highlight "java" >}}
+Ibland har din Excel eller CSV-fil ledande tomma kolumner eller rader. Till exempel, överväg den här raden
+
+{{< highlight java >}}
 
  ,,,data1,data2
 
 {{< /highlight >}}
 
-Här är de tre första cellerna eller kolumnerna tomma. När du öppnar en sådan CSV-fil i Microsoft Excel, kasserar Microsoft Excel dessa inledande tomma rader och kolumner.
+Här är de första tre cellerna eller kolumnerna tomma. När du öppnar en sådan CSV-fil i Microsoft Excel, då tar Microsoft Excel bort dessa ledande tomma rader och kolumner.
 
- Som standard kasserar Aspose.Cells inte inledande tomma kolumner och rader när du sparar, men om du vill ta bort dem precis som Microsoft Excel gör, ger Aspose.Cells**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** fast egendom. Vänligen ställ in den på**Sann**och sedan kommer alla de tomma raderna och kolumnerna att slängas när du sparar.
+Som standard tar inte Aspose.Cells bort ledande tomma kolumner och rader vid sparandet, men om du vill ta bort dem precis som Microsoft Excel gör, så tillhandahåller Aspose.Cells [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) egenskapen. Ställ in den till **true** och sedan kommer alla ledande tomma rader och kolumner att tas bort vid sparandet.
 
 {{% alert color="primary" %}}
 
- Före lanseringen av Aspose.Cells for .NET 20.4 var standardvärdet för**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** var**falsk** . Sedan versionen 20.4 har standardvärdet på**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** är**Sann.**
+Innan utgivningen av Aspose.Cells for .NET 20.4, var standardvärdet för [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) **false**. Sedan 20.4-utgåvan är standardvärdet för [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) **true.**
 
 {{% /alert %}}
 
-## **Trimma ledande tomma rader och kolumner samtidigt som du exporterar kalkylblad till formatet CSV**
+## **Rensa ledande blanka rader och kolumner vid export av kalkylblad till CSV-format**
 
- Följande exempelkod laddar[source excel-fil](sampleTrimBlankColumns.xlsx) som har två ledande tomma kolumner. Den sparar först excel-filen i CSV-format utan några ändringar och sedan ställer den in**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** egendom till**Sann** och sparar den igen. Skärmdumpen visar[source excel-fil](sampleTrimBlankColumns.xlsx), [utgång CSV fil utan trimning](outputWithoutTrimBlankColumns.csv), och den[utgång CSV fil med trimning](outputTrimBlankColumns.csv).
+Den följande exempelkoden laddar [käll-excelfilen](sampleTrimBlankColumns.xlsx) som har två ledande tomma kolumner. Den sparar först excelfilen i CSV-format utan ändringar och sedan ställer den in [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)-egenskapen till **true** och sparar den igen. Skärmdumpen visar [käll-excelfilen](sampleTrimBlankColumns.xlsx), [utdata-CSV-filen utan beskärning](outputWithoutTrimBlankColumns.csv) och utdata-CSV-filen med beskärning(outputTrimBlankColumns.csv).
 
 ![todo:image_alt_text](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 

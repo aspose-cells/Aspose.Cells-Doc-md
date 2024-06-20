@@ -1,23 +1,24 @@
-﻿---
+---
 title: إنشاء نطاق مسمى في VSTO و Aspose.Cells
 type: docs
 weight: 90
 url: /ar/net/creating-a-named-range-in-vsto-and-aspose-cells/
 ---
+
 لإنشاء نطاق مسمى:
 
-1.  قم بإعداد ورقة العمل:
- 1. إنشاء كائن تطبيق. (VSTO فقط.)
- 1. إضافة مصنف.
- 1. احصل على الورقة الأولى.
-1.  قم بإنشاء نطاق مسمى:
- 1. تحديد نطاق.
- 1. اسم النطاق.
- 1. احفظ الملف.
+1. إعداد الورقة العمل: 
+   1. قم بتثبيت كائن التطبيق. (VSTO فقط.)
+   1. أضف كتاب عمل.
+   1. احصل على الورقة الأولى.
+1. قم بإنشاء نطاق مسمى: 
+   1. قم بتعريف نطاق.
+   1. أسم النطاق.
+   4. حفظ الملف.
 
-توضح أمثلة الكود أدناه كيفية تنفيذ هذه الخطوات باستخدام VSTO مع إما C#. توضح أمثلة الكود التالية كيفية القيام بنفس الشيء باستخدام Aspose.Cells for .NET ، مرة أخرى باستخدام إما C#.
+تظهر أمثلة الشفرة أدناه كيفية أداء هذه الخطوات باستخدام VSTO مع إما C#. تُظهر الأمثلة الشيفرة التالية كيفية فعل نفس الشيء باستخدام Aspose.Cells for .NET مرة أخرى مع إما C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create Excel Object
 
@@ -63,25 +64,25 @@ xl.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- // إنشاء كائن مصنف
+ //Instantiating a Workbook object
 
-مصنف المصنف = مصنف جديد () ؛
+Workbook workbook = new Workbook();
 
-// الوصول إلى ورقة العمل الأولى في ملف Excel
+//Accessing the first worksheet in the Excel file
 
-ورقة عمل ورقة العمل = workbook.Worksheets [0] ؛
+Worksheet worksheet = workbook.Worksheets[0];
 
-// إنشاء نطاق مسمى
+//Creating a named range
 
-نطاق النطاق = ورقة عمل .Cells.CreateRange ("A1"، "B4") ؛
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-// تعيين اسم النطاق المسمى
+//Setting the name of the named range
 
-range.Name = "Test_Range" ؛
+range.Name = "Test_Range";
 
- لـ (int row = 0 ؛ row< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 
@@ -101,7 +102,7 @@ workbook.Save("Test_Range.xls");
 
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
-- [سورس فورج](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip / تنزيل)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).أَزِيز)
+## **تحميل رمز عينة**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip)

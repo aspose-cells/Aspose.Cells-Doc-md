@@ -1,22 +1,23 @@
-﻿---
+---
 title: Lägg till bildhyperlänkar
 type: docs
 weight: 20
 url: /sv/java/add-image-hyperlinks/
 ---
+
 {{% alert color="primary" %}} 
 
-Hyperlänkar är användbara för att komma åt informationen på andra arbetsblad eller på webbplatser. Microsoft Excel låter användare lägga till hyperlänkar till texten i celler och på bilder. Bildhyperlänkar kan göra det lättare att navigera i ett kalkylblad, till exempel som nästa och föregående knappar, eller logotyper som länkar till vissa webbplatser. Det här dokumentet förklarar hur du infogar bildhyperlänkar i ett kalkylblad med Aspose.Cells.
+Hyperlänkar är användbara för att komma åt information på andra arkm, eller på webbplatser. Microsoft Excel låter användare lägga till hyperlänkar till text i celler, och till bilder. Bildhyperlänkar kan underlätta navigeringen i ett kalkylblad, till exempel som nästa och föregående knappar, eller logotyper som länkar till särskilda webbplatser. Detta dokument förklarar hur man sätter in bildhyperlänkar i ett kalkylblad med hjälp av Aspose.Cells.
 
 {{% /alert %}} 
 
-Aspose.Cells låter dig lägga till hyperlänkar till bilder i kalkylblad under körning. Det är möjligt att ställa in och ändra länkens skärmtips och adress.
+Aspose.Cells gör det möjligt att lägga till hyperlänkar till bilder i kalkylblad vid körning. Det är möjligt att ange och ändra länkskärmtipset och adressen.
 
-Följande exempelkod illustrerar hur du lägger till en bildhyperlänk i ett kalkylblad.
+Följande exemplarkod illustrerar hur man lägger till en bildhyperlänk i ett kalkylblad.
 
- När koden körs sparas en utdatafil med en bildhyperlänk i den.
+När koden körs sparar den en utdatafil med en bildhyperlänk i den. 
 
-**Utdatafilen** 
+**Utgångsfilen** 
 
 ![todo:image_alt_text](add-image-hyperlinks_1.png)
 

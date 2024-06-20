@@ -1,19 +1,20 @@
-﻿---
-title: Узнайте, защищен ли проект VBA
+---
+title: Определение, защищен ли проект VBA
 type: docs
 weight: 80
 url: /ru/java/find-out-if-vba-project-is-protected/
 ---
+
 ## **Возможные сценарии использования**
- Вы можете узнать, защищен ли проект VBA (Visual Basic Applications) вашего файла Excel с помощью Aspose.Cells, используя[VbaProject.isProtected()](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsProtected)метод
+Вы можете узнать, защищен ли проект VBA (Visual Basic Applications) вашего файла Excel или нет с помощью Aspose.Cells, используя метод [VbaProject.isProtected()](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsProtected)
 ## **Образец кода**
-Следующий пример кода создает книгу, а затем проверяет, защищен ли ее проект VBA. Затем он защищает проект VBA и снова проверяет, защищен ли его проект VBA или нет. См. его консольный вывод для справки. Перед защитой,[VbaProject.isProtected()](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsProtected) возвращается**ЛОЖЬ** но после защиты возвращается**истинный**.
+В следующем примере кода создается книга, а затем проверяется, защищен ли ее проект VBA или нет. Затем проект VBA защищается, и снова проверяется, защищен ли его проект VBA или нет. Пожалуйста, обратитесь к его консольному выводу для справки. До защиты [VbaProject.isProtected()](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsProtected) возвращает **false**, но после защиты он возвращает **true**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-WorkbookVBAProject-FindoutifVBAProjectisProtected.java" >}}
-## **Консольный вывод**
-Это консольный вывод приведенного выше примера кода для справки.
+## **Вывод в консоль**
+Это вывод консоли приведенного выше образца кода для справки.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  IsProtected - Before Protecting VBA Project: false
 

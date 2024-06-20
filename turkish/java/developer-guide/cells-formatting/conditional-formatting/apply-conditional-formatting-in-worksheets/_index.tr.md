@@ -1,92 +1,93 @@
-﻿---
-title: Çalışma Sayfalarında Koşullu Biçimlendirme Uygula
+---
+title: Çalışma Kitaplarında Koşullu Biçimlendirme Uygulama
 type: docs
 weight: 40
 url: /tr/java/apply-conditional-formatting-in-worksheets/
 ---
+
 {{% alert color="primary" %}}
 
-Bu makale, bir çalışma sayfasındaki bir dizi hücreye koşullu biçimlendirmenin nasıl ekleneceğine ilişkin ayrıntılı bir anlayış sağlamak için tasarlanmıştır.
+Bu makale, bir çalışma sayfasındaki hücre aralığına koşullu biçimlendirme eklemenin detaylı bir anlayışını sağlamak amacıyla tasarlanmıştır.
 
-Koşullu biçimlendirme, Microsoft Excel'de bulunan ve bir hücre aralığına biçimler uygulamanıza ve bu biçimlendirmenin hücrenin değerine veya bir formülün değerine bağlı olarak değişmesini sağlayan gelişmiş bir özelliktir. Örneğin, bir hücrenin arka planı negatif bir değeri vurgulamak için kırmızı olabilir veya pozitif bir değer için metin rengi yeşil olabilir. Hücrenin değeri biçim koşulunu karşıladığında biçim uygulanır. Hücrenin değeri biçim koşulunu karşılamıyorsa, hücrenin varsayılan biçimlendirmesi kullanılır.
+Koşullu biçimlendirme, Microsoft Excel'de gelişmiş bir özelliktir ve bir hücrenin değerine veya bir formülün değerine bağlı olarak biçimlendirme uygulamanıza olanak tanır. Örneğin, bir hücrenin arka planı, negatif bir değeri vurgulamak için kırmızı olabilir veya pozitif bir değer için metin rengi yeşil olabilir. Hücrenin değeri biçim koşulunu karşıladığında, biçim uygulanır. Hücrenin değeri biçim koşulunu karşılamadığında, hücrenin varsayılan biçimlendirmesi kullanılır.
 
-Microsoft Office Otomasyonu ile koşullu biçimlendirme uygulamak mümkündür, ancak bunun dezavantajları vardır. İlgili birkaç neden ve sorun vardır: örneğin, güvenlik, kararlılık, ölçeklenebilirlik ve hız. Başka bir çözüm bulmanın ana nedeni, Microsoft'in kendisinin yazılım çözümleri için Office Otomasyonu'nu şiddetle önermesidir.
+Microsoft Office Automation ile koşullu biçimlendirme uygulamak mümkündür ancak bunun dezavantajları vardır. Örneğin, güvenlik, istikrar, ölçeklenebilirlik ve hız gibi çeşitli nedenler ve sorunlar bulunmaktadır. Başka bir çözüm bulma ana nedeni, Microsoft'un kendisinin yazılım çözümleri için Office Automation'a kesinlikle karşı çıkmasıdır.
 
-Bu makale, bir konsol uygulamasının nasıl oluşturulacağını, Aspose.Cells API'i kullanarak en basit birkaç kod satırıyla hücrelere koşullu biçimlendirme eklemeyi gösterir.
+Bu makale, Aspose.Cells API kullanarak birkaç basit kod satırıyla hücrelere koşullu biçimlendirme eklemeyi göstermektedir.
 
 {{% /alert %}}
 
-## **Koşullu Biçimlendirme ile Çalışma**
+## **Koşullu Biçimlendirme İle Çalışmak**
 
-Bu makale aşağıdaki görevlerde çalışır:
+Bu makale aşağıdaki görevleri ele alır:
 
-1. [Hücre değerine göre koşullu biçimlendirme uygulamak için Aspose.Cells'i kullanma](/cells/tr/java/apply-conditional-formatting-in-worksheets/#task-1-using-asposecells-to-apply-conditional-formatting-based-on-cell-value).
-1. [Bir formüle dayalı koşullu biçimlendirme uygulamak için Aspose.Cells'i kullanma](/cells/tr/java/apply-conditional-formatting-in-worksheets/#task-2-using-asposecells-to-apply-conditional-formatting-based-on-a-formula).
+1. Hücre Değerine Bağlı Koşullu Biçimlendirme Uygulamak İçin Aspose.Cells Kullanma
+1. Formül Temelli Koşullu Biçimlendirme Uygulamak İçin Aspose.Cells Kullanma
 
-### **Görev 1: Cell Değerine Göre Koşullu Biçimlendirmeyi Uygulamak için Aspose.Cells'i Kullanma**
+### **Görev 1: Hücre Değerine Bağlı Koşullu Biçimlendirme Uygulamak İçin Aspose.Cells Kullanma**
 
-1. **Aspose.Cells.zip dosyasını indirin ve yükleyin**:
-   1. [İndirmek](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
- 1. Geliştirme bilgisayarınızda sıkıştırılmış dosyayı açın.
- Tüm Aspose bileşenleri kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun zaman sınırı yoktur ve yalnızca üretilen belgelere filigran ekler.
-1. **proje oluştur**.
- Eclipse gibi bir Java Düzenleyici kullanarak bir proje oluşturun veya bir metin düzenleyici kullanarak basit bir program oluşturun.
-1. **Sınıf yolu ekle**.
- Eclipse kullanarak bir Sınıf Yolu ayarlamak için lütfen aşağıdaki adımları gerçekleştirin:
-1. Aspose.Cells.jar ve dom4j_1.6.1.jar'ı Aspose.Cells.zip'ten çıkarın.
- 1. Eclipse'de projenin sınıf yolunu ayarlayın:
- 1. Eclipse'de projenizi seçin ve ardından**Özellikler** dan**Proje** Menü.
- 1. İletişim kutusunun solundaki "Java Derleme Yolu"nu seçin.
- 1. üzerinde**kütüphaneler** sekme, seç**JAR ekle** veya**Harici JAR'lar Ekle** Aspose.Cells.jar ve dom4j_1.6.1.jar'ı seçip derleme yollarına eklemek için.
- 1. Aspose'in bileşenlerinin API'lerini çağırmak için uygulama yazın.
- Veya yolu çalışma zamanında Windows'de bir DOS komut isteminde ayarlayabilirsiniz.
+1. **Aspose.Cells.zip**'i indirin ve kurun:
+   1. [İndir](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
+   1. Geliştirme bilgisayarınızda zip dosyasını açın.
+      Tüm Aspose bileşenleri, yüklendiklerinde değerlendirme modunda çalışır. Değerlendirme modunun süresi sınırlı değildir ve üretilen belgelere filigran enjekte eder.
+1. **Bir proje oluşturun.**
+   Eclipse gibi bir Java Düzenleyici kullanarak bir proje oluşturun veya bir metin düzenleyici kullanarak basit bir program oluşturun.
+1. **Sınıf yolunu ekleyin.**
+   Eclipse'te Class Path ayarlamak için lütfen aşağıdaki adımları izleyin:
+   1. Aspose.Cells.jar ve dom4j_1.6.1.jar dosyalarını Aspose.Cells.zip'ten çıkartın.
+   1. Eclipse'te proje classpath'ini ayarlayın:
+      1. Eclipse'te projenizi seçin ve **Proje** menüsünden **Özellikler**'i seçin.
+      1. Diyalog kutusunun sol tarafındaki "Java Build Path"'i seçin.
+      1. **Kütüphaneler** sekmesinde, Aspose.Cells.jar ve dom4j_1.6.1.jar'ı seçmek için **JAR Dosyaları Ekle** veya **Harici JAR Dosyaları Ekle**'yi seçin ve onları derleme yollarına ekleyin.
+   1. Aspose'un bileşenlerinin API'lerini çağırmak için uygulama yazın.
+      Veya Windows'ta bir DOS komut isteminde çalışma zamanında yolu ayarlayabilirsiniz.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
   javac -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName  
 
 {{< /highlight >}}
 
-1. **Hücre değerine göre koşullu biçimlendirme uygula**.
- Görevi gerçekleştirmek için bileşen tarafından kullanılan kod aşağıdadır. Bir hücreye koşullu biçimlendirme uygular.
+1. **Hücre değerine dayalı koşullu biçimlendirme uygula**.
+   Aşağıda, bileşenin görevi yerine getirmek için kullandığı kod bulunmaktadır. Bir hücreye koşullu biçimlendirme uygular.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingOnCellValue-ApplyConditionalFormattingOnCellValue.java" >}}
 
-Yukarıdaki kod yürütüldüğünde, çıktı dosyasının (output.xls) ilk çalışma sayfasındaki "A1" hücresine koşullu biçimlendirme uygulanır. A1'e uygulanan koşullu biçimlendirme, hücre değerine bağlıdır. A1'in hücre değeri 50 ile 100 arasındaysa, uygulanan koşullu biçimlendirme nedeniyle arka plan rengi kırmızıdır. Lütfen oluşturulan XLS dosyasının aşağıdaki ekran görüntülerine bakın.
+Yukarıdaki kod çalıştırıldığında, koşullu biçimlendirme çıktı dosyasının ilk çalışma sayfasındaki A1 hücresine uygulanır (çıkış.xls). A1'in hücre değerine bağlı olarak koşullu biçimlendirme uygulanır. A1'in hücre değeri 50 ile 100 arasında ise, koşullu biçimlendirme uygulandığı için arka plan rengi kırmızı olur. Oluşturulan XLS dosyasının aşağıdaki ekran görüntülerine bakınız.
 
-**A1 değeri 50'den küçük olan Excel dosyası çıktısı**
+**A1 değeri 50'den küçük olan çıkış Excel dosyası**
 
-![yapılacaklar:resim_alternatif_metin](apply-conditional-formatting-in-worksheets_1.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_1.png)
 
-**50 ile 100 arasında A1 ile çıktı Excel dosyası**
+**A1'in 50 ile 100 arasında olduğu çıkış Excel dosyası**
 
-![yapılacaklar:resim_alternatif_metin](apply-conditional-formatting-in-worksheets_2.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_2.png)
 
-### **Görev 2: Bir Formüle Dayalı Koşullu Biçimlendirmeyi Uygulamak için Aspose.Cells'i Kullanma**
+### **Görev 2: Koşullu biçimlendirme Uygulamak için Aspose.Cells Kullanımı**
 
-1. **Formüle bağlı olarak koşullu biçimlendirme uygula**.
- Görevi gerçekleştirmek için bileşen tarafından kullanılan asıl kod aşağıdadır. “B3” üzerinde koşullu biçimlendirme uygular.
+1. **Formülüne bağlı olarak koşullu biçimlendirme uygula**.
+   Aşağıda, görevi yerine getirmek için bileşenin kullandığı gerçek kod bulunmaktadır. “B3” üzerinde koşullu biçimlendirme uygular.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingBasedOnFormula-ConditionalFormattingBasedOnFormula.java" >}}
 
-Yukarıdaki kod yürütüldüğünde, çıktı dosyasının (output.xls) ilk çalışma sayfasındaki "B3" hücresine koşullu biçimlendirme uygulanır. Uygulanan koşullu biçimlendirme, “B3” değerini B1 ve B2'nin toplamı olarak hesaplayan formüle bağlıdır. Lütfen oluşturulan XLS dosyasının aşağıdaki ekran görüntülerine bakın.
+Yukarıdaki kod çalıştırıldığında, koşullu biçimlendirme çıktı dosyasının ilk çalışma sayfasındaki “B3” hücresine uygulanır (çıkış.xls). Uygulanan koşullu biçimlendirme, “B3” değerine bağlıdır ve “B3” değerini B1 ve B2'nin toplamı olarak hesaplayan formüle bağlıdır. Oluşturulan XLS dosyasının aşağıdaki ekran görüntülerine bakınız.
 
-**B3 değeri 100'den az olan Excel dosyası çıktısı**
+**B3 değeri 100'den küçük olan çıkış Excel dosyası**
 
-![yapılacaklar:resim_alternatif_metin](apply-conditional-formatting-in-worksheets_3.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_3.png)
 
-**B3 değeri 100'den büyük olan Excel dosyasının çıktısını alın**
+**B3'ün 100'den büyük olduğu çıkış Excel dosyası**
 
-![yapılacaklar:resim_alternatif_metin](apply-conditional-formatting-in-worksheets_4.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_4.png)
 
-### **Çözüm**
+### **Sonuç**
 
 {{% alert color="primary" %}}
 
-Bu makale, Aspose.Cells API ile bir çalışma sayfasındaki hücrelere koşullu biçimlendirmenin nasıl uygulanacağını gösterir. Umarız, bu seçenekleri kendi senaryolarınızda kullanabilmeniz için size biraz bilgi verir.
+Bu makale, Aspose.Cells API'si ile bir çalışma sayfasındaki hücrelere koşullu biçimlendirme uygulamanın nasıl yapıldığını göstermektedir. Umarım, kendi senaryolarınızda bu seçenekleri kullanabilirsiniz.
 
-Aspose.Cells, çözümler için büyük esneklik sunar ve belirli iş uygulaması gereksinimlerini karşılamak için olağanüstü hız, verimlilik ve güvenilirlik sağlar. Aspose.Cells, yıllarca süren araştırma, tasarım ve dikkatli ayarlamadan yararlanır.
+Aspose.Cells, belirli iş uygulama gereksinimlerini karşılamak için olağanüstü hız, verimlilik ve güvenilirlik sunar. Yılların araştırma, tasarım ve dikkatli ayarlamasından faydalanır.
 
- Soru, görüş ve önerilerinizi sayfamıza bekliyoruz.[Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Hızlı bir cevap garanti ediyoruz.
+Sorularınızı, yorumlarınızı ve önerilerinizi [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9) 'da bekliyoruz. Hızlı bir yanıt garantisi veriyoruz.
 
 {{% /alert %}}

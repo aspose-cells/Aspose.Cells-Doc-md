@@ -1,11 +1,12 @@
-﻿---
-title: تنسيقات الخطوط المدعومة
+---
+title: تنسيقات الخط المدعومة
 type: docs
 weight: 5
 url: /ar/net/supported-font-formats/
 ---
-|**شكل**|**وصف**|
-|:- |:- |:- |:- |
-|**TTF**|خطوط تروتايب|
-|**TTC**|مجموعة تروتايب|
-|**OTF**|خطوط OpenType|
+
+|**التنسيق**|**الوصف**|
+| :- | :- | :- | :- |
+|**TTF**| TrueType Fonts|
+|**TTC**| TrueType Collection|
+|**OTF**| OpenType Fonts|

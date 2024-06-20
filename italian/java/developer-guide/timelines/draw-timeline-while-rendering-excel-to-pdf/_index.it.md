@@ -1,17 +1,18 @@
-﻿---
-title: Disegna la linea temporale durante il rendering di Excel su PDF
+---
+title: Disegna la Timeline durante la rappresentazione di Excel in PDF
 type: docs
 weight: 60
 url: /it/java/draw-timeline-while-rendering-excel-to-pdf/
-description: Gestisci le sequenze temporali dei file Excel con Aspose.Cells per Java.
-keywords: Rendering timeline to pdf without office 2013, office 2016, office 2019 and office 365
+description: Gestisci le timeline dei file di Excel con Aspose.Cells per Java.
+keywords: Rappresenta la timeline in PDF senza office 2013, office 2016, office 2019 e office 365
 ---
-## **Disegna la linea temporale durante il rendering di Excel su PDF**
-Se si dispone di un file Excel a cui è applicata la sequenza temporale e si desidera esportare Excel in PDF con le impostazioni della sequenza temporale, Aspose.Cells for Java ora lo supporta per impostazione predefinita. Devi semplicemente esportare il file Excel con la sequenza temporale in PDF, lo PDF generato mostrerà la sequenza temporale applicata.
 
- Il codice di esempio seguente carica il file[esempio di file Excel](input.xlsx) che contiene una sequenza temporale esistente. Quindi salva la cartella di lavoro come[output PDF file](out.pdf). Lo screenshot seguente confronta il file Excel di origine e il file PDF generato.
+## **Disegna la Timeline durante la rappresentazione di Excel in PDF**
+Se hai un file di Excel a cui è stata applicata una timeline e vuoi esportare l'Excel in PDF con le impostazioni della timeline, Aspose.Cells for Java lo supporta ora di default. Basta esportare il file di Excel con la timeline in PDF, il PDF generato mostrerà la timeline applicata.
+
+Il seguente codice di esempio carica il [file di Excel di esempio](input.xlsx) che contiene un timeline esistente. Salva poi il workbook come [file PDF di output](out.pdf). La seguente schermata confronta il file di Excel di origine e il file PDF generato.
 
 <img src="out.png" width="60%">
 
-## **Codice d'esempio**
+## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-DrawTimelinetoPdf.java" >}}

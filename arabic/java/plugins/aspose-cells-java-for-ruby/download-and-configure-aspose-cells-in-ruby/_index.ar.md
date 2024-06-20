@@ -1,33 +1,34 @@
-﻿---
-title: قم بتنزيل وتهيئة Aspose.Cells في Ruby
+---
+title: تنزيل وتكوين Aspose.Cells في Ruby
 type: docs
 weight: 10
 url: /ar/java/download-and-configure-aspose-cells-in-ruby/
 ---
+
 ## **تحميل المكتبات المطلوبة**
-تحميل المكتبات المطلوبة المذكورة أدناه. هذه هي المطلوبة لتنفيذ Aspose.Cells Java لأمثلة روبي.
+قم بتنزيل المكتبات المطلوبة المذكورة أدناه. هذه المكتبات مطلوبة لتنفيذ أمثلة Aspose.Cells Java لـ Ruby.
 
-- [Aspose.Cell for Java مكون](https://downloads.aspose.com/cells/java/)
-## **تنزيل أمثلة من مواقع الترميز الاجتماعي**
-الإصدارات التالية من الأمثلة قيد التشغيل متاحة للتنزيل على مواقع الترميز الاجتماعي المذكورة أدناه:
+- [مكون Aspose.Cell لجافا](https://downloads.aspose.com/cells/java/)
+## **تحميل الأمثلة من مواقع الترميز الاجتماعي**
+الإصدارات التالية لأمثلة تشغيل متوفرة للتنزيل على المواقع التالية المذكورة أدناه:
 
-**جيثب**
+**GitHub**
 
-- [Aspose.Cells Java لروبي](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Ruby)
+- [Aspose.Cells Java for Ruby](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Ruby)
 ## **التثبيت**
-إنه بسيط للغاية وسهل التثبيت Aspose.cells Java لجوهرة روبي ، يرجى اتباع هذه الخطوات البسيطة:
+من السهل جداً وبسيط تثبيت Aspose.cells Java لـ Ruby gem، يرجى اتباع هذه الخطوات البسيطة:
 
-1.  أضف هذا السطر إلى ملف Gemfile الخاص بتطبيقك.
+1. قم بإضافة هذا السطر إلى ملف Gemfile لتطبيقك. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  gem 'aspose-cellsjava'
 
 {{< /highlight >}}
 
-1. ثم نفذ
+1. ثم قم بتنفيذ 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  $ bundle
 
@@ -35,17 +36,17 @@ url: /ar/java/download-and-configure-aspose-cells-in-ruby/
 
 **أو**
 
-1.  قم بتشغيل الأمر التالي.
+1. قم بتشغيل الأمر التالي. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  $ gem install aspose-cellsjava
 
 {{< /highlight >}}
 ## **استخدام**
-قم بتضمين الملفات المطلوبة للعمل مع مثال helloworld.
+يجب تضمين الملفات المطلوبة للعمل مع مثال helloworld.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  require require File.dirname(File.dirname(File.dirname(__FILE__))) + '/lib/aspose-cellsjava'
 
@@ -57,8 +58,8 @@ initialize_aspose_cells
 
 {{< /highlight >}}
 
-دعونا نفهم الكود أعلاه.
+دعونا نفهم الشيفرة أعلاه.
 
-1. يتأكد السطر الأول من تحميل خلايا الغرض وإتاحتها.
-1. قم بتضمين الملفات المطلوبة للوصول إلى خلايا الغرض.
-1. تهيئة المكتبات. يتم تحميل فئات aspose JAVA من المسار المتوفر في ملف aspose.yml /
+1. السطر الأول يتأكد من أن مكتبة aspose cells محملة ومتوفرة.
+1. قم بتضمين الملفات المطلوبة للوصول إلى aspose cells.
+1. قم بتهيئة المكتبات. تتم تحميل فئات aspose JAVA من المسار المُقدم في ملف aspose.yml.

@@ -1,57 +1,58 @@
-﻿---
-title: Recherche des antécédents et des personnes à charge au Aspose.Cells
+---
+title: Suivi des précédents et des dépendances dans Aspose.Cells
 type: docs
 weight: 130
 url: /fr/net/tracing-precedents-and-dependents-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Les feuilles de calcul financières complexes, en particulier celles développées en collaboration, peuvent cacher les erreurs les plus embarrassantes. Vérifier l'exactitude des formules et trouver la source d'une erreur peut être difficile lorsque la formule utilise des cellules précédentes et des cellules dépendantes.
+Les feuilles de calcul financières complexes, en particulier celles développées en collaboration, peuvent cacher les erreurs les plus gênantes. Vérifier la précision des formules et trouver la source d'une erreur peut être difficile lorsque la formule utilise des cellules précédentes et des cellules dépendantes.
 
-- **Cellules précédentes** sont des cellules référencées par une formule dans un autre Cell. Par exemple, si la cellule D10 contient la formule =B5, la cellule B5 est un précédent de la cellule D10.
-- **Cellules dépendantes** contiennent des formules faisant référence à d'autres cellules. Par exemple, si la cellule D10 contient la formule =B5, la cellule D10 dépend de la cellule B5.
+- **Cellules précédentes** sont des cellules auxquelles une formule d'une autre cellule fait référence. Par exemple, si la cellule D10 contient la formule =B5, la cellule B5 est une cellule précédente de la cellule D10.
+- **Cellules dépendantes** contiennent des formules qui font référence à d'autres cellules. Par exemple, si la cellule D10 contient la formule =B5, la cellule D10 est une dépendance de la cellule B5.
 
-Pour faciliter la lecture de la feuille de calcul, vous souhaiterez peut-être indiquer clairement quelles cellules d'une feuille de calcul sont utilisées dans une formule. De même, vous souhaiterez peut-être extraire les cellules dépendantes d'autres cellules.
+Pour rendre la feuille de calcul facile à lire, vous voudrez peut-être clairement indiquer quelles cellules d'une feuille de calcul sont utilisées dans une formule. De même, vous voudrez peut-être extraire les cellules dépendantes d'autres cellules.
 
-Aspose.Cells vous permet de tracer des cellules et de découvrir lesquelles sont liées.
+Aspose.Cells vous permet de tracer les cellules et de savoir lesquelles sont liées.
 
 {{% /alert %}} 
-## **Traçage précédent et dépendant Cells : Microsoft Excel**
-Les formules peuvent changer en fonction des modifications apportées par un client. Par exemple, si la cellule C1 dépend de C3 et C4 contenant une formule et que C1 est modifiée (la formule est donc remplacée), C3 et C4, ou d'autres cellules, doivent être modifiées pour équilibrer la feuille de calcul en fonction des règles métier.
+## **Tracer les cellules précédentes et dépendantes : Microsoft Excel**
+Les formules peuvent changer en fonction des modifications apportées par un client. Par exemple, si la cellule C1 dépend des cellules C3 et C4 contenant une formule, et que C1 est modifiée (de sorte que la formule est remplacée), C3 et C4, ou d'autres cellules, doivent changer pour équilibrer la feuille de calcul en fonction des règles commerciales.
 
-De même, supposons que C1 contienne la formule "=(B1*22)/(M2*N32)". Je veux trouver les cellules dont dépend C1, c'est-à-dire les cellules précédentes B1, M2 et N32.
+De même, supposons que C1 contienne la formule "=(B1*22)/(M2*N32)". Je veux trouver les cellules dont C1 dépend, c'est-à-dire les cellules précédentes B1, M2 et N32.
 
-Vous devrez peut-être tracer la dépendance d'une cellule particulière à d'autres cellules. Si des règles métier sont intégrées dans des formules, nous aimerions découvrir la dépendance et exécuter certaines règles basées sur celle-ci. De même, si la valeur d'une cellule particulière est modifiée, quelles cellules de la feuille de calcul sont impactées par ce changement ?
+Vous pourriez avoir besoin de tracer la dépendance d'une cellule particulière à d'autres cellules. Si les règles commerciales sont intégrées dans les formules, nous aimerions découvrir la dépendance et exécuter certaines règles en fonction de cela. De même, si la valeur d'une cellule particulière est modifiée, quelles cellules dans la feuille de calcul sont impactées par ce changement?
 
-Microsoft Excel permet aux utilisateurs de retracer les antécédents et les personnes à charge.
+Microsoft Excel permet aux utilisateurs de tracer les cellules précédentes et dépendantes.
 
-1.  Sur le**Afficher la barre d'outils** , sélectionner**Audit de formule**.
- La boîte de dialogue Audit de formule s'affiche.
-   **La boîte de dialogue Audit de formule** 
+1. Sur la **Barre d'outils Affichage**, sélectionnez **Audit de formules**.
+   La boîte de dialogue Audit de formules s'affiche. 
+   **La boîte de dialogue Audit de formules** 
 
-![tâche : image_autre_texte](tracing-precedents-and-dependents-in-aspose-cells_1.png)
+![todo:image_alt_text](tracing-precedents-and-dependents-in-aspose-cells_1.png)
 
-1. Tracez des précédents :
-1. Sélectionnez la cellule contenant la formule pour laquelle vous souhaitez rechercher des cellules précédentes.
- 1. Pour afficher une flèche de suivi sur chaque cellule qui fournit directement des données à la cellule active, cliquez sur**Tracer des précédents** sur le**Audit de formule** barre d'outils.
-1. Formules de trace qui font référence à une cellule particulière (dépendants)
- 1. Sélectionnez la cellule pour laquelle vous souhaitez identifier les cellules dépendantes.
- 1. Pour afficher une flèche de suivi sur chaque cellule qui dépend de la cellule active, cliquez sur Tracer les dépendants dans la barre d'outils Audit de formule.
-## **Recherche de précédent et de personne à charge Cells : Aspose.Cells**
-### **Retrouver les précédents**
-Aspose.Cells facilite l'obtention de cellules précédentes. Non seulement il peut récupérer des cellules qui fournissent des données à des précédents de formules simples, mais également trouver des cellules qui fournissent des données à des précédents de formules complexes avec des plages nommées.
+1. Tracer les cellules précédentes :
+   1. Sélectionnez la cellule contenant la formule pour laquelle vous souhaitez trouver les cellules précédentes.
+   1. Pour afficher une flèche de traçage vers chaque cellule qui fournit directement des données à la cellule active, cliquez sur **Tracer les cellules précédentes** sur la **Barre d'outils Audit de formules**.
+1. Tracer les formules qui référencent une cellule particulière (dépendantes)
+   1. Sélectionnez la cellule pour laquelle vous souhaitez identifier les cellules dépendantes.
+   1. Pour afficher une flèche de traçage vers chaque cellule qui dépend de la cellule active, cliquez sur Traçage des dépendances sur la barre d'outils d'Audit de formules.
+## **Tracer les cellules précédentes et dépendantes : Aspose.Cells**
+### **Tracer les cellules précédentes**
+Aspose.Cells facilite l'obtention des cellules précédentes. Non seulement peut-il récupérer les cellules qui fournissent des données à des précédents de formule simples mais aussi trouver les cellules qui fournissent des données à des précédents de formule complexes avec des plages nommées.
 
-Dans l'exemple ci-dessous, un modèle de fichier Excel, Book1.xls, est utilisé. La feuille de calcul contient des données et des formules sur la première feuille de calcul.
+Dans l'exemple ci-dessous, un fichier excel modèle, Book1.xls, est utilisé. La feuille de calcul contient des données et des formules sur la première feuille de calcul.
 
 **La feuille de calcul d'entrée** 
 
-![tâche : image_autre_texte](tracing-precedents-and-dependents-in-aspose-cells_2.png)
+![todo:image_alt_text](tracing-precedents-and-dependents-in-aspose-cells_2.png)
 
-Aspose.Cells fournit la méthode GetPrecedents de la classe Cell utilisée pour tracer les précédents d'une cellule. Elle renvoie une ReferredAreaCollection. Comme vous pouvez le voir ci-dessus, dans Book1.xls, la cellule B7 contient une formule "=SUM(A1:A3)". Ainsi, les cellules A1: A3 sont les cellules précédentes à la cellule B7. L'exemple suivant illustre la fonctionnalité de suivi des précédents à l'aide du fichier de modèle Book1.xls.
+Aspose.Cells fournit la méthode GetPrecedents de la classe Cell utilisée pour tracer les précédents d'une cellule. Elle renvoie un ReferredAreaCollection. Comme vous pouvez le voir ci-dessus, dans Book1.xls, la cellule B7 contient la formule "=SUM(A1:A3)". Ainsi, les cellules A1:A3 sont les cellules précédentes de la cellule B7. L'exemple suivant présente la fonction de traçage des précédents en utilisant le fichier modèle Book1.xls.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -119,14 +120,14 @@ if(ret != null)
 
 
 {{< /highlight >}}
-### **Recherche des personnes à charge**
-Aspose.Cells vous permet d'obtenir des cellules dépendantes dans des feuilles de calcul. Aspose.Cells peut non seulement récupérer des cellules qui fournissent des données concernant une formule simple, mais également trouver des cellules qui fournissent des données à une formule complexe dépendante avec des plages nommées.
+### **Tracé des dépendances**
+Aspose.Cells vous permet d'obtenir les cellules dépendantes dans des feuilles de calcul. Aspose.Cells peut non seulement récupérer les cellules fournissant des données concernant une formule simple, mais aussi trouver les cellules fournissant des données aux dépendances d'une formule complexe avec des plages nommées.
 
-Aspose.Cells fournit la méthode GetDependents de la classe Cell utilisée pour tracer les personnes à charge d'une cellule. Par exemple, dans Book1.xlsx, il existe des formules : "=A1+20" et "=A1+30" dans les cellules B2 et C2 respectivement. L'exemple suivant montre comment tracer les personnes à charge pour la cellule A1 à l'aide du fichier de modèle Book1.xlsx.
+Aspose.Cells fournit la méthode GetDependents de la classe Cell utilisée pour tracer les dépendances d'une cellule. Par exemple, dans Book1.xlsx, il y a les formules : "=A1+20" et "=A1+30" dans les cellules B2 et C2 respectivement. L'exemple suivant démontre comment tracer les dépendances pour la cellule A1 en utilisant le fichier modèle Book1.xlsx.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string path = "Book1.xlsx";
 
@@ -147,8 +148,8 @@ foreach (var dependent in dependents)
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Tracing%20Precedents%20and%20Dependents)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
 

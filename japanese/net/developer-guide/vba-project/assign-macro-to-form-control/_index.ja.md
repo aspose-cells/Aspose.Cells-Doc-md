@@ -1,18 +1,19 @@
-﻿---
-title: フォーム コントロールへのマクロの割り当て
+---
+title: フォームコントロールにマクロを割り当てる
 type: docs
 weight: 60
 url: /ja/net/assign-macro-to-form-control/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells を使用すると、ボタンのようなフォーム コントロールにマクロ コードを割り当てることができます。をご利用ください[**Shape.MarcoName**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname)プロパティを使用して、ブック内のフォーム コントロールに新しいマクロ コードを割り当てます。
+Aspose.Cellsを使用して、ボタンなどのフォームコントロールにマクロコードを割り当てることができます。Workbook内のフォームコントロールに新しいマクロコードを割り当てるには、[**Shape.MarcoName**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname)プロパティを使用してください。
 
 {{% /alert %}}
 
-次のサンプル コードは、新しいワークブックを作成し、マクロ コードをフォーム ボタンに割り当て、出力を XLSM 形式で保存します。出力 XLSM ファイルを Microsoft Excel で開くと、次のマクロ コードが表示されます。
+新しいワークブックを作成し、フォームボタンにマクロコードを割り当て、出力をXLSM形式で保存するサンプルコードを以下に示します。作成されたXLSMファイルをMicrosoft Excelで開くと、指定のマクロコードが表示されます。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -22,8 +23,8 @@ End Sub
 
 {{< /highlight >}}
 
-## **C# でフォーム コントロールにマクロを割り当てます。**
+## **C#でフォームコントロールにマクロを割り当てる**
 
-マクロ コードを使用して出力 XLSM ファイルを生成するサンプル コードを次に示します。
+新しいXLSM ファイルとマクロコードを生成するサンプルコードを以下に示します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}

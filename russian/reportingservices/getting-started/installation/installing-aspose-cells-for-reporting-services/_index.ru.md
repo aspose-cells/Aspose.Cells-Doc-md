@@ -1,9 +1,10 @@
-﻿---
+---
 title: Установка Aspose.Cells for Reporting Services
 type: docs
 weight: 20
 url: /ru/reportingservices/installing-aspose-cells-for-reporting-services/
 ---
+
 Этот раздел включает следующие темы:
 
 - [Использование установщика MSI](/cells/ru/reportingservices/using-msi-installer/)

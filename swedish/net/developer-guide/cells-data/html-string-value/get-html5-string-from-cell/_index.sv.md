@@ -1,26 +1,27 @@
 ---
-title: Hämta HTML5-sträng från Cell
+title: Hämta HTML5 sträng från cell
 type: docs
 weight: 90
 url: /sv/net/get-html5-string-from-cell/
-description: Lär dig hur du hämtar HTML5-sträng från Cell till Aspose.Cells for .NET API.
-keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
+description: Lär dig hur du får HTML5 sträng från cellen genom Aspose.Cells for .NET API.
+keywords: Få HTML5 sträng från cell, Hämta HTML5 sträng från cell, Hantera HTML5 sträng i cell
 ---
-##  **Möjliga användningsscenarier**
 
-Aspose.Cells returnerar HTML-strängen för cellen med[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) metod som accepterar en boolesk parameter. Om du passerar**falsk** som en parameter kommer den att returnera Normal HTML men om du klarar**Sann** som en parameter returnerar den HTML5-sträng.
+## **Möjliga användningsscenario**
 
-##  **Hämta HTML5-sträng från Cell**
+Aspose.Cells returnerar HTML-strängen från cellen med hjälp av [**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) -metoden som accepterar en boolesk parameter. Om du passerar **false** som parameter returneras vanlig HTML men om du passerar **true** som parameter returneras en HTML5-sträng.
 
-Följande exempelkod skapar ett arbetsboksobjekt och lägger till lite text i cell A1 i det första kalkylbladet. Den får sedan strängen Normal HTML och HTML5 från cell A1 med hjälp av[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)metod och skriver ut dem på konsolen.
+## **Hämta HTML5-sträng från cell**
 
-##  **Exempelkod**
+Följande provkod skapar en arbetsbok och lägger till lite text i cell A1 på den första kalkylbladet. Den hämtar sedan normal HTML och HTML5-sträng från cell A1 med metoden [**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) och skriver ut dem på konsolen.
+
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-GetHTML5StringFromCell.cs" >}}
 
-##  **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Normal:
 

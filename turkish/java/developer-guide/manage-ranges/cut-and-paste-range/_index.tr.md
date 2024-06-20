@@ -1,20 +1,21 @@
-﻿---
-title: Kesme ve Yapıştırma Aralıkları
+---
+title: Aralıkları Kes ve Yapıştır
 type: docs
 weight: 150
 url: /tr/java/cut-and-paste-cells/
 ---
-## **Kes Yapıştır Cells**
 
-Aspose.Cells, bir çalışma sayfasındaki hücreleri kesip yapıştırabilmenizi sağlar.[**ekleCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) yöntemi[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)Toplamak. bu[**ekleCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) aşağıdaki parametreleri kabul eder.
+## **Hücreleri Kırp ve Yapıştır**
 
-- [**Menzil**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)Kesilecek hücre aralığı.
-- Satır Dizini: Hücrelerin ekleneceği satırın dizini.
-- Sütun Dizini: Hücrelerin ekleneceği sütunun dizini.
+Aspose.Cells, çalışsayfa içindeki hücreleri kesip yapıştırmak için [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) koleksiyonunun [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) metodunu kullanma olanağı sağlar. [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) şu parametreleri kabul eder.
+
+- [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range): Kesilecek hücrelerin aralığı.
+- Satır Dizini: Hücreleri eklemek için satırın dizini.
+- Sütun Dizini: Hücreleri eklemek için sütunun dizini.
 - [**ShiftType**](https://reference.aspose.com/cells/java/com.aspose.cells/ShiftType): Sütunların kaydırma yönü.
 
-Aşağıdaki örnek, bir çalışma sayfasındaki hücrelerin nasıl kesilip yapıştırılacağını gösterir.
+Aşağıdaki örnek, çalışma sayfası üzerinde hücreleri kesip yapıştırmayı gösterir.
 
-## Basit kod
+## Örnek Kod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-CutAndPasteCells-1.java" >}}

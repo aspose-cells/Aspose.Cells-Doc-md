@@ -1,41 +1,42 @@
-﻿---
-title: Avvolgimento Cell Testo
+---
+title: Avvolgimento del Testo della Cella
 type: docs
 weight: 130
 url: /it/net/wrapping-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-Il testo a capo facilita la lettura: una cella con testo a capo si espande per adattarsi al testo in modo che il testo non venga visualizzato sopra le altre celle.
+L'avvolgimento del testo rende più facile la lettura: una cella con testo avvolto si espande per adattarsi al testo in modo che il testo non venga visualizzato sopra altre celle.
 
-Con Aspose.Cells for .NET, gli sviluppatori possono eseguire la maggior parte delle attività nelle loro applicazioni che gli utenti possono eseguire con Microsoft Excel, incluso il testo a capo nelle celle. Questo articolo spiega come e confronta l'attività utilizzando VSTO e Aspose.Cells. Aspose.Cells è ottimizzato per una codifica efficiente e funziona senza Microsoft Automation.
+Con Aspose.Cells for .NET, gli sviluppatori possono eseguire la maggior parte delle attività nelle loro applicazioni che gli utenti possono fare con Microsoft Excel, incluso l'avvolgimento del testo nelle celle. Questo articolo spiega come e confronta il compito utilizzando VSTO e Aspose.Cells. Aspose.Cells è ottimizzato per una codifica efficiente e funziona senza Automazione di Microsoft.
 
 {{% /alert %}}
 
-## **Avvolgimento Cell Testo**
+## **Avvolgimento del Testo della Cella**
 
-Per creare un foglio di lavoro con due celle, una con testo a capo e una senza:
+Per creare un foglio di lavoro con due celle, una con testo avvolto e una senza:
 
-1. Imposta il foglio di lavoro:
- 1. Crea una cartella di lavoro.
- 1. Accedi al primo foglio di lavoro.
+1. Configura il foglio di lavoro:
+   1. Crea un libro di lavoro.
+   1. Accedi al primo foglio di lavoro.
 1. Aggiungi testo:
- 1. Aggiungi testo alla cella A1.
- 1. Aggiungi testo a capo alla cella A5.
+   1. Aggiungi testo alla cella A1.
+   1. Aggiungi testo avvolto alla cella A5.
 1. Salva il foglio di calcolo.
 
- Gli esempi di codice seguenti mostrano come eseguire questi passaggi utilizzando[VSTO](/cells/it/net/wrapping-cell-text/) con C# o Visual Basic. Esempi di codice che mostrano come eseguire la stessa operazione utilizzando[Aspose.Cells for .NET](/cells/it/net/wrapping-cell-text/), sempre utilizzando C# o Visual Basic seguire immediatamente dopo.
+Gli esempi di codice qui sotto mostrano come eseguire questi passaggi utilizzando [VSTO](/cells/it/net/wrapping-cell-text/) con C# o Visual Basic. Gli esempi di codice che mostrano come fare la stessa cosa utilizzando [Aspose.Cells for .NET](/cells/it/net/wrapping-cell-text/), di nuovo utilizzando C# o Visual Basic seguono immediatamente.
 
-L'esecuzione del codice genera un foglio di calcolo con due celle, una con testo che non è stato racchiuso e una con:
+L'esecuzione del codice produce un foglio di calcolo con due celle, una con del testo che non è stato wrappato e una che contiene:
 
-|<p>**Output del testo della cella di wrapping con VSTO** </p><p>![cose da fare:immagine_alt_testo](wrapping-cell-text_1.png)</p>|<p>**Emetti il testo della cella di wrapping con Aspose.Cells for .NET** </p><p>![cose da fare:immagine_alt_testo](wrapping-cell-text_2.png)</p>|
-|:- |:- |
+|<p>**Output wrapping cell text with VSTO** </p><p>![todo:image_alt_text](wrapping-cell-text_1.png)</p>|<p>**Output wrapping cell text with Aspose.Cells for .NET** </p><p>![todo:image_alt_text](wrapping-cell-text_2.png)</p>|
+| :- | :- |
 
-### **A capo Cell Testo con VSTO**
+### **Wrapping del Testo della Cella Utilizzando VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -85,11 +86,11 @@ void WrappingCellText()
 
 {{< /highlight >}}
 
-### **A capo Cell Testo Usando Aspose.Cells for .NET**
+### **Wrapping del Testo della Cella Utilizzando Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void WrappingCellText()
 

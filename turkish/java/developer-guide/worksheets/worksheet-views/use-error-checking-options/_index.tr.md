@@ -1,38 +1,39 @@
-﻿---
-title: Hata Denetimi Seçeneklerini Kullanın
+---
+title: Hata Kontrolü Seçeneklerini Kullanma
 type: docs
 weight: 60
 url: /tr/java/use-error-checking-options/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel, kullanıcıların hata denetimi seçeneklerini ve kurallarını tanımlamasına olanak tanır. Kullanıcılar genellikle formül oluştururken hata kontrolleri görürler; hücrede bir sorun olduğunda hücrenin sağ üst köşesindeki küçük bir üçgen vurgulanır. Excel, kullanıcıların yaygın sorunları düzeltmesine yardımcı olan bilgiler sağlar.
+Microsoft Excel, kullanıcılara hata kontrol seçenekleri ve kurallarını tanımlama imkanı sunar. Kullanıcılar genellikle formül oluştururken hata kontrollerini görür, bir hücrenin sağ üst köşesindeki küçük üçgen, bir hücrede bir sorun olduğunda vurgulanır. Excel, kullanıcılara bir hücredeki bir problemle ilgili yardımcı olacak bilgileri sağlar.
 
 {{% /alert %}} 
-## **Hata Türleri**
-Bir sayıyı sıfıra bölmek gibi formülün bir sonuç döndüremeyeceği anlamına gelen hatalar derhal ilgilenilmesini gerektirir ve hücrede bir hata değeri görüntülenir. Yeşil üçgene tıklamak bir ünlem işareti gösterir, buna tıklamak seçenekler listesini açar.
+## **Hata türleri**
+Formülün bir sonuç döndüremeyeceği anlamına gelen hatalar - örneğin bir sayıyı sıfıra bölmek gibi - hemen dikkat gerektirir ve hücrede bir hata değeri gösterilir. Yeşil üçgenin üzerine tıklamak bir ünlem işareti gösterir, bu tıklama seçenek listesini açar. 
 
-Hata, seçenekler kullanılarak çözülebilir veya göz ardı edilebilir. Bir hatayı yok saymak, o hatanın sonraki hata kontrollerinde görünmeyeceği anlamına gelir.
+Hata, seçenekler kullanılarak çözülebilir veya yok sayılabilir. Bir hatayı yok saymak, o hatanın daha sonra yapılan hata kontrollerinde görünmeyeceği anlamına gelir.
 
-Aspose.Cells, hata kontrol seçeneği özellikleri sağlar. ErrorCheckOptions sınıfı, örneğin metin olarak depolanan sayılar, formül hesaplama hataları ve doğrulama hataları gibi farklı türde hata denetimlerini yönetir. İstenen hata denetimini ayarlamak için ErrorCheckType numaralandırmasını kullanın.
-## **Numbers Metin Olarak Saklandı**
-Bazen sayılar biçimlendirilebilir ve hücrelerde metin olarak saklanabilir. Bu, hesaplamalarda sorunlara neden olabilir veya kafa karıştırıcı sıralama düzenleri oluşturabilir. Metin olarak biçimlendirilen Numbers, hücrede sağa hizalanmak yerine sola hizalanır. Hücreler üzerinde matematiksel işlem gerçekleştirmesi gereken bir formül bir değer döndürmezse, formülün başvurduğu hücrelerdeki hizalamayı kontrol edin; bu hücrelerin bazıları veya tümü metin olarak biçimlendirilmiş sayılar olabilir.
+Aspose.Cells, hata kontrol seçenek özelliklerini sağlar. ErrorCheckOptions sınıfı, metin olarak saklanan sayılar, formül hesaplama hataları ve doğrulama hataları gibi farklı türlerde hata kontrollerini yönetir. İstenen hata kontrolünü ayarlamak için ErrorCheckType numaralandırmasını kullanın.
+## **Metin Olarak Saklanan Sayılar**
+Bazen, sayılar hücrelerde metin olarak biçimlendirilmiş ve saklanmış olabilir. Bu, hesaplamalarda sorunlara neden olabilir veya karışık sıralama düzenleri oluşturabilir. Metin olarak biçimlendirilmiş sayılar, hücrede sağa hizalanmış olarak değil, sola hizalanmış olarak bırakılır. Bir hücrelerde matematiksel bir işlem yapması gereken bir formül değeri döndürmezse, formülün başvurduğu hücrelerdeki hizalama kontrol edilmelidir - bu hücrelerin bazıları veya tümü metin olarak biçimlendirilmiş sayılar olabilir.
 
-Metin olarak saklanan sayıları hızla gerçek sayılara dönüştürmek için hata denetimi seçeneklerini kullanabilirsiniz. Microsoft Excel 2003'te:
+Metin olarak saklanan sayıları hızlı bir şekilde gerçek sayılara dönüştürmek için hata kontrol seçeneklerini kullanabilirsiniz. Microsoft Excel 2003'te:
 
-1.  Üzerinde**Araçlar** menü, tıklayın**Seçenekler**.
-1. Hata Denetimi sekmesini seçin.
-   **Metin olarak saklanan sayı** seçeneği varsayılan olarak işaretlidir.
-1. Devre dışı bırakın.
- MS Excel'deki veriler için yeşil üçgenin nasıl görüntülendiğini gösteren aşağıdaki resme bakın.
+1. **Araçlar** menüsünde **Seçenekler**'i tıklayın.
+1. Hata Kontrolü sekmesini seçin.
+   **Metin olarak saklanan sayı** seçeneği varsayılan olarak işaretlidir. 
+1. Bu seçeneği devre dışı bırakın.
+   Aşağıdaki resimde MS Excel'deki veriler için yeşil üçgenin nasıl görüntülendiğini görmek için aşağıdaki resme bakın.
 
-![yapılacaklar:resim_alternatif_metin](use-error-checking-options_1.png)
+![todo:image_alt_text](use-error-checking-options_1.png)
 
- Aşağıdaki örnek kod, Aspose.Cells API'leri kullanılarak şablon XLS dosyasındaki bir çalışma sayfası için metin hatası denetimi seçeneği olarak saklanan sayıların nasıl devre dışı bırakılacağını gösterir.
+Aşağıdaki örnek kod, Aspose.Cells API'lerini kullanarak bir çalışma sayfasındaki metin olarak saklanan sayılar hata kontrol seçeneğini devre dışı bırakmanın nasıl yapıldığını göstermektedir. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook and opening a template spreadsheet
 

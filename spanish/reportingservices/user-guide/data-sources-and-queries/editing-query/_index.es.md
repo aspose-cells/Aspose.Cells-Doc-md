@@ -1,39 +1,40 @@
-﻿---
-title: Consulta de edición
+---
+title: Editar Consulta
 type: docs
 weight: 40
 url: /es/reportingservices/editing-query/
 ---
+
 Para editar una consulta en Aspose.Cells.Report.Designer:
 
-1. Abra Microsoft Excel.
-1.  Hacer clic**Construir conjunto de datos**en la barra de herramientas Aspose.Cells.Report.Designer (
+1. Abre Microsoft Excel.
+1. Haga clic en **Crear conjunto de datos** en la barra de herramientas de Aspose.Cells.Report.Designer (
 
-![todo:imagen_alternativa_texto](editing-query_1.png)
+![todo:image_alt_text](editing-query_1.png)
 
 ).
 
-1.  En el cuadro de diálogo, seleccione un conjunto de datos, por ejemplo,**EmpSalesDetail**.
-1.  Hacer clic**Editar**. 
+1. En la ventana de diálogo, seleccione un conjunto de datos, por ejemplo, **DetallesVentasEmp**.
+1. Haga clic en **Editar**. 
 
-   **Selección de un conjunto de datos** 
+   **Seleccionando un conjunto de datos** 
 
-![todo:imagen_alternativa_texto](editing-query_2.png)
-
-
-
-
-1.  Aspose.Cell.Report.Designer inicia Microsoft Consulta y abre la consulta para su edición.
-
-   **Edición de una consulta en Microsoft Consulta** 
-
-![todo:imagen_alternativa_texto](editing-query_3.png)
+![todo:image_alt_text](editing-query_2.png)
 
 
 
 
-1.  Desde Microsoft Consultas**Archivo** menú, seleccione**Volver a Aspose.Cells.Report.Designer** 
+1. Aspose.Cell.Report.Designer inicia Microsoft Query y abre la consulta para su edición. 
 
-   **Volver al Diseñador de informes** 
+   **Editar una consulta en Microsoft Query** 
 
-![todo:imagen_alternativa_texto](editing-query_4.png)
+![todo:image_alt_text](editing-query_3.png)
+
+
+
+
+1. Desde el menú **Archivo** de la Consulta de Microsoft, selecciona **Volver al Diseñador de Informes de Aspose.Cells** 
+
+   **Volver al Diseñador de Informes** 
+
+![todo:image_alt_text](editing-query_4.png)

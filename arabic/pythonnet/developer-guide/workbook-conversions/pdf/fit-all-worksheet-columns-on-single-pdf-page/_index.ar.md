@@ -1,31 +1,32 @@
 ---
-title: احتواء جميع أعمدة ورقة العمل في صفحة PDF واحدة
+title: ملائمة جميع أعمدة الصفحة العملية على صفحة PDF واحدة
 type: docs
 weight: 160
 url: /ar/python-net/fit-all-worksheet-columns-on-single-pdf-page/
-description: تعرف على كيفية احتواء جميع أعمدة ورقة العمل في صفحة واحدة PDF مع Aspose.Cells for Python via .NET API.
-keywords: Python Fit All Worksheet Columns on Single PDF Page, Fit Worksheet Columns on Single PDF Page using Python, Python Save All Worksheet Columns to a PDF Page, Save All Columns to single PDF Page in Python
+description: تعلم كيفية احتواء جميع أعمدة ورقة العمل على صفحة PDF واحدة باستخدام Aspose.Cells for Python via .NET API.
+keywords: احتواء جميع أعمدة ورقة العمل على صفحة PDF واحدة باستخدام Python، احتواء أعمدة الورقة العمل على صفحة PDF واحدة باستخدام Python، حفظ جميع أعمدة الورقة العمل على صفحة PDF واحدة باستخدام Python، حفظ جميع الأعمدة على صفحة PDF واحدة في Python
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان تريد إنشاء ملف PDF يناسب جميع أعمدة ورقة العمل في صفحة واحدة. ال[**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/) يوفر العقار هذه الميزة بطريقة سهلة الاستخدام للغاية. تتم معالجة الحسابات المعقدة مثل ارتفاع وعرض الإخراج PDF داخليًا وتعتمد على البيانات الموجودة في ورقة العمل.
+أحيانًا تحتاج إلى إنشاء ملف PDF يلائم جميع أعمدة صفحة العملية على صفحة واحدة. توفر الخاصية [**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/) هذه الميزة بطريقة سهلة الاستخدام جدًا. يتم التعامل مع الحسابات المعقدة مثل ارتفاع وعرض PDF الناتج داخليًا ويستند إلى البيانات في صفحة العملية.
 
 {{% /alert %}}
 
-##  **احتواء أعمدة ورقة العمل في صفحة PDF واحدة**
+## **ملائمة أعمدة صفحة العملية على صفحة PDF واحدة**
 
-[**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/)يضمن عرض جميع الأعمدة في ورقة العمل إلى صفحة واحدة PDF، على الرغم من أن الصفوف قد تتوسع إلى عدة صفحات اعتمادًا على البيانات الموجودة في ورقة العمل.
+تضمن [**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/) أن تتم عرض كل الأعمدة في صفحة العملية على صفحة PDF واحدة، على الرغم من أن الصفوف قد تمتد إلى عدة صفحات اعتمادًا على البيانات في صفحة العملية.
 
-يوضح نموذج التعليمات البرمجية أدناه كيفية الاستخدام[**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/)خاصية تقديم ورقة عمل كبيرة مكونة من 100 عمود.
+الكود النموذجي أدناه يوضح كيفية استخدام [**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/) لعرض صفحة عمل كبيرة تحتوي على 100 عمود.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-FitAllWorksheetColumns-1.py" >}}
 
 {{% alert color="primary" %}}
 
-عندما تحتوي ورقة عمل معينة على العديد من الأعمدة، فقد يعرض الملف PDF المحتوى بحجم صغير جدًا. ولا يزال قابلاً للقراءة عند توسيع نطاقه في تطبيق عرض مثل Acrobat Reader.
+عندما يحتوي ورق العمل المعطى على العديد من الأعمدة، قد يظهر ملف PDF المقرن بحجم صغير جدًا. لا يزال قابلاً للقراءة عند تكبيره في تطبيق العرض مثل Acrobat Reader.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- إذا كان جدول البيانات الخاص بك يحتوي على صيغ، فمن الأفضل الاتصال به[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) الطريقة قبل تقديم جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة، وتقديم القيم الصحيحة في PDF.
+إذا كان جدول البيانات الخاص بك يحتوي على صيغ، فإن الأفضلية لاصدار [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) الأمر مباشرةً قبل تقديم جدول البيانات إلى تنسيق PDF. سيؤدي ذلك إلى ضمان إعادة حساب قيم الصيغة التي تعتمد عليها، وتقديم القيم الصحيحة في ملف PDF.
 
 {{% /alert %}}

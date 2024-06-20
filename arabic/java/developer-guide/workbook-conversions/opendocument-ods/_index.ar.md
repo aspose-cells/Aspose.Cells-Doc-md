@@ -1,18 +1,19 @@
-﻿---
-title: تحويل مصنف Excel إلى Ods و Sxc و Fods (OpenOffice / LibreOffice calc).
-linktitle: أود
+---
+title: تحويل دفاتر العمل Excel إلى Ods، Sxc و Fods (OpenOffice / LibreOffice calc).
+linktitle: Ods
 type: docs
 weight: 20
 url: /ar/java/opendocument-ods/
 ---
+
 ## **حول OpenDocument**
 
- ال[تنسيق OpenDocument (ODF)](https://en.wikipedia.org/wiki/OpenDocument) هو تنسيق ملف مجاني ومفتوح لمستندات المكتب الإلكترونية تم تطويره في الأصل بواسطة Sun لمجموعة Open Office. جدول بيانات OpenDocument (ODS) هو تنسيق الملف لوثائق Excel. OpenDocument هو حاليًا معيار OASIS و ISO.
+[تنسيق OpenDocument (ODF)](https://en.wikipedia.org/wiki/OpenDocument) هو تنسيق ملف مجاني ومفتوح للوثائق المكتبية الإلكترونية الذي طوّره الأصل لـ OpenOffice suite. تنسيق الجدول الخلية OpenDocument (ODS) هو تنسيق الملفات لوثائق Excel. حاليًا يُعتبر OpenDocument معيارًا لـ OASIS و ISO.
 
 ## **ODS في Aspose.Cells**
 
- يدعم Aspose.Cells تحميل مستندات OpenDocument 1.1 و 1.2. Aspose.Cells يقوم بحفظ الوثائق بتنسيق OpenDocument 1 .1. يمكنك أيضًا مشاهدة ملف[المواصفات التفصيلية](/cells/ar/java/opendocument-ods/) حول ميزات OpenDocument المدعومة.
+تدعم Aspose.Cells تحميل وثائق OpenDocument 1.1 و 1.2. يحفظ Aspose.Cells المستندات بتنسيق OpenDocument 1.1. يمكنك أيضًا رؤية [المواصفات المفصلة](/cells/ar/java/opendocument-ods/) حول الميزات التي تدعمها وثائق OpenDocument.
 
-**نموذج مستند ODS تم إنشاؤه بواسطة Aspose.Cells وفتح في OpenOffice Writer** 
+**مستند ODS عينة تم إنشاؤه باستخدام Aspose.Cells وتم فتحه في OpenOffice Writer** 
 
-![ما يجب القيام به: image_بديل_نص](opendocument-ods_1.png)
+![todo:image_alt_text](opendocument-ods_1.png)

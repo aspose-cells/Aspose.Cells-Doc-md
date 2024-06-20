@@ -1,22 +1,25 @@
-﻿---
-title: Modification de la police et de la couleur d'un Cell
+---
+title: Changer la police et la couleur d une cellule
 type: docs
 weight: 40
-url: /fr/net/changing-the-font-and-color-of-a-cell/
+url: /fr/net/aspose-cells-griddesktop/change-the-font-and-color-of-a-cell/
+keywords: GridDesktop,font,color,change font,change color
+description: Cet article présente comment mettre à jour la police et la couleur dans la cellule de la feuille de calcul dans GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Dans cette rubrique, nous discuterons de la modification de la police et de la couleur de police d'une cellule. Cette fonctionnalité offre un contrôle plus approfondi des feuilles de calcul aux développeurs. Grâce à cette fonctionnalité, les développeurs peuvent personnaliser la police et la couleur de n'importe quelle cellule souhaitée.
+Dans ce sujet, nous discuterons du changement de police et de couleur de police d'une cellule dans GridDesktop. Cette fonctionnalité offre un contrôle plus approfondi des feuilles de calcul aux développeurs. En utilisant cette fonctionnalité, les développeurs peuvent personnaliser la police et la couleur de n'importe quelle cellule souhaitée.
 
 {{% /alert %}} 
-## **Modification de la police et de la couleur d'un Cell**
-Pour modifier la police et la couleur d'une cellule à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
+## **Changer la Police et la Couleur d'une Cellule**
+Pour changer la police et la couleur d'une cellule avec Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
 
--  Accédez à tout**Feuille de travail**
--  Accéder à un**Cell** dont la police et la couleur doivent être modifiées
--  Créer un personnalisé**Police de caractère**
--  Met le**Police de caractère** du**Cell** au personnalisé
--  Enfin, réglez**Couleur de la police** du**Cell** à tout désiré**Couleur**
+- Accédez à n'importe quelle **Worksheet** souhaitée
+- Accédez à une **Cellule** dont la police et la couleur doivent être changées
+- Créer une **police personnalisée**
+- Définissez la **Police** de la **Cellule** sur celle personnalisée
+- Enfin, définissez la **Couleur de la Police** de la **Cellule** sur n'importe quelle **Couleur** souhaitée
 
 
 
@@ -24,6 +27,6 @@ Pour modifier la police et la couleur d'une cellule à l'aide de Aspose.Cells.Gr
 
 {{% alert color="primary" %}} 
 
- Si vous avez seulement besoin d'obtenir des informations sur la police ou la couleur de police de la cellule, vous pouvez également utiliser**Obtenir la police** et**GetFontColor** méthodes de la cellule.
+Si vous avez seulement besoin d'informations sur la police ou la couleur de police de la cellule, vous pouvez également utiliser les méthodes **GetFont** et **GetFontColor** de la cellule.
 
 {{% /alert %}}

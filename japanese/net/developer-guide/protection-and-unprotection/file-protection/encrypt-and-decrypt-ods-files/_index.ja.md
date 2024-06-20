@@ -1,28 +1,29 @@
-﻿---
-title: ODS ファイルの暗号化と復号化
+---
+title: ODSファイルの暗号化と複合化
 type: docs
 weight: 10
 url: /ja/net/encrypt-and-decrypt-ods-files/
-description: 純粋なネット ライブラリである .Net の Aspose.Cells を使用して、パスワードで保護し、ODS ファイルを暗号化します。
+description: Aspose.Cells for .NETを使用してODSファイルをパスワード保護および暗号化する
 ---
+
 {{% alert color="primary" %}}
-OpenOffice.org は、パスワード保護とファイルの暗号化をサポートするフル機能のオフィス スイートです。ただし、暗号化された ODS ファイルは、パスワードを入力した後にのみ OpenOffice で開くことができます。 Excel は暗号化された ODS ファイルを開くことができず、警告メッセージが表示される場合があります。暗号化オプションは、他のファイル タイプとは異なり、ODS ファイルには適用されません。
- Aspose.Cells は、ODS ファイルの暗号化と復号化を許可します。復号化された ODS ファイルは、Excel と OpenOffice の両方で開くことができます。
+OpenOffice.orgはパスワード保護とファイルの暗号化をサポートする完全な機能を備えたオフィススイートです。ただし、暗号化されたODSファイルはパスワードを提供した後にのみOpenOfficeで開くことができ、Excelは暗号化されたODSファイルを開くことはできません。暗号化オプションは、その他のファイルタイプとは異なり、ODSファイルには適用されません。 
+Aspose.Cellsを使用して、ODSファイルの暗号化と複合化が可能です。複合されたODSファイルはExcelとOpenOfficeの両方で開くことができます。 
 {{% /alert %}}
 
-## **OpenOffice Calc で暗号化する**
-1. 選択する**名前を付けて保存**をクリックし、**パスワード付きで保存**箱。
-1. クリック**セーブ**ボタン。
-1. 必要なパスワードを両方に入力します**パスワードを入力して開く**と**パスワードを認証する**表示される [パスワードの設定] ウィンドウのフィールド。
-1. クリック**わかった**ボタンをクリックしてファイルを保存します。
+## **OpenOffice Calcで暗号化**
+1. 「名前を付けて保存」を選択し、「パスワードで保存」ボックスをクリックします。
+1. **保存**ボタンをクリックします。
+1. 開いた「パスワードの設定」ウィンドウの「開くためのパスワードを入力」および「パスワードを確認」フィールドに希望するパスワードを入力します。 
+1. ファイルを保存するために **OK** ボタンをクリックします。
 
-## **.Net の Aspose.Cells で ODS ファイルを暗号化する**
-ODS ファイルを暗号化するには、ファイルをロードして[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)値を実際のパスワードに変更してから保存してください。出力の暗号化された ODS ファイルは、OpenOffice でのみ開くことができます。
+## **Aspose.Cells for .NETでODSファイルを暗号化**
+ODSファイルを暗号化するには、ファイルを読み込んで保存する前に[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)の値を実際のパスワードに設定します。出力される暗号化されたODSファイルは、OpenOfficeでのみ開くことができます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 
-## **.Net の Aspose.Cells で ODS ファイルを復号化します。**
+## **Aspose.Cells for .NETでODSファイルを複合化**
 
- ODS ファイルを復号化するには、[**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password) .ファイルがロードされたら、[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)文字列を null にします。
+ODSファイルを復号化するには、[**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password)によるパスワードの提供でファイルを読み込みます。ファイルが読み込まれたら、[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)文字列をnullに設定します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}

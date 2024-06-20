@@ -1,24 +1,25 @@
-﻿---
-title: Зашифровать и расшифровать ODS файлов
+---
+title: Шифрование и дешифрование файлов ODS
 type: docs
 weight: 10
 url: /ru/java/encrypt-and-decrypt-ods-files/
-description: защищать паролем и шифровать ODS файлы, используя Aspose.Cells for Java, которая является чистой Java библиотекой.
+description: защищает паролем и шифрует файлы ODS с помощью Aspose.Cells for Java, который является чистой библиотекой Java.
 ---
+
 {{% alert color="primary" %}}
-OpenOffice.org — полнофункциональный офисный пакет, поддерживающий защиту паролем и шифрование файлов. Однако зашифрованный файл ODS может быть открыт только OpenOffice после ввода пароля. Excel не может открыть зашифрованный файл ODS и может вывести предупреждающее сообщение. Параметры шифрования неприменимы к файлу ODS, в отличие от других типов файлов.
- Aspose.Cells позволяет зашифровать и расшифровать файл ODS. Расшифрованный файл ODS можно открыть как в Excel, так и в OpenOffice,
+OpenOffice.org - это полнофункциональный офисный пакет, который поддерживает защиту паролем и шифрование файлов. Однако зашифрованный файл ODS может быть открыт только в OpenOffice после ввода пароля. Excel не может открыть зашифрованный файл ODS и может выдать предупреждающее сообщение. Опции шифрования не применимы к файлам ODS, в отличие от других типов файлов. 
+Aspose.Cells позволяет шифровать и дешифровать файлы ODS. Расшифрованный файл ODS можно открыть как в Excel, так и в OpenOffice, 
 {{% /alert %}}
 
-## **Шифрование с помощью OpenOffice Calc**
-1.  Выбирать**Сохранить как** и щелкните**Сохранить с паролем** коробка.
-1.  Нажмите на**Сохранять** кнопка.
-1.  Введите желаемый пароль в оба**Введите пароль для открытия** и**Подтвердите пароль** поля в открывшемся окне Установить пароль.
-1.  Нажмите на**ХОРОШО** кнопку для сохранения файла.
+## **Шифровать с помощью OpenOffice Calc**
+1. Выберите **Сохранить как** и нажмите флажок **Сохранить с паролем**.
+1. Нажмите кнопку **Сохранить**.
+1. Введите желаемый пароль в поля **Введите пароль для открытия** и **Подтвердите пароль** в окне установки пароля, которое откроется. 
+1. Нажмите кнопку **OK**, чтобы сохранить файл.
 
-## **Шифрование/дешифрование ODS Файл:**
+## **Шифрование/дешифрование файла ODS:**
 
- Для шифрования файла ODS загрузите файл и передайте фактический пароль[**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password)перед сохранением. Выходной зашифрованный файл ODS можно открыть только в OpenOffice. Для расшифровки файла ODS загрузите файл, указав пароль в[**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password) . После загрузки файла вызовите функцию[**Рабочая книга.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String) ) с фактическим паролем в качестве аргумента и, наконец, передать null в[**Рабочая книга.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
+Для шифрования файла ODS загрузите файл и передайте фактический пароль в [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) перед его сохранением. Зашифрованный файл ODS можно открыть только в OpenOffice. Для дешифрования файла ODS загрузите файл, указав пароль в [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password). После загрузки файла вызовите функцию [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String)) с фактическим паролем в качестве аргумента и, наконец, передайте null в [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
 
 ### **Образец кода:**
 

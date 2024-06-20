@@ -1,15 +1,16 @@
-﻿---
+---
 title: Снять защиту листа в Php
 type: docs
 weight: 20
 url: /ru/java/unprotect-a-worksheet-in-php/
 ---
-## **Aspose.Cells - Снять защиту с рабочего листа**
- Чтобы защитить рабочий лист с помощью**Aspose.Cells Java for PHP** , вызов**unprotect_worksheet** метод**защита** модуль.
+
+## **Aspose.Cells - Снять защиту листа**
+Для снятия защиты листа с помощью **Aspose.Cells Java для PHP** вызовите метод **unprotect_worksheet** модуля **protection**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $filesFormatType = new FileFormatType();
 
@@ -32,7 +33,7 @@ $worksheet->unprotect("aspose");
 $workbook->save($dataDir . "output.xls", $filesFormatType->EXCEL_97_TO_2003); 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Снять защиту с рабочего листа (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Снятие защиты с листа (Aspose.Cells)** с любого из указанных ниже социальных сайтов для разработки:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/UnprotectingPasswordProtectedWorksheet.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/UnprotectingPasswordProtectedWorksheet.php)

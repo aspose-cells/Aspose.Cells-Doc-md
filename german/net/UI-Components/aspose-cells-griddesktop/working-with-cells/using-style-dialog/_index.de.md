@@ -1,41 +1,44 @@
-﻿---
-title: Stildialog verwenden
+---
+title: Dialogfeld für Format verwenden
 type: docs
 weight: 70
-url: /de/net/using-style-dialog/
+url: /de/net/aspose-cells-griddesktop/use-style-dialog/
+keywords: GridDesktop, Formatdialog, Format
+description: Dieser Artikel stellt den Formatdialog in GridDesktop vor.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop ist ein GUI-basiertes Steuerelement, mit dem Benutzer ihre Daten im WYSIWYG-Modus bearbeiten können. Wir haben den API von Aspose.Cells.GridDesktop viel erforscht, um verschiedene Arten von Aufgaben auszuführen. Wir haben auch über die programmgesteuerte Steuerung der Formatierungseinstellungen von Grid, Worksheets, Rows & Columns und Cells mit dem robusten und einfacheren API von Aspose.Cells.GridDesktop gesprochen. Aber all das war aus der Sicht der Programmierung. In diesem Thema werden wir erörtern, wie ein einfacher Endbenutzer die Formatierungseinstellungen von Aspose.Cells.GridDesktop mithilfe von steuern kann**Stildialog**.
+Aspose.Cells.GridDesktop ist ein GUI-basiertes Steuerelement, das es Benutzern ermöglicht, ihre Daten im WYSIWYG-Modus zu bearbeiten. Wir haben die API von Aspose.Cells.GridDesktop intensiv erkundet, um verschiedene Arten von Aufgaben auszuführen. Wir haben auch diskutiert, wie die Formatierungseinstellungen von Grids, Arbeitsblättern, Zeilen & Spalten und Zellen programmgesteuert mithilfe der robusten und benutzerfreundlichen API von Aspose.Cells.GridDesktop gesteuert werden können. Aber das alles war aus der Sicht der Programmierung. In diesem Thema werden wir besprechen, wie ein einfacher Endbenutzer die Formatierungseinstellungen von Aspose.Cells.GridDesktop mithilfe seines **Formatdialogs** steuern kann.
 
 {{% /alert %}} 
-## **Stildialog verwenden**
- Benutzen**Stildialog** in Aspose.Cells.GridDesktop, führen Sie bitte die folgenden Schritte aus:
+## **Verwendung des Formatdialogs**
+Um den **Formatdialog** in Aspose.Cells.GridDesktop zu verwenden, befolgen Sie bitte die unten stehenden Schritte:
 
-- **Rechtsklick** auf dem Gitter. Ein Kontextmenü wird eingeblendet, bevor Sie einige Optionen anbieten
--  Wählen**Format Cells...** Option aus dem Kontextmenü.
+- **Rechtsklick** auf das Raster. Ein Kontextmenü wird angeboten.
+- Wählen Sie die Option **Zellen formatieren...** aus dem Kontextmenü aus.
 
- Nachdem Sie ausgewählt haben**Format Cells...** Möglichkeit,**Stildialog** würde vor dir erscheinen.**Stildialog** besteht aus mehreren Registerkarten, darunter:* **Anzahl**
+Nach Auswahl der Option **Zellen formatieren...** erscheint der **Formatdialog**. Der **Formatdialog** besteht aus mehreren Registerkarten, einschließlich:* **Nummer**
 
 - **Ausrichtung**
-- **Grenze**
+- **Rahmen**
 - **Schriftart**
 - **Schutz**
 
- Lassen Sie uns die einzelnen Registerkarten der besprechen und anzeigen**Stildialog** Einer nach dem anderen.
-### **Registerkarte „Nummer“.**
-**Anzahl** Registerkarte wird verwendet, um die einzustellen**Zahlenformat** Einstellungen einer Zelle. Sie können eine Zahlenformatkategorie auswählen, Dezimalstellen für den Wert festlegen, einen Symbolsatz auswählen und auch auswählen, wie negative Werte in der Zelle angezeigt werden sollen.
-### **Registerkarte „Ausrichtung“.**
- Verwenden**Ausrichtung** Registerkarte können Benutzer die horizontale und vertikale Ausrichtung des Textes festlegen. Sie können sogar andere Optionen zur Textsteuerung verwenden, z. B. Text umbrechen, Zellen verkleinern, um sie an Text anzupassen, und Zellen verbinden.
-### **Rand-Tab**
-**Grenze** tab erleichtert Benutzern das Zeichnen von Rändern jeder Art und Farbe mit nur wenigen Klicks. Alles, was sie tun müssen, ist, nur wenige Optionen auszuwählen, um eine Grenze nach ihren Wünschen zu zeichnen.
-### **Schriftart-Registerkarte**
- Verwenden**Schriftart** Auf der Registerkarte können Benutzer ihren Schriftartnamen, ihre Größe, Farbe und Stile usw. ändern. Benutzer können auch eine Vorschau ihrer Schriftarteinstellungen anzeigen, bevor sie sie auf Zellen anwenden. So erleichtert es den Benutzern die Arbeit, Zellen zu formatieren**Gerade rechtzeitig**.
-### **Registerkarte „Schutz“.**
-**Schutz** Mit der Registerkarte können Benutzer ihre Zellen einfach schützen, indem sie sie sperren oder ausblenden.
+Lassen Sie uns jede Registerkarte des **Formatdialogs** nacheinander diskutieren und betrachten.
+### **Registerkarte Nummer**
+Die **Nummer**-Registerkarte wird verwendet, um die **Nummernformat**-Einstellungen einer Zelle festzulegen. Sie können eine Nummernformatkategorie auswählen, die Dezimalstellen für den Wert festlegen, ein Symbolset auswählen und auch auswählen, wie negative Werte in der Zelle angezeigt werden sollen.
+### **Registerkarte Ausrichtung**
+Mit dem Register **Ausrichtung** können Benutzer die horizontale und vertikale Ausrichtung des Textes festlegen. Sie können auch andere Textsteuerungsoptionen wie Textumbruch, Zellenverkleinerung zur Anpassung des Textes und das Zusammenführen von Zellen verwenden.
+### **Registerkarte Rahmen**
+Das Registerkarte **Rahmen** ermöglicht es Benutzern, Rahmen jeder Art und Farbe mit nur wenigen Klicks zu zeichnen. Alles, was sie tun müssen, ist, einige Optionen auszuwählen, um einen Rahmen nach ihren Wünschen zu zeichnen.
+### **Registerkarte Schrift**
+Mit der Registerkarte **Schrift** können Benutzer ihren Schriftarten-Namen, -Größe, -Farbe und -Stile usw. ändern. Benutzer können auch ihre Schrifteinstellungen vor dem Anwenden auf Zellen anzeigen. Das erleichtert die Formatierung der Zellen für die Benutzer.
+### **Registerkarte Schutz**
+Die Registerkarte **Schutz** ermöglicht es Benutzern einfach, ihre Zellen zu schützen, indem sie sie sperren oder ausblenden. 
 
 {{% alert color="primary" %}} 
 
- Entwickler können auch öffnen**Stildialog**programmgesteuert durch Aufrufen der**ShowStyleDialog** Methode von**GridDesktop**
+Entwickler können auch das **Stildialogfeld** programmgesteuert öffnen, indem sie die Methode **ShowStyleDialog** des **GridDesktop** aufrufen
 
 {{% /alert %}}

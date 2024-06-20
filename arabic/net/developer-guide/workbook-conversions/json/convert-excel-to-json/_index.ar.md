@@ -1,26 +1,27 @@
-﻿---
-title: تحويل Excel إلى JSON
+---
+title: تحويل إكسل إلى JSON
 type: docs
 weight: 300
 url: /ar/net/convert-excel-to-json/
-description: تعرف على كيفية تحويل ملف Excel إلى json باستخدام Aspose.Cells.
-keywords: Exporting Workbook to json without office 2013, office 2016, office 2019 and office 365
+description: تعلم كيفية تحويل ملف إكسل إلى JSON باستخدام Aspose.Cells.
+keywords: تصدير الدفتر إلى JSON بدون Office 2013، Office 2016، Office 2019 و Office 365
 ---
+
 {{% alert color="primary" %}}
 
-يدعم Aspose.Cells تحويل مصنف إلى ملف Json (JavaScript Object Notation).
+تدعم Aspose.Cells تحويل دفتر العمل إلى ملف Json (كائن التبادل بيانات الجافا) .
 
 {{% /alert %}}
 
-## **تحويل مصنف Excel إلى JSON**
+## **تحويل دفتر العمل Excel إلى JSON**
 
-لا داعي للتساؤل عن كيفية تحويل Excel Workbook إلى JSON ، لأن مكتبة Apose.Cells for .NET لديها أفضل قرار. يوفر Aspose.Cells API دعمًا لتحويل جداول البيانات إلى تنسيق JSON. لتصدير المصنف إلى JSON ، قم بتمرير[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) كمعامل ثاني لـ[**المصنف**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) طريقة. يمكنك أيضًا استخدام ملفات[**خيارات JsonSave**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) فئة لتحديد إعدادات إضافية لتصدير ورقة العمل إلى JSON.
+لا داعي للتساؤل حول كيفية تحويل دفتر الأوامر إكسل إلى JSON، لأن مكتبة Apose.Cells for .NET لديها أفضل قرار. يقدم واجهة برمجة التطبيقات Aspose.Cells الدعم لتحويل جداول البيانات إلى تنسيق JSON. لتصدير دفتر الأوامر إلى JSON، قم بتمرير [**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) كالمعلمة الثانية للطريقة [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). يمكنك أيضًا استخدام فئة [**JsonSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) لتحديد إعدادات إضافية لتصدير ورقة العمل إلى JSON.
 
- يوضح مثال التعليمات البرمجية التالي تصدير مصنف Excel إلى Json. يرجى الاطلاع على الكود للتحويل[مصدر الملف](sample.xlsx) إلى ملف Json الذي تم إنشاؤه بواسطة الكود للرجوع إليه.
+المثال التالي يوضح تصدير دفتر العمل من Excel إلى Json. يرجى الاطلاع على الكود لتحويل [الملف المصدر](sample.xlsx) إلى ملف Json الذي تم إنشاؤه بواسطة الكود للإحالة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON-New.cs" >}}
 
- يوضح مثال الكود التالي الذي يستخدم فئة JsonSaveOptions لتحديد إعدادات إضافية تصدير Excel Workbook إلى Json. يرجى الاطلاع على الكود للتحويل[مصدر الملف](sample.xlsx) إلى ملف Json الذي تم إنشاؤه بواسطة الكود كمرجع.
+المثال التالي الذي يستخدم فئة JsonSaveOptions لتحديد إعدادات إضافية يوضح تصدير دفتر العمل من Excel إلى JSON. يرجى الاطلاع على الكود لتحويل [الملف المصدر](sample.xlsx) إلى ملف Json الذي تم إنشاؤه بواسطة الكود للإحالة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON-New2.cs" >}}
 

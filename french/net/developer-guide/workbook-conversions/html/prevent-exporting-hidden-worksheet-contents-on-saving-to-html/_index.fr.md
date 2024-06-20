@@ -1,16 +1,17 @@
-﻿---
-title: Empêcher l'exportation du contenu masqué de la feuille de calcul lors de l'enregistrement dans HTML
+---
+title: Empêcher l exportation du contenu de la feuille de calcul masqué lors de l enregistrement en HTML
 type: docs
 weight: 210
 url: /fr/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/
 ---
+
 {{% alert color="primary" %}}
 
-Vous pouvez enregistrer des classeurs Excel dans HTML. Toutefois, si le classeur contient des feuilles de calcul masquées, Aspose.Cells exporte par défaut le contenu de la feuille de calcul masquée vers la sortie HTML (_ files) qui contient des fichiers tels que des feuilles de calcul, des images, tabstrip.htm, stylesheet.css, etc. Parfois, exporter le contenu des feuilles de calcul masquées de cette manière n'est pas approprié. Par exemple, si la feuille de calcul masquée contient des images qui ne doivent pas être exportées vers le_répertoire de fichiers.
+Vous pouvez enregistrer des classeurs Excel en HTML. Cependant, si le classeur contient des feuilles de calcul masquées, Aspose.Cells exporte par défaut le contenu des feuilles de calcul masquées dans le répertoire de sortie HTML (_files) qui contient des fichiers tels que des feuilles de calcul, des images, tabstrip.htm, stylesheet.css, etc. Parfois, exporter le contenu des feuilles de calcul masquées de cette manière n'est pas approprié. Par exemple, si la feuille de calcul masquée contient des images qui ne doivent pas être exportées dans le répertoire _files.
 
 {{% /alert %}}
 
- Aspose.Cells fournit le[**HtmlSaveOptions.ExportHiddenWorksheet**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exporthiddenworksheet) la propriété. Par défaut, il est réglé sur**vrai** et les feuilles de calcul masquées sont exportées vers HTML. Si vous le définissez**faux**, Aspose.Cells n'exportera pas le contenu masqué de la feuille de calcul.
+Aspose.Cells fournit la propriété [**HtmlSaveOptions.ExportHiddenWorksheet**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exporthiddenworksheet). Par défaut, elle est définie sur **true** et les feuilles de calcul masquées sont exportées en HTML. Si vous la définissez sur **false**, Aspose.Cells n'exportera pas le contenu des feuilles de calcul masquées.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PreventExportingHiddenContent-PreventExportingHiddenContentWhileSavingAsHTML.cs" >}}
 

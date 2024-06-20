@@ -1,30 +1,33 @@
-﻿---
-title: Binden des Arbeitsblatts an ein benutzerdefiniertes Sammlungsobjekt mithilfe von GridWeb
+---
+title: Arbeitsblatt an ein angepasstes Sammlungsobjekt binden, indem GridWeb verwendet wird
 type: docs
 weight: 130
-url: /de/net/binding-worksheet-to-a-customized-collection-object-using-gridweb/
+url: /de/net/aspose-cells-gridweb/bind-worksheet-to-a-customized-collection-object-using-gridweb/
+keywords: GridWeb,bind
+description: Dieser Artikel zeigt, wie man ein Arbeitsblatt an eine Sammlung in GridWeb bindet. 
 ---
+
 {{% alert color="primary" %}} 
 
- Das Microsoft .NET Framework bietet viele Sammlungsklassen, aber manchmal erfüllen sie nicht die Entwicklungsanforderungen, die Entwickler erstellen**benutzerdefinierte Sammlungen**, und erfordert möglicherweise, solche benutzerdefinierten Sammlungen mit Aspose.Cells.GridWeb zu binden.
+Das Microsoft .NET Framework bietet viele Sammlungsklassen, aber manchmal entsprechen sie nicht den Entwicklungsanforderungen. Entwickler erstellen dann **benutzerdefinierte Sammlungen**, und Sie können ein Arbeitsblatt mit solchen benutzerdefinierten Sammlungen in GridWeb verbinden.
 
 {{% /alert %}} 
-## **Binden eines Arbeitsblatts mit einer benutzerdefinierten Sammlung**
-Um diese Funktion zu veranschaulichen, wird in diesem Artikel Schritt für Schritt beschrieben, wie Sie eine Beispielanwendung erstellen. Erstellen Sie zuerst eine benutzerdefinierte Sammlung und verwenden Sie diese Sammlung dann zum Binden mit einem Arbeitsblatt.
+## **Ein Arbeitsblatt mit einer benutzerdefinierten Sammlung verbinden**
+Um dieses Feature zu illustrieren, geht dieser Artikel Schritt für Schritt durch, wie man eine Beispielanwendung erstellt. Erstens, erstellen Sie eine benutzerdefinierte Sammlung und nutzen Sie dann diese Sammlung, um sie an ein Arbeitsblatt zu binden.
 ### **Schritt 1: Erstellen eines benutzerdefinierten Datensatzes**
-Erstellen Sie vor dem Erstellen einer benutzerdefinierten Sammlung eine Klasse für die benutzerdefinierten Datensätze, die in der Sammlung gespeichert werden. Der Zweck dieses Artikels besteht darin, Ihnen eine Vorstellung davon zu vermitteln, wie Sie Ihre eigenen benutzerdefinierten Sammlungen erstellen und sie mit Aspose.Cells.GridWeb binden können. Wie Sie den benutzerdefinierten Datensatz erstellen, liegt also bei Ihnen.
+Bevor Sie eine benutzerdefinierte Sammlung erstellen, erstellen Sie eine Klasse, um die benutzerdefinierten Datensätze zu halten, die in der Sammlung gespeichert werden. Das Ziel dieses Artikels ist, eine Vorstellung davon zu vermitteln, wie Sie Ihre eigenen benutzerdefinierten Sammlungen erstellen und sie mit GridWeb verbinden können, daher liegt es bei Ihnen, wie Sie den benutzerdefinierten Datensatz erstellen.
 
-Das folgende Beispiel verwendet die MyCustomRecord-Klasse, die fünf private Felder und fünf öffentliche Eigenschaften enthält, die den Zugriff auf die privaten Felder steuern. Hier ist die Struktur der Eigenschaften:
+Das folgende Beispiel verwendet die Klasse MyCustomRecord, die fünf private Felder und fünf öffentliche Eigenschaften enthält, die den Zugriff auf die privaten Felder steuern. Hier ist die Struktur der Eigenschaften:
 
--  Die StringField1-Eigenschaft zum Lesen und Schreiben**Zeichenkettenfeld1** (Schnur).
--  Die ReadonlyField2-Eigenschaft, die nur gelesen werden soll**Zeichenfolgenfeld2** (Schnur).
--  Die DateField1-Eigenschaft zum Lesen und Schreiben**Datumsfeld1** (Terminzeit).
--  Die IntField1-Eigenschaft zum Lesen und Schreiben**intfield1** (ganze Zahl).
--  Die DoubleField1-Eigenschaft zum Lesen und Schreiben**Doppelfeld1** (doppelt).
+- Die StringField1-Eigenschaft zum Lesen und Schreiben von **stringfield1** (Zeichenfolge).
+- Die ReadonlyField2-Eigenschaft zum nur Lesen von **stringfield2** (Zeichenfolge).
+- Die DateField1-Eigenschaft zum Lesen und Schreiben von **datefield1** (DateTime).
+- Die IntField1-Eigenschaft zum Lesen und Schreiben von **intfield1** (ganze Zahl).
+- Die DoubleField1-Eigenschaft zum Lesen und Schreiben von **doublefield1** (Dezimalzahl).
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a class that will act as record for the custom collection
 
@@ -106,11 +109,11 @@ public class MyCustomRecord
 
 {{< /highlight >}}
 ### **Schritt 2: Erstellen einer benutzerdefinierten Sammlung**
-Erstellen Sie jetzt eine benutzerdefinierte Sammlung, um Kundendatensätze hinzuzufügen und darauf zuzugreifen. Der Einfachheit halber verwendet dieses Beispiel die MyCollection-Klasse, die einen schreibgeschützten Indexer enthält. Mit diesem Indexer können wir jeden benutzerdefinierten Datensatz abrufen, der in der Sammlung gespeichert ist.
+Erstellen Sie jetzt eine benutzerdefinierte Sammlung, um Kundendatensätze hinzuzufügen und von ihnen zuzugreifen. Um es einfach zu halten, verwendet dieses Beispiel die Klasse MyCollection, die einen schreibgeschützten Indexer enthält. Mit diesem Indexer können wir jeden benutzerdefinierten Datensatz aus der Sammlung abrufen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a custom collection
 
@@ -141,23 +144,23 @@ public class MyCollection : CollectionBase
 }
 
 {{< /highlight >}}
-### **Schritt 3: Binden eines Arbeitsblatts mit einer benutzerdefinierten Sammlung**
-Der Vorgang zum Erstellen einer benutzerdefinierten Sammlung ist abgeschlossen. Verwenden Sie nun die benutzerdefinierte Sammlung zum Binden an ein Arbeitsblatt in Aspose.Cells.GridWeb . Erstellen Sie zuerst ein Webformular, fügen Sie das GridWeb-Steuerelement hinzu und fügen Sie etwas Code hinzu.
+### **Schritt 3: Ein Arbeitsblatt mit einer benutzerdefinierten Sammlung verbinden**
+Der Vorgang des Erstellens einer benutzerdefinierten Sammlung ist abgeschlossen. Verwenden Sie nun die benutzerdefinierte Sammlung, um sie an ein Arbeitsblatt in Aspose.Cells.GridWeb zu binden. Erstellen Sie zunächst ein Webformular, fügen Sie dem Formular die GridWeb-Steuerelement hinzu und fügen Sie etwas Code hinzu.
 
-Um die benutzerdefinierte Sammlung für die Bindung zu verwenden, erstellen Sie zunächst ein Objekt der MyCollection-Klasse (im obigen Schritt erstellt).
-Erstellen Sie dann MyCustomRecord-Objekte und fügen Sie sie dem MyCollection-Objekt hinzu.
+Um die benutzerdefinierte Sammlung für die Bindung zu verwenden, erstellen Sie zuerst ein Objekt der Klasse MyCollection (die im obigen Schritt erstellt wurde).
+Erstellen und fügen Sie dann MyCustomRecord-Objekte zum MyCollection-Objekt hinzu.
 
 {{% alert color="primary" %}} 
 
-Fragen Sie sich, warum es in der MyCollection-Klasse keine Methode zum Hinzufügen eines MyCustomRecord-Objekts zur Sammlung gab. Wenn Sie sich den obigen Code noch einmal ansehen, werden Sie feststellen, dass die MyCollection-Klasse von der CollectionBase-Klasse geerbt ist (die die IList-Schnittstelle implementiert hat, die eine Add-Methode zum Hinzufügen eines Objekts zur Sammlung bereitstellt). Verwenden Sie die Add-Methode der IList-Klasse, indem Sie das MyCollection-Objekt in IList umwandeln.
+Fragen Sie sich, warum in der Klasse MyCollection keine Methode zum Hinzufügen eines MyCustomRecord-Objekts zur Sammlung vorhanden war? Werfen Sie noch einmal einen Blick auf den obigen Code und Sie werden feststellen, dass die MyCollection-Klasse von der CollectionBase-Klasse abgeleitet ist (die das IList-Interface implementiert hat, das eine Add-Methode zum Hinzufügen eines Objekts zur Sammlung bereitstellt). Verwenden Sie die Add-Methode der IList-Klasse, indem Sie das MyCollection-Objekt zu IList aufwerten.
 
 {{% /alert %}} 
 
-Legen Sie abschließend das MyCollection-Objekt als Datenquelle des Arbeitsblatts fest und binden Sie das Arbeitsblatt an die Sammlung. An dieser Stelle können Sie auch Validierungsregeln für die gebundenen Spalten des Arbeitsblatts erstellen.
+Legen Sie abschließend das MyCollection-Objekt als Datenquelle des Arbeitsblatts fest und binden Sie das Arbeitsblatt an die Sammlung. Zu diesem Zeitpunkt können Sie auch Validierungsregeln für die gebundenen Spalten des Arbeitsblatts erstellen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Implementing Page_Load event handler
 
@@ -232,16 +235,16 @@ protected void Page_Load(object sender, EventArgs e)
 }
 
 {{< /highlight >}}
-### **Schritt 4: Behandeln des InitializeNewBindRow-Ereignisses des Arbeitsblatts**
-Im obigen Code ist Ihnen möglicherweise eine zusätzliche Codezeile aufgefallen, mit der der Ereignishandler GridWeb1_InitializeNewBindRow der InitializeNewBindRow des Arbeitsblatts zugewiesen wird. Dieses Ereignis wird ausgelöst, wenn dem Arbeitsblatt eine neue gebundene Zeile hinzugefügt wird. Wir haben für dieses Ereignis aufgrund der DateField1-Eigenschaft des MyCustomRecord-Objekts eine Ereignisbehandlungsroutine erstellt.
+### **Schritt 4: Behandlung des InitializeNewBindRow-Ereignisses des Arbeitsblatts**
+Im obigen Code haben Sie möglicherweise eine zusätzliche Codezeile bemerkt, die verwendet wurde, um den Ereignishandler GridWeb1_InitializeNewBindRow dem InitializeNewBindRow des Arbeitsblatts zuzuweisen. Dieses Ereignis wird ausgelöst, wenn eine neue gebundene Zeile zum Arbeitsblatt hinzugefügt wird. Wir haben einen Ereignishandler für dieses Ereignis erstellt, aufgrund der Eigenschaft DateField1 des MyCustomRecord-Objekts.
 
- Aspose.Cells. GridWeb wird automatisch initialisiert**int** und**doppelt** Werte mit**Null (0)**immer dann, wenn dem GridWeb-Steuerelement eine neue gebundene Zeile hinzugefügt wird. Für Datumsangaben möchten wir, dass das GridWeb-Steuerelement automatisch das aktuelle Datum aus dem System hinzufügt. Dazu haben wir den Ereignishandler GridWeb1_InitializeNewBindRow für das Ereignis InitializeNewBindRow erstellt.
+Aspose.Cells.GridWeb initialisiert automatisch **int** und **double** Werte mit **Null (0)**, wenn eine neue gebundene Zeile dem GridWeb-Steuerelement hinzugefügt wird. Für Datumswerte möchten wir jedoch, dass das GridWeb-Steuerelement automatisch das aktuelle Datum vom System hinzufügt. Dazu haben wir den Ereignishandler GridWeb1_InitializeNewBindRow für das InitializeNewBindRow-Ereignis erstellt.
 
-Greifen Sie mit dem bindObject-Argument auf eine bestimmte Instanz der MyCustomRecord-Klasse aus dem GridWeb zu, und weisen Sie dann das aktuelle Systemdatum der DateField1-Eigenschaft zu.
+Greifen Sie mit dem Argument bindObject auf eine bestimmte Instanz der Klasse MyCustomRecord aus dem GridWeb zu und weisen Sie dann dem DateField1-Eigenschaft das aktuelle Systemdatum zu.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating GridWeb1_InitializeNewBindRow event handler
 
@@ -261,38 +264,38 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 {{< /highlight >}}
 ### **Schritt 5: Ausführen der Anwendung**
- Führen Sie die Anwendung aus, indem Sie entweder drücken**Strg+F5** oder klicken Sie auf die**Start** Taste in VS.NET. Das Webformular wird in einem neuen Browserfenster geöffnet.
+Führen Sie die Anwendung aus, indem Sie entweder **Strg+F5** drücken oder auf die **Start**-Schaltfläche in VS.NET klicken. Das Webformular wird in einem neuen Browserfenster geöffnet. 
 
-**Arbeitsblatt mit einer benutzerdefinierten Sammlung gebunden** 
+**Arbeitsblatt an benutzerdefinierte Sammlung gebunden** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
-
-
-
- Klicken Sie mit der rechten Maustaste auf das GridWeb-Steuerelement, um einen Datensatz hinzuzufügen oder zu löschen. Fügen Sie dem Arbeitsblatt beispielsweise einen neuen Datensatz hinzu, indem Sie auswählen**Zeile hinzufügen** Möglichkeit.
-
-**Wählen Sie die Option Zeile hinzufügen aus dem Menü** 
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
 
 
 
- Wenn dem Arbeitsblatt eine neue Zeile hinzugefügt wird, enthalten die Zellen Standarddaten, einschließlich des aktuellen Systemdatums.
+Klicken Sie mit der rechten Maustaste auf das GridWeb-Steuerelement, um einen Datensatz hinzuzufügen oder zu löschen. Fügen Sie beispielsweise ein neues Aufzeichnung zum Arbeitsblatt hinzu, indem Sie die Option **Zeile hinzufügen** auswählen. 
+
+**Auswahl der Option Zeile hinzufügen im Menü** 
+
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
+
+
+
+Wenn eine neue Zeile zum Arbeitsblatt hinzugefügt wird, enthalten die Zellen Standarddaten, einschließlich des aktuellen Systemdatums. 
 
 **Neue Zeile mit Standarddaten zum Arbeitsblatt hinzugefügt** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
 
 
 
-Nachdem Sie Änderungen an den Daten vorgenommen haben, klicken Sie auf**Speichern** oder**einreichen** um Ihre Änderungen zu speichern.
+Nachdem Sie Änderungen an den Daten vorgenommen haben, klicken Sie auf **Speichern** oder **Übermitteln**, um Ihre Änderungen zu speichern. 
 
-**Speichern Sie die Änderungen, indem Sie auf die Schaltfläche Speichern klicken** 
+**Speichern von Änderungen durch Klicken der Schaltfläche Speichern** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
 ## **Fazit**
 {{% alert color="primary" %}} 
 
-In diesem Artikel wurde gezeigt, wie Sie ein Arbeitsblatt an eine erstellte benutzerdefinierte Sammlung binden. Mit Aspose.Cells.GridWeb können Entwickler Arbeitsblätter über den Worksheets Designer in einem GUI-Modus oder durch Codierung entweder an eine Datenbank oder an benutzerdefinierte Sammlungen binden. Dies bietet Entwicklern eine breite Palette von Optionen zum Erstellen von Anwendungen.
+In diesem Artikel wurde gezeigt, wie ein Arbeitsblatt an eine erstellte benutzerdefinierte Sammlung gebunden wird. Mit Aspose.Cells.GridWeb können Entwickler Arbeitsblätter entweder über den Arbeitsblatt-Designer im GUI-Modus oder durch Codierung an eine Datenbank oder benutzerdefinierte Sammlungen binden. Dies bietet Entwicklern eine Vielzahl von Optionen für die Erstellung von Anwendungen.
 
 {{% /alert %}}

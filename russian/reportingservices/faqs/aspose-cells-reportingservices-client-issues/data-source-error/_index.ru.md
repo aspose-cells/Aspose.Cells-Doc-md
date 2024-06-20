@@ -1,20 +1,21 @@
-﻿---
+---
 title: Ошибка источника данных
 type: docs
 weight: 20
 url: /ru/reportingservices/data-source-error/
 ---
-##### **Описание**
- При публикации отчета Aspose.Cells.ReportingServices Client выдает ошибку:
 
-![дело:изображение_альтернативный_текст](data-source-error_1.png)
+##### **Описание**
+При публикации отчета клиент Aspose.Cells.ReportingServices генерирует ошибку: 
+
+![todo:image_alt_text](data-source-error_1.png)
 ##### **Решение**
 {{% alert color="primary" %}} 
 
-1.  Нажмите**Настройка источника данных**.
-1.  Выбирать**Поделиться источником данных**.
-1.  Повторно опубликуйте отчет.
+1. Нажмите **Настройка источника данных**.
+1. Выберите **Общий источник данных**.
+1. Переопубликуйте отчет. 
 
-![дело:изображение_альтернативный_текст](data-source-error_2.png)
+![todo:image_alt_text](data-source-error_2.png)
 
 {{% /alert %}}

@@ -1,35 +1,38 @@
-﻿---
-title: Unione e separazione Cells in GridDesktop
-linktitle: Fusione e Separazione Cells
+---
+title: Unire e separare celle in GridDesktop
+linktitle: Unione e separazione di celle
 type: docs
 weight: 90
-url: /it/net/merging-and-unmerging-cells-griddesktop/
+url: /it/net/aspose-cells-griddesktop/merge-and-unmerge-cells-griddesktop/
+keywords: GridDesktop, unire, separare
+description: Questo articolo introduce l unione e la separazione in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-In questo argomento, discuteremo una funzionalità di utilità per unire e separare le celle di un foglio di lavoro. Questa funzione è utile nei casi in cui è necessario estendere alcune righe o colonne per migliorare la leggibilità dei dati.
+In questo argomento, discuteremo una funzione di utilità di unire e separare celle di un foglio di lavoro. Questa funzione è utile nei casi in cui è necessario estendere alcune righe o colonne per migliorare la leggibilità dei dati.
 
 {{% /alert %}} 
-## **Fusione Cells**
-Per unire le celle in un'unica cella grande, procedi nel seguente modo:
+## **Unisci celle**
+Per unire celle in un'unica grande cella, seguire i passaggi seguenti:
 
--  Accedi a qualsiasi desiderato**Foglio di lavoro**
--  Creare un**Gamma di Cells** da unire
-- **Unisci** l'intervallo di cellule in una grande cella
+- Accedere a qualsiasi **Foglio di lavoro** desiderato
+- Creare un **Intervallo di celle** da unire
+- **Unire** l'intervallo di celle in una grande cella
 
- Puoi usare**Unisci** metodo di**Foglio di lavoro** per unire le celle. Tuttavia, è possibile definire un intervallo di celle utilizzando**CellRange** oggetto.
+È possibile utilizzare il metodo **Unire** di **Foglio di lavoro** per unire le celle. Tuttavia, un intervallo di celle può essere definito utilizzando l'oggetto **CellRange**.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-MergingAndUnMergingCells-MergeCells.cs" >}}
-## **Disaggregabile Cells**
-Per separare una cella grande in più celle, procedi nel seguente modo:
+## **Separare celle**
+Per separare una grande cella in molte celle, seguire i passaggi seguenti:
 
--  Accedi a qualsiasi desiderato**Foglio di lavoro**
-- Accedi alla cella unita che deve essere separata
-- **Separa** la cella grande in molte celle utilizzando la posizione della cella unita
+- Accedere a qualsiasi **Foglio di lavoro** desiderato
+- Accedere alla cella unita che deve essere divisa in più celle
+- **Dividere** la grande cella in molte celle utilizzando la posizione della cella unita
 
- Puoi usare**Separa** metodo di**Foglio di lavoro** separare una cella usando la sua posizione.
+È possibile utilizzare il metodo **Dividi** di **Foglio di lavoro** per dividere una cella utilizzando la sua posizione.
 
 
 
@@ -37,6 +40,6 @@ Per separare una cella grande in più celle, procedi nel seguente modo:
 
 {{% alert color="primary" %}} 
 
-Quando unisci le celle in una singola cella, le impostazioni di formattazione della cella in alto a sinistra (nell'intervallo di celle) vengono applicate alla cella unita, ma quando la cella viene separata, tutte le celle separate mantengono le loro impostazioni di formattazione.
+Quando si uniscono celle in una singola cella, le impostazioni di formattazione della cella in alto a sinistra (nell'intervallo di celle) vengono applicate alla cella unita, ma quando la cella viene divisa, tutte le celle divise mantengono le impostazioni di formattazione.
 
 {{% /alert %}}

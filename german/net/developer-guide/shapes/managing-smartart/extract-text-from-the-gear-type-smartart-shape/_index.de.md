@@ -1,16 +1,17 @@
-﻿---
-title: Extrahieren Sie Text aus der SmartArt-Form vom Typ Zahnrad
+---
+title: Extrahieren Sie Text aus der SmartArt Form des Zahnradtyps
 type: docs
 weight: 500
 url: /de/net/extract-text-from-the-gear-type-smartart-shape/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Aspose.Cells kann Text aus der Gear Type Smart Art Shape extrahieren. Um dies zu tun, sollten Sie zuerst Smart Art Shape mithilfe von in Group Shape umwandeln[**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) Methode. Dann sollten Sie das Array aller individuellen Formen erhalten, die die Gruppenform bilden, indem Sie die verwenden[**GroupShape.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes) Methode. Schließlich können Sie alle einzelnen Formen nacheinander in einer Schleife durchlaufen und ihren Text mithilfe von extrahieren[**Form.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)Eigentum.
+## **Mögliche Verwendungsszenarien**
 
-## **Extrahieren Sie Text aus der SmartArt-Form vom Typ Zahnrad**
+Aspose.Cells kann Text aus der SmartArt-Form des Zahnradtyps extrahieren. Dazu sollten Sie zuerst die SmartArt-Form in eine Gruppenform mit der Methode [**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) konvertieren. Anschließend sollten Sie das Array aller Einzelformen, die die Gruppenform bilden, mit der Methode [**GroupShape.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes) abrufen. Schließlich können Sie alle Einzelformen nacheinander in einer Schleife durchlaufen und ihren Text mit der Eigenschaft [**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) extrahieren.
 
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](67338483.xlsx) das Gear Type Smart Art Shape enthält. Dann extrahiert es den Text aus seinen einzelnen Formen, wie oben besprochen. Bitte sehen Sie sich die Konsolenausgabe des unten angegebenen Codes als Referenz an.
+## **Text aus dem SmartArt-Form 'Zahnräder' extrahieren**
+
+Der folgende Beispielcode lädt die [Beispieldatei Excel](67338483.xlsx) mit der SmartArt-Form des Zahnradtyps. Anschließend werden die Texte aus den einzelnen Formen extrahiert, wie oben diskutiert. Bitte beachten Sie die Konsolenausgabe des folgenden Codes zur Referenz.
 
 ## **Beispielcode**
 
@@ -18,7 +19,7 @@ url: /de/net/extract-text-from-the-gear-type-smartart-shape/
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Gear Type Shape Text: Nice
 

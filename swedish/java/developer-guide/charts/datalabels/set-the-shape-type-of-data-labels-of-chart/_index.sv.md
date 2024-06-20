@@ -1,14 +1,15 @@
-﻿---
-title: Ställ in formtypen för dataetiketter för diagram
+---
+title: Ställ in datamärkenas formtyp i diagrammet
 type: docs
 weight: 70
 url: /sv/java/set-the-shape-type-of-data-labels-of-chart/
 ---
-## **Möjliga användningsscenarier**
 
-Du kan ändra formtypen för dataetiketter i diagrammet med hjälp av[**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)fast egendom. Det tar värdet av[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)uppräkning och ändrar formtypen för dataetiketter i enlighet därmed. Några av dess värden är
+## **Möjliga användningsscenario**
 
-{{< highlight "java" >}}
+Du kan ändra formtypen på diagrammets datamarkörer med [**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType) egenskapen. Den tar värdet av [**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType) uppräkningen och ändrar formtypen på diagrammets datamarkörer därefter. Några av dess värden är
+
+{{< highlight java >}}
 
 DataLabelShapeType.BENT_LINE_CALLOUT
 
@@ -24,9 +25,9 @@ etc.
 
 {{< /highlight >}}
 
-## **Ställ in formtypen för dataetiketter för diagram**
+## **Ställ in datamärkenas formtyp i diagram**
 
-Följande exempelkod ändrar formtypen för dataetiketter i diagrammet till[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Vänligen se[exempel på Excel-fil](60489794.xlsx)används i den här koden och[utdata Excel-fil](60489793.xlsx)genereras av det. Skärmdumpen visar effekten av koden på exemplet på Excel-filen.
+Följande exempelkod ändrar formtypen på diagrammets datamarkörer till [**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Se den [sample Excel file](60489794.xlsx) som används i den här koden och den [output Excel file](60489793.xlsx) som genererats av den. Skärmdumpen visar effekten av koden på den provisoriska Excel-filen.
 
 ![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 

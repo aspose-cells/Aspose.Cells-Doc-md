@@ -1,16 +1,17 @@
-﻿---
+---
 title: Copiare e spostare fogli di lavoro in Ruby
 type: docs
 weight: 10
 url: /it/java/copying-and-moving-worksheets-in-ruby/
 ---
-## **Aspose.Cells - Copia e spostamento fogli di lavoro**
-### **Copia i fogli di lavoro all'interno di una cartella di lavoro**
- Per copiare il foglio di lavoro utilizzando**Aspose.Cells for Java in Rubino** , chiamata**copy_worksheet** metodo di**fogli di lavoro** modulo. Di seguito puoi vedere un esempio di codice.
 
-**Codice Rubino**
+## **Aspose.Cells - Copiare e spostare fogli di lavoro**
+### **Copiare i Fogli di Lavoro all'interno di una Cartella di Lavoro**
+Per copiare il foglio di lavoro utilizzando **Aspose.Cells for Java in Ruby**, chiama il metodo **copy_worksheet** del modulo **copyworksheets**. Di seguito puoi vedere un esempio di codice.
 
-{{< highlight "ruby" >}}
+**Codice Ruby**
+
+{{< highlight ruby >}}
 
  def copy_worksheet(workbook)
 
@@ -31,12 +32,12 @@ url: /it/java/copying-and-moving-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Sposta i fogli di lavoro all'interno di una cartella di lavoro**
- Per spostare il foglio di lavoro utilizzando**Aspose.Cells for Java in Rubino** , chiamata**move_worksheet** metodo di**fogli di lavoro** modulo. Di seguito puoi vedere un esempio di codice.
+### **Spostare i fogli di lavoro all'interno di un libro**
+Per spostare il foglio di lavoro utilizzando **Aspose.Cells for Java in Ruby**, chiama il metodo **move_worksheet** del modulo **copyworksheets**. Di seguito puoi vedere un esempio di codice.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def move_worksheet(workbook)
 
@@ -58,6 +59,6 @@ end 
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Copiare e spostare fogli di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Copia e Spostamento dei fogli di lavoro (Aspose.Cells)** da uno dei siti di codice sociale di seguito indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/copyworksheets.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/copyworksheets.rb)

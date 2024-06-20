@@ -1,113 +1,114 @@
-﻿---
-title: Arbetsbladsvyer
+---
+title: Arbetsboks vy
 type: docs
 weight: 10
 url: /sv/java/worksheet-views/
 ---
-## **Förhandsvisning av sidbrytning**
-Alla kalkylblad kan visas i två lägen:
+
+## **Sidbrytning Förhandsgranskning**
+Alla arbetsblad kan visas i två lägen:
 
 - Normal vy.
-- Förhandsgranskning av sidbrytning.
+- Sidbrytningsvy.
 
-En normal vy är ett kalkylblads standardvy. Förhandsgranskning av sidbrytning är en redigeringsvy som visar ett kalkylblad när det skrivs ut. Förhandsgranskning av sidbrytningar visar vilken data som kommer att finnas på varje sida så att du kan justera utskriftsområdet och sidbrytningarna. Genom att använda Aspose.Cells kan utvecklare aktivera normala visnings- eller sidbrytningslägen.
-### **Styra visningslägen**
- Aspose.Cells tillhandahåller en[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass innehåller en[Arbetsbladssamling](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)som ger åtkomst till varje kalkylblad i en Excel-fil.
+En normal vy är ett kalkylblads standardvy. Sidbrytningsgranskning är en redigeringsvy som visar ett kalkylblad som det kommer att skrivas ut. Sidbrytningsgranskning visar vilka data som kommer att hamna på varje sida så att du kan justera utskriftsområdet och sidbrytningarna. Med Aspose.Cells kan utvecklare aktivera normal vy eller sidbrytningsgranskningslägen.
+### **Styra vynlägen**
+Aspose.Cells tillhandahåller en [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klass som representerar en Microsoft Excel-fil. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen innehåller en [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) som gör det möjligt att komma åt varje kalkylblad i en Excel-fil.
 
- Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass. De[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att aktivera normala eller sidbrytningsförhandsvisningslägen, använd[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)metod.
-#### **Aktiverar normal vy**
-Ställ in valfritt kalkylblad till normal vy med hjälp av[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) metod för[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass och godkänt**falsk** som en parameter.
-#### **Aktiverar förhandsgranskning av sidbrytning**
-Ställ in valfritt kalkylblad till förhandsvisning av sidbrytning med hjälp av[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)metod för[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass och godkänt**Sann**som en parameter.
+Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att aktivera normal eller sidbrytningsgranskningslägen, använd [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-klassens [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)-metod.
+#### **Aktivera normal vy**
+Ställ in vilket kalkylblad som helst till normal vy genom att använda [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)-metoden i [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-klassen och skicka **false** som parameter.
+#### **Aktivera sidbrytningsvy**
+Ställ in vilket kalkylblad som helst till sidbrytningsgranskningsläge med hjälp av [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)-metoden i [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-klassen och skicka **true** som parameter.
 
- Ett komplett exempel ges nedan som visar användningen av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)metod för att aktivera förhandsgranskningsläget för sidbrytning för det första kalkylbladet i Excel-filen.
+Ett komplett exempel ges nedan som demonstrerar användningen av [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-klassens [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)-metod för att aktivera sidbrytningsgranskningsläge för den första kalkylbladet i Excel-filen.
 
-På skärmdumpen nedan kan du se att filen Book1.xls är i normalvy.
+På skärmbilden nedan kan se att filen Book1.xls är i Normal vy.
 
-**Book1.xls: Arbetsblad före modifiering** 
+**Book1.xls: Kalkylblad före ändring** 
 
 ![todo:image_alt_text](worksheet-views_1.png)
 
- Book1.xls öppnas med[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)klass och läget växlas till förhandsvisning av sidbrytning för det första kalkylbladet. Den ändrade filen sparas som output.xls.
+Book1.xls öppnas med [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen och läget ändras till sidbrytningsgranskningsläge för det första kalkylbladet. Den ändrade filen sparas som output.xls.
 
-**Output.xls: kalkylblad efter modifiering** 
+**Ouput.xls: kalkylblad efter ändring** 
 
 ![todo:image_alt_text](worksheet-views_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageBreakPreview-PageBreakPreview.java" >}}
 ## **Zoomfaktor**
-Microsoft Excel tillhandahåller en funktion som låter användare ställa in ett kalkylblads zoom- eller skalningsfaktor. Den här funktionen hjälper användare att se kalkylbladets innehåll i mindre eller större vyer. Användare kan ställa in zoomfaktorn till valfritt värde.
+Microsoft Excel har en funktion som låter användare sätta en arbetsblads zoom- eller skalfaktor. Denna funktion hjälper användare att se arbetsbladsinnehållet i mindre eller större visningar. Användare kan sätta zoom-faktorn till vilket värde som helst.
 
-**Ställa in zoomfaktorn med Microsoft Excel** 
+**Inställning av zoomfaktor med Microsoft Excel** 
 
 ![todo:image_alt_text](worksheet-views_3.png)
 
-Aspose.Cells tillåter också utvecklare att ställa in kalkylbladets zoomfaktor.
-### **Styra zoomfaktorn**
-Aspose.Cells tillhandahåller en[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass innehåller en[Arbetsbladssamling](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)som ger åtkomst till varje kalkylblad i en Excel-fil.
+Aspose.Cells tillåter också utvecklare att ange kalkylbladets zoomfaktor.
+### **Kontrollera zoomfaktorn**
+Aspose.Cells tillhandahåller en [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klass som representerar en Microsoft Excel-fil. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen innehåller en [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) som gör det möjligt att komma åt varje kalkylblad i en Excel-fil.
 
- Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass. De[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att ställa in ett kalkylblads zoomfaktor, använd[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)metod.
+Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att ställa in kalkylbladets zoomfaktor, använd [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-klassens [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)-metod.
 
- Ett komplett exempel ges nedan som visar hur man använder[setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)metod för att ställa in zoomfaktorn för det första kalkylbladet i en Excel-fil.
+Ett komplett exempel ges nedan som demonstrerar hur man använder [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)-metoden för att ange zoomfaktorn för det första kalkylbladet i en Excel-fil.
 
-I skärmdumpen nedan kan du se Book1.xls-filen i standardvyn.
+På skärmbilden nedan kan du se att filen Book1.xls är i standardvy.
 
-**Book1.xls: kalkylblad före ändring** 
+**Book1.xls: arbetsblad före modifiering** 
 
 ![todo:image_alt_text](worksheet-views_4.png)
 
- Book1.xls-filen öppnas med[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)klass och zoomfaktorn för det första kalkylbladet är satt till 75. Den modifierade filen sparas som output.xls.
+Filen Book1.xls öppnas med [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klassen och zoomfaktorn för det första kalkylbladet ställs in till 75. Den ändrade filen sparas som output.xls.
 
-**Output.xls: kalkylblad efter modifiering** 
+**Output.xls: kalkylblad efter ändring** 
 
 ![todo:image_alt_text](worksheet-views_5.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ZoomFactor-ZoomFactor.java" >}}
-## **Frys rutor**
-Frys rutor är en funktion som tillhandahålls av Microsoft Excel. Frysa rutor låter dig välja data som ska förbli synliga när du rullar i ett kalkylblad.
+## **Frys Fönsterpaneler**
+Frysa rutor är en funktion som tillhandahålls av Microsoft Excel. Att frysa rutor gör att man kan välja data som ska förbli synlig när man rullar i ett arbetsblad.
 
-**Använda frysrutor i Microsoft Excel** 
+**Att använda frysfönster i Microsoft Excel** 
 
 ![todo:image_alt_text](worksheet-views_6.png)
 
-Aspose.Cells tillåter också utvecklare att tillämpa frysrutor på kalkylblad under körning.
+Aspose.Cells tillåter också utvecklare att tillämpa frysfönster på kalkylblad dynamiskt.
 
-Aspose.Cells tillhandahåller en[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass innehåller en[Arbetsbladssamling](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)som ger åtkomst till varje kalkylblad i en Excel-fil.
+Aspose.Cells tillhandahåller en [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-klass som representerar en Microsoft Excel-fil. Workbook-klassen innehåller en [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) som ger åtkomst till varje kalkylblad i en Excel-fil.
 
- Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass. De[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att konfigurera frysrutor, ring[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\) ) metod. De[freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) metod tar följande parametrar:
+Ett kalkylblad representeras av [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-klassen. Worksheet-klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att konfigurera frysta rutor, anropa Worksheet-klassens [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-metod. freezePanes-metoden tar följande parametrar:
 
-- **Rad**, radindexet för cellen som frysningen börjar från.
-- **Kolumn**, kolumnindex för cellen som frysningen startar från.
-- **Frysta rader**, antalet synliga rader i den övre rutan.
-- **Frysta kolonner**, antalet synliga kolumner i den vänstra rutan
+- **Rad**, radindexet för cellen som frysen ska starta från.
+- **Kolumn**, kolumnindexet för cellen som frysen ska starta från.
+- **Frusna rader**, antalet synliga rader i toppfönstret.
+- **Frusna kolumner**, antalet synliga kolumner i vänstra fönstret.
 
- Ett komplett exempel ges nedan som visar hur man använder[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) metod för att frysa rader och kolumner (med början från C4, representerade av 4:e raden och 3:e kolumnen, där raderna och kolumnerna börjar från 0 index) i det första kalkylbladet i Excel-filen.
+Ett komplett exempel ges nedan som visar hur man använder Worksheet-klassens [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-metod för att frysa rader och kolumner (börjar från C4, representerade av den 4: e raden och 3: e kolumnen, där raderna och kolumnerna börjar från 0-index) på det första kalkylbladet i Excel-filen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
 
-I skärmdumpen nedan kan du se filen Book1.xls utan frysrutor.
+På skärmdumpen nedan kan du se filen Book1.xls utan frysta rutor.
 
-**Book1.xls: kalkylbladsvy före eventuell ändring** 
+**Book1.xls: kalkylbladsvisning före eventuell ändring** 
 
 ![todo:image_alt_text](worksheet-views_7.png)
 
- Book1.xls-filen öppnas med[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)klass och sedan fryses några rader och kolumner på det första kalkylbladet. Den ändrade filen sparas som output.xls.
+Fil1.xls bok öppnas med klassen [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) and then a few rows and columns are frozen on the first worksheet. The modified file is saved as output.xls.
 
 **Outlook.xls: kalkylbladsvy efter ändring** 
 
 ![todo:image_alt_text](worksheet-views_8.png)
-## **Delade rutor**
-Om du behöver dela skärmen för att få två olika vyer i samma kalkylblad, dela rutor. Microsoft Excel erbjuder en mycket praktisk funktion som låter dig visa mer än en kopia av ditt kalkylblad och för att du ska kunna rulla igenom varje ruta i ditt kalkylblad oberoende av varandra: delade paneler.
+## **Dela rutor**
+Om du behöver dela skärmen för att få två olika vyer i samma arbetsblad, dela rutor. Microsoft Excel erbjuder en mycket praktisk funktion som gör att du kan se mer än en kopia av ditt arbetsblad och för dig att kunna bläddra igenom varje ruta av ditt arbetsblad oberoende av varandra: dela rutor.
 
-Rutorna fungerar samtidigt. Om du gör en ändring i den ena, visas ändringen samtidigt i den andra. Aspose.Cells tillhandahåller funktionen för delade rutor för användarna.
-### **Applicera och ta bort delade rutor**
-#### **Dela rutor**
-Aspose.Cells tillhandahåller en[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera Excel-filer. För att implementera delade vyer, använd[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[dela](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\) ) metod. För att ta bort delade rutor, använd[ta bortSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) metod.
+Fönstren fungerar samtidigt. Om du gör en förändring i ett, visas förändringen samtidigt i den andra. Aspose.Cells tillhandahåller split panes-funktionen för användarna.
+### **Sätta på och Ta bort Delade paneler**
+#### **Dela Fönster**
+Aspose.Cells tillhandahåller en [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass som representerar en Microsoft Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) ger ett brett utbud av egenskaper och metoder för att hantera Excel-filer. För att genomföra delade vyer, använd [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassens [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\)) metod. För att ta bort delade rutor, använd [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) metoden.
 
-exemplet använder vi en enkel mallfil som laddas, sedan tillämpas funktionen för delade paneler på en cell i det första kalkylbladet. Den uppdaterade filen sparas.
+I exemplet använder vi en enkel mallfil som laddas, sedan används inställningar för att dela rutor på en cell i det första arbetsbladet. Den uppdaterade filen sparas.
 
 
 
@@ -117,18 +118,18 @@ exemplet använder vi en enkel mallfil som laddas, sedan tillämpas funktionen f
 
 Efter att ha kört ovanstående kod har den genererade filen en delad vy.
 
-**Dela rutor i utdatafilen** 
+**Delade rutor i output-filen** 
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **Ta bort rutor**
- Utvecklare kan ta bort delade rutor med hjälp av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[ta bortSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) metod.
+Utvecklare kan ta bort delade rutor med hjälp av [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klassens [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) metod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
 
-## **Förhandsämnen**
-- [Döljer visningen av nollvärden i arbetsbladet](/cells/sv/java/hiding-the-display-of-zero-values-in-the-worksheet/)
-- [Ställ in kalkylbladsflikfärg](/cells/sv/java/set-worksheet-tab-color/)
-- [Visa och dölj element](/cells/sv/java/show-and-hide-elements/)
+## **Fortsatta ämnen**
+- [Dölja visning av nollvärden i kalkylbladet](/cells/sv/java/hiding-the-display-of-zero-values-in-the-worksheet/)
+- [Ange färg på kalkylbladsflik](/cells/sv/java/set-worksheet-tab-color/)
+- [Visa och Dölj Element](/cells/sv/java/show-and-hide-elements/)
 - [Visa formler istället för värden i ett kalkylblad](/cells/sv/java/show-formulas-instead-of-values-in-a-worksheet/)
-- [Använd alternativ för felkontroll](/cells/sv/java/use-error-checking-options/)
+- [Använd felkontrollalternativ](/cells/sv/java/use-error-checking-options/)

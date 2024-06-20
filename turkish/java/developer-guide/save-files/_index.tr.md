@@ -1,129 +1,130 @@
-﻿---
-title: Excel dosyalarını CSV, PDF ve diğer biçimlerde kaydetme
+---
+title: Excel dosyalarının CSV, PDF ve diğer formatlara kaydedilmesi
 linktitle: Dosyaları Kaydet
 type: docs
 weight: 20
 url: /tr/java/saving-excel-files-to-csv-pdf-and-other-formats/
 ---
+
 {{% alert color="primary" %}}
 
-**Aspose.Cells** geliştiricilerin esnek API'i kullanarak sıfırdan Excel dosyaları oluşturmasına olanak tanır. Excel dosyalarını oluşturduktan sonra çalışma kitabınızı (dosyayı) da kaydetmeniz gerekir. Aspose.Cells, bu dosyaları kaydetmenin çeşitli yollarını sunar. Bu konuda, geliştiricilerin dosyalarını kaydetmek için benimseyebilecekleri tüm olası yolları tartışacağız.
+Aspose.Cells, geliştiricilere esnek API'sını kullanarak sıfırdan Excel dosyaları oluşturma imkanı tanır. Excel dosyaları oluşturduktan sonra, çalışma kitabınızı (dosyanızı) Kaydetmeniz gerekecektir. Aspose.Cells, bu dosyaları kaydetmek için çeşitli yöntemler sunar. Bu konuda, geliştiricilerin dosyalarını kaydetmek için benimseyebilecekleri tüm olası yöntemleri tartışacağız.
 
 {{% /alert %}}
 
 ## **Dosyalarınızı Kaydetmenin Farklı Yolları**
 
- Aspose.Cells API adlı bir sınıf sağlar[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)bir Excel dosyasını temsil eden ve geliştiricilerin Excel dosyalarıyla çalışmak için ihtiyaç duyabilecekleri tüm gerekli özellikleri ve yöntemleri sağlayan. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) sınıf bir sağlar[**kayıt etmek**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) Excel dosyalarını kaydetmek için kullanılan yöntem. bu[**kayıt etmek**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntemi, Excel dosyalarını farklı şekillerde kaydetmek için kullanılan birçok aşırı yüklemeye sahiptir.
+Aspose.Cells API'sı, Excel dosyasını temsil eden ve geliştiricilerin Excel dosyalarıyla çalışmak için ihtiyaç duyabilecekleri tüm gerekli özellikleri ve yöntemleri sağlayan [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) adında bir sınıf sağlar. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) sınıfı, Excel dosyalarını kaydetmek için kullanılan bir [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntemi sağlar. [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntemi, farklı şekillerde Excel dosyalarını kaydetmek için birçok aşırı yüklemeye sahiptir.
 
- Geliştiriciler, dosyalarının kaydedilmesi gereken dosya biçimini de belirtebilir. Dosyalar XLS, SpreadsheetML, CSV, Sekmeyle Ayrılmış, Sekmeyle ayrılmış değerler TSV, XPS ve daha pek çok formatta kaydedilebilir. Bu dosya formatları kullanılarak belirtilir.[**Biçimi Kaydet**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) numaralandırma.
+Geliştiriciler, dosyalarının hangi biçimde kaydedilmesini istediklerini de belirtebilirler. Dosyalar, XLS, SpreadsheetML, CSV, Sekmeli Sınırlı, Sekmeyle ayrılmış değerler TSV, XPS ve daha birçok biçimde kaydedilebilir. Bu dosya biçimleri, [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) numaralı sıralama kullanılarak belirtilir.
 
-[**Biçimi Kaydet**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat)numaralandırma, aşağıdaki gibi (sizin tarafınızdan seçilebilen) önceden tanımlanmış birçok dosya formatını içerir:
+[**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) sıralaması, aşağıdaki gibi seçebileceğiniz birçok önceden tanımlanmış dosya biçimini içerir:
 
 |**Dosya Biçimi Türleri**|**Açıklama**|
-|:- |:- |
-|[**OTO**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#AUTO)|API ilk parametrede belirtilen dosya uzantısından save yöntemine uygun formatı tespit etmeye çalışır.|
-|[**CSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#CSV)|CSV dosyasını temsil eder|
-|[**XLSX**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSX)|Bir Office Açık XML SpreadsheetML dosyasını temsil eder|
-|[**XLSM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSM)|XML tabanlı XLSM dosyasını temsil eder|
-|[**XLTX**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTX)|Bir Excel şablon dosyasını temsil eder|
-|[**XLTM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTM)|Excel Makro özellikli bir şablon dosyasını temsil eder|
-|[**XLAM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLAM)|Bir Excel XLAM dosyasını temsil eder|
-|[**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TSV)|Sekmeyle ayrılmış değerler dosyasını temsil eder|
-|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB_DELIMITED)|Sekmeyle Ayrılmış bir metin dosyasını temsil eder|
-|[**HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)|Bir HTML dosyasını/dosyalarını temsil eder|
-|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M_HTML)|Bir MHTML dosyasını/dosyalarını temsil eder|
-|[**ODS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#ODS)|Bir OpenDocument Elektronik Tablo dosyasını temsil eder|
-|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL_97_TO_2003)|Excel 1997 ila 2003 düzeltmeleri için varsayılan biçim olan bir XLS dosyasını temsil eder|
-|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET_ML)|Bir SpreadSheetML dosyasını temsil eder|
-|[**XLSB**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSB)|Bir Excel 2007 ikili XLSB dosyasını temsil eder|
-|[**BİLİNMEYEN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#UNKNOWN)|Tanınmayan biçimi temsil eder, kaydedilemez.|
-|[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)|Bir PDF Belgesini temsil eder|
-|[**XPS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XPS)|Bir XML Kağıt Belirtimi (XPS) dosyasını temsil eder|
+| :- | :- |
+|[**AUTO**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#AUTO)| API, save yönteminde belirtilen dosya uzantısından uygun biçimi algılamaya çalışır.|
+|[**CSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#CSV)| Bir CSV dosyasını temsil eder|
+|[**XLSX**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSX)| Office Open XML SpreadsheetML dosyasını temsil eder|
+|[**XLSM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSM)| XML tabanlı XLSM dosyasını temsil eder|
+|[**XLTX**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTX)| Bir Excel şablon dosyasını temsil eder|
+|[**XLTM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTM)| Bir Excel Makro etkin şablon dosyasını temsil eder|
+|[**XLAM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLAM)| Bir Excel XLAM dosyasını temsil eder|
+|[**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TSV)| Bir Sekmeyle Ayrılmış Değerler dosyasını temsil eder|
+|[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB_DELIMITED)| Belirli değerlerle ayırılmış bir metin dosyasını temsil eder|
+|[**HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)|HTML dosya(lar)ını temsil eder|
+|[**M_HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#M_HTML)|MHTML dosya(lar)ını temsil eder|
+|[**ODS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#ODS)|OpenDocument Elektronik Tablo dosyasını temsil eder|
+|[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL_97_TO_2003)|Excel 1997'den 2003 revizyonları için varsayılan biçim olan XLS dosyasını temsil eder|
+|[**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET_ML)|SpreadSheetML dosyasını temsil eder|
+|[**XLSB**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSB)|Excel 2007 ikili XLSB dosyasını temsil eder|
+|[**UNKNOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#UNKNOWN)|Tanınmayan bir formattır, kaydedilemez|
+|[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)|PDF belgesini temsil eder|
+|[**XPS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XPS)|XML Paper Specification (XPS) dosyasını temsil eder|
 |[**TIFF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TIFF)|Etiketli Görüntü Dosyası Biçimi (TIFF) dosyasını temsil eder|
-|[**SVG**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SVG)|XML tabanlı Ölçeklenebilir Vektör Grafikleri (SVG) dosyasını temsil eder|
-|[**DIF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#DIF)|Veri Değişim Formatını Temsil Eder.|
-|[**SAYILAR**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#NUMBERS)|Bir sayı dosyasını temsil eder.|
-|[**MARKDOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)|Bir indirim belgesini temsil eder.|
+|[**SVG**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SVG)|XML tabanlı Düzenlenebilir Vektör Grafikleri (SVG) dosyasını temsil eder|
+|[**DIF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#DIF)|Veri Değişim Biçimini temsil eder|
+|[**NUMBERS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#NUMBERS)|Sayıların dosyasını temsil eder|
+|[**MARKDOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)|Markdown belgesini temsil eder|
 **Normalde, Excel dosyalarını aşağıdaki gibi kaydetmenin iki yolu vardır:**
 
-1. **Dosyayı bir konuma kaydetme**
-1. **Dosyayı bir akışa kaydetme**
+1. **Dosyayı belirli bir konuma kaydetme**
+1. **Dosyayı bir akıma kaydetme**
 
-## **Dosyayı Bir Konuma Kaydetme**
+## **Bir Konuma Dosya Kaydetme**
 
-Geliştiricilerin dosyalarını bir depolama konumuna kaydetmeleri gerekiyorsa, dosya adını (tam depolama yolu ile birlikte) ve istenen dosya biçimini (kullanarak) belirtebilirler.[**Biçimi Kaydet**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) numaralandırma) çağrılırken[**kayıt etmek**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) ) yöntemi[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)nesne.
+Geliştiriciler dosyalarını bir depolama konumuna kaydetmek istediklerinde basitçe dosya adını (tam depolama yolunu kullanarak) ve istenen dosya biçimini ([**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) numaralandırmasını kullanarak) belirterek [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) nesnesinin [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntemini çağırabilirler.
 
-**Örnek vermek:**
+**Örnek:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SavingFiletoSomeLocation-SavingFiletoSomeLocation.java" >}}
 
-## **Çalışma Kitabını Metne veya CSV Formatına Kaydetme**
+## **Workbook'u Metin veya CSV Formatında Kaydet**
 
-Bazen, birden çok çalışma sayfası içeren bir çalışma kitabını metin biçimine dönüştürmek veya kaydetmek istersiniz. Metin biçimleri için (örneğin TXT, TabDelim, CSV vb.), hem Microsoft Excel hem de Aspose.Cells varsayılan olarak yalnızca etkin çalışma sayfasının içeriğini kaydeder.
+Bazı durumlarda, birden çok çalışma sayfasına sahip bir çalışma kitabını metin formatına dönüştürmek veya kaydetmek isteyebilirsiniz. Metin formatları (örneğin TXT, TabDelim, CSV vb.) için, varsayılan olarak hem Microsoft Excel hem de Aspose.Cells yalnızca etkin çalışma sayfasının içeriğini kaydeder.
 
-Aşağıdaki kod örneği, tüm çalışma kitabının metin biçiminde nasıl kaydedileceğini açıklar. Herhangi bir sayıda çalışma sayfası içeren herhangi bir Microsoft Excel veya OpenOffice elektronik tablo dosyası (yani XLS, XLSX, XLSM, XLSB, ODS vb.) olabilecek kaynak çalışma kitabını yükleyin.
+Aşağıdaki kod örneği, bir çalışma kitabını metin formatına kaydetmenin nasıl yapıldığını açıklar. Herhangi bir Microsoft Excel veya OpenOffice elektronik tablo dosyasını (yani XLS, XLSX, XLSM, XLSB, ODS vb.) yükleyin ve içinde herhangi bir sayıda çalışsayfa olabilir.
 
-Kod yürütüldüğünde, çalışma kitabındaki tüm sayfaların verilerini TXT biçimine dönüştürür.
+Kod çalıştırıldığında, çalışma kitabındaki tüm sayfaların verilerini TXT formatına dönüştürür.
 
-Dosyanızı CSV'e kaydetmek için aynı örneği değiştirebilirsiniz. Varsayılan olarak,[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) virgüldür, bu nedenle CSV biçiminde kaydediyorsanız ayırıcı belirtmeyin.
+Aynı örneği CSV'ye kaydetmek için değiştirebilirsiniz. Varsayılan olarak, [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) bir virgüldür, bu nedenle CSV biçimine kaydederken bir ayraç belirtmeyin.
 
-**Örnek vermek:**
+**Örnek:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SaveWorkbookToTextCSVFormat-SaveWorkbookToTextCSVFormat.java" >}}
 
-## **Metin Dosyalarını Özel Ayırıcıyla Kaydetme**
+## **Özel Ayraçla Metin Dosyaları Kaydetme**
 
-Metin dosyaları biçimlendirme olmadan elektronik tablo verileri içerir. Dosya, verileri arasında bazı özelleştirilmiş sınırlayıcılara sahip olabilen bir tür düz metin dosyasıdır.
+Metin dosyaları, biçimlendirme olmadan elektronik tablo verisi içerir. Dosya, verileri arasında özelleştirilmiş sınıflandırıcılara sahip bir düz metin dosyası türündedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SavingTextFilewithCustomSeparator-SavingTextFilewithCustomSeparator.java" >}}
 
-## **Dosyayı Akışa Kaydetme**
+## **Akıma Dosya Kaydetme**
 
- Geliştiricilerin dosyalarını bir**Aktarım** o zaman oluşturmalılar**DosyaÇıkış Akışı** nesne ve ardından dosyayı buna kaydedin**Aktarım** çağırarak nesne[**kayıt etmek**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) ) yöntemi[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) nesne. Geliştiriciler ayrıca istenen dosya biçimini de belirtebilir (kullanarak[**Biçimi Kaydet**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) numaralandırma) çağrılırken[**kayıt etmek**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntem.
+Geliştiriciler dosyalarını bir **Akım**'e kaydetmek istiyorlarsa, bir **FileOutputStream** nesnesi oluşturmalı ve ardından dosyayı [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) nesnesinin [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntemini çağırarak bu **Akım** nesnesine kaydetmelidirler. Geliştiriciler, [**SaveFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) numaralandırmasını kullanarak [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntemini çağırırken ayrıca istenen dosya biçimini de belirtebilirler.
 
-**Örnek vermek:**
+**Örnek:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SavingFiletoStream-SavingFiletoStream.java" >}}
 
-## **Dosyayı Diğer Biçime Kaydetme**
+## **Başka Bir Biçime Dosya Kaydetme**
 
-### **XLS Dosyalar**
+### **XLS Dosyaları**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SaveXLSFile-SaveXLSFile.java" >}}
 
-### **XLSX Dosyalar**
+### **XLSX Dosyaları**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SaveXLSXFile-SaveXLSXFile.java" >}}
 
-### **PDF Dosyalar**
+### **PDF Dosyaları**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SaveInPdfFormat-SaveInPdfFormat.java" >}}
 
-#### **ContentCopyForAccessibility seçeneğini ayarlayın**
+#### **İçerik Erişilebilirlik Kopyalama seçeneğini Ayarlayın**
 
- İle[**PdfKaydetmeSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) sınıfı, PDF'i alabilir veya ayarlayabilirsiniz[**ErişilebilirlikExtractContent**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions#AccessibilityExtractContent)dönüştürülen PDF'deki içerik erişimini kontrol etme seçeneği. Bu, ekran okuyucu yazılımının PDF dosyasını okumak için PDF dosyasındaki metni kullanmasına izin verdiği anlamına gelir. Bir değişiklik izinleri parolası uygulayarak ve ekran görüntüsündeki iki öğenin seçimini kaldırarak bunu devre dışı bırakabilirsiniz.[Burada](71630877.png).
+[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) sınıfı ile, dönüştürülen PDF içindeki içeriğe erişimi kontrol etmek için PDF [**AccessibilityExtractContent**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions#AccessibilityExtractContent) seçeneğini alabilir veya ayarlayabilirsiniz. Bu, ekran okuyucu yazılımların PDF dosyasında bulunan metni okumasına izin verir. İki öğeyi seçme iznini kaldırarak veya değiştirme izin şifresi uygulayarak bunu devre dışı bırakabilirsiniz ve [buradan](71630877.png) ekran görüntüsünde gösterilen iki öğeyi seçebilirsiniz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ContentCopyForAccessibilityOption.java" >}}
 
-#### **Özel özellikleri PDF olarak dışa aktarın**
+#### **Özel özellikleri PDF'ye aktar**
 
-İle[**PdfKaydetmeSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) sınıfı, kaynak çalışma kitabındaki özel özellikleri PDF'e verebilirsiniz.[**PdfÖzelÖzelliklerDışa Aktarma**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfCustomPropertiesExport) Numaralandırıcı, özelliklerin dışa aktarılma şeklini belirtmek için sağlanmıştır. Bu özellikler, Adobe Acrobat Reader'da aşağıdaki görüntüde olduğu gibi Dosya ve ardından özellikler seçeneği tıklanarak gözlemlenebilir. "sourceWithCustProps.xlsx" şablon dosyası indirilebilir[Burada](sourceWithCustProps.xlsx)test etmek ve çıktı almak için PDF dosyası "outSourceWithCustProps" mevcuttur[Burada](outSourceWithCustProps.pdf)analiz için.
+[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) sınıfı ile, kaynak çalışma kitabındaki özel özellikleri PDF'e aktarabilirsiniz.  [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfCustomPropertiesExport) enumaratörü, özelliklerin nasıl aktarıldığını belirtmek içindir. Bu özellikler, Adobe Acrobat Reader'da dosya ve ardından özellikler seçeneğine tıklayarak gözlemlenebilir. Test ve çıktı PDF dosyası "outSourceWithCustProps" [buradan](outSourceWithCustProps.pdf) analiz için kullanılabilir ve örnek dosya "sourceWithCustProps.xlsx" [buradan](sourceWithCustProps.xlsx) indirilebilir.
 
-![yapılacaklar:resim_alternatif_metin](saving-excel-files-to-csv-pdf-and-other-formats_1.png)
+![todo:image_alt_text](saving-excel-files-to-csv-pdf-and-other-formats_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportCustomPropertiesToPdf.java" >}}
 
 ## **Excel Çalışma Kitabını Markdown'a Dönüştür**
 
-Aspose.Cells API, elektronik tabloların Markdown formatına dışa aktarılması için destek sağlar. Aktif çalışma sayfasını Markdown'a aktarmak için,[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)ikinci parametre olarak[**Çalışma Kitabı.Kaydet**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)) yöntem. Ayrıca kullanabilirsiniz[**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions)Çalışma sayfasını Markdown'a dışa aktarmak için ek ayarlar belirtmek için sınıf.
+Aspose.Cells API, elektronik tabloları Markdown biçimine aktarma desteği sağlar. Etkin çalışma sayfasını Markdown'a aktarmak için ikinci parametre olarak [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN) ve ek ayarlar için [**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions) sınıfını kullanabilirsiniz.
 
-Aşağıdaki kod örneği, etkin çalışma sayfasını kullanarak Markdown'a aktarmayı gösterir.[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)numaralandırma üyesi Lütfen bkz[çıkış Markdown dosyası](Book1.txt)referans için kod tarafından oluşturulur.
+Aşağıdaki kod örneği, [**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN) enum üyesini kullanarak etkin çalışma sayfasını Markdown biçimine dönüştürme işlemini göstermektedir. Kod tarafından oluşturulan [çıkış Markdown dosyasını](Book1.txt) referans için inceleyiniz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertExcelFileToMarkdown-1.java" >}}
 
-## **ileri konular**
-- [Çalışma kitabı sıkıştırma düzeyini ayarla](/cells/tr/java/adjust-workbook-compression-level/)
+## **Gelişmiş Konular**
+- [Çalışma kitabının sıkıştırma seviyesi ayarlanabilir.](/cells/tr/java/adjust-workbook-compression-level/)
 - [Çalışma Kitabını Farklı Biçimlere Dönüştürme](/cells/tr/java/converting-workbook-to-different-formats/)
-- [Çalışma Kitabını Sıkı Açık XML Elektronik Tablo Formatına Kaydet](/cells/tr/java/save-workbook-to-strict-open-xml-spreadsheet-format/)
-- [Excel'in TIFF'e Dönüştürme İlerlemesini İzleyin](/cells/tr/java/track-conversion-progress-of-excel-to-tiff/)
-- [Belge Dönüştürme İlerlemesini İzleme](/cells/tr/java/track-document-conversion-progress/)
+- [Sıkı Açık XML Elektronik Tablo Biçimine Çalışma Kitabını Kaydet](/cells/tr/java/save-workbook-to-strict-open-xml-spreadsheet-format/)
+- [Excel'den TIFF'e Dönüşüm İlerlemesini İzle](/cells/tr/java/track-conversion-progress-of-excel-to-tiff/)
+- [Belge Dönüşüm İlerlemesini İzle](/cells/tr/java/track-document-conversion-progress/)

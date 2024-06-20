@@ -1,14 +1,15 @@
 ---
-title: Få ett unikt kalkylblads-id
+title: Få arbetsbladets unika id
 type: docs
 weight: 190
 url: /sv/net/get-worksheet-unique-id/
-description: Den här artikeln visar hur du får ett unikt ID för Excel-kalkylblad med C#-biblioteket och .NET API programmatiskt
-keywords: unique id excel worksheet c#, unique id worksheet c#
+description: Den här artikeln visar hur du får att Excel arbetsbladets unika id med hjälp av C# bibliotek och .NET API programmatiskt
+keywords: unikt id excel ark c#, unikt id ark c#
 ---
-##  **Få ett unikt kalkylblads-id**
 
- Aspose.Cells ger möjligheten att få det unika ID:t för ett kalkylblad genom att använda[**Arbetsblad.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid)fast egendom. Följande kodavsnitt visar användningen av[**Arbetsblad.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid) egenskap för att skriva ut det unika ID:t för ett kalkylblad. Följande kodavsnitt använder detta[exempel på excel-fil](105480213.xlsx).
+## **Få arbetsbladets unika id**
+
+Aspose.Cells ger möjlighet att få det unika id:et för ett arbetsblad genom att använda [**Worksheet.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid)-egenskapen. Följande kodsnutt visar användningen av [**Worksheet.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid)-egenskapen för att skriva ut det unika id:et för ett arbetsblad. Följande kodsnutt använder den här [provexcelfilen](105480213.xlsx).
 
 ### Källkod
 

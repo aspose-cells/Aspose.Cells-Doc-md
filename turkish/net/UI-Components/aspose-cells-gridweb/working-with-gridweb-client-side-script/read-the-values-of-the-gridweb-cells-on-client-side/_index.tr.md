@@ -1,30 +1,33 @@
-﻿---
-title: İstemci Tarafındaki GridWeb hücrelerinin değerlerini okuyun
+---
+title: GridWeb hücrelerinin değerlerini Client Side da okuyun
 type: docs
 weight: 30
-url: /tr/net/read-the-values-of-the-gridweb-cells-on-client-side/
+url: /tr/net/aspose-cells-gridweb/read-the-values-of-the-gridweb-cells-on-client-side/
+keywords: GridWeb, hücre, hücre değeri
+description: Bu makalede GridWeb de hücre değerini nasıl alacağınızı tanıtır.
 ---
+
 ## **Olası Kullanım Senaryoları**
-GridWeb hücrelerinin değerlerini, gridwebinstance.getCellsArray() yöntemini kullanarak istemci tarafı komut dosyasında okuyabilirsiniz. Bir kez arayacaksınız, aktif çalışma sayfasındaki tüm hücrelerin dizisini döndürecektir. Ardından, hücrelerin değerini ve diğer bilgilerini almak için aşağıdaki yöntemleri kullanabilirsiniz.
+GridWeb hücrelerinin değerlerini gridwebinstance.getCellsArray() yöntemini kullanarak istemci tarafı betiğinde okuyabilirsiniz. Bir kez çağırdığınızda, etkin çalışma sayfasındaki tüm hücrelerin bir dizisini döndürecektir. Ardından hücrelerin değerini ve diğer bilgilerini almak için aşağıdaki yöntemleri kullanabilirsiniz.
 
 - gridwebinstance.getCellName()
 - gridwebinstance.getCellValueByCell()
 - gridwebinstance.getCellRow()
 - gridwebinstance.getCellColumn()
-## **İstemci Tarafındaki GridWeb hücrelerinin değerlerini okuyun**
-Aşağıdaki örnek kod, tüm hücreleri alır ve adlarını, değerlerini, satırlarını ve sütunlarını yazdırır. Konsol çıktısını bu makalenin altında görebilirsiniz. Aşağıdaki ekran görüntüsü, Google Chrome'daki örnek kodun konsol çıktısını göstermektedir.
-## **Ekran görüntüsü**
-![yapılacaklar:resim_alternatif_metin](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
-## **Basit kod**
+## **GridWeb hücrelerinin değerlerini Client Side'da okuyun**
+Aşağıdaki örnek kod tüm hücreleri alır ve ardından adlarını, değerlerini, satır ve sütunlarını yazdırır. Örnek kodun Google Chrome'da konsol çıktısını bu makalenin alt kısmında görebilirsiniz. Aşağıdaki ekran görüntüsü örnek kodunun Google Chrome'da konsol çıktısını göstermektedir.
+## **Ekran Görüntüsü**
+![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCellsClientSide.aspx" >}}
 
-Lütfen yukarıdaki örnek kodda gösterildiği gibi ReadGridWebCells() JavaScript işlevini bunun gibi çağırın.
+Lütfen yukarıdaki örnek koddaki gibi JavaScript fonksiyonu ReadGridWebCells() çağırın.
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCells.aspx" >}}
-## **Konsol Çıkışı**
-Bu, yukarıdaki örnek kodun konsol çıktısıdır.
+## **Konsol Çıktısı**
+Yukarıdaki örnek kodun konsol çıktısı budur.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0:A1,value is:0 ,row:0,col:0
 

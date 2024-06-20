@@ -1,30 +1,31 @@
 ---
-title: Cell Değeri veya Aralığının Tek Alıntı Önekini Koru
+title: Hücre Değerinin veya Aralığının Tek Tek Tırnak Önekini Koru
 type: docs
 weight: 310
 url: /tr/net/preserve-single-quote-prefix-of-cell-value-or-range/
-description: Cell Değeri veya Aralığının Tek Alıntı Önekini Aspose.Cells for .NET API aracılığıyla nasıl koruyacağınızı öğrenin.
-keywords: Preserve Single Quote Prefix of Cell Value or Range, Hide leading apostrophe or single quote mark, Show leading apostrophe or single quote mark
+description: Aspose.Cells for .NET API si ile Hücre Değeri veya Aralığının Tek Tırnak Öneki Saklanmış Olarak Korunmasını nasıl öğrenirsiniz.
+keywords: Tek Tırnak Öneki ile Hücre Değeri veya Aralığının Saklanması, Önde Gelen tırnak işareti veya tek tırnak işareti gizle, İlk tek tırnak işareti veya tek tırnak işareti göster
 ---
-##  **Olası Kullanım Senaryoları**
 
-Başında kesme işareti veya tek tırnak işareti olan hücrenin içine bir değer koyduğunuzda, Microsoft Excel bunu gizler, ancak hücreyi seçtiğinizde, aşağıdaki ekran görüntüsünde gösterildiği gibi baştaki kesme işaretini veya tek tırnak işaretini bir formül çubuğunda görüntüler.
+## **Olası Kullanım Senaryoları**
 
-![yapılacak şey:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
+Önde gelen tek tırnak ya da tek tırnak işaretli bir hücreye bir değer koyduğunuzda, Microsoft Excel bunu gizler, ancak hücreyi seçtiğinizde, önde gelen tek tırnak ya da tek tırnak işaretini aşağıdaki ekran görüntüsünde gösterildiği gibi bir formül çubuğunda görüntüler.
 
-Aspose.Cells aynı zamanda Microsoft Excel gibi baştaki kesme işaretini veya tek tırnak işaretini de gizler ancak[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) gibi**doğru** o hücre için. Hücrenin boş bir stilini ayarlarsanız, o zaman[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) olur**YANLIŞ** Tekrar. Bu sorunla başa çıkmak için Aspose.Cells şunları sağlar:[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) özellik, ayarlandığında**false**, bu durumda [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) hiç güncellenmez ve eski değeri korunur . Bunun anlamı, [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) özelliğinin eski değeri **true** ise, bu **doğru kalacak** ve eski değer *yanlış** ise *yanlış** olarak kalacaktır.
+![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-##  **Cell Değeri veya Aralığının Tek Alıntı Önekini Koru**
+Aspose.Cells, Microsoft Excel gibi önde gelen tek tırnak işaretini gizler ancak [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)'yi o hücre için **true** olarak ayarlar. Eğer hücrenin boş bir stili ayarlarsanız, o zaman [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) tekrar **false** olur. Bu sorunla başa çıkmak için Aspose.Cells, [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) özelliğini sağlar; bu **false** olarak ayarlandığında, o zaman [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) hiç güncellenmez ve eski değeri korunur. Bu, [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) özelliğinin eski değeri **true** ise **true** olarak kalır ve eğer eski değeri **false** ise **false** olarak kalır demektir.
 
-Aşağıdaki örnek kod, kullanımını açıklamaktadır.[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)Daha önce açıklandığı gibi mülk. Lütfen kodun içindeki yorumları okuyun ve daha fazla yardım için aşağıda verilen kodun konsol çıktısına bakın.
+## **Hücre Değerinin veya Aralığın Ön Eklemesini Koruma**
 
-##  **Basit kod**
+Aşağıdaki örnek kod önceden açıklanan [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) özelliğinin kullanımını açıklamaktadır. Yardım için kod içindeki yorumları okuyun ve verilen kodun konsol çıktısını görmek için aşağıdaki kodu inceleyin.
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
 
-##  **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Quote Prefix of Cell A1: False
 

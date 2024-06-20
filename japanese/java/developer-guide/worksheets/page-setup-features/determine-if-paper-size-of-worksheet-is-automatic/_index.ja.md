@@ -1,23 +1,24 @@
-﻿---
-title: ワークシートの用紙サイズが自動かどうかを判断する
+---
+title: ワークシートの用紙サイズが自動かどうかを判定する
 type: docs
 weight: 20
 url: /ja/java/determine-if-paper-size-of-worksheet-is-automatic/
 ---
-## **考えられる使用シナリオ**
 
-ほとんどの場合、ワークシートの用紙サイズは自動です。自動の場合は、次のように設定されることがよくあります*手紙*.ユーザーは、必要に応じてワークシートの用紙サイズを設定することがあります。この場合、用紙サイズは自動ではありません。ワークシートの用紙サイズが自動かどうかを確認するには、[**Worksheet.getPageSetup().isAutomaticPaperSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#IsAutomaticPaperSize)方法。
+## **可能な使用シナリオ**
+
+ワークシートの用紙サイズはほとんど自動です。自動の場合、*レター*として設定されることがよくあります。ユーザーがワークシートの用紙サイズを自分の要件に合わせて設定することもあります。この場合、用紙サイズは自動ではありません。[**Worksheet.getPageSetup().isAutomaticPaperSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#IsAutomaticPaperSize) メソッドを使用して、ワークシートの用紙サイズが自動かどうかを判断することができます。
 
 ## **ワークシートの用紙サイズが自動かどうかを判断する**
 
-以下のサンプル コードは、次の 2 つの Excel ファイルを読み込みます。
+以下のサンプルコードは、次の2つのExcelファイルをロードし
 
 - [samplePageSetupIsAutomaticPaperSize-False.xlsx](48496700.xlsx)
 - [samplePageSetupIsAutomaticPaperSize-True.xlsx](48496701.xlsx)
 
-最初のワークシートの用紙サイズが自動かどうかを調べます。 Microsoft Excel では、このスクリーンショットに示すように、[ページ設定] ウィンドウで用紙サイズが自動かどうかを確認できます。
+その最初のワークシートの用紙サイズが自動かどうかを確認します。Microsoft Excelでは、このスクリーンショットに示すように、ページ設定ウィンドウで用紙サイズが自動かどうかを確認できます。
 
-![todo:画像_代替_文章](determine-if-paper-size-of-worksheet-is-automatic_1.png)
+![todo:image_alt_text](determine-if-paper-size-of-worksheet-is-automatic_1.png)
 
 ## **サンプルコード**
 
@@ -25,9 +26,9 @@ url: /ja/java/determine-if-paper-size-of-worksheet-is-automatic/
 
 ## **コンソール出力**
 
-以下は、指定されたサンプル Excel ファイルで実行されたときの上記のサンプル コードのコンソール出力です。
+上記のサンプルコードを指定されたサンプルExcelファイルで実行したときのコンソール出力は次の通りです。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 First Worksheet of First Workbook - IsAutomaticPaperSize: false
 

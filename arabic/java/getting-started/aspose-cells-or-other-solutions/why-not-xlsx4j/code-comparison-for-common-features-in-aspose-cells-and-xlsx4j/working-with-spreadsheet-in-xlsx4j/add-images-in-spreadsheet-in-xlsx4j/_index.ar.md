@@ -1,15 +1,16 @@
-﻿---
-title: أضف الصور في جدول البيانات بتنسيق xlsx4j
+---
+title: إضافة الصور في جدول بيانات على xlsx4j
 type: docs
 weight: 20
 url: /ar/java/add-images-in-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - إضافة الصور في جدول البيانات**
-فئة الصورة متاحة للتعامل مع الصور في ورقة العمل
+
+## **Aspose.Cells - إضافة الصور في جدول بيانات**
+فئة الصور متاحة للتعامل مع الصور في ورقة العمل
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -26,14 +27,14 @@ int pictureIndex = sheet.getPictures().add(5,5, dataDir + "greentick.png");
 Picture picture = sheet.getPictures().get(pictureIndex);
 
 {{< /highlight >}}
-## **xlsx4j - أضف الصور في جدول البيانات**
-فصل الرسم متاح للتعامل مع الصور في ورقة العمل
+## **xlsx4j - إضافة الصور في جدول بيانات**
+فئة الرسم متاحة للتعامل مع الصور في ورقة العمل
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "AddImage-Xlsx4j.xlsx";
 
@@ -406,13 +407,13 @@ public static CTDrawing buildDrawingPartContentFromXmlString(String imageRelID) 
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addimage)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addimage)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إضافة ارتباطات تشعبية للصورة](/java/add-image-hyperlinks).
+لمزيد من التفاصيل، قم بزيارة [إضافة روابط الصورة](/java/add-image-hyperlinks).
 
 {{% /alert %}}

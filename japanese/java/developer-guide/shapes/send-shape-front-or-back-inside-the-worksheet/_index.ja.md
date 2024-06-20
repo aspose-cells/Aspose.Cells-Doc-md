@@ -1,18 +1,19 @@
-﻿---
-title: ワークシート内の形状を前面または背面に送信
+---
+title: ワークシート内でShape FrontまたはBackを送信する
 type: docs
 weight: 600
 url: /ja/java/send-shape-front-or-back-inside-the-worksheet/
 ---
-## **考えられる使用シナリオ**
 
-同じ場所に複数の形状が存在する場合、それらがどのように表示されるかは、Z オーダーの位置によって決まります。 Aspose.Cells提供[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)) 形状の z オーダー位置を変更するメソッド。形状を背面に送りたい場合は、-1、-2、-3 などの負の数を使用します。形状を前面に送りたい場合は、1、2、3、などの正の数を使用します。等
+## **可能な使用シナリオ**
 
-## **ワークシート内の形状を前面または背面に送信**
+同じ位置に複数の図形が存在する場合、それらがどのように表示されるかは、z-オーダー位置で決定されます。Aspose.Cellsは、図形のz-オーダー位置を変更する[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int))メソッドを提供します。形を後方に送りたい場合は、-1、-2、-3などの負の数を使用し、形を前方に送りたい場合は、1、2、3などの正の数を使用します。
 
-次のサンプル コードは、[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)） 方法。をご覧ください[サンプル Excel ファイル](50528362.xlsx)コード内で使用され、[出力エクセルファイル](50528361.xlsx)それによって生成されます。スクリーンショットは、実行時のサンプル Excel ファイルに対するコードの効果を示しています。
+## **ワークシート内でShape FrontまたはBackを送信する**
 
-![todo:画像_代替_文章](send-shape-front-or-back-inside-the-worksheet_1.png)
+次のサンプルコードは、[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int))メソッドの使用方法を説明しています。コード内で使用される[sample Excel file](50528362.xlsx)とそれによって生成される[output Excel file](50528361.xlsx)をご覧ください。スクリーンショットは、コードのサンプルExcelファイルへの効果を示しています。
+
+![todo:image_alt_text](send-shape-front-or-back-inside-the-worksheet_1.png)
 
 ## **サンプルコード**
 

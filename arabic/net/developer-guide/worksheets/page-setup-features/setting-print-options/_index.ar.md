@@ -3,94 +3,95 @@ title: ضبط خيارات الطباعة
 type: docs
 weight: 40
 url: /ar/net/setting-print-options/
-description: توضح هذه المقالة كيفية تعيين "خيارات الطباعة" لميزة "إعداد صفحة ورقة عمل Excel" برمجيًا باستخدام مكتبة C# API و .NET. يمكنك ضبط منطقة الطباعة وعناوين الطباعة وترتيب الصفحات.
-keywords: set excel print area c#, set exce print titles c#, set excel page order c#
+description: توضح هذه المقالة كيفية ضبط خيارات الطباعة لميزة تهيئة صفحة ورق العمل في Excel برمجياً باستخدام واجهة برمجة التطبيقات C# ومكتبة .NET. يمكنك ضبط منطقة الطباعة وعناوين الطباعة وترتيب الصفحات.
+keywords: ضبط منطقة الطباعة في إكسيل بلغة السي #، تعيين عنواوين الطباعة في إكسل بلغة السي #، تعيين ترتيب الصفحات في إكسل بلغة السي #
 ---
+
 {{% alert color="primary" %}}
 
-توفر إعدادات إعداد صفحة Microsoft في Excel العديد من خيارات الطباعة (يشار إليها أيضًا بخيارات الورقة) التي تسمح للمستخدمين بالتحكم في كيفية طباعة صفحات ورقة العمل.
+توفر إعدادات تهيئة الصفحة في ميكروسوفت إكسيل العديد من خيارات الطباعة التي تسمح للمستخدمين بالتحكم في كيفية طباعة صفحات ورق العمل.
 
 {{% /alert %}}
 
-##  **ضبط خيارات الطباعة**
+## **ضبط خيارات الطباعة**
 
-تتيح خيارات الطباعة هذه للمستخدمين:
+تسمح هذه الخيارات بالطباعة:
 
-- حدد منطقة طباعة معينة في ورقة العمل.
+- تحديد منطقة طباعة معينة على ورقة عمل.
 - طباعة العناوين.
 - طباعة خطوط الشبكة.
-- طباعة عناوين الصفوف / الأعمدة.
-- تحقيق جودة المسودة.
+- طباعة عناوين الصفوف/الأعمدة.
+- تحقيق جودة مسودة.
 - طباعة التعليقات.
 - طباعة أخطاء الخلية.
-- تحديد ترتيب الصفحة.
+- تعريف ترتيب الصفحات.
 
- يدعم Aspose.Cells جميع خيارات الطباعة التي يوفرها Microsoft Excel ويمكن للمطورين بسهولة تكوين هذه الخيارات لأوراق العمل باستخدام الخصائص التي يوفرها[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)فصل. تتم مناقشة كيفية استخدام هذه الخصائص أدناه بمزيد من التفصيل.
+تدعم Aspose.Cells جميع خيارات الطباعة التي تقدمها ميكروسوفت إكسيل ويمكن للمطورين تكوين هذه الخيارات بسهولة للورقات العمل باستخدام الخصائص التي توفرها فئة [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). كيفية استخدام هذه الخصائص يتم مناقشتها أدناه بتفصيل أكثر.
 
-###  **تعيين ناحية الطباعة**
+### **تعيين منطقة الطباعة**
 
-بشكل افتراضي ، تدمج منطقة الطباعة جميع مناطق ورقة العمل التي تحتوي على بيانات. يمكن للمطورين إنشاء منطقة طباعة معينة من ورقة العمل.
+اف فعل، منطقة الطباعة تشمل جميع مناطق ورقة العمل التي تحتوي على بيانات. يمكن للمطورين تحديد منطقة الطباعة المحددة لورقة العمل.
 
- لتحديد منطقة طباعة معينة ، استخدم ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فصل'[**منطقة الطباعة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea)ملكية. قم بتعيين نطاق خلايا يحدد منطقة الطباعة لهذه الخاصية.
+لتحديد منطقة الطباعة المحددة، استخدم خاصية [**PrintArea**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea) لفئة [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). قم بتعيين نطاق الخلايا الذي يعرف منطقة الطباعة لهذه الخاصية.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintArea-1.cs" >}}
 
-###  **تعيين عناوين الطباعة**
+### **تحديد عناوين الطباعة**
 
- Aspose.Cells يسمح لك بتعيين رؤوس الصفوف والأعمدة لتكرارها على كل صفحات ورقة العمل المطبوعة. للقيام بذلك ، استخدم ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فصل'[**PrintTitleColumns**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) و[**PrintTitleRows**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows)ملكيات.
+تسمح Aspose.Cells لك بتحديد عناوين الصف والعمود لتكرارها على جميع الصفحات لورقة العمل المطبوعة. للقيام بذلك، استخدم خاصية [**PrintTitleColumns**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) و [**PrintTitleRows**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows) لفئة [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup).
 
-يتم تحديد الصفوف أو الأعمدة التي سيتم تكرارها عن طريق تمرير أرقام الصفوف أو الأعمدة. على سبيل المثال ، يتم تعريف الصفوف على أنها $ 1: $ 2 ويتم تعريف الأعمدة على أنها $ A: $ B.
+يتم تعريف الصفوف أو الأعمدة التي ستتكرر عن طريق تمرير أرقامها. على سبيل المثال، يتم تعريف الصفوف كـ $1:$2 والأعمدة كـ $A:$B.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintTitle-1.cs" >}}
 
-###  **قم بتعيين خيارات الطباعة الأخرى**
+### **تحديد خيارات الطباعة الأخرى**
 
- ال[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)توفر class أيضًا العديد من الخصائص الأخرى لتعيين خيارات الطباعة العامة على النحو التالي:
+فئة [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) توفر أيضا عدة خصائص أخرى لتعيين خيارات الطباعة العامة على النحو التالي:
 
-- [**PrintGridlines**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printgridlines): خاصية منطقية تحدد ما إذا كنت تريد طباعة خطوط الشبكة أم لا.
-- [**PrintHeadings**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings): خاصية منطقية تحدد ما إذا كنت تريد طباعة عناوين الصفوف والأعمدة أم لا.
-- [**اسود و ابيض**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/blackandwhite): خاصية منطقية تحدد ما إذا كنت تريد طباعة ورقة العمل في الوضع الأسود والأبيض أم لا.
-- [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments): يحدد ما إذا كان سيتم عرض تعليقات الطباعة على ورقة العمل أو في نهاية ورقة العمل.
-- [**برينتدرافت**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printdraft): خاصية منطقية تحدد ما إذا كنت تريد طباعة الورقة بدون رسومات ..
-- [**أخطاء الطباعة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors): يحدد ما إذا كان سيتم طباعة أخطاء الخلية كما هي معروضة أو فارغة أو شرطة أو غير متوفرة.
+- [**PrintGridlines**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printgridlines): خاصية بوليانية تعرف ما إذا كان سيتم طباعة خطوط الشبكة أم لا.
+- [**PrintHeadings**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings): خاصية بوليانية تعرف ما إذا كان سيتم طباعة عناوين الصف والعمود أم لا.
+- [**BlackAndWhite**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/blackandwhite): خاصية بوليانية تعرف ما إذا كان سيتم طباعة ورقة العمل في وضع أسود وأبيض أم لا.
+- [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments): يحدد ما إذا كان سيتم عرض التعليقات المطبوعة على ورقة العمل أم في نهايتها.
+- [**PrintDraft**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printdraft): خاصية بوليانية تعرف ما إذا كان سيتم طباعة الورقة بدون الرسومات.
+- [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors): يحدد ما إذا كان سيتم طباعة أخطاء الخلية كما هو معروض، فارغ، شرطة أو غير متوفر.
 
- لتعيين[**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) و[**أخطاء الطباعة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)الخصائص ، يوفر Aspose.Cells أيضًا عددين ،[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) ، و[**نوع الطباعة**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) التي تحتوي على قيم محددة مسبقًا ليتم تعيينها إلى[**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) و[**أخطاء الطباعة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)خصائص على التوالي.
+لتعيين الخصائص [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) و [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)، توفر Aspose.Cells أيضا اثنين من التعدادات، [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) و [**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) التي تحتوي على قيم محددة مسبقًا لتعيين الخصائص [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) و [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors) على التوالي.
 
- القيم المحددة مسبقًا في ملف[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)التعداد مذكور أدناه مع أوصافها.
+تتم إدراج القيم المحددة مسبقًا في تعداد [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) أدناه مع وصفها.
 
-|**طباعة أنواع التعليقات**|**وصف**|
+|**أنواع التعليقات المطبوعة**|**الوصف**|
 | :- | :- |
-|PrintInPlace|يُحدد لطباعة التعليقات كما هو معروض في ورقة العمل.|
-|طباعة لا تعليقات|يحدد عدم طباعة التعليقات.|
-|PrintSheetEnd|يُحدد لطباعة التعليقات في نهاية ورقة العمل.|
+|PrintInPlace|تحدد طباعة التعليقات كما هي معروضة على ورقة العمل.|
+|PrintNoComments|تحدد عدم طباعة التعليقات.|
+|PrintSheetEnd|تحدد طباعة التعليقات في نهاية ورقة العمل.|
 
- القيم المحددة مسبقًا لـ[**نوع الطباعة**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype)التعداد مذكور أدناه مع أوصافها.
+تم إدراج القيم المحددة مسبقًا لتعداد [**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) أدناه مع وصفها.
 
 
 
-|**أنواع أخطاء الطباعة**|**وصف**|
+| **أنواع أخطاء الطباعة** | **الوصف** |
 | :- | :- |
-|أخطاء الطباعة|يحدد عدم طباعة الأخطاء.|
-|PrintErrorsDash (شرطة)|يُحدد طباعة الأخطاء كـ "-".|
-|تم عرض أخطاء الطباعة|يحدد لطباعة الأخطاء كما هو معروض.|
-|PrintErrorsNA|يُحدد طباعة الأخطاء كـ "# N / A".|
+|PrintErrorsBlank|يحدد عدم طباعة الأخطاء.
+|PrintErrorsDash|يحدد طباعة الأخطاء على شكل "--".
+|PrintErrorsDisplayed|يحدد طباعة الأخطاء على النحو الذي يتم عرضه.
+|PrintErrorsNA|يحدد طباعة الأخطاء على شكل "#N/A".
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-OtherPrintOptions-1.cs" >}}
 
-###  **تعيين ترتيب الصفحة**
+### **تحديد ترتيب الصفحة**
 
- ال[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فئة توفر[**طلب**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)الخاصية المستخدمة لطلب طباعة صفحات متعددة من ورقة العمل الخاصة بك. هناك احتمالان لترتيب الصفحات على النحو التالي.
+توفر صفيف [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) خاصية [**Order**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order) التي تستخدم لترتيب صفحات ورق العمل المتعددة المطبوعة. هناك احتمالان لترتيب الصفحات على النحو التالي.
 
-- **لأسفل ثم فوق:** يطبع كل الصفحات لأسفل قبل طباعة أي صفحات على اليمين.
-- **فوق ثم لأسفل:** يطبع الصفحات من اليسار إلى اليمين قبل طباعة الصفحات أدناه.
+- **اسفل ثم يمين:** يطبع جميع الصفحات أسفل الصفحة قبل طباعة أي صفحات على اليمين.
+- **يمين ثم أسفل:** يطبع الصفحات من اليسار إلى اليمين قبل طباعة الصفحات أسفلها.
 
- يوفر Aspose.Cells تعداد ،[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)يحتوي على جميع أنواع الطلبات المحددة مسبقًا.
+يوفّر Aspose.Cells تعدادًا، [**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)، يحتوي على جميع أنواع ترتيب محدد مسبقًا.
 
- القيم المحددة مسبقًا لـ[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)التعداد مذكورة أدناه.
+يتم سرد القيم المحددة مسبقًا لتعداد [**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype) أدناه.
 
-|**أنواع أوامر الطباعة**|**وصف**|
+| **أنواع ترتيب الطباعة** | **الوصف** |
 | :- | :- |
-|أسفل بعد ذلك|يمثل أمر الطباعة على أنه لأسفل ثم فوق.|
-|زيادة في الأسفل|يمثل أمر الطباعة على أنه فوق ثم لأسفل.|
+|DownThenOver|يمثل ترتيب الطباعة كاسفل ثم يمين.
+|OverThenDown|يمثل ترتيب الطباعة كيمين ثم أسفل.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPageOrder-1.cs" >}}

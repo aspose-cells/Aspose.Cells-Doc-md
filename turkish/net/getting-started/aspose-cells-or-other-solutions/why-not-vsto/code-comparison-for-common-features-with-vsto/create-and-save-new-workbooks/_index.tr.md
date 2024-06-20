@@ -1,18 +1,19 @@
-﻿---
-title: Yeni Çalışma Kitapları Oluşturun ve Kaydedin
+---
+title: Yeni Çalışma Kitapları Oluştur ve Kaydet
 type: docs
 weight: 70
 url: /tr/net/create-and-save-new-workbooks/
 ---
-## **Geçiş İpuçları:**
-\1. Çalışma Kitabı nesnesi oluştur
-\2. Mevcut Çalışma Sayfasını alın.
-\3. Herhangi bir hücreye biraz metin ekleyin.
-\4. Çalışma Kitabını kaydedin.
-### **VSTO**
-Aşağıda VSTO için kod örneği verilmiştir
 
-{{< highlight "csharp" >}}
+## **Geçiş İpuçları:**
+\1. Workbook nesnesi oluştur
+\2. Mevcut çalışma sayfasını al
+\3. Herhangi bir hücreye metin ekleyin
+\4. Çalışma kitabını kaydedin
+### **VSTO**
+Aşağıda VSTO için kod örneği bulunmaktadır
+
+{{< highlight csharp >}}
 
   Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
 
@@ -26,9 +27,9 @@ Aşağıda VSTO için kod örneği verilmiştir
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-Aspose.Cells için kod örneği aşağıdadır
+Aşağıda Aspose.Cells için kod örneği bulunmaktadır
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook newWorkbook = new Workbook();
 
@@ -41,5 +42,5 @@ Aspose.Cells için kod örneği aşağıdadır
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **İndirmek**
+## **İndir**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)

@@ -1,15 +1,16 @@
-﻿---
-title: Geteilte Fenster in Php
+---
+title: Panes in Php splitten
 type: docs
 weight: 70
 url: /de/java/split-panes-in-php/
 ---
-## **Aspose.Cells - Geteilte Scheiben**
- So teilen Sie Fenster mit**Aspose.Cells Java for PHP** , einfach aufrufen**SplitPanes** Modul.
+
+## **Aspose.Cells - Panes aufteilen**
+Um Panes mit **Aspose.Cells Java for PHP** zu splitten, rufe einfach das Modul **SplitPanes** auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $saveFormat = new SaveFormat();
 
@@ -32,7 +33,7 @@ $book->getWorksheets()->get(0)->split();
 $book->save($dataDir . "book.out.xls", $saveFormat->EXCEL_97_TO_2003);
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Geteilte Scheiben (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Downloaden **Panes splitten (Aspose.Cells)** von einer der unten genannten sozialen Coding-Seiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/SplitPanes.php)

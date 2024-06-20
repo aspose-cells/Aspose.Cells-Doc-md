@@ -1,25 +1,26 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.5.2
+---
+title: Aspose.Cells 8.5.2のPublic APIの変更
 type: docs
 weight: 190
 url: /ja/java/public-api-changes-in-aspose-cells-8-5-2/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.5.1 から 8.5.2 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/java/public-api-changes-in-aspose-cells-8-5-2/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
+このドキュメントには、バージョン8.5.1から8.5.2へのAspose.Cells APIの変更が含まれており、モジュール/アプリケーション開発者に興味を持たれる可能性があるものです。新しいメソッドや更新されたpublicメソッド,[追加されたクラスなど](/cells/ja/java/public-api-changes-in-aspose-cells-8-5-2/)だけでなく、Aspose.Cellsの背後での挙動に変更がある場合についての説明も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **ワークシートをグラフィック コンテキストにレンダリング**
-Aspose.Cells for Java API のこのリリースでは、Graphics2D クラスのインスタンスを受け入れることができる SheetRender.toImage メソッドの別のオーバーロードが公開されました。[ワークシートをグラフィック コンテキストでレンダリングする](/cells/ja/java/render-worksheet-to-graphic-context/).新しく追加されたメソッドのシグネチャは次のとおりです。
+## **APIの追加**
+### **ワークシートをグラフィックコンテキストにレンダリング**
+このAspose.Cells for Java APIのリリースでは、SheetRender.toImageメソッドの別のオーバーロードが公開され、現在はGraphics2Dクラスのインスタンスを受け入れて、[ワークシートをグラフィックコンテキストにレンダリング](/cells/ja/java/render-worksheet-to-graphic-context/)することができます。新しく追加されたメソッドのシグネチャは次のとおりです。
 
-- SheetRender.toImage(int pageIndex, Graphics2D グラフィック)
+- SheetRender.toImage(int pageIndex, Graphics2D graphic)
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -62,14 +63,14 @@ File outputfile = new File("test.png");
 ImageIO.write(image, "png", outputfile);
 
 {{< /highlight >}}
-### **メソッド PivoTable.getCellByDisplayName が追加されました**
-Aspose.Cells for Java 8.5.2 は PivotTable.getCellByDisplayName メソッドを公開しました。[PivotField の名前で Cell オブジェクトを取得します](/cells/ja/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/).このメソッドは、ピボットフィールド ヘッダーを強調表示または書式設定する場合に役立ちます。
+### **PivotTable.getCellByDisplayNameメソッドを追加**
+Aspose.Cells for Java 8.5.2では、PivotTable.getCellByDisplayNameメソッドが公開され、[PivotFieldの名前によってCellオブジェクトを取得](/cells/ja/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/)することができます。このメソッドは、PivotFieldヘッダーの強調表示や書式設定を行いたい場合に役立ちます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -106,35 +107,35 @@ pivotTable.format(cell.getRow(), cell.getColumn(), style);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **プロパティ SaveOptions.MergeAreas が追加されました**
-Aspose.Cells for Java 8.5.2 では、ブール型の値を受け入れることができる SaveOptions.MergeAreas プロパティが公開されました。デフォルト値は false ですが、true に設定すると、Aspose.Cells for Java API はファイルを保存する前に個々の CellArea をマージしようとします。
+### **SaveOptions.MergeAreasプロパティを追加**
+Aspose.Cells for Java 8.5.2では、SaveOptions.MergeAreasプロパティが公開され、Boolean型の値を受け入れるようになりました。デフォルト値はfalseですが、trueに設定すると、Aspose.Cells for Java APIはファイルを保存する前に個々のCellAreaをマージしようとします。
 
 {{% alert color="primary" %}} 
 
-スプレッドシートに検証が適用された個々のセルが多すぎる場合、結果のスプレッドシートが破損する可能性があります。考えられる解決策の 1 つは、同一の検証規則でセルを結合することです。または、SaveOptions.MergeAreas プロパティを使用して、保存操作の前に CellAreas を自動結合するように API に指示できます。
+スプレッドシートに検証が適用された個々のセルが多すぎる場合、生成されるスプレッドシートが壊れる可能性があります。類似する検証ルールを持つセルをマージする一つの解決策、またはSaveOptions.MergeAreasプロパティを使用して、APIに保存操作前に自動でCellAreasをマージするよう指示することができます。
 
 {{% /alert %}} 
-### **プロパティ Geometry.ShapeAdjustValues が追加されました**
-v8.5.2 のリリースにより、Aspose.Cells API は Geometry.getShapeAdjustValues メソッドを公開しました。[さまざまな形状の調整ポイントにアクセスして変更する](/cells/ja/java/change-adjustment-values-of-the-shape/).
+### **Geometry.ShapeAdjustValuesプロパティを追加**
+v8.5.2のリリースに伴い、Aspose.Cells APIはGeometry.getShapeAdjustValuesメソッドを公開し、[異なる形状の調整ポイントにアクセスして変更を加える](/cells/ja/java/change-adjustment-values-of-the-shape/)ことができるようになりました。
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel インターフェイスでは、調整ポイントが黄色のひし形ノードとして表示されます。
+Microsoft Excelのインターフェイスでは、調整ポイントが黄色のダイヤモンドノードとして表示されます。
 
 {{% /alert %}} 
 
-例えば、
+たとえば、 
 
-1. 角丸長方形には、円弧を変更するための調整があります
-1. 三角形には、ポイントの位置を変更するための調整があります
-1. 台形は、トップの幅を変更する調整があります
-1. 矢印には、頭と尾の形状を変更するための 2 つの調整があります。
+1. 丸角長方形には、角を変更するための調整があります
+2. 三角形には、ポイントの位置を変更するための調整があります
+3. 台形には、上部の幅を変更するための調整があります
+4. 矢印には、ヘッドとテールの形状を変更するための2つの調整があります
 
-これが最も単純な使用シナリオです。
+以下は最もシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -165,11 +166,11 @@ shape3.getGeometry().getShapeAdjustValues().get(0).setValue(0.5d);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **列挙型フィールド ConsolidationFunction.DISTINCT_COUNT が追加されました**
-Aspose.Cells for Java 8.5.2 では、ピボットテーブルの DataField に Distinct Count 統合関数を適用するために使用できる ConsolidationFunction.DISTINCT_COUNT フィールドが公開されました。
+### **列挙フィールド ConsolidationFunction.DISTINCT_COUNT が追加されました**
+Aspose.Cells for Java 8.5.2 では、ConsolidationFunction.DISTINCT_COUNT フィールドが公開されており、PivotTable の DataField に対して Distinct Count 結合関数を適用できます。
 
 {{% alert color="primary" %}} 
 
-Distinct Count 連結機能は、Microsoft Excel 2013 のみでサポートされています。
+Distinct Count 結合関数は、Microsoft Excel 2013 でのみサポートされています。
 
 {{% /alert %}}

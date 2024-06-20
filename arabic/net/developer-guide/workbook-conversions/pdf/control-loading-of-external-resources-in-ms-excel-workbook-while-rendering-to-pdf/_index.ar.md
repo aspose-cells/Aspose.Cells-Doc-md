@@ -1,19 +1,20 @@
-﻿---
-title: التحكم في تحميل الموارد الخارجية في مصنف MS Excel أثناء التقديم إلى PDF
+---
+title: السيطرة على تحميل الموارد الخارجية في سجل Excel لتحويلها إلى ملف PDF
 type: docs
 weight: 40
 url: /ar/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-قد يحتوي ملف Excel الخاص بك على موارد خارجية مثل الصور أو الكائنات المرتبطة. عند تحويل ملف Excel إلى PDF ، يقوم Aspose.Cells باسترداد هذه الموارد الخارجية وتقديمها إلى PDF. لكن في بعض الأحيان ، لا تريد تحميل هذه الموارد الخارجية وأكثر من ذلك ، فأنت تريد التلاعب بها. يمكنك القيام بذلك باستخدام[**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider)الذي ينفذ[**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)واجهه المستخدم.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **التحكم في تحميل الموارد الخارجية في مصنف MS Excel أثناء التقديم إلى PDF**
+قد يحتوي ملف Excel الخاص بك على موارد خارجية مثل الصور المرتبطة أو الكائنات. عند تحويل ملف Excel الخاص بك إلى PDF، يسترد Aspose.Cells هذه الموارد الخارجية ويقوم بتحويلها إلى PDF. ولكن في بعض الأحيان، قد لا ترغب في تحميل هذه الموارد الخارجية وأكثر من ذلك، قد ترغب في التلاعب بها. يمكنك القيام بذلك باستخدام [**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) الذي ينفذ واجهة [**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider).
 
- يشرح نموذج التعليمات البرمجية التالي كيفية الاستفادة من[**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) للتحكم في تحميل الموارد الخارجية والتلاعب بها. رجاء تاكد من[نموذج لملف Excel](50528322.xlsx) المستخدمة داخل الكود و[الإخراج PDF](50528325.pdf) التي تم إنشاؤها بواسطة الكود. ال[لقطة شاشة](50528326.png) يوضح كيف[الصورة الخارجية القديمة](50528324.png) في نموذج ملف Excel تم استبداله بامتداد[صورة جديدة](50528323.png) في الإخراج PDF.
+## **التحكم في تحميل الموارد الخارجية في دفتر العمل في MS Excel أثناء تحويله إلى PDF**
 
-![ما يجب القيام به: image_بديل_نص](control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf_1.png)
+توضح الشفرة النموذجية التالية كيفية استخدام [**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) للتحكم في تحميل الموارد الخارجية والتلاعب بها. يرجى التحقق من [ملف Excel النموذجي](50528322.xlsx) المستخدم داخل الشفرة و [ملف PDF الناتج](50528325.pdf) الذي تم إنشاؤه بواسطة الشفرة. يوضح ال [اللقطة الشاشة](50528326.png) كيف تم استبدال [الصورة الخارجية القديمة](50528324.png) في ملف Excel النموذجي بـ [صورة جديدة](50528323.png) في ملف PDF الناتج.
 
-## **عينة من الرموز**
+![todo:image_alt_text](control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-ControlLoadingOfExternalResourcesInExcelToPDF-1.cs" >}}

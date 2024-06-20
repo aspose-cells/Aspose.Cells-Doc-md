@@ -1,25 +1,28 @@
-﻿---
-title: Få åtkomst till och ändra värdet på en Cell
+---
+title: Åtkomst och ändring av värdet på en cell
 type: docs
 weight: 20
-url: /sv/net/accessing-and-modifying-the-value-of-a-cell/
+url: /sv/net/aspose-cells-griddesktop/accessing-and-modifying-the-value-of-a-cell/
+keywords: GridDesktop,cell,modify cell,get cell,modify cell value,get cell value
+description: Denna artikel introducerar hur man får och modifierar cellvärdet i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-vårt tidigare ämne har vi diskuterat om åtkomst till celler i ett kalkylblad. I det här ämnet kommer vi helt enkelt att utöka det ämnet för att visa utvecklare att hur de kan komma åt och ändra värdena på celler med hjälp av API av Aspose.Cells.GridDesktop.
+I vårt tidigare ämne har vi diskuterat om åtkomst till celler i ett arbetsblad. I det här ämnet kommer vi helt enkelt att utöka det ämnet för att visa utvecklare hur de kan få åtkomst till och ändra värdena på celler med hjälp av Aspose.Cells.GridDesktops API.
 
 {{% /alert %}} 
-## **Få åtkomst till och ändra Cell Värde med Aspose.Cells.GridDesktop**
- Innan vi kommer åt och ändrar värdet på en cell, bör vi veta hur man kommer åt celler. Det finns tre sätt att komma åt celler i ett kalkylblad. För mer information om dessa tre tillvägagångssätt, vänligen[Åtkomst till Cells i ett arbetsblad.](/cells/sv/net/accessing-cells-in-a-worksheet/)
+## **Åtkomst och ändring av cellvärde med hjälp av Aspose.Cells.GridDesktop**
+Innan du får åtkomst till och ändrar värdet på en cell bör vi veta hur man får åtkomst till celler. Det finns tre tillvägagångssätt för att få åtkomst till celler i ett arbetsblad. För mer information om dessa tre tillvägagångssätt, vänligen [Åtkomst till celler i ett arbetsblad.](/cells/sv/net/accessing-cells-in-a-worksheet/)
 
-Varje cell har en egenskap som heter Value . Så när en cell väl har nåtts kan utvecklare komma åt och ändra innehållet i egenskapen Value för att komma åt och ändra värdet på en cell.
+Varje cell har en egenskap med namnet Värde. Så när en cell har fått åtkomst kan utvecklare få åtkomst till och ändra innehållet i Värde-egenskapen för att få åtkomst till och ändra värdet på en cell.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-AccessAndModifyCells-UsingValue.cs" >}}
 
 
-**VIKTIG:**Att använda Value-egenskapen för en cell för att ändra dess värde är ett bra tillvägagångssätt för att ställa in värdet för en enstaka eller få celler. Om du behöver ställa in värdena för många celler så skulle prestandan för detta tillvägagångssätt inte vara bra. Så, för att ställa in värdena för många celler, bör du använda**SetCellValue** cellens metod för att förbättra prestandan för dina applikationer. En modifierad version av ovanstående kodavsnitt som använder**SetCellValue** metoden visas nedan.
+**Viktigt:** Att använda cellens Värde-egenskap för att ändra dess värde är ett bra tillvägagångssätt för att ställa in värdet på en eller ett fåtal celler. Om du behöver ställa in värdena på många celler kommer prestandan för detta tillvägagångssätt inte att vara bra. Så för att ställa in värdena på många celler bör du använda cellens **SetCellValue**-metod för att förbättra prestandan i dina applikationer. En modifierad version av ovanstående kodsnutt med **SetCellValue**-metoden visas nedan.
 
 
 

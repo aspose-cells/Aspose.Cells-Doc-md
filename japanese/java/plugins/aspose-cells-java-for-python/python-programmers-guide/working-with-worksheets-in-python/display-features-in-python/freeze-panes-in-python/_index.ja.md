@@ -1,38 +1,39 @@
-﻿---
-title: Python でペインをフリーズ
+---
+title: Pythonでウィンドウを固定する
 type: docs
 weight: 40
 url: /ja/java/freeze-panes-in-python/
 ---
-## **Aspose.Cells - フリーズペイン**
-を使用してスプレッドシート ドキュメントのペインを固定するには**Aspose.Cells Java for Python**、単に呼び出す**FreezePanes**モジュール。
 
-**Python コード**
+## **Aspose.Cells - ペインを固定する**
+**Aspose.Cells Java for Python**を使用してスプレッドシートドキュメントのウィンドウを固定するには、**FreezePanes**モジュールを呼び出すだけです。
 
-{{< highlight "java" >}}
+**Pythonコード**
+
+{{< highlight java >}}
 
  workbook = self.Workbook(self.dataDir + "Book1.xls")
 
-# Accessing the first worksheet in the Excel file
+#Accessing the first worksheet in the Excel file
 
 worksheets = workbook.getWorksheets()
 
 worksheet = worksheets.get(0)
 
-# Applying freeze panes settings
+#Applying freeze panes settings
 
 worksheet.freezePanes(3,2,3,2)
 
-# Saving the modified Excel file in default format
+#Saving the modified Excel file in default format
 
 workbook.save(self.dataDir + "book.out.xls")
 
-# Print Message
+#Print Message
 
 print "Panes freeze successfull."
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**Hello World (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから**Hello World (Aspose.Cells)**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

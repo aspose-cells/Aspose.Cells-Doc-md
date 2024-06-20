@@ -1,16 +1,17 @@
-﻿---
-title: VSTO および Aspose.Cells でブックを保護および保護解除する
+---
+title: VSTOおよびAspose.Cellsでワークブックを保護および解除する
 type: docs
 weight: 200
 url: /ja/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/
 ---
-既存の Microsoft Excel ファイルを開くには、ワークブックを構造と Windows 属性で保護し、ファイルを保存します。
 
-以下は、ワークブックを保護する方法を示す VSTO (C#) および Aspose.Cells for .NET (C#) の並列コード スニペットです。
+既存のMicrosoft Excelファイルを開き、ブックの構造とウィンドウ属性でファイルを保護し、ファイルを保存します。
+
+以下は、VSTO（C＃）および Aspose.Cells for .NET（C＃）の並列コードスニペットで、ワークブックを保護する方法を示しています。
 ## **VSTO**
-**ブックの保護**
+**ワークブックの保護**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -52,9 +53,9 @@ excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
 {{< /highlight >}}
 
-**ブックの保護を解除しています**
+**ワークブックの解除**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   //Unprotect the workbook specifying its password.
 
@@ -62,9 +63,9 @@ excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-**ブックの保護**
+**ワークブックの保護**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the template excel file path.
 
@@ -86,9 +87,9 @@ excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
 {{< /highlight >}}
 
-**ブックの保護を解除しています**
+**ワークブックの解除**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 
@@ -96,6 +97,6 @@ excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Protecting.and.Unprotecting.Workbooks.Aspose.Cells.zip)
-- [ソースフォージ](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\)。ジップ）
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Protecting.and.Unprotecting.Workbooks.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\).zip)

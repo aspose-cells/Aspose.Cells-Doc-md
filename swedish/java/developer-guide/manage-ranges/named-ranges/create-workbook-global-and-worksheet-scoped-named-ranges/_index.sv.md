@@ -1,26 +1,27 @@
-﻿---
-title: Skapa arbetsbok (global) och kalkylblad med omfattning av namngivna intervall
+---
+title: Skapa arbetsbok (Global) och arbetsbladsscoped namngivna områden
 type: docs
 weight: 10
 url: /sv/java/create-workbook-global-and-worksheet-scoped-named-ranges/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel tillåter användare att definiera namngivna intervall med två olika omfång: arbetsbok (även känd som globalt omfång) och kalkylblad.
+Microsoft Excel tillåter användare att definiera namngivna områden med två olika omfång: arbetsbok (också känt som globalt omfång) och arbetsblad.
 
-- Namngivna intervall med ett arbetsboksomfång kan nås från vilket kalkylblad som helst i den arbetsboken genom att helt enkelt använda dess namn.
-- Namngivna intervall med kalkylbladsomfattningar nås med referensen till det särskilda kalkylblad där det skapades.
+- Namngivna områden med ett arbetsboksomfång kan kommas åt från vilket arbetsblad som helst inom den arbetsboken genom att helt enkelt använda dess namn.
+- Arbetsbladscoped namngivna områden kommas åt med referensen till det specifika arbetsbladet där det skapades.
 
-Aspose.Cells ger samma funktionalitet som Microsoft Excel för att lägga till arbetsbok och kalkylblad med omfattning av namngivna intervall. När du skapar ett kalkylblad med scoped named range, bör kalkylbladsreferensen användas i det namngivna intervallet för att specificera det som ett kalkylblad scoped namngivet intervall.
+Aspose.Cells tillhandahåller samma funktionalitet som Microsoft Excel för att lägga till arbetsbok och arbetsbladscoped namngivna områden. Vid skapande av ett arbetsbladscoped namngivet område bör arbetsbladsreferensen användas i det namngivna området för att specificera det som ett arbetsbladscoped namngivet område.
 
 {{% /alert %}}
 
- Följande kodexempel visar hur du skapar arbetsbok- och kalkylbladsomfångade namnintervall med hjälp av[**Räckvidd**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) klass.
+Följande kodexempel visar hur man skapar arbetsbok och arbetsbladscoped namngivna områden med hjälp av [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)-klassen.
 
-## **Lägga till ett namngivet område med arbetsbokens omfattning**
+## **Lägg till ett namngivet område med arbetsbokomfång**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorkbookScope-AddNamedRangeWithWorkbookScope.java" >}}
 
-## **Lägga till ett namngivet område med arbetsbladsomfång**
+## **Lägg till ett namngivet område med arbetsbladomfång**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorksheetScope-AddNamedRangeWithWorkbookScope.java" >}}

@@ -1,15 +1,16 @@
-﻿---
-title: عرض وإخفاء علامات تبويب المصنف في xlsx4j
+---
+title: عرض وإخفاء علامات التبويب للدفتر في xlsx4j
 type: docs
 weight: 40
 url: /ar/java/display-and-hide-tabs-of-workbook-in-xlsx4j/
 ---
-## **Aspose.Cells - عرض وإخفاء علامات تبويب المصنف**
-يوفر Aspose.Cells فئة ، مصنف ، يمثل ملف إكسل Microsoft. توفر فئة المصنف مجموعة كبيرة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية علامات التبويب في ملف Excel ، يمكن للمطورين استخدام طريقة setShowTabs لفئة المصنف.
+
+## **Aspose.Cells - عرض وإخفاء علامات التبويب للدفتر**
+توفر Aspose.Cells فئة Workbook التي تمثل ملف Microsoft Excel. توفر فئة Workbook مجموعة واسعة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية علامات التبويب في ملف Excel، يمكن للمطورين استخدام أسلوب setShowTabs من فئة Workbook.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -34,7 +35,7 @@ workbook.getSettings().setShowTabs(true);
 workbook.save(dataDir + "AsposeDisplayTabs.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/displayandhidetabs/AsposeDisplayAndHideTabs.java)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/displayandhidetabs/AsposeDisplayAndHideTabs.java)

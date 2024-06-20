@@ -1,16 +1,19 @@
-﻿---
-title: Copie y pegue filas en GridDesktop dentro del Control y entre el Control y Excel
+---
+title: Copiar y Pegar Filas en GridDesktop dentro del Control y entre el Control y Excel
 type: docs
 weight: 70
-url: /es/net/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+url: /es/net/aspose-cells-griddesktop/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+keywords: GridDesktop, copiar, pegar
+description: Este artículo presenta la función de copiar y pegar en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Si desea habilitar copiar y pegar filas en GridDesktop dentro del control o entre el control y Excel, establezca la propiedad GridDesktop.ClipboardCopyPaste en verdadero. Puede establecer esta propiedad en tiempo de diseño o en el código. El valor por defecto de esta propiedad es "falso". Actualmente, solo puede copiar y pegar valores de celda y no copiará ninguna otra configuración de la celda como formato, estilo de borde, etc.
+Si desea habilitar la copia y pegado de filas en GridDesktop dentro del control o entre el control y Excel, entonces configure la propiedad GridDesktop.ClipboardCopyPaste en true. Puede configurar esta propiedad en tiempo de diseño o en el código. El valor predeterminado de esta propiedad es falso. Actualmente, solo puede copiar y pegar valores de la celda y no copiará ninguna otra configuración de la celda como formato, estilo de borde, etc.
 
 {{% /alert %}} 
-## **Configuración de la propiedad GridDesktop.ClipboardCopyPaste en modo de diseño y tiempo de ejecución**
- El siguiente código de ejemplo establece la propiedad GridDesktop.ClipboardCopyPaste en**Tiempo de ejecución**.
+## **Configuración de la propiedad GridDesktop.ClipboardCopyPaste en Modo de Diseño y Tiempo de Ejecución**
+El siguiente código de muestra configura la propiedad GridDesktop.ClipboardCopyPaste en **Tiempo de Ejecución**.
 
 
 

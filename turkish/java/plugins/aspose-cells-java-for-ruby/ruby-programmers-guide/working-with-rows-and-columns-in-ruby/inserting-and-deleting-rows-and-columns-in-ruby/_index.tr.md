@@ -1,16 +1,17 @@
-﻿---
-title: Ruby'de Satır ve Sütun Ekleme ve Silme
+---
+title: Ruby de Sıraları ve Sütunları Ekleme ve Silme
 type: docs
 weight: 60
 url: /tr/java/inserting-and-deleting-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Satırları/Sütunları Yönetme**
+
+## **Aspose.Cells - Sıraları/Sütunları Yönetme**
 ### **Satır Ekleme**
-Cells koleksiyonunun insertRows yöntemini çağırarak herhangi bir konuma bir satır ekleyin. insertRows yöntemi, ilk argüman olarak yeni satırın ekleneceği satırın indeksini, ikinci argüman olarak eklenecek satır sayısını alır.
+Yeni bir satırın nerede ekleneceğini belirlemek için Cells koleksiyonunun insertRows yöntemini çağırarak herhangi bir konuma bir satır ekleyin. InsertRows yöntemi, eklenen yeni satırın konumu için endeks olarak alır ve eklenmesi gereken satır sayısını ikinci bir argüman olarak alır.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def insert_row()
 
@@ -39,15 +40,15 @@ Cells koleksiyonunun insertRows yöntemini çağırarak herhangi bir konuma bir 
 end   
 
 {{< /highlight >}}
-### **Birden Çok Satır Ekleme**
-Çalışma sayfasına birden çok satır eklemek için Cells koleksiyonunun insertRows yöntemini çağırın. InsertRows yöntemi iki parametre alır:
+### **Birden Fazla Satır Ekleme**
+Çalışma sayfasına birden fazla satır eklemek için Cells koleksiyonunun insertRows yöntemini çağırın. insertRows yöntemi iki parametre alır:
 
-- Satır dizini, yeni satırların ekleneceği satırın dizini.
+- Satır indeksi, yeni satırların ekleneceği satırın indeksi.
 - Satır sayısı, eklenmesi gereken toplam satır sayısı.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def insert_multiple_rows()
 
@@ -76,15 +77,15 @@ end   
 end
 
 {{< /highlight >}}
-### **Satır Silme**
-Herhangi bir konumdaki bir satırı silmek için Cells koleksiyonunun deleteRows yöntemini çağırın. DeleteRows yöntemi iki parametre alır:
+### **Bir Satırı Silme**
+Herhangi bir konumda bir satırı silmek için Cells koleksiyonunun deleteRows yöntemini çağırın. DeleteRows yöntemi iki parametre alır:
 
-- Satır dizini, satırların silineceği satırın dizini.
-- Satır sayısı, silinmesi gereken toplam satır sayısı.
+- Satır endeksi, satırların silineceği başlangıç satırının endeksi.
+- Satır sayısı. Silinmesi gereken toplam satır sayısı.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def delete_row()
 
@@ -111,15 +112,15 @@ Herhangi bir konumdaki bir satırı silmek için Cells koleksiyonunun deleteRows
 end
 
 {{< /highlight >}}
-### **Birden Çok Satırı Silme**
-Bir çalışma sayfasından birden çok satırı silmek için Cells koleksiyonunun deleteRows yöntemini çağırın. DeleteRows yöntemi iki parametre alır:
+### **Birden Fazla Satırı Silme**
+Çalışma sayfasından birden fazla satırı silmek için Cells koleksiyonunun deleteRows yöntemini çağırın. DeleteRows yöntemi iki parametre alır:
 
-- Satır dizini, satırların silineceği satırın dizini.
-- Satır sayısı, silinmesi gereken toplam satır sayısı.
+- Satır endeksi, satırların silineceği başlangıç satırının endeksi.
+- Satır sayısı. Silinmesi gereken toplam satır sayısı.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def delete_multiple_rows()
 
@@ -148,15 +149,15 @@ Bir çalışma sayfasından birden çok satırı silmek için Cells koleksiyonun
 end 
 
 {{< /highlight >}}
-### **Sütun Ekleme**
-Geliştiriciler ayrıca Cells koleksiyonunun insertColumns yöntemini çağırarak çalışma sayfasına herhangi bir konumda bir sütun ekleyebilir. insertColumns yöntemi iki parametre alır:
+### **Bir Sütun Ekleme**
+Geliştiriciler, Cells koleksiyonunun insertColumns metodunu çağırarak çalışma sayfasına herhangi bir konuma bir sütun da ekleyebilirler. insertColumns metodu iki parametre alır:
 
-- Sütun dizini, sütunun ekleneceği sütunun dizini
-- Sütun sayısı, eklenmesi gereken toplam sütun sayısı
+- Sütun endeksi, sütunun ekleneceği sütunun endeksi
+- Sütun sayısı, eklenecek toplam sütun sayısı
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def insert_column()
 
@@ -185,16 +186,16 @@ Geliştiriciler ayrıca Cells koleksiyonunun insertColumns yöntemini çağırar
 end  
 
 {{< /highlight >}}
-### **Sütun Silme**
-Herhangi bir konumdaki çalışma sayfasından bir sütunu silmek için Cells koleksiyonunun deleteColumns yöntemini çağırın. deleteColumns yöntemi aşağıdaki parametreleri alır:
+### **Bir Sütunu Silme**
+Herhangi bir konumdan çalışma sayfasından bir sütun silmek için Cells koleksiyonunun deleteColumns metodunu çağırın. deleteColumns metodu aşağıdaki parametreleri alır:
 
-- Sütun dizini, sütunun silineceği sütunun dizini.
-- Sütun sayısı, silinmesi gereken toplam sütun sayısı.
-- Hücreleri kaydır, silme işleminden sonra hücrelerin sola kaydırılıp kaydırılmayacağını gösteren Boolean parametresi.
+- Sütun dizini, sütunun nereden silineceğinin dizini
+- Sütun sayısı, silinmesi gereken toplam sütun sayısı
+- Hücreleri kaydır, silme işleminden sonra hücreleri sola kaydırmak için Boolean parametre
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def delete_column()
 
@@ -224,6 +225,6 @@ end   
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Satırları/Sütunları Yönetme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Yönetim Satırları/Sütunları (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

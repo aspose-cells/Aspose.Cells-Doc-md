@@ -1,36 +1,37 @@
 ---
-title: Pivot Tabloya hesaplanan alanı ekleme
+title: Pivot Tablosunda Hesaplanmış Alan Ekleme
 type: docs
 weight: 130
 url: /tr/python-net/add-calculated-field-in-pivot-table/
-description: Aspose.Cells for Python via .NET ile pivot tabloya hesaplanan alan nasıl eklenir?
-keywords: Adding a calculated field in pivot table.
+description: Python için Aspose.Cells ile pivot tablosuna hesaplanmış bir alan eklemek için nasıl yapılır via .NET.
+keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, Python Excel Kütüphanesi kullanarak pivot tablosunda hesaplanmış alan eklemek.
 ---
-##  **Olası Kullanım Senaryoları**
-Bilinen verilere dayalı bir pivot tablo oluşturduğunuzda, içindeki verilerin istediğiniz gibi olmadığını görürsünüz. İstediğiniz veriler bu orijinal verilerin birleşimidir. Örneğin, verileri istemeden önce orijinal verileri toplamanız, çıkarmanız, çarpmanız ve bölmeniz gerekir. Şu anda hesaplanmış bir alan oluşturmanız ve hesaplama için ilgili formülü ayarlamanız gerekir. Daha sonra hesaplanan alanda bazı istatistikler ve diğer işlemleri gerçekleştirin.
 
-##  **Excel'deki Pivot Tabloya hesaplanan alanı ekleme**
-Hesaplanan alanı Excel'deki PivotTable'a ekleyin ve şu adımları izleyin:
+## **Olası Kullanım Senaryoları**
+Bilgisine sahip olduğunuz verilere dayalı olarak bir pivot tablosu oluşturduğunuzda, içindeki verilerin istediğiniz gibi olmadığını fark edersiniz. İstediğiniz veri, bu orijinal verilerin bir kombinasyonudur. Örneğin, veriden önce verilerin çıkarılması, çarpılması ve bölünmesi gerekebilir. Bu durumda, bir hesaplanmış alan oluşturmanız ve hesaplama için ilgili formülü ayarlamanız gerekir. Daha sonra hesaplanmış alanda bazı istatistikler ve diğer işlemleri gerçekleştirin. 
 
-1.  Hesaplanan alanı eklemek istediğiniz PivotTable'ı seçin.
-2. Şeritteki PivotTable Analizi sekmesine gidin.
-3. "Alanlar, Öğeler ve Kümeler"e tıklayın ve ardından açılır menüden "Hesaplanan Alan"ı seçin.
-4. "Ad" alanına hesaplanan alan için bir ad girin.
-5. "Formül" alanına, uygun PivotTable alan adlarını ve matematik işleçlerini kullanarak gerçekleştirmek istediğiniz hesaplamanın formülünü girin.
+## **Excel'de Pivot Tablosuna Hesaplanmış Alan Eklemek**
+Excel'de bir PivotTable'a hesaplanmış bir alan eklemek için şu adımları izleyin:
+
+1. Bir hesaplanmış alan eklemek istediğiniz PivotTable'ı seçin. 
+2. Kuruluş sekmesine gidin ve üzerinde PivotTable Analizi olan sekmeyi seçin.
+3. "Alanlar, Öğeler ve Kümeler" üzerine tıklayın ve ardından açılır menüden "Hesaplanmış Alan"ı seçin.
+4. "Ad" alanına hesaplanmış alan için bir ad girin.
+5. "Formül" alanına, kullanmak istediğiniz PivotTable alan adları ve matematiksel operatörleri kullanarak gerçekleştirmek istediğiniz hesaplama için formülü girin. 
 <br>
 <img src="1.png" width=80% />
-6. Hesaplanan alanı oluşturmak için "tamam"a tıklayın.
-7. Hesaplanan yeni alan, Değerler bölümünün altındaki PivotTable Alan Listesi'nde görünecektir.
-8. Hesaplanan değerleri görüntülemek için hesaplanan alanı PivotTable'ın Değerler bölümüne sürükleyin.
+6. Hesaplanmış alan oluşturmak için "tamam"a tıklayın.
+7. Yeni hesaplanmış alan, Değerler bölümü altında PivotTable Alan Listesinde görünecektir.
+8. Hesaplanmış alanı PivotTable'ın Değerler bölümüne sürükleyerek hesaplanmış değerleri görüntüleyin.
 <br>
 <img src="2.png" width=80% />
 
-##  **C# kullanarak Pivot Tabloya hesaplanan alanı ekleyin**
-Hesaplanan alanı Aspose.Cells for Python via .NET numaralı telefonu kullanarak Excel dosyasına ekleyin. Lütfen aşağıdaki örnek koda bakın. Örnek kodu çalıştırdıktan sonra çalışma sayfasına hesaplanan alanı içeren bir pivot tablo eklenir.
-1.  Orijinal verileri ayarlayın ve bir pivot tablo oluşturun.
-2. Hesaplanan alanı pivot tablodaki mevcut PivotField'a göre oluşturun.
- 3. Hesaplanan alanı veri alanına ekleyin.
- 4. Son olarak çalışma kitabını kaydeder.[çıkış XLSX](out.xlsx) biçim.
+## **Python İçin Aspose.Cells Excel Kütüphanesi Kullanarak Pivot Tablosuna Hesaplanmış Alan Ekleme**
+Aspose.Cells for Python via .NET kullanarak Excel dosyasına hesaplanmış alan ekleyin. Lütfen aşağıdaki örnek kodu inceleyin. Örnek kodu yürüttükten sonra, bir hesaplanmış alanın eklendiği bir pivot tablosu oluşturulur.
+1. Orijinal verileri ayarlayın ve bir pivot tablosu oluşturun. 
+2. Mevcut PivotField'a göre hesaplanmış alanı oluşturun.
+3. Hesaplanmış alanı veri alanına ekleyin. 
+4. Son olarak, çalışma kitabını [çıktı XLSX](out.xlsx) formatında kaydeder. 
 
-##  **Basit kod**
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-Add-calculated-field-in-PivotTable.py" >}}

@@ -1,20 +1,21 @@
 ---
-title: Pivot Bağlantı Ekle
+title: Pivot Bağlantısı Ekleme
 type: docs
 weight: 30
 url: /tr/python-net/add-pivot-connection/
-description: Aspose.Cells for Python via .NET kitaplığıyla pivot bağlantısını nasıl ekleyeceğinizi öğrenin.
-keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Aspose.Cells for Python via .NET ile Pivot bağlantısı nasıl eklenir öğrenin.
+keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, Python Excel olmadan Pivot Bağlantısını Ekle, Python Excel olmadan Dilimleyici ve Pivot Tablo Eşleştirme, Aspose.Cells for Python excel kütüphanesini kullanarak Pivot Bağlantısı ekleme.
 ---
-##  **Olası Kullanım Senaryoları**
 
-Excel'de dilimleyici ile pivot tabloyu ilişkilendirmek istiyorsanız dilimleyiciye sağ tıklayıp "Bağlantıları Bildir..." öğesini seçmeniz gerekir. Seçenek listesinde onay kutusu üzerinde işlem yapabilirsiniz. Benzer şekilde, dilimleyiciyi ve pivot tabloyu programlı olarak Aspose.Cells for Python via .NET API kullanarak ilişkilendirmek istiyorsanız lütfen[**Slicer.add_pivot_connection(pivot)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable)yöntem. Dilimleyiciyi ve pivot tabloyu ilişkilendirecektir.
+## **Olası Kullanım Senaryoları**
 
-##  **Dilimleyiciyi ve PivotTable'ı İlişkilendirin**
+Excel'de dilimleyiciyi ve pivot tabloyu ilişkilendirmek istiyorsanız, dilimleyiciye sağ tıklayın ve "Rapor Bağlantıları..." öğesini seçin. Seçenek listesinde onay kutusu üzerinde işlem yapabilirsiniz. Benzer şekilde, dilimleyici ve pivot tablosunu Aspose.Cells for Python via .NET API kullanarak programlı olarak ilişkilendirmek istiyorsanız, lütfen [**Slicer.add_pivot_connection(pivot)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable) yöntemini kullanın. Bu, dilimleyiciyi ve pivot tabloyu ilişkilendirecektir.
 
-Aşağıdaki örnek kod,[örnek Excel dosyası](add-pivot-connection.xlsx)mevcut bir dilimleyiciyi içerir. Dilimleyiciye erişir ve ardından Dilimleyici ile PivotTable'ı ilişkilendirir. Son olarak çalışma kitabını şu şekilde kaydeder:[Excel dosyasının çıktısı](add-pivot-connection-out.xlsx). 
+## **Aspose.Cells for Python Excel Kütüphanesi Kullanarak Dilimleyici ve Pivot Tablosunu Nasıl Eşleştirilir**
+
+Aşağıdaki örnek kod önceden var olan bir dilimleyici içeren [örnek Excel dosyasını](add-pivot-connection.xlsx) yükler. Slicer'a erişir ve sonra Slicer'ı ve PivotTabloyu ilişkilendirir. Son olarak, çalışma kitabını [çıkış Excel dosyası](add-pivot-connection-out.xlsx) olarak kaydeder. 
 
 
-##  **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-Adding-Pivot-Connection.py" >}}

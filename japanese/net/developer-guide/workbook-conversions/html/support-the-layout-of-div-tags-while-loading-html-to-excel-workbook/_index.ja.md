@@ -1,16 +1,17 @@
-﻿---
-title: HTML を Excel ワークブックにロードする際の DIV タグのレイアウトをサポート
+---
+title: HTMLをエクセルブックオブジェクトにロードする際にDIVタグのレイアウトをサポート
 type: docs
 weight: 50
 url: /ja/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
 ---
+
 {{% alert color="primary" %}} 
 
-通常、HTML を Excel ワークブック オブジェクトにロードする際、div タグのレイアウトは無視されます。ただし、div タグのレイアウトを無視したくない場合は、[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag)プロパティへ**真実** .このプロパティのデフォルト値は**間違い**.
+通常、divタグのレイアウトはExcelブックオブジェクトにHTMLをロードする際に無視されます。ただし、divタグのレイアウトが無視されないようにしたい場合は、[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag)プロパティを**true**に設定してください。このプロパティの既定値は**false**です。
 
 {{% /alert %}} 
 
-次のサンプル コードは、[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag)財産。をダウンロードしてください[Aspose ロゴ](5115218.png)入力 HTML と[出力エクセルファイル](5115220.xlsx)コードによって生成されます。
+次のサンプルコードは、[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) プロパティの使用法を示しています。入力HTML内で使用されたAsposeロゴ(5115218.png)およびコードによって生成された出力エクセルファイル(5115220.xlsx)をダウンロードしてください。
 
 
 

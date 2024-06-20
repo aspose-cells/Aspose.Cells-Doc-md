@@ -1,21 +1,22 @@
-﻿---
-title: Bir Aralık İçin Sınır Çizgilerini Kullanarak Tablo Oluşturma
+---
+title: Bir Veri Aralığı için Kenar Çizgileri Kullanarak Tablo Oluşturma
 type: docs
 weight: 50
 url: /tr/java/create-table-by-using-border-lines-for-a-range/
-description: Sınır çizgilerini kullanarak aralıklı bir tablo nasıl oluşturulur. Aspose.Cells for Java, bir aralığa kenarlık eklemek için kullanılabilecek, kullanımı kolay bir API sağlar.
-keywords: create table, range to table, range to table excel, excel range to table, range to table with borders, how to create table from range, convert range to table, excel convert range to table, excel create table, range to table java 
+description: Kenar çizgilerini kullanarak bir veri aralığına tablo oluşturmanın nasıl yapıldığını gösterir. Aspose.Cells for Java, bir aralığa kenarlıklar eklemek için kullanılabilecek kullanımı kolay bir API sağlar.
+keywords: tablo oluştur, aralık tabloya, aralık tabloya excel, excel aralık tabloya, kenar çizgileri olan aralıktan tabloya, aralıktan tablo oluşturma, aralığı tabloya dönüştürme, excel aralığı tabloya dönüştürme, excel tablo oluşturma, aralıktan tabloya java 
 ---
+
 {{% alert color="primary" %}}
 
- Bazen, bir tablo için sınır çizgileri ekleyerek bir tablo oluşturmak istersiniz.**Menzil**/**hücre alanı** sahip olduğunuz hücrelerin adresine göre. Kullanabilirsiniz[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) bir hücre aralığı oluşturma yöntemi. bu[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) yöntemi bir döndürür[**Menzil**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) nesne. oluşturabilirsiniz[**stil**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) nesne ve buna göre kenarlık (üst, sol, alt, sağ) seçeneklerini belirtin. Daha sonra, hücrelerini alabilirsiniz.[**Menzil**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)ve istediğiniz biçimlendirmeyi hücrelere uygulayın.
+Bazen, sahip olduğunuz hücrelerin adresine dayalı olarak bir **Aralık**/**Hücre Alanı** içinden kenar çizgileri ekleyerek bir tablo oluşturmak isteyebilirsiniz. Bir hücre aralığı oluşturmak için [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) yöntemini kullanabilirsiniz. [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) yöntemi bir [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) nesnesi döndürür. [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) nesnesi oluşturabilir ve sınır çizgilerini (üst, sol, alt, sağ) seçeneklerine göre belirleyebilirsiniz. Daha sonra [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) hücrelerini alabilir ve istediğiniz biçimlendirmeyi uygulayabilirsiniz.
 
 {{% /alert %}}
 
- Aşağıdaki örnek, nasıl oluşturulacağını gösterir[**Menzil**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)ve aralık hücreleri için sınır çizgilerini belirtin.
+Aşağıdaki örnek, bir [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) oluşturmayı ve aralık hücreleri için kenar çizgilerini belirlemeyi göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateTableforRange-CreateTableforRange.java" >}}
 
-Yukarıdaki kodu çalıştırdıktan sonra, biçimlendirilmiş tabloyu içeren oluşturulan excel dosyasına sahip olabiliriz; işte dosyanın ekran görüntüsü.
+Yukarıdaki kodu çalıştırdıktan sonra, biçimlendirilmiş bir tablo içeren oluşturulmuş excel dosyasına sahip olabiliriz; işte dosyanın ekran görüntüsü.
 
-![yapılacaklar:resim_alternatif_metin](create-table-by-using-border-lines-for-a-range_1.png)
+![todo:image_alt_text](create-table-by-using-border-lines-for-a-range_1.png)

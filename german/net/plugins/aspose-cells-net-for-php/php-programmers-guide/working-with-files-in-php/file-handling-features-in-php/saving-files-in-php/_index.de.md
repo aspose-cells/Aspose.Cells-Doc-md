@@ -1,16 +1,17 @@
-﻿---
-title: Speichern von Dateien in PHP
+---
+title: Dateien in PHP speichern
 type: docs
 weight: 20
 url: /de/net/saving-files-in-php/
 ---
-## **Aspose.Cells - Excel-Dateien speichern**
-### **Öffnung durch Pfad**
-Speichern einer Microsoft Excel-Datei durch Referenzieren des Dateipfads
+
+## **Aspose.Cells - Speichern von Excel-Dateien**
+### **Öffnen durch Pfad**
+Speichern einer Microsoft Excel-Datei durch Angabe des Dateipfads
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -31,7 +32,7 @@ Speichern einer Microsoft Excel-Datei durch Referenzieren des Dateipfads
         print "File saved successfully!" . PHP_EOL;
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Dateien speichern (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Herunterladen von **Speichern von Dateien (Aspose.Cells)** von einer der unten genannten sozialen Codierungsseiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

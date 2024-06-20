@@ -1,58 +1,59 @@
-﻿---
-title: Åtkomst till Cells i ett arbetsblad
+---
+title: Åtkomst till kalkylbladets celler
 type: docs
 weight: 10
 url: /sv/java/accessing-cells-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Vi vet att alla kalkylblad kan innehålla data som i princip lagras i celler (som ett kalkylblad är uppbyggt av). En cell är en grundläggande del av ett kalkylblad som används för att konstruera hela kalkylbladet som en sekvens av rader och kolumner. Innan vi försöker komma åt data från ett kalkylblad skulle vi behöva få tillgång till dess celler. Så i det här ämnet kommer vi att diskutera några grundläggande metoder för att komma åt kalkylbladsceller vid körning med Aspose.Cells.
+Vi vet att alla kalkylblad kan innehålla data som i huvudsak lagras i celler (med vilka ett kalkylblad är uppbyggt). En cell är en grundläggande del av ett kalkylblad som används för att konstruera hela kalkylbladet som en sekvens av rader och kolumner. Innan vi försöker få åtkomst till data från ett kalkylblad skulle vi behöva få åtkomst till dess celler. Så i det här ämnet kommer vi att diskutera några grundläggande tillvägagångssätt för att få åtkomst till kalkylbladets celler vid runtime med hjälp av Aspose.Cells.
 
 {{% /alert %}} 
-## **Tillgång till Cells**
- Aspose.Cells tillhandahåller en klass,[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass innehåller en[Arbetsbladssamling](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) klass. De[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) klass ger en[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)samling som representerar alla celler i kalkylbladet.
+## **Åtkomst till celler**
+Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) som representerar en Microsoft Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) innehåller en samling [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) som möjliggör åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) tillhandahåller en samling [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) som representerar alla celler i kalkylbladet.
 
- Vi kan använda[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)samling för att komma åt celler i ett kalkylblad. Aspose.Cells tillhandahåller olika grundläggande metoder för åtkomst till celler:
+Vi kan använda [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingen för att få åtkomst till celler i ett kalkylblad. Aspose.Cells tillhandahåller olika grundläggande tillvägagångssätt för att få åtkomst till celler:
 
-1. [Använder cellnamn](/cells/sv/java/accessing-cells-of-a-worksheet/).
-1. [Använder rad- och kolumnindex](/cells/sv/java/accessing-cells-of-a-worksheet/).
-### **Använder Cell Namn**
- Utvecklare kan komma åt vilken specifik cell som helst genom att skicka dess cellnamn till[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samling av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)klass.
+1. [Använda cellnamn](/cells/sv/java/accessing-cells-of-a-worksheet/).
+1. [Använda rad- och kolumnindex](/cells/sv/java/accessing-cells-of-a-worksheet/).
+### **Användning av cellnamn**
+Utvecklare kan få åtkomst till en specifik cell genom att ange dess cellnamn till [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingen i klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
 
- Om du skapar ett tomt kalkylblad i början kommer antalet[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)samlingen är noll. När du använder det här tillvägagångssättet för att komma åt en cell, kommer den att kontrollera om denna cell finns i samlingen eller inte. Om ja, returnerar den cellobjektet i samlingen annars skapar den ett nytt[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) objekt, lägger till objektet till[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)samling och returnerar sedan objektet. Detta tillvägagångssätt är det enklaste sättet att komma åt cellen om du är bekant med Microsoft Excel, men det är långsammare än andra metoder.
+Om du skapar ett tomt kalkylblad i början är antalet [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingen noll. När du använder det här tillvägagångssättet för att få åtkomst till en cell kommer den att kontrollera om den här cellen finns i samlingen eller inte. Om ja returnerar den cellobjektet i samlingen annars skapar den en ny [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)-objekt, lägger till objektet i [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingen och returnerar sedan objektet. Det här tillvägagångssättet är det enklaste sättet att få åtkomst till cellen om du är bekant med Microsoft Excel men det är långsammare än andra tillvägagångssätt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UsingCellName-UsingCellName.java" >}}
 
 
 
-### **Använda rad- och kolumnindex för Cell**
- Utvecklare kan komma åt vilken specifik cell som helst genom att skicka indexen för dess rad och kolumn till[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samling av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)klass.
+### **Användning av rad- och kolumnindex för cellen**
+Utvecklare kan få åtkomst till en specifik cell genom att ange rad- och kolumnindex för cellen till [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-samlingen i klassen [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
 
-Detta tillvägagångssätt fungerar på samma sätt som det första tillvägagångssättet.
+Det här tillvägagångssättet fungerar på samma sätt som det första tillvägagångssättet.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UsingRowAndColumnIndexOfCell-UsingRowAndColumnIndexOfCell.java" >}}
-### **relaterade artiklar**
+### **Relaterade artiklar**
 {{% alert color="primary" %}} 
 
-- [Namngivna Ranges](/cells/sv/java/named-ranges/)
+- [Namngivna områden](/cells/sv/java/named-ranges/)
 
 {{% /alert %}} 
-## **Få åtkomst till maximalt visningsområde för arbetsblad**
-Aspose.Cells tillåter utvecklare att komma åt ett kalkylblads maximala visningsområde. Det maximala visningsintervallet - cellintervallet mellan den första och sista cellen med innehåll - är användbart när du behöver kopiera, markera eller visa hela innehållet i ett kalkylblad i en bild.
+## **Åtkomst till kalkylbladets maximala visningsområde**
+Aspose.Cells tillåter utvecklare att få åtkomst till ett kalkylblads maximala visningsområde. Det maximala visningsområdet - området av celler mellan den första och den sista cellen med innehåll - är användbart när du behöver kopiera, välja eller visa hela innehållet i ett kalkylblad i en bild.
 
- Du kan komma åt ett kalkylblads maximala visningsområde med[Worksheet.getCells().getMaxDisplayRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange).
+Du kan få åtkomst till ett kalkylblads maximala visningsområde genom att använda [Worksheet.getCells().getMaxDisplayRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange).
 
-I följande figur är det valda arbetsbladets maximala visningsområde A1:G15.
+I följande figur är det valda kalkylbladets maximala visningsområde A1:G15.
 
-**Visar det maximala visningsintervallet för detta kalkylblad** 
+**Visar det maximala visningsområdet för detta kalkylblad** 
 
 ![todo:image_alt_text](accessing-cells-of-a-worksheet_1.png)
 
- Följande exempelkod illustrerar hur du kommer åt[MaxDisplayRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange)fast egendom. Koden genererar följande utdata.
+Följande exempelkod illustrerar hur man får åtkomst till egenskapen [MaxDisplayRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange). Koden genererar följande utmatning.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Maximum Display Range: =Sheet1!$A$1:$G$15
 

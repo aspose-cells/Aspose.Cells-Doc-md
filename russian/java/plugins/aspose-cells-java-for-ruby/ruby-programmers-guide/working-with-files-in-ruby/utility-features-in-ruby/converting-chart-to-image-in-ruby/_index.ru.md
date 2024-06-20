@@ -1,15 +1,16 @@
-﻿---
-title: Преобразование диаграммы в изображение в Ruby
+---
+title: Преобразование Диаграммы в Изображение в Ruby
 type: docs
 weight: 10
 url: /ru/java/converting-chart-to-image-in-ruby/
 ---
-## **Aspose.Cells - Преобразование диаграммы в изображение**
-Чтобы преобразовать диаграмму в изображение с помощью Aspose.Cells for Java в Ruby, просто вызовите модуль Converter.
 
-**Рубиновый код**
+## **Aspose.Cells - Преобразование Диаграммы в Изображение**
+Чтобы преобразовать диаграмму в изображение с использованием Aspose.Cells for Java в Ruby, просто вызовите модуль Converter.
 
-{{< highlight "ruby" >}}
+**Код на Ruby**
+
+{{< highlight ruby >}}
 
  def chart_to_image()
 
@@ -142,7 +143,7 @@ url: /ru/java/converting-chart-to-image-in-ruby/
 end   
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Преобразование диаграммы в изображение (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Преобразование диаграммы в изображение (Aspose.Cells)** с любого из перечисленных ниже социальных сайтов для программистов:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

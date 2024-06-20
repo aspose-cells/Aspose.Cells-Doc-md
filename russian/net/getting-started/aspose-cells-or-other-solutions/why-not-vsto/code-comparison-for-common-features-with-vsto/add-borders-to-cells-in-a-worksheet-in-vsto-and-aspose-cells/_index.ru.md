@@ -1,33 +1,34 @@
-﻿---
-title: Добавьте границы к Cells на рабочем листе в VSTO и Aspose.Cells
+---
+title: Добавление границ в ячейки на листе книги в VSTO и Aspose.Cells
 type: docs
 weight: 10
 url: /ru/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Чтобы добавить границы к ячейкам электронной таблицы, выполните следующие действия:
 
-1.  Настройте рабочий лист:
- 1. Создайте экземпляр объекта приложения (только VSTO)
- 1. Добавьте рабочую книгу
- 1. Получите первый лист
- 1. Добавьте текст в ячейки, к которым вы добавите границы
-1.  Добавьте границы:
- 1. Определите диапазон
- 1. Примените стиль границы к диапазону
- 1. Повторите для каждого диапазона и каждого стиля границы, который вы хотите установить. В этом примере применяются линии волос, тонкие, средние и толстые линии.
-1.  Заканчивать:
- 1. Автоподгонка столбца, в котором находятся ячейки, чтобы текст точно соответствовал тексту.
- 1. Сохраните документ
+Чтобы добавить границы в ячейки электронной таблицы, выполните следующие действия:
 
-Эти шаги показаны в коде ниже. В первых примерах кода показано, как реализовать их с помощью VSTO с C# или Visual Basic. После примеров VSTO следуют примеры, показывающие, как выполнять те же действия с использованием Aspose.Cells for .NET, опять же с использованием либо C#, либо Visual Basic. Примеры кода Aspose.Cells намного короче, потому что Aspose.Cells оптимизирован для эффективного кодирования.
+1. Настройте лист: 
+   1. Создайте объект приложения (только для VSTO)
+   1. Добавьте книгу
+   1. Получите первый лист
+   1. Добавьте текст в ячейки, к которым вы хотите добавить границы
+1. Добавьте границы: 
+   1. Определите диапазон
+   1. Примените стиль границы к диапазону
+   1. Повторите для каждого диапазона и каждого стиля границы, который вы хотите задать. В этом примере применяются тонкие, средние и толстые линии.
+1. Завершение: 
+   1. Автоматически подгоните столбец, в котором находятся ячейки, под текст для аккуратного отображения
+   1. Сохраните документ
 
-Код создает файл Excel с несколькими ячейками на первом листе, каждая из которых имеет свою границу:
+Эти шаги показаны в коде ниже. Первые примеры кода показывают, как их реализовать с помощью VSTO на C# или Visual Basic. После примеров VSTO следуют примеры, показывающие, как выполнить те же шаги с использованием Aspose.Cells for .NET, снова с использованием C# или Visual Basic. Примеры кода Aspose.Cells гораздо короче, потому что Aspose.Cells оптимизирован для эффективного написания кода.
 
-![дело:изображение_альтернативный_текст](picture1.png)
+Код создает файл Excel с несколькими ячейками на первом листе, каждая из которых имеет разные границы:
 
-Cells с обрамлением.
-## **ВСТО**
-{{< highlight "csharp" >}}
+![todo:image_alt_text](picture1.png)
+
+Ячейки с примененными границами.
+## **VSTO**
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -43,13 +44,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -145,7 +146,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -209,7 +210,7 @@ objBook.Save("ApplyBorders.xls");
 
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [Источникфорж](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/скачать)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)
+## **Загрузить образец кода**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

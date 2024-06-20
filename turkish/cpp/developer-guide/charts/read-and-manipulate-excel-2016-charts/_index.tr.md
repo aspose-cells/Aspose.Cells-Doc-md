@@ -1,25 +1,26 @@
 ---
-title: Excel 2016 Grafiklerini Okuyun ve Değiştirin
+title: Excel 2016 Grafiklerini Okuma ve Değiştirme
 type: docs
 weight: 20
 url: /tr/cpp/read-and-manipulate-excel-2016-charts/
 ---
-##  **Olası Kullanım Senaryoları**
-Aspose.Cells, Microsoft Excel 2013 veya önceki sürümlerde bulunmayan Microsoft Excel 2016 grafiklerinin okunmasını ve işlenmesini destekler.
-##  **Excel 2016 Grafiklerini Okuyun ve Değiştirin**
- Aşağıdaki örnek kod,[örnek Excel dosyası](66519072.xlsx) ilk çalışma sayfasında Excel 2016 grafiklerini içerir. Tüm grafikleri tek tek okur ve grafik türüne göre başlığını değiştirir. Aşağıdaki ekran görüntüsü, kodun yürütülmesinden önceki örnek Excel dosyasını göstermektedir. Gördüğünüz gibi grafik başlığı tüm grafikler için aynıdır.
 
-![yapılacak şey:image_alt_text](read-and-manipulate-excel-2016-charts_1.png)
+## **Olası Kullanım Senaryoları**
+Aspose.Cells, Microsoft Excel 2013 ve daha önceki sürümlerde bulunmayan Microsoft Excel 2016 grafiklerinin okunmasını ve manipüle edilmesini destekler.
+## **Excel 2016 Grafiklerini Okuma ve Değiştirme**
+Aşağıdaki örnek kod, içinde Excel 2016 grafikleri bulunan [örnek Excel dosyasını](66519072.xlsx) yükler. Tüm grafikleri tek tek okur ve başlığını grafik türüne göre değiştirir. Aşağıdaki ekran görüntüsü, kodun uygulanmasından önceki örnek Excel dosyasını göstermektedir. Gördüğünüz gibi, tüm grafikler için başlık aynıdır.
 
- Aşağıdaki ekran görüntüsü şunları göstermektedir:[Excel dosyasının çıktısı](66519073.xlsx) kodun yürütülmesinden sonra. Gördüğünüz gibi grafik başlığı grafik türüne göre değiştiriliyor.
+![todo:image_alt_text](read-and-manipulate-excel-2016-charts_1.png)
 
-![yapılacak şey:image_alt_text](read-and-manipulate-excel-2016-charts_2.png)
-##  **Basit kod**
+Aşağıdaki ekran görüntüsü, kodun uygulanmasından sonra [çıktı Excel dosyasını](66519073.xlsx) göstermektedir. Gördüğünüz gibi, her grafik için başlık, grafik türüne göre değiştirilmiştir.
+
+![todo:image_alt_text](read-and-manipulate-excel-2016-charts_2.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-ReadAndManipulateExcel2016Charts-new.cpp" >}}
-##  **Konsol Çıkışı**
-Sağlanan örnek Excel dosyasıyla çalıştırıldığında yukarıdaki örnek kodun konsol çıktısı burada verilmiştir.
+## **Konsol Çıktısı**
+Yukarıda sağlanan örnek Excel dosyasının çalıştırılmasıyla elde edilen örnek kodun konsol çıkışı burada bulunmaktadır.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Waterfall
 

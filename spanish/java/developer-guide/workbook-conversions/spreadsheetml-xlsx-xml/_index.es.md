@@ -1,49 +1,50 @@
-﻿---
-title: SpreadsheetML - XLSX
+---
+title: SpreadsheetML - XLSX, XML
 type: docs
 weight: 10
 url: /es/java/spreadsheetml-xlsx-xml/
 ---
-## **Sobre SpreadsheetML**
+
+## **Acerca de SpreadsheetML**
 SpreadsheetML es el nombre de una familia de formatos basados en XML para documentos de hojas de cálculo. Hay varias versiones de SpreadsheetML:
 
-1. La versión SpreadsheetML 2003 se introdujo en Microsoft Word 2003. SpreadsheetML fue un paso importante de Microsoft para hacer que el formato del documento fuera abierto.
-1. [XML abierto de Office](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) es el nuevo formato basado en XML introducido en las aplicaciones Microsoft de Office 2007. Office Open XML es un formato contenedor para varios lenguajes de marcado basados en XML especializados. SpreadsheetML versión 2007 es el lenguaje de marcado utilizado por Microsoft Office Excel 2007 para almacenar sus documentos.
-1. Microsoft Excel 2010 y versiones posteriores almacenan documentos en SpreadsheetML versión 2010 como se define en el estándar OOXML actualizado.
+1. La versión 2003 de SpreadsheetML se introdujo en Microsoft Word 2003. SpreadsheetML fue un paso significativo de Microsoft hacia la apertura del formato de documento.
+1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) es el nuevo formato basado en XML introducido en las aplicaciones de Microsoft Office 2007. Office Open XML es un formato contenedor para varios lenguajes de marcado basados en XML especializados. La versión 2007 de SpreadsheetML es el lenguaje de marcado utilizado por Microsoft Office Excel 2007 para almacenar sus documentos.
+1. Microsoft Excel 2010 y versiones posteriores almacenan documentos en la versión 2010 de SpreadsheetML según lo definido en el estándar actualizado de OOXML.
 ## **SpreadsheetML en Aspose.Cells**
-Hay tres "versiones" de SpreadsheetML disponibles:
+Existen tres "versiones" de SpreadsheetML disponibles:
 
-|**SpreadsheetML “Versión”**|**Estándar/Especificación aplicable**|**Apoyado en Aspose.Cells for Java**|
-|:- |:- |:- |
-|Microsoft excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Sí|
-|Microsoft excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|Sí|
+|**“Versión” de SpreadsheetML**|**Estándar/Especificación Aplicable**|**Soportado en Aspose.Cells for Java**|
+| :- | :- | :- |
+|Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Sí|
+|Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|Sí|
 |Microsoft Excel 2010 y versiones posteriores|OOXML ISO/IEC DIS 29500|Sí|
-Los documentos OOXML SpreadsheetML suelen venir como archivos XLSX, que son paquetes ZIP. Además de XLSX. Aspose.Cells proporciona un amplio soporte para cargar, guardar y convertir documentos SpreadsheetML. Tal implementación integral es posible porque Aspose.Cells se diseñó teniendo en cuenta la estructura de los documentos de Excel Microsoft (y se sabe que SpreadsheetML imita la representación interna de los documentos de Excel Microsoft).
+Los documentos de OOXML SpreadsheetML a menudo vienen en archivos XLSX, que son paquetes ZIP. Además de XLSX, Aspose.Cells proporciona un amplio soporte para cargar, guardar y convertir documentos de SpreadsheetML. Tal implementación integral es posible porque Aspose.Cells fue diseñado teniendo en cuenta la estructura de los documentos de Microsoft Excel (y se sabe que SpreadsheetML imita la representación interna de los documentos de Microsoft Excel).
 
 **Un documento XLSX generado por Aspose.Cells y abierto en Microsoft Excel** 
 
-![todo:imagen_alternativa_texto](spreadsheetml-xlsx-xml_1.png)
+![todo:image_alt_text](spreadsheetml-xlsx-xml_1.png)
 
-**El documento XLSX generado por Aspose.Cells sigue la Convención de empaquetado abierto y se puede abrir en una aplicación compatible con ZIP** 
+**El documento XLSX generado por Aspose.Cells sigue la Convención de Empaquetado Abierto y puede abrirse en una aplicación compatible con ZIP** 
 
-![todo:imagen_alternativa_texto](spreadsheetml-xlsx-xml_2.png)
-## **OOXML está abierto, ¿por qué usar Aspose.Cells?**
-Es cierto que la tecnología Office Open XML hace posible crear aplicaciones de procesamiento y generación de documentos usando solo las clases XML sin depender de bibliotecas de terceros como Aspose.Cells. Sin embargo, creemos firmemente que aún es muy beneficioso usar Aspose.Cells cuando tiene para manejar documentos OOXML, en lugar de trabajar a través de XML u otras bibliotecas.
+![todo:image_alt_text](spreadsheetml-xlsx-xml_2.png)
+## **OOXML es abierto, ¿por qué usar Aspose.Cells?**
+Es cierto que la tecnología Office Open XML hace posible construir aplicaciones de procesamiento y generación de documentos utilizando solo las clases XML sin depender de bibliotecas de terceros como Aspose.Cells. Sin embargo, creemos firmemente que sigue siendo muy beneficioso usar Aspose.Cells cuando se trata de documentos OOXML, en lugar de trabajar a través de XML u otras bibliotecas.
 
-La especificación OOXML tiene varios miles de páginas. Ser abierto y estándar no significa ser simple. Para procesar o generar correctamente documentos OOXML se debe invertir en aprender bien el formato.
+La especificación de OOXML tiene varias miles de páginas. Ser abierto y estándar no significa ser simple. Para procesar o generar documentos de OOXML correctamente, uno debe invertir en aprender bien el formato.
 
-Además de simplificar el procesamiento correcto y la generación de documentos válidos, Aspose.Cells proporciona las siguientes características importantes que no tendría al trabajar con archivos OOXML directamente a través de XML u otras bibliotecas de terceros:
+Además de hacer que sea más simple procesar y generar documentos válidos correctamente, Aspose.Cells proporciona las siguientes características importantes que no tendría al trabajar con archivos OOXML directamente a través de XML u otras bibliotecas de terceros:
 
 - Conversiones de calidad entre muchos formatos populares de Excel, incluida la conversión a PDF, HTML, TIFF e impresión.
-- Capacidad para crear documentos a partir de fragmentos, de uno o varios documentos, mientras se fusionan automáticamente los datos mediante formato estilístico, tablas y gráficos.
-- Funciones de alto nivel, como importar datos de diferentes fuentes de datos, incluidos Array, ArrayList, DataTable, DataColumn, DataGrid, DataView y DataReader, o exportar datos para completar un DataTable o un Array con solo una línea de código.
-- Robusto motor de cálculo de fórmulas que admite casi todas las funciones estándar y avanzadas de Excel Microsoft.
+- Capacidad para construir documentos a partir de fragmentos, de uno o varios documentos, mientras se fusiona automáticamente datos mediante formato estilístico, gráficos y gráficos.
+- Funciones de alto nivel, como importar datos de diferentes fuentes de datos, incluidas Array, ArrayList, DataTable, DataColumn, DataGrid, DataView y DataReader, o exportar datos para completar un DataTable o un Array con solo una línea de código.
+- Motor de cálculo de fórmulas robusto que admite casi todas las funciones estándar y avanzadas de Microsoft Excel.
 
-Considere el siguiente ejemplo. Algunas celdas contienen el texto "Hello World" en negrita. Ahora imagine que necesita escribir un programa que busque todas las frases "Hello World" en la hoja de trabajo y las reemplace con "Adiós Tierra".
-## **Un fragmento de un documento XML abierto de Office**
+Considere el siguiente ejemplo. Algunas celdas contienen el texto “Hola Mundo” en negrita. Ahora imagine que necesita escribir un programa que busque todas las frases “Hola Mundo” en la hoja de cálculo y las reemplace por “Adiós Tierra”.
+## **Un fragmento de un Documento de Office Open XML**
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
@@ -175,6 +176,6 @@ Considere el siguiente ejemplo. Algunas celdas contienen el texto "Hello World" 
 
 {{< /highlight >}}
 
-Es difícil implementar incluso una simple operación de buscar y reemplazar en un documento Office Open XML.
+Implementar incluso una operación simple de búsqueda y reemplazo en un documento Office Open XML es difícil.
 
-**Nuestro consejo:** recuerde que abierto y estándar no significa simple y use Aspose.Cells.
+**Nuestro consejo:** recuerda que ser abierto y estándar no significa ser simple y utiliza Aspose.Cells.

@@ -1,26 +1,27 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.7.0
+---
+title: Изменения в публичном API в Aspose.Cells 8.7.0
 type: docs
 weight: 240
 url: /ru/java/public-api-changes-in-aspose-cells-8-7-0/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.6.3 до 8.7.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 8.6.3 до 8.7.0, которые могут быть интересны разработчикам модулей/приложений. Он включает в себя не только новые и обновленные публичные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Поддержка PDF Оптимизация**
- Aspose.Cells API уже предоставляют функцию преобразования электронных таблиц в PDF. В этом выпуске API пользователи теперь могут[оптимизировать полученный размер PDF](/cells/ru/java/save-excel-into-pdf-with-standard-or-minimum-size/)также. Aspose.Cells for Java 8.7.0 предоставляет свойство PdfSaveOptions.OptimizationType вместе с перечислением PdfOptimizationType, чтобы облегчить пользователям выбор желаемого алгоритма оптимизации при экспорте электронных таблиц в формат PDF. Существует 2 возможных значения свойства PdfSaveOptions.OptimizationType, как описано ниже.
+## **Добавленные API**
+### **Поддержка оптимизации PDF**
+API Aspose.Cells уже предоставляет возможность преобразования электронных таблиц в PDF. С этим выпуском API пользователи теперь могут [оптимизировать размер результирующего PDF](/cells/ru/java/save-excel-into-pdf-with-standard-or-minimum-size/) также. Aspose.Cells for Java 8.7.0 предоставил свойство PdfSaveOptions.OptimizationType вместе с перечислением PdfOptimizationType, чтобы облегчить выбор пользователей желаемого алгоритма оптимизации при экспорте электронных таблиц в формат PDF. Есть 2 возможных значения для свойства PdfSaveOptions.OptimizationType, как описано ниже. 
 
-1. PdfOptimizationType.MINIMUM_SIZE: Качество скомпрометировано из-за результирующего размера файла.
-1. PdfOptimizationType.STANDARD: качество не страдает, поэтому результирующий размер файла будет большим.
+1. PdfOptimizationType.MINIMUM_SIZE: Качество компрометируется ради размера файла.
+1. PdfOptimizationType.STANDARD: Качество не моменты, поэтому размер файла будет большим.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of PdfSaveOptions
 
@@ -41,14 +42,14 @@ Workbook book = new Workbook(inFilePath);
 book.save(outFilePath, pdfSaveOptions);
 
 {{< /highlight >}}
-### **Обнаружение проекта VBA с цифровой подписью**
- Новое открытое свойство VbaProject.isSigned можно использовать для[определить, имеет ли проект VBA в рабочей книге цифровую подпись](/cells/ru/java/check-if-vba-code-is-signed/). Свойство VbaProject.isSigned имеет логический тип и возвращает значение true, если проект VBA имеет цифровую подпись, и наоборот.
+### **Обнаружение цифровой подписи в проекте VBA**
+Новое свойство VbaProject.isSigned теперь можно использовать для [определения, является ли проект VBA в книге электронных таблиц цифрово подписанным](/cells/ru/java/check-if-vba-code-is-signed/). Свойство VbaProject.isSigned имеет тип Boolean, которое возвращает true, если проект VBA цифрово подписан, и vice versa.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -78,13 +79,13 @@ else
 
 {{< /highlight >}}
 ### **Добавлен метод Protection.verifyPassword**
-Aspose.Cells API-интерфейсы улучшили класс Protection, предоставив метод verifyPassword, который позволяет указать пароль как экземпляр String и[проверяет, использовался ли тот же пароль для защиты рабочего листа](/cells/ru/java/verify-password-used-to-protect-the-worksheet/). Метод Protection.verifyPassword возвращает значение true, если указанный пароль совпадает с паролем, используемым для защиты данного рабочего листа, и значение false, если указанный пароль не совпадает. Следующий фрагмент кода использует метод Protection.verifyPassword в сочетании с полем Protection.isProtectedWithPassword для обнаружения защиты паролем и проверки пароля.
+API Aspose.Cells улучшило класс Protection, введя метод verifyPassword, который позволяет указать пароль в виде строки и [проверяет, использовался ли такой же пароль для защиты Листа](/cells/ru/java/verify-password-used-to-protect-the-worksheet/). Метод Protection.verifyPassword возвращает true, если указанный пароль совпадает с паролем, используемым для защиты заданного листа, и false, если указанный пароль не совпадает. Ниже приведен фрагмент кода, использующий метод Protection.verifyPassword совместно с полем Protection.isProtectedWithPassword для обнаружения защиты паролем и проверки пароля.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load a spreadsheet
 
@@ -122,13 +123,13 @@ if (sheet.getProtection().isProtectedWithPassword())
 
 {{< /highlight >}}
 ### **Добавлено свойство Protection.isProtectedWithPassword**
- В этом выпуске Aspose.Cells for Java также представлено поле Protection.isProtectedWithPassword, которое может быть полезно в[определение, защищен ли рабочий лист паролем или нет](/cells/ru/java/detect-if-worksheet-is-password-protected/).
+В этом выпуске Aspose.Cells for Java также было представлено поле Protection.isProtectedWithPassword, которое может быть полезно при [определении, защищен ли Лист паролем или нет](/cells/ru/java/detect-if-worksheet-is-password-protected/).
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -162,13 +163,13 @@ else
 
 {{< /highlight >}}
 ### **Добавлено свойство ColorScale.Is3ColorScale**
- Aspose.Cells for Java 8.7.0 предоставило свойство ColorScale.Is3ColorScale, которое можно использовать для[создать условный формат двухцветной шкалы](/cells/ru/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). Упомянутое свойство имеет тип Boolean со значением по умолчанию true, что означает, что условный формат по умолчанию будет иметь 3-цветную шкалу. Однако при переключении свойства ColorScale.Is3ColorScale на false будет создан условный формат двухцветной шкалы.
+Aspose.Cells for Java 8.7.0 предоставил свойство ColorScale.Is3ColorScale, которое можно использовать для [создания условного форматирования с масштабом 2 цвета](/cells/ru/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). Указанное свойство имеет тип Boolean со значением по умолчанию true, что означает, что условное форматирование будет представлено как 3-цветное масштабирование по умолчанию. Однако переключение свойства ColorScale.Is3ColorScale на false сгенерирует условное форматирование с масштабом 2 цвета.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -212,13 +213,13 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 
 {{< /highlight >}}
 ### **Добавлено свойство TxtLoadOptions.HasFormula**
- Aspose.Cells for Java 8.7.0 предоставил поддержку[идентифицировать и анализировать формулы при загрузке файлов CSV/TXT, содержащих простые данные с разделителями](/cells/ru/java/load-or-import-csv-file-with-formulas/). Недавно открытое свойство TxtLoadOptions.HasFormula, если для него задано значение true, указывает API анализировать формулы из входного файла с разделителями и устанавливать их в соответствующие ячейки без дополнительной обработки.
+Aspose.Cells for Java 8.7.0 добавил поддержку [идентификации и анализа формул при загрузке CSV/TXT файлов с данными в виде разделенных данных](/cells/ru/java/load-or-import-csv-file-with-formulas/). Новое свойство TxtLoadOptions.HasFormula теперь позволяет API анализировать формулы из входного файла с данными и устанавливать их для соответствующих ячеек без дополнительной обработки.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of TxtLoadOptions
 
@@ -245,14 +246,14 @@ book.calculateFormula();
 book.save(outFilePath);
 
 {{< /highlight >}}
-### **Добавлено свойство DataLabels.ResizeShapeToFitText.**
- Еще одна полезная функция, представленная в версии Aspose.Cells for Java 8.7.0, — это свойство DataLabels.ResizeShapeToFitText, которое позволяет[изменить размер фигуры, чтобы она соответствовала тексту](/cells/ru/java/resize-chart-s-data-label-shape-to-fit-text/)функция приложения Excel для меток данных диаграммы.
+### **Добавлено свойство DataLabels.ResizeShapeToFitText**
+Еще одна полезная функция, представленная в Aspose.Cells for Java 8.7.0, - это свойство DataLabels.ResizeShapeToFitText, которое позволяет включить функцию [изменения размера формы под текст](/cells/ru/java/resize-chart-s-data-label-shape-to-fit-text/) для меток данных диаграммы Excel.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook containing the Chart
 
@@ -279,6 +280,6 @@ labels.setResizeShapeToFitText(true);
 chart.calculate();
 
 {{< /highlight >}}
-## **Удаленные API**
-### **Свойство Workbook.SaveOptions удалено**
-Некоторое время назад свойство Workbook.SaveOptions было помечено как устаревшее. В этом выпуске он был полностью удален из общедоступного API, поэтому в качестве альтернативы рекомендуется использовать метод Workbook.save(Stream, SaveOptions) или Workbook.save(string, SaveOptions).
+## **Удалены API**
+### **Удалено свойство Workbook.SaveOptions**
+Свойство Workbook.SaveOptions было объявлено устаревшим некоторое время назад. В этом релизе оно было полностью удалено из общедоступного API, поэтому рекомендуется использовать метод Workbook.save(Stream, SaveOptions) или Workbook.save(string, SaveOptions) в качестве альтернативы.

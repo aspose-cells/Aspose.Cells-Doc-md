@@ -1,28 +1,29 @@
 ---
-title: ワークシート内の図形の絶対位置の検索
+title: ワークシート内の形状の絶対位置を検索
 type: docs
 weight: 7000
 url: /ja/java/finding-absolute-position-of-shape-inside-the-worksheet/
-description: Aspose.Cells for Java API を使用してワークシート内の図形の絶対位置を検索する方法を学びます。
-keywords: How to Find Absolute Position of Shape in Java, Get Absolute Position of Shape using Java, Obtain Absolute Position of Shape inside the Worksheet via Java, Measure absolute position of Shape with Java.
+description: Aspose.Cells for JavaのAPIを通じてワークシート内の形状の絶対位置を検索する方法を学びます。
+keywords: Javaで形状の絶対位置を検索する方法、Javaを使用して形状の絶対位置を取得する方法、ワークシート内の形状の絶対位置を取得する方法via Java、Javaで形状の絶対位置を測定する方法。
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、ワークシート上の図形の絶対位置を知る必要があることがあります。 Aspose.Cells は、[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner)そして[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)この目的のためのプロパティ。これらのプロパティは、ワークシート内の図形の絶対位置をピクセル単位で返します。
+ワークシート上の形状の絶対位置を知る必要があることがあります。Aspose.Cellsはこの目的のために[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner)と[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)プロパティを提供します。これらのプロパティは、ワークシート内の形状の絶対位置をピクセル単位で返します。
 
 {{% /alert %}}
 
-##  **Shape.getLeftToCorner() プロパティと Shape.getTopToCorner() プロパティの説明**
+## **Shape.getLeftToCorner()およびShape.getTopToCorner()プロパティの説明**
 
-このスクリーンショットは、[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner)そして[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)特性を測定します。
+このスクリーンショットは、[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner)と[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)プロパティが測定する距離を説明しています。
 
-**絶対位置の測定方法**
+絶対位置を測定する方法
 
 ![todo:image_alt_text](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
 
-次のサンプル コードは、ワークシート内の最初の図形の絶対位置をピクセル単位で表示します。このコードにより、コンソールに次の出力が表示されます。
+次のサンプルコードは、ワークシート内の最初の形状の絶対位置をピクセル単位で表示します。コードは、コンソールに次の出力を表示します：
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Absolute Position of this Shape is (320, 180)
 

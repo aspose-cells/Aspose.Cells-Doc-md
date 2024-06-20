@@ -1,21 +1,22 @@
-﻿---
-title: Rechercher si les points de données se trouvent dans le deuxième secteur ou barre sur un secteur de secteur ou une barre de graphique en secteurs
+---
+title: Trouver si les points de données sont dans le deuxième secteur ou barre d un diagramme de secteur ou barre de diagramme.
 type: docs
 weight: 910
 url: /fr/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/
 ---
-## **Scénarios d'utilisation possibles**
- Vous pouvez trouver si les points de données de la série sont dans le deuxième secteur sur*tarte de tarte* graphique ou dans la barre de*Barre de tarte* graphique en utilisant Aspose.Cells. Veuillez utiliser le[ChartPoint.IsInSecondaryPlotChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot)propriété pour le déterminer.
 
- Veuillez télécharger le[exemple de fichier excel](5473373.xlsx) utilisé dans l'exemple de code suivant et consultez sa sortie de console. Si vous ouvrez le[exemple de fichier excel](5473373.xlsx), vous trouverez, tous les points de données qui sont inférieurs à 10 sont à l'intérieur de la barre de*Barre de tarte*graphique comme indiqué également par la sortie de la console.
-## **Rechercher si les points de données se trouvent dans le deuxième secteur ou barre sur un secteur de secteur ou une barre de graphique en secteurs**
- L'exemple de code suivant montre comment déterminer si des points de données se trouvent dans le deuxième secteur ou barre d'un*tarte de tarte* ou alors*Barre de tarte*graphique.
+## **Scénarios d'utilisation possibles**
+Vous pouvez déterminer si les points de données de la série se trouvent dans le deuxième diagramme circulaire sur un graphique *Diagramme circulaire de cercles* ou dans la barre du *Diagramme à barres de cercles* en utilisant Aspose.Cells. Veuillez utiliser la propriété [ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot) pour le déterminer.
+
+Veuillez télécharger le [fichier Excel d'exemple](5473373.xlsx) utilisé dans le code d'exemple suivant et voir sa sortie console. Si vous ouvrez le [fichier Excel d'exemple](5473373.xlsx), vous trouverez que tous les points de données inférieurs à 10 se trouvent à l'intérieur de la barre du *Diagramme à barres de cercles*, comme le montre également la sortie de la console.
+## **Savoir si les points de données sont dans le deuxième diagramme circulaire ou dans une barre sur un diagramme de deux ou trois cercles ou sur un diagramme à barres de deux ou trois cercles**
+Le code d'exemple suivant montre comment savoir si les points de données se trouvent dans le deuxième diagramme circulaire ou la barre sur un *Diagramme de secteurs secondaires* ou *Barre de diagramme circulaire*.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindDataPoints-FindDataPoints.java" >}}
 ## **Sortie console**
- Veuillez consulter la sortie de console suivante générée après l'exécution de l'exemple de code ci-dessus avec le[exemple de fichier excel](5473373.xlsx) . Si[IsInSecondaryPlotIsInSecondaryPlotIsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot) est**faux** , le point de données est à l'intérieur du secteur ou s'il est**vrai**, alors le point de données est à l'intérieur de la barre.
+Veuillez consulter la sortie de la console suivante générée après l'exécution du code d'exemple ci-dessus avec le [fichier Excel d'exemple](5473373.xlsx). Si [IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot) est **false**, le point de données se trouve à l'intérieur du diagramme circulaire, ou s'il est **true**, alors le point de données se trouve à l'intérieur de la barre.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Value: 15
 

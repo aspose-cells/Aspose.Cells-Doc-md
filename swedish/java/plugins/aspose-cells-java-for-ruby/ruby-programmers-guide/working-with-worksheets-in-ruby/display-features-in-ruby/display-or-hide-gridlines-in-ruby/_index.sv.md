@@ -1,16 +1,17 @@
-﻿---
-title: Visa eller dölj rutnät i rubin
+---
+title: Visa eller dölj rutnät i Ruby
 type: docs
 weight: 10
 url: /sv/java/display-or-hide-gridlines-in-ruby/
 ---
-## **Aspose.Cells - Visa eller dölj rutnätslinjer**
-### **Dölja rutnät**
- För att dölja kalkylblad med**Aspose.Cells Java för Ruby** , ringa upp**visahidegridlines** modul.
 
-**Ruby kod**
+## **Aspose.Cells - Visa eller dölj rutnät**
+### **Gömmer rutnätslinjer**
+För att dölja kalkylblad med **Aspose.Cells Java för Ruby**, anropa **displayhidegridlines** modulen.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -37,19 +38,19 @@ workbook.save(data_dir + "output.xls")
 puts "Gridlines are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Gör rutnät synliga**
-För att göra rutnätslinjer synliga, använd arbetsbladsklassens setGridlinesVisible(true) metod.
+### **Gör rutnätslinjer synliga**
+För att göra rutnätet synligt, använd klassen Worksheet metod setGridlinesVisible(true).
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the gridlines of the worksheet
 
 worksheet.setGridlinesVisible(true)
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Visa eller dölj rutnät (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Visa eller Dölj rutnät (Aspose.Cells)** från någon av de sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)

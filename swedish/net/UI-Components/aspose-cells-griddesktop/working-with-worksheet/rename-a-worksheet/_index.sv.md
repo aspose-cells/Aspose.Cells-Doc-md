@@ -1,22 +1,25 @@
-﻿---
+---
 title: Byt namn på ett arbetsblad
 type: docs
 weight: 40
-url: /sv/net/rename-a-worksheet/
+url: /sv/net/aspose-cells-griddesktop/rename-a-worksheet/
+keywords: GridDesktop,byt namn,arbetsblad
+description: Den här artikeln introducerar hur man byter namn på ett arbetsblad i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Det här ämnet diskuterar hur man ändrar namnet på ett kalkylblad med Aspose.Cells.GridDesktop.
+Detta ämne diskuterar hur man ändrar namnet på ett arbetsblad med Aspose.Cells.GridDesktop.
 
 {{% /alert %}} 
 ## **Exempel**
-Att byta namn på ett kalkylblad är en enkel uppgift som kan vara mycket användbar. Till exempel om du vill märka kalkylblad så att det är uppenbart vad var och en innehåller. Till exempel kan en modell ha 12 kalkylblad, var och en namngiven efter månad, för att hålla utgiftsinformation.
+Att döpa om ett arbetsblad är en enkel uppgift som kan vara mycket användbar. Till exempel, om du vill märka arbetsblad så att det är uppenbart vad var och en innehåller. Till exempel kan en modell ha 12 arbetsblad, var och en namngiven efter månad, för att hålla utgiftsinformation.
 
-Så här byter du namn på ett kalkylblad med Aspose.Cells.GridDesktop-kontroll:
+För att byta namn på ett arbetsblad med hjälp av Aspose.Cells.GridDesktop-kontroll:
 
-1. Lägg till en Aspose.Cells.GridDesktop-kontroll i ett formulär.
-1. Få referensen till ett önskat arbetsblad.
-1. Ställ in namnet på kalkylbladet med hjälp av dess referens.
+1. Lägg till en Aspose.Cells.GridDesktop-kontroll på en formulär.
+1. Hämta en referens till ett önskat arbetsblad.
+1. Ange namnet på arbetsbladet med hjälp av dess referens.
 
 
 
@@ -24,6 +27,6 @@ Så här byter du namn på ett kalkylblad med Aspose.Cells.GridDesktop-kontroll:
 
 {{% alert color="primary" %}} 
 
- Innan du ändrar namnet på kalkylbladet måste du komma åt referensen till det kalkylbladet. Det finns många sätt att komma åt en kalkylbladsreferens. För att lära dig mer om dessa sätt, se[Åtkomst till arbetsblad](/cells/sv/net/accessing-worksheet/).
+Innan du ändrar namnet på arbetsbladet krävs det att du får tillgång till referensen för det arbetsbladet. Det finns många sätt att få tillgång till en arbetsboksreferens. För att lära dig om dessa sätt, vänligen hänvisa till [Tillgång till arbetsblad](/cells/sv/net/aspose-cells-griddesktop/tillgang-till-arbetsblad/).
 
 {{% /alert %}}

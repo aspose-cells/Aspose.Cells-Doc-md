@@ -1,12 +1,13 @@
-﻿---
-title: Grafikleri resimlere dönüştürün
+---
+title: Grafikleri Resme Dönüştür
 type: docs
 weight: 10
 url: /tr/net/convert-charts-to-images/
 ---
-**Grafikler**görsel olarak çekicidir ve kullanıcıların verilerdeki karşılaştırmaları, kalıpları ve eğilimleri görmesini kolaylaştırır. Örneğin, çalışma sayfası numaralarından oluşan birkaç sütunu analiz etmek yerine, satışların üç aylık dönemler boyunca düşüp yükselmediğini veya gerçek satışların öngörülen satışlarla nasıl karşılaştırıldığını bir bakışta görebilirsiniz.Bazen, grafiği sunmanız gerekir. uygulamalarınızda veya web sayfalarınızda. Bunu bir Word Belgesine, bir PDF dosyasına, bir Power Point Sunumuna veya başka bir senaryoya eklemeniz gerekebilir. Basitçe, grafiğin bir resim olarak işlenmesini istiyorsunuz, böylece onu uygulamalarınıza kolaylıkla yapıştırabilirsiniz. Bir Resim değerlidir. Sıklıkla, iş sırasında, istatistiksel ve grafiksel bilgilerin anlaşılması ve bakımı kolay bir şekilde sunulması gerekir. Ofis Otomasyonu'nu deneyebilirsiniz, ancak Ofis otomasyonunun kendi dezavantajları vardır. İlgili birkaç neden ve sorun vardır: Örneğin, Güvenlik, Kararlılık, Ölçeklenebilirlik/Hız, Fiyat, Özellikler vb. Office'in sunucu tarafı Otomasyonu. Bir Excel Grafiği'ni kullanarak bir görüntüye dönüştürmek için kullanabileceğiniz başka bir seçenek daha vardır.**Aspose.Cells**.
-## **Grafiği EMF'e Dönüştürme**
-{{< highlight "csharp" >}}
+
+**Grafikler**, görsel olarak çekicidir ve kullanıcıların verilerde karşılaştırmaları, desenleri ve eğilimleri görüntülemelerini kolaylaştırır. Örneğin, birkaç sütun sayısı analiz etmek yerine, satışların üç aylık dönemlerde düşüp yükselip yükselmediğini veya gerçek satışların projeksiyonlu satışlarla nasıl karşılaştığını bir bakışta görebilirsiniz. Bazen, grafikleri uygulamalarınızda veya web sayfalarınızda sunmanız gerekebilir. Belki Word belgesine, bir PDF dosyasına, bir Power Point sunumuna veya başka bir senaryoda eklemek istersiniz. Basitçe söylemek gerekirse, grafikin bir resim olarak oluşturulmasını istersiniz, böylece kolaylıkla uygulamalarınıza yapıştırabilirsiniz. Bir Resim değerlidir. Çalışma sürecinde, istatistiksel ve grafiksel bilgileri anlaşılır ve kolay bakımı yapılan bir şekilde sunmanız gerekebilir. Office Otomasyonunu deneyebilirsiniz ancak Office otomasyonunun kendi eksileri vardır. Birçok neden ve sorun bulunmaktadır: Örn., Güvenlik, Kararlılık, Ölçeklenebilirlik/Hız, Fiyat, Özellikler vb. Kısacası, Microsoft kendisi, Office otomasyonundan yazılım çözümlerine karşı şiddetle tavsiye etme sebepleri bulunmaktadır: Office tarafından sunulan Sunucu Tarafı Otomasyonu için Düşünceler. **Aspose.Cells** kullanarak Excel Grafiklerini bir resme dönüştürmek için kullanabileceğiniz başka bir seçenek bulunmaktadır.
+## **EMF'ye Grafik Dönüştürme**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -64,8 +65,8 @@ chart.ToImage(MyDir + "Chart to EMF Image.Emf", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **Grafiği BMP'e Dönüştürme**
-{{< highlight "csharp" >}}
+## **BMP'ye Grafik Dönüştürme**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -122,8 +123,8 @@ chart.NSeries.Add("A1:B3", true);
 chart.ToImage(MyDir + "Chart to BMP Image.Bmp", System.Drawing.Imaging.ImageFormat.Bmp);
 
 {{< /highlight >}}
-## **Grafiği JPEG'e Dönüştürme**
-{{< highlight "csharp" >}}
+## **JPEG'e Grafik Dönüştürme**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -181,8 +182,8 @@ chart.ToImage(MyDir + "Chart to JPEG Image.Jpeg", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Grafiği PNG'e Dönüştürme**
-{{< highlight "csharp" >}}
+## **PNG'ye Grafik Dönüştürme**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -240,8 +241,8 @@ chart.ToImage(MyDir + "Chart to PNG Image.Png", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **Grafiği TIFF'e Dönüştürme**
-{{< highlight "csharp" >}}
+## **TIFF'e Grafik Dönüştürme**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -299,8 +300,8 @@ chart.ToImage(MyDir + "Chart to Tiff Image.Tiff", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Grafiği Çoklu Sayfaya Dönüştürme TIFF**
-{{< highlight "csharp" >}}
+## **Çoklu Sayfa TIFF'e Grafik Dönüştürme**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -371,6 +372,6 @@ options.OnePagePerSheet = true;
 chart.ToImage(MyDir + "Chart to Tiff Image.tiff", options);
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Converting%20Chart%20to%20Image%20%28Aspose.Cells%29.zip)

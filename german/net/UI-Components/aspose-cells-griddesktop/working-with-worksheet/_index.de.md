@@ -1,6 +1,8 @@
-﻿---
+---
 title: Arbeiten mit Arbeitsblatt
 type: docs
 weight: 40
-url: /de/net/working-with-worksheet/
+url: /de/net/aspose-cells-griddesktop/working-with-worksheet/
 ---
+
+

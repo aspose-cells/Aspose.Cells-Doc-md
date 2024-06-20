@@ -1,35 +1,36 @@
 ---
-title: Calcolo diretto della funzione personalizzata senza scriverla in un foglio di lavoro
-description: Questo articolo illustra come utilizzare la libreria Aspose.Cells per calcolare direttamente le funzioni personalizzate in Microsoft Excel senza scrivere la funzione in un foglio di lavoro. Caricando un file Excel esistente o creando un nuovo file Excel, possiamo utilizzare i metodi forniti da Aspose.Cells per calcolare la funzione personalizzata e ottenere il risultato. Infine, salviamo il file Excel modificato su disco.
-keywords: Aspose.Cells, Excel, custom functions, direct calculations, no need to write, worksheets
+title: Calcolo diretto di una funzione personalizzata senza scriverla in un foglio di lavoro
+description: Questo articolo introduce come utilizzare la libreria Aspose.Cells per calcolare direttamente le funzioni personalizzate in Microsoft Excel senza scriverle nel foglio di lavoro. Caricando un file Excel esistente o creandone uno nuovo, possiamo utilizzare i metodi forniti da Aspose.Cells per calcolare la funzione personalizzata e ottenere il risultato. Alla fine, salviamo il file Excel modificato sul disco.
+keywords: Aspose.Cells, Excel, funzioni personalizzate, calcoli diretti, non c è bisogno di scrivere, fogli di lavoro
 type: docs
 weight: 90
 url: /it/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/
 ---
-##  **Calcolo diretto della funzione personalizzata senza scriverla in un foglio di lavoro**
 
- Questo argomento spiega come calcolare direttamente le funzioni personalizzate senza prima scriverle in un foglio di lavoro. Si prega di utilizzare il[**Worksheet.CalculateFormula(formula stringa, opzioni CalculationOptions)**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3)metodo a questo scopo.
+## **Calcolo diretto della funzione personalizzata senza scriverla in un foglio di lavoro**
 
-Consultare il seguente codice di esempio che illustra l'utilizzo di questo metodo. Abbiamo utilizzato una funzione personalizzata denominata MyCompany.CustomFunction() e calcoliamo il suo valore come "Aspose.Cells". da noi stessi e quindi questo valore viene automaticamente concatenato con il valore della cella A1 che è "Benvenuto a " dal motore di calcolo e il valore finale calcolato restituisce "Benvenuto a Aspose.Cells."". Come puoi vedere in un codice che abbiamo non è stata scritta la nostra funzione personalizzata da nessuna parte in un foglio di lavoro ed è calcolata direttamente dalla nostra logica personalizzata.
+Questo argomento spiega come è possibile calcolare direttamente le funzioni personalizzate senza scriverle prima in un foglio di lavoro. Si prega di utilizzare il metodo [**Worksheet.CalculateFormula(string formula, CalculationOptions opts)**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3) per questo scopo.
 
-###  **Esempio di programmazione**
+Si prega di vedere il seguente codice di esempio che illustra l'uso di questo metodo. Abbiamo utilizzato una funzione personalizzata chiamata MyCompany.CustomFunction() e ne calcoliamo il valore come "Aspose.Cells." e questo valore viene automaticamente concatenato con il valore della cella A1 che è "Benvenuto in " dall'interprete di calcolo e il valore calcolato finale ritorna come "Benvenuto in Aspose.Cells.".". Come si può vedere dal codice, non abbiamo scritto la nostra funzione personalizzata da nessuna parte in un foglio di lavoro ed è calcolata direttamente dalla nostra logica personalizzata.
+
+### **Esempio di programmazione**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ImplementDirectCalculationOfCustomFunction-ImplementDirectCalculationOfCustomFunction.cs" >}}
 
-###  **Uscita della console**
+### **Output della console**
 
-Di seguito è riportato l'output della console del codice di esempio riportato sopra.
+Di seguito è riportato l'output della console del codice di esempio sopra.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Calculated Value: Welcome to Aspose.Cells.
 
 {{< /highlight >}}
 
-###  **Articolo correlato**
+### **Articolo correlato**
 
 {{% alert color="primary" %}}
 
-[Implementa il motore di calcolo personalizzato per estendere il motore di calcolo predefinito di Aspose.Cells](/cells/it/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+[Implementare un motore di calcolo personalizzato per estendere il motore di calcolo predefinito di Aspose.Cells](/cells/it/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}}

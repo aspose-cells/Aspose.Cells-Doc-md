@@ -1,16 +1,17 @@
-﻿---
-title: Filtrer le projet VBA lors du chargement d'un classeur
+---
+title: Filtrer le projet VBA lors du chargement d un classeur
 type: docs
 weight: 140
 url: /fr/net/filter-vba-project-while-loading-a-workbook/
 ---
-## **Filtrer le projet VBA lors du chargement d'un classeur Excel dans C#**
 
-Certains fichiers .xlsm/.xslb contiennent une très grande quantité de macros (ou des macros très, très longues). Aspose.Cells chargera inconditionnellement ces (méta) données lors de l'ouverture de ces classeurs. Vous devrez peut-être contrôler cela cependant[**LoadDataFilterOptionsLoadDataFilterOptionsLoadDataFilterOptions**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) lorsque vous n'avez vraiment besoin d'extraire que des noms de feuilles pour un grand nombre de classeurs, sautant ainsi ce contenu inutile. Ce filtre est fourni en introduisant une nouvelle option,[**LoadDataFilterOptions.VBALoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions).
+## **Filtrer le projet VBA lors du chargement d'un classeur Excel en C#**
 
-## **Exemple de code**
+Certains fichiers .xlsm/.xslb comportent une quantité extrêmement importante de macros (ou des macros très longues). Aspose.Cells chargera inconditionnellement ces données (méta) lors de l'ouverture de tels classeurs. Vous pourriez avoir besoin de contrôler cela via [**LoadDataFilterOptions**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) lorsque vous avez vraiment besoin d'extraire les noms de feuilles pour un grand nombre de classeurs, en sautant ainsi ces contenus inutiles. Ce filtre est fourni en introduisant une nouvelle option, [**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions).
 
-L'exemple de code suivant charge un classeur de sorte que seul VBA soit filtré. Un exemple de fichier pour tester cette fonctionnalité peut être téléchargé à partir du lien suivant :
+## **Code d'exemple**
+
+Le code d'exemple suivant charge un classeur de telle sorte que seul le VBA est filtré. Un fichier exemple pour tester cette fonctionnalité peut être téléchargé à partir du lien suivant :
 
 [sampleMacroEnabledWorkbook.xlsm](79527938.xlsm)
 

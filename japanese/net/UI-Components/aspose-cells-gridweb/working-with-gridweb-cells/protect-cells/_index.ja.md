@@ -1,42 +1,45 @@
-﻿---
-title: プロテクト Cells
+---
+title: セルの保護
 type: docs
 weight: 50
-url: /ja/net/protect-cells/
+url: /ja/net/aspose-cells-gridweb/protect-cells/
+keywords: GridWeb,protect,readonly,editable
+description: この記事では、GridWeb でセルを保護する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-このトピックでは、セルを保護するためのいくつかの手法について説明します。これらの手法を使用すると、開発者は、ユーザーがワークシート内のすべてのセルまたは選択したセル範囲を編集することを制限できます。
+このトピックでは、セルを保護するためのいくつかのテクニックについて説明します。これらのテクニックを使用することで、ワークシート内のすべてまたは選択したセル範囲の編集をユーザーに制限することができます。
 
 {{% /alert %}} 
-## **保護中 Cells**
- Aspose.Cells.GridWeb は、コントロールがセルにあるときにセルの保護レベルを制御するためのいくつかの異なる手法を提供します。[編集モード](/cells/ja/net/enable-different-gridweb-modes/#edit-mode)(デフォルトモード)。これにより、セルがエンド ユーザーによって変更されないように保護されます。
-### **Cells をすべて読み取り専用にする**
-ワークシート内のすべてのセルを読み取り専用に設定するには、ワークシートの SetAllCellsReadonly メソッドを呼び出します。
+## **セルの保護**
+Aspose.Cells.GridWeb は、コントロールが [編集モード](/cells/ja/net/aspose-cells-gridweb/enable-different-gridweb-modes/#edit-mode) (デフォルトモード) にある場合に、セルの保護レベルを制御するためのいくつかの異なる技術を提供しています。これにより、エンドユーザーによるセルの変更を防ぐことができます。
+### **すべてのセルを読み取り専用にする**
+ワークシートのすべてのセルを読み取り専用に設定するには、ワークシートのSetAllCellsReadonlyメソッドを呼び出します。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ProtectCells.aspx-MakeAllCellsReadOnly.cs" >}}
-### **すべての Cells を編集可能にする**
-すべてのセルの保護を解除するには、ワークシートの SetAllCellsEditable メソッドを呼び出します。このメソッドは、SetAllCellsReadonly メソッドとは逆の効果があります。
+### **すべてのセルを編集可能にする**
+すべてのセルの保護を解除するには、ワークシートのSetAllCellsEditableメソッドを呼び出します。このメソッドは、SetAllCellsReadonlyメソッドの逆の効果を持ちます。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ProtectCells.aspx-MakeAllCellsEditable.cs" >}}
-### **選択した Cells を読み取り専用にする**
-セルの範囲のみを保護するには:
+### **選択したセルを読み取り専用にする**
+特定のセル範囲のみを保護するには:
 
-1. まず、SetAllCellsEditable メソッドを呼び出して、すべてのセルを編集可能にします。
-1. ワークシートの SetReadonlyRange メソッドを呼び出して、保護するセルの範囲を指定します。このメソッドは、セルの範囲を指定するために行と列の数を取ります。
+1. SetAllCellsEditableメソッドを呼び出して、まずすべてのセルを編集可能にします。
+1. ワークシートのSetReadonlyRangeメソッドを呼び出して、保護するセルの範囲を指定します。このメソッドは、行数と列数を指定してセルの範囲を取得します。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ProtectCells.aspx-MakeSelectedCellsReadOnly.cs" >}}
-### **選択した Cells を編集可能にする**
-セル範囲の保護を解除するには:
+### **選択したセルを編集可能にする**
+特定のセル範囲の保護を解除するには:
 
-1. SetAllCellsReadonly メソッドを呼び出して、すべてのセルを読み取り専用にします。
-1. ワークシートの SetEditableRange メソッドを呼び出して、編集可能にするセルの範囲を指定します。このメソッドは、セルの範囲を指定するために行と列の数を取ります。
+1. SetAllCellsReadonlyメソッドを呼び出して、まずすべてのセルを読み取り専用にします。
+1. ワークシートのSetEditableRangeメソッドを呼び出して、編集可能にするセルの範囲を指定します。このメソッドは、行数と列数を指定してセルの範囲を取得します。
 
 
 

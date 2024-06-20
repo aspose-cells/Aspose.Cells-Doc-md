@@ -1,39 +1,40 @@
-﻿---
+---
 title: تحرير الاستعلام
 type: docs
 weight: 40
 url: /ar/reportingservices/editing-query/
 ---
+
 لتحرير استعلام في Aspose.Cells.Report.Designer:
 
 1. افتح Microsoft Excel.
-1.  انقر**بناء مجموعة البيانات**على Aspose.Cells.Report.Designer شريط الأدوات (
+1. انقر على **إنشاء مجموعة البيانات** في شريط أدوات Aspose.Cells.Report.Designer
 
-![ما يجب القيام به: image_بديل_نص](editing-query_1.png)
+![todo:image_alt_text](editing-query_1.png)
 
 ).
 
-1.  في مربع الحوار ، حدد مجموعة بيانات ، على سبيل المثال ،**EmpSalesDetail**.
-1.  انقر**تعديل**. 
+1. في مربع الحوار، حدد مجموعة بيانات، على سبيل المثال، **EmpSalesDetail**.
+1. انقر على **تعديل**. 
 
-   **اختيار مجموعة البيانات** 
+   **اختيار مجموعة بيانات** 
 
-![ما يجب القيام به: image_بديل_نص](editing-query_2.png)
-
-
-
-
-1.  Aspose.Cell.Report.Designer يبدأ Microsoft الاستعلام ويفتح الاستعلام للتحرير.
-
-   **تحرير استعلام في Microsoft Query** 
-
-![ما يجب القيام به: image_بديل_نص](editing-query_3.png)
+![todo:image_alt_text](editing-query_2.png)
 
 
 
 
-1.  من Microsoft Query's**ملف** القائمة ، حدد**العودة إلى Aspose.Cells.Report.Designer** 
+1. برنامج Aspose.Cell.Report.Designer يبدأ Microsoft Query ويفتح الاستعلام للتحرير. 
 
-   **ارجع إلى مصمم التقارير** 
+   **تحرير الاستعلام في Microsoft Query** 
 
-![ما يجب القيام به: image_بديل_نص](editing-query_4.png)
+![todo:image_alt_text](editing-query_3.png)
+
+
+
+
+1. من قائمة **ملف** في Microsoft Query، حدد **العودة إلى Aspose.Cells.Report.Designer** 
+
+   **العودة إلى مصمم التقرير** 
+
+![todo:image_alt_text](editing-query_4.png)

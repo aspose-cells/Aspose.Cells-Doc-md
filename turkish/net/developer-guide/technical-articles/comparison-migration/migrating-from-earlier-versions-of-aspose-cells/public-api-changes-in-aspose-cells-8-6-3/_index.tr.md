@@ -1,23 +1,24 @@
-﻿---
-title: Genel API Aspose.Cells'deki değişiklikler 8.6.3
+---
+title: Aspose.Cells 8.6.3 te Kamu API Değişiklikleri
 type: docs
 weight: 220
 url: /tr/net/public-api-changes-in-aspose-cells-8-6-3/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.6.2'den 8.6.3'e modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen sınıfları değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, Aspose.Cells API'sinde 8.6.2'den 8.6.3'e yapılan değişiklikleri modül/uygulama geliştiricileri için ilginç olabilecek değişiklikleri açıklar. Yeni ve güncellenmiş kamu metodları, eklenen sınıfların yanı sıra Aspose.Cells'in arka planda olan herhangi bir değişikliği de içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Verileri İçe Aktarırken HTML Ayrıştırma Desteği**
-Aspose.Cells for .NET API'in bu sürümü, API'i Çalışma Sayfasına veri aktarırken HTML etiketlerini ayrıştırmaya ve ayrıştırılan sonucu hücre değeri olarak ayarlamaya yönlendiren ImportTableOptions.IsHtmlString özelliğini ortaya çıkardı. Lütfen Aspose.Cells API'lerinin bu görevi tek bir hücre için gerçekleştirmek üzere Cell.HtmlString'i zaten sağladığını unutmayın, ancak verileri bir DataTable'dan toplu olarak içe aktarırken, ImportTableOptions.IsHtmlString özelliği (true olarak ayarlandığında) desteklenen tüm verileri ayrıştırmaya çalışır. HTML, ayrıştırılan sonuçları ilgili hücrelere etiketler ve ayarlar.
+## **Eklenen API'lar**
+### **Veri İçeri Aktarılırken HTML Ayrışma Desteği**
+Aspose.Cells for .NET API'nin bu sürümü, ImportTableOptions.IsHtmlString özelliğini açığa çıkardı. Bu özellik, API'nin Veri Tablo üzerine veri aktarırken HTML etiketlerini ayrıştırmak ve ayrıştırılmış sonucu hücre değeri olarak ayarlamak için yönlendirmektedir. Lütfen dikkat edin, Aspose.Cells API'lerinin zaten tek bir hücre için bu görevi gerçekleştirmek için Cell.HtmlString'i sağladığını, ancak DataTable gibi toplu veri aktarılırken, ImportTableOptions.IsHtmlString özelliğinin (true olarak ayarlandığında) tüm desteklenen HTML etiketlerini ayrıştırmaya çalıştığını ve ayrıştırılmış sonuçları karşılık gelen hücrelere ayarladığını belirtmek gerekir.
 
 İşte en basit kullanım senaryosu.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //create an instance of ImportTableOptions
 
@@ -34,14 +35,14 @@ cells.ImportData(table, 0, 0, importOptions);
 {{< /highlight >}}
 
 
-### **Yöntem Workbook.CreateBuiltinStyle Eklendi**
- Aspose.Cells for .NET 8.6.3, Workbook.CreateBuiltinStyle öğelerinden birine karşılık gelen Style sınıfından bir nesne oluşturmak için kullanılabilecek yöntemi ortaya çıkardı.[Excel uygulaması tarafından sunulan yerleşik stiller](/cells/tr/net/using-built-in-styles/)Workbook.CreateBuiltinStyle yöntemi, DahiliStyleType numaralandırmasından bir sabit kabul eder. Aspose.Cells API'lerinin önceki sürümleriyle aynı görevin StyleCollection.CreateBuiltinStyle yöntemiyle gerçekleştirilebileceğini ancak Aspose.Cells API'lerinin son sürümleri StyleCollection sınıfını kaldırdığından, yeni kullanıma sunulan Workbook.CreateBuiltinStyle yönteminin alternatif bir yaklaşım olarak değerlendirilebileceğini unutmayın. aynısını elde etmek.
+### **Workbook.CreateBuiltinStyle Yöntemi Eklendi**
+Aspose.Cells for .NET 8.6.3, Excel uygulaması tarafından sunulan [yerleşik stiller kullanılarak](/cells/tr/net/built-in-styles-kullanimi/) Style sınıfına karşılık gelen bir nesne oluşturmak için kullanılabilecek Workbook.CreateBuiltinStyle yöntemini açığa çıkardı. Workbook.CreateBuiltinStyle yöntemi, BuiltinStyleType numaralandırmasından sabit bir değer kabul etmektedir. Lütfen dikkat edin, önceki Aspose.Cells API sürümleriyle aynı görev, StyleCollection.CreateBuiltinStyle yöntemi aracılığıyla gerçekleştirilebiliyordu ancak Aspose.Cells API'lerinin son sürümleri, StyleCollection sınıfını kaldırdığından dolayı, yeni başlatılan Workbook.CreateBuiltinStyle yöntemi, aynı işi gerçekleştirmenin alternatif bir yaklaşımı olarak düşünülebilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -56,14 +57,14 @@ var style = book.CreateBuiltinStyle(BuiltinStyleType.Title);
 {{< /highlight >}}
 
 
-### **Yöntem Cells.ImportGridView Eklendi**
-Aspose.Cells for .NET 8.6.3, Cells.ImportGridView'ün artık içe aktarma işlemi üzerinde daha fazla kontrol sağlamak için bir ImportTableOptions örneğini kabul edebilen aşırı yüklenmiş bir sürümünü kullanıma sundu.
+### **Cells.ImportGridView Yöntemi Eklendi**
+Aspose.Cells for .NET 8.6.3, ImportTableOptions örneğini kabul edebilecek şekilde yeniden yüklenmiş bir Cells.ImportGridView versiyonunu açığa çıkardı ve veri aktarım süreci üzerinde daha fazla kontrol sağlamaktadır.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -90,14 +91,14 @@ cells.ImportGridView(gridView, 0, 0, importOptions);
 {{< /highlight >}}
 
 
-### **Özellik ImportTableOptions.ConvertGridStyle Eklendi**
-Yukarıda belirtilen geliştirmelere referans olarak, Aspose.Cells for .NET API'in en son sürümü de ImportTableOptions.ConvertGridStyle özelliğini kullanıma sunmuştur. Bu Boole türü özelliği, geliştiricilerin içe aktarılan verilerin görünümünü kontrol etmelerine olanak tanır; burada ImportTableOptions.ConvertGridStyle özelliğinin true olarak ayarlanması, API'in verilerin içe aktarıldığı hücrelere GridView stilini uygulayacağını belirtir.
+### **ImportTableOptions.ConvertGridStyle Özelliği Eklendi**
+Yukarıdaki geliştirmelerle ilgili olarak, Aspose.Cells for .NET API'nin en son sürümü ayrıca ImportTableOptions.ConvertGridStyle özelliğini açığa çıkardı. Bu Boolean tip özellik, geliştiricilere, içeri aktarılan verinin görünümünü kontrol etme imkanı verir. ImportTableOptions.ConvertGridStyle özelliğini true olarak ayarlamak, API'nin, veri içeri aktarılan hücrelere GridView'in stilini uygulayacağı anlamına gelir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -126,14 +127,14 @@ cells.ImportGridView(gridView, 0, 0, importOptions);
 {{< /highlight >}}
 
 
-### **Özellik LoadDataOption.OnlyVisibleWorksheet Eklendi**
- Aspose.Cells for .NET 8.6.3, true olarak ayarlandığında Aspose.Cells for .NET API'in yükleme mekanizmasını etkileyecek olan LoadDataOption.OnlyVisibleWorksheet özelliğini ortaya çıkardı, sonuç olarak belirli bir elektronik tablodan yalnızca görünür çalışma sayfaları yüklenecek. lütfen kontrol ediniz[ayrıntılı makale](/cells/tr/net/different-ways-to-open-files/) bu konuda.
+### **LoadDataOption.OnlyVisibleWorksheet Özelliği Eklendi**
+Aspose.Cells for .NET 8.6.3, LoadDataOption.OnlyVisibleWorksheet özelliğini açığa çıkardı. Bu özellik true olarak ayarlandığında, API'nin yükleme mekanizmasını etkileyerek, verilen bir elektronik tablodan yalnızca görünür çalışma sayfaları yüklenecektir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadDataOption
 
@@ -160,8 +161,8 @@ loadOptions.LoadDataOptions = loadDataOptions;
 var book = new Workbook(inputFilePath, loadOptions);
 
 {{< /highlight >}}
-## **Eski API'ler**
-### **Yöntem Worksheet.CopyConditionalFormatting Kullanılmayan**
-Worksheet.CopyConditionalFormatting yöntemine alternatif olarak Cells.CopyRows veya Range.Copy yöntemlerinden herhangi birinin kullanılması önerilir.
-### **Özellik Cells.End Eskidi**
-Lütfen Cells.End özelliğine alternatif olarak Cells.LastCell özelliğini kullanın.
+## **Eskimiş API'lar**
+### **Worksheet.CopyConditionalFormatting Yöntemi Eskiler**
+Worksheet.CopyConditionalFormatting yönteminin yerine, Cells.CopyRows veya Range.Copy yöntemlerinden herhangi birini kullanmanız önerilir.
+### **Eskiye Çıkarılan Cells.End Özelliği**
+Cells.End özelliğinin yerine lütfen Cells.LastCell özelliğini kullanın.

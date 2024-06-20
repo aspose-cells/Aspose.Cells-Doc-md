@@ -1,16 +1,17 @@
-﻿---
-title: Identifiera sammanslagna Cells med Aspose.Cells
+---
+title: Identifiera sammanslagna celler med Aspose.Cells
 type: docs
 weight: 30
 url: /sv/java/detect-merged-cells-using-aspose-cells/
 ---
-## **Aspose.Cells - Detect Merged Cells**
-Microsoft Excel kan flera celler slås samman till en. Detta används ofta för att skapa komplexa tabeller eller för att skapa en cell som innehåller en rubrik som sträcker sig över flera kolumner.
-Aspose.Cells låter dig identifiera sammanslagna cellområden i ett kalkylblad. Du kan också ta bort dem.
+
+## **Aspose.Cells - Identifiera sammanslagna celler**
+I Microsoft Excel kan flera celler slås samman till en. Detta används ofta för att skapa komplexa tabeller eller för att skapa en cell som innehåller en rubrik som omfattar flera kolumner.
+Aspose.Cells låter dig identifiera områden med sammanslagna celler i ett kalkylblad. Du kan också avslå dem.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the merged cells list to put it into the arraylist object
 
@@ -53,14 +54,14 @@ for(int i = al.size()-1 ; i > -1; i--)
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDetectMergeCells.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Identifiera sammanslagna Cells i ett kalkylblad](/cells/sv/java/detect-merged-cells-in-a-worksheet).
+För mer information, besök [Identifiera sammanslagna celler i ett kalkylblad](/cells/sv/java/identifiera-sammanslagna-celler-i-ett-kalkylblad).
 
 {{% /alert %}}

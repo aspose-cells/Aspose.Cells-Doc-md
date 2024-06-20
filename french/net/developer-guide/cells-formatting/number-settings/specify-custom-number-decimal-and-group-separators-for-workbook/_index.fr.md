@@ -1,29 +1,30 @@
-﻿---
-title: Spécifier des séparateurs décimaux et de groupe personnalisés pour le classeur
+---
+title: Spécifier les séparateurs de décimales et de groupes de nombres personnalisés pour le classeur
 type: docs
 weight: 110
 url: /fr/net/specify-custom-number-decimal-and-group-separators-for-workbook/
-description: Changez le nombre décimal et le séparateur de groupe dans MS Excel et avec le code C# en utilisant le Aspose.Cells for .NET API.
-keywords: specify custom decimal separator excel, specify custom decimal separator excel c#, specify custom group separator excel, specify custom group separator excel c#, specify custom decimal and group separator excel, specify custom decimal and group separator excel c#, change decimal and group separator excel c#, change decimal and group separator excel, change decimal separator excel, change decimal separator excel c#, change group separator excel, change group separator excel c#
+description: Changer le séparateur de décimales et de groupes de nombres dans MS Excel et avec du code C# en utilisant l API Aspose.Cells for .NET.
+keywords: spécifier le séparateur décimal personnalisé excel, spécifier le séparateur décimal personnalisé excel c#, spécifier le séparateur de groupe personnalisé excel, spécifier le séparateur de groupe personnalisé excel c#, spécifier le séparateur décimal et de groupe personnalisé excel, spécifier le séparateur décimal et de groupe personnalisé excel c#, changer le séparateur décimal et de groupe excel c#, changer le séparateur décimal et de groupe excel, changer le séparateur décimal excel, changer le séparateur décimal excel c#, changer le séparateur de groupe excel, changer le séparateur de groupe excel c#
 ---
+
 {{% alert color="primary" %}}
 
- Dans Microsoft Excel, vous pouvez spécifier les séparateurs décimaux et des milliers personnalisés au lieu d'utiliser des séparateurs système à partir du**Options Excel avancées** comme indiqué dans la capture d'écran ci-dessous.
+Dans Microsoft Excel, vous pouvez spécifier les séparateurs décimaux et de milliers personnalisés au lieu d'utiliser les Séparateurs Système à partir des **Options Excel Avancées** comme indiqué dans la capture d'écran ci-dessous.
 
- Aspose.Cells fournit le[**WorkbookSettings.NumberDecimalSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numberdecimalseparator) et[**WorkbookSettings.NumberGroupSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numbergroupseparator) properties pour définir les séparateurs personnalisés pour le formatage/l'analyse des nombres.
+Aspose.Cells fournit les propriétés [**WorkbookSettings.NumberDecimalSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numberdecimalseparator) et [**WorkbookSettings.NumberGroupSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numbergroupseparator) pour définir les séparateurs personnalisés pour le formatage/analyse des nombres.
 
 {{% /alert %}}
 
-## **Spécification de séparateurs personnalisés à l'aide de Microsoft Excel**
+## **Spécification des séparateurs personnalisés à l'aide de Microsoft Excel**
 
-La capture d'écran suivante montre le**Options Excel avancées** et met en surbrillance la section pour spécifier le**Séparateurs personnalisés**.
+La capture d'écran suivante montre les **Options Excel Avancées** et met en évidence la section pour spécifier les **Séparateurs Personnalisés**.
 
-![tâche : image_autre_texte](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
+![todo:image_alt_text](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 
-## **Spécification de séparateurs personnalisés à l'aide de Aspose.Cells**
+## **Spécification des séparateurs personnalisés à l'aide de Aspose.Cells**
 
-L'exemple de code suivant illustre comment spécifier les séparateurs personnalisés à l'aide de Aspose.Cells API. Il spécifie les séparateurs décimaux et de groupe personnalisés comme point et espace respectivement.
+Le code d'exemple suivant illustre comment spécifier les séparateurs personnalisés à l'aide de l'API Aspose.Cells. Il spécifie les séparateurs de décimales et de groupes numériques personnalisés comme point et espace respectivement.
 
-### C# code pour spécifier les séparateurs décimaux et de groupe personnalisés
+### Code C# pour spécifier des séparateurs numériques décimaux et de groupes personnalisés
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CustomDecimalAndGroupSeparator-CustomDecimalAndGroupSeparator.cs" >}}

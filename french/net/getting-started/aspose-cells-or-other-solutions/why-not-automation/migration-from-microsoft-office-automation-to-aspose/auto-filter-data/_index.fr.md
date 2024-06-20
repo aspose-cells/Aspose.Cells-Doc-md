@@ -1,35 +1,36 @@
-﻿---
-title: Filtrer automatiquement les données
+---
+title: Filtrage automatique des données
 type: docs
 weight: 120
 url: /fr/net/auto-filter-data/
 ---
+
 {{% alert color="primary" %}}
 
-Pour comprendre quelles données se trouvent dans une plage, il est souvent plus facile de trier et de filtrer les données que de regarder des colonnes de données non ordonnées. Le tri organise les données par ordre croissant ou décroissant, ce qui facilite la recherche de valeurs spécifiques. Le filtrage des données vous permet de n'afficher que certaines valeurs. Cela permet de se concentrer sur des éléments particuliers dans les enregistrements de vente, par exemple.
+Pour comprendre quelles données se trouvent dans une plage, il est souvent plus facile de trier et filtrer les données que d'examiner des colonnes de données non ordonnées. Le tri organise les données soit par ordre croissant soit par ordre décroissant, ce qui facilite la recherche de valeurs spécifiques. Le filtrage des données vous permet de ne montrer que certaines valeurs. Cela permet de se concentrer sur des éléments particuliers dans les enregistrements de ventes, par exemple.
 
-Les utilisateurs d'Excel Microsoft peuvent appliquer un filtrage automatique aux colonnes. Le filtrage automatique ajoute un menu en haut de la colonne, à partir duquel vous pouvez trier les données de colonne de filtrage. Cette fonctionnalité est également disponible pour les développeurs qui travaillent avec des feuilles de calcul Excel, via VSTO ou Aspose.Cells for .NET.
+Les utilisateurs de Microsoft Excel peuvent appliquer un filtre automatique aux colonnes. Le filtrage automatique ajoute un menu en haut de la colonne, à partir duquel vous pouvez trier ou filtrer les données de la colonne. Cette fonctionnalité est également disponible pour les développeurs qui travaillent avec des feuilles de calcul Excel, que ce soit par le biais de VSTO ou de Aspose.Cells for .NET.
 
 {{% /alert %}}
 
 ## **Filtrage automatique des données**
 
-Pour appliquer le filtrage automatique à une colonne :
+Pour appliquer un filtrage automatique à une colonne:
 
-1. Créez un classeur.
-1. Obtenez une feuille de travail.
-1. Ajoutez des exemples de données.
-1. Appliquer le filtre automatique.
-1. Ajustement automatique des colonnes pour rendre l'affichage attrayant.
+1. Créer un classeur.
+1. Obtenir une feuille de calcul.
+1. Ajouter des données d'exemple.
+1. Appliquer un filtre automatique.
+1. Adapter automatiquement les colonnes pour rendre l'affichage attrayant.
 1. Enregistrez la feuille de calcul.
 
- Les exemples de code de cet article montrent comment effectuer ces étapes à l'aide de[VSTO](/cells/fr/net/auto-filter-data/) avec C# ou Visual Basic, ou en utilisant[Apose.Cells](/cells/fr/net/auto-filter-data/), toujours avec C# ou Visual Basic.
+Les exemples de code dans cet article montrent comment effectuer ces étapes à l'aide de [VSTO](/cells/fr/net/auto-filter-data/) avec soit C# ou Visual Basic, ou en utilisant [Apose.Cells](/cells/fr/net/auto-filter-data/), encore une fois avec soit C# ou Visual Basic.
 
 ### **Filtrage automatique des données avec VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -57,27 +58,27 @@ Excel.Worksheet sheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Add data into A1 and B1 Cells as headers.
 
-sheet.Cells[1, 1]= "Product ID";
+sheet.Cells[1, 1] = "Product ID";
 
-sheet.Cells[1, 2]= "Product Name";
+sheet.Cells[1, 2] = "Product Name";
 
 //Add data into details cells.
 
-sheet.Cells[2, 1]= 1;
+sheet.Cells[2, 1] = 1;
 
-sheet.Cells[3, 1]= 2;
+sheet.Cells[3, 1] = 2;
 
-sheet.Cells[4, 1]= 3;
+sheet.Cells[4, 1] = 3;
 
-sheet.Cells[5, 1]= 4;
+sheet.Cells[5, 1] = 4;
 
-sheet.Cells[2, 2]= "Apples";
+sheet.Cells[2, 2] = "Apples";
 
-sheet.Cells[3, 2]= "Bananas";
+sheet.Cells[3, 2] = "Bananas";
 
-sheet.Cells[4, 2]= "Grapes";
+sheet.Cells[4, 2] = "Grapes";
 
-sheet.Cells[5, 2]= "Oranges";
+sheet.Cells[5, 2] = "Oranges";
 
 //Enable Auto-filter.           
 
@@ -109,15 +110,15 @@ objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
 {{< /highlight >}}
 
-**Filtre automatique appliqué avec VSTO** 
+**Filtrage automatique appliqué avec VSTO** 
 
-![tâche : image_autre_texte](auto-filter-data_1.png)
+![todo:image_alt_text](auto-filter-data_1.png)
 
 ### **Filtrage automatique des données avec Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -169,6 +170,6 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 
 {{< /highlight >}}
 
-**Filtre automatique appliqué avec Aspose.Cells for .NET** 
+**Filtrage automatique appliqué avec Aspose.Cells for .NET** 
 
-![tâche : image_autre_texte](auto-filter-data_2.png)
+![todo:image_alt_text](auto-filter-data_2.png)

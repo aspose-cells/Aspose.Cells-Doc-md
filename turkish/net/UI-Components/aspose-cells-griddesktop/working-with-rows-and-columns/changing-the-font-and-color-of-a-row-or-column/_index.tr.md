@@ -1,26 +1,29 @@
-﻿---
-title: Satır veya Sütunun Yazı Tipini ve Rengini Değiştirme
+---
+title: Satır veya Sütunun Yazı Tipi ve Rengini Değiştirme
 type: docs
 weight: 110
-url: /tr/net/changing-the-font-and-color-of-a-row-or-column/
+url: /tr/net/aspose-cells-griddesktop/change-the-font-and-color-of-a-row-or-column/
+keywords: GridDesktop, yazı tipi, renk
+description: Bu makale, GridDesktop te satır veya sütunda yazı tipi ve rengini değiştirmeyi tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konuda, bir çalışma sayfasının satır ve sütunlarının yazı tipini ve yazı rengini değiştirmeyi tartışacağız. Bu, Aspose.Cells.GridDesktop tarafından sunulan temel düzeyde bir biçimlendirme özelliğidir ve geliştiricilerin çalışma sayfalarının görünümünü daha şık hale getirmek için özelleştirmelerine olanak tanır.
+Bu konuda, Geliştiricilere çalışsayfalarını daha sunulabilir hale getirmek için görünümünü özelleştirmelerini sağlayan Aspose.Cells.GridDesktop tarafından sunulan temel düzey bir biçimlendirme özelliği olan çalışsayfaların satır ve sütunlarının yazı tipi ve yazı rengini değiştirme hakkında konuşacağız.
 
 {{% /alert %}} 
-## **Bir Sütunun Yazı Tipini ve Rengini Değiştirme**
+## **Bir Sütunun Yazı Tipi ve Rengini Değiştirme**
 Aspose.Cells.GridDesktop kullanarak bir sütunun yazı tipini ve rengini değiştirmek için lütfen aşağıdaki adımları izleyin:
 
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Erişim**Kolon** yazı tipi ve rengi değiştirilecek olan
--  özelleştirilmiş oluşturun**Yazı tipi**
--  Yı kur**Yazı tipi** arasında**Kolon** özelleştirilmiş olana
--  Son olarak ayarla**Yazı rengi** arasında**Kolon** istenilen herhangi**Renk**
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- Yazı tipi ve rengi değiştirilecek olan bir **Sütuna** erişin
+- Özelleştirilmiş bir **Yazı Tipi** oluşturun
+- **Sütunun** Yazı Tipini özelleştirilmiş olanla ayarlayın
+- Son olarak, **Sütunun Yazı Rengini** istenilen herhangi bir **Renk** ile ayarlayın
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 
@@ -43,16 +46,16 @@ column.SetFont(font);
 column.SetFontColor(Color.Blue);
 
 {{< /highlight >}}
-## **Bir Satırın Yazı Tipini ve Rengini Değiştirme**
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Erişim**Sıra** yazı tipi ve rengi değiştirilecek olan
--  özelleştirilmiş oluşturun**Yazı tipi**
--  Yı kur**Yazı tipi** arasında**Sıra** özelleştirilmiş olana
--  Son olarak ayarla**Yazı rengi** arasında**Sıra** istenilen herhangi**Renk**
+## **Bir Satırın Yazı Tipi ve Rengini Değiştirme**
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- Yazı tipi ve rengi değiştirilecek olan bir **Sıraya** erişin
+- Özelleştirilmiş bir **Yazı Tipi** oluşturun
+- **Sıranın** Yazı Tipini özelleştirilmiş olanla ayarlayın
+- Son olarak, **Sıranın Yazı Rengini** istenilen herhangi bir **Renk** ile ayarlayın
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 

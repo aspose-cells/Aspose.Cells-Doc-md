@@ -1,5 +1,5 @@
 ---
-title: 电子表格编辑器 - 使用函数
+title: 电子表格编辑器  使用函数
 type: docs
 weight: 60
 url: /zh/java/spreadsheet-editor-working-with-functions/

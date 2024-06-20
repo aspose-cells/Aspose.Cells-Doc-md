@@ -1,28 +1,29 @@
-﻿---
-title: Editor di fogli di calcolo - Lavorare con Cells
+---
+title: Editor del Foglio di Calcolo  Lavorare con le Celle
 type: docs
 weight: 40
 url: /it/java/spreadsheet-editor-working-with-cells/
 ---
-**Sommario**
 
-- [Selezionando uno Cell](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
- - Cell selezione richiamata
-- [Cancella un Cell](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
- - WorksheetView.removeCellShiftUp
- - WorksheetView.removeCellShiftLeft
-- [Cancella un Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- WorksheetView.clearCurrentCellFormatting
- - WorksheetView.clearCurrentCellContents
- - WorksheetView.clearCurrentCell
-### **Selezionando uno Cell**
-Usa il puntatore del mouse per indicare una cella. Fare clic su una cella per selezionarla. La cella selezionata è evidenziata da un rettangolo in grassetto.
+**Tabella dei contenuti**
+
+- [Selezione di una cella](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
+  - Richiamata di selezione della cella
+- [Elimina una cella](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
+  - WorksheetView.removeCellShiftUp
+  - WorksheetView.removeCellShiftLeft
+- [Cancella una cella](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
+  - WorksheetView.clearCurrentCellFormatting
+  - WorksheetView.clearCurrentCellContents
+  - WorksheetView.clearCurrentCell
+### **Selezione di una cella**
+Usa il puntatore del mouse per puntare a una cella. Clicca su una cella per selezionarla. La cella selezionata è evidenziata da un rettangolo in grassetto.
 
 **Come funziona?**
 
-Quando l'utente fa clic su una cella, l'evento viene gestito dalla funzione di callback JavaScript collegata al componente Primefaces.
-#### **Cell selezione richiamata**
-{{< highlight "java" >}}
+Quando l'utente clicca su una cella, l'evento è gestito da una funzione di callback JavaScript che è allegata al componente Primefaces.
+#### **Callback selezione cella**
+{{< highlight java >}}
 
                      var columnId = $(this).find('.ui-cell-editor-input input').attr('data-columnid');
 
@@ -91,21 +92,21 @@ Quando l'utente fa clic su una cella, l'evento viene gestito dalla funzione di c
                     $this.selectedCell = this;
 
 {{< /highlight >}}
-### **Cancella un Cell**
+### **Elimina una cella**
 Per eliminare una cella:
 
-1. Fare clic su una cella che si desidera eliminare.
-1.  Passa a**Scheda Formato**.
-1.  Clic**Cancella Cell** pulsante.
-1.  Scegliere**Turno Cells Su** o**Maiusc Cells Sinistra** pulsante.
+1. Fai clic su una cella che desideri eliminare.
+1. Passare alla scheda **Formato**.
+1. Fai clic sul pulsante **Elimina cella**.
+1. Scegli il pulsante **Sposta celle in su** o **Sposta celle a sinistra**.
 
-L'editor eliminerà la cella selezionata. Le celle adiacenti verranno automaticamente spostate orizzontalmente o verticalmente per regolare lo spazio.
+L'editor eliminerà la cella selezionata. Le celle adiacenti verranno spostate automaticamente sia orizzontalmente che verticalmente per adattare lo spazio.
 
 **Come funziona?**
 
- Il**Turno Cells Su** e**Maiusc Cells Sinistra** sono gestiti dal bean backend JSF**Foglio di lavoroVisualizza**. Il codice sorgente dei rispettivi metodi è il seguente:
+I pulsanti **Sposta celle in su** e **Sposta celle a sinistra** sono gestiti dal bean backend JSF **WorksheetView**. Il codice sorgente dei rispettivi metodi è il seguente:
 #### **WorksheetView.removeCellShiftUp**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftUp() {
 
@@ -124,7 +125,7 @@ L'editor eliminerà la cella selezionata. Le celle adiacenti verranno automatica
 {{< /highlight >}}
 
 #### **WorksheetView.removeCellShiftLeft**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftLeft() {
 
@@ -141,21 +142,21 @@ L'editor eliminerà la cella selezionata. Le celle adiacenti verranno automatica
     }
 
 {{< /highlight >}}
-### **Cancella un Cell**
+### **Cancella una cella**
 Per cancellare una cella:
 
-1. Fare clic su una cella che si desidera cancellare.
-1.  Passa a**Scheda Formato**.
-1.  Clic**Chiaro Cell** pulsante.
-1.  Scegliere**Formati**, **Contenuti** o**Tutti e due** opzione.
+1. Fai clic su una cella che desideri cancellare.
+1. Passare alla scheda **Formato**.
+1. Fare clic sul pulsante **Cancella cella**.
+1. Scegliere l'opzione **Formati**, **Contenuti** o **Entrambi**.
 
 L'editor cancellerà la cella selezionata.
 
 **Come funziona?**
 
- Il**Formati**, **Contenuti** e**Tutti e due** sono gestiti dal bean backend JSF**Foglio di lavoroVisualizza**. Il codice sorgente dei rispettivi metodi è il seguente:
+I **Formati**, i **Contenuti** e **Entrambi** sono gestiti dal bean backend JSF **WorksheetView**. Il codice sorgente dei metodi rispettivi è il seguente:
 #### **WorksheetView.clearCurrentCellFormatting**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellFormatting() {
 
@@ -176,7 +177,7 @@ L'editor cancellerà la cella selezionata.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCellContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellContents() {
 
@@ -197,7 +198,7 @@ L'editor cancellerà la cella selezionata.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCell**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCell() {
 

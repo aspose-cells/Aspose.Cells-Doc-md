@@ -1,16 +1,17 @@
-﻿---
-title: Rendern Sie Office-Add-Ins, während Sie Excel in PDF konvertieren
+---
+title: Office Add Ins beim Konvertieren von Excel in PDF rendern
 type: docs
 weight: 100
 url: /de/net/render-office-add-ins-while-converting-excel-to-pdf/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Früher konnte Aspose.Cells Office-Add-Ins nicht rendern, wenn eine Excel-Datei im PDF-Format gespeichert wurde. Jetzt macht Aspose.Cells es gut. Sie müssen keine spezielle Methode oder Eigenschaft verwenden, um Office-Add-Ins in der Ausgabe PDF zu rendern. Speichern Sie einfach Ihre Excel-Datei im Format PDF, und Office-Add-Ins werden gerendert.
+## **Mögliche Verwendungsszenarien**
 
-## **Rendern Sie Office-Add-Ins, während Sie Excel in PDF konvertieren**
+Früher konnte Aspose.Cells beim Speichern einer Excel-Datei im PDF-Format keine Office-Add-Ins rendern. Jetzt rendern Aspose.Cells es problemlos. Sie müssen keine spezielle Methode oder Eigenschaft verwenden, um Office-Add-Ins im Ausgabe-PDF zu rendern. Speichern Sie einfach Ihre Excel-Datei im PDF-Format und es werden Office-Add-Ins gerendert.
 
- Der folgende Beispielcode speichert die[Beispiel-Excel-Datei](60489769.xlsx) die die Office-Add-Ins enthält. Bitte sehen Sie sich ... an[Ausgabe PDF generiert mit der vorherigen Version, dh 17.11](60489770.pdf) und die[Ausgabe PDF generiert mit neuerer Version, dh 17.12 und höher](60489771.pdf)Die Ausgabe PDF der vorherigen Version ist leer, aber die Ausgabe PDF der neueren Version zeigt das Office-Add-In.
+## **Office-Add-Ins beim Konvertieren von Excel in PDF anzeigen**
+
+Der folgende Beispielcode speichert die [Beispiel-Excel-Datei](60489769.xlsx), die die Office-Add-Ins enthält. Bitte sehen Sie sich das [ausgegebene PDF, das mit der vorherigen Version, d.h. 17.11, generiert wurde](60489770.pdf), und das [ausgegebene PDF, das mit der neueren Version, d.h. 17.12 und neuer, generiert wurde](60489771.pdf) an. Das Ausgabe-PDF der vorherigen Version ist leer, aber das Ausgabe-PDF der neueren Version zeigt das Office-Add-In.
 
 ## **Beispielcode**
 

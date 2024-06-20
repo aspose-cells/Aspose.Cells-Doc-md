@@ -1,15 +1,16 @@
-﻿---
-title: قم بإنشاء مخططات باستخدام Apache POI و Aspose.Cells
+---
+title: إنشاء الرسوم البيانية باستخدام Apache POI و Aspose.Cells
 type: docs
 weight: 50
 url: /ar/java/create-charts-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - تكوين الرسوم البيانية**
-من الممكن إضافة مجموعة متنوعة من المخططات إلى جداول البيانات باستخدام Aspose.Cells. يوفر Aspose.Cells العديد من كائنات الرسوم البيانية المرنة.
+
+## **Aspose.Cells - إنشاء الرسوم البيانية**
+من الممكن إضافة مجموعة متنوعة من الرسوم البيانية إلى جداول البيانات بمساعدة Aspose.Cells. Aspose.Cells توفر العديد من كائنات الرسم البياني المرنة.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -77,7 +78,7 @@ series.setType(ChartType.LINE);
 ## **Apache POI SS (HSSF + XSSF) - إنشاء الرسوم البيانية**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();
 
@@ -141,17 +142,17 @@ data.addSeries(xs, ys2);
 chart.plot(data, bottomAxis, leftAxis);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تنزيل أمثلة تشغيل لـ**قم بإنشاء مخططات باستخدام Apache POI و Aspose.Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل أمثلة تشغيل لـ **إنشاء المخططات باستخدام Apache POI و Aspose.Cells** من أي من مواقع ترميز الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-## **تحميل شفرة المصدر**
- تنزيل الكود المصدري لـ**قم بإنشاء مخططات باستخدام Apache POI و Aspose.Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
+## **تحميل مصدر الكود**
+تنزيل الشفرة المصدرية لـ **إنشاء المخططات باستخدام Apache POI و Aspose.Cells** من أي من مواقع ترميز الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إنشاء الرسوم البيانية المخصصة](/cells/ar/java/creating-and-customizing-charts/).
+لمزيد من التفاصيل، قم بزيارة [إنشاء المخططات المخصصة](/cells/ar/java/creating-and-customizing-charts/).
 
 {{% /alert %}}

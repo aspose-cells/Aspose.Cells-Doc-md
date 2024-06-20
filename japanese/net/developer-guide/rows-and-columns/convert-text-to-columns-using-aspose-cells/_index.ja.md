@@ -1,18 +1,19 @@
-﻿---
-title: Aspose.Cells を使用してテキストを列に変換します
+---
+title: Aspose.Cellsを使用したテキストを列に変換する
 type: docs
 weight: 30
 url: /ja/net/convert-text-to-columns-using-aspose-cells/
 ---
-## **考えられる使用シナリオ**
 
-Microsoft Excel を使用して、テキストを列に変換できます。この機能は、*データ ツール*下*データ*タブ。列の内容を複数の列に分割するには、Microsoft Excel がセルの内容を複数のセルに分割するためのコンマ (またはその他の文字) などの特定の区切り文字をデータに含める必要があります。 Aspose.Cells もこの機能を提供しています[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)方法。
+## **可能な使用シナリオ**
 
-## **Aspose.Cells を使用してテキストを列に変換します**
+Microsoft Excelを使用して、テキストを列に変換することができます。この機能は、*Data*タブの*Data Tools*から利用できます。列の内容を複数の列に分割するには、Microsoft Excelがセルの内容を複数のセルに分割する基準となる、コンマ（または他の文字）などの特定の区切り文字を含むデータが必要です。Aspose.Cellsもこの機能を提供します。[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)メソッドを介して。
 
-次のサンプル コードは、[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)方法。このコードは、最初のワークシートの列 A に人の名前を最初に追加します。姓と名はスペース文字で区切られています。それなら当てはまる[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)メソッドを列 A に追加し、出力 Excel ファイルとして保存します。開くと[出力エクセルファイル](25395213.xlsx)、このスクリーンショットに示すように、名は列 A にあり、姓は列 B にあることがわかります。
+## **Aspose.Cellsを使用したテキストを列に変換する**
 
-![todo:画像_代替_文章](convert-text-to-columns-using-aspose-cells_1.png)
+次のサンプルコードは、[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)メソッドの使用法を説明しています。このコードでは、まず第1ワークシートの列Aに人名を追加します。名前はスペース文字で区切られています。その後、列Aに[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)メソッドを適用し、出力エクセルファイルとして保存します。[出力エクセルファイル](25395213.xlsx)を開くと、名前が列Aに、姓が列Bに表示されます。
+
+![todo:image_alt_text](convert-text-to-columns-using-aspose-cells_1.png)
 
 ## **サンプルコード**
 

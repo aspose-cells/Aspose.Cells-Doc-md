@@ -1,44 +1,45 @@
-﻿---
-title: Skapa pivottabell
+---
+title: Skapa Pivot tabel
 type: docs
 weight: 10
 url: /sv/java/create-pivot-table/
 ---
-## **Skapa pivottabell**
 
-### **Skapa pivottabell med Aspose.Cells**
+## **Skapa Pivottabell**
 
-{{% alert color="primary" %}}
-
- Med Aspose.Cells är det möjligt att lägga till pivottabeller i kalkylblad. Aspose.Cells har ett antal specialklasser som används specifikt för att skapa och styra pivottabeller. Dessa klasser används för att skapa och ställa in egenskaperna för en[**Pivottabell**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)objekt, som används som byggstenar för pivottabellen.
-
-Pivottabellobjekten är:
-
-- [**Pivotfält**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): det representerar ett fält i en pivottabell.
-- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) det representerar en samling av alla[**Pivotfält**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)objekt i pivottabellen.
-- [**Pivottabell**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): den representerar en pivottabell.
-- [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): det representerar samlingen av alla pivottabellobjekt på kalkylbladet.
-
-{{% /alert %}}
-
-### **Skapa en enkel pivottabell**
-
-För att skapa en pivottabell med Aspose.Cells, följ stegen nedan:
-
-1.  Lägg till några data till kalkylbladsceller genom att använda[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) föremål[**satt värde**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)metod. Dessa data kommer att användas som en datakälla för pivottabellen.
-1. Lägg till en pivottabell till kalkylbladet genom att anropa[**Lägg till**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String) ) metod för[**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) klass, inkapslad i[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)objekt.
-1.  Få tillgång till[**Pivottabell**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) objekt från[**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) genom att passera[**Pivottabell**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)index.
-1.  Använd något av pivottabellsobjekten (förklarat ovan) inkapslade i[**Pivottabell**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)objekt för att hantera pivottabellen.
+### **Skapa Pivot-tabell med hjälp av Aspose.Cells**
 
 {{% alert color="primary" %}}
 
-När du tilldelar ett cellintervall som datakälla måste intervallet ställas in från det övre vänstra till det nedre högra hörnet. Till exempel är "A1:C3" giltigt; "C3:A1" är ogiltigt.
+Med Aspose.Cells är det möjligt att lägga till pivot-tabeller i kalkylblad. Aspose.Cells har ett antal specialklasser som används specifikt för att skapa och kontrollera pivot-tabeller. Dessa klasser används för att skapa och ställa in egenskaper för en [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) -objekt, som används som byggstenar för pivot-tabellen.
+
+Pivot-tabell-objekten är:
+
+- [**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): det representerar ett fält i en pivot-tabell.
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection): det representerar en samling av alla [**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField) -objekt i pivot-tabellen.
+- [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): det representerar en pivot-tabell.
+- [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): det representerar en samling av alla pivot-tabell-objekt på kalkylarket.
 
 {{% /alert %}}
 
-Kodexemplet nedan visar hur man skapar en enkel pivottabell genom att följa de grundläggande stegen ovan. När du kör koden läggs en pivottabell till i kalkylbladet:
+### **Skapar en enkel pivot-tabell**
 
-**Skapa en pivottabell baserat på ett motsvarande fält**
+För att skapa en pivot-tabell med Aspose.Cells, följ följande steg:
+
+1. Lägg till några data i arbetsbladsceller genom att använda [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) -objektets [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) -metod. Dessa data kommer att användas som en datakälla för pivot-tabellen.
+2. Lägg till en pivot-tabell på arbetsbladet genom att anropa [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String)) -metoden i [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) -klassen, inkapslad i [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) -objektet.
+1. Hämta objektet [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) från [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) genom att passera indexet [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable).
+1. Använd något av pivot-tabellobjekten (som förklaras ovan) inkapslat i objektet [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) för att hantera pivot-tabellen.
+
+{{% alert color="primary" %}}
+
+När du tilldelar en cellintervall som datakälla måste intervallet vara inställt från det översta vänstra till det nedersta högra. Till exempel är "A1:C3" giltigt; "C3:A1" är ogiltigt.
+
+{{% /alert %}}
+
+Exemplet nedan visar hur man skapar en enkel pivot-tabell enligt de grundläggande stegen som anges ovan. När koden utförs läggs en pivot-tabell till i arbetsbladet:
+
+**Skapa en pivottabell baserad på ett motsvarande fält**
 
 ![todo:image_alt_text](create-pivot-table_1.png)
 

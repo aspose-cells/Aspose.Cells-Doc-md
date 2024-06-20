@@ -1,19 +1,20 @@
-﻿---
-title: Dış Bağlantı Veri Kaynağı Dosyasının Mutlak Yolunu Değiştirme
+---
+title: Harici Bağlantı Veri Kaynağı Dosya nın Mutlak Yolunu Değiştirme
 type: docs
 weight: 1020
 url: /tr/java/change-the-absolute-path-of-external-link-data-source-file/
 ---
-## **Olası Kullanım Senaryoları**
- Harici bağlantı veri kaynağı dosyasının mutlak yolunu değiştirmek istiyorsanız, lütfen[Workbook.AbsolutePath](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#AbsolutePath)Emlak. Başlangıçta, bu özellik, excel dosyasının yüklendiği yerden yola ayarlanacaktır. Ancak onu boş bir dizeye veya bazı yerel klasör yollarına veya uzak ağ yollarına ayarlayabilirsiniz. Bu özelliği her değiştirdiğinizde, dış bağlantı veri kaynak dosyasının yolu da değiştirilecektir.
-## **Dış Bağlantı Veri Kaynağı Dosyasının Mutlak Yolunu Değiştirme**
- Aşağıdaki örnek kod,[örnek excel dosyası](5472589.xlsx) harici bir bağlantı içerir. Önce uzak yolu yazdıran harici bağlantı veri kaynağını yazdırır. Daha sonra uzak yolu kaldırır ve tekrar yazdırır, bu sefer yerel yol ile harici bağlantı veri kaynağını yazdırır. Sonra değiştirir[Workbook.AbsolutePath](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#AbsolutePath)özelliğini yerel ve uzak bir yola aktarır ve dış bağlantı veri kaynağını yeniden yazdırır ve değişiklikler konsol çıktısına yansıtılır.
-## **Basit kod**
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeAbsolutePathofExternalLink-ChangeAbsolutePathofExternalLink.java" >}}
-## **Konsol Çıkışı**
-Yukarıdaki örnek kodun aşağıdaki kodla yürütülmesinden sonraki konsol veya hata ayıklama çıktısı:[örnek excel dosyası](5472589.xlsx).
 
-{{< highlight "java" >}}
+## **Olası Kullanım Senaryoları**
+Mutlak yolunu değiştirmek istiyorsanız Harici Bağlantı Veri Kaynağı Dosya'nın [Workbook.AbsolutePath](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#AbsolutePath) özelliğini kullanın. Bu özellik başlangıçta excel dosyasının yüklenmiş olduğu yolda ayarlanacaktır. Ancak bunu boş bir dizeye ayarlayabilir veya yerel bir klasör yoluna veya uzak ağ yoluna ayarlayabilirsiniz. Bu özelliği değiştirdiğinizde, harici bağlantı veri kaynağı dosyasının yolu da değişir.
+## **Harici Bağlantı Veri Kaynağı Dosya'nın Mutlak Yolunu Değiştirme**
+Aşağıdaki örnek kod, dış bağlantı içeren [örnek excel dosyasını](5472589.xlsx) yükler. İlk olarak harici bağlantı veri kaynağını yazdırır, uzak yolunu yazdırır. Ardından uzak yolu kaldırır ve bu sefer harici bağlantı veri kaynağını yerel yolla yazdırır. Daha sonra [Workbook.AbsolutePath](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#AbsolutePath) özelliğini bir yerel ve uzak yola değiştirir ve harici bağlantı veri kaynağını tekrar yazdırır ve değişiklikler konsol çıktısına yansır.
+## **Örnek Kod**
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeAbsolutePathofExternalLink-ChangeAbsolutePathofExternalLink.java" >}}
+## **Konsol Çıktısı**
+Yukarıdaki örnek kodun yürütülmesinden sonra konsol veya hata ayıklama çıktısı aşağıdaki gibidir [örnek excel dosyası](5472589.xlsx) ile birlikte.
+
+{{< highlight java >}}
 
  External Link Data Source: http:\\ws874dmErit\WebFiles\Files\300\ExternalAccounts.xlsx
 

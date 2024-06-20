@@ -1,15 +1,16 @@
-﻿---
-title: エクスポートされたワークシート HTML ファイル パスを IFilePathProvider インターフェイス経由で提供します
+---
+title: IFilePathProviderインターフェースを介してエクスポートされたワークシートのHTMLファイルパスを提供する
 type: docs
 weight: 870
 url: /ja/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
-## **考えられる使用シナリオ**
-複数のシートを含む Excel ファイルがあり、各シートを個別の HTML ファイルにエクスポートするとします。シートのいずれかに他のシートへのリンクがある場合、それらのリンクはエクスポートされた HTML で壊れます。この問題に対処するために、Aspose.Cells は[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)壊れたリンクを修正するために実装できるインターフェース。
-## **エクスポートされたワークシート HTML ファイル パスを IFilePathProvider インターフェイス経由で提供します**
-をダウンロードしてください[サンプルエクセルファイル](5473417.zip)次のコードとそのエクスポートされた HTML ファイルで使用されます。これらのファイルはすべて*温度*ディレクトリ。あなたはそれを抽出する必要があります*子：*ドライブ。それからそれはなるでしょう*C:\Temp*ディレクトリ。次に、*Sheet1.html*ファイルをブラウザーで開き、その中の 2 つのリンクをクリックします。これらのリンクは、*C:\Temp\OtherSheets*ディレクトリ。
 
-{{< highlight "java" >}}
+## **可能な使用シナリオ**
+例えば、複数のシートを持つエクセルファイルがあり、それぞれのシートを個別のHTMLファイルにエクスポートしたいとします。もし、いくつかのシートに他のシートへのリンクがある場合、そのリンクはエクスポートされたHTMLでは壊れた状態になります。この問題に対処するために、Aspose.Cellsは[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider) インターフェースを提供しており、これを実装して壊れたリンクを修正できます。
+## **IFilePathProviderインターフェースを介してエクスポートされたワークシートのHTMLファイルパスを提供する**
+以下のコードで使用された[サンプルエクセルファイル](5473417.zip)とそのエクスポートされたHTMLファイルをダウンロードしてください。これらのファイルはすべて*Temp*ディレクトリ内にあります。それらを*C:*ドライブに解凍すれば*C:\Temp*ディレクトリになります。その後、ブラウザで*Sheet1.html*ファイルを開き、それに含まれるリンクをクリックしてください。これらのリンクは*Sheet1.html*内にあるこれらの2つのエクスポートされたHTMLワークシートを参照しています。これらのワークシートは*C:\Temp\OtherSheets*ディレクトリ内にあります。
+
+{{< highlight java >}}
 
  file:///C:/Temp/OtherSheets/Sheet2.html#RANGE!A1
 
@@ -17,27 +18,27 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 {{< /highlight >}}
 
-次のスクリーンショットは、*C:\Temp\Sheet1.html*そしてそのリンクは次のようになります
+以下のスクリーンショットは*C:\Temp\Sheet1.html*とそのリンクの外観を示しています
 
-![todo:画像_代替_文章](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
+![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
-次のスクリーンショットは、HTML ソースを示しています。リンクが現在参照していることがわかります。*C:\Temp\OtherSheets*ディレクトリ。これは、[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)インターフェース。
+以下のスクリーンショットはHTMLソースを示しています。リンクが*C:\Temp\OtherSheets*ディレクトリを参照するように修正されたことがわかります。これは[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider) インターフェースを使用して達成されました。
 
-![todo:画像_代替_文章](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
+![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **サンプルコード**
-ご注意ください*C:\Temp*ディレクトリは、説明のみを目的としています。選択した場所の任意のディレクトリを使用できます[サンプルエクセルファイル](5473414.xlsx)その中で、提供されたサンプル コードを実行します。次に作成します*その他のシート*ディレクトリ内のサブディレクトリを開き、その中に 2 番目と 3 番目のワークシート HTML をエクスポートします。を変更してください*dirPath*提供されたコード内の変数で、実行前に選択したディレクトリを参照します。
+注意：*C:\Temp*ディレクトリはイメージです。実行する前に、好きなディレクトリを使用し、[サンプルエクセルファイル](5473414.xlsx)をそのディレクトリに配置し、提供されたサンプルコード内の*dirPath*変数を変更し、実行してください。それにより、指定したディレクトリ内に*OtherSheets*サブディレクトリが作成され、その中に2番目と3番目のワークシートのHTMLがエクスポートされます。
 
 {{% alert color="primary" %}} 
 
-サンプルコードは、Aspose.Cells ライセンスを設定した場合のみ動作します。ライセンスを設定せずにコードを実行しようとすると、無限ループに陥ります。そのため、ライセンスが設定されていない場合は、メッセージを出力して実行を停止するチェックを追加しました。ライセンスを購入するか、Aspose.Purchase チームから 30 日間の一時ライセンスを要求できます。
+提供されたサンプルコードはAspose.Cellsライセンスを設定したときのみ動作します。ライセンスを設定せずにコードを実行しようとすると、無限ループに入ります。そのため、ライセンスが設定されていない場合にはメッセージを表示して実行を停止するチェックが追加されています。ライセンスを購入するか、Aspose.Purchaseチームから30日間の仮ライセンスをリクエストできます。
 
 {{% /alert %}} 
 
-コード内のこれらの行にコメントすると、リンクが壊れます。*Sheet1.html*と*Sheet2.html*また*Sheet3.html*内部でリンクをクリックしても開きません*Sheet1.html*
+これらの行のコメントアウトを解除すると、*Sheet1.html*のリンクが壊れ、*Sheet2.html*または*Sheet3.html*を*Sheet1.html*内のリンクをクリックしても開くことができなくなります
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //If you will comment this line, then hyperlinks will be broken
 
@@ -47,7 +48,7 @@ options.setFilePathProvider(new FilePathProvider());
 
 
 
-以下は、提供されたコマンドで実行できる完全なサンプル コードです。[サンプルエクセルファイル](5473414.xlsx).
+提供された[サンプルエクセルファイル](5473414.xlsx)を使用して、以下の完全なサンプルコードを実行できます。
 
 
 

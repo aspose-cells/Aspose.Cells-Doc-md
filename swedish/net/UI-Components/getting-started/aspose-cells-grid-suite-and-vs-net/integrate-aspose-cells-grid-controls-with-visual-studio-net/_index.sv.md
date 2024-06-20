@@ -1,24 +1,26 @@
-﻿---
-title: Integrera Aspose.Cells Grid Controls med Visual Studio.NET
+---
+title: Integrera Aspose.Cells Grid kontroller med Visual Studio.NET
 type: docs
 weight: 10
 url: /sv/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/
+description: Denna artikel beskriver hur man använder GridWeb och GridDesktop kontroller i Visual Studio .NET.
+keywords:  GridWeb,GridDesktop,visual studio,control,integrate
 ---
+
 {{% alert color="primary" %}} 
 
- Visual Studio.NET-utvecklare kan enkelt dra kontroller från**Verktygslåda** på ett Windows eller webbformulär. Aspose.Cells Grid suite kan laddas ner med ett MSI-installationsprogram eller som en uppsättning DLL-paket. Den här artikeln förklarar vad du ska göra för att se till att Aspose.Cells.Grid-kontroller kan användas i Visual Studio.NET när det är installerat med DLL-filer istället för installationsprogrammet.
+Visual Studio.NET-utvecklare kan enkelt dra kontroller från verktygslådan till en Windows- eller Web-blankett. Aspose.Cells Grid-suite kan laddas ner med en MSI-installatör eller som en uppsättning DLL-filer. Den här artikeln förklarar vad man ska göra för att se till att Aspose.Cells Grid-kontroller kan användas i Visual Studio.NET när de är installerade med DLL-filer istället för installatören.
 
 {{% /alert %}} 
-## **Integrera Aspose.Cells Grid Controls med Visual Studio.NET**
-Så här integrerar du Aspose.Cells Grid-kontroller med Visual Studio.NET:
+## **Integrera Aspose.Cells Grid-kontroller med Visual Studio.NET**
+För att integrera Aspose.Cells Grid-kontroller med Visual Studio.NET:
 
 1. Öppna verktygslådan.
-1. Välj fliken Allmänt (eller någon annan flik som du vill lägga till kontroller på).
+1. Välj fliken Allmänt (eller någon annan flik du vill lägga till kontroller på).
 1. Högerklicka på fliken Allmänt.
-1.  På Visual Studio.NET 2003: Välj**Lägg till/ta bort objekt** från menyn.
-1. På Visual Studio.NET 2005 väljer du**Välj objekt** från menyn. Dialogrutan Anpassa verktygslåda kommer att visas (denna process är ungefär densamma för nyare VS.NET IDE:er (t.ex. VS.NET 2013/2015 eller senare)).
-1.  Klick**Bläddra** och leta upp filerna Aspose.Cells.GridDesktop.dll och Aspose.Cells.GridWeb.dll.
-1.  Välj DLL:erna och klicka sedan**Öppen**. Dialogrutan Anpassa verktygslåda kommer nu att innehålla kontroller från Aspose.Cells Grid Suite. De nyligen tillagda kontrollerna kommer att markeras av dialogrutan.
-1.  Klick**OK** för att lägga till kontrollerna i din Visual Studio.NET Toolbox.
+1. På Visual Studio.NET, välj **Välj objekt** från menyn. Anpassa verktygslådan-dialogrutan kommer att visas (Denna process är mer eller mindre densamma för nyare VS.NET IDEs (t.ex. VS.NET 2013/2015 eller senare)).
+1. Klicka på **Bläddra** och hitta filerna Aspose.Cells.GridDesktop.dll och Aspose.Cells.GridWeb.dll.
+1. Välj DLL-filerna och klicka sedan på **Öppna**. Anpassa verktygslådan-dialogrutan kommer nu innehålla kontroller från Aspose.Cells Grid Suite. De nyss tillagda kontrollerna kommer att markeras av dialogrutan.
+1. Klicka på **OK** för att lägga till kontrollerna i din Visual Studio.NET-verktygslåda.
 
- Aspose.Cells Grid Controls kommer att ha lagts till i verktygslådan**Allmän** flik. Endast GridWeb-kontrollen är inte aktiv. Detta beror på att vi arbetar med en Windows Forms ansökan. GridWeb är endast tillgängligt när du arbetar med webbformulär medan GridDesktop endast kan användas med Windows-formulär.
+Aspose.Cells Grid-kontroller kommer att ha lagts till i verktygslådans **Allmänt** flik. Endast GridWeb-kontrollen är inte aktiv. Detta beror på att vi arbetar med en Windows Forms-applikation. GridWeb är endast tillgänglig när man arbetar med Web Forms medan GridDesktop kan användas endast med Windows-formulär.

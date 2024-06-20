@@ -1,20 +1,21 @@
-﻿---
+---
 title: Slå samman filer
 type: docs
 weight: 10
 url: /sv/java/merge-files/
 ---
+
 ## **Introduktion**
 
- Aspose.Cells ger olika sätt att sammanfoga filer. För enkla filer med data, formatering och formler,[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook) metod kan användas för att kombinera flera arbetsböcker, och[**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) metod kan användas för att kopiera arbetsblad till en ny arbetsbok. Dessa metoder är enkla att använda och effektiva, men om du har många filer att slå samman kan du upptäcka att de tar mycket systemresurser. För att undvika detta, använd den statiska metoden CellsHelper.mergeFiles, ett mer effektivt sätt att slå samman flera filer.
+Aspose.Cells erbjuder olika sätt att slå samman filer. För enkla filer med data, formatering och formler kan metoden [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) användas för att kombinera flera arbetsböcker, och metoden [**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) kan användas för att kopiera arbetsblad till en ny arbetsbok. Dessa metoder är lätta att använda och effektiva, men om du har många filer att slå samman kan det hända att de tar mycket systemresurser. För att undvika detta, använd CellsHelper.mergeFiles, en mer effektiv metod för att slå samman flera filer.
 
-## **Slå ihop filer med Aspose.Cells**
+## **Slå samman filer med hjälp av Aspose.Cells**
 
-Följande exempelkod illustrerar hur man slår samman stora filer med metoden CellsHelper.mergeFiles. Det krävs två enkla men stora filer, MyBook1.xls och MyBook2.xls. Filerna innehåller endast formaterade data och formler.
+Följande exempelkod illustrerar hur man slår samman stora filer med hjälp av metoden CellsHelper.mergeFiles. Den tar två enkla men stora filer, MyBook1.xls och MyBook2.xls. Filerna innehåller endast formaterad data och formler.
 
 {{% alert color="primary" %}}
 
-Metoden CellsHelper.mergeFiles stöder endast sammanslagning av data, stilar, formatering och formler. Objekt som diagram, bilder, kommentarer eller andra objekt kanske inte slås samman med den här metoden. Dessutom används en cachad fil för att lagra temporär data för processen.
+Metoden CellsHelper.mergeFiles stöder endast sammanfogning av data, stilar, formatering och formler. Objekt som diagram, bilder, kommentarer eller andra objekt kan inte sammanfogas med denna metod. Dessutom används en cachefil för att lagra tillfällig data för processen.
 
 {{% /alert %}}
 

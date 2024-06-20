@@ -1,23 +1,24 @@
-﻿---
-title: Elektronik tabloyu görüntülere dönüştürürken Varsayılan Yazı Tipini Ayarla
+---
+title: Yaygın Olarak Kullanılan Yazı tipini Resimlere Dönüştürürken Belirleme
 type: docs
 weight: 840
 url: /tr/java/set-default-font-while-rendering-spreadsheet-to-images/
 ---
+
 {{% alert color="primary" %}} 
 
- lütfen[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) elektronik tabloyu görüntülere dönüştürürken varsayılan yazı tipini ayarlama özelliği. Bu özellik, yalnızca çalışma kitabının varsayılan yazı tipi karakterlerinizi oluşturamadığında etkili olacaktır. ile belirtilen varsayılan yazı tipi[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) özelliği, geçersiz veya var olmayan yazı tiplerine sahip tüm hücreler için kullanılır.
+[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) özelliğini kullanarak, çalışsayısını resme dönüştürürken varsayılan yazı tipini belirlemek için lütfen [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) özelliğini kullanın. Bu özellik, çalışma kitabının varsayılan yazı tipi karakterleri render edemezse yalnızca bu özelliğe göre belirtilen varsayılan yazı tipini kullanacaktır.
 
 {{% /alert %}} 
-## **Elektronik tabloyu görüntülere dönüştürürken Varsayılan Yazı Tipini Ayarla**
-Aşağıdaki örnek kod bir çalışma kitabı oluşturur, ilk çalışma sayfasının A4 hücresine biraz metin ekler ve yazı tipini geçersiz veya var olmayan yazı tipine ayarlar. Ardından, çalışma sayfasının iki görüntüsünü alır. İlk görüntü ayarlanarak alınır.[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) mülkiyet*Kurye Yeni* ayarlanarak ikinci görüntü alınır.[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) mülkiyet*Times New Roman*.
+## **Yaygın Olarak Kullanılan Yazı tipini Resimlere Dönüştürürken Belirleme**
+Aşağıdaki örnek kod, bir çalışma kitabı oluşturur, ilk çalışsayının A4 hücresine metin ekler ve yazı tipini geçersiz veya mevcut olmayan bir yazı tipine ayarlar. Ardından çalışsayısının iki resmini alır. İlk resmi [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) özelliğini *Courier New* olarak ayarlayarak alır ve ikinci resmi [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) özelliğini *Times New Roman* olarak ayarlayarak alır.
 
- Bu, ayarlandıktan sonraki çıktı görüntüsüdür.[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) mülkiyet*Kurye Yeni*.
+[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) özelliğini *Courier New* olarak ayarladıktan sonraki çıktı resmi.
 
-![yapılacaklar:resim_alternatif_metin](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
- Bu, ayarlandıktan sonraki çıktı görüntüsüdür.[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) mülkiyet*Times New Roman*.
+Bu, [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) özelliğini *Times New Roman* olarak ayarladıktan sonra çıktı görüntüsüdür.
 
-![yapılacaklar:resim_alternatif_metin](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToImages-.java" >}}

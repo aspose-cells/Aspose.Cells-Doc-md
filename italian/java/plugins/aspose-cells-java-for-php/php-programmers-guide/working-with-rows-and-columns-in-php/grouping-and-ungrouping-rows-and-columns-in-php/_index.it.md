@@ -1,20 +1,21 @@
-﻿---
-title: Raggruppamento e separazione di righe e colonne in PHP
+---
+title: Raggruppamento e svincolo righe e colonne in PHP
 type: docs
 weight: 40
 url: /it/java/grouping-and-ungrouping-rows-and-columns-in-php/
 ---
-## **Aspose.Cells - Gestione di gruppo di righe e colonne**
-### **Raggruppamento di righe e colonne**
-È possibile raggruppare righe o colonne chiamando i metodi groupRows e groupColumns della raccolta Cells. Entrambi i metodi accettano i seguenti parametri:
 
-- Indice prima riga/colonna, la prima riga o colonna nel gruppo.
-- Indice dell'ultima riga/colonna, l'ultima riga o colonna del gruppo.
+## **Aspose.Cells - Gestione del raggruppamento di righe e colonne**
+### **Raggruppamento di righe e colonne**
+È possibile raggruppare righe o colonne chiamando i metodi groupRows e groupColumns della collezione Cells. Entrambi i metodi accettano i seguenti parametri:
+
+- Indice della prima riga/colonna, la prima riga o colonna nel gruppo.
+- Indice dell'ultima riga/colonna, l'ultima riga o colonna nel gruppo.
 - È nascosto, un parametro booleano che specifica se nascondere o meno righe/colonne dopo il raggruppamento.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function group_rows_columns($dataDir)
 
@@ -47,15 +48,15 @@ url: /it/java/grouping-and-ungrouping-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-### **Separazione di righe e colonne**
-Separa le righe o le colonne raggruppate chiamando i metodi UngroupRows e UngroupColumns della raccolta Cells. Entrambi i metodi accettano gli stessi parametri:
+### **Sganciare Righe e Colonne**
+Sraggruppare righe o colonne raggruppate chiamando i metodi UngroupRows e UngroupColumns della collezione Cells. Entrambi i metodi accettano gli stessi parametri:
 
-- Indice della prima riga o colonna, la prima riga/colonna da separare.
-- Indice dell'ultima riga o colonna, l'ultima riga/colonna da separare.
+- Indice della prima riga o colonna, la prima riga/colonna da sraggruppare.
+- Indice dell'ultima riga o colonna, l'ultima riga/colonna da sraggruppare.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function ungroup_rows_columns($dataDir)
 
@@ -89,6 +90,6 @@ Separa le righe o le colonne raggruppate chiamando i metodi UngroupRows e Ungrou
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Raggruppa e separa righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica il **Raggruppamento & Sraggruppamento Righe & Colonne (Aspose.Cells)** da qualunque dei siti di codice sociale di seguito menzionati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

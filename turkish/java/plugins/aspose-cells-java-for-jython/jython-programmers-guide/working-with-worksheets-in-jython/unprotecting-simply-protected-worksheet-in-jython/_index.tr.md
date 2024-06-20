@@ -1,15 +1,16 @@
-﻿---
-title: Jython'da Simply Protected Worksheet'in korumasını kaldırma
+---
+title: Jython ile Basitçe Korunan Çalışsayfaların Korumasız Bırakılması
 type: docs
 weight: 160
 url: /tr/java/unprotecting-simply-protected-worksheet-in-jython/
 ---
-## **Aspose.Cells - Basitçe Korunan Çalışma Sayfasının Korumasını Kaldırma**
- Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
+
+## **Aspose.Cells - Basitçe Korunan Çalışsayfa Koruması**
+**Aspose.Cells Java for Jython** ile belgeler eklemek için. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -66,6 +67,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belgeleri Ekleyin (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Append Documents (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/UnprotectingSimplyProtectedWorksheet.py)

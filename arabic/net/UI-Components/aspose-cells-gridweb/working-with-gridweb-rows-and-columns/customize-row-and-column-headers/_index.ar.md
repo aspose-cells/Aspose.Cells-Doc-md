@@ -1,38 +1,41 @@
-﻿---
-title: تخصيص رؤوس الصفوف والأعمدة
+---
+title: تخصيص رأس الصف ورأس العمود
 type: docs
 weight: 40
-url: /ar/net/customize-row-and-column-headers/
+url: /ar/net/aspose-cells-gridweb/customize-row-and-column-headers/
+keywords: GridWeb، رأس، رأس الصف، رأس العمود
+description: يقدم هذا المقال كيفية تخصيص رأس الصف ورأس العمود في GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-مثل Microsoft Excel ، Aspose.Cells. يستخدم موقع GridWeb أيضًا الرؤوس أو التسميات التوضيحية القياسية للصفوف (أرقام مثل 1 و 2 و 3 وما إلى ذلك) والأعمدة (أبجديًا مثل A و B و C وما إلى ذلك). Aspose.Cells.GridWeb يجعل من الممكن أيضًا تخصيص التسميات التوضيحية. يناقش هذا الموضوع تخصيص رؤوس الصفوف والأعمدة في وقت التشغيل باستخدام Aspose.Cells.GridWeb API.
+مثل Microsoft Excel، يستخدم Aspose.Cells.GridWeb أيضًا رؤوس أو تسميات قياسية للصفوف (أرقام مثل 1، 2، 3 وما إلى ذلك) والأعمدة (أبجدية مثل A، B، C وما إلى ذلك). تُمكن Aspose.Cells.GridWeb أيضًا من تخصيص التسميات. يناقش هذا الموضوع تخصيص رؤوس الصف والعمود في وقت التشغيل باستخدام واجهة برمجة التطبيقات Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
 ## **تخصيص رأس الصف**
-لتخصيص العنوان أو التسمية التوضيحية لصف:
+لتخصيص رأس أو تسمية صف:
 
-1. قم بإضافة عنصر تحكم Aspose.Cells.GridWeb إلى نموذج ويب.
-1. قم بالوصول إلى ورقة العمل في GridWorksheetCollection.
-1. قم بتعيين التسمية التوضيحية لأي صف محدد.
+1. أضف تحكم Aspose.Cells.GridWeb إلى استمارة الويب.
+1. قم بالوصول إلى ورقة العمل في مجموعة GridWorksheetCollection.
+1. قم بتعيين التسمية لأي صف محدد.
 
-**تم تخصيص رؤوس الصف 1 و 2** 
+** تم تخصيص رؤوس الصف 1 و 2 ** 
 
-![ما يجب القيام به: image_بديل_نص](customize-row-and-column-headers_1.png)
+![todo:image_alt_text](customize-row-and-column-headers_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-CustomizeHeaders.aspx-CustomizeRowHeader.cs" >}}
 ## **تخصيص رأس العمود**
-لتخصيص رأس العمود أو التسمية التوضيحية له:
+لتخصيص الرأس أو التسمية لعمود:
 
-1. قم بإضافة عنصر تحكم Aspose.Cells.GridWeb إلى نموذج ويب.
-1. قم بالوصول إلى ورقة العمل في GridWorksheetCollection.
-1. قم بتعيين التسمية التوضيحية لأي عمود محدد.
+1. أضف تحكم Aspose.Cells.GridWeb إلى استمارة الويب.
+1. قم بالوصول إلى ورقة العمل في مجموعة GridWorksheetCollection.
+1. قم بتعيين التسمية لأي عمود محدد.
 
-**تم تخصيص رؤوس الأعمدة 1 و 2 و 3** 
+** تم تخصيص رؤوس العمود 1 و 2 و 3 ** 
 
-![ما يجب القيام به: image_بديل_نص](customize-row-and-column-headers_2.png)
+![todo:image_alt_text](customize-row-and-column-headers_2.png)
 
 
 

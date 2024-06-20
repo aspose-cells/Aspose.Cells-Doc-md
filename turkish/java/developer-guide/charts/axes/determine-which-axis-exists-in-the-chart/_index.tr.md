@@ -1,34 +1,35 @@
-﻿---
-title: Grafikte hangi Eksenin bulunduğunu belirleyin
+---
+title: Grafiğin hangi Eksenin varolduğunu belirle.
 type: docs
 weight: 130
 url: /tr/java/determine-which-axis-exists-in-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen, kullanıcının Grafikte belirli bir eksen olup olmadığını bilmesi gerekir. Örneğin, grafiğin içinde bir İkincil Değer Ekseninin var olup olmadığını bilmek istiyor. Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Donut, DonutExploded vb. gibi bazı grafiklerin ekseni yoktur.
+Bazen, kullanıcının belirli bir eksenin grafikte var olup olmadığını bilmeye ihtiyacı vardır. Örneğin, Grafik içinde İkinci Değer Ekseni var mı yok mu öğrenmek istiyor. Bazı grafik türleri, Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded vb. ekseni bulunmamaktadır.
 
- Aspose.Cells sağlar[**Chart.hasAxis(int eksenTürü, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) grafiğin belirli bir ekseni olup olmadığını belirleme yöntemi.
+Aspose.Cells, belirli bir eksenin grafikte var olup olmadığını belirlemek için [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) methodunu sağlar.
 
 {{% /alert %}}
 
-## Grafikte hangi Eksenin bulunduğunu belirleyin
+## Grafiğe Hangi Eksenin Varolduğunu Belirle
 
-Aşağıdaki ekran görüntüsü, yalnızca Birincil Kategori ve Değer Eksenine sahip bir grafiği göstermektedir. Herhangi bir İkincil Kategorisi ve Değer Ekseni yoktur.
+Aşağıdaki ekran görüntüsü, yalnızca Birincil Kategori ve Değer Eksenine sahip bir grafiği gösterir. Herhangi bir İkincil Kategori ve Değer Ekseni bulunmamaktadır.
 
-![yapılacaklar:resim_alternatif_metin](determine-which-axis-exists-in-the-chart_1.png)
+![todo:image_alt_text](determine-which-axis-exists-in-the-chart_1.png)
 
- Aşağıdaki örnek kod, kullanımını gösterir[**Chart.hasAxis(int eksenTürü, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)örnek grafiğin Birincil ve İkincil Kategori ve Değer Ekseni olup olmadığını belirlemek için. Birincil Kategori ve Değer Ekseni için doğru ve İkincil Kategori ve Değer Ekseni için yanlış gösteren kodun konsol çıktısı aşağıda gösterilmiştir.
+Aşağıdaki örnek kod, örnek grafiğin Birincil ve İkincil Kategori ve Değer Eksenine sahip olup olmadığını belirlemek için [**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) kullanımını gösterir. Kodun konsol çıktısı, aşağıda gösterilmiştir; Bu çıktı, Birincil Kategori ve Değer Ekseni için true ve İkincil Kategori ve Değer Ekseni için false değerlerini gösterir.
 
-### Grafikte hangi eksenin bulunduğunu belirlemek için Java kodu
+### Bir grafikte bulunan eksenleri belirlemek için Java kodu
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetermineWhichAxisExistsInChart-DetermineWhichAxisExistsInChart.java" >}}
 
 ### Örnek kod tarafından oluşturulan konsol çıktısı
 
-İşte yukarıdaki Örnek Kodun Konsol Çıktısı.
+Yukarıdaki Örnek Kodunun Konsol Çıktısı.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Has Primary Category Axis: true
 

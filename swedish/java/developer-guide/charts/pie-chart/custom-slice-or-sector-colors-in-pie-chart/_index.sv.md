@@ -1,34 +1,35 @@
-﻿---
-title: Anpassade segment- eller sektorfärger i cirkeldiagram
+---
+title: Anpassa skiv eller sektorfärger i cirkeldiagram
 type: docs
 weight: 30
 url: /sv/java/custom-slice-or-sector-colors-in-pie-chart/
 ---
-{{% alert color="primary" %}}
-
-Den här artikeln förklarar hur du lägger till anpassade färger till cirkeldiagramsegment/sektorer. Som standard använder cirkeldiagram standardmallen Microsoft Excel. För att använda andra färger är det möjligt att omdefiniera färgerna i diagrammet.
-
-{{% /alert %}}
-
-Så här ställer du in den anpassade färgen för ett cirkeldiagrams enskilda segment eller sektorer:
-
-1.  Få tillgång till[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) föremål[**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
-1.  Tilldela en valfri färg med hjälp av[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor)metod.
-
-Den här artikeln förklarar också hur du ställer in:
-
-- Ett diagrams kategoridata.
-- En diagramtitel kopplad till en cell.
-- Teckensnittsinställningarna för diagramtiteln.
-- Legendens position.
 
 {{% alert color="primary" %}}
 
-[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor) är inte specifik för cirkeldiagram men kan användas för alla typer av diagram.
+Den här artikeln förklarar hur du lägger till anpassade färger till tårtdiagramsegment/sektorer. Som standard använder tårtdiagram Microsoft Excels standardmall. För att använda andra färger är det möjligt att omdefiniera färgerna i diagrammet.
 
 {{% /alert %}}
 
-**Anpassade segmentfärger i cirkeldiagrammet**
+För att ställa in anpassad färg för ett tårtdiagram individuella segment eller sektorer:
+
+1. Öppna [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)s [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
+1. Tilldela en färg efter eget val med hjälp av [**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor)-metoden.
+
+Den här artikeln förklarar även hur man ställer in:
+
+- En diagrams kategoridata.
+- En diagramtitel länkad till en cell.
+- Typsnittsinställningar för diagramtiteln.
+- Placeringen av legenden.
+
+{{% alert color="primary" %}}
+
+[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor) är inte specifik för tårtdiagram men kan användas för alla typer av diagram.
+
+{{% /alert %}}
+
+**Anpassade segmentfärger i tårtdiagram**
 
 ![todo:image_alt_text](custom-slice-or-sector-colors-in-pie-chart_1.png)
 

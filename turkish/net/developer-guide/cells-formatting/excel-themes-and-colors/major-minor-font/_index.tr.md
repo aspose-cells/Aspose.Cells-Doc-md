@@ -1,47 +1,48 @@
 ---
-title: Başlıklar ve Gövde Teması Yazı Tipi
-description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmaya yönelik bir .NET kitaplığıdır. Excel belgelerinde başlık ve gövde teması yazı tiplerini ayarlamayı destekleyerek kullanıcıların belgenin görünümünü ve stilini özelleştirmesine olanak tanır. Bu makalede, Excel belgelerindeki başlık ve gövde teması yazı tipleriyle çalışmak için Aspose.Cells kitaplığının nasıl kullanılacağı tanıtılacaktır.
-keywords: Aspose.Cells, Excel Document, Heading, Body, Theme Font, Appearance, Style
+title: Başlık ve Metin Tema Yazı Tipi
+description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için bir .NET kütüphanesidir. Excel belgelerinde başlık ve metin tema yazı tiplerini ayarlama olanağı sağlar ve belgenin görünümünü özelleştirmenize imkan tanır. Bu makale, Aspose.Cells kütüphanesini kullanarak Excel belgelerinde başlık ve metin tema yazı tipleriyle çalışmayı tanıtacaktır.
+keywords: Aspose.Cells, Excel Belgesi, Başlık, Metin, Tema Yazı Tipi, Görünüm, Stil
 type: docs
 weight: 120
 url: /tr/net/headings-and-body-theme-font/
 ---
+
 {{% alert color="primary" %}}
 
- Yeniden başlama ayarı değiştirildiğinde varsayılan yazı tipi otomatik olarak değişecektir.
-
-Varsayılan yazı tipi değiştirilirse satır yüksekliği ve sütun genişliği de değişir ve bu durum sayfa düzenini bile bozabilir.
+Varsayılan yazı tipi otomatik olarak ayarlandığında, bölge ayarı değiştirildiğinde varsayılan yazı tipi otomatik olarak değişir. 
 
 Varsayılan yazı tipinin değişmesine ne sebep oldu?
 
-Excel tema yazı tipi ayarlanırsa Excel, geçerli dil ortamına bağlı olarak farklı yazı tipleri arasında otomatik olarak geçiş yapar.
+Varsayılan yazı tipinin değişmesine ne sebep oldu?
+
+Excel tema yazı tipi ayarlandığında, Excel mevcut dil ortamına göre farklı yazı tipleri arasında otomatik olarak geçiş yapacaktır.
 
 
 {{% /alert %}}
 
-##  **Excel'de Başlıklar ve Gövde Teması Yazı Tipi**
+## **Excel'de, Ana Menü sekmesini seçin, yazı tipi açılır kutusuna tıklayın, İngilizce bölge ayarıyla en üstte iki tema yazı tipi : Üstbilgi (Calibri Light) ve Metin (Calibri) göreceksiniz.**
 
-Excel'de Ana Sayfa sekmesini seçin, yazı tipi açılır kutusuna tıklayın, iki tema yazı tipine sahip "Tema Yazı Tipleri" göreceksiniz: Calibri Light (Başlıklar) ve Calibri (Gövde), İngilizce bölge ayarıyla üstte.
+Excel'de, Ana sekmesini seçin, yazı tipi açılır kutusuna tıklayın, "Tema Yazı Tipleri"ni göreceksiniz ve en üstte iki tema fontu: Calibri Light (Başlıklar) ve Calibri (Gövde) İngilizce bölge ayarında yer almaktadır.
 
-**![Tema Yazı Tipleri](Tema-Fonts.png)**
+**![Tema Yazı Tipleri](Theme-Fonts.png)**
 
-Tema Yazı Tipi seçilirse yazı tipi adı farklı bölgelerde farklı görünecektir.
-Yazı tipinin farklı bölgelerde otomatik olarak değiştirilmesini istemiyorsanız iki Tema Yazı Tipini seçmeyin.
+Tema Yazı Tipi seçilmişse, yazı tipi adı farklı bölgelerde farklı görünecektir.
+Eğer yazı tipinin farklı bölgelerde otomatik olarak değişmesini istemiyorsanız, iki Tema Yazı Tipi'ni seçmeyin.
 
 
-##  **Başlıkları ve Gövde Yazı Tipini Programlı Olarak Değiştirme**
- .Net için Aspose.Cells ile varsayılan yazı tipinin tema yazı tipi olup olmadığını kontrol edebilir veya tema yazı tipini ayarlayabiliriz.[**Font.SchemeType**](https://reference.aspose.com/cells/net/aspose.cells/font/schemetype/) mülk.
+## **Başlıkları ve Metin Yazı Tipini Programlama Yoluyla Değiştirmek**
+Aspose.Cells for .Net ile, varsayılan yazı tipinin tema yazı tipi olup olmadığını kontrol edebilir ve [**Font.SchemeType**](https://reference.aspose.com/cells/net/aspose.cells/font/schemetype/) özelliği ile tema yazı tipini ayarlayabiliriz.
 
-Aşağıdaki örnek kod, tema yazı tipinin nasıl değiştirileceğini gösterir.
+Aşağıdaki örnek kod, tema yazı tipini nasıl manipüle edeceğimizi göstermektedir.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Headings-and-body-font.cs" >}}
 
 
-##  **Programsal Olarak Yerel Tema Yazı Tipini Dinamik Olarak Alır**
-Bazen sunucularımız ve kullanıcılarımızın makineleri aynı bölgede olmayabilir. Kullanıcıların dosya işleme için istediği yazı tipinin aynısını nasıl elde edebiliriz?
+## **Dinamik Olarak Yerel Tema Yazı Tipini Programlama Yoluyla Almak**
+Bazı durumlarda, sunucularımız ve kullanıcı makineleri aynı bölgede değildir. Kullanıcıların dosya işleme için istediği aynı yazı tipini nasıl elde edebiliriz?
 
- Dosyayı yüklemeden önce sistemin bölgesel ayarlarını yapmalıyız.[**LoadOptions.Region**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/region/) mülk
+Dosyayı [**LoadOptions.Region**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/region/) özelliği ile yüklemeden önce sistem bölgesel ayarlarını ayarlamamız gerekiyor.
 
-Aşağıdaki örnek kod, yerel tema yazı tipinin nasıl alınacağını gösterir.
+Aşağıdaki örnek kod, yerel tema yazı tipini nasıl alacağımızı göstermektedir.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Local-Theme-Font.cs" >}}

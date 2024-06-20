@@ -1,34 +1,35 @@
-﻿---
+---
 title: Crear un gráfico circular
 type: docs
 weight: 110
 url: /es/net/create-a-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Los gráficos presentan datos de una manera fácil de entender. Los usuarios que trabajan con Microsoft Excel pueden crear una serie de gráficos diferentes y personalizarlos. Las mismas funciones están disponibles para los desarrolladores que trabajan con Aspose.Cells for .NET.
+Los gráficos presentan datos de una manera fácil de entender. Los usuarios que trabajan con Microsoft Excel pueden crear varios tipos de gráficos diferentes y personalizarlos. Las mismas funciones están disponibles para los desarrolladores que trabajan con Aspose.Cells for .NET.
 
 {{% /alert %}}
 
 ## **Crear un gráfico circular**
 
-Este artículo compara cómo crear un gráfico circular con Office Automation y VSTO con el uso de Aspose.Cells for .NET. Los pasos para crear un gráfico circular son:
+Este artículo compara cómo crear un gráfico de pie utilizando Automatización de Office y VSTO con el uso de Aspose.Cells for .NET. Los pasos para crear un gráfico de pie son:
 
-1. Crear un libro y una hoja de trabajo.
-1. Adición de datos de muestra.
-1. Referencia de productosGráfico.
+1. Crear un libro y una hoja de cálculo.
+1. Agregar datos de muestra.
+1. Hacer referencia a productsChart.
 1. Agregar un gráfico circular, definir el rango de datos y el título del gráfico.
 1. Guardar hoja de cálculo.
 
- Los ejemplos de código de este artículo muestran cómo agregar un gráfico circular con[VSTO](/cells/es/net/create-a-pie-chart/) , usando C# o Visual Basic, en comparación con crear uno con[Aspose.Cells](/cells/es/net/create-a-pie-chart/), nuevamente usando C# o Visual Basic.
+Los ejemplos de código en este artículo muestran cómo agregar un gráfico circular con [VSTO](/cells/es/net/create-a-pie-chart/), utilizando C# o Visual Basic, en comparación con la creación con [Aspose.Cells](/cells/es/net/create-a-pie-chart/), nuevamente utilizando C# o Visual Basic.
 
-### **Creación de un gráfico circular con VSTO**
+### **Crear un gráfico circular con VSTO**
 
-Los ejemplos de código que siguen muestran cómo agregar un gráfico circular a una hoja de cálculo mediante VSTO.
+Los ejemplos de código que siguen muestran cómo agregar un gráfico circular a una hoja de cálculo utilizando VSTO.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void PieChart()
 
@@ -100,15 +101,15 @@ Los ejemplos de código que siguen muestran cómo agregar un gráfico circular a
 
 **Un gráfico circular creado con VSTO** 
 
-![todo:imagen_alternativa_texto](create-a-pie-chart_1.png)
+![todo:image_alt_text](create-a-pie-chart_1.png)
 
-### **Creación de un gráfico circular con Aspose.Cells for .NET**
+### **Creando un gráfico circular con Aspose.Cells for .NET**
 
-Los ejemplos de código que siguen muestran cómo agregar un gráfico circular a una hoja de cálculo usando Aspose.Cells.
+Los ejemplos de código que siguen muestran cómo agregar un gráfico circular a una hoja de cálculo utilizando Aspose.Cells.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void PieChart()
 
@@ -180,4 +181,4 @@ Los ejemplos de código que siguen muestran cómo agregar un gráfico circular a
 
 **Gráfico circular creado con Aspose.Cells for .NET** 
 
-![todo:imagen_alternativa_texto](create-a-pie-chart_2.png)
+![todo:image_alt_text](create-a-pie-chart_2.png)

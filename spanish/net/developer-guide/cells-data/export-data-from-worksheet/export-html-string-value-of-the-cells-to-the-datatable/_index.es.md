@@ -1,21 +1,22 @@
 ---
-title: Exportar valor de cadena HTML de Cells a DataTable
+title: Exportar el valor de cadena HTML de las celdas al DataTable
 type: docs
 weight: 260
 url: /es/net/export-html-string-value-of-the-cells-to-the-datatable/
-description: Aprenda a exportar el valor de cadena HTML de Cells a DataTable a través de Aspose.Cells for .NET API.
-keywords: Export HTML String Value of the Cells to the DataTable, Export HTML String Value to the DataTable
+description: Aprenda a exportar el valor de cadena HTML de las celdas al DataTable a través de la API Aspose.Cells for .NET.
+keywords: Exportar el valor de cadena HTML de las celdas al DataTable, exportar el valor de cadena HTML al DataTable
 ---
-##  **Posibles escenarios de uso**
-Al utilizar las API Aspose.Cells, los desarrolladores pueden completar una tabla de datos con las cadenas HTML correspondientes (según los valores de las celdas) mientras exportan datos de la hoja de trabajo. Este documento explica cómo exportar cadenas HTML para los datos de celdas formateadas para completar una tabla de datos utilizando las API Aspose.Cells.
-##  **Exportar valor de cadena HTML de Cells a DataTable**
- El siguiente código de muestra ilustra cómo exportar el valor de cadena HTML de las celdas a DataTable mientras se exportan datos de la hoja de trabajo a DataTable. Por favor vea el[archivo de Excel de muestra](45056025.xlsx), su captura de pantalla y la salida de la consola como referencia.
-##  **Captura de pantalla**
+
+## **Escenarios de uso posibles**
+Usando las API de Aspose.Cells, los desarrolladores pueden llenar un DataTable con cadenas HTML correspondientes (basadas en valores de celdas) al exportar datos de la hoja de cálculo. Este documento explica cómo exportar cadenas HTML para los datos de celdas formateadas para llenar un DataTable usando las API de Aspose.Cells.
+## **Exportar cadena HTML del valor de las celdas al DataTable**
+El siguiente código de ejemplo ilustra cómo exportar el valor de cadena HTML de las celdas al DataTable al exportar datos de la hoja de cálculo a un DataTable. Consulte el [archivo de Excel de ejemplo](45056025.xlsx), su captura de pantalla y la salida de la consola para obtener una referencia.
+## **Captura de pantalla**
 ![todo:image_alt_text](export-html-string-value-of-the-cells-to-the-datatable_1.png)
-##  **Código de muestra**
+## **Código de muestra**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ExportHTMLStringValueOfCellsToDataTable.cs" >}}
-##  **Salida de consola**
-{{< highlight "java" >}}
+## **Salida de la consola**
+{{< highlight java >}}
 
  <Font Style="FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #00b0f0;Background-Color: #ffe699;">Crow</Font>
 

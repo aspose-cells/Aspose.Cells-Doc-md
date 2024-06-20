@@ -1,49 +1,50 @@
-﻿---
-title: リスト オブジェクトの作成
+---
+title: リストオブジェクトの作成
 type: docs
 weight: 20
 url: /ja/python-java/creating-a-list-object/
 ---
-たとえば、ワークシートを使用すると、さまざまな種類のリストを簡単に操作できます。電話リスト、タスク リスト。 Aspose.Cells は、リストの作成と管理をサポートします。
 
-## **リスト オブジェクトの利点**
+ワークシートの使用は、電話リスト、タスクリストなど、さまざまなタイプのリストでの作業を簡単にします。Aspose.Cellsはリストの作成と管理をサポートしています。
 
-データのリストを実際のリスト オブジェクトに変換すると、いくつかの利点があります。
+## **リストオブジェクトの利点**
 
-- 新しい行と列が自動的に含まれます。
-- リストの下部に合計行を簡単に追加して、SUM、AVERAGE、COUNT などを表示できます。
-- 右側に追加された列は、List オブジェクトに自動的に組み込まれます。
-- 行と列に基づくグラフは自動的に展開されます。
-- 行と列に割り当てられた名前付き範囲は、自動的に展開されます。
-- リストは、偶発的な行と列の削除から保護されています。
+実際のリストオブジェクトにデータリストを変換すると、いくつかの利点があります:
 
-## **Microsoft Excel を使用してリスト オブジェクトを作成する**
+- 新しい行や列が自動的に含まれます。
+- リストの最下部に合計、平均、カウントなどを表示するために総合行を簡単に追加できます。
+- 右に追加された列は自動的にリストオブジェクトに取り込まれます。
+- 行と列に基づくチャートは自動的に拡張されます。
+- 行と列に割り当てられた名前付き範囲は自動的に拡張されます。
+- リストは誤って行や列が削除されないように保護されています。
 
-**リスト オブジェクトを作成するためのデータ範囲の選択** 
+## **Microsoft Excelを使用してリストオブジェクトを作成する**
 
-![todo:画像_代替_文章](picture1.png)
+リストオブジェクトを作成するためのデータ範囲の選択 
 
-[リストの作成] ダイアログが表示されます。
+![todo:image_alt_text](picture1.png)
 
-**リストの作成ダイアログ** 
+これにより、リストの作成ダイアログが表示されます。
 
-![todo:画像_代替_文章](picture2.png)
+リストの作成ダイアログ 
 
-List オブジェクトを実装し、Total Row を指定する (Select**データ**、 それから**リスト**、 に続く**合計行**).
+![todo:image_alt_text](picture2.png)
 
-**リスト オブジェクトの作成** 
+リストオブジェクトを実装し、合計行を指定します（** データ **を選択して、** リスト **、その後** 合計行 **を選択してください）。
 
-![todo:画像_代替_文章](picture3.png)
+リストオブジェクトを作成する 
 
-## **Aspose.Cells API を使用してリスト オブジェクトを作成する**
+![todo:image_alt_text](picture3.png)
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/python/asposecells.api/Workbook)、Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/python/asposecells.api/Workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection)Excel ファイル内の各ワークシートにアクセスできるコレクション。
+## **Aspose.Cells APIを使用してリストオブジェクトを作成します。**
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。を作成するには[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)ワークシートで、使用[**リストオブジェクト**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)のコレクション プロパティ[**ワークシート**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)クラス。各[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)実際には、[**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)クラスは、さらに[**追加**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)List オブジェクトを追加し、リストのセル範囲を指定するメソッド。
+Aspose.Cellsは、Microsoft Excelファイルを表すクラス、[**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook)を提供しています。[**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook) クラスには、Excelファイルの各ワークシートにアクセスするための [**Worksheets**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) コレクションが含まれています。
 
-指定されたセル範囲に従って、List オブジェクトが Aspose.Cells によってワークシートに作成されます。[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)リストを制御するクラス。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)クラスはワークシートを管理するための様々なプロパティとメソッドを提供します。ワークシートに[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)を作成するには、[**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)クラスの[**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)コレクションプロパティを使用してください。各[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)は実際には[**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)クラスのオブジェクトであり、さらにリストオブジェクトを追加し、リストのセルの範囲を指定するための[**add**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean))メソッドを提供します。
 
-以下の例では、同じものを作成しました[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)上記のセクションで Microsoft Excel を使用して作成したように、Aspose.Cells for Python via Java API を使用します。
+Aspose.Cellsによってワークシート内にリストオブジェクトが作成されます。リストを制御するために[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)クラスの属性（ShowTotals、ListColumnsなど）を使用してください。
+
+以下の例では、Microsoft Excelで作成したものと同じ[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)をAspose.Cells for Python via Java APIを使用して作成しました。
 
 ## ソースコード
 

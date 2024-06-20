@@ -1,17 +1,18 @@
-﻿---
-title: Çalışma Kitabındaki Kullanılmayan Stilleri Kaldırma
+---
+title: Çalışma Kitabı İçinde Kullanılmayan Stilleri Kaldırma
 type: docs
 weight: 340
 url: /tr/net/remove-unused-styles-inside-the-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Excel dosyasında kullanılmayan stiller hem yer kaplamakta hem de PDF, HTML gibi farklı formatlara dönüştürülürken performans sorunlarına neden olmaktadır. Aspose.Cells,[**Workbook.RemoveUnusedStyles()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles) çalışma kitabı içindeki kullanılmayan tüm stilleri kaldırmak için.
+Excel dosyasındaki kullanılmayan stiller sadece alan kaplamakla kalmaz, aynı zamanda PDF, HTML vb. farklı biçimlere dönüştürürken performans sorunlarına neden olur. Aspose.Cells, çalışma kitabı içindeki tüm kullanılmayan stilleri kaldırmak için [**Workbook.RemoveUnusedStyles()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles) sağlar.
 
 {{% /alert %}}
 
- Aşağıdaki kod, kullanımını açıklar[**Workbook.RemoveUnusedStyles()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles) . Kod şunu yükler:[şablon excel dosyası](5115520.xlsx) verilen bağlantıdan indirebilirsiniz. adlı kullanılmayan bir stil içerir.**AsposeStil**, bu stil ve kullanılmayan diğer tüm stiller, kodun yürütülmesinden sonra kaldırılacaktır.
+Aşağıdaki kod, [**Workbook.RemoveUnusedStyles()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles) kullanımını açıklar. Kod, [şablon excel dosyasını](5115520.xlsx) yükler, bu dosyayı sağlanan bağlantıdan indirebilirsiniz. İsminde **AsposeStyle** adında kullanılmayan bir stil içerir, bu stil ve tüm diğer kullanılmayan stiller, kodun çalıştırılmasından sonra kaldırılacaktır.
 
-![yapılacaklar:resim_alternatif_metin](remove-unused-styles-inside-the-workbook_1.png)
+![todo:image_alt_text](remove-unused-styles-inside-the-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RemoveUnusedStyles-1.cs" >}}

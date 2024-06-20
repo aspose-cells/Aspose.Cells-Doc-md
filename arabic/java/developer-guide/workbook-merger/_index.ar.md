@@ -1,70 +1,71 @@
-﻿---
-title: الجمع بين مصنفات متعددة في مصنف واحد
-linktitle: دمج المصنفات
+---
+title: دمج العديد من سجلات العمل في سجل عمل واحد
+linktitle: مدمج السجل
 type: docs
 weight: 50
 url: /ar/java/combine-multiple-workbooks-into-a-single-workbook/
-description: ادمج عدة مصنفات في مصنفات فردية باستخدام كود Java و Aspose.Cells for Java API.
-keywords: combine multiple workbooks into one, combine multiple workbooks into one java, combine multiple workbooks into one with java, combine multiple workbooks into single workbook with java, combine multiple workbooks into single workbook java, java code to combine multiple workbooks into single workbook, how to combine multiple workbooks into single workbook with java, how to combine multiple workbooks into one with java, merge multiple workbooks into one with java, how to merge multiple workbooks into one java, how to merge multiple workbooks into one with java
+description: دمج عدة دفاتر عمل في دفاتر عمل واحد باستخدام رمز جافا وAspose.Cells for Java API.
+keywords: دمج عدة دفاتر عمل في دفتر عمل واحد، دمج عدة دفاتر عمل في دفتر عمل واحد جافا، دمج عدة دفاتر عمل في دفتر عمل واحد باستخدام جافا، دمج عدة دفاتر عمل في دفتر عمل واحد باستخدام جافا، دمج عدة دفاتر عمل في دفتر عمل واحد جافا، رمز جافا لدمج عدة دفاتر عمل في دفتر عمل واحد، كيفية دمج عدة دفاتر عمل في دفتر عمل واحد باستخدام جافا، كيفية دمج عدة دفاتر عمل في دفتر عمل واحد باستخدام جافا، دمج عدة دفاتر عمل في دفتر عمل واحد باستخدام الجافا، كيفية دمج عدة دفاتر عمل في دفتر عمل واحد عبر الجافا، كيفية دمج عدة دفاتر عمل في دفتر عمل واحد بجافا
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، تحتاج إلى دمج المصنفات مع محتويات متنوعة مثل الصور والمخططات والبيانات في مصنف واحد. Aspose.Cells يدعم هذه الميزة. توضح هذه المقالة كيفية إنشاء تطبيق بسيط لدمج المصنفات مع بضعة سطور بسيطة من التعليمات البرمجية باستخدام Aspose.Cells.
+أحيانًا، تحتاج إلى دمج دفاتر العمل مع محتوى متنوع مثل الصور والرسوم البيانية والبيانات في دفتر عمل واحد. Aspose.Cells يدعم هذه الميزة. يوضح هذا المقال كيفية إنشاء تطبيق بسيط لدمج دفاتر العمل ببضعة أسطر بسيطة من الكود باستخدام Aspose.Cells.
 
 {{% /alert %}}
 
-## **الجمع بين المصنفات**
+## **دمج دفاتر العمل**
 
- يجمع رمز المثال بين مصنفين في مصنف واحد باستخدام Aspose.Cells for Java. يقوم الرمز بتحميل المصنفات المصدر ، ويستخدم[**Workbook.combine ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) طريقة لدمجها وحفظ مصنف الإخراج.
+يقوم الكود المثالي بدمج صفحتي عمل إلى صفحة عمل واحدة باستخدام Aspose.Cells for Java. يقوم الكود بتحميل صفحتي العمل الأصليتين ، ثم يستخدم الأسلوب [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) لدمجهم ثم يحفظ صفحة العمل الناتجة.
 
-### **المصنفات المصدر**
+### **السجلات المصدر**
 
-- [الرسوم البيانية. xlsx](5473097.xlsx)
-- [الصورة. xlsx](5473096.xlsx)
+- [charts.xlsx](5473097.xlsx)
+- [picture.xlsx](5473096.xlsx)
 
 ### **مصنفات الإخراج**
 
-- [مجتمعة. xlsx](5473095.xlsx)
+- [combined.xlsx](5473095.xlsx)
 
-### **لقطات**
+### **لقطات الشاشة**
 
-فيما يلي لقطات شاشة للمصنفات المصدر والمخرجات.
+أدناه تظهر لقطات من المصنفات الأصلية والمخرّجة.
 
 {{% alert color="primary" %}}
 
-يمكنك استخدام أي مصنفات مصدر. هذه الصور هي فقط لأغراض التوضيح.
+يمكنك استخدام أي مصنف أصلي. هذه الصور مجرد لأغراض توضيحية.
 
 {{% /alert %}}
 
-**ورقة العمل الأولى من مصنف المخططات - مكدسة**
+**الورقة العمل الأولى لمصنف الرسوم البيانية - مكدسة**
 
-![ما يجب القيام به: image_بديل_نص](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
 
-**ورقة العمل الثانية من مصنف المخططات - سطر**
+**الورقة العمل الثانية لمصنف الرسوم البيانية - خطية**
 
-![ما يجب القيام به: image_بديل_نص](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
 
-**أول ورقة عمل من مصنف صورة - صورة**
+**الورقة العمل الأولى لمصنف الصور - صورة**
 
-![ما يجب القيام به: image_بديل_نص](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
 
-**جميع أوراق العمل الثلاثة في المصنف المدمج - مكدسة ، خطية ، صورة**
+**كل الورقات الثلاثة في مصنف الدمج - مكدسة، خطية، صورة**
 
-![ما يجب القيام به: image_بديل_نص](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية دمج العديد من المصنفات في مصنف واحد.
+تظهر مقتطفات الكود التالية كيفية دمج ملفات العمل متعددة في ملف عمل واحد.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CombineMultipleWorkbooks-CombineMultipleWorkbooks.java" >}}
 
-## **مصادر إضافية**
+## **موارد إضافية**
 
 {{% alert color="primary" %}}
 
- قد تجد[اجمع أوراق عمل متعددة في ورقة عمل واحدة](/cells/ar/java/combine-multiple-worksheets-into-a-single-worksheet/) المقال مفيد لمزيد من المعلومات.
+قد تجد مقالة [دمج الأوراق العمل المتعددة في ورقة عمل واحدة](/cells/ar/java/combine-multiple-worksheets-into-a-single-worksheet/) مفيدة لمزيد من المعلومات.
 
 {{% /alert %}}
 
-## **موضوعات مسبقة**
-- [دمج أوراق عمل متعددة في ورقة عمل واحدة](/cells/ar/java/combine-multiple-worksheets-into-a-single-worksheet/)
+## **مواضيع متقدمة**
+- [دمج الأوراق العمل المتعددة في ورقة عمل واحدة](/cells/ar/java/combine-multiple-worksheets-into-a-single-worksheet/)
 - [دمج الملفات](/cells/ar/java/merge-files/)
 

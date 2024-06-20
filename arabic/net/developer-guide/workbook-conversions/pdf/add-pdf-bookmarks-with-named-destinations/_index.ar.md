@@ -1,19 +1,20 @@
-﻿---
-title: قم بإضافة PDF إشارات مرجعية ذات الوجهات المحددة
+---
+title: إضافة إشارات مرجعية لملف PDF بأهداف مسماة
 type: docs
 weight: 20
 url: /ar/net/add-pdf-bookmarks-with-named-destinations/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-الوجهات المسماة هي أنواع خاصة من الإشارات المرجعية أو الروابط الموجودة في PDF والتي لا تعتمد على PDF صفحة. هذا يعني أنه إذا تمت إضافة صفحات أو حذفها من PDF ، فقد تصبح الإشارات المرجعية غير صالحة ولكن ستظل الوجهات المسماة سليمة. لإنشاء وجهة محددة ، يرجى تعيين[**PdfBookmarkEntry.DestinationName**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry/properties/destinationname)خاصية.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **قم بإضافة PDF إشارات مرجعية ذات الوجهات المحددة**
+الوجهات المسماة هي أنواع خاصة من الإشارات المرجعية أو الروابط في ملفات PDF التي لا تعتمد على صفحات PDF. يعني ذلك، إذا تمت إضافة صفحات أو حذفها من PDF، فإن الإشارات المرجعية قد تصبح غير صالحة ولكن الوجهات المسماة ستظل سليمة. لإنشاء وجهة مسماة، يرجى تعيين الخاصية [**PdfBookmarkEntry.DestinationName**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry/properties/destinationname).
 
- يرجى الاطلاع على نموذج التعليمات البرمجية التالي ، الخاص به[ملف Excel المصدر](50528348.xlsx) و له[ملف الإخراج PDF](50528349.pdf). تُظهر لقطة الشاشة الإشارات المرجعية والوجهات المسماة داخل الإخراج PDF. توضح لقطة الشاشة أيضًا كيفية عرض الوجهات المسماة وأنك بحاجة إلى إصدار احترافي من برنامج Acrobat Reader.
+## **إضافة علامات مرجعية لملف PDF باستخدام وجهات مسماة**
 
-![ما يجب القيام به: image_بديل_نص](add-pdf-bookmarks-with-named-destinations_1.png)
+يرجى الرجوع إلى الكود العيني التالي، و[ملف Excel المصدر](50528348.xlsx)، و[ملف PDF الناتج](50528349.pdf). تُظهر اللقطة الشاشة الإشارات المرجعية والوجهات المسماة داخل ملف PDF الناتج. توصف اللقطة الشاشة أيضا كيفية عرض الوجهات المسماة وأنك بحاجة إلى إصدار احترافي من قارئ أكروبات.
 
-## **عينة من الرموز**
+![todo:image_alt_text](add-pdf-bookmarks-with-named-destinations_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-AddPDFBookmarksWithNamedDestinations.cs" >}}

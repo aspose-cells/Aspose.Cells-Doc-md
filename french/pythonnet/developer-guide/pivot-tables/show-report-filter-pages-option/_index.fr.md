@@ -1,17 +1,18 @@
 ---
-title: Option Afficher les pages de filtre du rapport
+title: Option Afficher les pages de filtre de rapport
 type: docs
 weight: 110
 url: /fr/python-net/show-report-filter-pages-option/
-description: Cet article montre comment afficher l'option de pages de filtre de rapport avec Aspose.Cells for Python via .NET.
-keywords: Show report filter pages option
+description: Cet article montre comment afficher l option Afficher les pages de filtre de rapport avec Aspose.Cells pour Python via .NET.
+keywords: Aspose.Cells pour Python Excel, bibliothèque Excel Python, Option Afficher les pages de filtre de rapport.
 ---
-##  **Option Afficher les pages de filtre du rapport**
-Excel prend en charge la création de tableaux croisés dynamiques, l'ajout de filtres de rapport et active l'option « Afficher les pages de filtre de rapport ». Aspose.Cells for Python via .NET prend également en charge cette fonctionnalité pour activer l'option « Afficher les pages de filtre de rapport » sur le tableau croisé dynamique créé. Voici l'écran affichant l'option « Afficher les pages de filtre de rapport » dans Excel.
 
-![tâche : image_alt_text](show-report-filter-pages-option_1.png)
+## **Comment afficher l'option Afficher les pages de filtre de rapport**
+Excel prend en charge la création de tableaux croisés dynamiques, l'ajout de filtres de rapport et permet d'activer l'option "Afficher les pages de filtre de rapport". Aspose.Cells pour Python via .NET prend également en charge cette fonctionnalité pour activer l'option "Afficher les pages de filtre de rapport" sur le tableau croisé dynamique créé. Voici l'écran montrant l'option "Afficher les pages de filtre de rapport" dans Excel.
 
-Un exemple de fichier source et de fichiers de sortie peuvent être téléchargés à partir d'ici pour tester l'exemple de code :
+![todo:image_alt_text](show-report-filter-pages-option_1.png)
+
+Le fichier source d'exemple et les fichiers de sortie peuvent être téléchargés ici pour tester le code d'exemple :
 
 ` `[Fichier Excel source](81920786.xlsx) 
 

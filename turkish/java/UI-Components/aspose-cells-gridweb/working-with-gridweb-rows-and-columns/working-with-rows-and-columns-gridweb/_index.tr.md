@@ -1,27 +1,28 @@
 ---
-title: Satırlar ve Sütunlarla Çalışma GridWeb
+title: GridWeb de Satırlar ve Sütunlarla Çalışmak
 type: docs
 weight: 20
 url: /tr/java/working-with-rows-and-columns-gridweb/
 ---
-##  **Satır ve Sütun Ekleme**
-Bu konu, Aspose.Cells.GridWeb API kullanılarak bir çalışma sayfasına nasıl yeni satır ve sütunların ekleneceğini açıklamaktadır. Satır veya sütunlar, çalışma sayfasında herhangi bir konuma eklenebilir.
-###  **Satır Ekleme**
+
+## **Satırlar ve Sütunlar Eklemek**
+Bu konu, Aspose.Cells.GridWeb API'sını kullanarak bir çalışma sayfasına yeni satırlar ve sütunlar eklemenin nasıl olduğunu açıklar. Satırlar veya sütunlar çalışma sayfasında herhangi bir konuma eklenebilir.
+### **Satırlar Eklemek**
 Çalışma sayfasında herhangi bir konuma satır eklemek için:
 
-1. Aspose.Cells.GridWeb denetimini Web Formuna veya sayfasına ekleyin.
-1. Satır eklediğiniz çalışma sayfasına erişin.
-1. Satırın ekleneceği satır dizini belirterek satır ekleyin.
+1. Aspose.Cells.GridWeb denetimini Web Formuna veya sayfaya ekleyin.
+1. Satır eklemek istediğiniz çalışma sayfasına erişin.
+1. Satırın ekleneceği satır dizinini belirterek bir satır ekleyin.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-InsertingRows-InsertingRows.jsp" >}}
-###  **Sütun Ekleme**
+### **Sütunlar Eklemek**
 Çalışma sayfasında herhangi bir konuma sütun eklemek için:
 
-1. Aspose.Cells.GridWeb denetimini bir Web Formuna veya sayfaya ekleyin.
-1. Sütun eklediğiniz çalışma sayfasına erişin.
-1. Sütunun ekleneceği sütun dizinini belirterek bir sütun ekleyin.
+1. Aspose.Cells.GridWeb denetimini bir Web Formu veya sayfaya ekleyin.
+1. Sütun eklemek istediğiniz çalışma sayfasına erişin.
+1. Kolon eklemek için kolonun ekleneceği sütun indisini belirterek bir sütun ekleyin.
 
 
 
@@ -29,144 +30,144 @@ Bu konu, Aspose.Cells.GridWeb API kullanılarak bir çalışma sayfasına nasıl
 
 {{% alert color="primary" %}} 
 
-Çalışma sayfalarına uygun şekilde birden fazla satır/sütun eklemek için insertRows()/insertColumns() yöntemlerini de kullanabilirsiniz.
+Ayrıca insertRows()/insertColumns() yöntemlerini kullanarak çalışma sayfasına uygun olarak birden fazla satır/sütun ekleyebilirsiniz.
 
 {{% /alert %}} 
-##  **Satırları ve Sütunları Silme**
-Bu konu, Aspose.Cells.GridWeb API kullanılarak bir çalışma sayfasındaki satırların ve sütunların nasıl silineceğini gösterir. Bu özelliğin yardımıyla, geliştiriciler çalışma zamanında satırları veya sütunları silme işlemini gerçekleştirebilir.
-###  **Satırları Silme**
+## **Satırları ve Sütunları Silme**
+Bu konu, Aspose.Cells.GridWeb API'sını kullanarak bir çalışma sayfasından satırları ve sütunları nasıl sileceğinizi göstermektedir. Bu özellik sayesinde geliştiriciler çalışma zamanında satırları veya sütunları silebilirler.
+### **Satırları Silme**
 Çalışma sayfanızdan bir satırı silmek için:
 
-1. Aspose.Cells.GridWeb denetimini bir Web Formuna veya sayfaya ekleyin.
-1. Satırlarını silmek istediğiniz çalışma sayfasına erişin.
-1. Satır dizinini belirterek çalışma sayfasından bir satırı silin.
+1. Aspose.Cells.GridWeb denetimini bir Web Formu veya sayfaya ekleyin.
+1. Satırları silmek istediğiniz çalışma sayfasına erişin.
+1. Satırın indisini belirterek çalışma sayfasından bir satırı silin.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-DeletingRows-DeletingRows.jsp" >}}
-###  **Sütunları Silme**
+### **Sütunları Silme**
 Çalışma sayfanızdan bir sütunu silmek için:
 
-1. Aspose.Cells.GridWeb denetimini bir Web Formuna veya sayfaya ekleyin.
-1. Sütunlarını silmek istediğiniz çalışma sayfasına erişin.
-1. Sütun dizinini belirterek çalışma sayfasından bir sütunu silin.
+1. Aspose.Cells.GridWeb denetimini bir Web Formu veya sayfaya ekleyin.
+1. Sütunları silmek istediğiniz çalışma sayfasına erişin.
+1. Sütunun indisini belirterek çalışma sayfasından bir sütunu silin.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-DeletingColumns-DeletingColumns.jsp" >}}
-##  **Satır Yüksekliğini ve Sütun Genişliğini Ayarlama**
-Bazen hücre değerleri bulundukları hücreden daha geniş olabilir veya birkaç satırda yer alabilir. Bu tür değerler, satır ve sütunların yüksekliğini ve genişliğini değiştirmediği sürece kullanıcılar tarafından tam olarak görülemez. Aspose.Cells.GridWeb, satır yüksekliklerini ve sütun genişliğini ayarlamayı tamamen destekler. Bu konu, bu özellikleri örnekler yardımıyla ayrıntılı olarak açıklamaktadır.
-###  **Satır Yükseklikleri ve Sütun Genişliğiyle Çalışmak**
-####  **Satır Yüksekliğini Ayarlama**
+## **Satır Yüksekliği ve Sütun Genişliği Ayarlama**
+Bazı hücre değerleri, hücrelerinin genişliğinden daha geniştir veya birkaç satıra yayılmıştır. Bu tür değerler, kullanıcılar tarafından tamamen görülemez, hücre yüksekliği ve sütun genişliğini değiştirmedikçe. Aspose.Cells.GridWeb, satır yükseklikleri ve sütun genişliklerini ayarlama konusunu detaylı bir şekilde destekler. Bu konu, örneklerin yardımıyla bu özellikleri ayrıntılı bir şekilde tartışmaktadır.
+### **Satır Yükseklikleri ve Sütun Genişlikleriyle Çalışma**
+#### **Satır Yüksekliği Ayarlama**
 Bir satırın yüksekliğini ayarlamak için:
 
-1. Aspose.Cells.GridWeb kontrolünü Web Formunuza/sayfanıza ekleyin.
+1. Aspose.Cells.GridWeb denetimini Web Formu/sayfanıza ekleyin.
 1. Çalışma sayfasının GridCells koleksiyonuna erişin.
-1. Belirtilen herhangi bir satırdaki tüm hücrelerin yüksekliğini ayarlayın.
+1. Belirli bir satırdaki tüm hücrelerin yüksekliğini ayarlayın.
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb nokta, inç, piksel vb. cinsinden satır yüksekliği ve sütun genişliği ölçümlerini kabul eder.
+Aspose.Cells.GridWeb, satır yüksekliği ve sütun genişlik ölçümlerini puan, inç, piksel vb. olarak kabul eder.
 
 {{% /alert %}} 
 
-**Çıktı: 1. sıranın yüksekliği 50 puana ayarlandı** 
+**Çıktı: 1. satırın yüksekliği 50 puan olarak ayarlandı** 
 
-![yapılacak şey:image_alt_text](working-with-rows-and-columns-gridweb_1.png)
+![todo:image_alt_text](working-with-rows-and-columns-gridweb_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-SettingRowHeight-SettingRowHeight.jsp" >}}
-####  **Sütun Genişliğini Ayarlama**
+#### **Sütun Genişliği Ayarlama**
 Bir sütunun genişliğini ayarlamak için:
 
-1. Aspose.Cells.GridWeb kontrolünü Web Formunuza/sayfanıza ekleyin.
+1. Aspose.Cells.GridWeb denetimini Web Formu/sayfanıza ekleyin.
 1. Çalışma sayfasının GridCells koleksiyonuna erişin.
-1. Belirtilen herhangi bir sütundaki tüm hücrelerin genişliğini ayarlayın.
+1. Belirli bir sütundaki tüm hücrelerin genişliğini ayarlayın.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-SettingColumnWidth-SettingColumnWidth.jsp" >}}
-##  **Satır ve Sütun Başlıklarını Özelleştirme**
-Microsoft Excel gibi, Aspose.Cells.GridWeb de satırlar (1, 2, 3 vb. gibi sayılar) ve sütunlar (A, B, C vb. gibi alfabetik) için standart başlıklar veya başlıklar kullanır. Aspose.Cells.GridWeb ayrıca altyazıları özelleştirmeyi de mümkün kılar. Bu konu, Aspose.Cells.GridWeb API'i kullanarak çalışma zamanında satır ve sütun başlıklarını özelleştirmeyi açıklamaktadır.
-###  **Satır Başlığını Özelleştirme**
-Bir satırın başlığını veya başlığını özelleştirmek için:
+## **Satır ve Sütun Başlıklarını Özelleştirme**
+Microsoft Excel'e benzer şekilde, Aspose.Cells.GridWeb ayrıca sıralar (1, 2, 3 gibi) ve sütunlar (A, B, C gibi) için standart başlıkları veya başlıkları kullanır. Aspose.Cells.GridWeb, başlıkları özelleştirmeyi de mümkün kılar. Bu konu, Aspose.Cells.GridWeb API'sını kullanarak çalışma zamanında sıra ve sütun başlıklarını özelleştirmeyi tartışmaktadır.
+### **Sıra Başlığını Özelleştirme**
+Bir sıra başlığını veya başlığını özelleştirmek için:
 
-1. Aspose.Cells.GridWeb denetimini bir Web Formu/sayfasına ekleyin.
-1. GridWorksheetCollection'daki çalışma sayfasına erişin.
-1. Belirtilen herhangi bir satırın başlığını ayarlayın.
+1. Aspose.Cells.GridWeb denetimini Bir Web Form/ sayfasına ekleyin.
+1. GridWorksheetCollection'daki çalışsayıya erişin.
+1. Belirli bir satırın başlığını ayarlayın.
 
-**1. ve 2. satırların başlıkları özelleştirildi** 
+**1. ve 2. satırın başlıkları özelleştirildi** 
 
-![yapılacak şey:image_alt_text](working-with-rows-and-columns-gridweb_2.png)
+![todo:image_alt_text](working-with-rows-and-columns-gridweb_2.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-CustomizingRowHeader-CustomizingRowHeader.jsp" >}}
-###  **Sütun Başlığını Özelleştirme**
-Bir sütunun başlığını veya başlığını özelleştirmek için:
+### **Sütun Başlığını Özelleştirme**
+Bir sütun başlığını veya başlığını özelleştirmek için:
 
-1. Aspose.Cells.GridWeb denetimini bir Web Formu/sayfasına ekleyin.
-1. GridWorksheetCollection'daki çalışma sayfasına erişin.
-1. Belirtilen herhangi bir sütunun başlığını ayarlayın.
+1. Aspose.Cells.GridWeb denetimini Bir Web Form/ sayfasına ekleyin.
+1. GridWorksheetCollection'daki çalışsayıya erişin.
+1. Belirli bir sütunun başlığını ayarlayın.
 
-**1. ve 2. sütunun başlıkları özelleştirilmiştir** 
+**1. ve 2. sütunun başlıkları özelleştirildi** 
 
-![yapılacak şey:image_alt_text](working-with-rows-and-columns-gridweb_3.png)
+![todo:image_alt_text](working-with-rows-and-columns-gridweb_3.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-CustomizingColumnHeader-CustomizingColumnHeader.jsp" >}}
-##  **Satırları ve Sütunları Dondurma ve Çözme**
-Bu konu, satırların ve sütunların nasıl dondurulacağını ve çözüleceğini açıklamaktadır. Sütunların veya satırların dondurulması, kullanıcıların çalışma sayfasının diğer bölümlerine kaydırırken sütun başlıklarını veya satır başlıklarını görünür tutmasına olanak tanır. Bu özellik, büyük miktarda veri içeren çalışma sayfalarıyla çalışırken çok faydalıdır. Kullanıcılar yalnızca ekranı kaydırdığında veriler aşağı kaydırılır ve başlıklar yerinde kalır, böylece tarihin okunması kolaylaşır. Bölmeleri dondurma özelliği yalnızca Internet Explorer 6.0 veya üzeri sürümlerde desteklenir.
-###  **Satırların ve Sütunların Dondurulması**
-Belirli sayıda satır ve sütunu dondurmak için:
+## **Sıraları ve Sütunları Sabitleme ve Şeffaflık**
+Bu konu, sıraları ve sütunları sabitlemenin ve şeffaflığını kaldırmanın nasıl yapılacağını açıklar. Sütunları veya sıraları dondurmak, kullanıcıların çalışsayfasının diğer kısımlarına kaydırırken sütun başlıklarını veya sıra başlıklarını görünür tutmalarını sağlar. Bu özellik, büyük veri miktarı içeren çalışsayfalarıyla çalışırken çok yardımcıdır. Kullanıcılar yalnızca verileri kaydırırken başlıklar yerinde kalır ve veriyi okumayı kolaylaştırır. Sabitlenmiş paneller özelliği yalnızca Internet Explorer 6.0 veya üzerinde desteklenir.
+### **Sıraları ve Sütunları Dondurma**
+Belirli bir sayıda sırayı ve sütunu dondurmak için:
 
-1. Aspose.Cells.GridWeb denetimini bir Web Formu/sayfasına ekleyin.
-1. Bir çalışma sayfasına erişin.
-1. Bir dizi satırı ve sütunu dondurun.
+1. Aspose.Cells.GridWeb denetimini Bir Web Form/ sayfasına ekleyin.
+1. Bir çalışsayı açın.
+1. Belirli bir sayıda sırayı ve sütunu dondurun.
 
 {{% alert color="primary" %}} 
 
- Arayüzü kullanarak belirli sayıda satır ve sütunu dondurmak da mümkündür. Satırları ve sütunları dondurmak istediğiniz hücreye sağ tıklayın ve**Donmak** listeden.
+Ayrıca, arabirim kullanarak belirli bir sayıda sırayı ve sütunu dondurmak mümkündür. Sıraları ve sütunları dondurmak istediğiniz hücreye sağ tıklayın ve listeden **Dondur**'u seçin.
 
 {{% /alert %}} 
 
-**Dondurulmuş durumdaki satırlar ve sütunlar** 
+**Dondurulmuş durumdaki sıralar ve sütunlar** 
 
-![yapılacak şey:image_alt_text](working-with-rows-and-columns-gridweb_4.png)
+![todo:image_alt_text](working-with-rows-and-columns-gridweb_4.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-FreezingRowsandColumns-FreezingRowsandColumns.jsp" >}}
-###  **Satırların ve Sütunların Dondurulması**
-Satır ve sütunların dondurmasını çözmek için:
+### **Sıraları ve Sütunları Serbest Bırakma**
+Sıraları ve sütunları serbest bırakmak için:
 
-1. Aspose.Cells.GridWeb denetimini bir Web Formu/sayfasına ekleyin.
-1. Bir çalışma sayfasına erişin.
-1. Satırları ve sütunları çözün.
+1. Aspose.Cells.GridWeb denetimini Bir Web Form/ sayfasına ekleyin.
+1. Bir çalışsayı açın.
+1. Sıraları ve sütunları serbest bırakın.
 
-**Dondurulduktan sonraki çalışma sayfası** 
+**Serbest bırakıldıktan sonraki çalışsayfa** 
 
-![yapılacak şey:image_alt_text](working-with-rows-and-columns-gridweb_5.png)
+![todo:image_alt_text](working-with-rows-and-columns-gridweb_5.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-UnfreezingRowsandColumns-UnfreezingRowsandColumns.jsp" >}}
-##  **Satır ve Sütunların Korunması**
-Bu konu, satır ve sütunlardaki hücreleri son kullanıcılar tarafından gerçekleştirilen her türlü eylemden korumaya yönelik birkaç tekniği tartışmaktadır. Geliştiriciler bu korumayı iki teknik kullanarak uygulayabilirler: satır ve sütunlardaki hücreleri salt okunur hale getirerek veya GridWeb'in içerik menüsü seçeneklerini kısıtlayarak.
-###  **İçerik Menüsü Seçeneklerini Kısıtlama**
-GridWeb, son kullanıcıların kontrol üzerinde işlemler gerçekleştirmek için kullanabileceği bir içerik menüsü sağlar. Menü, hücreleri, satırları ve sütunları değiştirmek için birçok seçenek sunar.
+## **Sıraları ve Sütunları Koruma**
+Bu konu, geliştiricilerin son kullanıcılar tarafından gerçekleştirilen her türlü eylemden satır ve sütunlardaki hücreleri korumak için birkaç teknik tartışır. Geliştiriciler, hücreleri satır ve sütunlarda salt okunur yaparak veya GridWeb'in bağlam menü seçeneklerini kısıtlayarak bu korumayı uygulayabilirler.
+### **Bağlam Menü Seçeneklerini Kısıtlama**
+GridWeb, denetim üzerinde işlemler yapmak için kullanıcıların kullanabileceği bağlam menüsünü sağlar. Menü, hücreleri, satırları ve sütunları manipüle etmek için birçok seçenek sağlar.
 
-**Bağlamsal seçenekleri tamamlayın** 
+**Tüm bağlamsal seçenekler** 
 
-![yapılacak şey:image_alt_text](working-with-rows-and-columns-gridweb_6.png)
+![todo:image_alt_text](working-with-rows-and-columns-gridweb_6.png)
 
-Bağlam menüsündeki seçenekleri kısıtlayarak satır ve sütunlarda her türlü istemci taraflı işlemi kısıtlamak mümkündür. Bu, GridWeb denetiminin EnableClientColumnOperations ve EnableClientRowOperations özniteliklerini false olarak ayarlayarak yapılabilir. GridWeb denetiminin EnableClientFreeze özniteliğini false olarak ayarlayarak kullanıcıların satırları ve sütunları dondurmasını kısıtlamak da mümkündür.
+Bağlam menüsündeki seçeneklerin kullanıcı tarafından kısıtlanması mümkündür. Bu, GridWeb denetiminin EnableClientColumnOperations ve EnableClientRowOperations özelliklerinin false olarak ayarlanarak yapılabilir. Ayrıca, GridWeb denetiminin EnableClientFreeze özelliğinin false olarak ayarlanarak kullanıcıların satırları ve sütunları dondurması da mümkündür.
 
-**Satır ve sütun seçeneklerini kısıtladıktan sonra içerik menüsü** 
+**Satır ve sütun seçenekleri kısıtlandıktan sonra bağlam menüsü** 
 
-![yapılacak şey:image_alt_text](working-with-rows-and-columns-gridweb_7.png)
+![todo:image_alt_text](working-with-rows-and-columns-gridweb_7.png)
 
 
 

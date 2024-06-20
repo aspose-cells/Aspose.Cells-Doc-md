@@ -1,39 +1,40 @@
-﻿---
-title: Sorgu Düzenleme
+---
+title: Sorguyu Düzenle
 type: docs
 weight: 40
 url: /tr/reportingservices/editing-query/
 ---
+
 Aspose.Cells.Report.Designer'da bir sorguyu düzenlemek için:
 
 1. Microsoft Excel'i açın.
-1.  Tıklamak**Veri Kümesi Oluştur**Aspose.Cells.Report.Designer araç çubuğunda (
+Aspose.Cells.Report.Designer araç çubuğunda **Veri Kümesi Oluştur**'a tıklayın (
 
-![yapılacaklar:resim_alternatif_metin](editing-query_1.png)
+![todo:image_alt_text](editing-query_1.png)
 
 ).
 
-1.  İletişim kutusunda bir veri seti seçin, örneğin,**EmpSalesDetay**.
-1.  Tıklamak**Düzenlemek**. 
+Açılan iletişim kutusunda, örneğin, **EmpSalesDetail** veri kümesini seçin.
+**Düzenle**'ye tıklayın. 
 
-   **Bir veri seti seçme** 
+   **Bir veri kümesi seçme** 
 
-![yapılacaklar:resim_alternatif_metin](editing-query_2.png)
-
-
-
-
-1.  Aspose.Cell.Report.Designer, Microsoft Sorgusunu başlatır ve düzenlemek için sorguyu açar.
-
-   **Microsoft Sorguda bir sorguyu düzenleme** 
-
-![yapılacaklar:resim_alternatif_metin](editing-query_3.png)
+![todo:image_alt_text](editing-query_2.png)
 
 
 
 
-1.  Microsoft sorgusundan**Dosya** menü, seç**Aspose.Cells.Report.Designer'a Dön** 
+1. Aspose.Cell.Report.Designer Microsoft Query'i başlatır ve düzenlemek için sorguyu açar. 
 
-   **Rapor Tasarımcısına Dön** 
+   **Microsoft Query'de sorgu düzenleme** 
 
-![yapılacaklar:resim_alternatif_metin](editing-query_4.png)
+![todo:image_alt_text](editing-query_3.png)
+
+
+
+
+Microsoft Query'nin **Dosya** menüsünden **Aspose.Cells.Report.Designer'a Dönüş**'ü seçin 
+
+   **Rapor Tasarımcısına Geri Dön** 
+
+![todo:image_alt_text](editing-query_4.png)

@@ -1,22 +1,25 @@
-﻿---
-title: Adición de fórmulas al Cells
+---
+title: Agregar fórmula a la celda
 type: docs
 weight: 30
-url: /es/net/adding-formulas-to-cells/
+url: /es/net/aspose-cells-griddesktop/adding-formula-to-cell/
+keywords: GridDesktop, fórmula
+description: Este artículo presenta cómo obtener o establecer una fórmula en la celda en la hoja de cálculo en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Una celda no solo puede contener un valor simple como una cifra numérica o algún texto, sino que también podemos insertar una fórmula en una celda como su valor. Una fórmula se usa en una celda cuando el valor de una celda debe determinarse después de algunos cálculos. En este tema, discutiremos cómo podemos acceder y modificar una fórmula aplicada en una celda.
+Una celda puede contener no solo un valor simple como una cifra numérica o algún texto, sino también una fórmula como su valor. Se utiliza una fórmula en una celda cuando el valor de la celda debe ser determinado después de algunos cálculos. En este tema, discutiremos cómo acceder y modificar una fórmula aplicada a una celda.
 
 {{% /alert %}} 
-## **Agregar fórmula a un Cell**
- Agregar una fórmula a una celda es como establecer el valor de una celda, como hemos discutido en nuestro tema anterior:[Acceso y modificación del valor de un Cell](/cells/es/net/accessing-and-modifying-the-value-of-a-cell/) excepto que en ese caso, solo agregamos valores simples a las celdas. Ahora, agregaremos fórmulas. Los desarrolladores pueden usar la propiedad Valor de una celda para acceder y modificar la fórmula o de otra manera**Establecer valor de celda** El método de la celda también se puede usar para agregar o modificar la fórmula en una celda.
+## **Agregar fórmula a una celda**
+Agregar una fórmula a una celda es similar a establecer el valor de una celda, como hemos discutido en nuestro tema anterior: [Acceder y Modificar el Valor de una Celda](/cells/es/net/accessing-and-modifying-the-value-of-a-cell/) excepto que en ese caso, solo agregamos valores simples a las celdas. Ahora, agregaremos fórmulas. Los desarrolladores pueden utilizar la propiedad Valor de una celda para acceder y modificar la fórmula o, de lo contrario, también se puede usar el método **SetCellValue** de la celda para agregar o modificar la fórmula en una celda.
 
-**IMPORTANTE:** La diferencia básica entre usar la propiedad Valor o**Establecer valor de celda** método de una celda es que la propiedad Value invoca**Ejecutar todas las fórmulas** método de Grid automáticamente para volver a calcular los valores de todas las fórmulas donde, como en el caso de**Establecer valor de celda** los desarrolladores de métodos deben llamar**Ejecutar todas las fórmulas** método explícitamente después de agregar las fórmulas a las celdas. En realidad, cuando usamos**Establecer valor de celda** método de una celda, entonces este método establece el valor de la celda en**FormulaType** solamente y no calcular la fórmula. Además, llamando**Ejecutar todas las fórmulas**método cada vez que no es necesario. Si desea agregar muchas fórmulas en las celdas de una hoja de trabajo, puede llamar**Ejecutar todas las fórmulas** método sólo una vez al final.
+**IMPORTANTE:** La diferencia básica entre usar la propiedad Valor o el método **SetCellValue** de una celda es que la propiedad Valor invoca el método **RunAllFormulas** de Grid automáticamente para recalcular los valores de todas las fórmulas, mientras que en el caso del método **SetCellValue**, los desarrolladores necesitan llamar explícitamente al método **RunAllFormulas** después de que se agreguen las fórmulas a las celdas. De hecho, cuando usamos el método **SetCellValue** de una celda, este método establece el valor de la celda solo a **TipoFórmula**, sin calcular la fórmula. Además, llamar al método **RunAllFormulas** no es necesario cada vez. Si desea agregar muchas fórmulas en las celdas de una hoja de cálculo, puede llamar al método **RunAllFormulas** solo una vez al final.
 
- Se agrega una fórmula a una celda como un valor de cadena. Además, la estructura de la fórmula debe ser compatible con la estructura de la fórmula de MS Excel. Todas las fórmulas deben comenzar con un**Signo igual (=)**.
+Se agrega una fórmula a una celda como un valor de cadena. Además, la estructura de la fórmula debe ser compatible con la estructura de fórmula de MS Excel. Todas las fórmulas deben comenzar con un **signo igual (=)**.
 
- En el ejemplo que se muestra a continuación, hemos agregado una fórmula para multiplicar los valores de dos celdas de la hoja de trabajo y almacenar el resultado en otra celda.**Ejecutar todas las fórmulas** El método también se invoca al final.
+En el ejemplo dado a continuación, hemos agregado una fórmula para multiplicar los valores de dos celdas de la hoja de cálculo y almacenar el resultado en otra celda. También se invoca el método **RunAllFormulas** al final.
 
 
 
@@ -24,10 +27,10 @@ Una celda no solo puede contener un valor simple como una cifra numérica o alg�
 
 
 
-Ahora ejecuta la aplicación. Si hace doble clic en la celda donde se agregó la fórmula, notará que el valor será reemplazado por la fórmula que realmente está calculando el valor en el back-end.
+Ahora ejecute la aplicación. Si hace doble clic en la celda donde se agregó la fórmula, notará que el valor será reemplazado por la fórmula que en realidad está calculando el valor en el backend.
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridDesktop es compatible con la mayoría de las funciones de uso común de MS Excel. Para obtener más detalles sobre la lista de funciones admitidas, por favor[haga clic aquí.](/cells/es/net/list-of-supported-functions/)
+Aspose.Cells.GridDesktop admite la mayoría de las funciones comúnmente utilizadas de MS Excel. Para obtener más detalles sobre la lista de funciones admitidas, por favor [haga clic aquí.](/cells/es/net/list-of-supported-functions/)
 
 {{% /alert %}}

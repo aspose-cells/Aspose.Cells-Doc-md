@@ -1,37 +1,38 @@
-﻿---
-title: Conversion de la feuille de calcul en SVG en Ruby
+---
+title: Conversion de feuille de calcul en SVG en Ruby
 type: docs
 weight: 70
 url: /fr/java/converting-worksheet-to-svg-in-ruby/
 ---
-## **Aspose.Cells - Conversion de la feuille de travail en SVG**
-Pour convertir la feuille de calcul en SVG en utilisant Aspose.Cells for Java dans Ruby, appelez simplement la feuille de calcul_à_Méthode svg() du module Converter.
 
-**Code rubis**
+## **Aspose.Cells - Conversion de feuille de calcul en SVG**
+Pour convertir une feuille de calcul en SVG en utilisant Aspose.Cells for Java en Ruby, il suffit d'invoquer la méthode worksheet_to_svg() du module Convertisseur.
 
-{{< highlight "ruby" >}}
+**Code Ruby**
 
- feuille de travail def_à_svg (classeur)
+{{< highlight ruby >}}
 
-# Convertissez chaque feuille de calcul au format svg en une seule page.
+ def worksheet_to_svg(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
+    # Convert each worksheet into svg format in a single page.
 
-save_format = Rjb :: import('com.aspose.cells.SaveFormat')
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
-image_options.setSaveFormat(sauvegarder_format.SVG)
+    save_format = Rjb::import('com.aspose.cells.SaveFormat')
 
-img_options.setOnePagePerSheet(true)
+    img_options.setSaveFormat(save_format.SVG)
+
+    img_options.setOnePagePerSheet(true)
 
 
 
-# Convertir chaque feuille de calcul au format svg
+    # Convert each worksheet into svg format
 
-sheet_count = classeur.getWorksheets().getCount()
+    sheet_count = workbook.getWorksheets().getCount()
 
-je=0
+    i=0
 
- alors que je< sheet_count
+    while i < sheet_count
 
         sheet = workbook.getWorksheets().get(i)
 
@@ -54,7 +55,7 @@ je=0
 end 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Conversion de la feuille de calcul en SVG (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Converting Worksheet to SVG (Aspose.Cells)** depuis l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

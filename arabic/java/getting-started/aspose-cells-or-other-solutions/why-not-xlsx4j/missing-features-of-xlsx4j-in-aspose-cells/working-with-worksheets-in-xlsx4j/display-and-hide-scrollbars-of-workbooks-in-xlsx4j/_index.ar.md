@@ -1,15 +1,16 @@
-﻿---
-title: عرض وإخفاء أشرطة التمرير للمصنفات في xlsx4j
+---
+title: عرض وإخفاء أشرطة التمرير لدفاتر العمل في xlsx4j
 type: docs
 weight: 30
 url: /ar/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/
 ---
-## **Aspose.Cells - عرض وإخفاء أشرطة تمرير مصنفات العمل**
- Aspose.Cells يوفر فصل دراسي ،**دفتر العمل** يمثل ملف Excel.**دفتر العمل** توفر class مجموعة واسعة من الخصائص والأساليب لإدارة ملف Excel. ولكن للتحكم في رؤية أشرطة التمرير في ملف Excel ، يمكن للمطورين استخدام ملفات**setVScrollBarVisible** & **setHScrollBarVisible** طرق**دفتر العمل** صف دراسي.
+
+## **Aspose.Cells - عرض وإخفاء أشرطة التمرير في الدفاتر**
+توفر Aspose.Cells فئة Workbook التي تمثل ملف Excel. فئة Workbook توفر مجموعة واسعة من الخصائص والأساليب لإدارة ملف Excel. ولكن، للتحكم في رؤية أشرطة التمرير في ملف Excel، يمكن للمطورين استخدام أساليب setVScrollBarVisible و setHScrollBarVisible من فئة Workbook.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -43,7 +44,7 @@ workbook.save(dataDir + "AsposeDisplaySrollbars.xls");
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/displayandhidescrollbars/AsposeDisplayAndHideScrollbars.java)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/displayandhidescrollbars/AsposeDisplayAndHideScrollbars.java)

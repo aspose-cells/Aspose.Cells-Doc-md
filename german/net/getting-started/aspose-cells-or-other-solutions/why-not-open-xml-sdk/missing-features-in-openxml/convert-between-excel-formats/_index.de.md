@@ -1,30 +1,31 @@
-﻿---
-title: Konvertieren Sie zwischen Excel-Formaten
+---
+title: Konvertierung zwischen Excel Formaten
 type: docs
 weight: 20
 url: /de/net/convert-between-excel-formats/
 ---
-## **Konvertieren von Excel in PDF**
 
-**PDF** Dateien werden häufig für den Austausch von Dokumenten zwischen Organisationen, Regierungssektoren und Einzelpersonen verwendet. Es ist ein Standarddokumentformat und Softwareentwickler werden oft gebeten, einen Weg zu finden, Microsoft Excel-Dateien in zu konvertieren**PDF** Unterlagen.
-**Aspose.Cells** unterstützt die Konvertierung von Excel-Dateien in PDF und behält eine hohe visuelle Wiedergabetreue bei der Konvertierung bei.
+## **Konvertierung von Excel nach PDF**
 
-Aspose.Cells for .NET unterstützt die Konvertierung von Tabellenkalkulationen in PDF unabhängig von anderer Software. Speichern Sie eine Excel-Datei unter PDF mit der Save-Methode der Workbook-Klasse. Die Save-Methode stellt das SaveFormat.Pdf-Enumerationselement bereit, das die nativen Excel-Dateien in das PDF-Format konvertiert.
+**PDF**-Dateien werden weit verbreitet zum Austausch von Dokumenten zwischen Organisationen, Regierungsbehörden und Einzelpersonen eingesetzt. Es ist ein standardisiertes Dokumentenformat, und Softwareentwickler werden häufig gebeten, eine Möglichkeit zu finden, Microsoft Excel-Dateien in **PDF**-Dokumente umzuwandeln.
+**Aspose.Cells** unterstützt die Konvertierung von Excel-Dateien in PDF und behält dabei eine hohe visuelle Genauigkeit bei der Konvertierung bei.
 
-**Konvertieren** direkt aus der Tabelle zu PDF, anstatt ein Drittanbieter-Tool oder externe API zu verwenden, hat mehrere**Vorteile**:
+Aspose.Cells for .NET unterstützt die Konvertierung von Arbeitsmappen in PDF unabhängig von anderer Software. Speichern Sie eine Excel-Datei im PDF-Format mithilfe der Save-Methode der Workbook-Klasse. Die Save-Methode bietet das enum-Mitglied SaveFormat.Pdf, das die nativen Excel-Dateien in das PDF-Format konvertiert.
 
-1. Für die direkte Konvertierung sind keine temporären Dateien erforderlich, da der gesamte Vorgang im Speicher durchgeführt werden kann.
+Die direkte Konvertierung von Tabellenkalkulationen in PDF anstelle der Verwendung eines Drittanbieter-Tools oder einer externen API hat mehrere Vorteile:
+
+1. Die Direktumwandlung erfordert keine temporären Dateien, da der gesamte Prozess im Speicher durchgeführt werden kann.
 1. Es wird keine XML-Datei benötigt, sodass große Dateien einfach konvertiert werden können.
 1. Die Konvertierungsgeschwindigkeit ist viel schneller.
 
-**So konvertieren Sie Dateien in PDF:**
+**Um Dateien in PDF umzuwandeln:**
 
-1.  Instanziieren Sie ein Objekt der**Arbeitsmappe** Klasse, indem Sie ihren leeren Konstruktor aufrufen.
-1.  Sie können**öffnen/laden** eine vorhandene Vorlagendatei oder überspringen Sie diesen Schritt, wenn Sie die Arbeitsmappe von Grund auf neu erstellen.
-1. Führen Sie Ihre gewünschte Arbeit (Daten eingeben, Formatierung anwenden, Formeln festlegen, Bilder oder andere Zeichenobjekte einfügen usw.) in der Tabelle mithilfe von Aspose.Cells-APIs aus.
-1.  Wenn der Tabellenkalkulationscode vollständig ist, rufen Sie die auf**Die Save-Methode der Workbook-Klasse** um die Tabelle zu speichern. Das Dateiformat sollte PDF sein, also wählen Sie Pdf (ein vordefinierter Wert) aus der SaveFormat-Enumeration aus, um das endgültige PDF-Dokument zu generieren.
+1. Instanziieren Sie ein Objekt der **Workbook**-Klasse, indem Sie ihren leeren Konstruktor aufrufen.
+1. Sie können eine vorhandene Vorlagendatei **öffnen/laden** oder diesen Schritt überspringen, wenn Sie die Arbeitsmappe von Grund auf neu erstellen.
+1. Führen Sie Ihre gewünschten Arbeiten durch (Eingabe von Daten, Anwendung von Formatierungen, Festlegung von Formeln, Einfügen von Bildern oder anderen Zeichenobjekten usw.) auf dem Arbeitsblatt unter Verwendung der APIs von Aspose.Cells durch.
+1. Wenn der Code des Arbeitsblatts abgeschlossen ist, rufen Sie die **Save-Methode der Klasse Workbook** auf, um das Arbeitsblatt zu speichern. Das Dateiformat sollte PDF sein, wählen Sie also Pdf (einen vordefinierten Wert) aus der SaveFormat-Aufzählung, um das endgültige PDF-Dokument zu erstellen.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 
@@ -32,12 +33,12 @@ Aspose.Cells for .NET unterstützt die Konvertierung von Tabellenkalkulationen i
 
 {{< /highlight >}}
 
-## **Konvertieren von Excel in MHTML**
+## **Excel in MHTML umwandeln**
 
-**MHTML** kombiniert normale HTML mit externen Ressourcen (also Inhalten, die normalerweise eingebunden werden, wie Bilder, Animationen, Audio usw.) in einer Datei. Sie werden für E-Mails mit der Dateierweiterung .mht verwendet.
+**MHTML** kombiniert normales HTML mit externen Ressourcen (d. h. Inhalt, der normalerweise verknüpft ist, wie Bilder, Animationen, Audio usw.) in einer Datei. Sie werden für E-Mails mit der Dateierweiterung .mht verwendet.
 Aspose.Cells unterstützt das Lesen und Schreiben von MHTML-Dateien.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 
@@ -49,11 +50,11 @@ Aspose.Cells unterstützt das Lesen und Schreiben von MHTML-Dateien.
 
 {{< /highlight >}}
 
-## **Konvertieren von Excel in XPS**
+## **Excel in XPS umwandeln**
 
-Manchmal möchten Sie eine Arbeitsmappe mit mehreren Arbeitsblättern in das Textformat konvertieren oder speichern. Bei Textformaten (z. B. TXT, TabDelim, CSV usw.) speichern sowohl Microsoft Excel als auch Aspose.Cells standardmäßig nur den Inhalt des aktiven Arbeitsblatts.
+Manchmal möchten Sie eine Arbeitsmappe mit mehreren Arbeitsblättern im Textformat konvertieren oder speichern. Für Textformate (z.B. TXT, TabDelim, CSV etc.) speichern sowohl Microsoft Excel als auch Aspose.Cells standardmäßig nur den Inhalt des aktiven Arbeitsblatts.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 
@@ -63,5 +64,5 @@ Manchmal möchten Sie eine Arbeitsmappe mit mehreren Arbeitsblättern in das Tex
 
 ## **Beispielcode herunterladen**
 
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Convert%20between%20Excel%20formats%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Convert%20between%20Excel%20formats%20%28Aspose.Cells%29.zip)

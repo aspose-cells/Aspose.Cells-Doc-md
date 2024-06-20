@@ -1,20 +1,21 @@
-﻿---
-title: Inaktivera Downlevel Revealed Comments medan du sparar till HTML
+---
+title: Inaktivera kommentarer med låg nivå som upptäcks medan du sparar till HTML
 type: docs
 weight: 20
 url: /sv/net/disable-downlevel-revealed-comments-while-saving-to/
 ---
-## **Möjliga användningsscenarier**
 
-När du sparar din Excel-fil till HTML avslöjar Aspose.Cells Downlevel Conditional Comments. Dessa villkorliga kommentarer är mestadels relevanta för äldre versioner av Internet Explorer och är irrelevanta för moderna webbläsare. Du kan läsa om dem i detalj på följande länk.
+## **Möjliga användningsscenario**
 
-- [Villkorlig kommentar - Nedåtnivå-avslöjad villkorlig kommentar](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
+När du sparar din Excel-fil till HTML avslöjar Aspose.Cells Downlevel Conditional Comments. Dessa villkorliga kommentarer är mest relevanta för äldre versioner av Internet Explorer och är irrelevanta för moderna webbläsare. Du kan läsa om dem i detalj på följande länk.
 
-Aspose.Cells låter dig eliminera dessa avslöjade kommentarer på nednivå genom att ställa in[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) egendom till**Sann**.
+- [Villkorlig kommentar - Låg nivå - avslöjad villkorlig kommentar](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
 
-## **Inaktivera Downlevel Revealed Comments medan du sparar till HTML**
+Aspose.Cells låter dig eliminera dessa Downlevel Revealed Comments genom att ställa in [**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) egenskapen till **true**.
 
-Följande exempelkod visar användningen av[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) fast egendom. Skärmdumpen visar effekten av den här egenskapen när den inte är inställd på sant. Vänligen ladda ner[exempel på Excel-fil](50528257.xlsx) används i den här koden och[utgång HTML](50528258.zip) genereras av den för en referens.
+## **Inaktivera nivånedstiällda avslöjade kommentarer vid sparning till HTML**
+
+Följande kodexempel visar användningen av [**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) egenskapen. Skärmbilden visar effekten av denna egenskap när den inte är inställd på true. Vänligen ladda ner [provexelfilen](50528257.xlsx) som används i denna kod och den [utdata-HTML](50528258.zip) som genererats av den som referens.
 
 ![todo:image_alt_text](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
 

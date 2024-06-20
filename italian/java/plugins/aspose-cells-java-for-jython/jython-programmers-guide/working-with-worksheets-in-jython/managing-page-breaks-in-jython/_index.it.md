@@ -1,15 +1,16 @@
-﻿---
-title: Gestione delle interruzioni di pagina in Jython
+---
+title: Gestisci interruzioni di pagina in Jython
 type: docs
 weight: 80
 url: /it/java/managing-page-breaks-in-jython/
 ---
-## **Aspose.Cells - Gestione interruzioni di pagina**
- Per aggiungere documenti utilizzando**Aspose.Cells Java per Jython**. Qui puoi vedere il codice di esempio.
+
+## **Aspose.Cells - Gestisci interruzioni di pagina**
+Per aggiungere documenti utilizzando **Aspose.Cells Java per Jython**. Qui puoi vedere il codice di esempio.
 
 **Codice Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -138,6 +139,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Aggiungi documenti (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Aggiungi documenti (Aspose.Cells)** da qualsiasi dei siti di codifica sociale qui sotto menzionati:
 
-- [Git Hub](https://github.com/asposewords/Aspose_Words_Java/releases/tag/Aspose.Words_Java_for_Jython-v1.0.0)
+- [GitHub](https://github.com/asposewords/Aspose_Words_Java/releases/tag/Aspose.Words_Java_for_Jython-v1.0.0)

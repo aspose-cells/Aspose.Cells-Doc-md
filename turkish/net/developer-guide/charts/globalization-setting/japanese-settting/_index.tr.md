@@ -1,29 +1,30 @@
 ---
-title: Japonya Bölgesi için Grafiği Resme Dönüştür
-description: Grafiğin Japonca yapılandırmasını ayarlama Aspose.Cells for .NET'in nasıl kullanılacağını öğrenin. Kılavuzumuz, yazı tipleri, boyut, metin yönü ve daha fazlası dahil olmak üzere Japonca karakterleri ve biçimlendirmeyi destekleyecek şekilde grafiklerin nasıl yapılandırılacağını gösterecektir.
-keywords: Aspose.Cells for .NET, Charts, Japanese configuration, font, font size, text direction, support.
-linktitle: Japon Bölgesini Ayarla
+title: Japon Bölgesi İçin Grafikleri Görüntüye Dönüştür
+description: Aspose.Cells for .NET ayarlarını kullanarak grafik için Japon yapılandırmasını nasıl belirleyeceğinizi öğrenin. Rehberimiz, Japon karakterleri ve biçimlendirmeyi desteklemek için yazı tipleri, boyut, metin yönü ve daha fazlasını nasıl yapılandıracağınızı gösterecektir.
+keywords: Aspose.Cells for .NET, Grafikler, Japon yapılandırması, yazı tipi, yazı tipi boyutu, metin yönü, destek.
+linktitle: Japon Bölgesi Belirle
 type: docs
 weight: 10
 url: /tr/net/convert-chart-to-image-for-japanese-region/
 alias: [/net/set-japanese-configuration-for-chart/]
 ---
+
 {{% alert color="primary" %}}
 
-Bu başlıkta size bir grafik için Japon Bölgesini nasıl ayarlayacağınızı göstereceğiz.
+Bu konuda, bir grafik için Japon Bölgesi nasıl belirleneceğini göstereceğiz.
 
 {{% /alert %}}
 
-##  **Bir miras sınıfını tanımlar**
+## **Bir miras sınıfı tanımlar**
 
- İlk adım, miras alan bir "ChartJapaneseSettings" sınıfını tanımlamanız gerekir.[**GrafikKüreselleşmeAyarlar**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
-Daha sonra ilgili fonksiyonları yeniden yazarak grafik elemanlarının metnini kendi dilinizde ayarlayabilirsiniz.
+İlk adım olarak, [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/) tarafından miras alınan "ChartJapaneseSetttings" adlı bir sınıf tanımlamanız gerekir. 
+Ardından ilgili işlevleri yeniden yazarak grafik öğelerinin metnini kendi dilinize göre belirleyebilirsiniz.
 Kod örneği:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChartJapaneseSetttings.cs" >}}
 
-##  **Grafik İçin Japonca Ayarını Yapılandırma**
+## **Grafik için Japon Yapılandırmasını Yapın**
 
-Bu adımda bir önceki adımda tanımladığınız "ChartJapaneseSettings" sınıfını kullanacaksınız.
+Bu adımda, önceki adımda tanımladığınız "ChartJapaneseSetttings" sınıfını kullanacaksınız.
 Kod örneği:
 
 ```
@@ -33,20 +34,20 @@ Kod örneği:
 	chart0.ToImage("Output.png");
 ```
 
-Daha sonra çıktı görüntüsündeki efekti görebilirsiniz; grafikteki öğeler ayarlarınıza göre oluşturulacaktır.
+Ardından çıktı görüntüsünde etkiyi görebilirsiniz, grafikteki unsurlar ayarlarınıza göre yeniden oluşturulur.
 
-##  **Çözüm**
+## **Sonuç**
 
-Bu örnekte, bir grafik için Japonca Bölgesini ayarlamazsanız aşağıdaki grafik öğeleri İngilizce gibi varsayılan dilde görüntülenebilir.
-Yukarıdaki işlemden sonra Japon Bölgesi ile çıktı grafiği resmi elde edebiliriz.
+Bu örnekte, bir grafik için Japon Bölgesi belirlemezseniz, aşağıdaki grafik unsurları varsayılan dilde, yani İngilizce olarak oluşturulabilir.
+Yukarıdaki işlemden sonra, Japon Bölgesi ile çıktı grafik resmi alabiliriz.
 
-|**Desteklenen öğeler**|**Bu örnekteki değer**|**İngilizce ortamında varsayılan değer**|
+|**Desteklenen unsurlar**|**Bu örnekteki değer**|**İngilizce ortamındaki varsayılan değer**|
 | :- | :- | :- |
 |Eksen Başlığı Adı|軸タイトル|Eksen Başlığı|
-|Eksen Birimi Adı|百,千...|Yüzlerce, binlerce...|
-|Grafik Başlığı Adı|グラフ タイトル|Grafik başlığı|
-|Efsane Artış Adı|ぞうか|Arttırmak|
-|Açıklama Adı Azaltma|削減|Azaltmak|
-|Efsane Toplam Adı|すべての|Toplam|
-|Diğer Ad|その他|Diğer|
+|Eksen Birimi Adı|百,千...|Yüz, Bin...|
+|Grafik Başlığı Adı|グラフ タイトル|Grafik Başlığı|
+|Legend Artış Adı|ぞうか|Artış|
+|Legend Azalma Adı|削減|Azalma|
+|Legend Total Adı|すべての|Toplam|
+|Diğer Adı|その他|Diğer|
 |Seri Adı|シリーズ|Seri|

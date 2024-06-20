@@ -1,19 +1,20 @@
-﻿---
-title: Excel dosyasını yüklerken Pivot Önbelleğe Alınmış Kayıtları Ayrıştırma
+---
+title: Excel dosyasını yüklerken Pivot Önbellek Kayıtlarını Ayrıştırın
 type: docs
 weight: 100
 url: /tr/java/parsing-pivot-cached-records-while-loading-excel-file/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Bir Pivot Tablo oluşturduğunuzda, Microsoft Excel, kaynak verilerin bir kopyasını alır ve bunu Pivot Önbellek'te depolar. Pivot Önbelleği, Microsoft Excel'in belleğinde tutulur. Bunu göremezsiniz, ancak Pivot Tablonuzu oluşturduğunuzda veya bir Dilimleyici seçimini değiştirdiğinizde veya satırları/sütunları hareket ettirdiğinizde Pivot Tablonun başvurduğu veriler budur. Bu, Microsoft Excel'in Pivot Tablodaki değişikliklere çok duyarlı olmasını sağlar, ancak dosyanızın boyutunu da ikiye katlayabilir. Ne de olsa Pivot Önbellek, kaynak verilerinizin yalnızca bir kopyasıdır, bu nedenle dosya boyutunuzun potansiyel olarak iki katına çıkması mantıklıdır.
+Bir Pivot Tablosu oluşturduğunuzda, Microsoft Excel kaynak verinin bir kopyasını alır ve Pivot Önbelleğine saklar. Pivot Önbelleği, Microsoft Excel'in belleğinin içinde bulunur. Onu göremezsiniz, ancak bu, Pivot Tablonuzu oluştururken veya bir Dilim Seçimi değiştirdiğinizde veya satırlar/sütunlar etrafında hareket ettiğinizde Pivot Tablosunun başvurduğu veridir. Bu, Microsoft Excel'in Pivot Tablosundaki değişikliklere çok duyarlı olmasını sağlar, ancak dosya boyutunun potansiyel olarak iki kat artmasına neden olabilir.
 
-Workbook nesnesinin içine Excel dosyanızı yüklediğinizde Pivot Cache kayıtlarını da yüklemek isteyip istemediğinize karar verebilirsiniz.[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)Emlak. Bu özelliğin varsayılan değeri**YANLIŞ**. Pivot Cache oldukça büyükse performansı artırabilir. Ancak Pivot Cache kayıtlarını da yüklemek istiyorsanız bu özelliği şu şekilde ayarlamalısınız:**doğru**.
+Excel dosyanızı Workbook nesnesi içinde yüklerken, Pivot Önbellek kayıtlarını da yüklemek isteyip istemediğinize karar verebilirsiniz. Bu özelliğin varsayılan değeri **false**. Pivot Önbelleği oldukça büyükse, performansı artırabilir. Ancak Pivot Önbellek kayıtlarını da yüklemek istiyorsanız, bu özelliği **true** olarak ayarlamalısınız.
 
-## **Excel dosyasını yüklerken Pivot Önbelleğe Alınmış Kayıtları Ayrıştırma**
+## **Excel dosyasını yüklerken Pivot Önbellek Kayıtlarını Ayrıştırın**
 
-Aşağıdaki örnek kod, kullanımını açıklar[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)Emlak. o yükler[örnek excel dosyası](61767786.xlsx)pivot önbelleğe alınmış kayıtları ayrıştırırken. Ardından pivot tabloyu yeniler ve tablo olarak kaydeder.[çıktı excel dosyası](61767785.xlsx).
+Aşağıdaki örnek kod, [**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords) özelliğinin kullanımını açıklar. Pivot Önbellek kayıtlarını ayrıştırarak [örnek Excel dosyasını](61767786.xlsx) yükler, sonra pivot tabloyu yeniler ve [çıktı Excel dosyası](61767785.xlsx) olarak kaydeder.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-ParsingPivotCachedRecordsWhileLoadingExcelFile.java" >}}

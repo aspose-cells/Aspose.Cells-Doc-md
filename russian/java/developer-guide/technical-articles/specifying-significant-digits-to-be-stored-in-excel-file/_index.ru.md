@@ -1,18 +1,19 @@
-﻿---
-title: Указание значащих цифр для сохранения в файле Excel
+---
+title: Указание количества значащих цифр, которые будут сохранены в файл Excel
 type: docs
 weight: 20
 url: /ru/java/specifying-significant-digits-to-be-stored-in-excel-file/
 ---
+
 ## **Возможные сценарии использования**
 
-По умолчанию Aspose.Cells хранит 17 значащих цифр двойных значений в электронных таблицах, в отличие от приложения Excel, которое хранит только 15 значащих цифр. Вы можете изменить поведение по умолчанию Aspose.Cells для этого случая, то есть; вы можете изменить количество значащих цифр с 17 до 15 при использовании[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)имущество.
+По умолчанию Aspose.Cells сохраняет 17 значащих цифр вещественных значений в таблицах, в отличие от приложения Excel, которое сохраняет только 15 значащих цифр. Вы можете изменить стандартное поведение Aspose.Cells в данном случае, то есть; можно изменить количество значащих цифр с 17 до 15 при использовании свойства [**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits).
 
-## **Указание значащих цифр для сохранения в файле Excel**
+## **Указание количества значащих цифр, которые будут сохранены в файл Excel**
 
- В следующем примере кода принудительно используется Aspose.Cells для использования 15 значащих цифр при сохранении двойных значений в файле Excel. Пожалуйста, проверьте[выходной файл excel](23166982.xlsx) . Измените его расширение на .zip и распакуйте его, и вы увидите, что внутри файла excel хранится только 15 значащих цифр. На следующем снимке экрана объясняется эффект[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)свойство в выходном файле Excel.
+Приведенный ниже образец кода заставляет Aspose.Cells использовать 15 значащих цифр при сохранении вещественных значений в файл Excel. Пожалуйста, проверьте [файл Excel](23166982.xlsx) вывода. Измените его расширение на .zip, распакуйте его, и вы увидите, что в файле Excel сохранены только 15 значащих цифр. На следующем снимке экрана объясняется влияние свойства [**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits) на выходной файл Excel.
 
-![дело:изображение_альтернативный_текст](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
+![todo:image_alt_text](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
 
 ## **Образец кода**
 

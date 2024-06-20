@@ -1,203 +1,224 @@
 ---
-title: Aspose.Cells for .NET'deki yenilikler
+title: Aspose.Cells for .NET da Neler Yeni
 type: docs
-description: Aspose.Cells for .NET her geçen gün genişliyor ve gelişiyor. Bu sayfada ürünün devasa ve en ilginç özellikleri hakkında bilgi edinebilirsiniz.
+description: "Aspose.Cells for .NET genişliyor ve gelişiyor. Bu sayfada ürünün büyük ve en ilginç özellikleri hakkında bilgi edinebilirsiniz."
 weight: 5
 url: /tr/net/what-s-new-in-aspose-cells-for-net/
 ---
-Bu sayfada son sürümlerde sunulan en ilginç Aspose.Cells özellikleri açıklanmaktadır.
 
-##  Aspose.Cells for .NET 24.3
+Bu sayfa, son sürümlerde tanıtılan en ilginç yeni Aspose.Cells özelliklerini açıklar.
+
+## Aspose.Cells for .NET 24.6
+* Rendere için geliştirmeler: renk doygunluğu ve renk sıcaklığı ayarı, iki tonlu, Webp görüntüleri
+* PivotTable için geliştirmeler: aralığın birleştirilmesi, PivotField'ın "Değerleri Göster"
+* Kullanıcının aralık verilerini manipüle etmek için Range.ToHtml()/ToImage() desteği
+
+## Aspose.Cells for .NET 24.5
+* Yeni fonksiyonların desteği: XMATCH, XOR
+* Aralığın verilerini transpoze etme desteği
+* Gelişmiş filtre ayarlarının özelliklerini almak için destek
+* Hücreye yerleştirilmiş resmi pdf/ görüntü olarak oluşturma desteği
+* GridJS için stilleri otomatik doldurma desteği
+* GridJS için grafik renk ayarı desteği
+
+## Aspose.Cells for .NET 24.4
+* Kullanıcının kolaylığı için kesme izleme monitörünün basit uygulamalarını sağlama
+* OLE Nesnesini pdf'e dönüştürürken ekli dosyaların gömülmesi desteği
+* ChartX'in otomatik şeklini görüntüye dönüştürme desteği
+* Ms excel'de resmi hücreye yerleştirme işlemi için destek (Fotoğraf için Hücreye Yerleştir işlemi)
+* Numbers dosyasını içe aktarma için geliştirmeler: birleştirilmiş hücreler, gizli satır/sütunlar, ...vs.
+
+## Aspose.Cells for .NET 24.3
 * AZW3 dosyasını içe aktarma desteği
-* Odf 1.3 standardıyla ods kaydetme desteği
-* DEĞERLENDİRME fonksiyonunu hesaplama desteği
-* GridDesktop için destek filtreleri: Top10, Tarih, Metin
-* Ekle menüsüne daha fazla formül ekleyin ve GridJS için yardım ipuçları
-* GridJS için formül menüsüne kategorizasyon özelliği ekleyin
-* Hesaplanan sonuç tarihsaat olduğunda GridJS için hücreyi tarih biçimine otomatik olarak ayarla
+* ODF 1.3 standardıyla ods'yi kaydetme desteği
+* EVALUATE fonksiyonunu hesaplama desteği
+* GridDesktop için filtre desteği: İlk10, Tarih, Metin
+* GridJS için eklem menüsünde daha fazla formül ve yardım ipuçları ekleme
+* GridJS için formül menüsüne kategorizasyon özelliği ekleme
+* GridJS için hesaplanan sonuç tarih saat olduğunda hücreyi otomatik olarak tarih formatına ayarlama
 
-##  Aspose.Cells for .NET 24.2
-* Yeni işlevleri destekleyin: TEXTAFTER,TEXTBEFORE,TEXTSPLIT,TOROW,TOCOL
-* Oxps formatını tespit etme desteği
-* Büyük veri kümesini sıralamak için performansı artırın
-* GridDesktop filtresiyle ilgili işlemlere yönelik geliştirmeler: sayı filtresi, anahtar kelime arama, filtreyi temizleme.
+## Aspose.Cells for .NET 24.2
+* Yeni fonksiyonları destekleme: SONRADAN METİN, ÖNCE METİN, METNİ BÖL, SATIRAÇEVİR, SÜTUNAÇEVİR
+* Oxps formatını algılama desteği
+* Büyük veri kümesini sıralama performansını iyileştirme
+* GridDesktop için filtre işlemleri için geliştirme: sayı filtresi, anahtar kelime araması, filtreleri temizleme.
 
-##  Aspose.Cells for .NET 24.1
+## Aspose.Cells for .NET 24.1
 
-* NET8'i destekleyin
-* Kullanıcı tarafından belirlenen başlık satırları/sütunları ve sayfa başına toplam satır/sütunlarla csv verilerini içe aktarma desteği
-* Özel stillerle html'yi dışa aktarma desteği
+* NET8 desteği ekleme
+* Csv verilerini kullanıcı tarafından belirtilen başlık satırları/sütunları ve toplam satır/sütunlarla içe aktarma desteği
+* Özel stillerle html dışa aktarma desteği
 * Birleştirilmiş alanlar için otomatik doldurma desteği
-* Sağdan sola ve aşağıdan yukarıya doğru otomatik doldurma verilerini destekleyin
+* Veriyi sağdan sola ve alttan üste otomatik doldurma desteği
 
-##  Aspose.Cells for .NET 23.12
+## Aspose.Cells for .NET 23.12
 
-* PDF'ye dönüştürürken PDF/A-2 ve PDF/A-3 uyumluluğu desteği
-* Pivot tablonun ayrık gruplandırılmasının hesaplanması desteği
-* Hücre verilerini genel listeye aktarma desteği
-* Akıllı işaretleyiciler için bağlantılı tabloları kullanarak çapraz referansları içe aktarma desteği
-* Formüller için MAKEARRAY işlevini destekleyin
-* GridJS için hücre metnini dönme açısıyla oluşturma desteği
-* GridDesktop için veri tablosunu içe/dışa aktarmak için daha fazla seçeneği destekleyin
-* GridDesktop için döndürmeli resim oluşturma desteği
-* GridDesktop için çalışma sayfası sırasını ayarlama desteği
-*  GridDesktop için formül uyarı mesajını gösterme/gizleme desteği seçeneği
+* Pdf'e dönüştürürken PDF/A-2 ve PDF/A-3 uyumluluğu desteği
+* Pivot tablosu için ayrık gruplama hesaplama desteği
+* Hücre verilerini genel liste olarak dışa aktarma desteği
+* Akıllı işaretler kullanarak bağlı tabloları kullanarak çapraz referansları içe aktarma desteği
+* Formüller için MAKEARRAY fonksiyonu desteği
+* GridJS için hücre metnini döndürme açısıyla oluşturma desteği
+* GridDesktop için tablo verilerini içe/dışa aktarma seçeneklerini destekle
+* GridDesktop için döndürülmüş resimleri görüntüleme desteği
+* GridDesktop için çalışma tablosu sırasını ayarlama desteği
+* GridDesktop için formül uyarı mesajını gösterme/gizleme seçeneğini destekle 
 
-##  Aspose.Cells for .NET 23.11
+## Aspose.Cells for .NET 23.11
 
-* Elektronik tabloları PDF dosya sürümü 1.7'ye (ISO32000-1:2008) dönüştürme desteği
-* GridJS için form kontrolleri ekleme desteği
-* GridJS için hücre arka planının degrade dolgusunu gösterme desteği
-* GridDesktop için çalışma sayfasını kopyalama/silme/ekleme/yeniden adlandırma desteği
-* GridDesktop için yapıştırma işlemi yaparken maksimum satırların/sütunların otomatik olarak genişletilmesi desteği
-* GridDesktop için SheetPrintingPreview Desteği
-*  GridDesktop'un .NET çekirdek yapısını sağlayın
+* Elektronik tablolardan PDF dosyası sürüm 1.7(ISO32000-1:2008) olarak dönüştürme desteğini destekle
+* GridJS için form kontrolleri ekleme desteğini destekle
+* GridJS için hücre arka planında gradyan doldurma gösterme desteğini destekle
+* GridDesktop için çalışma tablosunu kopyalama/silme/ekleme/yeniden adlandırma desteğini destekle
+* GridDesktop için yapıştırma işlemi yaparken otomatik olarak maksimum satır/sütunu genişletme desteğini destekle
+* GridDesktop için SheetPrintingPreview desteğini destekle
+* GridDesktop için .NET Core sürümü oluşturma desteğini sağla 
 
-##  Aspose.Cells for .NET 23.10
+## Aspose.Cells for .NET 23.10
 
-* Hedef aralığın boyutu kaynak aralığından farklı olduğunda uyarlanabilir yapıştırma işlemini destekleyin
-* Köprüleri doğrudan bir Aralığa ayarlama desteği
-* Birden fazla çalışma sayfasını aynı anda kopyalama desteği
-* Hücre verileri için bir aralığın boş olup olmadığını kontrol etme desteği
+* Hedef aralığın boyutu kaynak aralıktan farklı olduğunda uyumlu yapıştırma işlemi desteğini destekle
+* Bir Aralığa doğrudan hiperbağlantıları belirleme desteğini destekle
+* Birden fazla çalışma sayfasını aynı anda kopyalama desteğini destekle
+* Hücre verileri için bir aralığın boş olup olmadığını kontrol etme desteğini destekle
 
-##  Aspose.Cells for .NET 23.9
+## Aspose.Cells for .NET 23.9
 
-* Formüldeki yeni fonksiyonları hesaplama desteği: LAMBDA,LET,MAP,SCAN
-* EPUB dosyalarını içe/dışa aktarma desteği
-* Grafik serilerini filtreleme desteği
-* GridDesktop için yerelleştirme desteği
-* .net7-windows platformu için GridWeb'i sağlayın
+* Formülde yeni fonksiyonları hesaplama desteğini destekle: LAMBDA, LET, MAP, SCAN
+* EPUB dosyalarını içe/dışa aktarma desteğini destekle
+* Grafik serilerini filtreleme desteğini destekle
+* GridDesktop için yerelleştirme desteğini destekle
+* .net7-windows platformu için GridWeb sağla
 
-##  Aspose.Cells for .NET 23.8
+## Aspose.Cells for .NET 23.8
 
-* Formüllerdeki dolgu alanını koruma desteği
-* Hücrenin zengin metni için metni biçimlendirmeyle değiştirme/ekleme desteği
-* GridJ'lerde döndürme düğmesi için activex kontrolü ve form kontrolü oluşturma desteği
-* GridJ'ler için daha fazla doğrulama türünü destekleyin: metin uzunluğu/ondalık sayı, seçim listesi, formül ifadesi
+* Formüllerde dolgu boşluğunu koruma desteğini destekle
+* Hücrenin zengin metni için metin eklemeyi/değiştirmeyi biçimlendirme desteğini destekle
+* GridJs için aktif kontrol ve spin düğmesi için form kontrolü ekleme desteğini destekle
+* GridJs için daha fazla doğrulama türünü destekle: metin uzunluğu/ondalık, seçim listesi, formül ifadesi
 
-##  Aspose.Cells for .NET 23.7
+## Aspose.Cells for .NET 23.7
 
-* GridJS'nin işleme kontrolleri, birleşik giriş kutusu için sunucu tarafında kaydetme vb. gibi birçok özelliği için geliştirmeler.
-* Visio dosyası, OneNote paket dosyası gibi bazı yeni formatlar için geliştirilmiş dosya formatı algılama.
-* CSharp X509Certificate2 için XAdES imzalarını destekleyin
-* Blazor Web Assembly'de çalışma desteği
+* GridJS için pek çok özelliğin geliştirilmesini destekle, kontrol birleştirme, sunucu taraflı geri kayıt için ComboBox, ...vb.
+* Yeni formatlar için dosya biçimi algılama geliştirilmiş, örneğin visio dosyası, OneNote paket dosyası
+* CSharp X509Certificate2 için XAdES imzalarını destekle
+* Blazor Web Assembly ile çalışma desteğini destekle
 
-##  Aspose.Cells for .NET 23.6
+## Aspose.Cells for .NET 23.6
 
-* Revizyon günlüklerini dışa aktarma ve vurgulama desteği
-* Mevcut Row nesnelerini RowCollection'dan ters sırayla geçme desteği
-* Döndürülebilir birden fazla konsolidasyon aralığını yenileme desteği
-* GridJ'lerde grafik sayfasını gösterme desteği
-* GridJ'lerde hücre taşması içeriğini görüntüleme desteği
-* GridJ'ler için arka plan resmini görüntüleme desteği
-* GridJ'lerde tarih saatine göre filtreleme desteği
+* Düzenleme günlüklerini dışa aktarma ve vurgulama desteğini destekle
+* Varolan Satır nesnelerini ters sırayla RowCollection'dan geçme desteğini destekle
+* Pivottable için birden fazla konsolidasyon aralığını yenileme desteği
+* GridJs'te grafik sayfasını gösterme desteği
+* GridJs'te hücre taşma içeriğini görüntüleme desteği
+* GridJs için arka plan resmi görüntüleme desteği
+* GridJs'te tarih saatine göre filtreleme desteği
 
-##  Aspose.Cells for .NET 23.5
+## Aspose.Cells for .NET 23.5
 
-* Harici sayfa verilerinin harici referanslarını geçerli çalışma kitabının yerel sayfasına güncelleme desteği
-* Onay Kutusu kontrolünü statik resim yerine etkileşimli kontrol olarak oluşturma desteği
-* PivotArea'yı seçme ve biçimlendirme desteği
-* Pdf'ye dönüştürürken filigran ekleme desteği
+* Harici elek sayfa verilerinin yerel çalışma kitabının yerel sayfasına güncelleme desteği
+* Checkbox kontrolünü statik resim yerine etkileşimli kontrol olarak render etme desteği
+* PivotArea seçme ve biçimlendirme desteği
+* PDF'ye dönüştürürken filigran ekleme desteği
 
-##  Aspose.Cells for .NET 23.4
+## Aspose.Cells for .NET 23.4
 
-* ENCODEURL fonksiyonunu hesaplama desteği
-* İlgili düğümleri adım adım ekleyerek bir denklem şeklinin oluşturulmasını tamamlama desteği
-* Formül ifadesini bir hücre nesnesine ayarlamadan dizi formülü olarak hesaplama desteği
-* LightCells modunda xlsb dosyasını kaydetme desteği
-* Bir yazı tipinin yüklü veya mevcut olup olmadığını kontrol etme desteği
-* ListObject'te formülü belirtilen hücreye ayarlama desteği
+* ENCODEURL fonksiyonu hesaplama desteği
+* İlişkili düğmeleri adım adım ekleyerek denklem şeklinin tamamlanmasını destekleme
+* Formül ifadesinin hücre nesnesine ayarlanmadan dizi formülü olarak hesaplanma desteği
+* Xlsb dosyasını LightCells modunda kaydetme desteği
+* Bir yazı tipinin yüklü veya kullanılabilir olup olmadığını kontrol etme desteği
+* Belirtilen hücreye formül ayarlama desteği
 * Çalışma kitabını xhtml olarak kaydetme desteği
-* GridWeb için activex kontrolü ve form kontrolü oluşturma desteği
+* GridWeb için activex kontrol ve form kontrolü render etme desteği
 
-##  Aspose.Cells for .NET 23.3
+## Aspose.Cells for .NET 23.3
 
-* Yeni işlevleri ayarlama/okuma/kaydetme desteği: LET, ENCODEURL
-* Formül hesaplamasını çağırırken veri kaynaklarını harici bağlantılara bağlama desteği
+* Yeni fonksiyonları ayarlama/okuma/kaydetme desteği: LET, ENCODEURL
+* Formül hesaplama çağrısında dış bağlantılara veri kaynakları bağlama desteği
 
-##  Aspose.Cells for .NET 23.2
+## Aspose.Cells for .NET 23.2
 
-* Yeni işlevleri ayarlama/okuma/kaydetme desteği: SCAN, LAMBDA
-* Stili json'a aktarma desteği
+* Yeni fonksiyonları ayarlama/okuma/kaydetme desteği: SCAN, LAMBDA
+* Stilin json olarak dışa aktarılmasını destekleme
 
-##  Aspose.Cells for .NET 23.1
+## Aspose.Cells for .NET 23.1
 
-* Yeni işlevleri destekleyin: CHOOSEROWS, CHOOSECOLS, HSTACK, VSTACK
-* Revizyonlardan yazar ve tarih saatini alma desteği
+* Yeni fonksiyonları destekleme: CHOOSEROWS, CHOOSECOLS, HSTACK, VSTACK
+* Revizyonlardan yazarı ve tarih saati alma desteği
 
-##  Aspose.Cells for .NET 22.12
+## Aspose.Cells for .NET 22.12
 
-* Çok katmanlı hiyerarşi yapısıyla excel'i JSON'e aktarma desteği
+* Birden fazla katmanlı hiyerarşi yapısı ile JSON olarak exceli dışa aktarma desteği
 
-##  Aspose.Cells for .NET 22.11
+## Aspose.Cells for .NET 22.11
 
-* Dinamik dizi formülü ile eski dizi formülü arasında ayrım yapma desteği
-* Xlsb dosya formatı için dinamik dizi formüllerini okuma/kaydetme desteği
+* Dinamik dizi formülü ile eski tür dizi formülü arasında ayırt etme desteği
+* Xlsb dosya biçimi için dinamik dizi formüllerini okuma/kaydetme desteği
 
-##  Aspose.Cells for .NET 22.10
+## Aspose.Cells for .NET 22.10
 
-* NET6 için grafik kitaplığı olarak SkiaSharp'ı kullanma desteği
-* CRTX şablon dosyasıyla grafik ekleme ve güncelleme desteği
+* NET6 için grafik kütüphanesi olarak SkiaSharp'ı kullanma desteği
+* CRTX şablon dosyası ile grafik ekleme ve güncelleme desteği
 
-##  Aspose.Cells for .NET 22.9
+## Aspose.Cells for .NET 22.9
 
 * Hücreler için tablo formülü ayarlama desteği
-* Özel işlev ve hesaplama motoruyla dinamik dizi formülünü ayarlama desteği
-* Degrade dolgu formatı için önceden ayarlanmış degrade ayarlarını belirleme desteği
-* Aralık için Tema renkleriyle anahat kenarlıkları uygulama desteği
+* Özel fonksiyon ve hesaplama motoru ile dinamik dizi formülü ayarlama desteği
+* Degrade önyargı ayarlarını ayarlamak için destek
+* Menzil için Tema renkleri ile dış çizgi sınırları uygulama desteği
 
-##  Aspose.Cells for .NET 22.8
+## Aspose.Cells for .NET 22.8
 
-* Yorumların ve notların sayfada görüntülendiği şekilde html'ye aktarılmasını destekler
-* Pdf/xps'e dönüştürürken çıktısı alınacak çalışma sayfalarını belirleme desteği
+* Sayfa üzerinde görüntülenen yorumları ve notları html'ye aktarma desteği
+* Pdf/xps'e dönüştürürken çıktı alınacak çalışma sayfalarını belirtme desteği
 
-##  Aspose.Cells for .NET 22.7
+## Aspose.Cells for .NET 22.7
 
-* HTML'yi sayfa üstbilgisi/altbilgisi ile tek bir dosyaya aktarma desteği
-* Aralığın mutlak konumunu ve boyutunu (puan cinsinden) elde etme desteği
+* Sayfa başlığı/altyazı ile tek bir dosyaya html dışa aktarma desteği
+* Aralığın mutlak konumunu ve boyutunu (noktalar cinsinden) alma desteği
 
-##  Aspose.Cells for .NET 22.6
+## Aspose.Cells for .NET 22.6
 
-* Formül hesaplama zinciriyle formüllerin hesaplanması ve izlenmesine yönelik iyileştirme
+* Formül hesaplama zinciri ile hesaplama ve izleme formülü işlemi için iyileştirme
 
-##  Aspose.Cells for .NET 22.5
+## Aspose.Cells for .NET 22.5
 
-* LightCells modunda çalışma kitabını kaydederken hücre formülü ayarlamanın bellek performansında iyileştirme
+* Hücre formülü ayarlama hafızası performansı geliştirmesi, Hücrelerin formülünü ayarlarken LightCells modunda çalışırken
 
-##  Aspose.Cells for .NET 22.4
+## Aspose.Cells for .NET 22.4
 
-* CSV'i dışa aktarmak için boş hücreleri kontrol etmeye yönelik geliştirilmiş seçenekler.
-* Ekleme/silme işlemleri için karmaşık bölmeyi ve koşullu biçimlendirmeyi güncellemeyi destekleyin
+* CSV dışa aktarımı için boş hücreleri kontrol etme seçeneklerini geliştirme
+* Koşullu biçimlendirme için karmaşık bölme ve güncellemeyle ilgili işlemler için destek
 
-##  Aspose.Cells for .NET 22.3
+## Aspose.Cells for .NET 22.3
 
-* Tanımlanan ad değiştirildiğinde ve çalışma kitabının hesaplama zinciri etkinleştirildiğinde, tanımlanan ada bağlı olan hücrelerin yeniden hesaplanması desteği.
-* Formüllerin hesaplama zincirine göre hücrenin yapraklarını yinelemeli olarak alma desteği
+* Tanımlı ad değiştiğinde ve çalışma kitabının hesaplama zinciri etkinleştirildiğinde tanımlı adlara bağlı hücrelerin yeniden hesaplanmasını destekleme
+* Formüllerin hesaplama zincirine göre hücrelerin yapraklarını yeniden hesaplama desteği
 
-##  Aspose.Cells for .NET 22.2
+## Aspose.Cells for .NET 22.2
 
-* Belirtilen kapsam filtresiyle NameCollection'dan tanımlı adların çıkarılması desteği.
+* Belirtilen kapsam filtresi ile NameCollection'dan tanımlı isim çıkarma desteği
 
-##  Aspose.Cells for .NET 22.1
+## Aspose.Cells for .NET 22.1
 
 * Düzenlenebilir pptx oluşturma desteği
-* Veri satırı/sütun sınırı aştığında büyük csv'yi birden fazla çalışma sayfasına aktarma desteği
-* LightCells ile csv'yi içe aktarma desteği
-* Belirtilen harici bağlantıyı kaldırma desteği
-* Harici bağlantıları kaldırırken formülleri koruma desteği
+* Veri satır/sütun sınırını aştığında büyük csv'nin birden fazla çalışma sayfasına aktarılması desteği
+* LightCells ile csv içe aktarma desteği
+* Belirtilen dış bağlantıyı kaldırma desteği
+* Dış bağlantıları kaldırırken formülleri tutma desteği
 
-##  Aspose.Cells for .NET 21.12
+## Aspose.Cells for .NET 21.12
 
 * Excel'i SQL Komut Dosyalarına dönüştürme desteği
-* Düz xml verilerinin içe ve dışa aktarılmasını destekleyin
-* Bozuk xls dosyasından mümkün olduğunca fazla veri okuma desteği
-* SmartMarker sürecini kesintiye uğratma desteği
-* Koşullu biçimlendirme ve doğrulama için aralık ekleme performansını artırın
-* Tıpkı ms excel'in davranışı gibi, yeni eklenen format koşulu için önceliği en yüksek olarak ayarlayın
+* Basit xml veri alışverişini içe/dışa aktarma desteği
+* Bozulmuş xls dosyasından olabildiğince çok veri okuma desteği
+* SmartMarker işlemini kesme desteği
+* Koşullu biçimlendirme ve doğrulama için aralıklar eklerken performansı iyileştirme
+* Yeni eklenen biçim koşulu için en yüksek önceliği ayarlama, ms excel davranışı gibi
 
-##  Aspose.Cells for .NET 21.11
+## Aspose.Cells for .NET 21.11
 
-* XLookup formülü/işlevinin hesaplanmasını destekleyin.
-* Kaydetme json'unu ve görüntüleri çalışma kitabını kaydetmeye entegre edin.
-* Excel'i HTML'e dönüştürürken performansı artırın.
+* XLookup formül/fonksiyonu hesaplama desteği
+* Json ve resimleri saklama ile saklama kitabını saklama entegrasyonu
+* Excel'i HTML'e dönüştürürken performansı iyileştirme
 

@@ -1,31 +1,32 @@
-﻿---
-title: Få åtkomst till tabell från Cell och lägga till värden i den med hjälp av rad- och kolumnförskjutningar
+---
+title: Få åtkomst till tabell från cell och lägg till värden inuti den med hjälp av rad och kolumnförflyttningar
 type: docs
 weight: 110
 url: /sv/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/
 ---
+
 {{% alert color="primary" %}}
 
- Normalt lägger du till värden inuti tabell- eller listobjektet med hjälp av[**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean)) metod. Men ibland kan du behöva lägga till värden i tabell- eller listobjektet med hjälp av rad- och kolumnförskjutningar.
+Normalt sett lägger du till värden inuti tabellen eller listobjektet med hjälp av [**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean))-metoden. Men ibland kan du behöva lägga till värden inuti tabellen eller listobjektet med rad- och kolumnförflyttningar.
 
-För att komma åt tabell- eller listobjekt från en cell, använd[**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable() ) metod. Och för att lägga till värden inuti den med hjälp av rad- och kolumnförskjutningar, använd[**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)) metod.
+För att få åtkomst till tabell eller listobjekt från en cell, använd [**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable--)-metoden. Och för att lägga till värden inuti den med hjälp av rad- och kolumnförflyttningar, använd [**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object))-metoden.
 
 {{% /alert %}}
 
 ## Exempel
 
-### Skärmdumpar som jämför käll- och utdatafiler
+### Skärmbilder som jämför käll- och utdatafiler
 
- Följande skärmdump visar källfilen för Excel som används i koden. Den innehåller den tomma tabellen och markerar cellen D5 som ligger inuti tabellen. Vi kommer åt den här tabellen från cell D5 med hjälp av[**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable() ) och lägg sedan till värdena i den med båda[**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean) ) och[**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)) metoder.
+Följande skärmbild visar den käll-Excel-filen som används i koden. Den innehåller den tomma tabellen och markerar cellen D5 som ligger inuti tabellen. Vi kommer att få åtkomst till denna tabell från cellen D5 med hjälp av [**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable--)-metoden och sedan lägga till värden inuti den med hjälp av både [**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean))- och [**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object))-metoderna.
 
 ![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)
 
-Följande skärmdump visar utdata Excel-filen som genereras av koden. Som du kan se har cell D5 ett värde och cell F6 som är vid offset 2,2 i tabellen har ett värde.
+Följande skärmbild visar den genererade utdata-Excel-filen av koden. Som du kan se har cellen D5 ett värde och cellen F6, som ligger vid förflyttning 2,2 inuti tabellen, har ett värde.
 
 ![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)
 
-### Java kod för att komma åt tabell från cell och för att lägga till värden inuti den med hjälp av rad- och kolumnförskjutningar
+### Java-kod för att få åtkomst till tabell från cell och lägga till värden inuti den med hjälp av rad- och kolumnförflyttningar
 
-Följande exempelkod laddar källfilen för Excel som visas i skärmdumpen ovan och lägger till värden i tabellen och genererar utdata Excel-filen som visas ovan.
+Följande provkod laddar den angivna källan Excel-filen som visas i skärmdumpen ovan och lägger till värden inne i tabellen och genererar den resulterande Excel-filen som visas ovan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AccessingTablefromCell-AccessingTablefromCell.java" >}}

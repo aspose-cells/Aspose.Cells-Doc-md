@@ -1,13 +1,14 @@
-﻿---
-title: Работа со стоп-областями
+---
+title: Работа с замораживанием области
 type: docs
 weight: 100
 url: /ru/net/working-with-freeze-panes/
 ---
-## **Aspose.Cells - Работа со стоп-областями**
+
+## **Aspose.Cells - Работа с замораживанием области**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -26,13 +27,13 @@ workbook.Save("output-FreezeFile-Aspose.Cells.xls");
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Метод FreezePanes](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
+Для получения дополнительной информации посетите [Метод FreezePanes](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
 
 {{% /alert %}} 
-## **NPOI — HSSF XSSF — Работа со стоп-областями**
+## **NPOI - HSSF XSSF - Работа с замораживанием области**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -62,13 +63,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Работа со стоп-областями** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Работа с замораживанием области** с любого из указанных социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Работа с рабочими листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Для получения дополнительной информации посетите [Работа с листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

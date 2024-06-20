@@ -1,20 +1,21 @@
-﻿---
-title: Representar elementos de gráfico del informe seleccionado en gráficos de Excel
+---
+title: Renderizar elementos del informe seleccionado como gráficos de Excel
 type: docs
 weight: 20
 url: /es/reportingservices/render-chart-items-of-selected-report-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Para representar los elementos del gráfico en gráficos de Excel Microsoft:
+Para renderizar elementos del gráfico a gráficos de Microsoft Excel:
 
-1. Abre el**Aspose.Cells.ReportingServices.xml** expediente.
-1.  Modifique los parámetros de configuración en el**Aspose.Cells.ReportingServices.xml** expediente.
-1. Agregue la información de configuración de su informe deseado.
+1. Abrir el archivo **Aspose.Cells.ReportingServices.xml**.
+1. Modificar los parámetros de configuración en el archivo **Aspose.Cells.ReportingServices.xml**.
+1. Agregar la información de configuración del informe deseado.
 
 Por ejemplo:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 
@@ -28,6 +29,6 @@ Por ejemplo:
 
 **Los gráficos de Excel se pueden editar en Microsoft Excel** 
 
-![todo:imagen_alternativa_texto](render-chart-items-of-selected-report-to-excel-charts_1.png)
+![todo:image_alt_text](render-chart-items-of-selected-report-to-excel-charts_1.png)
 
 {{% /alert %}}

@@ -1,14 +1,15 @@
-﻿---
-title: ODS ファイルで Cell 検証を取得する
+---
+title: ODSファイルでのセル検証の取得
 type: docs
 weight: 190
 url: /ja/java/get-cell-validation-in-ods-files/
 ---
-## **ODS ファイルで Cell 検証を取得する**
 
-Aspose.Cells を使用すると、ODS ファイルのセルに検証を適用できます。このために、API は[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) の方法[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)クラス。
+## **ODS ファイルでのセル検証を取得**
 
-次のコード サンプルは、[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) ロードによるメソッド[ソース ODS](SampleBook1.ods)ファイルを開き、セル A9 の検証を読み取ります。
+Aspose.Cellsを使用すると、ODSファイルのセルに適用された検証を取得できます。これには、APIは[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)クラスの[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--)メソッドを提供しています。
+
+次のコードサンプルは、[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--)メソッドの使用をデモンストレーションし、[ソースODS](SampleBook1.ods)ファイルを読み込んでセルA9の検証を読み取ります。
 
 ### **サンプルコード**
 

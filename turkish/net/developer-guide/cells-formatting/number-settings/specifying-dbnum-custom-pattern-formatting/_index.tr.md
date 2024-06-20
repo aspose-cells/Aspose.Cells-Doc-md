@@ -1,17 +1,18 @@
 ---
-title: DBNum Özel Desen Biçimlendirmesini Belirleme
-description: Aspose.Cells, özel biçimlendirme desenleri kullanılarak tarih ve sayıların biçimlendirilmesini destekleyen elektronik tablo dosyalarıyla çalışmaya yönelik bir .NET kitaplığıdır. Bu makale, kullanıcıların sayıların nasıl görüntüleneceği konusunda daha fazla kontrole sahip olması için 'dbnum' özel format modelini belirlemek üzere Aspose.Cells kitaplığını nasıl kullanacağınızı gösterecektir.
-keywords: Aspose.Cells, .NET library, electronic spreadsheet, custom format pattern, formatting, 'dbnum', control display
+title: DBNum Özel Desen Biçimlendirmesi Belirt
+description: Aspose.Cells, elektronik elektronik tablosu, özel desen biçimi, biçimlendirme, kontrol ekranı
+keywords: .NET kütüphanesi Aspose.Cells, elektronik elektronik tablosu, özel desen biçimi, biçimlendirme, dbnum , kontrol ekranı
 type: docs
 weight: 110
 url: /tr/net/specifying-dbnum-custom-pattern-formatting/
 ---
-##  **Olası Kullanım Senaryoları**
 
- Aspose.Cells şunu destekliyor:*DBNum*özel desen biçimlendirmesi. Örneğin, hücre değeriniz 123 ise ve özel biçimlendirmesini [DBNum2][$-804]Genel olarak belirtirseniz, 壹佰贰拾叁 gibi görüntülenecektir. Hücrenin özel biçimlendirmesini kullanarak belirleyebilirsiniz.[**Cell.GetStyle()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) yöntem ve[**Stil.Özel**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)mülk.
+## **Olası Kullanım Senaryoları**
 
-##  **Basit kod**
+Aspose.Cells, *DBNum* özel desen biçimlendirmesini destekler. Örneğin, hücre değeriniz 123 ise ve özel biçimlendirmesini [DBNum2][$-804]General olarak belirtirseniz, 壹佰贰拾叁 gibi görüntülenir. Hücrenin özel biçimlendirmesini [**Cell.GetStyle()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) yöntemi ve [**Style.Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) özelliğini kullanarak belirtebilirsiniz.
 
- Aşağıdaki örnek kod, nasıl belirtileceğini gösterir*DBNum* özel desen biçimlendirmesi. Lütfen kontrol edin[çıkış PDF](43352081.pdf) daha fazla yardım için.
+## **Örnek Kod**
+
+Aşağıdaki örnek kod, *DBNum* özel desen biçimlendirmesini belirtmeyi gösterir. Daha fazla yardım için lütfen [çıktı PDF'sini](43352081.pdf) kontrol edin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}

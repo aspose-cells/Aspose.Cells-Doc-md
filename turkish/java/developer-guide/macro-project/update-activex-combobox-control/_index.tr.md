@@ -1,18 +1,19 @@
-﻿---
-title: ActiveX ComboBox Denetimini Güncelle
+---
+title: ActiveX ComboBox Kontrolünü Güncelle
 type: docs
 weight: 900
 url: /tr/java/update-activex-combobox-control/
 ---
+
 ## **Olası Kullanım Senaryoları**
- ActiveX ComboBox Control'ün değerlerini Aspose.Cells kullanarak okuyabilir veya yazabilirsiniz. Lütfen ActiveX Control'e şu adresten erişin:[Shape.ActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ActiveXControl) özelliği ve türünü şu yolla kontrol edin:[ActiveXControl.Type](https://reference.aspose.com/cells/java/com.aspose.cells/activexcontrol#Type) özellik, geri dönmeli[ControlType.ComboBox](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#COMBO_BOX) değer ve ardından içine yazın[ComboBoxActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/ComboBoxActiveXControl)nesne ve onun çeşitli özelliklerini okuyun veya değiştirin.
+Aspose.Cells kullanarak ActiveX ComboBox Kontrolünün değerlerini okuyabilir veya yazabilirsiniz. Lütfen [Shape.ActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ActiveXControl) özelliği üzerinden ActiveX Kontrolüne erişin ve [ActiveXControl.Type](https://reference.aspose.com/cells/java/com.aspose.cells/activexcontrol#Type) özelliğini kontrol edin, bu [ControlType.ComboBox](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#COMBO_BOX) değerini döndürmelidir ve ardından [ComboBoxActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/ComboBoxActiveXControl) nesnesine dönüştürün ve çeşitli özelliklerini okuyun veya değiştirin.
 
- Lütfen indirin[örnek excel dosyası](5473374.xlsx) Aşağıdaki örnek kodda kullanılan ve[çıktı excel dosyası](5473375.xlsx) onun tarafından oluşturulur.
-## **ActiveX ComboBox Denetimini Güncelle**
- Aşağıdaki ekran görüntüsü, örnek kodun[örnek excel dosyası](5473374.xlsx)Gördüğünüz gibi, ActiveX ComboBox değeri "Bu, birleşik giriş kutusu denetimidir" olarak güncellendi.
+Lütfen aşağıdaki örnek kodda kullanılan [örnek excel dosyasını](5473374.xlsx) ve [bu program tarafından oluşturulan çıktı excel dosyasını](5473375.xlsx) indirin.
+## **ActiveX ComboBox Kontrolünü Güncelleme**
+Aşağıdaki ekran görüntüsü, örnek kodun [örnek excel dosyası](5473374.xlsx) üzerindeki etkisini göstermektedir. Görebileceğiniz gibi, ActiveX ComboBox değeri "Bu combo box kontrolüdür" olarak güncellenmiştir.
 
-![yapılacaklar:resim_alternatif_metin](update-activex-combobox-control_1.png)
-## **Basit kod**
- Aşağıdaki örnek kod, içinde bulunan ActiveX ComboBox Control değerini günceller.[örnek excel dosyası](5473374.xlsx).
+![todo:image_alt_text](update-activex-combobox-control_1.png)
+## **Örnek Kod**
+Aşağıdaki örnek kod, [örnek excel dosyası](5473374.xlsx) içinde bulunan ActiveX ComboBox Kontrolünün değerini günceller.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UpdateActiveXComboBoxControl-UpdateActiveXComboBoxControl.java" >}}

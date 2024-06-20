@@ -1,13 +1,17 @@
-﻿---
+---
 title: Beräkna anpassade funktioner i GridWeb
 type: docs
 weight: 90
-url: /sv/net/calculate-custom-functions-in-gridweb/
+url: /sv/net/aspose-cells-gridweb/calculate-custom-functions-in-gridweb/
+keywords: GridWeb,custom functions,custom,function
+description: Den här artikeln introducerar funktioner för anpassade funktioner i GridWeb.
 ---
-## **Möjliga användningsscenarier**
-Aspose.Cells.GridWeb stöder beräkning av anpassade funktioner med egenskapen GridWeb.CustomCalculationEngine. Den här egenskapen tar instansen av GridAbstractCalculationEngine-gränssnittet. Vänligen implementera GridAbstractCalculationEngine-gränssnittet och beräkna dina anpassade funktioner med din egen logik.
+
+
+## **Möjliga användningsscenario**
+Aspose.Cells.GridWeb stödjer beräkning av anpassade funktioner med egenskapen GridWeb.CustomCalculationEngine. Denna egenskap tar instansen av gränssnittet GridAbstractCalculationEngine. Implementera gränssnittet GridAbstractCalculationEngine och beräkna dina anpassade funktioner med din egen logik.
 ## **Beräkna anpassade funktioner i GridWeb**
-Följande exempelkod lägger till en anpassad funktion med namnet MYTESTFUNC() i cell B3. Sedan beräknar vi värdet på denna funktion genom att implementera GridAbstractCalculationEngine-gränssnittet. Vi beräknar MYTESTFUNC() på ett sådant sätt att den multiplicerar sin parameter med 2 och returnerar resultatet. Så om dess parameter är 9, kommer den att returnera 2*9 = 18.
+Följande exempelkod lägger till en anpassad funktion med namnet MYTESTFUNC() i cell B3. Sedan beräknar vi värdet för denna funktion genom att implementera gränssnittet GridAbstractCalculationEngine. Vi beräknar MYTESTFUNC() på ett sådant sätt att den multiplicerar sitt parameter med 2 och returnerar resultatet. Så om dess parameter är 9, kommer den att returnera 2*9 = 18.
 ### **Exempelkod**
 
 

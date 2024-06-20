@@ -1,17 +1,18 @@
-﻿---
-title: Inserisci collegamenti ipertestuali nel foglio di lavoro
+---
+title: Inserire Collegamenti IperTestuali nel Foglio di Lavoro
 type: docs
 weight: 20
 url: /it/net/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Inserisci collegamenti ipertestuali nel foglio di lavoro**
-**Aggiunta di un collegamento a un numero Cell nello stesso file**
 
-È possibile aggiungere collegamenti ipertestuali alle celle nello stesso file Excel chiamando il metodo Add della raccolta Hyperlink. Il metodo Add funziona sia per i collegamenti ipertestuali interni che per quelli esterni.
+## **Aspose.Cells - Inserire Collegamenti IperTestuali nel Foglio di Lavoro**
+**Aggiungere un Link a una Cella nello Stesso File**
+
+È possibile aggiungere collegamenti ipertestuali alle celle nello stesso file Excel chiamando il metodo Add della collezione Hyperlink. Il metodo Add funziona sia per collegamenti interni che esterni.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -64,18 +65,18 @@ workbook.Save("test.xlsx");
 
 {{< /highlight >}}
 
-**Aggiunta di un collegamento a un file esterno**
+**Aggiungere un Link a un File Esterno**
 
-È possibile aggiungere collegamenti ipertestuali alle celle nello stesso file Excel chiamando il metodo Add della raccolta Hyperlink. Il metodo Add funziona sia per i collegamenti ipertestuali interni che per quelli esterni. Una versione del metodo sottoposto a overload accetta i seguenti parametri:
+È possibile aggiungere collegamenti ipertestuali alle celle nello stesso file Excel chiamando il metodo Add della collezione Hyperlink. Il metodo Add funziona sia per collegamenti interni che esterni. Una versione del metodo sovraccaricato accetta i seguenti parametri:
 
-- Cell nome, il nome della cella a cui verrà aggiunto il collegamento ipertestuale.
+- Nome della cella, il nome della cella alla quale verrà aggiunto il collegamento ipertestuale.
 - Numero di righe, il numero di righe in questo intervallo di collegamenti ipertestuali.
 - Numero di colonne, il numero di colonne in questo intervallo di collegamenti ipertestuali.
 - URL, l'indirizzo della cella di destinazione.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -96,10 +97,10 @@ worksheet.Hyperlinks.Add("B3", 1, 1, "Sheet2!B9");
 workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Inserisci collegamenti ipertestuali nel foglio di lavoro**
+## **NPOI - HSSF XSSF - Inserire Collegamenti IperTestuali nel Foglio di Lavoro**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -193,12 +194,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Inserisci collegamenti ipertestuali nel foglio di lavoro** formare uno dei siti di social coding sotto indicati:
+Scarica **Inserire Collegamenti IperTestuali nel Foglio di Lavoro** da uno dei siti di codice sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Aggiunta di collegamenti ipertestuali ai dati di collegamento](/cells/it/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
+Per ulteriori dettagli, visita [Aggiunta Collegamenti IperTestuali per Collegare i Dati](/cells/it/net/aggiunta-collegamenti-ipertestuali-per-collegare-i-dati-in-aspose-cells/).
 
 {{% /alert %}}

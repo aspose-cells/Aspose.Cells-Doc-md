@@ -1,14 +1,15 @@
-﻿---
-title: Lägger till tabellgrupp
+---
+title: Lägga till TabelGrupp
 type: docs
 weight: 40
 url: /sv/reportingservices/adding-table-group/
 ---
-För att lägga till tabellgrupp, följ stegen nedan:
+
+För att lägga till tabelgrupp, följ stegen nedan:
 
 
 
-1) Välj grupptaggcellen som finns till vänster om den första kolumnen i tabelldatakolumnen, under tabelldataraden, som visas i följande.
+1) Välj grupptagcellen som befinner sig till vänster om första kolumnen i tabelldatans kolumn, under tabellraden av datan, enligt bilden nedan.
 
 ![todo:image_alt_text](adding-table-group_1.png)
 
@@ -18,7 +19,7 @@ För att lägga till tabellgrupp, följ stegen nedan:
 
 
 
- 2) Välj ”SalesOrderNumber” i rutan**Ställ in grupp** kombinationsrutan för att ställa in gruppfältet.
+2) Välj ”SalesOrderNumber” i **Set Group** rullgardinsmenyn för att sätta gruppfältet.
 
 
 
@@ -26,7 +27,7 @@ För att lägga till tabellgrupp, följ stegen nedan:
 
 
 
-Resultatet visas i det följande.
+Resultatet visas enligt följande.
 
 
 
@@ -34,7 +35,7 @@ Resultatet visas i det följande.
 
 
 
-3) Lägg till gruppdataraden enligt instruktionerna ovan. Gruppdatarad kan innehålla statisk text, datamarkörer, rapporttjänstformler och så vidare. I exemplet lägger vi till en grupprad som innehåller en sammanslagen statisk textcell och Reporting Services Formel-cell, som visas i följande.
+3) Lägg till dataraden för gruppen enligt anvisningarna ovan. Gruppraden kan innehålla statisk text, datamarkörer, Reporting Service formler och så vidare. I exemplet lägger vi till en grupp rad som innehåller en sammanfogad statisk textcell och en cell med Reporting Services formel, enligt följande.
 
 
 
@@ -42,7 +43,7 @@ Resultatet visas i det följande.
 
 
 
-4) Mer än en gruppdatarad tillåts i en tabell. Vi kan lägga till en gruppdatarad igen, som visas i följande.
+4) Mer än en grupp datarad är tillåten i en tabell. Vi kan lägga till en grupp datarad igen, enligt följande.
 
 
 

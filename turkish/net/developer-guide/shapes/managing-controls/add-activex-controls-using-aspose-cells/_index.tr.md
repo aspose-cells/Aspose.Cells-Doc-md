@@ -1,12 +1,13 @@
-﻿---
-title: Aspose.Cells'i kullanarak ActiveX Denetimleri ekleyin
+---
+title: Aspose.Cells Kullanarak AktifX Kontrolleri Ekleme
 type: docs
 weight: 260
 url: /tr/net/add-activex-controls-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- ActiveX denetimlerini Aspose.Cells ile ekleyebilirsiniz.[**ShapeCollection.AddActiveXControl()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addactivexcontrol) yöntem. Bu metot bir parametre alır.[**Kontrol tipi**](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype)bir çalışma sayfasına ne tür ActiveX denetimi eklenmesi gerektiğini söyler. Aşağıdaki değerlere sahiptir.
+Aspose.Cells ile AktifX kontrolleri [**ShapeCollection.AddActiveXControl()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addactivexcontrol) yöntemi kullanılarak ekleyebilirsiniz. Bu yöntem, hangi türde AktifX kontrolünün bir çalışma sayfasının içine eklenmesi gerektiğini söyleyen bir parametre olan [**ControlType**](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype) alır. Aşağıdaki değerlere sahiptir.
 
 - ControlType.CheckBox
 - ControlType.ComboBox
@@ -19,12 +20,12 @@ url: /tr/net/add-activex-controls-using-aspose-cells/
 - ControlType.SpinButton
 - ControlType.TextBox
 - ControlType.ToggleButton
-- ControlType.Bilinmeyen
+- ControlType.Unknown
 
- ActiveX denetimini şekil koleksiyonunun içine ekledikten sonra, ActiveX denetim nesnesine şu şekilde erişebilirsiniz:[**Shape.ActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol) özellik ve ardından çeşitli özelliklerini ayarlayın.
+Bir kez AktifX kontrolü şekil koleksiyonunun içine ekledikten sonra, daha sonra bu AktifX kontrol nesnesine [**Shape.ActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol) özelliği üzerinden erişebilir ve çeşitli özelliklerini ayarlayabilirsiniz.
 
 {{% /alert %}}
 
-Aşağıdaki örnek kod, Aspose.Cells kullanarak Geçiş Düğmesi ActiveX Denetimi'ni ekler.
+Aşağıdaki örnek kod, Aspose.Cells kullanarak Toggle Button AktifX Kontrolü ekler.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddActiveXControls-1.cs" >}}

@@ -1,59 +1,60 @@
-﻿---
-title: Gruppera och dela upp rader och kolumner
+---
+title: Gruppering och avgruppering av rader och kolumner
 type: docs
 weight: 40
 url: /sv/java/grouping-and-ungrouping-rows-and-columns/
 ---
+
 ## **Introduktion**
-en Microsoft Excel-fil kan du skapa en disposition för data så att du kan visa och dölja detaljnivåer med ett enda musklick.
+I en Microsoft Excel-fil kan du skapa en översikt över data för att kunna visa och dölja detaljnivåer med en enda musklick.
 
- Klicka på**Kontursymboler**, 1,2,3, + och - för att snabbt visa bara de rader eller kolumner som ger sammanfattningar eller rubriker för avsnitt i ett kalkylblad, eller så kan du använda symbolerna för att se detaljer under en enskild sammanfattning eller rubrik som visas nedan i figuren :
+Klicka på **Översiktssymbolerna**, 1,2,3, + och - för att snabbt visa endast de rader eller kolumner som ger sammanfattningar eller rubriker för avsnitt i ett kalkylblad, eller så kan du använda symbolerna för att se detaljer under en individuell sammanfattning eller rubrik som visas nedan i figuren:
 
- Gruppering av rader och kolumner
+Grupp av rader & kolumner 
 
 ![todo:image_alt_text](grouping-and-ungrouping-rows-and-columns_1.png)
-## **Grupphantering av rader och kolumner**
- Aspose.Cells tillhandahåller en klass,[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass innehåller en[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) klass. De[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) klass ger en[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)samling som representerar alla celler i kalkylbladet.
+## **Hantering av gruppering av rader och kolumner**
+Aspose.Cells tillhandahåller en klass, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) som representerar en Microsoft Excel-fil. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klassen innehåller en [Worksheets](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) samling som tillåter åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) klassen. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) klassen tillhandahåller en [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samling som representerar alla celler i kalkylarket.
 
- De[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)samling innehåller flera metoder för att hantera rader eller kolumner i ett kalkylblad, några av dessa diskuteras mer i detalj nedan.
-### **Gruppera rader och kolumner**
- Det är möjligt att gruppera rader eller kolumner genom att anropa[grupprader](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\) ) och[gruppKolumner](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\) ) metoder för[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)samling. Båda metoderna tar följande parametrar:
+[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingen tillhandahåller flera metoder för att hantera rader eller kolumner i ett kalkylblad, några av dessa diskuteras nedan mer detaljerat.
+### **Gruppering av rader och kolumner**
+Det är möjligt att gruppera rader eller kolumner genom att anropa [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) och [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) metoderna i [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingen. Båda metoderna tar följande parametrar:
 
-- Första rad-/kolumnindex, den första raden eller kolumnen i gruppen.
-- Sista raden/kolumnindex, den sista raden eller kolumnen i gruppen.
-- Är dold, en boolesk parameter som anger om rader/kolumner ska döljas efter gruppering eller inte.
+- Första radens/kolumnens index, den första raden eller kolumnen i gruppen.
+- Sista radens/kolumnens index, den sista raden eller kolumnen i gruppen.
+- Är dold, en boolesk parameter som specificerar om rader/kolumner ska döljas efter gruppering eller inte.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-GroupingRowsandColumns-1.java" >}}
 ## **Gruppinställningar**
-Microsoft Excel tillåter också att konfigurera gruppinställningar för visning:
+Microsoft Excel tillåter också att konfigurera gruppinstillningar för att visa:
 
-- Sammanfattningsrader nedan detalj.
-- Sammanfattningskolumner till höger om detaljer.
+- Sammanfattande rader under detaljer.
+- Sammanfattande kolumner till höger om detaljerna.
 
 **Gruppinställningar** 
 
 ![todo:image_alt_text](grouping-and-ungrouping-rows-and-columns_2.png)
 
-Det är möjligt att konfigurera dessa gruppinställningar med hjälp av egenskapen Outline för Worksheet-klassen.
-### **Sammanfattningsrader under detalj**
- Utvecklare kan styra visning av sammanfattningsrader nedanför detalj genom att använda[Översikt](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) klass'[SammanfattningRowBelow](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) metod.
+Det går att konfigurera dessa gruppinställningar genom att använda Worksheet-klassens Outline-egenskap.
+### **Sammanfattande rader nedanför detaljerna**
+Utvecklare kan styra visningen av sammanfattande rader nedanför detaljerna genom att använda [Outline](https://reference.aspose.com/cells/java/com.aspose.cells/Outline)-klassens [SummaryRowBelow](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow)-metod.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowBelow-1.java" >}}
-### **Sammanfattningskolumner till höger om detalj**
-Det är möjligt att styra om sammanfattningskolumner ska visas till höger om detaljerna med[Översikt](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) klass'[Sammanfattning KolumnHöger](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryColumnRight)metod.
+### **Sammanfattande kolumner till höger om detalj**
+Det går att kontrollera om sammanfattande kolumner visas till höger om detaljerna med [Outline](https://reference.aspose.com/cells/java/com.aspose.cells/Outline)-klassens [SummaryColumnRight](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryColumnRight)-metod.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
-### **Dela upp rader och kolumner**
- Dela upp grupperade rader eller kolumner genom att anropa[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) samlingens[Dela upp rader](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\) ) och[Dela upp kolumner](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) metoder. Båda metoderna tar samma parametrar:
+### **Avgruppering av rader och kolumner**
+Avgruppera grupperade rader eller kolumner genom att anropa [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-kollektionens [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\))- och [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\))-metoder. Båda metoderna tar samma parametrar:
 
-- Första raden eller kolumnindex, den första raden/kolumnen som ska delas upp.
-- Sista raden eller kolumnindex, den sista raden/kolumnen som ska delas upp.
+- Första radens/kolumnens index, den första raden/kolumnen att avgrupperas.
+- Sista radens/kolumnens index, den sista raden/kolumnen att avgrupperas.
 
 
 

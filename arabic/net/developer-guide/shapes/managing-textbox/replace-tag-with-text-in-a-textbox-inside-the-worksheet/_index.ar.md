@@ -1,13 +1,14 @@
-﻿---
-title: استبدل العلامة بنص في مربع نص داخل ورقة العمل
+---
+title: استبدال العلامة بالنص في مربع نص داخل ورقة البيانات
 type: docs
 weight: 1100
 url: /ar/net/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
 ---
-## **سيناريوهات الاستخدام الممكنة**
-يمكن أن تحتوي مربعات النص على علامات يمكن استبدالها ببعض النصوص في وقت التشغيل لتكوينها وفقًا للمتطلبات. يمكن أن تكون العلامات بعض الملصقات المضمنة بين قوسين زاوية "<' and '>. يمكن أن يكون هناك علامات متعددة داخل مربع نص واحد.
-## **عينة من الرموز**
-يستبدل نموذج التعليمات البرمجية التالي العلامات TAG_1 و TAG_2 مع بعض النص يقول "نعم" و "1". يمكن تنزيل ملف نموذج للاختبار أدناه من الرابط التالي:
+
+## **سيناريوهات الاستخدام المحتملة**
+Text boxes can have tags which can be replaced with some text at run time to configure them according to the requirement. Tags can be some labels enclosed in angle brackets '<' and '>'. There can be multiple tags within a single textbox.
+## **الكود المثالي**
+الكود النموذجي التالي يقوم بتبديل العلامات TAG_1 و TAG_2 بنص ما مثل 'ys' و '1'. يمكن تحميل ملف النموذج للاختبار من الرابط التالي:
 
 [sampleReplaceTagWithText.xlsx](79527942.xlsx)
 

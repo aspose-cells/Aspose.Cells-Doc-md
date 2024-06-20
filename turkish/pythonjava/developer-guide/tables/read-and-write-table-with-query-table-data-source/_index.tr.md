@@ -1,16 +1,17 @@
-﻿---
+---
 title: Sorgu Tablosu Veri Kaynağı ile Tablo Okuma ve Yazma
 type: docs
 weight: 50
 url: /tr/python-java/read-and-write-table-with-query-table-data-source/
 ---
+
 ## **Sorgu Tablosu Veri Kaynağı ile Tablo Okuma ve Yazma**
-Aspose.Cells for Python via Java ile Datasource olarak QueryTable olan bir tabloyu okuyabilir ve yazabilirsiniz. Bu özellik için destek, XLS dosyaları için de mevcuttur. Aşağıdaki kod parçacığı, önce tabloyu okuyarak ve ardından toplamlar satırını eklemek için değiştirerek böyle bir tablonun okunmasını ve yazılmasını gösterir.
+Aspose.Cells için Python via Java, Sorgu Tablosu olan bir tabloyu okuyup yazabilirsiniz. Bu özelliğin desteği XLS dosyaları için de mevcuttur. Aşağıdaki kod örneği, önce tabloyu okuyup ardından toplam satır ekleyerek böyle bir tabloyu okuma ve yazmayı göstermektedir.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Tables-ReadAndWriteTableWithQueryTableDataSource.py" >}}
 
-Kaynak ve çıktı excel dosyaları referans için eklenmiştir.
+Kaynak ve çıktı excel dosyaları referans için ekte sunulmuştur.
 
-[Kaynak dosyası](SampleTableWithQueryTable.xls)
+[Kaynak Dosya](SampleTableWithQueryTable.xls)
 
-[Çıktı dosyası](SampleTableWithQueryTable_out.xls)
+[Çıkış Dosyası](SampleTableWithQueryTable_out.xls)

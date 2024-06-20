@@ -1,20 +1,21 @@
-﻿---
-title: Aspose.Cells'de WordArt Filigranını Kilitleme
+---
+title: Aspose.Cells te Kelime Sanatı Filigran Kilitleme
 type: docs
 weight: 40
 url: /tr/net/locking-wordart-watermark-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells API'ler, çalışma sayfasına WordArt filigranları eklemenize olanak tanır; böylece WordArt, çalışma sayfasında hareket ettirebileceğiniz ve konumlandırabileceğiniz bir nesne haline gelir. Düzenleme, hareket ve seçim gibi herhangi bir etkileşim için WordArt nesnesini kilitlemek de mümkündür. Bu makalede, filigranın birkaç özelliğini kilitlemek için Shape.SetLockedProperty yönteminin kullanımı açıklanmaktadır.
+Aspose.Cells API'leri, çalışma sayfasına Kelime Sanatı filigranları eklemenize olanak tanırken, Kelime Sanatı'nın düzenleme, hareket ve seçme gibi etkileşimlerine kilitlenmesine de olanak tanır. Bu makale, Shape.SetLockedProperty yönteminin kullanımını, bir filigranın bazı yönlerini kilitlemek için açıklar.
 
 {{% /alert %}} 
 
-Aspose.Cells API'ler, kullanıcı etkileşiminin sınırlandırılabilmesi veya tamamen engellenmesi için filigranın belirli yönlerinin kilitlenmesine izin verir. Aşağıdaki kod parçacığı, sıfırdan bir elektronik tablo oluşturarak filigranın seçimini, hareketini, düzenlenmesini ve yeniden boyutlandırılmasını kilitlemek için Aspose.Cells for .NET API kullanımını göstermektedir.
+Aspose.Cells API'ları, kullanıcı etkileşiminin sınırlı veya tamamen engellenmiş olmasını sağlamak için filigranın belirli yönlerini kilitlemeye olanak tanır. Aşağıdaki kod parçacığı, Aspose.Cells for .NET API'sinin kullanımını göstererek filigranın seçim, hareket, düzenleme ve yeniden boyutlandırmayı kilitler ve sıfırdan bir elektronik tablo oluşturur.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -73,7 +74,7 @@ lineFormat.IsVisible = false;
 workbook.Save(FileName);
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Locking%20WordArt%20Watermark)
-## **Çalışan Örneği İndirin**
+## **Örnek Çalışmayı İndir**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

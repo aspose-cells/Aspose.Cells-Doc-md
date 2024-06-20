@@ -1,12 +1,13 @@
-﻿---
-title: Använda anonyma typer eller anpassade objekt
+---
+title: Användning av anonyma typer eller anpassade objekt
 type: docs
 weight: 40
 url: /sv/net/using-anonymous-types-or-custom-objects/
 ---
-Aspose.Cells stöder även anonyma typer eller anpassade objekt i smarta markörer. I exemplet nedan måste produktklass definieras före användning.
 
-{{< highlight "csharp" >}}
+Aspose.Cells stödjer också anonyma typer eller anpassade objekt i smarta markörer. I nedanstående exempel behöver klassen Product definieras innan den används.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -55,6 +56,6 @@ report.Workbook.Save(FileName);
 }
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)

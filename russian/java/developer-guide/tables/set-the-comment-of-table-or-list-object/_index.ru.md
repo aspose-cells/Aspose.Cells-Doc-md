@@ -1,15 +1,16 @@
-﻿---
-title: Установите комментарий к таблице или объекту списка
+---
+title: Установить комментарий к таблице или объекту списка
 type: docs
 weight: 30
 url: /ru/java/set-the-comment-of-table-or-list-object/
 ---
-## **Установите комментарий к таблице или объекту списка внутри рабочего листа**
 
- Пожалуйста, установите комментарий к таблице или объекту списка внутри рабочего листа, используя[**СписокОбъект.Комментарий**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#Comment)имущество. Комментарий будет виден внутри файла xl/tables/tableName.xml.
+## **Установите комментарий таблицы или объекта списка внутри листа.**
 
- Следующий пример кода загружает[исходный файл excel](5472561.xlsx), устанавливает комментарий к первой таблице или объекту списка внутри рабочего листа, а на снимке экрана комментарий, созданный этим кодом, показан в красном прямоугольнике.
+Пожалуйста, установите комментарий для таблицы или объекта списка внутри листа используя свойство [**ListObject.Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#Comment). Комментарий будет виден внутри файла xl/tables/tableName.xml.
 
-![дело:изображение_альтернативный_текст](set-the-comment-of-table-or-list-object_1.png)
+Следующий образец кода загружает [исходный файл Excel](5472561.xlsx), устанавливает комментарий первого объекта таблицы или списка внутри листа Excel, и скриншот показывает комментарий, созданный этим кодом в красном прямоугольнике.
+
+![todo:image_alt_text](set-the-comment-of-table-or-list-object_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-SettheCommentofTableorListObject-SettheCommentofTableorListObject.java" >}}

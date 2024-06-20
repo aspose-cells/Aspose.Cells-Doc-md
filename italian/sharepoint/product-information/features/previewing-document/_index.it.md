@@ -1,25 +1,26 @@
-﻿---
+---
 title: Anteprima del documento
 type: docs
 weight: 40
 url: /it/sharepoint/previewing-document/
 ---
-Aspose.Cells per Share Point supporta l'anteprima dei documenti direttamente da SharePoint. I seguenti formati supportano l'anteprima:
+
+Aspose.Cells per SharePoint supporta l'anteprima dei documenti direttamente da SharePoint. I seguenti formati supportano l'anteprima:
 
 - XLS – Microsoft Excel 97 - 2003
-- XLSX – Ufficio OpenXML
+- XLSX – Office Open XML
 - XLSM, XLTX, XLTM – Office Open XML
 - XML – Microsoft Excel SpreadsheetML
 
-**Selezione di un documento da visualizzare in anteprima** 
+**Selezione di un documento da anteprima** 
 
-![cose da fare:immagine_alt_testo](previewing-document_1.png)
+![todo:image_alt_text](previewing-document_1.png)
 
 
 
-**Anteprima del documento da una raccolta di SharePoint** 
+**Anteprima del documento da una libreria SharePoint** 
 
-![cose da fare:immagine_alt_testo](previewing-document_2.png)
+![todo:image_alt_text](previewing-document_2.png)
 
 
 

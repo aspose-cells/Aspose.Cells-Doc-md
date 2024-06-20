@@ -1,49 +1,50 @@
-﻿---
-title: Reporting Services Global Değişkenlerini Rapora Ekleme
+---
+title: Rapora Raporlama Hizmetleri Global Değişkenleri Ekleme
 type: docs
 weight: 70
 url: /tr/reportingservices/adding-reporting-services-global-variables-to-report/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells' rapor şablonu, Reporting Services'in global değişkenlerini, bir Reporting Services global değişkenleri işaretçisi içeren hücreler için bir veri kaynağı olarak destekler.
+Aspose.Cells'in rapor şablonu, Raporlama Hizmetleri'ndeki global değişkenleri bir Raporlama Hizmetleri global değişkenleri işaretçisi içeren hücreler için bir veri kaynağı olarak destekler. 
 
-[Aspose.Cells Şablon ve Akıllı İşaretleyiciler](/cells/tr/reportingservices/aspose-cells-template-and-smart-markers/) Raporlama Hizmetleri Genel Değişkenleri işaretçilerinin nasıl çalıştığını açıklar. Genel değişkenler normalde bir tablo üstbilgisinin veya altbilgisinin metin alanına yerleştirilir.
+/cells/tr/reportingservices/aspose-cells-template-and-smart-markers/ [Aspose.Cells Şablonu ve Akıllı İşaretçiler], Raporlama Hizmetleri Global Değişkenleri işaretçilerinin nasıl çalıştığını açıklar. Global değişkenler genellikle bir tablo üstbilgi veya altbilgi metin alanına yerleştirilir.
 
 {{% /alert %}} 
 
-Raporlara genel değişkenler eklemek için:
+Raporlara global değişkenler eklemek için:
 
-1.  Bir hücre seçin.
+1. Bir hücre seçin. 
 
-   **Seçilmiş bir hücre** 
+   **Bir hücre seçildi** 
 
-![yapılacaklar:resim_alternatif_metin](adding-reporting-services-global-variables-to-report_1.png)
-
-
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_1.png)
 
 
-1.  Tıklamak**Formül ekle**Aspose.Cells.Report.Designer araç çubuğunda (
 
-![yapılacaklar:resim_alternatif_metin](adding-reporting-services-global-variables-to-report_2.png)
+
+1. Aspose.Cells.Report.Designer araç çubuğunda **Formül Ekle**'ye tıklayın (
+
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_2.png)
 
 ).
 
-1.  Seçme**küreseller** sol panelde.
- Tüm global değişkenler sağda listelenir.
-1.  Seçme**Rapor Adı** ve çift tıklayın.
- ifade şu şekilde görünür:**Düzenlemek** üstteki kutu.
+1. Sol panelde **Globals**'ı seçin.
+   Tüm global değişkenler sağ panele listelenir. 
+1. **ReportName**'i seçin ve çift tıklayın.
+   İfade üstteki **Düzenleme** kutusunda görünür. 
 
-   **Genel bir değişken seçme** 
+   **Bir global değişken seçme** 
 
-![yapılacaklar:resim_alternatif_metin](adding-reporting-services-global-variables-to-report_3.png)
-
-
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_3.png)
 
 
-1.  Tıklamak**Tamam** bitirmek için.
- Hücre artık global bir değişken işaretçisi içeriyor.
 
-   **Bir hücrede genel değişkenler işaretçisi** 
 
-![yapılacaklar:resim_alternatif_metin](adding-reporting-services-global-variables-to-report_4.png)
+1. Bitirmek için **Tamam**'ı tıklayın.
+   Hücre artık bir global değişken işaretçisi içerir. 
+
+   **Hücrede bir global değişken işaretçisi** 
+
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_4.png)

@@ -1,22 +1,23 @@
-﻿---
-title: حماية كلمة المرور أو إلغاء حماية المصنف المشترك
-linktitle: حماية أو إلغاء حماية المصنف المشترك
+---
+title: حماية كلمة المرور أو إلغاء حمايتها لكتاب العمل المشترك
+linktitle: حماية الدفتر المشترك أو إزالة حمايته
 type: docs
 weight: 70
 url: /ar/java/password-protect-or-unprotect-the-shared-workbook/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك حماية المصنف المشترك أو إلغاء حمايته باستخدام Microsoft Excel كما هو موضح في لقطة الشاشة التالية. يدعم Aspose.Cells أيضًا هذه الميزة مع[**Workbook.protectSharedWorkbook ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) و[**Workbook.unprotectSharedWorkbook ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)) أساليب.
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به: image_بديل_نص](password-protect-or-unprotect-the-shared-workbook_1.png)
+يمكنك حماية أو فك حماية الجدول المشترك بواسطة Microsoft Excel كما هو موضح في اللقطة المصغرة التالية. تدعم Aspose.Cells أيضًا هذه الميزة بالطريقتين [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) و [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)).
 
-## **حماية كلمة المرور أو إلغاء حماية المصنف المشترك**
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
-يقوم نموذج التعليمات البرمجية التالي بإنشاء مصنف وحمايته أثناء تمكين المشاركة وحفظه بتنسيق[إخراج ملف Excel](55541800.xlsx). تظهر لقطة الشاشة أنه عند محاولة إلغاء حمايتها ، يطالبك Microsoft Excel بإدخال كلمة المرور لإلغاء حمايتها.
+## **حماية كلمة المرور أو إلغاء حمايتها لكتاب العمل المشترك**
 
-![ما يجب القيام به: image_بديل_نص](password-protect-or-unprotect-the-shared-workbook_2.png)
+المثال التالي ينشئ ورق عمل ويقوم بحمايته مع تمكين المشاركة وحفظه ك[ملف إكسل المخرج](55541800.xlsx). تُظهر اللقطة الشاشية عند محاولة إلغاء الحماية، يطلب منك برنامج Microsoft Excel إدخال كلمة المرور لإلغاء الحماية.
 
-## **عينة من الرموز**
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-PasswordProtectOrUnprotectSharedWorkbook.java" >}}

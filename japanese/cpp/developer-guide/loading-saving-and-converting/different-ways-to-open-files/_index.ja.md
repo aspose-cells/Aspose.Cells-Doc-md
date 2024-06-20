@@ -5,18 +5,19 @@ type: docs
 weight: 10
 url: /ja/cpp/different-ways-to-open-files/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells を使用すると、ファイルを開いてデータを取得したり、デザイナー テンプレートを使用して開発プロセスをスピードアップしたりすることができます。 Aspose.Cells は、Microsoft Excel スプレッドシート (XLS、XLSX、XLSM、XLSB)、CSV または TabDelimited ファイルなど、さまざまなファイルを開くことができます。
+Aspose.Cellsを使用すると、データを取得したり、開発プロセスをスピードアップするためにデザイナーテンプレートを使用したりするために、ファイルを開くことが可能です。 Aspose.Cellsは、Microsoft Excelスプレッドシート（XLS、XLSX、XLSM、XLSB）、CSV、またはタブ区切りファイルなど、さまざまな種類のファイルを開くことができます。
 
 {{% /alert %}} 
-##  **パス経由でファイルを開く**
-開発者は、ローカル コンピュータ上のファイル パスを使用して Microsoft Excel ファイルを開くことができます。[ワークブック](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)クラスコンストラクター。コンストラクターにパスを文字列として渡すだけです。 Aspose.Cells はファイル形式の種類を自動的に検出します。
+## **パスを介してファイルを開く**
+開発者は、[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)クラスのコンストラクタでそれを指定することによって、ローカルコンピュータ上のMicrosoft Excelファイルを開くことができます。 単純にパスを文字列としてコンストラクタに渡します。 Aspose.Cellsは自動的にファイル形式を検出します。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-OpeningFiles-OpeningExcelFileUsingPath-new.cpp" >}}
 
-##  **ストリームを使用してファイルを開く**
-Excel ファイルをストリームとして開くこともできます。これを行うには、コンストラクターのオーバーロードされたバージョンを使用します。*ストリーム*ファイルを含むオブジェクト。
+## **ストリームを使用してファイルを開く**
+Excelファイルをストリームとして開くことも可能です。 これを行うには、ファイルを含む*Stream*オブジェクトを使用するコンストラクタのオーバーロードバージョンを使用します。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-OpeningFiles-OpeningExcelFileUsingStream-new.cpp" >}}
 

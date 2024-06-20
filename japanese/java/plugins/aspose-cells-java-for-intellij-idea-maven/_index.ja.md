@@ -1,119 +1,120 @@
-﻿---
-title: Aspose.Cells IntelliJ IDEA の場合は Java - Maven
+---
+title: Aspose.Cells Java for IntelliJ IDEA - Maven
 type: docs
 weight: 50
 url: /ja/java/aspose-cells-java-for-intellij-idea-maven/
 ---
-## **序章**
 
-### **IntelliJ アイデア**
+## **紹介**
 
-**IntelliJ アイデア**Java ソフトウェア開発者向けの統合開発環境 (IDE) です。 JetBrains によって開発されています。最初に作成された for Java は、現在、JavaScript、Groovy、HTML、CSS、RSS、R、Haskell、PHP、Ruby、Python、Scala、Clojure、Kotlin など、さまざまな言語をサポートしています。
+### **IntelliJ IDEA**
 
- 2010年に**インフォワールド**レポートによると、IntelliJ は 4 つの上位 Java プログラミング ツール (Eclipse、IntelliJ IDEA、NetBeans、および Oracle JDeveloper) の中で最高のテスト センター スコアを獲得しました。
+**IntelliJ IDEA**は、ソフトウェア開発者向けのJava統合開発環境（IDE）です。JetBrainsによって開発されました。元々はJava向けに作成されましたが、現在はJavaScript、Groovy、HTML、CSS、RSS、R、Haskell、PHP、Ruby、Python、Scala、Clojure、Kotlinなど、さまざまな言語をサポートしています。
+
+2010年の**Infoworld**のレポートによると、IntelliJはEclipse、IntelliJ IDEA、NetBeans、Oracle JDeveloperなどの主要なJavaプログラミングツールの中で最高のテストセンタースコアを獲得しました。
 
 ### **Aspose.Cells for Java**
 
-[Aspose.Cells](https://products.aspose.com/cells/java/)for Java は、Java アプリケーションが Microsoft Excel® を使用せずに Excel® スプレッドシートを作成および管理できるようにする Excel® スプレッドシート レポート コンポーネントです。 Aspose.Cells for Java は、基本的なデータ エクスポート機能以上のものを提供する非常に機能豊富なコンポーネントです。
+[Aspose.Cells](https://products.aspose.com/cells/java/) for Javaは、Microsoft Excelを使用せずにJavaアプリケーションでExcel®スプレッドシートを作成および管理できるExcel®スプレッドシートレポーティングコンポーネントです。Aspose.Cells for Javaは、基本的なデータエクスポート機能だけでなく、非常に多くの機能を提供する非常に機能豊富なコンポーネントです。
 
-### **Aspose.Cells IntelliJ IDEA の場合は Java - Maven**
+### **Aspose.Cells Java for IntelliJ IDEA - Maven**
 
--  Aspose.Cells IntelliJ IDEA の Java (Maven) は**IntelliJ IDEA プラグイン**これにより、maven プロジェクトを作成し (つまり、作成したプロジェクトには Aspose.Cells for Java API maven 依存関係が含まれます)、使用するために API のソース コード例をダウンロードできます。**Aspose.Cells for Java API**.
+- Aspose.Cells Java for IntelliJ IDEA（Maven）は、**IntelliJ IDEAプラグイン**であり、Mavenプロジェクト（つまり、作成したプロジェクトにAspose.Cells for Java API Maven依存性が含まれる）を作成し、APIの使用のためのソースコード例をダウンロードできます。
 
-- このプラグインは、**Aspose.Cells for Java API**お気に入りの IntelliJ IDEA 内。
+- このプラグインを使用すると、お気に入りのIntelliJ IDEA内で**Aspose.Cells for Java API**を使用できます。
 
-![todo:画像_代替_文章](kwkgljg.png)
+![todo:image_alt_text](kwkgljg.png)
 
-**ウィザード**:
-プラグインには 2 つのウィザードが含まれています -----
+**WIZARDS**:
+このプラグインには2つのウィザードが含まれています-----
 
-**ウィザード 1:** Aspose.Cells Maven プロジェクト
+**ウィザード1：** Aspose.Cells Mavenプロジェクト
 
-- プラグインの**Aspose Maven プロジェクト ウィザード**開発者は Aspose.Cells for Java Maven プロジェクトを作成できます。
-- の参照**Aspose.Cells for Java API**maven 依存関係は自動的に取得されます[Aspose クラウド Maven リポジトリ](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)pom.xml に追加されます。
-- 作成されたプロジェクトには常に、Aspose.Cells for Java の最新の利用可能なバージョン Maven 依存関係が含まれます。
-- ウィザードの手順には、ダウンロードのオプションも表示されます[Aspose.Cells for Java API を使用したソースコードの例](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
+- プラグインの**Aspose Mavenプロジェクトウィザード**は、開発者がAspose.Cells for Java Mavenプロジェクトを作成できるようにします。
+- **Aspose.Cells for Java API**のMaven依存関係のリファレンスは、自動的に[Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells)から取得され、pom.xmlに追加されます。
+- 作成されたプロジェクトには、Aspose.Cells for Javaの最新バージョンのMaven Dependencyが常に含まれます。
+- ウィザードのステップには、[Aspose.Cells for Java APIの使用のためのソースコード例をダウンロード](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)するオプションも表示されます。
 
-**ウィザード 2:** Aspose.Cells 例
+**ウィザード2：** Aspose.Cells Examples
 
-- **Aspose.Cells サンプル ウィザード**ダウンロードしたものを作成/コピーできます[Aspose.Cells for Java API のソースコード例](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)あなたのプロジェクトに。選択したカテゴリのすべてのサンプルは、サンプルを実行するために必要な「src/main/resources」フォルダー内の必要なリソースとともに、プロジェクトの「com.aspose.cells.examples」パッケージ フォルダーにコピーされます。
+- **Aspose.Cells Examplesウィザード**を使用すると、Aspose.Cells for Java APIのダウンロードされた[ソースコード例](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)をプロジェクトに作成/コピーできます。選択したカテゴリのすべての例がプロジェクトの"com.aspose.cells.examples"パッケージフォルダにコピーされ、"src/main/resources"フォルダ内の実行に必要なリソースと共にコピーされます。
 
-- [Aspose.Cells for Java API のソースコード例](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) API のさまざまな使用法を示すためのものです。
+- [Aspose.Cells for Java APIの使用のためのソースコード例](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)は、APIの異なる使用法を示すためのものです。
 
-## **システム要件とサポートされるプラットフォーム**
+## **システム要件およびサポートされるプラットフォーム**
 
-### **システム要求**
+### **システム要件**
 
-- Microsoft Windows 8/7/Vista/2003/XP (64 ビットを含む) / Linux GNOME または KDE デスクトップ / Mac OS X 10.5 以降
-- 最小 1 GB RAM、推奨 2 GB RAM
-- 300 MB のハードディスク容量 + キャッシュ用に少なくとも 1 G
-- 1024x768 の最小画面解像度
-- JDK 1.7 以上を推奨
-- IntelliJ IDEA CE/UE (13.0.1、13.1.2 または 14.0.2)
-- インターネット接続（2MB以上推奨）
+- Microsoft Windows 8/7/Vista/2003/XP (64ビットを含む)  / Linux GNOMEまたはKDEデスクトップ / Mac OS X 10.5以上
+- 最小1 GB RAM、推奨2 GB RAM
+- ハードディスクに300 MBの空き容量+キャッシュ用に少なくとも1Gの空き容量
+- 最小1024x768の画面解像度
+- JDK 1.7またはそれ以上を推奨
+- IntelliJ IDEA CE/UE（13.0.1、13.1.2、または14.0.2）
+- インターネット接続（推奨2 MB以上）
 
 ### **サポートされているプラットフォーム**
 
-プラグインは、次の IntelliJ IDEA バージョンをサポートしています。
+プラグインは、以下のIntelliJ IDEAバージョンをサポートしています：
 
-- 13.0.1 (コミュニティ/アルティメット エディション)
-- 13.1.2 (CE/UE)
-- 14.0.2 (CE/UE)
+- 13.0.1（Community / Ultimate Edition）
+- 13.1.2（CE / UE）
+- 14.0.2 (CE/ UE)
 
-## **ダウンロード中**
+## **ダウンロード**
 
-### **IntelliJ IDEA のダウンロード**
+### **IntelliJ IDEAをダウンロード中**
 
-ダウンロードする前に、IntelliJ IDEA CE / UE をインストールする必要があります。**Aspose.Cells IntelliJ IDEA の場合は Java (Maven)**プラグイン。
+最初にIntelliJ IDEA CE / UEをインストールしてから、**Aspose.Cells Java for IntelliJ IDEA (Maven)** プラグインをダウンロードする必要があります。
 
-IntellliJ IDEA をダウンロードするには
+IntelliJ IDEAをダウンロードするには
 
-1. に行く<https://www.jetbrains.com/idea/download/>
-1. 実行中の OS を選択します
-1. UE または CE のダウンロードをクリックします。
+1. Go to <https://www.jetbrains.com/idea/download/>
+1. 実行中のOSを選択します
+1. UEまたはCEのダウンロードをクリックします。
 
-### **IntelliJ IDEA プラグイン (Maven) の Aspose.Cells Java をダウンロードしています**
+### **Aspose.Cells Java for IntelliJ IDEAプラグイン(Maven)をダウンロード中**
 
-- プラグインは、から直接ダウンロードできます。[JetBrains プラグインのホスティング URL](https://goo.gl/R4pysl) - IntelliJ IDEA プラグイン リポジトリ上
-以降は、IDE オプションを使用してインストールできます。
- - に行く**ファイル** > **設定**...>**プラグイン**
- 選択する "**ディスクからプラグインをインストールする」**
-- または、IDE オプションを使用して直接インストールすることもできます (JetBrains プラグインのホスティング URL から手動でダウンロードする必要はありません)。
- - に行く**ファイル** > **設定**...>**プラグイン**
- - 選択する**「リポジトリの参照」**
- - 検索ボックスの種類: 「Aspose」
- 選択する "**Aspose Cells Java IntelliJ IDEA Maven の場合**" インストールするプラグイン。
+- このプラグインは[JetBrainsプラグインホスティングURL](https://goo.gl/R4pysl)から直接ダウンロードできます - IntelliJ IDEAプラグインリポジトリ上
+  後で、IDEオプションを使用してインストールできます:
+  - **File** > **Settings**...>**Plugins**に移動
+  - "**ディスクからプラグインをインストール"**を選択します
+- または、IDEオプションを使用して直接インストールできます（JetBrainsプラグインホスティングURLから手動でダウンロードする必要はありません）:
+  - **File** > **Settings**...>**Plugins**に移動
+  - **"リポジトリを参照"**を選択します
+  - 検索ボックスに「Aspose」と入力します
+  - "**Aspose Cells Java for IntelliJ IDEA Maven**" プラグインを選択してインストールします。
 
 ## **インストール**
 
-[IntelliJ IDEA に Aspose.Cells をインストールする - Maven](/cells/ja/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Installing)
+[IntelliJ IDEA用Aspose.Cells Mavenのインストール](/cells/ja/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Installing)
 
-## **使用する**
+## **を使用する**
 
-[IntelliJ IDEA に Aspose.Cells を使用 - Maven](/cells/ja/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Using)
+[IntelliJ IDEA用Aspose.Cellsの使用](/cells/ja/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Using)
 
 ## **ビデオデモ**
 
-チェックしてください[ビデオ](https://www.youtube.com/watch?v=8sHoB5Isq-A)以下で、Aspose.Cells Maven プロジェクト ウィザードと Aspose.Cells サンプル ウィザードの動作を確認してください。
+Aspose.Cells MavenプロジェクトウィザードとAspose.Cellsエクスポートウィザードを実際に見るには、以下の[ビデオ](https://www.youtube.com/watch?v=8sHoB5Isq-A)をご覧ください。
 
 ## **サポート、拡張、貢献**
 
 ### **サポート**
 
-- プラグインで (ユーザーまたは QA チームによって) 既知/報告された問題を確認したい場合。
-- または、プラグインで見つかった問題を報告したい
-- 改善の提案があるか、機能のリクエストをしたい
+- プラグインで既知の問題/レポートされた問題を確認したい場合
+- または、プラグインで見つけた問題を報告したい場合
+- 改善提案をしたい場合、または機能のリクエストをしたい場合
 
-**次のプロジェクトの問題トラッカーのいずれかを使用してください。**
+**次のプロジェクトの問題トラッカーを使用してください:**
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 
-### **拡張して貢献する**
+### **拡張と貢献**
 
-**Aspose.Cells IntelliJ IDEA の場合は Java (Maven)**プラグインはオープン ソースであり、そのソース コードは、以下に示す主要なソーシャル コーディング Web サイトで入手できます。開発者は、ソース コードをダウンロードし、新しい機能を提案または追加するか、既存の機能を改善することによって貢献することをお勧めします。これにより、他の人もその恩恵を受けることができます。
+**Aspose.Cells Java for IntelliJ IDEA (Maven)** プラグインはオープンソースで、そのソースコードは以下の主要なソーシャルコーディングウェブサイトで利用可能です。開発者はソースコードをダウンロードし、新しい機能の提案や追加、または既存の機能の改善を行うことを奨励されています。
 
 ### **ソースコード**
 
-最新のソース コードは、次のいずれかの場所から入手できます。
+最新のソースコードを以下の場所から取得できます
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_IntelliJ(Maven))
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_IntelliJ(Maven))

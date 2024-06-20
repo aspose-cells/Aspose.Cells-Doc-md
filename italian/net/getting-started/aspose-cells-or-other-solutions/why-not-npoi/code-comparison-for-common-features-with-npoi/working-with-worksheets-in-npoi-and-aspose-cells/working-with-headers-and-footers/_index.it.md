@@ -1,13 +1,14 @@
-﻿---
+---
 title: Lavorare con intestazioni e piè di pagina
 type: docs
 weight: 110
 url: /it/net/working-with-headers-and-footers/
 ---
+
 ## **Aspose.Cells - Lavorare con intestazioni e piè di pagina**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -49,10 +50,10 @@ workbook.Save("../../data/headerfooter.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Utilizzo di intestazioni e piè di pagina**
+## **NPOI - HSSF XSSF - Lavorare con intestazioni e piè di pagina**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -74,12 +75,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Lavorare con intestazioni e piè di pagina** formare uno dei siti di social coding sotto indicati:
+Scarica **Lavorare con intestazioni e piè di pagina** da uno dei siti di codice sociale di seguito menzionati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Lavorare con i fogli di lavoro](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Per ulteriori dettagli, visita [Working with Worksheets](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

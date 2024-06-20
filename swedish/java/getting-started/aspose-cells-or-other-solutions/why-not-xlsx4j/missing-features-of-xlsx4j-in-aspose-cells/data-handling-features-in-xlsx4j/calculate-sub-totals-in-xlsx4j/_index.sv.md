@@ -1,15 +1,16 @@
-﻿---
+---
 title: Beräkna delsummor i xlsx4j
 type: docs
 weight: 10
 url: /sv/java/calculate-sub-totals-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Beräkna delsummor**
-Du kan automatiskt skapa delsummor för alla återkommande värden i ett kalkylblad. Aspose.Cells tillhandahåller API-funktioner som hjälper dig att lägga till delsummor till kalkylark programmatiskt.
+Du kan automatiskt skapa delsummer för vilka återkommande värden som helst i en kalkyl. Aspose.Cells tillhandahåller API-funktioner som hjälper dig att lägga till delsummer till kalkylblad programmatiskt.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,20 +36,20 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[]{ 1 });
+cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 
 //Save the excel file
 
 workbook.save(dataDir + "AsposeTotal.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/calculatesubtotals/AsposeCalculateSubTotals.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Skapa delsummor](/cells/sv/java/creating-subtotals).
+För mer detaljer, besök [Skapa delsummering](/cells/sv/java/skapa-delsummering).
 
 {{% /alert %}}

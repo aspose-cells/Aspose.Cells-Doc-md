@@ -1,15 +1,16 @@
-﻿---
-title: Ruby でペインをフリーズ
+---
+title: Rubyでペインを固定する
 type: docs
 weight: 50
 url: /ja/java/freeze-panes-in-ruby/
 ---
-## **Aspose.Cells - フリーズペイン**
-を使用してスプレッドシート ドキュメントのペインを固定するには**Aspose.Cells Ruby の場合は Java**、単に呼び出す**FreezePanes**モジュール。
 
-**ルビーコード**
+## **Aspose.Cells - ペインを固定する**
+Aspose.Cells Java for Rubyを使用してスプレッドシートドキュメントのペインを固定するには、FreezePanesモジュールを単純に呼び出します。
 
-{{< highlight "ruby" >}}
+**Ruby Code**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ workbook.save(data_dir + "output.xls")
 puts "Apply freeze panes settings, please check the output file."
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**フリーズペイン (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、Aspose.CellsのFreeze Panesをダウンロードする
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)

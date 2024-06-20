@@ -29,7 +29,7 @@ Aspose.Cells支持使用特定类型粘贴范围。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Paste-Range.cs" >}}
 
-## **仅复制范围的数据。**
+## **仅复制数据的范围**
 还可以使用Range.CopyData方法来复制数据，示例如下：
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range-Data.cs" >}}

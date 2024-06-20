@@ -1,34 +1,35 @@
-﻿---
+---
 title: Modifica degli attributi del rapporto
 type: docs
 weight: 90
 url: /it/reportingservices/modifying-report-attributes/
 ---
-Per modificare gli attributi di un report:
 
-1.  Clic**Modifica attributo**sulla barra degli strumenti Aspose.Cells.Report.Designer (
+Per modificare gli attributi di un rapporto:
 
-![cose da fare:immagine_alt_testo](modifying-report-attributes_1.png)
+1. Fare clic su **Modifica Attributo** sulla barra degli strumenti del Progettista di Aspose.Cells.Report (
+
+![todo:image_alt_text](modifying-report-attributes_1.png)
 
 ).
- report disponibili sono elencati nel riquadro di sinistra.
+I rapporti disponibili sono elencati nel pannello sinistro. 
 
-1.  Seleziona un rapporto e fai clic**Modificare**. 
+1. Selezionare un rapporto e fare clic su **Modifica**. 
 
    **Selezione di un rapporto** 
 
-![cose da fare:immagine_alt_testo](modifying-report-attributes_2.png)
+![todo:image_alt_text](modifying-report-attributes_2.png)
 
 
 
 
-1.  Modificare gli attributi del rapporto.
+1. Modificare gli attributi del rapporto. 
 
    **Modifica degli attributi** 
 
-![cose da fare:immagine_alt_testo](modifying-report-attributes_3.png)
+![todo:image_alt_text](modifying-report-attributes_3.png)
 
 
 
 
-1.  Clic**Commettere** finire.
+1. Fare clic su **Conferma** per finire.

@@ -1,16 +1,17 @@
-﻿---
-title: Hücre değerinin tek tırnak işaretiyle başlayıp başlamadığını bulun
+---
+title: Hücre değerinin tek tek tırnak işaretiyle başlayıp başlamadığını bul
 type: docs
 weight: 610
 url: /tr/java/find-if-the-cell-value-starts-with-single-quote-mark/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells şimdi şunları sağlıyor:[Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) hücre değerinin tek bir tırnak işaretiyle başlayıp başlamadığını bulmak için özellik. Bu özellikten önce, sample ve 'sample vs. gibi dizileri birbirinden ayırmanın bir yolu yoktu.
+Aspose.Cells artık hücre değerinin önce tek tırnak işaretiyle başlayıp başlamadığını bulmak için [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) özelliğini sağlar. Bu özelliğin öncesinde, örnek ve 'örnek gibi dizgiler arasında ayrım yapmanın bir yolu yoktu.
 
 {{% /alert %}} 
-## **Hücre değerinin tek tırnak işaretiyle başlayıp başlamadığını bulun**
-Aşağıdaki örnek kod, sample ve 'sample' gibi dizelerin farklılaştırılamayacağını açıklar.[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) Emlak. bu nedenle kullanmalıyız[Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)ayırt etme özelliğidir.
+## **Hücre Değerinin Tek Tırnak İşareti ile Başlayıp Başlamadığını Bulma**
+Aşağıdaki örnek kod, dizgilerin örnek ve 'örnek gibi ayrıştırılmasının [Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) özelliğiyle mümkün olmadığını açıklar. Bu nedenle [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) özelliğini kullanarak ayrıştırmamız gerekmektedir.
 
 
 

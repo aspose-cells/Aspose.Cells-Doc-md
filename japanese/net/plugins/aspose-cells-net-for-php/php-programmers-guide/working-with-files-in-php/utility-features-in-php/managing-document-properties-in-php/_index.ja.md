@@ -1,15 +1,16 @@
-﻿---
-title: PHP でのドキュメント プロパティの管理
+---
+title: PHPでのドキュメントプロパティの管理
 type: docs
 weight: 30
 url: /ja/net/managing-document-properties-in-php/
 ---
-## **Aspose.Cells - ドキュメント プロパティの管理**
-Microsoft Excel ファイルのドキュメント プロパティの管理
 
-**PHP コード**
+## **Aspose.Cells - ドキュメントプロパティの管理**
+Microsoft Excelファイルのドキュメントプロパティの管理
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -78,7 +79,7 @@ Microsoft Excel ファイルのドキュメント プロパティの管理
         $ptr->Call($workbook,"Save",array($dataDir . "/Test_Workbook_RemovedProperty.xls"));
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ドキュメント プロパティの管理 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に記載されているソーシャルコーディングサイトから、**ドキュメントプロパティの管理 (Aspose.Cells)** をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

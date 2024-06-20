@@ -1,49 +1,50 @@
-﻿---
-title: Hinzufügen globaler Reporting Services-Variablen zum Bericht
+---
+title: Hinzufügen von Reporting Services Globalvariablen zum Bericht
 type: docs
 weight: 70
 url: /de/reportingservices/adding-reporting-services-global-variables-to-report/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells'-Berichtsvorlage unterstützt die globalen Variablen von Reporting Services als Datenquelle für Zellen, die eine Markierung für globale Variablen von Reporting Services enthalten.
+Der Berichtsvorlage von Aspose.Cells unterstützt die Reporting Services-Globalvariablen als Datenquelle für Zellen, die einen Reporting Services-Globalvariablen-Marker enthalten. 
 
-[Aspose.Cells Schablone und intelligente Marker](/cells/de/reportingservices/aspose-cells-template-and-smart-markers/) erklärt, wie Markierungen für globale Variablen von Reporting Services funktionieren. Globale Variablen werden normalerweise im Textbereich einer Tabellenkopf- oder -fußzeile platziert.
+[Aspose.Cells-Vorlage und Smart-Marker](/cells/de/reportingservices/aspose-cells-template-and-smart-markers/) erklärt, wie Reporting Services-Globalvariablen-Marker funktionieren. Globalvariablen werden normalerweise im Textbereich eines Tabellenkopfes oder -fußes platziert.
 
 {{% /alert %}} 
 
-So fügen Sie Berichten globale Variablen hinzu:
+Um globale Variablen zu Berichten hinzuzufügen:
 
-1.  Wählen Sie eine Zelle aus.
+1. Wählen Sie eine Zelle aus. 
 
    **Eine ausgewählte Zelle** 
 
-![todo: Bild_alt_Text](adding-reporting-services-global-variables-to-report_1.png)
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_1.png)
 
 
 
 
-1.  Klicken**Formel einfügen**auf der Symbolleiste Aspose.Cells.Report.Designer (
+1. Klicken Sie auf **Formel einfügen** in der Aspose.Cells.Report.Designer-Symbolleiste (
 
-![todo: Bild_alt_Text](adding-reporting-services-global-variables-to-report_2.png)
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_2.png)
 
 ).
 
-1.  Wählen**Global** im linken Panel.
- Alle globalen Variablen sind rechts aufgelistet.
-1.  Wählen**Berichtsname** und doppelklicken.
- Der Ausdruck erscheint in der**Bearbeiten** Kasten oben.
+1. Wählen Sie **Globals** im linken Panel aus.
+   Alle globalen Variablen werden rechts aufgelistet. 
+1. Wählen Sie **ReportName** aus und doppelklicken Sie darauf.
+   Der Ausdruck erscheint im **Bearbeiten**-Feld oben. 
 
-   **Auswahl einer globalen Variablen** 
+   **Auswahl einer globalen Variable** 
 
-![todo: Bild_alt_Text](adding-reporting-services-global-variables-to-report_3.png)
-
-
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_3.png)
 
 
-1.  Klicken**OK** beenden.
- Die Zelle enthält jetzt einen globalen Variablenmarker.
+
+
+1. Klicken Sie auf **OK**, um abzuschließen.
+   Die Zelle enthält nun einen globalen Variablenmarker. 
 
    **Ein globaler Variablenmarker in einer Zelle** 
 
-![todo: Bild_alt_Text](adding-reporting-services-global-variables-to-report_4.png)
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_4.png)

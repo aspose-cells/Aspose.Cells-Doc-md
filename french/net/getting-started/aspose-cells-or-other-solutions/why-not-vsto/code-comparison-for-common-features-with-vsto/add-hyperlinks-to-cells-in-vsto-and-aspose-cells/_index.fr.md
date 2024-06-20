@@ -1,30 +1,31 @@
-﻿---
-title: Ajouter des hyperliens vers Cells dans VSTO et Aspose.Cells
+---
+title: Ajouter des hyperliens aux cellules dans VSTO et Aspose.Cells
 type: docs
 weight: 20
 url: /fr/net/add-hyperlinks-to-cells-in-vsto-and-aspose-cells/
 ---
-Pour ajouter des liens hypertexte aux cellules d'une feuille de calcul, procédez comme suit :
 
-1.  Configurez la feuille de calcul :
- 1. Instanciez un objet Application. (VSTO uniquement.)
- 1. Ajoutez un classeur.
- 1. Obtenez la première feuille.
- 1. Ajoutez du texte aux cellules auxquelles vous ajouterez un lien hypertexte.
-1. Ajouter un lien hypertexte.
-1. Enregistrez le document.
+Pour ajouter des hyperliens aux cellules d'une feuille de calcul, suivez les étapes suivantes :
 
-Ces étapes sont illustrées dans les exemples de code ci-dessous. Les premiers exemples montrent comment utiliser VSTO avec soit C# pour ajouter un lien hypertexte à une cellule. Les exemples qui suivent montrent comment faire la même chose en utilisant Aspose.Cells for .NET, à nouveau en utilisant C#.
+1. Mettez en place la feuille de calcul: 
+   1. Instancier un objet Application. (VSTO uniquement)
+   1. Ajouter un classeur.
+   1. Obtenir la première feuille.
+   1. Ajouter du texte aux cellules auxquelles vous ajouterez un hyperlien.
+1. Ajouter un hyperlien.
+1. Enregistrer le document.
 
-Les exemples de code génèrent un fichier Excel contenant un lien hypertexte dans la cellule A1 de la première feuille de calcul.
+Ces étapes sont présentées dans les exemples de code ci-dessous. Le premier exemple montre comment utiliser VSTO avec C# pour ajouter un hyperlien à une cellule. Les exemples qui suivent montrent comment faire la même chose en utilisant Aspose.Cells for .NET, encore une fois en utilisant C#.
 
-![tâche : image_autre_texte](picture1.png)
+Les exemples de code génèrent un fichier Excel qui comporte un hyperlien dans la cellule A1 de la première feuille de calcul.
 
-Un lien hypertexte est ajouté à la cellule A1.
+![todo:image_alt_text](picture1.png)
+
+Un hyperlien est ajouté à la cellule A1.
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -60,7 +61,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook object.
 
@@ -88,8 +89,8 @@ workbook.Save("Hyperlink_test.xls");
 
 {{< /highlight >}}
 
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 
-- [GithubGenericName](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/télécharger)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).Zip *: français)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip)

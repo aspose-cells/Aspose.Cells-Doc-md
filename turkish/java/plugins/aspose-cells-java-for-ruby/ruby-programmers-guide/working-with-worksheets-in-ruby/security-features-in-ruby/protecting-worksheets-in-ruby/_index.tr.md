@@ -1,15 +1,16 @@
-﻿---
-title: Ruby'de Çalışma Sayfalarını Koruma
+---
+title: Ruby de Çalışma Sayfalarını Koruma
 type: docs
 weight: 10
 url: /tr/java/protecting-worksheets-in-ruby/
 ---
+
 ## **Aspose.Cells - Çalışma Sayfalarını Koruma**
- Çalışma sayfasını kullanarak korumak için**Yakut için Aspose.Cells Java** , Arama**koruma_çalışma sayfası** yöntemi**koruma** modül.
+**Aspose.Cells Java için Ruby** kullanarak çalışma sayfasını korumak için **protection** modülünün **protect_worksheet** yöntemini çağırın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def protect_worksheet()
 
@@ -55,6 +56,6 @@ end   
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Çalışma Sayfalarını Koruma (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Çalışma Sayfalarını Koruma (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

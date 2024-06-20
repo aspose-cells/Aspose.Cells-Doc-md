@@ -1,13 +1,14 @@
-﻿---
-title: Bild in Arbeitsblatt hinzufügen
+---
+title: Bild im Arbeitsblatt hinzufügen
 type: docs
 weight: 20
 url: /de/net/add-image-in-worksheet/
 ---
-## **Aspose.Cells - Bild in Arbeitsblatt hinzufügen**
+
+## **Aspose.Cells - Bild im Arbeitsblatt hinzufügen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -49,10 +50,10 @@ workbook.Save("../../data/image.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Bild in Arbeitsblatt hinzufügen**
+## **NPOI - HSSF XSSF - Bild im Arbeitsblatt hinzufügen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -60,7 +61,7 @@ ISheet sheet1 = wb.CreateSheet("First Sheet");
 
 //add picture data to this workbook.
 
-byte[]bytes = File.ReadAllBytes("../../data/aspose.png");
+byte[] bytes = File.ReadAllBytes("../../data/aspose.png");
 
 int pictureIdx = wb.AddPicture(bytes, PictureType.PNG);
 
@@ -95,13 +96,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Bild in Arbeitsblatt hinzufügen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie das Formular **Bild im Arbeitsblatt hinzufügen** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Add.Image.in.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Arbeiten mit Arbeitsblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Für weitere Details besuchen Sie [Arbeiten mit Tabellenblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

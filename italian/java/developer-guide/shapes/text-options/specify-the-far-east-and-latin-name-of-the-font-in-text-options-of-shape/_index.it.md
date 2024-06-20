@@ -1,19 +1,20 @@
-﻿---
-title: Specificare l'Estremo Oriente e il nome latino del carattere in Opzioni testo di Forma
+---
+title: Specificare il Nome Estremo Orientale e Latino del Carattere nelle Opzioni di Testo della Forma
 type: docs
 weight: 120
 url: /it/java/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/
 ---
-## **Possibili scenari di utilizzo**
 
-A volte si desidera visualizzare il testo nel carattere della lingua dell'Estremo Oriente, ad esempio giapponese, cinese, tailandese, ecc. Aspose.Cells fornisce[**TextOptions.FarEastName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#FarEastName)proprietà che può essere utilizzata per specificare il nome del carattere della lingua dell'Estremo Oriente. Inoltre, puoi anche specificare il nome del carattere latino utilizzando[**TextOptions.LatinName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#LatinName)proprietà.
+## **Possibili Scenari di Utilizzo**
 
-## **Specificare l'Estremo Oriente e il nome latino del carattere in Opzioni testo di Forma**
+A volte si desidera visualizzare il testo in un carattere di lingua estremo orientale, ad es. giapponese, cinese, thailandese, ecc. Aspose.Cells fornisce la proprietà [**TextOptions.FarEastName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#FarEastName) che può essere utilizzata per specificare il nome del carattere della lingua estremo orientale. Inoltre, è possibile specificare il nome del carattere latino utilizzando la proprietà [**TextOptions.LatinName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#LatinName).
 
-Il seguente codice di esempio crea una casella di testo e vi aggiunge del testo giapponese. Quindi specifica i nomi dei caratteri latini e dell'Estremo Oriente del testo e salva la cartella di lavoro come[file Excel di output](67338341.xlsx). Lo screenshot seguente mostra i nomi dei caratteri latini e dell'estremo oriente della casella di testo di output in Microsoft Excel.
+## **Specificare il Nome Estremo Orientale e Latino del Carattere nelle Opzioni di Testo della Forma**
 
-![cose da fare:immagine_alt_testo](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
+Il seguente codice di esempio crea una casella di testo e aggiunge del testo giapponese al suo interno. Specifica quindi i nomi dei caratteri latino e estremo orientale del testo e salva il documento di lavoro come [file Excel di output](67338341.xlsx). Lo screenshot seguente mostra i nomi dei caratteri latino ed estremo orientale della casella di testo di output in Microsoft Excel.
 
-## **Codice d'esempio**
+![todo:image_alt_text](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.java" >}}

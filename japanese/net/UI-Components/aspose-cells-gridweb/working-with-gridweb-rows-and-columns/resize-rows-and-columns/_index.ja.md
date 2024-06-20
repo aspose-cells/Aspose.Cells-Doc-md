@@ -1,35 +1,38 @@
-﻿---
-title: 行と列のサイズ変更
+---
+title: 行と列のリサイズ
 type: docs
 weight: 30
-url: /ja/net/resize-rows-and-columns/
+url: /ja/net/aspose-cells-gridweb/resize-rows-and-columns/
+keywords: GridWeb, 幅, 高さ, 行の高さ, 列の幅
+description: 本記事では、GridWeb で行の高さと列の幅を設定する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-セルの値が、セルの幅よりも広い場合や、複数の行にある場合があります。このような値は、行と列の高さと幅を変更しない限り、ユーザーに完全には表示されません。 Aspose.Cells.GridWeb は、行の高さと列の幅の設定を完全にサポートしています。このトピックでは、例を使用してこれらの機能について詳しく説明します。
+セルの値がセルよりも幅が広い場合、または複数行にわたる場合があります。そのような値は、行と列の高さと幅を変更しない限り、ユーザーには完全に表示されません。Aspose.Cells.GridWeb は、行の高さと列の幅の設定を完全にサポートしています。このトピックでは、具体的な例を挙げながら、これらの機能について詳しく説明します。
 
 {{% /alert %}} 
-## **行の高さと列の幅の操作**
+## **行の高さと列の幅の設定**
 ### **行の高さの設定**
 行の高さを設定するには:
 
-1. Aspose.Cells.GridWeb コントロールを Web フォームに追加します。
+1. Aspose.Cells.GridWebコントロールをWebフォームに追加します。
 1. ワークシートの Cells コレクションにアクセスします。
-1. 指定した行のすべてのセルの高さを設定します。
+1. 指定された行内のすべてのセルの高さを設定します。
 
 {{% alert color="primary" %}} 
 
-Cells コレクションの SetRowHeight メソッドと SetColumnWidth メソッドには、行の高さと列の幅の測定値をインチとピクセルで設定するバリアントもあります。
+Cells コレクションの SetRowHeight および SetColumnWidth メソッドには、インチとピクセルで行の高さと列の幅を設定するためのバリアントも用意されています。
 
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-ResizeRowsColumns.aspx-SetRowHeight.cs" >}}
-### **列幅の設定**
+### **列の幅の設定**
 列の幅を設定するには:
 
-1. Aspose.Cells.GridWeb コントロールを Web フォームに追加します。
+1. Aspose.Cells.GridWebコントロールをWebフォームに追加します。
 1. ワークシートの Cells コレクションにアクセスします。
-1. 指定された列のすべてのセルの幅を設定します。
+1. 指定された列内のすべてのセルの幅を設定します。
 
 
 

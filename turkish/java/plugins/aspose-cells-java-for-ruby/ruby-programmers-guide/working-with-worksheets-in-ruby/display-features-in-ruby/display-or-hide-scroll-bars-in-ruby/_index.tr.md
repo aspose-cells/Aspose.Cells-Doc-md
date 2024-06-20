@@ -1,16 +1,17 @@
-﻿---
-title: Ruby'de Kaydırma Çubuklarını Görüntüleme veya Gizleme
+---
+title: Ruby  ile Kaydırma Çubuklarını Göster veya Gizle
 type: docs
 weight: 30
 url: /tr/java/display-or-hide-scroll-bars-in-ruby/
 ---
-## **Aspose.Cells - Kaydırma Çubuklarını Görüntüle veya Gizle**
-### **Kaydırma Çubuklarını Gizleme**
- kullanarak Kaydırma Çubuklarını gizlemek için**Yakut için Aspose.Cells Java** , Arama**kaydırma çubuklarını görüntüle** modül.
 
-**Yakut Kodu**
+## **Aspose.Cells - Kaydırma Çubuklarını Göster veya Gizle**
+### **Kaydırma çubuklarını gizleme**
+**Aspose.Cells Java for Ruby** kullanarak kaydırma çubuklarını gizlemek için **displayhidescrollbars** modülünü çağırın.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -33,12 +34,12 @@ workbook.save(data_dir + "output.xls")
 puts "Scroll Bars are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Kaydırma Çubuklarını Görünür Hale Getirmek**
-Workbook sınıfının setVerticalScrollBarHidden() veya setHorizontalScrollBarHidden() yöntemlerini true olarak ayarlayarak kaydırma çubuklarını görünür yapın.
+### **Kaydırma Çubuklarını Görünür Yapma**
+Kaydırma çubuklarını görünür yapmak için **Workbook** sınıfının **setVerticalScrollBarHidden()** veya **setHorizontalScrollBarHidden()** metodunu kullanarak true değerini ayarlayın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the vertical scroll bar of the Excel file
 
@@ -50,6 +51,6 @@ workbook.getSettings().setHScrollBarVisible(true)
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Kaydırma Çubuklarını Görüntüle veya Gizle (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+**Aspose.Cells** ile **Kaydırma Çubuklarını Göster veya Gizle**'yı aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidescrollbars.rb)

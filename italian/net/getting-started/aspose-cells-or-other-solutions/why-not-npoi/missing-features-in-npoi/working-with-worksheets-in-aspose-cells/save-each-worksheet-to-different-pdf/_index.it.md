@@ -1,29 +1,30 @@
-﻿---
-title: Salva ogni foglio di lavoro in un numero PDF diverso
+---
+title: Salva ciascun foglio di lavoro in un PDF diverso
 type: docs
 weight: 10
 url: /it/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - Salva ogni foglio di lavoro in un diverso PDF**
-Aspose.Cells supporta la conversione di file XLS (che contengono immagini, grafici ecc.) in documenti PDF. Aspose.Cells for .NET può funzionare in modo indipendente per convertire un foglio di calcolo in un documento Pdf e non è più necessario utilizzare Aspose.Pdf for .NET per la conversione. La conversione non richiede di creare/utilizzare alcun file temporaneo, poiché l'intero processo può essere eseguito nella memoria.
+
+## **Aspose.Cells - Salva ciascun foglio di lavoro in un PDF diverso**
+Aspose.Cells supporta la conversione di file XLS (che contengono immagini, grafici, ecc.) in documenti PDF. Aspose.Cells for .NET può lavorare autonomamente per convertire un foglio di calcolo in un documento Pdf e non è più necessario utilizzare Aspose.Pdf for .NET per la conversione. La conversione non richiede di creare/utilizzare alcun file temporaneo in quanto l'intero processo può essere eseguito in memoria.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- // Crea un'istanza di una nuova cartella di lavoro e apri Excel
+ //Instantiate a new workbook and open the Excel
 
-//File dalla sua posizione
+//File from its location
 
-Cartella di lavoro cartella di lavoro = nuova cartella di lavoro("../../data/test.xlsx");
+Workbook workbook = new Workbook("../../data/test.xlsx");
 
-//Ottieni il conteggio dei fogli di lavoro nella cartella di lavoro
+//Get the count of the worksheets in the workbook
 
 int sheetCount = workbook.Worksheets.Count;
 
-//Rendi tutti i fogli invisibili tranne il primo foglio di lavoro
+//Make all sheets invisible except first worksheet
 
- per (int i = 1; i< workbook.Worksheets.Count; i++)
+for (int i = 1; i < workbook.Worksheets.Count; i++)
 
 {
 
@@ -55,12 +56,12 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Salva ogni foglio di lavoro in un numero PDF diverso** formare uno dei siti di social coding sotto indicati:
+Scarica **Salva ciascun foglio di lavoro in un PDF diverso** da uno dei siti di codice sociale qui sotto:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Salva ogni foglio di lavoro in un file PDF diverso](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
+Per ulteriori dettagli, visita [Salva ogni foglio di lavoro in un file PDF diverso](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}

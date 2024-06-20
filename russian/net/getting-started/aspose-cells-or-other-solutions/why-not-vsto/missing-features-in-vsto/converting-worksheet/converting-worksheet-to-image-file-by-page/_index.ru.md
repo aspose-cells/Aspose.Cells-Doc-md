@@ -1,14 +1,15 @@
-﻿---
-title: Преобразование рабочего листа в файл изображения на странице
+---
+title: Преобразование листа в файл изображения по страницам
 type: docs
 weight: 10
 url: /ru/net/converting-worksheet-to-image-file-by-page/
 ---
-{{< highlight "csharp" >}}
 
- Книга книги = новая книга («Лист в изображение по Page.xls»);
+{{< highlight csharp >}}
 
-Рабочий лист = book.Worksheets[0];
+ Workbook book = new Workbook("Sheet to Image by Page.xls");
+
+Worksheet sheet = book.Worksheets[0];
 
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 
@@ -18,11 +19,11 @@ options.VerticalResolution = 200;
 
 options.ImageFormat = System.Drawing.Imaging.ImageFormat.Tiff;
 
-//Конвертация Sheet2Image по страницам
+//Sheet2Image By Page conversion
 
-SheetRender sr = новый SheetRender (лист, параметры);
+SheetRender sr = new SheetRender(sheet, options);
 
- для (int j = 0; j< sr.PageCount; j++)
+for (int j = 0; j < sr.PageCount; j++)
 
 {
 
@@ -34,6 +35,6 @@ SheetRender sr = новый SheetRender (лист, параметры);
 
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.image.file.by.Page.Aspose.Cells.zip)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Worksheet%20to%20image%20file%20by%20Page%20%28Aspose.Cells%29.zip)
+## **Загрузить образец кода**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.image.file.by.Page.Aspose.Cells.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Worksheet%20to%20image%20file%20by%20Page%20%28Aspose.Cells%29.zip)

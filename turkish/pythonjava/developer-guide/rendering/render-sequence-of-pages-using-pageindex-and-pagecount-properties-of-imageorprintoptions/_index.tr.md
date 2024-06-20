@@ -1,19 +1,20 @@
-﻿---
-title: ImageOrPrintOptions'ın PageIndex ve PageCount Özelliklerini Kullanarak Sayfa Sırasını Oluşturun
+---
+title: ResimOluşturYazdırOptions ın PageIndex ve PageCount Özelliklerini Kullanarak Sayfaların Sıralı Olarak Görüntülenmesi
 type: docs
 weight: 10
 url: /tr/python-java/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
 ---
-## **ImageOrPrintOptions'ın PageIndex ve PageCount Özelliklerini Kullanarak Sayfa Sırasını Oluşturun**
-Aspose.Cells ile Excel dosyanızın bir dizi sayfasını görüntülere dönüştürebilirsiniz.[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex) ve[ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount) özellikler. Bu özellikler, çalışma sayfanızda çok fazla örneğin binlerce sayfa olduğunda, ancak bunlardan yalnızca bazılarını işlemek istediğinizde kullanışlıdır. Bu sadece işlem süresinden tasarruf etmekle kalmayacak, aynı zamanda işleme sürecinin bellek tüketiminden de tasarruf sağlayacaktır.
 
-Aşağıdaki örnek kod, örnek Excel dosyasını yükler ve yalnızca 4, 5, 6 ve 7. sayfaları oluşturur.[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex)ve[ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount) özellikler. Aşağıdakiler, örnek kod tarafından oluşturulan işlenmiş sayfaların görüntüleridir.
+## **Görüntü veya Yazdırma Seçenekleri Kullanılarak Sayfa Dizisi Oluşturma**
+Aspose.Cells ile Excel dosyanızın bir sayfa dizisini, [ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex) ve [ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount) özelliklerini kullanarak görüntülendirebilirsiniz. Bu özellikler, çalışsayıda binlerce sayfa olmasına rağmen sadece bazılarını görüntülemek istediğinizde kullanışlıdır. Bu, sadece işleme zamanını değil, aynı zamanda render işleminin bellek tüketimini de tasarruf edecektir.
 
-|![yapılacaklar:resim_alternatif_metin](outputImage-4.png)|![yapılacaklar:resim_alternatif_metin](outputImage-5.png)|
-|:- |:- |
-|![yapılacaklar:resim_alternatif_metin](outputImage-6.png)|![yapılacaklar:resim_alternatif_metin](outputImage-7.png)|
+Aşağıdaki örnek kod, örnek Excel dosyasını yükler ve yalnızca 4, 5, 6 ve 7 sayfalarını kullanarak [ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex) ve [ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount) özelliklerini kullanarak oluşturulan render sayfalarının görüntüleridir.
+
+|![todo:image_alt_text](outputImage-4.png)|![todo:image_alt_text](outputImage-5.png)|
+| :- | :- |
+|![todo:image_alt_text](outputImage-6.png)|![todo:image_alt_text](outputImage-7.png)|
 
 
 
-## **Basit kod**
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Rendering-RenderLimitedNoOfSequentialPages.py" >}}

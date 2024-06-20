@@ -1,29 +1,30 @@
-﻿---
-title: Speichern Sie jedes Arbeitsblatt unter einem anderen PDF
+---
+title: Jedes Arbeitsblatt als verschiedene PDF Datei speichern
 type: docs
 weight: 10
 url: /de/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - Speichern Sie jedes Arbeitsblatt unter einem anderen PDF**
-Aspose.Cells unterstützt die Konvertierung von XLS-Dateien (die Bilder, Diagramme usw. enthalten) in PDF-Dokumente. Aspose.Cells for .NET kann unabhängig arbeiten, um eine Tabelle in ein PDF-Dokument zu konvertieren, und Sie müssen Aspose.Pdf for .NET nicht mehr für die Konvertierung verwenden. Für die Konvertierung müssen keine temporären Dateien erstellt / verwendet werden, da der gesamte Vorgang im Speicher durchgeführt werden kann.
+
+## **Aspose.Cells - Jedes Arbeitsblatt als separate PDF speichern**
+Aspose.Cells unterstützt die Konvertierung von XLS-Dateien (die Bilder, Diagramme usw. enthalten) in PDF-Dokumente. Aspose.Cells for .NET kann unabhängig arbeiten, um eine Tabelle in ein PDF-Dokument umzuwandeln, und Sie müssen Aspose.Pdf for .NET nicht mehr für die Konvertierung verwenden. Die Konvertierung erfordert auch nicht, temporäre Dateien zu erstellen oder zu verwenden, da der gesamte Prozess im Speicher durchgeführt werden kann.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- //Instanziieren Sie eine neue Arbeitsmappe und öffnen Sie Excel
+ //Instantiate a new workbook and open the Excel
 
-//Datei von ihrem Speicherort
+//File from its location
 
-Arbeitsmappe Arbeitsmappe = neue Arbeitsmappe(../../data/test.xlsx");
+Workbook workbook = new Workbook("../../data/test.xlsx");
 
-//Ermittle die Anzahl der Arbeitsblätter in der Arbeitsmappe
+//Get the count of the worksheets in the workbook
 
-int sheetCount = Arbeitsmappe.Arbeitsblätter.Anzahl;
+int sheetCount = workbook.Worksheets.Count;
 
-// Alle Blätter außer dem ersten Arbeitsblatt unsichtbar machen
+//Make all sheets invisible except first worksheet
 
- für (int i = 1; i< workbook.Worksheets.Count; i++)
+for (int i = 1; i < workbook.Worksheets.Count; i++)
 
 {
 
@@ -54,13 +55,13 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Speichern Sie jedes Arbeitsblatt unter einem anderen PDF** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Jedes Arbeitsblatt als verschiedene PDF-Datei speichern** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Speichern Sie jedes Arbeitsblatt in einer anderen PDF-Datei](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
+Für weitere Details besuchen Sie [Jedes Arbeitsblatt als verschiedene PDF-Datei speichern](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}

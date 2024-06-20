@@ -1,19 +1,20 @@
-﻿---
-title: VSTO ve Aspose.Cells'de bir Pasta Grafiği oluşturun
+---
+title: VSTO ve Aspose.Cells ile Pie Chart Oluşturma
 type: docs
 weight: 80
 url: /tr/net/create-a-pie-chart-in-vsto-and-aspose-cells/
 ---
-Bu makale, Office Automation ve VSTO kullanarak pasta grafiğin nasıl oluşturulacağını Aspose.Cells for .NET kullanarak karşılaştırır. Pasta grafiği oluşturmaya yönelik adımlar şunlardır:
 
-1. Çalışma kitabı ve çalışma sayfası oluşturma.
-1. Örnek veri ekleme.
-1. Başvurulan ürünler Tablosu.
-1. Pasta grafik ekleme, veri aralığını ve grafik başlığını tanımlama.
-1. E-tablo kaydediliyor.
-Bu makaledeki kod örnekleri, yine C# kullanılarak Aspose.Cells ile bir pasta grafiği oluşturmaya kıyasla, C# kullanılarak VSTO ile pasta grafiğin nasıl ekleneceğini gösterir.
+Bu makale, Ofis Otomasyonu ve VSTO kullanarak bir pasta grafiği oluşturmanın Aspose.Cells for .NET kullanımıyla nasıl karşılaştırıldığını inceler. Pasta grafiği oluşturma adımları şunlardır:
+
+1. Bir çalışma kitabı ve çalışma sayfası oluşturma.
+1. Örnek veri eklemek.
+1. ÜrünlerGrafik'e referans vermek.
+1. Pasta grafiği eklemek, veri aralığını tanımlamak ve grafik başlığını eklemek.
+1. Elektronik tabloyu kaydetmek.
+   Bu makaledeki kod örnekleri, C# kullanarak VSTO ile bir pasta grafiği eklemenin Aspose.Cells kullanarak bir pasta grafiği oluşturmakla karşılaştırılmasını göstermektedir.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void PieChart()
 
@@ -89,7 +90,7 @@ workbook.SaveCopyAs("OutputVsto.xlsx");
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void PieChart()
 
@@ -159,7 +160,7 @@ workbook.SaveCopyAs("OutputVsto.xlsx");
 
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create.a.Pie.Chart.Aspose.Cells.zip)
-- [kaynak forge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip/indir)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip)

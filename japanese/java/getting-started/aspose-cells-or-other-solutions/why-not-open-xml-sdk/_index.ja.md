@@ -1,37 +1,41 @@
-﻿---
-title: XML SDK を開かない理由
+---
+title: なぜ Open XML SDK を使用しないのか
 type: docs
 weight: 20
 url: /ja/java/why-not-open-xml-sdk/
 ---
+
 {{% alert color="primary" %}} 
 
-この質問を時々耳にします。
+このような質問を時々耳にします:
 
-**無料の Open XML SDK ではなく、Aspose 製品を使用する必要があるのはなぜですか?**
+**無料の Open XML SDK ではなく、なぜ Aspose 製品を使用するべきなのか**
 
-この質問は簡単に答えられます:**特徴と機能**.
+この質問は簡単に答えられます：**機能と機能**。
 
 {{% /alert %}} 
-## **Open XML SDK とは?**
-MSDN ライブラリによると、Open XML SDK は次のように定義されています。 Open XML SDK 2.0 は、開発者が Open XML パッケージで実行する多くの一般的なタスクをカプセル化しているため、数行のコードで複雑な操作を実行できます。OOXML ドキュメントは基本的に圧縮された XML ファイルであり、Open XML SDK は、厳密に型指定された方法で OOXML ドキュメントのコンテンツを操作する必要があります。ファイルを解凍して XML を抽出し、その XML を DOM ツリーにロードして、XML 要素と属性を直接操作する代わりに、Open XML SDK はそれを行うためのクラスを提供します。
-## ** Aspose.Cellsとは？**
-Aspose.Cells は、アプリケーションが次のスプレッドシート処理タスクを実行できるようにするクラス ライブラリです: PDF、HTML、TIFF への変換および印刷を含む、すべての一般的な Excel 形式間の高品質変換。ブック オブジェクト モデルを使用したプログラミング。 1 つまたは複数のドキュメントの断片からドキュメントを作成する機能。同時に、文体の書式設定、チャート、およびグラフィックスによってデータを自動的にマージします。 Array、ArrayList、DataTable / ResultSet などのさまざまなデータ ソースからデータをインポートするなどの高レベル関数。標準および高度な Microsoft Excel 関数のほぼすべてをサポートする堅牢な数式計算エンジン。
+## **Open XML SDKとは何ですか？**
+MSDNライブラリによると、Open XML SDKは次のように定義されています：Open XML SDK 2.0は、Open XMLパッケージおよびパッケージ内の基本的なOpen XMLスキーマ要素を操作するタスクを簡素化します。Open XML SDK 2.0は、開発者がOpen XMLパッケージで実行する一般的なタスクをカプセル化しており、わずか数行のコードで複雑な操作を実行できるようにしています。OOXMLドキュメントは基本的には圧縮されたXMLファイルであり、Open XML SDKは、OOXMLドキュメントの内容を強力に型付けされた方法で操作できるようにするクラスのコレクションです。これにより、ファイルを解凍してXMLを抽出し、そのXMLをDOMツリーにロードしてXML要素や属性を直接操作する代わりに、Open XML SDKはそれを行うためのクラスを提供します。
+## **Aspose.Cellsとは何ですか？**
+Aspose.Cellsは、アプリケーションが次のスプレッドシート処理タスクを実行できるクラスライブラリです：すべての主要なExcel形式間の高品質の変換、PDF、HTML、TIFFへの変換および印刷。ブックモデルを使用したプログラミング。断片からドキュメントの構築、一つまたは複数のドキュメントから、自動的にデータをマージし、スタイル付けされた書式、チャート、グラフィックを組み合わせる機能。Array、ArrayList、DataTable / ResultSetなど、さまざまなデータソースからデータのインポート機能。ほぼすべての標準および高度なMicrosoft Excel関数をサポートする堅牢な式計算エンジン。
 
 {{% alert color="primary" %}}
-## ** Open XML SDK と Aspose.Cells を比較**
-次の表では、Open XML SDK と Aspose.Cells の機能を比較しています。{{% /alert %}}
+## **Open XML SDKとAspose.Cellsを比較する**
+次の表はOpen XML SDKとAspose.Cellsの機能を比較しています。{{% /alert %}}
 
-|**機能または機能カテゴリ**|**XML SDK を開く**|**Aspose.Cells**|
-|:- |:- |:- |
-|サポートされている Excel またはその他の形式|XLSX|XLS, CSV, SpreadsheetML 2003, XLSX, HTML, タブ区切り, ODS, プレーンテキスト (TXT), PDF, XPS|
-|Excel 形式間の変換|いいえ|はい|
-|<p>ブック オブジェクト モデルを使用した高度なプログラミング:</p><p>- 検索して置換します。</p><p>- スプレッドシートを組み立てます。</p><p>- ワークブック間でフラグメントとワークシートをコピーします。</p>|いいえ|はい|
-|ドキュメント オブジェクト モデルを使用した詳細なプログラミング、個々の要素へのアクセス、およびすべてのスプレッドシート要素の書式設定プロパティ。|はい|はい|
-|関連識別子、OOXML ドキュメントのリスト識別子など、基礎となる XML 要素および属性への低レベルの直接かつ完全なアクセス。|はい|いいえ|
-|<p>レポートを生成し、ドキュメントにデータを入力します。</p><p>- データのインポート/エクスポート*データ表 /*結果セット。</p><p>- スマートマーカー機能。</p><p>- 行/列/範囲の挿入/削除。</p><p>- カスタム データ ソース。</p>|いいえ|はい|
-|<p>レンダリングと印刷:*ワークシート ページをラスター イメージにレンダリングします (TIFF、マルチページ TIFF、PNG、JPEG、BMP)。*スプレッドシート ページをベクター イメージにレンダリングします (EMF)。* グラフをイメージに変換します (TIFF、マルチページ TIFF、PNG、JPEG、BMP、EMF など)。</p><p>- イメージの解像度、品質、圧縮、およびその他のオプションを指定します。 </p><p>- .NET 印刷インフラストラクチャを使用してスプレッドシートを印刷します。このコンポーネントには、MS Excel の印刷プレビューに示されているように、ワークシートを印刷する組み込みの print メソッドがあります。</p>|いいえ|はい|
-|数式を動的に計算/再計算する|いいえ|はい|
-|サポートされているプラットフォーム|Windows, .NET|Windows、リナックス、Java、.NET、Mono|
+|**機能または機能カテゴリ**|**Open XML SDK**|**Aspose.Cells**|
+| :- | :- | :- |
+|サポートされる Excel またはその他のフォーマット|XLSX|XLS、CSV、SpreadsheetML 2003、XLSX、HTML、Tab Delimited、ODS、Plain Text (TXT)、PDF、XPS|
+|Excel フォーマット間の変換|いいえ|はい|
+|ワークブック オブジェクトモデルでの高レベルなプログラミング:
+- 検索および置換
+- スプレッドシートのアセンブリ
+- フラグメントやワークシートをワークブック間でコピー|いいえ|はい|
+|文書オブジェクトモデルでの詳細なプログラミング、すべてのスプレッドシート要素の個別の要素や書式設定プロパティへのアクセス。|はい|はい|
+|OOXML ドキュメントの関連識別子、リスト識別子などの基礎となる XML 要素や属性への低レベルで直接的なアクセス。|はい|いいえ|
+|<p>レポートを生成し、文書にデータを埋め込む:</p><p>- *DataTable /* ResultSet へのデータのインポート/エクスポート。</p><p>- スマートマーカー機能。</p><p>- 行/列/範囲の挿入/削除。</p><p>- カスタムデータソース。</p>|いいえ|はい|
+|<p>レンダリングと印刷:* ワークシートページをラスターイメージ（TIFF、マルチページTIFF、PNG、JPEG、BMP）にレンダリングします。* スプレッドシートページをベクターイメージ（EMF）にレンダリングします。* チャートをイメージ（TIFF、マルチページTIFF、PNG、JPEG、BMP、EMFなど）に変換します</p><p>- イメージの解像度、品質、圧縮などのオプションを指定します。</p><p>- .NETの印刷インフラストラクチャを使用してスプレッドシートを印刷します。コンポーネントにはワークシートを印刷するためのビルトインの印刷メソッドがあり、MS Excelの印刷プレビューに表示されるワークシートを印刷することができます。</p>|いいえ|はい|
+|数式を動的に計算/再計算する |いいえ |はい |
+| サポートされているプラットフォーム | Windows、.NET | Windows、Linux、Java、.NET、Mono |
 ## **結論**
-  {{% alert color="primary" %}}Open XML SDK と Aspose.Cells はまったく異なるニーズと対象ユーザーに対応しているため、直接競合することはありません。 Open XML SDK は、OOXML ドキュメントを操作するための厳密に型指定された方法を提供するクラス ライブラリです。 Aspose.Cells は、すべての Microsoft Excel およびその他のファイル形式を強力にサポートする、非常に便利なスプレッドシート処理ライブラリです。 XLSX 文書に対するかなり基本的なプログラミング操作だけを行う必要がある場合は、Open XML SDK が適している可能性があります。 Open XML SDK を使用すると、単純な XLSX ドキュメントの生成、コメント、ヘッダー/フッターの削除、画像の抽出などの単純なタスクを快適に実行できます。一部のタスクは Open XML SDK で実行できますが、Aspose.Cells では実行できません。たとえば、OOXML ドキュメントの XML 要素と属性に直接アクセスする必要がある場合は、Open XML SDK を使用する必要があります。次のタスクのいくつかのような複雑な操作をドキュメントに対して実行する場合は、Aspose.Cells を使用するのが最適なオプションです: XLSX に加えて、他のファイル形式をサポートします。ワークブック間でフラグメントとワークシートをコピーするか、オブジェクト、スタイルなどを組み合わせた方法でワークブックを結合します。適切な方法でフォーマットします。書式付きまたは書式なしのテキストを置き換えます。 Array、ArrayList、DataTable / ResultSet などのさまざまなデータ ソースからデータをインポートするなどの高レベル関数。データ ソースから注文の詳細を含む注文などのビジネス ドキュメントを生成します。ドキュメントを PDF または XPS に変換すると、Excel で変換された Microsoft とまったく同じように表示されます。 .NET または Java アプリケーションを開発します。{{% /alert %}}
+  {{% alert color="primary" %}}Open XML SDK and Aspose.Cells do not compete head to head because they address quite different needs and audiences. Open XML SDK is a class library to provide a strong-typed way to work with OOXML documents. Aspose.Cells is a very useful spreadsheet processing library that provides great support for all Microsoft Excel and other file formats. If all you need to do is a fairly basic programming operation on a XLSX document, then Open XML SDK might be a suitable choice. With Open XML SDK you will be fairly comfortable doing simple tasks like generating a simple XLSX document or removing comments, headers/footers, extracting images or others. Some tasks can be achieved with Open XML SDK, but cannot be achieved with Aspose.Cells. For example, if you need to directly access the XML elements and attributes of an OOXML document, then you should use Open XML SDK.However, if you need to perform complex operations on documents, such as some of the following tasks, then using Aspose.Cells is your best option: Support other file formats in addition to XLSX. Copy fragments and worksheets between workbooks or join workbooks in a way that combines objects, styles and other formatting in an appropriate manner. Replace formatted or unformatted text. High-level functions, such as, import data from different data sources including Array, ArrayList, DataTable / ResultSet. Generate a business document, such as an order with order details from a data source. Convert a document to PDF or XPS so it appears exactly like Microsoft Excel would have converted it. Develop a .NET or Java application. {{% /alert %}}

@@ -1,25 +1,26 @@
 ---
-title: 生成されるページ数を制限する - Excel から PDF への変換
+title: 生成されるページ数を制限  Excel を PDF に変換
 type: docs
 weight: 180
 url: /ja/python-net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
-description: Excel のレンダリング中に生成されるページ数を Aspose.Cells for Python via .NET API で PDF に制限する方法について説明します。
-keywords: Python Limit the Number of Pages Generated while Rendering Excel to PDF, Limit the Number of Pages Generated while saving Excel to PDF using Python, Python Set the Number of Pages Generated while converting Excel to PDF, Control the Number of Pages Generated for Excel to PDF in python
+description: Aspose.Cells for Python via .NET APIを使用してExcelをPDFに変換する際に、生成されるページの数を制限する方法を学びます。
+keywords: Pythonを使用してExcelをPDFに変換する際に生成されるページの数を制限し、生成されるページの数を制限してExcelをPDFに保存する方法を学びます。Pythonを使用してExcelをPDFに変換する際に生成されるページの数を制限し、PythonでExcelをPDFに変換する際に生成されるページの数を制限します。
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、ある範囲のページを出力 PDF ファイルに印刷したいことがあります。 Aspose.Cells for Python via .NET には、Excel スプレッドシートを PDF ファイル形式に変換するときに生成されるページ数に制限を設定する機能があります。
+時々、出力PDFファイルにページの範囲を印刷したい場合があります。Aspose.Cells for Python via .NETは、ExcelスプレッドシートをPDFファイル形式に変換する際に、生成されるページの数を制限する機能をサポートしています。
 
 {{% /alert %}}
 
-##  **生成されるページ数の制限**
+## **生成されるページ数の制限**
 
-次の例は、Microsoft Excel ファイル内のページ範囲 (3 と 4) を PDF にレンダリングする方法を示しています。
+次の例では、Microsoft Excelファイルのページ3と4をPDFにレンダリングする方法が示されています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-LimitNumberOfPagesGenerated-1.py" >}}
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、次のように呼び出すのが最善です。[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)これにより、式に依存する値が再計算され、正しい値が出力ファイルにレンダリングされます。
+スプレッドシートに式が含まれている場合、PDFにレンダリングする前に[Workbook.calculate_formula]（https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#）メソッドを呼び出すことが最善です。これにより、式に依存する値が再計算され、正しい値が出力ファイルにレンダリングされます。
 
 {{% /alert %}}

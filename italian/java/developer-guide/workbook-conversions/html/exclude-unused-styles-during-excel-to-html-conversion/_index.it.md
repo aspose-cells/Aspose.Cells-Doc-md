@@ -1,19 +1,20 @@
-﻿---
-title: Escludi stili inutilizzati durante la conversione da Excel a HTML
+---
+title: Escludere Stili Non Utilizzati durante la conversione da Excel a HTML
 type: docs
 weight: 30
 url: /it/java/exclude-unused-styles-during-excel-to-html-conversion/
 ---
-## **Possibili scenari di utilizzo**
 
-Microsoft Il file Excel può contenere molti stili inutilizzati. Quando si esporta il file Excel nel formato HTML, vengono esportati anche questi stili inutilizzati. Ciò può aumentare la dimensione di HTML. È possibile escludere gli stili inutilizzati durante la conversione del file Excel in HTML utilizzando il[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExcludeUnusedStyles)proprietà. Quando lo imposti**VERO**, tutti gli stili inutilizzati sono esclusi dall'output HTML. Lo screenshot seguente mostra uno stile inutilizzato di esempio all'interno dell'output HTML.
+## **Possibili Scenari di Utilizzo**
 
-![cose da fare:immagine_alt_testo](exclude-unused-styles-during-excel-to-html-conversion_1.png)
+Il file di Microsoft Excel può contenere molti stili non utilizzati. Quando esporti il file Excel in formato HTML, questi stili non utilizzati vengono esportati. Questo può aumentare le dimensioni dell'HTML. Puoi escludere gli stili non utilizzati durante la conversione del file Excel in HTML utilizzando la proprietà [**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExcludeUnusedStyles) . Quando la imposti su **true**, tutti gli stili non utilizzati vengono esclusi dall'HTML di output. La seguente schermata mostra un esempio di stile non utilizzato all'interno dell'HTML di output.
 
-## **Escludi stili inutilizzati durante la conversione da Excel a HTML**
+![todo:image_alt_text](exclude-unused-styles-during-excel-to-html-conversion_1.png)
 
-Il codice di esempio seguente crea una cartella di lavoro e crea anche uno stile denominato inutilizzato. Dal momento che il[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExcludeUnusedStyles)è impostato per**VERO**, quindi questo stile con nome inutilizzato non verrà esportato in[uscita HTML](61767781.zip). Ma se lo imposti**falso**, allora questo stile inutilizzato sarà presente all'interno dell'output HTML che puoi quindi vedere nel markup HTML come mostrato nello screenshot sopra.
+## **Escludere Stili Non Utilizzati durante la conversione da Excel a HTML**
 
-## **Codice d'esempio**
+Il seguente codice di esempio crea un workbook e crea anche uno stile denominato non utilizzato. Poiché [**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExcludeUnusedStyles) è impostato su **true**, questo stile non utilizzato non verrà esportato su [output HTML](61767781.zip). Ma se lo imposti su **false**, allora questo stile non utilizzato sarà presente all'interno dell'HTML di output che potrai poi vedere nel markup HTML come mostrato nella schermata sopra.
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExcludeUnusedStylesInExcelToHTML.java" >}}

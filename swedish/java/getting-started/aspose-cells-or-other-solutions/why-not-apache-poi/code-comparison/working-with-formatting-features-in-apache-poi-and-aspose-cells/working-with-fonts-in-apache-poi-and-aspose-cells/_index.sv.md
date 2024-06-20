@@ -1,15 +1,16 @@
-﻿---
+---
 title: Arbeta med teckensnitt i Apache POI och Aspose.Cells
 type: docs
 weight: 30
 url: /sv/java/working-with-fonts-in-apache-poi-and-aspose-cells/
 ---
+
 ## **Aspose.Cells - Arbeta med teckensnitt**
-Aspose.Cells tillhandahåller en klass,[Arbetsbok](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)som representerar en Microsoft Excel-fil. Klassen Workbook innehåller en WorksheetCollection som ger åtkomst till varje kalkylblad i en Excel-fil. Ett arbetsblad representeras av[Arbetsblad](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)klass. Kalkylbladsklassen tillhandahåller en Cells-samling. Varje föremål i Cells-samlingen representerar ett objekt av[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)klass.
+Aspose.Cells tillhandahåller en klass, [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) som representerar en Microsoft Excel-fil. Klassen Workbook innehåller en WorksheetCollection som tillåter åtkomst till varje kalkylblad i en Excel-fil. Ett kalkylblad representeras av klassen [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet). Worksheet-klassen tillhandahåller en Cells-samling. Varje objekt i Cells-samlingen representerar ett objekt av klassen [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell).
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Adding some value to cell
 
@@ -41,11 +42,11 @@ cell.setStyle(style);
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - Arbeta med teckensnitt**
-Apache POI SS tillhandahåller teckensnittsklass för att ställa in olika teckensnittsinställningar.
+Apache POI SS erbjuder Font-klassen för att ställa in olika teckensnittsinställningar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Create a new font and alter it.
 
@@ -74,13 +75,13 @@ cell.setCellValue("This is a test of fonts");
 cell.setCellStyle(style);
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/fonts)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Hantera teckensnittsinställningar](http://docs.aspose.com:8082/docs/display/cellsjava/Dealing+with+Font+Settings).
+För mer information, besök [Hantera teckensnittsinställningar](http://docs.aspose.com:8082/docs/display/cellsjava/Dealing+with+Font+Settings).
 
 {{% /alert %}}

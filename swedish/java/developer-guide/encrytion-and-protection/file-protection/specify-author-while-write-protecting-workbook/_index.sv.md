@@ -1,16 +1,17 @@
-﻿---
-title: Ange författare medan skrivskyddande arbetsbok
+---
+title: Ange författare vid skrivskydd av arbetsbok
 type: docs
 weight: 110
 url: /sv/java/specify-author-while-write-protecting-workbook/
 ---
-## **Möjliga användningsscenarier**
 
-Du kan ange författarens namn samtidigt som du skrivskyddar din arbetsbok med Aspose.Cells API. Vänligen använd[**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#Author)egendom för detta ändamål.
+## **Möjliga användningsscenario**
 
-## **Ange författare medan skrivskyddande arbetsbok**
+Du kan ange författarnamn vid skrivskydd av din arbetsbok med Aspose.Cells API. Använd egenskapen [**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#Author) för detta ändamål.
 
-Följande exempelkod förklarar användningen av[**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#Author)fast egendom. Koden skapar en tom arbetsbok, skrivskyddar den med ett lösenord, anger författarens namn och sparar den som en[utdata Excel-fil](67338593.xlsx). Följande skärmdump illustrerar effekten av exempelkoden på utdata Excel-filen för din referens.
+## **Ange författare vid skrivskydd av arbetsbok**
+
+Följande kodexempel förklarar användningen av [**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#Author)-egenskapen. Koden skapar en tom arbetsbok, skrivskyddar den med ett lösenord, specificerar författarens namn och sparar den som en [utmatnings-excelfil](67338593.xlsx). Skärmbilden nedan illustrerar effekten av kodexemplet på utmatnings-excelfilen som referens.
 
 ![todo:image_alt_text](specify-author-while-write-protecting-workbook_1.png)
 

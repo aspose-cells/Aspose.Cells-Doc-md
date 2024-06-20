@@ -1,33 +1,34 @@
-﻿---
-title: GridWeb'de daha iyi performans elde etmek için stilleri yok sayın
+---
+title: Daha İyi Performans İçin Stilleri Yoksay GridWeb
 type: docs
 weight: 1060
 url: /tr/net/aspose-cells-gridweb/ignorestylewithnodata
-description: Bu makalede, Aspose.Cells.GridWeb kitaplığı için daha iyi performans elde etmek üzere IgnoreStyleWithNoData'nın nasıl kullanılacağı açıklanmaktadır.
-keywords: performance
+description: Bu makale, daha iyi performans elde etmek için GridWeb de IgnoreStyleWithNoData nın nasıl kullanılacağını açıklar.
+keywords: GridWeb,performance
 ---
+
 ## **Olası Kullanım Senaryoları**
- Lütfen kullan[GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata)çalışma kitabından daha az gerekli satır/sütun yükleme özelliği.
- 
-## **Çalışma Kitabını Yüklerken Daha İyi Performans Elde Edin**
- lütfen kontrol ediniz[örnek excel dosyası](largerowswithstyle.xlsx) 
+[GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata) özelliğini kullanarak çalışma kitabından gerekli olan daha az satır/sütun yüklemek için lütfen.
 
-IgnoreStyleWithNoData = true olarak ayarlandığında;
+## **Çalışma Kitabı Yüklenirken Daha İyi Performans Elde Edin**
+Lütfen [örnek excel dosyasını](largerowswithstyle.xlsx) kontrol edin 
 
-Görüldüğü gibi 15'e kadar olan satırları ve L'ye kadar olan sütunları gösterir, Hücrelerde veri olmayan son sürekli satır ve sütunları göstermez.Böylece yükleme süresi kısalır.
+IgnoreStyleWithNoData = true; olarak ayarlandığında
 
-![yoksay stiliyle çalışma kitabı](ignorestyletrue.png)
+Görebileceğiniz gibi, satırlar (15'e kadar) ve sütunlar (L'ye kadar) gösterilir, hücresiz son sürekli satırları ve sütunları göstermeyecektir. Bu nedenle yükleme süresi daha kısa olacaktır.
+
+![ignore stil ile çalışma kitabı](ignorestyletrue.png)
 
 
-IgnoreStyleWithNoData = false olarak ayarlandığında;(varsayılan değer false'tur)
+IgnoreStyleWithNoData = false olarak ayarlandığında;(varsayılan değer false'dur)
 
-Gördüğünüz gibi, çok daha fazla satır (500'e kadar) ve sütunlar (CZ'ye kadar) gösterir.
+Görebileceğiniz gibi, 500 sıra ve CZ sütuna kadar çok daha fazla satır ve sütun gösteriyor
 
-16. satırdan 500. satıra kadar bazı hücreler boder stilini ayarladı, ancak hücreler veri içermiyor.
+16. satırdan 500. satıra kadar, bazı hücrelerin kenarlık stili ayarlanmış ancak hücreler veri içermiyor
 
-M sütunundan CZ sütununa kadar bazı hücreler boder stilini ayarladı, ancak hücreler veri içermiyor.
+M sütunundan CZ sütununa kadar, bazı hücrelerin kenarlık stili ayarlanmış ancak hücreler veri içermiyor
 
-![yoksayma stili olmadan çalışma kitabı](ignorestylefalse.png)
- 
- 
- 
+![ignorestylefalse.png](ignorestylefalse.png)
+
+
+

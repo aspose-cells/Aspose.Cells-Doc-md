@@ -1,25 +1,26 @@
-﻿---
+---
 title: Evaluar Aspose.Cells
 type: docs
 weight: 50
 url: /es/jasperreports/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Puede descargar fácilmente Aspose.Cells for JasperReports para su evaluación desde el[página de descarga](https://downloads.aspose.com/cells/jasperreports) . La descarga de evaluación es la misma que la descarga comprada. La versión de evaluación simplemente obtiene la licencia después de[aplicar una licencia](/cells/es/jasperreports/licensing/).
+Puede descargar fácilmente Aspose.Cells for JasperReports para evaluación desde la [página de descargas](https://downloads.aspose.com/cells/jasperreports). La descarga de evaluación es igual a la descarga comprada. La versión de evaluación simplemente se convierte en licenciada después de [aplicar una licencia](/cells/es/jasperreports/licensing/).
 
 {{% /alert %}}
 
-Sin embargo, la versión de evaluación de Aspose.Cells for JasperReports (sin una licencia especificada) proporciona funcionalidad del producto hasta cierto punto no completa. Una limitación es que siempre inyecta una hoja de trabajo adicional con una marca de agua de evaluación al abrir/guardar cualquier documento de hoja de cálculo.
+La versión de evaluación de Aspose.Cells for JasperReports (sin una licencia especificada) proporciona funcionalidad del producto hasta cierto punto, aunque no completa. Una limitación es que siempre inserta una hoja de cálculo adicional con una marca de agua de evaluación al abrir/guardar cualquier documento de hoja de cálculo.
 
-![todo:imagen_alternativa_texto](evaluate-aspose-cells_1.png)
+![todo:image_alt_text](evaluate-aspose-cells_1.png)
 
 **Figura:** Hoja de cálculo de demostración creada por el componente Aspose.Cells
 
-Inyectará una hoja de trabajo de marca de agua de evaluación adicional en el libro de trabajo.
+Inyectará una hoja de cálculo adicional con marca de agua de evaluación en el libro de trabajo.
 
-![todo:imagen_alternativa_texto](evaluate-aspose-cells_2.png)
+![todo:image_alt_text](evaluate-aspose-cells_2.png)
 
-**Figura:** Advertencia de evaluación: una hoja de trabajo adicional
+**Figura:** Advertencia de Evaluación - Una Hoja de Cálculo Adicional
 
- Si desea probar Aspose.Cells for JasperReports sin limitaciones de la versión de evaluación, puede[solicitar una licencia temporal de 30 días](https://purchase.aspose.com/temporary-license).
+Si desea probar Aspose.Cells for JasperReports sin las limitaciones de la versión de evaluación, puede [solicitar una licencia temporal de 30 días](https://purchase.aspose.com/temporary-license).

@@ -1,79 +1,80 @@
-﻿---
+---
 title: Veri Sıralama
 type: docs
 weight: 90
 url: /tr/java/sort-data-of-excel/
 ---
+
 {{% alert color="primary" %}}
 
-Veri sıralama, Microsoft Excel'in birçok kullanışlı özelliğinden biridir. Kullanıcıların taramayı kolaylaştırmak için verileri sıralamasına olanak tanır.
+Veri sıralama, Microsoft Excel'in birçok kullanışlı özelliğinden biridir. Kullanıcılara verileri tararken kolaylaştırmak adına verileri düzenleme imkanı sağlar.
 
-Aspose.Cells, çalışma sayfası verilerini alfabetik veya sayısal olarak sıralamanızı sağlar. Microsoft Excel'in verileri sıralamak için yaptığı gibi çalışır.
+Aspose.Cells, çalışma sayfası verilerini alfabetik veya sayısal olarak sıralamanıza olanak tanır. Verileri sıralarken Microsoft Excel'in aynı şekilde çalışır.
 
 {{% /alert %}}
 
-## **Microsoft Excel'de Verileri Sıralama**
+## **Microsoft Excel'de Veri Sıralama**
 
-Microsoft Excel'de verileri sıralamak için:
+Microsoft Excel'de veri sıralamak için:
 
-1.  Seçme**Veri** dan**Çeşit** Menü.
- Sırala iletişim kutusu görüntülenir.
-1. Bir sıralama seçeneği belirleyin.
+1. **Sırala** menüsünden **Veri**'yi seçin.
+   Sıralama ile genellikle bir liste üzerinde gerçekleştirilir - verilerin sütunlarda görüntülendiği bitişik bir veri grubu olarak tanımlandı.
+1. Sıralama seçeneğini seçin.
 
-Genel olarak sıralama, verilerin sütunlarda görüntülendiği bitişik bir veri grubu olarak tanımlanan bir liste üzerinde gerçekleştirilir.
+Genellikle, sıralama bir liste üzerinde yapılır - verilerin sütunlarda gösterildiği, verilerin bağlantılı bir grup olduğu.
 
-**Microsoft Excel'deki Sırala iletişim kutusu**
+Microsoft Excel'de **Sırala** iletişim kutusu
 
-![yapılacaklar:resim_alternatif_metin](data-sorting_1.png)
+![todo:image_alt_text](data-sorting_1.png)
 
-## **Aspose.Cells ile Verileri Sıralama**
+## **Aspose.Cells ile Veri Sıralama**
 
- Aspose.Cells şunları sağlar:[**Veri Sıralayıcı**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) verileri artan veya azalan düzende sıralamak için kullanılan sınıf. Sınıfın bazı önemli üyeleri vardır, örneğin, aşağıdakiler gibi yöntemler:[**setKey1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key1) ... [**setKey2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key2) ve[**setOrder1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order1) ... [**setOrder2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order2)Bu üyeler, sıralanmış anahtarları tanımlamak ve anahtar sıralama düzenini belirtmek için kullanılır.
+Aspose.Cells, verileri artan veya azalan sırada sıralamak için kullanılan [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) sınıfını sağlar. Sınıf bazı önemli üyeler, örneğin [**setKey1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key1) methodları gibi, [**setKey2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key2) ve [**setOrder1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order1) gibi. Bu üyeler sıralı anahtarları tanımlamak ve anahtar sıralama sırasını belirtmek için kullanılır.
 
- Veri sıralamayı uygulamadan önce anahtarları tanımlamanız ve sıralama düzenini ayarlamanız gerekir. sınıf sağlar[**çeşit**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) bir çalışma sayfasındaki hücre verilerine göre veri sıralama yapmak için kullanılan yöntem.
+Veri sıralaması gerçekleştirmeden önce anahtarları tanımlamalı ve sıralama düzenini belirlemelisiniz. Sınıf, çalışsayadaki hücre verilerine dayalı veri sıralamasını gerçekleştirmek için kullanılan [**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort--) yöntemini sağlar.
 
- bu[**çeşit**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) yöntemi aşağıdaki parametreleri kabul eder:
+[**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort--) yöntemi aşağıdaki parametreleri kabul eder:
 
 - [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), çalışma sayfasının hücreleri.
-- [**hücre alanı**](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea), hücre aralığı. Veri sıralamayı uygulamadan önce hücre alanını tanımlayın.
+- [**CellArea**](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea), hücre aralığı. Veri sıralaması uygulamadan önce hücre alanını tanımlayın.
 
-Bu örnek, Aspose.Cells API kullanılarak verilerin nasıl sıralanacağını gösterir. Örnek, "Book1.xls" şablon dosyasını kullanır ve ilk çalışma sayfasındaki veri aralığı (A1:B14) için verileri sıralar:
+Bu örnek, Aspose.Cells API'sını kullanarak veri sıralamayı nasıl gerçekleştireceğinizi gösterir. Örnek, ilk çalışma sayfasındaki (A1:B14) veri aralığı için "Book1.xls" örnek dosyasını kullanır:
 
-Bu örnek, Microsoft Excel'de oluşturulan "Book1.xls" şablon dosyasını kullanır.
+Bu örnek, Microsoft Excel'de oluşturulan "Book1.xls" adlı şablon dosyasını kullanır.
 
-**Verilerle birlikte şablon Excel dosyası**
+**Veri ekranını içeren Excel şablonu tamamlandı**
 
-![yapılacaklar:resim_alternatif_metin](data-sorting_2.png)
+![todo:image_alt_text](data-sorting_2.png)
 
-Aşağıdaki kodu çalıştırdıktan sonra, çıktı Excel dosyasından da görebileceğiniz gibi veriler uygun şekilde sıralanır.
+Aşağıdaki kodu uyguladıktan sonra veriler uygun şekilde sıralanır ve çıktı Excel dosyasından görebilirsiniz.
 
-**Verileri sıraladıktan sonra çıktı Excel dosyası**
+**Veri sıralama sonrası çıktı Excel dosyası**
 
-![yapılacaklar:resim_alternatif_metin](data-sorting_3.png)
+![todo:image_alt_text](data-sorting_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-DataSorting-DataSorting.java" >}}
 
 {{% alert color="primary" %}}
 
- Sıralamak*Soldan sağa* , kullan[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortLeftToRight) bağlanmak.
+Sıralamak için *Soldan Sağa* sıralama özelliğini kullanın.
 
 {{% /alert %}}
 
-## **Verileri arka plan rengiyle sıralama**
+## **Arka plan rengine göre veri sıralama**
 
- Excel, verileri arka plan rengine göre sıralama özelliği sağlar. Aynı özellik Aspose.Cells kullanılarak sağlanır.[**Veri Sıralayıcı**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) nerede[**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) kullanılabilir[**anahtar ekle()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int) ) arka plan rengine göre verileri sıralamak için. Belirtilen rengi içeren tüm hücreler[**anahtar ekle()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)), işlev Sıralama Düzeni ayarına göre üste veya alta yerleştirilir ve geri kalan hücrelerin sırası hiç değişmez.
+Excel, arka plan rengine göre veri sıralamak için özellik sağlar. Aynı özellik Aspose.Cells kullanılarak [**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) içerisinde [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) kullanılarak sağlanır ve tüm hücrelerde belirtilen renkte olan hücreler Sıralama Ayarı'na ve geri kalan hücrelerin sıralama sırasına göre altta veya üstte yer alır ve geri kalan hücrelerin sıralaması hiç değişmez.
 
-Bu özelliği test etmek için indirilebilecek örnek dosyalar aşağıdadır:
+Bu özelliği test etmek için indirilebilecek örnek dosyalar aşağıda sunulmuştur:
 
 [sampleBackGroundFile.xlsx](sampleBackGroundFile.xlsx)
 
 [outputsampleBackGroundFile.xlsx](outputsampleBackGroundFile.xlsx)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-ExportPrintAreaToHtml-1.java" >}}
 
-## **ileri konular**
-- [Özel Sıralama Listesi ile Verileri Sütunda Sırala](/cells/tr/java/sort-data-in-column-with-custom-sort-list/)
-- [Verileri Sıralarken Sıralama Uyarısı Belirtme](/cells/tr/java/specifying-sort-warning-while-sorting-data/)
+## **Gelişmiş Konular**
+- [Özel Sıralama Listesi ile Sütunda Verileri Sıralama](/cells/tr/java/sort-data-in-column-with-custom-sort-list/)
+- [Veri Sıralama Sırasında Uyarıyı Belirtme](/cells/tr/java/specifying-sort-warning-while-sorting-data/)
 

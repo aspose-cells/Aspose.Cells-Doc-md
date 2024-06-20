@@ -1,38 +1,39 @@
-﻿---
-title: Genel API Aspose.Cells 16.10.0'daki değişiklikler
+---
+title: Aspose.Cells 16.10.0 daki Genel API Değişiklikleri
 type: docs
 weight: 340
 url: /tr/net/public-api-changes-in-aspose-cells-16-10-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek Aspose.Cells API sürüm 9.0.0'dan 16.10.0'a yapılan değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, geliştiricilerin ilgisini çekebilecek Aspose.Cells API'sindeki değişiklikleri 9.0.0'dan 16.10.0'a kadar açıklamaktadır. Yeni ve güncellenmiş genel yöntemler, eklenen ve kaldırılan sınıflar vb. ve Aspose.Cells'in arkasındaki davranışta herhangi bir değişiklik açıklanmaktadır.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Yansıma Efektleri Desteği**
-Aspose.Cells 16.10.0, bir Shape nesnesinin yansıma etkilerini kontrol etmek için ReflectionEffect sınıfını Shape.Reflection özelliğiyle birlikte kullanıma sundu. ReflectionEffect sınıfı aşağıdaki özelliklere sahiptir.
+## **Eklenen API'lar**
+### **Yansıma Efektleri için Destek**
+Aspose.Cells 16.10.0, bir Şekil nesnesinin yansıma efektlerini kontrol etmek için Shape.Reflection özelliği ile birlikte ReflectionEffect sınıfını ortaya çıkardı. ReflectionEffect sınıfının aşağıdaki özellikleri bulunmaktadır.
 
 - ReflectionEffect.Blur: Nokta birimi cinsinden bulanıklık yarıçapını alır/ayarlar.
-- ReflectionEffect.Direction: Şeklin kendisine göre alfa gradyan rampasının yönünü alır/ayarlar.
-- ReflectionEffect.Distance: Nokta birimi cinsinden yansımanın uzaklığını alır/ayarlar.
-- ReflectionEffect.FadeDirection: Yansımayı dengelemek için yönü alır/ayarlar.
-- ReflectionEffect.RotWithShape: Yansımanın şekille birlikte dönmesi gerekip gerekmediğini alır/ayarlar.
-- ReflectionEffect.Size: Son alfa değerinin bitiş konumunu (alfa gradyan rampası boyunca) yüzde birimi cinsinden alır/ayarlar.
-- ReflectionEffect.Transparency: Başlangıç yansıma şeffaflığının derecesini 0,0 (opak) ile 1,0 (berrak) arasında bir değer olarak alır/ayarlar.
-- ReflectionEffect.Type: Ön ayarlı yansıma efektini alır/ayarlar.
+- ReflectionEffect.Direction: Alfa gradyan basamağının şekle göre yönünü alır/ayarlar.
+- ReflectionEffect.Distance: Nokta birimi cinsinden yansımanın mesafesini alır/ayarlar.
+- ReflectionEffect.FadeDirection: Yansımayı ofsetlemek için yönü alır/ayarlar.
+- ReflectionEffect.RotWithShape: Yansıma şekille birlikte mi dönsün, alır/ayarlar.
+- ReflectionEffect.Size: Bitiş alfa değerinin (alfa gradyan rampasında) son pozisyonunu yüzde biriminde alır/ayarlar.
+- ReflectionEffect.Transparency: Başlangıç yansıma şeffaflığını 0.0 (opak) ile 1.0 (saydam) arasında bir değer olarak alır/ayarlar.
+- ReflectionEffect.Type: Önceden belirlenmiş yansıma efektini alır/ayarlar.
 
 İşte Shape.Reflection özelliğinin basit kullanım senaryosu.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Yansıma Efektleriyle Çalışmak](/cells/tr/net/working-with-the-reflection-effect-of-shape-or-chart/)
+[Yansıma Efektleri ile Çalışma](/cells/tr/net/working-with-the-reflection-effect-of-shape-or-chart/) başlıklı detaylı makaleye göz atın
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -69,28 +70,28 @@ book.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Gölge Efektleri Desteği**
-Aspose.Cells 16.10.0, Shape.ShadowEffect özelliğinin yanı sıra, bir Shape nesnesi üzerinde gölge efektinin ayarlanmasına izin veren ShadowEffect sınıfını kullanıma sundu. ShadowEffect sınıfı aşağıdaki özelliklere sahiptir.
+### **Gölgeli Efektlerin Desteklenmesi**
+Aspose.Cells 16.10.0, Shape.ShadowEffect özelliğini ve birlikte kullanılabilen ShadowEffect sınıfını ortaya çıkarmıştır. ShadowEffect sınıfının aşağıdaki özellikleri bulunmaktadır.
 
-- ShadowEffect.Angle: Aydınlatma açısını 0 ila 359,9 derece arasında alır/ayarlar.
-- ShadowEffect.Blur: Gölgenin bulanıklığını 0 ila 100 puan arasında alır ve ayarlar.
-- ShadowEffect.Color: Gölgenin rengini alır/ayarlar.
-- ShadowEffect.Distance: Gölgenin mesafesini 0 ila 200 puan arasında alır/ayarlar.
-- ShadowEffect.PresetType: Gölgenin ön ayarlı gölge türünü alır/ayarlar.
-- ShadowEffect.Size: Gölge boyutunu 0 ile 2.0 arasında alır/ayarlar. İç gölge durumunda anlamsız olacaktır.
-- ShadowEffect.Transparency: Gölgenin saydamlık derecesini 0,0 (opak) ila 1,0 (net) arasında alır/ayarlar.
+- ShadowEffect.Angle: Işık açısını 0 ile 359.9 derece arasında alır/ayarlar.
+- ShadowEffect.Blur: Gölgeliğin 0 ile 100 nokta aralığında bulanıklığını alır/ayarlar.
+- ShadowEffect.Color: Gölgeliğin rengini alır/ayarlar.
+- ShadowEffect.Distance: Gölgeliğin 0 ile 200 nokta aralığında mesafesini alır/ayarlar.
+- ShadowEffect.PresetType: Gölgeliğin önceden belirlenmiş gölge tipini alır/ayarlar.
+- ShadowEffect.Size: Gölgeliğin 0 ile 2.0 arasındaki boyutunu alır/ayarlar. İç gölge durumunda anlamsız olacaktır.
+- ShadowEffect.Transparency: Gölgeliğin saydamlığını 0.0 (opak) ile 1.0 (saydam) arasında bir derece olarak alır/ayarlar.
 
-İşte yukarıda belirtilen mülkün basit kullanım senaryosu.
+Yukarıdaki özelliğin basit kullanım senaryosu.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Gölge Efektleriyle Çalışmak](/cells/tr/net/working-with-the-shadow-effect-of-shape-or-chart/)
+[Gölge Efektleriyle Çalışma](/cells/tr/net/working-with-the-shadow-effect-of-shape-or-chart/) üzerine detaylı makaleye göz atın.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -129,23 +130,23 @@ book.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Işıma Efektleri Desteği**
-Aspose.Cells 16.10.0, Shape.Glow özelliğinin yanı sıra GlowEffect sınıfının hepsini birlikte bir Shape nesnesinin ışıma efektini ayarlamaya izin verir. GlowEffect sınıfı, aşağıdaki özellikleri kullanarak nesnenin kenarlarının dışına rengi bulanıklaştırılmış bir dış çizginin eklendiği bir parlama efektini belirtir.
+### **Parlama Efektleri Desteklenmesi**
+Aspose.Cells 16.10.0, Shape.Glow özelliğini ve birlikte kullanılabilen GlowEffect sınıfını ortaya çıkarmıştır. GlowEffect sınıfı, aşağıdaki özellikleri kullanarak bir ışıltı efekti belirtir.
 
-- GlowEffect.Size: Işıma yarıçapını nokta birimi cinsinden alır/ayarlar.
-- GlowEffect.Transparency: Işıma efektinin şeffaflık derecesini 0,0 (opak) ila 1,0 (berrak) arasında alır/ayarlar.
+- GlowEffect.Size: Işıltının nokta birimindeki yarıçapını alır/ayarlar.
+- GlowEffect.Transparency: Işıl ışıl efektinin saydamlığını 0.0 (opak) ile 1.0 (saydam) arasında bir derece olarak alır/ayarlar.
 
-İşte Shape.Glow özelliğinin basit kullanım senaryosu.
+Shape.Glow özelliğinin basit kullanım senaryosu burada.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Işıma Efekti ile Çalışma](/cells/tr/net/working-with-the-glow-effect-of-shape-or-chart/)
+[Parlama Efektiyle Çalışma](/cells/tr/net/working-with-the-glow-effect-of-shape-or-chart/) üzerine detaylı makaleye göz atın.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -178,41 +179,41 @@ book.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **3D Format Desteği**
-Aspose.Cells 16.10.0, Shape nesnesinin 3B biçimlendirmesini denetlemek için birlikte kullanılabilen ThreeDFormat sınıfıyla birlikte Shape.ThreeDFormat özelliğini kullanıma sundu. ThreeDFormat sınıfı, bir şeklin üç boyutlu biçimlendirmesini temsil eder ve aşağıdaki özelliklere sahiptir.
+### **3B Formatının Desteklenmesi**
+Aspose.Cells 16.10.0, Shape.ThreeDFormat özelliğini ve Shape nesnesinin 3B biçimlendirilmesini kontrol etmek için kullanılabilen ThreeDFormat sınıfını ortaya çıkarmıştır. ThreeDFormat sınıfı, bir şeklin üç boyutlu biçimlendirmesini temsil eder ve aşağıdaki özelliklere sahiptir.
 
-- ThreeDFormat.BottomBevelHeight: Alt eğimin yüksekliğini veya uygulandığı şeklin ne kadar içine kadar Nokta birimi cinsinden alır/ayarlar.
-- ThreeDFormat.BottomBevelType: Alt eğimin türünü veya uygulandığı şeklin ne kadar içine kadar Nokta birimi cinsinden alır/ayarlar.
-- ThreeDFormat.BottomBevelWidth: Alt eğimin genişliğini veya uygulanan şeklin ne kadar içine kadar Nokta birimi cinsinden alır/ayarlar.
-- ThreeDFormat.ContourColor: Bir şeklin kontur rengini alır/ayarlar.
-- ThreeDFormat.ContourWidth: Şekildeki kontur genişliğini Nokta birimi cinsinden alır/ayarlar.
-- ThreeDFormat.ExtrusionColor: Şekildeki ekstrüzyon rengini alır.
-- ThreeDFormat.ExtrusionHeight: Şekle uygulanan ekstrüzyon yüksekliğini Nokta birimi cinsinden alır/ayarlar.
-- ThreeDFormat.LightAngle: Ekstrüzyon ışıklarının açısını alır/ayarlar.
-- ThreeDFormat.Lighting: Hafif donanım türünü alır/ayarlar.
-- ThreeDFormat.LightingDirection: Sahneye göre ışık teçhizatının yönlendirildiği yönü alır/ayarlar.
-- ThreeDFormat.Material: Bir şeklin son görünümünü ve hissini vermek için aydınlatma özellikleriyle birleştirilen ön ayarlı malzemeyi temsil eder.
+- ThreeDFormat.BottomBevelHeight: Alt çıkıntı yüksekliği veya şekle uygulandığı mesafe biriminde Noktalar cinsinden alır/ayarlar.
+- ThreeDFormat.BottomBevelType: Alt çıkıntı tipini veya şekle uygulandığı mesafeyi Noktalar cinsinden alır/ayarlar.
+- ThreeDFormat.BottomBevelWidth: Alt çıkıntı genişliğini veya şekle uygulandığı mesafeyi Noktalar cinsinden alır/ayarlar.
+- ThreeDFormat.ContourColor: Şeklin kontur rengini alır/ayarlar.
+- ThreeDFormat.ContourWidth: Şekildeki kontur genişliğini Noktalar cinsinden alır/ayarlar.
+- ThreeDFormat.ExtrusionColor: Bir şekildeki kabartma rengini alır.
+- ThreeDFormat.ExtrusionHeight: Şekle uygulanan kabartma yüksekliğini Nokta biriminde alır/ayarlar.
+- ThreeDFormat.LightAngle: Kabartma ışıklarının açısını alır/ayarlar.
+- ThreeDFormat.Lighting: Işık takımının türünü alır/ayarlar.
+- ThreeDFormat.LightingDirection: Işık takımının sahneden oryantasyonuna göre yönlendirilme açısını alır/ayarlar.
+- ThreeDFormat.Material: Şeklin son görünümünü ve hissini vermek için ışık özellikleri ile birleştirilen önceden belirlenmiş malzemeyi temsil eder.
 - ThreeDFormat.Perspective: Bir ThreeDFormat nesnesinin görüntülenebileceği açıyı alır/ayarlar.
-- ThreeDFormat.PresetCameraType: Ekstrüzyon ön ayarlı kamerayı alır/ayarlar.
-- ThreeDFormat.RotationX: Ekstrüde şeklin X ekseni etrafındaki dönüşünü Derece birimi cinsinden alır/ayarlar.
-- ThreeDFormat.RotationY: Ekstrüde şeklin Y ekseni etrafındaki dönüşünü Derece birimi cinsinden alır/ayarlar.
-- ThreeDFormat.RotationZ: Ekstrüde şeklin Z ekseni etrafındaki dönüşünü Derece birimi cinsinden alır/ayarlar.
-- ThreeDFormat.TopBevelHeight: Üst eğimin yüksekliğini veya uygulandığı şeklin ne kadar içine kadar Nokta birimi cinsinden alır/ayarlar.
-- ThreeDFormat.TopBevelType: Üst eğimin türünü veya uygulandığı şeklin ne kadar içine kadar Nokta birimi cinsinden alır/ayarlar.
-- ThreeDFormat.TopBevelWidth: Üst eğimin genişliğini veya uygulanan şeklin ne kadar içine kadar Nokta birimi cinsinden alır/ayarlar.
-- ThreeDFormat.Z: 3B şekil için yerden olan mesafeyi tanımlar.
+- ThreeDFormat.PresetCameraType: Kabartma önceden belirlenmiş kamerasını alır/ayarlar.
+- ThreeDFormat.RotationX: X-ekseni etrafında çıkartılmış şeklin dönüşünü Derece biriminde alır/ayarlar.
+- ThreeDFormat.RotationY: Y-ekseni etrafında çıkartılmış şeklin dönüşünü Derece biriminde alır/ayarlar.
+- ThreeDFormat.RotationZ: Z-ekseni etrafında çıkartılmış şeklin dönüşünü Derece biriminde alır/ayarlar.
+- ThreeDFormat.TopBevelHeight: Üst yuvarlatma yüksekliğini veya şekle ne kadar uygulandığını Nokta biriminde alır/ayarlar.
+- ThreeDFormat.TopBevelType: Üst yuvarlatma türünü veya şekle ne kadar uygulandığını Nokta biriminde alır/ayarlar.
+- ThreeDFormat.TopBevelWidth: Üst yuvarlatma genişliğini veya şekle ne kadar uygulandığını Nokta biriminde alır/ayarlar.
+- ThreeDFormat.Z: 3 Boyutlu şeklin zeminden uzaklığını tanımlar.
 
-Shape.ThreeDFormat özelliğinin basit kullanım senaryosu aşağıdadır.
+Shape.ThreeDFormat özelliğinin basit kullanım senaryosu aşağıdaki gibidir.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[3B Biçimlendirme ile Çalışma](/cells/tr/net/working-with-the-threedformat-of-shape-or-chart/)
+[3B Biçimlendirme İle Çalışma](/cells/tr/net/working-with-the-threedformat-of-shape-or-chart/) başlıklı detaylı makaleyi kontrol edin
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -245,20 +246,20 @@ book.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Shape Metninde WordArt Stilleri Desteği**
-Aspose.Cells 16.10.0, önceden ayarlanmış WordArt stilini Shape nesnesinin metnine ayarlamak için FontSettingCollection.SetWordArtStyle & FontSetting.SetWordArtStyle yöntemlerini kullanıma sundu.
+### **Şekil Metninin WordArt Stilleri Desteği**
+Aspose.Cells 16.10.0, FontSettingCollection.SetWordArtStyle ve FontSetting.SetWordArtStyle yöntemlerini metnin Şekil nesnesine önceden belirlenmiş WordArt stilini ayarlamak için ortaya çıkardı.
 
-İşte yukarıda belirtilen yöntemlerin basit kullanım senaryosu.
+Yukarıda belirtilen yöntemlerin basit kullanım senaryosu aşağıda verilmiştir.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[WordArt Stilleriyle Çalışma](/cells/tr/net/set-preset-wordart-style-to-the-text-of-the-shape/)
+[WordArt Stilleri İle Çalışma](/cells/tr/net/set-preset-wordart-style-to-the-text-of-the-shape/) başlıklı detaylı makaleyi kontrol edin
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create workbook object
 
@@ -278,27 +279,27 @@ textBox.Font.Size = 44;
 
 // Set preset WordArt style to the text of the shape
 
-FontSetting fntSetting = textBox.GetCharacters()[0]as FontSetting;
+FontSetting fntSetting = textBox.GetCharacters()[0] as FontSetting;
 
 fntSetting.SetWordArtStyle(PresetWordArtStyle.WordArtStyle3);
 
 {{< /highlight >}}
 
 
-### **WordArt Yerleşik Stilleri için Destek**
-Aspose.Cells 16.10.0, Excel 2007'den beri önceden ayarlanmış WordArt nesneleri ekleme desteği sağlamak için ShapeCollection.AddWordArt yöntemini PresetWordArtStyle numaralandırmasıyla birlikte kullanıma sunmuştur.
+### **Dahili WordArt Stilleri Desteği**
+Aspose.Cells 16.10.0, Excel 2007'den bu yana önceden belirlenmiş WordArt nesneleri eklemek için ShapeCollection.AddWordArt yöntemini ve PresetWordArtStyle numaralandırmasını ortaya çıkardı.
 
-İşte ShapeCollection.AddWordArt yönteminin basit kullanım senaryosu.
+Yukarıdaki ShapeCollection.AddWordArt yönteminin basit kullanım senaryosu aşağıdaki gibidir.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Yerleşik Stillerle WordArt Ekleme](/cells/tr/net/add-word-art-text-with-built-in-styles/)
+[Yerleşik Stillerle WordArt Ekleme](/cells/tr/net/add-word-art-text-with-built-in-styles/) başlıklı detaylı makaleyi kontrol edin
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -332,17 +333,17 @@ book.Save("output.xlsx");
 
 
 ### **XmlMapCollection.Add Yöntemi Eklendi**
-Aspose.Cells, bir elektronik tabloya Xml Haritası eklemeye izin veren XmlMapCollection.Add yöntemini kullanıma sundu. İşte XmlMapCollection.Add yönteminin basit kullanım senaryosu.
+Aspose.Cells, bir elektronik tabloya XML Haritası eklemek için XmlMapCollection.Add yöntemini ortaya çıkardı. İşte XmlMapCollection.Add yönteminin basit kullanım senaryosu.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[E-tabloya XML Haritası Ekleme](/cells/tr/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
+[Elektronik Tabloya Xml Haritası Ekleme](/cells/tr/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/) başlıklı detaylı makaleyi kontrol edin
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -356,19 +357,19 @@ book.Worksheets.XmlMaps.Add("sample.xml");
 
 
 ### **Cells.LinkToXmlMap Yöntemi Eklendi**
-Aspose.Cells, hücreleri XML eşleme öğeleriyle bağlamak için Cells.LinkToXmlMap yöntemini kullanıma sundu.
+Aspose.Cells, hücreleri XML harita öğeleriyle bağlamak için Cells.LinkToXmlMap yöntemini sunmaktadır. Yukarıda bahsedilen Cells.LinkToXmlMap yönteminin basit kullanım senaryosu bulunmaktadır.
 
-İşte Cells.LinkToXmlMap yönteminin basit kullanım senaryosu.
+[Hücreleri XML Harita Öğelerine Bağlama](/cells/tr/net/link-cells-to-xml-map-elements/) başlıklı detaylı makaleyi kontrol edin
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Cells'i XML Eşleme Öğelerine Bağla](/cells/tr/net/link-cells-to-xml-map-elements/)
+[Hücreleri XML Harita Öğelerine Bağlama](/cells/tr/net/link-cells-to-xml-map-elements/) konusundaki detaylı makaleye göz atın.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet in an instance of Workbook
 
@@ -403,20 +404,20 @@ sheet.Cells.LinkToXmlMap(map.Name, 5, 5, "/root/row/FIELD8");
 {{< /highlight >}}
 
 
-### **ListColumn.Formula Özelliği Eklendi**
-Aspose.Cells 16.10.0, formülü yeni eklenen satırlara otomatik olarak yaymak için ListColumn.Formula özelliğini kullanıma sundu.
+### **Added ListColumn.Formula Özelliği**
+Aspose.Cells 16.10.0, ListColumn.Formula özelliğini yeni eklenen satırlara otomatik olarak yayınlamak için açığa çıkardı.
 
-İşte ListColumn.Formula özelliğinin basit kullanım senaryosu.
+ListColumn.Formula özelliğinin basit kullanım senaryosu burada.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Liste Nesnesinde Formülü Otomatik Olarak Yay](/cells/tr/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
+[Tablo veya Liste Nesnesinde Formülü Otomatik Yayınlama](/cells/tr/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/) konusundaki detaylı makaleye göz atın.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -442,7 +443,7 @@ listObject.DisplayName = "Table";
 
 // Set the formula of second column so that it could automatically propagate to new rows while entering data
 
-listObject.ListColumns[1].Formula = "=[Column A]+ 1";
+listObject.ListColumns[1].Formula = "=[Column A] + 1";
 
 // Save the result in XLSX format
 
@@ -451,20 +452,20 @@ book.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **GridWeb ile Özel İşlevleri Hesaplama Desteği**
-Aspose.Cells.GridWeb 16.10.0, GridWeb bileşeni içinden özel işlevleri tanımlamaya ve hesaplamaya hep birlikte izin veren GridAbstractCalculationEngine sınıfıyla birlikte GridWeb.CustomCalculationEngine özelliğini ortaya çıkardı.
+### **GridWeb ile Özel Fonksiyonlar Hesaplama Desteği**
+Aspose.Cells.GridWeb 16.10.0, GridAbstractCalculationEngine sınıfıyla birlikte özel fonksiyonları tanımlama ve hesaplama imkanı sağlayan GridWeb.CustomCalculationEngine özelliğini sunmaktadır. Yukarıda bahsedilen API'lerin basit kullanım senaryosu bulunmaktadır.
 
-İşte yukarıda bahsedilen API'lerin basit kullanım senaryosu.
+[GridWeb'de Özel Fonksiyonlar Hesaplama](/cells/tr/net/calculate-custom-functions-in-gridweb/) başlıklı detaylı makaleyi kontrol edin
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[GridWeb ile Özel İşlevleri Hesaplama](/cells/tr/net/calculate-custom-functions-in-gridweb/)
+[GridWeb'de Özel Fonksiyonları Hesaplama](/cells/tr/net/calculate-custom-functions-in-gridweb/) konusundaki detaylı makaleye göz atın.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private class GridWebCustomCalculationEngine : GridAbstractCalculationEngine
 

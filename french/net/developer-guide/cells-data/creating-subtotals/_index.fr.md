@@ -1,36 +1,37 @@
 ---
-title: Création de sous-totaux
+title: Création de sous totaux
 type: docs
 weight: 800
 url: /fr/net/creating-subtotals/
-description: Découvrez comment créer des sous-totaux pour toutes les valeurs répétitives dans une feuille de calcul en utilisant le Aspose.Cells for .NET API.
-keywords: Apply Subtotals, Set Subtotals, Add subtotals, Create Subtotals, How to add subtotals to a worksheet 
+description: Apprenez à créer des sous totaux pour toutes les valeurs répétées dans une feuille de calcul en utilisant l API Aspose.Cells for .NET.
+keywords: Appliquez des sous totaux, définissez des sous totaux, ajoutez des sous totaux, créez des sous totaux, comment ajouter des sous totaux à une feuille de calcul 
 ---
+
 {{% alert color="primary" %}}
 
-Vous pouvez créer automatiquement des sous-totaux pour toutes les valeurs répétitives dans une feuille de calcul. Aspose.Cells fournit des fonctionnalités API qui vous aident à ajouter des sous-totaux aux feuilles de calcul par programmation.
+Vous pouvez créer automatiquement des sous-totaux pour toutes les valeurs répétées dans une feuille de calcul. Aspose.Cells offre des fonctionnalités API qui vous aident à ajouter des sous-totaux aux feuilles de calcul de manière programmée.
 
 {{% /alert %}}
 
-##  **Utilisation d'Excel Microsoft**
+## **Utilisation de Microsoft Excel**
 
-Pour ajouter des sous-totaux dans Excel Microsoft :
+Pour ajouter des sous-totaux dans Microsoft Excel :
 
-1. Créez une liste de données simple dans la première feuille de calcul du classeur (comme indiqué dans la figure ci-dessous) et enregistrez le fichier sous Book1.xls.
-1. Sélectionnez n’importe quelle cellule de votre liste.
-1.  Du**Données** menu, sélectionnez *Sous-totaux**. La boîte de dialogue Sous-totaux s'affichera. Définissez quelle fonction utiliser et où placer les sous-totaux.
+1. Créez une liste de données simples dans la première feuille de calcul du classeur (comme indiqué dans la figure ci-dessous) et enregistrez le fichier sous le nom de Book1.xls.
+1. Sélectionnez une cellule quelconque dans votre liste.
+1. Dans le menu **Données**, sélectionnez **Sous-totaux**. La boîte de dialogue Sous-totaux s'affichera. Définissez la fonction à utiliser et l'emplacement des sous-totaux.
 
-##  **En utilisant le Aspose.Cells API**
+## **Utilisation de l'API Aspose.Cells**
 
- Aspose.Cells propose un cours,[**Cahier d'exercices**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , cela représente un fichier Excel Microsoft. Le[**Cahier d'exercices**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d’accéder à chaque feuille de calcul du fichier Excel.
+Aspose.Cells fournit une classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contient une collection [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) qui permet d'accéder à chaque feuille de calcul du fichier Excel.
 
-Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul et autres objets. Chaque feuille de travail se compose d'un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection. Pour ajouter des sous-totaux à une feuille de calcul, utilisez l'outil[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)classe'[**Total**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index)méthode. Fournissez des valeurs de paramètre à la méthode pour spécifier comment le sous-total doit être calculé et placé.
+Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La classe fournit une large gamme de propriétés et de méthodes pour gérer les feuilles de calcul et d'autres objets. Chaque feuille de calcul se compose d'une collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Pour ajouter des sous-totaux à une feuille de calcul, utilisez la méthode [**Subtotal**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) de la classe [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Fournissez des valeurs de paramètre à la méthode pour spécifier comment le sous-total doit être calculé et placé.
 
-Dans les exemples ci-dessous, nous avons ajouté des sous-totaux à la première feuille de calcul du fichier modèle (Book1.xls) à l'aide du Aspose.Cells API. Lorsque le code est exécuté, une feuille de calcul avec des sous-totaux est créée.
+Dans les exemples ci-dessous, nous avons ajouté des sous-totaux à la première feuille de calcul du fichier modèle (Book1.xls) en utilisant l'API Aspose.Cells. Lorsque le code est exécuté, une feuille de calcul avec des sous-totaux est créée.
 
-Les extraits de code qui suivent montrent comment ajouter des sous-totaux à une feuille de calcul avec Aspose.Cells for .NET.
+Les extraits de code ci-dessous montrent comment ajouter des sous-totaux à une feuille de calcul avec Aspose.Cells for .NET.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-CreatingSubtotals-1.cs" >}}
 
-##  **Sujets avancés**
-- [Application du sous-total et modification de la direction des lignes récapitulatives du plan sous les détails](/cells/fr/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+## **Sujets avancés**
+- [Application de sous-total et changement de direction des lignes de résumé en dessous des détails](/cells/fr/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)

@@ -1,22 +1,25 @@
-﻿---
-title: GridDesktop'un Varsayılan Yazı Tipi ve Yazı Tipi Rengi
+---
+title: GridDesktop ın Varsayılan Yazı Tipi ve Yazı Tipi Rengi
 type: docs
 weight: 70
-url: /tr/net/default-font-and-font-color-of-the-griddesktop/
+url: /tr/net/aspose-cells-griddesktop/default-font-and-font-color-of-the-griddesktop/
+keywords: GridDesktop, yazı tipi, renk
+description: Bu makale, GridDesktop daki varsayılan fontu ve yazı rengini tanıtır.
 ---
+
 ## **Olası Kullanım Senaryoları**
-Bazen, GridDesktop'un varsayılan yazı tipini ve yazı tipi rengini değiştirmek istersiniz. Lütfen bu amaç için aşağıdaki iki özelliği kullanın. Bu özelliklere, ihtiyaçlarınıza bağlı olarak Tasarım Zamanında veya Çalışma Zamanında erişebilirsiniz.
+Bazen, GridDesktop'un varsayılan fontunu ve yazı rengini değiştirmek isteyebilirsiniz. Bu amaçla lütfen aşağıdaki iki özelliği kullanın. Bu özelliklere ihtiyaçlarınıza bağlı olarak Tasarım Zamanında veya Çalışma Zamanında erişebilirsiniz.
 
 - GridDesktop.DefaultCellFont
 - GridDesktop.DefaultCellFontColor
-## **Tasarım Zamanında Varsayılan Yazı Tipi ve Yazı Tipi Rengini Değiştirme**
-Aşağıdaki ekran görüntüsü, Tasarım Zamanında GridDesktop'un varsayılan yazı tipini ve yazı tipi rengini nasıl değiştireceğinizi gösterir.
+## **Tasarım Zamanında Varsayılan Fontu ve Yazı Rengini Değiştirme**
+Aşağıdaki ekran görüntüsü, GridDesktop'un Tasarım Zamanında varsayılan fontu ve yazı rengini nasıl değiştireceğinizi göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](default-font-and-font-color-of-the-griddesktop_1.png)
-## **Çalışma Zamanında Varsayılan Yazı Tipi ve Yazı Tipi Rengini Değiştirme**
-Aşağıdaki örnek kod, Çalışma Zamanında GridDesktop'un varsayılan yazı tipini ve yazı tipi rengini nasıl değiştireceğinizi açıklar.
+![todo:image_alt_text](default-font-and-font-color-of-the-griddesktop_1.png)
+## **Çalışma Zamanında Varsayılan Fontu ve Yazı Rengini Değiştirme**
+Aşağıdaki örnek kod, GridDesktop'un Çalışma Zamanında varsayılan fontunu ve yazı rengini nasıl değiştireceğinizi açıklar.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Assign your desired Font object to DefaultCellFont property
 

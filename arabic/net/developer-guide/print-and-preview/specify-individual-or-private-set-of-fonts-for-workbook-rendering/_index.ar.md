@@ -1,19 +1,20 @@
-﻿---
-title: حدد مجموعة الخطوط الفردية أو الخاصة لعرض المصنف
+---
+title: تحديد مجموعة خطوط فردية أو خاصة لتقديم الدفتر
 type: docs
 weight: 40
 url: /ar/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-بشكل عام ، تقوم بتحديد دليل الخطوط أو قائمة الخطوط لجميع المصنفات ولكن في بعض الأحيان ، يجب عليك تحديد مجموعة فردية أو خاصة من الخطوط لمصنفاتك. يوفر Aspose.Cells **** [IndividualFontConfigs] (https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs) ** فئة يمكن استخدامها لتحديد مجموعة الخطوط الفردية أو الخاصة لمصنفك.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **حدد مجموعة الخطوط الفردية أو الخاصة لعرض المصنف**
+عمومًا، يتم تحديد دليل الخطوط أو قائمة الخطوط لجميع سجلات العمل، ولكن في بعض الأحيان يجب عليك تحديد مجموعة منفردة أو خاصة من الخطوط لسجلات العمل الخاصة بك. توفر Aspose.Cells الفئة [**IndividualFontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs) التي يمكن استخدامها لتحديد مجموعة منفردة أو خاصة من الخطوط لسجل العمل الخاص بك.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](67338268.xlsx) بمجموعته الفردية أو الخاصة من الخطوط المحددة باستخدام امتداد**[IndividualFontConfigs] (https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)** صف دراسي. الرجاء مراجعة[نموذج الخط](67338271.zip)المستخدمة داخل الكود بالإضافة إلى ملفات[الإخراج PDF](67338269.pdf) ولدت به. توضح لقطة الشاشة التالية كيف يبدو الناتج PDF إذا تم العثور على الخط بنجاح.
+## **تحديد مجموعة خطوط فردية أو خاصة لتقديم الدفتر**
 
-![ما يجب القيام به: image_بديل_نص](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
+يقوم الكود المصدري التالي بتحميل [ملف Excel عيني](67338268.xlsx) مع مجموعته الفردية أو الخاصة من الخطوط التي تم تحديدها باستخدام فئة [**IndividualFontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs). يرجى الاطلاع على [خط العينة](67338271.zip) المستخدم داخل الكود بالإضافة إلى [PDF الناتج](67338269.pdf) الذي تم إنشاؤه به. توضح اللقطة الشاشة التالية كيفية ظهور PDF الناتج في حالة العثور على الخط بنجاح.
 
-## **عينة من الرموز**
+![todo:image_alt_text](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Fonts-SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.cs" >}}

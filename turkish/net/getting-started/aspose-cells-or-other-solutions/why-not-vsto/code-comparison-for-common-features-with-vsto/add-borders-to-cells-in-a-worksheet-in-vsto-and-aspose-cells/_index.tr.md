@@ -1,33 +1,34 @@
-﻿---
-title: VSTO'da Çalışma Sayfasında Cells'e ve Aspose.Cells'e Kenarlıklar Ekleyin
+---
+title: VSTO ve Aspose.Cells te Bir Çalışma Sayfasındaki Hücrelere Kenarlık Ekle
 type: docs
 weight: 10
 url: /tr/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Elektronik tablodaki hücrelere kenarlık eklemek için aşağıdaki adımları izleyin:
 
-1.  Çalışma sayfasını ayarlayın:
- 1. Bir Uygulama nesnesinin örneğini oluşturun (yalnızca VSTO)
- 1. Bir Çalışma Kitabı Ekleyin
- 1. İlk sayfayı alın
- 1. Kenarlık ekleyeceğiniz hücrelere metin ekleyin
-1.  Kenarlık ekle:
- 1. Bir aralık tanımlayın
- 1. Aralığa bir kenarlık stili uygulayın
- 1. Ayarlamak istediğiniz her aralık ve kenarlık stili için tekrarlayın. Bu örnek, saç çizgileri, ince, orta ve kalın çizgiler için geçerlidir.
-1.  Bitiş:
- 1. Metni düzgün bir şekilde sığdırmak için hücrelerin bulunduğu sütunu otomatik sığdır
- 1. Belgeyi kaydedin
+Bir elektronik tabloya hücrelere kenarlık eklemek için aşağıdaki adımları izleyin:
 
-Bu adımlar aşağıdaki kodda gösterilmiştir. İlk kod örnekleri, bunların VSTO kullanılarak C# veya Visual Basic ile nasıl uygulanacağını gösterir. VSTO örneklerinden sonra, aynı adımların Aspose.Cells for .NET kullanılarak, yine C# veya Visual Basic kullanılarak nasıl gerçekleştirileceğini gösteren örnekler vardır. Aspose.Cells kod örnekleri çok daha kısadır çünkü Aspose.Cells verimli kodlama için optimize edilmiştir.
+1. Çalışma sayfasını kurun: 
+   1. Bir Uygulama nesnesi oluşturun (Sadece VSTO)
+   1. Bir Çalışma Kitabı ekleyin
+   1. İlk sayfayı alın
+   1. Kenarlık ekleyeceğiniz hücrelere metin ekleyin
+1. Kenarlık ekle: 
+   1. Bir aralık tanımlayın
+   1. Aralığa bir kenarlık stili uygulayın
+   1. Her aralık ve her kenarlık stili için tekrarlayın. Bu örnek, ince, orta ve kalın çizgiler uygular
+1. Bitir: 
+   1. Hücrelerin içine sığacak şekilde sütunu otomatik ayarlayın
+   1. Belgeyi kaydedin
 
-Kod, ilk sayfada her biri farklı kenarlığa sahip birkaç hücre içeren bir Excel dosyası oluşturur:
+Bu adımlar aşağıdaki kodlarda gösterilmektedir. İlk kod örnekleri, bunları C# veya Visual Basic kullanarak VSTO ile nasıl uygulayacağınızı gösterir. VSTO örneklerinden sonra, Aspose.Cells for .NET kullanarak aynı adımları nasıl gerçekleştireceğinizi gösteren örnekler bulunmaktadır. Aspose.Cells kod örnekleri, etkili kodlama için optimize edildiği için çok daha kısadır.
 
-![yapılacaklar:resim_alternatif_metin](picture1.png)
+Kod, birinci sayfadaki farklı kenarlıklı birçok hücreye sahip bir Excel dosyası oluşturur
 
-Cells, kenarlık uygulanmış.
+![todo:image_alt_text](picture1.png)
+
+Uygulanan kenarlıklı hücreler
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -43,13 +44,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -145,7 +146,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -209,7 +210,7 @@ objBook.Save("ApplyBorders.xls");
 
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [kaynak forge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/indir)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

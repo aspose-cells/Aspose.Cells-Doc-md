@@ -1,28 +1,29 @@
-﻿---
+---
 title: Yapılandırma Parametreleri
 type: docs
 weight: 10
 url: /tr/jasperreports/configuration-parameters/
 ---
+
 {{% alert color="primary" %}} 
 
- Aşağıdaki tablo yapılandırma parametrelerini listeler.
+Aşağıdaki tablo, yapılandırma parametrelerini listeler. 
 
 {{% /alert %}} 
 
 |**Parametre adı** |**Açıklama** |
-|:- |:- |
-| FORMAT_TYPE| Microsoft Excel 79 0 2003 veya Excel 2007 formatındaki dosyaları oluşturmak için "EXCEL97TO2003" veya "EXCEL2007" olarak ayarlanabilir.|
-|DIR-DİR_BİR TANE_SAYFA_BAŞINA_ ÇARŞAF| Her rapor sayfasının farklı bir XLS çalışma sayfasına yazılması gerekip gerekmediğini belirten bir Boolean değeri.|
-|DIR-DİR_KALDIRMAK_BOŞ_UZAY_ ARASINDA_SATIRLAR| Satır aralarında oluşabilecek boşlukların kaldırılıp kaldırılmayacağını belirten bir Boolean değeri.|
-|DIR-DİR_KALDIRMAK_BOŞ_UZAY_ BETWEEN_COLUMNS ARASINDA|Sütunlar arasında oluşabilecek boşlukların kaldırılıp kaldırılmayacağını belirten bir Boolean değeri.|
-|DIR-DİR_BEYAZ_ SAYFA ARKAPLANI| Sayfa arka planının beyaz mı yoksa varsayılan XLS arka plan rengi mi olacağını belirten bir Boole değeri. XLS arka plan renginin ne olduğu, XLS görüntüleyici özelliklerine veya işletim sistemi renk şemasına göre değişebilir.|
-|DIR-DİR_TESPİT ETMEK_ HÜCRE_TİPİ| Dışa aktarıcının orijinal metin alanı ifadelerinin türünü dikkate alması ve hücre türlerini ve değerlerini buna göre ayarlaması gerekip gerekmediğini belirtmek için kullanılan bayrak.|
-| SHEET_NAMES|Özel sayfa adlarını temsil eden bir dizi dize. Bu, IS ile birlikte kullanıldığında kullanışlıdır._BİR TANE_SAYFA_BAŞINA_ SHEET parametresi.|
-|DIR-DİR_YAZI TİPİ_BOY_DÜZELTMEK_ ETKİNLEŞTİRİLMİŞ| Metnin belirtilen hücre yüksekliğine sığması için yazı tipi boyutunu azaltmak için işaretleyin.|
-|MAKSİMUM_SATIRLAR_ PER_SHEET|Bir sayfada gösterilmesine izin verilen maksimum satır sayısını belirten bir tamsayı değeri. Ayarlandığında, kalan satırların görüntülenmesi için yeni bir sayfa oluşturulur. Negatif değerler veya sıfır, herhangi bir limitin ayarlanmadığı anlamına gelir.|
-|DIR-DİR_GÖZ ARDI ETMEK_ GRAFİKLER| Grafik öğeleri yok saymak ve yalnızca metin öğelerini dışa aktarmak için işaretleyin.|
-|DIR-DİR_ÇÖKÜŞ_ ROW_SPAN| Daralan satır aralığı için işaretleyin ve satırlar arasında hücreleri birleştirmekten kaçının.|
-|DIR-DİR_GÖZ ARDI ETMEK_ HÜCRE_SINIR| Hücre kenarlığını yok saymak için işaretleyin.|
-|DIR-DİR_KULLANMAK_ EXCEL_CHART| Statik resimler yerine Microsoft Excel formatında düzenlenebilir grafiğin kullanılması için işaret. Varsayılan değer doğrudur.|
+| :- | :- |
+|FORMAT_TYPE | Microsoft Excel 79 0 2003 veya Excel 2007 format dosyalarını oluşturmak için "EXCEL97TO2003" veya "EXCEL2007" olarak ayarlanabilir. |
+|IS_ONE_PAGE_PER_SHEET | Satırlar arasında görünebilecek boşlukların kaldırılıp kaldırılmayacağını belirleyen Boolean bir değer. |
+|IS_REMOVE_EMPTY_SPACE_BETWEEN_ROWS | Satırlar arasında görünebilecek boşlukların kaldırılıp kaldırılmayacağını belirleyen bir Boolean değeri. |
+|IS_REMOVE_EMPTY_SPACE_BETWEEN_COLUMNS | Sütunlar arasında oluşabilecek boşlukların kaldırılıp kaldırılmayacağını belirleyen bir Boolean değeri. |
+|IS_WHITE_PAGE_BACKGROUND | Sayfa arka planının beyaz olup olmayacağını veya varsayılan XLS arka plan renginin ne olduğunu belirleyen Boolean bir değer. XLS arka plan rengi, XLS görüntüleyici özelliklerine veya işletim sistemi renk şemasına bağlı olarak değişebilir. |
+|IS_DETECT_CELL_TYPE | Dışa aktarıcının, orijinal metin alanı ifadelerinin türünü dikkate alıp hücre tiplerini ve değerlerini buna göre ayarlamasının gerekip gerekmediğini belirtmek için kullanılan bayrak. |
+|SHEET_NAMES | Tek Sayfa Başına - IS_ONE_PAGE_PER_SHEET parametresiyle birlikte kullanıldığında, özel sayfa adlarını temsil eden bir dizi dize. |
+|IS_FONT_SIZE_FIX_ENABLED | Metin belirtilen hücre yüksekliğine uyması için font boyutunu azaltma bayrağı. |
+|MAXIMUM_ROWS_PER_SHEET | Bir sayfada gösterilebilecek maksimum satır sayısını belirten tamsayı değeri. Ayarlandığında, gösterilmek istenen kalan satırlar için yeni bir sayfa oluşturulur. Negatif değerler veya sıfır, herhangi bir sınırın belirlenmediği anlamına gelir. |
+|IS_IGNORE_GRAPHICS | Grafiksel öğeleri yok sayma ve yalnızca metin öğelerini dışa aktarma için bayrak. |
+|IS_COLLAPSE_ROW_SPAN | Satır aralığını aksatma ve satırlar arasında hücreleri birleştirmeyi önleme bayrağı. |
+|IS_IGNORE_CELL_BORDER | Hücre sınırını yok sayma bayrağı. |
+|IS_USE_EXCEL_CHART | Statik resimler yerine Microsoft Excel biçiminde düzenlenebilir grafik kullanma bayrağı. Varsayılan değer true'dur. |
 

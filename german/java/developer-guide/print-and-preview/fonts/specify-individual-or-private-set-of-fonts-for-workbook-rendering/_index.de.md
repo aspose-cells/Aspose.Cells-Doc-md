@@ -1,18 +1,19 @@
-﻿---
-title: Geben Sie einen individuellen oder privaten Satz von Schriftarten für das Rendern von Arbeitsmappen an
+---
+title: Individuelle oder private Schriftsätze für das Rendern von Arbeitsbüchern angeben
 type: docs
 weight: 40
 url: /de/java/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Im Allgemeinen geben Sie das Schriftartenverzeichnis oder die Schriftartenliste für alle Arbeitsmappen an, aber manchmal müssen Sie einzelne oder private Schriftarten für Ihre Arbeitsmappen angeben. Aspose.Cells bietet[**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)Klasse, die verwendet werden kann, um den individuellen oder privaten Satz von Schriftarten für Ihre Arbeitsmappe anzugeben.
+## **Mögliche Verwendungsszenarien**
 
-## **Geben Sie einen individuellen oder privaten Satz von Schriftarten für das Rendern von Arbeitsmappen an**
+In der Regel geben Sie das Schriftartenverzeichnis oder eine Liste von Schriftarten für alle Arbeitsmappen an, aber manchmal müssen Sie individuelle oder private Gruppen von Schriftarten für Ihre Arbeitsmappen angeben. Aspose.Cells bietet die Klasse [**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs), die verwendet werden kann, um die individuelle oder private Gruppe von Schriftarten für Ihre Arbeitsmappe anzugeben.
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](67338304.xlsx)mit seinem individuellen oder privaten Satz von Schriftarten, die mit angegeben werden[**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)Klasse. Bitte sehen Sie sich ... an[Musterschrift](67338302.zip)innerhalb des Codes sowie der verwendet[Ausgang PDF](67338303.pdf)dadurch erzeugt. Der folgende Screenshot zeigt, wie die Ausgabe PDF aussieht, wenn die Schriftart erfolgreich gefunden wurde.
+## **Individuelle oder private Schriftsätze für das Rendern von Arbeitsbüchern angeben**
 
-![todo: Bild_alt_Text](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](67338304.xlsx) mit ihrer individuellen oder privaten Gruppe von Schriftarten, die mit der Klasse [**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs) spezifiziert sind. Bitte beachten Sie auch die [Beispiel-Schriftart](67338302.zip), die im Code verwendet wird, sowie das generierte [Ausgabe-PDF](67338303.pdf). Der folgende Screenshot zeigt, wie das Ausgabe-PDF aussieht, wenn die Schriftart erfolgreich gefunden wird.
+
+![todo:image_alt_text](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
 
 ## **Beispielcode**
 

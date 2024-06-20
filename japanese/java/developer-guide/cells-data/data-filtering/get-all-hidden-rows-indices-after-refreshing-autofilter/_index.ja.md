@@ -1,16 +1,17 @@
-﻿---
-title: オートフィルターを更新した後にすべての非表示の行インデックスを取得する
+---
+title: オートフィルタを更新した後のすべての非表示行のインデックスを取得する
 type: docs
 weight: 240
 url: /ja/java/get-all-hidden-rows-indices-after-refreshing-autofilter/
 ---
-## **考えられる使用シナリオ**
 
-ワークシートのセルに自動フィルターを適用すると、一部の行が自動的に非表示になります。ただし、一部の行が Excel エンド ユーザーによって手動で既に非表示にされており、それらが自動フィルターによって非表示にされていない場合があります。したがって、どの行が自動フィルターによって非表示にされ、どの行が Excel エンド ユーザーによって手動で非表示にされているかを知ることが難しくなります。 Aspose.Cells は int[] を使用してこの問題を処理します[**AutoFilter.refresh(bool hideRows)**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#refresh(boolean)） 方法。このメソッドは、自動フィルターによって非表示になり、Excel エンド ユーザーによって手動で非表示にされたすべての行の行インデックスを返します。
+## **可能な使用シナリオ**
 
-## **オートフィルターを更新した後にすべての非表示の行インデックスを取得する**
+ワークシートのセルにオートフィルターを適用すると、一部の行が自動的に非表示になります。ただし、エンドユーザーが手動で非表示にした場合もあり、それらがオートフィルターによって非表示にされたかどうかはわかりにくいことがあります。Aspose.Cellsは、この問題に対処するためにint[] [**AutoFilter.refresh(bool hideRows)**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#refresh(boolean))メソッドを使用します。このメソッドは、オートフィルターによって非表示になった行のインデックスをすべて返します。
 
-をロードする次のサンプル コードを参照してください。[サンプル Excel ファイル](64716913.xlsx)これには、Excel エンド ユーザーによって手動で非表示にされた行が含まれています。コードは自動フィルターを適用し、int[] を使用して更新します[**AutoFilter.refresh(bool hideRows)**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#refresh(boolean)自動フィルターによってすべての非表示行の行インデックスを返すメソッド。次に、非表示の行のインデックスをセルの名前と値とともにコンソールに出力します。
+## **オートフィルタの更新後の非表示行インデックスの取得**
+
+以下のサンプルコードは、[sample Excel file](64716913.xlsx)をロードし、Excelエンドユーザーによって手動で非表示にされた行が含まれています。コードはオートフィルタを適用し、int[] [**AutoFilter.refresh(bool hideRows)**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#refresh(boolean))メソッドを使用してオートフィルタを更新し、オートフィルターによって非表示にされたすべての行のインデックスをコンソールに出力し、セルの名前と値とともに非表示にされた行のインデックスを印刷します。
 
 ## **サンプルコード**
 
@@ -18,7 +19,7 @@ url: /ja/java/get-all-hidden-rows-indices-after-refreshing-autofilter/
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Printing Rows Indices, Cell Names and Values Hidden By AutoFilter.
 

@@ -1,25 +1,26 @@
-﻿---
-title: パブリック API Aspose.Cells 8.7.0 の変更点
+---
+title: Aspose.Cells 8.7.0の公開API変更
 type: docs
 weight: 230
 url: /ja/net/public-api-changes-in-aspose-cells-8-7-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.6.3 から 8.7.0 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントは、Aspose.Cells APIの8.6.3から8.7.0への変更について記載しており、モジュール／アプリケーション開発者に関心がある可能性のある変更を説明しています。新しいおよび更新された公開メソッド、追加および削除されたクラスなどに加えて、Aspose.Cellsの裏側の挙動に変更がある場合も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **VBA プロジェクトのデジタル署名、検出、抽出のサポート**
-Aspose.Cells for .NET のこのリリースでは、VBA プロジェクトのデジタル署名、VBA プロジェクトが署名済みで有効かどうかの検出などのタスクでユーザーを支援するいくつかの新しいプロパティとメソッドが公開されています。さらに、新しい API を使用すると、Workbook でデジタル署名された VBA プロジェクトから生データとして証明書を抽出できます。
-###### **VBA プロジェクトにデジタル署名する**
-Aspose.Cells for .NET 8.7.0 で使用できる VbaProject.Sign メソッドが公開されました。[ワークブックで VBA プロジェクトにデジタル署名する](/cells/ja/net/digitally-sign-a-vba-code-project-with-certificate/).上記のメソッドは、Aspose.Cells.DigitalSignatures 名前空間に存在する DigitalSignature クラスのインスタンスを受け入れます。
+## **APIの追加**
+### **VBAプロジェクトのデジタル署名、検出、および抽出のサポート**
+このリリースのAspose.Cells for .NETでは、ユーザーがVBAプロジェクトにデジタル署名を行ったり、VBAプロジェクトが署名されているかどうかを検出したり、有効かどうかを確認したりするための新しいプロパティやメソッドがいくつか公開されています。さらに、新しいAPIでは、署名されたVBAプロジェクトから証明書を生データとして抽出することもできます。
+###### **VBAプロジェクトにデジタル署名**
+Aspose.Cells for .NET 8.7.0では、VbaProject.Signメソッドが公開され、[ワークブック内のVBAプロジェクトにデジタル署名](/cells/ja/net/digitally-sign-a-vba-code-project-with-certificate/)するために使用できます。このメソッドは、Aspose.Cells.DigitalSignaturesネームスペースに属するDigitalSignatureクラスのインスタンスを受け入れます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -38,14 +39,14 @@ vbaProject.Sign(new DigitalSignature(new System.Security.Cryptography.X509Certif
 {{< /highlight >}}
 
 
-###### **デジタル署名された VBA プロジェクトの検出**
-新しく公開された VbaProject.IsSigned プロパティは、[ワークブック内の VBA プロジェクトがデジタル署名されているかどうかを検出する](/cells/ja/net/check-if-vba-code-is-signed/). VbaProject.IsSigned プロパティはブール型で、VBA プロジェクトがデジタル署名されている場合は true を返し、その逆の場合も同様です。
+###### **デジタルに署名されたVBAプロジェクトの検出**
+新しく公開されたVbaProject.IsSignedプロパティを使用して、ワークブック内のVBAプロジェクトがデジタルで署名されているかどうかを[検出](/cells/ja/net/check-if-vba-code-is-signed/)できます。VbaProject.IsSignedプロパティはブール型で、VBAプロジェクトがデジタルで署名されている場合はtrueを返し、その逆も同様です。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -76,14 +77,14 @@ else
 {{< /highlight >}}
 
 
-###### **VBA プロジェクトからのデジタル署名の抽出**
-API のこのリビジョンでは、VbaProject.CertRawData プロパティも公開されています。[VBA プロジェクトからデジタル証明書の生データを抽出する](/cells/ja/net/export-vba-certificate-to-file-or-stream/)VbaProject.CertRawData プロパティはバイト配列型で、VBA プロジェクトがデジタル署名されている場合は未加工の証明書データが含まれます。それ以外の場合、前述のプロパティは null になります。
+###### **VBAプロジェクトからのデジタル署名の抽出**
+このAPIのこのリビジョンでは、VbaProject.CertRawDataプロパティも公開されており、VBAプロジェクトからデジタル証明書の生データを[抽出することができます](/cells/ja/net/export-vba-certificate-to-file-or-stream/)。VbaProject.CertRawDataプロパティはバイト配列の型で、VBAプロジェクトがデジタルで署名されている場合は生の証明書データが含まれ、それ以外の場合はnullになります。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -100,14 +101,14 @@ var cert = vbaProject.CertRawData;
 {{< /highlight >}}
 
 
-###### **VBA プロジェクトのデジタル署名を検証する**
-public API へのもう 1 つの追加は、VbaProject.IsValidSigned プロパティです。[VBA プロジェクトのデジタル署名の検証](/cells/ja/net/check-if-digital-signature-of-vba-code-is-valid/).上記のプロパティは、デジタル署名が有効な場合は true を返し、署名が無効な場合は false を返します。
+###### **VBAプロジェクトのデジタル署名の検証**
+公開APIへのもう1つの追加は、VbaProject.IsValidSignedプロパティです。これは[VBAプロジェクトのデジタル署名を検証するのに役立ちます](/cells/ja/net/check-if-digital-signature-of-vba-code-is-valid/)。該当するプロパティは、デジタル署名が有効な場合はtrueを返し、無効な場合はfalseを返します。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -138,14 +139,14 @@ if (vbaProject.IsSigned)
 {{< /highlight >}}
 
 
-### **メソッド Protection.VerifyPassword が追加されました**
-Aspose.Cells for .NET 8.7.0 では、次の目的で使用できる Protection.VerifyPassword メソッドが公開されました。[ワークシートを保護するために使用されるパスワードを確認してください](/cells/ja/net/verify-password-used-to-protect-the-worksheet/).このメソッドは文字列のインスタンスをパラメーターとして受け取り、指定されたパスワードがワークシートの保護に使用されているパスワードと一致する場合に true を返します。
+### **Protection.VerifyPasswordメソッドの追加**
+Aspose.Cells for .NET 8.7.0では、Worksheetを保護するために使用されるパスワードを[検証するメソッドProtection.VerifyPassword](/cells/ja/net/verify-password-used-to-protect-the-worksheet/)が公開されました。このメソッドは、stringのインスタンスをパラメーターとして受け入れ、指定されたパスワードがWorksheetを保護するために使用されたパスワードと一致する場合はtrueを返します。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -180,14 +181,14 @@ else
 {{< /highlight >}}
 
 
-### **プロパティ Protection.IsProtectedWithPassword が追加されました**
-Aspose.Cells for .NET API のこのリリースでは、次の場合に役立つ Protection.IsProtectedWithPassword プロパティも公開されています。[ワークシートがパスワードで保護されているかどうかを検出する](/cells/ja/net/detect-if-worksheet-is-password-protected/).
+### **Protection.IsProtectedWithPasswordプロパティの追加**
+このAspose.Cells for .NET APIのリリースでは、Protection.IsProtectedWithPasswordプロパティも公開され、[ワークシートがパスワードで保護されているかどうかを検出するのに役立ちます](/cells/ja/net/detect-if-worksheet-is-password-protected/)。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -222,14 +223,14 @@ else
 {{< /highlight >}}
 
 
-### **プロパティ ColorScale.Is3ColorScale が追加されました**
- Aspose.Cells for .NET 8.7.0 では、2 色スケールの条件付き書式の作成に使用できる ColorScale.Is3ColorScale プロパティが公開されています。上記のプロパティはブール型で、デフォルト値は true です。これは、条件付き書式がデフォルトで 3 色スケールになることを意味します。ただし、ColorScale.Is3ColorScale プロパティを false に切り替えると、[2 色スケールの条件付き書式を生成する](/cells/ja/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/).
+### **Added ColorScale.Is3ColorScale Property**
+Aspose.Cells for .NET 8.7.0では、ColorScale.Is3ColorScaleプロパティも公開され、2-Color Scale条件付き書式を作成するために使用することができます。該当するプロパティはデフォルト値がtrueのBoolean型であり、これは条件付き書式がデフォルトで3-Color Scaleになることを意味します。ただし、ColorScale.Is3ColorScaleプロパティをfalseに切り替えると、[2-Color Scale条件付き書式が生成されます](/cells/ja/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -274,14 +275,14 @@ formatCondition.ColorScale.Is3ColorScale = false;
 {{< /highlight >}}
 
 
-### **プロパティ TxtLoadOptions.HasFormula が追加されました**
-Aspose.Cells for .NET 8.7.0 は[区切られたプレーンデータを含むCSV/TXTファイルをロードしながら、式を識別して解析します](/cells/ja/net/load-or-import-csv-file-with-formulas/).新しく公開された TxtLoadOptions.HasFormula プロパティを true に設定すると、API が入力区切りファイルから数式を解析し、追加の処理を必要とせずに関連するセルに設定するように指示されます。
+### **Added TxtLoadOptions.HasFormula Property**
+Aspose.Cells for .NET 8.7.0では、区切られたプレーンデータを含むCSV/TXTファイルをロードする際に、[数式を識別および解析するためのサポート](/cells/ja/net/load-or-import-csv-file-with-formulas/)が提供されました。新たに公開されたTxtLoadOptions.HasFormulaプロパティは、trueに設定されている場合、APIに対して入力区切りファイルから数式を解析し、それらを追加の処理を必要とせずに関連するセルに設定するよう指示します。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of TxtLoadOptions
 
@@ -310,14 +311,14 @@ book.Save(outFilePath);
 {{< /highlight >}}
 
 
-### **プロパティ DataLabels.IsResizeShapeToFitText が追加されました**
-Aspose.Cells for .NET 8.7.0 が公開したもう 1 つの便利な機能は、DataLabels.IsResizeShapeToFitText プロパティです。[テキストに合わせて図形のサイズを変更する](/cells/ja/net/resize-chart-s-data-label-shape-to-fit-text/)グラフのデータ ラベル用の Excel アプリケーションの機能。
+### **DataLabels.IsResizeShapeToFitTextプロパティの追加**
+Aspose.Cells for .NET 8.7.0が公開したもう1つの有用な機能は、DataLabels.IsResizeShapeToFitTextプロパティで、これはExcelアプリケーションの[チャートのデータラベルのテキストに合わせてサイズを調整](/cells/ja/net/resize-chart-s-data-label-shape-to-fit-text/)する機能を有効にすることができます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook containing the Chart
 
@@ -346,17 +347,17 @@ chart.Calculate();
 {{< /highlight >}}
 
 
-### **プロパティ PdfSaveOptions.OptimizationType が追加されました**
-8.7.0 は、ユーザーが容易に[スプレッドシートを PDF 形式にエクスポートする際に、目的の最適化アルゴリズムを選択します](/cells/ja/net/save-excel-into-pdf-with-standard-or-minimum-size/).以下に詳述するように、PdfSaveOptions.OptimizationType プロパティには 2 つの可能な値があります。
+### **PdfSaveOptions.OptimizationTypeプロパティの追加**
+Aspose.Cells for .NET 8.7.0では、PdfSaveOptions.OptimizationTypeプロパティとPdfOptimizationType列挙型が公開され、スプレッドシートをPDF形式にエクスポートする際に[希望する最適化アルゴリズムを選択](/cells/ja/net/save-excel-into-pdf-with-standard-or-minimum-size/)できるようになりました。PdfSaveOptions.OptimizationTypeプロパティの可能な値は次の通りです。
 
-1. PdfOptimizationType.MinimumSize: 結果のファイル サイズに対して品質が低下します。
-1. PdfOptimizationType.Standard: 品質が損なわれないため、結果のファイル サイズが大きくなります。
+1. PdfOptimizationType.MinimumSize: ファイルサイズのために品質が犠牲になります。
+1. PdfOptimizationType.Standard: 品質が犠牲にならず、したがってファイルサイズが大きくなります。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of PdfSaveOptions
 
@@ -377,6 +378,6 @@ var book = new Workbook(inFilePath);
 book.Save(outFilePath, pdfSaveOptions);
 
 {{< /highlight >}}
-## **削除された API**
-### **プロパティ Workbook.SaveOptions が削除されました**
-Workbook.SaveOptions プロパティは、しばらく前に廃止されました。このリリースでは、パブリック API から完全に削除されたため、代わりに Workbook.Save(Stream, SaveOptions) または Workbook.Save(string, SaveOptions) メソッドを使用することをお勧めします。
+## **API が削除されました**
+### **Workbook.SaveOptionsプロパティが削除されました**
+Workbook.SaveOptionsプロパティは以前から廃止されていました。このリリースで、それが公開APIから完全に削除されました。したがって、代替としてWorkbook.Save(Stream、SaveOptions)またはWorkbook.Save(string、SaveOptions)メソッドを使用することが推奨されています。

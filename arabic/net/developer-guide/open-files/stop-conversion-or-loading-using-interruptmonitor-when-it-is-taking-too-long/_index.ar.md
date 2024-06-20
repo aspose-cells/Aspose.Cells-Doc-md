@@ -1,18 +1,19 @@
-﻿---
-title: أوقف التحويل أو التحميل باستخدام InterruptMonitor عندما يستغرق وقتًا طويلاً
+---
+title: توقّف عن التحويل أو التحميل باستخدام InterruptMonitor عندما يستغرق وقتًا طويلاً
 type: docs
 weight: 100
 url: /ar/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يسمح لك Aspose.Cells بإيقاف تحويل المصنف إلى تنسيقات مختلفة مثل PDF و HTML وما إلى ذلك باستخدام[**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) كائن عندما يستغرق وقتا طويلا. غالبًا ما تكون عملية التحويل كثيفة الاستخدام لوحدة المعالجة المركزية والذاكرة وغالبًا ما يكون من المفيد إيقافها عندما تكون الموارد محدودة. يمكنك استخدام[**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor)سواء لإيقاف التحويل وكذلك لإيقاف تحميل مصنف ضخم. الرجاء استخدام[**المصنف**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/interruptmonitor) خاصية وقف التحويل و[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/interruptmonitor) خاصية تحميل مصنف ضخم.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **أوقف التحويل أو التحميل باستخدام InterruptMonitor عندما يستغرق وقتًا طويلاً**
+Aspose.Cells يسمح لك بإيقاف تحويل جدول العمل إلى تنسيقات مختلفة مثل PDF، HTML وما إلى ذلك باستخدام كائن [**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) عندما يستغرق الأمر وقتًا طويلاً. يكون عملية التحويل مكثفة للكمبيوتر والذاكرة ومن المفيد في كثير من الأحيان إيقافها عندما تكون الموارد محدودة. يمكنك استخدام [**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) كل من لإيقاف التحويل وكذلك لإيقاف تحميل جدول عمل ضخم. يرجى استخدام خاصية [**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/interruptmonitor) لإيقاف التحويل وخاصية [**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/interruptmonitor) لتحميل جدول العمل الضخم.
 
-يشرح نموذج التعليمات البرمجية التالي استخدام[**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) موضوع. يقوم الكود بتحويل ملف Excel كبير جدًا إلى PDF. سيستغرق الأمر عدة ثوانٍ (على سبيل المثال*أكثر من 30 ثانية*) لتحويلها بسبب هذه الأسطر من التعليمات البرمجية.
+## **توقّف عن التحويل أو التحميل باستخدام InterruptMonitor عندما يستغرق وقتًا طويلاً**
 
-{{< highlight "csharp" >}}
+يشرح الكود العينة التالي استخدام كائن [**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor). يحول الكود ملف إكسل كبير إلى PDF. سيستغرق عدة ثوانٍ (أي *أكثر من 30 ثانية*) لتحويله بسبب هذه الأسطر من الكود.
+
+{{< highlight csharp >}}
 
 //Access cell J1000000 and add some text inside it.
 
@@ -22,14 +23,14 @@ cell.PutValue("This is text.");
 
 {{< /highlight >}}
 
- كما ترى**J1000000** هي خلية أبعد تمامًا في ملف XLSX. ومع ذلك ، فإن**WaitForWhileAndThenInterrupt ()**الطريقة تقاطع التحويل بعد 10 ثوانٍ وينتهي البرنامج / ينتهي. الرجاء استخدام التعليمات البرمجية التالية لتنفيذ نموذج التعليمات البرمجية.
+كما ترون **J1000000** هي خلية بعيدة جدًا في ملف XLSX. ومع ذلك، يقوم طريقة **WaitForWhileAndThenInterrupt()** بإيقاف التحويل بعد 10 ثوانٍ وينتهي/ينقطع البرنامج. يرجى استخدام الكود التالي لتنفيذ الكود العينة.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  new StopConversionOrLoadingUsingInterruptMonitor().TestRun();
 
 {{< /highlight >}}
 
-## **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-StopConversionOrLoadingUsingInterruptMonitor.cs" >}}

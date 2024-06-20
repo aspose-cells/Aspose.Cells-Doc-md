@@ -1,32 +1,37 @@
-﻿---
+---
 title: Trabajar con fondo en archivos ODS
 type: docs
 weight: 170
 url: /es/java/working-with-background-in-ods-files/
 ---
-## **Antecedentes en ODS Archivos**
 
-El fondo se puede agregar a las hojas en los archivos ODS. El fondo puede ser un fondo de color o un fondo gráfico. El fondo no es visible cuando el archivo está abierto, pero si el archivo se imprime como PDF, el fondo es visible en el PDF generado. El fondo también es visible en el diálogo de vista previa de impresión.
+## **Fondo en archivos ODS**
 
-Aspose.Cells brinda la capacidad de leer la información de fondo y agregar antecedentes en archivos ODS.
+Se pueden agregar fondos a las hojas en los archivos ODS. El fondo puede ser un fondo de color o un fondo gráfico. El fondo no es visible cuando el archivo está abierto, pero si el archivo se imprime como PDF, el fondo es visible en el PDF generado. El fondo también es visible en el diálogo de vista previa de impresión.
 
-## **Leer información de fondo del archivo OSD**
+Aspose.Cells proporciona la capacidad de leer la información de fondo y agregar fondo en archivos ODS.
 
-Aspose.Cells proporciona el[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)clase para administrar el fondo en ODS Archivos. El siguiente ejemplo de código demuestra el uso de[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)clase cargando el[fuente ODS](GraphicBackground.ods)archivo y leer la información de fondo. Consulte la salida de la consola generada por el código como referencia.
+## **Leer Información de Fondo de archivos OSD**
+
+Aspose.Cells proporciona la clase [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground) para gestionar el fondo en archivos ODS. El siguiente ejemplo de código demuestra el uso de la clase [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground) cargando el [ODS de origen](GraphicBackground.ods) y leyendo la información de fondo. Consulte la Salida de la Consola generada por el código como referencia.
 
 ### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-ReadODSBackground-1.java" >}}
 
-### **Salida de consola**
+### **Salida de la consola**
 
-Tipo de fondo: GRÁFICO
+{{< highlight java >}}
 
-Posición de fondo: CENTER_CENTER
+Background Type: GRAPHIC
+
+Backgorund Position: CENTER_CENTER
+
+{{< /highlight >}}
 
 ## **Agregar fondo de color al archivo ODS**
 
-Aspose.Cells proporciona el[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)clase para administrar el fondo en ODS Archivos. El siguiente ejemplo de código demuestra el uso de[**ODSPageBackground.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#Color)propiedad para agregar un fondo de color al archivo ODS. Por favor vea el[salida ODS](ColoredBackground.ods)archivo generado por el código como referencia.
+Aspose.Cells proporciona la clase [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground) para gestionar el fondo en archivos ODS. El siguiente ejemplo de código demuestra el uso de la propiedad [**ODSPageBackground.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#Color) para agregar un fondo de color al archivo ODS. Consulte el archivo [ODS de salida](ColoredBackground.ods) generado por el código como referencia.
 
 ### **Código de muestra**
 
@@ -34,7 +39,7 @@ Aspose.Cells proporciona el[**ODSPageBackground**](https://reference.aspose.com/
 
 ## **Agregar fondo gráfico al archivo ODS**
 
-Aspose.Cells proporciona el[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)clase para administrar el fondo en ODS Archivos. El siguiente ejemplo de código demuestra el uso de[**ODSPageBackground.GraphicData**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#GraphicData)propiedad para agregar un fondo gráfico al archivo ODS. Por favor vea el[salida ODS](GraphicBackground.ods)archivo generado por el código como referencia.
+Aspose.Cells proporciona la clase [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground) para gestionar el fondo en archivos ODS. El siguiente ejemplo de código demuestra el uso de la propiedad [**ODSPageBackground.GraphicData**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#GraphicData) para agregar fondo gráfico al archivo ODS. Consulte el archivo [ODS de salida](GraphicBackground.ods) generado por el código como referencia.
 
 ### **Código de muestra**
 

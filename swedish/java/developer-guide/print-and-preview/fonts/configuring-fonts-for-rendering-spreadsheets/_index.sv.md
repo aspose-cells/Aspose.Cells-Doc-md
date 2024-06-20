@@ -1,41 +1,42 @@
-﻿---
+---
 title: Konfigurera teckensnitt för rendering av kalkylblad
 type: docs
 weight: 10
 url: /sv/java/configuring-fonts-for-rendering-spreadsheets/
 ---
-## **Möjliga användningsscenarier**
 
-Aspose.Cells API:er ger möjlighet att rendera kalkylbladen i bildformat samt konvertera dem till PDF och XPS format. För att maximera omvandlingstroheten är det nödvändigt att teckensnitten som används i kalkylarket är tillgängliga i operativsystemets standardtypsnittskatalog. Om de nödvändiga typsnitten inte finns kommer API:erna Aspose.Cells att försöka ersätta de nödvändiga typsnitten med de tillgängliga.
+## **Möjliga användningsscenario**
+
+Aspose.Cells API: er tillhandahåller möjlighet att rendera kalkylbladen i bildformat samt konvertera dem till PDF- och XPS-format. För att maximera konversionsfideliteten är det nödvändigt att teckensnitten som används i kalkylbladet bör finnas i operativsystemets standardteckensnittkatalog. Om de nödvändiga teckensnitten inte är närvarande kommer Aspose.Cells API: er att försöka ersätta de nödvändiga teckensnitten med de som finns tillgängliga.
 
 ## **Val av teckensnitt**
 
-Nedan är processen som Aspose.Cells API:er följer bakom scenen.
+Nedan är processen som Aspose.Cells API: er följer bakom scenen.
 
-1. API försöker hitta teckensnitten i filsystemet som matchar det exakta teckensnittsnamnet som används i kalkylarket.
-1.  Om API inte kan hitta typsnitten med exakt samma namn, försöker den använda standardteckensnittet som anges under arbetsbokens[**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) fast egendom.
-1.  Om API inte kan hitta teckensnittet som definierats under arbetsbokens[**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) egenskapen försöker den använda typsnittet som anges under[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) eller[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) fast egendom.
-1.  Om API inte kan hitta teckensnittet som definieras under[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) eller[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) egenskapen försöker den använda typsnittet som anges under[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) fast egendom.
-1.  Om API inte kan hitta teckensnittet som definieras under[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) egenskapen försöker den välja de mest lämpliga typsnitten från alla tillgängliga typsnitt.
-1. Slutligen, om API inte kan hitta några teckensnitt i filsystemet, renderar den kalkylarket med Arial.
+1. API försöker hitta teckensnitten på filsystemet som matchar det exakta teckensnittsnamnet som används i kalkylbladet.
+1. Om API inte kan hitta teckensnitten med det exakta namnet försöker det använda standardteckensnittet som anges under arbetsbokens [**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) egenskap.
+1. Om API inte kan hitta teckensnittet som definieras under arbetsbokens [**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) egenskap försöker det använda teckensnittet som anges under [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) eller [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) egenskap.
+1. Om API inte kan hitta teckensnittet som definieras under [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) eller [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) egenskap försöker den använda teckensnittet som anges under [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) egenskap.
+1. Om API inte kan hitta teckensnittet som definieras under [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) egenskapen försöker det välja de mest lämpliga teckensnitten från alla tillgängliga teckensnitt.
+1. Slutligen, om API inte hittar några teckensnitt på filsystemet, renderar den kalkylbladet med Arial.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells API:erna skannar alltid operativsystemets standardfontkatalog med ett undantag, det vill säga; när JVM argumenterar**-DAspose.Cells.FontDirExc="YourFontDir"**är inställda. I så fall kommer API:erna Aspose.Cells att hoppa över att skanna operativsystemets standardteckensnittskatalog och endast söka efter sökvägen som specificeras i de tidigare nämnda JVM-argumenten.
+Aspose.Cells API: er skannar alltid operativsystemets standardteckensnittskatalog med ett undantag, det vill säga när JVM-argument **-DAspose.Cells.FontDirExc = "YourFontDir"** är inställda. I det fallet kommer Aspose.Cells API: er att hoppa över att skanna operativsystemets standardteckensnittskatalog och bara söka sökvägen som specificeras i ovan nämnda JVM-argument.
 
 {{% /alert %}}
 
-## **Ställ in anpassade teckensnittsmappar**
+## **Ange anpassade typsnittsmappar**
 
- Aspose.Cells API:er söker i operativsystemets standardtypsnittskatalog efter de nödvändiga teckensnitten. Om de nödvändiga typsnitten inte är tillgängliga i systemets teckensnittskatalog så söker API:erna igenom de anpassade (användardefinierade) katalogerna. De[**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs)class har avslöjat ett antal sätt att ställa in anpassade teckensnittskataloger som beskrivs nedan.
+Aspose.Cells API:er söker efter de nödvändiga typsnitten i operativsystemets standardtypsnittsmapp. Om de nödvändiga typsnitten inte finns i systemets typsnittsmapp, söker API:erna genom de användardefinierade (anpassade) mapparna. [**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs) klassen har specificerat ett flertal sätt att ange anpassade typsnittsmappar enligt följande detaljerat.
 
-1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): Denna metod är användbar om det bara finns en mapp att ställa in.
-1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): Denna metod är användbar när teckensnitten finns i flera mappar och användaren vill ställa in alla mappar separat istället för att kombinera alla teckensnitt i en enda mapp.
-1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): Denna mekanism är användbar när användaren vill ladda typsnitt från flera mappar eller en enskild typsnittsfil eller teckensnittsdata från en uppsättning byte.
+1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): Metoden är användbar om det endast finns en mapp att ange.
+1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): Metoden är användbar när typsnitten finns i flera mappar och användaren vill ange alla mapparna separat istället för att kombinera alla typsnitt i en enda mapp.
+1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): Mekanismen är användbar när användaren vill ladda typsnitt från flera mappar eller en enda typsnittsfil eller typsnittsdata från en byte-array.
 
 {{% alert color="primary" %}}
 
- Både[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) & [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean) ) metoder accepterar en andra parameter av boolesk typ. Godkänd**Sann**som andra parameter styr Aspose.Cells API:erna att söka i undermapparna efter teckensnittsfilerna.
+Både [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) och [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)) metoder accepterar en parameter av typen boolean. Om sann (true) anges som andra parameter kommer Aspose.Cells API:erna att söka efter undermappar efter typsnittsfiler.
 
 {{% /alert %}}
 
@@ -43,31 +44,31 @@ Nedan är processen som Aspose.Cells API:er följer bakom scenen.
 
 {{% alert color="primary" %}}
 
-Använd någon av de ovan nämnda metoderna i början av ansökan, det vill säga; innan du anropar några andra objekt i Aspose.Cells API:er.
+Var god använd någon av de ovan nämnda metoderna i starten av programmet, dvs innan några objekt från Aspose.Cells API:erna anropas.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-Om mer än en av de ovan nämnda metoderna används för att ställa in teckensnittskällorna kommer endast de senaste inställningarna att träda i kraft.
+Om fler än en av de ovan nämnda metoderna används för att ange typsnittskällor kommer endast de senaste inställningarna att ha effekt.
 
 {{% /alert %}}
 
-## **Teckensnittsersättningsmekanism**
+## **Mekanism för typsnittsutbyte**
 
-Aspose.Cells API:er ger också möjlighet att ange ersättningsteckensnittet för renderingsändamål. Denna mekanism är användbar när ett önskat teckensnitt inte är tillgängligt på maskinen där konvertering måste ske. Användare kan tillhandahålla en lista med teckensnittsnamn som ett alternativ till det ursprungligen önskade teckensnittet. För att uppnå detta har API:erna Aspose.Cells avslöjat metoden FontConfigs.setFontSubstitutes som accepterar 2 parametrar. Den första parametern är av typ**Sträng** , vilket ska vara namnet på teckensnittet som måste ersättas. Den andra parametern är en array av typ**Sträng**. Användare kan tillhandahålla en lista med teckensnittsnamn som ersättning för det ursprungliga teckensnittet (anges i den första parametern).
+Aspose.Cells API:erna ger också möjlighet att ange ersättningstypsnitt för presentationssyfte. Detta mekanism är användbar när ett nödvändigt typsnitt inte är tillgängligt på den maskin där konvertering ska ske. Användare kan ange en lista med typsnittsnamn som alternativ till det ursprungliga typsnittet. Aspose.Cells API:erna har exponerat metoden FontConfigs.setFontSubstitutes som accepterar två parametrar. Den första parametern är av typen String och ska vara namnet på det typsnitt som ska ersättas. Den andra parametern är en array av typen String. Användare kan ange en lista med typsnittsnamn som ersättningar för det ursprungliga typsnittet (specificerat i den första parametern).
 
 Här är ett enkelt användningsscenario.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Substituting the Arial font with Times New Roman & Calibri
 
-FontConfigs.setFontSubstitutes("Arial", new String[]{ "Times New Roman", "Calibri" });
+FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calibri" });
 
 {{< /highlight >}}
 
-## **Informationsmöte**
+## **Informationssamling**
 
-Utöver de ovan nämnda metoderna har API:erna Aspose.Cells också tillhandahållit sätt att samla information om vilka källor och ersättningar som har ställts in.
+Förutom de ovan nämnda metoderna har Aspose.Cells API:erna även medel för att samla information om vilka källor och ersättningar som har angetts.
 
-1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources() ): Denna metod returnerar en array av typ[**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource)som innehåller listan över specificerade teckensnittskällor. Om inga källor har angetts,[**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources()) returnerar en tom array.
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String) ): Denna metod accepterar en parameter av typen**Sträng** gör det möjligt att ange teckensnittsnamnet för vilket ersättning har ställts in. Om det inte har ställts in någon ersättning för det angivna teckensnittsnamnet sedan[**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String))-metoden returnerar null.
+1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--): Denna metod returnerar en array av typen [**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource) innehållande listan över specificerade typsnittskällor. Om ingen källa har angetts returnerar metoden [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--) en tom array.
+1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)): Denna metod accepterar en parameter av typen String som låter användaren ange typsnittsnamnet för vilket ersättning har angetts. Om ingen ersättning har angetts för det angivna typsnittsnamnet returnerar metoden [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) null.

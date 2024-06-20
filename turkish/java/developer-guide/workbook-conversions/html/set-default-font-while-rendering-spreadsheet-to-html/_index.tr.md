@@ -1,21 +1,22 @@
-﻿---
-title: Elektronik tablo oluşturulurken Varsayılan Yazı Tipini HTML olarak ayarlayın
+---
+title: Elektronik tabloyu HTML e dönüştürürken varsayılan yazı tipini ayarlayın
 type: docs
 weight: 830
 url: /tr/java/set-default-font-while-rendering-spreadsheet-to/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells, e-tabloyu işlerken varsayılan yazı tipini HTML olarak ayarlamanıza olanak tanır. Lütfen şunu kullanın:[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName)bu amaç için. Bu özellik, bir e-tabloda geçersiz veya mevcut olmayan yazı tiplerine sahip bazı hücreler olduğunda kullanışlıdır. Daha sonra bu hücreler, ile belirtilen bir yazı tipinde işlenecektir.[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName) Emlak.
+Aspose.Cells, elektronik tabloyu HTML olarak oluştururken varsayılan yazı tipini ayarlamanıza olanak sağlar. Bu amaçla [HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName) kullanın. Bu özellik, elektronik tabloda geçersiz veya mevcut olmayan yazı tipleri bulunan hücreler olduğunda kullanışlıdır. Bu durumda, bu hücreler [HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName) özelliği ile belirtilen yazı tipinde görüntülenir.
 
 {{% /alert %}} 
-## **Elektronik tablo oluşturulurken Varsayılan Yazı Tipini HTML olarak ayarlayın**
-Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve ilk çalışma sayfasının B4 hücresine bir miktar metin ekler ve yazı tipini bilinmeyen/var olmayan bir yazı tipine ayarlar. Ardından, Courier New, Arial, Times New Roman, vb. gibi farklı varsayılan yazı tipi adlarını ayarlayarak çalışma kitabını HTML'de kaydeder.
+## **HTML olarak elektronik tabloyu oluştururken varsayılan yazı tipini ayarlayın**
+Aşağıdaki örnek kod bir çalışma kitabı oluşturur, ilk çalışma sayfasının B4 hücresine bir metin ekler ve yazı tipini bilinmeyen/bulunmayan bir yazı tipine ayarlar. Daha sonra, çalışma kitabını farklı varsayılan yazı tipi adları olarak Courier New, Arial, Times New Roman vb. ayarlayarak HTML olarak kaydeder.
 
- Ekran görüntüsü, farklı varsayılan yazı tipi adlarını ayarlamanın etkisini gösterir.[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName)Emlak.
+Ekran görüntüsü, [HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName) özelliği aracılığıyla farklı varsayılan yazı tiplerinin etkisini göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](set-default-font-while-rendering-spreadsheet-to-html_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-html_1.png)
 
- kodu oluşturur[Courier New ile çıktı HTML dosyası](5472568) ,[Arial ile HTML çıktısı](5472567) ve[çıktı HTML dosyası Times New Roman ile](5472565).
+Kod, [Courier New ile üretilen çıktı HTML dosyası](5472568), [Arial ile üretilen çıktı HTML dosyası](5472567) ve [Times New Roman ile üretilen çıktı HTML dosyası](5472565) oluşturur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}

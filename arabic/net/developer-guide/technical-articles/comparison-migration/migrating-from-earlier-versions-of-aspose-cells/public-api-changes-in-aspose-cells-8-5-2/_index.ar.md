@@ -1,26 +1,27 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.5.2
+---
+title: تغييرات الواجهة البرمجية العامة في Aspose.Cells 8.5.2
 type: docs
 weight: 180
 url: /ar/net/public-api-changes-in-aspose-cells-8-5-2/
 ---
+
 {{% alert color="primary" %}} 
 
- توضح هذه الوثيقة التغييرات التي تم إجراؤها على Aspose.Cells API من النسخة 8.5.1 إلى 8.5.2 والتي قد تهم مطوري الوحدة النمطية / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/net/public-api-changes-in-aspose-cells-8-5-2/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.5.1 إلى 8.5.2 التي قد تكون مثيرة لاهتمام مطوري الوحدات / التطبيقات. يشمل ليس فقط الطرق العامة الجديدة والمحدثة، وإضافة الفئات، وما إلى ذلك، ولكن أيضاً وصفاً لأي تغييرات في السلوك وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **تقديم ورقة العمل إلى سياق رسومي**
- كشف هذا الإصدار من Aspose.Cells for .NET API عن حملين زائدين جديدين من طريقة SheetRender.ToImage التي تسمح الآن بقبول مثيل لفئة System.Drawing.Graphics إلى[تقديم في سياق الرسومات](/cells/ar/net/render-worksheet-to-graphic-context/). تواقيع الطرق المضافة حديثًا هي كما يلي.
+## **واجهات برمجة التطبيقات الجديدة**
+### **عرض الورقة العمل إلى سياق رسومي**
+تم تعريف إصدار Aspose.Cells for .NET API الحالي بطرح اثنين من Overloads الجديدة لطريقة SheetRender.ToImage التي تسمح الآن بقبول مثيل من فئة System.Drawing.Graphics ل[الرسم في سياق الرسم](/cells/ar/net/render-worksheet-to-graphic-context/). تواقيع الأساليب الجديدة التي تمت إضافتها هي كالتالي.
 
-1. SheetRender.ToImage (int pageIndex ، Graphics g ، float x ، float y)
-1. SheetRender.ToImage (int pageIndex، Graphics g، float x، float y، float width، float width، float height)
+1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
+1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -59,14 +60,14 @@ bmp.Save("test.png", ImageFormat.Png);
 {{< /highlight >}}
 
 
-### **أسلوب PivotTable.GetCellByDisplayName مضاف**
- كشف Aspose.Cells for .NET 8.5.2 طريقة PivotTable.GetCellByDisplayName التي يمكن استخدامها[استرداد عنصر Cell بواسطة اسم PivotField](/cells/ar/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). قد تكون هذه الطريقة مفيدة في السيناريوهات التي تريد فيها تمييز رأس PivotField أو تنسيقه.
+### **أضيفت طريقة PivotTable.GetCellByDisplayName**
+ضاف Aspose.Cells for .NET 8.5.2 طريقة PivotTable.GetCellByDisplayName التي يمكن استخدامها ل[استرجاع كائن الخلية باسم PivotField](/cells/ar/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). يمكن أن تكون هذه الطريقة مفيدة في السيناريوهات حيث ترغب في تسليط الضوء على أو تنسيق رأس PivotField.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -104,34 +105,34 @@ workbook.Save("output.xlsx");
 
 
 ### **تمت إضافة خاصية SaveOptions.MergeAreas**
-كشف Aspose.Cells for .NET 8.5.2 خاصية SaveOptions.MergeAreas التي يمكنها قبول قيمة النوع المنطقي. القيمة الافتراضية غير صحيحة ، ولكن إذا تم ضبطها على صواب ، فإن Aspose.Cells for .NET API يحاول دمج CellArea الفردي قبل حفظ الملف.
+ضاف Aspose.Cells for .NET 8.5.2 خاصية SaveOptions.MergeAreas التي يمكن أن تقبل قيمة من نوع Boolean. القيمة الافتراضية هي false، ومع ذلك، إذا تم ضبطها على true، فإن Aspose.Cells for .NET API يحاول دمج CellArea الفردية قبل حفظ الملف.
 
 {{% alert color="primary" %}} 
 
-إذا كان جدول البيانات يحتوي على عدد كبير جدًا من الخلايا الفردية مع تطبيق التحقق من الصحة ، فهناك احتمالية أن يكون جدول البيانات الناتج تالفًا. أحد الحلول الممكنة هو دمج الخلايا بقواعد تحقق مماثلة أو يمكنك الآن استخدام خاصية SaveOptions.MergeAreas لتوجيه API لدمج CellAreas تلقائيًا قبل حفظ العملية.
+إذا كان لديك ورقة بيانات تحتوي على العديد من الخلايا الفردية مع التطبيقات الصحيحة، فهناك فرص لتلف الورقة الناتجة. إحدى الحلول الممكنة هي دمج الخلايا ذات القواعد الصحيحة المتطابقة أو يمكنك الآن استخدام خاصية SaveOptions.MergeAreas لتوجيه الواجهة البرمجية لتلقائي دمج مناطق الخلايا قبل عملية الحفظ.
 
 {{% /alert %}} 
-### **تمت إضافة شكل الملكية. الهندسة**
- مع إصدار v8.5.2 ، كشف Aspose.Cells API خاصية Shape.Geometry.ShapeAdjustValues التي يمكن استخدامها[إجراء تغييرات على نقاط الضبط للأشكال المختلفة](/cells/ar/net/change-adjustment-values-of-the-shape/).
+### **أضيفت خاصية Shape.Geometry.ShapeAdjustValues**
+مع إصدار v8.5.2، تم تعريف Aspose.Cells API بخاصية Shape.Geometry.ShapeAdjustValues التي يمكن استخدامها ل[إجراء تغييرات على نقاط التعديل لأشكال مختلفة](/cells/ar/net/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
-في واجهة Microsoft Excel ، يتم عرض نقاط الضبط كعقد ماسية صفراء.
+في واجهة Microsoft Excel، تعرض نقاط التعديل كأعقاب الماسية الصفراء.
 
 {{% /alert %}} 
 
 على سبيل المثال،
 
-1. مستطيل مدور لديه تعديل لتغيير القوس
-1. المثلث لديه تعديل لتغيير موقع النقطة
-1. شبه منحرف لديه تعديل لتغيير عرض الجزء العلوي
-1. تحتوي الأسهم على تعديلين لتغيير شكل الرأس والذيل
+1. لديك مستطيل مستدير له تعديل لتغيير القوس
+1. لديك مثلث له تعديل لتغيير موقع النقطة
+1. لديك متوازي الأضلاع له تعديل لتغيير عرض الجزء العلوي
+1. لديك سهام له تعديلين لتغيير شكل الرأس والذيل
 
-هنا هو أبسط سيناريو استخدام.
+فيما يلي سيناريو الاستخدام الأبسط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -164,20 +165,20 @@ workbook.Save("output.xls);
 {{< /highlight >}}
 
 
-### **تمت إضافة حقل التعداد**
- كشف Aspose.Cells for .NET 8.5.2 دالة Consolidation.DistinctCount التي يمكن استخدامها[تطبيق وظيفة توحيد العد المميز](/cells/ar/net/consolidation-function/) في DataField في PivotTable.
+### **تمت إضافة تعداد Field ConsolidationFunction.DistinctCount**
+قام Aspose.Cells for .NET 8.5.2 بتعريض حقل ConsolidationFunction.DistinctCount الذي يمكن استخدامه لـ [تطبيق وظيفة تجميع العدد المميز](/cells/ar/net/consolidation-function/) على DataField من PivotTable.
 
 {{% alert color="primary" %}} 
 
-وظيفة دمج العد المميزة مدعومة بواسطة Microsoft Excel 2013 فقط.
+دالة التجميع الفريدة Distinct Count مدعومة فقط في Microsoft Excel 2013.
 
 {{% /alert %}} 
-### **معالجة أفضل للأحداث لـ GridDesktop**
-كشف هذا الإصدار من Aspose.Cells.GridDesktop عن 4 أحداث جديدة. يتم تشغيل 2 من هذه الأحداث في حالات مختلفة لتحميل ملفات جداول البيانات في GridDesktop بينما يتم تشغيل الحدثين الآخرين عند حساب الصيغ.
+### **تحسين معالجة الأحداث لـ GridDesktop**
+تم تعريض 4 أحداث جديدة في الإصدار الحالي من Aspose.Cells.GridDesktop.  يُشغّل 2 من هذه الأحداث في حالات مختلفة من تحميل ملفات جداول البيانات في GridDesktop بينما تُشغّل 2 أخرى عند حساب الصيغ.
 
-يتم سرد الأحداث على النحو التالي.
+تم سرد الأحداث على النحو التالي.
 
 1. GridDesktop.BeforeLoadFile
 1. GridDesktop.FinishLoadFile
-1. GridDesktop. قبل الحساب
+1. GridDesktop.BeforeCalculate
 1. GridDesktop.FinishCalculate

@@ -1,14 +1,17 @@
-﻿---
-title: Scrivere lo script lato client GridWeb
+---
+title: Scrivere script lato client di GridWeb
 type: docs
 weight: 10
-url: /it/net/write-gridweb-client-side-script/
+url: /it/net/aspose-cells-gridweb/write-gridweb-client-side-script/
+keywords: GridWeb,client,js,javascript
+description: Questo articolo illustra come lavorare con le api js client in GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Gli sviluppatori possono scrivere script sul lato client per il controllo Aspose.Cells.GridWeb. Ciò significa che è possibile richiamare una funzione JavaScript lato client per eseguire un'attività specifica correlata al controllo GridWeb. Ad esempio, gli sviluppatori possono scrivere funzioni JavaScript per inviare dati GridWeb a un server o mostrare un messaggio di avviso quando si verifica un errore di convalida, ecc.
+Gli sviluppatori possono scrivere script lato client per il controllo Aspose.Cells.GridWeb. Ciò significa che è possibile invocare una funzione JavaScript lato client per eseguire un compito specifico relativo al controllo GridWeb. Ad esempio, gli sviluppatori possono scrivere funzioni JavaScript per inviare i dati GridWeb a un server o mostrare un messaggio di allerta quando si verifica un errore di convalida ecc.
 
-Questo argomento spiega questa funzione con l'aiuto di esempi.
+Questo argomento spiega questa funzionalità con l'aiuto di esempi.
 
 {{% /alert %}} 
 ## **Scrittura di script lato client per Aspose.Cells.GridWeb**
@@ -24,9 +27,9 @@ Creare funzioni JavaScript in una pagina ASPX e assegnare i nomi di queste funzi
 
 La funzione JavaScript che verrà assegnata alla proprietà OnSubmitClientFunction deve essere definita correttamente come mostrato di seguito:
 
-**javascript**
+**JavaScript**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  function function_name(arg, cancelEdit)
 
@@ -42,49 +45,49 @@ La funzione JavaScript che verrà assegnata alla proprietà OnSubmitClientFuncti
 
 dove il parametro [arg] rappresenta il comando generato dal controllo. Il comando può essere "Salva", "Invia", "Annulla" ecc. e il parametro [cancelEdit] è un valore booleano, che indica se l'input dell'utente è stato annullato o meno.
 
-Qualsiasi funzione JavaScript assegnata alla proprietà OnSubmitClientFunction viene chiamata ogni volta dal controllo GridWeb prima di inviare i dati GridWeb a un server. Analogamente, se una funzione viene assegnata alla proprietà OnValidationErrorClientFunction, tale funzione verrà richiamata ogni volta che si verifica un errore di convalida.
+Qualsiasi funzione JavaScript assegnata alla proprietà OnSubmitClientFunction è chiamata ogni volta dal controllo GridWeb prima di inviare i dati di GridWeb a un server. Allo stesso modo, se una funzione è assegnata alla proprietà OnValidationErrorClientFunction, quella funzione verrà chiamata ogni volta che si verifica un errore di convalida.
 
 {{% /alert %}} 
 ### **Funzioni per lo scripting lato client**
-Aspose.Cells.GridWeb espone anche funzioni specialmente per lo scripting lato client. Queste funzioni possono essere utilizzate all'interno delle funzioni JavaScript per ottenere un maggiore controllo di Aspose.Cells.GridWeb. Queste funzioni lato client includono quanto segue:
+Aspose.Cells.GridWeb espone anche funzioni specialmente per lo scripting lato client. Queste funzioni possono essere utilizzate all'interno delle funzioni JavaScript per ottenere un maggiore controllo di Aspose.Cells.GridWeb. Queste funzioni lato client includono le seguenti:
 
 |**Funzioni**|**Descrizione**|
-|:- |:- |
-|updateData(bool cancelModifica)|Aggiorna tutti i dati client di Aspose.Cells.GridWeb prima di inviarli al server. Se il parametro cancelEdit è vero, GridWeb elimina tutti gli input dell'utente.|
-|convalidaTutto()|Utilizzato per verificare se sono presenti errori di convalida nell'input dell'utente. Se c'è un errore, la funzione restituisce false, altrimenti true .|
-|submit(string arg, bool cancelModifica)|Chiamare questa funzione per eseguire il postback o inviare i dati al server. Questa funzione esegue entrambe le attività, ovvero l'aggiornamento dei dati e la convalida dell'input dell'utente. Questa funzione può anche attivare un evento di comando sul lato server. Usa il parametro arg per passare il tuo comando. Ad esempio: il comando SALVA viene utilizzato per fare clic su**Salva** pulsante sulla barra dei comandi del controllo GridWeb e il comando CCMD:MYCOMMAND genera un evento CustomCommand.|
-|setCellaAttiva(int riga, int colonna)|Utilizzato per attivare una cella specifica.|
-|setCellValue(int riga, int colonna, valore stringa)|Utilizzato per inserire un valore in qualsiasi cella specificata utilizzando i relativi numeri di riga e colonna.|
-|getCellValue(int riga, int colonna)|Restituisce il valore di qualsiasi cella specificata.|
-|getActiveRow()|Utilizzato insieme alla funzione getActiveColumn() per determinare la posizione di una cella attiva.|
-|getActiveColumn()|Utilizzato insieme alla funzione getActiveRow() per determinare la posizione di una cella attiva.|
+| :- | :- |
+|updateData(bool cancelEdit)|Aggiorna tutti i dati client di Aspose.Cells.GridWeb prima di inviarli al server. Se il parametro cancelEdit è true, allora GridWeb scarta tutti gli input dell'utente.|
+|validateAll()|Usato per verificare se ci sono errori di convalida nell'input dell'utente. Se c'è un errore, la funzione restituisce false, altrimenti true.|
+|submit(string arg, bool cancelEdit)|Chiama questa funzione per inviare dati al server. Questa funzione esegue entrambi i compiti, ovvero aggiornare i dati e convalidare l'input dell'utente. Questa funzione può anche generare un evento di comando lato server. Utilizzare il parametro arg per passare il comando. Ad esempio: il comando SAVE viene utilizzato per fare clic sul pulsante **Salva** nella barra dei comandi del controllo GridWeb e il comando CCMD:MYCOMMAND attiva un evento di comando personalizzato.|
+|setActiveCell(int row, int column)|Usato per attivare una cella specifica.|
+|setCellValue(int row, int column, string value)|Usato per inserire un valore in qualsiasi cella specificata utilizzando i suoi numeri di riga e colonna.|
+|getCellValue(int row, int column)|Restituisce il valore di una cella specificata.|
+|getActiveRow()|Utilizzato in combinazione con la funzione getActiveColumn() per determinare la posizione di una cella attiva.|
+|getActiveColumn()|Usato in combinazione con la funzione getActiveRow() per determinare la posizione di una cella attiva.|
 |getSelectRange()|Restituisce l'ultimo intervallo selezionato.|
-|setSelectRange()|Seleziona l'intervallo specificato.|
-|cancellaSelezioni()|Cancella tutta la selezione esclusa la cella attiva corrente.|
-|getCellsArray()| Viene utilizzato con altre funzioni correlate come getCellName(), getCellValueByCell(), getCellRow() e getCellColumn(). Si prega di leggere questo articolo per ulteriori informazioni sull'utilizzo di questa funzione:[Leggere i valori delle celle GridWeb sul lato client](/cells/it/net/read-the-values-of-the-gridweb-cells-on-client-side/)|
-Per creare un'applicazione di test contenente script lato client che funzionano con Aspose.Cells.GridWeb, attenersi alla seguente procedura:
+|setSelectRange()|Seleziona l'intervallo dato.|
+|clearSelections()|Pulisce tutta la selezione escludendo la cella attiva corrente.|
+|getCellsArray()|Viene utilizzata con altre funzioni correlate come getCellName(), getCellValueByCell(), getCellRow() e getCellColumn(). Si prega di leggere questo articolo per ulteriori informazioni riguardanti l'utilizzo di questa funzione: [Leggere i valori delle celle di GridWeb sul lato client](/cells/it/net/aspose-cells-gridweb/read-the-values-of-the-gridweb-cells-on-client-side/)|
+Per creare un'applicazione di test contenente script lato client che funzionano con Aspose.Cells.GridWeb, seguire i passaggi seguenti:
 
-1. Crea funzioni JavaScript che devono essere richiamate da GridWeb.
- Queste funzioni verranno aggiunte alle pagine ASP.NET<script></script> etichetta.
+1. Creare le funzioni JavaScript da invocare da GridWeb.
+   These functions will be added to the ASP.NET page's <script></script> tag.
 1. Assegnare i nomi delle funzioni alle proprietà OnSubmitClientFunction e OnValidationErrorClientFunction.
 
 L'output dell'esempio di codice è mostrato di seguito:
 
 **Una convalida aggiunta alla cella C1** 
 
-![cose da fare:immagine_alt_testo](write-gridweb-client-side-script_1.png)
+![todo:image_alt_text](write-gridweb-client-side-script_1.png)
 
- Aggiungi un valore non valido e fai clic**Salva**. Si verifica un errore di convalida e viene eseguita la ValidationErrorFunction.
+Aggiungi un valore non valido e clicca su **Salva**. Si verifica un errore di convalida e viene eseguita la funzione ValidationErrorFunction.
 
-**ValidationErrorFunction richiamato in caso di errore di convalida** 
+**Funzione di convalida invocata in caso di errore di convalida** 
 
-![cose da fare:immagine_alt_testo](write-gridweb-client-side-script_2.png)
+![todo:image_alt_text](write-gridweb-client-side-script_2.png)
 
- Finché non si immette un valore valido, nessun dato viene inviato al server. Immettere un valore valido e fare clic**Salva**. Viene eseguita la funzione Confirm.
+Fino a quando non inserisci un valore valido, nessun dato viene inviato al server. Inserisci un valore valido e clicca su **Salva**. Viene eseguita la funzione ConfirmFunction.
 
-**ConfirmFunction richiamato prima di inviare i dati GridWeb al server** 
+**Funzione di conferma invocata prima dell'invio dei dati di GridWeb al server** 
 
-![cose da fare:immagine_alt_testo](write-gridweb-client-side-script_3.png)
+![todo:image_alt_text](write-gridweb-client-side-script_3.png)
 
 
 

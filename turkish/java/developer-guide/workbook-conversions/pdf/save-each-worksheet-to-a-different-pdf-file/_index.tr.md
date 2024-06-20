@@ -1,21 +1,22 @@
 ---
-title: Her Çalışma Sayfasını Farklı Bir PDF Dosyasına Kaydet
+title: Her bir Çalışsayfayı Farklı Bir PDF Dosyasına Kaydet
 type: docs
 weight: 50
 url: /tr/java/save-each-worksheet-to-a-different-pdf-file/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, elektronik tablo dosyalarının (resimler, grafikler vb. içeren) PDF belgelerine dönüştürülmesini destekler. Aspose.Cells for Java, bir elektronik tabloyu PDF belgesine dönüştürmek için bağımsız olarak çalışabilir ve artık dönüştürme için Aspose.PDF for Java kullanmanıza gerek yoktur. Tüm işlem bellekte yapılabildiğinden, dönüştürme herhangi bir geçici dosya (lar) oluşturmayı / kullanmayı gerektirmez.
+Aspose.Cells, (görüntüler, grafikler vb. içeren) elektronik tablo dosyalarını PDF belgelerine dönüştürmeyi destekler. Aspose.Cells for Java bağımsız bir şekilde bir elektronik tabloyu PDF belgesine dönüştürebilir ve dönüşüm için artık Aspose.PDF for Java'yı kullanmanıza gerek yoktur. Dönüşüm, herhangi bir geçici dosya oluşturmayı / kullanmayı gerektirmez çünkü tüm işlem bellekte yapılabilir.
 
 {{% /alert %}}
 
-Farklı PDF dosyaları oluşturmak için şablon Excel dosyanızdaki her çalışma sayfasını kaydetmeniz gerekiyorsa. Bu kolayca elde edilebilir. Bir sayfa dizini olarak ayarlamayı deneyebilirsiniz.**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)** PDF'e işlenecek bir seferde seçenek.
+Eğer şablon Excel dosyanızdaki her çalışma sayfasını farklı PDF dosyaları oluşturmak istiyorsanız, bu kolayca gerçekleştirilebilir. PDF'ye dönüştürmek için [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-) seçeneğini bir seferde bir sayfa indeksine ayarlamayı deneyebilirsiniz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
 
 {{% alert color="primary" %}}
 
- Elektronik tablo formüller içeriyorsa, en iyisi[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) yöntemi, elektronik tabloyu PDF'e dönüştürmeden hemen önce. Bu, formüle bağlı değerlerin yeniden hesaplanmasını ve doğru değerlerin PDF'de oluşturulmasını sağlar.
+Eğer elektronik tablo formüller içeriyorsa, elektronik tabloyu PDF'ye dönüştürmeden önce [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) yöntemini çağırmak en iyisidir. Bu, formül bağımlı değerlerin yeniden hesaplanmasını sağlar ve doğru değerler PDF'de gösterilir.
 
 {{% /alert %}}

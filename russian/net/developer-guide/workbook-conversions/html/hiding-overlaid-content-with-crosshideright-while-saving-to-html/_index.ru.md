@@ -1,18 +1,19 @@
-﻿---
-title: Скрытие наложенного содержимого с помощью CrossHideRight при сохранении в HTML
+---
+title: Скрытие перекрывающегося контента с помощью CrossHideRight при сохранении в HTML
 type: docs
 weight: 100
 url: /ru/net/hiding-overlaid-content-with-crosshideright-while-saving-to/
 ---
+
 ## **Возможные сценарии использования**
 
-Когда вы сохраняете файл Excel по адресу HTML, вы можете указать различные перекрестные типы для строк ячеек. По умолчанию Aspose.Cells генерирует HTML в соответствии с Microsoft Excel, но когда вы меняете перекрестный тип на[**КрестСкрытьПраво**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype), то он скрывает все строки с правой стороны ячейки, которые перекрываются или перекрываются со строкой ячейки.
+Когда вы сохраняете свой Excel файл в HTML, вы можете указать различные типы крестиков для строк ячейки. По умолчанию Aspose.Cells генерирует HTML в соответствии с Microsoft Excel, но когда вы изменяете тип крестика на [**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype), то скрываются все строки справа от строки ячейки, которые перекрываются или перекрывают строку ячейки.
 
-## **Скрытие наложенного содержимого с помощью CrossHideRight при сохранении в HTML**
+## **Скрытие перекрывающегося содержимого с CrossHideRight при сохранении в Html**
 
- Следующий пример кода загружает[образец файла Excel](64716894.xlsx) и сохраняет его в[вывод HTML](64716893.zip) после установки[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/htmlcrossstringtype)как[**КрестСкрытьПраво**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). Скриншот объясняет, как[**КрестСкрытьПраво**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)влияет на вывод HTML из вывода по умолчанию.
+Следующий образец кода загружает [образец файла Excel](64716894.xlsx) и сохраняет его в [выходной HTML](64716893.zip) после установки [**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/htmlcrossstringtype) в [**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). На скриншоте показано, как [**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) влияет на выходной HTML по умолчанию.
 
-![дело:изображение_альтернативный_текст](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
+![todo:image_alt_text](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
 
 ## **Образец кода**
 

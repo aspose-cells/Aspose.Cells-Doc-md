@@ -1,39 +1,40 @@
-﻿---
-title: Aspose.Cells.GridJs Lavorare in mobilità
+---
+title: Aspose.Cells.GridJs Funzionamento su cellulare
 type: docs
 weight: 250
 url: /it/net/aspose-cells-gridjs/mobile/
-description: Questo articolo descrive come utilizzare GridJs nel dispositivo mobile.
-keywords: mobile spreadsheet editor, mobile spreadsheet viewer
+description: Questo articolo descrive come utilizzare GridJs su dispositivi mobili.
+keywords: GridJs, editor di fogli di calcolo per dispositivi mobili, visualizzatore di fogli di calcolo per dispositivi mobili, excel, visualizzazione, modifica, mobile
 ---
-## Usa GridJs nel dispositivo mobile
 
- Puoi utilizzare GridJs senza problemi sul dispositivo mobile.
+## Utilizzare GridJs su dispositivi mobili
 
-GridJs può adattare lo schermo del cellulare.
+È possibile utilizzare GridJs agevolmente sul dispositivo mobile. 
 
- Corri il[ demo di GridJs](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "demo of GridJs ")
+GridJs si adatta allo schermo mobile.
 
-La porta predefinita del progetto demo è 24262.
+Esegui la [demo di GridJs](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "demo di GridJs")
 
- È necessario accedere alla pagina tramite IP sul terminale mobile http://localhost:24262/GridJs2/List .
+La porta predefinita del progetto demo è 24262. 
 
-Puoi usare un piccolo strumento come: iisexpress proxy.
+È necessario accedere alla pagina tramite l'IP sul terminale mobile http://localhost:24262/GridJs2/List. 
 
-Installa con il seguente comando:
+Puoi utilizzare un piccolo strumento come: proxy iisexpress.
+
+Installare con il seguente comando:
 
 *npm install -g iisexpress-proxy*
 
-Eseguire il comando per completare la mappatura delle porte:
+Esegui il comando per completare il mapping della porta:
 
-*iisexpress-proxy da 24262 a 82*
+*iisexpress-proxy 24262 a 82*
 
-![comando todo:iisexpress](iisproxy_port_map.png)
+![todo:iisexpress command](iisproxy_port_map.png)
 
 Quindi possiamo aprire la pagina web demo nel browser mobile.
 
-Naviga nella pagina http://yourip:82/GridJs2/List e seleziona un file da aprire.
+Passa alla pagina http://tuauri:82/GridJs2/List e seleziona un file da aprire.
 
-![todo:la navigazione dello schermo sul cellulare](gridjs_edit_on_mobile.png)
+![todo:la navigazione dello schermo su mobile](gridjs_edit_on_mobile.png)
 
 Quindi possiamo eseguire operazioni di modifica come nel dispositivo PC.

@@ -1,34 +1,35 @@
-﻿---
+---
 title: Daten gruppieren
 type: docs
 weight: 10
 url: /de/net/grouping-data/
 ---
-In einigen Excel-Berichten müssen Sie die Daten möglicherweise in Gruppen aufteilen, um sie leichter lesen und analysieren zu können. Einer der Hauptzwecke für das Aufteilen von Daten in Gruppen ist das Ausführen von Berechnungen (Durchführen von Zusammenfassungsoperationen) für jede Gruppe von Datensätzen.
 
-Aspose.Cells Mit intelligenten Markierungen können Sie Ihre Daten nach Feld(ern) gruppieren und Zusammenfassungszeilen zwischen Datensätzen oder Datengruppen platzieren. Wenn Sie beispielsweise Daten nach Customers.CustomerID gruppieren, können Sie jedes Mal, wenn sich die Gruppe ändert, einen Zusammenfassungsdatensatz hinzufügen.
+In einigen Excel-Berichten ist es möglicherweise erforderlich, die Daten in Gruppen aufzuteilen, um sie einfacher zu lesen und zu analysieren. Ein Hauptzweck, Daten in Gruppen aufzuteilen, besteht darin, Berechnungen (Zusammenfassungsoperationen) für jede Gruppe von Datensätzen auszuführen.
 
-Die folgenden Beispiel-Codeausschnitte zeigen, wie Daten in einem Excel-Bericht mithilfe von intelligenten Markierungen gruppiert werden.
+Mit Aspose.Cells Smart Markers können Sie Ihre Daten nach Feldern gruppieren und Zusammenfassungszeilen zwischen Datensätzen oder Daten-Gruppen platzieren. Wenn beispielsweise Daten nach Kunden.CustomerID gruppiert werden, können Sie bei jeder Änderung der Gruppe einen Zusammenfassungsdatensatz hinzufügen.
+
+Die nachfolgenden Beispielcodes zeigen, wie Daten in einem Excel-Bericht mithilfe von Smart Markers gruppiert werden.
 ## **Parameter**
-Im Folgenden sind einige der Smart-Marker-Parameter aufgeführt, die zum Gruppieren von Daten verwendet werden.
-**Gruppe:normal/zusammenführen/wiederholen**
+Im Folgenden sind einige der Smart-Marker-Parameter aufgeführt, die für die Gruppierung von Daten verwendet werden.
+**group:normal/merge/repeat**
 
 Wir unterstützen drei Arten von Gruppen, zwischen denen Sie wählen können.
 
-- normal - Der Gruppieren-nach-Feld(er)-Wert wird für die entsprechenden Datensätze in der Spalte nicht wiederholt; stattdessen werden sie einmal pro Datengruppe gedruckt.
-- merge - Dasselbe Verhalten wie für den normalen Parameter, außer dass er die Zellen in den Gruppieren-nach-Feldern für jeden Gruppensatz zusammenführt.
-- repeat - Der Gruppieren-nach-Feld(er)-Wert wird für die entsprechenden Datensätze wiederholt.
+- normal - Der Gruppenwert wird nicht für die entsprechenden Datensätze in der Spalte wiederholt, sondern einmal pro Daten-Gruppe gedruckt.
+- merge - Das gleiche Verhalten wie beim normal-Parameter, außer dass die Zellen in den Gruppenfeldern für jede Gruppe zusammengeführt werden.
+- repeat - Der Gruppenwert wird für die entsprechenden Datensätze wiederholt.
 
-Wenn Sie mehrere Parameter haben, trennen Sie sie mit einem Komma, aber ohne Leerzeichen: ParameterA,ParameterB,ParameterC
+Wenn Sie mehrere Parameter haben, trennen Sie diese mit Kommas, aber ohne Leerzeichen: parameterA,parameterB,parameterC.
 ### **Beispiel**
-Dieses Beispiel zeigt einige der Gruppierungsparameter in Aktion. Es verwendet die Access-Datenbank Northwind.mdb Microsoft und extrahiert Daten aus der Tabelle mit dem Namen "Bestelldetails". Wir erstellen eine Designer-Datei mit dem Namen SmartMarker_Designer.xls in Microsoft Excel und platzieren intelligente Markierungen in verschiedenen Zellen in Arbeitsblättern. Die Markierungen werden verarbeitet, um die Arbeitsblätter zu füllen. Die Daten werden durch ein Gruppenfeld platziert und organisiert.
+Dieses Beispiel zeigt einige der Gruppierungsparameter in Aktion. Es verwendet die Microsoft Access-Datenbank Northwind.mdb und extrahiert Daten aus der Tabelle "Order Details". Wir erstellen eine Designer-Datei namens SmartMarker_Designer.xls in Microsoft Excel und fügen Smart Marker in verschiedene Zellen in Arbeitsblättern ein. Die Marker werden verarbeitet, um die Arbeitsblätter auszufüllen. Die Daten werden anhand eines Gruppenfelds platziert und organisiert.
 
-Die Designerdatei hat zwei Arbeitsblätter. In der ersten setzen wir intelligente Markierungen mit Gruppierungsparametern, wie im folgenden Screenshot gezeigt. Drei Smart-Marker (mit Gruppierungsparametern) werden platziert:
-&=Bestelldetails.OrderID(group:merge,skip:1),
-&=Bestelldetails.Menge(Zwischensumme9:Bestelldetails.BestellID) und
-&=Bestelldetails.Einzelpreis(Zwischensumme9:Bestelldetails.Bestell-ID) gehen jeweils in A5, B5 und C5.
+Die Designer-Datei hat zwei Arbeitsblätter. Im ersten Arbeitsblatt fügen wir Smart Marker mit Gruppierungsparametern gemäß dem untenstehenden Screenshot ein. Drei Smart Marker (mit Gruppierungsparametern) werden platziert:
+&=Order Details.OrderID(group:merge,skip:1),
+&=Bestelldetails.Menge(subtotal9:Bestelldetails.BestellID) und
+&=Bestelldetails.Einzelpreis(subtotal9:Bestelldetails.BestellID) werden in A5, B5 und C5 entsprechend eingefügt.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -88,5 +89,5 @@ wd.Workbook.Save(FileName);
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Grouping%20Data%20OLE%20DB%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Grouping%20Data%20OLE%20DB%20%28Aspose.Cells%29.zip)

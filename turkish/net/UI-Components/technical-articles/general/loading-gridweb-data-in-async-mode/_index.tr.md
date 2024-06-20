@@ -1,18 +1,21 @@
-﻿---
-title: GridWeb Verilerini Zaman Uyumsuz Modda Yükleme
+---
+title: GridWeb Verilerini Asenkron Modda Yükleme
 type: docs
 weight: 40
-url: /tr/net/loading-gridweb-data-in-async-mode/
+url: /tr/net/aspose-cells-gridweb/loading-data-in-async-mode/
+description: Bu makale, GridWeb de daha iyi performans elde etmek için asenkron modun nasıl kullanılacağını açıklar.
+keywords: GridWeb,performans,asenkron,asenkron mod
 ---
+
 {{% alert color="primary" %}} 
 
-Büyük veri kümeleri içeren bir Çalışma Kitabı oluştururken veya büyük bir Microsoft Excel dosyasını okurken, bunu yapmak kesinlikle daha fazla zaman ve kaynak gerektirecektir. İşlemin alacağı toplam bellek her zaman bir endişe kaynağıdır. Zorlukla başa çıkmak için alınabilecek önlemler var. Aspose.Cells.GridWeb, bellek kullanımını azaltmak, azaltmak ve optimize etmek için bazı ilgili seçenekler ve API'ler sağlar. Ayrıca, sürecin daha verimli çalışmasına ve daha hızlı çalışmasına yardımcı olabilir. Büyük hücre verileri içeren bir çalışma sayfası için, veri kümesini eşzamansız olarak yükleyebilirsiniz; bu, kullanıcı deneyimi için genel performansı artırabilir.
+Büyük veri setleriyle bir Çalışma Kitabı oluşturulurken veya büyük bir Microsoft Excel dosyası okunurken, kesinlikle daha fazla zaman ve kaynak gerekecektir. İşlemın alacağı toplam bellek her zaman bir endişe kaynağıdır. Bu zorluğun üstesinden gelmek için alınabilecek önlemler bulunmaktadır. Aspose.Cells.GridWeb, bellek kullanımını düşürmek, azaltmak ve optimize etmek için bazı ilgili seçenekler ve API'lar sağlar. Ayrıca, işlemi daha verimli ve daha hızlı çalıştırmaya yardımcı olabilir. Büyük hücre verileri içeren bir çalışma sayfası için, veri setini asenkron olarak yükleyebilirsiniz, bu da kullanıcı deneyimi için genel performansı artırabilir.
 
 {{% /alert %}} 
 
-Hücre verileri için belleği ve performansı optimize etmek üzere GridWeb.EnableAsync seçeneğini kullanın. Hücreler için büyük bir veri seti oluştururken. Seçeneği true olarak ayarladığınızda, veri yükleme yalnızca mevcut görünür Windows alanını temel alacaktır. Kısacası, GridWeb'de çalışma sayfasının hücre verilerini kaydırdığınızda, yalnızca geçerli kaydırma konumuna dayalı olarak yeni Windows verilerini yükleyecektir.
+GridWeb.EnableAsync seçeneğini kullanarak hücre verileri için bellek ve performansı optimize edin. Büyük bir veri seti oluşturulurken. Seçeneği true olarak ayarladığınızda, veri yükleme yalnızca mevcut görünen pencere alanına dayalı olacaktır. Kısacası, GridWeb'deki çalışma sayfasındaki hücre verilerinde kaydırma yaptığınızda, yeni Pencere verileri yalnızca mevcut kaydırma konumuna bağlı olarak yüklenecektir.
 
-Aşağıdaki örnek, GridWeb'in zaman uyumsuz modunun nasıl etkinleştirileceğini gösterir.
+Aşağıdaki örnek, GridWeb'in asenkron modunu etkinleştirmenin nasıl yapıldığını gösterir.
 
 
 

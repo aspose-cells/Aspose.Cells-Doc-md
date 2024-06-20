@@ -1,36 +1,37 @@
 ---
-title: Zwischensummen erstellen
+title: Untersummen erstellen
 type: docs
 weight: 800
 url: /de/net/creating-subtotals/
-description: Erfahren Sie, wie Sie mithilfe von Aspose.Cells for .NET API Zwischensummen für sich wiederholende Werte in einer Tabelle erstellen.
-keywords: Apply Subtotals, Set Subtotals, Add subtotals, Create Subtotals, How to add subtotals to a worksheet 
+description: Erfahren Sie, wie Sie mit der API Aspose.Cells for .NET Untertotale für wiederholte Werte in einem Tabellenblatt erstellen können.
+keywords: Untertotale anwenden, Untertotale festlegen, Untertotale hinzufügen, Untertotale erstellen, Wie Sie Untertotale zu einem Arbeitsblatt hinzufügen 
 ---
+
 {{% alert color="primary" %}}
 
-Sie können automatisch Zwischensummen für alle wiederkehrenden Werte in einer Tabelle erstellen. Aspose.Cells bietet API-Funktionen, mit denen Sie Zwischensummen programmgesteuert zu Tabellenkalkulationen hinzufügen können.
+Sie können automatisch Teilergebnisse für beliebige wiederholende Werte in einem Tabellenblatt erstellen. Aspose.Cells bietet API-Funktionen, die Ihnen helfen, Teilergebnisse programmgesteuert zu Tabellenblättern hinzuzufügen.
 
 {{% /alert %}}
 
-##  **Mit Microsoft Excel**
+## **Verwendung von Microsoft Excel**
 
-So fügen Sie Zwischensummen in Microsoft Excel hinzu:
+Um Teilsummen in Microsoft Excel hinzuzufügen:
 
-1. Erstellen Sie im ersten Arbeitsblatt der Arbeitsmappe eine einfache Datenliste (wie in der Abbildung unten gezeigt) und speichern Sie die Datei als Book1.xls.
-1. Wählen Sie eine beliebige Zelle in Ihrer Liste aus.
-1.  Von dem**Daten** Wählen Sie im Menü *Zwischensummen**. Der Dialog „Zwischensummen“ wird angezeigt. Definieren Sie, welche Funktion verwendet werden soll und wo die Zwischensummen platziert werden sollen.
+1. Erstellen Sie eine einfache Datenliste im ersten Arbeitsblatt der Arbeitsmappe (wie unten gezeigt) und speichern Sie die Datei als Book1.xls.
+1. Wählen Sie eine beliebige Zelle innerhalb Ihrer Liste aus.
+1. Wählen Sie im **Daten**-Menü **Teilsummen** aus. Der Dialog für Teilsummen wird angezeigt. Definieren Sie, welche Funktion verwendet werden soll und wo die Teilsummen platziert werden sollen.
 
-##  **Mit der Aspose.Cells API**
+## **Verwendung der Aspose.Cells-API**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , das eine Microsoft Excel-Datei darstellt. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
+Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), die eine Microsoft Excel-Datei repräsentiert. Die Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) enthält eine [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
 
-Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Die Klasse bietet eine breite Palette von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern und anderen Objekten. Jedes Arbeitsblatt besteht aus a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Sammlung. Um Zwischensummen zu einem Arbeitsblatt hinzuzufügen, verwenden Sie die[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Klasse'[**Zwischensumme**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index)Methode. Geben Sie der Methode Parameterwerte an, um anzugeben, wie die Zwischensumme berechnet und platziert werden soll.
+Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) repräsentiert. Die Klasse bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Arbeitsblättern und anderen Objekten. Jedes Arbeitsblatt besteht aus einer [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung. Um Teilsummen zu einem Arbeitsblatt hinzuzufügen, verwenden Sie die [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Klasse und die Methode [**Subtotal**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) der Klasse. Geben Sie Parameterwerte an die Methode, um zu spezifizieren, wie die Teilsumme berechnet und platziert werden soll.
 
-In den folgenden Beispielen haben wir Zwischensummen zum ersten Arbeitsblatt der Vorlagendatei (Book1.xls) mit Aspose.Cells API hinzugefügt. Wenn der Code ausgeführt wird, wird ein Arbeitsblatt mit Zwischensummen erstellt.
+In den folgenden Beispielen haben wir Untertotale dem ersten Arbeitsblatt der Vorlagendatei (Book1.xls) mit der Aspose.Cells-API hinzugefügt. Wenn der Code ausgeführt wird, wird ein Arbeitsblatt mit Untertotalen erstellt.
 
-Die folgenden Codeausschnitte zeigen, wie man mit Aspose.Cells for .NET Zwischensummen zu einem Arbeitsblatt hinzufügt.
+Die folgenden Code-Ausschnitte zeigen, wie Sie Zwischensummen zu einem Arbeitsblatt mit Aspose.Cells for .NET hinzufügen können.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-CreatingSubtotals-1.cs" >}}
 
-##  **Vorabthemen**
-- [Anwenden einer Zwischensumme und Ändern der Richtung der Gliederungszusammenfassungszeilen unter „Detail“.](/cells/de/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)
+## **Erweiterte Themen**
+- [Teilsumme anwenden und Richtung der Zusammenfassungszeilen unterhalb der Detaildaten ändern](/cells/de/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/)

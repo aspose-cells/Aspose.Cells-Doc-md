@@ -1,38 +1,39 @@
 ---
-title: Изменить направление метки деления
-description: Узнайте, как изменить направление меток делений по номеру Aspose.Cells for .NET. Наше руководство поможет вам понять, как настроить ориентацию меток делений по осям, включая горизонтальную, вертикальную и угловую ориентацию.
-keywords: Aspose.Cells for .NET, tick labels, direction, orientation, axes, horizontal, vertical, angled.
+title: Изменение направления меток делений
+description: Узнайте, как изменить направление меток делений в Aspose.Cells for .NET. Наш руководитель поможет вам понять, как настроить ориентацию меток делений на осях, включая горизонтальную, вертикальную и угловую ориентацию.
+keywords: Aspose.Cells for .NET, метки делений, направление, ориентация, оси, горизонтальная, вертикальная, угловая.
 type: docs
 weight: 170
 url: /ru/net/change-tick-label-direction/
 ---
-##  **Изменить направление метки деления**
 
-Aspose.Cells предоставляет вам возможность изменить направление метки деления графика с помощью[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) свойство.[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype)собственность принимает[**Тип текстадирекции диаграммы**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) значение перечисления.[**Тип текстадирекции диаграммы**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)перечисление предоставляет следующие члены
+## **Изменение направления меток делений**
 
-- Горизонтальный
-- Вертикальный
-- Поворот90
+Aspose.Cells позволяет вам изменять направление меток делений графика, используя свойство [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype). Свойство [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) принимает значение перечисления [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype). Перечисление [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) содержит следующие элементы
+
+- Горизонтальное
+- Вертикальное
+- Повернуть90
 - Повернуть270
-- Сложенный
+- Стековое
 
-На следующем изображении сравниваются исходный и выходной файлы.
+На следующем изображении приведено сравнение исходного и выходного файлов
 
-###  **Исходное изображение файла**
+### **Изображение исходного файла**
 
-![задача: image_alt_text](change-tick-label-direction_1.jpg)
+![todo:image_alt_text](change-tick-label-direction_1.jpg)
 
-###  **Изображение выходного файла**
+### **Изображение выходного файла**
 
-![задача: image_alt_text](change-tick-label-direction_2.jpg)
+![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-Следующий фрагмент кода изменяет направление метки деления с Rotate90 на Horizontal.
+Следующий фрагмент кода изменяет направление меток делений с Повернуть90 на Горизонтальное.
 
-##  **Образец кода**
+## **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChangeTickLabelDirection-1.cs" >}}
 
-Исходные и выходные файлы можно скачать по следующим ссылкам.
+Исходные и выходные файлы можно загрузить по следующим ссылкам.
 
 [Исходный файл](105480221.xlsx)
 

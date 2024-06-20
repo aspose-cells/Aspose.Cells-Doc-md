@@ -1,47 +1,48 @@
 ---
-title: Cell Metni Nasıl Döndürülür
+title: Hücrenin metnini Nasıl Döndürülür
 type: docs
 weight: 80
 url: /tr/net/how-to-rotate-text-of-cell/
-description: C# kodu, Cell metnini Aspose.Cells for .NET API ile döndürmek için
-keywords: c# rotate text of Cell, c# programmatically rotate text of Cell in workbook, programmatically set cell rotation angle in workbook, c# how to rotate text of Cell in excel
+description: Aspose.Cells for .NET API ile Hücrenin metnini döndürmek için C# kodu
+keywords: C# ile hücrenin metnini döndür, c# da programatik olarak hücrenin metnini döndür, çalışma kitabında programatik olarak hücre döndürme açısı ayarlama, C# ile hücrenin metnini döndürme
 ---
-##  **Cell Metnini Aspose.Cells'de Döndür**
 
-Aspose.Cells, geliştiricilerin Excel elektronik tablolarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir .NET ve Java bileşenidir. Aspose.Cells'in sağladığı özelliklerden biri, metin yönünü özelleştirmenize ve verilerinizin görsel sunumunu iyileştirmenize olanak tanıyan hücreleri döndürme yeteneğidir. Bu belgede Aspose.Cells'i kullanarak hücreleri nasıl döndüreceğimizi inceleyeceğiz.
+## **Aspose.Cells'te Hücrenin Metnini Döndür**
 
-##  **Excel'de Cell Metni Nasıl Döndürülür**
-Excel'de bir hücreyi döndürmek için aşağıdaki adımları kullanabilirsiniz:
+Aspose.Cells, Excel elektronik tablolarıyla programatik olarak çalışmayı sağlayan güçlü bir .NET ve Java bileşenidir. Aspose.Cells tarafından sağlanan özelliklerden biri de hücreleri döndürme yeteneğidir, bu sayede metnin yönlendirilmesini özelleştirebilir ve verilerinizin görsel sunumunu iyileştirebilirsiniz. Bu belgede, Aspose.Cells kullanarak hücreleri döndürmeyi keşfedeceğiz.
+
+## **Excel'de Hücrenin Metnini Döndürme**
+Bir hücreyi Excel'de döndürmek için aşağıdaki adımları kullanabilirsiniz:
 1. Excel'i açın ve döndürmek istediğiniz hücreyi veya hücre aralığını seçin.
-1. Seçilen hücrelere sağ tıklayın ve içerik menüsünden "Cells Biçimlendir" seçeneğini seçin. Alternatif olarak, Excel şeridindeki "Giriş" sekmesine gidebilir, "Cells" grubundaki "Biçim" açılır menüsüne tıklayıp "Cells'i Biçimlendir"i seçebilirsiniz.
-1. "Biçim Cells" iletişim kutusunda "Hizalama" sekmesine gidin.
-1. "Yönlendirme" bölümünün altında metni döndürme seçeneklerini göreceksiniz. İstediğiniz dönme açısını derece cinsinden doğrudan "Derece" kutusuna girebilirsiniz. Pozitif değerler metni saat yönünün tersine döndürür, negatif değerler ise metni saat yönünde döndürür.
+1. Seçilen hücre(ler)e sağ tıklayın ve bağlam menüsünden "Hücreleri Biçimlendir"'i seçin. Alternatif olarak, Excel şeridinde "Ana Sayfa" sekmesine gidip "Hücreler" grubundaki "Biçimlamanın" açılır menüsüne tıklayıp "Hücreleri Biçimlendir"'i seçebilirsiniz.
+1. "Hücreleri Biçimlendir" iletişim kutusunda, "Hizalama" sekmesine gidin.
+1. "Yönlendirme" bölümünde, metni döndürebileceğiniz seçenekleri göreceksiniz. "Derece" kutusuna istenen dönme açısını doğrudan girebilirsiniz. Pozitif değerler metni saat yönünün tersine döndürür, negatif değerler ise saat yönünde döndürür.
 <br>
-![yapılacak şey:image_alt_text](alignment.png)
-1. İstediğiniz rotasyonu seçtikten sonra değişiklikleri uygulamak için "Tamam"ı tıklayın. Seçilen hücre(ler) artık seçtiğiniz dönüş açısına veya yönüne göre döndürülecektir.
+![todo:image_alt_text](alignment.png)
+1. İstenilen yönlendirmeyi seçtikten sonra, değişiklikleri uygulamak için "Tamam"'a tıklayın. Seçilen hücre(ler) artık seçtiğiniz dönme açısına veya yönlendirmeye göre dönecektir.
 
-##  **Aspose.Cells API kullanılarak Cell Metni Nasıl Döndürülür**
+## **Aspose.Cells API kullanarak Hücrenin Metnini Döndürme**
 
-[**Stil.DöndürmeAçısı**](https://reference.aspose.com/cells/net/aspose.cells/style/rotationangle/) özelliği hücreleri döndürmeyi kolaylaştırır. Aspose.Cells'deki hücreleri döndürmek için şu adımları uygulamanız gerekir:
+[**Style.RotationAngle**](https://reference.aspose.com/cells/net/aspose.cells/style/rotationangle/) özelliği hücreleri döndürmeyi kolaylaştırır. Aspose.Cells'te hücreleri döndürmek için şu adımları izlemeniz gerekir:
 1. Excel Çalışma Kitabını Yükle
 <br>
- Öncelikle Aspose.Cells numaralı telefonu kullanarak Excel çalışma kitabını yüklemeniz gerekiyor. Mevcut bir Excel dosyasını açmak veya yeni bir dosya oluşturmak için Workbook sınıfını kullanabilirsiniz.
+İlk olarak, mevcut bir Excel dosyasını açmak veya yeni bir tane oluşturmak için Workbook sınıfını kullanarak Excel çalışma kitabını yüklemeniz gerekir. 
 
-1. Çalışma Sayfasına Erişim
+1. Çalışma Sayfasına Eriş
 <br>
-Çalışma kitabı yüklendikten sonra hücreleri döndürmek istediğiniz çalışma sayfasına erişmeniz gerekir. Çalışma sayfasına dizinine veya adına göre erişebilirsiniz.
+Çalışma kitabı yüklendikten sonra, hücreleri döndürmek istediğiniz çalışma sayfasına erişmeniz gerekir. Çalışma sayfasına endeksine veya adına göre erişebilirsiniz. 
 
-1. Cell metnini döndür
+1. Hücrenin metnini döndür
 <br>
- Artık çalışma sayfasına erişiminiz olduğuna göre, istediğiniz hücrelerin Stil nesnesini değiştirerek hücreleri döndürebilirsiniz. Stil nesnesi, döndürme dahil çeşitli biçimlendirme seçeneklerini ayarlamanıza olanak tanır.
+Artık çalışma sayfasına erişiminiz olduğuna göre, istenen hücrelerin Stil objesini değiştirerek hücreleri döndürebilirsiniz. Stil objesi, dönme dahil çeşitli biçimlendirme seçeneklerini belirlemenizi sağlar. 
 
 1. Çalışma Kitabını Kaydet
 <br>
-Hücreleri döndürdükten sonra, değiştirilen çalışma kitabını Kaydet yöntemini kullanarak tekrar bir dosyaya veya akışa kaydedebilirsiniz.
+Hücreleri döndürdükten sonra, değiştirilmiş çalışma kitabını Save metodunu kullanarak bir dosyaya veya akıma geri kaydedebilirsiniz.
 
-##  **C# Örnek Kod**
+## **C# Örnek Kodu**
 
-Lütfen aşağıdaki koda bakın, bir çalışma kitabı nesnesi oluşturur ve birkaç hücre için farklı dönüş açıları ayarlar. Ekran görüntüsü örnek kodun yürütülmesinden sonraki sonucu gösterir.
+Lütfen aşağıdaki kodu inceleyin, bir çalışma kitabı nesnesi oluşturur ve çeşitli hücreler için farklı döndürme açıları belirler. Ekran görüntüsü, örnek kodun çalıştırılmasından sonra elde edilen sonucu gösterir.
 <br>
 <img src="rotation.png" width=80% />
 

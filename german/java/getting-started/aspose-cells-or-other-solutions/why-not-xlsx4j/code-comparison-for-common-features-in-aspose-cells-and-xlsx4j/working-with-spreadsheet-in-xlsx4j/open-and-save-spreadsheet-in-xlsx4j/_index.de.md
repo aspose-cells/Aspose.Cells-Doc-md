@@ -1,17 +1,18 @@
-﻿---
-title: Öffnen und speichern Sie die Tabelle in xlsx4j
+---
+title: Öffnen und Speichern von Arbeitsmappen in xlsx4j
 type: docs
 weight: 40
 url: /de/java/open-and-save-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells – Tabelle öffnen und speichern**
-Entwickler verwenden Aspose.Cells, um Dateien für verschiedene Zwecke zu öffnen. Öffnen Sie beispielsweise eine Datei, um Daten daraus abzurufen, oder verwenden Sie eine vordefinierte Designer-Tabellenkalkulationsdatei, um Ihren Entwicklungsprozess zu beschleunigen. Aspose.Cells ermöglicht es Entwicklern, verschiedene Arten von Quelldateien zu öffnen. Diese Quelldateien können Microsoft Excel-Berichte, SpreadsheetML, CSV oder tabulatorgetrennte Dateien sein.
 
-**Aspose.Cells**ermöglicht Entwicklern, Excel-Dateien mit dem flexiblen API von Grund auf neu zu erstellen. Sobald Sie Excel-Dateien erstellt haben, müssen Sie auch Ihre Arbeitsmappe (Datei) speichern. Aspose.Cells bietet verschiedene Möglichkeiten, diese Dateien zu speichern.
+## **Aspose.Cells - Arbeitsmappe öffnen und speichern**
+Entwickler verwenden Aspose.Cells, um Dateien für verschiedene Zwecke zu öffnen. Zum Beispiel, um Daten daraus abzurufen oder eine vordefinierte Designer-Arbeitsmappendatei zu verwenden, um Ihren Entwicklungsprozess zu beschleunigen. Aspose.Cells ermöglicht Entwicklern, verschiedene Arten von Quelldateien zu öffnen. Diese Quelldateien können Microsoft Excel-Berichte, SpreadsheetML, CSV- oder Tabulator-getrennte Dateien sein. 
+
+**Aspose.Cells** ermöglicht Entwicklern, Excel-Dateien von Grund auf zu erstellen, indem sie ihre flexible API nutzen. Sobald Sie Excel-Dateien erstellen, müssen Sie auch Ihre Arbeitsmappe (Datei) speichern. Aspose.Cells bietet verschiedene Möglichkeiten, um diese Dateien zu speichern.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Creating an Workbook object with an Excel file path
 
@@ -22,12 +23,12 @@ Workbook workbook = new Workbook(dataDir + "pivot.xlsm");
 workbook.save(dataDir + "pivot-rtt-Aspose.xlsm");
 
 {{< /highlight >}}
-## **xlsx4j - Tabelle öffnen und speichern**
-Das folgende Beispiel zeigt, wie Sie Tabellenkalkulationen öffnen und speichern, während Sie xlsx4j verwenden.
+## **xlsx4j - Arbeitsmappe öffnen und speichern**
+Das folgende Beispiel zeigt, wie Arbeitsmappen geöffnet und gespeichert werden, während xlsx4j verwendet wird.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  String inputfilepath  = dataDir + "pivot.xlsm";
 
@@ -52,7 +53,7 @@ if (save) {
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/opensavespreadsheet)

@@ -1,54 +1,55 @@
-﻿---
-title: Çalışma Kitabına Yeni Çalışma Sayfaları Ekleme ve VSTO ve Aspose.Cells'de Bir Sayfayı Etkinleştirme
+---
+title: VSTO ve Aspose.Cells de Yeni Çalışsayfalar Eklemek ve Bir Çalışsayfayı Etkinleştirmek
 type: docs
 weight: 30
 url: /tr/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-in-vsto-and-aspose-cells/
 ---
-## **Geçiş ipucu:**
-1. Mevcut bir Microsoft Excel dosyasına yeni çalışma sayfaları ekleyin.
-1. Verileri her yeni çalışma sayfasının hücrelerine doldurun.
-1. Çalışma kitabında bir sayfayı etkinleştirin.
+
+## **Göç Tavsiyesi:**
+1. Mevcut bir Microsoft Excel dosyasına yeni çalışsayfalar ekleyin.
+1. Her yeni çalışsayfanın hücrelerine veri girin.
+1. Çalışma kitabındaki bir çalışsayfayı etkinleştirin.
 1. Microsoft Excel dosyası olarak kaydedin.
 
-Aşağıda, bu görevlerin nasıl gerçekleştirileceğini gösteren VSTO (C#) ve Aspose.Cells for .NET (C#) için paralel kod parçacıkları bulunmaktadır.
+Aşağıda, bu görevleri nasıl gerçekleştireceğinizi gösteren VSTO (C#) ve Aspose.Cells for .NET (C#) için paralel kod örnekleri bulunmaktadır.
 
 **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-//uygulama nesnesini başlat
+ //intiate application object
 
-Excel.Uygulama excelApp = Uygulama;
+Excel.Application excelApp = Application;
 
-//Şablonun excel dosya yolunu belirtin.
+//Specify the template excel file path.
 
-string myPath = "Kitap1.xls";
+string myPath = "Book1.xls";
 
-//excel dosyasını açın.
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer,
+Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer,
+Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer,
+Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer,
+Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer,
+Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer);
+Missing.Value, Missing.Value);
 
-//Bir Çalışma Sayfası nesnesi tanımlayın.
+//Declare a Worksheet object.
 
-Excel.Çalışma sayfası yeniÇalışma sayfası;
+Excel.Worksheet newWorksheet;
 
-//Çalışma kitabına 5 yeni çalışma sayfası ekleyin ve bazı verileri doldurun
+//Add 5 new worksheets to the workbook and fill some data
 
-//hücrelere.
+//into the cells.
 
- için (int ben = 1; ben< 6; i++){
+for (int i = 1; i < 6; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -88,35 +89,35 @@ excelApp.Quit();
 
 **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Bir lisans örneği oluşturun ve lisans dosyasını ayarlayın
+ //Instantiate an instance of license and set the license file
 
-//yolu boyunca
+//through its path
 
-Aspose.Cells.Lisans lisansı = yeni Aspose.Cells.License();
+Aspose.Cells.License license = new Aspose.Cells.License();
 
 license.SetLicense("Aspose.Total.lic");
 
-//Şablonun excel dosya yolunu belirtin.
+//Specify the template excel file path.
 
-string myPath = "Kitap1.xls";
+string myPath = "Book1.xls";
 
-//Yeni bir Çalışma Kitabı oluşturun.
+//Instantiate a new Workbook.
 
-//excel dosyasını açın.
+//Open the excel file.
 
-Çalışma kitabı çalışma kitabı = yeni Çalışma Kitabı(myPath);
+Workbook workbook = new Workbook(myPath);
 
-//Bir Çalışma Sayfası nesnesi tanımlayın.
+//Declare a Worksheet object.
 
-Çalışma sayfası yeniÇalışma sayfası;
+Worksheet newWorksheet;
 
-//Çalışma kitabına 5 yeni çalışma sayfası ekleyin ve bazı verileri doldurun
+//Add 5 new worksheets to the workbook and fill some data
 
-//hücrelere.
+//into the cells.
 
- için (int ben = 0; ben< 5; i++){
+for (int i = 0; i < 5; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -145,7 +146,7 @@ workbook.Worksheets.ActiveSheetIndex = 0;
 workbook.Save("out_My_Book1.xls");
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
-- [kaynak forge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/indir)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip)

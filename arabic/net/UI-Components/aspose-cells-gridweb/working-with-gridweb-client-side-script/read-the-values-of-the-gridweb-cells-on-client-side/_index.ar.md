@@ -1,30 +1,33 @@
-﻿---
-title: اقرأ قيم خلايا GridWeb على جانب العميل
+---
+title: قراءة قيم خلايا GridWeb على الجانب العميل
 type: docs
 weight: 30
-url: /ar/net/read-the-values-of-the-gridweb-cells-on-client-side/
+url: /ar/net/aspose-cells-gridweb/read-the-values-of-the-gridweb-cells-on-client-side/
+keywords: الجدول، الخلية، قيمة الخلية
+description: يقدم هذا المقال كيفية الحصول على قيمة الخلية في GridWeb.
 ---
-## **سيناريوهات الاستخدام الممكنة**
-يمكنك قراءة قيم خلايا GridWeb على البرنامج النصي من جانب العميل باستخدام طريقة gridwebinstance.getCellsArray (). بمجرد أن تسميها ، ستعيد مجموعة جميع الخلايا في ورقة العمل النشطة. يمكنك بعد ذلك استخدام الطرق التالية لاسترداد القيمة والمعلومات الأخرى للخلايا.
 
-- Gridwebinstance.getCellName ()
-- Gridwebinstance.getCellValueByCell ()
-- Gridwebinstance.getCellRow ()
-- Gridwebinstance.getCellColumn ()
-## **اقرأ قيم خلايا GridWeb على جانب العميل**
-يسترد نموذج التعليمات البرمجية التالي جميع الخلايا ثم يطبع الاسم والقيمة والصف والعمود. يمكنك رؤية إخراج وحدة التحكم الخاصة به في الجزء السفلي من هذه المقالة. تُظهر لقطة الشاشة التالية إخراج وحدة التحكم لعينة التعليمات البرمجية على Google Chrome.
+## **سيناريوهات الاستخدام المحتملة**
+يمكنك قراءة قيم خلايا GridWeb على جانب العميل باستخدام طريقة gridwebinstance.getCellsArray(). مرة واحدة، سترجع مصفوفة جميع الخلايا في ورقة العمل النشطة. يمكنك بعد ذلك استخدام الطرق التالية لاسترجاع القيمة ومعلومات أخرى حول الخلايا.
+
+- gridwebinstance.getCellName()
+- gridwebinstance.getCellValueByCell()
+- gridwebinstance.getCellRow()
+- gridwebinstance.getCellColumn()
+## **اقرأ قيم خلايا GridWeb على الجانب العميل**
+الكود العيني التالي يسترد كل الخلايا ثم يطبع أسمائها وقيمها وصفها وعمودها. يمكنك رؤية إنتاج الكونسول في أسفل هذا المقال. تظهر الصورة العينية التالية إنتاج الكونسول للكود العيني على متصفح Google Chrome.
 ## **لقطة شاشة**
-![ما يجب القيام به: image_بديل_نص](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
-## **عينة من الرموز**
+![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCellsClientSide.aspx" >}}
 
-يرجى استدعاء وظيفة JavaScript ReadGridWebCells () كما هو موضح في نموذج التعليمات البرمجية أعلاه مثل هذا.
+يرجى استدعاء دالة JavaScript ReadGridWebCells() كما هو موضح في الكود العيني أعلاه مثل هذا.
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCells.aspx" >}}
-## **إخراج وحدة التحكم**
-هذا هو إخراج وحدة التحكم لعينة التعليمات البرمجية أعلاه.
+## **مخرجات الوحدة**
+هذا هو إنتاج الكونسول للكود العيني أعلاه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0:A1,value is:0 ,row:0,col:0
 

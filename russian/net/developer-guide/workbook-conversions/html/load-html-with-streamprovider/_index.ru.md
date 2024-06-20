@@ -1,20 +1,21 @@
-﻿---
-title: Загрузить Html в Excel с помощью StreamProvider
+---
+title: Загрузка HTML в Excel с помощью поставщика потока
 type: docs
 weight: 80
 url: /ru/net/convert-html-to-excel-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-При загрузке html-полей, содержащих внешние ресурсы, мы часто сталкиваемся со следующими двумя проблемами:
-1. При загрузке html-потока изображения и внешние ресурсы, на которые ссылается html-файл, не могут быть получены по относительным путям.
-1. Пути к внешним ресурсам, на которые есть ссылки в html-файлах, должны быть сопоставлены
+При загрузке html-файлов, содержащих внешние ресурсы, мы часто сталкиваемся с следующими двумя проблемами:
+1. При загрузке потока html изображения и внешние ресурсы, на которые ссылаются файлы html, не могут быть получены через относительные пути.
+1. Внешние пути к ресурсам, указанные в html-файлах, нужно сопоставить
 
- В этой статье объясняется, как реализовать[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) интерфейс для настройки[Хтмллоадоптионс. StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/) имущество. Реализуя этот интерфейс, вы сможете загружать внешние ресурсы во время загрузки потоков Html или эти внешние ресурсы являются относительными.
+В этой статье объясняется, как реализовать интерфейс [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) для установки свойства [HtmlLoadOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/). Реализуя этот интерфейс, вы сможете загружать внешние ресурсы во время загрузки потоков Html, или эти внешние ресурсы являются относительными.
 
 {{% /alert %}} 
 
- Это основной код, показывающий использование[Хтмллоадоптионс. StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/)имущество
+Это основной код, показывающий использование свойства [HtmlLoadOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/streamprovider/)
 
 
 

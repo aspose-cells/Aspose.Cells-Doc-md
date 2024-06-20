@@ -1,13 +1,14 @@
-﻿---
+---
 title: Yeni Çalışma Sayfası Oluştur
 type: docs
 weight: 50
 url: /tr/net/create-new-worksheet/
 ---
+
 ## **Aspose.Cells - Yeni Çalışma Sayfası Oluştur**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -28,7 +29,7 @@ workbook.Save("newWorksheet.xls");
 ## **NPOI - HSSF XSSF - Yeni Çalışma Sayfası Oluştur**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -75,12 +76,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Yeni Çalışma Sayfası Oluştur** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Yeni Çalışma Sayfası Oluştur** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Create.New.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarıyla Çalışmak](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Daha fazla ayrıntı için [Çalışma Sayfaları İle Çalışma](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/) ziyaret edin.
 
 {{% /alert %}}

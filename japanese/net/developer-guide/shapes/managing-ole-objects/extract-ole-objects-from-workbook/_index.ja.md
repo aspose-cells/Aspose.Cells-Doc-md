@@ -1,46 +1,47 @@
-﻿---
-title: ブックから OLE オブジェクトを抽出する
+---
+title: ワークブックからOLEオブジェクトを抽出
 type: docs
 weight: 110
 url: /ja/net/extract-ole-objects-from-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、ブックから OLE オブジェクトを抽出する必要があります。 Aspose.Cells は、これらの Ole オブジェクトの抽出と保存をサポートしています。
+時には、ブックからOLEオブジェクトを抽出する必要があります。Aspose.CellsはこれらのOLEオブジェクトを抽出して保存する機能をサポートしています。
 
-この記事では、Visual Studio.Net でコンソール アプリケーションを作成し、数行の単純なコードを使用してブックからさまざまな OLE オブジェクトを抽出する方法を示します。
+この記事は、少数のコード行でVisual Studio.Netでコンソールアプリケーションを作成し、ワークブックから異なるOLEオブジェクトを抽出する方法を示しています。
 
 {{% /alert %}}
 
-## **ブックから OLE オブジェクトを抽出する**
+## **ワークブックからOLEオブジェクトを抽出**
 
-### **テンプレート ワークブックの作成**
+### **テンプレートワークブックの作成**
 
-1. Microsoft Excel でワークブックを作成しました。
-1. 最初のワークシートに Microsoft Word ドキュメント、Excel ワークブック、および PDF ドキュメントを OLE オブジェクトとして追加します。
+1. Microsoft Excelでワークブックを作成しました。
+1. 最初のワークシートにMicrosoft Wordドキュメント、Excelワークブック、PDFドキュメントをOLEオブジェクトとして追加しました。
 
-|**OLE オブジェクトを含むテンプレート ドキュメント (OleFile.xls)**|
-|:- |
-|![todo:画像_代替_文章](extract-ole-objects-from-workbook_1.png)|
+|**OLEオブジェクトを含むテンプレートドキュメント（OleFile.xls）**|
+| :- |
+|![todo:image_alt_text](extract-ole-objects-from-workbook_1.png)|
 
-次に、OLE オブジェクトを抽出し、それぞれのファイル タイプでハード ディスクに保存します。
+次に、OLEオブジェクトを抽出し、それらをそれぞれのファイルタイプでハードディスクに保存します。
 
-### **Aspose.Cells をダウンロードしてインストールします**
+### **Aspose.Cellsをダウンロードしてインストールする**
 
-1. [ダウンロード Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
-1. 開発用コンピューターにインストールします。
+1. [ダウンロード Aspose.Cells for .NET](https://downloads.aspose.com/cells/net)。
+1. 開発コンピュータにインストールします。
 
-Aspose コンポーネントはすべて、インストールすると評価モードで動作します。評価モードには時間制限がなく、生成されたドキュメントに透かしを挿入するだけです。
+すべてのAsposeのコンポーネントは、インストールされると評価モードで動作します。評価モードには時間制限はなく、生成された文書にウォーターマークを注入するだけです。
 
 ### **プロジェクトを作成する**
 
-始める**Visual Studio.Net**新しいコンソール アプリケーションを作成します。この例では C# コンソール アプリケーションを示していますが、VB.NET も使用できます。
+Visual Studio.Netを起動し、新しいコンソールアプリケーションを作成します。この例ではC#コンソールアプリケーションを示しますが、VB.NETも利用できます。
 
 1. 参照を追加
- 1. Aspose.Cells コンポーネントへの参照をプロジェクトに追加します。たとえば、...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll への参照を追加します。
+   1. プロジェクトにAspose.Cellsコンポーネントの参照を追加します。たとえば、...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dllに参照を追加します。
 
-### **OLE オブジェクトを抽出する**
+### **OLE オブジェクトの抽出**
 
-以下のコードは、OLE オブジェクトを見つけて抽出する実際の作業を行います。 OLE オブジェクト (DOC、XLS および PDF ファイル) がディスクに保存されます。
+以下のコードは実際にOLEオブジェクトを検出して抽出する実際の作業を行います。OLEオブジェクト（DOC、XLS、PDFファイル）はディスクに保存されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractOLEObjects-1.cs" >}}

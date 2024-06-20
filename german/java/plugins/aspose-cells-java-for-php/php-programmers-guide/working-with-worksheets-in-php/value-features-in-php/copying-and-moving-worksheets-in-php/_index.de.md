@@ -1,16 +1,17 @@
-﻿---
-title: Kopieren und Verschieben von Arbeitsblättern in Php
+---
+title: Arbeitsblätter in PHP kopieren und verschieben
 type: docs
 weight: 10
 url: /de/java/copying-and-moving-worksheets-in-php/
 ---
-## **Aspose.Cells – Kopieren und Verschieben von Arbeitsblättern**
+
+## **Aspose.Cells - Kopieren und Verschieben von Arbeitsblättern**
 ### **Arbeitsblätter innerhalb einer Arbeitsmappe kopieren**
- Arbeitsblatt kopieren mit**Aspose.Cells for Java in PHP** , Anruf**copy_worksheet** Methode von**Arbeitsblätter kopieren** Modul. Unten sehen Sie ein Codebeispiel.
+Um ein Arbeitsblatt mit **Aspose.Cells for Java in PHP** zu kopieren, rufen Sie die Methode **copy_worksheet** des Moduls **copyworksheets** auf. Nachfolgend finden Sie ein Beispiel für den Code.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Create a Worksheets object with reference to the sheets of the Workbook.
 
@@ -27,11 +28,11 @@ $workbook->save($dataDir . "Copy Worksheet.xls");
 
 {{< /highlight >}}
 ### **Arbeitsblätter innerhalb einer Arbeitsmappe verschieben**
- Arbeitsblatt verschieben mit**Aspose.Cells for Java in PHP** , Anruf**move_worksheet** Methode von**Arbeitsblätter kopieren** Modul. Unten sehen Sie ein Codebeispiel.
+Um ein Arbeitsblatt mit **Aspose.Cells for Java in PHP** zu verschieben, rufen Sie die Methode **move_worksheet** des Moduls **copyworksheets** auf. Nachfolgend finden Sie ein Beispiel für den Code.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Get the first worksheet in the book.
 
@@ -46,7 +47,7 @@ $sheet->moveTo(2);
 $workbook->save($dataDir . "Move Worksheet.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Arbeitsblätter kopieren und verschieben (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Kopieren und Verschieben von Arbeitsblättern (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/CopyingAndMovingWorksheets.php)

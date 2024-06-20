@@ -1,17 +1,18 @@
-﻿---
+---
 title: Abrir y guardar hoja de cálculo en xlsx4j
 type: docs
 weight: 40
 url: /es/java/open-and-save-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Abrir y guardar hoja de cálculo**
-Los desarrolladores usan Aspose.Cells para abrir archivos para diferentes propósitos. Por ejemplo, abra un archivo para recuperar datos o use un archivo de hoja de cálculo de diseñador predefinido para acelerar su proceso de desarrollo. Aspose.Cells permite a los desarrolladores abrir diferentes tipos de archivos fuente. Estos archivos de origen pueden ser Microsoft informes de Excel, SpreadsheetML, CSV o archivos delimitados por tabuladores.
 
-**Aspose.Cells**permite a los desarrolladores crear archivos de Excel desde cero utilizando su flexible API. Una vez que cree archivos de Excel, también necesitará guardar su libro de trabajo (archivo). Aspose.Cells proporciona una variedad de formas de guardar estos archivos.
+## **Aspose.Cells - Abrir y guardar hoja de cálculo**
+Los desarrolladores utilizan Aspose.Cells para abrir archivos con diferentes propósitos. Por ejemplo, abrir un archivo para recuperar datos de él, o utilizar un archivo de diseño predefinido de hoja de cálculo para acelerar su proceso de desarrollo. Aspose.Cells permite a los desarrolladores abrir diferentes tipos de archivos fuente. Estos archivos fuente pueden ser informes de Microsoft Excel, archivos de SpreadsheetML, archivos CSV o archivos delimitados por tabulaciones. 
+
+**Aspose.Cells** permite a los desarrolladores crear archivos de Excel desde cero utilizando su API flexible. Una vez que se crean archivos de Excel, también es necesario guardar su libro de trabajo (archivo). Aspose.Cells proporciona una variedad de formas de guardar estos archivos.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Creating an Workbook object with an Excel file path
 
@@ -23,11 +24,11 @@ workbook.save(dataDir + "pivot-rtt-Aspose.xlsm");
 
 {{< /highlight >}}
 ## **xlsx4j - Abrir y guardar hoja de cálculo**
-El siguiente ejemplo muestra cómo abrir y guardar hojas de cálculo mientras usa xlsx4j.
+El siguiente ejemplo muestra cómo abrir y guardar hojas de cálculo al utilizar xlsx4j.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  String inputfilepath  = dataDir + "pivot.xlsm";
 
@@ -52,7 +53,7 @@ if (save) {
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/opensavespreadsheet)

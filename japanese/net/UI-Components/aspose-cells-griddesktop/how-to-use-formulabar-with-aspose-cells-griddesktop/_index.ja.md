@@ -1,40 +1,43 @@
-﻿---
-title: Aspose.Cells.GridDesktop で FormulaBar を使用する方法
+---
+title: Aspose.Cells.GridDesktopでFormulaBarを使用する方法
 type: docs
 weight: 20
-url: /ja/net/how-to-use-formulabar-with-aspose-cells-griddesktop/
+url: /ja/net/aspose-cells-griddesktop/how-to-use-formulabar-with-aspose-cells-griddesktop/
+keywords: フォーミュラバー
+description: この記事は、GridDesktopでフォーミュラバーを使用する方法について紹介しています。
 ---
-## **Aspose.Cells.GridDesktop で FormulaBar を使用する**
-### **ステップ 1: 新しいプロジェクトの作成**
-1. Visual Studio 2019 を開きます。
-1. から**ファイル**メニュー、選択**新しい**、 それから**計画**.
-新規プロジェクトの作成ダイアログが開きます。
-1. 選択する**Windows フォームアプリ(.NET フレームワーク)**Visual Studio にインストールされたプロジェクト テンプレートから、**次**.
 
-![todo:画像_代替_文章](how-to-use-formulabar-with-aspose-cells-griddesktop_1.jpg)
+## **Aspose.Cells.GridDesktopでFormulaBarを使用する**
+### **ステップ1：新しいプロジェクトの作成**
+1. Visual Studio 2019を開きます。
+1. **ファイル**メニューから**新規**、次に**プロジェクト**を選択します。
+   新しいプロジェクトダイアログが開きます。
+1. **Visual Studioにインストールされたプロジェクトテンプレートから**Windows Forms App(.NET Framework)**を選択し、**次へ**をクリックします。
 
-1. プロジェクトの場所と名前を指定してクリックします**作成**.
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_1.jpg)
 
-![todo:画像_代替_文章](how-to-use-formulabar-with-aspose-cells-griddesktop_2.jpg)
-### **ステップ 2: コントロールをツールボックスに追加する**
-1. クリックしてください**ツールボックス**
-1. 選ぶ**共通のコントロール**、右クリックして、「**アイテムを選択...**"コンテキストメニューから。
-1. の中に**.NET フレームワーク コンポーネント**のタブ**ツールボックス アイテムの選択**ウィンドウ、スクロールして選択**グリッドデスクトップ**と**数式バー**コンポーネント。
+1. プロジェクトの場所と名前を指定し、**作成**をクリックします。
 
-![todo:画像_代替_文章](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)
-### **ステップ 3: フォームにコントロールを追加する**
-1. GridDestop コントロールと FormulaBar コントロールをフォームにドラッグします。これにより、プロジェクト参照に Aspose.Cells.GridDesktop.dll への参照が追加されます。参照が追加されていない場合は、参照を右クリックして [参照の追加] オプションを選択することにより、参照を手動で追加できます。 Aspose.Cells.GridDesktop.dll の場所を参照して追加します。
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_2.jpg)
+### **ステップ2：ツールボックスにコントロールを追加**
+1. **ツールボックス**をクリックします。
+1. **共通コントロール**を選択し、コンテキストメニューから****選択します。
+1. **.NET Frameworkコンポーネント**タブで**GridDesktop**と**FormulaBar**コンポーネントをスクロールして選択します。
 
-![todo:画像_代替_文章](how-to-use-formulabar-with-aspose-cells-griddesktop_4.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)
+### **ステップ3：フォームにコントロールを追加**
+1. GridDestopとFormulaBarコントロールをフォームにドラッグアンドドロップします。これにより、プロジェクトリファレンスにAspose.Cells.GridDesktop.dllの参照が追加されるはずです。参照が追加されていない場合は、手動で追加することができます。リファレンスを右クリックして**参照の追加**オプションを選択します。Aspose.Cells.GridDesktop.dllの場所を参照して追加します。
 
-1. コントロールが追加されたら、[プロパティ] タブで GridDesktop コントロールの名前を設定します。[これは、FormulaBar を GridDesktop にリンクするために必要です]
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_4.jpg)
 
-![todo:画像_代替_文章](how-to-use-formulabar-with-aspose-cells-griddesktop_5.jpg)
+1. コントロールが追加されたら、プロパティタブでGridDesktopコントロールの名前を設定します。[これはFormulaBarをGridDesktopにリンクするために必要です]
 
-1. 次の図に示すように、FormulaBar を GridDesktop コントロールにリンクします。
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_5.jpg)
 
-![todo:画像_代替_文章](how-to-use-formulabar-with-aspose-cells-griddesktop_6.jpg)
-### **ステップ 4: コントロールをテストする**
-アプリケーションを実行し、コントロールをテストします。次の図に示すような出力が生成されます。出力イメージで、FormulaBar と GridDesktop がリンクされていることがわかります。
+1. 次の画像に示すように、FormulaBarをGridDesktopコントロールにリンクします。
 
-![todo:画像_代替_文章](how-to-use-formulabar-with-aspose-cells-griddesktop_7.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_6.jpg)
+### **ステップ4：コントロールをテストします**
+アプリケーションを実行し、コントロールをテストします。次の画像に示すのと同様の出力が生成されます。出力イメージでは、FormulaBarとGridDesktopがリンクされていることが確認できます。
+
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_7.jpg)

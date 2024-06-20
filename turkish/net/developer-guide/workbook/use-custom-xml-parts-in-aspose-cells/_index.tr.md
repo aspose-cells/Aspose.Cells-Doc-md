@@ -1,25 +1,26 @@
-﻿---
-title: Aspose.Cells'de Özel XML Parçalarını Kullanın
+---
+title: Aspose.Cells te Özel XML Parçalarını Kullanma
 type: docs
 weight: 390
 url: /tr/net/use-custom-xml-parts-in-aspose-cells/
 ---
-## Aspose.Cells'de Özel XML Parçalarını Kullanma
 
-Özel XML Parçaları, excel dosyası içinde SharePoint vb. farklı uygulamalar tarafından saklanan XML verileridir. Bu veriler, ona ihtiyaç duyan farklı uygulamalar tarafından tüketilir. Microsoft Excel bu verileri kullanmaz, bu nedenle eklenecek GUI yoktur. Uzantısını değiştirerek bu verileri görüntüleyebilirsiniz.**.xlsx** içine**.zip** ve sonra kullanarak açarak**WinZip** . ZIP dosyasını, WinRAR veya WinZip gibi herhangi bir 3. bölüm Windows zip yardımcı programını kullanarak da açabilirsiniz.**özelXml** Klasör.
+## Aspose.Cells'te Özel XML Parçalarını Kullanma
 
- Aspose.Cells'i kullanarak özel XML parçaları ekleyebilirsiniz.[**Workbook.ContentTypeProperties.Add()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index)yöntem.
+Özel XML Parçaları, farklı uygulamaların (SharePoint vb.) excel dosyasında depoladığı XML verileridir. Bu veriye ihtiyaç duyan farklı uygulamalar tarafından tüketilir. Microsoft Excel bu veriyi kullanmadığı için eklemek için bir GUI yoktur. **.xlsx** uzantısını **.zip**'e değiştirerek ve ardından **WinZip** ile açarak bu veriyi görebilirsiniz. Ayrıca ZIP dosyasını, WinRAR veya WinZip gibi 3. taraf Windows zip araçlarından herhangi biri ile açabilirsiniz. Veri **customXml** klasörünün içinde bulunmaktadır.
 
- Aşağıdaki örnek kod,[**Workbook.ContentTypeProperties.Add()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) yöntemini ekler ve**Kitap Kataloğu XML** ve onun adı**Kitapçı**. Aşağıdaki resimde bu kodun sonucu gösterilmektedir. Gördüğünüz gibi Book Catalog XML, bu özelliğin adı olan BookStore düğümünün içine eklenir.
+Aspose.Cells, [**Workbook.ContentTypeProperties.Add()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) yöntemi aracılığıyla özel XML parçaları eklemenize olanak tanır.
 
-![yapılacaklar:resim_alternatif_metin](use-custom-xml-parts-in-aspose-cells_1.png)
+Aşağıdaki örnek kod, [**Workbook.ContentTypeProperties.Add()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) yönteminin kullanımını gösterir ve **Kitap Kataloğu XML** ekler, adı ise **Kitap Deposu**'dur. Aşağıdaki görüntü, bu kodun sonucunu göstermektedir. Gördüğünüz gibi Kitap Kataloğu XML, bu özelliğin adı olan Kitap Deposu düğümünün içine eklenmiştir.
 
-![yapılacaklar:resim_alternatif_metin](use-custom-xml-parts-in-aspose-cells_2.png)
+![todo:image_alt_text](use-custom-xml-parts-in-aspose-cells_1.png)
 
-## Özel XML parçalarını kullanmak için C# kodu
+![todo:image_alt_text](use-custom-xml-parts-in-aspose-cells_2.png)
+
+## Özel XML Parçalarını Kullanmak için C# Kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingCustomXmlParts-UsingCustomXmlParts.cs" >}}
 
 ## İlgili Makale
 
-- [Belge Bilgileri Panelinde görünen Özel Özellikler ekleme](/cells/tr/net/adding-custom-properties-visible-inside-document-information-panel/)
+- [Belge Bilgi Paneli içinde görülebilen Özel Özellikler eklemek](/cells/tr/net/adding-custom-properties-visible-inside-document-information-panel/)

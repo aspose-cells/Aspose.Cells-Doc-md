@@ -1,17 +1,18 @@
-﻿---
+---
 title: Establecer títulos de impresión en xlsx4j
 type: docs
 weight: 40
 url: /es/java/set-print-titles-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Establecer títulos de impresión**
-Aspose.Cells le permite designar encabezados de fila y columna para repetir en todas las páginas de una hoja de trabajo impresa. Para hacerlo, utilice el[Configuración de página](/java/PageSetup)Propiedades class'setPrintTitleColumns y setPrintTitleRows.
+Aspose.Cells te permite designar encabezados de fila y columna para repetir en todas las páginas de una hoja de cálculo impresa. Para hacerlo, utiliza las propiedades setPrintTitleColumns y setPrintTitleRows de la clase [PageSetup](/java/PageSetup).
 
 Las filas o columnas que se repetirán se definen pasando sus números de fila o columna. Por ejemplo, las filas se definen como $1:$2 y las columnas se definen como $A:$B.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the PageSetup of the worksheet
 
@@ -26,13 +27,13 @@ pageSetup.setPrintTitleColumns("$A:$B");
 pageSetup.setPrintTitleRows("$1:$2");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/print/setprinttitles/AsposeSetPrintTitles.java)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Configuración de las opciones de impresión](/cells/es/java/page-setup-features/#setting-print-options).
+Para más detalles, visita [Configuración de opciones de impresión](/cells/es/java/page-setup-features/#setting-print-options).
 
 {{% /alert %}}

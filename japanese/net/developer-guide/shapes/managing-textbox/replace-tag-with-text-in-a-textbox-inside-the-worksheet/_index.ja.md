@@ -1,13 +1,14 @@
-﻿---
-title: タグをワークシート内のテキストボックス内のテキストに置き換えます
+---
+title: ワークシート内のテキストボックスでタグをテキストに置き換える
 type: docs
 weight: 1100
 url: /ja/net/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
 ---
-## **考えられる使用シナリオ**
-テキスト ボックスには、要件に応じて構成するために実行時にテキストに置き換えることができるタグを含めることができます。タグは、山括弧で囲まれたラベルにすることができます '<' and '>. 1 つのテキスト ボックス内に複数のタグを含めることができます。
+
+## **可能な使用シナリオ**
+Text boxes can have tags which can be replaced with some text at run time to configure them according to the requirement. Tags can be some labels enclosed in angle brackets '<' and '>'. There can be multiple tags within a single textbox.
 ## **サンプルコード**
-次のサンプル コードはタグ TAG を置き換えます_1とタグ_'ys' と '1' というテキストが含まれています。以下のコードをテストするためのサンプル ファイルは、次のリンクからダウンロードできます。
+以下のサンプルコードは、タグTAG_1とTAG_2をそれぞれ'ys'と'1'というテキストで置き換えます。以下のリンクから、下記コードのテスト用サンプルファイルをダウンロードできます。
 
 [sampleReplaceTagWithText.xlsx](79527942.xlsx)
 

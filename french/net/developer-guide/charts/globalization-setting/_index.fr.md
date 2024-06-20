@@ -1,45 +1,46 @@
 ---
-title: Convertir un graphique en image localisée
-description: Découvrez comment définir les configurations de globalisation pour les graphiques à l'aide du Aspose.Cells for .NET. Notre guide montre comment configurer le graphique pour prendre en charge plusieurs langues et formats régionaux afin d'afficher correctement le texte, les dates et les nombres dans différentes langues.
-keywords: Aspose.Cells for .NET, Charts, Globalization Settings, Multiple Languages, Regional Formats, Display, Text, Dates, Numbers.
-linktitle: Définir une région localisée
+title: Convertir le graphique en une image localisée
+description: Apprenez à définir des configurations de globalisation pour les graphiques en utilisant Aspose.Cells for .NET. Notre guide démontre comment configurer le graphique pour prendre en charge plusieurs langues et formats régionaux afin d afficher correctement le texte, les dates et les nombres dans différentes langues.
+keywords: Aspose.Cells for .NET, Graphiques, Paramètres de globalisation, Langues multiples, Formats régionaux, Affichage, Texte, Dates, Nombres.
+linktitle: Définir la région localisée
 type: docs
 weight: 50
 url: /fr/net/convert-chart-to-localized-image/
 alias: [/net/how-to-set-globalization-configuration-for-chart/]
 ---
+
 {{% alert color="primary" %}}
 
-Dans cette rubrique, nous allons vous montrer comment convertir un graphique en image localisée, vous saurez comment définir une région localisée pour un graphique.
+Dans ce sujet, nous vous montrerons comment convertir un graphique en image localisée. Vous saurez comment définir la région localisée pour un graphique.
 
 {{% /alert %}}
 
-##  **Scénario**
+## **Scénario**
 
- Dans quel scénario aurions-nous besoin de définir une région localisée pour un graphique ?
+Dans quel scénario aurions-nous besoin de définir une région localisée pour un graphique? 
 
-Lorsque vous ouvrez un fichier xlsx avec un graphique dans Excel, dans ce cas, supposons que vous l'ouvriez avec un paramètre régional espagnol dans Excel, vous pouvez voir les éléments dans la zone du graphique, tels que le titre du graphique, la longueur, ils sont traduits en espagnol. Mais lorsque vous enregistrez ce graphique sous forme d'image avec Aspose.Cells, vous pouvez rencontrer le problème suivant :
+Lorsque vous ouvrez un fichier xlsx avec un graphique dans Excel, dans ce cas, supposez que vous l'ouvrez avec un paramètre régional espagnol dans Excel, vous pouvez voir les éléments dans la zone du graphique, tels que le titre du graphique, la légende, ils sont traduits en espagnol. Mais lorsque vous enregistrez ce graphique en tant qu'image avec Aspose.Cells, vous pouvez rencontrer le problème suivant : 
 
-**![Problème mondial](GlobalIssue.png)**
+**![Problème global](GlobalIssue.png)**
 
-Dans ce scénario, les longueurs de graphique dans l'image de sortie ne sont pas les mêmes que dans Excel, elles restent affichées en anglais par défaut. Vous pouvez désormais résoudre ce problème en définissant une région localisée pour le graphique. Avec les paramètres corrects, les éléments suivants seront rendus en fonction de vos paramètres de localisation.
+Dans ce scénario, la légende du graphique dans l'image de sortie n'est pas la même que dans Excel, elle reste affichée en anglais par défaut. Vous pouvez maintenant résoudre ce problème en définissant la région localisée pour le graphique. Avec les réglages corrects, les éléments suivants seront rendus selon vos paramètres de localisation.
 
-##  **Éléments pris en charge**
+## **Éléments pris en charge**
 
-Les éléments suivants du graphique peuvent être rendus en fonction de vos paramètres de localisation.
+Les éléments suivants dans le graphique peuvent être rendus selon vos paramètres de localisation.
 
 |**Éléments pris en charge**|**valeur par défaut dans l'environnement anglais**|
 | :- | :- |
-|Nom du titre de l'axe|Titre de l'axe|
-|Nom de l'unité de l'axe|Des centaines, des milliers...|
+|Nom de l'axe des ordonnées|Titre de l'axe|
+|Nom de l'unité de l'axe|Centaines, Milliers...|
 |Nom du titre du graphique|Titre du graphique|
-|Légende Augmenter le nom|Augmenter|
-|Légende Diminuer le nom|Diminuer|
-|Légende Total Nom|Total|
+|Nom de l'augmentation de la légende|Augmentation|
+|Nom de la diminution de la légende|Diminution|
+|Nom total de la légende|Total|
 |Autre nom|Autre|
 |Nom de la série|Série|
 
-##  **Étapes de fonctionnement**
+## **Étapes de l'opération**
 
 L'exemple suivant vous montrera en détail comment définir une région localisée pour obtenir l'effet souhaité.
 

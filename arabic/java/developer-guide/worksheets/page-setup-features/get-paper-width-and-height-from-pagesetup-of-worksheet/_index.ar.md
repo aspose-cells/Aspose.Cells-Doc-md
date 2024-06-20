@@ -1,26 +1,27 @@
-﻿---
-title: احصل على عرض الورق وارتفاعه من PageSetup of Worksheet
+---
+title: الحصول على عرض وارتفاع الورقة من تهيئة الصفحة لورقة العمل
 type: docs
 weight: 300
 url: /ar/java/get-paper-width-and-height-from-pagesetup-of-worksheet/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
- في بعض الأحيان ، تحتاج إلى معرفة عرض وارتفاع حجم الورق حيث تم تعيينه في إعداد الصفحة لورقة العمل. الرجاء استخدام[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) و[**PageSetup.PaperHeight. إعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)خصائص لهذا الغرض.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **احصل على عرض الورق وارتفاعه من PageSetup of Worksheet**
+في بعض الأحيان، قد تحتاج إلى معرفة عرض وارتفاع حجم الورقة كما تم تعيينه في تهيئة الصفحة لورقة العمل. يرجى استخدام الخصائص ( [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) ) و( [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight) ) لهذا الغرض.
 
- يشرح نموذج التعليمات البرمجية التالي استخدام[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) و[**PageSetup.PaperHeight. إعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)الخصائص. يقوم أولاً بتغيير حجم الورق إلى A2 ثم يبحث عن عرض الورق وارتفاعه ، ثم يغيره إلى A3 و A4 و Letter ويعثر على عرض الورق وارتفاعه على التوالي.
+## **الحصول على عرض وارتفاع الورقة من تهيئة الصفحة لورقة العمل**
 
-## **عينة من الرموز**
+الشيفرة المصدرية التالية تشرح استخدام الخصائص [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) و [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight). تقوم أولاً بتغيير حجم الورق إلى A2 ثم تجد عرض وارتفاع الورق، ثم تقوم بتغييره إلى A3، A4، رسالة وتجد عرض وارتفاع الورق على التوالي.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-GetPaperWidthHeight-GetPaperWidthHeight.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-هنا هو إخراج وحدة التحكم من نموذج التعليمات البرمجية أعلاه.
+فيما يلي مخرجات وحدة الإدخال الخاصة بالكود المصدري أعلاه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 PaperA2: 16.54x23.39
 

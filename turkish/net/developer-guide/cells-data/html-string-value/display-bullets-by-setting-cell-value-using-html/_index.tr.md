@@ -1,25 +1,26 @@
-﻿---
-title: Cell Değerini HTML kullanarak ayarlayarak Madde İşaretlerini Görüntüle
+---
+title: HTML kullanarak Hücre Değeri Ayarıyla Madde İmleri Göster
 type: docs
 weight: 130
 url: /tr/net/display-bullets-by-setting-cell-value-using/
-description: HTML ve kullanımı kolay Aspose.Cells for .NET API'i kullanarak Excel Cells'e madde işaretleri ekleyin.
-keywords: add bullets in excel, add bullets in excel c#, display bullets in excel, display bullets in excel c#, add bullets in excel with html, add bullets in excel with html c#, display bullets in excel with html, display bullets in excel with html c#, display bullets in excel using html, add bullets in excel using html
+description: Aspose.Cells for .NET API sı kullanarak HTML ve kolay kullanımlı işaretli listeleri Excel Hücrelerine Ekleyin.
+keywords: excel e işaretli liste ekle, excel e işaretli liste ekle c#, excel de işaretli listeleri görüntüle, excel de işaretli listeleri görüntüle c#, excel e html ile işaretli liste ekle, excel e html ile işaretli liste ekle c#, excel de html ile işaretli listeleri görüntüle, excel de html ile işaretli listeleri görüntüle c#, html kullanarak excel de işaretli listeleri görüntüle, html kullanarak excel e işaretli liste ekle
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, HTML koduyla madde işaretlerini göstermeyi destekler. Bu makale, HTML kullanarak hücre değerini ayarlayarak madde işaretlerinin nasıl görüntüleneceğini açıklayacaktır.[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) HTML ile hücre değerini ayarlama özelliği.
+Aspose.Cells, HTML kodu ile işaretli listeleri göstermeyi destekler. Bu makale, hücre değerini HTML kullanarak işaretli listeleri görüntülemeyi açıklayacaktır. Hücre değerini HTML ile ayarlamak için [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) özelliğini kullanacağız.
 
 {{% /alert %}}
 
-## HTML kullanarak Cell değerini ayarlayarak Madde İşaretlerini görüntülemek için C# kodu
+## Hücre değerini HTML kullanarak işaretli listeleri görüntüleme için C# kodu
 
-Aşağıdaki kod, hücre değerini ayarlamak için HTML kodunu kullanır. Bir kez, bu kodu çalıştıracaksınız, çıktıyı aşağıdaki resimde gösterildiği gibi alacaksınız.
+Aşağıdaki kod, hücre değerini ayarlamak için HTML kodunu kullanır. Bu kodu çalıştırdığınızda, aşağıdaki resimde gösterildiği gibi çıktı alırsınız.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-DisplayBulletsInCellUsingHtml-DisplayBulletsInCellUsingHtml.cs" >}}
 
-## Örnek kod tarafından oluşturulan çıktı
+Örneğin ürettiği çıktı
 
-Aşağıdaki ekran görüntüsü, yukarıdaki örnek kodun çıktısını gösterir.
+Yukarıdaki örnek kodun çıktısını aşağıdaki ekran görüntüsünde görebilirsiniz.
 
-![yapılacaklar:resim_alternatif_metin](display-bullets-by-setting-cell-value-using-html_1.png)
+![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)

@@ -1,25 +1,26 @@
-﻿---
+---
 title: So führen Sie die Beispiele aus
 type: docs
 weight: 60
 url: /de/cpp/how-to-run-the-examples/
 ---
-## **Software Anforderungen**
-Bitte stellen Sie sicher, dass Sie die folgenden Anforderungen erfüllen, bevor Sie die Beispiele herunterladen und ausführen.
+
+## **Software-Anforderungen**
+Stellen Sie bitte sicher, dass Sie die folgenden Anforderungen erfüllen, bevor Sie die Beispiele herunterladen und ausführen.
 
 - Visual Studio 2015 oder höher
 ## **Von GitHub herunterladen**
- Alle Beispiele von Aspose.Cells for C++ werden gehostet[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C/).
+Alle Beispiele von Aspose.Cells for C++ sind auf [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C/) gehostet.
 
--  Sie können das Repository entweder mit Ihrem bevorzugten GitHub-Client klonen oder die ZIP-Datei von herunterladen[Hier](https://github.com/aspose-cells/Aspose.Cells-for-C/archive/master.zip).
--  Extrahieren Sie den Inhalt der ZIP-Datei in einen beliebigen Ordner auf Ihrem Computer. Alle Beispiele befinden sich in der**Beispiele** Mappe.
-- Öffnen Sie die Projektmappendatei in Visual Studio und erstellen Sie das Projekt.
-- **Daten** Ordner im Stammordner von**Beispiele** enthält Eingabedateien. Der Download ist zwingend erforderlich**Daten** Ordner zusammen mit dem Beispielprojekt.
+- Sie können entweder das Repository mit Ihrem bevorzugten GitHub-Client klonen oder die ZIP-Datei von [hier](https://github.com/aspose-cells/Aspose.Cells-for-C/archive/master.zip) herunterladen.
+- Entpacken Sie den Inhalt der ZIP-Datei in einen beliebigen Ordner auf Ihrem Computer. Alle Beispiele befinden sich im **Beispiele**-Ordner.
+- Öffnen Sie die Lösungsdatei in Visual Studio und erstellen Sie das Projekt.
+- Der **Data**-Ordner im Stammverzeichnis von **Beispiele** enthält Eingabedateien. Sie müssen den **Data**-Ordner zusammen mit dem Beispiele-Projekt herunterladen.
 - Öffnen Sie main.cpp, alle Beispiele werden von hier aus aufgerufen.
-- Entkommentieren Sie die Beispiele, die Sie innerhalb des Projekts ausführen möchten.
+- Kommentieren Sie die Beispiele, die Sie im Projekt ausführen möchten, aus.
 
-Wenden Sie sich bitte über unsere Foren an uns, wenn Sie Probleme beim Einrichten oder Ausführen der Beispiele haben.
-## **Dazu beitragen**
-Wenn Sie ein Beispiel hinzufügen oder verbessern möchten, ermutigen wir Sie, zum Projekt beizutragen. Alle Beispiele und Vorzeigeprojekte in diesem Repository sind Open Source und können in Ihren eigenen Anwendungen frei verwendet werden.
+Bitte zögern Sie nicht, sich bei Problemen mit der Einrichtung oder Ausführung der Beispiele über unsere Foren zu melden.
+## **Beitragen**
+Wenn Sie ein Beispiel hinzufügen oder verbessern möchten, ermutigen wir Sie, zum Projekt beizutragen. Alle Beispiele und Showcase-Projekte in diesem Repository sind Open Source und können frei in Ihren eigenen Anwendungen verwendet werden.
 
-Um einen Beitrag zu leisten, können Sie das Repository forken, den Quellcode bearbeiten und eine Pull-Anforderung erstellen. Wir werden die Änderungen überprüfen und bei Bedarf in das Repository aufnehmen.
+Um beizutragen, können Sie das Repository forken, den Quellcode bearbeiten und einen Pull-Request erstellen. Wir werden die Änderungen überprüfen und sie in das Repository aufnehmen, wenn sie hilfreich sind.

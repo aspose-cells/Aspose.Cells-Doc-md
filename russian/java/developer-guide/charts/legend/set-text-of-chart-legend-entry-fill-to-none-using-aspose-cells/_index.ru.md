@@ -1,19 +1,20 @@
-﻿---
-title: Установите для текста записи легенды диаграммы значение none, используя Aspose.Cells.
+---
+title: Установите текст заливки записи легенды диаграммы на отсутствие с использованием Aspose.Cells
 type: docs
 weight: 780
 url: /ru/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
- Если вы хотите, чтобы текст записи легенды диаграммы не заполнялся, чтобы он не отображался внутри легенды диаграммы, установите[LegendEntry.IsTextNoFill](https://reference.aspose.com/cells/java/com.aspose.cells/legendentry#IsTextNoFill) к**истинный**.
+Если вы хотите установить текст заливки записи легенды диаграммы на отсутствие, чтобы он не отображался внутри легенды диаграммы, то установите [LegendEntry.IsTextNoFill](https://reference.aspose.com/cells/java/com.aspose.cells/legendentry#IsTextNoFill) в **true**.
 
 {{% /alert %}} 
-## **Установите для текста записи легенды диаграммы значение none, используя Aspose.Cells.**
- Следующий пример кода задает для текста второй записи легенды диаграммы значение none. Пожалуйста, загрузите[образец эксель файла](5473437.xlsx) используется в этом коде и[выходной файл excel](5473440.xlsx) созданный им для вашей справки.
+## **Установите текст заливки записи легенды диаграммы на отсутствие с использованием Aspose.Cells**
+Приведенный ниже образец кода устанавливает текст заливки второй записи легенды диаграммы на отсутствие. Пожалуйста, загрузите [образец Excel файла](5473437.xlsx), используемый в этом коде, и [выходной Excel файл](5473440.xlsx), созданный им, для вашего справления.
 
-На следующем снимке экрана показано влияние этого кода на[образец эксель файла](5473437.xlsx).
+Приведенный ниже скриншот подчеркивает эффект этого кода на [образцовом файле Excel](5473437.xlsx).
 
-![дело:изображение_альтернативный_текст](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
+![todo:image_alt_text](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Settextofchartlegend-Settextofchartlegend.java" >}}

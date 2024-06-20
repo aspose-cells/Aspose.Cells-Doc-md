@@ -1,15 +1,16 @@
-﻿---
+---
 title: Diagramme erstellen
 type: docs
 weight: 20
 url: /de/net/create-charts/
 ---
-## **Aspose.Cells – Diagramme erstellen**
-Mit Aspose.Cells können Tabellenkalkulationen eine Vielzahl von Diagrammen hinzugefügt werden. Aspose.Cells bietet viele flexible Diagrammobjekte.
+
+## **Aspose.Cells - Diagramme erstellen**
+Mit Aspose.Cells können verschiedene Diagramme in Arbeitsmappen hinzugefügt werden. Aspose.Cells bietet viele flexible Diagramm-Objekte.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -68,13 +69,13 @@ serieses.Add("A1:B3", true);
 workbook.Save("Chart_Aspose.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Diagramme erstellen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Diagramme erstellen** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[So erstellen Sie ein Diagramm](/cells/de/net/create-charts/).
+Für weitere Details besuchen Sie [Wie man ein Diagramm erstellt](/cells/de/net/create-charts/).
 
 {{% /alert %}}

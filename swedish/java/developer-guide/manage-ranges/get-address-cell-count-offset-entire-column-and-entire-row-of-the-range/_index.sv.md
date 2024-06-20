@@ -1,44 +1,45 @@
-﻿---
-title: Få adress Cell Räkneförskjutning Hela kolumnen och hela raden i serien
+---
+title: Få adress Cellräkning Offset Hela kolumnen och hela raden av intervallet
 type: docs
 weight: 250
 url: /sv/java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
 ---
-## **Möjliga användningsscenarier**
 
- Aspose.Cells tillhandahåller[**Räckvidd**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)objekt som har olika verktygsmetoder som underlättar för användaren att enkelt arbeta med Excel Ranges. Den här artikeln illustrerar användningen av följande metoder eller egenskaper för[**Räckvidd**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)objekt.
+## **Möjliga användningsscenario**
+
+Aspose.Cells tillhandahåller [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) -objektet som har olika verktygsmetoder som underlättar användaren att arbeta med Excel-områden enkelt. Den här artikeln illustrerar användningen av följande metoder eller egenskaper hos [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) -objektet.
 
 - **Adress**
 
-Får adress till intervallet.
+Får adressen för intervallet.
 
-- **Cell Räkna**
+- **Cellräkning**
 
-Får allt cellantal i intervallet.
+Får all cellräkning i intervallet.
 
 - **Offset**
 
-Får räckvidd för offset.
+Får intervall genom offset.
 
 - **Hela kolumnen**
 
-Hämtar ett Range-objekt som representerar hela kolumnen (eller kolumnerna) som innehåller det angivna intervallet.
+Får ett Rangeobjekt som representerar hela kolumnen (eller kolumner) som innehåller det angivna intervallet.
 
 - **Hela raden**
 
-Hämtar ett Range-objekt som representerar hela raden (eller raderna) som innehåller det angivna intervallet.
+Får ett Rangeobjekt som representerar hela raden (eller rader) som innehåller det angivna intervallet.
 
-## **Hämta adress, Cell Antal, Offset, Hela kolumnen och Hela raden i området**
+## **Få adress, Cellräkning, Offset, Hela kolumnen och Hela raden av intervallet**
 
-Följande exempelkod förklarar användningen av metoderna och egenskaperna som diskuterats ovan. Se konsolutgången för koden nedan för en referens.
+Följande provkod förklarar användningen av metoderna och egenskaperna som diskuterats ovan. Se konsolresultatet för den angivna koden nedan som referens.
 
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.java" >}}
 
-## **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Creating Range A1:B3
 

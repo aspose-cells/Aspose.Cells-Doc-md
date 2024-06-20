@@ -1,16 +1,17 @@
-﻿---
-title: ابحث عما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس مفردة
+---
+title: ابحث ما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس واحدة.
 type: docs
 weight: 610
 url: /ar/java/find-if-the-cell-value-starts-with-single-quote-mark/
 ---
+
 {{% alert color="primary" %}} 
 
- يوفر Aspose.Cells الآن امتداد[النمط](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) لمعرفة ما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس مفردة. قبل هذه الخاصية ، لم تكن هناك طريقة للتمييز بين سلاسل مثل العينة و "العينة وما إلى ذلك.
+توفر Aspose.Cells الآن خاصية [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) لمعرفة ما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس فردية. قبل هذه الخاصية، لم يكن هناك وسيلة للتمييز بين السلاسل مثل عينة و 'عينة وما إلى ذلك.
 
 {{% /alert %}} 
-## **ابحث عما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس مفردة**
-يوضح نموذج التعليمات البرمجية التالي أنه لا يمكن التمييز بين السلاسل مثل العينة و "العينة"[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) خاصية. لذلك يجب أن نستخدم[النمط](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)خاصية لتمييزهم.
+## **العثور عما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس مفردة**
+يوضح الكود المصدري التالي أنه لا يمكن تمييز السلاسل مثل عينة و 'عينة باستخدام خاصية [Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue). لذلك يجب علينا استخدام خاصية [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) للتمييز بينهما.
 
 
 

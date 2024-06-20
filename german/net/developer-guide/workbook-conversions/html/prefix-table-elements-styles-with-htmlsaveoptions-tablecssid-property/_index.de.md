@@ -1,34 +1,35 @@
-﻿---
-title: Stellen Sie den Stilen von Tabellenelementen die HtmlSaveOptions.TableCssId-Eigenschaft voran
+---
+title: Tabellenelemente Styles mit der Eigenschaft HtmlSaveOptions.TableCssId prefixieren
 type: docs
 weight: 110
 url: /de/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Mit Aspose.Cells können Sie Tabellenelementen Stile voranstellen[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)Eigentum. Angenommen, Sie setzen diese Eigenschaft mit einem Wert wie**MyTest_TableCssId**, dann finden Sie Tabellenelemente wie unten gezeigt
+## **Mögliche Verwendungsszenarien**
 
-{{< highlight "java" >}}
+Aspose.Cells ermöglicht es Ihnen, Tabellenelementstile mit der [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)-Eigenschaft zu versehen. Nehmen wir an, Sie setzen diese Eigenschaft mit einem Wert wie **MyTest_TableCssId**, dann finden Sie Tabellenelementstile wie unten gezeigt
+
+{{< highlight java >}}
 
  table#MyTest_TableCssId
 
-# MyTest_TableCssId tr
+#MyTest_TableCssId tr
 
-# MyTest_TableCssId col
+#MyTest_TableCssId col
 
-# MyTest_TableCssId br
+#MyTest_TableCssId br
 
 etc.
 
 {{< /highlight >}}
 
- Der folgende Screenshot zeigt die Auswirkung der Verwendung[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)Eigenschaft am Ausgang HTML.
+Der folgende Screenshot zeigt die Auswirkungen der Verwendung der [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)-Eigenschaft auf die Ausgabe von HTML.
 
-![todo: Bild_alt_Text](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
+![todo:image_alt_text](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
-## **Stellen Sie den Stilen von Tabellenelementen die HtmlSaveOptions.TableCssId-Eigenschaft voran**
+## **Vorabtabellenelementstilen mit der HtmlSaveOptions.TableCssId-Eigenschaft**
 
- Der folgende Beispielcode demonstriert die Verwendung von[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) Eigentum. Bitte überprüfen Sie die[Ausgang HTML](60489790.zip) generiert durch den Code für eine Referenz.
+Der folgende Beispielcode zeigt, wie die [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)-Eigenschaft verwendet wird. Bitte überprüfen Sie das [Ausgabe-HTML](60489790.zip), das vom Code generiert wurde, als Referenz.
 
 ## **Beispielcode**
 

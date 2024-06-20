@@ -1,18 +1,19 @@
 ---
-title: PHP での行と列の表示と非表示
+title: PHPでの行と列の非表示および表示
 type: docs
 weight: 50
 url: /ja/java/hiding-and-showing-rows-and-columns-in-php/
-description: Aspose.Cells for PHP via Java API を使用して行と列を非表示または表示する方法を学習します。
-keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
+description: Aspose.Cells for PHP via Java APIを介して行と列を非表示/表示する方法について学びます。
+keywords: PHPでの行と列の非表示または表示の方法、PHPを使用した行または列の非表示、PHPでの行または列の表示。 
 ---
-##  **Aspose.Cells for PHP - 行と列の可視性の制御**
-###  **PHP で行と列を非表示にする方法**
-開発者は、Cells コレクションの HideRow メソッドと HideColumn メソッドをそれぞれ呼び出すことで、行または列を非表示にすることができます。どちらのメソッドも、行/列インデックスをパラメータとして受け取り、特定の行または列を非表示にします。
+
+## **Aspose.Cells for PHP - 行と列の表示の制御**
+### **PHPでの行と列の非表示方法**
+開発者はCellsコレクションのHideRowおよびHideColumnメソッドを呼び出すことで、特定の行または列を非表示にできます。両方のメソッドは、非表示にする特定の行または列のインデックスをパラメータとして取ります。
 
 **PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function hide_rows_columns($dataDir)
 
@@ -45,15 +46,15 @@ keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns usi
 }
 
 {{< /highlight >}}
-###  **PHP を使用して行と列を表示する方法**
-開発者は、Cells コレクションの UnhideRow メソッドと UnhideColumn メソッドをそれぞれ呼び出すことで、非表示の行または列を再表示できます。どちらのメソッドも次の 2 つのパラメータを取ります。
+### **PHPを使用した行と列の表示方法**
+開発者は、CellsコレクションのUnhideRowおよびUnhideColumnメソッドを呼び出すことで、非表示になっている行または列を元に戻すことができます。両方のメソッドは2つのパラメータを取ります:
 
-- **行または列のインデックス**特定の行または列を表示するために使用される行または列のインデックス。
-- **行の高さまたは列の幅**表示後に行または列に割り当てられる行の高さまたは列の幅。
+- **行または列のインデックス** - 特定の行または列を表示するために使用される行または列のインデックス。
+- **行の高さまたは列の幅** - 行または列が表示された後に割り当てられた行の高さまたは列の幅。
 
 **PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function unhide_rows_columns($dataDir)
 
@@ -86,7 +87,7 @@ keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns usi
 }
 
 {{< /highlight >}}
-##  **実行コードをダウンロード**
-ダウンロード**行と列の可視性の制御 (Aspose.Cells)**以下のソーシャル コーディング サイトのいずれかから:
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**行と列の表示/非表示を制御（Aspose.Cells）**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

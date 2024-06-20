@@ -1,17 +1,18 @@
-﻿---
-title: Визуализация последовательности страниц с использованием свойств PageIndex и PageCount в ImageOrPrintOptions
+---
+title: Отобразить последовательность страниц с использованием свойств PageIndex и PageCount класса ImageOrPrintOptions
 type: docs
 weight: 10
 url: /ru/python-java/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
 ---
-## **Визуализация последовательности страниц с использованием свойств PageIndex и PageCount в ImageOrPrintOptions**
-Вы можете преобразовать последовательность страниц вашего файла Excel в изображения, используя Aspose.Cells с[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex) и[ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount) характеристики. Эти свойства полезны, когда на вашем листе так много, например, тысячи страниц, но вы хотите отобразить только некоторые из них. Это не только сэкономит время обработки, но и уменьшит потребление памяти процессом рендеринга.
 
-Следующий пример кода загружает образец файла Excel и отображает только страницы 4, 5, 6 и 7 с помощью[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex)и[ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount) характеристики. Ниже приведены изображения визуализированных страниц, созданных с помощью примера кода.
+## **Отобразить последовательность страниц с использованием свойств PageIndex и PageCount класса ImageOrPrintOptions**
+Вы можете создавать последовательность страниц вашего файла Excel в изображения с помощью Aspose.Cells с помощью свойств [ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex) и [ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount). Эти свойства полезны, если в вашем листе есть, например, тысячи страниц, но вам нужно отобразить только некоторые из них. Это не только сэкономит время обработки, но также сэкономит потребление памяти процесса отображения.
 
-|![дело:изображение_альтернативный_текст](outputImage-4.png)|![дело:изображение_альтернативный_текст](outputImage-5.png)|
-|:- |:- |
-|![дело:изображение_альтернативный_текст](outputImage-6.png)|![дело:изображение_альтернативный_текст](outputImage-7.png)|
+Следующий образец кода загружает образец файла Excel и отображает только страницы 4, 5, 6 и 7 с использованием свойств [ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex) и [ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount). Ниже приведены изображения отображенных страниц, созданные образцовым кодом.
+
+|![todo:image_alt_text](outputImage-4.png)|![todo:image_alt_text](outputImage-5.png)|
+| :- | :- |
+|![todo:image_alt_text](outputImage-6.png)|![todo:image_alt_text](outputImage-7.png)|
 
 
 

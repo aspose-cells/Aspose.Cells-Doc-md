@@ -1,22 +1,23 @@
 ---
-title: Gruppieren und Aufheben der Gruppierung von Zeilen und Spalten in Python
+title: Gruppierung und Entgruppierung von Zeilen und Spalten in Python
 type: docs
 weight: 40
 url: /de/java/grouping-and-ungrouping-rows-and-columns-in-python/
-description: Erfahren Sie, wie Sie Zeilen und Spalten über Aspose.Cells for Python über Java API gruppieren und die Gruppierung aufheben.
-keywords: How to Group and Ungroup Rows and Columns in Python Via Java, Group Rows and Columns using Python Via Java, Python Via Java Ungroup Rows and Columns. 
+description: Erfahren Sie, wie Sie Zeilen und Spalten durch das Aspose.Cells for Python Via Java API gruppieren und entgruppieren.
+keywords: Wie man Zeilen und Spalten in Python Via Java gruppieren und entgruppieren kann, Gruppieren von Zeilen und Spalten mit Python Via Java, Entgruppieren von Zeilen und Spalten mit Python Via Java. 
 ---
-##  **Gruppieren und Gruppieren Sie die Verwaltung von Zeilen und Spalten in Aspose.Cells for Python via Java**
-###  **So gruppieren Sie Zeilen und Spalten in Python**
-Es ist möglich, Zeilen oder Spalten zu gruppieren, indem Sie die Methoden „groupRows“ und „groupColumns“ der Sammlung Cells aufrufen. Beide Methoden verwenden die folgenden Parameter:
 
-- Index der ersten Zeile/Spalte, die erste Zeile oder Spalte in der Gruppe.
-- Index der letzten Zeile/Spalte, die letzte Zeile oder Spalte in der Gruppe.
-- Ist ausgeblendet, ein boolescher Parameter, der angibt, ob Zeilen/Spalten nach der Gruppierung ausgeblendet werden sollen oder nicht.
+## **Gruppierungs- und Entgruppierungsverwaltung von Zeilen & Spalten in Aspose.Cells für Python via Java**
+### **Wie man Zeilen & Spalten in Python gruppiert**
+Es ist möglich, Zeilen oder Spalten zu gruppieren, indem die Methoden groupRows und groupColumns der Cells-Sammlung aufgerufen werden. Beide Methoden akzeptieren die folgenden Parameter:
 
-**Python Code**
+- Erster Zeilen-/Spaltenindex, die erste Zeile oder Spalte in der Gruppe.
+- Letzter Zeilen-/Spaltenindex, die letzte Zeile oder Spalte in der Gruppe.
+- Ist versteckt, ein boolescher Parameter, der angibt, ob Zeilen/Spalten nach dem Gruppieren ausgeblendet werden sollen oder nicht.
 
-{{< highlight "python" >}}
+**Python-Code**
+
+{{< highlight python >}}
 
  def group_rows_columns(self):
 
@@ -45,15 +46,15 @@ workbook.save(self.dataDir + "Group Rows And Columns.xls")
 print "Group Rows And Columns Successfully." 
 
 {{< /highlight >}}
-###  **So heben Sie die Gruppierung von Zeilen und Spalten mit Python auf**
-Heben Sie die Gruppierung gruppierter Zeilen oder Spalten auf, indem Sie die Methoden UngroupRows und UngroupColumns der Sammlung Cells aufrufen. Beide Methoden verwenden dieselben Parameter:
+### **Wie man Zeilen & Spalten mit Python entgruppiert**
+Gruppierte Zeilen oder Spalten aufheben, indem die Methoden UngroupRows und UngroupColumns der Cells-Sammlung aufgerufen werden. Beide Methoden akzeptieren die gleichen Parameter:
 
-- Index der ersten Zeile oder Spalte, die erste Zeile/Spalte, deren Gruppierung aufgehoben werden soll.
-- Index der letzten Zeile oder Spalte, die letzte Zeile/Spalte, deren Gruppierung aufgehoben werden soll.
+- Erster Zeilen- oder Spaltenindex, die erste Zeile/Spalte, die aufgehoben werden soll.
+- Letzter Zeilen- oder Spaltenindex, die letzte Zeile/Spalte, die aufgehoben werden soll.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def ungroup_rows_columns(self):
 
@@ -82,7 +83,7 @@ workbook.save(self.dataDir + "Ungroup Rows And Columns.xls")
 print "Ungroup Rows And Columns Successfully." 
 
 {{< /highlight >}}
-##  **Laden Sie Running Code herunter**
- Herunterladen**Zeilen und Spalten gruppieren und Gruppierung aufheben (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Gruppierung & Aufhebung der Gruppierung von Zeilen & Spalten (Aspose.Cells) von einer der unten genannten sozialen Codierungsseiten herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

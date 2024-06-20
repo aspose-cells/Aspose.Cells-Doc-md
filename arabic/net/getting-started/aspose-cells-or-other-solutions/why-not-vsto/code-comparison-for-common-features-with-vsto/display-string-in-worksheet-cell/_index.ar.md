@@ -1,11 +1,12 @@
-﻿---
-title: عرض السلسلة في ورقة العمل Cell
+---
+title: عرض النص في خلية ورق العمل
 type: docs
 weight: 110
 url: /ar/net/display-string-in-worksheet-cell/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -17,7 +18,7 @@ url: /ar/net/display-string-in-worksheet-cell/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -31,4 +32,4 @@ url: /ar/net/display-string-in-worksheet-cell/
 
 {{< /highlight >}}
 ## **تحميل**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DisplayStringInCell.Aspose.Cells.zip)
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DisplayStringInCell.Aspose.Cells.zip)

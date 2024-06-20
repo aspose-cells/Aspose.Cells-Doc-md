@@ -1,15 +1,16 @@
-﻿---
-title: Calculer les sous-totaux en xlsx4j
+---
+title: Calculer les sous totaux dans xlsx4j
 type: docs
 weight: 10
 url: /fr/java/calculate-sub-totals-in-xlsx4j/
 ---
-## **Aspose.Cells - Calculer les sous-totaux**
-Vous pouvez créer automatiquement des sous-totaux pour toutes les valeurs récurrentes dans une feuille de calcul. Aspose.Cells fournit des fonctionnalités API qui vous aident à ajouter des sous-totaux aux feuilles de calcul par programmation.
+
+## **Aspose.Cells - Calculer des sous-totaux**
+Vous pouvez créer automatiquement des sous-totaux pour toutes les valeurs répétées dans une feuille de calcul. Aspose.Cells offre des fonctionnalités API qui vous aident à ajouter des sous-totaux aux feuilles de calcul de manière programmée.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,20 +36,20 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[]{ 1 });
+cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 
 //Save the excel file
 
 workbook.save(dataDir + "AsposeTotal.xls");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/calculatesubtotals/AsposeCalculateSubTotals.java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Création de sous-totaux](/cells/fr/java/creating-subtotals).
+Pour plus de détails, visitez [Créer des sous-totaux](/cells/fr/java/creating-subtotals).
 
 {{% /alert %}}

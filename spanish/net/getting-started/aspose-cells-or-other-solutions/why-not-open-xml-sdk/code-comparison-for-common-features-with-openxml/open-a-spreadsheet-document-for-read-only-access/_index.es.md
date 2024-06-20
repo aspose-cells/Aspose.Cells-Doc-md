@@ -1,11 +1,12 @@
-﻿---
+---
 title: Abrir un documento de hoja de cálculo para acceso de solo lectura
 type: docs
 weight: 100
 url: /es/net/open-a-spreadsheet-document-for-read-only-access/
 ---
-## **Excel XML abierto**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -39,7 +40,7 @@ using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Open(filepa
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -61,7 +62,7 @@ public static void OpenSpreadsheetDocumentReadonly(string filepath)
 
 
 {{< /highlight >}}
-## **Descargar ejemplo de código en ejecución**
+## **Descargar Ejemplo de Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
 ## **Código de muestra**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Open%20read-only%20access)

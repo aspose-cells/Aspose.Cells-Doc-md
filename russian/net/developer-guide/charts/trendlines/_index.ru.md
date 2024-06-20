@@ -1,31 +1,32 @@
 ---
-title: Получить текст уравнения линии тренда диаграммы
-description: Узнайте, как использовать Aspose.Cells for .NET для получения текста уравнения линии тренда на диаграмме, созданной в Microsoft Excel. Наше руководство покажет, как получить доступ к уравнению линии тренда и извлечь его для дальнейшего анализа или отображения.
-keywords: Aspose.Cells for .NET, Chart Trendline, Equation Text, Microsoft Excel, Data Analysis, Display.
-linktitle: Линии тренда
+title: Получение текста уравнения трендовой линии диаграммы
+description: Узнайте, как использовать Aspose.Cells for .NET для извлечения текста уравнения трендовой линии на диаграмме, созданной в Microsoft Excel. Наше руководство продемонстрирует, как получить доступ к уравнению трендовой линии для дальнейшего анализа или отображения.
+keywords: Aspose.Cells for .NET, Трендовая линия диаграммы, Текст уравнения, Microsoft Excel, Анализ данных, Отображение.
+linktitle: Трендовые линии
 type: docs
 weight: 110
 url: /ru/net/get-equation-text-of-chart-trendline/
 ---
+
 {{% alert color="primary" %}}
 
- Вы можете получить текст уравнения линии тренда диаграммы, используя Aspose.Cells. Aspose.Cells предоставляет[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)свойство, которое возвращает текст уравнения линии тренда диаграммы. Чтобы воспользоваться этим свойством, вам сначала нужно позвонить[**Диаграмма.Вычислить()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/calculate) метод.
+Вы можете получить текст уравнения трендовой линии диаграммы с помощью Aspose.Cells. Aspose.Cells предоставляет свойство [**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text), которое возвращает текст уравнения трендовой линии диаграммы. Для использования этого свойства сначала нужно вызвать метод [**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/calculate).
 
 {{% /alert %}}
 
- На следующем снимке экрана показана диаграмма с линией тренда, а текст ее уравнения выделен красным цветом. Мы получим этот текст, используя[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)свойство в следующем примере кода.
+На следующем скриншоте показана диаграмма с трендовой линией, и ее текст уравнения показан красным цветом. Мы получим этот текст с помощью свойства [**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text) в следующем образце кода.
 
-![задача: image_alt_text](get-equation-text-of-chart-trendline_1.png)
+![todo:image_alt_text](get-equation-text-of-chart-trendline_1.png)
 
-##  Код C# для получения текста уравнения линии тренда графика.
+## Пример кода на C# для получения текста уравнения трендовой линии диаграммы
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GetEquationTextOfChartTrendLine-1.cs" >}}
 
-##  Вывод, сгенерированный примером кода
+## Вывод, созданный образцовым кодом
 
-Это консольный вывод приведенного выше примера кода.
+Это вывод консоли вышеуказанного образца кода.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Equation Text: y = 8.1333x + 5
 

@@ -1,21 +1,22 @@
-﻿---
-title: Resmi Şeklin İçinde Bir Doku Olarak Döşe
+---
+title: Resmin Bir Desen Olarak Şeklin İçine Yerleştirilmesi
 type: docs
 weight: 50
 url: /tr/java/tile-picture-as-a-texture-inside-the-shape/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Resim küçük olduğunda ve kalitesini kaybetmeden şeklin tüm yüzeyini kaplamadığında, onu döşeme seçeneğiniz vardır. Döşeme, şekil yüzeyini küçük bir görüntüyle, bunları sanki döşemelermiş gibi tekrarlayarak doldurur.
+Resim küçükse ve kalitesini kaybetmeden şeklin tüm yüzeyini kaplamıyorsa, koyulma seçeneğiniz vardır. Koyulma, küçük bir resmi tekrarlayarak şekil yüzeyini doldurur.
 
-## **Resmi Şeklin İçinde Bir Doku Olarak Döşe**
+## **Resmin Bir Desen Olarak Şeklin İçine Yerleştirilmesi**
 
-Şekil yüzeyini bir görüntü ile doldurabilir ve[**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/java/com.aspose.cells/texturefill#IsTiling) özellik ve ayarlama**doğru** . Lütfen aşağıdaki örnek koda bakın,[örnek excel dosyası](46465055.xlsx) , onun[çıktı excel dosyası](46465056.xlsx) referans için ekran görüntüsünün yanı sıra.
+Herhangi bir resimle şekil yüzeyini doldurabilir ve [**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/java/com.aspose.cells/texturefill#IsTiling) özelliğini kullanarak döşeyebilirsiniz ve **true** olarak ayarlayabilirsiniz. Lütfen aşağıdaki örnek kodu, [örnek Excel dosyasını](46465055.xlsx), [çıktı Excel dosyasını](46465056.xlsx) ve referans için ekran görüntüsünü görün.
 
-## **Ekran görüntüsü**
+## **Ekran Görüntüsü**
 
-![yapılacaklar:resim_alternatif_metin](tile-picture-as-a-texture-inside-the-shape_1.png)
+![todo:image_alt_text](tile-picture-as-a-texture-inside-the-shape_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-TilePictureAsTextureInsideShape.java" >}}

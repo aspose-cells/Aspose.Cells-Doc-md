@@ -1,41 +1,44 @@
-﻿---
-title: Aspose.Cells 7.0.0 以降に移行する方法
+---
+title: Aspose.Cells 7.0.0以上への移行方法
 type: docs
 weight: 10
 url: /ja/java/how-to-migrate-to-aspose-cells-7-0-0-or-higher/
 ---
+
 {{% alert color="primary" %}}
 
-この記事では、Aspose.Cells for Java の前のバージョンと比較して、Aspose.Cells for Java 7.0.0 以降のバージョンで行われた API の注目すべき変更点を共有しました。この記事は、ユーザーが古い API から新しいバージョンにすばやく移行するのに役立ちます。 API 変更内容を理解し、アプリケーションで実行します。
+この記事では、Aspose.Cells for Java 7.0.0以降のAPIで行われた注目すべき変更点を共有しています。以前のAPIから新しいAPIに迅速に移行するために、変更点を理解し、それをアプリケーションに反映させることでユーザーの移行を支援します。
 
 {{% /alert %}}
 
-## **既存ユーザー向けの主な変更点**
+## **既存ユーザー向けの注目すべき変更**
 
-Aspose.Cells for Java v7.0.0 のリリース以降、API に大幅な変更を加え、現在までに Aspose.Cells for .NET に存在するすべての機能を追加しました。したがって、Aspose.Cells for Java と .NET の両方は、機能に関して、さらにはメソッドとプロパティ名に関しても同等になります。
+Aspose.Cells for Java v7.0.0のリリース以来、APIに大幅な修正を加え、現在までのAspose.Cells for .NETの機能をすべて追加しました。そのため、Aspose.Cells for Javaと.NETは機能面やメソッド・プロパティ名の点でも比較可能になりました。
 
-古いアプローチと同様に、アプリケーションに import ステートメントを 1 つだけインポートして、すべてのクラス、インターフェースなどを取得できます。
+古いアプローチと同様に、アプリケーションで1つだけのimportステートメントをインポートすることで、すべてのクラス、インタフェースなどを取得することができます。
 
-[**Java**]{{< highlight "java" >}}
+[**Java**]
+
+{{< highlight java >}}
 
  import com.aspose.cells.*;
 
 {{< /highlight >}}
 
-特定の API のセットの名前を変更して、Aspose.Cells for .NET と一致するように API 構造を消去しました。いくつかのコレクション クラスを追加し、既存のコレクション クラスに置き換えました。 Like Worksheets クラスは次のように置き換えられました**ワークシート コレクション**.同様に、 Shapes クラスは次のように置き換えられました**シェイプコレクション**.ただし、クラスの機能は影響を受けず、強化されています。
+API構造を整理して、Aspose.Cells for .NETと一致するようにAPIの一部の名前を変更しました。新たにいくつかのコレクションクラスを追加し、既存のコレクションクラスと置き換えました。たとえば、Worksheetsクラスは**WorksheetCollection**に置き換えられました。同様に、Shapesクラスは**ShapeCollection**に置き換えられました。ただし、クラスの機能は影響を受けずに向上しています。
 
-新しい API に移行する場合は、アプリケーションで次の変更を実行して、最終的に機能させる必要がある場合があります。次のリストには、クラスとそれぞれのメソッドで行われた変更も含まれています。
+新しいAPIに移行する場合、アプリケーションで以下の変更を行う必要があります。以下のリストには、クラスおよびそれに関連するメソッドで行われた変更が含まれています。
 
-## **APIの変更点のまとめ**
+## **APIの変更点の概要**
 
-1) v2.5.4 以前の名前が「s」で終わるコレクションの名前が変更されました。 v7.0.0 以降では、コレクションは次のように命名されます。
-例: Shapes (旧) -> ShapeCollection (新)、Worksheets (旧) -> WorksheetCollection (新)、など。
+1) v2.5.4以前のコレクションの名前が's'で終わるものはリネームされました。v7.0.0以降ではコレクションは次のように命名されます:
+例：Shapes（旧）-> ShapeCollection（新）、Worksheets（旧）-> WorksheetCollection（新）、...等
 
-2) Collection からの要素の取得が変更されました。たとえば、v2.5.4 以前では getXXX(int) として実行していましたが、v7.0.0 以降では get(int) として実行します。
-例: Worksheets.getSheet(int) (旧) -> WorksheetCollection.get(int) (新) など。
+2) コレクションから要素を取得する方法が変わりました。例えば、v2.5.4以前ではgetXXX(int)としていましたが、v7.0.0以降ではget(int)としています:
+例：Worksheets.getSheet(int)（旧）-> WorksheetCollection.get(int)（新）、...等
 
-3) 1つのコレクションの取得サイズ(要素数)を変更。 v2.5.4 以前では size() で行っていましたが、v7.0.0 以降では getCount() で行います。
-Worksheets.size() (旧) -> WorksheetCollection.getCount() (新) など。
+3) 1つのコレクションの要素数を取得する方法が変わりました。v2.5.4以前ではsize()でしたが、v7.0.0以降ではgetCount()となりました:
+Worksheets.size()（旧）-> WorksheetCollection.getCount()（新）、...等
 
-4) v2.5.4 以前のブール型プロパティの getter メソッドのうち、「is」で始まる名前が変更されました。 v7.0.0 では、これらは「get」で開始されます。
-例: PageSetup.isBlackAndWhite() (旧) -> PageSetup.getBlackAndWhite() (新) など。
+4) v2.5.4以前のブール値プロパティのgetterメソッドは、'is'で始まるものが変更されています。v7.0.0ではこれらは"get"で始まります:
+例：PageSetup.isBlackAndWhite()（旧）-> PageSetup.getBlackAndWhite()（新）、...等

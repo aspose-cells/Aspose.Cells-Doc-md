@@ -1,18 +1,21 @@
-﻿---
-title: Agregar Cell Validaciones de datos
+---
+title: Agregar Validaciones de Datos de Celdas
 type: docs
 weight: 90
-url: /es/net/add-cell-data-validations/
+url: /es/net/aspose-cells-gridweb/add-cell-data-validations/
+keywords: GridWeb, validación, validación de datos, GridValidation
+description: Este artículo presenta cómo agregar validación de datos (GridValidation) en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells. GridWeb le permite agregar**Validación de datos** utilizando el método GridWorksheet.Validations.Add(). Usando este método, usted tiene que especificar el**Cell Gama** Pero si desea crear una Validación de datos en un solo GridCell, puede hacerlo directamente utilizando el método GridCell.CreateValidation(). Del mismo modo, puede eliminar**Validación de datos** de un GridCell utilizando el método GridCell.RemoveValidation().
+Aspose.Cells.GridWeb le permite agregar **Validación de Datos** utilizando el método GridWorksheet.Validations.Add(). Mediante este método, tiene que especificar el **Rango de Celdas**. Pero si desea crear una Validación de Datos en una sola GridCell, puede hacerlo directamente utilizando el método GridCell.CreateValidation(). Del mismo modo, puede eliminar **Validación de Datos** de una GridCell utilizando el método GridCell.RemoveValidation().
 
 {{% /alert %}} 
-## **Crear validación de datos en un GridCell de GridWeb**
- El siguiente código de ejemplo crea un**Validación de datos** en una celda B3. Si ingresa cualquier valor que no esté entre 20 y 40, la celda B3 mostrará**Error de validacion** en forma de**Rojo XXXX** como se muestra en esta captura de pantalla.
+## **Crear Validación de Datos en una Celda de GridWeb**
+El siguiente código de ejemplo crea una **Validación de Datos** en una celda B3. Si ingresa cualquier valor que no esté entre 20 y 40, la celda B3 mostrará **Error de Validación** en forma de **XXX Rojos** como se muestra en esta captura de pantalla.
 
-![todo:imagen_alternativa_texto](add-cell-data-validations_1.png)
+![todo:image_alt_text](add-cell-data-validations_1.png)
 
 
 

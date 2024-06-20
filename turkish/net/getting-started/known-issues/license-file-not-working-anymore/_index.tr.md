@@ -1,29 +1,30 @@
-﻿---
+---
 title: Lisans Dosyası Artık Çalışmıyor
 type: docs
 weight: 60
 url: /tr/net/license-file-not-working-anymore/
 ---
+
 ## **Belirti**
 
- Bazen, kullanıcılar web projelerini yeni bir sunucuya taşıdıklarında / yayınladıklarında lisans dosyalarının artık çalışmaması nedeniyle hayal kırıklığına uğrarlar. Lisans dosyaları önceki (eski) sunucularında düzgün çalıştığı için üzülüyorlar, ancak şimdi fazladan bir lisans alıyorlar.**Değerlendirme Telif Hakkı Uyarısı** filigran Çalışma Sayfası (bileşeni kullanarak raporlar oluşturduklarında) yeni sunucu ortamında.
+Bazı durumlarda, kullanıcılar lisans dosyalarının artık yeni bir sunucuya taşıdıklarında / yayınladıklarında artık çalışmadığından dolayı sinir bozucu hale gelebilirler. Lisans dosyalarının önceki (eski) sunucularında düzgün çalıştığını hissederler, ancak şimdi yeni sunucu ortamında yeni **Değerlendirme Telif Uyarısı** filigran Levhası (bileşeni kullanarak raporlar oluşturduklarında her zaman) alırlar.
 
-### **Bir Senaryo**
+### **Senaryo**
 
-"Excel raporları oluşturmak/değiştirmek için ASP.NET web projemizde Aspose.Cells kullanıyoruz, kullandığımız geçerli bir lisansımız var. Birkaç gün önce web sitesini yeni bir sunucuya taşıdık; herhangi bir yükseltme veya değişiklik olmadı. Aspose.Cells.dll ve ilgili .lic dosya(lar) dahil olmak üzere her dosyayı yeni sunucuya taşıdık.Artık yeni sunucu ortamında Excel raporları oluşturmaya çalıştığımızda,**Değerlendirme Telif Hakkı Uyarısı** raporlarımızda filigran sayfası. Sitenin Siparişlerim bölümünden yeni bir lisans dosyası indirip yüklemeyi denedik, ancak sorunu hiçbir şekilde çözmedi. Bilginize, Aspose.Cells.lic dosyasını sitenin bin klasörüne, belirttiğim gibi eski sunucuda sorunsuz çalışan Aspose.Cells.dll bileşen dosyasıyla birlikte yerleştirerek lisansı uyguluyoruz."
+"ASP.NET web projemizde Aspose.Cells'i kullanarak Excel raporları oluşturduk / düzenledik, kullandığımız geçerli bir lisans aldık. Birkaç gün önce web sitesini yeni bir sunucuya taşıdık; herhangi bir yükseltme veya değişiklik yapılmadı, emin olduk ve sadece her dosyayı yeni sunucuya taşıdık, Aspose.Cells.dll ve ilgili .lic dosyaları da dahil olmak üzere. Şimdi yeni sunucu ortamında Excel raporları oluşturmaya çalıştığımızda raporlarımızda **Değerlendirme Telif Uyarısı** filigranı aldık. Sitenin bin klasörüne Aspose.Cells.lic dosyasını ve ilgili Aspose.Cells.dll bileşen dosyasını yerleştirerek lisansı uyguladık, ki, bahsettiğim gibi, eski sunucuda hiçbir sorun olmadan çalışıyordu."
 
 ### **Çözüm**
 
-Aspose temiz ve güvenilir bir lisanslama mekanizmasına sahiptir. Genel olarak, sorun dağıtım sorunu ile ilgili olmalıdır. Bir lisans dosyası (bir sunucuda) iyi çalışıyorsa, diğer sunucularda/ortamlarda da eşit derecede iyi çalışmalıdır. Normalde kullanıcılar Uygulamayı kullanır_Başlangıç veya Oturum_Lisans kodunu oraya yerleştirmek için global.asax dosyasında olayları vb. başlatın. Bu nedenle, Uygulamanın oldukça olasıdır_Başlangıç / Oturum_Yeni konum(lar)ında lisans kodunu işlemek için başlatma olay(lar)ı tetiklenmez. Burada not edilmelidir, bileşen lisans dosyasını bir yolda bulamazsa Aspose.Cells her zaman bir istisna atar. Kullanıcılar, lisans kodunun (yerleştirdikleri her yerde) işlendiğinden ve lisans kodunun girildiği olayların tetiklendiğinden emin olmalıdır. Kullanıcı, "World Wide Web Publishing" gibi ilgili hizmeti yeniden başlatabilir ve Uygulamanın yayınlanıp yayınlanmadığını izlemeye çalışabilir._Başlangıç / Oturum_Başlangıç etkinlikleri, yeni sunucu ortamında projelerini ziyaret ettiklerinde tetiklenir.
+Aspose'un temiz ve güvenilir lisans mekanizması vardır. Genellikle sorun, dağıtım sorunu ile ilgili olmalıdır. Bir lisans dosyası (bir sunucuda) iyi çalışıyorsa, diğer sunucularda / ortamlarda da aynı şekilde çalışmalıdır. Normalde, kullanıcılar genellikle li­sans kodunu yerleştirmek için global.asax dosyasında Application_Start veya Session_Start olaylarını kullanır. Bu nedenle, Application_Start / Session_Start olaylarının lisans kodunu işlemek üzere tetiklenmediği yeni konum(lar)ı için sorun olursa, bu oldukça olasıdır. Burada belirtilmeli, Aspose.Cells, lisans dosyasını bir yol üzerinde bulamıyorsa her zaman bir istisna fırlatacaktır. Kullanıcılar yerleştirdikleri herhangi bir yere lisans kodunun işlenmesi ve olayların lisans kodunu yerleştirdikleri yerde tetiklenmesi konusunda emin olmalıdır. Kullanıcı atfın ilgili servisi yeniden başlatabilir, yani, "Dünya Çapında Web Yayınlama" ve projelerini ziyaret ettiklerinde Application_Start  / Session_Start olaylarının tetiklenip tetiklenmediğini izleyebilirler.
 
-### **Onayla**
+### **Onay**
 
-Lütfen şundan da emin olun…
+Lütfen ayrıca şunu emin olun...
 
-- Projenizde geçerli bir lisans dosyası kullanıyorsunuz.
-- Siz veya bir başkası lisans dosyasını düzenlememeli / değiştirmemelisiniz, en azından lisans dosyası çalışmayacaktır.
-- Lisans aboneliğinizin sona erme süresinin farkında olmalısınız (lisans dosyasını not defterinde açıp son kullanma tarihini kontrol edebilirsiniz).
--  Lisans aboneliğiniz sona erdikten sonra yayınlanan bir sürümü (Aspose.Cells.dll) kullanmıyorsunuz. Burada not edilmelidir, bir lisans dosyasının süresi asla dolmaz, ancak abonelik süreniz sona erdikten sonra yayınlanan bileşen sürümünü kullanıyorsanız, ekstra bir ücret alırsınız.**Değerlendirme Telif Hakkı Uyarısı** bir excel dosyası oluşturduğunuzda filigran sayfası.
+- Projende geçerli bir lisans dosyası kullanıyor olmanız.
+- Siz veya başkası lisans dosyasını düzenlememiş / değiştirmemiş olmalı, aksi takdirde lisans dosyası çalışmayacaktır.
+- Lisans abonelik süresinin bitiş tarihini bilmelisiniz (basitçe lic dosyasını not defterine açarak son kullanma tarihini kontrol edebilirsiniz).
+- Lisans aboneliği sürenizden sonra yayınlanan bir sürüm (Aspose.Cells.dll) kullanmadığınızdan emin olmalısınız. Burada belirtilmelidir ki, bir lisans dosyası asla süresi doldurmaz, ancak abonelik sürenizden sonraki sürümleri kullanıyorsanız, her excel dosyası oluşturduğunuzda ekstra **Değerlendirme Telif Uyarısı** filigranı alırsınız.
 
 ### **Referanslar**
 

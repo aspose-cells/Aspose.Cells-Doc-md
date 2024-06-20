@@ -1,12 +1,13 @@
-﻿---
-title: Holen Sie sich die eindeutige ID des Arbeitsblatts
+---
+title: Arbeitsblatt eindeutige ID abrufen
 type: docs
 weight: 200
 url: /de/java/get-worksheet-unique-id/
 ---
-## **Holen Sie sich die eindeutige ID des Arbeitsblatts**
 
-Aspose.Cells bietet die Möglichkeit, die eindeutige ID eines Arbeitsblatts mithilfe von zu erhalten[**Arbeitsblatt.UniqueId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId)Eigentum. Das folgende Code-Snippet demonstriert die Verwendung von[**Arbeitsblatt.UniqueId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId)-Eigenschaft zum Drucken der eindeutigen ID eines Arbeitsblatts. Das folgende Code-Snippet verwendet dies[Excel-Beispieldatei](Book1.xlsx).
+## **Arbeitsblatt eindeutige ID abrufen**
+
+Aspose.Cells bietet die Möglichkeit, die eindeutige ID eines Arbeitsblatts mithilfe der Eigenschaft [**Worksheet.UniqueId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId) zu erhalten. Der folgende Codeausschnitt zeigt die Verwendung der Eigenschaft [**Worksheet.UniqueId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId) zum Drucken der eindeutigen ID eines Arbeitsblatts. Der folgende Codeausschnitt verwendet diese [Beispieldatei](Book1.xlsx).
 
 ## Beispielcode
 

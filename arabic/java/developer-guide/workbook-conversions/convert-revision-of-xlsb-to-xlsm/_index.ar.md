@@ -1,25 +1,26 @@
-﻿---
-title: تحويل مراجعة XLSB إلى XLSM
+---
+title: تحويل مراجعة ملف XLSB إلى ملف XLSM
 type: docs
 weight: 2200
 url: /ar/java/convert-revision-of-xlsb-to-xlsm/
 ---
+
 {{% alert color="primary" %}} 
 
-يدعم Aspose.Cells الآن التحويل الكامل لمراجعات ملف XLSB إلى ملف XLSM. تم العثور على المراجعات داخل المسار \ xl \ المراجعات. يمكنك عرضها عن طريق تغيير XLSB امتداد الملف إلى ZIP. يحتوي مسار \ xl \ revisions على ملفات تنتهي بملحقات .bin.
+تدعم الآن Aspose.Cells تحويل مراجعات ملف XLSB بالكامل إلى ملف XLSM. تتم العثور على المراجعات داخل المسار \xl\revisions. يمكنك رؤيتها عن طريق تغيير امتداد ملف XLSB إلى ZIP. يحتوي مسار \xl\revisions على ملفات تنتهي بامتدادات .bin.
 
-عندما تقوم بتحويل ملف XLSB إلى ملف XLSM باستخدام Aspose.Cells ، يتم تحويل ملفات .bin هذه بنجاح إلى ملفات .xml كما هو موضح في لقطتي الشاشة هاتين.
+عند تحويل ملف XLSB إلى ملف XLSM باستخدام Aspose.Cells، يتم تحويل هذه الملفات .bin بنجاح إلى ملفات .xml كما هو موضح في لقطتين هاتين.
 
 {{% /alert %}} 
 ## **تحويل مراجعة XLSB إلى XLSM**
-تُظهر لقطة الشاشة التالية ملفات .bin داخل مسار \ xl \ revisions للملف XLSB.
+توضح اللقطة الشاشية التالية ملفات .bin داخل المسار \xl\revisions لملف XLSB.
 
-![ما يجب القيام به: image_بديل_نص](convert-revision-of-xlsb-to-xlsm_1.png)
+![todo:image_alt_text](convert-revision-of-xlsb-to-xlsm_1.png)
 
-توضح لقطة الشاشة التالية كيف تم تحويل ملفات .bin إلى ملفات .xml عندما يتم تحويل ملف XLSB إلى تنسيق XLSM باستخدام Aspose.Cells.
+توضح اللقطة الشاشية التالية كيف تم تحويل ملفات .bin إلى ملفات .xml عند تحويل ملف XLSB إلى شكل XLSM باستخدام Aspose.Cells.
 
-![ما يجب القيام به: image_بديل_نص](convert-revision-of-xlsb-to-xlsm_2.png)
+![todo:image_alt_text](convert-revision-of-xlsb-to-xlsm_2.png)
 
-إليك الكود الخاص بتحويل ملف XLSB إلى تنسيق XLSM باستخدام Aspose.Cells.
+إليك الكود لتحويل ملف XLSB إلى شكل XLSM باستخدام Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConvertRevisionOfXLSBtoXLSM-ConvertRevisionOfXLSBtoXLSM.java" >}}

@@ -1,25 +1,26 @@
 ---
-title: Konvertera Excel-fil till PDF-format som är kompatibelt med PDFA-1a
+title: Konvertera Excelfil till PDF format kompatibelt med PDFA 1a
 type: docs
 weight: 130
 url: /sv/python-net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/
-description: Lär dig hur du konverterar Excel-fil till PDF-format som är kompatibelt med PDFA-1a med Aspose.Cells for Python via .NET API.
-keywords: Python Convert Excel file to PDF format compatible with PDFA-1a, PDFA-1a, PDFA-1b, PDF14, PDF15, PDF16, PDF17
+description: Lär dig hur man konverterar Excel fil till PDF format kompatibelt med PDFA 1a med Aspose.Cells för Python via .NET API.
+keywords: Python Konvertera Excel fil till PDF format kompatibelt med PDFA 1a, PDFA 1a, PDFA 1b, PDF14, PDF15, PDF16, PDF17
 ---
-##  **Möjliga användningsscenarier**
 
-PDF/A är en unik smak av PDF designad för långtidsbevarande av dokument. PDF/A är en ISO-standardiserad version av Portable Document Format (PDF) som är ett arkivformat på PDF som bäddar in alla teckensnitt som används i dokumentet i filen PDF. PDF/A skiljer sig från PDF genom att förbjuda funktioner, såsom teckensnittslänkning (i motsats till teckensnittsinbäddning) och kryptering. Aspose.Cells for Python via .NET gör att du kan spara Excel-filerna till PDF/A-kompatibla PDF-filer (både PdfA1a och PdfA1b stöds). Det här avsnittet beskriver hur du sparar Excel-arbetsboken i PDF/A-kompatibel (PdfA1a) PDF-fil.
+## **Möjliga användningsscenario**
 
-##  **Konvertera Excel-fil till PDF Format Kompatibel med PDFA-1a**
+PDF/A är en unik variant av PDF som är avsedd för långsiktig bevarande av dokument. PDF/A är en ISO-standardiserad version av Portable Document Format (PDF) som är ett arkiveringsformat av PDF som inbäddar alla teckensnitt som används i dokumentet inom PDF-filen. PDF/A skiljer sig från PDF genom att förbjuda funktioner som exempelvis teckensättningslänkning (till skillnad från teckensättningsinbäddning) och kryptering. Aspose.Cells för Python via .NET gör det möjligt att spara Excel-filer till PDF/A-kompatibla PDF-filer (både PdfA1a och PdfA1b stöds). Detta ämne beskriver hur man sparar Exceldokumentet till en PDF/A-kompatibel (PdfA1a) PDF-fil.
 
-Utvecklare kan använda**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/)**klass för att ställa in olika attribut för konverteringen. Ställa in olika egenskaper för**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/)**klass ger dig kontroll över utskrifts-, teckensnitts-, säkerhets- och komprimeringsinställningar för utdata PDF. Den viktigaste egenskapen är**[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)**som gör att du kan spara Excel-filerna till PDF/A-kompatibla PDF-filer.
+## **Konvertera Excel-fil till PDF-format kompatibelt med PDFA-1a**
 
-Följande exempelkod förklarar hur du konverterar en Excel-fil till PDF-format som är kompatibelt med PDFA-1a. Vänligen se den[utgång PDF](outputCompliancePdfA1a.pdf) samt skärmdumpen som referens.
+Utvecklare kan använda klassen [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/) för att ställa in olika attribut för konverteringen. Genom att ställa in olika egenskaper för klassen [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/) får du kontroll över utskrifts-, teckensnitts-, säkerhets- och komprimeringsinställningar för utmatnings-PDF-filen. Den viktigaste egenskapen är [**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/) som gör det möjligt att spara Excel-filer till PDF/A-kompatibla PDF-filer.
 
-##  **Skärmdump**
+Följande exempelkod förklarar hur man konverterar Excel-fil till PDF-format kompatibelt med PDFA-1a. Se dess [utmatnings-PDF](outputCompliancePdfA1a.pdf) samt skärmbilden för referens.
+
+## **Skärmdump**
 
 ![todo:image_alt_text](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
 
-##  **Exempelkod**
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ConvertExcelFileToPDFA_1a.py" >}}

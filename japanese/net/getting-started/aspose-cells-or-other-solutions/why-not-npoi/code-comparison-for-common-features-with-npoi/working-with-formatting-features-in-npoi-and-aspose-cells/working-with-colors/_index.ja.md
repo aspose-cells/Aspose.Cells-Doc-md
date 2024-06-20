@@ -1,13 +1,14 @@
-﻿---
-title: 色の操作
+---
+title: 色で作業
 type: docs
 weight: 20
 url: /ja/net/working-with-colors/
 ---
-## **Aspose.Cells - 色を扱う**
+
+## **Aspose.Cells - 色で作業**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -53,10 +54,10 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 色の操作**
+## **NPOI - HSSF XSSF - 色で作業**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -102,13 +103,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**色の操作**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下に示すいずれかのソーシャルコーディングサイトから、 **色で作業**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Colors.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[データフォーマット機能](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+詳細については、[データフォーマットの機能](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting)をご覧ください。
 
 {{% /alert %}}

@@ -1,32 +1,33 @@
 ---
-title: Inställning av pivottabellalternativ - för tom Cells Visa
+title: Inställning av pivottabellalternativ  För tomma celler Visa
 type: docs
 weight: 40
 url: /sv/python-net/setting-pivot-table-option-for-empty-cells-show/
-description: Den här artikeln visar hur du ställer in pivottabellalternativ med Aspose.Cells for Python via .NET.
-keywords: Set Pivot Table Option
+description: Denna artikel visar hur man ställer in Pivottabellalternativ med Aspose.Cells för Python via .NET.
+keywords: Aspose.Cells för Python Excel, Excel Python bibliotek, Ställ in pivottabellalternativ.
 ---
+
 {{% alert color="primary" %}}
 
-Du kan ställa in olika pivottabellalternativ med Aspose.Cells for Python via .NET. Ett sådant alternativ är "Visa för tomma celler". Genom att ställa in det här alternativet visas alla tomma celler i en pivottabell som en specificerad sträng.
+Du kan ställa in olika pivottabellalternativ med hjälp av Aspose.Cells för Python via .NET. Ett sådant alternativ är "Visa tomma celler". Genom att ställa in detta alternativ visas alla tomma celler i en pivottabell som en specifierad sträng.
 
 {{% /alert %}}
 
-##  **Ställa in pivottabellalternativ i Microsoft Excel**
+## **Hur man ställer in pivottabellalternativ i Microsoft Excel**
 
-För att hitta och ställa in det här alternativet i Microsoft Excel:
+För att hitta och ställa in detta alternativ i Microsoft Excel:
 
 1. Välj en pivottabell och högerklicka.
-1. Välj *Pivottabellalternativ**.
-1.  Välj**Layout & Format** flik.
-1.  Välj**För tomma celler visa** alternativet och ange en sträng.
+1. Välj **Pivottabellalternativ**.
+1. Välj fliken **Layout & Format**.
+1. Välj alternativet **Visa en sträng för tomma celler** och ange en sträng.
 
-##  **Ställa in pivottabellalternativ med Aspose.Cells for Python via .NET**
+## **Hur man ställer in pivottabellalternativ med hjälp av Aspose.Cells för Python Excel-bibliotek**
 
-Aspose.Cells for Python via .NET tillhandahåller[**PivotTable.display_null_string**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/display_null_string/) och[**PivotTable.null_string**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/null_string/) egenskaper för att ställa in pivottabellalternativet "Visa tomma celler".
+Aspose.Cells för Python via .NET tillhandahåller egenskaperna [**PivotTable.display_null_string**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/display_null_string/) och [**PivotTable.null_string**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/null_string/) för att ställa in pivottabellalternativet "Visa tomma celler".
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingPivotTableOption-SettingPivotTableOption.py" >}}
 
-##  relaterade artiklar
+## Relaterade artiklar
 
-- [Formatera pivottabell](/cells/sv/net/formatting-pivot-table/)
+- [Formatering av Pivottabell](/cells/sv/net/formatting-pivot-table/)

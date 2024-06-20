@@ -1,20 +1,23 @@
-﻿---
-title: GridWeb の Show Formulas 機能の使用
+---
+title: GridWebのShow Formulas機能を使用する
 type: docs
 weight: 30
-url: /ja/net/using-show-formulas-feature-of-gridweb/
+url: /ja/net/aspose-cells-gridweb/use-show-formulas-feature/
+keywords: GridWeb, show formulas, formula
+description: この記事では、GridWebで数式を表示する方法について説明しています。
 ---
+
 {{% alert color="primary" %}} 
 
-数式を含むセルの簡単な方法を見つける必要がある場合があります。エラーをチェックするために、すべての数式をすばやく読み通すアプローチが必要です。これは、数式で使用されているデータを追跡するのに役立ちます。
+時々、数式を含むセルの簡単な方法を見つける必要があります。すべての数式をすばやく読み、エラーをチェックするアプローチを持つ必要があります。これにより、数式で使用されているデータを追跡するのに役立ちます。
 
-Aspose.Cells.GridWeb は、Microsoft Excel で数式を表示するという機能を提供します。
+Aspose.Cells.GridWebは、Microsoft ExcelでのShow Formulasと呼ばれる機能を提供します。
 
 {{% /alert %}} 
-## **数式表示機能の使用**
-ワークシート内のすべての数式を表示するには、ショートカット「CTRL + ~」を使用する必要があります。
+## **Show Formulas機能の使用**
+ワークシート内のすべての数式を表示するには、ショートカット"CTRL +〜"を使用するだけです。
 
-たとえば、C 列に式がある GridWeb にテンプレート ファイルをロードします。ファイルをロードするために単純に使用したコードを次に示します。
+たとえば、数式がC列に含まれるテンプレートファイルをGridWebにロードする場合、次のコードを使用してファイルを簡単にロードしました。
 
 
 
@@ -22,10 +25,10 @@ Aspose.Cells.GridWeb は、Microsoft Excel で数式を表示するという機�
 
 
 
-ファイルが GridWeb に読み込まれ、下の図のすべての値を含むシートが表示されます。
+ファイルがGridWebにロードされ、以下の画像ですべての値が表示されます。
 
-![todo:画像_代替_文章](using-show-formulas-feature-of-gridweb_1.png)
+![todo:image_alt_text](using-show-formulas-feature-of-gridweb_1.png)
 
-CTRL + ~ を押すと、すべての数式が表示されます。
+CTRL +〜を押すと、すべての数式が表示されます。
 
-![todo:画像_代替_文章](using-show-formulas-feature-of-gridweb_2.png)
+![todo:image_alt_text](using-show-formulas-feature-of-gridweb_2.png)

@@ -1,15 +1,16 @@
-﻿---
-title: إنشاء نطاق الاتحاد
+---
+title: إنشاء مجموعة الاتحاد
 type: docs
 weight: 270
 url: /ar/java/create-union-range/
 ---
-## **إنشاء نطاق الاتحاد**
-يوفر Aspose.Cells القدرة على تكوين Union Range باستخدام[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) طريقة. ال[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) طريقة يقبل معلمتين ، العنوان لإنشاء نطاق الاتحاد وفهرس ورقة العمل. ال[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) طريقة إرجاع أ[UnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/UnionRange)موضوع.
 
-يوضح مقتطف التعليمات البرمجية التالي إنشاء نطاق الاتحاد باستخدام[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) طريقة. يتم إرفاق ملف الإخراج الذي تم إنشاؤه بواسطة الرمز كمرجع.
+## **إنشاء مجموعة الاتحاد**
+توفر Aspose.Cells القدرة على إنشاء نطاق توحيد باستخدام طريقة [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) . تقبل طريقة [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\))  معاملاَ، عنوان إنشاء نطاق التوحيد وفهرس الصفحة. تُرجع الطريقة [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\))  كائن [UnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/UnionRange).
 
-- [ملف إلاخراج](CreateUnionRange_out.xlsx)
+يوضح مقتطف الكود التالي إنشاء نطاق التوحيد باستخدام طريقة [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) . يتم إرفاق ملف الإخراج الذي تم إنشاؤه بواسطة الكود للإشارة.
+
+- [ملف الناتج](CreateUnionRange_out.xlsx)
 
 
 

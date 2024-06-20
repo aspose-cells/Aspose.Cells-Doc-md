@@ -2,16 +2,18 @@
 title: Grundlagen von GridWeb
 type: docs
 weight: 10
-url: /de/net/basics-of-gridweb/
+url: /de/net/aspose-cells-gridweb/basics-of-gridweb/
+keywords: GridWeb
+description: Dieser Artikel stellt GridWeb vor.
 ---
-##  Grundlagen von GridWeb
-GridWeb ist eine einfach zu verwendende .net/Java-Websteuerung zum Anzeigen und Bearbeiten von Tabellenkalkulationsdateien.
+## Grundlagen von GridWeb
+GridWeb ist ein einfach zu verwendendes .Net/Java Webcontrol zum Anzeigen und Bearbeiten von Tabellendateien.
 {{% alert color="primary" %}} 
 
-Es ist einfach und unkompliziert zu bedienen.
+Es ist einfach und leicht zu bedienen.
 
-Es hilft Ihnen, schnell einen Online-Webeditor für Tabellenkalkulationsdateien zu erstellen.
+Es hilft Ihnen dabei, schnell einen Online-Web-Editor für Tabellendateien zu erstellen.
 
-Es unterstützt auch den Import und Export aller Arten von Tabellenformatdateien, die zu 100 % mit MS-Excel-Dateien kompatibel sind.
+Es unterstützt auch den Import und Export von Spreadsheets in allen Formaten, die zu 100% mit MS Excel kompatibel sind.
 
 

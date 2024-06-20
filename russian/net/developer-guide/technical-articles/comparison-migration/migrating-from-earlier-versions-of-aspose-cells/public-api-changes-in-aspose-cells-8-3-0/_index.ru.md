@@ -1,27 +1,28 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.3.0
+---
+title: Изменения в общедоступном API в Aspose.Cells 8.3.0
 type: docs
 weight: 100
 url: /ru/net/public-api-changes-in-aspose-cells-8-3-0/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.2.2 до 8.3.0, которые могут представлять интерес для разработчиков модулей/приложений.
+Этот документ описывает изменения в API Aspose.Cells от версии 8.2.2 до 8.3.0, которые могут быть интересны разработчикам модулей/приложений.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Добавлено свойство WorkbookSettings.AutoRecover.**
-Новое свойство AutoRecover было добавлено в класс WorkbookSettings, чтобы позволить разработчикам устанавливать параметр автоматического восстановления для электронных таблиц в своих приложениях.
+## **Добавленные API**
+### **Добавлено свойство WorkbookSettings.AutoRecover**
+В класс WorkbookSettings было добавлено новое свойство AutoRecover для разрешения разработчикам устанавливать опцию автоматического восстановления для их приложений с таблицами.
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, проверьте статью[Настройка автоматического восстановления электронной таблицы](http://aspose.com/docs/display/cellsnet/How+to+set+AutoRecover+property+of+Workbook) для дополнительной информации.
+Пожалуйста, ознакомьтесь со статьей [Настройка автоматического восстановления таблицы](http://aspose.com/docs/display/cellsnet/How+to+set+AutoRecover+property+of+Workbook) для получения более подробной информации.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -32,12 +33,12 @@ settings.AutoRecover = true;
 {{< /highlight >}}
 
 
-### **Добавлено свойство WorkbookSettings.CrashSave.**
-В класс WorkbookSettings добавлено свойство логического типа CrashSave, которое указывает, сохраняло ли приложение последний раз файл книги после сбоя.
+### **Добавлено свойство WorkbookSettings.CrashSave**
+В класс WorkbookSettings было добавлено логическое свойство CrashSave, которое указывает, сохранило ли приложение последний файл таблицы после аварии.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -49,11 +50,11 @@ Console.WriteLine(settings.CrashSave);
 
 
 ### **Добавлено свойство WorkbookSettings.DataExtractLoad**
-В класс WorkbookSettings добавлено свойство DataExtractLoad, чтобы разработчики могли получать информацию о последнем восстановлении. Если свойство DataExtractLoad возвращает значение true, это означает, что в электронной таблице было выполнено восстановление данных.
+В класс WorkbookSettings было добавлено свойство DataExtractLoad для того, чтобы разрешить разработчикам получать информацию о последнем восстановлении. Если свойство DataExtractLoad возвращает true, это указывает на то, что восстановление данных было выполнено в таблице.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -65,11 +66,11 @@ Console.WriteLine(settings.DataExtractLoad);
 
 
 ### **Добавлено свойство WorkbookSettings.RepairLoad**
-Свойство RepairLoad указывает, была ли электронная таблица восстановлена при последней загрузке с помощью приложения Excel.
+Свойство RepairLoad указывает, была ли таблица отремонтирована при последней загрузке с приложением Excel.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -81,11 +82,11 @@ Console.WriteLine(settings.RepairLoad);
 
 
 ### **Добавлено свойство TxtLoadOptions.KeepExactFormat**
-В класс TxtLoadOptions было добавлено свойство KeepExactFormat, которое указывает, следует ли сохранять точное форматирование для значения ячейки при преобразовании строки/текста в числа или DateTime. Это свойство было добавлено, чтобы соответствовать поведению приложения MS Excel для загрузки DateTime или числовых значений из файлов CSV. Чтобы имитировать поведение MS Excel, установите для свойства KeepExactFormat значение false, тогда как значение по умолчанию равно true, поэтому значение ячейки будет отформатировано как строка в файле CSV.
+Свойство KeepExactFormat было добавлено в класс TxtLoadOptions, указывающее, должно ли сохраняться точное форматирование значения ячейки при конвертации строки/текста в числа или дату. Это свойство было добавлено для соответствия поведению приложения MS Excel при загрузке значений DateTime или числовых значений из CSV файлов.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var options = new TxtLoadOptions();
 
@@ -97,11 +98,11 @@ var book = new Workbook("sample.csv", options);
 
 
 ### **Добавлено свойство Shape.Id**
-Свойство Id было добавлено в класс Shape для уникальной идентификации каждого объекта формы в данной электронной таблице. Это новое свойство также помогает идентифицировать объекты диаграммы в электронной таблице, как показано ниже.
+Свойство Id было добавлено к классу Shape для уникальной идентификации каждого объекта формы в данной таблице. Это новое свойство также помогает определить объекты диаграмм в таблице, как показано ниже.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -118,12 +119,12 @@ foreach(Chart chart in book.Worksheets[0].Charts)
 {{< /highlight >}}
 
 
-### **Добавлен метод PlotArea.SetPositionAuto**
-В класс PlotArea добавлен метод SetPositionAuto, который помогает установить область построения диаграммы в автоматический режим.
+### **Добавлен метод SetPositionAuto класса PlotArea, который помогает установить область построения диаграммы в автоматический режим.**
+Классу PlotArea добавлен метод SetPositionAuto, который помогает установить режим автоматического задания области построения диаграммы.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 

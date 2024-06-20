@@ -1,23 +1,24 @@
-﻿---
-title: فرز البيانات في جداول البيانات
+---
+title: ترتيب البيانات في جداول بيانات
 type: docs
 weight: 70
 url: /ar/java/sort-data-in-spreadsheets/
 ---
-## **Aspose.Cells - فرز البيانات في جداول البيانات**
+
+## **Aspose.Cells - ترتيب البيانات في جداول بيانات**
 {{% alert color="primary" %}} 
 
-لفرز البيانات في جدول بيانات باستخدام Aspose.Cells ، ما عليك سوى استدعاء طريقة DataSorter.sorter () بعد تعيين عدد قليل من خصائص منطقة الخلية سهلة التعيين.
+لفرز البيانات في جدول بيانات باستخدام Aspose.Cells، قم ببساطة بدعوة طريقة DataSorter.sorter() بعد تعيين عدد قليل من خصائص خلية النطاق السهلة التعيين.
 
-Java كود مذكور أدناه.
+تم ذكر كود Java ادناه.
 
 {{% /alert %}} 
 
-فرز البيانات باستخدام Aspose.Cells
+ترتيب البيانات باستخدام Aspose.Cells
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtain the DataSorter object in the workbook
 
@@ -64,13 +65,13 @@ ca.EndColumn = 2;
 sorter.sort(cells, ca);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/AsposeDataSort.java)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[فرز البيانات](/java/sort-data) ، أو[فرز البيانات](/cells/ar/java/data-sorting).
+لمزيد من التفاصيل، قم بزيارة [ترتيب البيانات](/java/sort-data)، أو [فرز البيانات](/cells/ar/java/data-sorting).
 
 {{% /alert %}}

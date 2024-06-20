@@ -1,35 +1,38 @@
-﻿---
-title: Zusammenführen und Trennen von Cells in GridDesktop
-linktitle: Zusammenführen und Trennen Cells
+---
+title: Zusammenführen und Aufteilen von Zellen in GridDesktop
+linktitle: Zusammenführen und Aufteilen von Zellen
 type: docs
 weight: 90
-url: /de/net/merging-and-unmerging-cells-griddesktop/
+url: /de/net/aspose-cells-griddesktop/merge-and-unmerge-cells-griddesktop/
+keywords: GridDesktop, zusammenführen, aufteilen
+description: Dieser Artikel stellt das Zusammenführen und Aufteilen in GridDesktop vor.
 ---
+
 {{% alert color="primary" %}} 
 
-In diesem Thema besprechen wir eine Hilfsfunktion zum Zusammenführen und Aufheben der Zusammenführung von Zellen eines Arbeitsblatts. Diese Funktion ist in den Fällen nützlich, in denen wir einige Zeilen oder Spalten überspannen müssen, um die Lesbarkeit der Daten zu verbessern.
+In diesem Thema werden wir eine Hilfsfunktion zum Zusammenführen und Aufteilen von Zellen eines Arbeitsblatts diskutieren. Diese Funktion ist nützlich, wenn wir einige Zeilen oder Spalten überbrücken müssen, um die Lesbarkeit der Daten zu verbessern.
 
 {{% /alert %}} 
-## **Cells zusammenführen**
-Führen Sie die folgenden Schritte aus, um Zellen zu einer einzigen großen Zelle zusammenzuführen:
+## **Zellen zusammenführen**
+Um Zellen zu einer einzigen großen Zelle zusammenzuführen, befolgen Sie bitte die folgenden Schritte:
 
--  Greifen Sie beliebig zu**Arbeitsblatt**
--  Ein ... kreieren**Bereich von Cells** zusammengeführt werden
-- **Verschmelzen** den Zellbereich in eine große Zelle
+- Greifen Sie auf jedes gewünschte **Arbeitsblatt** zu
+- Erstellen Sie einen **Bereich von Zellen**, die zusammengeführt werden sollen
+- **Führen Sie** den Bereich von Zellen zu einer großen Zelle zusammen
 
- Sie können verwenden**Verschmelzen** Methode von**Arbeitsblatt** Zellen zusammenführen. Es kann jedoch mit ein Bereich von Zellen definiert werden**CellRange** Objekt.
+Sie können die **Merge**-Methode des **Arbeitsblatts** verwenden, um Zellen zu zusammenzuführen. Es kann jedoch ein Zellenbereich mithilfe des **CellRange**-Objekts definiert werden.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-MergingAndUnMergingCells-MergeCells.cs" >}}
-## **Trennen von Cells**
-Führen Sie die folgenden Schritte aus, um eine große Zelle in viele Zellen aufzulösen:
+## **Zellen aufteilen**
+Um eine große Zelle in viele Zellen aufzuteilen, befolgen Sie bitte die folgenden Schritte:
 
--  Greifen Sie beliebig zu**Arbeitsblatt**
-- Greifen Sie auf die verbundene Zelle zu, deren Verbindung aufgehoben werden muss
-- **Zusammenführung aufheben** die große Zelle in viele Zellen unter Verwendung der Position der zusammengeführten Zelle
+- Greifen Sie auf jedes gewünschte **Arbeitsblatt** zu
+- Greifen Sie auf die zusammengeführte Zelle zu, die aufgeteilt werden soll
+- **Teilen Sie** die große Zelle mithilfe des Standorts der zusammengeführten Zelle in viele Zellen auf.
 
- Sie können verwenden**Zusammenführung aufheben** Methode von**Arbeitsblatt** um eine Zelle anhand ihrer Position zu trennen.
+Sie können die **Unmerge**-Methode des **Arbeitsblatts** verwenden, um eine Zelle unter Verwendung ihres Standorts aufzuteilen.
 
 
 
@@ -37,6 +40,6 @@ Führen Sie die folgenden Schritte aus, um eine große Zelle in viele Zellen auf
 
 {{% alert color="primary" %}} 
 
-Wenn Sie Zellen zu einer einzelnen Zelle verbinden, werden die Formatierungseinstellungen der oberen linken Zelle (im Zellbereich) auf die verbundene Zelle angewendet, aber wenn die Verbindung der Zelle aufgehoben wird, behalten alle nicht verbundenen Zellen ihre Formatierungseinstellungen bei.
+Wenn Sie Zellen zu einer einzelnen Zelle zusammenführen, werden die Formatierungseinstellungen der linken oberen Zelle (im Zellenbereich) auf die zusammengeführte Zelle angewendet. Wenn die Zelle jedoch aufgeteilt ist, behalten alle aufgeteilten Zellen ihre Formatierungseinstellungen bei.
 
 {{% /alert %}}

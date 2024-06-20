@@ -1,17 +1,20 @@
-﻿---
-title: معالجة الأحداث بعد حذف الأعمدة والصفوف في GridDesktop
+---
+title: التعامل مع الأحداث بعد حذف الأعمدة والصفوف في GridDesktop
 type: docs
 weight: 80
-url: /ar/net/handling-events-after-deleting-columns-and-rows-in-griddesktop/
+url: /ar/net/aspose-cells-griddesktop/handle-events-after-delete-columns-and-rows-in-griddesktop/
+keywords: GridDesktop ، الأحداث ، حذف صف ، حذف عمود
+description: يقدم هذا المقال الأحداث بعد حذف الصف / العمود في GridDesktop.
 ---
-## **سيناريوهات الاستخدام الممكنة**
-أضاف Aspose.Cells لـ GridDesktop حدثين جديدين أي AfterDeleteColumns و AfterDeleteRows كما هو موضح في لقطة الشاشة التالية. يتم تشغيل هذه الأحداث عندما تحذف الأعمدة والصفوف على التوالي.
 
-![ما يجب القيام به: image_بديل_نص](handling-events-after-deleting-columns-and-rows-in-griddesktop_1.png)
-## **معالجة الأحداث بعد حذف الأعمدة والصفوف في GridDesktop**
-يشرح نموذج التعليمات البرمجية التالي كيفية الاستفادة من الأحداث AfterDeleteColumns و AfterDeleteRows. عندما تقوم بحذف بعض الأعمدة أو الصفوف ، سيتم استدعاء الوظيفة المحددة وإظهار مربع رسالة يعرض فهرس العمود أو الصف المحذوف.
-## **عينة من الرموز**
-{{< highlight "java" >}}
+## **سيناريوهات الاستخدام المحتملة**
+أضاف Aspose.Cells for GridDesktop حدثين جديدين ألا وهما AfterDeleteColumns و AfterDeleteRows كما هو موضح في اللقطة الناتجة التالية. يتم تشغيل هذه الأحداث عند حذف الأعمدة والصفوف على التوالي.
+
+![todo:image_alt_text](handling-events-after-deleting-columns-and-rows-in-griddesktop_1.png)
+## **التعامل مع الأحداث بعد حذف الأعمدة والصفوف في GridDesktop**
+يشرح الكود العيني التالي كيفية الاستفادة من أحداث AfterDeleteColumns و AfterDeleteRows. كلما قمت بحذف بعض الأعمدة أو الصفوف ، سيتم استدعاء الوظيفة المعطاة وإظهار مربع رسالة يعرض فهرس العمود أو الصف المحذوف.
+## **الكود المثالي**
+{{< highlight java >}}
 
  private void gridDesktop1_AfterDeleteColumnsAndRows(object sender, Aspose.Cells.GridDesktop.WorksheetEventArgs args)
 

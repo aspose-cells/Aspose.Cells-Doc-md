@@ -1,19 +1,20 @@
-﻿---
-title: Anpassad sortering i pivottabell
+---
+title: Anpassad sortering i Pivot tabell
 type: docs
 weight: 130
 url: /sv/net/custom-sorting-in-pivot-table/
 ---
-## **Anpassad sortering i pivottabell**
-Genom att använda Aspose.Cells API kan du sortera pivottabeller på fältvärden. Följande kodsnutt laddar exemplet i Excel-filen och lägger till tre pivottabeller. Den första pivottabellen är utan anpassad sortering, den andra pivottabellen sorteras på "SeaFood" radfältvärden och den tredje pivottabellen sorteras på "28/07/2000" kolumnfältvärden.
 
-Exempel på källfil och utdatafiler kan laddas ner härifrån för att testa exempelkoden:
+## **Anpassad sortering i Pivot-tabell**
+Genom att använda Aspose.Cells API kan du sortera Pivot-tabeller efter fältvärden. Följande kodsnutt laddar den provexcel-fil och lägger till tre pivottabeller. Den första pivottabellen är utan anpassad sortering, den andra pivottabellen är sorterad på "SeaFood" radfältvärden och den tredje pivottabellen är sorterad på "28/07/2000" kolumnfältvärden.
 
-[Excel-källfil](98107428.xlsx)
+Provfil och utdatafiler kan laddas ner här för att testa provkoden:
 
-[Utdata Excel-fil](98107429.xlsx)
+[Källa Excelfil](98107428.xlsx)
 
-[Utdata PDF Fil](98107430.pdf)
+[Utmatnings-excelfil](98107429.xlsx)
+
+[Utmatnings-PD-fil](98107430.pdf)
 
 
 

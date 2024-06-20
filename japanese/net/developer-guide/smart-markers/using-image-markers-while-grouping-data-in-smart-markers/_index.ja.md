@@ -1,13 +1,14 @@
-﻿---
-title: スマート マーカーでデータをグループ化する際の画像マーカーの使用
+---
+title: Smart Markersでデータをグループ化する際に画像マーカーを使用する
 type: docs
 weight: 30
 url: /ja/net/using-image-markers-while-grouping-data-in-smart-markers/
 ---
-## **スマート マーカーでデータをグループ化する際の画像マーカーの使用**
-次のサンプルでは、ワークブックを作成し、セル D2、E2、および F2 にそれぞれ次のスマート マーカー タグを追加します。
 
-{{< highlight "java" >}}
+## **Smart Markersでデータをグループ化する際に画像マーカーを使用する**
+次のサンプルでは、ブックを作成し、セルD2、E2、およびF2に次のSmart Markerタグを追加します。
+
+{{< highlight java >}}
 
  &=Person.Name(group:normal,skip:1)
 
@@ -17,7 +18,7 @@ url: /ja/net/using-image-markers-while-grouping-data-in-smart-markers/
 
 {{< /highlight >}}
 
-次に、データ ソースにデータを入力し、[WorkbookDesigner.Process()](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/methods/process)スマート マーカー タグを処理するメソッド。コードはこれらの画像を使用します。[月.png](5115492.png)と[moon2.png](5115491.png)ただし、任意の画像を使用できます。
+次に、データソースにデータを入れ、[WorkbookDesigner.Process()](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/methods/process) メソッドを呼び出してSmart Markerタグを処理します。コードはこれらの画像 [moon.png](5115492.png) および [moon2.png](5115491.png) を使用していますが、任意の画像を使用できます。
 
 
 

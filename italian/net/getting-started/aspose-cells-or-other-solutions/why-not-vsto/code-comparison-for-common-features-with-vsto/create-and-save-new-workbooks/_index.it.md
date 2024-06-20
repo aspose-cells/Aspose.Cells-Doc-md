@@ -1,18 +1,19 @@
-﻿---
-title: Crea e salva nuove cartelle di lavoro
+---
+title: Creare e salvare nuovi fogli di lavoro
 type: docs
 weight: 70
 url: /it/net/create-and-save-new-workbooks/
 ---
+
 ## **Suggerimenti per la migrazione:**
-\1. Crea oggetto cartella di lavoro
-\2. Ottieni il foglio di lavoro corrente.
-\3. Inserisci del testo in qualsiasi cella.
-\4. Salva la cartella di lavoro.
+1. Creare un oggetto Workbook
+2. Ottenere il foglio di lavoro corrente.
+3. Inserire del testo in una qualsiasi cella.
+4. Salvare il foglio di lavoro.
 ### **VSTO**
 Di seguito è riportato un esempio di codice per VSTO
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
 
@@ -28,7 +29,7 @@ Di seguito è riportato un esempio di codice per VSTO
 ### **Aspose.Cells**
 Di seguito è riportato un esempio di codice per Aspose.Cells
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook newWorkbook = new Workbook();
 
@@ -41,5 +42,5 @@ Di seguito è riportato un esempio di codice per Aspose.Cells
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Scaricamento**
-- [Git Hub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)
+## **Scarica**
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)

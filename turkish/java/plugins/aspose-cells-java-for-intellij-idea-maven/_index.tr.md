@@ -1,119 +1,120 @@
-﻿---
-title: IntelliJ IDEA için Aspose.Cells Java - Maven
+---
+title: Aspose.Cells Java for IntelliJ IDEA - Maven
 type: docs
 weight: 50
 url: /tr/java/aspose-cells-java-for-intellij-idea-maven/
 ---
+
 ## **Giriş**
 
-### **IntelliJ FİKİR**
+### **IntelliJ IDEA**
 
-**IntelliJ FİKİR** yazılım geliştiriciler için bir Java tümleşik geliştirme ortamıdır (IDE). JetBrains tarafından geliştirilmiştir. Orijinal olarak for Java olarak oluşturulmuştur, şu anda JavaScript, Groovy, HTML, CSS, RSS, R, Haskell, PHP, Ruby, Python, Scala, Clojure ve Kotlin gibi çok çeşitli dilleri desteklemektedir.
+**IntelliJ IDEA**, yazılım geliştiricileri için bir Java entegre geliştirme ortamı (IDE)'dir. JetBrains tarafından geliştirilmiştir. Java için önceden oluşturulmuş olsa da, şu anda JavaScript, Groovy, HTML, CSS, RSS, R, Haskell, PHP, Ruby, Python, Scala, Clojure ve Kotlin dahil olmak üzere geniş bir dil yelpazesini desteklemektedir.
 
- 2010 yılında**bilgi dünyası** raporuna göre IntelliJ, en iyi dört Java programlama aracı arasından en yüksek test merkezi puanını aldı: Eclipse, IntelliJ IDEA, NetBeans ve Oracle JDeveloper.
+2010 **Infoworld** raporunda, IntelliJ, dört büyük Java programlama aracı arasından en yüksek test merkezi puanını aldı: Eclipse, IntelliJ IDEA, NetBeans ve Oracle JDeveloper.
 
 ### **Aspose.Cells for Java**
 
-[Aspose.Cells](https://products.aspose.com/cells/java/)for Java, Java uygulamalarının Microsoft Excel® kullanmadan Excel® elektronik tabloları oluşturmasını ve yönetmesini sağlayan bir Excel® elektronik tablo raporlama bileşenidir. Aspose.Cells for Java, temel veri dışa aktarma işlevlerinden çok daha fazlasını sunan, inanılmaz derecede zengin özelliklere sahip bir bileşendir.
+[Java için Aspose.Cells](https://products.aspose.com/cells/java/), Java uygulamalarının Microsoft Excel® kullanmadan Excel® elektronik tablolarını oluşturmasını ve yönetmesini sağlayan bir Excel® elektronik tablo raporlama bileşenidir. Aspose.Cells for Java, temel veri dışa aktarma işlevlerinden çok daha fazlasını sunan olağanüstü zengin özellikli bir bileşendir.
 
-### **IntelliJ IDEA için Aspose.Cells Java - Maven**
+### **Aspose.Cells Java for IntelliJ IDEA - Maven**
 
--  IntelliJ IDEA için Aspose.Cells Java (Maven) bir**IntelliJ IDEA Eklentisi** maven proje oluşturmanıza (ör. oluşturulan proje Aspose.Cells for Java API maven bağımlılığı içerir) ve kullanmak için API kaynak kodu örneklerini indirmenize izin verir**Aspose.Cells for Java API**.
+- Aspose.Cells Java for IntelliJ IDEA (Maven) bir **IntelliJ IDEA Eklentisi**dir, bu eklentiyle maven projeleri oluşturabilirsiniz (yani oluşturulan proje Aspose.Cells for Java API maven bağımlılığını içerir) ve API'nin **Aspose.Cells for Java API** kullanımı için kaynak kodu örneklerini indirebilirsiniz.
 
--  Bu eklenti ile çalışmanıza yardımcı olur**Aspose.Cells for Java API** favori IntelliJ IDEA'nızın içinde.
+- Bu eklenti, favori IntelliJ IDEA'nız içinde **Aspose.Cells for Java API** ile çalışmanıza yardımcı olur.
 
-![yapılacaklar:resim_alternatif_metin](kwkgljg.png)
+![todo:image_alt_text](kwkgljg.png)
 
-**SİHİRBAZLAR**:
+**WIZARDS**:
 Eklenti iki sihirbaz içerir -----
 
-**Sihirbaz 1:** Aspose.Cells Maven Proje
+**Sihirbaz 1:** Aspose.Cells Maven Projesi
 
--  Eklentiler**Aspose Maven Proje Sihirbazı** geliştiricilerin Aspose.Cells for Java Maven projesi oluşturmasına olanak tanır.
--  referansı**Aspose.Cells for Java API** maven bağımlılık otomatik olarak alınır[Aspose Bulut Maven Depo](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) ve pom.xml dosyasına eklenir.
-- Oluşturulan proje her zaman Aspose.Cells for Java için en son mevcut Maven Bağımlılık sürümünü içerecektir.
--  Sihirbaz adımları, indirme seçeneğiyle de sunulur[Kullanım için Kaynak Kodu Örnekleri Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
+- Eklentinin **Aspose Maven Proje Sihirbazı**, geliştiricilere Aspose.Cells for Java Maven projesi oluşturmaları için izin verir.
+- **Aspose.Cells for Java API** maven bağımlılığının referansı, otomatik olarak [Aspose Cloud Maven Deposu](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) adresinden alınır ve pom.xml'e eklenir.
+- Oluşturulan proje, her zaman Aspose.Cells for Java için en güncel kullanılabilir Maven Bağımlılığı içerecektir.
+- Sihirbaz adımları aynı zamanda [Aspose.Cells for Java API'nin Kullanımı için Kaynak Kodu Örneklerini indirme seçeneği](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) sunar
 
-**Sihirbaz 2:** Aspose.Cells Örnekler
+**Sihirbaz 2:** Aspose.Cells Örnekleri
 
-- **Aspose.Cells Örnek Sihirbazı** indirilenleri oluşturmanıza / kopyalamanıza izin verir[Aspose.Cells for Java API Kaynak Kodu Örnekleri](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) projenize Seçilen kategori için tüm örnekler, örnekleri çalıştırmak için gereken "src/main/resources" klasörü içindeki gerekli kaynaklarla birlikte projenin "com.aspose.cells.examples" paket klasörüne kopyalanacaktır.
+- **Aspose.Cells Örnekleri Sihirbazı**, indirilmiş [Aspose.Cells for Java API'nin Kaynak Kodu Örneklerini](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) oluşturmanıza / kopyalamanıza izin verir. Seçilen kategori için tüm örnekler, proje'nin "com.aspose.cells.examples" paket klasörüne ve gerekli kaynaklara "src/main/resources" klasörüne kopyalanır.
 
-- [Aspose.Cells for Java API Kaynak Kodu Örnekleri](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) API'in farklı kullanımlarını göstermek içindir.
+- [Aspose.Cells for Java API'nin Kaynak Kodu Örnekleri](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples), API'nin farklı kullanımlarını göstermek amacıyla tasarlanmıştır.
 
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
 
-### **sistem gereksinimleri**
+### **Sistem Gereksinimleri**
 
-- Microsoft Windows 8/7/Vista/2003/XP (64-bit dahil) / Linux GNOME veya KDE masaüstü / Mac OS X 10.5 veya üstü
-- 1 GB RAM minimum, 2 GB RAM önerilir
-- 300 MB sabit disk alanı + önbellekler için en az 1 G
-- 1024x768 minimum ekran çözünürlüğü
-- JDK 1.7 veya üstü önerilir
+- Microsoft Windows 8/7/Vista/2003/XP (64 bit dâhil)  / Linux GNOME veya KDE masaüstü / Mac OS X 10.5 veya daha yüksek
+- Minimum 1 GB RAM, önerilen 2 GB RAM
+- En az 300 MB sabit disk alanı + en az 1 G önbellek için
+- Minimum 1024x768 ekran çözünürlüğü
+- JDK 1.7 veya daha yeni olanı önerilir
 - IntelliJ IDEA CE/UE (13.0.1, 13.1.2 veya 14.0.2)
-- İnternet Bağlantısı (2 MB veya daha hızlı önerilir)
+- İnternet Bağlantısı (önerilen hız 2 MB veya daha fazlası)
 
 ### **Desteklenen Platformlar**
 
 Eklenti aşağıdaki IntelliJ IDEA Sürümlerini destekler:
 
-- 13.0.1 (Topluluk / Nihai Sürüm)
-- 13.1.2 (CE / AB)
-- 14.0.2 (CE/UE)
+- 13.0.1 (Community / Ultimate Sürüm)
+- 13.1.2  (CE / UE)
+- 14.0.2 (CE/ UE)
 
-## **indiriliyor**
+## **İndirme**
 
-### **IntelliJ IDEA'yı İndirme**
+### **IntelliJ IDEA İndiriliyor**
 
- İndirmeden önce IntelliJ IDEA CE / UE'yi yüklemeniz gerekir.**IntelliJ IDEA için Aspose.Cells Java (Maven)** Eklenti.
+**Aspose.Cells Java for IntelliJ IDEA (Maven)** eklentisini indirmeden önce IntelliJ IDEA CE/UE'yi ilk olarak kurmanız gerekecektir.
 
 IntellliJ IDEA'yı indirmek için
 
-1.  git<https://www.jetbrains.com/idea/download/>
-1. Çalışan işletim sisteminizi seçin
-1. UE veya CE indirmeye tıklayın.
+1. Go to <https://www.jetbrains.com/idea/download/>
+1. Çalışan İşletim Sisteminizi seçin
+1. UE veya CE indirmesine tıklayın.
 
-### **IntelliJ IDEA eklentisi için Aspose.Cells Java indiriliyor (Maven)**
+### **Aspose.Cells Java for IntelliJ IDEA eklentisi (Maven) indiriliyor**
 
--  Eklenti doğrudan şu adresten indirilebilir:[JetBrains eklenti barındırma URL'si](https://goo.gl/R4pysl) - IntelliJ IDEA Eklenti Deposunda
- ve daha sonra IDE seçeneği kullanılarak kurulabilir:
- - Git**Dosya** > **Ayarlar**...>**Eklentiler**
- - Seçme "**Eklentiyi Diskten yükleyin"**
-- Veya IDE seçenekleri kullanılarak doğrudan kurulabilir (JetBrains eklenti barındırma URL'sinden manuel olarak indirilmeden):
- - Git**Dosya** > **Ayarlar**...>**Eklentiler**
- - Seçme**"Depolara Gözat"**
- - Arama Kutusuna şunu yazın: "Aspose"
- - Seçme "**Aspose Cells Java IntelliJ için IDEA Maven**"yüklenecek eklenti.
+- Eklenti [JetBrains eklenti barındırma URL](https://goo.gl/R4pysl) üzerinden doğrudan indirilebilir - IntelliJ IDEA Eklenti Deposu'nda
+  ve daha sonra IDE seçeneği kullanılarak yüklenebilir:
+  - **Dosya** > **Ayarlar**...>**Eklentiler**'e gidin
+  - "**Diskten eklenti yükle**"'yi seçin
+- Veya manuel indirme yapılmaksızın (JetBrains eklenti barındırma URL'sinden) doğrudan yüklenebilir, IDE seçenekleri kullanılarak:
+  - **Dosya** > **Ayarlar**...>**Eklentiler**'e gidin
+  - **"Depoları göz at"**'yi seçin
+  - Arama kutusuna "Aspose" yazın
+  - "**Aspose Cells Java for IntelliJ IDEA Maven**" eklentisini yüklemek için seçin.
 
-## **yükleme**
+## **Yüklemek**
 
-[IntelliJ için Aspose.Cells'i yükleme IDEA - Maven](/cells/tr/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Installing)
+[IntelliJ IDEA için Aspose.Cells Yükleme - Maven](/cells/tr/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Installing)
 
-## **kullanma**
+## **Kullanarak**
 
-[IntelliJ için Aspose.Cells kullanma IDEA - Maven](/cells/tr/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Using)
+[IntelliJ IDEA için Aspose.Cells Kullanma - Maven](/cells/tr/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Using)
 
-## **Video Demosu**
+## **Video Demo**
 
- lütfen kontrol edin[video](https://www.youtube.com/watch?v=8sHoB5Isq-A) Aspose.Cells Maven Proje Sihirbazını ve Aspose.Cells Örnek Sihirbazı çalışırken görmek için aşağıda.
+Lütfen Aspose.Cells Maven Proje Sihirbazı ve Aspose.Cells Örnek Sihirbazı'nın nasıl çalıştığını görmek için aşağıdaki [videoyu](https://www.youtube.com/watch?v=8sHoB5Isq-A) kontrol edin.
 
-## **Destekleyin, Genişletin ve Katkıda Bulunun**
+## **Destek, Genişletme ve Katkıda Bulunma**
 
-### **Destek olmak**
+### **Destek**
 
-- Eklentide bilinen/bildirilen sorunları (kullanıcılar veya QA ekibi tarafından) görmek isterseniz.
-- Veya eklentide bulduğunuz herhangi bir sorunu bildirmek istiyorsunuz
-- Herhangi bir iyileştirme öneriniz varsa veya herhangi bir özellik isteğinde bulunmak isterseniz
+- Eğer eklentide bilinen / rapor edilmiş sorunları (kullanıcılar veya Q.A ekibi tarafından) görmek istiyorsanız.
+- Veya eklentide bulduğunuz herhangi bir sorunu bildirmek istiyorsanız
+- Herhangi bir iyileştirme öneriniz varsa veya herhangi bir özellik isteği yapmak istiyorsanız
 
-**Lütfen aşağıdaki projenin sorun izleyicisinden herhangi birini kullanın:**
+**Lütfen aşağıdaki projenin herhangi bir sorun takipçisini kullanın:**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 
-### **Genişletin ve Katkıda Bulunun**
+### **Genişletme ve Katkı Sağlama**
 
-**IntelliJ IDEA için Aspose.Cells Java (Maven)** eklenti açık kaynaktır ve kaynak kodu aşağıda listelenen başlıca sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirmeleri ve yeni özellikler önererek veya ekleyerek veya mevcut olanları geliştirerek katkıda bulunmaları teşvik edilir, böylece diğerleri de bundan faydalanabilir.
+**Aspose.Cells Java for IntelliJ IDEA (Maven)** eklentisi açık kaynaklıdır ve kaynak kodu aşağıda listelenen büyük sosyal kodlama sitelerinde mevcuttur. Geliştiriciler kaynak kodunu indirip, yeni özellik önererek veya ekleyerek veya mevcut olanları iyileştirerek katkıda bulunmaya teşvik edilir, böylece diğerleri de bundan faydalanabilir.
 
-### **Kaynak kodu**
+### **Kaynak Kodu**
 
-En son kaynak kodunu aşağıdaki konumlardan birinden alabilirsiniz.
+En son kaynak kodunu aşağıdaki konumlardan birinden edinebilirsiniz
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_IntelliJ(Maven))

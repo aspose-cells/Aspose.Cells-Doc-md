@@ -1,27 +1,28 @@
 ---
-title: Cells Html Dizesini Yönet
+title: Hücreleri Html Dizesi Yönetme
 type: docs
 weight: 600
 url: /tr/net/manage-cells-html-string/
-description: Cells Html Dizesini Aspose.Cells for .NET API aracılığıyla nasıl yöneteceğinizi öğrenin.
-keywords: Add HTML String inside the Cell, Set HTML String inside the Cell, Add HTML String, Get HTML String of Cell, Manage Cells Html String
+description: Aspose.Cells for .NET API sı kullanarak Hücreleri Html Dizesi Yönetmeyi Öğrenin.
+keywords: Hücreye HTML Dizesi Ekle, Hücre İçine HTML Dizesi Ayarla, HTML Dizesi Ekle, Hücrenin HTML Dizesini Al, Hücreleri Html Dizesi Yönet
 ---
-##  **Olası Kullanım Senaryoları**
-Belirli bir Cell için stil verisi ayarlamanız gerektiğinde, Cell'e bir html dizesi atayabilirsiniz. Elbette hücrenin HTML dizesini de alabilirsiniz. Aspose.Cells bu özelliği sunuyor. Aspose.Cells, hedeflerinize ulaşmanıza yardımcı olmak için aşağıdaki özellikleri ve yöntemleri sağlar.
+
+## **Olası Kullanım Senaryoları**
+Belirli bir hücre için biçimlendirilmiş veri ayarlamanız gerektiğinde, hücreye bir html dizisi atayabilirsiniz. Tabii ki, hücrenin HTML dizisini de alabilirsiniz. Aspose.Cells bu özelliği sunar. Aspose.Cells, hedeflerinize ulaşmanıza yardımcı olmak için aşağıdaki özellikler ve yöntemleri sağlar.
 - [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/htmlstring)
 
-##  **Aspose.Cells'i kullanarak html dizesini alın ve ayarlayın**
-Bu örnekte aşağıdakilerin nasıl yapılacağı gösterilmektedir:
+## **Aspose.Cells kullanarak html dizesini alın ve ayarlayın**
+Bu örnek aşağıdakileri göstermektedir:
 
-1. Bir çalışma kitabı oluşturun ve bazı veriler ekleyin.
-1. İlk çalışma sayfasındaki spesifik Cell'i alın.
-1. Html dizesini Cell olarak ayarlayın.
-1. Cell'in html dizesini alın.
+1. Bir çalışma kitabı oluşturun ve bazı verileri ekleyin.
+1. İlk çalışma sayfasındaki belirli hücreyi alın.
+1. HTML dizesini hücreye ayarlayın.
+1. Hücrenin HTML dizisini alın.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-htmlstring.cs" >}}
 
-##  Örnek kod tarafından oluşturulan çıktı
+Örneğin ürettiği çıktı
 
-Aşağıdaki ekran görüntüsü yukarıdaki örnek kodun çıktısını göstermektedir.
+Yukarıdaki örnek kodun çıktısını aşağıdaki ekran görüntüsünde görebilirsiniz.
 
-![yapılacak şey:image_alt_text](htmlstring.png)
+![todo:image_alt_text](htmlstring.png)

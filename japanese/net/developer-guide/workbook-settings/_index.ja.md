@@ -1,5 +1,5 @@
-﻿---
-title: Excel スプレッドシート ファイルの設定を管理する
+---
+title: Excelスプレッドシートファイルの設定を管理する
 linktitle: ワークブックの設定
 type: docs
 weight: 185

@@ -1,35 +1,36 @@
-﻿---
-title: Excel を CSV,TSV および Txt に変換します
-linktitle: CSV,TSV および Txt として保存
+---
+title: ExcelをCSV、TSV、およびTxtに変換する
+linktitle: CSV、TSV、およびTxtとして保存
 type: docs
 weight: 40
 url: /ja/net/convert-excel-to-csv-tsv-and-txt/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells は、Excel、ods、json およびその他の形式のファイルを CSV、TSV、および TXT に変換することを可能にします。
+Aspose.CellsでExcel、ods、jsonなどの形式ファイルをCSV、TSV、TXTに変換することが可能になります。
 
 {{% /alert %}}
 
-## **ワークブックをテキストまたは CSV 形式で保存する**
+## **ワークブックをテキストまたはCSV形式で保存**
 
-場合によっては、複数のワークシートを含むワークブックをテキスト形式に変換または保存する必要があります。テキスト形式 (例: TXT、TabDelim、CSV など) の場合、既定では、Microsoft Excel と Aspose.Cells の両方で、アクティブなワークシートの内容のみが保存されます。
+時々、複数のワークシートを含むワークブックをテキスト形式に変換または保存したい場合があります。テキスト形式（たとえば、TXT、TabDelim、CSVなど）の場合、デフォルトでMicrosoft ExcelおよびAspose.Cellsの両方はアクティブなワークシートの内容のみを保存します。
 
-次のコード例は、ブック全体をテキスト形式で保存する方法を示しています。 Microsoft Excel または OpenOffice スプレッドシート ファイル (XLS、XLSX、XLSM、XLSB、ODS など) のソース ワークブックを任意の数のワークシートと共に読み込みます。
+以下のコード例では、ワークブック全体をテキスト形式で保存する方法について説明しています。任意のMicrosoft ExcelまたはOpenOfficeスプレッドシートファイル（XLS、XLSX、XLSM、XLSB、ODSなど）を読み込み、任意の数のワークシートを含めることができます。
 
-コードが実行されると、ブック内のすべてのシートのデータが TXT 形式に変換されます。
+コードを実行すると、ワークブックのすべてのシートのデータがTXT形式に変換されます。
 
-同じ例を変更して、ファイルを CSV に保存できます。デフォルトでは、**[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)**はコンマなので、CSV 形式で保存する場合はセパレータを指定しないでください。
+同じ例を修正してファイルをCSV形式で保存することもできます。デフォルトでは、[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)はコンマなので、CSV形式に保存する場合は区切り文字を指定しないでください。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
-## **カスタム セパレータを使用したテキスト ファイルの保存**
+## **カスタム区切り文字でテキストファイルを保存**
 
-テキスト ファイルには、書式設定されていないスプレッドシート データが含まれています。このファイルは、データ間にカスタマイズされた区切り文字を含めることができる一種のプレーン テキスト ファイルです。
+テキストファイルには書式がないスプレッドシートデータが含まれます。ファイルは、データ間にいくつかのカスタマイズされた区切り記号があるプレーンテキストファイルの種類です。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingTextFilewithCustomSeparator-1.cs" >}}
 
 
-## **先行トピック**
-- [スプレッドシートを CSV 形式にエクスポートする際に、空白行の区切り記号を保持する](/cells/ja/net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
-- [スプレッドシートを CSV 形式にエクスポートする際に、先頭の空白の行と列をトリミングする](/cells/ja/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+## **高度なトピック**
+- [CSV形式へのスプレッドシートのエクスポート時に空行の区切り記号を保持する](/cells/ja/net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
+- [スプレッドシートをCSV形式にエクスポートする際に先行する空白行と列をトリミングします。](/cells/ja/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)

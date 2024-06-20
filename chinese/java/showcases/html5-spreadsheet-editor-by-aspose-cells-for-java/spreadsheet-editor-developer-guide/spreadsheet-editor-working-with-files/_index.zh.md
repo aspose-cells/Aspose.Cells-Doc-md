@@ -1,5 +1,5 @@
 ---
-title: 电子表格编辑器 - 与文件一起使用
+title: 电子表格编辑器  与文件一起使用
 type: docs
 weight: 10
 url: /zh/java/spreadsheet-editor-working-with-files/

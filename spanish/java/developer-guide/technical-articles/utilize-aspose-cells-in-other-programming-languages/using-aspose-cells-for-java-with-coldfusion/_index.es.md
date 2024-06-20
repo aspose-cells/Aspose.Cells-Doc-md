@@ -1,42 +1,43 @@
-﻿---
-title: Usando Aspose.Cells for Java con ColdFusion
+---
+title: Usar Aspose.Cells for Java con ColdFusion
 type: docs
 weight: 40
 url: /es/java/using-aspose-cells-for-java-with-coldfusion/
 ---
+
 {{% alert color="primary" %}}
 
-Este artículo brinda la información básica y el segmento de código que los desarrolladores de ColdFusion necesitan para usar Aspose.Cells for Java en la aplicación ColdFusion.
+Este artículo brinda la información básica y el segmento de código que los desarrolladores de ColdFusion necesitan para usar Aspose.Cells for Java en su aplicación de ColdFusion.
 
-Este artículo muestra cómo crear una página web simple usando ColdFusion y usar Aspose.Cells for Java para generar un archivo de Excel simple.
+Este artículo muestra cómo crear una página web simple usando ColdFusion y cómo usar Aspose.Cells for Java para generar un archivo Excel simple.
 
 {{% /alert %}}
 
-## **Aspose.Cells: El producto real**
+## **Aspose.Cells: El Producto Real**
 
-Con Aspose.Cells, los desarrolladores pueden exportar datos, formatear hojas de cálculo con todos los detalles y en todos los niveles, importar imágenes, importar gráficos, crear gráficos, manipular gráficos, transmitir Microsoft datos de Excel, guardar en varios formatos, incluidos XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) integrado) y muchos más.
+Con Aspose.Cells, los desarrolladores pueden exportar datos, formatear hojas de cálculo en cada detalle y a cada nivel, importar imágenes, importar gráficos, crear gráficos, manipular gráficos, transmitir datos de Microsoft Excel, guardar en varios formatos incluyendo XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML (integrado con [Aspose.Pdf](https://products.aspose.com/pdf/java/)) y muchos más.
 
- Para obtener más información sobre el producto, las funciones y la guía del programador, consulte la documentación Aspose.Cells y las funciones en línea[población](https://github.com/aspose-cells/Aspose.Cells-for-Java) . Usted puede[descargar](https://downloads.aspose.com/cells/java) y evaluarlo gratis.
+Para obtener más información sobre el producto, sus características y una guía para programadores, consulte la documentación y las [demostraciones](https://github.com/aspose-cells/Aspose.Cells-for-Java) en línea de Aspose.Cells. Puede [descargarlo](https://downloads.aspose.com/cells/java) y evaluarlo de forma gratuita.
 
-### **requisitos previos**
+### **Requisitos Previos**
 
-Para usar Aspose.Cells for Java en aplicaciones ColdFusion, copie el archivo Aspose.Cells.jar en la carpeta {CarpetaInstalación\\}\wwwroot\WEB-INF\lib.
+Para usar Aspose.Cells for Java en aplicaciones ColdFusion, copie el archivo Aspose.Cells.jar en la carpeta {CarpetaDeInstalación\\}\wwwroot\WEB-INF\lib.
 
-No olvide reiniciar el servidor de aplicaciones ColdFusion después de colocar nuevos archivos JAR en la carpeta lib.
+No olvides reiniciar el servidor de aplicaciones ColdFusion después de colocar nuevos JAR en la carpeta lib.
 
-### **Uso de Aspose.Cells for Java y ColdFusion para crear un archivo de Excel**
+### **Usar Aspose.Cells for Java y ColdFusion para crear un archivo de Excel**
 
-A continuación, creamos una aplicación simple que genera un archivo Excel Microsoft vacío, inserta algún contenido y lo guarda como un archivo XLS.
+A continuación, creamos una aplicación simple que genera un archivo vacío de Microsoft Excel, inserta algo de contenido y lo guarda como un archivo XLS.
 
-El siguiente es el código real (ColdFusion & Aspose.Cells for Java). Después de ejecutar el código, se genera un archivo de Excel, output.xls.
+A continuación se muestra el código real (ColdFusion & Aspose.Cells for Java). Después de ejecutar el código, se genera un archivo de Excel, output.xls.
 
-**Salida generada.xls**
+**Archivo de salida generado: output.xls**
 
-![todo:imagen_alternativa_texto](using-aspose-cells-for-java-with-coldfusion_1.png)
+![todo:image_alt_text](using-aspose-cells-for-java-with-coldfusion_1.png)
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <html>
 
@@ -72,8 +73,8 @@ El siguiente es el código real (ColdFusion & Aspose.Cells for Java). Después d
 
 Este artículo explica cómo usar Aspose.Cells for Java con ColdFusion.
 
-Aspose.Cells ofrece una gran flexibilidad y brinda una velocidad, eficiencia y confiabilidad sobresalientes. Aspose.Cells se ha beneficiado de años de investigación, diseño y ajuste cuidadoso.
+Aspose.Cells ofrece una gran flexibilidad y proporciona una velocidad, eficiencia y fiabilidad excepcionales. Aspose.Cells ha aprovechado años de investigación, diseño y sintonización cuidadosa.
 
- Agradecemos consultas, comentarios y sugerencias en el[Aspose.Cells Foro](https://forum.aspose.com/c/cells/9).
+Damos la bienvenida a consultas, comentarios y sugerencias en el [Foro de Aspose.Cells](https://forum.aspose.com/c/cells/9).
 
 {{% /alert %}}

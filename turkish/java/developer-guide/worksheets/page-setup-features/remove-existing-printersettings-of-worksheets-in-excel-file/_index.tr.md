@@ -1,19 +1,20 @@
-﻿---
+---
 title: Excel dosyasındaki Çalışma Sayfalarının Mevcut Yazıcı Ayarlarını Kaldır
 type: docs
 weight: 40
 url: /tr/java/remove-existing-printersettings-of-worksheets-in-excel-file/
 ---
+
 ## **Olası Kullanım Senaryoları**
-Bazen geliştiriciler, Excel'in dahil edilmesini engellemek ister.*.çöp Kutusu* kaydedilen XLSX dosyalarındaki yazıcı ayarları dosyaları. Yazıcı ayarları dosyaları altında bulunur*“[dosya "root"]\xl\printerSettings”*. Bu belge, Aspose.Cells API'leri kullanılarak mevcut yazıcı ayarlarının nasıl kaldırılacağını açıklar.
-## **Excel dosyasındaki Çalışma Sayfalarının Mevcut Yazıcı Ayarlarını Kaldır**
-Aspose.Cells, Excel dosyasındaki farklı sayfalar için belirtilen mevcut yazıcı ayarlarını kaldırmanıza olanak tanır. Aşağıdaki örnek kod, çalışma kitabındaki tüm çalışma sayfaları için varolan yazıcı ayarlarının nasıl kaldırılacağını gösterir. Lütfen bakın[örnek excel dosyası](45056023.xlsx), [çıktı excel dosyası](45056024.xlsx), konsol çıktısının yanı sıra referans için bir ekran görüntüsü.
-## **Ekran görüntüsü**
-![yapılacaklar:resim_alternatif_metin](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
-## **Basit kod**
+Bazı durumlarda geliştiriciler, Excel'in kaydedilen XLSX dosyalarında *“.bin*” dosyalarını dahil etmesini istemeyebilir. Yazdırma ayarları dosyaları, *“[file "root"]\xl\printerSettings”* altında bulunmaktadır. Bu belge, Aspose.Cells API'leri kullanarak mevcut yazdırma ayarlarını nasıl kaldırılacağını açıklar.
+## **Excel dosyasındaki Mevcut Çalışma Sayfası Yazıcı Ayarlarını Kaldırma**
+Aspose.Cells, Excel dosyasındaki farklı sayfalar için belirtilen mevcut yazdırma ayarlarını kaldırmanıza olanak tanır. Aşağıdaki örnek kod, çalışılan defterdeki tüm çalışma sayfaları için mevcut yazdırma ayarlarını nasıl kaldıracağını göstermektedir. Referans için lütfen örnek Excel dosyasını göz atın, [çıktı Excel dosyasını](45056024.xlsx), konsol çıktısını ve bir ekran görüntüsünü inceleyin.
+## **Ekran Görüntüsü**
+![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.java" >}}
-## **Konsol Çıkışı**
-{{< highlight "java" >}}
+## **Konsol Çıktısı**
+{{< highlight java >}}
 
  PrinterSettings of this worksheet exist.
 

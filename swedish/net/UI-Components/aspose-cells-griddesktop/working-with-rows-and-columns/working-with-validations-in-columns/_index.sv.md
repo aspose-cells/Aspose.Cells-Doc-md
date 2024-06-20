@@ -1,22 +1,25 @@
-﻿---
+---
 title: Arbeta med valideringar i kolumner
 type: docs
 weight: 80
-url: /sv/net/working-with-validations-in-columns/
+url: /sv/net/aspose-cells-griddesktop/work-with-validations-in-columns/
+keywords: GridDesktop, validering, valideringar
+description: Den här artikeln introducerar hur man använder valideringar i kolumner i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
- I ett av våra tidigare ämnen har vi diskuterat om valideringar men det var i samband med[Valideringar i arbetsblad](/cells/sv/net/working-with-validations-in-worksheets/) (för att ha allmän information om validerings- och valideringslägen kan utvecklare hänvisa till detta ämne). I det här ämnet kommer vi att förklara valideringar med avseende på kolumner. Med den här funktionen är det möjligt för utvecklare att tillämpa en valideringsregel på valfri kolumn i kalkylbladet. Låt oss diskutera det i detalj.
+I ett av våra tidigare ämnen har vi diskuterat om valideringar, men det var i sammanhanget [Valideringar i Arbetsblad](/cells/sv/net/working-with-validations-in-worksheets/) (för allmän information om validering och valideringslägen, kan utvecklare hänvisa till det här ämnet). I det här ämnet förklarar vi valideringar med avseende på kolumner. Genom den här funktionen är det möjligt för utvecklare att tillämpa en valideringsregel på vilken kolumn som helst i arbetsbladet. Låt oss diskutera det i detalj.
 
 {{% /alert %}} 
-## **Lägger till kolumnvalidering**
-För att lägga till någon form av validering till en kolumn, följ stegen nedan:
+## **Lägga till validering i kolumnen**
+För att lägga till vilken typ av validering som helst i en kolumn, följ stegen nedan:
 
--  Lägg till Aspose.Cells.GridDesktop-kontroll till din**Form**
--  Få åtkomst till alla önskade**Arbetsblad**
-- **Lägg till** en önskad**Godkännande** till valfri kolumn
+- Lägg till Aspose.Cells.GridDesktop kontroll till din **Form**
+- Kom åt något önskat **Kalkylblad**
+- **Lägg till** en önskad **validering** till en valfri kolumn
 
-**VIKTIG:**För mer information om typerna av validering (eller valideringslägen som**Krävs validering**, **Validering av reguljära uttryck** och**Anpassad validering** ) och implementera**Anpassad validering** , se[Arbeta med valideringar i arbetsblad.](/cells/sv/net/working-with-validations-in-worksheets/)
+**VIKTIGT:** För mer information om typer av validering (eller valideringlägen som **Obligatorisk validering**, **Regular Expressions Validering** och **Anpassad validering**) och implementering av **Anpassad validering**, vänligen se [Arbeta med validering i kalkylblad](/cells/sv/net/working-with-validations-in-worksheets/)
 
 
 
@@ -24,13 +27,13 @@ För att lägga till någon form av validering till en kolumn, följ stegen neda
 ## **Åtkomst till kolumnvalidering**
 För att komma åt en specifik kolumnvalidering, följ stegen nedan:
 
--  Få tillgång till en önskad**Arbetsblad**
--  Öppna en specifik kolumn**Godkännande** i**Arbetsblad**
--  Redigera**Godkännande** attribut, om så önskas
+- Kom åt ett önskat **Kalkylblad**
+- Åtkomst till en specifik kolumn **Validering** i **Kalkylbladet**
+- Redigera **Validering**-attribut, om önskat
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing first worksheet of the Grid
 
@@ -52,12 +55,12 @@ validation.CustomValidation = null;
 ## **Ta bort kolumnvalidering**
 För att ta bort en specifik kolumnvalidering från kalkylbladet, följ stegen nedan:
 
--  Få tillgång till en önskad**Arbetsblad**
--  Ta bort en specifik kolumn**Godkännande** från**Arbetsblad**
+- Kom åt ett önskat **Kalkylblad**
+- Ta bort en specifik kolumn **Validering** från **Kalkylbladet**
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing first worksheet of the Grid
 

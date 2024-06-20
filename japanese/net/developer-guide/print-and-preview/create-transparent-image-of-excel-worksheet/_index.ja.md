@@ -1,27 +1,28 @@
 ---
-title: Excelワークシートの透明画像を作成
+title: Create Transparent Image of Excel Worksheet
 type: docs
 weight: 170
 url: /ja/net/create-transparent-image-of-excel-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、ワークシートの画像を透明な画像として生成する必要があります。塗りつぶし色のないすべてのセルに透明度を適用したいとします。 Aspose.Cells は、[**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent)ワークシート画像に透明度を適用するプロパティ。このプロパティが *false** の場合、塗りつぶし色のないセルは白色で描画され、*true** の場合、塗りつぶし色のないセルは透明で描画されます。
+時々、ワークシートの画像を透明なイメージとして生成する必要があります。埋められていないセルに透明性を適用したい場合があります。Aspose.Cellsは透明性をワークシートイメージに適用するための[**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent)プロパティを提供しています。このプロパティが **false** の場合、埋められていないセルは白色で描画され、 **true** の場合、埋められていないセルは透明に描画されます。
 
 {{% /alert %}} 
 
-次のワークシート画像では、透明度は適用されていません。塗りつぶし色のないセルは白く描画されます。
+以下のワークシートイメージでは、透明性が適用されていません。埋められていないセルは白色で描画されます。
 
-|**透明度なしで出力: セルの背景は白になります**|
+|**透明度なしの出力: セルの背景は白です**|
 | :- |
 |![todo:image_alt_text](create-transparent-image-of-excel-worksheet_1.png)|
 
-次のワークシート画像では、透明度が適用されています。塗りつぶし色のないセルは透明です。
+以下のワークシート画像では、透明度が適用されました。塗りつぶしのないセルは透明です。
 
-|**透明度を有効にして出力する**|
+|**透明度を有効にした出力**|
 | :- |
 |![todo:image_alt_text](create-transparent-image-of-excel-worksheet_2.png)|
 
-次のサンプル コードは、Excel ワークシートから透明な画像を生成します。
+次のサンプルコードは、Excelワークシートから透明な画像を生成します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTransparentImage-1.cs" >}}

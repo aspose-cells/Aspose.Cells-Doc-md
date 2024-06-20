@@ -1,21 +1,22 @@
-﻿---
-title: スプレッドシートのレンダリング中にデフォルトのフォントを HTML に設定
+---
+title: HTMLにスプレッドシートをレンダリングする際のデフォルトフォントを設定する
 type: docs
 weight: 830
 url: /ja/java/set-default-font-while-rendering-spreadsheet-to/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells を使用すると、スプレッドシートを HTML にレンダリングする際にデフォルトのフォントを設定できます。[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName)この目的のために。このプロパティは、無効なフォントまたは存在しないフォントを含むセルがスプレッドシートにある場合に役立ちます。次に、これらのセルは、で指定されたフォントでレンダリングされます[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName)財産。
+Aspose.Cellsを使用すると、スプレッドシートをHTMLにレンダリングする際のデフォルトフォントを設定できます。この目的のために、[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName)を使用してください。このプロパティは、スプレッドシート内のいくつかのセルに無効または存在しないフォントがある場合に便利です。その場合、これらのセルは[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName)プロパティで指定されたフォントでレンダリングされます。
 
 {{% /alert %}} 
-## **スプレッドシートのレンダリング中にデフォルトのフォントを HTML に設定**
-次のサンプル コードでは、ワークブックを作成し、最初のワークシートのセル B4 にテキストを追加し、そのフォントを不明または存在しないフォントに設定します。次に、Courier New、Arial、Times New Roman などのさまざまな既定のフォント名を設定して、ワークブックを HTML に保存します。
+## **スプレッドシートをHTMLにレンダリングする際のデフォルトフォントを設定する**
+次のサンプルコードは、ブックを作成し、最初のワークシートのセルB4にテキストを追加し、そのフォントを未知の/存在しないフォントに設定します。それからブックを異なるデフォルトフォント名（Courier New、Arial、Times New Romanなど）でHTML形式で保存します。
 
-スクリーンショットは、さまざまなデフォルトのフォント名を設定した効果を示しています[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName)財産。
+スクリーンショットは、[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName)プロパティを介して異なるデフォルトフォント名を設定した効果を示しています。
 
-![todo:画像_代替_文章](set-default-font-while-rendering-spreadsheet-to-html_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-html_1.png)
 
-コードは、[Courier New で HTML ファイルを出力](5472568) 、[HTML を Arial で出力](5472567)そしてその[Times New RomanでHTMLファイルを出力](5472565).
+このコードは、Courier Newを使用した[出力HTMLファイル](5472568)、Arialを使用した[出力HTML](5472567)、およびTimes New Romanを使用した[出力HTMLファイル](5472565)を生成します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}

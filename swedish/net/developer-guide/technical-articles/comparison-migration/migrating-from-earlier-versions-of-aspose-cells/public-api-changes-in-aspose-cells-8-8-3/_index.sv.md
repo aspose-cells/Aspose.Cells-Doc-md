@@ -1,17 +1,18 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.8.3
+---
+title: Offentliga API ändringar i Aspose.Cells 8.8.3
 type: docs
 weight: 290
 url: /sv/net/public-api-changes-in-aspose-cells-8-8-3/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.8.2 till 8.8.3 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringarna av Aspose.Cells API från version 8.8.2 till 8.8.3 som kan vara av intresse för modul/apputvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
+## **Tillagda API:er**
 ### **Stöd för ActiveX-kontroller**
-Aspose.Cells for .NET 8.8.3 har avslöjat metoden AddActiveXControl som gör det möjligt att lägga till en ActiveX-kontroll till ShapeCollection. Den ovannämnda metoden kräver 7 parametrar för att specificera kontrolltyp, plats för att placera kontroll och storlek på kontroll. Typen kan specificeras med hjälp av ControlType-uppräkningen med följande möjliga värden.
+Aspose.Cells for .NET 8.8.3 har exponerat AddActiveXControl metoden som möjliggör att lägga till en ActiveX-kontroll till ShapeCollection. Nämnda metod kräver 7 parametrar för att ange kontrolltypen, platsen för att placera kontrollen och storleken på kontrollen. Typen kan specificeras med hjälp av ControlType-omfattningen med följande möjliga värden.
 
 1. ControlType.CheckBox
 1. ControlType.ComboBox
@@ -24,19 +25,19 @@ Aspose.Cells for .NET 8.8.3 har avslöjat metoden AddActiveXControl som gör det
 1. ControlType.SpinButton
 1. ControlType.TextBox
 1. ControlType.ToggleButton
-1. ControlType.Okänd
+1. ControlType.Unknown
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Lägga till ActiveX-kontroller i arbetsbladet](/cells/sv/net/add-activex-controls-using-aspose-cells/).
+För mer information om denna funktion, vänligen se den detaljerade artikeln om [Lägga till ActiveX-kontroller till Kalkylbladet](/cells/sv/net/add-activex-controls-using-aspose-cells/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -63,20 +64,20 @@ book.Save(dir + "output.xlsx", SaveFormat.Xlsx);
 {{< /highlight >}}
 
 
-### **Lade till LoadOptions.SetPaperSize Method**
-Aspose.Cells for .NET 8.8.3 gör det möjligt att ställa in standardstorleken för utskriftspapper från standardskrivarens inställning medan du använder den nyligen exponerade metoden LoadOptions.SetPaperSize som visas nedan. Observera att indataparametern för ovannämnda metod är värdet från uppräkningen PaperSizeType som innehåller de fördefinierade pappersstorlekarna.
+### **Tillagt LoadOptions.SetPaperSize Metod**
+Aspose.Cells for .NET 8.8.3 tillåter att ställa in standard utskriftspapperstorlek från standard skrivarens inställning genom att använda den nyexponerade LoadOptions.SetPaperSize metoden som visas nedan. Observera, den inmatningsparameter för nämnda metod är värdet från PaperSizeType-omfattningen som innehåller fördefinierade pappersstorlekar.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Ladda kalkylblad med specificerad pappersstorlek](/cells/sv/net/load-workbook-with-specified-printer-paper-size/).
+För mer information om denna funktion, vänligen se den detaljerade artikeln om [Ladda Kalkylblad med Specifik Pappersstorlek](/cells/sv/net/load-workbook-with-specified-printer-paper-size/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions
 
@@ -93,12 +94,12 @@ var book = new Workbook(dir + "input.xlsx", loadOptions);
 {{< /highlight >}}
 
 
-### **Lade till Cell.GetCharacters(flagga) Method**
-Aspose.Cells API:er gör det möjligt att hämta teckenobjekten i form av FontSetting-arrayen genom att använda metoden Cell.GetCharacters. Med den här versionen har Aspose.Cells for .NET API avslöjat en överbelastad version av Cell.GetCharacters som kan acceptera Boolean som parameter, vilket indikerar om tabellstilen måste tillämpas på cellen om cellen är en del av ett ListObject.
+### **Lagt till Cell.GetCharacters(flag) Metod**
+Aspose.Cells API:er tillåter att få teckenobjekt i form av FontSetting-array genom att använda Cell.GetCharacters-metoden. Med den här versionen har Aspose.Cells for .NET API:et utsatt en överbelastad version av Cell.GetCharacters som kunde acceptera en boolean som parameter och ange om tabellformatet ska tillämpas på cellen om cellen är en del av en ListObject.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load an existing spreadsheet
 
@@ -125,20 +126,20 @@ var characters = cell.GetCharacters(true);
 {{< /highlight >}}
 
 
-### **Lade till egenskapen OleObject.AutoLoad**
-Aspose.Cells for .NET 8.8.3 har exponerat egenskapen OleObject.AutoLoad som gör det möjligt att uppdatera OleObjects bild om innehållet/data för det underliggande objektet har ändrats. Den tidigare nämnda egenskapen när den är satt till true tvingar Excel-applikationen att uppdatera OleObjects bild när det resulterande kalkylbladet laddas.
+### **Lade till OleObject.AutoLoad Egenskap**
+Aspose.Cells for .NET 8.8.3 har utsatt OleObject.AutoLoad-egenskapen som tillåter att uppdatera OleObject:s bild om innehållet/datat i det underliggande objektet har ändrats. När nämnda egenskap är inställd som sann, tvingar programmet Excelfilen att uppdatera OleObject:s bild när den resulterande kalkylbladet laddas.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Uppdatera OleObjects automatiskt](/cells/sv/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
+För mer information om den här funktionen, vänligen granska den detaljerade artikeln om [Automatisk uppdatering av OleObjects](/cells/sv/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load an existing spreadsheet
 
@@ -163,20 +164,20 @@ oleObject.AutoLoad = true;
 {{< /highlight >}}
 
 
-### **Tillagd HTMLLoadOptions.SupportDivTag-egenskap**
-Aspose.Cells for .NET 8.8.3 har avslöjat egenskapen HTMLLoadOptions.SupportDivTag som gör det möjligt att analysera DIV-taggar inbäddade i TD-taggar medan HTML-filer/snippet laddas i Aspose.Cells-objektmodellen. Boolesk typegenskap har standardvärdet false.
+### **Lade till HTMLLoadOptions.SupportDivTag Egenskap**
+Aspose.Cells for .NET 8.8.3 har utsatt HTMLLoadOptions.SupportDivTag-egenskapen vilken tillåter att tolka DIV-taggar som är inbäddade i TD-taggar vid inläsning av HTML-filer/snuttar i Aspose.Cells-objektmodellen. Egenskapen av typen boolean har standardvärdet falskt.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Stöd inre DIV-taggar under laddning HTML](/cells/sv/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+För mer information om den här funktionen, vänligen granska den detaljerade artikeln om [Stöd för inre DIV-taggar vid inläsning av HTML](/cells/sv/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Store the HTML snippet in a variable
 
@@ -275,20 +276,20 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 {{< /highlight >}}
 
 
-### **Tillagd HtmlSaveOptions.ExportGridLines Property**
-Aspose.Cells for .NET 8.8.3 har exponerat egenskapen HtmlSaveOptions.ExportGridLines som gör det möjligt att rendera rutnätslinjerna medan kalkylblad exporteras till formatet HTML. Egenskapen av typen Boolean har standardvärdet false, men när den är inställd på true, återger API rutnätslinjerna för det tillgängliga dataintervallet i formatet HTML.
+### **Lade till HtmlSaveOptions.ExportGridLines Egenskap**
+Aspose.Cells for .NET 8.8.3 har utsatt HtmlSaveOptions.ExportGridLines-egenskapen vilken tillåter att rendera rutnätet vid exportering av kalkylblad till HTML-format. Egenskapen av typen boolean har standardvärdet falskt, men när den är inställd som sann, renderar API:et rutnätet för den tillgängliga dataserien i HTML-format.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Gör rutnätslinjer till HTML](/cells/sv/net/export-excel-to-html-with-gridlines/).
+För mer information om den här funktionen, vänligen granska den detaljerade artikeln om [Rendera rutnät till HTML](/cells/sv/net/export-excel-to-html-with-gridlines/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load existing spreadsheet
 
@@ -309,20 +310,20 @@ book.Save(dir + "output.html", options);
 {{< /highlight >}}
 
 
-### **Tillagd ListObject.Comment-egenskap**
-Aspose.Cells API:er tillåter nu att hämta och ställa in kommentarerna för en instans av ListObject. För att tillhandahålla den ovannämnda funktionen har API:erna Aspose.Cells exponerat egenskapen ListObject.Comment.
+### **Lade till ListObject.Comment Egenskap**
+Aspose.Cells API:er tillåter nu att hämta och sätta kommentarer för en instans av ListObject. För att tillhandahålla den tidigare nämnda funktionen, har Aspose.Cells API:erna exponerat ListObject.Comment egenskapen.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Lägga till kommentarer för ListObjects](/cells/sv/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/).
+För mer information om den här funktionen, vänligen granska den detaljerade artikeln om [Lägga till kommentarer för ListObjects](/cells/sv/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load existing spreadsheet
 
@@ -347,16 +348,16 @@ book.Save(dir + "output.xlsx");
 {{< /highlight >}}
 
 
-### **Lade till GridWeb.SessionStorePath-egenskap**
-Aspose.Cells.GridWeb for .NET 8.8.3 har exponerat SessionStorePath-egenskapen som gör det möjligt att hämta eller ställa in sessionslagringssökvägen när Session Mode är ViewState. Den ovannämnda egenskapen hämtar eller ställer in den relativa sökvägen till den aktuella webbapplikationens Baskatalog.
+### **Följande är ett enkelt användningsscenario.**
+Aspose.Cells.GridWeb för .NET 8.8.3 har utsatt SessionStorePath-egenskapen vilken tillåter att få eller ställa in sessionens lagringsväg när Sessionsläge är ViewState. Nämnt egenskap får eller ställer in den relativa sökvägen till den aktuella webbapplikationens basmapp.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Ange sökväg för tillfälliga sessionsfiler](/cells/sv/net/specify-the-path-where-gridweb-stores-temporary-session-files/).
+För mer information om den här funktionen, vänligen granska den detaljerade artikeln om [Ange väg för tillfälliga sessionfilen](/cells/sv/net/specify-the-path-where-gridweb-stores-temporary-session-files/).
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
-## **Borttagna API:er**
-### **Borttagen Workbook.Decrypt Method**
-Nämnda egendom märktes föråldrad för en tid sedan. Den här versionen har helt tagit bort den från den offentliga API. Det rekommenderas att ställa in WorkbookSettings.Password-egenskapen på null för att uppnå samma mål.
+Följande är det enkla användningscenariot.
+## **Borttagen API:er**
+### **Tog bort Workbook.Decrypt-metoden**
+Den angivna egenskapen markerades som föråldrad för en tid sedan. Denna version har helt tagit bort den från den offentliga API:et. Det rekommenderas att sätta WorkbookSettings.Password egenskapen till null för att uppnå samma mål.

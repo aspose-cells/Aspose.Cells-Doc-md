@@ -1,18 +1,19 @@
-﻿---
-title: Cells を Microsoft に追加 Excel 数式ウォッチ ウィンドウ
+---
+title: Microsoft Excelフォーミュラ監視ウィンドウにセルを追加する
 type: docs
 weight: 20
 url: /ja/java/add-cells-to-microsoft-excel-formula-watch-window/
 ---
-## **考えられる使用シナリオ**
 
-Microsoft Excel ウォッチ ウィンドウは、セルの値とその数式をウィンドウで簡単に監視できる便利なツールです。開くことができます*ウォッチウィンドウ*Microsoft Excel を使用して*数式 > ウォッチ* *窓*.それは*ウォッチを追加*検査用のセルを追加するために使用できるボタン。同様に、使用できます[**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int)) セルを追加するメソッド*ウォッチウィンドウ*Aspose.Cells API を使用します。
+## **可能な使用シナリオ**
 
-## **Cells を Microsoft に追加 Excel 数式ウォッチ ウィンドウ**
+Microsoft ExcelのWatch Windowはセルの値とその数式を便利に監視するための有用なツールです。Microsoft Excelを開き、*数式 > リスト* > *ウォッチ* *ウィンドウ*をクリックして*Watch Window*を開けることができます。そこでは、*Add Watch*ボタンをクリックしてインスペクション用のセルを追加することができます。同様に、Aspose.Cells APIを使用して*Watch Window*にセルを追加するために[**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int))メソッドを使用することができます。
 
-次のサンプル コードは、セル C1 と E1 の数式を設定し、両方を追加します。*ウォッチウィンドウ*.次に、ワークブックを次のように保存します[出力エクセルファイル](67338509.xlsx).出力された Excel ファイルを開いて表示すると、*ウォッチウィンドウ*、このスクリーンショットに示すように、両方のセルが表示されます。
+## **Microsoft Excelフォーミュラ計算エンジンのAspose.Cells**
 
-![todo:画像_代替_文章](add-cells-to-microsoft-excel-formula-watch-window_1.png)
+次のサンプルコードは、セルC1とE1の式を設定し、両者を*Watch Window*に追加し、その後ワークブックを[出力エクセルファイル](67338509.xlsx)として保存します。出力エクセルファイルを開き、*Watch Window*を表示すると、このスクリーンショットに表示されているように両方のセルが表示されます。
+
+![todo:image_alt_text](add-cells-to-microsoft-excel-formula-watch-window_1.png)
 
 ## **サンプルコード**
 

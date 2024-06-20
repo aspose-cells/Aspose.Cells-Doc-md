@@ -1,14 +1,16 @@
 ---
-title: Работа с клиентской частью GridJs
+title: Работа с GridJs на стороне клиента
 type: docs
 weight: 250
 url: /ru/net/aspose-cells-gridjs/client/
-keywords: custom,logo,setting,api
+keywords: GridJs,custom,logo,setting,api
+description: В этой статье представлены клиентские javascript API или функции в GridJs.
 ---
-#  Работа с клиентской частью GridJs
- Мы разработали клиент GridJs на основе[X-таблица](https://github.com/myliang/x-spreadsheet).
 
-##  основные шаги:
+# Работа с GridJs на стороне клиента
+Мы разработали клиент GridJs на основе [x-spreadsheet](https://github.com/myliang/x-spreadsheet).
+
+## Основные этапы:
 
 - создать экземпляр x_spreadsheet
 ```javascript
@@ -43,14 +45,14 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
-    
--  загрузить данные JSON
+
+- загрузить данные в формате json
 ```javascript
 xs.loadData(data)
 // the parameters is:
 	data: the json data which describ the data structure for the worksheets
 ```
--  установить активный лист по имени листа
+- установить активный лист по имени листа
 ```javascript
 xs.setActiveSheetByName(sheetname)
 // the parameters is:
@@ -71,7 +73,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- установить информацию для работы с фигурами/изображениями для действия на стороне сервера
+- установить информацию для операции над формами/изображениями на серверной стороне
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -90,18 +92,18 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
-- установить информацию для операции загрузки для действия на стороне сервера
+- установить информацию для операции загрузки на серверной стороне
 ```javascript
 xs.setFileDownloadInfo(downloadActionUrl);
 // the parameters are:
 	downloadActionUrl: the get download file action URL in the server side controller
-	 
+
     for example: 
             const fileDownloadUrl = "/GridJs2/Download";
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- установить информацию для операции с оле-объектом для действия на стороне сервера
+- установить информацию для операции с объектом OLE на серверной стороне
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -110,11 +112,11 @@ xs.setOleDownloadInfo(oleActionUrl);
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
 ```
-  
 
-_
-##  другие полезные API
--  Рендеринг вида
+
+___
+## другие полезные API
+-  Отрисовать вид
 ```javascript
 xs.reRender()
 ```
@@ -124,21 +126,33 @@ xs.reRender()
 xs.getActiveSheet()
 ```
 
--  Установить уровень масштабирования
+-   Установить уровень масштабирования
 ```javascript
 xs.setZoomLevel(zoom)
 // the parameters is:
 	zoom:the zoom level ,can be number ,for example 0.5 for zoom out, or 2 for zoom in
 ```
 
--  Установить имя файла
+-   Установить имя файла 
 ```javascript
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
 ```
 
-- включить ли событие ключа окна для GridJs
+- Функция обратного вызова для функции отправки электронной почты.
+```javascript
+xs.setEmailSendCallFunction(callback)
+// the parameters is:
+	callback: the callback function to handle email sending, receives a mailObj parameter
+		callback: function(mailObj) {
+			// mailObj properties:
+			// mailObj.receiver: the email address of the receiver, e.g., 'example@gmail.com'
+			// mailObj.type: the format of the file to be sent, can be 'html', 'xlsx', or 'pdf'
+		}
+```
+
+-   разрешить обработку клавиш окна для GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -146,7 +160,7 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
--  отмените привязку всех событий, прикрепленных к GridJ, включая событие ключа окна и событие изменения размера окна.
+-  отвязать все события, привязанные к GridJs, включая событие клавиш окна и изменение размера окна.
 ```javascript
 xs.destroy()
 ```
@@ -168,12 +182,12 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
--  Получите выбранное изображение/форму, если ничего не выбрано, вернет ноль
+-  Получить выбранное изображение/форму, если ничего не выбрано, вернуть null
 ```javascript
 xs.sheet.selector.getObj()
 ```
 
--  установить выбираемое состояние для изображения/формы
+-  установить состояние выбора для изображения/формы 
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -195,7 +209,7 @@ xs.sheet.data.getCellStyle(ri,ci)
 	ri:row index 
 	ci:column index
 ```
--  Установите значение ячейки
+-  Установить значение ячейки
 ```javascript
 xs.sheet.data.setCellText(ri,ci,value,state)
     // the parameters are:
@@ -209,13 +223,13 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 ```javascript
 xs.sheet.data.selector.range
 ```
--  Установите значение ячейки для выбранной ячейки или области ячеек.
+-  Установить значение ячейки для выбранной ячейки или области ячеек
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
--  Установите стиль для выбранной ячейки или области ячейки.
+-  Установить стиль для выбранной ячейки или области ячеек
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
@@ -223,22 +237,22 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
--  Объединить выбранную область ячейки
+-  Объединить выбранную область ячеек
 ```javascript
 xs.sheet.data.merge()
 ```
 
--  Отменить объединение выделенной области ячеек
+-  Разъединить выбранную область ячеек
 ```javascript
 xs.sheet.data.unmerge()
 ```
--  Удалить выбранную ячейку
+-  Удалить выбранную ячейку  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  Установить область заморозки
+-  Закрепить область
 ```javascript
 xs.sheet.data.setFreeze(ri,ci)
     // the parameters are:
@@ -246,28 +260,28 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
--  Вставить строку или столбцы в выбранную ячейку
+-  Вставить строку или столбцы в выбранную ячейку  
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
 	type: row | column
 	n:the row or column number
 ```
--  Удалить строку или столбцы в выбранной ячейке
+-  Удалить строку или столбцы в выбранной ячейке  
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
 	type: row | column
 ```
 
--  Установите ширину столбца
+-  Установить ширину столбца
 ```javascript
 xs.sheet.data.setColWidth(ci,width)
     // the parameters are:
 	ci:column index
 	width:the width for the column
 ```
--  Установите ширину столбцов
+-  Установить ширину столбцов
 ```javascript
 xs.sheet.data.setColsWidth(sci,eci,width)
     // the parameters are:
@@ -276,14 +290,14 @@ xs.sheet.data.setColsWidth(sci,eci,width)
 	width:the width for the column
 ```
 
--  Установите ширину для всех столбцов
+-  Установить ширину для всех столбцов
 ```javascript
 xs.sheet.data.setAllColsWidth(width)
     // the parameters are:
 	width:the width for the columns
 ```
 
--  Получить ширину столбца
+-  Получить ширину столбца 
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
     // the parameters are:
@@ -291,14 +305,14 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  Установите высоту строки
+-  Установить высоту строки
 ```javascript
 xs.sheet.data.setRowHeight(ri,height)
     // the parameters are:
 	ri:row index
 	height:the height for the row
 ```
--  Установите высоту строк
+-  Установить высоту строк
 ```javascript
 xs.sheet.data.setRowsHeight(sri,eri,height)
     // the parameters are:
@@ -307,7 +321,7 @@ xs.sheet.data.setRowsHeight(sri,eri,height)
 	height:the height for the rows
 ```
 
-- Установите высоту для всех строк
+-  Установить высоту для всех строк
 ```javascript
 xs.sheet.data.setAllRowsHeight(height)
     // the parameters are:
@@ -315,7 +329,7 @@ xs.sheet.data.setAllRowsHeight(height)
 ```
 
 
--  Получить высоту строки
+-  Получить высоту строки 
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
     // the parameters are:
@@ -328,8 +342,8 @@ xs.sheet.data.rows.sumHeight(min,max)
 xs.sheet.data.displayRight2Left
 ```
 
-##  обратный звонок по событию
--  мы можем отслеживать следующие события
+## Обратный вызов события
+-  Мы можем отслеживать следующие события
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
                 console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
@@ -352,9 +366,9 @@ xs.sheet.data.displayRight2Left
             });
 ```
 
-##  настройка
+## Настройка
 
--  установить значок дома и ссылку
+-  Установить значок домой и ссылку
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -363,21 +377,56 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 	for example ,the below code will set the new logo and with link to google.com
 	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
 ```
--  показать строку меню
+-  Показать панель меню
 ```javascript
 xs.sheet.menubar.show()
 ```
 
--  скрыть строку меню
+-  Скрыть панель меню
 ```javascript
 xs.sheet.menubar.hide()
 ```
 
 
-для получения подробной информации вы можете проверить пример здесь
+## API для объекта TextBox
+TextBox - это особый вид формы, свойство типа которой: "TextBox",
+например: нижеприведенный код покажет, какая форма является текстовым полем
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+
+- Изменить цвет фона для объекта текстового поля
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+- Автоматически изменить цвет фона и цвет текста для получения визуального активного эффекта
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+-  Скрыть/показать текстовое содержимое в объекте текстового поля
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
+
+для подробной информации вы можете посмотреть пример здесь
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 
 
- 
- 
+
+

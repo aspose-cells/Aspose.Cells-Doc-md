@@ -1,15 +1,16 @@
-﻿---
-title: Blocca i riquadri in Php
+---
+title: Congela riquadri in Php
 type: docs
 weight: 40
 url: /it/java/freeze-panes-in-php/
 ---
-## **Aspose.Cells - Congelamento Riquadri**
- Per bloccare i riquadri nel documento del foglio di calcolo utilizzando**Aspose.Cells Java for PHP** , semplicemente invocare**FreezePanes** modulo.
+
+## **Aspose.Cells - Fissa i riquadri**
+Per congelare riquadri nel documento del foglio di calcolo utilizzando **Aspose.Cells Java per PHP**, basta invocare il modulo **FreezePanes**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -31,6 +32,6 @@ $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Blocca riquadri (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Blocca Riquadri (Aspose.Cells)** da uno dei siti di codice sociale sotto indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)

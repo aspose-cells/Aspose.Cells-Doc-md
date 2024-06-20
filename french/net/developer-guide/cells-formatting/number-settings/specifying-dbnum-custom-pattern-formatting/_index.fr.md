@@ -1,17 +1,18 @@
 ---
-title: Spécification du formatage du modèle personnalisé DBNum
-description: Aspose.Cells est une bibliothèque .NET permettant de travailler avec des feuilles de calcul prenant en charge le formatage des dates et des nombres à l'aide de modèles de formatage personnalisés. Cet article vous montrera comment utiliser la bibliothèque Aspose.Cells pour spécifier le modèle de format personnalisé « dbnum » afin que les utilisateurs aient plus de contrôle sur la façon dont les nombres sont affichés.
-keywords: Aspose.Cells, .NET library, electronic spreadsheet, custom format pattern, formatting, 'dbnum', control display
+title: Spécification du Format de Motif Personnalisé DBNum
+description: Aspose.Cells est une bibliothèque .NET pour travailler avec des fichiers de feuille de calcul qui prend en charge le formatage des dates et des nombres à l aide de modèles de formatage personnalisés. Cet article vous montrera comment utiliser la bibliothèque Aspose.Cells pour spécifier le format personnalisé dbnum afin que les utilisateurs aient plus de contrôle sur l affichage des nombres.
+keywords: Aspose.Cells, bibliothèque .NET, feuille de calcul électronique, motif de formatage personnalisé, formatage, dbnum , affichage de contrôle
 type: docs
 weight: 110
 url: /fr/net/specifying-dbnum-custom-pattern-formatting/
 ---
-##  **Scénarios d'utilisation possibles**
 
- Aspose.Cells prend en charge le*NuméroDB*formatage de motif personnalisé. Par exemple, si la valeur de votre cellule est 123 et que vous spécifiez son formatage personnalisé comme [DBNum2][$-804]Général, elle sera affichée comme 壹佰贰拾叁. Vous pouvez spécifier votre formatage personnalisé de la cellule en utilisant[**Cell.GetStyle()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) méthode et[**Style.Personnalisé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)propriété.
+## **Scénarios d'utilisation possibles**
 
-##  **Exemple de code**
+Aspose.Cells prend en charge le formatage de motif personnalisé *DBNum*. Par exemple, si la valeur de votre cellule est 123 et que vous spécifiez son formatage personnalisé comme [DBNum2][$-804]Général alors elle sera affichée comme 壹佰贰拾叁. Vous pouvez spécifier votre formatage personnalisé de la cellule en utilisant la méthode [**Cell.GetStyle()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) et la propriété [**Style.Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom).
 
- L'exemple de code suivant illustre comment spécifier*NuméroDB* formatage de motif personnalisé. Veuillez vérifier son[sortie PDF](43352081.pdf) pour plus d'aide.
+## **Code d'exemple**
+
+Le code d'exemple suivant illustre comment spécifier le formatage de motif personnalisé *DBNum*. Veuillez consulter son [PDF de sortie](43352081.pdf) pour plus d'aide.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}

@@ -1,22 +1,23 @@
-﻿---
-title: Aspose.Cells のワークシート間で図形をコピーする
+---
+title: Aspose.Cells でワークシート間でシェイプをコピーする
 type: docs
 weight: 30
 url: /ja/net/copy-shapes-between-worksheets-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-画像、グラフ、その他の描画オブジェクトなど、ワークシート上の要素をワークシート間でコピーする必要がある場合があります。 Aspose.Cells はこの機能をサポートしています。チャート、画像、その他のオブジェクトを最高の精度でコピーできます。
+時々、ワークシート間で要素をコピーする必要があります。例えば、図やチャート、その他の描画オブジェクトなどです。Aspose.Cells はこの機能をサポートしています。チャート、画像、および他のオブジェクトを、最高の精度でコピーすることができます。
 
-この記事では、ワークシート間で図形をコピーする方法について詳しく説明します。たとえば、Visual Studio.Net でコンソール アプリケーションを作成し、Aspose.Cells を使用してワークシート間で画像、グラフ、その他の描画オブジェクトをコピーします。
+この記事では、ワークシート間でシェイプをコピーする方法について詳しく説明します。たとえば、Visual Studio.Net でコンソールアプリケーションを作成し、Aspose.Cells を使用してワークシート間で画像やチャートなどの描画オブジェクトをコピーします。
 
 {{% /alert %}} 
 
-以下は、ワークシートから別のワークシートにチャートをコピーするためのコードです
+ワークシートから別のワークシートにチャートをコピーするコードは以下の通りです
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -44,8 +45,8 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 
-**ノート：**複数の図形をコピーする方法の詳細については、訪問する必要があります[ここ](/cells/ja/net/copy-shapes-between-worksheets/)
+**注記:** 複数のシェイプをコピーする詳細については[こちら](/cells/ja/net/copy-shapes-between-worksheets/)をご覧ください
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Copy%20Shapes%20between%20Worksheets)
-## **実行例をダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Copy%20Shapes%20between%20Worksheets)
+## **実行例のダウンロード**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

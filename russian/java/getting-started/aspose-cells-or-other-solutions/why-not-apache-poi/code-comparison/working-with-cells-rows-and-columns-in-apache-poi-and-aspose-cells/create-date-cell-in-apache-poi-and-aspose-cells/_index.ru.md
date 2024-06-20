@@ -1,13 +1,14 @@
-﻿---
-title: Дата создания Cell в Apache POI и Aspose.Cells
+---
+title: Создать ячейку даты в Apache POI и Aspose.Cells
 type: docs
 weight: 90
 url: /ru/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Дата создания Cell**
+
+## **Aspose.Cells - создание ячейки с датой**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,10 +35,10 @@ style.setCustom("d-mmm-yy");
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) — дата создания Cell**
+## **Apache POI SS (HSSF + XSSF) - Создание ячейки с датой**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -86,17 +87,17 @@ cell.setCellValue(Calendar.getInstance());
 cell.setCellStyle(cellStyle);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать примеры работы для**Дата создания Cell в Aspose.Cells и Apache POI** с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузить выполняемые примеры для **Создания ячейки с датой в Aspose.Cells и Apache POI** с любого из указанных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **Скачать исходный код**
- Скачать исходный код для**Дата создания Cell в Aspose.Cells и Apache POI** с любого из нижеперечисленных сайтов социального кодирования:
+Загрузить исходный код для **Создания ячейки с датой в Aspose.Cells и Apache POI** с любого из указанных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Добавление данных в Cells](/cells/ru/java/add-data-in-cells/).
+Для получения дополнительной информации посетите [Добавление данных в ячейки](/cells/ru/java/add-data-in-cells/).
 
 {{% /alert %}}

@@ -1,16 +1,17 @@
-﻿---
-title: Einstieg
+---
+title: Erste Schritte
 type: docs
 weight: 5
 url: /de/nodejs-java/getting-started/
-keywords: nodejs, excel, instal
-description: Setup Aspose.Cells for Node.js via Java und Installationsrichtlinien
+keywords: "nodejs, excel, install"
+description: "Einrichten von Aspose.Cells für Node.js via Java und Installationsrichtlinien"
 ---
-## **System Anforderungen**
- Aspose.Cells for Node.js via Java ist plattformunabhängig API und kann auf jeder Plattform (Windows, Linux und MacOS) eingesetzt werden[Node.js](https://nodejs.org/en/download/) und[Knoten-Java](https://github.com/joeferner/node-java)Brücke installiert sind. Der Computer muss über Oracle JDK 7 oder höher verfügen, bevor die Installation eingerichtet werden kann.
-## **Von NPM installieren**
- Sie können ganz einfach unter Aspose.Cells for Node.js via Java aus[NPM](https://www.npmjs.com/package/aspose.cells) mit folgendem Befehl.
-{{< highlight "java" >}}
+
+## **Systemanforderungen**
+Aspose.Cells für Node.js via Java ist eine plattformunabhängige API und kann auf jeder Plattform (Windows, Linux und MacOS) verwendet werden, auf der [Node.js](https://nodejs.org/en/download/) und die [node-java](https://github.com/joeferner/node-java) bridge installiert sind. Die Maschine muss Oracle JDK 7 oder höhere Versionen vor der Einrichtung der Installation haben.
+## **Installation von NPM**
+Sie können Aspose.Cells für Node.js via Java ganz einfach von [NPM](https://www.npmjs.com/package/aspose.cells) mit dem folgenden Befehl verwenden.
+{{< highlight java >}}
 
  $ npm install aspose.cells
 
@@ -18,17 +19,17 @@ description: Setup Aspose.Cells for Node.js via Java und Installationsrichtlinie
 
 Wenn Sie während des Installationsvorgangs auf Probleme stoßen, lesen Sie bitte https://www.npmjs.com/package/java.
 
-## **Aus dem ZIP-Archiv installieren**
-Befolgen Sie die folgenden Anweisungen, um Aspose.Cells for Node.js via Java aus einem ZIP-Archiv zu installieren und zu verwenden:
+## **Installieren aus ZIP-Archiv**
+Zum Installieren und Verwenden von Aspose.Cells für Node.js via Java aus einem ZIP-Archiv befolgen Sie die folgenden Anweisungen:
 ### **Linux:**
--  Herunterladen und installieren[Node.js](https://nodejs.org/en/download/).
-- Installieren Sie Oracle JDK (1.7 oder 1.8) für Linux, konfigurieren Sie die Umgebungsvariable JAVA_HOME.
+- Laden Sie [Node.js](https://nodejs.org/en/download/) herunter und installieren Sie es.
+- Installieren Sie Oracle JDK (1.7 oder 1.8) für Linux und konfigurieren Sie die Umgebungsvariable JAVA_HOME.
 - Installieren Sie Python 2.x
--  Installieren[Knoten-Java](https://github.com/joeferner/node-java) Brücke. Sie können die folgenden Befehle @ terminal ausführen:
+- Installieren Sie die [node-java](https://github.com/joeferner/node-java) bridge. Sie können die folgenden Befehle im Terminal ausführen: 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  $ mkdir aspose.cells.js.java
 
@@ -40,10 +41,10 @@ $ npm install java
 
 
 
-- Laden Sie "Aspose.Cells for Node.js via Java" herunter und extrahieren Sie es in "aspose.cells.js.java/node_modules".
-- Erstellen Sie eine Testdatei mit dem Namen**hallo.js**Verwenden Sie den folgenden Beispielcode im Ordner "aspose.cells.js.java":
+- Laden Sie "Aspose.Cells for Node.js via Java" herunter und extrahieren Sie es in den Ordner "aspose.cells.js.java/node_modules".
+- Erstellen Sie eine Testdatei namens **hello.js** mit folgendem Beispielcode im Ordner "aspose.cells.js.java":
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  var aspose = aspose || {};
 
@@ -59,17 +60,17 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- Führen Sie nun „node hello.js“ @command prompt aus, um es auszuführen.
+- Führen Sie nun "node hello.js" @Befehlszeile aus, um es auszuführen.
 ### **Windows:**
-- Installieren Sie Oracle JDK8 und konfigurieren Sie die Umgebungsvariable JAVA_HOME.
-- Installieren Sie Node.js und fügen Sie node.exe zu PATH hinzu.
-- node-gyp installieren.
-- Installieren Sie Windows Build-Tools.
--  Installieren[Node-Java-Bridge](https://www.npmjs.com/package/java) und führen Sie die folgenden Befehle an der Eingabeaufforderung als Administrator aus:
+- Oracle JDK8 installieren und die Umgebungsvariable JAVA_HOME konfigurieren.
+- Node.js installieren und node.exe zum PATH hinzufügen.
+- Node-gyp installieren.
+- Windows Build Tools installieren.
+- [Node-Java Bridge](https://www.npmjs.com/package/java) installieren und die folgenden Befehle als Administrator @ Befehlszeile ausführen:
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  > mkdir aspose.cells.js.java
 
@@ -83,10 +84,10 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- Laden Sie "Aspose.Cells for Node.js via Java" herunter und extrahieren Sie es in "aspose.cells.js.java/node_modules".
--  Erstellen Sie eine Datei mit dem Namen**hallo.js**im Ordner „aspose.cells.js.java“ mit dem folgenden Beispielcode:
+- Laden Sie "Aspose.Cells for Node.js via Java" herunter und extrahieren Sie es in den Ordner "aspose.cells.js.java/node_modules".
+- Erstellen Sie im Ordner "aspose.cells.js.java" eine Datei namens **hello.js** mit folgendem Beispielcode:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  var aspose = aspose || {};
 
@@ -102,15 +103,15 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- Führen Sie nun „node hello.js“ @command prompt aus, um es auszuführen.
+- Führen Sie nun "node hello.js" @Befehlszeile aus, um es auszuführen.
 ### **Mac:**
-- Laden Sie Node.js herunter und installieren Sie es ([*https://nodejs.org/en/download/*](https://nodejs.org/en/download/))
-- Installieren Sie Oracle JDK 1.8 (empfohlen) für Mac, konfigurieren Sie die Umgebungsvariable JAVA_HOME.
--  Ändern<key>JVM-Funktionen</key> Abschnitt in „/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Info.plist“ mit Root-Rechten („jdk1.8.0_152.jdk" hängt von Ihrer jdk-Version ab), damit es wie folgt aussieht:
+- Node.js herunterladen und installieren ([*https://nodejs.org/en/download/*](https://nodejs.org/en/download/))
+- Oracle JDK 1.8 (empfohlen) für Mac installieren, Umgebungsvariable JAVA_HOME konfigurieren.
+- Modify <key>JVM-Fähigkeiten</key> section in "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Info.plist" with root privilege. ("jdk1.8.0_152.jdk" depends on your jdk version), make it looks like following:
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <key>JavaVM</key>
 
@@ -132,21 +133,21 @@ console.log("hello world");
 
 
 
-- Installieren Sie Python 2.x (falls es nicht installiert ist).
-- Installieren Sie die Node-Java-Bridge. Sie können die folgenden Befehle @ terminal ausführen:
+- Python 2.x installieren (falls nicht installiert).
+- Node-Java Bridge installieren. Sie können die folgenden Befehle @ Terminal ausführen:
 
 `         `$ mkdir aspose.cells.js.java
 
 `         `$ cd aspose.cells.js.java
 
-`         `$ npm installiert java
+`         `$ npm install java
 
-- Laden Sie "Aspose.Cells for Node.js via Java" herunter und extrahieren Sie es in "aspose.cells.js.java/node_modules".
--  Erstellen Sie eine Testdatei mit dem Namen**hallo.js** Verwenden Sie den folgenden Beispielcode im Ordner "aspose.cells.js.java":
+- Laden Sie "Aspose.Cells for Node.js via Java" herunter und extrahieren Sie es in den Ordner "aspose.cells.js.java/node_modules".
+- Erstellen Sie eine Testdatei mit dem Namen **hello.js** und verwenden Sie den folgenden Beispielcode im Ordner "aspose.cells.js.java":
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  var aspose = aspose || {};
 
@@ -162,5 +163,5 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- Führen Sie nun „node hello.js“ @command prompt aus, um es auszuführen.
+- Führen Sie nun "node hello.js" im Befehlsfenster aus, um es auszuführen.
 

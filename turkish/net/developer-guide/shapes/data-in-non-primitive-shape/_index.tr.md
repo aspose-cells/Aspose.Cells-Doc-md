@@ -1,21 +1,22 @@
-﻿---
-title: İlkel Olmayan Şekildeki Veriler
+---
+title: Non Primitive Şekildeki Veri
 type: docs
 weight: 300
 url: /tr/net/data-in-non-primitive-shape/
 ---
-## **İlkel Olmayan Şekildeki Verilere Erişme**
 
-Bazen yerleşik olmayan bir şekildeki verilere erişmeniz gerekir. Yerleşik şekillere ilkel şekiller denir; olmayanlara ilkel olmayan denir. Örneğin, farklı eğri bağlantılı çizgiler kullanarak kendi şekillerinizi tanımlayabilirsiniz.
+## **Basit olmayan Şeklin Verilerine Erişmek**
 
-## **İlkel Olmayan Bir Şekil**
+Bazı durumlarda, yerleşik olmayan bir şekilden veriye erişmeniz gerekebilir. Yerleşik şekiller basit şekiller olarak adlandırılırken, diğerleri basit olmayan şekiller olarak adlandırılır. Örneğin, farklı eğri bağlantılı çizgiler kullanarak kendi şekillerinizi tanımlayabilirsiniz.
 
-Aspose.Cells'de, ilkel olmayan şekillere şu tür atanır:[**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . kullanarak türlerini kontrol edebilirsiniz.[**Shape.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)Emlak.
+## **Basit Olmayan Bir Şekil**
 
- kullanarak şekil verilerine erişin.[**Şekil.Yollar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)Emlak. İlkel olmayan şekli oluşturan tüm bağlı yolları döndürür. Bu yollar şu türdendir:[**Şekil Yolu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)bu, sırayla her segmentteki noktaları içeren tüm segmentlerin bir listesini tutar.
+Aspose.Cells'te primitif olmayan şekillere [**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) türü atanır. Onların türünü [**Shape.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype) özelliğini kullanarak kontrol edebilirsiniz.
 
-|**İlkel olmayan bir şekle örnek gösterir**|
-|:- |
-|![yapılacaklar:resim_alternatif_metin](data-in-non-primitive-shape_1.jpg)|
+Şekil verisine [**Shape.Paths**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths) özelliğini kullanarak erişin. Bu, primitif olmayan şekli oluşturan tüm bağlantılı yol segmentlerini döndürür. Bu yollar, her bir segmentteki noktaları içeren [**ShapePath**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath) türünden oluşan bir listeyi tutar.
+
+|**Primitif Olmayan Bir Şeklin Örneğini Gösterir**|
+| :- |
+|![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-AccessNonPrimitiveShape-1.cs" >}}

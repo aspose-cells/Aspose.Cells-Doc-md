@@ -1,13 +1,14 @@
-﻿---
+---
 title: Çalışma Sayfasına Resim Ekle
 type: docs
 weight: 20
 url: /tr/net/add-image-in-worksheet/
 ---
+
 ## **Aspose.Cells - Çalışma Sayfasına Resim Ekle**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -52,7 +53,7 @@ workbook.Save("../../data/image.xlsx");
 ## **NPOI - HSSF XSSF - Çalışma Sayfasına Resim Ekle**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -60,7 +61,7 @@ ISheet sheet1 = wb.CreateSheet("First Sheet");
 
 //add picture data to this workbook.
 
-byte[]bytes = File.ReadAllBytes("../../data/aspose.png");
+byte[] bytes = File.ReadAllBytes("../../data/aspose.png");
 
 int pictureIdx = wb.AddPicture(bytes, PictureType.PNG);
 
@@ -96,12 +97,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfasına Resim Ekle** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Herhangi bir sosyal kodlama sitesinden **Çalışma Sayfasına Resim Ekle** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Add.Image.in.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarıyla Çalışmak](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Daha fazla ayrıntı için [Çalışma Sayfaları İle Çalışma](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/) ziyaret edin.
 
 {{% /alert %}}

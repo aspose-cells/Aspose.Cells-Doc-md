@@ -1,20 +1,23 @@
-﻿---
-title: Använda Visa Formler-funktionen i GridWeb
+---
+title: Använd funktionen för att visa formler i GridWeb
 type: docs
 weight: 30
-url: /sv/net/using-show-formulas-feature-of-gridweb/
+url: /sv/net/aspose-cells-gridweb/use-show-formulas-feature/
+keywords: GridWeb, visa formler, formel
+description: Denna artikel beskriver hur man visar formler i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Ibland måste du hitta ett enkelt sätt för cellerna som innehåller formler. Du måste ha ett förhållningssätt för att snabbt läsa igenom alla formler för att leta efter fel. Detta kan hjälpa dig att spåra data som används i en formel.
+Ibland behöver du hitta ett enkelt sätt för celler som innehåller formler. Du behöver ha en metod för att snabbt läsa igenom alla formler för att kontrollera efter fel. Detta kan hjälpa dig att spåra data som används i en formel.
 
-Aspose.Cells.GridWeb tillhandahåller den funktion som kallas Visa formler i Microsoft Excel.
+Aspose.Cells.GridWeb tillhandahåller funktionen som kallas för att visa formler i Microsoft Excel.
 
 {{% /alert %}} 
-## **Använder Visa formler-funktionen**
-Allt du behöver för att använda en genväg "CTRL + ~" för att visa alla formler i kalkylbladet.
+## **Använda funktionen för att visa formler**
+Allt du behöver är att använda en genväg "CTRL + ~" för att visa alla formler i arbetsbladet.
 
-Till exempel laddar vi in en mallfil i GridWeb som har formler i C-kolumnen, här är koden vi helt enkelt använde för att ladda filen.
+Till exempel laddar vi en mallfil i GridWeb som har formler i kolumnen C. Här är koden vi helt enkelt använde för att ladda filen.
 
 
 

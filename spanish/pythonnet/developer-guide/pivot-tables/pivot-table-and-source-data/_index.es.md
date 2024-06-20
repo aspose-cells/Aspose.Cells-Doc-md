@@ -1,55 +1,56 @@
 ---
-title: Tabla dinámica y datos de origen
+title: Tabla dinámica y datos fuente
 type: docs
 weight: 30
 url: /es/python-net/pivot-table-and-source-data/
-description: Este artículo muestra cómo cambiar los datos de origen de la tabla dinámica con Aspose.Cells for Python via .NET.
-keywords: Change Pivot Table's Source Data
+description: Este artículo muestra cómo cambiar los datos fuente de una tabla dinámica con Aspose.Cells para Python via .NET.
+keywords: Aspose.Cells para Python Excel, biblioteca de Python de Excel, Cómo cambiar los datos fuente de la tabla dinámica mediante la biblioteca de Excel Aspose.Cells para Python.
 ---
-##  **Datos de origen de la tabla dinámica**
 
-Hay ocasiones en las que desea crear Microsoft informes de Excel con tablas dinámicas que toman datos de diferentes fuentes de datos (como una base de datos) que no se conocen en el momento del diseño. Este artículo proporciona un enfoque para cambiar dinámicamente la fuente de datos de una tabla dinámica.
+## **Datos fuente de la tabla dinámica**
 
-###  **Cambiar los datos de origen de una tabla dinámica**
+Hay momentos en los que deseas crear informes de Microsoft Excel con tablas dinámicas que toman datos de diferentes fuentes de datos (como una base de datos) que no se conocen en el momento del diseño. Este artículo proporciona un enfoque para cambiar dinámicamente la fuente de datos de una tabla dinámica.
 
-1. Creando una nueva plantilla de diseñador.
- 1. Cree un nuevo archivo de plantilla de diseñador como se muestra en la captura de pantalla siguiente.
- 1. Luego defina un rango con nombre, *DataSource**, que haga referencia a este rango de celdas.
+### **Cambio de la fuente de datos de una tabla dinámica**
 
-      **Crear una plantilla de diseñador y definir un rango con nombre, DataSource** 
+1. Crear una nueva plantilla de diseño.
+   1. Crea un nuevo archivo de plantilla de diseñador como se muestra en la captura de pantalla a continuación.
+   1. Luego define un rango nombrado, **DataSource**, que se refiere a este rango de celdas.
+
+      **Creando una plantilla de diseñador y definiendo un rango nombrado, DataSource** 
 
 ![todo:image_alt_text](pivot-table-and-source-data_1.png)
-   
-1. Crear una tabla dinámica basada en este rango con nombre.
-1. En Microsoft Excel, elija**Datos**, luego **Tabla dinámica** y *Informe de gráfico dinámico**.
- 1. Cree una tabla dinámica basada en el rango con nombre creado en el primer paso.
 
-      **Crear una tabla dinámica basada en el rango nombrado, DataSource** 
+1. Crear una tabla dinámica basada en este rango nombrado.
+   1. En Microsoft Excel, elige **Datos**, luego **Tabla Dinámica** y **Informe de Tabla Dinámica**.
+   1. Crear una tabla dinámica basada en el rango nombrado creado en el primer paso.
+
+      **Creando una tabla dinámica basada en el rango nombrado, DataSource** 
 
 ![todo:image_alt_text](pivot-table-and-source-data_2.png)
 
-   
- 1. Arrastre el campo correspondiente a la fila y columna de la tabla dinámica, luego cree la tabla dinámica resultante como se muestra en la captura de pantalla siguiente.
 
-   **Crear una tabla dinámica basada en un campo correspondiente** 
+   1. Arrastra el campo correspondiente a la fila y columna de la tabla dinámica, luego crea la tabla dinámica resultante como en la captura de pantalla a continuación.
+
+   **Creando una tabla dinámica basada en un campo correspondiente** 
 
 ![todo:image_alt_text](pivot-table-and-source-data_3.png)
 
-   
-1. Haga clic derecho en la tabla dinámica y seleccione *Opciones de tabla**.
- 1. comprobar**Actualizar al abrir** en**Opciones de datos** ajustes.
 
-      **Configurar las opciones de la tabla dinámica** 
+1. Haz clic derecho en la tabla dinámica y selecciona **Opciones de Tabla**.
+   1. Marca **Actualizar al abrir** en la configuración de **Opciones de Datos**.
+
+      **Configuración de las opciones de la tabla dinámica** 
 
 ![todo:image_alt_text](pivot-table-and-source-data_4.png)
 
 
-Ahora puede guardar este archivo como su archivo de plantilla de diseñador.
+Ahora, puedes guardar este archivo como tu archivo de plantilla de diseñador.
 
-1. Completar nuevos datos y cambiar los datos de origen de una tabla dinámica.
- 1. Una vez creada la plantilla del diseñador, utilice el siguiente código para cambiar los datos de origen de la tabla dinámica.
+1. Poblar nuevos datos y cambiar la fuente de datos de una tabla dinámica.
+   1. Una vez que se haya creado la plantilla de diseñador, utiliza el siguiente código para cambiar la fuente de datos de la tabla dinámica.
 
-La ejecución del código de ejemplo siguiente cambia los datos de origen de la tabla dinámica.
+La ejecución del código de ejemplo a continuación cambia los datos fuente de la tabla dinámica.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTable-ChangeSourceData-1.py" >}}
 

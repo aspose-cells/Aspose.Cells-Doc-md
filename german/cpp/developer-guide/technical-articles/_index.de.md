@@ -1,4 +1,4 @@
-﻿---
+---
 title: Technische Artikel
 type: docs
 weight: 90

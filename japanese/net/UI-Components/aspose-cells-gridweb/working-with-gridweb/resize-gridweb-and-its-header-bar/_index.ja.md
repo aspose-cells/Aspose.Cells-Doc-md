@@ -1,49 +1,52 @@
-﻿---
-title: GridWeb とそのヘッダー バーのサイズを変更する
+---
+title: GridWeb およびそのヘッダーバーのリサイズ
 type: docs
 weight: 30
-url: /ja/net/resize-gridweb-and-its-header-bar/
+url: /ja/net/aspose-cells-gridweb/resize-gridweb-and-its-header-bar/
+keywords: GridWeb,resize
+description: この記事では、GridWebのリサイズ方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-[GridWeb を Web フォームに追加する](/cells/ja/net/add-gridweb-to-web-form/)では、WYSIWYG を使用した Aspose.Cells.GridWeb コントロールのサイズ変更について説明しました。この記事では、実行時に Aspose.Cells.GridWeb API を使用して同じことを行う方法について説明します。また、データを読みやすくするために Aspose.Cells.GridWeb コントロールのヘッダー バーのサイズを変更する方法についても説明します。
+[Web フォームに GridWeb を追加する](/cells/ja/net/aspose-cells-gridweb/add-gridweb-to-web-form/)では、WYSIWYG を使用して Aspose.Cells.GridWeb コントロールのサイズ変更について説明しました。この記事では、Aspose.Cells.GridWeb API を使用してランタイムで同じことを行う方法と、ヘッダーバーのデータを読みやすくするためにAspose.Cells.GridWebコントロールのヘッダーバーのサイズ変更方法について説明します。
 
 {{% /alert %}} 
 ## **Aspose.Cells.GridWeb の幅と高さを変更する**
-Aspose.Cells.GridWeb コントロールの幅と高さを変更することは、単純ですが重要な機能です。 Aspose.Cells.GridWeb コントロールは、API の GridWeb クラスによって表されます。GridWeb コントロールの幅と高さを変更するには、幅と高さのプロパティを使用します。
+Aspose.Cells.GridWebコントロールの幅と高さを変更することは、単純ながら重要な機能です。Aspose.Cells.GridWebコントロールはAPI内のGridWebクラスで表されます。GridWebコントロールの幅と高さを変更するには、その幅と高さのプロパティを単純に使用します。
 
 {{% alert color="primary" %}} 
 
-コントロールの幅と高さは、ピクセルまたはポイントで定義できます。
+コントロールの幅と高さはピクセルまたはポイントで定義できます。
 
 {{% /alert %}} 
 
-次のコード スニペットの出力を以下に示します。
+以下のコードスニペットの出力は以下のようになります。
 
-**GridWeb コントロールの幅と高さを変更** 
+**GridWebコントロールの幅と高さを変更しました** 
 
-![todo:画像_代替_文章](resize-gridweb-and-its-header-bar_1.png)
+![todo:image_alt_text](resize-gridweb-and-its-header-bar_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ResizeGridWeb.aspx-ResizeGridWeb.cs" >}}
 ### **ヘッダーバーの幅と高さを変更する**
-Aspose.Cells.GridWeb コントロールには、次の 2 つのヘッダー バーが含まれています。
+Aspose.Cells.GridWebコントロールには、次のような2つのヘッダーバーがあります:
 
-- 上部のヘッダー バー。このヘッダー バーは列を A 、 B 、 C 、 D などとして表します。
-- 左のヘッダー バー。このヘッダー バーは行を 1 、 2 、 3 、 4 などとして表します。
+- 上部ヘッダーバー：このヘッダーバーには、A、B、C、Dなどの列が表示されます。
+- 左側ヘッダーバー：このヘッダーバーには、1、2、3、4などの行が表示されます。
 
-これらのヘッダー バーの両方を以下に示します。
+これらのヘッダーバーは以下に示しています。
 
 **ヘッダーバー** 
 
-![todo:画像_代替_文章](resize-gridweb-and-its-header-bar_2.png)
+![todo:image_alt_text](resize-gridweb-and-its-header-bar_2.png)
 
-GridWeb コントロールの HeaderBarHeight プロパティと HeaderBarWidth プロパティをそれぞれ使用して、上部のヘッダー バーの高さと左側のヘッダー バーの幅を変更します。次の図は、次のコード例の出力を示しています。
+GridWebコントロールのHeaderBarHeightとHeaderBarWidthプロパティを使用して、上部ヘッダーバーの高さと左側ヘッダーバーの幅を変更します。以下のコード例の出力は以下のようになります。
 
-**ヘッダーバーの幅と高さを変更** 
+**ヘッダーバーの幅と高さを変更しました** 
 
-![todo:画像_代替_文章](resize-gridweb-and-its-header-bar_3.png)
+![todo:image_alt_text](resize-gridweb-and-its-header-bar_3.png)
 
 
 

@@ -1,14 +1,15 @@
-﻿---
+---
 title: استخدام الكائنات المتداخلة
 type: docs
 weight: 50
 url: /ar/net/using-nested-objects/
 ---
-يدعم Aspose.Cells الكائنات المتداخلة في العلامات الذكية ، يجب أن تكون الكائنات المتداخلة بسيطة.**الفرد** يجب تحديد فئة من قبل المستخدم للكود أدناه.
 
-نحن نستخدم ملف قالب بسيط. راجع جدول بيانات المصمم الذي يحتوي على بعض العلامات الذكية المتداخلة.
+تدعم Aspose.Cells الكائنات المتداخلة في العلامات الذكية، يجب أن تكون الكائنات المتداخلة بسيطة. ** يجب على المستخدم تعريف كل فئة فردية ** من أجل الرمز التالي.
 
-{{< highlight "csharp" >}}
+نستخدم ملف قالب بسيط. انظر إلى جدول البيانات التصميمي الذي يحتوي على بعض العلامات الذكية المتداخلة.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -62,6 +63,6 @@ designer.Workbook.Save(FileName);
 
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **تحميل رمز عينة**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)

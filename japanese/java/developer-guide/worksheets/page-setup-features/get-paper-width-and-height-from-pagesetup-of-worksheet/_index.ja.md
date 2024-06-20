@@ -1,16 +1,17 @@
-﻿---
-title: ワークシートの PageSetup から用紙の幅と高さを取得する
+---
+title: ワークシートのページ設定から用紙の幅と高さを取得する
 type: docs
 weight: 300
 url: /ja/java/get-paper-width-and-height-from-pagesetup-of-worksheet/
 ---
-## **考えられる使用シナリオ**
 
-ワークシートのページ設定で用紙サイズが設定されているため、用紙サイズの幅と高さを知る必要がある場合があります。をご利用ください[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth)と[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)この目的のためのプロパティ。
+## **可能な使用シナリオ**
 
-## **ワークシートの PageSetup から用紙の幅と高さを取得する**
+時々、ワークシートのページ設定に設定されている用紙サイズの幅と高さを知る必要があります。この目的には、[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) および [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight) プロパティを使用してください。
 
-次のサンプル コードは、[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth)と[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)プロパティ。最初に用紙サイズを A2 に変更し、次に用紙の幅と高さを見つけ、次にそれを A3、A4、レターに変更して、それぞれ用紙の幅と高さを見つけます。
+## **ワークシートのページ設定から用紙の幅と高さを取得する**
+
+次のサンプルコードでは、[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) および [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight) プロパティの使用方法について説明しています。まず用紙サイズをA2に変更し、その後用紙の幅と高さを求めた後、それをA3、A4、レターに変更して各用紙の幅と高さを求めています。
 
 ## **サンプルコード**
 
@@ -18,9 +19,9 @@ url: /ja/java/get-paper-width-and-height-from-pagesetup-of-worksheet/
 
 ## **コンソール出力**
 
-上記のサンプル コードのコンソール出力を次に示します。
+上記のサンプルコードのコンソール出力は次の通りです。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 PaperA2: 16.54x23.39
 

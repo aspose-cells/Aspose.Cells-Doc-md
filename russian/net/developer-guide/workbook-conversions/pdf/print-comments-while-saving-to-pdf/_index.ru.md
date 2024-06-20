@@ -1,27 +1,28 @@
-﻿---
-title: Печать комментариев при сохранении на PDF
+---
+title: Печать комментариев при сохранении в формат PDF
 type: docs
 weight: 10
 url: /ru/net/print-comments-while-saving-to-pdf/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel позволяет печатать комментарии во время печати или сохранения в формате PDF со следующими параметрами
+Microsoft Excel позволяет печатать комментарии при печати или сохранении в формате PDF с помощью следующих параметров
 
-- Никто
+- Нет
 - В конце листа
-- Как показано на листе
+- Как отображено на листе
 
- Aspose.Cells предоставить[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) enum для поддержки той же функции.[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)перечисление имеет следующие члены
+Aspose.Cells предоставляет enum [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) для поддержки той же функции. У enum [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) есть следующие элементы
 
-- ПечатьБезКомментариев
-- Печать на месте
-- ПринтлистЭнд
+- PrintNoComments
+- PrintInPlace
+- PrintSheetEnd
 
 {{% /alert %}}
 
-## **Печать комментариев при сохранении на PDF**
+## **Печать комментариев при сохранении в формат PDF**
 
- В следующем примере кода показано, как использовать[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)для печати комментариев при сохранении на PDF.
+Следующий пример кода иллюстрирует, как использовать [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) для печати комментариев при сохранении в PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintCommentWhileSavingToPdf-PrintCommentWhileSavingToPdf.cs" >}}

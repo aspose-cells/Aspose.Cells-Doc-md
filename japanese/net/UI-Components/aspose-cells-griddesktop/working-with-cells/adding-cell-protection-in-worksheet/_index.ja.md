@@ -1,16 +1,19 @@
-﻿---
-title: ワークシートに Cell 保護を追加する
+---
+title: ワークシートに保護を追加
 type: docs
 weight: 130
-url: /ja/net/adding-cell-protection-in-worksheet/
+url: /ja/net/aspose-cells-griddesktop/adding-cell-protection-in-worksheet/
+keywords: GridDesktop、プロテクト
+description: 本記事では、GridDesktopのワークシート内のセルを保護する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-GridDesktop の Aspose.Cells を使用すると、ワークシート内のセルを保護できます。最初にワークシートを保護する必要があります。次に、ワークシート内の目的のセルを保護できます。ワークシートを保護するために、設定してください**Worksheet.Protected**プロパティを true に設定してから使用します**Worksheet.SetProtected()**セルの範囲を保護する方法。
+Aspose.Cells for GridDesktopを使用すると、ワークシートのセルを保護できます。 まず、ワークシートを保護し、次にワークシート内の特定のセルを保護できます。 ワークシートを保護するには、**Worksheet.Protected**プロパティをtrueに設定し、その後に**Worksheet.SetProtected()**メソッドを使用してセルの範囲を保護します。
 
 {{% /alert %}} 
-## **Aspose.Cells.GridDesktop を使用して Cell を保護します。**
-次のサンプル コードは、範囲内のすべてのセルを保護します。**A1:B1** GridDesktop のアクティブなワークシートの。この範囲内の任意のセルをダブルクリックすると、編集できなくなります。これらのセルを読み取り専用にします。
+## **Aspose.Cells.GridDesktopを使用してセルを保護**
+以下のサンプルコードでは、GridDesktopのアクティブなワークシートの範囲**A1:B1**のすべてのセルを保護しています。 この範囲のセルをダブルクリックすると、編集ができなくなります。 これにより、これらのセルは読み取り専用になります。
 
 
 

@@ -1,24 +1,25 @@
-﻿---
-title: Ändern Sie die vorhandene SQL-Datenverbindung mit Aspose.Cells
+---
+title: Bereits bestehende SQL Datenverbindung mithilfe von Aspose.Cells ändern
 type: docs
 weight: 20
 url: /de/net/modify-existing-sql-data-connection-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells unterstützt das Ändern vorhandener SQL-Datenverbindungen. In diesem Artikel wird erläutert, wie Sie Aspose.Cells verwenden, um verschiedene Eigenschaften der SQL-Datenverbindung zu ändern.
+Aspose.Cells unterstützt das Ändern einer bereits bestehenden SQL-Datenverbindung. Der Artikel erläutert, wie Aspose.Cells verwendet wird, um verschiedene Eigenschaften einer SQL-Datenverbindung zu ändern.
 
-Sie können Datenverbindungen innerhalb von Microsoft Excel hinzufügen oder anzeigen, indem Sie folgen**Daten > Verbindungen** Menübefehl.
+Sie können Datenverbindungen in Microsoft Excel hinzufügen oder anzeigen, indem Sie den Menübefehl **Daten > Verbindungen** befolgen.
 
-In ähnlicher Weise bietet Aspose.Cells die Möglichkeit, mithilfe der Workbook.DataConnections-Auflistung auf die Datenverbindungen zuzugreifen und diese zu ändern.
+Ebenso bietet Aspose.Cells die Möglichkeit, auf die Datenverbindungen zuzugreifen und diese zu ändern, indem die Workbook.DataConnections-Sammlung verwendet wird.
 
 {{% /alert %}}
 
-## Ändern Sie die vorhandene SQL-Datenverbindung mit Aspose.Cells
+## Ändern einer bestehenden SQL-Datenverbindung mit Aspose.Cells
 
-Das folgende Beispiel veranschaulicht die Verwendung von Aspose.Cells zum Ändern der SQL-Datenverbindung der Arbeitsmappe. Sie können die in diesem Code verwendete Excel-Quelldatei und die vom Code generierte Excel-Ausgabedatei über die folgenden Links herunterladen.
+Das folgende Beispiel veranschaulicht die Verwendung von Aspose.Cells, um die SQL-Datenverbindung der Arbeitsmappe zu ändern. Sie können die Quelldatei, die in diesem Code verwendet wird, und die vom Code generierte Ausgabedatei unter den folgenden Links herunterladen.
 
-- [Excel-Quelldatei](5112357.xlsx)
-- [Excel-Datei ausgeben](5112356.xlsx)
+- [Quelldatei](5112357.xlsx)
+- [Ausgabedatei](5112356.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ModifyingExistingDataConnection-ModifyingExistingDataConnection.cs" >}}

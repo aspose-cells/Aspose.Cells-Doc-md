@@ -1,15 +1,16 @@
-﻿---
-title: PHP'de Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma
+---
+title: PHP de Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma
 type: docs
 weight: 40
 url: /tr/net/removing-worksheets-using-sheet-name-in-php/
 ---
+
 ## **Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma**
 Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -33,6 +34,6 @@ Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma (Aspose.Cells) kılavuzunu aşağıdaki sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetName.php)

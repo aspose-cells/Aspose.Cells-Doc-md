@@ -1,20 +1,21 @@
-﻿---
-title: Genel API Aspose.Cells 8.0.1'deki değişiklikler
+---
+title: Aspose.Cells 8.0.1 de Genel API Değişiklikleri
 type: docs
 weight: 20
 url: /tr/net/public-api-changes-in-aspose-cells-8-0-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu sayfa, Aspose.Cells 8.0.1'de tanıtılan genel API değişikliklerini listeler. Yalnızca yeni ve eskimiş genel yöntemleri değil, aynı zamanda Aspose.Cells'deki perde arkasındaki mevcut kodu etkileyebilecek davranış değişikliklerinin açıklamasını da içerir. Bir gerileme olarak görülebilen ve mevcut davranışı değiştiren herhangi bir davranış özellikle önemlidir ve burada belgelenmiştir.
+Bu sayfa, Aspose.Cells 8.0.1'de tanıtılan genel API değişikliklerini listeleyen bir sayfadır. Bu, sadece yeni ve eskimiş genel yöntemleri değil, aynı zamanda mevcut kodları etkileyebilecek Aspose.Cells arka planındaki davranışlardaki herhangi değişikliklerin bir açıklamasını içerir. Mevcut davranışı değiştiren herhangi bir davranış özellikle önemli olup burada dökümante edilmektedir.
 
 {{% /alert %}} 
-## **Cells Sınıfına MemorySetting Özelliği Eklendi**
-Cells sınıfı, hücre verileri için bellek kullanımını optimize etmek ve dolayısıyla genel bellek maliyetini azaltmak için kullanılabilen MemorySetting özelliğini kullanıma sundu. Aşağıdaki örnek, optimize edilmiş modda bir çalışma sayfasına büyük bir verinin nasıl yazılacağını gösterir.
+## **MemorySetting Özelliği Cells Sınıfına Eklendi**
+Cells sınıfı, hücre verilerinin bellek kullanımını optimize etmek için kullanılabilecek MemorySetting özelliğini açığa çıkardı, bu sayede genel bellek maliyetini azaltabilir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -36,10 +37,10 @@ cells.MemorySetting = MemorySetting.MemoryPreference;
 
 {{< /highlight >}}
 
-Bellek ayarları, Çalışma Kitabı nesnesi tarafından otomatik olarak oluşturulan varsayılan sayfa için çalışmayacaktır. Mevcut sayfaların hafıza ayarlarını değiştirmek için lütfen herhangi bir veri işleme yapmadan önce hafıza ayarını manuel olarak uygulayın.
+Bellek ayarları, Workbook nesnesi tarafından otomatik olarak oluşturulan varsayılan sayfa için çalışmaz. Varolan sayfaların bellek ayarlarını değiştirmek için lütfen veri manipülasyonu yapmadan önce bellek ayarını manuel olarak uygulayın.
 
 {{% alert color="primary" %}} 
 
- Lütfen adresindeki ayrıntılı makaleyi kontrol edin.[Büyük Veri Kümeleriyle Çalışırken Belleği Optimize Etme](/cells/tr/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
+Lütfen [Büyük Veri Kümeleri ile Çalışırken Belleği Optimizasyonu](/cells/tr/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/) hakkında detaylı makaleyi kontrol edin.
 
 {{% /alert %}}

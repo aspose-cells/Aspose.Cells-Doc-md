@@ -1,15 +1,16 @@
-﻿---
-title: أوجد القيمة في Cells
+---
+title: العثور على القيمة في الخلايا
 type: docs
 weight: 20
 url: /ar/net/find-value-in-cells/
 ---
-## **Aspose.Cells - أوجد القيمة في Cells**
-في Microsoft Excel ، يمكن للمستخدمين البحث عن الخلايا التي تحتوي على بيانات محددة. على سبيل المثال ، النقر فوق**تعديل**وثم**يجد**يفتح مربع حوار البحث. يقوم المستخدمون بإدخال قيمة والنقرات**نعم**للبحث عنه. يبرز Excel الحقول المتطابقة.
+
+## **أسبوز.خلايا - العثور على القيمة في الخلايا**
+في Microsoft Excel ، يمكن للمستخدمين البحث عن الخلايا التي تحتوي على بيانات محددة. على سبيل المثال، بالنقر على **تحرير** ثم **البحث** يفتح مربع البحث. يُدخل المستخدم قيمة وينقر **موافق** للبحث عنها. يقوم Excel بتحديد الحقول المطابقة.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -38,13 +39,13 @@ Cell cell = cells.Find("SH", null, findOptions);
 Console.WriteLine("Name of the cell containing String: " + cell.Name);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**أوجد القيمة في Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **العثور على القيمة في الخلايا** من أي من مواقع التشفير الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Find.Value.In.Cells.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Find.Value.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[البحث عن البيانات أو البحث عنها](/cells/ar/net/find-or-search-data/).
+لمزيد من التفاصيل، قم بزيارة [البحث عن البيانات](/cells/ar/net/find-or-search-data/).
 
 {{% /alert %}}

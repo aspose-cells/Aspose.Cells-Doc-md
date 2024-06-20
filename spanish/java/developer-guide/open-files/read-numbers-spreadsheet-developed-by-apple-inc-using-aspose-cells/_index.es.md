@@ -1,17 +1,18 @@
-﻿---
-title: Lea la hoja de cálculo Numbers desarrollada por Apple Inc. usando Aspose.Cells
-linktitle: Leer Numbers Desarrollado por Apple Inc.
+---
+title: Leer Hojas de cálculo Numbers desarrolladas por Apple Inc. usando Aspose.Cells
+linktitle: Leer Numbers desarrolladas por Apple Inc.
 type: docs
 weight: 90
 url: /es/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
 ---
-## **Posibles escenarios de uso**
 
-Numbers es una aplicación de hoja de cálculo desarrollada por Apple Inc. Aspose.Cells puede leer la hoja de cálculo Numbers pero no permite escribir en ella. Puede leer los datos, el estilo y las fórmulas de la hoja de cálculo Numbers.
+## **Escenarios de uso posibles**
 
-## **Lea la hoja de cálculo Numbers desarrollada por Apple Inc. usando Aspose.Cells**
+Numbers es una aplicación de hojas de cálculo desarrollada por Apple Inc. Aspose.Cells puede leer hojas de cálculo Numbers pero no admite la escritura en ellas. Puede leer Datos, Estilos y Fórmulas de hojas de cálculo Numbers.
 
- El siguiente código de ejemplo carga el[Muestra Numbers Hoja de cálculo](sampleNumbersByAppleInc.numbers) y lo convierte en[Salida PDF Formato](outputNumbersByAppleInc.pdf) . tendrás que usar**[Opciones de carga](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** clase y especificar**[LoadFormat.NUMBERS](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#NUMBERS)**como parámetro en su constructor para cargarlo correctamente. Descargue ambos de los enlaces proporcionados. Puede probar el código con cualquier hoja de cálculo Numbers. Lea también los comentarios del código para obtener más ayuda.
+## **Leer Hojas de cálculo Numbers desarrolladas por Apple Inc. usando Aspose.Cells**
+
+El siguiente código de muestra carga la [Hoja de cálculo Numbers de muestra](sampleNumbersByAppleInc.numbers) y la convierte a [Formato PDF de salida](outputNumbersByAppleInc.pdf). Deberá utilizar la clase [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) y especificar [**LoadFormat.NUMBERS**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#NUMBERS) como parámetro en su constructor para cargarla correctamente. Por favor, descargue ambos desde los enlaces proporcionados. Puede probar el código con cualquier hoja de cálculo Numbers. También lea los comentarios del código para obtener más ayuda.
 
 ## **Código de muestra**
 

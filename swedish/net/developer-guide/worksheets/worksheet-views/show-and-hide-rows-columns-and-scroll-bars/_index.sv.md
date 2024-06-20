@@ -1,38 +1,39 @@
-﻿---
-title: Visa och dölj rader Kolumner och rullningslister
+---
+title: Visa och Dölja rader, Kolumner och Rullningslistor
 type: docs
 weight: 20
 url: /sv/net/show-and-hide-rows-columns-and-scroll-bars/
-description: Den här artikeln visar hur du programmatiskt visar och döljer rader och kolumner i Excel-kalkylblad med språket C# och .NET API eller bibliotek. Synligheten för rullningslister kan justeras och flera rader och kolumner kan döljas.
+description: Den här artikeln visar hur man programmatiskt visar och döljer Excel kalkylbladets rader och kolumner med hjälp av C# språket och .NET API eller Bibliotek. Synligheten av rullningslistor kan justeras och flera rader och kolumner kan döljas.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells tillhandahåller sätt att kontrollera synligheten för rader, kolumner och rullningslister i ett kalkylblad.
+Aspose.Cells tillhandahåller sätt att kontrollera synligheten av rader, kolumner och rullningslistor på ett kalkylblad.
 
 {{% /alert %}}
 
-## **Visa och dölj rader och kolumner**
+## **Visa och göm rader och kolumner**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som låter utvecklare komma åt varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samling som representerar alla celler i kalkylbladet. De[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)samling innehåller flera metoder för att hantera rader eller kolumner i ett kalkylblad. Några av dessa diskuteras nedan.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. Klassen [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) innehåller en [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som tillåter utvecklare att få åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) tillhandahåller en [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samling som representerar alla celler i kalkylbladet. Klassen [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) tillhandahåller flera metoder för att hantera rader eller kolumner i ett kalkylblad. Några av dessa diskuteras nedan.
 
-### **Visa rader och kolumner**
+### **Visa Rader och Kolumner**
 
- Utvecklare kan visa alla dolda rader eller kolumner genom att anropa[**Visa rad**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) och[**Ta fram kolumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) metoder för[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)insamling respektive. Båda metoderna tar två parametrar:
+Utvecklare kan visa vilken som helst dold rad eller kolumn genom att anropa  [**UnhideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) och [**UnhideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) orden samling respektive metoder. Båda metoderna tar två parametrar:
 
-- **Rad- eller kolumnindex** - indexet för en rad eller kolumn som används för att visa den specifika raden eller kolumnen.
-- **Radhöjd eller kolumnbredd** - radhöjden eller kolumnbredden som tilldelats raden eller kolumnen efter att ha visat sig.
+- **Rad- eller kolumnindex** - index för en rad eller kolumn som används för att visa den specifika raden eller kolumnen.
+- **Radhöjd eller kolumnbredd** - radhöjden eller kolumnbredden tilldelad till raden eller kolumnen efter att ha visats.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-UnhidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-När du gör en dold kolumn synlig, om du behöver återställa den till tidigare tilldelad bredd eller till dess ursprungliga bredd, vänligen visa kolumnen med en negativ bredd. Till exempel: kalkylblad.Cells.UnhideColumn(5, -1)
+När du gör en dold kolumn synlig, om du behöver återställa den till tidigare tilldelad bredd eller till dess originalbredd, vänligen avdölj kolumnen med negativ bredd. Till exempel: arbetsblad.Cells.UnhideColumn(5, -1)
 
 {{% /alert %}}
 
-### **Göm rader och kolumner**
+### **Dölj Rader och Kolumner**
 
- Utvecklare kan dölja en rad eller kolumn genom att anropa[**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) och[**Dölj kolumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) metoder för[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)insamling respektive. Båda metoderna tar rad- och kolumnindex som en parameter för att dölja den specifika raden eller kolumnen.
+Utvecklare kan dölja en rad eller kolumn genom att anropa  [**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) och  [**HideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) metoderna i respektive samling. Båda metoderna tar rad- och kolumnindex som parameter för att gömma den specifika raden eller kolumnen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingRowsAndColumns-1.cs" >}}
 
@@ -42,35 +43,35 @@ Det är också möjligt att dölja en rad eller kolumn genom att ställa in radh
 
 {{% /alert %}}
 
-### **Göm flera rader och kolumner**
+### **Dölj Flera Rader och Kolumner**
 
- Utvecklare kan dölja flera rader eller kolumner samtidigt genom att anropa[**Göm rader**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) och[**Dölj kolumner**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) metoder för[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)insamling respektive. Båda metoderna tar startraden eller kolumnindexet och antalet rader eller kolumner som ska döljas som parametrar.
+Utvecklare kan dölja flera rader eller kolumner samtidigt genom att anropa  [**HideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) och [**HideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) orden i respektive samling. Båda metoderna tar startindex för rad eller kolumn och antalet rader eller kolumner som ska döljas som parametrar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingMultipleRowsAndColumns-1.cs" >}}
 
-## **Visa och dölj rullningslister**
+## **Visa och dölj bildrullningsfält**
 
-Rullningslister används för att navigera i innehållet i alla filer. Normalt finns det två typer av rullningslister:
+Rullningslistor används för att navigera bland innehållet i en fil. Vanligtvis finns det två typer av rullningslistor:
 
-- Vertikala rullningslister
-- Horisontella rullningslister
+- Vertikala bildrullningsfält
+- Horisontella bildrullningsfält
 
-Microsoft Excel tillhandahåller även horisontella och vertikala rullningslister så att användare kan rulla igenom kalkylbladets innehåll. Med hjälp av Aspose.Cells kan utvecklare kontrollera synligheten för båda typerna av rullningslister i Excel-filer.
+Microsoft Excel tillhandahåller också horisontella och vertikala bildrullningsfält så att användare kan bläddra genom arbetsbladets innehåll. Med Aspose.Cells kan utvecklare kontrollera synligheten av båda typer av bildrullningsfält i Excelfiler.
 
-### **Kontrollera synligheten för rullningslister**
+### **Kontrollera Synligheten för Rullningslistor**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)som representerar en Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera en Excel-fil. För att kontrollera synligheten för rullningslister använder du[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) egenskaper.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) är booleska egenskaper, vilket innebär att dessa egenskaper endast kan lagras**Sann** eller**falsk** värden.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Excel-fil. Klassen [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) tillhandahåller ett brett utbud av egenskaper och metoder för att hantera en Excel-fil. För att kontrollera synligheten för rullningslistor, använd klassen [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) egenskaperna [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible). [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) är booleska egenskaper, vilket innebär att dessa egenskaper bara kan lagra **true** eller **false** värden.
 
-#### **Göra rullningslister synliga**
+#### **Gör bildrullningsfält synliga**
 
- Gör rullningslister synliga genom att ställa in[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) eller[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) egendom till**Sann**.
+Gör rullningslistor synliga genom att ställa in klassens [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) egenskap [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) eller [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) till **true**.
 
-#### **Döljer rullningslister**
+#### **Dölja bildrullningsfält**
 
- Dölj rullningslister genom att ställa in[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) eller[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) egendom till**falsk**.
+Dölj rullningslistor genom att ställa in klassens [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) egenskap [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) eller [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) till **false**.
 
 **Exempelkod**
 
-Nedan finns en komplett kod som öppnar en Excel-fil, book1.xls, döljer båda rullningslisterna och sedan sparar den ändrade filen som output.xls.
+Nedan finns en komplett kod som öppnar en Excel-fil, book1.xls, gömmer båda rullningsfälten och sparar sedan den modifierade filen som output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideScrollBars-1.cs" >}}

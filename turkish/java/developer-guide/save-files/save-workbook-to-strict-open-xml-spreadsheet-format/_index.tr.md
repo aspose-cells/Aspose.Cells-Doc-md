@@ -1,19 +1,20 @@
-﻿---
-title: Çalışma Kitabını Sıkı Açık XML Elektronik Tablo Formatına Kaydet
+---
+title: Sıkı Açık XML Elektronik Tablo Biçimine Çalışma Kitabını Kaydet
 type: docs
 weight: 100
 url: /tr/java/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells, çalışma kitabını şuraya kaydetmenizi sağlar:*Kesin Açık XML Elektronik Tablosu*biçim. Bu amaçla, sağladığı**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**Emlak. Değerini olarak ayarlarsanız**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** ardından çıktı Excel dosyası şuraya kaydedilecektir:*Kesin Açık XML Elektronik Tablosu* biçim.
+Aspose.Cells, iş kitabını *Katı Açık XML Elektronik Tablo* biçiminde kaydetmenize olanak tanır. Bu amaçla, [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance) özelliğini sağlar. Eğer değerini [**OoxmlCompliance.ISO_29500_2008_STRICT**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT) olarak ayarlarsanız, çıktı Excel dosyası *Katı Açık XML Elektronik Tablo* biçiminde kaydedilir.
 
-## **Çalışma Kitabını Sıkı Açık XML Elektronik Tablo Formatına Kaydet**
+## **Sıkı Açık XML Elektronik Tablo Biçimine Çalışma Kitabını Kaydet**
 
-Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**olarak mülkiyet**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)**olarak kaydeder ve[çıktı excel dosyası](outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx). Çıkan Excel dosyasını Microsoft Excel'de açarsanız ve*Farklı kaydet...*iletişim kutusunda, biçimini şu şekilde göreceksiniz:*Kesin Açık XML Elektronik Tablosu*bu ekran görüntüsünde gösterildiği gibi.
+Aşağıdaki örnek kod bir iş kitabı oluşturur ve [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance) özelliğinin değerini [**OoxmlCompliance.ISO_29500_2008_STRICT**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT) olarak ayarlar ve [çıktı Excel dosyası](outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx) olarak kaydeder. Çıktı Excel dosyasını Microsoft Excel'de açtığınızda ve *Farklı Kaydet...* iletişim kutusunu açtığınızda, biçimini göreceksiniz olarak *Katı Açık XML Elektronik Tablo* göreceksiniz.
 
-![yapılacaklar:resim_alternatif_metin](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
+![todo:image_alt_text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "LoadingSavingConvertingAndManaging-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.java" >}}

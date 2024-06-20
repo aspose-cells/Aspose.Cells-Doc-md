@@ -1,18 +1,19 @@
-﻿---
-title: Geben Sie den Auftrags- oder Dokumentnamen beim Drucken mit Aspose.Cells an
+---
+title: Job oder Dokumentnamen beim Drucken mit Aspose.Cells angeben
 type: docs
 weight: 270
 url: /de/net/specify-job-or-document-name-while-printing-with-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Sie können den Auftrags- oder Dokumentnamen angeben, während Sie Ihre Arbeitsmappe oder Ihr Arbeitsblatt mit den WorkbookRender- oder SheetRender-Objekten drucken. Aspose.Cells stellt die Methoden WorkbookRender.ToPrinter(printerName, jobName) und SheetRender.ToPrinter(printerName, jobName) bereit, mit denen Sie den Auftragsnamen beim Drucken Ihrer Arbeitsmappe oder Ihres Arbeitsblatts angeben können
+Sie können Job- oder Dokumentnamen beim Drucken Ihres Arbeitsbuchs oder Arbeitsblattes mit den Objekten WorkbookRender oder SheetRender angeben. Aspose.Cells bietet die Methoden WorkbookRender.ToPrinter(printerName, jobName) und SheetRender.ToPrinter(printerName, jobName), die Sie verwenden können, um den Jobnamen beim Drucken Ihres Arbeitsbuchs oder Arbeitsblatts anzugeben
 
 {{% /alert %}}
 
-## Geben Sie den Auftrags- oder Dokumentnamen beim Drucken mit Aspose.Cells an
+## Job- oder Dokumentnamen beim Drucken mit Aspose.Cells angeben
 
-Der Beispielcode lädt die Excel-Quelldatei und sendet sie dann an den Drucker, indem er den Auftrags- oder Dokumentnamen mit den Methoden WorkbookRender.ToPrinter(printerName, jobName) und SheetRender.ToPrinter(printerName, jobName) angibt.
+Der Beispielcode lädt die Ausgangs-Excel-Datei und sendet sie dann an den Drucker, wobei der Job- oder Dokumentname mithilfe der Methoden WorkbookRender.ToPrinter(printerName, jobName) und SheetRender.ToPrinter(printerName, jobName) angegeben wird.
 
 ## Beispielcode
 

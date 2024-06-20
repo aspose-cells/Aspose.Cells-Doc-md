@@ -1,22 +1,23 @@
-﻿---
-title: Ruby'de Satırları ve Sütunları Kopyalamak
+---
+title: Ruby de Satır ve Sütunları Kopyalama
 type: docs
 weight: 30
 url: /tr/java/copying-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Satırları ve Sütunları Kopyalama**
+
+## **Aspose.Cells - Satır ve Sütunları Kopyalama**
 ### **Satırları Kopyalama**
-Aspose.Cells, Cells sınıfının copyRow yöntemini sağlar. Bu yöntem, formüller, değerler, yorumlar, hücre formatları, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kaynak satırdan hedef satıra kopyalar.
+Aspose.Cells, Cells sınıfının copyRow yöntemini sağlar. Bu yöntem, kaynak satırdan hedef satıra formüller, değerler, yorumlar, hücre biçimleri, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kopyalar.
 
 copyRow yöntemi aşağıdaki parametreleri alır:
 
 - kaynak Cells nesnesi,
-- kaynak satır dizini ve
+- kaynak satır dizini, ve
 - hedef satır dizini.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_rows()
 
@@ -48,37 +49,37 @@ end
 
 {{< /highlight >}}
 ### **Sütunları Kopyalama**
-Aspose.Cells, Cells sınıfının copyColumn yöntemini sağlar; bu yöntem, güncellenmiş referanslarla formüller ve değerler, yorumlar, hücre biçimleri, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kaynak sütundan hedef sütuna kopyalar.
+Aspose.Cells, Cells sınıfının copyColumn yöntemini sağlar; bu yöntem, formüllerle güncellenmiş referanslar ve değerler, yorumlar, hücre biçimleri, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kopyalar.
 
 copyColumn yöntemi aşağıdaki parametreleri alır:
 
 - kaynak Cells nesnesi,
-- kaynak sütun dizini ve
-- hedef sütun dizini.
+- kaynak sütun indeksi ve
+- hedef sütun indeksi.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
- def kopya_sütunlar()
+ def copy_columns()
 
-veri_dir = Dosya.diradı(Dosya.diradı(Dosya.diradı(__DOSYA__))) + '/veri/'
+    data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
 
 
-# Bir Çalışma Kitabı nesnesini excel dosya yoluna göre başlatma
+    # Instantiating a Workbook object by excel file path
 
-çalışma kitabı = Rjb::import('com.aspose.cells.Workbook').new
+    workbook = Rjb::import('com.aspose.cells.Workbook').new
 
-# Excel dosyasındaki ilk çalışma sayfasına erişim
+    # Accessing the first worksheet in the Excel file
 
-çalışma sayfası = çalışma kitabı.getWorksheets().get(0)
+    worksheet = workbook.getWorksheets().get(0)
 
-# Başlık satırlarına bazı veriler koyun (A1:A4)
+    # Put some data into header rows (A1:A4)
 
-ben = 0
+    i = 0
 
- ben iken< 5
+    while i < 5
 
         worksheet.getCells().get(i, 0).setValue("Header Row #{i}")
 
@@ -126,6 +127,6 @@ end
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Satırları ve Sütunları Kopyalama (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıdaki sosyal kodlama sitelerinden **Satırları ve Sütunları Kopyalama (Aspose.Cells)** dosyasını indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

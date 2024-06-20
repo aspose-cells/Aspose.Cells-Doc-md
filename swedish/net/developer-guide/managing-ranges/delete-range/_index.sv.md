@@ -1,28 +1,29 @@
-﻿---
-title: Ta bort intervall
+---
+title: Radera områden
 type: docs
 weight: 105
 url: /sv/net/delete-ranges-from-Excel/
 ---
+
 ## **Introduktion**
 
-I Excel kan du välja ett område och sedan ta bort det och flytta andra data åt vänster eller uppåt.
+I Excel kan du markera ett område, sedan radera det och flytta andra data åt vänster eller upp.
 
-**![Skiftalternativ](delete-range.png)**
+**![Förflyttningsalternativ](delete-range.png)**
 
-## **Ta bort intervall med Aspose.Cells**
+## **Radera områden med hjälp av Aspose.Cells**
 
- Aspose.Cells tillhandahåller[Cells.DeleteRange](https://reference.aspose.com/cells/net/aspose.cells/cells/insertrange/) metod för att radera ett intervall.
+Aspose.Cells tillhandahåller [Cells.DeleteRange](https://reference.aspose.com/cells/net/aspose.cells/cells/deleterange/) metod för att radera ett område.
 
-## **Ta bort intervall och skift Cells Vänster**
+## **Radera områden och flytta celler åt vänster**
 
-Ta bort ett område och flytta celler till vänster som följande koder med Aspose.Cells:
+Radera ett område och flytta celler åt vänster enligt nedanstående kodsnutt med Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-Left.cs" >}}
 
-## **Ta bort intervall och flytta Cells Upp**
+## **Radera områden och flytta celler uppåt**
 
-Ta bort ett område och flytta upp cellerna som följande koder med Aspose.Cells:
+Radera ett område och flytta celler uppåt enligt nedanstående kodsnutt med Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Delete-Range-up.cs" >}}
 

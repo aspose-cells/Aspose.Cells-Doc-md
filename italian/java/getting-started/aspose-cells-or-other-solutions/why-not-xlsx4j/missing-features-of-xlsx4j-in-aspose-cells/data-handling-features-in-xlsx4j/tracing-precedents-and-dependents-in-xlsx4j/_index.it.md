@@ -1,24 +1,25 @@
-﻿---
-title: Tracciamento di precedenti e dipendenti in xlsx4j
+---
+title: Tracciare i preponenti e i dipendenti in xlsx4j
 type: docs
 weight: 70
 url: /it/java/tracing-precedents-and-dependents-in-xlsx4j/
 ---
-## **Aspose.Cells - Rintraccio Precedenti e Dipendenti**
-Fogli di lavoro finanziari complessi, specialmente quelli sviluppati in collaborazione, possono nascondere gli errori più imbarazzanti. Controllare l'accuratezza delle formule e trovare l'origine di un errore può essere difficile quando la formula utilizza celle precedenti e celle dipendenti.
 
-- **Cellule precedenti**sono celle a cui fa riferimento una formula in un altro Cell. Ad esempio, se la cella D10 contiene la formula =B5, la cella B5 è precedente alla cella D10.
-- **Cellule dipendenti**contengono formule che fanno riferimento ad altre celle. Ad esempio, se la cella D10 contiene la formula =B5, la cella D10 dipende dalla cella B5.
+## **Aspose.Cells - Tracciare i preponenti e i dipendenti**
+I fogli di lavoro finanziari complessi, specialmente quelli sviluppati in collaborazione, possono nascondere errori imbarazzanti. Verificare la precisione delle formule e trovare la fonte di un errore può essere difficile quando la formula utilizza celle precedenti e dipendenti.
 
-Per rendere il foglio di calcolo facile da leggere, potresti voler mostrare chiaramente quali celle di un foglio di calcolo vengono utilizzate in una formula. Allo stesso modo, potresti voler estrarre le celle dipendenti di altre celle.
+- Le celle preponenti sono celle a cui si fa riferimento in una formula in un'altra cella. Ad esempio, se la cella D10 contiene la formula =B5, la cella B5 è preponente della cella D10.
+- Le celle dipendenti contengono formule che si riferiscono ad altre celle. Ad esempio, se la cella D10 contiene la formula =B5, la cella D10 è dipendente dalla cella B5.
 
-Aspose.Cells permette di rintracciare le celle e scoprire quali sono collegate.
+Per rendere il foglio di calcolo facile da leggere, potresti voler mostrare chiaramente quali celle del foglio di calcolo sono utilizzate in una formula. Allo stesso modo, potresti voler estrarre le celle dipendenti da altre celle.
 
-Rintracciare i precedenti
+Aspose.Cells ti consente di tracciare le celle e scoprire quali sono collegate.
+
+Tracciamento dei Precedenti
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -84,21 +85,21 @@ if(ret != null)
 
 {{< /highlight >}}
 
-Tracciamento dei dipendenti
+Tracciamento dei Dipendenti
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Prendi la cella A1
+ //Get the A1 cell
 
-Cell c = celle.get("A5");
+Cell c = cells.get("A5");
 
-//Prendi tutti i dipendenti della cella A5
+//Get the all the Dependents of A5 cell
 
-Cell[]dipendenti = c.getDependents(true);
+Cell[] dependents = c.getDependents(true);
 
-per (int i = 0; i< dependents.length; i++)
+for (int i = 0; i< dependents.length; i++)
 
 {
 
@@ -108,12 +109,12 @@ per (int i = 0; i< dependents.length; i++)
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/tracingprecedentsanddependents/AsposeTracingPrecedentsAndDependents.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/tracingprecedentsanddependents/AsposeTracingPrecedentsAndDependents.java)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Rintracciare precedenti e dipendenti](/java/tracing-precedents-and-dependents).
+Per ulteriori dettagli, visita [Tracciare i preponenti e i dipendenti](/java/tracing-precedents-and-dependents).
 
 {{% /alert %}}

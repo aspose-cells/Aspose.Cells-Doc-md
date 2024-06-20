@@ -1,16 +1,17 @@
-﻿---
-title: Excel до HTML — используйте параметр PresentationPreference для лучшего макета
+---
+title: Excel в HTML  Используйте опцию PresentationPreference для лучшего макета
 type: docs
 weight: 220
 url: /ru/net/excel-to-html-use-presentationpreference-option-for-better-layout/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells предоставляет полезное свойство HtmlSaveOptions.PresentationPreference для разработчиков, которым необходимо улучшить макет при сохранении файла Excel Microsoft в формате HTML или MHT. Значение свойства по умолчанию — false. Мы рекомендуем установить для этого свойства значение true, чтобы получить более привлекательное представление отчетов Excel.
+Aspose.Cells предоставляет полезное свойство HtmlSaveOptions.PresentationPreference для разработчиков, которым необходимо получить лучшее оформление при сохранении файла Microsoft Excel в форматах HTML или MHT. Значение по умолчанию свойства - false. Мы рекомендуем установить это свойство в true, чтобы получить более привлекательное оформление отчетов Excel.
 
 {{% /alert %}} 
 
-См. приведенный ниже пример кода, демонстрирующий, как отобразить файл HTML из отчета Excel с включенным параметром представления.
+Пожалуйста, ознакомьтесь с примером кода ниже, демонстрирующим отображение HTML-файла из отчета Excel с предпочтением презентации.
 
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Consultas y conexiones
 linktitle: Consultas y conexiones
 type: docs

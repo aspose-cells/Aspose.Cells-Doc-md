@@ -1,16 +1,17 @@
 ---
-title: قم بتعيين تعليق الجدول أو كائن القائمة داخل ورقة العمل
+title: ضبط التعليق للجدول أو كائن القائمة داخل ورقة العمل
 type: docs
 weight: 20
 url: /ar/cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
- الرجاء تعيين تعليق الجدول أو كائن القائمة داخل ورقة العمل باستخدام[ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/) طريقة. سيكون التعليق مرئيًا داخل ملف xl/tables/tableName.xml.
+يرجى تعيين تعليق جدول أو كائن قائمة داخل ورقة العمل باستخدام الأسلوب [ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/). سيكون التعليق مرئيًا داخل ملف xl/tables/tableName.xml.
 
 {{% /alert %}} 
-##  **قم بتعيين تعليق الجدول أو كائن القائمة داخل ورقة العمل**
-نموذج التعليمات البرمجية التالي يقوم بتحميل ملف Excel المصدر ويقوم بتعيين تعليق الجدول الأول أو كائن القائمة داخل ورقة العمل.
+## **ضبط التعليق للجدول أو كائن القائمة داخل ورقة العمل**
+يحمل الكود العيني التالي ملف Excel المصدر ويقوم بتعيين تعليق لأول جدول أو كائن قائمة داخل ورقة العمل.
 
 
 

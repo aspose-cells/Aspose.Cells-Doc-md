@@ -1,44 +1,45 @@
-﻿---
+---
 title: وظيفة التوحيد
 type: docs
 weight: 20
 url: /ar/java/consolidation-function/
-description: تطبيق ConsolidationFunction على حقول البيانات في الجدول المحوري.
+description: قم بتطبيق وظيفة التوحيد على حقول البيانات في الجدول الدوري Pivot.
 ---
+
 ## **وظيفة التوحيد**
 
- يمكن استخدام Aspose.Cells لتطبيق ConsolidationFunction على حقول البيانات (أو حقول القيمة) للجدول المحوري. في Microsoft Excel ، يمكنك النقر بزر الماوس الأيمن فوق حقل القيمة ثم التحديد**إعدادات حقل القيمة ...** الخيار ثم حدد علامة التبويب**تلخيص القيم حسب**. من هناك ، يمكنك تحديد أي دالة توحيد من اختيارك مثل المجموع ، العدد ، المتوسط ، الحد الأقصى ، الحد الأدنى ، المنتج ، العدد المميز ، إلخ.
+يمكن استخدام Aspose.Cells لتطبيق وظيفة التوحيد على حقول البيانات (أو حقول القيم) لجدول Pivot. في Microsoft Excel، يمكنك نقر بزر الماوس الأيمن على حقل القيم ومن ثم تحديد اختيار **إعدادات حقل القيم...** ثم تحديد علامة **تلخيص القيم بواسطة**. من هناك، يمكنك تحديد أي وظيفة توحيد تفضل مثل Sum، Count، Average، Max، Min، Product، Distinct Count، إلخ.
 
- يوفر Aspose.Cells[**التوحيد**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) التعداد لدعم وظائف التوحيد التالية.
+يوفر Aspose.Cells تعدادًا [**ConsolidationFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) لدعم وظائف التوحيد التالية.
 
-- التوحيد SUM
-- التوحيد وظيفة. العد
+- ConsolidationFunction.SUM
+- ConsolidationFunction.COUNT
 - ConsolidationFunction.AVERAGE
-- التوحيد
-- التوحيد
-- التوحيد. المنتج
-- التوحيد. COUNT_NUMS
-- التوحيد. STD_DEV
-- التوحيد. STD_DEVP
-- التوحيد. VAR
-- التوحيد. VARP
-- عملية التوحيد. DISTINCT_COUNT
+- ConsolidationFunction.MAX
+- ConsolidationFunction.MIN
+- ConsolidationFunction.PRODUCT
+- ConsolidationFunction.COUNT_NUMS
+- ConsolidationFunction.STD_DEV
+- ConsolidationFunction.STD_DEVP
+- ConsolidationFunction.VAR
+- ConsolidationFunction.VARP
+- ConsolidationFunction.DISTINCT_COUNT
 
-### **تطبيق ConsolidationFunction على حقول البيانات في Pivot Table**
+### **تطبيق وظيفة التوحيد على حقول البيانات لجدول الإحصائيات**
 
- الكود التالي ينطبق**معدل** وظيفة التوحيد في حقل البيانات الأول (أو حقل القيمة) و**الأمراض المنقولة جنسيا ديف** وظيفة التوحيد في حقل البيانات الثاني (أو حقل القيمة).
+الشيفرة التالية تطبق وظيفة **AVERAGE** للحقل البياني الأول ووظيفة **STD_DEV** للحقل البياني الثاني.
 
-يمكن تنزيل نموذج ملف المصدر وملفات الإخراج من هنا لاختبار نموذج التعليمات البرمجية:
+يمكن تنزيل ملف المصدر وملفات الإخراج التجريبية من هنا لاختبار الشيفرة التجريبية:
 
-[مصدر ملف Excel](source.xlsx)
+[ملف إكسل المصدر](source.xlsx)
 
-[إخراج ملف Excel](output.xlsx)
+[ملف إكسل الناتج](output.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-ConsolidationFunction.java" >}}
 
 {{% alert color="primary" %}}
 
-يتم دعم وظيفة دمج DistinctCount بواسطة Microsoft Excel 2013 فقط.
+دعم وظيفة تجميع العدد المميز من قبل Microsoft Excel 2013 فقط.
 
 {{% /alert %}}
 

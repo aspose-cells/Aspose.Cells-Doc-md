@@ -1,16 +1,17 @@
-﻿---
-title: Nascondere o mostrare un foglio di lavoro in Ruby
+---
+title: Nascondi o Mostra un Foglio in Ruby
 type: docs
 weight: 60
 url: /it/java/hide-or-unhide-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells - Nascondi o mostra un foglio di lavoro**
+
+## **Aspose.Cells - Nascondi o Mostra un Foglio**
 ### **Nascondere un foglio di lavoro**
- Per nascondere il foglio di lavoro utilizzando Aspose.Cells Java per Ruby, chiama**hideunhideworksheet** modulo.
+Per nascondere il foglio utilizzando Aspose.Cells Java per Ruby, chiama il modulo **hideunhideworksheet**.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -35,12 +36,12 @@ workbook.save(data_dir + "output.xls")
 puts "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
-### **Mostrando un foglio di lavoro**
-Gli sviluppatori possono rendere visibile un foglio di lavoro impostando l'estensione*setVisibile(* *VERO* *)*metodo del**Foglio di lavoro**classe.
+### **Visualizzazione di un Foglio**
+Gli sviluppatori possono rendere visibile un foglio impostando il metodo *setVisible(true)* della classe **Worksheet**.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the worksheet of the Excel file
 
@@ -48,6 +49,6 @@ worksheet.setVisible(true)
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Nascondere o scoprire un foglio di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Nascondi o Mostra un Foglio (Aspose.Cells)** da uno dei siti di codice sociale sotto indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/hideunhideworksheet.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/hideunhideworksheet.rb)

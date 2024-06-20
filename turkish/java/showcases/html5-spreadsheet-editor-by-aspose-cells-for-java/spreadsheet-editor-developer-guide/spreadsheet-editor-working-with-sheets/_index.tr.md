@@ -1,42 +1,43 @@
-﻿---
-title: Hesap Tablosu Düzenleyicisi - E-Tablolarla Çalışma
+---
+title: Tablo Editörü  Sayfalarla Çalışma
 type: docs
 weight: 20
 url: /tr/java/spreadsheet-editor-working-with-sheets/
 ---
+
 **İçindekiler**
 
-- [Sayfa Ekle ve Kaldır?](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
- - WorksheetView.onAddNewSheet
- - WorksheetView.onRemoveActiveSheet
+- [Sayfaları Ekle ve Kaldır?](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
+  - WorksheetView.onAddNewSheet
+  - WorksheetView.onRemoveActiveSheet
 - [Sayfaları Yeniden Adlandır](#SpreadsheetEditor-WorkingwithSheets-RenameSheets) 
- - WorksheetView.setActiveSheet
-- [Sayfalar arasında geçiş yap](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
- - WorksheetView.setActiveSheet
-### **Sayfa Ekle ve Kaldır?**
-Microsoft Excel, tek bir dosyada birden çok sayfaya izin verir. HTML5 Elektronik Tablo Düzenleyici, kullanıcının sayfa eklemesine ve kaldırmasına izin verir. Sayfalar sekmesinde, açılır bir sayfa listemiz var. Seçilen sayfa, editör tarafından açılan sayfadır.
+  - WorksheetView.setActiveSheet
+- [Çalışma Sayfaları Arasında Geçiş Yapın](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
+  - WorksheetView.setActiveSheet
+### **Sayfaları Ekle ve Kaldır?**
+Microsoft Excel tek bir dosyada birden çok sayfa izin verir. HTML5 Tablo Editörü kullanıcıya sayfa ekleyip kaldırma imkanı verir. Sayfalar sekmesinde bir sayfa için bir açılır liste bulunmaktadır. Seçilen sayfa düzenleyici tarafından açılan sayfadır.
 
 Yeni bir sayfa eklemek için:
 
-1.  Çevirmek**E-Tablolar sekmesi**.
+1. **Sayfaları** sekmesine geçin.
 1. **+** (artı) düğmesine tıklayın.
 
-Yeni bir sayfa eklenecek ve düzenleyici buna geçecektir.
+Yeni bir sayfa eklenecek ve düzenleyici buna geçiş yapacaktır.
 
-Seçili olan sayfayı kaldırmak için:
+Şu an seçili sayfayı kaldırmak için:
 
-1.  Çevirmek**E-Tablolar sekmesi**.
+1. **Sayfaları** sekmesine geçin.
 1. **-** (eksi) düğmesine tıklayın.
 
-Halihazırda seçili olan sayfa kaldırılacak ve düzenleyici son seçilen sayfaya geçecektir.
+Şu an seçili sayfa kaldırılacak ve düzenleyici son seçilen sayfaya geçecektir.
 
-![yapılacaklar:resim_alternatif_metin](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
 **Nasıl çalışır?**
 
- kullanıcı tıkladığında** +** (artı) ve**-** (eksi) düğmesi tıklandığında, JSF arka uç çekirdeği**Çalışma Sayfası Görünümü** kullanarak olayları işler**WorksheetView.onAddNewSheet** ve**WorksheetView.onRemoveActiveSheet** yöntemleri.
+Kullanıcı **+** (artı) ve **-** (eksi) düğmelerine tıkladığında, JSF backend bean **WorksheetView** olayları **WorksheetView.onAddNewSheet** ve **WorksheetView.onRemoveActiveSheet** metodları kullanarak işler.
 #### **WorksheetView.onAddNewSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onAddNewSheet() {
 
@@ -63,7 +64,7 @@ Halihazırda seçili olan sayfa kaldırılacak ve düzenleyici son seçilen sayf
 {{< /highlight >}}
 
 #### **WorksheetView.onRemoveActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onRemoveActiveSheet() {
 
@@ -97,22 +98,22 @@ Halihazırda seçili olan sayfa kaldırılacak ve düzenleyici son seçilen sayf
 
 {{< /highlight >}}
 ### **Sayfaları Yeniden Adlandır**
-Bir sayfayı yeniden adlandırmak için:
+Bir çalışma sayfasını yeniden adlandırmak için:
 
-1.  Çevirmek**E-Tablolar sekmesi**.
-1. Düzenlemek için metin kutusundaki sayfa adına tıklayın.
-1. Sayfanın adını değiştirin.
-1. Bittiğinde, ENTER tuşuna basın veya kutunun dışında herhangi bir yeri tıklayın.
+1. **Sayfaları** sekmesine geçin.
+1. Metin kutusunda çalışma sayfasının adına tıklayın ve düzenlemek için düzenleyin.
+1. Çalışma sayfasının adını değiştirin.
+1. İşlemi bitirdiğinizde, ENTER tuşuna basın veya kutunun dışına herhangi bir yere tıklayın.
 
-Sayfa yeniden adlandırılacak.
+Çalışma sayfası yeniden adlandırılacak.
 
-![yapılacaklar:resim_alternatif_metin](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
 **Nasıl çalışır?**
 
- Metin kutusu değeri değiştirildiğinde, olay sunucuda JSF arka uç çekirdeği tarafından işlenir.**Çalışma Sayfası Görünümü** yöntem kullanarak**WorksheetView.setActiveSheet**.
+Metin kutusu değeri değiştirildiğinde, etkinlik JSF arka uç fasulyesi **WorksheetView** kullanılarak **WorksheetView.setActiveSheet** yöntemi ile sunucuda işlenir.
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 
@@ -135,21 +136,21 @@ Sayfa yeniden adlandırılacak.
     }
 
 {{< /highlight >}}
-### **Sayfalar arasında geçiş yap**
+### **Çalışma Sayfaları Arasında Geçiş Yapın**
 Başka bir sayfaya geçmek için:
 
-1.  Çevirmek**E-Tablolar sekmesi**.
+1. **Sayfaları** sekmesine geçin.
 1. Açılır menüden bir sayfa seçin.
 
-Düzenleyici seçilen sayfaya geçiş yapacaktır.
+Düzenleyici seçilen sayfaya geçecek.
 
-![yapılacaklar:resim_alternatif_metin](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
 **Nasıl çalışır?**
 
- Açılır seçicinin değeri değiştirildiğinde, olay sunucuda JSF arka uç çekirdeği tarafından işlenir.**Çalışma Sayfası Görünümü** yöntem kullanarak**WorksheetView.setActiveSheet**.
+Açılır menü seçicisi değeri değiştirildiğinde, etkinlik JSF arka uç fasulyesi **WorksheetView** kullanılarak **WorksheetView.setActiveSheet** yöntemi ile sunucuda işlenir.
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 

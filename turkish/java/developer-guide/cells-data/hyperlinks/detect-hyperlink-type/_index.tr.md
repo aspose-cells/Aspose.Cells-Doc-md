@@ -1,25 +1,26 @@
-﻿---
-title: Köprü Türünü Algıla
+---
+title: Bağlantı Türünü Algıla
 type: docs
 weight: 180
 url: /tr/java/detect-hyperlink-type/
 ---
-## **Köprü Türünü Algıla**
 
-Bir Excel dosyası, harici, hücre referansı, dosya yolu vb. gibi farklı köprü türlerine sahip olabilir. Aspose.Cells, köprü türünü algılama özelliğini destekler. Köprü türleri şu şekilde temsil edilir:[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Numaralandırma. bu[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Numaralandırma aşağıdaki üyelere sahiptir.
+## **Bağlantı Türünü Algıla**
 
-- [**HARİCİ**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Dış bağlantı
-- [**DOSYA YOLU**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Dosyalar\klasörler için yerel ve tam yol.
-- [**E-POSTA**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): E-posta
-- [**HÜCRE_REFERANS**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Hücreye veya adlandırılmış aralığa bağlantı.
+Bir Excel dosyası, dış, hücre referansı, dosya yolu vb. gibi farklı bağlantı türlerine sahip olabilir. Aspose.Cells, bağlantı türünü algılama özelliğini destekler. Bağlantı türleri, [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) Numaralaması tarafından temsil edilir. [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) Numaralaması aşağıdaki üyeleri içerir.
 
-Köprü tipini kontrol etmek için,[**köprü**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) sınıf bir sağlar[**Bağlantı Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) dönüş türüne sahip özellik[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Aşağıdaki kod parçacığı,[**Bağlantı Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)Bunu kullanarak mülkiyet[kaynak excel dosyası](LinkTypes.xlsx).
+- [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Dış bağlantı
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Yerel ve dosya\dizin için tam yol.
+- [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): E-posta
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Hücre veya adlandırılmış aralığa bağlantı.
 
-## Kaynak kodu
+Bağlantı türünü kontrol etmek için, [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) sınıfı, [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) tipi döndüren bir [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) özelliği sağlar. Aşağıdaki kod örneği, bir [kaynak Excel dosyasını](LinkTypes.xlsx) kullanarak [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) özelliğinin kullanımını gösterir.
+
+## Kaynak Kod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-DetectLinkTypes-1.java" >}}
 
-Aşağıdaki, yukarıda verilen kod parçası tarafından üretilen çıktıdır.
+Yukarıda verilen kod parçası tarafından üretilen çıktı aşağıdaki gibidir.
 
 ## Konsol Çıkışı
 ```

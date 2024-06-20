@@ -1,59 +1,60 @@
-﻿---
-title: Группировка и разгруппировка строк и столбцов
+---
+title: Группировка и расгруппировка строк и столбцов
 type: docs
 weight: 40
 url: /ru/java/grouping-and-ungrouping-rows-and-columns/
 ---
-## **Вступление**
-В файле Excel Microsoft можно создать структуру данных, позволяющую отображать и скрывать уровни детализации одним щелчком мыши.
 
- Нажмите на**Контурные символы**, 1,2,3, + и -, чтобы быстро отобразить только строки или столбцы, которые содержат сводки или заголовки для разделов на листе, или вы можете использовать символы, чтобы увидеть подробности под отдельной сводкой или заголовком, как показано ниже на рисунке. :
+## **Введение**
+В файле Microsoft Excel можно создать контур для данных, чтобы можно было показать и скрыть уровни детализации одним щелчком мыши.
 
- Группировка строк и столбцов
+Щелкните на **Символы сводки**, 1,2,3, + и -, чтобы быстро отобразить только строки или столбцы, которые предоставляют сводки или заголовки для разделов в листе, или можно использовать символы, чтобы увидеть детали под отдельной сводкой или заголовком, как показано ниже на рисунке:
 
-![дело:изображение_альтернативный_текст](grouping-and-ungrouping-rows-and-columns_1.png)
-## **Групповое управление строками и столбцами**
- Aspose.Cells предоставляет класс,[Рабочая тетрадь](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) который представляет собой файл Excel Microsoft.[Рабочая тетрадь](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) класс содержит[Рабочие листы](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[Рабочий лист](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) учебный класс.[Рабочий лист](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) класс предоставляет[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)коллекция, представляющая все ячейки рабочего листа.
+Группировка строк и столбцов 
 
-[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection предоставляет несколько методов для управления строками или столбцами на листе, некоторые из них более подробно обсуждаются ниже.
+![todo:image_alt_text](grouping-and-ungrouping-rows-and-columns_1.png)
+## **Управление группировкой строк и столбцов**
+Aspose.Cells предоставляет класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) содержит коллекцию [Worksheets](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection), которая позволяет получить доступ к каждой рабочей книге в файле Excel. Рабочий лист представлен классом [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Класс [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) предоставляет коллекцию [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), которая представляет все ячейки в рабочем листе.
+
+Коллекция [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) предоставляет несколько методов для управления строками или столбцами в рабочем листе, несколько из которых обсуждаются ниже более подробно.
 ### **Группировка строк и столбцов**
- Можно сгруппировать строки или столбцы, вызвав метод[группа строк](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\) ) и[группаКолонки](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\) ) методы[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)коллекция. Оба метода принимают следующие параметры:
+Возможна группировка строк или столбцов, вызывая методы [groupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\)) и [groupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\)) коллекции [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Оба метода принимают следующие параметры:
 
-- Индекс первой строки/столбца, первая строка или столбец в группе.
-- Индекс последней строки/столбца, последняя строка или столбец в группе.
-- Скрыт, логический параметр, указывающий, следует ли скрывать строки/столбцы после группировки или нет.
+- Индекс первой строки/столбца в группе.
+- Индекс последней строки/столбца в группе.
+- Скрыто, логический параметр, указывающий, нужно ли скрыть строки/столбцы после группировки.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-GroupingRowsandColumns-1.java" >}}
-## **Настройки группы**
-Microsoft Excel также позволяет настроить параметры группы для отображения:
+## **Настройки группировки**
+Microsoft Excel также позволяет настроить параметры группировки для отображения:
 
 - Сводные строки под деталями.
-- Сводные столбцы справа от подробностей.
+- Сводки столбцов справа от деталей.
 
-**Настройки группы** 
+**Настройки группировки** 
 
-![дело:изображение_альтернативный_текст](grouping-and-ungrouping-rows-and-columns_2.png)
+![todo:image_alt_text](grouping-and-ungrouping-rows-and-columns_2.png)
 
-Эти групповые параметры можно настроить с помощью свойства Outline класса Worksheet.
-### **Сводные строки под деталями**
- Разработчики могут управлять отображением итоговых строк под деталями с помощью[Контур](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) учебный класс'[РезюмеСтрокаНиже](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) метод.
+Возможно настроить эти параметры группировки, используя свойство Outline класса Worksheet.
+### **Сводки строк ниже деталей**
+Разработчики могут управлять отображением сводных строк под деталями, используя метод [SummaryRowBelow](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) класса [Outline](https://reference.aspose.com/cells/java/com.aspose.cells/Outline).
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowBelow-1.java" >}}
-### **Сводные столбцы справа от подробностей**
-Можно управлять отображением сводных столбцов справа от сведений с помощью кнопки[Контур](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) учебный класс'[РезюмеСтолбецПравый](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryColumnRight)метод.
+### **Итоговые столбцы справа от деталей**
+Возможно управлять отображением сводных столбцов справа от деталей с помощью метода [SummaryColumnRight](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryColumnRight) класса [Outline](https://reference.aspose.com/cells/java/com.aspose.cells/Outline).
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
-### **Разгруппировка строк и столбцов**
- Разгруппируйте сгруппированные строки или столбцы, вызвав метод[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) коллекция[Разгруппировать ряды](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\) ) и[Разгруппировать столбцы](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) методы. Оба метода принимают одни и те же параметры:
+### **Отмена группировки строк и столбцов**
+Разгруппируйте объединенные строки или столбцы, вызвав методы [UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\)) и [UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) коллекции [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Оба метода принимают одинаковые параметры:
 
-- Индекс первой строки или столбца, первая строка/столбец, подлежащий разгруппировке.
-- Индекс последней строки или столбца, последняя строка/столбец для разгруппировки.
+- Индекс первой строки/столбца, которую нужно разгруппировать.
+- Индекс последней строки/столбца, которую нужно разгруппировать.
 
 
 

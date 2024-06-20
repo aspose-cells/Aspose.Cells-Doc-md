@@ -1,24 +1,25 @@
-﻿---
-title: Aspose.Cells kullanarak VBA veya Makro Kodunu değiştirme
+---
+title: Aspose.Cells kullanarak VBA veya Makro Kodunu Değiştirme
 type: docs
 weight: 90
 url: /tr/java/modifying-vba-or-macro-code-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells'i kullanarak VBA veya Makro Kodunu değiştirebilirsiniz. Aspose.Cells, VBA projesini Excel dosyasında okumak ve değiştirmek için aşağıdaki sınıfları ekledi.
+Aspose.Cells kullanarak VBA veya Makro Kodunu Değiştirebilirsiniz. Aspose.Cells, Excel dosyasındaki VBA projesini okumak ve değiştirmek için aşağıdaki sınıfları eklemiştir.
 
-- Vba Projesi
-- VbaModül Koleksiyonu
-- Vba Modülü
+- VbaProject
+- VbaModuleCollection
+- VbaModule
 
-Bu makale, Aspose.Cells kullanarak kaynak Excel dosyası içindeki VBA veya Makro Kodunu nasıl değiştireceğinizi gösterecektir.
+Bu makale, Aspose.Cells kullanarak kaynak Excel dosyasındaki VBA veya Makro Kodunu değiştirmeyi gösterecektir.
 
 {{% /alert %}} 
-## **Örnek vermek**
-Aşağıdaki örnek kod, içinde aşağıdaki VBA veya Makro kodu bulunan kaynak Excel dosyasını yükler.
+## **Örnek**
+Aşağıdaki örnek kod, içinde belirtilen VBA veya Makro kodu bulunan kaynak Excel dosyasını yükler
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -28,9 +29,9 @@ End Sub
 
 {{< /highlight >}}
 
-Aspose.Cells örnek kodunun yürütülmesinden sonra, VBA veya Makro kodu bu şekilde değiştirilecektir.
+Aspose.Cells örnek kodunun yürütülmesinden sonra, VBA veya Makro kodu bu şekilde değiştirilmiş olacaktır
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -40,7 +41,7 @@ End Sub
 
 {{< /highlight >}}
 
- indirebilirsiniz[kaynak Excel dosyası](5472596.xlsm) ve[çıktı excel dosyası](5472597.xlsm) verilen linklerden
+[Kaynak Excel dosyasını](5472596.xlsm) ve [çıkış Excel dosyasını](5472597.xlsm) verilen bağlantılardan indirebilirsiniz.
 
 
 

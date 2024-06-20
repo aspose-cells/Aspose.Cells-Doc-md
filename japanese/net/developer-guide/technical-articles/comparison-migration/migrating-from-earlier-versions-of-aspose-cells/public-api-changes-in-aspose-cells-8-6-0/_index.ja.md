@@ -1,23 +1,24 @@
-﻿---
-title: パブリック API Aspose.Cells 8.6.0 の変更点
+---
+title: Aspose.Cells 8.6.0 での Public API 変更
 type: docs
 weight: 190
 url: /ja/net/public-api-changes-in-aspose-cells-8-6-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.5.2 から 8.6.0 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/net/public-api-changes-in-aspose-cells-8-6-0/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
+このドキュメントでは、バージョン8.5.2から8.6.0へのAspose.Cells APIの変更について、モジュール/アプリケーション開発者に興味があるかもしれない内容について説明しています。新しいメソッドや更新された公開メソッド、[追加されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-6-0/)だけでなく、Aspose.Cellsの内部の動作に変更があった場合についても説明しています。
 
 {{% /alert %}} 
-## **追加された API**
-### **ワークブックのオブジェクトを作成しないメタデータ操作のサポート**
-Aspose.Cells for .NET API のこのリリースでは、WorkbookMetadata と MetadataOptions という 2 つの新しいクラスが公開され、Workbook のインスタンスを作成せずにドキュメント プロパティ (メタデータ) を操作できる新しい列挙 MetadataType が追加されました。 WorkbookMetadata クラスは軽量で、非常に使いやすく効率的なメカニズムを提供します。[全体的なパフォーマンスに影響を与えることなく、ドキュメント プロパティの読み取り、書き込み、更新を行う](/cells/ja/net/using-workbookmetadata/).
+## **APIの追加**
+### **Workbook のオブジェクトを生成せずにメタデータ操作をサポート**
+このリリースでは、Aspose.Cells for .NET API により、WorkbookMetadataクラスとMetadataOptionsクラスの2つの新しいクラスが公開され、ドキュメントのプロパティ（メタデータ）を作成せずに操作することが可能です。WorkbookMetadataクラスは軽量で、非常に使いやすく、全体のパフォーマンスに影響を与えることなく、ドキュメントのプロパティを読み書きおよび更新します。[WorkbookMetadataの使用](/cells/ja/net/using-workbookmetadata/)で詳細な情報が提供されています。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet with WorkbookMetadata while specifying appropriate MetadataType
 
@@ -36,14 +37,14 @@ metadata.Save(filePath);
 {{< /highlight >}}
 
 
-### **プロパティ HtmlSaveOptions.ExportFrameScriptsAndProperties が追加されました**
-Aspose.Cells for .NET 8.6.0 は、スプレッドシートを HTML 形式に変換する際に追加のスクリプトの作成に影響を与えるために使用できる HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティを公開しました。デフォルト設定では、Aspose.Cells API は、Excel アプリケーションがエクスポートを行うように、スプレッドシートを HTML 形式でエクスポートします。結果の HTML には、フレームと条件付きコメントが含まれており、ブラウザーの種類を検出し、それに応じてレイアウトを調整します。 HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティのデフォルト値は true です。エクスポートは Excel 標準に従って行われます。ただし、プロパティが false に設定されている場合、API は[フレームと条件付きコメントに関連するスクリプトを生成します](/cells/ja/net/disable-exporting-frame-scripts-and-document-properties/).この場合、結果の HTML はどのブラウザでも正しく表示できますが、Aspose.Cells API を使用してインポートすることはできません。
+### **HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティが追加されました**
+Aspose.Cells for .NET 8.6.0では、HtmlSaveOptions.ExportFrameScriptsAndPropertiesプロパティが公開され、スプレッドシートをHTML形式に変換する際に追加のスクリプトの作成に影響を与えるために使用できます。デフォルト設定では、Aspose.Cells APIは、Excelアプリケーションがエクスポートするのと同様に、フレームと条件付きコメントが含まれたHTML形式でスプレッドシートをエクスポートします。これにより、結果のHTMLにはブラウザの種類を検出し、レイアウトを調整するフレームおよび条件付きコメントが含まれます。HtmlSaveOptions.ExportFrameScriptsAndPropertiesプロパティのデフォルト値はtrueです。これは、エクスポートがExcelの基準に従って行われることを意味します。ただし、プロパティをfalseに設定すると、APIは[フレームスクリプトやドキュメントプロパティに関連するスクリプトを生成しません](/cells/ja/net/disable-exporting-frame-scripts-and-document-properties/)。この場合、結果のHTMLは任意のブラウザで正しく表示されますが、Aspose.Cells APIを使用してインポートすることはできません。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the spreadsheet
 
@@ -62,14 +63,14 @@ book.Save("output.html", options);
 {{< /highlight >}}
 
 
-### **プロパティ Shape.MarcoName が追加されました**
-Aspose.Cells for .NET 8.6.0 で使用できる Shape.MarcoName プロパティが公開されました。[任意の VBA モジュールをフォーム コントロールに割り当てる](/cells/ja/net/assign-macro-to-form-control/)相互作用を提供するためのそのようなボタン。プロパティは文字列型であるため、モジュール名を受け入れてコントロールに割り当てることができます。
+### **Shape.MarcoName プロパティが追加されました**
+Aspose.Cells for .NET 8.6.0では、Shape.MarcoNameプロパティが公開され、[フォームコントロールにマクロを割り当てる](/cells/ja/net/assign-macro-to-form-control/)ために使用することができます。このプロパティは文字列型なので、モジュール名を受け入れ、コントロールに割り当てます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -122,5 +123,5 @@ workbook.Save("output.xlsm");
 {{< /highlight >}}
 
 
-### **プロパティ OoxmlSaveOptions.UpdateZoom が追加されました**
-v8.6.0 のリリースにより、Aspose.Cells for .NET API は、PageSetup.FitToPagesWide および/または PageSetup.FitToPagesTall プロパティがワークシートのスケーリングを制御するために使用されている場合、PageSetup.Zoom を更新するために使用できる OoxmlSaveOptions.UpdateZoom プロパティを公開しました。
+### **OoxmlSaveOptions.UpdateZoom プロパティが追加されました**
+v8.6.0でリリースされたAspose.Cells for .NET API は、OoxmlSaveOptions.UpdateZoom プロパティを公開し、Worksheetスケーリングを制御するためにPageSetup.Zoom を更新するために使用できます。

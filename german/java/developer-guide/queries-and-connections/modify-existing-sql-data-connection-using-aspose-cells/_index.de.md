@@ -1,23 +1,24 @@
-﻿---
-title: Ändern Sie die vorhandene SQL-Datenverbindung mit Aspose.Cells
+---
+title: Bereits bestehende SQL Datenverbindung mithilfe von Aspose.Cells ändern
 type: docs
 weight: 30
 url: /de/java/modify-existing-sql-data-connection-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells unterstützt das Ändern vorhandener SQL-Datenverbindungen. In diesem Artikel wird erläutert, wie Sie Aspose.Cells verwenden, um verschiedene Eigenschaften der SQL-Datenverbindung zu ändern.
+Aspose.Cells unterstützt das Ändern einer bereits bestehenden SQL-Datenverbindung. Der Artikel erläutert, wie Aspose.Cells verwendet wird, um verschiedene Eigenschaften einer SQL-Datenverbindung zu ändern.
 
-Sie können Datenverbindungen innerhalb von Microsoft Excel hinzufügen oder anzeigen, indem Sie folgen**Daten > Verbindungen** Menübefehl.
+Sie können Datenverbindungen in Microsoft Excel hinzufügen oder anzeigen, indem Sie den Menübefehl **Daten > Verbindungen** befolgen.
 
-In ähnlicher Weise bietet Aspose.Cells die Möglichkeit, mithilfe der Sammlung Workbook.getDataConnections() auf die Datenverbindungen zuzugreifen und diese zu ändern.
+Ebenso bietet Aspose.Cells die Möglichkeit, über die Workbook.getDataConnections()-Sammlung auf Datenverbindungen zuzugreifen und diese zu ändern.
 
 {{% /alert %}} 
-## **Ändern Sie die vorhandene SQL-Datenverbindung mit Aspose.Cells**
-Das folgende Beispiel veranschaulicht die Verwendung von Aspose.Cells zum Ändern der SQL-Datenverbindung der Arbeitsmappe. Sie können die in diesem Code verwendete Excel-Quelldatei und die vom Code generierte Excel-Ausgabedatei über die folgenden Links herunterladen.
+## **Ändern einer existierenden SQL-Datenverbindung mit Aspose.Cells**
+Das folgende Beispiel veranschaulicht die Verwendung von Aspose.Cells, um die SQL-Datenverbindung der Arbeitsmappe zu ändern. Sie können die Quelldatei, die in diesem Code verwendet wird, und die vom Code generierte Ausgabedatei unter den folgenden Links herunterladen.
 
-- [Excel-Quelldatei](5472969.xlsx)
-- [Excel-Datei ausgeben](5472966.xlsx)
+- [Quelldatei](5472969.xlsx)
+- [Ausgabedatei](5472966.xlsx)
 
 
 

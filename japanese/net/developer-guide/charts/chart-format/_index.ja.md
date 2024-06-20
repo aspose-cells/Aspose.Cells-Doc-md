@@ -1,74 +1,75 @@
 ---
-title: チャートの外観の設定
-description: Aspose.Cells for .NET でグラフの外観を構成する方法を学習します。このガイドでは、グラフのレイアウト、色、フォント、効果を変更して、目的の視覚スタイルを実現し、ワークシートを強化する方法を説明します。
-keywords: Aspose.Cells for .NET, charting, chart appearance, layouts, colors, fonts, effects, worksheets.
-linktitle: グラフの形式
+title: チャートの外観を設定する
+description: Aspose.Cells for .NETでチャートの外観を構成する方法を学ぶ。私たちのガイドでは、望むビジュアルスタイルを実現し、ワークシートを強化するためにチャートのレイアウト、色、フォント、効果を変更する方法を示します。
+keywords: Aspose.Cells for .NET, チャート作成, チャート外観, レイアウト, 色, フォント, 効果, ワークシート。
+linktitle: チャートの形式
 type: docs
 weight: 20
 url: /ja/net/setting-chart-appearance/
 ---
-##  **チャートの外観の設定**
-「チャートの作成方法」では、Aspose.Cells が提供するチャートとチャート オブジェクトの種類を簡単に紹介し、その作成方法について説明しました。この記事では、プロパティを設定してグラフの外観をカスタマイズする方法について説明します。
+
+## **グラフの外観設定**
+チャートの作成方法では、Aspose.Cellsが提供するチャートの種類やオブジェクトについて簡単に紹介し、それらの作成方法について説明しました。この記事では、プロパティを設定してチャートの外観をカスタマイズする方法について説明します。
 
 - チャートエリアの設定。
-- チャートの線を設定します。
+- チャートラインの設定。
 - テーマの適用。
-- グラフと軸にタイトルを設定します。
+- チャートと軸のタイトルの設定。
 - グリッド線の操作。
-###  **チャートエリアの設定**
-グラフにはさまざまな種類の領域があり、Aspose.Cells を使用すると、各領域の外観を柔軟に変更できます。開発者は、前景色、背景色、塗りつぶし形式などを変更することで、領域にさまざまな書式設定を適用できます。
+### **チャートエリアの設定**
+チャートには異なる種類のエリアがあり、Aspose.Cellsは各エリアの外観を変更する柔軟性を提供します。開発者は、前景色、背景色、塗りつぶし形式などの異なる書式設定をエリアに適用して、その外観を変更できます。
 
-以下の例では、グラフのさまざまな種類の領域にさまざまな書式設定を適用しています。これらの領域には次のものが含まれます。
+以下の例では、チャートの異なる種類のエリアに異なる書式設定を適用しました。
 
 - プロットエリア
 - チャートエリア
-- シリーズコレクションエリア
-- SeriesCollection 内の単一点の面積
+- SeriesCollectionエリア
+- SeriesCollection内の単一のポイントのエリア
 
-次のコード スニペットは、グラフ領域を設定する方法を示しています。
+以下のコードスニペットは、チャートエリアを設定する方法を示しています。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingChartArea-1.cs" >}}
-###  **チャートの線の設定**
-開発者は、ラインやデータ マーカーにさまざまな種類のスタイルを適用することもできます。[シリーズコレクション](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)。次のコード スニペットは、Aspose.Cells API を使用してグラフの線を設定する方法を示しています。
+### **チャートラインの設定**
+開発者は、Aspose.Cells APIを使用して、[SeriesCollection](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)のラインやデータマーカーに異なるスタイルを適用することもできます。以下のコードスニペットは、Aspose.Cells APIを使用してチャートラインを設定する方法を示しています。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingChartLines-1.cs" >}}
-###  **Microsoft Excel 2007/2010 テーマをグラフに適用する**
-開発者は、さまざまな Microsoft Excel テーマ/色を適用できます。[シリーズコレクション](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)または、以下の例に示すような他のチャート オブジェクト。
+### **Microsoft Excel 2007/2010のテーマをチャートに適用**
+開発者は、[SeriesCollection](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) やその他のチャートオブジェクトに異なるMicrosoft Excelのテーマ/色を適用できます。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-ApplyingThemes-1.cs" >}}
-###  **グラフまたは軸のタイトルの設定**
-Microsoft Excel を使用して、WYSIWYG 環境でグラフのタイトルとその軸を設定できます。 Aspose.Cells を使用すると、開発者は実行時にグラフのタイトルとその軸を設定できます。すべてのグラフとその軸には、[タイトル](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title)以下の例に示すように、タイトルを設定するために使用できるプロパティ。
+### **チャートや軸のタイトルの設定**
+Microsoft Excelを使用してチャートおよびその軸のタイトルをWYSIWYG環境で設定することができます。Aspose.Cellsでは、開発者がランタイムでチャートおよびその軸のタイトルを設定することも可能です。すべてのチャートおよびその軸には、タイトルを設定するために使用できる[Title](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title)プロパティが含まれています。以下に示すように、以下はそれを示す一例です。
 
-次のコード スニペットは、グラフと軸にタイトルを設定する方法を示しています。
+次のコードスニペットは、チャートや軸にタイトルを設定する方法を示しています。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingTitlesAxes-1.cs" >}}
-###  **主なグリッド線の操作**
-主要なグリッド線の外観をカスタマイズすることができます。グリッド線を表示または非表示にしたり、その色やその他の設定を定義したりできます。以下に、グリッド線を非表示にする方法とその色を変更する方法を示します。
-####  **主なグリッド線を非表示にする**
-開発者は、主要なグリッド線の表示を制御できます。[見える](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible)の財産[ライン](https://reference.aspose.com/cells/net/aspose.cells.drawing/line)に反対する**真実**または *偽**。
+### **主な目盛りの操作**
+主な目盛りの外観をカスタマイズできます。目盛りを非表示にしたり表示したり、その色やその他の設定を定義できます。以下では、目盛りを非表示にする方法と色を変更する方法を説明します。
+#### **メジャーグリッドラインの非表示**
+開発者は、[Line](https://reference.aspose.com/cells/net/aspose.cells.drawing/line) オブジェクトの[IsVisible](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible) プロパティを**true**または**false**に設定することで、主な目盛りの表示/非表示を制御できます。
 
-次のコード スニペットは、主グリッド線を非表示にする方法を示しています。主グリッド線を非表示にすると、グリッド線のない縦棒グラフがワークシートに追加されます。
+次のコードスニペットは、メジャーグリッド線を非表示にする方法を示しています。メジャーグリッド線を非表示にした後、ワークシートに列のチャートが追加され、グリッド線がありません。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-MajorGridlines-1.cs" >}}
-####  **大グリッド線の設定を変更する**
-開発者は、主要グリッド線の表示設定だけでなく、その色などの他のプロパティも制御できます。
+#### **メジャーグリッドラインの設定変更**
+開発者は、メジャーグリッド線の可視性だけでなく、色などの他のプロパティも制御できます。
 
-次のコード スニペットは、主グリッド線の色を変更する方法を示しています。主グリッド線の色を設定すると、グリッド線が変更された縦棒グラフがワークシートに追加されます。
+次のコードスニペットは、メジャーグリッド線の色を変更する方法を示しています。メジャーグリッド線の色を設定した後、ワークシートに変更されたグリッド線を持つ列チャートが追加されます。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-ChangingMajorGridlines-1.cs" >}}
 
-##  **アドバンストトピック**
-- [グラフシリーズの値フォーマットコードを設定する](/cells/ja/net/set-the-values-format-code-of-chart-series/)
-- [画像を背景として設定する グラフに記入する](/cells/ja/net/set-picture-as-background-fill-in-the-chart/)
+## **高度なトピック**
+- [チャートシリーズの値の形式コードを設定する](/cells/ja/net/set-the-values-format-code-of-chart-series/)
+- [グラフの背景に画像を設定する](/cells/ja/net/set-picture-as-background-fill-in-the-chart/)

@@ -1,64 +1,65 @@
-﻿---
-title: Formatera pivottabell
+---
+title: Formatera Pivot tabell
 type: docs
 weight: 10
 url: /sv/net/formatting-pivot-table/
 ---
+
 ## **Pivottabellens utseende**
 
-Hur man skapar en pivottabell förklarar hur man skapar en enkel pivottabell. Den här artikeln beskriver hur du anpassar en pivottabells utseende genom att ställa in olika egenskaper:
+Hur man skapar en pivottabell förklarar hur man skapar en enkel pivottabell. Den här artikeln beskriver hur man anpassar en pivottabells utseende genom att ställa in olika egenskaper:
 
-- Alternativ för pivottabellformat
-- Formatalternativ för pivotfält
-- Formatalternativ för datafält
+- Pivottabellformatalternativ
+- Alternativ för pivottabellfältformat
+- Alternativ för datafältformat
 
-### **Ställa in alternativ för pivottabellformat**
+### **Inställning av pivottabellformatalternativ**
 
- De[**Pivottabell**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)klass styr den övergripande pivottabellen och kan formateras på ett antal sätt.
+Klassen [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) kontrollerar den övergripande pivottabellen och kan formateras på olika sätt.
 
-#### **Ställa in AutoFormat Type**
+#### **Inställning av autoformat typ**
 
-Microsoft Excel erbjuder ett antal olika förinställda rapportformat. Aspose.Cells stöder även dessa formateringsalternativ. Så här kommer du åt dem:
+Microsoft Excel erbjuder ett antal olika förinställda rapportformat. Aspose.Cells stöder också dessa formateringsalternativ. För att komma åt dem:
 
-1.  Uppsättning[**Pivottabell.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat) till**Sann**.
-1.  Tilldela ett formateringsalternativ från[**PivotTableAutoFormatType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottableautoformattype)uppräkning.
+1. Ställ in [**PivotTable.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat) till **true**.
+1. Tilldela ett formateringsalternativ från uppräkningen [**PivotTableAutoFormatType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottableautoformattype).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingAutoFormat-1.cs" >}}
 
-#### **Ställa in formatalternativ**
+#### **Inställning av formatalternativ**
 
-Kodexemplet nedan visar hur man formaterar pivottabellen för att visa totalsummor för rader och kolumner, och hur man ställer in rapportens fältordning. Den visar också hur man ställer in en kundsträng för nollvärden.
+Kodprovet nedan visar hur man formaterar pivottabellen för att visa totaler för rader och kolumner, och hur man ställer in rapportens fältsortering. Det visar också hur man ställer in en anpassad sträng för nollvärden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingFormatOptions-1.cs" >}}
 
-#### **Formatera utseende och känsla manuellt**
+#### **Manuell formatering av utseende**
 
- För att formatera hur pivottabellsrapporten ser ut manuellt, istället för att använda förinställda rapportformat, använd[**PivotTable.Format()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format) och[**PivotTable.FormatAll()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall)metoder. Skapa ett stilobjekt för önskad formatering, till exempel:
+För att formatera hur pivottabellsrapporten ser ut manuellt, istället för att använda förinställda rapportformat, använd [**PivotTable.Format()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format)- och [**PivotTable.FormatAll()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall)-metoderna. Skapa en stilobjekt för den önskade formateringen, till exempel:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-FormattingLook-1.cs" >}}
 
-### **Ställa in alternativ för pivotfältsformat**
+### **Inställning av pivottabellfältformatalternativ**
 
- De[**Pivotfält**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)klass representerar ett fält i en pivottabell och kan formateras på ett antal sätt. Kodexemplet nedan visar hur du:
+Klassen [**PivotField**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield) representerar ett fält i en pivottabell och kan formateras på olika sätt. Kodprovet nedan visar hur man:
 
-- Få tillgång till radfält.
-- Ställa in delsummor.
-- Ställa in autosort.
-- Ställa in autoshow.
+- Tillgång till radfält.
+- Inställning av delsummer.
+- Inställning av autosortering.
+- Inställning av autoshow.
 
-#### **Ställa in format för rad/kolumn/sidfält**
+#### **Inställning av format för rad/kolumn/sidofältsformat**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingPageFieldFormat-1.cs" >}}
 
-### **Ställa in format för datafält**
+### **Inställning av format för datafält**
 
-Kodexemplet nedan visar hur man ställer in visningsformat och talformat för datafält.
+Kodprovet nedan visar hur man ställer in visningsformat och nummerformat för datafält.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingDataFieldFormat-1.cs" >}}
 
-### **Rensa pivotfält**
+### **Rensa pivottabellsfält**
 
- De[**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) har en metod som heter[**Klar()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection/methods/clear)som låter dig rensa pivotfält. Använd den när du vill rensa alla pivotfält i områdena, till exempel sida, kolumn, rad eller data.
-Kodexemplet nedan visar hur man rensar alla pivotfält i ett dataområde.
+Klassen [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) har en metod som heter [**Clear()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection/methods/clear) som låter dig rensa pivottabellsfält. Använd den när du vill rensa alla pivottabellfält i områdena, till exempel sida, kolumn, rad eller data.
+Kodprovet nedan visar hur man rensar alla pivottabellfält i ett dataområde.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ClearPivotFields-1.cs" >}}

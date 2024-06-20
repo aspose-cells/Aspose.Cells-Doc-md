@@ -1,25 +1,26 @@
-﻿---
-title: لا يوجد حمل زائد لأسلوب الحفظ يأخذ 4 وسيطات
+---
+title: لا يوجد تحميل زائد لطريقة حفظ تأخذ 4 وسائط
 type: docs
 weight: 70
 url: /ar/net/no-overload-for-method-save-takes-4-arguments/
 ---
-## **علامة مرض**
 
-"باستخدام إصدار Aspose.Cells ، أتلقى هذا الخطأ عندما أستخدم طريقة الحفظ عند محاولة حفظ المصنف في كائن الاستجابة. أجد مقتطف الرمز هذا موثقًا في الوثائق عبر الإنترنت."
+## **الأعراض**
+
+"عند استخدام إصدار Aspose.Cells، أحصل على هذا الخطأ عند استخدام طريقة الحفظ عند محاولة حفظ دفتر العمل إلى كائن الاستجابة. أجد مقطع الكود هذا موثقًا في الوثائق عبر الإنترنت.
 
 ### **لقطة شاشة للخطأ**
 
-![ما يجب القيام به: image_بديل_نص](no-overload-for-method-save-takes-4-arguments_1.png)
+![todo:image_alt_text](no-overload-for-method-save-takes-4-arguments_1.png)
 
-### **المحلول**
+### **الحل**
 
- الرجاء استخدام**.NET 2.0** نسخة مجمعة من المنتج حيث تعمل بشكل جيد على VS.NET 2008/2010. في الواقع ، نحن نقدم ملفات dll منفصلة للبيئات وأنواع وأنظمة المشاريع المختلفة وما إلى ذلك. للإشارة ، يرجى التحقق من:<https://docs.aspose.com/cells/net/using-aspose-cells-on-32-bit-and-64-bit-platforms/>
+Please use **.NET 2.0** compiled version of the product as it works fine on VS.NET 2008/2010. Actually we provide separate dll's for different environments, project types and systems etc. For reference, please check:<https://docs.aspose.com/cells/net/using-aspose-cells-on-32-bit-and-64-bit-platforms/>
 
- Aspose.Cells for .NET متوافق ويعمل بشكل جيد مع جميع إصدارات إطار العمل .NET مثل 2.x و 3.x و 4.x وما إلى ذلك لأي نوع من المشاريع مثل Asp.NET / Winforms أو مشروع الويب أو Windows / Web Service أو تطبيق وحدة التحكم أو مشاريع أخرى إلخ. نحن نقدم دلل مختلفة لإصدارات إطار عمل .NET المختلفة. لمزيد من المعلومات ، اقرأ**readme.txt** ملف في المجلد "\ Bin" في دليل التثبيت الخاص بك. لكن هذا**readme.txt** الملف موجود.
+Aspose.Cells for .NET متوافق ويعمل بشكل جيد مع جميع إصدارات .NET framework مثل 2.x, 3.x, 4.x إلخ. لأي نوع من المشاريع مثل Asp.NET/Winforms، مشروع الويب، تطبيق النافذة/الويب، تطبيق ويندوز/ويب بخدمة، تطبيق سطر الأوامر أو غيرها. نحن نقدم مكتبات dll مختلفة لإصدارات .NET framework مختلفة. لمزيد من المعلومات، اقرأ ملف **readme.txt** في مجلد "\Bin" في دليل التثبيت الخاص بك. ولكن، هذا الملف **readme.txt** موجود.
 
- عند استخدام منتجنا في تطبيق ويب aa ، يرجى استخدام Aspose.Cells.dll من ملف**NET 2.0**المجلد في الدليل "/ bin". لمعلوماتك ، فإن ملف dll**.NET 3.5 ملف العميل** يتم استخدام الدليل فقط لتطبيق وحدة التحكم مع ملف تعريف عميل إطار Net كإطار عمل هدف VS.NET. يرجى التحقق من مشروعك ، فمن الممكن أن يشير مشروعك إلى هذا dll.
+عند استخدام منتجنا في تطبيق الويب، يرجى استخدام Aspose.Cells.dll من مجلد **NET 2.0** في الدليل "/bin". لمعلوماتك، يتم استخدام ملف dll في مجلد **.NET 3.5 Client Profile** فقط لتطبيق سطر الأوامر مع ملف إطار العميل نظرًا للإطار المستهدف لـ VS.NET. يرجى التحقق من مشروعك، من الممكن أن مشروعك يشير إلى هذا الملف.
 
-### **مراجع**
+### **المراجع**
 
 <https://forum.aspose.com/t/overload-for-method-save-of-workbook-takes-4-arguments-involving-response-object/121465/1>

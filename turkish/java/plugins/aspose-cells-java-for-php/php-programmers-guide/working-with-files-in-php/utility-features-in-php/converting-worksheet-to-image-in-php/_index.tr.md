@@ -1,15 +1,16 @@
-﻿---
-title: Çalışma Sayfasını PHP'de Görüntüye Dönüştürme
+---
+title: PHP de Çalışma Sayfasını Görüntüye Dönüştürme
 type: docs
 weight: 50
 url: /tr/java/converting-worksheet-to-image-in-php/
 ---
-## **Aspose.Cells - Çalışma Sayfasını Resme Dönüştürme**
-PHP'de Aspose.Cells for Java kullanarak Çalışma Sayfasını Görüntüye dönüştürmek için Dönüştürücü modülünü çağırmanız yeterlidir.
 
-**PHP Kodu**
+## **Aspose.Cells - Çalışma Sayfasını Görüntüye Dönüştürme**
+Aspose.Cells for Java kullanarak PHP'de Çalışma Sayfasını Görüntüye dönüştürmek için, sadece Converter modülünü çağırın.
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
  $imageFormat = new ImageFormat();
 
@@ -45,6 +46,6 @@ for ($j = 0; $j < $sr->getPageCount(); $j++)
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Çalışma Sayfasını Resme Dönüştürme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Çalışma Sayfasını Görüntüye Dönüştürme (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

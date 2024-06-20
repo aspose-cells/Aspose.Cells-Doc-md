@@ -1,29 +1,31 @@
 ---
-title: أضف البيانات في Cells
+title: إضافة بيانات في الخلايا
 type: docs
 weight: 10
 url: /ar/net/add-data-in-cells/
-description: تشرح هذه المقالة كيفية إضافة البيانات في Cells باستخدام Aspose.Cells for .NET APIs.
-keywords: C# Add Data in Cells, C# Insert Data to Worksheet, C# Set Data of Cell.
+description: يشرح هذا المقال كيفية إضافة البيانات في الخلايا باستخدام واجهات برمجة التطبيقات Aspose.Cells for .NET.
+keywords: إضافة بيانات في الخلايا بلغة C#، إدراج البيانات في ورقة العمل بلغة C#، تعيين بيانات الخلية بلغة C#.
 ---
-##  **كيفية إضافة البيانات في Cells باستخدام Aspose.Cells for .NET**
-يوفر Aspose.Cells فئة، Workbook، التي تمثل ملف Excel Microsoft. تحتوي فئة المصنف على WorksheetCollection الذي يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة ورقة العمل. توفر فئة ورقة العمل مجموعة خلايا. يمثل كل عنصر في مجموعة Cells كائنًا من فئة Cell.
+
+
+## **كيفية إضافة البيانات في الخلايا باستخدام Aspose.Cells for .NET**
+يوفر Aspose.Cells فئةً تسمى الكتاب، تمثل ملف Microsoft Excel. تحتوي الفئة Workbook على مجموعة ورق العمل تتيح الوصول إلى كل ورق العمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة Worksheet. توفر فئة Worksheet مجموعة من الخلايا. يُمثل كل عنصر في مجموعة الخلايا كائنًا من فئة الخلية.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- // إنشاء كائن مصنف
+ //Instantiating a Workbook object
 
-مصنف المصنف = مصنف جديد ()؛
+Workbook workbook = new Workbook();
 
-// الوصول إلى ورقة العمل المضافة في ملف Excel
+//Accessing the added worksheet in the Excel file
 
-ورقة عمل ورقة العمل = Workbook.Worksheets[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-كثافة العمليات س = 1؛
+int x = 1;
 
-من أجل (int i = 1؛ i<= 15; i++)
+for (int i = 1; i <= 15; i++)
 
 {
 
@@ -41,22 +43,22 @@ workbook.Save("test.xlsx");
 
 
 {{< /highlight >}}
-##  **NPOI HSSF XSSF - أضف البيانات في Cells**
-في NPOI، يمكن استخدام Row.createCell(1).setCellValue لإضافة البيانات في الخلايا.
+## **NPOI HSSF XSSF - إضافة بيانات في الخلايا**
+يمكن استخدام row.createCell(1).setCellValue في NPOI لإضافة البيانات في الخلايا.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- IWorkbook Workbook = new XSSFWorkbook();
+ IWorkbook workbook = new XSSFWorkbook();
 
-ISheet Sheet1 = Workbook.CreateSheet("Sheet1");
+ISheet sheet1 = workbook.CreateSheet("Sheet1");
 
-Sheet1.CreateRow(0).CreateCell(0).SetCellValue("هذه عينة");
+sheet1.CreateRow(0).CreateCell(0).SetCellValue("This is a Sample");
 
-كثافة العمليات س = 1؛
+int x = 1;
 
-من أجل (int i = 1؛ i<= 15; i++)
+for (int i = 1; i <= 15; i++)
 
 {
 
@@ -79,13 +81,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-##  **تحميل كود التشغيل**
- تحميل**أضف البيانات في Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **إضافة بيانات في الخلايا** من أي من المواقع الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Add.Data.In.Cells.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Add.Data.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل، قم بزيارة[إضافة البيانات إلى Cells](/cells/ar/net/add-data-in-cells/).
+لمزيد من التفاصيل، قم بزيارة [إضافة البيانات إلى الخلايا](/cells/ar/net/add-data-in-cells/)
 
 {{% /alert %}}

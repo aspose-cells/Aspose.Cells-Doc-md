@@ -1,12 +1,13 @@
-﻿---
+---
 title: Güvenlik İstisnası Sorunu
 type: docs
 weight: 30
 url: /tr/net/security-exception-issue/
 ---
+
 ## **Güvenlik İstisnası Sorunu**
-Bazı kullanıcılar Aspose.Cells'i kullanmaya çalışırken "Güvenlik İstisnası" hatası alabilirler. Bu sorun genellikle bir web uygulamasında meydana gelir.
+Bazı kullanıcılar Aspose.Cells'ı kullanmaya çalışırken "Güvenlik İstisnası" hatası alabilir. Bu sorun genellikle bir web uygulamasında meydana gelir.
 ### **Açıklama**
- Aspose.Cells biraz aramak zorunda**Win32 GDI API'leri** bazı önemli özellikler sağlamak için. Web sunucusunun katı bir güven düzeyi varsa, bu güvenlik istisnası atılabilir.
+Aspose.Cells'in bazı önemli özellikleri sağlamak için **Win32 GDI API'lerini** çağırması gerekebilir. Web sunucusunun katı bir güven seviyesine sahip olması durumunda bu güvenlik istisnası fırlatılabilir.
 ### **Çözüm**
-Lütfen "Yönetilmeyen derlemelere yapılan çağrılara izin ver" etkinken Aspose.Cells.dll güvenlik izni vermek için yeni bir izin seti oluşturmaya çalışın.
+Lütfen Aspose.Cells.dll'e "Yönetilmeyen derlemelere çağrılara izin ver" seçeneği etkinleştirilmiş bir yeni izin kümesi oluşturmayı deneyin.

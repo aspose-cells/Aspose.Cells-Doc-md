@@ -1,18 +1,19 @@
-﻿---
-title: Finden der absoluten Position der Form innerhalb des Arbeitsblatts
+---
+title: Ermittlung der absoluten Position einer Form innerhalb des Arbeitsblatts
 type: docs
 weight: 8000
 url: /de/net/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
- Manchmal müssen Sie die absolute Position einer Form in einem Arbeitsblatt kennen. Aspose.Cells bietet die[**Shape.LeftToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) und[**Shape.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner) Eigenschaften für diesen Zweck. Diese Eigenschaften geben die absolute Position der Form innerhalb des Arbeitsblatts in Pixel zurück.
+Manchmal müssen Sie die absolute Position einer Form in einem Arbeitsblatt kennen. Aspose.Cells bietet hierfür die Eigenschaften [**Shape.LeftToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) und [**Shape.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner). Diese Eigenschaften geben die absolute Position der Form im Arbeitsblatt in Pixel zurück.
 
 {{% /alert %}}
 
-Der folgende Beispielcode zeigt die absolute Position der ersten Form im Arbeitsblatt in Pixel an. Der Beispielcode zeigt die folgende Konsolenausgabe an:
+Der folgende Beispielcode zeigt die absolute Position der ersten Form im Arbeitsblatt in Pixeln an. Der Beispielcode zeigt die folgende Konsolenausgabe:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Absolute Position of this Shape is (320 , 183)
 

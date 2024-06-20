@@ -1,54 +1,55 @@
-﻿---
-title: إضافة أوراق عمل جديدة إلى المصنف وتفعيل ورقة في VSTO و Aspose.Cells
+---
+title: إضافة صفحات عمل جديدة إلى دفتر العمل وتنشيط ورقة في VSTO و Aspose.Cells
 type: docs
 weight: 30
 url: /ar/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-in-vsto-and-aspose-cells/
 ---
-## **نصيحة حول الهجرة:**
-1. قم بإضافة أوراق عمل جديدة إلى ملف Excel Microsoft موجود.
-1. املأ البيانات في خلايا كل ورقة عمل جديدة.
-1. تنشيط ورقة في المصنف.
-1. حفظ كملف Microsoft Excel.
 
-فيما يلي مقتطفات التعليمات البرمجية المتوازية لـ VSTO (C#) و Aspose.Cells for .NET (C#) ، والتي توضح كيفية تحقيق هذه المهام.
+## **نصيحة للترحيل:**
+1. إضافة صفحات عمل جديدة إلى ملف Microsoft Excel الحالي.
+2. ملء البيانات في خلايا كل صفحة عمل جديدة.
+3. تنشيط ورقة في دفتر العمل.
+4. حفظ كملف Microsoft Excel.
+
+أدناه، توجد مقاطع رمز متوازية لـ VSTO (C#) و Aspose.Cells for .NET (C#) تظهر كيفية تنفيذ هذه المهام.
 
 **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-// كائن التطبيق intiate
+ //intiate application object
 
-Excel.Application excelApp = التطبيق ؛
+Excel.Application excelApp = Application;
 
-// حدد مسار ملف Excel للقالب.
+//Specify the template excel file path.
 
-سلسلة myPath = "Book1.xls" ؛
+string myPath = "Book1.xls";
 
-// افتح ملف Excel.
+//Open the excel file.
 
-excelApp.Workbooks.Open (myPath، Missing.Value، Missing.Value،
+excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-مفقودة ، قيمة ، مفقودة ، قيمة ،
+Missing.Value, Missing.Value,
 
-مفقودة ، قيمة ، مفقودة ، قيمة ،
+Missing.Value, Missing.Value,
 
-مفقودة ، قيمة ، مفقودة ، قيمة ،
+Missing.Value, Missing.Value,
 
-مفقودة ، قيمة ، مفقودة ، قيمة ،
+Missing.Value, Missing.Value,
 
-مفقودة ، قيمة ، مفقودة ، قيمة ،
+Missing.Value, Missing.Value,
 
-مفقودة .Value، Missing.Value) ؛
+Missing.Value, Missing.Value);
 
-// قم بتعريف كائن ورقة عمل.
+//Declare a Worksheet object.
 
-Excel.Worksheet newWorksheet ؛
+Excel.Worksheet newWorksheet;
 
-// أضف 5 أوراق عمل جديدة إلى المصنف واملأ بعض البيانات
+//Add 5 new worksheets to the workbook and fill some data
 
-// في الخلايا.
+//into the cells.
 
- لـ (int i = 1 ؛ i< 6; i++){
+for (int i = 1; i < 6; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -88,35 +89,35 @@ excelApp.Quit();
 
 **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- // إنشاء مثيل ترخيص وتعيين ملف الترخيص
+ //Instantiate an instance of license and set the license file
 
-// من خلال طريقها
+//through its path
 
-Aspose.Cells. رخصة الترخيص = Aspose.Cells.License جديد () ؛
+Aspose.Cells.License license = new Aspose.Cells.License();
 
-License.SetLicense ("Aspose.Total.lic") ؛
+license.SetLicense("Aspose.Total.lic");
 
-// حدد مسار ملف Excel للقالب.
+//Specify the template excel file path.
 
-سلسلة myPath = "Book1.xls" ؛
+string myPath = "Book1.xls";
 
-// إنشاء مصنف جديد.
+//Instantiate a new Workbook.
 
-// افتح ملف Excel.
+//Open the excel file.
 
-مصنف المصنف = مصنف جديد (myPath) ؛
+Workbook workbook = new Workbook(myPath);
 
-// قم بتعريف كائن ورقة عمل.
+//Declare a Worksheet object.
 
-ورقة عمل جديدة
+Worksheet newWorksheet;
 
-// أضف 5 أوراق عمل جديدة إلى المصنف واملأ بعض البيانات
+//Add 5 new worksheets to the workbook and fill some data
 
-// في الخلايا.
+//into the cells.
 
- لـ (int i = 0 ؛ i< 5; i++){
+for (int i = 0; i < 5; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -145,7 +146,7 @@ workbook.Worksheets.ActiveSheetIndex = 0;
 workbook.Save("out_My_Book1.xls");
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
-- [سورس فورج](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip / تنزيل)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).أَزِيز)
+## **تحميل رمز عينة**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip)

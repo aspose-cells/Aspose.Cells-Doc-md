@@ -3,34 +3,35 @@ title: HTMLをPDFに変換する方法
 type: docs
 weight: 80
 url: /ja/net/convert-html-to-pdf/
-description: このトピックでは、Aspose.Cells for .NET を使用して、HTML から PDF 保存形式、および MHTML から PDF 保存形式に変換する方法を示します。
-keywords: C# convert HTML to PDF saveformat and MHTML to PDF saveformat.
+description: このトピックでは、Aspose.Cells for .NETを使用して、HTMLをPDFの保存形式またはMHTMLをPDFの保存形式に変換する方法を示します。
+keywords: C#でHTMLをPDFの保存形式やMHTMLをPDFの保存形式に変換します。
 ---
-##  **概要**
-<b>Aspose.Cells</b>は、Web ページから PDF ファイルを生成したり、アプリケーションで生の HTML コードを生成したりできるプロフェッショナルなソリューションです。
 
-この記事ではその方法について説明します<b>HTML を PDF に変換します</b>。以下のトピックについて説明します。
+## **概要**
+<b>Aspose.Cells</b> is a professional solution that allows you to generate PDF files from web pages and raw HTML code in your applications. 
+
+This article explains how to <b>HTMLをPDFに変換する</b>. It covers the following topics.
 
 <ul>
-<li><a href="#c-convert-html-to-pdf">C# HTML ～ PDF</a></li>
-<li><a href="#c-convert-html-to-pdf">C# HTML を PDF に変換</a></li>
-<li><a href="#c-convert-html-to-pdf">C# HTML を PDF に変換する方法</a></li>
+<li><a href="#c-convert-html-to-pdf">C# HTMLをPDFに変換</a></li>
+<li><a href="#c-convert-html-to-pdf">C#でHTMLをPDFに変換</a></li>
+<li><a href="#c-convert-html-to-pdf">C# HTMLをPDFに変換する方法</a></li>
 </ul>
 
-##  **HTML から PDF .NET での変換**
-HTMLをPDFに変換するにはどうすればよいですか?と[Aspose.Cells for .NET](https://releases.aspose.com/cells/net/)ライブラリを使用すると、数行のコードでプログラム的に HTML を PDF に簡単に変換できます。 Aspose.Cells for .NET は、すべての Excel ファイルを生成、変更、変換、レンダリング、印刷できるクロスプラットフォーム アプリケーションを構築できます。
+## **.NETでのHTMLからPDFへの変換**
+HTMLをPDFに変換する方法は？[Aspose.Cells for .NET](https://releases.aspose.com/cells/net/)ライブラリを使用すると、わずか数行のコードでHTMLをPDFに簡単に変換できます。Aspose.Cells for .NETはクロスプラットフォームアプリケーションを構築し、すべてのExcelファイルを生成、変換、レンダリング、印刷する能力を持っています。
 
-##  **C# HTML を PDF に変換**
-次の C# コード サンプルは、次のメソッドを使用して HTML ドキュメントを PDF に変換する方法を示しています。[Aspose.Cells for .NET](https://releases.aspose.com/cells/net/).
+## **C#でHTMLをPDFに変換**
+次のC#コードサンプルは、[Aspose.Cells for .NET](https://releases.aspose.com/cells/net/)を使用してHTMLドキュメントをPDFに変換する方法を示しています。
 
-1. のインスタンスを作成します。[HTMLLoadオプション](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/)クラス。
-1. 初期化する[ワークブック](https://reference.aspose.com/cells/net/aspose.cells/workbook/)物体。
-1. Workbook.Save() メソッドを呼び出して、出力 PDF ドキュメントを保存します。
+1. [HtmlLoadOptions](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/)クラスのインスタンスを作成します。
+1. [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook/)オブジェクトを初期化します。
+1. Workbook.Save() メソッドを呼び出して出力PDFドキュメントを保存します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-save-to-pdf.cs" >}}
 
-##  **オンラインで HTML を PDF に変換してみてください**
+## **オンラインでHTMLをPDFに変換してみてください**
 
-[Aspose.Cells for .NET](https://releases.aspose.com/cells/net/)オンライン無料アプリケーションをプレゼントします<a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">「HTML ～ PDF」</a>ここで、動作する機能と品質を調査してみるとよいでしょう。
+[Aspose.Cells for .NET](https://releases.aspose.com/cells/net/) presents you online free application <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">「HTMLをPDFに」</a>, where you may try to investigate the functionality and quality it works.
 <br>
 <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf"><img src="htmltopdf.png" width=80%></a>

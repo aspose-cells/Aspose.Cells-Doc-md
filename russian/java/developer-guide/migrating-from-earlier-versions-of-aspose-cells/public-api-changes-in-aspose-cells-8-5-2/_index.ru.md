@@ -1,25 +1,26 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.5.2
+---
+title: Изменения в публичном API в Aspose.Cells 8.5.2
 type: docs
 weight: 190
 url: /ru/java/public-api-changes-in-aspose-cells-8-5-2/
 ---
+
 {{% alert color="primary" %}} 
 
- В этом документе описаны изменения в Aspose.Cells API с версии 8.5.1 до 8.5.2, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы,[добавлены классы и т.д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-5-2/), но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+В данном документе описаны изменения в API Aspose.Cells с версии 8.5.1 по 8.5.2, которые могут быть интересны для разработчиков модулей/приложений. Здесь не только описаны новые и обновленные открытые методы, [добавленные классы и т. д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-5-2/), но также описываются любые изменения в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Рендеринг рабочего листа в графическом контексте**
-В этом выпуске Aspose.Cells for Java API представлена другая перегрузка метода SheetRender.toImage, которая теперь позволяет принимать экземпляр класса Graphics2D для[визуализировать рабочий лист в графическом контексте](/cells/ru/java/render-worksheet-to-graphic-context/). Сигнатуры вновь добавленного метода следующие.
+## **Добавленные API**
+### **Отобразить Рабочий лист на графический контекст**
+В этом выпуске API Aspose.Cells for Java появилась еще одна перегрузка метода SheetRender.toImage, которая теперь позволяет принимать экземпляр класса Graphics2D для [визуализации листа в графическом контексте](/cells/ru/java/render-worksheet-to-graphic-context/). Сигнатура нового метода выглядит следующим образом.
 
-- SheetRender.toImage(int pageIndex, графика Graphics2D)
+- SheetRender.toImage(int pageIndex, Graphics2D graphic)
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -63,13 +64,13 @@ ImageIO.write(image, "png", outputfile);
 
 {{< /highlight >}}
 ### **Добавлен метод PivotTable.getCellByDisplayName**
- Aspose.Cells for Java 8.5.2 предоставил метод PivotTable.getCellByDisplayName, который можно использовать для[получить объект Cell по имени PivotField](/cells/ru/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Этот метод может быть полезен в сценариях, когда вы хотите выделить или отформатировать заголовок PivotField.
+Aspose.Cells for Java 8.5.2 добавлен метод PivotTable.getCellByDisplayName, который можно использовать для [получения объекта ячейки по имени поля сводной таблицы](/cells/ru/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Этот метод может быть полезен, если требуется выделить или форматировать заголовок поля сводной таблицы.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -106,35 +107,35 @@ pivotTable.format(cell.getRow(), cell.getColumn(), style);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Свойство SaveOptions.MergeAreas добавлено**
-Aspose.Cells for Java 8.5.2 предоставил свойство SaveOptions.MergeAreas, которое может принимать значение логического типа. Значение по умолчанию — false, однако, если установлено значение true, Aspose.Cells for Java API пытается объединить отдельные CellArea перед сохранением файла.
+### **Добавлено свойство SaveOptions.MergeAreas**
+Aspose.Cells for Java 8.5.2 добавлено свойство SaveOptions.MergeAreas, которое может принимать значение типа Boolean. Значение по умолчанию — false; однако, если установить его в true, API Aspose.Cells for Java будет пытаться объединить индивидуальные CellArea перед сохранением файла.
 
 {{% alert color="primary" %}} 
 
-Если в электронной таблице слишком много отдельных ячеек с примененной проверкой, есть вероятность, что результирующая электронная таблица может быть повреждена. Одним из возможных решений является объединение ячеек с идентичными правилами проверки, или теперь вы можете использовать свойство SaveOptions.MergeAreas, чтобы указать API для автоматического объединения ячеек CellAreas перед операцией сохранения.
+Если электронная таблица содержит слишком много индивидуальных ячеек с примененной проверкой или может быть повреждена. Одно из возможных решений — объединить ячейки с идентичными условиями проверки или теперь можно использовать свойство SaveOptions.MergeAreas для указания API автоматически объединять CellArea перед операцией сохранения.
 
 {{% /alert %}} 
 ### **Добавлено свойство Geometry.ShapeAdjustValues**
- С выпуском v8.5.2 Aspose.Cells API предоставил метод Geometry.getShapeAdjustValues, который можно использовать для[доступ и внесение изменений в точки регулировки различных форм](/cells/ru/java/change-adjustment-values-of-the-shape/).
+С выпуском v8.5.2 API Aspose.Cells теперь содержит метод Geometry.getShapeAdjustValues, который можно использовать для [доступа и внесения изменений в точки коррекции различных форм](/cells/ru/java/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
-В интерфейсе Excel Microsoft точки регулировки отображаются в виде желтых ромбовидных узлов.
+В пользовательском интерфейсе Microsoft Excel точки коррекции отображаются в виде желтых алмазных узлов.
 
 {{% /alert %}} 
 
- Например,
+Например, 
 
-1. Прямоугольник со скругленными углами имеет настройку для изменения дуги.
-1. Треугольник имеет корректировку для изменения положения точки
-1. Трапеция имеет регулировку для изменения ширины верха.
-1. Стрелы имеют две регулировки для изменения формы головы и хвоста.
+1. У закругленного прямоугольника есть точка коррекции для изменения дуги
+1. У треугольника есть точка коррекции для изменения положения точки
+1. Трапеция имеет настройку для изменения ширины верхней части
+1. Стрелки имеют две настройки для изменения формы головы и хвоста
 
 Вот самый простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -165,11 +166,11 @@ shape3.getGeometry().getShapeAdjustValues().get(0).setValue(0.5d);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Добавлено поле перечисления ConsolidationFunction.DISTINCT_COUNT**
-Aspose.Cells for Java 8.5.2 предоставило поле ConsolidationFunction.DISTINCT_COUNT, которое можно использовать для применения консолидированной функции Distinct Count к DataField сводной таблицы.
+### **Добавлено перечисление Field ConsolidationFunction.DISTINCT_COUNT**
+Aspose.Cells for Java 8.5.2 выставил поле ConsolidationFunction.DISTINCT_COUNT, которое может использоваться для применения функции сведения уникальных значений к DataField PivotTable.
 
 {{% alert color="primary" %}} 
 
-Функция консолидации Distinct Count поддерживается только в версии Microsoft Excel 2013.
+Функция сведения уникальных значений поддерживается только в Microsoft Excel 2013.
 
 {{% /alert %}}

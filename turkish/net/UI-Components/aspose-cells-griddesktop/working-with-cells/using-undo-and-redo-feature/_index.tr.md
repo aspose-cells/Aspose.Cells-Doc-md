@@ -1,34 +1,37 @@
-﻿---
-title: Geri Al ve Yinele Özelliğini Kullanma
+---
+title: Geri Al ve Yeniden Yap Özelliğini Kullanma
 type: docs
 weight: 120
-url: /tr/net/using-undo-and-redo-feature/
+url: /tr/net/aspose-cells-griddesktop/use-undo-and-redo-feature/
+keywords: GridDesktop, geri al, yeniden yap
+description: Bu makale, GridDesktop ta geri alma ve yeniden yapma özelliğini tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-GridDesktop'ın Geri Al/Yinele özelliği çok kullanışlıdır. Ad, işlevselliğini kendisi açıklar, bir çalışma sayfasındaki son işlemleri geri almanıza/yeniden yapmanıza olanak tanır. Örneğin, bir formül yanlışlıkla silinirse veya bir hücrede aslında istemediğiniz bir veriyi düzenlerseniz, bu eylemler, kontrol tarafından sağlanan Geri Al ve Yinele işlemleri kullanılarak düzeltilebilir.
+GridDesktop'ın Geri Al/Yeniden Yap özelliği çok kullanışlıdır. Adı zaten işlevselliğini açıklıyor, çalışma sayfasında son yapılan işlem(ler)i geri alma/yeniden yapma olanağı sağlar. Örneğin, bir formül yanlışlıkla silinirse veya aslında istemediğiniz bir hücrede veri düzenlerseniz, kontrol tarafından sağlanan Geri Al ve Yeniden Yap işlemlerini kullanarak bu işlemleri düzeltebilirsiniz.
 
 {{% /alert %}} 
-## **Geri Alma ve Yineleme İşlemini Gerçekleştirme**
-Aşağıdaki API'ler görev için kullanılabilir. Açıklama her API ile verilmiştir, lütfen kontrol ediniz.
+## **Geri Alma ve Yeniden Yapma İşlemi Gerçekleştirme**
+Görev için aşağıdaki API'ler mevcuttur. Her API ile ilgili açıklama verilmiştir, lütfen bunları kontrol edin.
 
-- **GridDesktop.EnableUndo** - nitelik: Geri Al işlevinin etkin olup olmadığını gösterir, varsayılan değer "yanlış" tır.
-- **Yöneticiyi Geri Al** – class: Geri alma/yineleme işlemini yönetmek için kullanılır.
-- **GridDesktop.UndoManager** – öznitelik: örneğini alır**Yöneticiyi Geri Al** nesne.
-- **Geri AlManager.Geri Al** – method: Bir geri alma işlemi gerçekleştirir.
-- **UndoManager.Redo -** method: Redo işlemini gerçekleştirir.
-- **UndoManager.ClearStack** – method: Geri alma/yineleme yığınını temizler.
-- **UndoManager.UndoStepsCount** – öznitelik: Mevcut mevcut geri alma adımlarının sayısını alır.
-- **UndoManager.RedoStepsCount** – öznitelik: Mevcut mevcut yineleme adımlarının sayısını alır.
-- **UndoManager.UndoStackSize** – nitelik: Geri alma yığın boyutunu alır/ayarlar.
-### **Geri alma**
-Aşağıdaki örnek kod, GridDesktop API kullanılarak Geri Al işleminin nasıl uygulanacağını gösterir.
+- **GridDesktop.EnableUndo** - öznitelik: Geri alma işlevinin etkin olup olmadığını gösterir, varsayılan değer "false"dır.
+- **UndoManager** – sınıf: Geri alma/yeniden yapma işlemini yönetmek için kullanılır.
+- **GridDesktop.UndoManager** – öznitelik: **UndoManager** nesnesinin örneğini alır.
+- **UndoManager.Undo** – yöntem: Geri alma işlemi gerçekleştirir.
+- **UndoManager.Redo** – yöntem: Yeniden yapma işlemi gerçekleştirir.
+- **UndoManager.ClearStack** – yöntem: Geri alma/yeniden yapma yığınını temizler.
+- **UndoManager.UndoStepsCount** – öznitelik: Mevcut kullanılabilir geri alma adım sayısını alır.
+- **UndoManager.RedoStepsCount** – öznitelik: Mevcut kullanılabilir yeniden yapma adım sayısını alır.
+- **UndoManager.UndoStackSize** – öznitelik: Geri alma yığınını alır/ayarlar.
+### **Geri Alma**
+Aşağıdaki örnek kod, GridDesktop API'sını kullanarak Geri Alma işlemini nasıl uygulayacağınızı göstermektedir.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-UndoRedoFeature-Undo.cs" >}}
-### **Yeniden yap**
-Aşağıdaki örnek kod, GridDesktop API kullanılarak Redo işleminin nasıl uygulanacağını gösterir.
+### **Yeniden Yap**
+Aşağıdaki örnek kod, GridDesktop API'sını kullanarak Yeniden Yap işlemini nasıl uygulayacağınızı göstermektedir.
 
 
 
@@ -36,6 +39,6 @@ Aşağıdaki örnek kod, GridDesktop API kullanılarak Redo işleminin nasıl uy
 
 {{% alert color="primary" %}} 
 
-Şu anda, geri alma/yineleme işlemi, bir hücre değerindeki değişikliği ifade eder.
+Şu anda, geri alma/yeniden yapma işlemi bir hücre değerindeki değişikliği ifade etmektedir.
 
 {{% /alert %}}

@@ -1,18 +1,20 @@
-﻿---
-title: إعدادات GridJs
+---
+title: إعدادات لـ GridJs
 type: docs
 weight: 250
 url: /ar/net/aspose-cells-gridjs/settings/
-description: توضح هذه المقالة إعداد GridJs.
-keywords: settings
+description: يصف هذا المقال الإعداد لـ GridJs.
+keywords: GridJs، الإعدادات، GridWorkbookSettings
 ---
-هناك بعض الإعدادات التي يمكننا تحديدها من خلال ضبط GridWorkbookSettings:
-
- 
-- **[GridWorkbookSettings] (https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)**
 
 
-على سبيل المثال ، تقوم الشفرة التالية بتعيين ReCalculateOnOpen على false لإيقاف caculate عند فتح الملف:
+هناك بعض الإعدادات التي يمكننا تحديدها عن طريق تعيين GridWorkbookSettings:
+
+
+- [**GridWorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)
+
+
+على سبيل المثال، يقوم الكود التالي بتعيين ReCalculateOnOpen إلى القيمة false لإيقاف الحساب عند فتح الملف:
 ```C#
    GridJsWorkbook gw = new GridJsWorkbook();
    GridWorkbookSettings gws = new GridWorkbookSettings();
@@ -21,7 +23,7 @@ keywords: settings
     gw.Settings = gws;
     gw.ImportExcelFile(@"c:\test.xlsx");
 ```
- قام الكود التالي بتعيين كاتب الملف:
+ الكود التالي يقوم بتعيين المؤلف للملف:
 ```C#
    GridJsWorkbook gw = new GridJsWorkbook();
    GridWorkbookSettings gws = new GridWorkbookSettings();
@@ -30,5 +32,5 @@ keywords: settings
     gw.Settings = gws;
     gw.ImportExcelFile(@"c:\test.xlsx");
 ```
-يمكنك التحقق من المزيد من الإعدادات في هذا الفصل.
- 
+يمكنك التحقق من المزيد من الإعدادات في هذا الفصيل.
+

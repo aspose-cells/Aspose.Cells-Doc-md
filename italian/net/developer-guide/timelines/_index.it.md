@@ -1,22 +1,23 @@
-﻿---
-title: Inserisci sequenza temporale
-linktitle: Linea del tempo
+---
+title: Inserisci la timeline
+linktitle: Timeline
 type: docs
 weight: 170
 url: /it/net/create-timeline/
-description: Scopri come creare una sequenza temporale con Aspose.Cells.
+description: Scopri come creare una timeline con Aspose.Cells.
 ---
-## **Possibili scenari di utilizzo**
 
- Invece di regolare i filtri per mostrare le date, puoi utilizzare una sequenza temporale della tabella pivot, un'opzione di filtro dinamico che ti consente di filtrare facilmente per data/ora e ingrandire il periodo desiderato con un controllo a scorrimento. Microsoft Excel consente di creare una sequenza temporale selezionando una tabella pivot e quindi facendo clic su*Inserisci > Cronologia*. Aspose.Cells consente inoltre di creare timeline utilizzando il[**Foglio di lavoro.Linee temporali.Aggiungi()**](https://reference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index)metodo.
+## **Possibili Scenari di Utilizzo**
 
-## **Crea sequenza temporale in una tabella pivot**
+Invece di regolare i filtri per mostrare le date, è possibile utilizzare una Timeline della tabella pivot - un'opzione di filtro dinamico che consente di filtrare facilmente data/ora e di ingrandire il periodo desiderato con un controllo scorrevole. Microsoft Excel consente di creare una timeline selezionando una tabella pivot e cliccando su *Inserisci > Timeline*. Aspose.Cells consente anche di creare una timeline utilizzando il metodo [**Worksheet.Timelines.Add()**](https://reference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index).
 
- Vedere il seguente codice di esempio. Carica il[esempio di file Excel](input.xlsx) che contiene la tabella pivot. Quindi crea la sequenza temporale basata sul primo campo pivot di base. Infine, salva la cartella di lavoro in[uscita XLSX](output.xlsx) formato. Lo screenshot seguente mostra la sequenza temporale creata da Aspose.Cells nel file Excel di output.
+## **Creare una timeline per una tabella pivot**
 
-![cose da fare:immagine_alt_testo](create-timeline-to-a-pivot-table_1.png)
+Si prega di consultare il codice di esempio seguente. Carica il [file di Excel di esempio](input.xlsx) contenente la tabella pivot. Crea quindi la timeline basata sul primo campo pivot di base. Infine, salva il workbook nel formato [XLSX di output](output.xlsx). La seguente schermata mostra la timeline creata da Aspose.Cells nel file Excel di output.
 
-### **Codice d'esempio**
+![todo:image_alt_text](create-timeline-to-a-pivot-table_1.png)
+
+### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-CreateTimelineToPivotTable.cs" >}}
 

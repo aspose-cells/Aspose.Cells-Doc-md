@@ -1,8 +1,9 @@
-﻿---
-title: Bu dosya formatı desteklenmiyor veya doğru formatı belirtmemişsiniz.
+---
+title: Bu dosya biçimi desteklenmiyor veya doğru bir biçim belirtmediniz
 type: docs
 weight: 10
 url: /tr/java/this-file-format-is-not-supported-or-you-do-not-specify-a-correct-format/
 ---
-## **Bu dosya formatı desteklenmiyor veya doğru formatı belirtmemişsiniz.**
-Kullanıcı, şablon dosyasından çalışma kitabı oluştururken dosya biçimini belirtmişse, genellikle bu hatanın nedeni, belirtilen dosya biçiminin şablon dosyasının gerçek dosya biçimi olmamasıdır. Kullanıcı dosya formatını belirtmediyse, bunun nedeni genellikle dosya adı uzantısının bu dosyanın gerçek dosya formatını temsil etmemesi ve dosya formatının otomatik olarak algılanamamasıdır, örneğin herhangi bir özel tanımlayıcıya sahip olmayan csv/tsv dosyası .
+
+## **Bu dosya formatı desteklenmiyor veya doğru bir biçim belirtmediniz**
+Kullanıcı, şablon dosyasından çalışma kitabı oluştururken dosya formatını belirttiyse, genellikle bu hatanın sebebi belirtilen dosya formatının şablon dosyasının gerçek dosya formatı olmamasıdır. Kullanıcı dosya formatını belirtmediyse, genellikle dosya adı uzantısı bu dosyanın gerçek dosya formatını temsil etmiyorsa ve dosya formatı otomatik olarak algılanamıyorsa, örneğin csv/tsv dosyası gibi özel tanımlayıcıları olmayan bir dosya olması durumunda.

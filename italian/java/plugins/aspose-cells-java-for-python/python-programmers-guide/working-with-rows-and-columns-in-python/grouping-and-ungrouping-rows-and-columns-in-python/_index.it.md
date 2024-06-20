@@ -1,22 +1,23 @@
 ---
-title: Raggruppamento e separazione di righe e colonne in Python
+title: Raggruppamento e sraggruppamento di righe e colonne in Python
 type: docs
 weight: 40
 url: /it/java/grouping-and-ungrouping-rows-and-columns-in-python/
-description: Scopri come raggruppare e separare righe e colonne tramite Aspose.Cells for Python tramite Java API.
-keywords: How to Group and Ungroup Rows and Columns in Python Via Java, Group Rows and Columns using Python Via Java, Python Via Java Ungroup Rows and Columns. 
+description: Scopri come raggruppare e sraggruppare righe e colonne tramite Aspose.Cells per l API di Python Via Java.
+keywords: Come raggruppare e sraggruppare righe e colonne in Python Via Java, raggruppare righe e colonne con Python Via Java, sraggruppare righe e colonne con Python Via Java. 
 ---
-##  **Gestione del raggruppamento e della separazione di righe e colonne in Aspose.Cells for Python via Java**
-###  **Come raggruppare righe e colonne in Python**
-È possibile raggruppare righe o colonne chiamando i metodi groupRows e groupColumns della collection Cells. Entrambi i metodi accettano i seguenti parametri:
 
-- Indice della prima riga/colonna, la prima riga o colonna del gruppo.
-- Indice dell'ultima riga/colonna, l'ultima riga o colonna del gruppo.
-- È nascosto, un parametro booleano che specifica se nascondere o meno le righe/colonne dopo il raggruppamento.
+## **Gestione del raggruppamento e dello sraggruppamento delle righe e delle colonne in Aspose.Cells per Python via Java**
+### **Come raggruppare righe e colonne in Python**
+È possibile raggruppare righe o colonne chiamando i metodi groupRows e groupColumns della collezione Cells. Entrambi i metodi accettano i seguenti parametri:
 
-**Python Cod**
+- Indice della prima riga/colonna, la prima riga o colonna nel gruppo.
+- Indice dell'ultima riga/colonna, l'ultima riga o colonna nel gruppo.
+- È nascosto, un parametro booleano che specifica se nascondere o meno righe/colonne dopo il raggruppamento.
 
-{{< highlight "python" >}}
+**Codice Python**
+
+{{< highlight python >}}
 
  def group_rows_columns(self):
 
@@ -45,15 +46,15 @@ workbook.save(self.dataDir + "Group Rows And Columns.xls")
 print "Group Rows And Columns Successfully." 
 
 {{< /highlight >}}
-###  **Come separare righe e colonne utilizzando Python**
-Separa righe o colonne raggruppate chiamando i metodi UngroupRows e UngroupColumns della raccolta Cells. Entrambi i metodi accettano gli stessi parametri:
+### **Come sraggruppare righe e colonne utilizzando Python**
+Sraggruppare righe o colonne raggruppate chiamando i metodi UngroupRows e UngroupColumns della collezione Cells. Entrambi i metodi accettano gli stessi parametri:
 
-- Indice della prima riga o colonna, la prima riga/colonna da separare.
-- Indice dell'ultima riga o colonna, l'ultima riga/colonna da separare.
+- Indice della prima riga o colonna, la prima riga/colonna da sraggruppare.
+- Indice dell'ultima riga o colonna, l'ultima riga/colonna da sraggruppare.
 
-**Python Cod**
+**Codice Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def ungroup_rows_columns(self):
 
@@ -82,7 +83,7 @@ workbook.save(self.dataDir + "Ungroup Rows And Columns.xls")
 print "Ungroup Rows And Columns Successfully." 
 
 {{< /highlight >}}
-##  **Scarica il codice in esecuzione**
- Scaricamento**Raggruppa e separa righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding indicati di seguito:
+## **Scarica il codice in esecuzione**
+Scarica il **Raggruppamento & Sraggruppamento Righe & Colonne (Aspose.Cells)** da qualunque dei siti di codice sociale di seguito menzionati:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

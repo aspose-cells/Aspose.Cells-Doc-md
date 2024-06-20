@@ -1,35 +1,36 @@
-﻿---
-title: شريحة مخصصة أو ألوان قطاعية في مخطط دائري
+---
+title: ألوان شريحة أو قطاع مخصصة في الرسم البياني الدائري
 type: docs
 weight: 30
 url: /ar/java/custom-slice-or-sector-colors-in-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-تشرح هذه المقالة كيفية إضافة ألوان مخصصة إلى شرائح / قطاعات المخطط الدائري. بشكل افتراضي ، تستخدم المخططات الدائرية القالب الافتراضي Microsoft Excel. لاستخدام ألوان أخرى ، من الممكن إعادة تعريف الألوان في الرسم البياني.
+يشرح هذا المقال كيفية إضافة ألوان مخصصة إلى شرائح/قطاعات الرسم البياني الدائري. بشكل افتراضي، تستخدم الرسومات الدائرية القوالب الافتراضية لمايكروسوفت إكسل. يمكن إعادة تعريف الألوان في الرسم البياني لاستخدام ألوان أخرى.
 
 {{% /alert %}}
 
-لتعيين اللون المخصص للشرائح أو القطاعات الفردية للمخطط الدائري:
+لضبط اللون المخصص لشرائح أو قطاعات الرسم البياني الدائري:
 
-1.  الوصول إلى[**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) أشياء[**تشارت بوينت**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
-1.  قم بتعيين لون من اختيارك باستخدام[**ChartPoint.getArea (). setForegroundColor ()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor)طريقة.
+1. الوصول إلى [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) و[**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
+1. تعيين لون من اختيارك باستخدام الطريقة [**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor).
 
-تشرح هذه المقالة أيضًا كيفية التعيين:
+يشرح هذا المقال أيضًا كيفية ضبط:
 
 - بيانات فئة الرسم البياني.
-- عنوان مخطط مرتبط بخلية.
-- إعدادات خط عنوان المخطط.
-- موقف الأسطورة.
+- عنوان الرسم البياني المرتبط بخلية.
+- إعدادات خط عنوان الرسم البياني.
+- موقع وسام.
 
 {{% alert color="primary" %}}
 
-[**ChartPoint.getArea (). setForegroundColor ()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor) ليست خاصة بالمخططات الدائرية ولكن يمكن استخدامها لجميع أنواع المخططات.
+[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor) ليس محددًا لرسومات دائرية ولكن يمكن استخدامه لجميع أنواع الرسوم البيانية.
 
 {{% /alert %}}
 
-**ألوان الشرائح المخصصة في المخطط الدائري**
+**ألوان شرائح مخصصة في الرسم البياني الدائري**
 
-![ما يجب القيام به: image_بديل_نص](custom-slice-or-sector-colors-in-pie-chart_1.png)
+![todo:image_alt_text](custom-slice-or-sector-colors-in-pie-chart_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSliceOrSectorColorsPieChart-CustomSliceOrSectorColorsPieChart.java" >}}

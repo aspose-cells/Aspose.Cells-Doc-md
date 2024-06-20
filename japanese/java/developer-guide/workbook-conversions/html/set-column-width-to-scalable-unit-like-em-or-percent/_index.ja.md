@@ -1,12 +1,13 @@
-﻿---
-title: 列幅を em やパーセントなどのスケーラブルな単位に設定する
+---
+title: emやパーセントなどのスケーラブルユニットに列の幅を設定する
 type: docs
 weight: 130
 url: /ja/java/set-column-width-to-scalable-unit-like-em-or-percent/
 ---
-スプレッドシートから HTML ファイルを生成することは非常に一般的です。列のサイズは、多くの場合に機能する「pt」で定義されます。ただし、この固定サイズが必要ない場合もあります。たとえば、コンテナ パネルの幅が 600px で、この HTML ページが表示されている場合。この場合、生成されたテーブル幅が大きいと、水平スクロールバーが表示されることがあります。この固定サイズは、表示を改善するために em やパーセントなどのスケーラブルな単位に変更する必要がありました。次のサンプル コードは、次の場所で使用できます。[**HtmlSaveOptions.WidthScalable**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#WidthScalable)に設定されています**真実**スケーラブルな幅を作成するため。
 
-サンプル ソース ファイルと出力ファイルは、次のリンクからダウンロードできます。
+スプレッドシートからHTMLファイルを生成するのは一般的です。列のサイズは多くの場合"pt"で定義されていますが、固定サイズが必要ではない場合があります。例えば、HTMLページが表示されるコンテナパネルの幅が600pxである場合。この場合、生成されたテーブルの幅が大きいと水平スクロールバーが表示される可能性があります。より良い表現を得るためには、この固定サイズをemやパーセントなどのスケーラブルユニットに変更する必要があります。次のサンプルコードでは、**true**に設定された[**HtmlSaveOptions.WidthScalable**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#WidthScalable)が使用されます。
+
+サンプルのソースファイルと出力ファイルは以下のリンクからダウンロードできます：
 
 [sampleForScalableColumns.xlsx](74776596.xlsx)
 

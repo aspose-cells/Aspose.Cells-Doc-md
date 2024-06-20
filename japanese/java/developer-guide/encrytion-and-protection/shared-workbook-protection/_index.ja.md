@@ -1,21 +1,22 @@
-﻿---
-title: 共有ワークブックをパスワードで保護または保護解除する
-linktitle: 共有ブックの保護または保護解除
+---
+title: 共有ブックをパスワードで保護または保護解除
+linktitle: 共有ワークブックの保護または保護解除
 type: docs
 weight: 70
 url: /ja/java/password-protect-or-unprotect-the-shared-workbook/
 ---
-## **考えられる使用シナリオ**
 
-次のスクリーンショットに示すように、Microsoft Excel で共有ブックを保護または保護解除できます。 Aspose.Cells も、この機能を[**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)） と[**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)メソッド。
+## **可能な使用シナリオ**
 
-![todo:画像_代替_文章](password-protect-or-unprotect-the-shared-workbook_1.png)
+以下のスクリーンショットに示すように、Microsoft Excelを使用して共有ワークブックを保護または保護解除することができます。Aspose.Cellsもこの機能を[**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String))および[**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String))メソッドでサポートしています。
 
-## **共有ワークブックをパスワードで保護または保護解除する**
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
-次のサンプル コードでは、ワークブックを作成して保護し、共有を有効にして、名前を付けて保存します。[出力エクセルファイル](55541800.xlsx).スクリーンショットは、保護を解除しようとすると、Microsoft Excel がパスワードを入力して保護を解除するように求めることを示しています。
+## **共有ワークブックのパスワード保護または保護解除**
 
-![todo:画像_代替_文章](password-protect-or-unprotect-the-shared-workbook_2.png)
+次のサンプルコードはワークブックを作成し、共有を有効にして保護し、[出力Excelファイル](55541800.xlsx)として保存します。スクリーンショットには、保護を解除しようとすると、Microsoft Excelが保護解除のパスワード入力を求める様子が示されています。
+
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)
 
 ## **サンプルコード**
 

@@ -1,18 +1,19 @@
-﻿---
+---
 title: Créer et enregistrer de nouveaux classeurs
 type: docs
 weight: 70
 url: /fr/net/create-and-save-new-workbooks/
 ---
-## **Conseils de migration :**
-\1. Créer un objet de classeur
-\2. Obtenir la feuille de calcul actuelle.
-\3. Insérez du texte dans n'importe quelle cellule.
-\4. Enregistrez le classeur.
+
+## **Conseils de migration :**
+\1. Créer un objet Classeur
+\2. Obtenir la feuille de travail actuelle.
+\3. Insérer un texte dans n'importe quelle cellule.
+\4. Enregistrer le classeur.
 ### **VSTO**
 Voici un exemple de code pour VSTO
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
 
@@ -28,7 +29,7 @@ Voici un exemple de code pour VSTO
 ### **Aspose.Cells**
 Voici un exemple de code pour Aspose.Cells
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook newWorkbook = new Workbook();
 

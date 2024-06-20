@@ -1,16 +1,17 @@
-﻿---
-title: Php'de Sayfa Sonlarını Yönetme
+---
+title: PHP de Sayfa Kesmelerini Yönetme
 type: docs
 weight: 20
 url: /tr/java/managing-page-breaks-in-php/
 ---
-## **Aspose.Cells - Sayfa Sonlarını Yönetme**
-### **Sayfa Sonları Ekleme**
- kullanarak sayfa sonları eklemek için**Aspose.Cells Java for PHP** , Arama**add_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
 
-**PHP Kodu**
+## **Aspose.Cells - Sayfa Kesmelerini Yönetme**
+### **Sayfa Kesmeleri Eklemek**
+**Aspose.Cells Java for PHP** kullanarak sayfa sonları eklemek için, **sayfaati** modülünün **add_page_breaks** yöntemini kullanın. Aşağıda kod örneğini görebilirsiniz.
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
  $worksheets = $workbook->getWorksheets();
 
@@ -29,12 +30,12 @@ $v_page_breaks->add("Y30");
 $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
-### **Tüm Sayfa Sonlarını Temizleme**
- kullanarak tüm sayfa sonlarını temizlemek için**Aspose.Cells Java for PHP** , Arama**clear_all_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+### **Tüm Sayfa Kesmelerini Temizleme**
+**Aspose.Cells Java for PHP** kullanarak tüm sayfa sonlarını temizlemek için, **sayfaati** modülünün **clear_all_page_breaks** yöntemini çağırın. Aşağıda kod örneğini görebilirsiniz.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $workbook->getWorksheets()->get(0)->getHorizontalPageBreaks()->clear();
 
@@ -45,12 +46,12 @@ $workbook->getWorksheets()->get(0)->getVerticalPageBreaks()->clear();
 $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
-### **Belirli Sayfa Sonunu Kaldırma**
- Kullanarak belirli sayfa sonunu kaldırmak için**Aspose.Cells Java for PHP** , Arama**remove_page_break** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+### **Belirli Sayfa Kesmelerini Kaldırma**
+**Aspose.Cells Java for PHP** kullanarak belirli sayfa sonunu kaldırmak için, **sayfaati** modülünün **remove_page_break** yöntemini çağırın. Aşağıda kod örneğini görebilirsiniz.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $worksheets = $workbook->getWorksheets();
 
@@ -70,6 +71,6 @@ $workbook->save($dataDir . "Remove Page Break.xls");
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Sayfa Sonlarını Yönetme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıdaki sosyal kodlama sitelerinden herhangi birinden **Sayfa Kesmelerini Yönetme (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/ManagingPageBreaks.php)

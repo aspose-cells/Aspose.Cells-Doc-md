@@ -1,20 +1,21 @@
-﻿---
-title: القيود و API الاختلافات
+---
+title: القيود والفروقات في واجهة برمجة التطبيقات
 type: docs
 weight: 10
 url: /ar/php-java/limitations-and-api-differences/
-keywords: php, excel, limitation, api, difference
-description: Aspose.Cells for PHP via Java القيود والاختلافات API
+keywords: "php, excel, limitation, api, differences"
+description: "Aspose.Cells for PHP via Java القيود والاختلافات في واجهة برمجة التطبيقات."
 ---
-## **عام API الاختلافات**
+
+## **الفروقات العامة في واجهة برمجة التطبيقات**
 
 
-توضح القائمة التالية (مع نماذج مقاطع الكود) بعض الاختلافات بين واجهات برمجة التطبيقات (APIs) Aspose.Cells for Java و Aspose.Cells for PHP via Java واجهات برمجة التطبيقات.
-### **مكتبة الاستيراد (مقارنات الحزم)**
+القائمة التالية (مع شرائح الشفرة العينية) تظهر بعض الاختلافات بين Aspose.Cells for Java و Aspose.Cells for PHP via Java واجهات برمجة التطبيقات.
+### **استيراد المكتبة (مقارنة الحزم)**
 
 **Aspose.Cells for Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  import com.aspose.cells.*;
 
@@ -22,7 +23,7 @@ description: Aspose.Cells for PHP via Java القيود والاختلافات A
 
 **Aspose.Cells for PHP via Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  require_once("Java.inc");
 
@@ -35,11 +36,11 @@ use aspose\cells\Workbook;
 {{< /highlight >}}
 
 
-### **إنشاء مصنف جديد**
+### **إنشاء ورقة عمل جديدة**
 
 **Aspose.Cells for Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook();
 
@@ -48,18 +49,18 @@ use aspose\cells\Workbook;
 
 **Aspose.Cells for PHP via Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  $workbook = new Workbook();
 
 {{< /highlight >}}
 
 
-### **Enums أو الثوابت**
+### **ثوابت أو مستمرات**
 
 **Aspose.Cells for Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  arc2.getLineFormat().setDashStyle(MsoLineDashStyle.SOLID);
 
@@ -69,7 +70,7 @@ use aspose\cells\Workbook;
 
 **Aspose.Cells for PHP via Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  $arc2->getLineFormat()->setDashStyle(cells\MsoLineDashStyle::SOLID);
 
@@ -80,7 +81,7 @@ use aspose\cells\Workbook;
 
 **Aspose.Cells for Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  import com.aspose.cells.*;
 
@@ -120,7 +121,7 @@ public class Test1 {
 
 **Aspose.Cells for PHP via Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <?php
 
@@ -159,7 +160,7 @@ $workbook->save("out1.xlsx");
 {{< /highlight >}}
 
 
-## **قيود أخرى من Aspose.Cells for PHP via Java API مقارنة بـ Aspose.Cells for Java API**
-1. لا يتم دعم استيراد / تصدير البيانات من Array و ArrayList و ResultSet وما إلى ذلك.
-1. الطباعة غير مدعومة.
+## **قيود أخرى لواجهة برمجة تطبيقات Aspose.Cells for PHP via Java مقارنة بواجهة برمجة التطبيقات Aspose.Cells for Java**
+1. عدم دعم استيراد / تصدير البيانات من مصفوفة ، ArrayList ، ResultSet إلخ.
+1. لا يتم دعم الطباعة.
 

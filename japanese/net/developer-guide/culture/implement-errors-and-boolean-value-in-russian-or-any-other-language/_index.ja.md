@@ -1,21 +1,22 @@
-﻿---
-title: ロシア語またはその他の言語でエラーとブール値を実装する
+---
+title: ロシア語または他の言語でエラーおよび真偽値を実装する
 type: docs
 weight: 40
 url: /ja/net/implement-errors-and-boolean-value-in-russian-or-any-other-language/
 ---
-## **考えられる使用シナリオ**
 
-ロシア語のロケールまたは言語、またはその他のロケールまたは言語で Microsoft Excel を使用している場合、そのロケールまたは言語に従ってエラーとブール値が表示されます。を使用して、Aspose.Cells を使用して同様の動作を実現できます。**[Workbook.Settings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) プロパティ。次のメソッドをオーバーライドする必要があります[**グローバリゼーション設定**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)クラス。
+## **可能な使用シナリオ**
+
+Microsoft Excel をロシア語のロケールまたは言語、または他のロケールまたは言語で使用している場合、そのロケールまたは言語に従ってエラーおよび真偽値が表示されます。 Aspose.Cells を使用して、[**Workbook.Settings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings)プロパティを使用することで同様の動作を実現できます。[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)クラスの以下のメソッドをオーバーライドする必要があります。
 
 - [**GlobalizationSettings.GetErrorValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/geterrorvaluestring)
 - [**GlobalizationSettings.GetBooleanValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getbooleanvaluestring)
 
-## **ロシア語またはその他の言語でエラーとブール値を実装する**
+## **ロシア語または他の言語でエラーおよび真偽値を実装する**
 
-次のサンプル コードは、ロシア語またはその他の言語でエラーとブール値を実装する方法を示しています。を確認してください[サンプル Excel ファイル](73990159.xlsx)このコードとその[出力 PDF](73990160.pdf).スクリーンショットは、参照用にサンプル Excel ファイルと出力 PDF の違いを示しています。
+下記のサンプルコードは、ロシア語または他の言語でのエラーおよび真偽値の実装方法を説明しています。このコードで使用される [サンプルExcelファイル](73990159.xlsx) およびその [出力PDF](73990160.pdf) を確認してください。スクリーンショットは、サンプルExcelファイルと出力PDFの違いを参照用に示しています。
 
-![todo:画像_代替_文章](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
+![todo:image_alt_text](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
 
 ## **サンプルコード**
 

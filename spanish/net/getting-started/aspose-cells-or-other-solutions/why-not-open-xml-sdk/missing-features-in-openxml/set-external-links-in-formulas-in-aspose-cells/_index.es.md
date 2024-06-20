@@ -1,20 +1,21 @@
-﻿---
-title: Establecer enlaces externos en fórmulas en Aspose.Cells
+---
+title: Establecer Enlaces Externos en Fórmulas en Aspose.Cells
 type: docs
 weight: 90
 url: /es/net/set-external-links-in-formulas-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-A veces, es necesario incluir enlaces a archivos externos en fórmulas, por ejemplo, para evaluar un valor de celda o rango contra ellos. Aspose.Cells proporciona esta función y este documento explica cómo usarla.
+A veces, es necesario incluir enlaces a archivos externos en fórmulas, por ejemplo, para evaluar un valor de celda o rango en comparación con ellos. Aspose.Cells proporciona esta función y este documento explica cómo usarla.
 
 {{% /alert %}} 
 
-El siguiente código de ejemplo muestra cómo incluir archivos externos en fórmulas.
+El código de ejemplo a continuación muestra cómo incluir archivos externos en fórmulas.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -45,7 +46,7 @@ cells["A2"].Formula = "='[book1.xls]Sheet1'!A8";
 workbook.Save(FileName);
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Set%20External%20Links%20in%20Formula)
-## **Descargar ejemplo de ejecución**
+## **Descargar Ejemplo en Ejecución**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

@@ -1,23 +1,24 @@
-﻿---
-title: PDF ブックマークを追加
+---
+title: PDFブックマークを追加する
 type: docs
 weight: 10
 url: /ja/net/add-pdf-bookmarks/
 ---
+
 {{% alert color="primary" %}}
 
-この記事では、スプレッドシートを PDF に変換するときに PDF ブックマークを挿入する方法について説明します。
+この記事では、スプレッドシートをPDFに変換する際にPDFブックマークを挿入する方法についての情報を提供します。
 
-Aspose.Cells を使用すると、その場でブックマークを追加できます。 PDF ブックマークを使用すると、長いドキュメントの操作性が大幅に向上します。 PDF ドキュメントにブックマーク リンクを追加すると、ページへのリンクに限定されず、必要な正確なビューを正確に制御できます。ターゲット ページを配置して正確なビューを設定し、ブックマークを作成できます。
+ダイナミックにブックマークを追加できるAspose.Cells。PDFブックマークは、長い文書の操作性を飛躍的に改善することができます。PDF文書にブックマークリンクを追加する際、ページにリンクするのに限定されることはありません。確かなビューを設定することができます。
 
 {{% /alert %}}
 
-PDF ブックマークを追加する方法については、次のサンプル コードを参照してください。このコードは、単純なワークブックを生成し、PDF ブックマークと宛先の場所を指定して、PDF ファイルを生成します。
+次のサンプルコードでは、シンプルなワークブックを生成し、PDFブックマークとその場所の特定を指定し、PDFファイルを生成します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddPDFBookmarks-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式がある場合は、[**Workbook.計算式**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index)スプレッドシートを PDF 形式にレンダリングする直前。そうすることで、数式に依存する値が更新され、PDF で正しくレンダリングされるようになります。
+スプレッドシートに数式がある場合は、PDF形式でレンダリングする直前に[**Workbook.CalculateFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index)を呼び出すことが最適です。これにより、数式に依存する値が更新され、正しくPDFにレンダリングされます。
 
 {{% /alert %}}

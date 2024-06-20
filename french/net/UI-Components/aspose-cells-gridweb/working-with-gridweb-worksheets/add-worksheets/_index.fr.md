@@ -1,21 +1,24 @@
-﻿---
+---
 title: Ajouter des feuilles de calcul
 type: docs
 weight: 20
-url: /fr/net/add-worksheets/
+url: /fr/net/aspose-cells-gridweb/add-worksheet/
+keywords: GridWeb,add,worksheet,add GridWorksheet
+description: Cet article présente comment ajouter une feuille de calcul (GridWorksheet) dans GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Les feuilles de travail font partie intégrante de Aspose.Cells.GridWeb. Toutes les données sont gérées et stockées sous forme de feuilles de calcul. Aspose.Cells.GridWeb permet aux développeurs d'ajouter une ou plusieurs feuilles de calcul au contrôle Aspose.Cells.GridWeb. Cette rubrique présente des approches simples pour ajouter des feuilles de calcul à Aspose.Cells.GridWeb.
+Les feuilles de calcul sont une partie intégrante de Aspose.Cells.GridWeb. Toutes les données sont gérées et stockées sous forme de feuilles de calcul. Aspose.Cells.GridWeb permet aux développeurs d'ajouter une ou plusieurs feuilles de calcul au contrôle Aspose.Cells.GridWeb. Ce sujet présente des approches simples pour ajouter des feuilles de calcul à Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
 ## **Ajout d'une feuille de calcul**
 ### **Sans spécifier le nom de la feuille**
-Le moyen le plus simple d'ajouter une feuille de calcul à Aspose.Cells.GridWeb consiste à appeler la méthode Add de la collection GridWorksheetCollection dans le contrôle GridWeb. Cela crée des feuilles de calcul qui utilisent des noms par défaut (c'est-à-dire Feuil1, Feuil2, Feuil3, etc.) et les ajoute au contrôle GridWeb.
+La manière la plus simple d'ajouter une feuille de calcul à Aspose.Cells.GridWeb est d'appeler la méthode Add de la collection GridWorksheetCollection dans le contrôle GridWeb. Cela crée des feuilles de calcul qui utilisent des noms par défaut (c'est-à-dire Feuille1, Feuille2, Feuille3, et ainsi de suite) et les ajoute au contrôle GridWeb.
 
-**Sortie : une feuille de calcul avec un nom par défaut a été ajoutée à GridWeb** 
+**Sortie : une feuille de calcul avec un nom par défaut a été ajoutée à GridWeb** 
 
-![tâche : image_autre_texte](add-worksheets_1.png)
+![todo:image_alt_text](add-worksheets_1.png)
 
 
 
@@ -23,15 +26,15 @@ Le moyen le plus simple d'ajouter une feuille de calcul à Aspose.Cells.GridWeb 
 
 {{% alert color="primary" %}} 
 
- La méthode Add renvoie l'index de la nouvelle feuille de calcul qui peut être utilisé pour accéder à l'instance de cette feuille de calcul. Pour plus de détails sur la façon d'accéder aux feuilles de calcul, lisez[Accéder aux feuilles de travail](/cells/fr/net/access-worksheets/).
+La méthode Add retourne l'index de la nouvelle feuille de calcul qui peut être utilisé pour accéder à l'instance de cette feuille de calcul. Pour plus de détails sur la façon d'accéder aux feuilles de calcul, consultez [Accéder aux feuilles de calcul](/cells/fr/net/aspose-cells-gridweb/access-worksheets/).
 
 {{% /alert %}} 
-### **Avec le nom de feuille spécifié**
-Pour ajouter une feuille de calcul avec un nom spécifique au contrôle GridWeb au lieu d'utiliser le schéma de dénomination par défaut, appelez une version surchargée de la méthode Add qui prend le SheetName spécifié. Pour une instance, l'exemple ci-dessous ajoute une feuille de calcul nommée Facture.
+### **Avec un nom de feuille spécifié**
+Pour ajouter une feuille de calcul avec un nom spécifique au contrôle GridWeb au lieu d'utiliser le schéma de nommage par défaut, appelez une version surchargée de la méthode Add qui prend le nom de feuille spécifié. Par exemple, l'exemple ci-dessous ajoute une feuille de calcul nommée Invoice.
 
-**Sortie : une feuille de calcul avec un nom spécifié a été ajoutée à GridWeb** 
+**Sortie : une feuille de calcul avec un nom spécifié a été ajoutée à GridWeb** 
 
-![tâche : image_autre_texte](add-worksheets_2.png)
+![todo:image_alt_text](add-worksheets_2.png)
 
 
 
@@ -39,6 +42,6 @@ Pour ajouter une feuille de calcul avec un nom spécifique au contrôle GridWeb 
 
 {{% alert color="primary" %}} 
 
-La méthode Add qui accepte le nom de la feuille de calcul en tant que chaîne renvoie une instance de GridWorksheet.
+La méthode Add acceptant le nom de la feuille de calcul en tant que chaîne retourne une instance de GridWorksheet.
 
 {{% /alert %}}

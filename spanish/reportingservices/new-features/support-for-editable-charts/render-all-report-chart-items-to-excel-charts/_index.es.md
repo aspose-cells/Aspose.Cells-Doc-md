@@ -1,17 +1,18 @@
-﻿---
-title: Representar todos los elementos del gráfico de informe en gráficos de Excel
+---
+title: Representar Todos los Elementos de Gráfico del Informe a Gráficos de Excel
 type: docs
 weight: 10
 url: /es/reportingservices/render-all-report-chart-items-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Para representar todos los elementos del gráfico en un informe como gráficos de Excel editables:
+Para representar todos los elementos de gráfico en un informe como gráficos de Excel editables:
 
-1. Abre el**Aspose.Cells.ReportingServices.xml** expediente.
-1.  Modifique los parámetros de configuración de la siguiente manera:
+1. Abrir el archivo **Aspose.Cells.ReportingServices.xml**.
+1. Modifique los parámetros de configuración como se muestra a continuación: 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart value="all">
 
@@ -19,10 +20,10 @@ Para representar todos los elementos del gráfico en un informe como gráficos d
 
 {{< /highlight >}}
 
- Cuando el valor se establece en "todos", todos los elementos del gráfico se representan como gráficos editables.
+Cuando el valor se establece en “todo”, todos los elementos del gráfico se representan como gráficos editables. 
 
-**Edición de gráficos en Excel** 
+**Editar gráficos en Excel** 
 
-![todo:imagen_alternativa_texto](render-all-report-chart-items-to-excel-charts_1.png)
+![todo:image_alt_text](render-all-report-chart-items-to-excel-charts_1.png)
 
 {{% /alert %}}

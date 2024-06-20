@@ -1,13 +1,14 @@
-﻿---
-title: Ändra datakälla för diagrammet till målarbetsblad medan du kopierar rader eller intervall
+---
+title: Ändra datakällan för diagrammet till destinationskalkylbladet samtidigt som du kopierar rader eller område
 type: docs
 weight: 850
 url: /sv/java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/
 ---
-## **Möjliga användningsscenarier**
-När du kopierar rader eller intervall som innehåller diagram till ett nytt kalkylblad, ändras inte datakällan för diagrammet. Till exempel, om datakällan för diagrammet är =Sheet1!$A$1:$B$4, efter kopiering av rader eller intervall till nytt kalkylblad, kommer datakällan att förbli densamma, dvs. =Sheet1!$A$1:$B$4. Det hänvisar fortfarande till det gamla kalkylbladet, dvs. Sheet1. Detta är också Microsoft Excel-beteendet. Men om du vill att det hänvisar till det nya målarbetsbladet, använd egenskapen CopyOptions.ReferToDestinationSheet och ställ in det som sant medan du anropar metoden Cells.CopyRows(). Om ditt målark är DestSheet kommer datakällan för ditt diagram att ändras från =Sheet1!$A$1:$B$4 till =DestSheet!$A$1:$B$4.
-## **Ändra datakälla för diagrammet till målarbetsblad medan du kopierar rader eller intervall**
- Följande exempelkod förklarar användningen av CopyOptions.ReferToDestinationSheet-egenskapen när du kopierar rader eller intervall som innehåller diagram till ett nytt kalkylblad. Koden använder[exempel på excel-fil](5472284.xlsx) och genererar[output excel-fil](5472283.xlsx) . Skärmdumpen visar att datakällan för diagrammet in[output excel-fil](5472283.xlsx) hänvisar nu till DestSheet istället för Sheet1.
+
+## **Möjliga användningsscenario**
+När du kopierar rader eller område som innehåller diagram till ny arbetsblad, ändras inte datakällan för diagrammet. Till exempel, om datakällan för diagrammet är =Ark1!$A$1:$B$4, kommer efter kopiering av rader eller område till nytt arbetsblad, kommer datakällan fortfarande förbli densamma dvs =Ark1!$A$1:$B$4. Det hänvisar fortfarande till det gamla arbetsbladet dvs. Ark1. Detta är också Microsoft Excel-beteendet. Men om du vill att det ska hänvisa till det nya destinationsarket, vänligen använd CopyOptions.ReferToDestinationSheet-egenskapen och ställa in den till true vid anropet Cells.CopyRows() metoden. Nu om ditt destinationsark är DestSheet, kommer datakällan för ditt diagram att ändra från =Ark1!$A$1:$B$4 till =DestSheet!$A$1:$B$4.
+## **Ändra datakällan för diagrammet till destinationskalkylbladet samtidigt som du kopierar rader eller område**
+Följande exempelkod förklarar användningen av CopyOptions.ReferToDestinationSheet-egenskapen när du kopierar rader eller område som innehåller diagram till nytt arbetsblad. Koden använder den [prov Excel-filen](5472284.xlsx) och genererar den [utdata Excel-filen](5472283.xlsx). Skärmbilden visar att datakällan för diagrammet i [utdata Excel-filen](5472283.xlsx) nu hänvisar till DestSheet istället för Sheet1.
 
 ![todo:image_alt_text](change-data-source-of-the-chart_1.png)
 

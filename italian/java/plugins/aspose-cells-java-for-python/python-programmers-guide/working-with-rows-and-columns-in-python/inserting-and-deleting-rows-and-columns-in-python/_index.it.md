@@ -1,23 +1,24 @@
-﻿---
-title: Inserimento ed eliminazione di righe e colonne in Python
+---
+title: Inserimento e cancellazione di righe e colonne in Python
 type: docs
 weight: 60
 url: /it/java/inserting-and-deleting-rows-and-columns-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel pytho
-description: Usa Python Excel API per creare fogli di calcolo Excel in Python. Inserisci o elimina righe da XLSX o XLS nelle tue applicazioni Python senza MS Office.
+keywords: "crea XLSX in Python, crea XLS in Python, XLS python, XLSX python, XLT python, XLTX python, inserisci riga python, inserisci colonna python, Excel python"
+description: Usa Python Excel API per creare fogli Excel in Python. Inserisci o elimina righe da XLSX o XLS nelle tue applicazioni Python senza MS Office.
 ---
-## **Crea fogli di calcolo Excel in Python - Gestione di righe/colonne**
-### **Inserimento di una riga**
-Inserire una riga in qualsiasi posizione chiamando il metodo insertRows della raccolta Cells. Il metodo insertRows accetta l'indice della riga in cui verrà inserita la nuova riga come primo argomento e il numero di righe da inserire come secondo argomento. Di seguito sono riportati i passaggi:
 
-- Carica la cartella di lavoro XLS o XLSX
+## **Crea fogli Excel in Python - Gestione Righe/Colonne**
+### **Inserimento di una riga**
+Inserisci una riga in qualsiasi posizione chiamando il metodo insertRows della collezione Cells. Il metodo insertRows prende l'indice della riga in cui verrà inserita la nuova riga come primo argomento e il numero di righe da inserire come secondo argomento. Di seguito sono riportati i passaggi:
+
+- Carica il workbook XLS o XLSX
 - Accedi al foglio di lavoro
 - Inserisci la riga
-- Salva come cartella di lavoro XLS o XLSX
+- Salvare come cartella di lavoro XLS o XLSX
 
-**Python Cod**
+**Codice Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_row(self):
 
@@ -40,15 +41,15 @@ workbook.save(self.dataDir + "Insert Row.xls")
 print "Insert Row Successfully." 
 
 {{< /highlight >}}
-### **Inserimento di più righe**
-Per inserire più righe nel foglio di lavoro, chiama il metodo insertRows della raccolta Cells. Il metodo InsertRows accetta due parametri:
+### **Inserimento di Più Righe**
+Per inserire più righe nel foglio di lavoro, chiamare il metodo insertRows della collezione Cells. Il metodo insertRows prende due parametri:
 
-- Indice di riga, l'indice della riga da cui verranno inserite le nuove righe.
-- Numero di righe, numero totale di righe da inserire.
+- Indice di riga, l'indice della riga da cui saranno inserite le nuove righe.
+- Numero di righe, numero totale di righe che devono essere inserite.
 
-**Python Cod**
+**Codice Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_multiple_rows(self):
 
@@ -73,14 +74,14 @@ print "Insert Multiple Rows Successfully."
 
 {{< /highlight >}}
 ### **Eliminazione di una riga**
-Per eliminare una riga in qualsiasi posizione, chiama il metodo deleteRows della raccolta Cells. Il metodo DeleteRows accetta due parametri:
+Per eliminare una riga in qualsiasi posizione, chiamare il metodo deleteRows della collezione Cells. Il metodo DeleteRows prende due parametri:
 
-- Indice di riga, l'indice della riga da cui verranno eliminate le righe.
+- Indice riga, l'indice della riga da cui partiranno le eliminazioni.
 - Numero di righe, numero totale di righe che devono essere eliminate.
 
-**Python Cod**
+**Codice Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_row(self):
 
@@ -103,15 +104,15 @@ workbook.save(self.dataDir + "Delete Row.xls")
 print "Delete Row Successfully." 
 
 {{< /highlight >}}
-### **Eliminazione di più righe**
-Per eliminare più righe da un foglio di lavoro, chiama il metodo deleteRows della raccolta Cells. Il metodo DeleteRows accetta due parametri:
+### **Eliminazione di Più Righe**
+Per eliminare più righe da un foglio di lavoro, chiamare il metodo deleteRows della collezione Cells. Il metodo DeleteRows prende due parametri:
 
-- Indice di riga, l'indice della riga da cui verranno eliminate le righe.
+- Indice riga, l'indice della riga da cui partiranno le eliminazioni.
 - Numero di righe, numero totale di righe che devono essere eliminate.
 
-**Python Cod**
+**Codice Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_multiple_rows(self):
 
@@ -136,14 +137,14 @@ print "Delete Multiple Rows Successfully."
 
 {{< /highlight >}}
 ### **Inserimento di una colonna**
-Gli sviluppatori possono anche inserire una colonna nel foglio di lavoro in qualsiasi posizione chiamando il metodo insertColumns della raccolta Cells. Il metodo insertColumns accetta due parametri:
+Gli sviluppatori possono anche inserire una colonna nel foglio di lavoro in qualsiasi posizione chiamando il metodo insertColumns della collezione Cells. Il metodo insertColumns prende due parametri:
 
-- Indice colonna, l'indice della colonna da cui verrà inserita la colonna
-- Numero di colonne, numero totale di colonne da inserire
+- Indice della colonna, l'indice della colonna da cui verrà inserita la colonna
+- Numero di colonne, numero totale di colonne che devono essere inserite
 
-**Python Cod**
+**Codice Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_column(self):
 
@@ -167,16 +168,16 @@ print "Insert Column Successfully."
 
 
 {{< /highlight >}}
-### **Eliminazione di una colonna**
-Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiama il metodo deleteColumns della raccolta Cells. Il metodo deleteColumns accetta i seguenti parametri:
+### **Eliminare una colonna**
+Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiamare il metodo deleteColumns della collezione Cells. Il metodo deleteColumns richiede i seguenti parametri:
 
-- Indice colonna, l'indice della colonna da cui verrà eliminata la colonna.
+- Indice della colonna, l'indice della colonna da cui verrà eliminata la colonna.
 - Numero di colonne, numero totale di colonne che devono essere eliminate.
-- Shift celle, parametro booleano per indicare se spostare le celle a sinistra dopo la cancellazione.
+- Spostare celle, parametro booleano per indicare se spostare le celle a sinistra dopo l'eliminazione.
 
-**Python Cod**
+**Codice Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_column(self):
 
@@ -201,6 +202,6 @@ print "Delete Column Successfully."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Gestione righe/colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Gestione righe/colonne (Aspose.Cells)** da uno qualsiasi dei siti di codice sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

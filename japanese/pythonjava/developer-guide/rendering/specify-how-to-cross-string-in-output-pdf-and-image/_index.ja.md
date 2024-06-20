@@ -1,18 +1,19 @@
-﻿---
-title: 出力PDFと画像の文字列の交差方法を指定
+---
+title: 出力PDFおよびイメージで文字列をクロスする方法を指定します。
 type: docs
 weight: 20
 url: /ja/python-java/specify-how-to-cross-string-in-output-pdf-and-image/
 ---
-## **出力PDFと画像の文字列の交差方法を指定**
-セルにセルの幅より大きいテキストまたは文字列が含まれている場合、次の列の次のセルが null または空の場合、文字列はオーバーフローします。 Excel ファイルを PDF/Image に保存すると、[TextCrossType](https://reference.aspose.com/cells/python/asposecells.api/TextCrossType)列挙。次の値があります。
 
-- [TextCrossType.DEFAULT](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#DEFAULT): MS Excel のような表示で、次のセルに依存します。次のセルが null の場合、文字列が交差するか、切り捨てられます。
-- [TextCrossType。 CROSS_KEEP](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_KEEP): PDF/Image をエクスポートする MS Excel のような文字列を表示します
-- [TextCrossType.CROSS_OVERRIDE](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_OVERRIDE)他のセルと交差してすべてのテキストを表示し、交差したセルのテキストを上書きします
-- [TextCrossType.STRICT_の_細胞](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#STRICT_IN_CELL): セルの幅内の文字列のみを表示します。
+## **出力PDFおよび画像内の文字列の交差方法を指定**
+セルに文字列がセルの幅よりも大きい場合、次の列のセルがnullまたは空である場合、文字列がオーバーフローします。ExcelファイルをPDF/Imageに保存するときには、[TextCrossType](https://reference.aspose.com/cells/python/asposecells.api/TextCrossType) 列挙型を使用してこのオーバーフローを制御できます。
 
-次のサンプル コードは、サンプル Excel ファイルを読み込み、別の TextCrossType を指定して PDF/Image 形式で保存します。サンプルの Excel ファイルと出力ファイルは、次のリンクからダウンロードできます。
+- [TextCrossType.DEFAULT](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#DEFAULT)：MS Excelの表示に従い、次のセルに依存します。次のセルがnullの場合、文字列がクロスされるか切り取られます。
+- [TextCrossType.CROSS_KEEP](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_KEEP)：MS Excelのエクスポートと類似した方法で文字列を表示
+- [TextCrossType.CROSS_OVERRIDE](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_OVERRIDE)：他のセルをクロスして文字列をオーバーライドしてすべてのテキストを表示
+- [TextCrossType.STRICT_IN_CELL](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#STRICT_IN_CELL)：セルの幅内で文字列を表示
+
+次のサンプルコードは、サンプルExcelファイルをロードし、異なるTextCrossTypeを指定してPDF/Image形式で保存します。サンプルExcelファイルと出力ファイルは、以下のリンクからダウンロードできます。
 
 [sampleCrossType.xlsx](sampleCrossType.xlsx)
 

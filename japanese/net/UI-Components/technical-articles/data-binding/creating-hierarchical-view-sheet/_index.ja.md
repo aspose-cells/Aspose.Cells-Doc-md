@@ -1,73 +1,76 @@
-﻿---
+---
 title: 階層ビュー シートの作成
 type: docs
 weight: 30
-url: /ja/net/creating-hierarchical-view-sheet/
+url: /ja/net/aspose-cells-gridweb/create-hierarchical-view-sheet/
+keywords: GridWeb, 階層的
+description: この記事では、GridWeb で階層ビューを作成する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-データ バインディングは、強力で使いやすい GridWeb 機能です。データベース テーブルに格納されたデータが DataSet にフェッチされ、データが入力されます。
+データ バインディングは、強力で使いやすい GridWeb の機能です。データベーステーブルに保存されたデータを取得して DataSet に入れ、データを表すデータ テーブルを作成します。データ バインディング機能を使用すると、相互リンクされたデータの階層ビュー（マスター-チャイルド ビュー）を作成し、コントロールに表示することができます。 
 
-データ テーブルを表します。データ バインディング機能を使用すると、相互にリンクされたデータの階層ビュー (マスターと子のビュー) を作成し、
+そして、より洗練された表示になります。 
 
-コントロールに表示して、よりエレガントにします。
+このために、以下のリレーションシップをデータ テーブル間に確立する必要があります。 
 
-このトピックでは、階層ビュー シートの作成について説明します。シート内の一部の行には子ビューがあります。ユーザーが行の**拡大**
+このトピックでは、階層ビュー シートの作成について説明します。シートの一部の行には子ビューがあります。ユーザーが行の **展開** をクリックすると、
 
-ボタン{{< emoticons/cross >}}、その行の子ビュー テーブルが下に展開されます。この機能は、階層ビュー レポートを作成するのに非常に役立ちます。
+button {{< emoticons/cross >}}, the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report. 
 
 **階層ビューを持つテーブル** 
 
-![todo:画像_代替_文章](creating-hierarchical-view-sheet_1.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
-## **DataTable のリレーションを作成する**
-たとえば、ADO.Net API を使用して、データベース テーブルからデータを抽出します。階層ビュー シートを作成するには、DataSet を設計する必要があります
+## **データテーブルにリレーションシップを作成する**
+たとえば、ADO.Net API を使用してデータベーステーブルからデータを抽出する場合、階層ビュー シートを作成するには、まず、いくつかのテーブルに基づいて DataSet オブジェクトを設計し、それらの間に関係を作成する必要があります。
 
-いくつかのテーブルに基づいてオブジェクトを作成し、最初にそれらの間の関係を作成します。 VS.NET を使用する**データセット デザイナー**関係を作成します。の
+VS.NET の **DataSet Designer** を使用して、関係を作成します。この例では、Customers、Orders、Order Details の 3 つの DataTable があります。シートでは、デフォルトですべての顧客情報が表示されます。ユーザーが顧客を展開すると、 
 
-この例では、Customers、Orders、Order Details の 3 つの DataTable があります。シートには、デフォルトですべての顧客情報が表示されます。いつ
+グリッドがその顧客が行ったすべての注文を表示します。ユーザーが注文を展開すると、グリッドがその注文の詳細を表示します。データは階層的です。 
 
-ユーザーが顧客を展開すると、顧客が行ったすべての注文がグリッドに表示されます。ユーザーが注文を展開すると、グリッドに詳細が表示されます
+注文の詳細は注文の下にリストされ、注文は顧客の下にリストされます。 
 
-その順序の。データは階層的です。注文の詳細は注文の下にリストされ、注文は顧客の下にリストされます。
+このためには、データテーブル間に次のリレーションシップを確立する必要があります。
 
-これが機能するには、データ テーブル間で次の関係を確立する必要があります。
+1. DataTable Orders に外部キーを作成し、キー フィールドは CustomerID です。
 
-1.  DataTable Orders に外部キーを作成します。キー フィールドは CustomerID です。
+1. DataTable Order Details に外部キーを作成し、キー フィールドは OrderID です。 
 
-![todo:画像_代替_文章](creating-hierarchical-view-sheet_2.png)
-
-
-
-
-1. DataTable Order Details に外部キーを作成します。キー フィールドは OrderID です。
-
-![todo:画像_代替_文章](creating-hierarchical-view-sheet_3.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_2.png)
 
 
 
- DataSet デザイナーは次のようになります。
 
-![todo:画像_代替_文章](creating-hierarchical-view-sheet_4.png)
-### **ワークシートをバインド**
-今すぐ使用**ワークシート デザイナー**ワークシートの DataSource と DataMember を設定し、データ フィールド バインド列を構成します。
+1. DataTableのOrder Detailsに外部キーを作成します。キーのフィールドはOrderIDです。 
 
-コントロールは、バインディング オブジェクト (通常は DataRowView オブジェクト) が持つレコードに対応する各行に + アイコンを自動的に追加します。
+![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
 
-子ビュー。 + アイコンをクリックすると、レコードが展開されて子ビューが表示されます。以下の例では、**ワークシート デザイナー**をバインドする
 
-ワークシートをルートの親 DataTable Customers に追加します。
 
-![todo:画像_代替_文章](creating-hierarchical-view-sheet_5.png)
+データセット デザイナーは次のようになります。 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
+### **ワークシートにバインド**
+**Worksheets Designer** を使用して、ワークシートの DataSource と DataMember を設定し、データフィールドのバインディング列を構成します。 
+
+各行に自動的に + アイコンが追加されます。このアイコンは、バインドオブジェクト（通常は DataRowView オブジェクト）に対応するレコードごとに表示されます。+ アイコンをクリックすると、レコードが展開されて子ビューが表示されます。以下の例では、**Worksheets Designer** を使用してバインドします。 
+
+子ビュー。+アイコンをクリックすると、レコードが展開して子ビューが表示されます。以下の例では、**Worksheets Designer**を使用して 
+
+ルート親 DataTable Customers へのワークシート。 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_5.png)
 ### **子テーブルのバインド列をカスタマイズする**
-コントロールは、開発者が子テーブルのバインド列をカスタマイズするために使用する GridWeb.BindingChildView という名前のイベントを提供します。この例
+コントロールは、開発者が子テーブルのバインド列をカスタマイズするために使用する GridWeb.BindingChildView という名前のイベントを提供します。この例 
 
-注文の詳細を表示する必要があります」**単価**通貨形式のフィールド。イベント ハンドラーを追加して、バインド列の数値形式を変更します。
+は、通貨形式で注文詳細の **UnitPrice** フィールドを表示する必要があります。バインド列の数値形式を変更するためのイベントハンドラを追加します。 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Handles the BindingChildView event to set the UnitPrice column.
 
@@ -91,9 +94,9 @@ private void GridWeb1_BindingChildView(Aspose.Cells.GridWeb.GridWeb childGrid, A
 
 {{< /highlight >}}
 
-**VB.NET**
+ワークシートで GridDesktop データ バインディング機能を実装する
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Handles the BindingChildView event to set the UnitPrice column.
 
@@ -114,38 +117,38 @@ End Sub
 
 
 {{< /highlight >}}
-### **データベースとバインドからデータをロードする**
-で説明されているように[GridWeb の Worksheets Designer を使用して Worksheet を DataSet にバインドする](/cells/ja/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
-Page_Load ブロックにコードを追加して、データベースから DataSet にデータをロードし、DataSet をシートにバインドする必要があります。
+### **データベースからデータを読み込み、バインドする**
+Aspose.Cells.GridWeb のワークシートデザイナーを使用してデータセットにワークシートをバインドする の記載にあるように、
+次の手順でデータをデータベースからデータセットにロードし、データセットをシートにバインドするには、Page_Load ブロックにコードを追加する必要があります。 
 
-次の一歩。
+次のステップ。 
 
 Asppose.Grid.Web.Data.WebWorksheet クラスには、いくつかの便利なプロパティがあります。
 
-- たとえば、プロパティ EnableCreateBindColumnHeader は、シート内のバインドされた列の見出しを作成するために使用されます。
+たとえば、プロパティ EnableCreateBindColumnHeader は、シート内のバインド列の見出しを作成するために使用されます。また、列
 
- headers は、バインドされた列名を表示します。値を取ります**真実**また**間違い**. 
+ヘッダーは、バインドされた列の名前を表示します。値には **true** または **false** を取ります。 
 
-- プロパティ BindStartRow および BindStartColumn は、ソースがバインドされる GridWeb コントロールのシート内の位置を指定します。
-- プロパティ EnableExpandChildView は、ワークシートの展開された子ビューを無効にするために使用されます。デフォルトでは、true に設定されています。
+プロパティ BindStartRow および BindStartColumn は、ソースの GridWeb コントロールのシート内の位置を指定します。
+プロパティ EnableExpandChildView は、ワークシートの拡張子を無効にするために使用されます。デフォルトでは true に設定されています。
 
-クラスにはいくつかの便利なメソッドもあります。
+このクラスには、いくつかの便利なメソッドもあります。 
 
-- DataBind() メソッドは、シートをソースにバインドします。
-- CreateNewBindRow() は新しい行を追加し、それをデータ ソースにバインドします。
-- DeleteBindRow() はバインドされた行を削除します。
-- SetRowExpand() メソッドは、展開された行を設定し、子ビューのコンテンツをデータ バインディング モードで表示します。
+- DataBind() メソッドは、ソースとシートをバインドします。
+- CreateNewBindRow() は、新しい行を追加してそれをデータソースにバインドします。
+- DeleteBindRow() は、バインドされた行を削除します。
+- SetRowExpand() メソッドは、展開された行を設定し、データバインディングモードで子ビューコンテンツを表示します。
 - GetRowExpand() メソッドは、行が展開されているかどうかを示すブール値を取得します。
 
-以下のコードでは、DataSet オブジェクト "dataSet21" に 3 つのテーブルに基づくデータが入力されます。 Customers テーブルがフィルター処理されて、
+以下のコードでは、DataSet オブジェクト "dataSet21" に、3 つのテーブルに基づくデータが入力されます。顧客テーブルはフィルタリングされ、階層的な表示の最初のテーブルとなります。"sheet" という名前の WebWorksheet オブジェクトが作成され、まずシートをクリアし、次に 
 
-階層表示の最初のテーブル。 「シート」という名前の WebWorksheet オブジェクトが作成され、最初にシートがクリアされてから設定されます
+データ ソースにリンクされます。 
 
-データソースにリンクされています。
+**VB.NET** 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -199,7 +202,7 @@ private void BindWithoutInSheetHeaders()
 
         dataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'";
 
-        WebWorksheet sheet = GridWeb1.WebWorksheets[0];
+        WebWorksheet sheet = GridWeb1.WorkSheets[0];
 
         // Clears the sheet.
 
@@ -233,55 +236,55 @@ private void BindWithoutInSheetHeaders()
 
 {{< /highlight >}}
 
-**VB.NET**
+ワークシートで GridDesktop データ バインディング機能を実装する
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Private Sub Page_Load(System.Object としての ByVal 送信者、System.EventArgs としての ByVal e) MyBase.Load を処理します
+ Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
-'ここにページを初期化するためのユーザー コードを配置します
+    'Put user code to initialize the page here
 
-IsPostBack でない場合
+    If Not IsPostBack Then
 
-BindWithoutInSheetHeaders()
+        BindWithoutInSheetHeaders()
 
-終了条件
+    End If
 
-サブ終了
+End Sub
 
 Private Sub BindWithoutInSheetHeaders()
 
- Dim db As DemoDatabase2 = New DemoDatabase2()
+    Dim db As DemoDatabase2 = New DemoDatabase2()
 
-Dim path As String = MapPath(".")
+    Dim path As String = MapPath(".")
 
- path = path.Substring(0, path.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- path = path.Substring(0, path.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + パス + "\Database\Northwind.mdb"
+    db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + "\Database\Northwind.mdb"
 
-試す
+    Try
 
-' データベースに接続してデータを取得します。
+        ' Connects to database and fetches data.
 
- ' 顧客テーブル。
+        ' Customers Table.
 
-デシベル.OleDbDataAdapter1.Fill(DataSet21)
+        db.OleDbDataAdapter1.Fill(DataSet21)
 
- ' 注文テーブル。
+        ' Orders Table.
 
-デシベル.OleDbDataAdapter2.Fill(DataSet21)
+        db.OleDbDataAdapter2.Fill(DataSet21)
 
- 'OrderDetailTable.
+        ' OrderDetailTable.
 
-デシベル.OleDbDataAdapter3.Fill(DataSet21)
+        db.OleDbDataAdapter3.Fill(DataSet21)
 
- ' データのフィルタリング
+        ' Filter data
 
-DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
+        DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
 
-        Dim sheet As WebWorksheet = GridWeb1.WebWorksheets(0)
+        Dim sheet As WebWorksheet = GridWeb1.WorkSheets(0)
 
         ' Clears the sheet.
 

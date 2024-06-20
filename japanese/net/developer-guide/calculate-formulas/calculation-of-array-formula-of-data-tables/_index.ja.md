@@ -1,23 +1,24 @@
 ---
 title: データテーブルの配列式の計算
-description: Aspose.Cells ライブラリを使用して、Microsoft Excel のデータ テーブルの配列数式を計算する方法。既存の Excel ファイルをロードするか、新しい Excel ファイルを作成することで、Aspose.Cells が提供するメソッドを使用してデータ テーブルの配列式を計算し、結果を取得できます。最後に、変更した Excel ファイルをディスクに保存します。
-keywords: Aspose.Cells, Excel, data tables, array formulas, calculations
+description: Microsoft Excelのデータテーブルで配列式を計算するためにAspose.Cellsライブラリを使用する方法について説明します。既存のExcelファイルを読み込むか、新しいExcelファイルを作成することで、Aspose.Cellsが提供するメソッドを使用してデータテーブルの配列式を計算し、結果を取得できます。最後に変更されたExcelファイルをディスクに保存します。
+keywords: Aspose.Cells, Excel, データテーブル、配列式、計算
 type: docs
 weight: 70
 url: /ja/net/calculation-of-array-formula-of-data-tables/
 ---
+
 {{% alert color="primary" %}}
 
-[データ] > [What-If 分析] > [データ テーブル...] を使用して、Microsoft Excel でデータ テーブルを作成できます。 Aspose.Cells では、データ テーブルの配列数式を計算できるようになりました。使ってください[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)あらゆる種類の数式を計算する場合と同様に。
+Microsoft Excelでデータテーブルを作成するには、データ > 何れかの分析 > データテーブル... を使用します。 Aspose.Cellsでは今、データテーブルの配列式を計算することができます。任意のタイプの数式を計算するために通常通り [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) を使用してください。
 
 {{% /alert %}}
 
-次のサンプルコードでは、[ソースエクセルファイル](5115535.xlsx) 。セル B1 の値を 100 に変更すると、次の図に示すように、黄色で塗りつぶされたデータ テーブルの値は 120 になります。サンプルコードは、[出力PDF](5115538.pdf).
+次のサンプルコードでは、[元のExcelファイル](5115535.xlsx) を使用しました。セルB1の値を100に変更すると、黄色で塗られたデータテーブルの値が120になる様子が次の画像で示されます。サンプルコードは、[出力PDF](5115538.pdf) を生成します。
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_1.png)
 
 ![todo:image_alt_text](calculation-of-array-formula-of-data-tables_2.png)
 
-を生成するために使用されるサンプルコードは次のとおりです。[出力PDF](5115538.pdf)から[ソースエクセルファイル](5115535.xlsx)。詳細についてはコメントをお読みください。
+以下は[元のExcelファイル](5115535.xlsx) から[出力PDF](5115538.pdf) を生成するために使用されたサンプルコードです。詳細についてはコメントをお読みください。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}

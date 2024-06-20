@@ -1,20 +1,23 @@
-﻿---
-title: 行と列を挿入する
+---
+title: 行と列の挿入
 type: docs
 weight: 10
-url: /ja/net/insert-rows-and-columns/
+url: /ja/net/aspose-cells-gridweb/insert-rows-and-columns/
+keywords: GridWeb,挿入,行の挿入,列の挿入,行,列
+description: この記事では、GridWebで行と列を挿入する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-このトピックでは、Aspose.Cells.GridWeb API を使用して新しい行と列をワークシートに挿入する方法について説明します。行または列は、ワークシートの任意の位置に挿入できます。
+このトピックでは、Aspose.Cells.GridWeb APIを使用してワークシートに新しい行や列を挿入する方法について説明します。行または列はワークシートの任意の位置に挿入できます。
 
 {{% /alert %}} 
 ## **行の挿入**
 ワークシートの任意の位置に行を挿入するには:
 
-1. Aspose.Cells.GridWeb コントロールを Web フォームに追加します。
+1. Aspose.Cells.GridWebコントロールをWebフォームに追加します。
 1. 行を追加するワークシートにアクセスします。
-1. 行が挿入される行インデックスを指定して、行を挿入します。
+1. 行が挿入される行インデックスを指定して行を挿入します。
 
 
 
@@ -22,9 +25,9 @@ url: /ja/net/insert-rows-and-columns/
 ## **列の挿入**
 ワークシートの任意の位置に列を挿入するには:
 
-1. Aspose.Cells.GridWeb コントロールを Web フォームに追加します。
+1. Web フォームに Aspose.Cells.GridWeb コントロールを追加します。
 1. 列を追加するワークシートにアクセスします。
-1. 列が挿入される列インデックスを指定して、列を挿入します。
+1. 列が挿入される列インデックスを指定して列を挿入します。
 
 
 
@@ -32,6 +35,6 @@ url: /ja/net/insert-rows-and-columns/
 
 {{% alert color="primary" %}} 
 
-また、InsertRows/InsertColumns メソッドを使用して、ワークシートに複数の行/列を挿入することもできます。
+また、InsertRows/InsertColumnsメソッドを使用して、それぞれワークシートに複数の行や列を挿入することもできます。
 
 {{% /alert %}}

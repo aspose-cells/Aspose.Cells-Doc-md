@@ -1,28 +1,29 @@
-﻿---
-title: قم بتغيير نوع هدف الارتباط HTML
+---
+title: تغيير نوع الوجهة للرابط HTML
 type: docs
 weight: 320
 url: /ar/net/change-the-html-link-target-type/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells يسمح لك بتغيير نوع هدف الارتباط HTML. الارتباط HTML يشبه هذا
+تُتيح Aspose.Cells لك تغيير نوع الوجهة للرابط HTML. يبدو الرابط HTML على النحو التالي
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <a href="http://www.aspose.com/" target="_self">
 
 {{< /highlight >}}
 
-كما ترى السمة الهدف في الرابط أعلاه HTML هي ** _ self **. يمكنك التحكم في هذه السمة الهدف باستخدام خاصية [** HtmlSaveOptions.LinkTargetType **] (https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). تأخذ هذه الخاصية [** HtmlLinkTargetType **] (https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) التعداد الذي يحتوي على القيم التالية.
+كما ترون، فإن سمة الوجهة في الرابط HTML أعلاه هي **_self**. يمكنك التحكم في هذه سمة الوجهة باستخدام ال [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). تأخذ هذه الخاصية ال [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) الذي يحتوي على القيم التالية.
 
 - HtmlLinkTargetType.Blank
 - HtmlLinkTargetType.Parent
 - HtmlLinkTargetType.Self
-- HtmlLinkTargetType. أعلى
+- HtmlLinkTargetType.Top
 
 {{% /alert %}}
 
- يوضح الكود التالي استخدام[**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) خاصية. يقوم بتغيير نوع الارتباط الهدف إلى**فارغ**. بشكل افتراضي ، يكون ملف**الأبوين**.
+الشفرة العينية التالية توضح استخدام ال [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). يغيّر نوع الوجهة للرابط إلى **blank**. بشكل افتراضي، يكون هو الـ **الرئيسي**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}

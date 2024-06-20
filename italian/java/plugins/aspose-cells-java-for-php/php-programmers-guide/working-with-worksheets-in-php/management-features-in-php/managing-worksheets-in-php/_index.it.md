@@ -1,16 +1,17 @@
-﻿---
+---
 title: Gestione dei fogli di lavoro in Php
 type: docs
 weight: 10
 url: /it/java/managing-worksheets-in-php/
 ---
-## **Aspose.Cells - Gestione fogli di lavoro**
-### **Aggiunta di fogli di lavoro a un nuovo file Excel**
- Per aggiungere un foglio di lavoro a un nuovo file Excel utilizzando**Aspose.Cells Java for PHP** , chiama semplicemente**add_worksheet** metodo di**Gestione dei fogli di lavoro** modulo.
+
+## **Aspose.Cells - Gestione dei fogli di lavoro**
+### **Aggiungere fogli di lavoro a un nuovo file Excel**
+Per aggiungere un foglio di lavoro a un nuovo file Excel utilizzando **Aspose.Cells Java per PHP**, chiama semplicemente il metodo **add_worksheet** del modulo **MangingWorksheets**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object
 
@@ -33,12 +34,12 @@ $worksheet->setName("My Worksheet");
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-### **Rimozione di fogli di lavoro utilizzando il nome del foglio**
- Per rimuovere il foglio di lavoro per nome del foglio utilizzando**Aspose.Cells Java for PHP** , chiama semplicemente**remove_worksheet_by_name** metodo di**Gestione dei fogli di lavoro** modulo.
+### **Rimozione dei fogli di lavoro utilizzando il nome del foglio**
+Per rimuovere il foglio di lavoro per nome utilizzando **Aspose.Cells Java per PHP**, chiama semplicemente il metodo **remove_worksheet_by_name** del modulo **MangingWorksheets**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,12 +62,12 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-### **Rimozione di fogli di lavoro utilizzando l'indice dei fogli**
- Per rimuovere il foglio di lavoro dall'indice del foglio utilizzando**Aspose.Cells Java for PHP** , chiama semplicemente**remove_worksheet_by_index** metodo di**Gestione dei fogli di lavoro** modulo.
+### **Rimozione dei fogli di lavoro utilizzando l'indice del foglio**
+Per rimuovere il foglio di lavoro per indice utilizzando **Aspose.Cells Java per PHP**, chiama semplicemente il metodo **remove_worksheet_by_index** del modulo **MangingWorksheets**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -90,6 +91,6 @@ $fstream->close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Gestione fogli di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Gestione dei fogli di lavoro (Aspose.Cells)** da uno qualsiasi dei siti di codici sociali menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

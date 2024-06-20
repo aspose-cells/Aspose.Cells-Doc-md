@@ -1,103 +1,104 @@
-﻿---
+---
 title: Работа с настройками шрифта
 linktitle: Настройки шрифта
 type: docs
 weight: 20
 url: /ru/java/dealing-with-font-settings/
 ---
+
 {{% alert color="primary" %}} 
 
-Внешний вид текста можно контролировать, изменяя настройки шрифта. Эти настройки шрифта могут включать имя, стиль, размер, цвет и другие эффекты шрифтов, как показано ниже на рисунке:
+Внешний вид текста можно контролировать, изменяя его настройки шрифта. Эти настройки шрифта могут включать имя, стиль, размер, цвет и другие эффекты шрифтов, как показано ниже на рисунке:
 
 **Настройки шрифта в Microsoft Excel** 
 
-![дело:изображение_альтернативный_текст](dealing-with-font-settings_1.png)
+![todo:image_alt_text](dealing-with-font-settings_1.png)
 
-Как и Microsoft Excel, Aspose.Cells также поддерживает настройку параметров шрифта ячеек.
+Как и Microsoft Excel, Aspose.Cells также поддерживает настройку настроек шрифта ячеек.
 
 {{% /alert %}} 
-## **Настройка параметров шрифта**
- Aspose.Cells предоставляет класс,[Рабочая тетрадь](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) который представляет собой файл Excel Microsoft.[Рабочая тетрадь](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) класс содержит[Рабочий листКоллекция](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) который позволяет получить доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[Рабочий лист](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)учебный класс.[Рабочий лист](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) класс предоставляет[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) коллекция. Каждый элемент в[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) коллекция представляет собой объект[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)учебный класс.
+## **Настройка настроек шрифта**
+Aspose.Cells предоставляет класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), который представляет файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) содержит [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection), которая позволяет получить доступ к каждому листу в файле Excel. Лист представлен классом [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Класс [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) предоставляет коллекцию [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Каждый элемент в коллекции [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) представляет объект класса [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell).
 
- Aspose.Cells обеспечивает[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) учебный класс'[setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\) ), используемый для установки форматирования ячейки. Также объектом[Стиль](https://reference.aspose.com/cells/java/com.aspose.cells/Style)класс предоставляет свойства для настройки параметров шрифта.
+Aspose.Cells предоставляет метод [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) класса [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell), используемый для установки форматирования ячейки. Кроме того, объект класса [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) предоставляет свойства для настройки параметров шрифта.
 
 В этой статье показано, как:
 
-- [Применение определенного шрифта к тексту.](/cells/ru/java/dealing-with-font-settings/)
-- [Сделать текст жирным](/cells/ru/java/dealing-with-font-settings/).
-- [Установите размер шрифта](/cells/ru/java/dealing-with-font-settings/).
+- [Применить определенный шрифт к тексту.](/cells/ru/java/dealing-with-font-settings/)
+- [Установить текст жирным](/cells/ru/java/dealing-with-font-settings/).
+- [Установить размер шрифта](/cells/ru/java/dealing-with-font-settings/).
 - [Установить цвет шрифта](/cells/ru/java/dealing-with-font-settings/).
 - [Подчеркнуть текст](/cells/ru/java/dealing-with-font-settings/).
-- [Зачеркнутый текст](/cells/ru/java/dealing-with-font-settings/).
-- [Установить текст в индекс](/cells/ru/java/dealing-with-font-settings/).
-- [Сделать текст надстрочным](/cells/ru/java/dealing-with-font-settings/).
-### **Настройка имени шрифта**
- Применение определенного шрифта к тексту в ячейках с помощью кнопки[Шрифт](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекты[Имя набора](https://reference.aspose.com/cells/java/com.aspose.cells/font#Name)имущество.
+- [Перечеркнуть текст](/cells/ru/java/dealing-with-font-settings/).
+- [Установить текст нижним индексом](/cells/ru/java/dealing-with-font-settings/).
+- [Установить текст верхним индексом](/cells/ru/java/dealing-with-font-settings/).
+### **Установка названия шрифта**
+Примените определенный шрифт к тексту в ячейках, используя свойство [setName](https://reference.aspose.com/cells/java/com.aspose.cells/font#Name) объекта [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontName-SettingFontName.java" >}}
-### **Установка стиля шрифта на полужирный**
- Выделите текст жирным шрифтом, установив[Шрифт](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекты[установить полужирный](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsBold) собственность на**истинный**.
+### **Установка стиля шрифта на жирный**
+Установите текст жирным путем установки свойства [setBold](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsBold) объекта [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) на **true**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SettingFontStyle-1.java" >}}
-### **Настройка размера шрифта**
- Установите размер шрифта с помощью[Шрифт](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекты[setSize](https://reference.aspose.com/cells/java/com.aspose.cells/font#Size)имущество.
+### **Установка размера шрифта**
+Установите размер шрифта, используя свойство [setSize](https://reference.aspose.com/cells/java/com.aspose.cells/font#Size) объекта [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontSize-SetFontSize.java" >}}
-### **Настройка типа подчеркивания шрифта**
- Подчеркните текст с помощью[Шрифт](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекты[setUnderline](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) имущество. Aspose.Cells предлагает различные предопределенные типы подчеркивания шрифта в[ШрифтПодстрочныйТип](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType)перечисление.
+### **Установка типа подчеркивания шрифта**
+Подчеркните текст с помощью свойства [setUnderline](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) объекта [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) . Aspose.Cells предлагает различные предопределенные типы подчеркивания шрифта в перечислении [FontUnderlineType](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType)
 
 |**Типы подчеркивания шрифта**|**Описание**|
-|:- |:- |
-|[НИКТО](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#NONE)|Без подчеркивания|
-|[НЕ ЗАМУЖЕМ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|Одно подчеркивание|
-|[ДВОЙНОЙ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)|Двойное подчеркивание|
-|[БУХГАЛТЕРСКИЙ УЧЕТ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)|Единое бухгалтерское подчеркивание|
-|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE_ACCOUNTING)|Двойное бухгалтерское подчеркивание|
-|[БРОСАТЬСЯ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH)|Пунктирное подчеркивание|
-|[БРОСАТЬСЯ_ТОЧКА_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_DOT_HEAVY)|Подчеркивание жирным тире-точкой-точкой|
-|[БРОСАТЬСЯ_ТОЧКА_ТЯЖЕЛЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_HEAVY)|Подчеркивание толстой штрихпунктирной линией|
-|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED_HEAVY)|Подчеркивание жирным пунктиром|
-|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG)|Подчеркивание длинной пунктирной линией|
-|[БРОСАТЬСЯ_ДЛИННЫЙ_ТЯЖЕЛЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)|Подчеркивание толстой длинной пунктирной линией|
-|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DASH)|Подчеркивание тире-точкой|
-|[ТОЧКА_ТОЧКА_БРОСАТЬСЯ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DOT_DASH)|Штрих-точка-точка подчеркивание|
-|[ПУНКТИРНЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)|Пунктирное подчеркивание|
-|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED_HEAVY)|Подчеркивание жирным пунктиром|
-|[ТЯЖЕЛЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#HEAVY)|Толстое подчеркивание|
-|[ВОЛНА](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|Подчеркивание волны|
-|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|Подчеркивание двойной волны|
-|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|Подчеркивание тяжелой волны|
-|` `[СЛОВА](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|Подчеркивание только не пробельных символов|
+| :- | :- |
+|[NONE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#NONE)| Без подчеркивания|
+|[SINGLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)| Одиночное подчеркивание|
+|[DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)| Двойное подчеркивание|
+|[ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)| Одиночное подчеркивание в учетной записи|
+|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE_ACCOUNTING)| Двойное подчеркивание в учетной записи|
+|[DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH)| Пунктирное подчеркивание|
+|[DASH_DOT_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_DOT_HEAVY)| Толстое пунктирно-точечное подчеркивание|
+|[DASH_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_HEAVY)| Толстое пунктирное подчеркивание|
+|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED_HEAVY)| Толстое пунктирное подчеркивание|
+|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG)| Длинное пунктирное подчеркивание|
+|[DASH_LONG_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)| Толстое длинное пунктирное подчеркивание|
+|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DASH)| Пунктирно-точечное подчеркивание|
+|[DOT_DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DOT_DASH)| Пунктирно-точечное-точечное подчеркивание|
+|[DOTTED](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)| Пунктирное подчеркивание|
+|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED_HEAVY)| Толстое пунктирное подчеркивание|
+|[HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#HEAVY)| Толстое подчеркивание|
+|[WAVE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)| Волнообразное подчеркивание|
+|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)| Двойное волнообразное подчеркивание|
+|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|Тяжелая волна подчеркивания|
+|[WORDS](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|Подчеркнуть только символы без пробелов|
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontUnderlineType-SettingFontUnderlineType.java" >}}
 
 
 
-### **Настройка цвета шрифта**
- Установите цвет шрифта с помощью[Шрифт](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекты[setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color) имущество. Выберите любой цвет из[Цвет](https://reference.aspose.com/cells/java/com.aspose.cells/Color) перечисление и присвоить выбранный цвет[Шрифт](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекты[setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color).
+### **Установка цвета шрифта**
+Установите цвет шрифта с помощью свойства [setColor](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекта [Font](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color) . Выберите любой цвет из перечисления [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) и присвойте выбранный цвет объекту [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) через свойство [setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontColor-SetFontColor.java" >}}
 
 
 
-### **Установка эффекта зачеркивания для текста**
- Зачеркнутый текст с[Шрифт](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекты[setStrikeout](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsStrikeout)имущество.
+### **Установка зачеркивания текста**
+Зачеркните текст с помощью свойства [setStrikeout](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекта [Font](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsStrikeout) .
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingStrikeOutEffect-SettingStrikeOutEffect.java" >}}
 
 
 
-### **Установка индекса**
- Сделать текст надстрочным с помощью[Шрифт](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекты[setSubscript](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)имущество.
+### **Установка нижнего индекса**
+Используйте свойство [setSubscript](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекта [Font](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript) , чтобы сделать текст нижним индексом.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSubscript-SetSubscript.java" >}}
 
 
 
-### **Установка верхнего индекса**
- Применить надстрочный индекс к тексту с помощью[Шрифт](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекты[setSuperscript](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript)имущество.
+### **Настройка верхнего индекса**
+Примените верхний индекс к тексту с помощью свойства [setSuperscript](https://reference.aspose.com/cells/java/com.aspose.cells/Font) объекта [Font](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) .
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSuperscript-SetSuperscript.java" >}}
 
-## **Предварительные темы**
-- [Применение эффектов верхнего и нижнего индекса к шрифтам](/cells/ru/java/apply-superscript-and-subscript-effects-on-fonts/)
-- [Получить список шрифтов, используемых в электронной таблице или книге](/cells/ru/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+## **Продвинутые темы**
+- [Применить эффект верхнего и нижнего индекса к шрифтам](/cells/ru/java/apply-superscript-and-subscript-effects-on-fonts/)
+- [Получение списка используемых шрифтов в электронной таблице или книге](/cells/ru/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)

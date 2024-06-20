@@ -3,78 +3,79 @@ title: Автоподбор строк и столбцов
 type: docs
 weight: 20
 url: /ru/net/autofit-rows-and-columns/
-description: В этой статье показано, как автоматически подогнать строки, столбцы, строки объединенных ячеек и строку в диапазоне ячеек по номеру Aspose.Cells for .NET API.
-keywords: Autofit rows, autofit columns, autofit row in a range of cells, autofit rows of merged cells
+description: В этой статье показано, как автоматически подогнать строки, столбцы, строки объединенных ячеек и строку в диапазоне ячеек с помощью API Aspose.Cells for .NET.
+keywords: Автоподбор строк, автоподбор столбцов, автоподбор строки в диапазоне ячеек, автоподбор строк объединенных ячеек
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel позволяет пользователям автоматически изменять ширину и высоту ячеек в соответствии с их содержимым. Эта функция также доступна по номеру Aspose.Cells, поэтому разработчики могут автоматически изменять размеры ячейки во время выполнения.
+Microsoft Excel позволяет пользователям автоматически изменять размеры ячеек в соответствии с ее содержимым. Эта функция также доступна через Aspose.Cells, чтобы разработчики могли автоматически изменять размеры ячейки во время выполнения.
 
 {{% /alert %}}
 
-##  **Авто Установка**
+## **Автоматическая подгонка размера**
 
-Aspose.Cells предоставляет[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook)класс, представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook)класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)коллекция, которая обеспечивает доступ к каждому листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) сорт.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Класс предоставляет широкий спектр свойств и методов для управления листом. В этой статье рассматривается использование[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)class для автоподбора строк или столбцов.
+Aspose.Cells предоставляет класс, который представляет файл Microsoft Excel. Класс содержит коллекцию, которая позволяет получить доступ к каждому листу в файле Excel. Лист представлен классом. Класс предоставляет широкий спектр свойств и методов для управления листом. В этой статье рассматривается использование класса для автонастройки строк или столбцов.
 
-###  **Автоподбор строк – простой**
+### **Автоматическая подгонка строки - простой**
 
- Самый простой подход к автоматическому изменению ширины и высоты строки — вызвать метод[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) сорт[**Автоподбор строки**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) метод.[**Автоподбор строки**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index)Метод принимает индекс строки (строки, размер которой нужно изменить) в качестве параметра.
+Наиболее простой способ автоматического изменения ширины и высоты строки - вызвать метод класса. Метод принимает индекс строки (строки, которую нужно изменить в размере) в качестве параметра.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsandColumns-1.cs" >}}
 
-###  **Как автоподбор строки в диапазоне Cells**
+### **Как автоматически подогнать строку в диапазоне ячеек**
 
- Строка состоит из множества столбцов. Aspose.Cells позволяет разработчикам автоматически подгонять строку на основе содержимого диапазона ячеек внутри строки, вызывая перегруженную версию метода[**Автоподбор строки**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)метод. Он принимает следующие параметры:
+Строка состоит из многих столбцов. Aspose.Cells позволяет разработчикам автоматически подгонять строку на основе содержимого диапазона ячеек в строке путем вызова перегруженной версии метода. Он принимает следующие параметры:
 
-- *Индекс строки**: индекс строки, которая будет автоматически подогнана.
-- *Индекс первого столбца** — индекс первого столбца строки.
-- *Индекс последнего столбца** – индекс последнего столбца строки.
+- Индекс строки, индекс строки, которую нужно автоматически подогнать.
+- Индекс первого столбца, индекс первого столбца строки.
+- Индекс последнего столбца, индекс последнего столбца строки.
 
-[**Автоподбор строки**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)Метод проверяет содержимое всех столбцов в строке, а затем автоматически подгоняет строку.
+Метод проверяет содержимое всех столбцов в строке, а затем автоматически подгоняет строку.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowinSpecificRange-1.cs" >}}
 
-###  **Как автоматически подогнать столбец в диапазоне Cells**
+### **Как автоматически подогнать столбец в диапазоне ячеек**
 
- Столбец состоит из множества строк. Можно автоматически подогнать столбец на основе содержимого диапазона ячеек столбца, вызвав перегруженную версию[**Автоподбор столбца**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)метод, который принимает следующие параметры:
+Столбец состоит из многих строк. Возможно автоматически подогнать столбец на основе содержимого диапазона ячеек в столбце, вызвав перегруженную версию метода, который принимает следующие параметры:
 
-- *Индекс столбца**: индекс столбца, который будет автоматически подставлен.
-- *Индекс первой строки** — индекс первой строки столбца.
-- *Индекс последней строки** — индекс последней строки столбца.
+- Индекс столбца, индекс столбца, который нужно автоматически подогнать.
+- Индекс первой строки, индекс первой строки столбца.
+- Индекс последней строки, индекс последней строки столбца.
 
-[**Автоподбор столбца**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)Метод проверяет содержимое всех строк в столбце, а затем автоматически подгоняет столбец.
+Метод проверяет содержимое всех строк в столбце, а затем автоматически подгоняет столбец.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitColumninSpecificRange-1.cs" >}}
 
-###  **Как автоматически подогнать строки для объединенных Cells**
+### **Как автоматически подогнать строки для объединенных ячеек**
 
- С помощью Aspose.Cells можно автоматически подогнать строки даже для ячеек, которые были объединены с помощью[**Параметры автоподборщика**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) API. [**Параметры автоподборщика**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)класс обеспечивает[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype) свойство, которое можно использовать для автоматического подбора строк для объединенных ячеек.[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)принимает[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype) перечисляемый, который имеет следующие члены.
+С помощью Aspose.Cells можно автоматически подгонять строки даже для ячеек, которые были объединены с использованием API. Класс предоставляет свойство, которое может быть использовано для автоматической подгонки строк для объединенных ячеек. принимает перечисление, которое имеет следующие члены.
 
-- Нет: игнорировать объединенные ячейки.
-- FirstLine: увеличивает только высоту первой строки.
-- LastLine: увеличивает высоту только последней строки.
-- EachLine: увеличивает только высоту каждой строки.
+- Никакой: Игнорировать объединенные ячейки.
+- ПерваяСтрока: Только увеличивает высоту первой строки.
+- ПоследняяСтрока: Только увеличивает высоту последней строки.
+- КаждаяСтрока: Только увеличивает высоту каждой строки.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsforMergedCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Вы также можете попробовать использовать перегруженные версии[**Автоподбор строк**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrows) & [**Автоподбор столбцов**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitcolumns) методы, принимающие диапазон строк/столбцов и экземпляр[**Параметры автоподборщика**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) чтобы автоматически подогнать выбранные строки/столбцы по вашему желанию[**Параметры автоподборщика**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)соответственно.
+Вы также можете попробовать использовать перегруженные версии методов [**AutoFitRows**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrows) и [**AutoFitColumns**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitcolumns), принимающие диапазон строк/столбцов и экземпляр [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) для автоматической подгонки выбранных строк/столбцов в соответствии с вашими желаемыми [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions).
 
-Сигнатуры вышеупомянутых методов следующие:
+Сигнатуры вышеперечисленных методов выглядят следующим образом:
 
-1.  AutoFitRows(int startRow, int endRow,[**Параметры автоподборщика**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)параметры)
-1.  AutoFitColumns(int firstColumn, int LastColumn,[**Параметры автоподборщика**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)параметры)
+1. AutoFitRows(int startRow, int endRow, [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) опции)
+1. AutoFitColumns(int firstColumn, int lastColumn, [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) опции)
 
 {{% /alert %}}
 
-##  **Важно знать**
+## **Важно знать**
 
 {{% alert color="primary" %}}
 
-Если ячейка объединена, методы автоподбора не будут применены, что аналогично Microsoft Excel. Эту проблему можно обойти, используя автофильтр API. Более того, если текст в ячейке переносится,[**Автоподбор столбца**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) метод также не будет применяться. Еще одна вещь, которую вам нужно знать, это то, что*Автоподбор*методы требуют много времени. Поэтому вам следует вызывать эти методы как можно реже, чтобы обеспечить эффективность вашего приложения.
+Если ячейка объединена, то методы AutoFit не будут применены, что соответствует тому же поведению, что и в Microsoft Excel. Вы можете обойти это, используя API автофильтра. Более того, если текст в ячейке перенесен, метод [**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) также не будет применен. Еще одна вещь, которую нужно знать, заключается в том, что методы AutoFit занимают много времени. Поэтому вы должны вызывать эти методы как можно реже, чтобы обеспечить эффективность вашего приложения.
 
 {{% /alert %}}
 
-##  **Предварительные темы**
-- [Автоподбор строк для объединенных Cells](/cells/ru/net/autofit-rows-for-merged-cells/)
+## **Продвинутые темы**
+- [AutoFit строк для объединенных ячеек](/cells/ru/net/autofit-rows-for-merged-cells/)

@@ -1,28 +1,29 @@
-﻿---
-title: أدخل النطاقات
+---
+title: إدراج المجالات
 type: docs
 weight: 20
 url: /ar/java/insert-ranges-to-Excel/
 ---
+
 ## **مقدمة**
 
-في Excel ، يمكنك تحديد نطاق ، ثم إدراج نطاق وتحويل البيانات الأخرى إلى اليمين أو الأسفل.
+في Excel ، يمكنك تحديد مجال ، ثم إدراج مجال ونقل البيانات الأخرى يمينًا أو لأسفل.
 
-**! [خيارات التحول] (InsertRange.png)**
+**![خيارات النقل](InsertRange.png)**
 
-## **أدخل النطاقات باستخدام Aspose.Cells**
+## **إدراج المجالات باستخدام Aspose.Cells**
 
- يوفر Aspose.Cells[Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) طريقة لإدراج نطاق.
+توفر Aspose.Cells [خلية.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) طريقة لإدراج نطاق.
 
-## **أدخل النطاقات وقم بإزاحة Cells لليمين**
+## **إدراج مجموعات ونقل الخلايا إلى اليمين**
 
-أدخل راناج وخلايا التحول بشكل صحيح كما هو الحال مع الرموز التالية مع Aspose.Cells:
+إدراج مجموعة ونقل الخلايا إلى اليمين مثلما في الشفرات التالية مع Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Right.java" >}}
 
-## **أدخل النطاقات وقم بإزاحة Cells لأسفل**
+## **إدراج مجموعات ونقل الخلايا للأسفل**
 
-أدخل راناج وتحول الخلايا لأسفل على النحو التالي مع الرموز التالية مع Aspose.Cells:
+إدراج مجموعة ونقل الخلايا للأسفل كما في الشفرات التالية مع Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 

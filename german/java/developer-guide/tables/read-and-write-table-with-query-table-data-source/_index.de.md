@@ -1,15 +1,16 @@
-﻿---
-title: Lese- und Schreibtabelle mit Abfragetabellen-Datenquelle
+---
+title: Tabelle mit Abfrage Tabellendatenquelle lesen und schreiben
 type: docs
 weight: 60
 url: /de/java/read-and-write-table-with-query-table-data-source/
 ---
-## **Lese- und Schreibtabelle mit Abfragetabellen-Datenquelle**
-Mit Aspose.Cells können Sie eine Tabelle lesen und schreiben, die eine QueryTable als Datenquelle hat. Die Unterstützung für diese Funktion existiert auch für XLS-Dateien. Das folgende Code-Snippet demonstriert das Lesen und Schreiben einer solchen Tabelle, indem zuerst die Tabelle gelesen und dann geändert wird, um die Summenzeile hinzuzufügen.
+
+## **Tabelle mit Abfrage-Tabellendatenquelle lesen und schreiben**
+Mit Aspose.Cells können Sie eine Tabelle lesen und schreiben, die eine Abfrage-Tabelle als Datenquelle hat. Die Unterstützung für dieses Feature existiert auch für XLS-Dateien. Der folgende Codeausschnitt demonstriert das Lesen und Schreiben einer solchen Tabelle, indem zuerst die Tabelle gelesen und dann modifiziert wird, um die Summenzeile hinzuzufügen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Tables-ReadAndWriteTableWithQueryTableDataSource-1.java" >}}
 
-Die Quell- und Ausgabe-Excel-Dateien sind als Referenz beigefügt.
+Die Quell- und Ausgabedateien sind als Referenz angehängt.
 
 [Quelldatei](SampleTableWithQueryTable.xls)
 

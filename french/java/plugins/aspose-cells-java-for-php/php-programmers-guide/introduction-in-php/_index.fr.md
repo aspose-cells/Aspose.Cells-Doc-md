@@ -1,9 +1,10 @@
-﻿---
-title: Introduction à PHP
+---
+title: Introduction en PHP
 type: docs
 weight: 10
 url: /fr/java/introduction-in-php/
 ---
-**Cette section comprend les rubriques suivantes :**
 
-- [Hello World](/cells/fr/java/hello-world/)
+**Cette section inclut les sujets suivants:**
+
+- [Bonjour le Monde](/cells/fr/java/hello-world/)

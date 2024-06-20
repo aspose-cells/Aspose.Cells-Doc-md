@@ -1,17 +1,18 @@
-﻿---
-title: Kesinlikle Yazılmış Verileri İçeren Sütunlar
+---
+title: Güçlü Türde Veri İçeren Sütunlar
 type: docs
 weight: 20
 url: /tr/net/columns-containing-strongly-typed-data/
 ---
-Bir elektronik tablonun verileri bir dizi satır ve sütun olarak sakladığını biliyoruz. Bir çalışma sayfasının sütunlarındaki tüm değerler kesin olarak yazılmışsa (bu, bir sütundaki tüm değerlerin aynı veri türüne sahip olması gerektiği anlamına gelir), o zaman çalışma sayfasının içeriğini çağırarak dışa aktarabiliriz.**ExportDataTable** Cells sınıfının yöntemi.**ExportDataTable** yöntem, çalışma sayfası verilerini şu şekilde dışa aktarmak için aşağıdaki parametreleri alır:**Veri tablosu** nesne:**Satır numarası** , verilerin dışa aktarılacağı ilk hücrenin satır numarasını temsil eder
+
+Bir elektronik tablo, verileri bir dizi satır ve sütun olarak depolar. Bir çalışma sayfasının sütunlarının tüm değerleri güçlü bir şekilde türdeyse (bu, bir sütundaki tüm değerlerin aynı veri tipine sahip olması gerektiği anlamına gelir) o zaman **Cells** sınıfının **ExportDataTable** yöntemini çağırarak çalışma sayfası içeriğini dışa aktarabiliriz. **ExportDataTable** yöntemi, çalışma sayfasındaki verileri **DataTable** nesnesi olarak dışa aktarmak için aşağıdaki parametreleri alır: **Satır Numarası** , verilerin dışa aktarılacağı ilk hücrenin satır numarasını temsil eder
 
 - **Sütun Numarası** , verilerin dışa aktarılacağı ilk hücrenin sütun numarasını temsil eder
-- **Satır sayısı** , dışa aktarılacak satır sayısını temsil eder
-- **Sütun sayısı** dışa aktarılacak sütun sayısını temsil eder
-- **Sütun Adlarını Dışa Aktar** , çalışma sayfasının ilk satırındaki verilerin DataTable'ın sütun adları olarak dışa aktarılıp aktarılmayacağını belirten bir boole özelliği
+- **Satır Sayısı** , dışa aktarılacak satır sayısını temsil eder
+- **Sütun Sayısı** , dışa aktarılacak sütun sayısını temsil eder
+- **Sütun İsimlerini Dışa Aktar** , çalışma sayfasının ilk satırındaki verilerin **DataTable** sütun isimleri olarak dışa aktarılıp aktarılmayacağını gösteren bir boolean özelliği
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 

@@ -1,7 +1,10 @@
-﻿---
+---
 title: 描画オブジェクト
-linktitle: 形
+linktitle: シェイプ
 type: docs
 weight: 130
 url: /ja/java/drawing-objects/
 ---
+
+
+

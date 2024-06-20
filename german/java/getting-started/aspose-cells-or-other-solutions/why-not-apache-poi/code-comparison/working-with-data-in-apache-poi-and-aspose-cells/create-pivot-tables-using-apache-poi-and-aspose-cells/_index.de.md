@@ -1,19 +1,20 @@
-﻿---
-title: Erstellen Sie Pivot-Tabellen mit Apache POI und Aspose.Cells
+---
+title: Pivot Tabellen mit Apache POI und Aspose.Cells erstellen
 type: docs
 weight: 40
 url: /de/java/create-pivot-tables-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells – Pivot-Tabelle erstellen**
-So erstellen Sie eine Pivot-Tabelle mit Aspose.Cells:
 
-1. Fügen Sie mithilfe der setValue-Methode eines Cell-Objekts einige Daten zu Arbeitsblattzellen hinzu. Sie verwenden auch eine bereits mit Daten gefüllte Vorlagendatei. Die Daten werden als Datenquelle der Pivot-Tabelle verwendet.
-1. Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die add-Methode von PivotTableCollection aufrufen (eingekapselt im Objekt {{Worksheet }}).
-1. Greifen Sie auf das neue PivotTable-Objekt aus der PivotTableCollection-Auflistung zu, indem Sie seinen Index übergeben.
+## **Aspose.Cells - Pivot-Tabelle erstellen**
+Um eine Pivot-Tabelle mit Aspose.Cells zu erstellen:
+
+1. Fügen Sie mithilfe der Methode setValue eines Cell-Objekts Daten in Zellen eines Arbeitsblatts ein. Verwenden Sie auch eine Vorlagendatei, in die bereits Daten eingefügt wurden. Die Daten dienen als Datenquelle für die Pivot-Tabelle.
+1. Fügen Sie dem Arbeitsblatt mithilfe der add-Methode der PivotTableCollection (eingekapselt im {{Worksheet}}-Objekt) eine Pivot-Tabelle hinzu.
+1. Greifen Sie durch Angabe des Index' auf das neue PivotTable-Objekt aus der PivotTableCollection zu.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -152,10 +153,10 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - Erstellen Sie Pivot-Tabellen**
+## **Apache POI SS (HSSF + XSSF) - Pivot-Tabellen erstellen**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  XSSFWorkbook wb = new XSSFWorkbook();
 
@@ -186,17 +187,17 @@ pivotTable.addColumnLabel(DataConsolidateFunction.AVERAGE, 2);
 pivotTable.addReportFilter(3);
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Laden Sie Laufbeispiele für**Erstellen Sie Pivot-Tabellen mit Apache POI und Aspose.Cells** von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Beispiele für das Erstellen von Pivot-Tabellen mit Apache POI und Aspose.Cells von einer der unten genannten sozialen Coding-Websites herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **Quellcode herunterladen**
- Quellcode herunterladen für**Erstellen Sie Pivot-Tabellen mit Apache POI und Aspose.Cells** von einer der unten genannten Social-Coding-Sites:
+Quellcode für **Erstellen von Pivot-Tabellen mit Apache POI und Aspose.Cells** von einer der unten genannten sozialen Programmierseiten herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Erstellen Sie Pivot-Tabellen und Pivot-Diagramme](/cells/de/java/create-pivot-tables-and-pivot-charts/).
+Für weitere Details besuchen Sie [Erstellen von Pivot-Tabellen und Pivot-Diagrammen](/cells/de/java/Erstellen-von-Pivot-Tabellen-und-Pivot-Diagrammen/).
 
 {{% /alert %}}

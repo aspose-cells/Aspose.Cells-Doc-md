@@ -1,20 +1,21 @@
-﻿---
-title: Şerit XML'yi Özelleştirme
-linktitle: Excel Menüsünü Özelleştir
+---
+title: Ribbon XML i Özelleştirme
+linktitle: Excel Menüsünü Özelleştirme
 type: docs
 weight: 1500
 url: /tr/net/customizing-the-ribbon-xml/
 ---
+
 {{% alert color="primary" %}} 
 
- Microsoft Office, Office 2007'den bu yana menüleri ve araç çubuklarını uygulama penceresinin üst kısmında bir Şerit ile değiştirdi. Şerit özelleştirilebilir.
-Aspose.Cells size izin verir
+Microsoft Office, ofis 2007'den bu yana uygulama penceresinin üstünde bir Ribbon ile menüleri ve araç çubuklarını değiştirdi. Ribbon özelleştirilebilir. 
+Aspose.Cells,
 
-- Şerit XML'i ayrıştırmadan saklayın,
-- Şerit XML'i ayrıştırmadan okuyun ve yazın,
-- Şerit XML verilerini alın ve ayarlayın.
+- Parse etmeden Ribbon XML'yi saklamanıza olanak tanır.
+- Açılış işareti ve açılış etiketi işareti XML sınıfı kullanarak işaretleme.
+- Veri ilişkilendirmesi yöntemi kullanarak XML dosyalarını aktifleştirebilme.
 
-Şerit XML'i değiştirmek istiyorsanız, onu bir XML ayrıştırıcı veya başka bir Şerit XML aracıyla ayrıştırmanız gerekir.
+Eğer açılış XML’ni değiştirmek istiyorsanız, XML veri işaretleme aracıları ya da başka bir açılış XML aracı kullanarak, onu işaretleşmelisiniz.
 
 {{% /alert %}} 
 

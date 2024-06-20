@@ -1,12 +1,13 @@
-﻿---
-title: Zählen Sie die Anzahl der Zellen im Arbeitsblatt
+---
+title: Anzahl der Zellen im Arbeitsblatt zählen
 type: docs
 weight: 120
 url: /de/java/count-number-of-cells-in-the-worksheet/
 ---
-## **Zählen Sie die Anzahl der Zellen im Arbeitsblatt**
 
-Sie können die Anzahl der Zellen im Arbeitsblatt zählen, indem Sie die aufrufen[**Cells.getCount**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count)() oder[**Cells.getCountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge)() Eigenschafts-Getter, wie im folgenden Codebeispiel gezeigt.
+## **Anzahl der Zellen im Arbeitsblatt zählen**
+
+Sie können die Anzahl der Zellen im Arbeitsblatt ermitteln, indem Sie die Methode [**Cells.getCount**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count)() oder [**Cells.getCountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge)()-Eigenschaftsgetter wie im unten gezeigten Codebeispiel aufrufen.
 
 ## Beispielcode
 

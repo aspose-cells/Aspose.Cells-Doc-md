@@ -1,19 +1,20 @@
 ---
-title: Z ekseni
-description: Aspose.Cells for Java numaralı telefondan Z ekseniyle nasıl çalışılacağını öğrenin. Kılavuzumuz, grafiklerinizi geliştirmek için ölçeği ve etiketleri de dahil olmak üzere Z eksenini nasıl yapılandıracağınızı ve özelleştireceğinizi anlamanıza yardımcı olacaktır.
-keywords: Aspose.Cells for Java, Z-axis, charting, configuration, customization, scale, labels.
+title: Z Ekseni
+description: Aspose.Cells for Java de Z ekseni ile nasıl çalışacağınızı öğrenin. Rehberimiz, ölçek ve etiketleri de dahil olmak üzere Z ekseni nasıl yapılandırıp özelleştireceğinizi anlamanıza yardımcı olacaktır, böylece grafiklerinizi geliştirebilirsiniz.
+keywords: Aspose.Cells for Java, Z ekseni, grafik oluşturma, yapılandırma, özelleştirme, ölçek, etiketler.
 type: docs
 weight: 210
 url: /tr/java/z-axis/
 ---
-##  **Olası Kullanım Senaryoları**
-Z ekseni olarak da bilinen, değiştirebileceğiniz bir derinlik (seri) eksenine sahip 3 boyutlu sütun, 3 boyutlu koni veya 3 boyutlu piramit gibi bazı 3 boyutlu grafikler için. Onay işaretleri, eksen etiketleri ve diğer işlemler arasındaki aralığı belirleyebilirsiniz.
-##  **Birincil ve İkinci Ekseni Microsoft Excel gibi kullanın**
- Lütfen yeni bir Excel dosyası oluşturan ve grafiğin değerlerini ilk çalışma sayfasına koyan aşağıdaki örnek koda bakın. Daha sonra bir grafik ekliyoruz ve grafik tipini Column3D olarak ayarlıyoruz, ardından Derinlik Ekseni olarak da adlandırılan Z Eksenini görebilirsiniz.
 
-![yapılacak şey:image_alt_text](excel.png)
+## **Olası Kullanım Senaryoları**
+Derinlik (seri) ekseni olarak da bilinen Z ekseni gibi bazı 3 boyutlu grafikler için değişiklik yapabilirsiniz. İşaret aralığı, eksen etiketleri ve diğer işlemleri belirtebilirsiniz.
+## **Birincil ve İkinci Ekseni Microsoft Excel gibi ele alın**
+Lütfen aşağıdaki örnek kodları inceleyin, yeni bir Excel dosyası oluşturun ve çalışma sayfasına grafiğin değerlerini ekleyin. Daha sonra bir grafik ekleyin ve grafik türünü Sütun3D olarak ayarlayın, böylece Z Ekseni olarak da adlandırılan Derinlik Eksenini görebilirsiniz. 
 
- Aşağıdaki örnek kod şunu oluşturur:[Excel dosyasının çıktısı](ZAxis.xlsx).
+![todo:image_alt_text](excel.png)
 
-##  **Basit kod**
+Aşağıdaki örnek kod, [çıktı Excel dosyası](ZAxis.xlsx) oluşturur.
+
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ZAxis.java" >}}

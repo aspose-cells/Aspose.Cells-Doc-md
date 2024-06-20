@@ -1,26 +1,27 @@
 ---
-title: Lire les étiquettes des axes après avoir calculé le graphique
-description: Apprenez à lire les étiquettes des axes dans Aspose.Cells for .NET après avoir calculé le graphique. Notre guide vous montrera comment accéder et récupérer les étiquettes des axes, y compris leur formatage et leur positionnement.
-keywords: Aspose.Cells for .NET, chart, axis labels, calculation, reading, accessing, retrieving, formatting, positioning.
+title: Lire les étiquettes d axe après avoir calculé le graphique
+description: Apprenez à lire les étiquettes d axe dans Aspose.Cells for .NET après avoir calculé le graphique. Notre guide vous montrera comment accéder et récupérer les étiquettes d axe, y compris leur formatage et leur positionnement.
+keywords: Aspose.Cells for .NET, graphique, étiquettes d axe, calcul, lecture, accès, récupération, formatage, positionnement.
 type: docs
 weight: 90
 url: /fr/net/read-axis-labels-after-calculating-the-chart/
 ---
-##  **Scénarios d'utilisation possibles**
 
-Vous pouvez lire les étiquettes des axes de votre graphique après avoir calculé ses valeurs à l'aide de la touche[**Graphique.Calculer()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/calculate/)méthode. Veuillez utiliser le[**Axis.GetAxisTexts()**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/getaxistexts/) méthode à cet effet qui renverra la liste des étiquettes d’axe.
+## **Scénarios d'utilisation possibles**
 
-##  **Lire les étiquettes des axes après avoir calculé le graphique**
+Vous pouvez lire les étiquettes d'axe de votre graphique après avoir calculé ses valeurs en utilisant la méthode [**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/calculate/). Veuillez utiliser la méthode [**Axis.GetAxisTexts()**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/getaxistexts/) à cette fin qui renverra la liste des étiquettes d'axe.
 
-Veuillez consulter l'exemple de code suivant qui charge le[exemple de fichier Excel](ReadAxisLabels.xlsx)et lit les étiquettes de l'axe des catégories du graphique dans la première feuille de calcul. Il imprime ensuite les valeurs des étiquettes des axes sur la console. Veuillez consulter la sortie de la console de l'exemple de code ci-dessous pour référence.
+## **Lire les étiquettes des axes après le calcul du graphique**
 
-##  **Exemple de code**
+Veuillez consulter le code d'exemple suivant qui charge le fichier Excel d'exemple et lit les étiquettes d'axe de catégorie du graphique dans la première feuille de calcul. Il imprime ensuite les valeurs des étiquettes d'axe sur la console. Veuillez consulter la sortie de la console du code d'exemple ci-dessous pour une référence.
+
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Charts-ReadAxisLabelsAfterCalculatingTheChart.cs" >}}
 
-##  **Sortie console**
+## **Sortie console**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Category Axis Labels:
 

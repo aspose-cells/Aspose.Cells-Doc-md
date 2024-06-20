@@ -1,16 +1,19 @@
-﻿---
-title: Kontrol içinde ve Kontrol ile Excel arasında GridDesktop'ta Satırları Kopyala ve Yapıştır
+---
+title: GridDesktop ta Kontrol İçinde ve Kontrol ile Excel Arasında Satırları Kopyalama ve Yapıştırma
 type: docs
 weight: 70
-url: /tr/net/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+url: /tr/net/aspose-cells-griddesktop/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+keywords: GridDesktop, kopyala, yapıştır
+description: Bu makalede GridDesktop ta kopyalama ve yapıştırmayı tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Kontrol içinde veya kontrol ile excel arasında GridDesktop'ta satırları kopyalayıp yapıştırmayı etkinleştirmek istiyorsanız, lütfen GridDesktop.ClipboardCopyPaste özelliğini true olarak ayarlayın. Bu özelliği tasarım zamanında veya kodda ayarlayabilirsiniz. Bu özelliğin varsayılan değeri yanlıştır. Şu anda, yalnızca hücre değerlerini kopyalayıp yapıştırabilir ve hücrenin biçim, kenarlık stili vb.
+Eğer GridDesktop'ta kontol içinde veya kontrol ile excel arasında satırları kopyalama ve yapıştırmak istiyorsanız, lütfen GridDesktop.ClipboardCopyPaste özelliğini true olarak ayarlayın. Bu özelliği tasarım zamanında veya kod içinde ayarlayabilirsiniz. Bu özelliğin varsayılan değeri false'dur. Şu anda, sadece hücre değerlerini kopyalayıp yapıştırabilir ve hücrenin diğer ayarlarını, biçim, kenar stili vb. gibi kopyalamaz.
 
 {{% /alert %}} 
-## **Tasarım Modunda ve Çalışma Süresinde GridDesktop.ClipboardCopyPaste özelliğinin ayarlanması**
- Aşağıdaki örnek kod, içinde GridDesktop.ClipboardCopyPaste özelliğini ayarlar.**Çalışma süresi**.
+## **GridDesktop.ClipboardCopyPaste Özelliğini Tasarım Zamanında ve Çalışma Zamanında Ayarlama**
+Aşağıdaki örnek kod, GridDesktop.ClipboardCopyPaste özelliğini **Çalışma Zamanında** ayarlar.
 
 
 

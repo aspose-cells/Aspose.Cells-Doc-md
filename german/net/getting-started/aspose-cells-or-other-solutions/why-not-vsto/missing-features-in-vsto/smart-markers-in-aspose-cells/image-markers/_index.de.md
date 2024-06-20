@@ -1,19 +1,20 @@
-﻿---
+---
 title: Bildmarkierungen
 type: docs
 weight: 20
 url: /de/net/image-markers/
 ---
-Aspose.Cells Intelligente Markierungen unterstützen auch Bildmarkierungen. Dieser Abschnitt zeigt Ihnen, wie Sie Bilder mit intelligenten Markierungen einfügen.
+
+Aspose.Cells Smart Marker unterstützt auch Bild-Marker. In diesem Abschnitt wird gezeigt, wie Sie Bilder mithilfe von Smart Markern einfügen.
 ## **Bildparameter**
-Smart-Marker-Parameter zum Verwalten von Bildern.
+Smart Marker-Parameter zur Verwaltung von Bildern.
 
-- **Bild:FitToCell** - Passen Sie das Bild automatisch an die Zeilenhöhe und Spaltenbreite der Zelle an.
-- **Bild:ScaleN** - Skalieren Sie Höhe und Breite auf N Prozent.
-- **Bild:Breite:Nin&Höhe:Nin** - Rendern Sie das Bild N Zoll hoch und N Zoll breit. Du kannst auch
- Spezifizieren Sie die linken und oberen Positionen (in Punkten).
+- **Bild:PassendZurZelle** - Das Bild automatisch an die Zeilenhöhe und Spaltenbreite der Zelle anpassen.
+- **Bild:Skalierung N** - Höhe und Breite auf N Prozent skalieren.
+- **Bild:Breite:Zoll&Höhe:Zoll** - Das Bild wird N Zoll hoch und N Zoll breit dargestellt. Sie können auch
+  Links- und Oben-Positionen (in Punkten) angeben.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -21,7 +22,7 @@ string FileName = FilePath + "Image Markers.xlsx";
 
 //Get the image data.
 
-byte[]imageData = File.ReadAllBytes(FilePath + "Aspose.Cells.png");
+byte[] imageData = File.ReadAllBytes(FilePath + "Aspose.Cells.png");
 
 //Create a datatable.
 
@@ -39,7 +40,7 @@ dc.DataType = typeof(object);
 
 DataRow row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -49,7 +50,7 @@ t.Rows.Add(row);
 
 //row = t.NewRow();
 
-//row[0]= imageData;
+//row[0] = imageData;
 
 //t.Rows.Add(row);
 
@@ -75,5 +76,5 @@ designer.Workbook.Save(FileName);
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)

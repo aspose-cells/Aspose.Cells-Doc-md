@@ -1,4 +1,4 @@
-﻿---
+---
 title: チャート
 type: docs
 weight: 75

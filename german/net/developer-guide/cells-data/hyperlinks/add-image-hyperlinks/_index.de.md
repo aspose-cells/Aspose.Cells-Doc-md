@@ -1,18 +1,19 @@
 ---
-title: Fügen Sie Bild-Hyperlinks hinzu
+title: Bild Hyperlinks hinzufügen
 type: docs
 weight: 140
 url: /de/net/add-image-hyperlinks/
-description: Erfahren Sie, wie Sie Bild-Hyperlinks über Aspose.Cells for .NET API hinzufügen.
-keywords: Add Image Hyperlinks, Insert Image Hyperlinks
+description: Erfahren Sie, wie Sie mithilfe der Aspose.Cells for .NET API Bild Hyperlinks hinzufügen können.
+keywords: Bild Hyperlinks hinzufügen, Bild Hyperlinks einfügen
 ---
+
 {{% alert color="primary" %}} 
 
-Hyperlinks sind nützlich, um auf Informationen in anderen Arbeitsblättern oder auf Websites zuzugreifen. Microsoft Excel ermöglicht Benutzern das Hinzufügen von Hyperlinks zu Text in Zellen und zu Bildern. Bild-Hyperlinks können die Navigation in einem Arbeitsblatt erleichtern, beispielsweise als Weiter- und Zurück-Schaltflächen oder Logos, die auf bestimmte Websites verweisen. In diesem Dokument wird erläutert, wie Sie mit Aspose.Cells Bild-Hyperlinks in ein Arbeitsblatt einfügen.
+Hyperlinks sind nützlich, um auf Informationen in anderen Arbeitsblättern oder auf Websites zuzugreifen. Microsoft Excel ermöglicht es Benutzern, Hyperlinks in Textzellen und auf Bildern hinzuzufügen. Bild-Hyperlinks können die Navigation in einem Arbeitsblatt erleichtern, zum Beispiel als Schaltflächen für vorherige und nächste Seiten oder Logos, die zu bestimmten Websites verlinken. Dieses Dokument erläutert, wie man Bild-Hyperlinks in einem Arbeitsblatt unter Verwendung von Aspose.Cells einfügt.
 
 {{% /alert %}} 
 
-Mit Aspose.Cells können Sie zur Laufzeit Hyperlinks zu Bildern in Tabellenkalkulationen hinzufügen. Es ist möglich, den Screentip und die Adresse des Links festzulegen und zu ändern. Der folgende Beispielcode veranschaulicht, wie ein Bild-Hyperlink in ein Arbeitsblatt eingefügt wird.
+Aspose.Cells ermöglicht es Ihnen, Hyperlinks zu Bildern in Arbeitsblättern zur Laufzeit hinzuzufügen. Es ist möglich, den Bildschirmtipp und die Adresse des Links festzulegen und zu ändern. Der folgende Beispielscode veranschaulicht, wie man einen Bild-Hyperlink in ein Arbeitsblatt einfügt.
 
 
 

@@ -1,22 +1,23 @@
-﻿---
-title: تحميل ملف اكسل المصدر بدون الرسوم البيانية
+---
+title: تحميل ملف Excel المصدر بدون رسوم بيانية
 type: docs
 weight: 750
 url: /ar/java/load-source-excel-file-without-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells يسمح لك بتحميل ملف excel الخاص بك بدون رسوم بيانية. الرجاء استخدام خاصية LoadOptions.LoadFilter لهذا الغرض.
+تتيح لك Aspose.Cells تحميل ملف Excel الخاص بك بدون رسوم بيانية. يرجى استخدام خاصية LoadOptions.LoadFilter لهذا الغرض.
 
 {{% /alert %}} 
-## **تحميل ملف اكسل المصدر بدون الرسوم البيانية**
-يقوم نموذج التعليمات البرمجية التالي بتحميل نموذج ملف Excel بدون مخططات وحفظه بتنسيق PDF الناتج.
+## **تحميل ملف Excel المصدر بدون رسوم بيانية**
+تحمل عينة الشفرة التالية ملف Excel العينات دون الرسوم البيانية وتقوم بحفظه بتنسيق PDF الناتج.
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Specify the load options and filter the data
 

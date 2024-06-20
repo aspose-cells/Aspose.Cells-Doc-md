@@ -1,21 +1,22 @@
 ---
-title: カスタム並べ替えリストを使用して列内のデータを並べ替える
+title: カスタムソートリストで列内のデータをソートする
 type: docs
 weight: 290
 url: /ja/net/sort-data-in-column-with-custom-sort-list/
-description: Aspose.Cells for .NET API を使用して、カスタム リストを使用して列内のデータを並べ替える方法を学習します。
-keywords: Sort Data in Column with Custom Sort List, Sort data by custom list.
+description: Aspose.Cells for .NET APIを使用してカスタムリストを使用して列のデータをソートする方法を学んでください。
+keywords: カスタムリストを使用して列のデータをソートする、カスタムリストによるデータのソート。
 ---
-##  **考えられる使用シナリオ**
 
-カスタム リストを使用して、列内のデータを並べ替えることができます。これは次を使用して実行できます[**DataSorter.AddKey(int キー、SortOrder 順序、String CustomList)**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/2)方法。ただし、この方法は、カスタム リスト内の項目の中にカンマが含まれていない場合にのみ機能します。 「USA,US」、「China,CN」などのカンマがある場合は、[**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference. aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3) メソッド。ここで、最後のパラメータは文字列ではなく文字列の配列です。
+## **可能な使用シナリオ**
 
-##  **カスタム並べ替えリストを使用して列内のデータを並べ替える**
+列のデータをカスタムリストを使用してソートできます。これは[**DataSorter.AddKey(int key, SortOrder order, String customList)**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/2)メソッドを使用することで行えます。ただし、このメソッドはカスタムリストのアイテムにカンマが含まれていない場合にのみ機能します。カンマが含まれる場合（"USA,US"、"China,CN"など）は、[**DataSorter.AddKeyメソッド（Int32、SortOrder、String[]）**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3)メソッドを使用する必要があります。ここで、最後のパラメータはStringではなくStringの配列です。
 
-次のサンプル コードは、[**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey の使用方法を説明しています) /methods/3) カスタム並べ替えリストを使用してデータを並べ替えるメソッド。をご覧ください。[サンプル Excel ファイル](50528327.xlsx)このコードで使用されており、[Excelファイルを出力](50528328.xlsx)それによって生み出されたもの。次のスクリーンショットは、実行時のサンプル Excel ファイルのコードの影響を示しています。
+## **カスタムソートリストを使用した列内のデータの並べ替え**
+
+[**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3)メソッドを使用してカスタムソートリストでデータをソートする方法を説明したサンプルコードをご覧ください。このコードで使用された[サンプルExcelファイル](50528327.xlsx)とそれによって生成される[output Excel file](50528328.xlsx)を確認してください。次のスクリーンショットには、サンプルExcelファイルにコードが及ぼす効果が表示されています。
 
 ![todo:image_alt_text](sort-data-in-column-with-custom-sort-list_1.png)
 
-##  **サンプルコード**
+## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithCustomSortList.cs" >}}

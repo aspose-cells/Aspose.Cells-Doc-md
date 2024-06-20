@@ -1,16 +1,17 @@
-﻿---
-title: Festlegen von Seitenoptionen in Python
+---
+title: Seitenoptionen in Python einstellen
 type: docs
 weight: 10
 url: /de/java/setting-page-options-in-python/
 ---
-## **Aspose.Cells – Festlegen von Seitenoptionen**
+
+## **Aspose.Cells - Seitenoptionen einstellen**
 ### **Seitenausrichtung**
- So wenden Sie Seitenausrichtungseinstellungen an mit**Aspose.Cells Java für Rubin** , Anruf**Seitenausrichtung** Methode von**Seiteneinrichtung** Modul.
+Um Seitenausrichtungseinstellungen unter Verwendung von **Aspose.Cells Java für Ruby** anzuwenden, rufen Sie einfach die Methode **page_orientation** des Moduls **pagesetup** auf.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def page_orientation(self):
 
@@ -42,12 +43,12 @@ print "Set page orientation, please check the output file."
 
 
 {{< /highlight >}}
-### **Vergößerungsfaktor, Verkleinerungsfaktor**
- Skalierung anwenden mit**Aspose.Cells Java for Python** , Anruf**Skalierung** Methode von**Seiteneinrichtung** Modul.
+### **Maßstab**
+Um die Skalierung mit **Aspose.Cells Java for Python** anzuwenden, rufen Sie die Methode **scaling** des Moduls **pagesetup** auf.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def scaling(self):        
 
@@ -76,7 +77,7 @@ workbook.save(self.dataDir + "Scaling.xls")
 print "Set scaling, please check the output file."
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Seitenoptionen einstellen (Aspose.Cells)** von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Seitenoptionen einstellen (Aspose.Cells)** von einer der unten genannten sozialen Code-Seiten herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

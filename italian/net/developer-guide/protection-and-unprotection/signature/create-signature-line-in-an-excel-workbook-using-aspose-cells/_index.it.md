@@ -1,17 +1,20 @@
-﻿---
-title: Crea la riga della firma in una cartella di lavoro di Excel utilizzando Aspose.Cells
+---
+title: Crea LINEA FIRMA in un workbook Excel utilizzando Aspose.Cells
 type: docs
 weight: 150
 url: /it/net/create-signature-line-in-an-excel-workbook-using-aspose-cells/
+description: Questo articolo descrive il supporto per la firma XAdES utilizzando codici C# con Aspose.Cells for .Net.
+keywords: Creare una linea di firma in un documento Excel, Come creare una linea di firma in un documento Excel, Come aggiungere una linea di firma, Come aggiungere una linea di firma a un file Excel.
 ---
-{{% alert color="primary" %}}
 
- Microsoft Excel fornisce una funzionalità da aggiungere**Linea Firma** nelle cartelle di lavoro di Excel. È possibile aggiungere una riga della firma facendo clic su**Inserire** Tab e quindi selezionando**Linea Firma** dal**Testo** gruppo.
+## **Introduzione**
 
- Aspose.Cells fornisce anche questa funzione e ha esposto il[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) proprietà a tale scopo. Questo articolo spiegherà come utilizzare questa proprietà per aggiungere una riga della firma utilizzando Aspose.Cells.
+Microsoft Excel fornisce la funzionalità di aggiungere **Linea firma** in workbook Excel. È possibile aggiungere una linea di firma facendo clic sulla scheda **Inserisci** e quindi selezionando **Linea firma** dal gruppo **Testo**.
 
-{{% /alert %}}
+## **Come Creare una Linea di Firma per Excel**
 
- Il codice di esempio seguente aggiunge una riga della firma utilizzando[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)property e salva la cartella di lavoro.
+Aspose.Cells fornisce anche questa funzionalità ed ha esposto la proprietà [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) a questo scopo. Questo articolo spiegherà come utilizzare questa proprietà per aggiungere una linea di firma utilizzando Aspose.Cells.
+
+Il seguente codice di esempio aggiunge una linea di firma utilizzando la proprietà [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) e salva il workbook.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateSignatureLineInWorkbook-CreateSignatureLineInWorkbook.cs" >}}

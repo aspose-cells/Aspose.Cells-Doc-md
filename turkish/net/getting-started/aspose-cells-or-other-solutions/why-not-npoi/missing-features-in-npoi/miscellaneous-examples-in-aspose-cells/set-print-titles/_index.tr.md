@@ -1,17 +1,18 @@
-﻿---
-title: Baskı Başlıklarını Ayarla
+---
+title: Yazdırma Başlıklarını Ayarlama
 type: docs
 weight: 30
 url: /tr/net/set-print-titles/
 ---
-## **Aspose.Cells - Baskı Başlıklarını Ayarla**
-Aspose.Cells, yazdırılan bir çalışma sayfasının tüm sayfalarında yinelenecek satır ve sütun başlıkları belirlemenizi sağlar. Bunu yapmak için[Sayfa ayarı](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)sınıf PrintTitleColumns ve PrintTitleRows özellikleri.
 
-Tekrarlanacak satır veya sütunlar, satır veya sütun numaraları geçirilerek tanımlanır. Örneğin, satırlar $1:$2 olarak tanımlanır ve sütunlar $A:$B olarak tanımlanır.
+## **Aspose.Cells - Yazdırma Başlıklarını Ayarlama**
+Aspose.Cells, bir çalışma sayfasının tüm sayfalarında tekrarlanacak satır ve sütun başlıklarını belirlemenize olanak tanır. Bunu yapmak için [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıfının PrintTitlerColumns ve PrintTitleRows özelliklerini kullanın.
+
+Tekrar edilecek satırlar veya sütunlar, satır veya sütun numaralarını geçirerek tanımlanır. Örneğin satırlar $1:$2 ve sütunlar $A:$B olarak tanımlanır.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -31,12 +32,12 @@ pageSetup.PrintTitleRows= "$1:$2";
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Baskı Başlıklarını Ayarla** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Yazdırma Başlıklarını Ayarlama** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Print.Titles.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Yazdırma Seçeneklerini Ayarlama](/cells/tr/net/setting-print-options/).
+Daha fazla bilgi için [Yazdırma Seçeneklerini Ayarlama](/cells/tr/net/setting-print-options/) sayfasını ziyaret edin.
 
 {{% /alert %}}

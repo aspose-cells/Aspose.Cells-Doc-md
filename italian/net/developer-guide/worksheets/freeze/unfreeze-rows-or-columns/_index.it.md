@@ -1,35 +1,34 @@
 ---
-title: Sblocca righe o colonne
-linktitle: Sblocca i riquadri
+title: Scongelare righe o colonne
+linktitle: Scongelare riquadri
 type: docs
 weight: 190
 url: /it/net/unfreeze-rows-or-columns-of-excel-worksheet
-description: In questo articolo imparerai come sbloccare righe, colonne o riquadri di fogli di lavoro Excel a livello di codice utilizzando la libreria C# con .NET API.
-keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window.
+description: In questo articolo imparerai come scongelare righe, colonne o riquadri dei fogli di lavoro di Excel in modo programmato utilizzando la libreria C# con API .NET.
+keywords: Scongelare riquadri, Scongelare righe, Scongelare colonne, scongelare finestra.
 ---
-{{% alert color="primary" %}}
 
-In questo articolo impareremo come sbloccare righe, colonne e riquadri.
-Se i fogli di lavoro nei file Excel sono bloccati, a volte vogliamo sbloccare il foglio di lavoro o regolare righe, colonne o riquadri bloccati.
+## **Introduzione**
 
-{{% /alert %}}
+In questo articolo, impareremo come Sbloccare Righe, Colonne e Riquadri. Se i fogli di lavoro nei file Excel sono bloccati, a volte vogliamo sbloccare il foglio di lavoro o regolare le righe, le colonne o i riquadri bloccati.
 
-##  **In Excel**
 
-1. Fare clic sulla scheda Visualizza > Blocca riquadri > Sblocca riquadri.
+## **In Excel**
 
-**![sblocca riquadri in Excel](Unfreeze-Panes.png)**
+1. Fare clic sulla scheda Visualizzazione > Riquadri bloccati > Scongela riquadri.
 
+**![scongelare riquadri in Excel](Scongela-Riquadri.png)**
 
 
 
-##  **Sblocca righe, colonne o riquadri con Aspose.Cells per .Net**
- È semplice sbloccare i riquadri con Aspose.Cells per .Net. Si prega di utilizzare il[**Foglio di lavoro.UnFreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/unfreezepanes)metodo per sbloccare i riquadri.
 
-1. Costruisci cartella di lavoro per aprire il file congelato.
-2. Sblocca i riquadri con il metodo Worksheet.UnFreezePanes().
+## **Scongela righe, colonne o riquadri con Aspose.Cells for .Net**
+È semplice scongelare riquadri con Aspose.Cells for .Net. Si prega di utilizzare il metodo [**Worksheet.UnFreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/unfreezepanes) per scongelare i riquadri.
+
+1. Costruisci il workbook per aprire il file bloccato.
+2. Scongela i riquadri con il metodo Worksheet.UnFreezePanes().
 3. Salvare il file.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
- Allegato[file Excel di origine del campione](Frozen.xlsx).
+Allegato il [file Excel di origine di esempio](Frozen.xlsx).

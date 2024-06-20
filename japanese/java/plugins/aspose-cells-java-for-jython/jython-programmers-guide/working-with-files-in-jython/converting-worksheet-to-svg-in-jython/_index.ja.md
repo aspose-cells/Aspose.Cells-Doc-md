@@ -1,23 +1,24 @@
-﻿---
-title: JythonでワークシートをSVGに変換する
+---
+title: JythonでワークシートをSVGに変換
 type: docs
 weight: 40
 url: /ja/java/converting-worksheet-to-svg-in-jython/
 ---
-## **Aspose.Cells - ワークシートを SVG に変換中**
-を使用してドキュメントを追加するには**Aspose.Cells Jython の場合は Java**.ここでサンプルコードを見ることができます。
 
-**Jython コード**
+## **Aspose.Cells - ワークシートをSVGに変換**
+**Aspose.Cells Java for Jython**を使用してドキュメントを追加します。ここでは例を示します。
 
-{{< highlight "java" >}}
+**Jythonコード**
 
-from aspose-cells import 設定
+{{< highlight java >}}
 
-com.aspose.cells インポート ワークブックから
+ from aspose-cells import Settings
+
+from com.aspose.cells import Workbook
 
 from com.aspose.cells import ImageFormat
 
-com.aspose.cells から ImageOrPrintOptions をインポート
+from com.aspose.cells import ImageOrPrintOptions
 
 from com.aspose.cells import SheetRender
 
@@ -25,31 +26,31 @@ from com.aspose.cells import SaveFormat
 
 
 
-クラス ConvertingWorksheetToSVG:
+class ConvertingWorksheetToSVG:
 
-デフォルト__初期化__（自己）：
+    def __init__(self):
 
- dataDir = Settings.dataDir + 'WorkingWithFiles/ConvertingWorksheetToSVG/'
+        dataDir = Settings.dataDir + 'WorkingWithFiles/ConvertingWorksheetToSVG/'
 
 
 
- saveFormat = 保存形式
+        saveFormat = SaveFormat
 
-ワークブック = ワークブック(dataDir + "Book1.xls")
+        workbook = Workbook(dataDir + "Book1.xls")
 
- # 各ワークシートを単一ページの svg 形式に変換します。
+        #Convert each worksheet into svg format in a single page.
 
- imgOptions = ImageOrPrintOptions()
+        imgOptions = ImageOrPrintOptions()
 
- imgOptions.setSaveFormat(saveFormat.SVG)
+        imgOptions.setSaveFormat(saveFormat.SVG)
 
- imgOptions.setOnePagePerSheet(True)
+        imgOptions.setOnePagePerSheet(True)
 
- #各ワークシートをsvg形式に変換
+        #Convert each worksheet into svg format
 
-sheetCount = workbook.getWorksheets().getCount()
+        sheetCount = workbook.getWorksheets().getCount()
 
- #for(i=0; 私は<sheetCount; i++)
+        #for(i=0; i<sheetCount; i++)
 
         for i in range(sheetCount):
 
@@ -86,7 +87,7 @@ if __name__ == '__main__':
     ConvertingWorksheetToSVG()
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**添付書類 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に示すいずれかのソーシャルコーディングサイトから**Aspose.Cellsのドキュメントを追加する**をダウンロード:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ConvertingWorksheetToSVG.py)

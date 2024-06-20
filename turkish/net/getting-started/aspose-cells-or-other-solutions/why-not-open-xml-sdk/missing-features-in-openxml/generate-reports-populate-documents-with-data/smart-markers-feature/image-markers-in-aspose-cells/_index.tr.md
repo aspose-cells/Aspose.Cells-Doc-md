@@ -1,23 +1,24 @@
-﻿---
-title: Aspose.Cells'deki Görüntü İşaretçileri
+---
+title: Aspose.Cells te Görüntü İşaretçileri
 type: docs
 weight: 20
 url: /tr/net/image-markers-in-aspose-cells/
 ---
-Aspose.Cells akıllı işaretleyiciler, görüntü işaretleyicilerini de destekler. Bu bölüm, akıllı işaretleyicileri kullanarak nasıl resim ekleyeceğinizi gösterir.
+
+Aspose.Cells akıllı işaretçileri ayrıca görüntü işaretçilerini de destekler. Bu bölüm size akıllı işaretçileri kullanarak resim eklemenin nasıl yapıldığını gösterir.
 ## **Görüntü Parametreleri**
-Görüntüleri yönetmek için akıllı işaretleyici parametreleri.
+Resimleri yönetmek için akıllı işaretçi parametreleri.
 
-- **Resim:Hücreye Sığdır** - Görüntüyü hücrenin satır yüksekliğine ve sütun genişliğine otomatik olarak sığdırın.
-- **Resim:ÖlçekN** - Yüksekliği ve genişliği yüzde N olarak ölçeklendirin.
-- **Resim:Genişlik:Nin&Yükseklik:Nin** - Görüntüyü N inç yüksekliğinde ve N inç genişliğinde oluşturun. ayrıca yapabilirsin
- Sol ve Üst konumları (puan olarak) belirtin.
+- **Resim:HücreyeSığdır** - Resmi hücrenin satır yüksekliğine ve sütun genişliğine otomatik sığdır.
+- **Resim:ÖlçekN** - Yüksekliği ve genişliği N yüzde ölçekle.
+- **Resim:Genişlik:Nin&Yükseklik:Nin** - Görüntüyü N inç yükseklikte ve N inç genişlikte oluşturun. Ayrıca sol ve üst pozisyonları (noktalarda) belirtebilirsiniz.
+  Örnek Kodunu İndir
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the image data.
 
-byte[]imageData = File.ReadAllBytes("Thumbnail.jpg");
+byte[] imageData = File.ReadAllBytes("Thumbnail.jpg");
 
 //Create a datatable.
 
@@ -35,7 +36,7 @@ dc.DataType = typeof(object);
 
 DataRow row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -45,7 +46,7 @@ imageData = File.ReadAllBytes("Desert.jpg");
 
 row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -70,5 +71,5 @@ designer.Process();
 designer.Workbook.Save("out_ImageSmartBook.xls");
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)

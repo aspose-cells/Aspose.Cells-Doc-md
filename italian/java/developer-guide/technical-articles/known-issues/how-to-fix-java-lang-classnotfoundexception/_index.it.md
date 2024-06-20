@@ -1,29 +1,30 @@
 ---
-title: Come risolvere l'eccezione java.lang.ClassNotFoundException
+title: Come risolvere java.lang.ClassNotFoundException
 type: docs
 weight: 30
 url: /it/java/how-to-fix-java-lang-classnotfoundexception/ 
-description: Scopri come risolvere java.lang.ClassNotFoundException in Aspose.Cells for Java.
-keywords: How to fix BouncyCastleProvider ClassNotFoundException in Java, Solve BouncyCastleProvider exception using Java, Java solve ClassNotFoundException BouncyCastleProvider.
+description: Scopri come risolvere java.lang.ClassNotFoundException nell Aspose.Cells for Java
+keywords: Come risolvere BouncyCastleProvider ClassNotFoundException in Java, Risolvi l eccezione BouncyCastleProvider usando Java, Risolvi ClassNotFoundException BouncyCastleProvider in Java
 ---
-Aspose.Cells for Java API dipende da alcune librerie aggiuntive, se mancano, potrebbe essere generata un'eccezione come "java.lang.ClassNotFoundException".
-Questo articolo elenca questo tipo di eccezioni e spiega quali librerie sono installate per risolverle.
 
-##  Come risolvere ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider
-###  **Riepilogo**
-Aspose.Cells for Java API dipende da Bouncy Castle per le funzionalità di crittografia e decrittografia, ovvero, se il programma deve caricare o salvare fogli di calcolo crittografati, è necessario aggiungere il riferimento di bcprov-jdk16-146.jar nel percorso classe del progetto.
-###  **Sintomi**
- Potresti ottenere la java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider.
-###  **Soluzione**
-La soluzione è in realtà molto semplice, come spiegato di seguito.
+L'API Aspose.Cells for Java dipende da alcune librerie aggiuntive, se mancano, potrebbe essere generata un'eccezione come "java.lang.ClassNotFoundException"
+Questo articolo elenca tali tipi di eccezioni e spiega quali librerie devono essere installate per risolverle
 
-1.  Scarica qualsiasi versione principale di[Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
-1. Estrai l'archivio scaricato e vai alla directory \JDK 1.6\aspose-cells-xx0-java\lib.
-1. Fare riferimento a bcprov-jdk16-146.jar nel percorso classe del progetto.
+## Come risolvere ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider
+### **Sommario**
+L'API Aspose.Cells for Java dipende da Bouncy Castle per funzionalità di crittografia e decrittografia, ovvero, se il programma deve caricare o salvare fogli di calcolo criptati, è necessario aggiungere il riferimento a bcprov-jdk16-146.jar nel percorso delle classi del progetto
+### **Sintomi**
+Potresti ottenere java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider 
+### **Soluzione**
+La soluzione è molto semplice come dettagliato di seguito.
 
-In alternativa, puoi aggiungere la dipendenza nel pom.xml e lasciare che il progetto risolva la dipendenza tramite maven.
+1. Scarica una qualsiasi release principale di [Aspose.Cells for Java](https://downloads.aspose.com/cells/java)
+1. Estrai l'archivio scaricato e passa alla cartella \JDK 1.6\aspose-cells-x.x.0-java\lib
+1. Fai riferimento a bcprov-jdk16-146.jar nel percorso delle classi del progetto
 
-{{< highlight "java" >}}
+In alternativa, puoi aggiungere la dipendenza nel pom.xml e far risolvere la dipendenza tramite maven.
+
+{{< highlight java >}}
 
  <dependencies>
 

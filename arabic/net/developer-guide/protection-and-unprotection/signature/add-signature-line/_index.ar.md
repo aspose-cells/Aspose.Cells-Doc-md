@@ -1,23 +1,23 @@
-﻿---
-title: أضف سطر التوقيع إلى ورقة العمل
+---
+title: إضافة خط التوقيع إلى ورقة العمل
 type: docs
 weight: 200
 url: /ar/net/add-signature-line/
+description: يصف هذا المقال كيفية إضافة خط توقيع إلى ورقة العمل باستخدام رموز C# مع Aspose.Cells for .Net.
+keywords: إضافة خط توقيع إلى ورقة العمل، كيفية إضافة خط توقيع إلى ورقة العمل، كيفية إضافة خط توقيع إلى ورقة العمل، كيفية إضافة خط التوقيع إلى الورقة.
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-{{% alert color="primary" %}}
+## **مقدمة**
 
- يوفر Aspose.Cells ملف[**الصورة ، خط التوقيع**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) الخاصية لإضافة سطر التوقيع من ورقة العمل.
+تقدم Aspose.Cells خاصية [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) لإضافة خط التوقيع في ورقة العمل.
 
-{{% /alert %}}
 
-## **أضف سطر التوقيع إلى ورقة العمل**
+## **كيفية إضافة خط توقيع إلى الورقة**
 
- يوضح نموذج التعليمات البرمجية التالي كيفية الاستفادة من[**الصورة ، خط التوقيع**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)الخاصية لإضافة سطر التوقيع من ورقة العمل. تُظهر لقطة الشاشة تأثير نموذج التعليمات البرمجية على نموذج ملف Excel بعد التنفيذ.
+يوضح الكود النموذجي التالي كيفية استخدام خاصية [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) لإضافة خط التوقيع في ورقة العمل. يظهر لقطة الشاشة تأثير الكود النموذجي على ملف Excel النموذجي بعد التنفيذ.
 
-![ما يجب القيام به: image_بديل_نص](add-signature-line.png)
+![todo:image_alt_text](add-signature-line.png)
 
-## **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Add-Signature-Line.cs" >}}

@@ -1,15 +1,16 @@
-﻿---
-title: إخفاء ورقة العمل في جايثون
+---
+title: إخفاء أو إظهار ورقة العمل في Jython
 type: docs
 weight: 70
 url: /ar/java/hide-unhide-worksheet-in-jython/
 ---
-## **Aspose.Cells - إخفاء إظهار ورقة العمل**
- لإلحاق المستندات باستخدام**Aspose.Cells Java لـ Jython**. هنا يمكنك أن ترى رمز المثال.
 
-**كود جايثون**
+## **Aspose.Cells - إخفاء أو إظهار ورقة العمل**
+لإلحاق المستندات باستخدام **Aspose.Cells Java for Jython**. هنا يمكنك رؤية رمز المثال.
 
-{{< highlight "java" >}}
+**رمز Jython**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -51,7 +52,7 @@ if __name__ == '__main__':
     HideUnhideWorksheet()
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إرفاق المستندات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **مستندات الإضافة (Aspose.Cells)** من أي من المواقع الاجتماعية للترميز الواردة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/HideUnhideWorksheet.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/HideUnhideWorksheet.py)

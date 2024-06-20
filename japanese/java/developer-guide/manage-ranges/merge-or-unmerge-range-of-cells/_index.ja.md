@@ -1,23 +1,24 @@
-﻿---
-title: Cells の範囲のマージまたはマージ解除
+---
+title: セル範囲の結合または解除
 type: docs
 weight: 70
 url: /ja/java/merge-or-unmerge-range-of-cells/
-description: Javaコードを使用して、Excelの範囲内のCellsをマージおよびマージ解除します。
-keywords: java merge and unmerge cells in a range, java merge and unmerge cells in range, merge and unmerge cells in range with java, merge and unmerge cells in range using java, merge and unmerge cells in excel using java, merge and unmerge cells in excel with java, java merge and unmerge cells in excel, java merge cells in excel, java unmerge cells in excel, merge cells in range with java
+description: JavaコードでExcelの範囲内のセルを結合および結合解除する。
+keywords: Javaで範囲内のセルを結合および結合解除する、javaで範囲内のセルを結合および結合解除する、javaで範囲内のセルを結合および結合解除する、javaで範囲内のセルを結合および結合解除する、javaでExcel内のセルを結合および結合解除する、ExcelでJavaでセルを結合および結合解除する、JavaでExcel内のセルを結合および結合解除する、JavaでExcel内のセルを結合する、JavaでExcel内のセルを結合解除する、Javaで範囲内のセルを結合する
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells を使用して、セル範囲を結合または分割できます。 Aspose.Cells は[**Range.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge() ） と[**Range.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge()) この目的のためのメソッド。この記事では、セル範囲を 1 つのセルに結合する方法について説明します。
+Aspose.Cellsを使用してセルの範囲を結合または分割できます。 Aspose.Cellsはこの目的のための[**Range.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge--)および[**Range.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge--)メソッドを提供します。この記事では、セルの範囲を単一のセルに結合する方法について説明します。
 
 {{% /alert %}}
 
-次のサンプル コードでは、最初に範囲 (A1:D4) を作成し、次に、[**Range.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge()） 方法。
-同様に、範囲を作成して呼び出してセルを分割することもできます。[**Range.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge()） 方法。
+以下のサンプルコードでは、まず範囲A1:D4を作成し、次にその範囲のセルを1つのセルに結合します。
+同様に、範囲を作成して[**Range.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge--)メソッドを呼び出すことでセルを分割することも可能です。
 
-次の図は、サンプル コードで生成された出力 Excel ファイルを示しています。ご覧のとおり、A1:D4 の範囲が 1 つのセルに結合されています。
+以下のイメージは、サンプルコードで生成された出力Excelファイルを示しています。範囲A1:D4が1つのセルに結合されていることがわかります。
 
-![todo:画像_代替_文章](merge-or-unmerge-range-of-cells_1.png)
+![todo:image_alt_text](merge-or-unmerge-range-of-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-MergeUnmergeRangeofCells-MergeUnmergeRangeofCells.java" >}}
 
@@ -25,6 +26,6 @@ keywords: java merge and unmerge cells in a range, java merge and unmerge cells 
 
 ## **関連記事**
 
-- [セルの結合と分割](/cells/ja/java/merging-and-unmerging-cells/).
+- [セルを結合および分割](/cells/ja/java/merging-and-unmerging-cells/)。
 
 {{% /alert %}}

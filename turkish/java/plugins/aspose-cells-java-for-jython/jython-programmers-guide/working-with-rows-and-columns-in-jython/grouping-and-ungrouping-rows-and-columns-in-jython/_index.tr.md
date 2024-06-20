@@ -1,15 +1,16 @@
-﻿---
-title: Jython'da Satırları ve Sütunları Gruplandırma ve Grubu Çözme
+---
+title: Jython da Satırları ve Sütunları Gruplama ve Gruplama Kaldırma
 type: docs
 weight: 40
 url: /tr/java/grouping-and-ungrouping-rows-and-columns-in-jython/
 ---
-## **Aspose.Cells - Satırları ve Sütunları Gruplandırma ve Grubu Çözme**
- Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
+
+## **Aspose.Cells - Satırları ve Sütunları Gruplama ve Gruplama Kaldırma**
+**Aspose.Cells Java for Jython** ile belgeler eklemek için. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -102,6 +103,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belgeleri Ekleyin (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Append Documents (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

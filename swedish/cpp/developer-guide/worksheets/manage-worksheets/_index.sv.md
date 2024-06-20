@@ -1,35 +1,36 @@
 ---
-title: Hantera arbetsblad
+title: Hantera kalkylblad 
 type: docs
 weight: 20
 url: /sv/cpp/manage-worksheets/
 ---
+
 {{% alert color="primary" %}} 
 
-Utvecklare kan enkelt skapa och hantera kalkylblad i Microsoft Excel-filer programmatiskt med Aspose.Cells flexibel API. Det här avsnittet beskriver metoder för att lägga till och ta bort kalkylblad i Microsoft Excel-filer.
+Utvecklare kan enkelt skapa och hantera kalkylblad i Microsoft Excel-filer programmatiskt med hjälp av Aspose.Cells flexibla API. Detta ämne beskriver tillvägagångssätt för att lägga till och ta bort kalkylblad i Microsoft Excel-filer.
 
 {{% /alert %}} 
 
- Aspose.Cells tillhandahåller en klass[Arbetsbok](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) som representerar en Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) klass innehåller en[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)samling som ger åtkomst till varje kalkylblad i Excel-filen.
+Aspose.Cells tillhandahåller en klass [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) som representerar en Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) innehåller en samling [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) som tillåter åtkomst till varje kalkylblad i Excel-filen.
 
-Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) klass. De[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)klass tillhandahåller ett brett utbud av metoder för att hantera kalkylblad.
-##  **Lägga till arbetsblad i en ny Excel-fil**
-Så här skapar du en ny Excel-fil programmatiskt:
+Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) tillhandahåller ett brett utbud av metoder för att hantera kalkylblad.
+## **Lägga till kalkylblad i en ny Excelfil**
+För att skapa en ny Excel-fil programmatiskt:
 
-1.  Skapa ett objekt av[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)klass.
-1.  Ring[Lägg till](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/add/) metod för[Arbetsbladssamling](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) samling. Ett tomt kalkylblad läggs automatiskt till i Excel-filen. Det kan refereras till genom att skicka arkindexet för det nya kalkylbladet till[Arbetsbladssamling](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)samling.
-1. Skaffa en kalkylbladsreferens.
-1. Utför arbete på arbetsbladen.
-1. Spara den nya Excel-filen med nya kalkylblad genom att anropa[Arbetsbok](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) klass[Spara](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)metod.
+1. Skapa ett objekt av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/).
+1. Anropa metoden [Add](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/add/) i samlingen [WorksheetCollection](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/). Ett tomt kalkylblad läggs automatiskt till Excel-filen. Det kan refereras genom att skicka det nya kalkylbladets index till samlingen [WorksheetCollection](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/).
+1. Få en referens till ett kalkylblad.
+1. Arbeta med kalkylbladen.
+1. Spara den nya Excel-filen med nya kalkylblad genom att anropa metoden [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) i klassen [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/).
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-AddingWorksheetsToNewExcelFile-new.cpp" >}}
-##  **Få åtkomst till arbetsblad med Sheet Index**
-Följande exempelkod visar hur du kommer åt eller får ett kalkylblad genom att ange dess index.
+## **Åtkomst till kalkylblad med hjälp av kalkylbladsindex**
+Följande exempelkod visar hur man får åtkomst till eller hämtar ett kalkylblad genom att ange dess index.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-AccessingWorksheetsUsingSheetIndex-new.cpp" >}}
-##  **Ta bort kalkylblad med Sheet Index**
- Att ta bort kalkylblad efter namn fungerar bra när namnet på kalkylbladet är känt. Om du inte känner till kalkylbladets namn, använd en överbelastad version av[Ta bortAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat)metod som tar kalkylbladets arkindex istället för dess arknamn.
+## **Ta bort kalkylblad med hjälp av kalkylbladsindex**
+Att ta bort kalkylblad efter namn fungerar bra när namnet på kalkylbladet är känt. Om du inte känner till kalkylbladets namn, använd en överbelastad version av metoden [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat) som tar kalkylbladets index istället för dess namn.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}

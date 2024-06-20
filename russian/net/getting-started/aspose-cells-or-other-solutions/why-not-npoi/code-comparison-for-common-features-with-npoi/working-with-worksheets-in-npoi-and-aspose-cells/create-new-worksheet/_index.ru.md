@@ -1,13 +1,14 @@
-﻿---
-title: Создать новый рабочий лист
+---
+title: Создать новый лист
 type: docs
 weight: 50
 url: /ru/net/create-new-worksheet/
 ---
-## **Aspose.Cells - Создать новый рабочий лист**
+
+## **Aspose.Cells - Создать новый лист**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -25,10 +26,10 @@ workbook.Save("newWorksheet.xls");
 
 
 {{< /highlight >}}
-## **NPOI — HSSF XSSF — Создать новый рабочий лист**
+## **NPOI - HSSF XSSF - Создать новый лист**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -74,13 +75,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Создать новый рабочий лист** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **Создать новый рабочий лист** с любого из перечисленных ниже сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Create.New.Worksheet.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Create.New.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Работа с рабочими листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Для получения дополнительной информации посетите [Работа с листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

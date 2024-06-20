@@ -1,39 +1,42 @@
-﻿---
-title: GridWeb Satırlarını ve Sütunlarını Kopyala
+---
+title: GridWeb Satırları ve Sütunları Kopyalama
 type: docs
 weight: 80
-url: /tr/net/copy-gridweb-rows-and-columns/
+url: /tr/net/aspose-cells-gridweb/copy-gridweb-rows-and-columns/
+keywords: GridWeb, kopya
+description: Bu makale, GridWeb de satır ve sütun kopyalamanın nasıl yapılacağını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb bileşeni, GridCells sınıfını kullanırken satır ve sütun kopyalama imkanı sunar. Bu makale, GridWeb arabirimindeki satırları ve sütunları kopyalamak için Aspose.Cells.GridWeb tarafından kullanıma sunulan API'lerin kullanımını göstermektedir.
+Aspose.Cells.GridWeb bileşeni, GridCells sınıfını kullanırken satır ve sütun kopyalama imkanı sunar. Bu makale, Aspose.Cells.GridWeb tarafından sağlanan API'ların GridWeb arabiriminde satır ve sütun kopyalama kullanımını göstermektedir. 
 
-GridCells.CopyRow, GridCells.CopyColumn, GridCells.CopyRows & GridCells.CopyColumns yöntemleri içerikleri, stilleri ve formülleri kaynak satır ve sütundan hedefe kopyalar.
+GridCells.CopyRow, GridCells.CopyColumn, GridCells.CopyRows ve GridCells.CopyColumns yöntemleri, kaynak satır ve sütundan hedefe içeriği, stili ve formülleri kopyalar.
 
 {{% /alert %}} 
-## **Satırları ve Sütunları Kopyalama**
- Aspose.Cells.GridWeb bileşenini henüz bilmiyorsanız, kesinlikle kontrol etmenizi öneririz.[Aspose.Cells.GridWeb'e giriş](https://docs.aspose.com/cells/net/browsers-capabilities/) ve detaylı makale[Bir WebForms uygulamasında Aspose.Cells.GridWeb bileşeni nasıl eklenir?](https://docs.aspose.com/cells/net/add-gridweb-to-web-form/).
+## **Satır ve Sütun Kopyalama**
+Eğer henüz Aspose.Cells.GridWeb bileşeniyle tanışık değilseniz, [Aspose.Cells.GridWeb'e Giriş](https://docs.aspose.com/cells/net/aspose-cells-gridweb/browsers-capabilities/) ve [Web Formuna Aspose.Cells.GridWeb Bileşeni Nasıl Eklenir](https://docs.aspose.com/cells/net/aspose-cells-gridweb/add-gridweb-to-web-form/) konusundaki detaylı makalelerimizi incelemenizi şiddetle öneririz.
 ### **Tek Satır Kopyalama**
-Örneği basit tutmak için makale, tek satırlı mevcut bir elektronik tablo ve satırdaki tüm değerleri toplayan basit bir formül kullanır. Satırı kopyalamadan önce elektronik tablonun Aspose.Cells.GridWeb arayüzünde nasıl görüntülendiği aşağıda açıklanmıştır.
+Örnek basit tutmak için, makale, tüm değerleri satırda toplayan basit bir formül içeren mevcut bir elektronik tablo kullanmaktadır. İşte satır kopyalanmadan önce Aspose.Cells.GridWeb arabiriminde elektronik tablonun görüntülenmesi.
 
-![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_1.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_1.png)
 
-Kod parçacığı aşağıda gösterildiği gibi basittir. İlk satırın bir sonraki satıra kopyasını oluşturmak için aktif çalışma sayfasının GridCells nesnesine erişir.
+Kod örneği aşağıda gösterildiği gibi basittir. İlk satırın bir kopyasını oluşturmak için etkin çalışma sayfası sıralamasının GridCells nesnesine erişir.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-CopyRowsColumns.aspx-CopyRow.cs" >}}
 
 
-Aspose.Cells.GridWeb satır kopyalama işleminden sonra şu şekilde görünür.
+İşte satır kopyalama işleminden sonra Aspose.Cells.GridWeb'in görünümü.
 
-![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_2.png)
-### **Tek Sütunu Kopyalama**
-Aşağıdaki örnekte, tek sütunlu mevcut bir elektronik tablo ve sütundaki tüm değerleri toplayan basit bir formül kullanılmaktadır. Sütunu kopyalamadan önce elektronik tablonun Aspose.Cells.GridWeb arayüzünde nasıl görüntülendiği aşağıda açıklanmıştır.
+![todo:image_alt_text](copy-gridweb-rows-and-columns_2.png)
+### **Tek Sütun Kopyalama**
+Aşağıdaki örnek, sütunda tüm değerleri toplayan temel bir formül içeren mevcut bir elektronik tabloyu kullanır. İşte sütun kopyalanmadan önce Aspose.Cells.GridWeb arabiriminde elektronik tablonun görüntülenmesi.
 
-![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_3.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_3.png)
 
-Yukarıdaki örneğe benzer şekilde, aşağıdaki kod parçacığı, ilk sütunun sonraki sütuna bir kopyasını oluşturmak için etkin çalışma sayfasının GridCells nesnesine erişir.
+Yukarıdaki örneğe benzer şekilde, aşağıdaki kod örneği, etkin çalışma sayfası sıralamasının GridCells nesnesine erişerek ilk sütunun kopyasını oluşturur.
 
 
 
@@ -41,17 +44,17 @@ Yukarıdaki örneğe benzer şekilde, aşağıdaki kod parçacığı, ilk sütun
 
 
 
-Sütun kopyalama işleminden sonra Aspose.Cells.GridWeb şu şekilde görünür.
+İşte sütun kopyalama işleminden sonra Aspose.Cells.GridWeb'in görünümü.
 
-![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_4.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_4.png)
 
 {{% alert color="primary" %}} 
 
-Kaynak satırı ve sütunu sırasıyla birden çok satıra ve sütuna kopyalamak için döngüde GridCells.CopyRow & GridCells.CopyColumn yöntemlerini kullanabilirsiniz.
+Kaynak satır ve sütunu çoğaltmak için döngü içinde GridCells.CopyRow ve GridCells.CopyColumn yöntemlerini kullanabilirsiniz.
 
 {{% /alert %}} 
-### **Birden Çok Satırı Kopyalama**
-Kopyalanacak kaynak satır sayısını belirtmek için tamsayı türünde ek bir parametre alan GridCells.CopyRows yöntemini kullanırken birden çok satırı yeni bir hedefe kopyalamak da mümkündür.
+### **Birden Fazla Satır Kopyalama**
+GridCells.CopyRows yöntemini kullanarak birden fazla satırın yeni bir hedefe kopyalanması da mümkündür; bu yöntem, kopyalanacak kaynak satır sayısını belirtmek için bir tamsayı türünde ek parametre alır.
 
 
 
@@ -59,13 +62,13 @@ Kopyalanacak kaynak satır sayısını belirtmek için tamsayı türünde ek bir
 
 
 
-Aspose.Cells.GridWeb, satırları kopyalama işleminden önce ve sonra nasıl göründüğünü burada bulabilirsiniz.
+İşte Aspose.Cells.GridWeb'in satır kopyalama işleminden önce ve sonra nasıl göründüğü.
 
-![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_5.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_5.png)
 
-![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_6.png)
-### **Birden Çok Sütunu Kopyalama**
-GridCells sınıfı, kopyalanacak kaynak sütun sayısını belirtmek için tamsayı türünde ek bir parametre alan CopyColumns yöntemini de sağlar.
+![todo:image_alt_text](copy-gridweb-rows-and-columns_6.png)
+### **Birden Çok Sütunun Kopyalanması**
+GridCells sınıfı ayrıca, kopyalanacak kaynak sütun sayısını belirtmek için bir tamsayı türünde ek bir parametre alan CopyColumns yöntemini sağlar.
 
 
 
@@ -73,8 +76,8 @@ GridCells sınıfı, kopyalanacak kaynak sütun sayısını belirtmek için tams
 
 
 
-Aspose.Cells.GridWeb, satırları kopyalama işleminden önce ve sonra nasıl göründüğünü burada bulabilirsiniz.
+İşte Aspose.Cells.GridWeb'in satır kopyalama işleminden önce ve sonra nasıl göründüğü.
 
-![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_7.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_7.png)
 
-![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_8.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_8.png)

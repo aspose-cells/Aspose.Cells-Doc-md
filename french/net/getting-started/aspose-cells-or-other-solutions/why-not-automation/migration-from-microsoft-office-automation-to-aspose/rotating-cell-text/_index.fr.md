@@ -1,38 +1,39 @@
-﻿---
-title: Rotation du texte Cell
+---
+title: Rotation du texte des cellules
 type: docs
 weight: 100
 url: /fr/net/rotating-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-Parfois, un en-tête de colonne est beaucoup plus large que les données des cellules ci-dessous. Cela peut créer des espaces blancs inutiles sur la page. Une solution consiste à faire pivoter le texte verticalement afin qu'il occupe moins d'espace horizontal. Dans Microsoft Excel, la rotation du texte est facile. Heureusement, il est également possible de faire pivoter le texte par programmation, afin que les développeurs puissent faire pivoter les étiquettes dans les feuilles de calcul qu'ils créent dans leurs applications.
+Parfois, un en-tête de colonne est beaucoup plus large que les données dans les cellules en dessous. Cela peut causer un espace inutile sur la page. Une solution est de faire pivoter le texte verticalement afin qu'il occupe moins d'espace horizontal. Dans Microsoft Excel, faire pivoter du texte est facile. Heureusement, il est également possible de faire pivoter le texte de manière programmatique, afin que les développeurs puissent faire pivoter les étiquettes dans les feuilles de calcul qu'ils créent dans leurs applications.
 
- Cet article explique comment faire pivoter du texte dans des cellules à l'aide de[Aspose.Cells for .NET](/cells/fr/net/rotating-cell-text/) par rapport à faire la même chose avec[VSTO](/cells/fr/net/rotating-cell-text/).
+Cet article examine comment faire pivoter le texte dans les cellules en utilisant [Aspose.Cells for .NET](/cells/fr/net/rotating-cell-text/) par rapport à faire la même chose avec [VSTO](/cells/fr/net/rotating-cell-text/).
 
 {{% /alert %}}
 
-## **Rotation du texte dans Cells**
+## **Faire pivoter le texte dans les cellules**
 
-Pour faire pivoter du texte dans une cellule d'une feuille de calcul, procédez comme suit :
+Pour faire pivoter le texte dans une cellule sur une feuille de calcul, suivez les étapes suivantes:
 
 1. Créez un classeur et obtenez une feuille de calcul.
-1. Ajoutez des exemples de texte.
-1. Formatez le texte : faites pivoter, ajoutez une couleur d'arrière-plan.
+1. Ajoutez du texte d'exemples.
+1. Formatez le texte : rotation, ajoutez une couleur de fond.
 1. Enregistrez le fichier.
 
- Les exemples de code qui suivent montrent comment effectuer ces étapes en premier dans[VSTO](/cells/fr/net/rotating-cell-text/) , en utilisant C# ou Visual Basic, puis dans[Aspose.Cells](/cells/fr/net/rotating-cell-text/), en utilisant à nouveau C# ou Visual Basic.
+Les exemples de code qui suivent montrent comment effectuer ces étapes d'abord dans [VSTO](/cells/fr/net/rotating-cell-text/), en utilisant soit C# soit Visual Basic, et ensuite dans [Aspose.Cells](/cells/fr/net/rotating-cell-text/), à nouveau en utilisant soit C# soit Visual Basic.
 
-Les exemples de code de cet article donnent la sortie indiquée ci-dessous.
+Les exemples de code dans cet article donnent le résultat montré ci-dessous.
 **Une cellule avec du texte pivoté.**
 
-![tâche : image_autre_texte](rotating-cell-text_1.png)
+![todo:image_alt_text](rotating-cell-text_1.png)
 
-### **Rotation de texte avec VSTO**
+### **Pivoter le texte avec VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -56,7 +57,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -90,14 +91,14 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-#### **Rotation du texte avec Aspose.Cells for .NET**
+#### **Pivoter le texte avec Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
- 
+
  Workbook objworkbook = new Workbook();
 
 // Get the First sheet.

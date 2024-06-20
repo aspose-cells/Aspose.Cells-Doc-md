@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells.GridWeb - Web Grid 控件
+title: Aspose.Cells.GridWeb  Web Grid 控件
 type: docs
 weight: 40
 url: /zh/net/aspose-cells-gridweb/features/

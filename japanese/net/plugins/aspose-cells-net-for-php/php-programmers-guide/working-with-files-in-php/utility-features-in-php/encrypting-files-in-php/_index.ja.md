@@ -1,15 +1,16 @@
-﻿---
-title: PHP でのファイルの暗号化
+---
+title: PHPでファイルを暗号化する
 type: docs
 weight: 10
 url: /ja/net/encrypting-files-in-php/
 ---
-## **Aspose.Cells - Excel ファイルの暗号化**
-Microsoft Excel ファイルの暗号化
 
-**PHP コード**
+## **Aspose.Cells - Excelファイルを暗号化する**
+Microsoft Excelファイルを暗号化する
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -40,7 +41,7 @@ Microsoft Excel ファイルの暗号化
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ファイルの暗号化 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に記載されているソーシャルコーディングサイトから、**暗号化ファイル (Aspose.Cells)** をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)

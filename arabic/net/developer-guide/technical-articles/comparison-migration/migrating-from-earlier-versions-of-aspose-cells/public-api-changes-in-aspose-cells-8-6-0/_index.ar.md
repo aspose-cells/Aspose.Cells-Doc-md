@@ -1,23 +1,24 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.6.0
+---
+title: تغييرات الواجهة البرمجية العامة في Aspose.Cells 8.6.0
 type: docs
 weight: 190
 url: /ar/net/public-api-changes-in-aspose-cells-8-6-0/
 ---
+
 {{% alert color="primary" %}} 
 
- يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.5.2 إلى 8.6.0 والتي قد تهم مطوري الوحدة النمطية / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/net/public-api-changes-in-aspose-cells-8-6-0/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
+يصف هذا المستند التغييرات التي تم إجراؤها في واجهة برمجة التطبيقات العامة لـ Aspose.Cells من الإصدار 8.5.2 إلى 8.6.0 والتي قد تكون مثيرة للاهتمام لمطوري الوحدات/التطبيقات. يشمل ليس فقط الطرق العامة الجديدة والمُحدّثة و[الصفوف المضافة الخلافية الخلافية الخلافة الخلافية الخلافة الخلافة الخلافية الجديدة إلخ](/خلايا/ar/net/التغييرات-في-واجهة-البرمجة-العامة-في-اصوز-خلايا-8-6-0/) ، ولكن أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم معالجة البيانات الوصفية بدون إنشاء كائن من المصنف**
-كشف هذا الإصدار من Aspose.Cells for .NET API عن فئتين جديدتين هما WorkbookMetadata & MetadataOptions جنبًا إلى جنب مع MetadataType للتعداد الجديد الذي يسمح الآن بمعالجة خصائص المستند (بيانات التعريف) دون إنشاء مثيل لـ Workbook. فئة WorkbookMetadata خفيفة الوزن وتوفر آلية سهلة الاستخدام وفعالة للغاية[قراءة وكتابة وتحديث خصائص المستند دون التأثير على الأداء العام](/cells/ar/net/using-workbookmetadata/).
+## **واجهات برمجة التطبيقات الجديدة**
+### **دعم لعملية تعديل البيانات الوصفية بدون إنشاء كائن من المصنف**
+تم تعريض هذا الإصدار من واجهة برمجة التطبيقات الخارجية Aspose.Cells for .NET فئتين جديدتين هما WorkbookMetadata و MetadataOptions جنبًا إلى جنب مع تعداد جديد MetadataType الذي يسمح الآن بالتلاعب في خصائص المستندات (البيانات الوصفية) دون إنشاء مثيل للجدول. صفيفة WorkbookMetadata خفيفة الوزن وتوفر آلية سهلة الاستخدام جدًا وفعالة لـ [قراءة وكتابة وتحديث خصائص المستندات دون التأثير على الأداء الشامل](/الخلايا/ar/net/استخدام-workbookmetadata/).
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet with WorkbookMetadata while specifying appropriate MetadataType
 
@@ -36,14 +37,14 @@ metadata.Save(filePath);
 {{< /highlight >}}
 
 
-### **تمت إضافة الخاصية HtmlSaveOptions.ExportFrameScriptsAndProperties**
-كشف Aspose.Cells for .NET 8.6.0 خاصية HtmlSaveOptions.ExportFrameScriptsAndProperties التي يمكن استخدامها للتأثير على إنشاء نصوص إضافية أثناء تحويل جداول البيانات إلى تنسيق HTML. باستخدام الإعدادات الافتراضية ، تقوم واجهات برمجة تطبيقات Aspose.Cells بتصدير جدول البيانات بتنسيق HTML حيث يقوم تطبيق Excel بالتصدير ، أي ؛ الناتج HTML يحتوي على الإطارات والتعليقات الشرطية التي تكتشف نوع المتصفح وتضبط التخطيط وفقًا لذلك. القيمة الافتراضية لخاصية HtmlSaveOptions.ExportFrameScriptsAndProperties صحيحة ، وهذا يعني ؛ يتم التصدير وفقًا لمعايير Excel. ومع ذلك ، إذا تم تعيين الخاصية على خطأ ، فلن يتم تعيين API[إنشاء البرامج النصية المتعلقة بالإطارات والتعليقات الشرطية](/cells/ar/net/disable-exporting-frame-scripts-and-document-properties/). في هذه الحالة ، يمكن عرض HTML الناتج بشكل صحيح في أي متصفح ، ومع ذلك ، لا يمكن استيراده مرة أخرى باستخدام واجهات برمجة تطبيقات Aspose.Cells.
+### **تمت إضافة خاصية HtmlSaveOptions.ExportFrameScriptsAndProperties**
+تم تعريض إصدار Aspose.Cells for .NET 8.6.0 خاصية HtmlSaveOptions.ExportFrameScriptsAndProperties التي يمكن استخدامها للتأثير على إنشاء البرمجيات النصية الإضافية أثناء تحويل جداول البيانات إلى تنسيق HTML. باستخدام الإعدادات الافتراضية، تقوم واجهات برمجة التطبيقات من Aspose.Cells بتصدير جدول البيانات إلى تنسيق HTML بنفس الطريقة التي يفعلها تطبيق Excel، أي أن الناتج HTML يحتوي على الإطارات والتعليقات الشرطية التي تكتشف نوع المتصفح وتعدل التصميم وفقًا لذلك. القيمة الافتراضية لخاصية HtmlSaveOptions.ExportFrameScriptsAndProperties هي صحيح، وهذا يعني أن التصدير يتم وفقًا لمعايير Excel. ومع ذلك، إذا كانت الخاصية مُعيَّنة إلى قيمة خاطئة، فلن تقوم واجهات برمجة التطبيقات ب[توليد البرمجيات النصية المتعلقة بالإطارات والتعليقات الشرطية](/الخلايا/ar/net/تعطيل-تصدير-البرامج-النصية-النسيجية-والخصائص-الوثيقة/). في هذه الحالة، يمكن عرض الـ HTML الناتج بشكل صحيح في أي متصفح، ومع ذلك، لا يمكن استيراده مرة أخرى باستخدام واجهات برمجة التطبيقات من Aspose.Cells.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the spreadsheet
 
@@ -62,14 +63,14 @@ book.Save("output.html", options);
 {{< /highlight >}}
 
 
-### **شكل الخاصية تمت إضافة اسم ماركو**
-كشف Aspose.Cells for .NET 8.6.0 خاصية Shape.MarcoName التي يمكن استخدامها[قم بتعيين أي وحدة نمطية لـ VBA إلى عنصر تحكم النموذج](/cells/ar/net/assign-macro-to-form-control/) مثل هذا الزر من أجل توفير التفاعل. الخاصية هي من نوع سلسلة لذلك يمكنها قبول اسم الوحدة وتخصيصها لعنصر التحكم.
+### **تمت إضافة خاصية Shape.MarcoName**
+تم تعريض إصدار Aspose.Cells for .NET 8.6.0 لخاصية Shape.MarcoName التي يمكن استخدامها لـ [تعيين أي وحدة VBA لعنصر تحكم في النموذج](/الخلايا/ar/net/تعيين-الوحدة-لعنصر-التحكم/) مثل زر من أجل توفير التفاعل. الخاصية من نوع سلسلة لذلك يمكنها قبول اسم الوحدة وتعيينه إلى العنصر التحكم.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -122,5 +123,5 @@ workbook.Save("output.xlsm");
 {{< /highlight >}}
 
 
-### **تمت إضافة الخاصية OoxmlSaveOptions.UpdateZoom**
-مع إصدار v8.6.0 ، كشف API Aspose.Cells for .NET API خاصية OoxmlSaveOptions.UpdateZoom التي يمكن استخدامها لتحديث PageSetup.Zoom إذا PageSetup.FitToPagesWide و / أو PageSetup.FitToPages تم استخدام خصائص ورقة العمل للتحكم.
+### **تمت إضافة خاصية OoxmlSaveOptions.UpdateZoom**
+مع إصدار الإصدار v8.6.0، فقد قامت واجهة برمجة التطبيقات Aspose.Cells for .NET بفتح خاصية OoxmlSaveOptions.UpdateZoom والتي يمكن استخدامها لتحديث خاصية PageSetup.Zoom إذا تم استخدام PageSetup.FitToPagesWide و / أو PageSetup.FitToPagesTall properties للتحكم في تحجيم ورقة البيانات.

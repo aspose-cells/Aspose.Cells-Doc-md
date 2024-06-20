@@ -1,18 +1,19 @@
-﻿---
-title: 数式を含む CSV ファイルのロードまたはインポート
+---
+title: 数式を持つCSVファイルを読み込むまたはインポートする
 type: docs
 weight: 350
 url: /ja/net/load-or-import-csv-file-with-formulas/
 ---
+
 {{% alert color="primary" %}} 
 
- CSV ファイルにはほとんどがテキスト データが含まれており、数式は含まれていません。ただし、CSV ファイルにも数式が含まれている場合があります。このような CSV ファイルは、[TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/hasformula)なので**真実** .このプロパティが設定されると**真実**、Aspose.Cells は、数式を単純なテキストとして扱いません。これらは数式として扱われ、Aspose.Cells 数式計算エンジンは通常どおり処理します。
+CSVファイルには主にテキストデータが含まれ、数式は含まれていません。ただし、CSVファイルに数式が含まれることがあります。そのようなCSVファイルは、[TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/hasformula)を**true**に設定して読み込む必要があります。このプロパティを**true**に設定すると、Aspose.Cellsは数式を単純なテキストとしてではなく、数式として扱い、通常通りAspose.Cellsの数式計算エンジンが処理します。
 
 {{% /alert %}} 
 
-次のコードは、式を含む CSV ファイルをロードおよびインポートする方法を示しています。任意の CSV ファイルを使用できます。説明のために、[シンプルなcsvファイル](5115034.csv)このデータが含まれています。ご覧のとおり、式が含まれています。
+以下のコードは、数式を含むCSVファイルをロードおよびインポートする方法を示しています。任意のCSVファイルを使用できます。例として、このようなデータを含む[シンプルなcsvファイル](5115034.csv)を使用しています。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  300,500,=Sum(A1:B1)
 
@@ -22,8 +23,8 @@ url: /ja/net/load-or-import-csv-file-with-formulas/
 
 
 
-このコードは、最初に CSV ファイルをロードしてから、セル D4 に再度インポートします。最後に、ワークブック オブジェクトを XSLX 形式で保存します。の[出力 XLSX ファイル](5115052.xlsx)このように見えます。ご覧のとおり、セル C3 と F4 には数式とその結果 800 が含まれています。
+コードはまずCSVファイルをロードし、次にセルD4に再度インポートします。最後に、ワークブックオブジェクトをXSLX形式で保存します。[出力XLSXファイル](5115052.xlsx)は次のようになります。セルC3とF4に数式とその結果800が含まれていることがわかります。
 
-|![todo:画像_代替_文章](load-or-import-csv-file-with-formulas_1.png)|
-|:- |
+|![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
+| :- |
 

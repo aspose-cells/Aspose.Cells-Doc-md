@@ -1,27 +1,28 @@
-﻿---
-title: Stampa commenti salvando su PDF
+---
+title: Stampa commenti durante il salvataggio in PDF
 type: docs
 weight: 10
 url: /it/net/print-comments-while-saving-to-pdf/
 ---
+
 {{% alert color="primary" %}}
 
 Microsoft Excel consente di stampare i commenti durante la stampa o il salvataggio nel formato PDF con le seguenti opzioni
 
-- Nessuno
+- Nessuna
 - Alla fine del foglio
-- Come visualizzato sul foglio
+- Come visualizzato nel foglio
 
- Aspose.Cells forniscono il[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) enum per supportare la stessa funzionalità. Il[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)enum ha i seguenti membri
+Aspose.Cells fornisce l'enumerazione [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) per supportare la stessa funzionalità. L'enumerazione [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) ha i seguenti membri
 
-- StampaNessun commento
-- Stampa sul posto
-- StampaFoglioFine
+- PrintNoComments
+- PrintInPlace
+- PrintSheetEnd
 
 {{% /alert %}}
 
-## **Stampa commenti salvando su PDF**
+## **Stampa commenti durante il salvataggio in PDF**
 
- Il seguente codice di esempio illustra come utilizzare[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)per stampare i commenti salvandoli allo PDF.
+Il seguente codice di esempio illustra come utilizzare [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) per stampare commenti durante il salvataggio in PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintCommentWhileSavingToPdf-PrintCommentWhileSavingToPdf.cs" >}}

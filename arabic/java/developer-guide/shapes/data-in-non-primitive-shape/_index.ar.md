@@ -1,23 +1,24 @@
-﻿---
-title: البيانات في شكل غير بدائي
+---
+title: البيانات في شكل غير الذي يتميز ببساطة
 type: docs
 weight: 500
 url: /ar/java/data-in-non-primitive-shape/
 ---
-## **الوصول إلى البيانات ذات الشكل غير البدائي**
 
-في بعض الأحيان ، تحتاج إلى الوصول إلى البيانات من شكل غير مضمن. تسمى الأشكال المضمنة الأشكال البدائية ؛ تلك التي لا تسمى غير بدائية. على سبيل المثال ، يمكنك تحديد الأشكال الخاصة بك باستخدام خطوط مختلفة متصلة منحنى.
+## **الوصول إلى بيانات الشكل غير الذي يتميز ببساطة**
 
-## **شكل غير بدائي**
+في بعض الأحيان، تحتاج إلى الوصول إلى البيانات من شكل ليس مدمجًا. يطلق على الأشكال المدمجة ، الأشكال الأساسية ، ويطلق على الأشكال التي ليست كذلك ، الأشكال غير الأساسية. على سبيل المثال، يمكنك تحديد أشكالك الخاصة باستخدام خطوط متصلة مختلفة.
 
-في Aspose.Cells ، يتم تخصيص النوع للأشكال غير البدائية[**نوع تلقائي**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . يمكنك التحقق من نوعها باستخدام ملف[**Shape.getAutoShapeType ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)طريقة.
+## **الشكل غير الأساسي**
 
- قم بالوصول إلى بيانات الشكل باستخدام ملف[**Shape.getPaths ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)طريقة. تقوم بإرجاع جميع المسارات المتصلة التي تشكل الشكل غير البدائي. هذه المسارات من النوع ShapePath الذي يحتوي على قائمة بجميع المقاطع التي بدورها تحتوي على النقاط في كل مقطع.
+في Aspose.Cells ، يتم تعيين الأشكال غير الأساسية النوع [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE). يمكنك التحقق من نوعها باستخدام الطريقة [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType).
 
-يوضح مقتطف الشفرة التالي استخدام[**Shape.getPaths ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)طريقة للوصول إلى معلومات المسار ذات الشكل غير البدائي.
+الوصول إلى بيانات الشكل باستخدام الطريقة [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths). إنها تعيد جميع المسارات المتصلة التي تشكل الشكل غير الأساسي. تكون هذه المسارات من نوع ShapePath التي تحتوي على قائمة بجميع الشرائح التي تحتوي على النقاط في كل شريحة.
 
-**يعرض مثالاً لشكل غير بدائي** 
+يوضح المقطع البرمجي التالي استخدام الطريقة [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths) للوصول إلى معلومات المسار الخاصة بالشكل غير الأساسي.
 
-![ما يجب القيام به: image_بديل_نص](data-in-non-primitive-shape_1.jpg)
+**يُظهر مثالًا لشكل غير أساسي** 
+
+![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-NonPrimitiveShape-1.java" >}}

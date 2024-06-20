@@ -1,17 +1,18 @@
-﻿---
-title: Вставить гиперссылки на лист
+---
+title: Вставка гиперссылок в рабочем листе
 type: docs
 weight: 20
 url: /ru/net/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Вставка гиперссылок на лист**
-**Добавление ссылки на Cell в тот же файл**
 
-Можно добавить гиперссылки в ячейки в том же файле Excel, вызвав метод Add коллекции Hyperlink. Метод Add работает как для внутренних, так и для внешних гиперссылок.
+## **Aspose.Cells - Вставка гиперссылок в рабочем листе**
+**Добавление ссылки в ячейку в том же файле**
+
+Возможно добавить гиперссылки в ячейки в том же файле Excel при вызове метода Add коллекции Hyperlink. Метод Add работает как для внутренних, так и для внешних гиперссылок.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -66,16 +67,16 @@ workbook.Save("test.xlsx");
 
 **Добавление ссылки на внешний файл**
 
-Можно добавить гиперссылки в ячейки в том же файле Excel, вызвав метод Add коллекции Hyperlink. Метод Add работает как для внутренних, так и для внешних гиперссылок. Одна версия перегруженного метода принимает следующие параметры:
+Возможно добавить гиперссылки в ячейки в том же файле Excel при вызове метода Add коллекции Hyperlink. Метод Add работает как для внутренних, так и для внешних гиперссылок. Одна из версий перегруженного метода принимает следующие параметры:
 
-- Cell имя, имя ячейки, в которую будет добавлена гиперссылка.
+- Имя ячейки, имя ячейки, в которую будет добавлена гиперссылка.
 - Количество строк, количество строк в этом диапазоне гиперссылок.
 - Количество столбцов, количество столбцов в этом диапазоне гиперссылок.
 - URL, адрес целевой ячейки.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -96,10 +97,10 @@ worksheet.Hyperlinks.Add("B3", 1, 1, "Sheet2!B9");
 workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
-## **NPOI — HSSF XSSF — вставка гиперссылок на лист**
+## **NPOI - HSSF XSSF - Вставка гиперссылок в рабочем листе**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -192,13 +193,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Вставить гиперссылки на лист** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузить **Вставка гиперссылок в рабочем листе** с любого из указанных ниже сайтов социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Добавление гиперссылок к данным связи](/cells/ru/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
+Для получения более подробной информации посетите страницу [Добавление гиперссылок для связывания данных](/cells/ru/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
 
 {{% /alert %}}

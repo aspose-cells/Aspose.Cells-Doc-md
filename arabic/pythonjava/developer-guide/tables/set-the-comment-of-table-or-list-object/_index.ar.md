@@ -1,16 +1,17 @@
-﻿---
-title: قم بتعيين تعليق جدول أو قائمة كائن
+---
+title: تعيين تعليق كائن الجدول أو القائمة تلقائيًا
 type: docs
 weight: 60
 url: /ar/python-java/set-the-comment-of-table-or-list-object/
 ---
-## **قم بتعيين تعليق جدول أو قائمة كائن داخل ورقة العمل**
-Aspose.Cells for Python via Java يدعم إضافة تعقيب كائن القائمة. لهذا ، يوفر API امتداد[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)خاصية. التعليق الذي أضافه[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)ستكون الخاصية مرئية داخل*xl / table / tableName.xml* ملف.
 
-تُظهر لقطة الشاشة التالية التعليق الذي تم إنشاؤه بواسطة نموذج التعليمات البرمجية في المستطيل الأحمر.
+## **ضبط التعليق للجدول أو كائن القائمة داخل ورقة العمل**
+تدعم Aspose.Cells for Python via Java إضافة تعليق لكائن القائمة. لهذا الغرض، توفر الواجهة البرمجية الخاصية [ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment). سيكون التعليق الذي تم إضافته بواسطة الخاصية [ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment) مرئيا داخل ملف *xl/tables/tableName.xml*.
 
-![ما يجب القيام به: image_بديل_نص](setting-list-object-comment.png)
+تُظهر اللقطة الشاشة التالية التعليق الذي تم إنشاؤه بواسطة رمز العينة داخل المستطيل الأحمر.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[ملف اكسل المصدر](source.xlsx)، يعيّن تعليق كائن الجدول أو القائمة الأول داخل ورقة العمل
+![todo:image_alt_text](setting-list-object-comment.png)
+
+الكود العينة التالي يحمل [ملف إكسل المصدر](source.xlsx)، ويقوم بتعيين تعليق لأول جدول أو كائن قائمة داخل ورقة العمل 
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Tables-SetTheCommentOfTableOrListObject.py" >}}

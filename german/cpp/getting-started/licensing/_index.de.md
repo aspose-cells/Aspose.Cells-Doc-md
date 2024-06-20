@@ -1,43 +1,44 @@
 ---
-title: Licensing
+title: Lizenzierung
 type: docs
 weight: 50
 url: /de/cpp/licensing/
 ---
-##  **Einschränkungen der Evaluierungsversion**
- Eine kostenlose Testversion von Aspose.Cells for C++ kann im Download-Bereich der Website von Aspose heruntergeladen werden:<https://downloads.aspose.com/cells/cpp>.
-##  **Wenden Sie die Lizenz mithilfe einer Datei oder eines Stream-Objekts an**
-Die Lizenz kann aus einer Datei oder einem Stream-Objekt geladen werden. Aspose.Cells for C++ wird versuchen, die Lizenz an den folgenden Orten zu finden:
 
-1. Expliziter Pfad.
+## **Evaluierungsversion-Beschränkungen**
+A free evaluation version of Aspose.Cells for C++ can be downloaded from the downloads section of Aspose's web site at: <https://downloads.aspose.com/cells/cpp>.
+## **Lizenz mit Datei oder Stream-Objekt anwenden**
+Die Lizenz kann aus einer Datei oder einem Stream-Objekt geladen werden. Aspose.Cells for C++ versucht die Lizenz an folgenden Orten zu finden:
+
+1. Ausdrücklicher Pfad.
 1. Der Ordner, der Aspose.Cells.dll enthält.
 1. Der Ordner, der die Assembly enthält, die Aspose.Cells.dll aufgerufen hat.
-1. Der Ordner, der die Eintragsassembly (Ihre EXE-Datei) enthält.
-1. Eine eingebettete Ressource in der Assembly mit dem Namen Aspose.Cells.dll.
+1. Der Ordner, der die Einstiegsassembly (deine .exe) enthält.
+1. Ein eingebettetes Ressource in der Assembly, die Aspose.Cells.dll aufgerufen hat.
 
-Der einfachste Weg, eine Lizenz festzulegen, besteht darin, die Lizenzdatei im selben Ordner wie die Datei Aspose.Cells.dll abzulegen und den Dateinamen ohne Pfad anzugeben, wie im folgenden Beispiel gezeigt.
-###  **Laden einer Lizenz aus einer Datei**
-Der einfachste Weg, eine Lizenz anzuwenden, besteht darin, die Lizenzdatei im selben Ordner wie die Datei Aspose.Cells.dll abzulegen und nur den Dateinamen ohne Pfad anzugeben.
+Der einfachste Weg, eine Lizenz zu setzen, ist es, die Lizenzdatei in den gleichen Ordner wie die Aspose.Cells.dll-Datei zu legen und den Dateinamen ohne Pfad anzugeben, wie im folgenden Beispiel gezeigt.
+### **Laden einer Lizenz aus Datei**
+Der einfachste Weg, eine Lizenz anzuwenden, ist es, die Lizenzdatei in den gleichen Ordner wie die Aspose.Cells.dll-Datei zu legen und nur den Dateinamen ohne Pfad anzugeben.
 
 {{% alert color="primary" %}} 
 
-Wenn Sie die SetLicense-Methode aufrufen, sollte der von Ihnen übergebene Lizenzname der der Lizenzdatei sein. Wenn Sie beispielsweise den Namen der Lizenzdatei in „Aspose.Cells.lic.xml“ ändern, übergeben Sie diesen Dateinamen an die Methode Cells->SetLicense(…).
+Wenn Sie die SetLicense-Methode aufrufen, sollte der Lizenzname, den Sie übergeben, dem Namen der Lizenzdatei entsprechen. Wenn Sie beispielsweise den Lizenzdateinamen in "Aspose.Cells.lic.xml" ändern, übergeben Sie diesen Dateinamen an die Cells->SetLicense(…)-Methode.
 
 {{% /alert %}} 
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
   License license;
   license.SetLicense(u"Aspose.Cells.lic");
 
 {{< /highlight >}}
-###  **Laden einer Lizenz aus einem Stream-Objekt**
-Das folgende Beispiel zeigt, wie eine Lizenz aus einem Stream geladen wird.
+### **Laden einer Lizenz aus einem Stream-Objekt**
+Das folgende Beispiel zeigt, wie man eine Lizenz aus einem Stream lädt.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   License license;
 

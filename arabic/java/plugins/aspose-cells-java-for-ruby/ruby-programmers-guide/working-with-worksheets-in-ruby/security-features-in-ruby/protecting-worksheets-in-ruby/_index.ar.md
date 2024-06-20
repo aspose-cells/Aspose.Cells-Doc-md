@@ -1,15 +1,16 @@
-﻿---
-title: حماية أوراق العمل في روبي
+---
+title: حماية ورقة عمل في Ruby
 type: docs
 weight: 10
 url: /ar/java/protecting-worksheets-in-ruby/
 ---
-## **Aspose.Cells - حماية أوراق العمل**
- لحماية ورقة العمل باستخدام**Aspose.Cells Java لروبي** ، مكالمة**حماية_ورقة العمل** طريقة**الحماية** وحدة.
 
-**كود روبي**
+## **Aspose.Cells - حماية ورقة عمل**
+لحماية ورقة العمل باستخدام **Aspose.Cells Java for Ruby**، ادعو إلى الاستدعاء **protect_worksheet** لوحدة **protection**.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  def protect_worksheet()
 
@@ -54,7 +55,7 @@ url: /ar/java/protecting-worksheets-in-ruby/
 end   
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**حماية أوراق العمل (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **حماية الأوراق العمل (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

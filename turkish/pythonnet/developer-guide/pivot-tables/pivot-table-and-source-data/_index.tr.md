@@ -1,55 +1,56 @@
 ---
-title: Pivot Tablo ve Kaynak Veriler
+title: Pivot Tablosu ve Kaynak Veri
 type: docs
 weight: 30
 url: /tr/python-net/pivot-table-and-source-data/
-description: Bu makalede, pivot tablonun kaynak verilerinin Aspose.Cells for Python via .NET ile nasıl değiştirileceği gösterilmektedir.
-keywords: Change Pivot Table's Source Data
+description: Bu makale, Aspose.Cells for Python via .NET ile pivot tablosunun kaynak verisini değiştirmenin nasıl yapılacağını göstermektedir.
+keywords: Python için Aspose.Cells Excel, Excel Python kütüphanesi, Aspose.Cells ile Pivot Tablosunun Kaynak Verisini Değiştirme.
 ---
-##  **Pivot Tablonun Kaynak Verileri**
 
-Tasarım zamanında bilinmeyen farklı veri kaynaklarından (veritabanı gibi) veri alan pivot tablolarla Microsoft Excel raporları oluşturmak istediğiniz zamanlar vardır. Bu makalede, pivot tablonun veri kaynağını dinamik olarak değiştirmeye yönelik bir yaklaşım sunulmaktadır.
+## **Pivot Tablosunun Kaynak Verisi**
 
-###  **Pivot Tablonun Kaynak Verilerini Değiştirme**
+Farklı veri kaynaklarından (örneğin bir veritabanı) alınan verileri alan ve tasarım zamanında bilinmeyen pivota tabloları olan Microsoft Excel raporları oluşturmak istediğinizde bazı durumlar olabilir. Bu makale, bir pivot tablosunun veri kaynağını dinamik olarak değiştirmenin bir yaklaşımını sunar.
+
+### **Bir Pivot Tablosunun Veri Kaynağını Değiştirme**
 
 1. Yeni bir tasarımcı şablonu oluşturma.
- 1. Aşağıdaki ekran görüntüsündeki gibi yeni bir tasarımcı şablon dosyası oluşturun.
- 1. Daha sonra bu hücre aralığını ifade eden *DataSource** adlı adlandırılmış bir aralık tanımlayın.
+   1. Aşağıdaki ekran görüntüsünde olduğu gibi yeni bir tasarımcı şablonu dosyası oluşturun.
+   1. Ardından bu hücre aralığına atıfta bulunan **DataSource** adlı bir adlandırılmış aralık tanımlayın.
 
-      **Tasarımcı şablonu oluşturma ve adlandırılmış bir aralığı tanımlama, DataSource** 
+      **Bir tasarımcı şablon oluşturma ve DataSource adlı adlandırılmış aralık tanımlama** 
 
-![yapılacak şey:image_alt_text](pivot-table-and-source-data_1.png)
-   
-1. Bu adlandırılmış aralığa dayalı bir Pivot Tablo Oluşturma.
-1. Microsoft Excel'de şunu seçin:**Veri**, ardından **Özet Tablo** ve *Özet Grafik Raporu**.
- 1. İlk adımda oluşturulan adlandırılmış aralığa göre bir pivot tablo oluşturun.
+![todo:image_alt_text](pivot-table-and-source-data_1.png)
 
-      **DataSource adlı adlandırılmış aralığa dayalı bir pivot tablo oluşturma** 
+1. Bu adlandırılmış aralığa dayalı bir Özet Tablo Oluşturma.
+   1. Microsoft Excel'de **Veri**'yi seçin, ardından **Özet Tablo** ve **Özet Tablo Grafik Raporu'nu** seçin.
+   1. İlk adımda oluşturulan adlandırılmış aralığa dayalı bir özet tablo oluşturun.
 
-![yapılacak şey:image_alt_text](pivot-table-and-source-data_2.png)
+      **DataSource** adlı adlandırılmış aralığa dayalı bir özet tablo oluşturma 
 
-   
- 1. İlgili alanı pivot tablo satırına ve sütununa sürükleyin, ardından aşağıdaki ekran görüntüsündeki gibi elde edilen pivot tabloyu oluşturun.
-
-   **İlgili alana dayalı bir pivot tablo oluşturma** 
-
-![yapılacak şey:image_alt_text](pivot-table-and-source-data_3.png)
-
-   
-1. Pivot tabloya sağ tıklayın ve *Tablo Seçenekleri**'ni seçin.
- 1. Kontrol edin**Açılışta yenile** içinde**Veri seçenekleri** ayarlar.
-
-      **Pivot tablo seçeneklerini ayarlama** 
-
-![yapılacak şey:image_alt_text](pivot-table-and-source-data_4.png)
+![todo:image_alt_text](pivot-table-and-source-data_2.png)
 
 
-Artık bu dosyayı tasarımcı şablon dosyanız olarak kaydedebilirsiniz.
+   1. İlgili alanı özet tablo satır ve sütununa sürükleyin, ardından aşağıdaki ekran görüntüsünde olduğu gibi sonuç özet tablosunu oluşturun.
 
-1. Yeni verileri doldurma ve pivot tablonun kaynak verilerini değiştirme.
- 1. Tasarımcı şablonu oluşturulduktan sonra pivot tablonun kaynak verilerini değiştirmek için aşağıdaki kodu kullanın.
+   **İlgili alana dayalı bir özet tablo oluşturmak** 
 
-Aşağıdaki örnek kodun yürütülmesi pivot tablonun kaynak verilerini değiştirir.
+![todo:image_alt_text](pivot-table-and-source-data_3.png)
+
+
+1. Özet tabloyu sağ tıklayın ve **Tablo Seçenekleri**'ni seçin.
+   1. **Veri seçenekleri** ayarlarında **Açılışta yenile**'yi işaretleyin.
+
+      **Özet tablo seçeneklerini ayarlama** 
+
+![todo:image_alt_text](pivot-table-and-source-data_4.png)
+
+
+Şimdi bu dosyayı tasarımcı şablon dosyanız olarak kaydedebilirsiniz.
+
+1. Yeni veri eklenmesi ve özet tablonun kaynak verisinin değiştirilmesi.
+   1. Tasarımcı şablon oluşturulduktan sonra, özet tablonun kaynak verisini değiştirmek için aşağıdaki kodu kullanın.
+
+Aşağıdaki örnek kodu çalıştırarak pivot tablosunun kaynak verisini değiştirin.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTable-ChangeSourceData-1.py" >}}
 

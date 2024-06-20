@@ -1,36 +1,37 @@
-﻿---
-title: Tabla de consulta de lectura y escritura de la hoja de trabajo
+---
+title: Leer y Escribir Tabla de Consulta de Hoja de Cálculo
 type: docs
 weight: 40
 url: /es/net/reading-and-writing-query-table-of-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells proporciona la colección Worksheet.QueryTables que devuelve el objeto de tipo QueryTable por índice. tiene las siguientes dos propiedades
+Aspose.Cells proporciona la colección Worksheet.QueryTables que devuelve el objeto de tipo QueryTable por índice. Tiene las siguientes dos propiedades
 
 - QueryTable.AdjustColumnWidth
 - QueryTable.PreserveFormatting
 
-Ambos son valores booleanos. Puede verlos en Microsoft Excel a través de Datos > Conexiones > Propiedades.
+Ambos son valores booleanos. Puedes verlos en Microsoft Excel a través de Datos > Conexiones > Propiedades.
 
 {{% /alert %}}
 
-## Tabla de consulta de lectura y escritura de la hoja de trabajo
+## Lectura y Escritura de Tabla de Consulta de Hoja de Cálculo
 
 El siguiente código de ejemplo lee la primera QueryTable de la primera hoja de cálculo y luego imprime ambas propiedades de QueryTable. Luego establece QueryTable.PreserveFormatting en verdadero.
 
-Puede descargar el archivo de origen de Excel utilizado en este código y el archivo de salida de Excel generado por el código desde los siguientes enlaces.
+Puedes descargar el archivo de Excel fuente utilizado en este código y el archivo de Excel de salida generado por el código desde los siguientes enlaces.
 
-- [Archivo Excel de origen](5115533.xlsx)
-- [Archivo de Excel de salida](5115537.xlsx)
+- [Archivo de Excel Fuente](5115533.xlsx)
+- [Archivo de Excel de Salida](5115537.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.cs" >}}
 
-### Salida de consola
+### Salida en Consola
 
-Aquí está la salida de la consola del código de muestra anterior
+Aquí está la salida de la consola del código de ejemplo anterior
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Adjust Column Width: True
 
@@ -38,8 +39,8 @@ Preserve Formatting: False
 
 {{< /highlight >}}
 
-## Recuperar el rango de resultados de la tabla de consulta
+## Recuperar rango de resultados de tabla de consulta
 
- Aspose.Cells ofrece la opción de leer la dirección, es decir, el rango de resultados de las celdas para una tabla de consulta. El siguiente código demuestra esta característica al leer la dirección del rango de resultados para una tabla de consulta. El archivo de muestra se puede descargar[aquí](72417290.xlsx).
+Aspose.Cells proporciona la opción de leer la dirección, es decir, el rango de resultados de celdas para una tabla de consulta. El siguiente código demuestra esta función leyendo la dirección del rango de resultados para una tabla de consulta. El archivo de ejemplo se puede descargar [aquí](72417290.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}

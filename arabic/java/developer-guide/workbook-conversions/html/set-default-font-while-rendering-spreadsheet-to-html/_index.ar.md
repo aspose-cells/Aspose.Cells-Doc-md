@@ -1,21 +1,22 @@
-﻿---
-title: قم بتعيين الخط الافتراضي أثناء تقديم جدول البيانات إلى HTML
+---
+title: تعيين الخط الافتراضي أثناء تحويل جدول بيانات إكسل إلى HTML
 type: docs
 weight: 830
 url: /ar/java/set-default-font-while-rendering-spreadsheet-to/
 ---
+
 {{% alert color="primary" %}} 
 
- يسمح لك Aspose.Cells بتعيين الخط الافتراضي أثناء تقديم جدول البيانات إلى HTML. الرجاء استخدام[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName)لهذا الغرض. هذه الخاصية مفيدة عندما يكون هناك بعض الخلايا في جدول البيانات التي تحتوي على خطوط غير صالحة أو غير موجودة. ثم سيتم تقديم هذه الخلايا بخط محدد بـ[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName) خاصية.
+يسمح Aspose.Cells لك بتعيين الخط الافتراضي أثناء تقديم جدول الخلية إلى HTML. يرجى استخدام [HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName) لهذا الغرض. يكون هذا الخاصية مفيدًا عندما تكون بعض الخلايا في جدول الخلية تحتوي على خطوط غير صالحة أو غير موجودة. بعد ذلك ستتم تقديم تلك الخلايا في خط محدد باستخدام خاصية [HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName).
 
 {{% /alert %}} 
-## **قم بتعيين الخط الافتراضي أثناء تقديم جدول البيانات إلى HTML**
-يقوم نموذج التعليمات البرمجية التالي بإنشاء مصنف وإضافة بعض النص في الخلية B4 من ورقة العمل الأولى وتعيين الخط الخاص به إلى خط غير معروف / غير موجود. ثم يحفظ المصنف في HTML عن طريق تعيين أسماء خطوط افتراضية مختلفة مثل Courier New و Arial و Times New Roman وما إلى ذلك.
+## **تعيين الخط الافتراضي أثناء تقديم جدول بيانات إلى HTML**
+الكود العيني التالي يقوم بإنشاء دفتر عمل وإضافة نص معين في الخلية B4 من أول ورقة عمل ويقوم بتعيين خطه إلى خط غير معروف / غير موجود. ثم يقوم بحفظ الدفتر العمل بتنسيق HTML عن طريق تعيين أسماء خط مختلفة كـ Courier New, Arial, Times New Roman وما إلى ذلك.
 
- تظهر لقطة الشاشة تأثير تعيين أسماء خطوط افتراضية مختلفة عبر[HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName)خاصية.
+اللقطة الشاشية تظهر تأثير تعيين أسماء خط افتراضية مختلفة من خلال الخاصية [HtmlSaveOptions.DefaultFontName](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DefaultFontName).
 
-![ما يجب القيام به: image_بديل_نص](set-default-font-while-rendering-spreadsheet-to-html_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-html_1.png)
 
- يقوم الرمز بإنشاء ملف[إخراج ملف HTML مع Courier New](5472568) ، ال[الإخراج HTML مع Arial](5472567) و ال[إخراج ملف HTML باستخدام Times New Roman](5472565).
+الكود يولد [ملف HTML الناتج بـ Courier New](5472568)، [ملف HTML الناتج بـ Arial](5472567) و [ملف HTML الناتج بـ Times New Roman](5472565).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToHTML-.java" >}}

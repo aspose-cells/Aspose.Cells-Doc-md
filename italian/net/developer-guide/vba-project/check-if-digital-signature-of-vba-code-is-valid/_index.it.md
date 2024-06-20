@@ -1,17 +1,18 @@
-﻿---
-title: Controlla se la firma digitale del codice VBA è valida
+---
+title: Verifica se la Firma Digitale del Codice VBA è Valida
 type: docs
 weight: 120
 url: /it/net/check-if-digital-signature-of-vba-code-is-valid/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells permette di verificare se la firma digitale del codice VBA è valida utilizzando il[**Workbook.VbaProject.IsValidSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isvalidsigned) proprietà. Tornerà**VERO** se la firma è valida altrimenti tornerà**falso**. La firma digitale del codice VBA diventa non valida quando si modifica il codice VBA.
+Aspose.Cells ti permette di verificare se la firma digitale del codice VBA è valida utilizzando la proprietà [**Workbook.VbaProject.IsValidSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isvalidsigned). Restituirà **true** se la firma è valida, altrimenti restituirà **false**. La firma digitale del codice VBA diventa non valida quando si cambia il codice VBA.
 
 {{% /alert %}}
 
-## **Controlla se la firma digitale del codice VBA è valida in C#**
+## **Verifica se la Firma Digitale del Codice VBA è Valida in C#**
 
- Il codice seguente illustra l'utilizzo di questa proprietà utilizzando il[file excel di esempio](5115030.xlsm)che puoi scaricare dal link fornito. Lo stesso file excel ha una firma valida ma quando modifichiamo il suo codice VBA e salviamo la cartella di lavoro e quindi ricontrolliamo, scopriamo che la sua firma non è più valida.
+Il codice seguente dimostra l'uso di questa proprietà utilizzando il [file Excel di esempio](5115030.xlsm) che puoi scaricare dal link fornito. Lo stesso file Excel ha una firma valida ma quando modifichiamo il suo codice VBA e salviamo il workbook e poi ricontrolliamo, troviamo che la sua firma è diventata non valida.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaSignatureIsValid-CheckVbaSignatureIsValid.cs" >}}

@@ -1,28 +1,29 @@
-﻿---
-title: Elektronik tabloları yazdır
+---
+title: Elektronik Tabloları Yazdır
 type: docs
 weight: 20
 url: /tr/net/print-spreadsheets/
 ---
-Sayfa yapısı ayarları ayrıca, kullanıcıların çalışma sayfalarının yazdırılan sayfalarını kontrol etmelerine olanak tanıyan çeşitli Yazdırma Seçenekleri (Sayfa Seçenekleri olarak da anılır) sağlar. Bu yazdırma seçenekleri, kullanıcıların şunları yapmasına olanak tanır:
 
-- Çalışma sayfasının belirli bir Yazdırma Alanını seçin
+Sayfa ayarları ayarlarının yanı sıra, Kullanıcıların çalışma sayfalarının basılı sayfalarını kontrol etmelerine izin veren birkaç Yazdırma Seçeneği (ayrıca Sayfa Seçenekleri olarak da adlandırılır) sağlar.
+
+- Çalışma sayfasının belirli bir Baskı Alanını seç
 - Başlıkları Yazdır
-- Kılavuz Çizgilerini Yazdır
+- Izgara Çizgilerini Yazdır
 - Satır/Sütun Başlıklarını Yazdır
-- Taslak Kalitesine Ulaşın
+- Taslak Kalitesine Ulaş
 - Yorumları Yazdır
-- Yazdır Cell Hataları
-- Sayfa Sıralamasını Tanımla
+- Hücre Hatalarını Yazdır
+- Sayfa Sıralamasını Belirle
   **Yazdırma/Sayfa Seçeneklerini Ayarlama**
 
-Aspose.Cells, tüm bu yazdırma seçeneklerini destekler ve geliştiriciler, PageSetup sınıfı tarafından sunulan çeşitli özellikleri kullanarak bu seçenekleri istedikleri çalışma sayfaları için kolayca yapılandırabilir. PageSetup sınıfının bu özelliklerinin kullanımı aşağıda daha ayrıntılı olarak ele alınmıştır.
-## **Yazdırma Alanını Ayarla**
-Varsayılan olarak, yalnızca veri içeren çalışma sayfasının tüm alanını içeren yazdırma alanı seçilir, ancak geliştiriciler de arzularına göre çalışma sayfasının belirli bir yazdırma alanını oluşturabilirler.
+Aspose.Cells, tüm bu yazdırma seçeneklerini destekler ve geliştiriciler, PageSetup sınıfının sunmuş olduğu çeşitli özellikler kullanarak istedikleri çalışma sayfaları için bu seçenekleri kolayca yapılandırabilirler. PageSetup sınıfının bu özelliklerinin kullanımı aşağıda daha detaylı olarak tartışılmıştır.
+## **Baskı Alanı Belirle**
+Varsayılan olarak, veri içeren çalışma sayfasının tam alanını içeren baskı alanı seçilir, ancak geliştiriciler istediklerine göre çalışma sayfasının belirli bir baskı alanını da belirleyebilirler.
 
- Geliştiriciler, belirli bir yazdırma alanı seçmek için set**Alanı yazdır** yöntemi**Sayfa ayarı** sınıf. Yazdırma alanının hücre aralığını bu yönteme argüman olarak sağlayabilirsiniz.
+Belirli bir baskı alanını seçmek için, geliştiriciler, **PageSetup** sınıfının **PrintArea** yöntemini kullanabilir. Bu yönteme argüman olarak baskı alanının hücre aralığını sağlayabilirsiniz.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -38,12 +39,12 @@ pageSetup.PrintArea = "A1:T35";
 
 
 {{< /highlight >}}
-## **Baskı Başlıklarını Ayarla**
- Aspose.Cells, basılı çalışma sayfanızın tüm sayfalarında tekrarlanmasını istediğiniz satır ve sütun başlıklarını belirlemenizi sağlar. Bunu yapmak için, geliştiriciler set'i kullanabilir.**Başlık Sütunlarını Yazdır** ve**setPrintTitleRows** yöntemleri**Sayfa ayarı** sınıf.
+## **Başlıkları Yazdırma**
+Aspose.Cells, basılı çalışma sayfasının tüm sayfalarında tekrarlanmasını istediğiniz satır ve sütun başlıklarını belirlemenize olanak tanır. Bunu yapmak için, geliştiriciler **PrintTitleColumns** ve **PrintTitleRows** yöntemlerini **PageSetup** sınıfının kullanabilirler.
 
-Satırlar veya sütunlar (yazdırılan çalışma sayfasının tüm sayfalarında tekrarlanacak), satır veya sütun numaraları geçirilerek tanımlanır. Örneğin, satırlar \ $1: \ $2 olarak tanımlanır ve sütunlar \ $A: \ $B olarak tanımlanır.
+(Basılı çalışma sayfasının tüm sayfalarında tekrarlanacak) Satırlar veya sütunlar, satır veya sütun numaralarını geçirerek tanımlanır. Örneğin, satırlar \$1: \$2 ve sütunlar \$A: \$B olarak tanımlanır.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -62,19 +63,19 @@ pageSetup.PrintTitleColumns = "$A:$B";
 pageSetup.PrintTitleRows = "$1:$2";
 
 {{< /highlight >}}
-## **Diğer Yazdırma Seçeneklerini Ayarlayın**
-**Sayfa ayarı** class ayrıca genel yazdırma seçeneklerini aşağıdaki gibi ayarlamak için birkaç başka yöntem sağlar:
+## **Diğer Yazdırma Seçeneklerini Belirleme**
+**PageSetup** sınıfı ayrıca aşağıdaki genel yazdırma seçeneklerini belirlemek için birkaç başka yöntem sunar:
 
-- **setPrintGridline yöntemi** , kılavuz çizgilerinin yazdırılıp yazdırılmayacağını tanımlayan bu yönteme bir boolean parametresi iletilir
-- **setPrintHeadings yöntemi** bu yönteme satır ve sütun başlıklarının yazdırılıp yazdırılmayacağını tanımlayan bir boolean parametresi iletilir.
-- **BlackAndWhite yöntemini ayarla** , çalışma sayfasının siyah beyaz modda yazdırılıp yazdırılmayacağını tanımlayan bu yönteme bir boolean parametresi iletilir.
-- **setPrintComments yöntemi** , yazdırma yorumlarının çalışma sayfasında mı yoksa çalışma sayfasının sonunda mı görüntüleneceğini tanımlar.
-- **setPrintDraft yöntemi** , çalışma sayfasının taslak kalitesinde yazdırılıp yazdırılmayacağını tanımlayan bu yönteme bir boolean parametresi iletilir.
-- **setPrintErrors yöntemi** , hücre hatalarının görüntülenen, boş, kısa çizgi veya N/A olarak yazdırılıp yazdırılmayacağını tanımlar
+- **setPrintGridlines yöntemi**, bu yönteme yazdırılacak ızgara çizgilerini yazdır veya yazdırma konusunda tanımlayan bir boolean parametre geçirilir
+- **setPrintHeadings yöntemi**, bu yönteme yazdırılacak satır ve sütun başlıklarını yazdır veya yazdırmama konusunda tanımlayan bir boolean parametre geçirilir
+- **setBlackAndWhite yöntemi**, bu yönteme çalışma sayfasını siyah beyaz modda yazdır veya yazdırmama konusunda tanımlayan bir boolean parametre geçirilir
+- **setPrintComments yöntemi**, çalışma sayfasında yazdırma yorumlarını veya çalışma sayfasının sonunda göstermeyi tanımlayan bir yöntem
+- **setPrintDraft yöntemi**, bu yönteme çalışma sayfasını taslak kalitesinde yazdır veya yazdırmama konusunda tanımlayan bir boolean parametre geçirilir
+- **setPrintErrors yöntemi**, yazdırılacak hücre hatalarını görüntülenen, boş, tire veya N/A olarak yazdır veya yazdırmama konusunda tanımlayan bir yöntem
 
- seti kullanmak için**Yorumları Yazdır** ve ayarla**Yazdırma Hataları** yöntemleri, Aspose.Cells ayrıca, sırasıyla PrintComments ve Set PrintErrors yöntemlerini ayarlamak için bir parametreden geçirilecek önceden tanımlanmış değerleri içeren PrintCommentsType ve PrintErrorsType olmak üzere iki numaralandırma sağlar.
+**PrintComments** ve **PrintErrors** yöntemlerini kullanmak için, Aspose.Cells ayrıca iki tane enuma sahiptir, PrintCommentsType ve PrintErrorsType, sırasıyla PrintComments ve PrintErrors yöntemlerine geçirilecek önceden tanımlanmış değerleri içerir.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -109,14 +110,14 @@ pageSetup.PrintDraft = true;
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
 
 {{< /highlight >}}
-## **Sayfa Sırasını Ayarla**
-**Sayfa ayarı**class, çalışma sayfanızın birden çok sayfasının yazdırılmasını sıralamak için kullanılan set Order yöntemini sağlar. Sayfaları aşağıdaki gibi sıralamak için iki olasılık vardır:
+## **Sayfa Sırasını Belirleme**
+**PageSetup** sınıfı, çalışma sayfasının birden fazla sayfasının yazdırılacağı sırayı belirlemek için kullanılan bir Order yöntemi sağlar. Sayfaları aşağıda sağdaki sayfalardan önce yazdırmak için iki olasılık vardır:
 
-Aşağı ve yukarı, böylece sayfaları sağa yazdırmadan önce tüm sayfaları aşağı yazdırır
-Aşağıya doğru, aşağıdaki sayfaları yazdırmadan önce sayfaları soldan sağa yazdıracaktır.
-Aspose.Cells, setPage Order yöntemine atanacak önceden tanımlanmış tüm sipariş türlerini içeren PrintOrderType adlı bir numaralandırma sağlar.
+Önce aşağıya sonra ise alttaki sayfaları yazdırmadan önce sağdan sola doğru tüm sayfaları yazdırır
+Önce soldan sağa sonra ise aşağıdan yukarıya doğru tüm sayfaları yazdırmadan önce sol taraftaki sayfaları yazdırır
+Aspose.Cells, setPage Order methodi için atanan tüm önceden tanımlanmış sipariş tiplerini içeren PrintOrderType adlı bir numaralandırma sağlar.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -131,6 +132,6 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 pageSetup.Order = PrintOrderType.OverThenDown;
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Print%20Spreadsheet%20with%20Options%20%28Aspose.Cells%29.zip)

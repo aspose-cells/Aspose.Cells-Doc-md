@@ -1,20 +1,21 @@
-﻿---
+---
 title: Mettre à jour le contrôle ComboBox ActiveX
 type: docs
 weight: 170
 url: /fr/net/update-activex-combobox-control/
 ---
+
 ## **Scénarios d'utilisation possibles**
- Vous pouvez lire ou écrire les valeurs du contrôle ActiveX ComboBox à l'aide de Aspose.Cells. Veuillez accéder au contrôle ActiveX via[Shape.ActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol) propriété et vérifier son type via[ActiveXControl.TypeActiveXControl.Type](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/properties/type) propriété, il devrait retourner[ControlType.ComboBoxControlType.ComboBox](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype) valeur, puis transtypez-la dans[ComboBoxActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol)objet et lire ou modifier ses différentes propriétés.
+Vous pouvez lire ou écrire les valeurs du contrôle de zone de liste déroulante ActiveX à l'aide d'Aspose.Cells. Veuillez accéder au contrôle ActiveX via la propriété [Shape.ActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol) et vérifier son type via la propriété [ActiveXControl.Type](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/properties/type), cela devrait renvoyer la valeur [ControlType.ComboBox](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype) et ensuite le convertir en objet [ComboBoxActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol) et lire ou modifier ses différentes propriétés.
 
- Veuillez télécharger le[exemple de fichier excel](5115124.xlsx) utilisé dans l'exemple de code suivant.
-## **Mettre à jour le contrôle ComboBox ActiveX**
- La capture d'écran suivante montre l'effet de l'exemple de code sur le[exemple de fichier excel](5115124.xlsx)Comme vous pouvez le voir, la valeur ActiveX ComboBox a été mise à jour en "Ceci est un contrôle de zone de liste déroulante".
+Veuillez télécharger le [fichier Excel exemple](5115124.xlsx) utilisé dans le code d'exemple suivant.
+## **Mise à jour du contrôle ComboBox ActiveX**
+La capture d'écran suivante montre l'effet du code d'exemple sur le [fichier Excel d'exemple](5115124.xlsx). Comme vous pouvez le constater, la valeur de la boîte combinée ActiveX a été mise à jour pour "Il s'agit d'un contrôle de boîte combinée".
 
-|![tâche : image_autre_texte](update-activex-combobox-control_1.png)|
-|:- |
-## **Exemple de code**
- L'exemple de code suivant met à jour la valeur du contrôle ActiveX ComboBox présent dans le[exemple de fichier excel](5115124.xlsx).
+|![todo:image_alt_text](update-activex-combobox-control_1.png)|
+| :- |
+## **Code d'exemple**
+Le code d'exemple suivant met à jour la valeur du contrôle Boîte combi ActiveX présent dans le [fichier Excel d'exemple](5115124.xlsx).
 
 
 

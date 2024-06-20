@@ -1,18 +1,19 @@
-﻿---
-title: Tri personnalisé dans le tableau croisé dynamique
+---
+title: Tri personnalisé dans la table pivotante
 type: docs
 weight: 30
 url: /fr/java/custom-sorting-in-pivot-table/
 ---
+
 ## **Tri personnalisé dans le tableau croisé dynamique**
-En utilisant le Aspose.Cells API, vous pouvez trier les tableaux croisés dynamiques sur les valeurs de champ. L'extrait de code suivant charge l'exemple de fichier Excel et ajoute trois tableaux croisés dynamiques. Le premier tableau croisé dynamique est sans tri personnalisé, le deuxième tableau croisé dynamique est trié sur les valeurs de champ de ligne "SeaFood" et le troisième tableau croisé dynamique est trié sur les valeurs de champ de colonne "28/07/2000".
+En utilisant l'API Aspose.Cells, vous pouvez trier les tables croisées dynamiques sur les valeurs des champs. L'extrait de code suivant charge le fichier excel d'exemple et ajoute trois tables croisées dynamiques. La première table croisée dynamique est sans tri personnalisé, la deuxième table croisée dynamique est triée sur les valeurs du champ "SeaFood" et la troisième table croisée dynamique est triée sur les valeurs du champ de colonne "28/07/2000".
 
-Un exemple de fichier source et de fichiers de sortie peut être téléchargé ici pour tester l'exemple de code :
+Le fichier source d'exemple et les fichiers de sortie peuvent être téléchargés ici pour tester le code d'exemple :
 
-[Fichier Excel source](SamplePivotSort.xlsx)
+[Fichier Excel Source](SamplePivotSort.xlsx)
 
-[Fichier Excel de sortie](95584328.xlsx)
+[Fichier Excel de Sortie](95584328.xlsx)
 
-[Fichier de sortie PDF](95584329.pdf)
+[Fichier PDF de Sortie](95584329.pdf)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}

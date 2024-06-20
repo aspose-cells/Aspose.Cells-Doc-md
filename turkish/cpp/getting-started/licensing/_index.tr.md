@@ -1,43 +1,44 @@
 ---
-title: Licensing
+title: Lisanslama
 type: docs
 weight: 50
 url: /tr/cpp/licensing/
 ---
-##  **Değerlendirme Sürümü Sınırlamaları**
- Aspose.Cells for C++'in ücretsiz değerlendirme sürümü, Aspose'in web sitesinin indirmeler bölümünden indirilebilir:<https://downloads.aspose.com/cells/cpp>.
-##  **Dosya veya Akış Nesnesini Kullanarak Lisans Uygulayın**
-Lisans bir dosyadan veya akış nesnesinden yüklenebilir. Aspose.Cells for C++, lisansı aşağıdaki konumlarda bulmaya çalışacaktır:
+
+## **Değerlendirme Sürümü Kısıtlamaları**
+A free evaluation version of Aspose.Cells for C++ can be downloaded from the downloads section of Aspose's web site at: <https://downloads.aspose.com/cells/cpp>.
+## **Dosya veya Akış Nesnesi Kullanarak Lisansı Uygulayın**
+Lisans, bir dosyadan veya akış nesnesinden yüklenebilir. Aspose.Cells for C++ aşağıdaki konumlarda lisansı aramaya çalışacaktır:
 
 1. Açık yol.
-1. Aspose.Cells.dll dosyasını içeren klasör.
-1. Aspose.Cells.dll adlı derlemeyi içeren klasör.
-1. Giriş derlemesini içeren klasör (.exe'niz).
-1. Derlemede Aspose.Cells.dll adlı katıştırılmış bir kaynak.
+1. Aspose.Cells.dll içeren klasör.
+1. Aspose.Cells.dll'yi çağıran derlemenin bulunduğu klasör.
+1. Giriş derlemesini (yani .exe dosyanızı) içeren klasör.
+1. Aspose.Cells.dll'yi çağıran derlemede yerleşik bir kaynak.
 
-Lisans ayarlamanın en kolay yolu, lisans dosyasını Aspose.Cells.dll dosyasıyla aynı klasöre koymak ve aşağıdaki örnekte gösterildiği gibi dosya adını yol olmadan belirtmektir.
-###  **Dosyadan Lisans Yükleme**
-Lisans uygulamanın en kolay yolu, lisans dosyasını Aspose.Cells.dll dosyasıyla aynı klasöre koymak ve yol olmadan yalnızca dosya adını belirtmektir.
+Lisansı ayarlamak için en kolay yol, lisans dosyasını Aspose.Cells.dll dosyası ile aynı klasöre koymak ve aşağıdaki örnekte gösterildiği gibi dosya adını belirtmek (dizin olmadan).
+### **Dosyadan Lisans Yükleme**
+Lisansı uygulamanın en kolay yolu, lisans dosyasını Aspose.Cells.dll dosyası ile aynı klasöre koymak ve sadece dosya adını (dizin olmadan) belirtmektir.
 
 {{% alert color="primary" %}} 
 
-SetLicense yöntemini çağırdığınızda aktardığınız lisans adı, lisans dosyasının adı olmalıdır. Örneğin, lisans dosyası adını "Aspose.Cells.lic.xml" olarak değiştirirseniz, bu dosya adını Cells->SetLicense(…) yöntemine iletin.
+SetLicense yöntemini çağırdığınızda geçtiğiniz lisans adı, lisans dosyasının adı olmalıdır. Örneğin, lisans dosyasının adını "Aspose.Cells.lic.xml" olarak değiştirirseniz, bu dosya adını Cells->SetLicense(…) yöntemine geçirin.
 
 {{% /alert %}} 
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
   License license;
   license.SetLicense(u"Aspose.Cells.lic");
 
 {{< /highlight >}}
-###  **Akış Nesnesinden Lisans Yükleme**
-Aşağıdaki örnek, bir akıştan lisansın nasıl yükleneceğini gösterir.
+### **Akış Nesnesinden Lisans Yükleme**
+Aşağıdaki örnek, bir lisansı bir akıştan yüklemenin nasıl yapıldığını göstermektedir.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   License license;
 

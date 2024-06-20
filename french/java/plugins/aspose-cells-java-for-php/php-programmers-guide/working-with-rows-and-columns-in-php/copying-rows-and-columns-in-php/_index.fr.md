@@ -1,22 +1,23 @@
-﻿---
+---
 title: Copier des lignes et des colonnes en PHP
 type: docs
 weight: 30
 url: /fr/java/copying-rows-and-columns-in-php/
 ---
+
 ## **Aspose.Cells - Copier des lignes et des colonnes**
 ### **Copier des lignes**
-Aspose.Cells fournit la méthode copyRow de la classe Cells. Cette méthode copie tous les types de données, y compris les formules, les valeurs, les commentaires, les formats de cellule, les cellules masquées, les images et autres objets de dessin de la ligne source vers la ligne de destination.
+Aspose.Cells propose la méthode copyRow de la classe Cells. Cette méthode copie tous les types de données, y compris les formules, les valeurs, les commentaires, les formats de cellule, les cellules masquées, les images et autres objets graphiques de la ligne source à la ligne de destination.
 
-La méthode copyRow prend les paramètres suivants :
+La méthode copyRow prend les paramètres suivants :
 
 - l'objet source Cells,
-- l'index de la ligne source, et
-- l'index de la ligne de destination.
+- l'indice de ligne source, et
+- l'indice de ligne de destination.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_rows($dataDir)
 
@@ -46,17 +47,17 @@ La méthode copyRow prend les paramètres suivants :
 
 {{< /highlight >}}
 ### **Copier des colonnes**
-Aspose.Cells fournit la méthode copyColumn de la classe Cells, cette méthode copie tous les types de données, y compris les formules - avec des références mises à jour - et les valeurs, les commentaires, les formats de cellule, les cellules masquées, les images et autres objets de dessin de la colonne source vers la colonne de destination.
+Aspose.Cells propose la méthode copyColumn de la classe Cells, cette méthode copie tous les types de données, y compris les formules - avec des références mises à jour - et les valeurs, les commentaires, les formats de cellule, les cellules masquées, les images et autres objets graphiques de la colonne source à la colonne de destination.
 
-La méthode copyColumn prend les paramètres suivants :
+La méthode copyColumn prend les paramètres suivants :
 
 - l'objet source Cells,
-- index de colonne source, et
-- l'index de la colonne de destination.
+- indice de la colonne source, et
+- indice de la colonne de destination.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_columns($dataDir)
 
@@ -124,7 +125,7 @@ La méthode copyColumn prend les paramètres suivants :
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Copie de lignes et de colonnes (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Télécharger **Copier des lignes et des colonnes (Aspose.Cells)** depuis l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

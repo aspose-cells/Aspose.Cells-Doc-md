@@ -1,36 +1,37 @@
-﻿---
-title: VSTO'da Eksik Özellikler
+---
+title: VSTO da Eksik Özellikler
 type: docs
 weight: 20
 url: /tr/net/missing-features-in-vsto/
 ---
-Bu bölümde aşağıdaki konular yer almaktadır:
 
-- [Aspose.Cells'de Bağlantı Verilerine Köprüler Ekleme](/cells/tr/net/adding-hyperlinks-to-link-data-in-aspose-cells/)
-- [Aspose.Cells'de Excel XP'den bu yana Gelişmiş Koruma Ayarları](/cells/tr/net/advanced-protection-settings-since-excel-xp-in-aspose-cells/)
-- [Dönüştürmek](/cells/tr/net/conversion/)
-- [Çalışma Sayfasını Dönüştürme](/cells/tr/net/converting-worksheet/)
-  - [Çalışma Sayfasını Sayfaya Göre Görüntü Dosyasına Dönüştürme](/cells/tr/net/converting-worksheet-to-image-file-by-page/)
-  - [Aspose.Cells'de Çalışma Sayfasını Görüntüye Dönüştürme](/cells/tr/net/converting-worksheet-to-image-in-aspose-cells/)
-- [Aspose.Cells'de Kılavuz Çizgilerini Görüntüleyin veya Gizle](/cells/tr/net/display-or-hide-gridlines-in-aspose-cells/)
-- [Aspose.Cells'de Satır Sütun Başlıklarını Görüntüleyin veya Gizle](/cells/tr/net/display-or-hide-row-column-headers-in-aspose-cells/)
-- [Aspose.Cells'de Kaydırma Çubuklarını Görüntüleyin veya Gizle](/cells/tr/net/display-or-hide-scroll-bars-in-aspose-cells/)
-- [Aspose.Cells'de Sekmeleri Görüntüle veya Gizle](/cells/tr/net/display-or-hide-tabs-in-aspose-cells/)
-- [Aspose.Cells'de Excel Dosyalarını Şifreleme](/cells/tr/net/encrypting-excel-files-in-aspose-cells/)
+Bu bölümdeki konular şunlardır:
+
+- [Aspose.Cells'te Veri Bağlamak için Hyperlink Eklemek](/cells/tr/net/adding-hyperlinks-to-link-data-in-aspose-cells/)
+- [Excel XP'den Beri Gelişmiş Korumalı Ayarlar Aspose.Cells'te](/cells/tr/net/advanced-protection-settings-since-excel-xp-in-aspose-cells/)
+- [Dönüşüm](/cells/tr/net/conversion/)
+- [Çalışma Sayfasını Dönüştürmek](/cells/tr/net/converting-worksheet/)
+  - [Sayfa Bazlı Resim Dosyasına Çalışma Sayfasını Dönüştürmek](/cells/tr/net/converting-worksheet-to-image-file-by-page/)
+  - [Aspose.Cells'te Çalışma Sayfasını Resme Dönüştürmek](/cells/tr/net/converting-worksheet-to-image-in-aspose-cells/)
+- [Aspose.Cells'te Izgaraları Görüntüleme veya Gizleme](/cells/tr/net/display-or-hide-gridlines-in-aspose-cells/)
+- [Aspose.Cells'te Satır Sütun Başlıklarını Görüntüleme veya Gizleme](/cells/tr/net/display-or-hide-row-column-headers-in-aspose-cells/)
+- [Aspose.Cells'te Kaydırma Çubuklarını Görüntüleme veya Gizleme](/cells/tr/net/display-or-hide-scroll-bars-in-aspose-cells/)
+- [Aspose.Cells'te Sekmeleri Görüntüleme veya Gizleme](/cells/tr/net/display-or-hide-tabs-in-aspose-cells/)
+- [Aspose.Cells'te Excel Dosyalarını Şifreleme](/cells/tr/net/encrypting-excel-files-in-aspose-cells/)
 - [Çalışma Sayfasını İçe ve Dışa Aktarma](/cells/tr/net/import-and-export-worksheet/)
-  - [Verileri belgeden dışa aktar](/cells/tr/net/export-data-from-document/)
-    - [Kesinlikle Yazılmamış Veriler İçeren Sütunlar](/cells/tr/net/columns-containing-non-strongly-typed-data/)
-    - [Kesinlikle Yazılmış Verileri İçeren Sütunlar](/cells/tr/net/columns-containing-strongly-typed-data/)
-  - [Belgeden verileri içe aktar](/cells/tr/net/import-data-from-document/)
-    - [Diziden İçe Aktarma](/cells/tr/net/importing-from-array/)
-    - [ArrayList'ten içe aktarma](/cells/tr/net/importing-from-arraylist/)
-    - [Özel Nesnelerden İçe Aktarma](/cells/tr/net/importing-from-custom-objects/)
-    - [DataTable'dan içe aktarma](/cells/tr/net/importing-from-datatable/)
-- [Çalışma Kitabını Metne veya CSV Biçiminde Aspose.Cells'e Kaydet](/cells/tr/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
-- [Aspose.Cells'deki Akıllı İşaretçiler](/cells/tr/net/smart-markers-in-aspose-cells/)
-  - [Verileri Gruplandırma](/cells/tr/net/grouping-data/)
-  - [Görüntü İşaretleyicileri](/cells/tr/net/image-markers/)
-  - [Akıllı İşaretçiler özelliği](/cells/tr/net/smart-markers-feature/)
-  - [Anonim Türler veya Özel Nesneler Kullanma](/cells/tr/net/using-anonymous-types-or-custom-objects/)
-  - [Yuvalanmış Nesneleri Kullanma](/cells/tr/net/using-nested-objects/)
-- [Aspose.Cells'de Emsallerin ve Bağımlıların İzlenmesi](/cells/tr/net/tracing-precedents-and-dependents-in-aspose-cells/)
+  - [Belgeden Veri Aktar](/cells/tr/net/export-data-from-document/)
+    - [Güçlü-Tiplendirilmemiş Veri İçeren Sütunlar](/cells/tr/net/columns-containing-non-strongly-typed-data/)
+    - [Güçlü-Tiplendirilmiş Veri İçeren Sütunlar](/cells/tr/net/columns-containing-strongly-typed-data/)
+  - [Belgeden veri içe aktarma](/cells/tr/net/import-data-from-document/)
+    - [Diziden Alınan Veri](/cells/tr/net/importing-from-array/)
+    - [ArrayList'ten Alınan Veri](/cells/tr/net/importing-from-arraylist/)
+    - [Özel Nesnelerden Alınan Veri](/cells/tr/net/importing-from-custom-objects/)
+    - [DataTable'dan Alınan Veri](/cells/tr/net/importing-from-datatable/)
+- [Aspose.Cells'te Çalışma Kitabını Metin veya CSV Formatında Kaydet](/cells/tr/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
+- [Aspose.Cells'te Akıllı Belirteçler](/cells/tr/net/smart-markers-in-aspose-cells/)
+  - [Veri Gruplama](/cells/tr/net/grouping-data/)
+  - [Görüntü Belirteçleri](/cells/tr/net/image-markers/)
+  - [Akıllı Belirteçler Özelliği](/cells/tr/net/smart-markers-feature/)
+  - [Anonim Türler veya Özel Nesneler Kullanarak](/cells/tr/net/using-anonymous-types-or-custom-objects/)
+  - [Yerleşik Nesneleri Kullanmak](/cells/tr/net/using-nested-objects/)
+- [Aspose.Cells'te Daha Öncekileri ve Bağımlıları Belirleme](/cells/tr/net/tracing-precedents-and-dependents-in-aspose-cells/)

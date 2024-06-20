@@ -1,27 +1,28 @@
-﻿---
-title: Umbraco Esporta i membri in Excel
+---
+title: Esporta Membri in Excel di Umbraco
 type: docs
 weight: 10
 url: /it/net/umbraco-export-members-to-excel/
 ---
-## **introduzione**
 
- Esporta membri in Excel è un componente aggiuntivo per Umbraco che ti consente di esportare membri dal tuo CMS Umbraco a un foglio di calcolo Excel e OpenDocument utilizzando[Aspose.Cells](https://products.aspose.com/cells/net/) . Un nuovo nodo intitolato**Esporta membri in Excel**appare sotto l'albero dei membri nel back-end di Umbraco dopo l'installazione, dove puoi semplicemente selezionare i membri da esportare e il formato di output per ottenere i membri nel formato del documento di output selezionato.
+## **Introduzione**
 
-### **Caratteristiche del modulo**
+Esporta Membri in Excel è un Add-on per Umbraco che consente di esportare i membri dal CMS di Umbraco a un Excel e un OpenDocument Spreadsheet utilizzando [Aspose.Cells] (https://products.aspose.com/cells/net/). Compare un nuovo nodo intitolato **Esporta Membri in Excel** sotto l'albero dei membri nel backend di Umbraco dopo l'installazione, dove è possibile semplicemente selezionare i membri da esportare e il formato di output per ottenere i membri nel formato documento di output selezionato.
 
-Questa versione iniziale del componente aggiuntivo ha le seguenti caratteristiche:
+### **Caratteristiche del Modulo**
 
-- Esporta membri in documenti Excel Microsoft (.xls, .xlsx e .xlsb)
-- Esporta membri in un documento di testo delimitato da tabulazioni (.txt)
-- Esporta membri a CSV (delimitato da virgola) (*.csv)
-- Esporta membri in OpenDocument Spreadsheet (*.ods)
+Questa versione iniziale dell'Add-on ha le seguenti funzionalità:
+
+- Esporta i membri in documenti Microsoft Excel (.xls, .xlsx e .xlsb)
+- Esporta i membri in documento di testo delimitato da tabulazioni (.txt)
+- Esporta i membri in CSV (delimitato da virgole) (*.csv)
+- Esporta i membri in OpenDocument Spreadsheet (*.ods)
 - Opzione per selezionare il formato di output desiderato prima dell'esportazione
-- Opzione per esportare tutti o membri selezionati nel formato del documento di output selezionato.
-- Funziona con tutte le versioni .NET a partire dalla .NET 2.0.
-- Il documento esportato viene inviato automaticamente al browser per il download
-- Se selezionato, una copia del documento esportato viene salvata nella cartella App_Data/AsposeMemberExport sul server per un uso successivo.
--  Compatibile con un'ampia gamma di versioni Umbraco**4.5**+ **comprese le versioni 6 e 7.**
+- Opzione per esportare tutti o selezionare membri nel formato del documento di output selezionato.
+- Funziona con tutte le versioni .NET a partire da .NET 2.0.
+- Il documento esportato viene automaticamente inviato al browser per il download.
+- Selezionato una copia del documento esportato viene salvata nella cartella App_Data/AsposeMemberExport sul server per un uso successivo.
+- Compatibile con un'ampia gamma di versioni di Umbraco **4.5**+ **inclusa la Versione 6 e 7.**
 
 ## **Requisiti di sistema e piattaforme supportate**
 
@@ -29,11 +30,11 @@ Questa versione iniziale del componente aggiuntivo ha le seguenti caratteristich
 
 Per configurare questo modulo è necessario soddisfare i seguenti requisiti:
 
-- Umbraco 6.0+
+- Umbraco 6.0 +
 
 Non esitate a contattarci se desiderate installare questo modulo su altre versioni di Umbraco.
 
-### **Piattaforme supportate**
+### **Piattaforme Supportate**
 
 Il modulo è supportato su tutte le versioni di
 
@@ -41,72 +42,72 @@ Il modulo è supportato su tutte le versioni di
 
 ## **Download**
 
-È possibile scaricare il componente aggiuntivo Esporta membri in Excel da uno dei seguenti percorsi
+È possibile scaricare l'Add-on Esporta Membri in Excel da uno dei seguenti luoghi
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Umbraco_Member_Export_To_Excel_1.0)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Umbraco_Member_Export_To_Excel_1.0)
 
 ## **Installazione**
 
-Una volta scaricato, segui questi passaggi per installare questo pacchetto nel tuo sito Web Umbraco:
+Una volta scaricato, seguire questi passaggi per installare questo pacchetto nel sito web Umbraco:
 
-1.  Accedi all'Umbraco**Sviluppatore** sezione, ad esempio `http://www.myblog.com/umbraco/`
-1.  Dall'albero, espandi il file**Pacchetti** cartella.
-1.  Da qui ci sono due modi per installare un pacchetto: select**Installa il pacchetto locale** oppure sfoglia il**Repository dei pacchetti Umbraco.**
-1. Se installi**pacchetto locale**, non decomprimere il pacco ma caricare lo zip in Umbraco.
-1. Segui le istruzioni sullo schermo.
+1. Accedere alla sezione **Sviluppatore** di Umbraco, ad esempio `http://www.myblog.com/umbraco/`
+1. Dall'albero, espandere la cartella **Pacchetti**.
+1. Da qui ci sono due modi per installare un pacchetto: selezionare **Installa pacchetto locale** o cercare il **Repository dei Pacchetti Umbraco.**
+1. Se si installa un **pacchetto locale**, non decomprimere il pacchetto ma caricare il file zip in Umbraco.
+1. Seguire le istruzioni a schermo.
 
-**Nota:** È possibile che venga visualizzato un errore "Lunghezza massima richiesta superata" durante l'installazione. Puoi facilmente risolvere questo problema aggiornando il valore 'maxRequestLength' nel tuo file Umbraco web.config.
+**Nota:** Potresti ricevere un errore di 'Superamento della lunghezza della richiesta massima' durante l'installazione. Puoi risolvere facilmente questo problema aggiornando il valore 'maxRequestLength' nel file web.config di Umbraco.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
   <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" /> 
 
 {{< /highlight >}}
 
-## **Usando**
+## **Utilizzo**
 
-Dopo aver installato la macro è davvero semplice iniziare a usarla sul tuo sito web:
+Dopo aver installato il macro, è davvero semplice iniziare a usarlo sul tuo sito web:
 
-1. Assicurati di aver effettuato l'accesso a Umbraco**Sviluppatore** sezione, ad esempio `http://www.myblog.com/umbraco/`
-1.  Clic**Membri** nell'elenco delle sezioni in basso a sinistra dello schermo.
-1.  Alla fine dell'albero, vedrai un nodo intitolato**Esporta membri in Excel** fare clic su di esso per avviare il componente aggiuntivo Esporta in Excel.
-1. Selezionare il formato del documento di output desiderato e selezionare Membri da esportare. Se desideri esportare tutti i membri, lascia la selezione dei membri o fai clic sulla casella di controllo nella riga dell'intestazione.
-1.  Clic**Esportare** pulsante in basso e ti verrà chiesto di scaricare il file esportato.
+1. Assicurati di aver effettuato l'accesso alla sezione **Sviluppatore** di Umbraco, ad esempio `http://www.myblog.com/umbraco/`
+1. Fare clic su **Membri** nell'elenco delle sezioni in basso a sinistra dello schermo.
+1. Alla fine dell'albero, vedrai un nodo intitolato **Esporta membri in Excel** clicca su di esso per avviare l'add-on Esporta in Excel.
+1. Seleziona il formato del documento di output desiderato e seleziona i membri da esportare. Se desideri esportare tutti i membri, lascia la selezione dei membri o clicca sulla casella di controllo nella riga dell'intestazione.
+1. Fare clic sul pulsante **Esporta** in basso e ti verrà richiesto di scaricare il file esportato.
 
-## **Dimostrazione video**
+## **Demo video**
 
- si prega di controllare[il video](https://www.youtube.com/watch?v=6PxZFvjWr2Y) sotto per vedere il modulo in azione.
+Si prega di controllare [il video](https://www.youtube.com/watch?v=6PxZFvjWr2Y) di seguito per vedere il modulo in azione.
 
-## **Supporto, estensione e contributo**
+## **Supporto, Estendi e Contribuisci**
 
 ### **Supporto**
 
-Fin dai primi giorni di Aspose, sapevamo che solo dare ai nostri clienti buoni prodotti non sarebbe bastato. Avevamo anche bisogno di fornire un buon servizio. Siamo sviluppatori noi stessi e comprendiamo quanto sia frustrante quando un problema tecnico o una stranezza nel software ti impedisce di fare ciò che devi fare. Siamo qui per risolvere i problemi, non per crearli.
+Fin dai primi giorni di Aspose, sapevamo che fornire ai nostri clienti solo buoni prodotti non sarebbe stato sufficiente. Dovevamo anche offrire un buon servizio. Siamo anche sviluppatori e comprendiamo quanto sia frustrante quando un problema tecnico o una stranezza nel software ti impedisce di fare ciò che devi fare. Siamo qui per risolvere i problemi, non per crearli.
 
-Per questo offriamo assistenza gratuita. Chiunque utilizzi il nostro prodotto, sia che lo abbia acquistato o che stia utilizzando una valutazione, merita la nostra piena attenzione e rispetto.
+Ecco perché offriamo un supporto gratuito. Chiunque utilizzi il nostro prodotto, che li abbia acquistati o li stia usando in valutazione, merita la nostra piena attenzione e rispetto.
 
-Puoi registrare eventuali problemi o suggerimenti relativi a Aspose.Words .NET per i moduli Umbraco utilizzando una delle seguenti piattaforme
+È possibile registrare eventuali problemi o suggerimenti relativi ai moduli Aspose.Words .NET per Umbraco utilizzando una delle seguenti piattaforme
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
-### **Estendi e contribuisci**
+### **Estensione e Contribuzione**
 
-Esporta membri in Excel è un componente aggiuntivo open source e il suo codice sorgente è disponibile sui principali siti Web di social coding elencati di seguito. Gli sviluppatori sono incoraggiati a scaricare il codice sorgente ed estendere la funzionalità secondo i propri requisiti.
+Esporta membri in Excel è un add-on open source e il suo codice sorgente è disponibile sui principali siti di codifica sociale elencati di seguito. Gli sviluppatori sono incoraggiati a scaricare il codice sorgente ed estendere la funzionalità secondo le proprie esigenze.
 
-#### **Codice sorgente**
+#### **Codice Sorgente**
 
-È possibile ottenere il codice sorgente più recente da una delle seguenti posizioni
+Puoi ottenere l'ultimo codice sorgente da uno dei seguenti siti
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.UmbracoMemberExportToExcel)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.UmbracoMemberExportToExcel)
 
 #### **Come configurare il codice sorgente**
 
-È necessario che sia installato quanto segue per aprire ed estendere il codice sorgente
+Devi avere quanto segue installato per aprire ed estendere il codice sorgente
 
-- Visual Studio 2010 o versioni successive
+- Visual Studio 2010 o superiore
 
-Segui questi semplici passaggi per iniziare
+Seguire questi semplici passaggi per iniziare
 
-1. Scarica/clona il codice sorgente.
-1.  Apri Visual Studio 2010 e scegli**File** > **Progetto aperto**
-1.  Sfoglia fino all'ultimo codice sorgente che hai scaricato e aperto**ad esempio Aspose.UmbracoMemberExportToExcel.sln**
+1. Scarica/Clona il codice sorgente.
+1. Apri Visual Studio 2010 e scegli **File** > **Apri Progetto**
+1. Passa al codice sorgente più recente che hai scaricato e apri **ad es. Aspose.UmbracoMemberExportToExcel.sln**

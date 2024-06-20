@@ -1,23 +1,24 @@
-﻿---
-title: Définition de l'ombre des effets de texte de Shape ou TextBox
+---
+title: Définir l ombre des effets de texte de la forme ou de la zone de texte
 type: docs
 weight: 250
 url: /fr/net/setting-shadow-of-text-effects-of-shape-or-textbox/
 ---
+
 {{% alert color="primary" %}}
 
- Vous pouvez régler le**Ombre** de**Effets de texte** de n'importe quelle forme ou zone de texte. Veuillez utiliser le[**Shape.TextBody**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody) la propriété. Il présente le réglage du texte de la forme et renvoie[**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) objets. Après y avoir accédé, veuillez définir le**Ombre** via[**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) la propriété. Cette propriété est du type[**Type d'ombre prédéfini**](https://reference.aspose.com/cells/net/aspose.cells.drawing/presetshadowtype)qui a plusieurs valeurs. Certains d'entre eux sont
+Vous pouvez définir l'**Ombre** des **Effets de Texte** de n'importe quelle Forme ou Zone de Texte. Veuillez utiliser la propriété [**Shape.TextBody**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody). Elle présente le paramétrage du texte de la forme et renvoie [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) objets. Après y avoir accédé, veuillez définir l'**Ombre** via la propriété [**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype). Cette propriété est de type [**PresetShadowType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/presetshadowtype) qui a plusieurs valeurs. Certaines de celles-ci sont
 
-- DécalageDiagonalBasDroite
+- DécalageDiagonaleInférieureDroite
 - DécalageBas
-- DécalageDiagonaleHautDroite
-- IntérieurGauche
-- À l'intérieur du centre
-- PerspectiveDiagonaleSupérieurGauche
-- PerspectiveDiagonaleInférieureDroite
+- DécalageDiagonaleSupérieureDroite
+- ÀL'intérieurGauche
+- ÀL'IntérieurCentre
+- DiagonalePerspectiveSupérieureGauche
+- DiagonalePerspectiveInférieureDroite
 
 {{% /alert %}}
 
-L'extrait de code suivant illustre l'utilisation de[**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype)propriété pour définir l'ombre des effets de texte de Shape ou TextBox.
+Le fragment de code suivant illustre l'utilisation de la propriété [**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) pour définir l'ombre des effets de texte de la Forme ou de la Zone de Texte.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingTextEffectsShadowOfShapeOrTextbox-1.cs" >}}

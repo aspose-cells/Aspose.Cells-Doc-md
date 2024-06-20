@@ -1,11 +1,12 @@
-﻿---
-title: Table de lecture et d'écriture avec source de données de table de requête
+---
+title: Lire et écrire un tableau avec la source de données de table de requête
 type: docs
 weight: 60
 url: /fr/java/read-and-write-table-with-query-table-data-source/
 ---
-## **Table de lecture et d'écriture avec source de données de table de requête**
-Avec Aspose.Cells, vous pouvez lire et écrire une table qui a une QueryTable comme source de données. La prise en charge de cette fonctionnalité existe également pour les fichiers XLS. L'extrait de code suivant illustre la lecture et l'écriture d'un tel tableau en lisant d'abord le tableau, puis en le modifiant pour ajouter la ligne des totaux.
+
+## **Lire et Écrire un Tableau avec une Source de Données de Table de Requête**
+Avec Aspose.Cells, vous pouvez lire et écrire un tableau qui a une QueryTable comme source de données. Le support pour cette fonctionnalité existe également pour les fichiers XLS. Le code suivant montre comment lire et écrire un tel tableau en commençant par le lire puis le modifier pour ajouter la ligne des totaux.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Tables-ReadAndWriteTableWithQueryTableDataSource-1.java" >}}
 

@@ -1,17 +1,18 @@
-﻿---
-title: Nutzen Sie das Report Designer Client Tool
+---
+title: Nutzen Sie das Designertool für Berichte, um Berichte direkt in Microsoft Excel zu erstellen und bereitzustellen. Dieses Tool ist einfach zu bedienen und spart Kosten für zusätzliche Visual Studio Lizenzen sowie Zeit, die für das Lernen einer komplexen Entwicklungsumgebung erforderlich wäre.
 type: docs
 weight: 30
 url: /de/reportingservices/make-use-of-report-designer-client-tool/
 ---
+
 {{% alert color="primary" %}} 
 
-Benutzer können mit Aspose.Cells.Report.Designer, einem einfachen und benutzerfreundlichen Tool, Berichte entwerfen und direkt in Microsoft Excel liefern. Sie müssen Visual Studio nicht verwenden, um Berichte zu erstellen, können aber die Kosten für den Kauf zusätzlicher Visual Studio-Lizenzen sparen und müssen keine Zeit damit verbringen, die Verwendung einer komplexen Entwicklungsumgebung zu erlernen.
+Da der Aspose.Cells.Report.Designer Microsoft Excel als Berichtsvorlage verwendet, können Benutzer von allen leistungsstarken Funktionen und Features in Microsoft Excel profitieren, einschließlich Pivot-Tabellen, interaktiver Diagramme, VBA, Makros und Formeln. Nicht alle diese Funktionen werden vom Standard-Microsoft Excel-Format unterstützt, das von Reporting Services bereitgestellt wird.
 
-Da Aspose.Cells.Report.Designer Microsoft Excel als Berichtsvorlage verwendet, können Benutzer alle leistungsstarken Funktionen und Merkmale in Microsoft Excel nutzen, einschließlich Pivot-Tabellen, interaktive Diagramme, VBA, Makros und Formeln. Nicht alle diese Features werden vom Excel-Standardformat Microsoft unterstützt, das von Reporting Services bereitgestellt wird.
+Da Aspose.Cells.Report.Designer Microsoft Excel als Berichtsvorlage verwendet, können Benutzer von all den leistungsstarken Funktionen und Features in Microsoft Excel profitieren, einschließlich Pivot-Tabellen, interaktiven Diagrammen, VBA, Makros und Formeln. Nicht alle diese Funktionen werden vom Standard-Microsoft Excel-Format unterstützt, das Reporting Services bereitstellen.
 
 {{% /alert %}} 
-- **Die Aspose.Cells.Report.Designer-Symbolleiste**
-**Benutzer können die Symbolleiste Aspose.Cells.Report.Designer verwenden, um eine RDL-Berichtsdatei zu bearbeiten** 
+- **Die Symbolleiste des Aspose.Cells.Report.Designer**
+**Benutzer können die Symbolleiste des Aspose.Cells.Report.Designer verwenden, um eine RDL-Berichtsdatei zu bearbeiten** 
 
-![todo: Bild_alt_Text](make-use-of-report-designer-client-tool_1.png)
+![todo:image_alt_text](make-use-of-report-designer-client-tool_1.png)

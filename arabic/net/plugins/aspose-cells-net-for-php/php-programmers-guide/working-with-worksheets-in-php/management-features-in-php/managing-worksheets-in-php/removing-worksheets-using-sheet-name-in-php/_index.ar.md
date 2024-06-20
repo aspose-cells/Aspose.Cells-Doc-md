@@ -1,15 +1,16 @@
-﻿---
-title: إزالة أوراق العمل باستخدام اسم الورقة في PHP
+---
+title: إزالة الأوراق باستخدام اسم الورقة في PHP
 type: docs
 weight: 40
 url: /ar/net/removing-worksheets-using-sheet-name-in-php/
 ---
-## **إزالة أوراق العمل باستخدام اسم الورقة**
-إزالة أوراق العمل باستخدام اسم الورقة
+
+## **إزالة الأوراق باستخدام اسم الورقة**
+إزالة الأوراق باستخدام اسم الورقة
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -32,7 +33,7 @@ url: /ar/net/removing-worksheets-using-sheet-name-in-php/
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إزالة أوراق العمل باستخدام اسم الورقة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **إزالة الأوراق باستخدام اسم الورقة (Aspose.Cells)** من أي من المواقع الاجتماعية البرمجية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetName.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetName.php)

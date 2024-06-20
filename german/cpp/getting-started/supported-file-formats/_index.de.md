@@ -4,43 +4,44 @@ type: docs
 weight: 20
 url: /de/cpp/supported-file-formats/
 ---
-|**Format**|**Beschreibung**|**Belastung**|**Speichern**|
+
+|**Format**|**Beschreibung**|**Laden**|**Speichern**|
 | :- | :- | :- | :- |
-|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Excel 95/5.0 – 2003 Arbeitsmappe.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Office Open XML SpreadsheetML Arbeitsmappe oder Vorlagendatei, mit oder ohne Makros.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Excel 95/5.0 - 2003 Arbeitsmappe.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Das Office Open XML SpreadsheetML-Dateiformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLSB](https://docs.fileformat.com/spreadsheet/xlsb/)|Excel-Binärarbeitsmappe.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XLSM](https://docs.fileformat.com/spreadsheet/xlsm/)|Excel-Makro-fähige Arbeitsmappe.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XLT](https://docs.fileformat.com/spreadsheet/xlt/)|Excel 97 – Excel 2003-Vorlage.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XLSM](https://docs.fileformat.com/spreadsheet/xlsm/)|Excel mit Makros aktivierter Arbeitsmappe.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XLT](https://docs.fileformat.com/spreadsheet/xlt/)|Excel 97 - Excel 2003 Vorlage.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLTX](https://docs.fileformat.com/spreadsheet/xltx/)|Excel-Vorlage.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XLTM](https://docs.fileformat.com/spreadsheet/xltm/)|Excel-Makro-fähige Vorlage.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XLAM](https://docs.fileformat.com/spreadsheet/xlam/)|Eine Excel-Makro-fähige Add-In-Datei, die zum Hinzufügen neuer Funktionen zu Excel verwendet wird.| |{{< emoticons/tick >}}|
-|[CSV](https://docs.fileformat.com/spreadsheet/csv/)|CSV (Comma Separated Value)-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[TSV](https://docs.fileformat.com/spreadsheet/tsv/)|TSV-Datei (durch Tabulatoren getrennte Werte).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|TabDelimited|Durch Tabulatoren getrennte Textdatei, dasselbe wie bei der Datei TSV.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[TXT](https://docs.fileformat.com/word-processing/txt/)|Durch Trennzeichen getrennte Nur-Text-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XLTM](https://docs.fileformat.com/spreadsheet/xltm/)|Excel mit Makros aktivierter Vorlage.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XLAM](https://docs.fileformat.com/spreadsheet/xlam/)|Eine Excel-Makro aktiviertes Add-In-Datei, die verwendet wird, um neue Funktionen zu Excel hinzuzufügen.| |{{< emoticons/tick >}}|
+|[CSV](https://docs.fileformat.com/spreadsheet/csv/)|CSV (mit Komma getrennte Werte) Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[TSV](https://docs.fileformat.com/spreadsheet/tsv/)|TSV (Tabulator-getrennte Werte) Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|TabDelimited|Tabstopp-getrennte Textdatei, wie TSV-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[TXT](https://docs.fileformat.com/word-processing/txt/)|Begrenzte Klartextdatei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[HTML](https://docs.fileformat.com/web/html/)|HTML-Format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (OpenDocument-Tabelle).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (OpenDocument-Spreadsheet).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML|Excel 2003 XML-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|Das Dokument wurde mit der Anwendung „Numbers“ von Apple erstellt, die Teil der iWork-Office-Suite von Apple ist, einer Reihe von Anwendungen, die auf den Betriebssystemen Mac OS X und iOS ausgeführt werden.|{{< emoticons/tick >}}||
+|[Numbers](https://docs.fileformat.com/spreadsheet/numbers/)|Das Dokument wird von Apples "Numbers"-Anwendung erstellt, die Teil von Apples iWork-Büro-Suite ist, eine Reihe von Anwendungen, die auf den Betriebssystemen Mac OS X und iOS ausgeführt werden.|{{< emoticons/tick >}}||
 |[JSON](https://docs.fileformat.com/web/json/)|JavaScript-Objekt-Notation|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Datenaustauschformat.| |{{< emoticons/tick >}}|
-|[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable Document Format.| |{{< emoticons/tick >}}|
-|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML-Papierspezifikationsformat.| |{{< emoticons/tick >}}|
+|[DIF](https://docs.fileformat.com/spreadsheet/dif/)|Dateninterchange-Format.| |{{< emoticons/tick >}}|
+|[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable-Dokumentformat.| |{{< emoticons/tick >}}|
+|[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML-Papier-Spezifikationsformat.| |{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Skalierbares Vektorgrafikformat.| |{{< emoticons/tick >}}|
-|[TIFF](https://docs.fileformat.com/image/tiff/)|Markiertes Bilddateiformat| |{{< emoticons/tick >}}|
-|[PNG](https://docs.fileformat.com/image/png/)|Tragbares Netzwerkgrafikformat| |{{< emoticons/tick >}}|
+|[TIFF](https://docs.fileformat.com/image/tiff/)|Getaggtes Bildformat| |{{< emoticons/tick >}}|
+|[PNG](https://docs.fileformat.com/image/png/)|Portable Network-Grafikformat| |{{< emoticons/tick >}}|
 |[BMP](https://docs.fileformat.com/image/bmp/)|Bitmap-Bildformat| |{{< emoticons/tick >}}|
-|[EMF](https://docs.fileformat.com/image/emf/)|Erweitertes Metadateiformat| |{{< emoticons/tick >}}|
-|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG ist ein Bildformat, das mit der Methode der verlustbehafteten Komprimierung gespeichert wird.| |{{< emoticons/tick >}}|
-|[GIF](https://docs.fileformat.com/image/gif/)|Grafisches Austauschformat| |{{< emoticons/tick >}}|
-|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Stellt ein Markdown-Dokument dar.| |{{< emoticons/tick >}}|
-|[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|Ein XML-basiertes Format, das von OpenOffice und StarOffice verwendet wird|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Dies ist ein Open-Document-Format, das als flaches XML gespeichert ist.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[DOCX](https://docs.fileformat.com/word-processing/docx/)|Ein bekanntes Format für Microsoft Word-Dokumente, das eine Kombination aus XML- und Binärdateien ist.||{{< emoticons/tick >}}|
-|[PPTX](https://docs.fileformat.com/presentation/pptx/)|Das Format PPTX basiert auf dem offenen XML-Präsentationsdateiformat Microsoft PowerPoint.||{{< emoticons/tick >}}|
-|[SQLScript](https://docs.fileformat.com/database/sql/)|Strukturierte Abfragesprache.||{{< emoticons/tick >}}|
-|[XHtml](https://docs.fileformat.com/web/xhtml/)|Das XHTML ist ein textbasiertes Dateiformat mit Markup im XML, das eine Neuformulierung von HTML 4.0 verwendet.||{{< emoticons/tick >}}|
-|[Epub](https://docs.fileformat.com/ebook/epub/)|Dateien mit der Erweiterung .epub sind ein E-Book-Dateiformat, das ein Standardformat für digitale Veröffentlichungen für Verlage und Verbraucher bietet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XML](https://docs.fileformat.com/web/xml/)|XML steht für Extensible Markup Language, die HTML ähnelt, sich jedoch durch die Verwendung von Tags zum Definieren von Objekten unterscheidet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Öffnen Sie die OTS-Datei (Document Template Sheet).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[EMF](https://docs.fileformat.com/image/emf/)|Erweitertes Metafile-Format| |{{< emoticons/tick >}}|
+|[JPEG](https://docs.fileformat.com/image/jpeg/)|JPEG ist eine Art Bildformat, das unter Verwendung der Methode der verlustbehafteten Kompression gespeichert wird.| |{{< emoticons/tick >}}|
+|[GIF](https://docs.fileformat.com/image/gif/)|Graphical Interchange Format| |{{< emoticons/tick >}}|
+|[MARKDOWN](https://docs.fileformat.com/word-processing/md/)|Stellt ein Markdown-Dokument dar.| |{{< emoticons/tick >}}|
+|[SXC](https://docs.fileformat.com/spreadsheet/sxc/)|Ein auf XML basierendes Format, das von OpenOffice und StarOffice verwendet wird|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[FODS](https://docs.fileformat.com/spreadsheet/fods/)|Dies ist ein Open Document-Format, das als flaches XML gespeichert wird.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[DOCX](https://docs.fileformat.com/word-processing/docx/)|Ein bekanntes Format für Microsoft Word-Dokumente, das eine Kombination aus XML und Binärdateien ist.||{{< emoticons/tick >}}|
+|[PPTX](https://docs.fileformat.com/presentation/pptx/)|Das PPTX-Format basiert auf dem Microsoft PowerPoint Open XML-Präsentationsdateiformat.||{{< emoticons/tick >}}|
+|[SqlScript](https://docs.fileformat.com/database/sql/)|Structured Query Language.||{{< emoticons/tick >}}|
+|[XHtml](https://docs.fileformat.com/web/xhtml/)|XHTML ist ein textbasiertes Dateiformat mit Markup in XML, das eine Umformulierung von HTML 4.0 verwendet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Epub](https://docs.fileformat.com/ebook/epub/)|Dateien mit der Erweiterung .epub sind ein E-Book-Dateiformat, das einen standardisierten digitalen Veröffentlichungsformat für Verlage und Verbraucher bietet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Xml](https://docs.fileformat.com/web/xml/)|XML steht für Extensible Markup Language und ähnelt HTML, unterscheidet sich jedoch in der Verwendung von Tags zur Definition von Objekten.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Ots](https://docs.fileformat.com/spreadsheet/ots/)|Open Document Template Sheet (OTS)-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

@@ -1,36 +1,37 @@
 ---
-title: Excel'de Uyumluluk Denetleyicisini Devre Dışı Bırak
+title: Excel de Uyumluluk Denetimini Devre Dışı Bırakma
 type: docs
 weight: 170
 url: /tr/net/disable-compatibility-checker-in-excel/
-description: Bu makalede uyumluluk denetleyicisinin Aspose.Cells for .NET API aracılığıyla nasıl devre dışı bırakılacağı gösterilmektedir.
-keywords: C# Disable Compatibility Checker, Excel Disable Compatibility Checker in C#, Disable Compatibility Checker in Workbook. 
+description: Bu makale, Aspose.Cells for .NET API aracılığıyla uyumluluk denetimini devre dışı bırakmanın nasıl yapıldığını göstermektedir.
+keywords: Excel de Uyumluluk Denetimini Devre Dışı Bırakma, C# da Excel de Uyumluluk Denetimini Devre Dışı Bırakma, Çalışma Kitabında Uyumluluk Denetimini Devre Dışı Bırakma 
 ---
-##  C#'deki Excel Çalışma Sayfalarında Uyumluluk Denetleyicisini Devre Dışı Bırakma
+
+## C#'da Excel'de Uyumluluk Denetimini Devre Dışı Bırakma 
 
 {{% alert color="primary" %}}
 
-Microsoft Bir dosyayı daha önceki bir dosya biçiminde kaydederken Excel'in Uyumluluk Denetleyicisi işaretleri, işlevsellik sorunlarına veya aslına uygunluk kaybına neden olabilir. Uyumluluk Denetleyicisi, Microsoft Office Excel 2007 ve Microsoft Excel 2010'un bir özelliğidir.
+Microsoft Excel'in Uyumluluk Denetçisi, bir dosyayı önceki bir dosya biçiminde kaydedildiğinde işlevsellik sorunlarına veya sadelik kaybına neden olabilecek özellikleri tespit eder. Uyumluluk Denetçisi, Microsoft Office Excel 2007 ve Microsoft Excel 2010'un bir özelliğidir.
 
-Bir çalışma kitabını Excel 97'den Excel 2003'e, Excel 2007 veya Excel 2010'dan önceki bir sürüme kaydettiğinizde, Uyumluluk Denetleyicisi çalışma kitabını tarayarak önceki sürüm tarafından desteklenmeyen özellikler içerip içermediğini kontrol eder. Uyumluluk sorunlarını nasıl çözeceğiniz konusunda karar vermenize yardımcı olmak için Uyumluluk Denetleyicisi seçeneklerin bulunduğu iletişim kutularını görüntüler. Ayrıca çalışma kitabındaki herhangi bir sorunla ilgili rapor oluşturmak veya özelliği devre dışı bırakmak için de kullanılabilir.
+Excel 2007 veya 2003'ten Excel 2007 veya 2010'a kaydederken, Uyumluluk Denetçisi, daha önceki sürüm tarafından desteklenmeyen özellikleri içeren bir dosya olup olmadığını kontrol etmek için çalışma kitabını tarar. Uyumluluk sorunları hakkında kararlar vermenize yardımcı olmak için, Uyumluluk Denetçisi, seçenekleri içeren iletişim kutuları görüntüler. Ayrıca, çalışma kitabındaki herhangi bir sorun hakkında bir rapor oluşturmak veya özelliği devre dışı bırakmak için de kullanılabilir.
 
-Bazen belirli bir e-tablo için Uyumluluk Denetleyicisini devre dışı bırakmanız gerekir. Aspose.Cells' API'leri ile bunu programlı olarak yapabilirsiniz; böylece kullanıcılar, dosyayı Microsoft Excel'de manuel olarak yeniden kaydettiklerinde açılan Uyumluluk Denetleyicisi iletişim kutusu nedeniyle hayal kırıklığına uğramaz veya kafaları karışmaz.
+Bazen belirli bir elektronik tablo için Uyumluluk Denetçisini devre dışı bırakmanız gerekebilir. Aspose.Cells'ın API'ları sayesinde bu işlemi programlı olarak yapabilirsiniz, böylece kullanıcılar dosyayı Microsoft Excel'de manuel olarak yeniden kaydettiklerinde Uyumluluk Denetçisi ile ilgili bir iletişim kutusu çıkmaz ve kullanıcıların kafası karışmaz.
 
 {{% /alert %}}
 
-##  **Microsoft Excel kullanarak Uyumluluk Denetleyicisi Nasıl Devre Dışı Bırakılır**
+## **Microsoft Excel'de Uyumluluk Denetleyicisini Nasıl Devre Dışı Bırakılır**
 
-Microsoft Excel'de Uyumluluk Denetleyicisi'ni devre dışı bırakmak için (örneğin Microsoft Excel 2007/2010):
+Microsoft Excel'de Uyumluluk Denetçisini devre dışı bırakmak için (örneğin Microsoft Excel 2007/2010):
 
--  (Excel 2007) Office düğmesinde**Hazırlayın**, ardından **Uyumluluk Denetleyicisini Çalıştırın** ve ardından **Bu çalışma kitabını kaydederken uyumluluğu denetleyin** seçeneğinin işaretini kaldırın.** seçenek.
--  (Excel 2010) Dosya sekmesinde,**Bilgi**'yi, ardından **Sorunları kontrol edin**, **Uyumluluğu Denetle**'yi tıklayın ve son olarak **Bu çalışma kitabını kaydederken uyumluluğu denetle' seçeneğinin işaretini kaldırın.** seçenek.
+- (Excel 2007) Office düğmesine tıklayın, **Hazırla**'yı tıklayın, ardından **Uyumluluk Denetleyicisini Çalıştır**'ı tıklayın ve **Bu çalışma kitabını kaydederken uyumluluğu kontrol et** seçeneğini temizleyin.
+- (Excel 2010) Dosya sekmesine tıklayın, sonra **Bilgi**'ye tıklayın, **Sorunları kontrol et**'i tıklayın, **Uyumluluğu Kontrol Et**'i tıklayın ve son olarak **Bu çalışbook'u kaydederken uyumluluğu kontrol et** seçeneğini temizleyin.
 
-##  **Aspose.Cells API'lerini kullanarak Uyumluluk Denetleyicisi Nasıl Devre Dışı Bırakılır**
+## **Aspose.Cells API'ları kullanarak Uyumluluk Denetleyicisini Nasıl Devre Dışı Bırakılır**
 
- Yı kur[**Workbook.Settings.CheckComptiliblity**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcompatibility) mülkiyet**YANLIŞ** Microsoft Excel'in Uyumluluk Denetleyicisini devre dışı bırakmak için.
+Microsoft Excel'in Uyumluluk Denetleyicisini devre dışı bırakmak için **False** olarak [**Workbook.Settings.CheckComptiliblity**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcompatibility) özelliğini ayarlayın.
 
-###  **Kod Örnekleri**
+### **Kod Örnekleri**
 
-Aşağıdaki kod örnekleri, Uyumluluk Denetleyicisi'nin Aspose.Cells for .NET ile nasıl devre dışı bırakılacağını gösterir.
+Aşağıdaki kod örnekleri, Uyumluluk Denetleyicisini Aspose.Cells for .NET ile devre dışı bırakmanın nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DisableCompatibilityChecker-1.cs" >}}

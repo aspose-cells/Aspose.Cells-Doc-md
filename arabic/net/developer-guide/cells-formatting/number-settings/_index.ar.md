@@ -1,99 +1,91 @@
 ---
 title: إعدادات الأرقام
-description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جداول البيانات التي تدعم العديد من إعدادات أرقام الخلايا المختلفة. ستقدم هذه المقالة كيفية استخدام مكتبة Aspose.Cells لإدارة إعدادات أرقام الخلايا حتى يتمكن المستخدمون من ضبط تنسيق الأرقام في جدول البيانات حسب الحاجة.
-keywords: Aspose.Cells, .NET library, electronic spreadsheet, cell number settings, formatting, management, Formats of Numbers and Dates
+description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جداول البيانات التي تدعم العديد من إعدادات الأرقام المختلفة للخلايا. ستقدم هذه المقالة كيفية استخدام مكتبة Aspose.Cells لإدارة إعدادات الأرقام للخلايا بحيث يمكن للمستخدمين ضبط تنسيق الأرقام في جدول البيانات حسب الحاجة.
+keywords: أسبوس.خلايا، مكتبة .شبكة ال صافية الإلكترونية، إعدادات رقم خلية، تنسيق، إدارة، صيغ الأرقام والتواريخ
 type: docs
 weight: 10
 url: /ar/net/cells-number-settings/
 ---
-##  **كيفية ضبط تنسيقات العرض للرقم Numbers والتواريخ**
 
-من الميزات القوية جدًا لبرنامج Excel Microsoft أنه يسمح للمستخدمين بتعيين تنسيقات العرض للقيم الرقمية والتواريخ. نحن نعلم أنه يمكن استخدام البيانات الرقمية لتمثيل قيم مختلفة بما في ذلك القيم العشرية أو العملة أو النسبة المئوية أو الكسور أو القيم المحاسبية، وما إلى ذلك. ويتم عرض جميع هذه القيم الرقمية بتنسيقات مختلفة اعتمادًا على نوع المعلومات التي تمثلها. وبالمثل، هناك العديد من التنسيقات التي يمكن عرض التاريخ أو الوقت بها.
-يدعم Aspose.Cells هذه الوظيفة ويسمح للمطورين بتعيين أي تنسيق عرض لرقم أو تاريخ.
+## **كيفية تعيين تنسيقات العرض للأرقام والتواريخ**
 
-###  **كيفية تعيين تنسيقات العرض في Microsoft إكسل**
+ميزة قوية جدا لبرنامج مايكروسوفت إكسل هي أنه يسمح للمستخدمين بتعيين تنسيقات العرض للقيم الرقمية والتواريخ. نحن نعلم أن البيانات الرقمية يمكن استخدامها لتمثيل قيم مختلفة بما في ذلك قيم عشرية، عملة، نسبة، كسر أو قيم محاسبية وما إلى ذلك. يتم عرض كل هذه القيم الرقمية في تنسيقات مختلفة اعتمادًا على نوع المعلومات التي تمثلها. وبالمثل، هناك العديد من التنسيقات التي يمكن عرض تاريخ أو وقت فيها.
+تدعم أسبوس.خلايا هذه الوظيفة وتسمح للمطورين بتعيين أي تنسيق عرض لرقم أو تاريخ.
 
-لتعيين تنسيقات العرض في Microsoft Excel:
+### **كيفية تعيين تنسيقات العرض في مايكروسوفت إكسل**
 
-1. انقر بزر الماوس الأيمن فوق أي خلية.
-1. حدد *تنسيق Cells**. سيظهر مربع حوار يُستخدم لتعيين تنسيقات العرض لأي نوع من القيمة.
+لتعيين تنسيقات العرض في مايكروسوفت إكسل:
 
- في الجانب الأيسر من مربع الحوار، هناك العديد من فئات القيم مثل**عام**، **الرقم**، **العملة**، **المحاسبة**، **التاريخ**، **الوقت**، **النسبة المئوية،**إلخ. Aspose.Cells يدعم جميع تنسيقات العرض هذه.
+1. انقر بزر الماوس الأيمن على أي خلية.
+1. حدد **تنسيق الخلايا**. ستظهر نافذة حوارية تُستخدم لتعيين تنسيقات العرض لأي نوع من القيم.
 
- Aspose.Cells يوفر فئة،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) الذي يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يحتوي الفصل على أ[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) المجموعة التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فصل. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) يوفر الفصل أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة. كل عنصر في[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) تمثل المجموعة كائنًا من[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)فصل.
+في الجانب الأيسر من النافذة الحوارية، هناك العديد من فئات القيم مثل **عامة**, **رقم**, **عملة**, **محاسبية**, **تاريخ**, **وقت**, **نسبة**, إلخ. تدعم أسبوس.خلايات جميع هذه التنسيقات للعرض.
 
- Aspose.Cells يوفر[**احصل على ستايل**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) و[**سيت ستايل**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) طرق ل[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) فصل. تُستخدم هذه الطرق للحصول على تنسيق الخلية وتعيينه. ال[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)يوفر class بعض الخصائص المفيدة للتعامل مع تنسيقات عرض الأرقام والتواريخ.
+توفر أسبوس.خلايات فئة، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) التي تمثل ملف Microsoft Excel. تحتوي فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. تُمثل ورقة العمل بواسطة فئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر فئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). كل عنصر في مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) يُمثل كائنًا من فئة [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
-###  **كيفية استخدام تنسيقات الأرقام المضمنة**
+توفر أسبوس.خلايات [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) و [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) لفئة [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell). تُستخدم هذه الطرق للحصول على تعيين تنسيق الخلية. توفر فئة [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) خصائص مفيدة للتعامل مع تنسيقات العرض للأرقام والتواريخ.
 
- يقدم Aspose.Cells بعض تنسيقات الأرقام المضمنة لتكوين تنسيقات العرض للأرقام والتواريخ. يمكن تطبيق تنسيقات الأرقام المضمنة هذه باستخدام[**رقم**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) ملكية[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) هدف. يتم إعطاء كافة تنسيقات الأرقام المضمنة قيمًا رقمية فريدة. يمكن للمطورين تعيين أي قيمة رقمية مطلوبة للملف[**رقم**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) ملكية[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)كائن لتطبيق تنسيق العرض. هذا النهج سريع. تنسيقات الأرقام المضمنة التي يدعمها Aspose.Cells مذكورة أدناه.
+### **كيفية استخدام التنسيقات الرقمية المدمجة**
 
-|**قيمة**|**يكتب**|**سلسلة التنسيق**|
+تُقدم أسبوس.خلايات بعض التنسيقات الرقمية المدمجة لتكوين تنسيقات العرض للأرقام والتواريخ. يمكن تطبيق تنسيقات الأرقام المدمجة هذه عبر استخدام خاصية [**Number**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) لكائن [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style). تتوفر جميع تنسيقات الأرقام المدمجة بقيم رقمية فريدة. يمكن للمطورين تخصيص أي قيمة رقمية مرغوبة لخاصية [**Number**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) لكائن [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) لتطبيق التنسيق. هذا النهج سريع. تُدعم التنسيقات الرقمية المدمجة التي تدعمها أسبوس.خلايات كما هو موضح أدناه.
+
+| **القيمة** | **النوع** | **سلسلة التنسيق** |
 | :- | :- | :- |
-|0|General|عام|
+|0|General|General|
 |1|Decimal|0|
 |2|Decimal|0.00|
-|3|Decimal|# ,##0
-|
-|4|Decimal|# ,##0.00
-|
+|3|Decimal|#,##0|
+|4|Decimal|#,##0.00|
 |5|Currency|$#,##0;$-#,##0|
-|6|Currency|$#,##0;[أحمر]$-#,##0|
+|6|Currency|$#,##0;[Red]$-#,##0|
 |7|Currency|$#,##0.00;$-#,##0.00|
-|8|Currency|$#,##0.00;[أحمر]$-#,##0.00|
+|8|Currency|$#,##0.00;[Red]$-#,##0.00|
 |9|Percentage|0%|
 |10|Percentage|0.00%|
 |11|Scientific|0.00E+00|
-|12|Fraction|#  ?/?
-|
-|13|Fraction|#  */*
-|
-|14|Date|م/د/س س س س|
-|15|Date|د-ط ط ط-س ص|
-|16|Date|د ط ط ط|
-|17|Date|ش ش ص ص|
-|18|Time|ح: ملم صباحًا/مساءًا|
-|19|Time|ح:د:ث ث ص/م|
-|20|Time|همم|
-|21|Time|ح:د:ثث|
-|22|Time|م/ي/س س ح: مم|
-|37|Currency|# ,##0;-#,##0
-|
-|38|Currency|# ,##0;[أحمر]-#,##0
-|
-|39|Currency|# ,##0.00;-#,##0.00
-|
-|40|Currency|# ,##0.00;[أحمر]-#,##0.00
-|
+|12|Fraction|# ?/?|
+|13|Fraction|# */*|
+|14|Date|m/d/yyyy|
+|15|Date|d-mmm-yy|
+|16|Date|d-mmm|
+|17|Date|mmm-yy|
+|18|Time|h:mm AM/PM|
+|19|Time|h:mm:ss AM/PM|
+|20|Time|h:mm|
+|21|Time|h:mm:ss|
+|22|Time|m/d/yy h:mm|
+|37|Currency|#,##0;-#,##0|
+|38|Currency|#,##0;[Red]-#,##0|
+|39|Currency|#,##0.00;-#,##0.00|
+|40|Currency|#,##0.00;[Red]-#,##0.00|
 |41|Accounting|_ * #,##0_ ;_ * "_ ;_ @_|
 |42|Accounting|_ $* #,##0_ ;_ $* "_ ;_ @_|
 |43|Accounting|_ * #,##0.00_ ;_ * "??_ ;_ @_|
 |44|Accounting|_ $* #,##0.00_ ;_ $* "??_ ;_ @_|
-|45|Time|مم:SS|
-|46|Time|ح :د:ثس|
-|47|Time|مم:SS.0|
-|48|Scientific|## 0.0E+00
-|
+|45|Time|mm:ss|
+|46|Time|h :mm:ss|
+|47|Time|mm:ss.0|
+|48|Scientific|##0.0E+00|
 |49|Text|@|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingBuiltInNumberFormats-1.cs" >}}
 
-###  **كيفية استخدام تنسيقات الأرقام المخصصة**
+### **كيفية استخدام التنسيقات الرقمية المخصصة**
 
- لتحديد سلسلة التنسيق المخصصة الخاصة بك لتعيين تنسيق العرض، استخدم الأمر[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**مخصص**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)ملكية. هذا الأسلوب ليس بنفس سرعة استخدام التنسيقات المحددة مسبقًا ولكنه أكثر مرونة.
+لتحديد سلسلة تنسيق مخصصة خاصة بك لتعيين تنسيق العرض، استخدم خاصية {0} {1} لكائن {2}. هذا النهج ليس سريعًا مثل استخدام التنسيقات المحددة مسبقًا لكنه أكثر مرونة.
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingCustomNumber-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- إذا كنت تستخدم[**مخصص**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) الخاصية لتعيين تنسيق الأرقام، أي تنسيق سابق تم تعيينه باستخدام[**رقم**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number)يتم تجاوز الملكية والعكس صحيح.
+إذا استخدمت خاصية [**Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) لتعيين تنسيق الأرقام، سيتم استبدال أي تنسيق سابق تم تعيينه باستخدام خاصية [**Number**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) والعكس صحيح.
 
 {{% /alert %}}
 
-##  **مواضيع متقدمة**
+## **مواضيع متقدمة**
 - [تحقق من تنسيق الأرقام المخصص عند تعيين خاصية Style.Custom](/cells/ar/net/check-custom-number-format-when-setting-style-custom-property/)
-- [قائمة تنسيقات الأرقام المدعومة](/cells/ar/net/list-of-supported-number-formats/)
-- [تقديم نمط تنسيق التاريخ المخصص g وge mm dd](/cells/ar/net/render-custom-date-format-pattern-g-and-ge-mm-dd/)
-- [تحديد رقم مخصص عشري وفواصل المجموعة للمصنف](/cells/ar/net/specify-custom-number-decimal-and-group-separators-for-workbook/)
+- [قائمة التنسيقات الرقمية المدعومة](/cells/ar/net/list-of-supported-number-formats/)
+- [عرض نمط التاريخ المخصص g وge mm dd](/cells/ar/net/render-custom-date-format-pattern-g-and-ge-mm-dd/)
+- [تحديد فواصل العدد العشري المخصصة وفواصل المجموعة لسجل العمل](/cells/ar/net/specify-custom-number-decimal-and-group-separators-for-workbook/)
 - [تحديد تنسيق نمط DBNum المخصص](/cells/ar/net/specifying-dbnum-custom-pattern-formatting/)

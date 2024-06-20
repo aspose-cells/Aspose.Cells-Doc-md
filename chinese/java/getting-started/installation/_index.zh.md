@@ -94,6 +94,14 @@ repositories {
 
 恭喜！你已经成功在Maven项目中定义了Aspose.Cells for Java Maven依赖。
 
+## **WebP图像加载**
+
+WebP是一种现代图像格式。它旨在产生更小的文件大小，同时保持高视觉质量。
+
+目前，在Microsoft Excel中，不允许直接插入WebP图像。然而，有些第三方库会直接将WebP图像插入到Excel源文件中。
+
+通常，Aspose.Cells for Java使用Java的ImageIO来加载光栅图像，目前JDK本身不支持加载WebP图像。Java的ImageIO需要一些额外的插件或扩展（例如[imageio-webp插件](https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-webp)）来加载WebP图像。
+
 ## **支持**
 
 请查看以下内容以快速获取技术支持

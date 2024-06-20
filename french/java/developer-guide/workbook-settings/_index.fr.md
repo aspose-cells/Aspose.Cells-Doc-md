@@ -1,4 +1,4 @@
-﻿---
+---
 title: Paramètres du classeur
 type: docs
 weight: 200

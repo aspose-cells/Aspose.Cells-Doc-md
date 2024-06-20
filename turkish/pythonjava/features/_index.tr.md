@@ -1,65 +1,66 @@
-﻿---
-title: Özellikleri
+---
+title: Özellikler
 type: docs
 weight: 5
 url: /tr/python-java/features/
-keywords: python, excel, api, feature
-description: Aspose.Cells for Python via Java özellikler
+keywords: "python, excel, api, özellikler"
+description: "Python için Aspose.Cells via Java özellikleri."
 ---
+
 {{% alert color="primary" %}} 
 
-Bu sayfada Aspose.Cells for Python via Java özellikleri özetlenmektedir.
+Bu sayfa Aspose.Cells için Python via Java özelliklerini özetler.
 
 {{% /alert %}} 
 ## **Dosya Biçimleri ve Dönüşümler**
-- XLS, SpreadsheetML (XLSX, XML), Virgülle Ayrılmış Değer (CSV), HTML, OpenDocument Elektronik Tablosu (ODS), PDF, Sekmeyle Ayrılmış, Düz Metin (TXT)
-## **Oluşturma ve Yazdırma**
-- Elektronik tabloyu vektör görüntülere dönüştürme (EMF)
-- Çalışma sayfalarını raster görüntülere dönüştür (Multipage TIFF, GIF)
-- Çalışma sayfalarını raster görüntülere dönüştürün (PNG, JPEG, vb.)
-- Elektronik Tabloyu yüksek doğrulukla PDF'e dönüştürün
+- XLS, SpreadsheetML (XLSX, XML), Virgülle Ayrılmış Değerler (CSV), HTML, OpenDocument Elektronik Tablo (ODS), PDF, Sekme Ayrılmış, Düz Metin (TXT)
+## **Rendere Alma ve Yazdırma**
+- Elektrikli tabloyu vektör görüntülere dönüştürme (EMF)
+- Çalışma sayfalarını rastgele görüntülere dönüştürme (Çoklu Sayfalı TIFF, GIF)
+- Çalışma sayfalarını rastgele görüntülere dönüştürme (PNG, JPEG, vs.)
+- Yüksek doğrulukla Elektrikli Tabloyu PDF'ye dönüştürme
 ## **Elektronik Tablo İçeriği Özellikleri**
-- Çalışma sayfalarını çalışma kitaplarının içinde veya arasında kopyalama veya taşıma
-- API'i kullanarak resimler ekleyin, geleneksel ve özel grafikler oluşturun ve grafikler için degrade arka planı ayarlayın
+- Elektrikli tabloları çalışma kitapları içinde veya arasında kopyalama veya taşıma
+- Resim ekleme, geleneksel ve özel grafikler oluşturma ve API kullanarak grafikler için gradyan arka planı ayarlama
 - Hücrelere yorum ekleme
-- Microsoft Excel 2007 ve sonraki sürümlerin temaları ve renkleri
-- Otomatik filtreler oluştur
-- Veri doğrulamalarını uygulama
-- Veri sıralamayı uygulama
-- Metni bul ve değiştir
-- Birleştir/böl Cells
-- Satırları ve sütunları gruplandırma/grubu çözme
-- Özel sayfa sonları oluşturun
-- Karmaşık Excel formüllerini hesaplayın
-- Microsoft Excel 2007 ve sonraki sürümlerde desteklenen gelişmiş koşullu biçimlendirme desteği
-- Bölmeleri Dondur / Çöz
-- Verileri bağlamak için köprüler ekleyin
-- Akıllı İşaretleyicileri Uygulayın
-- Belge özellikleri ayarlarını belirtin
-- Çalışma sayfalarını koruma/korumayı kaldırma
-- Excel XP ve sonraki sürümlerde sunulan gelişmiş koruma seçeneklerini belirtin
-- Liste nesnesi oluştur/Microsoft Excel tabloları
+- Microsoft Excel 2007 ve sonraki sürümler temaları ve renkleri
+- Otomatik filtreler oluşturma
+- Veri doğrulamaları uygulama
+- Veri sıralaması uygulama
+- Metin bulma ve değiştirme
+- Hücreleri birleştirme/ayırma
+- Satır ve sütunları gruplandırma/ayrıştırma
+- Özel sayfa kesmeleri oluşturma
+- Karmaşık Excel formülleri hesaplama
+- Microsoft Excel 2007 ve sonraki sürümlerde desteklenen gelişmiş koşullu biçimlendirmeyi destekleme
+- Ekranı dondurma/çözme
+- Verileri bağlamak için bağlantılar eklemek
+- Akıllı İşaretleyicileri uygulama
+- Belge özellikleri ayarlarını belirtme
+- Sayfaları koru/koruma
+- Excel XP ve sonraki sürümlerde tanıtılan gelişmiş koruma seçeneklerini belirt
+- Liste nesnesi/Microsoft Excel tabloları oluştur
 - Ara toplamlar oluştur
-- Form kontrollerini ve diğer çizim şekillerini/nesnelerini ekleyin
-- Pivot tablolar ve pivot grafikler oluşturun
-- Eklenti, VBA, makroları koruyun veya kaldırın
-- Adlandırılmış aralıkları işleyin
-- Elektronik tablolardan OLE nesneleri ekleyin, koruyun veya çıkarın.
-- Microsoft Excel mini grafiklerini uygulayın
+- Form kontrolleri ve diğer çizim şekilleri/nesneleri ekle
+- Özet tabloları ve özet grafikleri oluştur
+- Eklenti, VBA, makroları koru veya kaldır
+- İsimlendirilmiş aralıkları manipüle et
+- Elektronik tablolardan OLE nesneleri ekleyin, koruyun veya çıkarın
+- Microsoft Excel kıvılcımlarını uygula
 - Dosyaları şifrele
-## **Elektronik Tablo Biçimlendirme Özellikleri**
-- Yazı tipleri, renkler, efektler, kenarlıklar ve gölgeleme dahil olmak üzere hücrelerdeki tüm karakter biçimlendirmesini uygulayın
-- Hücreler için tüm sayı biçimi ayarlarını (Microsoft Excel'de desteklenir) uygulayın
-- Her türlü metin hizalama ayarını yapın
-- Hücreler için farklı Yazı Tipi Ayarları uygulayın
-- Hücrelere, yazı tiplerine, kılavuz çizgilerine, grafik nesnelerine vb. farklı renkler uygulayın.
-- Tek bir hücrede farklı zengin metin biçimlendirmesi uygulama
-- Hücrelere farklı kenarlık ayarları uygulama
-- Hücrelere farklı arka plan desenleri uygulama
-- Biçim ayarlarını bir çalışma sayfasına, satıra, sütuna veya hücre aralığına vb. uygulayın.
-## **Sayfa Kurulumu Özellikleri**
-- Sayfa yönünü, ölçeklemeyi, kağıt boyutunu ayarlayın
-- Kenar boşluklarınızı ve sayfa merkezlemenizi belirtin
-- Üstbilginizi ve/veya altbilginizi oluşturun veya düzenleyin
-- Yazdırma alanını ayarlayın, başlıkları yazdırın veya kılavuz çizgilerini açın, vb.
+## **Çalışma Tablosu Biçimlendirme Özellikleri**
+- Yazı tipi, renk, efekt, kenarlık ve arka plan dahil hücrelerde tüm karakter biçimlerini uygula
+- Hücreler için desteklenen tüm sayı biçimi ayarlarını uygula (Microsoft Excel'de desteklenir)
+- Tüm metin hizalama ayarları türlerini ayarla
+- Hücreler için farklı yazı tipi ayarlarını uygula
+- Hücreler, yazı tipleri, ızgaralar, grafik nesneleri vb. için farklı renkleri uygula
+- Tek hücrede farklı biçimlendirme uygula
+- Hücrelere farklı kenarlık ayarları uygula
+- Hücrelere farklı arka plan desenleri uygula
+- Çalışma sayfası, satır, sütun veya hücre aralığı vb. üzerinde farklı biçim ayarlarını uygula
+## **Sayfa Ayarı Özellikleri**
+- Sayfa yönlendirmeni, ölçeklendirme, kağıt boyutu ayarlarını ayarla
+- Kenar boşluklarını ve sayfa merkezlemesini belirt
+- Başlık ve/veya altbilgi oluştur veya düzenle
+- Yazdırma alanı, yazdırma başlıkları belirt veya ızgaraları aç
 

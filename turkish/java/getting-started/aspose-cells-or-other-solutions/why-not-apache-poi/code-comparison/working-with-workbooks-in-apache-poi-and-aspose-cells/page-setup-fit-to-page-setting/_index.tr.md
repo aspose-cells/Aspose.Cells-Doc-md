@@ -1,15 +1,16 @@
-﻿---
-title: Sayfa Düzeni - Sayfa Ayarına Sığdır
+---
+title: Sayfa Ayarı  Sayfaya Sığdırma Ayarı
 type: docs
 weight: 30
 url: /tr/java/page-setup-fit-to-page-setting/
 ---
-## **Aspose.Cells - Sayfa Yapısı - Sayfaya Sığdır Ayarı**
-Çalışma sayfasının içeriğini belirli sayıda sayfaya sığdırmak için[Sayfa ayarı](/cells/tr/java/page-setup-fit-to-page-setting/)class' setFitToPagesTall ve setFitToPagesWide yöntemleri. Bu yöntemler aynı zamanda çalışma sayfalarını ölçeklendirmek için de kullanılır.
+
+## **Aspose.Cells - Sayfa Ayarı - Sayfaya Sığdırma Ayarı**
+Çalışsayfadaki içeriği belirli bir sayıda sayfaya sığdırmak için, [PageSetup](/cells/tr/java/page-setup-fit-to-page-setting/) sınıfının setFitToPagesTall ve setFitToPagesWide metodlarını kullanın. Bu metodlar aynı zamanda çalışsayfalarını ölçeklendirmek için de kullanılır.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -36,12 +37,12 @@ pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF & XSSF - Sayfa Düzeni - Sayfa Ayarına Sığdır**
-Apache POI SS, sayfaya sığdırma ayarları için setFitHeight ve setFitWidth yöntemlerini kullanır.
+## **Apache POI SS - HSSF & XSSF - Sayfa Ayarı - Sayfaya Sığdırma Ayarı**
+Apache POI SS, sayfaya sığdırma ayarları için setFitHeight ve setFitWidth metodlarını kullanır.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();  //or new HSSFWorkbook();
 
@@ -58,11 +59,11 @@ ps.setFitWidth((short) 1);
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/fittoonepage)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Ayar Sayfası Seçenekleri](http://www.aspose.com/docs/display/cellsjava/Setting+Page+Options).
+Daha fazla detay için [Sayfa Seçeneklerini Ayarlama](http://www.aspose.com/docs/display/cellsjava/Setting+Page+Options) adresini ziyaret edin.
 
 {{% /alert %}}

@@ -1,56 +1,57 @@
-﻿---
-title: Çalışma Sayfasını Görüntüye ve Çalışma Sayfasını Görüntüye Sayfa Sayfa Dönüştürme
+---
+title: Çalışma Sayfasını Görüntüye Dönüştürme ve Sayfa Başına Çalışma Sayfasını Görüntüye Dönüştürme
 type: docs
 weight: 80
 url: /tr/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 ---
+
 {{% alert color="primary" %}}
 
-Bu belge, geliştiricilere bir çalışma sayfasını bir görüntü dosyasına ve birden fazla sayfa içeren bir çalışma sayfasını sayfa başına bir görüntü dosyasına dönüştürme konusunda ayrıntılı bir anlayış sağlamak için tasarlanmıştır.
+Bu belge, geliştiricilere bir çalışma sayfasını bir görüntü dosyasına nasıl dönüştürecekleri ve bir çalışma sayfasının birden fazla sayfasının nasıl ayrı bir görüntü dosyasına dönüştürecekleri konusunda detaylı bir anlayış sağlamak üzere tasarlanmıştır.
 
-Bazen, örneğin uygulamalarda veya web sayfalarında kullanmak için çalışma sayfalarını resim olarak sunmanız gerekebilir. Görüntüleri bir Word belgesine, bir PDF dosyasına, bir PowerPoint sunumuna eklemeniz veya başka bir senaryoda kullanmanız gerekebilir. Basitçe, çalışma sayfasını bir görüntü olarak işlemek istiyorsunuz. Aspose.Cells, Microsoft Excel dosyalarındaki çalışma sayfalarının görüntülere dönüştürülmesini destekler. Ayrıca Aspose.Cells, bir çalışma kitabının her sayfada bir tane olmak üzere birden çok görüntü dosyasına dönüştürülmesini destekler.
+Bazı durumlarda, çalışma sayfalarını örneğin uygulamalarda veya web sayfalarında kullanmak için resim olarak sunmanız gerekebilir. Resimleri bir Word belgesine, bir PDF dosyasına, bir PowerPoint sunumuna eklemek veya başka bir senaryoda kullanmak gerekebilir. Temel olarak, çalışma sayfasını bir resim olarak oluşturmak istersiniz. Aspose.Cells, Microsoft Excel dosyalarındaki çalışma sayfalarını resimlere dönüştürmeyi destekler. Ayrıca, Aspose.Cells, bir çalışma kitabını birden fazla resim dosyasına, sayfa başına bir tane olmak üzere dönüştürmeyi destekler.
 
-Bunu başarmak için Office Otomasyonu'nu kullanabilirsiniz, ancak Office otomasyonunun kendi dezavantajları vardır. İlgili birkaç neden ve sorun vardır: örneğin güvenlik, kararlılık, ölçeklenebilirlik/Hız, fiyat ve özellikler. Kısacası, birçok neden var, ancak asıl sebep, Microsoft'in Office otomasyonuna karşı şiddetle tavsiye etmesidir.
+Bunu başarmak için Office Automation'ı kullanabilirsiniz, ancak Office Automation'ın kendi dezavantajları vardır. Güvenlik, istikrar, ölçeklenebilirlik/hız, fiyat ve özellikler gibi birçok neden ve sorun bulunmaktadır. Kısacası, birçok neden bulunmaktadır, ancak ana nedenlerden biri Microsoft'un Office Automation'u kesinlikle önermemesidir.
 
 {{% /alert %}}
 
-## **Çalışma Sayfasını Görüntü Dosyasına Dönüştürmek için Aspose.Cells'i Kullanma**
+## **Aspose.Cells Kullanarak Çalışma Sayfasını Resim Dosyasına Dönüştürme**
 
-Bu makale, Aspose.Cells API kullanarak birkaç ve en basit kod satırıyla Visual Studio'da bir konsol uygulamasının nasıl oluşturulacağını, bir çalışma sayfasının görüntüye nasıl dönüştürüleceğini ve bir çalışma sayfasının her çalışma sayfası için tek bir görüntüye nasıl dönüştürüleceğini gösterir.
+Bu makalede, Visual Studio'da bir konsol uygulaması oluşturmayı, bir çalışma sayfasını bir resme dönüştürmeyi ve Aspose.Cells API'sını kullanarak birkaç basit satır kodla her çalışma sayfasını bir resim olarak dönüştürmeyi gösteriyor.
 
- içe aktarmanız gerekir[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering) programınıza/projenize ad alanı. Gibi birkaç değerli sınıfı vardır.[**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**Çalışma KitabıRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender), ve bunun gibi. bu[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class, çalışma sayfası için görüntüleri işlemek üzere bir çalışma sayfasını temsil eder ve aşırı yüklenmiş[**Hayal etmek**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)herhangi bir nitelik veya seçenek kümesiyle bir çalışma sayfasını doğrudan görüntü dosyalarına dönüştürebilen bir yöntem. Bir System.Drawing.Bitmap nesnesi döndürebilir ve bir görüntü dosyasını diske/akışa kaydedebilirsiniz. Çeşitli görüntü formatları desteklenir, örneğin BMP, PNG, GIF, JPG, JPEG, TIFF, EMF ve diğerleri.
+Programınıza/projenize [**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering) ad alanını eklemeniz gerekecektir. [**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender) vb. gibi birçok değerli sınıfı bulunmaktadır. [**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) sınıfı bir çalışma sayfasını resimlendirmek için temsil eder ve aşırı yüklenmiş [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index) yöntemi, herhangi bir özellik veya seçenek belirtilmeden çalışma sayfasını doğrudan resim dosyalarına dönüştürebilir. Bir System.Drawing.Bitmap nesnesi döndürebilir ve bir resim dosyasını disk/akışa kaydedebilirsiniz. BMP, PNG, GIF, JPG, JPEG, TIFF, EMF ve diğerleri gibi birçok resim formatı desteklenmektedir.
 
-Bu makalede, aşağıdakilerin nasıl yapılacağı açıklanmaktadır:
+Bu makalede şunları açıklar:
 
-- Çalışma sayfasını resme dönüştürme
-- Çalışma sayfasındaki her sayfayı bir resme dönüştürün
+- Bir çalışma sayfasını bir resme dönüştürme
+- Bir çalışma sayfasındaki her sayfayı bir resme dönüştürme
 
-Bu görev, bir çalışma sayfasını bir şablon çalışma kitabından bir görüntü dosyasına dönüştürmek için Aspose.Cells'in nasıl kullanılacağını gösterir.
+Bu görev, Aspose.Cells'ı kullanarak bir şablon çalışma kitabındaki bir çalışma sayfasını bir resim dosyasına dönüştürmenin nasıl yapıldığını gösterir.
 
-### **Kurulum Projesi**
+### **Proje Kurulumu**
 
-1.  Birinci,[indir Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
-1.  Geliştirme bilgisayarınıza kurun. Herşey[Aspose](http://www.aspose.com/)bileşenler kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun zaman sınırı yoktur ve yalnızca üretilen belgelere filigran ekler. Şimdi Visual Studio.Net'i başlatın ve yeni bir konsol uygulaması oluşturun. Bu örnek, bir C# konsol uygulamasını kullanır, ancak VB.NET'i de kullanabilirsiniz. Oluşturulan projeye Aspose.Cells referansını ekleyin.
+1. İlk olarak, [Aspose.Cells for .NET'i indirin](https://downloads.aspose.com/cells/net).
+1. Geliştirme bilgisayarınıza indirip yükleyin. Tüm [Aspose](http://www.aspose.com/) bileşenleri yüklendiğinde değerlendirme modunda çalışır. Değerlendirme modunun süresi yoktur ve sadece üretilen belgelere filigran ekler. Şimdi Visual Studio.Net'i başlatın ve yeni bir konsol uygulaması oluşturun. Bu örnek C# konsol uygulaması kullanıyor ancak VB.NET de kullanabilirsiniz. Oluşturulan projeye Aspose.Cells'a bir referans ekleyin.
 
-### **Çalışma Sayfasını Görüntü Dosyasına Dönüştür**
+### **Çalışma Sayfasını Resim Dosyasına Dönüştürme**
 
- Microsoft Excel'de yeni bir çalışma kitabı oluşturdum ve ilk çalışma sayfasına bazı veriler ekledim:**Testbook.xlsx** (1 çalışma sayfası). Ardından, şablon dosyasının çalışma sayfası Sheet1'i SheetImage.jpg adlı bir görüntü dosyasına dönüştürün.
+Microsoft Excel'de yeni bir çalışma kitabı oluşturdum ve ilk çalışma sayfasına bazı veriler ekledim: **Testbook.xlsx** (1 çalışma sayfası). Daha sonra, şablon dosyasının Sheet1 çalışma sayfasını SheetImage.jpg adında bir resim dosyasına dönüştürdüm.
 
- Görevi gerçekleştirmek için bileşen tarafından kullanılan kod aşağıdadır. Sayfa1'i şuraya dönüştürür:**Testbook.xlsx** Bu dönüştürmenin ne kadar kolay olduğunu açıklamak için bir resim dosyasına.
+Bileşen tarafından görevi tamamlamak için kullanılan kod aşağıda verilmiştir. Bu kod, **Testbook.xlsx**'teki Sheet1'i, bu dönüşümün ne kadar kolay olduğunu açıklamak için bir resim dosyasına dönüştürür.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertingWorksheetToImage-ConvertWorksheettoImageFile-1.cs" >}}
 
-## **Çalışma Sayfasını Sayfaya Göre Görüntü Dosyasına Dönüştürmek için Aspose.Cells'i Kullanma**
+## **Aspose.Cells Kullanarak Sayfa Sayfa Çalışma Sayfasını Resim Dosyasına Dönüştürme**
 
-Bu örnek, birkaç sayfası olan bir şablon çalışma kitabından bir çalışma sayfasını sayfa başına bir görüntü dosyasına dönüştürmek için Aspose.Cells'in nasıl kullanılacağını gösterir.
+Bu örnek, birkaç sayfası olan bir şablon çalışma kitabından bir çalışma sayfasını bir resim dosyasına dönüştürmek için Aspose.Cells'ı kullanmanın nasıl yapıldığını göstermektedir.
 
-### **Çalışma Sayfasını Sayfaya Göre Görüntüye Dönüştür**
+### **Sayfaya Göre Çalışma Sayfasını Resim Dosyasına Dönüştürme**
 
- Microsoft Excel'de yeni bir çalışma kitabı oluşturdum ve ilk çalışma sayfasına bazı veriler ekledim:**Testbook2.xlsx** (1 çalışma sayfası).
+Microsoft Excel'de yeni bir çalışma kitabı oluşturdum ve ilk çalışma sayfasına bazı veriler ekledim: **Testbook2.xlsx** (1 çalışma sayfası).
 
-Şimdi, şablon dosyasının çalışma sayfası Sayfa1'i görüntü dosyalarına dönüştürün (sayfa başına bir dosya). Kopyalama görevini gerçekleştirmek için konsol uygulamasını zaten oluşturduğum için, bu konsol uygulaması oluşturma adımlarını atlayacağım ve doğrudan çalışma sayfası dönüştürme adımlarına geçeceğim.
+Şimdi, şablon dosyasının Sheet1 çalışma sayfasını resim dosyalarına dönüştür (sayfa başına bir dosya). Zaten kopyalama görevini gerçekleştirmek için konsol uygulaması oluşturmuştum, bu nedenle konsol uygulaması oluşturma adımlarını atlayacak ve doğrudan çalışma sayfası dönüşüm adımlarına geçeceğim.
 
-Görevi gerçekleştirmek için bileşen tarafından kullanılan kod aşağıdadır. Testbook2.xls'deki Sayfa1'i sayfa sayfa görüntü dosyalarına dönüştürür.
+Bileşen tarafından görevi tamamlamak için kullanılan kod aşağıda verilmiştir. Bu kod, Testbook2.xls'deki Sheet1'i sayfa başına resim dosyalarına dönüştürür.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertingWorksheetToImage-ConvertWorksheetToImageByPage-1.cs" >}}
 

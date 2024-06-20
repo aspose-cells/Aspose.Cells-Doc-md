@@ -1,13 +1,16 @@
-﻿---
-title: Визуализация интерактивной полосы прокрутки в GridWeb
+---
+title: Отображение интерактивной полосы прокрутки в GridWeb
 type: docs
 weight: 170
-url: /ru/net/render-interactive-scrollbar-in-gridweb/
+url: /ru/net/aspose-cells-gridweb/render-interactive-scrollbar-in-gridweb/
+keywords: GridWeb,полоса прокрутки
+description: Эта статья вводит в работу с полосой прокрутки в GridWeb.
 ---
-## **Возможные сценарии использования**
- Aspose.Cells для GridWeb может отображать интерактивный элемент управления полосой прокрутки внутри рабочего листа GridWeb. Пользователь может взаимодействовать с полосой прокрутки, как в Microsoft Excel. Чтобы создать интерактивную полосу прокрутки, необходимо добавить ссылки для**jQuery** и**jQuery-интерфейс** библиотеки, как показано ниже.
 
-{{< highlight "java" >}}
+## **Возможные сценарии использования**
+Aspose.Cells for GridWeb может визуализировать интерактивное управление полосой прокрутки внутри листа GridWeb. Пользователь может взаимодействовать с полосой прокрутки, как в Microsoft Excel. Чтобы создать интерактивную полосу прокрутки, необходимо добавить ссылки на библиотеки **jQuery** и **jQuery UI**, как показано ниже.
+
+{{< highlight java >}}
 
  <head runat="server">
 
@@ -21,17 +24,17 @@ url: /ru/net/render-interactive-scrollbar-in-gridweb/
 
 {{< /highlight >}}
 ## **Визуализация интерактивной полосы прокрутки в GridWeb**
- Следующий пример кода загружает[образец файла Excel](61767764.xlsx)содержащий полосу прокрутки, как показано на следующем снимке экрана. На других снимках экрана показано, как GridWeb отображает интерактивную полосу прокрутки и отображает значение полосы прокрутки в ячейке B3. Всякий раз, когда вы прокручиваете полосу прокрутки, значение ячейки B3 показывает результирующее значение.
+В следующем примере кода загружается [пример файла Excel](61767764.xlsx), содержащий полосу прокрутки, как показано на скриншоте ниже. На других скриншотах показано, как GridWeb визуализирует интерактивную полосу прокрутки и отображает значение полосы прокрутки в ячейке B3. Всякий раз, когда вы прокручиваете полосу прокрутки, значение ячейки B3 отображает полученное значение.
 
-![дело:изображение_альтернативный_текст](render-interactive-scrollbar-in-gridweb_1.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_1.png)
 
-![дело:изображение_альтернативный_текст](render-interactive-scrollbar-in-gridweb_2.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_2.png)
 
-![дело:изображение_альтернативный_текст](render-interactive-scrollbar-in-gridweb_3.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_3.png)
 
-![дело:изображение_альтернативный_текст](render-interactive-scrollbar-in-gridweb_4.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_4.png)
 ## **Образец кода**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <%@ Page Language="C#" AutoEventWireup="true" CodeFile="TestGridWeb.aspx.cs" Inherits="TestGridWeb" %>
 

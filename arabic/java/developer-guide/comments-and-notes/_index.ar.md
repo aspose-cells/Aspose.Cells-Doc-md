@@ -1,49 +1,50 @@
-﻿---
+---
 title: إدارة التعليقات والملاحظات
 linktitle: التعليقات والملاحظات
 type: docs
 weight: 128
 url: /ar/java/comments-and-notes/
-description: قم بإدراج وإدارة التعليقات أو الملاحظات باستخدام Aspose.Cells لجافا.
-keywords: insert comments, insert notes
+description: إدخال وإدارة التعليقات أو الملاحظات باستخدام Aspose.Cells لجافا.
+keywords: إدراج تعليقات، إدراج ملاحظات
 ---
+
 ## **مقدمة**
 
-تستخدم التعليقات لإضافة معلومات إضافية إلى الخلايا. يوفر Aspose.Cells طريقتين لإضافة التعقيبات إلى الخانات. الأول هو إنشاء تعليقات في ملف المصمم يدويًا. ثم يتم استيراد هذه التعليقات باستخدام Aspose.Cells. والثاني هو إضافة تعليقات باستخدام Aspose.Cells API في وقت التشغيل. يناقش هذا الموضوع إضافة التعليقات إلى الخلايا باستخدام Aspose.Cells API. سيتم أيضًا شرح تنسيق التعليقات.
+يتم استخدام التعليقات لإضافة معلومات إضافية إلى الخلايا. يوفر Aspose.Cells طريقتين لإضافة تعليقات إلى الخلايا. الأولى هي إنشاء التعليقات في ملف مصمم يدويًا. يتم استيراد هذه التعليقات بعد ذلك باستخدام Aspose.Cells. الثانية هي إضافة التعليقات باستخدام واجهة برمجة التطبيقات Aspose.Cells أثناء التشغيل. يتناول هذا الموضوع إضافة التعليقات إلى الخلايا باستخدام واجهة برمجة التطبيقات Aspose.Cells. سيتم أيضًا شرح تنسيق التعليقات.
 
 ## **إضافة تعليق**
 
- أضف تعليقًا إلى خلية عن طريق استدعاء[**تعليقات**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) المجموعة**يضيف** طريقة (مغلفة في[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) موضوع). الجديد[**تعليق**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) يمكن الوصول إلى الكائن من خلال[**تعليقات**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) المجموعة عن طريق تمرير فهرس التعليقات. بعد الوصول إلى ملف[**تعليق**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) ، قم بتخصيص ملاحظة التعليق باستخدام[**تعليق**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) أشياء[**ملحوظة**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note)خاصية.
+إضافة تعليق إلى خلية عن طريق استدعاء طريقة **إضافة** لمجموعة [**Comments**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) (المغلفة في [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). يمكن الوصول إلى الكائن [**Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) الجديد من مجموعة [**Comments**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) عن طريق تمرير مؤشر التعليق. بعد الوصول إلى الكائن [**Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment)، قم بتخصيص ملاحظة التعليق باستخدام خاصية [**Note**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note) لكائن [**Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddingComment-1.java" >}}
 
 ## **تنسيق التعليق**
 
-من الممكن أيضًا تنسيق مظهر التعليقات من خلال تكوين إعدادات الطول والعرض والخط.
+من الممكن أيضًا تنسيق مظهر التعليقات عن طريق تكوين ارتفاعها، وعرضها وإعدادات الخط.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "CommentFormatting-1.java" >}}
 
-## **أضف صورة للتعليق**
+## **إضافة صورة إلى التعليق**
 
-باستخدام Microsoft Excel 2007 ، من الممكن أيضًا الحصول على صورة كخلفية لتعليق الخلية. يتم تحقيق ذلك في Excel 2007 عن طريق القيام بالخطوات التالية. (يفترضون أنك قمت بالفعل بإضافة تعليق خلية.)
+مع Microsoft Excel 2007، من الممكن أيضًا وضع صورة كخلفية لتعليق الخلية. في Excel 2007، يمكن القيام بذلك من خلال الخطوات التالية. (يلزم أن يكون قد تم بالفعل إضافة تعليق للخلية.)
 
 1. انقر بزر الماوس الأيمن فوق الخلية التي تحتوي على التعليق.
-1.  يختار**إظهار / إخفاء التعليقات**، وامسح أي نص من التعليق.
-1. انقر فوق حد التعليق لتحديده.
-1.  يختار**شكل** ، ومن بعد**تعليق**.
-1.  على ال**الألوان والخطوط** علامة التبويب ، قم بتوسيع**اللون** قائمة.
-1.  انقر**تأثيرات التعبئة**.
-1.  على ال**صورة** علامة التبويب ، انقر فوق**حدد صورة**.
-1. حدد موقع الصورة وحددها.
-1.  انقر**نعم** حتى يتم إغلاق جميع الحوارات.
+1. حدد **إظهار/إخفاء التعليقات**، وامسح أي نص من التعليق.
+1. انقر على الحد للتعليق لتحديده.
+1. حدد **تنسيق**، ثم **تعليق**.
+1. على علامة تبويب **الألوان والخطوط**، قم بتوسيع قائمة **اللون**.
+1. انقر على **ملء الآثار**.
+1. على علامة تبويب **الصورة**، انقر على **تحديد صورة**.
+1. العثور على الصورة وتحديدها.
+1. انقر على **موافق** حتى يتم إغلاق جميع الحوارات.
 
-يوفر Aspose.Cells أيضًا هذه الميزة. يوجد أدناه نموذج رمز يقوم بإنشاء ملف XLSX من البداية ، مضيفًا تعليقًا إلى الخلية "A1" مع تعيين صورة كخلفية لها.
+توفر Aspose.Cells أيضًا هذه الميزة. فيما يلي عينة من الشفرة التي تنشئ ملف XLSX من البداية، مع إضافة تعليق إلى الخلية "A1" وتعيين صورة كخلفية لها.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddImageToComment-1.java" >}}
 
-## **موضوعات مسبقة**
+## **مواضيع متقدمة**
 - [تغيير اتجاه النص للتعليق](/cells/ar/java/change-text-direction-of-the-comment/)
 - [كيفية تغيير لون خط التعليق](/cells/ar/java/how-to-change-the-comment-font-color/)
 - [كيفية تعيين خلفية التعليق](/cells/ar/java/how-to-set-comment-background/)
-- [تعليقات مترابطة](/cells/ar/java/threaded-comments/)
+- [تعليقات متداخلة](/cells/ar/java/threaded-comments/)
 

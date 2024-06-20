@@ -1,24 +1,27 @@
-﻿---
-title: Çalışma Sayfalarına Erişim
+---
+title: Çalışma Sayfasına Erişim
 type: docs
 weight: 10
-url: /tr/net/access-worksheets/
+url: /tr/net/aspose-cells-gridweb/access-worksheet/
+keywords: GridWeb,GridWorksheetCollection,GridWorksheet 
+description: Bu makale, GridWeb de çalışma sayfasını (GridWorksheet) nasıl alacağınızı tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konuda, Aspose.Cells.GridWeb denetimindeki çalışma sayfalarına erişim ele alınmaktadır. Aspose.Cells.GridWeb'e ait oldukları ve web uygulamalarında kullanıldıkları için bunlara 'web çalışma sayfaları' diyeceğiz.
+Bu konu, Aspose.Cells.GridWeb kontrolündeki çalışma sayfalarına erişmeyi ele alır. Onlara Aspose.Cells.GridWeb'a ait oldukları için 'web çalışma sayfaları' olarak atıfta bulunacağız ve bunlar web uygulamalarında kullanılır.
 
 {{% /alert %}} 
 ## **Bir Çalışma Sayfasına Erişme**
-Aspose.Cells.GridWeb'de bulunan tüm çalışma sayfaları, GridWeb kontrolünün GridWorksheetCollection'ında saklanır. Bir çalışma sayfasına erişmenin iki yolu vardır: sayfa dizinine veya sayfa adına göre.
-### **Sayfa Dizini Kullanma**
-Aşağıdaki kod parçacığı, sayfa dizinini kullanarak GridWeb denetiminin GridWorksheetCollection'dan belirli bir web çalışma sayfasına nasıl erişileceğini gösterir.
+Aspose.Cells.GridWeb'de bulunan tüm çalışma sayfaları, GridWeb kontrolünün GridWorksheetCollection'ında saklanır. Bir çalışma sayfasına erişmenin iki yolu vardır: sayfa diziniyle veya sayfa adıyla.
+### **Sayfa Dizinini Kullanarak Kullanma**
+Aşağıdaki kod parçası, GridWeb denetiminin GridWorksheetCollection'ından sayfa dizinini kullanarak belirli bir web çalışma sayfasına erişmeyi göstermektedir.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AccessWorksheets.aspx-AccessWorksheetUsingIndex.cs" >}}
 ### **Sayfa Adını Kullanma**
-Aşağıdaki kod parçacığı, sayfa adını kullanarak GridWeb denetiminin GridWorksheetCollection koleksiyonundan bir web çalışma sayfasına nasıl erişileceğini gösterir.
+Aşağıdaki kod parçası, GridWeb denetiminin GridWorksheetCollection koleksiyonundan sayfa adını kullanarak web çalışma sayfasına erişmeyi göstermektedir.
 
 
 

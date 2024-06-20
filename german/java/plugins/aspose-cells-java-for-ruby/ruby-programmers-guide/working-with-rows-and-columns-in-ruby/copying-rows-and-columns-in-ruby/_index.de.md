@@ -1,22 +1,23 @@
-﻿---
+---
 title: Kopieren von Zeilen und Spalten in Ruby
 type: docs
 weight: 30
 url: /de/java/copying-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells – Kopieren von Zeilen und Spalten**
-### **Zeilen kopieren**
-Aspose.Cells stellt die Methode copyRow der Klasse Cells bereit. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln, Werte, Kommentare, Zellformate, ausgeblendete Zellen, Bilder und andere Zeichenobjekte aus der Quellzeile in die Zielzeile.
 
-Die copyRow-Methode akzeptiert die folgenden Parameter:
+## **Aspose.Cells - Kopieren von Zeilen und Spalten**
+### **Kopieren von Zeilen**
+Aspose.Cells bietet die Methode copyRow der Klasse Cells. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln, Werte, Kommentare, Zellformate, versteckte Zellen, Bilder und andere Zeichenobjekte von der Quellzeile in die Zielzeile.
 
-- das Quellobjekt Cells,
-- den Quellzeilenindex und
-- der Zielzeilenindex.
+Die Methode copyRow erhält die folgenden Parameter:
+
+- das Quell-Cells-Objekt,
+- den Index der Quellzeile, und
+- den Index der Zielzeile.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_rows()
 
@@ -48,37 +49,37 @@ end
 
 {{< /highlight >}}
 ### **Spalten kopieren**
-Aspose.Cells stellt die Methode copyColumn der Klasse Cells bereit. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln – mit aktualisierten Verweisen – und Werten, Kommentaren, Zellformaten, ausgeblendeten Zellen, Bildern und anderen Zeichnungsobjekten aus der Quellspalte in die Zielspalte.
+Aspose.Cells bietet die Methode copyColumn der Klasse Cells. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln - mit aktualisierten Verweisen - und Werten, Kommentaren, Zellformate, versteckte Zellen, Bilder und andere Zeichenobjekte von der Quellspalte in die Zielspalte.
 
-Die copyColumn-Methode akzeptiert die folgenden Parameter:
+Die Methode copyColumn erhält die folgenden Parameter:
 
-- das Quellobjekt Cells,
-- Quellspaltenindex und
+- das Quell-Cells-Objekt,
+- Quellspaltenindex, und
 - der Zielspaltenindex.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_columns()
 
-Daten_dir = Datei.dirname(Datei.dirname(Datei.dirname(__DATEI__))) + '/data/'
+    data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
 
 
-# Instanziieren eines Workbook-Objekts nach Excel-Dateipfad
+    # Instantiating a Workbook object by excel file path
 
-Arbeitsmappe = Rjb::import('com.aspose.cells.Workbook').new
+    workbook = Rjb::import('com.aspose.cells.Workbook').new
 
-# Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+    # Accessing the first worksheet in the Excel file
 
-Arbeitsblatt = Arbeitsmappe.getWorksheets().get(0)
+    worksheet = workbook.getWorksheets().get(0)
 
-# Einige Daten in Kopfzeilen einfügen (A1:A4)
+    # Put some data into header rows (A1:A4)
 
-ich = 0
+    i = 0
 
- während ich< 5
+    while i < 5
 
         worksheet.getCells().get(i, 0).setValue("Header Row #{i}")
 
@@ -125,7 +126,7 @@ ich = 0
 end
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Zeilen und Spalten kopieren (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Das Kopieren von Zeilen und Spalten (Aspose.Cells) von einer der unten genannten sozialen Codierungsseiten herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

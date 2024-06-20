@@ -1,24 +1,25 @@
 ---
-title: Obtener rango Cells
+title: Obtener Rango de Celdas
 type: docs
 weight: 600
 url: /es/net/get-cells-range/
-description: Aprenda cómo obtener el rango Cells a través del Aspose.Cells for .NET API.
-keywords: Get Max Display Range of Cells, Get Max Row of Cells, Get Max Data Row of Cells, Get Max Column of Cells, Get Max Data Column of Cells. 
+description: Aprende cómo obtener un Rango de Celdas a través de la API Aspose.Cells for .NET.
+keywords: Obtener Rango de Celdas de Visualización Máxima, Obtener Fila Máxima de Celdas, Obtener Fila Máxima de Datos de Celdas, Obtener Columna Máxima de Celdas, Obtener Columna Máxima de Datos de Celdas. 
 ---
-##  **Posibles escenarios de uso**
-Cuando solo necesita manipular algunos datos en la hoja de trabajo, necesita conocer el rango de datos de toda la hoja de trabajo. Aspose.Cells ofrece esta característica. Aspose.Cells proporciona las siguientes propiedades y métodos para ayudarle a alcanzar sus objetivos.
+
+## **Escenarios de uso posibles**
+Cuando solo necesitas manipular algunos datos en la hoja de trabajo, necesitas conocer el rango de datos de la hoja completa. Aspose.Cells ofrece esta función. Aspose.Cells proporciona las siguientes propiedades y métodos para ayudarte a alcanzar tus objetivos.
 - [**Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/maxdisplayrange)
 - [**Cells.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/maxrow)
 - [**Cells.MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/maxdatarow)
 - [**Cells.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/maxcolumn)
 - [**Cells.MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/maxdatacolumn)
 
-##  **Obtenga el rango Cells usando Aspose.Cells**
+## **Obtener Rango de Celdas usando Aspose.Cells**
 Este ejemplo muestra cómo:
 
-1. Crea un libro de trabajo.
-1. Agregue datos a las celdas de la primera hoja de trabajo.
-1.  Obtener Cells[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range).
+1. Crear un libro de trabajo.
+1. Agregar datos a las celdas en la primera hoja de cálculo.
+1. Obtener celdas [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-get-range.cs" >}}

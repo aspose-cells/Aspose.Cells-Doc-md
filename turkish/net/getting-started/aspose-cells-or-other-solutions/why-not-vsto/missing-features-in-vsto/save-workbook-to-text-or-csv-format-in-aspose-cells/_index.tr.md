@@ -1,44 +1,45 @@
-﻿---
-title: Çalışma Kitabını Metne veya CSV Biçiminde Aspose.Cells'e Kaydet
+---
+title: Aspose.Cells te Çalışma Kitabını Metin veya CSV Formatında Kaydet
 type: docs
 weight: 110
 url: /tr/net/save-workbook-to-text-or-csv-format-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen, birden çok çalışma sayfası içeren bir çalışma kitabını metin biçimine dönüştürmek veya kaydetmek istersiniz. Metin biçimleri için (örneğin TXT, TabDelim, CSV vb.), hem Microsoft Excel hem de Aspose.Cells varsayılan olarak yalnızca etkin çalışma sayfasının içeriğini kaydeder.
+Bazı durumlarda, birden çok çalışma sayfasına sahip bir çalışma kitabını metin formatına dönüştürmek veya kaydetmek isteyebilirsiniz. Metin formatları (örneğin TXT, TabDelim, CSV vb.) için, varsayılan olarak hem Microsoft Excel hem de Aspose.Cells yalnızca etkin çalışma sayfasının içeriğini kaydeder.
 
 {{% /alert %}} 
 
-Aşağıdaki kod örneği, tüm çalışma kitabının metin biçiminde nasıl kaydedileceğini açıklar. Herhangi bir sayıda çalışma sayfası içeren herhangi bir Microsoft Excel veya OpenOffice elektronik tablo dosyası (yani XLS, XLSX, XLSM, XLSB, ODS vb.) olabilecek kaynak çalışma kitabını yükleyin.
+Aşağıdaki kod örneği, bir çalışma kitabını metin formatına kaydetmenin nasıl yapıldığını açıklar. Herhangi bir Microsoft Excel veya OpenOffice elektronik tablo dosyasını (yani XLS, XLSX, XLSM, XLSB, ODS vb.) yükleyin ve içinde herhangi bir sayıda çalışsayfa olabilir.
 
-Kod yürütüldüğünde, çalışma kitabındaki tüm sayfaların verilerini TXT biçimine dönüştürür.
+Kod çalıştırıldığında, çalışma kitabındaki tüm sayfaların verilerini TXT formatına dönüştürür.
 
-Dosyanızı CSV'e kaydetmek için aynı örneği değiştirebilirsiniz. Varsayılan olarak, TxtSaveOptions.Separator virgüldür, bu nedenle CSV biçiminde kaydediyorsanız ayırıcı belirtmeyin.
+Aynı örneği CSV'ye kaydetmek için değiştirebilirsiniz. Varsayılan olarak, TxtSaveOptions.Separator virgül olduğundan, CSV formatına kaydederken bir ayraç belirtmeyin.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- string filePath = "kaynak.xlsx";
+ string filePath = "source.xlsx";
 
-//Kaynak çalışma kitabınızı yükleyin
+//Load your source workbook
 
-Çalışma kitabı çalışma kitabı = yeni Çalışma Kitabı(filePath);
+Workbook workbook = new Workbook(filePath);
 
-//0 baytlık dizi
+//0-byte array
 
-bayt[]çalışma kitabıVerileri = yeni bayt[0];
+byte[] workbookData = new byte[0];
 
-//Metin kaydetme seçenekleri. Her türlü ayırıcıyı kullanabilirsiniz
+//Text save options. You can use any type of separator
 
-TxtSaveOptions seçimleri = new TxtSaveOptions();
+TxtSaveOptions opts = new TxtSaveOptions();
 
 opts.Separator = '\t';
 
-//Her çalışma sayfası verisini, çalışma kitabı veri dizisinin içindeki metin biçiminde kopyalayın
+//Copy each worksheet data in text format inside workbook data array
 
- için (int idx = 0; idx< workbook.Worksheets.Count; idx++)
+for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 
 {
 
@@ -76,5 +77,5 @@ File.WriteAllBytes(filePath + ".out.txt", workbookData);
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

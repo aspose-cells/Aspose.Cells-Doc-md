@@ -1,25 +1,26 @@
 ---
-title: Dokumenteigenschaften verwalten
+title: Verwaltung von Dokumenteigenschaften
 type: docs
 weight: 30
 url: /de/cpp/managing-document-properties/
 ---
-##  **Mögliches Nutzungsszenario**
- Aspose.Cells ermöglicht Ihnen die Arbeit mit integrierten und benutzerdefinierten Dokumenteigenschaften. Hier ist die Microsoft Excel-Schnittstelle zum Öffnen dieser*Dokumenteigenschaften*. Klicken Sie einfach auf *Erweiterte Eigenschaften*wie in diesem Screenshot gezeigt, und sehen Sie sie sich an.
+
+## **Mögliche Anwendungsszenarien**
+Aspose.Cells ermöglicht es Ihnen, mit integrierten und benutzerdefinierten Dokumenteigenschaften zu arbeiten. Hier ist die Microsoft Excel-Schnittstelle, um diese *Dokumenteigenschaften* zu öffnen. Klicken Sie einfach auf *Erweiterte Eigenschaften*, wie in diesem Screenshot gezeigt, und sehen Sie sie an.
 
 ![todo:image_alt_text](managing-document-properties_1.png)
-##  **Dokumenteigenschaften verwalten**
- Der folgende Beispielcode wird geladen[Beispiel-Excel-Datei](23166989.xlsx) und liest die integrierten Dokumenteigenschaften, z*Titel, Betreff* und ändert sie dann. Dann liest es auch die benutzerdefinierte Dokumenteigenschaft, d. h*MeinBenutzerdefiniert1* und fügt dann eine neue benutzerdefinierte Dokumenteigenschaft hinzu, z*MyCustom5* und schreibt die[Excel-Datei ausgeben](23166986.xlsx)Der folgende Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispiel-Excel-Datei.
+## **Verwaltung von Dokumenteigenschaften**
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](23166989.xlsx) und liest die integrierten Dokumenteigenschaften wie *Titel, Betreff* und ändert sie dann. Dann liest er auch die benutzerdefinierte Dokumenteigenschaft, d.h. *MyCustom1* und fügt dann eine neue benutzerdefinierte Dokumenteigenschaft hinzu, d.h. *MyCustom5* und schreibt die [Ausgabedatei der Excel-Datei](23166986.xlsx). Der folgende Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispiel-Excel-Datei.
 
 ![todo:image_alt_text](managing-document-properties_2.png)
-##  **Beispielcode**
+## **Beispielcode**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-ManagingDocumentProperties-new.cpp" >}}
 
 
-##  **Konsolenausgabe**
- Dies ist die Konsolenausgabe des obigen Beispielcodes, wenn er mit dem bereitgestellten Code ausgeführt wird[Beispiel-Excel-Datei](23166989.xlsx).
+## **Konsolenausgabe**
+Dies ist die Konsolenausgabe des obigen Beispielcodes, wenn er mit der bereitgestellten [Beispiel-Excel-Datei](23166989.xlsx) ausgeführt wird.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Title: Aspose Team
 

@@ -1,54 +1,55 @@
 ---
-title: Copier et déplacer des feuilles de calcul
+title: Copier et Déplacer des Feuilles de calcul
 type: docs
 weight: 10
 url: /fr/net/copying-and-moving-worksheets/
-description: Cet article inclut un exemple de code et décrit comment copier et déplacer des feuilles de calcul par programmation à la fois dans un classeur Excel et dans des classeurs Excel à l'aide de la bibliothèque C# API ou .NET.
-keywords: copy worksheet c#, move worksheet c#
+description: Cet article contient un code d exemple et décrit comment copier et déplacer des feuilles de calcul de manière programmatique à l intérieur d un classeur Excel et entre des classeurs Excel en utilisant l API C# ou la bibliothèque .NET.
+keywords: copier feuille de calcul c#, déplacer feuille de calcul c#
 ---
+
 {{% alert color="primary" %}}
 
-Parfois, vous avez besoin d'un certain nombre de feuilles de calcul avec un formatage et des données communs. Par exemple, si vous travaillez avec des budgets trimestriels, vous souhaiterez peut-être créer un classeur avec des feuilles contenant les mêmes en-têtes de colonne, en-têtes de ligne et formules. Il existe un moyen de le faire : en créant une feuille, puis en la copiant.
+Parfois, vous avez besoin d'un certain nombre de feuilles de calcul avec une mise en forme et des données communes. Par exemple, si vous travaillez avec des budgets trimestriels, vous voudrez peut-être créer un classeur avec des feuilles contenant les mêmes en-têtes de colonne, en-têtes de ligne et formules. Il y a un moyen de le faire : en créant une feuille, puis en la copiant.
 
-Aspose.Cells prend en charge la copie et le déplacement de feuilles de calcul dans ou entre des classeurs. La feuille de calcul, complète avec les données, le formatage, les tableaux, les matrices, les graphiques, les images et d'autres objets, est copiée avec le plus haut degré de précision.
+Aspose.Cells prend en charge la copie et le déplacement des feuilles de calcul à l'intérieur ou entre des classeurs. Les feuilles de calcul, complètes avec les données, la mise en forme, les tableaux, les matrices, les graphiques, les images et les autres objets, sont copiées avec le plus haut degré de précision.
 
 {{% /alert %}}
 
-##  **Déplacer ou copier des feuilles à l'aide d'Excel Microsoft**
+## **Déplacement ou Copie de feuilles à l'aide de Microsoft Excel**
 
-Voici les étapes à suivre pour copier et déplacer des feuilles de calcul dans ou entre des classeurs dans Microsoft Excel.
+Voici les étapes à suivre pour copier et déplacer des feuilles de calcul à l'intérieur ou entre des classeurs dans Microsoft Excel.
 
 1. Pour déplacer ou copier des feuilles vers un autre classeur, ouvrez le classeur qui recevra les feuilles.
 1. Basculez vers le classeur contenant les feuilles que vous souhaitez déplacer ou copier, puis sélectionnez les feuilles.
-1.  Sur le**Modifier** menu, cliquez sur *Déplacer ou Copier la feuille**.
-1.  Dans le**Réserver** boîte de dialogue, cliquez sur le classeur pour recevoir les feuilles.
-1. Pour déplacer ou copier les feuilles sélectionnées dans un nouveau classeur, cliquez sur *Nouveau livre**.
-1.  Dans le**Avant feuille** , cliquez sur la feuille devant laquelle vous souhaitez insérer les feuilles déplacées ou copiées.
-1.  Pour copier les feuilles au lieu de les déplacer, sélectionnez le**Créer une copie** case à cocher.
+1. Dans le menu **Édition**, cliquez sur **Déplacer ou copier la feuille**.
+1. Dans la boîte de dialogue **Vers le classeur**, cliquez sur le classeur qui recevra les feuilles.
+1. Pour déplacer ou copier les feuilles sélectionnées vers un nouveau classeur, cliquez sur **Nouveau Classeur**.
+1. Dans la zone **Avant la feuille**, cliquez sur la feuille avant laquelle vous souhaitez insérer les feuilles déplacées ou copiées.
+1. Pour copier les feuilles au lieu de les déplacer, sélectionnez la case à cocher **Créer une copie**.
 
-###  **Copier des feuilles de calcul dans un classeur avec Aspose.Cells**
+### **Copier des Feuilles au sein d'un Classeur avec Aspose.Cells**
 
- Aspose.Cells fournit une méthode surchargée,[**Aspose.Cells.WorksheetCollection.AddCopy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/addcopy/index)qui est utilisé pour ajouter une feuille de calcul à la collection et copier des données à partir d'une feuille de calcul existante. Une version de la méthode prend l'index de la feuille de calcul source comme paramètre. L'autre version prend le nom de la feuille de calcul source.
+Aspose.Cells fournit une méthode surchargée, [**Aspose.Cells.WorksheetCollection.AddCopy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/addcopy/index), qui est utilisée pour ajouter une feuille de calcul à la collection et copier les données à partir d'une feuille de calcul existante. Une version de la méthode prend l'index de la feuille source comme paramètre. L'autre version prend le nom de la feuille de calcul source.
 
-L'exemple suivant montre comment copier une feuille de calcul existante dans un classeur.
+L'exemple suivant montre comment copier une feuille existante dans un classeur.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-CopyWithinWorkbook-1.cs" >}}
 
-###  **Copier des feuilles de calcul entre des classeurs**
+### **Copier des feuilles de calcul entre des classeurs**
 
- Aspose.Cells fournit une méthode,[**Aspose.Cells.Feuille de calcul.Copier()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index)utilisé pour copier les données et la mise en forme d'une feuille de calcul source vers une autre feuille de calcul dans ou entre des classeurs. La méthode prend l'objet feuille de calcul source comme paramètre.
-
-L'exemple suivant montre comment copier une feuille de calcul d'un classeur vers un autre classeur.
-
-{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-CopyWorksheetsBetweenWorkbooks-1.cs" >}}
+Aspose.Cells fournit une méthode, [**Aspose.Cells.Worksheet.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index), utilisée pour copier des données et la mise en forme d'une feuille de calcul vers une autre feuille de calcul à l'intérieur ou entre des classeurs. La méthode prend l'objet de la feuille de calcul source comme paramètre.
 
 L'exemple suivant montre comment copier une feuille de calcul d'un classeur à un autre.
 
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-CopyWorksheetsBetweenWorkbooks-1.cs" >}}
+
+L'exemple suivant montre comment copier une feuille de calcul d'un classeur vers un autre.
+
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-CopyWorksheetFromWorkbookToOther-1.cs" >}}
 
-###  **Déplacer des feuilles de calcul dans le classeur**
+### **Déplacer des feuilles de calcul dans un classeur**
 
- Aspose.Cells fournit une méthode[**Aspose.Cells.Worksheet.MoveTo()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/moveto)qui est utilisé pour déplacer une feuille de calcul vers un autre emplacement dans la même feuille de calcul. La méthode prend l'index de la feuille de calcul cible comme paramètre.
+Aspose.Cells fournit une méthode [**Aspose.Cells.Worksheet.MoveTo()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/moveto) qui est utilisée pour déplacer une feuille de calcul vers un autre emplacement dans la même feuille de calcul. La méthode prend l'index de la feuille de calcul cible comme paramètre.
 
 L'exemple suivant montre comment déplacer une feuille de calcul vers un autre emplacement dans le classeur.
 

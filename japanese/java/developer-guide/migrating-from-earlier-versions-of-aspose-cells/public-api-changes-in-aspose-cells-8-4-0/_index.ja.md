@@ -1,35 +1,36 @@
-﻿---
-title: パブリック API Aspose.Cells 8.4.0 の変更点
+---
+title: Aspose.Cells 8.4.0のパブリックAPI変更
 type: docs
 weight: 140
 url: /ja/java/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.3.2 から 8.4.0 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/java/public-api-changes-in-aspose-cells-8-4-0/)と[削除されたクラスなど](/cells/ja/java/public-api-changes-in-aspose-cells-8-4-0/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
+このドキュメントでは、モジュール/アプリケーション開発者に関心を持つ可能性のあるAspose.Cells APIのバージョン8.3.2から8.4.0への変更について説明しています。[追加されたクラスなど](/cells/ja/java/public-api-changes-in-aspose-cells-8-4-0/)、[削除されたクラスなど](/cells/ja/java/public-api-changes-in-aspose-cells-8-4-0/)だけでなく、Aspose.Cellsの内部動作の変更についても説明しています。
 
 {{% /alert %}} 
-## **追加された API**
-### **スプレッドシートの VBA/マクロ コードを変更するメカニズム**
-の機能を提供するために、[VBA/マクロコード操作](/cells/ja/java/modifying-vba-or-macro-code-using-aspose-cells/)Aspose.Cells for Java 8.4.0 では、com.aspose.cells.Vba パッケージで一連の新しいクラスとプロパティが公開されています。これらの新しいクラスの重要な詳細のいくつかを以下に示します。
+## **APIの追加**
+### **スプレッドシート内のVBA/Macroコードを変更するメカニズム**
+VBA/Macroコードの操作の機能を提供するために、Aspose.Cells for Java 8.4.0ではcom.aspose.cells.Vbaパッケージに新しいクラスとプロパティの一連が公開されています。これらの新しいクラスの重要な詳細は以下の通りです。
 
-- VbaProject クラスを使用して、特定のスプレッドシートから VBA プロジェクトを取得できます。
-- VbaModuleCollection クラスは、特定の VbaProject の一部である VBA モジュールのコレクションを表します。
-- VbaModule クラスは、VbaModuleCollection からの単一のモジュールを表します。
+- VbaProjectクラスは指定されたスプレッドシートからVBAプロジェクトを取得するために使用できます。
+- VbaModuleCollectionクラスは、指定されたVbaProjectの一部であるVBAモジュールのコレクションを表します。
+- VbaModuleクラスはVbaModuleCollectionから単一のモジュールを表します。
 
-次のコード スニペットは、VBA コード セグメントを動的に変更する方法を示しています。
+以下のコードスニペットは、VBAコードセグメントを動的に変更する方法を示しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook("source.xlsm");
 
-//VBA モジュール コードを変更する
+//Change the VBA Module Code
 
-VbaModuleCollection モジュール = workbook.getVbaProject().getModules();
+VbaModuleCollection modules = workbook.getVbaProject().getModules();
 
- for(int i=0; i< modules.getCount(); i++)
+for(int i=0; i < modules.getCount(); i++)
 
 {
 
@@ -56,17 +57,17 @@ VbaModuleCollection モジュール = workbook.getVbaProject().getModules();
 workbook.save("output.xlsm");
 
 {{< /highlight >}}
-### **ピボット テーブルを削除する機能**
-Aspose.Cells for Java 8.4.0 では、特定のスプレッドシートからピボット テーブルを削除する機能を提供する PivotTableCollection の 2 つのメソッドが公開されています。上記方法の詳細は以下の通りである。
+### **ピボットテーブルの削除機能**
+Aspose.Cells for Java 8.4.0は、指定されたスプレッドシートからピボットテーブルを削除する機能を提供するために、PivotTableCollectionに対して2つのメソッドを公開しました。前述のメソッドの詳細は以下の通りです。
 
-- PivotTableCollection.remove メソッドは、ピボットテーブルのオブジェクトを受け取り、コレクションから削除します。
-- PivotTableCollection.removeAt メソッドは、ゼロ インデックス ベースの整数値を受け入れ、特定のピボットテーブルをコレクションから削除します。
+- PivotTableCollection.removeメソッドはPivotTableのオブジェクトを受け入れ、それをコレクションから削除します。
+- PivotTableCollection.removeAtメソッドはゼロインデックスベースの整数値を受け入れ、特定のPivotTableをコレクションから削除します。
 
-次のコード スニペットは、上記の両方の方法を使用してピボットテーブルを削除する方法を示しています。
+以下のコードスニペットは、上記の両メソッドを使用してPivotTableを削除する方法を示しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -93,24 +94,24 @@ worksheet.getPivotTables().removeAt(0);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **さまざまなピボット テーブル レイアウトのサポート**
-Aspose.Cells for Java 8.4.0 では、ピボット テーブルのさまざまな定義済みレイアウトがサポートされています。この機能を提供するために、Aspose.Cells API は PivotTable クラスの 3 つのメソッドを公開しました。詳しくは以下をご覧ください。
+### **異なるピボットテーブルレイアウトのサポート**
+Aspose.Cells for Java 8.4.0では、ピボットテーブルに異なる事前定義のレイアウトをサポートしています。この機能を提供するために、Aspose.Cells APIではPivotTableクラスについて以下の3つのメソッドを公開しています。
 
-- PivotTable.showInCompactForm メソッドは、ピボット テーブルをコンパクト レイアウトでレンダリングします。
-- PivotTable.showInOutlineForm メソッドは、ピボット テーブルをアウトライン レイアウトでレンダリングします。
-- PivotTable.showInTabularForm メソッドは、テーブル レイアウトでピボット テーブルをレンダリングします。
+- PivotTable.showInCompactFormメソッドはピボットテーブルをコンパクトレイアウトでレンダリングします。
+- PivotTable.showInOutlineFormメソッドはピボットテーブルをアウトラインレイアウトでレンダリングします。
+- PivotTable.showInTabularFormメソッドはピボットテーブルを表形式のレイアウトでレンダリングします。
 
 {{% alert color="primary" %}} 
 
-上記のレイアウトを設定した後、 PivotTable.refreshData と PivotTable.calculateData を呼び出すことが重要です。
+上記のいずれかのレイアウトを設定した後に、PivotTable.refreshDataおよびPivotTable.calculateDataを呼び出すことが重要です。 
 
 {{% /alert %}} 
 
-次のサンプル コードは、ピボット テーブルにさまざまなレイアウトを設定し、結果をディスクに保存します。
+以下のサンプルコードは、ピボットテーブルの異なるレイアウトを設定し、その結果をディスクに保存する方法を示しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -167,19 +168,19 @@ pivotTable.calculateData();
 workbook.save("TabularForm.xlsx");
 
 {{< /highlight >}}
-### **クラス TxtLoadStyleStrategy とプロパティ TxtLoadOptions.LoadStyleStrategy が追加されました**
-Aspose.Cells for Java 8.4.0 は、文字列値を数値または日時に変換する際に解析された値をフォーマットする戦略を指定するために、TxtLoadStyleStrategy クラスと TxtLoadOptions.LoadStyleStrategy プロパティを公開しました。
-### **メソッド DataBar.ToImage が追加されました**
-v8.4.0 のリリースにより、Aspose.Cells API は、条件付きで書式設定された DataBar を画像形式で保存するための DataBar.toImage メソッドを提供しました。 {DataBar.toImage}} メソッドは、以下に詳述する 2 つのパラメーターを受け入れます。
+### **Class TxtLoadStyleStrategyおよびProperty TxtLoadOptions.LoadStyleStrategyの追加**
+Aspose.Cells for Java 8.4.0では、文字列値を数値または日付時刻に変換する際のフォーマット戦略を指定するために、TxtLoadStyleStrategyクラスとTxtLoadOptions.LoadStyleStrategyプロパティを公開しました。
+### **DataBar.ToImageメソッドの追加**
+バージョン8.4.0のリリースに伴い、Aspose.Cells APIはDataBar.toImageメソッドを提供し、条件付き書式が適用されたDataBarを画像形式で保存する機能を追加しました。DataBar.toImageメソッドは以下に詳細に示す2つのパラメータを受け入れます。
 
-- 最初のパラメーターは、条件付き書式が適用された com.aspose.cells.Cell 型です。
-- 2 番目のパラメーターは com.aspose.cells.rendering.ImageOrPrintOptions 型で、結果のイメージのさまざまなパラメーターを設定します。
+- 最初のパラメータは、条件付き書式が適用されたcom.aspose.cells.Cell型です。
+- 2番目のパラメータは、com.aspose.cells.rendering.ImageOrPrintOptions型であり、生成された画像の異なるパラメータを設定するためのものです。
 
-次のサンプル コードは、DataBar.toImage メソッドを使用して DataBar をイメージ形式でレンダリングする方法を示しています。
+次のサンプルコードは、DataBar.toImageメソッドを使用してDataBarを画像形式でレンダリングする方法を示しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -209,7 +210,7 @@ opts.setImageFormat(ImageFormat.getPng());
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.toImage(cell, opts);
+byte[] imgBytes = dbar.toImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -220,24 +221,24 @@ out.write(imgBytes);
 out.close();
 
 {{< /highlight >}}
-### **プロパティ Border.ThemeColor が追加されました**
-Aspose.Cells API を使用すると、スプレッドシートからテーマ関連のデータを抽出できます。 Aspose.Cells for Java 8.4.0 のリリースにより、API は、Cell ボーダーのテーマ カラー属性を取得するために使用できる Border.ThemeColor プロパティを公開しました。
-### **プロパティ DrawObject.ImageBytes が追加されました**
-Aspose.Cells for Java 8.4.0 では、Chart または Shape から画像データを取得する DrawObject.ImageBytes プロパティが公開されました。
-### **プロパティ HtmlSaveOptions.ExportBogusRowData が追加されました**
-Aspose.Cells for Java 8.4.0 では {HtmlSaveOptions.ExportBogusRowData}} プロパティが提供されました。ブール型プロパティは、スプレッドシートを HTML 形式にエクスポートする際に、API が偽の最下行データを挿入するかどうかを決定します。
+### **Border.ThemeColorプロパティの追加**
+Aspose.Cells APIにより、スプレッドシートからテーマ関連データを抽出することができます。バージョンAspose.Cells for Java 8.4.0のリリースに伴い、APIはBorder.ThemeColorプロパティを公開し、セルの枠線のテーマカラー属性を取得するために使用できるようにしました。
+### **DrawObject.ImageBytesプロパティの追加**
+Aspose.Cells for Java 8.4.0では、DrawObject.ImageBytesプロパティが追加され、グラフまたは図形から画像データを取得するための機能が提供されました。
+### **HtmlSaveOptions.ExportBogusRowDataプロパティの追加**
+Aspose.Cells for Java 8.4.0では、HtmlSaveOptions.ExportBogusRowDataプロパティが提供されます。このBoolean型のプロパティは、スプレッドシートをHTML形式にエクスポートする際にAPIが虚偽の最終行データを注入するかどうかを決定します。 
 
 {{% alert color="primary" %}} 
 
-デフォルト値は true です。
+デフォルト値はtrueです。
 
 {{% /alert %}} 
 
-次のサンプル コードは、前述のプロパティの使用方法を示しています。
+以下のサンプルコードは、上記のプロパティの使用方法を説明しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -256,16 +257,16 @@ Workbook workbook = new Workbook("source.xlsx");
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **プロパティ HtmlSaveOptions.CellCssPrefix が追加されました**
-新しく追加されたプロパティ HtmlSaveOptions.CellCssPrefix を使用すると、スプレッドシートを HTML 形式でエクスポートするときに、CSS ファイルのプレフィックスを設定できます。
+### **HtmlSaveOptions.CellCssPrefixプロパティの追加**
+新たに追加されたHtmlSaveOptions.CellCssPrefixプロパティは、スプレッドシートをHTML形式にエクスポートする際にCSSファイルの接頭辞を設定する機能を提供します。
 
 {{% alert color="primary" %}} 
 
-デフォルト値は "" (空の文字列) です。
+デフォルト値は「」（空の文字列）です。
 
 {{% /alert %}}
-## **廃止された API**
-### **メソッド Cells.getCellByIndex & Row.getCellByIndex は廃止されました**
-代わりに getEnumerator メソッドを使用して、すべてのセルを反復処理してください。
-### **プロパティ DrawObject.Image 廃止されました**
-代わりに、DrawObject.ImageBytes プロパティを使用して画像データを取得してください。
+## **非推奨のAPI**
+### **Cells.getCellByIndexおよびRow.getCellByIndexメソッドの廃止**
+すべてのセルを繰り返し処理するには、getEnumeratorメソッドを使用してください。
+### **DrawObject.Imageプロパティの廃止**
+画像データを取得するためにDrawObject.ImageBytesプロパティを使用してください。

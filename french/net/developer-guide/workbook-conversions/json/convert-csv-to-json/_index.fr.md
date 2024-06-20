@@ -1,29 +1,31 @@
-﻿---
-title: Convertir CSV en JSON
+---
+title: Convertir un fichier CSV en JSON
 type: docs
 weight: 220
 url: /fr/net/convert-csv-to-json/
-description: Convertissez le fichier CSF en JSON en utilisant le simple à utiliser Aspose.Cells for .NET API.
-keywords: Convert, Convert CVS to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON CSharp, c# code to convert CSV to JSON
+description: Convertir un fichier CSF en JSON en utilisant l API simple à utiliser Aspose.Cells for .NET.
+keywords: Convertir, Convertir CVS en JSON, CSV en JSON, CSV, JSON, Convertir CSV en JSON CSharp, code c# pour convertir CSV en JSON
 ---
+
 ## **Convertir CSV en JSON**
 
-Aspose.Cells prend en charge la conversion de CSV en JSON. Pour cela, le API fournit**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**et**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)** Des classes. Le**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**fournit les options d'exportation de la plage vers JSON. La**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**classe a les propriétés suivantes.
+Aspose.Cells prend en charge la conversion de CSV en JSON. Pour cela, l'API fournit les classes [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) et [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility). La classe [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) fournit les options pour exporter la plage vers JSON. La classe [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) a les propriétés suivantes.
 
-- **[ExportAsString](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring)**: cela exporte la valeur de chaîne des cellules vers JSON.
-- **[HasHeaderRow](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow)**: Cela indique si la plage contient une ligne d'en-tête.
-- **[Retrait](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent)**: Indique le retrait.
+- [**ExportAsString**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring): Cela exporte la valeur de chaîne des cellules au format JSON.
+- [**HasHeaderRow**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow): Indique si la plage contient une ligne d'en-tête.
+- [**Indent**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent): Indique l'indentation.
 
-Le**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**classe exporte le JSON en utilisant les options d'exportation définies avec le**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**classe.
+La classe [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) exporte le JSON en utilisant les options d'export définies avec la classe [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions).
 
-L'exemple de code suivant illustre l'utilisation de**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**et**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)** classes pour charger[fichier source CSV](104398879.csv)et imprime la sortie JSON dans la console.
+Le code d'exemple suivant démontre l'utilisation des classes [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) et [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) pour charger le [fichier CSV source](104398879.csv) et afficher la sortie JSON dans la console.
 
-### **Exemple de code**
+### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertCsvToJson-1.cs" >}}
 
 ### **Sortie console**
-```json
+{{< highlight java >}}
+
 [
 {
 "id": 1,
@@ -56,4 +58,5 @@ L'exemple de code suivant illustre l'utilisation de**[ExportRangeToJsonOptions](
 "postalCode": 394221
 }
 ]
-```
+
+{{< /highlight >}}

@@ -1,18 +1,19 @@
-﻿---
-title: Ограничения и API Различия
+---
+title: Ограничения и различия в API
 type: docs
 weight: 10
 url: /ru/nodejs-java/limitations-and-api-differences/
-keywords: nodejs, excel, limitation, api, difference
-description: Aspose.Cells for Node.js via Java ограничения и различия API
+keywords: "nodejs, excel, limitation, api, differences"
+description: "Ограничения и различия в API Aspose.Cells для Node.js via Java."
 ---
-## **Общественный API Различия**
-В следующем списке (с примерами сегментов кода) показаны некоторые различия между API Aspose.Cells for Java и Aspose.Cells for Node.js via Java.
-### **Импорт библиотеки (сравнение пакетов)**
+
+## **Различия в общедоступном API**
+Ниже приведен список (сегментов кода) некоторых различий между Aspose.Cells for Java и Aspose.Cells для Node.js via Java APIs.
+### **Импорт библиотеки (Сравнение пакетов)**
 
 **Aspose.Cells for Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  import com.aspose.cells.*;
 
@@ -21,7 +22,7 @@ description: Aspose.Cells for Node.js via Java ограничения и раз�
 
 **Aspose.Cells for Node.js via Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  var aspose = aspose || {};
 
@@ -32,7 +33,7 @@ aspose.cells = require("aspose.cells");
 
 **Aspose.Cells for Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook excelbook = new Workbook();
 
@@ -41,7 +42,7 @@ aspose.cells = require("aspose.cells");
 
 **Aspose.Cells for Node.js via Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  var excelbook = new aspose.cells.Workbook();
 
@@ -50,7 +51,7 @@ aspose.cells = require("aspose.cells");
 
 **Aspose.Cells for Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  arc2.getLineFormat().setDashStyle(MsoLineDashStyle.SOLID);
 
@@ -60,16 +61,16 @@ aspose.cells = require("aspose.cells");
 
 **Aspose.Cells for Node.js via Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  arc2.getLineFormat().setDashStyle(aspose.cells.MsoLineDashStyle.SOLID);
 
 {{< /highlight >}}
-### **Потоковые файлы**
+### **Передача файлов**
 
 **Aspose.Cells for Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  InputStream inputstream = new FileInputStream(“Book1.xlsx”);
 
@@ -83,7 +84,7 @@ workbook.save(“result.xlsx”);
 
 **Aspose.Cells for Node.js via Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  var aspose = aspose || {};
 
@@ -110,7 +111,7 @@ aspose.cells.Workbook.createWorkbookFromStream(readStream, function(workbook, er
 });
 
 {{< /highlight >}}
-## **Другие ограничения Aspose.Cells for Node.js via Java API по сравнению с Aspose.Cells for Java API**
-1. Импорт/экспорт данных из Array, ArrayList, ResultSet и т. д. не поддерживается.
-1. Печать не поддерживается.
+## **Другие ограничения API Aspose.Cells для Node.js via Java по сравнению с API Aspose.Cells for Java**
+1. Импорт/экспорт данных из массива, ArrayList, ResultSet и т.д. не поддерживается.
+1. Не поддерживается печать.
 

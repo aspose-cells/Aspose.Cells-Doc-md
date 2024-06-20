@@ -1,17 +1,18 @@
-﻿---
-title: Stampa di cartelle di lavoro in xlsx4j
+---
+title: Stampa dei fogli di lavoro in xlsx4j
 type: docs
 weight: 30
 url: /it/java/printing-workbooks-in-xlsx4j/
 ---
-## **Aspose.Cells - Stampa Quaderni**
-Dopo aver finito di creare il tuo foglio di calcolo, probabilmente vorrai stampare una copia cartacea del foglio per le tue necessità. Quando si stampa, MS Excel presuppone che si desideri stampare l'intera area del foglio di lavoro a meno che non si specifichi la selezione.
 
-**Foglio di lavoro per la stampa**
+## **Aspose.Cells - Stampa dei workbook**
+Dopo aver terminato la creazione del foglio di lavoro, probabilmente vorrai stampare una copia cartacea del foglio per le tue esigenze. Durante la stampa, MS Excel presume che si voglia stampare l'intera area del foglio di lavoro a meno che non si specifichi la selezione.
+
+**Stampa del foglio di lavoro**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,11 +36,11 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 
-**Cartella di lavoro di stampa**
+**Stampa della cartellina di lavoro**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a WorkbookRender object with respect to your workbook
 
@@ -51,12 +52,12 @@ wr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/print/printworkbook/AsposePrintWorkbook.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/print/printworkbook/AsposePrintWorkbook.java)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[ Stampa di cartelle di lavoro](/cells/it/java/printing-workbooks).
+Per ulteriori dettagli, visita [Stampa dei fogli di lavoro](/cells/it/java/printing-workbooks).
 
 {{% /alert %}}

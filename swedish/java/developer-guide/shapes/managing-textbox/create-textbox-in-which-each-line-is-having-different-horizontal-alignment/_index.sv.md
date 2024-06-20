@@ -1,16 +1,17 @@
-﻿---
-title: Skapa textruta där varje rad har olika horisontell justering
+---
+title: Skapa textfält där varje rad har olika horisontell justering
 type: docs
 weight: 800
 url: /sv/java/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/
 ---
+
 {{% alert color="primary" %}} 
 
-Du kan ställa in den horisontella justeringen av din stycketext med egenskapen TextParagraph.AlignmentType.
+Du kan ställa in den horisontella justeringen av din styckestext med hjälp av egenskapen TextParagraph.AlignmentType.
 
 {{% /alert %}} 
-## **Skapa textruta där varje rad har olika horisontell justering**
- Följande exempelkod skapar tre rader och ställer in den horisontella justeringen av var och en av dem. Vänligen ladda ner[output excel-fil](5473433.xlsx) genereras av koden för din referens.
+## **Skapa textfält där varje rad har olika horisontell justering**
+Följande exempelkod skapar tre linjer och ställer in horisontell justering för var och en av dem. Var vänlig ladda ner [utdata excelfil](5473433.xlsx) genererad av koden för din referens.
 
 
 

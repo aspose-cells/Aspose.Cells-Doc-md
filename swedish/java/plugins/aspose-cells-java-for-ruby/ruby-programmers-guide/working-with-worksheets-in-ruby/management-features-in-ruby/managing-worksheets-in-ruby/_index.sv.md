@@ -1,16 +1,17 @@
-﻿---
-title: Hantera arbetsblad i Ruby
+---
+title: Hantera kalkylblad i Ruby
 type: docs
 weight: 10
 url: /sv/java/managing-worksheets-in-ruby/
 ---
-## **Aspose.Cells - Hantera arbetsblad**
-### **Lägga till kalkylblad till en ny Excel-fil**
- För att lägga till kalkylblad i en ny Excel-fil med**Aspose.Cells Java för Ruby** , ring helt enkelt**add_worksheet** metod av**Hantera arbetsblad** modul.
 
-**Ruby kod**
+## **Aspose.Cells - Hantera kalkylblad**
+### **Lägga till kalkylblad i en ny Excelfil**
+För att lägga till kalkylblad i en ny Excel-fil med **Aspose.Cells Java för Ruby**, helt enkelt anropa **add_worksheet**-metoden i **MangingWorksheets**-modulen.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  def add_worksheet()
 
@@ -39,12 +40,12 @@ url: /sv/java/managing-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Lägga till kalkylblad till ett designerkalkylblad**
-Processen att lägga till kalkylblad till ett designerkalkylblad är helt samma som ovanstående tillvägagångssätt förutom att Excel-filen redan är skapad och vi måste öppna den Excel-filen först innan vi lägger till kalkylblad till den.
+### **Lägga till kalkylblad i ett designerkalkylblad**
+Processen att lägga till kalkylblad i en designerkalkylblad är helt densamma som i det ovanstående tillvägagångssättet förutom att Excel-filen redan är skapad och vi behöver öppna den Excel-filen först innan vi lägger till kalkylblad i den.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet_to_designer_spreadsheet()
 
@@ -75,12 +76,12 @@ Processen att lägga till kalkylblad till ett designerkalkylblad är helt samma 
 end  
 
 {{< /highlight >}}
-### **Få åtkomst till kalkylblad med hjälp av arbetsbladsnamn**
- För att komma åt kalkylblad efter arknamn med hjälp av**Aspose.Cells Java för Ruby** , ring helt enkelt**get_worksheet** metod av**Hantera arbetsblad** modul.
+### **Tillgång till kalkylblad med hjälp av kalkylbladsnamn**
+För att komma åt kalkylblad med hjälp av bladnamn med **Aspose.Cells Java för Ruby**, helt enkelt anropa **get_worksheet**-metoden i **MangingWorksheets**-modulen.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_worksheet()
 
@@ -101,12 +102,12 @@ end  
 end
 
 {{< /highlight >}}
-### **Ta bort kalkylblad med Sheet Name**
- För att ta bort kalkylblad efter arknamn med**Aspose.Cells Java för Ruby** , ring helt enkelt**remove_worksheet_by_name** metod av**Hantera arbetsblad** modul.
+### **Ta bort kalkylblad med hjälp av kalkylbladsnamn**
+För att ta bort kalkylblad med hjälp av bladnamn med **Aspose.Cells Java för Ruby**, helt enkelt anropar **remove_worksheet_by_name**-metoden i **MangingWorksheets**-modulen.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_name()
 
@@ -138,12 +139,12 @@ end
 
 
 {{< /highlight >}}
-### **Ta bort kalkylblad med Sheet Index**
- För att ta bort kalkylblad för ark index med**Aspose.Cells Java för Ruby** , ring helt enkelt**remove_worksheet_by_index** metod av**Hantera arbetsblad** modul.
+### **Ta bort kalkylblad med hjälp av kalkylbladsindex**
+För att ta bort kalkylblad med hjälp av bladindex med **Aspose.Cells Java för Ruby**, helt enkelt anropa **remove_worksheet_by_index**-metoden i **MangingWorksheets**-modulen.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_index()
 
@@ -174,7 +175,7 @@ end
 end 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Hantera arbetsblad (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Hantera kalkylblad (Aspose.Cells)** från någon av nedan nämnda sociala kodbaser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

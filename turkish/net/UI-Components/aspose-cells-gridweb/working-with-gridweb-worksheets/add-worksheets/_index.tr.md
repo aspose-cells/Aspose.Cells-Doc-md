@@ -1,21 +1,24 @@
-﻿---
-title: Çalışma Sayfaları Ekle
+---
+title: Çalışma Sayfaları Eklemek
 type: docs
 weight: 20
-url: /tr/net/add-worksheets/
+url: /tr/net/aspose-cells-gridweb/add-worksheet/
+keywords: GridWeb,add,worksheet,add GridWorksheet
+description: Bu makale, GridWeb e çalışma sayfası (GridWorksheet) eklemenin nasıl yapılacağını tanıtmaktadır.
 ---
+
 {{% alert color="primary" %}} 
 
-Çalışma sayfaları, Aspose.Cells.GridWeb'in ayrılmaz bir parçasıdır. Tüm veriler çalışma sayfaları biçiminde yönetilir ve saklanır. Aspose.Cells.GridWeb, geliştiricilerin Aspose.Cells.GridWeb denetimine bir veya daha fazla çalışma sayfası eklemesine olanak tanır. Bu konuda, Aspose.Cells.GridWeb'e çalışma sayfası eklemeye yönelik basit yaklaşımlar gösterilmektedir.
+Çalışma sayfaları, Aspose.Cells.GridWeb'in ayrılmaz bir parçasıdır. Tüm veriler çalışma sayfaları şeklinde yönetilir ve depolanır. Aspose.Cells.GridWeb, geliştiricilere Aspose.Cells.GridWeb denetimine bir veya daha fazla çalışma sayfası eklemelerine olanak tanır.
 
 {{% /alert %}} 
 ## **Çalışma Sayfası Ekleme**
-### **Sayfa Adını Belirtmeden**
-Aspose.Cells.GridWeb'e bir çalışma sayfası eklemenin en basit yolu, GridWeb denetiminde GridWorksheetCollection koleksiyonunun Add yöntemini çağırmaktır. Bu, varsayılan adları (Sayfa1, Sayfa2, Sayfa3 vb.) kullanan çalışma sayfaları oluşturur ve bunları GridWeb denetimine ekler.
+### **Sayfa Adı Belirtmeden**
+Aspose.Cells.GridWeb'e çalışma sayfası eklemenin en basit yolu, GridWeb denetimindeki GridWorksheetCollection koleksiyonunun Add yöntemini çağırmaktır. Bu, varsayılan adlar (yani Sheet1, Sheet2, Sheet3 vb.) kullanan çalışma sayfaları oluşturur ve bunları GridWeb denetimine ekler.
 
-**Çıktı: GridWeb'e varsayılan ada sahip bir çalışma sayfası eklendi** 
+**Çıktı: varsayılan adlı bir çalışma sayfası, GridWeb'e eklenmiştir** 
 
-![yapılacaklar:resim_alternatif_metin](add-worksheets_1.png)
+![todo:image_alt_text](add-worksheets_1.png)
 
 
 
@@ -23,15 +26,15 @@ Aspose.Cells.GridWeb'e bir çalışma sayfası eklemenin en basit yolu, GridWeb 
 
 {{% alert color="primary" %}} 
 
- Add yöntemi, bu çalışma sayfasının örneğine erişmek için kullanılabilecek yeni çalışma sayfasının dizinini döndürür. Çalışma sayfalarına nasıl erişileceği hakkında daha fazla bilgi için, okuyun[Çalışma Sayfalarına Erişim](/cells/tr/net/access-worksheets/).
+Add yöntemi, yeni çalışma sayfasının dizinini döndürür, bu dizin, bu çalışma sayfasının örneğine erişmek için kullanılabilir. Çalışma sayfalarına nasıl erişileceğiyle ilgili daha fazla bilgi için [Çalışma Sayfalarına Erişim](/cells/tr/net/aspose-cells-gridweb/access-worksheets/) bölümünü okuyun.
 
 {{% /alert %}} 
 ### **Belirtilen Sayfa Adıyla**
-Varsayılan adlandırma düzenini kullanmak yerine GridWeb denetimine belirli bir ada sahip bir çalışma sayfası eklemek için, belirtilen SheetName'i alan Add yönteminin aşırı yüklenmiş bir sürümünü çağırın. Örnek olarak, aşağıdaki örnek Fatura adlı bir çalışma sayfası ekler.
+Varsayılan adlandırma şeması yerine GridWeb denetimine belirli bir isimle bir çalışma sayfası eklemek için Add yönteminin aşırı yüklenmiş bir sürümünü çağırmak gerekmektedir. Örneğin, aşağıdaki örnek, Invoice adında bir çalışma sayfası ekler.
 
-**Çıktı: Belirtilen ada sahip bir çalışma sayfası GridWeb'e eklendi** 
+**Çıktı: belirtilen adlı bir çalışma sayfası, GridWeb'e eklenmiştir** 
 
-![yapılacaklar:resim_alternatif_metin](add-worksheets_2.png)
+![todo:image_alt_text](add-worksheets_2.png)
 
 
 
@@ -39,6 +42,6 @@ Varsayılan adlandırma düzenini kullanmak yerine GridWeb denetimine belirli bi
 
 {{% alert color="primary" %}} 
 
-Çalışma sayfası adını dize olarak kabul eden Add yöntemi, GridWorksheet'in bir örneğini döndürür.
+Dize olarak çalışma sayfası adını alan Add yöntemi, GridWorksheet'in bir örneğini döndürür.
 
 {{% /alert %}}

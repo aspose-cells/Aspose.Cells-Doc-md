@@ -1,56 +1,53 @@
 ---
-title: Écran partagé de la feuille de calcul Excel
-linktitle: Écran divisé
+title: Écran scindé de la feuille de calcul Excel
+linktitle: Écran scindé
 type: docs
 weight: 190
 url: /fr/net/how-to-split-screen-of-excel-worksheet
-description: Dans cet article, vous apprendrez comment afficher certaines lignes et/ou colonnes dans des volets séparés en divisant la feuille de calcul en deux ou quatre parties par programme à l'aide de la bibliothèque C# avec .NET API.
-keywords: Freeze top rows, Feeze top row.
+description: Dans cet article, vous apprendrez comment afficher certaines lignes et/ou colonnes dans des volets séparés en divisant la feuille de calcul en deux ou quatre parties de manière programmatique en utilisant la bibliothèque C# avec l API .NET.
+keywords: Geler les premières lignes, Geler la première ligne.
 ---
-{{% alert color="primary" %}}
 
-Dans cet article, nous apprendrons comment afficher certaines lignes et/ou colonnes dans des volets séparés en divisant la feuille de calcul en deux ou quatre parties.
-Lorsque nous travaillons avec de grands ensembles de données, nous devons voir quelques zones de la même feuille de calcul à la fois pour comparer différents sous-ensembles de données.
-La fonction d'écran partagé peut répondre à vos besoins.
+## **Introduction**
 
-{{% /alert %}}
+Dans cet article, nous allons apprendre comment afficher certaines lignes et/ou colonnes dans des volets séparés en divisant la feuille de calcul en deux ou quatre parties. Lors de la manipulation de grands ensembles de données, nous devons voir quelques zones de la même feuille de calcul à un moment donné pour comparer différents sous-ensembles de données. La fonction de division d'écran peut répondre à vos besoins.
 
-##  **Comment diviser l'écran dans Excel**
-Pour diviser une feuille de calcul en deux ou quatre parties, procédez comme suit :
+## **Comment scinder l'écran dans Excel**
+Pour diviser une feuille de calcul en deux ou quatre parties, procédez comme suit :
 
 1. Sélectionnez la ligne/colonne/cellule avant laquelle vous souhaitez placer la division.
-2. Sous l'onglet Affichage, dans le groupe Windows, cliquez sur le bouton Fractionner.
+2. Sur l'onglet Affichage, dans le groupe Fenêtres, cliquez sur le bouton Fractionner.
 
 **![Écran partagé](Split-Screen.png)**
 
-##  **Diviser la feuille de calcul verticalement sur les colonnes**
+## **Fractionner la feuille de calcul verticalement sur les colonnes**
 
-Pour séparer verticalement deux zones de la feuille de calcul, sélectionnez la colonne à droite de la colonne dans laquelle vous souhaitez que la division apparaisse et cliquez sur le bouton Fractionner dans Excel.
+Pour séparer deux zones de la feuille de calcul verticalement, sélectionnez la colonne à droite de la colonne où vous souhaitez afficher la division et cliquez sur le bouton Fractionner dans Excel.
 
-Il est facile de diviser une feuille de calcul verticalement en colonnes par programme avec Aspose.Cells pour .Net, il suffit de sélectionner une cellule dans la rangée supérieure comme cellule active, puis
-se séparer avec[**Feuille de calcul.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) méthode.
+Il est facile de fractionner la feuille de calcul verticalement sur les colonnes de manière programmée avec Aspose.Cells pour .Net, nous devons uniquement sélectionner une cellule dans la ligne supérieure en tant que cellule active, puis
+fractionner avec la méthode [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Vertically-Split.cs" >}}
 
-##  **Diviser la feuille de calcul horizontalement sur les lignes**
-Pour séparer votre fenêtre Excel horizontalement, sélectionnez la ligne située sous la ligne où vous souhaitez que la division se produise dans Excel.
+## **Fractionner la feuille de calcul horizontalement sur les lignes**
+Pour séparer votre fenêtre Excel horizontalement, sélectionnez la ligne en dessous de la ligne où vous souhaitez que la division se produise dans Excel.
 
-Il est facile de diviser une feuille de calcul horizontalement en lignes par programme avec Aspose.Cells pour .Net, il suffit de sélectionner une cellule dans la colonne de gauche comme cellule active, puis
-se séparer avec[**Feuille de calcul.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) méthode.
+Il est facile de fractionner la feuille de calcul horizontalement sur les lignes de manière programmée avec Aspose.Cells pour .Net, nous devons uniquement sélectionner une cellule dans la colonne de gauche en tant que cellule active, puis
+fractionner avec la méthode [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Horizontally-Split.cs" >}}
 
-##  **Diviser la feuille de calcul en quatre parties**
-Pour afficher simultanément quatre sections différentes de la même feuille de calcul, divisez votre écran verticalement et horizontalement dans Excel.
+## **Fractionner la feuille de calcul en quatre parties**
+Pour afficher quatre sections différentes de la même feuille de calcul simultanément, divisez votre écran à la fois verticalement et horizontalement dans Excel.
 
-Il est facile de diviser une feuille de calcul verticalement en colonnes par programme avec Aspose.Cells pour .Net, il suffit de sélectionner une cellule qui ne se trouve pas dans la première ligne et la première colonne comme cellule active, puis
-se séparer avec[**Feuille de calcul.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) méthode.
+Il est facile de fractionner la feuille de calcul verticalement sur les colonnes de manière programmée avec Aspose.Cells pour .Net, nous devons uniquement sélectionner une cellule qui n'est pas dans la première ligne et la première colonne en tant que cellule active, puis
+fractionner avec la méthode [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Split-Four.cs" >}}
 
-##  **Comment supprimer la scission**
-Pour supprimer le fractionnement de la feuille de calcul, cliquez simplement à nouveau sur le bouton Fractionner.
+## **Comment supprimer la division**
+Pour supprimer la division de la feuille de calcul, il suffit de cliquer à nouveau sur le bouton Fractionner.
 
- Aspose.Cells pour .Net fournit un[**Feuille de calcul.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) méthode pour supprimer le paramètre de partage.
+Aspose.Cells pour .Net fournit une méthode [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) pour supprimer le paramètre de division.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}

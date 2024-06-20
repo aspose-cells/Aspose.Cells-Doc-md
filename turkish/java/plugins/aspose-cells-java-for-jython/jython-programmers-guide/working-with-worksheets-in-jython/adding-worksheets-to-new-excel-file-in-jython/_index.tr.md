@@ -1,15 +1,16 @@
-﻿---
-title: Jython'da Yeni Excel Dosyasına Çalışma Sayfaları Ekleme
+---
+title: Jython da Yeni Excel Dosyasına Çalışsayfa Ekleme
 type: docs
 weight: 10
 url: /tr/java/adding-worksheets-to-new-excel-file-in-jython/
 ---
-## **Aspose.Cells - Çalışma Sayfalarını Yeni Excel'e Ekleme**
- Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
+
+## **Aspose.Cells - Yeni Excel'e Çalışsayfa Ekleme**
+**Aspose.Cells Java for Jython** ile belgeler eklemek için. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -54,6 +55,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belgeleri Ekleyin (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Append Documents (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/AddingWorksheetstoNewExcelFile.py)

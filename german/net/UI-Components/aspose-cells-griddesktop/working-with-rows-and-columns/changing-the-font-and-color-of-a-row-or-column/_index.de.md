@@ -1,26 +1,29 @@
-﻿---
-title: Schriftart und Farbe einer Zeile oder Spalte ändern
+---
+title: Ändern der Schriftart und Farbe einer Zeile oder Spalte
 type: docs
 weight: 110
-url: /de/net/changing-the-font-and-color-of-a-row-or-column/
+url: /de/net/aspose-cells-griddesktop/change-the-font-and-color-of-a-row-or-column/
+keywords: GridDesktop, Schriftart, Farbe
+description: Dieser Artikel zeigt, wie die Schriftart und Farbe in einer Zeile oder Spalte in GridDesktop geändert werden können.
 ---
+
 {{% alert color="primary" %}} 
 
-In diesem Thema besprechen wir das Ändern der Schriftart und Schriftfarbe von Zeilen und Spalten eines Arbeitsblatts. Dies ist eine grundlegende Ebene der Formatierungsfunktion, die von Aspose.Cells.GridDesktop angeboten wird und es Entwicklern ermöglicht, die Ansicht ihrer Arbeitsblätter anzupassen, um sie präsentabler zu machen.
+In diesem Thema werden wir darüber diskutieren, wie die Schriftart und Schriftfarbe von Zeilen und Spalten eines Arbeitsblatts geändert werden können. Dies ist eine grundlegende Formatierungsfunktion, die von Aspose.Cells.GridDesktop angeboten wird und Entwicklern ermöglicht, die Ansicht ihrer Arbeitsblätter anzupassen, um sie ansprechender zu gestalten.
 
 {{% /alert %}} 
-## **Schriftart und Farbe einer Spalte ändern**
-Um die Schriftart und Farbe einer Spalte mit Aspose.Cells.GridDesktop zu ändern, gehen Sie bitte wie folgt vor:
+## **Ändern der Schriftart und Farbe einer Spalte**
+Um die Schriftart und Farbe einer Spalte mit Aspose.Cells.GridDesktop zu ändern, befolgen Sie bitte die folgenden Schritte:
 
--  Greifen Sie beliebig zu**Arbeitsblatt**
--  Zugriff a**Spalte** dessen Schriftart und Farbe geändert werden soll
--  Erstellen Sie eine angepasste**Schriftart**
--  Stellen Sie die ein**Schriftart** des**Spalte** zum Maßgeschneiderten
--  Endlich einstellen**Schriftfarbe** des**Spalte** zu jedem gewünschten**Farbe**
+- Greifen Sie auf jedes gewünschte **Arbeitsblatt** zu
+- Zugriff auf eine **Spalte**, deren Schriftart und Farbe geändert werden sollen
+- Erstellen Sie eine angepasste **Schriftart**
+- Legen Sie die **Schriftart** der **Spalte** auf die angepasste ein
+- Legen Sie abschließend die **Schriftfarbe** der **Spalte** auf eine beliebige **Farbe** fest
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 
@@ -43,16 +46,16 @@ column.SetFont(font);
 column.SetFontColor(Color.Blue);
 
 {{< /highlight >}}
-## **Schriftart und Farbe einer Zeile ändern**
--  Greifen Sie beliebig zu**Arbeitsblatt**
--  Zugriff a**Reihe** dessen Schriftart und Farbe geändert werden soll
--  Erstellen Sie eine angepasste**Schriftart**
--  Stellen Sie die ein**Schriftart** des**Reihe** zum Maßgeschneiderten
--  Endlich einstellen**Schriftfarbe** des**Reihe** zu jedem gewünschten**Farbe**
+## **Ändern der Schriftart und Farbe einer Zeile**
+- Greifen Sie auf jedes gewünschte **Arbeitsblatt** zu
+- Zugriff auf eine **Zeile**, deren Schriftart und Farbe geändert werden sollen
+- Erstellen Sie eine angepasste **Schriftart**
+- Legen Sie die **Schriftart** der **Zeile** auf die angepasste ein
+- Legen Sie abschließend die **Schriftfarbe** der **Zeile** auf eine beliebige **Farbe** fest
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 

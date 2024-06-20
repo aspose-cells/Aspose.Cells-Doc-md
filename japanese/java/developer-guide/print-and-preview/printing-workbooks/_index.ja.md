@@ -1,43 +1,44 @@
-﻿---
+---
 title: ワークブックの印刷
 type: docs
 weight: 20
 url: /ja/java/printing-workbooks/
-description: この記事では、Aspose.Cells for Java API を使用してワークシートとブックを印刷する Java コードを提供します。
-keywords: printing workbooks, printing worksheets, printing workbook sheets, printing a workbook, printing workbook java, printing worksheets java, printing excel workbook java, print excel worksheet java, print workbook, print worksheet
+description: Javaを使用してワークシートおよびワークブックを印刷する方法。この記事では、Aspose.Cells for Java APIを使用してワークシートおよびワークブックを印刷するためのJavaコードを提供します。
+keywords: ワークブックの印刷、ワークシートの印刷、ワークブックシートの印刷、ワークブックの印刷、ワークブックの印刷Java、ワークシートの印刷Java、エクセルワークブックの印刷Java、エクセルワークシートの印刷Java、ワークブックの印刷、ワークシートの印刷
 ---
+
 {{% alert color="primary" %}}
 
-このドキュメントは、開発者がスプレッドシートを印刷する方法を (簡潔に) 理解できるようにすることを目的としています。
+このドキュメントは、開発者にスプレッドシートの印刷方法についての理解を提供するために設計されています。
 
 {{% /alert %}}
 
-## 利用シーン
+## 使用シナリオ
 
-スプレッドシートの作成が完了したら、必要に応じてシートのハード コピーを印刷することをお勧めします。印刷するとき、MS Excel は、選択を指定しない限り、ワークシート領域全体を印刷すると想定します。次のスクリーンショットは、Excel でワークブックを印刷するためのダイアログ ボックスを示しています。
+スプレッドシートの作成が完了したら、必要に応じてシートの印刷を行いたいと思うでしょう。印刷時、MS Excelは選択を指定しない限り、ワークシート全体を印刷したいと仮定します。以下のスクリーンショットはExcelでワークブックを印刷するためのダイアログボックスを示しています。
 
-![todo:画像_代替_文章](printing-workbooks_1.png)
+![todo:image_alt_text](printing-workbooks_1.png)
 
-**形：**印刷ダイアログボックス
+**図:** 印刷ダイアログボックス
 
-## Aspose.Cells を使用したワークブックの印刷
+## Aspose.Cellsを使用したワークブックの印刷
 
-Aspose.Cells for Java は、[**プリンターへ**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String) の方法[**シートレンダリング**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)クラス。を使用することにより、[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)) メソッドでは、印刷ジョブ名だけでなくプリンター名も指定できます。
+Aspose.Cells for Javaは[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)クラスの[**toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))メソッドを提供します。[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))メソッドを使用することで、プリンター名および印刷ジョブ名を指定できます。
 
 ## サンプルコード
 
-### 選択したワークシートを印刷
+### 選択したワークシートの印刷
 
-次のコード スニペットは、[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)メソッドを使用して、選択したワークシートを印刷します。
+[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String))メソッドを使用して選択したワークシートを印刷する使用例を次に示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingSelectedWorksheet-PrintingSelectedWorksheet.java" >}}
 
-### ワークブック全体を印刷
+### ワークブック全体の印刷
 
-また、[**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String) ) ワークブック全体を印刷するメソッド。次のコード スニペットは、[**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String)) ワークブック全体を印刷するメソッド。
+[**WorkbookRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String))メソッドを使用してワークブック全体を印刷する使用例を次に示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
 
 ## 関連記事
 
-- [Aspose.Cells で印刷中にジョブまたはドキュメント名を指定する](/cells/ja/java/specify-job-or-document-name-while-printing-with-aspose-cells/)
+- [Aspose.Cellsを使用して印刷時にジョブまたは文書名を指定する](/cells/ja/java/specify-job-or-document-name-while-printing-with-aspose-cells/)

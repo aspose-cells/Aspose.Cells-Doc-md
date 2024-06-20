@@ -1,49 +1,50 @@
-﻿---
-title: Legen Sie bedingte Formate von Excel- und ODS-Dateien fest.
+---
+title: Setzen Sie bedingte Formate in Excel und ODS Dateien.
 linktitle: Bedingte Formate
 type: docs
 weight: 60
 url: /de/net/conditional-formatting/
-description: So wenden Sie bedingte Formate auf Excel- und ODS-Dateien in CSharp an.
-keywords: apply conditional formats 
+description: Wie man bedingte Formate auf Excel und ODS Dateien in CSharp anwendet.
+keywords: bedingte Formate anwenden 
 ---
+
 ## **Einführung**
 
- Die bedingte Formatierung ist eine erweiterte Microsoft Excel-Funktion, mit der Sie Formate auf eine Zelle oder einen Zellbereich anwenden und diese Formatierung abhängig vom Wert der Zelle oder dem Wert einer Formel ändern können. Beispielsweise können Sie eine Zelle nur dann fett darstellen lassen, wenn der Wert der Zelle größer als 500 ist. Wenn der Wert der Zelle die Bedingung erfüllt, wird das angegebene Format auf die Zelle angewendet. Wenn der Wert der Zelle die Formatbedingung nicht erfüllt, wird die Standardformatierung der Zelle verwendet. Wählen Sie in Microsoft Excel aus**Format** , dann**Bedingte Formatierung** , um das Dialogfeld „Bedingte Formatierung“ zu öffnen.
+Bedingte Formatierung ist eine erweiterte Funktion von Microsoft Excel, die es ermöglicht, Formate auf eine Zelle oder einen Zellenbereich anzuwenden und diese Formatierung abhängig vom Wert der Zelle oder vom Wert einer Formel zu ändern. Zum Beispiel können Sie eine Zelle fett gedruckt anzeigen lassen, nur wenn der Wert der Zelle größer als 500 ist. Wenn der Wert der Zelle der Bedingung entspricht, wird das angegebene Format auf die Zelle angewendet. Wenn der Wert der Zelle nicht der Formatbedingung entspricht, wird das Standardformat der Zelle verwendet. In Microsoft Excel wählen Sie **Format** und dann **Bedingte Formatierung**, um den Dialog für die bedingte Formatierung zu öffnen.
 
-Aspose.Cells unterstützt die Anwendung von bedingter Formatierung auf Zellen zur Laufzeit. Dieser Artikel erklärt, wie. Außerdem wird erläutert, wie die von Excel für die bedingte Formatierung der Farbskala verwendete Farbe berechnet wird.
+Aspose.Cells unterstützt die Anwendung von bedingten Formatierungen auf Zellen zur Laufzeit. Dieser Artikel erklärt wie. Er erklärt auch, wie die von Excel für die bedingte Formatierung mit Farbskala verwendete Farbe berechnet wird.
 
-## **Bedingte Formatierung anwenden**
+## **Anwendung von bedingten Formaten**
 
-Aspose.Cells unterstützt die bedingte Formatierung auf verschiedene Weise:
+Aspose.Cells unterstützt bedingte Formatierungen auf verschiedene Weise:
 
-- Verwenden von Designer-Tabellenkalkulationen
-- Verwenden der Kopiermethode.
-- Bedingte Formatierung zur Laufzeit erstellen.
+- Verwenden der Designer-Tabelle
+- Verwenden der Kopiermethode
+- Erstellen bedingter Formatierungen zur Laufzeit
 
-### **Verwenden von Designer-Tabellenkalkulation**
+### **Verwenden der Designer-Tabelle**
 
-Entwickler können ein Designer-Arbeitsblatt mit bedingter Formatierung in Microsoft Excel erstellen und dieses Arbeitsblatt dann mit Aspose.Cells öffnen. Aspose.Cells lädt und speichert das Designer-Arbeitsblatt, wobei alle Einstellungen für die bedingte Formatierung beibehalten werden.
+Entwickler können eine Designer-Tabelle erstellen, die bedingte Formatierungen in Microsoft Excel enthält, und dann diese Tabelle mit Aspose.Cells öffnen. Aspose.Cells lädt und speichert die Designer-Tabelle und behält dabei alle bedingten Formatierungseinstellungen bei.
 
 ### **Verwenden der Kopiermethode**
 
- Aspose.Cells ermöglicht es Entwicklern, bedingte Formateinstellungen von einer Zelle in eine andere im Arbeitsblatt zu kopieren, indem sie die[**Range.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) Methode.
+Aspose.Cells ermöglicht Entwicklern, bedingte Formatierungseinstellungen von einer Zelle auf eine andere im Arbeitsblatt zu kopieren, indem sie die Methode [**Range.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) aufrufen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-UsingCopyMethod-1.cs" >}}
 
-## **Anwenden der bedingten Formatierung zur Laufzeit**
+## **Bedingte Formatierung zur Laufzeit anwenden**
 
-Aspose.Cells können Sie bedingte Formatierung zur Laufzeit hinzufügen und entfernen. Die folgenden Codebeispiele zeigen, wie Sie die bedingte Formatierung festlegen:
+Mit Aspose.Cells können Sie bedingte Formatierungen zur Laufzeit sowohl hinzufügen als auch entfernen. Die unten stehenden Codebeispiele zeigen, wie bedingte Formatierungen festgelegt werden:
 
-1. Instanziieren Sie eine Arbeitsmappe.
-1. Fügen Sie ein leeres bedingtes Format hinzu.
-1. Legen Sie den Bereich fest, für den die Formatierung gelten soll.
+1. Instanziieren Sie ein Arbeitsbuch.
+1. Fügen Sie eine leere bedingte Formatierung hinzu.
+1. Legen Sie den Bereich fest, auf den die Formatierung angewendet werden soll.
 1. Definieren Sie die Formatierungsbedingungen.
-1. Speicher die Datei.
+1. Speichern Sie die Datei.
 
-Nach diesem Beispiel folgen einige weitere kleinere Beispiele, die zeigen, wie Schrifteinstellungen, Rahmeneinstellungen und Muster angewendet werden.
+Nach diesem Beispiel folgen mehrere kleinere Beispiele, die zeigen, wie Schriftart-Einstellungen, Rand-Einstellungen und Muster angewendet werden.
 
-Microsoft Excel 2007 hat erweiterte bedingte Formatierung hinzugefügt, die Aspose.Cells ebenfalls unterstützt. Die Beispiele hier veranschaulichen, wie einfache Formatierung verwendet wird, die Microsoft Excel 2007-Beispiele zeigen, wie fortgeschrittenere bedingte Formatierung angewendet wird.
+Microsoft Excel 2007 hat eine erweiterte bedingte Formatierung hinzugefügt, die auch von Aspose.Cells unterstützt wird. Die hier aufgeführten Beispiele zeigen, wie einfache Formatierungen verwendet werden. Die Beispiele für Microsoft Excel 2007 zeigen, wie erweiterte bedingte Formatierungen angewendet werden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormattingatRuntime-1.cs" >}}
 
@@ -53,29 +54,29 @@ Microsoft Excel 2007 hat erweiterte bedingte Formatierung hinzugefügt, die Aspo
 
 {{% alert color="primary" %}}
 
-Sie können nur den Schriftstil, die Textfarbe, den Unterstreichungsstil und den Durchstreichungsstil ändern.
+Sie können nur die Schriftart, die Textfarbe, den Unterstrichstil und den Durchstreichstil ändern.
 
 {{% /alert %}}
 
-### **Grenze setzen**
+### **Rahmen festlegen**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SetBorder-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Sie können nur dünne Linienstile für den Umrissrand verwenden. Diagonale Linien sind nicht erlaubt.
+Sie können nur dünnere Linienstile für den äußeren Rahmen verwenden. Diagonale Linien sind nicht erlaubt.
 
 {{% /alert %}}
 
-### **Muster setzen**
+### **Muster festlegen**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SetPattern-1.cs" >}}
 
-## **Themen vorantreiben**
-- [Bedingte Formatierungen für 2-Farben-Skala und 3-Farben-Skala hinzufügen](/cells/de/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
-- [Wenden Sie die erweiterte bedingte Formatierung an](/cells/de/net/apply-advanced-conditional-formatting/)
-- [Wenden Sie bedingte Formatierung in Arbeitsblättern an](/cells/de/net/apply-conditional-formatting-in-worksheets/)
-- [Wenden Sie Schattierung auf abwechselnde Zeilen und Spalten mit bedingter Formatierung an](/cells/de/net/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
-- [Generieren Sie DataBars-Bilder mit bedingter Formatierung](/cells/de/net/generate-conditional-formatting-databars-images/)
-- [Holen Sie sich Symbolsätze, Datenbalken oder Farbskalenobjekte, die in der bedingten Formatierung verwendet werden](/cells/de/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
+## **Erweiterte Themen**
+- [Hinzufügen von 2-Farben-Skalen und 3-Farben-Skalen bedingter Formatierungen](/cells/de/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/)
+- [Erweiterte bedingte Formatierung anwenden](/cells/de/net/apply-advanced-conditional-formatting/)
+- [Bedingte Formatierung in Arbeitsblättern anwenden](/cells/de/net/apply-conditional-formatting-in-worksheets/)
+- [Abwechselnde Zeilen und Spalten mit bedingter Formatierung schattieren](/cells/de/net/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/)
+- [Generieren von Datenleistungsimages für bedingte Formatierungen](/cells/de/net/generate-conditional-formatting-databars-images/)
+- [Erhalten von Symbolsets, Datenleisten oder Farbskalenobjekten, die bei der bedingten Formatierung verwendet werden](/cells/de/net/get-icon-sets-data-bars-or-color-scales-objects-used-in-conditional-formatting/)
 

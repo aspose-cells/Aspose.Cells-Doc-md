@@ -1,11 +1,12 @@
 ---
-title: Hitta eller sök data
+title: Hitta eller söka data
 type: docs
 weight: 80
 url: /sv/cpp/find-or-search-data/
 ---
-##  **Hitta eller sök data**
-Du kan använda Aspose.Cells för att hitta eller söka efter data på olika sätt med följande metod.
+
+## **Hitta eller Sök Data**
+Du kan använda Aspose.Cells för att hitta eller söka data på olika sätt med hjälp av följande metod.
 
 - [GetEnumerator](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getenumerator/)
 - [GetFormula](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getformula/)
@@ -17,19 +18,19 @@ Du kan använda Aspose.Cells för att hitta eller söka efter data på olika sä
 - [GetDoubleValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetDoubleValue/)
 - [GetFloatValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetFloatValue/)
 
- Se[Mer](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) metoder.
+Se [more](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) metoder.
 
- Följande exempelkod illustrerar användningen av ovanstående metoder med hjälp av[exempel på excel-fil](21266434.xlsx) som visas i denna skärmdump.
+Följande exempelkod illustrerar användningen av ovanstående metoder med hjälp av den [exempel excelfilen](21266434.xlsx) som visas på denna skärmbild.
 
 ![todo:image_alt_text](find-or-search-data_1.png)
-##  **Exempelkod**
+## **Exempelkod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-FindOrSearchData-new.cpp" >}}
-##  **Konsolutgång**
- Detta är konsolutgången för ovanstående exempelkod när den körs med den givna[exempel på excel-fil](21266434.xlsx).
+## **Konsoloutput**
+Detta är konsoloutputen av ovanstående exempelkod vid körning med den angivna [exempel excelfilen](21266434.xlsx).
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Name of the cell containing formula =SUM(A5:A10): C6
 Name of the cell containing the formula that contains CHA: C7

@@ -1,20 +1,21 @@
 ---
-title: Wenden Sie bedingte Formatierung im Arbeitsblatt an
+title: Bedingte Formatierung im Arbeitsblatt anwenden
 type: docs
 weight: 40
 url: /de/cpp/apply-conditional-formatting-in-worksheet/
 ---
-##  **Mögliches Nutzungsszenario**
- Mit Aspose.Cells können Sie alle Arten von bedingter Formatierung hinzufügen, z. B. Formel, Überdurchschnittlich, Farbskala, Datenbalken, Symbolsatz, Top10 usw. Es bietet die[FormatBedingung](https://reference.aspose.com/cells/cpp/aspose.cells/formatcondition/)Klasse, die über alle notwendigen Methoden verfügt, um eine bedingte Formatierung Ihrer Wahl anzuwenden. Hier ist die Liste einiger Get-Methoden.
+
+## **Mögliche Anwendungsszenarien**
+Aspose.Cells ermöglicht es Ihnen, alle Arten von bedingter Formatierung wie Formel, Über Durchschnitt, Farbskala, Datenleiste, Symbolset, Top 10 usw. hinzuzufügen. Es stellt die Klasse [FormatCondition](https://reference.aspose.com/cells/cpp/aspose.cells/formatcondition/) zur Verfügung, die alle notwendigen Methoden zum Anwenden der gewünschten bedingten Formatierung enthält. Hier ist eine Liste einiger Get-Methoden.
 
 - [GetAboveAverage()](https://reference.aspose.com/cells/cpp/aspose.cells/formatcondition/getaboveaverage/)
 - [GetColorScale()](https://reference.aspose.com/cells/cpp/aspose.cells/formatcondition/getcolorscale)
 - [GetDataBar()](https://reference.aspose.com/cells/cpp/aspose.cells/formatcondition/getdatabar)
 - [GetIconSet()](https://reference.aspose.com/cells/cpp/aspose.cells/formatcondition/geticonset)
 - [GetTop10()](https://reference.aspose.com/cells/cpp/aspose.cells/formatcondition/gettop10)
-##  **Wenden Sie bedingte Formatierung im Arbeitsblatt an**
- Der folgende Beispielcode zeigt, wie man den Zellen A1 und B2 eine bedingte Formatierung mit dem Wert „Cell“ hinzufügt. Bitte sehen Sie sich ... an[Excel-Datei ausgeben](23167004.xlsx) generiert durch den Code und den folgenden Screenshot, der die Auswirkung des Codes auf die erläutert[Excel-Datei ausgeben](23167004.xlsx)Wenn Sie in die Zellen A2 und B2 einen Wert über 100 eingeben, verschwindet die rote Füllfarbe aus den Zellen A1 und B2.
+## **Bedingte Formatierung auf Arbeitsblatt anwenden**
+Der folgende Beispielcode zeigt, wie eine bedingte Formatierung des Zellwerts in den Zellen A1 und B2 hinzugefügt werden kann. Bitte beachten Sie die durch den Code generierte [Ausgabedatei](23167004.xlsx) und den folgenden Screenshot, der die Wirkung des Codes auf die [Ausgabedatei](23167004.xlsx) erläutert. Wenn Sie einen Wert in Zelle A2 und B2 eingeben, der größer als 100 ist, wird die rote Füllfarbe in Zelle A1 und B2 verschwinden.
 
 ![todo:image_alt_text](apply-conditional-formatting-in-worksheet_1.png)
-##  **Beispielcode**
+## **Beispielcode**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-ApplyConditionalFormattingInWorksheet-new.cpp" >}}

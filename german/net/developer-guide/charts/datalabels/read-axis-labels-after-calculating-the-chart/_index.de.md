@@ -1,26 +1,27 @@
 ---
-title: Lesen Sie die Achsenbeschriftungen nach der Berechnung des Diagramms
-description: Erfahren Sie, wie Sie Achsenbeschriftungen in Aspose.Cells for .NET lesen, nachdem Sie das Diagramm berechnet haben. Unser Leitfaden zeigt Ihnen, wie Sie auf Achsenbeschriftungen zugreifen und diese abrufen, einschließlich ihrer Formatierung und Positionierung.
-keywords: Aspose.Cells for .NET, chart, axis labels, calculation, reading, accessing, retrieving, formatting, positioning.
+title: Achsenbeschriftungen nach Berechnen des Diagramms lesen
+description: Erfahren Sie, wie Sie nach Berechnen des Diagramms die Achsenbeschriftungen in Aspose.Cells for .NET lesen. Unsere Anleitung zeigt Ihnen, wie Sie auf Achsenbeschriftungen zugreifen und diese abrufen können, einschließlich ihrer Formatierung und Positionierung.
+keywords: Aspose.Cells for .NET, Diagramm, Achsenbeschriftungen, Berechnung, Lesen, Zugriff, Abrufen, Formatierung, Positionierung.
 type: docs
 weight: 90
 url: /de/net/read-axis-labels-after-calculating-the-chart/
 ---
-##  **Mögliche Nutzungsszenarien**
 
-Sie können Achsenbeschriftungen Ihres Diagramms lesen, nachdem Sie dessen Werte mithilfe von berechnet haben[**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/calculate/)Methode. Bitte nutzen Sie die[**Axis.GetAxisTexts()**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/getaxistexts/) Methode für diesen Zweck, die die Liste der Achsenbeschriftungen zurückgibt.
+## **Mögliche Verwendungsszenarien**
 
-##  **Lesen Sie die Achsenbeschriftungen nach der Berechnung des Diagramms**
+Sie können die Achsenbeschriftungen Ihres Diagramms nach Berechnen seiner Werte mit der Methode [**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/calculate/) lesen. Verwenden Sie für diesen Zweck die Methode [**Axis.GetAxisTexts()**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/getaxistexts/), die die Liste der Achsenbeschriftungen zurückgibt.
 
-Bitte sehen Sie sich den folgenden Beispielcode an, der das lädt[Beispiel-Excel-Datei](ReadAxisLabels.xlsx)und liest die Kategorieachsenbeschriftungen des Diagramms im ersten Arbeitsblatt. Anschließend werden die Werte der Achsenbeschriftungen auf der Konsole gedruckt. Eine Referenz finden Sie in der Konsolenausgabe des unten angegebenen Beispielcodes.
+## **Lesen Sie die Achsenbeschriftungen nach der Berechnung des Diagramms**
 
-##  **Beispielcode**
+Siehe bitte den folgenden Beispielcode, der die [Beispieldatei für Excel](ReadAxisLabels.xlsx) lädt und die Kategorienachsenbeschriftungen des Diagramms im ersten Arbeitsblatt liest. Anschließend werden die Werte der Achsenbeschriftungen in der Konsole ausgegeben. Bitte sehen Sie sich die Konsolenausgabe des untenstehenden Beispielcodes als Referenz an.
+
+## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Charts-ReadAxisLabelsAfterCalculatingTheChart.cs" >}}
 
-##  **Konsolenausgabe**
+## **Konsolenausgabe**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Category Axis Labels:
 

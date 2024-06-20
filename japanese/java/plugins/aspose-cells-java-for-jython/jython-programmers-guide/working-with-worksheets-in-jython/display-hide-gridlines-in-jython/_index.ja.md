@@ -1,15 +1,16 @@
-﻿---
-title: Jython でグリッド線を非表示にする
+---
+title: Jythonでグリッド線を表示/非表示
 type: docs
 weight: 30
 url: /ja/java/display-hide-gridlines-in-jython/
 ---
-## **Aspose.Cells - 表示非表示グリッド線**
-を使用してドキュメントを追加するには**Aspose.Cells Jython の場合は Java**.ここでサンプルコードを見ることができます。
 
-**Jython コード**
+## **Aspose.Cells - グリッド線を表示/非表示**
+**Aspose.Cells Java for Jython**を使用してドキュメントを追加します。ここでは例を示します。
 
-{{< highlight "java" >}}
+**Jythonコード**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -53,7 +54,7 @@ if __name__ == '__main__':
     DisplayHideGridlines()
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**添付書類 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に示すいずれかのソーシャルコーディングサイトから**Aspose.Cellsのドキュメントを追加する**をダウンロード:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/DisplayHideGridlines.py)

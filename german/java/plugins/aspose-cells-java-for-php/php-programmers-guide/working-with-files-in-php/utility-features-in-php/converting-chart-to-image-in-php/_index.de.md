@@ -1,15 +1,16 @@
-﻿---
-title: Konvertieren von Diagrammen in Bilder in PHP
+---
+title: Diagramm in Bild konvertieren in PHP
 type: docs
 weight: 10
 url: /de/java/converting-chart-to-image-in-php/
 ---
+
 ## **Aspose.Cells - Diagramm in Bild umwandeln**
-Um ein Diagramm mit Aspose.Cells for Java in PHP in ein Bild umzuwandeln, rufen Sie einfach das Konvertermodul auf.
+Um ein Diagramm in Bild mit Aspose.Cells for Java in PHP zu konvertieren, rufen Sie einfach das Converter-Modul auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $chartType = new ChartType();
 
@@ -140,7 +141,7 @@ $chart->toImage($fs, $imgOpts);
 $fs->close();  
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Diagramm in Bild umwandeln (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie die Umwandlung des Diagramms in Bild (Aspose.Cells) von einer der unten aufgeführten sozialen Coding-Sites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ChartToImage.php)

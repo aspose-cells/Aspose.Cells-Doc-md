@@ -1,45 +1,43 @@
 ---
-title: Congelar las filas superiores de la hoja de cálculo de Excel
-linktitle: Congelar filas
+title: Congelar la(s) fila(s) superior(es) de la hoja de cálculo de Excel
+linktitle: Congelar Filas
 type: docs
 weight: 190
 url: /es/net/how-to-freeze-rows-of-excel-worksheet
-description: En este artículo, aprenderá cómo congelar las filas superiores de hojas de cálculo de Excel mediante programación utilizando la biblioteca C# con .NET API.
-keywords: Freeze top rows, Feeze top row.
+description: En este artículo, aprenderás cómo congelar las filas superiores de las hojas de cálculo de Excel programáticamente utilizando la Biblioteca C# con API .NET.
+keywords: Congelar filas superiores, congelar fila superior.
 ---
-{{% alert color="primary" %}}
 
-En este artículo, aprenderemos cómo congelar las filas superiores.
-Cuando tiene una gran cantidad de datos bajo un encabezado común, no puede ver el encabezado cuando se desplaza hacia abajo en la hoja de trabajo. Puede congelar las filas superiores para poder ver esa parte congelada incluso cuando se desplaza el resto de los datos. Puede ver fácilmente los encabezados en las filas superiores.
+## **Introducción**
 
-{{% /alert %}}
+En este artículo, aprenderemos cómo congelar la(s) fila(s) superior(es). Cuando tienes una gran cantidad de datos bajo un encabezado común, es imposible ver el encabezado al desplazarte hacia abajo en la hoja de cálculo. Puedes congelar la(s) fila(s) superior(es) para poder ver esa porción congelada incluso al desplazarte por el resto de los datos. Podrás ver fácilmente los encabezados en las filas superiores.
 
-##  **Congelar filas en Excel**
+## **Congelar Filas en Excel**
 
 **![Congelar fila(s) superior(es) en Excel](Freeze-Rows.png)**
 
 
-1. Si desea congelar las filas superiores, primero seleccione la fila debajo de la fila que necesita congelarse.
-2. Haga clic en Ver > Congelar paneles.
-3. En el menú desplegable, haga clic en Congelar fila superior.
-4. Si se desplaza hacia abajo, la primera fila siempre está en la vista superior.
+1. Si deseas congelar la(s) fila(s) superior(es), primero selecciona la fila debajo de la fila que necesita ser congelada.
+2. Haz clic en Ver > Congelar paneles.
+3. En el menú desplegable, haz clic en Congelar fila superior.
+4. Si te desplazas hacia abajo, la primera fila siempre estará en la vista superior.
 
-**![Fila Fonzen](Frozen-Row.png)**
+**![Fila congelada](Frozen-Row.png)**
 
-Como puede ver, la primera fila está congelada, la primera fila siempre permanece en la parte superior de la vista cuando se desplaza hacia abajo.
+Como puedes ver, la 1ra fila está congelada, la primera fila siempre permanece en la parte superior de la vista al desplazarte hacia abajo.
 
-Freeze Rows le permite ver su gran cantidad de datos sin realizar un seguimiento de la etiqueta de la fila.
-
-
+Congelar filas te permite ver tus datos grandes sin necesidad de hacer un seguimiento de las etiquetas de fila.
 
 
-##  **Congelar filas con Aspose.Cells para .Net**
- Es sencillo congelar filas con Aspose.Cells para .Net.
- Por favor use el[**Hoja de trabajo.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/)Método para dividir las filas en la fila seleccionada.
-1. Construya un libro de trabajo para abrir el archivo o crear un archivo vacío.
-2. Congele la primera fila con el método Worksheet.FreezePanes().
-3. Guarde el archivo.
+
+
+## **Congelar filas con Aspose.Cells para .Net**
+Es fácil congelar fila(s) con Aspose.Cells para .Net. 
+Por favor, use el método [**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/) para congelar fila(s) en la fila seleccionada.
+1. Construir un libro de trabajo para abrir el archivo o crear un archivo vacío.
+2. Congelar la primera fila con el método Worksheet.FreezePanes().
+3. Guarda el archivo.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Row.cs" >}}
 
- Adjunto[archivo Excel fuente de muestra](../Freeze.xlsx).
+Adjunto [archivo de Excel de muestra](../Freeze.xlsx).

@@ -5,6 +5,7 @@ type: docs
 weight: 140
 url: /zh/net/assign-and-validate-digital-signatures/
 description: Excel 文件数字签名、验证。为了保护 Excel 文件的内容的真实性，您可以使用 Aspose.Cells for .Net 中的 C# 代码添加数字签名。
+keywords: Excel文件数字签名，为Excel添加数字签名，验证数字签名的方法。
 ---
 
 {{% alert color="primary" %}}
@@ -16,6 +17,8 @@ description: Excel 文件数字签名、验证。为了保护 Excel 文件的内
 ## **介绍**
 
 使用数字签名对话框附加数字签名。数字签名对话框列出有效的证书。您可以使用数字签名对话框查看证书并选择要使用的证书。如果工作簿有数字签名，签名的名称会出现在 **证书名称** 栏中。如果在数字签名对话框中点击 **删除** 按钮，Microsoft Excel 也会删除数字签名。
+
+## **如何为Excel添加数字签名**
 
 Aspose.Cells 提供 [**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature) 命名空间来执行分配和验证数字签名的工作。该命名空间具有一些添加和验证数字签名的有用功能。
 

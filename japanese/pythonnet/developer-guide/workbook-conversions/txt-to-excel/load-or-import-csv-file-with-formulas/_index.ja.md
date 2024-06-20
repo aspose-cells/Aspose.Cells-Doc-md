@@ -1,20 +1,21 @@
 ---
-title: 数式を含む CSV ファイルをロードまたはインポートする
+title: 数式を持つCSVファイルを読み込むまたはインポートする
 type: docs
 weight: 350
 url: /ja/python-net/load-or-import-csv-file-with-formulas/
-description: Aspose.Cells for Python via .NET API を使用して、数式を含む CSV ファイルをロードまたはインポートします。
-keywords: Python Load or Import CSV file with Formulas, Convert CSV with Formulas to Excel in Python via NET, Python convert CSV with Formulas to xlsx, Load CSV with Formulas to Excel file.
+description: Aspose.Cells for Python via .NET APIを使用して、CSVファイルに数式を含む場合の読み込みまたはインポート
+keywords: 数式付きのCSVファイルをロードまたはインポートするPython via NET、数式付きのCSVをExcelに変換する、数式付きのCSVをExcelファイルに変換する。
 ---
+
 {{% alert color="primary" %}} 
 
- CSV ファイルにはほとんどのテキスト データが含まれており、数式は含まれていません。ただし、CSV ファイルに数式が含まれる場合もあります。このような CSV ファイルは、[TxtLoadOptions.has_formula](https://reference.aspose.com/cells/python-net/aspose.cells/txtloadoptions/has_formula/) *本当**として。このプロパティが *true** に設定されると、Aspose.Cells は数式を単純なテキストとして扱いません。これらは数式として扱われ、Aspose.Cells 数式計算エンジンは通常どおり処理します。
+CSVファイルには通常、テキストデータが含まれており、数式は含まれません。ただし、時々CSVファイルに数式が含まれていることがあります。このようなCSVファイルは、[TxtLoadOptions.has_formula](https://reference.aspose.com/cells/python-net/aspose.cells/txtloadoptions/has_formula/)を**true**に設定してロードする必要があります。このプロパティを**true**に設定すると、Aspose.Cellsは数式を通常のテキストではなく数式として扱います。Aspose.Cellsの数式計算エンジンが通常通り処理します。
 
 {{% /alert %}} 
 
-次のコードは、数式を含む CSV ファイルをロードおよびインポートする方法を示しています。任意の CSV ファイルを使用できます。説明のために、以下を使用します。[単純なcsvファイル](5115034.csv)このデータが含まれています。ご覧のとおり、式が含まれています。
+以下のコードは、数式を含むCSVファイルをロードおよびインポートする方法を示しています。任意のCSVファイルを使用できます。例として、このようなデータを含む[シンプルなcsvファイル](5115034.csv)を使用しています。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  300,500,=Sum(A1:B1)
 
@@ -24,7 +25,7 @@ keywords: Python Load or Import CSV file with Formulas, Convert CSV with Formula
 
 
 
-このコードは、最初に CSV ファイルをロードし、それからセル D4 に再度インポートします。最後に、ワークブック オブジェクトを XSLX 形式で保存します。の[出力XLSXファイル](5115052.xlsx)このように見えます。ご覧のとおり、セル C3 と F4 には数式とその結果 800 が含まれています。
+コードはまずCSVファイルをロードし、次にセルD4に再度インポートします。最後に、ワークブックオブジェクトをXSLX形式で保存します。[出力XLSXファイル](5115052.xlsx)は次のようになります。セルC3とF4に数式とその結果800が含まれていることがわかります。
 
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |

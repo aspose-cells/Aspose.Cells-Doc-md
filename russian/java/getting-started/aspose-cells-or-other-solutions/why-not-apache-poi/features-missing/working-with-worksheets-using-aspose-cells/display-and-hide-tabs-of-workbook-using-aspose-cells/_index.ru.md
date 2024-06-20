@@ -1,15 +1,16 @@
-﻿---
-title: Отображение и скрытие вкладок книги с помощью Aspose.Cells
+---
+title: Показать и скрыть вкладки книги с помощью Aspose.Cells
 type: docs
 weight: 50
 url: /ru/java/display-and-hide-tabs-of-workbook-using-aspose-cells/
 ---
-## **Aspose.Cells - Показать и скрыть вкладки книги**
-Aspose.Cells предоставляет класс Workbook, который представляет файл Microsoft Excel. Класс Workbook предоставляет широкий набор свойств и методов для управления файлом Excel. Чтобы управлять видимостью вкладок в файле Excel, разработчики могут использовать метод setShowTabs класса Workbook.
+
+## **Aspose.Cells - Отображение и скрытие вкладок рабочей книги**
+Aspose.Cells предоставляет класс Workbook, который представляет собой файл Microsoft Excel. Класс Workbook предоставляет широкий спектр свойств и методов для управления файлом Excel. Для управления видимостью вкладок в файле Excel разработчики могут использовать метод setShowTabs класса Workbook.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -34,8 +35,8 @@ workbook.getSettings().setShowTabs(true);
 workbook.save(dataDir + "AsposeDisplayTabs.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideTabs.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideTabs.java)
 

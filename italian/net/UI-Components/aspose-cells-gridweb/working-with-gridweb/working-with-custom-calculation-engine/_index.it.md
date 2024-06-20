@@ -1,20 +1,23 @@
-﻿---
-title: Utilizzo del motore di calcolo personalizzato
+---
+title: Lavorare con un motore di calcolo personalizzato
 type: docs
 weight: 70
-url: /it/net/working-with-custom-calculation-engine/
+url: /it/net/aspose-cells-gridweb/custom-calculation-engine/
+keywords: GridWeb, personalizzato, calcolo, CalculationEngine, GridAbstractCalculationEngine
+description: Questo articolo introduce come utilizzare GridAbstractCalculationEngine per personalizzare il processo di calcolo in GridWeb.
 ---
-## **Implementa il motore di calcolo personalizzato**
 
-Aspose.Cells.Gridweb ha un potente motore di calcolo in grado di calcolare quasi tutte le formule Excel Microsoft. Nonostante ciò, ti consente anche di estendere il motore di calcolo predefinito che ti offre maggiore potenza e flessibilità.
+## **Implementare un Motore di Calcolo Personalizzato**
 
-Le seguenti proprietà e classi vengono utilizzate per implementare questa funzionalità.
+Aspose.Cells.Gridweb dispone di un potente motore di calcolo che può calcolare quasi tutte le formule di Microsoft Excel. Tuttavia, consente anche di estendere il motore di calcolo predefinito che fornisce maggiore potenza e flessibilità.
 
- 
-- **[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine)**
-- **[GridCalculationData](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridcalculationdata)**
+Le seguenti proprietà e classi vengono utilizzate nell'implementazione di questa funzionalità.
 
-Il codice seguente implementa il motore di calcolo personalizzato. Implementa l'interfaccia**[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine)** che ha un**[Calcola(dati GridCalculationData)](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine/methods/calculate)** metodo. Questo metodo viene chiamato contro tutte le tue formule. All'interno di questo metodo, acquisiamo il file**MYTESTFUNC** formula e moltiplicare per 2 per il suo primo valore di parametro .
+
+- [**GridAbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine)
+- [**GridCalculationData**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridcalculationdata)
+
+Il seguente codice implementa il motore di calcolo personalizzato. Implementa l'interfaccia [**GridAbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine) che ha un metodo [**Calculate(GridCalculationData data)**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine/methods/calculate). Questo metodo viene chiamato per tutte le formule. All'interno di questo metodo, catturiamo la formula **MYTESTFUNC** e moltiplichiamo per 2 il valore del suo primo parametro.
 
 ### **Esempio di programmazione**
 

@@ -1,15 +1,16 @@
-﻿---
-title: Berechnung von Formeln in PHP
+---
+title: Formeln in PHP berechnen
 type: docs
 weight: 10
 url: /de/net/calculating-formulas-in-php/
 ---
+
 ## **Formeln berechnen**
 Formeln berechnen
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -64,7 +65,7 @@ Formeln berechnen
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Formeln berechnen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Berechnungsformeln (Aspose.Cells)** von einer der unten genannten sozialen Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingwithFormulas/CalculatingFormulas.php)

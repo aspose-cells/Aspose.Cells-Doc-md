@@ -1,29 +1,30 @@
-﻿---
-title: Cell içine HTML Zengin Metin ekleme
-linktitle: Html Dizi Değeri
+---
+title: Hücre İçine HTML Zengin Metin Ekleme
+linktitle: Html Dize Değeri
 type: docs
 weight: 90
 url: /tr/java/adding-html-rich-text-inside-the-cell/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, Microsoft Excel odaklı HTML'in XLS/XLSX formatına dönüştürülmesini destekler. Bunun anlamı, Microsoft Excel tarafından oluşturulan HTML, Aspose.Cells kullanılarak tekrar XLS/XLSX formatına dönüştürülebilir.
+Aspose.Cells, Microsoft Excel odaklı HTML'yi XLS/XLSX formatına dönüştürmeyi destekler. Bu, Microsoft Excel tarafından oluşturulan HTML'nin Aspose.Cells kullanılarak tekrar XLS/XLSX formatına dönüştürülebileceği anlamına gelir.
 
- Benzer şekilde, bazı basit HTML varsa, Aspose.Cells bunu HTML Zengin Metin'e dönüştürebilir. Aspose.Cells sağlar[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) Bu kadar basit bir HTML alabilen ve biçimlendirilmiş hücre metnine dönüştürebilen özellik.
+Benzer şekilde, Aspose.Cells, basit bir HTML varsa onu HTML Zengin Metin'e dönüştürebilir. Aspose.Cells, bu tür basit bir HTML'yi alıp biçimlendirilmiş hücre metnine dönüştürebilen [**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) özelliğini sağlar.
 
 {{% /alert %}}
 
-## **Örnek vermek**
+## **Örnek**
 
- Aşağıdaki ekran görüntüsü Aspose.Cells ile oluşturulan çıktı Excel dosyasını göstermektedir. Gördüğünüz gibi A1 hücresinin içine eklenen HTML formatlı zengin metni göstermektedir.[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)Emlak.
+Aşağıdaki ekran görüntüsü, Aspose.Cells ile oluşturulan çıktı Excel dosyasını göstermektedir. Görebileceğiniz üzere, [**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) özelliği kullanılarak A1 hücresine eklenen HTML biçimli zengin metni gösterir.
 
-![yapılacaklar:resim_alternatif_metin](adding-html-rich-text-inside-the-cell_1.png)
+![todo:image_alt_text](adding-html-rich-text-inside-the-cell_1.png)
 
-Bu, yukarıdaki ekran görüntüsünde gösterildiği gibi çıktı Excel dosyasını oluşturan örnek koddur.
+Yukarıdaki ekran görüntüsünde gösterilen çıktı Excel dosyasını oluşturan örnek kod budur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddImageHyperlinks-AddImageHyperlinks.java" >}}
 
 ## İlgili Makaleler
-- [Cell Değerini HTML kullanarak ayarlayarak Madde İşaretlerini Görüntüle](/cells/tr/java/display-bullets-by-setting-cell-value-using/)
-- [Cell'den HTML5 dizesini alın](/cells/tr/java/get-html5-string-from-cell/)
+- [HTML kullanarak Hücre Değeri Ayarıyla Madde İmleri Göster](/cells/tr/java/display-bullets-by-setting-cell-value-using/)
+- [Hücreden HTML5 dizesi al](/cells/tr/java/get-html5-string-from-cell/)
 

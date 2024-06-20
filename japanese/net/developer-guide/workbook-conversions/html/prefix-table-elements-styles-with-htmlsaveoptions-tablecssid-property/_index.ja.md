@@ -1,34 +1,35 @@
-﻿---
-title: HtmlSaveOptions.TableCssId プロパティを使用してテーブル要素スタイルをプレフィックスする
+---
+title: HtmlSaveOptions.TableCssIdプロパティでテーブル要素スタイルをプレフィックス
 type: docs
 weight: 110
 url: /ja/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells を使用すると、テーブル要素のスタイルに接頭辞を付けることができます[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)財産。このプロパティに次のような値を設定するとします。**MyTest_TableCssId**、次に示すようなテーブル要素スタイルが見つかります
+## **可能な使用シナリオ**
 
-{{< highlight "java" >}}
+Aspose.Cellsには、ワークシートのCSSを[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)プロパティで接頭辞としてエクスポートする機能があります。このような値として**MyTest_TableCssId**などの値を設定すると、以下に示すようなテーブル要素のスタイルが見つかります。
+
+{{< highlight java >}}
 
  table#MyTest_TableCssId
 
-# MyTest_TableCssId tr
+#MyTest_TableCssId tr
 
-# MyTest_TableCssId col
+#MyTest_TableCssId col
 
-# MyTest_TableCssId br
+#MyTest_TableCssId br
 
 etc.
 
 {{< /highlight >}}
 
-次のスクリーンショットは、使用の効果を示しています[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)出力 HTML のプロパティ。
+以下のスクリーンショットは、[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)プロパティの使用による出力HTMLに対する効果を示しています。
 
-![todo:画像_代替_文章](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
+![todo:image_alt_text](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
-## **HtmlSaveOptions.TableCssId プロパティを使用してテーブル要素スタイルをプレフィックスする**
+## **HtmlSaveOptions.TableCssIdプロパティの使用方法についてのサンプルコードを以下に説明します。参照のために、コードによって生成された[output HTML](60489791.zip)を確認してください。**
 
-次のサンプル コードは、[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)財産。を確認してください[出力 HTML](60489790.zip)参照用のコードによって生成されます。
+次のサンプルコードは、[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)プロパティを使用する方法を示しています。コードによって生成された[output HTML](60489790.zip)の参照用です。
 
 ## **サンプルコード**
 

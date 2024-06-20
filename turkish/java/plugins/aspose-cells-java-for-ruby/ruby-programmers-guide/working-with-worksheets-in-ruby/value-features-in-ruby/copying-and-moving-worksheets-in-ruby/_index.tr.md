@@ -1,16 +1,17 @@
-﻿---
-title: Ruby'de Çalışma Sayfalarını Kopyalama ve Taşıma
+---
+title: Ruby de Çalışma Sayfalarını Kopyalama ve Taşıma
 type: docs
 weight: 10
 url: /tr/java/copying-and-moving-worksheets-in-ruby/
 ---
+
 ## **Aspose.Cells - Çalışma Sayfalarını Kopyalama ve Taşıma**
-### **Çalışma Kitabındaki Çalışma Sayfalarını Kopyalama**
- Çalışma sayfasını kullanarak kopyalamak için**Yakut içinde Aspose.Cells for Java** , Arama**kopya_çalışma sayfası** yöntemi**kopya çalışma sayfaları** modül. Aşağıda kod örneğini görebilirsiniz.
+### **Çalışma Kitabı İçinde Çalışma Sayfalarını Kopyalama**
+**Aspose.Cells for Java in Ruby** kullanarak çalışma sayfasını kopyalamak için **copyworksheets** modülünün **copy_worksheet** yöntemini çağırın. Aşağıda kod örneğini görebilirsiniz.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_worksheet(workbook)
 
@@ -31,12 +32,12 @@ url: /tr/java/copying-and-moving-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Çalışma Sayfalarını Çalışma Kitabı İçinde Taşıma**
- Çalışma sayfasını kullanarak taşımak için**Yakut içinde Aspose.Cells for Java** , Arama**move_worksheet** yöntemi**kopya çalışma sayfaları** modül. Aşağıda kod örneğini görebilirsiniz.
+### **Çalışma Kitabı İçinde Çalışma Sayfalarını Taşıma**
+Ruby kullanarak **Aspose.Cells for Java kullanarak** çalışma sayfasını taşımak için, **copyworksheets** modülünün **move_worksheet** yöntemini çağırın. Aşağıda örnek kodu görebilirsiniz.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def move_worksheet(workbook)
 
@@ -58,6 +59,6 @@ end 
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Çalışma Sayfalarını Kopyalama ve Taşıma (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıdaki sosyal kodlama sitelerinden herhangi birinden **Kopyalama ve Taşıma Çalışma Sayfalarını (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/copyworksheets.rb)

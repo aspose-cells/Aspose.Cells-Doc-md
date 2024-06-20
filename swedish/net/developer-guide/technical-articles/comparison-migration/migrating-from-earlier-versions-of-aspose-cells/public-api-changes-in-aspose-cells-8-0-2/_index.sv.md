@@ -1,20 +1,21 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.0.2
+---
+title: Offentliga API ändringar i Aspose.Cells 8.0.2
 type: docs
 weight: 30
 url: /sv/net/public-api-changes-in-aspose-cells-8-0-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.0.1 till 8.0.2, som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringar i Aspose.Cells API från version 8.0.1 till 8.0.2, som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **TextDirection-egenskapen har lagts till i Shape Class**
-Shape-klassen har exponerat egenskapen TextDirection som kan användas för att hämta eller ställa in textflödets riktning för Shape-objektet. Egenskapen TextDirection kan också användas för att ställa in önskad textriktning för kommentarerna i ett kalkylblad som visas nedan.
+## **TextDirection-egenskap tillagd till Shape-klassen**
+Shape-klassen har exponerat TextDirection-egenskapen som kan användas för att hämta eller sätta riktningen för textflödet i Shape-objektet. TextDirection-egenskapen kan också användas för att ange önskad textriktning för kommentarer i en kalkylblad enligt nedan.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -52,15 +53,15 @@ book.Save(myDir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera den detaljerade artikeln om[Ändra textriktning för kommentaren](/cells/sv/net/change-text-direction-of-the-comment/)
+Kolla in den detaljerade artikeln om [Changing Text Direction of the Comment](/cells/sv/net/change-text-direction-of-the-comment/)
 
 {{% /alert %}}
-## **Lade till ConvertFormulasData Property till HTMLLoadOptions Class**
-Egenskapen ConvertFormulasData har lagts till i HTMLLoadOptions-klassen för att göra det lättare för utvecklarna att ladda Excel-formler från HTML-filer. Den booleska egenskapen ConvertFormulasData anger om strängen ska konverteras till en formel eller inte när strängvärdet börjar med tecknet '='.
+## **ConvertFormulasData-egenskap tillagd till HTMLLoadOptions-klassen**
+ConvertFormulasData-egenskapen har lagts till HTMLLoadOptions-klassen, för att underlätta för utvecklare att ladda Excel-formler från HTML-filer. Den booleska ConvertFormulasData-egenskapen indikerar om strängen ska konverteras till en formel när strängvärdet börjar med tecknet '=' eller inte.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of HTMLLoadOptions
 
@@ -80,10 +81,10 @@ Workbook workbook = new Workbook(myDir + "spreadsheet.html", loadOptions);
 
 {{% alert color="primary" %}} 
 
-Standardvärdet för egenskapen ConvertFormulasData är falskt.
+Standardvärdet för ConvertFormulasData-egenskapen är falskt.
 
 {{% /alert %}}
-## **Lade till ImageOptions-egenskapen i HtmlSaveOptions-klassen**
-ImageOptions-egenskapen har lagts till i klassen HtmlSaveOptions. Att exponera egenskapen ImageOptions har gjort det möjligt för utvecklarna att ställa in inställningarna för bilderna inbäddade i HTML medan de exporterar kalkylblad.
-## **Föråldrad HtmlSaveOptions.ExportChartImageFormat Property**
-HtmlSaveOptions.ExportChartImageFormat har markerats som föråldrat från Aspose.Cells for .NET 8.0.2. Det rekommenderas att använda HtmlSaveOptions.ImageOptions istället för bildformatinställningar när du exporterar kalkylblad till formatet HTML.
+## **ImageOptions-egenskap tillagd till HtmlSaveOptions-klassen**
+ImageOptions-egenskapen har lagts till HtmlSaveOptions-klassen. Genom att exponera ImageOptions-egenskapen har utvecklare möjlighet att ange inställningarna för bilderna som bäddas in i HTML vid export av kalkylblad.
+## **Obsoletade HtmlSaveOptions.ExportChartImageFormat-egenskapen**
+HtmlSaveOptions.ExportChartImageFormat har markerats som föråldrad från och med Aspose.Cells for .NET 8.0.2. Det rekommenderas att istället använda HtmlSaveOptions.ImageOptions för inställningar för bildformat vid export av kalkylblad till HTML-format.

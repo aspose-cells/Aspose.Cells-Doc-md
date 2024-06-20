@@ -1,13 +1,14 @@
-﻿---
-title: Skapa en skivare till en pivottabell
+---
+title: Skapa Skärmdump till ett Pivottabell
 type: docs
 weight: 10
 url: /sv/python-java/create-slicer-to-a-pivot-table/
 ---
-## **Möjliga användningsscenarier**
-Slicers används för att snabbt filtrera data. De kan användas för att filtrera data både i en tabell eller pivottabell. Microsoft Excel låter dig skapa en slicer genom att välja en tabell eller pivottabell och sedan klicka på*Infoga > Slicer*. Aspose.Cells for Python via Java tillhandahåller metoden Worksheet.getSlicers().add() för att skapa slicer.
-## **Skapa en skivare till en pivottabell**
-Följande kodavsnitt laddar[exempel på Excel-fil](106364966.xlsx)som innehåller pivottabellen. Den skapar sedan slicer baserat på det första baspivotfältet. Slutligen sparar den arbetsboken[utgång XLSX](106364967.xlsx)formatera. Följande skärmdump visar slicer skapad av Aspose.Cells i utdata Excel-fil.
+
+## **Möjliga användningsscenario**
+Skärmdumpar används för att filtrera data snabbt. De kan användas för att filtrera data både i en tabell eller pivottabell. Microsoft Excel tillåter dig att skapa en skärmdump genom att välja en tabell eller pivottabell och sedan klicka på *Infoga > Skärmdump*. Aspose.Cells for Python via Java tillhandahåller metoden Worksheet.getSlicers().add() för att skapa skärmdump.
+## **Skapa skärva till en pivot-tabell**
+Följande kodsnutt laddar in [prov Excel-filen](106364966.xlsx) som innehåller pivottabellen. Sedan skapar den slicern baserat på det första pivefältet. Slutligen sparar den arbetsboken i [utdata XLSX](106364967.xlsx)-format. Följande skärmbild visar slicern skapad av Aspose.Cells i den genererade Excel-filen.
 
 ![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
 ## **Exempelkod**

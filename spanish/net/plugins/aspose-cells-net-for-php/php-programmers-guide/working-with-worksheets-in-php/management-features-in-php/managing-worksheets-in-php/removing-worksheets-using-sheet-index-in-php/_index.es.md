@@ -1,15 +1,16 @@
-﻿---
-title: Eliminar hojas de trabajo usando el índice de hojas en PHP
+---
+title: Eliminar hojas de trabajo usando el índice de la hoja en PHP
 type: docs
 weight: 30
 url: /es/net/removing-worksheets-using-sheet-index-in-php/
 ---
-## **Eliminación de hojas de cálculo mediante el índice de hojas**
-Eliminación de hojas de cálculo mediante el índice de hojas
+
+## **Eliminar hojas de trabajo usando el índice de la hoja**
+Eliminar hojas de trabajo usando el índice de la hoja
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -30,7 +31,7 @@ Eliminación de hojas de cálculo mediante el índice de hojas
         $ptr->Call($workbook,"Save",array($dataDir."/output.xls"));
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Eliminación de hojas de cálculo mediante el índice de hojas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Eliminar hojas de trabajo usando el índice de la hoja (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetIndex.php)

@@ -1,15 +1,16 @@
-﻿---
-title: RubyでHTMLファイルをExcelスプレッドシートに変換する
+---
+title: Ruby で HTML ファイルを Excel スプレッドシートに変換する
 type: docs
 weight: 40
 url: /ja/java/converting-html-files-to-excel-spreadsheets-in-ruby/
 ---
+
 ## **Aspose.Cells - HTML ファイルを Excel スプレッドシートに変換する**
-Ruby で Aspose.Cells for Java を使用して HTML をスプレッドシートに変換するには、単純に html を呼び出します。_に_Converterモジュールのexcel()メソッド。
+Ruby で Aspose.Cells for Java を使用して HTML をスプレッドシートに変換するには、Converter モジュールの html_to_excel() メソッドを単純に呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def html_to_excel()
 
@@ -38,7 +39,7 @@ Ruby で Aspose.Cells for Java を使用して HTML をスプレッドシート�
 end
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**HTML ファイルを Excel スプレッドシートに変換する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に挙げるいずれかのソーシャルコーディングサイトから、**Converting HTML files to Excel Spreadsheets (Aspose.Cells)** をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

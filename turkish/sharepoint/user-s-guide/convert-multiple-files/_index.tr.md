@@ -1,32 +1,33 @@
-﻿---
+---
 title: Birden Fazla Dosyayı Dönüştür
 type: docs
 weight: 20
 url: /tr/sharepoint/convert-multiple-files/
 ---
- Bir klasördeki tüm dosyaları dönüştürmek için:
 
-1.  Seçme**Aspose.Cells ile dönüştürün** ebeveynde kalırken istediğiniz klasörün ECB'sinden.
+Bir klasördeki tüm dosyaları dönüştürmek için: 
 
- Birden çok dosyayı dönüştürmek için:
+1. Ana klasördeyken istediğiniz klasörün ECB'sinden **Aspose.Cells ile Dönüştür**'ü seçin.
 
-1.  Kitaplıkta birkaç dosya seçin ve seçin**Aspose.Cells ile dönüştürün**. 
+Birden çok dosyayı dönüştürmek için: 
 
-   **Alt klasördeki tüm dosyaları dönüştürün** 
+1. Kütüphanede birkaç dosya seçin ve **Aspose.Cells ile Dönüştür**'ü seçin. 
 
-![yapılacaklar:resim_alternatif_metin](convert-multiple-files_1.png)
+   **Alt klasördeki tüm dosyaları dönüştür** 
+
+![todo:image_alt_text](convert-multiple-files_1.png)
 
 
 
 
-1.  Belge listesinden dosya öğesini seçin ve yukarı veya aşağı hareket ettirerek dönüştürme sırasını değiştirin.
+1. Belge listesinde dosya öğesini seçin ve sırasını değiştirmek için yukarı veya aşağı hareket ettirin. 
 
-   **Dönüştürme sırasını değiştirme** 
+   **Dönüşüm sırasını değiştirme** 
 
-![yapılacaklar:resim_alternatif_metin](convert-multiple-files_2.png)
-### **SharePoint 2010 altında Sunucu Şerit Düğmesini Kullanma**
-SharePoint 2010 altında, SharePoint 2007 / WSS 3 ile kullanılan özel eylem menüsü yerine sunucu şeridi düğmesi mevcuttur.
+![todo:image_alt_text](convert-multiple-files_2.png)
+### **SharePoint 2010 Altında Sunucu Kurdele Düğmesi Kullanma**
+SharePoint 2010 altında, SharePoint 2007 / WSS 3 ile kullanılan özel eylem menüsü yerine sunucu kurdele düğmesi mevcuttur. 
 
-**SharePoint 2010'da Aspose.Cells for SharePoint ile belgeleri dönüştürme** 
+**SharePoint 2010’daki Aspose.Cells for SharePoint ile belgeleri dönüştürme** 
 
-![yapılacaklar:resim_alternatif_metin](convert-multiple-files_3.png)
+![todo:image_alt_text](convert-multiple-files_3.png)

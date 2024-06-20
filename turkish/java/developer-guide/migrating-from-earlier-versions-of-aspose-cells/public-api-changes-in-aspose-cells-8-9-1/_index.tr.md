@@ -1,36 +1,37 @@
-﻿---
-title: Genel API Aspose.Cells 8.9.1'deki değişiklikler
+---
+title: Aspose.Cells 8.9.1 deki Genel API Değişiklikleri
 type: docs
 weight: 320
 url: /tr/java/public-api-changes-in-aspose-cells-8-9-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.9.0'dan 8.9.1'e modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, Aspose.Cells API'sinde 8.9.0'dan 8.9.1'e yapılan değişiklikleri modül/uygulama geliştiricilerinin ilgisini çekebilecek şekilde açıklar. Sadece yeni ve güncellenmiş genel yöntemleri, eklenmiş ve kaldırılmış sınıfları vb. içermekle kalmaz, aynı zamanda Aspose.Cells'in arka plandaki davranışında herhangi bir değişikliğin açıklamasını da içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **Yapılandırılabilir Yazı Tipi Kaynakları**
-Aspose.Cells for Java, elektronik tabloları işlemek için yapılandırılabilir yazı tipi kaynaklarına destek sağlamak üzere bir dizi sınıfı kullanıma sunmuştur. Aspose.Cells 8.9.1 ile eklenen sınıfların listesi aşağıdadır.
+Aspose.Cells for Java, elektronik tabloları renderlamak için yapılandırılabilir yazı tipi kaynaklarını desteklemek için bir dizi sınıfı açıklar. İşte Aspose.Cells for Java 8.9.1 ile eklenen sınıfların listesi.
 
-1. FontConfigs sınıfı, yazı tipi ayarlarını belirtir.
-1. FontSourceBase sınıfı, kullanıcının çeşitli yazı tipi kaynakları belirtmesine izin veren sınıflar için soyut bir temel sınıftır.
-1. FileFontSource sınıfı, dosya sisteminde depolanan tek TrueType yazı tipi dosyasını temsil eder.
+1. FontConfigs sınıfı yazı tipi ayarlarını belirtir.
+1. FontSourceBase sınıfı, kullanıcının çeşitli yazı tipi kaynaklarını belirtmesini sağlayan sınıflar için soyut bir temel sınıftır.
+1. FileFontSource sınıfı, dosya sistemine depolanan tek TrueType yazı tipi dosyasını temsil eder.
 1. FolderFontSource sınıfı, TrueType yazı tipi dosyalarını içeren klasörü temsil eder.
 1. MemoryFontSource sınıfı, bellekte depolanan tek TrueType yazı tipi dosyasını temsil eder.
-1. FontSourceType numaralandırması, bir yazı tipi kaynağının türünü belirtir.
+1. FontSourceType numaralandırması bir yazı tipi kaynağının türünü belirtir.
 
-Yukarıda belirtilen değişikliklerle, Aspose.Cells for Java, yazı tiplerini aşağıda ayrıntılı olarak ayarlamanıza olanak tanır.
+Yukarıda belirtilen değişikliklerle, Aspose.Cells for Java, aşağıda ayrıntıları belirtilmiş olan yazı tiplerini ayarlamayı mümkün kılar.
 
-1. FontConfigs.setFontFolder yöntemini kullanırken bir özel yazı tipi klasörü ayarlayın.
+1. FontConfigs.setFontFolder yöntemini kullanırken özel bir yazı tipi klasörü ayarlayın.
 1. FontConfigs.setFontFolders yöntemini kullanırken birden fazla özel yazı tipi klasörü ayarlayın.
-1. FontConfigs.setFontSources yöntemini kullanırken özel bir font klasöründen, tek bir font dosyasından veya bir bayt dizisinden font verilerini ayarlayın.
+1. FontConfigs.setFontSources yöntemini kullanırken özel yazı tipi klasöründen, tek bir yazı tipi dosyasından veya bayt dizisinden yazı tipi kaynaklarını ayarlayın.
 
-İşte yukarıda belirtilen yöntemlerin basit kullanım senaryosu.
+Yukarıda belirtilen yöntemlerin basit kullanım senaryosu aşağıda verilmiştir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Defining string variables to store paths to font folders & font file
 
@@ -50,7 +51,7 @@ FontConfigs.setFontFolder(fontFolder1, true);
 
 //Second parameter prohibits the API to search the sub folders for font files
 
-FontConfigs.setFontFolders(new String[]{ fontFolder1, fontFolder2 }, false);
+FontConfigs.setFontFolders(new String[] { fontFolder1, fontFolder2 }, false);
 
 //Defining FolderFontSource
 
@@ -62,62 +63,62 @@ FileFontSource sourceFile = new FileFontSource(fontFile);
 
 //Defining MemoryFontSource
 
-byte[]bytes = Files.readAllBytes(new File(fontFile).toPath());
+byte[] bytes = Files.readAllBytes(new File(fontFile).toPath());
 
 MemoryFontSource sourceMemory = new MemoryFontSource(bytes);
 
 //Setting font sources
 
-FontConfigs.setFontSources(new FontSourceBase[]{ sourceFolder, sourceFile, sourceMemory});
+FontConfigs.setFontSources(new FontSourceBase[] { sourceFolder, sourceFile, sourceMemory});
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
 
- FontConfigs.setFontFolder & FontConfigs.setFontFolders yöntemlerinin her ikisi de bir Boole tipi ikinci parametreyi kabul eder. True'yu ikinci parametre olarak iletmek, Aspose.Cells API'lerini yazı tipi dosyaları için alt klasörleri aramaya yönlendirecektir.
+FontConfigs.setFontFolder ve FontConfigs.setFontFolders yöntemleri, ikinci parametre olarak Boolean türünde bir değer kabul eder. İkinci parametre olarak true geçmek, Aspose.Cells API'larını font dosyaları için alt klasörleri aramak üzere yönlendirecektir. 
 
 {{% /alert %}} 
 
-Aspose.Cells for Java ayrıca yazı tipi değiştirmeyi yapılandırmaya izin verir. Bu mekanizma, dönüştürmenin gerçekleşmesi gereken makinede gerekli bir yazı tipi bulunmadığında yardımcı olur. Kullanıcılar, başlangıçta gerekli olan yazı tipine alternatif olarak bir yazı tipi adları listesi sağlayabilir. Bunu başarmak için Aspose.Cells API'leri, 2 parametreyi kabul eden FontConfigs.setFontSubstitutes yöntemini kullanıma sunmuştur. İlk parametre, değiştirilmesi gereken yazı tipinin adı olması gereken dize türündedir. İkinci parametre, string türünde bir dizidir. Kullanıcılar, orijinal yazı tipi adının (ilk parametrede belirtilen) yerine geçen bir yazı tipi adları listesi sağlayabilir.
+Aspose.Cells for Java, ayrıca yazı tipi yerine koymayı yapılandırmak için de izin verir. Bu mekanizma, dönüştürmenin gerçekleşeceği makinede gereken bir yazı tipinin bulunmaması durumunda yardımcı olur. Kullanıcılar, Aspose.Cells API'ları tarafından sunulan FontConfigs.setFontSubstitutes yöntemini kullanarak asıl gereken yazı tipinin yerine koymak için bir dizi yazı tipi adı sağlayabilir. FontConfigs.setFontSubstitutes yöntemi, 2 parametre kabul eder. İlk parametre, yerine konması gereken yazı tipinin adı olmalıdır. İkinci parametre, string türünde bir dizi olup kullanıcılar orijinal yazı tipinin yerine konması için bir yazı tipi listesi sağlayabilir.
 
-İşte FontConfigs.SetFontSubstitutes yönteminin basit kullanım senaryosu.
+FontConfigs.SetFontSubstitutes yönteminin basit kullanım senaryosu aşağıda verilmiştir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Substituting the Arial font with Times New Roman & Calibri
 
-FontConfigs.setFontSubstitutes("Arial", new String[]{ "Times New Roman", "Calibri" });
+FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calibri" });
 
 {{< /highlight >}}
 
-Aspose.Cells for Java, hangi kaynakların ve ikamelerin ayarlandığı hakkında bilgi toplamak için araçlar da sağlamıştır.
+Aspose.Cells for Java, ayrıca hangi kaynakların ve yerine koymaların ayarlandığı bilgilerini toplamanın da bir yolunu sağlar.
 
-1. FontConfigs.getFontSources yöntemi, belirtilen yazı tipi kaynaklarının listesini içeren FontSourceBase türünde bir dizi döndürür. Hiçbir kaynağın ayarlanmamış olması durumunda, FontConfigs.getFontSources yöntemi boş bir dizi döndürür.
-1. FontConfigs.getFontSubstitutes yöntemi, bir ikamenin ayarlandığı yazı tipi adını belirtmeye izin veren dize türünde bir parametre kabul eder. Belirtilen yazı tipi adı için herhangi bir ikame ayarlanmamışsa, FontConfigs.getFontSubstitutes yöntemi null döndürür.
+1. FontConfigs.getFontSources yöntemi, belirtilen yazı tipi kaynaklarının listesini içeren FontSourceBase türünde bir dizi döndürür. Hiçbir kaynak belirlenmemişse, FontConfigs.getFontSources yöntemi boş bir dizi döndürecektir.
+1. FontConfigs.getFontSubstitute yöntemi, yazı tipi yerine koyması belirlenmiş bir yazı tipi için belirtilmiş olan fontadını kabul eden bir parametre alır. Belirtilen yazı tipi için herhangi bir yerine koyma belirlenmemişse, FontConfigs.getFontSubstitutes yöntemi null döndürecektir.
 
 {{% alert color="primary" %}} 
 
- FontConfig'ler hakkında daha fazla ayrıntı için lütfen şu makaleyi inceleyin:[Elektronik Tabloları Oluşturmak için Yazı Tiplerini Yapılandırma](/cells/tr/java/configuring-fonts-for-rendering-spreadsheets/).
+Daha fazla FontConfigs detayı için lütfen [Çizelgeleri Görselleştirmek İçin Yazı Tiplerini Yapılandırmak](/cells/tr/java/configuring-fonts-for-rendering-spreadsheets/) makalesine göz atın.
 
 {{% /alert %}} 
-### **IFilePathProvider Arayüzü & HtmlSaveOptions.FilePathProvider özelliği eklendi**
-Aspose.Cells for Java 8.9.1, çalışma sayfalarını ayrı HTML dosyalarına dışa aktarmak için IFilePathProvider'ın alınmasına/ayarlanmasına izin verir. Bu yeni API'ler, bir çalışma sayfasındaki köprülerin başka bir çalışma sayfasındaki bir konuma işaret ettiği ve uygulama gereksiniminin her çalışma sayfasını ayrı HTML dosyasına dönüştürmek olduğu senaryolarda yardımcı olur. IFilePathProvider'ı uygulamak, ayrı bir sonuçtaki HTML dosyasında bir konumu işaret ediyor olsalar da, yukarıda belirtilen köprülerin bozulmadan kalmasına izin verir.
+### **IFilePathProvider Arayüzü ve HtmlSaveOptions.FilePathProvider özelliği eklendi**
+Aspose.Cells for Java 8.9.1 sayesinde çalışma sayfalarını ayrı HTML dosyalarına dışa aktarma için IFilePathProvider'ın alınmasına ve ayarlanmasına izin verir. Bu yeni API'lar, bir çalışma sayfasındaki hiperbağlantıların başka bir çalışma sayfasına yerleşim oluşturduğu senaryolarda yardımcıdır ve uygulamanın her çalışma sayfasını ayrı bir HTML dosyasına dönüştürme gereksinimini karşılar. IFilePathProvider'ı uygulamak, bahsedilen hiperbağlantıları, ayrı bir sonuç HTML dosyasına da işaretlense bile, korumaya izin verir.
 
-HtmlSaveOptions.FilePathProvider özelliğinin basit kullanım senaryosu aşağıdadır.
+HtmlSaveOptions.FilePathProvider özelliğinin basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Çalışma Kitabı örneğine bir elektronik tablo yükleyin
+ //Load a spreadsheet in an instance of Workbook
 
-Çalışma kitabı kitabı = yeni Çalışma Kitabı(dir + "sample.xlsx");
+Workbook book = new Workbook(dir + "sample.xlsx");
 
-//Her Çalışma Sayfasını HTML dosyasını ayırmak için kaydedin
+//Save each Worksheet to separate  HTML file
 
- için (int ben = 0; ben< book.getWorksheets().getCount(); i++)
+for (int i = 0; i < book.getWorksheets().getCount(); i++)
 
 {
 
@@ -173,17 +174,17 @@ HtmlSaveOptions.FilePathProvider özelliğinin basit kullanım senaryosu aşağ�
 
 {{% alert color="primary" %}} 
 
- Bu geliştirme hakkında daha fazla ayrıntı için lütfen şu makaleyi inceleyin:[IFilePathProvider Arayüzünü Uygulama](/cells/tr/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
+Bu geliştirme hakkında daha fazla detay için lütfen [IFilePathProvider Arayüzünü Uygulamak](/cells/tr/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/) makalesine göz atın.
 
 {{% /alert %}} 
-### **Cells.copyRows Yöntemi için CopyOptions.ReferToDestinationSheet Özelliği ve Aşırı Yükleme eklendi**
-Aspose.Cells for Java API, kopyalanacak satırlar aynı zamanda bir grafik ve bunun veri kaynağını içerdiğinde satırları kopyalama işlemini kolaylaştırmak için Boole tipi CopyOptions.ReferToDestinationSheet özelliğini ve Cells.copyRows yönteminin aşırı yüklemesini kullanıma sundu. Geliştiriciler, grafiğin veri kaynağını kaynak veya hedef çalışma sayfalarına yönlendirmek için bu yeni API'leri kullanabilir.
+### **CopyOptions.ReferToDestinationSheet Özelliği ve Cells.copyRows Metodunun Overload'u eklendi**
+Aspose.Cells for Java API, kopyalanacak satırların aynı zamanda bir grafik ve veri kaynağı içerdiği durumlarda satırları kopyalamayı kolaylaştırmak için Boolean türünde CopyOptions.ReferToDestinationSheet özelliğini ve Cells.copyRows metodunun overload'unu açığa çıkardı. Geliştiriciler, bu yeni API'ları kullanarak, grafik veri kaynağını kaynak veya hedef çalışma sayfasına yönlendirebilirler.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet in an instance of Workbook
 
@@ -215,17 +216,17 @@ book.save(dir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için lütfen şu makaleyi inceleyin:[Satırları Kopyalarken Grafiğin Veri Kaynağını Kontrol Edin](/cells/tr/java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
+Bu özellik hakkında daha fazla detay için lütfen [Satırları Kopyalarken Grafiklerin Veri Kaynağını Kontrol Etme](/cells/tr/java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/) makalesine göz atın.
 
 {{% /alert %}} 
-### **CalculationOptions.Recursive Özelliği Eklendi**
-Aspose.Cells for Java 8.9.1, Boole tipi CalculationOptions.Recursive özelliğini kullanıma sundu. CalculationOptions.Recursive özelliğinin true olarak ayarlanması ve nesnenin Workbook.calculateFormula yöntemine iletilmesi, Aspose.Cells API'lerini, diğer hücrelere bağlı olan hücreleri hesaplarken bağımlı hücreleri yinelemeli olarak hesaplamaya yönlendirir.
+### **CalculationOptions.Recursive Özelliği eklendi**
+Aspose.Cells for Java 8.9.1, Boolean türünde CalculationOptions.Recursive özelliğini açığa çıkardı. CalculationOptions.Recursive özelliğini true olarak ayarlamak ve nesneyi Workbook.calculateFormula metoduna iletmek, Aspose.Cells API'lerini, diğer hücrelere bağımlı olan hücreleri hesaplarken bağımlı hücreleri de özyineli olarak hesaplamaya yönlendirir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet in an instance of Workbook
 
@@ -245,13 +246,13 @@ book.calculateFormula(options);
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için lütfen şu makaleyi inceleyin:[Hesaplama Süresini Optimize Edin](/cells/tr/java/decrease-the-calculation-time-of-cell-calculate-method/).
+Bu özellik hakkında daha fazla detay için lütfen [Hesaplama Süresini Optimize Etme](/cells/tr/java/decrease-the-calculation-time-of-cell-calculate-method/) makalesine göz atın.
 
 {{% /alert %}}
-## **Eski API'ler**
-### **Eski CellsHelper.FontDir Özellik**
-FontConfigs.setFontFolder(String, boolean) yöntemini, bunun yerine yinelemeli klasör ile false olarak kullanmanız önerilir.
+## **Eskimiş API'lar**
+### **Eski CellsHelper.FontDir Özelliği**
+Eski CellsHelper.FontDir özelliğinin recursive olarak false ayarlanmış FontConfigs.setFontFolder(String, boolean) yöntemini kullanmanız önerilir.
 ### **Eski CellsHelper.FontDirs Özelliği**
-FontConfigs.setFontFolders(String[], boolean) yöntemini bunun yerine yinelemeli klasör ile false olarak kullanın.
+Eski CellsHelper.FontDirs özelliğinin recursive olarak false ayarlanmış FontConfigs.setFontFolders(String[], boolean) yöntemini kullanmanız önerilir.
 ### **Eski CellsHelper.FontFiles Özelliği**
-Bunun yerine FontConfigs.setFontSources(FontSourceBase[]) yöntemini kullanın.
+Eski CellsHelper.FontFiles özelliğinin FontConfigs.setFontSources(FontSourceBase[]) yöntemi ile değiştirilmiştir.

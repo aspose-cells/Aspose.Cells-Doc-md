@@ -1,119 +1,120 @@
 ---
 title: Диаграмма в изображение
-description: Узнайте, как использовать Aspose.Cells for .NET для преобразования диаграммы в формат изображения, например JPEG или PNG. Наше руководство покажет, как экспортировать диаграмму из Microsoft Excel и сохранить ее как отдельное изображение для дальнейшего использования и манипуляций.
-keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
+description: Узнайте, как использовать Aspose.Cells for .NET для преобразования диаграммы в графический формат, такой как JPEG или PNG. Наш руководство продемонстрирует, как экспортировать диаграмму из Microsoft Excel и сохранить её как самостоятельное изображение для дальнейшего использования и обработки.
+keywords: Aspose.Cells for .NET, Диаграмма в изображение, Microsoft Excel, Преобразование изображения, Экспорт, Самостоятельное изображение.
 linktitle: Диаграмма в изображение
 type: docs
 weight: 46
 url: /ru/net/chart-to-image/
 ---
-##  **Рендеринг диаграмм**
 
- Aspose.Cells API-интерфейсы поддерживают преобразование диаграмм Excel в форматы изображений без необходимости использования каких-либо дополнительных инструментов или приложений. Для оказания поддержки рендеринга[**Диаграмма**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) класс разоблачил[**Изображать**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) методы с множеством перегрузок, которые наилучшим образом соответствуют требованиям приложения.
+## **Диаграммы отображения**
 
-###  **Рендеринг диаграмм в изображения**
+API Aspose.Cells поддерживает преобразование диаграмм Excel в графические форматы без необходимости дополнительных инструментов или приложений. Для предоставления поддержки рендеринга класс [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) предоставляет методы [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) с различными перегрузками, чтобы оптимально подходить для требований приложения.
 
-[**Диаграмма.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) Метод имеет множество перегрузок для поддержки как простого, так и расширенного рендеринга. Если требованием приложения является отображение диаграммы в размерах по умолчанию, мы предлагаем вам использовать[**Диаграмма.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)метод следующим образом.
+### **Отображение диаграмм в изображения**
+
+Метод [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) имеет различные перегрузки для поддержки простого и расширенного рендеринга. Если требуется отобразить диаграмму в её стандартных размерах, мы предлагаем использовать метод [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index), как показано ниже.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
- Также возможно отображать диаграммы в изображениях с расширенными настройками. Aspose.Cells API предоставили перегруженную версию[**Диаграмма.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) метод, который может принять экземпляр[**Параметры изображения или печати**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)при этом позволяя указать такие параметры, как разрешение, режим сглаживания, формат изображения и так далее.
+Также возможно отображать диаграммы в изображения с расширенными настройками. API Aspose.Cells предоставляет перегрузку метода [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index), который может принимать экземпляр [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), позволяя при этом указывать параметры, такие как разрешение, режим сглаживания, формат изображения и так далее.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-##  **Поддерживаемые типы диаграмм для рендеринга**
+## **Поддерживаемые типы диаграмм для отображения**
 
- Существует несколько типов диаграмм, которые в настоящее время не поддерживаются для рендеринга. Такие типы диаграмм содержат**N** в списке **Поддерживаемых** столбец приведенной ниже таблицы.
+Существует несколько видов диаграмм, которые в настоящее время не поддерживаются для рендеринга. Такие виды диаграмм содержат **N** в столбце **Поддерживаемые** в таблице ниже.
 
-|**Тип диаграммы**|**Подтип диаграммы**|**Поддерживается**|
+|Тип диаграммы|Подтип диаграммы|Поддерживается|
 | :- | :- | :- |
-|**Столбец**|Столбец|*ДА**|
-| |СтолбецСложенный|*ДА**|
-| |Столбец100Процент|*ДА**|
-| |Столбец3DКластерный|*ДА**|
-| |Столбец3DСложенный|*ДА**|
-| |Столбец3D100PercentStacked|*ДА**|
-| |Колонка3D|*ДА**|
-|**Бар**|Бар|*ДА**|
-| |БарСтекированный|*ДА**|
-| |Бар100ПроцентСложенный|*ДА**|
-| |Бар3DКластерный|*ДА**|
-| |Бар3DСложенный|*ДА**|
-| |Бар3D100ПроцентСложенный|*ДА**|
-|**Линия**|Линия|*ДА**|
-| |Линия с накоплением|*ДА**|
-| |Линия100Процент|*ДА**|
-| |LineWithDataMarkers|*ДА**|
-| |LineStackedWithDataMarkers|*ДА**|
-| |Line100PercentStackedWithDataMarkers|*ДА**|
-| |Линия3D|*ДА**|
-|**Пирог**|Пирог|*ДА**|
-| |Пирог3D|*ДА**|
-| |ПирогПирог|*ДА**|
-| |ПирогВзорвался|*ДА**|
-| |Пирог3DВзорванный|*ДА**|
-| |пироговый бар|*ДА**|
-|**Разброс**|Разброс|*ДА**|
-| |ScatterConnectedByCurvesWithDataMarker|*ДА**|
-| |ScatterConnectedByCurvesWithoutDataMarker|*ДА**|
-| |ScatterConnectedByLinesWithDataMarker|*ДА**|
-| |ScatterConnectedByLinesWithoutDataMarker|*ДА**|
-|**Область**|Область|*ДА**|
-| |ПлощадьСложенный|*ДА**|
-| |Площадь100ПроцентовСложены|*ДА**|
-| |Площадь3D|*ДА**|
-| |Площадь3DСложенный|*ДА**|
-| |Площадь3D100ПроцентСложенный|*ДА**|
-|**Пончик**|Пончик|*ДА**|
-| |ПончикВзорванный|*ДА**|
-|**Радар**|Радар|*ДА**|
-| |РадарСДаннымиМаркерами|*ДА**|
-| |РадарЗаполнен|*ДА**|
-|**Поверхность**|Поверхность3D|N|
-| |ПоверхностьКаркас3D|N|
-| |ПоверхностьКонтур|N|
-| |ПоверхностьКонтурКаркас|N|
-|**Пузырь**|Пузырь|*ДА**|
-| |Пузырь3D|N|
-|**Запас**|ФондовыйВысокийНизкийЗакрыть|*ДА**|
-| |ФондовыйОткрытыйВысокийНизкийЗакрыть|*ДА**|
-| |ФондовыйОбъемВысокийНизкийЗакрыть|*ДА**|
-| |ФондовыйОбъемОткрытьВысокийНизкийЗакрыть|*ДА**|
-|**Цилиндр**|Цилиндр|*ДА**|
-| |ЦилиндрСложенный|*ДА**|
-| |Цилиндр100Процентов|*ДА**|
-| |ЦилиндрическийБар|*ДА**|
-| |ЦилиндрическийБарСложенный|*ДА**|
-| |ЦилиндрическийБар100%С накоплением|*ДА**|
-| |ЦилиндрическаяКолонна3D|*ДА**|
-|**Конус**|Конус|*ДА**|
-| |КонусСложенный|*ДА**|
-| |Конус100ПроцентовСложены|*ДА**|
-| |КоническийБар|*ДА**|
-| |КоническийБарСложенный|*ДА**|
-| |КоническийБар100ПроцентСложенный|*ДА**|
-| |КоническаяКолонна3D|*ДА**|
-|**Пирамида**|Пирамида|*ДА**|
-| |ПирамидаСложены|*ДА**|
-| |Пирамида100Процентов|*ДА**|
-| |ПирамидаБар|*ДА**|
-| |ПирамидаБарСложены|*ДА**|
-| |ПирамидаБар100ПроцентСложенный|*ДА**|
-| |ПирамидаКолонна3D|*ДА**|
-|**КоробкаУсы**|КоробкаУсы|Y|
-|**Воронка**|Воронка|*ДА**|
-|**Линия Парето**|Линия Парето|*ДА**|
-|**Санберст**|Санберст|*ДА**|
-|**Древовидная карта**|Древовидная карта|*ДА**|
-|**Водопад**|Водопад|*ДА**|
-|**Гистограмма**|Гистограмма|Y|
-|**карта**|карта|*Н**|
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
+| |SurfaceContourWireframe|N|
+|**Bubble**|Bubble|**Y**|
+| |Bubble3D|N|
+|**Stock**|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
+|**BoxWhisker**|BoxWhisker|Y|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-Если вы попытаетесь преобразовать неподдерживаемые типы диаграмм в изображение или PDF, вы можете получить изображения с нулевым размером или пустое значение PDF.
+В случае попытки отобразить не поддерживаемые типы диаграмм в изображения или PDF, можно получить изображения нулевого размера или пустой PDF.
 
 {{% /alert %}}
 
-##  **Предварительные темы**
+## **Продвинутые темы**
 - [Преобразовать диаграмму в PDF](/cells/ru/net/chart-to-pdf/)

@@ -1,24 +1,25 @@
 ---
-title: Arbeta med datavisningsformat för DataField i pivottabell
+title: Att arbeta med dataformat för datarad i pivottabell
 type: docs
 weight: 140
 url: /sv/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/
-description: Hur man arbetar med datavisningsformat för DataField i pivottabell med Aspose.Cells for Python via .NET.
-keywords: Work with data display formats of DataField in Pivot Table.
+description: Hur man arbetar med dataformat för visning av DataField i Pivot tabel med Aspose.Cells för Python via .NET.
+keywords: Aspose.Cells för Python Excel, Excel Python bibliotek, Arbeta med dataformat för visning av DataField i Pivot tabel.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET stöder alla datavisningsformat i DataField.
+Aspose.Cells för Python via .NET stöder alla dataformat för visning av DataField.
 
 {{% /alert %}}
 
-##  **"Rank minst till störst" och "Rank störst till minsta" visningsformatalternativ**
+## **Sätt "Rangera minst till störst" och "Rangera störst till minst" alternativ för visningsformat**
 
-Aspose.Cells for Python via .NET ger möjlighet att ställa in visningsformatalternativet för pivotfält. För detta tillhandahåller API[**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/) fast egendom. För att rangordna störst till minst kan du ställa in[**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/)egendom till[**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfielddatadisplayformat/). Följande kodavsnitt visar hur du ställer in alternativen för visningsformat.
+Aspose.Cells för Python via .NET ger möjlighet att ställa in visningsformatalternativet för pivottabellfält. För detta tillhandahåller API:et egenskapen [**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/). För att rangera störst till minst kan du ställa in [**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/) egenskapen till [**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfielddatadisplayformat/). Följande kodsnutt demonstrerar inställning av visningsformatalternativ.
 
-Exempel på käll- och utdatafiler kan laddas ner härifrån för att testa exempelkoden:
+Provfil och utdatafiler kan laddas ner här för att testa provkoden:
 
-[Excel-källfil](101089332.xlsx)
+[Käll-Excel-fil](101089332.xlsx)
 
 [Utdata Excel-fil](101089333.xlsx)
 

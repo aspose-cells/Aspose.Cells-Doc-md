@@ -1,28 +1,29 @@
-﻿---
-title: اكتشف ما إذا كانت ورقة العمل هي ورقة حوار
+---
+title: البحث عما إذا كانت ورقة العمل هي ورقة حوار
 type: docs
 weight: 100
 url: /ar/java/find-if-the-worksheet-is-dialog-sheet/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-ورقة الحوار هي تنسيق قديم للورقة يحتوي على مربع حوار. يمكن إدراج هذه الورقة بواسطة إصدار أقدم من Microsoft Excel على سبيل المثال 2003 كما هو موضح في لقطة الشاشة هذه. يمكن أيضًا إدراجه مع VBA في الإصدارات الأحدث مثل Microsoft Excel 2016.
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به: image_بديل_نص](find-if-the-worksheet-is-dialog-sheet_1.png)
+ورقة الحوار هي تنسيق قديم للورقة التي تحتوي على مربع حوار. يمكن إدراج مثل هذه الورقة بواسطة إصدار أقدم من Microsoft Excel مثل 2003 كما هو موضح في لقطة الشاشة هذه. كما يمكن إدراجها مع VBA في الإصدارات الأحدث مثل Microsoft Excel 2016.
 
-يمكنك معرفة ما إذا كانت الورقة عبارة عن ورقة حوار أو نوع آخر من الأوراق به[**نوع ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)تم توفير الخاصية بواسطة Aspose.Cells. إذا تم إرجاع قيمة التعداد[**نوع الورقة**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)، فهذا يعني أنك تتعامل مع ورقة حوار.
+![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-## **اكتشف ما إذا كانت ورقة العمل هي ورقة حوار**
+يمكنك معرفة ما إذا كانت الورقة هي ورقة حوار أو نوع آخر من الورقة باستخدام [**Worksheet.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type) خاصية المقدمة من Aspose.Cells. إذا عادت قيمة التعداد [**SheetType.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)، فإن ذلك يعني أنك تتعامل مع ورقة حوار.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](64716841.xlsx)الذي يحتوي على ورقة حوار. يتحقق من ملف[**نوع ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)الممتلكات تقارن مع[**نوع الورقة**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)ثم يطبع الرسالة. يرجى الاطلاع على إخراج وحدة التحكم لعينة التعليمات البرمجية الواردة أدناه للحصول على مزيد من المساعدة.
+## **العثور على ورقة العمل هل هي ورقة حوار**
 
-## **عينة من الرموز**
+يقوم الكود المصدري التالي بتحميل [ملف إكسل عيني](64716841.xlsx) الذي يحتوي على ورقة حوار. يقوم بفحص [**Worksheet.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type) الخاصية ويقارنها بـ [**SheetType.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG) ثم يقوم بطباعة الرسالة. يرجى الرجوع إلى إخراج الوحدة التحكم للكود المصدري العيني المعطى أدناه للحصول على مزيد من المساعدة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-FindIfWorksheetIsDialogSheet.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Worksheet is a Dialog Sheet.
 

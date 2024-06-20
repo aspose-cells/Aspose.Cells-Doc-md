@@ -1,23 +1,24 @@
-﻿---
-title: Маркеры изображений в Aspose.Cells
+---
+title: Изображения в Aspose.Cells
 type: docs
 weight: 20
 url: /ru/net/image-markers-in-aspose-cells/
 ---
-Aspose.Cells интеллектуальные маркеры также поддерживают маркеры изображений. В этом разделе показано, как вставлять изображения с помощью интеллектуальных маркеров.
+
+Умные маркеры Aspose.Cells также поддерживают изображения. Этот раздел покажет вам, как вставлять изображения с помощью умных маркеров.
 ## **Параметры изображения**
-Параметры интеллектуального маркера для управления изображениями.
+Умные маркеры для управления изображениями.
 
-- **Изображение: FitToCell** - Автоматически подгонять изображение к высоте строки ячейки и ширине столбца.
-- **Изображение:ScaleN** - Масштабировать высоту и ширину до N процентов.
-- **Изображение:Ширина:НинВысота:Нин** - Визуализация изображения N дюймов в высоту и N дюймов в ширину. Вы также можете
- укажите Левое и Верхнее положение (в пунктах).
+- **Изображение:FitToCell** - Автоматически подгонять изображение под высоту строки и ширину столбца.
+- **Изображение:МасштабN** - Масштабировать высоту и ширину до N процентов.
+- **Изображение:Ширина:Nдюймов&Высота:Nдюймов** - Отобразить изображение высотой N дюймов и шириной N дюймов. Вы также можете
+  указать позиции Left и Top (в точках).
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the image data.
 
-byte[]imageData = File.ReadAllBytes("Thumbnail.jpg");
+byte[] imageData = File.ReadAllBytes("Thumbnail.jpg");
 
 //Create a datatable.
 
@@ -35,7 +36,7 @@ dc.DataType = typeof(object);
 
 DataRow row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -45,7 +46,7 @@ imageData = File.ReadAllBytes("Desert.jpg");
 
 row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -70,5 +71,5 @@ designer.Process();
 designer.Workbook.Save("out_ImageSmartBook.xls");
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)
+## **Загрузить образец кода**
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)

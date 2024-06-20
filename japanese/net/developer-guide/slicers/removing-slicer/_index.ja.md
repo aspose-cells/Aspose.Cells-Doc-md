@@ -1,18 +1,19 @@
-﻿---
+---
 title: スライサーの削除
 type: docs
 weight: 30
 url: /ja/net/removing-slicer/
 ---
-## **考えられる使用シナリオ**
 
-Microsoft Excel でスライサーを削除する場合は、それを選択して、*消去*ボタン。同様に、プログラムで Aspose.Cells API を使用して削除する場合は、[**Worksheet.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove)方法。ワークシートからスライサーが削除されます。
+## **可能な使用シナリオ**
+
+Microsoft Excelでスライサーを削除する場合は、それを選択して*削除*ボタンを押してください。同様に、Aspose.Cells APIを使用して削除したい場合は、[**Worksheet.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove) メソッドを使用してください。これにより、ワークシートからスライサーを削除します。
 
 ## **スライサーの削除**
 
-次のサンプル コードは、[サンプル Excel ファイル](67338478.xlsx)既存のスライサーが含まれています。スライサーにアクセスしてから削除します。最後に、ワークブックを次のように保存します。[出力エクセルファイル](67338477.xlsx).次のスクリーンショットは、サンプル コードの実行後に削除されるスライサーを示しています。
+Aspose.Cellsはスライサーの形状のレンダリングをサポートしています。ワークシートを画像に変換したり、ワークブックをPDFやHTML形式で保存したりすると、スライサーが正しくレンダリングされます。
 
-![todo:画像_代替_文章](removing-slicer_1.png)
+![todo:image_alt_text](removing-slicer_1.png)
 
 ## **サンプルコード**
 

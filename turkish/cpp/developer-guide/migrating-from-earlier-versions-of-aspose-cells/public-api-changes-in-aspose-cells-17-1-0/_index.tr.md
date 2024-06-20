@@ -1,21 +1,22 @@
-﻿---
-title: Genel API Aspose.Cells 17.1.0'daki değişiklikler
+---
+title: Aspose.Cells 17.1.0 da Genel API Değişiklikleri
 type: docs
 weight: 20
 url: /tr/cpp/public-api-changes-in-aspose-cells-17-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 16.12.0 sürümünden 17.1.0 sürümüne Aspose.Cells API değişikliklerini açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, sürüm 16.12.0'den 17.1.0'a Aspose.Cells API'sindeki değişiklikleri açıklar ve modül/uygulama geliştiricileri için ilgi çekebilecek değişiklikleri içerir. Yalnızca yeni ve güncellenmiş genel yöntemler, eklenen ve kaldırılan sınıflar vb. değil, aynı zamanda Aspose.Cells'in arka planda davranışında herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Adlandırılmış Aralıklar için Destek**
- Aspose.Cells for C++ artık Adlandırılmış Aralıkların oluşturulmasını ve değiştirilmesini destekliyor. Aşağıdaki kod parçacığı, Aspose.Cells for C++ API'i kullanmanın ne kadar basit olduğunu gösterir.[adlandırılmış aralıklar oluştur](/cells/tr/cpp/create-named-range-in-a-workbook/).
+## **Eklenen API'lar**
+### **İsimlendirilmiş Aralıkları Destekleme**
+Aspose.Cells for C++ artık İsimlendirilmiş Aralıkların oluşturulmasını ve manipülasyonunu destekler. Aşağıdaki kod örneği, Aspose.Cells for C++ API'sini [ele almak için ne kadar basit olduğunu](/cells/tr/cpp/create-named-range-in-a-workbook/) gösterir.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Path of your directory where you want to read or write files from
 
@@ -57,11 +58,11 @@ wb->Save(outCreateNamedRange, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 
- Aspose.Cells for C++ API'leri, yeni Adlandırılmış Aralıklar oluşturmanın yanı sıra mevcut Adlandırılmış Aralıkları değiştirmeyi de destekler. Aşağıdaki kod parçacığı, Aspose.Cells for C++ API'i kullanır.[varolan bir adlandırılmış aralığı manipüle etmek](/cells/tr/cpp/manipulate-named-range-in-a-workbook/).
+Yeni İsimlendirilmiş Aralıklar oluşturmanın ötesinde, Aspose.Cells for C++ API'leri mevcut İsimlendirilmiş Aralıkları manipüle etmeyi de destekler. Aşağıdaki kod örneği, Aspose.Cells for C++ API'sini [mevcut bir isimlendirilmiş aralığı ele almak](/cells/tr/cpp/manipulate-named-range-in-a-workbook/) için kullanır.
 
 **C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Path of your directory where you want to read or write files from
 
@@ -98,55 +99,55 @@ nm->SetRefersTo((intrusive_ptr<String>)new String("=Sheet1!$D$5:$J$10"));
 wb->Save(outManipulateRange, SaveFormat_Xlsx);
 
 {{< /highlight >}}
-### **ICells::LinkToXmlMap Yöntemi Eklendi**
-ICells sınıfına, bir XML eşlemesini bağlamada yararlı olan LinkToXmlMap yöntemi eklendi.
-### **ICells::ImportCSV Yöntemi Eklendi**
-Bir CSV dosyasını bir çalışma sayfasının hücrelerine içe aktarmak için kullanışlı olan ICells sınıfına ImportCSV yöntemi eklendi.
-### **ICells::ImportTwoDimensionArray Yöntemi Eklendi**
-GetIProtectedRangeCollection yöntemi, iki boyutlu bir veri dizisini bir çalışma sayfasına aktarmak için yararlı olan ICells sınıfına eklenmiştir.
-### **IWorksheet::GetIProtectedRangeCollection Yöntemi Eklendi**
-GetIProtectedRangeCollection yöntemi, IProtectedRange nesnelerinin koleksiyonunun alınmasında yararlı olan IWorksheet sınıfına eklendi.
-### **IWorksheet::GetIProtectedRangeCollection Yöntemi Eklendi**
-Çalışma sayfasından düzenleme aralığı koleksiyonunun alınmasında kullanışlı olan GetIProtectedRangeCollection yöntemi, IWorksheet sınıfına eklenmiştir.
-### **IWorkbookSettings::ClearPivottables Yöntemi Eklendi**
-ClearPivottables yöntemi, belirli bir elektronik tablodan tüm Pivot Tabloları temizlemede yararlı olan IWorkbookSettings sınıfına eklenmiştir.
-### **IWorksheetCollection::CreateIRange Yöntemi Eklendi**
-IWorksheetCollection sınıfına, hücre referanslarını dize biçiminde ileterek IRange nesnesinin oluşturulmasında yararlı olan CreateIRange yöntemi eklendi.
-### **IExternalLink::IsVisible Yöntemi Eklendi**
-IsVisible yöntemi, Excel uygulamasında harici bir bağlantının görünürlük durumunu alır.
-### **GetScaleCrop & SetScaleCrop Yöntemleri Eklendi**
-Aspose.Cells for C++ 17.1.0, GetScaleCrop & SetScaleCrop yöntemlerini IBuiltInDocumentPropertyCollection sınıfına maruz bıraktı. Bu yöntemler, belge küçük resminin görüntüleme modunu belirten ScaleCrop özelliğini almak veya ayarlamak için kullanışlıdır.
-### **GetLinksUpToDate & SetLinksUpToDate Yöntemleri Eklendi**
-Aspose.Cells for C++ 17.1.0, GetLinksUpToDate & SetLinksUpToDate yöntemlerini IBuiltInDocumentPropertyCollection sınıfına maruz bıraktı. Bu yöntemler, bir belgedeki köprülerin güncel olup olmadığını gösteren LinkUpToDate özelliğini almak veya ayarlamak için kullanışlıdır.
-### **GetAbsolutePath & SetAbsolutePath Yöntemleri Eklendi**
-Aspose.Cells for C++ 17.1.0, GetAbsolutePath & SetAbsolutePath yöntemlerini IWorkbook sınıfına gösterdi. Bu yöntemler, yalnızca harici bağlantılar için kullanılabilen dosyanın mutlak yolunu almak veya ayarlamak için kullanışlıdır.
-### **GetFormula & SetFormula Yöntemleri Eklendi**
-Aspose.Cells for C++'in bu sürümü, IListColumn sınıfı için GetFormula & SetFormula yöntemlerini kullanıma sunmuştur. Bu yöntemler, bir liste sütununun formülünü almak veya ayarlamak için kullanışlıdır.
-### **GetCheckCompatibility & SetCheckCompatibility Yöntemleri Eklendi**
-Aspose.Cells for C++'in bu sürümü, IWorkbookSettings sınıfı için GetCheckCompatibility & GetCheckCompatibility yöntemlerini kullanıma sunmuştur. Bu yöntemler, çalışma kitabını kaydederken API'in uyumluluğu denetlemesi gerekip gerekmediğini gösteren uyumluluk denetimi özelliğini almak veya ayarlamak için kullanışlıdır. Varsayılan değer true'dur ve uygulama gereksinimi uyumluluğu kontrol etmek değilse false olarak ayarlanabilir.
-### **GetILightCellsDataHandler & SetILightCellsDataHandler Yöntemleri Eklendi**
-Aspose.Cells for C++ şimdi ILoadOptions sınıfı için GetILightCellsDataHandler & SetILightCellsDataHandler yöntemlerini kullanıma sundu. Bu yöntemler, şablon dosyasını okurken hücre verilerini işlemek için veri işleyiciyi belirtir.
-### **GetCultureInfo & SetCultureInfo Yöntemleri Eklendi**
-Aspose.Cells for C++, ILoadOptions sınıfı için GetCultureInfo & SetCultureInfo yöntemlerini kullanıma sundu. Bu yöntemler, dosya yüklenirken sistem kültürü bilgisini alabilir veya ayarlayabilir.
-## **Kaldırılan API'ler**
-### **Kaldırılan ICells::MaxDataRowInColumn Yöntemi**
-Bunun yerine ICells::GetLastDataRow yöntemini kullanmanız önerilir.
-### **Kaldırılan ICell::GetConditionalIStyle Yöntemi**
-Bunun yerine ICell::GetIConditionalFormattingResult yöntemini kullanmanız önerilir.
-### **Kaldırılan IPageSetup::GetDraft & SetDraft Yöntemleri**
-Bunun yerine IPageSetup::GetPrintDraft & IPageSetup::SetPrintDraft yöntemlerinin kullanılması önerilir.
+### **ICells::LinkToXmlMap Metodu Eklendi**
+LinkToXmlMap metodu, bir XML haritasını bağlamak için yararlı olan ICells sınıfına eklenmiştir.
+### **ICells::ImportCSV Metodu Eklendi**
+ImportCSV metodu, bir CSV dosyasının bir çalışma sayfasının hücrelerine aktarılmasında kullanışlı olan ICells sınıfına eklenmiştir.
+### **ICells::ImportTwoDimensionArray Metodu Eklendi**
+IProtectedRangeCollection'nin  olan GetIProtectedRangeCollection metodu, bir çalışma sayfasına iki boyutlu bir veri dizisinin aktarılmasında kullanışlıdır.
+### **IWorksheet::GetIProtectedRangeCollection Metodu Eklendi**
+GetIProtectedRangeCollection metodu, bir IWorksheet sınıfına eklendi ve çalışma sayfasındaki IProtectedRange nesnelerinin koleksiyonunu almakta kullanışlıdır.
+### **IWorksheet::GetIProtectedRangeCollection Metodu Eklendi**
+GetIProtectedRangeCollection metodu, bir IWorksheet sınıfına eklendi ve çalışma sayfasından düzenleme aralığı koleksiyonunu alma işlevine sahiptir.
+### **IWorkbookSettings::ClearPivottables Metodu Eklendi**
+ClearPivottables metodu, bir IWorkbookSettings sınıfına eklendi ve belirli bir elektronik tablodan tüm Pivottable'ların temizlenmesinde kullanışlıdır.
+### **IWorksheetCollection::CreateIRange Metodu Eklendi**
+CreateIRange metodu, bir IWorksheetCollection sınıfına eklenmiş olup, hücre referanslarını dize formatında geçerek IRange nesnesini oluşturmada kullanışlıdır.
+### **IExternalLink::IsVisible Metodu Eklendi**
+IsVisible metodu, bir dış bağlantının Excel uygulamasında görünürlük durumunu alır.
+### **GetScaleCrop ve SetScaleCrop Metotları Eklendi**
+Aspose.Cells for C++ 17.1.0, IBuiltInDocumentPropertyCollection sınıfına GetScaleCrop ve SetScaleCrop yöntemlerini açığa çıkardı. Bu yöntemler, belgenin küçük resminin görüntüleme modunu gösteren ScaleCrop özelliğini almak veya ayarlamak için kullanışlıdır.
+### **GetLinksUpToDate ve SetLinksUpToDate Yöntemleri Eklendi**
+Aspose.Cells for C++ 17.1.0, IBuiltInDocumentPropertyCollection sınıfına GetLinksUpToDate ve SetLinksUpToDate yöntemlerini açığa çıkardı. Bu yöntemler, belgedeki bağlantıların güncel olup olmadığını gösteren LinkUpToDate özelliğini almak veya ayarlamak için kullanışlıdır.
+### **GetAbsolutePath ve SetAbsolutePath Yöntemleri Eklendi**
+Aspose.Cells for C++ 17.1.0, IWorkbook sınıfına GetAbsolutePath ve SetAbsolutePath yöntemlerini açığa çıkardı. Bu yöntemler, yalnızca dış bağlantılar için kullanılabilecek olan dosyanın mutlak yolunu almak veya ayarlamak için kullanışlıdır.
+### **GetFormula ve SetFormula Yöntemleri Eklendi**
+Bu sürümde Aspose.Cells for C++, IListColumn sınıfı için GetFormula ve SetFormula yöntemlerini açığa çıkardı. Bu yöntemler, listedeki sütunun formülünü almak veya ayarlamak için kullanışlıdır.
+### **GetCheckCompatibility ve SetCheckCompatibility Yöntemleri Eklendi**
+Bu sürümde Aspose.Cells for C++, IWorkbookSettings sınıfı için GetCheckCompatibility ve GetCheckCompatibility yöntemlerini açığa çıkardı. Bu yöntemler, çalışma kitabını kaydederken API'nın uyumluluğu kontrol etmesi gerekip gerekmediğini gösteren uyumluluk kontrol özelliğini almak veya ayarlamak için kullanışlıdır. Varsayılan değer true'dur ve gereksinim durumunda uyumluluğu kontrol etmemesi için false olarak ayarlanabilir.
+### **GetILightCellsDataHandler ve SetILightCellsDataHandler Yöntemleri Eklendi**
+Aspose.Cells for C++ artık ILoadOptions sınıfı için GetILightCellsDataHandler ve SetILightCellsDataHandler yöntemlerini ortaya çıkardı. Bu yöntemler, şablon dosyasını okurken hücre verilerini işlemek için veri işleyiciyi belirtir.
+### **GetCultureInfo ve SetCultureInfo Yöntemleri Eklendi**
+Aspose.Cells for C++, ILoadOptions sınıfı için GetCultureInfo ve SetCultureInfo yöntemlerini açığa çıkardı. Bu yöntemler, dosya yükleme sırasındaki sistem kültür bilgisini almak veya ayarlamak için kullanılır.
+## **Removed APIs**
+### **ICells::MaxDataRowInColumn Yöntemi Kaldırıldı**
+Icells::GetLastDataRow yönteminin kullanılması önerilir.
+### **ICell::GetConditionalIStyle Yöntemi Kaldırıldı**
+ICell::GetIConditionalFormattingResult yönteminin kullanılması önerilir.
+### **IPageSetup::GetDraft ve SetDraft Yöntemleri Kaldırıldı**
+IPageSetup::GetPrintDraft ve IPageSetup::SetPrintDraft yöntemlerinin kullanılması önerilir.
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for C++ 17.1.0 sürümüyle, kullanılmayan ve dolayısıyla gereksiz görülen birkaç yöntemi kaldırdık. İşte tüm bu tür yöntemlerin listesi.
+Aspose.Cells for C++ 17.1.0 ile, kullanılmayan ve gereksiz görülen birkaç yöntem kaldırıldı. İşte böyle yöntemlerin tüm listesi.
 
-- IPaneCollection::GetAcitvePaneType & SetAcitvePaneType Yöntemleri
-- IRange::ToString Yöntem
+- IPaneCollection::GetAcitvePaneType ve SetAcitvePaneType Yöntemleri
+- IRange::ToString Yöntemi
 - IRow::Equals Yöntemi
-- IWorkbook::SetISettings Yöntem
-- ICell::ToString() Yöntem
-- ICell::Equals(ObjectPtr) Yöntem
-- ICell::GetHashCode Yöntem
-- IWorksheet::ToString Yöntem
+- IWorkbook::SetISettings Yöntemi
+- ICell::ToString() Yöntemi
+- ICell::Equals(ObjectPtr) Yöntemi
+- ICell::GetHashCode Yöntemi
+- IWorksheet::ToString Yöntemi
 
 {{% /alert %}}

@@ -3,14 +3,15 @@ title: Работа с функцией выделения GridJs
 type: docs
 weight: 250
 url: /ru/net/aspose-cells-gridjs/highlight/
-description: В этой статье описывается, как использовать GridJ для выделения текста ячейки, диапазонов ячеек, фигур и изображений.
-keywords: highlight, highlight spreadsheet,redaction,remarks
+description: В этой статье описано, как использовать выделение текста ячейки, диапазонов ячеек, форм и изображений в GridJs.
+keywords: GridJs, выделение, выделить таблицу, редактирование, примечания
 ---
-#  Работа с функцией выделения GridJs
- Мы поддерживаем указанные ниже API JS для функции выделения.
+
+# Работа с функцией выделения GridJs 
+Мы поддерживаем следующие JS API для функции выделения 
 
 
--  Включите выделение и установите стиль выделения. Все API выделения вступят в силу только после того, как стиль выделения будет установлен на активном листе.
+- Включить выделение и установить стиль выделения, все API выделения будут применяться только после установки стиля выделения в активном рабочем листе 
 ```javascript
 xs.sheet.showHighlights(style)
  // the parameter is:
@@ -18,7 +19,7 @@ xs.sheet.showHighlights(style)
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
--  обновить стиль выделения, установленный на активном листе
+- Обновить установленный стиль выделения в активном рабочем листе 
 ```javascript
 xs.sheet.updateHighlightStyle(style)
  // the parameter is:
@@ -27,11 +28,11 @@ xs.sheet.updateHighlightStyle(style)
 ```
 
 
--  Отключить выделение на активном листе
+- Отключить выделение  в активном рабочем листе    
 ```javascript
 xs.sheet.hideHighlights()
 ```
--  Добавьте текст ячейки, который нужно выделить на активном листе.
+- Добавить текст ячейки для выделения в активный рабочий лист 
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -42,7 +43,7 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
     //it support multiple range postion inside one cell
 ```
 
--  Удалить выделение текста ячейки в массиве на активном листе
+- Удалить выделение для текста ячейки в массиве в активном рабочем листе 
 ```javascript
 xs.sheet.removeHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -52,12 +53,12 @@ xs.sheet.removeHighlightText(row,col,startpostion,endposition)
 	endpostion: highlight end postion in cell text 
 ```
 
-- Получить массив для выделения текста ячейки на активном листе
+- Получить массив для выделения текста ячейки в активном рабочем листе   
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
--  Добавьте диапазон ячеек, чтобы выделить его на активном листе.
+- Добавить диапазон ячеек для выделения в активном рабочем листе 
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
@@ -67,7 +68,7 @@ xs.sheet.addHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Удалить выделение диапазона ячеек в массиве на активном листе
+- Удалить выделение для диапазона ячеек в массиве в активном рабочем листе 
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
@@ -77,12 +78,12 @@ xs.sheet.removeHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Получить массив для выделения диапазона ячеек на активном листе
+- Получить массив для выделения диапазона ячеек в активном рабочем листе   
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
--  Установить диапазон ячеек для инвертирования выделения на активном листе
+- Установить диапазон ячеек для инверсного выделения в активном рабочем листе 
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
@@ -92,38 +93,38 @@ xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Удалить выделение для инвертирования выделения на активном листе
+- Удалить выделение для инверсного выделения в активном рабочем листе 
 ```javascript
 xs.sheet.removeHighlightInverseRange()
-     
+
 ```
 
--  Получить диапазон ячеек обратного выделения на активном листе
+- Получить диапазон ячеек инверсного выделения в активном рабочем листе 
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
--  Добавьте фигуру, чтобы выделить массив на активном листе
+- Добавить форму в массив выделения в активном рабочем листе 
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Удалить форму выделения в массиве на активном листе
+- Удалить выделение формы в массиве в активном рабочем листе 
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Получить массив для выделения формы на активном листе
+- Получить массив для выделения формы в активном рабочем листе  
 ```javascript
 xs.sheet.getHighlightShaps()
 ```
 
--  Добавьте текстовое поле для выделения, текстовое поле — это особый вид фигуры, свойство типа которого: «TextBox» на активном листе.
+- Добавить текстовое поле для выделения, текстовое поле - это особый тип формы, свойство типа которой: "TextBox", в активном рабочем листе 
 ```javascript
 xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -134,7 +135,7 @@ xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
 ```
 
 
--  Удалить диапазон выделения в текстовом поле. Текстовое поле — это особый вид фигуры, свойство типа которого: «TextBox» на активном листе.
+- Удалить выделение диапазона в текстовом поле, текстовое поле - это особый тип формы, свойство типа которой: "TextBox", в активном рабочем листе 
 ```javascript
 xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -144,26 +145,26 @@ xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     //it support multiple range postion inside one textbox
 ```
 
--  Добавьте изображение, чтобы выделить массив на активном листе
+- Добавить изображение для выделения массива в активном рабочем листе 
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
-- Удалить выделенное изображение в массиве на активном листе
+- Удалить выделение изображения в массиве в активном рабочем листе 
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--  Получить массив для выделения изображения
+- Получить массив для выделения изображения  
 ```javascript
 xs.sheet.getHighlightImages()
 ```
 
--  установите, следует ли выделять все объекты на активном листе, включать все фигуры и изображения, а также всю область рабочего листа
+- Установить, следует ли выделять все объекты на активном листе, включая все формы и изображения, а также всю область листа
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -172,7 +173,7 @@ xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
 ```
 
 
--  Установить функцию выделения пользовательского изображения
+- Установить пользовательскую функцию выделения изображения
 ```javascript
 xs.sheet.setCustomHighlightImgFunc(func)
    // the parameters are:
@@ -183,18 +184,18 @@ xs.sheet.setCustomHighlightImgFunc(func)
             imgobj.filters[0] = ishighlight ? new fabric.Image.filters.Sepia() : false;
             imgobj.applyFilters();
         }
-    
+
 ```
 
--  очистить настройку выделения для активного листа
+- Очистить настройки выделения для активного листа
 ```javascript
 xs.sheet.clearHighlights()
 
 ```
 
-###  Выделение объекта текстового поля
-текстовое поле — это особый вид фигуры, свойство типа которого: «TextBox»,
-например: приведенный ниже код покажет, какая фигура является текстовым полем
+### Выделение для объекта текстового поля
+текстовое поле - это особый тип формы, свойство типа которой: "TextBox",
+например: нижеприведенный код покажет, какая форма является текстовым полем
 
 ```javascript
 for (let shape of xs.sheet.data.shapes) {
@@ -203,7 +204,7 @@ for (let shape of xs.sheet.data.shapes) {
     }
 }
 ```
--  Добавить выделение для объекта текстового поля
+- Добавить выделение для объекта текстового поля
 ```javascript
     addHighlight(startpostion,endposition)
     // the parameters are:
@@ -218,7 +219,7 @@ const textbox=xs.sheet.data.shapes[0];
  textbox.addHighlight(18,28);
 ```
 
--  Удалить выделение объекта текстового поля
+- Удалить выделение для объекта текстового поля 
 ```javascript
     removeHighlight(startpostion,endposition)
     // the parameters are:
@@ -229,7 +230,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.removeHighlight(5,10);
 ```
 
--  Получить выделение для объекта текстового поля
+- Получить выделение для объекта текстового поля 
 ```javascript
     getHighlight()
     //for example,we assume shape 0 is a textbox object
@@ -237,29 +238,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.getHighlight();
 ```
 
--  Изменить цвет фона для объекта текстового поля
-```javascript
-    setBackgroundColor(color)
-    // the parameters are:
-        color: the html color value in hex string value
-    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
-     const textbox=xs.sheet.data.shapes[0];
-     textbox.setBackgroundColor('#FFFF00');
-```
--  Автоматическое изменение цвета фона и цвета текста для получения визуального активного эффекта.
-```javascript
-    setActiveEffect(boolvalue)
-    // the parameters are:
-        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
-```
-
--  скрыть/показать текстовое содержимое в объекте текстового поля
-```javascript
-    hideText(boolvalue)
-    // the parameters are:
-        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
-```
 
 
 
-Вы можете найти больше на нашей демонстрационной странице GitHub https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html.
+Вы можете найти больше на нашей демонстрационной странице github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

@@ -1,25 +1,26 @@
-﻿---
-title: Cell'de Doğrulama Uygulayın
+---
+title: Hücreye Uygulanan Doğrulamayı Al
 type: docs
 weight: 200
 url: /tr/net/get-validation-applied-on-a-cell/
-description: Bu makale, C# ile Cell üzerinde doğrulamanın nasıl uygulanacağını gösterir.
-keywords: apply cell validation in excel with c#, apply validation on a cell in excel with c#, apply validation in excel with c#, cell validation in excel with c#, c# apply cell validation in excel, c# apply validation on a cell in excel, c# cell validation in excel, c# cell validation
+description: Bu makalede C# ile bir hücreye doğrulama uygulamanın nasıl yapılacağını göstermektedir
+keywords: c# ile excelde hücre doğrulaması uygulama, excelde bir hücreye doğrulama uygulama, excelde doğrulama uygulama, excelde hücre doğrulaması uygulayan c#, c# ile excelde bir hücreye doğrulama uygulama, c# ile excelde hücre doğrulaması uygulama, c# ile excelde hücre doğrulama uygulayan
 ---
+
 {{% alert color="primary" %}}
 
-Bir hücreye uygulanan doğrulamayı almak için Aspose.Cells'i kullanabilirsiniz. Aspose.Cells sağlar[**Cell.GetValidation()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) Bu amaç için yöntem. Hücrede geçerli bir doğrulama yoksa, null değerini döndürür.
+Aspose.Cells'i kullanarak bir hücreye uygulanan doğrulamayı alabilirsiniz. Aspose.Cells bu amaçla [**Cell.GetValidation()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) yöntemini sağlar. Eğer hücreye uygulanan doğrulama yoksa, null değerini döndürür.
 
- Benzer şekilde, kullanabilirsiniz[**Worksheet.Validations.GetValidationInCell**](https://reference.aspose.com/cells/net/aspose.cells/validationcollection/methods/getvalidationincell) Satır ve sütun indekslerini sağlayarak bir hücreye uygulanan doğrulamayı elde etme yöntemi.
+Benzer şekilde, [**Worksheet.Validations.GetValidationInCell**](https://reference.aspose.com/cells/net/aspose.cells/validationcollection/methods/getvalidationincell) yöntemini kullanarak bir hücreye uygulanan doğrulamayı alabilirsiniz. Bu yöntem, satır ve sütun indislerini sağlayarak çalışmaktadır.
 
 {{% /alert %}}
 
-## Bir Cell'de uygulanan doğrulamayı almak için C# kodu
+## Bir Hücreye Uygulanan Doğrulamayı Almak İçin C# Kodu
 
-Aşağıdaki kod örneği, bir hücreye doğrulamanın nasıl uygulanacağını gösterir.
+Aşağıdaki kod örneği, bir hücreye uygulanan doğrulamayı almanın nasıl yapılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetValidationAppliedOnCell-GetValidationAppliedOnCell.cs" >}}
 
 ## İlgili Makaleler
 
-- [Veri doğrulama](/cells/tr/net/data-validation/)
+- [Veri Doğrulama](/cells/tr/net/data-validation/)

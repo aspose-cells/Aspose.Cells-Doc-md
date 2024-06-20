@@ -1,38 +1,39 @@
-﻿---
-title: API عام تغييرات في Aspose.Cells 16.10.0
+---
+title: تغييرات واجهة برمجة التطبيقات العامة في Aspose.Cells 16.10.0
 type: docs
 weight: 350
 url: /ar/java/public-api-changes-in-aspose-cells-16-10-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 9.0.0 إلى 16.10.0 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات لـ Aspose.Cells من الإصدار 9.0.0 إلى 16.10.0 التي قد تكون مثيرة للاهتمام لمطوري الوحدة / التطبيق. يتضمن ليس فقط الأساليب العامة الجديدة والمحدثة والفئات المضافة والمحذوفة وما إلى ذلك ، ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم تأثيرات الانعكاس**
-كشف Aspose.Cells 16.10.0 عن فئة ReflectionEffect إلى جانب خاصية Shape.Reflection من أجل التحكم في تأثيرات الانعكاس لعنصر الشكل. فئة ReflectionEffect لها الخصائص التالية.
+## **واجهات برمجة التطبيقات الجديدة**
+### **دعم لتأثيرات الانعكاس**
+قدمت Aspose.Cells 16.10.0 فئة ReflectionEffect بالإضافة إلى خاصية Shape.Reflection للتحكم في تأثيرات الانعكاس لكائن Shape. تحتوي فئة ReflectionEffect على الخصائص التالية.
 
-- ReflectionEffect.Blur: الحصول على / تعيين نصف قطر التمويه بوحدة النقاط.
-- ReflectionEffect.Direction: الحصول على / تحديد اتجاه منحدر تدرج ألفا بالنسبة إلى الشكل نفسه.
-- ReflectionEffect.Distance: الحصول على / تحديد مسافة الانعكاس في وحدة من النقاط.
-- ReflectionEffect.FadeDirection: يحصل / يحدد الاتجاه لتعويض الانعكاس.
-- ReflectionEffect.RotWithShape: يحصل / يحدد إذا كان الانعكاس يجب أن يدور مع الشكل.
-- ReflectionEffect.Size: الحصول على / تعيين موضع النهاية (على طول منحدر تدرج ألفا) لقيمة ألفا النهائية بوحدة النسبة المئوية.
-- ReflectionEffect.Transparency: الحصول على / تعيين درجة شفافية الانعكاس الأولي كقيمة من 0.0 (معتم) إلى 1.0 (واضح).
-- ReflectionEffect.Type: الحصول على / تعيين تأثير الانعكاس المحدد مسبقًا.
+- ReflectionEffect.Blur: يحصل/يضع قيمة نصف قطر الطمس بوحدة النقاط.
+- ReflectionEffect.Direction: يحصل/يعين اتجاه التدرج ألفا بالنسبة إلى الشكل نفسه.
+- ReflectionEffect.Distance: يحصل/يعين مسافة الانعكاس بوحدة النقاط.
+- ReflectionEffect.FadeDirection: يحصل/يعين الاتجاه لتحويل الانعكاس.
+- ReflectionEffect.RotWithShape: يحصل/يعين ما إذا كان الانعكاس يجب أن يدور مع الشكل.
+- ReflectionEffect.Size: يحصل/يعين الموضع النهائي (على طول التدرج ألفا) لقيمة نهاية ألفا بوحدة النسبة المئوية.
+- ReflectionEffect.Transparency: يحصل/يعين درجة شفافية الانعكاس البدءية كقيمة من 0.0 (غير شفاف) إلى 1.0 (واضحة).
+- ReflectionEffect.Type: يحصل/يعين تأثير الانعكاس المحدد مسبقًا.
 
-فيما يلي سيناريو الاستخدام البسيط لخاصية Shape.Reflection.
+ها هو سيناريو استخدام بسيط لخاصية Shape.Reflection.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[العمل مع تأثيرات الانعكاس](/cells/ar/java/working-with-the-reflection-effect-of-shape-or-chart/)
+تحقق من المقال المفصل عن [العمل مع تأثيرات الانعكاس](/cells/ar/java/working-with-the-reflection-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet containing a shape
 
@@ -68,27 +69,27 @@ book.save("output.xlsx");
 
 {{< /highlight >}}
 ### **دعم تأثيرات الظل**
-كشف Aspose.Cells 16.10.0 عن خاصية Shape.ShadowEffect جنبًا إلى جنب مع فئة ShadowEffect والتي تتيح معًا ضبط تأثير الظل على كائن الشكل. فئة ShadowEffect لها الخصائص التالية.
+قد أظهرت Aspose.Cells 16.10.0 خاصية Shape.ShadowEffect إلى جانب صنف ShadowEffect الذي يتيح بالكامل تعيين تأثير الظل على كائن Shape. يحتوي صنف ShadowEffect على الخصائص التالية.
 
-- ShadowEffect.Angle: الحصول على / ضبط زاوية الإضاءة التي تتراوح من 0 إلى 359.9 درجة.
-- ShadowEffect.Blur: الحصول على وتمويه الظل الذي يتراوح من 0 إلى 100 نقطة.
-- ShadowEffect.Color: الحصول على / تعيين لون الظل.
-- ShadowEffect.Distance: الحصول على / تحديد مسافة الظل التي تتراوح من 0 إلى 200 نقطة.
-- ShadowEffect.PresetType: الحصول على / تعيين نوع الظل المحدد مسبقًا للظل.
-- ShadowEffect.Size: الحصول على / تعيين حجم الظل الذي يتراوح من 0 إلى 2.0. سيكون بلا معنى في حالة الظل الداخلي.
-- ShadowEffect.Transparency: الحصول على / تعيين درجة شفافية الظل التي تتراوح من 0.0 (معتم) إلى 1.0 (واضح).
+- ShadowEffect.Angle: يحصل/يعين زاوية الإضاءة التي تتراوح بين 0 إلى 359.9 درجة.
+- ShadowEffect.Blur: يحصل/يعين ضبابية الظل التي تتراوح بين 0 إلى 100 نقطة.
+- ShadowEffect.Color: يحصل/يعين لون الظل.
+- ShadowEffect.Distance: يحصل/يعين المسافة الظل التي تتراوح بين 0 إلى 200 نقطة.
+- ShadowEffect.PresetType: يحصل/يعين نوع الظل المحدد مسبقًا للظل.
+- ShadowEffect.Size: يحصل/يعين حجم الظل الذي يتراوح بين 0 إلى 2.0.سيكون لا معنى له في حالة الظل الداخلي.
+- ShadowEffect.Transparency: يحصل/يعين درجة شفافية الظل التي تتراوح من 0.0 (غير شفاف) إلى 1.0 (واضحة).
 
-فيما يلي سيناريو استخدام بسيط للممتلكات المذكورة أعلاه.
+ها هو سيناريو استخدام بسيط للخاصية المذكورة أعلاه.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[العمل مع تأثيرات الظل](/cells/ar/java/working-with-the-shadow-effect-of-shape-or-chart/)
+تحقق من المقال المفصل حول [العمل مع تأثيرات الظل](/cells/ar/java/working-with-the-shadow-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet containing a shape
 
@@ -125,23 +126,23 @@ shadow.setDistance(80);
 book.save("output.xlsx");
 
 {{< /highlight >}}
-### **دعم تأثيرات الوهج**
-كشف Aspose.Cells 16.10.0 خاصية Shape.Glow جنبًا إلى جنب مع فئة GlowEffect التي تسمح معًا بضبط تأثير التوهج لكائن الشكل. تحدد فئة GlowEffect تأثير التوهج ، حيث تتم إضافة مخطط تمويه اللون خارج حواف الكائن باستخدام الخصائص التالية.
+### **الدعم لتأثيرات التوهج**
+أعرضت Aspose.Cells 16.10.0 خاصية Shape.Glow بالإضافة إلى فئة GlowEffect التي تُسمح معًا بتعيين تأثير التوهج لكائن الشكل. تحدد فئة GlowEffect تأثير توهج، حيث يتم إضافة إطار مضبب للون خارج حواف الكائن باستخدام الخصائص التالية.
 
-- GlowEffect.Size: الحصول على / تعيين نصف قطر التوهج بوحدة النقاط.
-- GlowEffect.Transparency: الحصول على / تعيين درجة شفافية تأثير التوهج التي تتراوح من 0.0 (معتم) إلى 1.0 (واضح).
+- GlowEffect.Size: يحصل/يقوم بتعيين نصف قطر التوهج بوحدة النقاط.
+- GlowEffect.Transparency: يحصل/يقوم بتعيين درجة شفافية تأثير التوهج تتراوح بين 0.0 (غير شفاف) و 1.0 (واضح).
 
-فيما يلي سيناريو الاستخدام البسيط لخاصية Shape.Glow.
+إليك سيناريو استخدام بسيط لخاصية Shape.Glow.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[العمل مع تأثير الوهج](/cells/ar/java/working-with-the-glow-effect-of-shape-or-chart/)
+تحقق من المقال المفصل حول [العمل مع تأثيرات التوهج](/cells/ar/java/working-with-the-glow-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet containing a shape
 
@@ -172,41 +173,41 @@ glow.setTransparency(0.5);
 book.save("output.xlsx");
 
 {{< /highlight >}}
-### **دعم تنسيق ثلاثي الأبعاد**
-كشف Aspose.Cells 16.10.0 عن خاصية Shape.ThreeDFormat جنبًا إلى جنب مع فئة ThreeDFormat والتي يمكن استخدامها معًا للتحكم في التنسيق ثلاثي الأبعاد لكائن الشكل. تمثل فئة ThreeDFormat التنسيق ثلاثي الأبعاد للشكل ولها الخصائص التالية.
+### **الدعم لتنسيق ثلاثي الأبعاد**
+أعرضت Aspose.Cells 16.10.0 خاصية Shape.ThreeDFormat بالإضافة إلى فئة ThreeDFormat التي يمكن استخدامها معًا للتحكم في تنسيق الأبعاد ثلاثية الشكل. تُمثل فئة ThreeDFormat تنسيق الأبعاد الثلاثية للشكل وتحتوي على الخصائص التالية.
 
-- ThreeDFormat.BottomBevelHeight: الحصول على / تعيين ارتفاع الشطبة السفلية أو المسافة التي يتم تطبيقها في الشكل ، في وحدة النقاط.
-- ThreeDFormat.BottomBevelType: الحصول على / تعيين نوع الشطبة السفلية أو إلى أي مدى يتم تطبيقه في الشكل ، في وحدة النقاط.
-- ThreeDFormat.BottomBevelWidth: الحصول على / تعيين عرض مجسم مشطوف الحواف السفلي أو إلى أي مدى يتم تطبيقه في الشكل ، في وحدة النقاط.
-- ThreeDFormat.ContourColor: الحصول على / تعيين لون محيط الشكل.
-- ThreeDFormat.ContourWidth: الحصول على / تعيين عرض المحيط على الشكل ، في وحدة النقاط.
-- ThreeDFormat.ExtrusionColor: الحصول على لون البثق على الشكل.
-- ThreeDFormat.ExtrusionHeight: الحصول على / تعيين ارتفاع البثق للشكل ، في وحدة النقاط.
-- ThreeDFormat.LightAngle: الحصول على / ضبط زاوية مصابيح البثق.
-- ThreeDFormat.Lighting: يحصل / يحدد نوع جهاز الإضاءة.
-- ThreeDFormat.LightingDirection: الحصول على / تحديد الاتجاه الذي يتم منه توجيه منصة الإضاءة بالنسبة إلى المشهد.
-- ThreeDFormat.Material: يمثل المادة المحددة مسبقًا التي يتم دمجها مع خصائص الإضاءة لإعطاء الشكل والمظهر النهائيين للشكل.
-- ThreeDFormat.Perspective: الحصول على / تعيين الزاوية التي يمكن من خلالها عرض كائن ThreeDFormat.
-- ThreeDFormat.PresetCameraType: الحصول على / تعيين كاميرا البثق المعدة مسبقًا.
-- ThreeDFormat.RotationX: الحصول على / تعيين دوران الشكل المبثوق حول المحور السيني بوحدة الدرجات.
-- ThreeDFormat.RotationY: الحصول على / تعيين دوران الشكل المبثوق حول المحور Y بوحدة الدرجات.
-- ThreeDFormat.RotationZ: الحصول على / تعيين دوران الشكل المبثوق حول المحور Z في وحدة الدرجات.
-- ThreeDFormat.TopBevelHeight: الحصول على / تعيين ارتفاع الشطبة العلوية أو المسافة التي يتم تطبيقها في الشكل ، في وحدة النقاط.
-- ThreeDFormat.TopBevelType: الحصول على / تعيين نوع مجسم مشطوف الحواف العلوي أو إلى أي مدى يتم تطبيقه في الشكل ، في وحدة النقاط.
-- ThreeDFormat.TopBevelWidth: الحصول على / تعيين عرض مجسم مشطوف الحواف العلوي أو إلى أي مدى يتم تطبيقه في الشكل ، في وحدة النقاط.
-- ThreeDFormat.Z: يحدد المسافة من الأرض للشكل ثلاثي الأبعاد.
+- ThreeDFormat.BottomBevelHeight: يحصل/يقوم بتعيين ارتفاع الحافة السفلية أو مدى تطبيقها على الشكل، بوحدة النقاط.
+- ThreeDFormat.BottomBevelType: يحصل/يقوم بتعيين نوع الحافة السفلية أو مدى تطبيقها على الشكل، بوحدة النقاط.
+- ThreeDFormat.BottomBevelWidth: يحصل/يقوم بتعيين عرض الحافة السفلية أو مدى تطبيقها على الشكل، بوحدة النقاط.
+- ThreeDFormat.ContourColor: يحصل/يقوم بتعيين لون التحديد على الشكل.
+- ThreeDFormat.ContourWidth: يحصل/يقوم بتعيين عرض التحديد على الشكل، بوحدة النقاط.
+- ThreeDFormat.ExtrusionColor: يحصل على لون الإرتفاع على الشكل.
+- ThreeDFormat.ExtrusionHeight: يحصل/يقوم بتعيين ارتفاع الإرتفاع المطبق على الشكل، بوحدة النقاط.
+- ThreeDFormat.LightAngle: يحصل/يقوم بتعيين زاوية أضواء الإرتفاع.
+- ThreeDFormat.Lighting: يحصل/يقوم بتعيين نوع الجو الخفيف.
+- ThreeDFormat.LightingDirection: يحصل/ يحدد الاتجاه الذي يتوجه منه معدات الإضاءة بالنسبة للمشهد.
+- ThreeDFormat.Material: يمثل المواد المُعينة التي تجمع مع خصائص الإضاءة لإعطاء المظهر والشعور النهائي للشكل.
+- ThreeDFormat.Perspective: يحصل/ يحدد الزاوية التي يمكن من خلالها رؤية كائن ThreeDFormat.
+- ThreeDFormat.PresetCameraType: يحصل/ يحدد كاميرا الاستخراج المُعينة.
+- ThreeDFormat.RotationX: يحصل/ يحدد دوران الشكل المنتفخ حول محور الإكس بوحدة من الدرجات.
+- ThreeDFormat.RotationY: يحصل/ يحدد دوران الشكل المنتفخ حول محور الواي بوحدة من الدرجات.
+- ThreeDFormat.RotationZ: يحصل/ يحدد دوران الشكل المنتفخ حول محور الزد بوحدة من الدرجات.
+- ThreeDFormat.TopBevelHeight: يحصل/ يحدد ارتفاع الحافة العلوية أو مدى تطبيقها في الشكل بوحدة من النقاط.
+- ThreeDFormat.TopBevelType: يحصل/ يحدد نوع الحافة العلوية أو مدى تطبيقها في الشكل بوحدة من النقاط.
+- ThreeDFormat.TopBevelWidth: يحصل/ يحدد عرض الحافة العلوية أو مدى تطبيقها في الشكل بوحدة من النقاط.
+- ThreeDFormat.Z: يُعرِّف المسافة من الأرض للشكل ثلاثي الأبعاد.
 
 فيما يلي سيناريو الاستخدام البسيط لخاصية Shape.ThreeDFormat.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[العمل مع تنسيق ثلاثي الأبعاد](/cells/ar/java/working-with-the-threedformat-of-shape-or-chart/)
+تحقق من المقال المفصل حول [العمل مع تنسيقات ثلاثية الأبعاد](/cells/ar/java/working-with-the-threedformat-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet containing a shape
 
@@ -237,20 +238,20 @@ threeD.setExtrusionHeight(30);
 book.save("output.xlsx");
 
 {{< /highlight >}}
-### **دعم أنماط WordArt في نص الشكل**
-كشف Aspose.Cells 16.10.0 عن طرق FontSettingCollection.SetWordArtStyle & FontSetting.SetWordArtStyle لتعيين نمط WordArt المضبوط مسبقًا على نص عنصر الشكل.
+### **دعم لأنماط WordArt في نص الشكل**
+كشفت Aspose.Cells 16.10.0 عن أساليب FontSettingCollection.SetWordArtStyle & FontSetting.SetWordArtStyle لضبط أسلوب WordArt المُعين مسبقًا لنص الشكل.
 
-فيما يلي سيناريو الاستخدام البسيط للطرق المذكورة أعلاه.
+فيما يلي سيناريو استخدام بسيط للطرق المذكورة أعلاه.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[العمل مع أنماط WordArt](https://docs.aspose.com/cells/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+تحقق من المقال المفصل حول ال[عمل مع أساليب WordArt](https://docs.aspose.com/cells/java/set-preset-wordart-style-to-the-text-of-the-shape/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -277,20 +278,20 @@ FontSetting fntSetting = (FontSetting)textBox.getCharacters().get(0);
 fntSetting.setWordArtStyle(PresetWordArtStyle.WORD_ART_STYLE_15);
 
 {{< /highlight >}}
-### **دعم أنماط WordArt المضمنة**
-كشف Aspose.Cells 16.10.0 عن طريقة ShapeCollection.AddWordArt جنبًا إلى جنب مع تعداد PresetWordArtStyle من أجل توفير الدعم لإضافة كائنات WordArt سابقة الإعداد منذ Excel 2007.
+### **دعم لأساليب WordArt المضمنة**
+أتاح Aspose.Cells 16.10.0 طريقة إضافة الكلمات الفنية (WordArt) مع قائمة تمهيدية لأسلوب WordArtPreserenumeration بهدف دعم إضافة كائنات WordArt التي تم تحديدها مسبقًا منذ إصدار Excel 2007.
 
-فيما يلي سيناريو استخدام بسيط لطريقة ShapeCollection.AddWordArt.
+إليك سيناريو استخدام بسيط لطريقة إضافة الكلمات الفنية (WordArt) في مجموعة الأشكال.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[أضف WordArt بأنماط مضمنة](/cells/ar/java/add-word-art-text-with-built-in-styles/)
+تحقق من المقال المفصل حول [إضافة الكلمات الفنية (WordArt) بأنماط مدمجة](/cells/ar/java/add-word-art-text-with-built-in-styles/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -322,17 +323,17 @@ book.save("output.xlsx");
 
 {{< /highlight >}}
 ### **تمت إضافة طريقة XmlMapCollection.Add**
-كشف Aspose.Cells عن طريقة XmlMapCollection.Add التي تسمح بإضافة خريطة Xml إلى جدول بيانات. فيما يلي سيناريو استخدام بسيط لطريقة XmlMapCollection.Add.
+أتاح Aspose.Cells طريقة XmlMapCollection.Add التي تسمح بإضافة خريطة XML إلى جدول بيانات. إليك سيناريو استخدام بسيط لطريقة XmlMapCollection.Add.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[أضف خريطة XML إلى جدول البيانات](/cells/ar/java/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
+تحقق من المقال المفصل حول [إضافة خريطة XML إلى جدول بيانات](/cells/ar/java/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -343,18 +344,18 @@ Workbook book = new Workbook();
 book.getWorksheets().getXmlMaps().add("sample.xml");
 
 {{< /highlight >}}
-### **تمت إضافة Cells.LinkToXmlMap**
-كشف Aspose.Cells الآن الأسلوب Cells.LinkToXmlMap لربط الخلايا بعناصر مخطط XML. فيما يلي سيناريو الاستخدام البسيط لطريقة Cells.LinkToXmlMap.
+### **تمت إضافة طريقة Cells.LinkToXmlMap**
+أتاح Aspose.Cells الآن طريقة Cells.LinkToXmlMap بهدف ربط الخلايا بعناصر خريطة XML. إليك سيناريو استخدام بسيط لطريقة Cells.LinkToXmlMap.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[ارتباط Cells بعناصر خريطة XML](/cells/ar/java/link-cells-to-xml-map-elements/)
+تحقق من المقال المفصل حول [ربط الخلايا بعناصر خريطة XML](/cells/ar/java/link-cells-to-xml-map-elements/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet in an instance of Workbook
 
@@ -388,19 +389,19 @@ sheet.getCells().linkToXmlMap(map.getName(), 5, 5, "/root/row/FIELD8");
 
 {{< /highlight >}}
 ### **تمت إضافة خاصية ListColumn.Formula**
-كشف Aspose.Cells 16.10.0 الخاصية ListColumn.Formula من أجل نشر المعادلة تلقائيًا إلى الصفوف المدرجة حديثًا.
+أتاح Aspose.Cells 16.10.0 خاصية ListColumn.Formula بهدف نقل الصيغة تلقائيًا إلى الصفوف المدخلة حديثًا.
 
-فيما يلي سيناريو استخدام بسيط لخاصية ListColumn.Formula.
+إليك سيناريو استخدام بسيط لخاصية ListColumn.Formula.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[نشر الصيغة تلقائيًا في كائن القائمة](/cells/ar/java/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
+تحقق من المقال المفصل حول [نقل الصيغة تلقائيًا في كائن القائمة](/cells/ar/java/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -426,7 +427,7 @@ listObject.setDisplayName("Table");
 
 //Set the formula of second column so that it could automatically propagate to new rows while entering data
 
-listObject.getListColumns().get(1).setFormula("=[Column A]+ 1");
+listObject.getListColumns().get(1).setFormula("=[Column A] + 1");
 
 //Save the result in XLSX format
 

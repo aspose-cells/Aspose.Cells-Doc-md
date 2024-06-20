@@ -1,16 +1,17 @@
-﻿---
-title: إدارة فواصل الصفحات في Python
+---
+title: إدارة كسر الصفحة في Python
 type: docs
 weight: 20
 url: /ar/java/managing-page-breaks-in-python/
 ---
+
 ## **Aspose.Cells - إدارة فواصل الصفحات**
-### **مضيفا فواصل الصفحات**
- لإضافة فواصل الصفحات باستخدام**Aspose.Cells Java لروبي** ، مكالمة**add_page_breaks** طريقة**فواصل الصفحة** وحدة. أدناه يمكنك مشاهدة مثال رمز.
+### **إضافة فواصل الصفحات**
+لإضافة فواصل الصفحات باستخدام **Aspose.Cells Java for Ruby**، اُنادي بطريقة **add_page_breaks** لوحدة **pagebreaks**. يمكنك أدناه رؤية مثال على الكود.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def add_page_breaks(self):
 
@@ -39,11 +40,11 @@ print "Add page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **مسح كافة فواصل الصفحات**
- لمسح كافة فواصل الصفحات باستخدام**Aspose.Cells Java for Python** ، مكالمة**clear_all_page_breaks** طريقة**فواصل الصفحة** وحدة. أدناه يمكنك مشاهدة مثال رمز.
+لمسح كل كسر الصفحة باستخدام **Aspose.Cells Java for Python**، اطلب من طريق استدعاء **clear_all_page_breaks** من وحدة **pagebreaks**. فيما يلي مثال على الكود.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -66,12 +67,12 @@ print "Clear all page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **إزالة فاصل صفحة معين**
- لإزالة فاصل صفحة معين باستخدام**Aspose.Cells Java for Python** ، مكالمة**remove_page_break** طريقة**فواصل الصفحة** وحدة. أدناه يمكنك مشاهدة مثال رمز.
+### **إزالة فاصل صفحة محدد**
+لإزالة كسر الصفحة المحدد باستخدام **Aspose.Cells Java for Python**، اطلب من طريق استدعاء **remove_page_break** من وحدة **pagebreaks**. فيما يلي مثال على الكود.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -101,7 +102,7 @@ print "Remove page break, please check the output file."
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إدارة فواصل الصفحات (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **إدارة كسر الصفحة (Aspose.Cells)** من أي من مواقع التعديل الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

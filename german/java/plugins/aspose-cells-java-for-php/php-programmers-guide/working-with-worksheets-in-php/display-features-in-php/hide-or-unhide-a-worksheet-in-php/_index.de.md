@@ -1,16 +1,17 @@
-﻿---
-title: Ein Arbeitsblatt in Php ein- oder ausblenden
+---
+title: Arbeitsblatt in Php ausblenden oder einblenden
 type: docs
 weight: 50
 url: /de/java/hide-or-unhide-a-worksheet-in-php/
 ---
-## **Aspose.Cells – Ausblenden oder Einblenden eines Arbeitsblatts**
-### **Ausblenden eines Arbeitsblatts**
- Um das Arbeitsblatt mit Aspose.Cells Java for PHP auszublenden, rufen Sie an**verbergenarbeitsblatt einblenden** Modul.
+
+## **Aspose.Cells - Arbeitsblatt ausblenden oder einblenden**
+### **Arbeitsblatt ausblenden**
+Um ein Arbeitsblatt mithilfe von Aspose.Cells Java for PHP auszublenden, rufen Sie einfach das Modul **hideunhideworksheet** auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -32,7 +33,7 @@ $workbook->save($dataDir . "output.xls");
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Ein Arbeitsblatt ein- oder ausblenden (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Download von **Arbeitsblatt ausblenden oder einblenden (Aspose.Cells)** von einer der unten genannten sozialen Coding-Seiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/HideUnhideWorksheet.php)

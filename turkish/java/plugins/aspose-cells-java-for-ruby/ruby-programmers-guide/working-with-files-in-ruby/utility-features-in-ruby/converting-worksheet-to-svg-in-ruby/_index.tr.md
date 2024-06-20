@@ -1,37 +1,38 @@
-﻿---
-title: Çalışma Sayfasını Ruby'de SVG'e Dönüştürme
+---
+title: Ruby de Çalışma Sayfasını SVG ye Dönüştürme
 type: docs
 weight: 70
 url: /tr/java/converting-worksheet-to-svg-in-ruby/
 ---
-## **Aspose.Cells - Çalışma Sayfası SVG'e dönüştürülüyor**
-Ruby'de Aspose.Cells for Java kullanarak Worksheet'i SVG'e dönüştürmek için worksheet'i çağırmanız yeterlidir_ile_Dönüştürücü modülünün svg() yöntemi.
 
-**Yakut Kodu**
+## **Aspose.Cells - Çalışma Sayfasını SVG'ye Dönüştürme**
+Ruby'de Aspose.Cells for Java kullanarak Çalışma Sayfasını SVG'ye dönüştürmek için, Converter modülünün worksheet_to_svg() metodunu çağırın.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
 
- def çalışma sayfası_ile_svg(çalışma kitabı)
+{{< highlight ruby >}}
 
-# Her çalışma sayfasını tek bir sayfada svg formatına dönüştürün.
+ def worksheet_to_svg(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
+    # Convert each worksheet into svg format in a single page.
 
-save_format = Rjb::import('com.aspose.cells.SaveFormat')
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
-img_options.setSaveFormat(kaydet_format.SVG)
+    save_format = Rjb::import('com.aspose.cells.SaveFormat')
 
-img_options.setOnePagePerSheet(doğru)
+    img_options.setSaveFormat(save_format.SVG)
+
+    img_options.setOnePagePerSheet(true)
 
 
 
-# Her çalışma sayfasını svg formatına dönüştürün
+    # Convert each worksheet into svg format
 
-sheet_count = workbook.getWorksheets().getCount()
+    sheet_count = workbook.getWorksheets().getCount()
 
-ben=0
+    i=0
 
- ben iken< sheet_count
+    while i < sheet_count
 
         sheet = workbook.getWorksheets().get(i)
 
@@ -55,6 +56,6 @@ end 
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Çalışma Sayfasını SVG'e (Aspose.Cells) Dönüştürme**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Çalışma Sayfasını SVG'ye Dönüştürme (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

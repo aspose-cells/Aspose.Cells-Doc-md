@@ -1,4 +1,4 @@
-﻿---
+---
 title: Akıllı Sanatı Yönet
 type: docs
 weight: 200

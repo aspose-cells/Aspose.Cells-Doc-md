@@ -1,15 +1,16 @@
-﻿---
-title: Crea nuovo foglio di lavoro
+---
+title: Crea un nuovo foglio di lavoro
 type: docs
 weight: 10
 url: /it/java/create-new-worksheet/
 ---
-## **Aspose.Cells - Crea nuovo foglio di lavoro**
-Aggiunta di un foglio di lavoro alla cartella di lavoro
+
+## **Aspose.Cells - Crea un nuovo foglio di lavoro**
+Aggiunta di un foglio di lavoro al workbook
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -26,12 +27,12 @@ Worksheet worksheet = worksheets.add("My Worksheet");
 workbook.save("newWorksheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Crea nuovo foglio di lavoro**
-Aggiunta di un foglio di lavoro alla cartella di lavoro
+## **Apache POI SS - HSSF XSSF - Crea un nuovo foglio di lavoro**
+Aggiunta di un foglio di lavoro al workbook
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook(); // or new XSSFWorkbook();
 
@@ -78,6 +79,6 @@ fileOut.close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/createnewworksheet)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/createnewworksheet)

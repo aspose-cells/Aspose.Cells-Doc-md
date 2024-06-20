@@ -1,18 +1,23 @@
-﻿---
-title: Çalışma Sayfasının İletişim Sayfası olup olmadığını bulun
+---
+title: Çalışma Sayfasının Diyaloğu Sayfa Olup Olmadığını Bulma
 type: docs
 weight: 70
 url: /tr/python-java/find-if-the-worksheet-is-dialog-sheet/
 ---
+
 ## **Olası Kullanım Senaryoları**
-İletişim Sayfası, bir iletişim kutusu içeren sayfanın eski bir biçimidir. Böyle bir sayfa, bu ekran görüntüsünde gösterildiği gibi Microsoft Excel örneğin 2003'ün eski bir sürümü tarafından eklenebilir. Daha yeni sürümlerde VBA ile de eklenebilir, örneğin Microsoft Excel 2016.
+Diyalog Sayfa, bir diyaloğu içeren eski bir sayfa formatıdır. Bu tür bir sayfa, Microsoft Excel'in eski sürümlerine örneğin 2003'te ekrandaki gibi gösterildiği gibi eklenebilir. Ayrıca, VBA ile Microsoft Excel 2016 gibi yeni sürümlerde de eklenebilir.
 
-![yapılacaklar:resim_alternatif_metin](DialogSheet.png)
-## **Çalışma Sayfasının İletişim Sayfası olup olmadığını bulun**
-Aspose.Cells for Python via Java, çalışma sayfasının bir iletişim sayfası olup olmadığını kontrol etmenizi sağlar. Bunun için sağladığı[Çalışma Sayfası.Türü](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)Emlak. Eğer[Çalışma Sayfası.Türü](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)numaralandırma değeri döndürür[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), o zaman bir diyalog sayfasıyla uğraşıyorsunuz demektir.
+![todo:image_alt_text](DialogSheet.png)
+## **Çalışma Sayfasının Diyaloğu Sayfa Olup Olmadığını Bulma**
+Aspose.Cells for Python via Java, çalışma sayfasının bir diyaloğu sayfa olup olmadığını kontrol etme yeteneği sağlar. Bunun için [Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type) özelliğini sağlar. Eğer [Worksheet.Type](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type) özelliği, [SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG) numaralandırma değerini döndürürse, o zaman bir diyaloğu sayfa ile uğraştığınız anlamına gelir.
 
-Aşağıdaki kod parçacığı, bir iletişim sayfasının nasıl kontrol edileceğini gösterir. Kod tarafından oluşturulan konsol çıktısı aşağıda referans olarak verilmiştir.
+Aşağıdaki kod parçası, diyaloğu sayfa için kontrol edilmesini gösterir. Kod tarafından üretilen konsol çıktısı referans için verilmiştir.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-FindIfWorksheetIsDialogSheet.py" >}}
-## **Konsol Çıkışı**
-Çalışma Sayfası bir İletişim Sayfasıdır.
+## **Konsol Çıktısı**
+{{< highlight java >}}
+
+Worksheet is a Dialog Sheet.
+
+{{< /highlight >}}

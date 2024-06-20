@@ -1,19 +1,22 @@
 ---
-title: إزالة القطاعة
+title: إزالة قالب التصفية
 type: docs
 weight: 30
 url: /ar/python-net/removing-slicer/
+description: تعلم كيفية إزالة جدول التقطيع بمكتبات Aspose.Cells for Python via .NET.
+keywords: Aspose.Cells for Python Excel، مكتبة Excel Python، إزالة جدول التقطيع باستخدام Python، حذف جدول التقطيع باستخدام Aspose.Cells for Python، حذف جدول التقطيع عن طريق مكتبات Aspose.Cells for python excel.
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
- إذا كنت تريد إزالة أداة التقطيع في Microsoft Excel، فما عليك سوى تحديدها والضغط على*يمسح* زر. وبالمثل، إذا كنت تريد إزالته باستخدام Aspose.Cells for Python via .NET API برمجياً، يرجى استخدام[**ورقة العمل.slicers.remove()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/)طريقة. سيتم إزالة القطاعة من ورقة العمل.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **إزالة القطاعة**
+إذا كنت ترغب في إزالة جدول التقطيع في Microsoft Excel، قم بتحديده ثم اضغط زر *حذف*. بالمثل، إذا كنت ترغب في إزالته باستخدام Aspose.Cells for Python via .NET بطريقة برمجية، يرجى استخدام الطريقة [**Worksheet.slicers.remove()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/). سيتم إزالة جدول التقطيع من ورقة العمل.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[عينة من ملف إكسل](67338478.xlsx)الذي يحتوي على أداة تقطيع موجودة. يصل إلى شرائح ثم يقوم بإزالتها. وأخيرا، فإنه يحفظ المصنف باسم[إخراج ملف إكسل](67338477.xlsx). تعرض لقطة الشاشة التالية مقسم طريقة العرض الذي ستتم إزالته بعد تنفيذ نموذج التعليمات البرمجية.
+## **كيفية إزالة جدول التقطيع باستخدام مكتبة Aspose.Cells for Python Excel**
 
-![ما يجب القيام به:image_alt_text](removing-slicer_1.png)
+الكود العينة التالي يحمل [ملف إكسل عينة](67338478.xlsx) الذي يحتوي على قالب تصفية موجود. يدخل إلى قوالب التصفية ثم يقوم بإزالتها. وأخيراً، يحفظ الدفتر ك [ملف إكسل الناتج](67338477.xlsx). اللقطة الشاشة التالية توضح قالب التصفية الذي سيتم إزالته بعد تنفيذ الكود العينة.
 
-##  **عينة من الرموز**
+![todo:image_alt_text](removing-slicer_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-RemovingSlicer.py" >}}

@@ -1,129 +1,130 @@
-﻿---
-title: ワークシート間で図形をコピーする
+---
+title: ワークシート間でシェイプをコピーする
 type: docs
 weight: 250
 url: /ja/java/copy-shapes-between-worksheets/
 ---
+
 {{% alert color="primary" %}}
 
-必要に応じて、さまざまな画像、チャート、その他の描画オブジェクトをさまざまなワークシートにコピーする必要がある場合があります。 Aspose.Cells は、ワークシート間での図形のコピーをサポートしています。チャート、画像、その他のオブジェクトは、最高の精度でコピーされます。
+時には、異なる画像やチャート、およびその他の図形をワークシート間で必要に応じてコピーする必要があります。Aspose.Cellsは、ワークシート間で図形をコピーする機能をサポートしています。チャート、画像、およびその他のオブジェクトは、最高水準の精度でコピーされます。
 
-Office オートメーションを試すこともできますが、それには欠点があります。関連するいくつかの理由と問題があります。たとえば、セキュリティ、安定性、スケーラビリティ、速度、価格、および機能です。簡単に言えば、多くの理由がありますが、一番の理由は、Microsoft 自身がソフトウェア ソリューションによる Office オートメーションを強く推奨していないことです。
+Office Automationを試してみることもできますが、それには独自の欠点があります。たとえば、セキュリティ、安定性、スケーラビリティ、速度、価格、機能など、さまざまな理由や問題が関与しています。要するに、Microsoft自体もOfficeの自動化を強く推奨していません。
 
-この記事では、コンソール アプリケーションを作成し、Aspose.Cells を使用した数行の最も単純なコードで、ワークブックのワークシート間で画像、グラフ、およびその他の描画オブジェクトのコピーを実行します。
+この記事では、Aspose.Cellsを使用して数行の簡単なコードで、ワークブックのワークシート間で画像やチャート、およびその他の図形をコピーする方法について説明します。
 
-このドキュメントは、開発者がワークシート間で図形 (画像、グラフ、コントロール、およびその他の描画オブジェクト) をコピーする方法を詳細に理解できるようにすることを目的としています。
+この文書は、開発者に対して、ワークシート間で図形（画像、チャート、コントロール、およびその他の図形オブジェクト）をコピーする方法について詳細に理解を提供するように設計されています。
 
 {{% /alert %}}
 
-## **形状のコピー**
+## **図形のコピー**
 
-この記事では、次の方法について説明します。
+この記事では以下の方法について説明します:
 
-- [あるワークシートから別のワークシートに画像をコピーする](/cells/ja/java/copy-shapes-between-worksheets/#copying-a-picture-from-one-worksheet-to-another).
-- [あるワークシートから別のワークシートにグラフをコピーする](/cells/ja/java/copy-shapes-between-worksheets/#task-2-copying-a-chart-from-one-worksheet-to-another).
-- [あるワークシートから別のワークシートにコントロールやその他の描画オブジェクトをコピーする](/cells/ja/java/copy-shapes-between-worksheets/#task-3-copying-controls-and-other-drawing-objects-from-one-worksheet-to-another).
+- [ワークシートから別のワークシートへの画像のコピー](/cells/ja/java/copy-shapes-between-worksheets/#copying-a-picture-from-one-worksheet-to-another)。
+- [ワークシートから別のワークシートへのチャートのコピー](/cells/ja/java/copy-shapes-between-worksheets/#task-2-copying-a-chart-from-one-worksheet-to-another)。
+- [ワークシートから別のワークシートへのコントロールやその他の図形オブジェクトのコピー](/cells/ja/java/copy-shapes-between-worksheets/#task-3-copying-controls-and-other-drawing-objects-from-one-worksheet-to-another)。
 
-### **あるワークシートから別のワークシートに画像をコピーする**
+### **ワークシート間での画像のコピー**
 
-#### **ステップ 1: Microsoft Excel で画像とグラフを含むワークブックを作成する**
+#### **ステップ1: Microsoft Excelで画像とチャートが含まれたワークブックの作成**
 
-1. Microsoft Excel で新しいブックを作成しました。
-1. 最初のワークシートに画像を追加し、2 番目のワークシートにグラフを追加します。
+1. Microsoft Excelで新しいワークブックを作成しました。
+1. 最初のワークシートに写真を追加し、2番目のワークシートにグラフを追加します。
 
-次のスクリーンショットは、Microsoft Excel で作成された 2 つのテンプレート ワークシートを示しています。
+   次のスクリーンショットは、Microsoft Excelで作成された2つのテンプレートワークシートを示しています。
 
-   **チャート付きワークシート「Chart」**
+   **グラフがある「チャート」というワークシート**
 
-![todo:画像_代替_文章](copy-shapes-between-worksheets_1.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_1.png)
 
-**絵入りワークシート「絵」**
+**写真がある「ピクチャ」というワークシート**
 
-![todo:画像_代替_文章](copy-shapes-between-worksheets_2.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_2.png)
 
-ここで、「Picture」という名前のワークシートの画像を最後のワークシート「Result」にコピーします。
+そして、ワークシート「ピクチャ」から写真を最後のワークシート「結果」にコピーします。
 
-#### **ステップ 2: Aspose.Cells.Zip をダウンロードする**
+#### **ステップ2：Aspose.Cells.Zipとしてダウンロード**
 
-1. [ダウンロード Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
-1. 開発用コンピューターで解凍します。
+1. [Aspose.Cells for Javaをダウンロード](https://downloads.aspose.com/cells/java)します。
+1. 開発コンピュータにそれを解凍します。
 
-全て[Aspose](http://www.aspose.com/)コンポーネントがインストールされると、評価モードで動作します。評価モードには時間制限がなく、生成されたドキュメントに透かしを挿入するだけです。
+   すべての[Aspose](http://www.aspose.com/)コンポーネントは、インストールされると評価モードで動作します。評価モードには時間制限がなく、生成された文書にウォーターマークしか挿入されません。
 
-#### **ステップ 3: プロジェクトを作成する**
+#### **ステップ3：プロジェクトの作成**
 
-Eclipse などの Java エディターを使用してプロジェクトを作成するか、メモ帳を使用して簡単なプログラムを作成することができます。
+たとえばEclipseのようなJavaエディタを使用してプロジェクトを作成するか、NotePadを使用して簡単なプログラムを作成することができます。
 
-#### **ステップ 4: クラスパスを追加する**
+#### **ステップ4：クラスパスの追加**
 
-Eclipse を使用してクラス パスを設定するには、次の手順を実行してください。
+Eclipseを使用してクラスパスを設定するには、次の手順を実行します。
 
-1. Aspose.Cells.zip から Aspose.Cells.jar と dom4j_1.6.1.jar を抽出します。
-1. Eclipse でプロジェクトのクラスパスを設定します。
-1. Eclipse でプロジェクトを選択し、メニューの Project-Properties をクリックします。
-1. ポップアップ ウィンドウの左側で [Java Build Path] を選択し、[Libraries] タブを選択し、[Add JARs] または [Add External JARs] をクリックして Aspose.Cells.jar と dom4j_1.6.1.jar を選択し、ビルドに追加します。パス。
-1. Aspose のコンポーネントの API を呼び出すアプリケーションを作成します。
+1. Aspose.Cells.zipからAspose.Cells.jarとdom4j_1.6.1.jarを抽出します。
+1. Eclipseでプロジェクトのクラスパスを設定します。
+1. Eclipseでプロジェクトを選択し、[プロジェクト] - [プロパティ]メニューをクリックします。
+1. ポップアップウィンドウの左側で「Javaビルドパス」を選択し、[ライブラリ]タブを選択し、「JARの追加」または「外部JARの追加」をクリックして、Aspose.Cells.jarおよびdom4j_1.6.1.jarを選択し、それらをビルドパスに追加します。
+1. AsposeのコンポーネントのAPIを呼び出すアプリケーションを作成します。
 
-または、実行時に Windows の DOS プロンプトで設定することもできます。例:
+または、WindowsのDOSプロンプトで実行時に設定することもできます。たとえば：
 
-javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar;クラス名
+javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar; ClassName
 
-#### **ステップ 5: あるワークシートから別のワークシートに画像をコピーする**
+#### **ステップ5：ワークシート間での写真のコピー**
 
-以下は、タスクを実行するためのコードです。 「Picture」という名前のワークシートからワークシート「Result」に画像をコピーします。
+次に示すコードは、タスクを達成するためのものです。これにより、「ピクチャ」というワークシートから「結果」というワークシートに写真がコピーされます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyPicturefromOneWorksheetToAnother-CopyPicturefromOneWorksheetToAnother.java" >}}
 
-#### **結果 タスク 1:**
+#### **タスク1の結果：**
 
-上記のコードを実行すると、ワークシート「Picture」の画像が最後のワークシート「Result」にコピーされます。
+上記のコードを実行した後、ワークシート「ピクチャ」から写真が最後のワークシート「結果」にコピーされます。
 
-**ワークシート「結果」とコピーした写真**
+**コピーされた写真がある「結果」というワークシート**
 
-![todo:画像_代替_文章](copy-shapes-between-worksheets_3.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_3.png)
 
-### **タスク 2: あるワークシートから別のワークシートにグラフをコピーする**
+### **タスク2：ワークシート間でのグラフのコピー**
 
-#### **手順 1: あるワークシートから別のワークシートにグラフをコピーする**
+#### **ステップ1：ワークシート間でグラフをコピー**
 
-以下は、コンポーネントがタスクを実行するために使用する実際のコードです。
+次に示すのは、コンポーネントがタスクを達成するために使用した実際のコードです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyChartFromOneWorksheetToAnother-CopyChartFromOneWorksheetToAnother.java" >}}
 
-#### **結果 タスク 2**
+#### **タスク2の結果**
 
-上記のコードを実行すると、ワークシート「Chart」のチャートがワークシート「Result」にコピーされます。結果のワークシートの次のスナップ ショットを参照してください。
+上記のコードを実行した後、ワークシート「チャート」からグラフが「結果」というワークシートにコピーされます。結果のワークシートのスナップショットは以下の通りです。
 
-**コピーした写真とチャートを含むワークシート「結果」**
+**コピーされた写真とグラフがある「結果」というワークシート**
 
-![todo:画像_代替_文章](copy-shapes-between-worksheets_4.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_4.png)
 
-### **タスク 3: あるワークシートから別のワークシートへのコントロールおよびその他の描画オブジェクトのコピー**
+### **タスク3：ワークシート間のコントロールやその他の図形オブジェクトのコピー**
 
-**テキストボックスと楕円形のワークシート「コントロール」**
+**テキストボックスと楕円形がある「コントロール」というワークシート**
 
-![todo:画像_代替_文章](copy-shapes-between-worksheets_5.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_5.png)
 
-目的の結果を得るために実行する必要がある次の簡単な手順を参照してください。
+以下は、望ましい結果を得るために実行する必要がある簡単な手順です。
 
-#### **ステップ 1: ワークブック間でワークシートをコピーする**
+#### **ステップ1：ワークブック間でワークシートをコピー**
 
-以下は、タスクを実行するためにコンポーネントによって使用されるコードです。
+次に示すのは、コンポーネントがタスクを達成するために使用したコードです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyWorksheetBetweenWorkbooks-CopyWorksheetBetweenWorkbooks.java" >}}
 
-#### **結果 タスク 3**
+#### **タスク3の結果**
 
-上記のコードを実行すると、ワークシート「Control」のコントロールがワークシート「Result」にコピーされます。以下の「結果」のスナップショットをご覧ください。
+上記のコードを実行した後、ワークシート「Control」からコントロールがワークシート「Result」にコピーされました。「Result」のスナップショットを以下にご覧ください。
 
-**コピーされたテキストボックスと楕円形のワークシート「結果」**
+コピーされたテキストボックスと楕円がある「Result」というワークシート
 
-![todo:画像_代替_文章](copy-shapes-between-worksheets_6.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_6.png)
 
 ## **結論**
 
-この記事では、Aspose.Cells を使用して、写真、チャート、その他の描画オブジェクトなどのさまざまな図形をコピーする方法を示しました。うまくいけば、いくつかの洞察が得られ、さまざまなシナリオに従ってこれらのオプションを利用できるようになります。
+この記事では、Aspose.Cellsを使用して画像、グラフ、およびその他の図形オブジェクトをコピーする方法を示しました。おそらく、これによりいくつかの洞察を得て、さまざまなシナリオに応じてこれらのオプションを利用することができるでしょう。
 
-Aspose.Cells は、他のソリューションよりも柔軟性が高く、特定のビジネス アプリケーション要件を満たすための卓越した速度、効率性、および信頼性を提供します。結果は、Aspose.Cells が何年にもわたる研究、設計、および慎重な調整の恩恵を受けていることを示しています。
+Aspose.Cellsは解決策に対して他よりも柔軟性を提供し、特定のビジネスアプリケーション要件を満たすために優れた速度、効率性、信頼性を提供します。結果は、Aspose.Cellsが長年の研究、設計、注意深い調整の成果を得たことを示しています。
 
-ご質問、ご意見、ご提案をお待ちしております。[Aspose.Cells フォーラム](https://forum.aspose.com/c/cells/9).
+[Aspose.Cellsフォーラム](https://forum.aspose.com/c/cells/9)でのお問い合わせ、コメント、提案を心より歓迎します。

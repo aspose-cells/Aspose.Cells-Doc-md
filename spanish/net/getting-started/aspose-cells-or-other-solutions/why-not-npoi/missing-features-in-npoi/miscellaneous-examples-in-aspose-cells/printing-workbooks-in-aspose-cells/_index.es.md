@@ -1,17 +1,18 @@
-﻿---
+---
 title: Impresión de libros de trabajo en Aspose.Cells
 type: docs
 weight: 20
 url: /es/net/printing-workbooks-in-aspose-cells/
 ---
-## **Aspose.Cells - Cuadernos de impresión**
-Después de que termine de crear su hoja de cálculo, probablemente querrá imprimir una copia impresa de la hoja para su necesidad. Cuando está imprimiendo, MS Excel asume que desea imprimir el área completa de la hoja de trabajo a menos que especifique su selección.
 
-Hoja de trabajo de impresión
+## **Aspose.Cells - Impresión de libros de trabajo**
+Después de terminar de crear su hoja de cálculo, probablemente querrá imprimir una copia en papel de la hoja para sus necesidades. Al imprimir, MS Excel supone que desea imprimir toda el área de la hoja de cálculo a menos que especifique su selección.
+
+Impresión de hojas de cálculo
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -34,13 +35,13 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 sr.ToPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Impresión de libros de trabajo** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargue **Impresión de libros de trabajo** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Impresión de libros de trabajo](/cells/es/net/printing-workbooks/).
+Para más detalles, visite [Impresión de libros de trabajo](/cells/es/net/printing-workbooks/).
 
 {{% /alert %}}

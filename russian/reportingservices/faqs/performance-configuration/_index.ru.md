@@ -1,20 +1,21 @@
-﻿---
-title: Конфигурация производительности
+---
+title: Настройка производительности
 type: docs
 weight: 20
 url: /ru/reportingservices/performance-configuration/
 ---
+
 {{% alert color="primary" %}} 
 
- Пользователи могут оптимизировать производительность в определенной степени. Вы можете настроить некоторые атрибуты и параметры в**Aspose.Cells.ReportingServices.xml** файл, как описано ниже.
+Пользователи могут оптимизировать производительность в определенной степени. Вы можете настроить некоторые атрибуты и параметры в файле **Aspose.Cells.ReportingServices.xml**, как описано ниже.
 
 {{% /alert %}} 
 ### **Раздел производительности**
-Это показывает раздел «Производительность», как он есть по умолчанию.
+Это показывает раздел производительности по умолчанию.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -36,11 +37,11 @@ url: /ru/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 ### **Параметры производительности**
--  LimitCellsNumberForMerged — значение параметра по умолчанию — 1000000. Значение параметра задается клиентом, и на него не влияет переключатель параметра производительности. Пожалуйста, обратитесь к следующей конфигурации.
+- LimitCellsNumberForMerged – Значение по умолчанию параметра - 1000000. Значение параметра устанавливается клиентом и не зависит от переключателя параметров производительности. Пожалуйста, обратитесь к следующей конфигурации. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -48,15 +49,15 @@ url: /ru/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsAutoRowFit — может быть как истинным, так и ложным:
- - Когда для параметра «Производительность» установлено значение «Выкл», значение по умолчанию — «ложь».
- - Когда для параметра «Производительность» установлено значение «включено», значение по умолчанию равно true.
- - Когда для параметра «Производительность» установлено значение «включено», отчет о подэлементах может переустанавливать параметр AutoRowFile отчета.
-Пожалуйста, обратитесь к следующей конфигурации.
+- IsAutoRowFit – Может быть либо true, либо false: 
+  - Когда параметр Performance установлен в 'off', значение по умолчанию - false.
+  - Когда параметр Performance установлен в 'on', значение по умолчанию - true.
+  - Когда параметр Performance установлен в 'on', подэлемент отчета может переопределить параметр AutoRowFile отчета.
+    Пожалуйста, обратитесь к следующей конфигурации. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -78,15 +79,15 @@ url: /ru/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsMerged — может быть как истинным, так и ложным:
- - Когда для параметра «Производительность» установлено значение «Выкл», значение по умолчанию — «ложь».
- - Когда для параметра «Производительность» установлено значение «включено», значение по умолчанию равно true.
- - Когда для параметра «Производительность» установлено значение «включено», отчет о подэлементах может переустанавливать параметр AutoRowFile отчета.
-Пожалуйста, обратитесь к следующей конфигурации.
+- IsMerged - Может быть либо true, либо false: 
+  - Когда параметр Performance установлен в 'off', значение по умолчанию - false.
+  - Когда параметр Performance установлен в 'on', значение по умолчанию - true.
+  - Когда параметр Performance установлен в 'on', подэлемент отчета может переопределить параметр AutoRowFile отчета.
+    Пожалуйста, обратитесь к следующей конфигурации. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -108,15 +109,15 @@ url: /ru/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsSetStyle — может принимать значение true или false:
- - Когда для параметра «Производительность» установлено значение «Выкл», значение по умолчанию — «ложь».
- - Когда для параметра «Производительность» установлено значение «включено», значение по умолчанию равно true.
- - Когда для параметра «Производительность» установлено значение «включено», отчет о подэлементах может переустанавливать параметр AutoRowFile отчета.
-Пожалуйста, обратитесь к следующей конфигурации.
+- IsSetStyle - Может быть либо true, либо false: 
+  - Когда параметр Performance установлен в 'off', значение по умолчанию - false.
+  - Когда параметр Performance установлен в 'on', значение по умолчанию - true.
+  - Когда параметр Performance установлен в 'on', подэлемент отчета может переопределить параметр AutoRowFile отчета.
+    Пожалуйста, обратитесь к следующей конфигурации. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -138,16 +139,16 @@ url: /ru/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsConditionalFormatting — может принимать значение true или false:
- - Когда для параметра «Производительность» установлено значение «Выкл», значение по умолчанию — «ложь».
- - Когда для параметра «Производительность» установлено значение «включено», значение по умолчанию равно true.
- - Когда для параметра «Производительность» установлено значение «включено», отчет о подэлементах может переустанавливать параметр AutoRowFile отчета о точках.
- - Если для параметра IsSetStyle задано значение false, значение параметра Performance является недопустимым.
-Пожалуйста, обратитесь к следующей конфигурации.
+- IsConditionalFormatting - Может быть либо true, либо false: 
+  - Когда параметр Performance установлен в 'off', значение по умолчанию - false.
+  - Когда параметр Performance установлен в 'on', значение по умолчанию - true.
+  - Когда параметр Performance установлен в 'on', подэлемент отчета может переопределить параметр AutoRowFile отчета.
+  - Когда параметр IsSetStyle установлен в false, значение параметра Performance недопустимо.
+    Пожалуйста, обратитесь к следующей конфигурации. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

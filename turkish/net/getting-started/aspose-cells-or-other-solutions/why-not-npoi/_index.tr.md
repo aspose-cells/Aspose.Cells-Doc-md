@@ -1,64 +1,65 @@
-﻿---
+---
 title: Aspose.Cells veya NPOI
-linktitle: Neden NPOI Değil
-description: C# kullanarak Excel dosyalarıyla çok sayıda görevi NPOI'den daha hızlı ve daha rahat gerçekleştirin
+linktitle: Neden NPOI Kullanmayalım?
+description: C# kullanarak NPOI den daha hızlı ve daha uygun bir şekilde Excel dosyaları ile büyük miktarda görev gerçekleştirin.
 type: docs
 weight: 40
 url: /tr/net/why-not-npoi
 ---
-Bazen şu soruyu alıyoruz: NPOI yerine neden Aspose ürünlerini kullanmalıyız? Bu sorunun yanıtlanması kolaydır: özellikler ve işlevsellik.
 
-NPOI (POI Java projesinin NET versiyonu), Microsoft Office formatlarındaki dosyaları okumanıza veya yazmanıza yardımcı olabilecek açık kaynaklı bir projedir. Mevcut karşılaştırmanın bir parçası olarak, aşağıdaki NPOI bileşenlerini göz önünde bulundurun - HSSF ve XSSF:
+Bazen şu soruyu alırız: Neden NPOI yerine Aspose ürünlerini kullanmalıyız? Bu sorunun cevabı kolaydır: özellikler ve işlevsellik.
 
-**HSSF** POI Projesi'nin Excel 97(-2007) dosya biçiminin saf Java uygulamasıdır.
+NPOI (POI Java projesinin .NET versiyonu), Microsoft Office formatlarındaki dosyaları okumanıza veya yazmanıza yardımcı olabilen bir açık kaynak projesidir. Mevcut karşılaştırma kapsamında, aşağıdaki NPOI bileşenlerini göz önünde bulundurun –  HSSF ve XSSF:
 
-**XSSF** POI Projesi'nin Excel 2007 OOXML (.xlsx) dosya biçiminin saf Java uygulamasıdır.
+**HSSF**, Excel 97(-2007) dosya biçiminin POI Projesinin saf Java uygulamasıdır.
 
-HSSF ve XSSF, elektronik tabloları okuma, XLS elektronik tabloları oluşturma, değiştirme, okuma ve yazma yolları sağlar. Sağladıkları:
+**XSSF**, Excel 2007 OOXML (.xlsx) dosya biçiminin POI Projesinin saf Java uygulamasıdır.
 
-- özel ihtiyaçları olanlar için düşük seviyeli yapılar
-- verimli salt okunur erişim için bir eventmodel api
-- XLS dosyalarını oluşturmak, okumak ve değiştirmek için tam bir kullanıcı modeli api'si
+HSSF ve XSSF, elektronik tabloları okuma, oluşturma, değiştirme, okuma ve yazma konularında yol sağlar. Şunları sağlarlar:
 
-Hem HSSF hem de XSSF, Temel Metin Çıkarma, Belirli Metin Çıkarma, Üstbilgi ve Altbilgilere Erişim ve Metin Değiştirme özelliklerini sağlar. HSSF ve XSSF benzer işlevsellik sağlarken, şu anda ortak bir arayüze sahip değiller. .xlsx dosyalarının ana bölümlerine okuma veya yazma erişimi sağlayan oldukça kararlı bir çekirdeğe API sahiptir, ancak tam değildir.
+- özel ihtiyaçları olanlar için düşük seviye yapılar
+- etkin salt okunur erişim için bir olay modeli api
+- XLS dosyaları oluşturmak, okumak ve değiştirmek için tam kullanıcı modeli api
 
-Aspose.Cells, tüm Microsoft Excel ve diğer belge biçimleri için büyük destek sağlayan çok kullanışlı bir belge işleme kitaplığıdır. Aspose.Cells ile belgeleri Microsoft Excel kullanmadan okuyabilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+HSSF ve XSSF, Temel Metin Çıkarma, Belirli Metin Çıkarma, Başlık ve Alt Bilgilere Erişim, ve Metin Değiştirme özelliklerini sunar. HSSF ve XSSF benzer işlevsellik sağlasa da, şu anda ortak bir arayüze sahip değillerdir. .xlsx dosyalarının ana bölümlerine okuma veya yazma erişimi sağlayan oldukça kararlı bir çekirdek API'ye sahiptir, ancak eksiksiz değildir.
 
-Bu yazımızda Aspose.Cells'i tercih etmenin sizin için ne zaman mantıklı olduğuna bakacağız.
+Aspose.Cells, tüm Microsoft Excel ve diğer belge biçimleri için mükemmel destek sunan çok kullanışlı bir belge işleme kitaplığıdır. Aspose.Cells ile Microsoft Excel kullanmadan belge okuyabilir, oluşturabilir, değiştirebilir, dönüştürebilir, oluşturabilir ve yazdırabilirsiniz.
 
-## Neden NPOI Değil
+Bu makalede, ne zaman Aspose.Cells'i tercih etmenin mantıklı olacağını inceleyeceğiz.
 
-Bazı görevlerin Aspose.Cells ile gerçekleştirilebileceğini ancak NPOI ile gerçekleştirilemeyeceğini belirtmekte fayda var. Örneğin, Excel dosyalarını PDF, JSON ve görsellere dönüştürmeniz gerekiyorsa, yalnızca NPOI kullanamazsınız, ayrıca Microsoft Excel 365 veya diğer araçlara ihtiyacınız vardır.
+## Neden NPOI Kullanmayalım
 
-NPOI'yi Aspose.Cells ile karşılaştırabilirsiniz Bunu yapmak için, NPOI için Aspose.Cells projesine (HSSF ve XSSF) aşina olmanızı öneririz - bu, Aspose.Cells for .NET API ile NPOI kullanılarak nasıl farklı görevlerin yapılabileceğini gösterir. Proje ayrıca, yalnızca Aspose.Cells'de bulunan ancak NPOI'de bulunmayan metin belgeleriyle çalışmaya yönelik özellikleri de kapsar.
+Aspose.Cells ile bazı görevlerin gerçekleştirilebileceğini, ancak NPOI ile başarılamayacağını belirtmek önemlidir. Örneğin, Excel dosyalarını Pdf, JSON ve görüntülere dönüştürmek istiyorsanız, yalnızca NPOI kullanamazsınız, ayrıca Microsoft Excel 365 veya diğer araçlara da ihtiyacınız olacaktır.
 
-Bu proje aynı zamanda NPOI'den Aspose.Cells'e geçmek isteyen geliştiriciler için de kullanışlıdır.
+Bu durumu karşılaştırmak için, Aspose.Cells for NPOI projesini (HSSF ve XSSF) incelemenizi öneririz - farklı görevlerin Aspose.Cells for .NET API ve NPOI kullanılarak nasıl yapılabileceğini gösterir. Proje, sadece Aspose.Cells'te mevcut olan metin belgeleri ile çalışma özelliklerini de kapsar, NPOI'de bulunmayan.
+
+Bu proje ayrıca NPOI'den Aspose.Cells'e geçmeyi düşünen geliştiriciler için de yararlıdır.
 
 {{% alert color="primary" %}}
 
- Keşfetmek[NPOI ile karşılaştırıldığında Aspose.Cells for .NET özelliklerinin kaynak kodu örnekleri ile eklenti](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/NPOI).
+Karşılaştırmalı olarak Aspose.Cells for .NET özelliklerinin kaynak kod örneklerini içeren eklentiyi inceleyin.
 
- Bu eklenti, Aspose.Cells'in değerlendirme sürümünü kullanır. Değerlendirmenizden memnun olduğunuzda, şu adresten bir lisans satın alabilirsiniz:[Aspose web sitesi](https://purchase.aspose.com/buy) . Değerlendirme mesajını ve özellik sınırlamalarını kaldırmak için bir ürün lisansı uygulamanız gerekir. Ürünü satın aldıktan sonra bir lisans dosyası alacaksınız. Lütfen içindeki talimatları takip edin.["Lisanslama ve Abonelik"](/cells/tr/net/licensing/) Bunu yapmak için makale.
+Bu eklenti, Aspose.Cells'in değerlendirme sürümünü kullanır. Değerlendirmenizden memnun kalırsanız, lisansı [Aspose web sitesinden](https://purchase.aspose.com/buy) satın alabilirsiniz. Değerlendirme ile ilgili mesajı ve özellik kısıtlamalarını kaldırmak için bir ürün lisansı uygulamanız gerekir. Ürün satın aldıktan sonra bir lisans dosyası alacaksınız. Bunun için lütfen ["Lisanslama ve Abonelik"](/cells/tr/net/licensing/) makalesindeki talimatları uygulayın.
 
 {{% /alert %}}
 
-Aşağıdaki bölümlerde ve makalelerde, Aspose.Cells tarafından sağlanan bazı özellik ve yeteneklere daha yakından bakacağız.
+Aşağıdaki bölümler ve makalelerde, Aspose.Cells tarafından sağlanan bazı özelliklere ve yeteneklere daha yakından bakacağız.
 
-### istikrar
+### Kararlılık
 
-Aspose bileşenleri kapsamlı bir şekilde test edilmiştir. Aspose bileşenleri tek bir DLL'de paketlendiğinden, bunların çalışması için herhangi bir ek parça veya parça yüklemeye asla gerek kalmayacaktır. Bu, Aspose.Cells ile istikrarlı bir çalışma sağlamakla kalmaz, aynı zamanda öngörülemeyen durumların riskini neredeyse sıfıra indirir.
+Aspose bileşenleri titizlikle test edilir. Aspose bileşenleri tek bir DLL'e paketlendiği için bunların çalışabilmesi için ek parçaları veya yapıları kurmanıza gerek olmayacaktır. Bu sadece Aspose.Cells ile istikrarlı çalışmayı sağlamakla kalmaz, aynı zamanda beklenmedik durum riskini neredeyse sıfıra indirger.
 
 ### Ölçeklenebilirlik ve Hız
 
-Aspose bileşenleri yüksek düzeyde ölçeklenebilir ve ışık hızındadır. Bunlar gerçek bir .NET çözümüdür ve tek bir uygulamaya güç sağlayan tek bir sunucuda veya kurumsal bir uygulamaya güç veren yük dengeli bir web grubu üzerinde kusursuz bir şekilde çalışır.
+Aspose bileşenleri son derece ölçeklenebilir ve çığır açan kadar hızlıdır. Bunlar gerçek bir .NET çözümüdür ve hem tek bir uygulamayı güçlendiren tek bir sunucuda hem de bir kurumsal uygulamayı güçlendiren dengeli bir web çiftliğinde kusursuz bir şekilde çalışır.
 
-### Özellikleri
+### Özellikler
 
-Aspose bileşenleri, Office dosyalarını yönetmek için ihtiyaç duyduğunuz her şeyin yanı sıra çok daha fazlasını sağlar. Geliştiricilerin en az çalışmayla en iyi sonuçları elde etmelerine izin verme felsefesiyle tasarlanmıştır.
+Aspose bileşenleri, Office dosyalarını yönetmek için gereken her şeyi ve daha fazlasını sağlar. Geliştiricilerin en büyük sonuçları en az çaba ile elde etmesine izin verme felsefesiyle tasarlanmışlardır.
 
-Aspose bileşenleri, birçok güçlü zaman kazandıran işlev sağlar. Örneğin,[Aspose.Cells](https://products.aspose.com/cells/net/) geliştiricilerin JSON'i Excel dosyalarına aktarmalarını sağlayan bir özellik sunar. Aspose ailesindeki her bileşenin kendi benzersiz ve güçlü özelliklerini sunduğunu belirtmek gerekir.
+Aspose bileşenleri birçok güçlü zaman kazandıran işlev sunar. Örneğin, [Aspose.Cells](https://products.aspose.com/cells/net/) geliştiricilere JSON'ı Excel dosyalarına aktarma özelliği sunar. Aspose ailesindeki her bileşenin kendi benzersiz ve güçlü özellikler kümesini sunduğunu belirtmek gerekir.
 
-## Ayrıca bakınız
+## Ayrıca Bakınız
 
-* [Apache POI hakkında daha fazla bilgi](https://poi.apache.org/)
+* [Apache POI Hakkında Daha Fazla Bilgi](https://poi.apache.org/)
 

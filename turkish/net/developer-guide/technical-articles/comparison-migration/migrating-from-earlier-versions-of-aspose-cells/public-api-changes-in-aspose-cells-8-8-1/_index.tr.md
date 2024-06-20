@@ -1,52 +1,53 @@
-﻿---
-title: Genel API Aspose.Cells 8.8.1'deki değişiklikler
+---
+title: Aspose.Cells 8.8.1 da Genel API Değişiklikleri
 type: docs
 weight: 270
 url: /tr/net/public-api-changes-in-aspose-cells-8-8-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.8.0'dan 8.8.1'e modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, 8.8.0'den 8.8.1'e Aspose.Cells API'deki değişiklikleri modül/uygulama geliştiricilerin ilgisini çekebilecek herhangi bir değişikliği içermektedir. Yeni ve güncellenmiş genel yöntemler, eklendi ve kaldırılan sınıflar vb. yanı sıra Aspose.Cells'in arka plandaki davranışındaki herhangi bir değişikliğin açıklamasını içermektedir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **Yükleme için Verileri Filtrele**
-Aspose.Cells for .NET 8.8.1, bir şablon dosyasından çalışma kitabı oluşturulurken yüklenmesi gereken veri türünü belirtmek için kullanılabilen LoadOptions.LoadDataFilterOptions özelliğiyle birlikte LoadDataFilterOptions numaralandırmasını kullanıma sundu. Yüklenen verileri filtrelemek, özellikle LightCells API'lerini kullanırken özel amaçlar için performansı iyileştirebilir.
+Aspose.Cells for .NET 8.8.1, LoadDataFilterOptions numaralandırmasını ve LoadOptions.LoadDataFilterOptions özelliğini serbest bıraktı, bu özellik, bir şablon dosyasından çalışma kitabı oluşturulurken yüklenmesi gereken veri türünü belirtmek için kullanılabilir. Yüklenen verileri filtrelemek, özellikle LightCells API’leri kullanırken özel amaçlar için performansı iyileştirebilir.
 
-LoadDataFilterOptions numaralandırması aşağıdaki seçimleri sağlar.
+LoadDataFilterOptions numaratörü aşağıdaki seçenekleri sağlar.
 
-1. Elektronik tablodan her şeyi yüklemek için Tümü.
-1. E-tablodan hiçbir şey yüklemek için Yok.
-1. CellBlank, değerleri boş olan hücreleri yükler.
-1. CellBool, değerleri Boolean olan hücreleri yükler.
-1. CellData, değerler, formüller ve biçimlendirme dahil olmak üzere hücre verilerini yükler.
-1. CellError, değerleri hatalı olan hücreleri yükler.
-1. CellNumeric, değerleri sayısal olan (Tarih ve Saat dahil) hücreleri yükler.
-1. CellString, değerleri metin/dize olan hücreleri yükler.
-1. CellValue yalnızca hücre değerlerini (tüm türler) yükler.
-1. Grafik yalnızca çizelgeleri yükler.
-1. Koşullu Biçimlendirme yalnızca koşullu biçimlendirme kurallarını yükler.
-1. DataValidation yalnızca veri doğrulama kurallarını yükler.
-1. DocumentProperties yalnızca belge özelliklerini yükler.
-1. Formül, tanımlı adlar dahil olmak üzere formülleri yükler.
-1. MergedArea yalnızca birleştirilmiş hücreleri yükler.
-1. PivotTable, Pivot Tabloları yükler.
-1. Ayarlar yalnızca Çalışma Kitabı ve Çalışma Sayfası ayarlarını yükler.
-1. Şekil yalnızca şekilleri yükler.
-1. Stil, hücre biçimlendirmesini yükler.
-1. Tablo, Excel tablolarını/Liste Nesnelerini yükler.
+1. Sayfa içeriğinden her şeyi yüklemek için All.
+1. Sayfa içeriğinden hiçbir şeyi yüklememek için None.
+1. Hücrelerin değeri boş olanlarını yükler için CellBlank.
+1. Boolean değerlere sahip hücreleri yükler için CellBool.
+1. Değerler, formüller ve biçimlendirmeleri içeren hücre verilerini yükler için CellData.
+1. Hücre değeri hata olanları yükler için CellError.
+1. Sayısal değerlere (Tarih ve Zaman dahil) sahip hücreleri yükler için CellNumeric.
+1. Metin/dizi olan hücreleri yükler için CellString.
+1. Yalnızca hücre değerlerini (tüm tipleri) yükler için CellValue.
+1. Yalnızca grafikleri yükler için Chart.
+1. Yalnızca koşullu biçimlendirme kurallarını yükler için ConditionalFormatting.
+1. Yalnızca veri doğrulama kurallarını yükler için DataValidation.
+1. Yalnızca belge özelliklerini yükler için DocumentProperties.
+1. Tanımlanmış adları içeren formülleri yükler için Formula.
+1. Yalnızca birleştirilmiş hücreleri yükler için MergedArea.
+1. Pivot Tablolarını yükler için PivotTable.
+1. Yalnızca çalışma kitabı ve çalışma sayfası ayarlarını yükler için Settings.
+1. Yalnızca şekilleri yükler için Shape.
+1. Hücre biçimlendirmesini yükler için Style.
+1. Excel tablolarını/Liste Nesnelerini yükler için Table.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Yükleme için Verileri Filtrele](/cells/tr/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/).
+Bu özelliğin daha fazla detayını görmek için, [Yüklenirken Veri Filtreleme](/cells/tr/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/) üzerindeki ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions & initialize it with type of template to be loaded
 
@@ -63,14 +64,14 @@ var book = new Workbook(filePath, options);
 {{< /highlight >}}
 
 
-### **Grafiği Doğrudan PDF'e Dönüştür**
-Aspose.Cells API'leri, Chart.ToPdf yöntemini kullanırken grafikleri PDF'e işleme olanağı sağladı. Bu sürümle birlikte API, söz konusu yöntemin bir Stream örneğini kabul edebilen başka bir aşırı yüklenmiş sürümünü ortaya çıkardı ve kullanıcıların grafiğin PDF'ini bir MemoryStream örneğine kaydetmesine izin verdi.
+### **Doğrudan Grafikleri PDF'e Dönüştür**
+Aspose.Cells API'leri zaten Chart.ToPdf yöntemini kullanırken grafikleri PDF'e dönüştürme olanağı sağlamıştır. Bu sürümle birlikte, API başka bir yüklenmiş versiyonu serbest bırakmıştır ki bu versiyon Stream örneğini kabul edebilecek ve kullanıcıların grafik PDF'lerini MemoryStream örneğinde kaydetmelerine olanak sağlayacaktır.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet with a chart
 
@@ -98,11 +99,11 @@ using (MemoryStream stream = new MemoryStream())
 
 
 ### **WorkbookSettings.PaperSize Özelliği Eklendi**
-Aspose.Cells for .NET 8.8.1, tüm elektronik tablo için varsayılan baskı kağıdı boyutunu ayarlamak üzere WorkbookSettings.PaperSize özelliğini kullanıma sundu. WorkbookSettings.PaperSize özelliği, en yaygın kullanılan yazdırma kağıdı türleri için önceden tanımlanmış boyutları içeren PaperSizeType numaralandırmasından bir değer kabul eder.
+Aspose.Cells for .NET 8.8.1, WorkbookSettings.PaperSize özelliğini serbest bırakmıştır, bu özellik, tüm elektronik tablonun varsayılan yazdırma kağıdı boyutunu ayarlamak için kabul eder. WorkbookSettings.PaperSize özelliği, en yaygın kullanılan yazdırma kağıtları türleri için önceden tanımlanmış boyutlar içeren PaperSizeType numaralandırmasından bir değeri kabul eder.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -122,37 +123,37 @@ settings.PaperSize = PaperSizeType.PaperA4;
 
 
 ### **Shape.TextBody Özelliği Eklendi**
-Aspose.Cells for .NET API'in bu sürümü, şekillerdeki metnin özelliklerini değiştirmek için Shape.TextBody'yi ortaya çıkardı. Aşağıdaki kod parçacığı, bir TextBox'taki metnin gölge efektini ayarlamak için söz konusu özelliği kullanır.
+Aspose.Cells for .NET API'nin bu sürümü, metinlerin şekillerin içindeki özelliklerini manipüle etmek için Shape.TextBody'i ortaya çıkardı. Aşağıdaki kod parçası, belirtilen özelliği kullanarak TextBox'ın içindeki metnin gölge efektini ayarlamak için kullanılır.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Metin için Gölge Efekti Ayarlama](/cells/tr/net/setting-shadow-of-text-effects-of-shape-or-textbox/).
+Bu özellikle ilgili daha fazla bilgi için lütfen [Metin İçin Gölge Efektini Ayarlama](/cells/tr/net/metin-golge-efekti-ayarlama/) başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Çalışma Kitabının bir örneğini oluştur
+ //Create an instance of Workbook
 
-var kitap = yeni Çalışma Kitabı();
+var book = new Workbook();
 
-//Çalışma Kitabının ilk çalışma sayfasına erişin
+//Access first worksheet of the Workbook
 
-var sayfası = kitap.Çalışma Sayfaları[0];
+var sheet = book.Worksheets[0];
 
-//ShapeCollection'a bir Metin Kutusu ekleyin
+//Add a TextBox to the ShapeCollection
 
-var textBox = levha.Shapes.AddTextBox(2, 0, 2, 0, 100, 400);
+var textBox = sheet.Shapes.AddTextBox(2, 0, 2, 0, 100, 400);
 
-//TextBox'ın metnini ayarla
+//Set the text of the TextBox
 
-textBox.Text = "Bu metin aşağıdaki ayarlara sahiptir.\n\nMetin Efektleri > Gölge > Alttan Kaydır";
+textBox.Text = "This text has the following settings.\n\nText Effects > Shadow > Offset Bottom";
 
-//Metin için gölge efekti ayarla
+//Set shadow effect for text
 
- için (int ben = 0; ben< textBox.TextBody.Count; i++)
+for (int i = 0; i < textBox.TextBody.Count; i++)
 
 {
 
@@ -163,22 +164,22 @@ textBox.Text = "Bu metin aşağıdaki ayarlara sahiptir.\n\nMetin Efektleri > G�
 {{< /highlight >}}
 
 
-### **Worksheet.CalculateFormula(dize formülü, CalculationOptions opts) Yöntemi Eklendi**
-Aspose.Cells for .NET 8.8.1, belirli bir formülü doğrudan özel seçeneklerle hesaplama yeteneği sağlayan CalculateFormula yöntemi için başka bir aşırı yüklemeye maruz kaldı.
+### **Worksheet.CalculateFormula(string formula, CalculationOptions opts) Method Eklendi**
+Aspose.Cells for .NET 8.8.1, CalculateFormula yöntemi için başka bir aşırı yüklemeyi ortaya çıkardı, bu da belirli seçeneklerle doğrudan belirli bir formülü hesaplama yeteneği sağlar.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Özel İşlevin Doğrudan Hesaplanması](/cells/tr/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/).
+Bu özellikle ilgili daha fazla bilgi için lütfen [Özel Fonksiyonun Doğrudan Hesaplanması](/cells/tr/net/calculator-custom-fonksiyonun-calisildigi-sayfa-icerisine-yazmadan-direkt-hesaplama/) başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
-### **GridCell.CreateValidation Yöntemi Eklendi**
-Aspose.Cells.GridWeb, GridCell.CreateValidation yöntemini kullanırken doğrulama kuralını doğrudan tek bir hücreye ekleme olanağı sağlamıştır. Bahsedilen yöntem 2 parametre gerektirir. Birincisi, doğrulama türünü belirleyen GridValidationType türündeyken, ikinci parametre (isRequied) Boolean türündedir.
+### **GridCell.CreateValidation Method Eklendi**
+Aspose.Cells.GridWeb, GridCell.CreateValidation yöntemini kullanırken tek bir hücreye doğrudan doğrulama kuralı eklemek için yetenek sağladı. Söz konusu yöntem 2 parametre gerektirir. İlk parametre, doğrulama türünü belirleyen GridValidationType türündedir, ikinci parametre (isRequied) Boolean türündedir.
 
 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Access first worksheet
 
@@ -207,8 +208,8 @@ val.ShowInput = true;
 {{< /highlight >}}
 
 
-### **GridCell.RemoveValidation Yöntemi Eklendi**
-Aspose.Cells.GridWeb, GridCell.RemoveValidation yöntemini kullanırken bir GridCell'den veri doğrulama kuralını kaldırma olanağı da sağlamıştır.
-## **Eski API'ler**
-### **Eski Shape.TextFrame Özelliği**
-Bunun yerine Shape.TextBody.TextAlignment özelliğinin kullanılması önerilir.
+### **GridCell.RemoveValidation Method Eklendi**
+Aspose.Cells.GridWeb ayrıca GridCell.RemoveValidation yöntemini kullanarak bir GridCell'den veri doğrulama kuralını kaldırma yeteneği sağladı.
+## **Eskimiş API'lar**
+### **Eskimiş Shape.TextFrame Özelliği**
+Bu yerine Shape.TextBody.TextAlignment özelliğinin kullanılması tavsiye edilir.

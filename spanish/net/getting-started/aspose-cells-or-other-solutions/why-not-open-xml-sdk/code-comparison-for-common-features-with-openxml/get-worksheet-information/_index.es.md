@@ -1,26 +1,101 @@
-﻿---
-title: Obtener información de la hoja de trabajo
+---
+title: Obtener información de la hoja de cálculo
 type: docs
 weight: 50
 url: /es/net/get-worksheet-information/
 ---
-## **Excel XML abierto**
-{{< highlight "csharp" >}}
 
- string FilePath = @"..\..\..\..\Archivos de muestra\";
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
-string FileName = FilePath + "Obtener información de la hoja de trabajo.xlsx";
+ string FilePath = @"..\..\..\..\Sample Files\";
 
-ObtenerInfoHoja(NombreArchivo);
+string FileName = FilePath + "Get worksheet information.xlsx";
 
-Consola.ReadKey();
+GetSheetInfo(FileName);
+
+Console.ReadKey();
 
 }
 
-vacío estático público GetSheetInfo (nombre de archivo de cadena)
+public static void GetSheetInfo(string fileName)
 
-{  // Abrir archivo como solo lectura.  usando (SpreadsheetDocument mySpreadsheet = SpreadsheetDocument.Open(fileName, false))  {  S sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets; _/  hoja, muestra la información de la hoja.  foreach (Hoja E en hojas)  {  foreach (A attr en hoja.GetAttributes())  {  Console.WriteLine("{0}: {1}" , attr.localName, attr.value); _ x000d_ }  }}  }   {{< /highlight >}} ## ** Aspose.Cells ** _ x2sd_ 0761123 Archivos\";  string FileName = FilePath + "Obtener información de la hoja de trabajo.xlsx";  GetSheetInfo(FileName);  Console.ReadKey();  }
+{
 
-vacío estático privado GetSheetInfo (nombre de archivo de cadena)
+// Open file as read-only.
 
-{  //Crear una instancia de un libro de trabajo object  Workbook workbook = new Workbook(fileName);  //Recorre todas las hojas del libro de trabajo  foreach (Hoja de trabajo en libro de trabajo. Hojas de trabajo)  __x000 y //_x000 // Obtener nombre Índice de Sheet  Console.WriteLine("Nombre de hoja: {0}", Sheet.Name);  Console.WriteLine("Índice de hoja: {0}", Sheet.Index);  //Recorra todos los Properties_X000D_ _X000D_ foreach (CustomProperty Property en Sheet.CustomProperties) _X000D_ _X000D_ {_X000D_ _X000D_ CONSOLE.WriteLine ("{0}: {1}", Property.NAME, Property.Value); _ x000D_ } **Descargar código de muestra** - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1) - [Sourceforge](https://sourceforge .net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20worksheet%20information%20\(Aspose.Cells \).zip/download) - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20worksheet%20information%20\(Aspose.Cells\).zip)
+using (SpreadsheetDocument mySpreadsheet = SpreadsheetDocument.Open(fileName, false))
+
+{
+
+    S sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets;
+
+    // For each sheet, display the sheet information.
+
+    foreach (E sheet in sheets)
+
+    {
+
+        foreach (A attr in sheet.GetAttributes())
+
+        {
+
+            Console.WriteLine("{0}: {1}", attr.LocalName, attr.Value);
+
+        }
+
+    }
+
+}
+
+{{< /highlight >}}
+## **Aspose.Cells**
+{{< highlight csharp >}}
+
+ string FilePath = @"..\..\..\..\Sample Files\";
+
+string FileName = FilePath + "Get worksheet information.xlsx";
+
+GetSheetInfo(FileName);
+
+Console.ReadKey();
+
+}
+
+private static void GetSheetInfo(string fileName)
+
+{
+
+//Instantiating a Workbook object
+
+Workbook workbook = new Workbook(fileName);
+
+//Loop through all Sheets in the workbook
+
+foreach (Worksheet Sheet in workbook.Worksheets)
+
+{
+
+    //Get Name and Index of Sheet
+
+    Console.WriteLine("Sheet Name: {0}", Sheet.Name);
+
+    Console.WriteLine("Sheet Index: {0}", Sheet.Index);
+
+    //Loop through all custom properties
+
+    foreach (CustomProperty Property in Sheet.CustomProperties)
+
+    {
+
+        Console.WriteLine("{0}: {1}", Property.Name, Property.Value);
+
+    }
+
+}
+
+{{< /highlight >}}
+## **Descargar Código de Ejemplo**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20worksheet%20information%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20worksheet%20information%20\(Aspose.Cells\).zip)

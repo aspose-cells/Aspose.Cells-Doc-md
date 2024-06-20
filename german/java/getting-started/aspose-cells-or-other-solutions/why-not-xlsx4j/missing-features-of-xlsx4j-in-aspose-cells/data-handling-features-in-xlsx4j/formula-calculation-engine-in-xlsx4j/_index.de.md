@@ -1,15 +1,16 @@
-﻿---
-title: Formelberechnungsmodul in xlsx4j
+---
+title: Formelberechnungsmaschine in xlsx4j
 type: docs
 weight: 40
 url: /de/java/formula-calculation-engine-in-xlsx4j/
 ---
-## **Aspose.Cells - Formelberechnungsmodul**
-Die Formelberechnungs-Engine ist in Aspose.Cells eingebettet. Sie kann nicht nur die aus einer Designer-Tabellendatei importierte Formel neu berechnen, sondern unterstützt auch die Berechnung der Ergebnisse von zur Laufzeit hinzugefügten Formeln.
+
+## **Aspose.Cells - Formelberechnungsmaschine**
+Die Formelberechnungsmaschine ist in Aspose.Cells eingebettet. Sie kann nicht nur die aus einer Designer-Tabellendatei importierte Formel neu berechnen, sondern unterstützt auch das Berechnen der Ergebnisse von zur Laufzeit hinzugefügten Formeln.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -58,13 +59,13 @@ book.calculateFormula();
 book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/formulacalculationengine/AsposeFormulaCalculationEngine.java)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Formel-Berechnungs-Engine](/cells/de/java/formula-calculation-engine-in-aspose-cells).
+Für weitere Details besuchen Sie [Formel-Berechnungsmaschine](/cells/de/java/formula-calculation-engine-in-aspose-cells).
 
 {{% /alert %}}

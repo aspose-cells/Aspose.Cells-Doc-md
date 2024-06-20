@@ -1,13 +1,14 @@
-﻿---
-title: Trabajar con paneles congelados
+---
+title: Trabajando con Paneles Fijos
 type: docs
 weight: 100
 url: /es/net/working-with-freeze-panes/
 ---
-## **Aspose.Cells - Trabajo con paneles congelados**
+
+## **Aspose.Cells - Trabajando con Paneles Fijos**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -26,13 +27,13 @@ workbook.Save("output-FreezeFile-Aspose.Cells.xls");
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Método FreezePanes](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
+Para más detalles, visita [Método FreezePanes](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
 
 {{% /alert %}} 
-## **NPOI - HSSF XSSF - Trabajar con paneles congelados**
+## **NPOI - HSSF XSSF - Trabajando con Paneles Fijos**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -62,13 +63,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Trabajar con paneles congelados** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Trabajando con Paneles Fijos** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Trabajar con hojas de trabajo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Para más detalles, visita [Trabajando con Hojas de Cálculo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

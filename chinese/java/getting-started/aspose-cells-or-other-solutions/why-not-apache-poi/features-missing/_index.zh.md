@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells中缺失的Apache POI SS - HSSF和XSSF功能
+title: Aspose.Cells中缺失的Apache POI SS  HSSF和XSSF功能
 type: docs
 weight: 20
 url: /zh/java/aspose-cells-features-missing-in-apache-poi-ss-hssf-and-xssf/

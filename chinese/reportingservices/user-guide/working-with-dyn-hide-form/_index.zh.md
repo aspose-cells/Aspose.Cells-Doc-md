@@ -1,5 +1,5 @@
 ---
-title: 使用Dyn-Hide表单
+title: 使用Dyn Hide表单
 type: docs
 weight: 150
 url: /zh/reportingservices/working-with-dyn-hide-form/

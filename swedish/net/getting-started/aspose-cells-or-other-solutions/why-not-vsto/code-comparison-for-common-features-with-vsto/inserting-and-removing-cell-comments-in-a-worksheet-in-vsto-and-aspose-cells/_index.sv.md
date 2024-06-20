@@ -1,22 +1,23 @@
-﻿---
-title: Infoga och ta bort Cell kommentarer i ett arbetsblad i VSTO och Aspose.Cells
+---
+title: Infoga och ta bort cellkommentarer i ett arbetsblad i VSTO och Aspose.Cells
 type: docs
 weight: 150
 url: /sv/net/inserting-and-removing-cell-comments-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Så här lägger du till kommentarer till celler:
 
-1. Öppna en befintlig Excel-fil.
-1. Lägg till en kommentar till en cell.
+För att lägga till kommentarer till celler:
+
+1. Öppna en befintlig Excelfil.
+1. Lägg till en kommentar i en cell.
 1. Spara filen.
 
-För att ta bort kommentarerna är processen liknande, med undantag för att kommentaren tas bort.
+För att ta bort kommentarerna är processen liknande, med undantaget att kommentaren tas bort.
 
 Kodexemplen nedan illustrerar först hur man lägger till en kommentar och sedan hur man tar bort en kommentar med antingen VSTO eller Aspose.Cells for .NET.
-## **Lägger in kommentarer**
-Dessa kodavsnitt visar hur man lägger till en kommentar till en cell först med VSTO (C#) och sedan med Aspose.Cells for .NET (C#).
+## **Infoga Kommentarer**
+Dessa kodsnuttar visar hur man först lägger till en kommentar till en cell med VSTO (C#) och sedan med Aspose.Cells for .NET (C#).
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -60,7 +61,7 @@ Dessa kodavsnitt visar hur man lägger till en kommentar till en cell först med
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the template excel file path.
 
@@ -92,7 +93,7 @@ string myPath = "Book1.xls";
 ## **Ta bort kommentarer**
 För att ta bort en kommentar från en cell, använd följande kodrader för VSTO (C#) och Aspose.Cells for .NET (C#).
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 
@@ -101,14 +102,14 @@ För att ta bort en kommentar från en cell, använd följande kodrader för VST
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //removing comments
 
  workbook.Worksheets[0].Comments.RemoveAt("A1");
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Inserting.and.Removing.Cell.Comments.in.a.Worksheet.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Inserting%20and%20Removing%20Cell%20Comments%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Inserting%20and%20Removing%20Cell%20Comments%20in%20a%20Worksheet%20\(Aspose.Cells\).blixtlås)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Inserting%20and%20Removing%20Cell%20Comments%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

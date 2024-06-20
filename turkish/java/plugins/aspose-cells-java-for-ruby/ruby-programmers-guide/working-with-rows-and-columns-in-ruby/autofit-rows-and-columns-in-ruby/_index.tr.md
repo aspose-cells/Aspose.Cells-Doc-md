@@ -1,16 +1,17 @@
-﻿---
-title: Ruby'de Satırları ve Sütunları Otomatik Sığdır
+---
+title: Ruby de Satırları ve Sütunları Otomatik Daraltma
 type: docs
 weight: 20
 url: /tr/java/autofit-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Satırları ve Sütunları Otomatik Sığdır**
-### **Satırı Otomatik Sığdır**
-Bir satırın genişliğini ve yüksekliğini otomatik olarak boyutlandırmak için en basit yaklaşım, Worksheet sınıfının autoFitRow yöntemini çağırmaktır. autoFitRow yöntemi, parametre olarak bir satır dizini (yeniden boyutlandırılacak satırın) alır.
 
-**Yakut Kodu**
+## **Aspose.Cells - Satırları ve Sütunları Otomatik Daraltma**
+### **Satır Otomatik Daraltma**
+Bir satırın genişliğini ve yüksekliğini otomatik ayarlamanın en basit yolu Worksheet sınıfının autoFitRow metodunu çağırmaktır. autoFitRow metodu, (yeniden boyutlandırılacak olan satırın) bir satır indeksi olarak bir parametre alır.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  def autofit_row()
 
@@ -45,12 +46,12 @@ Bir satırın genişliğini ve yüksekliğini otomatik olarak boyutlandırmak i�
     end
 
 {{< /highlight >}}
-### **Otomatik Sığdırma Sütunu**
-Bir sütunun genişliğini ve yüksekliğini otomatik olarak boyutlandırmanın en kolay yolu, Worksheet sınıfının autoFitColumn yöntemini çağırmaktır. autoFitColumn yöntemi, sütun dizinini (yeniden boyutlandırılmak üzere olan sütunun) parametre olarak alır.
+### **Sütun Otomatik Daraltma**
+Bir sütunun genişliğini ve yüksekliğini otomatik boyutlandırmanın en kolay yolu Worksheet sınıfının autoFitColumn metodunu çağırmaktır. autoFitColumn metodu, (yeniden boyutlandırılacak olan sütunun) bir sütun indeksini parametre olarak alır.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def autofit_column()
 
@@ -86,6 +87,6 @@ end
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Satırları ve Sütunları Otomatik Sığdır (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Satırları ve Sütunları Otomatik Daraltma (Aspose.Cells)** dosyasını indirebilirsiniz:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

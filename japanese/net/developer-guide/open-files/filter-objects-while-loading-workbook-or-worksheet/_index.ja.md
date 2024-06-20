@@ -1,34 +1,35 @@
-﻿---
-title: ワークブックまたはワークシートの読み込み中にオブジェクトをフィルタリングする
+---
+title: ワークブックまたはワークシートをロードする際にオブジェクトをフィルタリングする
 type: docs
 weight: 330
 url: /ja/net/filter-objects-while-loading-workbook-or-worksheet/
 ---
-## **考えられる使用シナリオ**
-使ってください[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)ワークブックからデータをフィルタリングする際のプロパティ。ただし、個々のワークシートからデータをフィルター処理する場合は、[LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet)方法。から適切な値を指定してください[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)作成中または操作中の列挙[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
 
-の[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)列挙には、次の可能な値があります。
+## **可能な使用シナリオ**
+ワークブックからデータをフィルタリングする際は、[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)プロパティを使用してください。ただし、個々のワークシートからデータをフィルタリングする場合は、[LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet)メソッドをオーバーライドする必要があります。[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)を作成または使用する際は、[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)の列挙型から適切な値を指定してください。
+
+[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)列挙型には、以下の可能な値があります。
 
 - 全て
 - ブック設定
-- セルブランク
-- セルブール
-- セルデータ
-- セルエラー
-- セル数値
-- CellString
-- セル値
-- チャート
+- 空白セル
+- ブールセル
+- データセル
+- エラーセル
+- 数値セル
+- 文字列セル
+- 値セル
+- Chart
 - 条件付き書式
-- データ検証
-- 定義済みの名前
-- ドキュメント プロパティ
-- 方式
+- データの検証
+- 定義された名前
+- ドキュメントのプロパティ
+- 数式
 - ハイパーリンク
-- 合併面積
+- 結合エリア
 - ピボットテーブル
 - 設定
-- 形
+- 図形
 - シートデータ
 - シート設定
 - 構造
@@ -37,17 +38,17 @@ url: /ja/net/filter-objects-while-loading-workbook-or-worksheet/
 - VBA
 - XmlMap
 ## **ワークブックの読み込み中にオブジェクトをフィルタリングする**
-次のサンプル コードは、ワークブックからグラフをフィルター処理する方法を示しています。を確認してください[サンプルエクセルファイル](5115258.xlsx)このコードと[出力 PDF](5115257.pdf)それによって生成されます。出力 PDF でわかるように、すべてのグラフがワークブックから除外されています。
+以下のサンプルコードは、ワークブックからグラフをフィルタリングする方法を示しています。このコードで使用されている[サンプルエクセルファイル](5115258.xlsx)とその生成された[出力PDF](5115257.pdf)を確認してください。出力PDFでは、すべてのグラフがワークブックからフィルタリングされていることが分かります。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-FilteringObjects.cs" >}}
 ## **ワークシートの読み込み中にオブジェクトをフィルタリングする**
-次のサンプル コードは、[ソースエクセルファイル](5115255.xlsx)カスタム フィルターを使用してワークシートから次のデータをフィルター処理します。
+以下のサンプルコードは、[ソースエクセルファイル](5115255.xlsx)を読み込み、カスタムフィルタを使用してそのワークシートから以下のデータをフィルタリングする方法を説明しています。
 
-- NoCharts という名前のワークシートからチャートをフィルタリングします。
-- NoShapes という名前のワークシートから Shapes をフィルター処理します。
-- NoConditionalFormatting という名前のワークシートから条件付き書式をフィルター処理します。
+- NoChartsという名前のワークシートからグラフをフィルタリングします。
+- NoShapesという名前のワークシートから形状をフィルタリングします。
+- NoConditionalFormattingという名前のワークシートから条件付き書式をフィルタリングします。
 
-一度、ロードします[ソースエクセルファイル](5115255.xlsx)カスタム フィルターを使用すると、すべてのワークシートの画像を 1 つずつ取得します。参考までに、出力イメージを次に示します。ご覧のとおり、最初の画像にはグラフがなく、2 番目の画像には図形がなく、3 番目の画像には条件付き書式がありません。
+1つのカスタムフィルタで[ソースエクセルファイル](5115255.xlsx)を読み込むと、ワークシートを1つずつ画像化します。以下は参照用の出力画像です。最初の画像にはグラフがなく、2番目の画像には形状がなく、3番目の画像には条件付き書式がないことが分かります。
 
 - [NoCharts.png](5115254.png)
 - [NoShapes.png](5115256.png)
@@ -58,6 +59,6 @@ url: /ja/net/filter-objects-while-loading-workbook-or-worksheet/
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-1.cs" >}}
 
 
-これは、ワークシート名ごとに CustomLoadFilter クラスを使用する方法です。
+ワークシート名に従ってCustomLoadFilterクラスを使用する方法
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}

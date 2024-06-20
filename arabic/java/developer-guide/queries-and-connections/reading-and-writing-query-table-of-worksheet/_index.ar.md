@@ -1,42 +1,44 @@
-﻿---
-title: قراءة وكتابة جدول الاستعلام الخاص بورقة العمل
+---
+title: قراءة وكتابة جدول الاستعلام لورقة العمل
 type: docs
 weight: 560
 url: /ar/java/reading-and-writing-query-table-of-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
- يوفر Aspose.Cells[Worksheet.getQueryTables ()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) المجموعة التي تعيد[QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection) . للحصول على ملف[الاستعلام](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) ، استخدم ال[QueryTableCollection.get ()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20\(int\) ) وتمرير فهرس QueryTable. ال[الاستعلام](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) تحتوي الفئة على الخاصيتين التاليتين لضبط جدول الاستعلام.
+توفر Aspose.Cells مجموعة [Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) التي تُرجع مجموعة [QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection). للحصول على [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) محدد، استخدم خاصية [QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20\(int\)) وقم بتمرير مؤشر الQueryTable. تحتوي فئة [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) على الخاصيتين التاليتين لضبط جدول الاستعلام.
 
-- [QueryTable.getAdjustColumnWidth ()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#AdjustColumnWidth)
-- [QueryTable.getPreserveFormatting ()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)
+- [QueryTable.getAdjustColumnWidth()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#AdjustColumnWidth)
+- [QueryTable.getPreserveFormatting()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)
 
-كلاهما قيم منطقية. يمكنك عرضها في Microsoft Excel عبر البيانات> الاتصالات> الخصائص.
+هذه قيمان منطقيتان. يمكنك مشاهدتهما في Microsoft Excel عبر الطريقة البيانات > الاتصالات > الخصائص.
 
 {{% /alert %}} 
-## **قراءة وكتابة جدول الاستعلام الخاص بورقة العمل**
- يقرأ نموذج التعليمات البرمجية التالي الأول[الاستعلام](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) من ورقة العمل الأولى ثم طباعة ملف[الاستعلام](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) الخصائص. ثم يقوم بتعيين ملف[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) إلى**حقيقي**.
+## **قراءة وكتابة جدول الاستعلام في ورقة العمل**
+يقرأ الكود التالي [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) الأول في الورقة العمل الأولى ثم يطبع خاصيتي [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) كلاهما. ثم يضبط [QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) على **صحيح**.
 
-تُظهر لقطة الشاشة التالية ملف[ملف اكسل المصدر](5472578.xlsx) المستخدمة في الكود وخصائصه تظهر كلا من[الاستعلام](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)القيم.
+تُظهر الصورة المقتطفة التالية [ملف إكسل المصدري](5472578.xlsx) المستخدم في الكود وخصائصه التي تُظهر قيم كلا من [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable).
 
-![ما يجب القيام به: image_بديل_نص](reading-and-writing-query-table-of-worksheet_1.png)
+![todo:image_alt_text](reading-and-writing-query-table-of-worksheet_1.png)
 
-تُظهر لقطة الشاشة التالية ملف[ملف اكسل الناتج](5472574.xlsx) التي تم إنشاؤها بواسطة الكود وخصائصه التي تظهر كلا من[الاستعلام](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)القيم. كما ترى ، تم تحديد خانة الاختيار الاحتفاظ بالتنسيق الآن.
+تُظهر الصورة المقتطفة التالية [ملف إكسل المولد](5472574.xlsx) الذي تم إنشاؤه بواسطة الكود وخصائصه التي تُظهر قيم كلا من [QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable). كما يمكنك رؤية خانة اختيار الحفظ بتنسيقها مفعلة الآن.
 
-![ما يجب القيام به: image_بديل_نص](reading-and-writing-query-table-of-worksheet_2.png)
+![todo:image_alt_text](reading-and-writing-query-table-of-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.java" >}}
-## **إخراج وحدة التحكم**
-هنا هو إخراج وحدة التحكم من نموذج التعليمات البرمجية أعلاه
+## **مخرجات الوحدة**
+إليك إخراج الكونسول للكود العيني أعلاه
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Adjust Column Width: true
 
 Preserve Formatting: false
 
 {{< /highlight >}}
-## **استرداد نطاق نتائج جدول الاستعلام**
-يوفر Aspose.Cells خيار قراءة العنوان ، على سبيل المثال ، نطاق نتائج خلايا لجدول استعلام. يوضح الكود التالي هذه الميزة من خلال قراءة عنوان نطاق النتائج لجدول الاستعلام. يمكن تنزيل ملف العينة[هنا](QueryTXT.xlsx).
+
+## **استرجاع نطاق نتيجة جدول الاستعلام**
+تقدم Aspose.Cells الخيار لقراءة العنوان أي نطاق النتائج لخلايا جدول الاستعلام. يوضح الكود التالي هذه الميزة عن طريق قراءة عنوان نطاق نتيجة جدول الاستعلام. يمكن تنزيل الملف المثالي [هنا](QueryTXT.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}

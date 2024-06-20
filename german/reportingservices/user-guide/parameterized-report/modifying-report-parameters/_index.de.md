@@ -1,32 +1,33 @@
-﻿---
+---
 title: Ändern von Berichtsparametern
 type: docs
 weight: 20
 url: /de/reportingservices/modifying-report-parameters/
 ---
-So ändern Sie einen Berichtsparameter:
+
+Um einen Berichtsparameter zu ändern: 
 
 1. Öffnen Sie Microsoft Excel.
-1.  Klicken**Berichtsparameter**auf der Symbolleiste Aspose.Cells.Report.Designer (
+1. Klicken Sie auf **Report-Parameter** in der Aspose.Cells.Report.Designer-Symbolleiste (
 
-![todo: Bild_alt_Text](modifying-report-parameters_1.png)
+![todo:image_alt_text](modifying-report-parameters_1.png)
 
 ).
 
-1.  Wählen Sie beispielsweise einen im linken Bereich aufgelisteten Berichtsparameter aus**BerichtMonat**.
-1.  Klicken**Ändern**. 
+1. Wählen Sie einen im linken Bereich aufgeführten Berichtsparameter aus, zum Beispiel **ReportMonth**.
+1. Klicken Sie auf **Ändern**. 
 
    **Auswahl eines Parameters** 
 
-![todo: Bild_alt_Text](modifying-report-parameters_2.png)
+![todo:image_alt_text](modifying-report-parameters_2.png)
 
 
 
 
-1.  Ändern Sie die Berichtsparameterinformationen.
+1. Ändern Sie die Berichtsparameterinformationen. 
 
    **Ändern des Parameters** 
 
-![todo: Bild_alt_Text](modifying-report-parameters_3.png)
+![todo:image_alt_text](modifying-report-parameters_3.png)
 
-1.  Klicken**Speichern**.
+1. Klicken Sie auf **Speichern**.

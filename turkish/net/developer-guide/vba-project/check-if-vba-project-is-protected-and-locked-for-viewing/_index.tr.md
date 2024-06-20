@@ -1,24 +1,25 @@
-﻿---
-title: VBA Projesinin Korumalı ve Görüntüleme için Kilitli olup olmadığını kontrol edin
+---
+title: C# da Bir Çalışbookun VBA Projesinin Korunup Görüntüleme İçin Kilitli Olup Olmadığını Kontrol Et
 type: docs
 weight: 30
 url: /tr/net/check-if-vba-project-is-protected-and-locked-for-viewing/
 ---
-## C#'de VBA Projesinin Korumalı ve Görüntüleme için Kilitli olup olmadığını kontrol edin
 
-Aspose.Cells, VBA (Uygulamalar için Visual Basic) Project of Excel dosyasının korumalı ve görüntüleme için kilitli olup olmadığını kontrol etmenizi sağlar. Bunun için API,[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) Emlak. Görüntülemek için kilitliyse, o zaman[**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) mülkiyet iadeleri**doğru**.
+## C#'da VBA Projesinin Korunup Görüntüleme İçin Kilitli Olup Olmadığını Kontrol Et
 
-## **Basit kod**
+Aspose.Cells, Excel dosyasının VBA (Visual Basic for Applications) Projesinin korunduğunu ve görüntüleme için kilitli olup olmadığını kontrol etmenize olanak tanır. Bunun için API [**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) özelliğini sağlar. Eğer görüntüleme için kilitli ise, o zaman [**VbaProject.IslockedForViewing**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/islockedforviewing) özelliği **true** döndürecektir.
 
- Aşağıdaki örnek kod,[örnek excel dosyası](43352065.xlsm) ve VBA (Uygulamalar için Visual Basic) Project of Excel dosyasının korumalı ve görüntüleme için kilitli olup olmadığını kontrol eder. Lütfen referans için Konsol Çıktısına da bakın.
+## **Örnek Kod**
+
+Aşağıdaki örnek kod, [örnek Excel dosyasını](43352065.xlsm) yükler ve dosyanın VBA (Visual Basic for Applications) Projesinin korunduğunu ve görüntüleme için kilitli olup olmadığını kontrol eder. Lütfen ayrıca bir referans için Konsol Çıktısına bakınız.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-CheckifVBAProjectisProtectedandLockedforViewing.cs" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
- Bu, sağlanan kodla çalıştırıldığında yukarıdaki örnek kodun konsol çıktısıdır.[örnek excel dosyası](43352065.xlsm).
+Sağlanan [örnek Excel dosyası](43352065.xlsm) ile yukarıdaki örnek kodun çalıştırılması durumunda elde edilen konsol çıkışı budur.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is VBA Project Locked for Viewing: True
 

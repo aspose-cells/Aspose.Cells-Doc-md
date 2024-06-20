@@ -1,21 +1,22 @@
 ---
-title: Cell 内に HTML リッチ テキストを追加
+title: セル内にHTMLリッチテキストを追加
 linktitle: HTML文字列値
 type: docs
 weight: 50
 url: /ja/net/adding-html-rich-text-inside-the-cell/
-description: HTML リッチ テキストを Cell から Aspose.Cells for .NET API 内に追加する方法を学びます。
-keywords: Add HTML Rich Text inside the Cell, Set HTML Rich Text inside the Cell, Add HTML Rich Text in the Cell
+description: Aspose.Cells for .NET APIを介してセル内にHTMLリッチテキストを追加する方法を学ぶ。
+keywords: セル内にHTMLリッチテキストを追加する、セル内にHTMLリッチテキストを設定する、セル内にHTMLリッチテキストを追加する
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells は、Microsoft Excel 指向の HTML から XLS/XLSX 形式への変換をサポートしています。つまり、Microsoft Excel で生成された HTML は、Aspose.Cells を使用して XLS/XLSX 形式に変換できます。
+Aspose.Cellsは、Microsoft Excel指向のHTMLをXLS/XLSX形式に変換する機能をサポートしています。つまり、Microsoft Excelによって生成されたHTMLは、Aspose.Cellsを使用してXLS/XLSX形式に変換できます。
 
-同様に、単純な HTML がある場合、Aspose.Cells はそれを HTML リッチ テキストに変換できます。 Aspose.Cellsが提供します[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring)このプロパティは、単純な HTML を受け取り、それを書式設定されたセル テキストに変換できます。
+同様に、いくつかのシンプルなHTMLがある場合、Aspose.CellsはそれをHTMLリッチテキストに変換できます。Aspose.Cellsは[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring)プロパティを提供しており、そのプロパティはこのようなシンプルなHTMLを受け取り、装飾されたセルテキストに変換できます。
 
 {{% /alert %}}
 
-以下のコード サンプルは、セル内に HTML リッチ テキストを追加する方法を示しています。出力された Excel ファイルのスクリーンショットを参照してください。
+以下のコードサンプルは、セル内に HTML リッチテキストを追加する方法を示しています。出力 Excel ファイルのスクリーンショットを参照してください。
 
 ![todo:image_alt_text](adding-html-rich-text-inside-the-cell_1)
 
@@ -23,5 +24,5 @@ Aspose.Cells は、Microsoft Excel 指向の HTML から XLS/XLSX 形式への�
 
 ## 関連記事
 
-- [Cell を設定して箇条書きを表示 HTML を使用した値](/cells/ja/net/display-bullets-by-setting-cell-value-using/)
-- [Cell から HTML5 文字列を取得します](/cells/ja/net/get-html5-string-from-cell/)
+- [HTMLを設定して箇条書きを表示](/cells/ja/net/display-bullets-by-setting-cell-value-using/)
+- [セルからHTML5文字列を取得](/cells/ja/net/get-html5-string-from-cell/)

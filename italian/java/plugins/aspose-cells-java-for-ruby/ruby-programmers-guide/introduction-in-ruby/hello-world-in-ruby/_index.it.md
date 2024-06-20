@@ -1,15 +1,16 @@
-﻿---
-title: Hello World in Rubino
+---
+title: Hello World in Ruby
 type: docs
 weight: 10
 url: /it/java/hello-world-in-ruby/
 ---
+
 ## **Aspose.Cells - Hello World**
-Per scrivere qualsiasi cosa nel documento del foglio di calcolo utilizzando Aspose.Cells for Java in Ruby, è sufficiente richiamare il modulo HelloWorld.
+Per scrivere qualsiasi cosa nel documento del foglio elettronico usando Aspose.Cells for Java in Ruby, basta invocare il modulo HelloWorld.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -43,6 +44,6 @@ puts "Document has been saved, please check the output file."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Hello World (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Hello World (Aspose.Cells)** da uno qualsiasi dei siti di codice sociali di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/helloworld.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/helloworld.rb)

@@ -1,32 +1,33 @@
-﻿---
+---
 title: Konvertera CSV, TSV och TXT till Excel
 type: docs
 weight: 50
 url: /sv/java/convert-csv-tsv-and-txt-to-excel/
 ---
-## **Öppnar CSV Filer**
 
-Kommaseparerade värden (CSV) filer innehåller poster vars värden är avgränsade eller separerade med kommatecken. I CSV-filer lagras data i ett tabellformat som har fält separerade med kommatecken och citerade med dubbla citattecken. Om ett fälts värde innehåller ett dubbelcitattecken escapes det med ett par dubbla citattecken. Du kan också använda Microsoft Excel för att exportera dina kalkylbladsdata till en CSV-fil.
+## **Öppning av CSV-filer**
 
-För att öppna CSV-filer, använd**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** klass och välj**[CSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)** värde, fördefinierat i**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**uppräkning.
+Comma Separated Values (CSV)-filer innehåller poster vars värden är avgränsade eller separerade med kommatecken. I CSV-filer lagras data i en tabellformat som har fält separerade av kommatecknet och citerade av dubbelfnuttarkarakteren. Om ett fälts värde innehåller en dubbelfnuttarkaraktär escaperas den med ett par av dubblefnuttarkaraktärer. Du kan också använda Microsoft Excel för att exportera dina kalkylbladsdata till en CSV-fil.
+
+För att öppna CSV-filer, använd [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)-klassen och välj värdet [**CSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV), fördefinierat i [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)-uppräkning.
 
 ## **Exempel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningCSVFiles-OpeningCSVFiles.java" >}}
 
-### **Öppnar CSV-filer och ersätter ogiltiga tecken**
+### **Öppna CSV-filer och ersätt ogiltiga tecken**
 
-Excel, när CSV-filen med specialtecken öppnas, ersätts tecknen automatiskt. Detsamma görs av Aspose.Cells API vilket visas i kodexemplet nedan.
+I Excel, när en CSV-fil med specialtecken öppnas, ersätts tecknen automatiskt. Samma sak görs av Aspose.Cells API som visas i det givna kodexemplet nedan.
 
 #### **Exempel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesAndReplacingInvalidCharacters-1.java" >}}
 
-## **Öppnar CSV-filer med föredragen parser**
+## **Öppning av CSV-filer med föredragen parser**
 
-Detta är inte alltid nödvändigt för att använda standardparserinställningar för att öppna CSV-filerna. Ibland skapar import av CSV-fil inte förväntad utdata som att datumformatet inte är som förväntat eller tomma fält hanteras annorlunda. För detta ändamål**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**är tillgänglig för att tillhandahålla en egen föredragen parser för att analysera olika datatyper enligt kravet. Följande exempelkod visar användningen av den föredragna parsern.
+Det är inte alltid nödvändigt att använda standard-inställningar för öppning av CSV-filer. Ibland skapas inte förväntad utdata vid import av CSV-filen, exempelvis är inte datumformatet som förväntat eller tomma fält hanteras på ett annat sätt. För detta ändamål används [**TxtLoadOptions.PreferredParsers**](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers) för att tillhandahålla en egen föredragen parser för att tolka olika datatyper enligt behov. Följande exempelkod visar användningen av föredragen parser.  
 
-Exempel på källfiler och utdatafiler kan laddas ner från följande länkar för att testa den här funktionen.
+Exempelfilen och utdatafiler kan laddas ner från följande länkar för att testa denna funktion.
 
 [samplePreferredParser.csv](samplePreferredParser.csv)
 
@@ -36,17 +37,17 @@ Exempel på källfiler och utdatafiler kan laddas ner från följande länkar f�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesWithPreferredParser-1.java" >}}
 
-### **Öppnar TSV(tabbavgränsade) filer**
+### **Öppning av TSV (Tab Separated Values) filer**
 
-Tabbavgränsade filer innehåller kalkylbladsdata men utan någon formatering. Data är ordnade i rader och kolumner som tabeller och kalkylblad. Kortfattat är en tabbavgränsad fil en speciell typ av vanlig textfil med en tabb mellan varje kolumn i texten.
+Tab-separerade filer innehåller kalkylbladsdata utan någon formatering. Data ordnas i rader och kolumner som tabeller och kalkylblad. Kort sagt, en tab-separerad fil är en speciell typ av ren textfil med en tabulator mellan varje kolumn i texten.
 
-För att öppna tabbavgränsade filer bör utvecklare använda**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** klass och välj**[TSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)** värde, fördefinierat i**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**uppräkning.
+För att öppna tab-separerade filer ska utvecklare använda klassen [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) och välja värdet [**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV), som är fördefinierat i [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)-uppräkningen.
 
 ## **Exempel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningTabDelimitedFiles-OpeningTabDelimitedFiles.java" >}}
 
-## **Förhandsämnen**
-- [Ladda eller importera CSV-fil med formler](/cells/sv/java/load-or-import-csv-file-with-formulas/)
-- [Trimma ledande tomma rader och kolumner samtidigt som du exporterar kalkylblad till formatet CSV](/cells/sv/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+## **Fortsatta ämnen**
+- [Läs in eller importera CSV-fil med formler](/cells/sv/java/load-or-import-csv-file-with-formulas/)
+- [Rensa ledande blanka rader och kolumner vid export av kalkylblad till CSV-format](/cells/sv/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 

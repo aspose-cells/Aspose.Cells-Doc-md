@@ -1,14 +1,15 @@
-﻿---
-title: 新しい行にデータを入力しながら、テーブルまたはリスト オブジェクトに数式を自動的に適用する
-linktitle: テーブル式を設定します
+---
+title: 新しい行にデータを入力すると、表またはリストオブジェクトの式を自動的に伝播させます
+linktitle: テーブルの数式を設定する
 type: docs
 weight: 260
 url: /ja/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/
 ---
-## **考えられる使用シナリオ**
-場合によっては、新しいデータを入力するときに、テーブル オブジェクトまたはリスト オブジェクトの式を新しい行に自動的に反映させたいことがあります。これは、Microsoft Excel の既定の動作です。 Aspose.Cells で同じことを達成するには、[ListColumn.Formula](https://reference.aspose.com/cells/net/aspose.cells.tables/listcolumn/properties/formula)財産。
-## **新しい行にデータを入力しながら、テーブルまたはリスト オブジェクトに数式を自動的に適用する**
-次のサンプル コードでは、新しいデータを入力すると、列 B の数式が新しい行に自動的に反映されるように、テーブル オブジェクトまたはリスト オブジェクトを作成します。を確認してください[出力エクセルファイル](5115469.xlsx)このコードで生成されます。セル A3 に数値を入力すると、セル B2 の数式がセル B3 に自動的に反映されます。
+
+## **可能な使用シナリオ**
+テーブルまたはリストオブジェクトの数式が、新しい行に自動的に伝播するようにしたいことがあります。これは、Microsoft Excelのデフォルトの動作です。Aspose.Cellsでも同じことを実現するには、[ListColumn.Formula](https://reference.aspose.com/cells/net/aspose.cells.tables/listcolumn/properties/formula)プロパティを使用してください。
+## **新しい行にデータを入力する際に、表やリストオブジェクトの式を自動的に伝播させる**
+次のサンプルコードは、列Bの数式が新しいデータを入力すると新しい行に自動的に伝播するように、テーブルまたはリストオブジェクトを作成します。このコードで生成される[出力Excelファイル](5115469.xlsx)をご確認ください。セルA3に数値を入力すると、セルB2の数式が自動的にセルB3に伝播することがわかります。
 
 
 

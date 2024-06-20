@@ -1,15 +1,16 @@
-﻿---
-title: PHP'de Çalışma Sayfasından Görüntüye Dönüştürme
+---
+title: PHP de Çalışsayı Resme Dönüştürme
 type: docs
 weight: 40
 url: /tr/net/worksheet-to-image-conversion-in-php/
 ---
-## **Aspose.Cells - Çalışma Sayfasını Resme Dönüştür**
-Microsoft Excel Çalışma Sayfasını Görüntü Dosyasına Dönüştür
 
-**PHP Kodu**
+## **Aspose.Cells - Çalışsayı Resme Dönüştürme**
+Bir Microsoft Excel Çalışsayısını Resim Dosyasına Dönüştürme
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -45,6 +46,6 @@ Microsoft Excel Çalışma Sayfasını Görüntü Dosyasına Dönüştür
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfasından Görüntüye (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+**Worksheet to Image (Aspose.Cells)** indirin aşağıdaki sosyal kodlama sitelerinden herhangi birinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

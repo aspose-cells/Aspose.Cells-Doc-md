@@ -1,18 +1,19 @@
-﻿---
-title: Base de conocimientos del editor de hojas de cálculo
+---
+title: Base de Conocimientos del Editor de Hojas de Cálculo
 type: docs
 weight: 30
 url: /es/java/spreadsheet-editor-knowledge-base/
 ---
-## **Editor de hojas de cálculo HTML5 incrustado en cualquier lugar**
 
-El editor de hojas de cálculo HTML5 se puede integrar en cualquier sitio web, blog y foro para compartir hojas de cálculo en Internet. Puede integrarse como un editor independiente o puede cargarlo con un archivo de hoja de cálculo.
+## **Incrusta el Editor de Hojas de Cálculo HTML5 en cualquier lugar**
+
+El Editor de Hojas de Cálculo HTML5 se puede incrustar en cualquier sitio web, blog y foros para compartir hojas de cálculo a través de Internet. Puede ser incrustado como un editor independiente o puedes cargarlo con un archivo de hoja de cálculo.
 
 **Incrustar como editor independiente**
 
-Para insertar como un editor independiente, use la etiqueta IFRAME HTML para agregar al sitio web. Por ejemplo:
+Para incrustar como editor independiente, usa la etiqueta IFRAME de HTML para agregarlo al sitio web. Por ejemplo:
 
-{{< highlight "html" >}}
+{{< highlight html >}}
 
  <iframe src="http://spreadsheet-editor.aspose.com/" width="800" height="600">
 
@@ -24,9 +25,9 @@ Para insertar como un editor independiente, use la etiqueta IFRAME HTML para agr
 
 **Incrustar con una hoja de cálculo**
 
- Para cargar una hoja de cálculo en un editor incrustado**URL** parámetro. Por ejemplo:
+Para cargar una hoja de cálculo en un editor incrustado, utilice el parámetro **url**. Por ejemplo:
 
-{{< highlight "html" >}}
+{{< highlight html >}}
 
  <iframe src="http://spreadsheet-editor.aspose.com/?url=http://example.com/Sample.xlsx" width="800" height="600">
 

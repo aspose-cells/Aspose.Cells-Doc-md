@@ -1,106 +1,107 @@
-﻿---
-title: Erişim Oluşturma ve Adlandırılmış Aralıkları Kopyalama
+---
+title: Erişim Oluştur ve Adlandırılmış Aralıkları Kopyala
 type: docs
 weight: 200
 url: /tr/net/create-access-and-copy-named-ranges/
 ---
+
 ## **Giriş**
 
-Normalde, sütun ve satır etiketleri, tek tek hücrelere atıfta bulunmak için kullanılır. Hücreleri, hücre aralıklarını, formülleri veya sabit değerleri temsil etmek için tanımlayıcı adlar oluşturmak mümkündür. Kelime**isim** bir hücreyi, hücre aralığını, formülü veya sabit değeri temsil eden bir karakter dizisine atıfta bulunabilir. Bir aralığa ad atamak, o hücre aralığına kendi adıyla atıfta bulunulabileceği anlamına gelir. Sales!C20:C30 gibi anlaşılması zor aralıklara atıfta bulunmak için Ürünler gibi anlaşılması kolay adlar kullanın. Etiketler, aynı çalışma sayfasındaki verilere atıfta bulunan formüllerde kullanılabilir; başka bir çalışma sayfasındaki bir aralığı temsil etmek istiyorsanız, bir ad kullanabilirsiniz. *Adlandırılmış aralıklar, özellikle liste kontrolleri, pivot tablolar, grafikler vb. için kaynak aralık olarak kullanıldığında Microsoft Excel'in en güçlü özelliklerinden biridir.
+Normalde, sütun ve satır etiketleri bireysel hücrelere atıfta bulunmak için kullanılır. Hücrelere, hücre gruplarına, formüllere veya sabit değerlere temsil etmek için açıklayıcı isimler oluşturulabilir. 'İsim' kelimesi, bir hücreyi, hücre grubunu, formülü veya sabit değeri temsil eden bir karakter dizisine atıfta bulunabilir. Bir aralığa ad atamak, o hücre grubunun adı ile atıfta bulunulabilir anlamına gelir. Satırlar, eğilmesi zor olan satışlar gibi zor anlaşılabilen aralıklara atıfta bulunmak için kolay anlaşılabilir isimler kullanın. Etiketler, aynı çalışma sayfasındaki verilere atıfta bulunan formüllerde kullanılabilir; başka bir çalışma sayfasında bir aralığı temsil etmek isterseniz bir isim kullanabilirsiniz. 'Adlandırılmış aralıklar, özellikle liste denetimleri, özet tablolar, grafikler vb. için kaynak aralık olarak kullanıldığında Microsoft Excel'in en güçlü özellikleri arasındadır.
 
-## **Microsoft Excel Kullanarak Adlandırılmış Aralıkla Çalışma**
-
-### **Adlandırılmış Aralıklar Oluştur**
-
- Aşağıdaki adımlar, kullanılarak bir hücrenin veya hücre aralığının nasıl adlandırılacağını açıklar.**Excel** . Bu yöntem için geçerlidir**Microsoft Office Excel 2003**, **Microsoft Excel 97**, **2000** ve**2002**.
-
-1. Adlandırmak istediğiniz hücreyi, hücre aralığını seçin.
-1.  Tıkla**İsim kutusu** formül çubuğunun sol ucunda.
-1. Hücrelerin adını yazın.
-1. Enter tuşuna basın.
-
-{{% alert color="primary" %}}
-
-Hücre içeriğini değiştirirken hücreye isim veremezsiniz.
-
-{{% /alert %}}
-
-## **Aspose.Cells Kullanarak Adlandırılmış Aralıkla Çalışma**
-
-Burada görevi yapmak için Aspose.Cells API kullanıyoruz.
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf bir sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Toplamak.
+## **Microsoft Excel Kullanarak Adlandırılmış Aralık İle Çalışma**
 
 ### **Adlandırılmış Aralık Oluştur**
 
- Aşırı yüklemeyi çağırarak adlandırılmış bir aralık oluşturmak mümkündür.[**Yaratma Aralığı**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Toplamak. tipik bir versiyonu[**Yaratma Aralığı**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) yöntem aşağıdaki parametreleri alır:
+Aşağıdaki adımlar, **MS Excel** kullanarak bir hücreyi veya hücre aralığını adlandırmanın nasıl yapıldığını açıklar. Bu yöntem **Microsoft Office Excel 2003**, **Microsoft Excel 97**, **2000** ve **2002** için uygundur.
+
+1. Adlandırmak istediğiniz hücreyi veya hücre aralığını seçin.
+2. Formül çubuğunun sol ucundaki **Ad Kutusu'nu** tıklayın.
+1. Hücrelerin adını yazın.
+1. ENTER tuşuna basın.
+
+{{% alert color="primary" %}}
+
+Hücre içeriğini değiştirirken hücreye ad veremezsiniz.
+
+{{% /alert %}}
+
+## **Aspose.Cells Kullanarak Adlandırılmış Aralık İle Çalışma**
+
+Burada görevi yapmak için Aspose.Cells API'sını kullanıyoruz.
+Aspose.Cells, Microsoft Excel dosyasını temsil eden bir sınıf, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışsayfaya erişim sağlayan [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonunu içerir. Bir çalışsayfa [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonu sağlar.
+
+### **İsimlendirilmiş Aralık Oluştur**
+
+Bir adlandırılmış aralık oluşturmak, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonunun aşırı yüklenmiş [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) yöntemini çağırarak mümkündür. [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) yönteminin tipik bir sürümü aşağıdaki parametreleri alır:
 
 - Sol üst hücrenin adı, aralıktaki sol üst hücrenin adı.
 - Sağ alt hücrenin adı, aralıktaki sağ alt hücrenin adı.
 
- Ne zaman[**Yaratma Aralığı**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) yöntem çağrıldığında, yeni oluşturulan aralığı bir örnek olarak döndürür.[**Menzil**](https://reference.aspose.com/cells/net/aspose.cells/range) sınıf. Bunu kullan[**Menzil**](https://reference.aspose.com/cells/net/aspose.cells/range) adlandırılmış aralığı yapılandırmak için nesne. Örneğin, kullanarak aralığın adını ayarlayın.[**İsim**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) Emlak. Aşağıdaki örnek, B4:G14'ün üzerine uzanan adlandırılmış bir hücre aralığının nasıl oluşturulacağını gösterir.
+[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) yöntemi çağrıldığında, yeni oluşturulan aralık, [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) sınıfının bir örneği olarak döner. Bu [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) nesnesini, isimlendirilmiş aralığı yapılandırmak için kullanın. Örneğin, [**Name**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) özelliğini kullanarak aralığın adını ayarlayın. Aşağıdaki örnek, B4:G14 üzerine uzanan hücrelerin adlandırılmış bir aralık oluşturmak için nasıl yapılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CreateNamedRangeofCells-1.cs" >}}
 
-### **Adlandırılmış Aralıktaki Cells'e Veri Girin**
+### **Adı Verilen Aralıktaki Hücrelere Veri Girişi**
 
-Modeli izleyerek bir aralığın tek tek hücrelerine veri ekleyebilirsiniz.
+Bir aralıktaki bireysel hücrelere veri ekleyebilirsiniz. İzlenecek desen aşağıdaki gibidir
 
-- **C#**: Aralık[satır,sütun]
-- **VB**: Aralık(satır,sütun)
+- **C#**: Range[row,column]
+- **VB**: Range(row,column)
 
-A1:C4'ü kapsayan adlandırılmış bir hücre aralığınız olduğunu varsayalım. Matris 4 * 3 = 12 hücre yapar. Ayrı aralık hücreleri sırayla düzenlenir: Aralık[0,0], Aralık[0,1], Aralık[0,2], Aralık[1,0], Aralık[1,1], Aralık[1,2], Menzil[2,0], Menzil[2,1], Menzil[2,2], Menzil[3,0], Menzil[3,1], Menzil[3,2].
+A1:C4'ü kapsayan bir isimlendirilmiş aralığınız olduğunu düşünün. Matris 4 * 3 = 12 hücre yaratır. Bireysel aralık hücreleri ardışık olarak düzenlenir: Range[0,0], Range[0,1], Range[0,2], Range[1,0], Range[1,1], Range[1,2], Range[2,0], Range[2,1], Range[2,2], Range[3,0], Range[3,1], Range[3,2].
 
 Aralıktaki hücreleri tanımlamak için aşağıdaki özellikleri kullanın:
 
-- FirstRow, adlandırılmış aralıktaki ilk satırın dizinini döndürür.
-- FirstColumn, adlandırılmış aralıktaki ilk sütunun dizinini döndürür.
-- RowCount, adlandırılmış aralıktaki toplam satır sayısını döndürür.
-- ColumnCount, adlandırılmış aralıktaki toplam sütun sayısını döndürür.
+- FirstRow, isimlendirilmiş aralıktaki ilk satırın indisini döndürür.
+- FirstColumn, isimlendirilmiş aralıktaki ilk sütunun indisini döndürür.
+- RowCount, isimlendirilmiş aralıktaki toplam satır sayısını döndürür.
+- ColumnCount, isimlendirilmiş aralıktaki toplam sütun sayısını döndürür.
 
-Aşağıdaki örnek, belirli bir aralığın hücrelerine bazı değerlerin nasıl girileceğini gösterir.
+Aşağıdaki örnek, belirtilen bir aralıktaki hücrelere bazı değerler girmeyi gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-InputDataInCellsInRange-1.cs" >}}
 
-### **Adlandırılmış Aralıkta Cells'i tanımlayın**
+### **İsimlendirilmiş Aralıktaki Hücreleri Tanımlama**
 
-Modeli izleyerek bir aralığın tek tek hücrelerine veri ekleyebilirsiniz:
+Bir aralıktaki bireysel hücrelere veri ekleyebilirsiniz. İzlenecek desen aşağıdaki gibidir:
 
-- **C#**: Aralık[satır,sütun]
-- **VB**: Aralık(satır,sütun)
+- **C#**: Range[row,column]
+- **VB**: Range(row,column)
 
-A1:C4'ü kapsayan adlandırılmış bir aralığınız varsa. Matris 4 * 3 = 12 hücre yapar. Ayrı aralık hücreleri sırayla düzenlenir: Aralık[0,0], Aralık[0,1], Aralık[0,2], Aralık[1,0] ,Aralık[1,1], Aralık[1,2], Menzil[2,0], Menzil[2,1], Menzil[2,2], Menzil[3,0], Menzil[3,1], Menzil[3,2].
+Eğer A1:C4'ü kapsayan bir isimlendirilmiş aralığınız varsa, matris 4 * 3 = 12 hücre yaratır. Bireysel aralık hücreleri ardışık olarak düzenlenir: Range[0,0], Range[0,1], Range[0,2], Range[1,0] ,Range[1,1], Range[1,2], Range[2,0], Range[2,1], Range[2,2], Range[3,0], Range[3,1], Range[3,2].
 
 Aralıktaki hücreleri tanımlamak için aşağıdaki özellikleri kullanın:
 
-- FirstRow, adlandırılmış aralıktaki ilk satırın dizinini döndürür.
-- FirstColumn, adlandırılmış aralıktaki ilk sütunun dizinini döndürür.
-- RowCount, adlandırılmış aralıktaki toplam satır sayısını döndürür.
-- ColumnCount, adlandırılmış aralıktaki toplam sütun sayısını döndürür.
+- FirstRow, isimlendirilmiş aralıktaki ilk satırın indisini döndürür.
+- FirstColumn, isimlendirilmiş aralıktaki ilk sütunun indisini döndürür.
+- RowCount, isimlendirilmiş aralıktaki toplam satır sayısını döndürür.
+- ColumnCount, isimlendirilmiş aralıktaki toplam sütun sayısını döndürür.
 
-Aşağıdaki örnek, belirli bir aralığın hücrelerine bazı değerlerin nasıl girileceğini gösterir.
+Aşağıdaki örnek, belirtilen bir aralıktaki hücrelere bazı değerler girmeyi gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-IdentifyCellsinNamedRange-1.cs" >}}
 
-### **Adlandırılmış Aralıklara Erişim**
+### **İsimlendirilmiş Aralıklara Eriş**
 
-#### **Belirli Bir Adlandırılmış Aralığa Erişin**
+#### **Belirli Bir Adlandırılmış Aralığa Erişme**
 
- Ara[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) koleksiyonun[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) belirtilen ada göre bir aralık elde etme yöntemi. tipik[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) yöntem, adlandırılmış aralığın adını alır ve belirtilen adlandırılmış aralığı,[**Menzil**](https://reference.aspose.com/cells/net/aspose.cells/range) sınıf. Aşağıdaki örnek, adına göre belirtilen bir aralığa nasıl erişileceğini gösterir.
+Belirli bir adlandırılmış aralığa erişmek için [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) koleksiyonunun [**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) yöntemini çağırın. Tipik bir [**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) yöntemi, adlandırılmış aralığın adını alır ve belirtilen adlandırılmış aralığı [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) sınıfının bir örneği olarak döndürür. Aşağıdaki örnek, adına göre belirtilen bir aralığa nasıl erişileceğini göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessSpecificNamedRange-1.cs" >}}
 
-#### **Bir Elektronik Tablodaki Tüm Adlandırılmış Aralıklara Erişin**
+#### **Bir Elektronik Tablodaki Tüm İsimlendirilmiş Aralıklara Eriş**
 
- Ara[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) koleksiyonun[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) bir e-tablodaki tüm adlandırılmış aralıkları alma yöntemi. bu[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) yöntem, tüm ad aralıklarının bir dizisini döndürür.[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Toplamak.
+Bir elektronik tablodaki tüm isimlendirilmiş aralıklara erişmek için [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) koleksiyonunun [**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) yöntemini çağırın. [**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) yöntemi, [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) koleksiyonundaki tüm adlandırılmış aralık dizisini döndürür.
 
-Aşağıdaki örnek, bir çalışma kitabındaki tüm adlandırılmış aralıklara nasıl erişileceğini gösterir.
+Aşağıdaki örnek, bir çalışma kitabındaki tüm adlandırılmış aralıklara erişmeyi gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessAllNamedRanges-1.cs" >}}
 
-### **Adlandırılmış Aralıkları Kopyala**
+### **İsimlendirilmiş Aralıkları Kopyala**
 
- Aspose.Cells sağlar[**Aralık.Kopya()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) biçimlendirmeli bir hücre aralığını başka bir aralığa kopyalama yöntemi.
+Aspose.Cells, bir hücre aralığını biçimlendirmesiyle birlikte başka bir aralığa kopyalamak için [**Range.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) yöntemi sağlar.
 
-Aşağıdaki örnek, bir hücre kaynak aralığının başka bir adlandırılmış aralığa nasıl kopyalanacağını gösterir.
+Aşağıdaki örnek, kaynak hücre aralığını başka adlandırılmış bir aralığa kopyalamanın nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}

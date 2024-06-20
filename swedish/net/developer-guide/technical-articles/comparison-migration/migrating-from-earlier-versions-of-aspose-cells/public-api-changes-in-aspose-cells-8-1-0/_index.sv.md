@@ -1,30 +1,31 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.1.0
+---
+title: Offentliga API ändringar i Aspose.Cells 8.1.0
 type: docs
 weight: 40
 url: /sv/net/public-api-changes-in-aspose-cells-8-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.0.2 till 8.1.0, som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringar i Aspose.Cells API från version 8.0.2 till 8.1.0, som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **HtmlSaveOptions.ExportHiddenWorksheet Property har lagts till**
-Klassen HtmlSaveOptions har exponerat egenskapen ExportHiddenWorksheet som kan användas för att ange om dolda kalkylblad exporteras till formatet HTML. Standardvärdet är sant. medan om satt till false, kommer Aspose.Cells inte att exportera dolt kalkylbladsinnehåll.
+## **TextDirection-egenskapen har lagts till Formklassen**
+Klassen HtmlSaveOptions har exponerat ExportHiddenWorksheet-egenskapen som kan användas för att ange om dolda arbetsblad exporteras till HTML-format. Standardvärdet är sant. Om det är satt till falskt, kommer inte Aspose.Cells att exportera innehållet i dolda arbetsblad.
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera den detaljerade artikeln om[Förhindra export av dolt kalkylblad](/cells/sv/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
+Kolla in den detaljerade artikeln om [Prevent Exporting Hidden Worksheet](/cells/sv/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
 
 {{% /alert %}}
-## **Lade till Cell.StringValueWithoutFormat Property**
-Egenskapen StringValueWithoutFormat har lagts till i klassen Cell för att göra det lättare för utvecklarna att hämta cellvärdet utan att använda någon formatering.
+## **StringValueWithoutFormat-egenskapen har lagts till Cell-klassen, för att underlätta för utvecklare att hämta cellvärdet utan formateringar.**
+Nedan visas ett kodsnutt som visar användningen av Cell.StringValueWithoutFormat-egenskapen jämfört med cell.DisplayStringValue genom att skapa ett kalkylblad från grunden och tillämpa nummerformat på en av cellerna.
 
-Nedan medföljande kodavsnitt visar användningen av Cell.StringValueWithoutFormat-egenskapen jämfört med cell.DisplayStringValue genom att skapa ett kalkylblad från början och tillämpa talformatet på en av cellerna.
+Den tillhandahållna kodsnutten demonstrerar användningen av Cell.StringValueWithoutFormat-egenskapen jämfört med cell.DisplayStringValue genom att skapa en kalkyl från grunden och tillämpa nummerformat på en av cellerna.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -70,12 +71,12 @@ Console.WriteLine(unformatted);
 
 {{% alert color="primary" %}} 
 
-Utmatningen av ovanstående kod är som följer
+Resultatet av ovanstående kod är följande
 
 123,456
 
 123456
 
 {{% /alert %}}
-## **Föråldrade byte, tecken, tecken med mellanslag, rader, styckeegenskaper**
-Många fastigheter från klassen BuiltInDocumentPropertyCollection har märkts föråldrade från Aspose.Cells for .NET 8.1.0. Dessa egenskaper inkluderar Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs. Anledningen är att ovannämnda egenskaper inte är till någon nytta för att konservera Excel-kalkylblad eftersom Excel utelämnar dem. Där dessa egenskaper ursprungligen skrevs för Word-dokument och PowerPoint presentationer.
+## **Föråldrade Bytes, Tecken, TeckenMedMellanslag, Rader, Stycken Egenskaper**
+Många egenskaper från BuiltInDocumentPropertyCollection-klassen har markerats föråldrade från Aspose.Cells for .NET 8.1.0. Dessa egenskaper inkluderar Bytes, Tecken, TeckenMedMellanslag, Rader & Stycken. Anledningen är att ovanstående egenskaper inte är användbara för att bevara Excel-kalkylblad eftersom Excel exkluderar dem. Dessa egenskaper var ursprungligen skrivna för Word-dokument & PowerPoint-presentationer.

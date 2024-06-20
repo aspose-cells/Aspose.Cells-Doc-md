@@ -1,16 +1,17 @@
-﻿---
+---
 title: Visa eller dölj flikar i Ruby
 type: docs
 weight: 40
 url: /sv/java/display-or-hide-tabs-in-ruby/
 ---
+
 ## **Aspose.Cells - Visa eller dölj flikar**
-### **Döljer flikar**
- För att dölja flikar med**Aspose.Cells Java för Ruby** , ringa upp**visagömflikar** modul.
+### **Gömma flikar**
+För att dölja flikar med **Aspose.Cells Java för Ruby**, anropa modulen **displayhidetabs**.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -30,18 +31,18 @@ puts "Tabs are now hidden, please check the output file."
 
 {{< /highlight >}}
 ### **Göra flikar synliga**
-Gör flikar synliga med arbetsboksklassens setSheetTabBarHidden(false) metod.
+Gör flikar synliga med klassen Workbook metod setSheetTabBarHidden(false).
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the tabs of the Excel file
 
 workbook.getSettings().setSowTabs(true)
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Dölj eller visa eller dölj flikar (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Dölj eller visa flikar (Aspose.Cells)** från någon av sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidetabs.rb)

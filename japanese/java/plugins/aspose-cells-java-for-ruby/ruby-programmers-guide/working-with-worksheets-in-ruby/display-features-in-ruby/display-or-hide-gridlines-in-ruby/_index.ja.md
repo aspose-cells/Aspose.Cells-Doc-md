@@ -1,16 +1,17 @@
-﻿---
-title: Ruby でグリッド線を表示または非表示にする
+---
+title: Rubyでグリッド線を表示または非表示にする
 type: docs
 weight: 10
 url: /ja/java/display-or-hide-gridlines-in-ruby/
 ---
+
 ## **Aspose.Cells - グリッド線の表示または非表示**
 ### **グリッド線を非表示にする**
-を使用してワークシートを非表示にするには**Aspose.Cells Ruby の場合は Java**、 電話**表示非表示グリッド線**モジュール。
+**Aspose.Cells Java for Ruby**を使用してワークシートを非表示にするには、**displayhidegridlines**モジュールを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -38,18 +39,18 @@ puts "Gridlines are now hidden, please check the output file."
 
 {{< /highlight >}}
 ### **グリッド線を表示する**
-グリッド線を表示するには、Worksheet クラスの setGridlinesVisible(true) メソッドを使用します。
+グリッド線を表示するには、WorksheetクラスのsetGridlinesVisible(true)メソッドを使用します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the gridlines of the worksheet
 
 worksheet.setGridlinesVisible(true)
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**グリッド線を表示または非表示にする (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+**Aspose.Cells**のDisplay or Hide Gridlinesを以下に示すソーシャルコーディングサイトからダウンロードする:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)

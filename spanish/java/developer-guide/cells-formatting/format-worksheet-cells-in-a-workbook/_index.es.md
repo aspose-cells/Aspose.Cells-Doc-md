@@ -1,37 +1,38 @@
-﻿---
-title: Dar formato a la hoja de trabajo Cells en un libro de trabajo
+---
+title: Formatear celdas de hojas de cálculo en un libro de trabajo
 type: docs
 weight: 140
 url: /es/java/format-worksheet-cells-in-a-workbook/
 ---
+
 {{% alert color="primary" %}}
 
 Este artículo muestra cómo:
 
-1. Utilice estilos para dar formato rápidamente a los datos.
-1. Formato de celdas en filas y columnas.
-1. Use bordes y colores para enfatizar los datos.
-1. Aplique formatos de números para enfatizar los datos.
+1. Usar estilos para formatear rápidamente los datos.
+1. Formatear celdas en filas y columnas.
+1. Usar bordes y colores para enfatizar los datos.
+1. Aplicar formatos numéricos para enfatizar los datos.
 1. Use fuentes y atributos para resaltar datos.
-1. Da formato a los datos en un rango con nombre.
-1. Cambiar la alineación y la orientación de los datos.
+1. Formatee datos en un rango denominado.
+1. Cambie la alineación y orientación de los datos.
 1. Establezca la altura de fila y el ancho de columna.
 
-El proyecto de ejemplo realiza todas estas tareas y brinda a los desarrolladores una descripción detallada de cómo crear un libro de trabajo, agregar datos y aplicar formato usando Aspose.Cells for Java.
+El proyecto de ejemplo realiza todas estas tareas y proporciona a los desarrolladores una descripción detallada de cómo crear un libro de trabajo, agregar datos y aplicar formato utilizando Aspose.Cells for Java.
 
 {{% /alert %}}
 
-## **Formateo de datos**
+## **Formato de datos**
 
-El formato se utiliza para distinguir entre diferentes tipos de información y para mostrar los datos con claridad.
+El formato se utiliza para distinguir entre diferentes tipos de información y mostrar datos de manera clara.
 
-Un formato representa un estilo y se define como un conjunto de características, como fuentes y tamaños de fuentes, formatos de números, bordes de celdas, sombreado de celdas, sangría, alineación y orientación del texto. Los bordes proporcionan más formas de resaltar información. Un borde es una línea dibujada alrededor de una celda o un grupo de celdas.
+Un formato representa un estilo y se define como un conjunto de características, como fuentes y tamaños de fuente, formatos de números, bordes de celdas, sombreado de celdas, sangría, alineación y orientación del texto. Los bordes proporcionan otras formas de resaltar información. Un borde es una línea dibujada alrededor de una celda o grupo de celdas.
 
-Los formatos numéricos también hacen que los datos sean más significativos. Al aplicar diferentes formatos de números, puede cambiar la apariencia de los números sin cambiar el número detrás de la apariencia.
+Los formatos de números también hacen que los datos sean más significativos. Al aplicar diferentes formatos de números, puede cambiar la apariencia de los números sin cambiar el número que representa.
 
-Aspose.Cells le permite dibujar bordes de celdas y rangos rápida y fácilmente. También le permite aplicar fuentes y sombrear celdas. El componente es lo suficientemente eficiente como para dar formato a una fila o columna completa, establecer alineaciones, ajustar y rotar texto en celdas. Aspose.Cells admite además todos los formatos de números admitidos por Microsoft Excel.
+Aspose.Cells le permite dibujar rápidamente bordes de celda y rango. También le permite aplicar fuentes y sombrear celdas. El componente es lo suficientemente eficiente para formatear una fila o columna completa, establecer alineaciones, ajustar y girar el texto en celdas. Aspose.Cells también admite todos los formatos numéricos compatibles con Microsoft Excel.
 
-Este artículo muestra cómo generar un informe anual de ventas. El libro de trabajo se crea desde cero, luego se insertan los datos y se formatea la hoja de trabajo. Mostramos cómo crear una aplicación de consola simple que crea un libro de Excel (también puede usar un archivo de plantilla), inserta datos de ventas en la primera hoja de trabajo, formatea los datos y guarda un archivo de Excel.
+Este artículo muestra cómo generar un informe de ventas anual. El libro de trabajo se crea desde cero, luego se insertan datos y se formatea la hoja de cálculo. Mostramos cómo crear una aplicación de consola simple que crea un libro de Excel (también se puede usar un archivo de plantilla), insertar datos de ventas en la primera hoja de cálculo, formatear los datos y guardar un archivo de Excel.
 
 ### **Proceso**
 
@@ -39,23 +40,23 @@ Este artículo muestra cómo generar un informe anual de ventas. El libro de tra
 
 ### **Resultado**
 
-Después de ejecutar el código anterior, se genera un archivo de Excel Microsoft con una nueva hoja de trabajo formateada llamada Informe de ventas.
+Después de ejecutar el código anterior, se generará un archivo de Microsoft Excel con una nueva hoja de cálculo formateada llamada Informe de Ventas.
 
 **El archivo de salida**
 
-![todo:imagen_alternativa_texto](format-worksheet-cells-in-a-workbook_1.png)
+![todo:image_alt_text](format-worksheet-cells-in-a-workbook_1.png)
 
 ## **Resumen**
 
 {{% alert color="primary" %}}
 
-El formato de los datos de la hoja de cálculo es importante porque el aspecto de los datos puede cambiar su significado. Si planea imprimir hojas de trabajo, enviarlas por correo electrónico a los clientes o mostrarlas a la gerencia, piense si el formato es fácil de ver.
-El uso cuidadoso del color, el sombreado, los bordes, las fuentes, el formato de los números, la alineación, la sangría y la orientación pueden marcar la diferencia entre una cantidad desordenada de datos y una hoja de trabajo con la que es fácil trabajar y comprender.
+El formateo de datos de hojas de cálculo es importante porque cómo se ve los datos puede cambiar su significado. Si planea imprimir hojas de cálculo, enviarlas por correo electrónico a clientes o mostrarlas a la gerencia, piense si el formato es amigable para el espectador.
+El uso cuidadoso del color, sombreado, bordes, fuentes, formatos numéricos, alineación, sangría y orientación puede marcar la diferencia entre un cúmulo de datos desordenado y una hoja de cálculo fácil de trabajar y entender.
 
-Este artículo demostró cómo formatear datos ocupados en diferentes celdas en una hoja de trabajo con Aspose.Cells. Con suerte, puede usar el ejemplo en sus propios escenarios.
+Este artículo demostró cómo formatear datos ocupados en diferentes celdas en una hoja de cálculo con Aspose.Cells. Con suerte, puedes usar el ejemplo en tus propios escenarios.
 
-Aspose.Cells ofrece más flexibilidad que otras soluciones y brinda una velocidad, eficiencia y confiabilidad sobresalientes. Aspose.Cells se beneficia de años de investigación, diseño y ajuste cuidadoso.
+Aspose.Cells ofrece más flexibilidad que otras soluciones y proporciona una velocidad, eficiencia y fiabilidad sobresalientes. Aspose.Cells se beneficia de años de investigación, diseño y ajuste cuidadoso.
 
- Agradecemos sus consultas, comentarios y sugerencias en[Aspose.Cells Foro](https://forum.aspose.com/c/cells/9). Garantizamos una pronta respuesta.
+Agradecemos sus consultas, comentarios y sugerencias en el [Foro de Aspose.Cells](https://forum.aspose.com/c/cells/9). Garantizamos una pronta respuesta.
 
 {{% /alert %}}

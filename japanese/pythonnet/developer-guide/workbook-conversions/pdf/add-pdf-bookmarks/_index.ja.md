@@ -1,25 +1,26 @@
 ---
-title: PDF ブックマークを追加
+title: PDFブックマークを追加する
 type: docs
 weight: 10
 url: /ja/python-net/add-pdf-bookmarks/
-description: Aspose.Cells for Python via .NET API を使用して PDF ブックマークを追加する方法を学びます。
-keywords: Python add pdf bookmarks, add pdf book marks Pyton via NET, insert pdf bookmarks
+description: Aspose.Cells for Python via .NET APIを使用したPDFブックマークの追加方法。
+keywords: PythonでPDFにブックマークを追加する、PythonでPDFブックマークを追加するvia NET、PDFにブックマークを挿入する。
 ---
+
 {{% alert color="primary" %}}
 
-この記事では、スプレッドシートを PDF に変換するときに PDF ブックマークを挿入する方法について説明します。
+この記事では、スプレッドシートをPDFに変換する際にPDFブックマークを挿入する方法についての情報を提供します。
 
-Aspose.Cells for Python via .NET を使用すると、その場でブックマークを追加できます。 PDF ブックマークを使用すると、長いドキュメントのナビゲーション性が大幅に向上します。ブックマーク リンクを PDF ドキュメントに追加すると、ページへのリンクに限定されず、必要なビューを正確に制御できます。ターゲットページを配置することで正確なビューを設定し、ブックマークを作成できます。
+Aspose.Cells for Python via .NETを使用すると、PDFブックマークを簡単に追加できます。
 
 {{% /alert %}}
 
-PDF ブックマークを追加する方法については、次のサンプル コードを参照してください。このコードは、単純なワークブックを生成し、宛先の場所を含む PDF ブックマークを指定して、PDF ファイルを生成します。
+次のサンプルコードでは、シンプルなワークブックを生成し、PDFブックマークとその場所の特定を指定し、PDFファイルを生成します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddPDFBookmarks-1.py" >}}
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、次のように呼び出すのが最善です。[**Workbook.calculate_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)スプレッドシートを PDF 形式にレンダリングする直前。そうすることで、数式に依存する値が PDF で正しく更新され、表示されるようになります。
+スプレッドシートに数式がある場合は、PDF形式でレンダリングする直前に[**Workbook.calculate_formula**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)を呼び出すことが最適です。これにより、数式に依存する値が更新され、正しくPDFにレンダリングされます。
 
 {{% /alert %}}

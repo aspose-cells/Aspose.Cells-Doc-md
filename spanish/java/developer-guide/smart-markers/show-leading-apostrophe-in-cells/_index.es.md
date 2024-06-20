@@ -1,27 +1,28 @@
-﻿---
-title: Mostrar el apóstrofo inicial en las celdas
+---
+title: Mostrar apóstrofe inicial en celdas
 type: docs
 weight: 20
 url: /es/java/show-leading-apostrophe-in-cells/
 ---
-## **Mostrar el apóstrofo inicial en las celdas**
 
-En Microsoft Excel, el apóstrofo inicial en el valor de la celda está oculto. Aspose.Cells proporciona la función para mostrar el apóstrofo de forma predeterminada. Para esto, el API proporciona[**Libro de trabajo.Configuración.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)propiedad. Esta propiedad indica si se debe establecer el[**Prefijo de cotización**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix)propiedad al ingresar un valor de cadena que comienza con una comilla simple en la celda. Configuración de la[**Libro de trabajo.Configuración.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)propiedad a**falso**mostrará el apóstrofe inicial en el archivo de salida de Excel.
+## **Mostrar apóstrofo inicial en celdas**
 
-La siguiente captura de pantalla muestra el archivo de salida de Excel con el apóstrofo visible.
+En Microsoft Excel, el apóstrofe inicial en el valor de la celda está oculto. Aspose.Cells proporciona la característica de mostrar el apóstrofe por defecto. Para esto, la API proporciona la propiedad [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle). Esta propiedad indica si se debe establecer la propiedad [**QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix) al ingresar un valor de cadena que comienza con una comilla simple en la celda. Establecer la propiedad [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle) en **falso** mostrará el apóstrofe inicial en el archivo de Excel de salida.
 
-![todo:imagen_alternativa_texto](show-leading-apostrophe-in-cells_1.jpg)
+La siguiente captura de pantalla muestra el archivo de Excel de salida con el apóstrofe visible.
 
-El siguiente fragmento de código demuestra esto mediante la adición de datos con marcadores inteligentes en el archivo de origen de Excel. Los archivos de Excel de origen y salida se adjuntan como referencia.
+![todo:image_alt_text](show-leading-apostrophe-in-cells_1.jpg)
 
-[Archivo fuente](AllowLeadingApostropheSample.xlsx)
+El siguiente fragmento de código demuestra esto agregando datos con Marcadores Inteligentes en el archivo de Excel fuente. Los archivos de Excel fuente y de salida se adjuntan para referencia.
 
-[Archivo de salida](AllowLeadingApostropheSample_out.xlsx)
+[Archivo Fuente](AllowLeadingApostropheSample.xlsx)
+
+[Archivo de Salida](AllowLeadingApostropheSample_out.xlsx)
 
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AllowLeadingApostrophe-1.java" >}}
 
-La implementación de*Objeto de datos*la clase se da a continuación
+La implementación de la clase *DataObject* se muestra a continuación
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelperClasses-DataObject-1.java" >}}

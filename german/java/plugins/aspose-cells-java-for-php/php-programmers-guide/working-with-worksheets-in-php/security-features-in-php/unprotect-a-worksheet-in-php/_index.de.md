@@ -1,15 +1,16 @@
-﻿---
-title: Entschützen Sie ein Arbeitsblatt in Php
+---
+title: Ein Arbeitsblatt in PHP entriegeln
 type: docs
 weight: 20
 url: /de/java/unprotect-a-worksheet-in-php/
 ---
-## **Aspose.Cells – Schutz eines Arbeitsblatts aufheben**
- Arbeitsblatt mit schützen**Aspose.Cells Java for PHP** , Anruf**unprotect_worksheet** Methode von**Schutz** Modul.
+
+## **Aspose.Cells - Ein Arbeitsblatt entschützen**
+Um ein Arbeitsblatt mit **Aspose.Cells Java für PHP** zu schützen, rufen Sie die Methode **unprotect_worksheet** des Moduls **protection** auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $filesFormatType = new FileFormatType();
 
@@ -32,7 +33,7 @@ $worksheet->unprotect("aspose");
 $workbook->save($dataDir . "output.xls", $filesFormatType->EXCEL_97_TO_2003); 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Schutz eines Arbeitsblatts aufheben (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Unprotect a Worksheet (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/UnprotectingPasswordProtectedWorksheet.php)

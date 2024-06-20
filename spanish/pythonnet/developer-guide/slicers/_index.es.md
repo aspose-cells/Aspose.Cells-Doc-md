@@ -1,37 +1,39 @@
 ---
-title: Insertar rebanadora
-linktitle: Rebanadoras
+title: Insertar rebanador
+linktitle: Rebanadores
 type: docs
 weight: 170
 url: /es/python-net/create-slicer/
-description: Administre segmentaciones de archivos de Excel con Aspose.Cells.
+description: Gestionar rebanadores de archivos de Excel con Aspose.Cells.
+keywords: Aspose.Cells para Python Excel, biblioteca de Python Excel, Crear rebanador sin Excel, Agregar rebanador a través de Aspose.Cells para Python, Insertar rebanador usando Aspose.Cells para Python.
 ---
-##  **Posibles escenarios de uso**
 
-Se utiliza una segmentación de datos para filtrar datos rápidamente. Se puede utilizar para filtrar datos tanto en una tabla como en una tabla dinámica. Microsoft Excel le permite crear una segmentación de datos seleccionando una tabla o tabla dinámica y luego haciendo clic en *Insertar > Segmentación*. Aspose.Cells for Python via .NET también le permite crear una segmentación de datos utilizando el[**Hoja de trabajo.slicers.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/add/#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField)método.
+## **Escenarios de uso posibles**
 
-##  **Crear segmentación en una tabla dinámica**
+Un rebanador se utiliza para filtrar datos rápidamente. Puede utilizarse para filtrar datos tanto en una tabla como en una tabla dinámica. Microsoft Excel te permite crear un rebanador seleccionando una tabla o tabla dinámica y luego haciendo clic en * Insertar > Rebanador *. Aspose.Cells para Python via .NET también te permite crear un rebanador utilizando el método [**Worksheet.slicers.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/add/#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField).
 
- Consulte el siguiente código de muestra. Se carga el[archivo de Excel de muestra](67338470.xlsx) que contiene la tabla dinámica. Luego crea la segmentación de datos basada en el campo de pivote de la primera base. Finalmente, guarda el libro de trabajo en[salida XLSX](67338471.xlsx) y[salida XLSB](67338472.xlsb) formato. La siguiente captura de pantalla muestra la segmentación de datos creada por Aspose.Cells en el archivo Excel de salida.
+## **Cómo crear un rebanador para una tabla dinámica utilizando la biblioteca de Python Excel Aspose.Cells.**
+
+Por favor, consulte el siguiente código de ejemplo. Carga el [archivo de Excel de muestra](67338470.xlsx) que contiene la tabla dinámica. Luego crea el rebanador basado en el primer campo de la tabla pivote. Finalmente, guarda el libro de trabajo en formato [XLSX de salida](67338471.xlsx) y [XLSB de salida](67338472.xlsb). La siguiente captura de pantalla muestra el rebanador creado por Aspose.Cells en el archivo de Excel de salida.
 
 ![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
 
-###  **Código de muestra**
+### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-CreateSlicerToPivotTable.py" >}}
 
-##  **Crear tabla de segmentación en Excel**
+## **Cómo crear un rebanador para una tabla de Excel utilizando la biblioteca de Python Excel Aspose.Cells.**
 
- Consulte el siguiente código de muestra. Se carga el[archivo de Excel de muestra](sampleCreateSlicerToExcelTable.xlsx) que contiene una tabla. Luego crea la segmentación de datos basada en la primera columna. Finalmente, guarda el libro de trabajo en[salida XLSX](outputCreateSlicerToExcelTable.xlsx) formato.
+Por favor, consulte el siguiente código de ejemplo. Carga el [archivo de Excel de muestra](sampleCreateSlicerToExcelTable.xlsx) que contiene una tabla. Luego crea el rebanador basado en la primera columna. Finalmente, guarda el libro de trabajo en formato [XLSX de salida](outputCreateSlicerToExcelTable.xlsx).
 
-###  **Código de muestra**
+### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.py" >}}
 
-##  **Temas avanzados**
-- [Cambiar propiedades de segmentación](/cells/es/python-net/change-slicer-properties/)
-- [Dibuje Slicer mientras renderiza Excel en PDF](/cells/es/python-net/draw-slicer-while-rendering-excel-to-pdf/)
-- [Cortadora de formato](/cells/es/python-net/formatting-slicer/)
-- [Quitar la rebanadora](/cells/es/python-net/removing-slicer/)
-- [Rebanador de renderizado](/cells/es/python-net/rendering-slicer/)
-- [Actualizando la segmentación](/cells/es/python-net/updating-slicer/)
+## **Temas avanzados**
+- [Cambiar propiedades del rebanador](/cells/es/python-net/change-slicer-properties/)
+- [Dibujar un rebanador al renderizar Excel a PDF](/cells/es/python-net/draw-slicer-while-rendering-excel-to-pdf/)
+- [ Formatear rebanador](/cells/es/python-net/formatting-slicer/)
+- [Eliminar rebanador](/cells/es/python-net/removing-slicer/)
+- [Renderización de rebanador](/cells/es/python-net/rendering-slicer/)
+- [Actualización de rebanador](/cells/es/python-net/updating-slicer/)

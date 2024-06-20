@@ -1,12 +1,13 @@
-﻿---
+---
 title: Öppna textfiler som arbetsböcker
 type: docs
 weight: 180
 url: /sv/net/open-text-files-as-workbooks/
 ---
-Nedan är exempel på jämförelsekod för att öppna textfil som arbetsböcker:
+
+Här är jämförande kodexempel för att öppna textfil som arbetsböcker:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
      this.Application.Workbooks.OpenText(@"OpenTextFilesAsWorkbooks.txt",
 
@@ -22,7 +23,7 @@ Nedan är exempel på jämförelsekod för att öppna textfil som arbetsböcker:
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
     private static string fileName = "OpenTextFilesAsWorkbooks.xlsx";
 
@@ -37,5 +38,5 @@ Nedan är exempel på jämförelsekod för att öppna textfil som arbetsböcker:
    newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Ladda ner**
+##**Ladda Ner**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

@@ -1,12 +1,13 @@
-﻿---
-title: Supprimer des feuilles de calcul des classeurs
+---
+title: Supprimer des feuilles de calcul à partir des classeurs
 type: docs
 weight: 100
 url: /fr/net/delete-worksheets-from-workbooks/
 ---
-Vous pouvez supprimer n'importe quelle feuille de calcul dans un classeur. Pour supprimer une feuille de calcul, utilisez l'élément hôte de feuille de calcul ou accédez à la feuille de calcul à l'aide de la collection de feuilles du classeur.
+
+Vous pouvez supprimer n'importe quelle feuille de calcul dans un classeur. Pour supprimer une feuille de calcul, utilisez l'élément hôte de feuille de calcul ou accédez à la feuille de calcul en utilisant la collection de feuilles du classeur.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook= this.Application.Workbooks.Open(fileName);
 
@@ -14,7 +15,7 @@ Vous pouvez supprimer n'importe quelle feuille de calcul dans un classeur. Pour 
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

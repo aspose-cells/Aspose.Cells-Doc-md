@@ -1,33 +1,34 @@
-﻿---
-title: Aspose.Cells Java ストラット用
+---
+title: StrutsのためのAspose.Cells Java
 type: docs
 weight: 30
 url: /ja/java/aspose-cells-java-for-struts/
 ---
-## **Apache Struts Web フレームワーク**
-Apache Struts Web フレームワークは、Java Web アプリケーションを作成するための無料のオープンソース ソリューションです。
 
-Web アプリケーションは、動的な応答を作成できるという点で、従来の Web サイトとは異なります。多くの Web サイトは、静的ページのみを配信します。 Web アプリケーションは、データベースおよびビジネス ロジック エンジンとやり取りして、応答をカスタマイズできます。
+## **Apache Struts Webフレームワーク**
+Apache Strutsウェブフレームワークは、Javaウェブアプリケーションを作成するための無料のオープンソースソリューションです。
 
-ソフトウェア アプリケーションで関心を分離する 1 つの方法は、Model-View-Controller (MVC) アーキテクチャを使用することです。 Model はビジネス コードまたはデータベース コードを表し、View はページ デザイン コードを表し、Controller はナビゲーション コードを表します。 Struts フレームワークは、開発者が MVC アーキテクチャを利用する Web アプリケーションを作成できるように設計されています。
+ウェブアプリケーションは、通常のウェブサイトと異なり、動的なレスポンスを生成できます。多くのウェブサイトでは静的なページのみを提供していますが、ウェブアプリケーションはデータベースやビジネスロジックエンジンと対話してレスポンスをカスタマイズできます。
 
-[もっと詳しく知る](http://struts.apache.org/birdseye.html)
+ソフトウェアアプリケーションで関心事を分離する方法の1つは、モデル-ビュー-コントローラ（MVC）アーキテクチャを使用することです。モデルはビジネスまたはデータベースコードを、ビューはページデザインコードを、コントローラはナビゲーションコードを表します。Strutsフレームワークは、開発者がMVCアーキテクチャを活用したウェブアプリケーションを作成するのを支援するように設計されています。
+
+[詳細を見る](http://struts.apache.org/birdseye.html)
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java は高度なクラス ライブラリ for Java であり、Java 内でさまざまなドキュメント処理タスクを直接実行できます。
+Aspose.Cells for Javaは、Javaの高度なクラスライブラリであり、Java内で幅広いドキュメント処理タスクを直接実行できるようにします。
 アプリケーション。
 
-Aspose.Cells for Java は、Cells (DOC、DOCX、OOXML、RTF) HTML、OpenDocument、PDF、EPUB、XPS、SWF およびすべての画像形式の処理をサポートします。 Aspose.Cellsでできます
-Microsoft Cells を使用せずにドキュメントを生成、変更、および変換します。
-## **システム要求**
-**Struts 1.3 Web アプリケーションの Aspose.Cells Java のシステム要件は次のとおりです。**
+Aspose.Cells for Javaは、Cells（DOC、DOCX、OOXML、RTF）HTML、OpenDocument、PDF、EPUB、XPS、SWF、およびすべての画像フォーマットの処理をサポートしています。Aspose.Cellsを使用すると、Microsoft Cellsを使用せずにドキュメントを生成、変更、および変換できます。
+Aspose.Cells Java for Struts 1.3ウェブアプリケーションのシステム要件は次のとおりです。
+## **システム要件**
+- インストールされているJava 1.6以上。
 
-- Java 1.6 以上がインストールされています。
-- Apache Tomcat サーバー 7 以降
+- Apache Tomcat Server 7以上
+- Apache Tomcatサーバー7以上
 - Maven 3
-- アパッチ ストラット 1.3
-- Aspose.Cells コンポーネント。
+- Apache Struts 1.3
+- Aspose.Cellsコンポーネント。
 ## **サポートされているプラットフォーム**
-**サポートされているプラットフォームは次のとおりです。**
+**サポートされているプラットフォームは次のとおりです:**
 
-- Aspose.Cells 8.5.0 以上。
-- Java IDE (Eclipse、NetBeans、IntelliJ など)。
+- Aspose.Cells 8.5.0以上。
+- Java IDE（Eclipse、NetBeans、IntelliJなど）。

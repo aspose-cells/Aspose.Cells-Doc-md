@@ -1,41 +1,42 @@
-﻿---
-title: Aggiungi collegamenti ipertestuali a Cells
+---
+title: Aggiungi collegamenti ipertestuali alle celle
 type: docs
 weight: 60
 url: /it/net/add-hyperlinks-to-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET consente di eseguire quasi tutte le attività tramite l'applicazione che un utente può eseguire in Microsoft Excel. Questo articolo confronta come aggiungere un collegamento ipertestuale a una cella in un foglio di lavoro utilizzando VSTO e Aspose.Cells for .NET.
+Aspose.Cells for .NET consente di eseguire quasi tutte le attività tramite la tua applicazione che un utente può eseguire in Microsoft Excel. Questo articolo confronta come aggiungere un collegamento ipertestuale a una cella in un foglio di lavoro utilizzando VSTO e Aspose.Cells for .NET.
 
 {{% /alert %}}
 
-## **Aggiunta di collegamenti ipertestuali a Cells**
+## **Aggiunta di collegamenti ipertestuali alle celle**
 
-Per aggiungere collegamenti ipertestuali alle celle in un foglio di calcolo, procedi come segue:
+Per aggiungere collegamenti ipertestuali alle celle in un foglio di calcolo, segui i seguenti passaggi:
 
-1. Imposta il foglio di lavoro:
- 1. Creare un'istanza di un oggetto Application.
- (solo VSTO.)
- 1. Aggiungi una cartella di lavoro.
- 1. Prendi il primo foglio.
- 1. Aggiungi testo alle celle a cui aggiungerai un collegamento ipertestuale.
-1. Aggiungi collegamento ipertestuale.
-1. Salva il documento.
+1. Configura il foglio di lavoro:
+   1. Istanziare un oggetto Application.
+      (Solo VSTO.)
+   1. Aggiungi un foglio di lavoro.
+   1. Ottieni il primo foglio.
+   1. Aggiungere testo alle celle a cui si aggiungerà un collegamento ipertestuale.
+1. Aggiungere un collegamento ipertestuale.
+1. Salvare il documento.
 
- Questi passaggi sono illustrati negli esempi di codice riportati di seguito. I primi esempi mostrano come utilizzare[VSTO](/cells/it/net/add-hyperlinks-to-cells/) con C# o Visual Basic per aggiungere un collegamento ipertestuale a una cella. Gli esempi che seguono mostrano come fare la stessa cosa usando[Aspose.Cells for .NET](/cells/it/net/add-hyperlinks-to-cells/), sempre usando C# o Visual Basic.
+Questi passaggi sono mostrati negli esempi di codice di seguito. Il primo esempio mostra come utilizzare [VSTO](/cells/it/net/aggiungere-collegamenti-ipertestuali-alle-celle/) con C# o Visual Basic per aggiungere un collegamento ipertestuale a una cella. Gli esempi successivi mostrano come fare la stessa cosa utilizzando [Aspose.Cells for .NET](/cells/it/net/aggiungere-collegamenti-ipertestuali-alle-celle/), di nuovo utilizzando C# o Visual Basic.
 
 Gli esempi di codice generano un file Excel con un collegamento ipertestuale nella cella A1 del primo foglio di lavoro.
 
-![cose da fare:immagine_alt_testo](add-hyperlinks-to-cells_1.png)
+![todo:image_alt_text](add-hyperlinks-to-cells_1.png)
 
 **Un collegamento ipertestuale viene aggiunto alla cella A1.**
 
-### **Aggiunta di collegamenti ipertestuali a Cells con VSTO**
+### **Aggiunta collegamenti ipertestuali alle celle con VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -87,11 +88,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Aggiunta di collegamenti ipertestuali a Cells con Aspose.Cells for .NET**
+### **Aggiunta collegamenti ipertestuali alle celle con Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

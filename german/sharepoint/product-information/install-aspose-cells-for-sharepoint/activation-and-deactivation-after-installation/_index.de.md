@@ -1,15 +1,16 @@
-﻿---
+---
 title: Aktivierung und Deaktivierung nach der Installation
 type: docs
 weight: 30
 url: /de/sharepoint/activation-and-deactivation-after-installation/
 ---
+
 {{% alert color="primary" %}} 
 
-[Während der Installation](/cells/de/sharepoint/installing-aspose-cells-for-sharepoint/) , Aspose.Cells for SharePoint ist[aktiviert](/cells/de/sharepoint/deployment-and-activation/) für alle ausgewählten Websitesammlungen. Verwenden Sie nach der Installation die**Site-Aktionen** Menü auf der Stammwebsite einer Websitesammlung zum Aktivieren und Deaktivieren von Aspose.Cells for SharePoint.
+[Während der Installation](/cells/de/sharepoint/installing-aspose-cells-for-sharepoint/) wird Aspose.Cells for SharePoint für alle ausgewählten Website-Sammlungen [aktiviert](/cells/de/sharepoint/deployment-and-activation/). Nach der Installation verwenden Sie das **Site Actions**-Menü auf der Stammwebsite einer Website-Sammlung, um Aspose.Cells for SharePoint zu aktivieren und zu deaktivieren.
 
 {{% /alert %}} 
-### **Aktivieren von Aspose.Cells for SharePoint in einer Websitesammlung.**
+### **Aktivierung von Aspose.Cells for SharePoint in einer Website-Sammlung.**
 **Aspose.Cells aktivieren** 
 
-![todo: Bild_alt_Text](activation-and-deactivation-after-installation_1.png)
+![todo:image_alt_text](activation-and-deactivation-after-installation_1.png)

@@ -1,12 +1,15 @@
-﻿---
-title: Metin çok uzunsa GridDesktop hücresinden taşar
+---
+title: Gereğinden fazla uzun olan metin, GridDesktop hücresinden taşar
 type: docs
 weight: 140
-url: /tr/net/text-overflows-from-griddesktop-cell-if-it-is-too-long/
+url: /tr/net/aspose-cells-griddesktop/text-overflows-from-griddesktop-cell-if-it-is-too-long/
+keywords: GridDesktop,overflow
+description: Bu makale, GridDesktop taki metin taşmasını tanıtıyor.
 ---
+
 ## **Olası Kullanım Senaryoları**
-Microsoft Sonraki bitişik hücreler boş olduğunda ve metin hücrenin içine sığamayacak kadar uzun olduğunda Excel metni taşar. GridDesktop için Aspose.Cells de bu özelliği destekler. Ancak, bu özellik GridDesktop'un önceki sürümlerinde desteklenmiyordu, örneğin 17.11, 17.10 vb. 17.12 ve sonrasında başlayan daha yeni sürümler bu özelliği desteklemektedir.
-## **Metin çok uzunsa GridDesktop hücresinden taşar**
-Aşağıdaki ekran görüntüsü, metnin hücre genişliğine sığamayacak kadar uzun olduğunda GridDesktop hücresinden taştığını göstermektedir. Ekran görüntüsü, metin taşmasıyla ilgili olarak GridDesktop'ın daha yeni ve daha eski sürümünün davranışını gösterir. Ekran görüntüsünde görebileceğiniz gibi, özellik 17.12'den itibaren desteklenmektedir.
-## **Ekran görüntüsü**
-![yapılacaklar:resim_alternatif_metin](text-overflows-from-griddesktop-cell-if-it-is-too-long_1.png)
+Microsoft Excel, yan yana gelen hücreler boşsa ve metin hücre içine sığacak kadar uzunsa metni taşar. Aspose.Cells for GridDesktop da bu özelliği destekler. Ancak, bu özellik GridDesktop'ın önceki sürümlerinde (örneğin 17.11, 17.10 vb.) desteklenmiyordu. 17.12 ve sonrası yeni sürümler bu özelliği destekler.
+## **Gereğinden fazla uzun olan metin, GridDesktop hücresinden taşar**
+Aşağıdaki ekran görüntüsü, GridDesktop'taki metninin hücre genişliği içine sığmayacak kadar uzun olması durumunda taştığını gösterir. Ekran görüntüsü, metin taşmasıyla ilgili yeni ve eski sürümlerin davranışını gösterir. Ekran görüntüsünde görebileceğiniz gibi, özellik 17.12'den itibaren desteklenmektedir.
+## **Ekran Görüntüsü**
+![todo:image_alt_text](text-overflows-from-griddesktop-cell-if-it-is-too-long_1.png)

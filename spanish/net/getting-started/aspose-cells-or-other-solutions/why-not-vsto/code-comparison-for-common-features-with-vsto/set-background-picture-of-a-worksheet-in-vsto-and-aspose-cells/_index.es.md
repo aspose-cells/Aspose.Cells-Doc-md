@@ -1,26 +1,27 @@
-﻿---
-title: Establecer imagen de fondo de una hoja de trabajo en VSTO y Aspose.Cells
+---
+title: Establecer imagen de fondo de una hoja de cálculo en VSTO y Aspose.Cells
 type: docs
 weight: 220
 url: /es/net/set-background-picture-of-a-worksheet-in-vsto-and-aspose-cells/
 ---
+
 Para aplicar una imagen de fondo a una hoja de cálculo:
 
-1. Cree un libro de trabajo y acceda a la hoja a la que desea aplicar una imagen de fondo.
+1. Crear un libro y acceder a la hoja a la que quiere aplicar una imagen de fondo.
 1. Aplicar la imagen de fondo.
-1. Guarde el libro de trabajo.
+1. Guardar el libro.
 
-Los ejemplos de código que siguen muestran cómo hacer esto primero con VSTO, usando C# o Visual Basic, y luego con Aspose.Cells for .NET, nuevamente usando C# o Visual Basic.
+Los ejemplos de código que siguen muestran cómo hacerlo primero con VSTO, usando ya sea C# o Visual Basic, y luego con Aspose.Cells for .NET, nuevamente usando ya sea C# o Visual Basic.
 
-Los ejemplos de código de este artículo crean una hoja de trabajo con una imagen de fondo repetida, como la que se muestra en la siguiente captura de pantalla.
+Los ejemplos de código en este artículo crean una hoja de cálculo con una imagen de fondo repetida, como la que se muestra a continuación.
 
-![todo:imagen_alternativa_texto](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-Se ha establecido un fondo para la hoja de trabajo.
+Se ha establecido un fondo para la hoja de cálculo.
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -50,7 +51,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -70,7 +71,7 @@ FileStream fs = File.OpenRead(ImageUrl);
 
 //Define a byte array.
 
-byte[]imageData = new Byte[fs.Length];
+byte[] imageData = new Byte[fs.Length];
 
 //Obtain the picture into the array of bytes from streams.
 
@@ -90,8 +91,8 @@ workbook.Save("BackgroundPicBook.xls");
 
 {{< /highlight >}}
 
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Set.Background.Picture.of.a.Worksheet.Aspose.Cells.zip)
-- [forjafuente](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip/descargar)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).Código Postal)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip)

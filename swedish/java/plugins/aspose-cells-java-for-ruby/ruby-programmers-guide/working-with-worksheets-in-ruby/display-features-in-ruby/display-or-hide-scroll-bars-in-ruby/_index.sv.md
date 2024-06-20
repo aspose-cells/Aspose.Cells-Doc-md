@@ -1,16 +1,17 @@
-﻿---
-title: Visa eller dölj rullningslister i rubin
+---
+title: Visa eller dölj rullningsfält i Ruby
 type: docs
 weight: 30
 url: /sv/java/display-or-hide-scroll-bars-in-ruby/
 ---
-## **Aspose.Cells - Visa eller dölj rullningslister**
-### **Döljer rullningslister**
- För att dölja rullningslister med**Aspose.Cells Java för Ruby** , ringa upp**visa gömmer rullningslister** modul.
 
-**Ruby kod**
+## **Aspose.Cells - Visa eller dölj rullningsfält**
+### **Dölja bildrullningsfält**
+För att dölja rullningsfält med **Aspose.Cells Java för Ruby**, anropa modulen **displayhidescrollbars**.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -33,12 +34,12 @@ workbook.save(data_dir + "output.xls")
 puts "Scroll Bars are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Göra rullningslister synliga**
-Gör rullningslister synliga genom att ställa in Workbook-klassens metoder setVerticalScrollBarHidden() eller setHorizontalScrollBarHidden() till true.
+### **Gör bildrullningsfält synliga**
+Gör rullningsfält synliga genom att ställa in klassen Workbook metod setVerticalScrollBarHidden() eller setHorizontalScrollBarHidden() till true.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the vertical scroll bar of the Excel file
 
@@ -49,7 +50,7 @@ workbook.getSettings().setVScrollBarVisible(true)
 workbook.getSettings().setHScrollBarVisible(true)
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Visa eller dölj rullningslister (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Visa eller dölj rullningsfält (Aspose.Cells)** från någon av sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidescrollbars.rb)

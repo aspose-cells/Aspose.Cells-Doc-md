@@ -1,15 +1,16 @@
-﻿---
+---
 title: Ajouter des commentaires dans la feuille de calcul en xlsx4j
 type: docs
 weight: 10
 url: /fr/java/add-comments-in-spreadsheet-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Ajouter des commentaires dans la feuille de calcul**
-Ajoutez un commentaire à une cellule en appelant la méthode addComments de la collection Shapes (encapsulée dans l'objet Worksheet). Le nouvel objet Comment est accessible à partir de la collection Comments en transmettant l'index de commentaire. Après avoir accédé à l'objet Comment, personnalisez la note de commentaire à l'aide de la méthode setNote de l'objet Comment.
+Ajoutez un commentaire à une cellule en appelant la méthode addComments de la collection Shapes (encapsulée dans l'objet Worksheet). Le nouvel objet Comment peut être accédé depuis la collection Comments en passant l'index du commentaire. Après avoir accédé à l'objet Comment, personnalisez la note du commentaire en utilisant la méthode setNote de l'objet Comment.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -35,9 +36,9 @@ La classe CommentsPart est disponible pour ajouter des commentaires dans la feui
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) {
+ public static void main(String[] args) {
 
     try {
 
@@ -238,13 +239,13 @@ public static org.docx4j.vml.root.Xml getVml(int row, int col) throws JAXBExcept
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addcomments)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Ajouter des commentaires](/java/adding-comments).
+Pour plus de détails, visitez [Ajouter des commentaires](/java/adding-comments).
 
 {{% /alert %}}

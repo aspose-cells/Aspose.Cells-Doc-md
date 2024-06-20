@@ -1,16 +1,17 @@
-﻿---
-title: Ställa in sidalternativ i Php
+---
+title: Ställ in sidalternativ i Php
 type: docs
 weight: 10
 url: /sv/java/setting-page-options-in-php/
 ---
+
 ## **Aspose.Cells - Ställa in sidalternativ**
 ### **Sidorientering**
- För att tillämpa inställningar för sidorientering med**Aspose.Cells Java for PHP** , ringa upp**page_orientation** metod av**utskriftsformat** modul.
+För att tillämpa inställningar för sidorientering med **Aspose.Cells Java for PHP**, anropa **page_orientation**-metoden i **pagesetup**-modulen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function page_orientation($dataDir=null)
 
@@ -45,12 +46,12 @@ url: /sv/java/setting-page-options-in-php/
 }
 
 {{< /highlight >}}
-### **Skalningsfaktor**
- För att tillämpa skalning med hjälp av**Aspose.Cells Java for PHP** , ringa upp**skalning** metod av**utskriftsformat** modul.
+### **Skalfaktor**
+För att tillämpa skalning med **Aspose.Cells Java for PHP**, anropa **scaling**-metoden i **pagesetup**-modulen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function scaling($dataDir=null)
 
@@ -84,7 +85,7 @@ url: /sv/java/setting-page-options-in-php/
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Ställa in sidalternativ (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Inställning av sidalternativ (Aspose.Cells)** från någon av nedan nämnda sociala kodbaser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/PageSetupFeatures/SettingPageOptions.php)

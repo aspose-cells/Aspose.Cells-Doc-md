@@ -1,16 +1,17 @@
-﻿---
+---
 title: فتح الملفات في PHP
 type: docs
 weight: 10
 url: /ar/net/opening-files-in-php/
 ---
+
 ## **Aspose.Cells - فتح ملفات Excel**
-### **فتح طريق**
-ما عليك سوى فتح ملف Microsoft Excel بالرجوع إلى مسار الملف
+### **الفتح عبر المسار**
+فقط قم بفتح ملف Microsoft Excel عن طريق الإشارة إلى مسار الملف
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -27,7 +28,7 @@ url: /ar/net/opening-files-in-php/
         $worksheets = $ptr->Get($workbook,"Worksheets",array());
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**فتح الملفات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **فتح الملفات (Aspose.Cells)** من أي من المواقع الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/OpeningFiles.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/OpeningFiles.php)

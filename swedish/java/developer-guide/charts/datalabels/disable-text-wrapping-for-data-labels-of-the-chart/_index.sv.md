@@ -1,28 +1,29 @@
-﻿---
-title: Inaktivera textbrytning för dataetiketter i diagrammet
+---
+title: Inaktivera textrader för dataetiketter i diagrammet
 type: docs
 weight: 60
 url: /sv/java/disable-text-wrapping-for-data-labels-of-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel 2013 tillåter användare att radbryta eller packa upp text inuti ett diagrams dataetiketter. Som standard är dataetikettens text radbruten.
+Microsoft Excel 2013 låter användare rada upp eller rada ur texten i diagrammets datamarkörer. Som standard är texten i datamarkörerna raderad.
 
 {{% /alert %}}
 
-Aspose.Cells tillhandahåller[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) metod. Satt till**Sann** eller**Falsk** för att aktivera eller inaktivera textbrytning på dataetiketter.
+Aspose.Cells tillhandahåller metoden [**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped). Ange **True** eller **False** för att aktivera eller inaktivera textradering på datamarkörerna respektive.
 
- Använd på samma sätt[**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)metod för att ta reda på om en dataetikett redan är inslagen.
+På liknande sätt använder du [**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) metoden för att ta reda om en datamarkör redan är raderad.
 
-Den här skärmdumpen visar ett exempel på Microsoft Excel-fil som innehåller ett diagram där texten till dataetiketterna är inlindade. Som du kan se kan du kontrollera eller rensa**Slå in text i form** alternativet i avsnittet ALIGNMENT på panelen Format Dataetiketter i Microsoft Excel 2013.
+Denna skärmbild visar en provfil från Microsoft Excel som innehåller ett diagram där datamarkörernas text är raderad. Som du kan se kan du markera eller avmarkera alternativet **Rada in text i form** i avsnittet ALIGNMENT i panelen Format Datalabels i Microsoft Excel 2013.
 
-**Slå in dataetiketter**
+**Rada in datamarkörer**
 
 ![todo:image_alt_text](disable-text-wrapping-for-data-labels-of-the-chart_1.png)
 
- Exempelkoden som följer läser in exemplet Microsoft Excel-fil med Aspose.Cells och inaktiverar dataetikettstextbrytning med hjälp av[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)metod. När koden exekveras ser diagrammet ut så här. Den tidigare raderade texten är nu uppackad.
+Följande exempelkod laddar den provfilen från Microsoft Excel med hjälp av Aspose.Cells och inaktiverar textradering på datamarkörerna med hjälp av [**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) metoden. När koden har exekverats ser diagrammet ut så här. Den tidigare radade texten är nu uradad.
 
-**Visar endast dataetiketter på en rad**
+**Visa datamarkörer på en rad endast**
 
 ![todo:image_alt_text](disable-text-wrapping-for-data-labels-of-the-chart_2.png)
 

@@ -1,12 +1,13 @@
-﻿---
+---
 title: Slicer aktualisieren
 type: docs
 weight: 60
 url: /de/python-java/updating-slicer/
 ---
-## **Slicer aktualisieren**
-Aspose.Cells for Python via Java unterstützt das Aktualisieren von Slicern. Zu diesem Zweck stellt API die Slicer.SlicerCache.SlicerCacheItems-Eigenschaft bereit, die zum Auswählen oder Abwählen von Slicer-Elementen verwendet wird. Das folgende Code-Snippet lädt die[Beispiel-Excel-Datei](106365050.xlsx)die einen Slicer enthält. Es hebt die Auswahl des 2. und 3. Elements des Slicers auf und aktualisiert den Slicer mit der Methode Slicer.refresh(). Anschließend wird die Arbeitsmappe als[Excel-Datei ausgeben](106365051.xlsx). Der folgende Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispiel-Excel-Datei. Wie Sie im Screenshot sehen können, hat das Aktualisieren des Slicers mit ausgewählten Elementen auch die Pivot-Tabelle entsprechend aktualisiert.
 
-![todo: Bild_alt_Text](Updating-Slicer-using-Aspose.Cells.png)
+## **Slicer aktualisieren**
+Aspose.Cells für Python via Java unterstützt das Aktualisieren von Slicern. Dafür bietet die API die Eigenschaft [Slicer.SlicerCache.SlicerCacheItems](106365050.xlsx), die verwendet wird, um Slicer-Elemente auszuwählen oder abzuwählen. Der folgende Codeausschnitt lädt die [Beispiel Excel-Datei](106365050.xlsx), die einen Slicer enthält. Es wählte die 2. und 3. Elemente des Slicers ab und aktualisierte den Slicer mit der Methode Slicer.refresh(). Dann speichert es die Arbeitsmappe als die [Ausgabe Excel-Datei](106365051.xlsx). Der folgende Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispiel Excel-Datei. Wie Sie auf dem Screenshot sehen können, wurde durch das Aktualisieren des Slicers mit ausgewählten Elementen auch die Pivot-Tabelle entsprechend aktualisiert.
+
+![todo:image_alt_text](Updating-Slicer-using-Aspose.Cells.png)
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Slicers-UpdatingSlicer.py" >}}

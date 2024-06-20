@@ -1,13 +1,14 @@
-﻿---
-title: دعم XAdES Signature
+---
+title: دعم توقيع XAdES
 type: docs
 weight: 110
 url: /ar/java/support-for-xades-signature/
 ---
-يوفر Aspose.Cells دعم توقيع المصنفات باستخدام XAdES Signature. لهذا ، يوفر API[**توقيع إلكتروني**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature)فئة و[**XAdESType**](https://reference.aspose.com/cells/java/com.aspose.cells/XAdESType)تعداد.
 
-يوضح مقتطف الشفرة التالي استخدام ملف[**توقيع إلكتروني**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature)فئة للتوقيع على[مصدر](sourceFile.xlsx)دفتر العمل.
+توفر Aspose.Cells دعم التوقيع على سجلات العمل بتوقيع XAdES. لهذا، يوفر الواجهة البرمجية [**DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) وفئة [**XAdESType**](https://reference.aspose.com/cells/java/com.aspose.cells/XAdESType).
 
-## **عينة من الرموز**
+توضح مقتطفات الكود التالية استخدام الفئة [**DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) لتوقيع السجل المصدر (sourceFile.xlsx) .
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-XAdESSignatureSupport-1.java" >}}

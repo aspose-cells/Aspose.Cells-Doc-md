@@ -1,97 +1,98 @@
-﻿---
-title: Commencer
+---
+title: Pour commencer
 type: docs
 weight: 10
 url: /fr/java/aspose-cells-for-android-via-java-features/
 ---
-## **Aspose.Cells Présentation des fonctionnalités Android via Java**
-Cette section fournit une comparaison de la disponibilité des fonctionnalités entre Aspose.Cells for Java et Aspose.Cells for Android via Java.
+
+## **Aperçu des fonctionnalités d'Aspose.Cells Android via Java**
+Cette section présente une comparaison de la disponibilité des fonctionnalités entre Aspose.Cells for Java et Aspose.Cells pour Android via Java.
 ### **Formats de fichiers et conversions**
-De nombreux clients du monde entier font confiance aux fonctionnalités complètes d'importation et d'exportation de documents fournies par Aspose.Cells.
+De nombreux clients dans le monde entier comptent sur les fonctionnalités d'importation et d'exportation de documents approfondies fournies par Aspose.Cells.
 
-|**Caractéristique**|**Description**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |:- |
-|Conversions de haute qualité|Convertissez rapidement et de manière fiable entre plusieurs formats de documents populaires.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Classeur Excel (XLS/XLSB)|L'implémentation de format XLS/XLSB la plus rapide et la plus complète que vous puissiez trouver.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|SpreadsheetML (XLSX, XML)| Aspose.Cells prend en charge OOXML, Flat OPC et également Excel 2003 XML. En outre,<br>le composant prend en charge tous les principaux formats de fichiers Excel 2007 et versions ultérieures, par exemple XLSX, XLTX, XLSM, XLTM, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Valeur séparée par des virgules (CSV)|Prise en charge complète du format CSV pour interagir avec une variété d'applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|Enregistrer sous HTML est disponible.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|OuvrirDocument (ODS)|Aspose.Cells peut charger et enregistrer des documents au format OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Format de document portable Adobe (PDF)|Convertissez n'importe quelle feuille de calcul en PDF avec une haute fidélité.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Onglet délimité|Chargez et enregistrez des documents au format de fichier délimité par des tabulations.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Texte brut (TXT)|Extrayez facilement du texte en l'enregistrant au format texte brut.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Rendu et impression**
-Aspose.Cells fournit désormais un rendu haute fidélité des pages de feuille de calcul.
+|**Fonctionnalité**|**Description**|**Aspose.Cells for Java**|**Aspose.Cells pour Android via Java**|
+| :- | :- | :- | :- |
+|Conversions de haute qualité|Conversion rapide et fiable entre plusieurs formats de document populaires.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Classeur Microsoft Excel (XLS/XLSB)|La mise en œuvre du format XLS/XLSB la plus rapide et la plus complète que vous puissiez trouver.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)|Aspose.Cells prend en charge OOXML, Flat OPC et également Excel 2003 XML. De plus, le composant prend en charge tous les principaux formats de fichier Excel 2007 et ultérieurs, tels que XLSX, XLTX, XLSM, XLTM, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Valeur séparée par des virgules (CSV)|Prise en charge complète du format CSV pour interagir avec diverses applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|Enregistrez au format HTML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|OpenDocument (ODS)|Aspose.Cells peut charger et enregistrer des documents au format OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Format de document portable Adobe (PDF)|Convertir n'importe quel classeur en PDF avec une grande fidélité.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Délimité par des onglets|Charger et enregistrer des documents dans le format de fichier délimité par des onglets.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Texte brut (TXT)|Extraire facilement du texte en le sauvegardant au format texte brut.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **Rendu et Impression**
+Aspose.Cells fournit désormais un rendu haute fidélité des pages de classeur.
 
-|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
-|Disposez le document en pages avec une haute fidélité à Microsoft Excel® (exactement comme Microsoft Excel® le ferait).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Rendu des pages de feuille de calcul en images raster (PNG, JPEG, etc.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Rendu des pages de feuille de calcul en images raster (Multipage TIFF, GIF).|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Rendu des pages de feuille de calcul en images vectorielles (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Spécifiez la résolution, la qualité, la compression et d'autres options de l'image.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Imprimez des feuilles de calcul à l'aide de l'infrastructure d'impression Java.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Mettez à jour les numéros de page et les autres champs avant le rendu ou l'impression.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Fonctionnalités de contenu de feuille de calcul**
-Aspose.Cells fournit un modèle d'objet riche composé de plus de 100 classes/interfaces publiques, qui vous permettent de générer, combiner, modifier, analyser ou autrement examiner par programmation des feuilles de calcul chargées. Certaines caractéristiques clés sont données dans le tableau ci-dessous.
+|**Fonction**|**Aspose.Cells for Java**|**Aspose.Cells pour Android via Java**|
+| :- | :- | :- |
+|Disposer le document en pages avec une grande fidélité par rapport à Microsoft Excel® (exactement comme le ferait Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Rendre les pages de feuille de calcul en images matricielles (PNG, JPEG, etc.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Rendre les pages de feuille de calcul en images matricielles (TIFF multipage, GIF).|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Rendre les pages de calcul en images vectorielles (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Spécifiez la résolution de l'image, la qualité, la compression et d'autres options.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Imprimez les pages du classeur à l'aide de l'infrastructure d'impression Java.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Mettez à jour les numéros de page et d'autres champs avant de les rendre ou de les imprimer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **Fonctionnalités du contenu de feuille de calcul**
+Aspose.Cells fournit un modèle objet riche composé de plus de 100 classes/interfaces publiques, qui vous permettent de générer, combiner, modifier, analyser ou examiner de manière programmable des classeurs chargés. Certaines fonctionnalités clés sont données dans le tableau ci-dessous.
 
-|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
-|Importer/exporter des données depuis un Array, ArrayList, ResultSet etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ajouter une copie de la feuille de calcul existante (tout le contenu, y compris les images, les graphiques, les autres objets, etc.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Copier ou déplacer des feuilles de calcul dans ou entre des classeurs|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Fonction**|**Aspose.Cells for Java**|**Aspose.Cells pour Android via Java**|
+| :- | :- | :- |
+|Importer/exporter des données à partir d'un tableau, ArrayList, ResultSet, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ajouter une copie de la feuille de calcul existante (tous les contenus, y compris images, graphiques, autres objets, etc.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Copier ou déplacer des feuilles de calcul à l'intérieur ou entre des classeurs|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Insérer des images|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Créer des graphiques|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Définir un arrière-plan dégradé pour les graphiques à l'aide de API|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Définir un arrière-plan dégradé pour les graphiques à l'aide de l'API|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Ajouter des commentaires aux cellules|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Thèmes et couleurs Excel 2007 et versions ultérieures|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Thèmes et couleurs des versions de Microsoft Excel 2007 et ultérieures|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Créer des filtres automatiques|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Mettre en œuvre des validations de données|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Implémenter le tri des données|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Mettre en œuvre le tri des données|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rechercher et remplacer du texte|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Fusionner/diviser Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Regrouper/dissocier des lignes et des colonnes|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Fusionner/diviser des cellules|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Grouper/dissocier des lignes et des colonnes|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Créer des sauts de page personnalisés|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Insérer/supprimer ou masquer des lignes, des colonnes et des feuilles|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Calculer des formules Excel complexes|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Prise en charge de la mise en forme conditionnelle avancée prise en charge dans Microsoft Excel 2007 et versions ultérieures|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Figer/libérer les volets|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Insérer des hyperliens pour lier les données|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Mettre en œuvre des marqueurs intelligents|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Calculer des formules complexes Excel|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Prend en charge la mise en forme conditionnelle avancée prise en charge dans Microsoft Excel 2007 et les versions ultérieures|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Geler/dégeler les volets|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Insérer des liens hypertexte pour lier des données|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Implémenter des marqueurs intelligents|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Spécifier les paramètres des propriétés du document|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Protéger/déprotéger les feuilles de calcul|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Spécifiez les options de protection avancées introduites dans Excel XP et les versions ultérieures|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Créer un objet de liste/Microsoft Tableaux Excel|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Spécifier les options de protection avancées introduites dans Excel XP et les versions ultérieures|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Créer des objets de liste/tableaux Microsoft Excel|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Créer des sous-totaux|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Insérer des contrôles de formulaire et d'autres formes/objets de dessin|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Créer des tableaux croisés dynamiques et des graphiques croisés dynamiques|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Conserver ou supprimer le complément, VBA, les macros|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Manipuler des plages nommées|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Préserver ou supprimer les compléments, VBA, macros|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Manipuler les plages nommées|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Créer des graphiques personnalisés|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ajoutez, conservez ou extrayez des objets OLE des feuilles de calcul.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Mettre en œuvre des graphiques sparkline|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ajouter, préserver ou extraire des objets OLE des feuilles de calcul.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Implémenter des minigrafiques|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Crypter les fichiers|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Fonctionnalités de formatage de feuille de calcul**
-Aspose.Cells fournit un accès programmatique détaillé aux propriétés de formatage de tous les éléments de la feuille de calcul.
+Aspose.Cells fournit un accès programmatique détaillé aux propriétés de formatage de tous les éléments de feuille de calcul.
 
-|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
-|Appliquez tous les caractères de mise en forme dans les cellules, y compris les polices, les couleurs, les effets, les bordures et l'ombrage.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Appliquez tous les paramètres de format numérique (pris en charge dans Microsoft Excel) pour les cellules.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Définissez tous les types de paramètres d'alignement du texte.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Appliquez différents types de paramètres de police pour les cellules.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Appliquez différentes couleurs aux cellules, polices, quadrillages, objets graphiques, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Appliquez différentes mises en forme de texte enrichi dans une seule cellule.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Appliquez différents paramètres de bordure sur les cellules.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Appliquez différents motifs d'arrière-plan sur les cellules.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Appliquer les paramètres de format sur une feuille de calcul, une ligne, une colonne ou une plage de cellules, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Fonction**|**Aspose.Cells for Java**|**Aspose.Cells pour Android via Java**|
+| :- | :- | :- |
+|Appliquer tout le formatage des caractères dans les cellules, y compris les polices, les couleurs, les effets, les bordures et les ombrages.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Appliquer tous les paramètres de formatage des nombres (pris en charge dans Microsoft Excel) pour les cellules.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Définir tous les types de paramètres d'alignement du texte.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Appliquer différents types de paramètres de police pour les cellules.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Appliquer différentes couleurs aux cellules, polices, lignes de grille, objets graphiques, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Appliquer un formatage de texte enrichi différent dans une seule cellule.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Appliquer différents paramètres de bordure aux cellules.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Appliquer différentes mises en page d'arrière-plan sur les cellules.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Appliquer les paramètres de formatage sur une feuille de calcul, une ligne, une colonne ou une plage de cellules, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Fonctionnalités de configuration de page**
-Vous pouvez utiliser Aspose.Cells pour implémenter les options de configuration de page pour les feuilles de calcul.
+Vous pouvez utiliser Aspose.Cells pour implémenter des options d'agencement de page pour les feuilles de calcul.
 
-|**Caractéristique**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
-|Ajustez l'orientation de votre page, la mise à l'échelle, la taille du papier.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Fonction**|**Aspose.Cells for Java**|**Aspose.Cells pour Android via Java**|
+| :- | :- | :- |
+|Ajustez votre orientation de page, mise à l'échelle, taille de papier.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Spécifiez vos marges et le centrage de la page.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Créez ou modifiez votre en-tête et/ou pied de page.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Définissez la zone d'impression, imprimez les titres ou activez le quadrillage, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Définir la zone d'impression, les titres d'impression ou activer les lignes de grille, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 

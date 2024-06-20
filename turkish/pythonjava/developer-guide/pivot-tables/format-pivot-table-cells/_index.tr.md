@@ -1,25 +1,26 @@
-﻿---
-title: Pivot Tabloyu Biçimlendir Cells
+---
+title: Döşeme Özeti Hücreleri Biçimlendir
 type: docs
 weight: 20
 url: /tr/python-java/format-pivot-table-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Bazen pivot tablo hücrelerini biçimlendirmek istersiniz. Örneğin, pivot tablo hücrelerine bir arka plan rengi uygulamak istiyorsunuz. Aspose.Cells iki yöntem sunar[**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style) ) ve[**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style)), bu amaçla kullanabilirsiniz.
+Bazı durumlarda, pivot tablo hücrelerini biçimlendirmek isteyebilirsiniz. Örneğin, pivot tablo hücrelerine arka plan rengi uygulamak isteyebilirsiniz. Aspose.Cells, bu amaçla kullanabileceğiniz iki yöntem [**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style)) ve [**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style)) sağlar.
 
-[**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style) ) stili pivot tablonun tamamına uygularken[**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style)) stili pivot tablonun tek bir hücresine uygular.
+[**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style)), tüm pivot tablosuna stili uygularken, [**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style)) pivot tablosunun tek bir hücresine stili uygular.
 
 {{% /alert %}}
 
-Aşağıdaki örnek kod, tüm pivot tabloyu açık mavi renkle biçimlendirir ve ardından ikinci tablo satırını sarı olarak biçimlendirir.
+Aşağıdaki örnek kod, tüm pivot tablosunu açık mavi renkle biçimlendirir ve ardından ikinci tablo satırını sarıyla biçimlendirir.
 
-**Kodu çalıştırmadan önce giriş pivot tablosu**
+**Kodun uygulanmasından önceki girdi pivot tablosu**
 
-![yapılacaklar:resim_alternatif_metin](format-pivot-table-cells_1.png)
+![todo:image_alt_text](format-pivot-table-cells_1.png)
 
-**Kodu çalıştırdıktan sonra çıkış pivot tablosu**
+**Kodun uygulanmasından sonraki çıktı pivot tablosu**
 
-![yapılacaklar:resim_alternatif_metin](format-pivot-table-cells_2.png)
+![todo:image_alt_text](format-pivot-table-cells_2.png)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "PivotTables-FormatCells.py" >}}

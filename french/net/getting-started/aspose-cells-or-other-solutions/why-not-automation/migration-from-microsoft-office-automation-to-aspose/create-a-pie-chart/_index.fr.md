@@ -1,34 +1,35 @@
-﻿---
-title: Créer un graphique à secteurs
+---
+title: Créer un graphique circulaire
 type: docs
 weight: 110
 url: /fr/net/create-a-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Les graphiques présentent les données d'une manière facile à comprendre. Les utilisateurs qui travaillent avec Microsoft Excel peuvent créer un certain nombre de graphiques différents et les personnaliser. Les mêmes fonctionnalités sont disponibles pour les développeurs qui travaillent avec Aspose.Cells for .NET.
+Les graphiques présentent les données de manière facile à comprendre. Les utilisateurs qui travaillent avec Microsoft Excel peuvent créer différents types de graphiques et les personnaliser. Les mêmes fonctionnalités sont disponibles pour les développeurs qui travaillent avec Aspose.Cells for .NET.
 
 {{% /alert %}}
 
-## **Création d'un graphique à secteurs**
+## **Création d'un graphique circulaire**
 
-Cet article compare la création d'un graphique à secteurs à l'aide d'Office Automation et de VSTO à l'utilisation de Aspose.Cells for .NET. Les étapes de création d'un graphique à secteurs sont les suivantes :
+Cet article compare comment créer un graphique circulaire à l'aide de l'automatisation Office et de VSTO à l'aide de Aspose.Cells for .NET. Les étapes pour créer un graphique circulaire sont :
 
-1. Création d'un classeur et d'une feuille de calcul.
-1. Ajout de données d'exemple.
-1. Tableau des produits de référence.
-1. Ajout d'un graphique à secteurs, définition de la plage de données et du titre du graphique.
-1. Enregistrement de la feuille de calcul.
+1. Créer un classeur et une feuille de calcul.
+1. Ajouter des données d'exemple.
+1. Référencer productsChart.
+1. Ajouter un graphique circulaire, définir la plage de données et le titre du graphique.
+1. Enregistrer la feuille de calcul.
 
- Les exemples de code de cet article montrent comment ajouter un graphique à secteurs avec[VSTO](/cells/fr/net/create-a-pie-chart/) , en utilisant C# ou Visual Basic, par rapport à la création d'un avec[Aspose.Cells](/cells/fr/net/create-a-pie-chart/), en utilisant à nouveau C# ou Visual Basic.
+Les exemples de code dans cet article montrent comment ajouter un graphique circulaire avec [VSTO](/cells/fr/net/create-a-pie-chart/), en utilisant soit C# ou Visual Basic, comparé à la création avec [Aspose.Cells](/cells/fr/net/create-a-pie-chart/), encore une fois en utilisant soit C# ou Visual Basic.
 
-### **Création d'un graphique à secteurs avec VSTO**
+### **Création d'un graphique circulaire avec VSTO**
 
-Les exemples de code qui suivent montrent comment ajouter un graphique à secteurs à une feuille de calcul à l'aide de VSTO.
+Les exemples de code qui suivent montrent comment ajouter un graphique circulaire à une feuille de calcul à l'aide de VSTO.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void PieChart()
 
@@ -98,17 +99,17 @@ Les exemples de code qui suivent montrent comment ajouter un graphique à secteu
 
 {{< /highlight >}}
 
-**Un camembert créé avec VSTO** 
+**Un graphique circulaire créé avec VSTO** 
 
-![tâche : image_autre_texte](create-a-pie-chart_1.png)
+![todo:image_alt_text](create-a-pie-chart_1.png)
 
-### **Création d'un graphique à secteurs avec Aspose.Cells for .NET**
+### **Création d'un graphique circulaire avec Aspose.Cells for .NET**
 
-Les exemples de code qui suivent montrent comment ajouter un graphique à secteurs à une feuille de calcul à l'aide de Aspose.Cells.
+Les exemples de code suivants montrent comment ajouter un graphique circulaire à une feuille de calcul à l'aide d'Aspose.Cells.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void PieChart()
 
@@ -180,4 +181,4 @@ Les exemples de code qui suivent montrent comment ajouter un graphique à secteu
 
 **Graphique circulaire créé avec Aspose.Cells for .NET** 
 
-![tâche : image_autre_texte](create-a-pie-chart_2.png)
+![todo:image_alt_text](create-a-pie-chart_2.png)

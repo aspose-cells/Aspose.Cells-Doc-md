@@ -1,26 +1,29 @@
-﻿---
-title: Uso de DropDownList, List, FreeList Cell con GridWeb
+---
+title: Usando los controles DropDownList, List, y FreeList con GridWeb
 type: docs
 weight: 60
-url: /es/net/using-the-dropdownlist-list-freelist-cell-with-gridweb/
+url: /es/net/aspose-cells-gridweb/using-the-dropdownlist-list-freelist-gridweb/
+keywords: GridWeb,dropdownlist,freelist,list
+description: Este artículo muestra cómo utilizar una lista en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Con Aspose.Cells, hay varias formas de crear una lista desplegable: ValidationType.DropDownList, List y FreeList ofrecen esta función. El control admite un par de valor/texto en listas desplegables, listas y listas libres. Utilice el método Validation.ValueList.Add para agregar un nuevo par de valor/texto a la lista.
+Con Aspose.Cells, hay varias formas de crear una lista desplegable: ValidationType.DropDownList, List y FreeList ofrecen esta función. El control admite pares valor/texto en las listas desplegables, listas y listas libres. Utiliza el método Validation.ValueList.Add para agregar un nuevo par de valor/texto a la lista.
 
- En el siguiente código, "1" es el valor del elemento de la lista y "1:prueba" es el texto que se muestra en el elemento de la lista.
+En el código a continuación, "1" es el valor del elemento de la lista, y "1:test" es el texto mostrado del elemento de la lista. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Adds to a bindcolumn
 
-GridWeb1.WebWorksheets[0].BindColumns["CategoryID"].Validation.ValueList.Add("1,1:test");
+GridWeb1.WorkSheets[0].BindColumns["CategoryID"].Validation.ValueList.Add("1,1:test");
 
 // Adds to a validation cell
 
-GridWeb1.WebWorksheets[1].Cells["A1"].Validation.ValueList.Add("1,1:test");
+GridWeb1.WorkSheets[1].Cells["A1"].Validation.ValueList.Add("1,1:test");
 
 
 
@@ -28,27 +31,27 @@ GridWeb1.WebWorksheets[1].Cells["A1"].Validation.ValueList.Add("1,1:test");
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  ' Adds to a bindcolumn
 
-GridWeb1.WebWorksheets(0).BindColumns("CategoryID").Validation.ValueList.Add("1,1:test")
+GridWeb1.WorkSheets(0).BindColumns("CategoryID").Validation.ValueList.Add("1,1:test")
 
 ' Adds to a validation cell
 
-GridWeb1.WebWorksheets(1).Cells("A1").Validation.ValueList.Add("1,1:test")
+GridWeb1.WorkSheets(1).Cells("A1").Validation.ValueList.Add("1,1:test")
 
 
 
 {{< /highlight >}}
 
-Use el método LoadValueList para cargar elementos de lista desde un objeto de vista de datos:
+Utiliza el método LoadValueList para cargar elementos de lista desde un objeto dataview: 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- GridWeb1.WebWorksheets[0].BindColumns["CategoryID"].Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", true);
+ GridWeb1.WorkSheets[0].BindColumns["CategoryID"].Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", true);
 
 
 
@@ -56,9 +59,9 @@ Use el método LoadValueList para cargar elementos de lista desde un objeto de v
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- GridWeb1.WebWorksheets(0).BindColumns("CategoryID").Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", True)
+ GridWeb1.WorkSheets(0).BindColumns("CategoryID").Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", True)
 
 
 

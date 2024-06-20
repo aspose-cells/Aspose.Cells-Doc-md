@@ -1,70 +1,71 @@
-﻿---
-title: Yükleme ve Kullanma Aspose.Cells Java for Eclipse - Maven
+---
+title: Eclipse  Maven için Aspose.Cells Java yı Yükleme ve Kullanma
 type: docs
 weight: 10
 url: /tr/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 ---
-## **yükleme**
 
-**Tutulma için Aspose.Cells Java (Maven)** eklenti, Mevcut'tan kolayca kurulabilir**Eklenti** Eklenti iletişim kutusundaki sekme.
+## **Yüklemek**
 
-- açmak için seçin**Eklentiler**dan**Araçlar** Eclipse'deki menü.
+**Aspose.Cells Java for Eclipse (Maven)** eklentisi, Eclipse'in Eklenti iletişim kutusundaki Kullanılabilir **Eklenti** sekmesinden kolayca yüklenebilir.
 
-![yapılacaklar:resim_alternatif_metin](installing-and-using-aspose-cells-java-for-eclipse-maven_1)
+- Açmak için Eclipse'in **Araçlar** menüsünden **Eklentileri** seçin.  
 
--  Bu ekler**Aspose.Cells Maven Proje** Yeni Proje sihirbazında ve**Aspose.Cells Kod Örneği** Eclipse IDE'nin Yeni Diğer sihirbazında.
+![todo:image_alt_text](installing-and-using-aspose-cells-java-for-eclipse-maven_1)
 
-![yapılacaklar:resim_alternatif_metin](project_1.png)
+- Bu, Eclipse IDE'nin Yeni Proje sihirbazına **Aspose.Cells Maven Projesi**'ni ve Yeni Diğer sihirbazına **Aspose.Cells Kod Örneği**'ni ekler.  
 
-## **kullanma**
+![todo:image_alt_text](project_1.png)
 
-### **Aspose.Cells Maven Proje (sihirbaz)**
+## **Kullanarak**
 
- Yaratmak**Maven Proje** kullanmak için sihirbaz tarafından[Aspose.Cells for Java API](https://products.aspose.com/cells/java/):
+### **Aspose.Cells Maven Projesi (sihirbazı)**
 
-1. Seçme**Yeni -> Proje**.
-1. Seçme**Aspose.Cells Maven Proje**içinde**Maven**kategori.
-1. Tıklamak**Sonraki**.
+[Aspose.Cells for Java API](https://products.aspose.com/cells/java/) kullanmak için sihirbazla **Maven Projesi** oluşturmak için
 
-![yapılacaklar:resim_alternatif_metin](project_2.png)
+1. **Yeni -> Proje** seçin.
+1. **Maven** kategorisinde **Aspose.Cells Maven Projesi**'ni seçin.
+1. **İleri'yi** tıklayın.
 
-1. Sağlamak**Proje Adı, Konum, GroupId, ArtifactId**ve**Sürüm**Maven Projeniz için tıklayın ve**Bitiş.**
+![todo:image_alt_text](project_2.png)
 
-![yapılacaklar:resim_alternatif_metin](project_3.png)
+1. Maven Projeniz için **Proje Adı, Yer, Grup Kimliği, Sanat Eseri Kimliği** ve **Sürüm**'ü sağlayın ve **Bitir'e** tıklayın.
 
-1. Bu,[Aspose.Cells for Java](https://products.aspose.com/cells/java/) En son[Maven Bağımlılık](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) referans[Aspose Bulut Maven Depo](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) ve içinde yapılandırın**pom.xml**. Eğer seçtiyseniz**Ayrıca Kod Örneklerini İndirin,** indirme**Kod Örnekleri** da başlayacak[Aspose.Cells for Java API Örnekler Deposu.](https://github.com/aspose-cells/Aspose.Cells-for-Java)
-1. Takip etmek**Maven** Projeniz üzerinde oluşturulacak**Eclipse IDE'si** sihirbaz tamamlandığında:
+![todo:image_alt_text](project_3.png)
 
-![yapılacaklar:resim_alternatif_metin](project_4.png)
+1. Bu, [Aspose.Cells for Java](https://products.aspose.com/cells/java/) en son [Maven Bağımlılığı](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) referansını [Aspose Cloud Maven Deposu'ndan](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) alacak ve **pom.xml** içerisinde yapılandıracaktır. **Ayrıca Kod Örneklerini İndir** seçeneğini seçtiyseniz, **Kod Örnekleri**nin [Aspose.Cells for Java API Örnek Deposundan](https://github.com/aspose-cells/Aspose.Cells-for-Java) indirilmesi de başlayacaktır.
+1. Sihirbazın tamamlanmasında Eclipse IDE'nizde aşağıdaki **Maven** Projesi oluşturulacaktır:  
 
-1.  oluşturulan**Maven Proje** kullanmak için yapılandırılmış**Aspose.Cells for Java API** ve Proje gereksinimlerinize göre geliştirilmeye hazır.
- İndirmeyi seçtiyseniz[Kod Örnekleri](https://github.com/aspose-cells/Aspose.Cells-for-Java) , kullanabilirsiniz**Aspose.Cells Kod Örneği (sihirbaz)**İthalat için gerekli**Kod Örnekleri** Aspose.Cells for Java API numaralı telefonu projenize ekleyin.
+![todo:image_alt_text](project_4.png)
 
-### **Aspose.Cells Kod Örneği (sihirbaz)**
+1. Oluşturulan **Maven Projesi**, **Aspose.Cells for Java API**'yi kullanacak şekilde yapılandırılmıştır ve Proje gereksinimlerinize göre geliştirilmeye hazırdır.
+   [Kod Örneklerini](https://github.com/aspose-cells/Aspose.Cells-for-Java) indirmeyi seçtiyseniz, ihtiyacınız olan **Kod Örnekleri**ni Aspose.Cells for Java API için **Aspose.Cells Kod Örneği (sihirbazı)**'nı içe aktarmak için kullanabilirsiniz.
 
-**Aspose.Cells Kod Örneği sihirbazı** Aspose.Cells for Java API için sağlanan birçok örneği denemenizi sağlar.
+### **Aspose.Cells Kod Örneği (sihirbazı)**
+
+**Aspose.Cells Kod Örneği sihirbazı**, Aspose.Cells for Java API için sağlanan birçok örneği denemenize olanak tanır.
 
 {{% alert color="primary" %}}
 
- kullanabilmek**Aspose.Cells Kod Örneği sihirbazı**konforlu: her zaman seçmeniz önerilir**Ayrıca Kod Örneklerini İndirin** oluştururken**Maven Proje**üzerinde**Aspose.Cells Maven Proje** **sihirbaz**,
+**Aspose.Cells Kod Örneği sihirbazını** rahatça kullanabilmek için: **Aspose.Cells Maven Projesi** **sihirbazı**'nda **Maven Projesi** oluştururken her zaman **Kod Örneklerini İndir**'i seçmeniz önerilir.
 
 {{% /alert %}}
 
-Örnekleri kullanmak için, sadece:
+Örnekleri kullanmak için sadece:
 
-1. Tıklamak**Yeni -> Diğer** içinde**tutulma**.
-1. Seçme**Aspose.Cells Kod Örneği**içinde**Java**kategori.
-1. Tıklamak**Sonraki**.  
+1. **Eclipse** içinde **Yeni -> Diğer**'e tıklayın.
+1. **Java** kategorisinde **Aspose.Cells Kod Örneği**'ni seçin.
+1. **İleri'yi** tıklayın.  
 
-![yapılacaklar:resim_alternatif_metin](example_1.png)
+![todo:image_alt_text](example_1.png)
 
-1.  Projenizi seçin ve ardından seçmek için ağacı genişletin**Kod Örneği** kategori ve tıklayın**Bitiş**.
+1. Projenizi seçin ve ardından **Kod Örneği** kategorisini genişleterek **Bitir'e** tıklayın.
 
-![yapılacaklar:resim_alternatif_metin](example_2.png)
+![todo:image_alt_text](example_2.png)
 
-1.  Bu, seçilen kategoriyi kopyalayacaktır**Kod Örnekleri**Java dosyaları altında projeye**com.aspose.cells.examples**paket. Ayrıca Kod Örneklerinin ihtiyaç duyduğu tüm gerekli kaynaklar şuraya kopyalanacaktır:**kaynak/ana/kaynaklar**klasör, aşağıda gösterildiği gibi:
+1. Bu, seçilen **Kod Örnekleri** kategorisinin Java dosyalarını **com.aspose.cells.examples** paketi altındaki projeye kopyalayacaktır. Ayrıca, Kod Örnekleri tarafından gereken herhangi bir kaynak **src/main/resources** klasörüne kopyalanacaktır.
 
-![yapılacaklar:resim_alternatif_metin](example_3.png)
+![todo:image_alt_text](example_3.png)
 
-1. Örnek kodu inceleyin, derleyin ve çalıştırın.
-1. Artık diğer örnekleri test edebilir ve Aspose.Cells for Java API'i kullanarak kendi uygulamanızı oluşturmaya başlayabilirsiniz.
+1. Örnek kodu gözden geçirin, derleyin ve çalıştırın.
+1. Şimdi başka örnekleri test edebilir ve Aspose.Cells for Java API kullanarak kendi uygulamanızı oluşturmaya başlayabilirsiniz.

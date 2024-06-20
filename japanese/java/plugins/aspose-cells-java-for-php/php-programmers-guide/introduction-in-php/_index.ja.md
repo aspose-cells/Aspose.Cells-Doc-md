@@ -1,9 +1,10 @@
-﻿---
-title: PHPでの紹介
+---
+title: PHP へのはじめてのステップ
 type: docs
 weight: 10
 url: /ja/java/introduction-in-php/
 ---
-**このセクションには、次のトピックが含まれています。**
 
-- [Hello World](/cells/ja/java/hello-world/)
+**このセクションには次のトピックが含まれています:**
+
+- [はじめてのHello World](/cells/ja/java/hello-world/)

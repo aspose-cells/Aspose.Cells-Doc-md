@@ -1,30 +1,31 @@
 ---
-title: Aralık Sınırını Ayarla
+title: Aralık Sınırı Ayarlama
 type: docs
 weight: 600
-url: /tr/java/set-range-border/
+url: /tr/net/set-range-border/
 ---
-##  **Olası Kullanım Senaryoları**
-Aralık için sınır ayarlamak istediğinizde, her hücreyi ayrı ayrı ayarlamanız gerekmez. Aralıktaki sınırı ayarlayabilirsiniz. Aspose.Cells bu özelliği sunuyor.
-Bu makalede, aralık sınırını ayarlamak için Aspose.Cells kullanan bir örnek kod sağlanmaktadır.
 
-##  **Excel'de Aralık kenarlığını ayarlama**
-Excel'de bir aralığın kenarlığını ayarlamak için şu adımları izleyebilirsiniz:
-1. Kenarlığı uygulamak istediğiniz hücre aralığını seçin.
-2. Şeridin "Giriş" sekmesinde "Yazı Tipi" grubunu bulun.
-3. "Yazı Tipi" grubu içinde "Kenarlıklar" açılır düğmesine tıklayın.
+## **Olası Kullanım Senaryoları**
+Bir Aralığa sınırı ayarlamak istediğinizde her bir hücreyi ayrı ayrı ayarlamanıza gerek yoktur. Aralık üzerinde sınırı ayarlayabilirsiniz. Aspose.Cells bu özelliği sunmaktadır.
+Bu makale, Aspose.Cells'i kullanarak bir aralığa sınırı ayarlamak için bir örnek kod sağlamaktadır.
+
+## **Excel'de Aralık Sınırı Ayarlama**
+Excel'de bir aralığın sınırını ayarlamak için şu adımları takip edebilirsiniz:
+1. Sınırlıyı uygulamak istediğiniz hücre aralığını seçin.
+2. Kurdele'nin "Ana Sayfa" sekmesinde, "Yazı Tipi" grubunu bulun.
+3. "Yazı Tipi" grubu içinde, "Kenarlıklar" açılır düğmesine tıklayın.
 <br>
 <img src="border.png" />
-4. Açılır menüdeki seçeneklerden uygulamak istediğiniz kenarlık türünü seçin. Önceden ayarlanmış kenarlık stilleri arasından seçim yapabilir veya kendi kenarlığınızı özelleştirebilirsiniz.
-5. İstediğiniz kenarlık stilini seçtiğinizde, kenarlık seçilen hücre aralığına uygulanacaktır.
+4. Açılır menüde istenilen kenar tipini seçin. Ön ayarlı kenar stilleri arasından seçim yapabilir veya kendi kenarınızı özelleştirebilirsiniz.
+5. İstenilen kenar stili seçildikten sonra, kenar seçilen hücre aralığına uygulanır.
 
-##  **Aspose.Cells'i kullanarak Menzil sınırını ayarlayın**
-Bu örnek, aşağıdakilerin nasıl yapıldığını gösterir:
+## **Aspose.Cells Kullanarak Aralık Sınırı Ayarlama**
+Bu örnek aşağıdakileri göstermektedir:
 
-1. Bir çalışma kitabı oluşturun.
-1. İlk çalışma sayfasındaki hücrelere veri ekleyin.
-1.  Oluşturmak[**Menzil**](https://reference.aspose.com/cells/java/com.aspose.cells/range/).
-1. Aralığın iç kenarlığını ayarlayın.
-1. Aralığın dış kenarlığını ayarlayın.
+1. Bir çalışma kitabı oluşturma.
+1. İlk çalışma sayfasındaki hücrelere veri ekleme.
+1. Bir [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) oluşturma.
+1. Aralık iç kenarını ayarlama.
+1. Aralık dış kenarını ayarlama.
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Range-set-border.java" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-set-border.cs" >}}

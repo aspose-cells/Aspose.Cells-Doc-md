@@ -1,13 +1,14 @@
-﻿---
-title: Crea data Cell in Apache POI e Aspose.Cells
+---
+title: Crea Cellula Data in Apache POI e Aspose.Cells
 type: docs
 weight: 90
 url: /it/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Crea Data Cell**
+
+## **Aspose.Cells - Crea Cellula Data**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,10 +35,10 @@ style.setCustom("d-mmm-yy");
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - Data di creazione Cell**
+## **Apache POI SS (HSSF + XSSF) - Crea Cellula Data**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -87,16 +88,16 @@ cell.setCellStyle(cellStyle);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica esempi di esecuzione per**Crea data Cell in Aspose.Cells e Apache POI** da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica esempi in esecuzione per **Crea Cellula Data in Aspose.Cells e Apache POI** da uno dei siti di codifica sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-## **Scarica il codice sorgente**
- Scarica il codice sorgente per**Crea data Cell in Aspose.Cells e Apache POI** da uno qualsiasi dei siti di social coding sotto indicati:
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
+## **Scarica codice sorgente**
+Scarica codice sorgente per **Crea Cellula Data in Aspose.Cells e Apache POI** da uno dei social coding site menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Aggiunta di dati a Cells](/cells/it/java/add-data-in-cells/).
+Per ulteriori dettagli, visita [Aggiungere Dati alle Celle](/cells/it/java/add-data-in-cells/)
 
 {{% /alert %}}

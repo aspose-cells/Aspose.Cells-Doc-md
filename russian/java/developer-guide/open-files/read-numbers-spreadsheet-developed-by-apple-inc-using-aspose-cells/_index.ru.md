@@ -1,17 +1,18 @@
-﻿---
-title: Читать Numbers Электронная таблица, разработанная Apple Inc. с использованием Aspose.Cells
-linktitle: Читать Numbers Разработано Apple Inc.
+---
+title: Чтение Numbers Spreadsheet разработанный Apple Inc. с использованием Aspose.Cells
+linktitle: Чтение Numbers, разработанных Apple Inc.
 type: docs
 weight: 90
 url: /ru/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
 ---
+
 ## **Возможные сценарии использования**
 
-Numbers — это приложение для работы с электронными таблицами, разработанное Apple Inc. Aspose.Cells может читать электронные таблицы Numbers, но не поддерживает запись в них. Он может читать данные электронной таблицы Numbers, стиль и формулы.
+Numbers - это приложение для электронных таблиц, разработанное компанией Apple Inc. Aspose.Cells может читать электронные таблицы Numbers, но не поддерживает их запись. Он может читать данные, стили и формулы электронных таблиц Numbers.
 
-## **Читать Numbers Электронная таблица, разработанная Apple Inc. с использованием Aspose.Cells**
+## **Чтение таблицы чисел, разработанной Apple Inc. с использованием Aspose.Cells**
 
- Следующий пример кода загружает[Образец Numbers Электронная таблица](sampleNumbersByAppleInc.numbers) и преобразует его в[Формат вывода PDF](outputNumbersByAppleInc.pdf) . Вам придется использовать**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** класс и указать**[LoadFormat.NUMBERS](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#NUMBERS)**в качестве параметра в его конструкторе для его успешной загрузки. Пожалуйста, загрузите их оба по указанным ссылкам. Вы можете попробовать код с любой электронной таблицей Numbers. Также прочитайте комментарии к коду для получения дополнительной помощи.
+Следующий образец кода загружает [Таблицу с примерами чисел](sampleNumbersByAppleInc.numbers) и преобразует ее в [Формат PDF вывода](outputNumbersByAppleInc.pdf). Вам нужно использовать класс [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) и указать [**LoadFormat.NUMBERS*](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#NUMBERS) в его конструкторе, чтобы успешно загрузить ее. Пожалуйста, загрузите оба файла по указанным ссылкам. Вы можете попробовать код с любой таблицей чисел. Пожалуйста, также прочитайте комментарии в коде для получения дополнительной помощи.
 
 ## **Образец кода**
 

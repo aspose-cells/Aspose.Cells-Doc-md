@@ -1,44 +1,45 @@
-﻿---
-title: Éditeur de feuille de calcul - Travailler avec des lignes et des colonnes
+---
+title: Éditeur de feuilles de calcul  Travail avec les lignes et les colonnes
 type: docs
 weight: 30
 url: /fr/java/spreadsheet-editor-working-with-rows-and-columns/
 ---
+
 **Table des matières**
 
 - [Ajouter une ligne](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
- - WorksheetView.addRowAbove
- - WorksheetView.addRowBelow
+  - WorksheetView.addRowAbove
+  - WorksheetView.addRowBelow
 - [Ajouter une colonne](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
- - WorksheetView.addColumnBefore
- - WorksheetView.addColumnAfter
+  - WorksheetView.addColumnBefore
+  - WorksheetView.addColumnAfter
 - [Supprimer une ligne](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
- - WorksheetView.deleteRow
+  - WorksheetView.deleteRow
 - [Supprimer une colonne](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
- - WorksheetView.deleteColumn
+  - WorksheetView.deleteColumn
 - [Largeur de colonne et hauteur de ligne](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
- - WorksheetView.setCurrentRowHeight
- - WorksheetView.setCurrentColumnWidth
-- [Insérez un Cell](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
- - WorksheetView.addCellShiftRight
- - WorksheetView.addCellShiftDown
+  - WorksheetView.setCurrentRowHeight
+  - WorksheetView.setCurrentColumnWidth
+- [Insérer une cellule](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
+  - WorksheetView.addCellShiftRight
+  - WorksheetView.addCellShiftDown
 ### **Ajouter une ligne**
-Pour ajouter une nouvelle ligne :
+Pour ajouter une nouvelle ligne:
 
 1. Cliquez sur une cellule où vous souhaitez ajouter une ligne.
-1.  Basculer vers**Onglet Format**.
-1.  Cliquez sur**Ajouter une ligne au-dessus** pour ajouter une ligne au-dessus de la cellule sélectionnée.
-1.  Cliquez sur**Ajouter une ligne ci-dessous** pour ajouter une ligne sous la cellule sélectionnée.
+1. Basculez sur l'onglet **Format**.
+1. Cliquez sur **Ajouter une ligne au-dessus** pour ajouter une ligne au-dessus de la cellule sélectionnée.
+1. Cliquez sur **Ajouter une ligne ci-dessous** pour ajouter une ligne en dessous de la cellule sélectionnée.
 
 L'éditeur ajoutera une nouvelle ligne à l'emplacement sélectionné.
 
-![tâche : image_autre_texte](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
- Le**Ajouter une ligne au-dessus** et**Ajouter une ligne ci-dessous** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
+Les actions **Ajouter une ligne au-dessus** et **Ajouter une ligne ci-dessous** sont gérées par le bean en backend JSF **WorksheetView**. Le code source des méthodes respectives est le suivant:
 #### **WorksheetView.addRowAbove**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowAbove() {
 
@@ -63,7 +64,7 @@ L'éditeur ajoutera une nouvelle ligne à l'emplacement sélectionné.
 {{< /highlight >}}
 
 #### **WorksheetView.addRowBelow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowBelow() {
 
@@ -97,22 +98,22 @@ L'éditeur ajoutera une nouvelle ligne à l'emplacement sélectionné.
 
 {{< /highlight >}}
 ### **Ajouter une colonne**
-Pour ajouter une nouvelle colonne :
+Pour ajouter une nouvelle colonne:
 
 1. Cliquez sur une cellule où vous souhaitez ajouter une colonne.
-1.  Basculer vers**Onglet Format**.
-1.  Cliquez sur**Ajouter une colonne avant**pour ajouter une colonne avant la cellule sélectionnée.
-1.  Cliquez sur**Ajouter une colonne après** pour ajouter une colonne après la cellule sélectionnée.
+1. Basculez sur l'onglet **Format**.
+1. Cliquez sur **Ajouter une colonne avant** pour ajouter une colonne avant la cellule sélectionnée.
+1. Cliquez sur **Ajouter une colonne après** pour ajouter une colonne après la cellule sélectionnée.
 
 L'éditeur ajoutera une nouvelle colonne à l'emplacement sélectionné.
 
-![tâche : image_autre_texte](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
- Le**Ajouter une colonne avant** et**Ajouter une colonne après** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
-#### **WorksheetView.addColumnBeforeWorksheetView.addColumnBefore**
-{{< highlight "java" >}}
+**Ajouter une colonne avant** et **Ajouter une colonne après** sont gérés par le bean back-end JSF **WorksheetView**. Le code source des méthodes respectives est le suivant :
+#### **WorksheetView.addColumnBefore**
+{{< highlight java >}}
 
      public void addColumnBefore() {
 
@@ -137,7 +138,7 @@ L'éditeur ajoutera une nouvelle colonne à l'emplacement sélectionné.
 {{< /highlight >}}
 
 #### **WorksheetView.addColumnAfter**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnAfter() {
 
@@ -163,21 +164,21 @@ L'éditeur ajoutera une nouvelle colonne à l'emplacement sélectionné.
 
 {{< /highlight >}}
 ### **Supprimer une ligne**
-Pour supprimer une ligne :
+Pour supprimer une ligne :
 
-1. Cliquez sur une cellule de la ligne que vous souhaitez supprimer.
-1.  Basculer vers**Onglet Format**.
-1.  Cliquez sur**Supprimer la ligne** bouton.
+1. Cliquez sur une cellule dans la ligne que vous souhaitez supprimer.
+1. Basculez sur l'onglet **Format**.
+1. Cliquez sur le bouton **Supprimer la ligne**.
 
-L'éditeur supprimera la ligne qui comprend la cellule sélectionnée.
+L'éditeur supprimera la ligne qui inclut la cellule sélectionnée.
 
-![tâche : image_autre_texte](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
- Le**Supprimer la ligne** le bouton est géré par le bean backend JSF**Feuille de calcul** en utilisant la méthode**WorksheetView.deleteRowWorksheetView.deleteRow**:
-#### **WorksheetView.deleteRowWorksheetView.deleteRow**
-{{< highlight "java" >}}
+Le bouton **Supprimer la ligne** est géré par le bean back-end JSF **WorksheetView** en utilisant la méthode **WorksheetView.deleteRow** :
+#### **WorksheetView.deleteRow**
+{{< highlight java >}}
 
      public void deleteRow() {
 
@@ -203,21 +204,21 @@ L'éditeur supprimera la ligne qui comprend la cellule sélectionnée.
 
 {{< /highlight >}}
 ### **Supprimer une colonne**
-Pour supprimer une colonne :
+Pour supprimer une colonne :
 
-1. Cliquez sur une cellule de la colonne que vous souhaitez supprimer.
-1.  Basculer vers**Onglet Format**.
-1.  Cliquez sur**Supprimer la colonne** bouton.
+1. Cliquez sur une cellule dans la colonne que vous souhaitez supprimer.
+1. Basculez sur l'onglet **Format**.
+1. Cliquez sur le bouton **Supprimer la colonne**.
 
-L'éditeur supprimera la colonne qui contient la cellule sélectionnée.
+L'éditeur supprimera la colonne qui inclut la cellule sélectionnée.
 
-![tâche : image_autre_texte](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
- Le**Supprimer la colonne** le bouton est géré par le bean backend JSF**Feuille de calcul** en utilisant la méthode**WorksheetView.deleteColumn**:
+Le bouton **Supprimer la colonne** est géré par la classe JSF backend **WorksheetView** en utilisant la méthode **WorksheetView.deleteColumn**:
 #### **WorksheetView.deleteColumn**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteColumn() {
 
@@ -243,33 +244,33 @@ L'éditeur supprimera la colonne qui contient la cellule sélectionnée.
 
 {{< /highlight >}}
 ### **Largeur de colonne et hauteur de ligne**
-Pour modifier la largeur d'une colonne :
+Pour changer la largeur d'une colonne :
 
 1. Cliquez sur n'importe quelle cellule à l'intérieur de la colonne.
-1.  Basculer vers**Onglet Format**.
-1.  Cliquez sur**Largeur de colonne** bouton pour ouvrir**Largeur de colonne** dialogue.
+1. Basculez sur l'onglet **Format**.
+1. Cliquez sur le bouton **Largeur de colonne** pour ouvrir la boîte de dialogue **Largeur de colonne**.
 1. Entrez une nouvelle valeur dans la boîte de dialogue.
-1.  Cliquez sur**proche**.
+1. Cliquez sur **Fermer**.
 
-L'éditeur modifiera la largeur de la colonne.
+L'éditeur changera la largeur de la colonne.
 
-**Comment changer la hauteur de ligne ?**
+**Comment changer la hauteur de la ligne?**
 
-Pour modifier la hauteur d'une ligne :
+Pour changer la hauteur d'une ligne :
 
 1. Cliquez sur n'importe quelle cellule à l'intérieur de la ligne.
-1.  Basculer vers**Onglet Format**.
-1.  Cliquez sur**Hauteur de ligne** bouton pour ouvrir**Hauteur de ligne** dialogue.
+1. Basculez sur l'onglet **Format**.
+1. Cliquez sur le bouton **Hauteur de la ligne** pour ouvrir la boîte de dialogue **Hauteur de la ligne**.
 1. Entrez une nouvelle valeur dans la boîte de dialogue.
-1.  Cliquez sur**proche**.
+1. Cliquez sur **Fermer**.
 
-L'éditeur modifiera la hauteur de la ligne.
+L'éditeur changera la hauteur de la ligne.
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
- Lorsque l'utilisateur soumet la valeur de largeur et de hauteur, ces valeurs sont gérées côté serveur par**setCurrentRowHeight** et**setCurrentColumnWidth** méthodes du bean backend JSF**Feuille de calcul**.
+Lorsque l'utilisateur soumet les valeurs de largeur et de hauteur, ces valeurs sont traitées côté serveur par les méthodes **setCurrentRowHeight** et **setCurrentColumnWidth** du bean backend JSF **WorksheetView**.
 #### **WorksheetView.setCurrentRowHeight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentRowHeight(int height) {
 
@@ -290,7 +291,7 @@ L'éditeur modifiera la hauteur de la ligne.
 {{< /highlight >}}
 
 #### **WorksheetView.setCurrentColumnWidth**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentColumnWidth(int width) {
 
@@ -309,21 +310,21 @@ L'éditeur modifiera la hauteur de la ligne.
     }
 
 {{< /highlight >}}
-### **Insérez un Cell**
-Pour ajouter une nouvelle cellule :
+### **Insérer une cellule**
+Pour ajouter une nouvelle cellule :
 
-1. Cliquez sur une cellule où vous voulez créer un nouveau.
-1.  Basculer vers**Insérer un onglet**.
-1.  Cliquez sur**Cell** bouton.
-1.  Choisir**Maj Cells Droite** ou alors**Maj Cells vers le bas** bouton.
+1. Cliquez sur une cellule où vous souhaitez ajouter.
+1. Basculez sur l'onglet **Insérer**.
+1. Cliquez sur le bouton **Cellule**.
+1. Choisissez le bouton **Décaler les cellules à droite** ou **Décaler les cellules vers le bas**.
 
 L'éditeur ajoutera une nouvelle cellule à l'emplacement sélectionné. Les cellules adjacentes seront automatiquement décalées horizontalement ou verticalement pour créer de l'espace pour la nouvelle.
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
- Le**Maj Cells Droite** et**Maj Cells vers le bas** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
+Les boutons **Décaler les cellules à droite** et **Décaler les cellules vers le bas** sont gérés par le bean backend JSF **WorksheetView**. Le code source des méthodes respectives est le suivant :
 #### **WorksheetView.addCellShiftRight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftRight() {
 
@@ -348,7 +349,7 @@ L'éditeur ajoutera une nouvelle cellule à l'emplacement sélectionné. Les cel
 {{< /highlight >}}
 
 #### **WorksheetView.addCellShiftDown**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftDown() {
 

@@ -1,23 +1,24 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.4.2
+---
+title: تغيرات واجهة برمجة التطبيقات العامة في Aspose.Cells 8.4.2
 type: docs
 weight: 160
 url: /ar/java/public-api-changes-in-aspose-cells-8-4-2/
 ---
+
 {{% alert color="primary" %}} 
 
- يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.4.1 إلى 8.4.2 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/java/public-api-changes-in-aspose-cells-8-4-2/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.4.1 إلى 8.4.2 التي قد تكون مثيرة للاهتمام لمطوري الوحدة/التطبيقات. يتضمن ليس فقط الطرق العامة الجديدة والمحدثة، [الفصول المضافة الخ.](/cells/ar/java/public-api-changes-in-aspose-cells-8-4-2/), ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **آلية إنشاء المخطط المحسن**
-كشفت فئة com.aspose.cells.charts.Chart عن طريقة setChartDataRange لتسهيل مهمة إنشاء المخطط. تقبل طريقة setChartDataRange معلمتين ، حيث تكون المعلمة الأولى من سلسلة النوع التي تحدد منطقة الخلية التي يتم من خلالها رسم سلسلة البيانات. المعلمة الثانية هي من النوع المنطقي الذي يحدد اتجاه الرسم ، أي ؛ ما إذا كنت تريد رسم سلسلة بيانات المخطط من نطاق من قيم الخلايا حسب الصف أو الأعمدة.
+## **واجهات برمجة التطبيقات الجديدة**
+### **آلية إنشاء المخططات المحسنة**
+تمتكشاف الفئة com.aspose.cells.charts.Chart عن طريقة setChartDataRange لتسهيل عملية إنشاء المخططات. تقبل طريقة setChartDataRange معاملين، حيث يكون المعامل الأول من نوع سلسلة يحدد منطقة الخلايا التي يتم من خلالها تخطيط سلاسل البيانات. المعامل الثاني من نوع بوليان يحدد الاتجاه البياني، أي؛ ما إذا كان تخطيط سلاسل بيانات المخطط من مجموعة القيم الخلية عبر الصفوف أم عبر الأعمدة.
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية إنشاء مخطط عمودي مع بضعة أسطر من التعليمات البرمجية بافتراض أن بيانات سلسلة مخطط الرسم البياني موجودة في نفس ورقة العمل من الخلية A1 إلى D4.
+يظهر الشق المشفر التالي كيفية إنشاء مخطط عمودي ببضع أسطر من الشيفرة بشرط أن بيانات سلسلة مخططها موجودة على نفس ورقة العمل من الخلية A1 إلى D4.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Add a new chart of type Column to chart collection
 
@@ -33,14 +34,14 @@ chart.setChartDataRange("A1:D4", true);
 
 {{< /highlight >}}
 
-### **الأسلوب VbaModuleCollection.add مضاف**
-كشف Aspose.Cells for Java 8.4.2 عن أسلوب VbaModuleCollection.add لإضافة وحدة VBA جديدة إلى مثيل Workbook. يقبل أسلوب VbaModuleCollection.add معلمة من نوع ورقة العمل لإضافة وحدة نمطية خاصة بورقة العمل.
+### **تمت إضافة طريقة VbaModuleCollection.add**
+Aspose.Cells for Java 8.4.2 قد كشف عن طريقة VbaModuleCollection.add لإضافة وحدة VBA جديدة إلى نسخة من الدفتر. تقبل طريقة VbaModuleCollection.add معلمة من نوع ورقة العمل لإضافة وحدة خاصة بورقة العمل.
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية استخدام طريقة VbaModuleCollection.add.
+يوضح المقطع البرمجي التالي كيفية استخدام طريقة VbaModuleCollection.add
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create new workbook
 
@@ -72,14 +73,14 @@ workbook.save(output, SaveFormat.XLSM);
 
 {{< /highlight >}}
 
-### **طريقة التحميل الزائد Cells.copyColumns مضافة**
-كشف Aspose.Cells for Java 8.4.2 عن نسخة محملة بشكل زائد من طريقة Cells.copyColumns لتكرار أعمدة المصدر على الوجهة. تقبل الطريقة المكشوفة حديثًا 5 معلمات في المجموع ، حيث تكون المعلمات الأربعة الأولى مماثلة للطريقة الشائعة Cells.copyColumns. ومع ذلك ، فإن المعلمة الأخيرة من النوع int تحدد عدد أعمدة الوجهة التي يجب تكرار أعمدة المصدر عليها.
+### **تمت إضافة الطريقة المتعددة الأحمال Cells.copyColumns**
+Aspose.Cells for Java 8.4.2 قد كشف عن إصدار متعدد الأحمال لطريقة Cells.copyColumns لتكرار أعمدة المصدر على الوجهة. تقبل الطريقة الجديدة المعرضة 5 معلمات بإجمالي، حيث تكون أول 4 معلمات هي نفسها كما هو الحال في الطريقة العامة Cells.copyColumns. ومع ذلك، فإن المعلمة الأخيرة من نوع int تحدد عدد الأعمدة الوجهة التي يجب تكرار أعمدة المصدر عليها.
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية استخدام طريقة Cells.copyColumns المكشوفة حديثًا.
+يوضح المقطع البرمجي التالي كيفية استخدام طريقة Cells.copyColumns المعرضة حديثًا.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -109,17 +110,17 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-### **حقول التعداد PasteType.DEFAULT & PasteType.ALL_EXCEPT_BORDERS مضافة**
-مع إصدار v8.4.2 ، أضاف Aspose.Cells API حقلي تعداد جديدين لـ PasteType كما هو مفصل أدناه.
+### **تمت إضافة تعداد حقول PasteType.DEFAULT & PasteType.ALL_EXCEPT_BORDERS**
+مع إصدار v8.4.2، قام API Aspose.Cells بإضافة 2 حقل تعداد جديد لـ PasteType كما هو مفصل أدناه.
 
-- PasteType.DEFAULT: يعمل بشكل مشابه لوظيفة "الكل" في Excel للصق نطاق الخلايا.
-- PasteType.ALL_إلا_الحدود: تعمل بشكل مشابه لوظيفة "الكل باستثناء الحدود" في Excel للصق نطاق من الخلايا.
+- PasteType.DEFAULT: تعمل بنفس الطريقة كوظيفة "كل" في Excel للصق مدى الخلايا.
+- PasteType.ALL_EXCEPT_BORDERS: تعمل بنفس الطريقة كوظيفة "الكل باستثناء الحدود" في Excel للصق مدى الخلايا.
 
-يوضح نموذج التعليمات البرمجية التالي استخدام حقل PasteType.DEFAULT.
+يوضح الكود النموذجي التالي استخدام حقل PasteType.DEFAULT.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -157,6 +158,6 @@ workbook.save(output);
 
 {{% alert color="primary" %}} 
 
-بدءًا من إصدار for Java for Java Aspose.Cells 8.4.2 ، قدم التعداد PasteType.ALL يتصرف بشكل مختلف مقارنة بوظيفة "الكل" في Excel للصق نطاق الخلايا. الآن ، يقوم PasteType.ALL أيضًا بنسخ عرض العمود إلى النطاق الوجهة بدلاً من وظيفة "الكل" في Excel. لتقليد سلوك "الكل" في Excel ، يرجى استخدام PasteType.DEFAULT.
+ابتداءً من إصدار Aspose.Cells for Java 8.4.2، يتصرف الحقل التابع للتعداد PasteType.ALL بشكل مختلف عن وظيفة "الكل" في Excel للصق مدى الخلايا. الآن، ينسخ PasteType.ALL أيضًا عرض الأعمدة على نطاق الوجهة عكس وظيفة "الكل" في Excel. لتقليد سلوك "الكل" في Excel، يُرجى استخدام PasteType.DEFAULT.
 
 {{% /alert %}}

@@ -1,30 +1,31 @@
 ---
-title: Çalışma sayfası verilerini dışa aktarırken yinelenen sütunları otomatik olarak yeniden adlandırın
+title: Çalışsayede veriyi aktarırken yinelenen sütunları otomatik olarak yeniden adlandır
 type: docs
 weight: 250
 url: /tr/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/
-description: Aspose.Cells for .NET API numaralı telefondan çalışma sayfası verilerini dışa aktarırken yinelenen sütunları otomatik olarak nasıl yeniden adlandıracağınızı öğrenin.
-keywords: Rename duplicate columns while exporting worksheet data, Rename duplicate columns automatically while exporting  data to DataTable
+description: Aspose.Cells for .NET API aracılığıyla Çalışsayede Veriyi Aktarırken Otomatik Olarak Yinelenen Sütunları Yeniden Adlandırmayı Öğrenin.
+keywords: Excel çalışsayesinden veriyi data table a aktarırken yinelenen sütunları yeniden adlandırın, Otomatik olarak yenilenen sütunları data table a aktarırken yeniden adlandırın
 ---
-##  **Olası Kullanım Senaryoları**
 
- Bazen kullanıcı, verileri çalışma sayfasından veri tablosuna aktarırken yinelenen sütunlar sorunuyla karşı karşıya kalır. DataTable'da yinelenen sütunlar bulunamayacağından, çalışma sayfası verilerini veri tablosuna aktarabilmeniz için yinelenen sütunların yeniden adlandırılması gerekir. Aspose.Cells, belirlediğiniz stratejiye göre yinelenen sütunları otomatik olarak yeniden adlandırabilir.[**ExportTableOptions.RenameStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/renamestrategy) mülk. Eğer belirtirseniz[**Yeniden AdlandırStrateji**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy) .Digit, sütunlar sütun1, sütun2, sütun3 vb. gibi yeniden adlandırılacaktır ve belirtirseniz[**Yeniden AdlandırStrateji**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Harf, ardından sütunlar sütunA, sütunB, sütunC vb. gibi yeniden adlandırılacaktır.
+## **Olası Kullanım Senaryoları**
 
-##  **Çalışma sayfası verilerini dışa aktarırken yinelenen sütunları otomatik olarak yeniden adlandırın**
+Kullanıcı bazen çalışsayedeki veriyi data table'a aktarırken yinelenen sütunlar problemiyle karşılaşır. DataTable yinelenen sütunlara sahip olamaz, bu nedenle çalışsayedeki veriyi data table'a aktarmadan önce yinelenen sütunların adı değiştirilmelidir. Aspose.Cells, [**ExportTableOptions.RenameStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/renamestrategy) özelliği ile belirttiğiniz stratejiye göre yinelenen sütunları otomatik olarak yeniden adlandırabilir. [**RenameStrategy**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Digit belirtirseniz, sütunlar column1, column2, column3 vb. gibi adlandırılacak ve [**RenameStrategy**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Letter belirtirseniz sütunlar columnA, columnB, columnC vb. olarak yeniden adlandırılacaktır.
 
-Aşağıdaki örnek kod, çalışma sayfasının ilk üç sütununa bazı veriler ekler ancak tüm sütunlar aynı adı taşır; yani *Kişiler*. Daha sonra belirterek çalışma sayfasındaki verileri veri tablosuna aktarır.[**Yeniden AdlandırStrateji**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Mektup stratejisi. Daha sonra Aspose.Cells tarafından oluşturulan veri tablosunun sütun adlarını yazdırır. Aşağıdaki ekran görüntüsü, görselleştiricide dışa aktarılan verileri içeren veri tablosunu gösterir. Gördüğünüz gibi yinelenen sütunlar KişilerA, KişilerB vb. olarak yeniden adlandırıldı.
+## **Çalışma sayfası verileri dışa aktarılırken tekrarlanan sütunları otomatik olarak yeniden adlandırma**
 
-![yapılacak şey:image_alt_text](rename-duplicate-columns-automatically-while-exporting-worksheet-data_1.png)
+Aşağıdaki örnek kod, çalışsayenin ilk üç sütununa bazı veriler ekler, ancak tüm sütunlar aynı adı yani *Kişiler* adını taşır. Daha sonra, [**RenameStrategy**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Letter stratejisini belirterek çalışsayedeki veriyi data table'e aktarır. Ardından, Aspose.Cells tarafından oluşturulan data table'ın sütun adlarını yazdırır. Aşağıdaki ekran görüntüsü, görselleştirmeli olarak veri tablosundaki aktarılmış veriyi gösterir. Görebileceğiniz gibi, yinelenen sütunlar PeopleA, PeopleB vb. şeklinde yeniden adlandırılmıştır.
 
-##  **Basit kod**
+![todo:image_alt_text](rename-duplicate-columns-automatically-while-exporting-worksheet-data_1.png)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-RenameDuplicateColumnsAutomaticallyWhileExportingWorksheetData.cs" >}}
 
-##  **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-Referans olması açısından yukarıdaki örnek kodun konsol çıktısını burada bulabilirsiniz.
+Yukarıdaki örnek kodun konsol çıktısı aşağıda verilmiştir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 People
 

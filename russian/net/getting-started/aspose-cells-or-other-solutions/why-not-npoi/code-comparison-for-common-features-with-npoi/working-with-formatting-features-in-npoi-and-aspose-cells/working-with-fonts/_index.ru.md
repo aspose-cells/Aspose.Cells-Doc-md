@@ -1,13 +1,14 @@
-﻿---
-title: Работа со шрифтами
+---
+title: Работа с шрифтами
 type: docs
 weight: 30
 url: /ru/net/working-with-fonts/
 ---
-## **Aspose.Cells - Работа со шрифтами**
+
+## **Aspose.Cells - Работа с шрифтами**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -45,10 +46,10 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI — HSSF XSSF — Работа со шрифтами**
+## **NPOI - HSSF XSSF - Работа с шрифтами**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -91,13 +92,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Работа со шрифтами** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Работа с шрифтами** с любого из указанных сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Особенности форматирования данных](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Для получения дополнительной информации посетите [Особенности форматирования данных](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

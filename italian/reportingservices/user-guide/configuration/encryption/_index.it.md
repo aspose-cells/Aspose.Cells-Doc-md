@@ -1,14 +1,15 @@
-﻿---
+---
 title: Crittografia
 type: docs
 weight: 40
 url: /it/reportingservices/encryption/
 ---
-Aspose.Cells for Reporting Services supporta tre tipi di crittografia: XOR, WEAK ENCRYPTION e Microsoft Strong Cryptographic Provider. Vedere le informazioni sulla configurazione della crittografia nel file**Aspose.Cells.ReportingServices.xml** file.
 
- Quando il valore di Encryption è**spento**, Aspose.Cells for Reporting Services disattiva le funzionalità di crittografia.
+Aspose.Cells for Reporting Services supporta tre tipi di crittografia: XOR, CRITTOGRAFIA DEBOLE e Microsoft Strong Cryptographic Provider. Consultare le informazioni di configurazione della crittografia nel file **Aspose.Cells.ReportingServices.xml**.
 
-{{< highlight "java" >}}
+Quando il valore della crittografia è **off**, Aspose.Cells for Reporting Services disattiva le funzionalità di crittografia.
+
+{{< highlight java >}}
 
    < Encryption value="off">
 
@@ -26,22 +27,22 @@ Aspose.Cells for Reporting Services supporta tre tipi di crittografia: XOR, WEAK
 
 {{< /highlight >}}
 
- Quando il valore di Encryption è**Su**, Aspose.Cells for Reporting Services attiva la crittografia.
+Quando il valore della crittografia è **on**, Aspose.Cells for Reporting Services attiva la crittografia.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-Ci sono quattro parametri nella sezione di crittografia:
+Nella sezione sulla crittografia ci sono quattro parametri:
 
-- **ReportName**: punta a un report che necessita di crittografia. Se il parametro viene lasciato vuoto, tutti i report utilizzano lo stesso metodo di crittografia.
-- **Parola d'ordine**: imposta la password. Non può essere vuoto.
-- **Tipo di crittografia**: imposta un tipo di crittografia. Non può essere vuoto.
-- **Lunghezza chiave**: imposta la lunghezza della chiave. Non può essere vuoto.
+- **ReportName**: punta a un report che richiede crittografia. Se il parametro è lasciato in bianco, tutti i report utilizzano lo stesso metodo di crittografia.
+- **Password**: imposta la password. Non può essere in bianco.
+- **EncryptionType**: imposta un tipo di crittografia. Non può essere in bianco.
+- **KeyLength**: imposta la lunghezza chiave. Non può essere in bianco.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 

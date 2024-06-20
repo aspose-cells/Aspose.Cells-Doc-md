@@ -1,15 +1,16 @@
-﻿---
+---
 title: Управление разрывами страниц в Jython
 type: docs
 weight: 80
 url: /ru/java/managing-page-breaks-in-jython/
 ---
+
 ## **Aspose.Cells - Управление разрывами страниц**
- Для добавления документов с помощью**Aspose.Cells Java для Jython**. Здесь вы можете увидеть пример кода.
+Для добавления документов с помощью **Aspose.Cells Java для Jython**. Здесь вы можете увидеть примерный код.
 
 **Код Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -137,7 +138,7 @@ if __name__ == '__main__':
     ManagingPageBreaks()
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Добавить документы (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Append Documents (Aspose.Cells)** c любого из упомянутых ниже социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/asposewords/Aspose_Words_Java/releases/tag/Aspose.Words_Java_for_Jython-v1.0.0)
+- [GitHub](https://github.com/asposewords/Aspose_Words_Java/releases/tag/Aspose.Words_Java_for_Jython-v1.0.0)

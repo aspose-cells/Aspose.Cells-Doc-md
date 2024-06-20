@@ -1,19 +1,20 @@
-﻿---
-title: Excel'i PDF Olarak İşlerken Hataları Yoksay
+---
+title: Excel i PDF olarak dönüştürürken Hataları Yoksay
 type: docs
 weight: 80
 url: /tr/net/ignore-errors-while-rendering-excel-to-pdf/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- Bazen Excel dosyanızı PDF'e dönüştürdüğünüzde hatalar veya istisnalar oluşur ve dönüştürme işlemi sona erer. Dönüştürme işlemi sırasında bu tür tüm hataları,[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/ignoreerror)Emlak. Bu sayede dönüştürme işlemi herhangi bir hata veya istisna atmadan sorunsuz bir şekilde tamamlanır ancak veri kaybı meydana gelebilir. Bu nedenle, lütfen bu özelliği yalnızca veri kaybı sizin için kritik değilse kullanın.
+Excel dosyanızı PDF'e dönüştürdüğünüzde bazen hatalar veya istisnalar oluşur ve dönüşüm süreci sona erer. Bu tür tüm hataları dönüşüm süreci sırasında[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/ignoreerror) özelliğini kullanarak yok sayabilirsiniz. Bu şekilde, dönüşüm süreci herhangi bir hata veya istisna fırlatmadan düzgün bir şekilde tamamlanır, ancak veri kaybı olabilir. Bu nedenle, veri kaybı sizin için kritik değilse lütfen bu özelliği kullanın.
 
-## **Excel'i PDF Olarak İşlerken Hataları Yoksay**
+## **Excel'den PDF'e Dönüştürme Sırasında Hataları Yoksay**
 
- Aşağıdaki kod,[örnek excel dosyası](55541778.xlsx) ancak örnek Excel dosyası hatalı ve işlem sırasında bir hata veriyor.[PDF'e dönüştürme](55541779.pdf) 17.11'de ama kullandığımızdan beri[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/ignoreerror)özellik, bir hata atmaz. Ancak, bir*şekli gibi yuvarlak kırmızı ok*bu ekran görüntüsünde gösterildiği gibi kaybolur.
+Aşağıdaki kod, [örnek Excel dosyasını](55541778.xlsx) yükler ancak örnek Excel dosyası hatalıdır ve 17.11'de [PDF'ye dönüşüm sırasında](55541779.pdf) bir hata fırlatır, ancak biz[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/ignoreerror) özelliğini kullandığımızdan dolayı bir hata fırlatmaz. Bununla birlikte, bu ekran görüntüsünde gösterildiği gibi bir *yuvarlanmış kırmızı ok benzeri şekil* kaybolur.
 
-![yapılacaklar:resim_alternatif_metin](ignore-errors-while-rendering-excel-to-pdf_1.png)
+![todo:image_alt_text](ignore-errors-while-rendering-excel-to-pdf_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-IgnoreErrorsWhileRenderingExcelToPdf.cs" >}}

@@ -1,17 +1,18 @@
-﻿---
-title: تنفيذ الأخطاء والقيمة المنطقية باللغة الروسية أو أي لغة أخرى
+---
+title: تنفيذ الأخطاء وقيمة بوليانية باللغة الروسية أو أي لغة أخرى
 type: docs
 weight: 30
 url: /ar/java/implement-errors-and-boolean-value-in-russian-or-any-other-language/
 ---
-## **سيناريوهات الاستخدام الممكنة**
-إذا كنت تستخدم Microsoft Excel باللغة الروسية أو اللغة أو أي لغة أو لغة أخرى ، فسوف يعرض الأخطاء والقيم المنطقية وفقًا لتلك اللغة أو اللغة. يمكنك تحقيق سلوك مشابه باستخدام Aspose.Cells[Workbook.getSettings (). setGlobalizationSettings ()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) طريقة أو خاصية. سيكون عليك تجاوز الطرق التالية لـ[العولمة الإعدادات](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)صف دراسي.
 
-- [GlobalizationSettings.getErrorValueString ()](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getErrorValueString\(java.lang.String\))
-- [GlobalizationSettings.getBooleanValueString ()](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getBooleanValueString\(boolean\))
-## **تنفيذ الأخطاء والقيمة المنطقية باللغة الروسية أو أي لغة أخرى**
- يوضح نموذج التعليمات البرمجية التالي كيفية تنفيذ الأخطاء والقيمة المنطقية باللغة الروسية أو أي لغة أخرى. يرجى التحقق من نموذج ملف Excel المستخدم في هذا الرمز ومخرجاته PDF. توضح لقطة الشاشة الفرق بين[نموذج لملف Excel](48496697.xlsx) و ال[الخرج PDF](48496696.pdf) كمرجع.
+## **سيناريوهات الاستخدام المحتملة**
+إذا كنت تستخدم Microsoft Excel في لوكالة أو لغة روسية أو أي لوكالة أو لغة أخرى ، فسوف تعرض أخطاء وقيم بوليانية وفقًا لذلك اللوكالة أو اللغة. يمكنك تحقيق سلوك مماثل باستخدام خاصية أو الطريقة [Workbook.getSettings().setGlobalizationSettings()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings)  من Aspose.Cells. سيتعين عليك تعديل الطرق التالية في فئة [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings).
 
-![ما يجب القيام به: image_بديل_نص](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
-## **عينة من الرموز**
+- [GlobalizationSettings.getErrorValueString()](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getErrorValueString\(java.lang.String\))
+- [GlobalizationSettings.getBooleanValueString()](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getBooleanValueString\(boolean\))
+## **تنفيذ الأخطاء والقيمة البوليانية باللغة الروسية أو أي لغة أخرى**
+الكود العيني التالي يوضح كيفية تنفيذ أخطاء وقيمة بوليانية باللغة الروسية أو أي لغة أخرى. يُرجى التحقق من ملف Excel العيني المستخدم في هذا الكود وملف ال PDF الناتج. تُظهر اللقطة الشاشية الفرق بين [ملف Excel العيني](48496697.xlsx) و [ملف PDF الناتج](48496696.pdf) للإشارة.
+
+![todo:image_alt_text](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-WorkbookSettings-ImplementErrorsAndBooleanValueInRussianOrAnyOtherLanguage.java" >}}

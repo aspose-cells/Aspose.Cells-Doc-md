@@ -1,16 +1,17 @@
-﻿---
+---
 title: Inserimento ed eliminazione di righe e colonne in Ruby
 type: docs
 weight: 60
 url: /it/java/inserting-and-deleting-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Gestione Righe/Colonne**
+
+## **Aspose.Cells - Gestione delle righe/colonne**
 ### **Inserimento di una riga**
-Inserisci una riga in qualsiasi posizione chiamando il metodo insertRows della raccolta Cells. Il metodo insertRows accetta l'indice della riga in cui verrà inserita la nuova riga come primo argomento e il numero di righe da inserire come secondo argomento.
+Inserire una riga in qualsiasi posizione chiamando il metodo insertRows della collezione Cells. Il metodo insertRows prende l'indice della riga in cui verrà inserita la nuova riga come primo argomento e il numero di righe da inserire come secondo argomento.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def insert_row()
 
@@ -39,15 +40,15 @@ Inserisci una riga in qualsiasi posizione chiamando il metodo insertRows della r
 end   
 
 {{< /highlight >}}
-### **Inserimento di più righe**
-Per inserire più righe nel foglio di lavoro, chiama il metodo insertRows della raccolta Cells. Il metodo InsertRows accetta due parametri:
+### **Inserimento di Più Righe**
+Per inserire più righe nel foglio di lavoro, chiamare il metodo insertRows della collezione Cells. Il metodo insertRows prende due parametri:
 
-- Indice di riga, l'indice della riga da cui verranno inserite le nuove righe.
-- Numero di righe, numero totale di righe da inserire.
+- Indice di riga, l'indice della riga da cui saranno inserite le nuove righe.
+- Numero di righe, numero totale di righe che devono essere inserite.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def insert_multiple_rows()
 
@@ -77,14 +78,14 @@ end
 
 {{< /highlight >}}
 ### **Eliminazione di una riga**
-Per eliminare una riga in qualsiasi posizione, chiama il metodo deleteRows della raccolta Cells. Il metodo DeleteRows accetta due parametri:
+Per eliminare una riga in qualsiasi posizione, chiamare il metodo deleteRows della collezione Cells. Il metodo DeleteRows prende due parametri:
 
-- Indice di riga, l'indice della riga da cui verranno eliminate le righe.
+- Indice riga, l'indice della riga da cui partiranno le eliminazioni.
 - Numero di righe, numero totale di righe che devono essere eliminate.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def delete_row()
 
@@ -111,15 +112,15 @@ Per eliminare una riga in qualsiasi posizione, chiama il metodo deleteRows della
 end
 
 {{< /highlight >}}
-### **Eliminazione di più righe**
-Per eliminare più righe da un foglio di lavoro, chiama il metodo deleteRows della raccolta Cells. Il metodo DeleteRows accetta due parametri:
+### **Eliminazione di Più Righe**
+Per eliminare più righe da un foglio di lavoro, chiamare il metodo deleteRows della collezione Cells. Il metodo DeleteRows prende due parametri:
 
-- Indice di riga, l'indice della riga da cui verranno eliminate le righe.
+- Indice riga, l'indice della riga da cui partiranno le eliminazioni.
 - Numero di righe, numero totale di righe che devono essere eliminate.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def delete_multiple_rows()
 
@@ -149,14 +150,14 @@ end 
 
 {{< /highlight >}}
 ### **Inserimento di una colonna**
-Gli sviluppatori possono anche inserire una colonna nel foglio di lavoro in qualsiasi posizione chiamando il metodo insertColumns della raccolta Cells. Il metodo insertColumns accetta due parametri:
+Gli sviluppatori possono anche inserire una colonna nel foglio di lavoro in qualsiasi posizione chiamando il metodo insertColumns della collezione Cells. Il metodo insertColumns prende due parametri:
 
-- Indice colonna, l'indice della colonna da cui verrà inserita la colonna
-- Numero di colonne, numero totale di colonne da inserire
+- Indice della colonna, l'indice della colonna da cui verrà inserita la colonna
+- Numero di colonne, numero totale di colonne che devono essere inserite
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def insert_column()
 
@@ -185,16 +186,16 @@ Gli sviluppatori possono anche inserire una colonna nel foglio di lavoro in qual
 end  
 
 {{< /highlight >}}
-### **Eliminazione di una colonna**
-Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiama il metodo deleteColumns della raccolta Cells. Il metodo deleteColumns accetta i seguenti parametri:
+### **Eliminare una colonna**
+Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiamare il metodo deleteColumns della collezione Cells. Il metodo deleteColumns richiede i seguenti parametri:
 
-- Indice colonna, l'indice della colonna da cui verrà eliminata la colonna.
+- Indice della colonna, l'indice della colonna da cui verrà eliminata la colonna.
 - Numero di colonne, numero totale di colonne che devono essere eliminate.
-- Shift celle, parametro booleano per indicare se spostare le celle a sinistra dopo la cancellazione.
+- Spostare celle, parametro booleano per indicare se spostare le celle a sinistra dopo l'eliminazione.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def delete_column()
 
@@ -224,6 +225,6 @@ end   
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Gestione righe/colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Gestione righe/colonne (Aspose.Cells)** da uno qualsiasi dei siti di codice sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

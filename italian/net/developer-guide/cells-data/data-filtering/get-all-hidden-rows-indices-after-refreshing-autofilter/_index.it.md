@@ -1,26 +1,27 @@
 ---
-title: Ottieni tutti gli indici delle righe nascoste dopo aver aggiornato il filtro automatico
+title: Ottieni tutti gli indici delle righe nascoste dopo l aggiornamento dell AutoFiltro
 type: docs
 weight: 320
 url: /it/net/get-all-hidden-rows-indices-after-refreshing-autofilter/
-description: Scopri come ottenere tutti gli indici delle righe nascoste dopo aver aggiornato il filtro automatico utilizzando Aspose.Cells for .NET API.
-keywords: Get All Hidden Rows Indices after Refreshing AutoFilter, Obtain All Hidden Rows Indices after Refreshing AutoFilter, Retrieve All Hidden Rows Indices after Refreshing AutoFilter
+description: Scopri come ottenere tutti gli indici delle righe nascoste dopo l aggiornamento dell AutoFiltro utilizzando l API Aspose.Cells for .NET.
+keywords: Ottieni tutti gli indici delle righe nascoste dopo l aggiornamento dell AutoFiltro, Ottieni tutti gli indici delle righe nascoste dopo l aggiornamento dell AutoFiltro, Recupera tutti gli indici delle righe nascoste dopo l aggiornamento dell AutoFiltro
 ---
-##  **Possibili scenari di utilizzo**
 
-Quando applichi il filtro automatico sulle celle del foglio di lavoro, alcune righe vengono nascoste automaticamente. Ma potrebbe darsi che alcune righe siano già nascoste manualmente dall'utente finale di Excel e non siano nascoste da un filtro automatico. Pertanto è difficile sapere quali righe sono nascoste dal filtro automatico e quali sono nascoste manualmente dall'utente finale di Excel. Aspose.Cells affronta questo problema utilizzando l'int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metodo. Questo metodo restituisce gli indici di riga di tutte le righe nascoste dal filtro automatico e non manualmente dall'utente finale di Excel.
+## **Possibili Scenari di Utilizzo**
 
-##  **Ottieni tutti gli indici delle righe nascoste dopo aver aggiornato il filtro automatico**
+Quando si applica l'autofiltro sulle celle del foglio di lavoro, alcune righe vengono nascoste automaticamente. Ma potrebbe essere il caso che alcune righe siano già state nascoste manualmente dall'utente finale di Excel e non sono nascoste da un autofiltro. Ciò rende difficile sapere quali delle righe sono nascoste dall'autofiltro e quali sono nascoste manualmente dall'utente finale di Excel. Aspose.Cells affronta questo problema utilizzando il metodo int[] [**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1). Questo metodo restituisce gli indici di riga di tutte le righe nascoste dall'autofiltro e non manualmente dall'utente finale di Excel.
 
- Consulta il seguente codice di esempio che carica il file[file Excel di esempio](64716909.xlsx) che contiene alcune delle righe nascoste manualmente dall'utente finale di Excel. Il codice applica il filtro automatico e lo aggiorna utilizzando l'int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metodo che restituisce gli indici di riga di tutte le righe nascoste dal filtro automatico. Quindi stampa gli indici delle righe nascoste sulla console insieme ai nomi e ai valori delle celle.
+## **Ottenere tutti gli indici delle righe nascoste dopo l'aggiornamento dell'autofiltro**
 
-##  **Codice d'esempio**
+Si prega di vedere il seguente codice di esempio che carica il [file Excel di esempio](64716909.xlsx) che contiene alcune delle righe nascoste manualmente dall'utente finale di Excel. Il codice applica l'autofiltro e lo aggiorna utilizzando il metodo int[] [**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1) che restituisce gli indici di riga di tutte le righe nascoste dall'autofiltro. Poi stampa gli indici delle righe nascoste sulla console insieme ai nomi e ai valori delle celle.
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.cs" >}}
 
-##  **Uscita della console**
+## **Output della console**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Printing Rows Indices, Cell Names and Values Hidden By AutoFilter.
 

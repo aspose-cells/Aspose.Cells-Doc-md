@@ -1,12 +1,13 @@
-﻿---
-title: Столбцы, содержащие не строго типизированные данные
+---
+title: Столбцы, содержащие неструктурированные данные
 type: docs
 weight: 10
 url: /ru/net/columns-containing-non-strongly-typed-data/
 ---
- Если все значения в столбцах рабочего листа не являются строго типизированными (это означает, что значения в столбце могут иметь разные типы данных), мы можем экспортировать содержимое рабочего листа, вызвав метод**Экспортдататаблеасстринг** метод класса Cells.**Экспортдататаблеасстринг** метод принимает тот же набор параметров, что и**Таблица ЭкспортДанных** метод экспорта данных рабочего листа как**Таблица данных** объект.
 
-{{< highlight "csharp" >}}
+Если все значения в столбцах листа не имеют строго определенного типа (это означает, что значения в столбце могут иметь разные типы данных), то мы можем экспортировать содержимое листа, вызвав метод **ExportDataTableAsString** класса Cells. Метод **ExportDataTableAsString** принимает те же параметры, что и метод **ExportDataTable**, для экспорта данных листа в объект **DataTable**.
+
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -38,11 +39,11 @@ fstream.Close();
 
 Ниже приведены скриншоты:
 
-![дело:изображение_альтернативный_текст](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-![дело:изображение_альтернативный_текст](picture2.png)
+![todo:image_alt_text](picture2.png)
 
-## **Скачать пример кода**
+## **Загрузить образец кода**
 
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

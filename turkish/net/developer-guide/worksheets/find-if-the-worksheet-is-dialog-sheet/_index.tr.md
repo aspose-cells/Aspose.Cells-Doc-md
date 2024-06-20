@@ -1,30 +1,31 @@
 ---
-title: Çalışma Sayfasının İletişim Sayfası olup olmadığını bulun
+title: Çalışma Sayfasının Diyaloğu Sayfa Olup Olmadığını Bulma
 type: docs
 weight: 90
 url: /tr/net/find-if-the-worksheet-is-dialog-sheet/
-description: İletişim Sayfası, eski bir sayfa biçimidir. Bu makale, C# API veya .NET Kitaplığı kullanılarak bir Excel çalışma sayfasının bir İletişim Sayfası olup olmadığını program aracılığıyla belirlemeye yönelik yönergeler ve örnek kod sağlar.
-keywords: find excel worksheet dialog type c#, worksheet dialog c#
+description: Diyalog Sayfa eski bir sayfa formatıdır. Bu makale, bir Excel çalışma sayfasının programlı olarak bir Diyalog Sayfa olup olmadığını belirleme hakkında talimatlar ve örnek kodlar sunar ve bunun için C# API veya .NET Kitaplığı kullanabilirsiniz.
+keywords: c# ile excel çalışma sayfası diyalog türünü bulma
 ---
-##  **Olası Kullanım Senaryoları**
 
-İletişim Sayfası, bir iletişim kutusu içeren eski bir sayfa biçimidir. Bu tür bir sayfa, bu ekran görüntüsünde gösterildiği gibi Microsoft Excel'in eski bir sürümü, örneğin 2003 tarafından eklenebilir. Daha yeni sürümlerde VBA ile de eklenebilir, örneğin Microsoft Excel 2016.
+## **Olası Kullanım Senaryoları**
 
-![yapılacaklar:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
+Diyalog Sayfa, içinde bir diyalog kutusu bulunan eski bir sayfa formatıdır. Bu tür bir sayfa, Microsoft Excel'in eski bir sürümü olan örneğin 2003'ün bir görüntüsünde gösterildiği gibi eklenebilir. Ayrıca, Microsoft Excel 2016 gibi yeni sürümlerde VBA ile de eklenebilir.
 
-Sayfanın bir diyalog sayfası mı yoksa başka türde bir sayfa mı olduğunu bulabilirsiniz.[**Çalışma Sayfası.Türü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)Aspose.Cells tarafından sağlanan özellik. Numaralandırma değeri döndürürse[**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype), o zaman diyalog sayfasıyla uğraşıyorsunuz demektir.
+![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-##  **Çalışma Sayfasının İletişim Sayfası olup olmadığını bulun**
+Sayfanın bir diyalog sayfa olup olmadığını [**Worksheet.Type**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type) özelliği tarafından sağlanan numaralandırma değeri [**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype) karşılaştırarak ve ardından mesajı yazdırarak belirleyebilirsiniz. Daha fazla yardım için aşağıdaki örnek koddaki örnek Excel dosyasının konsol çıktısına bakınız.
 
- Aşağıdaki örnek kod,[örnek excel dosyası](64716820.xlsx) bir iletişim sayfası içerir. kontrol eder[**Çalışma Sayfası.Türü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)mülkiyet onunla karşılaştırır[**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype) ve ardından mesajı yazdırır. Lütfen daha fazla yardım için aşağıda verilen örnek kodun konsol çıktısına bakın.
+## **Çalışma Sayfasının Diyaloğu Sayfa Olup Olmadığını Bulma**
 
-##  **Basit kod**
+Aşağıdaki örnek kod, diyalog sayfası içeren [örnek Excel dosyasını](64716820.xlsx) yükler. Daha sonra [**Worksheet.Type**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type) özelliğini kontrol eder, [**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype) ile karşılaştırır ve ardından iletiyi yazdırır. Daha fazla yardım için lütfen aşağıdaki örnek kodun konsol çıktısına bakınız.
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-FindIfWorksheetIsDialogSheet.cs" >}}
 
-##  **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Worksheet is a Dialog Sheet.
 

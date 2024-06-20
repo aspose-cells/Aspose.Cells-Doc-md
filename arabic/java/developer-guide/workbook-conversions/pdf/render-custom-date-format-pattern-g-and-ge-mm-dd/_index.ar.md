@@ -1,15 +1,16 @@
-﻿---
-title: تقديم نمط تنسيق التاريخ المخصص g و ge mm dd
+---
+title: تقديم نمط تاريخ مخصص g وge mm dd
 type: docs
 weight: 240
 url: /ar/java/render-custom-date-format-pattern-g-and-ge-mm-dd/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells قادر الآن على تقديم نمط تنسيق التاريخ المخصص مثل g و ge.mm.dd وما شابه ذلك. يرجى التحقق من المرفق[ملف اكسل المصدر](95584282.xlsx) و ال[تحويل PDF](95584283.pdf) بواسطة Aspose.Cells للرجوع اليها.
+Aspose.Cells الآن قادر على عرض نمط التنسيق تاريخ مخصص مثل g ، ge.mm.dd وما شابه. يرجى التحقق من [ملف الإكسل المصدر](95584282.xlsx) المرفق و [PDF المحول](95584283.pdf) بواسطة Aspose.Cells للرجوع إليكم.
 
 {{% /alert %}} 
-## **تقديم نمط تنسيق التاريخ المخصص g و ge.mm.dd**
-نموذج التعليمات البرمجية التالي يحول[ملف اكسل المصدر](95584282.xlsx) الذي يحتوي على قيم التاريخ بأنماط تنسيق مخصصة مثل g و ge.mm.dd إلى[الإخراج PDF](95584283.pdf).
+## **عرض أنماط التنسيق المخصصة للتاريخ مثل g و ge.mm.dd**
+يحول الشيفرة المثالية التالية [ملف الإكسل المصدر](95584282.xlsx) الذي يحتوي على قيم تاريخية بأنماط تنسيق مخصصة مثل g و ge.mm.dd إلى [PDF المحول](95584283.pdf).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RenderCustomDateFormat-1.java" >}}

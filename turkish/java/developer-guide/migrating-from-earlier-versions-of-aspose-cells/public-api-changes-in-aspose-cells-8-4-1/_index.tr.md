@@ -1,23 +1,24 @@
-﻿---
-title: Genel API Aspose.Cells 8.4.1'deki değişiklikler
+---
+title: Aspose.Cells 8.4.1 de Genel API Değişiklikleri
 type: docs
 weight: 150
 url: /tr/java/public-api-changes-in-aspose-cells-8-4-1/
 ---
+
 {{% alert color="primary" %}} 
 
- Bu belge, Aspose.Cells API sürümünde 8.4.0'dan 8.4.1'e modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-4-1/) ve[kaldırılan sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-4-1/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
+Bu belge, Aspose.Cells API'sinde 8.4.0'dan 8.4.1'e yapılan değişiklikleri açıklar, modül/uygulama geliştiricileri için ilginç olabilecek yeni ve güncellenmiş genel yöntemlerin yanı sıra [eklenen sınıflar vs.](/cells/tr/java/public-api-changes-in-aspose-cells-8-4-1/) ve [kaldırılan sınıflar vs.](/cells/tr/java/public-api-changes-in-aspose-cells-8-4-1/) ve Aspose.Cells'in arka planda olan herhangi bir değişikliklerin bir açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **Veritabanı Bağlantısını Değiştirme Mekanizması**
-com.aspose.cells.ExternalConnection sınıfı, bir elektronik tabloda saklanan veritabanı bağlantı ayrıntılarını incelemek için kullanılabilecek yöntemi ve özellikleri zaten içeriyordu. ExternalConnection sınıfıyla ilişkili özelliklerin çoğu, Aspose.Cells for Java 8.4.1 sürümüne kadar salt okunurdu. Bu sürümle birlikte API, veritabanı bağlantı ayarlarını değiştirme desteği de sağlamıştır.
+com.aspose.cells.ExternalConnection sınıfı, elektronik tabloda depolanan veritabanı bağlantı ayrıntılarını incelemek için kullanılabilen yöntem ve özellikleri zaten içeriyordu. Aspose.Cells for Java 8.4.1 sürümü ile API, veritabanı bağlantı ayarlarını manipüle etme desteği sağlamıştır.
 
-Aşağıdaki kod parçacığı, veritabanı bağlantı ayarlarının dinamik olarak nasıl değiştirileceğini gösterir.
+Aşağıdaki kod örneği, veritabanı bağlantı ayarlarını dinamik olarak nasıl değiştireceğinizi gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -43,38 +44,38 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-İşte {ExternalConnection}} sınıfı tarafından sunulan en önemli birkaç özellik.
+{ExternalConnection} sınıfı tarafından sunulan birkaç önemli özellik şunlardır.
 
-|**Mülkiyet adı** |**Açıklama** |
-|:- |:- |
-| ArkaplanYenile|Bağlantının arka planda (eşzamansız olarak) yenilenip yenilenemeyeceğini belirtir.<br> true bağlantının tercih edilen kullanımı arka planda eşzamansız olarak yenilemekse;<br> false bağlantının tercih edilen kullanımı ön planda eşzamanlı olarak yenilemekse.|
-| BağlantıAçıklaması| Bu bağlantı için kullanıcı açıklamasını belirtir|
-| Bağlantı Kimliği| Bu bağlantının benzersiz tanımlayıcısını belirtir.|
-| kimlik bilgileri| Bağlantı kurulurken (veya yeniden kurulurken) kullanılacak kimlik doğrulama yöntemini belirtir.|
-| Silindi|İlişkili çalışma kitabı bağlantısının silinip silinmediğini gösterir. doğru ise<br> bağlantı silindi; Aksi takdirde, yanlış.|
-| Yeni| Bağlantı ilk kez yenilenmediyse doğrudur; Aksi takdirde, yanlış. Bu<br> Durum, bir sorgunun döndürülmesi tamamlanmadan önce kullanıcı dosyayı kaydettiğinde gerçekleşebilir.|
-| Hayatta kal|Elektronik tablo uygulamasının bağlantıyı sürdürmek için çaba göstermesi gerektiğinde doğrudur<br> açık. Yanlış olduğunda, uygulama, bağlantıyı aldıktan sonra bağlantıyı kapatmalıdır.<br> bilgi.|
-| İsim| Bağlantının adını belirtir. Her bağlantının benzersiz bir adı olmalıdır.|
-| OdcDosyası| Bu bağlantının yapıldığı harici bağlantı dosyasının tam yolunu belirtir.<br> oluşturuldu. Verileri yenileme girişimi sırasında bir bağlantı başarısız olursa ve reconnectionMethod=1,<br> ardından elektronik tablo uygulaması, harici bağlantı dosyasındaki bilgileri kullanarak tekrar deneyecektir.<br> çalışma kitabına katıştırılmış bağlantı nesnesi yerine.|
-| Yalnızca Bağlantı Dosyasını Kullan| Elektronik tablo uygulamasının her zaman ve yalnızca<br> odcFile özniteliği tarafından belirtilen harici bağlantı dosyasındaki bağlantı bilgileri<br> bağlantı yenilendiğinde. Yanlışsa, elektronik tablo uygulaması<br>reconnectionMethod özniteliği tarafından belirtilen prosedürü izlemelidir|
-| parametreler| Bir ODBC veya web sorgusu için ConnectionParameterCollection alır.|
-| Yeniden Bağlantı Yöntemi| ReconnectionMethod türünü belirtin|
-|Dahili Yenile| Bağlantının otomatik yenilemeleri arasındaki dakika sayısını belirtir.|
-| Yüklendiğinde Yenile| Dosya açılırken bu bağlantının yenilenmesi gerekiyorsa doğrudur; Aksi takdirde, yanlış.|
-| Veri kaydet|Bir tabloyu doldurmak için bağlantı üzerinden getirilen harici veriler kaydedilecekse doğrudur.<br> çalışma kitabı ile; Aksi takdirde, yanlış.|
-| Şifreyi kaydet| Parola bağlantı dizesinin bir parçası olarak kaydedilecekse doğrudur; Aksi takdirde, Yanlış.|
-| Kaynak dosyası| Harici veri kaynağı dosya tabanlı olduğunda kullanılır. Böyle bir veriye bağlantı kurulduğunda<br> kaynak başarısız olursa, elektronik tablo uygulaması doğrudan bu dosyaya bağlanmaya çalışır. Belki<br> URI veya sisteme özel dosya yolu notasyonu ile ifade edilir.|
-|SSID|Bir aracı arasında kimlik doğrulama için kullanılan Çoklu Oturum Açma (SSO) tanımlayıcısı<br> elektronik tabloML sunucusu ve harici veri kaynağı.|
-| Tip| Veri kaynağı türünü belirtir.|
+|**Özellik Adı** |**Açıklama** |
+| :- | :- |
+|BackgroundRefresh | Bağlantının arka planda yenilenebilir olup olmayacağını gösterir. <br> Bağlantının tercih edilen kullanımı arka planda asenkron olarak yenilemekse true;<br>Bağlantının tercih edilen kullanımı önde senkron olarak yenilemekse false. |
+|ConnectionDescription | Bu bağlantı için kullanıcı açıklamasını belirtir. |
+|ConnectionId | Bu bağlantının benzersiz tanımlayıcısını belirtir. |
+|Credentials | Bağlantıyı kurarken (veya yeniden kurarken) kullanılacak kimlik doğrulama yöntemini belirtir. |
+|IsDeleted | İlişkilendirilen çalışma kitabı bağlantısının silinip silinmediğini gösterir. Eğer<br>bağlantı silinmişse true; aksi takdirde, false |
+|IsNew | Bağlantının ilk kez yenilenmediyse True; Aksi takdirde, false. Bu durum, kullanıcının sorgu bitmeden önce dosyayı kaydettiğinde meydana gelebilir. |
+|KeepAlive | Elektronik tablo uygulamasının bağlantıyı açık tutmaya çalışması gerekirse True;<br>false ise, bilgi alındıktan sonra bağlantıyı kapatması gerekecektir. |
+|Name | Bağlantı adını belirtir. Her bağlantının benzersiz bir adı olmalıdır. |
+|OdcFile | Bu bağlantıdan oluşturulan dış bağlantı dosyasının tam yolunu belirtir.<br>Bir bağlantı, verileri yenilemeye çalışırken başarısız olursa ve reconnectionMethod=1 ise,<br> elektronik tablo uygulaması, bağlantı nesnesinin yerine dış bağlantı dosyasındaki bilgileri kullanarak yeniden deneyecektir. |
+|OnlyUseConnectionFile | Elektronik tablo uygulamasının bağlantı yenilendiğinde her zaman ve sadece bağlantı bilgilerini odcFile özniteliği tarafından gösterilen dış bağlantı dosyasında kullanıp kullanmamasını belirtir. False, elektronik tablo uygulamasının<br> reconnectionMethod özniteliği tarafından gösterilen prosedürü takip etmesi gerektiğini gösterir. |
+|Parameters | Bir ODBC veya web sorgusu için ConnectionParameterCollection'ı alır. |
+|ReConnectionMethod | ReconnectionMethod türünü belirtir |
+|RefreshInternal| Bağlantının otomatik olarak yenilenmesi arasındaki dakika sayısını belirtir. |
+|RefreshOnLoad | Bu bağlantının dosya açıldığında yenilenmesi gerekip gerekmediğini belirtir; Aksi takdirde, false. |
+|SaveData | Tabloyu doldurmak için bağlantı üzerinden alınan dış verilerin çalışma kitabıyla birlikte kaydedilip<br>kaydedilmeyeceğini belirtir. Aksi takdirde, false. |
+|SavePassword | Şifrenin bağlantı dizesinin bir parçası olarak kaydedilip<br>kaydedilmeyeceğini belirtir. Aksi takdirde, false. |
+|SourceFile |Harici veri kaynağı dosya tabanlı olduğunda kullanılır. Böyle bir veri kaynağına bağlantı başarısız olduğunda, elektronik tablo uygulaması doğrudan bu dosyaya bağlanmaya çalışır. URI veya sistem özgü dosya yolu gösterilebilir. |
+|SSOId|Tek Oturum Açma (SSO) için kimlik denetimi için kullanılan tanımlayıcıdır. Orta düzeydeki elektronik tabloML sunucusu ile harici veri kaynağı arasındaki kimlik denetimi için kullanılır. |
+|Type |Veri kaynağı türünü belirtir. |
 
-### **DataLabels Metninin Alt Dizisini Formatlama Yeteneği**
-Aspose.Cells for Java 8.4.1, ChartPoints.DataLabels alt dizisine karşılık gelen FontSetting sınıfı örneğini almak için DataLabels.characters yöntemini kullanıma sundu. Buna karşılık, FontSetting sınıfının örneği, DataLabels alt dizesini farklı yazı tipi ayarları ve rengiyle biçimlendirmek için kullanılabilir.
+### **Veri Etiketleri Metninin Alt Dizgisini Biçimlendirme Yeteneği**
+Aspose.Cells for Java 8.4.1, VeriEtiketleri.karakterler methodunun, ChartPoints.DataLabels'ın alt dizgisine karşılık gelen FontSetting sınıfının bir örneğini almak için kullanılmasını sağlamıştır. Sırasıyla, FontSetting sınıfının örneği, VeriEtiketleri'nin alt dizgisini farklı yazı tipi ayarları ve renkle biçimlendirmek için kullanılabilir.
 
-Aşağıdaki kod parçacığı, DataLabels.characters yönteminin nasıl kullanılacağını gösterir.
+Aşağıdaki kod parçası, VeriEtiketleri.karakterler methodunun nasıl kullanılacağını gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook from source Excel file
 
@@ -110,14 +111,14 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-### **Elektronik Tablo ve Grafik Dışa Aktarma için İstenilen Görüntü Boyutlarını Ayarlayabilme**
-Aspose.Cells for Java 8.4.1, elektronik tabloları ve çizelgeleri görüntülere dışa aktarırken ortaya çıkan görüntünün boyutlarını ayarlamak için ImageOrPrintOptions.setDesiredSize yöntemini kullanıma sundu. ImageOrPrintOptions.setDesiredSize yöntemi, birincisi istenen genişlik ve ikincisi istenen yükseklik olmak üzere iki tamsayı tipi parametreyi kabul eder.
+### **Elektronik Tablo ve Grafik Dışa Aktarma İçin İstenen Görüntü Boyutunu Ayarlama Yeteneği**
+Aspose.Cells for Java 8.4.1, ImageOrPrintOptions.setDesiredSize methodunu, elektronik tabloların ve grafiklerin görüntüye dışa aktarılırken sonuç görüntünün boyutlarını ayarlamak için kullanılabilir. ImageOrPrintOptions.setDesiredSize methodu, istenen genişlik ve yükseklik olmak üzere iki tamsayı türünden parametreleri kabul eder.
 
-Aşağıdaki kod parçacığı, çalışma sayfasını PNG'e dışa aktarırken istenen boyutların nasıl ayarlanacağını gösterir.
+Aşağıdaki kod parçası, çalışma sayfasının PNG olarak dışa aktarılırken istenen boyutların nasıl ayarlanacağını gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  com.aspose.cells.Workbook workbook = new com.aspose.cells.Workbook(input);
 
@@ -147,22 +148,22 @@ renderer.toImage(0, "output.png");
 
 {{% alert color="primary" %}} 
 
- Grafikleri görüntülere dönüştürmek için de aynı yöntem kullanılabilir.
+Aynı method, grafiklerin görüntülere dönüştürülmesi için de kullanılabilir. 
 
 {{% /alert %}} 
 
-### **Yorumlar PDF'e işleniyor**
- v8.4.1'in piyasaya sürülmesiyle, Aspose.Cells API, elektronik tabloları PDF biçimine dönüştürürken yorumların işlenmesini kolaylaştırmak için PageSetup.PrintComments özelliğini ve PrintCommentsType numaralandırmasını sağladı. PrintCommentsType numaralandırması aşağıdaki sabitlere sahiptir.
+### **PDF'ye Yorumları Oluşturma**
+v8.4.1'in yayınlanmasıyla, Aspose.Cells API, elektronik tabloların PDF biçimine dönüştürülürken yorumların oluşturulmasını kolaylaştırmak için PageSetup.PrintComments özelliğini ve PrintCommentsType numaralandırmasını sağlamıştır. PrintCommentsType numaralandırmasında aşağıdaki sabitler bulunmaktadır. 
 
-- PrintCommentsType.PRINT_HAYIR_YORUMLAR: Yorumlar yapılmamalıdır.
-- PrintCommentsType.PRINT_İÇİNDE_YER: Yorumlar yerleştirildikleri yerde işlenecektir.
-- PrintCommentsType.PRINT_ÇARŞAF_END: Yorumlar çalışma sayfasının sonunda işlenecektir.
+- PrintCommentsType.PRINT_NO_COMMENTS: Yorumlar oluşturulmayacak.
+- PrintCommentsType.PRINT_IN_PLACE: Yorumlar yerleştirildikleri yerde oluşturulacak.
+- PrintCommentsType.PRINT_SHEET_END: Yorumlar çalışma sayfasının sonunda oluşturulacak.
 
-Aşağıdaki örnek kod, tüm olası PrintCommentsType numaralandırma değerlerini kullanarak yorumları işlemek için PageSetup.PrintComments özelliğinin kullanımını gösterir.
+Aşağıdaki örnek kod, PageSetup.PrintComments özelliğinin kullanımını, tüm olası PrintCommentsType numaralandırma değerleri kullanarak yorumları oluşturmayı gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of workbook
 
@@ -198,14 +199,14 @@ workbook.save("printsheetend.pdf");
 
 {{< /highlight >}}
 
-### **Workbook.isLicensed Özelliği Eklendi**
-Aspose.Cells for Java 8.4.1, lisansın başarıyla yüklenip yüklenmediğini belirlemede çok yardımcı olabilecek Workbook.isLicensed'ı kullanıma sundu. Bu özelliğe lisansı ayarlamadan önce erişirseniz, false döndürür ve bunun tersi de geçerlidir, ancak lisansın geçerli olması gerekir.
+### **Lisanslı Workbook.isLicensed Özelliği Eklendi**
+Aspose.Cells for Java 8.4.1, Workbook.isLicensed'i kullanıma sunmuştur. Bu özellik, lisansın başarıyla yüklenip yüklenmediğini belirleme konusunda büyük bir yardımcı olabilir. Lisansı ayarlamadan önce bu özelliğe erişirseniz false döndürecektir ve tersi durumda, ancak lisansın geçerli olması gerekir.
 
-Aşağıdaki örnek kod, Workbook.isLicensed özelliğinin kullanımını gösterir.
+Aşağıdaki örnek kod, Workbook.isLicensed özelliğinin nasıl kullanılacağını gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object before setting a license
 
@@ -236,13 +237,13 @@ else
 {{< /highlight >}}
 
 ### **ImageOrPrintOptions.SVGFitToViewPort Özelliği Eklendi**
-Aspose.Cells for Java 8.4.1, elektronik tabloları veya grafikleri SVG formatına dışa aktarırken SVG dosya formatı için viewBox özniteliğini açmak için kullanılabilen ImageOrPrintOptions sınıfı için SVGFitToViewPort özelliğini kullanıma sundu. Bu özelliğin varsayılan değeri yanlıştır, bu nedenle yukarıda belirtilen özellik ayarlanmadan oluşturulan SVG dosyası için temel XML, viewBox özniteliğini içermeyecektir.
+Aspose.Cells for Java 8.4.1, ImageOrPrintOptions sınıfı için SVGFitToViewPort özelliğini kullanıma sunmuştur. Bu özellik, elektronik tabloların veya grafiklerin SVG biçimine dışa aktarılırken viewBox niteliğini açmak için kullanılabilir. Bu özelliğin varsayılan değeri false olduğu için, yukarıdaki özelliği belirlemeden oluşturulan SVG dosyasının temel XML'i viewBox özniteliğini içermeyecektir.
 
-Aşağıdaki örnek kod, ImageOrPrintOptions.SVGFitToViewPort özelliğinin kullanımını gösterir.
+Aşağıdaki örnek kod, ImageOrPrintOptions.SVGFitToViewPort özelliğinin nasıl kullanılacağını gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -271,6 +272,6 @@ com.aspose.cells.SheetRender renderer = new com.aspose.cells.SheetRender(workshe
 renderer.toImage(0, "output.svg");
 
 {{< /highlight >}}
-## **Eski API'ler**
-### **Yöntem Workbook.validateFormula Eskimiş**
+## **Eskimiş API'lar**
+### **Eski Workbook.validateFormula Yöntemi Kaldırıldı**
 Formülü doğrulamak için Cell.Formula özelliğini kullanın.

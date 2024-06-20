@@ -1,15 +1,16 @@
-﻿---
-title: Copier et déplacer des feuilles de calcul dans Jython
+---
+title: Copier et déplacer des feuilles de calcul en Jython
 type: docs
 weight: 20
 url: /fr/java/copying-and-moving-worksheets-in-jython/
 ---
-## **Aspose.Cells - Copier et déplacer des feuilles de travail**
- Pour joindre des documents à l'aide de**Aspose.Cells Java pour Jython**. Ici vous pouvez voir un exemple de code.
+
+## **Aspose.Cells - Copier et déplacer des feuilles de calcul**
+Pour ajouter des documents en utilisant **Aspose.Cells Java for Jython**. Vous pouvez voir ici le code d'exemple.
 
 **Code Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -97,7 +98,7 @@ if __name__ == '__main__':
     CopyingAndMovingWorksheets()
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Joindre des documents (Aspose.Cells)** de l'un des codes sociaux mentionnés ci-dessous
+## **Télécharger le code en cours d'exécution**
+Télécharger **Ajouter des documents (Aspose.Cells)** à partir de n'importe lequel des sites de codage social mentionnés ci-dessous 
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)

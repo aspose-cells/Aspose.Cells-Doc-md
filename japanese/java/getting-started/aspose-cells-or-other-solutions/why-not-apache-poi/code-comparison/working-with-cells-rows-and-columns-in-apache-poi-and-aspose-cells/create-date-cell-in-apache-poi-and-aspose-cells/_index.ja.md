@@ -1,13 +1,14 @@
-﻿---
-title: Apache POI で日付 Cell と Aspose.Cells を作成します。
+---
+title: Apache POI と Aspose.Cells で日付セルを作成する
 type: docs
 weight: 90
 url: /ja/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - 作成日 Cell**
+
+## **Aspose.Cells - 日付セルの作成**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,10 +35,10 @@ style.setCustom("d-mmm-yy");
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - 作成日 Cell**
+## **Apache POI SS (HSSF + XSSF) - 日付セルの作成**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -86,17 +87,17 @@ cell.setCellValue(Calendar.getInstance());
 cell.setCellStyle(cellStyle);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-の実行例をダウンロード**Aspose.Cells と Apache POI に Date Cell を作成**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に示すソーシャルコーディングサイトから**Aspose.CellsおよびApache POIで日付セルを作成**するための実行例をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **ソースコードをダウンロード**
-のソースコードをダウンロード**Aspose.Cells と Apache POI に Date Cell を作成**以下のソーシャルコーディングサイトのいずれかから：
+以下に示すソーシャルコーディングサイトから**Aspose.CellsおよびApache POIで日付セルを作成**のソースコードをダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[Cells にデータを追加する](/cells/ja/java/add-data-in-cells/).
+詳細については、[セルへのデータの追加](/cells/ja/java/add-data-in-cells/)を参照してください。
 
 {{% /alert %}}

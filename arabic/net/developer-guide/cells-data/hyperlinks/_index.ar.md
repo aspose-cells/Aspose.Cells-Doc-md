@@ -1,29 +1,30 @@
 ---
-title: إدراج الارتباطات التشعبية في Excel أو OpenOffice
-linktitle: إدارة الارتباطات التشعبية
+title: إدراج الروابط التشعبية في إكسل أو أوبن أوفيس
+linktitle: إدارة الروابط التشعبية
 type: docs
 weight: 45
 url: /ar/net/insert-hyperlinks-to-excel/
-description: كيفية إدراج الارتباطات التشعبية في ملف Excel مع مكتبة Aspose.Cells بدون MS Excel.
-keywords: Insert Hyperlinks into Excel, Add or Insert Hyperlinks, Add or Insert link to a URL, Add or Insert a Link to a Cell, Add a Link to an External File
+description: كيفية إدراج الارتباطات التشعبية في ملف Excel باستخدام مكتبة Aspose.Cells دون MS Excel.
+keywords: إدراج الارتباطات التشعبية في Excel، إضافة أو إدراج الارتباطات، إضافة أو إدراج رابط إلى عنوان URL، إضافة أو إدراج رابط إلى خلية، إضافة رابط إلى ملف خارجي
 ---
+
 {{% alert color="primary" %}} 
 
-يتم استخدام الارتباط التشعبي لإنشاء رابط بين كيانين. الجميع على دراية باستخدام الارتباطات التشعبية، خاصة على مواقع الويب.
-باستخدام Aspose.Cells، يمكن للمطورين إنشاء أنواع مختلفة من الارتباطات التشعبية في ملفات Excel Microsoft. يناقش هذا الموضوع أنواع الارتباطات التشعبية التي يدعمها Aspose.Cells وكيف يمكن استخدامها في ملفات Excel الخاصة بنا.
+يتم استخدام الارتباط التشعبي لإنشاء ارتباط بين كيانين. الجميع على دراية باستخدام الارتباطات التشعبية، خاصة على المواقع الإلكترونية.
+باستخدام Aspose.Cells، يمكن للمطورين إنشاء أنواع مختلفة من الارتباطات التشعبية في ملفات Microsoft Excel. يناقش هذا الموضوع أنواع الارتباطات التشعبية الدعمها Aspose.Cells وكيف يمكن استخدامها في ملفات Excel الخاصة بنا.
 
 {{% /alert %}} 
-##  **إضافة الارتباطات التشعبية**
-يسمح Aspose.Cells للمطورين بإضافة ارتباطات تشعبية إلى ملفات Excel إما باستخدام API أو جداول بيانات المصمم (جداول البيانات حيث يتم إنشاء الارتباطات التشعبية يدويًا ويتم استخدام Aspose.Cells لاستيرادها إلى جداول بيانات أخرى).
+## **إضافة الروابط المختصرة**
+تتيح Aspose.Cells للمطورين إضافة الروابط التشعبية إلى ملفات Excel سواء باستخدام الواجهة البرمجية التطبيقية أو جداول البيانات التصميمية (الجداول التي يتم إنشاء الروابط التشعبية يدويًا ويتم استخدام Aspose.Cells لاستيرادها إلى جداول بيانات أخرى).
 
- Aspose.Cells يوفر فئة،[دفتر العمل](https://reference.aspose.com/cells/net/aspose.cells/workbook) الذي يمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/net/aspose.cells/workbook) يحتوي الفصل على أ[مجموعة أوراق العمل](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)الذي يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فصل. ال[ورقة عمل](https://reference.aspose.com/cells/net/aspose.cells/worksheet)توفر الفئة طرقًا مختلفة لإضافة ارتباطات تشعبية مختلفة إلى ملفات Excel.
-##  **إضافة رابط إلى عنوان URL**
- ال[ورقة عمل](https://reference.aspose.com/cells/net/aspose.cells/worksheet) يحتوي الفصل على أ[الارتباطات التشعبية](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) مجموعة. كل عنصر في[الارتباطات التشعبية](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) جمع يمثل أ[الارتباط التشعبي](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) . أضف ارتباطات تشعبية إلى عناوين URL عن طريق الاتصال بـ[الارتباطات التشعبية](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) المجموعة[يضيف](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) طريقة. ال[يضيف](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)تأخذ الطريقة المعلمات التالية:
+توفر Aspose.Cells فئة، [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook) التي تمثل ملف Microsoft Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook) على [WorksheetCollection](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. تُمثل ورقة العمل بواسطة فئة [Worksheet](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر فئة [Worksheet](https://reference.aspose.com/cells/net/aspose.cells/worksheet) طرقًا مختلفة لإضافة الروابط التشعبية المختلفة إلى ملفات Excel.
+## **إضافة رابط إلى عنوان URL**
+تحتوي فئة [Worksheet](https://reference.aspose.com/cells/net/aspose.cells/worksheet) على مجموعة [Hyperlinks](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks). يُمثل كل عنصر في مجموعة [Hyperlinks](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) [Hyperlink](https://reference.aspose.com/cells/net/aspose.cells/hyperlink). أضف روابط تشعبية إلى عناوين URL عن طريق استدعاء [Hyperlinks](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) مجموعة [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) الطريقة. تأخذ [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) الطريقة المعلمات التالية:
 
-- Cell الاسم، اسم الخلية التي سيتم إضافة الارتباط التشعبي إليها.
-- عدد الصفوف، عدد الصفوف في نطاق الارتباط التشعبي هذا.
-- عدد الأعمدة، عدد الأعمدة في نطاق الارتباط التشعبي هذا
-- عنوان URL، عنوان URL.
+- اسم الخلية، اسم الخلية التي سيتم إضافة الرابط التشعبي إليها.
+- عدد الصفوف، عدد الصفوف في نطاق الارتباط الفائق.
+- عدد الأعمدة, عدد الأعمدة في نطاق الارتباط التشعبي
+- عنوان URL, عنوان عنوان URL.
 
 
 
@@ -31,35 +32,35 @@ keywords: Insert Hyperlinks into Excel, Add or Insert Hyperlinks, Add or Insert 
 
 {{% alert color="primary" %}} 
 
-في المثال أعلاه، تتم إضافة ارتباط تشعبي إلى عنوان URL في خلية فارغة، *A1**. في مثل هذه الحالات، إذا كانت الخلية فارغة، فسيتم إضافة عنوان URL أيضًا إلى تلك الخلية الفارغة كقيمة لها. إذا لم تكن الخلية فارغة وتمت إضافة ارتباط تشعبي، فستبدو قيمة الخلية كنص عادي. ولجعلها تبدو كارتباط تشعبي، قم بتطبيق إعدادات التنسيق المناسبة على تلك الخلية.
+في المثال أعلاه، يتم إضافة رابط تشعبي إلى عنوان URL في خلية فارغة، **A1**. في مثل هذه الحالات، إذا كانت الخلية فارغة فإن عنوان عنوان URL يتم أيضًا إضافته إلى تلك الخلية الفارغة كقيمتها. إذا لم تكن الخلية فارغة وتمت إضافة رابط تشعبي، فإن قيمة الخلية تبدو كنص عادي. لجعلها تبدو كرابط تشعبي، ضع إعدادات التنسيق المناسبة على تلك الخلية.
 
 {{% /alert %}} 
-##  **إضافة رابط إلى Cell في نفس الملف**
- من الممكن إضافة ارتباطات تشعبية إلى الخلايا الموجودة في نفس ملف Excel عن طريق استدعاء[الارتباطات التشعبية](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) المجموعة[يضيف](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) طريقة. ال[يضيف](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)تعمل الطريقة مع الارتباطات التشعبية الداخلية والخارجية. تأخذ إحدى إصدارات الطريقة المحملة بشكل زائد المعلمات التالية:
+## **إضافة رابط إلى خلية في نفس الملف**
+من الممكن إضافة روابط تشعبية إلى الخلايا في نفس ملف Excel بالاستدعاء [Hyperlinks](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) المجموعة [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) الأسلوب. الأسلوب [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) يعمل لكلا من الروابط التشعبية الداخلية والروابط التشعبية الخارجية. إصدار من الطريقة المحملة يأخذ المعلمات التالية:
 
-- Cell الاسم، اسم الخلية التي سيتم إضافة الارتباط التشعبي إليها.
-- عدد الصفوف، عدد الصفوف في نطاق الارتباط التشعبي هذا.
-- عدد الأعمدة، عدد الأعمدة في نطاق الارتباط التشعبي هذا.
+- اسم الخلية، اسم الخلية التي سيتم إضافة الرابط الفائق إليها.
+- عدد الصفوف، عدد الصفوف في نطاق الارتباط الفائق.
+- عدد الأعمدة، عدد الأعمدة في نطاق الارتباط الفائق.
 - URL، عنوان الخلية المستهدفة.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToAnotherCell-1.cs" >}}
-##  **إضافة رابط إلى ملف خارجي**
- من الممكن إضافة ارتباطات تشعبية إلى ملفات Excel الخارجية عن طريق استدعاء ملف[الارتباطات التشعبية](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) المجموعة[يضيف](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) طريقة. ال[يضيف](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)تأخذ الطريقة المعلمات التالية:
+## **إضافة رابط إلى ملف خارجي**
+من الممكن إضافة روابط تشعبية إلى ملفات Excel الخارجية بالاستدعاء [Hyperlinks](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) المجموعة [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) الأسلوب. الأسلوب [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) يأخذ المعلمات التالية:
 
-- Cell الاسم، اسم الخلية التي سيتم إضافة الارتباط التشعبي إليها.
-- عدد الصفوف، عدد الصفوف في نطاق الارتباط التشعبي هذا.
-- عدد الأعمدة، عدد الأعمدة في نطاق الارتباط التشعبي هذا.
-- URL، عنوان الهدف، ملف Excel الخارجي.
+- اسم الخلية، اسم الخلية التي سيتم إضافة الرابط التشعبي إليها.
+- عدد الصفوف، عدد الصفوف في نطاق الارتباط الفائق.
+- عدد الأعمدة، عدد الأعمدة في نطاق الارتباط الفائق.
+- عنوان الويب (URL)، عنوان الهدف، ملف Excel الخارجي.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToExternalFile-1.cs" >}}
 
-##  **مواضيع متقدمة**
-- [إضافة الارتباطات التشعبية للصور](/cells/ar/net/add-image-hyperlinks/)
-- [كشف نوع الارتباط التشعبي](/cells/ar/net/detect-hyperlink-type/)
+## **مواضيع متقدمة**
+- [إضافة روابط تشعبية للصور](/cells/ar/net/add-image-hyperlinks/)
+- [كشف نوع الروابط التشعبية](/cells/ar/net/detect-hyperlink-type/)
 - [تحرير الارتباطات التشعبية لورقة العمل](/cells/ar/net/editing-hyperlinks-of-worksheet/)
-- [احصل على الارتباطات التشعبية في النطاق](/cells/ar/net/get-hyperlinks-in-range/)
+- [الحصول على الارتباطات التشعبية في النطاق](/cells/ar/net/get-hyperlinks-in-range/)
 

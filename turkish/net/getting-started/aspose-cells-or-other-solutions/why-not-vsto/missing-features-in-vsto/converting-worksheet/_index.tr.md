@@ -1,10 +1,11 @@
-﻿---
-title: Çalışma Sayfasını Dönüştürme
+---
+title: Çalışsayı Dönüştürme
 type: docs
 weight: 40
 url: /tr/net/converting-worksheet/
 ---
-Bu bölümde aşağıdaki konular yer almaktadır:
 
-- [Çalışma Sayfasını Sayfaya Göre Görüntü Dosyasına Dönüştürme](/cells/tr/net/converting-worksheet-to-image-file-by-page/)
-- [Aspose.Cells'de Çalışma Sayfasını Görüntüye Dönüştürme](/cells/tr/net/converting-worksheet-to-image-in-aspose-cells/)
+Bu bölümdeki konular şunlardır:
+
+- [Sayfa Bazlı Resim Dosyasına Çalışma Sayfasını Dönüştürmek](/cells/tr/net/converting-worksheet-to-image-file-by-page/)
+- [Aspose.Cells'te Çalışma Sayfasını Resme Dönüştürmek](/cells/tr/net/converting-worksheet-to-image-in-aspose-cells/)

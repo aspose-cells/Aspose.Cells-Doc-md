@@ -1,56 +1,53 @@
 ---
-title: Schermo diviso del foglio di lavoro Excel
-linktitle: Schermo diviso
+title: Schermata divisa del foglio di lavoro di Excel
+linktitle: Schermata divisa
 type: docs
 weight: 190
 url: /it/net/how-to-split-screen-of-excel-worksheet
-description: In questo articolo imparerai come visualizzare determinate righe e/o colonne in riquadri separati dividendo il foglio di lavoro in due o quattro parti a livello di codice utilizzando la Libreria C# con .NET API.
-keywords: Freeze top rows, Feeze top row.
+description: In questo articolo imparerai come visualizzare determinate righe e/o colonne in riquadri separati suddividendo il foglio di lavoro in due o quattro parti programmabilmente utilizzando la libreria C# con API .NET.
+keywords: Blocca le righe in alto
 ---
-{{% alert color="primary" %}}
 
-In questo articolo impareremo come visualizzare determinate righe e/o colonne in riquadri separati dividendo il foglio di lavoro in due o quattro parti.
-Quando si lavora con set di dati di grandi dimensioni, è necessario vedere alcune aree dello stesso foglio di lavoro alla volta per confrontare diversi sottoinsiemi di dati.
-La funzione schermo diviso può soddisfare le tue esigenze.
+## **Introduzione**
 
-{{% /alert %}}
+In questo articolo, impareremo come visualizzare determinate righe e/o colonne in riquadri separati suddividendo il foglio di lavoro in due o quattro parti. Quando si lavora con grandi set di dati, è necessario vedere diverse aree dello stesso foglio di lavoro contemporaneamente per confrontare differenti sottoinsiemi di dati. La funzione di suddivisione dello schermo può soddisfare le tue esigenze.
 
-##  **Come dividere lo schermo in Excel**
-Per dividere un foglio di lavoro in due o quattro parti, procedere come segue:
+## **Come dividere lo schermo in Excel**
+Per suddividere un foglio di lavoro in due o quattro parti, procedi come segue:
 
-1. Seleziona la riga/colonna/cella prima della quale vuoi posizionare la divisione.
-2. Nella scheda Visualizza, nel gruppo Windows, fare clic sul pulsante Dividi.
+1. Seleziona la riga/colonna/cella prima della quale desideri posizionare la suddivisione.
+2. Sulla scheda Visualizza, nel gruppo Finestre, fai clic sul pulsante Suddivisione.
 
-**![Schermo diviso](Split-Screen.png)**
+**![Schermata divisa](Split-Screen.png)**
 
-##  **Dividi il foglio di lavoro verticalmente sulle colonne**
+## **Suddividi il foglio di lavoro verticalmente sulle colonne**
 
-Per separare verticalmente due aree del foglio di calcolo, seleziona la colonna a destra della colonna in cui desideri che venga visualizzata la divisione e fai clic sul pulsante Dividi in Excel.
+Per separare due aree del foglio di calcolo verticalmente, seleziona la colonna a destra della colonna in cui desideri che appaia la suddivisione e fai clic sul pulsante Suddivisione in Excel.
 
-È facile dividere il foglio di lavoro verticalmente sulle colonne a livello di codice con Aspose.Cells per .Net, dobbiamo solo selezionare una cella nella riga superiore come cella attiva, quindi
-dividere con[**Foglio di lavoro.Dividi**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) metodo.
+È facile suddividere il foglio di lavoro verticalmente sulle colonne in modo programmabile con Aspose.Cells per .Net, è sufficiente selezionare una cella nella riga superiore come cella attiva, quindi
+diviso con il metodo [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Vertically-Split.cs" >}}
 
-##  **Dividi il foglio di lavoro orizzontalmente su righe**
-Per separare la finestra di Excel orizzontalmente, seleziona la riga sotto la riga in cui desideri che avvenga la divisione in Excel.
+## **Suddividi il foglio di lavoro orizzontalmente sulle righe**
+Per separare la finestra di Excel orizzontalmente, seleziona la riga sotto la riga in cui desideri che avvenga la suddivisione in Excel.
 
-È facile dividere il foglio di lavoro orizzontalmente sulle righe a livello di codice con Aspose.Cells per .Net, dobbiamo solo selezionare una cella nella colonna di sinistra come cella attiva, quindi
-dividere con[**Foglio di lavoro.Dividi**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) metodo.
+È facile suddividere il foglio di lavoro orizzontalmente sulle righe in modo programmabile con Aspose.Cells per .Net, è sufficiente selezionare una cella nella colonna di sinistra come cella attiva, quindi
+diviso con il metodo [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Horizontally-Split.cs" >}}
 
-##  **Dividere il foglio di lavoro in quattro parti**
+## **Dividi il foglio di lavoro in quattro parti.**
 Per visualizzare contemporaneamente quattro diverse sezioni dello stesso foglio di lavoro, dividi lo schermo sia verticalmente che orizzontalmente in Excel.
 
-È facile dividere il foglio di lavoro verticalmente sulle colonne a livello di codice con Aspose.Cells per .Net, dobbiamo solo selezionare una cella non nella prima riga e colonna come cella attiva, quindi
-dividere con[**Foglio di lavoro.Dividi**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) metodo.
+È facile dividere il foglio di lavoro verticalmente sulle colonne in modo programmato con Aspose.Cells for .Net, dobbiamo solo selezionare una cella non nella prima riga e colonna come cella attiva, poi
+diviso con il metodo [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Split-Four.cs" >}}
 
-##  **Come rimuovere la divisione**
-Per rimuovere la suddivisione del foglio di lavoro, è sufficiente fare nuovamente clic sul pulsante Dividi.
+## **Come rimuovere la divisione**
+Per rimuovere la divisione del foglio di lavoro, basta fare clic sul pulsante Dividi di nuovo.
 
- Aspose.Cells per .Net fornisce a[**Foglio di lavoro.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) metodo per rimuovere l'impostazione di divisione.
+Aspose.Cells for .Net fornisce un metodo [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) per rimuovere l'impostazione di divisione.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}

@@ -1,71 +1,72 @@
 ---
-title: 行と列の挿入と削除
+title: Excelファイルの行と列の挿入と削除
 type: docs
 weight: 60
 url: /ja/java/inserting-and-deleting-rows-and-columns/
-description: Aspose.Cells for Java API を使用して行と列を挿入および削除する方法を学習します。
-keywords: How to Insert and Delete Rows and Columns in Java, Insert Rows and Columns using Java, Java Delete Rows and Columns, Insert Rows or Columns with Java, Delete Rows or Columns via Java.
+description: Aspose.Cells for JavaのAPIを介して行と列の挿入および削除を行う方法を学びます。
+keywords: Javaで行や列を挿入および削除する方法、Javaで行や列を挿入する方法、Javaで行や列を削除する方法、Javaで行または列を挿入する方法、行または列をJavaで削除する方法via Java。
 ---
-##  **導入**
-新しいワークシートを最初から作成する場合でも、既存のワークシートで作業する場合でも、より多くのデータを収容するために行や列を追加する必要がある場合があります。逆に、ワークシート内の指定された位置から行または列を削除する必要がある場合もあります。
 
-これらの要件を満たすために、Aspose.Cells は、以下で説明する非常に単純なクラスとメソッドのセットを提供します。
-##  **行/列の管理方法**
-Aspose.Cells は、[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Microsoft Excel ファイルを表すクラス。の[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには[ワークシートコレクション](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)これにより、Excel ファイル内の各ワークシートにアクセスできるようになります。ワークシートは次のように表されます。[ワークシート](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラス。の[ワークシート](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラスが提供するのは[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)ワークシート内のすべてのセルを表すコレクション。
+## **紹介**
+ワークシートをゼロから作成するか、既存のワークシートで作業する場合、さらなるデータを収容するために追加の行や列を必要とする場合があります。逆に、ワークシート内の特定の位置から行や列を削除する必要がある場合もあります。
 
-の[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)コレクションには、ワークシート内の行と列を管理するためのメソッドがいくつか用意されています。これらのいくつかについては以下で説明します。
+これらの要件を満たすために、Aspose.Cellsは以下で説明されている非常にシンプルな一連のクラスとメソッドを提供しています。
+## **行/列の管理方法**
+Aspose.Cellsは、Microsoft Excelファイルを表す[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスを提供します。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスには、Excelファイル内の各ワークシートへのアクセスを可能にする[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) が含まれています。ワークシートは[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) クラスによって表されます。[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) クラスは、ワークシート内のすべてのセルを表す[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) コレクションを提供します。
+
+ワークシートの行と列を管理するために、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) コレクションはいくつかの方法を提供します。そのうちいくつかについては以下で議論されています。
 
 {{% alert color="primary" %}} 
 
-行または列を追加すると、ワークシート内のコンテンツは下または右に移動しますが、行または列を削除すると、コンテンツは上または左に移動します。
+行または列が追加されると、ワークシートの内容は下や右にシフトされますが、行または列が削除されると、内容は上や左にシフトされます。
 
 {{% /alert %}} 
-##  **行を挿入する方法**
-を呼び出して、任意の場所に行を挿入します。[行の挿入](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\) の方法[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクション。の[行の挿入](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\))メソッドは、最初の引数として新しい行が挿入される行のインデックスを受け取り、2番目の引数として挿入される行の数を受け取ります。
+## **行の挿入方法**
+新しい行を挿入するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの[insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) メソッドを呼び出します。[insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) メソッドは、新しい行を挿入する行のインデックスを最初の引数として、挿入する行の数を2番目の引数として取ります。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingARow-InsertingARow.java" >}}
-##  **複数の行を挿入する方法**
-ワークシートに複数の行を挿入するには、[行の挿入](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\) ) の方法[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクション。の[行の挿入](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)メソッドは 2 つのパラメータを取ります。
+## **複数の行を挿入する方法**
+ワークシートに複数の行を挿入するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの[insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) メソッドを呼び出します。[insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) メソッドは2つのパラメータを取ります。
 
-- 行インデックス: 新しい行が挿入される行のインデックス。
-- 行数: 挿入する必要がある行の合計数。
+- 行インデックス: 新しい行を挿入する行のインデックス。
+- 行数: 挿入する行の合計数。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingMultipleRows-InsertingMultipleRows.java" >}}
-##  **書式設定を使用して行を挿入する方法**
-書式設定オプションを使用して行を挿入するには、[行の挿入](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)かかる過負荷[挿入オプション](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)パラメータとして。をセットする[コピーフォーマットタイプ](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType)の財産[挿入オプション](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)とのクラス[コピーフォーマットタイプ](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)列挙。の[コピーフォーマットタイプ](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)Enumeration には以下に示す 3 つのメンバーがあります。
+## **書式付きで行を挿入する方法**
+書式オプションを使用して行を挿入するには、[InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) をパラメータとして取るオーバーロードの[insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)) を使用します。[InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) クラスの[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType) プロパティを、[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) 列挙型と共に設定します。[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) 列挙型には、以下の3つのメンバーがあります。
 
-- [SAME_AS_ABOVE](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE): 行を上記の行と同じ形式に設定します。
-- [SAME_AS_BELOW](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): 行を以下の行と同じ形式に設定します。
-- [CLEAR](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR)：書式設定をクリアします。
+- [SAME_AS_ABOVE](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE): 上の行と同じ書式で行を書式設定します。
+- [SAME_AS_BELOW](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): 下の行と同じ書式で行を書式設定します。
+- [CLEAR](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): 書式設定をクリアします。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-InsertingARowWithFormatting-1.java" >}}
-##  **行を削除する方法**
-任意の場所の行を削除するには、[行の削除](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\) ) の方法[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクション。の[行の削除](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)メソッドは 2 つのパラメータを取ります。
+## **行の削除方法**
+任意の場所で行を削除するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの[deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) メソッドを呼び出します。[deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) メソッドは2つのパラメータを取ります。
 
-- 行インデックス: 行が削除される行のインデックス。
-- 行数: 削除する必要がある行の合計数。
+- 行インデックス: 削除する行のインデックス。
+- 行数: 削除する行の合計数。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteARow-DeleteARow.java" >}}
-##  **複数の行を削除する方法**
-ワークシートから複数の行を削除するには、[行の削除](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\) ) の方法[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクション。の[行の削除](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)メソッドは 2 つのパラメータを取ります。
+## **複数の行を削除する方法**
+ワークシートから複数の行を削除するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの[deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) メソッドを呼び出します。[deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) メソッドは2つのパラメータを取ります。
 
-- 行インデックス: 行が削除される行のインデックス。
-- 行数: 削除する必要がある行の合計数。
+- 行インデックス: 削除する行のインデックス。
+- 行数: 削除する行の合計数。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteMultipleRows-DeleteMultipleRows.java" >}}
-##  **つまたは複数の列を挿入する方法**
-開発者は、[挿入列](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\) ) の方法[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクション。の[挿入列](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)メソッドは 2 つのパラメータを取ります。
+## **1つまたは複数の列の挿入方法**
+開発者はまた、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの[insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)) メソッドを呼び出すことで、ワークシートに任意の位置で列を挿入することができます。[insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)) メソッドは2つのパラメータを取ります。
 
-- 列インデックス、列が挿入される列のインデックス
-- 列の数、挿入する必要がある列の合計数
+- 列インデックス: 挿入する列のインデックス
+- 列数: 挿入する列の合計数
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingAColumn-InsertingAColumn.java" >}}
-##  **列を削除する方法**
-ワークシートの任意の場所から列を削除するには、[列の削除](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\) ) の方法[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクション。の[列の削除](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)メソッドは次のパラメーターを受け取ります。
+## **列を削除する方法**
+ワークシートから任意の位置で列を削除するには、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの[deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)) メソッドを呼び出します。[deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)) メソッドは以下のパラメータを取ります。
 
-- 列インデックス: 列が削除される列のインデックス。
-- 列数: 削除する必要がある列の合計数。
-- 参照の更新: 他のワークシートの参照を更新するかどうかを示すブール パラメーター。
+- 列インデックス: 削除する列のインデックス。
+- 列数: 削除する列の合計数。
+- 参照の更新: 他のワークシートで参照を更新するかどうかを示すブール値。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteAColumn-DeleteAColumn.java" >}}
 

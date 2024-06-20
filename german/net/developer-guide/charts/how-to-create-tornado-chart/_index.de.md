@@ -1,37 +1,38 @@
 ---
-title: So erstellen Sie ein Tornado-Diagramm
+title: Wie man ein Tornado Diagramm erstellt
 type: docs
 weight: 73
 url: /de/net/create-tornado-chart/
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET API ein Tornado-Diagramm erstellen.
-keywords: C# create a tornado chart, add a tornado chart, insert a tornado chart
+description: Erfahren Sie, wie man ein Tornado Diagramm mit der Aspose.Cells for .NET API erstellt.
+keywords: C# erstellen Sie ein Tornado Diagramm, fügen Sie ein Tornado Diagramm hinzu, fügen Sie ein Tornado Diagramm ein
 ---
-##  **Einführung**
-Ein Tornado-Diagramm, auch Tornado-Diagramm oder Tornado-Graph genannt, ist eine Art Datenvisualisierung, die häufig für Sensitivitätsanalysen in Excel verwendet wird. Es hilft Ihnen, die Auswirkungen sich ändernder Variablen auf ein bestimmtes Ergebnis oder Ergebnis zu verstehen.
 
-##  **So erstellen Sie ein Tornado-Diagramm in Excel**
-Sie können ein Tornado-Diagramm in Excel erstellen, indem Sie die folgenden Schritte ausführen:
-1. Wählen Sie die Daten aus und gehen Sie zu Einfügen -> Diagramme -> Säulen- oder Balkendiagramm einfügen -> Gestapeltes Balkendiagramm. Klick es an.
+## **Einführung**
+Ein Tornado-Diagramm, auch als Tornado-Diagramm oder Tornado-Grafik bekannt, ist eine Art der Datendarstellung, die oft für die Sensitivitätsanalyse in Excel verwendet wird. Es hilft Ihnen, den Einfluss von sich ändernden Variablen auf ein bestimmtes Ergebnis oder Resultat zu verstehen.
+
+## **Wie man ein Tornado-Diagramm in Excel erstellt**
+Sie können ein Tornado-Diagramm in Excel erstellen, indem Sie diesen Schritten folgen:
+1. Wählen Sie die Daten aus und gehen Sie zu Einfügen --> Diagramme --> Säulen- oder Balkendiagramm einfügen --> Gestapeltes Balkendiagramm. Klicken Sie darauf.
 <br>
 <img src="1.png" width=70% />
-2. Y-Achse ändern: Klicken Sie mit der rechten Maustaste auf die y-Achse. Klicken Sie auf die Formatachse. Klicken Sie in den Etiketten auf das Dropdown-Menü „Etikettenposition“ und wählen Sie „Niedriges Element“ aus.
+2. Ändern Sie die Y-Achse: Klicken Sie mit der rechten Maustaste auf die y-Achse. Klicken Sie auf Achsenformat. Klicken Sie in Beschriftungen auf das Dropdown-Menü für die Position der Beschriftung und wählen Sie Niedrigstes Element aus.
 <br>
 <img src="2.png" width=70% />
-3. Wählen Sie einen beliebigen Balken aus und gehen Sie zur Formatierung. Stellen Sie eine geeignete Spaltbreite ein.
+3. Wählen Sie eine beliebige Leiste aus und gehen Sie zur Formatierung. Legen Sie einen geeigneten Abstand fest.
 <br>
 <img src="3.png" width=70% />
-4. Entfernen wir das Minuszeichen (-) aus der Tornado-Karte. Wählen Sie die x-Achse aus. Gehen Sie zur Formatierung. Klicken Sie in den Achsenoptionen auf die Zahl. Wählen Sie in der Kategorie „Benutzerdefiniert“ aus. Schreiben Sie im Formatcode ###0,###0. Klicken Sie auf Hinzufügen.
+4. Entfernen wir das Minuszeichen (-) aus dem Tornado-Diagramm. Wählen Sie die x-Achse aus. Gehen Sie zur Formatierung. Klicken Sie in den Achsenoptionen auf die Nummer. Wählen Sie in der Kategorie Benutzerdefiniert aus. Im Formatcode schreiben Sie ###0,###0. Klicken Sie auf Hinzufügen.
 <br>
 <img src="4.png" width=70% />
-5. Klicken Sie auf die Y-Achse und gehen Sie zu den Achsenoptionen. Aktivieren Sie in den Achsenoptionen die Option „Kategorien in umgekehrter Reihenfolge“.
+5. Klicken Sie auf die y-Achse und gehen Sie zu den Achsenoptionen. Überprüfen Sie in den Achsenoptionen Kategorien in umgekehrter Reihenfolge.
 <br>
 <img src="5.png" width=70% />
 
-##  **So fügen Sie ein Tornado-Diagramm in Aspose.Cells hinzu**
- Bitte sehen Sie sich den folgenden Beispielcode an. Es lädt die[Beispiel-Excel-Datei](sample.xlsx) das einige Beispieldaten enthält. Anschließend erstellt es das gestapelte Balkendiagramm auf Grundlage der Ausgangsdaten und legt relevante Eigenschaften fest. Schließlich wird die Arbeitsmappe gespeichert[Ausgabeformat XLSX](out.xlsx). Der folgende Screenshot zeigt das von Aspose.Cells erstellte Tornado-Diagramm in der Excel-Ausgabedatei.
+## **Wie man ein Tornado-Diagramm in Aspose.Cells hinzufügt**
+Bitte sehen Sie sich den folgenden Beispielcode an. Es lädt die [Beispieldatei Excel](sample.xlsx), die einige Beispieldaten enthält. Danach erstellt es das gestapelte Balkendiagramm basierend auf den Anfangsdaten und setzt relevante Eigenschaften. Schließlich speichert es die Arbeitsmappe im [Ausgabe-XLSX-Format](out.xlsx). Der folgende Screenshot zeigt das von Aspose.Cells erstellte Tornado-Diagramm in der Ausgabe-Excel-Datei.
 <br>
 <img src="6.png" width=70% />
 
-###  **Beispielcode**
+### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-tornado-chart.cs" >}}

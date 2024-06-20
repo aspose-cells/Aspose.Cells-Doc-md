@@ -1,15 +1,16 @@
-﻿---
-title: Рассчитать промежуточные итоги
+---
+title: Вычисление подытогов
 type: docs
 weight: 10
 url: /ru/net/calculate-sub-totals/
 ---
-## **Aspose.Cells - Расчет промежуточных итогов**
-Вы можете автоматически создавать промежуточные итоги для любых повторяющихся значений в электронной таблице. Aspose.Cells предоставляет функции API, которые помогают программно добавлять промежуточные итоги в электронные таблицы.
+
+## **Aspose.Cells - Вычисление подытогов**
+Вы можете автоматически создавать подытоги для любых повторяющихся значений в электронной таблице. Aspose.Cells предоставляет API-функции, которые помогают вам программно добавлять подытоги в электронные таблицы.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -35,20 +36,20 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[]{ 1 });
+cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
 
 //Save the excel file
 
 workbook.Save("AsposeTotal.xls"); 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Рассчитать промежуточные итоги** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Вычислить Промежуточные Итоги** с любого из упомянутых выше социальных сайтов для кодинга:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Создание промежуточных итогов](/cells/ru/net/creating-subtotals/).
+Для получения более подробной информации посетите [Создание Промежуточных Итогов](/cells/ru/net/creating-subtotals/).
 
 {{% /alert %}}

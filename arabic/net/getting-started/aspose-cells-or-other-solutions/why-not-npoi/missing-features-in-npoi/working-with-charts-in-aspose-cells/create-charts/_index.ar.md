@@ -1,15 +1,16 @@
-﻿---
+---
 title: إنشاء الرسوم البيانية
 type: docs
 weight: 20
 url: /ar/net/create-charts/
 ---
-## **Aspose.Cells - تكوين الرسوم البيانية**
-من الممكن إضافة مجموعة متنوعة من المخططات إلى جداول البيانات باستخدام Aspose.Cells. يوفر Aspose.Cells العديد من كائنات الرسوم البيانية المرنة.
+
+## **Aspose.Cells - إنشاء الرسوم البيانية**
+من الممكن إضافة مجموعة متنوعة من الرسوم البيانية إلى جداول البيانات بمساعدة Aspose.Cells. Aspose.Cells توفر العديد من كائنات الرسم البياني المرنة.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -68,13 +69,13 @@ serieses.Add("A1:B3", true);
 workbook.Save("Chart_Aspose.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إنشاء الرسوم البيانية** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **إنشاء الرسوم البيانية** من أيّ من المواقع الرمزية الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[كيفية إنشاء مخطط](/cells/ar/net/create-charts/).
+لمزيد من التفاصيل، قم بزيارة [كيفية إنشاء رسم بياني](/cells/ar/net/create-charts/).
 
 {{% /alert %}}

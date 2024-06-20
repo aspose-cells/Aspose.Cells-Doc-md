@@ -1,26 +1,27 @@
-﻿---
-title: حدد ما إذا كان الشكل هو شكل فني ذكي
+---
+title: تحديد ما إذا كانت الشكل شكل رسوم بيانية ذكية
 type: docs
 weight: 70
 url: /ar/java/determine-if-shape-is-smart-art-shape/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-الأشكال الفنية الذكية هي أشكال خاصة في Microsoft Excel تتيح لك إنشاء مخططات معقدة تلقائيًا. يمكنك معرفة ما إذا كان الشكل عبارة عن شكل فني ذكي أو شكل عادي باستخدام[**الشكل**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt)خاصية.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **حدد ما إذا كان الشكل هو شكل فني ذكي**
+أشكال الذكاء الذكية هي أشكال خاصة في Microsoft Excel تتيح لك إنشاء رسوم بيانية معقدة تلقائيًا. يمكنك معرفة إذا كان الشكل هو شكل ذكاء ذكي أو شكل عادي باستخدام الخاصية [**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt).
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](55541805.xlsx)تحتوي على شكل فني ذكي كما هو موضح في لقطة الشاشة هذه. ثم يطبع قيمة[**الشكل**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt)خاصية الشكل الأول. يرجى الاطلاع على إخراج وحدة التحكم لعينة التعليمات البرمجية الواردة أدناه.
+## **تحديد ما إذا كان الشكل هو شكل ذكاء ذكي**
 
-![ما يجب القيام به: image_بديل_نص](determine-if-shape-is-smart-art-shape_1.png)
+يحمل الكود المصدري التالي [ملف Excel عيني](55541805.xlsx) الذي يحتوي على شكل ذكاء ذكي كما هو موضح في هذا اللقطة. ثم يقوم بطباعة قيمة الخاصية [**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt) للشكل الأول. يرجى الاطلاع على مخرجات واجهة التحكم للكود المصدري المعطى أدناه.
 
-## **عينة من الرموز**
+![todo:image_alt_text](determine-if-shape-is-smart-art-shape_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-DetermineIfShapeIsSmartArtShape.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: true
 

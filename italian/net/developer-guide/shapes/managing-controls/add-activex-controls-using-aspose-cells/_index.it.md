@@ -1,12 +1,13 @@
-﻿---
-title: Aggiungi controlli ActiveX utilizzando Aspose.Cells
+---
+title: Aggiungi controlli ActiveX usando Aspose.Cells
 type: docs
 weight: 260
 url: /it/net/add-activex-controls-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- È possibile aggiungere controlli ActiveX con Aspose.Cells utilizzando il file[**ShapeCollection.AddActiveXControl()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addactivexcontrol) metodo. Questo metodo accetta un parametro[**Tipo di controllo**](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype)che indica quale tipo di controllo ActiveX deve essere aggiunto all'interno di un foglio di lavoro. Ha i seguenti valori.
+Puoi aggiungere controlli ActiveX con Aspose.Cells usando il metodo [**ShapeCollection.AddActiveXControl()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addactivexcontrol). Questo metodo richiede un parametro [**ControlType**](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype) che indica che tipo di controllo ActiveX deve essere aggiunto all'interno di un foglio di lavoro. Ha i seguenti valori.
 
 - ControlType.CheckBox
 - ControlType.ComboBox
@@ -21,10 +22,10 @@ url: /it/net/add-activex-controls-using-aspose-cells/
 - ControlType.ToggleButton
 - ControlType.Unknown
 
- Dopo aver aggiunto il controllo ActiveX all'interno della raccolta delle forme, è possibile accedere all'oggetto del controllo ActiveX tramite[**Shape.ActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol) property e quindi impostarne le varie proprietà.
+Una volta aggiunto il controllo ActiveX all'interno della raccolta delle forme, puoi accedere all'oggetto di controllo ActiveX tramite la proprietà [**Shape.ActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol) e quindi impostarne varie proprietà.
 
 {{% /alert %}}
 
-Il codice di esempio seguente aggiunge il controllo ActiveX del pulsante di attivazione/disattivazione utilizzando Aspose.Cells.
+Il seguente codice di esempio aggiunge il pulsante di controllo ActiveX utilizzando Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddActiveXControls-1.cs" >}}

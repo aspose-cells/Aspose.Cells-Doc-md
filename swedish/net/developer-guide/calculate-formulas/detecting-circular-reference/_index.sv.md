@@ -1,31 +1,32 @@
 ---
-title: Detekterar cirkulär referens
-description: Den här artikeln introducerar hur du använder Aspose.Cells-biblioteket för att upptäcka cirkulära referenser i Microsoft Excel. Genom att ladda en befintlig Excel-fil eller skapa en ny kan vi använda metoden som tillhandahålls av Aspose.Cells för att upptäcka cirkulära referenser och få resultaten. Slutligen sparar vi den modifierade Excel-filen på disken.
-keywords: Aspose.Cells, Excel, circular references, detection
+title: Upptäcka en cirkulär referens
+description: Den här artikeln introducerar hur man använder Aspose.Cells biblioteket för att upptäcka cirkulära referenser i Microsoft Excel. Genom att ladda en befintlig Excel fil eller skapa en ny kan vi använda metoden som tillhandahålls av Aspose.Cells för att upptäcka cirkulära referenser och få resultaten. Slutligen sparar vi den modifierade Excel filen på disk.
+keywords: Aspose.Cells, Excel, cirkulära referenser, upptäckt
 type: docs
 weight: 70
 url: /sv/net/detecting-circular-reference/
 ---
-##  **Introduktion**
 
-Arbetsböcker kan ha cirkulära referenser och ibland finns det ett behov av att upptäcka om cirkulära referenser finns där eller inte.
+## **Introduktion**
 
-##  **Konceptet bakom att detektera den cirkulära referensen**
+Arbetsböcker kan ha cirkulära referenser och ibland finns det ett behov av att avgöra om cirkulära referenser finns eller inte.
 
-Cirkulära referenser kan bara upptäckas när formeln beräknas eftersom referenserna för en formel vanligtvis beror på det beräknade resultatet av andra delar eller andra formler. Så vi tillhandahåller nya API:er för detta krav (för att samla celler med cirkulära referenser) i processen för formelberäkning:
+## **Konceptet bakom att upptäcka den cirkulära referensen**
 
-[**Beräkningscell**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell): Representerar beräkningen av relevant data om en cell som beräknas
+Cirkulära referenser kan bara upptäckas när formeln beräknas eftersom referenserna i en formel vanligtvis beror på det beräknade resultatet av andra delar eller andra formler. Så tillhandahåller vi nya API:er för detta krav (att samla celler med cirkulära referenser) i processen för formelberäkning:
 
-[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular): kommer att anropas av formelberäkningsmotorn när cirkulära referenser påträffas, elementet i enumeratorn är[**Beräkningscell**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell) objekt som representerar alla celler i en cirkel. Det returnerade värdet anger om formelmotorn behöver beräkna dessa celler i cirkulär efter detta anrop.
+[**CalculationCell**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell): Representerar beräkningen av relevant data om en cell som beräknas
 
- Användare kan samla in dessa cirkulära referenser i implementeringen av[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular) metod.
+[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular): kommer att anropas av formelberäkningsmotorn när cirkulära referenser upptäcks, elementet i uppräknaren är [**CalculationCell**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell) objekt som representerar alla celler i en cirkel. Det returnerade värdet anger om formel-motorn behöver beräkna de cellerna i cirkulären efter detta anrop.
 
-Källexempelfilen kan laddas ner från följande länk:
+Användaren kan samla in dessa cirkulära referenser i implementeringen av metoden [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular).
 
-[Cirkulära formler.xls](77496332.xls)
+Den angivna provfilen kan laddas ner från följande länk:
+
+[Circular Formulas.xls](77496332.xls)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-1.cs" >}}
 
-Definition av*CircularMonitor* klass som härrör från[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) klass är som följer:
+Definition av *CircularMonitor* klassen som är härledd från [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) klassen är följande:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-2.cs" >}}

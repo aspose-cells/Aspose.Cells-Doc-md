@@ -1,84 +1,85 @@
-﻿---
-title: Microsoft Libreria gestione fogli di calcolo Excel
+---
+title: Libreria di gestione dei fogli di calcolo di Microsoft Excel
 type: docs
 weight: 20
 url: /it/net/microsoft-excel-spreadsheet-management-library/
 ---
-## **Aspose.Cells – Microsoft Libreria Gestione Fogli Excel**
+
+## **Aspose.Cells - Libreria di gestione dei fogli di calcolo di Microsoft Excel**
 ### **Caratteristiche del documento**
-- Apri file Microsft Excel semplici o crittografati (Excel97 - Excel2007/2010/2013) da fonti diverse.
-- Salva i file Excel (Excel 97 - Excel2007/2010/2013) in diversi formati (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, 0761734481, Tab Delimited, XLSB, CSV, 0761734481, Tab Delimited, XLSB, CSV, 0761734481, Tab Delimited, 0816183)
-- Converti file Excel in documento PDF.
-- Converti foglio di calcolo Excel in documento XPS.
-- Converti in formato file immagine con tag (TIFF).
-- Leggi e scrivi il formato OpenDocument Spreadsheet (ODS).
-- Modificare le proprietà del documento dei file Excel.
+- Aprire file di Microsoft Excel semplici o criptati (Excel97 - Excel2007/2010/2013) da diverse fonti.
+- Salvare i file di Excel (Excel 97 - Excel2007/2010/2013) in diversi formati (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Delimitato da tabulazione, TSV, HTML etc.)
+- Convertire file di Excel in documento PDF.
+- Convertire un foglio di calcolo di Excel in documento XPS.
+- Convertire in formato file di immagine contrassegnato (TIFF).
+- Leggere e scrivere il formato del foglio di calcolo OpenDocument (ODS).
+- Modificare le proprietà del documento dei file di Excel.
 ### **Caratteristiche del foglio di lavoro**
 #### **Opzioni di visualizzazione**
 - Nascondi o mostra un foglio di lavoro.
-- Mostra o nascondi schede, barre di scorrimento, griglie e intestazioni di righe e colonne.
+- Mostra o nascondi le schede, le barre di scorrimento, le griglie e le intestazioni delle righe e delle colonne.
 - Anteprima interruzioni di pagina.
-- Imposta il livello di zoom per il foglio di lavoro.
-- Rendi visibili i dati selezionati durante lo scorrimento utilizzando i riquadri di blocco.
+- Imposta livello di zoom per il foglio di lavoro.
+- Rendere i dati selezionati visibili durante lo scorrimento utilizzando le riquadri di blocco.
 #### **Protezione del foglio di lavoro**
-- Proteggi contenuti, oggetti e scenari di un foglio di lavoro.
-#### **Opzioni di impostazione della pagina**
-- Imposta l'orientamento della pagina, il ridimensionamento, il formato della carta, la qualità di stampa, ecc.
-- Imposta i margini della pagina come superiore, sinistro, destro, inferiore ecc.
+- Proteggere contenuti, oggetti e scenari di un foglio di lavoro.
+#### **Opzioni di impostazione pagina**
+- Imposta l'orientamento della pagina, la scala, la dimensione della carta, la qualità di stampa, ecc.
+- Imposta i margini della pagina come superiore, sinistro, destro, inferiore, ecc.
 - Imposta intestazioni e piè di pagina.
-- Impostare l'area di stampa, il titolo di stampa ecc.
+- Imposta l'area di stampa, il titolo di stampa, ecc.
 #### **Interruzioni di pagina**
-- Inserisci interruzioni di pagina orizzontali e verticali in corrispondenza di una cella specificata.
-### **Caratteristiche di righe e colonne**
+- Inserisci interruzioni di pagina orizzontali e verticali in una cella specifica.
+### **Funzionalità righe e colonne**
 - Regola l'altezza della riga.
 - Regola la larghezza della colonna come richiesto.
-- Ridimensiona automaticamente la larghezza e l'altezza delle celle in base al loro contenuto.
+- Ridimensiona automaticamente la larghezza e l'altezza delle celle in base ai loro contenuti.
 - Inserisci o elimina righe e colonne.
 - Nascondi o mostra righe e colonne.
-- Raggruppa o separa righe e colonne.
+- Raggruppa o scinde righe e colonne.
 ### **Funzionalità di gestione dei dati**
 - Accedi a qualsiasi cella nel foglio di lavoro.
-- Aggiungi dati alle celle desiderate in fase di esecuzione.
-- Importa i dati in fogli di lavoro da diverse origini dati.
-- Recupera i dati dalle celle in base ai loro tipi di dati.
-- Esporta i dati delle celle in DataTable.
-- Trova o cerca dati specifici nelle celle.
-- Imposta formule con funzioni integrate o aggiuntive.
-- Imposta matrice e formula dello stile di riferimento R1C1.
+- Aggiungi dati alle celle desiderate in tempo reale.
+- Importare dati in fogli di lavoro da diverse origini dati.
+- Recuperare dati dalle celle in base ai loro tipi di dati.
+- Esportare dati delle celle in DataTable.
+- Trovare o cercare dati specifici nelle celle.
+- Impostare formule con funzioni integrate o aggiuntive.
+- Impostare formule con stili di riferimento array e R1C1.
 - Aggiungere diversi tipi di collegamenti ipertestuali.
-- Crea o accedi a intervalli denominati.
-- Applicare la convalida dei dati e il filtro automatico.
-### **Funzionalità di formattazione**
+- Creare o accedere a intervalli con nome.
+- Applicare convalida dati e filtro automatico.
+### **Caratteristiche di formattazione**
 - Applicare stili diversi alle celle.
-- Applicare le impostazioni del formato numerico alle celle.
-- Formatta la cella come una data.
-- Imposta l'allineamento del testo.
-- Unisci più celle.
-- Applicare diversi tipi di impostazioni dei caratteri sulle celle.
-- Applica colori diversi a celle, caratteri, griglie, oggetti grafici, ecc.
-- Imposta il testo RTF in una singola cella.
-- Applicare diverse impostazioni del bordo sulle celle.
-- Applica motivi di sfondo diversi alle celle.
-- Applica le impostazioni di formato su un foglio di lavoro, una riga o una colonna, ecc.
-- Applica la formattazione condizionale alle celle.
-### **Grafici e funzionalità grafiche**
-- Supporta tutti i tipi di grafici standard come colonna, barra, linea, torta, dispersione ecc.
-- Crea facilmente diversi tipi di grafici.
-- Personalizza i grafici impostando le loro diverse proprietà.
-- Imposta dinamicamente i dati per i grafici.
-- Aggiungi grafici personalizzati ai fogli di lavoro utilizzando API.
-- Aggiungi immagini ai fogli di lavoro in fase di esecuzione.
-- Crea e aggiungi commenti alle celle.
-- Converti grafico in file immagine.
-- Converti foglio di lavoro in file immagine.
-- Stampa fogli di lavoro.
+- Applicare impostazioni di formato numerico alle celle.
+- Formattare la cella come una data.
+- Impostare l'allineamento del testo.
+- Unire più celle.
+- Applicare diversi tipi di impostazioni del carattere alle celle.
+- Applicare colori diversi alle celle, caratteri, griglie, oggetti grafici, ecc.
+- Impostare testo ricco in una singola cella.
+- Applicare diverse impostazioni dei bordi alle celle.
+- Applicare diverse trame di sfondo alle celle.
+- Applicare le impostazioni di formato su un foglio di lavoro, riga o colonna ecc.
+- Applicare formattazione condizionale alle celle.
+### **Funzionalità di grafici e grafica**
+- Supporta tutti i tipi di grafico standard come colonne, barre, linee, torte, dispersione ecc.
+- Creare facilmente diversi tipi di grafici.
+- Personalizzare i grafici impostando le loro diverse proprietà.
+- Impostare dinamicamente i dati per i grafici.
+- Aggiungere grafici personalizzati ai fogli di lavoro utilizzando API.
+- Aggiungere immagini ai fogli di lavoro in fase di esecuzione.
+- Creare e aggiungere commenti alle celle.
+- Convertire il grafico in un file immagine.
+- Convertire il foglio di lavoro in un file immagine.
+- Stampare i fogli di lavoro.
 ### **Funzionalità avanzate**
-- Crea fogli di calcolo per designer e lavora con i marcatori intelligenti.
-- Calcoli delle formule veloci grazie a un robusto motore di calcolo delle formule.
-- Accedi a Aspose.Cells dai client COM.
-- Modificare i dati di origine di una tabella pivot in fase di esecuzione.
-- Crea e manipola tabelle pivot.
-- Manipola il codice VBA o le macro.
-### **Piattaforme supportate**
-- Desktop Windows Applicazione
-- Applicazione Web aziendale
+- Creare fogli di calcolo personalizzati e lavorare con Smart Markers.
+- Calcoli delle formule resi veloci da un motore di calcolo delle formule robusto.
+- Accedere a Aspose.Cells da client COM.
+- Cambiare i dati di origine di una tabella pivot in fase di esecuzione.
+- Creare e manipolare tabelle pivot.
+- Manipolare il codice VBA o le macro.
+### **Piattaforme Supportate**
+- Applicazione Desktop Windows
+- Applicazione Web Enterprise

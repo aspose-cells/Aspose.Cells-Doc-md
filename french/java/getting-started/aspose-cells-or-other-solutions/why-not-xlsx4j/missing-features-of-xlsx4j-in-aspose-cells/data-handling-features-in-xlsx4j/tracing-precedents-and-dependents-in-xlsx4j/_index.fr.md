@@ -1,24 +1,25 @@
-﻿---
-title: Traçage des précédents et des personnes à charge dans xlsx4j
+---
+title: Suivi des précédents et des dépendances dans xlsx4j
 type: docs
 weight: 70
 url: /fr/java/tracing-precedents-and-dependents-in-xlsx4j/
 ---
-## **Aspose.Cells - Recherche des antécédents et des personnes à charge**
-Les feuilles de calcul financières complexes, en particulier celles développées en collaboration, peuvent cacher les erreurs les plus embarrassantes. Vérifier l'exactitude des formules et trouver la source d'une erreur peut être difficile lorsque la formule utilise des cellules précédentes et des cellules dépendantes.
 
-- **Cellules précédentes**sont des cellules référencées par une formule dans un autre Cell. Par exemple, si la cellule D10 contient la formule =B5, la cellule B5 est un précédent de la cellule D10.
-- **Cellules dépendantes**contiennent des formules faisant référence à d'autres cellules. Par exemple, si la cellule D10 contient la formule =B5, la cellule D10 dépend de la cellule B5.
+## **Aspose.Cells - Suivi des précédents et des dépendances**
+Les feuilles de calcul financières complexes, en particulier celles développées en collaboration, peuvent cacher les erreurs les plus gênantes. Vérifier la précision des formules et trouver la source d'une erreur peut être difficile lorsque la formule utilise des cellules précédentes et des cellules dépendantes.
 
-Pour faciliter la lecture de la feuille de calcul, vous souhaiterez peut-être indiquer clairement quelles cellules d'une feuille de calcul sont utilisées dans une formule. De même, vous souhaiterez peut-être extraire les cellules dépendantes d'autres cellules.
+- Les cellules précédentes sont des cellules auxquelles une formule fait référence dans une autre cellule. Par exemple, si la cellule D10 contient la formule =B5, la cellule B5 est précédente de la cellule D10.
+- Les cellules dépendantes contiennent des formules qui font référence à d'autres cellules. Par exemple, si la cellule D10 contient la formule =B5, la cellule D10 est dépendante de la cellule B5.
 
-Aspose.Cells vous permet de tracer des cellules et de découvrir lesquelles sont liées.
+Pour rendre la feuille de calcul facile à lire, vous voudrez peut-être clairement indiquer quelles cellules d'une feuille de calcul sont utilisées dans une formule. De même, vous voudrez peut-être extraire les cellules dépendantes d'autres cellules.
 
-Retrouver les précédents
+Aspose.Cells vous permet de tracer les cellules et de savoir lesquelles sont liées.
+
+Tracer les cellules précédentes
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -84,21 +85,21 @@ if(ret != null)
 
 {{< /highlight >}}
 
-Recherche des personnes à charge
+Tracé des dépendances
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- // Récupère la cellule A1
+ //Get the A1 cell
 
-Cell c = cellules.get("A5");
+Cell c = cells.get("A5");
 
-// Récupère toutes les personnes à charge de la cellule A5
+//Get the all the Dependents of A5 cell
 
-Cell[]dépendants = c.getDependents(true);
+Cell[] dependents = c.getDependents(true);
 
-pour (int je = 0; je< dependents.length; i++)
+for (int i = 0; i< dependents.length; i++)
 
 {
 
@@ -107,13 +108,13 @@ pour (int je = 0; je< dependents.length; i++)
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/tracingprecedentsanddependents/AsposeTracingPrecedentsAndDependents.java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Recherche des antécédents et des personnes à charge](/java/tracing-precedents-and-dependents).
+Pour plus de détails, visitez [Suivi des précédents et des dépendances](/java/tracing-precedents-and-dependents).
 
 {{% /alert %}}

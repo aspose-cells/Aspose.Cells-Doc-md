@@ -1,5 +1,5 @@
 ---
-title: 检测加密的Office Open XML - OOXML文件的文件格式
+title: 检测加密的Office Open XML  OOXML文件的文件格式
 type: docs
 weight: 340
 url: /zh/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/

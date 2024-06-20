@@ -1,16 +1,17 @@
-﻿---
-title: Автоподбор строк и столбцов в PHP
+---
+title: Автоматическая подгонка строк и столбцов в PHP
 type: docs
 weight: 20
 url: /ru/java/autofit-rows-and-columns-in-php/
 ---
+
 ## **Aspose.Cells - Автоподбор строк и столбцов**
 ### **Автоподбор строки**
-Самый простой подход к автоматическому изменению ширины и высоты строки — вызвать метод autoFitRow класса Worksheet. Метод autoFitRow принимает в качестве параметра индекс строки (строки, размер которой нужно изменить).
+Самым простым способом автоматического изменения ширины и высоты строки является вызов метода autoFitRow класса Worksheet. Метод autoFitRow принимает индекс строки (столбец для изменения размера) в качестве параметра.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_row($dataDir)
 
@@ -44,11 +45,11 @@ url: /ru/java/autofit-rows-and-columns-in-php/
 
 {{< /highlight >}}
 ### **Автоподбор столбца**
-Самый простой способ автоматически изменить ширину и высоту столбца — вызвать метод autoFitColumn класса Worksheet. Метод autoFitColumn принимает в качестве параметра индекс столбца (столбца, размер которого должен быть изменен).
+Самым простым способом автоматического изменения ширины и высоты столбца является вызов метода autoFitColumn класса Worksheet. Метод autoFitColumn принимает индекс столбца (столбец, который требуется изменить) в качестве параметра.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_column($dataDir)
 
@@ -81,7 +82,7 @@ url: /ru/java/autofit-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Автоподбор строк и столбцов (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Автоподбор строк и столбцов (Aspose.Cells)** с любого из перечисленных ниже сайтов социальной разработки:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

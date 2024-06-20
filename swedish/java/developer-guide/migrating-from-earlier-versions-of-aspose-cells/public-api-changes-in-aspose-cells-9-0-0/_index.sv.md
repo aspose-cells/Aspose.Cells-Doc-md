@@ -1,23 +1,24 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 9.0.0
+---
+title: Offentliga API ändringar i Aspose.Cells 9.0.0
 type: docs
 weight: 340
 url: /sv/java/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.9.2 till 9.0.0 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringarna i Aspose.Cells API från version 8.9.2 till 9.0.0 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser osv., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Lade till Shape.TextOptions-egenskap**
-Aspose.Cells for Java har exponerat egenskapen TextOptions för Shape-klassen för att kontrollera utseendet på textdelar av en Shape.
+## **Tillagda API:er**
+### **Tillagd Shape.TextOptions-egenskap**
+Aspose.Cells for Java har exponerat TextOptions-egenskapen för Shape-klassen för att styra utseendet på textdelar av en Shape.
 
-Här är ett enkelt användningsscenario för Shape.TextOptions-egenskapen.
+Här är ett enkelt användningsscenariot för Shape.TextOptions-egenskapen.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize an instance of Workbook
 
@@ -48,44 +49,44 @@ textbox.getTextOptions().setItalic(true);
 textbox.getTextOptions().setBold(true);
 
 {{< /highlight >}}
-### **Lade till egenskapen ChartPoint.IsInSecondaryPlot**
-Aspose.Cells for Java har exponerat egenskapen ChartPoint.IsInSecondaryPlot som kan användas för att upptäcka om en ChartPoint finns på en sekundär plot av ett cirkel- eller stapeldiagram.
+### **Tillagd ChartPoint.IsInSecondaryPlot-egenskap**
+Aspose.Cells for Java har exponerat ChartPoint.IsInSecondaryPlot-egenskapen som kan användas för att upptäcka om en ChartPoint finns på en sekundär plot av en Pie- eller Bar-chart.
 
-Här är ett enkelt användningsscenario för Shape.Line-egenskapen.
+Här är ett enkelt användningsscenariot för Shape.Line-egenskapen.
 
 {{% alert color="primary" %}} 
 
- Kolla den detaljerade artikeln om[Att hitta en DataPoint ligger på den andra plotten](/cells/sv/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
+Kolla in den detaljerade artikeln om [Att hitta en datapunkt som finns på den andra plotten](/cells/sv/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Ladda ett befintligt kalkylblad som innehåller ett cirkeldiagram
+ //Load an existing spreadsheet containing a Pie chart
 
-Arbetsbok bok = ny arbetsbok(dir + "PieBar.xlsx");
+Workbook book = new Workbook(dir + "PieBar.xlsx");
 
-//Ladda arbetsbladet vid 0 index
+//Load the Worksheet at 0 index
 
-Arbetsblad = book.getWorksheets().get(0);
+Worksheet sheet = book.getWorksheets().get(0);
 
-//Ladda det första diagrammet från samlingen
+//Load the first chart from the collection
 
-Diagramdiagram = sheet.getCharts().get(0);
+Chart chart = sheet.getCharts().get(0);
 
-//Beräkna diagrammet innan du kommer åt dess egenskaper
+//Calculate the chart before accessing its properties
 
 chart.calculate();
 
-//Åtkomst till diagrammets första serie
+//Accessing chart's first series
 
-Serieserie = diagram.getNSeries().get(0);
+Series series = chart.getNSeries().get(0);
 
-//Slinga över ChartPoint-samlingen
+//Loop over the ChartPoint collection
 
- for(int p = 0 ; sid< series.getPoints().getCount(); p++)
+for(int p = 0 ; p < series.getPoints().getCount(); p++)
 
 {
 
@@ -100,20 +101,20 @@ Serieserie = diagram.getNSeries().get(0);
 }
 
 {{< /highlight >}}
-### **Lade till egenskapen OleObject.ClassIdentifier**
-Aspose.Cells for Java 9.0.0 har avslöjat egenskapen OleObject.ClassIdentifier som kan användas för att specificera programmets beteende för att ladda ett OleObject. Till exempel kan en PPT-fil bäddas in i ett kalkylblad med 2 olika vyer, det vill säga; presentationsvy eller bildvy, medan båda vyerna har olika klassidentifieringsvärden.
+### **Tillagd OleObject.ClassIdentifier-egenskap**
+Aspose.Cells for Java 9.0.0 har exponerat OleObject.ClassIdentifier-egenskapen som kan användas för att specificera beteendet för att ladda en OleObject. Till exempel kan en PPT-fil bäddas in i en kalkylblad med 2 olika vyer, det vill säga presentationsvy eller bildvy, medan båda vyerna har olika klassidentifieringsvärden.
 
-Följande är det enkla användningsscenariot för egenskapen OleObject.ClassIdentifier.
+Följande är det enkla användningsscenarioet för OleObject.ClassIdentifier-egenskapen.
 
 {{% alert color="primary" %}} 
 
- Kolla den detaljerade artikeln om[Använder OleObject.ClassIdentifier](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+Kolla in den detaljerade artikeln om [Användning av OleObject.ClassIdentifier](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet containing a presentation as OleObject
 
@@ -129,13 +130,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 String progID = "";
 
@@ -145,7 +146,7 @@ String sourceFullName = "";
 
 Boolean isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 //Get the first worksheet from the collection
 
@@ -226,24 +227,24 @@ if (classId != null)
 }
 
 {{< /highlight >}}
-## **Föråldrade API:er**
-### **Föråldrad Worksheet.setBackground-metod**
-Använd egenskapen Worksheet.BackgroundImage istället.
-### **Föråldrad LineShape.BeginArrowheadStyle & ArcShape.BeginArrowheadStyle-egenskaper**
-Använd egenskapen Shape.Line.BeginArrowheadStyle som ett alternativ.
-### **Föråldrad LineShape.EndArrowheadStyle & ArcShape.EndArrowheadStyle-egenskaper**
-Använd egenskapen Shape.Line.EndArrowheadStyle som ett alternativ.
-### **Föråldrad LineShape.BeginArrowheadWidth & ArcShape.BeginArrowheadWidth egenskaper**
-Använd egenskapen Shape.Line.BeginArrowheadWidth som ett alternativ.
-### **Föråldrad LineShape.BeginArrowheadLength & ArcShape.BeginArrowheadLength Egenskaper**
-Använd egenskapen Shape.Line.BeginArrowheadLength istället.
-### **Föråldrad LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth egenskaper**
-Använd egenskapen Shape.Line.EndArrowheadWidth istället.
-### **Föråldrad LineShape.EndArrowheadLength & ArcShape.EndArrowheadLength egenskaper**
-Använd egenskapen Shape.Line.EndArrowheadLength istället.
-## **Borttagna API:er**
-### **Borttagen Worksheet.copyConditionalFormatting Method**
-### **Borttagen Workbook.checkWriteProtectedPassword Method**
-## **Omdöpta API:er**
-### **Byt namn på Workbook.removeDigitallySign-metoden**
-Metoden Workbook.removeDigitalSign har bytt namn till Workbook.removeDigitalSignature.
+## **Obsoletterade API:er**
+### **Obsolet Worksheet.setBackground-metod**
+Använd istället Worksheet.BackgroundImage-egenskapen.
+### **Obsoletterade LineShape.BeginArrowheadStyle- och ArcShape.BeginArrowheadStyle-egenskaper**
+Använd Shape.Line.BeginArrowheadStyle-egenskapen som ett alternativ.
+### **Obsoletterade LineShape.EndArrowheadStyle- och ArcShape.EndArrowheadStyle-egenskaper**
+Använd Shape.Line.EndArrowheadStyle-egenskapen som ett alternativ.
+### **Obsoletterade LineShape.BeginArrowheadWidth- och ArcShape.BeginArrowheadWidth-egenskaper**
+Använd Shape.Line.BeginArrowheadWidth-egenskapen som ett alternativ.
+### **Obsoletad LineShape.BeginArrowheadLength och ArcShape.BeginArrowheadLength Egenskaper**
+Använd istället Shape.Line.BeginArrowheadLength egenskapen.
+### **Obsoletad LineShape.EndArrowheadWidth och ArcShape.EndArrowheadWidth Egenskaper**
+Använd istället Shape.Line.EndArrowheadWidth egenskapen.
+### **Obsoletad LineShape.EndArrowheadLength och ArcShape.EndArrowheadLength Egenskaper**
+Använd istället Shape.Line.EndArrowheadLength egenskapen.
+## **Raderade API:er**
+### **Tabort Worksheet.copyConditionalFormatting Metoden**
+### **Tabort Workbook.checkWriteProtectedPassword Metoden**
+## **Namnändrade API:er**
+### **Bytt namn på Workbook.removeDigitallySign Metoden**
+Workbook.removeDigitallySign metoden har bytt namn till Workbook.removeDigitalSignature.

@@ -1,20 +1,21 @@
-﻿---
-title: パブリック API Aspose.Cells 8.0.2 の変更点
+---
+title: Aspose.Cells 8.0.2での公開API変更
 type: docs
 weight: 40
 url: /ja/java/public-api-changes-in-aspose-cells-8-0-2/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、バージョン 8.0.1 から 8.0.2 への Aspose.Cells API の変更点について説明します。これは、モジュール/アプリケーション開発者にとって興味深いものです。これには、新規および更新されたパブリック メソッドだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントは、Aspose.Cellsのバージョン8.0.1から8.0.2への変更点を記載しており、モジュール/アプリケーション開発者に興味を持たれる可能性があるものです。新しいまたは更新された公開メソッドだけでなく、Aspose.Cellsの背後にある動作に変更がある場合についても説明しています。
 
 {{% /alert %}} 
-## **Shape クラスに TextDirection プロパティを追加**
-Shape クラスには、Shape オブジェクトのテキスト フローの方向を取得または設定するために使用できる TextDirection プロパティが公開されています。以下に示すように、TextDirection プロパティを使用して、スプレッドシート内のコメントの目的のテキスト方向を設定することもできます。
+## **ShapeクラスにTextDirectionプロパティを追加しました**
+Shapeクラスには、テキスト流の方向を取得または設定するために使用できるTextDirectionプロパティが公開されています。TextDirectionプロパティは、スプレッドシート内のコメントの望ましいテキスト方向を設定するためにも使用できます。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -51,12 +52,12 @@ comment.setNote("This is my Comment Text. This is test");
 book.save(myDir + "output.xlsx");
 
 {{< /highlight >}}
-## **ConvertFormulasData プロパティを HTMLLoadOptions クラスに追加**
-ConvertFormulasData プロパティが HTMLLoadOptions クラスに追加され、開発者が HTML ファイルから Excel の式を簡単にロードできるようになりました。ブール値の ConvertFormulasData プロパティは、文字列値が文字 '=' で始まる場合に、文字列を数式に変換するかどうかを示します。
+## **HTMLLoadOptionsクラスにConvertFormulasDataプロパティを追加しました**
+ConvertFormulasDataプロパティがHTMLLoadOptionsクラスに追加され、開発者がHTMLファイルからExcelの数式を読み込むために利用できるようになりました。boolean型のConvertFormulasDataプロパティは、文字列の値が'='で始まる場合に式に変換するかどうかを示します。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of HTMLLoadOptions
 
@@ -76,10 +77,10 @@ Workbook workbook = new Workbook(myDir + "spreadsheet.html", loadOptions);
 
 {{% alert color="primary" %}} 
 
-ConvertFormulasData プロパティのデフォルト値は false です。
+ConvertFormulasDataプロパティのデフォルト値はfalseです。
 
 {{% /alert %}}
-## **ImageOptions プロパティを HtmlSaveOptions クラスに追加**
-ImageOptions プロパティが HtmlSaveOptions クラスに追加されました。 ImageOptions プロパティを公開することで、開発者はスプレッドシートのエクスポート中に HTML に埋め込まれた画像の設定を行うことができます。
-## **廃止された HtmlSaveOptions.ExportChartImageFormat プロパティ**
-HtmlSaveOptions.ExportChartImageFormat は、Aspose.Cells for .NET 8.0.2 から廃止されました。スプレッドシートを HTML 形式にエクスポートする際は、画像形式設定の代わりに HtmlSaveOptions.ImageOptions を使用することをお勧めします。
+## **HtmlSaveOptionsクラスにImageOptionsプロパティを追加しました**
+ImageOptionsプロパティがHtmlSaveOptionsクラスに追加されました。ImageOptionsプロパティを公開することで、スプレッドシートをエクスポートする際にHTMLに埋め込まれる画像の設定を行うことができるようになりました。 
+## **HtmlSaveOptions.ExportChartImageFormatプロパティの廃止**
+HtmlSaveOptions.ExportChartImageFormat はバージョン Aspose.Cells for .NET 8.0.2 から非推奨となりました。スプレッドシートをHTML形式にエクスポートする際に画像の形式設定はHtmlSaveOptions.ImageOptionsを使用することが推奨されています。

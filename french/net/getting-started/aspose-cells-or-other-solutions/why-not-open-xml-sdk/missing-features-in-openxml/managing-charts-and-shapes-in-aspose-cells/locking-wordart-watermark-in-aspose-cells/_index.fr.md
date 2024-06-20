@@ -1,20 +1,21 @@
-﻿---
+---
 title: Verrouillage du filigrane WordArt dans Aspose.Cells
 type: docs
 weight: 40
 url: /fr/net/locking-wordart-watermark-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells Les API permettent d'ajouter des filigranes WordArt sur la feuille de calcul de manière à ce que le WordArt devienne un objet que vous pouvez déplacer et positionner sur la feuille de calcul. Il est également possible de verrouiller l'objet WordArt pour toute interaction telle que l'édition, le mouvement et la sélection. Cet article explique l'utilisation de la méthode Shape.SetLockedProperty pour verrouiller certains aspects du filigrane.
+Les API Aspose.Cells permettent d'ajouter des filigranes WordArt sur la feuille de calcul de manière à ce que le WordArt devienne un objet que vous pouvez déplacer et positionner sur la feuille de calcul. Il est également possible de verrouiller l'objet WordArt pour toute interaction telle que l'édition, le déplacement et la sélection. Cet article explique l'utilisation de la méthode Shape.SetLockedProperty pour verrouiller quelques aspects du filigrane.
 
 {{% /alert %}} 
 
-Les API Aspose.Cells permettent de verrouiller certains aspects du filigrane afin que l'interaction de l'utilisateur puisse être limitée ou complètement bloquée. L'extrait de code suivant illustre l'utilisation de Aspose.Cells for .NET API pour verrouiller la sélection, le mouvement, l'édition et le redimensionnement du filigrane en créant une feuille de calcul à partir de zéro.
+Les API Aspose.Cells permettent de verrouiller certains aspects du filigrane afin de limiter ou bloquer complètement l'interaction de l'utilisateur. Le code suivant montre l'utilisation de l'API Aspose.Cells for .NET pour verrouiller la sélection, le déplacement, l'édition et le redimensionnement du filigrane en créant une feuille de calcul à partir de zéro.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -73,7 +74,7 @@ lineFormat.IsVisible = false;
 workbook.Save(FileName);
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Locking%20WordArt%20Watermark)
-## **Télécharger l'exemple d'exécution**
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **Télécharger le code source d'exemple**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Locking%20WordArt%20Watermark)
+## **Télécharger un exemple en cours d'exécution**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

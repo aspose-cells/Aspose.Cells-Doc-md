@@ -1,16 +1,17 @@
-﻿---
-title: Copiare e spostare fogli di lavoro in Php
+---
+title: Copiare e spostare i fogli di lavoro in Php
 type: docs
 weight: 10
 url: /it/java/copying-and-moving-worksheets-in-php/
 ---
-## **Aspose.Cells - Copia e spostamento fogli di lavoro**
-### **Copia i fogli di lavoro all'interno di una cartella di lavoro**
- Per copiare il foglio di lavoro utilizzando**Aspose.Cells for Java in PHP** , chiamata**copy_worksheet** metodo di**fogli di lavoro** modulo. Di seguito puoi vedere un esempio di codice.
+
+## **Aspose.Cells - Copiare e spostare fogli di lavoro**
+### **Copiare i Fogli di Lavoro all'interno di una Cartella di Lavoro**
+Per copiare il foglio di lavoro utilizzando **Aspose.Cells for Java in PHP**, chiamare il metodo **copy_worksheet** del modulo **copyworksheets**. Di seguito puoi vedere un esempio di codice.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Create a Worksheets object with reference to the sheets of the Workbook.
 
@@ -26,12 +27,12 @@ $workbook->save($dataDir . "Copy Worksheet.xls");
 
 
 {{< /highlight >}}
-### **Sposta i fogli di lavoro all'interno di una cartella di lavoro**
- Per spostare il foglio di lavoro utilizzando**Aspose.Cells for Java in PHP** , chiamata**move_worksheet** metodo di**fogli di lavoro** modulo. Di seguito puoi vedere un esempio di codice.
+### **Spostare i fogli di lavoro all'interno di un libro**
+Per spostare il foglio di lavoro utilizzando **Aspose.Cells for Java in PHP**, chiamare il metodo **move_worksheet** del modulo **copyworksheets**. Di seguito puoi vedere un esempio di codice.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Get the first worksheet in the book.
 
@@ -47,6 +48,6 @@ $workbook->save($dataDir . "Move Worksheet.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Copiare e spostare fogli di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Copia e Spostamento dei fogli di lavoro (Aspose.Cells)** da uno dei siti di codice sociale di seguito indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/CopyingAndMovingWorksheets.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/CopyingAndMovingWorksheets.php)

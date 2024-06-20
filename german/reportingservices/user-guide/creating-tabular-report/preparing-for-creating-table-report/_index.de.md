@@ -1,19 +1,20 @@
-﻿---
-title: Vorbereitung zum Erstellen eines Tabellenberichts
+---
+title: Vorbereitung für die Erstellung eines tabellarischen Berichts
 type: docs
 weight: 10
 url: /de/reportingservices/preparing-for-creating-table-report/
 ---
- Vor dem Erstellen eines tabellarischen Berichts muss der Benutzer zunächst Datenquellen, Datensätze und Berichtsparameter (optional) wie in beschrieben erstellen[Datenquellen und Abfragen](/cells/de/reportingservices/data-sources-and-queries/).
 
-Unten verwenden wir die AdventureWorks-Beispieldatenbank, die im Lieferumfang von SQL Server Reporting Services 2005 enthalten ist.
+Bevor ein tabellarischer Bericht erstellt wird, muss der Benutzer zuerst Datenquellen, Datensätze und Berichtsparameter (optional) erstellen, wie in [Datenquellen und Abfragen](/cells/de/reportingservices/data-sources-and-queries/) beschrieben.
 
-1. Erstellen Sie ein Dataset namens EmpSalesDetail. Wir verwenden dies als Datenquelle der Tabelle. Der Datensatz hat drei Parameter: ReportYear, ReportMonth und EmpID.
- Die SQL, die EmpSalesDetail definiert, lautet wie folgt:
+Im Folgenden verwenden wir die AdventureWorks-Beispieldatenbank, die mit SQL Server Reporting Services 2005 ausgeliefert wird.
+
+1. Erstellen Sie einen Datensatz mit dem Namen EmpSalesDetail. Wir werden dies als Datenquelle der Tabelle verwenden. Der Datensatz hat drei Parameter: ReportYear, ReportMonth und EmpID.
+   Der SQL, der EmpSalesDetail definiert, lautet: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT C.FirstName+' '+C.LastName 'Employee',
 
@@ -83,12 +84,12 @@ PC.Name
 
 {{< /highlight >}}
 
-1. Erstellen Sie ein Dataset namens SalesEmps. Wir verwenden dies als gültige Werte für den EmpID-Parameter.
- Die SQL, die SalesEmps definiert, lautet:
+1. Erstellen Sie einen Datensatz mit dem Namen SalesEmps. Wir verwenden dies als gültige Werte für den Parameter EmpID.
+   Der SQL, der SalesEmps definiert, lautet: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT  E.EmployeeID,  C.FirstName + N' ' + C.LastName AS Employee
 
@@ -102,28 +103,28 @@ ON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName
 
 {{< /highlight >}}
 
-1.  Erstellen Sie drei Berichtsparameter: ReportYear, ReportMonth und EmpID.
- 1. Die gültigen Werte für den Parameter ReportYear sind:
+1. Erstellen Sie drei Berichtsparameter: ReportYear, ReportMonth und EmpID. 
+   1. Die gültigen Werte für den Parameter ReportYear sind: 
 
-![todo: Bild_alt_Text](preparing-for-creating-table-report_1.png)
-
-
-
-
-1. Die gültigen Werte für den Parameter ReportMonth sind:
-
-![todo: Bild_alt_Text](preparing-for-creating-table-report_2.png)
+![todo:image_alt_text](preparing-for-creating-table-report_1.png)
 
 
 
 
-1.  Die gültigen Werte für den Parameter EmpID sind:
+1. Die gültigen Werte für den Parameter ReportMonth sind: 
 
-![todo: Bild_alt_Text](preparing-for-creating-table-report_3.png)
-
-
+![todo:image_alt_text](preparing-for-creating-table-report_2.png)
 
 
-1.  Ordnen Sie die Datensatzparameter den Berichtsparametern wie folgt zu:
 
-![todo: Bild_alt_Text](preparing-for-creating-table-report_4.png)
+
+1. Der gültige Wert für den Parameter EmpID ist: 
+
+![todo:image_alt_text](preparing-for-creating-table-report_3.png)
+
+
+
+
+1. Ordnen Sie die Datensatzparameter den Berichtsparametern wie folgt zu: 
+
+![todo:image_alt_text](preparing-for-creating-table-report_4.png)

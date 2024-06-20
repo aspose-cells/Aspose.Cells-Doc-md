@@ -1,33 +1,34 @@
-﻿---
-title: Verileri Çalışma Sayfalarından xlsx4j'de Dışa Aktarma
+---
+title: xlsx4j de Çalışma Sayfalarından Veri Aktarımı
 type: docs
 weight: 20
 url: /tr/java/export-data-from-worksheets-in-xlsx4j/
 ---
-## **Aspose.Cells - Çalışma Sayfalarından Verileri Dışa Aktar**
-Aspose.Cells, kullanıcılarının yalnızca harici veri kaynaklarından çalışma sayfalarına veri aktarmalarına izin vermekle kalmaz, aynı zamanda çalışma sayfası verilerini bir diziye vermelerine de izin verir.
+
+## **Aspose.Cells - Çalışma Sayfalarından Veri Aktarımı**
+Aspose.Cells, kullanıcılarının elektronik tablolara dış veri kaynaklarından veri içe aktarmasının yanı sıra çalışma sayfasındaki veriyi bir diziye aktarmasına da olanak tanır.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Açılacak Excel dosyasını içeren dosya akışı oluşturuluyor
+ //Creating a file stream containing the Excel file to be opened
 
-FileInputStream fstream = yeni FileInputStream(dataDir + "workbook.xls");
+FileInputStream fstream = new FileInputStream(dataDir + "workbook.xls");
 
-//Çalışma Kitabı nesnesinin somutlaştırılması
+//Instantiating a Workbook object
 
-Çalışma kitabı çalışma kitabı = yeni Çalışma Kitabı(fstream);
+Workbook workbook = new Workbook(fstream);
 
-//Excel dosyasındaki ilk çalışma sayfasına erişim
+//Accessing the first worksheet in the Excel file
 
-Çalışma sayfası çalışma sayfası = workbook.getWorksheets().get(0);
+Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//1. hücreden başlayarak 7 satır ve 2 sütun içeriğini Array'e aktarıyoruz.
+//Exporting the contents of 7 rows and 2 columns starting from 1st cell to Array.
 
-Nesne dataTable [][]= worksheet.getCells().exportArray(4,0,7,8);
+Object dataTable [][] = worksheet.getCells().exportArray(4,0,7,8);
 
- için (int ben = 0 ; ben< dataTable.length ; i++)
+for (int i = 0 ; i < dataTable.length ; i++)
 
 {
 
@@ -38,11 +39,11 @@ Nesne dataTable [][]= worksheet.getCells().exportArray(4,0,7,8);
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/exportdatafromworksheets/AsposeExportDataFromWorksheets.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarından Verileri Dışa Aktarma](/java/exporting-data-from-worksheets).
+Daha fazla bilgi için [Çalışma Sayfalarından Veri Aktarımı](/java/exporting-data-from-worksheets)'ı ziyaret edin.
 
 {{% /alert %}}

@@ -1,53 +1,54 @@
 ---
-title: Erstellen Sie dynamische Diagramme
-description: Erfahren Sie unter Aspose.Cells for .NET, wie Sie dynamische Diagramme erstellen. Unser Leitfaden zeigt Ihnen, wie Sie Diagrammdaten, -reihen und -formatierungen basierend auf Ihren Anforderungen dynamisch aktualisieren, sodass Sie sich ändernde Daten visuell in Ihren Arbeitsblättern darstellen können.
-keywords: Aspose.Cells for .NET, charting, dynamic charts, data, series, formatting, worksheets, updating.
+title: Dynamische Diagramme erstellen
+description: Erfahren Sie, wie Sie dynamische Diagramme in Aspose.Cells for .NET erstellen können. Unser Leitfaden zeigt Ihnen, wie Sie Diagrammdaten, Serien und Formatierungen basierend auf Ihren Anforderungen dynamisch aktualisieren können, um sich ändernde Daten visuell in Ihren Arbeitsblättern darzustellen.
+keywords: Aspose.Cells for .NET, Diagrammerstellung, dynamische Diagramme, Daten, Serien, Formatierung, Arbeitsblätter, Aktualisierung.
 type: docs
 weight: 240
 url: /de/net/create-dynamic-charts/
 ---
-{{% alert color="primary" %}}
-
-Dynamische (oder interaktive) Diagramme können sich ändern, wenn Sie den Datenumfang ändern. Mit anderen Worten: Die dynamischen Diagramme können Änderungen automatisch widerspiegeln, wenn die Datenquelle geändert wird. Um die Änderung in der Datenquelle auszulösen, kann man die Filteroption von Excel-Tabellen nutzen oder ein Steuerelement wie ComboBox oder Dropdown-Liste verwenden.
-
-In diesem Artikel wird die Verwendung der APIs Aspose.Cells for .NET zum Erstellen dynamischer Diagramme mit beiden oben genannten Ansätzen veranschaulicht.
-
-{{% /alert %}}
-
-##  **Verwendung von Excel-Tabellen**
 
 {{% alert color="primary" %}}
 
- Excel-Tabellen werden in der Perspektive von Aspose.Cells als ListObjects bezeichnet. Aus Gründen der Klarheit verwenden wir daher den Begriff „ListObject“ anstelle von „Table“. Bitte lesen Sie im Detail, wie das geht[Erstellen Sie ListObjects](/cells/de/net/create-and-format-table/)mit Aspose.Cells for .NET API.
+Dynamische (oder interaktive) Diagramme haben die Möglichkeit, sich zu ändern, wenn sich der Datenbereich ändert. Mit anderen Worten können sich die dynamischen Diagramme automatisch ändern, wenn sich die Datenquelle ändert. Um die Änderung in der Datenquelle auszulösen, kann die Filteroption von Excel-Tabellen verwendet werden oder ein Steuerelement wie Dropdown-Liste oder Kombinationsfeld.
+
+Dieser Artikel zeigt die Verwendung von Aspose.Cells for .NET-APIs zur Erstellung dynamischer Diagramme unter Verwendung beider oben genannter Ansätze.
 
 {{% /alert %}}
 
- ListObjects bietet die integrierte Funktionalität zum Sortieren und Filtern der Daten bei Benutzerinteraktion. Sowohl Sortier- als auch Filteroptionen werden über die Dropdown-Listen bereitgestellt, die automatisch zur Kopfzeile des hinzugefügt werden[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) . Aufgrund dieser Funktionen (Sortierung & Filterung) ist die[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) scheint der perfekte Kandidat zu sein, um als Datenquelle für ein dynamisches Diagramm zu dienen, denn wenn die Sortierung oder Filterung geändert wird, wird die Darstellung der Daten im Diagramm geändert, um den aktuellen Status des Diagramms widerzuspiegeln[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
+## **Verwendung von Excel-Tabellen**
 
- Um die Demonstration einfach verständlich zu halten, erstellen wir die[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Beginnen Sie von Grund auf und gehen Sie Schritt für Schritt vor, wie unten beschrieben.
+{{% alert color="primary" %}}
 
-1.  Erstellen Sie ein Leerzeichen[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
-1.  Greife auf ... zu[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) des ersten[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) im[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+Excel-Tabellen werden in der Perspektive von Aspose.Cells als ListObjects bezeichnet. Daher verwenden wir den Begriff "ListObject" anstelle von "Tabelle" für mehr Klarheit. Bitte lesen Sie ausführlich, wie Sie mit der Aspose.Cells for .NET-API [ListObjects erstellen](/cells/de/net/create-and-format-table/).
+
+{{% /alert %}}
+
+ListObjects bieten die eingebaute Funktionalität zum Sortieren und Filtern der Daten durch Benutzerinteraktion. Sowohl Sortierungs- als auch Filteroptionen werden über die Dropdown-Listen bereitgestellt, die automatisch zur Kopfzeile des [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) hinzugefügt werden. Aufgrund dieser Funktionen (Sortierung und Filterung) scheint das [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) der perfekte Kandidat zu sein, um als Datenquelle für ein dynamisches Diagramm zu dienen, da sich bei Änderung der Sortierung oder Filterung die Darstellung der Daten im Diagramm ändert, um den aktuellen Zustand des [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) widerzuspiegeln.
+
+Um die Demonstration einfach zu verstehen zu halten, werden wir das [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) von Grund auf erstellen und Schritt für Schritt wie unten skizziert fortfahren.
+
+1. Erstellen Sie ein leeres [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+1. Greifen Sie auf den [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) des ersten [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) im [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) zu.
 1. Fügen Sie einige Daten in die Zellen ein.
-1.  Erstellen[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)basierend auf den eingegebenen Daten.
-1.  Erstellen[**Diagramm**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) basierend auf dem Datenbereich von[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
-1. Speichern Sie das Ergebnis auf der Disc.
+1. Erstellen eines [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) basierend auf den eingefügten Daten.
+1. Erstellen eines [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) basierend auf dem Datenbereich von [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
+1. Speichern Sie das Ergebnis auf der Festplatte.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateDynamicCharts-CreateDynamicCharts.cs" >}}
 
-##  **Verwendung dynamischer Formeln**
+## **Verwendung dynamischer Formeln**
 
-Falls Sie das nicht verwenden möchten[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)Als Datenquelle für das dynamische Diagramm besteht die andere Möglichkeit darin, Excel-Funktionen (oder Formeln) zu verwenden, um einen dynamischen Datenbereich zu erstellen, und ein Steuerelement (z. B. ComboBox), um die Datenänderung auszulösen. In diesem Szenario verwenden wir die VLOOKUP-Funktion, um die entsprechenden Werte basierend auf der Auswahl der ComboBox abzurufen. Wenn die Auswahl geändert wird, aktualisiert die SVERWEIS-Funktion den Zellenwert. Wenn ein Zellbereich die VLOOKUP-Funktion verwendet, kann der gesamte Bereich bei Benutzerinteraktion aktualisiert werden und daher als Quelle für das dynamische Diagramm verwendet werden.
+Wenn Sie das [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) nicht als Datenquelle für das dynamische Diagramm verwenden möchten, ist die andere Option, Excel-Funktionen (oder Formeln) zu verwenden, um einen dynamischen Datenbereich zu erstellen und ein Steuerelement (wie z.B. ComboBox) zur Auslösung der Datenä̲nderung zu verwenden. In diesem Szenario verwenden wir die VLOOKUP-Funktion, um die geeigneten Werte basierend auf der Auswahl des ComboBox abzurufen. Wenn die Auswahl geändert wird, wird die VLOOKUP-Funktion den Zellenwert aktualisieren. Wenn ein Zellenbereich die VLOOKUP-Funktion verwendet, kann der gesamte Bereich durch Benutzerinteraktion aktualisiert werden, daher kann er als Datenquelle für das dynamische Diagramm verwendet werden.
 
-Um die Demonstration einfach zu verstehen, erstellen wir das Arbeitsbuch von Grund auf und gehen Schritt für Schritt vor, wie unten beschrieben.
+Um die Demonstration einfach zu verstehen zu halten, werden wir die Arbeitsmappe von Grund auf erstellen und Schritt für Schritt wie unten skizziert fortfahren.
 
-1.  Erstellen Sie ein Leerzeichen[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
-1.  Greife auf ... zu[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) des ersten[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) im[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
-1. Fügen Sie einige Daten in die Zellen ein, indem Sie einen benannten Bereich erstellen. Diese Daten dienen als Reihe zum dynamischen Diagramm.
-1.  Erstellen[**Kombinationsfeld**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox)basierend auf dem im vorherigen Schritt erstellten benannten Bereich.
-1. Fügen Sie weitere Daten in die Zellen ein, die als Quelle für die SVERWEIS-Funktion dienen.
-1. Fügen Sie die SVERWEIS-Funktion (mit entsprechenden Parametern) in einen Zellbereich ein. Dieser Bereich dient als Quelle für das dynamische Diagramm.
-1.  Erstellen[**Diagramm**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)basierend auf dem im vorherigen Schritt erstellten Bereich.
-1. Speichern Sie das Ergebnis auf der Disc.
+1. Erstellen Sie ein leeres [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+1. Greifen Sie auf den [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) des ersten [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) im [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) zu.
+1. Fügen Sie einige Daten in die Zellen ein, indem Sie einen benannten Bereich erstellen. Diese Daten dienen als Serie für das dynamische Diagramm.
+1. Erstellen Sie [**ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) basierend auf dem im vorherigen Schritt erstellten benannten Bereich.
+1. Fügen Sie einige weitere Daten in die Zellen ein, die als Quelle für die VLOOKUP-Funktion dienen sollen.
+1. Fügen Sie die VLOOKUP-Funktion (mit geeigneten Parametern) in einen Bereich von Zellen ein. Dieser Bereich dient als Quelle für das dynamische Diagramm.
+1. Erstellen Sie [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) basierend auf dem im vorherigen Schritt erstellten Bereich.
+1. Speichern Sie das Ergebnis auf der Festplatte.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}

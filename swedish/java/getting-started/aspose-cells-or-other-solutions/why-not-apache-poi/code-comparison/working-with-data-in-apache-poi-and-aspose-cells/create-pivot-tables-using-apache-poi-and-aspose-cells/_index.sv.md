@@ -1,19 +1,20 @@
-﻿---
+---
 title: Skapa pivottabeller med Apache POI och Aspose.Cells
 type: docs
 weight: 40
 url: /sv/java/create-pivot-tables-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Skapa pivottabell**
-Så här skapar du en pivottabell med Aspose.Cells:
 
-1. Lägg till några data i ett kalkylbladsceller med hjälp av ett Cell-objekts setValue-metod. Du använder också en mallfil som redan är fylld med data. Data kommer att användas som pivottabellens datakälla.
-1. Lägg till en pivottabell till kalkylbladet genom att anropa PivotTableCollection add-metoden (inkapslad i {{Worksheet }}objektet).
-1. Få tillgång till det nya PivotTable-objektet från PivotTableCollection-samlingen genom att skicka dess index.
+## **Aspose.Cells - Skapa pivottabell**
+För att skapa en pivot tabell med Aspose.Cells:
+
+1. Lägg till lite data i arbetsbladsceller med hjälp av en Cell-objekts setValue-metod. Du kan också använda en mallfil fylld med data. Datan kommer att användas som pivottabellens datakälla.
+1. Lägg till en pivottabell på arbetsbladet genom att anropa PivotTableCollections add-metod (inkapslad i {{Arbetsblad}}-objektet).
+1. Få åtkomst till det nya PivotTable-objektet från PivotTableCollection-samlingen genom att skicka dess index.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -155,7 +156,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 ## **Apache POI SS (HSSF + XSSF) - Skapa pivottabeller**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  XSSFWorkbook wb = new XSSFWorkbook();
 
@@ -186,17 +187,17 @@ pivotTable.addColumnLabel(DataConsolidateFunction.AVERAGE, 2);
 pivotTable.addReportFilter(3);
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner körningsexempel för**Skapa pivottabeller med Apache POI och Aspose.Cells** från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Hämta körande exempel för **Skapa pivottabeller med Apache POI och Aspose.Cells** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-## **Ladda ner källkod**
- Ladda ner källkod för**Skapa pivottabeller med Apache POI och Aspose.Cells** från någon av nedan nämnda webbplatser för social kodning:
+## **Hämta källkod**
+Hämta källkod för **Skapa pivottabeller med Apache POI och Aspose.Cells** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Skapa pivottabeller och pivotdiagram](/cells/sv/java/create-pivot-tables-and-pivot-charts/).
+För mer information, besök [Skapa Pivottabeller och Pivotdiagram](/cells/sv/java/skapa-pivottabeller-och-pivotdiagram/).
 
 {{% /alert %}}

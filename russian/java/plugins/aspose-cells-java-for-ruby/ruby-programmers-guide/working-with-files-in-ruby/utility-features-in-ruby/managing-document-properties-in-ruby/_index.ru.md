@@ -1,15 +1,16 @@
-﻿---
+---
 title: Управление свойствами документа в Ruby
 type: docs
 weight: 90
 url: /ru/java/managing-document-properties-in-ruby/
 ---
-## **Aspose.Cells — Доступ к свойствам документа**
-Разработчики могут использовать**Показатель**или же**Имя** собственности, чтобы получить конкретную собственность от**custom_properties**коллекции, как показано ниже в примере.
 
-**Рубиновый код**
+## **Aspose.Cells - Доступ к свойствам документа**
+Разработчики могут использовать **Index** или **Name** свойства, чтобы получить конкретное свойство из коллекции **custom_properties**, как показано ниже в примере.
 
-{{< highlight "ruby" >}}
+**Код на Ruby**
+
+{{< highlight ruby >}}
 
  def get_properties()
 
@@ -36,12 +37,12 @@ url: /ru/java/managing-document-properties-in-ruby/
 end
 
 {{< /highlight >}}
-## **Aspose.Cells — Добавление пользовательских свойств**
-Чтобы добавить пользовательские свойства документа, используя Aspose.Cells Java для Ruby, вызовите**add_custom_property** метод**Документ** модуль.
+## **Aspose.Cells - Добавление пользовательских свойств**
+Чтобы добавить пользовательские свойства документа с помощью Aspose.Cells Java для Ruby, вызовите метод **add_custom_property** модуля **Document**.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_custom_property()
 
@@ -70,12 +71,12 @@ end
 end   
 
 {{< /highlight >}}
-## **Aspose.Cells — Удаление пользовательских свойств**
- Чтобы удалить пользовательские свойства документа с помощью Aspose.Cells Java для Ruby, вызовите**remove_custom_property** метод**Документ** модуль.
+## **Aspose.Cells - Удаление пользовательских свойств**
+Для удаления пользовательских свойств документа с использованием Aspose.Cells Java для Ruby вызовите метод **remove_custom_property** модуля **Document**.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_custom_property()
 
@@ -104,7 +105,7 @@ end   
 end   
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Доступ к свойствам документа (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузить **Доступ к свойствам документа (Aspose.Cells)** с любого из указанных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/document.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/document.rb)

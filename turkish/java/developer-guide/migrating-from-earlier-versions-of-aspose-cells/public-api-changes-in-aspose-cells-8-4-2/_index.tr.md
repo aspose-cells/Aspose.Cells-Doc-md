@@ -1,23 +1,24 @@
-﻿---
-title: Genel API Aspose.Cells 8.4.2'deki değişiklikler
+---
+title: Aspose.Cells 8.4.2 de Genel API Değişiklikleri
 type: docs
 weight: 160
 url: /tr/java/public-api-changes-in-aspose-cells-8-4-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Bu belge, Aspose.Cells API sürümünde 8.4.1'den 8.4.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-4-2/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
+Bu belge, uygulama geliştiricileri için Aspose.Cells API'sinde 8.4.1'den 8.4.2'ye yapılan değişiklikleri içermektedir. Sadece yeni ve güncellenmiş genel yöntemleri, [eklenmiş sınıfları vs.](/cells/tr/java/public-api-changes-in-aspose-cells-8-4-2/) değil, aynı zamanda Aspose.Cells'in arka plandaki davranışındaki değişikliklerin de açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **Geliştirilmiş Grafik Oluşturma Mekanizması**
-com.aspose.cells.charts.Chart sınıfı, grafik oluşturma görevini kolaylaştırmak için setChartDataRange yöntemini kullanıma sunmuştur. setChartDataRange yöntemi iki parametre kabul eder; burada ilk parametre, veri serisinin çizileceği hücre alanını belirten dize türündedir. İkinci parametre, çizim yönünü belirten Boolean türündedir, yani; grafik veri serisinin bir dizi hücre değeri aralığından satıra mı yoksa sütunlara göre mi çizileceğini belirler.
+com.aspose.cells.charts.Chart sınıfı, chart oluşturmanın görevini kolaylaştırmak için setChartDataRange methodunu kullanıma sunmuştur. setChartDataRange methodu, veri serilerini çizmek için hücre alanını belirten bir string türünden ve çizim yönlendirmesini (yani; veri serilerini satır veya sütun olarak çizmek) belirten Boolean türünden iki parametreyi kabul eder.
 
-Aşağıdaki kod parçacığı, grafiğin arsa serisi verilerinin A1 hücresinden D4'e kadar aynı çalışma sayfasında bulunduğunu varsayarak birkaç satır kod içeren bir sütun grafiğinin nasıl oluşturulacağını gösterir.
+Aşağıdaki kod parçası, grafik sütunu oluşturmanın bir kaç satır kodla nasıl yapılacağını gösterir. Bu durumda çizelgenin grafiği hücre A1'den D4'e kadar aynı çalışma sayfasında bulunmalıdır.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Add a new chart of type Column to chart collection
 
@@ -33,14 +34,14 @@ chart.setChartDataRange("A1:D4", true);
 
 {{< /highlight >}}
 
-### **Yöntem VbaModuleCollection.add Eklendi**
-Aspose.Cells for Java 8.4.2, Workbook örneğine yeni bir VBA modülü eklemek için VbaModuleCollection.add yöntemini kullanıma sundu. VbaModuleCollection.add yöntemi, çalışma sayfasına özel bir modül eklemek için Çalışma Sayfası türünde bir parametre kabul eder.
+### **VbaModuleCollection.add Method Eklenmiş**
+Aspose.Cells for Java 8.4.2, VbaModuleCollection.add yöntemini çalışma kitabına yeni bir VBA modülü eklemek için kullanıma sundu. VbaModuleCollection.add yöntemi, eklemek için bir çalışma sayfası türünde bir parametre kabul eder.
 
-Aşağıdaki kod parçacığı, VbaModuleCollection.add yönteminin nasıl kullanılacağını gösterir.
+Aşağıdaki kod parçası, VbaModuleCollection.add yönteminin nasıl kullanılacağını gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create new workbook
 
@@ -72,14 +73,14 @@ workbook.save(output, SaveFormat.XLSM);
 
 {{< /highlight >}}
 
-### **Aşırı Yüklenmiş Yöntem Cells.copyColumns Eklendi**
-Aspose.Cells for Java 8.4.2, hedefte kaynak sütunları tekrarlamak için Cells.copyColumns yönteminin aşırı yüklenmiş bir sürümünü kullanıma sundu. Yeni kullanıma sunulan yöntem toplamda 5 parametre kabul eder ve ilk 4 parametre ortak Cells.copyColumns yöntemiyle aynıdır. Ancak int türündeki son parametre, kaynak sütunların üzerinde tekrarlanması gereken hedef sütunların sayısını belirtir.
+### **Yüklenmiş Method Cells.copyColumns Eklendi**
+Aspose.Cells for Java 8.4.2, Cells.copyColumns yönteminin aşırı yüklenmiş bir sürümünü kullanıma sundu. Yeni eklenen yöntem, toplamda 5 parametre kabul eder, ilk 4 parametre, standart Cells.copyColumns yöntemiyle aynıdır. Ancak, son parametre int tipindedir ve kaynak sütunların hedef üzerine tekrarlanacak sütun sayısını belirtir.
 
-Aşağıdaki kod parçacığı, yeni kullanıma sunulan Cells.copyColumns yönteminin nasıl kullanılacağını gösterir.
+Aşağıdaki kod parçası, yeni eklenen Cells.copyColumns yönteminin nasıl kullanılacağını gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -110,16 +111,16 @@ workbook.save(output);
 {{< /highlight >}}
 
 ### **Numaralandırma Alanları PasteType.DEFAULT & PasteType.ALL_EXCEPT_BORDERS Eklendi**
-v8.4.2 sürümüyle birlikte Aspose.Cells API, PasteType için aşağıda ayrıntıları verilen 2 yeni numaralandırma alanı ekledi.
+V8.4.2'nin yayınlanmasıyla, Aspose.Cells API'si PasteType için 2 yeni numaralandırma alanı ekledi.
 
-- PasteType.DEFAULT: Hücre aralığını yapıştırmak için Excel'in "Tümü" işlevine benzer şekilde çalışır.
-- YapıştırTürü.TÜMÜ_HARİÇ_KENARLAR: Hücre aralığını yapıştırmak için Excel'in "Kenarlıklar hariç tümü" işlevine benzer şekilde çalışır.
+- PasteType.DEFAULT: Hücre aralığını yapıştırmak için Excel'in "Hepsini" işleviyle benzer şekilde çalışır.
+- PasteType.ALL_EXCEPT_BORDERS: Hücre aralığını yapıştırmak için Excel'in "Tüm sınırlar hariç" işleviyle benzer şekilde çalışır.
 
-Aşağıdaki örnek kod, PasteType.DEFAULT alanının kullanımını gösterir.
+Aşağıdaki örnek kod, PasteType.DEFAULT alanının nasıl kullanılacağını gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -157,6 +158,6 @@ workbook.save(output);
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Java 8.4.2 sürümünden başlayarak, PasteType.ALL dosyalanan numaralandırma, hücre aralığını yapıştırmak için Excel'in "Tümü" işlevine kıyasla farklı davranır. Artık PasteType.ALL, Excel'in "Tümü" işlevinin aksine, sütun genişliklerini hedef aralığa da kopyalar. Excel'in "Tümü" davranışını taklit etmek için lütfen PasteType.DEFAULT'u kullanın.
+Aspose.Cells for Java 8.4.2'den itibaren, PasteType.ALL numaralandırma alanı, Excel'in "Hepsini" işlevinden farklı olarak, artık sütun genişliklerini hedef aralığa kopyalar. Excel'in "Hepsini" işlevine benzetmek için, lütfen PasteType.DEFAULT kullanın.
 
 {{% /alert %}}

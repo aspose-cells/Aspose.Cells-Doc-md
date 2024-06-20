@@ -1,19 +1,20 @@
 ---
-title: تخصيص إعدادات العولمة للجدول المحوري
+title: تخصيص إعدادات العالمية لجدول محوري
 type: docs
 weight: 50
 url: /ar/net/customize-globalization-settings-for-pivot-table/
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
- في بعض الأحيان تريد تخصيص*الإجمالي المحوري، الإجمالي الفرعي، الإجمالي الكلي، كافة العناصر، العناصر المتعددة، تسميات الأعمدة، تسميات الصفوف، القيم الفارغة*النص وفقا لمتطلباتك. Aspose.Cells يسمح لك بتخصيص إعدادات العولمة للجدول المحوري للتعامل مع مثل هذه السيناريوهات. يمكنك أيضًا استخدام هذه الميزة لتغيير التسميات إلى لغات أخرى مثل العربية والهندية والبولندية وما إلى ذلك.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **تخصيص إعدادات العولمة للجدول المحوري**
+في بعض الأحيان ترغب في تخصيص *إجمالي الجدول المحوري، الإجمالي الفرعي، الإجمالي الكلي، جميع العناصر، العناصر المتعددة، تسميات الأعمدة، تسميات الصفوف، القيم الفارغة* نصوص وفقًا لمتطلباتك. تتيح لك Aspose.Cells تخصيص إعدادات العالمية للجدول المحوري للتعامل مع مثل هذه السيناريوات. يمكنك أيضًا استخدام هذه الميزة لتغيير التسميات إلى لغات أخرى مثل العربية والهندية والبولندية، إلخ.
 
-يشرح نموذج التعليمات البرمجية التالي كيفية تخصيص إعدادات العولمة للجدول المحوري. إنه يخلق فئة*إعدادات العولمة CustomPivotTable* مشتقة من فئة أساسية[**إعدادات العولمة المحورية**](https://reference.aspose.com/cells/net/aspose.cells.settings/pivotglobalizationsettings/)ويتجاوز جميع أساليبه الضرورية. تقوم هذه الطرق بإرجاع النص المخصص لـ *الإجمالي المحوري، والإجمالي الفرعي، والإجمالي الكلي، وجميع العناصر، والعناصر المتعددة، وتسميات الأعمدة، وتسميات الصفوف، والقيم الفارغة*. ثم يقوم بتعيين كائن هذه الفئة إلى[**WorkbookSettings.GlobalizationSettings.PivotSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/pivotsettings/) ملكية. يقوم الكود بتحميل[ملف اكسيل المصدر](40468488.xlsx) الذي يحتوي على الجدول المحوري، ويقوم بتحديث وحساب بياناته وحفظها باسمه[الإخراج PDF](40468487.pdf) ملف. توضح لقطة الشاشة التالية تأثير نموذج التعليمات البرمجية على الإخراج PDF. كما ترون في لقطة الشاشة، تحتوي أجزاء مختلفة من الجدول المحوري الآن على نص مخصص تم إرجاعه بواسطة الطرق التي تم تجاوزها[**إعدادات العولمة المحورية**](https://reference.aspose.com/cells/net/aspose.cells.settings/pivotglobalizationsettings/)فصل.
+## **تخصيص إعدادات العالمية لجدول محوري**
 
-![ما يجب القيام به:image_alt_text](customize-globalization-settings-for-pivot-table_1.png)
+يشرح الكود العيني التالي كيفية تخصيص إعدادات التعميم لجدول الدوران. ينشئ فئة *CustomPivotTableGlobalizationSettings* مستمدة من فئة القاعدة [**PivotGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.settings/pivotglobalizationsettings/) ويعيد جميع الأساليب الضرورية الخاصة بها. تُعيد هذه الأساليب النص المخصص لـ *إجمالي الجدول الدوري، الجدول الدوري الفرعي، الجدول الدوري الكبير، جميع العناصر، عناصر متعددة، تسميات الأعمدة، تسميات الصفوف، القيم الفارغة*. ثم يُعين الكائن لهذه الفئة على خاصية [**WorkbookSettings.GlobalizationSettings.PivotSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/pivotsettings/). يحمل الكود ملف إكسل مصدري يحتوي على الجدول الدوراني، يقوم بتحديث بياناته وحساباته ويحفظه كملف [PDF الإخراج](40468487.pdf). تُظهر اللقطة الشاشية التالية تأثير الشفرة العينية على ملف الإخراج بصيغة PDF. كما ترون في اللقطة الشاشية، الأجزاء المختلفة من الجدول الدوراني تحتوي الآن على نص مخصص يتم إرجاعه بوساطة الأساليب المحلية لفئة [**PivotGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.settings/pivotglobalizationsettings/).
 
-##  **عينة من الرموز**
+![todo:image_alt_text](customize-globalization-settings-for-pivot-table_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-CustomizePivotTableGlobalSettings-CustomizePivotTableGlobalSettings.cs" >}}

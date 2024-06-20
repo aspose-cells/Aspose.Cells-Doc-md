@@ -1,5 +1,5 @@
 ---
-title: 在 IntelliJ IDEA 中安装和使用 Aspose.Cells - Maven
+title: 在 IntelliJ IDEA 中安装和使用 Aspose.Cells  Maven
 type: docs
 weight: 10
 url: /zh/java/installing-and-using-aspose-cells-for-intellij-idea-maven/

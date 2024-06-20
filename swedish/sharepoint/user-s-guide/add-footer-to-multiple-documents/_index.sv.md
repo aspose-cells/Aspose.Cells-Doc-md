@@ -1,29 +1,30 @@
-﻿---
+---
 title: Lägg till sidfot i flera dokument
 type: docs
 weight: 80
 url: /sv/sharepoint/add-footer-to-multiple-documents/
 ---
-Om du vill lägga till sidfot i flera Excel-filer, välj alternativet "Lägg till sidfot med Aspose.Cells" i menyfliksområdet.
+
+Om du vill lägga till en sidfot i flera Excelfiler ska du välja alternativet ”Lägg till sidfot med Aspose.Cells” i flikfältet.
 
 ![todo:image_alt_text](add-footer-to-multiple-documents_1.png)
 
 
 
-Hämta alla Excel-filer från datakällmappen och skapa en fillistatabell.
+Hämta alla Excel-filer från datakälla mapp och skapa en filtabell.
 
- Välj fil som behöver lägga till sidfot, klicka**Lägg till sidfot** för att lägga till sidfot för valda filer.
+Välj filen som behöver få en sidfot, klicka på **Lägg till sidfot**-knappen för att lägga till sidfoten för valda filer. 
 
 ![todo:image_alt_text](add-footer-to-multiple-documents_2.png)
 
 
 
-Följande alternativ är tillgängliga när du lägger till sidfotsinställningar:
+Följande alternativ är tillgängliga under konfiguration av sidfoten:
 
 **Sektion**
 
-Lägg till sidfotsposition: vänster sektion, mittsektion och höger sektion.
+Lägg till sidfotsposition: Vänster sektion, Mittsektion och Höger sektion.
 
-**Footer Script**
+**Sidfotsskript**
 
-Det representerar sidfotsformateringsskript. Skriptkommandon: Kommando | Beskrivning| &P Aktuellt sidnummer| &N Antal sidor|&D Aktuellt datum| &T Aktuell tid &A Bladnamn &F Filnamn utan sökväg &"<FontName>" Teckensnittsnamn, till exempel: &"Arial" &"<FontName>, <FontStyle>" Teckensnittsnamn och teckensnittsstil, till exempel: &"Arial,Fet" &<FontSize>Textstorlek. Om detta kommando följs av ett vanligt nummer som ska skrivas ut i rubriken, kommer det att separeras från teckensnittets höjd med ett mellanslag. &G Bildskript Till exempel: "&Arial,Fet&8Footer Note".
+It represents Footer formatting script. Script commands: Command | Description| &P Current page number| &N Page count|&D Current date| &T Current time &A Sheet name &F File name without path &"<FontName>" Font name, for example: &"Arial" &"<FontName>, <FontStyle>" Font name and font style, for example: &"Arial,Bold" &<FontSize> Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. &G Image script For example: "&Arial,Bold&8Footer Note".

@@ -1,146 +1,147 @@
 ---
-title: データをワークシートにインポート
+title: ワークシートにデータをインポート
 type: docs
 weight: 170
 url: /ja/net/import-data-into-worksheet/
-description: Aspose.Cells for .NET API を通じてワークシートにデータをインポートする方法を学習します。
-keywords: C# Import Data into Worksheet, Import data into Excel with ICellsDataTable interface, Import data from Array, Import Data from ArrayList, Import Data from Custom Objects, Import Data from Custom Objects to merged area, Import Data from DataTable, Import Data from dynamic object as data source, Import Data from DataColumn, Import Data from DataView, Import Data from DataGrid, Import Data from GridView, Import HTML formatted data, Import Data Data from JSON
+description: Aspose.Cells for .NET APIを介してワークシートにデータをインポートする方法を学ぶ。
+keywords: C#ワークシートにデータをインポート、ICellsDataTableインターフェイスを使用したExcelへのデータインポート、配列からのデータインポート、ArrayListからのデータインポート、カスタムオブジェクトからのデータインポート、カスタムオブジェクトからマージされたエリアへのデータインポート、DataTableからのデータインポート、動的オブジェクトからのデータソースとしてのデータインポート、DataColumnからのデータインポート、DataViewからのデータインポート、DataGridからのデータインポート、GridViewからのデータインポート、HTMLフォーマットデータのインポート、JSONからのデータインポート
 ---
+
 {{% alert color="primary" %}}
 
-この記事では、開発者が Aspose.Cells を通じてアクセスできるいくつかのデータ インポート テクニックについて説明します。
+この記事では、開発者がAspose.Cellsを通じてアクセスできるいくつかのデータインポートテクニックについて説明します。
 
 {{% /alert %}}
 
-##  **データをワークシートにインポートする方法**
+## **ワークシートにデータをインポートする方法**
 
-Aspose.Cells の Excel ファイルを開くと、ファイル内のすべてのデータが自動的にインポートされます。 Aspose.Cells は、他のデータ ソースからデータをインポートすることもできます。
+Aspose.CellsでExcelファイルを開くと、ファイル内のすべてのデータが自動的にインポートされます。 Aspose.Cellsは他のデータソースからもデータをインポートできます。
 
-Aspose.Cells は、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Microsoft Excel ファイルを表すクラス。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートへのアクセスを許可するコレクション。ワークシートは次のように表されます。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスが提供するのは[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクション。[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collection は、さまざまなデータ ソースからデータをインポートするための便利なメソッドを提供します。この記事では、これらの方法の使用方法について説明します。
+Aspose.CellsはMicrosoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスにはExcelファイルの各ワークシートにアクセスするための[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスによって表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスは[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションを提供します。[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションにはさまざまなデータソースからデータをインポートするための便利なメソッドが用意されています。この記事では、これらのメソッドの使用方法について説明します。
 
-##  **ICellsDataTable インターフェイスを使用して Excel にデータをインポートする方法**
-埋め込む[ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable)さまざまなデータソースをラップしてから使用します[Cells.インポートデータ()](https://reference.aspose.com/cells/net/aspose.cells/cells/importdata/#importdata)データを Excel ワークシートにインポートします。
-###  **サンプルコード**
+## **ICellsDataTableインターフェイスを使用してExcelにデータをインポートする方法**
+[ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable)を実装してさまざまなデータソースをラップし、[Cells.ImportData()](https://reference.aspose.com/cells/net/aspose.cells/cells/importdata/#importdata)を使用してExcelワークシートにデータをインポートします。
+### **サンプルコード**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ImportICellsDataTableIntoWorksheet.cs" >}}
 
-の実装*CustomerDataSource*、*Customer*、および *CustomerList*クラスは以下に与えられます
+*CustomerDataSource*, *Customer*, *CustomerList* クラスの実装は以下のとおりです
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ICellsDataTableDataSourceForWorkbookDesigner-2.cs" >}}
 
 
-##  **配列から Excel にデータをインポートする方法**
+## **配列からExcelにデータをインポートする方法**
 
-配列からスプレッドシートにデータをインポートするには、[**配列のインポート**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index)の方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクション。のオーバーロードされたバージョンが多数あります。[**配列のインポート**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index)メソッドですが、一般的なオーバーロードは次のパラメーターを受け取ります。
+配列からスプレッドシートにデータをインポートするには、[**ImportArray**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index)コレクションの[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)メソッドを呼び出します。[**ImportArray**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index)メソッドには多くのオーバーロードバージョンがありますが、典型的なオーバーロードでは次のパラメータが必要です:
 
-- *Array**、コンテンツのインポート元の配列オブジェクト。
-- *行番号**、データがインポートされる最初のセルの行番号。
-- *列番号**、データがインポートされる最初のセルの列番号。
-- *垂直方向**。データを垂直方向または水平方向のどちらでインポートするかを指定するブール値です。
+- **Array**、インポート元の配列オブジェクト。
+- **行番号**、データがインポートされる最初のセルの行番号。
+- **列番号**、データがインポートされる最初のセルの列番号。
+- **垂直**、データを垂直または水平にインポートするかどうかを指定するブール値。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromArray-1.cs" >}}
 
-##  **ArrayList から Excel にデータをインポートする方法**
+## **配列リストからExcelにデータをインポートする方法**
 
-データをインポートするには*配列リスト*ワークシートに対して、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションの[**インポート配列リスト**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarraylist)方法。 ImportArray メソッドは次のパラメータを受け取ります。
+*ArrayList*からワークシートにデータをインポートするには、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションの[**ImportArrayList**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarraylist)メソッドを呼び出します。ImportArrayメソッドには次のパラメータが必要です:
 
--  *配列リスト**、を表します*配列リスト*インポートしているオブジェクト。
-- *行番号**は、データがインポートされる最初のセルの行番号を表します。
-- *列番号**は、データがインポートされる最初のセルの列番号を表します。
-- *垂直方向**。データを垂直方向または水平方向のどちらでインポートするかを指定するブール値です。
+- **ArrayList**、インポート元の*ArrayList*を表す。
+- **行番号**、データがインポートされる最初のセルの行番号を表す。
+- **列番号**、データがインポートされる最初のセルの列番号を表す。
+- **垂直**、データを垂直または水平にインポートするかどうかを指定するブール値。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromArrayList-1.cs" >}}
 
-##  **カスタムオブジェクトからExcelにデータをインポートする方法**
+## **カスタムオブジェクトからExcelにデータをインポートする方法**
 
-オブジェクトのコレクションからワークシートにデータをインポートするには、次を使用します。[**カスタムオブジェクトのインポート**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importcustomobjects/index)。必要なオブジェクトのリストを表示するには、メソッドに列/プロパティのリストを指定します。
+オブジェクトのコレクションからワークシートにデータをインポートするには、[**ImportCustomObjects**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importcustomobjects/index)を使用します。表示する希望のオブジェクトのリストをメソッドに提供します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromCustomObject-1.cs" >}}
 
-##  **カスタムオブジェクトから結合領域にデータをExcelにインポートする方法**
+## **カスタムオブジェクトからExcelにデータをインポートし、マージされたエリアをチェックする方法**
 
-オブジェクトのコレクションから結合されたセルを含むワークシートにデータをインポートするには、次を使用します。[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)財産。 Excel テンプレートにセルが結合されている場合は、次の値を設定します。[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)プロパティを true に設定します。を渡す[**インポートテーブルオプション**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)オブジェクトを列/プロパティのリストとともにメソッドに追加して、目的のオブジェクトのリストを表示します。次のコードサンプルは、の使用法を示しています。[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)カスタム オブジェクトから結合されたセルにデータをインポートするプロパティ。添付資料をご覧ください[ソース Excel](90112033.xlsx)ファイルと[Excel出力](90112034.xlsx)参考用のファイルです。
+オブジェクトのコレクションからマージされたセルを含むワークシートにデータをインポートするには、[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)プロパティを使用します。Excelテンプレートにマージされたセルがある場合は、[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)プロパティの値をtrueに設定します。メソッドに表示する希望のオブジェクトのリストとともに[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)オブジェクトを渡します。次のコードサンプルは、[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)プロパティを使用してカスタムオブジェクトからマージされたセルにデータをインポートする方法を示しています。参考のために添付の[ソースExcel](90112033.xlsx)ファイルと[出力Excel](90112034.xlsx)ファイルをご覧ください。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportCustomObjectsToMergedArea-1.cs" >}}
 
-##  **DataTable から Excel にデータをインポートする方法**
+## **ExcelからDataTableにデータをインポートする方法**
 
-*DataTable* からデータをインポートするには、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションの[**インポートデータテーブル**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index)方法。のオーバーロードされたバージョンが多数あります。[**インポートデータテーブル**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index)メソッドですが、一般的なオーバーロードは次のパラメーターを受け取ります。
+DataTableからデータをインポートするには、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションの[**ImportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index)メソッドを呼び出します。[**ImportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index)メソッドにはオーバーロードされたバージョンが多数ありますが、典型的なオーバーロードは次のパラメータを取ります:
 
--  *データテーブル**、*データ表*コンテンツのインポート元のオブジェクト。
--  *フィールド名が表示されます**。フィールドの名前が表示されるかどうかを指定します。*データ表*列を最初の行としてワークシートにインポートするかどうかを指定する必要があります。
-- *開始セル** は、*DataTable* の内容をインポートする開始セルの名前 (たとえば、「A1」) を表します。
+- **Data table**: インポート元の*DataTable*オブジェクト。
+- **フィールド名の表示**: *DataTable*の列名をワークシートに最初の行としてインポートするかどうかを指定します。
+- **開始セル**: *DataTable*の内容をインポートする開始セルの名前 (例: "A1") を表します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
 
-##  **データソースとして動的オブジェクトから Excel にデータをインポートする方法**
+## **Excelから動的オブジェクトをデータソースとしてデータをインポートする方法**
 
-Aspose.Cells は、動的オブジェクトをデータソースとして操作する機能を提供します。これは、プロパティがオブジェクトに動的に追加されるデータソースの使用に役立ちます。プロパティがオブジェクトに追加されると、Aspose.Cells は最初のエントリをテンプレートとみなし、それに応じて残りを処理します。これは、何らかの動的プロパティが最初の項目にのみ追加され、他のオブジェクトには追加されない場合、Aspose.Cells はコレクション内のすべての項目が同じである必要があるとみなします。
+Aspose.Cellsは、動的オブジェクトをデータソースとして使用する機能を提供しています。そこでは、プロパティがオブジェクトに動的に追加されます。プロパティがオブジェクトに追加された後、Aspose.Cellsは最初のエントリをテンプレートとして扱い、それ以降に応じて処理します。つまり、最初のアイテムのみに動的プロパティが追加され、他のオブジェクトには追加されていない場合、Aspose.Cellsはコレクション内のすべてのアイテムが同じであると見なします。
 
-この例では、最初に 2 つの変数のみを含むテンプレート モデルが使用されます。このリストは動的オブジェクトのリストに変換されます。次に、いくつかの追加フィールドがそれに追加され、最終的にワークブックにロードされます。ワークブックは、テンプレート XLSX ファイルにある値のみを選択します。このテンプレート ワークブックでは、パラメーターも含まれるスマート マーカーを使用します。パラメータを使用すると、情報のレイアウト方法を変更できます。スマート マーカーの詳細については、次の記事を参照してください。
+この例では、最初は2つの変数のみを含むテンプレートモデルが使用されています。このリストは動的オブジェクトのリストに変換されます。その後、追加のフィールドが追加され、最後にワークブックにロードされます。ワークブックはテンプレートXLSXファイル内の値のみを取得します。このテンプレートワークブックにはパラメータを含むスマートマーカーが使用されています。パラメータを使用すると、情報の配置方法を変更できます。スマートマーカーの詳細については、次の記事から取得できます:
 
 [スマートマーカーの使用](/cells/ja/net/using-smart-markers/)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDynamicDataTable-1.cs" >}}
 
-##  **DataColumn から Excel にデータをインポートする方法 (.NET)**
+## **DataColumnをExcelにインポートする方法**
 
-A *データ表*または*データビュー*オブジェクトは 1 つ以上の列で構成されます。開発者は、任意の列からデータをインポートすることもできます。*データ表*または*データビュー*に電話することで[**データのインポート**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)の方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクション。の[**データのインポート**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)メソッドは次の型のパラメータを受け取ります[**インポートテーブルオプション**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)。の[**インポートテーブルオプション**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)クラスが提供するのは[**列インデックス**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)列インデックスの配列を受け入れるプロパティ。
+A *DataTable*または*DataView*オブジェクトは1つ以上の列で構成されています。開発者は、*DataTable*または*DataView*の列/列からデータをインポートするために、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションの[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)メソッドを呼び出すこともできます。[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)メソッドは[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)型のパラメータを受け入れます。[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)クラスは[**ColumnIndexes**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)プロパティを提供し、列のインデックスの配列を受け入れます。
 
-以下のサンプル コードは、[**ImportTableOptions.ColumnIndexes**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)選択した列をインポートします。
+以下に示すサンプルコードは、[**ImportTableOptions.ColumnIndexes**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)の使用を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataColumn-1.cs" >}}
 
-##  **DataView から Excel にデータをインポートする方法 (.NET)**
+## **DataViewをExcelにインポートする方法**
 
- *DataView* からデータをインポートするには、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションの[**データのインポート**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)方法。のオーバーロードされたバージョンが多数あります。[**データのインポート**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)メソッドですが、DataView のメソッドは次のパラメーターを受け取ります。
+DataViewからデータをインポートするには、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションの[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)メソッドを呼び出します。[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)メソッドにはオーバーロードされたバージョンが多数ありますが、DataView用の典型的なオーバーロードは次のパラメータを取ります:
 
-- **データビュー:**の*データビュー*コンテンツをインポートしようとしているオブジェクト。
-- **最初の行:**データがインポートされる最初のセルの行番号。
-- **最初の列:**データがインポートされる最初のセルの列番号。
-- **インポートテーブルオプション:**インポートオプション。
+- **DataView:**　インポート元の*DataView* オブジェクト。
+- **最初の行:** データがインポートされる最初のセルの行番号。
+- **最初の列:** データがインポートされる最初のセルの列番号。
+- **ImportTableOptions:** インポートオプション。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataView-1.cs" >}}
 
-##  **DataGrid から Excel にデータをインポートする方法 (.NET)**
+## **DataGridをExcelにインポートする方法**
 
-からデータをインポートすることが可能です*データグリッド*に電話することで[**インポートデータグリッド**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index)の方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクション。のオーバーロードされたバージョンが多数あります。[**インポートデータグリッド**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index)メソッドですが、一般的なオーバーロードは次のパラメーターを受け取ります。
+*DataGrid*からデータをインポートすることができます。その際には、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションの[**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index)メソッドを呼び出します。[**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index)メソッドには多数のオーバーロードバージョンがありますが、典型的なオーバーロードは次のパラメータを取ります:
 
-- *データグリッド**、*データグリッド*コンテンツのインポート元のオブジェクト。
-- *行番号**、データがインポートされる最初のセルの行番号。
-- *列番号**、データがインポートされる最初のセルの列番号。
-- *行の挿入**。データを適合させるためにワークシートに追加の行を追加する必要があるかどうかを示すブール型プロパティです。
+- **Data grid:** インポート元の*DataGrid* オブジェクト。
+- **Row Number:** データがインポートされる最初のセルの行番号。
+- **Column Number:** データがインポートされる最初のセルの列番号。
+- **Insert Rows:** データを格納するためにワークシートに余分な行を追加するかどうかを示すブール値。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataGrid-1.cs" >}}
 
-##  **GridView から Excel にデータをインポートする方法**
+## **GridViewをExcelにインポートする方法**
 
-データをインポートするには*グリッドビュー*コントロール、を呼び出します[**インポートグリッドビュー**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview)の方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクション。
+*GridView* コントロールからデータをインポートするには、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションの[**ImportGridView**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview)メソッドを呼び出します。
 
-Aspose.Cells を使用すると、データをスプレッドシートにインポートするときに、HTML でフォーマットされた値を尊重できます。データのインポート中に HTML 解析が有効になっている場合、Aspose.Cells は HTML を対応するセル形式に変換します。
+Aspose.Cellsを使用すると、データをスプレッドシートにインポートする際にHTML形式の値を正しく解釈することができます。HTMLの解析を有効にしてデータをインポートすると、Aspose.CellsはHTMLを対応するセルの書式設定に変換します。
 
-##  **HTML 形式のデータを Excel にインポートする方法**
+## **ExcelにHTML形式のデータをインポートする方法**
 
-Aspose.Cells は、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)外部データ ソースからデータをインポートするための非常に便利なメソッドを提供するクラス。この記事では、データのインポート中に HTML の書式設定されたテキストを解析し、HTML を書式設定されたセル値に変換する方法を説明します。
+Aspose.Cellsは、外部データソースからデータをインポートするための非常に有用なメソッドを提供する[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) クラスを提供しています。この記事では、データをインポートする際にHTML形式のテキストを解析し、HTMLを書式設定されたセルの値に変換する方法を示します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportHtmlFormattedData-1.cs" >}}
 
-##  **JSON から Excel にデータをインポートする方法**
+## **JSONからExcelにデータをインポートする方法**
 
-Aspose.Cells は、[**Jsonユーティリティ**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)JSON を処理するためのクラス。[**Jsonユーティリティ**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)クラスには[**データのインポート**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)JSON データをインポートする方法。 Aspose.Cells では、[**JsonLayoutオプション**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)JSON レイアウトのオプションを表すクラス。の[**データのインポート**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)メソッドは受け入れます[**JsonLayoutオプション**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)パラメータとして。の[**JsonLayoutオプション**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)クラスは次のプロパティを提供します。
+Aspose.Cellsは、JSONを処理するための[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)クラスを提供しています。[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)クラスには、JSONデータをインポートするための[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)メソッドがあります。Aspose.Cellsは、JSONレイアウトのオプションを表す[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)クラスも提供しています。[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)メソッドは、パラメータとして[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)を受け入れます。[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)クラスには、以下のプロパティが用意されています。
 
-- [**テーブルとしての配列**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable)配列内をテーブルとして処理するかどうかを示します。
-- [**数値または日付を変換**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate)JSON の文字列を数値または日付のどちらに変換するかを示す値を取得または設定します。
-- [**日付形式**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/dateformat)日付値の形式を取得および設定します。
-- [**配列タイトルを無視する**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle)オブジェクトのプロパティが配列の場合にタイトルを無視するかどうかを示します
-- [**Null を無視**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorenull)null 値を無視するかどうかを示します。
-- [**オブジェクトタイトルを無視**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignoreobjecttitle)オブジェクトのプロパティがオブジェクトの場合にタイトルを無視するかどうかを示します。
-- [**数値形式**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/numberformat)数値の形式を取得および設定します。
-- [**タイトルスタイル**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/titlestyle)タイトルのスタイルを取得および設定します。
+- [**ArrayAsTable**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable)：配列内の処理がテーブルとして行われるかどうかを示します。
+- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate)：JSON内の文字列を数値または日付に変換するかどうかを取得または設定します。
+- [**DateFormat**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/dateformat)：日付値の形式を取得および設定します。
+- [**IgnoreArrayTitle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle)：オブジェクトのプロパティが配列の場合に、タイトルを無視するかどうかを示します。
+- [**IgnoreNull**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorenull)：null値を無視するかどうかを示します。
+- [**IgnoreObjectTitle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignoreobjecttitle)：オブジェクトのプロパティがオブジェクトの場合に、タイトルを無視するかどうかを示します。
+- [**NumberFormat**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/numberformat)：数値値の形式を取得および設定します。
+- [**TitleStyle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/titlestyle)：タイトルのスタイルを取得および設定します。
 
-以下のサンプル コードは、[**Jsonユーティリティ**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)そして[**JsonLayoutオプション**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)JSON データをインポートするクラス。
+以下のサンプルコードは、[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)および[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)クラスを使用してJSONデータをインポートする方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromJson-1.cs" >}}
 
-##  **アドバンストトピック**
-- [データをワークシートにインポートするときに数式フィールドを指定する](/cells/ja/net/specify-formula-fields-while-importing-data-to-worksheet/)
-- [Cells データテーブル行を挿入するときに最初の行を下にシフトします](/cells/ja/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
+## **高度なトピック**
+- [ワークシートにデータをインポートする際に式フィールドを指定する](/cells/ja/net/specify-formula-fields-while-importing-data-to-worksheet/)
+- [セルデータテーブル行を挿入するときに、最初の行を下にシフト](/cells/ja/net/shift-first-row-down-when-inserting-cells-data-table-rows/)

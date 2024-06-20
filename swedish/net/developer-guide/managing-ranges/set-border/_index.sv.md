@@ -1,30 +1,31 @@
 ---
-title: Ställ in intervallgräns
+title: Ange intervallsram
 type: docs
 weight: 600
-url: /sv/java/set-range-border/
+url: /sv/net/set-range-border/
 ---
-##  **Möjliga användningsscenarier**
-När du vill ställa in gränsen för Range, behöver du inte ställa in varje cell individuellt. Du kan ställa in gränsen för intervallet. Aspose.Cells erbjuder denna funktion.
-Den här artikeln innehåller en exempelkod som använder Aspose.Cells för att ställa in intervallgräns.
 
-##  **Ställ in intervallgräns i Excel**
-För att ställa in gränsen för ett intervall i Excel, kan du följa dessa steg:
-1. Välj intervallet av celler som du vill använda gränsen på.
-2. På fliken "Hem" i menyfliksområdet, leta upp gruppen "Teckensnitt".
-3. I gruppen "Teckensnitt", klicka på rullgardinsknappen "Kanter".
+## **Möjliga användningsscenario**
+När du vill ange en ram för ett intervall behöver du inte ange varje cell individuellt. Du kan ange ramen för intervallet. Aspose.Cells erbjuder denna funktion.
+Denna artikel ger en kodexempel som använder Aspose.Cells för att ange intervallsramen.
+
+## **Ange intervallsram i Excel**
+För att ställa in gränsen för en serie i Excel kan du följa dessa steg:
+1. Välj det cellområde där du vill tillämpa gränsen.
+2. I fliken "Start" på menyfliksområdet, leta upp gruppen "Teckenformat".
+3. Inom gruppen "Teckenformat", klicka på knappen "Gränser".
 <br>
 <img src="border.png" />
-4. Välj den typ av kantlinje som du vill använda från alternativen i rullgardinsmenyn. Du kan välja mellan förinställda kantstilar eller anpassa din egen kant.
-5. När du har valt önskad kantstil kommer kanten att tillämpas på det valda cellområdet.
+4. Välj den typ av gräns som du vill använda från alternativen i rullgardinsmenyn. Du kan välja mellan förinställda gränstyper eller anpassa din egen gräns.
+5. När du har valt önskad gränstil kommer gränsen att appliceras på det valda cellområdet.
 
-##  **Ställ in intervallgräns med Aspose.Cells**
-Det här exemplet visar hur man:
+## **Ställ in gränslinje med hjälp av Aspose.Cells**
+Detta exempel visar hur man:
 
 1. Skapa en arbetsbok.
-1. Lägg till data i celler i det första kalkylbladet.
-1.  Skapa en[**Räckvidd**](https://reference.aspose.com/cells/java/com.aspose.cells/range/).
-1. Ställ in den inre gränsen för Range.
-1. Ange den yttre gränsen för Range.
+1. Lägga till data till celler i den första arbetsboken.
+1. Skapa en [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range).
+1. Ange den inre gränsen för området.
+1. Ange den yttre gränsen för området.
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Range-set-border.java" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Range-set-border.cs" >}}

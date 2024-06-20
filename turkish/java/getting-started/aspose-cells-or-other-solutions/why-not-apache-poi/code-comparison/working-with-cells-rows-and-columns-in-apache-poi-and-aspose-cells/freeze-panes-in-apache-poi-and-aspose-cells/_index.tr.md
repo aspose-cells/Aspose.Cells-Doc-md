@@ -1,34 +1,35 @@
-﻿---
-title: Apache POI ve Aspose.Cells'de Bölmeleri Dondur
+---
+title: Apache POI ve Aspose.Cells te Sabit Dondurulan Panolar
 type: docs
 weight: 80
 url: /tr/java/freeze-panes-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Bölmeleri Dondur**
-Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)bu bir Microsoft Excel dosyasını temsil eder. Workbook sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir.
 
-Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)sınıf. Worksheet sınıfı, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Dondurma bölmelerini yapılandırmak için Worksheet sınıfının frozenPanes yöntemini çağırın. FreezePanes yöntemi aşağıdaki parametreleri alır:
+## **Aspose.Cells - Panoları Sabitleme**
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) adlı bir sınıf sağlar. Workbook sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir.
 
-- **Sıra**, dondurmanın başlayacağı hücrenin satır dizini.
-- **Kolon**, dondurmanın başlayacağı hücrenin sütun dizini.
-- **Donmuş satırlar**, üst bölmedeki görünür satırların sayısı.
-- **Dondurulmuş sütunlar**, sol bölmedeki görünür sütunların sayısı
+Bir çalışma sayfası, [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet) sınıfı ile temsil edilir. Worksheet sınıfı, çalışma sayfalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Sabit dondurma panolarını yapılandırmak için Worksheet sınıfının freezePanes metodunu çağırın. FreezePanes metodu şu parametreleri alır:
+
+- **Satır**, dondurulmanın başlayacağı hücrenin satır indeksi.
+- **Sütun**, dondurulmanın başlayacağı hücrenin sütun indeksi.
+- **Dondurulan satırlar**, üst bölmedeki görünür satır sayısı.
+- **Dondurulan sütunlar**, sol bölmedeki görünür sütun sayısı
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  worksheet1.freezePanes(0,2,0,2); // Freezing Columns
 
 worksheet2.freezePanes(2,0,2,0); // Freezing Rows
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Bölmeleri Dondur**
-Sheet.createFreezePane, Apache POI SS - HSSF ve XSSF kullanırken FreezePane işlevselliğini elde etmek için kullanılabilir
+## **Apache POI SS - HSSF XSSF - Sabit Dondurulan Panolar**
+Apache POI SS - HSSF ve XSSF kullanılırken FreezePane işlevselliğine ulaşmak için sheet.createFreezePane kullanılabilir
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Freeze just one row
 
@@ -45,11 +46,11 @@ sheet3.createFreezePane( 2, 2 );
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/Java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/freezepanes)
+## **Örnek Kod İndir**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/freezepanes)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Donma bölmeleri](http://docs.aspose.com:8082/docs/display/cellsjava/Freeze+Panes).
+Daha fazla bilgi için [Sabit Dondurulan Panolar](http://docs.aspose.com:8082/docs/display/cellsjava/Sabit+Dondurulan+Panolar) sayfasını ziyaret edin.
 
 {{% /alert %}}

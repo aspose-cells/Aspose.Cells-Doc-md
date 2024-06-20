@@ -1,16 +1,17 @@
-﻿---
-title: Ricezione di notifiche durante l'unione dei dati con i marcatori intelligenti
+---
+title: Ricezione di notifiche durante la fusione dei dati con Smart Markers
 type: docs
 weight: 20
 url: /it/net/getting-notifications-while-merging-data-with-smart-markers/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells Le API forniscono il[Workbook Designer](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) classe a[lavorare con gli Smart Marker](https://docs.aspose.com/cells/net/smart-markers/) dove la formattazione e le formule sono inserite nel file[fogli di calcolo del progettista](/cells/it/net/what-is-a-designer-spreadsheet/) e poi elaborato con[Workbook Designer](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) class per riempire i dati in base agli Smart Marker specificati. A volte, potrebbe essere necessario ricevere le notifiche sul riferimento della cella o sul particolare Smart Marker in fase di elaborazione. Ciò può essere ottenuto utilizzando il[WorkbookDesigner.CallBack](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/properties/callback) proprietà e[ISmartMarkerCallBack](https://reference.aspose.com/cells/net/aspose.cells/ismartmarkercallback) interfaccia esposta con il rilascio di Aspose.Cells for .NET 8.6.2.
+Le API Aspose.Cells forniscono la classe [WorkbookDesigner](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) per [lavorare con Smart Markers](https://docs.aspose.com/cells/net/smart-markers/) dove la formattazione e le formule vengono inserite nei [fogli di calcolo del designer](/cells/it/net/what-is-a-designer-spreadsheet/) e quindi processate con la classe [WorkbookDesigner](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) per riempire i dati in base ai Smart Markers specificati. A volte può essere necessario ricevere notifiche sul riferimento della cella o sul particolare Smart Marker in fase di elaborazione. Questo può essere ottenuto utilizzando la proprietà [WorkbookDesigner.CallBack](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/properties/callback) e l'interfaccia [ISmartMarkerCallBack](https://reference.aspose.com/cells/net/aspose.cells/ismartmarkercallback) esposta con il rilascio di Aspose.Cells for .NET 8.6.2.
 
 {{% /alert %}} 
 
- La parte di codice seguente illustra l'utilizzo di[ISmartMarkerCallBack](https://reference.aspose.com/cells/net/aspose.cells/ismartmarkercallback) interface per definire una nuova classe che gestisce la richiamata per[WorkbookDesigner.Process](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/methods/process)metodo.
+Il seguente frammento di codice dimostra l'uso dell'interfaccia [ISmartMarkerCallBack](https://reference.aspose.com/cells/net/aspose.cells/ismartmarkercallback) per definire una nuova classe che gestisce il richiamo del metodo [WorkbookDesigner.Process](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/methods/process).
 
 
 
@@ -18,8 +19,8 @@ url: /it/net/getting-notifications-while-merging-data-with-smart-markers/
 
 
 
- Il resto del processo include il caricamento del foglio di calcolo del designer contenente gli Smart Marker con[Workbook Designer](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner)ed elaborarlo impostando l'origine dati. Per semplificare l'esempio, abbiamo utilizzato un foglio di calcolo predefinito contenente solo due Smart Marker, come mostrato nell'istantanea sottostante, in cui l'origine dati viene creata dinamicamente per unire i dati in base agli Smart Marker specificati.
+Il resto del processo include il caricamento del foglio di calcolo del designer contenente gli Smart Markers con [WorkbookDesigner](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) e il suo processamento impostando la sorgente dei dati. Per mantenere l'esempio semplice, è stato utilizzato un foglio di calcolo del designer predefinito contenente solo due Smart Markers come mostrato nella schermata sottostante, dove la sorgente dei dati viene creata dinamicamente per unire i dati in base agli Smart Markers specificati.
 
-|![cose da fare:immagine_alt_testo](getting-notifications-while-merging-data-with-smart-markers_1.png)|
-|:- |
+|![todo:image_alt_text](getting-notifications-while-merging-data-with-smart-markers_1.png)|
+| :- |
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetSmartMarkerNotifications-1.cs" >}}

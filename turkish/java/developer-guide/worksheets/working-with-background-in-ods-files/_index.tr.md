@@ -1,41 +1,46 @@
-﻿---
+---
 title: ODS Dosyalarında Arka Planla Çalışma
 type: docs
 weight: 170
 url: /tr/java/working-with-background-in-ods-files/
 ---
+
 ## **ODS Dosyalarında Arka Plan**
 
-ODS dosyalarındaki sayfalara arka plan eklenebilir. Arka plan, renkli bir arka plan veya grafik arka plan olabilir. Dosya açıkken arka plan görünmez, ancak dosya PDF olarak yazdırılırsa, oluşturulan PDF'de arka plan görünür. Arka plan ayrıca baskı ön izleme iletişim kutusunda da görünür.
+Arka plan ODS dosyalarına eklenebilir. Arka plan ya renkli arka plan ya da grafik arka planı olabilir. Dosya açıkken arka plan görünmez ancak dosya PDF olarak yazdırılırsa, arka plan oluşturulan PDF'de görünür. Arka plan ayrıca yazdırma önizleme ile de görünür.
 
-Aspose.Cells, arka plan bilgilerini okuma ve ODS dosyalarında arka plan ekleme yeteneği sağlar.
+Aspose.Cells, ODS dosyalarında arka plan bilgilerini okuma ve arka plan ekleme yeteneği sağlar.
 
-## **OSD dosyasından Arka Plan Bilgilerini Oku**
+## **OSD dosyasından Arka Plan Bilgisi Oku**
 
-Aspose.Cells şunları sağlar:[**ODSSayfaArka Planı**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)ODS Dosyalarında arka planı yönetmek için sınıf. Aşağıdaki kod örneği, kullanımını gösterir[**ODSSayfaArka Planı**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)yükleyerek sınıf[kaynak ODS](GraphicBackground.ods)dosya ve arka plan bilgilerini okuma. Lütfen referans için kod tarafından oluşturulan Konsol Çıktısına bakın.
+Aspose.Cells, ODS Dosyalarında arka planı yönetmek için [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground) sınıfını sağlar. Aşağıdaki kod örneği, [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground) sınıfının kullanımını göstererek [kaynak ODS dosyasını](GraphicBackground.ods) yükler ve arka plan bilgilerini okur. Referans için lütfen kod tarafından oluşturulmuş Konsol Çıktısına bakın.
 
-### **Basit kod**
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-ReadODSBackground-1.java" >}}
 
-### **Konsol Çıkışı**
+### **Konsol Çıktısı**
 
-Arka Plan Türü: GRAFİK
+{{< highlight java >}}
 
-Arka Plan Konumu: CENTER_CENTER
+Background Type: GRAPHIC
 
-## **ODS dosyasına Renkli Arkaplan ekle**
+Backgorund Position: CENTER_CENTER
 
-Aspose.Cells şunları sağlar:[**ODSSayfaArka Planı**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)ODS Dosyalarında arka planı yönetmek için sınıf. Aşağıdaki kod örneği, kullanımını gösterir[**ODSPageBackground.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#Color)ODS dosyasına renkli bir arka plan ekleme özelliği. Lütfen bkz[çıkış ODS](ColoredBackground.ods)referans için kod tarafından oluşturulan dosya.
+{{< /highlight >}}
 
-### **Basit kod**
+## **ODS dosyasına Renkli Arka Plan Ekleme**
+
+Aspose.Cells, [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground) sınıfını kullanarak ODS dosyalarında arka planı yönetir. Aşağıdaki kod örneği, [**ODSPageBackground.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#Color) özelliğinin kullanımını göstererek renkli arka planı ODS dosyasına ekler. Referans için lütfen kod tarafından oluşturulmuş [çıktı ODS dosyasına](ColoredBackground.ods) bakın.
+
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-SetODSColoredBackground-1.java" >}}
 
-## **ODS dosyasına Grafik Arka Planı ekleyin**
+## **ODS dosyasına Grafik Arka Plan Ekleme**
 
-Aspose.Cells şunları sağlar:[**ODSSayfaArka Planı**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)ODS Dosyalarında arka planı yönetmek için sınıf. Aşağıdaki kod örneği, kullanımını gösterir[**ODSPageBackground.GraphicData**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#GraphicData)ODS dosyasına grafik arka plan ekleme özelliği. Lütfen bkz[çıkış ODS](GraphicBackground.ods)referans için kod tarafından oluşturulan dosya.
+Aspose.Cells, [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground) sınıfını kullanarak ODS dosyalarında arka planı yönetir. Aşağıdaki kod örneği, [**ODSPageBackground.GraphicData**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#GraphicData) özelliğinin kullanımını göstererek grafik arka planı ODS dosyasına ekler. Referans için lütfen kod tarafından oluşturulmuş [çıktı ODS dosyasına](GraphicBackground.ods) bakın.
 
-### **Basit kod**
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-SetODSGraphicBackground-1.java" >}}

@@ -1,19 +1,20 @@
-﻿---
-title: レポート フィルター ページの表示オプション
+---
+title: レポートフィルターページのオプションを表示
 type: docs
 weight: 110
 url: /ja/net/show-report-filter-pages-option/
 ---
-## **レポート フィルター ページの表示オプション**
-Excel では、ピボット テーブルの作成、レポート フィルターの追加、および [レポート フィルター ページの表示] オプションの有効化がサポートされています。 Aspose.Cells は、作成されたピボット テーブルで [レポート フィルター ページの表示] オプションを有効にするこの機能もサポートしています。以下は、Excel の [レポート フィルター ページの表示] オプションを示す画面です。
 
-![todo:画像_代替_文章](show-report-filter-pages-option_1.png)
+## **レポートフィルターページのオプションを表示**
+Excelはピボットテーブルの作成、レポートフィルターの追加、および「Show Report Filter Pages」オプションの有効化をサポートしています。Aspose.Cellsもこの機能をサポートし、作成したピボットテーブルで「Show Report Filter Pages」オプションを有効にすることができます。以下は、Excelでの「Show Report Filter Pages」オプションを示す画面です。
 
-サンプル ソース ファイルと出力ファイルは、サンプル コードをテストするために、ここからダウンロードできます。
+![todo:image_alt_text](show-report-filter-pages-option_1.png)
 
-` `[ソース Excel ファイル](81920786.xlsx) 
+サンプルソースファイルと出力ファイルは、テスト用のサンプルコードをダウンロードできます:
 
-[出力 Excel ファイル](81920787.xlsx)
+` [ソースExcelファイル](81920786.xlsx) 
+
+[出力Excelファイル](81920787.xlsx)
 
 
 

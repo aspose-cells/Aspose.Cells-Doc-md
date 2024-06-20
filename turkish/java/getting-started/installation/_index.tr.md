@@ -1,16 +1,17 @@
 ---
-title: Installation
+title: Yükleme
 type: docs
 weight: 20
 url: /tr/java/installation/
 ---
-##  **Aspose.Cells for Java'in Maven Deposundan yüklenmesi**
 
-Aspose, tüm Java API'lerini barındırır[Maven deposu](https://releases.aspose.com/java/repo/) . Kolayca kullanabilirsiniz[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) Basit konfigürasyonlarla doğrudan Maven Projelerinizde.
+## **Maven Deposundan Aspose.Cells for Java Yüklemek**
 
-Öncelikle Maven pom.xml dosyanızda Aspose Maven Depo yapılandırmasını/konumunu aşağıdaki gibi belirtmeniz gerekir:
+Aspose, tüm Java API'larını [Maven deposu](https://releases.aspose.com/java/repo/) üzerinde barındırır. Basit yapılandırmalarla Maven Projelerinizde [Aspose.Cells for Java API'sini](https://releases.aspose.com/cells/java/) doğrudan kullanabilirsiniz.
 
-{{< highlight "java" >}}
+Öncelikle, Maven pom.xml dosyanızda Aspose Maven Deposu yapılandırmasını/yerini aşağıdaki gibi belirtmeniz gerekmektedir:
+
+{{< highlight java >}}
 
  <repositories>
 
@@ -28,8 +29,8 @@ Aspose, tüm Java API'lerini barındırır[Maven deposu](https://releases.aspose
 
 {{< /highlight >}}
 
-build.gradle betiğinizdeki Gradle için aşağıdaki gibi:
-{{< highlight "java" >}}
+Gradle için build.gradle betik dosyanızda aşağıdaki gibi Aspose.Cells for Java API bağımlılığını tanımlayın:
+{{< highlight java >}}
 //Add Aspose maven repository
 repositories {
     mavenCentral()
@@ -39,9 +40,9 @@ repositories {
 }
 {{< /highlight >}}
 
-Daha sonra pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını aşağıdaki gibi tanımlayın (Buna göre her şey dahil olacaktır, örneğin ana jar dosyası, Java Dokümanlar ve diğer kütüphaneler):
+Daha sonra pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını aşağıdaki gibi tanımlayın (Bu, ana jar dosyası, Java Docs ve diğer kütüphaneleri de dahil edecektir):
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      <dependencies>
 
@@ -51,7 +52,7 @@ Daha sonra pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını a�
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.2</version>
+            <version>24.6</version>
 
         </dependency>
 
@@ -61,7 +62,7 @@ Daha sonra pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını a�
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.2</version>
+            <version>24.6</version>
 
             <classifier>javadoc</classifier>
 
@@ -93,8 +94,16 @@ Daha sonra pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını a�
 
 Tebrikler! Maven projenizde Aspose.Cells for Java Maven bağımlılığını başarıyla tanımladınız.
 
-##  **Destek**
+## **WebP Görüntü Yükleme**
 
-Hızlı teknik destek almak için lütfen aşağıdakileri kontrol edin
+WebP modern bir resim formatıdır. Yüksek görsel kaliteyi korurken daha küçük dosya boyutları üretmek üzere tasarlanmıştır.
+
+Microsoft Excel'de şu anda WebP görüntüleri doğrudan eklemek mümkün değildir. Ancak bazı üçüncü taraf kütüphanelerin Excel kaynak dosyalarına WebP görüntüleri doğrudan eklediği durumlar bulunmaktadır.
+
+Genellikle Aspose.Cells for Java, raster görüntüleri yüklemek için Java'nın ImageIO'sunu kullanır, şu anda JDK kendisi WebP görüntülerini yüklemeyi desteklememektedir. Java'nın ImageIO'sunun WebP görüntülerini yüklemesi için bazı ekstra eklentilere veya uzantılara (örneğin [imageio-webp Plugin](https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-webp)) ihtiyaç vardır.
+
+## **Destek**
+
+Hızlı teknik destek almak için lütfen aşağıdakilere bakın
 
 [Aspose.Cells - Forumlar](https://forum.aspose.com/c/cells/9)

@@ -1,18 +1,19 @@
-﻿---
-title: Återge arbetsblad till grafisk kontext
+---
+title: Rendera arbetsblad till grafiskt sammanhang
 type: docs
 weight: 300
 url: /sv/java/render-worksheet-to-graphic-context/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells kan nu rendera kalkylblad till grafisk kontext. Grafiskt sammanhang kan vara vad som helst som bildfil, skärm eller skrivare etc. Använd följande metod för att rendera kalkylblad till grafiskt sammanhang.
+Aspose.Cells kan nu rendera kalkylblad till grafiskt sammanhang. Grafiskt sammanhang kan vara vad som helst som bildfil, skärm eller skrivare osv. Vänligen använd följande metod för att rendera kalkylblad till grafiskt sammanhang.
 
-- SheetRender.toImage(int pageIndex, Graphics2D-grafik)
+- SheetRender.toImage(int pageIndex, Graphics2D graphic)
 
 {{% /alert %}} 
-## **Återge arbetsblad till grafisk kontext**
- Följande kod illustrerar hur man använder Aspose.Cells för att rendera kalkylblad till grafisk kontext. När du har kört en kod kommer den att skriva ut hela kalkylbladet och fylla det överblivna tomma utrymmet med blå färg i grafiksammanhang och spara bilden som**test.png** fil. Du kan använda valfri källexcel-fil för att prova den här koden. Läs även kommentarerna i koden för bättre förståelse.
+## **Rendera kalkylblad till grafiskt sammanhang**
+Följande kod illustrerar hur man använder Aspose.Cells för att rendera kalkylblad till grafiskt sammanhang. När du har utfört koden kommer den att skriva ut hela kalkylbladet och fylla den överblivna tomma ytan med blå färg i grafiksammanhanget och spara bilden som test.png-fil. Du kan använda vilken som helst käll-Excel-fil för att prova denna kod. Läs även kommentarerna inne i koden för bättre förståelse.
 
 
 

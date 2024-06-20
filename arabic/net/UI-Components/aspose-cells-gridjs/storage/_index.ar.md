@@ -3,26 +3,28 @@ title: العمل مع تخزين GridJs
 type: docs
 weight: 250
 url: /ar/net/aspose-cells-gridjs/storage/
-description: توضح هذه المقالة المعالجة العامة لـ Aspose.Cells.GridJs.
-keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
+description: يصف هذا المقال معالجة الملف العام لـ GridJs.
+keywords: مخزن الملف، التخزين، GridJs، تخزين GridJs، معرف فريد، تنزيل، معرف فريد
 ---
-#  العمل مع تخزين GridJs
-##  عملية الملف العامة
-بعد استيراد ملف ورقة انتشار ،
 
- سيقوم GridJs بإنشاء ملف ذاكرة تخزين مؤقت باستخدام معرف المستخدم المحدد في ملف**"Config.FileCacheDirectory"** مجلد ،
 
- بتنسيق[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
+# العمل مع تخزين GridJs
+##  عملية الملف العامة 
+بعد استيراد ملف جدول بيانات ،
 
- سيحفظ GridJs أيضًا جميع الأشكال / الصور في ملف أرشيف مضغوط بتنسيق**"Config.PictureCacheDirectory"** مجلد لعرض الأشكال / الصور لاحقًا في واجهة مستخدم العميل.
+سيقوم GridJs بإنشاء ملف ذاكرة مؤقتة بالمعرف المحدد في مجلد **`Config.FileCacheDirectory`**،
 
-وبعد كل عملية تحديث في واجهة مستخدم العميل ،
+بتنسيق [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat")،
 
-على سبيل المثال ، قم بتعيين قيمة الخلية ، وتعيين نمط الخلية ، وما إلى ذلك. و
+سوف يقوم GridJs أيضًا بحفظ جميع الأشكال/الصور في ملف أرشيف ضغط في مجلد **`Config.PictureCacheDirectory`** لعرض الأشكال/الصور لاحقًا في واجهة المستخدم الخاصة.
 
-سيطلق تطبيق js من جانب عميل GridJs إجراء وحدة التحكم للقيام بعملية UpdateCell.
+وبعد كل عملية تحديث في واجهة المستخدم،
 
-في هذا الإجراء ، سيحدث حفظ مرة أخرى إلى ملف ذاكرة التخزين المؤقت أثناء طريقة UpdateCell.
+على سبيل المثال تعيين قيمة الخلية ، تعيين نمط الخلية، وما إلى ذلك،
+
+ستقوم واجهة المستخدم الخاصة بـ GridJs بتشغيل عملية تحديث الخلية.
+
+في هذا العمل يحدث حفظ مرة أخرى إلى الملف المؤقت أثناء طريقة التحديث الخلية.
 ```C#   
         // post: /GridJs/UpdateCell
         [HttpPost] 
@@ -35,16 +37,16 @@ keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
             return Content(ret, "text/plain", System.Text.Encoding.UTF8);
         }
 ```
-###  أين هو ملف ذاكرة التخزين المؤقت في الواقع
+### أين يكون الملف المخبأ بالضبط؟ 
 
-A. إذا قمنا بتطبيق GridCacheForStream وقمنا بتعيين GridJsWorkbook.CacheImp.
- على سبيل المثال في الكود أدناه ، يمكننا فقط وضع ملف ذاكرة التخزين المؤقت والحصول عليه من**"D: \ temp"**
+أ. إذا قمنا بتنفيذ GridCacheForStream وضبط GridJsWorkbook.CacheImp.
+على سبيل المثال في الكود أدناه يمكننا فقط وضع والحصول على ملف التخزين المؤقت من **"D:\temp"**
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
 GridJsWorkbook.CacheImp=new LocalFileCache();
 public class LocalFileCache  : GridCacheForStream
     {
-         
+
         /// <summary>
         /// Implement this method to savecache,save the stream to the cache object with the key id.
         /// </summary>
@@ -74,23 +76,23 @@ public class LocalFileCache  : GridCacheForStream
         }
 		...
 ```
-إذا لم نقم بتعيين GridJsWorkbook.CacheImp ،
+ب. إذا لم نقم بضبط GridJsWorkbook.CacheImp
 
- سيقوم GridJs بإنشاء ملف وحفظه داخل ملف**"Config.FileCacheDirectory"** ، وهو دليل ذاكرة التخزين المؤقت الافتراضي الذي يمكننا تعيينه.
+سوف تقوم GridJs بإنشاء ملف حفظ داخل **`Config.FileCacheDirectory`**، وهو الدليل الافتراضي للتخزين المؤقت الذي يمكننا ضبطه.
 
-###  كيفية الحصول على ملف النتائج المحدث
-#### 1. معرف مستخدم محدد للملف
- تأكد من تطابق الخرائط المحدد بين الملف والمعرف ،
+### كيفية الحصول على ملف النتيجة المحدث
+#### 1. معرّف محدد للملف 
+تأكد من وجود توافق تعيين خريطة محددة بين الملف ومعرف اليوسيدي، 
 
-يمكنك دائمًا الحصول على نفس معرف المستخدم لاسم ملف محدد ، وليس من إنشاء عشوائي.
+يمكنك دائمًا الحصول على نفس معرف اليوسيدي لاسم ملف محدد، ليس من توليد عشوائي.
 
-على سبيل المثال فقط استخدم اسم الملف على ما يرام.
+على سبيل المثال، ما عليك سوى استخدام اسم الملف.
 ```C#
 //in controller  
 ...
         public ActionResult Uidtml(String filename)
         {
- 
+
             return Redirect("~/xspread/uidload.html?file=" + filename + "&uid=" +  Path.GetFileNameWithoutExtension(filename));
         }
  ...
@@ -111,22 +113,22 @@ public class LocalFileCache  : GridCacheForStream
         }
 ```
 
-####  2. مزامنة مع عملية واجهة المستخدم العميل
-في الواقع بالنسبة لبعض عمليات واجهة مستخدم العميل ،
+#### 2. مزامنة مع عملية واجهة المستخدم للعميل
+في الواقع، بالنسبة لبعض عمليات واجهة المستخدم الخاصة بالعميل،
 
 على سبيل المثال:
 
-تبديل ورقة النشاط إلى ورقة أخرى ،
+تبديل الورقة النشطة إلى أخرى،
 
-تغيير موقع الصورة ،
+تغيير موقع الصورة،
 
-تدوير / تغيير حجم الصورة ، وما إلى ذلك.
+تدوير/تغيير حجم الصورة، إلخ.
 
-لن يتم تشغيل إجراء UpdateCell.
+لن تتم تفعيل إجراء تحديث الخلية.
 
-وبالتالي ، إذا أردنا الحصول على الملف المحدث تمامًا مثل واجهة المستخدم الخاصة بالعميل ،
+بالتالي، إذا كنا نريد الحصول على ملف محدث تمامًا كما يظهر واجهة المستخدم الخاصة بالعميل،
 
-نحتاج إلى إجراء عملية دمج قبل حفظ الإجراء لمزامنة عملية واجهة مستخدم العميل هذه.
+نحتاج إلى القيام بعملية دمج قبل إجراء توصية بحفظ لمزامنة تلك العمليات واجهة المستخدم الخاصة بالعميل.
 ```javascript
 //in the js
   function save() {
@@ -161,8 +163,8 @@ public class LocalFileCache  : GridCacheForStream
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-####  3. الحصول على الملف من ذاكرة التخزين المؤقت
-على سبيل المثال: في إجراء التنزيل ، يمكنك فقط الحصول عليه من دليل ذاكرة التخزين المؤقت بواسطة uid.
+#### 3. الحصول على الملف من الذاكرة المؤقتة
+على سبيل المثال: في إجراء التنزيل، يمكنك ببساطة الحصول عليه من دليل الذاكرة المؤقتة عن طريق مُعرِّّف الوحدة.
 ```C#
 //in controller  
 
@@ -177,5 +179,5 @@ public class LocalFileCache  : GridCacheForStream
         }
 ```
 
-لمزيد من المعلومات التفصيلية ، يمكنك التحقق من المثال هنا:
+للمزيد من المعلومات التفصيلية، يمكنك التحقق من المثال هنا:
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

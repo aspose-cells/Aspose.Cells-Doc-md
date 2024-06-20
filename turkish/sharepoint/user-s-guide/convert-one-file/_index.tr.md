@@ -1,34 +1,35 @@
-﻿---
-title: Bir Dosyayı Dönüştür
+---
+title: Bir Dosyayı Dönüştürme
 type: docs
 weight: 10
 url: /tr/sharepoint/convert-one-file/
 ---
+
 {{% alert color="primary" %}} 
 
- Kullanıcıların Aspose.Cells numaralı telefon numarasını kullandığı en yaygın görevlerden biri, tek tek dosyaları dönüştürmektir.
+Kullanıcıların Aspose.Cells'i kullanırken en yaygın görevlerden biri, bireysel dosyaları dönüştürmektir. 
 
 {{% /alert %}} 
 ### **Bireysel Dosyaları Dönüştürme**
- Bir belge kitaplığındaki belirli bir belgeyi dönüştürmek için:
+Belirli bir belgeyi bir belge kitaplığında dönüştürmek için: 
 
-1.  Seçme**Aspose.Cells.SharePoint ile dönüştürün** belgenin Düzenleme Kontrol Bloğunda (ECB).
+1. Belge'nin Düzenleme Kontrol Blogu'nda (ECB) **Aspose.Cells.SharePoint ile Dönüştür**'ü seçin. 
 
-   **Belgenin ECB'sinde “Aspose.Cells aracılığıyla dönüştür” öğesinin seçilmesi** 
+   **Belge'nin ECB'de “Aspose.Cells ile Dönüştür” öğesini seçme** 
 
-![yapılacaklar:resim_alternatif_metin](convert-one-file_1.png)
+![todo:image_alt_text](convert-one-file_1.png)
 
 
 
-Dönüştürme ayarları ekranı görüntülenir. Burada, dönüştürmede ince ayar yapabilirsiniz:
+Dönüşüm ayarları ekranı görüntülenir. Burada, dönüşümü ince ayar yapabilirsiniz:
 
-1.  hedef dosya biçimini seçin.**E dönüşmek** liste.
-1.  Çıktı dosyasının adını şuraya girin:**Hedef dosyası** tarla.
- Varsayılan olarak, Aspose.Cells for SharePoint bu alanı kaynak dosyanın adıyla önceden doldurur.
- Uzantı, seçilen formata göre otomatik olarak eklenir.
-1.  Tıklayarak dönüştürmeyi başlatın**Dönüştürmek**.
-(Veya üzerine tıklayarak ayarlarınızı kaldırarak kitaplığa geri dönün.**İptal etmek**.)
+1. **Dönüştürülecek** listesinden hedef dosya biçimini seçin.
+1. **Hedef dosya** alanına çıktı dosyasının adını girin.
+   Varsayılan olarak, Aspose.Cells for SharePoint bu alanı kaynak dosyanın adı ile doldurur. 
+   Uzantı, seçilen formata göre otomatik olarak eklenir.
+1. **Dönüştür**'e tıklayarak dönüşümü başlatın.
+   (Veya **İptal**'e tıklayarak ayarlarınızı reddederek kitaplığa geri dönün.)
 
-**Bir dosya dönüştürme için Dönüştürme Ayarları ekranı** 
+**Bir dosya dönüşümü için Dönüşüm Ayarları ekranı** 
 
-![yapılacaklar:resim_alternatif_metin](convert-one-file_2.png)
+![todo:image_alt_text](convert-one-file_2.png)

@@ -1,29 +1,30 @@
 ---
-title: Så här fixar du java.lang.ClassNotFoundException
+title: Hur man åtgärdar java.lang.ClassNotFoundException
 type: docs
 weight: 30
 url: /sv/java/how-to-fix-java-lang-classnotfoundexception/ 
-description: Lär dig hur du fixar java.lang.ClassNotFoundException i Aspose.Cells for Java.
-keywords: How to fix BouncyCastleProvider ClassNotFoundException in Java, Solve BouncyCastleProvider exception using Java, Java solve ClassNotFoundException BouncyCastleProvider.
+description: Lär dig hur man åtgärdar java.lang.ClassNotFoundException i Aspose.Cells for Java.
+keywords: Hur man åtgärdar BouncyCastleProvider ClassNotFoundException i Java, Lös BouncyCastleProvider undantag med Java, Java löser ClassNotFoundException BouncyCastleProvider.
 ---
-Aspose.Cells for Java API beror på några ytterligare bibliotek, om de saknas kan ett undantag kastas som "java.lang.ClassNotFoundException".
+
+Aspose.Cells for Java API är beroende av några ytterligare bibliotek, om de saknas kan ett undantag kastas som "java.lang.ClassNotFoundException".
 Den här artikeln listar sådana typer av undantag och förklarar vilka bibliotek som är installerade för att lösa dem.
 
-##  Så här fixar du ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider
-###  **Sammanfattning**
-Aspose.Cells for Java API är beroende av Bouncy Castle för krypterings- och dekrypteringsfunktioner, det vill säga om programmet krävs för att ladda eller spara krypterade kalkylblad, krävs det att man lägger till referens för bcprov-jdk16-146.jar i projektets klasssökväg.
-###  **Symtom**
- Du kan få java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider.
-###  **Lösning**
-Lösningen är faktiskt väldigt enkel som beskrivs nedan.
+## Hur man åtgärdar ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider
+### **Sammanfattning**
+Aspose.Cells for Java API är beroende av Bouncy Castle för krypterings- och dekrypteringsfunktioner, det vill säga om programmet måste ladda eller spara krypterade kalkylblad är det nödvändigt att lägga till referens för bcprov-jdk16-146.jar i projektets classpath.
+### **Symptom**
+Du kan få java.lang.ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider. 
+### **Lösning**
+Lösningen är faktiskt mycket enkel som detaljeras nedan.
 
-1.  Ladda ner alla större utgåvor av[Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
-1. Extrahera det nedladdade arkivet och bläddra till katalogen \JDK 1.6\aspose-cells-xx0-java\lib.
-1. Referera till bcprov-jdk16-146.jar i projektets klasssökväg.
+1. Ladda ner en huvudversion av [Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
+1. Packa upp den nerladdade arkivet och bläddra till \JDK 1.6\aspose-cells-x.x.0-java\lib-mappen.
+1. Ange bcprov-jdk16-146.jar i projektets classpath.
 
 Alternativt kan du lägga till beroendet i pom.xml och låta projektet lösa beroendet via maven.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <dependencies>
 

@@ -1,37 +1,38 @@
-﻿---
+---
 title: Gestion des plages
-linktitle: Gammes
+linktitle: Plages
 type: docs
 weight: 105
 url: /fr/net/managing-ranges/
 ---
+
 ## **Introduction**
 
-Dans Excel, vous pouvez sélectionner plusieurs cellules avec une boîte de sélection de la souris, l'ensemble des cellules sélectionnées est appelé "Plage".
+Dans Excel, vous pouvez sélectionner plusieurs cellules avec une sélection de zone à la souris, l'ensemble des cellules sélectionnées est appelé "Plage".
 
-Par exemple, vous pouvez cliquer sur le bouton gauche de la souris dans Cell "A1" d'Excel, puis faire glisser vers la cellule "C4". La zone rectangulaire que vous avez sélectionnée peut également être facilement créée en tant qu'objet en utilisant Aspose.Cells.
+Par exemple, vous pouvez cliquer sur le bouton gauche de la souris dans la cellule "A1" d'Excel, puis faire glisser jusqu'à la cellule "C4". La zone rectangulaire que vous avez sélectionnée peut également être facilement créée en tant qu'objet en utilisant Aspose.Cells.
 
-Voici comment créer une plage, mettre une valeur, définir un style et effectuer d'autres opérations sur l'objet "Range".
+Voici comment créer une plage, mettre une valeur, définir un style et effectuer d'autres opérations sur l'objet "Plage".
 
-## **Gestion des gammes à l'aide de Aspose.Cells**
+## **Gestion des plages à l'aide de Aspose.Cells**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) le recueil.
+Aspose.Cells fournit une classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contient une collection [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fournit une collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells).
 
 ### **Créer une plage**
 
-Lorsque vous souhaitez créer une zone rectangulaire qui s'étend sur A1 : C4, vous pouvez utiliser le code suivant :
+Lorsque vous souhaitez créer une zone rectangulaire qui s'étend sur A1:C4, vous pouvez utiliser le code suivant :
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-Create.cs" >}}
 
-### **Mettez de la valeur dans le Cells de la Gamme**
+### **Placer une valeur dans les cellules de la plage**
 
-Supposons que vous ayez une plage de cellules qui s'étend sur A1: C4. La matrice fait 4 * 3 = 12 cellules. Les cellules de plage individuelles sont disposées séquentiellement : Range[0,0], Range[0,1], Range[0,2], Range[1,0], Range[1,1], Range[1,2], Plage[2,0], Plage[2,1], Plage[2,2], Plage[3,0], Plage[3,1], Plage[3,2].
+Imaginons que vous avez une plage de cellules qui s'étend sur A1:C4. La matrice contient 4 * 3 = 12 cellules. Les cellules individuelles de la plage sont disposées de manière séquentielle : Plage[0,0], Plage[0,1], Plage[0,2], Plage[1,0], Plage[1,1], Plage[1,2], Plage[2,0], Plage[2,1], Plage[2,2], Plage[3,0], Plage[3,1], Plage[3,2].
 
 L'exemple suivant montre comment saisir des valeurs dans les cellules de la plage.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-PutValue.cs" >}}
 
-### **Set style du Cells de la Gamme**
+### **Définir le style des cellules de la plage**
 
 L'exemple suivant montre comment définir le style des cellules de la plage.
 
@@ -39,37 +40,37 @@ L'exemple suivant montre comment définir le style des cellules de la plage.
 
 ### **Obtenir la région actuelle de la plage**
 
- CurrentRegion est une propriété qui renvoie un objet Range qui représente la région actuelle.
+CurrentRegion est une propriété qui renvoie un objet Range qui représente la région actuelle. 
 
-La région actuelle est une plage délimitée par n'importe quelle combinaison de lignes vides et de colonnes vides. Lecture seulement.
+La région actuelle est une plage délimitée par une combinaison de lignes vierges et de colonnes vierges. En lecture seule.
 
-Dans Excel, vous pouvez obtenir la zone CurrentRegion en :
-1. Sélectionnez une zone (range1) avec la boîte de la souris.
-2. Cliquez sur "Accueil - Édition - Rechercher et sélectionner - Aller à Spécial - Région actuelle", ou utilisez "Ctrl + Maj + *", vous verrez qu'Excel vous aide automatiquement à sélectionner une zone (range2), maintenant vous l'avez fait, range2 est la CurrentRegion de range1.
+Dans Excel, vous pouvez obtenir la région actuelle en :
+1. Sélectionnez une zone (plage1) avec la boîte de souris.
+2. Cliquez sur "Accueil - Modification - Recherche et sélection - Atteindre une spécificité - Région actuelle", ou utilisez "Ctrl+Maj+*", vous verrez qu'Excel vous aide automatiquement à sélectionner une zone (plage2), maintenant vous l'avez fait, la plage2 est la région actuelle de la plage1.
 
-En utilisant Aspose.Cells, vous pouvez utiliser la propriété "Range.CurrentRegion" pour exécuter la même fonction.
+En utilisant Aspose.Cells, vous pouvez utiliser la propriété "Range.CurrentRegion" pour effectuer la même fonction.
 
-Veuillez télécharger le fichier de test suivant, ouvrez-le dans Excel, utilisez la souris pour sélectionner une zone "A1:D7", puis cliquez sur "Ctrl+Maj+*", vous verrez la zone "A1:C3" sélectionnée.
+Veuillez télécharger le fichier de test suivant, l'ouvrir dans Excel, utiliser la boîte de souris pour sélectionner une zone "A1:D7", puis cliquer sur "Ctrl+Maj+*", vous verrez que la zone "A1:C3" est sélectionnée.
 
-[région_actuelle.xlsx](current_region.xlsx)
+[current_region.xlsx](current_region.xlsx)
 
-Veuillez maintenant exécuter l'exemple suivant, voir comment cela fonctionne dans Aspose.Cells :
+Veuillez exécuter l'exemple suivant pour voir comment cela fonctionne dans Aspose.Cells :
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-CurrentRegion.cs" >}}
 
 
 ## **Sujets avancés**
-- [Plage de remplissage automatique du fichier Excel](/cells/fr/net/autofill-ranges/)
-- [Copier les plages d'Excel](/cells/fr/net/copy-ranges-of-Excel/)
-- [Copier uniquement les données de plage](/cells/fr/net/copy-range-data-only/)
-- [Copier les données de plage avec style](/cells/fr/net/copy-range-data-with-style/)
-- [Copier le style de plage uniquement](/cells/fr/net/copy-range-style-only/)
-- [Créer une plage d'union](/cells/fr/net/create-union-range/)
-- [Couper et Coller Gamme](/cells/fr/net/cut-and-paste-cells/)
-- [Supprimer des plages](/cells/fr/net/delete-ranges-from-Excel/)
-- [Get Address Cell Count Offset Toute la colonne et toute la ligne de la plage](/cells/fr/net/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/)
+- [Plage AutoFill du fichier Excel](/cells/fr/net/autofill-ranges/)
+- [Copier des plages de cellules d'Excel](/cells/fr/net/copy-ranges-of-Excel/)
+- [Copier uniquement les données de la plage](/cells/fr/net/copy-range-data-only/)
+- [Copier les données de la plage avec le style](/cells/fr/net/copy-range-data-with-style/)
+- [Copier uniquement le style de la plage](/cells/fr/net/copy-range-style-only/)
+- [Créer l'union de la plage](/cells/fr/net/create-union-range/)
+- [Couper et coller la plage](/cells/fr/net/cut-and-paste-cells/)
+- [Supprimer les plages](/cells/fr/net/delete-ranges-from-Excel/)
+- [Obtenir le nombre de cellules, le décalage de la plage entière de colonne et de ligne entière](/cells/fr/net/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/)
 - [Insérer des plages](/cells/fr/net/insert-ranges-to-Excel/)
-- [Fusionner ou dissocier la plage de Cells](/cells/fr/net/merge-or-unmerge-range-of-cells/)
-- [Déplacer la plage de Cells dans une feuille de calcul](/cells/fr/net/move-range-of-cells-in-a-worksheet/)
-- [Créer des plages nommées d'étendue de classeur et de feuille de calcul](/cells/fr/net/create-workbook-and-worksheet-scoped-named-ranges/)
+- [Fusionner ou séparer la plage de cellules](/cells/fr/net/merge-or-unmerge-range-of-cells/)
+- [Déplacer une plage de cellules dans une feuille de calcul](/cells/fr/net/move-range-of-cells-in-a-worksheet/)
+- [Créer des plages nommées en fonction du classeur et de la feuille de calcul](/cells/fr/net/create-workbook-and-worksheet-scoped-named-ranges/)
 - [Rechercher et remplacer des données dans une plage](/cells/fr/net/search-and-replace-data-in-a-range/)

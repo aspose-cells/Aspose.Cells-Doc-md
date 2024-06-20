@@ -1,25 +1,26 @@
 ---
 title: Zeilenumbrüche und Textumbruch
-description: So implementieren Sie Textumbruch und Zeilenumbruch mithilfe der Bibliothek Aspose.Cells in C#. Mithilfe der Bibliothek Aspose.Cells können Sie problemlos Text in Zellen einfügen und die Textumbruchmethode festlegen, z. B. manuellen Zeilenumbruch, Zeilenumbruch usw. In diesem Dokument wird detailliert beschrieben, wie zur Implementierung dieser Funktionen und stellt Beispielcode als Referenz bereit.
-keywords: Aspose.Cells, line breaks, text wraps, text layout
+description: So implementieren Sie Textumbruch und Wortumbruch mithilfe der Aspose.Cells Bibliothek in C#. Mit der Aspose.Cells Bibliothek können Sie problemlos Text in Zellen einfügen und die Textumbruchmethode festlegen, z. B. manueller Wortumbruch, Wortumbruch usw. Dieses Dokument erläutert, wie man diese Funktionen implementiert, und bietet Beispielscode zur Referenz.
+keywords: Aspose.Cells, Zeilenumbrüche, Textumbrüche, Textlayout
 type: docs
 weight: 60
 url: /de/net/line-breaks-and-text-wrapping/
 ---
+
 {{% alert color="primary" %}}
 
-Um sicherzustellen, dass Text in einer Zelle lesbar ist, können explizite Zeilenumbrüche und Textumbrüche angewendet werden. Durch den Textumbruch wird eine Zeile in einer Zelle in mehrere Zeilen umgewandelt, die durch explizite Zeilenumbrüche genau an der gewünschten Stelle eingefügt werden.
+Um sicherzustellen, dass der Text in einer Zelle gelesen werden kann, können explizite Zeilenumbrüche und Textumbrüche angewendet werden. Textumbrüche verwandeln eine Zeile in mehrere in einer Zelle, wobei explizite Zeilenumbrüche genau dort eingefügt werden, wo Sie sie haben möchten.
 
 {{% /alert %}}
 
-##  **So brechen Sie Text in eine Cell ein**
+## **Text in einer Zelle umbrechen**
 
-Um Text in einer Zelle umzubrechen, verwenden Sie die[**Aspose.Cells.Style.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)Eigentum.
+Um Text in einer Zelle umzubrechen, verwenden Sie die Eigenschaft [**Aspose.Cells.Style.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 
-##  **So verwenden Sie explizite Zeilenumbrüche**
+## **Explizite Zeilenumbrüche verwenden**
 
-Sie können „\n“ in C# und „vbLf“ in VB.NET verwenden, um explizite Zeilenumbrüche in eine Zelle einzufügen.
+Sie können in C# „\n“ und in VB.NET „vbLf“ verwenden, um explizite Zeilenumbrüche in einer Zelle einzufügen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}

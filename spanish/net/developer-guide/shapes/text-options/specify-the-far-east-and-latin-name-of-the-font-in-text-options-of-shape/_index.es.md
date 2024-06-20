@@ -1,18 +1,19 @@
-﻿---
-title: Especifique el Lejano Oriente y el nombre latino de la fuente en las opciones de texto de la forma
+---
+title: Especificar el nombre del Lejano Oriente y del Font en opciones de texto de forma
 type: docs
 weight: 1600
 url: /es/net/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/
 ---
-## **Posibles escenarios de uso**
 
-A veces, desea mostrar el texto en la fuente del idioma del Lejano Oriente, por ejemplo, japonés, chino, tailandés, etc. Aspose.Cells proporciona[**TextOptions.FarEastName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/fareastname)propiedad que se puede utilizar para especificar el nombre de la fuente del idioma del Lejano Oriente. Además, también puede especificar el nombre de la fuente latina usando[**TextOptions.LatinName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/latinname)propiedad.
+## **Escenarios de uso posibles**
 
-## **Especifique el Lejano Oriente y el nombre latino de la fuente en las opciones de texto de la forma**
+A veces quieres mostrar texto en fuentes de idioma del Lejano Oriente como japonés, chino, tailandés, etc. Aspose.Cells proporciona la propiedad [**TextOptions.FarEastName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/fareastname) que se puede usar para especificar el nombre de la fuente del idioma del Lejano Oriente. Además, también puedes especificar el nombre de la fuente latina usando la propiedad [**TextOptions.LatinName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/latinname).
 
- El siguiente código de ejemplo crea un cuadro de texto y agrega texto en japonés dentro de él. A continuación, especifica los nombres de las fuentes del texto en latín y del Lejano Oriente y guarda el libro de trabajo como[archivo de salida de Excel](67338274.xlsx). La siguiente captura de pantalla muestra los nombres de las fuentes Latin y Far East del cuadro de texto de salida en Microsoft Excel.
+## **Especificar el nombre del Lejano Oriente y del Font en opciones de texto de forma**
 
-![todo:imagen_alternativa_texto](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
+El siguiente código de muestra crea un cuadro de texto y agrega un texto japonés en su interior. Luego especifica los nombres de fuentes latinas y del Lejano Oriente del texto y guarda el libro como [archivo de Excel de salida](67338274.xlsx). La siguiente captura de pantalla muestra los nombres de las fuentes latina y del Lejano Oriente del cuadro de texto de salida en Microsoft Excel.
+
+![todo:image_alt_text](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
 
 ## **Código de muestra**
 

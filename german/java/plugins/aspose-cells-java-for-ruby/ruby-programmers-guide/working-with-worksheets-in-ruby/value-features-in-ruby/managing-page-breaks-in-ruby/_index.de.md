@@ -1,16 +1,17 @@
-﻿---
-title: Verwalten von Seitenumbrüchen in Ruby
+---
+title: Seitenumbrüche verwalten in Ruby
 type: docs
 weight: 20
 url: /de/java/managing-page-breaks-in-ruby/
 ---
-## **Aspose.Cells – Verwalten von Seitenumbrüchen**
+
+## **Aspose.Cells - Seitenumbrüche verwalten**
 ### **Seitenumbrüche hinzufügen**
- So fügen Sie Seitenumbrüche hinzu mit**Aspose.Cells Java für Rubin** , Anruf**add_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+Um Seitenumbrüche mit **Aspose.Cells Java für Ruby** hinzuzufügen, rufen Sie die Methode **add_page_breaks** des Moduls **pagebreaks** auf. Im Folgenden finden Sie ein Codebeispiel.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_page_breaks(workbook)
 
@@ -37,12 +38,12 @@ url: /de/java/managing-page-breaks-in-ruby/
 end   
 
 {{< /highlight >}}
-### **Löschen aller Seitenumbrüche**
- Um alle Seitenumbrüche zu löschen, verwenden Sie**Aspose.Cells Java für Rubin** , Anruf**clear_all_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+### **Alle Seitenumbrüche löschen**
+Um alle Seitenumbrüche mit **Aspose.Cells Java for Ruby** zu löschen, rufen Sie die Methode **clear_all_page_breaks** des Moduls **pagebreaks** auf. Im Folgenden finden Sie ein Codebeispiel.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def clear_all_page_breaks(workbook)
 
@@ -59,12 +60,12 @@ end   
 end 
 
 {{< /highlight >}}
-### **Entfernen eines bestimmten Seitenumbruchs**
- So entfernen Sie einen bestimmten Seitenumbruch mit**Aspose.Cells Java für Rubin** , Anruf**remove_page_break** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+### **Bestimmten Seitenumbruch entfernen**
+Um einen bestimmten Seitenumbruch mit **Aspose.Cells Java for Ruby** zu entfernen, rufen Sie die Methode **remove_page_break** des Moduls **pagebreaks** auf. Im Folgenden finden Sie ein Codebeispiel.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_page_break(workbook)
 
@@ -93,7 +94,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Seitenumbrüche verwalten (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+**Seitenumbrüche verwalten (Aspose.Cells)** von einer der unten genannten Plattformen für soziale Programmierung herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreaks.rb)

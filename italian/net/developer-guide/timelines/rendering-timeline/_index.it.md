@@ -1,18 +1,19 @@
-﻿---
-title: Cronologia del rendering
+---
+title: Rappresentazione della Timeline
 type: docs
 weight: 40
 url: /it/net/rendering-timeline/
-description: Gestisci le sequenze temporali dei file Excel con Aspose.Cells.
-keywords: Rendering timeline without office 2013, office 2016, office 2019 and office 365
+description: Gestisci le linee temporali dei file Excel con Aspose.Cells
+keywords: Rappresentazione della timeline senza office 2013, office 2016, office 2019 e office 365
 ---
-## **Possibili scenari di utilizzo**
-Aspose.Cells supporta il rendering della forma della sequenza temporale senza utilizzare Office 2013, Office 2016, Office 2019 e Office 365. Se converti il tuo foglio di lavoro in un'immagine o salvi la tua cartella di lavoro nei formati PDF o HTML, vedrai che le timeline vengono visualizzate correttamente.
 
-## **Cronologia del rendering**
-Il codice di esempio seguente carica il file[esempio di file Excel](input.xlsx) che contiene una sequenza temporale esistente. Ottieni l'oggetto forma in base al nome della sequenza temporale, quindi esegui il rendering in un'immagine tramite il metodo Shape.ToImage(). L'immagine che scorre è il[immagine in uscita](out.png)che mostra la sequenza temporale renderizzata. Come puoi vedere, la sequenza temporale è stata renderizzata correttamente e ha lo stesso aspetto del file Excel di esempio.
+## **Possibili Scenari di Utilizzo**
+Aspose.Cells supporta la rappresentazione della forma della timeline senza utilizzare office 2013, office 2016, office 2019 e office 365. Se converti il tuo foglio di lavoro in un'immagine o salvi il tuo workbook in formati PDF o HTML, vedrai che le timeline vengono rappresentate correttamente.
 
-![cose da fare:immagine_alt_testo](out.png)
-### **Codice d'esempio**
+## **Rappresentazione della Timeline**
+Il seguente codice di esempio carica il [file di Excel di esempio](input.xlsx) che contiene una timeline esistente. Ottieni l'oggetto forma in base al nome della timeline, e poi rendilo in un'immagine attraverso il metodo Shape.ToImage(). L'immagine seguente è l'[immagine di output](out.png) che mostra la timeline resa. Come puoi vedere, la timeline è stata rappresentata correttamente e sembra la stessa del file di Excel di esempio.
+
+![todo:image_alt_text](out.png)
+### **Codice di Esempio**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-RenderingTimeline.cs" >}}
 

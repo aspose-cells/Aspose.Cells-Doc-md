@@ -1,19 +1,20 @@
-﻿---
+---
 title: Skapa pivottabell i xlsx4j
 type: docs
 weight: 20
 url: /sv/java/create-pivot-table-in-xlsx4j/
 ---
-## **Aspose.Cells - Skapa pivottabell**
-Så här skapar du en pivottabell med Aspose.Cells:
 
-1. Lägg till några data i ett kalkylbladsceller med hjälp av ett Cell-objekts PutValue/setValue-metod. Du använder också en mallfil som redan är fylld med data. Data kommer att användas som pivottabellens datakälla.
-1. Lägg till en pivottabell till kalkylbladet genom att anropa PivotTables-samlingens add-metod (inkapslad i Worksheet-objektet).
-1. Få tillgång till det nya PivotTable-objektet från PivotTables-samlingen genom att skicka dess index. # Använd något av pivottabellobjekten som är inkapslade i PivotTable-objektet för att hantera tabellen.
+## **Aspose.Cells - Skapa pivottabell**
+För att skapa en pivot tabell med Aspose.Cells:
+
+1. Lägg till vissa data i arbetsbladsceller med hjälp av en Cell-objekts PutValue/setValue-metod. Du kan också använda en mallfil som redan är ifylld med data. Datan kommer att användas som pivottabellens datakälla.
+1. Lägg till en pivottabell i arbetsbladet genom att anropa PivotTables-samlingens add-metod (inkapslat i Worksheet-objektet).
+1. Få åtkomst till det nya PivotTable-objektet från PivotTables-samlingen genom att skicka dess index. # Använd något av pivottabellsobjekten som är inkapslade i PivotTable-objektet för att hantera tabellen.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -157,13 +158,13 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/tables/createpivottable/AsposeCreatePivotTable.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Skapa pivottabeller och pivotdiagram](/cells/sv/java/create-pivot-tables-and-pivot-charts).
+För mer information, besök [Skapa pivottabeller och pivottabeller](/cells/sv/java/skapa-pivottabeller-och-pivottabeller).
 
 {{% /alert %}}

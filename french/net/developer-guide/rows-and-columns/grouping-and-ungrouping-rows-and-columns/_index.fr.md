@@ -1,63 +1,64 @@
-﻿---
-title: Grouper et dissocier des lignes et des colonnes
+---
+title: Regroupement et dégroupement des lignes et des colonnes
 type: docs
 weight: 50
 url: /fr/net/grouping-and-ungrouping-rows-and-columns/
 ---
+
 ## **Introduction**
 
-Dans un fichier Excel Microsoft, vous pouvez créer un plan pour les données afin de vous permettre d'afficher et de masquer les niveaux de détail d'un simple clic de souris.
+Dans un fichier Microsoft Excel, vous pouvez créer un plan pour les données afin de vous permettre d'afficher et de masquer les niveaux de détail d'un simple clic de souris.
 
- Clique le**Symboles de contour**, 1,2,3, + et - pour afficher rapidement uniquement les lignes ou les colonnes qui fournissent des résumés ou des en-têtes pour les sections d'une feuille de calcul, ou vous pouvez utiliser les symboles pour voir les détails sous un résumé ou un en-tête individuel, comme indiqué ci-dessous dans la figure :
+Cliquez sur les **symboles de plan**, 1,2,3, + et - pour afficher rapidement uniquement les lignes ou colonnes fournissant des résumés ou des en-têtes de sections dans une feuille de calcul, ou vous pouvez utiliser les symboles pour voir les détails sous un résumé ou une en-tête individuelle comme le montre la figure ci-dessous:
 
 |**Regroupement des lignes et des colonnes.**|
-|:- |
-|![tâche : image_autre_texte](grouping-and-ungrouping-rows-and-columns_1.png)|
+| :- |
+|![todo:image_alt_text](grouping-and-ungrouping-rows-and-columns_1.png)|
 
-## **Gestion groupée des lignes et des colonnes**
+## **Gestion des groupes de lignes et de colonnes**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection qui représente toutes les cellules de la feuille de calcul.
+Aspose.Cells fournit une classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contient un [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fournit une [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) qui représente toutes les cellules de la feuille de calcul.
 
- Le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul, quelques-unes d'entre elles sont décrites ci-dessous plus en détail.
+La collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) propose plusieurs méthodes pour gérer les lignes ou colonnes dans une feuille de calcul, dont certaines sont discutées plus en détail ci-dessous.
 
-### **Regroupement de lignes et de colonnes**
+### **Regrouper des lignes et des colonnes**
 
- Il est possible de grouper des lignes ou des colonnes en appelant le[**GroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/grouprows/index) et[**GroupeColonnes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/groupcolumns/index) méthodes de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) le recueil. Les deux méthodes prennent les paramètres suivants :
+Il est possible de regrouper des lignes ou des colonnes en appelant les méthodes [**GroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/grouprows/index) et [**GroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/groupcolumns/index) de la collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Les deux méthodes prennent les paramètres suivants :
 
-- Index de la première ligne/colonne, la première ligne ou colonne du groupe.
-- Index de la dernière ligne/colonne, la dernière ligne ou colonne du groupe.
-- Est masqué, un paramètre booléen qui spécifie s'il faut masquer ou non les lignes/colonnes après le regroupement.
+- Indice de la première ligne/colonne, la première ligne ou colonne du groupe.
+- Indice de la dernière ligne/colonne, la dernière ligne ou colonne du groupe.
+- Est caché, un paramètre booléen qui spécifie s'il faut masquer ou non les lignes/colonnes après le regroupement.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-GroupingRowsAndColumns-1.cs" >}}
 
-#### **Paramètres de groupe**
+#### **Paramètres de regroupement**
 
-Microsoft Excel vous permet de configurer les paramètres de groupe pour afficher :
+Microsoft Excel vous permet de configurer les paramètres de regroupement pour l'affichage :
 
-- Lignes récapitulatives sous les détails.
-- Colonnes récapitulatives à droite du détail.
+- Lignes de récapitulatif en dessous des détails.
+- Colonnes de récapitulatif à droite des détails.
 
- Les développeurs peuvent configurer ces paramètres de groupe à l'aide de la[**Contour**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) propriété de la[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
+Les développeurs peuvent configurer ces paramètres de regroupement en utilisant la propriété [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) de la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
 
-### **Lignes récapitulatives jusqu'en dessous du détail**
+### **Lignes de résumé en dessous des détails**
 
- Il est possible de contrôler si les lignes récapitulatives sont affichées sous les détails en définissant le paramètre[**Contour**](https://reference.aspose.com/cells/net/aspose.cells/outline) classe'[**SummaryRowBelow**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) propriété à**vrai** ou alors**faux**.
+Il est possible de contrôler si les lignes de récapitulatif sont affichées en dessous des détails en définissant la propriété [**SummaryRowBelow**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) de la classe [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/outline) à **true** ou **false**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
 ### **Colonnes récapitulatives à droite du détail**
 
- Les développeurs peuvent également contrôler l'affichage des colonnes récapitulatives à droite des détails en définissant le paramètre[**RésuméColonneDroite**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) propriété de[**Contour**](https://reference.aspose.com/cells/net/aspose.cells/outline) classe à**vrai** ou alors**faux**.
+Les développeurs peuvent également contrôler l'affichage des colonnes de récapitulatif à droite des détails en définissant la propriété [**SummaryColumnRight**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) de la classe [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/outline) à **true** ou **false**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
 
-## **Dégrouper des lignes et des colonnes**
+## **Désagréger les lignes et les colonnes**
 
- Pour dégrouper des lignes ou des colonnes groupées, appelez le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) de la collection[**Dissocier les lignes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) et[**Dissocier les colonnes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns)méthodes. Les deux méthodes prennent deux paramètres :
+Pour dissocier les lignes ou colonnes regroupées, appelez les méthodes [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) et [**UngroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns) de la collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Les deux méthodes prennent deux paramètres :
 
-- Premier index de ligne ou de colonne, la première ligne/colonne à dissocier.
-- Index de la dernière ligne ou colonne, la dernière ligne/colonne à dissocier.
+- Indice de la première ligne ou colonne, la première ligne/colonne à dissocier.
+- Indice de la dernière ligne ou colonne, la dernière ligne/colonne à dissocier.
 
-[**Dissocier les lignes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) a une surcharge qui prend un troisième paramètre booléen. Le mettre à**vrai**supprime toutes les informations groupées. Sinon, seules les informations du groupe externe sont supprimées.
+[**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) a une surcharge qui prend un troisième paramètre booléen. Le définir sur **true** supprime toutes les informations regroupées. Sinon, seules les informations de groupe externe sont supprimées.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}

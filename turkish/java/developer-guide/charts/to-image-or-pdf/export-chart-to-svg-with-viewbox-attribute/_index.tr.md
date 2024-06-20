@@ -1,14 +1,15 @@
-﻿---
-title: Grafiği viewBox özniteliğiyle SVG'e aktarın
+---
+title: viewBox özniteliği ile SVG ye Grafik Dışa Aktarma
 type: docs
 weight: 190
 url: /tr/java/export-chart-to-svg-with-viewbox-attribute/
 ---
- Varsayılan olarak, grafik SVG biçiminde dışa aktarıldığında,**görünüm kutusu** öznitelik, XML'ine dahil değildir. Ancak, Aspose.Cells sağlar[**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort) ayarlandığında hangi özellik**doğru** grafiği, viewBox özniteliğiyle SVG'e aktarır.
 
- Grafiğin SVG'ini not defterinde açarsanız,**görünüm kutusu**buna benzer öznitelik.
+Varsayılan olarak, bir grafik SVG biçimine dönüştürüldüğünde XML'sinde **viewBox** özelliği bulunmaz. Bununla birlikte, Aspose.Cells, [**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort) özelliğini sağlar, bu özellik **true** olarak ayarlandığında grafik SVG'yi **viewBox** özelliğiyle birlikte ihraç eder.
 
-{{< highlight "java" >}}
+Grafiğin SVG'sini not defterinde açarsanız, benzer bir **viewBox** özniteliği bulacaksınız.
+
+{{< highlight java >}}
 
  <svg xmlns="http://www.w3.org/2000/svg"
 
@@ -20,11 +21,11 @@ url: /tr/java/export-chart-to-svg-with-viewbox-attribute/
 
 {{< /highlight >}}
 
-## Kod Parçacığı
+## Kod Örneği
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportCharttoSVG-ExportCharttoSVG.java" >}}
 
 ## İlgili Makaleler
 
-- [Grafik Oluşturma](/cells/tr/java/chart-rendering/)
-- [Çalışma Sayfasını veya Grafiği İstenilen Genişlik ve Yükseklikte Görüntüye Aktarın](/cells/tr/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+- [Grafik Rendeleme](/cells/tr/java/chart-rendering/)
+- [Belirtilen Genişlik ve Yükseklikte Çalışsayısı veya Tabloyu Resme Dışa Aktarma](/cells/tr/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)

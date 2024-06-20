@@ -1,30 +1,33 @@
-﻿---
+---
 title: Aspose.Cells for Node.js via Java
 type: docs
 weight: 50
 url: /ar/nodejs-java/
 is_root: true
+description: تدعم Aspose.Cells لـ Node.js via Java صيغ ملفات الإكسل الشائعة (XLS، XLSX، XLSM، XLSB، XLTX، XLTM، SpreadsheetML، CSV)، وOpenOffice (ODS)، HTML و JSON وتسمح بتصدير ملفات الإكسل إلى صيغ PDF، DOCX، PPTX، JSON، XPS، HTML، MHTML، نص عادي وصيغ الصور الشائعة بما في ذلك TIFF، JPG، PNG، BMP وSVG.
+keywords: تقوم Aspose.Cells لـ Node.js via Java بإنشاء وإصلاح وتعديل وتحليل ودمج وتحويل JSON و Excel و XML و PDF و HTML و TSV و SQL و TXT و PNG و JPEG وصيغ أخرى.
 ---
+
 {{% alert color="primary" %}}
 
 **![todo:image_alt_text](aspose-cells-for-node-js-via-java-home_1)**
 
-**مرحبا بكم في Aspose.Cells for Node.js via Java**
+**مرحبًا بكم في Aspose.Cells لـ Node.js via Java**
 
-يقدم Aspose.Cells for Node.js via Java جميع الميزات المفيدة لـ Aspose.Cells for Java باستخدام Node.js. Aspose.Cells for Node.js via Java هي مكتبة فئات تمكنك من أداء مجموعة كبيرة من مهام معالجة جداول البيانات. Aspose.Cells for Node.js via Java هو API قابل للتطوير وغني بالميزات يوفر تحويل تنسيق جدول البيانات ، وتصميم أوراق العمل إلى المستوى الأكثر دقة ، وإدارة الرسوم البيانية وعرضها ، ومحرك حساب الصيغة الموثوق به. Aspose.Cells for Node.js via Java يدعم XLS، XLSX، ODS، SpreadsheetML، CSV، Tab Delimited، HTML/MHTML، PDF، XPS وتنسيقات أخرى. باستخدام Aspose.Cells for Node.js via Java ، يمكنك إنشاء مستندات Excel وتعديلها وتحويلها وتقديمها.
+Aspose.Cells لـ Node.js via Java تقدم جميع الميزات الفعالة لـ Aspose.Cells for Java باستخدام Node.js. Aspose.Cells لـ Node.js via Java هي مكتبة فئات تمكنك من أداء مجموعة كبيرة من المهام المتعلقة بمعالجة جداول البيانات. Aspose.Cells لـ Node.js via Java هي واجهة برمجة تطبيقات قابلة للتطوير وتحتوي على العديد من الميزات تشمل تحويل صيغ الجداول، تنسيق ورق العمل على أدق مستوى، إدارة وتقديم الرسوم البيانية، ومحرك حساب الصيغ الموثوق به لدينا. Aspose.Cells لـ Node.js via Java تدعم صيغ XLS، XLSX، ODS، SpreadsheetML، CSV، Tab Delimited، HTML/MHTML، PDF، XPS وصيغ أخرى. باستخدام Aspose.Cells لـ Node.js via Java يمكنك إنشاء، تعديل، تحويل وتقديم مستندات الإكسل.
 
 {{% /alert %}}
 
-## **Aspose.Cells for Node.js via Java الموارد**
+## **موارد Aspose.Cells لـ Node.js via Java**
 
-فيما يلي روابط لبعض الموارد المفيدة التي قد تحتاجها لإنجاز مهامك.
+فيما يلي الروابط إلى بعض الموارد المفيدة التي قد تحتاجها لإنجاز مهامك.
 
-- [Aspose.Cells for Java التوثيق عبر الإنترنت](/cells/ar/java/)(Aspose.Cells for Node.js عبر Java يتم نقله من Aspose.Cells for Java. لذلك ، يمكنك استخدام نفس الوثائق)
-- [Aspose.Cells for Node.js via Java الميزات](/cells/ar/nodejs-java/features/)
-- [Aspose.Cells for Node.js via Java القيود و API الاختلافات](/cells/ar/nodejs-java/limitations-and-api-differences/)
-- [Aspose.Cells for Node.js via Java ملاحظات الإصدار](https://releases.aspose.com/cells/ar/nodejs/release-notes/)
-- [Aspose.Cells for Node.js via Java صفحة المنتج](https://products.aspose.com/cells/nodejs-java/)
+- [Aspose.Cells for Java وثائق عبر الإنترنت](/cells/ar/java/) (Aspose.Cells لـ Node.js عبر Java تم نقلها من Aspose.Cells for Java. لذا ، يمكنك استخدام نفس الوثائق)
+- [ميزات Aspose.Cells لـ Node.js via Java](/cells/ar/nodejs-java/features/)
+- [قيود واختلافات واجهة برمجة التطبيقات لـ Aspose.Cells لـ Node.js via Java](/cells/ar/nodejs-java/limitations-and-api-differences/)
+- [ملاحظات الإصدار Aspose.Cells for Node.js via Java](https://releases.aspose.com/cells/nodejs/release-notes/)
+- [صفحة المنتج Aspose.Cells for Node.js via Java](https://products.aspose.com/cells/nodejs-java/)
 - [تحميل Aspose.Cells for Node.js via Java](https://downloads.aspose.com/cells/nodejs)
-- [Aspose.Cells for Node.js via Java API دليل مرجعي](https://reference.aspose.com/cells/nodejs)
-- [Aspose.Cells for Node.js via Java منتدى الدعم المجاني](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells for Node.js via Java مكتب مساعدة الدعم المدفوع](https://helpdesk.aspose.com/)
+- [دليل مرجعي لواجهة برمجة التطبيقات Aspose.Cells for Node.js via Java](https://reference.aspose.com/cells/nodejs)
+- [منتدى الدعم الفني المجاني لـ Aspose.Cells for Node.js via Java](https://forum.aspose.com/c/cells/9)
+- [مكتب المساعدة للدعم المدفوع لـ Aspose.Cells for Node.js via Java](https://helpdesk.aspose.com/)

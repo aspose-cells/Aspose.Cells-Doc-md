@@ -1,42 +1,43 @@
-﻿---
-title:  XML'i Excel çalışma kitabına aktarma
+---
+title: Excel çalışma kitabına XML İçe Aktarma 
 linktitle: XML Haritaları
 type: docs
 weight: 210
 url: /tr/net/import-xml-map-inside-a-workbook-using-aspose-cells/
-description: Bir XML veri dosyasından Microsoft Excel'e veri aktarın.
+description: XML verilerini bir XML veri dosyasından Microsoft Excel e alma.
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells, çalışma kitabının içine XML eşlemesini içe aktarmanıza izin verir.[**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) yöntem. Aşağıdaki adımlarla Microsoft Excel'i kullanarak XML Haritasını içe aktarabilirsiniz.
+Aspose.Cells, XML haritasını çalışma kitabının içine [**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) yöntemini kullanarak içe aktarmanıza olanak tanır. Microsoft Excel ile XML Haritası içe aktarımını aşağıdaki adımları kullanarak gerçekleştirebilirsiniz.
 
--  Seçme**Geliştirici** sekme
--  Tıklamak**İçe aktarmak** XML bölümünde ve gerekli adımları izleyin.
+- **Geliştirici** sekmesini seçin
+- XML bölümünde **İçe Aktar**'ı tıklayın ve gerekli adımları izleyin.
 
- İçe aktarmayı tamamlamak için XML verilerinizi sağlamanız gerekecektir. Burada bir[örnek XML verileri](5115037.txt) test etmek için kullanabileceğiniz.
+İçe aktarma işlemini tamamlamak için XML verilerinizi sağlamanız gerekecektir. Test için kullanabileceğiniz [örnek XML verileri](5115037.txt) burada bulunmaktadır.
 
 {{% /alert %}}
 
-## **Microsoft Excel kullanarak XML Haritasını içe aktarın**
+## **Microsoft Excel kullanarak XML Haritası İçe Aktarma**
 
-Aşağıdaki ekran görüntüsü, Microsoft Excel kullanılarak XML Eşlemesinin nasıl içe aktarılacağını gösterir.
+Aşağıdaki ekran görüntüsü, Microsoft Excel kullanarak XML Haritası İçe Aktarma işlemini göstermektedir.
 
-|![yapılacaklar:resim_alternatif_metin](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
-|:- |
+|![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
+| :- |
 
-## **Aspose.Cells kullanarak XML Haritasını içe aktarın**
+## **Aspose.Cells kullanarak XML Haritası İçe Aktarma**
 
-Aşağıdaki örnek kod, nasıl kullanılacağını gösterir.[**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) . üretir[çıktı excel dosyası](5115036.xlsx) bu ekran görüntüsünde gösterildiği gibi.
+Aşağıdaki örnek kod, [**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index). faydalanmak için nasıl kullanılacağını göstermektedir. Bu, [çıktı excel dosyasını](5115036.xlsx) üretmektedir, bu, ekran görüntüsünde gösterilmiştir.
 
-|![yapılacaklar:resim_alternatif_metin](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
-|:- |
+|![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
+| :- |
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ImportXmlData-ImportXmlDataIntoWorkbook.cs" >}}
 
-## **ileri konular**
-- [XmlMapCollection.Add yöntemini kullanarak Çalışma Kitabının içine XML Eşlemesi ekleyin](/cells/tr/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
-- [Çalışma Kitabı içindeki XML Haritasına bağlı XML Verilerini Dışa Aktarma](/cells/tr/net/export-xml-data-linked-to-xml-map-inside-the-workbook/)
-- [XML Haritasının Kök Eleman Adını Bulun](/cells/tr/net/find-the-root-element-name-of-xml-map/)
-- [Cells'i XML Eşleme Öğelerine Bağla](/cells/tr/net/link-cells-to-xml-map-elements/)
-- [Worksheet.XmlMapQuery yöntemi kullanılarak XML Eşleme Yoluna Eşlenen Alanlar Cell Sorgusu](/cells/tr/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
+## **Gelişmiş Konular**
+- [XmlMapCollection.Add yöntemini kullanarak İçine 'XmlMap' ekleyin](/cells/tr/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
+- [Çalışma Kitabı içinde XML Haritasına bağlı XML Verilerini Dışa Aktar](/cells/tr/net/export-xml-data-linked-to-xml-map-inside-the-workbook/)
+- [XML Haritasının Kök Eleman Adını Bul](/cells/tr/net/find-the-root-element-name-of-xml-map/)
+- [Hücreleri XML Haritası Elemanlarına Bağla](/cells/tr/net/link-cells-to-xml-map-elements/)
+- [Worksheet.XmlMapQuery yöntemini kullanarak XML Haritası Yoluna Eşlenmiş Hücre Alanlarını Sorgula](/cells/tr/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 

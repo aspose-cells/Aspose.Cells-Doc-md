@@ -1,13 +1,14 @@
-﻿---
-title: フリーズ ペインの操作
+---
+title: 固定パンを使用した操作
 type: docs
 weight: 100
 url: /ja/net/working-with-freeze-panes/
 ---
-## **Aspose.Cells - フリーズ ペインの操作**
+
+## **Aspose.Cells - 固定パンの操作**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -26,13 +27,13 @@ workbook.Save("output-FreezeFile-Aspose.Cells.xls");
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[FreezePanes メソッド](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
+詳細については、[FreezePanesメソッド](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)ページを参照してください。
 
 {{% /alert %}} 
-## **NPOI - HSSF XSSF - フリーズ ペインの操作**
+## **NPOI - HSSF XSSF - 固定パンを使用した操作**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -62,13 +63,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**フリーズ ペインの操作**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下に記載されているソーシャルコーディングサイトのいずれかから**固定パンの操作**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+詳細については、[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/)ページを参照してください。
 
 {{% /alert %}}

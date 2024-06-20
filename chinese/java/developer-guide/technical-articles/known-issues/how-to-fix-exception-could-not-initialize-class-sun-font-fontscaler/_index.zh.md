@@ -1,5 +1,5 @@
 ---
-title: 如何解决异常 - 无法初始化sun.font.FontScaler类
+title: 如何解决异常  无法初始化sun.font.FontScaler类
 type: docs
 weight: 40
 url: /zh/java/how-to-fix-exception-could-not-initialize-class-sun-font-fontscaler/

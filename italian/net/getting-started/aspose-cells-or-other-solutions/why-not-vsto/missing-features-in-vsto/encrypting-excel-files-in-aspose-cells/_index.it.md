@@ -1,44 +1,45 @@
-﻿---
-title: Crittografia dei file Excel in Aspose.Cells
+---
+title: Crittografare i File Excel in Aspose.Cells
 type: docs
 weight: 90
 url: /it/net/encrypting-excel-files-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel (97 - 2007) consente di crittografare e proteggere con password i fogli di calcolo. Utilizza algoritmi forniti da un provider di servizi crittografici, o CSP, un insieme di algoritmi crittografici con proprietà diverse. Il CSP predefinito è "Compatibile con Office 97/2000" o "Crittografia debole (XOR)". È importante scegliere la lunghezza corretta della chiave di crittografia. Alcuni CSP non supportano più di 40 o 56 bit. Questa è considerata una crittografia debole. Per una crittografia avanzata, è richiesta una lunghezza minima della chiave di 128 bit. Microsoft Windows contiene CSP che offrono anche tipi di crittografia avanzata, ad esempio "Microsoft Strong Cryptographic Provider". Per darti un'idea, la crittografia a 128 bit è ciò che le banche usano per crittografare la connessione con i loro sistemi di Internet Banking.
+Microsoft Excel (97 - 2007) consente di crittografare e proteggere con password i fogli di calcolo. Utilizza algoritmi forniti da un fornitore di servizi crittografici, o CSP, un insieme di algoritmi crittografici con diverse proprietà. Il CSP predefinito è 'Compatibile con Office 97/2000' o 'Crittografia debole (XOR)'. È importante scegliere la giusta lunghezza della chiave di crittografia. Alcuni CSP non supportano più di 40 o 56 bit. Questo è considerato una crittografia debole. Per una crittografia forte, è richiesta una lunghezza della chiave minima di 128 bit. Microsoft Windows contiene CSP che offrono anche tipi di crittografia forte, ad esempio il 'Fornitore crittografico forte Microsoft'. A titolo informativo, la crittografia a 128 bit è quella che le banche utilizzano per crittografare la connessione con i loro sistemi di Internet Banking.
 
-Aspose.Cells consente di crittografare e proteggere con password i file Excel Microsoft con il tipo di crittografia desiderato.
+Aspose.Cells consente di crittografare e proteggere con password file Microsoft Excel con il tipo di crittografia desiderato.
 
 {{% /alert %}} 
 ## **Utilizzando Microsoft Excel**
-Per configurare le impostazioni di crittografia dei file in Microsoft Excel (qui Microsoft Excel 2003):
+Per impostare le impostazioni di crittografia del file in Microsoft Excel (qui Microsoft Excel 2003):
 
-1.  Dal**Utensili** menù, selezionare**Opzioni**.
- Viene visualizzata una finestra di dialogo.
-1.  Seleziona il**Sicurezza** scheda.
-1.  Immettere una password e fare clic**Avanzate** 
-   **Finestra di dialogo Opzioni** 
+1. Dal menu **Strumenti**, selezionare **Opzioni**.
+   Compare una finestra di dialogo.
+1. Selezionare la scheda **Sicurezza**.
+1. Immetti una password e clicca su **Avanzate** 
+   Finestra di dialogo **Opzioni** 
 
-![cose da fare:immagine_alt_testo](encrypting-excel-files-in-aspose-cells_1.png)
-
-
+![todo:image_alt_text](encrypting-excel-files-in-aspose-cells_1.png)
 
 
-1.  Scegli il tipo di crittografia e conferma la password.
 
-   **Finestra di dialogo Tipo di crittografia** 
 
-![cose da fare:immagine_alt_testo](encrypting-excel-files-in-aspose-cells_2.png)
+1. Scegliere il tipo di crittografia e confermare la password. 
+
+   Finestra di dialogo **Tipo di crittografia** 
+
+![todo:image_alt_text](encrypting-excel-files-in-aspose-cells_2.png)
 
 
 
 ## **Crittografia con Aspose.Cells**
-L'esempio seguente mostra come crittografare e proteggere con password un file excel utilizzando Aspose.Cells API.
+L'esempio seguente mostra come crittare e proteggere con password un file excel utilizzando l'API Aspose.Cells.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a Workbook object.
 
@@ -66,6 +67,6 @@ workbook.Save("encryptedBook1.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Encrypting%20Excel%20Files)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Encrypting%20Excel%20Files)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1))
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1))

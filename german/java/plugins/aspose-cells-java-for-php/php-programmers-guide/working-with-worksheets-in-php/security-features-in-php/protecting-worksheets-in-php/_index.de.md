@@ -1,15 +1,16 @@
-﻿---
-title: Schutz von Arbeitsblättern in Php
+---
+title: Arbeitsblätter in PHP schützen
 type: docs
 weight: 10
 url: /de/java/protecting-worksheets-in-php/
 ---
-## **Aspose.Cells – Arbeitsblätter schützen**
- Arbeitsblatt mit schützen**Aspose.Cells Java for PHP** , Anruf**protect_worksheet** Methode von**Schutz** Modul.
+
+## **Aspose.Cells - Arbeitsblätter schützen**
+Um ein Arbeitsblatt mit **Aspose.Cells Java für PHP** zu schützen, rufen Sie die Methode **protect_worksheet** des Moduls **protection** auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -40,7 +41,7 @@ $protection->setPassword("1234");
 $excel->save($dataDir . "output.xls");  
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Arbeitsblätter schützen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie das **Schützen von Arbeitsblättern (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/ProtectingWorksheet.php)

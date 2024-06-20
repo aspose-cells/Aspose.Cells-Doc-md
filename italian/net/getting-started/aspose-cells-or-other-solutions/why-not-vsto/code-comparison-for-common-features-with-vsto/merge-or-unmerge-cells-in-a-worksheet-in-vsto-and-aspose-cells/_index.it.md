@@ -1,15 +1,16 @@
-﻿---
-title: Unisci o separa Cells in un foglio di lavoro in VSTO e Aspose.Cells
+---
+title: Unisci o Dividi Celle in un Foglio di Lavoro in VSTO e Aspose.Cells
 type: docs
 weight: 170
 url: /it/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Apri un file excel esistente, unisci alcune celle nel primo foglio di lavoro nella cartella di lavoro e salva il file excel.
-## **Fusione Cells**
-### **VSTO**
-Di seguito sono riportati i frammenti di codice paralleli per VSTO (C#) e Aspose.Cells for .NET (C#).
 
-{{< highlight "csharp" >}}
+Aprire un file Excel esistente, unire alcune celle nel primo foglio di lavoro nel workbook e salvare il file di Excel.
+## **Unione di celle**
+### **VSTO**
+Di seguito sono riportati i paralleli frammenti di codice per VSTO (C#) e Aspose.Cells for .NET (C#).
+
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -55,7 +56,7 @@ Di seguito sono riportati i frammenti di codice paralleli per VSTO (C#) e Aspose
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -82,10 +83,10 @@ Di seguito sono riportati i frammenti di codice paralleli per VSTO (C#) e Aspose
   workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **Separazione Cells**
-Per separare le celle, utilizzare le seguenti righe di codice per VSTO (C#) e Aspose.Cells for .NET (C#).
+## **Dividere le celle**
+Per dividere le celle, utilizzare le seguenti righe di codice per VSTO (C#) e Aspose.Cells for .NET (C#).
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //UnMerge the cell.
 
@@ -93,7 +94,7 @@ Per separare le celle, utilizzare le seguenti righe di codice per VSTO (C#) e As
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Cells rng = workbook.Worksheets[0].Cells;
 
@@ -104,5 +105,5 @@ Per separare le celle, utilizzare le seguenti righe di codice per VSTO (C#) e As
 {{< /highlight >}}
 ## **Scarica il codice di esempio**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Merge.or.UnMerge.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [SourceForge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/scarica)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).cerniera lampo)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

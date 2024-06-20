@@ -1,39 +1,40 @@
-﻿---
-title: قم بتعيين خاصية DefaultFont لـ PdfSaveOptions و ImageOrPrintOptions ليكون لها الأولوية
+---
+title: تعيين خاصية DefaultFont في خيارات PdfSave و ImageOrPrint لديها الأولوية
 type: docs
 weight: 30
 url: /ar/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
- أثناء ضبط ملف**الخط الافتراضي** ممتلكات[**خيارات PdfSave**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) و[**خيارات ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) ، قد تتوقع أن يؤدي الحفظ إلى PDF أو الصورة إلى تعيين ذلك**الخط الافتراضي** لكل النص الموجود في المصنف الذي يحتوي على خط مفقود (غير مثبت).
+## **سيناريوهات الاستخدام المحتملة**
 
- بشكل عام ، عند الحفظ في PDF أو الصورة ، سيحاول Aspose.Cells أولاً تعيين الخط الافتراضي في المصنف (على سبيل المثال ،[**المصنف**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) ). إذا كان الخط الافتراضي للمصنف لا يزال غير قادر على إظهار / عرض النص بشكل صحيح ، فسيحاول Aspose.Cells التقديم بالخط المذكور مقابل**الخط الافتراضي** السمة في[**خيارات PdfSave**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**خيارات ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+أثناء تعيين خاصية DefaultFont لـ**[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)** و**[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**، قد تتوقع أن يقوم الحفظ إلى PDF أو الصورة بتعيين تلك **DefaultFont** إلى جميع النصوص في السجل الحسابي التي تحتوي على خطوط غير مثبتة.
 
-لمواكبة توقعاتك ، لدينا خاصية منطقية تسمى "**CheckWorkbookDefaultFont** " في[**خيارات PdfSave**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**خيارات ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) . يمكنك تعيينه على "خطأ" لتعطيل تجربة الخط الافتراضي للمصنف أو السماح بامتداد**الخط الافتراضي** اضبط[**خيارات PdfSave**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**خيارات ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) أن يكون لها الأولوية.
+عمومًا، عندما يتم حفظها إلى PDF أو الصورة ستحاول Aspose.Cells أولاً تعيين الخط الافتراضي للسجل الحسابي (أي، **[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)**). إذا لم تستطع الخط الافتراضي للسجل الحسابي عرض النص بشكل صحيح، فسيحاول Aspose.Cells عرضه باستخدام الخط المذكور ضد السمة **DefaultFont** في **[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)** / **[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**.
 
-## **قم بتعيين خاصية الخط الافتراضي لـ PdfSaveOptions / ImageOrPrintOptions**
+لتعامل مع توقعاتك، لدينا خاصية Boolean تسمى "**CheckWorkbookDefaultFont**" في **[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)** / **[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**. يمكنك تعيينها على القيمة البولية لتعطيل محاولة الخط الافتراضي للسجل الحسابي أو السماح لإعداد **DefaultFont** في **[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)** / **[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)** بالأولوية.
 
-يفتح نموذج التعليمات البرمجية التالي ملف Excel. تحتوي الخلية A1 (في ورقة العمل الأولى) على نص معين إلى "Christmas Time Font text". اسم الخط هو "Christmas Time Personal Use" غير المثبت على الجهاز. وضعنا**الخط الافتراضي**سمة من سمات[**خيارات PdfSave**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**خيارات ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)إلى "Times New Roman". وضعنا أيضا**CheckWorkbookDefaultFont**خاصية منطقية لـ "**خاطئة**"الذي يضمن عرض نص الخلية A1 بخط" Times New Roman "ويجب ألا يستخدم الخط الافتراضي للمصنف (" Calibri "في هذه الحالة). يعرض الرمز ورقة العمل الأولى لتنسيقات الصور PNG و TIFF. يتم عرضه أخيرًا بتنسيق ملف PDF.
+## **تعيين خاصية DefaultFont في خيارات PdfSave/ImageOrPrintOptions**
+
+يفتح الكود العيني التالي ملف Excel. الخلية A1 (في الورقة الحسابية الأولى) بها نص محدد ليكون "كلمة أوقات عيد الميلاد". اسم الخط هو "كريسماس تايم شخصي" الذي لم يتم تثبيته على الجهاز. نقوم بتعيين سمة **DefaultFont** لـ**[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)** / **[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)** إلى "Times New Roman". نقوم أيضًا بتعيين خاصية Boolean **CheckWorkbookDefaultFont** إلى "**false**" والتي تضمن أن يتم عرض نص الخلية A1 بخط "Times New Roman" ويجب ألا يستخدم الخط الافتراضي للورقة الحسابية ("Calibri" في هذه الحالة). يقوم الكود بعرض الورقة الحسابية الأولى إلى تنسيقات الصور PNG و TIFF. وأخيرًا، يقوم بالحفظ إلى تنسيق ملف PDF.
 
 {{% alert color="primary" %}}
 
- القيمة الافتراضية لـ***CheckWorkbookDefaultFont*** السمة هي**حقيقي**.
+القيمة الافتراضية لخاصية ***CheckWorkbookDefaultFont*** هي **true**.
 
 {{% /alert %}}
 
-هذه هي لقطة شاشة ملف[ملف نموذجي](49446914.xlsx)المستخدمة في رمز المثال.
+هذه هي لقطة شاشة لملف القالب المستخدم في كود المثال.
 
-![ما يجب القيام به: image_بديل_نص](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-هذه هي صورة الإخراج PNG بعد ضبط ملف[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)الملكية إلى "Times New Roman".
+هذه هي صورة الناتج بصيغة PNG بعد ضبط الخاصية [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) على "Times New Roman".
 
-![ما يجب القيام به: image_بديل_نص](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-انظر الإخراج[TIFF](out1_imageTIFF.tiff)الصورة بعد ضبط ملف[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)الملكية إلى "Times New Roman".
+راجع صورة [TIFF] الناتجة (out1_imageTIFF.tiff) بعد ضبط الخاصية [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) على "Times New Roman".
 
-انظر الإخراج[PDF](out1_pdf.pdf)ملف بعد ضبط ملف[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont)الملكية إلى "Times New Roman".
+راجع ملف [PDF] الناتج (out1_pdf.pdf) بعد ضبط الخاصية [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont) على "Times New Roman".
 
-## **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Fonts-SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions-1.java" >}}

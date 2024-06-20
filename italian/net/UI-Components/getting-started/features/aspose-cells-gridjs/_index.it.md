@@ -1,12 +1,15 @@
-﻿---
-title: Aspose.Cells.GridJs
+---
+title: Funzionalità di Aspose.Cells.GridJs
 type: docs
 weight: 40
-url: /it/net/aspose-cells-gridjs-features/
+url: /it/net/aspose-cells-gridjs/features/
+keywords: Funzionalità di GridJs
+description: Questo articolo presenta le funzionalità di GridJs.
 ---
+
 ## **Aspose.Cells.GridJs**
-### **Funzionalità di importazione/esportazione**
-- Importa da ed esporta in fogli di calcolo Excel.
+### **Caratteristiche di importazione/esportazione**
+- Importa ed esporta fogli di calcolo Excel.
 
 ### **Caratteristiche del foglio di lavoro**
 - Aggiungi/rimuovi/rinomina fogli di lavoro.
@@ -15,40 +18,40 @@ url: /it/net/aspose-cells-gridjs-features/
 ### **Caratteristiche di riga e colonna**
 - Aggiungi, inserisci e rimuovi righe e colonne in un foglio di lavoro.
 - Nascondi e mostra righe e colonne.
-- Blocca e sblocca righe e colonne.
- 
-### **Cell Caratteristiche**
-- Modifica più celle .
-- Supporta le impostazioni del formato di numero, data, valuta e ora.
-- Supporta impostazioni di formato personalizzate.
-- Supporta le impostazioni del colore di sfondo.
-- Supporta il riempimento automatico.
+- Congela e scongela righe e colonne.
+
+### **Caratteristiche della cella**
+- Modifica più celle.
+- Supporta impostazioni numero, data, valuta e ora.
+- Supporta impostazioni formato personalizzato.
+- Supporta impostazioni colore sfondo.
+- Supporta la compilazione automatica.
 - Controlla l'allineamento del testo.
-- Controlla lo scorrimento del testo.
-- Gestisci i confini.
-- Controlla le impostazioni dei caratteri.
-- Unire o dividere le celle
-### **Funzionalità di formattazione**
-- Crea applicazioni a griglia interattive basate sul Web che sembrano e si comportano come applicazioni per fogli di calcolo desktop.
+- Controllo del testo a capo.
+- Gestisci i bordi.
+- Controlla le impostazioni del carattere.
+- Unisci o divide le celle
+### **Caratteristiche di formattazione**
+- Crea applicazioni di griglia interattive basate sul web che sembrano e si comportano come applicazioni desktop di fogli di calcolo.
 - Supporta la formattazione delle celle.
 
-### **Funzionalità di utilità**
-- Supporta le convalide degli elenchi a discesa.
+### **Caratteristiche di utilità**
+- Supporta le validazioni delle liste a discesa.
 - Aggiungi/rimuovi/cerca commenti.
 - Ruota/Ridimensiona/Sposta immagini/forme.
 
 - Navigazione da tastiera.
 ### **Funzionalità avanzate**
-- Supporta la creazione e il calcolo di formule sulle pagine web.
-- Fornisce oltre 80 funzioni predefinite relative a matematica, testo e dati, data e ora e logica.
+- Supporta la creazione e il calcolo di formule nelle pagine web.
+- Fornisce oltre 80 funzioni predefinite relative a matematica, testo e dati, data e ora, e logica.
 
-### **Browser supportati**
-- Microsoft Internet Explorer
-- Mozilla Firefox
-- musica lirica
-- Google Cromo
-- Microsoft Bordo
-### **Microsoft Excel supportato**
+### **Browser Supportati**
+- Internet Explorer di Microsoft
+- Mozilla FireFox
+- Opera
+- Google Chrome
+- Microsoft Edge
+### **Supporto di Microsoft Excel**
 - Microsoft Excel 97
 - Microsoft Excel 2000
 - Microsoft Excel XP
@@ -57,6 +60,6 @@ url: /it/net/aspose-cells-gridjs-features/
 - Microsoft Excel 2010
 - Microsoft Excel 2013
 ### **Piattaforme supportate**
-- nucleo ASP.NET
+- ASP.NET core
 
 

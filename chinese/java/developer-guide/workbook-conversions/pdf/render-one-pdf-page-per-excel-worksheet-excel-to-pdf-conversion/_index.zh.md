@@ -1,5 +1,5 @@
 ---
-title: 将Excel工作表渲染为一份PDF页面 - Excel转PDF转换
+title: 将Excel工作表渲染为一份PDF页面  Excel转PDF转换
 type: docs
 weight: 40
 url: /zh/java/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/

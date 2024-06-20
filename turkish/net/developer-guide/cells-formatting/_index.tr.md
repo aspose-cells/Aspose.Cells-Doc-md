@@ -1,112 +1,113 @@
 ---
-title: Hücreleri biçimlendirme
-description: Sayı biçimlendirmesi, tarih biçimlendirmesi, yazı tipi stilleri ve diğer hücre stili seçenekleri dahil olmak üzere, Aspose.Cells for .NET numaralı telefondan hücreleri nasıl biçimlendireceğinizi ve stillendireceğinizi öğrenin. Kılavuzumuz çekici ve profesyonel görünümlü e-tablolar oluşturmanıza yardımcı olacaktır.
-keywords: Aspose.Cells for .NET, cell formatting, styling, number formatting, date formatting, font style, cell style options, spreadsheet, create, professional look, format rows and columns.
-linktitle: Hücreleri biçimlendirme
+title: Hücreleri Biçimlendirin
+description: Aspose.Cells for .NET de hücre biçimlendirme ve stili hakkında bilgi edinin, sayı biçimlendirme, tarih biçimlendirme, font stilleri ve diğer hücre stili seçeneklerini içerir. Rehberimiz size çekici ve profesyonel görünümlü elektronik tablolar oluşturmanıza yardımcı olacaktır.
+keywords: Aspose.Cells for .NET, hücre biçimlendirme, stil, sayı biçimlendirme, tarih biçimlendirme, font stili, hücre stili seçenekleri, elektronik tablo, oluştur, profesyonel görünüm, satırları ve sütunları biçimlendir.
+linktitle: Hücreleri Biçimlendirin
 type: docs
 weight: 120
 url: /tr/net/cells-formatting/
 ---
-##  **giriiş**
+
+## **Giriş**
 
 {{% alert color="primary" %}}
 
- Aspose.Cells şunları sağlar[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) Ve[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) yöntemleri[Cell](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf, bir hücrenin biçimlendirme stilini almak/ayarlamak için kullanılır. Aspose.Cells ayrıca bir de sağlar[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)sınıf.
+Aspose.Cells, [Cell](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının formatlama stili almak/ayarlamak için kullanılan [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) ve [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) metotlarını sağlar. Aspose.Cells ayrıca bir [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) sınıfı sağlar.
 
 {{% /alert %}}
 
-##  **GetStyle ve SetStyle Yöntemlerini Kullanarak Cells Nasıl Biçimlendirilir**
+## **GetStyle ve SetStyle Metodları Kullanılarak Hücreleri Biçimlendirme**
 
-Arka plan veya ön plan renklerini, kenarlıkları, yazı tiplerini, yatay ve dikey hizalamaları, girinti düzeyini, metin yönünü, döndürme açısını ve çok daha fazlasını ayarlamak için hücrelere farklı biçimlendirme stilleri uygulayın.
+Hücrelere arka plan veya ön plan renkleri, kenarlıklar, fontlar, yatay ve dikey hizalamalar, girinti düzeyi, yazı yönü, döndürme açısı ve çok daha fazlası için farklı türde biçimlendirme stilleri uygulayın.
 
-###  **GetStyle ve SetStyle Yöntemleri Nasıl Kullanılır?**
+### **GetStyle ve SetStyle Metodlarını Kullanma**
 
- Geliştiricilerin farklı hücrelere farklı biçimlendirme stilleri uygulaması gerekiyorsa, o zaman[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) kullanarak hücrenin[**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) yöntemini kullanarak stil niteliklerini belirtin ve ardından aşağıdakileri kullanarak biçimlendirmeyi uygulayın:[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle)yöntem. Bir hücreye çeşitli biçimlendirmeler uygulamak için bu yaklaşımı göstermek amacıyla aşağıda bir örnek verilmiştir.
+Geliştiricilerin farklı hücrelere farklı biçimlendirme stilleri uygulamaları gerekiyorsa, hücrenin {0} ve {1} metotlarını kullanarak hücrenin {2} özniteliklerini belirtip sonra {3} metodunu kullanarak biçimlendirme uygulamak daha iyidir. Aşağıda, bu yaklaşımın farklı biçimlendirmeyi bir hücrede uygulamak için bir örnek verilmiştir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingGetStyleSetStyle-1.cs" >}}
 
-###  **Farklı Biçimlendirmek İçin Stil Nesnesi Nasıl Kullanılır Cells**
+### **Farklı Hücreleri Biçimlendirmek İçin Stil Nesnesini Kullanma**
 
- Geliştiricilerin aynı biçimlendirme stilini farklı hücrelere uygulaması gerekiyorsa bunu kullanabilirler.[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesne. Kullanmak için lütfen aşağıdaki adımları izleyin.[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)nesne:
+Farklı hücrelere aynı biçimlendirme stilini uygulamak istiyorsanız, [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesini kullanabilirsiniz. Aşağıdaki adımları izleyin ve [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesini kullanmak için aşağıdaki adımları izleyin:
 
-1.  Ekle[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) çağırarak nesneyi[**Stil Oluştur**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle) yöntemi[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf
-1.  Yeni eklenenlere erişin[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) object
-1.  İstediğiniz özellikleri/nitelikleri ayarlayın[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)İstenilen biçimlendirme ayarlarının uygulanacağı nesne
-1.  Yapılandırılmış olanı ata[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)İstediğiniz hücrelere itiraz edin
+1. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfının [**CreateStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle) metodunu çağırarak bir [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesi ekleyin
+1. Yeni eklenen [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesine erişin
+1. Düzenlenmiş [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin istenen özellik/özniteliklerini ayarlayın ve istenen biçimlendirme ayarlarını uygulayın
+1. Yapılandırılmış [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesini istenen hücrelere atayın
 
-Bu yaklaşım, uygulamalarınızın verimliliğini büyük ölçüde artırabilir ve bellekten de tasarruf sağlayabilir.
+Bu yaklaşım uygulamalarınızın verimliliğini büyük ölçüde artırabilir ve aynı zamanda bellek tasarrufu sağlayabilir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingStyleObject-1.cs" >}}
 
-###  **Microsoft Excel 2007 Önceden Tanımlanmış Stiller Nasıl Kullanılır**
+### **Microsoft Excel 2007 Önceden Tanımlanmış Stilleri Nasıl Kullanılır**
 
-Microsoft Excel 2007 için farklı biçimlendirme stilleri uygulamanız gerekiyorsa, Aspose.Cells API'i kullanarak stilleri uygulayın. Bir hücreye önceden tanımlanmış bir stil uygulamak için bu yaklaşımı göstermek amacıyla aşağıda bir örnek verilmiştir.
+Microsoft Excel 2007 için farklı biçimlendirme stilleri uygulamanız gerekiyorsa, Aspose.Cells API'sını kullanarak stilleri uygulayın. Aşağıdaki örnek, bir hücreye önceden tanımlanmış bir stil uygulamanın bu yaklaşımını gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingExcelPredefinedStyles-1.cs" >}}
 
 
 
-##  **Cell'de Seçilen Karakterler Nasıl Biçimlendirilir**
+## **Bir Hücredeki Seçili Karakterleri Biçimlendirme**
 
-Yazı Tipi Ayarlarıyla İlgilenmek, hücrelerdeki metnin nasıl biçimlendirileceğini açıklar, ancak yalnızca tüm hücre içeriğinin nasıl biçimlendirileceğini açıklar. Yalnızca seçilen karakterleri biçimlendirmek istiyorsanız ne olur?
+Yazı tipi ayarlarıyla ilgilenmek, hücre içindeki metni biçimlendirmeyi açıklar, ancak sadece hücre içeriğinin tümünü biçimlendirmeyi açıklar. Seçili karakterleri biçimlendirmek istiyorsanız ne yapacaksınız?
 
-Aspose.Cells de bu özelliği destekliyor. Bu konu, bu özelliği nasıl etkili bir şekilde kullanabileceğimizi açıklamaktadır.
+Aspose.Cells bu özelliği de destekler. Bu konu, bu özelliği nasıl etkili bir şekilde kullandığımızı açıklar.
 
-###  **Seçilen Karakterler Nasıl Formatlanır**
+### **Seçili Karakterleri Biçimlendirmek**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf şunları içerir[**Çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Bir Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon. Bir çalışma sayfası şu şekilde temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak. İçindeki her öğe[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyon bir nesneyi temsil eder[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir sınıf olan [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sunar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişime izin veren [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonunu içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu sağlar. [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonundaki her öğe, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının bir nesnesini temsil eder.
 
-[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf şunları sağlar[**Karakterler**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)Bir hücrenin içindeki bir karakter aralığını seçmek için aşağıdaki parametreleri alan yöntem:
+The [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfı, hücre içindeki karakterlerin bir aralığını seçmek için aşağıdaki parametreleri alan [**Characters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters) metodunu sağlar:
 
-- *Başlangıç Dizini**, seçimin başlayacağı karakterin dizini.
-- *Karakter Sayısı**, seçilecek karakter sayısı.
+- **Başlangıç İndeksi**, seçimin nereden başlayacağı karakterin indeksi.
+- **Karakter Sayısı**, seçilecek karakterlerin sayısı.
 
-[**Karakterler**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters) yöntem bir örneğini döndürür[**Yazı Tipi Ayarı**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting)Geliştiricilerin, aşağıda kod örneğinde gösterildiği gibi karakterleri bir hücrede olduğu gibi biçimlendirmelerine olanak tanıyan sınıf. Çıkış dosyasındaki A1 hücresindeki 'Ziyaret' kelimesi varsayılan yazı tipiyle ancak 'Aspose!' ile biçimlendirilecektir. cesur ve mavidir.
+[**Characters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters) metodu, karakterleri hücrede olduğu gibi biçimlendirmek için geliştiricilere izin veren [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) sınıfının bir örneğini döndürür. Aşağıdaki kod örneğinde gösterildiği gibi, çıktı dosyasında A1 hücresinde, 'Ziyaret' kelimesi varsayılan yazı tipiyle biçimlendirilecek ancak 'Aspose!' kalın ve mavi renkte olacaktır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormattingSelectedCharacters-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Bir hücredeki Zengin Metin'in bir bölümünü biçimlendirmekle ilgileniyorsanız,[**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) & [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) yöntemler.[[**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) Metnin bazı bölümlerine erişmek için yöntem kullanılacaktır ve daha sonra bu yöntem kullanılarak değişiklikler yapılabilir.[**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) yöntem ise**Elde etmek** yöntem bir dizi döndürür[**Yazı Tipi Ayarı**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) yazı tipi adı, yazı tipi rengi, kalınlık vb. gibi çeşitli özellikleri ayarlamak için değiştirilebilen nesneler ve**Ayarlamak** Değişiklikleri uygulamak için yöntem kullanılabilir.
+Bir hücredeki Zengin Metnin bir kısmını biçimlendirmek istiyorsanız, [**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) ve [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) metodlarını kullanmayı düşünebilirsiniz. [[**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) metodu metnin bölümlerine erişmek için kullanılır ve ardından değişiklikler [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) metodu kullanılarak yapılabilirken **Get** metodu, değişikliklerin yapılmasına izin veren [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) nesnelerinin bir dizisini döndürür ve **Set** metodu değişikliklerin uygulanmasında kullanılabilir.
 
 {{% /alert %}}
 
-##  **Satır ve Sütunlar Nasıl Biçimlendirilir?**
+## **Satırları ve Sütunları Nasıl Biçimlendirilir**
 
-Bazen geliştiricilerin aynı formatı satırlara veya sütunlara uygulaması gerekir. Hücrelere tek tek biçimlendirme uygulamak genellikle daha uzun sürer ve iyi bir çözüm değildir.
-Bu sorunu çözmek için Aspose.Cells, bu makalede ayrıntılı olarak tartışılan basit ve hızlı bir yol sağlar.
+Bazı durumlarda, geliştiricilerin satırlara veya sütunlara aynı biçimlendirmeyi uygulamaları gerekebilir. Hücrelere tek tek biçimlendirme uygulamak genellikle daha uzun sürer ve iyi bir çözüm değildir.
+Bu sorunu ele almak için, Aspose.Cells bu makalede detaylı bir şekilde tartışılan basit ve hızlı bir yol sağlar.
 
-###  **Satırları ve Sütunları Biçimlendirme**
+### **Satırları ve Sütunları Biçimlendirme**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**Çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon. Bir çalışma sayfası şu şekilde temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyon sağlar[**Satırlar**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows)Toplamak.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her bir çalışma sayfasına erişime izin veren bir [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonunu içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu sağlar. [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu bir [**Rows**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) koleksiyonu sağlar.
 
-###  **Satır Nasıl Biçimlendirilir**
+### **Bir Satırı Nasıl Biçimlendirirsiniz**
 
- İçindeki her öğe[**Satırlar**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) koleksiyon bir temsil eder[**Sıra**](https://reference.aspose.com/cells/net/aspose.cells/row) nesne.[**Sıra**](https://reference.aspose.com/cells/net/aspose.cells/row)nesne şunları sunar[**Stili Uygula**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) satırın biçimlendirmesini ayarlamak için kullanılan yöntem. Aynı formatı bir satıra uygulamak için[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)nesne. Aşağıdaki adımlar nasıl kullanılacağını göstermektedir.
+[**Rows**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) koleksiyonundaki her öğe, bir [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) nesnesini temsil eder. [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) nesnesi, satırın biçimlendirmesini ayarlamak için kullanılan [**ApplyStyle**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) metodunu sunar. Bir satıra aynı biçimlendirmeyi uygulamak için, [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesini kullanın. Aşağıdaki adımlar nasıl kullanılacağını gösterir.
 
-1.  Ekle[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) itiraz[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfını çağırarak[**Stil Oluştur**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle)yöntem.
-1.  Yı kur[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)Biçimlendirme ayarlarını uygulamak için nesnenin özelliklerini kullanın.
-1.  İlgili öznitelikleri AÇIK duruma getirin[**StilBayrak**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)nesne.
-1.  Yapılandırılmış olanı ata[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) itiraz[**Sıra**](https://reference.aspose.com/cells/net/aspose.cells/row)nesne.
+1. [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesini, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfına [**CreateStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle) metodunu çağırarak ekleyin.
+1. Biçimlendirme ayarlarını uygulamak için [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin özelliklerini ayarlayın.
+1. İlgili özellikleri [**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) nesnesi için AÇIK hale getirin.
+1. Yapılandırılmış [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesini, [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) nesnesine atayın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingARow-1.cs" >}}
 
-###  **Sütun Nasıl Biçimlendirilir**
+### **Bir Sutunu Nasıl Biçimlendirirsiniz**
 
-[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyon aynı zamanda bir[**Sütunlar**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) Toplamak. İçindeki her öğe[**Sütunlar**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) koleksiyon bir temsil eder[**Kolon**](https://reference.aspose.com/cells/net/aspose.cells/column) nesne. Benzeri[**Sıra**](https://reference.aspose.com/cells/net/aspose.cells/row) nesne,[**Kolon**](https://reference.aspose.com/cells/net/aspose.cells/column) nesne aynı zamanda şunları da sunar:[**Stili Uygula**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle)Bir sütunu biçimlendirme yöntemi.
+[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu ayrıca bir [**Columns**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) koleksiyonu sağlar. [**Columns**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) koleksiyonundaki her öğe, bir [**Column**](https://reference.aspose.com/cells/net/aspose.cells/column) nesnesini temsil eder. Bir [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) nesnesine benzer şekilde, [**Column**](https://reference.aspose.com/cells/net/aspose.cells/column) nesnesi de sütunu biçimlendirmek için [**ApplyStyle**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) metodunu sunar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingAColumn-1.cs" >}}
 
-##  **İleri konular**
+## **Gelişmiş Konular**
 - [Hizalama Ayarları](/cells/tr/net/cells-alignment-settings/)
 - [Kenarlık Ayarları](/cells/tr/net/cells-border-settings/)
-- [Excel ve ODS dosyalarının Koşullu Formatlarını ayarlayın.](/cells/tr/net/conditional-formatting/)
+- [Excel ve ODS dosyalarının Koşullu Biçimleri ayarlanması.](/cells/tr/net/conditional-formatting/)
 - [Excel Temaları ve Renkleri](/cells/tr/net/excel-themes-and-colors/)
 - [Doldurma Ayarları](/cells/tr/net/cells-fill-settings/)
-- [Yazı Tipi Ayarları](/cells/tr/net/cells-font-settings/)
-- [Çalışma Kitabındaki Çalışma Sayfası Cells'i Biçimlendirme](/cells/tr/net/format-worksheet-cells-in-a-workbook/)
-- [1904 Tarih Sisteminin Uygulanması](/cells/tr/net/implement-1904-date-system/)
-- [Birleştirme ve Ayrılma Cells](/cells/tr/net/merging-and-unmerging-cells/)
-- [Numara Ayarları](/cells/tr/net/cells-number-settings/)
-- [Hücreler için Stil Alma ve Ayarlama](/cells/tr/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
+- [Font Ayarları](/cells/tr/net/cells-font-settings/)
+- [Bir İşkitapta Hücreleri Biçimlendirme](/cells/tr/net/format-worksheet-cells-in-a-workbook/)
+- [1904 Tarih Sistemi Uygulama](/cells/tr/net/implement-1904-date-system/)
+- [Hücreleri Birleştirme ve Ayırma](/cells/tr/net/merging-and-unmerging-cells/)
+- [Sayı Ayarları](/cells/tr/net/cells-number-settings/)
+- [Hücreler için Stili Getirme ve Ayarlama](/cells/tr/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 

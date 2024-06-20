@@ -1,20 +1,23 @@
-﻿---
-title: Funcionamiento de GridWeb cuando el modo de estado de sesión ASP.NET es SQL Server
+---
+title: Funcionamiento de GridWeb cuando el modo de estado de sesión de ASP.NET es SQL Server
 type: docs
 weight: 160
-url: /es/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/
+url: /es/net/aspose-cells-gridweb/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/
+keywords: GridWeb,estado de sesión web,sqlserver,modo de estado de sesión
+description: Este artículo describe cómo configurar en GridWeb cuando el modo de estado de sesión web es SQL Server.
 ---
-## **Posibles escenarios de uso**
-Este artículo explica el funcionamiento de GridWeb cuando el modo de estado de sesión ASP.NET es SQL Server.
-## **Funcionamiento de GridWeb cuando el modo de estado de sesión ASP.NET es SQL Server**
-Si desea utilizar SQL Server o StateServer para realizar sesiones, utilice el modo de sesión de GridWeb. El control GridWeb ahora admite la serialización de sus datos en SQL Server o StateServer.
 
-Establecerá GridWeb.SessionMode en SessionMode.Session y utilizará la siguiente configuración de ejemplo de Web.Config. Cambie los atributos de sessionState según sus necesidades.
-## **Ejemplo de configuración de estado de sesión de Web.Config**
-{{< highlight "java" >}}
+## **Escenarios de uso posibles**
+Este artículo explica el funcionamiento de GridWeb cuando el modo de estado de sesión de ASP.NET es SQL Server.
+## **Funcionamiento de GridWeb cuando el modo de estado de sesión de ASP.NET es SQL Server**
+Si desea usar SQL Server o StateServer para retener sesiones, use el modo de sesión GridWeb. El control GridWeb ahora admite la serialización de sus datos a SQL Server o StateServer.
+
+Debe establecer GridWeb.SessionMode en SessionMode.Session y utilizar la siguiente configuración de muestra Web.Config. Cambie los atributos sessionState según sus necesidades.
+## **Configuración de estado de sesión de Web.Config de muestra**
+{{< highlight java >}}
 
  <sessionState mode="SQLServer" sqlConnectionString="Password=11111111;Persist Security Info=True;User ID=testuser;Data Source=WINSHA-PC\NASIRSQL" timeout="20"></sessionState>
 
 {{< /highlight >}}
 ## **Artículo de referencia**
-- [Habilitar diferentes modos GridWeb](/cells/es/net/enable-different-gridweb-modes/)
+- [Activar diferentes modos de GridWeb](/cells/es/net/aspose-cells-gridweb/enable-different-gridweb-modes/)

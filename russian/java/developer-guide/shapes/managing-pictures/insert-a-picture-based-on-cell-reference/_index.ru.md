@@ -1,24 +1,25 @@
-﻿---
-title: Вставьте изображение на основе ссылки Cell
+---
+title: Вставить изображение на основе ссылки на ячейку
 type: docs
 weight: 90
 url: /ru/java/insert-a-picture-based-on-cell-reference/
 ---
+
 {{% alert color="primary" %}}
 
-Иногда у вас есть пустое изображение, и вам нужно отобразить данные или содержимое на изображении, установив ссылку на ячейку в строке формул. Aspose.Cells поддерживает эту функцию (Microsoft Excel 2010).
+Иногда у вас есть пустое изображение, и вам нужно показать данные или содержимое в изображении, установив ссылку на ячейку в строке формул. Aspose.Cells поддерживает эту функцию (Microsoft Excel 2010).
 
 {{% /alert %}}
 
-## Вставка изображения на основе ссылки Cell
+## Вставка изображения на основе ссылки на ячейку
 
- Aspose.Cells поддерживает отображение содержимого ячейки рабочего листа в форме изображения. Вы можете связать изображение с ячейкой, содержащей данные, которые вы хотите отобразить. Поскольку ячейка или диапазон ячеек связаны с графическим объектом, изменения данных автоматически отображаются в графическом объекте. Добавьте изображение на рабочий лист, вызвав метод[**добавить изображение**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPicture(int,%20int,%20int,%20int,%20java.io.InputStream) ) метод[**Коллекция форм**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) коллекция (инкапсулированная в[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) объект). Укажите диапазон ячеек с помощью[**установитьФормула**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#Formula) метод[**Рисунок**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)объект.
+Aspose.Cells поддерживает отображение содержимого ячейки листа в виде изображения. Вы можете привязать изображение к ячейке, содержащей данные, которые вы хотите отобразить. Поскольку ячейка или диапазон ячеек привязан к графическому объекту, изменения данных автоматически отображаются в графическом объекте. Добавьте изображение на лист, вызвав метод [**addPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPicture(int,%20int,%20int,%20int,%20java.io.InputStream)) коллекции [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) (инкапсулированной в объекте [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). Укажите диапазон ячеек, используя метод [**setFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#Formula) объекта [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture).
 
-Ниже приведен скриншот файла, который генерирует приведенный ниже код.
+Ниже приведен скриншот файла, сгенерированного приведенным ниже кодом.
 
 **Вставка изображения на основе ссылки на ячейку**
 
-![дело:изображение_альтернативный_текст](insert-a-picture-based-on-cell-reference_1.png)
+![todo:image_alt_text](insert-a-picture-based-on-cell-reference_1.png)
 
 ## Образец кода
 

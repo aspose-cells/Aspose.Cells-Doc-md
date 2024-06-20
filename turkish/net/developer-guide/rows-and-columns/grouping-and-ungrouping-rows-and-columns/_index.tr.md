@@ -1,63 +1,64 @@
-﻿---
-title: Satırları ve Sütunları Gruplandırma ve Grubu Çözme
+---
+title: Satır ve Sütunları Gruplandırma ve Grubu Çözme
 type: docs
 weight: 50
 url: /tr/net/grouping-and-ungrouping-rows-and-columns/
 ---
+
 ## **Giriş**
 
-Bir Microsoft Excel dosyasında, tek bir fare tıklamasıyla ayrıntı düzeylerini göstermenize ve gizlemenize olanak tanıyan veriler için bir ana hat oluşturabilirsiniz.
+Bir Microsoft Excel dosyasında, veriler için bir biçim oluşturarak tek bir fare tıklamasıyla ayrıntı seviyelerini gösterip gizleyebilirsiniz.
 
- Tıkla**Anahat Sembolleri**, 1,2,3, + ve - yalnızca bir çalışma sayfasındaki bölümler için özetler veya başlıklar sağlayan satırları veya sütunları hızlı bir şekilde görüntülemek için veya aşağıdaki şekilde gösterildiği gibi ayrıntıları tek bir özet veya başlık altında görmek için sembolleri kullanabilirsiniz. :
+Yalnızca özetler veya başlıkların bulunduğu satırları veya sütunları hızlı bir şekilde görüntülemek için **Özet Sembolleri**, 1,2,3, + ve - simgelerine tıklayabilirsiniz veya simgeleri kullanarak bir çalışma sayfasındaki bir bölümün altındaki ayrıntıları görebilirsiniz, aşağıdaki şekilde gösterildiği gibi:
 
-|**Satırları ve Sütunları Gruplandırma.**|
-|:- |
-|![yapılacaklar:resim_alternatif_metin](grouping-and-ungrouping-rows-and-columns_1.png)|
+|**Satır ve Sütun Gruplama.**|
+| :- |
+|![todo:image_alt_text](grouping-and-ungrouping-rows-and-columns_1.png)|
 
-## **Satır ve Sütunların Grup Yönetimi**
+## **Satır ve Sütun Grubu Yönetimi**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Excel dosyasındaki her çalışma sayfasına erişim sağlar. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf bir sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)çalışma sayfasındaki tüm hücreleri temsil eden koleksiyon.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir sınıf olan [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, çalışma sayfasındaki tüm hücreleri temsil eden bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonu sağlar.
 
- bu[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)koleksiyon, bir çalışma sayfasındaki satırları veya sütunları yönetmek için çeşitli yöntemler sağlar; bunlardan birkaçı aşağıda daha ayrıntılı olarak ele alınmıştır.
+[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonu, çalışma sayfasındaki satırları veya sütunları yönetmek için birkaç yöntem sağlar, bunlardan bazıları aşağıda daha detaylı olarak tartışılmıştır.
 
-### **Satırları ve Sütunları Gruplama**
+### **Satır ve Sütun Gruplama**
 
- çağırarak satırları veya sütunları gruplandırmak mümkündür.[**GrupSatırları**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/grouprows/index) ve[**Grup Sütunları**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/groupcolumns/index) yöntemleri[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Toplamak. Her iki yöntem de aşağıdaki parametreleri alır:
+[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonunun [**GroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/grouprows/index) ve [**GroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/groupcolumns/index) yöntemlerini çağırarak satırları veya sütunları gruplamak mümkündür. Her iki yöntem de aşağıdaki parametreleri alır:
 
-- İlk satır/sütun dizini, gruptaki ilk satır veya sütun.
-- Son satır/sütun dizini, gruptaki son satır veya sütun.
-- Gizlidir, gruplamadan sonra satırların/sütunların gizlenip gizlenmeyeceğini belirten bir Boolean parametresidir.
+- İlk satır/sütun indeksi, grup içindeki ilk satır veya sütun.
+- Son satır/sütun indeksi, grup içindeki son satır veya sütun.
+- Gizli mi, satırları/sütunları gruplandırmadan sonra gizlemek için bir Boolean parametre.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-GroupingRowsAndColumns-1.cs" >}}
 
 #### **Grup Ayarları**
 
-Microsoft Excel, aşağıdakileri görüntülemek için grup ayarlarını yapılandırmanıza izin verir:
+Microsoft Excel, görüntüleme için grup ayarlarını yapılandırmanıza izin verir:
 
-- Ayrıntıların altındaki özet satırları.
-- Ayrıntıların sağındaki özet sütunları.
+- Detayın altında özet satırlar.
+- Ayrıntının sağında özet sütunlar.
 
- Geliştiriciler, bu grup ayarlarını[**Anahat**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) mülkiyeti[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)sınıf.
+Geliştiriciler, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfının [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) özelliğini kullanarak bu grup ayarlarını yapılandırabilir.
 
-### **Ayrıntı Altına Özet Satırları**
+### **Detaydan Aşağı Özet Satırlar**
 
- Ayarlayarak özet satırlarının ayrıntıların altında görüntülenip görüntülenmediğini kontrol etmek mümkündür.[**Anahat**](https://reference.aspose.com/cells/net/aspose.cells/outline) sınıf'[**ÖzetSatırAşağıda**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) mülkiyet**doğru** veya**YANLIŞ**.
+Özet satırların detayın altında gösterilip gösterilmeyeceğini kontrol etmek de **true** veya **false** olarak [**SummaryRowBelow**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) sınıfının [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/outline) özelliğini ayarlayarak mümkündür.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
-### **Ayrıntı Sağındaki Özet Sütunları**
+### **Detayın Sağına Özet Sütunlar**
 
- Geliştiriciler ayrıca, ayrıntının sağında özet sütunlarının görüntülenmesini ayarlayarak kontrol edebilir.[**ÖzetSütunuSağ**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) mülkiyet[**Anahat**](https://reference.aspose.com/cells/net/aspose.cells/outline) sınıf**doğru** veya**YANLIŞ**.
+Geliştiriciler, ayrıntının sağında özet sütunları göstermek veya gizlemek için [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/outline) sınıfının [**SummaryColumnRight**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) özelliğini **true** veya **false** olarak ayarlayabilirler.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
 
-## **Satırları ve Sütunları Çözme**
+## **Satır ve Sütunların Gruplandırılmasını Kaldırma**
 
- Gruplanmış herhangi bir satır veya sütunun grubunu çözmek için,[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonun[**Satırları Çöz**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) ve[**Sütunların Grubunu Çöz**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns)yöntemler. Her iki yöntem de iki parametre alır:
+Gruplanmış herhangi bir satır veya sütunu ayırmak için, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonunun [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) ve [**UngroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns) metodlarını çağırın. Her iki metod da iki parametre alır:
 
-- İlk satır veya sütun dizini, grubu çözülecek ilk satır/sütun.
-- Son satır veya sütun dizini, grubu çözülecek son satır/sütun.
+- İlk satır veya sütun dizini, ayrılmak istenen ilk satır/sütun.
+- Son satır veya sütun dizini, ayrılmak istenen son satır/sütun.
 
-[**Satırları Çöz**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) bir Boole üçüncü parametresi alan bir aşırı yüke sahiptir. ayarlanıyor**doğru**gruplandırılmış tüm bilgileri kaldırır. Aksi takdirde sadece dış grup bilgisi kaldırılır.
+[**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index), üçüncü bir Boolean parametresi alan bir aşırı yüklemesi vardır. **true** olarak ayarlayarak tüm gruplanmış bilgileri kaldırabilirsiniz. Aksi takdirde, yalnızca dış grup bilgileri kaldırılır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}

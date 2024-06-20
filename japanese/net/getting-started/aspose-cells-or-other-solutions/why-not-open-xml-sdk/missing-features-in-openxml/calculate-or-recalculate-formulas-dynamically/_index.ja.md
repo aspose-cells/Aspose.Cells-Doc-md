@@ -1,18 +1,19 @@
-﻿---
-title: 数式を動的に計算または再計算する
+---
+title: 動的に数式を計算または再計算する
 type: docs
 weight: 10
 url: /ja/net/calculate-or-recalculate-formulas-dynamically/
 ---
-**公式計算**エンジンが組み込まれている**Aspose.Cells**.デザイナ ファイルからインポートした式を再計算できるだけでなく、実行時に追加された式の結果を計算することもサポートします。
-## **式の追加と結果の計算**
-Aspose.Cells は、Microsoft Excel の一部である数式または関数のほとんどをサポートしています。開発者は、API またはデザイナー スプレッドシートを使用してこれらの数式を使用できます。 Aspose.Excel は、数学、文字列、ブール、日付/時刻、統計、データベース、ルックアップ、参照式の膨大なセットをサポートしています。
 
-セルに数式を追加するには、Cell クラスの Formula プロパティを使用します。数式をセルに適用するときは、Microsoft Excel で数式を作成するときと同じように、文字列を常に等号 (=) で始めます。関数のパラメーターを区切るには、コンマ (,) を使用します。
+**Aspose.Cells**には**数式計算**エンジンが組み込まれています。デザイナーファイルからインポートされた数式を再計算するだけでなく、ランタイムで追加された数式の結果を計算することもサポートしています。
+## **数式の追加と結果の計算**
+Aspose.Cellsは、Microsoft Excelの一部であるほとんどの数式や関数をサポートしています。開発者はこれらの数式をAPIまたはデザイナースプレッドシートを使用して利用することができます。Aspose.Excelは、数学、文字列、ブール、日付/時刻、統計、データベース、ルックアップ、参照などの強力な数式セットをサポートしています。
 
-数式の結果を計算するには、Excel ファイルに埋め込まれたすべての数式を処理する Excel クラスの CalculateFormula メソッドを呼び出します。読む[url:CalculateFormula メソッドでサポートされている関数のリスト](/cells/ja/net/supported-formula-functions/).
+セルに数式を追加するには、CellクラスのFormulaプロパティを使用します。セルに数式を適用する場合は、常に等号（=）で文字列を始める必要があります。これはMicrosoft Excelで数式を作成するときと同じです。関数パラメータを区切るためにコンマ（,）を使用します。
 
-{{< highlight "csharp" >}}
+数式の結果を計算するには、ExcelクラスのCalculateFormulaメソッドを呼び出し、Excelファイルに埋め込まれた全ての数式を処理します。[url: CalculateFormulaメソッドでサポートされる関数のリスト]（/cells/ja/net/supported-formula-functions/）を参照してください。
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -55,15 +56,15 @@ string value = worksheet.Cells["A4"].Value.ToString();
 workbook.Save("Adding Formula.xls");
 
 {{< /highlight >}}
-## **数式を一度だけ計算する**
-ユーザーが Workbook.CalculateFormula() を呼び出してブック テンプレート内の数式の値を計算すると、Aspose.Cells によって計算チェーンが作成されます。数式が 2 回目または 3 回目の計算などでパフォーマンスが向上します。
-ただし、ユーザー テンプレートに多様な数式が多数含まれている場合、最初の数式計算で CPU の処理時間とメモリが大量に消費される可能性があります。
+## **一度だけ数式を計算する**
+ユーザーがWorkbook.CalculateFormula（）を呼び出して、ワークブックテンプレート内の数式の値を計算すると、Aspose.Cellsは計算チェーンを作成します。これにより、2回目や3回目などの数式の計算が高速化されます。
+ただし、ユーザーテンプレートにさまざまな数式が含まれている場合、数式の最初の計算には多くのCPU処理時間とメモリが必要です。
 
-Aspose.Cells を使用すると、計算チェーンの作成をオフにすることができます。これは、ファイルの数式を 1 回だけ計算する場合に役立ちます。
+Aspose.Cellsでは、数式計算チェーンの作成を無効にすることができます。これは、ファイルの数式を1回だけ計算したい場合に役立ちます。
 
- Aspose.Cells までに数式計算のパフォーマンスを向上させたいが、数式計算チェーンを作成したくない場合は、次のように設定してください。**FormulaSettings.EnableCalculationChain**なので**間違い** .デフォルトでは、次のように設定されています。**真実**.
+Aspose.Cellsの数式の計算パフォーマンスを向上させたい場合で、数式計算チェーンを作成したくない場合は、FormulaSettings.EnableCalculationChainをfalseに設定してください。デフォルトでは、trueに設定されています。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -93,12 +94,12 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 ## **数式の直接計算**
-Aspose.Cells には数式計算エンジンが組み込まれています。また、Aspose.Cells は、デザイナー ファイルからインポートされた数式を再計算するだけでなく、数式の結果を直接計算することもサポートしています。
-場合によっては、実際にワークシートに数式を追加せずに、数式の結果を直接計算する必要があります。数式で使用されるセルの値は既にワークシートに存在しており、ワークシートに数式を追加せずに、いくつかの Ms-Excel 数式に基づいてこれらの値の結果を見つけるだけで済みます。
+数式計算エンジンはAspose.Cellsに組み込まれています。また、デザイナーファイルからインポートされた数式を再計算するだけでなく、Aspose.Cellsは数式の結果を直接計算することもサポートしています。
+時には、ワークシートに実際に追加せずに数式の結果を直接計算する必要があります。数式で使用されるセルの値はすでにワークシートに存在し、Ms-Excelの数式に基づいてこれらの値の結果を見つける必要がある場合、Aspose.CellsのFormula Calculation Engine APIであるworksheet.Calculate（string formula）を使用できます。
 
- Aspose.Cells 数式計算エンジン API を使用できます。**worksheet.Calculate(文字列式)**実際にワークシートに追加せずに、そのような数式の結果を計算します。
+サンプルコードのダウンロード
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook
 
@@ -140,5 +141,5 @@ workbook.Save("Calulate Any Formulae.xls");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip)

@@ -1,49 +1,50 @@
 ---
-title: Generieren Sie ein Diagramm durch die Verarbeitung intelligenter Markierungen
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET Diagramme mit Smart Markers erstellen. Unser Leitfaden zeigt Ihnen, wie Sie Smart Markers und deren Eigenschaften verarbeiten, um das Erscheinungsbild und die Benutzerfreundlichkeit Ihrer Diagramme zu verbessern.
-keywords: Aspose.Cells for .NET, chart generation, smart markers, appearance, usability, processing.
+title: Diagramm durch Verarbeitung von Smart Markers generieren
+description: Erfahren Sie, wie Sie Diagramme mit intelligenten Markierungen mithilfe von Aspose.Cells for .NET generieren. Unser Leitfaden zeigt Ihnen, wie Sie intelligente Markierungen und deren Eigenschaften verarbeiten, um das Aussehen und die Benutzerfreundlichkeit Ihrer Diagramme zu verbessern.
+keywords: Aspose.Cells for .NET, Diagrammerstellung, intelligente Markierungen, Aussehen, Benutzerfreundlichkeit, Verarbeitung.
 type: docs
 weight: 2100
 url: /de/net/generate-chart-by-processing-smart-markers/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells APIs stellen die bereit[**WorkbookDesigner**](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) Klasse zum Arbeiten mit Smart Markers, wobei die Formatierungen und Formeln in den Designer-Tabellen platziert und dann damit verarbeitet werden[**WorkbookDesigner**](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner)Klasse, um die Daten gemäß den angegebenen Smart Markern zu füllen. Es ist auch möglich, Excel-Diagramme durch die Verarbeitung von Smart Markers zu erstellen, wofür die folgenden Schritte erforderlich sind.
+Aspose.Cells-APIs bieten die [**WorkbookDesigner**](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner)-Klasse zum Arbeiten mit Smart Markers, bei der die Formatierung und Formeln in den Designer-Arbeitsmappen platziert und dann mit der [**WorkbookDesigner**](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner)-Klasse verarbeitet werden, um die Daten gemäß den angegebenen Smart Markern auszufüllen. Es ist auch möglich, Excel-Diagramme durch Verarbeitung von Smart Markern zu erstellen, was die folgenden Schritte erfordert.
 
-- Erstellung einer Designer-Tabelle
-- Verarbeitung der Designer-Tabelle anhand der angegebenen Datenquelle
-- Erstellung eines Diagramms basierend auf ausgefüllten Daten
+- Erstellung der Designer-Arbeitsmappe
+- Verarbeitung des Designer-Arbeitsblatts gegen die angegebene Datenquelle
+- Erstellung eines Diagramms basierend auf den befüllten Daten
 
 {{% /alert %}}
 
-##  Erstellung einer Designer-Tabelle
+## Erstellung des Designer-Arbeitsblatts
 
-Eine Designer-Tabelle ist eine einfache Excel-Datei, die mit der Excel-Anwendung Microsoft oder den APIs Aspose.Cells erstellt wurde und die visuelle Formatierung, Formeln und Smart Marker enthält, wobei der Inhalt zur Laufzeit ausgefüllt werden kann.
+Ein Designer-Arbeitsblatt ist eine einfache Excel-Datei, die mit der Microsoft Excel-Applikation oder Aspose.Cells-APIs erstellt wurde und visuelles Formatieren, Formeln und intelligente Markierungen enthält, in der die Inhalte zur Laufzeit befüllt werden können.
 
-Der Einfachheit halber erstellen wir die Designer-Tabelle mit Aspose.Cells for .NET API und verarbeiten sie später zu Demonstrationszwecken anhand einer dynamisch erstellten Datenquelle.
+Um der Einfachheit willen werden wir das Designer-Arbeitsblatt unter Verwendung der Aspose.Cells for .NET-API erstellen und es später gegen eine dynamisch erstellte Datenquelle für Demon-zwecke verarbeiten.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfDesignerSpreadsheet.cs" >}}
 
-##  Verarbeitung einer Designer-Tabelle
+## Verarbeitung des Designer-Arbeitsblatts
 
-Um die Designer-Tabelle zu verarbeiten, muss eine Datenquelle vorhanden sein, die den in der Designer-Tabelle verwendeten Smart Markers entspricht. Beispielsweise haben wir einen Smart Marker-Eintrag als &=Sales.Year erstellt, der die Spalte „Jahr“ in der DataTable „Sales“ darstellt. Falls eine entsprechende Spalte in der Datenquelle nicht verfügbar ist, überspringen die Aspose.Cells-APIs die Verarbeitung für diesen bestimmten Smart Marker und die Daten für den bestimmten Smart Marker werden daher nicht ausgefüllt.
+Um das Designer-Arbeitsblatt zu verarbeiten, muss man eine Datenquelle haben, die den Smart Markers im Designer-Arbeitsblatt entspricht. Zum Beispiel haben wir einen Smart Marker-Eintrag als &=Sales.Year erstellt, der die Spalte Year in der DataTable Sales repräsentiert. Falls eine entsprechende Spalte in der Datenquelle nicht vorhanden ist, überspringen die Aspose.Cells-APIs die Verarbeitung für diesen bestimmten Smart Marker, und infolgedessen werden die Daten für den speziellen Smart Marker nicht befüllt.
 
-Um diesen Anwendungsfall zu demonstrieren, erstellen wir die Datenquelle von Grund auf und verarbeiten sie anhand der im vorherigen Schritt erstellten Designer-Tabelle. In einem Echtzeitszenario könnten jedoch bereits Daten zur weiteren Verarbeitung verfügbar sein, sodass Sie die Erstellung einer Datenquelle überspringen können, wenn Daten bereits verfügbar sind.
+Um diesen Anwendungsfall zu demonstrieren, werden wir die Datenquelle von Grund auf erstellen und sie dann gegen das im vorherigen Schritt erstellte Designer-Arbeitsblatt verarbeiten. In einem Echtzeitszenario könnten jedoch bereits Daten für eine weitere Verarbeitung verfügbar sein, sodass Sie die Erstellung der Datenquelle überspringen können, wenn bereits Daten verfügbar sind.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-ProcessingDesignerSpreadsheet.cs" >}}
 
-Die Verarbeitung von Smart Markern ist recht einfach, wie der folgende Codeausschnitt zeigt.
+Die Verarbeitung von Smart Markern ist recht einfach, wie im folgenden Code-Snippet demonstriert wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-ProcessingOfSmartMarkers.cs" >}}
 
 {{% alert color="primary" %}}
 
- Das obige Code-Snippet verwendet die vorhandene Instanz von[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse, die im ersten Schritt erstellt wurde. Wenn Sie die Designer-Tabellenkalkulationsdatei bereits auf der Festplatte oder im Speicher haben, können Sie eine Instanz davon erstellen[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Klasse durch Laden der vorhandenen Designer-Tabelle.
+Das obige Code-Snippet verwendet die vorhandene Instanz der [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-Klasse, die im ersten Schritt erstellt wurde. Wenn Sie die Designer-Arbeitsblattdatei bereits auf der Festplatte oder im Speicher haben, können Sie eine Instanz der [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-Klasse erstellen, indem Sie das vorhandene Designer-Arbeitsblatt laden.
 
 {{% /alert %}}
 
-##  Erstellung eines Diagramms
+## Erstellung eines Diagramms
 
- Sobald die Daten vorhanden sind, müssen wir nur noch ein Diagramm basierend auf der Datenquelle erstellen. Um das Beispiel einfach zu halten, verwenden wir das[**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange)Methode, sodass wir das Diagramm nicht weiter konfigurieren müssen.
+Sobald die Daten vorhanden sind, müssen wir nur noch ein Diagramm auf Basis der Datenquelle erstellen. Um das Beispiel einfach zu halten, werden wir die [**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange)-Methode verwenden, damit wir das Diagramm nicht weiter konfigurieren müssen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}

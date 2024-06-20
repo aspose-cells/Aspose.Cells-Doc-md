@@ -1,15 +1,16 @@
-﻿---
-title: إعادة ترتيب الأوراق داخل المصنف
+---
+title: إعادة ترتيب الصفحات ضمن الدفتر
 type: docs
 weight: 50
 url: /ar/java/re-order-sheets-within-workbook/
 ---
-## **Aspose.Cells - إعادة ترتيب الأوراق داخل المصنف**
-يوفر Aspose.Cells طريقة ، Worksheet.moveTo () ، تُستخدم لنقل ورقة العمل إلى مكان آخر في نفس جدول البيانات.
+
+## **Aspose.Cells - إعادة ترتيب الصفحات ضمن الدفتر**
+توفر Aspose.Cells طريقة تسمى Worksheet.moveTo() مستخدمة لنقل ورقة عمل إلى موقع آخر في نفس جدول البيانات.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a new Workbook.
 
@@ -36,12 +37,12 @@ worksheet3.moveTo(2);
 workbook.save(dataDir + "AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - إعادة ترتيب الأوراق داخل المصنف**
-يوفر Apache POI طريقة Workbook.setSheetOrder () لتعيين أوراق العمل بالترتيب المطلوب.
+## **Apache POI SS - HSSF XSSF - إعادة ترتيب الصفحات ضمن الدفتر**
+توفر Apache POI طريقة Workbook.setSheetOrder() لتعيين أوراق عمل بالترتيب المطلوب.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)src / main / java / com / aspose / خلية / أمثلة / featurescomparison / أوراق العمل / أوراق إعادة الطلبات)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/reordersheets)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[نسخ أوراق العمل ونقلها](/cells/ar/java/copying-and-moving-worksheets).
+لمزيد من التفاصيل، قم بزيارة [نسخ ونقل الأوراق العمل](/cells/ar/java/copying-and-moving-worksheets).
 
 {{% /alert %}}

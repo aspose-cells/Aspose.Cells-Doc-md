@@ -1,17 +1,18 @@
-﻿---
+---
 title: Установить область печати
 type: docs
 weight: 40
 url: /ru/java/set-print-area/
 ---
-## **Aspose.Cells - Установить область печати**
-По умолчанию только область печати включает все области рабочего листа, содержащие данные. Разработчики могут установить определенную область печати рабочего листа.
 
-Чтобы выбрать конкретную область печати, используйте кнопку[Настройка страницы](/java/pagesetup)метод setPrintArea класса. Назначьте этому свойству диапазон ячеек, определяющий область печати.
+## **Aspose.Cells - Установка области печати**
+По умолчанию область печати включает все области рабочего листа, содержащие данные. Разработчики могут определить конкретную область печати для рабочего листа.
+
+Чтобы выбрать определенную область печати, используйте метод setPrintArea класса PageSetup. Присвойте этому свойству диапазон ячеек, определяющий область печати.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -32,12 +33,12 @@ PageSetup pageSetup = sheet.getPageSetup();
 pageSetup.setPrintArea("A1:F20");
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF XSSF — установка области печати**
-Метод Workbook.setPrintArea доступен для установки свойств страницы области печати.
+## **Apache POI SS - HSSF XSSF - Установить область печати**
+Метод Workbook.setPrintArea доступен для установки параметров страницы области печати.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.setPrintArea(
 );
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/setprintarea)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/setprintarea)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Настройка параметров печати](/cells/ru/java/page-setup-features/#setting-print-options).
+Для получения более подробной информации посетите [Настройка параметров печати](/cells/ru/java/page-setup-features/#setting-print-options).
 
 {{% /alert %}}

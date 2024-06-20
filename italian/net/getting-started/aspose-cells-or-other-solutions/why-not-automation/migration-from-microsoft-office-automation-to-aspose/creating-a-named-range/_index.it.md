@@ -1,16 +1,17 @@
-﻿---
+---
 title: Creazione di un intervallo denominato
 type: docs
 weight: 70
 url: /it/net/creating-a-named-range/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET consente agli sviluppatori di eseguire la maggior parte delle attività che gli utenti possono eseguire in Microsoft Excel tramite le loro applicazioni. Questo articolo spiega come applicare un intervallo denominato a livello di codice.
+Aspose.Cells for .NET consente agli sviluppatori di svolgere la maggior parte delle attività che gli utenti possono svolgere in Microsoft Excel tramite le loro applicazioni. Questo articolo spiega come applicare un intervallo denominato tramite programmazione.
 
-Un intervallo denominato è una funzionalità di Excel che consente di assegnare un nome a una cella o a un intervallo di celle in un foglio di calcolo di Excel. È quindi possibile utilizzare il nome nelle formule per fare riferimento alla cella (o all'intervallo). Intervalli con nomi sensati rendono le formule più facili da capire.
+Un intervallo denominato è una funzione di Excel che consente di assegnare un nome a una cella o a un intervallo di celle in un foglio di calcolo di Excel. È quindi possibile utilizzare il nome nelle formule per fare riferimento alla cella (o all'intervallo). Gli intervalli denominati in modo sensato rendono più semplici da comprendere le formule.
 
-Un intervallo denominato deve essere univoco all'interno del suo ambito, quindi non utilizzare lo stesso nome per diversi intervalli in un foglio di lavoro. I nomi di intervallo descrittivi aiutano a evitarlo: ad esempio, OrderSubTotal è più descrittivo di SubTotal e ha anche meno probabilità di essere duplicato su un foglio.
+Un intervallo denominato deve essere univoco all'interno del suo ambito, quindi non utilizzare lo stesso nome per diversi intervalli in un foglio di calcolo. I nomi degli intervalli descrittivi aiutano ad evitare ciò: ad esempio, OrderSubTotal è più descrittivo di SubTotal e anche meno probabile che venga duplicato in un foglio.
 
 {{% /alert %}}
 
@@ -18,22 +19,22 @@ Un intervallo denominato deve essere univoco all'interno del suo ambito, quindi 
 
 Per creare un intervallo denominato:
 
-1. Imposta il foglio di lavoro:
- 1. Creare un'istanza di un oggetto Application.
- (solo VSTO.)
- 1. Aggiungi una cartella di lavoro.
- 1. Prendi il primo foglio.
-1. Crea un intervallo denominato:
- 1. Definire un intervallo.
- 1. Assegna un nome all'intervallo.
-1. Salva il file.
+1. Configura il foglio di lavoro:
+   1. Istanziare un oggetto Application.
+      (Solo VSTO.)
+   1. Aggiungi un foglio di lavoro.
+   1. Ottieni il primo foglio.
+1. Crea un intervallo nominato:
+   1. Definisci un intervallo.
+   1. Dà un nome all'intervallo.
+1. Salvare il file.
 
- Gli esempi di codice seguenti mostrano come eseguire questi passaggi utilizzando[VSTO](/cells/it/net/creating-a-named-range/) con C# o Visual Basic. Gli esempi di codice che seguono mostrano come eseguire la stessa operazione utilizzando[Aspose.Cells for .NET](/cells/it/net/creating-a-named-range/), sempre con C# o Visual Basic.
-### **Creazione di un intervallo denominato con VSTO**
+Gli esempi di codice qui sotto mostrano come eseguire questi passaggi utilizzando [VSTO](/cells/it/net/creating-a-named-range/) con C# o Visual Basic. Gli esempi di codice che seguono mostrano come fare la stessa cosa utilizzando [Aspose.Cells for .NET](/cells/it/net/creating-a-named-range/), di nuovo con C# o Visual Basic.
+### **Creazione di un intervallo nominato con VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -93,36 +94,36 @@ xl.Quit();
 
 {{< /highlight >}}
 
-### **Creazione di un intervallo denominato con Aspose.Cells for .NET**
+### **Creazione di un intervallo nominato con Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-utilizzando il numero Aspose.Cells;
+using Aspose.Cells;
 
 .......
 
 
-//Creazione di un'istanza di un oggetto Workbook
+//Instantiating a Workbook object
 
-Cartella di lavoro cartella di lavoro = nuova cartella di lavoro();
+Workbook workbook = new Workbook();
 
-//Accesso al primo foglio di lavoro nel file Excel
+//Accessing the first worksheet in the Excel file
 
-Foglio di lavoro foglio di lavoro = workbook.Worksheets[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Creazione di un intervallo denominato
+//Creating a named range
 
-Intervallo intervallo = foglio di lavoro.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Impostazione del nome dell'intervallo denominato
+//Setting the name of the named range
 
 range.Name = "Test_Range";
 
- for (int riga = 0; riga< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 

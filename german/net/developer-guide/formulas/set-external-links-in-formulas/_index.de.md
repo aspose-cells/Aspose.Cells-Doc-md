@@ -1,16 +1,17 @@
-﻿---
-title: Setzen Sie externe Links in Formeln
+---
+title: Externe Links in Formeln setzen
 type: docs
 weight: 20
 url: /de/net/set-external-links-in-formulas/
 ---
+
 {{% alert color="primary" %}} 
 
-Manchmal ist es notwendig, Links zu externen Dateien in Formeln aufzunehmen, um beispielsweise einen Zellen- oder Bereichswert mit ihnen zu vergleichen. Aspose.Cells bietet diese Funktion und dieses Dokument erklärt, wie man sie verwendet.
+Manchmal ist es notwendig, Links zu externen Dateien in Formeln einzuschließen, um zum Beispiel eine Zelle oder einen Bereichswert gegen sie auszuwerten. Aspose.Cells bietet diese Funktion und dieses Dokument erklärt, wie sie verwendet wird.
 
 {{% /alert %}} 
 
-Der folgende Beispielcode zeigt, wie externe Dateien in Formeln eingeschlossen werden.
+Der nachfolgende Beispielcode zeigt, wie externe Dateien in Formeln eingebunden werden.
 
 
 

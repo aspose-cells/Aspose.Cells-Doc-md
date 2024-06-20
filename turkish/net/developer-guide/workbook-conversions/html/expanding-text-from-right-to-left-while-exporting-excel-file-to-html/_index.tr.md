@@ -1,28 +1,29 @@
-﻿---
-title: Excel dosyasını HTML'e aktarırken metni sağdan sola genişletme
+---
+title: Excel den HTML ye Dönüştürürken Metni Sağdan Sola Doğru Genişletme
 type: docs
 weight: 60
 url: /tr/net/expanding-text-from-right-to-left-while-exporting-excel-file-to/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells artık Excel dosyasını HTML'e aktarırken sağdan sola genişleyen metni destekliyor. Bu özellik v8.9.0.0'dan beri uygulanmaktadır. Şimdi, kaynak excel dosyanız sağdan sola genişleyen herhangi bir metin içeriyorsa, Aspose.Cells onu doğru bir şekilde HTML'e aktaracaktır.
+Aspose.Cells, Excel dosyasını HTML'e dönüştürürken metni sağdan sola doğru genişletmeyi destekler. Bu özellik, v8.9.0.0'dan itibaren uygulanmıştır. Artık kaynak Excel dosyanız sağdan sola doğru genişleyen metin içeriyorsa, Aspose.Cells bunu HTML olarak doğru bir şekilde dışa aktaracaktır.
 
 {{% /alert %}} 
-## **Excel dosyasını HTML'e aktarırken metni sağdan sola genişletme**
- Aşağıdaki örnek kod,[örnek excel dosyası](5115502.xlsx) HTML içine. Bu ekran görüntüsü, örnek excel'in Microsoft Excel 2013'te nasıl göründüğünü gösterir.
+## **Excel dosyasını HTML'e dönüştüren aşağıdaki örnek kod. Bu ekran görüntüsü, örnek Excel dosyasının Microsoft Excel 2013'te nasıl göründüğünü göstermektedir.**
+Aşağıdaki örnek kod, [örnek excel dosyasını](5115502.xlsx) HTML'ye dönüştürür. Bu ekran görüntüsü, örnek excelin Microsoft Excel 2013'te nasıl göründüğünü göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_1.png)
+![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_1.png)
 
- Bu ekran görüntüsü[HTML çıktısı eski sürümle oluşturuldu](5115509).
+Bu ekran görüntüsü, eski sürümle oluşturulan [çıktı HTML'yi](5115509) göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_2.png)
+![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_2.png)
 
- Bu ekran görüntüsü[HTML çıktısı daha yeni sürümle oluşturuldu](5115508).
+Bu ekran görüntüsü, daha yeni sürümle oluşturulan [çıktı HTML'yi](5115508) göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_3.png)
+![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_3.png)
 
-Ekran görüntülerinde de görebileceğiniz gibi, daha yeni sürüm, tıpkı Microsoft Excel gibi sağa hizalanmış metni sola doğru genişletiyor.
+Ekran görüntülerinde görebileceğiniz gibi, yeni sürüm sağa hizalanan metni Microsoft Excel gibi doğru bir şekilde sola genişletebilmektedir.
 
 
 

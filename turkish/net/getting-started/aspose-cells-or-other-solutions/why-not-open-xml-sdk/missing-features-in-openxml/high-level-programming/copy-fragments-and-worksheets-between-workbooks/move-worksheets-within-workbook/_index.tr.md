@@ -1,14 +1,15 @@
-﻿---
-title: Çalışma Sayfalarını Çalışma Kitabı İçinde Taşıma
+---
+title: Çalışma Kitabı İçinde Sayfaları Taşıma
 type: docs
 weight: 30
 url: /tr/net/move-worksheets-within-workbook/
 ---
-Aspose.Cells, bir çalışma sayfasını elektronik tabloda başka bir konuma taşımak için kullanılan Aspose.Cells.Worksheet.MoveTo() yöntemini sağlar. Yöntem, hedef çalışma sayfası dizinini parametre olarak alır.
 
-Aşağıdaki örnek, bir çalışma sayfasının çalışma kitabı içinde başka bir konuma nasıl taşınacağını gösterir.
+Aspose.Cells, Aspose.Cells.Worksheet.MoveTo() adlı bir yöntem sağlar, bu yöntem, bir çalışma sayfasını elektronik tabloda başka bir konuma taşımak için kullanılır. Yöntem, hedef çalışma sayfası dizinini bir parametre olarak alır.
 
-{{< highlight "csharp" >}}
+Aşağıdaki örnek, bir çalışma kitabı içinde bir çalışma sayfasının başka bir konuma nasıl taşınacağını gösterir.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -39,6 +40,6 @@ worksheet.MoveTo(2);
 wb.Save(FileName);
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)

@@ -1,40 +1,41 @@
-﻿---
-title: Verwenden von Sparklines und Einstellungen 3D-Format
+---
+title: Verwenden von Sparklines und Einstellungen 3D Format
 type: docs
 weight: 40
 url: /de/net/using-sparklines-and-settings-3d-format/
 ---
+
 ## **Verwendung von Sparklines**
-Microsoft Excel 2010 kann Informationen auf mehr Arten als je zuvor analysieren. Es ermöglicht Benutzern, wichtige Datentrends mit neuen Datenanalyse- und Visualisierungstools zu verfolgen und hervorzuheben. Sparklines sind Minidiagramme, die Sie in Zellen platzieren können, sodass Sie Daten und Diagramme in derselben Tabelle anzeigen können. Wenn Sparklines richtig eingesetzt werden, ist die Datenanalyse schneller und präziser. Sie bieten auch eine einfache Ansicht von Informationen und vermeiden überfüllte Arbeitsblätter mit vielen geschäftigen Diagrammen.
+Microsoft Excel 2010 kann Informationen auf vielfältige Weise analysieren. Es ermöglicht Benutzern, wichtige Datentrends mit neuen Datenanalyse- und Visualisierungstools nachzuverfolgen und hervorzuheben. Sparklines sind Mini-Diagramme, die Sie innerhalb von Zellen platzieren können, um Daten und Diagramme in derselben Tabelle anzuzeigen. Wenn Sparklines richtig verwendet werden, ist die Datenanalyse schneller und präziser. Sie bieten auch einen einfachen Überblick über Informationen, vermeiden überfüllte Arbeitsblätter mit vielen belebten Diagrammen.
 
-Aspose.Cells bietet ein API zum Bearbeiten von Sparklines in Tabellenkalkulationen.
+Aspose.Cells bietet eine API zur Manipulation von Sparklines in Tabellenkalkulationen.
 ### **Sparklines in Microsoft Excel**
-So fügen Sie Sparklines in Microsoft Excel 2010 ein:
+Um Sparklines in Microsoft Excel 2010 einzufügen:
 
-1. Wählen Sie die Zellen aus, in denen die Sparklines erscheinen sollen. Um sie einfacher anzuzeigen, wählen Sie Zellen neben den Daten aus.
-1.  Klicken**Einfügung** auf dem Band und wählen Sie dann**Säule** in dem**Sparklines** Gruppe.
-1. Wählen Sie den Zellbereich im Arbeitsblatt aus, der die Quelldaten enthält, oder geben Sie ihn ein. Die Diagramme werden angezeigt.
+1. Wählen Sie die Zellen aus, in denen die Sparklines erscheinen sollen. Um sie leicht zu sehen, wählen Sie Zellen neben den Daten aus.
+1. Klicken Sie auf **Einfügen** im Menüband und wählen Sie dann **Spalte** in der Gruppe **Sparklines** aus.
+1. Wählen Sie den Bereich der Zellen im Arbeitsblatt aus oder geben Sie ihn ein, der die Quelldaten enthält. Die Diagramme werden angezeigt.
 
-Sparklines helfen Ihnen, Trends zu erkennen, z. B. die Sieges- oder Niederlagenbilanz einer Softball-Liga. Sparklines kann sogar die gesamte Saison jedes Teams in der Liga zusammenfassen.
-### **Sparklines mit Aspose.Cells**
- Entwickler können Sparklines (in der Vorlagendatei) mit dem von Aspose.Cells bereitgestellten API erstellen, löschen oder lesen. Die Klassen, die Sparklines verwalten, sind in der enthalten[Aspose.Cells.Charts](https://reference.aspose.com/cells/net/aspose.cells.charts)Namespace, daher müssen Sie diesen Namespace importieren, bevor Sie diese Funktionen verwenden.
+Sparklines helfen Ihnen, Trends zu erkennen, beispielsweise die Gewinn- oder Verlustbilanz für eine Softball-Liga. Sparklines können sogar die gesamte Saison jedes Teams in der Liga zusammenfassen.
+### **Sparklines mit Aspose.Cells verwenden**
+Entwickler können Sparklines erstellen, löschen oder lesen (in der Vorlagendatei) unter Verwendung der von Aspose.Cells bereitgestellten API. Die Klassen, die Sparklines verwalten, sind im [Aspose.Cells.Charts](https://reference.aspose.com/cells/net/aspose.cells.charts)-Namespace enthalten, daher müssen Sie diesen Namespace importieren, bevor Sie diese Funktionen verwenden.
 
-Durch das Hinzufügen benutzerdefinierter Grafiken für einen bestimmten Datenbereich haben Entwickler die Freiheit, verschiedene Arten von winzigen Diagrammen zu ausgewählten Zellbereichen hinzuzufügen.
+Durch das ​​Hinzufügen benutzerdefinierter Grafiken für einen bestimmten Datenbereich haben Entwickler die Freiheit, verschiedene Arten von Mini-Diagrammen in ausgewählten Zellbereichen hinzuzufügen.
 
-Das folgende Beispiel zeigt die Sparklines-Funktion. Das Beispiel zeigt, wie Sie:
+Das folgende Beispiel zeigt die Sparklines-Funktion. Das Beispiel zeigt, wie man:
 
-1. Öffnen Sie eine einfache Vorlagendatei.
+1. Eine einfache Vorlagendatei öffnen.
 1. Sparklines-Informationen für ein Arbeitsblatt lesen.
-1. Fügen Sie einem Zellbereich neue Sparklines für einen bestimmten Datenbereich hinzu.
+1. Neue Sparklines für einen bestimmten Datenbereich zu einem Zellbereich hinzufügen.
 1. Speichern Sie die Excel-Datei auf der Festplatte.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-UsingSparklines-1.cs" >}}
-## **3D-Format einstellen**
-Möglicherweise benötigen Sie 3D-Diagrammstile, damit Sie genau die Ergebnisse für Ihr Szenario erhalten. Aspose.Cells stellt die relevante API bereit, um Microsoft Excel 2007 3D-Formatierung anzuwenden.
+## **Einstellung des 3D-Formats**
+Möglicherweise benötigen Sie 3D-Diagrammstile, um die Ergebnisse für Ihr Szenario zu erhalten. Aspose.Cells bietet die relevante API zur Anwendung von Microsoft Excel 2007 3D-Formatierung.
 
-Nachfolgend finden Sie ein vollständiges Beispiel, um zu demonstrieren, wie Sie ein Diagramm erstellen und die Microsoft Excel 2007 3D-Formatierung anwenden. Nach dem Ausführen des Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm (mit 3D-Effekten) hinzugefügt.
+Ein vollständiges Beispiel finden Sie unten, um zu demonstrieren, wie man ein Diagramm erstellt und Microsoft Excel 2007 3D-Formatierung anwendet. Nach Ausführung des Beispielcodes wird ein Spaltendiagramm (mit 3D-Effekten) zum Arbeitsblatt hinzugefügt.
 
 
 

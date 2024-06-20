@@ -1,18 +1,19 @@
-﻿---
-title: 時間がかかりすぎる場合は、InterruptMonitor を使用して変換またはロードを停止します
+---
+title: 時間がかかりすぎる場合はInterruptMonitorを使用して変換または読み込みを停止してください
 type: docs
 weight: 100
 url: /ja/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells を使用すると、PDF、HTML などのさまざまな形式への Workbook の変換を停止できます。[**割り込みモニター**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor)時間がかかりすぎる場合はオブジェクト。多くの場合、変換プロセスは CPU とメモリの両方を集中的に使用するため、リソースが限られている場合に停止すると便利な場合がよくあります。使用できます[**割り込みモニター**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor)変換を停止するためと、巨大なワークブックのロードを停止するための両方です。使ってください[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/interruptmonitor)変換を停止するプロパティと[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/interruptmonitor)巨大なワークブックをロードするためのプロパティ。
+## **可能な使用シナリオ**
 
-## **時間がかかりすぎる場合は、InterruptMonitor を使用して変換またはロードを停止します**
+Aspose.Cellsを使用すると、リソースが限られている場合に変換を停止するために、[**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor)オブジェクトを使用できます。変換プロセスはCPUおよびメモリの両方を多く使用するため、リソースが制限されているときに中断すると便利です。変換と巨大なワークブックの読み込みの両方を停止するために、[**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor)を使用できます。変換を中止する場合は[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/interruptmonitor)プロパティを、巨大なワークブックの読み込みを中止する場合は[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/interruptmonitor)プロパティを使用してください。
 
-次のサンプル コードは、[**割り込みモニター**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor)物体。このコードは、非常に大きな Excel ファイルを PDF に変換します。数秒かかります (つまり、*30秒以上*）これらのコード行のために変換する必要があります。
+## **時間がかかりすぎる場合はInterruptMonitorを使用して変換または読み込みを停止してください**
 
-{{< highlight "csharp" >}}
+次のサンプルコードでは、[**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor)オブジェクトの使用方法について説明しています。多大なExcelファイルをPDFに変換します。このコードは、これらのコードの行のために変換が数秒かかります（すなわち*30秒以上*）。
+
+{{< highlight csharp >}}
 
 //Access cell J1000000 and add some text inside it.
 
@@ -22,9 +23,9 @@ cell.PutValue("This is text.");
 
 {{< /highlight >}}
 
-ご覧のとおり**J1000000** XLSX ファイルのかなり遠いセルです。しかし**WaitForWhileAndThenInterrupt()**メソッドは 10 秒後に変換を中断し、プログラムは終了/終了します。サンプルコードを実行するには、次のコードを使用してください。
+**J1000000** はXLSXファイルでかなり遠いセルであることがわかります。ただし、**WaitForWhileAndThenInterrupt()** メソッドを使用すると、10秒後に変換が中断され、プログラムが終了します。次のコードを使用して、サンプルコードを実行してください。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  new StopConversionOrLoadingUsingInterruptMonitor().TestRun();
 

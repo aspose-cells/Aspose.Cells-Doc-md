@@ -1,12 +1,13 @@
-﻿---
-title: Entfernen Sie das ActiveX-Steuerelement
+---
+title: AktiveX Steuerung entfernen
 type: docs
 weight: 160
 url: /de/java/remove-activex-control/
 ---
-## **Entfernen Sie das ActiveX-Steuerelement**
 
-Aspose.Cells bietet die Möglichkeit, ActiveX-Steuerelemente aus Arbeitsmappen zu entfernen. Dafür sorgt die API[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl()) Methode. Das folgende Code-Snippet demonstriert die Verwendung von[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl())-Methode zum Entfernen des ActiveX-Steuerelements.
+## **AktiveX-Steuerung entfernen**
+
+Aspose.Cells bietet die Möglichkeit, ActiveX-Steuerelemente aus Arbeitsmappen zu entfernen. Dafür bietet die API die Methode [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl--) an. Der folgende Codeausschnitt zeigt die Verwendung der Methode [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl--), um das ActiveX-Steuerelement zu entfernen.
 
 ## **Beispielcode**
 

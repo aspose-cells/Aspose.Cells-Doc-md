@@ -1,18 +1,19 @@
-﻿---
-title: CSV dosyasını Formüllerle Yükleyin veya İçe Aktarın
+---
+title: Formülleri içeren CSV dosyasını yükle veya içe aktar
 type: docs
 weight: 350
 url: /tr/net/load-or-import-csv-file-with-formulas/
 ---
+
 {{% alert color="primary" %}} 
 
- CSV dosyası çoğunlukla metinsel veriler içerir ve herhangi bir formül içermez. Ancak, bazen CSV dosyalarının da formüller içerdiği olur. Bu tür CSV dosyaları ayarlanarak yüklenmelidir.[TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/hasformula) olarak**doğru** . Bu özellik ayarlandıktan sonra**doğru**, Aspose.Cells, formülü basit metin olarak ele almaz. Bunlar formül olarak ele alınacak ve Aspose.Cells formül hesaplama motoru bunları her zamanki gibi işleyecektir.
+CSV dosyaları çoğunlukla metinsel veriler içerir ve formül içermezler. Ancak bazen CSV dosyalarının da formüller içerdiği olur. Bu tür CSV dosyaları, [TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/hasformula) özelliğini **true** olarak ayarlayarak yüklenmelidir. Bu özellik **true** olarak ayarlandığında, Aspose.Cells formülü basit metin olarak değil, formül olarak işleyecektir ve Aspose.Cells formül hesaplama motoru onları normal olarak işleyecektir.
 
 {{% /alert %}} 
 
- Aşağıdaki kod, bir CSV dosyasını formüllerle nasıl yükleyebileceğinizi ve içe aktarabileceğinizi gösterir. Herhangi bir CSV dosyasını kullanabilirsiniz. Örnekleme amacıyla,[basit csv dosyası](5115034.csv) bu verileri içeren. Gördüğünüz gibi bir formül içeriyor.
+Aşağıdaki kod, formülleri içeren CSV dosyasını nasıl yükleyebileceğinizi ve içe aktarabileceğinizi gösterir. Herhangi bir CSV dosyasını kullanabilirsiniz. İllüstrasyon amacıyla, bu veriyi içeren [basit csv dosyasını](5115034.csv) kullanıyoruz.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  300,500,=Sum(A1:B1)
 
@@ -22,8 +23,8 @@ url: /tr/net/load-or-import-csv-file-with-formulas/
 
 
 
-Kod önce CSV dosyasını yükler, ardından D4 hücresinde yeniden içe aktarır. Son olarak, çalışma kitabı nesnesini XSLX biçiminde kaydeder. bu[çıktı XLSX dosyası](5115052.xlsx) buna benzer. Gördüğünüz gibi C3 ve F4 hücresi formül ve sonucu 800 içerir.
+Kod önce CSV dosyasını yükler, ardından D4 hücresine yeniden içe aktarır. Son olarak, workbook nesnesini XSLX formatında kaydeder. [Çıktı XLSX dosyası](5115052.xlsx) şöyle görünüyor. C3 ve F4 hücrelerinin formülü ve sonucu 800 olduğunu görebilirsiniz.
 
-|![yapılacaklar:resim_alternatif_metin](load-or-import-csv-file-with-formulas_1.png)|
-|:- |
+|![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
+| :- |
 

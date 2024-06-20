@@ -1,15 +1,16 @@
-﻿---
-title: Kryptera filer i PHP
+---
+title: Kryptering av filer i PHP
 type: docs
 weight: 10
 url: /sv/net/encrypting-files-in-php/
 ---
+
 ## **Aspose.Cells - Kryptera Excel-filer**
 Kryptera en Microsoft Excel-fil
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -40,7 +41,7 @@ Kryptera en Microsoft Excel-fil
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Kryptera filer (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Krypterar filer (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)

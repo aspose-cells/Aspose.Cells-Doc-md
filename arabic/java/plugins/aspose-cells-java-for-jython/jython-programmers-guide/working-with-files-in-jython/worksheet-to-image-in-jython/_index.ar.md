@@ -1,15 +1,16 @@
-﻿---
-title: ورقة عمل إلى صورة في جايثون
+---
+title: تحويل ورقة العمل إلى صورة في جايثون
 type: docs
 weight: 90
 url: /ar/java/worksheet-to-image-in-jython/
 ---
-## **Aspose.Cells - ورقة عمل إلى صورة**
- لإلحاق المستندات باستخدام**Aspose.Cells Java لـ Jython**. هنا يمكنك أن ترى رمز المثال.
 
-**كود جايثون**
+## **Aspose.Cells - تحويل ورقة العمل إلى صورة**
+لإلحاق المستندات باستخدام **Aspose.Cells Java for Jython**. هنا يمكنك رؤية رمز المثال.
 
-{{< highlight "java" >}}
+**رمز Jython**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -74,7 +75,7 @@ if __name__ == '__main__':
     WorksheetToImage()
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إرفاق المستندات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **مستندات الإضافة (Aspose.Cells)** من أي من المواقع الاجتماعية للترميز الواردة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/WorksheetToImage.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/WorksheetToImage.py)

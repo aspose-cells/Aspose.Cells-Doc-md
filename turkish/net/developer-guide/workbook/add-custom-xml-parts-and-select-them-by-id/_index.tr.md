@@ -1,24 +1,25 @@
-﻿---
-title: Özel XML Bölümleri Ekleyin ve Kimliğe Göre Seçin
+---
+title: Özel XML Parçalarını Ekleyin ve ID leri ile Seçin
 type: docs
 weight: 70
 url: /tr/net/add-custom-xml-parts-and-select-them-by-id/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Özel XML Parçaları, Microsoft Excel belgelerinin içinde depolanan ve bunlarla ilgilenen uygulamalar tarafından kullanılan XML verileridir. Şu anda Microsoft Excel kullanıcı arabirimini kullanarak bunları eklemenin doğrudan bir yolu yoktur. Ancak, bunları VSTO kullanarak, Aspose.Cells kullanarak vb. gibi çeşitli şekillerde programlı olarak ekleyebilirsiniz.[**Workbook.CustomXmlParts.Add()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add)yöntemini kullanarak Özel XML Parçası eklemek istiyorsanız Aspose.Cells API'i kullanın.[**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id)Emlak. Benzer şekilde, kimliğe göre Özel XML Parçası'nı seçmek isterseniz,[**Workbook.CustomXmlParts.SelectByID()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid)yöntem.
+Özel XML Parçaları, Microsoft Excel belgeleri içinde depolanan ve bunlarla ilgili uygulamalar tarafından kullanılan XML verileridir. Şu anda Microsoft Excel UI aracılığıyla onları eklemenin bir doğrudan yolu yoktur. Ancak, bu parçaları programlı olarak çeşitli şekillerde ekleyebilirsiniz, örn. VSTO kullanarak, Aspose.Cells kullanarak vb. Aspose.Cells API'sını kullanarak Özel XML Parçası eklemek istiyorsanız [**Workbook.CustomXmlParts.Add()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add) yöntemini kullanın. Ayrıca, [**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id) özelliğini kullanarak ID'sini ayarlayabilirsiniz. Benzer şekilde, belirli bir ID ile Özel XML Parçasını seçmek isterseniz, [**Workbook.CustomXmlParts.SelectByID()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid) yöntemini kullanabilirsiniz.
 
-## **Özel XML Bölümleri Ekleyin ve Kimliğe Göre Seçin**
+## **Özel XML Parçalarını ekleyin ve ID'leri ile seçin**
 
-Aşağıdaki örnek kod, önce şunu kullanarak dört Özel XML Parçası ekler:[**Workbook.CustomXmlParts.Add()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add)yöntem. Daha sonra kullanarak kimliklerini ayarlar[**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id) Emlak. Son olarak, kullanarak eklenen Özel XML Parçalarından birini bulur veya seçer.[**Workbook.CustomXmlParts.SelectByID()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid)yöntem. Lütfen referans için aşağıda verilen kodun konsol çıktısına da bakın.
+Aşağıdaki örnek kod önce [**Workbook.CustomXmlParts.Add()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add) yöntemi ile dört Özel XML Parçası ekler. Ardından bunların ID'lerini [**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id) özelliği ile ayarlar. Son olarak, eklenen Özel XML Parçalardan birini bulur veya seçer [**Workbook.CustomXmlParts.SelectByID()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid) yöntemini kullanarak. Lütfen aşağıdaki kodun konsol çıktısını da referans için inceleyiniz.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-AddCustomXMLPartsAndSelectThemByID.cs" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Found: CustomXmlPart ID Sport
 

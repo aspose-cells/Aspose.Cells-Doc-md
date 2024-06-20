@@ -1,29 +1,30 @@
-﻿---
-title: Grafiğin Veri Etiketleri için Metin Kaydırmayı Devre Dışı Bırak
+---
+title: Grafiğin Veri Etiketlerinin Metin Sarılmasını Devre Dışı Bırakma
 type: docs
 weight: 60
 url: /tr/java/disable-text-wrapping-for-data-labels-of-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel 2013, kullanıcıların bir grafiğin veri etiketleri içindeki metni kaydırmasına veya açmasına olanak tanır. Varsayılan olarak, veri etiketi metni kaydırılır.
+Microsoft Excel 2013, bir grafiğin veri etiketlerinin metnini sarmaya veya sarmamaya izin verir. Varsayılan olarak, veri etiketi metni sarmalanmıştır.
 
 {{% /alert %}}
 
-Aspose.Cells şunları sağlar:[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) yöntem. Ayarlanır**Doğru** veya**YANLIŞ** sırasıyla veri etiketlerinde metin kaydırmayı etkinleştirmek veya devre dışı bırakmak için.
+Aspose.Cells, [**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) metodunu sağlar. Metin sarmalamayı etkinleştirmek veya devre dışı bırakmak için **True** veya **False** olarak ayarlayın.
 
- Benzer şekilde,[**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)bir veri etiketinin zaten sarılmış olup olmadığını öğrenme yöntemi.
+Benzer şekilde, bir veri etiketinin zaten sarılı olup olmadığını bulmak için [**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) metodunu kullanın.
 
-Bu ekran görüntüsü, veri etiketlerinin metninin sarıldığı bir grafiği içeren örnek bir Microsoft Excel dosyasını gösterir. Gördüğünüz gibi, kontrol edebilir veya temizleyebilirsiniz.**Metni şekle kaydır** Microsoft Excel 2013'te Veri Etiketlerini Biçimlendir panelinin HİZALAMA bölümündeki seçenek.
+Bu ekran görüntüsü, Microsoft Excel 2013 içeren bir örnek Excel dosyasını gösterir, içinde veri etiketlerinin metni sarılmıştır. Görebileceğiniz gibi, Microsoft Excel 2013'ün Format Datalabels panelinin ALIGNMENT bölümünde **Şeklin içinde metni sarma** seçeneğini kontrol edip temizleyebilirsiniz.
 
 **Veri etiketlerini sarma**
 
-![yapılacaklar:resim_alternatif_metin](disable-text-wrapping-for-data-labels-of-the-chart_1.png)
+![todo:image_alt_text](disable-text-wrapping-for-data-labels-of-the-chart_1.png)
 
- Aşağıdaki örnek kod, Aspose.Cells'i kullanarak örnek Microsoft Excel dosyasını yükler ve veri etiketi metin kaydırmayı devre dışı bırakır.[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)yöntem. Kod yürütüldüğünde, grafik şöyle görünür. Daha önce sarılmış olan metin artık açılmıştır.
+Aşağıdaki örnek kod, Aspose.Cells kullanarak örnek Microsoft Excel dosyasını yükler ve [**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) yöntemini kullanarak veri etiketi metin sarmasını devre dışı bırakır. Kod çalıştırıldığında, grafik şu şekilde görünecektir. Önceden sarmalanmış metin artık sarmalanmamıştır.
 
 **Veri etiketlerini yalnızca bir satırda gösterme**
 
-![yapılacaklar:resim_alternatif_metin](disable-text-wrapping-for-data-labels-of-the-chart_2.png)
+![todo:image_alt_text](disable-text-wrapping-for-data-labels-of-the-chart_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisableTextWrapping-DisableTextWrapping.java" >}}

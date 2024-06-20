@@ -1,10 +1,11 @@
-﻿---
-title: Aspose.Cells .NET لـ VisualStudio
+---
+title: Aspose.Cells .NET for VisualStudio
 type: docs
 weight: 60
 url: /ar/net/aspose-cells-net-for-visualstudio/
 ---
-يحتوي هذا القسم على المواضيع التالية:
 
-- [Visual Studio تصدير GridView إلى عنصر تحكم Excel](/cells/ar/net/visual-studio-export-gridview-to-excel-control/)
-- [Aspose.Cells Visual Studio Plugin](/cells/ar/net/aspose-cells-visual-studio-plugin/)
+تحتوي هذه القسم على المواضيع التالية:
+
+- [تصدير GridView To Excel Control في Visual Studio](/cells/ar/net/visual-studio-export-gridview-to-excel-control/)
+- [اضافة فيجوال استوديو لـ Aspose.Cells](/cells/ar/net/aspose-cells-visual-studio-plugin/)

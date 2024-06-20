@@ -1,35 +1,36 @@
 ---
-title: Grafiğin Veri kaynağını ayarlayın
-description: Aspose.Cells for .NET tarafından desteklenen çeşitli veri kaynakları hakkında bilgi edinin. Kılavuzumuz, mevcut farklı veri kaynakları türleri arasında size yol gösterecek ve çalışma sayfalarınızı doldurmak için bunlara nasıl bağlanacağınızı ve onlardan nasıl veri alacağınızı gösterecektir.
-keywords: Aspose.Cells for .NET, charting, data formatting, labels, colors, fonts, appearance, usability.
-linktitle: Veri kaynağı
+title: Grafiğin Veri Kaynağını Ayarlama
+description: Aspose.Cells for .NET tarafından desteklenen çeşitli veri kaynakları hakkında bilgi edinin. Rehberimiz, mevcut farklı veri kaynakları üzerinden bağlantı kurmayı ve veri almayı gösterecek ve çalışma sayfalarınızı doldurmak için bunlardan nasıl yararlanabileceğinizi size gösterecektir.
+keywords: Aspose.Cells for .NET, grafik oluşturma, veri biçimlendirme, etiketler, renkler, yazı tipleri, görünüm, kullanılabilirlik.
+linktitle: Veri Kaynağı
 type: docs
 weight: 10
 url: /tr/net/data-formatting-in-charts/
 ---
-Grafiğiniz için veri kaynağını nasıl ayarlayabileceğinizi göstermek amacıyla önceki konularımızda zaten birçok örnek sunmuştuk ancak bu konuda, bir grafik için ayarlanabilecek veri türleri hakkında daha fazla ayrıntı vereceğiz.
 
-##  **Grafik Verilerini Ayarlama**
+Önceki konularımızda, grafikleriniz için bir veri kaynağı nasıl belirleneceğini zaten birçok örnek vermiştik, ancak bu konuda, bir grafik için belirlenebilecek veri türleri hakkında daha fazla ayrıntı sağlayacağız.
 
-Aspose.Cells'i kullanarak grafikler üzerinde çalışırken aşağıdaki şekilde ele alınması gereken iki tür veri vardır:
+## **Grafik Verisi Ayarlama**
 
-- Grafik verileri.
-- Kategori verileri.
+Aspose.Cells kullanarak grafikler üzerinde çalışırken ele almanız gereken iki tür veri şunlardır:
 
-###  **Grafik Verileri**
+- Grafik verisi.
+- Kategori verisi.
 
- Grafik verileri, grafiklerimizi oluşturmak için veri kaynağı olarak kullandığımız verilerdir. Çağrı yaparak bir dizi hücre (grafik verilerini içeren) ekleyebiliriz.[**SeriKoleksiyon**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) nesnenin[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add)yöntem.
+### **Grafik Verisi**
+
+Grafik verisi, grafiklerimizi oluşturmak için veri kaynağı olarak kullandığımız veridir. Hücrelerin bir rangını (grafik verisi içeren) [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) nesnesinin [**Add**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add) yöntemi çağrılarak ekleyebiliriz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsData-1.cs" >}}
 
-###  **Kategori Verileri**
+### **Kategori Verisi**
 
- Kategori verileri, grafik verilerinin etiketlenmesi için kullanılır ve eklenebilir.[**SeriKoleksiyon**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) onu kullanarak[**KategoriVeri**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata)mülk. Grafik ve kategori verilerinin kullanımını göstermek için aşağıda tam bir örnek verilmiştir. Yukarıdaki örnek kodu çalıştırdıktan sonra çalışma sayfasına aşağıda gösterildiği gibi bir sütun grafiği eklenecektir.
+Kategori verisi, grafik verisinin etiketlenmesi için kullanılır ve [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)'nin [**CategoryData**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata) özelliği kullanılarak eklenir. Aşağıda, grafik ve kategori verisinin kullanımını gösteren tam bir örnek verilmiştir. Yukarıdaki örnek kodu çalıştırdıktan sonra, çalışma sayfasına sütun grafiği aşağıdaki gibi eklenecektir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingCategoryData-1.cs" >}}
 
-##  **İleri konular**
-- [Satırları veya Aralığı Kopyalarken Grafiğin Veri Kaynağını Hedef Çalışma Sayfasına Değiştirme](/cells/tr/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)
-- [Dinamik Grafikler Oluşturun](/cells/tr/net/create-dynamic-charts/)
-- [Chart.SetChartDataRange yöntemini kullanarak Grafik Kurulumunun kolay yolu](/cells/tr/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
-- [Grafik Serisinde Noktaların X ve Y Değerlerinin Türünü Bulma](/cells/tr/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+## **Gelişmiş Konular**
+- [Satırları veya Aralıkları Kopyalarken Grafiğin Veri Kaynağını Hedef Çalışma Sayfasına Değiştirme](/cells/tr/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)
+- [Dinamik Grafikler Oluşturma](/cells/tr/net/create-dynamic-charts/)
+- [Chart.SetChartDataRange Yöntemini Kullanarak Grafik Kurulumu için Kolay Yol](/cells/tr/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
+- [Grafik Serisindeki X ve Y Değerleri Türünü Bul](/cells/tr/net/find-type-of-x-and-y-values-of-points-in-chart-series/)

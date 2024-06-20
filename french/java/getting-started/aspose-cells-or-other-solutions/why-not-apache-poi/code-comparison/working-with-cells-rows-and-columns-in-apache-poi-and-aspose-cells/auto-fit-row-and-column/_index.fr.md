@@ -1,19 +1,20 @@
 ---
-title: Ajustement automatique des lignes et des colonnes
+title: Ajustement automatique de la ligne et de la colonne
 type: docs
 weight: 10
 url: /fr/java/auto-fit-row-and-column/
-description: Découvrez comment ajuster automatiquement les lignes et les colonnes via le Aspose.Cells for Java API.
-keywords: How to Autofit Row and Column in Java, Autofit Row Data in workbook using Java, Java Autofit Column Data. 
+description: Apprenez comment ajuster automatiquement la ligne et la colonne grâce à l API Aspose.Cells for Java.
+keywords: Comment ajuster automatiquement la ligne et la colonne en Java, Données d ajustement automatique de ligne dans le classeur en utilisant Java, Données d ajustement automatique de colonne en Java. 
 ---
-##  **Comment ajuster automatiquement une ligne et une colonne à l'aide de Aspose.Cells for Java**
-L’approche la plus simple pour dimensionner automatiquement la largeur et la hauteur d’une ligne consiste à appeler la méthode Worksheet.autoFitRow. La méthode autoFitRow prend un index de ligne (de la ligne à redimensionner) comme paramètre.
 
-**Veuillez noter:**Si vous souhaitez ajuster automatiquement les lignes et les colonnes dans des feuilles de calcul Excel à l'aide de Java, veuillez visiter[Ajustement automatique des lignes et des colonnes](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+## **Comment adapter automatiquement la ligne et la colonne en utilisant Aspose.Cells for Java**
+L'approche la plus simple pour redimensionner automatiquement la largeur et la hauteur d'une ligne est d'appeler la méthode Worksheet.autoFitRow. La méthode autoFitRow prend en paramètre l'index de la ligne (de la ligne à redimensionner).
+
+**Notez s'il vous plaît:** Si vous souhaitez adapter automatiquement les lignes et colonnes dans les feuilles de calcul Excel en utilisant Java, veuillez visiter [Adapter les lignes et les colonnes](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook("workbook.xls");
 
@@ -31,12 +32,12 @@ workbook.save("AutoFit_Aspose.xls");
 
 
 {{< /highlight >}}
-##  **Apache POI SS - HSSF XSSF - Ajustement automatique des lignes et des colonnes**
-Apache POI SS - HSSF et XSSF fournissent Sheet.autoSizeColumn pour ajuster automatiquement les colonnes
+## **Apache POI SS - HSSF XSSF - Adaptation automatique de la ligne et de la colonne**
+Apache POI SS - HSSF et XSSF fournit Sheet.autoSizeColumn pour adapter automatiquement les colonnes
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  InputStream inStream = new FileInputStream("workbook.xls");
 
@@ -57,7 +58,7 @@ workbook.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-##  **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-##  **Télécharger un exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)

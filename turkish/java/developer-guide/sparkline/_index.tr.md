@@ -1,25 +1,26 @@
-﻿---
-title: Mini Grafik Ekle
-linktitle: mini grafikler
+---
+title: Kıvılcım Ekle
+linktitle: Kıvılcımlar
 type: docs
 weight: 150
 url: /tr/java/creating-sparklines/
-description: Aspose.Cells'i kullanarak Excel için mini grafik oluşturun.
+description: Aspose.Cells kullanarak Excel için kıvılcım oluşturma.
 ---
-## **Mini grafik ekle**
+
+## **Bir kıvılcım ekleyin**
 {{% alert color="primary" %}} 
 
-Mini grafik, verilerin görsel bir temsilini sağlayan bir çalışma sayfası hücresindeki küçük bir grafiktir. Mevsimsel artışlar veya düşüşler, ekonomik döngüler gibi bir dizi değerdeki eğilimleri göstermek veya maksimum ve minimum değerleri vurgulamak için mini grafikler kullanın. En büyük etki için mini grafiği verilerinin yanına konumlandırın. Üç tür Mini Grafik vardır: Çizgi, Sütun ve Yığılmış.
+Kıvılcım, bir çalışma sayfası hücresinde verilerin görsel bir temsilini sağlayan küçük bir grafiktir. Kıvılcımları, mevsimsel artış veya azalış, ekonomik döngüler gibi bir dizi değerdeki eğilimleri göstermek, veri serisinin maksimum ve minimum değerlerini vurgulamak için kullanın. En büyük etki için kıvılcımı verilerinin yakınına yerleştirin. Üç tür Kıvılcım vardır: Çizgi, Sütun ve Yığılmış.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kodlarla Aspose.Cells ile mini grafik oluşturmak basittir:
+Aspose.Cells ile bir kıvılcım oluşturmak basittir, aşağıdaki örnek kodları ile:
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-InserSparkLine.java" >}}
 
-## **ileri konular**
-- [Mini Grafikleri ve Ayarları 3B Formatını Kullanma](/cells/tr/net/using-sparklines-and-settings-3d-format/)
+## **Gelişmiş Konular**
+- [Kıvılcımları ve Ayarları 3B Biçimi kullanarak Kullanma](/cells/tr/net/using-sparklines-and-settings-3d-format/)
 
 

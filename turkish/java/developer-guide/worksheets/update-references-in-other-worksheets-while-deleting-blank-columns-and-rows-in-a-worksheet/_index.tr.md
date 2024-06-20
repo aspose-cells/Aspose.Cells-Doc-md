@@ -1,22 +1,23 @@
-﻿---
-title: Bir çalışma sayfasındaki boş sütunları ve satırları silerken diğer çalışma sayfalarındaki referansları güncelleyin
+---
+title: Çalışma sayfasında boş sütunları ve satırları silerken diğer çalışma sayfalarındaki referansları güncelle
 type: docs
 weight: 700
 url: /tr/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
- Bir çalışma sayfasındaki boş sütunları ve satırları sildiğinizde, diğer çalışma sayfalarındaki referansları geçersiz olur. Bu davranıştan kaçınmak ve bu referansların da güncellenmesini istiyorsanız, lütfen[DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) ve ayarla**doğru**.
+Bir çalışsayfadaki boş sütunları ve satırları sildiğinizde, diğer iş sayfalarındaki bu referanslar geçersiz hale gelir. Bu davranışı önlemek istiyorsanız ve bu referansların da güncellenmesini istiyorsanız, lütfen [DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) kullanın ve onu **true** olarak ayarlayın.
 
 {{% /alert %}} 
-## **Bir çalışma sayfasındaki boş sütunları ve satırları silerken diğer çalışma sayfalarındaki referansları güncelleyin**
- Lütfen aşağıdaki örnek koda ve konsol çıktısına bakın. İkinci çalışma sayfasındaki E3 hücresi, birinci çalışma sayfasındaki C3 hücresine atıfta bulunan =Sayfa1!C3 formülüne sahiptir. eğer ayarlayacaksan[DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) olarak mülkiyet**doğru** , bu formül güncellenecek ve ilk çalışma sayfasındaki boş sütunlar ve satırlar silindiğinde =Sayfa1!A1 olacaktır. Ancak, ayarlayacaksanız[DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) olarak mülkiyet**YANLIŞ**, ikinci çalışma sayfasının E3 hücresindeki formül =Sayfa1!C3 olarak kalacak ve geçersiz olacaktır.
+## **Çalışma sayfasında boş sütunları ve satırları silerken diğer çalışma sayfalarındaki referansları güncelle**
+Lütfen aşağıdaki örnek kodu ve konsol çıktısını inceleyin. İkinci çalışsayfadaki E3 hücresinde, birinci çalışsayfadaki C3 hücresine atıfta bulunan =Sheet1!C3 formülü bulunmaktadır. Eğer [DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) özelliğini **true**olarak ayarlarsanız, bu formül güncellenecek ve ilk çalışsayfadaki boş sütunları ve satırları sildiğinizde =Sheet1!A1 olacaktır. Ancak [DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) özelliğini **false** olarak ayarlarsanız, ikinci çalışsayfadaki E3 hücresindeki formül =Sheet1!C3 olarak kalacak ve geçersiz hale gelecektir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-management-Updatereferencesinotherworksheetswhiledeletingblankcolumnsandrowsinworksheet-1.java" >}}
-## **Konsol Çıkışı**
-Bu, yukarıdaki örnek kodun konsol çıktısıdır.[DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) özellik olarak ayarlandı**doğru**.
+## **Konsol Çıktısı**
+Yukarıdaki örnek kodun konsol çıktısı, [DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) özelliği **true** olarak ayarlandığında.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Cell E3 before deleting blank columns and rows in Sheet1.
 
@@ -37,9 +38,9 @@ Cell Value: 4
 
 {{< /highlight >}}
 
-Bu, yukarıdaki örnek kodun konsol çıktısıdır.[DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) özellik olarak ayarlandı**YANLIŞ**. Gördüğünüz gibi, ikinci çalışma sayfasının E3 hücresindeki formül güncellenmedi ve hücre değeri artık 4 yerine geçersiz olan 0 oldu.
+Yukarıdaki örnek kodun konsol çıktısı, [DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) özelliği **false** olarak ayarlandığında. Görebileceğiniz gibi, ikinci çalışsayfadaki E3 hücresindeki formül güncellenmedi ve hücre değeri artık geçersiz olan 0'dır, 4 değil.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Cell E3 before deleting blank columns and rows in Sheet1.
 

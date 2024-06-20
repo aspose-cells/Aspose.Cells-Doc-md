@@ -1,21 +1,22 @@
-﻿---
-title: Omslag Cell Text i VSTO och Aspose.Cells
+---
+title: Omvikning av celltext i VSTO och Aspose.Cells
 type: docs
 weight: 250
 url: /sv/net/wrapping-cell-text-in-vsto-and-aspose-cells/
 ---
-Så här skapar du ett kalkylblad med två celler, en med radbruten text och en utan:
 
-1.  Konfigurera arbetsbladet:
- 1. Skapa en arbetsbok.
- 1. Öppna det första arbetsbladet.
-1.  Lägg till text:
- 1. Lägg till text i cell A1.
- 1. Lägg till radbruten text i cell A5.
+För att skapa ett kalkylblad med två celler, en med omvikt text och en utan:
+
+1. Ställ in kalkylbladet: 
+   1. Skapa en arbetsbok.
+   1. Kom åt det första kalkylbladet.
+1. Lägg till text: 
+   1. Lägg till text i cell A1.
+   1. Lägg till omvikit text i cell A5.
 1. Spara kalkylarket.
- Kodexemplen nedan visar hur man utför dessa steg med VSTO med antingen C#. Kodexempel som visar hur man gör samma sak med Aspose.Cells for .NET, återigen med antingen C# följer omedelbart efter.
+   Kodexemplen nedan visar hur man utför dessa steg med VSTO med antingen C#. Kodexemplar som visar hur man gör samma sak med Aspose.Cells for .NET, igen med antingen C#, följer omedelbart efter.
 
-Att köra koden resulterar i ett kalkylblad med två celler, en som har text som inte har raderats och en som har:
+Körningen av koden resulterar i ett kalkylblad med två celler, en som har text som inte har varit omviktad, och en som har:
 
 ## **Utdata med VSTO Excel**
 
@@ -27,7 +28,7 @@ Att köra koden resulterar i ett kalkylblad med två celler, en som har text som
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Access vsto application
 
@@ -71,7 +72,7 @@ app.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void WrappingCellText()
 
@@ -115,8 +116,8 @@ app.Quit();
 
 {{< /highlight >}}
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/download)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).blixtlås)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip)

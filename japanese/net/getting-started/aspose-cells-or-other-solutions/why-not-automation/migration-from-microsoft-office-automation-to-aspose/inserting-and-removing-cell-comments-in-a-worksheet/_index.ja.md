@@ -1,38 +1,39 @@
-﻿---
-title: ワークシートでの Cell コメントの挿入と削除
+---
+title: ワークシートにセルコメントを挿入および削除する
 type: docs
 weight: 30
 url: /ja/net/inserting-and-removing-cell-comments-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-通常、コメントは、ワークシートのセルに追加情報を追加するために使用されます。私たちはそれらを時々使用し、必要がなくなったら削除します。コメントは、特定の値を文書化する必要がある場合や、式の機能を覚えるのに役立ちます。コメントのあるセルにマウス ポインターを移動すると、小さなボックスにコメントが表示されます。
+一般的に、コメントはワークシート内のセルに追加情報を追加するために使用されます。必要なくなったら削除します。コメントは特定の値の文書化や、式の動作を覚えておくのに役立ちます。セル上にマウスポインタを移動させると、コメントが小さなボックスに表示されます。
 
-この記事では、VSTO と Aspose.Cells for .NET を使用してセルにコメントを追加および削除する方法を比較します。
+この記事では、VSTOとAspose.Cells for .NETを使用して、セルにコメントを追加および削除する方法を比較します。Aspose.Cells for .NETは、オフィス自動化に依存せずにMicrosoft Excelファイルで動作し、スプレッドシートの作成と操作に強力なツールを提供します。
 
 {{% /alert %}}
 
-## **Cells のコメントの追加と削除**
+## **セルにコメントを追加および削除する**
 
-セルにコメントを追加するには:
+セルにコメントを追加するには：
 
-1. 既存の Excel ファイルを開きます。
+1. 既存のExcelファイルを開く。
 1. セルにコメントを追加します。
 1. ファイルを保存します。
 
-コメントを削除する場合も、プロセスは似ていますが、コメントが削除される点が異なります。
+コメントを削除するには、コメントを削除すること以外は、プロセスが似ています。
 
-以下のコード サンプルは、最初に次の方法を示しています。[コメントを追加](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/)そして、どのように[コメントを削除する](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/)VSTO または Aspose.Cells for .NET のいずれかを使用します。
+以下のコードサンプルは、VSTOまたはAspose.Cells for .NETを使用して、まず[コメントを追加](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/)し、その後に[コメントを削除](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/)する方法を示しています。
 
 ## **コメントの挿入**
 
-これらのコード スニペットは、最初にセルにコメントを追加する方法を示しています。[VSTO](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#、VB) と[Aspose.Cells for .NET](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/)(C#、VB)。
+これらのコードスニペットは、まず[VSTO](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/)(C#, VB)でセルにコメントを追加し、次に[Aspose.Cells for .NET](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/)(C#, VB)で同様の操作を行う方法を示しています。
 
-### **VSTO でコメントを挿入する**
+### **VSTOでのコメントの挿入**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -90,11 +91,11 @@ excelApp.Quit();
 
 {{< /highlight >}}
 
-### **Aspose.Cells for .NET でコメントを挿入する**
+### **Aspose.Cells for .NETでのコメントの挿入**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -134,13 +135,13 @@ workbook.Save(@"d:\test\Book1.xls");
 
 ## **コメントの削除**
 
-セルからコメントを削除するには、次のコード行を使用します[VSTO](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/)(C#、VB) および[Aspose.Cells](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/)for .NET (C#、VB).
+セルからコメントを削除するには、.NET向けの[VSTO](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/)(C#, VB)と[Aspose.Cells](/cells/ja/net/inserting-and-removing-cell-comments-in-a-worksheet/)(C#, VB)のコードを使用します。
 
-### **VSTO でコメントを削除する**
+### **VSTOでのコメントの削除**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 
@@ -150,11 +151,11 @@ rng1.Comment.Delete();    
 
 {{< /highlight >}}
 
-### **Aspose.Cells for .NET でコメントを削除する**
+### **Aspose.Cells for .NETでのコメントの削除**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 

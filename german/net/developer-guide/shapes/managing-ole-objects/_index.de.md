@@ -1,44 +1,45 @@
-﻿---
-title: Verwalten von OLE-Objekten
+---
+title: Verwaltung von OLE Objekten
 type: docs
 weight: 50
 url: /de/net/managing-ole-objects/
 ---
+
 ## **Einführung**
 
-OLE (Object Linking and Embedding) ist das Framework von Microsoft für eine zusammengesetzte Dokumenttechnologie. Kurz gesagt, ein zusammengesetztes Dokument ist so etwas wie ein Anzeigedesktop, der visuelle und Informationsobjekte aller Art enthalten kann: Text, Kalender, Animationen, Ton, bewegtes Video, 3D, ständig aktualisierte Nachrichten, Steuerelemente und so weiter. Jedes Desktop-Objekt ist eine unabhängige Programmentität, die mit einem Benutzer interagieren und auch mit anderen Objekten auf dem Desktop kommunizieren kann.
+OLE (Object Linking and Embedding) ist Microsofts Rahmenwerk für eine Compound-Dokumententechnologie. Kurz gesagt ist ein Compound-Dokument etwas Ähnliches wie ein Anzeigebereich, der visuelle und Informationsobjekte aller Art enthalten kann: Text, Kalender, Animationen, Ton, Bewegtbilder, 3D, ständig aktualisierte Nachrichten, Steuerungen und so weiter. Jedes Anzeigebereichsobjekt ist eine unabhängige Programm-Entität, die mit einem Benutzer interagieren und auch mit anderen Objekten auf dem Anzeigebereich kommunizieren kann.
 
- OLE (Object Linking and Embedding) wird von vielen verschiedenen Programmen unterstützt und dient dazu, Inhalte, die in einem Programm erstellt wurden, in einem anderen verfügbar zu machen. Beispielsweise können Sie ein Microsoft-Word-Dokument in Microsoft-Excel einfügen. Um zu sehen, welche Inhaltstypen Sie einfügen können, klicken Sie auf**Objekt** auf der**Einfügung** Speisekarte. In der werden nur Programme angezeigt, die auf dem Computer installiert sind und OLE-Objekte unterstützen**Objekttyp** Kasten.
+OLE (Object Linking and Embedding) wird von vielen verschiedenen Programmen unterstützt und dient dazu, Inhalte, die in einem Programm erstellt wurden, in einem anderen verfügbar zu machen. Sie können beispielsweise ein Microsoft Word-Dokument in Microsoft Excel einfügen. Um zu sehen, welche Arten von Inhalten Sie einfügen können, klicken Sie auf **Objekt** im **Einfügen**-Menü. Nur Programme, die auf dem Computer installiert sind und OLE-Objekte unterstützen, erscheinen im **Objekttyp**-Feld.
 
 ### **Einfügen von OLE-Objekten in das Arbeitsblatt**
 
-Aspose.Cells unterstützt das Hinzufügen, Extrahieren und Bearbeiten von OLE-Objekten in Arbeitsblättern. Aus diesem Grund hat Aspose.Cells die[**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) Klasse, die zum Hinzufügen eines neuen OLE-Objekts zur Sammlungsliste verwendet wird. Eine andere Klasse,[**OLE-Objekt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), stellt ein OLE-Objekt dar. Es hat einige wichtige Mitglieder:
+Aspose.Cells unterstützt das Hinzufügen, Extrahieren und Manipulieren von OLE-Objekten in Arbeitsblättern. Aus diesem Grund hat Aspose.Cells die [**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection)-Klasse, die verwendet wird, um ein neues OLE-Objekt zur Sammlungsliste hinzuzufügen. Eine weitere Klasse, [**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), stellt ein OLE-Objekt dar. Sie hat einige wichtige Elemente:
 
--  Das[**Bilddaten**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)Die Eigenschaft gibt die Bilddaten (Symboldaten) vom Typ Byte-Array an. Das Bild wird angezeigt, um das OLE-Objekt im Arbeitsblatt anzuzeigen.
--  Das[**Objektdaten**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)Die Eigenschaft gibt die Objektdaten in Form eines Byte-Arrays an. Diese Daten werden im zugehörigen Programm angezeigt, wenn Sie auf das OLE-Objekt-Symbol doppelklicken.
+- Die [**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)-Eigenschaft spezifiziert die Bilddaten im Byte-Array-Format. Das Bild wird angezeigt, um das OLE-Objekt im Arbeitsblatt anzuzeigen.
+- Die [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)-Eigenschaft spezifiziert die Objektdaten in Form eines Byte-Arrays. Diese Daten werden in ihrem zugehörigen Programm angezeigt, wenn Sie auf das OLE-Objektsymbol doppelklicken.
 
-Das folgende Beispiel zeigt, wie Sie einem Arbeitsblatt ein oder mehrere OLE-Objekte hinzufügen.
+Das folgende Beispiel zeigt, wie man OLE-Objekte in ein Arbeitsblatt einfügt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
 ### **Extrahieren von OLE-Objekten in der Arbeitsmappe**
 
-Das folgende Beispiel zeigt, wie OLE-Objekte in einer Arbeitsmappe extrahiert werden. Das Beispiel ruft verschiedene OLE-Objekte aus einer vorhandenen XLS-Datei ab und speichert verschiedene Dateien (DOC, XLS, PPT, PDF usw.) basierend auf dem Dateiformattyp des OLE-Objekts.
+Das folgende Beispiel zeigt, wie man OLE-Objekte in einer Arbeitsmappe extrahiert. Das Beispiel erhält verschiedene OLE-Objekte aus einer vorhandenen XLS-Datei und speichert verschiedene Dateien (DOC, XLS, PPT, PDF usw.) basierend auf dem Dateiformattyp des OLE-Objekts.
 
-Nach dem Ausführen des Codes können wir verschiedene Dateien basierend auf ihren jeweiligen OLE-Objektformattypen speichern.
+Nachdem der Code ausgeführt wurde, können wir verschiedene Dateien basierend auf ihren jeweiligen OLE-Objektformattypen speichern.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-ExtractingOLEObjects-1.cs" >}}
 
-### **Extrahieren der eingebetteten MOL-Datei**
+### **Extrahieren eingebetteter MOL-Datei**
 
-Aspose.Cells unterstützt das Extrahieren von Objekten ungewöhnlicher Typen wie MOL (Molekulardatendatei mit Informationen zu Atomen und Bindungen). Das folgende Code-Snippet demonstriert das Extrahieren der eingebetteten MOL-Datei und das Speichern auf der Festplatte, indem Sie diese verwenden[Excel-Beispieldatei](94896196.xlsx).
+Aspose.Cells unterstützt das Extrahieren von Objekten ungewöhnlicher Typen wie MOL(Moleküldaten-Datei mit Informationen über Atome und Bindungen). Der folgende Code-Schnipsel zeigt, wie eine eingebettete MOL-Datei extrahiert und unter Verwendung dieser [Beispieldatei für Excel](94896196.xlsx) auf die Festplatte gespeichert wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ExtractEmbeddedMolFile-1.cs" >}}
 
-## **Themen vorantreiben**
-- [Greifen Sie auf das Anzeigeetikett des verknüpften Ole-Objekts zu und ändern Sie es](/cells/de/net/access-and-modify-the-display-label-of-the-linked-ole-object/)
-- [Aktualisieren Sie das OLE-Objekt automatisch über Microsoft Excel mit Aspose.Cells](/cells/de/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
+## **Erweiterte Themen**
+- [Auf das Anzeigen des verknüpften Ole-Objekts zugreifen und es ändern](/cells/de/net/access-and-modify-the-display-label-of-the-linked-ole-object/)
+- [OLE-Objekt automatisch über Microsoft Excel aktualisieren mit Aspose.Cells](/cells/de/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
 - [Extrahieren Sie OLE-Objekte aus der Arbeitsmappe](/cells/de/net/extract-ole-objects-from-workbook/)
 - [Abrufen oder Festlegen des Klassenbezeichners des eingebetteten OLE-Objekts](/cells/de/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
-- [Einfügen einer WAV-Datei als Ole-Objekt](/cells/de/net/inserting-a-wav-file-as-an-ole-object/)
+- [Einfügen einer WAV-Datei als OLE-Objekt](/cells/de/net/inserting-a-wav-file-as-an-ole-object/)
 

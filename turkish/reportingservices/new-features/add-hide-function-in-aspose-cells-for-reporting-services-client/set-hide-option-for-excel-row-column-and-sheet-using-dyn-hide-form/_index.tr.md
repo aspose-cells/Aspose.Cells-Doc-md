@@ -1,16 +1,17 @@
-﻿---
-title: Dyn-Hide Formunu Kullanarak Excel Satır, Sütun ve Sayfa için Gizle Seçeneğini Ayarlayın
+---
+title: Dyn Gizle Formunu Kullanarak Excel Satır, Sütun ve Çizelge için Gizleme Seçeneği Ayarlama 
 type: docs
 weight: 20
 url: /tr/reportingservices/set-hide-option-for-excel-row-column-and-sheet-using-dyn-hide-form/
 ---
-Aspose.Cells for Reporting Services, Gizle parametrelerinde belirtilen herhangi bir satır, sütun ve sayfa tabanlı kümeyi gizler. Parametreler şunları içerir:
 
-- **SayfaAdı** gizleme nesnesini belirten bir çalışma sayfasını temsil eder.
-- **Tip** gizleme nesnesi türünü temsil eder. Çalışma sayfası, satır ve sütun içerir.
-- **Satır/Sütun Dizini** belirtilen gizleme nesnesini temsil eder. Tür çalışma sayfası olduğunda, değer boştur. Sütun dizini karakteri destekler. İndeks değeri 1'den başlar.
-- **Durumu Gizle** gizleme durumu değerini temsil eder. Değer true, false veya bir Excel formülüdür. Parametre yalnızca Raporlama Servisleri rapor parametrelerini destekler.
+Aspose.Cells for Reporting Services, Gizle parametrelerine göre belirli bir satır, sütun ve çizelgeyi gizler. Parametreler şunları içerir:
 
-**Gizleme seçeneklerini belirleme** 
+- **SayfaAdı**, gizleme nesnesini belirleyen bir çalışma sayfasını temsil eder.
+- **Tür**, gizleme nesne türünü temsil eder. Çalışma sayfası, satır ve sütunu içerir.
+- **Satır/Sütun Endeksi**, belirtilen gizleme nesnesini temsil eder. Tür çalışma sayfası olduğunda değer boştur. Sütun endeksi karakteri destekler. Endeks değeri 1'den başlar.
+- **Gizleme Durumu**, gizleme durumu değerini temsil eder. Değer true, false veya bir Excel formülü olabilir. Parametre, yalnızca Reporting Services rapor parametrelerini destekler.
 
-![yapılacaklar:resim_alternatif_metin](set-hide-option-for-excel-row-column-and-sheet-using-dyn-hide-form_1.png)
+**Gizleme seçeneklerini belirtme** 
+
+![todo:image_alt_text](set-hide-option-for-excel-row-column-and-sheet-using-dyn-hide-form_1.png)

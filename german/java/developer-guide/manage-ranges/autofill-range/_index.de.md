@@ -1,17 +1,18 @@
-﻿---
-title: AutoFill-Bereich der Excel-Datei
-linktitle: AutoFill-Bereich
+---
+title: Autoausfüllbereich von Excel Datei
+linktitle: Autoausfüllbereich
 type: docs
 weight: 10
 url: /de/java/autofill-ranges/
 ---
-## **Führen Sie ein Autofill im angegebenen Bereich in Excel durch**
 
-Wählen Sie in Excel einen Bereich aus, bewegen Sie die Maus nach rechts unten, ziehen Sie „+“, um die Daten automatisch auszufüllen.
+## **Führen Sie eine automatische Ausfüllung im angegebenen Bereich in Excel durch**
 
-## **Bereiche automatisch mit Aspose.Cells füllen**
+In Excel, wählen Sie einen Bereich aus, bewegen Sie die Maus nach rechts unten, ziehen Sie das "+" zur automatischen Ausfüllung der Daten.
 
-Das folgende Beispiel zeigt, wie der AutoFill-Vorgang für den Bereich durchgeführt wird, und hier ist die Beispieldatei, die zum Testen dieser Funktion heruntergeladen werden kann:
+## **Auto Fill-Bereiche mit Aspose.Cells**
+
+Das folgende Beispiel zeigt, wie eine Autoausfülloperation für den Bereich durchgeführt wird, und hier ist die Beispieldatei, die zum Testen dieses Features heruntergeladen werden kann:
 
 [range_autofill.xlsx](range_autofill.xlsx)
 

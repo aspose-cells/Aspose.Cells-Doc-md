@@ -1,15 +1,16 @@
-﻿---
-title: Importar datos a hojas de trabajo usando Aspose.Cells
+---
+title: Importar Datos a Hojas de Cálculo usando Aspose.Cells
 type: docs
 weight: 30
 url: /es/java/import-data-to-worksheets-using-aspose-cells/
 ---
-## **Aspose.Cells - Importar datos a hojas de trabajo**
-Importar datos de matrices
+
+## **Aspose.Cells - Importar Datos a Hojas de Cálculo**
+Importar Datos desde Arreglos
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -25,7 +26,7 @@ Worksheet worksheet= workbook.getWorksheets().get(sheetIndex);
 
 //Creating an array containing names as string values
 
-String[]names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
+String[] names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -35,11 +36,11 @@ cells.importArray(names,0,0,false);
 
 {{< /highlight >}}
 
-Importar datos de ArrayList
+Importar Datos desde ArrayList
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  ArrayList<String> list = new ArrayList<String>();
 
@@ -62,8 +63,8 @@ cells.importArrayList(list,2,0,true);
 workbook.save(dataDir + "AsposeDataImport.xls");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/ImportDataToWorksheets.java)

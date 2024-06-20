@@ -1,21 +1,22 @@
-﻿---
-title: Добавить нижний колонтитул в документ
+---
+title: Добавление нижнего колонтитула в документ
 type: docs
 weight: 70
 url: /ru/sharepoint/add-footer-to-a-document/
 ---
-Если вы хотите добавить нижний колонтитул в файл Excel, выберите опцию «Добавить нижний колонтитул с Aspose.Cells» в блоке управления редактированием документа (ECB).
 
-![дело:изображение_альтернативный_текст](add-footer-to-a-document_1.png)
+Если вам нужно добавить нижний колонтитул в файл Excel, выберите опцию «Добавить нижний колонтитул с помощью Aspose.Cells» в контекстном меню редактирования документа (ECB).
 
-Во время настройки добавления нижнего колонтитула доступны следующие параметры:
+![todo:image_alt_text](add-footer-to-a-document_1.png)
 
-![дело:изображение_альтернативный_текст](add-footer-to-a-document_2.png)
+Во время настройки добавления нижнего колонтитула доступны следующие варианты:
+
+![todo:image_alt_text](add-footer-to-a-document_2.png)
 
 **Раздел**
 
-Добавить положение нижнего колонтитула: левая часть, центральная часть, правая часть.
+Добавить позицию нижнего колонтитула: Левый раздел, Центральный раздел, Правый раздел.
 
-**Скрипт нижнего колонтитула**
+**Сценарий нижнего колонтитула**
 
-Он представляет собой скрипт форматирования нижнего колонтитула. Команды скрипта: Команда | Описание| &P Номер текущей страницы| &N Количество страниц|&D Текущая дата| &T Текущее время &A Имя листа &F Имя файла без пути &"<FontName>" Название шрифта, например: &"Arial" &"<FontName>, <FontStyle>" Название и стиль шрифта, например: &"Arial,Bold" &<FontSize>Размер шрифта. Если за этой командой следует простое число, которое будет напечатано в заголовке, оно будет отделено от высоты шрифта символом пробела. &G Сценарий изображения Например: "&Arial,Bold&8Footer Note".
+It represents Footer formatting script. Script commands: Command | Description| &P Current page number| &N Page count|&D Current date| &T Current time &A Sheet name &F File name without path &"<FontName>" Font name, for example: &"Arial" &"<FontName>, <FontStyle>" Font name and font style, for example: &"Arial,Bold" &<FontSize> Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. &G Image script For example: "&Arial,Bold&8Footer Note".

@@ -1,30 +1,31 @@
 ---
-title: Ajustement automatique des lignes pour Cells fusionné
+title: Ajuster les lignes pour les cellules fusionnées
 type: docs
 weight: 120
 url: /fr/net/autofit-rows-for-merged-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel propose une fonctionnalité qui vous permet de dimensionner automatiquement la hauteur d'une cellule en fonction de son contenu. Cette fonctionnalité est appelée ajustement automatique des lignes. Microsoft Excel ne définit pas nativement l’opération d’ajustement automatique sur les cellules fusionnées. Parfois, cette fonctionnalité devient vitale pour un utilisateur qui a réellement besoin d'implémenter également l'ajustement automatique des lignes sur les cellules fusionnées.
+Microsoft Excel fournit une fonctionnalité qui vous permet de redimensionner automatiquement la hauteur d'une cellule en fonction de son contenu. La fonctionnalité s'appelle ajustement automatique des lignes. Microsoft Excel ne définit pas automatiquement l'opération d'ajustement automatique sur les cellules fusionnées nativement. Parfois, la fonctionnalité devient vitale pour un utilisateur qui doit vraiment implémenter l'ajustement automatique des lignes sur les cellules fusionnées également.
 
 {{% /alert %}}
 
-##  **Comment utiliser AutoFitMergedCellsType pour l'ajustement automatique des lignes**
- Aspose.Cells prend en charge cette fonctionnalité via le[**AutoFitterOptions.AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype/)API. Grâce à ce API, il est possible d'ajuster automatiquement les lignes d'une feuille de calcul comprenant des cellules fusionnées. Voici une liste de tous les types possibles de cellules fusionnées à ajustement automatique :
+## **Comment utiliser AutoFitMergedCellsType pour ajuster automatiquement les lignes**
+Aspose.Cells prend en charge cette fonctionnalité via l'API [**AutoFitterOptions.AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype/). En utilisant cette API, il est possible d'ajuster automatiquement les lignes dans une feuille de calcul, y compris les cellules fusionnées. Voici une liste de tous les types possibles d'ajustement automatique des cellules fusionnées:
 
 - Aucun
 - Première ligne
 - Dernière ligne
 - Chaque ligne
 
-##  **Ajustement automatique des lignes pour Cells fusionné**
+## **Ajustement automatique des lignes pour les cellules fusionnées**
 
-Veuillez consulter le code suivant, il crée un objet classeur et ajoute plusieurs feuilles de calcul. Utilisez différentes méthodes pour les opérations d’ajustement automatique dans chaque feuille de calcul. La capture d'écran montre les résultats après l'exécution de l'exemple de code.
+Veuillez consulter le code suivant, il crée un objet classeur et ajoute plusieurs feuilles de calcul. Utilisez différentes méthodes pour les opérations d'ajustement automatique dans chaque feuille de calcul. La capture d'écran montre les résultats après l'exécution du code d'exemple.
 
 <br>
 <img src="result.png" width=80% />
 
-##  **C# Exemple de code**
+## **Code d'exemple C#**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AutoFitRowsMergedCells-1.cs" >}}

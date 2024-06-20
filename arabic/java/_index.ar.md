@@ -1,37 +1,40 @@
-﻿---
+---
 title: Aspose.Cells for Java
 type: docs
 weight: 20
 url: /ar/java/
 is_root: true
-description: Aspose.Cells for Java هي مكتبة فئات تدعم إنشاء وتحديث وحفظ ملفات Excel. ويدعم Aspose.Cells for Java أيضًا تحويل الملفات إلى PDF و DOCX و PPTX و JSON.XPS و HTML و MHTML والنص العادي وتنسيقات الصور الشائعة بما في ذلك TIFF, JPG, PNG, BMP and SVG.
+description: Aspose.Cells for Java هي مكتبة صفوف تدعم إنشاء ملفات إكسل وتحديثها وحفظها. وتدعم أيضًا Aspose.Cells for Java تحويل الملفات إلى PDF وDOCX وPPTX وJSON وXPS وHTML وMHTML ونص عادي وتنسيقات الصور الشائعة بما في ذلك TIFF وJPG وPNG وBMP وSVG.
+keywords: Aspose.Cells for Java إنشاء وإصلاح وتعديل وتحليل ودمج وتحويل JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG وتنسيقات أخرى.
 ---
+
 {{% alert color="primary" %}}
 
 **![todo:image_alt_text](home_1.png)**
 
-**مرحبا بكم في Aspose.Cells for Java**
+**مرحبًا بك في Aspose.Cells for Java**
 
- Aspose.Cells for Java هي مكتبة فئة برمجة تسمح لمطوري البرامج بالتعامل مع ملفات جداول البيانات ومعالجتها داخل تطبيقاتهم الخاصة.
+Aspose.Cells for Java هي مكتبة صفوف برمجية تسمح لمطوري البرمجيات بتلاعب ملفات جداول البيانات داخل تطبيقاتهم الخاصة.
 
-إلى جانب واجهات برمجة التطبيقات وعناصر تحكم واجهة المستخدم الرسومية ، يعمل Aspose.Cells for Java على تسريع Microsoft برمجة وتحويل برنامج Excel®.
+مع واجهات برمجة التطبيقات وعناصر تحكم واجهة المستخدم الرسومية، تسرع Aspose.Cells for Java برمجة مايكروسوفت إكسل® وعمليات التحويل.
 
-Aspose.Cells for Java يدعم تنسيقات ملفات جداول البيانات الشائعة (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) التي يستخدمها عملك كل يوم. كما يسمح بتصدير ملفات Excel إلى PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML ، والنص العادي وتنسيقات الصور الشائعة بما في ذلك TIFF, JPG, PNG, BMP and SVG.
+تدعم Aspose.Cells for Java التنسيقات الشائعة لجداول البيانات (XLS، XLSX، XLSM، XLSB، XLTX، XLTM، CSV، SpreadsheetML، ODS) التي تستخدمها شركتك يوميا. كما تسمح أيضًا بتصدير ملفات إكسل إلى PDF وDOCX وPPTX وJSON وXPS وHTML وMHTML ونص عادي وتنسيقات الصور الشائعة بما في ذلك TIFF وJPG وPNG وBMP وSVG.
 
 
 {{% /alert %}}
 
-## **Aspose.Cells for Java الموارد**
+## **موارد Aspose.Cells for Java**
 
-فيما يلي روابط لبعض الموارد المفيدة التي قد تحتاجها لإنجاز مهامك.
+فيما يلي الروابط إلى بعض الموارد المفيدة التي قد تحتاجها لإنجاز مهامك.
 
-- [Aspose.Cells for Java التوثيق عبر الإنترنت](/cells/ar/java/)
-- [Aspose.Cells for Java الميزات](/cells/ar/java/feature-overview/)
+- [Aspose.Cells for Java وثائق عبر الإنترنت](/cells/ar/java/)
+- [Aspose.Cells for Java ميزات](/cells/ar/java/feature-overview/)
 - [Aspose.Cells for Java القيود](/cells/ar/java/aspose-cells-features/)
 - [Aspose.Cells for Java ملاحظات الإصدار](https://releases.aspose.com/cells/java/release-notes/)
 - [Aspose.Cells for Java صفحة المنتج](https://products.aspose.com/cells/java/)
-- [تحميل Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
-- [قم بتثبيت Aspose.Cells for Java من مستودع Maven](/cells/ar/java/installation/)
-- [Aspose.Cells for Java API الدليل المرجعي](https://reference.aspose.com/cells/java)
-- [Aspose.Cells for Java منتدى الدعم المجاني](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells for Java مكتب مساعدة الدعم المدفوع](https://helpdesk.aspose.com/)
+- [تحميل Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
+- [مستودع Maven Aspose.Cells for Java](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/)
+- [تثبيت Aspose.Cells for Java من مستودع Maven](/cells/ar/java/installation/)
+- [دليل مرجعي لواجهة برمجة التطبيقات (API) Aspose.Cells for Java](https://reference.aspose.com/cells/java)
+- [منتدى الدعم المجاني Aspose.Cells for Java](https://forum.aspose.com/c/cells/9)
+- [مركز المساعدة لدعم Aspose.Cells for Java المدفوع](https://helpdesk.aspose.com/)

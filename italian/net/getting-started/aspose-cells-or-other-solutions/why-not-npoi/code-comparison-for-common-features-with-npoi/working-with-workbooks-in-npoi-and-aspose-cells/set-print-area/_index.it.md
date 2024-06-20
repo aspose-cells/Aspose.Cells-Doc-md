@@ -1,17 +1,18 @@
-﻿---
-title: Imposta area di stampa
+---
+title: Imposta l Area di Stampa
 type: docs
 weight: 30
 url: /it/net/set-print-area/
 ---
-## **Aspose.Cells - Imposta area di stampa**
-Per impostazione predefinita, solo l'area di stampa incorpora tutte le aree del foglio di lavoro che contengono dati. Gli sviluppatori possono stabilire un'area di stampa specifica del foglio di lavoro.
 
-Per selezionare un'area di stampa specifica, utilizzare il[Impostazione della pagina](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class' Proprietà PrintArea. Assegnare a questa proprietà un'area di celle che definisce l'area di stampa.
+## **Aspose.Cells - Imposta l'Area di Stampa**
+Per impostazione predefinita, solo l'area di stampa comprende tutte le aree del foglio di lavoro che contengono dati. Gli sviluppatori possono stabilire un'area di stampa specifica del foglio di lavoro.
+
+Per selezionare una specifica area di stampa, utilizzare la proprietà PrintArea della classe PageSetup di Aspose.Cells. Assegna un intervallo di celle che definisce l'area di stampa a questa proprietà.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -60,12 +61,12 @@ pageSetup.PrintArea = "A1:F20";
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Imposta area di stampa**
-Il metodo Workbook.setPrintArea è disponibile per impostare le proprietà della pagina dell'area di stampa.
+## **NPOI - HSSF XSSF - Imposta l'Area di Stampa**
+Il metodo Workbook.setPrintArea è disponibile per impostare le proprietà di pagina dell'area di stampa.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -124,12 +125,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Imposta area di stampa** formare uno dei siti di social coding sotto indicati:
+Scarica **Imposta l'Area di Stampa** da uno dei siti di codifica sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Impostazione delle opzioni di stampa](/cells/it/net/setting-print-options/).
+Per maggiori dettagli, visita [Impostazione delle opzioni di stampa](/cells/it/net/setting-print-options/).
 
 {{% /alert %}}

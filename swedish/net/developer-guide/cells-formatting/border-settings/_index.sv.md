@@ -1,85 +1,86 @@
 ---
 title: Kantinställningar
-description: Hur man använder Aspose.Cells-biblioteket i C# för att ställa in kantstil och färg på celler. Genom att justera kantens bredd, stil och färg har du mer kontroll över hur celler ser ut och visas.
-keywords: Aspose.Cells, Cell Border Settings, C#, Border Width, Border Style, Border Color
+description: Hur du använder Aspose.Cells biblioteket i C# för att ställa in cellens kantstil och färg. Genom att justera bredd, stil och färg på kanten har du mer kontroll över hur celler ser ut och visas.
+keywords: Aspose.Cells, Cell kantinställningar, C#, Kantbredd, Kantstil, Kantfärg
 type: docs
 weight: 40
 url: /sv/net/cells-border-settings/
 ---
-##  **Lägger till gränser till Cells**
 
-Microsoft Excel tillåter användare att formatera celler genom att lägga till kanter. Typen av bård beror på var den läggs till. Till exempel är en övre kant en som läggs till den översta positionen i en cell. Användare kan också ändra gränsernas linjestil och färg.
+## **Lägga till ramar till celler**
 
-Med Aspose.Cells kan utvecklare lägga till ramar och anpassa hur de ser ut på samma flexibla sätt som i Microsoft Excel.
+Microsoft Excel tillåter användare att formatera celler genom att lägga till kanter. Kanttypen beror på var den läggs till. Till exempel är en övre kant en som läggs till på cellens övre position. Användare kan också modifiera kantens linjestil och färg.
 
-###  **Lägger till gränser till Cells**
+Med Aspose.Cells kan utvecklare lägga till kanter och anpassa hur de ser ut på samma flexibla sätt som i Microsoft Excel.
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling. Varje objekt i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samlingen representerar ett föremål för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass.
+### **Lägga till ramar till celler**
 
- Aspose.Cells tillhandahåller[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)metod i[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)klass. De[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)metod används för att ställa in en cells formateringsstil. De[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)klass tillhandahåller egenskaper för att lägga till kanter till celler.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klassen innehåller en [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som tillåter åtkomst till varje arbetsblad i Excel-filen. Ett arbetsblad representeras av [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klassen. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klassen ger en [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling. Varje objekt i [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samlingen representerar ett objekt av [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klassen.
 
-####  **Lägger till gränser till en Cell**
+Aspose.Cells tillhandahåller [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) metoden i [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klassen. [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) metoden används för att ställa in en cells formateringsstil. [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) klassen tillhandahåller egenskaper för att lägga till kanter till celler.
 
-Utvecklare kan lägga till gränser till en cell genom att använda[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**Gränser**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) samling. Gränstypen skickas som ett index till[**Gränser**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) samling. Alla kanttyper är fördefinierade i[**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) uppräkning.
+#### **Lägga till ramar till en cell**
 
-**Gränsuppräkning**
+Utvecklare kan lägga till kanter till en cell genom att använda [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objektets [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) samling. Kantttypen skickas som en index till [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) samlingen. Alla kanttyper är fördefinierade i [**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) uppräkning.
 
-|**Kanttyper**|**Beskrivning**|
+**Kantuppräkning**
+
+|**Ramtyper**|**Beskrivning**|
 | :- | :- |
-|BottomBorder|En nedre kantlinje|
-|DiagonalDown|En diagonal linje från övre vänster till höger botten|
-|DiagonalUp|En diagonal linje från nedre vänster till höger upptill|
-|LeftBorder|En vänster gränslinje|
-|RightBorder|En höger gränslinje|
+|BottomBorder|En nederkantslinje|
+|DiagonalDown|En diagonal linje från övre vänster till höger nedan|
+|DiagonalUp|En diagonal linje från nedre vänster till höger upp|
+|LeftBorder|En vänsterkantlinje|
+|RightBorder|En högerkantlinje|
 |TopBorder|En övre kantlinje|
 
-De[**Gränser**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders)samling lagrar alla gränser. Varje gräns i[**Gränser**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) samlingen representeras av en[**Gräns**](https://reference.aspose.com/cells/net/aspose.cells/border) objekt som ger två egenskaper,[**Färg**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) och[**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle)för att ställa in en kantlinjes färg respektive stil.
+The [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection stores all borders. Each border in the [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection is represented by a [**Border**](https://reference.aspose.com/cells/net/aspose.cells/border) object which provides two properties, [**Color**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) and [**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) to set a border's line color and style respectively.
 
-För att ställa in en rams linjefärg, välj en färg med färguppräkningen (en del av .NET Framework) och tilldela den till Border-objektets Color-egenskap.
+För att ange en kantlinjens färg, välj en färg med hjälp av Color-enumen (en del av .NET Framework) och tilldela den till Border-objektets Color-egenskap.
 
- Ramens linjestil ställs in genom att välja en linjestil från[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)uppräkning.
+Kantlinjens linjestil ställs in genom att välja en linjestil från [**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)-uppräkningen.
 
-**CellBorderType-uppräkning**
+**CellBorderType-enumen**
 
 |**Linjestilar**|**Beskrivning**|
 | :- | :- |
-|DashDot|Tunn streckad linje|
-|DashDotDot|Tunn streckprickad linje|
-|Streckad|Streckad linje|
-|Prickad|Prickad linje|
-|Dubbel|Dubbel linje|
-|Hår|Hårfäste|
-|MediumDashDot|Mellanstor streckad linje|
-|MediumDashDotDot|Mellanstor streckprickad linje|
-|Medelstreckad|Medelstreckad linje|
-|Ingen|Ingen linje|
+|DashDot|Tunn streckpunktad linje|
+|DashDotDot|Tunn streck-punktpunktad linje|
+|Dashed|Streckad linje|
+|Dotted|Punkterad linje|
+|Double|Dubbel linje|
+|Hair|Hårlinje|
+|MediumDashDot|Medium streckpunktad linje|
+|MediumDashDotDot|Medium streck-punktpunktad linje|
+|MediumDashed|Medium streckad linje|
+|None|Ingen linje|
 |Medium|Medium linje|
-|SlantedDashDot|Lutande medelhög streckprickad linje|
-|Tjock|Tjock linje|
-|Tunn|Tunn linje|
-Välj en av linjestilarna och tilldela den sedan till[**Gräns**](https://reference.aspose.com/cells/net/aspose.cells/border) föremål[**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) fast egendom.
+|SlantedDashDot|Snedstreckad mediumstreckpunktad linje|
+|Thick|Tjock linje|
+|Thin|Tunn linje|
+Välj en av linjestilarna och tilldela den sedan till [**Border**](https://reference.aspose.com/cells/net/aspose.cells/border)-objektets [**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle)-egenskap.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBordersToCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Du bör ställa in både linjestil och färg samtidigt. De två diagonala kantlinjerna ska ha samma linjestil och färg.
+Du bör ställa in både linjestil och färg samtidigt. De två diagonalerna bör ha samma linjestil och färg.
 
 {{% /alert %}}
 
-####  **Lägger till gränser till ett intervall på Cells**
+#### **Lägga till Gränser till en Rad av Celler**
 
- Det är också möjligt att lägga till gränser till ett cellintervall snarare än bara en enskild cell. För att göra det, skapa först ett cellintervall genom att anropa[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samlingens[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) metod. Den kräver följande parametrar:
+Det är också möjligt att lägga till ramar till en rad celler istället för bara en enskild cell. För att göra det, skapa först en samling av celler genom att anropa [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-objektets [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1)-metod. Den tar följande parametrar:
 
-- Första raden, den första raden i intervallet.
-- Första kolumnen, representerar den första kolumnen i intervallet.
-- Antal rader, antalet rader i intervallet.
-- Antal kolumner, antalet kolumner i intervallet.
+- Första rad, den första raden av området.
+- Första kolumn, representerar den första kolumnen av området.
+- Antal rader, antalet rader i området.
+- Antal kolumner, antalet kolumner i området.
 
- De[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) metod returnerar en[**Räckvidd**](https://reference.aspose.com/cells/net/aspose.cells/range) objekt, som innehåller det angivna cellintervallet. De[**Räckvidd**](https://reference.aspose.com/cells/net/aspose.cells/range) objekt ger en[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) metod som använder följande parametrar för att lägga till en kantlinje till cellområdet:
+[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1)-metoden returnerar ett [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range)-objekt, som innehåller det angivna cellområdet. [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range)-objektet tillhandahåller en [**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder)-metod som tar följande parametrar för att lägga till en ram till cellområdet:
 
--  *Border Type**, kanttypen, vald från[**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)uppräkning.
--  *Linjestil**, kantlinjestilen, vald från[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)uppräkning.
-- *Färg**, linjefärgen, vald från färguppräkningen.
+- **Border Typ**, typen av kant, vald från [**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) uppräkningen.
+- **Linjestil**, kantens linjestil, vald från [**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype) uppräkningen.
+- **Färg**, linjens färg, vald från Färg uppräkningen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBorderstoRange-1.cs" >}}

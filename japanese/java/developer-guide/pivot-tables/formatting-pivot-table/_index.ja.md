@@ -1,65 +1,66 @@
-﻿---
-title: ピボット テーブルの書式設定
+---
+title: ピボットテーブルの書式設定
 type: docs
 weight: 60
 url: /ja/java/formatting-pivot-table/
 ---
-## **ピボット テーブルの外観**
 
-[ピボット テーブルを作成する方法](/cells/ja/java/create-pivot-table/)簡単なピボット テーブルの作成方法を示しました。この記事ではさらに詳しく、プロパティを設定してピボット テーブルの外観をカスタマイズする方法について説明します。
+## **ピボットテーブルの外観**
 
-### **ピボット テーブル形式オプションの設定**
+[ピボットテーブルの作成方法](/cells/ja/java/create-pivot-table/) では、単純なピボットテーブルの作成方法を示しました。この記事では、プロパティを設定することでピボットテーブルの外観をカスタマイズする方法についてさらに説明します。
 
-の[**ピボットテーブル**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)クラスを使用すると、ピボット テーブルのさまざまな書式設定オプションを設定できます。
+### **ピボットテーブルの書式オプションの設定**
 
-#### **AutoFormat および PivotTableStyle タイプの設定**
+[**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)クラスを使用すると、ピボットテーブルのさまざまなフォーマットオプションを設定できます。
 
-次のコード例は、[**AutoFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType)と[**ピボットテーブルのスタイル タイプ**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType)プロパティ。
+#### **オートフォーマットとPivotTableStyleのタイプを設定する**
+
+以下のコード例は、[**AutoFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType)および[**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType)プロパティを使用してオートフォーマットタイプとピボットテーブルスタイルタイプを設定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SetAutoFormatandPivotTableStyleTypes-SetAutoFormatandPivotTableStyleTypes.java" >}}
 
-#### **フォーマット オプションの設定**
+#### **書式オプションの設定**
 
-次のコード サンプルは、行と列の総計の追加など、ピボット テーブル レポートのさまざまな書式設定オプションを設定する方法を示しています。
+次のコードサンプルは、行と列の合計を追加するなど、ピボットテーブルレポートの多くのフォーマットオプションを設定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SettingFormatOptions-SettingFormatOptions.java" >}}
 
-### **ピボットフィールドのフォーマット オプションの設定**
+### **PivotFieldsのフォーマットオプションを設定する**
 
-Aspose.Cells for Java では、ピボット テーブル全体の書式設定を制御するだけでなく、行フィールド、列フィールド、およびページ フィールドの書式設定を微調整できます。
+全体のピボットテーブルのフォーマットを制御するだけでなく、Aspose.Cells for Javaは行フィールド、列フィールド、ページフィールドのフォーマットを細かく制御できます。
 
-#### **行、列、およびページ フィールドのフォーマットの設定**
+#### **行、列、およびページフィールドのフォーマットを設定する**
 
-次のコード例は、行フィールドにアクセスする方法、特定の行にアクセスする方法、小計を設定する方法、自動並べ替えを適用する方法、および autoShow オプションを使用する方法を示しています。
+以下のコード例では、行フィールドにアクセスし、特定の行にアクセスし、小計を設定し、自動ソートを適用し、autoShowオプションを使用する方法が示されています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SetRowColumnPageFieldsFormat-SetRowColumnPageFieldsFormat.java" >}}
 
-### **データ フィールド形式の設定**
+### **データフィールドのフォーマットを設定する**
 
-次のコード行は、データ フィールドをフォーマットする方法を示しています。
+以下のコード行は、データフィールドのフォーマット方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SettingDataFieldFormat-SettingDataFieldFormat.java" >}}
 
-### **ピボット テーブルのクイック スタイルを変更する**
+### **ピボットテーブルのクイックスタイルを変更する**
 
-次のコード例は、ピボット テーブルに適用されるクイック スタイルを変更する方法を示しています。
+次に続くコード例では、ピボットテーブルに適用されるクイックスタイルを変更する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ModifyPivotTableQuickStyle-ModifyPivotTableQuickStyle.java" >}}
 
-### **ピボット フィールドのクリア**
+### **ピボットフィールドのクリア**
 
-[**ピボットフィールド コレクション**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection)という名前のメソッドがあります[**クリア（）**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear()ピボット フィールドをクリアします。ページ、列、行、データなど、すべての領域のピボット フィールドをクリアするために使用します。
-次のコード サンプルは、データ領域のすべてのピボット フィールドをクリアする方法を示しています。
+[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection)にはピボットフィールドをクリアするための[**clear()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear--)というメソッドがあります。たとえば、ページ、列、行、またはデータなどのすべてのエリアでピボットフィールドをクリアするために使用します。
+以下のコードサンプルは、データ領域のすべてのピボットフィールドをクリアする方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ClearPivotFields-ClearPivotFields.java" >}}
 
-## **連結機能**
+## **集約関数**
 
-### **ConsolidationFunction をピボット テーブルのデータ フィールドに適用する**
+### **ピボットテーブルのデータフィールドに統合機能を適用する**
 
- Aspose.Cells を使用して、ConsolidationFunction をピボット テーブルのデータ フィールド (または値フィールド) に適用できます。 Microsoft Excel では、値フィールドを右クリックして、**値フィールドの設定...**オプションを選択し、タブを選択します**値の集計基準**.そこから、Sum、Count、Average、Max、Min、Product、Distinct Count などの任意の ConsolidationFunction を選択できます。
+Aspose.Cellsを使用して、ピボットテーブルのデータフィールド（または値フィールド）にConsolidationFunctionを適用できます。Microsoft Excelでは、値フィールドを右クリックし、**値フィールドの設定...**オプションを選択し、次に**集計方法**タブを選択します。そこから、合計、カウント、平均、最大、最小、積、一意のカウントなどのConsolidationFunctionを選択できます。
 
-Aspose.Cells提供[**連結機能**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction)次の連結関数をサポートするための列挙。
+Aspose.Cellsは、次の統合機能をサポートするための[**ConsolidationFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction)列挙型を提供します。
 
 - [**ConsolidationFunction.AVERAGE**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#AVERAGE)
 - [**ConsolidationFunction.COUNT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT)
@@ -74,11 +75,11 @@ Aspose.Cells提供[**連結機能**](https://reference.aspose.com/cells/java/com
 - [**ConsolidationFunction.VAR**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VAR)
 - [**ConsolidationFunction.VARP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VARP)
 
-次のコードが適用されます**平均**最初のデータ フィールド (または値フィールド) への連結関数および**DistinctCount** 2 番目のデータ フィールド (または値フィールド) への連結関数。
+次のコードは、最初のデータフィールド（または値フィールド）に**平均**のConsolidationFunctionを適用し、2番目のデータフィールド（または値フィールド）に**DistinctCount**のConsolidationFunctionを適用します。
 
 {{% alert color="primary" %}}
 
-DistinctCount 連結関数は、Microsoft Excel 2013 のみでサポートされています。
+重複排除の統合機能は、Microsoft Excel 2013でのみサポートされています。
 
 {{% /alert %}}
 

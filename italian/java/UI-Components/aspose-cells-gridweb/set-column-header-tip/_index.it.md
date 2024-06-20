@@ -1,18 +1,19 @@
 ---
-title: Imposta il suggerimento dell'intestazione della colonna
+title: Imposta Suggerimento Intestazione Colonna
 type: docs
 weight: 90
 url: /it/java/set-column-header-tip/
 ---
-##  **Possibili scenari di utilizzo**
-Potrebbe essere necessario impostare la descrizione comando per la colonna personalizzata durante la creazione della tabella nel foglio di lavoro. Aspose.Cells.GridWeb ti consente di rinominare la didascalia di una colonna e puoi impostare la descrizione comando sulla colonna, in modo che gli utenti possano facilmente capire a cosa serve la colonna.
-##  **Impostazione del suggerimento per l'intestazione della colonna**
-Di seguito viene fornito un esempio completo per dimostrare come modificare le didascalie delle colonne e applicare il testo della descrizione comando. Dopo aver eseguito il codice di esempio, il testo della descrizione comando verrà visualizzato quando si posiziona il cursore del mouse sull'intestazione della colonna specificata.
 
-##  **Codice d'esempio**
-Ecco il codice di esempio di**prova.jsp** file.
+## **Possibili Scenari di Utilizzo**
+Potresti avere bisogno di impostare il suggerimento per la tua colonna personalizzata durante la creazione della tabella nel foglio di lavoro. Aspose.Cells.GridWeb ti consente di rinominare la didascalia di una colonna e puoi impostare il suggerimento della colonna, in modo che gli utenti possano capire facilmente a cosa serve la colonna.
+## **Impostazione Suggerimento Intestazione Colonna**
+Di seguito è fornito un esempio completo per dimostrare come modificare le didascalie delle colonne e applicare il testo del suggerimento. Dopo l'esecuzione del codice di esempio, il testo del suggerimento verrà visualizzato quando si posiziona il cursore del mouse sull'intestazione della colonna specificata.
 
-{{< highlight "java" >}}
+## **Codice di Esempio**
+Ecco il codice sorgente del file **test.jsp**.
+
+{{< highlight java >}}
 
  <%@ page language="java" contentType="text/html; charset=UTF-8"
 

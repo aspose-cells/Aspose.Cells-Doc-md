@@ -1,113 +1,114 @@
-﻿---
+---
 title: Arbeitsblattansichten
 type: docs
 weight: 10
 url: /de/java/worksheet-views/
 ---
-## **Seitenumbruchvorschau**
+
+## **Seitenwechselvorschau**
 Alle Arbeitsblätter können in zwei Modi angezeigt werden:
 
 - Normale Ansicht.
-- Seitenumbruchvorschau.
+- Seitenwechselvorschau.
 
-Eine normale Ansicht ist die Standardansicht eines Arbeitsblatts. Die Seitenumbruchvorschau ist eine Bearbeitungsansicht, die ein Arbeitsblatt so anzeigt, wie es gedruckt wird. Die Seitenumbruchvorschau zeigt, welche Daten auf jeder Seite erscheinen, sodass Sie den Druckbereich und die Seitenumbrüche anpassen können. Mit Aspose.Cells können Entwickler die Vorschaumodi Normalansicht oder Seitenumbruch aktivieren.
-### **Ansichtsmodi steuern**
- Aspose.Cells bietet eine[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse, die eine Microsoft Excel-Datei darstellt. Das[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse enthält a[Arbeitsblattsammlung](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
+Die normale Ansicht ist die Standardansicht eines Arbeitsblatts. Die Seitenwechselvorschau ist eine Bearbeitungsansicht, die ein Arbeitsblatt so anzeigt, wie es gedruckt wird. Die Seitenwechselvorschau zeigt an, welche Daten auf jeder Seite erscheinen, sodass Sie den Druckbereich und die Seitenwechsel anpassen können. Mit Aspose.Cells können Entwickler die normale Ansicht oder die Seitenwechselvorschau aktivieren.
+### **Steuerung der Ansichtsmodi**
+Aspose.Cells bietet eine [Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse, die eine Microsoft Excel-Datei repräsentiert. Die [Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse enthält eine [Arbeitsblattsammlung](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection), die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
- Ein Arbeitsblatt wird durch dargestellt[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse. Das[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Um die Vorschaumodi Normal oder Seitenumbruch zu aktivieren, verwenden Sie die[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse'[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)Methode.
-#### **Normalansicht aktivieren**
-Versetzen Sie jedes Arbeitsblatt in die normale Ansicht, indem Sie die verwenden[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) Methode der[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse und Bestehen**FALSCH** als Parameter.
-#### **Seitenumbruchvorschau aktivieren**
-Stellen Sie ein beliebiges Arbeitsblatt auf Seitenumbruchvorschau mit ein[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)Methode der[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse und Bestehen**wahr**als Parameter.
+Ein Arbeitsblatt wird durch die [Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse repräsentiert. Die [Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Arbeitsblättern. Um die Ansichtsmodi 'normal' oder 'Seitenwechselvorschau' zu aktivieren, verwenden Sie die [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)-Methode der [Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse.
+#### **Normale Ansicht aktivieren**
+Setzen Sie jedes Arbeitsblatt auf die normale Ansicht, indem Sie die Methode [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) der [Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse verwenden und **false** als Parameter übergeben.
+#### **Aktivieren der Seitenwechselvorschau**
+Setzen Sie ein Arbeitsblatt mit der [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) Methode der [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse und übergeben Sie **true** als Parameter.
 
- Nachfolgend finden Sie ein vollständiges Beispiel, das die Verwendung von demonstriert[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse'[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)-Methode, um den Seitenumbruch-Vorschaumodus für das erste Arbeitsblatt der Excel-Datei zu aktivieren.
+Ein vollständiges Beispiel finden Sie unten, das die Verwendung der Methode [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) der [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse zeigt, um den Seitenwechselvorschau-Modus für das erste Arbeitsblatt der Excel-Datei zu aktivieren.
 
-Im Screenshot unten sehen Sie, dass sich die Datei Book1.xls in der Normalansicht befindet.
+Im folgenden Screenshot sehen Sie, dass die Datei Book1.xls im Normalmodus geöffnet ist.
 
 **Book1.xls: Arbeitsblatt vor der Änderung** 
 
-![todo: Bild_alt_Text](worksheet-views_1.png)
+![todo:image_alt_text](worksheet-views_1.png)
 
- Book1.xls wird mit dem geöffnet[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)Klasse und der Modus wird auf Seitenumbruchvorschau für das erste Arbeitsblatt umgeschaltet. Die geänderte Datei wird als output.xls gespeichert.
+Book1.xls wird mit der [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse geöffnet und der Modus für das erste Arbeitsblatt wird auf Seitenwechselvorschau umgeschaltet. Die geänderte Datei wird als output.xls gespeichert.
 
-**Output.xls: Arbeitsblatt nach Modifikation** 
+**Ouput.xls: Arbeitsblatt nach der Änderung** 
 
-![todo: Bild_alt_Text](worksheet-views_2.png)
+![todo:image_alt_text](worksheet-views_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageBreakPreview-PageBreakPreview.java" >}}
-## **Zoomfaktor**
-Microsoft Excel bietet eine Funktion, mit der Benutzer den Zoom- oder Skalierungsfaktor eines Arbeitsblatts festlegen können. Diese Funktion hilft Benutzern, den Arbeitsblattinhalt in kleineren oder größeren Ansichten anzuzeigen. Benutzer können den Zoomfaktor auf einen beliebigen Wert einstellen.
+## **Zoom-Faktor**
+Microsoft Excel bietet eine Funktion, mit der Benutzer den Zoom- oder Skalierungsfaktor eines Arbeitsblatts festlegen können. Diese Funktion hilft Benutzern, die Arbeitsblattinhalte in kleineren oder größeren Ansichten zu sehen. Benutzer können den Zoom-Faktor auf beliebige Werte setzen.
 
-**Einstellen des Zoomfaktors mit Microsoft Excel** 
+**Festlegen des Zoomfaktors mit Microsoft Excel** 
 
-![todo: Bild_alt_Text](worksheet-views_3.png)
+![todo:image_alt_text](worksheet-views_3.png)
 
 Aspose.Cells ermöglicht es Entwicklern auch, den Zoomfaktor des Arbeitsblatts festzulegen.
 ### **Steuerung des Zoomfaktors**
-Aspose.Cells bietet eine[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse, die eine Microsoft Excel-Datei darstellt. Das[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse enthält a[Arbeitsblattsammlung](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
+Aspose.Cells bietet eine [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse, die eine Microsoft Excel-Datei darstellt. Die [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse enthält eine [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection), die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
- Ein Arbeitsblatt wird durch dargestellt[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse. Das[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Um den Zoomfaktor eines Arbeitsblatts festzulegen, verwenden Sie die[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse'[setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)Methode.
+Ein Arbeitsblatt wird durch die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse dargestellt. Die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Arbeitsblättern. Um den Zoomfaktor eines Arbeitsblatts festzulegen, verwenden Sie die [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) Methode der [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.
 
- Nachfolgend finden Sie ein vollständiges Beispiel, das die Verwendung von demonstriert[setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)Methode zum Festlegen des Zoomfaktors des ersten Arbeitsblatts in einer Excel-Datei.
+Ein vollständiges Beispiel finden Sie unten, das zeigt, wie die [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) Methode verwendet wird, um den Zoomfaktor des ersten Arbeitsblatts in einer Excel-Datei festzulegen.
 
-Im Screenshot unten sehen Sie die Datei Book1.xls in der Standardansicht.
+Im folgenden Screenshot sehen Sie die Datei Book1.xls im Standardmodus.
 
 **Book1.xls: Arbeitsblatt vor der Änderung** 
 
-![todo: Bild_alt_Text](worksheet-views_4.png)
+![todo:image_alt_text](worksheet-views_4.png)
 
- Die Datei Book1.xls wird mit dem geöffnet[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)Klasse und der Zoomfaktor des ersten Arbeitsblatts wird auf 75 gesetzt. Die geänderte Datei wird als output.xls gespeichert.
+Die Datei Book1.xls wird mit der [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse geöffnet und der Zoomfaktor des ersten Arbeitsblatts wird auf 75 gesetzt. Die modifizierte Datei wird als output.xls gespeichert.
 
 **Output.xls: Arbeitsblatt nach der Änderung** 
 
-![todo: Bild_alt_Text](worksheet-views_5.png)
+![todo:image_alt_text](worksheet-views_5.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ZoomFactor-ZoomFactor.java" >}}
-## **Fenster einfrieren**
-Fenster einfrieren ist eine Funktion, die von Microsoft Excel bereitgestellt wird. Durch das Einfrieren von Fenstern können Sie Daten auswählen, die beim Scrollen in einem Arbeitsblatt sichtbar bleiben sollen.
+## **Fenster fixieren**
+Freeze panes ist eine Funktion von Microsoft Excel. Durch das Einfrieren von Fenstern können Sie auswählen, dass Daten beim Scrollen in einem Arbeitsblatt sichtbar bleiben.
 
-**Verwenden von Fixierfenstern in Microsoft Excel** 
+**Verwenden von Freeze Panes in Microsoft Excel** 
 
-![todo: Bild_alt_Text](worksheet-views_6.png)
+![todo:image_alt_text](worksheet-views_6.png)
 
-Aspose.Cells ermöglicht es Entwicklern auch, zur Laufzeit eingefrorene Fenster auf Arbeitsblätter anzuwenden.
+Auch Aspose.Cells ermöglicht Entwicklern, Freeze Panes zur Laufzeit auf Arbeitsblättern anzuwenden.
 
-Aspose.Cells bietet eine[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse, die eine Microsoft Excel-Datei darstellt. Das[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse enthält a[Arbeitsblattsammlung](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
+Aspose.Cells stellt eine [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse zur Verfügung, die eine Microsoft Excel-Datei darstellt. Die [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse enthält eine [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection), die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
- Ein Arbeitsblatt wird durch dargestellt[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse. Das[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Rufen Sie zum Konfigurieren von Einfrierfenstern die[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse'[freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\) ) Methode. Das[freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-Methode nimmt die folgenden Parameter an:
+Ein Arbeitsblatt wird durch die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse dargestellt. Die [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Arbeitsblättern. Um Freeze Panes zu konfigurieren, rufen Sie die [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-Methode der [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse auf. Die [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-Methode akzeptiert die folgenden Parameter:
 
-- **Reihe**, der Zeilenindex der Zelle, bei der das Einfrieren beginnt.
-- **Spalte**, der Spaltenindex der Zelle, ab der das Einfrieren beginnt.
-- **Gefrorene Reihen**, die Anzahl der sichtbaren Zeilen im oberen Bereich.
-- **Gefrorene Säulen**, die Anzahl der sichtbaren Spalten im linken Bereich
+- **Zeile**, der Zeilenindex der Zelle, von der das Einfrieren startet.
+- **Spalte**, der Spaltenindex der Zelle, von der das Einfrieren startet.
+- **Eingefrorene Zeilen**, die Anzahl der sichtbaren Zeilen im oberen Bereich.
+- **Eingefrorene Spalten**, die Anzahl der sichtbaren Spalten im linken Bereich
 
- Nachfolgend finden Sie ein vollständiges Beispiel, das die Verwendung von zeigt[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse'[freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-Methode zum Einfrieren von Zeilen und Spalten (beginnend bei C4, dargestellt durch die 4. Zeile und die 3. Spalte, wobei die Zeilen und Spalten bei 0-Indizes beginnen) des ersten Arbeitsblatts der Excel-Datei.
+Ein vollständiges Beispiel ist unten aufgeführt, das zeigt, wie die [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-Methode der [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse verwendet wird, um Zeilen und Spalten (beginnend ab C4, dargestellt durch die 4. Zeile und die 3. Spalte, wobei Zeilen und Spalten bei 0 beginnen) des ersten Arbeitsblatts der Excel-Datei einzufrieren.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
 
-Im folgenden Screenshot sehen Sie die Datei Book1.xls ohne Fenster zum Einfrieren.
+Im Screenshot unten sehen Sie die Datei Book1.xls ohne Freeze Panes.
 
-**Book1.xls: Arbeitsblattansicht vor jeder Änderung** 
+**Book1.xls: Arbeitsblattansicht vor jeglicher Änderung** 
 
-![todo: Bild_alt_Text](worksheet-views_7.png)
+![todo:image_alt_text](worksheet-views_7.png)
 
- Die Datei Book1.xls wird mit dem geöffnet[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)Klasse und dann werden einige Zeilen und Spalten auf dem ersten Arbeitsblatt eingefroren. Die geänderte Datei wird als output.xls gespeichert.
+Die Datei Book1.xls wird mit der [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse geöffnet und dann werden einige Zeilen und Spalten auf dem ersten Arbeitsblatt eingefroren. Die modifizierte Datei wird als output.xls gespeichert.
 
-**Outlook.xls: Arbeitsblattansicht nach Änderung** 
+**Outlook.xls: Arbeitsblattansicht nach der Änderung** 
 
-![todo: Bild_alt_Text](worksheet-views_8.png)
-## **Geteilte Scheiben**
-Wenn Sie den Bildschirm teilen müssen, um zwei verschiedene Ansichten in demselben Arbeitsblatt zu erhalten, teilen Sie die Bereiche. Microsoft Excel bietet eine sehr praktische Funktion, mit der Sie mehr als eine Kopie Ihres Arbeitsblatts anzeigen und unabhängig voneinander durch jeden Bereich Ihres Arbeitsblatts scrollen können: geteilte Bereiche.
+![todo:image_alt_text](worksheet-views_8.png)
+## **Geteilte Fenster**
+Wenn Sie den Bildschirm teilen müssen, um zwei verschiedene Ansichten im selben Arbeitsblatt zu erhalten, verwenden Sie geteilte Fenster. Microsoft Excel bietet eine sehr praktische Funktion, die es Ihnen ermöglicht, mehr als eine Kopie Ihres Arbeitsblatts anzuzeigen und durch jede Ansicht Ihres Arbeitsblatts unabhängig zu scrollen: geteilte Fenster.
 
-Die Scheiben arbeiten gleichzeitig. Wenn Sie in einem eine Änderung vornehmen, erscheint die Änderung gleichzeitig im anderen. Aspose.Cells stellt die Split-Pane-Funktion für die Benutzer bereit.
-### **Anwenden und Entfernen von geteilten Scheiben**
-#### **Teilen von Scheiben**
-Aspose.Cells bietet eine[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse, die eine Microsoft Excel-Datei darstellt. Das[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Excel-Dateien. Um geteilte Ansichten zu implementieren, verwenden Sie die[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse'[Teilt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\) ) Methode. Um geteilte Fenster zu entfernen, verwenden Sie die[entfernenSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) Methode.
+Die Panes arbeiten gleichzeitig. Wenn Sie eine Änderung in einer vornehmen, erscheint die Änderung gleichzeitig in der anderen. Aspose.Cells bietet die Funktion für geteilte Fenster für die Benutzer.
+### **Anwenden und Entfernen von geteilten Fenstern**
+#### **Teilen von Fenstern**
+Aspose.Cells stellt eine [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse zur Verfügung, die eine Microsoft Excel-Datei darstellt. Die [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Excel-Dateien. Um geteilte Ansichten zu implementieren, verwenden Sie die [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\))-Methode der [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)-Klasse. Um geteilte Fenster zu entfernen, verwenden Sie die [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\))-Methode.
 
-In dem Beispiel verwenden wir eine einfache Vorlagendatei, die geladen wird, dann wird die Funktion zum Festlegen von geteilten Fenstern auf eine Zelle im ersten Arbeitsblatt angewendet. Die aktualisierte Datei wird gespeichert.
+In dem Beispiel verwenden wir eine einfache Vorlagendatei, die geladen wird, und dann wird das Feature der aufgeteilten Bereiche auf eine Zelle im ersten Arbeitsblatt angewendet. Die aktualisierte Datei wird gespeichert.
 
 
 
@@ -115,20 +116,20 @@ In dem Beispiel verwenden wir eine einfache Vorlagendatei, die geladen wird, dan
 
 
 
-Nach dem Ausführen des obigen Codes hat die generierte Datei eine geteilte Ansicht.
+Nachdem der obige Code ausgeführt wurde, hat die generierte Datei eine geteilte Ansicht.
 
-**Geteilte Bereiche in der Ausgabedatei** 
+**Geteilte Ansichten in der Ausgabedatei** 
 
-![todo: Bild_alt_Text](worksheet-views_9.png)
-#### **Scheiben entfernen**
- Entwickler können geteilte Fenster mithilfe von entfernen[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse'[entfernenSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) Methode.
+![todo:image_alt_text](worksheet-views_9.png)
+#### **Panes entfernen**
+Entwickler können geteilte Bereiche mithilfe der [Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse und der [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) Methode entfernen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
 
-## **Themen vorantreiben**
+## **Erweiterte Themen**
 - [Ausblenden der Anzeige von Nullwerten im Arbeitsblatt](/cells/de/java/hiding-the-display-of-zero-values-in-the-worksheet/)
-- [Legen Sie die Farbe des Arbeitsblatt-Tabs fest](/cells/de/java/set-worksheet-tab-color/)
-- [Elemente ein- und ausblenden](/cells/de/java/show-and-hide-elements/)
-- [Formeln statt Werte in einem Arbeitsblatt anzeigen](/cells/de/java/show-formulas-instead-of-values-in-a-worksheet/)
-- [Verwenden Sie die Optionen zur Fehlerprüfung](/cells/de/java/use-error-checking-options/)
+- [Arbeitsblattregisterfarbe festlegen](/cells/de/java/set-worksheet-tab-color/)
+- [Elemente anzeigen und ausblenden](/cells/de/java/show-and-hide-elements/)
+- [Formeln anstelle von Werten in einem Arbeitsblatt anzeigen](/cells/de/java/show-formulas-instead-of-values-in-a-worksheet/)
+- [Fehlerüberprüfungsoptionen verwenden](/cells/de/java/use-error-checking-options/)

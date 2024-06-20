@@ -1,25 +1,26 @@
-﻿---
-title: Eklenen Görüntüleri Yeniden Örnekleme - Excel'den PDF'e Dönüştürme
+---
+title: Eklenen Resimleri Yeniden Örnekleme  Excel den PDF ye Dönütürme
 type: docs
 weight: 150
 url: /tr/net/resampling-added-images-excel-to-pdf-conversion/
 ---
+
 {{% alert color="primary" %}}
 
-Çok fazla resim içeren büyük Microsoft Excel dosyalarıyla çalışırken, PDF çıktı dosya boyutunu azaltmak ve genel dönüştürme performansını artırmak için eklenen resimleri sıkıştırmanız gerekebilir. Aspose.Cells, çıktı PDF dosya boyutunu azaltmak ve performansı biraz artırmak için eklenen görüntülerin yeniden örneklenmesini destekler.
+Birçok resmi içeren büyük Microsoft Excel dosyaları ile çalışırken, çıktı PDF dosyasının boyutunu küçültmek ve genel dönüşüm performansını iyileştirmek için eklenen resimleri yeniden örneklemek gerekebilir. Aspose.Cells, eklenen resimleri yeniden örnekleme ve çıktı PDF dosya boyutunu küçültme konusunda destek sağlar.
 
 {{% /alert %}}
 
-Lütfen Aspose.Cells API kullanarak görevin nasıl gerçekleştirileceğini açıklayan aşağıdaki örnek koda bakın. Örnek, dosyadaki görüntüleri sıkıştırırken Microsoft Excel dosyasını PDF dosyasına dönüştürür.
+Aşağıdaki örnek kod, Aspose.Cells API'sını kullanarak görevi nasıl gerçekleştirebileceğinizi açıklamaktadır. Örnek, dosyadaki resimleri sıkıştırarak Microsoft Excel dosyasını PDF dosyasına dönüştürmektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ResamplingAddedImages-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- kullanarak[**SetImageResample**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/methods/setimageresample)seçeneği çıktı boyutunu en aza indirir PDF ancak görüntü kalitesini biraz etkileyebilir.
+[**SetImageResample**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/methods/setimageresample) seçeneğini kullanarak çıktı PDF dosyasının boyutunu küçültür, ancak biraz görüntü kalitesini etkileyebilir.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-E-tablonuz formüller içeriyorsa, aramak en iyisidir[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)elektronik tabloyu PDF biçimine dönüştürmeden hemen önce. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve PDF'de doğru değerlerin oluşturulmasını sağlar.
+Eğer elektronik tablonuz formüller içeriyorsa, PDF formatına dönüştürmeden hemen önce [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) çağrısını yapmanız en iyisidir. Böyle yaparak formüle bağımlı değerler yeniden hesaplanacak ve doğru değerler PDF'de gösterilecektir.
 
 {{% /alert %}}

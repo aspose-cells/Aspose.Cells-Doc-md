@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbetsbok
 type: docs
 weight: 30

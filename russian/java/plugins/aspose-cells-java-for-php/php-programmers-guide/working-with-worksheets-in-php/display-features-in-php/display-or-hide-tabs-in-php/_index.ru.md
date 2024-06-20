@@ -1,16 +1,17 @@
-﻿---
+---
 title: Показать или скрыть вкладки в Php
 type: docs
 weight: 30
 url: /ru/java/display-or-hide-tabs-in-php/
 ---
-## **Aspose.Cells — Показать или скрыть вкладки**
+
+## **Aspose.Cells - Отображение или скрытие вкладок**
 ### **Скрытие вкладок**
- Чтобы скрыть вкладки с помощью**Aspose.Cells Java for PHP** , вызов**показать скрыть вкладки** модуль.
+Чтобы скрыть вкладки с помощью **Aspose.Cells Java для PHP**, вызовите модуль **displayhidetabs**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -25,7 +26,7 @@ $workbook->getSettings()->setShowTabs(false);
 $workbook->save($dataDir + "output.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Скрыть или отобразить или скрыть вкладки (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Скрыть или отобразить вкладки (Aspose.Cells)** с любого из указанных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)

@@ -1,30 +1,31 @@
 ---
-title: Behalten Sie das einfache Anführungszeichen-Präfix des Werts oder Bereichs Cell bei
+title: Behalten Sie das einfache Anführungszeichenpräfix des Zellwerts oder bereichs bei
 type: docs
 weight: 310
 url: /de/net/preserve-single-quote-prefix-of-cell-value-or-range/
-description: Erfahren Sie, wie Sie das einfache Anführungszeichen-Präfix des Werts oder Bereichs Cell über Aspose.Cells for .NET API beibehalten.
-keywords: Preserve Single Quote Prefix of Cell Value or Range, Hide leading apostrophe or single quote mark, Show leading apostrophe or single quote mark
+description: Erfahren Sie, wie Sie das Präfix eines Zellenwerts oder Bereichs mit einfachem Anführungszeichen durch die Aspose.Cells for .NET API beibehalten.
+keywords: Präfix eines Zellenwerts oder Bereichs mit einfachem Anführungszeichen beibehalten, Anführende Apostrophe oder einfaches Anführungszeichen ausblenden, Anführende Apostrophe oder einfaches Anführungszeichen anzeigen
 ---
-##  **Mögliche Nutzungsszenarien**
 
-Wenn Sie einen Wert in die Zelle einfügen, der ein Apostroph oder ein einfaches Anführungszeichen am Anfang hat, wird er von Microsoft in Excel ausgeblendet. Wenn Sie jedoch die Zelle auswählen, wird das Apostroph oder das einfache Anführungszeichen am Anfang in einer Bearbeitungsleiste angezeigt, wie im folgenden Screenshot gezeigt.
+## **Mögliche Verwendungsszenarien**
+
+Wenn Sie einen Wert in die Zelle einsetzen, der ein führendes Apostroph oder einfach Anführungszeichen hat, verbirgt es Microsoft Excel, aber wenn Sie die Zelle auswählen, zeigt es das führende Apostroph oder Anführungszeichen in einer Formelleiste an, wie im folgenden Screenshot gezeigt.
 
 ![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-Aspose.Cells verbirgt auch das führende Apostroph oder einfache Anführungszeichen wie Microsoft Excel, legt aber das fest[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) als**WAHR** für diese Zelle. Wenn Sie einen leeren Stil für die Zelle festlegen, dann[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) wird**FALSCH** wieder. Um dieses Problem zu lösen, bietet Aspose.Cells[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) Eigenschaft, wenn sie festgelegt ist**false**, dann wird [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) überhaupt nicht aktualisiert und sein alter Wert bleibt erhalten . Das heißt, wenn der alte Wert der Eigenschaft [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) **wahr** war, dann wird **wahr bleiben** und wenn der alte Wert *falsch** war, bleibt er *falsch**.
+Aspose.Cells blendet auch das führende Anführungszeichen oder das einfache Anführungszeichen wie Microsoft Excel aus, setzt aber [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) als **true** für diese Zelle. Wenn Sie einen leeren Stil der Zelle setzen, wird [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) wieder zu **false**. Um dieses Problem zu lösen, bietet Aspose.Cells die Eigenschaft [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix). Wenn es auf **false** gesetzt ist, wird [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) überhaupt nicht aktualisiert und sein alter Wert bleibt erhalten. Das bedeutet, wenn der alte Wert der Eigenschaft [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) **true** war, bleibt er **true**, und wenn der alte Wert **false** war, bleibt er **false**.
 
-##  **Behalten Sie das einfache Anführungszeichen-Präfix des Werts oder Bereichs Cell bei**
+## **Einzelnes Anführungszeichen-Prefix des Zellenwerts oder -bereichs beibehalten**
 
-Der folgende Beispielcode erläutert die Verwendung von[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)Eigentum wie zuvor beschrieben. Bitte lesen Sie die Kommentare im Code und sehen Sie sich die Konsolenausgabe des unten angegebenen Codes an, um weitere Hilfe zu erhalten.
+Der folgende Beispielcode erläutert die Verwendung der [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)-Eigenschaft, wie zuvor beschrieben. Bitte lesen Sie die Kommentare im Code und sehen Sie die Konsolenausgabe des folgenden Codes für weitere Hilfe.
 
-##  **Beispielcode**
+## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
 
-##  **Konsolenausgabe**
+## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Quote Prefix of Cell A1: False
 

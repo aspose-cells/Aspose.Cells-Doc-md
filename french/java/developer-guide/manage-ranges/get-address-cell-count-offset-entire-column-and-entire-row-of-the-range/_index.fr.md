@@ -1,20 +1,21 @@
-﻿---
-title: Get Address Cell Count Offset Toute la colonne et toute la ligne de la plage
+---
+title: Obtenir le décalage du nombre de cellules d adresse de la colonne entière et de la ligne entière de la plage
 type: docs
 weight: 250
 url: /fr/java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
 ---
+
 ## **Scénarios d'utilisation possibles**
 
- Aspose.Cells fournit le[**Intervalle**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)objet qui a diverses méthodes utilitaires qui permettent à l'utilisateur de travailler facilement avec les plages Excel. Cet article illustre l'utilisation des méthodes ou propriétés suivantes du[**Intervalle**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)objet.
+Aspose.Cells fournit l'objet [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) qui comporte diverses méthodes utilitaires facilitant l'utilisation des plages Excel. Cet article illustre l'utilisation des méthodes ou propriétés suivantes de l'objet [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range).
 
 - **Adresse**
 
 Obtient l'adresse de la plage.
 
-- **Cell Compter**
+- **Nombre de cellules**
 
-Obtient tout le nombre de cellules dans la plage.
+Obtient le nombre de cellules dans la plage.
 
 - **Décalage**
 
@@ -22,23 +23,23 @@ Obtient la plage par décalage.
 
 - **Colonne entière**
 
-Obtient un objet Range qui représente la ou les colonnes entières contenant la plage spécifiée.
+Obtient un objet Range qui représente la colonne entière (ou les colonnes) contenant la plage spécifiée.
 
 - **Ligne entière**
 
 Obtient un objet Range qui représente la ligne entière (ou les lignes) contenant la plage spécifiée.
 
-## **Obtenir l'adresse, le nombre Cell, le décalage, la colonne entière et la ligne entière de la plage**
+## **Obtenez l'adresse, le nombre de cellules, le décalage, la colonne entière et la ligne entière de la plage.**
 
-L'exemple de code suivant explique l'utilisation des méthodes et des propriétés décrites ci-dessus. Veuillez consulter la sortie de la console du code ci-dessous pour une référence.
+Le code d'exemple suivant explique l'utilisation des méthodes et propriétés comme discuté ci-dessus. Veuillez consulter la sortie de la console du code ci-dessous pour référence.
 
-## **Exemple de code**
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.java" >}}
 
 ## **Sortie console**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Creating Range A1:B3
 

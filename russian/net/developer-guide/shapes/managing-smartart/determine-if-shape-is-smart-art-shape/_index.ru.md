@@ -1,26 +1,27 @@
-﻿---
-title: Определите, является ли фигура фигурой Smart Art
+---
+title: Определить, является ли форма формой Smart Art
 type: docs
 weight: 400
 url: /ru/net/determine-if-shape-is-smart-art-shape/
 ---
+
 ## **Возможные сценарии использования**
 
- Умные художественные фигуры — это специальные фигуры в Microsoft Excel, которые позволяют автоматически создавать сложные диаграммы. Вы можете определить, является ли фигура интеллектуальной фигурой или обычной формой, используя[**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart)имущество.
+Умные формы Smart Art - это специальные формы в Microsoft Excel, которые позволяют автоматически создавать сложные диаграммы. Вы можете определить, является ли форма умной или обычной с помощью свойства [**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart).
 
-## **Определите, является ли фигура фигурой Smart Art**
+## **Определение, является ли форма формой Smart Art**
 
- Следующий пример кода загружает[образец файла Excel](55541792.xlsx)содержащий фигуру смарт-арта, как показано на этом снимке экрана. Затем он печатает значение[**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart)свойство первой формы. Пожалуйста, посмотрите консольный вывод примера кода, приведенного ниже.
+В следующем примере кода загружается [образец файла Excel](55541792.xlsx) с умной формой, как показано на этом скриншоте. Затем выводится значение свойства [**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart) первой формы. Пожалуйста, ознакомьтесь с выводом консоли в приведенном ниже примере кода.
 
-![дело:изображение_альтернативный_текст](determine-if-shape-is-smart-art-shape_1.png)
+![todo:image_alt_text](determine-if-shape-is-smart-art-shape_1.png)
 
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-DetermineIfShapeIsSmartArtShape.cs" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: True
 

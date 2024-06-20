@@ -1,17 +1,18 @@
-﻿---
-title: Utilizza lo strumento client Report Designer
+---
+title: Utilizzo del tool client di progettazione dei report
 type: docs
 weight: 30
 url: /it/reportingservices/make-use-of-report-designer-client-tool/
 ---
+
 {{% alert color="primary" %}} 
 
-Gli utenti possono progettare e consegnare report in Microsoft Excel direttamente utilizzando Aspose.Cells.Report.Designer, uno strumento semplice e facile da usare. Non hanno bisogno di usare Visual Studio per creare report, ma possono risparmiare sul costo dell'acquisto di licenze Visual Studio aggiuntive e non devono perdere tempo a imparare a usare un ambiente di sviluppo complesso.
+Gli utenti possono progettare e consegnare report direttamente in Microsoft Excel utilizzando Aspose.Cells.Report.Designer, un tool semplice e facile da usare. Non è necessario utilizzare Visual Studio per creare report ma è possibile risparmiare il costo di acquisto di licenze aggiuntive di Visual Studio e non è necessario spendere tempo per imparare come utilizzare un ambiente di sviluppo complesso.
 
-Poiché Aspose.Cells.Report.Designer utilizza Microsoft Excel come modello di report, gli utenti possono sfruttare tutte le potenti funzionalità e caratteristiche di Microsoft Excel, tra cui tabelle pivot, grafici interattivi, VBA, macro e formule. Non tutte queste funzionalità sono supportate dal formato Excel Microsoft standard fornito da Reporting Services.
+Poiché Aspose.Cells.Report.Designer utilizza Microsoft Excel come modello di report, gli utenti possono sfruttare tutta la potente funzionalità e le caratteristiche di Microsoft Excel, inclusi Tabelle Pivot, grafici interattivi, VBA, macro e formule. Non tutte queste funzionalità sono supportate dal formato standard di Microsoft Excel che Reporting Services fornisce.
 
 {{% /alert %}} 
-- **La barra degli strumenti Aspose.Cells.Report.Designer**
-**Gli utenti possono utilizzare la barra degli strumenti Aspose.Cells.Report.Designer per manipolare un file di report RDL** 
+- **La barra degli strumenti di Aspose.Cells.Report.Designer**
+**Gli utenti possono utilizzare la barra degli strumenti di Aspose.Cells.Report.Designer per manipolare un file di report RDL** 
 
-![cose da fare:immagine_alt_testo](make-use-of-report-designer-client-tool_1.png)
+![todo:image_alt_text](make-use-of-report-designer-client-tool_1.png)

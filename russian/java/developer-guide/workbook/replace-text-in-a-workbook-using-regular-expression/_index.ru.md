@@ -1,12 +1,13 @@
-﻿---
-title: Замена текста в книге с помощью регулярного выражения
+---
+title: Замена текста в книге с использованием регулярных выражений
 type: docs
 weight: 90
 url: /ru/java/replace-text-in-a-workbook-using-regular-expression/
 ---
-Aspose.Cells предоставляет возможность замены текста в книге с помощью регулярного выражения. Для этого API предоставляет[**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)собственность[**ЗаменитьПараметры**](https://reference.aspose.com/cells/java/com.aspose.cells/ReplaceOptions)учебный класс. Настройка[**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)к**истинный**указывает, что искомый ключ будет регулярным выражением.
 
-Следующий фрагмент кода демонстрирует использование[**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)имущество с помощью[образец эксель файла](SampleRegexReplace.xlsx).[выходной файл](RegexReplace_out.xlsx)сгенерированный следующим фрагментом кода, прилагается для справки.
+Aspose.Cells предоставляет возможность замены текста в книге с использованием регулярного выражения. Для этого API предоставляет свойство [**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey) класса [**ReplaceOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ReplaceOptions). Установка [**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey) в **true** указывает, что искомый ключ будет регулярным выражением.
+
+Приведенный ниже фрагмент кода демонстрирует использование свойства [**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey), используя [образец файла Excel](SampleRegexReplace.xlsx). [Файл вывода](RegexReplace_out.xlsx), сгенерированный следующим фрагментом кода, прикреплен для справки.
 
 ## **Образец кода**
 

@@ -1,25 +1,26 @@
-﻿---
+---
 title: Aperçu du document
 type: docs
 weight: 40
 url: /fr/sharepoint/previewing-document/
 ---
-Aspose.Cells pour Share Point prend en charge la prévisualisation des documents directement à partir de SharePoint. Les formats suivants prennent en charge l'aperçu :
+
+Aspose.Cells for Share Point prend en charge l'aperçu des documents directement à partir de SharePoint. Les formats suivants sont pris en charge pour l'aperçu :
 
 - XLS – Microsoft Excel 97 - 2003
-- XLSX – Office XML ouvert
-- XLSM, XLTX, XLTM – Office XML ouvert
+- XLSX – Office Open XML
+- XLSM, XLTX, XLTM – Office Open XML
 - XML – Microsoft Excel SpreadsheetML
 
 **Sélection d'un document à prévisualiser** 
 
-![tâche : image_autre_texte](previewing-document_1.png)
+![todo:image_alt_text](previewing-document_1.png)
 
 
 
-**Aperçu du document à partir d'une bibliothèque SharePoint** 
+**Prévisualisation de documents à partir d'une bibliothèque SharePoint** 
 
-![tâche : image_autre_texte](previewing-document_2.png)
+![todo:image_alt_text](previewing-document_2.png)
 
 
 

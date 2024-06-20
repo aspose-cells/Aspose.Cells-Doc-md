@@ -1,19 +1,20 @@
-﻿---
-title: قم بإزالة إعدادات PrinterSettings الموجودة من أوراق العمل في ملف Excel
+---
+title: إزالة إعدادات الطابعة الحالية لورقة العمل في ملف Excel
 type: docs
 weight: 40
 url: /ar/java/remove-existing-printersettings-of-worksheets-in-excel-file/
 ---
-## **سيناريوهات الاستخدام الممكنة**
-يريد المطورون أحيانًا منع Excel من تضمين ملفات*.سلة مهملات* ملفات إعدادات الطابعة في ملفات XLSX المحفوظة. توجد ملفات إعدادات الطابعة أسفل*"[file" root "] \ xl \ printerSettings"*. يشرح هذا المستند كيفية إزالة إعدادات الطابعة الحالية باستخدام Aspose.Cells APIs.
-## **قم بإزالة إعدادات PrinterSettings الموجودة من أوراق العمل في ملف Excel**
-يسمح لك Aspose.Cells بإزالة إعدادات الطابعة الموجودة المحددة لأوراق مختلفة في ملف Excel. يوضح نموذج التعليمات البرمجية التالي كيفية إزالة إعدادات الطابعة الموجودة لكافة أوراق العمل في المصنف. يرجى الاطلاع عليها[نموذج لملف Excel](45056023.xlsx), [إخراج ملف Excel](45056024.xlsx)، وإخراج وحدة التحكم وكذلك لقطة شاشة كمرجع.
+
+## **سيناريوهات الاستخدام المحتملة**
+أحيانًا يرغب المطورون في منع إكسيل من تضمين ملفات * .bin * لإعدادات الطابعة في ملفات XLSX المحفوظة. تُوجد ملفات إعدادات الطابعة تحت * "[ملف "الجذر"] \ xl \ printerSettings" *. يشرح هذا المستند كيفية إزالة إعدادات الطابعة الحالية باستخدام واجهات برمجة التطبيقات لـ Aspose.Cells.
+## **إزالة إعدادات الطابعة الحالية لورقات العمل في ملف Excel**
+تُسمح Aspose.Cells لك بإزالة إعدادات الطابعة الحالية المحددة لأوراق مختلفة في ملف إكسيل. يوضح الكود المثالي التالي كيفية إزالة إعدادات الطابعة الحالية لجميع ورقات العمل في سجل العمل. يرجى الاطلاع على [ملف إكسيل عيني](45056023.xlsx) ، [ملف إكسيل الناتج](45056024.xlsx) ، الإخراج على وحدة التحكم بالإضافة إلى لقطة الشاشة للرجوع إليها.
 ## **لقطة شاشة**
-![ما يجب القيام به: image_بديل_نص](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
-## **عينة من الرموز**
+![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.java" >}}
-## **إخراج وحدة التحكم**
-{{< highlight "java" >}}
+## **مخرجات الوحدة**
+{{< highlight java >}}
 
  PrinterSettings of this worksheet exist.
 

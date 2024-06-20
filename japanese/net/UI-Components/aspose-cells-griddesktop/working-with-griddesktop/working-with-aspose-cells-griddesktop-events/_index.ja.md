@@ -1,74 +1,77 @@
-﻿---
+---
 title: Aspose.Cells.GridDesktop イベントの操作
 type: docs
 weight: 30
-url: /ja/net/working-with-aspose-cells-griddesktop-events/
+url: /ja/net/aspose-cells-griddesktop/work-with-aspose-cells-griddesktop-events/
+keywords: GridDesktop, イベント, イベント
+description: この記事では、GridDesktop でイベントを使用する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-イベントは、コントロールまたはクラスで変更が発生したときに通知を送信するために使用されます。 Aspose.Cells.GridDesktop には、コントロールで特定の変更が発生したときに特定のタスクを実行するために使用されるいくつかのイベントがあります。このトピックでは、Aspose.Cells.GridDesktop コントロールでサポートされているすべてのイベントを紹介し、それらのイベントを処理する方法について説明します。
+イベントは、コントロールやクラスで変更が発生したときに通知を送信するために使用されます。Aspose.Cells.GridDesktop には、コントロールで特定の変更が発生したときに特定のタスクを実行するために使用される複数のイベントがあります。このトピックでは、Aspose.Cells.GridDesktop コントロールでサポートされているすべてのイベントについて紹介し、これらのイベントをどのように処理するかを説明します。
 
 {{% /alert %}} 
-## **序章**
-Aspose.Cells.GridDesktop コントロールは、特定のイベントがトリガーされたときに操作を実行するためのより詳細な制御を提供する複数のイベントをサポートします。以下は、Aspose.Cells.GridDesktop コントロールでサポートされているイベントの完全なリストです。
+## **紹介**
+Aspose.Cells.GridDesktop コントロールでは、特定のイベントがトリガーされたときに操作をより細かく制御できる複数のイベントがサポートされています。以下に、Aspose.Cells.GridDesktop コントロールでサポートされているイベントの完全なリストが表示されています。
 
 {{% alert color="primary" %}} 
 
-このリストには、Control クラスから Aspose.Cells.GridDesktop によって継承されるイベントは含まれていません。
+このリストには、Aspose.Cells.GridDesktop が Control クラスから継承したイベントは含まれていません。
 
 {{% /alert %}} 
 
 |**イベント**|**説明**|
-|:- |:- |
-|計算前|ワークブックで数式を計算する前に発生します。|
-|BeforeLoadFile|ワークブックがファイルから読み込まれる前に発生します。|
-|列ヘッダーのクリック|列ヘッダーがクリックされたときに発生します。|
-|列ヘッダーDoubleClick|列ヘッダーがダブルクリックされたときに発生します。|
-|CellDataChanged|Grid セル内のデータまたは値が変更されたときに発生します。このイベントは、GridCell の Value プロパティまたは SetCellValue メソッドを使用してプログラムでセルの値が変更された場合にもトリガーされます。|
-|セルボタンクリック|セル ボタンがクリックされたときに発生します。|
-|CellCheckedChanged|セル チェックボックスの Checked プロパティが変更されたときに発生します。|
-|CellSelectedIndexChanged|セル コンボ ボックスの SelectedIndex プロパティが変更されたときに発生します。|
-|セルクリック|Grid セルがクリックされたときに発生します。|
-|セルダブルクリック|Grid セルがダブルクリックされたときに発生します。|
-|CellKeyPressed|セルにフォーカスがあるときにキーが押されると発生します。 CellKeyPressed イベントのイベント ハンドラーを作成する場合は、CellKeyEventArgs 引数の Handled プロパティを true に設定して、GridDesktop コントロールがキー イベントを処理しないようにします。|
-|AfterInsertColumns|列が挿入されたときに発生します。 Aspose.Cells.GridDesktop.WorksheetEventArgs 引数の Index プロパティを使用して、列インデックスを取得できます。|
-|AfterInsertRows|行が挿入されたときに発生します。 Aspose.Cells.GridDesktop.WorksheetEventArgs 引数の Index プロパティを使用して行インデックスを取得できます。|
-|FailLoadFile|ワークブックの読み込みに失敗した場合に発生します。|
-|仕上げ計算|ワークブックで数式を計算した後に発生します。|
+| :- | :- |
+|BeforeCalculate|ワークブック内の数式を計算する前に発生します。|
+|BeforeLoadFile|ファイルからワークブックが読み込まれる前に発生します。|
+|ColumnHeaderClick|列ヘッダーがクリックされたときに発生します。|
+|ColumnHeaderDoubleClick|列ヘッダーがダブルクリックされたときに発生します。|
+|CellDataChanged|グリッドセル内のデータまたは値が変更されたときに発生します。このイベントは、Value プロパティや GridCell の SetCellValue メソッドを使用してプログラムでセルの値が変更された場合にもトリガーされる可能性があります。|
+|CellButtonClick|セルボタンがクリックされたときに発生します。|
+|CellCheckedChanged|セルのチェックボックスの Checked プロパティが変更されたときに発生します。|
+|CellSelectedIndexChanged|セルコンボボックスの SelectedIndex プロパティが変更されたときに発生します。|
+|CellClick|Gridのセルがクリックされたときに発生します。|
+|CellDoubleClick|Gridのセルがダブルクリックされたときに発生します。|
+|CellKeyPressed|セルにフォーカスがある状態でキーが押されたときに発生します。 CellKeyPressedイベントのイベントハンドラを作成する場合は、Aspose.Cells.GridDesktop.WorksheetEventArgs引数のHandledプロパティをtrueに設定して、GridDesktopコントロールがキーイベントを処理しないようにします。|
+|AfterInsertColumns|列が挿入されたときに発生します。Aspose.Cells.GridDesktop.WorksheetEventArgs引数のIndexプロパティを使用して列のインデックスを取得できます。|
+|AfterInsertRows|行が挿入されたときに発生します。Aspose.Cells.GridDesktop.WorksheetEventArgs引数のIndexプロパティを使用して行のインデックスを取得できます。|
+|FailLoadFile|ブックの読み込みに失敗したときに発生します。|
+|FinishCalculate|ブック内の数式の計算処理が終了した後に発生します。|
 |FinishLoadFile|ブックが読み込まれたときに発生します。|
-|FocusedCellChanged|セルのフォーカスが変更されるたびに発生します。|
-|行ヘッダーのクリック|行ヘッダーがクリックされたときに発生します。|
-|RowHeaderDoubleClick|行ヘッダーがダブルクリックされたときに発生します。|
-|RowColumnHiddenChanged|行または列の非表示ステータスが変更されたときに発生します。|
-|選択したシートのインデックスが変更されました|ユーザーが新しいワークシートを選択したとき、つまり、選択したシートが別のワークシートに変更されたときに発生します。このイベントは、GridDesktop コントロールの ActiveSheetIndex プロパティが変更された場合に、プログラムによってトリガーすることもできます。|
-## **グリッド イベントの処理**
-特定のイベントがトリガーされたときに特定の操作を実行するには、イベント ハンドラーを作成します。イベント ハンドラーは、特定のイベントがトリガーされたときに特定のタスクを実行します。以下では、Visual Studio.NET を使用して単純な Grid イベントを処理するようにイベント ハンドラーが設定されています。
+|FocusedCellChanged|セルのフォーカスが変更されたときに発生します。|
+|RowHeaderClick|行ヘッダがクリックされたときに発生します。|
+|RowHeaderDoubleClick|行ヘッダがダブルクリックされたときに発生します。|
+|RowColumnHiddenChanged|行または列の非表示状態が変更されたときに発生します。|
+|SelectedSheetIndexChanged|ユーザーが新しいワークシートを選択したときに発生します。つまり、選択されたシートが1つのワークシートから別のワークシートに変更されたときに発生します。このイベントは、プログラムによってもトリガーされ、その場合はGridDesktopコントロールのActiveSheetIndexプロパティが変更されたときです。|
+## **グリッドイベントの処理**
+特定のイベントがトリガーされたときに特定の操作を実行するために、イベントハンドラを作成します。イベントハンドラは、特定のイベントがトリガーされたときに特定のタスクを実行します。以下に、Visual Studio.NETを使用して簡単なGridイベントを処理するためにイベントハンドラを設定する方法が示されています。
 
-**ステップ 1: Aspose.Cells.GridDesktop コントロールのイベントを選択する**
+**ステップ1：Aspose.Cells.GridDesktopコントロールのイベントの選択**
 
-1. Visual Studio で、Aspose.Cells.GridDesktop コントロールを選択し、その**プロパティ**ダイアログ。
-1. クリック**イベント**タブ。
-1. イベントを選択します。 (この例では、**セルクリック**イベントが選択されます)。
+1. Visual StudioでAspose.Cells.GridDesktopコントロールを選択し、**プロパティ**ダイアログを開きます。
+1. **イベント**タブをクリックします。
+1. イベントを選択します。（この例では、**CellClick**イベントが選択されます）。
 
-**ステップ 2: イベント ハンドラーの作成**
+**ステップ2：イベントハンドラの作成**
 
-1. で選択したイベントをダブルクリックします。**プロパティ**ダイアログ。
-1. イベントがダブルクリックされると、Visual Studio.NET によってイベント ハンドラーが作成されます。以下は、GridControl コントロールのイベントが作成されることを示す、デザイナーが生成したコードです。
+1. **プロパティ**ダイアログで選択したイベントをダブルクリックします。
+1. イベントがダブルクリックされると、Visual Studio.NETによってイベントハンドラが作成されます。以下は、イベントがGridControlコントロールのために作成されるデザイナー生成コードです。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-GridDesktopEvents.Designer-DesignerGeneratedCode.cs" >}}
 
 
-ここで、イベント ハンドラー内で目的の操作を実行するコードを追加します。この例では、通知用のメッセージ ボックスを表示するコード行を追加しました。
-Visual Studio が GridDesktop コントロールの CellClick イベントに追加したイベント ハンドラーを見てください。以下のコードのようになります。
+次に、イベントハンドラの内部に所望の操作を実行するためのコードを追加します。この例では、通知用のメッセージボックスを表示するためのコードを追加しました。 
+Visual StudioがGridDesktopコントロールのCellClickイベントに追加したイベントハンドラを確認してください。以下にそのようなコードが表示されます。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-GridDesktopEvents-ClickEvent.cs" >}}
 
 
-**ステップ 3: アプリケーションの実行**
+**ステップ3：アプリケーションの実行**
 
 1. アプリケーションをビルドして実行します。
-1. グリッド セルをクリックすると、「Cell がクリックされました」というメッセージが表示されたメッセージ ボックスが表示されます。
+1. グリッドのセルがクリックされるたびに、「セルがクリックされました」というメッセージボックスが表示されます。

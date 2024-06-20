@@ -1,23 +1,24 @@
-﻿---
-title: Public API Changements dans Aspose.Cells 8.4.1
+---
+title: Modifications de l API publique dans Aspose.Cells 8.4.1
 type: docs
 weight: 140
 url: /fr/net/public-api-changes-in-aspose-cells-8-4-1/
 ---
+
 {{% alert color="primary" %}} 
 
- Ce document décrit les modifications apportées au Aspose.Cells API de la version 8.4.0 à 8.4.1 qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement des méthodes publiques nouvelles et mises à jour,[classes ajoutées, etc.](/cells/fr/net/public-api-changes-in-aspose-cells-8-4-1/) et[classes supprimées, etc.](/cells/fr/net/public-api-changes-in-aspose-cells-8-4-1/), mais aussi une description de tout changement de comportement dans les coulisses du Aspose.Cells.
+Ce document décrit les changements apportés à l'API Aspose.Cells de la version 8.4.0 à la 8.4.1 qui pourraient intéresser les développeurs de modules/applications. Il inclut non seulement les nouvelles méthodes publiques et mises à jour, [les classes ajoutées etc.](/cells/fr/net/public-api-changes-in-aspose-cells-8-4-1/) et [les classes supprimées etc.](/cells/fr/net/public-api-changes-in-aspose-cells-8-4-1/), mais également une description de tout changement dans le comportement en arrière-plan d'Aspose.Cells.
 
 {{% /alert %}} 
-## **API ajoutées**
-### **Mécanisme pour modifier la connexion à la base de données**
-La classe Aspose.Cells.ExternalConnections.ExternalConnection contenait déjà la méthode et les propriétés pouvant être utilisées pour inspecter les détails de connexion à la base de données stockés dans une feuille de calcul. La plupart des propriétés associées à la classe Aspose.Cells.ExternalConnections.ExternalConnection étaient en lecture seule jusqu'à la version Aspose.Cells for .NET 8.4.1. Avec cette version, le API a également fourni le support pour manipuler les paramètres de connexion à la base de données.
+## **APIs ajoutées**
+### **Mécanisme de modification de la connexion à la base de données**
+La classe Aspose.Cells.ExternalConnections.ExternalConnection contenait déjà la méthode & les propriétés qui pouvaient être utilisées pour inspecter les détails de connexion à la base de données stockés dans une feuille de calcul. La plupart des propriétés associées à la classe Aspose.Cells.ExternalConnections.ExternalConnection étaient en lecture seule jusqu'à la version Aspose.Cells for .NET 8.4.1. Avec cette version, l'API a fourni le support pour manipuler également les paramètres de connexion à la base de données.
 
-L'extrait de code suivant montre comment modifier dynamiquement les paramètres de connexion à la base de données.
+Le code suivant montre comment modifier dynamiquement les paramètres de connexion à la base de données.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -45,38 +46,38 @@ workbook.Save(output);
 
 
 
-Voici quelques propriétés les plus importantes exposées par la classe {Aspose.Cells.ExternalConnections.ExternalConnection}}.
+Voici quelques propriétés les plus importantes exposées par la classe {Aspose.Cells.ExternalConnections.ExternalConnection}.
 
 |**Nom de la propriété**|**Description**|
-|:- |:- |
-|Actualisation de l'arrière-plan|Indique si la connexion peut être actualisée en arrière-plan (de manière asynchrone).<br> true si l'utilisation préférée de la connexion consiste à actualiser de manière asynchrone en arrière-plan ;<br>false si l'utilisation préférée de la connexion consiste à actualiser de manière synchrone au premier plan.|
-|ConnexionDescription|Spécifie la description de l'utilisateur pour cette connexion|
-|ID de connexion|Spécifie l'identifiant unique de cette connexion.|
-|Identifiants|Spécifie la méthode d'authentification à utiliser lors de l'établissement (ou du rétablissement) de la connexion.|
-|Est supprimé|Indique si la connexion de classeur associée a été supprimée. vrai si le<br>la connexion a été supprimée ; sinon, faux.|
-|Est nouveau| True si la connexion n'a pas été actualisée pour la première fois ; sinon, faux. Cette<br>L'état peut se produire lorsque l'utilisateur enregistre le fichier avant qu'une requête n'ait fini de renvoyer.|
-|Rester en vie|Vrai lorsque l'application de feuille de calcul doit faire des efforts pour maintenir la connexion<br> ouvrir. Si false, l'application doit fermer la connexion après avoir récupéré le<br>renseignements.|
-|Nom|Spécifie le nom de la connexion. Chaque connexion doit avoir un nom unique.|
-|OdcFile| Spécifie le chemin d'accès complet au fichier de connexion externe à partir duquel cette connexion a été<br> établi. Si une connexion échoue lors d'une tentative d'actualisation des données et que reconnectionMethod=1,<br> puis l'application de feuille de calcul essaiera à nouveau en utilisant les informations du fichier de connexion externe<br>au lieu de l'objet de connexion incorporé dans le classeur.|
-|OnlyUseConnectionFile| Indique si le tableur doit toujours et uniquement utiliser le<br> informations de connexion dans le fichier de connexion externe indiqué par l'attribut odcFile<br> lorsque la connexion est actualisée. Si false, alors l'application de feuille de calcul<br>doit suivre la procédure indiquée par l'attribut reconnectionMethod|
-|Paramètres|Obtient ConnectionParameterCollection pour une requête ODBC ou Web.|
-|Méthode de reconnexion|Spécifiez le type de méthode de reconnexion|
-|RafraîchirInterne|Spécifie le nombre de minutes entre les actualisations automatiques de la connexion.|
-|Rafraîchir au chargement|Vrai si cette connexion doit être actualisée lors de l'ouverture du fichier ; sinon, faux.|
-|Enregistrer des données|Vrai si les données externes récupérées via la connexion pour remplir une table doivent être enregistrées<br>avec le cahier d'exercices; sinon, faux.|
-|Enregistrer le mot de passe|True si le mot de passe doit être enregistré dans le cadre de la chaîne de connexion ; sinon, Faux.|
-|Fichier source| Utilisé lorsque la source de données externe est basée sur un fichier. Lorsqu'une connexion à de telles données<br> source échoue, le tableur tente de se connecter directement à ce fichier. Peut-être<br>exprimé en URI ou en notation de chemin de fichier spécifique au système.|
-|ID SSOI|Identifiant pour Single Sign On (SSO) utilisé pour l'authentification entre un intermédiaire<br>serveur spreadsheetML et la source de données externe.|
-|Taper|Spécifie le type de source de données.|
+| :- | :- |
+|BackgroundRefresh|Indique si la connexion peut être rafraîchie en arrière-plan (asynchroniquement). <br>true si l'utilisation préférée de la connexion est de se rafraîchir de manière asynchrone en arrière-plan; <br>false si l'utilisation préférée de la connexion est de se rafraîchir de manière synchrone en premier plan.|
+|DescriptionConnexion|Spécifie la description utilisateur pour cette connexion|
+|IdConnexion|Spécifie l'identifiant unique de cette connexion.|
+|Credentials|Spécifie la méthode d'authentification à utiliser lors de l'établissement (ou de la réétablissement) de la connexion.|
+|IsDeleted|Indique si la connexion de classeur associée a été supprimée. Vrai si la connexion a été supprimée ; sinon, faux.|
+|IsNew|Vrai si la connexion n'a pas été actualisée pour la première fois ; sinon, faux. Cet état peut survenir lorsque l'utilisateur enregistre le fichier avant qu'une requête ne finisse de renvoyer des résultats.|
+|KeepAlive|Vrai lorsque l'application tableur doit faire des efforts pour maintenir la connexion ouverte. Lorsque faux, l'application doit fermer la connexion après avoir récupéré les informations.|
+|Name|Spécifie le nom de la connexion. Chaque connexion doit avoir un nom unique.|
+|OdcFile|Spécifie le chemin complet vers le fichier de connexion externe à partir duquel cette connexion a été créée. Si une connexion échoue lors d'une tentative de rafraîchissement des données, et reconnectionMethod=1, alors l'application tableur essaiera à nouveau en utilisant les informations obtenues à partir du fichier de connexion externe au lieu de l'objet de connexion intégré au classeur.|
+|OnlyUseConnectionFile|Indique si l'application tableur doit toujours et uniquement utiliser les informations de connexion dans le fichier de connexion externe indiqué par l'attribut odcFile lorsque la connexion est rafraîchie. Si faux, alors l'application tableur doit suivre la procédure indiquée par l'attribut reconnectionMethod.|
+|Parameters|Obtient la collection de paramètres de connexion pour une requête ODBC ou web.|
+|ReConnectionMethod|Spécifie le type de méthode de reconnexion.|
+|RefreshInternal|Spécifie le nombre de minutes entre les rafraîchissements automatiques de la connexion.|
+|RefreshOnLoad|Vrai si cette connexion doit être actualisée lors de l'ouverture du fichier ; sinon, faux.|
+|SaveData|Vrai si les données externes extraites via la connexion pour peupler une table doivent être enregistrées avec le classeur ; sinon, faux.|
+|SavePassword|Vrai si le mot de passe doit être enregistré dans la chaîne de connexion ; sinon, faux.|
+|SourceFile|Utilisé lorsque la source de données externe est basée sur un fichier. Lorsqu'une connexion à une telle source de données échoue, l'application tableur tente de se connecter directement à ce fichier. Peut être exprimé en notation URI ou en notation spécifique au système de fichiers.|
+|SSOId|Identifiant pour Single Sign On (SSO) utilisé pour l'authentification entre un serveur de feuille de calcul intermédiaire et la source de données externe.|
+|Type|Spécifie le type de source de données.|
 
-### **Possibilité de formater la sous-chaîne du texte de DataLabels**
-Aspose.Cells for .NET 8.4.1 a exposé la méthode DataLabels.Characters pour récupérer une instance de la classe FontSetting qui correspond à la sous-chaîne d'un ChartPoints.DataLabels. À son tour, l'instance de la classe FontSetting peut être utilisée pour formater la sous-chaîne des DataLabels avec différents paramètres de police et couleur.
+### **Capacité à formater une sous-chaîne de texte des étiquettes de données.**
+Aspose.Cells for .NET8.4.1 a exposé la méthode DataLabels.Characters pour récupérer une instance de la classe FontSetting correspondant à la sous-chaîne d'une étiquette de données de graphique. À son tour, l'instance de la classe FontSetting peut être utilisée pour formater la sous-chaîne des étiquettes de données avec différents paramètres de police et couleur.
 
-L'extrait de code suivant montre comment utiliser la méthode DataLabels.Characters.
+Le fragment de code suivant montre comment utiliser la méthode DataLabels.Characters.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook from source Excel file
 
@@ -113,14 +114,14 @@ workbook.Save(output);
 {{< /highlight >}}
 
 
-### **Possibilité de définir les dimensions d'image souhaitées pour l'exportation de feuilles de calcul et de graphiques**
-Aspose.Cells for .NET 8.4.1 a exposé la méthode ImageOrPrintOptions.SetDesiredSize pour définir les dimensions de l'image résultante lors de l'exportation de feuilles de calcul et de graphiques vers des images. La méthode ImageOrPrintOptions.SetDesiredSize accepte deux paramètres de type entier, où le premier est la largeur souhaitée et le second la hauteur souhaitée.
+### **Capacité à définir les dimensions d'image souhaitées pour l'exportation de feuilles de calcul et de graphiques.**
+Aspose.Cells for .NET 8.4.1 a exposé la méthode ImageOrPrintOptions.SetDesiredSize pour définir les dimensions de l'image résultante lors de l'exportation de feuilles de calcul et de graphiques en images. La méthode ImageOrPrintOptions.SetDesiredSize accepte deux paramètres de type entier, où le premier est la largeur souhaitée et le second est la hauteur souhaitée.
 
-L'extrait de code suivant montre comment définir les dimensions souhaitées lors de l'exportation de la feuille de calcul vers PNG.
+L'exemple de code suivant montre comment définir les dimensions souhaitées lors de l'exportation de la feuille de calcul en PNG.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -152,23 +153,23 @@ renderer.ToImage(0, "output.png");
 
 {{% alert color="primary" %}} 
 
-La même propriété peut également être utilisée pour convertir des graphiques en images.
+Cette même propriété peut également être utilisée pour convertir des graphiques en images.
 
 {{% /alert %}} 
 
 
-### **Rendu des commentaires au PDF**
-Avec la version v8.4.1, le Aspose.Cells API a fourni la propriété PageSetup.PrintComments et l'énumération PrintCommentsType afin de faciliter le rendu des commentaires lors de la conversion des feuilles de calcul au format PDF. L'énumération PrintCommentsType a les constantes suivantes.
+### **Rendu des commentaires en PDF**
+Avec la sortie de la version 8.4.1, l'API Aspose.Cells a fourni la propriété PageSetup.PrintComments & l'énumération PrintCommentsType afin de faciliter le rendu des commentaires lors de la conversion de feuilles de calcul au format PDF. L'énumération PrintCommentsType a les constantes suivantes.
 
-- PrintCommentsType.PrintNoComments : les commentaires ne doivent pas être affichés.
-- PrintCommentsType.PrintInPlace : les commentaires doivent être rendus là où ils sont placés.
-- PrintCommentsType.PrintSheetEnd : les commentaires doivent être rendus à la fin de la feuille de calcul.
+- PrintCommentsType.PrintNoComments: Les commentaires ne doivent pas être rendus.
+- PrintCommentsType.PrintInPlace: Les commentaires doivent être rendus là où ils sont placés.
+- PrintCommentsType.PrintSheetEnd: Les commentaires doivent être rendus à la fin de la feuille de calcul.
 
-L'exemple de code suivant illustre l'utilisation de la propriété PageSetup.PrintComments pour restituer les commentaires à l'aide de toutes les valeurs d'énumération PrintCommentsType possibles.
+Le code d'exemple suivant démontre l'utilisation de la propriété PageSetup.PrintComments pour rendre les commentaires en utilisant toutes les valeurs d'énumération possibles de PrintCommentsType.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of workbook
 
@@ -206,13 +207,13 @@ workbook.Save("printsheetend.pdf");
 
 
 ### **Déplacer des feuilles de calcul dans Aspose.Cells.GridDesktop**
-Aspose.Cells.GridDesktop fournit la méthode WorksheetCollection.MoveTo, qui peut être utilisée pour déplacer une feuille de calcul vers l'index spécifié. La méthode susmentionnée prend les index (basés sur zéro) de la feuille de calcul source et de la feuille de calcul de destination comme paramètres.
+Aspose.Cells.GridDesktop fournit la méthode WorksheetCollection.MoveTo, qui peut être utilisée pour déplacer une feuille de calcul vers l'index spécifié. Cette méthode prend les index (basés sur zéro) de la feuille de calcul source et de la feuille de calcul de destination en tant que paramètres.
 
-L'exemple de code suivant illustre l'utilisation de la propriété WorksheetCollection.MoveTo.
+Le code d'exemple suivant montre l'utilisation de la propriété WorksheetCollection.MoveTo.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Move the second worksheet to 4th position.
 
@@ -221,14 +222,14 @@ GridDesktop1.Worksheets.MoveTo(1, 3);
 {{< /highlight >}}
 
 
-### **Ajout de la propriété Workbook.IsLicensed**
-Aspose.Cells for .NET 8.4.1 a exposé le Workbook.IsLicensed qui pourrait être d'une grande aide pour déterminer si la licence a été chargée avec succès ou non. Si vous accédez à cette propriété avant de définir la licence, elle renverra false et vice versa, cependant, la licence doit être valide.
+### **Propriété Workbook.IsLicensed ajoutée**
+Aspose.Cells for .NET 8.4.1 a exposé la propriété Workbook.IsLicensed qui pourrait être d'une grande aide pour déterminer si la licence a été chargée avec succès ou non. Si vous accédez à cette propriété avant de définir la licence, elle renverra false et vice versa, cependant, la licence devrait être valide.
 
-L'exemple de code suivant illustre l'utilisation de la propriété Workbook.IsLicensed.
+Le code d'exemple suivant montre l'utilisation de la propriété Workbook.IsLicensed.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object before setting a license
 
@@ -259,14 +260,14 @@ else
 {{< /highlight >}}
 
 
-### **Ajout de la propriété ImageOrPrintOptions.SVGFitToViewPort**
-Aspose.Cells for .NET 8.4.1 a exposé la propriété SVGFitToViewPort pour la classe ImageOrPrintOptions qui peut être utilisée pour activer l'attribut viewBox pour le format de fichier SVG lors de l'exportation de feuilles de calcul ou de graphiques au format SVG. La valeur par défaut de cette propriété est false. Par conséquent, le fichier XML de base pour SVG généré sans définir la propriété susmentionnée n'inclura pas l'attribut viewBox.
+### **Propriété ImageOrPrintOptions.SVGFitToViewPort ajoutée**
+Aspose.Cells for .NET 8.4.1 a exposé la propriété SVGFitToViewPort pour la classe ImageOrPrintOptions qui peut être utilisée pour activer l'attribut viewBox pour le format de fichier SVG lors de l'exportation de feuilles de calcul ou de graphiques au format SVG. La valeur par défaut de cette propriété est false, par conséquent, le XML de base pour le fichier SVG généré sans définir la propriété susmentionnée n'inclura pas l'attribut viewBox.
 
-L'exemple de code suivant illustre l'utilisation de la propriété ImageOrPrintOptions.SVGFitToViewPort.
+Le code d'exemple suivant démontre l'utilisation de la propriété ImageOrPrintOptions.SVGFitToViewPort.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -296,5 +297,5 @@ renderer.ToImage(0, "output.svg");
 
 {{< /highlight >}}
 ## **API obsolètes**
-### **Method Workbook.ValidateFormula Obsolète**
+### **Méthode Workbook.ValidateFormula obsolète**
 Utilisez la méthode Cell.Formula pour valider la formule.

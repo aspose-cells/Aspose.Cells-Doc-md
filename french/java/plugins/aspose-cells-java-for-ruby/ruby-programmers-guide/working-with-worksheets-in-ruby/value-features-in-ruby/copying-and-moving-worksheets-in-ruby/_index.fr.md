@@ -1,16 +1,17 @@
-﻿---
-title: Copier et déplacer des feuilles de calcul dans Ruby
+---
+title: Copier et déplacer les feuilles de calcul en Ruby
 type: docs
 weight: 10
 url: /fr/java/copying-and-moving-worksheets-in-ruby/
 ---
-## **Aspose.Cells - Copier et déplacer des feuilles de travail**
+
+## **Aspose.Cells - Copier et déplacer des feuilles de calcul**
 ### **Copier des feuilles de calcul dans un classeur**
- Pour copier une feuille de calcul à l'aide de**Aspose.Cells for Java en rubis** , téléphoner à**copy_worksheet** méthode de**copier des feuilles de travail** module. Ci-dessous, vous pouvez voir un exemple de code.
+Pour copier une feuille de calcul à l'aide de **Aspose.Cells for Java en Ruby**, appelez la méthode **copy_worksheet** du module **copyworksheets**. Vous pouvez voir ci-dessous un exemple de code.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_worksheet(workbook)
 
@@ -31,12 +32,12 @@ url: /fr/java/copying-and-moving-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Déplacer des feuilles de calcul dans un classeur**
- Pour déplacer une feuille de calcul à l'aide de**Aspose.Cells for Java en rubis** , téléphoner à**move_worksheet** méthode de**copier des feuilles de travail** module. Ci-dessous, vous pouvez voir un exemple de code.
+### **Déplacer des feuilles de calcul au sein d'un classeur**
+Pour déplacer une feuille de calcul en utilisant **Aspose.Cells for Java en Ruby**, appelez la méthode **move_worksheet** du module **copyworksheets**. Vous pouvez voir ci-dessous un exemple de code.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def move_worksheet(workbook)
 
@@ -57,7 +58,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Copier et déplacer des feuilles de travail (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Copier et déplacer des feuilles de calcul (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/copyworksheets.rb)

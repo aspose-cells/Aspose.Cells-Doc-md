@@ -1,73 +1,74 @@
-﻿---
-title: Yerleşik Stilleri Kullanma
+---
+title: Dahili Stiller Kullanma
 type: docs
 weight: 80
 url: /tr/net/using-built-in-styles/
-description: Aspose.Cells for .NET API ile Excel yerleşik stillerini kullanmak için C# kodu
-keywords: c# use excel built in styles, c# programmatically apply styles in workbook, programmatically apply styles in workbook, c# apply built in styles in excel, c# apply built in styles in workbook, c# code apply built in styles in workbook, c# code apply built in styles in excel workbook
+description: Aspose.Cells for .NET API ile Excel de dahili stilleri kullanma için C# kodu
+keywords: C# da excel dahili stillerini kullan, çalışma kitabında programatik olarak stiller uygula, programatik olarak stiller uygula, C# da excel de dahili stiller uygula, C# da çalışma kitabında dahili stiller uygula, C# da çalışma kitabında dahili stiller uygulama kodu, C# da excel çalışma kitabında dahili stiller uygulama kodu
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, elektronik tablo belgesindeki bir hücreyi biçimlendirmek için geniş bir yeniden kullanılabilir stil koleksiyonu sağlar. Çalışma kitabımızda yerleşik stilleri kullanabilir ve ayrıca özel stiller oluşturabiliriz.
+Aspose.Cells, bir elektronik tablo belgesinde bir hücreyi biçimlendirmek için geniş bir koleksiyon sunar. Hazır stilleri çalışma kitabımızda kullanabilir ve aynı zamanda özel stiller oluşturabiliriz.
 
 {{% /alert %}}
 
-## **Yerleşik Stiller nasıl kullanılır?**
+## **Dahili Stilleri Nasıl Kullanılır**
 
- yöntem[**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) ve numaralandırma[**Yerleşik Stil Türü**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) yerleşik stilleri kullanmayı kolaylaştırır. İşte olası tüm yerleşik stillerin bir listesi:
+[**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) yöntemi ve [**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) numaralı numaralaması yerleşik stilleri kullanmayı kolaylaştırır. İşte tüm olası yerleşik stiller listesi:
 
-- YİRMİ_YÜZDE_ACCENT_1
-- YİRMİ_YÜZDE_ACCENT_2
-- YİRMİ_YÜZDE_ACCENT_3
-- YİRMİ_YÜZDE_ACCENT_4
-- YİRMİ_YÜZDE_ACCENT_5
-- YİRMİ_YÜZDE_ACCENT_6
-- KIRK_YÜZDE_ACCENT_1
-- KIRK_YÜZDE_ACCENT_2
-- KIRK_YÜZDE_ACCENT_3
-- KIRK_YÜZDE_ACCENT_4
-- KIRK_YÜZDE_ACCENT_5
-- KIRK_YÜZDE_ACCENT_6
-- ALTMIŞ_YÜZDE_ACCENT_1
-- ALTMIŞ_YÜZDE_ACCENT_2
-- ALTMIŞ_YÜZDE_ACCENT_3
-- ALTMIŞ_YÜZDE_ACCENT_4
-- ALTMIŞ_YÜZDE_ACCENT_5
-- ALTMIŞ_YÜZDE_ACCENT_6
-- ACCENT_1
-- ACCENT_2
-- ACCENT_3
-- ACCENT_4
-- ACCENT_5
-- ACCENT_6
+- YİRMİ_YÜZDE_GENEL_1
+- YİRMİ_YÜZDE_GENEL_2
+- YİRMİ_YÜZDE_GENEL_3
+- YİRMİ_YÜZDE_GENEL_4
+- YİRMİ_YÜZDE_GENEL_5
+- YİRMİ_YÜZDE_GENEL_6
+- KIRK_YÜZDE_GENEL_1
+- KIRK_YÜZDE_GENEL_2
+- KIRK_YÜZDE_GENEL_3
+- KIRK_YÜZDE_GENEL_4
+- KIRK_YÜZDE_GENEL_5
+- KIRK_YÜZDE_GENEL_6
+- ALTMIS_YÜZDE_GENEL_1
+- ALTMIS_YÜZDE_GENEL_2
+- ALTMIS_YÜZDE_GENEL_3
+- ALTMIS_YÜZDE_GENEL_4
+- ALTMIS_YÜZDE_GENEL_5
+- ALTMIS_YÜZDE_GENEL_6
+- VURGU_1
+- VURGU_2
+- VURGU_3
+- VURGU_4
+- VURGU_5
+- VURGU_6
 - KÖTÜ
 - HESAPLAMA
-- KONTROL_HÜCRE
+- HÜCRE_KONTROLÜ
 - VİRGÜL
-- COMMA_1
-- PARA BİRİMİ
-- CURRENCY_1
+- VIRGÜL_1
+- PARA_BİRİMİ
+- PARA_BİRİMİ_1
 - AÇIKLAYICI_METİN
 - İYİ
-- HEADER_1
-- HEADER_2
-- HEADER_3
-- HEADER_4
-- KÖPRÜ
-- FOLLOWED_HYPERLINK
+- BAŞLIK_1
+- BAŞLIK_2
+- BAŞLIK_3
+- BAŞLIK_4
+- HYPERLINK
+- TAKİP_EDİLEN_HİPERBAĞLANTI
 - GİRİŞ
-- BAĞLANTILI_HÜCRE
-- DOĞAL
+- BAĞLI_HÜCRE
+- TARAFSIZ
 - NORMAL
 - NOT
-- ÇIKTI
+- ÇIKIŞ
 - YÜZDE
 - BAŞLIK
 - TOPLAM
-- UYARI_TEXT
-- ROW_LEVEL
-- COLUMN_LEVEL
+- UYARI_METNİ
+- SATIR_SEVİYESİ
+- SÜTUN_SEVİYESİ
 
-## Yerleşik stilleri kullanmak için C# kodu
+## Dahili stilleri kullanmak için C# kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}

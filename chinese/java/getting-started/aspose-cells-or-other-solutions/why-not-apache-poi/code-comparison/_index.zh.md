@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells和Apache POI - HSSF和XSSF中常见功能的代码比较
+title: Aspose.Cells和Apache POI  HSSF和XSSF中常见功能的代码比较
 type: docs
 weight: 10
 url: /zh/java/code-comparison-for-common-features-in-aspose-cells-and-apache-poi-hssf-and-xssf/

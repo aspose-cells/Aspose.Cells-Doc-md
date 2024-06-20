@@ -1,30 +1,31 @@
-﻿---
-title: Använder endast DLL
+---
+title: Använda endast DLL
 type: docs
 weight: 20
 url: /sv/reportingservices/using-dll-only/
 ---
-## Så här installerar du Aspose.Cells for Reporting Services med endast DLL:n:
 
--  Besök Aspose.Cells for Reporting Services[nedladdningssida](https://downloads.aspose.com/cells/reportingservices) och ladda ner**Aspose.Cells for Reporting Services (zip)** arkiv som innehåller den senaste versionen av komponenten och den installerade dokumentationen.
- - Det finns 7 typer av versioner Aspose.Cells.ReprotingSerivces.dll i Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. De stöder olika Microsoft rapportserverprodukter.
- - Aspose.Cells.ReportingServices.dll i SSRS2005-mappstöd Microsoft SQL Server 2005 Reporting Services.
- - Aspose.Cells.ReportingServices.dll i SSRS2008-mappstöd Microsoft SQL Server 2008 Reporting Services.
- - Aspose.Cells.ReportingServices.dll i SSRS2008R2-mappstöd Microsoft SQL Server 2008R2/2012/2014 Reporting Services.
- - Aspose.Cells.ReportingServices.dll i SSRS2016-mappstöd Microsoft SQL Server 2016/2017/2019 Reporting Services.
-   
+## Så här installerar du Aspose.Cells for Reporting Services endast med DLL:
+
+- Besök Aspose.Cells for Reporting Services [nedladdningssidan](https://downloads.aspose.com/cells/reportingservices) och ladda ner arkivet **Aspose.Cells for Reporting Services (zip)** som innehåller den senaste versionen av komponenten och den installerade dokumentationen.
+   - Det finns 7 olika versioner av Aspose.Cells.ReprotingSerivces.dll i Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. De stödjer olika Microsoft rapportserverprodukter.
+       - Aspose.Cells.ReportingServices.dll i SSRS2005-mappen stödjer Microsoft SQL Server 2005 Reporting Services.
+       - Aspose.Cells.ReportingServices.dll i SSRS2008-mappen stödjer Microsoft SQL Server 2008 Reporting Services.
+       - Aspose.Cells.ReportingServices.dll i SSRS2008R2-mappen stödjer Microsoft SQL Server 2008R2/2012/2014 Reporting Services.
+       - Aspose.Cells.ReportingServices.dll i SSRS2016-mappen stödjer Microsoft SQL Server 2016/2017/2019 Reporting Services.
+
 - Packa upp arkivet i en katalog på din hårddisk.
 
 - Installera Aspose.Cells for Reporting Services Rapportdesigner:
- - Registrera**Aspose.Cells.ReportingServices.Client.dll** med hjälp av verktyget Regasm.exe.
- - Lägg till Aspose.Cells for Reporting Services tillägg i Excel.
-   
-- Installera Aspose.Cells for Reporting Services för Microsoft SQL Server Reporting Services tjänstekomponenten:
- - Sätta**Aspose.Cells.ReportingServices.dll** till ${Microsoft installationsmappen för SQL Server Reporting Services}\ReportServer\bin-mappen.
- - Lägg till Aspose.Cells for Reporting Services renderertillägg:
- - Öppen**${Microsoft Installationsmapp för SQL Server Reporting Services}\ReportServer\rsreportserver.config**
- - Lägg till följande rader i<Render>……</Render> element:
-{{< highlight "xml" >}}
+   - Registrera **Aspose.Cells.ReportingServices.Client.dll** med hjälp av verktyget Regasm.exe.
+   - Lägg till Aspose.Cells for Reporting Services-tillägget i Excel.
+
+- Installera Aspose.Cells for Reporting Services för Microsoft SQL Server Reporting Services-tjänstekomponenten:
+   - Lägg **Aspose.Cells.ReportingServices.dll** i mappen ${Microsoft SQL Server Reporting Services installationsmapp}\ReportServer\bin. 
+   - Lägg till Aspose.Cells for Reporting Services renderer extensions:  
+      - Öppna ** ${Microsoft SQL Server Reporting Services installationsmapp}\ReportServer\rsreportserver.config**
+      - Add the following lines into the <Render>……</Render> element: 
+{{< highlight xml >}}
 
  <Render>
 
@@ -76,11 +77,11 @@ url: /sv/reportingservices/using-dll-only/
 </Render>
 
 {{< /highlight >}}
- - Lägg till Aspose.Cells for Reporting Services behörigheter för att köra:
- - Öppen**${Microsoft Installationsmapp för SQL Server Reporting Services}\ReportServer\rssrvpolicy.config** och a
- - Lägg till följande som den sista punkten i den andra till den yttre<CodeGroup> element (vilket borde vara<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
+   - Lägg till Aspose.Cells for Reporting Services behörigheter att köra:
+      - Öppna ** ${Microsoft SQL Server Reporting Services installationsmapp}\ReportServer\rssrvpolicy.config ** och
+      - Add the following as the last item in the second to the outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
 
-{{< highlight "xml" >}}
+{{< highlight xml >}}
 
  <CodeGroup>
 
@@ -106,16 +107,16 @@ url: /sv/reportingservices/using-dll-only/
 
 {{< /highlight >}}
 
-## Kontrollera att Aspose.Cells for Reporting Services har installerats:
-1. Öppna rapporthanteraren och kontrollera listan över tillgängliga exporttyper för en rapport. (Starta Report Manager genom att öppna en webbläsare och skriv URL:en för Report Manager i adressfältet. (Som standard är URL:en http://<ComputerName>/Rapporter).
- 1. Välj en av rapporterna på servern och öppna**Välj Format** lista.
- Du bör se listan över exportformat som tillhandahålls av Aspose.Cells for Reporting Services.
- 1. Välj**XLS – Excel-arbetsbok via Aspose.Cells**.
- 1. Klicka**Exportera**.
- Rapporten genereras i valt format.
- 1. Skicka den till klienten och öppna den i en lämplig applikation. I det här fallet öppnas rapporten i Microsoft Excel.
+## Kontrollera att Aspose.Cells for Reporting Services har installerats framgångsrikt:
+   1. Open the Report Manager and check the list of available export types for a report. (Launch Report Manager by opening a browser and type the Report Manager URL into the address bar. (By default, the URL is http://<ComputerName>/Reports).
+   1. Välj en av rapporterna på servern och öppna listan **Välj format**.
+      Du bör se listan över exportformat som tillhandahålls av Aspose.Cells for Reporting Services.
+   1. Välj **XLS - Excel Workbook via Aspose.Cells**.
+   1. Klicka på **Exportera**.
+      Rapporten genereras i det valda formatet.
+   1. Skicka den till klienten och öppna den i en lämplig applikation. I det här fallet öppnas rapporten i Microsoft Excel.
 
-Grattis, du har framgångsrikt installerat Aspose.Cells for Reporting Services och genererat en rapport som en Microsoft Excel-fil!
+Grattis, du har installerat Aspose.Cells for Reporting Services framgångsrikt och genererat en rapport som en Microsoft Excel-fil!
 
 
- Det finns 7 typer av versioner Aspose.Cells.ReprotingSerivces.dll i Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. De stöder olika Microsoft rapportserverprodukter.
+Det finns 7 olika versioner Aspose.Cells.ReprotingSerivces.dll i Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. De stöder olika Microsoft-rapportserverprodukter. 

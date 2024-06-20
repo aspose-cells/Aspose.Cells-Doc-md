@@ -1,40 +1,43 @@
-﻿---
-title: Aktualisieren Sie Aspose.Grid.Web auf Aspose.Cells.GridWeb
+---
+title: Aspose.Grid.Web zu Aspose.Cells.GridWeb aktualisieren
 type: docs
 weight: 30
-url: /de/net/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
+url: /de/net/aspose-cells-gridweb/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
+keywords: GridWeb 
+description: Dieser Artikel beschreibt, wie man in GridWeb aktualisiert.
 ---
+
 {{% alert color="primary" %}}
 
-Um das Upgrade zu vereinfachen, pflegen wir ein Dokument, das wichtige Informationen für bestehende Benutzer beschreibt, insbesondere für diejenigen, die das ältere Aspose.Grid.Web verwendet haben und auf das zusammengeführte Aspose.Cells.GridWeb aktualisieren müssen.
+Um das Upgrade zu erleichtern, führen wir eine Dokumentation, die für bestehende Benutzer, insbesondere solche, die das ältere Aspose.Grid.Web verwendet haben und auf das Aspose.Cells.GridWeb upgraden müssen, kritische Informationen enthält.
 
- Diese sind als kurze Notizen gedacht, und Sie sollten in der Lage sein, weitere Informationen zu finden, indem Sie sich die Abschnitte des ansehen[Entwicklerhandbuch](/cells/de/net/developer-guide/).
+Diese sollen kurze Hinweise sein, und Sie sollten mehr Informationen finden, indem Sie die Abschnitte des [Entwicklerhandbuchs](/cells/de/net/aspose-cells-gridweb/developer-guide/) betrachten.
 
 {{% /alert %}}
 
 ## **Upgrade auf Aspose.Cells.GridWeb**
 
- Benutzer von Aspose.Grid.Web können bei der Verwendung des neuen Aspose.Cells.GridWeb auf Probleme stoßen, wenn sie darauf aktualisieren. Es ist zu beachten, dass Aspose.Grid.Web umbenannt wurde und ein Teil von Aspose.Cells geworden ist, sodass wir ältere Versionen des Steuerelements nicht fortsetzen oder Änderungen daran vornehmen werden.
+Aspose.Grid.Web-Benutzer könnten beim Upgrade auf das neue Aspose.Cells.GridWeb auf Probleme stoßen. Es ist zu beachten, dass Aspose.Grid.Web umbenannt und ein Teil von Aspose.Cells geworden ist, daher werden wir ältere Versionen des Steuerelements nicht weiterführen oder ändern. 
 
-Es ist nicht schwer, auf die neueste Aspose.Cells.GridWeb-Komponente zu aktualisieren.
+Es ist nicht schwer, auf das neueste Aspose.Cells.GridWeb-Komponente zu aktualisieren.
 
 {{% alert color="primary" %}}
 
-In der API gibt es ein paar Änderungen, da die Klassen mit den Membern, Structs, Enumerations etc. gleich bleiben. Die meisten Änderungen wurden an den Namespaces und anderen Tags oder Attributen des Steuerelements vorgenommen.
+Es gibt einige Änderungen in der API, da die Klassen mit den Membern, Strukturen, Aufzählungen usw. gleich bleiben. Die meisten Änderungen wurden an den Namensräumen des Steuerlements und anderen Tags oder Attributen vorgenommen.
 
 {{% /alert %}}
 
-Das Folgende ist die Namensraumliste und andere Attribute/Tags, die jetzt geändert werden:
+Im Folgenden finden Sie die Liste der Namensräume und anderer Attribute/Tags, die jetzt geändert sind:
 
-1. Der Namespace Aspose.Grid.Web wurde in Aspose.Cells.GridWeb umbenannt.
-1. Der Namespace Aspose.Grid.Web.Data wurde in Aspose.Cells.GridWeb.Data umbenannt.
-1. Der Namespace Aspose.Grid.Web.Design wurde in Aspose.Cells.GridWeb.Design umbenannt.
-1. Der Namespace Aspose.Grid.Formula wurde in Aspose.Cells.GridFormula umbenannt, und mit den letzten Versionen der Komponente wurde der Namespace vollständig aus dem öffentlichen API entfernt.
-1. Das Tag agw:GridWeb wurde in acw:GridWeb im Aspx-Format geändert.
-1. Der ältere Clientpfad Aspose.Grid.Web, agw_client, hat sich zu acw geändert_Client für Aspose.Cells.GridWeb .
-1.  Die Client-Pfadeinstellung in der Datei web.config, zum Beispiel:
+1. Der Aspose.Grid.Web-Namespace wurde in Aspose.Cells.GridWeb umbenannt.
+1. Der Aspose.Grid.Web.Data-Namespace wurde in Aspose.Cells.GridWeb.Data umbenannt.
+1. Der Aspose.Grid.Web.Design-Namespace wurde in Aspose.Cells.GridWeb.Design umbenannt.
+1. Der Aspose.Grid.Formula-Namespace wurde in Aspose.Cells.GridFormula umbenannt und bei den neueren Versionen des Steuerlements wurde dieser Namespace vollständig aus der öffentlichen API entfernt.
+1. Das Tag agw:GridWeb wurde in acw:GridWeb im aspx-Formular geändert.
+1. Der ältere Aspose.Grid.Web-Clientpfad, agw_client, hat sich für Aspose.Cells.GridWeb zu acw_client geändert.
+1. Die Clientpfad-Einstellung in der web.config-Datei, zum Beispiel: 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <appSettings> 
 
@@ -48,9 +51,9 @@ Das Folgende ist die Namensraumliste und andere Attribute/Tags, die jetzt geänd
 
 {{< /highlight >}}
 
- hat sich geändert zu
+hat sich geändert zu 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <appSettings>
 

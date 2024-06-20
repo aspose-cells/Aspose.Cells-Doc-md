@@ -1,16 +1,17 @@
-﻿---
+---
 title: Копирование и перемещение листов в Ruby
 type: docs
 weight: 10
 url: /ru/java/copying-and-moving-worksheets-in-ruby/
 ---
-## **Aspose.Cells - Копирование и перемещение рабочих листов**
-### **Копировать рабочие листы в рабочую книгу**
- Чтобы скопировать лист с помощью**Aspose.Cells for Java в рубине** , вызов**копировать_рабочий лист** метод**копировальные листы** модуль. Ниже вы можете увидеть пример кода.
 
-**Рубиновый код**
+## **Aspose.Cells - Копирование и перемещение листов**
+### **Копировать листы в рамках рабочей книги**
+Чтобы скопировать лист с помощью **Aspose.Cells for Java в Ruby**, вызовите метод **copy_worksheet** модуля **copyworksheets**. Ниже приведен пример кода.
 
-{{< highlight "ruby" >}}
+**Код на Ruby**
+
+{{< highlight ruby >}}
 
  def copy_worksheet(workbook)
 
@@ -31,12 +32,12 @@ url: /ru/java/copying-and-moving-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Перемещение рабочих листов в рабочей книге**
- Чтобы переместить лист с помощью**Aspose.Cells for Java в рубине** , вызов**move_worksheet** метод**копировальные листы** модуль. Ниже вы можете увидеть пример кода.
+### **Перемещение листов в рамках книги**
+Чтобы переместить лист с помощью **Aspose.Cells for Java в Ruby**, вызовите метод **move_worksheet** модуля **copyworksheets**. Ниже приведен пример кода.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def move_worksheet(workbook)
 
@@ -57,7 +58,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Копирование и перемещение рабочих листов (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Копирование и перемещение листов (Aspose.Cells)** с любого из указанных ниже социальных сайтов для разработки:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/copyworksheets.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/copyworksheets.rb)

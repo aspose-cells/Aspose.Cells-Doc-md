@@ -1,16 +1,17 @@
-﻿---
+---
 title: ضبط خيارات الصفحة في Python
 type: docs
 weight: 10
 url: /ar/java/setting-page-options-in-python/
 ---
+
 ## **Aspose.Cells - ضبط خيارات الصفحة**
 ### **اتجاه الصفحة**
- لتطبيق إعدادات اتجاه الصفحة باستخدام**Aspose.Cells Java لروبي** ، مكالمة**اتجاه الصفحة** طريقة**اعداد الصفحة** وحدة.
+لتطبيق إعدادات اتجاه الصفحة باستخدام **Aspose.Cells Java for Ruby**، ادعو إلى الاستدعاء **page_orientation** لوحدة **pagesetup**.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def page_orientation(self):
 
@@ -42,12 +43,12 @@ print "Set page orientation, please check the output file."
 
 
 {{< /highlight >}}
-### **عامل التحجيم**
- لتطبيق التحجيم باستخدام**Aspose.Cells Java for Python** ، مكالمة**التحجيم** طريقة**اعداد الصفحة** وحدة.
+### **عامل التحليل**
+لتطبيق تحجيم باستخدام **Aspose.Cells Java for Python**, اطلب الطريقة **scaling** من وحدة **pagesetup**.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def scaling(self):        
 
@@ -76,7 +77,7 @@ workbook.save(self.dataDir + "Scaling.xls")
 print "Set scaling, please check the output file."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**ضبط خيارات الصفحة (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **خيارات صفحة الإعداد (Aspose.Cells)** من أي من مواقع الترميز الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

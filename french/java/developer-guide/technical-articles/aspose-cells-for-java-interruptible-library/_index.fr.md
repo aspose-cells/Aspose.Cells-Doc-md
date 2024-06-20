@@ -1,31 +1,34 @@
-﻿---
-title: Aspose.Cells for Java - Bibliothèque interruptible
+---
+title: Aspose.Cells for Java  Bibliothèque Interruption
 type: docs
 weight: 1090
 url: /fr/java/aspose-cells-for-java-interruptible-library/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java prend en charge l'interruption du processus de chargement/enregistrement tout en travaillant avec de gros fichiers Excel. Parfois, vous souhaitez rendre les bibliothèques/composants interruptibles. Cela améliorerait sûrement l'efficacité et la fiabilité de vos services/processus. Vous pouvez abandonner de manière fiable une conversion en cours de route lorsque vous découvrez que cela prend trop de temps. Cela permettrait d'économiser l'utilisation du processeur, de la RAM, etc. Cela signifie que vous n'avez pas à prendre des mesures drastiques comme tuer tout le serveur juste pour annuler la conversion.
+Aspose.Cells for Java prend en charge l'interruption du processus de chargement/sauvegarde lors de la manipulation de gros fichiers Excel. Parfois, vous voulez rendre les bibliothèques/composants interruptibles. Cela améliorerait sûrement l'efficacité et la fiabilité de vos services/processus. Vous pouvez abandonner de manière fiable une conversion en cours lorsque vous découvrez qu'elle prend trop de temps. Cela économiserait l'utilisation du processeur, de la RAM, etc. Cela signifie que vous n'avez pas à prendre des mesures drastiques comme tuer tout le serveur juste pour annuler la conversion. 
 {{% /alert %}}
 
-## **Exemple:**
+## **Exemple :**
 
- Le programme suivant montre comment interrompre le processus de sauvegarde en utilisant**InterruptMonitor.interrupt()** méthode.
+Le programme suivant montre comment interrompre le processus de sauvegarde en utilisant la méthode **InterruptMonitor.interrupt()**.
 
-[**Java**]{{< highlight "java" >}}
+[**Java**]
 
- //Créer un nouveau classeur
+{{< highlight java >}}
 
-classeur final wb = nouveau classeur();
+ //Create a new Workbook  
 
-// Récupérer les feuilles de travail
+final Workbook wb = new Workbook();
+
+// Get the Worksheets
 
 WorksheetCollection wss = wb.getWorksheets();
 
-// Exécuter une boucle pour remplir les cellules de la feuille avec des données
+// Run a loop to fill sheet cells with data
 
- pour (int je = 0; je< 50; i++) {
+for (int i = 0; i < 50; i++) {
 
     Worksheet sheet = wss.get(wss.add());
 

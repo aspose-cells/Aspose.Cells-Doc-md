@@ -1,12 +1,13 @@
-﻿---
-title: Подсчитать количество ячеек на рабочем листе
+---
+title: Посчитать количество ячеек в листе
 type: docs
 weight: 120
 url: /ru/java/count-number-of-cells-in-the-worksheet/
 ---
-## **Подсчитать количество ячеек на рабочем листе**
 
-Вы можете подсчитать количество ячеек на листе, вызвав метод[**Cells.getCount**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count)() или же[**Cells.getCountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge)() методы получения свойств, как показано в приведенном ниже примере кода.
+## **Посчитать количество ячеек в листе**
+
+Вы можете подсчитать количество ячеек в листе, вызвав свойства получатели [**Cells.getCount**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count)() или [**Cells.getCountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge)() как показано в приведенном ниже примере кода.
 
 ## Образец кода
 

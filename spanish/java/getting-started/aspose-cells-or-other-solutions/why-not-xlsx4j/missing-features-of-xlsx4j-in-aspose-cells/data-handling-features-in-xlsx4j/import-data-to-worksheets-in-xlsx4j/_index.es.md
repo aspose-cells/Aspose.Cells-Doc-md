@@ -1,15 +1,16 @@
-﻿---
-title: Importar datos a hojas de trabajo en xlsx4j
+---
+title: Importar Datos a Hojas de Cálculo en xlsx4j
 type: docs
 weight: 50
 url: /es/java/import-data-to-worksheets-in-xlsx4j/
 ---
-## **Aspose.Cells - Importar datos a hojas de trabajo**
-Importar datos de matrices
+
+## **Aspose.Cells - Importar Datos a Hojas de Cálculo**
+Importar Datos desde Arreglos
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -25,7 +26,7 @@ Worksheet worksheet= workbook.getWorksheets().get(sheetIndex);
 
 //Creating an array containing names as string values
 
-String[]names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
+String[] names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -35,11 +36,11 @@ cells.importArray(names,0,0,false);
 
 {{< /highlight >}}
 
-Importar datos de ArrayList
+Importar Datos desde ArrayList
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  ArrayList<String> list = new ArrayList<String>();
 
@@ -62,7 +63,7 @@ cells.importArrayList(list,2,0,true);
 workbook.save(dataDir + "AsposeDataImport.xls");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/importdatatoworksheets/AsposeImportDataToWorksheets.java)

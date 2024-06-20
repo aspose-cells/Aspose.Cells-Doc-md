@@ -1,12 +1,13 @@
-﻿---
-title: Eliminar control ActiveX
+---
+title: Eliminar Control ActiveX
 type: docs
 weight: 160
 url: /es/java/remove-activex-control/
 ---
+
 ## **Eliminar control ActiveX**
 
-Aspose.Cells ofrece la posibilidad de eliminar ActiveX Control de los libros de trabajo. Para esto, el API proporciona el[**Forma.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl()) método. El siguiente fragmento de código demuestra el uso de la[**Forma.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl()) método para eliminar ActiveX Control.
+Aspose.Cells proporciona la capacidad de eliminar controles ActiveX de libros de trabajo. Para esto, la API proporciona el método [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl--). El siguiente fragmento de código demuestra el uso del método [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl--) para eliminar controles ActiveX.
 
 ## **Código de muestra**
 

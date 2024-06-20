@@ -1,48 +1,49 @@
-﻿---
-title: Belirli bir stile sahip hücreleri bulun
+---
+title: Belirli bir stil ile hücreleri bul
 type: docs
 weight: 80
 url: /tr/java/find-cells-with-specific-style/
-description: Bu makale, MS Excel ve Aspose.Cells for Java API kullanarak belirli stile sahip hücrelerin nasıl bulunacağını gösterir.
-keywords: find cells with specific style, find cells with specific style excel, find cells with specific style excel java, search cells with specific style, search cells with specific style excel, search cells with specific style excel java, how to find cells with specific style, how to find cells with specific style excel, how to find cells with specific style excel java
+description: Bu makale, MS Excel ve Aspose.Cells for Java API kullanarak belirli bir stile sahip hücreleri bulmanın nasıl yapıldığını göstermektedir.
+keywords: belirli bir stile sahip hücreleri bul, belirli bir stile sahip hücreleri bul excel, belirli bir stile sahip hücreleri bul excel java, belirli bir stile sahip hücreleri ara, belirli bir stile sahip hücreleri ara excel, belirli bir stile sahip hücreleri ara excel java, belirli bir stile sahip hücreleri bulmanın yolları, belirli bir stile sahip hücreleri bulmanın yolları excel, belirli bir stile sahip hücreleri bulmanın yolları excel java
 ---
+
 {{% alert color="primary" %}}
 
-Bazen, belirli bir stile sahip hücreleri bulmanız gerekir. Bu makale, Microsoft Excel'in yanı sıra Aspose.Cells for Java API kullanarak bunu nasıl başaracağınızı gösterir.
+Bazen, belirli bir stile sahip hücreleri bulmanız gerekebilir. Bu makale, bu işlemi Microsoft Excel ve Aspose.Cells for Java API kullanarak nasıl gerçekleştireceğinizi göstermektedir.
 
 {{% /alert %}}
 
-## Microsoft Excel'i kullanma
+## Microsoft Excel Kullanarak
 
-Bunlar, MS Excel'de belirli stillere sahip hücreleri aramak için gereken adımlardır.
+MS Excel'de belirli stillerdeki hücreleri aramak için gereken adımlar şunlardır.
 
-1.  Seçme**Bul ve Seç** içinde**Ana Sayfa Sekmesi**.
-1.  Seçme**Bulmak**.
-1.  Tıklamak**Seçenekler**gelişmiş seçenekler görünmüyorsa.
-1.  Seçme**Cell'den Biçimi Seçin...** dan**Biçim** yıkılmak.
-1. Aramak istediğiniz stile sahip hücreyi seçin.
-1.  Tıklamak**Hepsini bul** Seçtiğiniz hücreye benzer stile sahip tüm hücreleri bulmak için.
+1. **Ana Sekme**'de **Bul & Seç** seçin.
+1. **Bul**'u seçin.
+1. Gelişmiş seçenekler görünmüyorsa **Seçenekler**'ü tıklayın.
+1. **Biçim** açılır menüsünden **Hücreden Biçim Seç...**'i seçin.
+1. Aramak istediğiniz stile benzer bir hücreyi seçin.
+1. **Tümünü Bul** seçeneğini belirli stile sahip tüm hücreleri bulmak için tıklayın.
 
-## Aspose.Cells for Java'i kullanma
+## Aspose.Cells for Java Kullanarak
 
- Aspose.Cells for Java, çalışma sayfasında belirli bir stille hücreleri bulma özelliğini sağlar. Bunun için API şunları sağlar:[**FindOptions.setStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#Style) Emlak.
+Aspose.Cells for Java, çalışma sayfasındaki belirli bir stile sahip hücreleri bulma özelliği sağlar. Bu amaçla, API [**FindOptions.setStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#Style) özelliğini sağlar.
 
-### Basit kod
+### Örnek Kod
 
- Aşağıdaki kod parçacığı, cell ile aynı stile sahip tüm hücreleri bulur.**A1** ve bu hücrelerin içindeki metni değiştirir. Örnek kodun çıktısını analiz etmek için lütfen kaynak ve çıktı dosyalarının ekran görüntüsüne bakın.
+Aşağıdaki kod parçası, **A1** hücresiyle aynı stildeki tüm hücreleri bulur ve bu hücrelerin içindeki metni değiştirir. Lütfen kaynak ve çıktı dosyalarının ekran görüntüsünü inceleyerek örnek kodun çıktısını analiz edin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindCellsWithSpecificStyle-FindCellsWithSpecificStyle.java" >}}
 
-Kodun yürütülmesinden sonra, A1 hücresi ile aynı stile sahip tüm hücrelerde "Bulundu" metni olacaktır.
+Kodun çalıştırılmasından sonra, A1 hücresinin stiliyle aynı stile sahip tüm hücrelerde "Bulundu" metni olacaktır.
 
-### Ekran görüntüleri
+### Ekran Görüntüleri
 
-![yapılacaklar:resim_alternatif_metin](find-cells-with-specific-style_1.png)
+![todo:image_alt_text](find-cells-with-specific-style_1.png)
 
-**Figür:** Stilleri olan hücrelere sahip kaynak dosya
+**Şekil:** Stilleri olan hücrelere sahip kaynak dosya
 
- İşte aşağıdaki kod tarafından oluşturulan çıktı dosyasıdır. Hücre ile aynı stile sahip tüm hücreleri görebilirsiniz.**A1** "Bulundu" metni var
+Aşağıdaki kod tarafından oluşturulan çıktı dosyası. **A1** hücresiyle aynı stile sahip tüm hücreleri "Bulundu" metnini görebilirsiniz
 
-![yapılacaklar:resim_alternatif_metin](find-cells-with-specific-style_2.png)
+![todo:image_alt_text](find-cells-with-specific-style_2.png)
 
-**Figür:**Şuna göre arama yaptıktan sonra bulunan hücrelerle çıktı dosyası**A1** stil
+**Şekil:** **A1** stiline göre arama sonrası bulunan hücrelerin çıktı dosyası

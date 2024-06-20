@@ -1,31 +1,32 @@
-﻿---
-title: Tüm Çalışma Sayfası Sütunlarını Tek PDF Sayfaya Sığdır
+---
+title: Tüm Çalışsayfa Sütunlarını Tek PDF Sayfasına Sığdır
 type: docs
 weight: 70
 url: /tr/java/fit-all-worksheet-columns-on-single-pdf-page/
 ---
-{{% alert color="primary" %}}
-
- Bazen bir çalışma sayfasının tüm sütunlarını tek bir sayfaya sığdıran bir PDF dosyası oluşturmak istersiniz. bu[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet)özelliği bu özelliği kullanımı çok kolay bir şekilde sağlar. Çıktı PDF sayfasının yüksekliği ve genişliği gibi karmaşık hesaplamalar dahili olarak yapılır ve çalışma sayfasındaki verilere dayanır.
-
-{{% /alert %}}
-
-## **Çalışma Sayfası Sütunlarını Tek PDF Sayfaya Sığdır**
-
-[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet)bir çalışma sayfasının tüm sütunlarının tek bir PDF sayfasına dönüştürülmesini sağlar, ancak çalışma sayfasındaki verilere bağlı olarak satırlar birkaç sayfaya genişleyebilir.
 
 {{% alert color="primary" %}}
 
-Belirli bir çalışma sayfasında birçok sütun olduğunda, oluşturulan PDF dosyası içeriği çok küçük bir boyutta gösterebilir. Acrobat Reader gibi bir görüntüleme uygulamasında büyütüldüğünde yine de okunabilir.
+Bazı durumlarda, bir çalışsayfanın tüm sütunlarını tek bir sayfaya sığan bir PDF dosyası üretmek isteyebilirsiniz. [**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet) özelliği, bu özelliği çok kolay kullanıma sunar. Çıktı PDF sayfasının yüksekliği ve genişliği gibi karmaşık hesaplamalar, çalışma sayfasındaki verilere dayalı olarak içsel şekilde işlenir.
 
 {{% /alert %}}
 
- Aşağıdaki örnek kod, nasıl kullanılacağını gösterir.[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet)100 sütunluk büyük bir çalışma sayfası oluşturma özelliği.
+## **Tüm Çalışsayfa Sütunlarını Tek PDF Sayfasına Sığdır**
+
+[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet), çalışsayfanın tüm sütunlarının tek bir PDF sayfasına render edilmesini sağlar, ancak satırlar çalışma sayfasındaki veriye bağlı olarak Birden fazla sayfaya genişleyebilir.
+
+{{% alert color="primary" %}}
+
+Verilen bir çalışsayfada çok sayıda sütun varsa, oluşturulan PDF dosyası içeriği çok küçük bir boyutta gösterebilir. Acrobat Reader gibi bir görüntüleme uygulamasında büyütülse bile hala okunabilir.
+
+{{% /alert %}}
+
+Aşağıdaki örnek kod, 100 sütunlu büyük bir çalışsayfayı [**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet) özelliğini kullanarak render etme yöntemini gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FitAllWorksheetColumns-FitAllWorksheetColumns.java" >}}
 
 {{% alert color="primary" %}}
 
-E-tablonuz formüller içeriyorsa, aramak en iyisidir[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) yöntemi, elektronik tabloyu PDF biçimine dönüştürmeden hemen önce. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve PDF'de doğru değerlerin oluşturulmasını sağlar.
+Elektronik tablonuzda formüller bulunuyorsa, en iyi şekilde [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) yöntemini elektronik tabloyu PDF biçimine dönüştürmeden hemen önce çağırmanız önerilir. Böylece formül bağımlı değerler yeniden hesaplanır ve doğru değerler PDF'de render edilir.
 
 {{% /alert %}}

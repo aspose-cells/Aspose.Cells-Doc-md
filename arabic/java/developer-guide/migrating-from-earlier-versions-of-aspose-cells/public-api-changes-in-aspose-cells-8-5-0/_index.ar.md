@@ -1,27 +1,28 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.5.0
+---
+title: التغييرات العامة في الواجهة البرمجية لـ Aspose.Cells 8.5.0
 type: docs
 weight: 170
 url: /ar/java/public-api-changes-in-aspose-cells-8-5-0/
 ---
+
 {{% alert color="primary" %}} 
 
- يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.4.2 إلى 8.5.0 والتي قد تهم مطوري الوحدة النمطية / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/java/public-api-changes-in-aspose-cells-8-5-0/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
+يصف هذا الوثيقة التغييرات في واجهة برمجة التطبيقات لـ Aspose.Cells من الإصدار 8.4.2 إلى 8.5.0 التي قد تكون مهمة لمطوري الوحدة / التطبيق. إنها تتضمن ليس فقط الطرق العامة الجديدة والمحدثة والفصول المضافة الخ وما إلى ذلك، ولكن أيضا وصف لأي تغييرات في السلوك وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **تم تغيير معلمات وظيفة ICustom.CalculateCustomFunction**
-إذا كانت معلمة واحدة للوظيفة المخصصة هي مرجع الخلية ، في الإصدار القديم Aspose.Cells APIs المستخدمة لتحويل مرجع الخلية إلى قيمة خلية واحدة أو صفيف كائن لجميع قيم الخلية في المنطقة المشار إليها. ومع ذلك ، بالنسبة للعديد من الوظائف والمستخدمين ، لا يلزم وجود مصفوفة قيم الخلية لجميع الخلايا في المنطقة المشار إليها ، فهم يحتاجون فقط إلى خلية واحدة مطابقة لموضع الصيغة ، أو يحتاجون فقط إلى المرجع نفسه بدلاً من قيمة الخلية أو صفيف القيمة . في بعض الحالات ، يؤدي جلب جميع قيم الخلايا إلى زيادة خطر حدوث خطأ مرجعي دائري.
+## **واجهات برمجة التطبيقات الجديدة**
+### **تغيرت معلمات ICustomFunction.CalculateCustomFunction**
+إذا كان أحد المعاملات للدالة المخصصة مرجعًا للخلية ، فقد كانت تستخدم واجهات برمجة التطبيقات القديمة Aspose.Cells APIs لتحويل مرجع الخلية إلى قيمة خلية واحدة أو مصفوفة كائنية من جميع قيم الخلية في المنطقة المشار إليها. ومع ذلك ، بالنسبة للعديد من الوظائف والمستخدمين ، ليس من الضروري مصفوفة قيم الخلية لجميع الخلايا في المنطقة المشار إليها ، فهم يحتاجون فقط إلى خلية واحدة مقابل موضع الصيغة ، أو فقط يحتاجون إلىالمرجع نفسه بدلاً من قيمة الخلية أو مصفوفة القيم. وبالنسبة لبعض الحالات ، قد زاد استخدام جميع قيم الخلية من مخاطر حدوث خطأ الإشارة المعكوسة.
 
-لدعم مثل هذا النوع من المتطلبات ، قام Aspose.Cells for Java 8.5.0 بتغيير قيمة المعلمة إلى "paramsList" للمنطقة المشار إليها. منذ الإصدار 8.5.0 ، يضع API الكائن RefifiedArea في "paramsList" عندما تكون المعلمة المقابلة مرجعًا أو تكون النتيجة المحسوبة مرجعًا. إذا كنت بحاجة إلى المرجع نفسه ، فيمكنك استخدام RefifiedArea مباشرة. إذا كنت بحاجة إلى الحصول على قيمة خلية مفردة واحدة من المرجع المقابل لموضع الصيغة ، يمكنك استخدام طريقة RefifiedArea.getValue (rowOffset ، int colOffset). إذا كنت بحاجة إلى مصفوفة قيم الخلية للمنطقة بأكملها ، فيمكنك استخدام طريقة RefifiedArea.getValues.
+لدعم هذا النوع من المتطلبات ، قامت إصدارة Aspose.Cells for Java 8.5.0 بتغيير قيمة المعلمة إلى "paramsList" للمنطقة المحولة. منذ الإصدار 8.5.0 ، يقوم واجهة برمجة التطبيقات بوضع كائن ReferredArea في "paramsList" عندما تكون المعلمة المقابلة هي مرجع أو ناتج الحساب هو مرجع. إذا كنت بحاجة إلى المرجع نفسه ، يمكنك استخدام ReferredArea مباشرة. إذا كنت بحاجة إلى الحصول على قيمة خلية واحدة من المرجع المقابل لموضع الصيغة ، يمكنك استخدام الطريقة ReferredArea.getValue(rowOffset, int colOffset). إذا كنت بحاجة إلى مصفوفة قيم الخلايا للمنطقة بأكملها ، فيمكنك استخدام الطريقة ReferredArea.getValues.
 
-الآن نظرًا لأن 8.5.0 Aspose.Cells for Java يعطي 8.5.0 RefifiedArea في "paramsList" ، فلن تكون هناك حاجة إلى مجموعة RefifiedAreaCollection في "ContextObjects" بعد الآن (في الإصدارات القديمة لم يكن بإمكانها إعطاء مخطط واحد لواحد لمعلمات الوظيفة المخصصة دائمًا) ، لذلك قام هذا الإصدار أيضًا بإزالته من "ContextObjects" الآن.
+الآن ، حيث يقدم الإصدار Aspose.Cells for Java 8.5.0 ReferredArea في "paramsList" ، فإن ReferredAreaCollection في "contextObjects" لن يعد مطلوبًا بعد الآن (في الإصدارات القديمة قد لا تكون دائما لها إعداد واحد إلى واحد لمعلمات الدالة المخصصة) ، لذا قام هذا الإصدار أيضًا بإزالتها من "contextObjects" الآن.
 
-يتطلب هذا التغيير إجراء تغييرات على رمز تنفيذ وظيفة ICustomFunction قليلاً عندما تحتاج إلى قيمة / قيم المعلمة المرجعية.
+يتطلب هذا التغيير تغييرات في كود التنفيذ لـ ICustomFunction قليلاً عندما يكون هناك حاجة لقيمة/قيم للمعلمة المرجعية.
 
 **التنفيذ القديم**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
@@ -47,9 +48,9 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-5-0/
 
 {{< /highlight >}}
 
-**تنفيذ جديد**
+**التنفيذ الجديد**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
@@ -98,31 +99,31 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-5-0/
 }
 
 {{< /highlight >}}
-### **تمت إضافة خيارات احتساب الفصل**
- كشف Aspose.Cells for Java 8.5.0 عن فئة CalculationOptions لإضافة المزيد من المرونة والقابلية للتوسعة لمحرك حساب الصيغة. الفئة المضافة حديثًا لها الخصائص التالية.
+### **وأضيفت صفة الخيارات الحسابية**
+اطلقت Aspose.Cells for Java 8.5.0 صفة خيارات الحساب لإضافة المزيد من المرونة والقابلية لمحرك الحساب الصيغي. وتحتوي الصفة الجديدة التي تمت إضافتها على الخصائص التالية. 
 
-1. CalculationOptions.CalcStackSize: تحديد حجم المكدس لحساب الخلايا بشكل متكرر. -1 يحدد أن الحساب سيستخدم WorkbookSettings.CalcStackSize من المصنف المقابل.
-1. CalculationOptions.CustomFunction: توسيع محرك حساب الصيغة باستخدام صيغة مخصصة.
-1. CalculationOptions.IgnoreError: تشير قيمة النوع المنطقي إلى ما إذا كان سيتم إخفاء الأخطاء أثناء حساب الصيغ ، حيث قد تكون الأخطاء ناتجة عن وظيفة غير مدعومة أو ارتباط خارجي أو أكثر.
-1. CalculationOptions.PrecisionStrategy: قيمة نوع CalculationPrecisionStrategy التي تحدد استراتيجية معالجة دقة الحساب.
-### **تمت إضافة حساب العد الدقة الإستراتيجية**
-كشف Aspose.Cells for Java 8.5.0 إستراتيجية حساب التعداد لإضافة المزيد من المرونة لمحرك حساب الصيغة للحصول على النتائج المرجوة. هذا التعداد استراتيجيات معالجة الحساب بدقة. نظرًا لمسألة الدقة في IEEE 754 Floating-Point Arithmetic ، فقد لا يتم حساب بعض الصيغ التي تبدو بسيطة لإعطاء النتائج المتوقعة ، وبالتالي فإن أحدث إصدار API قد كشف الحقول التالية للحصول على النتائج المرجوة وفقًا للتحديد.
+1. CalculationOptions.CalcStackSize: تحدد حجم الشريحة لحساب الخلايا بشكل متكرر. تحدد القيمة -1 أن الحساب سيستخدم WorkbookSettings.CalcStackSize من الدفتر المحاسبي المقابل.
+1. CalculationOptions.CustomFunction: يوسع محرك حساب الصيغ بصيغة مخصصة.
+1. CalculationOptions.IgnoreError: تشير قيمة النوع البوليانية إلى ما إذا كان يتعين إخفاء الأخطاء أثناء حساب الصيغ ، حيث يمكن أن تكون الأخطاء ناتجة عن وظيفة غير مدعومة ، أو رابط خارجي أو أكثر.
+1. CalculationOptions.PrecisionStrategy: نوع استراتيجية حساب الدقة للقيمة التي تحدد الاستراتيجية لمعالجة الدقة في الحساب.
+### **تمت إضافة استراتيجية حساب الدقة**
+ قدمت Aspose.Cells for Java 8.5.0 تصنيف استراتيجية حساب الدقة لإضافة المزيد من المرونة لمحرك حساب الصيغ للحصول على النتائج المطلوبة. تحدد هذه الاستراتيجية معالجة الدقة في الحساب. وبسبب مشكلة الدقة في الحساب العددي IEEE 754 النقطي المحمول ، قد لا يتم حساب بعض الصيغ التي تبدو بسيطة لتعطي النتائج المتوقعة لذلك قد قدمت آخر اصدارات وواجهة برمجة التطبيقات الحقول التالية للحصول على النتائج المطلوبة وفقا للاختيار.
 
-1. CalculationPrecisionStrategy.DECIMAL: يستخدم العلامة العشرية كمعامل حيثما أمكن ، وهو أكثر فاعلية من اعتبارات الأداء.
-1. CalculationPrecisionStrategy.ROUND: تقريب نتائج الحساب وفقًا لأرقام ذات دلالة.
-1. CalculationPrecisionStrategy.NONE: لم يتم تطبيق أي استراتيجية لذلك أثناء الحساب يستخدم المحرك القيمة المزدوجة الأصلية كمعامل ويعيد النتيجة مباشرة. هذا الخيار هو الأكثر فعالية ويمكن تطبيقه في معظم الحالات.
-### **تمت إضافة طرق لاستخدام خيارات الحساب**
-مع إصدار v8.5.0 ، أضاف Aspose.Cells API إصدارات التحميل الزائد لطريقة calculateFormula كما هو موضح أدناه.
+1. CalculationPrecisionStrategy.DECIMAL: يستخدم العدد العشري كعامل عند الإمكان ، وهو الأكثر غير كفئة من حيث الأداء.
+1. CalculationPrecisionStrategy.ROUND: يقوم بتقريب نتائج الحساب وفقا للرقم الكبير.
+1. CalculationPrecisionStrategy.NONE: لا يتم تطبيق استراتيجية بالتالي أثناء الحساب يستخدم المحرك القيمة العددية الأصلية كعامل ويعيد النتيجة مباشرة. هذا الخيار هو الأكثر كفاءة وينطبق على معظم الحالات.
+### **الطرق المضافة لاستخدام خيارات الحساب**
+مع إصدار v8.5.0 ، قامت واجهة برمجة التطبيقات Aspose.Cells بإضافة إصدارات فائضة من طريقة حساب الصيغ كما هو مدرج أدناه.
 
-- Workbook.calculateFormula (خيارات الحساب)
-- Worksheet.calculateFormula (خيارات CalculationOptions ، منطقية عودية)
-- Cell.culate (خيارات الحساب)
-### **تمت إضافة PasteType في حقل التعداد. ROW_HEIGHTS مضاف**
-قدمت Aspose.Cells واجهات برمجة التطبيقات PasteType.ROW_حقل تعداد HEIGHTS لغرض نسخ ارتفاعات الصفوف أثناء نسخ النطاقات. عند ضبط خاصية PasteOptions.PasteType على ((PasteType.ROW_HEIGHTS}} سيتم نسخ ارتفاعات جميع الصفوف داخل نطاق المصدر إلى النطاق الوجهة.
+- Workbook.calculateFormula(CalculationOptions)
+- Worksheet.calculateFormula(CalculationOptions options, bool recursive)
+- Cell.calculate(CalculationOptions)
+### **تمت إضافة حقل تعدادي PasteType.ROW_HEIGHTS**
+قدمت Aspose.Cells APIs حقل تعدادي PasteType.ROW_HEIGHTS لغرض نسخ أطوال الصف أثناء نسخ المدى. عند تعيين خصائص PasteOptions.PasteType إلى (PasteType.ROW_HEIGHTS) سيتم نسخ أطوال جميع الصفوف داخل المدى المصدر إلى المدى الوجهة.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -170,11 +171,11 @@ workbook.save("output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
 ### **تمت إضافة خاصية SheetRender.PageScale**
-عندما تقوم بتعيين مقياس إعداد الصفحة باستخدام**يصلح ل n صفحة (ق) عرض في متر طول** الخيار ، Microsoft يقوم Excel بحساب عامل تحجيم إعداد الصفحة. يمكن تحقيق نفس الشيء باستخدام خاصية SheetRender.PageScale المعروضة بواسطة Aspose.Cells for Java 8.5.0. تقوم هذه الخاصية بإرجاع قيمة مزدوجة يمكن تحويلها إلى قيمة النسبة المئوية. على سبيل المثال ، إذا كانت تُرجع 0.507968245 ، فهذا يعني أن عامل القياس هو 51٪.
+عند تعيين تكوين الصفحة بتصغير باستخدام خيار **مناسب لعرض صفحة واحدة عرضيًا حسب عدد n صفحات عمودية m** ، يقوم Microsoft Excel بحساب معامل تكبير التكوين. يمكن تحقيق الأمر نفسه باستخدام خاصية SheetRender.PageScale المكشوفة بواسطة Aspose.Cells for Java 8.5.0. تعيد هذه الخاصية قيمة عشرية يمكن تحويلها إلى قيمة نسبية. على سبيل المثال ، إذا كانت تعيد 0.507968245 فهذا يعني أن معامل التكبير هو 51%.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -207,20 +208,20 @@ SheetRender sr = new SheetRender(worksheet, new ImageOrPrintOptions());
 System.out.println(sr.getPageScale());
 
 {{< /highlight >}}
-### **تمت إضافة خلية التعداد CellValueFormatStrategy**
- Aspose.Cells for Java 8.5.0 أضاف إستراتيجية تعداد جديدة CellValueFormatStrategy للتعامل مع المواقف التي يجب فيها استخراج قيم الخلية مع تطبيق التنسيق أو بدونه. يحتوي Enumeration CellValueFormatStrategy على الحقول التالية.
+### **تمت إضافة تعدادية CellValueFormatStrategy**
+Aspose.Cells for Java 8.5.0 قد أضافت تعدادية جديدة CellValueFormatStrategy للتعامل مع الحالات التي يجب فيها استخراج قيم الخلية مع أو بدون تطبيق التنسيق. تحتوي تعدادية CellValueFormatStrategy على الحقول التالية. 
 
-1. CellValueFormatStrategy.CELL_STYLE: منسق فقط بالتنسيق الأصلي للخلية.
-1. CellValueFormatStrategy.DISPLAY_STYLE: منسق بنمط الخلية المعروض.
-1. CellValueFormatStrategy.NONE: غير مهيأ.
-### **الطريقة Cell.getStringValue مضافة**
-من أجل استخدام تعداد CellValueFormatStrategy ، كشف v8.5.0 عن طريقة Cell.getStringValue التي يمكن أن تقبل معلمة من النوع CellValueFormatStrategy وإرجاع القيمة التي تعتمد على الخيار المحدد.
+1. CellValueFormatStrategy.CELL_STYLE: مُنسَّقة فقط باستخدام تنسيق الخلية الأصلي.
+1. CellValueFormatStrategy.DISPLAY_STYLE: مُنسَّقة باستخدام النمط المعروض للخلية.
+1. CellValueFormatStrategy.NONE: غير مُنسَّقة.
+### **تمت إضافة الدالة Cell.getStringValue**
+من أجل استخدام تعدادية CellValueFormatStrategy ، قام v8.5.0 بتعريض الدالة Cell.getStringValue التي يمكن أن تقبل معلمة من نوع CellValueFormatStrategy وتُرجع القيمة تبعًا للخيار المحدد.
 
-يوضح مقتطف الشفرة التالي كيفية استخدام طريقة Cells.getStringValue المكشوفة حديثًا.
+يُظهر مقتطف الكود التالي كيفية استخدام دالة Cells.getStringValue المعرضة حديثًا.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 

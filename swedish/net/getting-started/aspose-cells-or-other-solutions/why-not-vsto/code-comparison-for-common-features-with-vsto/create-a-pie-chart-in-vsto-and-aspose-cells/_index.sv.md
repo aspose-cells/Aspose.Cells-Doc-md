@@ -1,19 +1,20 @@
-﻿---
-title: Skapa ett cirkeldiagram i VSTO och Aspose.Cells
+---
+title: Skapa en cirkeldiagram i VSTO och Aspose.Cells
 type: docs
 weight: 80
 url: /sv/net/create-a-pie-chart-in-vsto-and-aspose-cells/
 ---
-Den här artikeln jämför hur man skapar ett cirkeldiagram med Office Automation och VSTO med att använda Aspose.Cells for .NET. Stegen för att skapa ett cirkeldiagram är:
 
-1. Skapa en arbetsbok och ett arbetsblad.
-1. Lägger till exempeldata.
-1. Hänvisning till produkter Diagram.
-1. Lägga till ett cirkeldiagram, definiera dataintervallet och diagrammets titel.
-1. Sparar kalkylark.
-Kodexemplen i den här artikeln visar hur man lägger till ett cirkeldiagram med VSTO, med antingen C#, jämfört med att skapa ett med Aspose.Cells, återigen med antingen C#.
+Den här artikeln jämför hur man skapar en cirkeldiagram med Office Automation och VSTO med att använda Aspose.Cells for .NET. Stegen för att skapa en cirkeldiagram är:
+
+1. Skapa en arbetsbok och kalkylblad.
+1. Lägga till exempeldata.
+1. Hänvisa till produktdiagram.
+1. Lägg till ett cirkeldiagram, definiera dataräckvidden och diagramtiteln.
+1. Spara kalkylblad.
+   Kodsamplen i den här artikeln visar hur du lägger till en cirkeldiagram med VSTO, använd antingen C#, jämfört med att skapa en med Aspose.Cells, igen med antingen C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void PieChart()
 
@@ -89,7 +90,7 @@ workbook.SaveCopyAs("OutputVsto.xlsx");
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void PieChart()
 
@@ -159,7 +160,7 @@ workbook.SaveCopyAs("OutputVsto.xlsx");
 
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create.a.Pie.Chart.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip/download)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).blixtlås)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip)

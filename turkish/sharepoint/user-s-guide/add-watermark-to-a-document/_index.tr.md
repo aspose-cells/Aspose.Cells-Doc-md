@@ -1,17 +1,18 @@
-﻿---
-title: Bir belgeye Filigran ekleyin
+---
+title: Bir belgeye filigran ekle
 type: docs
 weight: 60
 url: /tr/sharepoint/add-watermark-to-a-document/
 ---
-Bir Excel dosyasına filigran eklemek istiyorsanız, lütfen belgenin Düzenleme Kontrol Bloğunda (ECB) “Aspose.Cells ile Filigran Ekle” seçeneğini seçin.
 
-![yapılacaklar:resim_alternatif_metin](add-watermark-to-a-document_1.png)
+Bir Excel dosyasına filigran eklemek istiyorsanız, lütfen belgenin Düzen Kontrol Bloğu (ECB)'ndaki 'Aspose.Cells ile WaterMark Ekle' seçeneğini seçin.
 
-Filigran ekleme kurulumu sırasında aşağıdaki seçenekler mevcuttur:
+![todo:image_alt_text](add-watermark-to-a-document_1.png)
 
-![yapılacaklar:resim_alternatif_metin](add-watermark-to-a-document_2.png)
+Düzeltme ayarları sırasında aşağıdaki seçenekler mevcuttur:
 
-**Filigran dosyası**
+![todo:image_alt_text](add-watermark-to-a-document_2.png)
+
+**Filigran Dosyası**
 
 Dosya bir resim dosyası olmalıdır.

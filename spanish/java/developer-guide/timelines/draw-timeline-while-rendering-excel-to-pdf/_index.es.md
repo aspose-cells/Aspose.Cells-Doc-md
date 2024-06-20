@@ -1,15 +1,16 @@
-﻿---
-title: Dibuje la línea de tiempo mientras renderiza Excel a PDF
+---
+title: Dibujar línea de tiempo al renderizar Excel a PDF
 type: docs
 weight: 60
 url: /es/java/draw-timeline-while-rendering-excel-to-pdf/
 description: Administre líneas de tiempo de archivos de Excel con Aspose.Cells para Java.
-keywords: Rendering timeline to pdf without office 2013, office 2016, office 2019 and office 365
+keywords: Renderización de línea de tiempo a PDF sin Office 2013, Office 2016, Office 2019 y Office 365
 ---
-## **Dibuje la línea de tiempo mientras renderiza Excel a PDF**
-Si tiene un archivo de Excel al que se le ha aplicado una línea de tiempo y desea exportar el Excel a PDF con la configuración de la línea de tiempo, Aspose.Cells for Java ahora lo admite de forma predeterminada. Simplemente exporte el archivo de Excel con la línea de tiempo a PDF, el PDF generado mostrará la línea de tiempo aplicada.
 
- El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](input.xlsx) que contiene una línea de tiempo existente. A continuación, guarda el libro de trabajo como[archivo de salida PDF](out.pdf). La siguiente captura de pantalla compara el archivo Excel de origen y el archivo PDF generado.
+## **Dibuje una línea de tiempo mientras renderiza Excel a PDF**
+Si tiene un archivo de Excel al que se le ha aplicado una línea de tiempo y desea exportarlo a PDF con la configuración de la línea de tiempo, Aspose.Cells for Java ahora lo admite de forma predeterminada. Simplemente exporte el archivo de Excel con línea de tiempo a PDF y el PDF generado mostrará la línea de tiempo aplicada.
+
+El siguiente código de muestra carga el [archivo Excel de muestra](input.xlsx) que contiene una línea de tiempo existente. Luego guarda el libro de trabajo como [archivo PDF de salida](out.pdf). La siguiente captura de pantalla compara el archivo Excel fuente y el archivo PDF generado.
 
 <img src="out.png" width="60%">
 

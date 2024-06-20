@@ -1,17 +1,20 @@
-﻿---
-title: Создайте строку подписи в книге Excel, используя Aspose.Cells
+---
+title: Создать строку подписи в книге Excel с помощью Aspose.Cells
 type: docs
 weight: 150
 url: /ru/net/create-signature-line-in-an-excel-workbook-using-aspose-cells/
+description: В этой статье описано, как создать строку подписи в книге Excel с использованием кодов C# с помощью Aspose.Cells для .Net.
+keywords: Создать строку подписи в книге Excel, Как создать строку подписи в книге Excel, Как добавить строку подписи, Как добавить строку подписи в файл Excel.
 ---
-{{% alert color="primary" %}}
 
- Microsoft Excel предоставляет функцию добавления**Линия подписи** в книгах Excel. Вы можете добавить строку подписи, нажав кнопку**Вставлять** Tab, а затем выберите**Линия подписи** от**Текст** группа.
+## **Введение**
 
- Aspose.Cells также предоставляет эту функцию и раскрывает[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) имущество для этой цели. В этой статье объясняется, как использовать это свойство для добавления строки подписи с помощью Aspose.Cells.
+Microsoft Excel предоставляет возможность добавлять **Строку подписи** в рабочие книги Excel. Вы можете добавить строку подписи, нажав на вкладку **Вставка** и затем выбрав **Строка подписи** из группы **Текст**.
 
-{{% /alert %}}
+## **Как создать строку подписи для Excel**
 
- Следующий пример кода добавляет строку подписи, используя[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)свойство и сохраняет книгу.
+Aspose.Cells также предоставляет эту функцию и предоставляет свойство [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) для этой цели. В этой статье будет объяснено, как использовать это свойство для добавления строки подписи с помощью Aspose.Cells.
+
+Приведенный ниже образец кода добавляет строку подписи с использованием свойства [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) и сохраняет книгу.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateSignatureLineInWorkbook-CreateSignatureLineInWorkbook.cs" >}}

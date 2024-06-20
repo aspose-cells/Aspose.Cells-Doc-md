@@ -1,19 +1,20 @@
-﻿---
-title: テーブルレポート作成の準備
+---
+title: テーブルレポートの作成準備
 type: docs
 weight: 10
 url: /ja/reportingservices/preparing-for-creating-table-report/
 ---
-表形式のレポートを作成する前に、ユーザーはまずデータ ソース、データセット、およびレポート パラメーター (オプション) を作成する必要があります。[データソースとクエリ](/cells/ja/reportingservices/data-sources-and-queries/).
 
-以下では、SQL Server Reporting Services 2005 に同梱されている AdventureWorks サンプル データベースを使用します。
+表形式のレポートを作成する前に、ユーザーは最初に[データソースとクエリ](/cells/ja/reportingservices/data-sources-and-queries/)に記載されているように、データソース、データセット、およびレポートパラメータ（オプション）を作成する必要があります。
 
-1. EmpSalesDetail という名前のデータセットを作成します。これをテーブルのデータ ソースとして使用します。データセットには、ReportYear、ReportMonth、および EmpID の 3 つのパラメーターがあります。
- EmpSalesDetail を定義する SQL は次のとおりです。
+以下では、SQL Server Reporting Services 2005 に付属の AdventureWorks サンプルデータベースを使用しています。
+
+1. EmpSalesDetail というデータセットを作成します。これをテーブルのデータソースとして使用します。このデータセットには ReportYear、ReportMonth、EmpID の 3 つのパラメータがあります。
+   EmpSalesDetail を定義する SQL は次のとおりです。 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT C.FirstName+' '+C.LastName 'Employee',
 
@@ -83,12 +84,12 @@ PC.Name
 
 {{< /highlight >}}
 
-1. SalesEmps という名前のデータセットを作成します。これを EmpID パラメータの有効な値として使用します。
- SalesEmps を定義する SQL は次のとおりです。
+1. SalesEmps というデータセットを作成します。これを EmpID パラメータの有効な値として使用します。
+   SalesEmps を定義する SQL は次のとおりです。 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT  E.EmployeeID,  C.FirstName + N' ' + C.LastName AS Employee
 
@@ -102,28 +103,28 @@ ON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName
 
 {{< /highlight >}}
 
-1.  ReportYear、ReportMonth、および EmpID の 3 つのレポート パラメータを作成します。
- 1. パラメータ ReportYear の有効な値は次のとおりです。
+1. ReportYear、ReportMonth、EmpID の 3 つのレポートパラメータを作成します。 
+   1. パラメータ ReportYear の有効な値は次のとおりです。 
 
-![todo:画像_代替_文章](preparing-for-creating-table-report_1.png)
-
-
-
-
-1. パラメータ ReportMonth の有効な値は次のとおりです。
-
-![todo:画像_代替_文章](preparing-for-creating-table-report_2.png)
+![todo:image_alt_text](preparing-for-creating-table-report_1.png)
 
 
 
 
-1. パラメータ EmpID の有効な値は次のとおりです。
+1. パラメータ ReportMonth の有効な値は次のとおりです。 
 
-![todo:画像_代替_文章](preparing-for-creating-table-report_3.png)
-
-
+![todo:image_alt_text](preparing-for-creating-table-report_2.png)
 
 
-1. 次のように、データセット パラメーターをレポート パラメーターにマップします。
 
-![todo:画像_代替_文章](preparing-for-creating-table-report_4.png)
+
+1. パラメータ EmpID の有効な値は次のとおりです。 
+
+![todo:image_alt_text](preparing-for-creating-table-report_3.png)
+
+
+
+
+データセットのパラメータを次のようにレポートパラメータにマッピングします。 
+
+![todo:image_alt_text](preparing-for-creating-table-report_4.png)

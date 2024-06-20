@@ -1,15 +1,16 @@
-﻿---
-title: Conversion de la feuille de calcul en SVG en PHP
+---
+title: Conversion de feuille de calcul en SVG en PHP
 type: docs
 weight: 60
 url: /fr/java/converting-worksheet-to-svg-in-php/
 ---
-## **Aspose.Cells - Conversion de la feuille de travail en SVG**
-Pour convertir la feuille de calcul en SVG en utilisant Aspose.Cells for Java en PHP, appelez simplement la feuille de calcul_à_Méthode svg() du module Converter.
+
+## **Aspose.Cells - Conversion de feuille de calcul en SVG**
+Pour convertir une feuille de calcul en SVG à l'aide du Aspose.Cells for Java en PHP, il suffit d'appeler la méthode worksheet_to_svg() du module Converter.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $saveFormat = new SaveFormat();
 
@@ -54,7 +55,7 @@ for($i=0; $i < $sheetCount; $i++)
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Conversion de la feuille de calcul en SVG (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Converting Worksheet to SVG (Aspose.Cells)** depuis l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingWorksheetToSVG.php)

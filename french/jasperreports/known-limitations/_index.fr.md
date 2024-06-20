@@ -1,14 +1,15 @@
-﻿---
-title: Limites connues
+---
+title: Limitations Connues
 type: docs
 weight: 50
 url: /fr/jasperreports/known-limitations/
 ---
+
 {{% alert color="primary" %}} 
 
-Voici une liste des fonctionnalités qui ne sont pas actuellement prises en charge par Aspose.Cells for JasperReports :
+Voici une liste des fonctionnalités actuellement non prises en charge par Aspose.Cells for JasperReports :
 
-- **Pas d'installation automatique** . Aspose.Cells for JasperReports est distribué sous forme d'archive ZIP.[À installer](/cells/fr/jasperreports/installation/), extrayez et copiez les fichiers à l'emplacement approprié et modifiez éventuellement certains fichiers de configuration XML. Un programme d'installation automatique sera fourni ultérieurement.
-- **Excel ne prend pas en charge tous les types de graphiques JasperReports**Certains types de graphiques dans JasperReports sont incompatibles avec les graphiques Excel Microsoft, par exemple : XYBarChart, XYAreaChart, ThermometerChart, CandlestickChart, HighLowChart, MultipleAxisChart et MeterChart. Ces graphiques sont exportés sous forme d'images, de la même manière que l'exportateur JasperReports XLS d'origine gère les graphiques. (Les autres graphiques sont exportés sous forme de graphiques modifiables.)
+- **Pas d'installateur automatique**. Aspose.Cells for JasperReports est distribué sous forme d'une archive ZIP. [Pour installer](/cells/fr/jasperreports/installation/), extrayez et copiez les fichiers à l'emplacement approprié et éventuellement modifiez certains fichiers de configuration XML. Un installateur automatique sera fourni à l'avenir.
+- **Excel ne prend pas en charge tous les types de graphiques de JasperReports**. Certains types de graphiques de JasperReports ne sont pas compatibles avec les graphiques Microsoft Excel, par exemple : XYBarChart, XYAreaChart, ThermometerChart, CandlestickChart, HighLowChart, MultipleAxisChart et MeterChart. Ces graphiques sont exportés sous forme d'images, de la même manière que l'exportateur XLS d'origine de JasperReports gère les graphiques. (D'autres graphiques sont exportés sous forme de graphiques modifiables).
 
 {{% /alert %}}

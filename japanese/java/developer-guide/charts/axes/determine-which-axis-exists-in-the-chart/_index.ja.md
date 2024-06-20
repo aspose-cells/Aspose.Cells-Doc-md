@@ -1,34 +1,35 @@
-﻿---
-title: チャートに存在する軸を特定する
+---
+title: チャートにどの軸が存在するかを判断する
 type: docs
 weight: 130
 url: /ja/java/determine-which-axis-exists-in-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、特定の軸がチャートに存在するかどうかをユーザーが知る必要があります。たとえば、グラフ内に第 2 値軸が存在するかどうかを知りたいとします。 Pie、PieExploded、PiePie、PieBar、Pie3D、Pie3DExploded、Doughnut、DoughnutExploded などの一部のグラフには軸がありません。
+ユーザーは、特定の軸がチャートに存在するかどうかを知る必要がある場合があります。たとえば、彼は、チャート内に2番目の値軸が存在するかどうかを知りたいと思っているかもしれません。円グラフ、パイエクスプロード、パイパイ、パイバー、パイ3D、パイ3Dエクスプロード、ドーナツ、ドーナツエクスプロードなどの一部のチャートには軸がありません。
 
-Aspose.Cells提供[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) メソッドを使用して、チャートに特定の軸があるかどうかを判断します。
+Aspose.Cellsは、特定の軸がチャートに存在するかどうかを判断するための[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean))メソッドを提供します。
 
 {{% /alert %}}
 
-## チャートに存在する軸を特定する
+## チャートに存在する軸を判断する
 
-次のスクリーンショットは、プライマリ カテゴリと値軸のみを含むグラフを示しています。セカンダリ カテゴリと値軸はありません。
+次のスクリーンショットは、プライマリカテゴリと値軸のみを持つチャートを示しています。セカンダリカテゴリと値軸はありません。
 
-![todo:画像_代替_文章](determine-which-axis-exists-in-the-chart_1.png)
+![todo:image_alt_text](determine-which-axis-exists-in-the-chart_1.png)
 
-次のサンプル コードは、[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)を使用して、サンプル グラフにプライマリおよびセカンダリ カテゴリと値軸があるかどうかを判断します。コードのコンソール出力を以下に示します。これは、プライマリ カテゴリおよび値軸に対して true を表示し、セカンダリ カテゴリおよび値軸に対して false を表示します。
+次のサンプルコードは、[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean))の使用を示しています。サンプルチャートにプライマリおよびセカンダリカテゴリと値軸があるかどうかを判断します。コードのコンソール出力は、プライマリカテゴリと値軸に対してtrue、セカンダリカテゴリと値軸に対してfalseを表示します。
 
-### Java チャートに存在する軸を決定するコード
+### チャート内に存在する軸を判断するためのJavaコード
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetermineWhichAxisExistsInChart-DetermineWhichAxisExistsInChart.java" >}}
 
-### サンプル コードによって生成されたコンソール出力
+### サンプルコードによって生成されたコンソール出力
 
-上記のサンプル コードのコンソール出力を次に示します。
+上記サンプルコードのコンソール出力はこちらです。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Has Primary Category Axis: true
 

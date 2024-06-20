@@ -1,27 +1,28 @@
-﻿---
-title: إظهار الفاصلة العليا في الخلايا
+---
+title: إظهار علامة الفتح في الخلايا
 type: docs
 weight: 20
 url: /ar/java/show-leading-apostrophe-in-cells/
 ---
-## **إظهار الفاصلة العليا في الخلايا**
 
-في Microsoft Excel ، يتم إخفاء الفاصلة العليا في قيمة الخلية. يوفر Aspose.Cells خاصية لعرض الفاصلة العليا بشكل افتراضي. لهذا ، يوفر API[**المصنف.الإعدادات**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)خاصية. تشير هذه الخاصية إلى ما إذا كان سيتم تعيين ملف[**اقتباس**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix)الخاصية عند إدخال قيمة سلسلة تبدأ بعلامة اقتباس واحدة للخلية. وضع[**المصنف.الإعدادات**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)ملكية ل**خاطئة**سيعرض الفاصلة العليا في ملف Excel الناتج.
+## **إظهار الترويسة الرئيسية في الخلايا**
 
-تُظهر لقطة الشاشة التالية ملف Excel الناتج مع الفاصلة العليا المرئية.
+في Microsoft Excel، يتم إخفاء الترويسة الرئيسية في قيمة الخلية. توفر Aspose.Cells ميزة عرض الترويسة الرئيسية افتراضيًا. يوفر الواجهة البرمجية للتطبيق الخاصية [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle). تُشير هذه الخاصية ما إذا كان تعيين الخاصية [**QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix) عند إدخال قيمة سلسلة تبدأ بعلامة اقتباس واحدة إلى الخلية. سيؤدي تعيين الخاصية [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle) إلى القيمة **false** إلى عرض الترويسة الرئيسية في ملف إكسل الناتج.
 
-![ما يجب القيام به: image_بديل_نص](show-leading-apostrophe-in-cells_1.jpg)
+الصورة الملتقطة التالية تُظهر ملف إكسل الناتج مع علامة الفتح المرئية.
 
-يوضح مقتطف الكود التالي هذا عن طريق إضافة البيانات باستخدام Smart Markers في ملف Excel المصدر. يتم إرفاق ملفات إكسل المصدر والمخرجات كمرجع.
+![todo:image_alt_text](show-leading-apostrophe-in-cells_1.jpg)
 
-[مصدر الملف](AllowLeadingApostropheSample.xlsx)
+الكود المقتطف التالي يظهر هذا عن طريق إضافة البيانات بواسطة العلامات الذكية في ملف إكسل المصدر. يتم إرفاق ملفات إكسل المصدر والإخراج للرجوع إليها.
 
-[ملف إلاخراج](AllowLeadingApostropheSample_out.xlsx)
+[ملف المصدر](AllowLeadingApostropheSample.xlsx)
 
-## **عينة من الرموز**
+[ملف الناتج](AllowLeadingApostropheSample_out.xlsx)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AllowLeadingApostrophe-1.java" >}}
 
-تنفيذ*DataObject*يتم إعطاء فئة أدناه
+يتم تقديم تنفيذ فئة *DataObject* تحت:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelperClasses-DataObject-1.java" >}}

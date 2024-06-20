@@ -1,15 +1,16 @@
-﻿---
-title: Php でペインを分割する
+---
+title: Phpで分割ウィンドウ
 type: docs
 weight: 70
 url: /ja/java/split-panes-in-php/
 ---
-## **Aspose.Cells - ペインの分割**
-を使用してペインを分割するには**Aspose.Cells Java for PHP**、単に呼び出す**SplitPanes**モジュール。
 
-**PHP コード**
+## **Aspose.Cells - 分割ウィンドウ**
+**Aspose.Cells Java for PHP**を使用して分割ウィンドウを設定するには、簡単に**SplitPanes**モジュールを呼び出してください。
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
  $saveFormat = new SaveFormat();
 
@@ -32,7 +33,7 @@ $book->getWorksheets()->get(0)->split();
 $book->save($dataDir . "book.out.xls", $saveFormat->EXCEL_97_TO_2003);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**分割ペイン (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**Split Panes (Aspose.Cells)** をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/SplitPanes.php)

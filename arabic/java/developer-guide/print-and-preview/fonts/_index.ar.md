@@ -1,4 +1,4 @@
-﻿---
+---
 title: الخطوط
 type: docs
 weight: 110

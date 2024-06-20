@@ -1,26 +1,27 @@
-﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.7.0
+---
+title: Modifiche all API pubblica in Aspose.Cells 8.7.0
 type: docs
 weight: 240
 url: /it/java/public-api-changes-in-aspose-cells-8-7-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.6.3 alla 8.7.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.6.3 alla 8.7.0 che potrebbero interessare agli sviluppatori di moduli/applicazioni. Include non solo nuovi e aggiornati metodi pubblici, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali modifiche nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
-### **Supporto per l'ottimizzazione PDF**
- Le API Aspose.Cells forniscono già la funzione di conversione dei fogli di calcolo in PDF. Con questa versione di API, gli utenti possono ora[ottimizzare la dimensione PDF risultante](/cells/it/java/save-excel-into-pdf-with-standard-or-minimum-size/)anche. Aspose.Cells for Java 8.7.0 ha esposto la proprietà PdfSaveOptions.OptimizationType insieme all'enumerazione PdfOptimizationType per facilitare agli utenti la scelta dell'algoritmo di ottimizzazione desiderato durante l'esportazione dei fogli di calcolo nel formato PDF. Esistono 2 valori possibili per la proprietà PdfSaveOptions.OptimizationType come descritto di seguito.
+### **Supporto per ottimizzazione PDF**
+Aspose.Cells Le API già forniscono la funzionalità di convertire i fogli elettronici in PDF. Con questa versione dell'API, gli utenti possono ora [ottimizzare le dimensioni del PDF risultante](/cells/it/java/save-excel-into-pdf-with-standard-or-minimum-size/) Aspose.Cells for Java 8.7.0 ha esposto la proprietà PdfSaveOptions.OptimizationType insieme all'enumerazione PdfOptimizationType per facilitare gli utenti a scegliere l'algoritmo di ottimizzazione desiderato durante l'esportazione dei fogli elettronici nel formato PDF. Ci sono 2 valori possibili per la proprietà PdfSaveOptions.OptimizationType come dettagliato di seguito. 
 
-1. PdfOptimizationType.MINIMUM_SIZE: la qualità è compromessa per la dimensione del file risultante.
-1. PdfOptimizationType.STANDARD: la qualità non è compromessa quindi la dimensione del file risultante sarà grande.
+1. PdfOptimizationType.MINIMUM_SIZE: La qualità è compromessa per la dimensione del file risultante.
+1. PdfOptimizationType.STANDARD: La qualità non è compromessa, quindi le dimensioni del file risultante saranno grandi.
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of PdfSaveOptions
 
@@ -41,14 +42,14 @@ Workbook book = new Workbook(inFilePath);
 book.save(outFilePath, pdfSaveOptions);
 
 {{< /highlight >}}
-### **Rilevamento del progetto VBA con firma digitale**
- È possibile utilizzare la proprietà VbaProject.isSigned appena esposta[rilevare se il progetto VBA in una cartella di lavoro è firmato digitalmente](/cells/it/java/check-if-vba-code-is-signed/). La proprietà VbaProject.isSigned è di tipo Boolean, che restituisce true se il progetto VBA è firmato digitalmente e viceversa.
+### **Rilevamento del progetto VBA firmato digitalmente**
+La nuova proprietà VbaProject.isSigned può essere utilizzata per rilevare se il progetto VBA in un foglio di lavoro è firmato digitalmente.
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -77,14 +78,14 @@ else
 }
 
 {{< /highlight >}}
-### **Metodo Protection.verifyPassword aggiunto**
-Aspose.Cells Le API hanno potenziato la classe Protection introducendo il metodo verifyPassword che permette di specificare una password come istanza di String e[verifica se la stessa password è stata utilizzata per proteggere il foglio di lavoro](/cells/it/java/verify-password-used-to-protect-the-worksheet/). Il metodo Protection.verifyPassword restituisce true se la password specificata corrisponde alla password utilizzata per proteggere il foglio di lavoro specificato e false se la password specificata non corrisponde. La parte di codice seguente usa il metodo Protection.verifyPassword insieme al campo Protection.isProtectedWithPassword per rilevare la protezione tramite password e verifica la password.
+### **Aggiunto il metodo Protection.verifyPassword**
+Le API di Aspose.Cells hanno potenziato la classe Protection introducendo il metodo verifyPassword che consente di specificare una password come istanza di Stringa e verifica se la stessa password è stata utilizzata per proteggere il Foglio di lavoro. Il metodo Protection.verifyPassword restituisce true se la password specificata corrisponde alla password utilizzata per proteggere il foglio di lavoro dato, e false se la password specificata non corrisponde. Il seguente codice utilizza il metodo Protection.verifyPassword insieme al campo Protection.isProtectedWithPassword per rilevare la protezione con password e verifica la password.
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load a spreadsheet
 
@@ -121,14 +122,14 @@ if (sheet.getProtection().isProtectedWithPassword())
 }
 
 {{< /highlight >}}
-### **Proprietà Protection.isProtectedWithPassword aggiunto**
- Questa versione di Aspose.Cells for Java ha anche esposto il campo Protection.isProtectedWithPassword che può essere utile in[rilevare se un foglio di lavoro è protetto da password o meno](/cells/it/java/detect-if-worksheet-is-password-protected/).
+### **Proprietà Protection.isProtectedWithPassword Aggiunta**
+Questo rilascio di Aspose.Cells for Java ha anche esposto il campo Protection.isProtectedWithPassword che può essere utile nel rilevare se un Foglio di lavoro è protetto da password o meno.
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -161,14 +162,14 @@ else
 }
 
 {{< /highlight >}}
-### **Proprietà ColorScale.Is3ColorScale Aggiunta**
- Aspose.Cells for Java 8.7.0 ha esposto la proprietà ColorScale.Is3ColorScale che può essere utilizzata per[creare il formato condizionale Scala a 2 colori](/cells/it/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). La suddetta proprietà è di tipo Boolean con valore predefinito true, il che significa che il formato condizionale sarà di default Scala a 3 colori. Tuttavia, l'impostazione della proprietà ColorScale.Is3ColorScale su false genererà un formato condizionale Scala a 2 colori.
+### **Proprietà aggiunta ColorScale.Is3ColorScale**
+Aspose.Cells for Java 8.7.0 ha esposto la proprietà ColorScale.Is3ColorScale che può essere utilizzata per [creare un formato condizionale a scala di colori a 2 colori](/cells/it/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). La suddetta proprietà è di tipo Boolean con un valore predefinito di true, il che significa che per impostazione predefinita il formato condizionale sarà a scala di colori a 3 colori. Tuttavia, passando la proprietà ColorScale.Is3ColorScale a false, verrà generato un formato condizionale a scala di colori a 2 colori.
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -211,14 +212,14 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 //Set other necessary properties
 
 {{< /highlight >}}
-### **Proprietà TxtLoadOptions.HasFormula aggiunto**
- Aspose.Cells for Java 8.7.0 ha fornito supporto a[identificare e analizzare le formule durante il caricamento di file CSV/TXT con dati semplici delimitati](/cells/it/java/load-or-import-csv-file-with-formulas/). La proprietà TxtLoadOptions.HasFormula appena esposta quando impostata su true indica a API di analizzare le formule dal file delimitato di input e di impostarle sulle celle pertinenti senza richiedere alcuna elaborazione aggiuntiva.
+### **Proprietà aggiunta TxtLoadOptions.HasFormula**
+Aspose.Cells for Java 8.7.0 ha fornito supporto per [identificare e analizzare le formule durante il caricamento di file CSV/TXT contenenti dati delimitati](/cells/it/java/load-or-import-csv-file-with-formulas/). La nuova proprietà TxtLoadOptions.HasFormula, quando impostata su true, indica all'API di analizzare le formule dal file delimitato di input e impostarle nelle celle pertinenti senza richiedere alcun ulteriore processo.
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of TxtLoadOptions
 
@@ -245,14 +246,14 @@ book.calculateFormula();
 book.save(outFilePath);
 
 {{< /highlight >}}
-### **Proprietà DataLabels.ResizeShapeToFitText Aggiunta**
- Un'altra caratteristica utile che Aspose.Cells for Java 8.7.0 ha esposto è la proprietà DataLabels.ResizeShapeToFitText che può abilitare il[ridimensionare la forma per adattarla al testo](/cells/it/java/resize-chart-s-data-label-shape-to-fit-text/)funzionalità dell'applicazione Excel per le etichette dei dati del grafico.
+### **Proprietà Added DataLabels.ResizeShapeToFitText aggiunta**
+Un'altra funzionalità utile esposta da Aspose.Cells for Java 8.7.0 è la proprietà DataLabels.ResizeShapeToFitText che può abilitare la funzionalità [ridimensiona forma per adattare testo](/cells/it/java/resize-chart-s-data-label-shape-to-fit-text/) dell'applicazione Excel per le etichette dei dati del grafico.
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook containing the Chart
 
@@ -280,5 +281,5 @@ chart.calculate();
 
 {{< /highlight >}}
 ## **API rimosse**
-### **Proprietà Workbook.SaveOptions Rimosso**
-La proprietà Workbook.SaveOptions è stata contrassegnata come obsoleta qualche tempo fa. Con questa release è stato completamente rimosso dal pubblico API pertanto si consiglia di utilizzare in alternativa il metodo Workbook.save(Stream, SaveOptions) o Workbook.save(string, SaveOptions).
+### **Proprietà Workbook.SaveOptions rimossa**
+La proprietà Workbook.SaveOptions è stata dichiarata obsoleta qualche tempo fa. Con questa versione, è stata completamente rimossa dall'API pubblica, quindi si consiglia di utilizzare il metodo Workbook.save(Stream, SaveOptions) o Workbook.save(string, SaveOptions) come alternativa.

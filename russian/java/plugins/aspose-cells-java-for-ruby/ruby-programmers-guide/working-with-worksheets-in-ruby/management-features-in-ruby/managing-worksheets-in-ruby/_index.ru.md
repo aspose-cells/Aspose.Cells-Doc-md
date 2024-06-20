@@ -1,16 +1,17 @@
-﻿---
+---
 title: Управление рабочими листами в Ruby
 type: docs
 weight: 10
 url: /ru/java/managing-worksheets-in-ruby/
 ---
+
 ## **Aspose.Cells - Управление рабочими листами**
 ### **Добавление рабочих листов в новый файл Excel**
- Чтобы добавить рабочий лист в новый файл Excel, используя**Aspose.Cells Java для рубина** , просто позвоните**add_worksheet** метод**Управление рабочими листами** модуль.
+Чтобы добавить рабочий лист в новый файл Excel, используя **Aspose.Cells Java for Ruby**, просто вызовите метод **add_worksheet** модуля **MangingWorksheets**.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet()
 
@@ -39,12 +40,12 @@ url: /ru/java/managing-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Добавление рабочих листов в электронную таблицу конструктора**
-Процесс добавления рабочих листов в электронную таблицу дизайнера полностью аналогичен описанному выше подходу, за исключением того, что файл Excel уже создан, и нам нужно сначала открыть этот файл Excel, прежде чем добавлять в него рабочий лист.
+### **Добавление листов в дизайнерскую электронную таблицу**
+Процесс добавления рабочих листов в файл эскиза абсолютно такой же, как и в предыдущем методе, за исключением того, что файл Excel уже создан, и перед добавлением рабочего листа его необходимо открыть.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet_to_designer_spreadsheet()
 
@@ -75,12 +76,12 @@ end 
 end  
 
 {{< /highlight >}}
-### **Доступ к рабочим листам с использованием имени листа**
- Чтобы получить доступ к рабочему листу по имени листа, используя**Aspose.Cells Java для рубина** , просто позвоните**get_worksheet** метод**Управление рабочими листами** модуль.
+### **Доступ к листам с использованием имени листа**
+Чтобы получить доступ к рабочему листу по имени листа, используя **Aspose.Cells Java for Ruby**, просто вызовите метод **get_worksheet** модуля **MangingWorksheets**.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_worksheet()
 
@@ -101,12 +102,12 @@ end  
 end
 
 {{< /highlight >}}
-### **Удаление рабочих листов с использованием имени листа**
- Чтобы удалить рабочий лист по имени листа, используя**Aspose.Cells Java для рубина** , просто позвоните**remove_worksheet_by_name** метод**Управление рабочими листами** модуль.
+### **Удаление листов с использованием имени листа**
+Чтобы удалить рабочий лист по имени листа, используя **Aspose.Cells Java for Ruby**, просто вызовите метод **remove_worksheet_by_name** модуля **MangingWorksheets**.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_name()
 
@@ -138,12 +139,12 @@ end
 
 
 {{< /highlight >}}
-### **Удаление рабочих листов с помощью индекса листов**
- Чтобы удалить рабочий лист по индексу листа, используя**Aspose.Cells Java для рубина** , просто позвоните**remove_worksheet_by_index** метод**Управление рабочими листами** модуль.
+### **Удаление рабочих листов с использованием индекса листа.**
+Чтобы удалить рабочий лист по индексу листа, используя **Aspose.Cells Java for Ruby**, просто вызовите метод **remove_worksheet_by_index** модуля **MangingWorksheets**.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_index()
 
@@ -174,7 +175,7 @@ end
 end 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Управление рабочими листами (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите управление рабочими листами (Aspose.Cells) с любого из упомянутых ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

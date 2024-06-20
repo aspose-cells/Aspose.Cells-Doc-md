@@ -1,38 +1,39 @@
-﻿---
-title: Legen Sie das Hintergrundbild eines Arbeitsblatts fest
+---
+title: Hintergrundbild eines Arbeitsblatts festlegen
 type: docs
 weight: 90
 url: /de/net/set-background-picture-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Hintergrundbilder befinden sich hinter dem Text und den Zeilen in einer Tabellenkalkulation. Sie werden verwendet, um Informationen über eine Arbeitsmappe bereitzustellen, z. B. wenn sie als Statuswasserzeichen verwendet werden, können aber auch Firmenmarken oder Dekorationen hinzufügen. Microsoft Excel ermöglicht es Benutzern, Hintergrundbilder manuell hinzuzufügen.
+Hintergrundbilder befinden sich hinter dem Text und den Linien in einer Tabellenkalkulation. Sie dienen dazu, Informationen über eine Arbeitsmappe bereitzustellen, beispielsweise wenn sie als Status-Wasserzeichen verwendet werden, können aber auch Firmenlogos oder Dekorationen hinzufügen. Microsoft Excel ermöglicht es Benutzern, Hintergrundbilder manuell hinzuzufügen.
 
-Entwickler können auch Hintergrundbilder über ihre Anwendungen hinzufügen, indem sie entweder Aspose.Cells for .NET oder VSTO verwenden. Dieser Artikel vergleicht die beiden Ansätze.
+Entwickler können auch über ihre Anwendungen Hintergrundbilder hinzufügen, entweder mit Aspose.Cells for .NET oder VSTO. Dieser Artikel vergleicht die beiden Ansätze.
 
 {{% /alert %}}
 
-## **Festlegen eines Hintergrundbilds auf einem Arbeitsblatt**
+## **Ein Hintergrundbild auf einem Arbeitsblatt einstellen**
 
-So wenden Sie ein Hintergrundbild auf eine Tabelle an:
+Um ein Hintergrundbild auf ein Tabellenblatt anzuwenden:
 
-1. Erstellen Sie eine Arbeitsmappe und greifen Sie auf das Blatt zu, auf das Sie ein Hintergrundbild anwenden möchten.
+1. Erstellen Sie ein Arbeitsbuch und greifen Sie auf das Blatt zu, auf das Sie ein Hintergrundbild anwenden möchten.
 1. Wenden Sie das Hintergrundbild an.
-1. Speichern Sie die Arbeitsmappe.
+1. Speichern Sie das Arbeitsbuch.
 
- Die folgenden Codebeispiele zeigen, wie Sie dies zunächst mit tun[VSTO](/cells/de/net/set-background-picture-of-a-worksheet/) , entweder mit C# oder Visual Basic und dann mit[Aspose.Cells for .NET](/cells/de/net/set-background-picture-of-a-worksheet/), wiederum entweder mit C# oder Visual Basic.
+Die folgenden Codesamples zeigen, wie Sie dies zuerst mit [VSTO](/cells/de/net/set-background-picture-of-a-worksheet/) mithilfe von C# oder Visual Basic und dann mit [Aspose.Cells for .NET](/cells/de/net/set-background-picture-of-a-worksheet/) erneut mithilfe von C# oder Visual Basic tun.
 
-Die Codebeispiele in diesem Artikel erstellen ein Arbeitsblatt mit einem sich wiederholenden Hintergrundbild, wie dem im Screenshot unten.
+Die in diesem Artikel gezeigten Codebeispiele erstellen ein Arbeitsblatt mit einem sich wiederholenden Hintergrundbild, wie im folgenden Screenshot gezeigt.
 
 **Für das Arbeitsblatt wurde ein Hintergrund festgelegt.**
 
-![todo: Bild_alt_Text](set-background-picture-of-a-worksheet_1.png)
+![todo:image_alt_text](set-background-picture-of-a-worksheet_1.png)
 
-### **Einstellen von Hintergrundbildern mit VSTO**
+### **Hintergrundbilder mit VSTO einstellen**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -76,11 +77,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Einstellen von Hintergrundbildern mit Aspose.Cells for .NET**
+### **Hintergrundbilder mit Aspose.Cells for .NET einstellen**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -108,7 +109,7 @@ FileStream fs = File.OpenRead(ImageUrl);
 
 //Define a byte array.
 
-byte[]imageData = new Byte[fs.Length];
+byte[] imageData = new Byte[fs.Length];
 
 //Obtain the picture into the array of bytes from streams.
 

@@ -1,18 +1,19 @@
 ---
-title: Verileri Önce Satıra, Sonra Sütuna Göre Doldurun
+title: Verileri Önce Satır, Sonra Sütun Olarak Doldur
 type: docs
 weight: 1000
 url: /tr/net/populate-data-first-by-row-then-by-column/
-description: Aspose.Cells for .NET API numaralı telefondan Verileri Önce Satıra, sonra Sütuna Göre Nasıl Dolduracağınızı öğrenin.
-keywords: Populate Data First by Row then by Column, Insert Data First by Row then by Column, Add Data First by Row then by Column, High performance data insertion, High performance data addition
+description: Verileri Önce Satır Satır, Ardından Sütun Sütun Nasıl Dolduracağınızı Aspose.Cells for .NET API si ile öğrenin.
+keywords: Verileri Önce Satır Satır Sütun Sütun Doldur, Verileri Önce Satır Satır Sütun Sütun Ekleyin, Verileri Önce Satır Satır Sütun Sütun Ekleyin, Yüksek Performanslı Veri Ekleme, Yüksek Performanslı Veri Ekleme
 ---
+
 {{% alert color="primary" %}} 
 
-Bir e-tabloyu önce satırlara, sonra sütunlara göre verilerle doldurmak genel performansı artırır.
+Bir elektronik tabloya verileri önce satır, sonra sütun olarak doldurmak genel performansı iyileştirir.
 
 {{% /alert %}} 
 
-Verileri A1, B1, A2, B2 sırasına koymak A1, A2, B1, B2'ye göre daha hızlıdır. Bir çalışma sayfasında çok sayıda hücre varsa ve ikinci sırayı takip ediyorsanız, yani verileri satır satır dolduruyorsanız, bu ipucu programın çok daha hızlı olmasını sağlayabilir.
+A1, B1, A2, B2 şeklinde veri yerleştirmek, A1, A2, B1, B2 şeklinde yerleştirmekten daha hızlıdır. Eğer bir çalışma sayfasında çok fazla hücre varsa ve ikinci sırayı takip ediyorsanız, yani verileri satır satır dolduruyorsanız, bu ipucu programı çok daha hızlı hale getirebilir.
 
 
 

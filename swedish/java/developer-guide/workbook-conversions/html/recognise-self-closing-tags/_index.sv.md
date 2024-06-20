@@ -1,10 +1,11 @@
-﻿---
-title: Känn igen självstängande taggar
+---
+title: Förstå självavslutande taggar
 type: docs
 weight: 120
 url: /sv/java/recognise-self-closing-tags/
 ---
-HTML kan ha olika taggformatering för tomma taggar som \<td>\</td> eller \<td/>. Aspose.Cells stöder båda dessa format nu medan det tidigare bara stödde \<td>\</td>gillar taggar. Denna funktion kan testas genom att konvertera den bifogade exempelfilen HTML till Excel-fil. Exempelfilen HTML och utdatafiler kan laddas ner från följande länkar för testning.
+
+HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td/>. Aspose.Cells supports both these formats now whereas earlier it was supporting only \<td>\</td> like tags. This feature can be tested by converting the attached sample HTML file to Excel file. The sample HTML file and output files can be downloaded from the following links for testing.
 
 [sampleSelfClosingTags.html](74776600)
 

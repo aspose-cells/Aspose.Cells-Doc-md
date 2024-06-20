@@ -1,21 +1,22 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.5.1
+---
+title: تغييرات واجهة برمجة التطبيقات العامة في Aspose.Cells 8.5.1
 type: docs
 weight: 180
 url: /ar/java/public-api-changes-in-aspose-cells-8-5-1/
 ---
+
 {{% alert color="primary" %}} 
 
- توضح هذه الوثيقة التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.5.0 إلى 8.5.1 والتي قد تهم مطوري الوحدة النمطية / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/java/public-api-changes-in-aspose-cells-8-5-1/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.5.0 إلى 8.5.1 التي قد تكون مثيرة لاهتمام مطوري الوحدات/التطبيقات. يشمل ليس فقط الطرق العامة الجديدة والمحدثة و[الفصول المضافة الخ..](/cells/ar/java/public-api-changes-in-aspose-cells-8-5-1/)، ولكن أيضًا وصفًا لأي تغييرات في السلوك الكامن في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **مصنف الطريقة**
-كشف Aspose.Cells for Java 8.5.1 طريقة Workbook.dispose لتحرير الموارد غير المُدارة لكائن المصنف. يتم استخدام نمط التخلص فقط للكائنات التي تصل إلى موارد غير مُدارة ، مثل مقابض الملفات والأنابيب أو مقابض التسجيل أو مقابض الانتظار أو مؤشرات كتل الذاكرة غير المُدارة. هذا لأن جامع القمامة فعال للغاية في استعادة الكائنات المدارة غير المستخدمة ، لكنه غير قادر على استعادة الكائنات غير المُدارة.
+## **واجهات برمجة التطبيقات الجديدة**
+### **تمت إضافة طريقة Workbook.Dispose**
+Aspose.Cells for Java 8.5.1 قام بتعريض طريقة Workbook.dispose لإطلاق موارد غير المُدارة لكائن Workbook. يتم استخدام نمط الإطلاق فقط لكائنات تصل إلى موارد غير مُدارة، مثل مقابض الملفات والأنابيب ومقابض التسجيل ومقابض الانتظار أو مؤشرات على كتل من الذاكرة غير المُدارة. يعود ذلك إلى أن جمع القمامة كفء جدا في استعادة الكائنات المُدارة غير المستخدمة، لكنه غير قادر على استرداد الكائنات غير المدارة.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -26,23 +27,23 @@ Workbook book = new Workbook();
 book.dispose();
 
 {{< /highlight >}}
-### **الطريقة Cell.getHeightOfValue مضافة**
- كشف Aspose.Cells for Java 8.5.1 طريقة Cell.getHeightOfValue للحصول على ارتفاع قيمة الخلية. باستخدام هذه الطريقة ، يمكنك حساب ارتفاع قيمة الخلية ثم تعيين ارتفاع صف تلك الخلية على التوالي. تحقق من المقال المفصل على[كيفية حساب ارتفاع الخلية وعرضها](/cells/ar/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
-### **تمت إضافة جدول التعداد**
-Aspose.Cells for Java 8.5.1 كشف التعداد com.aspose.cells.TableDataSourceType لاسترجاع نوع مصدر البيانات من ListObject. تعداد TableDataSourceType كحقول التالية.
+### **تمت إضافة طريقة Cell.getHeightOfValue**
+Aspose.Cells for Java 8.5.1 قام بتعريض طريقة Cell.getHeightOfValue للحصول على ارتفاع قيمة الخلية. باستخدام هذه الطريقة، يمكنك حساب ارتفاع قيمة الخلية، ثم تعيين ارتفاع صف تلك الخلية على التوالي. تحقق من المقالة المفصلة حول [كيفية حساب ارتفاع وعرض الخلية](/cells/ar/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+### **تمت إضافة تصنيف TableDataSourceType**
+Aspose.Cells for Java 8.5.1 قام بتعريض التصنيف com.aspose.cells.TableDataSourceType لاسترداد نوع مصدر البيانات لكائن ListObject. يحتوي تصنيف TableDataSourceType على الحقول التالية. 
 
 1. TableDataSourceType.QUERY_TABLE
 1. TableDataSourceType.SHARE_POINT
 1. TableDataSourceType.WORKSHEET
 1. TableDataSourceType.XML
 ### **تمت إضافة خاصية ListObject.DataSourceType**
-مع إصدار v8.5.1 ، كشف Aspose.Cells API عن خاصية ListObject.DataSourceType للقراءة فقط والتي يمكن استخدامها للكشف عن نوع مصدر البيانات الخاص بـ ListObject.
+مع إصدار v8.5.1، قامت واجهة برمجة التطبيقات Aspose.Cells بتعريض الخاصية القراءة فقط ListObject.DataSourceType التي يمكن استخدامها لاكتشاف نوع مصدر البيانات لكائن ListObject.
 
-هنا هو أبسط سيناريو استخدام.
+فيما يلي سيناريو الاستخدام الأبسط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("D:/book1.xlsx");
 

@@ -1,14 +1,15 @@
-﻿---
-title: إزالة القطاعة
+---
+title: إزالة قالب التصفية
 type: docs
 weight: 30
 url: /ar/java/removing-slicer/
 ---
-## **سيناريوهات الاستخدام الممكنة**
-إذا كنت تريد إزالة أداة التقطيع في Microsoft Excel ، فما عليك سوى تحديدها والضغط على*حذف*زر. وبالمثل ، إذا كنت تريد إزالته باستخدام Aspose.Cells API برمجيًا ، فيرجى استخدام[Worksheet.getSlicers (). remove ()](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#remove\(com.aspose.cells.Slicer\)) طريقة. سيتم إزالة القطاعة من ورقة العمل.
-## **إزالة القطاعة**
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](67338504.xlsx)الذي يحتوي على مقسم شرائح موجود. يصل إلى القطاعة ثم يزيلها. أخيرًا ، يحفظ المصنف باسم[إخراج ملف Excel](67338502.xlsx). تُظهر لقطة الشاشة التالية أداة التقطيع التي ستتم إزالتها بعد تنفيذ نموذج التعليمات البرمجية.
 
-![ما يجب القيام به: image_بديل_نص](removing-slicer_1.png)
-## **عينة من الرموز**
+## **سيناريوهات الاستخدام المحتملة**
+إذا كنت ترغب في إزالة المقسم في Microsoft Excel ، فقط حدده واضغط على الزر *حذف*. بالمثل، إذا كنت ترغب في إزالته باستخدام واجهة برمجة التطبيقات Aspose.Cells API ، فيرجى استخدام الأسلوب [Worksheet.getSlicers().remove()](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#remove\(com.aspose.cells.Slicer\)) . سيزيل مقسم الجدول من ورقة العمل. 
+## **إزالة قالب التصفية**
+يقوم الكود النموذجي التالي بتحميل الملف Excel العيني الذي يحتوي على مقسم موجود. يصل إلى المقسمات ثم يزيلها. أخيرًا، يحفظ الدفتر بيانات كملف Excel الناتج. توضح لقطة الشاشة التالية المقسم الذي سيتم إزالته بعد تنفيذ الكود العيني.
+
+![todo:image_alt_text](removing-slicer_1.png)
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-RemovingSlicer.java" >}}

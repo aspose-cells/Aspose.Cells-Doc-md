@@ -1,19 +1,20 @@
-﻿---
-title: Paylaşılan Çalışma Kitabında Revizyon Günlüklerinin Geçmişini Koruyan Güncelleme Günleri
+---
+title: Paylaşılan Çalışma Kitabındaki Revizyon Günlüğü Tarihini Koruyan Günlük Günlerini Güncelleme Yöntemi
 type: docs
 weight: 90
 url: /tr/java/update-days-preserving-history-of-revision-logs-in-shared-workbook/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Bir çalışma kitabını paylaştığınızda, şunu söyleyen bir seçenek alırsınız:***N gün boyunca değişiklik geçmişini sakla***aşağıdaki ekran görüntüsünde gösterildiği gibi. Aspose.Cells'i kullanarak geçmişi saklamak için gün sayısını güncelleyebilirsiniz.[**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/java/com.aspose.cells/revisionlogcollection#DaysPreservingHistory)Emlak.
+Çalışma kitabını paylaştığınızda, aşağıdaki ekran görüntüsünde gösterildiği gibi ***N gün boyunca değişiklik geçmişini sakla*** seçeneğini alırsınız. Aspose.Cells ile bu tarihi koruma gün sayısını güncelleyebilirsiniz, [**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/java/com.aspose.cells/revisionlogcollection#DaysPreservingHistory) özelliği ile.
 
-![yapılacaklar:resim_alternatif_metin](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
+![todo:image_alt_text](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
 
-## **Paylaşılan Çalışma Kitabında Revizyon Günlüklerinin Geçmişini Koruyan Güncelleme Günleri**
+## **Paylaşılan Çalışma Kitabındaki Revizyon Günlüğü Tarihini Güncelleme**
 
-Aşağıdaki örnek kod, boş bir çalışma kitabı oluşturur, ardından onu paylaşır ve geçmişi koruyarak revizyon günlüklerini günleri normalde 30 gün olan 7 güne günceller. Lütfen bkz[çıktı excel dosyası](60489784.xlsx)referans için kod tarafından oluşturulur.
+Aşağıdaki örnek kod, boş bir çalışma kitabı oluşturur, ardından paylaşır ve genellikle 30 gün olan revizyon kayıtlarını koruma günlerini 7 gün olarak günceller. Bu kod tarafından oluşturulan [çıkış Excel dosyası](60489784.xlsx) referans için eklenmiştir.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.java" >}}

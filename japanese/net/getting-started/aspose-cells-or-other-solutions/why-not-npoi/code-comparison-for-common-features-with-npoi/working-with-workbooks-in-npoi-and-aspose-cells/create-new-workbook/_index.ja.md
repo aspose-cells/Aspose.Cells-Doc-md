@@ -1,27 +1,28 @@
-﻿---
-title: 新しいワークブックを作成
+---
+title: 新しいブックを作成
 type: docs
 weight: 20
 url: /ja/net/create-new-workbook/
 ---
-## **Aspose.Cells - 新しいワークブックの作成**
-ワークブッククラスは簡単に使用できます
+
+## **Aspose.Cells - 新しいブックを作成**
+Workbookクラスは簡単に使用できます
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
 workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many formats
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 新規ワークブックの作成**
-Workbook クラスを使用して新しい Workbook を作成し、FileOutputStream を使用して保存します。
+## **NPOI - HSSF XSSF - 新しいブックを作成**
+Workbookクラスを使用して新しいブックを作成し、FileOutputStreamを使用して保存してください。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -38,7 +39,7 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**新しいワークブックを作成**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから、**新しいブックを作成**をダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)

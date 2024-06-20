@@ -1,32 +1,35 @@
-﻿---
-title: Birleştir ve Ayır Cells
+---
+title: Hücreleri Birleştirme ve Ayırma
 type: docs
 weight: 60
-url: /tr/net/merge-and-unmerge-cells/
+url: /tr/net/aspose-cells-gridweb/merge-and-unmerge-cells/
+keywords: GridWeb, birleştir,ayır
+description: Bu makale, GridWeb de hücreleri birleştirme/ayırma konusunu tanıtır.
 ---
-{{% alert color="primary" %}} 
-
-Aspose.Cells.GridWeb, hücreleri tek bir büyük hücrede birleştirmenizi sağlayan kullanışlı bir yardımcı program özelliğine sahiptir. Bu konu, hücrelerin program aracılığıyla nasıl birleştirileceğini açıklar.
-
-{{% /alert %}} 
-## **Birleştirme Cells**
-Cells koleksiyonunun Merge yöntemini çağırarak bir çalışma sayfasındaki birden çok hücreyi tek bir hücrede birleştirin. Merge yöntemi çağrılırken birleştirilecek hücre aralığını belirtin.
 
 {{% alert color="primary" %}} 
 
-Birden çok hücreyi birleştirirseniz ve her hücre veri içeriyorsa, birleştirmeden sonra yalnızca aralıktaki sol üst hücrenin içeriği korunur. Diğer hücrelerdeki veriler kaybolmaz. Hücreleri ayırırsanız, her hücre kendi verilerini kurtarır.
+Aspose.Cells.GridWeb, hücreleri tek büyük bir hücreye birleştirmenizi sağlayan kullanışlı bir özellik içermektedir. Bu konu, hücreleri programlı olarak nasıl birleştireceğinizi açıklar.
+
+{{% /alert %}} 
+## **Hücreleri Birleştirme**
+Çoklu hücreyi bir çalışma sayfasındaki tek bir hücreye Cells koleksiyonunun Merge yöntemini çağırarak birleştirin. Merge yöntemini çağırırken birleştirilecek hücre aralığını belirtin.
+
+{{% alert color="primary" %}} 
+
+Birden fazla hücreyi birleştirirseniz ve her hücre veri içeriyorsa, birleştirme sonrasında aralıktaki sol üst hücrenin içeriği elde tutulur. Diğer hücrelerdeki veriler kaybolmaz. Hücreleri ayırırsanız, her hücre kendi verilerini geri alır.
 
 {{% /alert %}} 
 
-**Dört hücre tek hücrede birleştirildi** 
+**Dört hücre tek bir hücreye birleştirildi** 
 
-![yapılacaklar:resim_alternatif_metin](merge-and-unmerge-cells_1.png)
+![todo:image_alt_text](merge-and-unmerge-cells_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-MergeCells.aspx-MergeCells.cs" >}}
-## **Ayrılıyor Cells**
-Hücreleri ayırmak için, Merge yöntemiyle aynı parametreleri alan ve hücrelerin ayrılmasını gerçekleştiren Cells koleksiyonunun UnMerge yöntemini kullanın.
+## **Hücreleri Ayırma**
+Hücreleri ayırmak için, Merge yönteminin aynı parametreleri alan ve hücreleri ayırma işlemini gerçekleştiren Cells koleksiyonunun UnMerge yöntemini kullanın.
 
 
 

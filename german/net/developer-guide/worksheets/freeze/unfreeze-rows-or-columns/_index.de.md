@@ -1,35 +1,34 @@
 ---
-title: Freigeben von Zeilen oder Spalten
-linktitle: Scheiben auftauen
+title: Zeilen oder Spalten fixieren
+linktitle: Fenster fixieren
 type: docs
 weight: 190
 url: /de/net/unfreeze-rows-or-columns-of-excel-worksheet
-description: In diesem Artikel erfahren Sie, wie Sie Zeilen, Spalten oder Bereiche von Excel-Arbeitsblättern programmgesteuert mithilfe der Bibliothek C# mit .NET API freigeben.
-keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window.
+description: In diesem Artikel erfahren Sie, wie Sie Zeilen, Spalten oder Fenster von Excel Arbeitsblättern programmgesteuert mithilfe der C# Bibliothek und der .NET API wieder fixieren.
+keywords: Fenster fixieren, Zeilen fixieren, Spalten fixieren, Fenster nicht fixieren.
 ---
-{{% alert color="primary" %}}
 
-In diesem Artikel erfahren Sie, wie Sie die Fixierung von Zeilen, Spalten und Fenstern aufheben.
-Wenn Arbeitsblätter in den Excel-Dateien eingefroren sind, möchten wir manchmal die Arbeitsblattfreigabe aufheben oder eingefrorene Zeilen, Spalten oder Bereiche anpassen.
+## **Einführung**
 
-{{% /alert %}}
+In diesem Artikel erfahren Sie, wie man Zeilen, Spalten und Fenster entfrostet. Wenn Arbeitsblätter in den Excel-Dateien eingefroren sind, möchten wir manchmal das Arbeitsblatt entfrosten oder eingefrorene Zeilen, Spalten oder Fenster anpassen.
 
-##  **In Excel**
 
-1. Klicken Sie auf die Registerkarte „Ansicht“ > „Fenster einfrieren“ > „Fenster einfrieren“.
+## **In Excel**
 
-**![Fenster in Excel freigeben](Unfreeze-Panes.png)**
+1. Klicken Sie auf die Registerkarte Ansicht > Fenster fixieren > Fenster nicht fixieren.
 
+**![Fenster nicht fixieren in Excel](Unfreeze-Panes.png)**
 
 
 
-##  **Entsperren Sie Zeilen, Spalten oder Bereiche mit Aspose.Cells für .Net**
- Es ist einfach, Fenster mit Aspose.Cells für .Net freizugeben. Bitte nutzen Sie die[**Arbeitsblatt.UnFreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/unfreezepanes)Methode zum Entsperren von Scheiben.
 
-1. Arbeitsmappe erstellen, um die eingefrorene Datei zu öffnen.
-2. Geben Sie die Fixierung der Fenster mit der Methode Worksheet.UnFreezePanes() frei.
-3. Speichern Sie die Datei.
+## **Unfreezen von Zeilen, Spalten oder Bereichen mit Aspose.Cells für .NET**
+Mit Aspose.Cells for .NET ist es einfach, Fenster zu entfrieren. Bitte verwenden Sie die [**Worksheet.UnFreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/unfreezepanes)-Methode zum Entfrieren der Fenster.
+
+1. Arbeitsmappe erstellen, um die gefrorene Datei zu öffnen.
+2. Entfrieren von Fenstern mit der Methode Worksheet.UnFreezePanes().
+3. Die Datei speichern.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
- Beigefügt[Beispiel einer Excel-Quelldatei](Frozen.xlsx).
+Angehängte [Beispiel-Excel-Quelldatei](Frozen.xlsx).

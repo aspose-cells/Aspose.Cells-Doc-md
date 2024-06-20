@@ -1,49 +1,50 @@
 ---
-title: Cells GridWeb の操作
+title: Cells GridWebでの作業
 type: docs
 weight: 50
 url: /ja/java/working-with-cells-gridweb/
 ---
-##  **ワークシートで Cells にアクセスする**
-このトピックでは、GridWeb の最も基本的な機能であるセルへのアクセスについて説明し、セルについて説明します。
 
-各ワークシートには、GridCell オブジェクトのコレクションである GridCells オブジェクトが含まれています。 GridCell オブジェクトは、Aspose.Cells.GridWeb のセルを表します。 GridWeb を使用して任意のセルにアクセスできます。推奨される方法は 2 つあります。
+## **ワークシート内のセルへのアクセス**
+このトピックでは、セルにアクセスするためのGridWebの基本的な機能であるセルへのアクセスについて説明します。
 
-- [名前によるセルへのアクセス](/cells/ja/java/working-with-cells-gridweb/).
-- [行インデックスと列インデックスによるセルへのアクセス](/cells/ja/java/working-with-cells-gridweb/).
+各ワークシートにはGridCellsオブジェクト、GridCellオブジェクトのコレクションが含まれています。GridCellオブジェクトはAspose.Cells.GridWebのセルを表します。GridWebを使用して任意のセルにアクセスすることができます。2つの推奨される方法があります。
+
+- [名前によるセルのアクセス](/cells/ja/java/working-with-cells-gridweb/)
+- [行および列インデックスによるセルのアクセス](/cells/ja/java/working-with-cells-gridweb/)
 
 以下では、それぞれのアプローチについて説明します。
-###  **Cell の名前を使用する**
-すべてのセルには一意の名前が付いています。たとえば、A1、A2、B1、B2 などです。 Aspose.Cells.GridWeb を使用すると、開発者はセル名を使用して任意のセルにアクセスできます。セル名を (インデックスとして) GridWorksheet の GridCells コレクションに渡すだけです。
+### **セル名の使用**
+すべてのセルにはユニークな名前があります。例えば、A1、A2、B1、B2などです。Aspose.Cells.GridWebを使用すると、目的のセルにcell nameを使ってアクセスすることができます。単にcell name（インデックスとして）をGridWorksheetのGridCellsコレクションに渡します。
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-Accessingcellbyname-Accessingcellbyname.jsp" >}}
 
 
-###  **行と列のインデックスの使用**
-セルは、行インデックスと列インデックスの観点からその位置によって認識することもできます。セルの行インデックスと列インデックスを GridWorksheet の GridCells コレクションに渡すだけです。このアプローチは上記のアプローチよりも高速です。
+### **行と列のインデックスを使用する**
+セルは、行および列インデックスの位置によっても認識できます。セルの行および列インデックスをGridWorksheetのGridCellsコレクションに渡すだけです。このアプローチは、上記のものよりも高速です。
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-Accessingcellbyrowandcolumnindices-Accessingcellbyrowandcolumnindices.jsp" >}}
-##  **Cell の値へのアクセスと変更**
-[ワークシートで Cells にアクセスする](/cells/ja/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet)セルへのアクセスについて説明しました。このトピックでは、その説明を拡張して、GridWeb API を使用してセル値にアクセスし、変更する方法を示します。
-###  **Cell の値へのアクセスと変更**
-####  **文字列値**
-セルの値にアクセスして変更する前に、セルにアクセスする方法を知っておく必要があります。セルにアクセスするためのさまざまなアプローチの詳細については、を参照してください。[ワークシートで Cells にアクセスする](/cells/ja/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet).
+## **セルの値へのアクセスと変更**
+[ワークシート内のセルへのアクセス](/cells/ja/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) でセルへのアクセス方法について説明しました。このトピックでは、GridWeb APIを使用してセルの値にアクセスして変更する方法について説明します。
+### **セルの値のアクセスおよび変更**
+#### **文字列の値**
+セルの値へのアクセスと変更の前に、どのようにセルにアクセスするかを知る必要があります。セルへのアクセスの異なるアプローチの詳細については、[ワークシート内のセルへのアクセス](/cells/ja/java/working-with-cells-gridweb/#workingwithcellsgridweb-accessingcellsintheworksheet) を参照してください。
 
-各セルには getStringValue() という名前のプロパティがあります。セルにアクセスすると、開発者は getStringValue() メソッドにアクセスしてセルの文字列値にアクセスできます。
+各セルには、getStringValue()というプロパティがあります。セルにアクセスすると、開発者はgetStringValue()メソッドを使用してセルの文字列値にアクセスできます。
 
 {{% alert color="primary" %}} 
 
-重要: 5 種類の値 (Boolean、int、double、DateTime、string) をセルに格納できますが、getValue()/setValue() メソッドはオブジェクト値へのアクセスや変更にのみ使用できます。
+重要: セルには真偽値、整数、倍精度浮動小数点数、日付と時刻、文字列の5種類の値を格納することができますが、getValue()/setValue()メソッドはオブジェクトの値にしかアクセス/変更できません。
 
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-AccessingModifyingCellStringValue-AccessingModifyingCellStringValue.jsp" >}}
-####  **すべてのタイプの値**
-Aspose.Cells.GridWeb は、各セルに対して特別なメソッド putValue も提供します。このメソッドを使用すると、セルに任意のタイプの値 (Boolean、int、double、DateTime、string) を挿入または変更できます。
+#### **すべての種類の値**
+Aspose.Cells.GridWebは各セルに対してputValueという特別なメソッドも提供しています。このメソッドを使うと、セルに真偽値、整数、倍精度浮動小数点数、日付と時刻、文字列など、任意の種類の値を挿入または変更できます。
 
 
 
@@ -51,21 +52,21 @@ Aspose.Cells.GridWeb は、各セルに対して特別なメソッド putValue �
 
 
 
-putValue メソッドのオーバーロードされたバージョンもあり、文字列形式であらゆる種類の値を受け取り、それを適切なデータ型に自動的に変換できます。これを実現するには、以下の例に示すように、ブール値 true を putValue メソッドの別のパラメーターに渡します。
+putValueメソッドには、任意の種類の値を文字列形式で受け取り、自動的に適切なデータ型に変換するオーバーロードされたバージョンもあります。これを実現するためには、putValueメソッドの別のパラメータにtrueという真偽値を渡します。
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-AccessingModifyingCellAllTypeValue-AccessingModifyingCellAllTypeValue.jsp" >}}
-##  **Cells に数式を追加する**
-Aspose.Cells.GridWeb が提供する最も価値のある機能は、数式または関数のサポートです。 Aspose.Cells.GridWeb には、ワークシート内の数式を計算する独自の数式エンジンがあります。 Aspose.Cells.GridWeb は、組み込み関数とユーザー定義の関数または数式の両方をサポートしています。このトピックでは、Aspose.Cells.GridWeb API を使用してセルに数式を追加する方法について詳しく説明します。
-###  **数式を追加して計算するにはどうすればよいですか?**
-セルの Formula プロパティを使用して、セル内の数式を追加、アクセス、および変更することができます。 Aspose.Cells.GridWeb は、単純なものから複雑なものまで、ユーザー定義の数式をサポートしています。ただし、多数の組み込み関数または数式 (Microsoft Excel と同様) も Aspose.Cells.GridWeb で提供されます。組み込み関数の完全なリストを確認するには、これを参照してください。[サポートされている機能のリスト。](/cells/ja/net/list-of-supported-functions/)
+## **セルに数式を追加する**
+Aspose.Cells.GridWebが提供する最も価値のある機能は、数式や関数のサポートです。Aspose.Cells.GridWebには、ワークシート内の数式を計算するための独自の数式エンジンがあります。Aspose.Cells.GridWebは、組み込みの関数やユーザー定義の関数または数式の両方をサポートしています。このトピックでは、Aspose.Cells.GridWeb APIを使用してセルに数式を追加する方法について詳しく説明します。
+### **数式の追加と計算方法**
+セルのFormulaプロパティを使用することで、セルに数式を追加し、アクセスして変更することが可能です。Aspose.Cells.GridWebは、単純なものから複雑なものまでのユーザー定義の数式をサポートしています。ただし、大量の組み込み関数または数式（Microsoft Excelに類似）もAspose.Cells.GridWebには付属しています。組み込みの関数の完全なリストを見るには、[サポートされている関数のリスト](/cells/ja/net/list-of-supported-functions/)を参照してください。
 
 {{% alert color="primary" %}} 
 
-数式の構文は Microsoft Excel の構文と互換性がある必要があります。たとえば、すべての数式は等号 (=) で始まる必要があります。
+数式の構文は、Microsoft Excelの構文と互換性がある必要があります。たとえば、すべての数式は等号（=）で始まらなければなりません。
 
-プログラムで数式を追加するには、*=* 記号を使用しなくても、Aspose.Cells.GridWeb はその数式を数式として認識しますが、GUI で作業するエンド ユーザーがそれを使用する必要がある場合に限ります。
+Aspose.Cells.GridWebでは数式をプログラムで追加する場合、**=**を使用しなくてもAspose.Cells.GridWebはそれを数式として認識しますが、GUIで作業するエンドユーザーがそれを使用する必要があります。
 
 {{% /alert %}} 
 
@@ -73,75 +74,75 @@ Aspose.Cells.GridWeb が提供する最も価値のある機能は、数式ま�
 
 
 
-**B3 セルに数式が追加されましたが、GridWeb によって計算されませんでした** 
+**B3セルに追加された数式をGridWebによって計算されていません** 
 
 ![todo:image_alt_text](working-with-cells-gridweb_1.png)
 
-上のスクリーンショットでは、数式が B3 に追加されましたが、まだ計算されていないことがわかります。すべての数式を計算するには、以下に示すようにワークシートに数式を追加した後、 GridWeb コントロールの GridWorksheetCollection の CalculateFormula メソッドを呼び出します。
+上記のスクリーンショットでは、B3に数式が追加されていますが、まだ計算されていません。すべての数式を計算するには、数式がワークシートに追加された後、GridWebコントロールのGridWorksheetCollectionのcalculateFormulaメソッドを呼び出してください。
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CalculateFormula-CalculateFormula.jsp" >}}
 
-ユーザーは、[*送信**] をクリックして数式を計算することもできます。
+ユーザーは**送信**をクリックして数式を計算することもできます。
 
-**GridWebのSubmitボタンをクリック** 
+**GridWebの送信ボタンをクリック** 
 
 ![todo:image_alt_text](working-with-cells-gridweb_2.png)
 
-**重要**: ユーザーが [**保存] をクリックすると、**または**元に戻す**ボタン、またはシート タブ、すべての数式は GridWeb によって自動的に計算されます。
+**重要**: ユーザーが**保存**ボタン、**元に戻す**ボタン、またはシートタブをクリックすると、すべての数式が自動的にGridWebによって計算されます。
 
-**計算後の計算結果** 
+**計算後の数式の結果** 
 
 ![todo:image_alt_text](working-with-cells-gridweb_3.png)
-###  **他のワークシートから Cells を参照する**
-Aspose.Cells.GridWeb を使用すると、さまざまなワークシートに保存されている値を数式で参照し、複雑な数式を作成することができます。
+### **他のワークシートからセルを参照する**
+Aspose.Cells.GridWebを使用すると、異なるワークシートに格納されている値をその数式で参照して、複雑な数式を作成することが可能です。
 
-別のワークシートのセル値を参照するための構文は SheetName!CellName です。
+異なるワークシートからセルの値を参照する構文はSheetName!CellNameです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-ReferencingCellsfromOtherWorksheets-ReferencingCellsfromOtherWorksheets.jsp" >}}
-##  **GridWeb の GridCell でデータ検証を作成する**
-Aspose.Cells.GridWeb を使用すると追加できます**データ検証**GridWorksheet.getValidations().add() メソッドを使用します。このメソッドを使用する場合は、**Cell 範囲**。ただし、単一の GridCell でデータ検証を作成する場合は、GridCell.createValidation() メソッドを使用して直接実行できます。同様に、**データ検証を削除できます。** GridCell.removeValidation() メソッドを使用して GridCell から取得します。
+## **GridWebのGridCellにデータの妥当性を作成する**
+Aspose.Cells.GridWebでは、GridWorksheet.getValidations().add()メソッドを使用して**データの妥当性**を追加できます。このメソッドを使用すると、**セル範囲**を指定する必要があります。ただし、単一のGridCellにデータの妥当性を作成する場合は、GridCell.createValidation()メソッドを直接使用することができます。同様に、GridCell.removeValidation()メソッドを使用してGridCellから**データの妥当性**を削除することもできます。
 
-次のサンプル コードは、**データ検証**セルB3内。 20 ～ 40 の範囲外の値を入力すると、セル B3 に次のように表示されます。**検証エラー**の形で**レッドXXXX**このスクリーンショットに示されているように。
+次のサンプルコードは、セルB3に**データの妥当性**を作成します。20から40の範囲外の値を入力すると、このスクリーンショットに示されているように、セルB3に**バリデーションエラー**が**赤のXXXX**の形で表示されます。
 
 ![todo:image_alt_text](working-with-cells-gridweb_4.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CreateDataValidationinGridCellofGridWeb-CreateDataValidationinGridCellofGridWeb.jsp" >}}
-##  **カスタムコマンドボタンの作成**
-Aspose.Cells.GridWeb には、送信、保存、元に戻すなどの特別なボタンが含まれています。これらのボタンはすべて、Aspose.Cells.GridWeb の特定のタスクを実行します。カスタム タスクを実行するカスタム ボタンを追加することもできます。このトピックでは、この機能の使用方法について説明します。
+## **カスタムコマンドボタンの作成**
+Aspose.Cells.GridWebには、送信、保存、元に戻すといった特別なボタンがあります。これらのボタンはAspose.Cells.GridWebの特定のタスクを実行します。また、カスタムタスクを実行するカスタムボタンを追加することも可能です。このトピックでは、この機能の使用方法について説明します。
 
-次のサンプル コードでは、カスタム コマンド ボタンを作成する方法と、そのクリック イベントを処理する方法を説明します。カスタム コマンド ボタンには任意のアイコンを使用できます。説明のために、この画像アイコンを使用しました。
+次のサンプルコードは、カスタムコマンドボタンの作成方法とそのクリックイベントの処理方法を説明しています。カスタムコマンドボタンには任意のアイコンを使用できます。理解しやすくするために、この画像アイコンを使用しました。
 
 ![todo:image_alt_text](working-with-cells-gridweb_5.png)
 
-次のスクリーンショットでわかるように、ユーザーがカスタム コマンド ボタンをクリックすると、セル A1 に次のテキストが追加されます。**「カスタム コマンド ボタンがクリックされました。」**
+次のスクリーンショットでわかるように、ユーザーがカスタムコマンドボタンをクリックすると、セルA1に**"My Custom Command Button is Clicked."**というテキストが追加されます。
 
 ![todo:image_alt_text](working-with-cells-gridweb_6.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CreatingCustomCommandButtons-CreatingCustomCommandButtons.jsp" >}}
-###  **カスタムコマンドボタンのイベント処理**
-次のサンプル コードは、カスタム コマンド ボタンのイベント処理を実行する方法を説明します。
+### **カスタムコマンドボタンのイベント処理**
+次のサンプルコードでは、カスタムコマンドボタンのイベント処理方法について説明しています。
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-EventHandlingofCustomCommandButton-EventHandlingofCustomCommandButton.jsp" >}}
-##  **GridWeb のセルの書式設定**
-###  **考えられる使用シナリオ**
-GridWeb では、ユーザーがセル データを 3% などのパーセント形式で入力できるようになりました。セル内のデータは自動的に 3.00% として形式設定されます。ただし、セル スタイルを Percentage Format (GridTableItemStyle.NumberType の 9 または 10) に設定する必要があります。数値 9 は 3% を 3% としてフォーマットしますが、数値 10 は 3% を 3.00% としてフォーマットします。
+## **GridWebのセルの書式設定**
+### **可能な使用シナリオ**
+GridWebは今、ユーザーが3%などのパーセント形式でセルデータを入力できるようにサポートしており、セルのデータは自動的に3.00%のようにフォーマットされます。しかし、セルスタイルをパーセンテージ形式に設定する必要があります。これはGridTableItemStyle.NumberTypeの9または10です。数字9は3%を3%としてフォーマットしますが、数字10は3%を3.00%としてフォーマットします。
 
 {{% alert color="primary" %}} 
 
-セル スタイルをパーセント形式に設定していない場合、入力データ 3% は 0.03 として表示されます。
+セルスタイルをパーセント形式に設定していない場合、入力データ3%は0.03として表示されます。
 
 {{% /alert %}} 
-###  **GridWeb ワークシートの Cell データをパーセント形式で入力します**
-次のサンプル コードでは、セル A1 GridTableItemStyle.NumberType を 10 に設定します。したがって、スクリーンショットに示すように、入力データ 3% は自動的に 3.00% として書式設定されます。
+### **GridWebワークシートのセルデータをパーセント形式で入力する**
+次のサンプルコードはセルA1のGridTableItemStyle.NumberTypeを10に設定しています。したがって、入力データ3%は自動的に3.00%としてフォーマットされます（スクリーンショットを参照）。
 
 ![todo:image_alt_text](working-with-cells-gridweb_7.png)
-###  **サンプルコード**
+### **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-EnterCellDataofGridWebWorksheet-EnterCellDataofGridWebWorksheet.jsp" >}}

@@ -1,10 +1,11 @@
-﻿---
-title: Förhandsgranskar dokument
+---
+title: Förhandsvisning av dokument
 type: docs
 weight: 40
 url: /sv/sharepoint/previewing-document/
 ---
-Aspose.Cells för Share Point stöder förhandsgranskning av dokument direkt från SharePoint. Följande format stöder förhandsvisning:
+
+Aspose.Cells för Share Point stödjer förhandsgranskning av dokument direkt från SharePoint. Följande format stödjer förhandsvisning:
 
 - XLS – Microsoft Excel 97 - 2003
 - XLSX – Office Open XML
@@ -17,7 +18,7 @@ Aspose.Cells för Share Point stöder förhandsgranskning av dokument direkt fr�
 
 
 
-**Dokumentförhandsgranskning från ett SharePoint-bibliotek** 
+**Dokumentförhandsvisning från en SharePoint-bibliotek** 
 
 ![todo:image_alt_text](previewing-document_2.png)
 

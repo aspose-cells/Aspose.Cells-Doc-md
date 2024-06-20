@@ -1,25 +1,26 @@
 ---
-title: Verwendung der AbstractCalculationEngine-Funktion
+title: Verwendung der AbstractCalculationEngine Funktion
 type: docs
 weight: 20
 url: /de/cpp/using-abstractcalculationengine-feature/
 ---
-##  Die Funktionen befinden sich noch in der Entwicklung, also bleiben Sie dran.
+
+## Die Funktionen sind noch in Entwicklung, also bleiben Sie dran.
 
 
-##  **Einführung**
- In diesem Artikel erfahren Sie, wie Sie das verwenden[AbstractCalculationEngine](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/) Funktion zum Implementieren benutzerdefinierter Funktionen mit Aspose.Cells-APIs.
+## **Einführung**
+Dieser Artikel bietet ein Verständnis dafür, wie Sie die [AbstractCalculationEngine](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/) Funktion verwenden können, um benutzerdefinierte Funktionen mit den Aspose.Cells APIs zu implementieren.
 
 <!--
 
-The AbstractCalculationEngine interface allows you to add custom formula calculation functions to extend the Aspose.Cells core calculation engine in order to meet certain requirements. This feature is useful to define custom (user defined) functions in a template file or in a code where the custom function can be implemented and evaluated using Aspose.Cells APIs like any other default Microsoft Excel function.
-## **Using AbstractCalculationEngine Feature**
-The following sample code implements the AbstractCalculationEngine interface which evaluates and returns the values of the two custom functions i.e. MySampleFunc() and YourSampleFunc(). These custom functions are inside the cells A1 and A2 respectively. Then it calls the Workbook.CalculateFormula(const CalculationOptions& options) method to invoke the implementation of AbstractCalculationEngine .Calculate(CalculationData& data) method. Then, it prints the values of A1 and A2 on console. Please see the Console Output of the sample code below for more help.
-## **Sample Code**
+Die AbstractCalculationEngine-Schnittstelle ermöglicht es Ihnen, benutzerdefinierte Formelberechnungsfunktionen hinzuzufügen, um den Aspose.Cells-Kernberechnungsmotor zu erweitern, um bestimmte Anforderungen zu erfüllen. Diese Funktion ist nützlich, um benutzerdefinierte Funktionen in einer Vorlagendatei oder in einem Code zu definieren, in dem die benutzerdefinierte Funktion mit Aspose.Cells APIs implementiert und bewertet werden kann, wie eine andere Standard-Microsoft Excel-Funktion.
+## **Verwendung der AbstractCalculationEngine-Funktion**
+Der folgende Beispielcode implementiert die AbstractCalculationEngine-Schnittstelle, die die Werte der beiden benutzerdefinierten Funktionen MySampleFunc() und YourSampleFunc() bewertet und zurückgibt. Diese benutzerdefinierten Funktionen sind in den Zellen A1 und A2 enthalten. Dann ruft es die Workbook.CalculateFormula(const CalculationOptions& options) Methode auf, um die Implementierung der AbstractCalculationEngine .Calculate(CalculationData& data) Methode aufzurufen. Dann druckt es die Werte von A1 und A2 auf der Konsole aus. Bitte beachten Sie die Konsolenausgabe des Beispielcodes unten für mehr Hilfe.
+## **Beispielcode**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-UsingICustomFunctionFeature-new.cpp" >}}
 
 
-## **Console Output**
+## **Konsolenausgabe**
 {{< highlight java >}}
 
  Value of A1: MY sample function was called successfully.

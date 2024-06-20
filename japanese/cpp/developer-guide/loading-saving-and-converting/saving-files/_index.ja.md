@@ -4,24 +4,31 @@ type: docs
 weight: 20
 url: /ja/cpp/saving-files/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells を使用すると、ファイルの作成と保存、および既存のファイルの操作が可能になります。この記事では、ファイルを保存するさまざまな方法について説明します。
+Aspose.Cellsを使用すると、ファイルの作成や保存、既存のファイルの操作が可能になります。この記事では、ファイルを保存するさまざまな方法について説明します。
 
 {{% /alert %}} 
-##  **ファイルを保存するさまざまな方法**
- Aspose.Cells は、[ワークブック](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)これは Microsoft Excel ファイルを表し、Excel ファイルを操作するために必要なメソッドを提供します。の[ワークブック](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)クラスが提供するのは、[保存](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) Excel ファイルを保存するために使用されるメソッド。の[保存](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)メソッドには、さまざまな方法でファイルを保存するために使用される多くのオーバーロードがあります。ファイルが保存されるファイル形式は、[保存形式](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/)列挙。
-##  **ファイルを任意の場所に保存する**
-ファイルを保管場所に保存するには、ファイル名 (保管パスを含む) と希望のファイル形式 (ファイル形式から指定) を指定します。[保存形式](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/)列挙型) を呼び出すとき[ワークブック](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)オブジェクトの[保存](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)方法。
+## **ファイルを保存する異なる方法**
+Aspose.CellsはMicrosoft Excelファイルを表す[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)を提供し、Excelファイルと操作するために必要なメソッドを提供します。[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)クラスはExcelファイルを保存するために使用される[Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)メソッドを提供します。[Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)メソッドには、ファイルをさまざまな方法で保存するための多くのオーバーロードがあります。ファイルの保存形式は[SaveFormat](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/)列挙型によって決定されます。
+## **ファイルを任意の場所に保存する**
+ファイルを保存するには、[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)オブジェクトの[Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)メソッドを呼び出す際に、ファイル名（ストレージパスを含む）と[SaveFormat](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/)列挙型から望ましいファイル形式を指定します。
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-SavingFiles-SavingFileToSomeLocation-new.cpp" >}}
 
 
-##  **ファイルをストリームに保存する**
-ファイルをストリームに保存するには、MemoryStream または FileStream オブジェクトを作成し、メソッドを呼び出してファイルをそのストリーム オブジェクトに保存します。[ワークブック](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)オブジェクトの[保存](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)方法。を使用して希望のファイル形式を指定します。[保存形式](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/)を呼び出すときの列挙[保存](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)方法。
+## **ストリームにファイルを保存する**
+ファイルをストリームに保存するには、MemoryStreamまたはFileStreamオブジェクトを作成し、[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)オブジェクトの[Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)メソッドを呼び出してそのストリームオブジェクトにファイルを保存します。[Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)メソッドを呼び出す際に、[SaveFormat](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/)列挙型を使用して望ましいファイル形式を指定します。
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-SavingFiles-SavingFileToStream-new.cpp" >}}
+
+## **PDFにファイルを保存する**
+希望するコンテンツを PDF ファイルとして保存するために Aspose.Cells for C++ ライブラリを使用する方法について説明されています。[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) オブジェクトを作成するか、既存の Excel ファイルを読み込んで [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) オブジェクトを構築し、[Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) メソッドを呼び出してファイルを PDF に保存します。Save メソッドを呼び出す際には、[SaveFormat](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) 列挙型を使用して希望するファイル形式を指定します。
+
+
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-SavingFiles-SavingFileToPdf-new.cpp" >}}

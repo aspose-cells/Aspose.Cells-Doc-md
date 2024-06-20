@@ -1,21 +1,22 @@
-﻿---
-title: Schützen Sie die freigegebene Arbeitsmappe mit einem Kennwort oder heben Sie den Schutz auf
-linktitle: Freigegebene Arbeitsmappe schützen oder Schutz aufheben
+---
+title: Arbeitsmappe mit Kennwort schützen oder entschützen
+linktitle: Arbeitsmappe schützen oder entschützen
 type: docs
 weight: 70
 url: /de/java/password-protect-or-unprotect-the-shared-workbook/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Sie können die freigegebene Arbeitsmappe mit Microsoft Excel schützen oder den Schutz aufheben, wie im folgenden Screenshot gezeigt. Aspose.Cells unterstützt diese Funktion auch mit der[**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) und[**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)) Methoden.
+## **Mögliche Verwendungsszenarien**
 
-![todo: Bild_alt_Text](password-protect-or-unprotect-the-shared-workbook_1.png)
+Sie können die freigegebene Arbeitsmappe in Microsoft Excel schützen oder entschützen, wie im folgenden Screenshot gezeigt. Aspose.Cells unterstützt diese Funktion auch mit den Methoden [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) und [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)).
 
-## **Schützen Sie die freigegebene Arbeitsmappe mit einem Kennwort oder heben Sie den Schutz auf**
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
-Der folgende Beispielcode erstellt eine Arbeitsmappe und schützt sie, während er die Freigabe aktiviert und sie speichert unter[Excel-Datei ausgeben](55541800.xlsx). Der Screenshot zeigt, dass Microsoft Excel Sie beim Versuch, den Schutz aufzuheben, auffordert, das Kennwort einzugeben, um den Schutz aufzuheben.
+## **Freigegebenes Arbeitsblatt passwortgeschützt oder nicht passwortgeschützt machen**
 
-![todo: Bild_alt_Text](password-protect-or-unprotect-the-shared-workbook_2.png)
+Der folgende Beispielcode erstellt eine Arbeitsmappe und schützt sie, während die Freigabe aktiviert ist, und speichert sie als [Ausgabedatei Excel](55541800.xlsx). Auf dem Screenshot ist zu sehen, dass beim Versuch, sie zu entschützen, Microsoft Excel Sie auffordert, das Passwort zum Entsperren einzugeben.
+
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)
 
 ## **Beispielcode**
 

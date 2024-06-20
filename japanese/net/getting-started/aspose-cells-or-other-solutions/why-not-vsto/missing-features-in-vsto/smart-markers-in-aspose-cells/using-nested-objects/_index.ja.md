@@ -1,14 +1,15 @@
-﻿---
-title: ネストされたオブジェクトの使用
+---
+title: ネストされたオブジェクトを使用する
 type: docs
 weight: 50
 url: /ja/net/using-nested-objects/
 ---
-Aspose.Cells は、スマート マーカーでネストされたオブジェクトをサポートします。ネストされたオブジェクトは単純でなければなりません。**個人**以下のコードでは、ユーザーがクラスを定義する必要があります。
 
-シンプルなテンプレート ファイルを使用します。ネストされたスマート マーカーを含むデザイナー スプレッドシートを参照してください。
+Aspose.Cellsはスマートマーカーでネストされたオブジェクトをサポートしており、ネストされたオブジェクトは単純である必要があります。以下のコードでは、ユーザーが**Individual**クラスを定義する必要があります。
 
-{{< highlight "csharp" >}}
+簡単なテンプレートファイルを使用します。いくつかのネストされたスマートマーカーを含むデザイナースプレッドシートを参照してください。
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -63,5 +64,5 @@ designer.Workbook.Save(FileName);
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)

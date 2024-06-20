@@ -1,22 +1,23 @@
-﻿---
-title: Rechercher des tables de requête et des objets de liste liés aux connexions de données externes
+---
+title: Trouver des tables de requête et des objets liste liés aux connexions de données externes
 type: docs
 weight: 20
 url: /fr/java/find-query-tables-and-list-objects-related-to-external-data-connections/
 ---
-## **Rechercher des tables de requête et des objets de liste liés aux connexions de données externes**
 
-Parfois, vous devez trouver des tables de requête et des objets de liste liés à une connexion de données externe. Les tables de requête sont liées à l'objet de connexion de données externes avec l'ID de connexion, tandis que les objets de liste sont liés à une table de requête.
+## **Trouver des Tables de Requête et des Objets Liste liés aux Connexions de Données Externes**
 
- L'exemple de code suivant explique comment vous pouvez rechercher des tables de requête et des objets de liste liés à la connexion de données externes. Le code utilise le[exemple de fichier excel](5472550.xlsm) que vous pouvez télécharger à partir du lien fourni. Vous pouvez également voir la sortie de cet exemple de code au bas de cet article.
+Parfois, vous devez trouver des tables de requête et des objets liste liés à une connexion de données externe. Les tables de requête sont liées à l'objet de connexion de données externe avec l'ID de connexion, tandis que les objets liste sont liés à une table de requête.
+
+Le code d'exemple suivant explique comment trouver les tables de requête et les objets liste liés à une connexion de données externe. Le code utilise le [fichier Excel exemple](5472550.xlsm) que vous pouvez télécharger à partir du lien fourni. Vous pouvez également voir la sortie de ce code exemple en bas de cet article.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-FindReferenceCellsFromExternalConnection-FindReferenceCellsFromExternalConnection.java" >}}
 
 ## **Sortie console**
 
- Voici la sortie de la console de l'exemple de code ci-dessus en utilisant this[exemple de fichier excel](5472550.xlsm).
+Voici la sortie console du code d'exemple ci-dessus en utilisant ce [fichier Excel exemple](5472550.xlsm).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 connection: AAPL Connection
 

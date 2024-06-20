@@ -1,22 +1,25 @@
-﻿---
-title: Sütun Filtre Sunucusu Yan Olaylarını İşle
+---
+title: Sütun Filtre Sunucu Tarafı Olaylarını Kullanımı
 type: docs
 weight: 90
-url: /tr/net/handle-column-filter-server-side-events/
+url: /tr/net/aspose-cells-gridweb/handle-column-filter-server-side-events/
+keywords: GridWeb,filter,OnBeforeColumnFilter,OnAfterColumnFilter
+description: Bu makale, GridWeb de sütun filtre olayını nasıl ele alınacağını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Veri filtreleme, muhtemelen verileri belirli bir kritere göre filtrelemenize izin veren en yaygın kullanılan Excel özelliğidir. Filtrelenen veriler, ölçütü karşılamayan satırları gizleyerek yalnızca koşulu sağlayan satırları görüntüler.
-Aspose.Cells.GridWeb bileşeni, arayüzünü kullanarak veri filtrelemeyi gerçekleştirme olanağı sağlar. Aspose.Cells.GridWeb bileşeni, yeteneklerini genişletmek için GridWeb UI aracılığıyla yapılan filtreleme mekanizmasına geri arama görevi görebilecek iki olay da sağlar.
+Veri filtreleme muhtemelen belirli bir kriter temelinde verileri filtrelemenize izin veren en yaygın kullanılan Excel özelliğidir. Filtrelenmiş veriler, kriteri karşılayan yalnızca satırları göstererek, kriteri karşılamayan satırları gizleyerek gösterilir.
+Aspose.Cells.GridWeb bileşeni, arabirimi kullanarak veri filtreleme yapma yeteneği sağlar. Yeteneklerini genişletmek için Aspose.Cells.GridWeb bileşeni ayrıca GridWeb UI aracılığıyla yapılan filtreleme mekanizmasına geri çağrı olarak hizmet edebilecek iki olay sağlar.
 
 {{% /alert %}} 
-## **Sütun Filtresi Uygulanırken Sunucu Tarafı Olayını İşleme**
-Aşağıda ayrıntıları verilen iki ana olay vardır.
+## **Sütun Filtre Uygulama Üzerinde Sunucu Tarafı Olayını Kullanma**
+Ayrıntılar aşağıda belirtilmiştir.
 
-1. OnBeforeColumnFilter: Filtre bir sütuna uygulanmadan önce tetiklenir.
-1. OnAfterColumnFilter: Filtre bir sütuna uygulandıktan sonra tetiklenir.
+1. OnBeforeColumnFilter: Bir sütuna uygulanmadan önce filtre uygulanmadan önce ateşlenir.
+1. OnAfterColumnFilter: Bir sütuna filtre uygulandıktan sonra ateşlenir.
 
-Yukarıda belirtilen olayları eklemek ve atamak için Aspose.Cells.GridWeb bileşeninin ASPX komut dosyası aşağıdadır.
+Yukarıdaki olayları eklemek ve atamak için Aspose.Cells.GridWeb bileşeninin ASPX betiğidir.
 
 
 
@@ -24,14 +27,14 @@ Yukarıda belirtilen olayları eklemek ve atamak için Aspose.Cells.GridWeb bile
 
 
 
-Bu olaylar, sütun indeksi ve filtrenin uygulanması gereken değer gibi filtreleme işlemi hakkında yararlı bilgiler elde etmek için kullanılabilir. Aşağıda, OnBeforeColumnFilter olayının kullanıcının filtreleme için GridWeb kullanıcı arayüzünde seçtiği sütun indeksini ve değerini almak için kullanıldığını gösteren kod parçası yer almaktadır.
+Bu olaylar, filtreleme işlemi hakkında kullanıcı tarafından seçilen sütun indisini ve değerini almak için kullanılabilir. OnBeforeColumnFilter etkinliğinin sütun indisini ve değerini almak için aşağıdaki örnekte kullanımı gösterilmiştir.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-HandleColumnFilterEvents.aspx-BeforeColumnFilter.cs" >}}
 
 
-Öte yandan, filtre uygulandıktan sonra gereksinim filtrelenmiş satır sayısını almaksa, OnAfterColumnFilter olayını aşağıda gösterildiği gibi kullanabilirsiniz.
+Öte yandan, filtre uygulandıktan sonra filtrelenmiş satır sayısını almak gerekiyorsa, aşağıdaki gibi OnAfterColumnFilter etkinliği kullanılabilir.
 
 
 
@@ -39,6 +42,6 @@ Bu olaylar, sütun indeksi ve filtrenin uygulanması gereken değer gibi filtrel
 
 {{% alert color="primary" %}} 
 
- Tüm girişleri kontrol edin[GridWeb Events ile Çalışma](/cells/tr/net/working-with-gridweb-events/) bu olayın nasıl ele alınacağına dair bazı ayrıntılarla birlikte.
+Tüm [GridWeb etkinlikleriyle çalışma](/cells/tr/net/aspose-cells-gridweb/working-with-gridweb-events/) tanıtımına bakın ve bu etkinliklerin nasıl ele alınacağına dair bazı ayrıntılarını inceleyin.
 
 {{% /alert %}}

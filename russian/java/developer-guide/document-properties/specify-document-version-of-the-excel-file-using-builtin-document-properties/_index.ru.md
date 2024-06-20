@@ -1,18 +1,19 @@
-﻿---
-title: Укажите версию документа файла Excel с помощью встроенных свойств документа
+---
+title: Указание версии документа Excel с использованием встроенных свойств документа
 type: docs
 weight: 20
 url: /ru/java/specify-document-version-of-the-excel-file-using-builtin-document-properties/
 ---
+
 ## **Возможные сценарии использования**
 
-Вы можете изменить*Номер версии*файла Excel, щелкнув файл правой кнопкой мыши и выбрав*Свойства > Детали*а затем редактировать*Номер версии*поле. Пожалуйста, используйте[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)свойство, чтобы изменить его программно с помощью API Aspose.Cells.
+Вы можете изменить *номер версии* файл Excel, щелкнув правой кнопкой мыши на файле, затем выбрав *Свойства > Подробности*, и затем изменяя поле *Номер версии*. Пожалуйста, используйте свойство [**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion) для изменения его программным способом с использованием API Aspose.Cells.
 
-## **Укажите версию документа файла Excel с помощью встроенных свойств документа**
+## **Указание версии документа Excel с использованием встроенных свойств документа**
 
-Следующий пример кода создает книгу и изменяет ее встроенные свойства документа, в том числе*Заголовок*, *Авторы* и*Номер версии*. Пожалуйста, смотрите[выходной файл Excel](64716836.xlsx)сгенерированный код и скриншот, который показывает измененный*Номер версии*к[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)имущество.
+Приведенный ниже образец кода создает рабочую книгу и изменяет ее встроенные свойства документов, которые включают в себя *Название*, *Авторов* и *номер версии*. Пожалуйста, посмотрите [файл Excel с выводом](64716836.xlsx), сгенерированный кодом и скриншот, который показывает измененный *номер версии* свойством [**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion).
 
-![дело:изображение_альтернативный_текст](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
+![todo:image_alt_text](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
 
 ## **Образец кода**
 

@@ -1,39 +1,40 @@
-﻿---
-title: Copia gli intervalli di Excel
-linktitle: Copia intervalli
+---
+title: Copia degli intervalli di Excel
+linktitle: Copiare gli intervalli
 type: docs
 weight: 105
 url: /it/net/copy-ranges-of-Excel/
 ---
-## **introduzione**
 
-In Excel, puoi selezionare un intervallo, copiare l'intervallo, quindi incollarlo con opzioni specifiche nello stesso foglio di lavoro, in altri fogli di lavoro o in altri file.
+## **Introduzione**
 
-## **Copia gli intervalli utilizzando Aspose.Cells**
+In Excel, è possibile selezionare un intervallo, copiare l'intervallo, quindi incollarlo con opzioni specifiche nello stesso foglio di lavoro, in altri fogli di lavoro o in altri file.
 
- Aspose.Cells fornisce un certo sovraccarico[Intervallo.Copia](https://reference.aspose.com/cells/net/aspose.cells/range/copy/#copy) metodi per copiare l'intervallo.
- E[Range.CopyStyle](https://reference.aspose.com/cells/net/aspose.cells/range/copystyle/) solo lo stile di copia della gamma;[Intervallo.CopiaDati](https://reference.aspose.com/cells/net/aspose.cells/range/copydata/) solo il valore di copia dell'intervallo
+## **Copiare intervalli utilizzando Aspose.Cells**
 
-## **Intervallo di copia**
+Aspose.Cells fornisce alcuni metodi [Range.Copy](https://reference.aspose.com/cells/net/aspose.cells/range/copy/#copy) per copiare il range.
+E [Range.CopyStyle](https://reference.aspose.com/cells/net/aspose.cells/range/copystyle/) copia solo lo stile del range; [Range.CopyData](https://reference.aspose.com/cells/net/aspose.cells/range/copydata/) copia solo il valore del range.
 
-Creazione di due intervalli: l'intervallo di origine, l'intervallo di destinazione, quindi la copia dell'intervallo di origine nell'intervallo di destinazione con il metodo Range.Copy.
+## **Copia Intervallo**
 
-Vedere il seguente codice:
+Creazione di due intervalli: l'intervallo di origine, l'intervallo di destinazione, quindi copiare l'intervallo di origine nell'intervallo di destinazione con il metodo Range.Copy.
+
+Vedere il codice seguente:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range.cs" >}}
 
-## **Incolla intervallo con opzioni**
+## **Incolla l'intervallo con opzioni**
 
-Aspose.Cells supporta l'incollaggio dell'intervallo con un tipo specifico.
+Aspose.Cells supporta l'incollaggio del intervallo con un tipo specifico.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Paste-Range.cs" >}}
 
-## **Copia solo i dati dell'intervallo.**
-Inoltre puoi copiare i dati con il metodo Range.CopyData come i seguenti codici:
+## **Copia solo i dati dell'intervallo**
+Puoi anche copiare i dati con il metodo Range.CopyData come nei seguenti codici:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range-Data.cs" >}}
 
 ## **Argomenti avanzati**
-- [Copia le altezze delle righe dell'intervallo di origine nell'intervallo di destinazione](/cells/it/net/copy-row-heights-of-source-range-to-destination-range/)
+- [Copia l'altezza delle righe dell'intervallo di origine nell'intervallo di destinazione](/cells/it/net/copy-row-heights-of-source-range-to-destination-range/)
 
 

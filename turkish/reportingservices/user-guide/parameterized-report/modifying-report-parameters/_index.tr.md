@@ -1,32 +1,33 @@
-﻿---
-title: Rapor Parametrelerini Değiştirme
+---
+title: Rapor Parametrelerini Düzenleme
 type: docs
 weight: 20
 url: /tr/reportingservices/modifying-report-parameters/
 ---
-Bir rapor parametresini değiştirmek için:
+
+Bir rapor parametresini düzenlemek için: 
 
 1. Microsoft Excel'i açın.
-1.  Tıklamak**Rapor Parametresi**Aspose.Cells.Report.Designer araç çubuğunda (
+1. Aspose.Cells.Report.Designer araç çubuğunda **Rapor Parametre**'ye tıklayın (
 
-![yapılacaklar:resim_alternatif_metin](modifying-report-parameters_1.png)
+![todo:image_alt_text](modifying-report-parameters_1.png)
 
 ).
 
-1.  Sol panelde listelenen bir rapor parametresi seçin, örneğin**Rapor Ayı**.
-1.  Tıklamak**Değiştir**. 
+1. Sol panelde listelenen bir rapor parametresi seçin, örneğin **RaporAyı**.
+1. **Değiştir**'e tıklayın. 
 
-   **parametre seçme** 
+   **Bir parametre seçme** 
 
-![yapılacaklar:resim_alternatif_metin](modifying-report-parameters_2.png)
-
-
+![todo:image_alt_text](modifying-report-parameters_2.png)
 
 
-1.  Rapor parametre bilgilerini değiştirin.
 
-   **parametrenin değiştirilmesi** 
 
-![yapılacaklar:resim_alternatif_metin](modifying-report-parameters_3.png)
+1. Rapor parametre bilgisini değiştirin. 
 
-1.  Tıklamak**Kayıt etmek**.
+   **Parametreyi değiştirme** 
+
+![todo:image_alt_text](modifying-report-parameters_3.png)
+
+1. **Kaydet** düğmesine tıklayın.

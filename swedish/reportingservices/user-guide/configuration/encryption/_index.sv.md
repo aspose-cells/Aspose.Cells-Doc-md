@@ -1,14 +1,15 @@
-﻿---
+---
 title: Kryptering
 type: docs
 weight: 40
 url: /sv/reportingservices/encryption/
 ---
-Aspose.Cells for Reporting Services stöder tre typer av kryptering: XOR, WEAK ENCRYPTION och Microsoft Strong Cryptographic Provider. Se krypteringskonfigurationsinformationen i**Aspose.Cells.ReportingServices.xml** fil.
 
- När värdet på kryptering är**av**, Aspose.Cells for Reporting Services stänger av krypteringsfunktioner.
+Aspose.Cells for Reporting Services stöder tre typer av kryptering: XOR, SVAG KRYPTERING och Microsoft Strong Cryptographic Provider. Se krypteringskonfigurationsinformationen i filen **Aspose.Cells.ReportingServices.xml**.
 
-{{< highlight "java" >}}
+När värdet av Encryption är **av** stänger Aspose.Cells for Reporting Services av krypteringsfunktionerna.
+
+{{< highlight java >}}
 
    < Encryption value="off">
 
@@ -26,22 +27,22 @@ Aspose.Cells for Reporting Services stöder tre typer av kryptering: XOR, WEAK E
 
 {{< /highlight >}}
 
- När värdet på kryptering är**på**, Aspose.Cells for Reporting Services aktiverar kryptering.
+När värdet av Encryption är **på** aktiverar Aspose.Cells for Reporting Services kryptering.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-Det finns fyra parametrar i krypteringssektionen:
+Det finns fyra parametrar i krypteringsavsnittet:
 
-- **Rapportnamn**: pekar på en rapport som behöver kryptering. Om parametern lämnas tom använder alla rapporter samma krypteringsmetod.
-- **Lösenord**: ställer in lösenordet. Kan inte vara tom.
-- **EncryptionType**: ställer in en krypteringstyp. Kan inte vara tom.
-- **KeyLength**: ställer in nyckellängden. Kan inte vara tom.
+- **ReportName**: pekar på en rapport som behöver kryptering. Om parametern lämnas blank, använder alla rapporter samma krypteringsmetod.
+- **Lösenord**: ställer in lösenordet. Får inte vara blank.
+- **EncryptionType**: ställer in en krypteringstyp. Får inte vara blank.
+- **Nyckellängd**: ställer in nyckellängden. Får inte vara blank.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 

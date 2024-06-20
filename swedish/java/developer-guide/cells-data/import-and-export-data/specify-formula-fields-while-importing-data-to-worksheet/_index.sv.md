@@ -1,16 +1,17 @@
-﻿---
-title: Ange formelfält när du importerar data till kalkylblad
+---
+title: Ange formelfält vid import av data till kalkylbladet
 type: docs
 weight: 220
 url: /sv/java/specify-formula-fields-while-importing-data-to-worksheet/
 ---
-## **Möjliga användningsscenarier**
 
- Du kan ange formelfält när du importerar data till ditt kalkylblad med hjälp av[**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#IsFormulas) metod. Denna metod tar den booleska arrayen där värdet**Sann**betyder att fältet är ett formelfält. Till exempel, om det tredje fältet är ett formelfält, kommer det tredje värdet i matrisen att vara**Sann**.
+## **Möjliga användningsscenario**
 
-## **Ange formelfält när du importerar data till kalkylblad**
+Du kan ange formelfält när du importerar data till ditt kalkylark med hjälp av [**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#IsFormulas)-metoden. Denna metod tar emot en boolesk array där värdet **true** betyder att fältet är ett formelfält. Till exempel, om det tredje fältet är ett formelfält, kommer det tredje värdet i arrayen att vara **true**.
 
- Se följande exempelkod som förklarar hur du anger formelfältet när du importerar data till ett kalkylblad. Vänligen se[utdata Excel-fil](61767850.xlsx) genereras av koden och skärmdumpen som visar effekten av koden på den utgående Excel-filen.
+## **Ange formelfält vid import av data till kalkylbladet**
+
+Vänligen se följande provkod som förklarar hur man specificerar formelfält vid import av data till ett kalkylark. Vänligen se den [utdata Excel-filen](61767850.xlsx) som genererats av koden och skärmbilden som visar effekten av koden på utdata Excel-filen.
 
 ![todo:image_alt_text](specify-formula-fields-while-importing-data-to-worksheet_1.png)
 

@@ -1,64 +1,65 @@
-﻿---
-title: Pivot Tabloyu Biçimlendirme
+---
+title: Pivot Tablosunu Biçimlendirme
 type: docs
 weight: 10
 url: /tr/net/formatting-pivot-table/
 ---
-## **Pivot Tablo Görünümü**
 
-Pivot Tablo Nasıl Oluşturulur, basit bir pivot tablonun nasıl oluşturulacağını açıklar. Bu makalede, çeşitli özellikleri ayarlayarak bir pivot tablonun görünümünün nasıl özelleştirileceği açıklanmaktadır:
+## **Döndürme Tablosu Görünümü**
 
-- Pivot tablo biçimi seçenekleri
-- Pivot alanları biçim seçenekleri
-- Veri alanı biçim seçenekleri
+Bir Pivot Tablosu Nasıl Oluşturulur, basit bir pivot tablosu nasıl oluşturulurun açıklanmasının yanı sıra bu makale, çeşitli özellikleri ayarlayarak bir pivot tablosunun görünümünü özelleştirmeyi açıklar:
 
-### **Pivot Tablo Format Seçeneklerini Ayarlama**
+- Pivot tablo format seçenekleri
+- Pivot alanları format seçenekleri
+- Veri alanı format seçenekleri
 
- bu[**Pivot tablo**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)class, genel pivot tabloyu kontrol eder ve çeşitli şekillerde biçimlendirilebilir.
+### **Döndürme Tablosu Biçim Seçeneklerini Ayarlama**
 
-#### **Otomatik Biçim Türünü Ayarlama**
+Toplam Otomatik Biçim Türünü Ayarlama
 
-Microsoft Excel, bir dizi farklı önceden ayarlanmış rapor formatı sunar. Aspose.Cells, bu biçimlendirme seçeneklerini de destekler. Onlara erişmek için:
+#### **Microsoft Excel, birkaç farklı önceden ayarlanmış rapor formatı sunar. Aspose.Cells, bu formatlama seçeneklerini de destekler. Bunlara erişmek için:**
 
-1.  Ayarlamak[**PivotTable.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat) ile**doğru**.
-1.  Bir biçimlendirme seçeneği atayın.[**PivotTableAutoFormatType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottableautoformattype)numaralandırma.
+1. {0} değeri **true** olarak ayarlayın.
+
+1. [**PivotTable.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat) değerini **true** olarak ayarlayın.
+1. [**PivotTableAutoFormatType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottableautoformattype) numaralandırmasından bir biçimlendirme seçeneği atayın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingAutoFormat-1.cs" >}}
 
 #### **Biçim Seçeneklerini Ayarlama**
 
-Aşağıdaki kod örneği, pivot tablonun satırlar ve sütunlar için genel toplamları gösterecek şekilde nasıl biçimlendirileceğini ve raporun alan sırasının nasıl ayarlanacağını gösterir. Ayrıca boş değerler için bir müşteri dizesinin nasıl ayarlanacağını da gösterir.
+Biçim Seçeneklerini Ayarlama
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingFormatOptions-1.cs" >}}
 
-#### **Görünümü ve Hissi Manuel Olarak Biçimlendirme**
+#### **Aşağıdaki kod örneği, pivot tablosunu satır ve sütunlar için toplamları göstermek üzere biçimlendirme ve raporun alan sırasını ayarlamayı gösterir. Ayrıca, null değerler için özel bir dize ayarlamak da gösterilir.**
 
- Pivot tablo raporunun nasıl görüneceğini manuel olarak biçimlendirmek için önceden ayarlanmış rapor formatlarını kullanmak yerine[**PivotTable.Format()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format) ve[**PivotTable.FormatAll()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall)yöntemler. İstediğiniz biçimlendirme için bir stil nesnesi oluşturun, örneğin:
+Görünümü Manuel Olarak Ayarlama
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-FormattingLook-1.cs" >}}
 
-### **Pivot Alan Formatı Seçeneklerini Ayarlama**
+### **Pivot Tablo Raporunun nasıl göründüğü ile ilgili nasıl biçimlendirileceğiniz, önceden ayarlanmış rapor formatlarını değil, {0} ve {1} yöntemlerini kullanarak el ile ayarlamak için kullanılır. İstenen biçimlendirme için bir stil nesnesi oluşturun, örneğin:**
 
- bu[**PivotAlanı**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)class, bir pivot tablodaki bir alanı temsil eder ve çeşitli şekillerde biçimlendirilebilir. Aşağıdaki kod örneği, nasıl yapılacağını gösterir:
+Pivot Alanı Biçim Seçeneklerini Ayarlama
 
-- Satır alanlarına erişin.
-- Ara toplamlar ayarlanıyor.
-- Otomatik sıralama ayarlanıyor.
-- Otomatik gösterme ayarlanıyor.
+- Satır alanlarına erişim.
+- Alt toplamları ayarlama.
+- Otomatik sıralamayı ayarlama.
+- Otomatik gösterimi ayarlama.
 
-#### **Satır/Sütun/Sayfa Alanları Biçimini Ayarlama**
+#### **Satır/Sütun/Sayfa Alanları Biçimi Ayarlama**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingPageFieldFormat-1.cs" >}}
 
 ### **Veri alanları biçimini ayarlama**
 
-Aşağıdaki kod örneği, veri alanları için görüntüleme biçimlerinin ve sayı biçiminin nasıl ayarlanacağını gösterir.
+Aşağıdaki kod örneği, veri alanları için görüntü biçimlerini ve sayı biçimini ayarlamayı göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingDataFieldFormat-1.cs" >}}
 
 ### **Pivot Alanlarını Temizleme**
 
- bu[**Özet Alan Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) adlı bir yöntemi var[**Temizlemek()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection/methods/clear)bu, pivot alanlarını temizlemenizi sağlar. Sayfa, sütun, satır veya veri gibi alanlardaki tüm pivot alanları temizlemek istediğinizde kullanın.
-Aşağıdaki kod örneği, bir veri alanındaki tüm pivot alanlarının nasıl temizleneceğini gösterir.
+[**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection), örneğin sayfa, sütun, satır veya veri gibi tüm pivot alanlarını temizlemenize izin veren [**Clear()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection/methods/clear) adında bir yönteme sahiptir. Örneğin, tüm veri alanlarını temizlemek istediğinizde, bunu kullanın.
+Aşağıdaki kod örneği, bir veri alanındaki tüm pivot alanlarını temizlemeyi göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ClearPivotFields-1.cs" >}}

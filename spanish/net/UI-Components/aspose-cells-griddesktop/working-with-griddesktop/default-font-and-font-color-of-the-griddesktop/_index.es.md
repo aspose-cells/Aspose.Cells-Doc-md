@@ -1,22 +1,25 @@
-﻿---
-title: Fuente predeterminada y color de fuente de GridDesktop
+---
+title: Fuente e color de fuente por defecto de GridDesktop
 type: docs
 weight: 70
-url: /es/net/default-font-and-font-color-of-the-griddesktop/
+url: /es/net/aspose-cells-griddesktop/default-font-and-font-color-of-the-griddesktop/
+keywords: GridDesktop,fuente,color
+description: Este artículo presenta la fuente y el color de fuente por defecto en GridDesktop.
 ---
-## **Posibles escenarios de uso**
-A veces, desea cambiar la fuente predeterminada y el color de fuente de GridDesktop. Utilice las siguientes dos propiedades para este propósito. Puede acceder a estas propiedades en tiempo de diseño o en tiempo de ejecución, según sus necesidades.
+
+## **Escenarios de uso posibles**
+A veces, deseas cambiar la fuente y el color de fuente por defecto de GridDesktop. Por favor, usa las siguientes dos propiedades para este propósito. Puedes acceder a estas propiedades en el Tiempo de Diseño o en Tiempo de Ejecución según tus necesidades.
 
 - GridDesktop.DefaultCellFont
 - GridDesktop.DefaultCellFontColor
-## **Cambiar la fuente predeterminada y el color de la fuente en tiempo de diseño**
-La siguiente captura de pantalla muestra cómo cambiar la fuente y el color de fuente predeterminados de GridDesktop en tiempo de diseño.
+## **Cambiar Fuente Predeterminada y Color de Fuente en Tiempo de Diseño**
+La siguiente captura de pantalla muestra cómo cambiar la fuente predeterminada y el color de fuente de GridDesktop en Tiempo de Diseño.
 
-![todo:imagen_alternativa_texto](default-font-and-font-color-of-the-griddesktop_1.png)
-## **Cambiar la fuente predeterminada y el color de la fuente en tiempo de ejecución**
-El siguiente código de ejemplo explica cómo cambiar la fuente y el color de fuente predeterminados de GridDesktop en tiempo de ejecución.
+![todo:image_alt_text](default-font-and-font-color-of-the-griddesktop_1.png)
+## **Cambiar Fuente Predeterminada y Color de Fuente en Tiempo de Ejecución**
+El siguiente código de muestra explica cómo cambiar la fuente predeterminada y el color de fuente de GridDesktop en Tiempo de Ejecución.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Assign your desired Font object to DefaultCellFont property
 

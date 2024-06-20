@@ -1,27 +1,28 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.3.1
+---
+title: تغييرات الواجهة البرمجية العامة في Aspose.Cells 8.3.1
 type: docs
 weight: 110
 url: /ar/net/public-api-changes-in-aspose-cells-8-3-1/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.3.0 إلى 8.3.1 والتي قد تهم مطوري الوحدة / التطبيق.
+يصف هذا المستند التغييرات التي تم إجراؤها على واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.3.0 إلى 8.3.1 التي قد تكون مثيرة للاهتمام لمطوري الوحدات/التطبيقات.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
+## **واجهات برمجة التطبيقات الجديدة**
 ### **تمت إضافة خاصية DataLabels.ShowCellRange**
- تمت إضافة الخاصية ShowCellRange إلى فئة DataLabels لتقليد وظيفة Excel لتنسيق تسميات بيانات المخطط في وقت التشغيل. يرجى ملاحظة أن Excel يوفر هذه الميزة من خلال الخطوات التالية.
+تمت إضافة خاصية ShowCellRange لفئة DataLabels من أجل تقليد وظيفة تنسيق علامات البيانات في الرسم البياني في وقت التشغيل. يرجى ملاحظة أن Excel يوفر هذه الميزة من خلال الخطوات التالية. 
 
-1. حدد تسميات البيانات للسلسلة وانقر بزر الماوس الأيمن لفتح القائمة المنبثقة.
-1.  انقر على**تنسيق تسميات البيانات ...** وسوف تظهر**خيارات التسمية**.
-1.  حدد خانة الاختيار أو ألغِ تحديدها**يحتوي الملصق على - القيمة من Cells**.
+1. حدد تسميات البيانات للسلسلة ثم انقر بزر الماوس الأيمن لفتح القائمة المنبثقة.
+1. انقر **تنسيق تسميات البيانات...** وستظهر **خيارات التسمية**.
+1. حدد أو ألغِ تحديد خانة الاختيار **التسمية تحتوي على - القيمة من الخلايا**.
 
- يصل نموذج التعليمات البرمجية أدناه إلى تسميات البيانات الخاصة بسلسلة التخطيطات ثم قم بتعيين طريقة DataLabels.ShowCellRange إلى true لتقليد ميزة Excel الخاصة بـ**يحتوي الملصق على - القيمة من Cells**.
+الشفرة النموذجية أدناه تصل إلى تسميات البيانات لسلسلة الرسم البياني ثم تضبط طريقة DataLabels.ShowCellRange إلى true لتقليد ميزة إكسيل **Label Contains - Value From Cells**.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from the source Excel file
 
@@ -49,7 +50,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -80,16 +81,16 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال[عرض Cell المدى كعناوين بيانات](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) للمزيد من المعلومات.
+يرجى التحقق من المقالة [عرض نطاق الخلية كتسميات البيانات](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) للمزيد من المعلومات.
 
 {{% /alert %}} 
 
-### **تمت إضافة الطرق Cell. GetTable & ListObject.PutCellValue**
-تمت إضافة الطريقتين Cell.GetTable & ListObject.PutCellValue مع Aspose.Cells for .NET 8.3.1 لتسهيل وصول المستخدمين إلى ListObject من خلية وإضافة قيم بداخلها باستخدام إزاحة الصف والعمود. يقوم نموذج التعليمات البرمجية التالي بتحميل جدول البيانات المصدر ، وإضافة القيم داخل الجدول.
+### **أضيفت طرق Cell.GetTable & ListObject.PutCellValue**
+تمت إضافة الطرق Cell.GetTable & ListObject.PutCellValue مع Aspose.Cells for .NET 8.3.1 لتيسير وصول المستخدمين إلى ListObject من خلية وإضافة القيم داخلها باستخدام تعويضات الصف والعمود. تحمل الشفرة النموذجية التالية جدول البيانات الأصلي وتضيف القيم داخل الجدول.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -124,7 +125,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook from source Excel file
 
@@ -159,18 +160,18 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال[الوصول إلى الجدول من Cell وإضافة القيم بداخله باستخدام إزاحة الصف والعمود](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) للمزيد من المعلومات.
+يرجى التحقق من المقالة [الوصول إلى الجدول من الخلية وإضافة القيم داخله باستخدام تعويضات الصف والعمود](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) للمزيد من المعلومات.
 
 {{% /alert %}} 
 
-### **تمت إضافة الخاصية OdsSaveOptions.IsStrictSchema11**
-تمت إضافة الخاصية IsStrictSchema11 إلى فئة OdsSaveOptions للسماح للمطورين بحفظ جدول البيانات بتنسيق يتوافق مع مواصفات ODF v1.2. القيمة الافتراضية لخاصية IsStrictSchema11 هي false ، وهذا يعني أنه من الإصدار 8.3.1 من Aspose.Cells APIs ، سيتم حفظ ملفات ODS بتنسيق ODF الإصدار 1.2 افتراضيًا.
+### **تمت إضافة OdsSaveOptions.IsStrictSchema11 Property**
+تمت إضافة الخاصية IsStrictSchema11 إلى فئة OdsSaveOptions للسماح للمطورين بحفظ جدول البيانات في تنسيق يتوافق مع مواصفات ODF v1.2. القيمة الافتراضية لخاصية IsStrictSchema11 هي false، مما يعني أنه ابتداءً من الإصدار 8.3.1 من واجهات برمجة التطبيقات Aspose.Cells ستتم حفظ ملفات ODS كتنسيق ODF الإصدار 1.2 افتراضيًا.
 
-يحفظ مقتطف الكود أدناه الملف ODS بتنسيق ODF 1.2.
+الكود المقدم أدناه يحفظ ملف ODS بتنسيق ODF 1.2.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 
@@ -203,7 +204,7 @@ workbook.Save("ODF1.1.ods", options);
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook 
 
@@ -235,23 +236,23 @@ m_workbook.Save("ODF1.1.ods", options)
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال[احفظ ملف ODS في مواصفات ODF 1.1 و 1.2](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) للمزيد من المعلومات.
+يرجى التحقق من المقالة [حفظ ملف ODS في مواصفات ODF 1.1 و 1.2](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) للمزيد من المعلومات.
 
 {{% /alert %}} 
 
-### **طريقة SparklineCollection.Add added**
- كشفت واجهات برمجة التطبيقات (API) Aspose.Cells طريقة SparklineCollection.Add (سلسلة بيانات السلسلة ، وصف int ، عمود int) لتحديد نطاق البيانات وموقع مجموعة Sparkline. يرجى ملاحظة أن Excel يوفر نفس الميزة من خلال الخطوات التالية.
+### **تمت إضافة الطريقة SparklineCollection.Add**
+لقد قامت واجهات برمجة التطبيقات Aspose.Cells بتعريض الطريقة SparklineCollection.Add(string dataRange, int row, int column) لتحديد نطاق البيانات وموقع مجموعة الخطوط الكهربائية. يرجى الملاحظة أن إكسيل يوفر نفس الميزة من خلال الخطوات التالية. 
 
-1. حدد الخلية التي تحتوي على خط المؤشر الخاص بك.
-1.  يختار**تحرير البيانات من خط المؤشر** قسم داخل**تصميم** التبويب
-1.  أختر**تحرير موقع المجموعة والبيانات**.
-1.  حدد**نطاق البيانات** & **موقع**.
+1. حدد الخلية التي تحتوي على بيانات الرسم البياني.
+1. حدد **تحرير البيانات من قسم الرسم البياني** داخل علامة التبويب **تصميم**
+1. اختر **تحرير موقع المجموعة والبيانات**.
+1. حدد **نطاق البيانات** و**الموقع**.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل جدول البيانات المصدر ، والوصول إلى أول مجموعة خط مؤشر وإضافة نطاقات بيانات ومواقع جديدة لمجموعة خط المؤشر.
+الكود المعروض أدناه يحمل جدول البيانات المصدر، ويصل إلى أول مجموعة البيانات الرسمية ويضيف نطاقات بيانات جديدة ومواقع لمجموعة البيانات الرسمية. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -284,7 +285,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook from source Excel file
 
@@ -317,6 +318,6 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال[انسخ Sparkline عن طريق تحديد نطاق البيانات وموقع مجموعة Sparkline](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) للمزيد من المعلومات.
+يرجى التحقق من المقالة [Copy Sparkline by Specifying Data Range and Location of Sparkline Group](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) لمزيد من المعلومات.
 
 {{% /alert %}}

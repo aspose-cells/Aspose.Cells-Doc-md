@@ -1,21 +1,22 @@
-﻿---
-title: Crea tabella utilizzando le linee di confine per un intervallo
+---
+title: Crea Tabella Utilizzando Linee di Bordo per un Intervallo
 type: docs
 weight: 50
 url: /it/java/create-table-by-using-border-lines-for-a-range/
-description: Come creare una tabella con intervallo utilizzando le linee di confine. Aspose.Cells for Java fornisce un API semplice da usare che può essere utilizzato per aggiungere bordi a un intervallo.
-keywords: create table, range to table, range to table excel, excel range to table, range to table with borders, how to create table from range, convert range to table, excel convert range to table, excel create table, range to table java 
+description: Come creare una tabella con un intervallo utilizzando linee di bordo. Aspose.Cells for Java fornisce un API semplice da usare che può essere utilizzata per aggiungere bordi a un intervallo.
+keywords: crea tabella, intervallo in tabella, intervallo in tabella excel, excel intervallo in tabella, intervallo in tabella con bordi, come creare tabella da intervallo, converti intervallo in tabella, excel converti intervallo in tabella, excel crea tabella, intervallo in tabella java 
 ---
+
 {{% alert color="primary" %}}
 
- A volte, vuoi creare una tabella aggiungendo linee di confine per a**Allineare**/**CellArea** in base all'indirizzo delle celle che hai. Puoi usare[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) per creare un intervallo di celle. Il[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) metodo restituisce a[**Allineare**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) oggetto. Puoi creare un[**Stile**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) oggetto e specificare le opzioni dei bordi (superiore, sinistro, inferiore, destro) di conseguenza. Successivamente, potresti ottenere le cellule del[**Allineare**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)e applica la formattazione desiderata alle celle.
+A volte vuoi creare una tabella aggiungendo linee di bordo per un **Intervallo**/**AreaCelle** basato sull'indirizzo delle celle che hai. Puoi usare il metodo [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) per creare un intervallo di celle. Il metodo [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) restituisce un oggetto [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range). Puoi creare un oggetto [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) e specificare le opzioni dei bordi (superiore, sinistro, inferiore, destro) di conseguenza. In seguito, puoi ottenere le celle del [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) e applicare la formattazione desiderata alle celle.
 
 {{% /alert %}}
 
- L'esempio seguente mostra come creare un file[**Allineare**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)e specificare i limiti per le celle dell'intervallo.
+L'esempio seguente mostra come creare un [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) e specificare le linee di confine per le celle dell'intervallo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateTableforRange-CreateTableforRange.java" >}}
 
-Dopo aver eseguito il codice sopra, possiamo avere il file excel generato contenente la tabella formattata; ecco lo screenshot del file.
+Dopo aver eseguito il codice sopra, possiamo avere il file Excel generato contenente la tabella formattata; ecco lo screenshot del file.
 
-![cose da fare:immagine_alt_testo](create-table-by-using-border-lines-for-a-range_1.png)
+![todo:image_alt_text](create-table-by-using-border-lines-for-a-range_1.png)

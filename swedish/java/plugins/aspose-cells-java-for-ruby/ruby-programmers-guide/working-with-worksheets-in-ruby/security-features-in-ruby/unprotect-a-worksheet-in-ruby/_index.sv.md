@@ -1,15 +1,16 @@
-﻿---
-title: Ta bort skyddet av ett arbetsblad i Ruby
+---
+title: Avskydda ett kalkylblad i Ruby
 type: docs
 weight: 20
 url: /sv/java/unprotect-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells - Ta bort skyddet av ett arbetsblad**
- För att skydda kalkylblad med hjälp av**Aspose.Cells Java för Ruby** , ringa upp**unprotect_worksheet** metod av**skydd** modul.
 
-**Ruby kod**
+## **Aspose.Cells - Avskydda ett kalkylblad**
+För att avskydda kalkylblad med **Aspose.Cells Java för Ruby**, anropa **unprotect_worksheet**-metoden i **protection**-modulen.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  def unprotect_worksheet()
 
@@ -54,7 +55,7 @@ url: /sv/java/unprotect-a-worksheet-in-ruby/
 end   
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Ta bort skyddet av ett kalkylblad (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Avskydda ett kalkylblad (Aspose.Cells)** från någon av nedan nämnda sociala kodbaser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

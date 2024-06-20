@@ -1,31 +1,32 @@
-﻿---
-title: Zugriff auf die Tabelle von Cell und Hinzufügen von Werten darin mithilfe von Zeilen- und Spalten-Offsets
+---
+title: Zugriff auf Tabelle von Zelle und Hinzufügen von Werten in sie unter Verwendung von Zeilen und Spaltenversatz
 type: docs
 weight: 110
 url: /de/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/
 ---
+
 {{% alert color="primary" %}}
 
- Normalerweise fügen Sie Werte innerhalb des Tabellen- oder Listenobjekts hinzu, indem Sie verwenden[**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean)) Methode. Aber manchmal müssen Sie möglicherweise Werte innerhalb des Tabellen- oder Listenobjekts hinzufügen, indem Sie die Zeilen- und Spalten-Offsets verwenden.
+Normalerweise fügen Sie Werte in die Tabelle oder das Listenobjekt mit der [**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean))-Methode ein. Manchmal müssen Sie jedoch Werte in die Tabelle oder das Listenobjekt unter Verwendung des Zeilen- und Spaltenoffsets hinzufügen.
 
-Um von einer Zelle aus auf Tabellen- oder Listenobjekte zuzugreifen, verwenden Sie die[**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable() ) Methode. Und um darin Werte mithilfe der Zeilen- und Spalten-Offsets hinzuzufügen, verwenden Sie die[**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)) Methode.
+Verwenden Sie die [**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable--)-Methode, um auf die Tabelle oder das Listenobjekt von einer Zelle aus zuzugreifen. Und verwenden Sie die [**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object))-Methode, um Werte darin unter Verwendung des Zeilen- und Spaltenoffsets hinzuzufügen.
 
 {{% /alert %}}
 
 ## Beispiel
 
-### Screenshots, die die Quell- und Ausgabedateien vergleichen
+### Screenshots zum Vergleich der Quell- und Ausgabedateien
 
- Der folgende Screenshot zeigt die im Code verwendete Excel-Quelldatei. Sie enthält die leere Tabelle und hebt die Zelle D5 hervor, die innerhalb der Tabelle liegt. Auf diese Tabelle greifen wir von Zelle D5 aus mit zu[**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable() ) Methode und fügen Sie dann die darin enthaltenen Werte mit beiden hinzu[**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean) ) und[**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)) Methoden.
+Der folgende Screenshot zeigt die verwendete Excel-Quelldatei im Code. Sie enthält die leere Tabelle und hebt die Zelle D5 hervor, die sich innerhalb der Tabelle befindet. Wir werden auf diese Tabelle von der Zelle D5 aus mit der [**Cell.getTable()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable--)-Methode zugreifen und dann die Werte darin mit den [**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean))- und [**ListObject.putCellValue(rowOffset,columnOffset,value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object))-Methoden hinzufügen.
 
-![todo: Bild_alt_Text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)
+![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)
 
-Der folgende Screenshot zeigt die vom Code generierte Excel-Ausgabedatei. Wie Sie sehen können, hat Zelle D5 einen Wert und Zelle F6, die sich am Offset 2,2 der Tabelle befindet, hat einen Wert.
+Der folgende Screenshot zeigt die durch den Code generierte Ausgabedatei. Wie Sie sehen können, hat die Zelle D5 einen Wert und die Zelle F6, die sich im Offset 2,2 der Tabelle befindet, hat ebenfalls einen Wert.
 
-![todo: Bild_alt_Text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)
+![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)
 
-### Java-Code für den Zugriff auf die Tabelle aus der Zelle und das Hinzufügen von Werten darin mithilfe von Zeilen- und Spalten-Offsets
+### Java-Code zum Zugriff auf die Tabelle von der Zelle und zum Hinzufügen von Werten darin unter Verwendung von Zeilen- und Spaltenoffsets
 
-Der folgende Beispielcode lädt die Excel-Quelldatei, wie im obigen Screenshot gezeigt, fügt Werte in die Tabelle ein und generiert die Excel-Ausgabedatei, wie oben gezeigt.
+Der folgende Beispielcode lädt die oben gezeigte Excel-Quelldatei und fügt Werte in die Tabelle ein, um die oben gezeigte Ausgabedatei zu generieren.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AccessingTablefromCell-AccessingTablefromCell.java" >}}

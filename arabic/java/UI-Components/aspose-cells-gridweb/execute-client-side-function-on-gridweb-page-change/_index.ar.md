@@ -1,19 +1,20 @@
 ---
-title: تنفيذ وظيفة جانب العميل على تغيير صفحة GridWeb
+title: تنفيذ وظيفة العميل على تغيير صفحة GridWeb
 type: docs
 weight: 70
 url: /ar/java/execute-client-side-function-on-gridweb-page-change/
 ---
-##  **سيناريوهات الاستخدام المحتملة**
-في بعض الأحيان تحتاج إلى تنفيذ وظيفة جانب العميل الخاص بك عندما تتغير صفحة GridWeb. Aspose.Cells.GridWeb يوفر خاصية OnPageChangeClientFunction لهذا الغرض. يرجى تعيين هذه الخاصية مع وظيفة جانب العميل التي تريد تنفيذها.
-##  **تنفيذ وظيفة جانب العميل على تغيير صفحة GridWeb**
- يشرح كود جافا التالي كيفية الاستفادة من خاصية GridWebBean.setOnPageChangeClientFunction(). يقوم بتعيين الخاصية باستخدام وظيفة العميل المسماة MyOnPageChange. يرجى ملاحظة أن هذه الخاصية صالحة فقط إذا قمت بتمكين الترحيل، أي GridWebBean.setEnablePaging(true). الآن، عندما تقوم بتغيير صفحة GridWeb، سيتم استدعاء الوظيفة من جانب العميل MyOnPageChange التي تطبع**فهرس الصفحة الحالية** على ال**وحدة التحكم** كما هو موضح في لقطة الشاشة هذه.
 
-![ما يجب القيام به:image_alt_text](execute-client-side-function-on-gridweb-page-change_1.png)
-##  **عينة من الرموز**
-هذا هو رمز وظيفة العميل MyOnPageChange التي سيتم تنفيذها بسبب هذا السطر، أي Gridweb.setOnPageChangeClientFunction("MyOnPageChange");
+## **سيناريوهات الاستخدام المحتملة**
+في بعض الأحيان تحتاج إلى تنفيذ وظيفة العميل الخاصة بك عند تغيير صفحة GridWeb. يوفر Aspose.Cells.GridWeb خاصية OnPageChangeClientFunction لهذا الغرض. يرجى تعيين هذه الخاصية بوظيفة العميل التي تود تنفيذها.
+## **تنفيذ وظيفة العميل على تغيير صفحة GridWeb**
+الكود Java التالي يشرح كيفية الاستفادة من خاصية GridWebBean.setOnPageChangeClientFunction(). يقوم بتعيين الخاصية بوظيفة جانب العميل بالاسم MyOnPageChange. يرجى ملاحظة، هذه الخاصية صالحة فقط إذا قمت بتمكين التصفح أي GridWebBean.setEnablePaging(true). الآن، كلما قمت بتغيير صفحة GridWeb، سيتم استدعاء وظيفة جانب العميل MyOnPageChange التي تطبع **فهرس الصفحة الحالي** على **وحدة التحكم** كما هو موضح في هذا اللقطة.
 
-{{< highlight "java" >}}
+![todo:image_alt_text](execute-client-side-function-on-gridweb-page-change_1.png)
+## **الكود المثالي**
+هذا هو كود وظيفة العميل MyOnPageChange التي ستتم تنفيذها بسبب هذا السطر Gridweb.setOnPageChangeClientFunction("MyOnPageChange");
+
+{{< highlight java >}}
 
  function MyOnPageChange(index) {
 
@@ -23,9 +24,9 @@ url: /ar/java/execute-client-side-function-on-gridweb-page-change/
 
 {{< /highlight >}}
 
-يشرح التعليمة البرمجية التالية كيفية تمكين الترحيل وتعيين خاصية OnPageChangeClientFunction.
+الكود التالي يشرح كيفية تمكين التصفح وتعيين خاصية OnPageChangeClientFunction.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  GridWebBean gridweb=BeanManager.getBean(request);
 

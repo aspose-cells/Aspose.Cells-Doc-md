@@ -1,11 +1,12 @@
-﻿---
+---
 title: متطلبات النظام
 type: docs
 weight: 40
 url: /ar/sharepoint/system-requirements/
 ---
+
 ### **متطلبات الخادم**
-لتثبيت Aspose.Cells for SharePoint تحتاج إلى جهاز كمبيوتر يعمل بأحد الإجراءات التالية:
+لتثبيت Aspose.Cells for SharePoint تحتاج إلى كمبيوتر يعمل باحدى الأنظمة التالية:
 
 - Windows SharePoint Services 3.0
 - Microsoft Office SharePoint Server 2007
@@ -14,13 +15,13 @@ url: /ar/sharepoint/system-requirements/
 
 {{% alert color="primary" %}} 
 
-نوصي بتثبيت Service Pack 2 أو إصدار أحدث لهذه المنتجات.
+نوصي بتثبيت الحزمة الخدمية 2 أو أحدث لهذه المنتجات.
 
 {{% /alert %}}
 ### **متطلبات العميل**
-أنت بحاجة إلى مستعرض للوصول إلى مواقع SharePoint. Aspose.Cells for SharePoint يتم اختباره مع:
+تحتاج إلى متصفح للوصول إلى مواقع SharePoint. تم اختبار Aspose.Cells for SharePoint مع:
 
-- Microsoft إنترنت إكسبلورر
+- Internet Explorer
 - موزيلا فايرفوكس
-- Google كروم
-- سفاري
+- جوجل كروم
+- Safari

@@ -1,26 +1,27 @@
-﻿---
-title: نسخ VBA ماكرو UserForm DesignerStorage من قالب إلى المصنف الهدف
+---
+title: نسخ مصمم مستخدم النموذج التقديمي للماكرو VBA من القالب إلى كتاب العمل الهدف
 type: docs
 weight: 60
 url: /ar/java/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يسمح لك Aspose.Cells بنسخ مشروع VBA من ملف Excel إلى ملف Excel آخر. يتكون مشروع VBA من أنواع مختلفة من الوحدات ، مثل مستند ، إجرائي ، مصمم إلخ. يمكن نسخ جميع الوحدات برمز بسيط ولكن بالنسبة لوحدة المصمم ، هناك بعض البيانات الإضافية التي تسمى التخزين المصمم والتي تحتاج إلى الوصول إليها أو نسخها. تتعامل الطريقتان التاليتان مع Designer Storage.
+## **سيناريوهات الاستخدام المحتملة**
 
-- [**VbaModuleCollection.GetDesignerStorage ()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String))
-- [**VbaModuleCollection.AddDesignerStorage ()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[]))
+تسمح Aspose.Cells لك بنسخ مشروع VBA من ملف Excel واحد إلى ملف Excel آخر. يتكون مشروع VBA من أنواع مختلفة من الوحدات مثل المستند والوظيفة والمصمم وما إلى ذلك. يمكن نسخ جميع الوحدات بكود بسيط ولكن بالنسبة لوحدة المصمم، هناك بعض البيانات الإضافية تسمى تخزين المصمم التي يجب الوصول إليها أو نسخها. تتعامل الطرقتان التاليتان مع تخزين المصمم.
 
-## **نسخ VBA ماكرو UserForm DesignerStorage من قالب إلى المصنف الهدف**
+- [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String))
+- [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[]))
 
-يرجى الاطلاع على نموذج التعليمات البرمجية التالي. يقوم بنسخ مشروع VBA من ملف[نموذج ملف Excel](50528367.xlsm)في مصنف فارغ ويحفظه كملف[إخراج ملف Excel](50528366.xlsm). إذا فتحت مشروع VBA داخل ملف Excel النموذجي ، فسترى نموذج مستخدم كما هو موضح أدناه. يتكون نموذج المستخدم من Designer Storage ، لذا سيتم نسخه باستخدام[**VbaModuleCollection.GetDesignerStorage ()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)) و[**VbaModuleCollection.AddDesignerStorage ()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[])) أساليب.
+## **نسخ تصميم الاستوديو Form UserForm VBA Macro من القالب إلى دفتر العمل الهدف**
 
-![ما يجب القيام به: image_بديل_نص](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
+يرجى الاطلاع على الشفرة النموذجية التالية. تقوم بنسخ مشروع VBA من [ملف Excel النموذجي](50528367.xlsm) إلى مصنف فارغ وتحفظه كـ [ملف Excel الناتج](50528366.xlsm). إذا فتحت المشروع VBA داخل ملف Excel النموذجي، سترى نموذج مستخدم كما هو موضح أدناه. يتألف نموذج المستخدم من مخزن المصمم، لذا سيتم نسخه باستخدام الطرق [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)) و [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[])).
 
-تُظهر لقطة الشاشة التالية ملف Excel الناتج ومحتوياته التي تم نسخها من ملف Excel النموذجي. عند النقر فوق الزر 1 ، فإنه يفتح نموذج مستخدم VBA الذي يحتوي في حد ذاته على زر أمر يعرض مربع رسالة عند النقر عليه.
+![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
 
-![ما يجب القيام به: image_بديل_نص](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
+تُظهر الصورة الشاشية التالية ملف Excel الناتج ومحتوياته التي تم نسخها من ملف Excel النموذجي. عند النقر فوق Button 1 ، يفتح نافذة المشروع الماكرو VBA التي تحتوي بدورها على زر أمر يعرض مربع رسالة عند النقر.
 
-## **عينة من الرموز**
+![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-WorkbookVBAProject-CopyVBAMacroUserFormDesignerStorageToWorkbook.java" >}}

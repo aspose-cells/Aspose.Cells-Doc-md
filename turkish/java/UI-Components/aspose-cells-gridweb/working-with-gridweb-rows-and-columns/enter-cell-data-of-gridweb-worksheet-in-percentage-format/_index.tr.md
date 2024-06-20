@@ -1,22 +1,23 @@
 ---
-title: GridWeb Çalışma Sayfasının Cell Verilerini Yüzde Formatında Girin
+title: GridWeb Çalışma Sayfasında Yüzde Formatında Veri Girmek
 type: docs
 weight: 1010
 url: /tr/java/enter-cell-data-of-gridweb-worksheet-in-percentage-format/
 ---
-##  **Olası Kullanım Senaryoları**
-GridWeb artık kullanıcıların hücre verilerini %3 gibi yüzde biçiminde girmelerini destekliyor ve hücredeki veriler otomatik olarak %3,00 olarak biçimlendirilecek. Ancak, hücre stilini GridTableItemStyle.NumberType a 9 veya 10 olan Yüzde Biçimi'ne ayarlamanız gerekecektir. 9 sayısı %3'ü %3 olarak biçimlendirecek, ancak 10 sayısı %3'ü %3,00 olarak biçimlendirecektir.
+
+## **Olası Kullanım Senaryoları**
+GridWeb şimdi kullanıcıların hücre verilerini 3% gibi yüzde formatında girmelerini destekler ve hücredeki veri otomatik olarak 3.00% olarak biçimlendirilir. Ancak, Yüzde Formatı için hücre stili 9 veya 10 olan GridTableItemStyle.NumberType'ın ayarlanması gerekecektir. 9 numara 3% 'ı 3% olarak biçimlendirir, ancak 10 numara 3% 'ı 3.00% olarak biçimlendirir.
 
 {{% alert color="primary" %}} 
 
-Hücre stilini Yüzde Formatı olarak ayarlamadıysanız, %3 giriş verisi 0,03 olarak görüntülenecektir.
+Hücre stili Yüzde Formatı olarak ayarlanmamışsa, 3% giriş verisi 0.03 olarak görüntülenir.
 
 {{% /alert %}} 
-##  **GridWeb Çalışma Sayfasının Cell Verilerini Yüzde Formatında Girin**
-Aşağıdaki örnek kod, A1 GridTableItemStyle.NumberType hücresini 10 olarak ayarlar, dolayısıyla giriş verileri %3, ekran görüntüsünde gösterildiği gibi otomatik olarak %3,00 olarak biçimlendirilir.
+## **GridWeb Çalışsayfanın Hücre Verilerini Yüzde Formatında Girin**
+Aşağıdaki örnek kod, A1 hücresinin GridTableItemStyle.NumberType'ını 10 olarak ayarlar, bu nedenle giriş verisi 3% otomatik olarak 3.00% olarak biçimlendirilir. Ekran görüntüsünde gösterildiği gibi.
 
-![yapılacak şey:image_alt_text](enter-cell-data-of-gridweb-worksheet-in-percentage-format_1.png)
-##  **Basit kod**
+![todo:image_alt_text](enter-cell-data-of-gridweb-worksheet-in-percentage-format_1.png)
+## **Örnek Kod**
 
 
 

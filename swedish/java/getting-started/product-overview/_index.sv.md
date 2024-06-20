@@ -1,104 +1,105 @@
-﻿---
+---
 title: Produktöversikt
 type: docs
 weight: 5
 url: /sv/java/product-overview/
 ---
+
 {{% alert color="primary" %}} 
 
 ![todo:image_alt_text](product-overview_1.png)
-## **Välkommen till Aspose.Cells-dokumentationen**
-**Aspose.Cells** är den mest flexibla komponenten som gör det möjligt för Java-applikationer att skapa och hantera Excel-kalkylblad utan att behöva**Microsoft Excel**ska installeras på systemet. Till skillnad från liknande produkter från andra leverantörer stöder Aspose.Cells inte bara generering av kalkylblad och andra grundläggande filformateringsfunktioner, utan stöder också ett antal avancerade funktioner. Dessa avancerade funktioner gör det mycket bekvämare för utvecklarna att manipulera kalkylbladsinnehåll, cellformatering och filskydd. Aspose.Cells tillåter också att importera data till kalkylblad från olika datakällor, lägga till vanliga och komplexa matematiska, datumtid, finansiella, textformler/funktioner, stöder manipulering av diagram, bilder, kommentarer, ritobjekt och kontroller etc.
+## **Välkommen till Aspose.Cells dokumentationen**
+**Aspose.Cells** är den mest flexibla komponenten som gör att Java-applikationer kan skapa och hantera Excel-kalkylblad utan att behöva installera **Microsoft Excel** på systemet. Till skillnad från liknande produkter från andra leverantörer, stöder Aspose.Cells inte bara kalkylbladsproduktion och andra grundläggande filformateringsfunktioner, utan också stöder ett antal avancerade funktioner. Dessa avancerade funktioner gör det mycket bekvämare för utvecklare att manipulera kalkylbladsinnehåll, cellformat och filskydd. Aspose.Cells tillåter också att importera data i kalkylblad från olika datakällor, lägga till vanliga och komplexa matematiska, datumtid, finansiella, textformler/funktioner, stöd för manipulation av diagram, bilder, kommentarer, ritobjekt och kontroller etc.
 
-Aspose.Cells for Java tillhandahåller också en komplett Grid-lösning för webbklienter; den har en GUI-baserad kontroll enligt följande:
+Aspose.Cells for Java tillhandahåller också en komplett Grid lösning för webbklienter; den har en GUI-baserad kontroll enligt följande:
 
-- Aspose.Cells.GridWeb, som stöder webbapplikationer
+- Aspose.Cells.GridWeb, vilket stödjer webbapplikationer
 
-Med hjälp av Aspose.Cells.GridWeb för JAVA Grid-kontroll kan utvecklare enkelt importera från och exportera till Excel®-kalkylblad. Alla typer av användare som är bekanta med Microsoft Excel kan styra rutnätets utseende och känsla. Aspose.Cells erbjuder en mängd funktioner som att styra utformningen och layouten av rutnätet, hantera flera kalkylblad, hantera celler, rader och kolumner i ett kalkylblad, skapa och beräkna formler etc.
+Genom att använda Aspose.Cells.GridWeb för JAVA Gridkontroll kan utvecklare enkelt importera från och exportera till Excel®-kalkylblad. En användare som är bekant med Microsoft Excel kan kontrollera utseendet och känslan av rutnätet. Aspose.Cells erbjuder ett rikt set av funktioner såsom att kontrollera designen och layouten för rutnätet, hantera flera arbetsblad, hantera celler, rader och kolumner på ett arbetsblad, skapa och beräkna formler etc.
 
 {{% /alert %}} 
 ## **Produktbeskrivning**
-Aspose.Cells kan användas med alla typer av applikationer, oavsett om Java webbapplikation eller Java Desktop Application. Dessutom kan biblioteket även användas med vissa andra lösningar som PHP etc. Aspose.Cells tillhandahåller demos och fungerande exempel skrivna i Java för att utvecklare ska få en bättre förståelse för funktionerna som exponeras av komponenten.
+Aspose.Cells kan användas med alla typer av applikationer, vare sig det är en Java webbapplikation eller en Java desktopapplikation. Dessutom kan biblioteket också användas med andra lösningar som PHP etc. Aspose.Cells tillhandahåller fullt utrustade demonstrationer och fungerande exempel skrivna i Java för utvecklare att få en bättre förståelse av de funktioner som komponenten exponerar.
 
-Förutom att stödja vanliga funktioner som att skapa eller läsa inbyggda Excel-filer, erbjuder Aspose.Cells också många avancerade funktioner som att spara och öppna Excel-filer till och från strömmar, skicka utdata till en klientwebbläsare, importera och exportera data från en**Resultatet satt** eller en**Array**, importera bilder och diagram, skapa bilder och diagram via API, importera formler från ett designerkalkylblad och konfigurera sidinställningar via API.
+Förutom att stödja vanliga funktioner som att skapa eller läsa nativa Excel-filer, erbjuder även Aspose.Cells många avancerade funktioner såsom att spara och öppna Excel-filer från och till strömmar, skicka utdata till en klientwebbläsare, importera och exportera data från en **ResultSet** eller en **Array**, importera bilder och diagram, skapa bilder och diagram genom API, importera formler från ett designerkalkylblad och konfigurera sidinställningar genom API.
 
-Dessutom finns det också ett antal unika funktioner som utvecklarna bara kan hitta i Aspose.Cells, såsom stöd för CSV och SpreadsheetML format, lägga till kopian av ett befintligt kalkylblad (med fullständigt innehåll, bilder och diagram etc.) till en fil, ställa in gradientbakgrund för diagram genom API, skapa kommentarer, autofilter och sidbrytningar genom API, ställa in komplexa formler, stödja villkorlig formatering, stödja skyddsalternativ introducerade i Microsoft Excel XP eller högre, manipulera namngivna intervall, lokalisera API:er, stödja anpassade diagram 40816 och formelberäkningsmotor etc.
+Dessutom finns det också ett antal unika funktioner som utvecklarna endast kan hitta i Aspose.Cells såsom stöd för CSV- och SpreadsheetML-format, lägga till en kopia av ett befintligt arbetsblad (med fullt innehåll, bilder och diagram etc.) i en fil, ställa in gradientbakgrund för diagram genom API, skapa kommentarer, auto-filter och sidbrytningar genom API, ställa in komplexa formler, stöd för villkorlig formatering, stöd för skyddsalternativ som introducerades i Microsoft Excel XP eller senare, manipulering av namngivna områden, lokalisering av API, stöd för anpassat diagram API och formelberäkning motor etc.
 ## **Dokumentfunktioner**
 - Öppna vanliga eller krypterade Excel-filer (Excel 95, Excel97, Excel2007/2010/2013/2016/2019, Office365) från olika källor
 - Öppna vanliga Numbers-filer (skapade av Apples "Numbers"-applikation) från olika källor
-- Save Excel files (Excel97- Excel2007/2010/2013/2016/2019) in different formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited/TSV, HTML etc.)
+- Spara Excel-filer (Excel97- Excel2007/2010/2013/2016/2019) i olika format (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Separerad/TSV, HTML etc.)
 - Konvertera Excel-fil till PDF-dokument
 - Konvertera Excel-kalkylblad till XPS-dokument
--  Konvertera till taggat bildfilformat**(TIFF)**
--  Läsa och skriva**OpenDocument Spreadsheet (ODS )** formatera
-- Ändra dokumentegenskaperna för Excel-filer
+- Konvertera till Tagged Image File Format **(TIFF)**
+- Läsa och skriva **OpenDocument Spreadsheet (ODS)** format
+- Ändra dokumentegenskaper för Excel-filer
 ## **Arbetsbladsfunktioner**
-### **Skärmalternativ**
-- **Göm eller visa** ett arbetsblad
--  Visa eller dölj**flikar, rullningslister, rutnät och rad- och kolumnrubriker**
-- **Förhandsgranska sidbrytningar**
--  Uppsättning**zoomnivå** för arbetsbladet
--  Se till att valda data förblir synliga medan du rullar med**frysa rutor**
-### **Arbetsbladsskydd**
-- **Skydda innehåll, objekt och scenarier** av ett arbetsblad
-### **Alternativ för sidinställningar**
--  Uppsättning**sidriktning, skalning, pappersstorlek, utskriftskvalitet** etc.
--  Uppsättning**sidmarginaler** som topp, vänster, höger, botten etc.
--  Uppsättning**sidhuvuden och sidfötter**
--  Uppsättning**utskriftsområde**, **skriva ut titel** etc.
+### **Visningsalternativ**
+- **Dölj eller visa** ett blad
+- Visa eller dölj flikar, rullgardinsfält, rutnät samt rad- och kolumnrubriker
+- Förhandsgranska sidbrytningar
+- Ange zoomnivå för kalkylarket
+- Se till att valda data förblir synliga vid scrollning med frysfönster
+### **Kalkylskydd**
+- Skydda innehåll, objekt och scenarier för ett kalkylblad
+### **Sidouppställningsalternativ**
+- Ange sidaorientering, skalning, pappersstorlek, utskriftskvalitet etc.
+- Ange sidmarginaler som topp, vänster, höger, botten etc.
+- Ange sidhuvuden och sidfötter
+- Ange utskriftsområdet, utskriftstitel etc.
 ### **Sidbrytningar**
--  Föra in**horisontell** och**vertikala sidbrytningar** vid en specificerad cell
-### **Funktioner för rader och kolumner**
-- **Justera kolumnbredden** såsom krävs
-- Automatisk storlek på cellernas bredd och höjd enligt deras innehåll
-- **Infoga eller ta bort** rader och kolumner
-- **Göm eller visa** rader och kolumner
-- **Gruppera eller avgruppera** rader och kolumner
-### **Datahanteringsfunktioner**
-- Lägg till data till önskade celler vid körning
-- **Importera data till kalkylblad** från olika datakällor
+- Infoga horisontella och vertikala sidbrytningar vid en angiven cell
+### **Rad- och kolumnfunktioner**
+- Justera kolumnbredden efter behov
+- Automatiskt anpassa bredd och höjd för celler efter deras innehåll
+- Infoga eller ta bort rader och kolumner
+- Dölj eller visa rader och kolumner
+- Gruppera eller avgruppera rader och kolumner
+### **Datamhanteringsfunktioner**
+- Lägg till data i önskade celler vid runtime
+- Importera data till kalkylblad från olika datakällor
 - Hämta data från celler enligt deras datatyper
-- **Exportera celldata till array**
-- Hitta eller sök specifik data i celler
--  Uppsättning**formler med inbyggda eller tilläggsfunktioner**
--  Uppsättning**array** och**R1C1** referensstilsformel
+- Exportera cellers data till array
+- Hitta eller Sök specifik data i celler
+- Ange formler med inbyggda eller tilläggfunktioner
+- Ange referensstil för formler som array och R1C1
 - Lägg till olika typer av hyperlänkar
-- Skapa eller få tillgång till namngivna intervall
--  Tillämpa**datavalidering** och**automatisk filtrering**
--  Tillämpa**delsummor** till kalkylbladstabeller
+- Skapa eller komma åt namngivna intervall
+- Tillämpa datavalidering och autofiltrering
+- Tillämpa delsummer på kalkylbladstabeller
 ### **Formateringsfunktioner**
--  Tillämpa**inställningar för nummerformat** för celler
-- Formatera cell som ett datum
--  Uppsättning**textjustering**
-- Slå samman flera celler
-- Applicera olika typer av**teckensnittsinställningar** för cellerna
-- Använd olika färger på celler, typsnitt, rutnät, grafiska objekt etc.
--  Uppsättning**rik text** i en enda cell
--  Applicera annorlunda**gränsinställningar** på celler
--  Applicera annorlunda**bakgrundsmönster** på celler
--  Tillämpa**formatinställningar** på ett kalkylblad, rad eller kolumn etc.
--  Tillämpa**villkorlig formatering** på celler
-## **Kart- och grafikfunktioner**
+- Tillämpa nummerformateringsinställningar för celler
+- Formatera cell som datum
+- Ange textjustering
+- Sammanfoga flera celler
+- Tillämpa olika typer av teckenformatsinställningar för celler
+- Tillämpa olika färger på celler, teckensnitt, rutnät, grafiska objekt osv.
+- Ange rik text i en enda cell
+- Tillämpa olika **kantinställningar** på celler
+- Tillämpa olika **bakgrundsmönster** på celler
+- Tillämpa **formatinställningar** på en arbetsbok, rad eller kolumn osv.
+- Tillämpa **villkorlig formatering** på celler
+## **Diagram- och grafikfunktioner**
 - Skapa olika typer av diagram enkelt
--  Anpassa**diagram** genom att ställa in egenskaper
--  Uppsättning**data för diagram** dynamiskt
--  Lägg till**anpassade diagram** till arbetsblad
--  Lägg till**bilder** till arbetsblad vid körning
-- Skapa och lägg till kommentarer till celler
+- Anpassa **diagram** genom att ställa in egenskaper
+- Ställ in **data för diagram** dynamiskt
+- Lägg till **anpassade diagram** till arbetsblad
+- Lägg till **bilder** till arbetsblad vid körning
+- Skapa och lägga till kommentarer till celler
 - Konvertera diagram till bildfil
 - Konvertera kalkylblad till bildfil
-- Skriv ut arbetsblad
+- Skriv ut arbetsböcker
 ## **Avancerade funktioner**
--  Stödjer**formelberäkning** med hjälp av robust formelberäkningsmotor
--  Ändra**källdata för en pivottabell** vid körning
+- Stöder **formelberäkning** med robust beräkning av formler
+- Ändra **källadata för ett pivottabell** vid körning
 - Skapa och manipulera pivottabeller
 - Manipulera VBA-kod eller makron.
 ## **Plattformar som stöds**
-- Webbapplikation för företag
+- Företagswebbapplikation
 - Linux
 - Unix
-## **Framgångsberättelser**
-Nedan är några av vittnesmålen från Aspose.Cells kunder.
+## **Framgångshistorier**
+Nedan är några av de vittnesmål från Aspose.Cells kunder.
 
-**Kontrollera:** 
-[Aspose.Cells Forum - Rekommendationer](https://downloads.aspose.com/corporate/success-stories/aspose.cells/)
+**Vänligen kontrollera:** 
+[Aspose.Cells Forum - Vittnesmål](https://downloads.aspose.com/corporate/success-stories/aspose.cells/)

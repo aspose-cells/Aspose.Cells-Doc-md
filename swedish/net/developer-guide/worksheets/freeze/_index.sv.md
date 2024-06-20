@@ -1,44 +1,42 @@
 ---
-title: Frys rutor i Excel-kalkylblad
-linktitle: Frys rutor
+title: Frysa rader i Excel ark
+linktitle: Frysa rader
 type: docs
 weight: 190
 url: /sv/net/how-to-freeze-panes-of-excel-worksheet
-description: I den här artikeln kommer du att lära dig hur du fryser rutor i Excel-kalkylblad programmatiskt med C# Library med .NET API.
-keywords: Freeze panes, Feeze window.
+description: I den här artikeln kommer du att lära dig hur man fryser rader i Excel ark programmatiskt med C# bibliotek med .NET API.
+keywords: Frysa rader, frysa fönster.
 ---
-{{% alert color="primary" %}}
 
-den här artikeln kommer vi att lära oss hur man fryser rutor.
-När du har en enorm mängd data under en gemensam rubrik kan du inte se rubriken när du rullar ner i kalkylbladet. Och varje post innehåller många data. Du kan frysa rutor så att du kan se den frysta delen även när resten av data rullas. Du kan enkelt se rubriker i de översta raderna eller första kolumnerna. Frysning och avfrysning av rutor ändrar bara datavyn utan att själva data ändras.
+## **Introduktion**
 
-{{% /alert %}}
+I den här artikeln kommer vi att lära oss hur man fryser rutor. När du har en enorm mängd data under en gemensam rubrik kan du inte se rubriken när du scrollar ner i kalkylarket. Och varje post innehåller många data. Du kan frysa rutor så att du kan se den frysta delen även när resten av datorna rullas. Du kan enkelt se rubriker i de översta raderna eller första kolumnerna. Att frysa och avfrysa rutor ändrar endast visningen av datan utan att ändra datan själv.
 
-##  **I Excel**
+## **I Excel**
 
-**![Freeze rutor i Excel](Freeze-panes.png)**
+**![Frys rader i Excel](Frys-panor.png)**
 
 
-1. Om du vill frysa rutor, frysa rader och kolumner, välj först en cell (som B2)
-2. Klicka på Visa > Frys fönster.
-3. Klicka på Frys rutor i rullgardinsmenyn.
-4. Om du bläddrar nedåt eller höger, fryses den första raden och kolumnen.
+1. Om du vill frysa rader, frysa rader och kolumner, välj först en cell (t.ex. B2)
+2. Klicka på Visa > Frysa rader.
+3. I rullgardinsmenyn klickar du på Frysa rader.
+4. Om du rullar ned eller till höger är den första raden och kolumnen frysta.
 
-**![Fonzen-rutor](Frozen-Panes.png)**
+**![Frysta rader](Frysta-rutor.png)**
 
- Som du kan se är första raden och kolumn A frysta, den andra raden är 32 och den andra synliga kolumnen är D.
+Som du kan se är 1: a raden och kolumn A frysta, den andra raden är 32 och den andra synliga kolumnen är D. 
 
-Frys rutor låter dig se dina stora data utan att behöva hålla reda på rad- eller kolumnetikett.
+Frysa rader låter dig visa din stora data utan att behöva hålla reda på rad- eller kolumnetikett.
 
 
 
 
-##  **Frys rutor med Aspose.Cells för .Net**
- Det är enkelt att frysa rutor med Aspose.Cells för .Net. Vänligen använd[**Arbetsblad.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/)metod för att skjuta upp rutor vid den valda Cell.
-1. Konstruera arbetsbok för att öppna filen eller skapa en tom fil.
-2. Frys rutor med metoden Worksheet.FreezePanes().
+## **Frysa rader med Aspose.Cells för .Net**
+Det är enkelt att frysa rader med Aspose.Cells för .Net. Använd [**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/)-metoden för att frysa rader vid den valda cellen.
+1. Konstruera Arbetsbok för att öppna filen eller skapa en tom fil.
+2. Frysta rader med Worksheet.FreezePanes() metod.
 3. Spara filen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Pane.cs" >}}
 
- Bifogad[exempel på Excel-källfil](Freeze.xlsx).
+Bifogad [provkälla Excel-fil](Frys.xlsx).

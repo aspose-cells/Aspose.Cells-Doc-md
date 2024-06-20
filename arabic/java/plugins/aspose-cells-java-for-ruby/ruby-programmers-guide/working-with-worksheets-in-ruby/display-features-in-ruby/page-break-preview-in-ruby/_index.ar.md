@@ -1,15 +1,16 @@
-﻿---
-title: معاينة فاصل الصفحة في روبي
+---
+title: معاينة كسر الصفحات في روبي
 type: docs
 weight: 70
 url: /ar/java/page-break-preview-in-ruby/
 ---
-## **Aspose.Cells - معاينة فاصل الصفحة**
- لتعيين ورقة العمل لمعاينة فاصل الصفحة باستخدام**Aspose.Cells Java لروبي** ، ببساطة استدعاء**معاينة PageBreak** وحدة.
 
-**كود روبي**
+## **Aspose.Cells - معاينة كسر الصفحات**
+لتعيين ورقة عمل إلى معاينة كسر الصفحات باستخدام **Aspose.Cells Java for Ruby**، قم ببساطة بدعوة الوحدة **PageBreakPreview**.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -36,7 +37,7 @@ workbook.save(data_dir + "output.xls")
 puts "Set page break preview, please check the output file."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**معاينة فاصل الصفحة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **معاينة كسر الصفحات (Aspose.Cells)** من أي من مواقع الترميز الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreakpreview.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreakpreview.rb)

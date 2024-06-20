@@ -1,20 +1,21 @@
-﻿---
-title: Преобразование элементов диаграммы выбранного отчета в диаграммы Excel
+---
+title: Визуализировать элементы диаграмм выбранного отчета в виде диаграмм Excel
 type: docs
 weight: 20
 url: /ru/reportingservices/render-chart-items-of-selected-report-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Чтобы отобразить элементы диаграммы в Microsoft диаграммы Excel:
+Для визуализации элементов диаграмм в диаграммы Microsoft Excel:
 
-1. Открыть**Aspose.Cells.ReportingServices.xml** файл.
-1.  Измените параметры конфигурации в**Aspose.Cells.ReportingServices.xml** файл.
-1. Добавьте информацию о конфигурации желаемого отчета.
+1. Откройте файл **Aspose.Cells.ReportingServices.xml**.
+1. Измените параметры конфигурации в файле **Aspose.Cells.ReportingServices.xml**.
+1. Добавьте информацию о конфигурации вашего желаемого отчета.
 
 Например:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 
@@ -28,6 +29,6 @@ url: /ru/reportingservices/render-chart-items-of-selected-report-to-excel-charts
 
 **Диаграммы Excel можно редактировать в Microsoft Excel** 
 
-![дело:изображение_альтернативный_текст](render-chart-items-of-selected-report-to-excel-charts_1.png)
+![todo:image_alt_text](render-chart-items-of-selected-report-to-excel-charts_1.png)
 
 {{% /alert %}}

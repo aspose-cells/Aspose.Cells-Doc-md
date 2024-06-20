@@ -1,27 +1,28 @@
 ---
-title: Anpassen von Diagrammen
-description: Erfahren Sie, wie Sie Diagramme anpassen unter Aspose.Cells for .NET. Unser Leitfaden zeigt Ihnen, wie Sie Diagrammlayouts ändern, Datenreihen hinzufügen und formatieren, Achsen anpassen und verschiedene Formatierungsoptionen anwenden, um das Erscheinungsbild und die Benutzerfreundlichkeit Ihrer Diagramme zu verbessern.
-keywords: Aspose.Cells for .NET, charting, customization, layouts, data series, axes, formatting, appearance, usability.
+title: Diagramme anpassen
+description: Erfahren Sie, wie Sie Diagramme in Aspose.Cells for .NET anpassen. Unser Leitfaden zeigt Ihnen, wie Sie Diagrammlayouts ändern, Datenreihen hinzufügen und formatieren, Achsen anpassen und verschiedene Formatierungsoptionen anwenden können, um das Erscheinungsbild und die Benutzerfreundlichkeit Ihrer Diagramme zu verbessern.
+keywords: Aspose.Cells for .NET, Diagrammerstellung, Anpassung, Layouts, Datenreihen, Achsen, Formatierung, Erscheinungsbild, Benutzerfreundlichkeit.
 type: docs
 weight: 40
 url: /de/net/customizing-charts/
 ---
+
 {{% alert color="primary" %}}
 
-##  **Erstellen benutzerdefinierter Diagramme**
+## **Erstellen von benutzerdefinierten Diagrammen**
 
-Bisher haben wir uns bei der Besprechung von Diagrammen mit Standarddiagrammen befasst, die über ihre Standardformatierungseinstellungen verfügen. Wir definieren nur die Datenquelle, legen einige Eigenschaften fest und das Diagramm wird mit seinen Standardformateinstellungen erstellt. Aber Aspose.Cells APIs unterstützen auch die Erstellung benutzerdefinierter Diagramme, die es Entwicklern ermöglichen, Diagramme mit ihren eigenen Formateinstellungen zu erstellen.
+Bisher haben wir bei der Besprechung von Diagrammen nur Standarddiagramme betrachtet, die ihre Standardformatierungseinstellungen haben. Wir definieren nur die Datenquelle, setzen einige Eigenschaften, und das Diagramm wird mit seinen Standardformatierungseinstellungen erstellt. Aber Aspose.Cells-APIs unterstützen auch die Erstellung benutzerdefinierter Diagramme, die es Entwicklern ermöglichen, Diagramme mit ihren eigenen Formatierungseinstellungen zu erstellen.
 
-Entwickler können mit Aspose.Cells zur Laufzeit benutzerdefinierte Diagramme erstellen.
+Entwickler können benutzerdefinierte Diagramme zur Laufzeit mithilfe von Aspose.Cells erstellen.
 
- Ein Diagramm besteht aus einer Datenreihe. Jede Datenreihe in Aspose.Cells wird durch a dargestellt[**Serie**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) Objekt während[**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) Das Objekt dient als Sammlung von[**Serie**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)Objekte. Beim Erstellen eines benutzerdefinierten Diagramms haben Entwickler die Freiheit, verschiedene Diagrammtypen für unterschiedliche Datenreihen (gesammelt in) zu verwenden[**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)Objekt).
+Ein Diagramm besteht aus einer Datenreihe. Jede Datenreihe in Aspose.Cells wird durch ein [**Series**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)-Objekt repräsentiert, während ein [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)-Objekt als Sammlung von [**Series**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)-Objekten dient. Beim Erstellen eines benutzerdefinierten Diagramms haben Entwickler die Freiheit, verschiedene Diagrammtypen für verschiedene Datenreihen (gesammelt im [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)-Objekt) zu verwenden.
 
-Der folgende Beispielcode zeigt, wie Sie benutzerdefinierte Diagramme erstellen. In diesem Beispiel verwenden wir ein Säulendiagramm für die erste Datenreihe und ein Liniendiagramm für die zweite Reihe. Das Ergebnis ist, dass wir dem Arbeitsblatt ein Säulendiagramm in Kombination mit einem Liniendiagramm hinzufügen.
+Der nachstehende Beispielcode zeigt, wie benutzerdefinierte Diagramme erstellt werden können. In diesem Beispiel verwenden wir ein Säulendiagramm für die erste Datenreihe und ein Liniendiagramm für die zweite Reihe. Das Ergebnis ist, dass wir ein Säulendiagramm, kombiniert mit einem Liniendiagramm, dem Arbeitsblatt hinzufügen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateCustomChart-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Derzeit unterstützt Aspose.Cells nur benutzerdefinierte Diagramme, die Kreis-, Linien-, Säulen- und Säulenstapeldiagramme kombinieren. In zukünftigen Versionen werden jedoch weitere Diagramme unterstützt.
+Derzeit unterstützt Aspose.Cells nur benutzerdefinierte Diagramme, die Kuchen-, Linien-, Säulen- und Säulenanordnungsdiagramme kombinieren, aber in zukünftigen Versionen werden weitere Diagramme unterstützt.
 
 {{% /alert %}}

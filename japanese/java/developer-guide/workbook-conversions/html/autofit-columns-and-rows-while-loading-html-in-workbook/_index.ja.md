@@ -1,18 +1,19 @@
-﻿---
-title: ワークブックに HTML をロードする際の列と行の自動調整
+---
+title: ワークブックにHTMLをロードする際の列と行を自動調整する
 type: docs
 weight: 70
 url: /ja/java/autofit-columns-and-rows-while-loading-html-in-workbook/
 ---
-## **考えられる使用シナリオ**
 
-HTML ファイルを**[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**物体。を設定してください**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)**プロパティへ**真実**この目的のために。
+## **可能な使用シナリオ**
 
-## **ワークブックに HTML をロードする際の列と行の自動調整**
+[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) オブジェクト内でHTMLファイルをロードする際、列と行を自動調整できます。この目的のために[**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)プロパティを **true** に設定してください。
 
-次のサンプル コードは、最初にサンプル HTML を読み込みオプションなしで Workbook に読み込み、XLSX 形式で保存します。次に、サンプル HTML を再度 Workbook に読み込みますが、今回は、設定後に HTML を読み込みます。**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)**プロパティへ**真実**XLSX 形式で保存します。両方の出力 Excel ファイルをダウンロードしてください。[AutoFitColsAndRows なしで Excel ファイルを出力する](outputWithout_AutoFitColsAndRows.xlsx)と[AutoFitColsAndRows を使用して Excel ファイルを出力する](outputWith_AutoFitColsAndRows.xlsx).次のスクリーンショットは、**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)**両方の出力 Excel ファイルのプロパティ。
+## **ワークブックにHTMLをロードする際の列と行を自動調整する**
 
-![todo:画像_代替_文章](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+次のサンプルコードでは、まずロードオプションなしでサンプルHTMLをワークブックにロードし、XLSX形式で保存します。そして、[**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)プロパティを **true** に設定してサンプルHTMLを再びワークブックにロードし、XLSX形式で保存します。[**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) プロパティの効果は、以下のスクリーンショットに示されています。[自動調整なしの出力Excelファイル](outputWithout_AutoFitColsAndRows.xlsx) および [自動調整ありの出力Excelファイル](outputWith_AutoFitColsAndRows.xlsx) をダウンロードしてください。
+
+![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
 
 ## **サンプルコード**
 

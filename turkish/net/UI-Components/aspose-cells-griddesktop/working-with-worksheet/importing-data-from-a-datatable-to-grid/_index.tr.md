@@ -1,26 +1,29 @@
-﻿---
-title: DataTable'dan Grid'e Veri Aktarma
+---
+title: DataTable dan Grid e Veri İçe Aktarma
 type: docs
 weight: 50
-url: /tr/net/importing-data-from-a-datatable-to-grid/
+url: /tr/net/aspose-cells-griddesktop/import-data-from-a-datatable-to-grid/
+keywords: GridDesktop, içe aktar, veri, datatable
+description: Bu makale, GridDesktop ta veri içe aktarmanın nasıl yapıldığını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-.NET Çerçevesinin piyasaya sürülmesinden bu yana Microsoft, verileri bir DataTable nesnesi biçiminde çevrimdışı modda depolamak için mükemmel bir yol sağladı. Geliştiricilerin ihtiyaçlarını anlayan Aspose.Cells.GridDesktop, bir veri tablosundan veri almayı da destekler. Bu konuda bunun nasıl yapılacağı anlatılmaktadır.
+.NET Framework'ün yayımlanmasından bu yana, Microsoft, bir DataTable nesnesi şeklinde çevrimdışı modda veri depolamanın mükemmel bir yolunu sunmuştur. Geliştiricilerin ihtiyaçlarını anlayarak, Aspose.Cells.GridDesktop da bir veri tablosundan veri içe aktarma işlemini destekler. Bu konu, bunun nasıl yapılacağını tartışmaktadır.
 
 {{% /alert %}} 
-## **Örnek vermek**
-Aspose.Cells.GridDesktop kontrolünü kullanarak bir veri tablosunun içeriğini içe aktarmak için:
+## **Örnek**
+Aspose.Cells.GridDesktop kontrolünü kullanarak bir veri tablosunun içeriğini içe aktarmak için: Bir form üzerine Aspose.Cells.GridDesktop kontrolünü ekleyin.
 
-1. Bir forma Aspose.Cells.GridDesktop denetimi ekleyin.
-1. İçe aktarılacak verileri içeren bir DataTable nesnesi oluşturun.
-1. İstediğiniz bir çalışma sayfasının referansını alın.
-1. Veri tablosu içeriğini çalışma sayfasına alın.
-1. Veri tablosunun sütun adlarına göre çalışma sayfasının sütun başlıklarını ayarlayın.
-1. İsterseniz sütunların genişliğini ayarlayın/
+1. İçe aktarılacak veriyi içeren bir DataTable nesnesi oluşturun.
+2. İstenen çalışsayfanın referansını alın.
+1. İstenen çalışma sayfasının referansını alın.
+4. Çalışsayfanın sütun başlıklarını veri tablosunun sütun adlarına göre ayarlayın.
+5. İstenirse sütunların genişliğini ayarlayın.
+1. İstenirse sütunların genişliğini ayarlayın.
 1. Çalışma sayfasını görüntüleyin.
 
-Aşağıda verilen örnekte, bir DataTable nesnesi oluşturduk ve onu Products adlı bir veritabanı tablosundan getirilen bazı verilerle doldurduk. Son olarak, Aspose.Cells.GridDesktop kullanarak bu DataTable nesnesinden istenen bir çalışma sayfasına veri aktardık.
+Aşağıdaki örnekte, DataTable nesnesi oluşturduk ve Products adlı bir veritabanı tablosundan alınan bazı verilerle doldurduk. Son olarak, o DataTable nesnesinden Aspose.Cells.GridDesktop kullanarak istenilen bir çalışma sayfasına veri aktardık.
 
 
 

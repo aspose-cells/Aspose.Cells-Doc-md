@@ -1,17 +1,18 @@
-﻿---
+---
 title: Insertar hipervínculos en la hoja de trabajo
 type: docs
 weight: 20
 url: /es/net/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Insertar hipervínculos en la hoja de trabajo**
-**Agregar un enlace a un Cell en el mismo archivo**
 
-Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al método Add de la colección Hyperlink. El método Agregar funciona tanto para hipervínculos internos como externos.
+## **Aspose.Cells - Insertar hipervínculos en la hoja de trabajo**
+**Agregar un enlace a una celda en el mismo archivo**
+
+Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al método Agregar de la colección de hipervínculos. El método Agregar funciona tanto para hipervínculos internos como externos.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -66,16 +67,16 @@ workbook.Save("test.xlsx");
 
 **Agregar un enlace a un archivo externo**
 
-Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al método Add de la colección Hyperlink. El método Agregar funciona tanto para hipervínculos internos como externos. Una versión del método sobrecargado toma los siguientes parámetros:
+Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al método Agregar de la colección de hipervínculos. El método Agregar funciona tanto para hipervínculos internos como externos. Una versión del método sobrecargado toma los siguientes parámetros:
 
-- Cell nombre, el nombre de la celda a la que se agregará el hipervínculo.
+- Nombre de la celda, el nombre de la celda a la que se agregará el hipervínculo.
 - Número de filas, el número de filas en este rango de hipervínculo.
 - Número de columnas, el número de columnas en este rango de hipervínculo.
-- URL, la dirección de la celda objetivo.
+- URL, la dirección de la celda de destino.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -99,7 +100,7 @@ workbook.Save("C:\\book1.xls");
 ## **NPOI - HSSF XSSF - Insertar hipervínculos en la hoja de trabajo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -192,13 +193,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Insertar hipervínculos en la hoja de trabajo** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Insertar hipervínculos en la hoja de trabajo** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Adición de hipervínculos a datos de enlaces](/cells/es/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
+Para obtener más detalles, visita [Agregar hipervínculos para vincular datos](/cells/es/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
 
 {{% /alert %}}

@@ -1,87 +1,89 @@
-﻿---
-title: Administre hojas de trabajo de Microsoft archivos de Excel.
-linktitle: Hojas de trabajo
+---
+title: Administrar hojas de cálculo de archivos de Microsoft Excel
+linktitle: Hojas de cálculo
 type: docs
 weight: 90
 url: /es/net/manage-worksheets/
-description: Agregue la hoja de trabajo, elimine la hoja de trabajo y la hoja activa usando Aspose.Cells.
+description: Agregar hojas de cálculo, eliminar hojas de cálculo y hoja activa utilizando Aspose.Cells.
 ---
+
+
 {{% alert color="primary" %}}
 
-Los desarrolladores pueden crear y administrar fácilmente hojas de trabajo en archivos Microsoft de Excel mediante programación usando Aspose.Cells' flexible API. Este tema describe enfoques para agregar y eliminar hojas de trabajo en archivos Microsoft de Excel.
+Los desarrolladores pueden crear y administrar fácilmente hojas de cálculo en archivos de Microsoft Excel programáticamente utilizando la API flexible de Aspose.Cells. Este tema describe los enfoques para agregar y eliminar hojas de cálculo en archivos de Microsoft Excel.
 
 {{% /alert %}}
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en el archivo de Excel.
+Aspose.Cells proporciona una clase, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), que representa un archivo de Excel. La clase [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contiene una colección [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) que permite acceder a cada hoja de cálculo en el archivo de Excel.
 
- Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo.
+Una hoja de cálculo está representada por la clase [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La clase [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) proporciona una amplia gama de propiedades y métodos para administrar las hojas de cálculo.
 
-## **Agregar hojas de trabajo a un nuevo archivo de Excel**
+## **Añadir hojas de cálculo a un nuevo archivo de Excel**
 
-Para crear un nuevo archivo de Excel mediante programación:
+Para crear un nuevo archivo de Excel programáticamente:
 
-1.  Crea un objeto de la[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)clase.
-1.  Llama a[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) metodo de la[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) clase. Una hoja de cálculo vacía se agrega automáticamente al archivo de Excel. Se puede hacer referencia al pasar el índice de la hoja de la nueva hoja de trabajo al[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) recopilación.
-1. Obtenga una referencia de la hoja de trabajo.
-1. Realizar el trabajo en las hojas de trabajo.
-1.  Guarde el nuevo archivo de Excel con nuevas hojas de trabajo llamando al[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase'[**Ahorrar**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)método.
+1. Cree un objeto de la clase [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+1. Llame al método [**Add**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) de la clase [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection). Se añade automáticamente una hoja de cálculo vacía al archivo de Excel. Se puede hacer referencia a ella pasando el índice de hoja de la nueva hoja de cálculo a la colección [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets).
+1. Obtenga una referencia de la hoja de cálculo.
+1. Realice el trabajo en las hojas de cálculo.
+1. Guarde el nuevo archivo de Excel con las nuevas hojas de cálculo llamando al método [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) de la clase [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToNewExcelFile-1.cs" >}}
 
-## **Adición de hojas de trabajo a una hoja de cálculo de Designer**
+## **Añadir hojas de cálculo a una hoja de cálculo de diseñador**
 
- El proceso de agregar hojas de trabajo a una hoja de cálculo de diseñador es el mismo que el de agregar una nueva hoja de trabajo, excepto que el archivo de Excel ya existe, por lo que debe abrirse antes de agregar las hojas de trabajo. Una hoja de cálculo de diseñador puede ser abierta por el[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)clase.
+El proceso de agregar hojas de cálculo a una hoja de cálculo predefinida es igual al de agregar una nueva hoja de cálculo, excepto que el archivo de Excel ya existe, por lo que debe abrirse antes de que se agreguen las hojas de cálculo. Una hoja de cálculo predefinida puede ser abierta por la clase [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToDesignerSpreadSheet-1.cs" >}}
 
-## **Acceder a las hojas de trabajo usando el nombre de la hoja**
+## **Acceso a las hojas de cálculo usando el nombre de la hoja**
 
-Acceda a cualquier hoja de trabajo especificando su nombre o índice.
+Acceda a cualquier hoja de cálculo especificando su nombre o índice
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AccessingWorksheetsusingSheetName-1.cs" >}}
 
-## **Eliminación de hojas de trabajo usando el nombre de la hoja**
+## **Eliminar hojas de cálculo utilizando el nombre de la hoja**
 
-Para eliminar hojas de trabajo de un archivo, llame al[**Eliminar en**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat/index) método de[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) clase. Pase el nombre de la hoja al[**Eliminar en**](https://reference.aspose.com/cells/net/aspose.cells.worksheetcollection/removeat/methods/1)método para eliminar una hoja de trabajo específica.
+Para eliminar hojas de cálculo de un archivo, llame al método [**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat/index) de la clase [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection). Pase el nombre de la hoja al método [**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells.worksheetcollection/removeat/methods/1) para eliminar una hoja de cálculo específica
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetName-1.cs" >}}
 
-## **Eliminación de hojas de cálculo mediante el índice de hojas**
+## **Eliminar hojas de cálculo utilizando el índice de la hoja**
 
- La eliminación de hojas de trabajo por nombre funciona bien cuando se conoce el nombre de la hoja de trabajo. Si no conoce el nombre de la hoja de cálculo, utilice una versión sobrecargada de la[**Eliminar en**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat)método que toma el índice de hoja de la hoja de trabajo en lugar de su nombre de hoja.
+Eliminar hojas de cálculo por nombre funciona bien cuando se conoce el nombre de la hoja de cálculo. Si no conoce el nombre de la hoja de cálculo, use una versión sobrecargada del método [**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat) que tome el índice de la hoja de cálculo en lugar de su nombre de hoja
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetIndex-1.cs" >}}
 
-## **Activar hojas y hacer un activo Cell en la hoja de trabajo**
+## **Activar hojas y hacer que una celda sea activa en la hoja de cálculo**
 
-A veces, necesita que una hoja de trabajo específica esté activa y se muestre cuando un usuario abre un archivo de Excel Microsoft en Excel. De manera similar, es posible que desee activar una celda específica y configurar las barras de desplazamiento para mostrar la celda activa.
-Aspose.Cells es capaz de hacer todas estas tareas.
+A veces, necesita que una hoja de cálculo específica esté activa y visible cuando un usuario abre un archivo de Microsoft Excel en Excel. De manera similar, es posible que desee activar una celda específica y establecer las barras de desplazamiento para mostrar la celda activa
+Aspose.Cells es capaz de realizar todas estas tareas
 
- Un**hoja activa** es una hoja en la que está trabajando: el nombre de la hoja activa en la pestaña está en negrita de forma predeterminada.
+Una **hoja activa** es una hoja en la que está trabajando: el nombre de la hoja activa en la pestaña aparece en negrita de forma predeterminada
 
- Un**Célula activa** es una celda seleccionada, la celda en la que se ingresan los datos cuando comienza a escribir. Solo una celda está activa a la vez. La celda activa está resaltada por un borde grueso.
+Una **celda activa** es una celda seleccionada, la celda en la que se ingresa datos cuando comienza a escribir. Solo una celda está activa a la vez. La celda activa se resalta con un borde grueso
 
-### **Activando Hojas y Haciendo un Cell Activo**
+### **Activar hojas y hacer que una celda sea activa**
 
-Aspose.Cells proporciona llamadas API específicas para activar una hoja y una celda. Por ejemplo, el[**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex)La propiedad es útil para configurar la hoja activa en un libro de trabajo.
-Similarmente,[**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell)La propiedad se utiliza para establecer y obtener una celda activa en la hoja de cálculo.
+Aspose.Cells proporciona llamadas específicas de API para activar una hoja y una celda. Por ejemplo, la propiedad [**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex) es útil para establecer la hoja activa en un libro de trabajo
+De manera similar, la propiedad [**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell) se usa para establecer y obtener una celda activa en la hoja de cálculo
 
-Para asegurarse de que las barras de desplazamiento horizontal o vertical estén en la posición del índice de fila y columna en la que desea mostrar datos específicos, use el[**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) y[**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn)propiedades.
+Para asegurarse de que las barras de desplazamiento horizontal o vertical estén en la posición del índice de fila y columna que desea mostrar datos específicos, use las propiedades [**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) y [**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn)
 
-El siguiente ejemplo muestra cómo activar una hoja de trabajo y hacer una celda activa en ella. En la salida generada, las barras de desplazamiento se desplazarán para hacer que la segunda fila y la segunda columna sean sus primeras filas y columnas visibles.
+El siguiente ejemplo muestra cómo activar una hoja de cálculo y hacer que una celda sea activa en ella. En la salida generada, las barras de desplazamiento se desplazarán para que la segunda fila y la segunda columna sean su primera fila y columna visibles
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-MakeCellActive-1.cs" >}}
 
 ## **Temas avanzados**
-- [Copiar y mover hojas de trabajo](/cells/es/net/copying-and-moving-worksheets/)
-- [Cuente el número de celdas en la hoja de trabajo](/cells/es/net/count-number-of-cells-in-the-worksheet/)
-- [Detectar hojas de trabajo vacías](/cells/es/net/detecting-empty-worksheets/)
-- [Averigüe si la hoja de trabajo es una hoja de diálogo](/cells/es/net/find-if-the-worksheet-is-dialog-sheet/)
-- [Obtener identificación única de la hoja de trabajo](/cells/es/net/get-worksheet-unique-id/)
-- [Crear, manipular o eliminar escenarios de las hojas de trabajo](/cells/es/net/create-manipulate-or-remove-scenarios-from-worksheets/)
-- [Gestión de saltos de página](/cells/es/net/managing-page-breaks/)
+- [Copiar y mover hojas de cálculo](/cells/es/net/copying-and-moving-worksheets/)
+- [Contar el número de celdas en la hoja de cálculo](/cells/es/net/count-number-of-cells-in-the-worksheet/)
+- [Detectar hojas de cálculo vacías](/cells/es/net/detecting-empty-worksheets/)
+- [Buscar si la hoja de trabajo es una hoja de diálogo](/cells/es/net/find-if-the-worksheet-is-dialog-sheet/)
+- [Obtener el ID único de la hoja de trabajo](/cells/es/net/get-worksheet-unique-id/)
+- [Crear, manipular o eliminar escenarios de hojas de trabajo](/cells/es/net/create-manipulate-or-remove-scenarios-from-worksheets/)
+- [Gestionar saltos de página](/cells/es/net/managing-page-breaks/)
 - [Funciones de configuración de página](/cells/es/net/page-setup-features/)
-- [Imprimir varias copias de una hoja de trabajo](/cells/es/net/print-multiple-copies-of-a-worksheet/)
-- [Utilice la propiedad Sheet.SheetId de OpenXml usando Aspose.Cells](/cells/es/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
-- [Vistas de la hoja de cálculo](/cells/es/net/worksheet-views/)
+- [Imprimir múltiples copias de una hoja de trabajo](/cells/es/net/print-multiple-copies-of-a-worksheet/)
+- [Utilizar la propiedad SheetId de OpenXml usando Aspose.Cells](/cells/es/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
+- [Vistas de hojas de trabajo](/cells/es/net/worksheet-views/)
 

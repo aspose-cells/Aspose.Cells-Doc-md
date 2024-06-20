@@ -1,25 +1,26 @@
-﻿---
+---
 title: Valuta Aspose.Cells
 type: docs
 weight: 70
 url: /it/reportingservices/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Puoi facilmente scaricare Aspose.Cells for Reporting Services per la valutazione dal[pagina di download](https://downloads.aspose.com/cells/reportingservices) . Il download di valutazione è lo stesso del download acquistato. La versione di valutazione viene semplicemente concessa in licenza dopo[applicazione di una licenza](/cells/it/reportingservices/licensing/).
+È possibile scaricare facilmente Aspose.Cells for Reporting Services per valutazione dalla [pagina di download](https://downloads.aspose.com/cells/reportingservices). Il download di valutazione è lo stesso del download acquistato. La versione di valutazione diventa semplicemente con licenza dopo [applicare una licenza](/cells/it/reportingservices/licensing/).
 
 {{% /alert %}}
 
-La versione di valutazione di Aspose.Cells for Reporting Services (senza una licenza specificata) fornisce funzionalità del prodotto in una certa misura non completa però. Una limitazione è che inserisce sempre un foglio di lavoro aggiuntivo con filigrana di valutazione all'apertura/salvataggio di qualsiasi documento del foglio di calcolo.
+La versione di valutazione di Aspose.Cells for Reporting Services (senza licenza specificata) fornisce la funzionalità del prodotto in parte ma non completa. Un limite è che inserisce sempre un foglio di lavoro aggiuntivo con il watermark di valutazione quando si apre/salva qualsiasi documento di foglio di calcolo.
 
-![cose da fare:immagine_alt_testo](evaluate-aspose-cells_1.png)
+![todo:image_alt_text](evaluate-aspose-cells_1.png)
 
-**Figura:** Foglio di calcolo demo creato dal componente Aspose.Cells
+**Figura:** Foglio di calcolo dimostrativo creato dal componente Aspose.Cells
 
-Inietterà un foglio di lavoro filigrana di valutazione aggiuntivo nella cartella di lavoro.
+Inietterà un foglio di calcolo extra con watermark di valutazione nel workbook.
 
-![cose da fare:immagine_alt_testo](evaluate-aspose-cells_2.png)
+![todo:image_alt_text](evaluate-aspose-cells_2.png)
 
-**Figura:** Avviso di valutazione: un foglio di lavoro aggiuntivo
+**Figura:** Avviso di valutazione – Un foglio di lavoro extra
 
- Se vuoi testare Aspose.Cells for Reporting Services senza limitazioni della versione di valutazione, puoi[richiedere una licenza temporanea di 30 giorni](https://purchase.aspose.com/temporary-license).
+Se desideri testare Aspose.Cells for Reporting Services senza limitazioni della versione di valutazione, puoi [richiedere una licenza temporanea di 30 giorni](https://purchase.aspose.com/temporary-license).

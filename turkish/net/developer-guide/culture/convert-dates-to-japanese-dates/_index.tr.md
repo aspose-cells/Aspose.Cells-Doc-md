@@ -1,20 +1,21 @@
-﻿---
-title: Tarihleri Japon Tarihlerine Dönüştür
+---
+title: Japon Tarihlerine Dönüştür
 type: docs
 weight: 350
 url: /tr/net/convert-dates-to-japanese-dates/
 ---
+
 {{% alert color="primary" %}} 
 
-Japon** **Takviminde, yeni bir imparatorun saltanatı ile yeni bir dönem başlar. 1 Mayıs 2019'da Heisei döneminin sona ermesi ve Reiwa döneminin başlamasıyla yeni bir imparator iktidara geldi.
+Japon Takviminde, yeni bir imparatorun saltanatıyla yeni bir çağ başlar. 1 Mayıs 2019'da, Heisei çağı sona erdi ve Reiwa çağı başladı.
 
 {{% /alert %}} 
 
 
 
- Aspose.Cells, Miladi tarihleri Japon tarihlerine çevirmenin bir yolunu sunar. Bu dönüşüm sırasında dönemdeki değişimler de göz önünde bulundurulur. Aşağıdaki kod parçacığı dönüştürür[kaynak Excel](90112015.xlsx) Gregoryen tarihlerini içeren dosya[çıkış PDF](90112016.pdf) Aşağıdaki resimde gösterildiği gibi Japon tarihleriyle.
+Aspose.Cells, Gregoryen tarihleri Japon tarihlerine çevirmenin bir yolunu sağlar. Bu dönüşüm sırasında çağdaki değişiklikler de dikkate alınır. Aşağıdaki kod parçacığı, tarihleri Japon tarihleri olarak içeren [kaynak Excel](90112015.xlsx) dosyasını [çıktı PDF](90112016.pdf) olarak dönüştürmeyi gösterir.
 
-![yapılacaklar:resim_alternatif_metin](convert-dates-to-japanese-dates_1.jpg)
+![todo:image_alt_text](convert-dates-to-japanese-dates_1.jpg)
 
 
 

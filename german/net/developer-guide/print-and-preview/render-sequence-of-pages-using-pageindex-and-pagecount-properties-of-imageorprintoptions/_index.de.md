@@ -1,20 +1,22 @@
-﻿---
-title: Rendern Sie eine Seitenfolge mithilfe der PageIndex- und PageCount-Eigenschaften von ImageOrPrintOptions
+---
+title: Sequenz von Seiten rendern mithilfe der Eigenschaften PageIndex und PageCount von ImageOrPrintOptions
 type: docs
 weight: 110
 url: /de/net/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
+
 ---
-## **Mögliche Nutzungsszenarien**
 
-Sie können eine Folge von Seiten Ihrer Excel-Datei in Bilder rendern, indem Sie Aspose.Cells mit verwenden[**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pageindex)und[**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pagecount)Eigenschaften. Diese Eigenschaften sind nützlich, wenn Ihr Arbeitsblatt so viele, z. B. Tausende von Seiten enthält, aber nur einige davon rendern möchten. Dies spart nicht nur Verarbeitungszeit, sondern auch den Speicherverbrauch des Rendering-Prozesses.
+## **Mögliche Verwendungsszenarien**
 
-## **Rendern Sie eine Seitenfolge mithilfe der PageIndex- und PageCount-Eigenschaften von ImageOrPrintOptions**
+Sie können eine Sequenz von Seiten Ihrer Excel-Datei zu Bildern rendern, indem Sie Aspose.Cells mit den Eigenschaften [**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pageindex) und [**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pagecount) verwenden. Diese Eigenschaften sind nützlich, wenn es beispielsweise Tausende von Seiten in Ihrem Arbeitsblatt gibt, Sie aber nur einige davon rendern möchten. Dadurch wird nicht nur die Verarbeitungszeit gespart, sondern auch der Speicherverbrauch des Renderprozesses.
 
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](55541781.xlsx) und rendert nur die Seiten 4, 5, 6 und 7 mit der[**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pageindex)und[**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pagecount)Eigenschaften. Hier sind die vom Code generierten gerenderten Seiten.
+## **Sequenz von Seiten rendern mithilfe der Eigenschaften PageIndex und PageCount von ImageOrPrintOptions**
 
-|![todo: Bild_alt_Text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_1)|![todo: Bild_alt_Text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_2)|
-|:- |:- |
-|![todo: Bild_alt_Text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_3)|![todo: Bild_alt_Text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_4)|
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](55541781.xlsx) und rendert nur die Seiten 4, 5, 6 und 7 unter Verwendung der Eigenschaften [**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pageindex) und [**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pagecount). Hier sind die von dem Code generierten gerenderten Seiten.
+
+|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_1)|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_2)|
+| :- | :- |
+|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_3)|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_4)|
 
 ## **Beispielcode**
 

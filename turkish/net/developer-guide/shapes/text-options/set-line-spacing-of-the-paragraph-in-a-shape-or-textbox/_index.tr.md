@@ -1,12 +1,13 @@
-﻿---
-title: Bir Şekilde veya Metin Kutusunda Paragrafın Satır Aralığını Ayarlama
+---
+title: Bir Şekil veya Metin Kutusundaki Paragrafın Satır Boşluğunu Ayarlama
 type: docs
 weight: 290
 url: /tr/net/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 ---
+
 {{% alert color="primary" %}}
 
- Paragrafın satır aralığını, öncesindeki ve sonrasındaki aralığı ayarlayabilirsiniz.[**TextParagraph.LineSpace**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/linespace), [**TextParagraph.SpaceBefore**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spacebefore) ve[**TextParagraph.SpaceAfter**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spaceafter) özellikleri[**MetinParagrafı**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph)sınıf.
+Herhangi bir şekil veya yorumun kenar boşluklarını, önce ve sonra boşluklarını ayarlamak için [**TextParagraph.LineSpace**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/linespace), [**TextParagraph.SpaceBefore**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spacebefore) ve [**TextParagraph.SpaceAfter**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spaceafter) özelliklerini kullanabilirsiniz.
 
 {{% /alert %}}
 

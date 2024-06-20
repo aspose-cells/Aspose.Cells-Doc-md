@@ -1,32 +1,33 @@
-﻿---
+---
 title: Снять защиту листа
 type: docs
 weight: 20
 url: /ru/net/unprotect-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Если разработчику необходимо снять защиту с защищенного рабочего листа во время выполнения, чтобы можно было внести некоторые изменения в файл? Это легко сделать по номеру Aspose.Cells.
+Если разработчику необходимо удалить защиту с защищенного листа во время выполнения, чтобы внести изменения в файл? Это легко можно сделать с помощью Aspose.Cells.
 
 {{% /alert %}}
 
-## **Снять защиту листа**
+## **Снятие защиты с листа**
 
 ### **Использование Microsoft Excel**
 
-Чтобы снять защиту с листа:
+Для снятия защиты с листа:
 
- От**Инструменты** меню, выберите**Защита** с последующим**Снять защиту с листа**. Защита будет снята, если рабочий лист не защищен паролем. В этом случае диалоговое окно запрашивает пароль. Введите пароль, и рабочий лист будет незащищен.
+Из меню **Инструменты** выберите **Защиту**, а затем **Снять защиту листа**. Защита будет снята, если только лист защищен паролем. В этом случае появится диалоговое окно для ввода пароля. Введите пароль, и лист будет разблокирован.
 
-### **Снятие защиты с простого защищенного листа с помощью Aspose.Cells**
+### **Снятие защиты с просто защищенного листа с помощью Aspose.Cells**
 
- Рабочий лист можно снять с защиты, вызвав метод[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс'[**Снять защиту**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/unprotect/index)метод.
- Просто защищенный лист — это лист, не защищенный паролем. Такие рабочие листы можно снять с защиты, вызвав метод[**Снять защиту**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/unprotect/index)метод без передачи параметра.
+Лист можно разблокировать, вызвав метод [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/unprotect/index) класса [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
+Просто защищенный лист - это лист, который не защищен паролем. Такие листы можно разблокировать, вызвав метод [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/unprotect/index) без передачи параметра.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingSimplyProtectedWorksheet-1.cs" >}}
 
-### **Снятие защиты с рабочего листа, защищенного паролем, с помощью Aspose.Cells**
+### **Снятие защиты с защищенного паролем листа с помощью Aspose.Cells**
 
-Рабочий лист, защищенный паролем, — это лист, защищенный паролем. Такие рабочие листы можно снять с защиты, вызвав перегруженную версию[**Снять защиту**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1)метод, который принимает пароль в качестве параметра.
+Защищенный паролем лист - это лист, защищенный паролем. Такие листы можно разблокировать, вызвав перегруженную версию метода [**Unprotect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/unprotect/methods/1), принимающую пароль в качестве параметра.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingPasswordProtectedWorksheet-1.cs" >}}

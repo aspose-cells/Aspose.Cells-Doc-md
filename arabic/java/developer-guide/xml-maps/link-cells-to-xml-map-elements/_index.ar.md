@@ -1,21 +1,22 @@
-﻿---
-title: ارتباط Cells بعناصر خريطة XML
+---
+title: ربط الخلايا بعناصر خريطة XML
 type: docs
 weight: 50
 url: /ar/java/link-cells-to-xml-map-elements/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك ربط الخلايا الخاصة بك بعناصر خريطة XML باستخدام Aspose.Cells. الرجاء استخدام[**Cells.LinkToXmlMap ()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) طريقة لهذا الغرض.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **ارتباط Cells بعناصر خريطة XML**
+يمكنك ربط خلاياك بعناصر Map XML باستخدام Aspose.Cells. يرجى استخدام الـ [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) لهذا الغرض.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[ملف اكسل المصدر](5472518.xlsx) الذي يحتوي على خريطة XML ثم يربط الخلايا A1 و B2 و C3 و D4 و E5 و F6 بعناصر خريطة XML FIELD1 و FIELD2 و FIELD4 و FIELD5 و FIELD7 و FIELD8 على التوالي ثم يحفظ المصنف في[ملف اكسل الناتج](5472517.xlsx).
+## **ربط الخلايا بعناصر خريطة XML**
 
- إذا قمت بفتح ملف[ملف اكسل الناتج](5472517.xlsx) وانقر فوق*المطور> المصدر*، سترى الخلايا مرتبطة بعناصر خريطة XML وسيتم تمييزها أيضًا بواسطة Microsoft Excel كما هو موضح في هذه الصورة.
+يقوم الكود النموذجي التالي بتحميل [ملف الإكسل المصدر](5472518.xlsx) الذي يحتوي على خريطة XML ثم يقوم بربط الخلايا A1، B2، C3، D4، E5 و F6 بعناصر الخريطة XML FIELD1، FIELD2، FIELD4، FIELD5، FIELD7 و FIELD8 على التوالي، ثم يحفظ الدفتر في [ملف الإكسل الناتج](5472517.xlsx).
 
-![ما يجب القيام به: image_بديل_نص](link-cells-to-xml-map-elements_1.png)
+إذا فتحت [ملف الإكسل الناتج](5472517.xlsx) ونقرت على زر *Developer > Source*، سترى أن الخلايا مرتبطة بعناصر خريطة XML وسيتم تظليلها أيضًا من قبل Microsoft Excel كما هو موضح في هذه الصورة.
 
-## **عينة من الرموز**
+![todo:image_alt_text](link-cells-to-xml-map-elements_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LinkCellstoXmlMapElements-LinkCellstoXmlMapElements.java" >}}

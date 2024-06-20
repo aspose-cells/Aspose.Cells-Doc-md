@@ -1,15 +1,16 @@
-﻿---
-title: Cells'i VSTO ve Aspose.Cells'deki bir Çalışma Sayfasında Birleştirin veya Birleştirin
+---
+title: VSTO ve Aspose.Cells te bir Çalışsayfada Hücreleri Birleştirme veya Birleşmeyi Kaldırma
 type: docs
 weight: 170
 url: /tr/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Mevcut bir excel dosyasını açın, çalışma kitabındaki ilk çalışma sayfasındaki bazı hücreleri birleştirin ve excel dosyasını kaydedin.
-## **Birleştirme Cells**
-### **VSTO**
-VSTO (C#) ve Aspose.Cells for .NET (C#) için paralel kod parçacıkları aşağıdadır.
 
-{{< highlight "csharp" >}}
+Var olan bir excel dosyasını aç, çalışma kitabındaki ilk sayfadaki bazı hücreleri birleştir ve excel dosyasını kaydet.
+## **Hücreleri Birleştirme**
+### **VSTO**
+Aşağıdakiler, VSTO (C#) ve Aspose.Cells for .NET (C#) için paralel kod parçacıklarını göstermektedir.
+
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -55,7 +56,7 @@ VSTO (C#) ve Aspose.Cells for .NET (C#) için paralel kod parçacıkları aşağ
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -82,10 +83,10 @@ VSTO (C#) ve Aspose.Cells for .NET (C#) için paralel kod parçacıkları aşağ
   workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **Ayrılıyor Cells**
-Hücreleri ayırmak için VSTO (C#) ve Aspose.Cells for .NET (C#) için aşağıdaki kod satırlarını kullanın.
+## **Hücreleri Ayırma**
+Hücre(leri) ayırmak için VSTO (C#) ve Aspose.Cells for .NET (C#) için aşağıdaki kod satırlarını kullanın.
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //UnMerge the cell.
 
@@ -93,7 +94,7 @@ Hücreleri ayırmak için VSTO (C#) ve Aspose.Cells for .NET (C#) için aşağı
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Cells rng = workbook.Worksheets[0].Cells;
 
@@ -102,7 +103,7 @@ Hücreleri ayırmak için VSTO (C#) ve Aspose.Cells for .NET (C#) için aşağı
   rng.UnMerge(0, 0, 1, 3);
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Merge.or.UnMerge.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [kaynak forge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/indir)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

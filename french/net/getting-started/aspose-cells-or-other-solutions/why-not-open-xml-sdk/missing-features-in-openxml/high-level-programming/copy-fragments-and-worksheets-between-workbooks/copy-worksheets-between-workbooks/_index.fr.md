@@ -1,30 +1,31 @@
-﻿---
+---
 title: Copier des feuilles de calcul entre des classeurs
 type: docs
 weight: 10
 url: /fr/net/copy-worksheets-between-workbooks/
 ---
-Aspose.Cells fournit une méthode, Aspose.Cells.Worksheet.Copy(), utilisée pour copier les données et la mise en forme d'une feuille de calcul source vers une autre feuille de calcul dans ou entre des classeurs. La méthode prend l'objet feuille de calcul source comme paramètre.
 
-L'exemple suivant montre comment copier une feuille de calcul d'un classeur vers un autre classeur.
+Aspose.Cells fournit une méthode, Aspose.Cells.Worksheet.Copy(), utilisée pour copier des données et mise en forme d'une feuille de calcul source vers une autre feuille de calcul à l'intérieur ou entre des classeurs. La méthode prend l'objet de la feuille de calcul source en tant que paramètre.
 
-{{< highlight "csharp" >}}
+L'exemple suivant montre comment copier une feuille de calcul d'un classeur à un autre.
 
-chaîne FilePath = @"..\..\..\Sample Files\" ;
+{{< highlight csharp >}}
 
-string FileName = FilePath + "Copier la feuille entre Workbook.xlsx" ;
+ string FilePath = @"..\..\..\Sample Files\";
 
-//Créer un nouveau classeur.
+string FileName = FilePath + "Copy Sheet between Workbook.xlsx";
 
-Classeur excelWorkbook0 = nouveau classeur();
+//Create a new Workbook.
 
-// Récupère la première feuille de calcul du livre.
+Workbook excelWorkbook0 = new Workbook();
 
-Feuille de calcul ws0 = excelWorkbook0.Worksheets[0] ;
+//Get the first worksheet in the book.
 
-//Mettez des données dans les lignes d'en-tête (A1:A4)
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
- pour (int je = 0; je< 5; i++)
+//Put some data into header rows (A1:A4)
+
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -75,24 +76,24 @@ ws1.Copy(ws0);
 excelWorkbook1.Save(FileName);
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
-L'exemple suivant montre comment copier une feuille de calcul d'un classeur vers un autre classeur.
+L'exemple suivant montre comment copier une feuille de calcul d'un classeur à un autre.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Créer un nouveau classeur.
+ //Create a new Workbook.
 
-Classeur excelWorkbook0 = nouveau classeur();
+Workbook excelWorkbook0 = new Workbook();
 
-// Récupère la première feuille de calcul du livre.
+//Get the first worksheet in the book.
 
-Feuille de calcul ws0 = excelWorkbook0.Worksheets[0] ;
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-//Mettez des données dans les lignes d'en-tête (A1:A4)
+//Put some data into header rows (A1:A4)
 
- pour (int je = 0; je< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -144,6 +145,6 @@ excelWorkbook1.Save("copyworksheet.xls");
 
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **Télécharger le code source d'exemple**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)

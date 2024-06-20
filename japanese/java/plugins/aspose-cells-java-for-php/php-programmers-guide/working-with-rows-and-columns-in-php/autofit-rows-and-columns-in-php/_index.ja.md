@@ -1,16 +1,17 @@
-﻿---
-title: PHP での行と列の自動調整
+---
+title: PHPで行と列を自動調整
 type: docs
 weight: 20
 url: /ja/java/autofit-rows-and-columns-in-php/
 ---
+
 ## **Aspose.Cells - 行と列の自動調整**
 ### **行の自動調整**
-行の幅と高さを自動的にサイズ変更する最も簡単な方法は、Worksheet クラスの autoFitRow メソッドを呼び出すことです。 autoFitRow メソッドは、(サイズ変更する行の) 行インデックスをパラメーターとして受け取ります。
+行の幅と高さを自動調整する最も直感的な方法は、Worksheet クラスのautoFitRowメソッドを呼び出すことです。autoFitRowメソッドは、サイズ変更する行のインデックス（row index）をパラメーターとして取ります。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_row($dataDir)
 
@@ -44,11 +45,11 @@ url: /ja/java/autofit-rows-and-columns-in-php/
 
 {{< /highlight >}}
 ### **列の自動調整**
-列の幅と高さを自動的にサイズ変更する最も簡単な方法は、Worksheet クラスの autoFitColumn メソッドを呼び出すことです。 autoFitColumn メソッドは、(サイズ変更しようとしている列の) 列インデックスをパラメーターとして受け取ります。
+列の幅と高さを自動調整する最も簡単な方法は、Worksheet クラスのautoFitColumnメソッドを呼び出すことです。autoFitColumnメソッドは、サイズ変更する列のインデックス（column index）をパラメーターとして取ります。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_column($dataDir)
 
@@ -81,7 +82,7 @@ url: /ja/java/autofit-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**行と列の自動調整 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に挙げるどのソーシャルコーディングサイトから、**行と列の自動調整（Aspose.Cells）**をダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

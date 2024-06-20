@@ -1,15 +1,16 @@
-﻿---
-title: Mostra e nascondi le barre di scorrimento delle cartelle di lavoro
+---
+title: Visualizzare e nascondere le barre di scorrimento dei fogli di lavoro
 type: docs
 weight: 40
 url: /it/java/display-and-hide-scrollbars-of-workbooks/
 ---
-## **Aspose.Cells - Mostra e nascondi le barre di scorrimento delle cartelle di lavoro**
- Aspose.Cells offre un corso,**Cartella di lavoro** che rappresenta un file Excel.**Cartella di lavoro** class fornisce un'ampia gamma di proprietà e metodi per gestire un file Excel. Tuttavia, per controllare la visibilità delle barre di scorrimento nel file Excel, gli sviluppatori possono utilizzare**setVScrollBarVisible** & **setHScrollBarVisible** metodi del**Cartella di lavoro** classe.
+
+## **Aspose.Cells - Visualizza e nascondi le barre di scorrimento dei documenti di lavoro**
+Aspose.Cells fornisce una classe, **Workbook**, che rappresenta un file Excel. La classe **Workbook** fornisce una vasta gamma di proprietà e metodi per gestire un file Excel. Tuttavia, per controllare la visibilità delle barre di scorrimento nel file Excel, gli sviluppatori possono utilizzare i metodi **setVScrollBarVisible** e **setHScrollBarVisible** della classe **Workbook**.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -45,6 +46,6 @@ workbook.save(dataDir + "AsposeDisplaySrollbars.xls");
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideScrollbars.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideScrollbars.java)

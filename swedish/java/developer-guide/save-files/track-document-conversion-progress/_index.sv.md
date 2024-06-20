@@ -1,42 +1,47 @@
-﻿---
-title: Spåra dokumentkonverteringsförlopp
+---
+title: Spåra dokumentkonverteringsframsteg
 type: docs
 weight: 120
 url: /sv/java/track-document-conversion-progress/
 ---
-## **Möjliga användningsscenarier**
 
-Ibland kan det ta lite tid att konvertera stora Excel-filer. Under denna tid kanske du vill visa dokumentkonverteringsförloppet istället för bara en laddningsskärm för att förbättra användbarheten av din applikation. Aspose.Cells stöder konverteringsprocess för spårning av dokument genom att tillhandahålla**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**gränssnitt. De**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**gränssnitt ger**[PageStartSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs))**och**[PageEndSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs))** metoder som du kan implementera i din anpassade klass. Du kan också kontrollera vilka sidor som renderas som visas i*TestPageSavingCallback*anpassad klass.
+## **Möjliga användningsscenario**
 
-## **Spåra dokumentkonverteringsförlopp**
+Ibland kan konvertering av stora Excel-filer ta lite tid. Under denna tid kanske du vill visa dokumentkonverteringsframstegen istället för bara en laddningsskärm för att förbättra användbarheten i din applikation. Aspose.Cells stöder spårning av dokumentkonverteringsprocess genom att tillhandahålla gränssnittet [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). Gränssnittet [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) tillhandahåller metoderna [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) och [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) som du kan implementera i din anpassade klass. Du kan även kontrollera vilka sidor som renderas som visas i den anpassade klassen *TestPageSavingCallback*.
 
-Följande kodexempel laddar[source excel-fil](PagesBook1.xlsx)och skriver ut dess konverteringsförlopp i konsolen med hjälp av*TestPageSavingCallback*anpassad klass som implementerar**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**gränssnitt.
+## **Spåra Dokumentkonverteringsframsteg**
+
+Följande kodprov laddar [käll-excel-filen](PagesBook1.xlsx) och skriver ut dess konverteringsframsteg i konsolen med hjälp av den anpassade klassen *TestPageSavingCallback* som implementerar gränssnittet [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback).
 
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgress-1.java" >}}
 
-Följande är koden för*TestPageSavingCallback*anpassad klass.
+Följande är koden för den egna klassen TestPageSavingCallback.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgress-2.java" >}}
 
-## **Konsolutgång**
+## **Konsoloutput**
 
-Börja spara sidindex 0 av sidorna 11</br>
-Sluta spara sidindex 0 av sidorna 11</br>
-Börja spara sidindex 1 av sidorna 11</br>
-Avsluta att spara sidindex 1 av sidorna 11</br>
-Börja spara sidindex 2 av sidorna 11</br>
-Avsluta att spara sidindex 2 av sidorna 11</br>
-Börja spara sidindex 3 av sidorna 11</br>
-Avsluta att spara sidindex 3 av sidorna 11</br>
-Börja spara sidindex 4 av sidorna 11</br>
-Avsluta att spara sidindex 4 av sidorna 11</br>
-Börja spara sidindex 5 av sidorna 11</br>
-Avsluta att spara sidindex 5 av sidorna 11</br>
-Börja spara sidindex 6 av sidorna 11</br>
-Avsluta att spara sidindex 6 av sidorna 11</br>
-Börja spara sidindex 7 av sidorna 11</br>
-Avsluta att spara sidindex 7 av sidorna 11</br>
-Börja spara sidindex 8 av sidorna 11</br>
-Avsluta att spara sidindex 8 av sidorna 11
+{{< highlight java >}}
+
+Start saving page index 0 of pages 11</br>
+End saving page index 0 of pages 11</br>
+Start saving page index 1 of pages 11</br>
+End saving page index 1 of pages 11</br>
+Start saving page index 2 of pages 11</br>
+End saving page index 2 of pages 11</br>
+Start saving page index 3 of pages 11</br>
+End saving page index 3 of pages 11</br>
+Start saving page index 4 of pages 11</br>
+End saving page index 4 of pages 11</br>
+Start saving page index 5 of pages 11</br>
+End saving page index 5 of pages 11</br>
+Start saving page index 6 of pages 11</br>
+End saving page index 6 of pages 11</br>
+Start saving page index 7 of pages 11</br>
+End saving page index 7 of pages 11</br>
+Start saving page index 8 of pages 11</br>
+End saving page index 8 of pages 11
+
+{{< /highlight >}}

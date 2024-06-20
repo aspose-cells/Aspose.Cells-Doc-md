@@ -1,38 +1,39 @@
-﻿---
-title: Roterande Cell Text
+---
+title: Rotera celltext
 type: docs
 weight: 100
 url: /sv/net/rotating-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-Ibland är en kolumnrubrik mycket bredare än data i cellerna nedan. Detta kan orsaka onödigt blanksteg på sidan. En lösning är att rotera texten vertikalt så att den tar mindre horisontellt utrymme. I Microsoft Excel är det lätt att rotera text. Lyckligtvis är det möjligt att rotera text programmässigt också, så att utvecklare kan rotera etiketter i de kalkylblad som de skapar i sina applikationer.
+Ibland är en kolumnrubrik mycket bredare än datan i cellerna nedan. Detta kan orsaka onödigt mellanrum på sidan. En lösning är att rotera texten vertikalt så att den tar mindre horisontell plats. I Microsoft Excel är det enkelt att rotera text. Som tur är det också möjligt att rotera text programmatiskt, så att utvecklare kan rotera etiketter i kalkylbladen de skapar inom sina applikationer.
 
- Den här artikeln tittar på hur man roterar text i celler med hjälp av[Aspose.Cells for .NET](/cells/sv/net/rotating-cell-text/) jämfört med att göra samma sak med[VSTO](/cells/sv/net/rotating-cell-text/).
+Den här artikeln tittar på hur man roterar text i celler med [Aspose.Cells for .NET](/cells/sv/net/rotera-celltext/) jämfört med att göra samma sak med [VSTO](/cells/sv/net/rotera-celltext/).
 
 {{% /alert %}}
 
-## **Roterande text i Cells**
+## **Rotera text i celler**
 
-För att rotera text i en cell på ett kalkylblad, utför följande steg:
+För att rotera text i en cell på en arbetsblad, följ följande steg:
 
-1. Skapa en arbetsbok och få ett arbetsblad.
+1. Skapa en arbetsbok och hämta ett arbetsblad.
 1. Lägg till exempeltext.
 1. Formatera texten: rotera, lägg till bakgrundsfärg.
 1. Spara filen.
 
- Kodexemplen som följer visar hur du utför dessa steg först[VSTO](/cells/sv/net/rotating-cell-text/) , med antingen C# eller Visual Basic, och sedan in[Aspose.Cells](/cells/sv/net/rotating-cell-text/), återigen med antingen C# eller Visual Basic.
+Kodexemplen nedan visar hur man utför dessa steg först i [VSTO](/cells/sv/net/rotera-celltext/), med antingen C# eller Visual Basic, och sedan i [Aspose.Cells](/cells/sv/net/rotera-celltext/), igen med antingen C# eller Visual Basic.
 
-Kodexemplen i den här artikeln ger utdata som visas nedan.
+De kodexempel i den här artikeln ger utmatningen som visas nedan.
 **En cell med roterad text.**
 
 ![todo:image_alt_text](rotating-cell-text_1.png)
 
-### **Roterande text med VSTO**
+### **Rotera text med VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -56,7 +57,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -94,10 +95,10 @@ ExcelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
- 
+
  Workbook objworkbook = new Workbook();
 
 // Get the First sheet.

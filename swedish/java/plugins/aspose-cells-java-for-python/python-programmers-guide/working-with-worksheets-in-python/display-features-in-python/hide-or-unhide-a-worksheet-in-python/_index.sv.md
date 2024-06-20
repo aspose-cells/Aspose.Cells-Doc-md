@@ -1,30 +1,31 @@
-﻿---
-title: Dölj eller visa ett kalkylblad i Python
+---
+title: Dölj eller visa en arbetsblad i Python
 type: docs
 weight: 50
 url: /sv/java/hide-or-unhide-a-worksheet-in-python/
 ---
-## **Aspose.Cells - Dölj eller visa ett kalkylblad**
+
+## **Aspose.Cells - Dölj eller visa en arbetsbok**
 ### **Dölja ett arbetsblad**
- För att dölja kalkylblad med Aspose.Cells Java för Ruby, ring**hideunhideworksheet** modul.
+För att dölja arbetsbladet med Aspose.Cells Java för Ruby, anropa modulen **hideunhideworksheet**.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  workbook = self.Workbook(self.dataDir + "Book1.xls")
 
-# Accessing the first worksheet in the Excel file
+#Accessing the first worksheet in the Excel file
 
 worksheets = workbook.getWorksheets()
 
 worksheet = worksheets.get(0)
 
-# Hiding the first worksheet of the Excel file
+#Hiding the first worksheet of the Excel file
 
 worksheet.setVisible(True)
 
-# Saving the modified Excel file in default (that is Excel 2003) format
+#Saving the modified Excel file in default (that is Excel 2003) format
 
 workbook.save(self.dataDir + "output.xls")
 
@@ -33,19 +34,19 @@ workbook.save(self.dataDir + "output.xls")
 print "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
-### **Visar ett arbetsblad**
-Utvecklare kan göra ett kalkylblad synligt genom att ställa in*setVisible(* *Sann* *)*metod för**Arbetsblad**klass.
+### **Visa ett arbetsblad**
+Utvecklare kan göra ett arbetsblad synligt genom att ställa in *setVisible(* *true* *)* metoden för klassen **Worksheet**.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  # Displaying the worksheet of the Excel file
 
 worksheet.setVisible(true)
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Dölj eller visa ett kalkylblad (Aspose.Cells)** från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Dölj eller visa ett arbetsblad (Aspose.Cells)** från någon av de nedan angivna sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

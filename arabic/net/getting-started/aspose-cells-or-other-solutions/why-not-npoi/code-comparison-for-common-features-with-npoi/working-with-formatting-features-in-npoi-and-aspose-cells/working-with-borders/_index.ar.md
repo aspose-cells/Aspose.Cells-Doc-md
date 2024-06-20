@@ -1,13 +1,14 @@
-﻿---
+---
 title: العمل مع الحدود
 type: docs
 weight: 10
 url: /ar/net/working-with-borders/
 ---
+
 ## **Aspose.Cells - العمل مع الحدود**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -38,7 +39,7 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 ## **NPOI - HSSF XSSF - العمل مع الحدود**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -79,13 +80,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**العمل مع الحدود** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **العمل مع الحدود** من أي من المواقع الرمزية الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Borders.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Borders.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[ميزات تشكيل البيانات](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+لمزيد من التفاصيل، قم بزيارة [ميزات تنسيق البيانات](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

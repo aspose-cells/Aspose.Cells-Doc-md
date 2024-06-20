@@ -1,17 +1,18 @@
-﻿---
+---
 title: تعيين عناوين الطباعة
 type: docs
 weight: 30
 url: /ar/net/set-print-titles/
 ---
-## **Aspose.Cells - تعيين عناوين الطباعة**
-Aspose.Cells يسمح لك بتعيين رؤوس الصفوف والأعمدة لتكرارها على كل صفحات ورقة العمل المطبوعة. للقيام بذلك ، استخدم ملف[اعداد الصفحة](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)فئة PrintTitleColumns وخصائص PrintTitleRows.
 
-يتم تحديد الصفوف أو الأعمدة التي سيتم تكرارها عن طريق تمرير أرقام الصفوف أو الأعمدة. على سبيل المثال ، يتم تعريف الصفوف على أنها $ 1: $ 2 ويتم تعريف الأعمدة على أنها $ A: $ B.
+## **Aspose.Cells - تحديد عناوين الطباعة**
+تتيح لك Aspose.Cells تعيين رؤوس الصفوف والأعمدة لتتكرر على جميع الصفحات لورقة بيانات مطبوعة. للقيام بذلك، استخدم فئة [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) الخاصة بـ PrintTitleColumns وخصائص PrintTitleRows.
+
+يتم تعريف الصفوف أو الأعمدة التي ستتكرر عن طريق تمرير أرقامها. على سبيل المثال، يتم تعريف الصفوف كـ $1:$2 والأعمدة كـ $A:$B.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -30,13 +31,13 @@ pageSetup.PrintTitleColumns = "$A:$B";
 pageSetup.PrintTitleRows= "$1:$2";
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**تعيين عناوين الطباعة** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **تعيين عناوين الطباعة** من أي من المواقع المذكورة أدناه للتعليم الاجتماعي للبرمجة:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Print.Titles.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Print.Titles.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[ضبط خيارات الطباعة](/cells/ar/net/setting-print-options/).
+للحصول على مزيد من التفاصيل، قم بزيارة [ضبط خيارات الطباعة](/cells/ar/net/setting-print-options/).
 
 {{% /alert %}}

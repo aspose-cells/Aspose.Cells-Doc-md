@@ -1,25 +1,26 @@
 ---
-title: AbstractCalculationEngine 機能の使用
+title: AbstractCalculationEngine機能の使用
 type: docs
 weight: 20
 url: /ja/cpp/using-abstractcalculationengine-feature/
 ---
-## 機能はまだ開発中ですので、ご期待ください。
+
+## 機能はまだ開発中ですので、お楽しみに。
 
 
-##  **導入**
-この記事では、[抽象的な計算エンジン](https://reference.aspose.com/cells/cpp/aspose.cells/abstractcalculationengine/)Aspose.Cells API を使用してカスタム関数を実装する機能。
+## **紹介**
+この記事では、Aspose.Cells APIを使用してAbstractCalculationEngine機能を実装してカスタム関数を作成する方法について理解を提供します。
 
 <!--
 
-The AbstractCalculationEngine interface allows you to add custom formula calculation functions to extend the Aspose.Cells core calculation engine in order to meet certain requirements. This feature is useful to define custom (user defined) functions in a template file or in a code where the custom function can be implemented and evaluated using Aspose.Cells APIs like any other default Microsoft Excel function.
-## **Using AbstractCalculationEngine Feature**
-The following sample code implements the AbstractCalculationEngine interface which evaluates and returns the values of the two custom functions i.e. MySampleFunc() and YourSampleFunc(). These custom functions are inside the cells A1 and A2 respectively. Then it calls the Workbook.CalculateFormula(const CalculationOptions& options) method to invoke the implementation of AbstractCalculationEngine .Calculate(CalculationData& data) method. Then, it prints the values of A1 and A2 on console. Please see the Console Output of the sample code below for more help.
-## **Sample Code**
+AbstractCalculationEngineインターフェースを使用すると、特定の要件を満たすためにAspose.Cellsコア計算エンジンを拡張するカスタム数式計算関数を追加できます。この機能は、テンプレートファイル内またはカスタム関数を実装し、Aspose.Cells APIを使用して評価する場合に、テンプレートファイル内またはカスタム関数を評価するために非常に便利です。
+## **AbstractCalculationEngine機能の使用**
+次のサンプルコードでは、AbstractCalculationEngineインターフェースを実装し、MySampleFunc()とYourSampleFunc()という2つのカスタム関数の値を評価して返します。これらのカスタム関数はそれぞれセルA1とA2にあります。それから、Workbook.CalculateFormula(const CalculationOptions& options)メソッドを呼び出してAbstractCalculationEngine .Calculate(CalculationData& data)メソッドの実装を呼び出します。その後、コンソールにA1とA2の値を出力します。詳細については、以下のサンプルコードのコンソール出力をご覧ください。
+## **サンプルコード**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-UsingICustomFunctionFeature-new.cpp" >}}
 
 
-## **Console Output**
+## **コンソール出力**
 {{< highlight java >}}
 
  Value of A1: MY sample function was called successfully.

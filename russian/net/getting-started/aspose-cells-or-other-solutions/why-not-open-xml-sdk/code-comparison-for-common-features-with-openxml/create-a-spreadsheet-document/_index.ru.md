@@ -1,11 +1,12 @@
-﻿---
-title: Создать табличный документ
+---
+title: Создать документ электронной таблицы
 type: docs
 weight: 20
 url: /ru/net/create-a-spreadsheet-document/
 ---
-## **Опенксмл Excel**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -73,7 +74,7 @@ private static void CreateSpreadsheetWorkbook(string filepath)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -100,7 +101,7 @@ private static void CreateSpreadsheetWorkbook(string filepath)
 }
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [Источникфорж](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Create%20a%20spreadsheet%20document%20\(Aspose.Cells\).zip/скачать)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Create%20a%20spreadsheet%20document%20\(Aspose.Cells\).zip)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Create%20a%20spreadsheet%20document%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Create%20a%20spreadsheet%20document%20\(Aspose.Cells\).zip)

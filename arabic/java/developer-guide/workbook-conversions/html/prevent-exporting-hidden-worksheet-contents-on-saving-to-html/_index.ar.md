@@ -1,23 +1,24 @@
-﻿---
-title: منع تصدير محتويات ورقة العمل المخفية عند الحفظ إلى HTML
+---
+title: منع تصدير محتويات ورقة عمل مخفية عند الحفظ إلى HTML
 type: docs
 weight: 90
 url: /ar/java/prevent-exporting-hidden-worksheet-contents-on-saving-to/
 ---
+
 {{% alert color="primary" %}}
 
-يمكنك حفظ مصنفات Excel في HTML. ومع ذلك ، إذا كان المصنف يحتوي على أوراق عمل مخفية ، فإن Aspose.Cells يقوم افتراضيًا بتصدير محتويات ورقة العمل المخفية إلى إخراج HTML (_ files) الذي يحتوي على ملفات مثل أوراق العمل والصور و tabstrip.htm و stylesheet.css وما إلى ذلك. في بعض الأحيان ، لا يكون تصدير محتوى أوراق العمل المخفية بهذه الطريقة مناسبًا. على سبيل المثال ، إذا كانت ورقة العمل المخفية تحتوي على صور لا ينبغي تصديرها إلى ملف_دليل الملفات.
+يمكنك حفظ سجلات العمل في Excel إلى HTML. ومع ذلك، إذا كانت سجلات العمل تحتوي على أوراق عمل مخفية، فإن Aspose.Cells بشكل افتراضي يصدر محتويات ورقة العمل المخفية إلى دليل الإخراج الخاص ب HTML (_files) الذي يحتوي على ملفات مثل أوراق العمل، الصور، tabstrip.htm، stylesheet.css إلخ. في بعض الأحيان، سيصدر محتوى أوراق العمل المخفية بهذه الطريقة ليس مناسبًا. على سبيل المثال، إذا كانت ورقة العمل المخفية تحتوي على صور يجب عدم تصديرها إلى دليل _files.
 
 {{% /alert %}}
 
-يوفر Aspose.Cells ملف[**HtmlSaveOptions.ExportHiddenWorksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHiddenWorksheet) خاصية. بشكل افتراضي ، فإن ملف[**تصدير ورقة العمل المخفية**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHiddenWorksheet) تم تعيين الخاصية على**حقيقي**. إذا قمت بتعيينه على**خاطئة**، فلن يقوم Aspose.Cells بتصدير محتويات ورقة العمل المخفية.
+توفر Aspose.Cells خاصية [**HtmlSaveOptions.ExportHiddenWorksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHiddenWorksheet). بشكل افتراضي، يتم تعيين خاصية [**ExportHiddenWorksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHiddenWorksheet) على **true**. إذا قمت بتعيينها على **false**، فلن يقوم Aspose.Cells بتصدير محتويات ورقة العمل المخفية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PreventExportingHiddenWorksheetContent-PreventExportingHiddenWorksheetContent.java" >}}
 
-بخلاف التحكم في تصدير أوراق العمل المخفية أم لا ، يمكنك أيضًا تكوين إعدادات إضافية لتصدير المصنف إلى HTML. توضح المقالات التالية الميزات الأخرى التي يدعمها Aspose.Cells لتصدير المصنفات إلى HTML.
+بجانب التحكم في ما إذا كان سيتم تصدير الأوراق العمل المخفية أم لا، يمكنك أيضًا تكوين إعدادات إضافية لتصدير مصنف العمل إلى HTML. توضح المقالات التالية الميزات الأخرى المدعومة من قبل Aspose.Cells لتصدير مصنفات العمل إلى HTML.
 
-- [تحويل Excel إلى HTML بالعناوين](/cells/ar/java/convert-excel-to-html-with-headings/)
+- [تحويل Excel إلى HTML مع عناوين](/cells/ar/java/convert-excel-to-html-with-headings/)
 - [استبعاد الأنماط غير المستخدمة أثناء تحويل Excel إلى HTML](/cells/ar/java/exclude-unused-styles-during-excel-to-html-conversion/)
-- [تصدير التعليقات أثناء حفظ ملف Excel في HTML](/cells/ar/java/export-comments-while-saving-excel-file-to-html/)
-- [إخفاء المحتوى المتراكب باستخدام CrossHideRight أثناء الحفظ إلى HTML](/cells/ar/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
-- [قم بتصدير نمط حدود مشابه عندما لا تدعم متصفحات الويب نمط الحدود](/cells/ar/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)
+- [تصدير التعليقات أثناء حفظ ملف Excel إلى HTML](/cells/ar/java/export-comments-while-saving-excel-file-to-html/)
+- [إخفاء المحتوى المتداخل باستخدام CrossHideRight أثناء الحفظ إلى HTML](/cells/ar/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
+- [تصدير نمط الحدود المماثل عند عدم دعم نمط الحدود من قبل متصفحات الويب](/cells/ar/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)

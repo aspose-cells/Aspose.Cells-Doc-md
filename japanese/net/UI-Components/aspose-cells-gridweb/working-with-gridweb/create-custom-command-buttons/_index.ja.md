@@ -1,51 +1,54 @@
-﻿---
-title: カスタム コマンド ボタンの作成
+---
+title: カスタムコマンドボタンを作成する
 type: docs
 weight: 100
-url: /ja/net/create-custom-command-buttons/
+url: /ja/net/aspose-cells-gridweb/create-custom-command-buttons/
+keywords: GridWeb,コマンド,カスタムコマンドボタン,カスタム
+description: この記事では、GridWebでカスタムコマンドボタンを作成する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb には、次のような特別なボタンが含まれています。**送信**, **セーブ**と**元に戻す**.これらのボタンはすべて、Aspose.Cells.GridWeb の特定のタスクを実行します。
-カスタム タスクを実行するカスタム ボタンを追加することもできます。このトピックでは、この機能の使用方法について説明します。
+Aspose.Cells.GridWebには、**Submit**、**Save**、**Undo**などの特別なボタンが含まれています。これらのボタンは、それぞれ特定のタスクをAspose.Cells.GridWebで実行します。
+カスタムタスクを実行するカスタムボタンを追加することも可能です。このトピックでは、この機能の使用方法について説明します。
 
 {{% /alert %}} 
-## **カスタム コマンド ボタンの作成**
-Aspose.Cells.GridWeb でカスタム コマンド ボタンを作成するには:
+## **カスタムコマンドボタンの作成**
+Aspose.Cells.GridWeb でカスタムコマンドボタンを作成するには:
 
 1. Aspose.Cells.GridWeb コントロールを Web フォームに追加します。
 1. ワークシートにアクセスします。
-1. CustomCommandButton クラスのインスタンスを作成します。
-1. ボタンのコマンドを何らかの値に設定します。この値は、ボタンのイベント ハンドラーで使用されます。
-1. ボタンのテキストを設定します。
-1. ボタンの画像 URL を設定します。
-1. 最後に、CustomCommandButton オブジェクトを GridWeb コントロールの CustomCommandButtons コレクションに追加します。
+2. CustomCommandButton クラスのインスタンスを作成します。
+3. ボタンのコマンドを特定の値に設定します。この値は、ボタンのイベントハンドラで使用されます。
+4. ボタンのテキストを設定します。
+5. ボタンの画像 URL を設定します。
+6. 最後に、CustomCommandButton オブジェクトを GridWeb コントロールの CustomCommandButtons コレクションに追加します。
 
 {{% alert color="primary" %}} 
 
-カスタム コマンド ボタンは、Visual Studio の [プロパティ] ダイアログを使用して WYSIWYG モードで追加することもできます。
+カスタムコマンドボタンは、Visual Studio のプロパティダイアログを使用して WYSIWYG モードで追加することもできます。
 
 {{% /alert %}} 
 
-コード スニペットの出力を以下に示します。
+コードスニペットの出力は以下に示されます:
 
-**GridWeb コントロールに追加されたカスタム コマンド ボタン** 
+**GridWeb コントロールに追加されたカスタムコマンドボタン** 
 
-![todo:画像_代替_文章](create-custom-command-buttons_1.png)
+![todo:image_alt_text](create-custom-command-buttons_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-InitCustomCommandButton.aspx-InitCustomCommandButton.cs" >}}
-### **カスタム コマンド ボタンのイベント処理**
-カスタム コマンド ボタンの最も重要な側面は、クリックしたときに実行されるアクションです。アクションを設定するには、GridWeb コントロールの CustomCommand イベントのイベント ハンドラーを作成します。
+### **カスタムコマンドボタンのイベント処理**
+カスタムコマンドボタンの最も重要な側面は、クリック時に実行するアクションです。アクションを設定するには、GridWeb コントロールの CustomCommand イベントのイベントハンドラを作成します。
 
-CustomCommand イベントは、カスタム コマンド ボタンがクリックされると常にトリガーされます。そのため、イベント ハンドラーは、ボタンを GridWeb コントロールに追加するときに、コマンド セットによって適用される特定のカスタム コマンド ボタンを識別する必要があります。最後に、ボタンがクリックされたときに実行されるカスタム コードを追加します。
+CustomCommand イベントは常にカスタムコマンドボタンがクリックされたときにトリガーされます。したがって、イベントハンドラは、GridWeb コントロールにボタンを追加するときに設定されたコマンドによって適用される特定のカスタムコマンドボタンを識別する必要があります。最後に、ボタンがクリックされたときに実行されるカスタムコードを追加します。
 
-以下のコード例では、ボタンがクリックされると、セル A1 にテキスト メッセージが追加されます。
+以下のコード例では、ボタンがクリックされたときにセル A1 にテキストメッセージを追加します。
 
-**カスタム コマンド ボタンがクリックされたときに A1 セルに追加されるテキスト** 
+**カスタムコマンドボタンがクリックされたときに A1 セルに追加されたテキスト** 
 
-![todo:画像_代替_文章](create-custom-command-buttons_2.png)
+![todo:image_alt_text](create-custom-command-buttons_2.png)
 
 
 

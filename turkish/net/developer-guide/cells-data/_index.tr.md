@@ -1,86 +1,87 @@
 ---
 title: Excel dosyalarının verilerini yönetme
-linktitle: Cells Veri
+linktitle: Hücre Verileri
 type: docs
 weight: 110
 url: /tr/net/view-and-edit-excel-data/
-description: Bu makalede, Aspose.Cells kitaplığıyla Excel dosyalarının verilerinin nasıl görüntüleneceği ve düzenleneceği açıklanmaktadır.
-keywords: Aspose.Cells C# Manage data of Excel file, add data to Excel file, get data from excel file, How to Improve Efficiency of adding data, manage cells data, update cells data, get cells data, insert cells data
+description: Bu makale, Aspose.Cells kitaplığı ile Excel dosyalarının verilerini görüntüleme ve düzenleme yöntemlerini açıklar.
+keywords: Aspose.Cells C# ile Excel dosyasının verilerini yönetme, Excel dosyasına veri ekleme, Excel dosyasından veri alma, Veri ekleme verimliliğini artırma yöntemleri, hücre verileri yönetme, hücre verilerini güncelleme, hücre verilerini alma, hücre verileri ekleme
 ---
+
 {{% alert color="primary" %}}
 
- İçinde[Bir Çalışma Sayfasının Cells'ine erişme](/cells/tr/net/accessing-cells-of-a-worksheet/)çalışma sayfasındaki hücrelere erişmeye yönelik temel yaklaşımları tartıştık. Bu makalede, hücrelere farklı türde veriler eklemek için bu yaklaşımlardan biri kullanılmaktadır.
+[Bir Çalışma Kitabının Sayfalarına Erişim](/cells/tr/net/accessing-cells-of-a-worksheet/) başlıklı makalede çalışma sayfasındaki hücrelere erişim için temel yaklaşımlardan bahsettik. Bu makale, bu yaklaşımlardan birini kullanarak hücrelere farklı türde veri eklemeyi içerir.
 
 {{% /alert %}}
 
-##  **Cells'e Veri Nasıl Eklenir?**
+## **Hücrelere Veri Ekleme**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Microsoft Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**Çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon. Bir çalışma sayfası şu şekilde temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak. İçindeki her öğe[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyon bir nesneyi temsil eder[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf.
+Aspose.Cells, Microsoft Excel dosyasını temsil eden bir [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonunu içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu sağlar. [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonundaki her öğe, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfından bir nesneyi temsil eder.
 
- Aspose.Cells, geliştiricilerin çalışma sayfalarındaki hücrelere veri eklemesine olanak tanır.[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf'[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) yöntem. Aspose.Cells aşırı yüklenmiş versiyonlarını sağlar[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) Geliştiricilerin hücrelere farklı türde veriler eklemesine olanak tanıyan yöntem. Bu aşırı yüklenmiş sürümlerini kullanarak[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)yöntemiyle hücreye Boolean, string, double, integer veya tarih/saat vb. değerler eklemek mümkündür.
+Aspose.Cells, geliştiricilere hücrelere farklı türde veri eklemelerine izin veren bir [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) yöntemini çağırarak çalışma sayfalarındaki hücrelere veri eklemelerini sağlar. Aspose.Cells, geliştiricilere hücrelere farklı türde veri eklemelerine izin veren [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) yönteminin aşırı yüklenmiş sürümlerini sağlar. Bu aşırı yüklenmiş [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) yöntemlerini kullanarak, bir mantıksal, dize, çift, tamsayı veya tarih/saat vb. değerleri hücreye eklemek mümkündür.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
-##  **Verimlilik Nasıl Artırılır?**
+## **Verimliliği Nasıl Arttırılır**
 
- Eğer kullanırsan[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)Bir çalışma sayfasına büyük miktarda veri yerleştirme yönteminde, hücrelere değerleri önce satırlar, sonra sütunlar halinde eklemelisiniz. Bu yaklaşım, uygulamalarınızın verimliliğini büyük ölçüde artırır.
+[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) yöntemini bir çalışma sayfasına büyük miktarda veri eklemek için kullanıyorsanız, uygulamalarınızın verimliliğini artırmak için öncelikle satır ve sonra sütunlar olarak hücrelere değer eklemelisiniz. Bu yaklaşım, uygulamalarınızın verimliliğini büyük ölçüde artırır.
 
-##  **Cells'den Veri Nasıl Alınır?**
+## **Hücrelerden Veri Almak**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**Çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) dosyadaki çalışma sayfalarına erişime izin veren koleksiyon. Bir çalışma sayfası şu şekilde temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak. İçindeki her öğe[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyon bir nesneyi temsil eder[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf.
+Aspose.Cells, Microsoft Excel dosyasını temsil eden bir [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, dosyadaki çalışma sayfalarına erişime izin veren bir [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonunu içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu sağlar. [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonundaki her öğe, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfından bir nesneyi temsil eder.
 
-[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)class, geliştiricilerin hücrelerden veri türlerine göre değer almasına olanak tanıyan çeşitli özellikler sağlar. Bu özellikler şunları içerir:
+[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfı, geliştiricilere verileri hücrelerden türlerine göre almak için birkaç özellik sağlar. Bu özellikler şunları içerir:
 
-- [**Dize değeri**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue): hücrenin dize değerini döndürür.
-- [**Çift Değer**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): hücrenin double değerini döndürür.
-- [**BoolDeğeri**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/boolvalue): hücrenin boolean değerini döndürür.
-- [**TarihSaatDeğeri**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/datetimevalue): hücrenin tarih/saat değerini döndürür.
-- [**Kayan Değer**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue): hücrenin float değerini döndürür.
-- [**IntValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/intvalue): hücrenin tamsayı değerini döndürür.
+- [**StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue): hücrenin dize değerini döndürür.
+- [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): hücrenin ondalık değerini döndürür.
+- [**BoolValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/boolvalue): hücrenin mantıksal değerini döndürür.
+- [**DateTimeValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/datetimevalue): hücrenin tarih/saat değerini döndürür.
+- [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue): hücrenin ondalık değerini döndürür.
+- [**IntValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/intvalue): hücrenin tam sayı değerini döndürür.
 
- Bir alan doldurulmadığında hücreler[**Çift Değer**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) veya[**Kayan Değer**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)bir istisna atar.
+Bir alan doldurulmadığında, [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) veya [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue) ile başlayan hücreler bir istisna fırlatır.
 
- Bir hücrede bulunan veri türü aynı zamanda kullanılarak da kontrol edilebilir.[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf'[**Tip**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) mülk. Aslında,[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf'[**Tip**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) mülkiyet esasına dayanmaktadır[**Hücre Değeri Türü**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)önceden tanımlanmış değerleri aşağıda listelenen numaralandırma:
+Hücrede bulunan veri türü ayrıca [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının [**Type**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) özelliği kullanılarak kontrol edilebilir. Aslında, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının [**Type**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) özelliği, önceden tanımlanmış değerleri listelenen [**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype) numaralı numaralandırmaya dayanan bir özelliktir:
 
-|**Cell Değer Türleri**|**Tanım**|
+|**Hücre Değer Türleri**|**Açıklama**|
 | :- | :- |
-|IsBool|Hücre değerinin Boolean olduğunu belirtir.|
-|IsDateTime|Hücre değerinin tarih/saat olduğunu belirtir.|
-|Boş mu|Boş bir hücreyi temsil eder.|
-|Sayısaldır|Hücre değerinin sayısal olduğunu belirtir.|
-|IsString|Hücre değerinin bir dize olduğunu belirtir.|
-|Bilinmeyen|Hücre değerinin bilinmediğini belirtir.|
+|IsBool| Hücre değerinin Boolean olduğunu belirtir.
+|IsDateTime| Hücre değerinin tarih/saat olduğunu belirtir.
+|IsNull| Boş bir hücreyi temsil eder.
+|IsNumeric| Hücre değerinin sayısal olduğunu belirtir.
+|IsString| Hücre değerinin bir dize olduğunu belirtir.
+|IsUnknown| Hücre değerinin bilinmeyen olduğunu belirtir.
 
-Ayrıca, her hücrede bulunan veri türüyle karşılaştırmak için yukarıdaki önceden tanımlanmış hücre değeri türlerini de kullanabilirsiniz.
+Yukarıda tanımlanan hücre değeri tiplerini aynı zamanda her hücrede bulunan veri türüyle karşılaştırmak için de kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-RetrievingDataFromCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Kullanıcılar çalışma sayfaları üzerinde çalışırken hücrelere farklı türde veriler ekleyebilir. Bu veri türleri Boolean, tamsayı, kayan nokta, metin veya tarih/saat değerlerini içerebilir. Aspose.Cells ile hücrelerden veri türlerine göre uygun değerleri alabilirsiniz.
+Çalışma sayfalarında çalışırken, kullanıcılar hücrelere farklı veri türleri ekleyebilir. Bu veri tipleri, Boolean, tam sayı, kayan nokta, metin veya tarih/saat değerlerini içerebilir. Aspose.Cells ile, hücrelerden uygun değerleri alabilirsiniz, bunlar veri tiplerine göre.
 
 {{% /alert %}}
 
-##  **İleri konular**
-- [Bir Çalışma Sayfasının Cells'ine erişme](/cells/tr/net/accessing-cells-of-a-worksheet/)
-- [Metin Sayısal Verilerini Sayıya Dönüştür](/cells/tr/net/convert-text-numeric-data-to-number/)
+## **Gelişmiş Konular**
+- [Bir Çalışma Sayfasının Hücrelerine Erişme](/cells/tr/net/accessing-cells-of-a-worksheet/)
+- [Metin Sayı Değerini Sayıya Dönüştürme](/cells/tr/net/convert-text-numeric-data-to-number/)
 - [Alt Toplamlar Oluşturma](/cells/tr/net/creating-subtotals/)
 - [Veri Filtreleme](/cells/tr/net/data-filtering/)
 - [Veri Sıralama](/cells/tr/net/sort-data-of-excel/)
-- [Veri doğrulama](/cells/tr/net/data-validation/)
-- [Verileri Çalışma Sayfasından Dışa Aktarma](/cells/tr/net/export-data-from-worksheet/)
-- [Veri Bul veya Ara](/cells/tr/net/find-or-search-data/)
-- [Biçimlendirmeli ve Biçimlendirmesiz Cell Dize Değeri Alın](/cells/tr/net/get-cell-string-value-with-and-without-formatting/)
-- [Cell'in içine HTML Zengin Metin eklenmesi](/cells/tr/net/adding-html-rich-text-inside-the-cell/)
-- [Köprüleri Excel veya OpenOffice'e Ekleme](/cells/tr/net/insert-hyperlinks-to-excel/)
-- [Verileri Çalışma Sayfasına Aktar](/cells/tr/net/import-data-into-worksheet/)
-- [Numaralandırıcılar Nasıl ve Nerede Kullanılır?](/cells/tr/net/how-and-where-to-use-enumerators/)
-- [Cell Değerinin Genişliğini ve Yüksekliğini Piksel Birimi cinsinden ölçün](/cells/tr/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)
-- [Birden Fazla Konudaki Cell Değerlerini Aynı Anda Okumak](/cells/tr/net/reading-cell-values-in-multiple-threads-simultaneously/)
-- [Hücre adı ile satır/sütun dizini arasındaki dönüşüm](/cells/tr/net/names-and-indices/)
-- [Verileri Önce Satıra, Sonra Sütuna Göre Doldurun](/cells/tr/net/populate-data-first-by-row-then-by-column/)
-- [Cell Değeri veya Aralığının Tek Alıntı Önekini Koru](/cells/tr/net/preserve-single-quote-prefix-of-cell-value-or-range/)
-- [Cell Zengin Metin Bölümlerine Erişin ve Güncelleyin](/cells/tr/net/access-and-update-the-portions-of-rich-text-of-cell/)
+- [Veri Doğrulama](/cells/tr/net/data-validation/)
+- [Çalışma Sayfasından Veri dışa aktarma](/cells/tr/net/export-data-from-worksheet/)
+- [Veri Bulma veya Arama](/cells/tr/net/find-or-search-data/)
+- [Biçimlendirmeyle ve biçimlendirme olmadan Hücre Dize Değerini Alın](/cells/tr/net/get-cell-string-value-with-and-without-formatting/)
+- [Hücre İçinde HTML Zengin Metin Ekleme](/cells/tr/net/adding-html-rich-text-inside-the-cell/)
+- [Excel veya OpenOffice'de Hyperlinkler Eklemek](/cells/tr/net/insert-hyperlinks-to-excel/)
+- [Çalışma Sayfasına Veri İçe Aktarma](/cells/tr/net/import-data-into-worksheet/)
+- [Numaralandırıcıları Nerede ve Nasıl Kullanılır](/cells/tr/net/how-and-where-to-use-enumerators/)
+- [Hücre Değeri Genişliğini ve Yüksekliğini Piksel Birimiyle Ölçme](/cells/tr/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)
+- [Birden Fazla İş Parçacığında Aynı Anda Hücre Değerleri Okuma](/cells/tr/net/reading-cell-values-in-multiple-threads-simultaneously/)
+- [Hücre adı ve satır/sütun indeksi arasında dönüşüm](/cells/tr/net/names-and-indices/)
+- [Veri İlk Olarak Satır, Sonra Sütun Olarak Doldurma](/cells/tr/net/populate-data-first-by-row-then-by-column/)
+- [Hücre Değerinin veya Aralığın Ön Eklemesini Koruma](/cells/tr/net/preserve-single-quote-prefix-of-cell-value-or-range/)
+- [Zengin Metnin Kısımlarına Erişme ve Güncelleme](/cells/tr/net/access-and-update-the-portions-of-rich-text-of-cell/)
 
 
 

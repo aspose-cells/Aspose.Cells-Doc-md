@@ -1,35 +1,36 @@
 ---
-title: ユーザーが Excel ファイルを印刷できないようにする方法
+title: Excelファイルの印刷を防止する方法
 type: docs
 weight: 600
 url: /ja/net/how-to-prevent-printing-excel/
-description: ユーザーが Aspose.Cells for .NET API を通じて Excel を印刷できないようにする方法について説明します。
-keywords: excel printing, prevent printing excel, how to prevent users from printing excel, excel prevent printing, prevent printing workbook, Prevent users from printing the whole workbook with VBA. 
+description: Aspose.Cells for .NET APIを使用してExcelファイルの印刷を防止する方法を学びます。
+keywords: excel印刷、excel印刷を防ぐ、Excelファイルの印刷を防ぐ方法、excel印刷を防ぐ、ブック全体の印刷を防ぐ、VBAでブック全体の印刷を防ぐ。 
 ---
-##  **考えられる使用シナリオ**
-私たちの日常業務では、Excel ファイルに重要な情報が含まれている場合がありますが、社内データの拡散を保護するために、会社はそれらを印刷することを許可していません。この文書では、他の人が Excel ファイルを印刷できないようにする方法について説明します。
 
-##  **ユーザーが MS-Excel でファイルを印刷できないようにする方法**
-次の VBA コードを適用して、印刷する特定のファイルを保護できます。
-1. 他の人に印刷を許可していないワークブックを開きます。
-1. Excel リボンの [開発者] タブを選択し、[コントロール] セクションの [コードの表示] ボタンをクリックします。または、ALT + F11 キーを押したままにして、Microsoft Visual Basic for Applications ウィンドウを開くこともできます。
+## **可能な使用シナリオ**
+日常業務では、Excelファイルに重要な情報が含まれていることがあります。内部データの流出を防ぐため、会社はそれらを印刷することを許可していません。このドキュメントでは、Excelファイルの印刷を他者に防止する方法について説明します。
+
+## **MS-Excelでファイルの印刷を防ぐ方法**
+指定したファイルを印刷できないようにするために、次のVBAコードを適用できます。
+1. 印刷を許可しないブックを開きます。
+1. Excelリボンの**開発**タブを選択し、「**コントロール**」セクションの「**View Code**」ボタンをクリックします。または、ALT + F11 キーを押して、**Microsoft Visual Basic for Applications**ウィンドウを開くことができます。
 <br>
 <img src="1.png" width=70% />
-1. 次に、左側のプロジェクト エクスプローラーで ThisWorkbook をダブルクリックしてモジュールを開き、いくつかの VBA コードを追加します。
+1. 左側のプロジェクトエクスプローラで**ThisWorkbook**をダブルクリックしてモジュールを開き、いくつかのVBAコードを追加します。
 <br>
 <img src="2.png" width=70% />
-1. 次に、このコードを保存して閉じ、ワークブックに戻り、サンプル ファイルを印刷すると、印刷が許可されず、次の警告ボックスが表示されます。
+1. 保存してこのコードを閉じ、ブックに戻り、サンプルファイルを印刷すると、印刷することは許可されず、次の警告ボックスが表示されます。
 <br>
 <img src="3.png" width=70% />
 
-##  **ユーザーが Aspose.Cells for .NET を使用して Excel ファイルを印刷できないようにする方法**
+## **Aspose.Cells for .NETを使用してExcelファイルの印刷を防止する方法**
 
-次のサンプル コードは、ユーザーが Excel ファイルを印刷できないようにする方法を示しています。
+次のサンプルコードは、Excelファイルの印刷を防止する方法を示しています:
 
-1. をロードします[サンプルファイル](sample.xlsx).
-1. Workbook の VbaProject プロパティから VbaModuleCollection オブジェクトを取得します。
-1. 「ThisWorkbook」名を使用して VbaModule オブジェクトを取得します。
+1. [サンプルファイル](sample.xlsx)をロードする。
+1. WorkbookのVbaProjectプロパティからVbaModuleCollectionオブジェクトを取得します。
+1. "ThisWorkbook"名を使用してVbaModuleオブジェクトを取得します。
 1. VbaModuleのcodesプロパティを設定します。
-1. サンプルファイルを次の場所に保存します[xlsm形式](out.xlsm).
+1. サンプルファイルを[xlsm形式](out.xlsm)で保存します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}

@@ -1,18 +1,19 @@
-﻿---
-title: Çalışma Sayfası İçinde Şeklin Mutlak Konumunu Bulma
+---
+title: Çalışma sayfasının içindeki Şeklin Mutlak Konumunu Bulma
 type: docs
 weight: 8000
 url: /tr/net/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
- Bazen bir çalışma sayfasındaki bir şeklin mutlak konumunu bilmeniz gerekir. Aspose.Cells şunları sağlar:[**Shape.LeftToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) ve[**Shape.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner) Bu amaç için özellikler. Bu özellikler, şeklin çalışma sayfası içindeki mutlak konumunu piksel cinsinden döndürür.
+Bazen bir çalışsayfadaki şeklin mutlak konumunu bilmek isteyebilirsiniz. Aspose.Cells, bunun için [**Shape.LeftToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) ve [**Shape.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner) özelliklerini sağlar. Bu özellikler, şeklin çalışsayfadaki mutlak pozisyonunu pikseller cinsinden döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek kod, çalışma sayfasındaki ilk şeklin mutlak konumunu piksel cinsinden görüntüler. Örnek kod, aşağıdaki konsol çıktısını görüntüler:
+Aşağıdaki örnek kod çalışsayfadaki ilk şeklin mutlak konumunu pikseller cinsinden gösterir. Örnek kod aşağıdaki konsol çıktısını görüntüler:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Absolute Position of this Shape is (320 , 183)
 

@@ -1,28 +1,29 @@
 ---
-title: تقليل وقت الحساب Cell.طريقة الحساب
-description: تقدم هذه المقالة كيفية استخدام مكتبة Aspose.Cells لتقليل وقت الحساب لطرق حساب الخلية في Microsoft Excel. من خلال تحميل ملف Excel موجود أو إنشاء ملف جديد، يمكننا استخدام الطرق التي يوفرها Aspose.Cells لتحسين طريقة حساب الخلية وتحسين أدائها. وأخيرًا، نقوم بحفظ ملف Excel المعدل على القرص.
-keywords: Aspose.Cells, Excel, Cell calculation methods, optimization, performance, reduction of calculation time
+title: تقليل وقت حساب أسلوب Cell.Calculate
+description: يقدم هذا المقال كيفية استخدام مكتبة Aspose.Cells لتقليل وقت حساب أسلوب الحساب في خلايا Microsoft Excel. من خلال تحميل ملف Excel موجود أو إنشاء ملف جديد، يمكننا استخدام الأساليب المقدمة من Aspose.Cells لتحسين أداء أسلوب الحساب في الخلية وتحسين أدائه. وأخيرًا، نحفظ الملف المعدل على القرص.
+keywords: Aspose.Cells، Excel، أساليب حساب الخلية، تحسين، أداء، تقليل وقت الحساب
 type: docs
 weight: 100
 url: /ar/net/decrease-the-calculation-time-of-cell-calculate-method/
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-عادة، نوصي المستخدمين بالاتصال[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index)الطريقة مرة واحدة ثم احصل على القيم المحسوبة للخلايا الفردية. لكن في بعض الأحيان، لا يرغب المستخدمون في حساب المصنف بأكمله. إنهم يريدون فقط حساب خلية واحدة. Aspose.Cells يوفر[**CalculationOptions.Recursive**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive) الخاصية التي يمكنك تعيينها**خطأ شنيع**وسوف يقلل من وقت حساب الخلية الفردية بشكل كبير. لأنه عندما يتم تعيين الخاصية العودية على *true**، تتم إعادة حساب كافة العناصر التابعة للخلايا في كل استدعاء. ولكن عندما تكون الخاصية العودية *خطأ**، فسيتم حساب الخلايا التابعة مرة واحدة فقط ولا يتم حسابها مرة أخرى عند الاستدعاءات اللاحقة.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **تقليل وقت الحساب لطريقة Cell.Calculate()**
+عادةً، نوصي المستخدمين بالاتصال بالطريقة [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index) مرة واحدة ثم الحصول على القيم المحسوبة للخلايا الفردية. ولكن في بعض الأحيان، قد لا يرغب المستخدمون في حساب الدفتر بأكمله. إنما يرغبون في حساب خلية واحدة فقط. توفر Aspose.Cells خاصية [**CalculationOptions.Recursive**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive) يمكنك تعيينها على **false** وسوف تقلل من وقت حساب الخلية الفردية بشكل كبير. لأنه عندما يكون الخاصية التكرارية مُعيَّنة إلى **true**، يتم إعادة حساب جميع المستندات للخلايا في كل دعوة. ولكن عندما تكون الخاصية التكرارية صفر**  إذاً، يتم حساب الخلايا المعتمدة مرة واحدة فقط ولا يتم حسابها مرة أخرى في الدعوات التالية.
 
- يوضح نموذج التعليمات البرمجية التالي استخدام[**CalculationOptions.Recursive**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive) ملكية. يرجى تنفيذ هذا الكود مع المعطى[عينة من ملف اكسل](5113710.xlsx) والتحقق من إخراج وحدة التحكم الخاصة به. ستجد أن تعيين الخاصية العودية على**خطأ شنيع**لقد انخفض وقت الحساب بشكل ملحوظ. يرجى أيضًا قراءة التعليقات لفهم أفضل لهذا العقار.
+## **تخفيض وقت حساب الخلية لوسيلة (.Calculate())**
+
+يوضح الكود العيني التالي استخدام خاصية [**CalculationOptions.Recursive**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive). يرجى تنفيذ هذا الكود مع [ملف الإكسل العيني](5113710.xlsx) المُعطى والتحقق من إخراجه في وحدة التحكم. ستجد أن تعيين الخاصية التكرارية إلى **false** قلل من وقت الحساب بشكل كبير. يرجى أيضًا قراءة التعليقات لفهم هذه الخاصية بشكل أفضل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-DecreaseCalculationTime-1.cs" >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-DecreaseCalculationTime-TestCalcTimeRecursive.cs" >}}
 
-##  **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
- هذا هو إخراج وحدة التحكم لنموذج التعليمات البرمجية أعلاه عند تنفيذه باستخدام المعطى[عينة من ملف اكسل](5113710.xlsx) على الجهاز لدينا. يرجى ملاحظة أن مخرجاتك قد تختلف ولكن الوقت المنقضي بعد ضبط الخاصية العودية على**خطأ شنيع**سيكون دائمًا أقل من ضبطه على *صحيح**.
+هذا هو إخراج وحدة التحكم لكود العينة أعلاه عند تنفيذه مع [ملف الإكسل العيني](5113710.xlsx) المُعطى على جهازنا. يُرجى ملاحظة أن الإخراج الخاص بك قد يختلف ولكن الوقت المنقضي بعد تعيين الخاصية التكرارية إلى **false** سيكون دائمًا أقل من تعيينها إلى **true**.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Recursive True: 96 seconds
 

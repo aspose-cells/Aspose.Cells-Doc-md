@@ -1,16 +1,17 @@
-﻿---
-title: Gestion des feuilles de travail en PHP
+---
+title: Gestion des feuilles de calcul en Php
 type: docs
 weight: 10
 url: /fr/java/managing-worksheets-in-php/
 ---
-## **Aspose.Cells - Gestion des feuilles de travail**
+
+## **Aspose.Cells - Gestion des feuilles de calcul**
 ### **Ajout de feuilles de calcul à un nouveau fichier Excel**
- Pour ajouter une feuille de calcul à un nouveau fichier Excel à l'aide**Aspose.Cells Java for PHP** , il suffit d'appeler**add_worksheet** méthode de**Gestion des feuilles de travail** module.
+Pour ajouter une feuille de calcul à un nouveau fichier Excel en utilisant **Aspose.Cells Java for PHP**, il suffit d'appeler la méthode **add_worksheet** du module **ManagingWorksheets**.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object
 
@@ -33,12 +34,12 @@ $worksheet->setName("My Worksheet");
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-### **Suppression de feuilles de calcul à l'aide du nom de la feuille**
- Pour supprimer une feuille de calcul par nom de feuille à l'aide de**Aspose.Cells Java for PHP** , il suffit d'appeler**remove_worksheet_by_name** méthode de**Gestion des feuilles de travail** module.
+### **Suppression des feuilles de calcul en utilisant le nom de la feuille**
+Pour supprimer une feuille de calcul par nom de feuille en utilisant **Aspose.Cells Java for PHP**, il suffit d'appeler la méthode **remove_worksheet_by_name** du module **ManagingWorksheets**.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,12 +62,12 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-### **Suppression de feuilles de calcul à l'aide de l'index des feuilles**
- Pour supprimer une feuille de calcul par index de feuille à l'aide de**Aspose.Cells Java for PHP** , il suffit d'appeler**remove_worksheet_by_index** méthode de**Gestion des feuilles de travail** module.
+### **Suppression des feuilles de calcul en utilisant l'indice de la feuille**
+Pour supprimer une feuille de calcul par index de feuille en utilisant **Aspose.Cells Java for PHP**, il suffit d'appeler la méthode **remove_worksheet_by_index** du module **ManagingWorksheets**.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -89,7 +90,7 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Gestion des feuilles de travail (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Managing Worksheets (Aspose.Cells)** depuis l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

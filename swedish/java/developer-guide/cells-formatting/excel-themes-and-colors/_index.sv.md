@@ -1,12 +1,13 @@
-﻿---
-title: Excel-teman och färger
+---
+title: Excel teman och färger
 type: docs
 weight: 130
 url: /sv/java/excel-2007-themes-and-colors/
 ---
+
 {{% alert color="primary" %}}
 
-Teman ger ett enhetligt utseende med namngivna stilar, grafiska effekter och andra objekt som används i en arbetsbok. Till exempel ser Accent1-stilen annorlunda ut i Office- och Apex-teman. Ofta tillämpar du ett dokumenttema och ändrar det sedan enligt dina behov.
+Teman ger en enhetlig utformning med namngivna stilar, grafiska effekter och andra objekt som används i en arbetsbok. Till exempel ser Accent1-stilen annorlunda ut i Office och Apex-temana. Ofta tillämpar du ett dokumenttema och ändrar det sedan efter dina behov.
 
 **Tillämpa teman i Microsoft Excel**
 
@@ -14,49 +15,49 @@ Teman ger ett enhetligt utseende med namngivna stilar, grafiska effekter och and
 
 {{% /alert %}}
 
-## **Skaffa och ställ in temafärger**
+## **Få och ställ in temafärger**
 
-Aspose.Cells API:er tillhandahåller funktioner för att anpassa teman och färger. Nedan finns några metoder och egenskaper som implementerar temafärger.
+Aspose.Cells API:er erbjuder funktioner för anpassning av teman och färger. Nedan finns några metoder och egenskaper som implementerar tema färger.
 
-- Style.ForegroundThemeColor-egenskapen kan användas för att ställa in förgrundsfärgen.
-- Style.BackgroundThemeColor-egenskapen kan användas för att ställa in bakgrundsfärgen.
-- Font.ThemeColor-egenskapen kan användas för att ställa in teckensnittsfärgen.
-- Workbook.getThemeColor-metoden kan användas för att få en temafärg.
-- Workbook.setThemeColor-metoden kan användas för att ställa in en temafärg.
+- Egenskapen Style.ForegroundThemeColor kan användas för att ställa in förgrundsfärgen.
+- Egenskapen Style.BackgroundThemeColor kan användas för att ställa in bakgrundsfärgen.
+- Egenskapen Font.ThemeColor kan användas för att ställa in fontfärgen.
+- Metoden Workbook.getThemeColor kan användas för att hämta en tema färg.
+- Metoden Workbook.setThemeColor kan användas för att ställa in en tema färg.
 
-Följande exempel visar hur du får och ställer in temafärger.
+Följande exempel visar hur man hämtar och ställer in tema färger.
 
 Följande exempel använder en mall XLSX-fil, hämtar färgerna för olika temafärgtyper, ändrar färgerna och sparar Microsoft Excel-filen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetSetThemeColors-GetSetThemeColors.java" >}}
 
-### **Anpassa teman**
+### **Anpassning av teman**
 
-Följande exempel visar hur du använder anpassade teman med dina önskade färger. Exemplet använder en exempelmallfil som skapats manuellt i Microsoft Excel 2007.
+Följande exempel visar hur man applicerar anpassade teman med önskade färger. Exemplet använder en provmallfil som skapats manuellt i Microsoft Excel 2007.
 
-**Mallen CustomThemeColor.xlsx-filen**
+**Mallen CustomThemeColor.xlsx-fil**
 
 ![todo:image_alt_text](excel-2007-themes-and-colors_2.png)
 
-Följande exempel laddar en mall XLSX-fil, definierar färger för olika temafärgtyper, tillämpar de anpassade färgerna och sparar excel-filen.
+Följande exempel laddar en mall XLSX-fil, definierar färger för olika temafärgtyper, applicerar de anpassade färgerna och sparar excelfilen.
 
-**Den genererade filen med anpassade temafärger**
+**Den genererade filen med anpassade tema färger**
 
 ![todo:image_alt_text](excel-2007-themes-and-colors_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomizingThemes-CustomizingThemes.java" >}}
 
-### **Använda temafärger**
+### **Användning av tema färger**
 
-Följande exempel tillämpar en cells förgrunds- och teckensnittsfärger baserat på färgtyperna för standardtema (i arbetsboken). Det sparar även excel-filen på disk.
+Det följande exemplet applicerar en cells förgrund och fontfärger baserat på standardtema (av arbetsbok) färgtyper. Det sparar också excelfilen på disken.
 
-Följande utdata genereras när koden exekveras.
+Följande utdata genereras vid körning av koden.
 
-**Temafärgerna tillämpas på D3-cellen i kalkylbladet** 
+**Tema färger applicerade på cellen D3 i arbetsbladet** 
 
 ![todo:image_alt_text](excel-2007-themes-and-colors_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseThemeColors-UseThemeColors.java" >}}
 
-## **Förhandsämnen**
+## **Fortsatta ämnen**
 - [Extrahera temadata från Excel-fil](/cells/sv/java/extract-theme-data-from-excel-file/)

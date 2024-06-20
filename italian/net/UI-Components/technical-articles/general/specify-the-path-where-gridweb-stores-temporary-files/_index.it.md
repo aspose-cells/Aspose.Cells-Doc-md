@@ -1,16 +1,17 @@
 ---
-title: Specificare il percorso in cui GridWeb archivia i file temporanei
+title: Specificare il percorso in cui GridWeb memorizza i file temporanei
 type: docs
 weight: 50
-url: /it/net/gridweb-cache-files/
-keywords: cache,session,storage
+url: /it/net/aspose-cells-gridweb/gridweb-cache-files/
+keywords: GridWeb, cache, sessione, storage
+description: Questo articolo descrive lo storage in GridWeb.
 ---
-###  sulla cache dei file
+### riguardo alla cache file
 {{% alert color="primary" %}} 
 
-Quando la modalità di sessione di GridWeb è ViewState, archivia i file di sessione temporanei all'interno della directory di base dell'applicazione. A volte, non è corretto archiviare lì i file di sessione temporanei perché la directory di base dell'applicazione potrebbe non disporre delle autorizzazioni di scrittura su di essa. In tali casi, GridWeb genera un'eccezione di questo tipo
+Quando la modalità sessione di GridWeb è ViewState, memorizza i file di sessione temporanei all'interno della directory di base dell'applicazione. A volte, non è corretto memorizzare i file di sessione temporanei lì perché la directory di base dell'applicazione potrebbe non avere le autorizzazioni di scrittura. In tali casi, GridWeb genera un'eccezione del genere.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  [UnauthorizedAccessException: Access to
 
@@ -18,45 +19,45 @@ the path 'D:\inetpub\wwwroot\AsposeExcelTest\gwb_tempGridWeb1' is denied.]
 
 {{< /highlight >}}
 
-La soluzione al problema precedente è concedere l'accesso in scrittura alla directory di base dell'applicazione o modificare il percorso dei file della sessione temporanea di GridWeb con accesso in scrittura utilizzando la proprietà GridWeb.SessionStorePath. Questo percorso dovrebbe essere relativo alla directory di base dell'applicazione.
+La soluzione al problema sopra è concedere l'accesso in scrittura alla directory di base dell'applicazione o modificare il percorso dei file di sessione temporanei di GridWeb che hanno accesso in scrittura utilizzando la proprietà GridWeb.SessionStorePath. Questo percorso dovrebbe essere relativo alla directory di base dell'applicazione.
 
 {{% /alert %}} 
-####  **Specificare il percorso in cui GridWeb archivia i file di sessione temporanei**
-Il codice di esempio seguente specifica il percorso in cui GridWeb archivia i file di sessione temporanei.
+#### **Specificare il percorso in cui GridWeb memorizza i file di sessione temporanei**
+Il codice di esempio seguente specifica il percorso in cui GridWeb memorizza i file di sessione temporanei.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-SpecifySessionStorePath.aspx-SpecifySessionStorePath.cs" >}}
 
-###  sulla cache delle immagini
+### riguardo alla cache immagini
 
-quando ci sono forme/immagini nel foglio di lavoro, GridWeb salverà tutte le forme/immagini in un percorso della cache
+quando ci sono forme/immagini nel foglio di lavoro, GridWeb salverà tutte le forme/immagini in un percorso di cache
 
- il percorso della cache predefinito è***System.Web.HttpContext.Current.Server.MapPath("/acwcache")***
+il percorso di cache predefinito è ***System.Web.HttpContext.Current.Server.MapPath("/acwcache")***
 
- anche noi possiamo usare***GridWeb.PictureCachePath*** per impostare questo percorso su un percorso specifico.
+possiamo anche usare ***GridWeb.PictureCachePath*** per impostare questo percorso su un percorso specifico.
 
-quando apriamo una pagina, GridWeb risolverà l'URL dell'immagine della richiesta e otterrà il flusso dell'immagine dalla cache tramite l'ID dell'URL.
+quando apriamo una pagina GridWeb risolverà l'URL dell'immagine richiesta e otterrà lo stream dell'immagine dalla cache tramite l'ID dell'URL.
 
- ad esempio, se l'indirizzo della tua pagina è*http://ip/mygridwebapp/test.aspx*  
+ad esempio, se l'indirizzo della tua pagina è *http://ip/mygridwebapp/test.aspx*  
 
-l'URL di richiesta dell'immagine generato da GridWeb sarà *http://ip/mygridwebapp/test.aspx/acw_image/imageid*.
+l'URL della richiesta dell'immagine generato da GridWeb sarà *http://ip/mygridwebapp/test.aspx/acw_image/imageid*.
 
-####  a volte le forme/immagini non vengono caricate durante l'utilizzo[URL amichevole](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms).
+#### a volte le forme/immagini non vengono caricate quando si utilizza [URL amichevole](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms).
 
-è necessario controllare la richiesta dell'URL dell'immagine.
+è necessario controllare l'URL della richiesta dell'immagine.
 
- la normale richiesta di immagine sarà come:*http://ip/mygridwebapp/test.aspx/acw_image/imageid*
+la richiesta normale dell'immagine dovrebbe essere simile a: *http://ip/mygridwebapp/test.aspx/acw_image/imageid*
 
-ma la tua richiesta va così :*http://ip/mygridwebapp/test/acw_image/imageid*
+ma la tua richiesta sarà simile a questa: *http://ip/mygridwebapp/test/acw_image/imageid*
 
-se usi FriendlyUrl devi filtrare la richiesta dell'URL dell'immagine per GridWeb.
+se utilizzi FriendlyUrl è necessario filtrare la richiesta dell'URL dell'immagine per GridWeb.
 
-quindi il server di controllo GridWeb può ottenere e risolvere la richiesta e trovare il flusso di immagini dal percorso della cache.
+così il server di controllo GridWeb può ottenere e risolvere la richiesta e trovare lo stream dell'immagine dal percorso della cache.
 
-ad esempio supponiamo che l'URL della tua pagina sia questo:*http://ip/mygridwebapp/test.aspx*
+ad esempio assumiamo che l'URL della tua pagina sia simile a: *http://ip/mygridwebapp/test.aspx*
 
-quindi il codice seguente è una soluzione alternativa per risolvere tale problema.
+allora il codice qui sotto è un workaround per risolvere tale problema.
 ```csharp
 //write your custom url resolver:MyWebFormsFriendlyUrlResolver
 public class MyWebFormsFriendlyUrlResolver : WebFormsFriendlyUrlResolver

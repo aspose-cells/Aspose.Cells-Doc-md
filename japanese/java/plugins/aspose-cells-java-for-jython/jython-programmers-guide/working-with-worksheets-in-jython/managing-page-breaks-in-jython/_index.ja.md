@@ -1,15 +1,16 @@
-﻿---
+---
 title: Jython での改ページの管理
 type: docs
 weight: 80
 url: /ja/java/managing-page-breaks-in-jython/
 ---
-## **Aspose.Cells - 改ページの管理**
-を使用してドキュメントを追加するには**Aspose.Cells Jython の場合は Java**.ここでサンプルコードを見ることができます。
 
-**Jython コード**
+## **Aspose.Cells - ページの区切りを管理する**
+**Aspose.Cells Java for Jython**を使用してドキュメントを追加します。ここでは例を示します。
 
-{{< highlight "java" >}}
+**Jythonコード**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -137,7 +138,7 @@ if __name__ == '__main__':
     ManagingPageBreaks()
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**添付書類 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に示すいずれかのソーシャルコーディングサイトから**Aspose.Cellsのドキュメントを追加する**をダウンロード:
 
 - [GitHub](https://github.com/asposewords/Aspose_Words_Java/releases/tag/Aspose.Words_Java_for_Jython-v1.0.0)

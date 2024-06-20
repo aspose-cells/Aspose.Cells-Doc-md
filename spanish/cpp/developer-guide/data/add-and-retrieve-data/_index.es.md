@@ -4,43 +4,44 @@ type: docs
 weight: 20
 url: /es/cpp/add-and-retrieve-data/
 ---
+
 {{% alert color="primary" %}} 
 
- En[Accediendo al Cells de una hoja de trabajo](/cells/es/cpp/accessing-cells-of-a-worksheet/), discutimos enfoques básicos para acceder a las celdas en una hoja de trabajo. Este artículo utiliza uno de esos enfoques para agregar diferentes tipos de datos a las celdas.
+En [Accediendo a Celdas de una Hoja de Cálculo](/cells/es/cpp/accediendo-a-celdas-de-una-hoja-de-calculo/), discutimos enfoques básicos para acceder a celdas en una hoja de cálculo. Este artículo utiliza uno de esos enfoques para agregar diferentes tipos de datos a celdas.
 
 {{% /alert %}} 
-##  **Agregar datos a Cells**
- Aspose.Cells proporciona una clase[Libro de trabajo](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) que representa un archivo Excel Microsoft. El[Libro de trabajo](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) la clase contiene un[Hojas de trabajo](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) colección que permite el acceso a cada hoja de cálculo del archivo Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) clase. El[Hoja de cálculo](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) clase proporciona una[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) recopilación. Cada elemento en el[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) colección representa un objeto de la[Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/)clase.
+## **Añadir datos a las celdas**
+Aspose.Cells proporciona una clase [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) que representa un archivo de Excel de Microsoft. La clase [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) contiene una colección de [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) que permite el acceso a cada hoja de cálculo en el archivo de Excel. Una hoja de cálculo está representada por la clase [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). La clase [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) proporciona una colección de [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/). Cada elemento en la colección de [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) representa un objeto de la clase [Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/)
 
- Aspose.Cells permite a los desarrolladores agregar datos a las celdas de las hojas de trabajo llamando al[Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) clase[Poner valor](https://reference.aspose.com/cells/cpp/aspose.cells/cell/putvalue/) método. Aspose.Cells proporciona versiones sobrecargadas del[Poner valor](https://reference.aspose.com/cells/cpp/aspose.cells/cell/putvalue/) Método que permite a los desarrolladores agregar diferentes tipos de datos a las celdas. Usando estas versiones sobrecargadas del[Poner valor](https://reference.aspose.com/cells/cpp/aspose.cells/cell/putvalue/)método, es posible agregar valores booleanos, de cadena, dobles, enteros o de fecha/hora, etc. a la celda.
+Aspose.Cells permite a los desarrolladores agregar datos a las celdas en hojas de cálculo llamando al método [PutValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/putvalue/) de la clase [Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/). Aspose.Cells proporciona versiones sobrecargadas del método [PutValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/putvalue/) que permite a los desarrolladores agregar diferentes tipos de datos a las celdas. Utilizando estas versiones sobrecargadas del método [PutValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/putvalue/), es posible agregar valores booleanos, de cadena, dobles, enteros o fecha/hora, etc. a la celda.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-AddingDataToCells-new.cpp" >}}
-###  **Mejorando la eficiencia**
- Si utiliza[Poner valor](https://reference.aspose.com/cells/cpp/aspose.cells/cell/putvalue/)Para poner una gran cantidad de datos en una hoja de cálculo, debes agregar valores a las celdas, primero por filas y luego por columnas. Este enfoque mejora enormemente la eficiencia de sus aplicaciones.
-##  **Recuperando datos de Cells**
- Aspose.Cells proporciona una clase[Libro de trabajo](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) que representa un archivo Excel Microsoft. El[Libro de trabajo](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) la clase contiene un[Hojas de trabajo](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) colección que permite el acceso a las hojas de trabajo del archivo. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) clase. El[Hoja de cálculo](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) clase proporciona un[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) recopilación. Cada elemento en el[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) colección representa un objeto de la[Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/)clase.
+### **Mejorando la eficiencia**
+Si usas el método [PutValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/putvalue/) para agregar una gran cantidad de datos a una hoja de cálculo, debes agregar valores a las celdas primero por filas y luego por columnas. Este enfoque mejora enormemente la eficiencia de tus aplicaciones.
+## **Recuperación de datos de celdas**
+Aspose.Cells proporciona una clase [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) que representa un archivo de Microsoft Excel. La clase [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) contiene una colección de [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) que permite acceder a las hojas de cálculo en el archivo. Una hoja de cálculo está representada por la clase [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). La clase [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) proporciona una colección de [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/). Cada elemento de la colección [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) representa un objeto de la clase [Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/).
 
- El[Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/)La clase proporciona varios métodos que permiten a los desarrolladores recuperar valores de las celdas según sus tipos de datos. Estos métodos incluyen:
+La clase [Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) proporciona varios métodos que permiten a los desarrolladores recuperar valores de las celdas de acuerdo a sus tipos de datos. Estos métodos incluyen:
 
-- [Obtener valor de cadena](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstringvalue/), devuelve el valor de cadena de la celda.
-- [ObtenerValorDoble](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getdoublevalue/), devuelve el valor doble de la celda.
-- [Obtener valor bool](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getboolvalue/), devuelve el valor booleano de la celda.
-- [ObtenerFechaHoraValor](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getdatetimevalue/), devuelve el valor de fecha/hora de la celda.
-- [Obtener valor flotante](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getfloatvalue/), devuelve el valor flotante de la celda.
-- [ObtenerValorInt](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getintvalue/)devuelve el valor entero de la celda.
+- [GetStringValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstringvalue/), devuelve el valor de cadena de la celda.
+- [GetDoubleValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getdoublevalue/), devuelve el valor doble de la celda.
+- [GetBoolValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getboolvalue/), devuelve el valor booleano de la celda.
+- [GetDateTimeValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getdatetimevalue/), devuelve el valor de fecha/hora de la celda.
+- [GetFloatValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getfloatvalue/), devuelve el valor flotante de la celda.
+- [GetIntValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getintvalue/), devuelve el valor entero de la celda.
 
- Cuando un campo no está lleno, las celdas con[ObtenerValorDoble](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getdoublevalue/) o[Obtener valor flotante](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getfloatvalue/)lanza una excepción.
+Cuando un campo no está lleno, las celdas con [GetDoubleValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getdoublevalue/) o [GetFloatValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getfloatvalue/) lanzan una excepción.
 
- El tipo de datos contenidos en una celda también se puede verificar usando el[Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) clase[Obtener tipo](https://reference.aspose.com/cells/cpp/aspose.cells/cell/gettype/) método. De hecho, el[Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) clase[Obtener tipo](https://reference.aspose.com/cells/cpp/aspose.cells/cell/gettype/) método se basa en la[Tipo de valor de celda](https://reference.aspose.com/cells/cpp/aspose.cells/cellvaluetype/)enumeración cuyos valores predefinidos se enumeran a continuación:
+El tipo de datos contenido en una celda también se puede verificar utilizando el método [GetType](https://reference.aspose.com/cells/cpp/aspose.cells/cell/gettype/) de la clase [Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/). De hecho, el método [GetType](https://reference.aspose.com/cells/cpp/aspose.cells/cell/gettype/) de la clase [Cell](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) se basa en la enumeración [CellValueType](https://reference.aspose.com/cells/cpp/aspose.cells/cellvaluetype/) cuyos valores predefinidos se enumeran a continuación:
 
-|**Cell Tipos de valor**|**Descripción**|
+|**Tipos de Valor de Celda**|**Descripción**|
 | :- | :- |
-|CellValueType_IsBool|Especifica que el valor de la celda es booleano.|
+|CellValueType_IsBool|Especifica que el valor de la celda es Booleano.|
 |CellValueType_IsDateTime|Especifica que el valor de la celda es fecha/hora.|
 |CellValueType_IsNull|Representa una celda en blanco.|
 |CellValueType_IsNumeric|Especifica que el valor de la celda es numérico.|
-|CellValueType_IsString|Especifica que el valor de la celda es una cadena.|
-|CellValueType_IsUnknown|Especifica que el valor de la celda es desconocido.|
-También puede utilizar los tipos de valores de celda predefinidos anteriores para comparar con el tipo de datos presentes en cada celda.
+|CellValueType_IsString|Especifica que el valor de la celda es de cadena.|
+|CellValueType_IsUnknown|Especifica que el valor de la celda es desconocido.
+También puedes usar los tipos de valor de celda predefinidos anteriores para comparar con el tipo de dato presente en cada celda.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-RetrievingDataFromCells-new.cpp" >}}

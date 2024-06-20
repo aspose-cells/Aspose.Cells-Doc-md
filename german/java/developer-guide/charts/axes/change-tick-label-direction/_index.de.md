@@ -1,36 +1,37 @@
-﻿---
-title: Richtung der Teilstrichbeschriftung ändern
+---
+title: Ändern Sie die Ausrichtung der Tickbeschriftung
 type: docs
 weight: 90
 url: /de/java/change-tick-label-direction/
 ---
-## **Richtung der Teilstrichbeschriftung ändern**
 
-Aspose.Cells bietet Ihnen die Möglichkeit, die Richtung der Chart-Tick-Beschriftung mithilfe von zu ändern[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) Eigentum. Das[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType)Eigentum akzeptiert die[**DiagrammTextRichtungstyp**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) Aufzählungswert. Das[**DiagrammTextRichtungstyp**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)Enumeration stellt die folgenden Elemente bereit
+## **Ändern der Richtung der Markierungstexte**
+
+Aspose.Cells ermöglicht es Ihnen, die Richtung der Diagramm-Schrittbesschriftung zu ändern, indem Sie die [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType)-Eigenschaft verwenden. Die [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) Eigenschaft akzeptiert den [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)-Enumerationswert. Die [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)-Enumeration bietet die folgenden Elemente
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
-- [**VERTIKAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**DREHEN_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**DREHEN_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
-- [**GESTAPELT**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
+- [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
 Das folgende Bild vergleicht die Quell- und Ausgabedateien
 
-### **Bild der Quelldatei**
+### **Quelldateibild**
 
-![todo: Bild_alt_Text](change-tick-label-direction_1.jpg)
+![todo:image_alt_text](change-tick-label-direction_1.jpg)
 
-### **Bild der Ausgabedatei**
+### **Ausgabedateibild**
 
-![todo: Bild_alt_Text](change-tick-label-direction_2.jpg)
+![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
- Das folgende Code-Snippet ändert die Tick-Label-Richtung von[**DREHEN_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) zu[**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+Der folgende Codeausschnitt ändert die Schrittbesschriftungsrichtung von [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) nach [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
 ### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-ChangeTickLabelDirection-1.java" >}}
 
-Die Quell- und Ausgabedateien können über die folgenden Links heruntergeladen werden.
+Die Quell- und Ausgabedateien können von den folgenden Links heruntergeladen werden.
 
 [Quelldatei](SampleChangeTickLabelDirection.xlsx)
 

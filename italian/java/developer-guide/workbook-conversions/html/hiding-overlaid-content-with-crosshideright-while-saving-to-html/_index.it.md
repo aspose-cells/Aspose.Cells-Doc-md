@@ -1,19 +1,20 @@
-﻿---
+---
 title: Nascondere il contenuto sovrapposto con CrossHideRight durante il salvataggio in HTML
 type: docs
 weight: 100
 url: /it/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/
 ---
-## **Possibili scenari di utilizzo**
 
-Quando si salva il file Excel in HTML, è possibile specificare diversi tipi incrociati per le stringhe di celle. Per impostazione predefinita, Aspose.Cells genera HTML come per Microsoft Excel ma quando si modifica il[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#HtmlCrossStringType)a[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)quindi nasconde tutte le stringhe sul lato destro della cella che sono sovrapposte o sovrapposte alla stringa di cella.
+## **Possibili Scenari di Utilizzo**
 
-## **Nascondere il contenuto sovrapposto con CrossHideRight durante il salvataggio in HTML**
+Quando si salva il file Excel in HTML, è possibile specificare diversi tipi di attraversamenti per le stringhe delle celle. Per impostazione predefinita, Aspose.Cells genera l'HTML come da Microsoft Excel ma quando si cambia il [**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#HtmlCrossStringType) in [**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT) allora nasconde tutte le stringhe sul lato destro della cella che sono sovrapposte o sovrapponibili alla stringa della cella.
 
-Il codice di esempio seguente carica il file[esempio di file Excel](64716916.xlsx)e lo salva in[uscita HTML](64716915.zip)dopo aver impostato il[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#HtmlCrossStringType)come[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT). Lo screenshot spiega come[**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT)influisce sull'output HTML dall'output predefinito.
+## **Nascondere il Contenuto Sovrapposto con CrossHideRight durante il salvataggio in HTML**
 
-![cose da fare:immagine_alt_testo](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
+Il codice di esempio seguente carica il [file Excel di esempio](64716916.xlsx) e lo salva in [HTML di output](64716915.zip) dopo aver impostato il [**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#HtmlCrossStringType) come [**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT). La schermata spiega come [**CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT) influisce sull'HTML di output predefinito.
 
-## **Codice d'esempio**
+![todo:image_alt_text](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.java" >}}

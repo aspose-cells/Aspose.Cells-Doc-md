@@ -1,13 +1,14 @@
-﻿---
+---
 title: Lavorare con i caratteri
 type: docs
 weight: 30
 url: /it/net/working-with-fonts/
 ---
+
 ## **Aspose.Cells - Lavorare con i caratteri**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -48,7 +49,7 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 ## **NPOI - HSSF XSSF - Lavorare con i caratteri**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -92,12 +93,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Lavorare con i caratteri** formare uno dei siti di social coding sotto indicati:
+Scarica **Lavorare con i caratteri** da uno dei siti di codici sociali menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Funzioni di formattazione dei dati](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Per ulteriori dettagli, visita [Caratteristiche di formattazione dati](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

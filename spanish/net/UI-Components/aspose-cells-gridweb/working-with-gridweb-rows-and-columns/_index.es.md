@@ -1,6 +1,8 @@
-﻿---
-title: Trabajar con filas y columnas de GridWeb
+---
+title: Trabajando con Filas y Columnas de GridWeb
 type: docs
 weight: 50
-url: /es/net/working-with-gridweb-rows-and-columns/
+url: /es/net/aspose-cells-gridweb/work-with-gridweb-rows-and-columns/
 ---
+
+

@@ -1,12 +1,13 @@
-﻿---
+---
 title: Performance
 type: docs
 weight: 30
 url: /fr/reportingservices/performance/
 ---
- Pour améliorer les performances, définissez le paramètre Performance sur**AU**.
 
-{{< highlight "java" >}}
+Pour améliorer les performances, définissez le paramètre Performance sur **ON**.
+
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -26,11 +27,11 @@ url: /fr/reportingservices/performance/
 
 {{< /highlight >}}
 
-Les différents paramètres de performance sont les suivants :
+Les différents paramètres de performance sont les suivants:
 
-- **LimitCellsNumberForMerged** : le nombre maximum de cellules pouvant être fusionnées. La valeur par défaut 1 000 000. La valeur du paramètre est définie par l'utilisateur et n'est pas affectée par le commutateur de paramètre de performance.
+- **LimitCellsNumberForMerged**: le nombre maximum de cellules pouvant être fusionnées. La valeur par défaut est de 1 000 000. La valeur du paramètre est définie par l'utilisateur et n'est pas impactée par la commutation du paramètre de performance. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -39,9 +40,9 @@ Les différents paramètres de performance sont les suivants :
 
 
 
-- **IsAutoRowFitIsAutoRowFit** : Lorsque la valeur de Performance est**à l'arrêt** , la valeur de IsAutoRowFit est**faux** par défaut. Lorsque la valeur du paramètre de performance est**au** , la valeur est**vrai** par défaut. Lorsque la valeur de Performance est**au** , un rapport de sous-élément peut réinitialiser le rapport de points à la valeur AutoRowFit.
+- **IsAutoRowFit**: lorsque la valeur de Performance est **off**, la valeur de IsAutoRowFit est **false** par défaut. Lorsque la valeur du paramètre de performance est **on**, la valeur est **true** par défaut. Lorsque la valeur de Performance est **on**, un rapport de sous-élément peut réinitialiser le point du rapport à la valeur AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -64,9 +65,9 @@ Les différents paramètres de performance sont les suivants :
 
 
 
-- **EstFusionné** : Lorsque la valeur de Performance est**à l'arrêt** , la valeur par défaut de IsMerged est**faux** . Lorsque la valeur de Performance est**au** , La valeur par défaut est**vrai** . Lorsque la valeur du paramètre Performance est**au** , un rapport de sous-éléments peut réinitialiser le rapport de point sur la valeur AutoRowFit.
+- **IsMerged**: lorsque la valeur de Performance est **off**, la valeur par défaut de IsMerged est **false**. Lorsque la valeur de Performance est **on**, la valeur par défaut est **true**. Lorsque la valeur du paramètre de performance est **on**, un rapport de sous-élément peut réinitialiser le point du rapport à la valeur AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -89,9 +90,9 @@ Les différents paramètres de performance sont les suivants :
 
 
 
-- **IsSetStyle** : Lorsque la valeur de Performance est**à l'arrêt** , La valeur par défaut est**faux** . Lorsque les performances sont**au** , La valeur par défaut est**vrai** . De même, lorsque Performance est**au** , un rapport de sous-éléments peut réinitialiser le rapport de point sur la valeur AutoRowFit.
+- **IsSetStyle**: lorsque la valeur de Performance est **off**, la valeur par défaut est **false**. Lorsque la valeur de Performance est **on**, la valeur par défaut est **true**. De plus, lorsque la valeur de Performance est **on**, un rapport de sous-élément peut réinitialiser le point du rapport à la valeur AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -114,9 +115,9 @@ Les différents paramètres de performance sont les suivants :
 
 
 
-- **EstFormatageConditionnel** : Lorsque les performances sont**à l'arrêt** , La valeur par défaut est**faux** . Lorsque les performances sont**au** , La valeur par défaut est**vrai** . De même, lorsque Performance est**au** , un rapport de sous-éléments peut réinitialiser le rapport de point sur la valeur AutoRowFit. Lorsque la valeur du paramètre IsSetStyle est définie sur**faux** , la valeur de Performance n'est pas valide.
+- **IsConditionalFormatting**: lorsque Performance est **off**, la valeur par défaut est **false**. Lorsque Performance est **on**, la valeur par défaut est **true**. De plus, lorsque Performance est **on**, un rapport de sous-élément peut réinitialiser le point du rapport à la valeur AutoRowFit. Lorsque la valeur du paramètre IsSetStyle est définie sur **false**, la valeur de Performance est invalide. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

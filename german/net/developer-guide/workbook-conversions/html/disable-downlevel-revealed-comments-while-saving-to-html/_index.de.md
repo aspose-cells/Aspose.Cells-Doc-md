@@ -1,22 +1,23 @@
-﻿---
-title: Deaktivieren Sie aufgedeckte Kommentare auf niedrigerem Niveau, während Sie unter HTML speichern
+---
+title: Deaktivieren von Downlevel Revealed Kommentaren beim Speichern als HTML
 type: docs
 weight: 20
 url: /de/net/disable-downlevel-revealed-comments-while-saving-to/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn Sie Ihre Excel-Datei unter HTML speichern, zeigt Aspose.Cells Downlevel Conditional Comments an. Diese bedingten Kommentare sind hauptsächlich für ältere Versionen von Internet Explorer relevant und für moderne Webbrowser irrelevant. Sie können sie im Detail unter folgendem Link nachlesen.
+## **Mögliche Verwendungsszenarien**
 
-- [Bedingter Kommentar – Bedingter Kommentar, der auf einer niedrigeren Ebene offenbart wurde](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
+Wenn Sie Ihre Excel-Datei in HTML speichern, zeigt Aspose.Cells Downlevel Conditional Comments an. Diese bedingten Kommentare sind meist relevant für ältere Versionen von Internet Explorer und sind für moderne Webbrowser irrelevant. Sie können Details dazu unter folgendem Link nachlesen.
 
-Aspose.Cells ermöglicht es Ihnen, diese aufgedeckten Kommentare auf niedrigerem Niveau zu eliminieren, indem Sie das einstellen[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) Eigentum zu**wahr**.
+- [Bedingter Kommentar - Downlevel-revealed conditional comment](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
 
-## **Deaktivieren Sie aufgedeckte Kommentare auf niedrigerem Niveau, während Sie unter HTML speichern**
+Mit Aspose.Cells können Sie diese Downlevel Revealed Comments beseitigen, indem Sie die [**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments)-Eigenschaft auf **true** setzen.
 
-Der folgende Beispielcode zeigt die Verwendung von[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) Eigentum. Der Screenshot zeigt die Auswirkung dieser Eigenschaft, wenn sie nicht auf „true“ gesetzt ist. Bitte laden Sie die herunter[Beispiel-Excel-Datei](50528257.xlsx) in diesem Code verwendet und die[Ausgang HTML](50528258.zip) von ihm für eine Referenz generiert.
+## **Beim Speichern als HTML-Wrap Kommentare ausblenden**
 
-![todo: Bild_alt_Text](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
+Das folgende Beispiel zeigt die Verwendung der [**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments)-Eigenschaft. Der Screenshot zeigt die Wirkung dieser Eigenschaft, wenn sie nicht auf **true** gesetzt ist. Bitte laden Sie die [Beispiel-Excel-Datei](50528257.xlsx) herunter, die in diesem Code verwendet wurde, sowie die [generierte Ausgabe-HTML](50528258.zip) zur Referenz.
+
+![todo:image_alt_text](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
 
 ## **Beispielcode**
 

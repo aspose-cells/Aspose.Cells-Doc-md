@@ -1,20 +1,21 @@
-﻿---
+---
 title: Anpassa Ribbon XML
-linktitle: Anpassa Excel-menyn
+linktitle: Anpassa Excel meny
 type: docs
 weight: 1500
 url: /sv/net/customizing-the-ribbon-xml/
 ---
+
 {{% alert color="primary" %}} 
 
- Microsoft Office har ersatt menyer och verktygsfält med ett band överst i programfönstret sedan office 2007. Bandet är anpassningsbart.
-Aspose.Cells låter dig
+Microsoft Office ersatte menyer och verktygsfält med en Ribbon längst upp i programfönstret sedan office 2007. Ribbon är anpassningsbar. 
+Aspose.Cells möjliggör
 
-- Behåll menyfliksområdet XML utan att analysera det,
-- Läs och skriv Ribbon XML utan att tolka det,
-- Hämta och ställ in Ribbon XML-data.
+- Behåll Ribbon XML utan att analysera det,
+- Läs och skriv Ribbon XML utan att analysera det,
+- Hämta och ange Ribbon XML-data.
 
-Om du vill ändra menyfliks-XML måste du analysera den med en XML-tolkare eller annat menyfliks-XML-verktyg.
+Om du vill ändra Ribbon XML måste du analysera den med en XML-parser eller annat Ribbon XML-verktyg.
 
 {{% /alert %}} 
 

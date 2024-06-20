@@ -1,16 +1,17 @@
-﻿---
-title: Lägg till XML-karta i arbetsboken med metoden XmlMapCollection.Add
+---
+title: Lägg till XML karta i arbetsboken med XmlMapCollection.Add metoden
 type: docs
 weight: 10
 url: /sv/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
 ---
-## **Möjliga användningsscenarier**
 
- Aspose.Cells tillhandahåller[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) metod som du kan använda för att importera din XML-karta till arbetsboken.
+## **Möjliga användningsscenario**
 
-## **Lägg till XML-karta i arbetsboken med metoden XmlMapCollection.Add**
+Aspose.Cells tillhandahåller [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) metod som du kan använda för att importera din XML-karta inuti arbetsboken.
 
- Följande exempelkod lägger till XML Map i arbetsboken med hjälp av[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) metod och sparar den som[output excel-fil](5115434.xlsx) . Skärmdumpen visar XML-kartan som har importerats från[sample.xml](5115433.xml) inuti excel-filen.
+## **Lägg till XML-karta i arbetsboken med XmlMapCollection.Add-metoden**
+
+Följande exempelkod lägger till XML-karta inuti arbetsboken med hjälp av [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) metoden och sparar den som [utdata excelfil](5115434.xlsx). Skärmbilden visar den XML-karta som har importerats från [sample.xml](5115433.xml) inuti den resulterande excelfilen.
 
 ![add-xml-map](add-xml-map.png)
 

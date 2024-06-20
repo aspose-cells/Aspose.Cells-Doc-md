@@ -1,38 +1,40 @@
-﻿---
-title: Arbeitsblatt zum Schützen und Aufheben des Schutzes
+---
+title: Arbeitsblatt schützen und entschützen
 type: docs
 weight: 40
 url: /de/net/protect-and-unprotect-worksheets/
-description: Schützen und entschützen Sie das Arbeitsblatt von Excel-Dateien mit Aspose.Cells für .Net.
+description: Arbeitsblatt in Excel Dateien mit Aspose.Cells für .Net schützen und den Schutz aufheben
 ---
+
+
 {{% alert color="primary" %}}
-Um zu verhindern, dass andere Benutzer versehentlich oder absichtlich Daten in einem Arbeitsblatt ändern, verschieben oder löschen, können Sie die Zellen in Ihrem Excel-Arbeitsblatt sperren und das Blatt dann mit einem Kennwort schützen.
+Um zu verhindern, dass andere Benutzer versehentlich oder absichtlich Daten in einem Arbeitsblatt ändern, verschieben oder löschen, können Sie die Zellen in Ihrem Excel-Arbeitsblatt sperren und das Blatt dann mit einem Kennwort schützen. 
 {{% /alert %}}
 
 
-## **Arbeitsblatt in MS Excel schützen und Schutz aufheben**
+## **Arbeitsblatt in MS Excel schützen und aufheben**
 
-**![Arbeitsblatt schützen und Schutz aufheben](protect-and-unprotect-worksheet.png)**
+**![Arbeitsblatt schützen und aufheben](schuetzen-und-aufheben.png)**
 
-1.  Klicken**Überprüfen > Arbeitsblatt schützen**.
-1.  Geben Sie ein Passwort ein**das Feld Passwort**.
-1.  Wählen**ermöglichen** Optionen.
-1.  Wählen**OK** , geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann aus**OK** aufs Neue.
+1. Klicken Sie auf **Überprüfen > Arbeitsblatt schützen**.
+1. Geben Sie ein Passwort in das **Passwortfeld** ein.
+1. Wählen Sie die **Zulassen**-Optionen aus.
+1. Wählen Sie **OK**, geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann erneut **OK**.
 
 
-## **Schützen Sie das Arbeitsblatt mit Aspose.Cell für .Net**
-Sie benötigen nur die folgenden einfachen Codezeilen, um den Schutz der Arbeitsmappenstruktur von Excel-Dateien zu implementieren.
+## **Arbeitsblatt mithilfe von Aspose.Cell für .Net schützen**
+Es sind nur die folgenden einfachen Codezeilen erforderlich, um die Arbeitsmappenstruktur von Excel-Dateien zu schützen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Example-Protect-Worksheet.cs" >}}
 
-## **Entschützen des Arbeitsblatts mit Aspose.Cell für .Net**
-Das Aufheben des Arbeitsblattschutzes ist einfach mit Aspose.Cells API. Wenn das Arbeitsblatt passwortgeschützt ist, ist ein korrektes Passwort erforderlich.
+## **Arbeitsblatt mithilfe von Aspose.Cell für .Net aufheben**
+Das Aufheben des Arbeitsblatts ist mit der Aspose.Cells-API einfach. Wenn das Arbeitsblatt passwortgeschützt ist, ist ein korrektes Kennwort erforderlich.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-Unprotect-Worksheet.cs" >}}
 
-## **Themen vorantreiben**
+## **Erweiterte Themen**
 - [Erweiterte Schutzeinstellungen seit Excel XP](/cells/de/net/advanced-protection-settings-since-excel-xp/)
-- [Erkennen, ob das Arbeitsblatt passwortgeschützt ist](/cells/de/net/detect-if-worksheet-is-password-protected/)
+- [Überprüfen Sie, ob das Arbeitsblatt mit einem Kennwort geschützt ist](/cells/de/net/detect-if-worksheet-is-password-protected/)
 - [Arbeitsblätter schützen](/cells/de/net/protecting-worksheets/)
-- [Heben Sie den Schutz eines Arbeitsblatts auf](/cells/de/net/unprotect-a-worksheet/)
-- [Bestätigen Sie das Kennwort, das zum Schutz des Arbeitsblatts verwendet wird](/cells/de/net/verify-password-used-to-protect-the-worksheet/)
+- [Arbeitsblatt entsperren](/cells/de/net/unprotect-a-worksheet/)
+- [Überprüfen Sie das verwendete Kennwort zum Schutz des Arbeitsblatts](/cells/de/net/verify-password-used-to-protect-the-worksheet/)

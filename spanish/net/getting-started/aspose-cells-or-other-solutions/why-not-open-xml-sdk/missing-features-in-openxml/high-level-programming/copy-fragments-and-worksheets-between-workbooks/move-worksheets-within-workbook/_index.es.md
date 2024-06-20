@@ -1,14 +1,15 @@
-﻿---
-title: Mover hojas de trabajo dentro del libro de trabajo
+---
+title: Mover hojas de cálculo dentro del libro de trabajo
 type: docs
 weight: 30
 url: /es/net/move-worksheets-within-workbook/
 ---
-Aspose.Cells proporciona un método, Aspose.Cells.Worksheet.MoveTo(), que se usa para mover una hoja de trabajo a otra ubicación en la hoja de cálculo. El método toma el índice de la hoja de cálculo de destino como parámetro.
 
-El siguiente ejemplo muestra cómo mover una hoja de trabajo a otra ubicación dentro del libro de trabajo.
+Aspose.Cells proporciona un método, Aspose.Cells.Worksheet.MoveTo(), utilizado para mover una hoja de cálculo a otra ubicación en la hoja de cálculo. El método toma el índice de la hoja de cálculo de destino como parámetro.
 
-{{< highlight "csharp" >}}
+El siguiente ejemplo muestra cómo mover una hoja de cálculo a otra ubicación dentro del libro.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -39,6 +40,6 @@ worksheet.MoveTo(2);
 wb.Save(FileName);
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)

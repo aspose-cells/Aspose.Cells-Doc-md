@@ -1,33 +1,34 @@
-﻿---
-title: Especificar separadores de grupos y decimales de números personalizados para el libro de trabajo
+---
+title: Especificar Separadores de Números Decimales y de Grupo Personalizados para Libro de Trabajo
 type: docs
 weight: 100
 url: /es/java/specify-custom-number-decimal-and-group-separators-for-workbook/
-description: Este artículo muestra cómo cambiar el número decimal y el separador de grupos en MS Excel y con el código Java usando el Aspose.Cells for Java API.
-keywords: specify custom decimal separator excel, specify custom decimal separator excel java, specify custom group separator excel, specify custom group separator excel java, specify custom decimal and group separator excel, specify custom decimal and group separator excel java, change decimal and group separator excel java, change decimal and group separator excel, change decimal separator excel, change decimal separator excel java, change group separator excel, change group separator excel java
+description: Este artículo muestra cómo cambiar el separador decimal y de grupo en MS Excel y con código Java mediante el API Aspose.Cells for Java.
+keywords: especificar separador decimal personalizado excel, especificar separador decimal personalizado excel java, especificar separador de grupo personalizado excel, especificar separador de grupo personalizado excel java, especificar separador decimal y de grupo personalizado excel, especificar separador decimal y de grupo personalizado excel java, cambiar separador decimal y de grupo excel java, cambiar separador decimal y de grupo excel, cambiar separador decimal excel, cambiar separador decimal excel java, cambiar separador de grupo excel, cambiar separador de grupo excel java
 ---
+
 {{% alert color="primary" %}}
 
- En Microsoft Excel, puede especificar los separadores decimales y de miles personalizados en lugar de utilizar los separadores de sistema de la**Opciones Avanzadas de Excel** como se muestra en la captura de pantalla a continuación.
+En Microsoft Excel, puedes especificar los Separadores de Decimales y Miles Personalizados en lugar de usar Separadores de Sistema de las **Opciones Avanzadas de Excel** como se muestra en la captura de pantalla a continuación.
 
- Aspose.Cells proporciona el[**WorkbookSettings.setNumberDecimalSeparator()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#NumberDecimalSeparator) y[WorkbookSettings.setNumberGroupSeparator()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#NumberGroupSeparator) properties para establecer los separadores personalizados para formatear/analizar números.
+Aspose.Cells proporciona las propiedades [**WorkbookSettings.setNumberDecimalSeparator()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#NumberDecimalSeparator) y [WorkbookSettings.setNumberGroupSeparator()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#NumberGroupSeparator) para establecer los separadores personalizados para dar formato/analizar números.
 
 {{% /alert %}}
 
-## **Especificación de separadores personalizados usando Microsoft Excel**
+## **Especificar Separadores Personalizados usando Microsoft Excel**
 
-1.  Abierto**Opciones** en el**Archivo** pestaña.
-1. Abre el**Avanzado** pestaña.
-1.  Cambie la configuración en el**Opciones de edición** sección.
+1. Abre **Opciones** en la pestaña **Archivo**.
+1. Abre la pestaña **Avanzadas**.
+1. Cambia la configuración en la sección **Opciones de Edición**.
 
-La siguiente captura de pantalla muestra la**Opciones Avanzadas de Excel** y resalta la sección para especificar el**Separadores personalizados**.
+La siguiente captura de pantalla muestra las **Opciones Avanzadas de Excel** y destaca la sección para especificar los **Separadores Personalizados**.
 
-![todo:imagen_alternativa_texto](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
+![todo:image_alt_text](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 
-## **Especificación de separadores personalizados mediante Aspose.Cells**
+## **Especificar Separadores Personalizados usando Aspose.Cells**
 
- El siguiente código de ejemplo ilustra cómo especificar los separadores personalizados mediante Aspose.Cells API. Especifica los separadores decimales y de grupo de números personalizados como punto y espacio respectivamente. entonces el numero**123,456.789** se mostrará como**123 456.789** como se muestra en la captura de pantalla que muestra la salida PDF generada por el código.
+El siguiente código de muestra ilustra cómo especificar los Separadores Personalizados usando el API de Aspose.Cells. Especifica los Separadores de Números Decimales y de Grupo Personalizados como punto y espacio respectivamente. Por lo tanto, el número **123,456.789** se mostrará como **123 456.789** como se muestra en la captura de pantalla que muestra el PDF de salida generado por el código.
 
-![todo:imagen_alternativa_texto](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
+![todo:image_alt_text](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyingCustomSeparators-SpecifyingCustomSeparators.java" >}}

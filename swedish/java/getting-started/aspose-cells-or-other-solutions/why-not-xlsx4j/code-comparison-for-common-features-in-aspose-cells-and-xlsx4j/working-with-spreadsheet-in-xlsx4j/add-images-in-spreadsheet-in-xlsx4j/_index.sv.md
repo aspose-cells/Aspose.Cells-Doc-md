@@ -1,15 +1,16 @@
-﻿---
+---
 title: Lägg till bilder i kalkylblad i xlsx4j
 type: docs
 weight: 20
 url: /sv/java/add-images-in-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Lägg till bilder i kalkylark**
-Bildklassen är tillgänglig för att hantera bilder i arbetsblad
+
+## **Aspose.Cells - Lägg till bilder i kalkylblad**
+Picture-klassen finns tillgänglig för att hantera bilder i arbetsbladet
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -27,13 +28,13 @@ Picture picture = sheet.getPictures().get(pictureIndex);
 
 {{< /highlight >}}
 ## **xlsx4j - Lägg till bilder i kalkylblad**
-Ritningsklass är tillgänglig för att hantera bilder i arbetsblad
+Drawing-klassen finns tillgänglig för att hantera bilder i arbetsbladet
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "AddImage-Xlsx4j.xlsx";
 
@@ -406,13 +407,13 @@ public static CTDrawing buildDrawingPartContentFromXmlString(String imageRelID) 
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addimage)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Lägg till bildhyperlänkar](/java/add-image-hyperlinks).
+För mer detaljer, besök [Lägga till bildhyperlänkar](/java/add-image-hyperlinks)
 
 {{% /alert %}}

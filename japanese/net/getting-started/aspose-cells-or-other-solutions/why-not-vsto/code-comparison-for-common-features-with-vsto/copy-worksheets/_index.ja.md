@@ -1,17 +1,18 @@
-﻿---
+---
 title: ワークシートのコピー
 type: docs
 weight: 60
 url: /ja/net/copy-worksheets/
 ---
-## **移行のヒント:**
-\1. Workbook オブジェクトを作成し、Worksheet を取得します。
-\2.ワークシートにテキストを挿入します。
-\3.新しいワークシートを作成し、作成前のワークシートにコピーします。
+
+## **移行のヒント：**
+1. ワークブックオブジェクトを作成してワークシートを取得します。
+2. ワークシートにテキストを挿入します。
+3. 新しいワークシートを作成し、以前に作成したワークシートにコピーします。
 ### **VSTO**
-マクロ 'code' のレンダリング エラー: パラメータ lang に無効な値が指定されました
+マクロ'code'のエラー表示：パラメータlangに無効な値が指定されています
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   private static string fileName ="CopyWorksheets.xlsx";
 

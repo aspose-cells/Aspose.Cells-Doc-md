@@ -1,20 +1,21 @@
 ---
-title: Grafiğe WordArt Filigranı Ekleme
-description: Aspose.Cells for .NET'i kullanarak Microsoft Excel'deki bir grafiğe WordArt filigranı eklemeyi öğrenin. Kılavuzumuz, grafiğinizin görsel çekiciliğini ve benzersizliğini artırmak için bir WordArt filigranının nasıl oluşturulacağını ve konumlandırılacağını gösterecektir.
-keywords: Aspose.Cells for .NET, WordArt Watermark, Chart Watermark, Microsoft Excel, Visual Appeal, Chart Uniqueness.
+title: Grafik e WordArt Filigran Ekle
+description: Microsoft Excel de bir grafikte WordArt filigranı eklemek için Aspose.Cells for .NET nasıl kullanılacağını öğrenin. Rehberimiz, bir WordArt filigranı oluşturmayı ve konumlandırmayı göstererek grafiklerinizin görsel çekiciliğini ve benzersizliğini artırmak için nasıl kullanacağınızı gösterecektir.
+keywords: Aspose.Cells for .NET, WordArt Filigran, Grafik Filigranı, Microsoft Excel, Görsel Çekicilik, Grafik Benzersizliği.
 type: docs
 weight: 50
 url: /tr/net/add-wordart-watermark-to-chart/
 ---
+
 {{% alert color="primary" %}} 
 
-Elektronik tablolara özel metin efektleri eklemek için WordArt'ı kullanabilirsiniz. Örneğin, bir başlığı genişletin, metni süsleyin, metni önceden belirlenmiş bir şekle sığdırın veya etkilenen metni grafiğin çizim alanına filigran olarak uygulayın. WordArt, dekorasyon eklemek için e-tablolarınızda taşıyabileceğiniz veya konumlandırabileceğiniz bir nesneye dönüşür.
+WordArt'ı elektronik tablolara özel metin efektleri eklemek için kullanabilirsiniz. Örneğin, başlığı uzatabilir, metni süsleyebilir, metni önceden belirlenmiş bir şekle sığdırabilir veya etkilenen metni bir grafik çizim alanına bir filigran olarak uygulayabilirsiniz. WordArt, elektronik tablolarınızda hareket ettirebileceğiniz veya konumlandırabileceğiniz bir nesne haline gelirken dekorasyon eklemek için.
 
-Aşağıdaki örnek, grafik çizim alanı için bir WordArt şeklinin filigran olarak nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir WordArt şeklinin grafik çizim alanı için bir filigran olarak nasıl ekleneceğini göstermektedir.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek, mevcut bir grafiğin çizim alanına filigran olarak bir WordArt şeklinin nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, varolan bir grafik çizim alanı için bir WordArt şeklinin filigran olarak nasıl ekleneceğini göstermektedir.
 
 
 

@@ -1,119 +1,120 @@
-﻿---
-title: Установка и использование Aspose.Cells для IntelliJ IDEA — Maven
+---
+title: Установка и использование Aspose.Cells для IntelliJ IDEA  Maven
 type: docs
 weight: 10
 url: /ru/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
 ---
+
 ## **Установка**
 ### **Как установить Aspose.Cells Java для IntelliJ IDEA (Maven)**
- Шаги ниже демонстрируют, как установить**Aspose.Cells Java для IntelliJ IDEA (Maven)** плагин.
+Ниже приведены шаги по установке плагина **Aspose.Cells Java для IntelliJ IDEA (Maven)**.
 
- Плагин указан в CE IntelliJ IDEA.[официальный сайт плагина](https://goo.gl/R4pysl) - репозиторий плагинов как**Aspose.Cells Java для IntelliJ IDEA Maven**, поэтому вам не нужно загружать его вручную и устанавливать с диска, но эта дополнительная опция все еще существует в IntelliJ IDEA.
+Плагин перечислен на официальном веб-сайте плагинов CE IntelliJ IDEA (https://goo.gl/R4pysl) как **Aspose.Cells Java для IntelliJ IDEA Maven**, поэтому вам не нужно загружать его вручную и устанавливать с диска, но такая возможность всё еще существует в IntelliJ IDEA.
 
-**Aspose.Cells Java для IntelliJ IDEA (Maven)** плагин можно легко установить (без загрузки вручную) из IntelliJ IDEA. Сделать это:
+Плагин **Aspose.Cells Java для IntelliJ IDEA (Maven)** можно легко установить (без ручной загрузки) прямо из IntelliJ IDEA. Чтобы сделать это:
 
-1.  Выбирать**Настройки** от**Файл** меню.
-1.  Нажмите**Плагины** , затем просмотрите репозитории в IntelliJ IDEA.
+1. Выберите **Настройки** в меню **Файл**.
+1. Нажмите **Плагины**, затем просматривайте репозитории в IntelliJ IDEA. 
 
-![дело:изображение_альтернативный_текст](lbtci11.jpg)
-### **Aspose.Cells Maven Мастер проектов**
-Установка этого плагина представит новый тип проекта —
+![todo:image_alt_text](lbtci11.jpg)
+### **Мастер проекта Aspose.Cells Maven**
+Установка этого плагина введёт новый тип проекта — 
 
-![дело:изображение_альтернативный_текст](aspose_small.png)
+![todo:image_alt_text](aspose_small.png)
 
-**Aspose.Cells Maven Проект** – в IntelliJ IDEA, что позволит вам создать проект на основе Aspose.Cells Maven для использования[Aspose.Cells for Java API. ](http://goo.gl/c1eSD2). 
+**Aspose.Cells Maven Project** — в IntelliJ IDEA, что позволит вам создавать проект на основе Aspose.Cells Maven для использования [Aspose.Cells for Java API. ](http://goo.gl/c1eSD2). 
 
-![дело:изображение_альтернативный_текст](m1du9a1.jpg)
-### **Aspose.Cells Мастер примеров**
- Вариант для создания[Исходный код Примеры использования Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) внутри проекта, также появится после установки в меню «Создать» (с помощью правой кнопки мыши -> Создать**ИЛИ ЖЕ** меню Файл->Создать) –
+![todo:image_alt_text](m1du9a1.jpg)
+### **Мастер примеров Aspose.Cells**
+После установки также появится опция для создания [примеров исходного кода использования Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) внутри проекта, в разделе "Новый" (используя щелчок правой кнопкой -> Новый **ИЛИ** меню Файл -> Новый) – 
 
-![дело:изображение_альтернативный_текст](aspose_small.png)
+![todo:image_alt_text](aspose_small.png)
 
-**Aspose.Cells Примеры**
+**Примеры Aspose.Cells**
 
-![дело:изображение_альтернативный_текст](bc05c5v.jpg)
-## **С использованием**
-### **Aspose.Cells Maven Мастер проектов**
- Чтобы создать проект Aspose.Cells Maven для использования[Aspose.Cells for Java API](http://goo.gl/c1eSD2) в IntelliJ IDEA вам необходимо подключение к Интернету.
+![todo:image_alt_text](bc05c5v.jpg)
+## **Использование**
+### **Мастер проекта Aspose.Cells Maven**
+Для создания проекта Aspose.Cells Maven для использования [Aspose.Cells for Java API](http://goo.gl/c1eSD2) в IntelliJ IDEA вам нужно иметь подключение к Интернету.
 
-Затем выполните следующие действия:
+Затем следуйте указанным ниже шагам:
 
- \1. Выбирать**Новый проект**.
- \2. Выбирать**Aspose.Cells Maven Проект** 
- \3. Нажмите**Следующий**. 
+\1. Выберите **Новый проект**.
+\2. Выберите **Aspose.Cells Maven Project** 
+\3. Нажмите **Далее**. 
 
-![дело:изображение_альтернативный_текст](m1du9a1.jpg)
-
-
- \4. Обеспечить**идентификатор группы, идентификатор артефакта** и**Версия** для вашего проекта maven и нажмите**Следующий.**
-
-![дело:изображение_альтернативный_текст](khijrce.jpg)
+![todo:image_alt_text](m1du9a1.jpg)
 
 
-`    `Вы можете установить флажок «Также загрузить исходный код примеров», чтобы загрузить образцы примеров использования API (как показано на снимке выше)
+\4. Укажите **GroupId, ArtifactId** и **Version** для вашего проекта Maven и нажмите **Далее**.
 
- \6. Обеспечить**название проекта** и**Место расположения**как и при создании любого приложения Java
-
-![дело:изображение_альтернативный_текст](0gszuiu.jpg)
+![todo:image_alt_text](khijrce.jpg)
 
 
- \7. Нажмите**Заканчивать**.
- `    `Это позволит получить[Aspose.Cells for Java API](http://goo.gl/c1eSD2) последняя ссылка на зависимость maven из репозитория Aspose Cloud Maven и настроить ее в pom.xml
- `     `Если вы установили флажок "Также загружать исходный код примеров". Загрузка примеров также начнется с[Aspose.Cells for Java API Репозиторий GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
+` `Вы можете выбрать флажок "Также загрузить примеры использования API", чтобы загрузить образцы использования API (как показано на снимке экрана выше)
 
-![дело:изображение_альтернативный_текст](eezoq3s.jpg)
+\6. Укажите **Название проекта** и **Местоположение**, как при создании любого Java-приложения.
 
-![дело:изображение_альтернативный_текст](bujsm8v.jpg)
-
- `     `Поздравляем!{{< emoticons/cross >}} Вы успешно создали проект Aspose.Cells Maven для использования[Aspose.Cells for Java API](http://goo.gl/c1eSD2).
-
-![дело:изображение_альтернативный_текст](2oon4vh.jpg)
-
-`      `Созданный проект Aspose.Cells for Java API Maven готов к изменению в соответствии с требованиями вашего проекта.
-
- `      `Если вы решили скачать[Примеры исходных кодов](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples), вы можете использовать мастер примеров Aspose.Cells для копирования/создания загруженных примеров в ваш проект.
-### **Aspose.Cells Мастер примеров**
- Создать / скопировать[ Примеры исходных кодов](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) в проект с помощью**Aspose.Cells Мастер примеров**вам необходимо сначала загрузить примеры, выбрав «Также загрузить исходный код примеров» в Aspose.Cells Maven Project Wizard.
-
-Затем выполните следующие шаги в IntelliJ IDEA:
-
- \1. Выбирать**Файл** => **Новый -** Как показано ниже:
-
-![дело:изображение_альтернативный_текст](n8tt9q0.jpg)
+![todo:image_alt_text](0gszuiu.jpg)
 
 
- `    `-ИЛИ-**Щелкните правой кнопкой мыши** (в окне проекта) =>**Новый** - Как показано ниже:
+\7. Нажмите **Завершить**.
+` `Это позволит получить последнюю ссылку на зависимость Maven [Aspose.Cells for Java API](http://goo.gl/c1eSD2) из репозитория Aspose Cloud Maven и настроить ее в pom.xml
+` `Если вы выбрали флажок "Также загрузить примеры исходного кода", загрузка примеров также начнется из репозитория API GitHub [Aspose.Cells for Java](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
 
-![дело:изображение_альтернативный_текст](aubwkhp.jpg)
+![todo:image_alt_text](eezoq3s.jpg)
 
+![todo:image_alt_text](bujsm8v.jpg)
 
- \2. Выбирать**Aspose.Cells Пример** Опция из меню – как показано ниже:
+`     `Congratulations ! {{< emoticons/cross >}} You have successfully created Aspose.Cells Maven project for using [Aspose.Cells for Java API](http://goo.gl/c1eSD2).
 
-![дело:изображение_альтернативный_текст](g4nwlem.jpg)
+![todo:image_alt_text](2oon4vh.jpg)
 
+` `Созданный проект Maven API Aspose.Cells for Java готов к изменению в соответствии с требованиями вашего проекта.
 
-`  `Мастер обновит / проверит наличие последних доступных[Aspose.Cells for Java API Примеры](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) 
+` `Если вы выбрали загрузку [Исходных кодов примеров](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples), вы можете использовать Мастер примеров Aspose.Cells для копирования/создания скачанных примеров в свой проект.
+### **Мастер примеров Aspose.Cells**
+Чтобы создать/скопировать [Исходные коды примеров] (https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) в проект с помощью **Мастера примеров Aspose.Cells**, вам сначала нужно загрузить примеры, выбрав "Также загрузить исходный код примеров" на Мастере проектов Maven Aspose.Cells.
 
-![дело:изображение_альтернативный_текст](5pzwsuq.jpg)
+Затем следуйте указанным ниже шагам в IntelliJ IDEA:
 
+\1. Выберите **Файл** => **Новый -** Как показано ниже: 
 
-\3. **Aspose.Cells Мастер примеров** появится диалоговое окно, в котором вы можете выбрать любую категорию примеров для создания/копирования примеров в ваш проект
- `    `Выберите любую категорию примеров и нажмите**Создавать**: 
-
-![дело:изображение_альтернативный_текст](bc05c5v.jpg)
-
-
- \5. Это создаст/скопирует выбранные примеры категорий в проект под**com.aspose.cells.examples** упаковка.
- `    `Также все ресурсы, необходимые для выполнения примеров, будут скопированы в**источник/основной/ресурсы** папка - Как показано ниже:
-
-![дело:изображение_альтернативный_текст](jyxdo4d.jpg)
+![todo:image_alt_text](n8tt9q0.jpg)
 
 
+` `-ИЛИ- **Щелкните правой кнопкой мыши** (на окне проекта) => **Новый** - Как показано ниже: 
 
- `       `Поздравляем!{{< emoticons/cross >}}Вы успешно сделали следующее:
+![todo:image_alt_text](aubwkhp.jpg)
 
-`       `1. Вы создали проект Aspose.Cells Maven с помощью Мастера проектов Aspose.Cells Maven.
 
- `       `2. Вы скачали[Aspose.Cells for Java API Примеры Исходные коды](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
+\2. Выберите Пункт **Пример Aspose.Cells** в меню - Как показано ниже: 
 
-`       `3. Вы создали/скопировали исходные коды примеров в свой проект с помощью мастера примеров Aspose.Cells.
+![todo:image_alt_text](g4nwlem.jpg)
+
+
+` `Мастер обновит/проверит последние доступные [Примеры Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) 
+
+![todo:image_alt_text](5pzwsuq.jpg)
+
+
+\3. Диалоговое окно **Мастера примеров Aspose.Cells** появится, где вы можете выбрать любую категорию примеров, чтобы создать/скопировать примеры в свой проект
+` `Выберите любую категорию примеров и нажмите **Создать**: 
+
+![todo:image_alt_text](bc05c5v.jpg)
+
+
+\5. Это создаст/скопирует выбранные примеры из категории в проект в пакет **com.aspose.cells.examples**.
+` `Также будут скопированы любые необходимые ресурсы для выполнения примеров в папку **src/main/resources** - Как показано ниже:
+
+![todo:image_alt_text](jyxdo4d.jpg)
+
+
+
+`       `Congratulations ! {{< emoticons/cross >}} You have successfully done the following:
+
+` `1. Вы создали проект Maven Aspose.Cells с помощью Мастера проектов Maven Aspose.Cells.
+
+`  `2. Вы загрузили [Aspose.Cells for Java Примеры исходного кода API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
+
+`    `3. Вы создали / скопировали примеры исходного кода в свой проект с помощью Мастера примеров Aspose.Cells.

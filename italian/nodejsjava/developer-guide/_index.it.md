@@ -1,8 +1,9 @@
-﻿---
-title: Guida per sviluppatori
+---
+title: Guida dello sviluppatore
 type: docs
 weight: 20
 url: /it/nodejs-java/developer-guide/
-keywords: nodejs, excel, api, develope
-description: Aspose.Cells for Node.js via Java guida per sviluppatori
+keywords: "nodejs, excel, api, developer"
+description: "Aspose.Cells per la guida dello sviluppatore Node.js via Java."
 ---
+

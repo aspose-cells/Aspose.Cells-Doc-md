@@ -1,27 +1,28 @@
-﻿---
-title: ExcelファイルをHTMLにエクスポートする際にテキストを右から左に展開する
+---
+title: Excel ファイルを HTML にエクスポートする際にテキストを右から左に展開
 type: docs
 weight: 820
 url: /ja/java/expanding-text-from-right-to-left-while-exporting-excel-file-to/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells は、Excel ファイルを HTML にエクスポートする際に、右から左へのテキストの展開をサポートするようになりました。この機能は v8.9.0.0 以降に実装されています。ソース Excel ファイルに右から左に展開するテキストが含まれている場合、Aspose.Cells はそれを HTML に正しくエクスポートします。
+Aspose.Cells は、Excel ファイルを HTML にエクスポートする際にテキストを右から左に展開する機能を v8.9.0.0 以降でサポートしています。元の Excel ファイルに右から左に展開するテキストが含まれている場合、Aspose.Cells はそれを適切に HTML にエクスポートします。
 
 {{% /alert %}} 
-## **ExcelファイルをHTMLにエクスポートする際にテキストを右から左に展開する**
-次のサンプル コードは、[サンプルエクセルファイル](5472562.xlsx)このスクリーンショットは、サンプルの Excel が Microsoft Excel 2013 でどのように表示されるかを示しています。
+## **Excel ファイルを HTML にエクスポートする際にテキストを右から左に展開**
+次のサンプルコードは、[サンプル Excel ファイル](5472562.xlsx) を HTML に変換します。このスクリーンショットは、サンプル Excel が Microsoft Excel 2013 でどのように見えるかを示しています。
 
-![todo:画像_代替_文章](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_1.png)
+![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_1.png)
 
-このスクリーンショットは、[古いバージョンで生成された出力 HTML](5472570).
+このスクリーンショットは、古いバージョンで生成された[出力 HTML](5472570)を示しています。
 
-![todo:画像_代替_文章](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_2.png)
+![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_2.png)
 
-このスクリーンショットは、[新しいバージョンで生成された出力 HTML](5472563).
+このスクリーンショットは、新しいバージョンで生成された[出力 HTML](5472563)を示しています。
 
-![todo:画像_代替_文章](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_3.png)
+![todo:image_alt_text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_3.png)
 
-スクリーンショットでわかるように、新しいバージョンでは、右揃えのテキストが Microsoft Excel のように正しく左に展開されます。
+スクリーンショットに示されるように、新しいバージョンでは右寄せされたテキストを Microsoft Excel と同様に適切に左に展開します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-ExpandTextFromRightToLeftWhileExportingExcelFileToHTML-.java" >}}

@@ -1,19 +1,20 @@
 ---
-title: GridWeb'in OnAjaxCallFinishedClientFunction'ını Kullanma
+title: GridWeb in OnAjaxCallFinishedClientFunction ını Kullanma
 type: docs
 weight: 20
 url: /tr/java/using-onajaxcallfinishedclientfunction-of-gridweb/
 ---
-##  **Olası Kullanım Senaryoları**
-OnAjaxCallFinishedClientFunction, kullanıcı bazı verileri GridWeb çalışma sayfasına kopyaladığında çağrılan istemci tarafı bir işlevdir. Bu işlev, çok sayıda hücre güncellendiğinde ve istemci tarafında (ör. FireFox, Google Chrome vb. gibi web tarayıcılarında) güncellenen hücrelerin takibini yapmak istediğinizde faydalıdır.
-##  **GridWeb'in OnAjaxCallFinishedClientFunction'ını Kullanma**
-Aşağıdaki örnek kod, OnAjaxCallFinishedClientFunction istemci işlevinin nasıl kullanılacağını açıklamaktadır. Ekran görüntüleri, kod yürütüldüğünde Google Chrome ve FireFox'taki konsol çıktısını gösteriyor. Kodu çalıştırdıktan sonra, lütfen GridWeb çalışma sayfasının içindeki birden fazla hücreye yayılan bazı verileri kopyalayıp yapıştırın ve ardından ekran görüntülerinde gösterildiği gibi Web Tarayıcı Konsolunu kontrol edin.
-##  **Google Krom Konsol Çıkışı**
-![yapılacak şey:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-##  **FireFox Konsol Çıkışı**
-![yapılacak şey:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
-##  **Basit kod**
-{{< highlight "java" >}}
+
+## **Olası Kullanım Senaryoları**
+OnAjaxCallFinishedClientFunction, kullanıcı GridWeb çalışma sayfasına veri kopyaladığında çağrılan bir client side fonksiyonudur. Bu fonksiyon, birden fazla hücre güncellendiğinde ve bu güncellenen hücrelerin izinini web tarayıcılarında (FireFox, Google Chrome vb.) tutmak istediğinizde (yani client side'da) faydalıdır.
+## **GridWeb'in OnAjaxCallFinishedClientFunction'ını Kullanma**
+Aşağıdaki örnek kod, OnAjaxCallFinishedClientFunction client fonksiyonundan nasıl yararlanılacağını açıklar. Ekran görüntüleri, kodun çalıştırıldığında Google Chrome ve FireFox'ta konsol çıktısını göstermektedir. Kodu çalıştırdıktan sonra, lütfen GridWeb çalışma sayfasında birden fazla hücreyi kapsayan bazı verileri kopyalayıp yapıştırın ve ardından ekran görüntülerinde gösterildiği gibi Web Tarayıcı Konsolunu kontrol edin.
+## **Google Chrome Konsol Çıktısı**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
+## **FireFox Konsolu Çıktısı**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
+## **Örnek Kod**
+{{< highlight java >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
 

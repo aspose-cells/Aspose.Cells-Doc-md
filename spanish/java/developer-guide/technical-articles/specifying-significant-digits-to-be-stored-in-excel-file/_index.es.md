@@ -1,18 +1,19 @@
-﻿---
-title: Especificación de dígitos significativos que se almacenarán en un archivo de Excel
+---
+title: Especificar dígitos significativos que se almacenarán en el archivo de Excel
 type: docs
 weight: 20
 url: /es/java/specifying-significant-digits-to-be-stored-in-excel-file/
 ---
-## **Posibles escenarios de uso**
 
-De forma predeterminada, Aspose.Cells almacena 17 dígitos significativos de valores dobles en hojas de cálculo, a diferencia de la aplicación Excel, que almacena solo 15 dígitos significativos. Puede cambiar el comportamiento predeterminado de Aspose.Cells para este caso, es decir; puede cambiar el número de dígitos significativos de 17 a 15 mientras usa el[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)propiedad.
+## **Escenarios de uso posibles**
 
-## **Especificación de dígitos significativos que se almacenarán en un archivo de Excel**
+De forma predeterminada, Aspose.Cells almacena 17 dígitos significativos de valores dobles en hojas de cálculo, a diferencia de la aplicación Excel que almacena solo 15 dígitos significativos. Puede cambiar el comportamiento predeterminado de Aspose.Cells para este caso, es decir; puede cambiar el número de dígitos significativos de 17 a 15 mientras utiliza la propiedad [**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits).
 
- El siguiente código de muestra exige que Aspose.Cells use 15 dígitos significativos mientras almacena valores dobles dentro del archivo de Excel. Por favor, checa el[archivo de salida de Excel](23166982.xlsx) . Cambie su extensión a .zip y descomprímalo y verá que solo se almacenan 15 dígitos significativos dentro del archivo de Excel. La siguiente captura de pantalla explica el efecto de[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)propiedad en el archivo de salida de Excel.
+## **Especificar dígitos significativos que se almacenarán en el archivo de Excel**
 
-![todo:imagen_alternativa_texto](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
+El siguiente código de ejemplo obliga a Aspose.Cells a utilizar 15 dígitos significativos al almacenar valores dobles dentro del archivo de Excel. Consulte el [archivo de Excel de salida](23166982.xlsx). Cambie su extensión a .zip y descomprímalo, y verá que dentro del archivo de Excel solo se almacenan 15 dígitos significativos. La siguiente captura de pantalla explica el efecto de la propiedad [**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits) en el archivo de Excel de salida.
+
+![todo:image_alt_text](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
 
 ## **Código de muestra**
 

@@ -1,11 +1,12 @@
-﻿---
-title: Información del Producto
+---
+title: Información del producto
 type: docs
 weight: 10
 url: /es/sharepoint/product-information/
 ---
-###### **Esta sección incluye los siguientes temas:**
-- [Descripción del producto](/cells/es/sharepoint/product-overview/)
+
+###### **Esta sección incluye los siguientes temas:** 
+- [Visión general del producto](/cells/es/sharepoint/product-overview/)
 - [Formatos de archivo admitidos](/cells/es/sharepoint/supported-file-formats/)
 - [Características](/cells/es/sharepoint/features/)
 - [Requisitos del sistema](/cells/es/sharepoint/system-requirements/)

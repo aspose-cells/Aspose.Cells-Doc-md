@@ -1,15 +1,16 @@
-﻿---
-title: Geteilte Fenster in Apache POI und Aspose.Cells
+---
+title: Bereiche in Apache POI und Aspose.Cells aufteilen
 type: docs
 weight: 70
 url: /de/java/split-panes-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Geteilte Scheiben**
-Aspose.Cells stellt eine Klasse Workbook bereit, die eine Microsoft Excel-Datei darstellt. Die Workbook-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Excel-Dateien. Um geteilte Ansichten zu implementieren, verwenden Sie die Split-Methode der Worksheet-Klasse. Um geteilte Bereiche zu entfernen, verwenden Sie die Methode removeSplit.
+
+## **Aspose.Cells - Panes aufteilen**
+Aspose.Cells bietet eine Klasse, Workbook, die eine Microsoft Excel-Datei repräsentiert. Die Workbook-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung von Excel-Dateien. Verwenden Sie die split-Methode der Worksheet-Klasse, um Splitansichten zu implementieren. Verwenden Sie die removeSplit-Methode, um Splitbereiche zu entfernen.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook / Open a template file
 
@@ -24,12 +25,12 @@ book.getWorksheets().get(0).setActiveCell("A20");
 book.getWorksheets().get(0).split();
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF & XSSF - Geteilte Fenster**
-Die Split Panes-Funktionalität kann durch die createSplitPane-Methode erreicht werden, während Apache POI SS (HSSF & XSSF) API verwendet wird
+## **Apache POI SS - HSSF & XSSF - Bereiche aufteilen**
+Die Split-Bereiche-Funktionalität kann durch die Methode createSplitPane unter Verwendung der Apache POI SS (HSSF & XSSF) API erreicht werden.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();
 
@@ -40,13 +41,13 @@ Sheet sheet = wb.createSheet("new sheet");
 sheet.createSplitPane(2000, 2000, 0, 0, Sheet.PANE_LOWER_LEFT);
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/splitpanes)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Geteilte Scheiben](http://docs.aspose.com:8082/docs/display/cellsjava/Split+Panes).
+Für weitere Details besuchen Sie [Split-Panes](http://docs.aspose.com:8082/docs/display/cellsjava/Split+Panes).
 
 {{% /alert %}}

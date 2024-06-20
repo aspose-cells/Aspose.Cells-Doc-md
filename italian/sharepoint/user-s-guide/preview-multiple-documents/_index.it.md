@@ -1,25 +1,26 @@
-﻿---
+---
 title: Anteprima di più documenti
 type: docs
 weight: 40
 url: /it/sharepoint/preview-multiple-documents/
 ---
- È possibile visualizzare in anteprima più documenti Excel nella raccolta documenti.
 
- Per visualizzare in anteprima tutti i file in una cartella:
+È possibile visualizzare l'anteprima di più documenti Excel nella libreria documenti. 
 
-1.  Selezionare**Anteprima documento con Aspose.Cells** nell'ECB per la cartella desiderata rimanendo nel genitore.
+Per visualizzare tutti i file in una cartella: 
 
-Per visualizzare in anteprima più file all'interno di una cartella:
+1. Seleziona **Anteprima documento con Aspose.Cells** nel ECB della cartella desiderata rimanendo nel genitore.
+
+Per visualizzare più file da dentro una cartella:
 
 1. Seleziona più file.
-1.  Con i file ancora selezionati, selezionare**Anteprima documento con Aspose.Cells**.
+1. Con i file ancora selezionati, seleziona **Anteprima documento con Aspose.Cells**.
 
 **Anteprima del documento da SharePoint** 
 
-![cose da fare:immagine_alt_testo](preview-multiple-documents_1.png)
+![todo:image_alt_text](preview-multiple-documents_1.png)
 
-Quando visualizzi l'anteprima di più documenti, l'area dati mostra il primo documento nell'elenco. L'elenco dei documenti mostra tutti i documenti visualizzati in anteprima. Per visualizzare un altro documento:
+Quando si stanno visualizzando diversi documenti, l'area dati mostra il primo documento nella lista. L'elenco dei documenti mostra tutti i documenti visualizzati. Per visualizzare un altro documento:
 
-1. Seleziona un documento nell'elenco.
-1.  Clic**Anteprima**.
+1. Seleziona un documento dall'elenco.
+1. Fai clic su **Anteprima**.

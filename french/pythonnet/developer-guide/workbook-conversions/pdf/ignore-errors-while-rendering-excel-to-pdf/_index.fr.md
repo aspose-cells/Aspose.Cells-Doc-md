@@ -1,21 +1,22 @@
 ---
-title: Ignorer les erreurs lors du rendu d'Excel vers PDF
+title: Ignorer les erreurs lors de la conversion Excel en PDF
 type: docs
 weight: 80
 url: /fr/python-net/ignore-errors-while-rendering-excel-to-pdf/
-description: Découvrez comment ignorer les erreurs lors du rendu d'Excel au format PDF avec Aspose.Cells for Python via .NET API.
-keywords: Python Ignore Errors while Rendering Excel to PDF, Ignore Errors while saving Excel to PDF using Python, Python Ignore Errors while converting Excel to PDF, Ignore Errors for Excel to PDF in python
+description: Apprenez comment ignorer les erreurs lors du rendu d Excel en PDF avec Aspose.Cells pour Python via .NET API.
+keywords: Ignorer les erreurs Python lors du rendu d Excel en PDF, Ignorer les erreurs lors de l enregistrement d Excel en PDF en utilisant Python, Ignorer les erreurs Python lors de la conversion d Excel en PDF, Ignorer les erreurs pour Excel en PDF en python
 ---
-##  **Scénarios d'utilisation possibles**
 
- Parfois, lorsque vous convertissez votre fichier Excel en PDF, des erreurs ou des exceptions se produisent et le processus de conversion se termine. Vous pouvez ignorer toutes ces erreurs pendant le processus de conversion en utilisant le[**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/)propriété. De cette façon, le processus de conversion se terminera sans problème sans générer d'erreur ou d'exception, mais une perte de données peut survenir. Par conséquent, veuillez utiliser cette propriété uniquement si la perte de données n'est pas critique pour vous.
+## **Scénarios d'utilisation possibles**
 
-##  **Ignorer les erreurs lors du rendu d'Excel vers PDF**
+Parfois, lors de la conversion de votre fichier Excel en PDF, des erreurs ou des exceptions se produisent et le processus de conversion s'arrête. Vous pouvez ignorer toutes ces erreurs pendant le processus de conversion en utilisant la propriété [**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/). De cette façon, le processus de conversion se terminera sans problème sans générer d'erreur ou d'exception, mais une perte de données peut se produire. Par conséquent, veuillez utiliser cette propriété uniquement si la perte de données n'est pas critique pour vous.
 
- Le code suivant charge le[exemple de fichier Excel](55541778.xlsx) mais l'exemple de fichier Excel est erroné et génère une erreur lors[conversion en PDF](55541779.pdf) en 17.11 mais puisque nous utilisons[**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/)propriété, cela ne génère pas d’erreur. Cependant, un*forme de flèche rouge arrondie*comme le montre cette capture d'écran est perdu.
+## **Ignorer les erreurs lors du rendu Excel vers PDF**
 
-![tâche : image_alt_text](ignore-errors-while-rendering-excel-to-pdf_1.png)
+Le code suivant charge le fichier Excel d'exemple mais le fichier Excel d'exemple est erroné et génère une erreur lors de la conversion en PDF en 17.11 mais puisque nous utilisons la propriété [**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/), cela ne génère pas d'erreur. Cependant, une forme de flèche rouge arrondie comme indiqué dans cette capture d'écran est perdue.
 
-##  **Exemple de code**
+![todo:image_alt_text](ignore-errors-while-rendering-excel-to-pdf_1.png)
+
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-IgnoreErrorsWhileRenderingExcelToPdf.py" >}}

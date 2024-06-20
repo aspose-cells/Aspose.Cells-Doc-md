@@ -1,9 +1,10 @@
-﻿---
-title: مقدمة في PHP
+---
+title: المقدمة في PHP
 type: docs
 weight: 10
 url: /ar/java/introduction-in-php/
 ---
+
 **يتضمن هذا القسم المواضيع التالية:**
 
-- [Hello World](/cells/ar/java/hello-world/)
+- [مرحباً بالعالم](/cells/ar/java/hello-world/)

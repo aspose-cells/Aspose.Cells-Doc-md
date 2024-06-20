@@ -1,15 +1,16 @@
-﻿---
-title: Excel を PDF にレンダリングしながらタイムラインを描画する
+---
+title: ExcelをPDFにレンダリングする際のタイムラインの描画
 type: docs
 weight: 60
 url: /ja/net/draw-timeline-while-rendering-excel-to-pdf/
-description: Aspose.Cells で Excel ファイルのタイムラインを管理します。
-keywords: Rendering timeline to pdf without office 2013, office 2016, office 2019 and office 365
+description: Aspose.CellsでExcelファイルのタイムラインを管理する
+keywords: Office 2013、Office 2016、Office 2019、Office 365を使用せずに、タイムラインをPDFにレンダリング
 ---
-## **Excel を PDF にレンダリングしながらタイムラインを描画する**
-タイムラインが適用された Excel ファイルがあり、タイムライン設定を使用して Excel を PDF にエクスポートする場合、Aspose.Cells がデフォルトでこれをサポートするようになりました。タイムラインを含む Excel ファイルを PDF にエクスポートするだけで、生成された PDF にタイムラインが適用されていることが示されます。
 
-次のサンプル コードは、[サンプル Excel ファイル](input.xlsx)既存のタイムラインが含まれています。次に、ワークブックを次のように保存します[出力 PDF ファイル](out.pdf).次のスクリーンショットは、ソース Excel ファイルと生成された PDF ファイルを比較しています。
+## **ExcelをPDFにレンダリングする際のタイムラインの描画**
+タイムラインが適用されたExcelファイルがあり、そのタイムライン設定を含めてExcelをPDFにエクスポートしたい場合、Aspose.Cellsはこれをデフォルトでサポートします。タイムライン付きのExcelファイルを単純にPDFにエクスポートすると、生成されたPDFには適用されたタイムラインが表示されます。
+
+以下のサンプルコードは、既存のタイムラインを含む[サンプルExcelファイル](input.xlsx)をロードします。その後、ワークブックを[出力PDFファイル](out.pdf)として保存します。以下のスクリーンショットは、ソースのExcelファイルと生成されたPDFファイルを比較したものです。
 
 <img src="out.png" width="60%">
 

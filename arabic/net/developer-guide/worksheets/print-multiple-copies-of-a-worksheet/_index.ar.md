@@ -1,15 +1,16 @@
 ---
-title: اطبع عدة نسخ من ورقة العمل
+title: طباعة نسخ متعددة من ورقة العمل
 type: docs
 weight: 170
 url: /ar/net/print-multiple-copies-of-a-worksheet/
-description: توضح هذه المقالة كيفية استخدام مكتبة C# و .NET API لطباعة نسخ متعددة من ورقة عمل Excel برمجيًا.
-keywords: print multiple excel copies c#, print worksheets c#
+description: يوضح هذا المقال كيفية استخدام مكتبة C# و واجهة برمجة التطبيقات .NET لطباعة نسخ متعددة من ورقة العمل في Excel برمجياً.
+keywords: طباعة نسخ متعددة من Excel باستخدام C#، طباعة ورقات العمل باستخدام C#
 ---
-##  **اطبع عدة نسخ من ورقة العمل**
 
- يوفر Aspose.Cells القدرة على طباعة نسخ متعددة من ورقة العمل باستخدام امتداد[**SheetRender.ToPrinter (PrintSettings * PrinterSettings *)**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toprinter)طريقة. يوضح مقتطف الشفرة التالي استخدام[**SheetRender.ToPrinter (PrintSettings * PrinterSettings *)**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toprinter) طريقة لطباعة نسخ متعددة من ورقة العمل. يستخدم مقتطف الكود التالي هذا[نموذج ملف اكسل](95584275.xlsx).
+## **طباعة عدة نسخ من ورقة العمل**
 
-###  عينة من الرموز
+توفر Aspose.Cells القدرة على طباعة نسخ متعددة من ورقة العمل باستخدام طريقة [**SheetRender.ToPrinter(PrintSettings *PrinterSettings*)**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toprinter). يوضح المقطع البرمجي التالي استخدام طريقة [**SheetRender.ToPrinter(PrintSettings *PrinterSettings*)**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toprinter) لطباعة نسخ متعددة من ورقة العمل. يستخدم المقطع البرمجي التالي هذا [ملف إكسل نموذجي](95584275.xlsx).
+
+### مثال على الكود
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PrintSheetWithAdditionalSettings-1.cs" >}}

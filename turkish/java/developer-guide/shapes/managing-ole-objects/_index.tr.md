@@ -1,56 +1,57 @@
-﻿---
-title: OLE Nesnelerini Yönetme
+---
+title: OLE Nesneleri Yönetme
 type: docs
 weight: 30
 url: /tr/java/managing-ole-objects/
 ---
+
 ## **Giriş**
 
-OLE (Object Linking and Embedding), Microsoft'in bir bileşik belge teknolojisi çerçevesidir. Kısaca, bir bileşik belge, her türlü görsel ve bilgi nesnesini içerebilen bir ekran masaüstü gibi bir şeydir: metin, takvimler, animasyonlar, ses, hareketli video, 3B, sürekli güncellenen haberler, kontroller vb. Her masaüstü nesnesi, bir kullanıcıyla etkileşime girebilen ve ayrıca masaüstündeki diğer nesnelerle iletişim kurabilen bağımsız bir program varlığıdır.
+OLE (Object Linking and Embedding), Microsoft'un bileşik bir belge teknolojisi için çerçevesidir. Kısaca, bileşik bir belge türü her türlü görsel ve bilgi nesnesini içerebilen bir masaüstü görüntüsü gibidir: metin, takvimler, animasyonlar, ses, hareketli video, 3D, sürekli güncellenen haberler, kontroller vb. Her masaüstü nesnesi, bir kullanıcıyla etkileşime girebilir ve aynı zamanda masaüstünde bulunan diğer nesnelerle iletişim kurabilir.
 
- OLE (Object Linking and Embedding) birçok farklı program tarafından desteklenir ve bir programda oluşturulan içeriğin başka bir programda kullanılabilir olmasını sağlamak için kullanılır. Örneğin, bir Microsoft Word belgesini Microsoft Excel'e ekleyebilirsiniz. Ne tür içerik ekleyebileceğinizi görmek için tıklayın**Nesne** üzerinde**Sokmak** Menü. Yalnızca bilgisayarda yüklü olan ve OLE nesnelerini destekleyen programlar görüntülenir.**Nesne türü** Kutu.
+OLE (Object Linking and Embedding), birçok farklı programa destek sağlar ve bir programda oluşturulan içeriğin başka bir programa kullanılmasını sağlar. Örneğin, bir Microsoft Word belgesini Microsoft Excel'e ekleyebilirsiniz. Ekleyebileceğiniz içerik türlerini görmek için **Ekle** menüsünde **Nesne**'ye tıklayın. Bilgisayara yüklü olan ve OLE nesneleri destekleyen yalnızca programlar **Nesne türü** kutusunda görünür.
 
-## **OLE Nesnelerini Çalışma Sayfasına Ekleme**
+## **Bir Çalışma Sayfasına OLE Nesneleri Ekleme**
 
-Aspose.Cells, çalışma sayfalarına OLE nesneleri eklemeyi, ayıklamayı ve değiştirmeyi destekler. Bu nedenle Aspose.Cells,[**OleNesne Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/OleObjectCollection)toplama listesine yeni bir OLE Nesnesi eklemek için kullanılan sınıf. Başka bir sınıf,[**Ole nesnesi**](https://reference.aspose.com/cells/java/com.aspose.cells/OleObject), bir OLE Nesnesini temsil eder. Bazı önemli üyeleri vardır:
+Aspose.Cells, çalışma sayfalarındaki OLE nesnelerini eklemeyi, çıkarmayı ve manipüle etmeyi destekler. Bu nedenle, Aspose.Cells'in [**OleObjectCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/OleObjectCollection) sınıfını kullanarak koleksiyon listesine yeni bir OLE Nesnesi eklemek için kullanılır. Başka bir sınıf olan [**OleObject**](https://reference.aspose.com/cells/java/com.aspose.cells/OleObject), bir OLE Nesnesini temsil eder. Bu sınıfın bazı önemli üyeleri vardır:
 
-- [**Görüntü Verileri**](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#ImageData)bayt dizisi türündeki görüntü (simge) verilerini belirtir. Görüntü, çalışma sayfasında OLE Nesnesini göstermek için görüntülenecektir.
-- [**Nesne Verileri**](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#ObjectData)nesne verilerini bir bayt dizisi biçiminde belirtir. OLE Object ikonuna çift tıkladığınızda bu veriler ilgili programda gösterilecektir.
+- [**ImageData**](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#ImageData), bayt dizisi türünde resmi (ikon) verisini belirtir. Resim, çalışma sayfasındaki OLE Nesnesini göstermek için kullanılacaktır.
+- [**ObjectData**](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#ObjectData), bir bayt dizisi şeklinde nesne verisini belirtir. Bu veri, OLE Nesnesi simgesine çift tıkladığınızda ilgili programda gösterilecektir.
 
-Aşağıdaki örnek, bir OLE Nesnesinin çalışma sayfasına nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir OLE Nesnesini çalışma sayfasına nasıl ekleyeceğinizi göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-ole-InsertingOLEObjects-1.java" >}}
 
-## **Çalışma Kitabındaki OLE Nesnelerini Çıkarma**
+## **Çalışsayan Elemanlar'ın Çalışsayan Elemanları Çıkarma**
 
-Aşağıdaki örnek, bir Çalışma Kitabında OLE Nesnelerinin nasıl ayıklanacağını gösterir. Örnek, mevcut bir XLS dosyasından farklı OLE nesneleri alır ve OLE nesnesinin dosya biçimi türüne göre farklı dosyaları (DOC, XLS, PPT, PDF, vb.) kaydeder.
+Aşağıdaki örnek, bir çalışma kitabından çalışsayan elemanları çıkarmayı göstermektedir. Örnek, mevcut bir XLS dosyasından farklı çalışsayan elemanlar alır ve farklı dosyalar (DOC, XLS, PPT, PDF vb.) çalışsayan elemanın dosya biçim türüne dayalı olarak kaydeder.
 
-İşte şablon XLS dosyasının ekran görüntüsü, ilk çalışma sayfasına katıştırılmış farklı OLE Nesneleri var.
+İşte şablon XLS dosyasının ekran görüntüsü, ilk çalışma sayfasına gömülü farklı OLE Nesnelerine sahiptir.
 
-**Şablon dosyası dört OLE nesnesi içerir** 
+**Şablon dosya dört OLE nesnesini içerir** 
 
-![yapılacaklar:resim_alternatif_metin](managing-ole-objects_1.png)
+![todo:image_alt_text](managing-ole-objects_1.png)
 
-Kodu çalıştırdıktan sonra, ilgili OLE Nesneleri biçim türlerine göre farklı dosyaları kaydedebiliriz. Oluşturulan dosyalardan bazıları için ekran görüntüleri aşağıdadır.
+Kodu çalıştırdıktan sonra, ilgili OLE Nesneler biçim türlerine göre farklı dosyaları kaydedebiliriz. Oluşturulan bazı dosyaların ekran görüntüleri aşağıda verilmiştir.
 
-**Ayıklanan XLS dosyası** 
+**Çıkarılan XLS dosyası** 
 
-![yapılacaklar:resim_alternatif_metin](managing-ole-objects_2.png)
+![todo:image_alt_text](managing-ole-objects_2.png)
 
 **Çıkarılan PPT dosyası** 
 
-![yapılacaklar:resim_alternatif_metin](managing-ole-objects_3.png)
+![todo:image_alt_text](managing-ole-objects_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-ole-ExtractingOLEObjects-1.java" >}}
 
-## **Katıştırılmış MOL Dosyasını Çıkarma**
+## **Gömülü MOL Dosyasının Çıkarılması**
 
-Aspose.Cells, MOL (atomlar ve bağlar hakkında bilgi içeren moleküler veri dosyası) gibi alışılmadık türdeki nesnelerin çıkarılmasını destekler. Aşağıdaki kod parçacığı, gömülü MOL dosyasının çıkarılmasını ve bunu kullanarak diske kaydetmeyi gösterir.[örnek excel dosyası](EmbeddedMolSample.xlsx).
+Aspose.Cells, MOL (Atomlar ve bağlar hakkında bilgi içeren moleküler veri dosyası) gibi yaygın olmayan tipteki nesneleri çıkarmayı destekler. Aşağıdaki kod parçacığı, gömülü MOL dosyasını çıkarmayı ve onu diske kaydetmeyi göstermektedir [örnek excel dosyasını kullanarak](EmbeddedMolSample.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-ExtractEmbeddedMolFile-1.java" >}}
 
-## **ileri konular**
-- [Bağlantılı Ole Nesnesinin Görüntü Etiketine Erişin ve Değiştirin](/cells/tr/java/access-and-modify-the-display-label-of-the-linked-ole-object/)
-- [Aspose.Cells kullanarak Microsoft Excel aracılığıyla OLE nesnesini otomatik olarak yenile](/cells/tr/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
-- [OLE Nesnelerini Çalışma Kitabından Çıkarın](/cells/tr/java/extract-ole-objects-from-workbook/)
-- [Katıştırılmış OLE Nesnesinin Sınıf Tanımlayıcısını Alın veya Ayarlayın](/cells/tr/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+## **Gelişmiş Konular**
+- [Bağlı Ole Nesnesinin Görüntü Etiketini Erişme ve Değiştirme](/cells/tr/java/access-and-modify-the-display-label-of-the-linked-ole-object/)
+- [Microsoft Excel kullanarak Aspose.Cells ile Çalışmayan Elemanı Otomatik Yenileme](/cells/tr/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)
+- [Çalışma Kitabından Çalışmayan Elemanları Çıkarma](/cells/tr/java/extract-ole-objects-from-workbook/)
+- [Gömülü Çalışmayan Elemanın Sınıf Tanımlayıcısını Al veya Ayarla](/cells/tr/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)

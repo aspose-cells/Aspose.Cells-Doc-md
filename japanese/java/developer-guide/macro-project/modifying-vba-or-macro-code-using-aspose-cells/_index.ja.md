@@ -1,24 +1,25 @@
-﻿---
-title: Aspose.Cells を使用して VBA またはマクロ コードを変更する
+---
+title: Aspose.Cellsを使用してVBAまたはマクロコードを修正する
 type: docs
 weight: 90
 url: /ja/java/modifying-vba-or-macro-code-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells を使用して VBA またはマクロ コードを変更できます。
+Aspose.Cellsを使用してVBAまたはマクロコードを修正できます。Aspose.CellsはExcelファイル内のVBAプロジェクトを読み取り、修正するための次のクラスを追加しました。
 
 - VbaProject
 - VbaModuleCollection
-- Vbaモジュール
+- VbaModule
 
-この記事では、Aspose.Cells を使用して、ソース Excel ファイル内の VBA またはマクロ コードを変更する方法について説明します。
+この記事では、Aspose.Cellsを使用してソースExcelファイル内のVBAまたはマクロコードを変更する方法を説明します。
 
 {{% /alert %}} 
 ## **例**
-次のサンプル コードは、次の VBA またはマクロ コードを含むソース Excel ファイルを読み込みます。
+次のサンプルコードは、次のようなVBAまたはマクロコードが含まれているソースExcelファイルをロードします。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -28,9 +29,9 @@ End Sub
 
 {{< /highlight >}}
 
-Aspose.Cells サンプルコードを実行すると、VBA またはマクロコードは次のように変更されます。
+Aspose.Cellsのサンプルコードの実行後、VBAまたはマクロコードは次のように変更されます。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -40,7 +41,7 @@ End Sub
 
 {{< /highlight >}}
 
-ダウンロードできます[ソースの Excel ファイル](5472596.xlsm)そしてその[出力エクセルファイル](5472597.xlsm)指定されたリンクから。
+ソースExcelファイルと出力Excelファイルを[こちらのリンク](5472596.xlsm)からダウンロードできます。
 
 
 

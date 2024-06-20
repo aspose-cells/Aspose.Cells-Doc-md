@@ -1,34 +1,35 @@
 ---
-title: تأمين PDF الوثائق
+title: مستندات PDF الآمنة
 type: docs
 weight: 260
 url: /ar/java/secure-pdf-documents/
-description: تأمين ملفات PDF أثناء التحويل من ملفات Excel. توضح هذه المقالة إنشاء ملف PDF آمن من Excel باستخدام Aspose.Cells for Java API.
-keywords: secure pdf documents java, secure pdf documents, excel to secure pdf, excel to secure pdf java, convert excel to secure pdf, convert excel to secure pdf java, convert excel to password protected pdf, convert excel to password protected pdf java, excel to password protected pdf java, excel to password protected pdf
+description: حماية ملفات PDF أثناء التحويل من ملفات Excel. يوضح هذا المقال كيفية إنشاء ملف PDF آمن من Excel باستخدام API Aspose.Cells for Java.
+keywords: مستندات PDF آمنة في جافا، مستندات PDF آمنة، Excel إلى PDF آمن، Excel إلى PDF آمن في جافا، تحويل Excel إلى PDF آمن، تحويل Excel إلى PDF آمن في جافا، تحويل Excel إلى PDF محمي بكلمة مرور، تحويل Excel إلى PDF محمي بكلمة مرور في جافا، Excel إلى PDF محمي بكلمة مرور في جافا، Excel إلى PDF محمي بكلمة مرور
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان، يحتاج المطورون إلى العمل مع الملفات المشفرة PDF. على سبيل المثال:
+في بعض الأحيان، يحتاج المطورون إلى العمل مع ملفات PDF المُشفرة. على سبيل المثال:
 
-- قم بتأمين المستندات باستخدام كلمات مرور المالك والمستخدم حتى لا يتمكن أي شخص من فتحها.
-- قم بتعيين القيود أو الأذونات للمستند بعد فتح المستند. على سبيل المثال، تقييد ما إذا كان يمكن طباعة محتوى المستند أو استخراجه.
+- تأمين المستندات بكلمات مرور للمالك والمستخدم حتى لا يمكن لأي شخص فتحه.
+- تعيين قيود أو أذونات للمستند بعد فتحه، على سبيل المثال: تقييد ما إذا كان بإمكان محتوى المستند أن يُطبع أو يستخرج.
 
-تشرح هذه المقالة كيفية تمرير خيارات الأمان PDF عند حفظ جداول البيانات إلى PDF.
+يشرح هذا المقال كيفية تمرير خيارات أمان PDF عند حفظ الجداول الإلكترونية إلى PDF.
 
 {{% /alert %}}
 
- Aspose.Cells يوفر[**خيارات PDF الأمنية**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions/)للعمل مع الأمن. يمكنك تعيين كلمات مرور المالك والمستخدم أثناء الحفظ في PDF. ستكون كلمة مرور المالك أو كلمة مرور المستخدم مطلوبة لفتح مستند PDF المشفر للعرض.
+توفر Aspose.Cells [**PdfSecurityOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions/) للعمل مع الأمان. يمكنك تعيين كلمات مرور للمالك والمستخدم أثناء الحفظ إلى PDF. ستكون كلمة المرور للمالك أو كلمة المرور للمستخدم مطلوبة لفتح المستند PDF المُشفر للعرض.
 
-- يمكن أن تكون كلمة مرور المستخدم فارغة أو سلسلة فارغة، وفي هذه الحالة لن تكون كلمة المرور مطلوبة من المستخدم عند فتح مستند PDF.
-- يتيح فتح المستند PDF باستخدام كلمة مرور المالك الصحيحة الوصول الكامل (دون تحديد أي قيود وصول) إلى المستند.
-- فتح مستند PDF بكلمة مرور المستخدم الصحيحة (أو فتح مستند لا يحتوي على كلمة مرور مستخدم) يسمح بوصول محدود حسب الأذونات المحددة.
+- يمكن أن تكون كلمة المرور للمستخدم فارغة أو سلسلة فارغة، في هذه الحالة لن يكون هناك حاجة إلى كلمة مرور من المستخدم عند فتح مستند PDF.
+- فتح مستند PDF بكلمة مرور المالك الصحيحة يسمح بالوصول الكامل (دون تحديد أي قيود وصول) إلى المستند.
+- فتح مستند PDF بكلمة مرور المستخدم الصحيحة (أو فتح مستند لا يحتوي على كلمة مرور للمستخدم) يسمح بوصول محدود حيث تم تحديد الأذونات.
 
-يصف نموذج التعليمات البرمجية أدناه كيفية إنشاء ملفات PDF آمنة مع Aspose.Cells for Java API.
+يصف الكود العيني أدناه كيفية إنشاء ملفات PDF مؤمنة باستخدام API Aspose.Cells for Java.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SecurePDFDocuments-SecurePDFDocuments.java" >}}
 
 {{% alert color="primary" %}}
 
- إذا كان جدول البيانات يحتوي على صيغ، فمن الأفضل الاتصال به[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()مباشرة قبل تقديمه إلى PDF. وهذا يضمن إعادة حساب القيم التابعة للصيغة، وتقديم القيم الصحيحة في PDF.
+إذا كانت جدول البيانات يحتوي على صيغ، فمن الأفضل استدعاء [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) مباشرة قبل عرضه إلى PDF. يضمن هذا إعادة حساب القيم التي تعتمد على الصيغ، وعرض القيم الصحيحة في ملف PDF.
 
 {{% /alert %}}

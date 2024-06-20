@@ -1,15 +1,16 @@
-﻿---
-title: Jython'da Excel'den PDF'ye Dönüştürme
+---
+title: Jython da Excel den Pdf e Dönüştürme
 type: docs
 weight: 50
 url: /tr/java/excel-to-pdf-conversion-in-jython/
 ---
-## **Aspose.Cells - Excel'den Pdf'ye Dönüştürme**
- Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
+
+## **Aspose.Cells - Excel'den Pdf'e Dönüştürme**
+**Aspose.Cells Java for Jython** ile belgeler eklemek için. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -47,6 +48,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belgeleri Ekleyin (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Append Documents (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/Excel2PdfConversion.py)

@@ -1,61 +1,62 @@
-﻿---
-title: Bir Çalışma Kitabında Çalışma Sayfasını Biçimlendir Cells
+---
+title: Bir Çalışma Kitabında Elektronik Tablo Hücrelerini Biçimlendirme
 type: docs
 weight: 140
 url: /tr/java/format-worksheet-cells-in-a-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Bu makale şunların nasıl yapılacağını gösterir:
+Bu makalede, şunları gösterecektir:
 
-1. Verileri hızla biçimlendirmek için stilleri kullanın.
-1. Satır ve sütunlardaki hücreleri biçimlendirin.
-1. Verileri vurgulamak için kenarlıklar ve renkler kullanın.
-1. Verileri vurgulamak için sayı biçimlerini uygulayın.
-1. Verileri vurgulamak için yazı tiplerini ve nitelikleri kullanın.
-1. Verileri adlandırılmış bir aralıkta biçimlendirin.
-1. Veri hizalamasını ve yönünü değiştirin.
+1. Verileri hızlı bir şekilde biçimlendirmek için stilleri kullanma.
+1. Satır ve sütunlardaki hücreleri biçimlendirme.
+1. Verileri vurgulamak için sınırlar ve renkler kullanma.
+1. Verileri vurgulamak için sayı biçimleri uygulama.
+1. Verileri vurgulamak için fontları ve özellikleri kullanın.
+1. Adlandırılmış bir aralıktaki verileri biçimlendirin.
+1. Veri hizalamasını ve yönlendirmesini değiştirin.
 1. Satır yüksekliğini ve sütun genişliğini ayarlayın.
 
-Örnek proje, tüm bu görevleri yerine getirir ve geliştiricilere, Aspose.Cells for Java kullanarak bir çalışma kitabının nasıl oluşturulacağına, içine veri ekleneceğine ve biçimlendirmenin nasıl uygulanacağına ilişkin ayrıntılı bir açıklama sağlar.
+Örnek proje, tüm bu görevleri yerine getirir ve geliştiricilere bir çalışma kitabı oluşturmanın, veri eklemenin ve Aspose.Cells for Java kullanarak biçimlendirme uygulamanın ayrıntılı bir açıklamasını sağlar.
 
 {{% /alert %}}
 
 ## **Veri Biçimlendirme**
 
-Biçimlendirme, farklı bilgi türleri arasında ayrım yapmak ve verileri net bir şekilde görüntülemek için kullanılır.
+Biçimlendirme, farklı bilgi türleri arasında ayrım yapmak ve veriyi açıkça göstermek için kullanılır.
 
-Biçim, stili temsil eder ve yazı tipleri ve yazı tipi boyutları, sayı biçimleri, hücre sınırları, hücre gölgelendirme, girinti, hizalama ve metin yönü gibi bir dizi özellik olarak tanımlanır. Kenarlıklar, bilgileri vurgulamak için daha fazla yol sağlar. Kenarlık, bir hücrenin veya bir hücre grubunun etrafına çizilen bir çizgidir.
+Bir biçim, bir stil temsil eder ve fontlar, font boyutları, numara biçimleri, hücre kenarları, hücre gölgelendirmesi, girinti, hizalama ve metin yönlendirmesi gibi özelliklerden oluşan bir dizi olarak tanımlanır. Kenarlar, bilgiyi vurgulamanın daha fazla yolunu sağlar. Bir kenar, bir hücrenin veya bir hücre grubunun etrafına çizilen bir çizgidir.
 
-Sayı biçimleri de verileri daha anlamlı hale getirir. Farklı sayı biçimleri uygulayarak, görünümün arkasındaki sayıyı değiştirmeden sayıların görünümünü değiştirebilirsiniz.
+Numara biçimleri de veriyi daha anlamlı hale getirir. Farklı numara biçimleri uygulayarak, görünümü değiştirebilirsiniz ancak sayıyı değiştirmemiş olursunuz.
 
-Aspose.Cells, hızlı ve kolay bir şekilde hücre ve aralık sınırları çizmenizi sağlar. Ayrıca yazı tiplerini ve gölge hücrelerini uygulamanıza da olanak tanır. Bileşen, tam bir satırı veya sütunu biçimlendirmenize, hizalamaları ayarlamanıza, hücrelerdeki metni sarmanıza ve döndürmenize yetecek kadar verimlidir. Aspose.Cells, Microsoft Excel tarafından desteklenen tüm sayı biçimlerini de destekler.
+Aspose.Cells, hücre ve aralık sınırlarını hızlı ve kolay bir şekilde çizmenize olanak tanır. Ayrıca fontları uygulamanıza ve hücreleri gölgelendirmenize izin verir. Bileşen, bir satır veya sütunu biçimlendirmek, hizalamak, metinleri sarmak ve döndürmek için yeterince verimlidir. Aspose.Cells ayrıca Microsoft Excel tarafından desteklenen tüm sayı biçimlerini destekler.
 
-Bu makale yıllık satış raporunun nasıl oluşturulacağını gösterir. Çalışma kitabı sıfırdan oluşturulur, ardından veriler eklenir ve çalışma sayfası biçimlendirilir. Bir Excel çalışma kitabı oluşturan (bir şablon dosyası da kullanabilirsiniz) basit bir konsol uygulamasının nasıl oluşturulacağını, satış verilerini ilk çalışma sayfasına nasıl ekleyeceğinizi, verileri biçimlendireceğinizi ve bir Excel dosyasını kaydedeceğinizi gösteriyoruz.
+Bu makale, yıllık bir satış raporu oluşturmayı göstermektedir. Çalışma kitabı sıfırdan oluşturulur, ardından veri eklenir ve çalışma sayfası biçimlendirilir. Bir Excel çalışma kitabı oluşturan basit bir konsol uygulaması nasıl oluşturulur, ilk çalışma sayfasına satış verileri nasıl eklenir, veri biçimlendirilir ve bir Excel dosyası nasıl kaydedilir gösteriyoruz.
 
-### **İşlem**
+### **Süreç**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DataFormatting-DataFormatting.java" >}}
 
 ### **Sonuç**
 
-Yukarıdaki kodu çalıştırdıktan sonra, Satış Raporu adlı yeni, biçimlendirilmiş bir çalışma sayfasıyla bir Microsoft Excel dosyası oluşturulur.
+Yukarıdaki kodu çalıştırdıktan sonra, yeni biçimlendirilmiş bir çalışma sayfası olan bir Microsoft Excel dosyası oluşturulur.
 
-**çıktı dosyası**
+**Çıkış dosyası**
 
-![yapılacaklar:resim_alternatif_metin](format-worksheet-cells-in-a-workbook_1.png)
+![todo:image_alt_text](format-worksheet-cells-in-a-workbook_1.png)
 
 ## **Özet**
 
 {{% alert color="primary" %}}
 
-Çalışma sayfası veri biçimlendirmesi önemlidir çünkü verilerin nasıl göründüğü anlamını değiştirebilir. Çalışma sayfalarını yazdırmayı, müşterilere e-postayla göndermeyi veya yönetime göstermeyi planlıyorsanız, biçimlendirmenin görüntüleyici dostu olup olmadığını düşünün.
-Renk, gölgeleme, kenarlıklar, yazı tipleri, sayı biçimlendirme, hizalama, girinti ve yönün dikkatli kullanımı, dağınık bir veri küresi ile üzerinde çalışılması ve anlaşılması kolay bir çalışma sayfası arasındaki farkı yaratabilir.
+Çalışma sayfası veri biçimlendirmesi önemlidir çünkü verinin nasıl göründüğü, anlamını değiştirebilir. Çalışma sayfalarını yazdırmayı, müşterilere e-posta göndermeyi veya yönetim tarafından görüntülenmesini planlıyorsanız, biçimlendirmenin izleyici dostu olup olmadığını düşünün.
+Renk, gölgelendirme, sınırlar, fontlar, sayı biçimleri, hizalama, girinti ve yönlendirme konusunda dikkatli kullanım, düzensiz veri yığını ile kolay çalışılabilir ve anlaşılabilir bir çalışma sayfası arasındaki farkı yaratabilir.
 
-Bu makaleler, bir çalışma sayfasındaki farklı hücrelerde bulunan verilerin Aspose.Cells ile nasıl biçimlendirileceğini gösterdi. Umarız, örneği kendi senaryolarınızda kullanabilirsiniz.
+Bu makale, Aspose.Cells ile çalışma sayfasındaki farklı hücrelerde yer alan verileri nasıl biçimlendireceğinizi göstermiştir. Umarım örneği kendi senaryolarınızda kullanabilirsiniz.
 
-Aspose.Cells, diğer çözümlerden daha fazla esneklik sunar ve olağanüstü hız, verimlilik ve güvenilirlik sağlar. Aspose.Cells, yıllarca süren araştırma, tasarım ve dikkatli ayarlamadan yararlanır.
+Aspose.Cells, diğer çözümlere göre daha esneklik sunar ve üstün hız, verimlilik ve güvenilirlik sağlar. Aspose.Cells, yılların araştırması, tasarımı ve dikkatli ayarlamalarından faydalanır.
 
- Soru, görüş ve önerilerinizi şu adrese bekliyoruz:[Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Hızlı yanıt garantisi veriyoruz.
+[Aspose.Cells Forum](https://forum.aspose.com/c/cells/9) adresindeki sorularınızı, yorumlarınızı ve önerilerinizi bekliyoruz. Hızlı bir yanıt garantisi veriyoruz.
 
 {{% /alert %}}

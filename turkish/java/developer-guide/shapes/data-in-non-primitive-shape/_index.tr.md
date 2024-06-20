@@ -1,23 +1,24 @@
-﻿---
-title: İlkel Olmayan Şekildeki Veriler
+---
+title: Non Primitive Şekildeki Veri
 type: docs
 weight: 500
 url: /tr/java/data-in-non-primitive-shape/
 ---
-## **İlkel Olmayan Şekildeki Verilere Erişme**
 
-Bazen yerleşik olmayan bir şekildeki verilere erişmeniz gerekir. Yerleşik şekillere ilkel şekiller denir; olmayanlara ilkel olmayan denir. Örneğin, farklı eğri bağlantılı çizgiler kullanarak kendi şekillerinizi tanımlayabilirsiniz.
+## **Basit olmayan Şeklin Verilerine Erişmek**
 
-## **İlkel Olmayan Bir Şekil**
+Bazı durumlarda, yerleşik olmayan bir şekilden veriye erişmeniz gerekebilir. Yerleşik şekiller basit şekiller olarak adlandırılırken, diğerleri basit olmayan şekiller olarak adlandırılır. Örneğin, farklı eğri bağlantılı çizgiler kullanarak kendi şekillerinizi tanımlayabilirsiniz.
 
-Aspose.Cells'de, ilkel olmayan şekillere şu tür atanır:[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . kullanarak türlerini kontrol edebilirsiniz.[**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)yöntem.
+## **Basit Olmayan Bir Şekil**
 
- kullanarak şekil verilerine erişin.[**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)yöntem. İlkel olmayan şekli oluşturan tüm bağlı yolları döndürür. Bu yollar, sırayla her parçadaki noktaları içeren tüm bölümlerin bir listesini tutan ShapePath türündedir.
+Aspose.Cells'de basit olmayan şekiller [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) türüne atanır. Bunların türünü [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType) yöntemi kullanarak kontrol edebilirsiniz.
 
-Aşağıdaki kod parçacığı, kullanımını gösterir[**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)ilkel olmayan şeklin yol bilgisine erişme yöntemi.
+Şekil verilerine [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths) yöntemini kullanarak erişin. Bu, basit olmayan şekli oluşturan tüm bağlantılı yolları döndürür. Bu yollar, her bir segmentteki noktaları içeren bir liste tutan ShapePath türündedir.
 
-**İlkel olmayan bir şekle örnek gösterir** 
+Aşağıdaki kod örneği, basit olmayan şeklin yol bilgilerine erişmek için [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths) yönteminin kullanımını göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](data-in-non-primitive-shape_1.jpg)
+**Basit olmayan bir şeklin örneğini gösterir** 
+
+![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-NonPrimitiveShape-1.java" >}}

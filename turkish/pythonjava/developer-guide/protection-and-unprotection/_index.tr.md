@@ -1,21 +1,23 @@
-﻿---
-title: Koru ve Korumayı Kaldır
+---
+title: Korumayı Tanımla ve Kaldır
 linktitle: Koruma
 type: docs
 weight: 40
 url: /tr/python-java/protect-and-unprotect/
-description: Bu pasaj, excel dosyalarının nasıl şifreleneceğini ve şifresinin çözüleceğini, excel dosyalarındaki verilerin python kodlarını kullanarak nasıl korunacağını ve korumasının nasıl kaldırılacağını tanıtır.
+description: Bu kesit, excel dosyalarını şifrelemeyi ve şifresini çözmeyi, python kodlarını kullanarak excel dosyalarındaki verileri korumayı ve korumasını kaldırmayı tanıtır.
 ---
+
+
 {{% alert color="primary" %}}
-Aspose.Cells for Python, MS Excel gibi dosyadan veri düzeyine kadar geniş bir yelpazede koruma ve koruma kaldırma sunar:
+Python için Aspose.Cells, MS Excel gibi dosya düzeyinde geniş bir koruma ve korumasızlık sunar:
 {{% /alert %}}
 
 
-## [**Excel dosyalarını şifreleyin ve şifresini çözün**](/cells/tr/python-java/encrypt-and-decrypt-excel-files/)
-Başkalarının Excel dosyalarındaki verilere erişmesini engellemek için Excel dosyasını bir parola ile koruyun.
+## [**Encrypt and decrypt Excel files**](/cells/tr/python-java/encrypt-and-decrypt-excel-files/)
+Excel dosyalarındaki verilere başkalarının erişmesini engellemek için Excel dosyasını bir şifre ile koruyun.
 
-## [**Çalışma kitabını koruma ve korumayı kaldırma**](/cells/tr/python-java/protect-and-unprotect-workbook-structure/)
-Diğer kullanıcıların gizli çalışma sayfalarını görüntülemesini, çalışma sayfalarını eklemesini, taşımasını, silmesini veya gizlemesini ve çalışma sayfalarını yeniden adlandırmasını engellemek için, Excel çalışma kitabınızın yapısını bir parola ile koruyabilirsiniz.
+## [**Protect and unprotect workbook**](/cells/tr/python-java/protect-and-unprotect-workbook-structure/)
+Diğer kullanıcıların gizli çalışma sayfalarını görüntülemesini, çalışma sayfalarını ekleme, taşıma, silme veya gizleme işlemlerini yapmalarını engellemek ve çalışma sayfalarını yeniden adlandırmak için Excel çalışma kitabınızın yapısını bir şifre ile koruyabilirsiniz.
 
-## [**Çalışma sayfasını koruma ve korumayı kaldırma**](/cells/tr/python-java/protect-and-unprotect-worksheet/)
-Diğer kullanıcıların bir çalışma sayfasındaki verileri yanlışlıkla veya kasıtlı olarak değiştirmesini, taşımasını veya silmesini önlemek için, Excel çalışma sayfanızdaki hücreleri kilitleyebilir ve ardından sayfayı bir parola ile koruyabilirsiniz.
+## [**Protect and unprotect worksheet**](/cells/tr/python-java/protect-and-unprotect-worksheet/)
+Excel çalışma sayfanızdaki verilerin yanlışlıkla veya kasıtlı olarak değişmesini, taşınmasını veya silinmesini engellemek için hücreleri kilitleyebilir ve sayfayı bir şifre ile koruyabilirsiniz. 

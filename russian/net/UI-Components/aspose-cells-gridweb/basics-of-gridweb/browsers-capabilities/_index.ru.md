@@ -1,41 +1,44 @@
-﻿---
+---
 title: Возможности браузеров
 type: docs
 weight: 10
-url: /ru/net/browsers-capabilities/
+url: /ru/net/aspose-cells-gridweb/browsers-capabilities/
+keywords: GridWeb,возможности браузера,возможность
+description: Эта статья представляет возможности браузера для GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb — это веб-элемент управления на основе графического интерфейса, который можно встраивать в веб-формы ASP.NET, как и другие веб-элементы управления, предоставляемые платформой Microsoft .NET. Самая важная вещь в веб-элементе управления — обеспечение кросс-браузерной поддержки. Aspose.Cells.GridWeb обеспечивает кроссбраузерную поддержку.
+Aspose.Cells.GridWeb - это веб-контроль с графическим интерфейсом пользователя, который может быть встроен в веб-формы ASP.NET, как и другие веб-контроли, предоставляемые Microsoft .NET Framework. Самое важное в веб-контроле - это обеспечение поддержки различных браузеров. Aspose.Cells.GridWeb обеспечивает поддержку кросс-браузерной совместимости.
 
 {{% /alert %}} 
 ## **Сравнение**
-Aspose.Cells.GridWeb построен с использованием Microsoft .NET Framework, поэтому он полностью поддерживается в Internet Explorer (IE) Microsoft. Однако в других браузерах он имеет небольшие ограничения. В этом разделе представлено подробное сравнение функций, поддерживаемых различными браузерами.
+Aspose.Cells.GridWeb создан с использованием Microsoft .NET Framework, поэтому он полностью поддерживается в Microsoft Internet Explorer (IE). Однако в других браузерах у него есть небольшие ограничения. Эта тема предоставляет подробное сравнение поддерживаемых функций в разных браузерах.
 
-|**Функции на стороне клиента** |**Microsoft Internet Explorer** |**Google Хром** |**Мозилла Фаерфокс** |**Опера** |
-|:- |:- |:- |:- |:- |
-| Контекстное меню Cell|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Проверка на стороне клиента|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Событие двойного щелчка|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Выпадающий список (*Режим со списком* ) |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Выпадающий список (*Режим всплывающего меню* ) |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Ввод/редактирование формулы|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Заморозить или разморозить строки/столбцы|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Гиперссылки (*Режим CellCommand* ) |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Гиперссылки (*Режим URL* ) |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Объединить или разъединить Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Несколько Cells Копировать/Вставить|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Множественный ввод/редактирование Cells, одиночная обратная передача|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Формат номера|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Пейджинг листа|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Только для чтения Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Строки/столбцы только для чтения|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Проверка данных с использованием регулярных выражений|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Изменить ширину столбца|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Изменить высоту строки|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Вставка/удаление строк и столбцов|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Прокрутить содержимое|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Вкладки листа прокрутки|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Установить границы Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Установите настройки шрифта Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Функции на стороне клиента** |**Microsoft Internet Explorer** |**Google Chrome** |**Mozilla Firefox** |**Opera** |
+| :- | :- | :- | :- | :- |
+|Контекстное меню ячейки |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Проверка на стороне клиента|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Событие двойного щелчка|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|DropDownList ( *Режим выпадающего списка* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|DropDownList ( *Режим всплывающего меню* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ввод/редактирование формулы|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Замораживание или размораживание строк/столбцов|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Гиперссылки ( *Режим команды ячейки* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Гиперссылки ( *Режим URL* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Объединение или разъединение ячеек|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Копирование/вставка нескольких ячеек|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ввод/редактирование нескольких ячеек, один POST-запрос|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Формат числа|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Листовая навигация|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Только для чтения ячейки|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Только для чтения строк/столбцов|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Проверка данных с использованием регулярных выражений|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Изменение ширины столбца|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Изменение высоты строки|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Вставка/удаление строк и столбцов|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Прокрутка содержимого|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Прокручивать вкладки листов |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Установить границы ячеек |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Настроить шрифт ячеек |{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 

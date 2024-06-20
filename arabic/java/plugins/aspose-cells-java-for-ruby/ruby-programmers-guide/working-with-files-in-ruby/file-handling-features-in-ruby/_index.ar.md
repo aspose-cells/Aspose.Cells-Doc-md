@@ -1,9 +1,10 @@
-﻿---
-title: ميزات معالجة الملفات في Ruby
+---
+title: ميزات التعامل مع الملفات في روبي
 type: docs
 weight: 10
 url: /ar/java/file-handling-features-in-ruby/
 ---
+
 **يتضمن هذا القسم المواضيع التالية:**
 
 - [فتح الملفات في روبي](/cells/ar/java/opening-files-in-ruby/)

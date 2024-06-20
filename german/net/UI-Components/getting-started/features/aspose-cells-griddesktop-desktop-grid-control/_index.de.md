@@ -1,51 +1,54 @@
-﻿---
-title: Aspose.Cells.GridDesktop - Desktop-Rastersteuerung
+---
+title: Aspose.Cells.GridDesktop  Desktop Grid Control
 type: docs
 weight: 30
-url: /de/net/aspose-cells-griddesktop-desktop-grid-control/
+url: /de/net/aspose-cells-griddesktop/features/
+keywords: GridDesktop,features,feature
+description: Dieser Artikel führt Funktionen für GridDesktop ein.
 ---
-## **Aspose.Cells.GridDesktop – Desktop-Rastersteuerung**
+
+## **Aspose.Cells.GridDesktop – Desktop Grid Control**
 ### **Import-/Exportfunktionen**
-- Importieren Sie Inhalte aus Excel-Tabellen.
-- Importieren Sie Daten direkt aus einem DataTable-Objekt.
-- Exportieren Sie Inhalte in Excel-Tabellen.
+- Inhalte aus Excel-Tabellen importieren.
+- Daten direkt aus einem DataTable-Objekt importieren.
+- Inhalte in Excel-Tabellen exportieren.
 ### **Arbeitsblattfunktionen**
 - Arbeitsblätter hinzufügen, einfügen oder entfernen.
-- Arbeitsblätter umbenennen.
+- Umbenennen von Arbeitsblättern.
 - Arbeitsblattdaten sortieren.
 ### **Zeilen- und Spaltenfunktionen**
 - Zeilen und Spalten hinzufügen, einfügen oder entfernen.
-- Zeilen und Spalten ein- oder ausblenden.
-- Zeilen und Spalten einfrieren oder freigeben.
-### **Cell Eigenschaften**
-- Unterstützt Zahlenformateinstellungen.
-- Steuern Sie die Textausrichtung.
-- Verwalten Sie die Rahmeneinstellungen.
-- Steuern Sie die Schriftarteinstellungen.
-- Zellen verbinden oder teilen.
+- Blenden Sie Zeilen und Spalten ein oder aus.
+- Zeilen und Spalten fixieren oder lösen.
+### **Zellenfunktionen**
+- Unterstützt Einstellungen für Zahlenformat.
+- Steuern der Textausrichtung.
+- Verwalten der Rahmen-Einstellungen.
+- Steuern Sie die Schriftarteneinstellungen.
+- Zellen zusammenführen oder teilen.
 ### **Formatierungsfunktionen**
-- Steuern Sie das Verhalten, Aussehen und Verhalten des Rasters.
-- Wenden Sie den Stil und die Schriftart einer fokussierten Zelle mit dem Format übertragen auf andere Zellen an.
-- Bearbeiten Sie Daten und Zellstile einfach.
-### **Utility-Funktionen**
+- Steuern Sie das Verhalten, das Aussehen und das Gefühl des Rasters.
+- wenden Sie den Stil und die Schriftart einer fokussierten Zelle mit dem Format-Pinsel auf andere Zellen an.
+- Daten und Zellstile einfach manipulieren.
+### **Dienstprogrammfunktionen**
 - Zellenkommentare hinzufügen oder entfernen.
 - Bilder einfügen oder entfernen.
 - Hyperlinks hinzufügen oder entfernen.
-- Validierungsregeln hinzufügen oder entfernen.
-- Hinzufügen oder Entfernen von Steuerelementen (wie CheckBox, ComboBox usw.) in Zellen.
+- Gültigkeitsregeln hinzufügen oder entfernen.
+- Steuerelemente (wie Kontrollkästchen, Kombinationsfeld usw.) in Zellen hinzufügen oder entfernen.
 - Tastaturnavigation von Zellen.
 ### **Sicherheitsfunktionen**
 - Schützen Sie Ihre Zellen, indem Sie sie sperren oder verstecken.
 ### **Erweiterte Funktionen**
-- Unterstützt das Erstellen und Berechnen von Formeln.
-- Führen Sie Ihre gewünschten Aktionen unter verschiedenen Grid-Ereignissen durch.
+- Unterstützung bei der Erstellung und Berechnung von Formeln.
+- Führen Sie Ihre gewünschten Aktionen unter verschiedenen Rasterereignissen aus.
 ### **Unterstützte Microsoft Excel-Versionen**
-- MicrosoftExcel 97
-- MicrosoftExcel 2000
+- Microsoft Excel 97
+- Microsoft Excel 2000
 - Microsoft Excel XP
-- MicrosoftExcel 2003
-- MicrosoftExcel 2007
-- MicrosoftExcel 2010
-- MicrosoftExcel 2013
+- Microsoft Excel 2003
+- Microsoft Excel 2007
+- Microsoft Excel 2010
+- Microsoft Excel 2013
 ### **Unterstützte Plattformen**
-- Windows Formulare
+- Windows Forms

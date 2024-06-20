@@ -3,26 +3,27 @@ title: Konvertieren Sie JSON in Excel
 type: docs
 weight: 300
 url: /de/python-net/convert-json-to-excel/
-description: Erfahren Sie, wie Sie JSON mit Aspose.Cells for Python via .NET API in eine Excel-Datei konvertieren.
-keywords: Python Convert json to excel, Convert json to excel Pyton via NET, Export json to excel, Convert json to excel
+description: Erfahren Sie, wie Sie mit der Aspose.Cells für Python via .NET API eine JSON Datei in eine Excel Datei konvertieren.
+keywords: Python JSON in Excel konvertieren, JSON in Excel konvertieren Pyton via NET, Export JSON in Excel, JSON in Excel konvertieren
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET unterstützt die Konvertierung einer Json-Datei (JavaScript Object Notation) in eine Excel-Arbeitsmappe.
+Aspose.Cells für Python via .NET unterstützt die Konvertierung einer Json(Javascript Object Notation)-Datei in ein Excel-Arbeitsblatt.
 
 {{% /alert %}}
 
-##  **Konvertieren Sie JSON in eine Excel-Arbeitsmappe**
-Sie müssen sich nicht fragen, wie man JSON in eine Excel-Datei konvertiert, denn die Bibliothek Aspose.Cells for Python via .NET hat die beste Entscheidung. Aspose.Cells for Python via .NET API bietet Unterstützung für die Konvertierung des JSON-Formats in Tabellenkalkulationen. Sie können verwenden**[JsonLoadOptions](https://reference.aspose.com/cells/python-net/aspose.cells/JsonLoadOptions)** Klasse, um zusätzliche Einstellungen für den Import von JSON in die Arbeitsmappe anzugeben.
+## **Konvertieren Sie JSON in Excel-Arbeitsmappe**
+Machen Sie sich keine Gedanken darüber, wie Sie JSON in eine Excel-Datei konvertieren können, denn die Aspose.Cells for Python via .NET-Bibliothek hat die beste Lösung. Die Aspose.Cells for Python via .NET API bietet Unterstützung für die Konvertierung des JSON-Formats in Tabellenkalkulationen. Sie können die [**JsonLoadOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/JsonLoadOptions)-Klasse verwenden, um zusätzliche Einstellungen für den Import von JSON in das Workbook anzugeben.
 
- Das folgende Codebeispiel veranschaulicht den Import von JSON in eine Excel-Arbeitsmappe. Bitte beachten Sie den zu konvertierenden Code[Quelldatei](sample.json) in die vom Code generierte XLSX-Datei als Referenz.
+Das folgende Codebeispiel zeigt den Import von JSON in eine Excel-Arbeitsmappe. Bitte beachten Sie den Code, um die [Quelldatei](sample.json) in die vom Code generierte xlsx-Datei zu konvertieren.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-to-Excel-New.py" >}}
 
- Das folgende Codebeispiel, das die JsonLoadOptions-Klasse zum Angeben zusätzlicher Einstellungen verwendet, veranschaulicht den Import von JSON in eine Excel-Arbeitsmappe. Bitte beachten Sie den zu konvertierenden Code[Quelldatei](sample.json) auf die vom Code generierte XLSX-Datei als Referenz.
+Das folgende Codebeispiel, das die Klasse JsonLoadOptions verwendet, um zusätzliche Einstellungen festzulegen, zeigt den Import von JSON in Excel-Arbeitsmappe. Bitte sehen Sie sich den Code zur Konvertierung der [Quelldatei](sample.json) in die von dem Code generierte xlsx-Datei als Referenz an.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-to-Excel-New2.py" >}}
 
-Das folgende Codebeispiel veranschaulicht den Import der Zeichenfolge JSON in eine Excel-Arbeitsmappe. Sie können beim Importieren von JSON auch den Speicherort des Layouts angeben. Bitte sehen Sie sich als Referenz den Code zum Konvertieren der Zeichenfolge JSON in die vom Code generierte XLSX-Datei an.
+Das folgende Codebeispiel zeigt, wie ein JSON-String in ein Excel-Arbeitsbuch importiert wird. Bei der Importierung von JSON können Sie auch den Ort des Layouts angeben. Bitte sehen Sie sich den Code an, um den JSON-String in die vom Code generierte xlsx-Datei zu konvertieren.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-String-to-Excel.py" >}}

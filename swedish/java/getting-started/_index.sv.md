@@ -3,51 +3,52 @@ title: Komma igång
 type: docs
 weight: 10
 url: /sv/java/getting-started/
-description: Den här artikeln beskriver hur du laddar ner och installerar aspose samt skapar och kör exempelkoder.
+description: Den här artikeln beskriver hur man laddar ned och installerar Aspose, och skapar och utför exempelkoder.
 ---
+
 {{% alert color="primary" %}} 
 
-Den här sidan visar hur du installerar Aspose Cells for Java och skapar en Hello World-applikation.
+Den här sidan kommer att visa dig hur du installerar Aspose Cells för Java och skapar en Hello World-applikation.
 
 {{% /alert %}}
 
-##  **Systemkrav**
+## **Systemkrav**
 
 Aspose.Cells for Java stöder följande Java-versioner:
 
 - J2SE 6.0 (1.6)
 - J2SE 7.0 (1.7)
-- eller ovanför
+- eller högre
 
-[Fler detaljer](/cells/sv/java/system-requirements/)
+[Mer detaljer](/cells/sv/java/systemkrav/)
 
-##  **Installation**
+## **Installation**
 
-###  **Installera Aspose Cells for Java från Maven Repository**
+### **Installera Aspose Cells för Java från Maven Repository**
 
- Maven är det enklaste sättet att ladda ner och installera Aspose.Cells for Java.
+Maven är det enklaste sättet att ladda ned och installera Aspose.Cells for Java. 
 
-1.  Ange Aspose Maven Lagringskonfiguration/plats i din Maven pom.xml.
- 2. Definiera Aspose.Cells for Java API beroende i din pom.xml.
+1. Ange konfiguration/plats för Aspose Maven Repository i din Maven pom.xml. 
+2. Definiera Aspose.Cells for Java API beroende i din pom.xml. 
 
 [Fler steg för detaljer](/cells/sv/java/installation/)
 
-###  **Installera Aspose Cells for Java manuellt**
+### **Installera Aspose Cells för Java manuellt**
 
-1. [Ladda ner aspose-cells jars](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/) i en mapp.
-1. Gå in i mappen, installera JAR-paketen manuellt med Eclipse eller Intellij.
+1. [Ladda ner aspose-cells-jararna](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/) till en mapp.
+1. Gå till mappen, installera JAR-paketen manuellt med Eclipse eller Intellij.
 
-Installera Aspose Cells for Java med Eclipse:
+Installera Aspose Cells för Java med Eclipse:
 
-**![Eclipse install Aspose Cells for Java](Eclipse_install.png)**
+**![Eclipse installera Aspose Cells för Java](Eclipse_install.png)**
 
-Installera Aspose Cells for Java med Intellij:
+Installera Aspose Cells för Java med Intellij:
 
-**![IntelliJ installation Aspose Cells for Java](IntelliJ_install.png)**
+**![IntelliJ installera Aspose Cells för Java](IntelliJ_install.png)**
 
-##  **Skapar Hello World-applikationen**
+## **Skapa Hello World-applikationen**
 
-Stegen nedan skapar Hello World-applikationen med hjälp av Aspose.Cells API:
+Följande steg skapar Hello World-applikationen med Aspose.Cells API:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelloWorld.java" >}}
 

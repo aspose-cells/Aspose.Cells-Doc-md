@@ -1,23 +1,24 @@
-﻿---
-title: Création d'une plage nommée dans VSTO et Aspose.Cells
+---
+title: Création d une plage nommée dans VSTO et Aspose.Cells
 type: docs
 weight: 90
 url: /fr/net/creating-a-named-range-in-vsto-and-aspose-cells/
 ---
-Pour créer une plage nommée :
 
-1.  Configurez la feuille de calcul :
- 1. Instanciez un objet Application. (VSTO uniquement.)
- 1. Ajoutez un classeur.
- 1. Obtenez la première feuille.
-1.  Créez une plage nommée :
- 1. Définissez une plage.
- 1. Nommez la plage.
- 1. Enregistrez le fichier.
+Pour créer une plage nommée :
 
-Les exemples de code ci-dessous montrent comment effectuer ces étapes en utilisant VSTO avec C#. Les exemples de code qui suivent montrent comment faire la même chose en utilisant Aspose.Cells for .NET, encore une fois avec C#.
+1. Mettez en place la feuille de calcul: 
+   1. Instancier un objet Application. (VSTO uniquement)
+   1. Ajouter un classeur.
+   1. Obtenir la première feuille.
+1. Créer une plage nommée : 
+   1. Définir une plage.
+   1. Nommer la plage.
+   1. Enregistrez le fichier.
+
+Les exemples de code ci-dessous montrent comment réaliser ces étapes en utilisant VSTO avec soit C#. Les exemples de code qui suivent montrent comment faire la même chose en utilisant Aspose.Cells for .NET, encore une fois avec soit C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create Excel Object
 
@@ -63,25 +64,25 @@ xl.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Instanciation d'un objet Workbook
+ //Instantiating a Workbook object
 
-classeur classeur = nouveau classeur();
+Workbook workbook = new Workbook();
 
-//Accéder à la première feuille de calcul du fichier Excel
+//Accessing the first worksheet in the Excel file
 
-Feuille de calcul feuille de calcul = workbook.Worksheets[0] ;
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Création d'une plage nommée
+//Creating a named range
 
-Plage plage = worksheet.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Définition du nom de la plage nommée
+//Setting the name of the named range
 
-range.Name = "Test_Range" ;
+range.Name = "Test_Range";
 
- pour (int ligne = 0; ligne< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 
@@ -101,7 +102,7 @@ workbook.Save("Test_Range.xls");
 
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
-- [GithubGenericName](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/télécharger)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).Zip *: français)
+## **Télécharger le code source d'exemple**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip)

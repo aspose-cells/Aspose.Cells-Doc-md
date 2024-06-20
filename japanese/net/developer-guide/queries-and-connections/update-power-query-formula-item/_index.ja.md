@@ -1,19 +1,20 @@
-﻿---
-title: Power Query 数式項目の更新
+---
+title: Power Query Formulaアイテムの更新
 type: docs
 weight: 120
 url: /ja/net/update-power-query-formula-item/
 ---
-## **利用シーン**
 
-データ ソース ファイルが移動され、Excel ファイルがファイルを見つけられない場合があります。このような場合、Aspose.Cells API は、Power Query Formula 項目を更新するオプションを提供します。[*PowerQueryFormulaItem*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem)クラスを使用して、ソース ファイルの場所を更新します。
+## **使用シナリオ**
 
-## **Power Query 数式項目の更新**
+データソースファイルが移動され、Excelファイルがファイルを見つけることができない場合があります。そのような場合には、[*PowerQueryFormulaItem*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem)クラスを使用して、Power Query Formulaアイテムを更新するオプションがAspose.Cells APIに用意されています。
 
-Aspose.Cells API は、Power Query 数式アイテムを更新する機能を提供します。次のコード スニペットは、Excel ファイル内のデータ ソース ファイルの場所を更新する方法を示しています。[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)財産。参照用に添付されたソース ファイルと出力ファイル。
+## **Power Query Formulaアイテムの更新**
 
-- [ソースファイル 1](106364953.xlsx)
-- [ソースファイル 2](106364954.xlsx)
+Aspose.Cells APIでは、Power Query Formulaアイテムを更新する機能が提供されています。次のコードスニペットは、Excelファイル内のデータソースファイルの場所を[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)プロパティを使用して更新する方法を示しています。参照用に元のファイルと出力ファイルが添付されています。
+
+- [元のファイル 1](106364953.xlsx)
+- [元のファイル 2](106364954.xlsx)
 - [出力ファイル](106364955.xlsx)
 
 ## **サンプルコード**

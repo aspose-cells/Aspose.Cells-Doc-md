@@ -1,23 +1,24 @@
-﻿---
-title: Skapa PdfBookmarkEntry för diagramblad
+---
+title: Skapa PdfBookmarkEntry för diagramkalkylblad
 type: docs
 weight: 50
 url: /sv/net/create-pdfbookmarkentry-for-chart-sheet/
 ---
-## **Möjliga användningsscenarier**
 
-Tidigare skulle Aspose.Cells skapa[**Pdf Bookmark Entry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) för ett vanligt ark. Men nu kan Aspose.Cells också skapa[**Pdf Bookmark Entry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) för diagramblad. Eftersom diagrambladet inte har någon annan cell förutom cell A1, så kommer det att skapas[**Pdf Bookmark Entry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) endast för cell A1.
+## **Möjliga användningsscenario**
+
+Tidigare skulle Aspose.Cells skapa [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) för ett normalt blad. Men nu kan även Aspose.Cells skapa [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) för diagramblad. Eftersom diagrambladet inte har någon annan cell än cell A1, kommer det att skapa [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) endast för cell A1.
 
 ## **Skapa PdfBookmarkEntry för diagramblad**
 
- Följande exempelkod laddar[exempel på Excel-fil](61767756.xlsx) som har fyra ark. Två av dem är normala ark och de andra två är diagramblad. Den skapar fyra bokmärkesposter enligt följande
+Följande exempelkod laddar in [prov Excelfil](61767756.xlsx) som har fyra ark. Två av dem är normala ark och de andra två är diagramark. Den skapar fyra bokmärkesposter enligt följande
 
 - Bokmärke-I
-- Bokmärke-II-diagram1
+- Bokmärke-II-Chart1
 - Bokmärke-III
-- Bokmärke-IV-diagram2
+- Bokmärke-IV-Chart2
 
-Följande skärmdump visar[utgång PDF](61767757.pdf)genereras av exempelkoden för en referens.
+Följande skärmbild visar [utdata PDF](61767757.pdf) genererad av exemplet.
 
 ![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

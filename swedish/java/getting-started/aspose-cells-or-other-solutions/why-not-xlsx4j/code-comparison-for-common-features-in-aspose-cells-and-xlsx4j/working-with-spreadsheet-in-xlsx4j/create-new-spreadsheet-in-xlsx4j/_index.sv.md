@@ -1,15 +1,16 @@
-﻿---
+---
 title: Skapa nytt kalkylblad i xlsx4j
 type: docs
 weight: 30
 url: /sv/java/create-new-spreadsheet-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Skapa nytt kalkylblad**
-Arbetsboksklass är tillgänglig för enkel användning.
+Workbook-klassen finns tillgänglig för enkel användning.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -35,13 +36,13 @@ workbook.save(dataDir + "newWorksheet_Aspose.xls");
 
 {{< /highlight >}}
 ## **xlsx4j - Skapa nytt kalkylblad**
-Nedan exempel visar hur ett nytt kalkylblad kan skapas när du använder xlsx4j.
+Nedanstående exempel visar hur ett nytt kalkylblad kan skapas vid användning av xlsx4j.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "newWorksheet_Xlsx4j.xlsx";
 
@@ -114,7 +115,7 @@ private static Cell createCell(String content) {
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/createnewspreadsheet)

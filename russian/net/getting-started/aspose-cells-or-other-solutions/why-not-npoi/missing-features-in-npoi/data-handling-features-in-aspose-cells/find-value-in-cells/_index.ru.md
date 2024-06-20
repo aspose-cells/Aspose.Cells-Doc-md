@@ -1,15 +1,16 @@
-﻿---
-title: Найти значение в Cells
+---
+title: Найти Значение в Ячейках
 type: docs
 weight: 20
 url: /ru/net/find-value-in-cells/
 ---
-## **Aspose.Cells - Найти значение в Cells**
-В Microsoft Excel пользователи могут искать ячейки, содержащие определенные данные. Например, нажав**Редактировать**а потом**Находить**открывает диалоговое окно поиска. Пользователи вводят значение и нажимают**ХОРОШО**искать его. Excel выделяет совпадающие поля.
+
+## **Aspose.Cells - Найти Значение в Ячейках**
+В Microsoft Excel пользователи могут искать ячейки, содержащие определенные данные. Например, щелкнув **Правка** и затем **Поиск**, открывается диалоговое окно поиска. Пользователь вводит значение и щелкает **OK** для поиска. Excel выделяет соответствующие поля.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -38,13 +39,13 @@ Cell cell = cells.Find("SH", null, findOptions);
 Console.WriteLine("Name of the cell containing String: " + cell.Name);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Найти значение в Cells** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Найти Значение в Ячейках** с любого из упомянутых выше социальных сайтов для кодинга:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Find.Value.In.Cells.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Find.Value.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Поиск или поиск данных](/cells/ru/net/find-or-search-data/).
+Для получения более подробной информации посетите [Найти или Поиск Данных](/cells/ru/net/find-or-search-data/).
 
 {{% /alert %}}

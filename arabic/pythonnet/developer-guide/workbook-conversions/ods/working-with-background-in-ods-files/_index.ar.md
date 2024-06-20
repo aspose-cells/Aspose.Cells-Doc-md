@@ -3,41 +3,46 @@ title: العمل مع الخلفية في ملفات ODS
 type: docs
 weight: 150
 url: /ar/python-net/working-with-background-in-ods-files/
-description: كيفية العمل مع الخلفية في ODS الملفات مع Aspose.Cells for Python via .NET API.
-keywords: Python work with Background in ODS Files, Read Background Information from ODS file Pyton via NET, Add Colored Background to ODS file using Python via NET, Python via NET Add Graphic Background to ODS file.
+description: كيفية العمل مع الخلفية في ملفات ODS باستخدام واجهة برمجة التطبيقات Aspose.Cells for Python via .NET.
+keywords: العمل مع الخلفية في ملفات ODS بواسطة بايثون، قراءة معلومات الخلفية من ملف ODS بايثون via NET، إضافة خلفية ملونة إلى ملف ODS باستخدام بايثون via NET، بايثون via NET إضافة خلفية رسومية إلى ملف ODS.
 ---
-##  **الخلفية في ODS الملفات**
 
-يمكن إضافة الخلفية إلى الأوراق في ملفات ODS. يمكن أن تكون الخلفية إما خلفية ملونة أو خلفية رسومية. الخلفية غير مرئية عند فتح الملف ولكن إذا تمت طباعة الملف كـ PDF، فستكون الخلفية مرئية في PDF الذي تم إنشاؤه. الخلفية مرئية أيضًا في مربع حوار معاينة الطباعة.
+## **الخلفية في ملفات ODS**
 
-Aspose.Cells for Python via .NET يوفر إمكانية قراءة معلومات الخلفية وإضافة الخلفية في ملفات ODS.
+يمكن إضافة خلفية إلى الأوراق في ملفات ODS. يمكن أن تكون الخلفية خلفية ملونة أو خلفية رسومية. الخلفية ليست مرئية عند فتح الملف ولكن إذا تمت طباعة الملف كملف PDF، فإن الخلفية مرئية في الملف PDF الناتج. الخلفية أيضًا مرئية في حوار معاينة الطباعة.
 
-##  **قراءة معلومات الخلفية من ملف ODS**
+تقدم Aspose.Cells for Python via .NET القدرة على قراءة معلومات الخلفية وإضافة الخلفية في ملفات ODS.
 
-Aspose.Cells for Python via .NET يوفر[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) فئة لإدارة الخلفية في ODS الملفات. يوضح نموذج التعليمات البرمجية التالي استخدام[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) الطبقة عن طريق تحميل[المصدر ODS](90112030.ods) ملف وقراءة المعلومات الخلفية. يرجى الاطلاع على مخرجات وحدة التحكم التي تم إنشاؤها بواسطة الكود كمرجع.
+## **قراءة معلومات الخلفية من ملف ODS**
 
-###  **عينة من الرموز**
+Aspose.Cells for Python via .NET يوفر الفئة [**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) لإدارة الخلفية في ملفات ODS. يوضح الكود النموذجي التالي استخدام الفئة [**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) بتحميل ملف ODS المصدر وقراءة معلومات الخلفية. يرجى الاطلاع على ناتج وحدة التحكم الذي يتم إنشاؤه بواسطة الكود للإشارة.
+
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ReadODSBackground-1.py" >}}
 
-###  **إخراج وحدة التحكم**
+### **مخرجات الوحدة**
 
-نوع الخلفية: جرافيك
+{{< highlight java >}}
 
-موضع الخلفية: CenterCenter
+Background Type: Graphic
 
-##  **إضافة خلفية ملونة لملف ODS**
+Backgorund Position: CenterCenter
 
-Aspose.Cells for Python via .NET يوفر[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)فئة لإدارة الخلفية في ODS الملفات. يوضح نموذج التعليمات البرمجية التالي استخدام[**OdsPageBackground.color**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/color/) الخاصية لإضافة خلفية ملونة إلى الملف ODS. الرجاء مراجعة[الإخراج ODS](90112031.ods) الملف الذي تم إنشاؤه بواسطة الكود كمرجع.
+{{< /highlight >}}
 
-###  **عينة من الرموز**
+## **إضافة خلفية ملونة إلى ملف ODS**
+
+Aspose.Cells for Python via .NET يوفر الفئة [**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) لإدارة الخلفية في ملفات ODS. يوضح الكود النموذجي التالي استخدام الخاصية [**OdsPageBackground.color**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/color/) لإضافة خلفية ملونة إلى ملف ODS. يرجى الاطلاع على ملف ODS الناتج الذي أُنشئ بواسطة الكود للإشارة.
+
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-SetODSColoredBackground-1.py" >}}
 
-##  **أضف خلفية رسومية إلى ملف ODS**
+## **إضافة خلفية رسومية إلى ملف ODS**
 
-Aspose.Cells for Python via .NET يوفر[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)فئة لإدارة الخلفية في ODS الملفات. يوضح نموذج التعليمات البرمجية التالي استخدام[**OdsPageBackground.graphic_data**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/graphic_data/)خاصية لإضافة خلفية رسومية إلى الملف ODS. الرجاء مراجعة[الإخراج ODS](90112030.ods)الملف الذي تم إنشاؤه بواسطة الكود كمرجع.
+Aspose.Cells for Python via .NET يوفر الفئة [**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) لإدارة الخلفية في ملفات ODS. يوضح الكود النموذجي التالي استخدام الخاصية [**OdsPageBackground.graphic_data**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/graphic_data/) لإضافة خلفية صورية إلى ملف ODS. يُرجى الاطلاع على ملف ODS الناتج الذي تم إنشاؤه بواسطة الكود للإشارة.
 
-###  **عينة من الرموز**
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-SetODSGraphicBackground-1.py" >}}

@@ -1,24 +1,25 @@
-﻿---
-title: Flytta intervallet Cells i ett kalkylblad
+---
+title: Flytta cellintervall i en arbetsbok
 type: docs
 weight: 370
 url: /sv/java/move-range-of-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Den här artikeln visar hur du flyttar ett cellintervall i ett kalkylblad.
+Den här artikeln visar hur man flyttar ett cellintervall i en arbetsbok.
 
 {{% /alert %}} 
-## **Flytta intervallet Cells i ett kalkylblad**
+## **Flytta cellområde i ett kalkylblad**
 Exempelkoden använder en mallfil för att demonstrera uppgiften.
 
-**Inmatningsfilen** 
+**Ingångsfilen** 
 
 ![todo:image_alt_text](move-range-of-cells-in-a-worksheet_1.png)
 
-Se följande genererade fil med intervall A1:B5 flyttat till C1:D5.
+Se den genererade filen med intervallet A1:B5 flyttat till C1:D5 nedan.
 
-**Utdatafilen** 
+**Utgångsfilen** 
 
 ![todo:image_alt_text](move-range-of-cells-in-a-worksheet_2.png)
 

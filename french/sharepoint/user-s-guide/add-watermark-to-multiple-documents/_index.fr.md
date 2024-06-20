@@ -1,19 +1,20 @@
-﻿---
+---
 title: Ajouter un filigrane à plusieurs documents
 type: docs
 weight: 90
 url: /fr/sharepoint/add-watermark-to-multiple-documents/
 ---
-Si vous souhaitez ajouter un filigrane dans plusieurs fichiers Excel, veuillez choisir l'option "Ajouter un filigrane avec Aspose.Cells" dans la barre de ruban.
 
-![tâche : image_autre_texte](add-watermark-to-multiple-documents_1.png)
+Si vous souhaitez ajouter un filigrane à plusieurs fichiers Excel, veuillez choisir l'option « Ajouter WaterMark avec Aspose.Cells » dans la barre de ruban.
 
-Obtenez tous les fichiers Excel du dossier de source de données et créez un tableau de liste de fichiers.
+![todo:image_alt_text](add-watermark-to-multiple-documents_1.png)
 
- Sélectionnez le fichier qui doit ajouter un filigrane, cliquez sur**Ajouter un filigrane** bouton pour ajouter un filigrane pour les fichiers sélectionnés.
+Obtenez tous les fichiers Excel à partir du dossier source de données et créez une table de liste de fichiers.
 
-![tâche : image_autre_texte](add-watermark-to-multiple-documents_2.png)
+Sélectionnez le fichier auquel vous souhaitez ajouter un filigrane, cliquez sur le bouton **Ajouter un filigrane** pour ajouter un filigrane aux fichiers sélectionnés.
 
-Les options suivantes sont disponibles lors de la configuration de l'ajout d'un filigrane :
+![todo:image_alt_text](add-watermark-to-multiple-documents_2.png)
 
-**Fichier de filigrane (fichier image) :**
+Les options suivantes sont disponibles pendant la configuration de l'ajout de filigrane:
+
+**Fichier filigrane (fichier image):**

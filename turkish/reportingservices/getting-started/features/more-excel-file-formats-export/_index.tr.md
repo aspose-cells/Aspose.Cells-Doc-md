@@ -1,21 +1,22 @@
-﻿---
-title: Daha Fazla Excel Dosya Biçimi Dışa Aktarma
+---
+title: Daha Fazla Excel Dosya Biçimi Dışa Aktarımı
 type: docs
 weight: 10
 url: /tr/reportingservices/more-excel-file-formats-export/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services, yerel Microsoft Excel raporlarını Microsoft SQL Server 2005 ve 2008 Raporlama Hizmetleri aracılığıyla göndermenize olanak tanır. Microsoft Excel tabanlı raporlar için yerleşik oluşturucunun aksine, Aspose.Cells for Reporting Services, RDL raporlarını şu şekilde dönüştüren genişletilmiş bir özellik kümesi sunar: Excel 97-2003 ikili XLS Biçim, CSV, 07619341, excel 2007 071, 07619341, excel 2007 071, 07619341, exccel31, 07619341, excel 2001, HTML ve ODS biçimi.
+Aspose.Cells for Reporting Services, Microsoft SQL Server 2005 ve 2008 Raporlama Hizmetleri üzerinden doğal Microsoft Excel raporları sunmanıza izin verir. Microsoft Excel tabanlı raporlar için yerleşik üreticinin aksine, Aspose.Cells for Reporting Services, RDL raporlarını Excel 97-2003 ikili XLS formatına, CSV, SpreadsheetML, Excel 2007 XLSX, Excel 2007 XLSM, Excel 2007 XLSB, HTML ve ODS formatlarına dönüştüren genişletilmiş bir özellik seti sunar. 
 
 {{% /alert %}} 
 
-Aspose.Cells for Reporting Services, yerel dışa aktarıcılardan daha fazla dosya biçimini destekler. Aşağıda, Aspose.Cells ile dışa aktarılan örnek XLS raporlarından ekran görüntüleri bulunmaktadır.
+Aspose.Cells for Reporting Services, yerleşik dışa aktarıcılardan daha fazla dosya formatını destekler. Aşağıda, Aspose.Cells ile dışa aktarılan örnek XLS raporlarından alınan ekran görüntüleri bulunmaktadır.
 
-**Aspose.Cells for Reporting Services kullanılarak bir Örnek XLS raporu dışa aktarılır** 
+**Örnek bir XLS raporu, Aspose.Cells for Reporting Services kullanılarak dışa aktarılır** 
 
-![yapılacaklar:resim_alternatif_metin](more-excel-file-formats-export_1.png)
+![todo:image_alt_text](more-excel-file-formats-export_1.png)
 
-**Aspose.Cells for Reporting Services kullanılarak bir Örnek Özet Tablo XLS raporu oluşturulur** 
+**Örnek bir Pivet Tablo XLS raporu, Aspose.Cells for Reporting Services kullanılarak oluşturulur** 
 
-![yapılacaklar:resim_alternatif_metin](more-excel-file-formats-export_2.png)
+![todo:image_alt_text](more-excel-file-formats-export_2.png)

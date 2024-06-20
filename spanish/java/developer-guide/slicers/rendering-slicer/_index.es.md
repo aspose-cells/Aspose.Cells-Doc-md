@@ -1,13 +1,14 @@
-﻿---
-title: Cortador de renderizado
+---
+title: Renderizado de Slicer
 type: docs
 weight: 40
 url: /es/java/rendering-slicer/
 ---
-## **Posibles escenarios de uso**
-Aspose.Cells admite la representación de la forma de cortadora. Si convierte su hoja de trabajo en una imagen o guarda su libro de trabajo en los formatos PDF o HTML, verá que las segmentaciones se procesan correctamente.
-## **Cortador de renderizado**
-El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](67338485.xlsx)que contiene una segmentación existente. Convierte la hoja de trabajo en una imagen configurando el área de impresión que cubre solo la segmentación. La imagen que fluye es la[imagen de salida](67338486.png)que muestra la segmentación renderizada. Como puede ver, la segmentación se ha renderizado correctamente y tiene el mismo aspecto que en el archivo de muestra de Excel.
 
-![todo:imagen_alternativa_texto](rendering-slicer_1)
+## **Escenarios de uso posibles**
+Aspose.Cells admite la representación del filtro. Si convierte su hoja de cálculo en una imagen o guarda su libro de trabajo en formatos PDF o HTML, verá que los filtros se representan correctamente.
+## **Renderización de Cortador**
+El siguiente código de ejemplo carga el [archivo de Excel de ejemplo](67338485.xlsx) que contiene un filtro existente. Convierte la hoja de cálculo en una imagen estableciendo el área de impresión que solo cubre el filtro. La imagen resultante es la [imagen de salida](67338486.png) que muestra el filtro representado. Como puede ver, el filtro se ha representado correctamente y se ve igual que en el archivo de Excel de ejemplo.
+
+![todo:image_alt_text](rendering-slicer_1)
 ## **Código de muestra**

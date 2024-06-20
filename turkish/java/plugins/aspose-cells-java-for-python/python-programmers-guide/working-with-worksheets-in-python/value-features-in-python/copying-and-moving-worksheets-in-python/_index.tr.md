@@ -1,16 +1,17 @@
-﻿---
-title: Python'de Çalışma Sayfalarını Kopyalama ve Taşıma
+---
+title: Python da Çalışma Sayfalarını Kopyalama ve Taşıma
 type: docs
 weight: 10
 url: /tr/java/copying-and-moving-worksheets-in-python/
 ---
+
 ## **Aspose.Cells - Çalışma Sayfalarını Kopyalama ve Taşıma**
-### **Çalışma Kitabındaki Çalışma Sayfalarını Kopyalama**
- Çalışma sayfasını kullanarak kopyalamak için**Yakut içinde Aspose.Cells for Java** , Arama**kopya_çalışma sayfası** yöntemi**kopya çalışma sayfaları** modül. Aşağıda kod örneğini görebilirsiniz.
+### **Çalışma Kitabı İçinde Çalışma Sayfalarını Kopyalama**
+**Aspose.Cells for Java in Ruby** kullanarak çalışma sayfasını kopyalamak için **copyworksheets** modülünün **copy_worksheet** yöntemini çağırın. Aşağıda kod örneğini görebilirsiniz.
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def copy_worksheet(self):  
 
@@ -63,6 +64,6 @@ print "Move worksheet, please check the output file."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfalarını Kopyalama ve Taşıma (Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Aspose.Cells** ile Çalıştabilir ve Taşıyabilir Çalışma Sayfalarını İndirin
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

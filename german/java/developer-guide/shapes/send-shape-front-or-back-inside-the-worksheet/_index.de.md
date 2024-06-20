@@ -1,18 +1,19 @@
-﻿---
-title: Senden Sie die Form nach vorne oder hinten in das Arbeitsblatt
+---
+title: Form vorwärts oder rückwärts innerhalb des Arbeitsblatts senden
 type: docs
 weight: 600
 url: /de/java/send-shape-front-or-back-inside-the-worksheet/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn mehrere Formen am selben Ort vorhanden sind, wird ihre Sichtbarkeit durch ihre Positionen in der Z-Reihenfolge bestimmt. Aspose.Cells bietet[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int))-Methode, die die z-Ordnungsposition der Form ändert. Wenn Sie die Form nach hinten senden möchten, verwenden Sie eine negative Zahl wie -1, -2, -3 usw. und wenn Sie die Form nach vorne senden möchten, verwenden Sie eine positive Zahl wie 1, 2, 3, usw.
+## **Mögliche Verwendungsszenarien**
 
-## **Senden Sie die Form nach vorne oder hinten in das Arbeitsblatt**
+Wenn sich mehrere Formen am selben Ort befinden, wird entschieden, wie sie sichtbar sind, durch ihre Z-Order-Positionen. Aspose.Cells bietet die Methode [**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)), die die Z-Order-Position der Form ändert. Wenn Sie die Form nach hinten senden möchten, verwenden Sie eine negative Zahl wie -1, -2, -3 usw. und wenn Sie die Form nach vorne senden möchten, verwenden Sie eine positive Zahl wie 1, 2, 3 usw.
 
-Der folgende Beispielcode erläutert die Verwendung von[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)) Methode. Bitte sehen Sie sich ... an[Beispiel-Excel-Datei](50528362.xlsx)innerhalb des Codes und der verwendet[Excel-Datei ausgeben](50528361.xlsx)dadurch erzeugt. Der Screenshot zeigt die Auswirkung des Codes auf die Beispiel-Excel-Datei bei der Ausführung.
+## **Form nach vorn oder hinten im Arbeitsblatt senden**
 
-![todo: Bild_alt_Text](send-shape-front-or-back-inside-the-worksheet_1.png)
+Der folgende Beispielcode erläutert die Verwendung der Methode [**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#toFrontOrBack(int)). Bitte sehen Sie die [Beispiel-Excel-Datei](50528362.xlsx) im Code und die [Ausgabe-Excel-Datei](50528361.xlsx), die durch sie generiert wird. Der Screenshot zeigt die Auswirkung des Codes auf die Beispiel-Excel-Datei bei seiner Ausführung.
+
+![todo:image_alt_text](send-shape-front-or-back-inside-the-worksheet_1.png)
 
 ## **Beispielcode**
 

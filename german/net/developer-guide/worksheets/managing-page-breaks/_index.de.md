@@ -1,58 +1,59 @@
 ---
-title: Seitenumbrüche verwalten
+title: Verwalten von Seitenumbrüchen
 type: docs
 weight: 30
 url: /de/net/managing-page-breaks/
-description: Dieser Artikel enthält Beispielcode und erläutert, wie Sie mithilfe der Bibliothek C#, API oder .NET programmgesteuert Seitenumbrüche hinzufügen, Seitenumbrüche löschen oder bestimmte Seitenumbrüche in Excel-Arbeitsblättern löschen.
-keywords: page breaks c#, excel page breaks c#, clear page break c#, delete specific page break c#
+description: In diesem Artikel finden Sie Beispielscode und Erläuterungen, wie man Seiteumbrüche in Excel Arbeitsblättern programmgesteuert mit der C# API oder der .NET Bibliothek hinzufügen, löschen oder spezielle Seiteumbrüche entfernen kann.
+keywords: Seiteumbrüche c#, Excel Seiteumbrüche c#, speziellen Seiteumbruch c# löschen, spezieller Seiteumbruch c# löschen
 ---
+
 {{% alert color="primary" %}}
 
-Laut Definition ist ein Seitenumbruch eine Stelle in einem Textfluss, an der eine Seite endet und die nächste beginnt. Microsoft Mit Excel können Benutzer Seitenumbrüche in jede ausgewählte Zelle eines Arbeitsblatts einfügen.
+Nach Definition ist ein Seitenumbruch eine Stelle in einem Textfluss, an der eine Seite endet und die nächste beginnt. Microsoft Excel ermöglicht es Benutzern, Seitenumbrüche in jede ausgewählte Zelle eines Arbeitsblatts einzufügen.
 
-Die Position der Zelle, in der der Seitenumbruch eingefügt wird, die Seite endet und die restlichen Daten nach dem Seitenumbruch beim Drucken auf der nächsten Seite gedruckt werden. Vereinfacht ausgedrückt unterteilen Seitenumbrüche Ihr Arbeitsblatt entsprechend Ihren Vorgaben in mehrere Seiten. Sie können Ihren Arbeitsblättern auch zur Laufzeit Seitenumbrüche hinzufügen, indem Sie Aspose.Cells verwenden. Aspose.Cells ermöglicht Entwicklern das Hinzufügen von zwei Arten von Seitenumbrüchen:
+Der Ort der Zelle, an dem der Seitenumbruch hinzugefügt wird, die Seite endet und der Rest der Daten nach dem Seitenumbruch auf der nächsten Seite gedruckt wird, während des Druckens. Einfach ausgedrückt, teilen Seitenumbrüche Ihr Arbeitsblatt gemäß Ihren Spezifikationen in mehrere Seiten auf. Sie können auch zur Laufzeit Seitenumbrüche zu Ihren Arbeitsblättern mit Aspose.Cells hinzufügen. Aspose.Cells ermöglicht Entwicklern, zwei Arten von Seitenumbrüchen hinzuzufügen:
 
 - Horizontaler Seitenumbruch
 - Vertikaler Seitenumbruch
 
-Im weiteren Verlauf der Diskussion beschreiben wir, wie Sie mit Aspose.Cells horizontale oder vertikale Seitenumbrüche in Ihre Arbeitsblätter einfügen können.
+Im weiteren Verlauf der Diskussion werden wir beschreiben, wie Sie horizontale oder vertikale Seitenumbrüche in Ihre Arbeitsblätter mit Aspose.Cells einfügen können.
 
 {{% /alert %}}
 
-##  **Seitenumbrüche**
+## **Seitenumbrüche**
 
-Aspose.Cells bietet a[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse, die eine Excel-Datei darstellt. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
+Aspose.Cells stellt eine Klasse bereit, die eine Excel-Datei repräsentiert. Die Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) enthält eine Sammlung von [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets), die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
 
- Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Die Klasse stellt eine breite Palette von Eigenschaften und Methoden zur Verwaltung eines Arbeitsblatts bereit.
+Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) repräsentiert. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden, die zur Verwaltung eines Arbeitsblatts verwendet werden.
 
-Um die Seitenumbrüche hinzuzufügen, verwenden Sie die[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse'[**Horizontale Seitenumbrüche**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) Und[**Vertikale Seitenumbrüche**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)Eigenschaften.
+Um die Seitenumbrüche hinzuzufügen, verwenden Sie die Eigenschaften [**HorizontalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) und [**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks) der Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
 
- Der[**Horizontale Seitenumbrüche**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) Und[**Vertikale Seitenumbrüche**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)Eigenschaften sind Sammlungen, die mehrere Seitenumbrüche enthalten können. Jede Sammlung enthält mehrere Methoden zum Verwalten horizontaler und vertikaler Seitenumbrüche.
+Die Eigenschaften [**HorizontalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) und [**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks) sind Sammlungen, die mehrere Seitenumbrüche enthalten können. Jede Sammlung enthält mehrere Methoden zur Verwaltung von horizontalen und vertikalen Seitenumbrüchen.
 
-###  **Seitenumbrüche hinzufügen**
+### **Seitenumbrüche hinzufügen**
 
- Um einen Seitenumbruch in einem Arbeitsblatt hinzuzufügen, fügen Sie vertikale und horizontale Seitenumbrüche an der angegebenen Zelle ein, indem Sie aufrufen[**HorizontalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) Und[**VerticalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) Methoden. Jede**Hinzufügen** Die Methode übernimmt den Namen der Zelle, in der der Umbruch eingefügt werden soll.
+Um einen Seitenumbruch in ein Arbeitsblatt einzufügen, fügen Sie vertikale und horizontale Seitenumbrüche in die angegebene Zelle ein, indem Sie die Methoden [**HorizontalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) und [**VerticalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) aufrufen. Jede **Hinzufügen**-Methode nimmt den Namen der Zelle, an der der Umbruch hinzugefügt werden soll.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-AddingPageBreaks-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-In der Seitenumbruchvorschau oder der Druckvorschau können Sie sehen, wie diese Seitenumbrüche funktionieren.
+Im Vorschau-Modus für Seitenumbrüche oder im Druckvorschau-Modus können Sie sehen, wie diese Seitenumbrüche funktionieren.
 
 {{% /alert %}}
 
-###  **Alle Seitenumbrüche löschen**
+### **Alle Seitenumbrüche löschen**
 
- Um alle Seitenumbrüche in einem Arbeitsblatt zu löschen, rufen Sie auf[**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) Und[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) Sammlungen'[**Clear()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear)Methoden.
+Um alle Seitenumbrüche in einem Arbeitsblatt zu löschen, rufen Sie die Methoden [**Clear()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear) der Sammlungen [**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) und [**VerticalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) auf.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-ClearAllPageBreaks-1.cs" >}}
 
-###  **Entfernen eines bestimmten Seitenumbruchs**
+### **Bestimmten Seitenumbruch entfernen**
 
- Um einen bestimmten Seitenumbruch zu entfernen, rufen Sie auf[**HorizontalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat) Und[**VerticalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat) Methoden. Jede**RemoveAt**Die Methode verwendet den Index des Seitenumbruchs, der entfernt werden soll.
+Um einen bestimmten Seitenumbruch zu entfernen, rufen Sie die Methoden [**HorizontalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat) und [**VerticalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat) auf. Jede **Entfernen an**-Methode nimmt den Index des zu entfernenden Seitenumbruchs.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-RemoveSpecificPageBreak-1.cs" >}}
 
-##  **Wichtig zu wissen**
+## **Wichtig zu wissen**
 
- Wenn Sie einstellen**FitToPages** Eigenschaften (d. h[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) Und[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) in den Seiteneinrichtungseinstellungen sind die Seitenumbrucheinstellungen betroffen. Wenn Sie also das Arbeitsblatt drucken, werden die Seitenumbrucheinstellungen nicht berücksichtigt, obwohl sie noch festgelegt sind.
+Wenn Sie **Passend für Seiten**-Eigenschaften festlegen (d. h. [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) und [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) in den Seiteneinrichtungseinstellungen, werden die Seitenumbrucheinstellungen beeinflusst. Daher werden die Seitenumbrucheinstellungen beim Drucken des Arbeitsblatts nicht berücksichtigt, obwohl sie immer noch eingestellt sind.

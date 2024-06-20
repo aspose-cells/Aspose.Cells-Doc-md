@@ -1,12 +1,13 @@
-﻿---
-title: Применение стилей к диапазонам в рабочих книгах
+---
+title: Применить стили к диапазонам в рабочих книгах
 type: docs
 weight: 40
 url: /ru/net/apply-styles-to-ranges-in-workbooks/
 ---
-Ниже приведено сравнение кода применения стиля к строкам и столбцам книг:
-## **ВСТО**
-{{< highlight "csharp" >}}
+
+Ниже приведено сравнение кода для применения стиля к строкам и столбцам рабочих книг:
+## **VSTO**
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -30,7 +31,7 @@ url: /ru/net/apply-styles-to-ranges-in-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -81,5 +82,5 @@ url: /ru/net/apply-styles-to-ranges-in-workbooks/
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Скачать**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)
+## **Загрузка**
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)

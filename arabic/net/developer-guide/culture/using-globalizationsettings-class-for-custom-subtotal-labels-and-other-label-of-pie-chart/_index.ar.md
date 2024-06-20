@@ -1,43 +1,44 @@
-﻿---
-title: استخدام فئة GlobalizationSettings لملصقات المجموع الفرعي المخصص والتسميات الأخرى للمخطط الدائري
+---
+title: استخدام فئة GlobalizationSettings لتخصيص علامات مجموع جزئي مخصصة وعلامة أخرى لمخطط البيت
 type: docs
 weight: 70
 url: /ar/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
- كشفت واجهات برمجة التطبيقات Aspose.Cells ملف[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)class من أجل التعامل مع السيناريوهات التي يرغب فيها المستخدم في استخدام تسميات مخصصة للمجاميع الفرعية في جدول بيانات. وعلاوة على ذلك، فإن[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) يمكن أيضًا استخدام class لتعديل**آخر** تسمية المخطط الدائري أثناء عرض ورقة العمل أو المخطط.
+## **سيناريوهات الاستخدام المحتملة**
+
+وقد طرحت واجهة برمجة تطبيقات Aspose.Cells الفئة [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) للتعامل مع السيناريوهات التي يرغب المستخدم في استخدام علامات مخصصة للمجاميع الجزئية في جدول بيانات. علاوة على ذلك، يمكن أيضًا استخدام فئة [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) لتعديل العلامة **أخرى** لمخطط البيت أثناء استخراج الورقة العمل أو المخطط.
 
 ## **مقدمة في فئة GlobalizationSettings**
 
- ال[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) تقدم الفئة حاليًا الطرق الثلاثة التالية التي يمكن تجاوزها في فئة مخصصة للحصول على التسميات المطلوبة للمجموعات الفرعية أو لتقديم نص مخصص لـ**آخر** تسمية مخطط دائري.
+تقدم فئة [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) حاليًا 3 طرق يمكن تجاوزها في فئة مخصصة للحصول على علامات مرجعية مرغوبة للمجاميع الجزئية أو لتصدير نص مخصص لعلامة **أخرى** لمخطط البيت.
 
-1. [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname): الحصول على الاسم الإجمالي للوظيفة.
-1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname): الحصول على الاسم الإجمالي الكلي للوظيفة.
-1. [**GlobalizationSettings.GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername): الحصول على اسم التصنيفات "الأخرى" للمخططات الدائرية.
+1. [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname): يحصل على الاسم الكامل للوظيفة.
+1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname): يستلم اسم المجموع الكلي للوظيفة.
+1. [**GlobalizationSettings.GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername): يستلم اسم "أخرى" لعلامات مخطط البيت.
 
-### **تسميات مخصصة للمجموعات الفرعية**
+### **علامات مخصصة للمجاميع الجزئية**
 
- ال[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)يمكن استخدام الفئة لتخصيص تسميات الإجمالي الفرعي عن طريق تجاوز[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)الأساليب كما هو موضح في المستقبل.
+يمكن استخدام فئة [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) لتخصيص علامات المجموع الجزئي عن طريق تجاوز الطرق [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) و [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname) كما يظهر فيما يلي.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 
- لإدخال ملصقات مخصصة ، يلزم تعيين ملف[**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) الخاصية إلى مثيل**إعدادات مخصصة**الفئة المحددة أعلاه قبل إضافة الإجماليات الفرعية إلى ورقة العمل.
+من أجل حقن علامات مخصصة، يجب تعيين خاصية [**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) إلى مثيل من فئة **CustomSettings** المعرفة أعلاه قبل إضافة المجاميع الجزئية إلى ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-UsingGlobalizationSettings.cs" >}}
 
 {{% alert color="primary" %}}
 
- ال[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)فئة تعمل فقط لإضافة مجاميع فرعية جديدة. إذا كان جدول البيانات يحتوي بالفعل على مجاميع فرعية ، فلا يمكن تعديل تسمياتها.
+تعمل فئة [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) فقط لإضافة مجاميع جديدة. إذا كان جدول بيانات يحتوي بالفعل على مجاميع جزئية، فلا يمكن تعديل علاماتها.
 
 {{% /alert %}}
 
-### **نص مخصص للتسمية الأخرى للمخطط الدائري**
+### **نص مخصص لعلامة "أخرى" لمخطط البيت**
 
- ال[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) عروض الصف[**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)طريقة مفيدة لمنح التسمية "أخرى" للمخططات الدائرية قيمة مخصصة. يحدد المقتطف التالي فئة مخصصة ويتجاوز[**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)طريقة للحصول على تسمية مخصصة بناءً على معرف ثقافة النظام.
+تقدم فئة [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) طريقة [**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername) التي تكون مفيدة لإعطاء علامة "أخرى" لمخطط البيت قيمة مخصصة. يحدد المقتطف التالي فئة مخصصة ويجاوز الطريقة [**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername) للحصول على علامة مخصصة بناءً على معرف الثقافة في النظام.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-GlobalizationSettings.cs" >}}
 
- يقوم المقتطف التالي بتحميل جدول بيانات موجود يحتوي على مخطط دائري ويعرض المخطط إلى صورة أثناء استخدام**إعدادات مخصصة**فئة تم إنشاؤها أعلاه.
+المقتطف التالي يحمل جدول بيانات موجود يحتوي على مخطط بيت ويعرض المخطط إلى صورة مستخدمًا فئة **CustomSettings** التي تم إنشاؤها أعلاه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}

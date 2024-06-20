@@ -1,45 +1,48 @@
-﻿---
-title: Aspose.Cells.GridDesktop - Desktop Grid Control
+---
+title: Aspose.Cells.GridDesktop  Skrivbordsrutnätskontroll
 type: docs
 weight: 30
-url: /sv/net/aspose-cells-griddesktop-desktop-grid-control/
+url: /sv/net/aspose-cells-griddesktop/features/
+keywords: GridDesktop,features,feature
+description: Denna artikel introducerar funktioner för GridDesktop.
 ---
-## **Aspose.Cells.GridDesktop – Desktop Grid Control**
-### **Import/exportfunktioner**
+
+## **Aspose.Cells.GridDesktop - Skrivbordsrutnätskontroll**
+### **Import-/Exportfunktioner**
 - Importera innehåll från Excel-kalkylblad.
-- Importera data direkt från ett DataTable-objekt.
+- Importera data direkt från en DataTable-objekt.
 - Exportera innehåll till Excel-kalkylblad.
 ### **Arbetsbladsfunktioner**
-- Lägg till, infoga eller ta bort kalkylblad.
-- Byt namn på kalkylblad.
-- Sortera kalkylbladsdata.
+- Lägg till, infoga eller ta bort arbetsblad.
+- Döp om arbetsblad.
+- Sortera arbetsbladsdata.
 ### **Rad- och kolumnfunktioner**
 - Lägg till, infoga eller ta bort rader och kolumner.
 - Dölj eller visa rader och kolumner.
-- Frys eller lås upp rader och kolumner.
-### **Cell Funktioner**
-- Stöder inställningar för nummerformat.
+- Lås eller lås upp rader och kolumner.
+### **Cellfunktioner**
+- Stödjer inställningar för nummerformat.
 - Kontrollera textjusteringen.
-- Hantera gränsinställningarna.
-- Kontrollera teckensnittsinställningarna.
-- Slå samman eller dela celler.
+- Hantera kantinställningarna.
+- Kontrollera typsnittsinställningar.
+- Sammanfoga eller dela celler.
 ### **Formateringsfunktioner**
-- Kontrollera rutnätets beteende, utseende och känsla.
-- Tillämpa en fokuserad cells stil och teckensnitt på andra celler med hjälp av formatmålaren.
-- Manipulera data och cellstilar enkelt.
+- Kontrollera beteendet, utseendet och känslan av rutnätet.
+- Tillämpa en fokuserad cells stil och teckensnitt på andra celler med hjälp av Format Painter.
+- Manipulera data och cellstilar på ett enkelt sätt.
 ### **Verktygsfunktioner**
 - Lägg till eller ta bort cellkommentarer.
 - Infoga eller ta bort bilder.
 - Lägg till eller ta bort hyperlänkar.
 - Lägg till eller ta bort valideringsregler.
-- Lägg till eller ta bort kontroller (som CheckBox, ComboBox etc.) i celler.
+- Lägg till eller ta bort kontroller (som kryssrutor, kombinationsrutor etc.) i celler.
 - Tangentbordsnavigering av celler.
 ### **Säkerhetsfunktioner**
 - Skydda dina celler genom att låsa eller dölja dem.
 ### **Avancerade funktioner**
-- Stöder skapa och beräkna formler.
-- Utför dina önskade åtgärder under olika rutnätshändelser.
-### **Stöds Microsoft Excel-versioner**
+- Stöder skapande och beräkning av formler.
+- Utför önskade åtgärder under olika rut- händelser.
+### **Stödda Microsoft Excel-versioner**
 - Microsoft Excel 97
 - Microsoft Excel 2000
 - Microsoft Excel XP
@@ -48,4 +51,4 @@ url: /sv/net/aspose-cells-griddesktop-desktop-grid-control/
 - Microsoft Excel 2010
 - Microsoft Excel 2013
 ### **Plattformar som stöds**
-- Windows Blanketter
+- Windows Forms

@@ -1,21 +1,22 @@
-﻿---
-title: Justering av radhöjd och kolumnbredd i Python
+---
+title: Justera radhöjd och kolumnbredd i Python
 type: docs
 weight: 10
 url: /sv/java/adjusting-row-height-and-column-width-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel pytho
-description: Använd Python Excel API för att skapa Excel-filer i Python. Justera radhöjd och kolumnbredd i XLSX eller XLS i dina Python-program utan MS Office.
+keywords: "skapa XLSX i Python, skapa XLS i Python, XLS python, XLSX python, radhöjd python, kolumnbredd python, Excel python"
+description: Använd Python Excel API för att skapa Excelfiler i Python. Justera radhöjd och kolumnbredd i XLSX eller XLS i dina Python applikationer utan MS Office.
 ---
-## **Excel-kalkylblad i Python - Justering av radhöjd och kolumnbredd**
-### **Ställa in radhöjden**
-Med Aspose.Cells är det möjligt att ställa in höjden på en enstaka rad i Python genom att anropa Cells-samlingens setRowHeight-metod. Metoden setRowHeight tar följande parametrar:
 
-- **Radindex**, indexet för raden som du ändrar höjden på.
+## **Excelfil i Python - Justera radhöjd och kolumnbredd**
+### **Ange radhöjden**
+Med Aspose.Cells är det möjligt att ange höjden på en enskild rad i Python genom att anropa Cells-samlingen setRowHeight -metoden. setRowHeight-metoden tar följande parametrar:
+
+- **Radindex**, index för den rad vars höjd du ändrar.
 - **Radhöjd**, radhöjden som ska tillämpas på raden.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_row_height(self):
 
@@ -40,15 +41,15 @@ workbook.save(self.dataDir + "Set Row Height.xls")
 print "Set Row Height Successfully." 
 
 {{< /highlight >}}
-### **Ställa in kolumnbredden**
-Ställ in bredden på en kolumn genom att anropa Cells-samlingens setColumnWidth-metod. Metoden setColumnWidth tar följande parametrar:
+### **Ange kolumnbredden**
+Ange bredden på en kolumn genom att anropa samlingen 'cells' 'setColumnWidth' -metoden.
 
-- **Kolumnindex**, indexet för kolumnen som du ändrar bredden på.
+- **Kolumnindex**, index för den kolumn vars bredd du ändrar.
 - **Kolumnbredd**, önskad kolumnbredd.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_column_width(self):
 
@@ -73,7 +74,7 @@ workbook.save(self.dataDir + "Set Column Width.xls")
 print "Set Column Width Successfully." 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Justera radhöjd och kolumnbredd (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Justera radhöjd och kolumnbredd (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

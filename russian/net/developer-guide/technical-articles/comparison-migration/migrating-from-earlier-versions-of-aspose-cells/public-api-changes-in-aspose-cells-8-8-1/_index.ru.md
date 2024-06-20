@@ -1,52 +1,53 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.8.1
+---
+title: Изменения в публичном API в Aspose.Cells 8.8.1
 type: docs
 weight: 270
 url: /ru/net/public-api-changes-in-aspose-cells-8-8-1/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.8.0 до 8.8.1, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 8.8.0 до 8.8.1, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные публичные методы, добавленные и удаленные классы и т.д., но также описание любых изменений в поведении за кадром в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Отфильтровать данные для загрузки**
-Aspose.Cells for .NET 8.8.1 предоставляет перечисление LoadDataFilterOptions вместе со свойством LoadOptions.LoadDataFilterOptions, которое можно использовать для указания типа данных, которые должны быть загружены при создании книги из файла шаблона. Фильтрация загружаемых данных может повысить производительность для специальных целей, особенно при использовании API LightCells.
+## **Добавленные API**
+### **Фильтрация данных при загрузке**
+Aspose.Cells for .NET 8.8.1 предоставил перечисление LoadDataFilterOptions вместе с свойством LoadOptions.LoadDataFilterOptions, которое можно использовать для указания типа данных, которые должны быть загружены при построении рабочей книги из файла шаблона. Фильтрация загруженных данных может улучшить производительность для особых целей, особенно при использовании LightCells APIs.
 
 Перечисление LoadDataFilterOptions предоставляет следующие варианты выбора.
 
 1. All для загрузки всего из электронной таблицы.
-1. Нет, чтобы ничего не загружать из электронной таблицы.
-1. CellBlank загружает ячейки, значения которых пусты.
-1. CellBool загружает ячейки, значения которых являются логическими.
+1. None для загрузки ничего из электронной таблицы.
+1. CellBlank для загрузки ячеек, значение которых пусто.
+1. CellBool для загрузки ячеек, значение которых представляет булев тип.
 1. CellData загружает данные ячеек, включая значения, формулы и форматирование.
-1. CellError загружает ячейки, значения которых ошибочны.
-1. CellNumeric загружает ячейки, значения которых являются числовыми (включая дату и время).
-1. CellString загружает ячейки, значениями которых являются текст/строка.
-1. CellValue загружает только значения ячеек (всех типов).
-1. Chart загружает только графики.
+1. CellError загружает ячейки со значением ошибки.
+1. CellNumeric загружает ячейки со значениями числового типа (включая дату и время).
+1. CellString загружает ячейки со значениями текста/строки.
+1. CellValue загружает только значения ячеек (все типы).
+1. Chart загружает только диаграммы.
 1. ConditionalFormatting загружает только правила условного форматирования.
 1. DataValidation загружает только правила проверки данных.
 1. DocumentProperties загружает только свойства документа.
-1. Формула загружает формулы, включая определенные имена.
+1. Formula загружает формулы, включая определенные имена.
 1. MergedArea загружает только объединенные ячейки.
 1. PivotTable загружает сводные таблицы.
-1. Настройки загружают только настройки рабочей книги и рабочего листа.
-1. Форма загружает только фигуры.
-1. Стиль загружает форматирование ячеек.
-1. Таблица загружает таблицы Excel/объекты списка.
+1. Settings загружает только настройки книги и листа.
+1. Shape загружает только формы.
+1. Style загружает форматирование ячеек.
+1. Table загружает таблицы Excel/Объекты списка.
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[Фильтровать данные для загрузки](/cells/ru/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/).
+Для получения более подробной информации об этой функции, ознакомьтесь со статьей [Фильтрация загружаемых данных](/cells/ru/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/).
 
 {{% /alert %}} 
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions & initialize it with type of template to be loaded
 
@@ -63,14 +64,14 @@ var book = new Workbook(filePath, options);
 {{< /highlight >}}
 
 
-### **Прямое преобразование диаграммы в PDF**
-API-интерфейсы Aspose.Cells уже предоставили возможность отображать диаграммы на PDF при использовании метода Chart.ToPdf. В этом выпуске API представила еще одну перегруженную версию указанного метода, которая может принимать экземпляр Stream, позволяя пользователям сохранять PDF диаграммы в экземпляре MemoryStream.
+### **Преобразование графика в PDF напрямую**
+API Aspose.Cells уже предоставило возможность отображать диаграммы в PDF с помощью метода Chart.ToPdf. В этом релизе API предоставлен еще один перегруженный вариант указанного метода, который может принимать экземпляр Stream, что позволяет пользователям сохранять PDF диаграммы в экземпляре MemoryStream.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet with a chart
 
@@ -97,12 +98,12 @@ using (MemoryStream stream = new MemoryStream())
 {{< /highlight >}}
 
 
-### **Добавлено свойство WorkbookSettings.PaperSize.**
-Aspose.Cells for .NET 8.8.1 предоставил свойство WorkbookSettings.PaperSize, чтобы установить размер бумаги для печати по умолчанию для всей электронной таблицы. Свойство WorkbookSettings.PaperSize принимает значение из перечисления PaperSizeType, которое содержит предопределенные размеры для наиболее широко используемых типов бумаги для печати.
+### **Добавлено свойство WorkbookSettings.PaperSize**
+Aspose.Cells for .NET 8.8.1 добавил свойство WorkbookSettings.PaperSize для установки размера бумаги по умолчанию для всего электронного таблицы. Свойство WorkbookSettings.PaperSize принимает значение из перечисления PaperSizeType, которое содержит предопределенные размеры для наиболее часто используемых типов печатной бумаги.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -122,37 +123,37 @@ settings.PaperSize = PaperSizeType.PaperA4;
 
 
 ### **Добавлено свойство Shape.TextBody**
-В этом выпуске Aspose.Cells for .NET API объект Shape.TextBody используется для управления аспектами текста в фигурах. В следующем фрагменте указанное свойство используется для установки эффекта тени текста в TextBox.
+В этом релизе Aspose.Cells for .NET API было добавлено свойство Shape.TextBody для управления аспектами текста в фигурах. Приведенный ниже отрывок использует данное свойство для установки эффекта тени текста в TextBox.
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[Настройка эффекта тени для текста](/cells/ru/net/setting-shadow-of-text-effects-of-shape-or-textbox/).
+Для получения более подробной информации об этой функции ознакомьтесь с подробной статьей по ссылке [Установка эффекта тени для текста](/cells/ru/net/setting-shadow-of-text-effects-of-shape-or-textbox/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Создаем экземпляр Workbook
+ //Create an instance of Workbook
 
-var book = новая рабочая книга();
+var book = new Workbook();
 
-//Доступ к первому рабочему листу рабочей книги
+//Access first worksheet of the Workbook
 
-лист var = book.Worksheets[0];
+var sheet = book.Worksheets[0];
 
-// Добавляем TextBox в ShapeCollection
+//Add a TextBox to the ShapeCollection
 
-var textBox = лист.Фигуры.Добавитьтекстовое поле(2, 0, 2, 0, 100, 400);
+var textBox = sheet.Shapes.AddTextBox(2, 0, 2, 0, 100, 400);
 
-//Устанавливаем текст TextBox
+//Set the text of the TextBox
 
-textBox.Text = "Этот текст имеет следующие настройки.\n\nТекстовые эффекты > Тень > Смещение нижнего края";
+textBox.Text = "This text has the following settings.\n\nText Effects > Shadow > Offset Bottom";
 
-//Устанавливаем эффект тени для текста
+//Set shadow effect for text
 
- для (целое я = 0; я< textBox.TextBody.Count; i++)
+for (int i = 0; i < textBox.TextBody.Count; i++)
 
 {
 
@@ -163,22 +164,22 @@ textBox.Text = "Этот текст имеет следующие настрой
 {{< /highlight >}}
 
 
-### **Добавлен метод Worksheet.CalculateFormula(строковая формула, параметры CalculationOptions)**
-Aspose.Cells for .NET 8.8.1 предоставляет другую перегрузку для метода CalculateFormula, который обеспечивает возможность прямого вычисления заданной формулы с пользовательскими параметрами.
+### **Добавлен метод Worksheet.CalculateFormula(string formula, CalculationOptions opts)**
+Aspose.Cells for .NET 8.8.1 добавил еще одну перегрузку метода CalculateFormula, которая обеспечивает возможность вычисления заданной формулы непосредственно с настраиваемыми параметрами.
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[Прямой расчет пользовательской функции](/cells/ru/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/).
+Для получения более подробной информации об этой функции ознакомьтесь с подробной статьей по ссылке [Прямой расчет пользовательской функции](/cells/ru/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/).
 
 {{% /alert %}} 
-### **Добавлен метод GridCell.CreateValidation.**
-Aspose.Cells.GridWeb предоставляет возможность напрямую добавлять правило проверки в одну ячейку при использовании метода GridCell.CreateValidation. Указанный метод требует 2 параметра. Первый параметр имеет тип GridValidationType, который определяет тип проверки, тогда как второй параметр (isRequied) имеет тип Boolean.
+### **Добавлен метод GridCell.CreateValidation**
+Aspose.Cells.GridWeb предоставляет возможность добавления правила проверки данных для одной ячейки непосредственно с использованием метода GridCell.CreateValidation. Данный метод требует 2 параметра. Первый из них имеет тип GridValidationType, который определяет тип проверки, в то время как второй параметр (isRequied) имеет тип Boolean.
 
 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Access first worksheet
 
@@ -207,8 +208,8 @@ val.ShowInput = true;
 {{< /highlight >}}
 
 
-### **Добавлен метод GridCell.RemoveValidation.**
-Aspose.Cells.GridWeb также предоставляет возможность удалить правило проверки данных из GridCell при использовании метода GridCell.RemoveValidation.
+### **Добавлен метод GridCell.RemoveValidation**
+Aspose.Cells.GridWeb также предоставляет возможность удаления правила проверки данных из GridCell с использованием метода GridCell.RemoveValidation.
 ## **Устаревшие API**
 ### **Устаревшее свойство Shape.TextFrame**
-Вместо этого рекомендуется использовать свойство Shape.TextBody.TextAlignment.
+Рекомендуется использовать свойство Shape.TextBody.TextAlignment вместо.

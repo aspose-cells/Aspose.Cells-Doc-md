@@ -1,34 +1,35 @@
 ---
-title: Итерация строк и столбцов
+title: Итерировать строки и столбцы
 type: docs
 weight: 50
 url: /ru/java/iterate-rows-and-columns/
-description: Узнайте, как перебирать строки и столбцы с помощью API Aspose.Cells for Java.
-keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
+description: Узнайте, как итерировать строки и столбцы с использованием Aspose.Cells for Java API.
+keywords: Как итерировать строки и столбцы в Java, Итерация строк с помощью Java, Java Итерация столбцов. 
 ---
-##  **Как перебирать строки и столбцы, используя Aspose.Cells for Java**
 
-Строки и столбцы можно перебирать, используя коллекцию строк и столбцов.
+## **Как итерировать строки и столбцы, используя Aspose.Cells for Java**
+
+Строки и столбцы могут быть итерированы с использованием коллекции строк и столбцов.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Доступ к максимальному диапазону отображения
+ //Access the Maximum Display Range
 
-Диапазон диапазона = worksheet.getCells().getMaxDisplayRange();
+Range range = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("Всего строк:" + trows);
+System.out.println("Total Rows:" + trows);
 
-System.out.println("Всего столбцов:" + tcols);
+System.out.println("Total Cols:" + tcols);
 
-RowCollection rows = cell.getRows();
+RowCollection rows = cells.getRows();
 
- для (int i = 0; я< rows.getCount() ; i++)
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -46,13 +47,13 @@ RowCollection rows = cell.getRows();
 
 {{< /highlight >}}
 
-##  **Apache POI SS — HSSF XSSF — перебор строк и столбцов**
+## **Apache POI SS - HSSF XSSF - Итерация строк и столбцов**
 
-Строки и Cells можно повторять на листе. Пример кода указан ниже:
+Строки и ячейки могут быть итерированы на листе. Приведен пример кода ниже:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = WorkbookFactory.create(inStream);
 
@@ -74,11 +75,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-##  **Загрузить рабочий код**
+## **Скачать работающий код**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-##  **Скачать пример кода**
+## **Загрузить образец кода**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

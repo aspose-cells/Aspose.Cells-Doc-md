@@ -1,29 +1,30 @@
-﻿---
-title: HtmlCrossType kullanarak HTML çıktısında dizenin nasıl çaprazlanacağını belirtin
+---
+title: Çıkış HTML sinde dizeyi nasıl geçeceğini HtmlCrossType kullanarak belirtin
 type: docs
 weight: 140
 url: /tr/java/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Hücre metin veya dize içeriyorsa ancak hücrenin genişliğinden daha büyükse, sonraki sütundaki bir sonraki hücre boş veya boşsa dize taşar. Excel dosyanızı HTML'e kaydettiğinizde, çapraz türü belirterek bu taşmayı kontrol edebilirsiniz.[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)numaralandırma. Aşağıdaki değerlere sahiptir
+Hücre metni veya dizesi mevcut olmasına rağmen hücrenin genişliğinden büyükse, dize sonraki sütunun boş veya null olması durumunda taşar. Excel dosyanızı HTML olarak kaydederken, taşmayı [0] numaralı numaralandırma ile belirterek kontrol edebilirsiniz. Şu değerlere sahiptir
 
-- [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): Bir sonraki hücreye bağlı olan MS Excel gibi görüntüleyin. Bir sonraki hücre boşsa, dize kesişir veya kesilir.
+- [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): MS Excel'e benzer şekilde görüntülenir, bu değer sonraki hücreye bağlıdır. Eğer sonraki hücre boşsa, dize taşar veya kısaltılır.
 
-- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT): Dizeyi, HTML dışa aktaran MS Excel gibi görüntüleyin.
+- {0}: Dizeyi, HTML olarak görüntüleyin, büyük HTML dosyaları oluşturmak için {1} veya {2} değerlerine ayarlamaktan on kat daha hızlıdır.
 
-- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS) : HTML çapraz dizisini görüntüleyin, büyük HTML dosyaları oluşturma performansı, değeri olarak ayarlamaktan on kat daha hızlı olacaktır.[**VARSAYILAN**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) veya[**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL).
+- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): HTML olarak dizeyi geçiş yapın ve metinlerin örtüştüğü durumlarda sağdaki metni gizleyin.
 
-- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): HTML çapraz dizeyi görüntüleyin ve metinler çakıştığında sağ diziyi gizleyin.
+- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): Hücre genişliği içindeki dizeyi yalnızca görüntüleyin.
 
-- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL)Yalnızca hücrenin genişliği içindeki dize görüntüleniyor.
+Çıktı HTML'sinde dizeyi enine nasıl geçeceğinizi HtmlCrossType kullanarak belirtin
 
-## **HtmlCrossType kullanarak HTML çıktısında dizenin nasıl çaprazlanacağını belirtin**
+## **Çıkış HTML'sinde dizeyi nasıl geçeceğini HtmlCrossType kullanarak belirtin**
 
-Aşağıdaki örnek kod,[örnek excel dosyası](51740747.xlsx)ve farklı belirterek HTML formatında kaydeder.[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType). Lütfen indirin[çıkış HTML](51740745.zip) Bu kodla oluşturulan dosyalar. Örnek Excel dosyası, bu ekran görüntüsünde gösterildiği gibi kırmızı renkle çevrelenmiş görüntüyü içerir.[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)HTML çıkışındaki değerler.
+Aşağıdaki örnek kod, yüklenecek olan [örnek Excel dosyasını](51740747.xlsx) yüklüyor ve bu kod ile oluşturulan [çıktı HTML](51740745.zip) dosyalarını indirmenizi sağlar. Örnek Excel dosyası, şu ekran görüntüsünde gösterildiği gibi kırmızı renkle çerçevelenmiş bir resim içermektedir ve bu resmin çıktı HTML üzerinde [**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType) değerlerinin etkisini göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
+![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.java" >}}

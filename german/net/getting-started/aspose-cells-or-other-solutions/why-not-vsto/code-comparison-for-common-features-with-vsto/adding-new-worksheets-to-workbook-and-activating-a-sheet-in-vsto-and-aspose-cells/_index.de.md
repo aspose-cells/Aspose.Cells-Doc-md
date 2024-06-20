@@ -1,54 +1,55 @@
-﻿---
-title: Hinzufügen neuer Arbeitsblätter zur Arbeitsmappe und Aktivieren eines Blatts in VSTO und Aspose.Cells
+---
+title: Hinzufügen neuer Arbeitsblätter zu einem Arbeitsbuch und Aktivieren eines Blatts in VSTO und Aspose.Cells
 type: docs
 weight: 30
 url: /de/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-in-vsto-and-aspose-cells/
 ---
-## **Migrationstipp:**
-1. Fügen Sie neue Arbeitsblätter zu einer bestehenden Microsoft Excel-Datei hinzu.
-1. Füllen Sie Daten in die Zellen jedes neuen Arbeitsblatts ein.
-1. Aktivieren Sie ein Blatt in der Arbeitsmappe.
-1. Als Microsoft Excel-Datei speichern.
 
-Nachfolgend finden Sie parallele Codeausschnitte für VSTO (C#) und Aspose.Cells for .NET (C#), die zeigen, wie diese Aufgaben ausgeführt werden.
+## **Migrationshinweis:**
+1. Fügen Sie neuen Arbeitsblätter zu einer vorhandenen Microsoft Excel-Datei hinzu.
+1. Füllen Sie Daten in die Zellen jedes neuen Arbeitsblatts ein.
+1. Aktivieren Sie ein Blatt im Arbeitsbuch.
+1. Speichern Sie die Datei als Microsoft Excel-Datei.
+
+Im Folgenden finden Sie parallele Code-Schnipsel für VSTO (C#) und Aspose.Cells for .NET (C#), die zeigen, wie diese Aufgaben erreicht werden können.
 
 **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-//Anwendungsobjekt initiieren
+ //intiate application object
 
-Excel.Application excelApp = Anwendung;
+Excel.Application excelApp = Application;
 
-//Geben Sie den Excel-Dateipfad der Vorlage an.
+//Specify the template excel file path.
 
-string myPath = "Buch1.xls";
+string myPath = "Book1.xls";
 
-//Excel-Datei öffnen.
+//Open the excel file.
 
-excelApp.Workbooks.Open(myPath, Fehlender.Wert, Fehlender.Wert,
+excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert,
+Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert,
+Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert,
+Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert,
+Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert,
+Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert);
+Missing.Value, Missing.Value);
 
-//Ein Worksheet-Objekt deklarieren.
+//Declare a Worksheet object.
 
 Excel.Worksheet newWorksheet;
 
-// Fügen Sie der Arbeitsmappe 5 neue Arbeitsblätter hinzu und füllen Sie einige Daten aus
+//Add 5 new worksheets to the workbook and fill some data
 
-//in die Zellen.
+//into the cells.
 
- für (int i = 1; i< 6; i++){
+for (int i = 1; i < 6; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -88,35 +89,35 @@ excelApp.Quit();
 
 **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Instanziieren Sie eine Lizenzinstanz und legen Sie die Lizenzdatei fest
+ //Instantiate an instance of license and set the license file
 
-//durch seinen Weg
+//through its path
 
-Aspose.Cells.License Lizenz = neu Aspose.Cells.License();
+Aspose.Cells.License license = new Aspose.Cells.License();
 
-lizenz.SetLicense("Aspose.Total.lic");
+license.SetLicense("Aspose.Total.lic");
 
-//Geben Sie den Excel-Dateipfad der Vorlage an.
+//Specify the template excel file path.
 
-string myPath = "Buch1.xls";
+string myPath = "Book1.xls";
 
-// Instanziiere eine neue Arbeitsmappe.
+//Instantiate a new Workbook.
 
-//Excel-Datei öffnen.
+//Open the excel file.
 
-Arbeitsmappe Arbeitsmappe = neue Arbeitsmappe (myPath);
+Workbook workbook = new Workbook(myPath);
 
-//Ein Worksheet-Objekt deklarieren.
+//Declare a Worksheet object.
 
-Arbeitsblatt neuesArbeitsblatt;
+Worksheet newWorksheet;
 
-// Fügen Sie der Arbeitsmappe 5 neue Arbeitsblätter hinzu und füllen Sie einige Daten aus
+//Add 5 new worksheets to the workbook and fill some data
 
-//in die Zellen.
+//into the cells.
 
- für (int i = 0; i< 5; i++){
+for (int i = 0; i < 5; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -146,6 +147,6 @@ workbook.Save("out_My_Book1.xls");
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
-- [Quellenschmiede](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/herunterladen)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).Postleitzahl)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip)

@@ -1,26 +1,27 @@
 ---
-title: اقرأ تسميات المحاور بعد حساب المخطط
-description: تعرف على كيفية قراءة تسميات المحاور في Aspose.Cells for .NET بعد حساب الرسم البياني. سيوضح لك دليلنا كيفية الوصول إلى تسميات المحاور واستردادها، بما في ذلك تنسيقها وموضعها.
-keywords: Aspose.Cells for .NET, chart, axis labels, calculation, reading, accessing, retrieving, formatting, positioning.
+title: قراءة تسميات المحور بعد حساب الرسم البياني
+description: تعلم كيفية قراءة تسميات المحاور في Aspose.Cells for .NET بعد حساب الرسم البياني. سيوفر دليلنا لك كيفية الوصول إلى تسميات المحاور واسترجاعها، بما في ذلك تنسيقها وتوضيعها.
+keywords: Aspose.Cells for .NET ، رسم بياني ، تسميات المحور ، حساب ، قراءة ، الوصول ، استرجاع ، تنسيق ، توضيع.
 type: docs
 weight: 90
 url: /ar/net/read-axis-labels-after-calculating-the-chart/
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-يمكنك قراءة تسميات محاور المخطط الخاص بك بعد حساب قيمها باستخدام[**الرسم البياني.احسب()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/calculate/)طريقة. الرجاء استخدام[**المحور.GetAxisTexts()**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/getaxistexts/) طريقة لهذا الغرض والتي ستعيد قائمة تسميات المحاور.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **اقرأ تسميات المحاور بعد حساب المخطط**
+يمكنك قراءة تسميات المحاور لرسم بياني بعد حساب قيمه باستخدام الطريقة [**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/calculate/). يرجى استخدام الطريقة [**Axis.GetAxisTexts()**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/getaxistexts/) لهذا الغرض التي ستُرجع قائمة تسميات المحاور.
 
-الرجاء مراجعة نموذج التعليمات البرمجية التالي الذي يقوم بتحميل ملف[عينة من ملف إكسل](ReadAxisLabels.xlsx)ويقرأ تسميات محور الفئة للمخطط في ورقة العمل الأولى. ثم يقوم بطباعة قيم تسميات المحاور على وحدة التحكم. يرجى الاطلاع على مخرجات وحدة التحكم الخاصة بنموذج التعليمات البرمجية الموضح أدناه للحصول على مرجع.
+## **قراءة تسميات المحور بعد حساب الرسم البياني**
 
-##  **عينة من الرموز**
+يرجى الاطلاع على رمز العينة التالي الذي يحمل [ملف Excel عيني](ReadAxisLabels.xlsx) ويقرأ تسميات المحور الفئوي للرسم البياني في الورقة العمل الأولى. ثم يقوم بطباعة قيم تسميات المحور على وحدة التحكم. يرجى الاطلاع على الإخراج على وحدة التحكم من رمز العينة الذي يلي للرجوع إليه.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Charts-ReadAxisLabelsAfterCalculatingTheChart.cs" >}}
 
-##  **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Category Axis Labels:
 

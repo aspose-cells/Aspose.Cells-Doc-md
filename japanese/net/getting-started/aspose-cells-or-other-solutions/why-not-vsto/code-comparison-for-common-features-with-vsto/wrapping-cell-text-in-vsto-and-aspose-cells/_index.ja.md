@@ -1,33 +1,34 @@
-﻿---
-title: VSTO の Cell テキストと Aspose.Cells の折り返し
+---
+title: VSTOおよびAspose.Cellsでセルテキストを折り返す
 type: docs
 weight: 250
 url: /ja/net/wrapping-cell-text-in-vsto-and-aspose-cells/
 ---
-2 つのセル (折り返されたテキストのあるセルとないセル) を持つワークシートを作成するには:
 
-1. ワークシートを設定します。
- 1. ワークブックを作成します。
- 1. 最初のワークシートにアクセスします。
-1. テキストを追加：
- 1. セル A1 にテキストを追加します。
- 1. 折り返されたテキストをセル A5 に追加します。
+折り返しテキストおよび折り返しのないテキストを含むワークシートを作成するには:
+
+1. ワークシートを設定します: 
+   1. ワークブックを作成する。
+   1. 最初のワークシートにアクセスします。
+1. テキストを追加します: 
+   1. セルA1にテキストを追加します。
+   1. セルA5に折り返しテキストを追加します。
 1. スプレッドシートを保存します。
- The code samples below show how to perform these steps using VSTO with either C#. Aspose.Cells for .NET を使用して同じことを行う方法を示すコード サンプルは、C# のいずれかを使用してすぐ後に続きます。
+   以下のコードサンプルは、VSTOを使用してこれらの手順をC#で実行する方法を示しています。同様のことをC#を使用して、Aspose.Cells for .NETを使用して行うコードサンプルが直後に続きます。
 
-コードを実行すると、2 つのセルを含むスプレッドシートが作成されます。
+コードを実行すると、折り返されていないテキストを含むセルと折り返されたテキストを含むセルのあるスプレッドシートが作成されます。
 
-## **VSTO Excel を使用した出力**
+## **VSTO Excelを使用した出力**
 
-![todo:画像_代替_文章](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-## **Aspose.Cells for .NET を使用して出力**
+## **Aspose.Cells for .NETを使用した出力**
 
-![todo:画像_代替_文章](picture2.png)
+![todo:image_alt_text](picture2.png)
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Access vsto application
 
@@ -71,7 +72,7 @@ app.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void WrappingCellText()
 
@@ -117,6 +118,6 @@ app.Quit();
 
 ## **サンプルコードをダウンロード**
 
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
-- [ソースフォージ](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\)。ジップ）
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip)

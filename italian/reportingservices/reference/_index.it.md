@@ -1,10 +1,11 @@
-﻿---
+---
 title: Riferimento
 type: docs
 weight: 60
 url: /it/reportingservices/reference/
 ---
-Questa sezione descrive le barre dei comandi, le finestre dell'editor delle formule con l'elenco delle formule.
-**Questa sezione include i seguenti argomenti:** 
-- [Barre di comando](/cells/it/reportingservices/command-bars/)
-- [Finestra dell'editor di formule](/cells/it/reportingservices/formula-editor-window/)
+
+Questa sezione descrive le barre dei comandi, le finestre dell'editor di formule con elenco formule.
+**Questa sezione include gli argomenti seguenti:** 
+- [Barre dei comandi](/cells/it/reportingservices/command-bars/)
+- [Finestra dell'Editor di Formule](/cells/it/reportingservices/formula-editor-window/)

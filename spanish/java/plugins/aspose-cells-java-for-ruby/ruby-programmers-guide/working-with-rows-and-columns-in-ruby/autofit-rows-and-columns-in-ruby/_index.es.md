@@ -1,16 +1,17 @@
-﻿---
-title: Autoajustar filas y columnas en Ruby
+---
+title: Ajustar Filas y Columnas en Ruby
 type: docs
 weight: 20
 url: /es/java/autofit-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Autoajustar filas y columnas**
-### **Autoajustar fila**
-El enfoque más sencillo para cambiar automáticamente el tamaño del ancho y el alto de una fila es llamar al método autoFitRow de la clase Worksheet. El método autoFitRow toma un índice de fila (de la fila a redimensionar) como parámetro.
 
-**código rubí**
+## **Aspose.Cells - Ajustar Filas y Columnas**
+### **Ajustar Fila**
+El enfoque más directo para ajustar automáticamente el ancho y la altura de una fila es llamar al método autoFitRow de la clase Worksheet. El método autoFitRow toma un índice de fila (de la fila que se va a redimensionar) como parámetro.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def autofit_row()
 
@@ -45,12 +46,12 @@ El enfoque más sencillo para cambiar automáticamente el tamaño del ancho y el
     end
 
 {{< /highlight >}}
-### **Columna de ajuste automático**
-La forma más fácil de cambiar automáticamente el tamaño del ancho y el alto de una columna es llamar al método autoFitColumn de la clase Worksheet. El método autoFitColumn toma el índice de la columna (de la columna que se va a cambiar de tamaño) como parámetro.
+### **Ajustar Columna**
+La forma más fácil de ajustar automáticamente el ancho y la altura de una columna es llamar al método autoFitColumn de la clase Worksheet. El método autoFitColumn toma el índice de columna (de la columna que se va a redimensionar) como parámetro.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def autofit_column()
 
@@ -85,7 +86,7 @@ La forma más fácil de cambiar automáticamente el tamaño del ancho y el alto 
 end
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Autoajustar filas y columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Ajustar Filas y Columnas (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

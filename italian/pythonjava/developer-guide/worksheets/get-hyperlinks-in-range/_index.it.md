@@ -1,11 +1,12 @@
-﻿---
-title: Ottieni collegamenti ipertestuali nell'intervallo
+---
+title: Ottieni i collegamenti ipertestuali nell intervallo
 type: docs
 weight: 50
 url: /it/python-java/get-hyperlinks-in-range/
 ---
-## **Ottieni collegamenti ipertestuali nell'intervallo**
-Per ottenere collegamenti ipertestuali nell'intervallo, utilizzare il[getCollegamenti ipertestuali()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)proprietà del[Allineare](https://reference.aspose.com/cells/python/asposecells.api/Range)classe. Il[getCollegamenti ipertestuali()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)La proprietà ottiene tutti i collegamenti ipertestuali nell'intervallo selezionato.
+
+## **Ottieni i collegamenti ipertestuali nell'intervallo**
+Per ottenere collegamenti ipertestuali nell'intervallo, utilizzare la proprietà [getHyperlinks()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks) della classe [Range](https://reference.aspose.com/cells/python/asposecells.api/Range). La proprietà [getHyperlinks()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks) ottiene tutti i collegamenti ipertestuali nell'intervallo selezionato.
 
 Il seguente frammento di codice mostra come ottenere tutti i collegamenti ipertestuali nell'intervallo selezionato.
 

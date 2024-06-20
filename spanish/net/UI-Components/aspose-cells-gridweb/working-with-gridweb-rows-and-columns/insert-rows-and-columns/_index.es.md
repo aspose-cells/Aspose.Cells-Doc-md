@@ -1,30 +1,33 @@
-﻿---
-title: Insertar filas y columnas
+---
+title: Insertar Filas y Columnas
 type: docs
 weight: 10
-url: /es/net/insert-rows-and-columns/
+url: /es/net/aspose-cells-gridweb/insert-rows-and-columns/
+keywords: GridWeb,insertar, insertar filas, insertar columnas, filas, columnas
+description: Este artículo presenta cómo insertar filas y columnas en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Este tema explica cómo insertar nuevas filas y columnas en una hoja de cálculo mediante Aspose.Cells.GridWeb API. Las filas o columnas se pueden insertar en cualquier posición de la hoja de cálculo.
+Este tema explica cómo insertar nuevas filas y columnas en una hoja de cálculo utilizando la API Aspose.Cells.GridWeb. Las filas o columnas se pueden insertar en cualquier posición de la hoja de cálculo.
 
 {{% /alert %}} 
-## **Insertar filas**
+## **Inserción de Filas**
 Para insertar una fila en cualquier posición de una hoja de cálculo:
 
-1. Agregue el control Aspose.Cells.GridWeb al formulario web.
-1. Acceda a la hoja de trabajo a la que está agregando filas.
-1. Inserte una fila especificando un índice de fila donde se insertaría la fila.
+1. Agrega el control Aspose.Cells.GridWeb al Formulario Web.
+1. Acceda a la hoja de cálculo a la que está agregando filas.
+1. Inserte una fila especificando un índice de fila donde se insertará la fila.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-AddRowsColumns.aspx-AddRow.cs" >}}
-## **Insertar columnas**
+## **Inserción de Columnas**
 Para insertar una columna en cualquier posición de una hoja de cálculo:
 
-1. Agregue el control Aspose.Cells.GridWeb a un formulario web.
-1. Acceda a la hoja de trabajo a la que está agregando columnas.
-1. Inserte una columna especificando el índice de columna donde se insertaría la columna.
+1. Agregue el control Aspose.Cells.GridWeb a un Formulario Web.
+1. Acceda a la hoja de cálculo a la que está agregando columnas.
+1. Inserte una columna especificando el índice de columna donde se insertará la columna.
 
 
 
@@ -32,6 +35,6 @@ Para insertar una columna en cualquier posición de una hoja de cálculo:
 
 {{% alert color="primary" %}} 
 
-También puede usar los métodos InsertRows/InsertColumns para insertar varias filas/columnas en las hojas de trabajo según corresponda.
+También puede utilizar los métodos InsertarFilas/InsertarColumnas para insertar múltiples filas/columnas en las hojas de cálculo correspondientemente.
 
 {{% /alert %}}

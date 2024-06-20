@@ -1,24 +1,25 @@
-﻿---
-title: Exportar rango de Cells en una hoja de trabajo a imagen
+---
+title: Exportar rango de celdas en una hoja de cálculo a imagen
 type: docs
 weight: 60
 url: /es/net/export-range-of-cells-in-a-worksheet-to-image/
 ---
-## **Posibles escenarios de uso**
 
-Puede crear una imagen de una hoja de trabajo usando Aspose.Cells. Sin embargo, a veces necesita exportar solo un rango de celdas en una hoja de trabajo a una imagen. Este artículo explica cómo lograr esto.
+## **Escenarios de uso posibles**
 
-## **Exportar rango de Cells en una hoja de trabajo a imagen**
+Puede hacer una imagen de una hoja de cálculo utilizando Aspose.Cells. Sin embargo, a veces necesita exportar solo un rango de celdas en una hoja de cálculo a una imagen. Este artículo explica cómo lograrlo.
 
- Para tomar una imagen de un rango, configure el área de impresión en el rango deseado y luego configure todos los márgenes en 0. Configure también[**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet) a**verdadero** . El siguiente código toma una imagen del rango D8:G16. A continuación se muestra una captura de pantalla de la[ejemplo de archivo de Excel](47153160.xlsx) utilizado en el código. Puedes probar el código con cualquier archivo de Excel.
+## **Exportar un rango de celdas en una hoja de cálculo a una imagen**
 
-## **Captura de pantalla del archivo Excel de muestra y su imagen exportada**
+Para tomar una imagen de un rango, establezca el área de impresión en el rango deseado y luego establezca todos los márgenes en 0. También establezca [**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet) a **true**. El siguiente código toma una imagen del rango D8:G16. A continuación se muestra una captura de pantalla del [archivo de Excel de muestra](47153160.xlsx) utilizado en el código. Puede probar el código con cualquier archivo de Excel.
 
-**![todo:image_alt_text](exportar-rango-de-celdas-en-una-hoja-de-trabajo-a-image_1.png)**
+## **Captura de pantalla del archivo de Excel de muestra y su imagen exportada**
 
-Ejecutar el código crea una imagen del rango D8: G16 solamente.
+**![todo:image_alt_text](export-range-of-cells-in-a-worksheet-to-image_1.png)**
 
-**![todo:image_alt_text](Imagen-Salida.png)**
+Al ejecutar el código se crea una imagen del rango D8:G16 solamente.
+
+**![todo:image_alt_text](Output-Image.png)**
 
 ## **Código de muestra**
 

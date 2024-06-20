@@ -1,445 +1,377 @@
-﻿---
-title: إدراج صور وأشكال لملفات Excel.
+---
+title: إدراج الصور والأشكال في ملفات إكسيل.
 linktitle: الأشكال
 type: docs
 weight: 140
 url: /ar/net/insert-shapes/
-description: إدارة الصور والكائنات والأشكال في ملفات Excel.
+description: إدارة الصور، الكائنات ole والأشكال في ملفات إكسيل.
 ---
+
 {{% alert color="primary" %}}
 
-تحتاج أحيانًا إلى إدراج بعض الأشكال الضرورية في ورقة العمل ، وقد تحتاج إلى إدراج نفس الشكل في مواضع مختلفة من ورقة العمل ، أو قد تحتاج إلى إدخال أشكال مجمعة في ورقة العمل.
+في بعض الأحيان قد تحتاج إلى إدراج بعض الأشكال الضرورية في ورقة العمل. قد تحتاج إلى إدراج نفس الشكل في مواقع مختلفة في ورقة العمل. أو قد تحتاج إلى إدراج أشكال بشكل دُفعي في ورقة العمل.
 
- لا تقلق![Aspose.Cells](https://products.aspose.com/cells/)يدعم كل هذه العمليات.
+لا تقلق! [Aspose.Cells](https://products.aspose.com/cells/) تدعم جميع هذه العمليات.
 
 {{% /alert %}}
 
-تنقسم الأشكال في برنامج Excel بشكل أساسي إلى الأنواع التالية:
+الأشكال في إكسل تنقسم أساسًا إلى الأنواع التالية:
 - **الصور**
-- **OleObjects**
-- **خطوط**
+- **الكائنات OLE**
+- **الخطوط**
 - **المستطيلات**
 - **الأشكال الأساسية**
-- **أسهم بلوك**
+- **السهام البلوكية**
 - **أشكال المعادلة**
-- **مخططات انسيابية**
-- **النجوم واللافتات**
-- **وسائل الشرح**
+- **رسوم بيانية لسير العمل**
+- **النجوم والرايات**
+- **التلويحات**
 
- ستحدد وثيقة الدليل هذه شكلاً أو شكلين من كل نوع لعمل عينات ، ومن خلال هذه الأمثلة سوف تتعلم كيفية الاستخدام[Aspose.Cells](https://products.aspose.com/cells/) لإدراج الشكل المحدد في ورقة العمل.
+سيتم في هذا الدليل اختيار شكل أو اثنين من كل نوع لإنشاء أمثلة. من خلال هذه الأمثلة، ستتعلم كيفية استخدام [Aspose.Cells](https://products.aspose.com/cells/) لإدراج الشكل المحدد في ورقة العمل.
 
-## **إضافة الصور في ورقة عمل Excel في C#**
+## **إضافة الصور في ورقة عمل إكسل في س#**
 
-من السهل جدًا إضافة الصور إلى جدول البيانات. لا يتطلب الأمر سوى بضعة أسطر من التعليمات البرمجية:
- ما عليك سوى الاتصال بـ[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) طريقة[**الصور**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) مجموعة (مغلفة في ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) موضوع). ال[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)تأخذ الطريقة المعلمات التالية:
+إضافة الصور إلى جدول بيانات سهل للغاية. يستغرق الأمر سوى بضعة أسطر من الكود:
+اتصل ببساطة بالطريقة [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) لمجموعة [**Pictures**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection)، المغلفة في كائن [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). تأخذ الطريقة [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) المعاملات التالية:
 
-- **فهرس الصف العلوي الأيسر**، فهرس الصف العلوي الأيسر.
-- **فهرس العمود الأيسر العلوي**، فهرس العمود الأيسر العلوي.
-- **اسم ملف الصورة**، اسم ملف الصورة ، كامل مع المسار.
+- **فهرس الصف الأعلى الأيسر**، فهرس الصف الأعلى.
+- **فهرس العمود الأعلى الأيسر**، فهرس العمود الأعلى.
+- **اسم ملف الصورة**، اسم ملف الصورة، مع المسار الكامل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-AddingPictures-1.cs" >}}
 
 
-## **إدراج كائنات OLE في ورقة عمل Excel في C#**
+## **إدراج كائنات OLE في ورقة العمل إكسل في س#**
 
-يدعم Aspose.Cells إضافة واستخراج ومعالجة كائنات OLE في أوراق العمل. لهذا السبب ، يمتلك Aspose.Cells الامتداد[**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) فئة ، تستخدم لإضافة كائن OLE جديد إلى قائمة المجموعة. فئة أخرى ،[**كائن أوله**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject)، يمثل كائن OLE. لها بعض الأعضاء المهمين:
+تدعم Aspose.Cells إضافة واستخراج وتلاعب بكائنات OLE في الأوراق العمل. لهذا السبب، لديها Aspose.Cells [**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) الفئة التي تُستخدم لإضافة كائن OLE جديد إلى قائمة المجموعة. فئة أُخرى، [**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject)، تمثل كائن OLE. لها بعض الأعضاء المهمة:
 
--  ال[**بيانات الصورة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)تحدد الخاصية بيانات الصورة (الرمز) لنوع مصفوفة البايت. سيتم عرض الصورة لإظهار كائن OLE في ورقة العمل.
--  ال[**بيانات الكائن**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)تحدد الخاصية بيانات الكائن في شكل مصفوفة بايت. سيتم عرض هذه البيانات في البرنامج ذي الصلة عند النقر نقرًا مزدوجًا فوق رمز كائن OLE.
+- تحدد الخاصية [**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata) بيانات الصورة (الرمز) من نوع مصفوفة بايت. سيتم عرض الصورة لعرض كائن OLE في ورقة العمل.
+- تحدد الخاصية [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata) بيانات الكائن بشكل مصفوفة بايت. سيتم عرض هذه البيانات في البرنامج المرتبط بها عند النقر المزدوج على أيقونة كائن OLE.
 
-يوضح المثال التالي كيفية إضافة كائن (كائنات) OLE إلى ورقة عمل.
+المثال التالي يوضح كيفية إضافة كائنات OLE إلى ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
-## **إدراج سطر في ورقة عمل Excel في C#**
+## **إدراج خط في ورقة Excel في C#**
 
- شكل الخط ينتمي إلى**خطوط** الفئة.
+شكل الخط ينتمي إلى فئة ال**خطوط**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج الخط
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
-- ثم حدد السطر من "الأشكال المستخدمة مؤخرًا" أو "الخطوط"
+- حدد الخلية التي تريد إدراج الخط فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد الخط من 'الأشكال المستخدمة مؤخرًا' أو 'الخطوط'.
 
 ![](line.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج سطر في ورقة العمل.
+يمكنك استخدام الطريقة التالية لإدراج خط في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الخط العام لشكل الخط الإضافي (
- int upperLeftRow ،
- قمة int ،
- int upperLeftColumn ،
- اليسار int ،
- ارتفاع كثافة العمليات ،
- عرض كثافة العمليات
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- تقوم الطريقة بإرجاع ملف[شكل خط](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) موضوع.
+تُرجع الطريقة كائن [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج سطر في ورقة العمل.
+يظهر المثال التالي كيفية إدراج خط في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Line.cs" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](line2.png)
 
 
 
-## **إدراج سهم خط في ورقة عمل Excel في C#**
+## **إدراج سهم خط في ورقة Excel في C#**
 
- شكل سهم الخط ينتمي إلى**خطوط** فئة وهي حالة خاصة من الخط.
+شكل سهم الخط ينتمي إلى فئة **الخطوط**. إنه حالة خاصة من الخط.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج سهم الخط
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
-- ثم حدد سهم الخط من "الأشكال المستخدمة مؤخرًا" أو "الخطوط"
+- حدد الخلية التي تريد إدراج سهم الخط فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد سهم الخط من 'الأشكال المستخدمة مؤخرًا' أو 'الخطوط'.
 
 ![](line_arrow1.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
 يمكنك استخدام الطريقة التالية لإدراج سهم خط في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الخط العام لشكل الخط الإضافي (
- int upperLeftRow ،
- قمة int ،
- int upperLeftColumn ،
- اليسار int ،
- ارتفاع كثافة العمليات ،
- عرض كثافة العمليات
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn,	int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- تقوم الطريقة بإرجاع ملف[شكل خط](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) موضوع.
+تُرجع الطريقة كائن [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج سهم الخط في ورقة العمل.
+المثال التالي يوضح كيفية إدراج سهم خط في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-LineArrow.cs" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](line_arrow2.png)
 
 
 
-## **إدخال مستطيل في ورقة عمل Excel في C#**
+## **إدراج مستطيل في ورقة العمل Excel باستخدام C#**
 
- شكل المستطيل ينتمي إلى**المستطيلات** الفئة.
+شكل المستطيل ينتمي إلى فئة **المستطيلات**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج المستطيل
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
-- ثم حدد المستطيل من "الأشكال المستخدمة حديثًا" أو "المستطيلات"
+- حدد الخلية التي تريد إدراج المستطيل فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم اختر المستطيل من 'الأشكال المستخدمة مؤخرًا' أو 'المستطيلات'
 
 ![](rectangle.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
 يمكنك استخدام الطريقة التالية لإدراج مستطيل في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[مستطيل عام شكل إضافة مستطيل (
- int upperLeftRow ،
- قمة int ،
- int upperLeftColumn ،
- اليسار int ،
- ارتفاع كثافة العمليات ،
- عرض كثافة العمليات
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
+[**public RectangleShape AddRectangle(int upperLeftRow,	int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
 
- تقوم الطريقة بإرجاع ملف[شكل مستطيل](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) موضوع.
+تعيد الطريقة كائن [RectangleShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج مستطيل في ورقة عمل.
+المثال التالي يوضح كيفية إدراج مستطيل في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Rectangle.cs" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](rectangle2.png)
 
 
 
-## **إدراج مكعب في ورقة عمل Excel في C#**
+## **إدراج مكعب في ورقة العمل في Excel باستخدام C#**
 
-شكل المكعب ينتمي إلى**الأشكال الأساسية** الفئة.
+شكل المكعب ينتمي إلى فئة **الأشكال الأساسية**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج المكعب
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد المكعب من**الأشكال الأساسية**
+- حدد الخلية التي تريد إدراج المكعب فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد المكعب من **الأشكال الأساسية**
 
 ![](cube.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج مكعب في ورقة العمل.
+يمكنك استخدام الطريقة التالية لإدراج مكعب في الورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام AddAutoShape (
- نوع AutoShapeType ،
- int upperLeftRow ،
- قمة int ،
- int upperLeftColumn ،
- اليسار int ،
- ارتفاع كثافة العمليات ،
- عرض كثافة العمليات
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
+تعيد الطريقة كائن [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج مكعب في ورقة عمل.
+المثال التالي يوضح كيفية إدراج مكعب في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Cube.cs" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](cube2.png)
 
 
 
-## **إدراج سهم وسيلة شرح رباعي في ورقة عمل Excel في C#**
+## **إدراج سهم رباعي القطب إلى ورقة العمل في Excel باستخدام C#**
 
- شكل سهم وسيلة الشرح الرباعي ينتمي إلى**أسهم بلوك** الفئة.
+شكل سهم مربعي الدعوة ينتمي إلى فئة **السهام الكتلية**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج سهم وسيلة الشرح الرباعية
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد سهم وسيلة الشرح الرباعي من**أسهم بلوك**
+- حدد الخلية التي تريد إدراج سهم المربعي الدعوة فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد سهم المربعي الدعوة من **السهام الكتلية**
 
 ![](callout_quad_arrow.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج سهم رباعي وسيلة الشرح في ورقة العمل.
+يمكنك استخدام الطريقة التالية لإدراج سهم رباعي الاتصال في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام AddAutoShape (
- نوع AutoShapeType ،
- int upperLeftRow ،
- قمة int ،
- int upperLeftColumn ،
- اليسار int ،
- ارتفاع كثافة العمليات ،
- عرض كثافة العمليات
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
+تعيد الطريقة كائن [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج سهم وسيلة الشرح الرباعي في ورقة عمل.
+المثال التالي يُظهر كيفية إدراج سهم رباعي الاتصال في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.cs" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](callout_quad_arrow2.png)
 
 
 
-## **إدخال علامة الضرب في ورقة عمل Excel في C#**
+## **إدراج علامة الضرب في ورقة عمل Excel في C#**
 
- شكل علامة الضرب ينتمي إلى**أشكال المعادلة** الفئة.
+شكل علامة الضرب ينتمي إلى فئة **أشكال المعادلة**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج علامة الضرب
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد علامة الضرب من**أشكال المعادلة**
+- حدد الخلية التي ترغب في إدراج علامة الضرب فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد علامة الضرب من **أشكال المعادلة**
 
 ![](multiplication_sign.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
 يمكنك استخدام الطريقة التالية لإدراج علامة الضرب في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام AddAutoShape (
- نوع AutoShapeType ،
- int upperLeftRow ،
- قمة int ،
- int upperLeftColumn ،
- اليسار int ،
- ارتفاع كثافة العمليات ،
- عرض كثافة العمليات
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
+تعيد الطريقة كائن [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج علامة الضرب في ورقة العمل.
+المثال التالي يُظهر كيفية إدراج علامة الضرب في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.cs" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](multiplication_sign2.png)
 
 
 
-## **إدخال مستند متعدد في ورقة عمل Excel في C#**
+## **إدراج وثيقة متعددة في ورقة Excel بلغة C#**
 
- شكل المستندات المتعددة ينتمي إلى**مخططات انسيابية** الفئة.
+شكل مستند متعدد الوثائق ينتمي إلى فئة **الرسوم البيانية للتدفقات**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج المستند المتعدد
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد مستند متعدد من**مخططات انسيابية**
+- حدد الخلية التي ترغب في إدراج مستند متعدد الوثائق فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم اختر مستند متعدد الوثائق من **الرسوم البيانية للتدفقات**
 
 ![](multidocument.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج مستند متعدد في ورقة العمل.
+يمكنك استخدام الطريقة التالية لإدراج مستند متعدد الوثائق في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام AddAutoShape (
- نوع AutoShapeType ،
- int upperLeftRow ،
- قمة int ،
- int upperLeftColumn ،
- اليسار int ،
- ارتفاع كثافة العمليات ،
- عرض كثافة العمليات
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
+تعيد الطريقة كائن [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج مستند متعدد في ورقة عمل.
+المثال التالي يوضح كيفية إدراج مستند متعدد الوثائق في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Multidocument.cs" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](multidocument2.png)
 
 
 
-## **إدخال نجمة خماسية في ورقة عمل Excel في C#**
+## **إدراج نجمة خماسية إلى ورقة العمل في Excel باستخدام C#**
 
- شكل النجمة الخماسية ينتمي إلى**النجوم واللافتات** الفئة.
+شكل النجمة المؤلفة من خمس نقاط ينتمي إلى فئة **النجوم والرايات**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج النجمة الخماسية
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد النجمة الخماسية من**النجوم واللافتات**
+- حدد الخلية التي ترغب في إدراج النجمة المؤلفة من خمس نقاط فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم اختر النجمة المؤلفة من خمس نقاط من **النجوم والرايات**
 
 ![](star_5_points.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج نجمة خماسية في ورقة العمل.
+يمكنك استخدام الأسلوب التالي لإدراج نجمة ذات خمس نقاط في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام AddAutoShape (
- نوع AutoShapeType ،
- int upperLeftRow ،
- قمة int ،
- int upperLeftColumn ،
- اليسار int ،
- ارتفاع كثافة العمليات ،
- عرض كثافة العمليات
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
+تعيد الطريقة كائن [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج نجمة خماسية في ورقة العمل.
+توضح النموذج التالي كيفية إدراج نجمة ذات خمس نقاط في ورق عمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-FivePointedStar.cs" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](star_5_points2.png)
 
 
 
-## **إدراج سحابة فقاعية فكرية في ورقة عمل Excel في C#**
+## **إدراج سحابة فكرية إلى ورقة العمل في Excel باستخدام C#**
 
- شكل سحابة فقاعة الفكر ينتمي إلى**وسائل الشرح** الفئة.
+شكل سحابة الفكر ينتمي إلى فئة **المكالمات**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج سحابة الفقاعة الفكرية
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد سحابة الفقاعة الفكرية من**وسائل الشرح**
+- حدد الخلية التي تريد إدراج سحابة الفكر فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد سحابة الفكر من **المكالمات**
 
 ![](thought_bubble_cloud.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج سحابة فقاعية في ورقة العمل.
+يمكنك استخدام الأسلوب التالي لإدراج سحابة فكرية في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام AddAutoShape (
- نوع AutoShapeType ،
- int upperLeftRow ،
- قمة int ،
- int upperLeftColumn ،
- اليسار int ،
- ارتفاع كثافة العمليات ،
- عرض كثافة العمليات
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
+تعيد الطريقة كائن [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج سحابة فقاعية فكرية في ورقة عمل.
+المثال التالي يوضح كيفية إدراج سحابة فكرية في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.cs" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](thought_bubble_cloud2.png)
 
-## **موضوعات مسبقة**
-- [تغيير قيم الضبط للشكل](/cells/ar/net/change-adjustment-values-of-the-shape/)
+## **مواضيع متقدمة**
+- [تغيير قيم التعديل للشكل](/cells/ar/net/change-adjustment-values-of-the-shape/)
 - [نسخ الأشكال بين أوراق العمل](/cells/ar/net/copy-shapes-between-worksheets/)
-- [البيانات في شكل غير بدائي](/cells/ar/net/data-in-non-primitive-shape/)
-- [البحث عن الموضع المطلق للشكل داخل ورقة العمل](/cells/ar/net/finding-absolute-position-of-shape-inside-the-worksheet/)
-- [احصل على نقاط الاتصال من الشكل](/cells/ar/net/get-connection-points-from-shape/)
+- [البيانات في شكل غير مبدل](/cells/ar/net/data-in-non-primitive-shape/)
+- [العثور على الموضع المطلق للشكل داخل الورقة العمل](/cells/ar/net/finding-absolute-position-of-shape-inside-the-worksheet/)
+- [الحصول على نقاط الاتصال من الشكل](/cells/ar/net/get-connection-points-from-shape/)
 - [إدارة الضوابط](/cells/ar/net/managing-controls/)
-- [أضف أيقونات إلى ورقة العمل](/cells/ar/net/insert-svg-to-excel/)
+- [إضافة رموز إلى ورقة العمل](/cells/ar/net/insert-svg-to-excel/)
 - [إدارة كائنات OLE](/cells/ar/net/managing-ole-objects/)
 - [إدارة الصور](/cells/ar/net/managing-pictures/)
-- [إدارة الفن الذكي](/cells/ar/net/managing-smartart/)
-- [إدارة TextBox](/cells/ar/net/managing-textbox-of-excel/)
-- [أضف علامة WordArt المائية إلى ورقة العمل](/cells/ar/net/add-wordart-watermark-to-worksheet/)
-- [قم بتحديث قيم الأشكال المرتبطة](/cells/ar/net/refresh-values-of-linked-shapes/)
-- [أرسل Shape Front أو Back داخل ورقة العمل](/cells/ar/net/send-shape-front-or-back-inside-the-worksheet/)
+- [إدارة الذكاء الفني](/cells/ar/net/managing-smartart/)
+- [إدارة مربع النص](/cells/ar/net/managing-textbox-of-excel/)
+- [إضافة كلمة WaterArt كعلامة مائية إلى ورقة العمل](/cells/ar/net/add-wordart-watermark-to-worksheet/)
+- [تحديث القيم للأشكال المرتبطة](/cells/ar/net/refresh-values-of-linked-shapes/)
+- [إرسال الشكل إلى الأمام أو الوراء داخل ورقة العمل](/cells/ar/net/send-shape-front-or-back-inside-the-worksheet/)
 - [إدارة خيارات الشكل](/cells/ar/net/managing-shape-options/)
 - [إدارة خيارات نص الشكل](/cells/ar/net/managing-shape-text-options/)
-- [ملحقات الويب - الوظائف الإضافية للمكتب](/cells/ar/net/web-extensions-office-add-ins/)
+- [ملحقات الويب - إضافات الأوفيس](/cells/ar/net/web-extensions-office-add-ins/)
 

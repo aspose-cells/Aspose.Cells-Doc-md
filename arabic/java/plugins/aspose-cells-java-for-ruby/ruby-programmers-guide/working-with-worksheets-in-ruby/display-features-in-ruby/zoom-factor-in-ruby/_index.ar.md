@@ -1,15 +1,16 @@
-﻿---
-title: عامل الزوم في روبي
+---
+title: عامل التكبير في روبي
 type: docs
 weight: 90
 url: /ar/java/zoom-factor-in-ruby/
 ---
+
 ## **Aspose.Cells - عامل التكبير**
- لتعيين عامل التكبير باستخدام**Aspose.Cells Java لروبي** ، ببساطة استدعاء**عامل التكبير** وحدة.
+لضبط عامل التكبير باستخدام **Aspose.Cells Java for Ruby**, قم ببساطة بإستدعاء وحدة **ZoomFactor**.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ workbook.save(data_dir + "output.xls")
 puts "Set zoom factor, please check the output file."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**عامل التكبير (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل  **Zoom Factor (Aspose.Cells)** من أي من المواقع الإجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/zoomfactor.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/zoomfactor.rb)

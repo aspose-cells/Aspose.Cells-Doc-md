@@ -1,15 +1,16 @@
-﻿---
-title: Implementera Subtotal eller Grand Total-etiketter på andra språk
+---
+title: Implementera subtotal eller grand total märken på andra språk
 type: docs
 weight: 40
 url: /sv/java/implement-subtotal-or-grand-total-labels-in-other-languages/
 ---
-## **Möjliga användningsscenarier**
-Ibland vill du visa delsumma och totalsumma etiketter på icke-engelska språk som kinesiska, japanska, arabiska, hindi etc. Aspose.Cells låter dig göra detta med[Globaliseringsinställningar](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) klass och[WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) fast egendom. Se den här artikeln om hur du använder den[Globaliseringsinställningar](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)klass
 
-- [Använda klassen GlobalizationSettings för anpassade delsummaetiketter och andra cirkeletiketter](/cells/sv/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
-## **Implementera Subtotal eller Grand Total-etiketter på andra språk**
- Följande exempelkod laddar[exempel på excel-fil](5472584.xlsx) och implementerar delsumma och totala namn i*kinesiska* språk. Vänligen kontrollera[output excel-fil](5472587.xlsx) genereras av den här koden för din referens.
+## **Möjliga användningsscenario**
+Ibland vill du visa subtotaler och grand total-märken på icke-engelska språk som kinesiska, japanska, arabiska, hindi osv. Aspose.Cells tillåter dig att göra detta med hjälp av klassen [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) och egenskapen [WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings). Se denna artikel om hur du använder klassen [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings).
+
+- [Användning av klassen GlobalizationSettings för anpassade subtotalmärken och andra märken för cirkeldiagram](/cells/sv/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
+## **Implementera subtotal eller grand total-märken på andra språk**
+Följande exempelkod laddar [provexcelfil](5472584.xlsx) och implementerar subtotal- och grand total-namnen på *kinesiska* språket. Vänligen kontrollera [utdatexcelfilen](5472587.xlsx) som genereras av denna kod för din referens.
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GlobalizationSettingsImp-GlobalizationSettingsImp.java" >}}
 

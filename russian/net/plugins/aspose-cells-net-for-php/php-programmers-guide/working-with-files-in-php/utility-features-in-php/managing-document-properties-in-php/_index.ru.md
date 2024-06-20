@@ -1,15 +1,16 @@
-﻿---
+---
 title: Управление свойствами документа в PHP
 type: docs
 weight: 30
 url: /ru/net/managing-document-properties-in-php/
 ---
-## **Aspose.Cells — Управление свойствами документа**
-Управление свойствами документа Microsoft файла Excel
+
+## **Aspose.Cells - Управление свойствами документа**
+Управление свойствами документа в файле Microsoft Excel
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -78,7 +79,7 @@ url: /ru/net/managing-document-properties-in-php/
         $ptr->Call($workbook,"Save",array($dataDir . "/Test_Workbook_RemovedProperty.xls"));
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Управление свойствами документа (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Управление свойствами документа (Aspose.Cells)** c любого из указанных ниже социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

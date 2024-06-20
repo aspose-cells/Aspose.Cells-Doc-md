@@ -1,16 +1,17 @@
-﻿---
-title: Преобразовать диаграмму в изображения
+---
+title: Преобразование Диаграммы в изображения
 type: docs
 weight: 10
 url: /ru/net/convert-chart-to-images/
 ---
+
 ## **Aspose.Cells - Преобразование диаграммы в изображения**
-Диаграммы визуально привлекательны и позволяют пользователям легко видеть сравнения, закономерности и тенденции в данных.
-Метод toImage класса Chart преобразует диаграмму в файл изображения, который можно сохранить на диск или в поток.
+Диаграммы визуально привлекательны и позволяют пользователям увидеть сравнения, закономерности и тенденции в данных.
+Метод toImage класса Chart преобразует диаграмму в файл изображения, который можно сохранить на диск или поток.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -63,13 +64,13 @@ Chart chart = charts[chartIndex];
 chart.ToImage("AsposeChartImage.png", ImageFormat.Png);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Преобразовать диаграмму в изображения** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Преобразование диаграммы в изображения** с любого из упомянутых ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Преобразование диаграммы в изображение](/cells/ru/net/converting-chart-to-image-in-svg-format/).
+Для получения более подробной информации посетите [Преобразование диаграммы в изображение](/cells/ru/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}

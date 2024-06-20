@@ -1,15 +1,16 @@
-﻿---
-title: PHP'de Belge Özelliklerini Yönetme
+---
+title: PHP de Belge Özelliklerini Yönetme
 type: docs
 weight: 70
 url: /tr/java/managing-document-properties-in-php/
 ---
+
 ## **Aspose.Cells - Özel Özellikler Ekleme**
-Aspose.Cells Java for PHP'i kullanarak özel belge özellikleri eklemek için arayın**add_custom_property** yöntemi**belge** modül.
+Aspose.Cells Java'yı PHP için kullanarak özel belge özellikleri eklemek için, **Döküman** modülünün **add_custom_property** yöntemini çağırın.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -46,6 +47,6 @@ $workbook->save($dataDir . "Test_Workbook_RemovedProperty.xls");
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belge Özelliklerine Erişme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Belge Özelliklerine Erişme (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

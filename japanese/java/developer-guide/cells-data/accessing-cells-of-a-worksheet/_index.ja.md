@@ -1,34 +1,35 @@
-﻿---
-title: ワークシートの Cells へのアクセス
+---
+title: ワークシートのセルへのアクセス
 type: docs
 weight: 10
 url: /ja/java/accessing-cells-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-すべてのワークシートには、基本的にセル (ワークシートを構成するセル) に格納されているデータが含まれている可能性があることがわかっています。セルは、一連の行と列としてワークシート全体を構築するために使用されるワークシートの基本的な部分です。ワークシートからデータにアクセスする前に、そのセルにアクセスする必要があります。したがって、このトピックでは、実行時に Aspose.Cells を使用してワークシート セルにアクセスするための基本的な方法について説明します。
+すべてのワークシートには基本的にセル（ワークシートが構成されている）に格納されているデータが含まれることを知っています。セルはワークシートの基本部分であり、ワークシート全体を行と列の連続として構築するために使用されます。ワークシートからデータにアクセスしようとする前に、そのセルにアクセスする必要があります。したがって、このトピックでは、Aspose.Cellsを使用して実行時にワークシートのセルにアクセスするための基本的なアプローチについて説明します。
 
 {{% /alert %}} 
-## **Cellsにアクセス**
-Aspose.Cells はクラスを提供し、[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)Microsoft Excel ファイルを表します。の[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには[ワークシート コレクション](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)Excel ファイル内の各ワークシートにアクセスできるコレクション。ワークシートは、[ワークシート](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラス。の[ワークシート](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラスは[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)ワークシート内のすべてのセルを表すコレクション。
+## **セルへのアクセス**
+Aspose.Cellsは、Microsoft Excelファイルを表す[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスを提供しています。 [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスできる[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)コレクションが含まれています。ワークシートは[Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラスで表されます。 [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラスは、ワークシート内のすべてのセルを表す[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションを提供します。
 
-を使用できます[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)ワークシートのセルにアクセスするためのコレクション。 Aspose.Cells は、セルにアクセスするためのさまざまな基本的なアプローチを提供します。
+Aspose.Cellsは、セルへのアクセスのための異なる基本的なアプローチを提供しています：
 
-1. [セル名の使用](/cells/ja/java/accessing-cells-of-a-worksheet/).
-1. [行と列のインデックスの使用](/cells/ja/java/accessing-cells-of-a-worksheet/).
-### **Cell名を使用**
-開発者は、セル名を[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)のコレクション[ワークシート](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラス。
+1. [セル名を使用](/cells/ja/java/accessing-cells-of-a-worksheet/)
+1. [行＆列インデックスを使用](/cells/ja/java/accessing-cells-of-a-worksheet/)
+### **セル名の使用**
+開発者は、ワークシートの[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションにそのセル名を渡すことで、任意の特定のセルにアクセスできます。
 
-最初に空白のワークシートを作成すると、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションはゼロです。このアプローチを使用してセルにアクセスすると、このセルがコレクションに存在するかどうかがチェックされます。はいの場合、コレクション内のセル オブジェクトを返します。それ以外の場合は、新しいセル オブジェクトを作成します。[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)オブジェクト、オブジェクトを[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションを作成し、オブジェクトを返します。 Microsoft Excel に慣れている場合、このアプローチはセルにアクセスする最も簡単な方法ですが、他のアプローチよりも遅くなります。
+開始時に空のワークシートを作成した場合、[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションの数はゼロです。このアプローチを使用してセルにアクセスすると、そのセルがコレクションに存在するかどうかをチェックし、存在する場合はそれを返します。存在しない場合は、新しい[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) オブジェクトを作成し、そのオブジェクトを[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションに追加してから返します。Microsoft Excelに精通している場合、このアプローチはセルにアクセスする一番簡単な方法ですが、他のアプローチよりも遅くなります。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UsingCellName-UsingCellName.java" >}}
 
 
 
-### **Cell の行と列のインデックスを使用する**
-開発者は、行と列のインデックスを[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)のコレクション[ワークシート](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラス。
+### **セルの行と列のインデックスの使用**
+開発者は、その行と列のインデックスを[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションに渡すことで、任意の特定のセルにアクセスできます。
 
-このアプローチは、最初のアプローチと同じように機能します。
+このアプローチは第1のアプローチと同じように機能します。
 
 
 
@@ -40,19 +41,19 @@ Aspose.Cells はクラスを提供し、[ワークブック](https://reference.a
 
 {{% /alert %}} 
 ## **ワークシートの最大表示範囲へのアクセス**
-Aspose.Cells を使用すると、開発者はワークシートの最大表示範囲にアクセスできます。最大表示範囲 (内容のある最初のセルと最後のセルの間のセルの範囲) は、ワークシートの内容全体をイメージでコピー、選択、または表示する必要がある場合に役立ちます。
+Aspose.Cellsは、ワークシートの最大表示範囲にアクセスすることができます。最大表示範囲(コンテンツを持つ最初のセルと最後のセルの範囲)は、ワークシート全体の内容をコピー、選択、または表示する必要がある場合に便利です。
 
-を使用して、ワークシートの最大表示範囲にアクセスできます。[Worksheet.getCells().getMaxDisplayRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange).
+ワークシートの最大表示範囲には、[Worksheet.getCells().getMaxDisplayRange()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange)を使用してアクセスできます。
 
-次の図では、選択したワークシートの最大表示範囲は A1:G15 です。
+次の図には、選択したワークシートの最大表示範囲がA1：G15に示されています。
 
-**このワークシートの最大表示範囲を表示しています** 
+**このワークシートの最大表示範囲を表示する** 
 
-![todo:画像_代替_文章](accessing-cells-of-a-worksheet_1.png)
+![todo:image_alt_text](accessing-cells-of-a-worksheet_1.png)
 
-次のサンプル コードは、[MaxDisplayRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange)財産。コードは次の出力を生成します。
+以下のサンプルコードは、[MaxDisplayRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange) プロパティにアクセスする方法を示しています。コードは次の出力を生成します。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Maximum Display Range: =Sheet1!$A$1:$G$15
 

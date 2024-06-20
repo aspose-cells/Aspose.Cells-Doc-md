@@ -1,35 +1,36 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.3.2
+---
+title: معدلات واجهة برمجة التطبيقات العامة في Aspose.Cells 8.3.2
 type: docs
 weight: 130
 url: /ar/java/public-api-changes-in-aspose-cells-8-3-2/
 ---
-{{% alert color="primary" %}} 
-
- يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.3.1 إلى 8.3.2 والتي قد تهم مطوري الوحدة النمطية / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/java/public-api-changes-in-aspose-cells-8-3-2/) و[الفئات المحذوفة وما إلى ذلك.](/cells/ar/java/public-api-changes-in-aspose-cells-8-3-2/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
-
-{{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **آلية لتعيين الوضع المطلق لـ PivotItem**
- من أجل توفير الميزة[وضع PivotItem المطلق](/cells/ar/java/specifying-the-absolute-position-of-the-pivot-item/)، أظهر Aspose.Cells for Java 8.3.2 سلسلة من الخصائص وطريقة كما هو موضح أدناه.
-
-- يمكن استخدام PivotItem.setPosition لتعيين فهرس الموضع في جميع عناصر PivotItems بغض النظر عن العقدة الأصلية.
-- يمكن استخدام PivotItem.setPositionInSameParentNode لتعيين فهرس الموضع في PivotItems ضمن نفس العقدة الأصلية.
-- يمكن استخدام طريقة PivotItem.move (عدد صحيح ، منطقي isSameParent) لتحريك العنصر لأعلى أو لأسفل استنادًا إلى قيمة العد ، حيث يكون العدد هو رقم الموضع لتحريك PivotItem لأعلى أو لأسفل. إذا كانت قيمة العد أقل من الصفر ، فسيتم نقل العنصر لأعلى حيث كما لو كانت قيمة العد أكبر من الصفر ، سينتقل PivotItem إلى أسفل ، والنوع المنطقي هو نفس المعلمة الأصلية تحدد ما إذا كان يجب تنفيذ عملية النقل في نفس العقدة الأصلية أم لا.
 
 {{% alert color="primary" %}} 
 
-يرجى ملاحظة أنه من الضروري استدعاء أساليب PivotTable.refreshData و PivotTable.calculateData قبل استخدام PivotItem.setPosition و PivotItem.setPositionInSameParentNode و PivotItem.move (عدد int ، bool isSameParent).
+وصف هذا المستند التغييرات في واجهة برمجة التطبيقات API من Aspose.Cells من الإصدار 8.3.1 إلى 8.3.2 التي قد تكون مثيرة لاهتمام مطوّري الوحدات / التطبيق. يتضمن الآشياء الجديدة والمُحدّثة للطرق العامة، [الفصول المضافة وما إضافة والمزيد](/cells/ar/java/public-api-changes-in-aspose-cells-8-3-2/) و[الفصول المزالة وما إزالة](/cells/ar/java/public-api-changes-in-aspose-cells-8-3-2/)، بالإضافة إلى وصف لأي تغييرات في السلوك الداخلي في Aspose.Cells.
 
 {{% /alert %}} 
-### **تمت إضافة سطر توقيع الفصل**
-Aspose.Cells 8.3.2 يوفر الدعم لخط التوقيع لتقليد الميزة المكافئة لبرنامج MS Excel. كشف هذا الإصدار عن فئة SignatureLine وخاصية Picture.SignatureLine لهذا الغرض.
+## **واجهات برمجة التطبيقات الجديدة**
+### **آلية لوضع الموقع المطلق لـ PivotItem**
+لتوفير ميزة [تحديد الموضع المطلق لعنصر الجدول المحوري](/cells/ar/java/specifying-the-absolute-position-of-the-pivot-item/)، فقد قامت Aspose.Cells for Java 8.3.2 بتعريض سلسلة من الخصائص والطريقة كما هو مدرج أدناه.
 
-يضيف نموذج التعليمات البرمجية التالي خط التوقيع باستخدام الخاصية Picture.SignatureLine إلى المصنف.
+- يمكن استخدام PivotItem.setPosition لتعيين مؤشر الموقع في جميع PivotItems بصرف النظر عن العقد الأصل.
+- يمكن استخدام PivotItem.setPositionInSameParentNode لتعيين مؤشر الموقع في PivotItems تحت نفس عقد الأصل.
+- يمكن استخدام طريقة PivotItem.move(int count, bool isSameParent) لتحريك العنصر للأعلى أو للأسفل بناءً على قيمة العدد، حيث يُمثّل العدد عدد المواقع التي يتعين نقل PivotItem إلى الأعلى أو الأسفل. إذا كانت قيمة العدد أقل من الصفر، سيتم نقل العنصر إلى الأعلى، بينما إذا كانت قيمة العدد أكبر من الصفر، سيتم نقل PivotItem إلى الأسفل، يُحدد معامل نوع Boolean isSameParent ما إذا كان يجب أن تتم عملية النقل في نفس عقد الأصل أم لا.
+
+{{% alert color="primary" %}} 
+
+يرجى ملاحظة أنه من الضروري استدعاء طرق PivotTable.refreshData و PivotTable.calculateData قبل استخدام خصائص PivotItem.setPosition و PivotItem.setPositionInSameParentNode وطريقة PivotItem.move(int count, bool isSameParent).
+
+{{% /alert %}} 
+### **تم إضافة توقيع الفئة SignatureLine**
+Aspose.Cells 8.3.2 يقدم الدعم لخطوط التوقيع لتقليد ميزة MS Excel المعادلة. لهذا الغرض، قد فتح هذا الإصدار الفئة SignatureLine وخاصية Picture.SignatureLine.
+
+الكود العيني التالي يضيف خط توقيع باستخدام خاصية Picture.SignatureLine إلى دفتر العمل.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -58,14 +59,14 @@ s.setEmail("john.doe@aspose.com");
 pic.setSignatureLine(s);
 
 {{< /highlight >}}
-### **طريقة Chart.hasAxis المضافة**
-مع إصدار v8.3.2 ، قدم Aspose.Cells API طريقة Chart.hasAxis (نوع محور نوع المحور ، منطقي هو أساسي) لتحديد ما إذا كان المخطط يحتوي على محور معين أم لا.
+### **تمت إضافة طريقة Chart.hasAxis**
+مع إصدار v8.3.2، قد قدمت واجهة برمجة التطبيقات Aspose.Cells طريقة Chart.hasAxis(AxisType axisType, bool isPrimary) لتحديد ما إكان لدى الرسم البياني محور معين أم لا.
 
-يوضح نموذج التعليمات البرمجية التالي استخدام أسلوب Chart.hasAxis لتحديد ما إذا كان المخطط النموذجي يحتوي على محور أساسي وثانوي وقيمة.
+يُظهر الكود العيني التالي استخدام طريقة Chart.hasAxis لتحديد ما إكان لدى الرسم البياني عيني، ثانوي وقيمة المحور.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -98,12 +99,12 @@ ret = chart.hasAxis(AxisType.VALUE, false);
 System.out.println("Has Seconary Value Axis: " + ret);
 
 {{< /highlight >}}
-### **الأسلوب WorkbookSettings.checkWriteProtectedPassword مضاف**
-طريقة WorkbookSettings.checkWriteProtectedPassword تمكن المطورين من التحقق مما إذا كانت كلمة مرور معينة لتعديل جدول البيانات صحيحة أم لا.
+### **تمت إضافة طريقة WorkbookSettings.checkWriteProtectedPassword**
+تُمكّن طريقة WorkbookSettings.checkWriteProtectedPassword المطورين من التحقق مما إذا كانت كلمة المرور المعطاة لتعديل جدول البيانات صحيحة أم لا.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify password to open inside the load options
 
@@ -122,14 +123,14 @@ boolean ret = workbook.checkWriteProtectedPassword("567");
 System.out.println("Is 567 correct Password to modify: " + ret);
 
 {{< /highlight >}}
-### **طرق التحميل الزائد WorkbookRender.toPrinter و SheetRender.toPrinter المضافة**
-قدم Aspose.Cells 8.3.2 أساليب WorkbookRender.toPrinter (سلسلة printerName ، int printPageIndex ، int printPageCount) و SheetRender.toPrinter (string printerName، int printPageIndex، int printPageCount) لطباعة نطاق صفحات المصنف وورقة العمل على التوالي.
+### **تمت إضافة طرق تحميل توقيع الفئة WorkbookRender.toPrinter وSheetRender.toPrinter**
+أوفرت Aspose.Cells 8.3.2 طريقة WorkbookRender.toPrinter(string printerName, int printPageIndex, int printPageCount) وطريقة SheetRender.toPrinter(string printerName, int printPageIndex, int printPageCount) لطباعة نطاق صفحات المصنف والصفحة على التوالي.
 
-يوضح نموذج التعليمات البرمجية التالي استخدام الأساليب المذكورة أعلاه لطباعة الصفحات 2-5 من المصنف وورقة العمل.
+يوضح الكود العيني التالي استخدام الطرق المذكورة أعلاه لطباعة الصفحات 2-5 من المصنف والصفحة.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -156,30 +157,30 @@ SheetRender sr = new SheetRender(worksheet, new ImageOrPrintOptions());
 sr.toPrinter(printerName, 1, 4);
 
 {{< /highlight >}}
-### **الطريقة Worksheet.refreshPivotTables المضافة**
-تسمح الطريقة المضافة حديثًا Worksheet.refreshPivotTables بتحديث جميع الجداول المحورية في جدول بيانات معين في مكالمة واحدة.
+### **تمت إضافة طريقة Worksheet.refreshPivotTables**
+تسمح الطريقة المضافة حديثًا Worksheet.refreshPivotTables باستعادة جميع الجداول المحورية في جدول بيانات معين في استدعاء واحد.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  worksheet.refreshPivotTables();
 
 {{< /highlight >}}
-### **الأسلوب Workbook.getNamedStyle مضاف**
-كشف Aspose.Cells 8.3.2 طريقة Workbook.getNamedStyle التي تقبل السلسلة كمعامل وتسترجع كائن النمط بناءً على المعامل الذي تم تمريره.
-### **الطريقة Cells.importTwoDimensionArray مضافة**
-لقد أتاح Aspose.Cells API استيراد مصفوفات ثنائية الأبعاد لخلايا جدول البيانات عن طريق تعريض طريقة Cells.importTwoDimensionArray (كائن [،] ، كائن [،] ، int ، int ، TxtLoadOptions). تستورد الطريقة المذكورة صفيفًا ثنائي الأبعاد من البيانات في ورقة عمل بخيارات أكثر مرونة محددة في TxtLoadOptions.
-### **تمت إضافة خصائص OnePagePerSheet و PageIndex و PageCount**
-كشف Aspose.Cells for Java 8.3.2 خصائص OnePagePerSheet و PageIndex و PageCount لفئة XpsSaveOptions. يمكن للمستخدم احتواء جميع محتويات جدول البيانات على صفحة واحدة من XPS باستخدام خاصية OnePagePerSheet و / أو استرداد عدد الصفحات المراد طباعتها باستخدام خاصية PageCount. تحصل خاصية PageIndex على / تعين الفهرس الذي يستند إلى 0 للصفحة الأولى المراد حفظها.
+### **تمت إضافة طريقة Workbook.getNamedStyle**
+فتحت Aspose.Cells 8.3.2 الطريقة Workbook.getNamedStyle التي تقبل النص كمعلمة وتسترجع كائن النمط استنادًا إلى المعلمة المرسلة.
+### **تمت إضافة طريقة Cells.importTwoDimensionArray**
+أتاحت Aspose.Cells API استيراد مصفوفات ثنائية الأبعاد إلى خلايا الجداول عن طريق فتح الطريقة Cells.importTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). تقوم الطريقة المذكورة بأهمية مصفوفة ثنائية الأبعاد من البيانات إلى ورقة عمل مع خيارات مرنة أكثر تعريفها في TxtLoadOptions.
+### **تمت إضافة خصائص OnePagePerSheet وPageIndex & PageCount**
+فتحت Aspose.Cells for Java 8.3.2 خصائص OnePagePerSheet وPageIndex & PageCount لفئة XpsSaveOptions. يمكن للمستخدم إعادة ترتيب جميع محتويات جدول البيانات على صفحة واحدة من XPS باستخدام خاصية OnePagePerSheet و/أو استرجاع عدد الصفحات المطبوعة باستخدام خاصية PageCount. تحصل خاصية PageIndex على/تعيين الفهرس المعتمد على 0 لأول صفحة يتم حفظها.
 ### **تمت إضافة خصائص NumberDecimalSeparator & NumberGroupSeparator**
-قدم Aspose.Cells for Java 8.3.2 خصائص NumberDecimalSeparator & NumberGroupSeparator التي يمكنها الحصول على / تعيين الفواصل المخصصة المستخدمة لتنسيق وتحليل القيم الرقمية في جداول البيانات.
+قدمت Aspose.Cells for Java 8.3.2 خصائص NumberDecimalSeparator & NumberGroupSeparator التي يمكن الحصول/التعيين على فواصل مخصصة مستخدمة لتنسيق وتحليل القيم الرقمية في جداول البيانات.
 
-يوضح نموذج التعليمات البرمجية التالي كيفية تحديد الفواصل المخصصة باستخدام Aspose.Cells API. يحدد الكود التالي فواصل العشرية والمجموعة المخصصة كنقطة ومسافة على التوالي.
+يوضح الكود العيني التالي كيفية تحديد الفواصل المخصصة باستخدام واجهة برمجة التطبيقات Aspose.Cells. يحدد الكود التالي الفواصل المخصصة للعلامتين العشرية والمجموعة على التوالي.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook();
 
@@ -190,12 +191,12 @@ workbook.getSettings().setNumberDecimalSeparator('.');
 workbook.getSettings().setNumberGroupSeparator(' ');
 
 {{< /highlight >}}
-### **تمت إضافة الخاصية PdfSaveOptions.setFontSubstitutionCharGranularity**
-كشف Aspose.Cells for Java 8.3.2 خاصية PdfSaveOptions.setFontSubstitutionCharGranularity للتغلب على المشكلة حيث لا يمكن عرض بعض أحرف Unicode باستخدام عائلة خطوط معينة. عندما يتم تعيين خاصية PdfSaveOptions.setFontSubstitutionCharGranularity إلى "صحيح" ، سيتم تغيير خط الحرف المحدد الذي لا يمكن عرضه إلى الخط القابل للعرض ويجب أن تظل بقية الكلمة أو الجملة بالخط الأصلي.
+### **تمت إضافة خاصية PdfSaveOptions.setFontSubstitutionCharGranularity**
+فتحت Aspose.Cells for Java 8.3.2 خاصية PdfSaveOptions.setFontSubstitutionCharGranularity للتغلب على المشكلة التي قد لا يمكن فيها عرض بعض الحروف اليونيكود باستخدام عائلة الخط معينة. عند تعيين خاصية PdfSaveOptions.setFontSubstitutionCharGranularity على true، ستتم تغيير الخط الخاص بالحرف المعين الذي لا يمكن عرضه إلى خط قابل للعرض ويبقى بقية الكلمة أو الجملة في الخط الأصلي.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Save to PDF after setting PdfSaveOptions.setFontSubstitutionCharGranularity
 
@@ -204,56 +205,56 @@ PdfSaveOptions opts = new PdfSaveOptions();
 opts.setFontSubstitutionCharGranularity(true);
 
 {{< /highlight >}}
-## **إزالة واجهات برمجة التطبيقات**
-### **إزالة الطرق المتقادمة**
-تمت إزالة الأساليب التالية من API العامة.
+## **تمت إزالة واجهات برمجة التطبيقات**
+### **تمت إزالة الأساليب القديمة**
+الأساليب التالية تم إزالتها من واجهة برمجة التطبيقات العامة.
 
-- طرق Workbook.open & Workbook.save.
-- طريقة Workbook.setOleSize.
-- طريقة Workbook.loadData.
-- طرق WorkbookDesigner.open & WorkbookDesigner.save.
-- طريقة WorksheetCollection.deleteName.
-### **تمت إزالة الخصائص المتقادمة**
-تمت إزالة الخصائص التالية من API العامة.
+- أساليب Workbook.open و Workbook.save.
+- أسلوب Workbook.setOleSize.
+- أسلوب Workbook.loadData.
+- أساليب WorkbookDesigner.open و WorkbookDesigner.save.
+- أسلوب WorksheetCollection.deleteName.
+### **تمت إزالة الخصائص القديمة**
+الخصائص التالية تم إزالتها من واجهة برمجة التطبيقات العامة.
 
-- مصنف. isProtected الملكية.
-- المصنف خاصية اللغة.
-- المصنف الملكية المنطقة.
-- WorkbookSettings.ReCalcOnOpen الخاصية.
-- إعدادات المصنف. خاصية اللغة.
-- إعدادات المصنف. خاصية الترميز.
+- خاصية Workbook.isProtected.
+- خاصية Workbook.Language.
+- خاصية Workbook.Region.
+- خاصية WorkbookSettings.ReCalcOnOpen.
+- خاصية WorkbookSettings.Language.
+- خاصية WorkbookSettings.Encoding.
 - خاصية WorkbookSettings.ConvertNumericData.
-- الخاصية WorksheetCollection.HidePivotFieldList.
+- خاصية WorksheetCollection.HidePivotFieldList.
 - خاصية WorksheetCollection.EnableHTTPCompression.
-- خاصية WorksheetCollection.is المصغرة.
-- WorksheetCollection.is الخاصية المخفية.
-- الخاصية WorksheetCollection.SheetTabBarWidth.
+- خاصية WorksheetCollection.isMinimized.
+- خاصية WorksheetCollection.isHidden.
+- خاصية WorksheetCollection.SheetTabBarWidth.
 - خاصية WorksheetCollection.WindowLeft.
-- الخاصية WorksheetCollection.WindowLeftInch.
-- الخاصية WorksheetCollection.WindowLeftCM.
+- خاصية WorksheetCollection.WindowLeftInch.
+- خاصية WorksheetCollection.WindowLeftCM.
 - خاصية WorksheetCollection.WindowTop.
-- الخاصية WorksheetCollection.WindowTopInch.
-- الخاصية WorksheetCollection.WindowTopCM.
-- الخاصية WorksheetCollection.WindowWidth.
-- الخاصية WorksheetCollection.WindowWidthInch.
-- الخاصية WorksheetCollection.WindowWidthCM.
-- الخاصية WorksheetCollection.WindowHeight.
-- الخاصية WorksheetCollection.WindowHeightInch.
-- الخاصية WorksheetCollection.WindowHeightCM.
-- Worksheet.HPageBreaks.
-- Worksheet.VPageBreaks.
-- الخاصية HtmlSaveOptions.DisplayHTMLCrossString.
-- HtmlSaveOptions.ExportChartImageFormat الخاصية.
-- SaveOptions.ExpCellNameToXLSX.
-- SaveOptions.DefaultFont.
-- SaveOptions.Compliance الخاصية.
-- SaveOptions.Pdf خاصية الإشارة المرجعية.
+- خاصية WorksheetCollection.WindowTopInch.
+- خاصية WorksheetCollection.WindowTopCM.
+- خاصية WorksheetCollection.WindowWidth.
+- خاصية WorksheetCollection.WindowWidthInch.
+- خاصية WorksheetCollection.WindowWidthCM.
+- خاصية WorksheetCollection.WindowHeight.
+- خاصية WorksheetCollection.WindowHeightInch.
+- خاصية WorksheetCollection.WindowHeightCM.
+- خاصية Worksheet.HPageBreaks.
+- خاصية Worksheet.VPageBreaks.
+- خاصية HtmlSaveOptions.DisplayHTMLCrossString.
+- خاصية HtmlSaveOptions.ExportChartImageFormat.
+- خاصية SaveOptions.ExpCellNameToXLSX.
+- خاصية SaveOptions.DefaultFont.
+- خاصية SaveOptions.Compliance.
+- خاصية SaveOptions.PdfBookmark.
 - خاصية SaveOptions.PdfImageCompression.
-- TxtSaveOptions.Always اقتباس الممتلكات.
-## **واجهات برمجة التطبيقات المهجورة**
-### **Workbook.saveOptions خاصية قديمة**
- يجب تمرير كائن من SaveOptions إلى أسلوب Workbook.Save بعد تعيين خصائص SaveOptions المناسبة.
-### **مصنفات الملكية.الأنماط ونمط الصف**
-يُنصح باستخدام طريقة Workbook.createStyle لإنشاء أسلوب ومعالجته لمثيل المصنف بدلاً من إنشاء أسلوب باستخدام أسلوب StyleCollection.add. علاوة على ذلك ، يمكن استخدام طريقة Workbook.getNamedStyle (سلسلة) للحصول على نمط مسمى بدلاً من StyleCollection.get (سلسلة).
-### **الأسلوب PivotItem.move (عدد العمليات) قديم**
- مع إصدار Aspose.Cells 8.3.2 ، أدخل API حملًا زائدًا آخر لطريقة PivotItem.move التي تقبل معلمة العدد الصحيح للمعامل count والمعلمة المنطقية لنقل PivotItem داخل العقدة الأصلية.
+- خاصية TxtSaveOptions.AlwaysQuoted.
+## **واجهات برمجة التطبيقات المهملة**
+### **خاصية Workbook.saveOptions المهجورة**
+يجب تمرير كائن SaveOptions إلى طريقة Workbook.Save بعد ضبط خصائص SaveOptions الصحيحة. 
+### **واجهة برمجة التطبيقات Workbook.Styles & Class StyleCollection المهجورة**
+يُنصح باستخدام طريقة Workbook.createStyle لإنشاء وتلاعب بالنمط لمثيل Workbook بدلاً من إنشاء نمط باستخدام طريقة StyleCollection.add. علاوة على ذلك، يمكن استخدام طريقة Workbook.getNamedStyle(string) للحصول على النمط المسمى بدلاً من StyleCollection.get(string).
+### **طريقة PivotItem.move(int count) المهجورة**
+مع إصدار Aspose.Cells 8.3.2، قدمت الواجهة البرمجة التطبيقات overload جديدة لطريقة PivotItem.move تقبل المعلمة الصحيحة للعدد والمعلمة البولية لنقل PivotItem داخل العقد الأصلي. 

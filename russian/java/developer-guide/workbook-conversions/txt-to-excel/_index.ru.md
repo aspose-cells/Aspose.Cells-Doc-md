@@ -1,14 +1,15 @@
-﻿---
+---
 title: Преобразование CSV, TSV и TXT в Excel
 type: docs
 weight: 50
 url: /ru/java/convert-csv-tsv-and-txt-to-excel/
 ---
-## **Открытие CSV файлов**
 
-Файлы значений, разделенных запятыми (CSV) содержат записи, значения которых разделены запятыми. В файлах CSV данные хранятся в табличном формате, в котором поля разделены запятой и заключены в двойные кавычки. Если значение поля содержит символ двойной кавычки, оно экранируется парой символов двойной кавычки. Вы также можете использовать Microsoft Excel для экспорта данных электронной таблицы в файл CSV.
+## **Открытие файлов CSV**
 
-Чтобы открыть файлы CSV, используйте**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** класс и выберите**[CSV] (https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)** значение, заданное в**[Формат загрузки] (https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**перечисление.
+Файлы с разделенными запятыми (CSV) содержат записи, значения которых разделены или отделены запятыми. В файлах CSV данные хранятся в табличном формате, поля разделены запятой и заключены в кавычки. Если значение поля содержит символ двойной кавычки, он экранируется двойной парой кавычек. Вы также можете использовать Microsoft Excel для экспорта данных вашей таблицы в файл CSV.
+
+Для открытия CSV-файлов используйте класс [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) и выберите значение [**CSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV), предопределенное в перечислении [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 ## **Пример**
 
@@ -16,7 +17,7 @@ url: /ru/java/convert-csv-tsv-and-txt-to-excel/
 
 ### **Открытие файлов CSV и замена недопустимых символов**
 
-В Excel при открытии файла CSV со специальными символами символы автоматически заменяются. То же самое делается с помощью Aspose.Cells API, что продемонстрировано в приведенном ниже примере кода.
+В Excel, при открытии CSV-файла с особыми символами, символы автоматически заменяются. То же самое делает API Aspose.Cells, как показано в приведенном ниже примере кода.
 
 #### **Пример**
 
@@ -24,11 +25,11 @@ url: /ru/java/convert-csv-tsv-and-txt-to-excel/
 
 ## **Открытие файлов CSV с использованием предпочтительного парсера**
 
-Это не всегда необходимо, чтобы использовать настройки парсера по умолчанию для открытия файлов CSV. Иногда импорт файла CSV не приводит к ожидаемому результату, например формат даты не соответствует ожидаемому или пустые поля обрабатываются по-другому. Для этого**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**доступен для предоставления собственного предпочтительного синтаксического анализатора для анализа различных типов данных в соответствии с требованиями. Следующий пример кода демонстрирует использование предпочтительного синтаксического анализатора.
+Не всегда необходимо использовать настройки анализатора по умолчанию для открытия CSV-файлов. Иногда импорт CSV-файла не создает ожидаемый вывод, например, формат даты не соответствует ожиданиям или пустые поля обрабатываются по-разному. Для этой цели доступен [**TxtLoadOptions.PreferredParsers**](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers), чтобы предоставить собственный предпочтительный анализатор для разбора различных типов данных в соответствии с требованиями. Приведенный ниже образец кода демонстрирует использование предпочтительного анализатора.  
 
-Образец исходного файла и выходные файлы можно загрузить по следующим ссылкам для тестирования этой функции.
+Исходный файл и выходные файлы для примера можно скачать по следующим ссылкам для тестирования этой функции.
 
-[образецPreferredParser.csv](samplePreferredParser.csv)
+[samplePreferredParser.csv](samplePreferredParser.csv)
 
 [outputsamplePreferredParser.xlsx](outputsamplePreferredParser.xlsx)
 
@@ -36,17 +37,17 @@ url: /ru/java/convert-csv-tsv-and-txt-to-excel/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesWithPreferredParser-1.java" >}}
 
-### **Открытие файлов TSV (разделители табуляцией)**
+### **Открытие файлов TSV (с разделителями табуляции)**
 
-Файлы с разделителями табуляцией содержат данные электронной таблицы, но без какого-либо форматирования. Данные располагаются в строках и столбцах, таких как таблицы и электронные таблицы. Вкратце, файл с разделителями табуляцией — это особый тип простого текстового файла с табуляцией между каждым столбцом в тексте.
+Файлы с разделителями табуляции содержат данные электронных таблиц, но без какого-либо форматирования. Данные располагаются в строках и столбцах, подобно таблицам и электронным таблицам. Кратко говоря, файл с разделителями табуляции представляет собой особый тип обычного текстового файла, в котором между каждым столбцом стоит табуляция.
 
-Чтобы открыть файлы с разделителями табуляцией, разработчики должны использовать**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** класс и выберите**[TSV] (https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)** значение, заданное в**[Формат загрузки] (https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**перечисление.
+Для открытия файлов с разделением табуляцией разработчики должны использовать класс [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) и выбрать значение [**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV), предопределенное в перечислении [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 ## **Пример**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningTabDelimitedFiles-OpeningTabDelimitedFiles.java" >}}
 
-## **Предварительные темы**
-- [Загрузите или импортируйте файл CSV с формулами](/cells/ru/java/load-or-import-csv-file-with-formulas/)
-- [Обрезать начальные пустые строки и столбцы при экспорте электронных таблиц в формат CSV](/cells/ru/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+## **Продвинутые темы**
+- [Загрузить или импортировать файл CSV с формулами](/cells/ru/java/load-or-import-csv-file-with-formulas/)
+- [Обрезать ведущие пустые строки и столбцы при экспорте электронных таблиц в формат CSV](/cells/ru/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 

@@ -1,31 +1,32 @@
-﻿---
-title: Laden Sie Aspose.Cells in Jython herunter und konfigurieren Sie es
+---
+title: Aspose.Cells in Jython herunterladen und konfigurieren
 type: docs
 weight: 10
 url: /de/java/download-and-configure-aspose-cells-in-jython/
 ---
-## **wird heruntergeladen**
 
-**Laden Sie Beispiele von Social-Coding-Websites herunter**
+## **Herunterladen**
 
-Die folgenden Versionen von Laufbeispielen stehen auf allen unten genannten Social-Coding-Sites zum Download zur Verfügung:
+**Beispielsdownloads von Social-Coding-Websites**
+
+Die folgenden Versionen von laufenden Beispielen sind zum Download auf allen unten genannten Social-Coding-Sites verfügbar:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython)
 
-**Laden Sie die Komponente Aspose.Cells for Java herunter**
+**Download Aspose.Cells for Java-Komponente**
 
 - [Aspose.Cells for Java](https://downloads.aspose.com/cells/java)
 
-## **Installieren**
+## **Installation**
 
-- Platzieren Sie die heruntergeladene JAR-Datei Aspose.Cells for Java im Verzeichnis „lib“.
-- Ersetzen Sie „your-lib“ durch den heruntergeladenen JAR-Dateinamen in der Datei _*init*_.py.
+- Platziere die heruntergeladene Aspose.Cells for Java-JAR-Datei im "lib"-Verzeichnis.
+- Ersetze "your-lib" durch den heruntergeladenen JAR-Dateinamen in der _*init*_.py-Datei.
 
-## **Verwenden**
+## **Verwendung**
 
-Sie können ein HelloWorld-Dokument mit folgendem Beispielcode erstellen:
+Du kannst das HelloWorld-Dokument mit folgendem Beispielcode erstellen:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells  import Settings
 

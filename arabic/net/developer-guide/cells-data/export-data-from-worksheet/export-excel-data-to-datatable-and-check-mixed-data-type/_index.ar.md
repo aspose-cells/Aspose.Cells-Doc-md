@@ -3,32 +3,33 @@ title: تصدير بيانات Excel إلى DataTable والتحقق من نوع
 type: docs
 weight: 280
 url: /ar/net/export-excel-data-to-datatable-and-check-mixed-data-type/
-description: تعرف على كيفية تصدير بيانات Excel إلى DataTable والتحقق من نوع البيانات المختلطة من خلال Aspose.Cells for .NET API.
-keywords: Export Excel Data to DataTable and Check Mixed Data Type, Export Workbook Data to DataTable and Check Mixed Data Type, Export Data to DataTable and Check Mixed Data Type, Export Worksheet Data to DataTable and Check Mixed Data Type.
+description: تعلم كيفية تصدير بيانات Excel إلى DataTable والتحقق من نوع البيانات المختلطة من خلال واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: تصدير بيانات Excel إلى DataTable والتحقق من نوع البيانات المختلطة، تصدير بيانات دفتر العمل إلى DataTable والتحقق من نوع البيانات المختلطة، تصدير البيانات إلى DataTable والتحقق من نوع البيانات المختلطة، تصدير بيانات ورقة العمل إلى DataTable والتحقق من نوع البيانات المختلطة.
 ---
-##  **سيناريوهات الاستخدام المحتملة**
- إذا كان العمود يحتوي على بيانات من أنواع مختلفة، فسيطرح البرنامج استثناء النوع عند تصدير البيانات إلى DataTable. لتصدير جدول البيانات، بشكل افتراضي، يقوم Aspose.Cells بتقييم نوع البيانات للقيم بناءً على القيمة (الخلية) الأولى في العمود. لذا، إذا كانت القيمة رقمًا، فهذا يعني أن نوع بيانات العمود سيكون رقميًا، وهو أمر معقول. إذا كانت القيمة الأولى عبارة عن رقم ولكن هناك بيانات أو قيم أبجدية رقمية في العمود، فيجب تعيين نوع بيانات سلسلة. للتعامل معها، يرجى استخدام[التحميل الزائد لـ ExportDataTable](https://reference.aspose.com/cells/net/aspose.cells/cells/exportdatatable/#exportdatatable_1) الذي يتضمن[تصديرDataTableOptions](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/) ومحاولة تعيين[ExportTableOptions.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype/) سمة منطقية إلى "صحيح" إذا كان العمود يحتوي على قيم رقمية وسلسلة لتجنب الخطأ.
 
-##  **تصدير بيانات Excel إلى DataTable والتحقق من نوع البيانات المختلطة**
+## **سيناريوهات الاستخدام المحتملة**
+إذا تحتوي العمود على بيانات من أنواع مختلفة، سيقوم البرنامج بإلقاء استثناء نوع عند تصدير البيانات إلى DataTable. عند تصدير جدول البيانات، يقوم Aspose.Cells بتقييم نوع البيانات للقيم استنادًا إلى القيمة الأولى (خلية) في العمود. لذا، إذا كانت القيمة رقمية، فهذا يعني أن نوع بيانات العمود سيكون رقميًا، وهذا أمر معقول. إذا كانت القيمة الأولى رقمية ولكن هناك بيانات أو قيم أبجدية رقمية في العمود، فيجب تعيين نوع البيانات كسلسلة. للتعامل مع ذلك، يرجى استخدام [تشتيت البيانات الزائدة](https://reference.aspose.com/cells/net/aspose.cells/cells/exportdatatable/#exportdatatable_1) الذي يتضمن [خيارات تصدير جدول البيانات](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/) ومحاولة ضبط [حقل ExportTableOptions.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype/) إلى "true" إذا كان لديك عمود يحتوي على قيم رقمية وسلسلة لتجنب الخطأ.
 
- النموذج التالي يشرح استخدام[ExportTableOptions.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype/)خاصية تصدير بيانات Excel إلى جدول البيانات. الرجاء مراجعة[عينة من ملف إكسل](sample.xlsx)ولقطة الشاشة وإخراج وحدة التحكم كمرجع.
+## **تصدير بيانات Excel إلى DataTable والتحقق من نوع البيانات المختلطة**
 
-###  **عينة من الرموز**
+يشرح العينة التالية استخدام [خيارات تصدير جدول البيانات.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype/) لتصدير بيانات Excel إلى جدول بيانات. يُرجى الرجوع إلى [ملف Excel العيني](عينة.xlsx)، لقطة الشاشة وإخراج الكونسول للإشارة.
+
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-ExportDataAndCheckMixedType.cs" >}}
 
-###  **لقطة شاشة**
+### **لقطة شاشة**
 <br>
 <image src="1.png" width="70%" />
 <br>
 <image src="2.png" width="70%" />
 <br>
 
-###  **إخراج وحدة التحكم**
+### **مخرجات الوحدة**
 
-يوجد أدناه إخراج تصحيح وحدة التحكم لنموذج التعليمات البرمجية أعلاه
+أدناه هو إخراج تصحيح الوحدة النمطية لكود العينة أعلاه
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Column1 = System.String
 Column2 = System.String

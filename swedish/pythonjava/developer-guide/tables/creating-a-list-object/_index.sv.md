@@ -1,49 +1,50 @@
-﻿---
-title: Skapa ett listobjekt
+---
+title: Skapar en listobject
 type: docs
 weight: 20
 url: /sv/python-java/creating-a-list-object/
 ---
-Användningen av kalkylblad gör det enkelt att arbeta med olika typer av listor, till exempel. telefonlistor, uppgiftslistor. etc. Aspose.Cells stöder att skapa och hantera listor.
 
-## **Fördelar med ett listobjekt**
+Användningen av kalkylbladet gör det enkelt att arbeta med olika typer av listor, till exempel telefonlistor, uppgiftslistor etc. Aspose.Cells stödjer skapande och hantering av listor.
 
-Det finns en hel del fördelar när du konverterar en lista med data till ett faktiskt listobjekt:
+## **Fördelar med en List-objekt**
+
+Det finns ganska många fördelar när du konverterar en lista över data till en faktisk Listobjekt:
 
 - Nya rader och kolumner inkluderas automatiskt.
-- En total rad längst ner på din lista kan enkelt läggas till för att visa SUMMA, AVERAGE, COUNT, etc.
-- Kolumner som läggs till till höger infogas automatiskt i List-objektet.
-- Diagram baserade på rader och kolumner utökas automatiskt.
-- Namngivna intervall som tilldelats rader och kolumner kommer att utökas automatiskt.
-- Listan är skyddad från oavsiktlig radering och radering.
+- En totalrad längst ner i din lista kan enkelt läggas till för att visa SUMMA, MEDELVÄRDE, ANTAL, osv.
+- Kolumner som läggs till till höger inkorporeras automatiskt i listobjektet.
+- Diagram baserade på rader och kolumner kommer att utökas automatiskt.
+- Namngivna intervall tilldelade rader och kolumner kommer att utökas automatiskt.
+- Listan är skyddad från oavsiktlig rad- och kolumnradering.
 
-## **Skapa ett listobjekt med Microsoft Excel**
+## **Skapa ett List-objekt med hjälp av Microsoft Excel**
 
-**Välja dataintervall för att skapa ett listobjekt** 
+**Välja dataområde för att skapa ett listobjekt** 
 
 ![todo:image_alt_text](picture1.png)
 
-Detta visar dialogrutan Skapa lista.
+Detta visar skapa listdialogrutan.
 
-**Dialogrutan Skapa lista** 
+**Skapa listdialogrutan** 
 
 ![todo:image_alt_text](picture2.png)
 
-Implementera List-objektet och specificera Total Row (Välj**Data**, då**Lista**följd av**Total rad**).
+Genomförande av Listobjektet och specificera total rad (Välj **Data**, sedan **Lista**, följt av **Total rad**).
 
 **Skapa ett listobjekt** 
 
 ![todo:image_alt_text](picture3.png)
 
-## **Skapa ett listobjekt med Aspose.Cells API**
+## **Skapa en Listobjekt med hjälp av Aspose.Cells API**
 
-Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/python/asposecells.api/Workbook)klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection)samling som ger åtkomst till varje kalkylblad i en Excel-fil.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), som representerar en Microsoft Excel-fil. Klassen [**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook) innehåller en [**Worksheets**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection)-samling som tillåter åtkomst till varje kalkylblad i en Excel-fil.
 
-Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)klass. De[**Arbetsblad**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)klass tillhandahåller ett brett utbud av egenskaper och metoder för att hantera ett kalkylblad. Att skapa en[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)i ett kalkylblad, använd[**Listobjekt**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)samling egendom av[**Arbetsblad**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)klass. Varje[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)är i själva verket ett föremål för[**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)klass, som ytterligare ger[**Lägg till**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) metod för att lägga till ett List-objekt och ange ett cellintervall för listan.
+Ett kalkylblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet). Klassen [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) tillhandahåller ett brett utbud av egenskaper och metoder för att hantera ett kalkylblad. För att skapa en [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) i ett kalkylblad, använd [**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)-samlingsegenskapen för klassen [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet). Varje [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) är faktiskt ett objekt av klassen [**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection), som ytterligare tillhandahåller metoden [**add**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) för att lägga till ett Listobjekt och specificera en cellintervall för listan.
 
-Enligt det specificerade cellintervallet skapas List-objektet i kalkylbladet av Aspose.Cells. Använd attribut (till exempel ShowTotals, ListColumns, etc.) för[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)klass för att kontrollera listan.
+Enligt det angivna cellintervallen skapas Listobjektet på kalkylbladet av Aspose.Cells. Använd attributen (till exempel ShowTotals, ListColumns etc.) av klassen [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) för att styra listan.
 
-I exemplet nedan har vi skapat detsamma[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)med Aspose.Cells for Python via Java API som vi skapade med Microsoft Excel i avsnittet ovan.
+I det givna exemplet har vi skapat samma [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) med hjälp av Aspose.Cells for Python via Java API som vi skapade med hjälp av Microsoft Excel i avsnittet ovan.
 
 ## Källkod
 

@@ -1,17 +1,18 @@
-﻿---
-title: Ouvrir et enregistrer la feuille de calcul en xlsx4j
+---
+title: Ouvrir et enregistrer la feuille de calcul dans xlsx4j
 type: docs
 weight: 40
 url: /fr/java/open-and-save-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Ouvrir et enregistrer la feuille de calcul**
-Les développeurs utilisent Aspose.Cells pour ouvrir des fichiers à des fins différentes. Par exemple, ouvrez un fichier pour en extraire des données ou utilisez une feuille de calcul de concepteur prédéfinie pour accélérer votre processus de développement. Aspose.Cells permet aux développeurs d'ouvrir différents types de fichiers source. Ces fichiers source peuvent être des rapports Excel Microsoft, SpreadsheetML, CSV ou des fichiers délimités par des tabulations.
 
-**Aspose.Cells**permet aux développeurs de créer des fichiers Excel à partir de zéro à l'aide de son API flexible. Une fois que vous avez créé des fichiers Excel, vous devez également enregistrer votre classeur (fichier). Aspose.Cells fournit une variété de façons d'enregistrer ces fichiers.
+## **Aspose.Cells - Ouvrir et enregistrer la feuille de calcul**
+Les développeurs utilisent Aspose.Cells pour ouvrir des fichiers à des fins différentes. Par exemple, ouvrir un fichier pour récupérer des données, ou utiliser un fichier de feuille de calcul prédéfini pour accélérer votre processus de développement. Aspose.Cells permet aux développeurs d'ouvrir différents types de fichiers source. Ces fichiers source peuvent être des rapports Microsoft Excel, des fichiers SpreadsheetML, CSV ou tabulés. 
+
+**Aspose.Cells** permet aux développeurs de créer des fichiers Excel à partir de zéro en utilisant son API flexible. Une fois que vous créez des fichiers Excel, vous devrez également enregistrer votre classeur (fichier). Aspose.Cells propose différentes méthodes pour enregistrer ces fichiers.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Creating an Workbook object with an Excel file path
 
@@ -27,7 +28,7 @@ L'exemple ci-dessous montre comment ouvrir et enregistrer des feuilles de calcul
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  String inputfilepath  = dataDir + "pivot.xlsm";
 
@@ -52,7 +53,7 @@ if (save) {
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/opensavespreadsheet)

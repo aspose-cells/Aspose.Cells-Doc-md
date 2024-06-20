@@ -1,11 +1,12 @@
-﻿---
-title: Buscar ocurrencia de palabras específicas
+---
+title: Encontrar ocurrencia de palabra específica
 type: docs
 weight: 120
 url: /es/net/find-specific-word-occurrence/
 ---
-## **Excel VSTO**
-{{< highlight "csharp" >}}
+
+## **VSTO Excel**
+{{< highlight csharp >}}
 
  Excel.Application excelApp = Application;
 
@@ -42,9 +43,9 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- static void Main(string[]args)
+ static void Main(string[] args)
 
 {
 
@@ -116,7 +117,7 @@ private static void findNow(Worksheet objSheet, string textToFind)
 
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Find.Specific.Word.Occurrence.Aspose.Cells.zip)
-- [forjafuente](https://sourceforge.net/p/asposevsto/wiki/Home/)
+- [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Find%20Specific%20Word%20Occurrence)

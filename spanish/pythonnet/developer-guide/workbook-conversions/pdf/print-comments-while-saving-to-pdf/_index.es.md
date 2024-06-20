@@ -1,29 +1,30 @@
 ---
-title: Imprimir comentarios mientras se guardan en PDF
+title: Imprimir comentarios al guardar en PDF
 type: docs
 weight: 10
 url: /es/python-net/print-comments-while-saving-to-pdf/
-description: Aprenda a imprimir comentarios mientras los guarda en PDF con Aspose.Cells for Python via .NET API.
-keywords: Python Print Comments while saving file to PDF, Print Comments while saving Excel to PDF using Python, Python Export Comments when converting Excel to PDF, Output Comments for Excel to PDF in python, Render Comments while saving excel to PDF
+description: Aprenda cómo imprimir comentarios al guardar en PDF con la API de Aspose.Cells for Python via .NET.
+keywords: Imprimir comentarios en Python al guardar archivo en PDF, Imprimir comentarios al guardar Excel en PDF usando Python, Exportar comentarios en Python al convertir Excel en PDF, Comentarios de salida para Excel en PDF en Python, Renderizar comentarios al guardar Excel en PDF
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel le permite imprimir comentarios mientras imprime o guarda en formato PDF con las siguientes opciones
+Microsoft Excel te permite imprimir comentarios al imprimir o guardar en formato PDF con las siguientes opciones
 
 - Ninguno
 - Al final de la hoja
-- Como se muestra en la hoja
+- Según se muestra en la hoja
 
- Aspose.Cells for Python via .NET proporcionar el[**ImprimirComentariosTipo**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) enumeración para admitir la misma característica. El[**ImprimirComentariosTipo**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)enumeración tiene los siguientes miembros
+Aspose.Cells for Python via .NET proporciona la enumeración [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) para admitir la misma característica. La enumeración [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) tiene los siguientes miembros
 
-- ImprimirSinComentarios
-- Imprimir en el lugar
-- ImprimirHojaFin
+- PrintNoComments
+- PrintInPlace
+- PrintSheetEnd
 
 {{% /alert %}}
 
-##  **Imprimir comentarios mientras se guardan en PDF**
+## **Imprimir comentarios al guardar en PDF**
 
- El siguiente código de muestra ilustra cómo utilizar[**ImprimirComentariosTipo**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)para imprimir comentarios mientras se guardan en PDF.
+El siguiente código de ejemplo ilustra cómo usar [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) para imprimir comentarios al guardar en PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-PrintCommentWhileSavingToPdf.py" >}}

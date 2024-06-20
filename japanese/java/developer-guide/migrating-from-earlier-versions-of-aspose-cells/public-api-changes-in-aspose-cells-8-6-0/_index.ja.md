@@ -1,23 +1,24 @@
-﻿---
-title: パブリック API Aspose.Cells 8.6.0 の変更点
+---
+title: Aspose.Cells 8.6.0 での Public API 変更
 type: docs
 weight: 200
 url: /ja/java/public-api-changes-in-aspose-cells-8-6-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.5.2 から 8.6.0 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/java/public-api-changes-in-aspose-cells-8-6-0/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
+このドキュメントでは、Aspose.Cells API のバージョン 8.5.2 から 8.6.0 への変更点について説明しており、モジュール/アプリケーション開発者に興味を持たれるかもしれません。[追加されたクラスなど](/cells/ja/java/public-api-changes-in-aspose-cells-8-6-0/)だけでなく、Aspose.Cells の内部動作の変更についても説明しています。
 
 {{% /alert %}} 
-## **追加された API**
-### **ワークブックのオブジェクトを作成しないメタデータ操作のサポート**
-Aspose.Cells for Java API のこのリリースでは、WorkbookMetadata と MetadataOptions という 2 つの新しいクラスが公開され、Workbook のインスタンスを作成せずにドキュメント プロパティ (メタデータ) を操作できる新しい列挙体 MetadataType が追加されました。 WorkbookMetadata クラスは軽量で、非常に使いやすく効率的なメカニズムを提供します。[全体的なパフォーマンスに影響を与えることなく、ドキュメント プロパティの読み取り、書き込み、更新を行う](/cells/ja/java/using-workbookmetadata/). 
+## **APIの追加**
+### **Workbook のオブジェクトを生成せずにメタデータ操作をサポート**
+このリリースの Aspose.Cells for Java API では、WorkbookMetadata & MetadataOptions という新しいクラスが公開され、また新しい列挙型 MetadataType が追加され、これにより、Workbook インスタンスを作成せずにドキュメントプロパティ（メタデータ）を操作することが可能となりました。WorkbookMetadata クラスは軽量で使いやすく、パフォーマンスに影響を与えることなく、文書のプロパティを読み書き更新するメカニズムを提供します。 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Open Workbook metadata while specifying the appropriate MetadataType
 
@@ -34,14 +35,14 @@ metaWorkbook.getCustomDocumentProperties().add("test", "test");
 metaWorkbook.save(filePath);
 
 {{< /highlight >}}
-### **プロパティ HtmlSaveOptions.ExportFrameScriptsAndProperties が追加されました**
-Aspose.Cells for Java 8.6.0 は、スプレッドシートを HTML 形式に変換する際に追加のスクリプトの作成に影響を与えるために使用できる HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティを公開しました。デフォルト設定では、Aspose.Cells API は、Excel アプリケーションがエクスポートを行うように、スプレッドシートを HTML 形式でエクスポートします。結果の HTML には、フレームと条件付きコメントが含まれており、ブラウザーの種類を検出し、それに応じてレイアウトを調整します。 HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティのデフォルト値は true です。エクスポートは Excel 標準に従って行われます。プロパティが false に設定されている場合、API は[フレームと条件付きコメントに関連するスクリプトを生成する](/cells/ja/java/disable-exporting-frame-scripts-and-document-properties/).この場合、結果の HTML はどのブラウザでも正しく表示できますが、Aspose.Cells API を使用してインポートすることはできません。
+### **HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティが追加されました**
+Aspose.Cells for Java 8.6.0 では、HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティが公開され、スプレッドシートを HTML 形式に変換する際に追加のスクリプトを作成する影響を与えることができます。デフォルト設定では、Aspose.Cells API は、結果として生成される HTML がフレームや条件付きコメントを含むため、ブラウザの種類を検出し、レイアウトを調整します。HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティのデフォルト値は true であり、つまり、エクスポートは Excel の基準に従って行われます。プロパティを false に設定すると、API は[フレームと条件付きコメントに関連するスクリプトを生成しません](/cells/ja/java/disable-exporting-frame-scripts-and-document-properties/)。この場合、生成された HTML は任意のブラウザで正しく表示できますが、Aspose.Cells API を使用して戻すことはできません。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the spreadsheet
 
@@ -58,14 +59,14 @@ options.setExportFrameScriptsAndProperties(false);
 book.save("output.html", options)
 
 {{< /highlight >}}
-### **プロパティ Shape.MarcoName が追加されました**
-Aspose.Cells for Java 8.6.0 で使用できる Shape.MarcoName プロパティが公開されました。[VBA モジュールをフォーム コントロールに割り当てる](/cells/ja/java/assign-macro-code-to-form-control/)相互作用を提供するためのそのようなボタン。プロパティは文字列型であるため、モジュール名を受け入れてコントロールに割り当てることができます。
+### **Shape.MarcoName プロパティが追加されました**
+Aspose.Cells for Java 8.6.0 では、Shape.MarcoName プロパティが公開され、Button などのフォームコントロールに VBA モジュールを[割り当てること](/cells/ja/java/assign-macro-code-to-form-control/)ができます。プロパティは string 型であり、したがって、モジュール名を受け入れ、コントロールに割り当てます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a new Workbook object
 
@@ -114,5 +115,5 @@ button.setMacroName(module.getName() + ".ShowMessage" );
 workbook.save("output.xlsm");
 
 {{< /highlight >}}
-### **プロパティ OoxmlSaveOptions.UpdateZoom が追加されました**
-v8.6.0 のリリースにより、Aspose.Cells for Java API は、PageSetup.FitToPagesWide および/または PageSetup.FitToPagesTall プロパティがワークシートのスケーリングを制御するために使用されている場合、PageSetup.Zoom を更新するために使用できる OoxmlSaveOptions.UpdateZoom プロパティを公開しました。
+### **OoxmlSaveOptions.UpdateZoom プロパティが追加されました**
+v8.6.0 でのリリースにより、Aspose.Cells for Java API は、OoxmlSaveOptions.UpdateZoom プロパティを公開し、Worksheet のスケーリングを制御するために PageSetup.FitToPagesWide および/または PageSetup.FitToPagesTall プロパティが使用された場合に、PageSetup.Zoom を更新するために使用できます。

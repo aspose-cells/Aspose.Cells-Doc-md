@@ -1,8 +1,9 @@
-﻿---
-title: مرجع
+---
+title: الإشارة
 type: docs
 weight: 60
 url: /ar/jasperreports/reference/
 ---
-###### **يتضمن هذا القسم المواضيع التالية:**
+
+###### **تحتوي هذه القسم على المواضيع التالية:** 
 - [معلمات التكوين](/cells/ar/jasperreports/configuration-parameters/)

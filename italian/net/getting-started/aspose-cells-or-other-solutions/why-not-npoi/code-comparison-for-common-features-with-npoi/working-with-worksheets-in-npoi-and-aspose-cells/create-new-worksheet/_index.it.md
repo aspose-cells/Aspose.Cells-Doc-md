@@ -1,13 +1,14 @@
-﻿---
-title: Crea nuovo foglio di lavoro
+---
+title: Crea un nuovo foglio di lavoro
 type: docs
 weight: 50
 url: /it/net/create-new-worksheet/
 ---
-## **Aspose.Cells - Crea nuovo foglio di lavoro**
+
+## **Aspose.Cells - Crea un nuovo foglio di lavoro**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -25,10 +26,10 @@ workbook.Save("newWorksheet.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Crea nuovo foglio di lavoro**
+## **NPOI - HSSF XSSF - Crea un nuovo foglio di lavoro**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -75,12 +76,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Crea nuovo foglio di lavoro** formare uno dei siti di social coding sotto indicati:
+Scarica **Crea un nuovo foglio di lavoro** da uno dei siti di social coding menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Create.New.Worksheet.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Create.New.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Lavorare con i fogli di lavoro](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Per ulteriori dettagli, visita [Working with Worksheets](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

@@ -1,16 +1,17 @@
-﻿---
-title: Ange betydande siffror som ska lagras i Excel-fil
+---
+title: Ange signifikanta siffror som ska lagras i Excel fil
 type: docs
 weight: 30
 url: /sv/net/specifying-significant-digits-to-be-stored-in-excel-file/
 ---
-## **Möjliga användningsscenarier**
 
-Som standard lagrar Aspose.Cells 17 signifikanta siffror med dubbla värden inuti excel-filen, till skillnad från MS-Excel som bara lagrar 15 signifikanta siffror. Du kan ändra standardbeteendet för Aspose.Cells från 17 signifikanta siffror till 15 signifikanta siffror med hjälp av[**CellsHelper.Significant Digits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)fast egendom.
+## **Möjliga användningsscenario**
 
-## **Ange betydande siffror som ska lagras i Excel-fil**
+Som standard lagrar Aspose.Cells 17 signifikanta siffror av dubbla värden i excel-filen, till skillnad från MS-Excel som bara lagrar 15 signifikanta siffror. Du kan ändra standardbeteendet för Aspose.Cells från 17 signifikanta siffror till 15 signifikanta siffror med hjälp av egenskapen [**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits).
 
- Följande exempelkod tvingar Aspose.Cells att använda 15 signifikanta siffror samtidigt som dubbla värden lagras i excel-filen. Vänligen kontrollera[output excel-fil](22774105.xlsx) . Ändra dess tillägg till .zip och packa upp det och du kommer att se att endast 15 signifikanta siffror lagras i excel-filen. Följande skärmdump förklarar effekten av[**CellsHelper.Significant Digits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)egenskap på utdata excel-filen.
+## **Ange signifikanta siffror som ska lagras i Excel-fil**
+
+Följande kodexempel tvingar Aspose.Cells att använda 15 signifikanta siffror vid lagring av dubbla värden i excel-filen. Ändra dess filändelse till .zip och packa upp den, och du kommer se att endast 15 signifikanta siffror lagras i excel-filen. Följande skärmbild förklarar effekten av [**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)-egenskapen på resultatexcel-filen.
 
 ![todo:image_alt_text](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
 

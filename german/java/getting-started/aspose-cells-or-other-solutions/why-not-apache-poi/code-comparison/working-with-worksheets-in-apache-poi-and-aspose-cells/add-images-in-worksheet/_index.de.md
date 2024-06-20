@@ -1,15 +1,16 @@
-﻿---
-title: Fügen Sie Bilder im Arbeitsblatt hinzu
+---
+title: Bilder in Arbeitsblatt einfügen
 type: docs
 weight: 20
 url: /de/java/add-images-in-worksheet/
 ---
-## **Aspose.Cells – Bilder in Arbeitsblatt hinzufügen**
-Die Bildklasse ist verfügbar, um mit Bildern im Arbeitsblatt umzugehen
+
+## **Aspose.Cells - Bilder in Arbeitsblatt einfügen**
+Die Klasse Picture steht zur Verfügung, um Bilder im Arbeitsblatt zu behandeln.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the first worksheet
 
@@ -41,18 +42,18 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Bilder im Arbeitsblatt hinzufügen**
-Die Bildklasse ist verfügbar, um mit Bildern im Arbeitsblatt umzugehen
+## **Apache POI SS - HSSF XSSF - Bilder in Arbeitsblatt einfügen**
+Die Klasse Picture steht zur Verfügung, um Bilder im Arbeitsblatt zu behandeln.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //add picture data to this workbook.
 
 InputStream is = new FileInputStream(dataDir + "aspose.jpg");
 
-byte[]bytes = IOUtils.toByteArray(is);
+byte[] bytes = IOUtils.toByteArray(is);
 
 int pictureIdx = wb.addPicture(bytes, Workbook.PICTURE_TYPE_JPEG);
 
@@ -87,13 +88,13 @@ Picture pict = drawing.createPicture(anchor, pictureIdx);
 pict.resize();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/addimages)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Fügen Sie Bild-Hyperlinks hinzu](/java/add-image-hyperlinks).
+Für weitere Details besuchen Sie [Bild-Hyperlinks hinzufügen](/java/bild-hyperlinks-hinzufügen).
 
 {{% /alert %}}

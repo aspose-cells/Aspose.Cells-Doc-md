@@ -1,6 +1,6 @@
-﻿---
-title: Projet de classeur VBA
-linktitle: Macro-projet
+---
+title: Projet VBA de classeur
+linktitle: Projet de macro
 type: docs
 weight: 200
 url: /fr/java/workbook-vba-project/

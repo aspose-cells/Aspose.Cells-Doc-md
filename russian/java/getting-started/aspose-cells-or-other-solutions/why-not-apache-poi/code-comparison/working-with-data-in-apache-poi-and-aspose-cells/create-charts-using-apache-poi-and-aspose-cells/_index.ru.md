@@ -1,15 +1,16 @@
-﻿---
-title: Создание диаграмм с использованием Apache POI и Aspose.Cells
+---
+title: Создать диаграммы с использованием Apache POI и Aspose.Cells
 type: docs
 weight: 50
 url: /ru/java/create-charts-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Создание диаграмм**
-С помощью Aspose.Cells можно добавлять различные диаграммы в электронные таблицы. Aspose.Cells предоставляет множество гибких объектов диаграмм.
+
+## **Aspose.Cells - Создание графиков**
+С помощью Aspose.Cells можно добавить различные виды графиков в электронные таблицы. Aspose.Cells предоставляет множество гибких объектов для построения графиков.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -74,10 +75,10 @@ Series series = nSeries.get(1);
 series.setType(ChartType.LINE);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) — создание диаграмм**
+## **Apache POI SS (HSSF + XSSF) - Создание диаграмм**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();
 
@@ -141,17 +142,17 @@ data.addSeries(xs, ys2);
 chart.plot(data, bottomAxis, leftAxis);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать примеры работы для**Создание диаграмм с использованием Apache POI и Aspose.Cells** с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите примеры выполнения для **Создание диаграмм с использованием Apache POI и Aspose.Cells** с любого из упомянутых ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **Скачать исходный код**
- Скачать исходный код для**Создание диаграмм с использованием Apache POI и Aspose.Cells** с любого из нижеперечисленных сайтов социального кодирования:
+Загрузите исходный код для **Создание диаграмм с использованием Apache POI и Aspose.Cells** с любого из упомянутых ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Создание пользовательских диаграмм](/cells/ru/java/creating-and-customizing-charts/).
+Для получения дополнительной информации посетите [Создание пользовательских диаграмм](/cells/ru/java/creating-and-customizing-charts/).
 
 {{% /alert %}}

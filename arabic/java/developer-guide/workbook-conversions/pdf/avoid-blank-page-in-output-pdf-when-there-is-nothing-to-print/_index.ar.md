@@ -1,24 +1,25 @@
-﻿---
-title: تجنب الصفحة الفارغة في الإخراج PDF عندما لا يوجد شيء للطباعة
+---
+title: تجنب الصفحة الفارغة في ملف PDF الناتج عندما لا يوجد شيء للطباعة
 type: docs
 weight: 30
 url: /ar/java/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-عندما يكون ملف Excel فارغًا ويقوم المستخدم بحفظه في PDF باستخدام Aspose.Cells ، فإنه يعرض صفحة فارغة في الإخراج PDF. أحيانًا يكون هذا السلوك الافتراضي غير مرغوب فيه. يوفر Aspose.Cells ملف[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) خاصية للتعامل مع هذه القضية. إذا قمت بتعيينه على أنه**خاطئة**، ومن بعد[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)سيحدث عندما لا يوجد شيء يمكن طباعته في الإخراج PDF.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **تجنب الصفحة الفارغة في الإخراج PDF عندما لا يوجد شيء للطباعة**
+عندما يكون ملف Excel فارغًا ويقوم المستخدم بحفظه إلى PDF باستخدام Aspose.Cells ، يقوم بعرض صفحة فارغة في PDF الناتج. في بعض الأحيان ، هذا السلوك الافتراضي غير مرغوب فيه. توفر Aspose.Cells الخاصية [**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) للتعامل مع هذه المشكلة. إذا قمت بتعيينها على **false** ، فسيحدث [**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException) كلما لم يكن هناك شيء للطباعة في PDF الناتج.
 
-يقوم نموذج التعليمات البرمجية التالي بإنشاء مصنف فارغ ثم يحفظه كإخراج PDF بعد تعيين ملف[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) الملكية مثل**خاطئة**. نظرًا لعدم وجود شيء يمكن طباعته في الإخراج PDF ، فإن ملف[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)يحدث كما هو موضح أدناه.
+## **تجنب الصفحة الفارغة في ملف PDF الناتج عندما لا يوجد شيء للطباعة**
 
-## **عينة من الرموز**
+كود العينة التالي ينشئ دفتر عمل فارغ ثم يحفظه كملف PDF الإخراج بعد ضبط الخاصية [**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) على **false**. نظرًا لعدم وجود أي شيء للطباعة في ملف PDF الإخراج ، يحدث [**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException) كما هو مبين أدناه.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint.java" >}}
 
 ## **استثناء**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Exception in thread "main" com.aspose.cells.CellsException: There is nothing to output/print.
 

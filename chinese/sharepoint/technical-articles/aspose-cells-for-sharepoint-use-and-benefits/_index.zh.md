@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells for SharePoint - 使用和优势
+title: Aspose.Cells for SharePoint  使用和优势
 type: docs
 weight: 10
 url: /zh/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/

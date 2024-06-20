@@ -1,13 +1,14 @@
-﻿---
-title: أعمدة الاحتواء التلقائي في ورقة العمل
+---
+title: تناسب الأعمدة تلقائيًا في ورقة العمل
 type: docs
 weight: 30
 url: /ar/net/auto-fit-columns-in-worksheet/
 ---
-## **Aspose.Cells - أعمدة الملائمة التلقائية في ورقة العمل**
+
+## **Aspose.Cells - تناسب الأعمدة تلقائيًا في ورقة العمل**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -48,10 +49,10 @@ worksheet.AutoFitColumn(3);
 workbook.Save("AutoFiltRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - أعمدة الاحتواء التلقائي في ورقة العمل**
+## **NPOI - HSSF XSSF - تناسب الأعمدة تلقائيًا في ورقة العمل**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -78,13 +79,13 @@ hssfworkbook.Write(file);
 file.Close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**عمود الاحتواء التلقائي** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **تناسب العمود تلقائيًا** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+لمزيد من التفاصيل، قم بزيارة [العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

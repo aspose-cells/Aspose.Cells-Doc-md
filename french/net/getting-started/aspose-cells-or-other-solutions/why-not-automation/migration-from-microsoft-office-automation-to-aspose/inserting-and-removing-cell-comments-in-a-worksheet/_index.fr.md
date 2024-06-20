@@ -1,38 +1,39 @@
-﻿---
-title: Insertion et suppression de commentaires Cell dans une feuille de calcul
+---
+title: Insérer et supprimer des commentaires de cellules dans une feuille de calcul
 type: docs
 weight: 30
 url: /fr/net/inserting-and-removing-cell-comments-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Généralement, les commentaires sont utilisés pour ajouter des informations supplémentaires aux cellules d'une feuille de calcul. Nous les utilisons de temps en temps et nous les supprimons lorsque nous n'en avons plus besoin. Les commentaires sont utiles si vous devez documenter une valeur particulière ou pour vous aider à vous rappeler ce que fait une formule. Lorsque vous déplacez le pointeur de la souris sur une cellule contenant un commentaire, le commentaire apparaît dans une petite boîte.
+Généralement, les commentaires sont utilisés pour ajouter des informations supplémentaires aux cellules d'une feuille de calcul. Nous les utilisons de temps en temps et les supprimons lorsque nous n'en avons plus besoin. Les commentaires sont utiles si vous devez documenter une valeur particulière ou vous aider à vous rappeler ce que fait une formule. Lorsque vous déplacez le pointeur de la souris sur une cellule qui a un commentaire, le commentaire apparaît dans une petite boîte.
 
-Dans cet article, nous comparons comment ajouter et supprimer des commentaires de cellules à l'aide de VSTO et Aspose.Cells for .NET. Aspose.Cells for .NET fonctionne avec les fichiers Excel Microsoft indépendamment de Office Automation et vous offre des outils puissants pour créer et manipuler des feuilles de calcul.
+Dans cet article, nous comparons comment ajouter et supprimer des commentaires des cellules en utilisant VSTO et Aspose.Cells for .NET. Aspose.Cells for .NET fonctionne avec des fichiers Microsoft Excel indépendamment de l'automatisation Office et vous offre des outils puissants pour créer et manipuler des feuilles de calcul.
 
 {{% /alert %}}
 
-## **Ajout et suppression de commentaires sur Cells**
+## **Ajouter et supprimer des commentaires sur les cellules**
 
-Pour ajouter des commentaires aux cellules :
+Pour ajouter des commentaires aux cellules :
 
 1. Ouvrez un fichier Excel existant.
-1. Ajouter un commentaire à une cellule.
+1. Ajoutez un commentaire à une cellule.
 1. Enregistrez le fichier.
 
 Pour supprimer les commentaires, le processus est similaire, à l'exception que le commentaire est supprimé.
 
- Les exemples de code ci-dessous illustrent d'abord comment[ajouter un commentaire](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) et puis comment[supprimer un commentaire](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) avec VSTO ou Aspose.Cells for .NET.
+Les extraits de code ci-dessous illustrent d'abord comment [ajouter un commentaire](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) et ensuite comment [supprimer un commentaire](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) avec VSTO ou Aspose.Cells for .NET.
 
-## **Insertion de commentaires**
+## **Insertion de Commentaires**
 
- Ces extraits de code montrent comment ajouter d'abord un commentaire à une cellule avec[VSTO](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) puis avec[Aspose.Cells for .NET](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB).
+Ces extraits de code montrent comment ajouter un commentaire à une cellule d'abord avec [VSTO](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) et ensuite avec [Aspose.Cells for .NET](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB).
 
 ### **Insertion d'un commentaire avec VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -94,7 +95,7 @@ excelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -132,15 +133,15 @@ workbook.Save(@"d:\test\Book1.xls");
 
 {{< /highlight >}}
 
-## **Suppression de commentaires**
+## **Supprimer les Commentaires**
 
- Pour supprimer un commentaire d'une cellule, utilisez les lignes de code suivantes pour[VSTO](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) et[Aspose.Cells](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) for .NET (C#, VB).
+Pour supprimer un commentaire d'une cellule, utilisez les lignes de code suivantes pour [VSTO](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) et [Aspose.Cells](/cells/fr/net/inserting-and-removing-cell-comments-in-a-worksheet/) pour .NET (C#, VB).
 
-### **Supprimer un commentaire avec VSTO**
+### **Suppression d'un commentaire avec VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 
@@ -154,7 +155,7 @@ rng1.Comment.Delete();    
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 

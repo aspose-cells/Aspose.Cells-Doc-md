@@ -1,48 +1,49 @@
 ---
-title: Grafiği Yerelleştirilmiş Görüntüye Dönüştür
-description: Aspose.Cells for .NET numaralı telefonu kullanarak grafikler için küreselleştirme yapılandırmalarını nasıl ayarlayacağınızı öğrenin. Kılavuzumuz, farklı dillerdeki metin, tarih ve sayıları doğru şekilde görüntülemek için grafiğin birden çok dili ve bölgesel biçimi destekleyecek şekilde nasıl yapılandırılacağını gösterir.
-keywords: Aspose.Cells for .NET, Charts, Globalization Settings, Multiple Languages, Regional Formats, Display, Text, Dates, Numbers.
-linktitle: Yerelleştirilmiş Bölgeyi Ayarla
+title: Grafiği Yerelleştirilmiş Görüntüye Dönüştürme
+description: Aspose.Cells for .NET kullanarak grafikler için küreselleştirme yapılandırmalarını nasıl ayarlayacağınızı öğrenin. Rehberimiz, metinleri, tarihleri ve sayıları farklı dillerde doğru bir şekilde görüntülemek için grafikleri yapılandırmayı nasıl destekleyeceğinizi göstermektedir.
+keywords: Aspose.Cells for .NET, Grafikler, Küreselleştirme Ayarları, Birden Fazla Dil, Bölgesel Formatlar, Görüntüleme, Metin, Tarihler, Sayılar.
+linktitle: Yerelleştirilmiş Bölgeyi Ayarlama
 type: docs
 weight: 50
 url: /tr/net/convert-chart-to-localized-image/
 alias: [/net/how-to-set-globalization-configuration-for-chart/]
 ---
+
 {{% alert color="primary" %}}
 
-Bu başlıkta size grafiğin yerelleştirilmiş resme nasıl dönüştürüleceğini göstereceğiz, bir grafik için yerelleştirilmiş bölgeyi nasıl ayarlayacağınızı bileceksiniz.
+Bu konuda, bir grafiği yerelleştirilmiş bir görüntüye nasıl dönüştüreceğinizi göstereceğiz. Bir grafik için yerelleştirilmiş bölgeyi nasıl ayarlayacağınızı öğreneceksiniz.
 
 {{% /alert %}}
 
-##  **Senaryo**
+## **Senaryo**
 
- Hangi senaryoda bir grafik için yerelleştirilmiş bölgeyi ayarlamamız gerekir?
+Hangi senaryoda grafik için yerelleştirilmiş bölgeyi ayarlamamız gerekebilir? 
 
-Excel'de bir grafik içeren xlsx dosyasını açtığınızda, bu durumda, Excel'de İspanyolca Bölgesel Ayarı ile açtığınızı varsayalım, grafik alanında Grafik Başlığı, Lengend gibi öğelerin İspanyolcaya çevrildiğini görebilirsiniz. Ancak bu grafiği Aspose.Cells ile resim olarak kaydettiğinizde aşağıdaki sorunla karşılaşabilirsiniz:
+Bir xlsx dosyasını Excel'de bir grafikle açtığınızda, bu durumda, Excel'de İspanyol Bölgesel Ayarı ile açarsanız, Grafik Başlığı, Lejant vb. gibi grafik alanındaki öğeleri İspanyolca çevrilmiş şekilde görebilirsiniz. Ancak bu grafiği Aspose.Cells ile bir resim olarak kaydettiğinizde, aşağıdaki sorunla karşılaşabilirsiniz: 
 
-**![Küresel Sorun](GlobalIssue.png)**
+**![Global Sorunu](GlobalIssue.png)**
 
-Bu senaryoda, çıktı resmindeki Grafik Uzunluğu Excel'deki ile aynı değildir, varsayılan olarak İngilizce olarak görüntülenmeye devam eder. Artık grafik için yerelleştirilmiş bölgeyi ayarlayarak bu sorunu çözebilirsiniz. Doğru ayarlarla aşağıdaki öğeler yerelleştirme ayarlarınıza göre oluşturulacaktır.
+Bu senaryoda, çıktı resimindeki Grafik Lejantı Excel'dekilerle aynı değildir, varsayılan olarak İngilizce olarak görüntülenmeye devam eder. Şimdi grafik için yerelleştirilmiş bölgeyi ayarlayarak bu sorunu çözebilirsiniz. Doğru ayarlarla, aşağıdaki öğeler yerelleştirme ayarlarınıza göre render edilecektir.
 
-##  **Desteklenen öğeler**
+## **Desteklenen öğeler**
 
-Grafikteki aşağıdaki öğeler yerelleştirme ayarlarınıza göre oluşturulabilir.
+Grafiğin aşağıdaki öğeleri yerelleştirme ayarlarınıza göre render edilebilir.
 
 |**Desteklenen öğeler**|**İngilizce ortamında varsayılan değer**|
 | :- | :- |
 |Eksen Başlığı Adı|Eksen Başlığı|
-|Eksen Birimi Adı|Yüzlerce, binlerce...|
-|Grafik Başlığı Adı|Grafik başlığı|
-|Efsane Artış Adı|Arttırmak|
-|Açıklama Adı Azaltma|Azaltmak|
-|Efsane Toplam Adı|Toplam|
+|Eksen Birimi Adı|Yüzler, Binler...|
+|Grafik Başlığı Adı|Grafik Başlığı|
+|Lejant Artış Adı|Artış|
+|Lejant Azalış Adı|Azalış|
+|Lejant Toplam Adı|Toplam|
 |Diğer Ad|Diğer|
 |Seri Adı|Seri|
 
-##  **Operasyon Adımları**
+## **İşlem Adı**
 
-Aşağıdaki örnek, istediğiniz efekti elde etmek için yerelleştirilmiş bölgeyi nasıl ayarlayacağınızı ayrıntılı olarak gösterecektir.
+Aşağıdaki örnek, istediğiniz etkiyi elde etmek için yerelleştirilmiş bölgeyi nasıl ayarlayacağınızı detaylı olarak size gösterecektir.
 
-- [Grafik için Çin Bölgesi Nasıl Ayarlanır?](/cells/tr/net/convert-chart-to-image-for-chinese-region/)
-- [Grafik için Japon Bölgesi Nasıl Ayarlanır?](/cells/tr/net/convert-chart-to-image-for-japanese-region/)
+- [Grafik için Çince Bölge Nasıl Ayarlanır](/cells/tr/net/convert-chart-to-image-for-chinese-region/)
+- [Grafik için Japon Bölgesi Nasıl Ayarlanır](/cells/tr/net/convert-chart-to-image-for-japanese-region/)
 

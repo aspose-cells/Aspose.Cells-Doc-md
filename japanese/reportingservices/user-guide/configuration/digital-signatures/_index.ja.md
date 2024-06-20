@@ -1,14 +1,15 @@
-﻿---
+---
 title: デジタル署名
 type: docs
 weight: 50
 url: /ja/reportingservices/digital-signatures/
 ---
-Aspose.Cells for Reporting Services は、Microsoft Excel 2007 ファイルまたは ODS ファイルのエクスポート時にデジタル署名をサポートします。で設定できるデジタル署名の構成情報がいくつかあります。**Aspose.Cells.ReportingServices.xml**ファイル。
 
- DigitalSignature の値が**オフ**、Aspose.Cells for Reporting Services はデジタル署名をオフにします。
+Microsoft Excel 2007ファイルまたはODSファイルをエクスポートする際、Aspose.Cells for Reporting Servicesはデジタル署名をサポートしています。デジタル署名の構成情報は**Aspose.Cells.ReportingServices.xml**ファイルで設定できます。
 
-{{< highlight "java" >}}
+DigitalSignatureの値が**off**の場合、Aspose.Cells for Reporting Servicesではデジタル署名をオフにします。
+
+{{< highlight java >}}
 
  <DigitalSignature value="off">
 
@@ -18,22 +19,22 @@ Aspose.Cells for Reporting Services は、Microsoft Excel 2007 ファイルま�
 
 {{< /highlight >}}
 
- DigitalSignature の値が**の上**Aspose.Cells for Reporting Services はデジタル署名をオンにします。
+DigitalSignatureの値が**on**の場合、Aspose.Cells for Reporting Servicesではデジタル署名をオンにします。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <DigitalSignature value="on">
 
 {{< /highlight >}}
 
- DigitalSignature セクションには 4 つのパラメーターがあります。これらは：
+DigitalSignatureセクションには4つのパラメーターがあります。これらは次のとおりです。 
 
-- **名前**: デジタル署名が必要なレポートを表します。パラメータを空白のままにすると、レポートはデジタル署名に PFX ファイルを使用します。
-- **pfxファイル名**PFX ファイルを参照します。ファイル名は、パスとファイル拡張子を含む完全修飾ファイル名である必要があります。空白にすることはできません。
-- **pfxPwd**: パスワードを設定します。空白にすることはできません。
-- **目的**署名の目的の説明。空白にすることができます。
+- **name**: デジタル署名が必要なレポートを表します。パラメーターが空白の場合、レポートではデジタル署名にPFXファイルを使用します。
+- **pfxFilename**: PFXファイルを参照します。ファイル名は完全修飾ファイル名で、パスとファイル拡張子が含まれている必要があります。空白であってはなりません。
+- **pfxPwd**: パスワードを設定します。空白ではない必要があります。
+- **purpose**: 署名の目的の説明です。空白にすることができます。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <DigitalSignature value="on">
 

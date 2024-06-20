@@ -1,26 +1,27 @@
-﻿---
-title: Преобразование смарт-арта в форму группы
+---
+title: Преобразовать умное изображение в групповую форму
 type: docs
 weight: 80
 url: /ru/java/convert-the-smart-art-to-group-shape/
 ---
+
 ## **Возможные сценарии использования**
 
-Вы можете преобразовать фигуру Smart Art Shape в фигуру группы, используя[**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt()) метод. Это позволит вам обрабатывать интеллектуальные художественные формы, такие как групповые формы. Следовательно, у вас будет доступ к отдельным частям или формам групповой формы.
+Вы можете преобразовать Smart Art Shape в Group Shape, используя метод [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt--). Это позволит вам обрабатывать Smart Art Shape как Group Shape. Следовательно, у вас будет доступ к отдельным частям или элементам Group Shape.
 
-## **Преобразование смарт-арта в форму группы**
+## **Преобразование SmartArt в форму группы**
 
-Следующий пример кода загружает[образец файла Excel](55541806.xlsx)содержащий фигуру смарт-арта, как показано на этом снимке экрана. Затем он преобразует форму смарт-арта в форму группы и печатает[Форма.IsGroup](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsGroup)имущество. Пожалуйста, посмотрите консольный вывод примера кода, приведенного ниже.
+Приведенный ниже образец кода загружает содержащий форму умного изображения образец Excel-файл, показанный на этом снимке экрана. Затем он преобразует форму умного изображения в групповую форму и печатает свойство Shape.IsGroup. Пожалуйста, обратитесь к выводу консоли приведенного ниже образца кода.
 
-![дело:изображение_альтернативный_текст](convert-the-smart-art-to-group-shape_1.png)
+![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
 
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-ConvertSmartArtToGroupShape.java" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: true
 

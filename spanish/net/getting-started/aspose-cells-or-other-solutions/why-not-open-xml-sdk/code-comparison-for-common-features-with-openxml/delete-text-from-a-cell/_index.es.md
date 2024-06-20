@@ -1,11 +1,12 @@
-﻿---
+---
 title: Eliminar texto de una celda
 type: docs
 weight: 30
 url: /es/net/delete-text-from-a-cell/
 ---
-## **Excel XML abierto**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -225,7 +226,7 @@ private static void RemoveSharedStringItem(int shareStringId, SpreadsheetDocumen
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -262,7 +263,7 @@ private static void DeleteTextFromCell(string docName, string sheetName, string 
     }
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [forjafuente](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Delete%20text%20from%20a%20cell%20\(Aspose.Cells\).zip/descargar)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Delete%20text%20from%20a%20cell%20\(Aspose.Cells\).Código Postal)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Delete%20text%20from%20a%20cell%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Delete%20text%20from%20a%20cell%20\(Aspose.Cells\).zip)

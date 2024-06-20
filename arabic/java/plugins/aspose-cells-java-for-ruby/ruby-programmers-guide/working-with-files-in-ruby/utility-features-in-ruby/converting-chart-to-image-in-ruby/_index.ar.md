@@ -1,15 +1,16 @@
-﻿---
+---
 title: تحويل الرسم البياني إلى صورة في روبي
 type: docs
 weight: 10
 url: /ar/java/converting-chart-to-image-in-ruby/
 ---
-## **Aspose.Cells - تحويل المخطط إلى صورة**
-لتحويل المخطط إلى صورة باستخدام Aspose.Cells for Java في روبي ، ما عليك سوى استدعاء وحدة المحول.
 
-**كود روبي**
+## **Aspose.Cells - تحويل الرسم البياني إلى صورة**
+لتحويل الرسم البياني إلى صورة باستخدام Aspose.Cells for Java في روبي، قم ببساطة بإحضار وحدة Converter.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  def chart_to_image()
 
@@ -142,7 +143,7 @@ url: /ar/java/converting-chart-to-image-in-ruby/
 end   
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**تحويل الرسم البياني إلى صورة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل تحويل الرسم البياني إلى صورة (Aspose.Cells) من أي من مواقع الكود الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

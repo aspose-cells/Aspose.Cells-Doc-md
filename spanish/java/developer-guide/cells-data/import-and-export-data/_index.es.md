@@ -1,106 +1,107 @@
-﻿---
-title: Importar y exportar datos
+---
+title: Importar y Exportar Datos
 type: docs
 weight: 130
 url: /es/java/import-and-export-data/
 ---
+
 {{% alert color="primary" %}}
 
-Este artículo analiza algunas técnicas de importación y exportación de datos a las que los desarrolladores tienen acceso a través del Aspose.Cells.
+Este artículo discute algunas técnicas de importación y exportación de datos a las que los desarrolladores tienen acceso a través de Aspose.Cells.
 
 {{% /alert %}}
 
-## Importar datos a la hoja de trabajo
+## Importar Datos en una Hoja de Cálculo
 
 Los datos representan el mundo tal como es. Para dar sentido a los datos, los analizamos y obtenemos una comprensión del mundo. Los datos se convierten en información.
 
-Hay muchas formas de realizar análisis: poner datos en hojas de cálculo y manipularlos de diferentes maneras es un método común. Con Aspose.Cells, es fácil crear hojas de cálculo que toman datos de una variedad de fuentes externas y los preparan para el análisis.
+Hay muchas formas de realizar análisis: poner datos en hojas de cálculo y manipularlos de diferentes maneras es un método común. Con Aspose.Cells, es fácil crear hojas de cálculo que toman datos de una variedad de fuentes externas y los preparan para su análisis.
 
-Este artículo analiza algunas técnicas de importación de datos a las que los desarrolladores tienen acceso a través del Aspose.Cells.
+Este artículo trata sobre algunas técnicas de importación de datos a las que los desarrolladores tienen acceso a través de Aspose.Cells.
 
-### Importación de datos usando Aspose.Cells
+### Importar Datos Usando Aspose.Cells
 
-Cuando abre un archivo de Excel con Aspose.Cells, todos los datos del archivo se importan automáticamente. Aspose.Cells también puede importar datos de otras fuentes de datos:
+Cuando abres un archivo de Excel con Aspose.Cells, todos los datos del archivo se importan automáticamente. Aspose.Cells también puede importar datos de otras fuentes de datos:
 
-- [Formación](/cells/es/java/import-and-export-data/).
-- [Lista de arreglo](/cells/es/java/import-and-export-data/).
-- [Conjunto resultante](/cells/es/java/import-and-export-data/).
+- [Matriz](/cells/es/java/import-and-export-data/).
+- [Lista de arreglos](/cells/es/java/import-and-export-data/).
+- [Conjunto de resultados](/cells/es/java/import-and-export-data/).
 - [JSON](/cells/es/java/import-and-export-data/)
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene la colección[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) recopilación.[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)La recopilación proporciona métodos muy útiles para importar datos de otras fuentes de datos. En este artículo se explica cómo se pueden utilizar estos métodos.
+Aspose.Cells proporciona una clase, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), que representa un archivo de Microsoft Excel. La clase [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene la colección [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) que permite acceder a cada hoja de cálculo en el archivo de Excel. Una hoja de cálculo está representada por la clase [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). La clase [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) proporciona una colección [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). La colección [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) proporciona métodos muy útiles para importar datos de otras fuentes de datos. Este artículo explica cómo se pueden usar estos métodos.
 
-#### Importación desde matriz
+#### Importar desde un Arreglo
 
- Para importar datos a una hoja de cálculo desde una matriz, llame al método importArray del[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)recopilación. Hay muchas versiones sobrecargadas del método importArray pero una sobrecarga típica toma los siguientes parámetros:
+Para importar datos a una hoja de cálculo desde un arreglo, llama al método importArray de la colección [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). Hay muchas versiones sobrecargadas del método importArray pero una sobrecarga típica toma los siguientes parámetros:
 
-- **Formación**, el objeto de matriz del que está importando contenido.
-- **Numero de fila**el número de fila de la primera celda a la que se importarán los datos.
-- **número de columna**, el número de columna de la primera celda a la que se importarán los datos.
-- **es vertical**, un valor booleano que especifica si importar datos vertical u horizontalmente.
+- **Array**, el objeto array desde el que estás importando contenido.
+- **Número de fila**, el número de fila de la primera celda a la que se importarán los datos.
+- **Número de columna**, el número de columna de la primera celda a la que se importarán los datos.
+- **Es vertical**, un valor booleano que especifica si se importarán los datos vertical u horizontalmente.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArray-ImportingFromArray.java" >}}
 
-#### Importación desde matrices multidimensionales
+#### Importar desde Arreglos Multidimensionales
 
- Para importar datos a una hoja de cálculo desde matrices multidimensionales, llame a la sobrecarga importArray relevante del[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)recopilación:
+Para importar datos a una hoja de cálculo desde arreglos multidimensionales, llama a la sobrecarga relevante de importArray de la colección [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromMultiDimensionalArray-ImportingFromMultiDimensionalArray.java" >}}
 
-#### Importar desde un ArrayList
+#### Importación desde un ArrayList
 
- Para importar datos de un*Lista de arreglo* a las hojas de trabajo, llame al[**Importar ArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean) ) método de la[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) recopilación. Él[**Importar ArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) método toma los siguientes parámetros:
+Para importar datos de un *ArrayList* a las hojas de cálculo, llame al método [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) de la colección [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). El método [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) toma los siguientes parámetros:
 
-- **Lista de arreglo** , el*Lista de arreglo*objeto cuyo contenido se importará.
-- **Numero de fila**, el número de fila de la primera celda del rango de celdas desde el que se importará el contenido.
-- **Número de columna**, el número de columna de la primera celda desde la que se importarán los datos.
-- **es vertical**es un valor booleano que especifica si importar datos vertical u horizontalmente.
-
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
-
-#### Importación desde objetos personalizados al área fusionada
-
-Para importar datos de una colección de objetos a una hoja de trabajo que contiene celdas combinadas, use[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells)propiedad. Si la plantilla de Excel tiene celdas combinadas, establezca el valor de[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells)propiedad a verdadera. Pasa el[**ImportTableOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImportTableOptions)objeto junto con la lista de columnas/propiedades del método para mostrar la lista deseada de objetos. El siguiente ejemplo de código demuestra el uso de[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells)propiedad para importar datos de objetos personalizados a celdas combinadas. por favor vea lo adjunto[Excel fuente](90112035.xlsx)archivo y el[Excel de salida](90112036.xlsx)archivo de referencia.
+- **ArrayList**, el objeto *ArrayList* cuyo contenido se importará.
+- **Número de fila**, el número de fila de la primera celda del rango de celdas desde el cual se importarán los contenidos.
+- **Número de columna**, el número de columna de la primera celda desde la cual se importarán los datos.
+- **Es Vertical**, es un valor booleano que especifica si importar datos vertical u horizontalmente.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
 
-#### Importación de datos desde JSON
+#### Importación desde Objetos Personalizados a un área fusionada
 
- Aspose.Cells proporciona un[**JsonUtilidad**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) clase para procesamiento JSON.[**JsonUtilidad**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) la clase tiene un[**Datos de importacion**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) método para importar datos JSON. Aspose.Cells también proporciona un[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)clase que representa las opciones del diseño JSON. Él[**Datos de importacion**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) método acepta[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) como parámetro. Él[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) La clase proporciona las siguientes propiedades.
+Para importar datos de una colección de objetos a una hoja de cálculo que contiene celdas fusionadas, use la propiedad [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells). Si la plantilla de Excel tiene celdas fusionadas, establezca el valor de la propiedad [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells) en true. Pase el objeto [**ImportTableOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImportTableOptions) junto con la lista de columnas/propiedades al método para mostrar su lista deseada de objetos. El siguiente ejemplo de código demuestra el uso de la propiedad [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells) para importar datos de Objetos Personalizados a celdas fusionadas. Consulte el archivo de Excel fuente adjunto (90112035.xlsx) y el archivo de Excel de salida (90112036.xlsx) para obtener referencias.
 
-- [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): Indica en la matriz que se debe procesar como una tabla o no.
-- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): Obtiene o establece un valor que indica si la cadena en JSON se va a convertir en numérico o de fecha.
-- [**Formato de fecha**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#DateFormat): Obtiene y establece el formato del valor de fecha.
-- [**IgnorarArrayTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle): Indica si ignorar el título si la propiedad del objeto es una matriz
-- [**IgnorarNulo**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreNull): Indica si el valor nulo debe ignorarse o no.
-- [**IgnoreObjectTitleIgnoreObjectTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreObjectTitle): Indica si ignorar el título si la propiedad del objeto es un objeto.
-- [**Formato numérico**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#NumberFormat): Obtiene y establece el formato del valor numérico.
-- [**TítuloEstilo**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#TitleStyle): Obtiene y establece el estilo del título.
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
 
- El código de ejemplo que se proporciona a continuación demuestra el uso de la[**JsonUtilidad**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) y[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) clases para importar JSON datos.
+#### Importación de Datos desde JSON
+
+Aspose.Cells proporciona una clase [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) para procesar JSON. La clase [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) tiene un método [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) para importar datos JSON. Aspose.Cells también proporciona una clase [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) que representa las opciones del diseño JSON. El método [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) acepta [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) como parámetro. La clase [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) proporciona las siguientes propiedades.
+
+- [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): Indica si el arreglo debe procesarse como una tabla o no.
+- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): Obtiene o establece un valor que indica si la cadena en JSON debe convertirse a numérico o fecha.
+- [**DateFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#DateFormat): Obtiene y establece el formato del valor de fecha.
+- [**IgnoreArrayTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle): Indica si se debe ignorar el título si la propiedad del objeto es un array.
+- [**IgnoreNull**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreNull): Indica si el valor nulo debe ser ignorado o no.
+- [**IgnoreObjectTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreObjectTitle): Indica si se debe ignorar el título si la propiedad del objeto es un objeto.
+- [**NumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#NumberFormat): Obtiene y establece el formato del valor numérico.
+- [**TitleStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#TitleStyle): Obtiene y establece el estilo del título.
+
+El código de muestra a continuación demuestra el uso de las clases [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) y [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) para importar datos JSON.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportingFromJson-1.java" >}}
 
-## Exportar datos desde la hoja de trabajo
+## Exportar Datos desde la Hoja de Cálculo
 
-Aspose.Cells no solo permite a sus usuarios importar datos a hojas de trabajo desde fuentes de datos externas, sino que también les permite exportar datos de hojas de trabajo a una matriz.
+Aspose.Cells no solo permite a sus usuarios importar datos a las hojas de cálculo desde fuentes de datos externas, sino que también les permite exportar datos de la hoja de cálculo a un array.
 
-### Exportación de datos mediante Aspose.Cells - Exportación de datos a matriz
+### Exportar datos usando Aspose.Cells - Exportar datos a un array
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) recopilación.
+Aspose.Cells proporciona una clase, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), que representa un archivo de Microsoft Excel. La clase [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene un [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) que permite el acceso a cada hoja de cálculo en el archivo de Excel. Una hoja de cálculo está representada por la clase [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). La clase [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) proporciona una colección [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
 
- Los datos se pueden exportar fácilmente a un objeto Array usando el[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) clase'[**exportarArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) método.
+Los datos pueden exportarse fácilmente a un objeto Array usando el método [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) de la clase [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
 
-#### Columnas que contienen datos fuertemente tipados
+#### Columnas que contienen datos de tipo fuertemente tipado
 
- Las hojas de cálculo almacenan datos como una secuencia de filas y columnas. Utilizar el[**exportarArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int) ) para exportar los datos de una hoja de cálculo a una matriz.[**exportarArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int) ) toma los siguientes parámetros para exportar datos de la hoja de trabajo como un*Formación* objeto:
+Las hojas de cálculo almacenan datos como una secuencia de filas y columnas. Use el método [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) para exportar los datos de una hoja de cálculo a un array. [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) toma los siguientes parámetros para exportar los datos de la hoja de cálculo como un objeto *Array*:
 
-- Número de fila, el número de fila de la primera celda desde la que se exportarán los datos.
-- Número de columna, el número de columna de la primera celda desde donde se exportarán los datos
+- Número de fila, el número de fila de la primera celda desde la cual se exportarán los datos.
+- Número de columna, el número de columna de la primera celda desde donde se exportarán los datos.
 - Número de filas, el número de filas a exportar.
 - Número de columnas, el número de columnas a exportar.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ExportingDataFromWorksheets-1.java" >}}
 
 ## **Temas avanzados**
-- [Importar datos desde Microsoft Acceder al objeto ResultSet de la base de datos a la hoja de trabajo](/cells/es/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
-- [Especificar campos de fórmula al importar datos a la hoja de trabajo](/cells/es/java/specify-formula-fields-while-importing-data-to-worksheet/)
+- [Importar datos desde el objeto ResultSet de la base de datos Microsoft Access a la hoja de cálculo](/cells/es/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
+- [Especificar Campos de Fórmula al Importar Datos a la Hoja de Cálculo](/cells/es/java/specify-formula-fields-while-importing-data-to-worksheet/)

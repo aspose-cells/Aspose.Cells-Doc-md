@@ -1,25 +1,26 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.5.2
+---
+title: تغييرات الواجهة البرمجية العامة في Aspose.Cells 8.5.2
 type: docs
 weight: 190
 url: /ar/java/public-api-changes-in-aspose-cells-8-5-2/
 ---
+
 {{% alert color="primary" %}} 
 
- توضح هذه الوثيقة التغييرات التي تم إجراؤها على Aspose.Cells API من النسخة 8.5.1 إلى 8.5.2 والتي قد تهم مطوري الوحدة النمطية / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/java/public-api-changes-in-aspose-cells-8-5-2/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.5.1 إلى 8.5.2 التي قد تكون مهمة لمطوري الوحدات/التطبيقات. يتضمن ليس فقط الطرق العمومية الجديدة والمُحدثة، [والفئات المضافة وما إلى ذلك](/cells/ar/java/public-api-changes-in-aspose-cells-8-5-2/)، ولكن أيضا وصفا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **تقديم ورقة العمل إلى سياق رسومي**
-كشف هذا الإصدار من Aspose.Cells for Java API عن حمل زائد آخر لطريقة SheetRender.toImage التي تسمح الآن بقبول مثيل لفئة Graphics2D[تقديم ورقة العمل في سياق الرسومات](/cells/ar/java/render-worksheet-to-graphic-context/). تواقيع الطريقة المضافة حديثًا هي كما يلي.
+## **واجهات برمجة التطبيقات الجديدة**
+### **عرض الورقة العمل إلى سياق رسومي**
+قام هذا الإصدار من واجهة برمجة التطبيقات Aspose.Cells for Java بتعريض إصدار آخر لطريقة SheetRender.toImage الذي يسمح الآن بقبول مثيل من فئة Graphics2D لـ [تقديم الورقة العمل في سياق الرسم](/cells/ar/java/render-worksheet-to-graphic-context/). توقيعات الطريقة الجديدة المضافة هي كالتالي.
 
-- SheetRender.toImage (int pageIndex ، Graphics2D Graphic)
+- SheetRender.toImage(int pageIndex, Graphics2D graphic)
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -62,14 +63,14 @@ File outputfile = new File("test.png");
 ImageIO.write(image, "png", outputfile);
 
 {{< /highlight >}}
-### **أسلوب PivotTable.getCellByDisplayName مضاف**
- كشف Aspose.Cells for Java 8.5.2 طريقة PivotTable.getCellByDisplayName التي يمكن استخدامها[استرداد عنصر Cell بواسطة اسم PivotField](/cells/ar/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). قد تكون هذه الطريقة مفيدة في السيناريوهات التي تريد فيها تمييز رأس PivotField أو تنسيقه.
+### **تمت إضافة PivotTable.getCellByDisplayName Method**
+Aspose.Cells for Java تمت إضافة الطريقة PivotTable.getCellByDisplayName في الإصدار 8.5.2 ليمكن استخدامها ل[استرداد كائن الخلية بواسطة اسم PivotField](/cells/ar/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). يمكن أن تكون هذه الطريقة مفيدة في السيناريوهات التي ترغب في تسليط الضوء على أو تنسيق رأس PivotField.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -107,34 +108,34 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **تمت إضافة خاصية SaveOptions.MergeAreas**
-كشف Aspose.Cells for Java 8.5.2 خاصية SaveOptions.MergeAreas التي يمكنها قبول قيمة النوع المنطقي. القيمة الافتراضية غير صحيحة ، ولكن إذا تم ضبطها على صواب ، فإن Aspose.Cells for Java API يحاول دمج CellArea الفردي قبل حفظ الملف.
+Aspose.Cells for Java تمت إضافة الخاصية SaveOptions.MergeAreas في الإصدار 8.5.2 لتقبل قيمة من نوع Boolean. القيمة الافتراضية هي false. ومع ذلك، إذا تم تعيينها إلى true، فإن Aspose.Cells for Java API يحاول دمج مناطق الخلية الفردية قبل حفظ الملف.
 
 {{% alert color="primary" %}} 
 
-إذا كان جدول البيانات يحتوي على عدد كبير جدًا من الخلايا الفردية مع تطبيق التحقق من الصحة ، فهناك احتمالية أن يكون جدول البيانات الناتج تالفًا. أحد الحلول الممكنة هو دمج الخلايا بقواعد تحقق مماثلة أو يمكنك الآن استخدام خاصية SaveOptions.MergeAreas لتوجيه API لدمج CellAreas تلقائيًا قبل حفظ العملية.
+إذا كان لديك ورقة بيانات تحتوي على العديد من الخلايا الفردية مع التطبيقات الصحيحة، فهناك فرص لتلف الورقة الناتجة. إحدى الحلول الممكنة هي دمج الخلايا ذات القواعد الصحيحة المتطابقة أو يمكنك الآن استخدام خاصية SaveOptions.MergeAreas لتوجيه الواجهة البرمجية لتلقائي دمج مناطق الخلايا قبل عملية الحفظ.
 
 {{% /alert %}} 
-### **هندسة الخاصية. تمت إضافة ShapeAdjustValues**
- مع إصدار v8.5.2 ، كشف Aspose.Cells API عن طريقة Geometry.getShapeAdjustValues التي يمكن استخدامها[الوصول إلى نقاط الضبط ذات الأشكال المختلفة وإجراء تغييرات عليها](/cells/ar/java/change-adjustment-values-of-the-shape/).
+### **تمت إضافة خاصية Geometry.ShapeAdjustValues**
+مع إصدار v8.5.2، قامت واجهة برمجة التطبيقات Aspose.Cells بتوفير الطريقة Geometry.getShapeAdjustValues الممكن استخدامها ل[الوصول وإجراء تغييرات على نقاط التعديل لأشكال مختلفة](/cells/ar/java/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
-في واجهة Microsoft Excel ، يتم عرض نقاط الضبط كعقد ماسية صفراء.
+في واجهة مستخدم Microsoft Excel، تظهر نقاط التعديل على شكل نقاط الماس الصفراء.
 
 {{% /alert %}} 
 
- على سبيل المثال،
+على سبيل المثال، 
 
-1. مستطيل مدور لديه تعديل لتغيير القوس
-1. المثلث لديه تعديل لتغيير موقع النقطة
-1. شبه منحرف لديه تعديل لتغيير عرض الجزء العلوي
-1. تحتوي الأسهم على تعديلين لتغيير شكل الرأس والذيل
+1. لديك مستطيل مستدير له تعديل لتغيير القوس
+1. لديك مثلث له تعديل لتغيير موقع النقطة
+1. لديك متوازي الأضلاع له تعديل لتغيير عرض الجزء العلوي
+1. لديك سهام له تعديلين لتغيير شكل الرأس والذيل
 
-هنا هو أبسط سيناريو استخدام.
+فيما يلي سيناريو الاستخدام الأبسط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -165,11 +166,11 @@ shape3.getGeometry().getShapeAdjustValues().get(0).setValue(0.5d);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **دمج حقل التعداد. تمت إضافة DISTINCT_COUNT**
-كشف Aspose.Cells for Java 8.5.2 وظيفة Consolidation.DISTINCT_COUNT التي يمكن استخدامها لتطبيق وظيفة Distinct Count المدمجة في DataField في PivotTable.
+### **تمت إضافة حقل عدد فريد لدالة التجميع ConsolidationFunction.DISTINCT_COUNT**
+قامت الإصدارة 8.5.2 لـ Aspose.Cells for Java بعرض حقل ConsolidationFunction.DISTINCT_COUNT الذي يمكن استخدامه لتطبيق دالة التجميع الفريدة لحقول البيانات في PivotTable.
 
 {{% alert color="primary" %}} 
 
-وظيفة دمج العد المميزة مدعومة بواسطة Microsoft Excel 2013 فقط.
+دالة التجميع الفريدة Distinct Count مدعومة فقط في Microsoft Excel 2013.
 
 {{% /alert %}}

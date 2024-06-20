@@ -1,15 +1,16 @@
-﻿---
-title: احسب المجاميع الفرعية
+---
+title: حساب الإجماليات الفرعية
 type: docs
 weight: 10
 url: /ar/net/calculate-sub-totals/
 ---
-## **Aspose.Cells - احسب المجاميع الفرعية**
-يمكنك إنشاء مجاميع فرعية تلقائيًا لأي قيم مكررة في جدول بيانات. يوفر Aspose.Cells ميزات API التي تساعدك على إضافة الإجماليات الفرعية إلى جداول البيانات برمجيًا.
+
+## **Aspose.Cells - حساب الإجماليات الفرعية**
+يمكنك إنشاء الإجماليات الفرعية تلقائيًا لأي قيم متكررة في جدول البيانات. توفر Aspose.Cells ميزات واجهة برمجة التطبيقات التي تساعدك في إضافة الإجماليات الفرعية لجداول البيانات بشكل برمجي.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -35,20 +36,20 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[]{ 1 });
+cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
 
 //Save the excel file
 
 workbook.Save("AsposeTotal.xls"); 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**احسب المجاميع الفرعية** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **حساب الإجماليات الفرعية** من أي من المواقع الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[تكوين المجاميع الفرعية](/cells/ar/net/creating-subtotals/).
+لمزيد من التفاصيل، قم بزيارة [إنشاء المجاميع](/cells/ar/net/creating-subtotals/).
 
 {{% /alert %}}

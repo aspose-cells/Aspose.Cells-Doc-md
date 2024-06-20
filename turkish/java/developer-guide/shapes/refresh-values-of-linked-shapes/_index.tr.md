@@ -1,22 +1,23 @@
-﻿---
-title: Bağlantılı Şekillerin Değerlerini Yenile
+---
+title: Bağlı Şekillerin Değerlerini Yenile
 type: docs
 weight: 3000
 url: /tr/java/refresh-values-of-linked-shapes/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen, Excel dosyanızda bazı hücrelere bağlı bağlantılı bir şekle sahip olursunuz. Microsoft Excel'de bağlantılı hücrenin değerini değiştirmek, bağlantılı şeklin değerini de değiştirir. Çalışma kitabınızı XLS veya XLSX biçiminde kaydetmek istiyorsanız, bu Aspose.Cells ile de iyi çalışır. Ancak çalışma kitabınızı PDF veya HTML formatında kaydetmek isterseniz aramanız gerekecektir.[**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue()) bağlantılı şeklin değerini yenileme yöntemi.
+Bazen Excel dosyanızda bağlantılı bir şekliniz vardır ve bu, bazı hücrelere bağlıdır. Microsoft Excel'de, bağlı hücrenin değerini değiştirmek aynı zamanda bağlı şeklin değerini değiştirir. Bu durum aynı şekilde Aspose.Cells ile de çalışır, eğer çalışma kitabınızı XLS veya XLSX biçiminde kaydetmek istiyorsanız. Bununla birlikte, çalışma kitabınızı PDF veya HTML biçiminde kaydetmek istiyorsanız, o zaman bağlı şeklin değerini yenilemek için [**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection/#updateSelectedValue--) yöntemini çağırmanız gerekecektir.
 
 {{% /alert %}}
 
-## Örnek vermek
+## Örnek
 
- Aşağıdaki ekran görüntüsü, aşağıdaki örnek kodda kullanılan kaynak Excel dosyasını göstermektedir. Bağlantısı var**Resim 1** A1 hücresine bağlı. A1 hücresinin değerini Aspose.Cells ile değiştirip sonra çağıracağız.[**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue() ) değerini yenileme yöntemi**Resim 1** ve PDF formatında kaydedin.
+Aşağıdaki ekran görüntüsü, örnek kodun kullanıldığı kaynak Excel dosyasını göstermektedir. A1 hücresine bağlı **Resim 1** adlı bir şekle sahiptir. A1 hücresinin değerini Aspose.Cells ile değiştirecek ve sonra [**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection/#updateSelectedValue--) yöntemini kullanarak **Resim 1**'in değerini yenileyecek ve PDF biçiminde kaydedeceğiz.
 
-![yapılacaklar:resim_alternatif_metin](refresh-values-of-linked-shapes_1.png)
+![todo:image_alt_text](refresh-values-of-linked-shapes_1.png)
 
-indirebilirsiniz[kaynak Excel dosyası](5472956.xlsx) ve[çıkış PDF](5472955.pdf) verilen linklerden
+Verilen bağlantılardan [kaynak Excel dosyasını](5472956.xlsx) ve [çıktı PDF'sini](5472955.pdf) indirebilirsiniz.
 
 ### Bağlantılı şekillerin değerlerini yenilemek için Java kodu
 

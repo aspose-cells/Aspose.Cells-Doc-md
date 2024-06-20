@@ -1,22 +1,23 @@
 ---
-title: ピボットテーブルでのカスタム並べ替え
+title: ピボットテーブルのカスタムソート
 type: docs
 weight: 130
 url: /ja/python-net/custom-sorting-in-pivot-table/
-description: Aspose.Cells for Python via .NET のフィールド値に基づいてピボット テーブルを並べ替える方法。
-keywords: Sort Pivot Tables on field values.
+description: Aspose.Cells for Python via .NET を使用してフィールド値でピボットテーブルをソートする方法。
+keywords: Aspose.Cells for Python Excel、Excel Python ライブラリ、Aspose.Cells for Python Excel ライブラリを使用してピボットテーブルをフィールド値でソートする。
 ---
-##  **ピボットテーブルでのカスタム並べ替え**
-Aspose.Cells for Python via .NET API を使用すると、フィールド値に基づいてピボット テーブルを並べ替えることができます。次のコード スニペットは、サンプル Excel ファイルをロードし、3 つのピボット テーブルを追加します。最初のピボット テーブルはカスタム並べ替えなしで、2 番目のピボット テーブルは「SeaFood」行フィールド値で並べ替えられ、3 番目のピボット テーブルは「28/07/2000」列フィールド値で並べ替えられています。
 
-サンプル コードをテストするために、サンプル ソース ファイルと出力ファイルをここからダウンロードできます。
+## **Aspose.Cells for Python Excel ライブラリを使用してピボットテーブルでカスタムソーティングを設定する方法**
+Aspose.Cells for Python via .NET API を使用して、フィールド値でピボットテーブルをソートすることができます。以下のコードスニペットは、サンプルの Excel ファイルを読み込んで、3 つのピボットテーブルを追加しています。最初のピボットテーブルはカスタムソートなし、2 番目のピボットテーブルは「SeaFood」の行フィールド値でソートされ、3 番目のピボットテーブルは「28/07/2000」の列フィールド値でソートされています。
 
-[ソース Excel ファイル](98107428.xlsx)
+サンプルソースファイルと出力ファイルは、テスト用のサンプルコードをダウンロードできます:
 
-[Excelファイルの出力](98107429.xlsx)
+[元のExcelファイル](98107428.xlsx)
 
-[PDF ファイルを出力](98107430.pdf)
+[出力Excelファイル](98107429.xlsx)
+
+[出力PDFファイル]（98107430.pdf)
 
 
-
+## **サンプルコード**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableCustomSort-1.py" >}}

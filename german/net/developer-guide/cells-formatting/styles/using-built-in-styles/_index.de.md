@@ -1,73 +1,74 @@
-﻿---
-title: Verwenden von integrierten Stilen
+---
+title: Verwendung von integrierten Styles
 type: docs
 weight: 80
 url: /de/net/using-built-in-styles/
-description: C#-Code zur Verwendung von Excel-integrierten Stilen mit Aspose.Cells for .NET API
-keywords: c# use excel built in styles, c# programmatically apply styles in workbook, programmatically apply styles in workbook, c# apply built in styles in excel, c# apply built in styles in workbook, c# code apply built in styles in workbook, c# code apply built in styles in excel workbook
+description: C# Code zum Verwenden von Excel integrierten Styles mit der Aspose.Cells for .NET API
+keywords: c# verwenden Sie Excel integrierte Stile, c# wenden Sie Styles in Arbeitsmappe programmgesteuert an, programmgesteuert Stile in Arbeitsmappe anwenden, c# wenden Sie integrierte Stile in Excel an, c# wenden Sie integrierte Stile in Arbeitsmappe an, c# Code wenden Sie integrierte Stile in Arbeitsmappe an, c# Code wenden Sie integrierte Stile in Excel Arbeitsmappe an
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells bietet eine große Sammlung wiederverwendbarer Stile zum Formatieren einer Zelle in einem Tabellenkalkulationsdokument. Wir können integrierte Stile in unserer Arbeitsmappe verwenden und auch benutzerdefinierte Stile erstellen.
+Aspose.Cells bietet eine umfangreiche Sammlung von wiederverwendbaren Stilen, um eine Zelle in einem Tabellendokument zu formatieren. Wir können integrierte Stile in unserer Arbeitsmappe verwenden und auch benutzerdefinierte Stile erstellen.
 
 {{% /alert %}}
 
-## **So verwenden Sie integrierte Stile**
+## **Wie man integrierte Styles verwendet**
 
- Die Methode[**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) und die Aufzählung[**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) Machen Sie es bequem, integrierte Stile zu verwenden. Hier ist eine Liste aller möglichen eingebauten Stile:
+Die Methode [**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) und die Enumeration [**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) machen es bequem, integrierte Stile zu verwenden. Hier ist eine Liste aller möglichen integrierten Stile:
 
-- ZWANZIG_PROZENT_AKZENT_1
-- ZWANZIG_PROZENT_AKZENT_2
-- ZWANZIG_PROZENT_AKZENT_3
-- ZWANZIG_PROZENT_AKZENT_4
-- ZWANZIG_PROZENT_AKZENT_5
-- ZWANZIG_PROZENT_AKZENT_6
-- VIERZIG_PROZENT_AKZENT_1
-- VIERZIG_PROZENT_AKZENT_2
-- VIERZIG_PROZENT_AKZENT_3
-- VIERZIG_PROZENT_AKZENT_4
-- VIERZIG_PROZENT_AKZENT_5
-- VIERZIG_PROZENT_AKZENT_6
-- SECHZIG_PROZENT_AKZENT_1
-- SECHZIG_PROZENT_AKZENT_2
-- SECHZIG_PROZENT_AKZENT_3
-- SECHZIG_PROZENT_AKZENT_4
-- SECHZIG_PROZENT_AKZENT_5
-- SECHZIG_PROZENT_AKZENT_6
-- AKZENT_1
-- AKZENT_2
-- AKZENT_3
-- AKZENT_4
-- AKZENT_5
-- AKZENT_6
+- ZWANZIG_PROZENT_AKKENT_1
+- ZWANZIG_PROZENT_BETONUNG_2
+- ZWANZIG_PROZENT_BETONUNG_3
+- ZWANZIG_PROZENT_BETONUNG_4
+- ZWANZIG_PROZENT_BETONUNG_5
+- ZWANZIG_PROZENT_BETONUNG_6
+- VIERZIG_PROZENT_BETONUNG_1
+- VIERZIG_PROZENT_BETONUNG_2
+- VIERZIG_PROZENT_BETONUNG_3
+- VIERZIG_PROZENT_BETONUNG_4
+- VIERZIG_PROZENT_BETONUNG_5
+- VIERZIG_PROZENT_BETONUNG_6
+- SECHZIG_PROZENT_BETONUNG_1
+- SECHZIG_PROZENT_BETONUNG_2
+- SECHZIG_PROZENT_BETONUNG_3
+- SECHZIG_PROZENT_BETONUNG_4
+- SECHZIG_PROZENT_BETONUNG_5
+- SECHZIG_PROZENT_BETONUNG_6
+- BETONUNG_1
+- BETONUNG_2
+- BETONUNG_3
+- BETONUNG_4
+- BETONUNG_5
+- BETONUNG_6
 - SCHLECHT
 - BERECHNUNG
-- CHECK_CELL
+- ZELLE_PRÜFEN
 - KOMMA
 - KOMMA_1
 - WÄHRUNG
 - WÄHRUNG_1
-- ERLÄUTERNDER_TEXT
+- ERKLÄRENDER_TEXT
 - GUT
-- HEADER_1
-- HEADER_2
-- HEADER_3
-- HEADER_4
+- ÜBERSCHRIFT_1
+- ÜBERSCHRIFT_2
+- ÜBERSCHRIFT_3
+- ÜBERSCHRIFT_4
 - HYPERLINK
-- FOLLOWED_HYPERLINK
-- EINGANG
-- LINKED_CELL
+- GEFOLGTEN_HYPERLINK
+- EINGABE
+- VERKNÜPFTE_ZELLE
 - NEUTRAL
 - NORMAL
 - HINWEIS
-- AUSGANG
+- AUSGABE
 - PROZENT
 - TITEL
 - GESAMT
-- WARNUNG_TEXT
-- ROW_LEVEL
-- COLUMN_LEVEL
+- WARNTEXT
+- REIHENEBENE
+- SPALTENELEBENE
 
-## C#-Code zur Verwendung integrierter Stile
+## C#-Code zur Verwendung von Standardformaten
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}

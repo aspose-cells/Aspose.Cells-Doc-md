@@ -1,41 +1,42 @@
-﻿---
-title: Paketleme Cell Metin
+---
+title: Hücre Metin Sarma
 type: docs
 weight: 130
 url: /tr/net/wrapping-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-Metni kaydırmak, okumayı kolaylaştırır: Sarılmış metne sahip bir hücre, metne sığacak şekilde genişler, böylece metin diğer hücrelerin üzerinde görüntülenmez.
+Metni sarmak, okumayı kolaylaştırır: sarma metin içeren bir hücre, metni diğer hücrelerin üstüne görüntülemeden sığacak şekilde genişler.
 
-Aspose.Cells for .NET ile geliştiriciler, uygulamalarında, kullanıcıların Microsoft Excel ile gerçekleştirebildiği görevlerin çoğunu, hücrelerdeki metni kaydırma dahil gerçekleştirebilir. Bu makale, VSTO ve Aspose.Cells'in nasıl kullanıldığını açıklar ve görevi karşılaştırır. Aspose.Cells, verimli kodlama için optimize edilmiştir ve Microsoft Otomasyonu olmadan çalışır.
+Aspose.Cells for .NET ile, geliştiriciler Microsoft Excel'de kullanıcıların yaptığı çoğu görevi gerçekleştirebilir, bu da hücrelerde metin sarma işlemini içerir. Bu makale, bunu nasıl yapılacağını açıklar ve VSTO ve Aspose.Cells kullanarak karşılaştırır. Aspose.Cells, verimli kodlama için optimize edilmiştir ve Microsoft Automation olmadan çalışır.
 
 {{% /alert %}}
 
-## **Paketleme Cell Metin**
+## **Hücre Metin Sarma**
 
-Biri kaydırılmış metin içeren ve diğeri içermeyen iki hücreli bir çalışma sayfası oluşturmak için:
+İki hücreli bir çalışma sayfası oluşturmak için, biri kaydırılmış metinle diğeri kaydırılmamış metinle:
 
-1. Çalışma sayfasını ayarlayın:
- 1. Bir çalışma kitabı oluşturun.
- 1. İlk çalışma sayfasına erişin.
-1. Yazı ekle:
- 1. A1 hücresine metin ekleyin.
- 1. Kaydırılmış metni A5 hücresine ekleyin.
+1. Çalışma sayfasını kurun:
+   1. Bir çalışma kitabı oluşturma.
+   1. İlk çalışma sayfasına erişin.
+1. Metin ekleyin:
+   1. A1 hücresine metin ekleyin.
+   1. A5 hücresine kaydırılmış metin ekleyin.
 1. Elektronik tabloyu kaydedin.
 
- Aşağıdaki kod örnekleri, kullanarak bu adımların nasıl gerçekleştirileceğini gösterir.[VSTO](/cells/tr/net/wrapping-cell-text/) C# veya Visual Basic ile. kullanarak aynı şeyi nasıl yapacağınızı gösteren kod örnekleri[Aspose.Cells for .NET](/cells/tr/net/wrapping-cell-text/), yine C# veya Visual Basic kullanarak hemen ardından izleyin.
+Aşağıdaki kod örnekleri, bu adımları C# veya Visual Basic kullanarak [VSTO](/cells/tr/net/wrapping-cell-text/) ile nasıl gerçekleştireceğinizi gösterir. Aynı şeyi [Aspose.Cells for .NET](/cells/tr/net/wrapping-cell-text/) kullanarak yine C# veya Visual Basic kullanarak yapan kod örnekleri hemen arkasından gelir.
 
-Kodun çalıştırılması, biri sarmalanmamış metin ve diğeri aşağıdakileri içeren iki hücreli bir elektronik tabloyla sonuçlanır:
+Kodun çalıştırılması sonucunda, kapsamı genişletilmemiş metin içeren bir hücre ve şunları içeren bir elektronik tablo oluşur:
 
-|<p>**VSTO ile çıktı sarma hücre metni** </p><p>![yapılacaklar:resim_alternatif_metin](wrapping-cell-text_1.png)</p>|<p>**Aspose.Cells for .NET ile çıktı sarma hücre metni** </p><p>![yapılacaklar:resim_alternatif_metin](wrapping-cell-text_2.png)</p>|
-|:- |:- |
+|<p>**Output wrapping cell text with VSTO** </p><p>![todo:image_alt_text](wrapping-cell-text_1.png)</p>|<p>**Output wrapping cell text with Aspose.Cells for .NET** </p><p>![todo:image_alt_text](wrapping-cell-text_2.png)</p>|
+| :- | :- |
 
-### **Cell Metni VSTO Kullanarak Kaydırma**
+### **VSTO Kullanarak Hücre Metin Sarma**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -85,11 +86,11 @@ void WrappingCellText()
 
 {{< /highlight >}}
 
-### **Sarma Cell Metin Kullanılıyor Aspose.Cells for .NET**
+### **Aspose.Cells for .NET Kullanarak Hücre Metin Sarma**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void WrappingCellText()
 

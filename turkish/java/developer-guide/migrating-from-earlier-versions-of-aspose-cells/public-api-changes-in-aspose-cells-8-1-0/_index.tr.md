@@ -1,30 +1,31 @@
-﻿---
-title: Genel API Aspose.Cells 8.1.0'daki değişiklikler
+---
+title: Aspose.Cells 8.1.0 Kamu API Değişiklikleri
 type: docs
 weight: 50
 url: /tr/java/public-api-changes-in-aspose-cells-8-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürüm 8.0.2'den 8.1.0'a modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranışlardaki değişikliklerin açıklamasını da içerir.
+Bu belge, Aspose.Cells API'sındaki 8.0.2'den 8.1.0'a kadar olan değişiklikleri açıklar, modül/uygulama geliştiricilerin ilgisini çekebilecek. Sadece yeni ve güncellenmiş kamusal yöntemleri değil, aynı zamanda Aspose.Cells'in arka plandaki davranışında herhangi bir değişikliği de içerir.
 
 {{% /alert %}} 
 ## **HtmlSaveOptions.ExportHiddenWorksheet Özelliği Eklendi**
-HtmlSaveOptions sınıfı, gizli çalışma sayfalarının HTML biçiminde dışa aktarılıp aktarılmadığını belirtmek için kullanılabilecek ExportHiddenWorksheet özelliğine sahiptir. Varsayılan değer doğrudur. yanlış olarak ayarlanırsa Aspose.Cells, gizli çalışma sayfası içeriğini dışa aktarmaz.
+HtmlSaveOptions sınıfı, HTML biçimine gizli çalışma sayfalarının dışa aktarılıp aktarılmayacağını belirlemek için kullanılacak ExportHiddenWorksheet özelliğini açığa çıkardı. Varsayılan değer true'dur. false olarak ayarlansa, Aspose.Cells gizli çalışma sayfası içeriğini dışa aktarmaz.
 
 {{% alert color="primary" %}} 
 
- Lütfen adresindeki ayrıntılı makaleyi kontrol edin.[Gizli Çalışma Sayfasını Dışa Aktarmayı Önle](/cells/tr/java/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
+[Gizli Çalışma Sayfasının Dışa Aktarılmasını Engelleme](/cells/tr/java/prevent-exporting-hidden-worksheet-contents-on-saving-to/) konusundaki detaylı makaleyi kontrol edin
 
 {{% /alert %}}
-## **Cell.StringValueWithoutFormat Özelliği eklendi**
- Cell Sınıfına StringValueWithoutFormat özelliği eklenerek geliştiricilerin herhangi bir biçimlendirme uygulamadan hücre değerini almalarını kolaylaştırılmıştır.
+## **Cell.StringValueWithoutFormat Özelliği Eklendi**
+StringValueWithoutFormat özelliği, hücre Sınıfına eklenmiş, geliştiricilerin hücre değerini herhangi bir biçimlendirme uygulamadan almasını sağlamak için. 
 
-Aşağıda verilen kod parçacığı, sıfırdan bir elektronik tablo oluşturarak ve hücrelerden birine sayı biçimi uygulayarak cell.getDisplayStringValue ile karşılaştırıldığında Cell.getStringValueWithoutFormat yönteminin kullanımını göstermektedir.
+Aşağıdaki sağlanan kod parçası, bir elektronik tablo oluşturarak ve hücrelerden birine numara biçimini uygulayarak Cell.getStringValueWithoutFormat yönteminin kullanımını cell.getDisplayStringValue ile karşılaştırmaktadır. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -82,9 +83,9 @@ System.out.println("Un-formatted String Value: " + unformatted);
 
 Yukarıdaki kodun çıktısı aşağıdaki gibidir
 
-Biçimlendirilmiş Dize Değeri: 123.456
-Biçimlendirilmemiş Dize Değeri: 123456
+Biçimlendirilmiş Dize Değeri: 123,456
+Biçimsiz Dize Değeri: 123456
 
 {{% /alert %}}
-## **Eski Baytlar, Karakterler, CharactersWithSpaces, Satırlar, Paragraflar Özellikleri**
- Aspose.Cells for .NET 8.1.0'dan başlayarak BuiltInDocumentPropertyCollection sınıfındaki birçok özellik geçersiz olarak işaretlendi. Bu özellikler arasında Bytes, Characters, CharactersWithSpaces, Lines & Paragraphs bulunur. Nedeni, yukarıda belirtilen özelliklerin Excel elektronik tablolarının korunmasında hiçbir faydası yoktur çünkü Excel bunları atlar. Bu özellikler orijinal olarak Word belgeleri ve PowerPoint sunumları için yazılmıştır.
+## **Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs Özellikleri Geçersiz Kılındı**
+BuiltInDocumentPropertyCollection sınıfından birçok özellik, Aspose.Cells for .NET 8.1.0'den itibaren geçersiz kılınmıştır. Bu özellikler, Bytes, Characters, CharactersWithSpaces, Lines ve Paragraphs'i içerir. Bu özellikler, Excel elektronik tablolarının korunmasında kullanışlı olmadığı için Excel tarafından atlanır. Bu özellikler aslında Word belgeleri ve PowerPoint sunuları için yazılmıştır. 

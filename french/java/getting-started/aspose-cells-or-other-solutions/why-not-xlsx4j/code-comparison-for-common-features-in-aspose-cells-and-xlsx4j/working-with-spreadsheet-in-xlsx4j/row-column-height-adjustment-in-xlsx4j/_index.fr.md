@@ -1,23 +1,24 @@
-﻿---
-title: Ajustement de la hauteur de la colonne de ligne en xlsx4j
+---
+title: Ajustement de la hauteur de ligne et de colonne dans xlsx4j
 type: docs
 weight: 50
 url: /fr/java/row-column-height-adjustment-in-xlsx4j/
 ---
-## **Aspose.Cells - Réglage de la hauteur de la colonne de rangée**
-Il est possible de définir la hauteur d'une seule ligne en appelant la méthode setRowHeight de la collection Cells. La méthode setRowHeight prend les paramètres suivants :
 
-- **Indice de ligne**, l'index de la ligne dont vous modifiez la hauteur.
-- **Hauteur de ligne**, la hauteur de ligne à appliquer sur la ligne.
+## **Aspose.Cells - Ajustement de la hauteur de ligne et de colonne**
+Il est possible de définir la hauteur d'une seule ligne en appelant la méthode setRowHeight de la collection Cells. La méthode setRowHeight prend les paramètres suivants :
 
-Définissez la largeur d'une colonne en appelant la méthode setColumnWidth de la collection Cells. La méthode setColumnWidth prend les paramètres suivants :
+- **Index de ligne**, l'index de la ligne pour laquelle vous modifiez la hauteur.
+- **Hauteur de la ligne**, la hauteur de la ligne à appliquer sur la ligne.
 
-- **Indice de colonne**, l'index de la colonne dont vous modifiez la largeur.
-- **Largeur de colonne**, la largeur de colonne souhaitée.
+Définissez la largeur d'une colonne en appelant la méthode setColumnWidth de la collection Cells. La méthode setColumnWidth prend les paramètres suivants:
+
+- Index de la colonne, l'index de la colonne dont vous changez la largeur.
+- Largeur de colonne, la largeur de colonne souhaitée.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cells.setRowHeight(1, 40);
 cells.setColumnWidth(1, 17.5);
 
 {{< /highlight >}}
-## **xlsx4j - Ajustement de la hauteur de la colonne de ligne**
-Row.setHt est utilisé pour définir la hauteur personnalisée des lignes à l'aide de xlsx4j. setCustomHeight doit être défini sur TRUE.
+## **xlsx4j - Ajustement de la hauteur de la ligne et de la colonne**
+Row.setHt est utilisé pour définir une hauteur personnalisée pour les lignes en utilisant xlsx4j. setCustomHeight doit être défini sur TRUE.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SpreadsheetMLPackage pkg = SpreadsheetMLPackage.createPackage();
 
@@ -88,13 +89,13 @@ row.getC().add(cell2);
 sheetData.getRow().add(row);
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Ajustement de la hauteur des lignes et de la largeur des colonnes](/java/adjusting-row-height-and-volumn-width).
+Pour plus de détails, visitez [Ajustement de la hauteur de la ligne et de la largeur de la colonne](/java/adjusting-row-height-and-volumn-width).
 
 {{% /alert %}}

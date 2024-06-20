@@ -1,15 +1,16 @@
-﻿---
-title: Mostrar y ocultar pestañas del libro de trabajo usando Aspose.Cells
+---
+title: Mostrar y ocultar pestañas del libro de trabajo con Aspose.Cells
 type: docs
 weight: 50
 url: /es/java/display-and-hide-tabs-of-workbook-using-aspose-cells/
 ---
-## **Aspose.Cells - Mostrar y ocultar pestañas del libro de trabajo**
-Aspose.Cells proporciona una clase, Workbook, que representa un archivo de Excel Microsoft. La clase Workbook proporciona una amplia gama de propiedades y métodos para administrar un archivo de Excel. Para controlar la visibilidad de las pestañas en un archivo de Excel, los desarrolladores pueden usar el método setShowTabs de la clase Workbook.
+
+## **Aspose.Cells: Mostrar y ocultar las pestañas del libro de trabajo**
+Aspose.Cells proporciona una clase, Workbook, que representa un archivo de Microsoft Excel. La clase Workbook proporciona una amplia gama de propiedades y métodos para administrar un archivo de Excel. Para controlar la visibilidad de las pestañas en un archivo de Excel, los desarrolladores pueden utilizar el método setShowTabs de la clase Workbook.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -34,8 +35,8 @@ workbook.getSettings().setShowTabs(true);
 workbook.save(dataDir + "AsposeDisplayTabs.xls");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideTabs.java)
 

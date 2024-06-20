@@ -1,48 +1,49 @@
-﻿---
-title: Spara arbetsbok till text eller CSV Formatera med Aspose.Cells
+---
+title: Spara arbetsboken till text eller CSV format med hjälp av Aspose.Cells
 type: docs
 weight: 80
 url: /sv/net/save-workbook-to-text-or-csv-format-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Ibland vill du konvertera eller spara en arbetsbok med flera kalkylblad till textformat. För textformat (till exempel TXT, TabDelim, CSV etc.) sparar både Microsoft Excel och Aspose.Cells endast innehållet i det aktiva kalkylbladet som standard.
+Ibland vill du konvertera eller spara en arbetsbok med flera kalkylblad i textformat. För textformat (till exempel TXT, TabDelim, CSV etc.) sparar både Microsoft Excel och Aspose.Cells innehållet i endast det aktiva kalkylbladet som standard.
 
 {{% /alert %}} 
 
-Följande kodexempel förklarar hur man sparar en hel arbetsbok i textformat. Ladda källarbetsboken som kan vara valfri Microsoft Excel- eller OpenOffice-kalkylarksfil (såsom XLS, XLSX, XLSM, XLSB, ODS och så vidare) med valfritt antal kalkylblad.
+Följande kodexempel förklarar hur du sparar en hel arbetsbok i textformat. Ladda den källarbetsbok som kan vara vilken Microsoft Excel- eller OpenOffice-kalkylarksfil som helst (t.ex. XLS, XLSX, XLSM, XLSB, ODS osv.) med vilket antal arbetsblad som helst.
 
-När koden exekveras konverterar den data från alla ark i arbetsboken till formatet TXT.
+När koden körs konverterar den data från alla kalkylblad i arbetsboken till TXT-format.
 
-Du kan ändra samma exempel för att spara din fil till CSV. Som standard är TxtSaveOptions.Separator kommatecken, så ange inte en avgränsare om du sparar i formatet CSV.
+Du kan ändra samma exempel för att spara din fil till CSV. Som standard är TxtSaveOptions.Separator kommatecken, så ange inte ett avgränsare om du sparar i CSV-format.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-string FilePath = @"..\..\..\Sample Files\";
+ string FilePath = @"..\..\..\Sample Files\";
 
-string FileName = FilePath + "Spara arbetsbok till text eller CSV Format.xlsx";
+string FileName = FilePath + "Save Workbook to Text or CSV Format.xlsx";
 
-string destFileName = FilePath + "Spara arbetsbok till text eller CSV Format.txt";
+string destFileName = FilePath + "Save Workbook to Text or CSV Format.txt";
 
-//Ladda din källarbetsbok
+//Load your source workbook
 
-Arbetsbok arbetsbok = ny arbetsbok(Filnamn);
+Workbook workbook = new Workbook(FileName);
 
 //0-byte array
 
-byte[]workbookData = ny byte[0];
+byte[] workbookData = new byte[0];
 
-//Spara alternativ för text. Du kan använda vilken typ av separator som helst
+//Text save options. You can use any type of separator
 
 TxtSaveOptions opts = new TxtSaveOptions();
 
 opts.Separator = '\t';
 
-//Kopiera varje kalkylbladsdata i textformat inuti arbetsboksdatamatrisen
+//Copy each worksheet data in text format inside workbook data array
 
- för (int idx = 0; idx< workbook.Worksheets.Count; idx++)
+for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 
 {
 
@@ -77,8 +78,8 @@ opts.Separator = '\t';
 File.WriteAllBytes(destFileName, workbookData);
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
 
-## **Ladda ner körningsexempel**
+## **Ladda ner exempel på körning**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

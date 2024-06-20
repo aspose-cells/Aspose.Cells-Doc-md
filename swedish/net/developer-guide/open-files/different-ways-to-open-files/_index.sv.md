@@ -3,49 +3,50 @@ title: Olika sätt att öppna filer
 type: docs
 weight: 10
 url: /sv/net/different-ways-to-open-files/
-description: Den här artikeln förklarar hur man öppnar en Excel-fil med Aspose.Cells for .NET API.
-keywords: C# Open an Excel file without Excel, How do I open an Excel File.
+description: Denna artikel förklarar hur man öppnar en Excel fil med Aspose.Cells for .NET API.
+keywords: C# Öppna en Excel fil utan Excel, Hur öppnar jag en Excel fil.
 ---
+
 {{% alert color="primary" %}}
 
-Med Aspose.Cells är det enkelt att öppna filer, till exempel för att hämta data, eller att använda en designermall för att påskynda utvecklingsprocessen.
+Med Aspose.Cells är det enkelt att öppna filer, till exempel för att hämta data, eller att använda en designmall för att snabba på utvecklingsprocessen.
 
 {{% /alert %}}
 
-##  **Hur man öppnar en Excel-fil via en sökväg**
+## **Så öppnar du en Excel-fil via en sökväg**
 
- Utvecklare kan öppna en Microsoft Excel-fil med dess sökväg på den lokala datorn genom att ange den i**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)**klass konstruktör. Skicka helt enkelt sökvägen i konstruktorn som en *sträng*. Aspose.Cells kommer automatiskt att upptäcka filformatstypen.
+Utvecklare kan öppna en Microsoft Excel-fil genom att ange dess filväg på den lokala datorn genom att specificera det i klasskonstruktören [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook). Ange helt enkelt filvägen i konstruktören som en *string*. Aspose.Cells kommer automatiskt att upptäcka filformatet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughPath-1.cs" >}}
 
-##  **Hur man öppnar en Excel-fil via en ström**
+## **Så öppnar du en Excel-fil via en ström**
 
- Det är också enkelt att öppna en Excel-fil som en stream. För att göra det, använd en överbelastad version av konstruktorn som tar*Ström*objekt som innehåller filen.
+Det är också enkelt att öppna en Excel-fil som en ström. För att göra detta, använd en överlagrad version av konstruktören som tar *Stream*-objektet som innehåller filen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughStream-1.cs" >}}
 
-##  **Hur man öppnar en fil med endast data**
+## **Så öppnar du en fil med endast data**
 
- För att öppna en fil med endast data, använd**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** och**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**klasser för att ställa in det relaterade attributet och alternativen för klasserna för mallfilen som ska laddas.
+För att öppna en fil med endast data, använd [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) och [**LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadfilter) klasserna för att ställa in de relaterade attributen och alternativen för klasserna för mönsterfilen som ska laddas.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilewithDataOnly-1.cs" >}}
 
-##  **Så här laddar du endast synliga ark**
+## **Så lastar du bara synliga ark**
 
- När du laddar en**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)**ibland behöver du kanske bara data i synliga kalkylblad i en arbetsbok. Aspose.Cells låter dig hoppa över data i osynliga kalkylblad medan du laddar en arbetsbok. För att göra detta, skapa en anpassad funktion som ärver**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**klass och skicka sin instans till**[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)**fast egendom.
+När du laddar en [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) kan det hända att du endast behöver data i synliga arkmallar i en arbetsbok. Aspose.Cells låter dig hoppa över data i osynliga arkmallar när du laddar en arbetsbok. För att göra detta kan du skapa en anpassad funktion som ärver från klassen [**LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadfilter) och skicka dess instans till egenskapen [**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-LoadVisibleSheetsOnly-1.cs" >}}
 
-Här är genomförandet av*CustomnLoad*klass som hänvisas till i kodavsnittet ovan.
+Här är implementeringen av klassen *CustomnLoad* som refereras till i ovanstående kodsnutt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-LoadVisibleSheetsOnly-2.cs" >}}
 
 {{% alert color="primary" %}}
 
-Ett undantag kommer att skapas om du försöker öppna icke-inbyggda Excel-filer eller andra filformat (till exempel PPT/PPTX, DOC/DOCX, etc.) med Aspose.Cells.
+Ett undantag kommer att kastas om du försöker att öppna icke-ursprungliga Excel-filer eller andra filformat (till exempel PPT/PPTX, DOC/DOCX, etc.) med Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- Det finns rimliga chanser att**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)**konstruktör kan kasta*System.OutOfMemoryException* medan du laddar stora kalkylblad. Detta undantag tyder på att det tillgängliga minnet är otillräckligt för att fullständigt ladda kalkylarket i minnet, därför måste kalkylarket laddas samtidigt som minnesinställningarna aktiveras.
+Det finns en rättvis chans att [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) konstruktören kan kasta *System.OutOfMemoryException* när du laddar stora kalkylblad. Detta undantag tyder på att minnet är otillräckligt för att helt ladda kalkylarket i minnet, därför måste kalkylarket laddas med aktiverade minnesinställningar.
 
 {{% /alert %}}

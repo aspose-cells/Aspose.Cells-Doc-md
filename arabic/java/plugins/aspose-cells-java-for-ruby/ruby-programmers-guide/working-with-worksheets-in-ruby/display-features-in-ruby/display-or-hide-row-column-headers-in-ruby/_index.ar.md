@@ -1,16 +1,17 @@
-﻿---
-title: عرض رؤوس أعمدة الصفوف أو إخفاؤها في Ruby
+---
+title: عرض أو إخفاء رؤوس الصف العمود في روبي
 type: docs
 weight: 20
 url: /ar/java/display-or-hide-row-column-headers-in-ruby/
 ---
-## **Aspose.Cells - عرض أو إخفاء رؤوس أعمدة الصف**
-### **إخفاء رؤوس الصفوف / الأعمدة**
- لإخفاء رؤوس الصفوف / الأعمدة باستخدام**Aspose.Cells Java لروبي** ، مكالمة**DisplayHideRowColumnHeaders** وحدة.
 
-**كود روبي**
+## **Aspose.Cells - عرض أو إخفاء رؤوس الصف العمود**
+### **إخفاء رؤوس الصف/العمود**
+لإخفاء رؤوس الصف/العمود باستخدام **Aspose.Cells Java for Ruby**, اتصل بوحدة **DisplayHideRowColumnHeaders**.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -37,19 +38,19 @@ workbook.save(data_dir + "output.xls")
 puts "Headers of rows and columns are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **جعل رؤوس الصفوف / الأعمدة مرئية**
-اجعل رؤوس الصفوف والأعمدة مرئية باستخدام أسلوب setRowColumnHeadersVisible (true) لفئة ورقة العمل.
+### **جعل رؤوس الصف/العمود مرئية**
+جعل رؤوس الصف والعمود مرئية باستخدام الوسيطة setRowColumnHeadersVisible(true) في فئة Worksheet.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the headers of rows and columns
 
 worksheet.setRowColumnHeadersVisible(true)
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**عرض رؤوس أعمدة الصفوف أو إخفاؤها (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **إظهار أو إخفاء رؤوس الصفوف والأعمدة (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhiderowcolumnheaders.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhiderowcolumnheaders.rb)

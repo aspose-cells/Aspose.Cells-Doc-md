@@ -1,38 +1,39 @@
-﻿---
-title: Aspose.Cells でグリッド線を表示または非表示にする
+---
+title: Aspose.Cellsでグリッド線を表示または非表示にする
 type: docs
 weight: 50
 url: /ja/net/display-or-hide-gridlines-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-すべての Excel ワークシートには、既定でグリッド線があります。セルの輪郭を描くのに役立ち、特定のセルにデータを簡単に入力できます。グリッド線を使用すると、ワークシートをセルのコレクションとして表示でき、各セルを簡単に識別できます。
+すべてのExcelワークシートにはデフォルトでグリッド線があります。それらはセルを区別しやすくするために役立ちます。グリッド線によって、各セルが簡単に識別できるワークシートとして確認できます。
 
 {{% /alert %}}
 
-## **グリッド線の可視性の制御**
+## **グリッド線の表示の制御**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)、Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel ファイル内の各ワークシートにアクセスできるコレクション。
+Aspose.CellsはMicrosoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれており、Excelファイルの各ワークシートにアクセスできます。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。グリッド線の可視性を制御するには、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス'[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)財産。[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)ブール型のプロパティです。つまり、格納できるのは**真実**また**間違い**価値。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するための様々なプロパティとメソッドが提供されています。グリッド線の表示を制御するには、[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)プロパティを使用します。[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)は**true**または**false**の値のみを格納できるブール値プロパティです。
 
-の使用を示す完全な例を以下に示します。[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)のプロパティ[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスを使用して、Excel ファイルの最初のワークシートのグリッド線を非表示にします。
+下記は、Excelファイルの最初のワークシートのグリッド線を非表示にする[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)プロパティの使用を示す完全な例です。
 
-下のスクリーンショットでは、Book1.xls ファイルに Sheet1、Sheet2、Sheet3 の 3 つのワークシートが含まれていることがわかります。すべてのワークシートにはグリッド線があります。
+以下のスクリーンショットでは、Book1.xlsファイルにはSheet1、Sheet2、Sheet3の3つのワークシートが含まれています。すべてのワークシートにはグリッド線があります。
 
-**Book1.xls: 変更前のワークシート ビュー** 
+**Book1.xls: 修正前のワークシートビュー** 
 
-![todo:画像_代替_文章](display-or-hide-gridlines-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-gridlines-in-aspose-cells_1.png)
 
-Workbook クラスを使用して Book1.xls ファイルが開かれ、最初のワークシートのグリッド線が非表示になります。変更されたファイルは、output.xls として保存されます。
+Workbookクラスを使用してBook1.xlsファイルを開き、最初のワークシートのグリッド線を非表示にします。修正されたファイルはoutput.xlsとして保存されます。
 
-**Output.xls: 修正後のワークシート** 
+**Output.xls: モディファイ後のワークシート** 
 
-![todo:画像_代替_文章](display-or-hide-gridlines-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-gridlines-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -62,7 +63,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Gridlines)
 

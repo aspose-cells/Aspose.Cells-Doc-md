@@ -1,15 +1,16 @@
-﻿---
-title: Avskydda Simply Protected Worksheet i Jython
+---
+title: Avskydda enkelt skyddad kalkylblad i Jython
 type: docs
 weight: 160
 url: /sv/java/unprotecting-simply-protected-worksheet-in-jython/
 ---
-## **Aspose.Cells - Avskyddande helt enkelt skyddat arbetsblad**
- För att lägga till dokument med hjälp av**Aspose.Cells Java för Jython**. Här kan du se exempelkod.
 
-**Jython Code**
+## **Aspose.Cells - Avskydda enkelt skyddad kalkylblad**
+Att lägga till dokument med **Aspose.Cells Java för Jython**. Här kan du se exempelkod.
 
-{{< highlight "java" >}}
+**Jython Kod**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -65,7 +66,7 @@ if __name__ == '__main__':
     UnprotectingSimplyProtectedWorksheet()
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Bifoga dokument (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ned **Hämta dokument (Aspose.Cells)** från någon av de sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/UnprotectingSimplyProtectedWorksheet.py)

@@ -1,53 +1,54 @@
-﻿---
-title: Tabella pivot e dati di origine
+---
+title: Tabella Pivot e Dati di Origine
 type: docs
 weight: 110
 url: /it/java/pivot-table-and-source-data/
 ---
-## **Dati di origine della tabella pivot**
-Ci sono momenti in cui si desidera creare report Excel Microsoft con tabelle pivot che prendono dati da diverse origini dati (come un database) che non sono note in fase di progettazione. Questo articolo fornisce un approccio per modificare dinamicamente l'origine dati di una tabella pivot.
-## **Modifica dei dati di origine di una tabella pivot**
-1. Creazione di un nuovo modello di designer.
-1. Crea un nuovo file modello di designer come nello screenshot qui sotto.
- 1. Quindi definire un intervallo denominato,**Fonte di dati** , che si riferisce a questo intervallo di celle.
 
-      **Creazione di un modello di progettazione e definizione di un intervallo denominato, DataSource** 
+## **Dati di Origine della Tabella Pivot**
+Ci sono momenti in cui si desidera creare report di Microsoft Excel con tabelle pivot che prendono dati da diverse origini dati (come un database) che non sono conosciute al momento della progettazione. Questo articolo fornisce un approccio per modificare dinamicamente l'origine dati di una tabella pivot.
+## **Cambiare i Dati di Origine di una Tabella Pivot**
+1. Creazione di un nuovo modello di design.
+   1. Creare un nuovo file di modello di design come nella schermata qui sotto.
+   1. Definire quindi un intervallo nominato, **DataSource**, che si riferisce a questo intervallo di celle. 
 
-![cose da fare:immagine_alt_testo](pivot-table-and-source-data_1.png)
+      **Creazione di un modello di design e definizione di un intervallo nominato, DataSource** 
 
-1. Creazione di una tabella pivot basata su questo intervallo denominato.
- 1. In Microsoft Excel, scegli**Dati** , poi**Tabella pivot** e**Rapporto grafico pivot**.
- 1. Crea una tabella pivot basata sull'intervallo denominato creato nel primo passaggio.
+![todo:image_alt_text](pivot-table-and-source-data_1.png)
 
-      **Creazione di una tabella pivot basata sull'intervallo denominato, DataSource** 
+1. Creazione di una Tabella Pivot basata su questo intervallo nominato.
+   1. In Microsoft Excel, scegliere **Dati**, quindi **Tabella Pivot** e **Rapporto Tabella Pivot**.
+   1. Creare una tabella pivot basata sull'intervallo nominato creato nel primo passaggio. 
 
-![cose da fare:immagine_alt_testo](pivot-table-and-source-data_2.png)
+      **Creazione di una tabella pivot basata sull'intervallo nominato, DataSource** 
 
-1.  Trascina il campo corrispondente sulla riga e colonna della tabella pivot, quindi crea la tabella pivot risultante come nello screenshot qui sotto.
+![todo:image_alt_text](pivot-table-and-source-data_2.png)
+
+1. Trascinare il campo corrispondente sulla riga e sulla colonna della tabella pivot, quindi creare la tabella pivot risultante come nella schermata qui sotto. 
 
    **Creazione di una tabella pivot basata su un campo corrispondente** 
 
-![cose da fare:immagine_alt_testo](pivot-table-and-source-data_3.png)
+![todo:image_alt_text](pivot-table-and-source-data_3.png)
 
-1.  Fai clic con il pulsante destro del mouse sulla tabella pivot e seleziona**Opzioni tabella**.
- 1. Controlla**Aggiorna all'apertura** in**Opzioni dati** impostazioni.
+1. Fare clic con il tasto destro sulla tabella pivot e selezionare **Opzioni Tabella**.
+   1. Seleziona **Aggiorna all'apertura** nelle impostazioni delle **Opzioni dati**. 
 
-      **Impostazione delle opzioni della tabella pivot** 
+      **Impostare le opzioni della tabella pivot** 
 
-![cose da fare:immagine_alt_testo](pivot-table-and-source-data_4.png)
+![todo:image_alt_text](pivot-table-and-source-data_4.png)
 
 
 
-Ora puoi salvare questo file come file modello del designer.
+Ora puoi salvare questo file come il file del modello del tuo designer.
 
-1. Popolamento di nuovi dati e modifica dei dati di origine di una tabella pivot.
-1. Una volta creato il modello di progettazione, utilizzare il codice seguente per modificare i dati di origine della tabella pivot.
+1. Popolazione di nuovi dati e modifica dei dati di origine di una tabella pivot.
+   1. Una volta creato il modello del designer, utilizza il codice seguente per modificare i dati di origine della tabella pivot.
 
-L'esecuzione del codice di esempio seguente modifica i dati di origine della tabella pivot e la tabella pivot avrà l'aspetto di quella sottostante.
+L'esecuzione del codice di esempio di seguito cambia l'origine dati della tabella pivot e la tabella pivot apparirà come quella sotto.
 
 **Tabella pivot modificata dinamicamente** 
 
-![cose da fare:immagine_alt_testo](pivot-table-and-source-data_5.png)
+![todo:image_alt_text](pivot-table-and-source-data_5.png)
 
 
 

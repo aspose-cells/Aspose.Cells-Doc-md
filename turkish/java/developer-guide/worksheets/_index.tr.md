@@ -1,73 +1,74 @@
-﻿---
-title: Çalışma Sayfalarını Yönet
-linktitle: çalışma sayfaları
+---
+title: Çalışsayfaları Yönet
+linktitle: Çalışma Sayfaları
 type: docs
 weight: 60
 url: /tr/java/manage-worksheets/
 ---
+
 {{% alert color="primary" %}}
 
-Geliştiriciler, esnek API veya Aspose.Cells'i kullanarak programlı olarak Excel dosyalarında çalışma sayfalarını kolayca oluşturabilir ve yönetebilir. Bu konuda, Excel dosyalarına çalışma sayfası eklemek ve kaldırmak için bazı yaklaşımları tartışacağız.
+Geliştiriciler, Aspose.Cells'in esnek API'sını kullanarak Excel dosyalarında çalışma sayfaları oluşturabilir ve yönetebilirler. Bu konuda, Excel dosyalarına çalışma sayfaları eklemek ve kaldırmak için bazı yaklaşımları tartışacağız.
 
 {{% /alert %}}
 
-Aspose.Cells'i kullanarak çalışma sayfalarını yönetmek ABC kadar kolaydır. Bu bölümde, şunları nasıl yapabileceğimizi açıklayacağız:
+Aspose.Cells kullanarak çalışma sayfalarını yönetmek ABC kadar kolaydır. Bu bölümde şunları açıklayacağız:
 
-1. Sıfırdan yeni bir Excel dosyası oluşturun ve ona bir çalışma sayfası ekleyin
-1. Tasarımcı elektronik tablolarına çalışma sayfaları ekleyin
+1. Sıfırdan yeni bir Excel dosyası oluşturun ve içine bir çalışma sayfası ekleyin
+1. Tasarımcı elektronik tablolara çalışma sayfaları ekleyin
 1. Sayfa Adını Kullanarak Çalışma Sayfalarına Erişme
-1. Sayfa adını kullanarak bir çalışma sayfasını bir Excel dosyasından kaldırın
-1. Sayfa dizinini kullanarak bir çalışma sayfasını bir Excel dosyasından kaldırın
+1. Bir çalışma sayfasını sayfa adı kullanarak bir Excel dosyasından kaldırma
+1. Sayfa Endeksini Kullanarak Bir Çalışma Sayfasını Bir Excel Dosyasından Kaldırma
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Bu bir Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)Excel dosyasındaki her çalışma sayfasına erişim sağlar.
+Aspose.Cells, bir Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişimi sağlayan bir [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) içerir.
 
- Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)class, bir çalışma sayfasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Bu temel API kümesinden nasıl yararlanabileceğimizi görelim.
+Bir çalışma sayfası [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı, bir çalışma sayfasını yönetmek için geniş bir yelpazede özellik ve yöntemler sağlar. Bu temel API'ların nasıl kullanılabileceğini görelim.
 
-## **Çalışma Sayfalarını Yeni Bir Excel Dosyasına Ekleme**
+## **Yeni bir Excel Dosyasına Çalışsayfalar Ekleme**
 
- Programlı olarak yeni bir Excel dosyası oluşturmak için geliştiricilerin bir nesne oluşturması gerekir.[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) bir Excel dosyasını temsil eden sınıf. Ardından geliştiriciler arayabilir[**Ekle**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add() ) yöntemi[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) . aradığımızda[**Ekle**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add() ) yönteminde, Excel dosyasına otomatik olarak boş bir çalışma sayfası eklenir ve buna yeni eklenen çalışma sayfasının sayfa dizini Excel'e iletilerek başvurulabilir.[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) . Çalışma sayfası referansı alındıktan sonra, geliştiriciler kendi gereksinimlerine göre çalışma sayfaları üzerinde çalışabilirler. Çalışma sayfalarında iş bittikten sonra, geliştiriciler yeni oluşturulan Excel dosyalarını yeni çalışma sayfalarıyla kaydedebilir.[**kayıt etmek**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) ) yöntemi[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)sınıf.
+Programlama yoluyla yeni bir Excel dosyası oluşturmak için geliştiricilerin, Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı nesnesi oluşturmaları gerekir. Sonra geliştiriciler, [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) yöntemini [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) üzerinde çağırabilirler. [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add--) yöntemini çağırdığımızda, boş bir çalışma sayfası otomatik olarak Excel dosyasına eklenir, bu yeni eklenen çalışma sayfasının sayfa endeksini [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) yöntemine geçirerek referans alabiliriz. Çalışma sayfası referansı elde edildikten sonra, geliştiriciler gereksinimlerine göre çalışma sayfaları üzerinde çalışabilirler. Çalışma sayfaları üzerinde çalışma bittiğinde, geliştiriciler, yeni oluşturulan Excel dosyasını yeni çalışma sayfalarıyla birlikte [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfının [**save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntemini çağırarak kaydedebilirler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
-## **Tasarımcı Elektronik Tablosuna Çalışma Sayfaları Ekleme**
+## **Tasarımcı Çalışsayfalara Çalışsayfalar Ekleme**
 
-Bir tasarımcı elektronik tablosuna çalışma sayfaları ekleme işlemi, Excel dosyasının zaten oluşturulmuş olması ve bir çalışma sayfası eklemeden önce bu Excel dosyasını açmamız gerekmesi dışında, yukarıdaki yaklaşımla tamamen aynıdır. Başlatılırken dosya yolu veya akışı geçirilerek bir tasarımcı elektronik tablosu açılabilir.[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)sınıf.
+Tasarımcı elektronik tabloya çalışma sayfaları eklemenin süreci yukarıdaki yaklaşımla tamamen aynıdır, yalnızca Excel dosyası zaten oluşturulmuş ve bir çalışma sayfası eklemek için önce bu Excel dosyasını açmamız gerekiyor. Bir tasarımcı elektronik tablosu, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını başlatırken dosya yolunu veya akışı geçirerek açılabilir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoDesignerSpreadsheet-AddingWorksheetstoDesignerSpreadsheet.java" >}}
 
-## **Sayfa Adını Kullanarak Çalışma Sayfalarına Erişme**
+## **Sayfa Adını Kullanarak Çalışsayfalara Erişme**
 
-Geliştiriciler, adını veya dizinini belirterek herhangi bir çalışma sayfasına erişebilir veya alabilir.
+Geliştiriciler, adını veya endeksini belirterek herhangi bir çalışma sayfasına erişebilir veya alabilirler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AccessingWorksheetsusingSheetName-AccessingWorksheetsusingSheetName.java" >}}
 
-## **Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma**
+## **Sayfa Adını Kullanarak Çalışsayfaları Kaldırma**
 
- Bazen, geliştiricilerin mevcut Excel dosyalarından çalışma sayfalarını kaldırmaları gerekebilir ve bu görev çağrılarak gerçekleştirilebilir.[**kaldırAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String) ) yöntemi[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) Toplamak. Sayfa adını şuraya geçirebiliriz:[**kaldırAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) belirli bir çalışma sayfasını kaldırma yöntemi.
+Bazen, geliştiriciler mevcut Excel dosyalarından çalışma sayfalarını kaldırmak isteyebilir ve bu görevi [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) koleksiyonunun [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) yöntemini çağırarak gerçekleştirebilirler. Bir belirli çalışma sayfasını kaldırmak için [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(java.lang.String)) yöntemine sayfa adını geçirebiliriz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetName-RemovingWorksheetsusingSheetName.java" >}}
 
-## **Sayfa Dizini Kullanarak Çalışma Sayfalarını Kaldırma**
+## **Sayfa Dizinini Kullanarak Çalışma Sayfalarını Kaldırma**
 
-Geliştiriciler silinecek çalışma sayfalarının sayfa adlarını zaten biliyorsa, yukarıdaki çalışma sayfalarını kaldırma yaklaşımı işe yarar. Ancak, Excel dosyanızdan kaldırmak istediğiniz çalışma sayfasının sayfa adını bilmiyorsanız ne olur?
+Yukarıdaki çalışma sayfalarını kaldırma yaklaşımı, geliştiricilerin çalışma sayfalarının adlarını zaten bildikleri durumlar için iyi çalışır. Ancak, işte kaldırmak istediğiniz çalışma sayfasının adını bilmiyorsanız ne yapacaksınız?
 
- Eh, bu gibi durumlarda, geliştiriciler aşırı yüklenmiş bir sürümünü kullanabilirler.[**kaldırAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int)çalışma sayfasının sayfa adı yerine sayfa dizinini alan yöntem.
+İşte, böyle durumlarda, geliştiriciler, [**removeAt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#removeAt(int)) yönteminin adını kullanacağı çalışma sayfasının endeksini alarak bunun sayfa adı yerine çalışmasını sağlayan aşırı yüklenmiş bir sürümünü kullanabilirler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovingWorksheetsusingSheetIndex-RemovingWorksheetsusingSheetIndex.java" >}}
 
-## **ileri konular**
-- [Sayfaları Etkinleştirme ve Çalışma Sayfasında Cell'i Etkinleştirme](/cells/tr/java/activating-sheets-and-activating-a-cell-in-worksheet/)
-- [Çalışma Sayfalarını Çalışma Kitapları İçinde ve Çalışma Kitapları Arasında Kopyalama ve Taşıma](/cells/tr/java/copy-and-move-worksheets-within-and-between-workbooks/)
+## **Gelişmiş Konular**
+- [Sayfaları Etkinleştirme ve Çalışma Sayfasındaki Hücreyi Etkinleştirme](/cells/tr/java/activating-sheets-and-activating-a-cell-in-worksheet/)
+- [Çalışma Kitapları Arasında ve İçinde Çalışma Sayfalarını Kopyalama ve Taşıma](/cells/tr/java/copy-and-move-worksheets-within-and-between-workbooks/)
 - [Çalışma Sayfalarını Kopyalama ve Taşıma](/cells/tr/java/copying-and-moving-worksheets/)
-- [Çalışma Sayfasındaki hücre sayısını sayın](/cells/tr/java/count-number-of-cells-in-the-worksheet/)
+- [Çalışma Sayfasındaki Hücre Sayısını Sayma](/cells/tr/java/count-number-of-cells-in-the-worksheet/)
 - [Boş Çalışma Sayfalarını Algılama](/cells/tr/java/detecting-empty-worksheets/)
-- [Çalışma Sayfasının İletişim Sayfası olup olmadığını bulun](/cells/tr/java/find-if-the-worksheet-is-dialog-sheet/)
-- [Çalışma sayfası benzersiz kimliğini al](/cells/tr/java/get-worksheet-unique-id/)
-- [Arka Plan Resmini Excel'e Ekle](/cells/tr/java/insert-background-image-to-excel/)
-- [Çalışma Sayfalarından Senaryolar Oluşturun, Yönetin veya Kaldırın](/cells/tr/java/create-manipulate-or-remove-scenarios-from-worksheets/)
+- [Çalışma Sayfasının Diyaloğu Sayfa Olup Olmadığını Bulma](/cells/tr/java/find-if-the-worksheet-is-dialog-sheet/)
+- [Çalışma sayfası benzersiz kimliğini alın](/cells/tr/java/get-worksheet-unique-id/)
+- [Excel'e Arka Plan Resmi Ekleme](/cells/tr/java/insert-background-image-to-excel/)
+- [Çalışma Sayfalarından Senaryo Oluşturma, Hareketlendirme veya Kaldırma](/cells/tr/java/create-manipulate-or-remove-scenarios-from-worksheets/)
 - [Sayfa Sonlarını Yönetme](/cells/tr/java/managing-page-breaks/)
-- [Sayfa Düzeni Özellikleri](/cells/tr/java/page-setup-features/)
-- [Bir çalışma sayfasındaki boş sütunları ve satırları silerken diğer çalışma sayfalarındaki referansları güncelleyin](/cells/tr/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
-- [Aspose.Cells kullanarak OpenXml'nin Sheet.SheetId özelliğini kullanın](/cells/tr/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
-- [ODS Dosyalarında Arka Planla Çalışma](/cells/tr/java/working-with-background-in-ods-files/)
+- [Sayfa Ayarı Özellikleri](/cells/tr/java/page-setup-features/)
+- [Çalışma sayfasında boş sütunları ve satırları silerken diğer çalışma sayfalarındaki referansları güncelle](/cells/tr/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+- [Aspose.Cells üzerinde Sheet.SheetId özelliğini kullanarak OpenXml'in faydalanılması](/cells/tr/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
+- [ODS Dosyalarında Arkaplanla Çalışma](/cells/tr/java/working-with-background-in-ods-files/)
 - [Çalışma Sayfası Görünümleri](/cells/tr/java/worksheet-views/)

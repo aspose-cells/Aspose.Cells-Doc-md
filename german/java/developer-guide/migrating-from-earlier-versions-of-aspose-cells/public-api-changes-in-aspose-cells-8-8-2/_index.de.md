@@ -1,29 +1,30 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.8.2
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.8.2
 type: docs
 weight: 290
 url: /de/java/public-api-changes-in-aspose-cells-8-8-2/
 ---
-{{% alert color="primary" %}} 
-
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.8.1 zu 8.8.2, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
-
-{{% /alert %}} 
-## **APIs hinzugefügt**
-### **Verweise automatisch aktualisieren, während leere Zeilen und Spalten gelöscht werden**
- Aspose.Cells for Java 8.8.2 hat die überladenen Versionen der Methoden Cells.deleteBlankRows und Cells.deleteBlankColumns verfügbar gemacht. Die neuen Methoden können eine Instanz der DeleteOptions-Klasse akzeptieren und können verwendet werden, um die Situationen zu überwinden, die aufgrund von fehlerhaften Verweisen in Formeln, Diagrammreihendaten usw. auftreten können. Die DeleteOptions-Klasse hat derzeit nur ein Mitglied, eine Eigenschaft vom Typ Boolean mit dem Namen UpdateReference. Wenn die besagte Eigenschaft auf „true“ gesetzt ist und die Instanz der DeleteOptions-Klasse an die Methoden Cells.deleteBlankRows und Cells.deleteBlankColumns übergeben wird, passt API die Formelreferenzen (falls vorhanden) intern an, um die Änderungen aufzunehmen.
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im ausführlichen Artikel unter[Löschen leerer Zeilen und Spalten mit aktualisierten Referenzen](/cells/de/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/).
+Dieses Dokument beschreibt die Änderungen der Aspose.Cells-API von Version 8.8.1 auf 8.8.2, die für Modul-/Anwendungsentwickler interessant sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen etc., sondern auch eine Beschreibung etwaiger Änderungen im Verhalten hinter den Kulissen von Aspose.Cells.
+
+{{% /alert %}} 
+## **Hinzugefügte APIs**
+### **Automatisches Aktualisieren von Verweisen beim Löschen von leeren Zeilen und Spalten**
+Aspose.Cells for Java 8.8.2 hat die überlasteten Versionen der Methoden Cells.deleteBlankRows & Cells.deleteBlankColumns freigelegt. Die neuen Methoden können eine Instanz der Klasse DeleteOptions akzeptieren und können verwendet werden, um den Situationen entgegenzuwirken, die aufgrund von defekten Verweisen in Formeln, Diagrammseriendaten und so weiter entstehen könnten. Die Klasse DeleteOptions hat derzeit nur ein Element, eine Eigenschaft vom Typ Boolean mit dem Namen UpdateReference. Wenn besagte Eigenschaft auf true gesetzt ist und die Instanz der Klasse DeleteOptions an die Methoden Cells.deleteBlankRows & Cells.deleteBlankColumns übergeben wird, wird die API intern die Formelverweise (falls vorhanden) anpassen, um die Änderungen zu berücksichtigen. 
+
+{{% alert color="primary" %}} 
+
+Für weitere Details zu diesem Feature lesen Sie bitte den ausführlichen Artikel über [Löschen von leeren Zeilen & Spalten mit aktualisierten Verweisen](/cells/de/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/).
 
 {{% /alert %}} 
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook & load an existing spreadsheet
 

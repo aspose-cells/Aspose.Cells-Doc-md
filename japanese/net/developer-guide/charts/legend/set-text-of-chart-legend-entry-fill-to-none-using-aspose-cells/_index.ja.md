@@ -1,20 +1,21 @@
 ---
-title: Aspose.Cells を使用して、グラフの凡例エントリの塗りつぶしのテキストを none に設定します
-description: Aspose.Cells for .NET を使用して、グラフの凡例エントリのテキストの塗りつぶしをなしに設定する方法を学びます。このガイドでは、視覚化とカスタマイズを改善するために、Microsoft Excel グラフの凡例エントリの塗りつぶしの色を変更する方法を説明します。
-keywords: Aspose.Cells for .NET, Chart Legend Entry Fill, Microsoft Excel, Visualization, Customization.
+title: Aspose.Cellsを使用して、チャートの凡例エントリの塗りつぶしのテキストを無効に設定する
+description: Aspose.Cells for .NETを使用して、チャートの凡例エントリの塗りつぶしのテキストを無効に設定する方法を学んでください。当ガイドでは、Microsoft Excelのチャートで凡例エントリの塗りつぶしの色を変更して視覚的可視化とカスタマイズを行う方法を示します。
+keywords: Aspose.Cells for .NET、チャートの凡例エントリの塗りつぶし、Microsoft Excel、視覚的可視化、カスタマイズ
 type: docs
 weight: 320
 url: /ja/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-グラフの凡例エントリの塗りつぶしのテキストを none に設定して、グラフの凡例内に表示されないようにしたい場合は、[**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) *本当**に。
+チャートの凡例エントリの塗りつぶしのテキストを表示しないようにするには、[**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill)を**true**に設定してください。
 
 {{% /alert %}}
 
-次のサンプル コードでは、グラフの 2 番目の凡例エントリの塗りつぶしのテキストを none に設定します。ダウンロードしてください[サンプルエクセルファイル](5115219.xlsx)このコードで使用されている、[Excelファイルを出力する](5115217.xlsx)参考のためにそれによって生成されました。
+次のサンプルコードは、チャートの2番目の凡例エントリの塗りつぶしのテキストを無効に設定します。このコードで使用される [サンプルExcelファイル](5115219.xlsx) とその生成される [出力Excelファイル](5115217.xlsx) をダウンロードして参照してください。
 
-次のスクリーンショットは、このコードの影響を強調しています。[サンプルエクセルファイル](5115219.xlsx).
+次のスクリーンショットは、このコードが[sample excel file](5115219.xlsx)に与える影響を示しています。
 
 ![todo:image_alt_text](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 

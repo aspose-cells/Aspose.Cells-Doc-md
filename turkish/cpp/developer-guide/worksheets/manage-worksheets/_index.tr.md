@@ -1,35 +1,36 @@
 ---
-title: Çalışma Sayfalarını Yönet
+title: Çalışsayfaları Yönet
 type: docs
 weight: 20
 url: /tr/cpp/manage-worksheets/
 ---
+
 {{% alert color="primary" %}} 
 
-Geliştiriciler, Aspose.Cells esnek API'i kullanarak Microsoft Excel dosyalarındaki çalışma sayfalarını programlı olarak kolayca oluşturabilir ve yönetebilir. Bu konu, Microsoft Excel dosyalarındaki çalışma sayfalarını ekleme ve kaldırma yaklaşımlarını açıklamaktadır.
+Geliştiriciler, Aspose.Cells esnek API'sını kullanarak Microsoft Excel dosyalarında programlı olarak çalışma sayfaları oluşturabilir ve yönetebilir. Bu konu, Microsoft Excel dosyalarında çalışma sayfaları eklemek ve kaldırmak için yaklaşımları açıklar.
 
 {{% /alert %}} 
 
- Aspose.Cells bir sınıf sağlıyor[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) bu bir Excel dosyasını temsil eder.[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) sınıf bir içerir[Çalışma sayfaları](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon.
+Aspose.Cells, bir Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) sınıfı, Excel dosyasındaki her çalışma sayfasına erişime izin veren bir [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) koleksiyonu içerir.
 
-Bir çalışma sayfası şu şekilde temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıf.[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)class, çalışma sayfalarını yönetmek için çok çeşitli yöntemler sağlar.
-##  **Yeni Bir Excel Dosyasına Çalışma Sayfaları Ekleme**
+Bir çalışma sayfası, [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıfı, çalışma sayfalarını yönetmek için geniş bir yöntem yelpazesi sağlar.
+## **Yeni bir Excel Dosyasına Çalışsayfalar Ekleme**
 Programlı olarak yeni bir Excel dosyası oluşturmak için:
 
-1.  Bir nesne oluşturun[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)sınıf.
-1.  Ara[Eklemek](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/add/) yöntemi[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) Toplamak. Excel dosyasına otomatik olarak boş bir çalışma sayfası eklenir. Yeni çalışma sayfasının sayfa dizinini ileterek başvurulabilir.[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)Toplamak.
+1. [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıfının bir örneğini oluşturun.
+1. [WorksheetCollection](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) koleksiyonunun [Add](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/add/) yöntemini çağırın. Boş bir çalışma sayfası otomatik olarak Excel dosyasına eklenir. Yeni çalışma sayfasının çalışma kitabının sayfa dizinine geçirilmesiyle [WorksheetCollection](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) koleksiyonuna başvurulabilir.
 1. Bir çalışma sayfası referansı edinin.
 1. Çalışma sayfalarında çalışma yapın.
-1. Yeni Excel dosyasını yeni çalışma sayfalarıyla birlikte arayarak kaydedin.[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) sınıf[Kaydetmek](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)yöntem.
+1. Yeni Eşleşme Tabloları ile yeni Excel dosyasını kaydedin, [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) sınıfı [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) metodu çağrılarak.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-AddingWorksheetsToNewExcelFile-new.cpp" >}}
-##  **Sayfa Dizinini Kullanarak Çalışma Sayfalarına Erişme**
-Aşağıdaki örnek kod, herhangi bir çalışma sayfasına, dizinini belirterek nasıl erişileceğini veya bu sayfanın nasıl alınacağını gösterir.
+## **Sayfa İndeksini Kullanarak Eşleşmelere Erişme**
+Aşağıdaki örnek kod, indeksini belirterek herhangi bir eşleşmeye erişmeyi veya almayı gösterir.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-AccessingWorksheetsUsingSheetIndex-new.cpp" >}}
-##  **Sayfa Dizinini Kullanarak Çalışma Sayfalarını Kaldırma**
- Çalışma sayfalarını ada göre kaldırmak, çalışma sayfasının adı bilindiğinde işe yarar. Çalışma sayfasının adını bilmiyorsanız, aşırı yüklenmiş bir sürümünü kullanın.[KaldırAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat)çalışma sayfasının sayfa adı yerine sayfa dizinini alan yöntem.
+## **Sayfa Dizinini Kullanarak Çalışma Sayfalarını Kaldırma**
+Eşleşme adının bilindiği durumda eşleşmelerin kaldırılması iyi çalışır. Eğer eşleşme adını bilmiyorsanız, eşleştirmenin adı yerine sayfa indeksini alan [RemoveAt](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/removeat) metodu için aşırı yüklenmiş bir versiyonunu kullanın.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-ManageWorksheets-RemovingWorksheetsUsingSheetIndex-new.cpp" >}}

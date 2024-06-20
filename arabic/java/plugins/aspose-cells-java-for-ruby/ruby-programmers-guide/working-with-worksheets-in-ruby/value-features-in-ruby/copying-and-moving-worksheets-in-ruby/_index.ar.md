@@ -1,16 +1,17 @@
-﻿---
-title: نسخ وتحريك أوراق العمل في روبي
+---
+title: نسخ ونقل أوراق العمل في روبي
 type: docs
 weight: 10
 url: /ar/java/copying-and-moving-worksheets-in-ruby/
 ---
-## **Aspose.Cells - نسخ أوراق العمل ونقلها**
-### **نسخ أوراق العمل داخل مصنف**
- لنسخ ورقة العمل باستخدام**Aspose.Cells for Java في روبي** ، مكالمة**نسخة_ورقة عمل** طريقة**أوراق العمل** وحدة. أدناه يمكنك مشاهدة مثال رمز.
 
-**كود روبي**
+## **Aspose.Cells - نسخ ونقل أوراق العمل**
+### **نسخ أوراق العمل داخل دفتر عمل**
+لنسخ ورقة العمل باستخدام **Aspose.Cells for Java في روبي**، اتصل بطريقة **copy_worksheet** في وحدة **copyworksheets**. فيما يلي مثال على الكود.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  def copy_worksheet(workbook)
 
@@ -31,12 +32,12 @@ url: /ar/java/copying-and-moving-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **انقل أوراق العمل داخل مصنف**
- لنقل ورقة العمل باستخدام**Aspose.Cells for Java في روبي** ، مكالمة**نقل ورقة العمل** طريقة**أوراق العمل** وحدة. أدناه يمكنك مشاهدة مثال رمز.
+### **نقل ورقات العمل داخل كتاب عمل**
+لنقل ورقة العمل باستخدام **Aspose.Cells for Java في روبي**، اتصل بطريقة **move_worksheet** في وحدة **copyworksheets**. فيما يلي مثال على الكود.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def move_worksheet(workbook)
 
@@ -57,7 +58,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**نسخ أوراق العمل ونقلها (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **نسخ ونقل أوراق العمل (Aspose.Cells)** من أي مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/copyworksheets.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/copyworksheets.rb)

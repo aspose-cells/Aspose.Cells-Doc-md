@@ -1,13 +1,14 @@
-﻿---
-title: العمل مع ThreeDFormat للشكل أو المخطط
+---
+title: العمل مع ثلاثة الأبعاد من الشكل أو الرسم البياني
 type: docs
 weight: 250
 url: /ar/net/working-with-the-threedformat-of-shape-or-chart/
 ---
-## **سيناريوهات الاستخدام الممكنة**
- يوفر Aspose.Cells ملف[الشكل. تنسيق ثلاثي الأبعاد](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/threedformat) الملكية مع[ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/threedformat) فئة للعمل مع تنسيق ثلاثي الأبعاد للشكل أو الرسم البياني. ال[ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/threedformat)تحتوي الفئة على خصائص مختلفة يمكن ضبطها لتحقيق نتائج مختلفة وفقًا لمتطلبات التطبيق.
-## **العمل مع ThreeDFormat للشكل أو المخطط**
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[ملف اكسل المصدر](5115419.xlsx) والوصول إلى الشكل الأول في ورقة العمل الأولى وتعيين الخصائص الفرعية لـ[الشكل. تنسيق ثلاثي الأبعاد](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/threedformat)الخاصية ثم يحفظ المصنف في ملف[ملف اكسل الناتج](5115410.xlsx).
+
+## **سيناريوهات الاستخدام المحتملة**
+توفر Aspose.Cells خاصية [Shape.ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/threedformat) بالإضافة إلى فئة [ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/threedformat) للعمل مع تنسيق الثلاثي الأبعاد للشكل أو الرسم البياني. تحتوي فئة [ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/threedformat) على خصائص مختلفة يمكن تعيينها لتحقيق نتائج مختلفة وفقًا لمتطلبات التطبيق.
+## **العمل مع ثلاثة الأبعاد من الشكل أو الرسم البياني**
+الكود المصدري التالي يحمل [ملف إكسل المصدر](5115419.xlsx) ويصل إلى الشكل الأول في الورقة العمل الأولى ويضبط الخصائص الفرعية لخاصية [Shape.ThreeDFormat](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/threedformat) ثم يحفظ الدفتر في [ملف إكسل الناتج](5115410.xlsx).
 
 
 

@@ -1,72 +1,76 @@
-﻿---
-title: Çalışma kitabını Yazdır ve Önizle
+---
+title: Çalışma Kitabını Yazdır ve Önizle
 linktitle: Yazdır ve Önizle
 type: docs
 weight: 70
 url: /tr/net/workbook-and-worksheet-print-preview/
 description: Aspose.Cells, Microsoft Excel kurulumu olmadan Excel dosyalarını yazdırmayı ve önizlemeyi destekler.
 ---
+
 {{% alert color="primary" %}}
 
-Bir çalışma sayfası oluşturduktan sonra, genellikle bunun basılı bir kopyasını yazdırmak istersiniz. Bu makalede, Aspose.Cells ile elektronik tabloların nasıl yazdırılacağı açıklanmaktadır.
+Bir çalışma sayfası oluşturduktan sonra genellikle onun kağıt çıktısını almak istersiniz. Bu makale, Aspose.Cells ile elektronik tabloları nasıl yazdıracağınızı açıklar.
 
 {{% /alert %}}
 
-## **Basılı Tanıtım**
+## **Yazdırma Girişi**
 
-Microsoft Excel, bir seçim belirtmediğiniz sürece tüm çalışma sayfası alanını yazdırmak istediğinizi varsayar. Aspose.Cells kullanarak yazdırmak için önce Aspose.Cells.Rendering ad alanını programa alın. Birkaç faydalı sınıfı vardır, örneğin,[**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) ve[**Çalışma KitabıRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender).
+Microsoft Excel, bir seçim belirtmediğiniz sürece, bütün çalışma sayfası alanını yazdırmayı varsayar. Aspose.Cells kullanarak yazdırmak için önce Aspose.Cells.Rendering isim alanını programa içe aktarın. Örneğin, [**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) ve [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender) gibi birçok kullanışlı sınıf bulunmaktadır.
 
-### **SheetRender Kullanarak Yazdırma**
+### **SheetRender Kullanarak Yazdır**
 
- bu[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class bir çalışma sayfasını temsil eder ve[**Yazıcıya**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toprinter/index)bir çalışma sayfası yazdırabilen yöntem. Aşağıdaki örnek kod, bir çalışma sayfasının nasıl yazdırılacağını gösterir.
+[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) sınıfı bir çalışma sayfasını temsil eder ve [**ToPrinter**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toprinter/index) yöntemine sahiptir, bu yöntem bir çalışma sayfasını yazdırabilir. Aşağıdaki örnek kod, bir çalışma sayfasını nasıl yazdıracağınızı gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintingUsingSheetRender-PrintingExcelWorkbookUsingSheetRender.cs" >}}
 
-### **WorkbookRender'ı Kullanarak Yazdırma**
+### **WorkbookRender Kullanarak Yazdır**
 
- Bütün bir çalışma kitabını yazdırmak için, sayfaları yineleyin ve yazdırın veya[**Çalışma KitabıRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)sınıf.
+Bütün çalışma kitabını yazdırmak için sayfalar üzerinde döngü yapın ve onları yazdırın veya [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender) sınıfını kullanın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintingUsingWorkbookRender-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Aspose.Cells ayrıca aşırı yükleme sağlar.[**WorkbookRender.ToPrinter()**](https://reference.aspose.com/cells/net/aspose.cells.rendering.workbookrender/toprinter/methods/3) ve[**SheetRender.ToPrinter()**](https://reference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toprinter/methods/2) yöntemleri, böylece Excel elektronik tablolarını yazdırırken yazdırma işi adını ayarlamak mümkündür. Varsayılan olarak, tüm yazdırma işleri "Belge" adıyla oluşturulur.
+Aspose.Cells, [**WorkbookRender.ToPrinter()**](https://reference.aspose.com/cells/net/aspose.cells.rendering.workbookrender/toprinter/methods/3) ve [**SheetRender.ToPrinter()**](https://reference.aspose.com/cells/net/aspose.cells.rendering.sheetrender/toprinter/methods/2) yöntemleri için aşırı yüklemeler de sağlar, bu sayede Excel elektronik tabloları yazdırılırken yazdırma işi adı belirlenebilir. Varsayılan olarak, tüm yazdırma işlemleri "Belge" adı ile oluşturulur.
 
 {{% /alert %}}
 
-## **Baskı Önizleme**
+## **Yazdırma Önizlemesi**
 
-Milyonlarca sayfa içeren Excel dosyalarının PDF veya görsellere dönüştürülmesi gereken durumlar olabilir. Bu tür dosyaların işlenmesi çok fazla zaman ve kaynak tüketecektir. Bu gibi durumlarda, Çalışma Kitabı ve Çalışma Sayfası Baskı Önizleme özelliği yararlı olabilir. Bu tür dosyaları dönüştürmeden önce, kullanıcı toplam sayfa sayısını kontrol edebilir ve ardından dosyanın dönüştürülüp dönüştürülmeyeceğine karar verebilir. Bu makale,[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview)ve[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview)toplam sayfa sayısını öğrenmek için sınıflar.
+Milyonlarca sayfalı Excel dosyalarının PDF veya görüntüye dönüştürülmesi gereken durumlar olabilir. Bu tür dosyaların işlenmesi çok zaman ve kaynak tüketebilir. Bu durumlarda, Çalışma Kitabı ve Çalışma Sayfası Yazdırma Önizlemesi özelliği faydalı olabilir. Kullanıcı, dosyanın dönüştürülmeden önce toplam sayfa sayısını kontrol edebilir ve dönüştürülüp dönüştürülmeyeceğine karar verebilir. Bu makale, toplam sayfa sayısını öğrenmek için [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) ve [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) sınıflarını kullanmayı ele almaktadır.
 
- Aspose.Cells, baskı ön izleme özelliği sağlar. Bunun için API şunları sağlar:[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) ve[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) sınıflar. Tüm çalışma kitabının baskı ön izlemesini oluşturmak için,[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) geçerek sınıf[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ve[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions) yapıcıya nesneler. bu[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) sınıf bir sağlar[**Değerlendirilen Sayfa Sayısı**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview/properties/evaluatedpagecount) oluşturulan önizlemedeki sayfa sayısını döndüren yöntem. Benzer[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview)sınıf,[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview)class, belirli bir çalışma sayfası için bir baskı ön izleme oluşturmak için kullanılır. Bir çalışma sayfasının baskı ön izlemesini oluşturmak için,[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview)geçerek sınıf[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)ve[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)yapıcıya nesneler. bu[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview)sınıf ayrıca bir[**Değerlendirilen Sayfa Sayısı**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview/properties/evaluatedpagecount)oluşturulan önizlemedeki sayfa sayısını döndüren yöntem.
+Aspose.Cells, yazdırma önizlemesi özelliğini sağlar. Bunun için API, [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) ve [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) sınıflarını sağlar. Bütün çalışma kitabının yazdırma önizlemesini oluşturmak için, oluşturulan önizlemenin sayılarını almak için [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) sınıfından bir örnek oluşturun ve [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ve [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions) nesnelerini yapıcıya geçirin. [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) sınıfı, oluşturulan ön izlemin sayısını iade eden bir [**EvaluatedPageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview/properties/evaluatedpagecount) yöntemi sağlar. Benzer şekilde, [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) sınıfı, belirli bir çalışma sayfası için bir yazdırma önizlemesi oluşturmak için kullanılır. Bir çalışma sayfasının yazdırma önizlemesini oluşturmak için, [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) sınıfından bir örnek oluşturun ve yapıcıya [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) ve [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions) nesnelerini geçirin. [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) sınıfı, ayrıca üretilen ön izlemin sayısını iade eden bir [**EvaluatedPageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview/properties/evaluatedpagecount) yöntemi sağlar.
 
-Aşağıdaki kod parçacığı, her ikisinin de kullanımını gösterir.[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview)ve[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) sınıfları kullanarak[örnek excel dosyası](94896177.xlsx).
+Aşağıdaki kod parçası, [örnek excel dosyası](94896177.xlsx) kullanılarak hem [**WorkbookPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookprintingpreview) hem de [**SheetPrintingPreview**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetprintingpreview) sınıflarının nasıl kullanılacağını göstermektedir.
 
-### **Basit kod**
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-PrintPreview-1.cs" >}}
 
-Yukarıdaki kod yürütülerek oluşturulan çıktı aşağıdadır.
+Yukarıdaki kodun yürütülmesiyle oluşturulan çıktı aşağıdaki gibidir.
 
-### **Konsol Çıkışı**
+### **Konsol Çıktısı**
 
-Çalışma kitabı sayfa sayısı: 1
-Çalışma sayfası sayfa sayısı: 1
+{{< highlight java >}}
 
+Workbook page count: 1
+Worksheet page count: 1
 
-## **ileri konular**
-- [Elektronik Tabloları Oluşturmak için Yazı Tiplerini Yapılandırma](/cells/tr/net/configuring-fonts-for-rendering-spreadsheets/)
-- [Çalışma Sayfasını Görüntüye Dönüştür - Verilerin etrafındaki boşlukları kaldırın](/cells/tr/net/convert-worksheet-to-image-remove-whitespace-around-data/)
-- [Çalışma Sayfasını Görüntüye ve Çalışma Sayfasını Görüntüye Sayfa Sayfa Dönüştürme](/cells/tr/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
-- [ImageOrPrint Seçeneklerini Kullanarak Çalışma Sayfasını Görüntüye Dönüştürme](/cells/tr/net/converting-worksheet-to-image-using-imageorprint-options/)
-- [Çalışma Sayfasındaki Cells Aralığını Görüntüye Dışa Aktar](/cells/tr/net/export-range-of-cells-in-a-worksheet-to-image/)
-- [Çalışma Sayfasını veya Grafiği İstenilen Genişlik ve Yükseklikte Görüntüye Aktarın](/cells/tr/net/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
-- [ImageOrPrintOptions kullanarak Çalışma Sayfalarından Görüntüleri Çıkarın](/cells/tr/net/extract-images-from-worksheets-using-imageorprintoptions/)
-- [Çalışma Sayfasının Küçük Resmini Oluştur](/cells/tr/net/generate-thumbnail-of-the-worksheet/)
-- [Yazdırılacak Hiçbir Şey Olmadığında Boş Sayfa Çıktısı](/cells/tr/net/output-blank-page-when-there-is-nothing-to-print/)
-- [Sayfa Yapısı ve Yazdırma Seçenekleri](/cells/tr/net/page-setup-and-printing-options/)
-- [SheetRender ve WorkbookRender kullanarak Sayfa Aralığını Yazdırma](/cells/tr/net/printing-range-of-pages-using-sheetrender-and-workbookrender/)
-- [ImageOrPrintOptions'ın PageIndex ve PageCount Özelliklerini Kullanarak Sayfa Sırasını Oluşturun](/cells/tr/net/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/)
-- [Çalışma Sayfasını Grafik Bağlamına Dönüştür](/cells/tr/net/render-worksheet-to-graphic-context/)
-- [Çalışma Kitabı Oluşturma için Bireysel veya Özel Yazı Tipi Kümesi Belirtin](/cells/tr/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
-- [Aspose.Cells ile yazdırırken İş veya Belge Adını belirtin](/cells/tr/net/specify-job-or-document-name-while-printing-with-aspose-cells/)
+{{< /highlight >}}
+
+## **Gelişmiş Konular**
+- [Elektronik Tabloları Görüntüleme Yazı Tiplerini Yapılandırma](/cells/tr/net/configuring-fonts-for-rendering-spreadsheets/)
+- [Çalışma Sayfasını Görüntüye Dönüştür - Veri etrafındaki boşlukları kaldır](/cells/tr/net/convert-worksheet-to-image-remove-whitespace-around-data/)
+- [Çalışsayısı veya Sayfa Görseline ve Sayfa Sayfasına Çalışsayısı Dönüştürme](/cells/tr/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+- [ImageOrPrint Seçenekleri Kullanarak Çalışma Sayfasını Görüntüye Dönüştürme](/cells/tr/net/converting-worksheet-to-image-using-imageorprint-options/)
+- [Bir Çalışma Sayfasındaki Hücre Aralığını Görüntüye Aktar](/cells/tr/net/export-range-of-cells-in-a-worksheet-to-image/)
+- [Belirtilen Genişlik ve Yükseklikte Çalışsayısı veya Tabloyu Resme Dışa Aktarma](/cells/tr/net/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+- [ImageOrPrintOptions Kullanarak Çalışma Sayfalarından Resimleri Çıkarma](/cells/tr/net/extract-images-from-worksheets-using-imageorprintoptions/)
+- [Çalışma Sayfasının Önizlemesini Oluşturun](/cells/tr/net/generate-thumbnail-of-the-worksheet/)
+- [Hiçbir şey Yazdırılacak Değilken Boş Sayfa Çıktısı](/cells/tr/net/output-blank-page-when-there-is-nothing-to-print/)
+- [Sayfa Ayarları ve Yazdırma Seçenekleri](/cells/tr/net/page-setup-and-printing-options/)
+- [SheetRender ve WorkbookRender Kullanarak Sayfaların Aralığını Yazdırma](/cells/tr/net/printing-range-of-pages-using-sheetrender-and-workbookrender/)
+- [Görüntü veya Yazdırma Seçenekleri Kullanılarak Sayfa Dizisi Oluşturma](/cells/tr/net/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/)
+- [Çalışsayısını Grafiksel Ortama Dönüştürme](/cells/tr/net/render-worksheet-to-graphic-context/)
+- [Çalışma Kitabı Rendeleme İçin Bireysel veya Özel Font Kümesini Belirtin](/cells/tr/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/)
+- [Aspose.Cells ile yazdırırken İş veya Belge Adı belirtin](/cells/tr/net/specify-job-or-document-name-while-printing-with-aspose-cells/)

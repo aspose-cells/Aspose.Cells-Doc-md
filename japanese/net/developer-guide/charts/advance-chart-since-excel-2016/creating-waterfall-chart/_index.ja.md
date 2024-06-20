@@ -3,22 +3,23 @@ title: ウォーターフォールチャートの作成方法
 type: docs
 weight: 160
 url: /ja/net/creating-waterfall-chart/
-description: Excel で C# および Aspose.Cells for .NET API を使用してウォーターフォール グラフを作成します。
-keywords: c# create waterfall chart in excel, c# creating waterfall chart in excel, creating waterfall chart in excel with c#, create waterfall chart in excel with c#, create waterfall chart in excel c#, create waterfall chart excel c#, create waterfall chart in excel programmatically, how to create waterfall chart in excel with c#
+description: ExcelでC＃とAspose.Cells for .NET APIを使用してウォーターフォールチャートを作成します。
+keywords: C＃でExcelでウォーターフォールチャートを作成する方法、C＃でExcelでウォーターフォールチャートを作成する、C＃でウォーターフォールチャートを作成する、C＃でExcelでウォーターフォールチャートを作成する、ExcelでウォーターフォールチャートをC＃で作成する、Excelでウォーターフォールチャートを作成する方法、C＃でExcelでウォーターフォールチャートをプログラムで作成する方法、ExcelでC＃でウォーターフォールチャートを作成する方法
 ---
+
 {{% alert color="primary" %}}
 
-ウォーターフォール チャートは、通常、開始位置がどのように増加または減少するかを示すために使用される特別なタイプのチャートです。 Microsoft Excel には、縦棒、折れ線、円、棒、レーダーなど、多くの事前定義されたグラフの種類がありますが、ウォーターフォール グラフは基本的なグラフを超えており、既存のグラフの種類を使用して、ほとんどカスタマイズせずに作成できます。
+ウォーターフォールチャートは、通常、出発位置が増加または減少する方法を示すために使用される特別なタイプのチャートです。Microsoft Excelには、カラム、折れ線、円、棒、レーダーなどの事前定義済みのチャートタイプが多数ありますが、ウォーターフォールチャートは基本的なグラフを超えたものであり、既存のチャートタイプを使用して少しのカスタマイズまたはより多くのカスタマイズで作成できます。
 
 {{% /alert %}} 
 
- Aspose.Cells API を使用すると、折れ線グラフを利用してウォーターフォール グラフを作成できます。 API では、チャートの外観をカスタマイズして、滝の形状を与えることもできます。[**シリーズ.アップバー**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) & [**シリーズ.ダウンバー**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars)プロパティ。
+Aspose.Cells APIを使用してラインチャートのヘルプを受けてウォーターフォールチャートを作成することが可能です。APIでは、チャートの外観をウォーターフォールの形状にするために[**Series.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars)や[**Series.DownBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars)のプロパティを設定することができます。
 
-以下のコード スニペットは、Aspose.Cells for .NET API を使用してウォーターフォール チャートを最初から作成する方法を示しています。
+以下のコードスニペットでは、Aspose.Cells for .NET APIを使用してウォーターフォールチャートをゼロから作成する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateWaterfallChart-1.cs" >}}
 
 ## 関連記事
 
 - [チャートの作成](/cells/ja/net/creating-charts/)
-- [チャートのカスタマイズ](/cells/ja/net/customizing-charts/)
+- [グラフのカスタマイズ](/cells/ja/net/customizing-charts/)

@@ -1,29 +1,30 @@
-﻿---
-title: Hinzufügen von HTML Rich Text in Cell
-linktitle: HTML-String-Wert
+---
+title: HTML Rich Text in der Zelle hinzufügen
+linktitle: Html String Wert
 type: docs
 weight: 90
 url: /de/java/adding-html-rich-text-inside-the-cell/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells unterstützt die Konvertierung von Microsoft Excel-orientiertem HTML in das XLS/XLSX-Format. Das bedeutet, dass die von Microsoft Excel generierte HTML mit Aspose.Cells zurück in das XLS/XLSX-Format konvertiert werden kann.
+Aspose.Cells unterstützt die Umwandlung von Microsoft Excel-orientiertem HTML in XLS/XLSX-Format. Das bedeutet, dass das von Microsoft Excel generierte HTML mit Aspose.Cells wieder in das XLS/XLSX-Format konvertiert werden kann.
 
- Wenn es ein einfaches HTML gibt, kann Aspose.Cells es in HTML Rich Text umwandeln. Aspose.Cells bietet[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) Eigenschaft, die eine so einfache HTML nehmen und in formatierten Zellentext konvertieren kann.
+Ebenso kann Aspose.Cells einfaches HTML in HTML-Rich-Text umwandeln. Aspose.Cells bietet die [**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)-Eigenschaft, die ein solches einfaches HTML akzeptieren und in formatierten Zellentext umwandeln kann.
 
 {{% /alert %}}
 
 ## **Beispiel**
 
- Der folgende Screenshot zeigt die mit Aspose.Cells generierte Excel-Ausgabedatei. Wie Sie sehen können, zeigt sie HTML formatierten Rich-Text, der mithilfe von in der Zelle A1 hinzugefügt wurde[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)Eigentum.
+Der folgende Screenshot zeigt die Ausgabedatei in Excel, die mit Aspose.Cells generiert wurde. Wie Sie sehen können, zeigt es HTML-formatierten Rich-Text, der in Zelle A1 mithilfe der [**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)-Eigenschaft hinzugefügt wurde.
 
-![todo: Bild_alt_Text](adding-html-rich-text-inside-the-cell_1.png)
+![todo:image_alt_text](adding-html-rich-text-inside-the-cell_1.png)
 
-Dies ist der Beispielcode, der die Excel-Ausgabedatei generiert hat, wie im obigen Screenshot gezeigt.
+Dies ist der Beispielcode, der die oben gezeigte Ausgabedatei in Excel generiert hat.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddImageHyperlinks-AddImageHyperlinks.java" >}}
 
-## Zum Thema passende Artikel
-- [Zeigen Sie Aufzählungszeichen an, indem Sie den Wert Cell mit HTML festlegen](/cells/de/java/display-bullets-by-setting-cell-value-using/)
-- [Holen Sie sich den HTML5-String von Cell](/cells/de/java/get-html5-string-from-cell/)
+## Verwandte Artikel
+- [Listenpunkte anzeigen, indem Sie den Zellenwert mit HTML einstellen](/cells/de/java/display-bullets-by-setting-cell-value-using/)
+- [Holen Sie sich HTML5-String aus der Zelle](/cells/de/java/get-html5-string-from-cell/)
 

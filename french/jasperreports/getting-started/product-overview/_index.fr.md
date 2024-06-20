@@ -1,27 +1,28 @@
-﻿---
-title: Présentation du produit
+---
+title: Aperçu du produit
 type: docs
 weight: 10
 url: /fr/jasperreports/product-overview/
 ---
+
 {{% alert color="primary" %}}
 
-![tâche : image_autre_texte](product-overview_1.png)
+![todo:image_alt_text](product-overview_1.png)
 
-### **Bienvenue dans la Documentation Aspose.Cells for JasperReports !**
+### **Bienvenue dans la documentation Aspose.Cells for JasperReports !**
 
- Aspose.Cells for JasperReports est une bibliothèque qui remplace[JasperReports](https://community.jaspersoft.com/project/jasperreports-library)s original Microsoft Exportateur Excel, livré avec quelques grandes améliorations. Il élimine la dépendance à la bibliothèque POI et utilise Aspose.Cells for Java sur le back-end pour exporter les rapports aux formats Excel Microsoft (XLS, XLSX).
+Aspose.Cells for JasperReports est une bibliothèque qui fonctionne comme un remplacement pour l'exportateur Microsoft Excel d'origine de [JasperReports](https://community.jaspersoft.com/project/jasperreports-library), livré avec des améliorations considérables. Elle élimine la dépendance à la bibliothèque POI, et utilise Aspose.Cells for Java en arrière-plan pour exporter des rapports dans les formats Microsoft Excel (XLS, XLSX).
 
 {{% /alert %}}
 
 ### **Description du produit**
 
-Aspose.Cells for JasperReports est une solution flexible qui facilite l'exportation de rapports de JasperReports et JasperServer vers les formats de fichier Excel Microsoft. Toutes les fonctionnalités du rapport sont converties en feuilles de calcul Excel Microsoft avec le plus haut degré de précision.
+Aspose.Cells for JasperReports est une solution flexible qui facilite l'exportation de rapports depuis JasperReports et JasperServer vers des formats de fichiers Microsoft Excel. Toutes les fonctionnalités du rapport sont converties en feuilles de calcul Microsoft Excel avec le plus haut degré de précision.
 
-Outre les fonctionnalités fournies par l'exportateur Excel Micrsofot original basé sur les points d'intérêt, ce composant fournit des fonctionnalités utiles. Les principales innovations liées à l'exportation vers XLS incluent :
+Outre les fonctionnalités fournies par l'exportateur Excel basé sur POI d'origine, ce composant propose quelques fonctionnalités précieuses. Les principales innovations liées à l'exportation vers XLS incluent :
 
-- Fournissez des graphiques modifiables au format Excel Microsoft plutôt que des images statiques.
+- Fournir des graphiques modifiables au format Microsoft Excel plutôt que des images statiques.
 
-**Un exemple de rapport est généré en utilisant Aspose.Cells for JasperReports** 
+**Un rapport d'exemple est généré en utilisant Aspose.Cells for JasperReports** 
 
-![tâche : image_autre_texte](product-overview_2.png)
+![todo:image_alt_text](product-overview_2.png)

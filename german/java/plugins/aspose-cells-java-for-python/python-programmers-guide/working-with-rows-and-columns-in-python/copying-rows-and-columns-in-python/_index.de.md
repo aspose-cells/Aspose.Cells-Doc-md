@@ -1,22 +1,23 @@
-﻿---
+---
 title: Kopieren von Zeilen und Spalten in Python
 type: docs
 weight: 30
 url: /de/java/copying-rows-and-columns-in-python/
 ---
-## **Aspose.Cells – Kopieren von Zeilen und Spalten**
-### **Zeilen kopieren**
-Aspose.Cells stellt die Methode copyRow der Klasse Cells bereit. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln, Werte, Kommentare, Zellformate, ausgeblendete Zellen, Bilder und andere Zeichenobjekte aus der Quellzeile in die Zielzeile.
 
-Die copyRow-Methode akzeptiert die folgenden Parameter:
+## **Aspose.Cells - Kopieren von Zeilen und Spalten**
+### **Kopieren von Zeilen**
+Aspose.Cells bietet die Methode copyRow der Klasse Cells. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln, Werte, Kommentare, Zellformate, versteckte Zellen, Bilder und andere Zeichenobjekte von der Quellzeile in die Zielzeile.
 
-- das Quellobjekt Cells,
-- den Quellzeilenindex und
-- der Zielzeilenindex.
+Die Methode copyRow erhält die folgenden Parameter:
 
-**Python Code**
+- das Quell-Cells-Objekt,
+- den Index der Quellzeile, und
+- den Index der Zielzeile.
 
-{{< highlight "java" >}}
+**Python-Code**
+
+{{< highlight java >}}
 
  def copy_rows(self):
 
@@ -42,35 +43,35 @@ print "Copy Rows Successfully."
 
 {{< /highlight >}}
 ### **Spalten kopieren**
-Aspose.Cells stellt die Methode copyColumn der Klasse Cells bereit. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln – mit aktualisierten Verweisen – und Werten, Kommentaren, Zellformaten, ausgeblendeten Zellen, Bildern und anderen Zeichnungsobjekten aus der Quellspalte in die Zielspalte.
+Aspose.Cells bietet die Methode copyColumn der Klasse Cells. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln - mit aktualisierten Verweisen - und Werten, Kommentaren, Zellformate, versteckte Zellen, Bilder und andere Zeichenobjekte von der Quellspalte in die Zielspalte.
 
-Die copyColumn-Methode akzeptiert die folgenden Parameter:
+Die Methode copyColumn erhält die folgenden Parameter:
 
-- das Quellobjekt Cells,
-- Quellspaltenindex und
+- das Quell-Cells-Objekt,
+- Quellspaltenindex, und
 - der Zielspaltenindex.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
 
 
-def copy_columns(selbst):
+def copy_columns(self):
 
-\# Instanziieren eines Workbook-Objekts nach Excel-Dateipfad
+\# Instantiating a Workbook object by excel file path
 
-Arbeitsmappe = self.Workbook()
+workbook = self.Workbook()
 
-\# Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+\# Accessing the first worksheet in the Excel file
 
-Arbeitsblatt = Arbeitsmappe.getWorksheets().get(0)
+worksheet = workbook.getWorksheets().get(0)
 
-\# Einige Daten in Kopfzeilen einfügen (A1:A4)
+\# Put some data into header rows (A1:A4)
 
-ich = 0
+i = 0
 
- während ich< 5:
+while i < 5:
 
 worksheet.getCells().get(i, 0).setValue("Header Row #i")
 
@@ -112,7 +113,7 @@ workbook.save(self.dataDir + "Copy Columns.xls")
 print "Copy Columns Successfully." 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Zeilen und Spalten kopieren (Aspose.Cells)** von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie das Kopieren von Zeilen und Spalten (Aspose.Cells) von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

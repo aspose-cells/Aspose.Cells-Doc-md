@@ -1,15 +1,16 @@
-﻿---
-title: تجميع الصفوف والأعمدة وإلغاء تجميعها في جايثون
+---
+title: تجميع وفك تجميع الصفوف والأعمدة في Jython
 type: docs
 weight: 40
 url: /ar/java/grouping-and-ungrouping-rows-and-columns-in-jython/
 ---
+
 ## **Aspose.Cells - تجميع وفك تجميع الصفوف والأعمدة**
- لإلحاق المستندات باستخدام**Aspose.Cells Java لـ Jython**. هنا يمكنك أن ترى رمز المثال.
+لإلحاق المستندات باستخدام **Aspose.Cells Java for Jython**. هنا يمكنك رؤية رمز المثال.
 
-**كود جايثون**
+**رمز Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -101,7 +102,7 @@ if __name__ == '__main__':
     RowsAndColumns()
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إرفاق المستندات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **مستندات الإضافة (Aspose.Cells)** من أي من المواقع الاجتماعية للترميز الواردة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

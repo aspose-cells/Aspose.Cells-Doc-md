@@ -1,20 +1,21 @@
-﻿---
-title: Blocco della filigrana WordArt in Aspose.Cells
+---
+title: Blocco Filigrana WordArt in Aspose.Cells
 type: docs
 weight: 40
 url: /it/net/locking-wordart-watermark-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells Le API consentono di aggiungere filigrane WordArt sul foglio di lavoro in modo che la WordArt diventi un oggetto che può essere spostato e posizionato sul foglio di lavoro. È anche possibile bloccare l'oggetto WordArt per qualsiasi interazione come modifica, movimento e selezione. Questo articolo spiega l'utilizzo del metodo Shape.SetLockedProperty per bloccare alcuni aspetti della filigrana.
+Le API di Aspose.Cells consentono di aggiungere filigrane WordArt nel foglio di lavoro in modo che il WordArt diventi un oggetto che può essere spostato e posizionato nel foglio di lavoro. È inoltre possibile bloccare l'oggetto WordArt per qualsiasi interazione come modifica, spostamento e selezione. Questo articolo spiega l'uso del metodo Shape.SetLockedProperty per bloccare alcuni aspetti della filigrana.
 
 {{% /alert %}} 
 
-Aspose.Cells Le API consentono di bloccare alcuni aspetti della filigrana in modo che l'interazione dell'utente possa essere limitata o completamente bloccata. Il seguente frammento di codice mostra l'utilizzo di Aspose.Cells for .NET API per bloccare la selezione, il movimento, la modifica e il ridimensionamento della filigrana creando un foglio di calcolo da zero.
+Le API di Aspose.Cells consentono di bloccare alcuni aspetti della filigrana in modo che l'interazione dell'utente possa essere limitata o completamente bloccata. Il seguente frammento di codice dimostra l'uso dell'API Aspose.Cells for .NET per bloccare la selezione, lo spostamento, la modifica e il ridimensionamento della filigrana creando un foglio di calcolo da zero.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -75,5 +76,5 @@ workbook.Save(FileName);
 {{< /highlight >}}
 ## **Scarica il codice di esempio**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Locking%20WordArt%20Watermark)
-## **Scarica l'esempio di esecuzione**
+## **Scarica Esempio in Esecuzione**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

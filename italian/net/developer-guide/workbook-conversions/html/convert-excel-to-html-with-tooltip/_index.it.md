@@ -1,19 +1,20 @@
-﻿---
-title: Converti Excel in HTML con tooltip
+---
+title: Convertire Excel in HTML con tooltip
 type: docs
 weight: 200
 url: /it/net/convert-excel-to-html-with-tooltip/
 ---
-## **Converti Excel in HTML con tooltip**
 
-Potrebbero verificarsi casi in cui il testo viene tagliato nel HTML generato e si desidera visualizzare il testo completo come suggerimento sull'evento al passaggio del mouse. Aspose.Cells supporta questo fornendo**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** proprietà. Impostazione del**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** proprietà a**VERO** aggiungerà il testo completo come suggerimento nel HTML generato.
+## **Convertire Excel in HTML con tooltip**
 
-L'immagine seguente mostra la descrizione comando nel file HTML generato.
+Potrebbero esserci casi in cui il testo viene troncato nell'HTML generato e si desidera visualizzare l'intero testo come tooltip nell'evento di hover. Aspose.Cells supporta questo fornendo la proprietà [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext). Impostando la proprietà [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext) su **true** verrà aggiunto l'intero testo come tooltip nell'HTML generato.
 
-![cose da fare:immagine_alt_testo](convert-excel-to-html-with-tooltip_1.jpg)
+Nell'immagine seguente è mostrato il tooltip nel file HTML generato.
 
- L'esempio di codice seguente carica il file[file excel di origine](98107416.xlsx) e genera il[output HTML file](98107417.zip) con il tooltip.
+![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
-Codice d'esempio
+Il codice di esempio seguente carica il [file excel di origine](98107416.xlsx) e genera il [file HTML di output](98107417.zip) con il tooltip.
+
+Codice di Esempio
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToHtmlWithTooltip-1.cs" >}}

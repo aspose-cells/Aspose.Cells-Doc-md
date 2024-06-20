@@ -1,11 +1,12 @@
-﻿---
-title: Çalışma Sayfalarını Koruma ve Korumayı Kaldırma
+---
+title: Çalışsayfaların Korunması ve Korumanın Kaldırılması
 type: docs
 weight: 190
 url: /tr/net/protect-and-unprotect-worksheets-with-vsto/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -55,7 +56,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the template excel file path.
 
@@ -81,7 +82,7 @@ workbook.Save(myPath);
 
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Protect.and.unProtect.Worksheets.Aspose.Cells.zip)
-- [kaynak forge](https://sourceforge.net/p/asposevsto/wiki/Home/)
+- [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Protect%20and%20unProtect%20Worksheets)

@@ -1,28 +1,29 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.6.1
+---
+title: Изменения в общедоступном API в Aspose.Cells 8.6.1
 type: docs
 weight: 200
 url: /ru/net/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.6.0 до 8.6.1, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы, добавленные классы, но и описание любых изменений поведения за кулисами в Aspose.Cells.
+Этот документ описывает изменения в Aspose.Cells API с версии 8.6.0 по 8.6.1, которые могут быть интересны модульным/приложенческим разработчикам. В нем содержится не только новые и обновленные открытые методы, добавленные классы, но также описание любых изменений в поведении за кадром в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Поддержка HTML Тип цели ссылки**
- В этом выпуске Aspose.Cells for .NET API представлено перечисление, а именно HtmlLinkTargetType вместе с новым свойством HtmlSaveOptions.LinkTargetType, которое вместе позволяет[установить целевой тип для ссылок в электронной таблице при преобразовании в формат HTML](/cells/ru/net/change-the-html-link-target-type/). Ниже приведены возможные значения перечисления HtmlLinkTargetType, где значением по умолчанию является Self.
+## **Добавленные API**
+### **Поддержка типа цели HTML-ссылки**
+Этот релиз Aspose.Cells for .NET API раскрыл перечисление с именем HtmlLinkTargetType вместе с новым свойством HtmlSaveOptions.LinkTargetType, которые вместе позволяют [устанавливать тип цели для ссылок в электронной таблице при преобразовании в формат HTML](/cells/ru/net/change-the-html-link-target-type/). Возможные значения перечисления HtmlLinkTargetType следующие, где значение по умолчанию - Self.
 
-1. HtmlLinkTargetType.Blank: открывает связанный документ/страницу в новом окне или вкладке.
-1. HtmlLinkTargetType.Parent: открывает связанный документ/страницу в родительском фрейме.
-1. HtmlLinkTargetType.Self: открывает связанный документ/страницу в том же фрейме, где была нажата ссылка.
-1. HtmlLinkTargetType.Top: открывает связанный документ/страницу во всем теле окна.
+1. HtmlLinkTargetType.Blank: Открывает связанный документ/страницу в новом окне или вкладке.
+1. HtmlLinkTargetType.Parent: Открывает связанный документ/страницу в родительском фрейме.
+1. HtmlLinkTargetType.Self: Открывает связанный документ/страницу в том же фрейме, в котором была выполнена клик.
+1. HtmlLinkTargetType.Top: Открывает связанный документ/страницу в полном окне.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -44,13 +45,13 @@ workbook.Save(outputFilePath, options);
 
 
 ### **Добавлен метод VbaModuleCollection.Remove**
-Aspose.Cells for .NET 8.6.1 представил другую перегрузку метода VbaModuleCollection.Remove, который теперь может принимать экземпляр Worksheet для удаления всех модулей VBA, связанных с указанным Worksheet.
+Aspose.Cells for .NET 8.6.1 раскрыл еще одно перегруженное свойство метода VbaModuleCollection.Remove, которое теперь может принимать экземпляр Worksheet для удаления всех модулей VBA, связанных с указанным Worksheet.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -68,13 +69,13 @@ modules.Remove(workbook.Worksheets[0]);
 
 
 ### **Добавлен метод RangeCollection.Add**
-Aspose.Cells for .NET 8.6.1 предоставил метод RangeCollection.Add, который можно использовать для добавления объектов Range в коллекцию диапазонов для определенного рабочего листа.
+Aspose.Cells for .NET 8.6.1 раскрыл метод RangeCollection.Add, который может использоваться для добавления объектов Range в коллекцию диапазонов для конкретного Worksheet.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -96,13 +97,13 @@ ranges.Add(cells.CreateRange("A1:B4"));
 
 
 ### **Добавлен метод Cell.SetCharacters**
- Метод Cell.SetCharacters можно использовать для[обновить части форматированного текста](/cells/ru/net/access-and-update-the-portions-of-rich-text-of-cell/) данного объекта Cell. Метод Cell.GetCharacters должен использоваться для доступа к частям текста, а затем можно вносить поправки с помощью метода Cell.SetCharacters, тогда как метод**Получать** Метод возвращает массив объектов FontSetting, которыми можно манипулировать, чтобы установить различные свойства: имя шрифта, цвет шрифта, жирность и т. д.**Установлен** можно использовать для применения изменений.
+Метод Cell.SetCharacters может использоваться для [обновления частей форматированного текста](/cells/ru/net/access-and-update-the-portions-of-rich-text-of-cell/) заданного объекта Cell. Метод Cell.GetCharacters предназначен для доступа к частям текста, после чего изменения могут быть внесены с использованием метода Cell.SetCharacters, в то время как метод **Get** возвращает массив объектов FontSetting, которые могут быть изменены для установки различных свойств имени шрифта, цвета шрифта, жирности и т. д., а метод **Set** может использоваться для применения изменений.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -118,7 +119,7 @@ Cell cell = worksheet.Cells["A1"];
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.GetCharacters();
+FontSetting[] settings = cell.GetCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -132,13 +133,13 @@ cell.SetCharacters(settings);
 
 
 ### **Добавлено свойство VbaProject.IsSigned**
- Aspose.Cells for .NET 8.6.1 предоставил свойство VbaProject.IsSigned, которое можно использовать для[проверить, подписан ли VbaProject в рабочей книге или нет](/cells/ru/net/check-if-vba-project-in-a-workbook-is-signed/)Свойство логического типа возвращает true, если проект подписан.
+Aspose.Cells for .NET 8.6.1 раскрыл свойство VbaProject.IsSigned, которое может использоваться для [проверки, подписан ли проект VbaProject в книге Excel или нет](/cells/ru/net/check-if-vba-project-in-a-workbook-is-signed/). Логическое свойство возвращает true, если проект подписан.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -168,8 +169,8 @@ else
 
 {{< /highlight >}}
 ## **Измененные API**
-### **Метод Cell.GetFormatConditions изменен**
-В версии 8.6.1 Aspose.Cells for .NET API изменился тип возвращаемого значения метода Cell.GetFormatConditions, который теперь возвращает массив типа FormatConditionCollection.
+### **Изменен метод Cell.GetFormatConditions**
+С выпуском v8.6.1 API Aspose.Cells for .NET был изменен тип возвращаемого значения метода Cell.GetFormatConditions, который теперь возвращает массив типа FormatConditionCollection.
 ## **Устаревшие API**
-### **Метод Workbook.CheckWriteProtectedPassword устарел**
-С выпуском версии 8.6.1 метод Workbook.CheckWriteProtectedPassword был помечен как устаревший. Рекомендуется использовать метод WorkbookSettings.WriteProtection.ValidatePassword, который может принимать строковое значение в качестве параметра и возвращает логическое значение, если пароль совпадает с предустановленным паролем электронной таблицы.
+### **Устаревший метод Workbook.CheckWriteProtectedPassword**
+С выпуском v8.6.1 метод Workbook.CheckWriteProtectedPassword был помечен устаревшим. Рекомендуется использовать метод WorkbookSettings.WriteProtection.ValidatePassword, который может принимать строковое значение в качестве параметра и возвращает булево значение, если пароль совпадает с предварительно установленным паролем электронной таблицы.

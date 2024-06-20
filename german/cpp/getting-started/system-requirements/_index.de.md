@@ -1,12 +1,13 @@
 ---
-title: System Anforderungen
+title: Systemanforderungen
 type: docs
 weight: 30
 url: /de/cpp/system-requirements/
 ---
-Aspose.Cells for C++ ist eine native C++-Bibliothek, die es C++-Entwicklern ermöglicht, Tabellenkalkulationen programmgesteuert zu erstellen, zu bearbeiten und zu konvertieren, ohne dass Office Automation oder eine Excel-Anwendung erforderlich ist.
 
-##  Unterstützte Betriebssysteme
+Aspose.Cells for C++ ist eine native C++-Bibliothek, die es C++-Entwicklern ermöglicht, Tabellenkalkulationen programmatisch zu erstellen, zu manipulieren und zu konvertieren, ohne auf die Office-Automatisierung oder die Microsoft Excel-Anwendung angewiesen zu sein.
+
+## Unterstützte Betriebssysteme
 
 Aspose.Cells for C++ unterstützt die folgenden 64-Bit- oder 32-Bit-Betriebssysteme und Plattformen:
 
@@ -22,21 +23,21 @@ Aspose.Cells for C++ unterstützt die folgenden 64-Bit- oder 32-Bit-Betriebssyst
   </tr>
   <tr>
 			<td>Linux</td>
-			<td><ul><li>Linux x86_64</li><!---li>Ubuntu 20.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>Linux für ARM (aarch64)</li></ul></td>
+			<td><ul><li>Linux x86_64</li><!---li>Ubuntu 20.04 oder höher</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>Linux für ARM (aarch64)</li></ul></td>
 		</tr>
   <tr>
-			<td>Mac OS</td>
+			<td>macOS</td>
 			<td><ul><li>macOS 11 oder höher (arm64, x86_64)</li></ul></td>
 		</tr>
 </table>
 
-##  Entwicklungsumgebung
+## Entwicklungsumgebung
 
-Sie können Aspose.Cells for C++ verwenden, wenn Sie Anwendungen für Windows, Linux oder macOS entwickeln.
+Sie können Aspose.Cells for C++ beim Entwickeln von Anwendungen für Windows, Linux oder macOS verwenden.
 
-###  Windows
+### Windows
 
- Aspose.Cells for C++ kann zum Entwickeln von Anwendungen in jeder Entwicklungsumgebung verwendet werden, die dies unterstützt[Microsoft Visual Studio v142 Plattform-Toolset](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), aber die in der folgenden Tabelle aufgeführten Umgebungen werden explizit unterstützt:
+Aspose.Cells for C++ kann in jeder Entwicklungsumgebung verwendet werden, die [Microsoft Visual Studio v142 Platform Toolset](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160) unterstützt, aber die Umgebungen, die in der folgenden Tabelle aufgeführt sind, werden explizit unterstützt:
 
 <table>  
 	<tr>
@@ -47,9 +48,9 @@ Sie können Aspose.Cells for C++ verwenden, wenn Sie Anwendungen für Windows, L
 			</tr>
 </table>
 
-###  Linux
+### Linux
 
-Aspose.Cells for C++ kann zum Entwickeln von Anwendungen in der Entwicklungsumgebung verwendet werden, die C++11 oder höher unterstützen, aber der folgende Compiler und das folgende Tool werden ausdrücklich unterstützt:
+Aspose.Cells for C++ kann in der Entwicklungsumgebung verwendet werden, die C++11 oder höher unterstützt, aber der folgende Compiler und das folgende Tool werden explizit unterstützt:
 
 <table>  
 	<tr>
@@ -60,15 +61,15 @@ Aspose.Cells for C++ kann zum Entwickeln von Anwendungen in der Entwicklungsumge
 			</tr>
 </table>
 
-###  Zusätzliche Abhängigkeit von Linux
- Aspose.Cells for C++ unter Linux hängt davon ab<a href="https://www.freedesktop.org/wiki/Software/fontconfig/">Schriftartkonfiguration</a> Binärdateien, sowohl dynamische Bibliothek als auch Tool. Bitte installieren Sie es vor der Verwendung:
+### Zusätzliche Abhängigkeit unter Linux
+Aspose.Cells for C++ on Linux depends on <a href="https://www.freedesktop.org/wiki/Software/fontconfig/">fontconfig</a> binaries both dynamic library and tool. Please install it before using:
 
-1. Fontconfig unter Ubuntu oder Debian installieren<br>
+1. Installing fontconfig on Ubuntu or Debian<br>
 `sudo apt install libfontconfig fontconfig`
-1. Fontconfig auf Fedora oder CentOs installieren<br>
+1. Installing fontconfig on Fedora or CentOs<br>
 `sudo yum install fontconfig`
 
-###  Mac OS
-Aspose.Cells for C++ kann zur Anwendungsentwicklung in den folgenden Entwicklungsumgebungen verwendet werden:
+### macOS 
+Aspose.Cells for C++ kann in den folgenden Entwicklungsumgebungen verwendet werden:
 * Xcode 12.5.1 oder höher
-* Clang und libc++ (die standardmäßig mit Xcode ausgeliefert werden)
+* Clang und libc++ (die standardmäßig mit Xcode geliefert werden)

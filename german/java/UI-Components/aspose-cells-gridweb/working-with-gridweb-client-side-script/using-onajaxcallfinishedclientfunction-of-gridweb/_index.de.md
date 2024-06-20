@@ -1,19 +1,20 @@
 ---
-title: Verwenden der OnAjaxCallFinishedClientFunction von GridWeb
+title: Verwendung der OnAjaxCallFinishedClientFunction von GridWeb
 type: docs
 weight: 20
 url: /de/java/using-onajaxcallfinishedclientfunction-of-gridweb/
 ---
-##  **Mögliche Nutzungsszenarien**
-OnAjaxCallFinishedClientFunction ist eine clientseitige Funktion, die aufgerufen wird, wenn der Benutzer einige Daten in das GridWeb-Arbeitsblatt kopiert. Diese Funktion ist hilfreich, wenn eine große Anzahl von Zellen aktualisiert wird und Sie den Überblick über diese aktualisierten Zellen auf der Clientseite behalten möchten (z. B. in Webbrowsern wie Firefox, Google Chrome usw.).
-##  **Verwenden der OnAjaxCallFinishedClientFunction von GridWeb**
-Im folgenden Beispielcode wird erläutert, wie die Clientfunktion „OnAjaxCallFinishedClientFunction“ verwendet wird. Die Screenshots zeigen die Konsolenausgabe in Google Chrome und Firefox, wenn der Code ausgeführt wird. Sobald Sie den Code ausgeführt haben, kopieren/fügen Sie bitte einige Daten, die sich über mehrere Zellen erstrecken, in das GridWeb-Arbeitsblatt ein und überprüfen Sie dann die Webbrowser-Konsole, wie in den Screenshots gezeigt.
-##  **Google Chrome-Konsolenausgabe**
+
+## **Mögliche Verwendungsszenarien**
+OnAjaxCallFinishedClientFunction ist eine clientseitige Funktion, die aufgerufen wird, wenn ein Benutzer einige Daten in das GridWeb-Arbeitsblatt kopiert. Diese Funktion ist hilfreich, wenn eine Vielzahl von Zellen aktualisiert wird und Sie den Überblick über diese aktualisierten Zellen auf der Client-Seite behalten möchten (z. B. in Webbrowsern wie FireFox, Google Chrome usw.).
+## **Verwendung der OnAjaxCallFinishedClientFunction von GridWeb**
+Der folgende Beispielcode erläutert, wie die OnAjaxCallFinishedClientFunction-Clientfunktion genutzt werden kann. Die Screenshots zeigen die Konsolenausgabe in Google Chrome und FireFox, wenn der Code ausgeführt wird. Nachdem Sie den Code ausgeführt haben, kopieren/einfügen Sie bitte einige Daten, die mehrere Zellen im GridWeb-Arbeitsblatt umfassen, und überprüfen Sie dann die Webbrowserkonsole wie in den Screenshots dargestellt.
+## **Konsolenausgabe in Google Chrome**
 ![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-##  **FireFox-Konsolenausgabe**
+## **Konsolenausgabe in FireFox**
 ![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
-##  **Beispielcode**
-{{< highlight "java" >}}
+## **Beispielcode**
+{{< highlight java >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
 

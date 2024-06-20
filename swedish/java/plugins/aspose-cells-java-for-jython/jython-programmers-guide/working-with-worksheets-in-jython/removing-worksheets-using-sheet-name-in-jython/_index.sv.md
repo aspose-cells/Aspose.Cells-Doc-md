@@ -1,15 +1,16 @@
-﻿---
-title: Ta bort kalkylblad med Sheet Name i Jython
+---
+title: Ta bort arbetsblad med Sheet Name i Jython
 type: docs
 weight: 120
 url: /sv/java/removing-worksheets-using-sheet-name-in-jython/
 ---
-## **Aspose.Cells - Ta bort kalkylblad med hjälp av arbetsbladsnamn**
- För att lägga till dokument med hjälp av**Aspose.Cells Java för Jython**. Här kan du se exempelkod.
 
-**Jython Code**
+## **Aspose.Cells - Ta bort arbetsblad med Sheet Name**
+Att lägga till dokument med **Aspose.Cells Java för Jython**. Här kan du se exempelkod.
 
-{{< highlight "java" >}}
+**Jython Kod**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -55,7 +56,7 @@ if __name__ == '__main__':
     RemovingWorksheetsusingSheetName()
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Bifoga dokument (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ned **Hämta dokument (Aspose.Cells)** från någon av de sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetName.py)

@@ -1,17 +1,18 @@
-﻿---
+---
 title: Skriva ut arbetsböcker i xlsx4j
 type: docs
 weight: 30
 url: /sv/java/printing-workbooks-in-xlsx4j/
 ---
-## **Aspose.Cells - Skriva ut arbetsböcker**
-När du har skapat ditt kalkylblad vill du antagligen skriva ut en papperskopia av bladet för ditt behov. När du skriver ut antar MS Excel att du vill skriva ut hela kalkylbladet om du inte anger ditt val.
+
+## **Aspose.Cells - Skriv ut arbetsböcker**
+När du har skapat din kalkylblad vill du förmodligen skriva ut en papperskopia av kalkylarket enligt ditt behov. När du skriver ut antar MS Excel att du vill skriva ut hela kalkylbladsområdet om du inte specificerar ditt urval.
 
 **Skriva ut arbetsblad**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,11 +36,11 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 
-**Utskrift av arbetsbok**
+**Skriva ut arbetsbok**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a WorkbookRender object with respect to your workbook
 
@@ -50,13 +51,13 @@ WorkbookRender wr = new WorkbookRender(book, imgOptions);
 wr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/print/printworkbook/AsposePrintWorkbook.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[ Skriva ut arbetsböcker](/cells/sv/java/printing-workbooks).
+För mer information, besök [Skriva ut arbetsböcker ](/cells/sv/java/skriva-ut-arbetsboker).
 
 {{% /alert %}}

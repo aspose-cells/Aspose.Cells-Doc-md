@@ -1,23 +1,24 @@
-﻿---
-title: Ställa in skugga av text Effekter av form eller textruta
+---
+title: Inställning av skugga för texteffekter av form eller textruta
 type: docs
 weight: 250
 url: /sv/net/setting-shadow-of-text-effects-of-shape-or-textbox/
 ---
+
 {{% alert color="primary" %}}
 
- Du kan ställa in**Skugga** av**Texteffekter** av valfri form eller textruta. Vänligen använd[**Shape.TextBody**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody) fast egendom. Den presenterar inställningen av formens text och returnerar[**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) föremål. När du har kommit åt det, ställ in**Skugga** via[**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) fast egendom. Denna egenskap är av typen[**PresetShadowType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/presetshadowtype)som har flera värden. Några av dessa är
+Du kan ställa in **Skugga** för **Texteffekter** av vilken form eller textruta som helst. Använd egenskapen [**Shape.TextBody**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody). Den presenterar inställningen för formens text och returnerar [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) objekt. Efter åtkomst, ställ in **Skugga** via egenskapen [**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype). Denna egenskap är av typen [**PresetShadowType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/presetshadowtype) som har flera värden. Några av dessa är
 
-- OffsetDiagonal BottomHöger
+- OffsetDiagonalBottomRight
 - OffsetBottom
-- OffsetDiagonalOverhöger
-- Insidan Vänster
+- OffsetDiagonalTopRight
+- InsideLeft
 - InsideCenter
 - PerspectiveDiagonalUpperLeft
-- PerspektivDiagonal Nedre Höger
+- PerspectiveDiagonalLowerRight
 
 {{% /alert %}}
 
-Följande kodavsnitt visar användningen av[**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype)egenskap för att ställa in skuggan av texteffekter av Shape eller TextBox.
+Följande kodsnutt illustrerar användningen av egenskapen [**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) för att ställa in skugga för texteffekter av en form eller textruta.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SettingTextEffectsShadowOfShapeOrTextbox-1.cs" >}}

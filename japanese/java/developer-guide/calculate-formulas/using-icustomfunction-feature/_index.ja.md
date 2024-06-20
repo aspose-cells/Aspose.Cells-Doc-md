@@ -1,35 +1,36 @@
 ---
-title: ICustomFunction 機能の使用
+title: ICustomFunction機能の使用
 type: docs
 weight: 890
 url: /ja/java/using-icustomfunction-feature/
 ---
+
 {{% alert color="primary" %}} 
 
-この記事では、ICustomFunction 機能を使用して Aspose.Cells API でカスタム関数を実装する方法について詳しく説明します。
+この記事では、ICustomFunction機能を使用してAspose.Cells APIでカスタム関数を実装する方法について詳細に説明します。
 
-ICustomFunction インターフェイスを使用すると、カスタム数式計算関数を追加して、特定の要件を満たすために Aspose.Cells のコア計算エンジンを拡張できます。この機能は、他の既定の Microsoft Excel 関数と同様に、Aspose.Cells API を使用してカスタム関数を実装および評価できるテンプレート ファイルまたはコードでカスタム (ユーザー定義) 関数を定義する場合に便利です。
+ICustomFunctionインターフェースを使用すると、特定の要件を満たすためにAspose.Cellsのコア計算エンジンを拡張してカスタム形式計算関数を追加できます。この機能は、テンプレートファイルやコードでカスタム関数を定義し、Aspose.Cells APIを使用して通常のMicrosoft Excel関数と同様に実装および評価できるようにします。
 
-このインターフェースは次のものに置き換えられていることに注意してください。[抽象的な計算エンジン](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)そして将来的には削除される予定です。新しい API に関するいくつかの技術記事/例:[ここ](/cells/ja/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)そして[ここ](/cells/ja/java/returning-a-range-of-values-using-abstractcalculationengine/)
+ICustomFunctionインターフェースは[AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)に置き換えられ、将来的に削除される予定です。新しいAPIに関する一部の技術記事/例は、[こちら](/cells/ja/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)および[こちら](/cells/ja/java/returning-a-range-of-values-using-abstractcalculationengine/)でご確認いただけます。
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Aspose.Cells for Java API を初めて使用する場合は、確認してください。[これ](https://docs.aspose.com/cells/java/installation/)プロジェクト内で Aspose.Cells for Java を取得および参照する方法については、この記事を参照してください。
+Aspose.Cells for JavaのAPIが初めての場合は、プロジェクトでAspose.Cells for Javaを取得および参照する方法を知るために[こちら](https://docs.aspose.com/cells/java/installation/)の記事をご覧ください。
 
 {{% /alert %}} 
-##  **ユーザー定義関数の作成と評価**
-この記事では、カスタム関数を作成し、それをスプレッドシートで使用して結果を取得するための ICustomFunction インターフェイスの実装について説明します。カスタム関数を名前で定義します**マイファンク**これは、次の詳細を含む 2 つのパラメーターを受け入れます。
+## **ユーザー定義関数の作成と評価**
+この記事では、ICustomFunctionインタフェースの実装をデモし、スプレッドシートでカスタム関数を作成し、その結果を取得する方法を説明します。名前が **MyFunc** のカスタム関数を定義し、次の詳細を持つ2つのパラメーターを受け入れるカスタム関数を定義します。
 
-- 最初のパラメータは単一のセルを参照します
-- 番目のパラメータはセル範囲を参照します
+- 1番目のパラメーターは単一のセルを参照します
+- 2番目のパラメーターはセル範囲を参照します
 
-カスタム関数は、2 番目のパラメーターとして指定されたセル範囲のすべての値を加算し、結果を 1 番目のパラメーターの値で除算します。
+カスタム関数は、指定された2番目のパラメーターからすべての値を追加し、1番目のパラメーターの値で結果を除算します。
 
-ここでは、calculateCustomFunction メソッドを実装する方法を示します。
+calculateCustomFunctionメソッドの実装方法は次のとおりです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomFunction implements ICustomFunction
 
@@ -93,11 +94,11 @@ ICustomFunction インターフェイスを使用すると、カスタム数式�
 
 {{< /highlight >}}
 
-スプレッドシートで新しく定義した関数を使用する方法は次のとおりです。
+新しく定義された関数をスプレッドシートで使用する方法は次のとおりです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Open the workbook
 
@@ -148,12 +149,12 @@ worksheet.getCells().get("A1").putValue(worksheet.getCells().get("A1").getValue(
 workbook.save(dir + "UsingICustomFunction.xls");
 
 {{< /highlight >}}
-##  **概要**
-Aspose.Cells API は、対応するパラメーターが参照であるか、その計算結果が参照である場合に、ReferredArea オブジェクトを「paramsList」に入れるだけです。参照自体が必要な場合は、ReferredArea を直接使用できます。数式の位置に対応する参照から単一セルの値を取得する必要がある場合は、ReferredArea.getValue(rowOffset, intcolOffset) メソッドを使用できます。エリア全体のセル値配列が必要な場合は、ReferredArea.getValues メソッドを使用できます。
+## **概要**
+Aspose.CellsのAPIは、対応するパラメーターが参照またはその計算結果が参照の場合、ReferredAreaオブジェクトを"paramsList"に挿入します。参照そのものが必要な場合は、直接ReferredAreaを使用できます。式の位置に応じて参照されたセルから単一のセルの値が必要な場合は、ReferredArea.getValue(rowOffset, int colOffset)メソッドを使用できます。領域全体のセル値配列が必要な場合は、ReferredArea.getValuesメソッドを使用できます。
 
-Aspose.Cells API は「paramsList」の ReferredArea を提供するため、「contextObjects」の ReferredAreaCollection は不要になります (古いバージョンでは、常にカスタム関数のパラメーターに 1 対 1 のマップを与えることができませんでした)。 「contextObjects」から削除されました。
+Aspose.CellsのAPIが"paramsList"にReferredAreaを与えるため、「contextObjects」でのReferredAreaCollectionはもはや必要ありません(以前のバージョンでは、カスタム関数のパラメーターに常に1対1マップを提供することができなかったため、これが"contextObjects"から削除されました)。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public Object calculateCustomFunction(String functionName, ArrayList paramsList, ArrayList contextObjects)
 

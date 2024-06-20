@@ -1,18 +1,19 @@
-﻿---
-title: Beräkna eller beräkna om formler dynamiskt
+---
+title: Beräkna eller ombäkna formler dynamiskt
 type: docs
 weight: 10
 url: /sv/net/calculate-or-recalculate-formulas-dynamically/
 ---
-**Formelberäkning** motorn är inbäddad**Aspose.Cells**. Det kan inte bara räkna om formeln som importerats från designerfilen utan stöder också för att beräkna resultaten av formler som lagts till vid körning.
+
+**Formelberäkningsmotorn** är inbäddad i **Aspose.Cells**. Den kan inte bara ombäkna formeln som importerats från designfilen utan stödjer också beräkning av resultaten av formler som har lagts till vid runtime.
 ## **Lägga till formler och beräkna resultat**
-Aspose.Cells stöder de flesta formler eller funktioner som ingår i Microsoft Excel. Utvecklare kan använda dessa formler med API eller Designer Spreadsheets. Aspose.Excel stöder en stor uppsättning matematiska formler, strängar, booleska formler, datum/tid, statistisk, databas, uppslagsformler och referensformler.
+Aspose.Cells stödjer de flesta formler eller funktioner som är en del av Microsoft Excel. Utvecklare kan använda dessa formler med hjälp av API eller Designer Spreadsheets. Aspose.Excel stödjer en stor uppsättning matematiska, sträng-, booleska, datum/tid-, statistiska, databas-, sök- och referens formler.
 
-Använd Cell-klassens Formula-egenskap för att lägga till en formel i en cell. När du tillämpar en formel på en cell, börja alltid strängen med ett likhetstecken (=) som du gör när du skapar en formel i Microsoft Excel. Använd ett kommatecken (,) för att avgränsa funktionsparametrar.
+Använd Cell-klassens Formel-egenskap för att lägga till en formel i en cell. När du tillämpar en formel på en cell, börjar du alltid strängen med ett likhetstecken (=) precis som när du skapar en formel i Microsoft Excel. Använd ett kommatecken (,) för att avgränsa funktionsparametrar.
 
- För att beräkna resultatet av formlerna, anropa Excel-klassens CalculateFormula-metod som bearbetar alla formler som är inbäddade i en Excel-fil. Läs[url:lista över funktioner som stöds av metoden CalculateFormula](/cells/sv/net/supported-formula-functions/).
+För att beräkna resultaten av formler, anropa Excel-klassens CalculateFormula-metod som bearbetar alla formler som är inbäddade i en Excel-fil. Läs [länk: list of functions supported by the CalculateFormula method](/cells/sv/net/supported-formula-functions).
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -55,15 +56,15 @@ string value = worksheet.Cells["A4"].Value.ToString();
 workbook.Save("Adding Formula.xls");
 
 {{< /highlight >}}
-## **Beräknar formler endast en gång**
-När användaren anropar Workbook.CalculateFormula() för att beräkna värdena för formlerna i arbetsboksmallen, skapar Aspose.Cells en beräkningskedja. Det ökar prestandan när formler beräknas för andra eller tredje gången etc.
-Men om användarmallen innehåller massor av olika formler, kan första gången av formelberäkningen förbruka mycket CPU-bearbetningstid och minne.
+## **Beräkna formler endast en gång**
+När användaren anropar Workbook.CalculateFormula() för att beräkna värdena för formlerna i arbetsboksmallen skapar Aspose.Cells en beräkningskedja. Det ökar prestanda när formler beräknas för andra eller tredje gången osv.
+Men om användarmallen innehåller många olika formler kan första gången för formelberäkningen kräva en hel del CPU-processortid och minne.
 
-Aspose.Cells låter dig stänga av skapande av beräkningskedja, vilket är användbart i scenarier när du bara vill beräkna formler för din fil en gång.
+Aspose.Cells låter dig stänga av skapandet av beräkningskedja, vilket är användbart i situationer när du bara vill beräkna formler i din fil en gång.
 
- Om du vill förbättra prestanda för formelberäkningar med Aspose.Cells och du inte vill skapa formelberäkningskedja, ställ in**FormulaSettings.EnableCalculationChain** som**falsk** . Som standard är den inställd som**Sann**.
+Om du försöker förbättra prestandan för formelberäkningar med Aspose.Cells och inte vill skapa en formelberäkningskedja, vänligen ställ in **FormulaSettings.EnableCalculationChain** som **false**. Som standard är det inställt som **true**.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -93,12 +94,12 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 ## **Direkt beräkning av formel**
-Formelberäkningsmotorn är inbäddad i Aspose.Cells. Dessutom, omräkning av formeln som importerats från designerfilen, stöder Aspose.Cells också att beräkna resultaten av formler direkt.
-Ibland måste du beräkna resultaten av formler direkt utan att lägga till dem i ett kalkylblad. Värdena för cellerna som används i formeln finns redan i ett kalkylblad och allt du behöver är att hitta resultatet av dessa värden baserat på någon Ms-Excel-formel utan att lägga till formeln i ett kalkylblad.
+Formelberäkningsmotorn är inbäddad i Aspose.Cells. Förutom att ombäkna formeln som importerats från designfilen, stödjer även Aspose.Cells att beräkna resultaten av formler direkt.
+Ibland behöver du beräkna resultaten av formler direkt utan att faktiskt lägga till dem på en kalkylblad. Värdena på cellerna som används i formeln finns redan i ett kalkylblad och allt du behöver är att hitta resultatet av dessa värden baserat på någon Ms-Excel-formel utan att lägga till formeln på ett kalkylblad.
 
- Du kan använda Aspose.Cells Formula Calculation Engine API dvs.**kalkylblad. Beräkna (strängformel)**att beräkna resultaten av sådana formler utan att faktiskt lägga till dem i kalkylbladet.
+Du kan använda Aspose.Cells Formula Calculation Engine API, dvs **worksheet.Calculate(string formula)**, för att beräkna resultaten av sådana formler utan att faktiskt lägga till dem på kalkylbladet.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook
 
@@ -139,6 +140,6 @@ Debug.WriteLine("Result of Sum(A1:A2): " + results.ToString());
 workbook.Save("Calulate Any Formulae.xls");
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip)

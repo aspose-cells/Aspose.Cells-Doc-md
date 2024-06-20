@@ -1,29 +1,30 @@
-﻿---
-title: Zirkuläre Referenz erkennen
+---
+title: Erkennung von zirkulären Verweisen
 type: docs
 weight: 70
 url: /de/java/detecting-circular-reference/
 ---
+
 ## **Einführung**
 
-Arbeitsmappen können Zirkelverweise enthalten, und manchmal muss festgestellt werden, ob Zirkelverweise vorhanden sind oder nicht.
+Arbeitsmappen können zirkuläre Verweise enthalten, und manchmal besteht die Notwendigkeit festzustellen, ob zirkuläre Verweise vorliegen oder nicht.
 
-## **Konzept hinter der Erkennung des Zirkelbezugs**
+## **Konzept zur Erkennung des zirkulären Verweises**
 
-Zirkelbezüge können nur bei der Berechnung der Formel erkannt werden, da die Bezüge einer Formel häufig vom berechneten Ergebnis anderer Teile oder anderer Formeln abhängen. Daher bieten wir neue APIs für diese Anforderung (um Zellen mit Zirkelbezügen zu sammeln) im Prozess der Formelberechnung:
+Zirkuläre Verweise können nur erkannt werden, wenn die Formel berechnet wird, da die Verweise einer Formel in der Regel vom berechneten Ergebnis anderer Teile oder anderer Formeln abhängen. Daher stellen wir neue APIs für diese Anforderung bereit (zum Sammeln von Zellen mit zirkulären Verweisen) im Prozess der Formelberechnung:
 
-[**Berechnungszelle**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell): Stellt die Berechnung relevanter Daten über eine zu berechnende Zelle dar
+[**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell): Stellt die Berechnung relevanter Daten über eine berechnete Zelle dar
 
-[**AbstractCalculationMonitor.OnCircular(IEnumerator circleCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): wird von der Formelberechnungs-Engine aufgerufen, wenn auf Zirkelverweise gestoßen wird, das Element im Enumerator ist[**Berechnungszelle**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) Objekte, die alle Zellen in einem Kreis darstellen. Der zurückgegebene Wert gibt an, ob die Formel-Engine diese Zellen nach diesem Aufruf kreisförmig berechnen muss.
+[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)): wird vom Formelberechnungsmotor aufgerufen, wenn zirkuläre Verweise auftreten, das Element im Enumerator ist [**CalculationCell**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationCell) Objekte, die alle Zellen in einem Kreis darstellen. Der zurückgegebene Wert gibt an, ob der Formelmotor diese Zellen nach diesem Aufruf in der Kreisberechnung berechnen muss.
 
- Der Benutzer kann diese Zirkelverweise bei der Implementierung von sammeln[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) Methode.
+Benutzer können diese zirkulären Verweise bei der Implementierung der Methode [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor#onCircular(java.util.Iterator)) sammeln.
 
 Die Quellbeispieldatei kann unter folgendem Link heruntergeladen werden:
 
-[Kreisformeln.xls](77496332.xls)
+[Circular Formulas.xls](77496332.xls)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-1.java" >}}
 
-Definition von*CircularMonitor* Klasse, von der abgeleitet wird[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) Klasse ist wie folgt:
+Definition der *CircularMonitor* Klasse, die von der [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor)-Klasse abgeleitet ist, lautet wie folgt:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-DetectCircularReference-2.java" >}}

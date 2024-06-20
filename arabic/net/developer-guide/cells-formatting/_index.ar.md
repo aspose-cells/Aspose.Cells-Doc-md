@@ -1,112 +1,113 @@
 ---
 title: تنسيق الخلايا
-description: تعرف على كيفية تنسيق الخلايا ونمطها في Aspose.Cells for .NET، بما في ذلك تنسيق الأرقام وتنسيق التاريخ وأنماط الخطوط وخيارات أنماط الخلايا الأخرى. سيساعدك دليلنا على إنشاء جداول بيانات جذابة وذات مظهر احترافي.
-keywords: Aspose.Cells for .NET, cell formatting, styling, number formatting, date formatting, font style, cell style options, spreadsheet, create, professional look, format rows and columns.
+description: تعلم كيفية تنسيق وتنسيق الخلايا في Aspose.Cells for .NET، بما في ذلك تنسيق الأرقام، وتنسيق التاريخ، وأنماط الخط، وخيارات أنماط الخلية الأخرى. سيساعدك دليلنا على إنشاء جداول بيانات جذابة وتحترفية.
+keywords: Aspose.Cells for .NET، تنسيق الخلية، تنسيقها، تنسيق الأرقام، تنسيق التاريخ، نمط الخط، خيارات نمط الخلية، جدول بيانات، إنشاء، مظهر احترافي، تنسيق الصفوف والأعمدة.
 linktitle: تنسيق الخلايا
 type: docs
 weight: 120
 url: /ar/net/cells-formatting/
 ---
-##  **مقدمة**
+
+## **مقدمة**
 
 {{% alert color="primary" %}}
 
- Aspose.Cells يوفر[**احصل على ستايل**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) و[**سيت ستايل**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) أساليب[Cell](https://reference.aspose.com/cells/net/aspose.cells/cell) فئة، تستخدم للحصول على/تعيين نمط التنسيق للخلية. Aspose.Cells يوفر أيضًا أ[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)فصل.
+توفر Aspose.Cells طرق [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) و [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) من فئة [Cell](https://reference.aspose.com/cells/net/aspose.cells/cell)، المستخدمة للحصول على/تعيين نمط التنسيق لخلية. توفر Aspose.Cells أيضًا فئة [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style).
 
 {{% /alert %}}
 
-##  **كيفية تنسيق Cells باستخدام أساليب GetStyle وSetStyle**
+## **كيفية تنسيق الخلايا باستخدام أساليب GetStyle و SetStyle**
 
-قم بتطبيق أنواع مختلفة من أنماط التنسيق على الخلايا لتعيين ألوان الخلفية أو المقدمة والحدود والخطوط والمحاذاة الأفقية والرأسية ومستوى المسافة البادئة واتجاه النص وزاوية التدوير وغير ذلك الكثير.
+تطبيق أنواع مختلفة من أنماط التنسيق على الخلايا لتعيين ألوان الخلفية أو الأمامية، الحدود، الخطوط، المحاور الأفقية والعمودية، مستوى المسافة البادئة، اتجاه النص، زاوية الدوران والمزيد.
 
-###  **كيفية استخدام طريقتي GetStyle وSetStyle**
+### **كيفية استخدام أساليب GetStyle و SetStyle**
 
- إذا كان المطورون بحاجة إلى تطبيق أنماط تنسيق مختلفة على خلايا مختلفة، فمن الأفضل الحصول على[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) من الخلية باستخدام[**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) الطريقة، حدد سمات النمط ثم قم بتطبيق التنسيق باستخدام[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle)طريقة. يوجد أدناه مثال لتوضيح هذا الأسلوب لتطبيق التنسيقات المختلفة على الخلية.
+إذا كان المطورون بحاجة لتطبيق أنماط تنسيق مختلفة إلى خلايا مختلفة، فإنه من الأفضل الحصول على [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) للخلية باستخدام الطريقة [**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)، تحديد سمات النمط ثم تطبيق التنسيق باستخدام الطريقة [**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle). يُظهر المثال التالي هذا النهج لتطبيق تنسيقات مختلفة على خلية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingGetStyleSetStyle-1.cs" >}}
 
-###  **كيفية استخدام كائن النمط لتنسيق مختلف Cells**
+### **كيفية استخدام كائن النمط لتنسيق خلايا مختلفة**
 
- إذا احتاج المطورون إلى تطبيق نفس نمط التنسيق على خلايا مختلفة، فيمكنهم استخدامه[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) هدف. يرجى اتباع الخطوات أدناه لاستخدام[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)هدف:
+إذا كان المطورون بحاجة لتطبيق نفس النمط التنسيقي على خلايا مختلفة، فيمكنهم استخدام [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style). يرجى اتباع الخطوات التالية لاستخدام [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style):
 
-1.  أضف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) كائن عن طريق استدعاء[**كريت ستايل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle) طريقة[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)فصل
-1.  الوصول إلى المضافة حديثا[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) object
-1.  قم بتعيين الخصائص/السمات المطلوبة لـ[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)كائن لتطبيق إعدادات التنسيق المطلوبة
-1.  تعيين تكوينه[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)الاعتراض على الخلايا المطلوبة
+1. إضافة [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) باستدعاء طريقة [**CreateStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle) من فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)
+2. الوصول إلى كائن [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) الذي تمت إضافته حديثًا
+3. تعيين خصائص/سمات [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) المطلوبة لتطبيق إعدادات التنسيق المرغوبة
+4. تعيين كائن [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) المكون وتهيئته إلى الخلايا المرغوبة
 
-يمكن لهذا الأسلوب تحسين كفاءة تطبيقاتك بشكل كبير وتوفير الذاكرة أيضًا.
+يمكن أن يحسن هذا النهج بشكل كبير كفاءة تطبيقاتك ويوفر ذاكرة أيضًا.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingStyleObject-1.cs" >}}
 
-###  **كيفية استخدام Microsoft Excel 2007 الأنماط المحددة مسبقًا**
+### **كيفية استخدام أنماط Microsoft Excel 2007 المحددة مسبقًا**
 
-إذا كنت بحاجة إلى تطبيق أنماط تنسيق مختلفة لـ Microsoft Excel 2007، فقم بتطبيق الأنماط باستخدام Aspose.Cells API. ويرد مثال أدناه لتوضيح هذا الأسلوب لتطبيق نمط محدد مسبقًا على خلية.
+إذا كنت بحاجة لتطبيق أنماط تنسيق مختلفة لـ Microsoft Excel 2007، فقم بتطبيق الأنماط باستخدام واجهة برمجة التطبيقات Aspose.Cells. يُظهر المثال التالي هذا النهج لتطبيق نمط محدد مسبقًا على خلية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-UsingExcelPredefinedStyles-1.cs" >}}
 
 
 
-##  **كيفية تنسيق الأحرف المحددة في Cell**
+## **كيفية تنسيق الأحرف المحددة في خلية**
 
-يشرح التعامل مع إعدادات الخط كيفية تنسيق النص في الخلايا، ولكنه يشرح فقط كيفية تنسيق محتوى الخلية بالكامل. ماذا لو كنت تريد تنسيق الأحرف المحددة فقط؟
+تشرح التعامل مع إعدادات الخط كيفية تنسيق النص في الخلايا، لكنها تشرح فقط كيفية تنسيق كل مضمون الخلية. ماذا إذا كنت ترغب في تنسيق الأحرف المحددة فقط؟
 
-Aspose.Cells يدعم هذه الميزة أيضًا. يشرح هذا الموضوع كيفية استخدام هذه الميزة بفعالية.
+تدعم Aspose.Cells هذه الميزة أيضًا. يشرح هذا الموضوع كيفية استخدام هذه الميزة بشكل فعال.
 
-###  **كيفية تنسيق الأحرف المحددة**
+### **كيفية تنسيق الأحرف المحددة**
 
- Aspose.Cells يوفر فئة،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) الذي يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) الطبقة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فصل. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) يوفر الفصل أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة. كل عنصر في[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) تمثل المجموعة كائنًا من[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)فصل.
+توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) التي تمثل ملف Microsoft Excel. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. ورقة عمل ممثلة بواسطة الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). كل عنصر في مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) يمثل كائنا من الفئة [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
- ال[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) يوفر الفصل[**الشخصيات**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters)الطريقة التي تأخذ المعلمات التالية لتحديد نطاق من الأحرف داخل الخلية:
+توفر الفئة [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) الطريقة [**Characters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters) التي تأخذ المعلمات التالية لتحديد نطاق الحروف داخل خلية:
 
-- *فهرس البداية**، فهرس الحرف الذي يبدأ منه الاختيار.
-- *عدد الأحرف**، عدد الأحرف المراد تحديدها.
+- **فهرس البداية**, وهو فهرس الحرف الذي يبدأ منه التحديد.
+- **عدد الحروف**, عدد الأحرف المراد تحديدها.
 
- ال[**الشخصيات**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters) تقوم الطريقة بإرجاع مثيل لـ[**إعداد الخط**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting)فئة تسمح للمطورين بتنسيق الأحرف بنفس الطريقة التي يقومون بها بالخلية كما هو موضح أدناه في مثال التعليمات البرمجية. في ملف الإخراج، في الخلية A1، سيتم تنسيق كلمة "زيارة" بالخط الافتراضي ولكن "Aspose!" جريء وأزرق.
+تعيد الطريقة [**Characters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/characters) مثيلًا للفئة [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) التي تسمح للمطورين بتنسيق الحروف بنفس الطريقة التي يفعلون بها مع الخلية كما هو موضح أدناه في مثال الكود. في ملف الإخراج، في الخلية A1، سيتم تنسيق الكلمة 'زيارة' بالخط الأمامي ولكن كلمة 'Aspose!' ستكون سمينة وزرقاء.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormattingSelectedCharacters-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-إذا كنت مهتمًا بتنسيق جزء من النص المنسق في خلية، ففكر في استخدام[**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) & [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) طُرق. ال[[**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) يتم استخدام الطريقة للوصول إلى أجزاء النص ومن ثم يمكن إجراء التعديلات باستخدام[**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) الطريقة في حين أن**يحصل** تقوم الطريقة بإرجاع مجموعة من[**إعداد الخط**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) الكائنات التي يمكن معالجتها لتعيين خصائص مختلفة مثل اسم الخط ولون الخط والخط الغامق وما إلى ذلك**تعيين** يمكن استخدام الطريقة لتطبيق التغييرات.
+إذا كنت مهتمًا بتنسيق جزء من Rich Text في خلية، فكر في استخدام الطرق [**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) و [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters). الطريقة [[**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) تُستخدم للوصول إلى أجزاء النص وبعد ذلك يمكن إجراء التعديلات باستخدام الطريقة [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) بينما تُعيد الطريقة **Get** مصفوفة من [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) آلاف التي يمكن تلاعبها لتعيين خصائص مختلفة مثل اسم الخط، لون الخط، السميك، إلخ. ويمكن استخدام الطريقة **Set** لتطبيق التغييرات.
 
 {{% /alert %}}
 
-##  **كيفية تنسيق الصفوف والأعمدة**
+## **كيفية تنسيق الصفوف والأعمدة**
 
-في بعض الأحيان، يحتاج المطورون إلى تطبيق نفس التنسيق على الصفوف أو الأعمدة. غالبًا ما يستغرق تطبيق التنسيق على الخلايا واحدة تلو الأخرى وقتًا أطول ولا يعد حلاً جيدًا.
-ولمعالجة هذه المشكلة، يوفر Aspose.Cells طريقة بسيطة وسريعة تمت مناقشتها بالتفصيل في هذه المقالة.
+في بعض الأحيان، يحتاج المطورون إلى تطبيق نفس التنسيق على الصفوف أو الأعمدة. تطبيق التنسيق على الخلايا واحدة تلو الأخرى غالبًا ما يستغرق وقتا أطول وليس حلا جيدًا.
+لحل هذه المشكلة، يوفر Aspose.Cells طريقة بسيطة وسريعة يتم مناقشتها بالتفصيل في هذا المقال.
 
-###  **تنسيق الصفوف والأعمدة**
+### **تنسيق الصفوف والأعمدة**
 
- Aspose.Cells يوفر فئة[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) الذي يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يحتوي الفصل على أ[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) المجموعة التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فصل. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) يوفر الفصل أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة. ال[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) توفر المجموعة أ[**الصفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows)مجموعة.
+توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) التي تمثل ملف Microsoft Excel. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. ورقة عمل ممثلة بواسطة الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). توفر مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة [**Rows**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows).
 
-###  **كيفية تنسيق صف**
+### **كيفية تنسيق صف**
 
- كل عنصر في[**الصفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) جمع يمثل أ[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row) هدف. ال[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row)يقدم الكائن[**تطبيق ستايل**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) الطريقة المستخدمة لتعيين تنسيق الصف. لتطبيق نفس التنسيق على صف، استخدم[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)هدف. توضح الخطوات أدناه كيفية استخدامه.
+كل عنصر في مجموعة [**Rows**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) يمثل كائن [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row). يقدم كائن [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) الطريقة [**ApplyStyle**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) المستخدمة لتعيين تنسيق الصف. لتطبيق نفس التنسيق على الصف، استخدم كائن [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style). توضح الخطوات أدناه كيفية استخدامه.
 
-1.  أضف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) يعترض على[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة عن طريق استدعاء لها[**كريت ستايل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle)طريقة.
-1.  تعيين[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)خصائص الكائن لتطبيق إعدادات التنسيق.
-1.  قم بتشغيل السمات ذات الصلة لـ[**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)هدف.
-1.  تعيين تكوينه[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) يعترض على[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row)هدف.
+1. أضف كائن [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) إلى الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) عن طريق استدعاء طريقته [**CreateStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle).
+1. ضبط خصائص كائن [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) لتطبيق إعدادات التنسيق.
+1. جعل السمات ذات الصلة ON لكائن [**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag).
+1. تعيين كائن [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) المكون إلى الكائن [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row) المكون.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingARow-1.cs" >}}
 
-###  **كيفية تنسيق العمود**
+### **كيفية تنسيق عمود**
 
- ال[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) توفر المجموعة أيضًا أ[**أعمدة**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) مجموعة. كل عنصر في[**أعمدة**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) جمع يمثل أ[**عمود**](https://reference.aspose.com/cells/net/aspose.cells/column) هدف. تشبه أ[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row) الكائن،[**عمود**](https://reference.aspose.com/cells/net/aspose.cells/column) يقدم الكائن أيضًا[**تطبيق ستايل**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle)طريقة تنسيق العمود.
+توفر مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) أيضًا مجموعة [**Columns**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns). كل عنصر في مجموعة [**Columns**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) يمثل كائن [**Column**](https://reference.aspose.com/cells/net/aspose.cells/column). على غرار كائن [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row)، يقدم كائن [**Column**](https://reference.aspose.com/cells/net/aspose.cells/column) أيضًا الطريقة [**ApplyStyle**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) لتنسيق عمود.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingAColumn-1.cs" >}}
 
-##  **مواضيع متقدمة**
+## **مواضيع متقدمة**
 - [إعدادات المحاذاة](/cells/ar/net/cells-alignment-settings/)
 - [إعدادات الحدود](/cells/ar/net/cells-border-settings/)
-- [قم بتعيين التنسيقات الشرطية لملفات Excel وODS.](/cells/ar/net/conditional-formatting/)
-- [سمات وألوان Excel](/cells/ar/net/excel-themes-and-colors/)
+- [ضبط الصيغ الشرطية لملفات Excel وODS.](/cells/ar/net/conditional-formatting/)
+- [ثيمات وألوان Excel](/cells/ar/net/excel-themes-and-colors/)
 - [إعدادات التعبئة](/cells/ar/net/cells-fill-settings/)
-- [إعدادات الخط](/cells/ar/net/cells-font-settings/)
-- [تنسيق ورقة العمل Cells في مصنف](/cells/ar/net/format-worksheet-cells-in-a-workbook/)
-- [تطبيق نظام التاريخ 1904](/cells/ar/net/implement-1904-date-system/)
-- [دمج وفك Cells](/cells/ar/net/merging-and-unmerging-cells/)
+- [إعدادات الخطوط](/cells/ar/net/cells-font-settings/)
+- [تنسيق خلايا ورق عمل في بيان عمل](/cells/ar/net/format-worksheet-cells-in-a-workbook/)
+- [تنفيذ نظام التاريخ 1904](/cells/ar/net/implement-1904-date-system/)
+- [دمج وفصل الخلايا](/cells/ar/net/merging-and-unmerging-cells/)
 - [إعدادات الأرقام](/cells/ar/net/cells-number-settings/)
-- [الحصول على النمط وتعيينه للخلايا](/cells/ar/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
+- [الحصول على وتعيين النمط للخلايا](/cells/ar/net/evaluating-cell-getstyle-and-setstyle-methods-against-cell-style-property/)
 

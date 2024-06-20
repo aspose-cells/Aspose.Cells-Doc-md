@@ -1,13 +1,14 @@
-﻿---
-title: Crear nueva hoja de trabajo
+---
+title: Crear Nueva Hoja de Cálculo
 type: docs
 weight: 50
 url: /es/net/create-new-worksheet/
 ---
-## **Aspose.Cells - Crear nueva hoja de trabajo**
+
+## **Aspose.Cells - Crear Nueva Hoja de Cálculo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -25,10 +26,10 @@ workbook.Save("newWorksheet.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Crear nueva hoja de trabajo**
+## **NPOI - HSSF XSSF - Crear Nueva Hoja de Cálculo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -74,13 +75,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Crear nueva hoja de trabajo** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descarga **Crear Nueva Hoja de Cálculo** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Create.New.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Trabajar con hojas de trabajo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Para más detalles, visita [Trabajando con Hojas de Cálculo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

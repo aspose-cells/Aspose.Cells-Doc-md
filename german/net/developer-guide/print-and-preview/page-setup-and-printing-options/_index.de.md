@@ -1,14 +1,15 @@
-﻿---
+---
 title: Seiteneinrichtung und Druckoptionen
 type: docs
 weight: 60
 url: /de/net/page-setup-and-printing-options/
 ---
+
 {{% alert color="primary" %}}
 
-Manchmal müssen Entwickler die Seiteneinrichtung und Druckeinstellungen konfigurieren, um den Druckprozess zu steuern. Seiteneinrichtung und Druckeinstellungen bieten verschiedene Optionen und werden in Aspose.Cells vollständig unterstützt.
+Manchmal müssen Entwickler die Seiteneinrichtung und die Druckeinstellungen konfigurieren, um den Druckprozess zu steuern. Die Seiteneinrichtung und Druckeinstellungen bieten verschiedene Optionen und werden von Aspose.Cells vollständig unterstützt.
 
-Dieser Artikel zeigt, wie Sie eine Konsolenanwendung in Visual Studio.Net erstellen und Seiteneinrichtungs- und Druckoptionen auf ein Arbeitsblatt mit ein paar einfachen Codezeilen anwenden, indem Sie die Aspose.Cells API verwenden.
+Dieser Artikel zeigt, wie Sie mit wenigen einfachen Zeilen Code unter Verwendung der Aspose.Cells-API eine Konsolenanwendung in Visual Studio .Net erstellen und Seite einrichten sowie Druckoptionen auf ein Arbeitsblatt anwenden.
 
 {{% /alert %}}
 
@@ -16,61 +17,61 @@ Dieser Artikel zeigt, wie Sie eine Konsolenanwendung in Visual Studio.Net erstel
 
 Für dieses Beispiel haben wir eine Arbeitsmappe in Microsoft Excel erstellt und Aspose.Cells verwendet, um die Seiteneinrichtung und Druckoptionen festzulegen.
 
-### **Verwenden von Aspose.Cells zum Einstellen der Seiteneinrichtungsoptionen**
+### **Verwenden von Aspose.Cells zum Festlegen von Seiteneinrichtungsoptionen**
 
-Erstellen Sie zunächst ein einfaches Arbeitsblatt in Microsoft Excel. Wenden Sie dann Seiteneinrichtungsoptionen darauf an. Das Ausführen des Codes ändert die Seiteneinrichtungsoptionen wie im folgenden Screenshot.
+Erstellen Sie zuerst ein einfaches Arbeitsblatt in Microsoft Excel. Wenden Sie dann Seiteneinrichtungsoptionen darauf an. Das Ausführen des Codes ändert die Seiteneinrichtungsoptionen, wie im Screenshot unten dargestellt.
 
 |**Ausgabedatei.**|
-|:- |
-|![todo: Bild_alt_Text](page-setup-and-printing-options_1.png)|
+| :- |
+|![todo:image_alt_text](page-setup-and-printing-options_1.png)|
 
 1. Erstellen Sie ein Arbeitsblatt mit einigen Daten in Microsoft Excel:
- 1. Öffnen Sie eine neue Arbeitsmappe in Microsoft Excel.
- 1. Fügen Sie einige Daten hinzu.
-1. Seiteneinrichtungsoptionen festlegen:
- Wenden Sie Seiteneinrichtungsoptionen auf die Datei an. Unten sehen Sie einen Screenshot der Standardoptionen, bevor die neuen Optionen angewendet werden.
+   1. Öffnen Sie eine neue Arbeitsmappe in Microsoft Excel.
+   1. Fügen Sie einige Daten hinzu.
+1. Legen Sie Seiteneinrichtungsoptionen fest:
+   Wenden Sie die Seiteneinrichtungsoptionen auf die Datei an. Unten ist ein Screenshot der Standardoptionen vor der Anwendung der neuen Optionen zu sehen.
 
-|**Standardoptionen für die Seiteneinrichtung.**|
-|:- |
-|![todo: Bild_alt_Text](page-setup-and-printing-options_2.png)|
+|**Standardseiteneinrichtungsoptionen.**|
+| :- |
+|![todo:image_alt_text](page-setup-and-printing-options_2.png)|
 
 1. Laden Sie Aspose.Cells herunter und installieren Sie es:
    1. [Download](https://downloads.aspose.com/cells/net) Aspose.Cells für .Net.
- 1. Installieren Sie es auf Ihrem Entwicklungscomputer.
- Alle Aspose-Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
-1. Erstellen Sie ein Projekt:
- 1. Starten Sie Visual Studio. Netz.
- 1. Erstellen Sie eine neue Konsolenanwendung.
- Dieses Beispiel zeigt eine C#-Konsolenanwendung, aber Sie können auch VB.NET verwenden.
-1. Referenzen hinzufügen:
- 1. Dieses Beispiel verwendet Aspose.Cells, also fügen Sie dem Projekt einen Verweis auf diese Komponente hinzu. Zum Beispiel:
- …\Programme\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
+   1. Installieren Sie es auf Ihrem Entwicklungscomputer.
+      Alle Aspose-Komponenten arbeiten im Evaluierungsmodus, wenn sie installiert sind. Der Evaluierungsmodus hat kein Zeitlimit und fügt nur Wasserzeichen in erstellte Dokumente ein.
+1. Ein Projekt erstellen:
+   1. Starten Sie Visual Studio. Net.
+   1. Erstellen Sie eine neue Konsolenanwendung.
+      Dieses Beispiel zeigt eine C#-Konsolenanwendung, aber Sie können auch VB.NET verwenden.
+1. Fügen Sie Verweise hinzu:
+   1. Dieses Beispiel verwendet Aspose.Cells, fügen Sie daher einen Verweis auf diese Komponente im Projekt hinzu. Zum Beispiel:
+      …\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
 1. Schreiben Sie die Anwendung, die die API aufruft:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPageSetup-1.cs" >}}
 
-### **Druckoptionen einstellen**
+### **Druckoptionen festlegen**
 
-Die Seiteneinrichtungseinstellungen bieten auch mehrere Druckoptionen (auch als Blattoptionen bezeichnet), mit denen Benutzer steuern können, wie Arbeitsblattseiten gedruckt werden. Sie ermöglichen Benutzern Folgendes:
+Die Seiteneinrichtungseinstellungen bieten auch mehrere Druckoptionen (auch Blattoptionen genannt), mit denen Benutzer steuern können, wie Arbeitsblattseiten gedruckt werden. Sie ermöglichen Benutzern:
 
-- Wählen Sie einen bestimmten Druckbereich eines Arbeitsblatts aus.
+- Eine bestimmte Druckbereich eines Arbeitsblatts auswählen.
 - Titel drucken.
-- Rasterlinien drucken.
+- Gitternetzlinien drucken.
 - Zeilen-/Spaltenüberschriften drucken.
-- Erzielen Sie Entwurfsqualität.
+- Entwurfsqualität erreichen.
 - Kommentare drucken.
-- Zellfehler drucken.
-- Definieren Sie die Seitenreihenfolge.
+- Zellenfehler drucken.
+- Seiteneinteilung definieren.
 
-Im folgenden Beispiel werden Druckoptionen auf die im obigen Beispiel erstellte Datei (PageSetup.xls) angewendet. Der folgende Screenshot zeigt die Standarddruckoptionen, bevor neue Optionen angewendet werden.
+Das folgende Beispiel wendet Druckoptionen auf die Datei an, die im obigen Beispiel erstellt wurde (PageSetup.xls). Der nachfolgende Screenshot zeigt die Standard-Druckoptionen, bevor neue Optionen angewendet werden.
 
 |**Eingabedokument**|
-|:- |
-|![todo: Bild_alt_Text](page-setup-and-printing-options_3.png)|
+| :- |
+|![todo:image_alt_text](page-setup-and-printing-options_3.png)|
 Das Ausführen des Codes ändert die Druckoptionen.
 
 |**Ausgabedatei**|
-|:- |
-|![todo: Bild_alt_Text](page-setup-and-printing-options_4.png)|
+| :- |
+|![todo:image_alt_text](page-setup-and-printing-options_4.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPrintingOptions-1.cs" >}}

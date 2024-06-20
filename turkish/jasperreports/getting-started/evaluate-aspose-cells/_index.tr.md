@@ -1,25 +1,26 @@
-﻿---
-title: Değerlendir Aspose.Cells
+---
+title: Aspose.Cells ı Değerlendirin
 type: docs
 weight: 50
 url: /tr/jasperreports/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Değerlendirme için Aspose.Cells for JasperReports adresinden kolayca indirebilirsiniz.[indirme sayfası](https://downloads.aspose.com/cells/jasperreports) . Değerlendirme indirmesi, satın alınan indirme ile aynıdır. Değerlendirme sürümü, yalnızca şu süreden sonra lisanslanır:[lisans uygulamak](/cells/tr/jasperreports/licensing/).
+Aspose.Cells for JasperReports'ü [indirme sayfasından](https://downloads.aspose.com/cells/jasperreports) değerlendirmek için kolayca indirebilirsiniz. Değerlendirme indirme, satın alınan indirmeyle aynıdır. Değerlendirme sürümü, [lisans uygulandıktan](/cells/tr/jasperreports/licensing/) sonra lisanslı hale gelir.
 
 {{% /alert %}}
 
-Aspose.Cells for JasperReports değerlendirme sürümü (belirtilen bir lisans olmadan), bir dereceye kadar tam olmasa da ürün işlevselliği sağlar. Bir sınırlama, herhangi bir elektronik tablo belgesini açarken / kaydederken her zaman değerlendirme filigranı içeren fazladan bir çalışma sayfası enjekte etmesidir.
+Lisans belirtilmemiş Aspose.Cells for JasperReports'ün (değerlendirme) sınırlı ürün işlevselliği sağlar. Bir kısıtlama, herhangi bir elektronik tablo belgesini açarken / kaydederken her zaman değerlendirme filigranı ekstra bir çalışsayı enjekte etmesidir.
 
-![yapılacaklar:resim_alternatif_metin](evaluate-aspose-cells_1.png)
+![todo:image_alt_text](evaluate-aspose-cells_1.png)
 
-**Figür:** Aspose.Cells bileşeni tarafından oluşturulan Demo Tablosu
+**Şekil:** Aspose.Cells bileşeni tarafından oluşturulan Demo Elektronik Tablo
 
-Çalışma kitabına fazladan bir değerlendirme filigranı çalışma sayfası ekleyecektir.
+Çalışma kitabına ek bir değerlendirme filigranı çalışma sayfası ekler.
 
-![yapılacaklar:resim_alternatif_metin](evaluate-aspose-cells_2.png)
+![todo:image_alt_text](evaluate-aspose-cells_2.png)
 
-**Figür:** Değerlendirme Uyarısı – Fazladan Bir Çalışma Sayfası
+**Şekil:** Değerlendirme Uyarısı - Ek Bir Çalışma Sayfası
 
- Aspose.Cells for JasperReports'i değerlendirme sürümü sınırlaması olmadan test etmek istiyorsanız,[30 günlük geçici lisans talep edin](https://purchase.aspose.com/temporary-license).
+Aspose.Cells for JasperReports'ü değerlendirme sürümü kısıtlamaları olmadan test etmek istiyorsanız, [30 günlük geçici bir lisans isteyebilirsiniz](https://purchase.aspose.com/temporary-license).

@@ -1,20 +1,21 @@
-﻿---
-title: xlsx4j でワークシートのタブの色を設定する
+---
+title: xlsx4jでのワークシートタブの色の設定
 type: docs
 weight: 60
 url: /ja/java/set-worksheet-tab-color-in-xlsx4j/
 ---
-## **Aspose.Cells - ワークシートのタブの色を設定する**
-Aspose.Cells では、個々のワークシート タブの色を変更して、他のタブよりも目立つようにすることができます。たとえば、経費を赤、売上を緑、資産を青などにすることができます。
+
+## **Aspose.Cells - ワークシートのタブの色を設定**
+Aspose.Cells を使用すると、個々のワークシートタブの色を変更して目立たせることができます。たとえば、Expenses を赤、Sales を緑、Assets を青などにすることができます。
 ### **Microsoft Excel でワークシートのタブの色を設定する**
-1. 現在のワークシートの下部にあるタブ シートのタブを右クリックします。
-1. 選択する**タブの色**.
+1. 現在のワークシートの下部にあるタブシートでタブを右クリックします。
+1. **タブの色** を選択します。
 1. パレットから色を選択します。
-1. クリック**わかった**.
+1. **OK** をクリックします。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new Workbook
 
@@ -33,13 +34,13 @@ worksheet.setTabColor(Color.getRed());
 workbook.save(dataDir + "AsposeColoredTab_Out.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/settabcolor/AsposeSetWorksheetTabColor.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークシートのタブの色を設定](/java/set-worksheet-tab-color).
+詳細については、[ワークシートタブの色を設定](/java/set-worksheet-tab-color)を参照してください。
 
 {{% /alert %}}

@@ -1,20 +1,21 @@
-﻿---
-title: 選択したレポートのチャート アイテムを Excel チャートにレンダリング
+---
+title: 選択したレポートのチャート項目をExcelチャートにレンダリングする
 type: docs
 weight: 20
 url: /ja/reportingservices/render-chart-items-of-selected-report-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-グラフ項目を Microsoft Excel グラフにレンダリングするには:
+チャート項目をMicrosoft Excelチャートにレンダリングするには:
 
-1. 開く**Aspose.Cells.ReportingServices.xml**ファイル。
-1. の構成パラメータを変更します。**Aspose.Cells.ReportingServices.xml**ファイル。
-1. 必要なレポートの構成情報を追加します。
+1. **Aspose.Cells.ReportingServices.xml** ファイルを開きます。
+1. **Aspose.Cells.ReportingServices.xml** ファイルの構成パラメータを変更します。
+1. 設定したいレポートの構成情報を追加します。
 
-例えば：
+例:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 
@@ -26,8 +27,8 @@ url: /ja/reportingservices/render-chart-items-of-selected-report-to-excel-charts
 
 {{< /highlight >}}
 
-**Excel グラフは Microsoft Excel で編集できます** 
+**ExcelチャートはMicrosoft Excelで編集可能です** 
 
-![todo:画像_代替_文章](render-chart-items-of-selected-report-to-excel-charts_1.png)
+![todo:image_alt_text](render-chart-items-of-selected-report-to-excel-charts_1.png)
 
 {{% /alert %}}

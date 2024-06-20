@@ -1,16 +1,17 @@
-﻿---
-title: スライサーのプロパティを変更する
+---
+title: スライサープロパティを変更する
 type: docs
 weight: 70
 url: /ja/net/change-slicer-properties/
 ---
-## **考えられる使用シナリオ**
 
-配置や行の高さなど、スライサーのプロパティを変更したい場合があります。 Aspose.Cells は、これらのプロパティを更新するオプションを提供します。
+## **可能な使用シナリオ**
 
-## **スライサーのプロパティを変更する**
+配置や行の高さなどスライサーのプロパティを変更したい場合があります。Aspose.Cellsでは、これらのプロパティを更新するオプションを提供しています。
 
-以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](sampleCreateSlicerToExcelTable.xlsx)テーブルが含まれています。次に、最初の列に基づいてスライサーを作成し、行の高さ、幅、印刷可能、タイトルなどのプロパティを変更します。ワークブックを次のように保存します。[outputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
+## **スライサープロパティを変更する**
+
+次のサンプルコードをご覧ください。最初の列を含む[サンプルExcelファイル](sampleCreateSlicerToExcelTable.xlsx)を読み込み、その後、高さ、幅、印刷可能、タイトルなどのプロパティを変更したスライサーを作成します。ワークブックを[outputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx)として保存します。
 
 ## **サンプルコード**
 

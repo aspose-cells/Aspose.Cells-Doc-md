@@ -1,20 +1,21 @@
-﻿---
-title: Leistungskonfiguration
+---
+title: Leistungs Konfiguration
 type: docs
 weight: 20
 url: /de/reportingservices/performance-configuration/
 ---
+
 {{% alert color="primary" %}} 
 
- Benutzer können die Leistung bis zu einem gewissen Grad optimieren. Sie können einige Attribute und Parameter in der konfigurieren**Aspose.Cells.ReportingServices.xml** Datei wie unten beschrieben.
+Benutzer können die Leistung in gewissem Maße optimieren. Sie können einige Attribute und Parameter in der **Aspose.Cells.ReportingServices.xml**-Datei wie folgt konfigurieren.
 
 {{% /alert %}} 
-### **Leistungsbereich**
-Dies zeigt den Performance-Bereich so an, wie er standardmäßig ist.
+### **Leistungs Abschnitt**
+Dies zeigt den Leistungsabschnitt wie er standardmäßig ist.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -36,11 +37,11 @@ Dies zeigt den Performance-Bereich so an, wie er standardmäßig ist.
 
 {{< /highlight >}}
 ### **Leistungsparameter**
--  LimitCellsNumberForMerged – Der Standardwert des Parameters ist 1000000. Der Parameterwert wird vom Client festgelegt und wird nicht durch den Schalter des Leistungsparameters beeinflusst. Bitte beachten Sie die folgende Konfiguration.
+- LimitCellsNumberForMerged – Der Standardwert des Parameters ist 1000000. Der Parameterwert wird vom Client festgelegt und wird nicht vom Leistungsparameter-Schalter beeinflusst. Bitte beachten Sie die folgende Konfiguration. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -48,15 +49,15 @@ Dies zeigt den Performance-Bereich so an, wie er standardmäßig ist.
 
 {{< /highlight >}}
 
--  IsAutoRowFit – Kann entweder wahr oder falsch sein:
- - Wenn der Performance-Parameter auf „off“ gesetzt ist, ist der Standardwert „false“.
- - Wenn der Performance-Parameter auf „on“ eingestellt ist, ist der Standardwert „true“.
- - Wenn der Leistungsparameter auf „on“ gesetzt ist, kann ein Unterelementbericht den AutoRowFile-Parameter des Berichts zurücksetzen.
-Bitte beachten Sie die folgende Konfiguration.
+- IsAutoRowFit – Kann entweder true oder false sein: 
+  - Wenn der Leistungsparameter auf „aus“ gesetzt ist, ist der Standardwert false.
+  - Wenn der Leistungsparameter auf „an“ gesetzt ist, ist der Standardwert true.
+  - Wenn der Leistungsparameter auf „an“ gesetzt ist, kann ein Unterelementbericht den AutoRowFile-Parameter des Berichts neu setzen.
+    Bitte beachten Sie die folgende Konfiguration. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -78,15 +79,15 @@ Bitte beachten Sie die folgende Konfiguration.
 
 {{< /highlight >}}
 
--  IsMerged – Kann entweder wahr oder falsch sein:
- - Wenn der Performance-Parameter auf „off“ gesetzt ist, ist der Standardwert „false“.
- - Wenn der Performance-Parameter auf „on“ eingestellt ist, ist der Standardwert „true“.
- - Wenn der Leistungsparameter auf „on“ gesetzt ist, kann ein Unterelementbericht den AutoRowFile-Parameter des Berichts zurücksetzen.
-Bitte beachten Sie die folgende Konfiguration.
+- IsMerged – Kann entweder true oder false sein: 
+  - Wenn der Leistungsparameter auf „aus“ gesetzt ist, ist der Standardwert false.
+  - Wenn der Leistungsparameter auf „an“ gesetzt ist, ist der Standardwert true.
+  - Wenn der Leistungsparameter auf „an“ gesetzt ist, kann ein Unterelementbericht den AutoRowFile-Parameter des Berichts neu setzen.
+    Bitte beachten Sie die folgende Konfiguration. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -108,15 +109,15 @@ Bitte beachten Sie die folgende Konfiguration.
 
 {{< /highlight >}}
 
--  IsSetStyle – Kann entweder wahr oder falsch sein:
- - Wenn der Performance-Parameter auf „off“ gesetzt ist, ist der Standardwert „false“.
- - Wenn der Performance-Parameter auf „on“ eingestellt ist, ist der Standardwert „true“.
- - Wenn der Leistungsparameter auf „on“ gesetzt ist, kann ein Unterelementbericht den AutoRowFile-Parameter des Berichts zurücksetzen.
-Bitte beachten Sie die folgende Konfiguration.
+- IsSetStyle – Kann entweder true oder false sein: 
+  - Wenn der Leistungsparameter auf „aus“ gesetzt ist, ist der Standardwert false.
+  - Wenn der Leistungsparameter auf „an“ gesetzt ist, ist der Standardwert true.
+  - Wenn der Leistungsparameter auf „an“ gesetzt ist, kann ein Unterelementbericht den AutoRowFile-Parameter des Berichts neu setzen.
+    Bitte beachten Sie die folgende Konfiguration. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -138,16 +139,16 @@ Bitte beachten Sie die folgende Konfiguration.
 
 {{< /highlight >}}
 
--  IsConditionalFormatting – Kann entweder wahr oder falsch sein:
- - Wenn der Performance-Parameter auf „off“ gesetzt ist, ist der Standardwert „false“.
- - Wenn der Performance-Parameter auf „on“ eingestellt ist, ist der Standardwert „true“.
- - Wenn der Leistungsparameter auf „on“ gesetzt ist, kann der Unterelementbericht den AutoRowFile-Parameter des Punktberichts zurücksetzen.
- - Wenn der IsSetStyle-Parameter auf „false“ gesetzt ist, ist der Wert des Performance-Parameters ungültig.
-Bitte beachten Sie die folgende Konfiguration.
+- IsConditionalFormatting – Kann entweder true oder false sein: 
+  - Wenn der Leistungsparameter auf „aus“ gesetzt ist, ist der Standardwert false.
+  - Wenn der Leistungsparameter auf „an“ gesetzt ist, ist der Standardwert true.
+  - Wenn der Leistungsparameter auf „an“ gesetzt ist, kann ein Unterelementbericht den AutoRowFile-Parameter des Punktberichts neu setzen.
+  - Wenn der Parameter IsSetStyle auf false gesetzt ist, ist der Wert des Parameters Performance ungültig.
+    Bitte beachten Sie die folgende Konfiguration. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

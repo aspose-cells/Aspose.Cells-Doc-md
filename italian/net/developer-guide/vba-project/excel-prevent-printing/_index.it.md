@@ -1,35 +1,36 @@
 ---
-title: Come impedire agli utenti di stampare file Excel
+title: Come Prevenire agli Utenti di Stampare un File Excel
 type: docs
 weight: 600
 url: /it/net/how-to-prevent-printing-excel/
-description: Scopri come impedire agli utenti di stampare Excel tramite Aspose.Cells for .NET API.
-keywords: excel printing, prevent printing excel, how to prevent users from printing excel, excel prevent printing, prevent printing workbook, Prevent users from printing the whole workbook with VBA. 
+description: Scopri come impedire agli utenti di stampare Excel tramite l API Aspose.Cells for .NET.
+keywords: stampa excel, impedire la stampa di excel, come impedire agli utenti di stampare excel, excel impedire la stampa, impedire la stampa del workbook, impedire agli utenti di stampare l intero workbook con VBA. 
 ---
-##  **Possibili scenari di utilizzo**
-Nel nostro lavoro quotidiano potrebbero esserci alcune informazioni importanti nel file Excel, al fine di proteggere la diffusione dei dati interni, l'azienda non ci consentirà di stamparli. Questo documento ti spiegherà come impedire ad altri di stampare file Excel.
 
-##  **Come impedire agli utenti di stampare file in MS-Excel**
-È possibile applicare il seguente codice VBA per proteggere il file specifico da stampare.
-1. Apri la cartella di lavoro che non consenti ad altri di stampare.
-1. Seleziona la scheda "Sviluppatore" nella barra multifunzione di Excel e fai clic sul pulsante "Visualizza codice" nella sezione "Controlli". In alternativa, puoi tenere premuti i tasti ALT + F11 per aprire la finestra Microsoft Visual Basic for Applications.
+## **Possibili Scenari di Utilizzo**
+Nel nostro lavoro quotidiano, potrebbero esserci alcune informazioni importanti nel file Excel, al fine di proteggere i dati interni dalla divulgazione, l'azienda non ci permetterà di stamparli. Questo documento ti dirà come impedire agli altri di stampare i file Excel.
+
+## **Come impedire agli utenti di stampare file in MS-Excel**
+È possibile applicare il seguente codice VBA per proteggere il file specifico dalla stampa.
+1. Apri il tuo documento di lavoro che non consenti agli altri di stampare.
+1. Seleziona la scheda 'Sviluppatore' nel nastro di Excel e fai clic sul pulsante 'Visualizza codice' nella sezione 'Controlli'. In alternativa, puoi premere contemporaneamente i tasti ALT + F11 per aprire la finestra di Microsoft Visual Basic for Applications.
 <br>
 <img src="1.png" width=70% />
-1. Quindi, in Project Explorer a sinistra, fai doppio clic su ThisWorkbook per aprire il modulo e aggiungi alcuni codici vba.
+1. Quindi, nel riquadro a sinistra dell'Esplora progetti, fai doppio clic su ThisWorkbook per aprire il modulo e aggiungi alcuni codici VBA.
 <br>
 <img src="2.png" width=70% />
-1. Quindi salva e chiudi questo codice e vai al backup della cartella di lavoro e ora, quando stampi il file di esempio, non sarà consentita la stampa e riceverai la seguente casella di avviso:
+1. Salva e chiudi questo codice, torna al documento di lavoro e, ora quando stampi il file di esempio, non sarà consentito e otterrai il seguente avviso:
 <br>
 <img src="3.png" width=70% />
 
-##  **Come impedire agli utenti di stampare file Excel utilizzando Aspose.Cells for .NET**
+## **Come impedire agli utenti di stampare file Excel utilizzando Aspose.Cells for .NET**
 
-Il seguente codice di esempio illustra come impedire agli utenti di stampare file Excel:
+Il seguente codice di esempio illustra come impedire agli utenti di stampare un file excel:
 
-1.  Carica il[file di esempio](sample.xlsx).
-1. Ottieni l'oggetto VbaModuleCollection dalla proprietà VbaProject di Workbook.
-1. Ottieni l'oggetto VbaModule tramite il nome "ThisWorkbook".
-1. Imposta la proprietà codes di VbaModule.
-1.  Salvare il file di esempio in[formato xlsm](out.xlsm).
+1. Caricare il [file di esempio](sample.xlsx).
+1. Ottieni l'oggetto VbaModuleCollection dalla proprietà VbaProject del documento di lavoro.
+1. Ottieni l'oggetto VbaModule tramite il nome 'ThisWorkbook'.
+1. Imposta la proprietà dei codici di VbaModule.
+1. Salva il file di esempio nel formato [xlsm](out.xlsm).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "VBA-Prevent-printing-excel.cs" >}}

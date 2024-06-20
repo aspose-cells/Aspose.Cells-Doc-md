@@ -1,16 +1,17 @@
-﻿---
-title: 歯車の種類の SmartArt 図形からテキストを抽出する
+---
+title: ギア型スマートアート形状からテキストを抽出
 type: docs
 weight: 500
 url: /ja/net/extract-text-from-the-gear-type-smartart-shape/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells は、歯車型スマート アート シェイプからテキストを抽出できます。そのためには、まず、Smart Art Shape を Group Shape に変換する必要があります。[**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart)方法。次に、グループ シェイプを形成するすべての個々のシェイプの配列を取得する必要があります。[**GroupShape.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes)方法。最後に、すべての個々のシェイプをループで 1 つずつ反復し、[**シェイプ.テキスト**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)財産。
+## **可能な使用シナリオ**
 
-## **歯車の種類の SmartArt 図形からテキストを抽出する**
+Aspose.Cellsは、ギアタイプのスマートアートシェイプからテキストを抽出することができます。そのためには、まずスマートアートシェイプを[**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart)メソッドを使用してグループ形状に変換する必要があります。次に、[**GroupShape.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes)メソッドを使用してグループ形状を構成する個々の形状の配列を取得します。最後に、個々の形状をループで一つずつ取得し、[**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)プロパティを使用してそのテキストを抽出することができます。
 
-次のサンプル コードは、[サンプル Excel ファイル](67338483.xlsx)ギアタイプのスマートアートシェイプを収録。次に、上記のように個々の形状からテキストを抽出します。以下のコードのコンソール出力を参照してください。
+## **ギアタイプのスマートアートシェイプからテキストを抽出する**
+
+以下のサンプルコードは、上記で説明したように、Gear Type Smart Art Shapeを含む[sample Excel file](67338483.xlsx)をロードし、その個々の形状からテキストを抽出します。以下は、サンプルコードのコンソール出力です。
 
 ## **サンプルコード**
 
@@ -18,7 +19,7 @@ Aspose.Cells は、歯車型スマート アート シェイプからテキス�
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Gear Type Shape Text: Nice
 

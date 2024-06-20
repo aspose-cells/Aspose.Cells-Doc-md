@@ -1,26 +1,27 @@
-﻿---
-title: Determina se Shape è Smart Art Shape
+---
+title: Determinare se la forma è una forma di arte intelligente
 type: docs
 weight: 400
 url: /it/net/determine-if-shape-is-smart-art-shape/
 ---
-## **Possibili scenari di utilizzo**
 
- Le Smart Art Shapes sono forme speciali in Microsoft Excel che consentono di creare automaticamente diagrammi complessi. Puoi scoprire se la forma è una forma artistica intelligente o una forma normale usando[**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart)proprietà.
+## **Possibili Scenari di Utilizzo**
 
-## **Determina se Shape è Smart Art Shape**
+I Smart Art Shapes sono forme speciali in Microsoft Excel che ti consentono di creare diagrammi complessi in modo automatico. È possibile verificare se la forma è una forma di arte intelligente o una forma normale utilizzando la proprietà [**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart).
 
- Il codice di esempio seguente carica il file[esempio di file Excel](55541792.xlsx)contenente una forma artistica intelligente come mostrato in questo screenshot. Quindi stampa il valore di[**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart)proprietà della prima forma. Si prega di vedere l'output della console del codice di esempio fornito di seguito.
+## **Determinare se la forma è una forma SmartArt**
 
-![cose da fare:immagine_alt_testo](determine-if-shape-is-smart-art-shape_1.png)
+Il seguente codice di esempio carica il [file di Excel di esempio](55541792.xlsx) contenente una forma di arte intelligente come mostrato in questa schermata. Quindi stampa il valore della proprietà [**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart) della prima forma. Si prega di consultare l'output della console del codice di esempio fornito di seguito.
 
-## **Codice d'esempio**
+![todo:image_alt_text](determine-if-shape-is-smart-art-shape_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-DetermineIfShapeIsSmartArtShape.cs" >}}
 
-## **Uscita console**
+## **Output della console**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: True
 

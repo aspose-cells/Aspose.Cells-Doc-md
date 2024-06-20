@@ -1,16 +1,17 @@
 ---
-title: حدد المسار حيث يقوم GridWeb بتخزين الملفات المؤقتة
+title: حدد المسار الذي يخزن فيه GridWeb الملفات المؤقتة.
 type: docs
 weight: 50
-url: /ar/net/gridweb-cache-files/
-keywords: cache,session,storage
+url: /ar/net/aspose-cells-gridweb/gridweb-cache-files/
+keywords: GridWeb, الخزن المؤقت, الجلسة, التخزين.
+description: يصف هذا المقال التخزين في GridWeb.
 ---
-###  حول ذاكرة التخزين المؤقت للملف
+### حول التخزين المؤقت للملف
 {{% alert color="primary" %}} 
 
-عندما يكون وضع جلسة GridWeb هو ViewState ، فإنه يخزن ملفات الجلسة المؤقتة داخل دليل قاعدة التطبيق. في بعض الأحيان ، لا بأس من تخزين ملفات الجلسات المؤقتة هناك لأن Application Base Directory قد لا يكون لديه أذونات الكتابة عليه. في مثل هذه الحالات ، يطرح GridWeb مثل هذا الاستثناء
+عندما يكون وضع جلسة GridWeb هو ViewState، تقوم بتخزين ملفات الجلسة المؤقتة داخل دليل قاعدة التطبيق. في بعض الأحيان، قد لا تكون مخزن ملفات الجلسة المؤقتة هناك مقبولة لأن قاعدة التطبيق قد لا تحتوي على أذونات كتابة فيها. في مثل هذه الحالات، يتسبب GridWeb في إلقاء استثناء من هذا القبيل.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  [UnauthorizedAccessException: Access to
 
@@ -18,45 +19,45 @@ the path 'D:\inetpub\wwwroot\AsposeExcelTest\gwb_tempGridWeb1' is denied.]
 
 {{< /highlight >}}
 
-الحل للمشكلة أعلاه هو منح حق الوصول للكتابة إلى Application Base Directory أو تغيير مسار ملفات جلسة GridWeb المؤقتة التي لها حق الوصول للكتابة باستخدام خاصية GridWeb.SessionStorePath. يجب أن يكون هذا المسار متعلقًا بـ Application Base Directory.
+الحل للمشكلة أعلاه هو منح الوصول إلى كتابة دليل قاعدة التطبيق أو تغيير مسار ملفات الجلسة المؤقتة في GridWeb بحيث يكون لها وصول للكتابة باستخدام خاصية GridWeb.SessionStorePath. يجب أن يكون هذا المسار نسبيًا لدليل قاعدة التطبيق.
 
 {{% /alert %}} 
-####  **حدد المسار حيث يقوم GridWeb بتخزين ملفات الجلسة المؤقتة**
-يحدد نموذج التعليمات البرمجية التالي المسار حيث يخزن GridWeb ملفات جلسة العمل المؤقتة.
+#### **حدد المسار الذي يخزن فيه GridWeb ملفات الجلسة المؤقتة.**
+يحدد الكود العينة التالي المسار الذي يخزن فيه GridWeb ملفات الجلسة المؤقتة.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-SpecifySessionStorePath.aspx-SpecifySessionStorePath.cs" >}}
 
-###  حول ذاكرة التخزين المؤقت للصور
+### حول التخزين المؤقت للصور
 
-عند وجود أشكال / صور في ورقة العمل ، سيحفظ GridWeb كل الأشكال / الصور في مسار ذاكرة التخزين المؤقت
+عندما تحتوي الصفحة على أشكال / صور في ورقة العمل، فإن GridWeb سيقوم بحفظ جميع الأشكال / الصور في مسار تخزين مؤقت.
 
- المسار الافتراضي لذاكرة التخزين المؤقت هو***System.Web.HttpContext.Current.Server.MapPath ("/ acwcache")***
+المسار التخزين المؤقت الافتراضي هو ***System.Web.HttpContext.Current.Server.MapPath("/acwcache")***.
 
- كما يمكننا استخدامها***GridWeb.PictureCachePath*** لتعيين هذا المسار إلى مسار محدد.
+كما يمكننا استخدام ***GridWeb.PictureCachePath*** لتعيين هذا المسار إلى مسار محدد.
 
-عندما نفتح صفحة ، فإن GridWeb سيحل عنوان url الخاص بالصورة للطلب ، ويحصل على دفق الصورة من ذاكرة التخزين المؤقت بواسطة معرف عنوان url.
+عند فتح صفحة، سيقوم GridWeb بحل عنوان URL الصورة المطلوبة، والحصول على تيار الصورة من التخزين المؤقت بواسطة معرف URL.
 
- على سبيل المثال ، إذا كان عنوان صفحتك هو*http: //ip/mygridwebapp/test.aspx*  
+على سبيل المثال، إذا كان عنوان صفحتك هو *http://ip/mygridwebapp/test.aspx*  
 
-عنوان url الخاص بطلب الصورة الذي تم إنشاؤه بواسطة GridWeb سيكون * http: //ip/mygridwebapp/test.aspx/acw_image/imageid*.
+سيتم إنشاء عنوان URL الصورة بواسطة GridWeb على النحو التالي *http://ip/mygridwebapp/test.aspx/acw_image/imageid*.
 
-####  في بعض الأحيان لا يتم تحميل الأشكال / الصور عند الاستخدام[عنوان Url الودية](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms).
+#### أحيانًا لا تتم تحميل الأشكال / الصور عند استخدام [Friendly Url](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms).
 
-تحتاج إلى التحقق من طلب عنوان url للصورة.
+يجب عليك التحقق من عنوان URL الصورة المطلوبة.
 
- يجب أن يكون طلب الصورة العادي مثل:*http: //ip/mygridwebapp/test.aspx/acw_image/imageid*
+ويجب أن يكون طلب الصورة العادية مثل: *http://ip/mygridwebapp/test.aspx/acw_image/imageid*.
 
-لكن طلبك يذهب على النحو التالي: * http: // ip / mygridwebapp / test / acw_image / imageid *
+ولكن يذهب طلبك بهذا الشكل: *http://ip/mygridwebapp/test/acw_image/imageid*.
 
-إذا كنت تستخدم FriendlyUrl ، فأنت بحاجة إلى تصفية طلب عنوان url الخاص بالصورة لـ GridWeb.
+في حال استخدام FriendlyUrl ، يجب عليك تصفية طلب عنوان URL للصورة لـ GridWeb.
 
-وبالتالي يمكن لخادم التحكم في GridWeb الحصول على الطلب وحله والعثور على دفق الصورة من مسار ذاكرة التخزين المؤقت.
+بهذه الطريقة ، يمكن لخادم تحكم GridWeb الحصول على الطلب وحله والعثور على تدفق الصورة من مسار الذاكرة المؤقتة.
 
-على سبيل المثال ، نفترض عنوان url لصفحتك مثل هذا: * http: //ip/mygridwebapp/test.aspx*
+على سبيل المثال ، نفترض أن عنوان URL الخاص بصفحتك كالتالي: *http://ip/mygridwebapp/test.aspx*
 
-ثم الكود أدناه هو حل بديل لإصلاح هذه المشكلة.
+ثم الكود أدناه هو حل مؤقت لإصلاح مثل هذه المشكلة.
 ```csharp
 //write your custom url resolver:MyWebFormsFriendlyUrlResolver
 public class MyWebFormsFriendlyUrlResolver : WebFormsFriendlyUrlResolver

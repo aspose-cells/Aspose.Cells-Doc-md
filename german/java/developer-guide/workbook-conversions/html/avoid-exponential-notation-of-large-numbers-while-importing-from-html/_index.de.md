@@ -1,16 +1,17 @@
-﻿---
-title: Vermeiden Sie beim Importieren von HTML die Exponentialschreibweise großer Zahlen
+---
+title: Verhindern Sie die Exponentialnotation großer Zahlen beim Importieren aus HTML
 type: docs
 weight: 600
 url: /de/java/avoid-exponential-notation-of-large-numbers-while-importing-from/
 ---
+
 {{% alert color="primary" %}} 
 
-Manchmal enthält Ihre HTML Zahlen wie 1234567890123456, die länger als 15 Ziffern sind, und wenn Sie Ihre HTML in eine Excel-Datei importieren, werden diese Zahlen in Exponentialschreibweise wie 1,23457E+15 umgewandelt. Wenn Sie möchten, dass Ihre Zahl unverändert importiert und nicht in Exponentialschreibweise umgewandelt wird, verwenden Sie bitte[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision) Eigenschaft und legen Sie sie fest**wahr** beim Laden Ihrer HTML.
+Manchmal enthält Ihr HTML Zahlen wie 1234567890123456, die länger als 15 Ziffern sind, und wenn Sie Ihr HTML in eine Excel-Datei importieren, werden diese Zahlen in Exponentialnotation wie 1.23457E+15 umgewandelt. Wenn Sie möchten, dass Ihre Zahl so importiert wird, wie sie ist und nicht in Exponentialnotation umgewandelt wird, verwenden Sie bitte die [HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision)-Eigenschaft und setzen Sie sie beim Laden Ihres HTML auf **true**.
 
 {{% /alert %}} 
-## **Vermeiden Sie beim Importieren von HTML die Exponentialschreibweise großer Zahlen**
- Der folgende Beispielcode erläutert die Verwendung von[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision)Eigentum. Die Zahl wird so importiert, wie sie ist, ohne sie in Exponentialschreibweise umzuwandeln.
+## **Verhindern Sie die Exponentialnotation großer Zahlen beim Importieren aus HTML**
+Der folgende Beispielcode erläutert die Verwendung der Eigenschaft [HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision). Es importiert die Zahl so, wie sie ist, ohne sie in Exponentialnotation umzuwandeln.
 
 
 

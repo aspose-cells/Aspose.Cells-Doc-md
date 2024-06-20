@@ -1,20 +1,21 @@
-﻿---
-title: Använd skuggning på alternativa rader och kolumner med villkorlig formatering
+---
+title: Tillämpa skuggning på alternerande rader och kolumner med villkorlig formatering
 type: docs
 weight: 10
 url: /sv/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells API:er ger möjlighet att lägga till och manipulera regler för villkorlig formatering för[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) objekt. Dessa regler kan skräddarsys på ett antal sätt för att få önskad formatering baserat på villkor eller regler. Den här artikeln kommer att demonstrera användningen av Aspose.Cells for Java API för att tillämpa skuggning på alternerande rader och kolumner med hjälp av villkorliga formateringsregler och Excels inbyggda funktioner.
+Aspose.Cells API:er ger möjligheter att lägga till och manipulera villkorlig formateringsregler för [Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) objekt. Dessa regler kan anpassas på olika sätt för att få önskad formatering baserat på villkor eller regler. Denna artikel kommer att visa användningen av Aspose.Cells for Java API för att applicera skuggning på alternerande rader och kolumner med hjälp av villkorlig formatering och Excels inbyggda funktioner.
 
 {{% /alert %}} 
-## **Använd skuggning på alternativa rader och kolumner med villkorlig formatering**
-Den här artikeln använder sig av Excels inbyggda funktioner som ROW, COLUMN & MOD. Här är små detaljer om dessa funktioner för en bättre förståelse av kodavsnittet som tillhandahålls i förväg.
+## **Applicera skuggning på alternerande rader och kolumner med hjälp av villkorlig formatering**
+Denna artikel använder Excels inbyggda funktioner såsom ROW, COLUMN & MOD. Här är lite detaljer om dessa funktioner för en bättre förståelse av kodsnutten som presenteras nedan.
 
-- **RAD()** funktion returnerar radnumret för en cellreferens. Om referensen utelämnas antar den att referensen är den celladress där ROW-funktionen har skrivits in.
-- **KOLUMN()**funktion returnerar kolumnnumret för en cellreferens. Om referensen utelämnas, förutsätter den att referensen är den celladress där funktionen COLUMN har skrivits in.
-- **MOD()** funktion returnerar resten efter att ett tal har dividerats med en divisor, där den första parametern till funktionen är det numeriska värdet vars återstod du vill hitta och den andra parametern är talet som används för att dela in i talparametern. Om divisorn är 0, kommer den att returnera #DIV/0! fel.
+- **ROW()**-funktionen returnerar radnumret för en cellreferens. Om referensen utelämnas antar den att referensen är celladressen där ROW-funktionen har infogats.
+- Funktionen **COLUMN()** returnerar kolumnnumret för en cellreferens. Om referensen utelämnas antar den att referensen är celladressen där COLUMN-funktionen har infogats.
+- **MOD()**-funktionen returnerar resten efter att ett nummer har delats av en divisor, där det första parametern till funktionen är det numeriska värdet vars rest du vill hitta och det andra parametern är det tal som används för att dela in i nummerparametern. Om divisorn är 0 kommer den att returnera felen #DIV/0!.
 
 Låt oss börja skriva lite kod för att uppnå målet med hjälp av Aspose.Cells for Java API.
 
@@ -22,11 +23,11 @@ Låt oss börja skriva lite kod för att uppnå målet med hjälp av Aspose.Cell
 
 
 
-Följande ögonblicksbild visar det resulterande kalkylbladet laddat i Excel-applikationen.
+Följande ögonblicksbild visar det resulterande kalkylarket som är laddat i Excel-applikationen.
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)
 
- För att tillämpa skuggningen på alternativa kolumner behöver du bara ändra formeln**=MOD(RAD();2)=0** som**=MOD(KOLUMN(),2)=0** , det är; istället för att hämta radindexet, ändra formeln för att hämta kolumnindexet.
-Det resulterande kalkylarket, i det här fallet, kommer att se ut som följande bild.
+För att applicera nyanser på alternativa kolumner, behöver du bara ändra formeln **=MOD(RAD(),2)=0** till **=MOD(KOLUMN(),2)=0**, det vill säga; istället för att få radindexet, modifiera formeln för att hämta kolumnindexet. 
+Den resulterande kalkylbladet kommer i detta fall se ut som den följande bilden.
 
 ![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)

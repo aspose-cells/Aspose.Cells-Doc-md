@@ -1,16 +1,17 @@
 ---
-title: Arbeiten mit der Highlight-Funktion von GridJ
+title: Arbeiten mit der GridJs Hervorhebungs Funktion
 type: docs
 weight: 250
 url: /de/net/aspose-cells-gridjs/highlight/
-description: In diesem Artikel wird beschrieben, wie Sie GridJs verwenden, um Zellentext, Zellbereiche, Formen und Bilder hervorzuheben.
-keywords: highlight, highlight spreadsheet,redaction,remarks
+description: Dieser Artikel beschreibt, wie die Hervorhebung von Zellentext, Zellbereichen, Formen und Bildern in GridJs verwendet wird.
+keywords: GridJs, Hervorhebung, Hervorhebungstabelle, Schwärzung, Bemerkungen
 ---
-#  Arbeiten mit der Highlight-Funktion von GridJ
- Wir unterstützen die folgenden JS-APIs für die Hervorhebungsfunktion
+
+# Arbeiten mit der GridJs-Hervorhebungs-Funktion 
+Wir unterstützen die folgenden JS-APIs für die Hervorhebungs-Funktion 
 
 
--  Aktivieren Sie die Hervorhebung und legen Sie den Hervorhebungsstil fest. Alle Hervorhebungs-APIs werden erst wirksam, nachdem der Hervorhebungsstil im aktiven Arbeitsblatt festgelegt wurde
+- Hervorhebung aktivieren und Hervorhebungsstil festlegen, alle Hervorhebungs-APIs werden erst wirksam, nachdem der Hervorhebungsstil im aktiven Arbeitsblatt festgelegt wurde 
 ```javascript
 xs.sheet.showHighlights(style)
  // the parameter is:
@@ -18,7 +19,7 @@ xs.sheet.showHighlights(style)
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
--  Aktualisieren Sie den im aktiven Arbeitsblatt festgelegten Hervorhebungsstil
+-  Aktualisieren Sie den Hervorhebungsstil im aktiven Arbeitsblatt 
 ```javascript
 xs.sheet.updateHighlightStyle(style)
  // the parameter is:
@@ -27,11 +28,11 @@ xs.sheet.updateHighlightStyle(style)
 ```
 
 
--  Deaktivieren Sie die Hervorhebung im aktiven Arbeitsblatt
+-  Deaktivieren Sie die Hervorhebung im aktiven Arbeitsblatt    
 ```javascript
 xs.sheet.hideHighlights()
 ```
--  Fügen Sie Zelltext hinzu, um ihn im aktiven Arbeitsblatt hervorzuheben
+-  Zelltext zur Hervorhebung im aktiven Arbeitsblatt hinzufügen 
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -42,7 +43,7 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
     //it support multiple range postion inside one cell
 ```
 
--  Entfernen Sie die Hervorhebung für Zellentext im Array im aktiven Arbeitsblatt
+-  Hervorhebung für Zelltext in Array im aktiven Arbeitsblatt entfernen 
 ```javascript
 xs.sheet.removeHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -52,12 +53,12 @@ xs.sheet.removeHighlightText(row,col,startpostion,endposition)
 	endpostion: highlight end postion in cell text 
 ```
 
-- Rufen Sie ein Array zur Hervorhebung des Zellentexts im aktiven Arbeitsblatt ab
+-  Array für Hervorhebung von Zelltext im aktiven Arbeitsblatt abrufen   
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
--  Fügen Sie den Zellbereich hinzu, um ihn im aktiven Arbeitsblatt hervorzuheben
+-  Zellbereich zur Hervorhebung im aktiven Arbeitsblatt hinzufügen 
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
@@ -67,7 +68,7 @@ xs.sheet.addHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Entfernen Sie die Hervorhebung des Zellbereichs im Array im aktiven Arbeitsblatt
+-  Hervorhebung für Zellbereich in Array im aktiven Arbeitsblatt entfernen 
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
@@ -77,12 +78,12 @@ xs.sheet.removeHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Rufen Sie das Array zur Hervorhebung des Zellbereichs im aktiven Arbeitsblatt ab
+-  Array für Hervorhebung von Zellbereichen im aktiven Arbeitsblatt abrufen   
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
--  Stellen Sie den Zellbereich so ein, dass die Hervorhebung im aktiven Arbeitsblatt umgekehrt wird
+-  Zellbereich für inverses Hervorheben im aktiven Arbeitsblatt festlegen 
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
@@ -92,38 +93,38 @@ xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Entfernen Sie die Hervorhebung, um die Hervorhebung im aktiven Arbeitsblatt umzukehren
+-  Hervorhebung für inverses Hervorheben im aktiven Arbeitsblatt entfernen 
 ```javascript
 xs.sheet.removeHighlightInverseRange()
-     
+
 ```
 
--  Holen Sie sich den inversen Hervorhebungszellenbereich im aktiven Arbeitsblatt
+-  Inverse Hervorhebung für Zellbereich im aktiven Arbeitsblatt abrufen 
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
--  Fügen Sie eine Form hinzu, um das Array im aktiven Arbeitsblatt hervorzuheben
+-  Form zur Hervorhebung im Array im aktiven Arbeitsblatt hinzufügen 
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Hervorhebungsform im Array im aktiven Arbeitsblatt entfernen
+-  Hervorhebungsform im Array im aktiven Arbeitsblatt entfernen 
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Rufen Sie das Array für die Hervorhebungsform im aktiven Arbeitsblatt ab
+-  Array für Hervorhebungsform im aktiven Arbeitsblatt abrufen  
 ```javascript
 xs.sheet.getHighlightShaps()
 ```
 
--  Fügen Sie ein Textfeld zur Hervorhebung hinzu. Das Textfeld ist eine spezielle Art von Form, deren Typeigenschaft „TextBox“ im aktiven Arbeitsblatt ist
+-  Textfeld zur Hervorhebung im Textfeld hinzufügen, das ein spezieller Typ Formular ist und dessen Typ-Eigenschaft: "TextBox", im aktiven Arbeitsblatt 
 ```javascript
 xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -134,7 +135,7 @@ xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
 ```
 
 
--  Entfernen Sie den Hervorhebungsbereich im Textfeld. Das Textfeld ist eine spezielle Art von Form, deren Typeigenschaft im aktiven Arbeitsblatt „TextBox“ lautet
+-  Hervorhebungsbereich im Textfeld entfernen, das ein spezieller Typ Formular ist und dessen Typ-Eigenschaft: "TextBox", im aktiven Arbeitsblatt 
 ```javascript
 xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -144,26 +145,26 @@ xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     //it support multiple range postion inside one textbox
 ```
 
--  Fügen Sie ein Bild hinzu, um das Array im aktiven Arbeitsblatt hervorzuheben
+-  Bild zum Hervorhebungsarray im aktiven Arbeitsblatt hinzufügen 
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
-- Hervorhebungsbild im Array im aktiven Arbeitsblatt entfernen
+-  Hervorhebungsbild im Array im aktiven Arbeitsblatt entfernen 
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--  Array für Hervorhebungsbild abrufen
+-  Array für Hervorhebungsbild im aktiven Arbeitsblatt abrufen  
 ```javascript
 xs.sheet.getHighlightImages()
 ```
 
--  Legen Sie fest, ob alle Objekte im aktiven Arbeitsblatt, einschließlich aller Formen und Bilder sowie des gesamten Arbeitsblattbereichs, hervorgehoben werden sollen
+- Legen Sie fest, ob alle Objekte im aktiven Arbeitsblatt markiert werden sollen, einschließlich aller Formen und Bilder sowie des gesamten Arbeitsblattbereichs.
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -172,7 +173,7 @@ xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
 ```
 
 
--  Stellen Sie eine benutzerdefinierte Bildhervorhebungsfunktion ein
+- Funktion zum Festlegen eines benutzerdefinierten Bild-Highlights
 ```javascript
 xs.sheet.setCustomHighlightImgFunc(func)
    // the parameters are:
@@ -183,18 +184,18 @@ xs.sheet.setCustomHighlightImgFunc(func)
             imgobj.filters[0] = ishighlight ? new fabric.Image.filters.Sepia() : false;
             imgobj.applyFilters();
         }
-    
+
 ```
 
--  klare Hervorhebungseinstellung für das aktive Arbeitsblatt
+- Löschen Sie die Markierungseinstellung für das aktive Arbeitsblatt.
 ```javascript
 xs.sheet.clearHighlights()
 
 ```
 
-###  Hervorhebung für Textfeldobjekt
-Textbox ist eine besondere Art von Form, deren Typeigenschaft „TextBox“ lautet.
-Beispiel: Der folgende Code zeigt, welche Form ein Textfeld ist
+### Highlight für Textfeldobjekt
+Textfeld ist eine spezielle Art von Form, dessen Typ-Eigenschaft ist: "TextBox"
+zum Beispiel: Der nachstehende Code zeigt, welche Form ein Textfeld ist
 
 ```javascript
 for (let shape of xs.sheet.data.shapes) {
@@ -203,7 +204,7 @@ for (let shape of xs.sheet.data.shapes) {
     }
 }
 ```
--  Hervorhebung für Textfeldobjekt hinzufügen
+- Highlight für Textfeldobjekt hinzufügen
 ```javascript
     addHighlight(startpostion,endposition)
     // the parameters are:
@@ -218,7 +219,7 @@ const textbox=xs.sheet.data.shapes[0];
  textbox.addHighlight(18,28);
 ```
 
--  Hervorhebung für Textfeldobjekt entfernen
+- Highlight für Textfeldobjekt entfernen 
 ```javascript
     removeHighlight(startpostion,endposition)
     // the parameters are:
@@ -229,7 +230,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.removeHighlight(5,10);
 ```
 
--  Hervorhebung für Textfeldobjekt abrufen
+- Highlight für Textfeldobjekt abrufen 
 ```javascript
     getHighlight()
     //for example,we assume shape 0 is a textbox object
@@ -237,29 +238,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.getHighlight();
 ```
 
--  Hintergrundfarbe für Textfeldobjekt ändern
-```javascript
-    setBackgroundColor(color)
-    // the parameters are:
-        color: the html color value in hex string value
-    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
-     const textbox=xs.sheet.data.shapes[0];
-     textbox.setBackgroundColor('#FFFF00');
-```
--  Ändern Sie automatisch die Hintergrund- und Textfarbe, um einen visuell aktiven Effekt zu erzielen
-```javascript
-    setActiveEffect(boolvalue)
-    // the parameters are:
-        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
-```
-
--  Blendet den Textinhalt im Textfeldobjekt ein/aus
-```javascript
-    hideText(boolvalue)
-    // the parameters are:
-        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
-```
 
 
 
-Weitere Informationen finden Sie auf unserer Github-Demoseite https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+Weitere Informationen finden Sie auf unserer Github-Demo-Seite https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

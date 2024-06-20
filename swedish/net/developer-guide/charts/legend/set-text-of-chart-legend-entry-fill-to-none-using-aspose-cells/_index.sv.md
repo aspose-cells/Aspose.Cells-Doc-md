@@ -1,20 +1,21 @@
 ---
-title: Ställ in texten i diagramförklaringsinmatningen till ingen med Aspose.Cells
-description: Lär dig hur du använder Aspose.Cells for .NET för att ställa in texten i en diagramförklaringsinmatning till ingen. Vår guide kommer att visa hur man ändrar fyllningsfärgen för förklaringsposter i Microsoft Excel-diagram för bättre visualisering och anpassning.
-keywords: Aspose.Cells for .NET, Chart Legend Entry Fill, Microsoft Excel, Visualization, Customization.
+title: Ställ in text för diagrammets legendpostfyllnad till none med hjälp av Aspose.Cells
+description: Lär dig hur du använder Aspose.Cells for .NET för att ställa in texten för en diagrammets legendpostfyllnad till none. Vår guide kommer att visa hur man modifierar fyllfärgen för legendposter i Microsoft Excel diagram för bättre visualisering och anpassning.
+keywords: Aspose.Cells for .NET, Diagrammets legendpostfyllnad, Microsoft Excel, Visualisering, Anpassning.
 type: docs
 weight: 320
 url: /sv/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Om du vill ställa in texten i diagrammets förklaringspost fyll till ingen så att den inte ska visas i diagramförklaringen, ställ in[**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) till *sant**.
+Om du vill ställa in texten för diagrammets legendpostfyllnad till none så att den inte ska visas i diagrammets legend, ställ in [**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) till **true**.
 
 {{% /alert %}}
 
-Följande exempelkod ställer in texten i diagrammets andra förklaringspostfyllning till ingen. Vänligen ladda ner[exempel på excel-fil](5115219.xlsx) används i den här koden och[output excel-fil](5115217.xlsx) genereras av den för din referens.
+Följande exempelkod ställer in texten för diagrammets andra legendpostfyllnad till none. Vänligen ladda ner den [exempelfil för Excel](5115219.xlsx) som används i denna kod och den [utfärdade Excelfilen](5115217.xlsx) som genererats av den som referens.
 
-Följande skärmdump belyser effekten av denna kod på[exempel på excel-fil](5115219.xlsx).
+Följande skärmdump belyser effekten av denna kod på [exempelfilen för Excel](5115219.xlsx).
 
 ![todo:image_alt_text](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 

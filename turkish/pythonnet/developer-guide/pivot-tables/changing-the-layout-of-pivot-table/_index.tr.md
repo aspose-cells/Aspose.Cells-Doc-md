@@ -1,23 +1,24 @@
 ---
-title: Pivot Tablonun Düzenini Değiştirme
+title: Pivot Tablosu Yerleşimini Değiştirme
 type: docs
 weight: 10
 url: /tr/python-net/changing-the-layout-of-pivot-table/
-description: Aspose.Cells for Python via .NET ile Pivot Tablonun Düzeni nasıl değiştirilir?
-keywords: Change the Layout of Pivot Table.
+description: Aspose.Cells for Python via .NET ile Pivot Tablosunun Düzenini Nasıl Değiştirilir.
+keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, Aspose.Cells for Python Excel Kütüphanesi Kullanarak Pivot Tablosunun Düzenini Değiştirme.
 ---
-{{% alert color="primary" %}}
 
- Microsoft Excel, Pivot Tablonun Düzenini aşağıdakileri kullanarak değiştirmenize olanak sağlar:*PivotTable Araçları > Tasarım > Rapor Düzeni* menü komutları. Düzeni bu üç formda değiştirebilirsiniz
+## **MS-Excel'de Pivot Tablosunun Düzenini Değiştirme**
+Microsoft Excel, *PivotTable Araçları > Tasarım > Rapor Düzeni* menü komutlarını kullanarak Pivot Tablosu Yerleşimini değiştirmenize izin verir. Yerleşimi bu üç biçimde değiştirebilirsiniz
 
 - Kompakt Formda Göster
-- Anahat Formunda Göster
-- Tablo Şeklinde Göster
+- Açıklamalı Formda Göster
+- Tablo Formunda Göster
 
- Aspose.Cells ayrıca şunları sağlar[**PivotTable.show_in_compact_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_compact_form/#), [**PivotTable.show_in_outline_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_outline_form/#) Ve[**PivotTable.show_in_tabular_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_tabular_form/#) Bu üç formdaki pivot tablonun düzenini değiştirme yöntemleri.
+## **Aspose.Cells for Python Excel Kütüphanesi Kullanarak Pivot Tablosunun Düzenini Değiştirme**
+Aspose.Cells for Python excel kütüphanesi ayrıca bu üç biçimde pivot tablosunun düzenini değiştirmek için [**PivotTable.show_in_compact_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_compact_form/#), [**PivotTable.show_in_outline_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_outline_form/#) ve [**PivotTable.show_in_tabular_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_tabular_form/#) yöntemlerini sağlar.
 
-{{% /alert %}}
 
- Aşağıdaki örnek kod ilk olarak Pivot Tabloyu gösterir.**Kompakt Form**, Pivot Tabloyu **Anahat Formunda gösterir** ve son olarak Pivot Tabloyu *Tablo Formunda** gösterir.
+## **Örnek Kod**
+Aşağıdaki örnek kod önce Pivot Tablosunu **Kompakt Formda** gösterir, ardından Pivot Tablosunu **Açıklamalı Formda** gösterir ve son olarak Pivot Tablosunu **Tablo Formunda** gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}

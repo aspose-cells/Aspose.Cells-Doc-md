@@ -1,15 +1,16 @@
-﻿---
-title: Créer des graphiques en utilisant Apache POI et Aspose.Cells
+---
+title: Créer des graphiques à l aide d Apache POI et Aspose.Cells
 type: docs
 weight: 50
 url: /fr/java/create-charts-using-apache-poi-and-aspose-cells/
 ---
+
 ## **Aspose.Cells - Créer des graphiques**
-Il est possible d'ajouter une variété de graphiques aux feuilles de calcul avec Aspose.Cells. Aspose.Cells fournit de nombreux objets graphiques flexibles.
+Il est possible d'ajouter une variété de graphiques aux feuilles de calcul avec Aspose.Cells. Aspose.Cells fournit de nombreux objets de diagrammes flexibles.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -77,7 +78,7 @@ series.setType(ChartType.LINE);
 ## **Apache POI SS (HSSF + XSSF) - Créer des graphiques**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();
 
@@ -141,17 +142,17 @@ data.addSeries(xs, ys2);
 chart.plot(data, bottomAxis, leftAxis);
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger des exemples d'exécution pour**Créer des graphiques en utilisant Apache POI et Aspose.Cells** à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Télécharger des exemples en cours d'exécution pour **Créer des graphiques en utilisant Apache POI et Aspose.Cells** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **Télécharger le code source**
- Télécharger le code source pour**Créer des graphiques en utilisant Apache POI et Aspose.Cells** à partir de l'un des sites de codage social mentionnés ci-dessous :
+Télécharger le code source pour **Créer des graphiques en utilisant Apache POI et Aspose.Cells** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Création de graphiques personnalisés](/cells/fr/java/creating-and-customizing-charts/).
+Pour plus de détails, visitez [Créer des graphiques personnalisés](/cells/fr/java/creating-and-customizing-charts/).
 
 {{% /alert %}}

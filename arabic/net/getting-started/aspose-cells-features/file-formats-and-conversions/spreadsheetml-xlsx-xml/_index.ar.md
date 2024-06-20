@@ -1,42 +1,43 @@
-﻿---
-title: SpreadsheetML-XLSX ، XML
+---
+title: SpreadsheetML - XLSX, XML
 type: docs
 weight: 10
 url: /ar/net/spreadsheetml-xlsx-xml/
 ---
-## **حول SpreadsheetML**
-SpreadsheetML هو اسم لمجموعة من التنسيقات المبنية على XML لوثائق جداول البيانات. هناك عدة إصدارات من SpreadsheetML:
 
-1. تم تقديم إصدار SpreadsheetML 2003 في Microsoft Word 2003. كان SpreadsheetML خطوة مهمة بحلول Microsoft نحو فتح تنسيق المستند.
-1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) هو التنسيق الجديد المستند إلى XML والذي تم تقديمه في تطبيقات Office 2007 Microsoft. Office Open XML هو تنسيق حاوية للعديد من لغات الترميز القائمة على XML. SpreadsheetML version 2007 هي لغة الترميز المستخدمة بواسطة Microsoft Office Excel 2007 لتخزين مستنداته.
-1. Microsoft يقوم Excel 2010 بتخزين المستندات في SpreadsheetML الإصدار 2010 كما هو محدد في معيار OOXML المحدث.
+## **حول ملف تعريف جدول البيانات**
+SpreadsheetML هو اسم لعائلة من تنسيقات الوثائق الإلكترونية المعتمدة على XML. هناك عدة إصدارات من SpreadsheetML:
+
+1. تم تقديم نسخة SpreadsheetML 2003 في Microsoft Word 2003. كانت SpreadsheetML خطوة مهمة من قبل Microsoft نحو جعل تنسيق الوثيقة مفتوحًا.
+1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) هو التنسيق الجديد القائم على XML الذي تم تقديمه في تطبيقات Microsoft Office 2007. Office Open XML هو تنسيق حاوية لعدة لغات ترميز قائمة على XML مخصصة. إن تنسيق SpreadsheetML الإصدار 2007 هو لغة العلامات التي تستخدمها Microsoft Office Excel 2007 لتخزين وثائقها.
+1. يخزن Microsoft Excel 2010 الوثائق في إصدار SpreadsheetML 2010 كما هو محدد في المعيار المحدث لـ OOXML.
 ## **SpreadsheetML في Aspose.Cells**
-تتوفر ثلاث "إصدارات" من SpreadsheetML:
+هناك ثلاث "إصدارات" من SpreadsheetML المتاحة:
 
-|**SpreadsheetML “نسخة”**|**المعيار / المواصفات المعمول بها**|**معتمد في Aspose.Cells for .NET**|
-|:- |:- |:- |
-|Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|نعم|
+|**"إصدار" SpreadsheetML**|**المواصفة/المعيار القابلة للتطبيق**|**المدعومة في Aspose.Cells for .NET**|
+| :- | :- | :- |
+|Microsoft Excel 2003|[XML Microsoft Excel 2003](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|نعم|
 |Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|نعم|
-|Microsoft Excel 2010|OOXML ISO / IEC DIS 29500|نعم|
-|Microsoft Excel 2013|OOXML ISO / IEC DIS 29500|نعم|
-غالبًا ما تأتي مستندات OOXML SpreadsheetML كملفات XLSX ، وهي عبارة عن حزم ZIP. بالإضافة إلى XLSX. يوفر Aspose.Cells دعمًا شاملاً لتحميل وحفظ وتحويل مستندات SpreadsheetML. مثل هذا التنفيذ الشامل ممكن لأن Aspose.Cells تم تصميمه مع وضع بنية Microsoft في الاعتبار لمستندات Excel (ومن المعروف أن SpreadsheetML يحاكي التمثيل الداخلي لوثائق Excel Microsoft).
-### **OOXML مفتوح ، لماذا استخدم Aspose.Cells؟**
-صحيح أن تقنية Office Open XML تجعل من الممكن إنشاء معالجة المستندات وإنشاء التطبيقات باستخدام فئات XML فقط دون الاعتماد على مكتبات الطرف الثالث مثل Aspose.Cells. ومع ذلك ، فإننا نعتقد بشدة أنه لا يزال من المفيد جدًا استخدام Aspose.Cells عندما يكون لديك للتعامل مع مستندات OOXML ، بدلاً من العمل من خلال XML أو المكتبات الأخرى.
+|Microsoft Excel 2010|OOXML ISO/IEC DIS 29500|نعم|
+|Microsoft Excel 2013|OOXML ISO/IEC DIS 29500|نعم|
+تأتي وثائق OOXML SpreadsheetML في معظم الأحيان كملفات XLSX، والتي هي حزم ZIP. بالإضافة إلى XLSX، يوفر Aspose.Cells دعمًا شاملاً لتحميل وحفظ وتحويل وثائق SpreadsheetML. هذا التنفيذ الشامل ممكن لأن Aspose.Cells تم تصميمها مع هيكل وثائق Microsoft Excel في الاعتبار (ويُعرف أن SpreadsheetML يحاكي التمثيل الداخلي لوثائق Microsoft Excel).
+### **OOXML مفتوح، لماذا استخدام Aspose.Cells؟**
+من الصحيح أن تكنولوجيا Office Open XML تجعل من الممكن بناء تطبيقات معالجة الوثائق وإنشائها باستخدام فئات XML فقط دون الاعتماد على مكتبات الأطراف الثالثة مثل Aspose.Cells. ومع ذلك، نعتقد بشدة أنه من المفيد للغاية استخدام Aspose.Cells عندما يتعين عليك التعامل مع وثائق OOXML، بدلاً من العمل من خلال XML أو مكتبات أخرى.
 
-يبلغ طول مواصفات OOXML عدة آلاف من الصفحات. أن تكون منفتحًا ومعيارًا لا يعني أن تكون بسيطًا. لمعالجة أو إنشاء مستندات OOXML بشكل صحيح ، يجب على المرء الاستثمار في تعلم التنسيق جيدًا.
+مواصفة OOXML تحتوي على عدة آلاف من الصفحات. كونها مفتوحة ومعيارية لا يعني أن تكون بسيطة. لكي يتم معالجة أو إنشاء وثائق OOXML بشكل صحيح، يجب على الشخص الاستثمار في تعلم التنسيق جيدًا.
 
-بالإضافة إلى تسهيل معالجة المستندات الصالحة وإنشاءها بشكل صحيح ، يوفر Aspose.Cells الميزات المهمة التالية التي لن تكون لديك عند العمل مع ملفات OOXML مباشرةً عبر XML أو مكتبات أخرى تابعة لجهات خارجية:
+بالإضافة إلى جعلها أسهل في معالجة وإنشاء وثائق صحيحة، يوفر Aspose.Cells الميزات الهامة التالية التي لن تكون متاحة عند العمل مع ملفات OOXML مباشرة عبر XML أو مكتبات الأطراف الثالثة الأخرى:
 
-- تحويلات الجودة بين العديد من تنسيقات Excel الشائعة ، بما في ذلك التحويل إلى PDF و HTML و TIFF والطباعة.
-- القدرة على إنشاء مستندات من أجزاء ، من مستند واحد أو عدة مستندات ، مع دمج البيانات تلقائيًا عن طريق التنسيق الأسلوبي والمخططات والرسومات.
-- وظائف عالية المستوى ، مثل استيراد البيانات من مصادر بيانات مختلفة بما في ذلك Array و ArrayList و DataTable و DataColumn و DataGrid و DataView و DataReader أو تصدير البيانات لملء DataTable أو صفيف بسطر واحد فقط من التعليمات البرمجية.
-- محرك حساب الصيغة القوي الذي يدعم تقريبًا جميع وظائف Excel القياسية والمتقدمة Microsoft.
+- تحويلات بجودة عالية بين العديد من تنسيقات Excel الشهيرة، بما في ذلك التحويل إلى PDF، HTML، TIFF والطباعة.
+- القدرة على بناء وثائق من شظايا، من وثيقة واحدة أو متعددة، مع دمج البيانات تلقائيًا من خلال التنسيق الأنيق، والرسوم البيانية والرسومات.
+- وظائف عالية المستوى، مثل استيراد البيانات من مصادر بيانات مختلفة بما في ذلك مصفوفة، ArrayList، DataTable، DataColumn، DataGrid، DataView و DataReader أو تصدير البيانات لملء DataTable أو مصفوفة بسطر واحد من الكود.
+- محرك حساب الصيغ القوي الذي يدعم معظم وظائف Microsoft Excel القياسية والمتقدمة تقريبًا.
 
-تأمل المثال التالي. تحتوي بعض الخلايا على النص "Hello World" بخط غامق. تخيل الآن أنك بحاجة إلى كتابة برنامج يبحث عن جميع العبارات "Hello World" في ورقة العمل ويستبدلها بـ "Goodbye Earth".
+اعتبر المثال التالي. بعض الخلايا تحتوي على نص "مرحباً بالعالم" بخط عريض. الآن تخيل أنك بحاجة إلى كتابة برنامج يبحث عن جميع عبارات "مرحباً بالعالم" في ورق العمل ويستبدلها بـ"وداعًا أرضًا".
 ### **جزء من مستند Office Open XML**
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
@@ -169,4 +170,4 @@ SpreadsheetML هو اسم لمجموعة من التنسيقات المبنية 
 {{< /highlight >}}
 
 
-يعد تنفيذ عملية بحث واستبدال بسيطة في مستند Office Open XML أمرًا صعبًا. نصيحتنا: تذكر أن الانفتاح والمعيار لا يعني البساطة ، واستخدم Aspose.Cells.
+تنفيذ عملية البحث والاستبدال حتى في مستند Office Open XML صعب. نصيحتنا: تذكّر أن الانفتاح والتوحيد لا يعنيان البساطة، واستخدام Aspose.Cells.

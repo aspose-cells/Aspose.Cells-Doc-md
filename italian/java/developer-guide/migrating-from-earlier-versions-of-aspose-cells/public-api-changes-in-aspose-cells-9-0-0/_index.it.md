@@ -1,23 +1,24 @@
-﻿---
-title: Pubblico API Modifiche in Aspose.Cells 9.0.0
+---
+title: Modifiche dell API pubblica in Aspose.Cells 9.0.0
 type: docs
 weight: 340
 url: /it/java/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.9.2 alla 9.0.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API di Aspose.Cells dalla versione 8.9.2 a 9.0.0 che potrebbero interessare agli sviluppatori di moduli/applicazioni. Include non solo nuovi metodi pubblici aggiornati, classi aggiunte e rimosse, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
-### **Proprietà Shape.TextOptions aggiunta**
-Aspose.Cells for Java ha esposto la proprietà TextOptions per la classe Shape per controllare l'aspetto delle parti testuali di una Shape.
+### **Aggiunta proprietà Shape.TextOptions**
+Aspose.Cells for Java ha esposto la proprietà TextOptions per la classe Shape al fine di controllare l'aspetto delle parti testuali di una Forma.
 
 Ecco un semplice scenario di utilizzo della proprietà Shape.TextOptions.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize an instance of Workbook
 
@@ -48,44 +49,44 @@ textbox.getTextOptions().setItalic(true);
 textbox.getTextOptions().setBold(true);
 
 {{< /highlight >}}
-### **Proprietà ChartPoint.IsInSecondaryPlot aggiunta**
-Aspose.Cells for Java ha esposto la proprietà ChartPoint.IsInSecondaryPlot che può essere utilizzata per rilevare se un ChartPoint si trova su un grafico secondario di un grafico a torta oa barre.
+### **Aggiunta proprietà ChartPoint.IsInSecondaryPlot**
+Aspose.Cells for Java ha esposto la proprietà ChartPoint.IsInSecondaryPlot che può essere utilizzata per rilevare se un ChartPoint risiede su un secondo tracciato di un grafico a torta o a barre.
 
-Ecco un semplice scenario di utilizzo della proprietà Shape.Line.
+Ecco un semplice scenario d'uso della proprietà Shape.Line.
 
 {{% alert color="primary" %}} 
 
- Controlla l'articolo dettagliato su[La ricerca di un punto dati risiede nel secondo grafico](/cells/it/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
+Consultare l'articolo dettagliato su [Individuare se un punto dati risiede nel secondo tracciato](/cells/it/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Carica un foglio di calcolo esistente contenente un grafico a torta
+ //Load an existing spreadsheet containing a Pie chart
 
-Libro della cartella di lavoro = nuova cartella di lavoro (dir + "PieBar.xlsx");
+Workbook book = new Workbook(dir + "PieBar.xlsx");
 
-//Carica il foglio di lavoro all'indice 0
+//Load the Worksheet at 0 index
 
-Foglio di lavoro = book.getWorksheets().get(0);
+Worksheet sheet = book.getWorksheets().get(0);
 
-//Carica il primo grafico dalla raccolta
+//Load the first chart from the collection
 
-Grafico chart = sheet.getCharts().get(0);
+Chart chart = sheet.getCharts().get(0);
 
-//Calcola il grafico prima di accedere alle sue proprietà
+//Calculate the chart before accessing its properties
 
-grafico.calcola();
+chart.calculate();
 
-//Accesso alla prima serie del grafico
+//Accessing chart's first series
 
-Serie serie = chart.getNSeries().get(0);
+Series series = chart.getNSeries().get(0);
 
-//Ripeti la collezione ChartPoint
+//Loop over the ChartPoint collection
 
- for(int p = 0 ; p< series.getPoints().getCount(); p++)
+for(int p = 0 ; p < series.getPoints().getCount(); p++)
 
 {
 
@@ -100,20 +101,20 @@ Serie serie = chart.getNSeries().get(0);
 }
 
 {{< /highlight >}}
-### **Aggiunta proprietà OleObject.ClassIdentifier**
-Aspose.Cells for Java 9.0.0 ha esposto la proprietà OleObject.ClassIdentifier che può essere utilizzata per specificare il comportamento dell'applicazione per caricare un OleObject. Ad esempio, un file PPT può essere incorporato in un foglio di calcolo con 2 viste diverse, ovvero; vista presentazione o vista diapositiva, mentre entrambe le viste hanno valori di identificatore di classe diversi.
+### **Aggiunta la proprietà OleObject.ClassIdentifier.**
+Aspose.Cells for Java 9.0.0 ha esposto la proprietà OleObject.ClassIdentifier che può essere utilizzata per specificare il comportamento dell'applicazione per caricare un OleObject. Ad esempio, un file PPT può essere incorporato in un foglio di calcolo con 2 visualizzazioni diverse, ovvero; visualizzazione di presentazione o visualizzazione di diapositiva, mentre entrambe le visualizzazioni hanno valori di identificatore di classe diversi.
 
-Di seguito è riportato il semplice scenario di utilizzo della proprietà OleObject.ClassIdentifier.
+Ecco il semplice scenario d'uso della proprietà OleObject.ClassIdentifier.
 
 {{% alert color="primary" %}} 
 
- Controlla l'articolo dettagliato su[Utilizzo di OleObject.ClassIdentifier](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+Consultare l'articolo dettagliato su [Utilizzo di OleObject.ClassIdentifier](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet containing a presentation as OleObject
 
@@ -129,13 +130,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 String progID = "";
 
@@ -145,7 +146,7 @@ String sourceFullName = "";
 
 Boolean isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 //Get the first worksheet from the collection
 
@@ -226,24 +227,24 @@ if (classId != null)
 }
 
 {{< /highlight >}}
-## **API obsolete**
+## **API deprecate**
 ### **Metodo Worksheet.setBackground obsoleto**
-Utilizzare invece la proprietà Worksheet.BackgroundImage.
-### **Proprietà LineShape.BeginArrowheadStyle e ArcShape.BeginArrowheadStyle obsolete**
-Utilizzare la proprietà Shape.Line.BeginArrowheadStyle come alternativa.
-### **Proprietà LineShape.EndArrowheadStyle e ArcShape.EndArrowheadStyle obsolete**
-Utilizzare la proprietà Shape.Line.EndArrowheadStyle come alternativa.
-### **Proprietà LineShape.BeginArrowheadWidth e ArcShape.BeginArrowheadWidth obsolete**
-Utilizzare la proprietà Shape.Line.BeginArrowheadWidth come alternativa.
-### **Proprietà LineShape.BeginArrowheadLength e ArcShape.BeginArrowheadLength obsolete**
-Utilizzare invece la proprietà Shape.Line.BeginArrowheadLength.
-### **Proprietà LineShape.EndArrowheadWidth e ArcShape.EndArrowheadWidth obsolete**
-Utilizzare invece la proprietà Shape.Line.EndArrowheadWidth.
-### **Proprietà LineShape.EndArrowheadLength e ArcShape.EndArrowheadLength obsolete**
-Utilizzare invece la proprietà Shape.Line.EndArrowheadLength.
+Si prega di utilizzare invece la proprietà Worksheet.BackgroundImage.
+### **Proprietà LineShape.BeginArrowheadStyle & ArcShape.BeginArrowheadStyle rese obsolete**
+Si prega di utilizzare la proprietà Shape.Line.BeginArrowheadStyle come alternativa.
+### **Proprietà LineShape.EndArrowheadStyle & ArcShape.EndArrowheadStyle rese obsolete**
+Si prega di utilizzare la proprietà Shape.Line.EndArrowheadStyle come alternativa.
+### **Proprietà LineShape.BeginArrowheadWidth & ArcShape.BeginArrowheadWidth rese obsolete**
+Si prega di utilizzare la proprietà Shape.Line.BeginArrowheadWidth come alternativa.
+### **Proprietà LineShape.BeginArrowheadLength & ArcShape.BeginArrowheadLength rese obsolete**
+Si prega di utilizzare la proprietà Shape.Line.BeginArrowheadLength invece.
+### **Proprietà LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth rese obsolete**
+Si prega di utilizzare la proprietà Shape.Line.EndArrowheadWidth invece.
+### **Proprietà Obsoleta LineShape.EndArrowheadLength & ArcShape.EndArrowheadLength**
+Si prega di utilizzare la proprietà Shape.Line.EndArrowheadLength.
 ## **API eliminate**
 ### **Metodo Worksheet.copyConditionalFormatting eliminato**
 ### **Metodo Workbook.checkWriteProtectedPassword eliminato**
-## **API rinominate**
-### **Metodo Workbook.removeDigitallySign rinominato**
+## **API Rinominate**
+### **Il Metodo Workbook.removeDigitallySign è stato Rinominato**
 Il metodo Workbook.removeDigitallySign è stato rinominato in Workbook.removeDigitalSignature.

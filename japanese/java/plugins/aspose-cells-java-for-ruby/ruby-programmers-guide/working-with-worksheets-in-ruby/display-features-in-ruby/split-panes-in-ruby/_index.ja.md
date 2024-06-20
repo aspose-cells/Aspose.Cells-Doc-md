@@ -1,15 +1,16 @@
-﻿---
-title: Ruby でペインを分割する
+---
+title: Rubyで分割ウィンドウ
 type: docs
 weight: 80
 url: /ja/java/split-panes-in-ruby/
 ---
-## **Aspose.Cells - ペインの分割**
-を使用してペインを分割するには**Aspose.Cells Ruby の場合は Java**、単に呼び出す**SplitPanes**モジュール。
 
-**ルビーコード**
+## **Aspose.Cells - 分割ウィンドウ**
+Aspose.Cells Java for Rubyを使用して、**SplitPanes**モジュールを単純に呼び出して分割ウィンドウを設定します。
 
-{{< highlight "ruby" >}}
+**Ruby Code**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -32,7 +33,7 @@ workbook.save(data_dir + "SplitPanes output.xls")
 puts "Panes split successfully."
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**分割ペイン (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**Split Panes (Aspose.Cells)** をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/splitpanes.rb)

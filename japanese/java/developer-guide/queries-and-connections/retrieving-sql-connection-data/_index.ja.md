@@ -1,28 +1,29 @@
-﻿---
-title: SQL 接続データの取得
+---
+title: SQL接続データの取得
 type: docs
 weight: 20
 url: /ja/java/retrieving-sql-connection-data/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells は、SQL 接続データの取得に役立ちます。これには、SQL サーバーへの接続に必要なすべてのデータが含まれます。**サーバー URL**, **ユーザー名**, **テーブル名**, **完全な SQL クエリ**, **クエリの種類**, **テーブルの場所**、 と**名前付き範囲の名前**それに関連付けられています。
+Aspose.Cellsを使用して、SQL接続データを取得できます。これには、SQLサーバーに接続するために必要なすべてのデータが含まれます。たとえば、**サーバーのURL**、**ユーザー名**、**テーブル名**、**完全なSQLクエリ**、**クエリタイプ**、**テーブルの場所**、それに関連付けられた**名前付き範囲の名前**などです。
 
 {{% /alert %}} 
 
-Microsoft Excel で、次の方法でデータベースに接続します。
+Microsoft Excelでは、データベースに接続するには:
 
-1. をクリックすると**データ**メニューと選択**他の情報源から**に続く**SQL Server から**.
-1. 次に選択します**データ**に続く**接続**.
-1. 接続ウィザードを使用してデータベースに接続し、データベース クエリを作成します。
+1. **データ**メニューをクリックし、**その他のソース**、その後 **SQL Server** を選択します。
+1. 次に、**データ**、その後 **Connections** を選択します。
+1. Connectionsウィザードを使用してデータベースに接続し、データベースクエリを作成します。
 
-**Microsoft Excel での SQL 接続オプションの表示** 
+**Microsoft ExcelでのSQL接続オプションの表示** 
 
-![todo:画像_代替_文章](retrieving-sql-connection-data_1.png)
+![todo:image_alt_text](retrieving-sql-connection-data_1.png)
 
-Aspose.Cells は、外部接続を取得するための Workbook.getDataConnections() メソッドを提供します。ブック内の ExternalConnection オブジェクトのコレクションを返します。
+Aspose.Cellsは、Workbook.getDataConnections()メソッドを使用して外部接続の取得を行います。これは、ワークブック内のExternalConnectionオブジェクトのコレクションを返します。
 
-ExternalConnection オブジェクトに SQL 接続データが含まれている場合、データベース コマンド、コマンド タイプ、接続の説明、接続情報、資格情報などを取得するために使用されるプロパティを DBConnection オブジェクトに型キャストできます。
+ExternalConnectionオブジェクトにSQL接続データが含まれている場合、DBConnectionオブジェクトに型変換し、そのプロパティを使用してデータベースのコマンド、コマンドタイプ、接続の説明、接続情報、資格情報などを取得することができます。
 
 
 

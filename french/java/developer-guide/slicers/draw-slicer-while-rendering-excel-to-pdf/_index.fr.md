@@ -1,14 +1,15 @@
-﻿---
-title: Dessinez Slicer tout en rendant Excel à PDF
+---
+title: Dessiner une trancheuse lors du rendu d Excel en PDF
 type: docs
 weight: 60
 url: /fr/java/draw-slicer-while-rendering-excel-to-pdf/
 ---
-## **Dessinez Slicer tout en rendant Excel à PDF**
-Si vous avez un fichier Excel auquel un slicer est appliqué et que vous souhaitez exporter Excel vers PDF avec les paramètres du slicer, Aspose.Cells le prend désormais en charge par défaut. Vous exportez simplement le fichier Excel avec slicer vers PDF, le PDF généré montrera le slicer appliqué.
 
-L'exemple de code suivant charge le[exemple de fichier Excel](SampleSlicerChart.xlsx)qui contient un segment existant. Il enregistre ensuite le classeur sous[fichier de sortie PDF](SampleSlicerChart.pdf). La capture d'écran suivante compare le fichier Excel source et le fichier PDF généré.
+## **Dessiner un tronçonneur lors du rendu Excel en PDF**
+Si vous avez un fichier Excel auquel une trancheuse est appliquée et que vous souhaitez exporter l'Excel au format PDF avec les paramètres de la trancheuse, Aspose.Cells prend maintenant en charge cela par défaut. Vous n'avez qu'à exporter le fichier Excel avec la trancheuse au format PDF, le PDF généré montrera la trancheuse appliquée.
 
-![tâche : image_autre_texte](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
-## **Exemple de code**
+Le code d'exemple suivant charge le [fichier Excel d'exemple](SampleSlicerChart.xlsx) qui contient une trancheuse existante. Il enregistre ensuite le classeur au format [fichier PDF de sortie](SampleSlicerChart.pdf). La capture d'écran suivante compare le fichier Excel source et le fichier PDF généré.
+
+![todo:image_alt_text](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
+## **Code d'exemple**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Slicers-ExportSlicerToPDF-1.java" >}}

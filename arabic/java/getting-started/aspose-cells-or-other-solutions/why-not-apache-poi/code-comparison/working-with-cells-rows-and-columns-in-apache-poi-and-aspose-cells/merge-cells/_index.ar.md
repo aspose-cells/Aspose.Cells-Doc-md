@@ -1,15 +1,16 @@
-﻿---
-title: دمج Cells
+---
+title: دمج الخلايا
 type: docs
 weight: 60
 url: /ar/java/merge-cells/
 ---
-## **Aspose.Cells - دمج Cells**
-الفئة Cells لها بعض الطرق المفيدة للمهمة. على سبيل المثال ، تدمج طريقة الدمج الخلايا في خلية واحدة ضمن نطاق محدد من الخلايا.
+
+## **أسبوس.سيلز - دمج الخلايا**
+فصيلة الخلايا تحتوي على بعض الطرق المفيدة للمهمة. على سبيل المثال ، تدمج الطريقة الخلايا في خلية واحدة ضمن نطاق محدد من الخلايا.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a Workbook.
 
@@ -36,12 +37,12 @@ worksheet.getCells().get(5,2).setValue("This is a test of merging");
 wbk.save(dataDir + "merge_Aspose.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - دمج Cells**
-يمكن استخدام Sheet.addMergedRegion لدمج Cells.
+## **أباتشي POI SS - HSSF XSSF - دمج الخلايا**
+يمكن استخدام Sheet.addMergedRegion لدمج الخلايا.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -66,13 +67,13 @@ sheet.addMergedRegion(new CellRangeAddress(
 ));
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / cells / أمثلة / featurescomparison / cellrowscolumns / mergecells)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/mergecells)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[الدمج وعدم الدمج (تجزئة) Cells](/cells/ar/java/merging-and-unmerging-cells).
+لمزيد من التفاصيل، يرجى زيارة [دمج وفك دمج (تقسيم) الخلايا](/cells/ar/java/merging-and-unmerging-cells).
 
 {{% /alert %}}

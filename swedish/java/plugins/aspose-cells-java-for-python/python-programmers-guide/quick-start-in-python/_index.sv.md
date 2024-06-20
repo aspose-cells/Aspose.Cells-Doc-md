@@ -1,8 +1,9 @@
-﻿---
-title: Snabbstart på Python
+---
+title: Snabb start i Python
 type: docs
 weight: 10
 url: /sv/java/quick-start-in-python/
 ---
-## **Det här avsnittet innehåller följande ämnen:**
-- [Hello World i Python](/cells/sv/java/hello-world-in-python/)
+
+## **Denna avsnitt innehåller följande ämnen:** 
+- [Hej världen i Python](/cells/sv/java/hello-world-in-python/)

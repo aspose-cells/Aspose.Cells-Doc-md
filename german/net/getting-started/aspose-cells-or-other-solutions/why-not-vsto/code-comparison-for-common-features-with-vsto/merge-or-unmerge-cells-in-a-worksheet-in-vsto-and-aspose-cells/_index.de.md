@@ -1,15 +1,16 @@
-﻿---
-title: Cells in einem Arbeitsblatt in VSTO und Aspose.Cells zusammenführen oder die Zusammenführung aufheben
+---
+title: Zusammenführen oder Aufheben der Zusammenführung von Zellen in einem Arbeitsblatt in VSTO und Aspose.Cells
 type: docs
 weight: 170
 url: /de/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Öffnen Sie eine vorhandene Excel-Datei, führen Sie einige Zellen im ersten Arbeitsblatt in der Arbeitsmappe zusammen und speichern Sie die Excel-Datei.
-## **Cells zusammenführen**
-### **VSTO**
-Es folgen die parallelen Codeausschnitte für VSTO (C#) und Aspose.Cells for .NET (C#).
 
-{{< highlight "csharp" >}}
+Öffnen Sie eine vorhandene Excel-Datei, führen Sie einige Zellen im ersten Arbeitsblatt in der Arbeitsmappe zusammen und speichern Sie die Excel-Datei.
+## **Zellen zusammenführen**
+### **VSTO**
+Im Folgenden finden Sie parallele Codeausschnitte für VSTO (C#) und Aspose.Cells for .NET (C#).
+
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -55,7 +56,7 @@ Es folgen die parallelen Codeausschnitte für VSTO (C#) und Aspose.Cells for .NE
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -82,10 +83,10 @@ Es folgen die parallelen Codeausschnitte für VSTO (C#) und Aspose.Cells for .NE
   workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **Zusammenführung von Cells aufheben**
-Verwenden Sie zum Aufheben der Zusammenführung der Zelle(n) die folgenden Codezeilen für VSTO (C#) und Aspose.Cells for .NET (C#).
+## **Zellen aufheben der Zusammenführung**
+Verwenden Sie die folgenden Codezeilen, um die Zelle(n) zu trennen, für VSTO (C#) und Aspose.Cells for .NET (C#).
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //UnMerge the cell.
 
@@ -93,7 +94,7 @@ Verwenden Sie zum Aufheben der Zusammenführung der Zelle(n) die folgenden Codez
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Cells rng = workbook.Worksheets[0].Cells;
 
@@ -103,6 +104,6 @@ Verwenden Sie zum Aufheben der Zusammenführung der Zelle(n) die folgenden Codez
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Merge.or.UnMerge.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [Quellenschmiede](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/herunterladen)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).Postleitzahl)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Merge.or.UnMerge.Cells.in.a.Worksheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

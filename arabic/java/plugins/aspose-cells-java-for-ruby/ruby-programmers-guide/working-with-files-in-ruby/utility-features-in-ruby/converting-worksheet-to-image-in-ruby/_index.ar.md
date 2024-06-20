@@ -1,45 +1,46 @@
-﻿---
-title: تحويل ورقة العمل إلى صورة في روبي
+---
+title: تحويل ورقة العمل إلى صورة في Ruby
 type: docs
 weight: 60
 url: /ar/java/converting-worksheet-to-image-in-ruby/
 ---
+
 ## **Aspose.Cells - تحويل ورقة العمل إلى صورة**
-لتحويل ورقة العمل إلى صورة باستخدام Aspose.Cells for Java في Ruby ، ما عليك سوى استدعاء وحدة المحول.
+لتحويل ورقة العمل إلى صورة باستخدام Aspose.Cells for Java في Ruby، قم ببساطة باستدعاء وحدة Converter.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
- ورقة عمل def_إلى_صورة (مصنف)
+ def worksheet_to_image(workbook)
 
-#Create an object for ImageOptions
+    #Create an object for ImageOptions
 
-img_options = Rjb :: import ('com.aspose.cells.ImageOrPrintOptions'). جديد
-
-
-
-# تعيين نوع الصورة
-
-image_format = Rjb :: import ('com.aspose.cells.ImageFormat')
-
-IMG_options.setImageFormat (صورة_format.getPng ())
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
 
 
-# احصل على ورقة العمل الأولى.
+    # Set the image type
 
-sheet = workbook.getWorksheets (). get (0)
+    image_format = Rjb::import('com.aspose.cells.ImageFormat')
 
-# قم بإنشاء كائن SheetRender للورقة المستهدفة
-
-sr = Rjb :: import ('com.aspose.cells.SheetRender'). new (sheet، img_options)
+    img_options.setImageFormat(image_format.getPng())
 
 
 
-ي = 0
+    # Get the first worksheet.
 
- بينما ي< sr.getPageCount()
+    sheet = workbook.getWorksheets().get(0)
+
+    # Create a SheetRender object for the target sheet
+
+    sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+
+
+
+    j = 0
+
+    while j < sr.getPageCount()
 
         # Generate an image for the worksheet
 
@@ -54,7 +55,7 @@ sr = Rjb :: import ('com.aspose.cells.SheetRender'). new (sheet، img_options)
 end 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**تحويل ورقة العمل إلى صورة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **تحويل ورقة العمل إلى صورة (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

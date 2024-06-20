@@ -1,31 +1,32 @@
-﻿---
+---
 title: تحويل Excel إلى PDF
 type: docs
 weight: 50
 url: /ar/python-java/convert-excel-to-pdf/
-description: كيفية تحويل Excel إلى PDF باستخدام Python. توضح هذه المقالة تحويل ملفات Excel إلى PDF باستخدام Python وسهل الاستخدام Aspose.Cells for Python via Java API.
+description: كيفية تحويل Excel إلى PDF باستخدام Python. يوضح هذا المقال كيفية تحويل ملفات Excel إلى PDF باستخدام Python واجهة برمجة التطبيقات سهلة الاستخدام Aspose.Cells للبايثون via Java.
 keywords: excel to pdf python, python convert excel to pdf, python excel to pdf, convert excel to pdf python, convert excel to pdf in python, convert excel to pdf using python, excel to pdf in python, excel to pdf using python, aspose excel to pdf, aspose convert excel to pdf
 ---
+
 ## **تحويل Excel إلى PDF**
 
-يتم استخدام وثائق PDF على نطاق واسع كتنسيق قياسي لتبادل الوثائق بين المنظمات والقطاعات الحكومية والأفراد. غالبًا ما يُطلب من مطوري البرامج ابتكار طريقة لتحويل ملفات Excel Microsoft بسهولة إلى مستندات PDF. Aspose.Cells for Python via Java API يوفر القدرة على تحويل ملفات Excel إلى وثائق PDF (بما في ذلك PDF / A). يقوم Aspose.Cell بتحويل جداول البيانات إلى PDF بدرجة عالية من الدقة والإخلاص.
+تستخدم المستندات البي دي إف على نطاق واسع كتنسيق قياسي لتبادل المستندات بين المؤسسات والقطاعات الحكومية والأفراد. غالباً ما يُطلب من مطوري البرامج وضع طريقة لتحويل ملفات مايكروسوفت إكسل بسهولة إلى مستندات بي دي إف. توفر واجهة برمجة تطبيقات Aspose.Cells للبايثون via Java القدرة على تحويل ملفات Excel إلى مستندات بي دي إف (بما في ذلك PDF/A). يُحول Aspose.Cells الجداول الإلكترونية إلى PDF بدرجة عالية من الدقة والموافقة.
 
 ### **التحويل المباشر**
 
-لحفظ ملف Excel مباشرة في PDF ، يمكنك استخدام امتداد[**مصنف**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) طريقة وتمرير[**حفظ تنسيق PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF) كمعامل ثاني.
+لحفظ ملف Excel مباشرةً إلى ملف PDF، يمكنك استخدام الـ [**Workbook.save**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) وتمرير الـ [**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF) كالمعلمة الثانية.
 
-يوضح مقتطف الشفرة التالي استخدام[**حفظ تنسيق PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF)و ال[**مصنف**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) طريقة لتحويل Excel إلى تنسيق PDF.
+المقتطف التالي يبرز استخدام [**SaveFormat.PDF**](https://reference.aspose.com/cells/python/asposecells.api/saveformat#PDF) والطريقة [**Workbook.save**](https://reference.aspose.com/cells/python/asposecells.api/workbook#save(java.lang.String,%20com.aspose.cells.SaveOptions)) لتحويل Excel إلى تنسيق PDF.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-ConvertingToPDFFiles.py" >}}
 
 ### **التحويل المتقدم**
 
-للحصول على مزيد من التحكم في التحويل إلى PDF ، يوفر API تنسيق[**خيارات PdfSave**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)صف دراسي. ال[**خيارات PdfSave**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)يمكن استخدام فئة لتعيين سمات مختلفة للتحويل. تعيين خصائص مختلفة لملف[**خيارات PdfSave**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)ستمنحك class التحكم في إعدادات الطباعة والخط والأمان والضغط لملف PDF الناتج. الخاصية الأكثر شهرة هي[**الالتزام**](https://reference.aspose.com/cells/python/asposecells.api/pdfsaveoptions#Compliance)التي تمكنك من حفظ ملفات Excel في PDF / A متوافق مع ملفات PDF.
+للحصول على مزيد من التحكم في تحويل إلى PDF، يوفر الواجهة البرمجية التطبيقية فئة  [**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions) . يمكن استخدام فئة  [**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)  لتعيين خصائص مختلفة للتحويل. تعيين خصائص مختلفة لفئة  [**PdfSaveOptions**](https://reference.aspose.com/cells/python/asposecells.api/PdfSaveOptions)  سوف يمنحك التحكم في إعدادات  الطباعة، الخط، الأمان، والضغط لملف PDF الناتج. أبرز الخاصية هي  [**Compliance**](https://reference.aspose.com/cells/python/asposecells.api/pdfsaveoptions#Compliance)  التي تمكنك من حفظ ملفات Excel إلى ملفات PDF/A متوافقة.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-AdvancedConversiontoPdf.py" >}}
 
 {{% alert color="primary" %}}
 
- إذا كان جدول البيانات يحتوي على صيغ ، فاتصل بـ[**مصنف .calculateFormula**](https://reference.aspose.com/cells/python/asposecells.api/workbook#calculateFormula()) قبل تحويل جدول البيانات إلى PDF. هذا يضمن إعادة حساب القيم التابعة للصيغة وتقديم القيم الصحيحة في PDF.
+إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، قم بالاستدعاء الطريقة [**Workbook.calculateFormula**](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#calculateFormula()) قبل عرض الجدول إلى PDF. يضمن هذا إعادة حساب القيم المعتمدة على الصيغ وعرض القيم الصحيحة في PDF.
 
 {{% /alert %}}

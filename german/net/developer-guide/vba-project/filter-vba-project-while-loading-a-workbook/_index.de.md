@@ -1,16 +1,17 @@
-﻿---
-title: Filtern Sie VBA-Projekte beim Laden einer Arbeitsmappe
+---
+title: Filtern des VBA Projekts beim Laden einer Arbeitsmappe
 type: docs
 weight: 140
 url: /de/net/filter-vba-project-while-loading-a-workbook/
 ---
-## **Filtern Sie VBA-Projekt beim Laden einer Excel-Arbeitsmappe in C#**
 
-Einige .xlsm/.xslb-Dateien enthalten extrem viele Makros (oder sehr, sehr lange Makros). Aspose.Cells lädt diese (Meta-)Daten beim Öffnen solcher Arbeitsmappen bedingungslos. Möglicherweise müssen Sie dies jedoch kontrollieren[**LoadDataFilterOptions**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) wenn Sie wirklich nur Blattnamen für eine große Anzahl von Arbeitsmappen extrahieren müssen, wodurch solche nicht benötigten Inhalte übersprungen werden. Dieser Filter wird durch die Einführung einer neuen Option bereitgestellt,[**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions).
+## **Filtern Sie das VBA-Projekt beim Laden einer Excel-Arbeitsmappe in C#**
+
+Einige .xlsm/.xslb-Dateien enthalten eine extrem große Anzahl von Makros (oder sehr, sehr lange Makros). Aspose.Cells lädt diese (Meta-)Daten bedingungslos, wenn solche Arbeitsmappen geöffnet werden. Es kann sein, dass Sie dies kontrollieren müssen, wenn Sie wirklich nur die Blattnamen für eine große Anzahl von Arbeitsmappen extrahieren müssen und daher solche unerwünschten Inhalte überspringen möchten. Dieser Filter wird durch Einführung einer neuen Option, [**LoadDataFilterOptions**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions), bereitgestellt.
 
 ## **Beispielcode**
 
-Der folgende Beispielcode lädt eine Arbeitsmappe, sodass nur VBA gefiltert wird. Eine Beispieldatei zum Testen dieser Funktion kann unter folgendem Link heruntergeladen werden:
+Der folgende Beispielscode lädt eine Arbeitsmappe so, dass nur das VBA gefiltert wird. Eine Testdatei für dieses Feature können Sie über den folgenden Link herunterladen:
 
 [sampleMacroEnabledWorkbook.xlsm](79527938.xlsm)
 

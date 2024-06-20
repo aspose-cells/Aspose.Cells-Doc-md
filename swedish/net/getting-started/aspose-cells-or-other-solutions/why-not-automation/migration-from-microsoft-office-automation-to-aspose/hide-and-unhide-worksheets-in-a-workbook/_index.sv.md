@@ -1,43 +1,44 @@
-﻿---
-title: Dölj och visa kalkylblad i en arbetsbok
+---
+title: Dölj och Visa kalkylblad i en arbetsbok
 type: docs
 weight: 80
 url: /sv/net/hide-and-unhide-worksheets-in-a-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-När du presenterar arbetsböcker för kunder, eller gör en presentation, kan det vara användbart att dölja arbetsblad i en arbetsbok. Ett strukturerat tillvägagångssätt för kalkylbladsmodellering föreslår att data, formler och visualiseringar som diagram hålls på separata ark. Detta tillvägagångssätt håller layouten ren och enkel och gör arbetsboken lättare att navigera. När du presenterar resultat kanske du vill dölja data eller formelblad för att undvika distraktion.
+När man presenterar arbetsböcker för kunder, eller håller en presentation, kan det vara användbart att dölja kalkylblad i en arbetsbok. En strukturerad metod för kalkylmodellering föreslår att data, formler och visualiseringar som diagram hålls på separata blad. Denna metod håller layouten ren och enkel och gör arbetsboken lättare att navigera. När resultaten presenteras kan du vilja dölja data- eller formelbladen från syn för att undvika distraktion.
 
-Användare som arbetar i Microsoft Excel kan enkelt dölja och sedan visa (visa) kalkylblad. Samma funktioner är tillgängliga för utvecklare som programmerar med Excel-kalkylblad. Det finns olika sätt att arbeta med kalkylblad inifrån mjukvaruapplikationer. En metod är att använda VSTO, en annan är Aspose.Cells for .NET.
+Användare som arbetar i Microsoft Excel kan enkelt dölja och sedan visa (visa) kalkylblad. Samma funktioner är tillgängliga för utvecklare som programmerar med Excel-kalkylblad. Det finns olika sätt att arbeta med kalkylblad från inom programvaruapplikationer. En metod är att använda VSTO, en annan är Aspose.Cells for .NET.
 
 {{% /alert %}}
 
-## **Dölja och visa arbetsblad**
+## **Dölja och Visa kalkylblad**
 
- Den här artikeln jämför[gömmer sig](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) och[gömmer upp sig](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) arbetsblad med[VSTO](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) , med antingen C# eller Visual Basic, för att utföra samma uppgift med[Aspose.Cells](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/), återigen med antingen C# eller Visual Basic. Aspose.Cells låter dig arbeta utan Microsoft Excel installerat.
+Den här artikeln jämför [dölja](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) och [visa](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) kalkylblad med [VSTO](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/), med antingen C# eller Visual Basic, för att utföra samma uppgift med [Aspose.Cells](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/), igen med antingen C# eller Visual Basic. Aspose.Cells låter dig arbeta utan Microsoft Excel installerat.
 
-Stegen för att dölja ett kalkylblad är:
+Stegen för att dölja ett arbetsblad är:
 
 1. Öppna en fil.
-1. Skaffa ett arbetsblad.
-1. Göm kalkylbladet.
+1. Hämta ett arbetsblad.
+1. Dölj arbetsbladet.
 1. Spara filen.
 
- Till[dölja](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) ett kalkylblad igen, slå helt enkelt på synlighet för det dolda arket.
+För att [visa](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) ett arbetsblad igen, växlar du helt enkelt synligheten för det dolda arket.
 
- Kodexemplen nedan visar först hur man döljer ett kalkylblad. De första proverna visar processen med[VSTO](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) , med antingen C# eller Visual Basic, jämfört med att använda[Aspose.Cells](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/), återigen med antingen C# eller Visual Basics.
+Kodexemplen nedan visar först hur man döljer ett arbetsblad. De första exemplen visar processen med [VSTO](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/), genom att använda antingen C# eller Visual Basic, jämfört med att använda [Aspose.Cells](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/), igen med antingen C# eller Visual Basics.
 
- Den andra uppsättningen kodexempel visar raden som används för att visa kalkylbladet i[VSTO](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) eller[Aspose.Cells](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/).
+Den andra uppsättningen kodexempel visar den rad som används för att visa det dolda arket i [VSTO](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/) eller [Aspose.Cells](/cells/sv/net/hide-and-unhide-worksheets-in-a-workbook/).
 
-## **Döljer arbetsblad**
+## **Dölja Arbetsblad**
 
-Nedan finns kodexempel för VSTO och Aspose.Cells som illustrerar hur man döljer ett kalkylblad i en arbetsbok.
+Här nedan finns kodexempel för VSTO och Aspose.Cells som illustrerar hur man döljer ett arbetsblad i en arbetsbok.
 
-### **Dölja arbetsblad med VSTO**
+### **Dölja Ark med VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -108,11 +109,11 @@ excelApp.Quit();
 {{< /highlight >}}
 
 
-### **Döljer arbetsblad med Aspose.Cells for .NET**
+### **Dölja Ark med Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -156,15 +157,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **Visar arbetsblad**
+## **Visa Ark**
 
-Nedan finns kodexempel för VSTO och Aspose.Cells som illustrerar hur man visar ett kalkylblad i en arbetsbok.
+Här nedan finns kodexempel för VSTO och Aspose.Cells som illustrerar hur man avmarkerar ett arbetsblad i en arbetsbok.
 
-### **Visa ett kalkylblad med VSTO**
+### **Visa ett ark med VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -177,11 +178,11 @@ objSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
 {{< /highlight >}}
 
 
-### **Visa ett kalkylblad med Aspose.Cells for .NET**
+### **Visa ett ark med Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Unhide the worksheet.
 

@@ -1,18 +1,19 @@
-﻿---
-title: Detenga la conversión o la carga con InterruptMonitor cuando tarde demasiado
+---
+title: Detener la conversión o carga utilizando InterruptMonitor cuando está tardando demasiado
 type: docs
 weight: 100
 url: /es/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
 ---
-## **Posibles escenarios de uso**
 
-Aspose.Cells le permite detener la conversión de Workbook a varios formatos como PDF, HTML, etc. usando el[**InterrumpirMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)objeto cuando está tardando demasiado. El proceso de conversión suele hacer un uso intensivo de la CPU y la memoria y suele ser útil detenerlo cuando los recursos son limitados. Puedes usar[**InterrumpirMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)tanto para detener la conversión como para dejar de cargar un libro de trabajo enorme. Por favor use[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor)propiedad para detener la conversión y[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor)propiedad para cargar un libro de trabajo enorme.
+## **Escenarios de uso posibles**
 
-## **Detenga la conversión o la carga con InterruptMonitor cuando tarde demasiado**
+Aspose.Cells te permite detener la conversión del libro a varios formatos como PDF, HTML, etc. utilizando el objeto [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) cuando está tardando demasiado. El proceso de conversión suele ser intensivo en CPU y memoria, por lo que es útil detenerlo cuando los recursos son limitados. Se puede utilizar [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) tanto para detener la conversión como para detener la carga de un libro grande. Por favor, utiliza la propiedad [**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor) para detener la conversión y la propiedad [**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor) para cargar un libro grande.
 
-El siguiente código de ejemplo explica el uso de[**InterrumpirMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)objeto. El código convierte un archivo de Excel bastante grande a PDF. Tomará varios segundos (es decir,*más de 30 segundos*) para convertirlo debido a estas líneas de código.
+## **Detener la conversión o carga utilizando InterruptMonitor cuando está tardando demasiado**
 
-{{< highlight "java" >}}
+El siguiente código de ejemplo explica el uso del objeto [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor). El código convierte un archivo de Excel bastante grande a PDF. Tomará varios segundos (es decir, *más de 30 segundos*) para convertirlo debido a estas líneas de código.
+
+{{< highlight java >}}
 
 //Access cell AB1000000 and add some text inside it.
 
@@ -22,9 +23,9 @@ cell.putValue("This is text.");
 
 {{< /highlight >}}
 
-Como ves**AB1000000**es una celda bastante más lejana en el archivo XLSX. sin embargo, el*WaitForWhileAndThenInterrupt()*El método interrumpe la conversión después de 10 segundos y el programa termina/finaliza. Utilice el siguiente código para ejecutar el código de muestra.
+Como se ve, **AB1000000** es una celda bastante alejada en el archivo XLSX. Sin embargo, el método *WaitForWhileAndThenInterrupt()* interrumpe la conversión después de 10 segundos y el programa finaliza/termina. Por favor, utiliza el siguiente código para ejecutar el código de ejemplo.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 new StopConversionOrLoadingUsingInterruptMonitor().testRun();
 

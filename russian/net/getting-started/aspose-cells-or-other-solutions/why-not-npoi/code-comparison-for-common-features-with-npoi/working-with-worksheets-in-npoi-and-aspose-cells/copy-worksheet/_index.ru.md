@@ -1,13 +1,14 @@
-﻿---
-title: Копировать рабочий лист
+---
+title: Копировать лист
 type: docs
 weight: 40
 url: /ru/net/copy-worksheet/
 ---
-## **Aspose.Cells - Копировать рабочий лист**
+
+## **Aspose.Cells - Копировать лист**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook by excel file path
 
@@ -25,10 +26,10 @@ wb.Save("../../data/workbook.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Копировать рабочий лист**
+## **NPOI - HSSF XSSF - Копировать лист**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -46,13 +47,13 @@ sw.Close();
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Копировать рабочий лист** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Копирование листа** с любого из упомянутых ниже сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Copy.Worksheet.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Copy.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Работа с рабочими листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Для получения дополнительной информации посетите [Работа с листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

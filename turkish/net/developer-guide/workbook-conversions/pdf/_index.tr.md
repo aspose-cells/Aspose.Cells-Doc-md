@@ -4,143 +4,146 @@ type: docs
 weight: 220
 url: /tr/net/convert-excel-to-pdf/
 ---
-{{% alert color="primary" %}}
-
-Aspose.Cells, Excel Çalışma Kitabının PDF'e dönüştürülmesini destekler. Bu örnekte, bir Excel Çalışma Kitabının tamamen PDF'e dönüştürüldüğünü göreceğiz.
-
-{{% /alert %}}
-
-##  **Excel Çalışma Kitabını PDF'e dönüştürme**
-
-PDF dosyaları kuruluşlar, devlet sektörleri ve bireyler arasında belge alışverişinde bulunmak için yaygın olarak kullanılır. Standart bir belge formatıdır ve yazılım geliştiricilerden sıklıkla Microsoft Excel dosyalarını PDF belgeye dönüştürmenin bir yolunu bulmaları istenir.
-
-Aspose.Cells, Excel dosyalarının PDF'e dönüştürülmesini destekler ve dönüştürme sırasında yüksek görsel doğruluğu korur.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET, çıktı dokümanlarına doğrudan API ve Versiyon Numarası bilgilerini yazar. Örneğin, Belge PDF'e işlendiğinde Aspose.Cells for .NET doldurulur**PDF Üretici** değeri olan alan, örneğin 'Aspose.Cells v23.2'.
-
- Lütfen çıktı Belgelerindeki bu bilgiyi şu şekilde değiştirebileceğinizi unutmayın:**[PdfSaveOptions.Producer](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/producer/)** mülk.
+Aspose.Cells, Excel Çalışma Kitabını PDF'ye dönüştürmeyi destekler. Bu örnekte, bir Excel Çalışma Kitabının tam dönüşümünü göreceğiz.
 
 {{% /alert %}}
 
-###  **Doğrudan Dönüşüm**
+## **Excel Çalışma Kitabını PDF'e Dönüştürme**
 
- Aspose.Cells for .NET, diğer yazılımlardan bağımsız olarak elektronik tablolardan PDF'e dönüştürmeyi destekler. Bir Excel dosyasını PDF'e kaydetmeniz yeterlidir.**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)**sınıf'**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** yöntem.**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** yöntem şunları sağlar:**[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**yerel Excel dosyalarını PDF biçimine dönüştüren numaralandırma üyesi.
+PDF dosyaları, kuruluşlar, devlet kurumları ve bireyler arasında belge değişiminde geniş ölçüde kullanılır. Standart bir belge biçimidir ve yazılım geliştiriciler genellikle Microsoft Excel dosyalarını PDF belgelerine dönüştürmek için bir yol bulmaları istenir.
 
-Excel elektronik tablolarını doğrudan PDF biçimine dönüştürmek için aşağıdaki adımları izleyin:
+Aspose.Cells, Excel dosyalarını PDF'ye dönüştürmeyi destekler ve dönüşümde yüksek görsel sadakati korur.
 
-1.  Bir nesneyi somutlaştırın**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)**boş yapıcısını çağırarak sınıfı.
-1. Mevcut bir şablon dosyasını açabilir/yükleyebilir veya çalışma kitabını sıfırdan oluşturuyorsanız bu adımı atlayabilirsiniz.
-1. Aspose.Cells' API'lerini kullanarak elektronik tablo üzerinde herhangi bir çalışma yapın (veri girişi, biçimlendirme uygulama, formül ayarlama, resim veya diğer çizim nesneleri ekleme vb.).
-1.  Elektronik tablo kodu tamamlandığında,**[Çalışma Kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook)**sınıf'**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Elektronik tabloyu kaydetme yöntemi.
+{{% alert color="primary" %}}
 
- Dosya formatı PDF olmalıdır, bu yüzden seçin*Pdf* (önceden tanımlanmış bir değer)**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**son PDF belgesini oluşturmak için numaralandırma.
+Aspose.Cells for .NET doğrudan API ve Sürüm Numarası hakkında bilgi yazmaktadır. Örneğin, Belgeyi PDF'ye dönüştürürken, Aspose.Cells for .NET **PDF Üreticisi** alanını 'Aspose.Cells v23.2' gib i bir değerle doldurur.
+
+Lütfen bu bilgileri çıktı Belgelerinde [**PdfSaveOptions.Producer**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/producer/) özelliği ile değiştirebileceğinizi unutmayın.
+
+{{% /alert %}}
+
+### **Doğrudan Dönüşüm**
+
+Diğer yazılımlardan bağımsız olarak Aspose.Cells for .NET, elektronik tablolardan PDF'ye dönüşümü destekler. Basitçe Excel dosyasını PDF olarak [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı'nın [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) metodu kullanılarak kaydedin. [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) metodu, yerel Excel dosyalarını PDF formatına dönüştüren [**SaveFormat.Pdf**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) numaralı etkileşim üyesini sağlar.
+
+Doğrudan Excel elektronik tablolarını PDF biçimine dönüştürmek için aşağıdaki adımları izleyin:
+
+1. Boş kurucuyu çağırarak [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfının nesnesini örnekleyin.
+1. Varolan bir şablon dosyasını açabilir/yükleyebilir veya çalışma kitabını sıfırdan oluşturuyorsanız bu adımı atlayabilirsiniz.
+3. Aspose.Cells'in API'lerini kullanarak elektronik tabloda herhangi bir işlem yapın (giriş verileri, biçimlendirme uygulama, formüller belirleme, resimler veya diğer çizim nesneleri ekleme vb.).
+1. Elektronik tablo kodu tamamlandığında, elektronik tabloyu kaydetmek için [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfının [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) yöntemini çağırın.
+
+Dosya biçimi PDF olmalı, bu nedenle nihai PDF belgesini oluşturmak için *Pdf* (önceden tanımlanmış bir değer) olarak [**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) sınıfının numaralandırmasından seçim yapın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-XlstoPDFDirectConversation-1.cs" >}}
 
-###  **Gelişmiş Dönüşüm**
+### **Gelişmiş Dönüşüm**
 
- Ayrıca şunları kullanmayı da tercih edebilirsiniz:**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** Dönüşüm için farklı öznitelikler ayarlamak için sınıf. Farklı özelliklerin ayarlanması**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** sınıfı, PDF çıktısının yazdırma, yazı tipi, güvenlik ve sıkıştırma ayarları üzerinde kontrol sahibi olmanızı sağlar. En önemli özellik,**[Uyumluluk](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**Excel dosyalarını PDF/A uyumlu PDF dosyalarına kaydetmenizi sağlar.
+Dönüşüm için farklı özellikleri ayarlamak için [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) sınıfını kullanabilirsiniz. [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) sınıfının farklı özelliklerini ayarlamak, çıktı PDF'nin yazdırma, font, güvenlik ve sıkıştırma ayarları üzerinde kontrol sahibi olmanızı sağlar. 
 
-####  **Çalışma Kitabını PDF/A Uyumlu Dosyalara Kaydetme**
+En önemli özellik [**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance), PDF standartları uyumluluk seviyesini ayarlamanıza olanak tanır. Şu anda PDF 1.4, PDF 1.5, PDF 1.6, PDF 1.7, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab ve PDF/A-3u formatlarına kaydedebilirsiniz. PDF/A formatı ile, çıktı dosyasının boyutu düzenli PDF dosyasının boyutundan daha büyüktür.
 
- Aşağıda verilen kod parçacığı, bu özelliğin nasıl kullanılacağını gösterir.**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**Excel dosyalarını PDF/A uyumlu PDF biçiminde kaydetmek için sınıf.
+#### **Çalışma Kitabını PDF/A Uyumlu Dosyalara Kaydetme**
+
+Aşağıdaki kod parçacığı, Excel dosyalarını PDF/A uyumlu PDF biçimine kaydetmek için [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) sınıfının nasıl kullanılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AdvancedConversiontoPdf-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Lütfen dikkat:**[Uyumluluk](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**özelliği Aspose.Cells for .NET 5.3.0 sürümüyle eklendi.
+Lütfen, [**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance) özelliğinin Aspose.Cells for .NET 5.3.0 sürümü ile birlikte eklendiğine dikkat edin.
 
 {{% /alert %}}
 
-####  **PDF Oluşturma Zamanını Ayarlayın**
+#### **PDF Oluşturma Saatini Ayarlayın**
 
- İle**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**sınıf, PDF oluşturma zamanını alabilir veya ayarlayabilirsiniz. Aşağıdaki kod kullanımını göstermektedir**[PdfSaveOptions.CreatedTime](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/createdtime)** PDF dosyasının oluşturulma zamanını ayarlama özelliği.
+[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) sınıfı ile PDF oluşturma saatinizi alabilir veya ayarlayabilirsiniz. Aşağıdaki kod, PDF dosyasının oluşturma zamanını belirlemek için [**PdfSaveOptions.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/createdtime) özelliğin kullanımını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetPDFCreationTime-1.cs" >}}
 
-####  **ContentCopyForAccessibility seçeneğini ayarlayın**
+#### **İçerik Erişilebilirlik Kopyalama seçeneğini Ayarlayın**
 
-İle**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** sınıf, PDF'i alabilir veya ayarlayabilirsiniz.**[AccessibilityExtractContent](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)** Dönüştürülen PDF'deki içerik erişimini kontrol etme seçeneği.
+[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) sınıfı ile dönüştürülen PDF'de içerik erişimini kontrol etmek için PDF [**AccessibilityExtractContent**](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent) seçeneğini alabilir veya ayarlayabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetContentCopyForAccessibility-1.cs" >}}
 
-####  **Özel özellikleri PDF'e aktarın**
+#### **Özel özellikleri PDF'ye aktar**
 
-İle**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)** sınıfında kaynak çalışma kitabındaki özel özellikleri PDF'e aktarabilirsiniz.**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)**özelliklerin dışa aktarılma şeklini belirtmek için numaralandırıcı sağlanmıştır. Bu özellikleri Adobe Acrobat Reader'da aşağıdaki görüntüdeki gibi Dosya ve ardından özellikler seçeneğine tıklayarak gözlemleyebilirsiniz. "sourceWithCustProps.xlsx" şablon dosyası indirilebilir[Burada](sourceWithCustProps.xlsx) test etmek ve çıktı almak için PDF dosyası "outSourceWithCustProps" mevcuttur[Burada](outSourceWithCustProps.pdf) analiz için.
+[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) sınıfı ile kaynak elektronik tablodaki özel özellikleri PDF'ye aktarabilirsiniz. Özellikleri nasıl aktarılacağını belirtmek için [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport) numaralama sağlanmaktadır. Bu özellikler, aşağıdaki resimde gösterildiği gibi Adobe Acrobat Reader'da Dosya'ya tıklayarak ardından özellikler seçeneğini tıklayarak görüntülenebilir. Şablon dosyası "sourceWithCustProps.xlsx" test etmek için [buradan](sourceWithCustProps.xlsx) indirilebilir ve çıktı PDF dosyası "outSourceWithCustProps" analiz için [buradan](outSourceWithCustProps.pdf) temin edilebilir.
 
-![yapılacak şey:image_alt_text](convert-excel-workbook-to-pdf_1.png)
+![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ExportCustomPropertiesToPdf-1.cs" >}}
 
-###  **Dönüşüm Özellikleri**
+### **Dönüşüm Özellikleri**
 
-Her yeni sürümde dönüştürme özelliklerini geliştirmek için çalışıyoruz. Aspose.Cell'in Excel'den PDF'e dönüşümü hâlâ birkaç sınırlamaya sahiptir. PDF biçimine dönüştürme sırasında MapChart desteklenmez. Ayrıca bazı çizim nesneleri yeterince desteklenmiyor.
+Her yeni sürümle dönüşüm özelliklerini geliştirmeye çalışıyoruz. Aspose.Cell'in Excel'den PDF'ye dönüştürme hala birkaç kısıtlamaya sahiptir. HaritaÇizelgesi, PDF biçimine dönüştürülürken desteklenmez. Ayrıca, bazı çizim nesneleri iyi desteklenmez.
 
-Aşağıdaki tablo, Aspose.Cells kullanılarak PDF'e dışa aktarıldığında tamamen veya kısmen desteklenen tüm özellikleri listeler. Bu tablo nihai değildir ve tüm e-tablo niteliklerini kapsamaz ancak desteklenmeyen veya PDF'e dönüştürülmesi kısmen desteklenen özellikleri tanımlar. .
+Aşağıdaki tablo, Aspose.Cells kullanarak PDF'ye dışa aktarırken tamamen veya kısmen desteklenen tüm özellikleri listeleyen bir tablodur. Bu tablo son değildir ve tüm elektronik tablo özniteliklerini kapsamaz, ancak dışa aktarmak için tamamen veya kısmen desteklenmeyen özellikleri tanımlar.
 
-|**Belge Öğesi**|**Bağlanmak**|**Destekleniyor**|**Notlar**|
+|**Belge Öğesi**|**Özellik**|**Desteklenen**|**Notlar**|
 | :- | :- | :- | :- |
-|Hizalama| |Evet| |
-|Arka plan ayarları| |Evet| |
-|Sınır|Renk|Evet| |
-|Sınır|Çizgi stili|Evet| |
-|Sınır|Hat genişliği|Evet| |
-|Cell Veri| |Evet| |
-|Yorumlar| |Evet| |
-|Koşullu biçimlendirme| |Evet| |
-|Döküman özellikleri| |Evet| |
-|Çizim Nesneleri| |Kısmen|Nesneleri çizmeye yönelik gölge ve 3 boyutlu efektler iyi desteklenmemektedir; WordArt ve SmartArt kısmen desteklenmektedir.|
-|Yazı tipi|Boyut|Evet| |
-|Yazı tipi|Renk|Evet| |
-|Yazı tipi|Stil|Evet| |
-|Yazı tipi|Altını çizmek|Evet| |
-|Yazı tipi|Etkileri|Evet||
-|Görüntüler| |Evet| |
-|Köprü| |Evet| |
-|Grafikler| |Kısmen|MapChart desteklenmiyor.|
-|Birleştirildi Cells| |Evet| |
-|Sayfa sonu| |Evet| |
-|Sayfa ayarı|Üstbilgi Altbilgi|Evet| |
-|Sayfa ayarı|Marjlar|Evet| |
-|Sayfa ayarı|Sayfa yönlendirmesi|Evet| |
-|Sayfa ayarı|Sayfa boyutu|Evet| |
-|Sayfa ayarı|Alanı yazdır|Evet| |
-|Sayfa ayarı|Başlıkları Yazdır|Evet| |
-|Sayfa ayarı|Ölçeklendirme|Evet| |
-|Satır Yüksekliği/Sütun Genişliği| |Evet| |
-|RTL (Sağdan Sola) Dil| |Evet| |
+|Hizalama| |Evet| |
+|Arka plan Ayarları| |Evet| |
+|Kenarlık|Renk|Evet| |
+|Kenarlık|Çizgi stili|Evet| |
+|Kenarlık|Çizgi genişliği|Evet| |
+|Hücre Verisi| |Evet| |
+|Yorumlar| |Evet| |
+|Koşullu Biçimlendirme| |Evet| |
+|Döküman Özellikleri| |Evet| |
+|Çizim Nesneleri| |Kısmen|Çizim nesneleri için gölge ve 3-B efektleri iyi desteklenmez; WordArt ve SmartArt kısmen desteklenir.|
+|Yazı Tipi|Boyut|Evet| |
+|Yazı Tipi|Rengi|Evet| |
+|Yazı Tipi|Stili|Evet| |
+|Yazı Tipi|Altı çizili|Evet| |
+|Yazı Tipi|Efektleri|Evet||
+|Resimler| |Evet| |
+|Hyperlink| |Evet| |
+|Grafikler| |Kısmen|Harita Grafikleri desteklenmiyor.|
+|Birleştirilmiş Hücreler| |Evet| |
+|Sayfa Sonu| |Evet| |
+|Sayfa Ayarı|Üstbilgi/Altbilgi|Evet| |
+|Sayfa Ayarı|Kenar Boşlukları|Evet| |
+|Sayfa Ayarı|Sayfa Yönü|Evet| |
+|Sayfa Ayarı|Sayfa Boyutu|Evet| |
+|Sayfa Ayarı|Yazdırma Alanı|Evet| |
+|Sayfa Ayarı|Yazdırma Başlıkları|Evet| |
+|Sayfa Ayarı|Ölçekleme|Evet| |
+|Satır Yüksekliği/Sütun Genişliği| |Evet| |
+|RTL (Sağdan Sola) Dil| |Evet| |
 
 {{% alert color="primary" %}}
 
- E-tablonuz formüller içeriyorsa, aramak en iyisidir.**[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)** e-tabloyu PDF biçimine dönüştürmeden hemen önce. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve PDF'de doğru değerlerin oluşturulmasını sağlayacaktır.
+Eğer elektronik tablonuz formüller içeriyorsa, elektronik tabloyu PDF biçimine dönüştirmeden önce [**Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) yöntemini çağırmanız en iyisidir. Böylece formül bağımlı değerler yeniden hesaplanacak ve doğru değerler PDF biçiminde yapılandırılacaktır.
 
 {{% /alert %}}
 
-##  **İleri konular**
+## **Gelişmiş Konular**
 - [PDF Yer İmlerini Ekle](/cells/tr/net/add-pdf-bookmarks/)
-- [Adlandırılmış Hedeflere Sahip PDF Yer İşaretlerini Ekle](/cells/tr/net/add-pdf-bookmarks-with-named-destinations/)
-- [Yazdırılacak Bir Şey Olmadığında PDF Çıkışında Boş Sayfadan Kaçının](/cells/tr/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
-- [PDF'e kaydederken Yazı Tipini yalnızca belirli Unicode karakterlerde değiştirin](/cells/tr/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)
-- [PDF'e işlenirken MS Excel Çalışma Kitabında Dış Kaynakların yüklenmesini kontrol edin](/cells/tr/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
-- [XLSX Dosyasını PDF Formatına Dönüştür](/cells/tr/net/convert-xlsx-file-to-pdf-format/)
-- [Excel dosyasını PDFA-1a ile uyumlu PDF formatına dönüştürün](/cells/tr/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
-- [Görüntüler veya Grafikler içeren XLS Dosyasını PDF'e dönüştürün](/cells/tr/net/convert-xls-file-with-images-or-charts-to-pdf/)
-- [Grafik Sayfası için PdfBookmarkEntry Oluşturun](/cells/tr/net/create-pdfbookmarkentry-for-chart-sheet/)
-- [Tüm Çalışma Sayfası Sütunlarını Tek PDF Sayfaya Sığdır](/cells/tr/net/fit-all-worksheet-columns-on-single-pdf-page/)
-- [DrawObjectEventHandler sınıfını kullanarak PDF'e işleme sırasında DrawObject ve Bound'u alın](/cells/tr/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/)
-- [Excel Dosyasını Oluştururken Yazı Tipi Değişikliği Uyarıları Alma](/cells/tr/net/get-warnings-for-font-substitution-while-rendering-excel-file/)
-- [Excel'i PDF'e Oluştururken Hataları Yoksay](/cells/tr/net/ignore-errors-while-rendering-excel-to-pdf/)
-- [Oluşturulan Sayfa Sayısını Sınırlayın - Excel'i PDF Dönüşümüyle Sınırlayın](/cells/tr/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/)
-- [PDF'e kaydederken Yorumları Yazdır](/cells/tr/net/print-comments-while-saving-to-pdf/)
-- [Excel'i PDF'e dönüştürürken Office Eklentilerini işleyin](/cells/tr/net/render-office-add-ins-while-converting-excel-to-pdf/)
-- [Excel Çalışma Sayfası Başına Bir PDF Sayfa Oluşturma - Excel'den PDF'e Dönüştürme](/cells/tr/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/)
-- [PDF ve Aspose.Cells çıktılarındaki Unicode Tamamlayıcı karakterleri işle](/cells/tr/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/)
-- [Eklenen Görselleri Yeniden Örnekleme - Excel'den PDF'e Dönüştürme](/cells/tr/net/resampling-added-images-excel-to-pdf-conversion/)
-- [Her Çalışma Sayfasını Farklı Bir PDF Dosyasına Kaydetme](/cells/tr/net/save-each-worksheet-to-a-different-pdf-file/)
-- [Excel'i Standart veya Minimum Boyutla PDF'e kaydedin](/cells/tr/net/save-excel-into-pdf-with-standard-or-minimum-size/)
-- [Belirtilen Çalışma Sayfalarını PDF'e Kaydet](/cells/tr/net/save-specified-worksheets-to-pdf/)
-- [Güvenli PDF Belgeler](/cells/tr/net/secure-pdf-documents/)
-- [PDF çıktısında ve görüntüde dizenin nasıl çaprazlanacağını belirtin](/cells/tr/net/specify-how-to-cross-string-in-output-pdf-and-image/)
+- [Adlandırılmış Yer İmleriyle PDF Yer İmi Ekleyin](/cells/tr/net/add-pdf-bookmarks-with-named-destinations/)
+- [Çıktı PDF'inde Boş Sayfa Oluşmasını Engelle](/cells/tr/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
+- [PDF'ye Kaydederken Yalnızca Belirli Unicode Karakterlerin Yazı Tipini Değiştirme](/cells/tr/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)
+- [MS Excel Çalışma Kitabında Harici Kaynakların Yüklenmesine Kontrol Etmek](/cells/tr/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [XLSX Dosyasını PDF Biçimine Dönüştür](/cells/tr/net/convert-xlsx-file-to-pdf-format/)
+- [PDFA-1a uyumlu PDF biçimine Excel dosyasını dönüştür](/cells/tr/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [Resim veya Grafiklerle XLS Dosyasını PDF Biçimine Dönüştür](/cells/tr/net/convert-xls-file-with-images-or-charts-to-pdf/)
+- [Grafik Tablosu için PdfBookmarkEntry Oluştur](/cells/tr/net/create-pdfbookmarkentry-for-chart-sheet/)
+- [Tüm Çalışsayfa Sütunlarını Tek PDF Sayfasına Sığdır](/cells/tr/net/fit-all-worksheet-columns-on-single-pdf-page/)
+- [DrawObjectEventHandler sınıfını kullanarak PDF'ye dönüştürürken DrawObject ve Sınırlı Alın](/cells/tr/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/)
+- [Excel Dosyasını PDF'e Dönüştürürken Yazı Tipi Yedeği İçin Uyarıları Al](/cells/tr/net/get-warnings-for-font-substitution-while-rendering-excel-file/)
+- [Excel'den PDF'e Dönüştürme Sırasında Hataları Yoksay](/cells/tr/net/ignore-errors-while-rendering-excel-to-pdf/)
+- [Oluşturulan Sayfa Sayısını Sınırla - Excel'den PDF'e Dönüştürme](/cells/tr/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/)
+- [PDF'ye kaydederken yorumları yazdır](/cells/tr/net/print-comments-while-saving-to-pdf/)
+- [Excel'i PDF'e dönüştürürken Office Eklentilerini renderla](/cells/tr/net/render-office-add-ins-while-converting-excel-to-pdf/)
+- [Excel'den PDF'ye Dönüşümde Her Excel Çalışsayarı İçin Bir PDF Sayfası Oluştur](/cells/tr/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/)
+- [Aspose.Cells ile çıktı PDF'inde Unicode Ek Karakterlerini renderla](/cells/tr/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/)
+- [Eklenti Görüntülerini Yeniden Örnekle](/cells/tr/net/resampling-added-images-excel-to-pdf-conversion/)
+- [Her Çalışsayarı Farklı Bir PDF Dosyasına Kaydet](/cells/tr/net/save-each-worksheet-to-a-different-pdf-file/)
+- [Excel'i Standart veya Minimum Boyutta PDF olarak kaydet](/cells/tr/net/save-excel-into-pdf-with-standard-or-minimum-size/)
+- [Belirtilen Çalışsayfalarını PDF olarak kaydet](/cells/tr/net/save-specified-worksheets-to-pdf/)
+- [Güvenli PDF Belgeleri](/cells/tr/net/secure-pdf-documents/)
+- [Çıktı PDF ve görüntülerde metin geçişini belirle](/cells/tr/net/specify-how-to-cross-string-in-output-pdf-and-image/)

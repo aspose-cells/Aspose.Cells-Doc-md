@@ -1,21 +1,22 @@
-﻿---
-title: Genel API Aspose.Cells 8.6.2'deki değişiklikler
+---
+title: Aspose.Cells 8.6.2 de Kamu API Değişiklikleri
 type: docs
 weight: 210
 url: /tr/net/public-api-changes-in-aspose-cells-8-6-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.6.1'den 8.6.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen sınıfları değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, Aspose.Cells API'sindeki 8.6.1'den 8.6.2'ye yapılan değişiklikleri modül/uygulama geliştiricileri için ilginç olabilecek değişiklikleri açıklar. Yeni ve güncellenmiş kamu metodları, eklenen sınıfların yanı sıra Aspose.Cells'in arka planda olan herhangi bir değişikliği de içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Akıllı İşaretleyicilerle Geri Arama Desteği**
- Aspose.Cells for .NET API'in bu sürümü, WorkbookDesigner.CallBack özelliğini ve ISmartMarkerCallBack arabirimini kullanıma sunmuştur.[işlenmekte olan hücre referansı ve/veya akıllı işaretleyici hakkında bildirimleri alın](/cells/tr/net/getting-notifications-while-merging-data-with-smart-markers/). Aşağıdaki kod parçası, WorkbookDesigner.Process yöntemi için geri aramayı işleyen yeni bir sınıf tanımlamak için ISmartMarkerCallBack arabiriminin kullanımını gösterir.
+## **Eklenen API'lar**
+### **Akıllı İşaretçiler ile Geri Arama Desteği**
+Bu Aspose.Cells for .NET API sürümü, WorkbookDesigner.CallBack özelliğini ve ISmartMarkerCallBack arabirimini açığa çıkarmıştır, bu da birlikte hücre referansı ve/veya smart marker işlenirken bildirim almayı sağlar. Aşağıdaki kod parçası, WorkbookDesigner.Process yöntemi için geri arama tanımlayan yeni bir sınıfı tanımlamak için ISmartMarkerCallBack arabirimini kullanımını gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class SmartMarkerCallBack : ISmartMarkerCallBack
 
@@ -47,11 +48,11 @@ Bu belge, Aspose.Cells API sürümünde 8.6.1'den 8.6.2'ye modül/uygulama geli�
 
 
 
-Sürecin geri kalanı, Smart Marker'ları içeren tasarımcı elektronik tablosunu WorkbookDesigner ile yüklemeyi ve veri kaynağını ayarlayarak işlemeyi içerir. Ancak bildirimleri etkinleştirmek için WorkbookDesigner.CallBack özelliği aşağıda gösterildiği gibi WorkbookDesigner.Process yöntemini çağırmadan önce ayarlamak gerekir.
+İşlemin geri kalanı, tasarımcı elek ve veri kaynağını ayarlayarak içeren işlemi yüklemeyi içerir. Ancak bildirimleri etkinleştirmek için, WorkbookDesigner.Process yöntemi çağrılmadan önce WorkbookDesigner.CallBack özelliğini ayarlamak gereklidir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loading the designer spreadsheet in an instance of Workbook
 
@@ -76,14 +77,14 @@ designer.Process(false);
 {{< /highlight >}}
 
 
-### **Yöntem Chart.ToPdf Eklendi**
- Aspose.Cells for .NET 8.6.2, Chart.ToPdf yöntemini kullanıma sundu.[Grafik şeklini doğrudan PDF biçimine dönüştürün](/cells/tr/net/convert-an-excel-chart-to-image/). Bahsedilen yöntem şu anda sonuçtaki dosyayı diskte depolamak için dosya yolu konumu olarak string türünde bir parametre kabul etmektedir.
+### **Chart.ToPdf Yöntemi Eklendi**
+Aspose.Cells for .NET 8.6.2, Chart.ToPdf yöntemini açığa çıkarmıştır, bu yöntem, Chart şeklini doğrudan PDF formatına dönüştürmek için kullanılabilir. Söz konusu yöntem şu anda sonuç dosyasını diske kaydetmek için dosya yolu konumunda bir string türünde parametre kabul eder.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet containing charts
 
@@ -104,14 +105,14 @@ chart.ToPdf(outputFilePath);
 {{< /highlight >}}
 
 
-### **Yöntem Workbook.RemoveUnusedStyles Eklendi**
- Aspose.Cells for .NET 8.6.2, Workbook.RemoveUnusedStyles için kullanılabilecek yöntemi kullanıma sundu.[kullanılmayan tüm Stil nesnelerini stil havuzundan kaldırın](/cells/tr/net/remove-unused-styles-inside-the-workbook/).
+### **Workbook.RemoveUnusedStyles Yöntemi Eklendi**
+Aspose.Cells for .NET 8.6.2, Workbook.RemoveUnusedStyles yöntemini açığa çıkarmıştır, bu yöntem, stili temizlenmemiş Style nesnelerini kaldırmak için kullanılabilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet
 
@@ -124,14 +125,14 @@ workbook.RemoveUnusedStyles();
 {{< /highlight >}}
 
 
-### **Özellik Cells.Stil Eklendi**
-Cells.Style özelliği, varsayılan stili temsil eden Çalışma Sayfasının Stiline erişmek için kullanılabilir.
+### **Eklenen Cells.Style Özelliği**
+Cells.Style özelliği, Varsayılan stilin temsil edildiği Çalışma Sayfasıiçin Stil'e erişmek için kullanılabilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -144,8 +145,8 @@ Style style = book.Worksheets[0].Cells.Style;
 {{< /highlight >}}
 
 
-### **GridWeb İçin Eklenen Etkinlikler**
-Aspose.Cells.GridWeb for .NET 8.6.2, aşağıdaki iki yeni olayı ortaya çıkardı.
+### **GridWeb için Eklenen Olaylar**
+Aspose.Cells.GridWeb for .NET 8.6.2, aşağıdaki iki yeni olayı açığa çıkarmıştır.
 
-1. AjaxCallFinished: Denetimin AJAX güncellemesi bittiğinde tetiklenir. (EnableAJAX, true olarak ayarlanacaktır).
-1. CellModifiedOnAjax: AJAX çağrısında hücre değiştirildiğinde tetiklenir.
+1. AjaxCallFinished: Denetimin AJAX güncellemesi tamamlandığında tetiklenir. (EnableAJAX true olarak ayarlanmalıdır).
+1. CellModifiedOnAjax: Hücre AJAX çağrısı sırasında değiştirildiğinde tetiklenir.

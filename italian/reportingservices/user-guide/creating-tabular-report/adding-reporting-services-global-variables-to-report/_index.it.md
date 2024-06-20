@@ -1,49 +1,50 @@
-﻿---
-title: Aggiunta di variabili globali di Reporting Services al report
+---
+title: Aggiunta delle variabili globali dei servizi di report al rapporto
 type: docs
 weight: 70
 url: /it/reportingservices/adding-reporting-services-global-variables-to-report/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells' supporta le variabili globali di Reporting Services come origine dati per le celle che contengono un indicatore di variabili globali di Reporting Services.
+Il modello di report di Aspose.Cells supporta le variabili globali dei servizi di report come origine dati per le celle che contengono un marcatore delle variabili globali dei servizi di report. 
 
-[Aspose.Cells Template e Smart Marker](/cells/it/reportingservices/aspose-cells-template-and-smart-markers/) spiega come funzionano gli indicatori delle variabili globali di Reporting Services. Le variabili globali vengono normalmente posizionate nell'area di testo dell'intestazione o del piè di pagina di una tabella.
+[Modello di report e smart marker di Aspose.Cells](/cells/it/reportingservices/aspose-cells-template-and-smart-markers/) spiega come funzionano i marcatori delle variabili globali dei servizi di report. Le variabili globali sono normalmente collocate nell'area di testo di un'intestazione o piè di pagina di una tabella.
 
 {{% /alert %}} 
 
-Per aggiungere variabili globali ai report:
+Per aggiungere variabili globali ai rapporti:
 
-1.  Seleziona una cella.
+1. Seleziona una cella. 
 
    **Una cella selezionata** 
 
-![cose da fare:immagine_alt_testo](adding-reporting-services-global-variables-to-report_1.png)
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_1.png)
 
 
 
 
-1.  Clic**Inserisci formula**sulla barra degli strumenti Aspose.Cells.Report.Designer (
+1. Fai clic su **Inserisci formula** sulla barra degli strumenti Aspose.Cells.Report.Designer (
 
-![cose da fare:immagine_alt_testo](adding-reporting-services-global-variables-to-report_2.png)
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_2.png)
 
 ).
 
-1.  Selezionare**Globali** nel pannello di sinistra.
- Tutte le variabili globali sono elencate a destra.
-1.  Selezionare**ReportName** e fare doppio clic.
- L'espressione appare in**Modificare** scatola in alto.
+1. Seleziona **Globali** nel pannello di sinistra.
+   Tutte le variabili globali sono elencate a destra. 
+1. Seleziona **NomeReport** e fai doppio clic.
+   L'espressione appare nella casella **Modifica** in alto. 
 
    **Selezione di una variabile globale** 
 
-![cose da fare:immagine_alt_testo](adding-reporting-services-global-variables-to-report_3.png)
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_3.png)
 
 
 
 
-1.  Clic**OK** finire.
- La cella ora contiene un indicatore di variabile globale.
+1. Fai clic su **OK** per terminare.
+   Ora la cella contiene un marcatore di variabile globale. 
 
-   **Un indicatore di variabili globali in una cella** 
+   **Un marcatore di variabili globali in una cella** 
 
-![cose da fare:immagine_alt_testo](adding-reporting-services-global-variables-to-report_4.png)
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_4.png)

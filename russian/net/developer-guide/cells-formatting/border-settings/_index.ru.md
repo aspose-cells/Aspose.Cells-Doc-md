@@ -1,85 +1,86 @@
 ---
 title: Настройки границ
-description: Как использовать библиотеку Aspose.Cells в C# для установки стиля границы и цвета ячеек. Регулируя ширину, стиль и цвет границы, вы получаете больше контроля над тем, как выглядят ячейки.
-keywords: Aspose.Cells, Cell Border Settings, C#, Border Width, Border Style, Border Color
+description: Как использовать библиотеку Aspose.Cells на C#, чтобы задать стиль границы и цвет ячеек. Изменяя ширину, стиль и цвет границы, вы имеете больший контроль над тем, как будут выглядеть и выглядеть ячейки.
+keywords: Aspose.Cells, настройки границ ячейки, C#, ширина границы, стиль границы, цвет границы
 type: docs
 weight: 40
 url: /ru/net/cells-border-settings/
 ---
-##  **Добавление границ к номеру Cells**
 
-Microsoft Excel позволяет пользователям форматировать ячейки, добавляя границы. Тип границы зависит от того, где она добавлена. Например, верхняя граница добавляется к верхнему положению ячейки. Пользователи также могут изменять стиль и цвет линий границ.
+## **Добавление границ в ячейки**
 
-С помощью Aspose.Cells разработчики могут добавлять границы и настраивать их внешний вид так же гибко, как и в Microsoft Excel.
+Microsoft Excel позволяет пользователям форматировать ячейки, добавляя границы. Тип границы зависит от того, куда она добавляется. Например, верхняя граница - это граница, добавленная в верхнюю часть ячейки. Пользователи также могут изменять стиль и цвет линий границ.
 
-###  **Добавление границ к номеру Cells**
+С помощью Aspose.Cells разработчики могут добавлять границы и настраивать их внешний вид таким же гибким способом, как в Microsoft Excel.
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) который представляет файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) коллекция, которая обеспечивает доступ к каждому листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) сорт.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс обеспечивает[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) коллекция. Каждый предмет в[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) коллекция представляет собой объект[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)сорт.
+### **Добавление границ в ячейки**
 
- Aspose.Cells обеспечивает[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)метод в[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)сорт.[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)Метод используется для установки стиля форматирования ячейки.[**Стиль**](https://reference.aspose.com/cells/net/aspose.cells/style)Класс предоставляет свойства для добавления границ к ячейкам.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) содержит коллекцию [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets), которая позволяет получить доступ к каждому листу в файле Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) предоставляет коллекцию [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Каждый элемент в коллекции [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) представляет объект класса [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
-####  **Добавление границ к Cell**
+Aspose.Cells предоставляет метод [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) в классе [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell). Метод [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) используется для установки стиля форматирования ячейки. Класс [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) предоставляет свойства для добавления границ к ячейкам.
 
-Разработчики могут добавлять границы к ячейке с помощью[**Стиль**](https://reference.aspose.com/cells/net/aspose.cells/style) объекты[**Границы**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) коллекция. Тип границы передается как индекс в[**Границы**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) коллекция. Все типы границ предварительно определены в файле[**Тип границы**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) перечисление.
+#### **Добавление границ к ячейке**
 
-**Перечисление границ**
+Разработчики могут добавлять границы к ячейке, используя коллекцию [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) объекта [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders). Тип границы передается в качестве индекса коллекции [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders). Все типы границ предварительно определены в перечислении [**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype).
+
+Перечисление границ
 
 |**Типы границ**|**Описание**|
 | :- | :- |
-|Нижняя граница|Нижняя граница|
-|ДиагональВниз|Диагональная линия сверху слева направо вниз|
-|ДиагональВверх|Диагональная линия снизу слева направо вверх|
-|Левая граница|Левая пограничная линия|
-|Правая граница|Правая линия границы|
-|TopBorder|Верхняя граница|
+|BottomBorder|Линия нижней границы|
+|DiagonalDown|Диагональная линия от верхнего левого до нижнего правого|
+|DiagonalUp|Диагональная линия от нижнего левого до верхнего правого|
+|LeftBorder|Линия левой границы|
+|RightBorder|Линия правой границы|
+|TopBorder|Линия верхней границы|
 
-[**Границы**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders)коллекция хранит все границы. Каждая граница в[**Границы**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Коллекция представлена[**Граница**](https://reference.aspose.com/cells/net/aspose.cells/border) объект, который предоставляет два свойства,[**Цвет**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) и[**Стиль линии**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle)чтобы установить цвет и стиль линии границы соответственно.
+The [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection stores all borders. Each border in the [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection is represented by a [**Border**](https://reference.aspose.com/cells/net/aspose.cells/border) object which provides two properties, [**Color**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) and [**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) to set a border's line color and style respectively.
 
-Чтобы задать цвет линии границы, выберите цвет с помощью перечисления Color (часть .NET Framework) и назначьте его свойству Color объекта Border.
+Установка цвета линии границы осуществляется путем выбора цвета с использованием перечисления Color (часть .NET Framework) и присваивания его свойству Color объекта Border.
 
- Стиль линии границы задается путем выбора стиля линии из[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)перечисление.
+Стиль линии границы устанавливается путем выбора стиля линии из перечисления [**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype).
 
-**Перечисление CellBorderType**
+**Перечисление типов границ ячейки**
 
 |**Стили линий**|**Описание**|
 | :- | :- |
-|ДэшДот|Тонкая штрихпунктирная линия|
-|тиреточкаточка|Тонкая штрихпунктирная линия|
-|Пунктирная|Пунктир|
-|Пунктирный|Пунктирная линия|
-|Двойной|Двойная линия|
-|Волосы|линия роста волос|
-|MediumDashDot|Средняя штрихпунктирная линия|
-|СреднийDashDotDot|Средняя штрихпунктирная линия|
-|Средний пунктирный|Средняя пунктирная линия|
-|Никто|Нет линии|
-|Середина|Средняя линия|
-|Наклоненная черточка|Наклонная средняя пунктирная линия|
-|Толстый|Толстая линия|
-|Тонкий|Тонкая линия|
-Выберите один из стилей линий и затем назначьте его[**Граница**](https://reference.aspose.com/cells/net/aspose.cells/border) объекты[**Стиль линии**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) свойство.
+|DashDot|Тонкая пунктирная линия|
+|DashDotDot|Тонкая штрих-пунктирная линия|
+|Dashed|Пунктирная линия|
+|Dotted|Точечная линия|
+|Double|Двойная линия|
+|Hair|Линия минимальной толщины|
+|MediumDashDot|Средняя штрих-пунктирная линия|
+|MediumDashDotDot|Средняя штрих-точечно-пунктирная линия|
+|MediumDashed|Средняя пунктирная линия|
+|None|Нет линии|
+|Medium|Средняя линия|
+|SlantedDashDot|Наклоненная средняя штрих-пунктирная линия|
+|Thick|Толстая линия|
+|Thin|Тонкая линия|
+Выберите один из стилей линий и затем назначьте его для свойства объекта [**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) [**Border**](https://reference.aspose.com/cells/net/aspose.cells/border).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBordersToCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Вам следует одновременно установить стиль и цвет линии. Две диагональные границы должны иметь одинаковый стиль и цвет.
+Вы должны установить и стиль линии, и цвет одновременно. Двум диагональным граничным линиям следует иметь одинаковый стиль линии и цвет.
 
 {{% /alert %}}
 
-####  **Добавление границ к диапазону Cells**
+#### **Добавление границ для диапазона ячеек**
 
- Также можно добавить границы к диапазону ячеек, а не только к одной ячейке. Для этого сначала создайте диапазон ячеек, вызвав метод[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) коллекция[**Создатьдиапазон**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) метод. Он принимает следующие параметры:
+Также есть возможность добавить границы для диапазона ячеек, а не только для одной ячейки. Для этого сначала создайте диапазон ячеек, вызвав метод [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) коллекции [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Он принимает следующие параметры:
 
-- Первая строка — первая строка диапазона.
-- Первый столбец представляет первый столбец диапазона.
-- Количество строк — количество строк в диапазоне.
-- Количество столбцов — количество столбцов в диапазоне.
+- Первая строка, первая строка диапазона.
+- Первый столбец, представляет первый столбец диапазона.
+- Количество строк, количество строк в диапазоне.
+- Количество столбцов, количество столбцов в диапазоне.
 
-[**Создатьдиапазон**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) метод возвращает[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range) объект, содержащий указанный диапазон ячеек.[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range) объект обеспечивает[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) метод, который принимает следующие параметры для добавления границы к диапазону ячеек:
+Метод [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) возвращает объект [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range), который содержит указанный диапазон ячеек. Объект [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) предоставляет метод [**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder), который принимает следующие параметры для добавления границы к диапазону ячеек:
 
--  *Тип границы** — тип границы, выбранный из[**Тип границы**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)перечисление.
--  *Стиль линии** — стиль линии границы, выбранный из[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)перечисление.
-- *Цвет** — цвет линии, выбранный из списка Цвет.
+- **Тип границы**, тип границы, выбранный из перечисления [**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype).
+- **Стиль линии**, стиль линии границы, выбранный из перечисления [**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype).
+- **Цвет**, цвет линии, выбранный из перечисления Color.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBorderstoRange-1.cs" >}}

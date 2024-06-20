@@ -1,12 +1,13 @@
-﻿---
-title: VSTO ve Aspose.Cells'de Verileri İşlemek için Formül İşlevlerini Kullanma
+---
+title: VSTO ve Aspose.Cells te Verileri İşlemek İçin Formül İşlevlerini Kullanma
 type: docs
 weight: 240
 url: /tr/net/use-formulas-functions-to-process-data-in-vsto-and-aspose-cells/
 ---
-## **Cell Formülü Ekleniyor**
+
+## **Hücre Formülü Ekleme**
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -72,7 +73,7 @@ private void AddingCellFormula()
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void AddingCellFormula()
 
@@ -129,7 +130,7 @@ private void AddingCellFormula()
 }
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Use.Formulas.Functions.to.Process.Data.Aspose.Cells.zip)
-- [kaynak forge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).zip/indir)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Use%20Formulas%20Functions%20to%20Process%20Data%20\(Aspose.Cells\).zip)

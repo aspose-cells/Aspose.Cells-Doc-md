@@ -1,18 +1,19 @@
-﻿---
-title: أوقف التحويل أو التحميل باستخدام InterruptMonitor عندما يستغرق وقتًا طويلاً
+---
+title: توقّف عن التحويل أو التحميل باستخدام InterruptMonitor عندما يستغرق وقتًا طويلاً
 type: docs
 weight: 100
 url: /ar/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يسمح لك Aspose.Cells بإيقاف تحويل المصنف إلى تنسيقات مختلفة مثل PDF ، HTML ، إلخ باستخدام[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)كائن عندما يستغرق وقتا طويلا. غالبًا ما تكون عملية التحويل كثيفة الاستخدام لوحدة المعالجة المركزية والذاكرة وغالبًا ما يكون من المفيد إيقافها عندما تكون الموارد محدودة. يمكنك استخدام[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)سواء لإيقاف التحويل وكذلك لإيقاف تحميل مصنف ضخم. الرجاء استخدام[**المصنف**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor)خاصية وقف التحويل و[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor)خاصية تحميل مصنف ضخم.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **أوقف التحويل أو التحميل باستخدام InterruptMonitor عندما يستغرق وقتًا طويلاً**
+يُسمح لـ Aspose.Cells بإيقاف تحويل الدفتر إلى تنسيقات مختلفة مثل PDF، HTML، إلخ باستخدام الكائن [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) عندما يستغرق وقتًا طويلاً. عملية التحويل غالبًا ما تكون مكثفة جدًا من حيث استخدام وحدة المعالجة المركزية والذاكرة، ومن المفيد في كثير من الأحيان إيقافها عندما تكون الموارد محدودة. يمكنك استخدام [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) للتوقف عن التحويل وكذلك لإيقاف تحميل دفتر العمل الضخم. يرجى استخدام خاصية [**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor) للتوقف عن التحويل والخاصية [**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor) لتحميل دفتر العمل الضخم.
 
-يشرح نموذج التعليمات البرمجية التالي استخدام[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)موضوع. يقوم الكود بتحويل ملف Excel كبير جدًا إلى PDF. سيستغرق الأمر عدة ثوانٍ (على سبيل المثال*أكثر من 30 ثانية*) لتحويلها بسبب هذه الأسطر من التعليمات البرمجية.
+## **توقّف عن التحويل أو التحميل باستخدام InterruptMonitor عندما يستغرق وقتًا طويلاً**
 
-{{< highlight "java" >}}
+يشرح الكود عينة التالي استخدام الكائن [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor). يقوم الكود بتحويل ملف إكسل كبير إلى ملف PDF. سيستغرق عدة ثوانٍ (أكثر من 30 ثانية) لتحويله بسبب هذه السطور من الكود.
+
+{{< highlight java >}}
 
 //Access cell AB1000000 and add some text inside it.
 
@@ -22,14 +23,14 @@ cell.putValue("This is text.");
 
 {{< /highlight >}}
 
-كما ترى**AB1000000**هي خلية أبعد تمامًا في ملف XLSX. ومع ذلك ، فإن*WaitForWhileAndThenInterrupt ()*الطريقة تقاطع التحويل بعد 10 ثوانٍ وينتهي البرنامج / ينتهي. الرجاء استخدام التعليمات البرمجية التالية لتنفيذ نموذج التعليمات البرمجية.
+كما ترون، الخلية **AB1000000** بعيدة إلى حد ما في ملف XLSX. ومع ذلك، يقوم طريقة *WaitForWhileAndThenInterrupt()* بتقطيع عملية التحويل بعد 10 ثوانٍ وينتهي/يُنهي البرنامج. يرجى استخدام الكود التالي لتنفيذ الكود عينة.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 new StopConversionOrLoadingUsingInterruptMonitor().testRun();
 
 {{< /highlight >}}
 
-## **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-StopConversionOrLoadingUsingInterruptMonitor-1.java" >}}

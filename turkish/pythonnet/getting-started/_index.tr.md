@@ -4,75 +4,76 @@ linktitle: Başlarken
 type: docs
 weight: 4
 url: /tr/python-net/getting-started/
-description: Aspose.Cells for Python via .NET'i nasıl kuracağınızı ve Hello World Uygulamasını nasıl oluşturacağınızı öğrenin.
-keywords: How to install Aspose.Cells for Python via .NET in Windows Linux and MacOS, installation guidelines for Aspose.Cells for Python via .NET, Python Via .NET Hello World program. 
+description: Aspose.Cells for Python via .NET yüklemeyi ve Hello World Uygulaması oluşturmayı öğrenin
+keywords: Aspose.Cells for Python via .NET u Windows, Linux ve MacOS ta nasıl kurulacağını, Aspose.Cells for Python via .NET için kurulum yönergelerini, .NET üzerinden Python Hello World programını nasıl kurulacağını öğrenin 
 ---
-##  **sistem gereksinimleri**
- Aspose.Cells for Python via .NET platformdan bağımsızdır API ve herhangi bir platformda (Windows ve Linux) kullanılabilir.[Python](https://www.python.org/downloads/) kuruludur.
 
-##  **Python Versiyon**
-- Python 3.6 veya üzeri
+## **Sistem Gereksinimleri**
+Aspose.Cells for Python via .NET platformdan bağımsız bir API'dir ve [Python](https://www.python.org/downloads/) kurulu olduğu herhangi bir platformda (Windows ve Linux) kullanılabilir. 
 
-##  **Kurulum**
-###  **Windows:**
- Aspose.Cells for Python via .NET numaralı telefondan rahatlıkla kullanabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
-{{< highlight "NET" >}}
+## **Python Sürümü**
+- Python 3.6 veya daha yeni
 
- $ pip install aspose-cells-python
-
-{{< /highlight >}}
-
-###  **Linux:**
- Aspose.Cells for Python via .NET numaralı telefondan rahatlıkla kullanabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
-{{< highlight "NET" >}}
+## **Kurulum**
+### **Windows:**
+Aspose.Cells for Python via .NET'yi [pypi](https://pypi.org/project/aspose-cells-python/) üzerinden aşağıdaki komutla kolayca kullanabilirsiniz.
+{{< highlight NET >}}
 
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
-- Not: Kurulumdan önce aşağıdaki komutu çalıştırmanız gerekmektedir.
-{{< highlight "NET" >}}
+
+### **Linux:**
+Aspose.Cells for Python via .NET'yi [pypi](https://pypi.org/project/aspose-cells-python/) üzerinden aşağıdaki komutla kolayca kullanabilirsiniz.
+{{< highlight NET >}}
+
+ $ pip install aspose-cells-python
+
+{{< /highlight >}}
+- Not: Kurulumdan önce aşağıdaki komutu çalıştırmanız gerekmektedir
+{{< highlight NET >}}
 For Ubuntu/Debian: apt-get install libgdiplus 
 For CentOS/RHEL/Fedora: yum install libgdiplus 
 {{< /highlight >}}
 
-###  **Mac os işletim sistemi:**
- Aspose.Cells for Python via .NET numaralı telefondan rahatlıkla kullanabilirsiniz.[pypi](https://pypi.org/project/aspose-cells-python/) aşağıdaki komutla.
-{{< highlight "NET" >}}
+### **MacOS:**
+Aspose.Cells for Python via .NET'yi [pypi](https://pypi.org/project/aspose-cells-python/) üzerinden aşağıdaki komutla kolayca kullanabilirsiniz.
+{{< highlight NET >}}
 
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
-- Not: Python'unuz Python3.7 ise (örneğin python3.7'yi buradan alın), aspose-cells-python'u yükledikten sonra aşağıdaki hatalar oluşabilir.
- '/usr/local/lib/libpython3.7m.dylib' (böyle bir dosya yok), '/usr/lib/libpython3.7m.dylib' (böyle bir dosya yok) istemi.
- Böyle bir durumda, lütfen aşağıdaki komutu bash_profile dosyanıza ekleyin (Önce libpython3.7m.dylib'in nerede olduğunu bulun, /Library/Frameworks/Python.framework/Versions/3.7/lib'i alın)
- örneğin burada)
-{{< highlight "NET" >}}
+- Not:Eğer python sürümünüz Python3.7 ise (örneğin, burada python3.7 alalım), aspose-cells-python'i yükledikten sonra aşağıdaki hatalarla karşılaşabilirsiniz
+  '/usr/local/lib/libpython3.7m.dylib' (böyle bir dosya yok), '/usr/lib/libpython3.7m.dylib' (böyle bir dosya yok) promptlanır.
+  Bu durumda,lütfen aşağıdaki komutu bash_profile'inize ekleyin(Öncelikle libpython3.7m.dylib'nin nerede olduğunu bulun,örneğin burada /Library/Frameworks/Python.framework/Versions/3.7/lib alalım)
+  tabii ki, daha basit olsun istiyorsanız, [libSkiaSharp.dylib](libSkiaSharp.dylib)'i indirebilir ve ardından **/usr/local/lib** dizinine **kopyalayabilirsiniz**.
+{{< highlight NET >}}
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
 export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
 {{< /highlight >}}
 
-- Not:SkiaSharp grafik kitaplığına olan güvenimiz nedeniyle aşağıdaki hatayla karşılaşırsanız:
-**System.DllNotFoundException: 'libSkiaSharp' paylaşılan kitaplığı veya bağımlılıklarından biri yüklenemiyor.** lütfen SkiaSharp'ı yükleyin.
-{{< highlight "NET" >}}
+- Not: SkiaSharp grafik kütüphanesine dayanmamız nedeniyle, aşağıdaki hatayla karşılaşırsanız:
+**System.DllNotFoundException: 'libSkiaSharp' adlı paylaşılan kütüphane veya bağımlılıklarından biri yüklenemiyor.** lütfen SkiaSharp'ı kurun.
+{{< highlight NET >}}
 brew  install nuget
 nuget install SkiaSharp.NativeAssets.macOS -Version 2.88.3
 {{< /highlight >}}
- Kurulumdan sonra lütfen aşağıdaki komutu çalıştırın
-{{< highlight "NET" >}}
+Kurulumdan sonra lütfen aşağıdaki komutu çalıştırın 
+{{< highlight NET >}}
 cp ./SkiaSharp.NativeAssets.macOS.2.88.3/runtimes/osx/native/libSkiaSharp.dylib /usr/local/lib/.
 {{< /highlight >}}
 
- Tabii eğer daha basit istiyorsanız, şunları da indirebilirsiniz.[libSkiaSharp.dylib](libSkiaSharp.dylib) ve daha sonra**kopyala** ona**/usr/yerel/lib** dizin.
+Tabii ki, daha basit olsun istiyorsanız, [libSkiaSharp.dylib](libSkiaSharp.dylib)'i indirebilir ve ardından **/usr/local/lib** dizinine **kopyalayabilirsiniz**.
 
-##  **Aspose.Cells for Python via .NET kullanarak Hello World Uygulamasını Oluşturma**
+## **Aspose.Cells for Python via .NET Kullanarak Hello World Uygulaması Nasıl Oluşturulur**
 
--  Adlı bir dosya oluşturun**HelloWorldFile.py Oluşturma** ve aşağıdaki örnek kodu kullanın:
+- **CreatingHelloWorldFile.py** adında bir dosya oluşturun ve aşağıdaki örnek kodu kullanın:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CreatingHelloWorldFile.py" >}}
 
-- Şimdi yukarıdaki kodu "CreatingHelloWorldFile.py" dosyasına kaydedin ve "python CreateHelloWorldFile.py" @command komut istemini çalıştırın.
+- Şimdi yukarıdaki kodu "CreatingHelloWorldFile.py" olarak kaydedin ve komut isteminden "python CreatingHelloWorldFile.py"'yi çalıştırın.
 
-##  **Python via .NET Örnek github**
--  Lütfen ziyaret edin[Aspose.Cells for Python via .NET Örnek](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) Daha fazla örnek kod görüntülemek için github'a gidin.
+## **Python via .NET Örnek github**
+- Daha fazla örnek kodu görmek için [Aspose.Cells for Python via .NET Örneğini](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) ziyaret edin.
 
 

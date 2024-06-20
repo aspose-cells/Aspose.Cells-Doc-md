@@ -1,20 +1,21 @@
-﻿---
-title: حذف المسافات الزائدة بعد فاصل السطر أثناء استيراد HTML
+---
+title: حذف المسافات الزائدة بعد فواصل الأسطر أثناء استيراد HTML
 type: docs
 weight: 620
 url: /ar/java/delete-redundant-spaces-after-line-break-while-importing/
 ---
+
 {{% alert color="primary" %}} 
 
- الرجاء استخدام[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) الملكية وتعيينها**حقيقي** لحذف جميع المسافات الزائدة التي تأتي بعد علامة فاصل الأسطر. بشكل افتراضي ، هذه الخاصية هي**خاطئة**ويتم الاحتفاظ بالمسافات الزائدة في ملفات Excel الناتجة.
+يرجى استخدام خاصية [HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) وتعيينها إلى **true** لحذف كل المسافات الزائدة بعد علامة فاصل السطر. افتراضيًا، تكون هذه الخاصية **false** وتُحتفظ المسافات الزائدة في ملفات الـ Excel المنتجة.
 
 {{% /alert %}} 
-## **تأثير تعيين الخاصية HtmlLoadOptions.DeleteRedundantSpaces إلى false و true**
- توضح لقطة الشاشة التالية تأثير تعيين هذه الخاصية على**خاطئة** و**حقيقي**.
+## **تأثير تعيين خاصية HtmlLoadOptions.DeleteRedundantSpaces إلى false و true**
+تُظهر اللقطة الشاشة التالية تأثير تعيين هذه الخاصية إلى **false** و **true**.
 
-![ما يجب القيام به: image_بديل_نص](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
-## **حذف المسافات الزائدة بعد فاصل السطر أثناء استيراد HTML**
- يُظهر نموذج التعليمات البرمجية التالي استخدام امتداد الملف[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) خاصية. يرجى ضبطه**حقيقي** أو**خاطئة** للحصول على الإخراج كما هو موضح في الصورة أعلاه.
+![todo:image_alt_text](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
+## **حذف المسافات الزائدة بعد فاصلة السطر أثناء استيراد HTML**
+الكود البرمجي عينة يوضح استخدام [HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces)  . يرجى تعيينها **true** أو **false** للحصول على الناتج كما هو موضح في اللقطة الشاشية أعلاه.
 
 
 

@@ -1,27 +1,28 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.3.1
+---
+title: Cambios en la API pública en Aspose.Cells 8.3.1
 type: docs
 weight: 110
 url: /es/net/public-api-changes-in-aspose-cells-8-3-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.Cells API de la versión 8.3.0 a la 8.3.1 que pueden ser de interés para los desarrolladores de módulos/aplicaciones.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.3.0 a la 8.3.1 que pueden ser de interés para los desarrolladores de módulos/aplicaciones.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Propiedad DataLabels.ShowCellRange agregado**
- La propiedad ShowCellRange se ha agregado a la clase DataLabels para imitar la funcionalidad de Excel de formatear las etiquetas de datos del gráfico en tiempo de ejecución. Tenga en cuenta que Excel proporciona esta función a través de los siguientes pasos.
+## **APIs Añadidas**
+### **Se ha añadido la propiedad ShowCellRange a DataLabels.**
+Se ha agregado la propiedad ShowCellRange a la clase DataLabels para imitar la funcionalidad de formato de las etiquetas de datos del gráfico en tiempo de ejecución, similar a Excel. Tenga en cuenta que Excel proporciona esta función a través de los siguientes pasos. 
 
-1. Seleccione Etiquetas de datos de la serie y haga clic con el botón derecho para abrir el menú emergente.
-1.  Haga clic en el**Formatear etiquetas de datos...** y se mostrará**Opciones de etiqueta**.
-1.  Marque o desmarque la casilla de verificación**La etiqueta contiene: valor desde Cells**.
+1. Selecciona las etiquetas de datos de la Serie y haz clic derecho para abrir el menú emergente.
+1. Haz clic en **Formato de las etiquetas de datos...** y se mostrará **Opciones de etiqueta**.
+1. Marca o desmarca la casilla de verificación **La etiqueta contiene - Valor de las celdas**.
 
- El código de muestra a continuación accede a las etiquetas de datos de la serie de gráficos y luego establece el método DataLabels.ShowCellRange en verdadero para imitar la característica de Excel de**La etiqueta contiene: valor desde Cells**.
+El código de muestra a continuación accede a las etiquetas de datos de la serie del gráfico y luego establece el método DataLabels.ShowCellRange en true para simular la característica de Excel de **La etiqueta contiene - Valor de celdas**.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from the source Excel file
 
@@ -49,7 +50,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -80,16 +81,16 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Por favor revisa el artículo[Mostrando el rango Cell como las etiquetas de datos](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) para más información.
+Consulte el artículo [Mostrar el rango de celdas como las etiquetas de datos](http://aspose.com/docs/display/cellsnet/Mostrar+el+rango+de+celdas+como+las+etiquetas+de+datos) para obtener más información.
 
 {{% /alert %}} 
 
-### **Métodos Cell.GetTable & ListObject.PutCellValue agregado**
-Los métodos Cell.GetTable & ListObject.PutCellValue se agregaron con Aspose.Cells for .NET 8.3.1 para facilitar a los usuarios el acceso a ListObject desde una celda y agregar valores dentro de ella usando los desplazamientos de fila y columna. El siguiente código de ejemplo carga la hoja de cálculo de origen y agrega valores dentro de la tabla.
+### **Se agregaron los métodos Cell.GetTable y ListObject.PutCellValue**
+Los métodos Cell.GetTable y ListObject.PutCellValue se agregaron con Aspose.Cells for .NET 8.3.1 para facilitar a los usuarios el acceso a ListObject desde una celda y agregar valores en ella utilizando los desplazamientos de fila y columna. El siguiente código de muestra carga la hoja de cálculo de origen y agrega valores dentro de la tabla.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -124,7 +125,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook from source Excel file
 
@@ -159,18 +160,18 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Por favor revisa el artículo[Acceder a la tabla desde Cell y agregar valores dentro de ella usando compensaciones de fila y columna](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) para más información.
+Consulte el artículo [Acceder a la tabla desde la celda y agregar valores en ella mediante desplazamientos de fila y columna](http://aspose.com/docs/display/cellsnet/Acceder+a+la+tabla+desde+la+celda+y+agregar+valores+en+ella+mediante+desplazamientos+de+fila+y+columna) para obtener más información.
 
 {{% /alert %}} 
 
-### **Propiedad OdsSaveOptions.IsStrictSchema11 Agregada**
-La propiedad IsStrictSchema11 se agregó a la clase OdsSaveOptions para permitir que los desarrolladores guarden la hoja de cálculo en un formato que cumpla con la especificación ODF v1.2. El valor predeterminado de la propiedad IsStrictSchema11 es falso, lo que significa que a partir de la versión 8.3.1 de las API Aspose.Cells, los archivos ODS se guardarán en formato ODF versión 1.2 de forma predeterminada.
+### **Se agregó la propiedad IsStrictSchema11 a la clase OdsSaveOptions para permitir a los desarrolladores guardar la hoja de cálculo en un formato conforme a la especificación ODF v1.2. El valor predeterminado de la propiedad IsStrictSchema11 es falso, lo que significa que, a partir de la versión 8.3.1 de las API de Aspose.Cells, los archivos ODS se guardarán como formato ODF versión 1.2 de forma predeterminada.**
+Se ha agregado la propiedad IsStrictSchema11 a la clase OdsSaveOptions para permitir a los desarrolladores guardar la hoja de cálculo en un formato que cumple con la especificación ODF v1.2. El valor predeterminado de la propiedad IsStrictSchema11 es falso, lo que significa que a partir de la versión 8.3.1 de las API de Aspose.Cells, los archivos ODS se guardarán como formato ODF versión 1.2 de forma predeterminada.
 
 El fragmento de código proporcionado a continuación guarda el archivo ODS en formato ODF 1.2.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 
@@ -203,7 +204,7 @@ workbook.Save("ODF1.1.ods", options);
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook 
 
@@ -235,23 +236,23 @@ m_workbook.Save("ODF1.1.ods", options)
 
 {{% alert color="primary" %}} 
 
- Por favor revisa el artículo[Guarde el archivo ODS en ODF 1.1 y 1.2 Especificaciones](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) para más información.
+Consulte el artículo [Guardar archivo ODS en las especificaciones ODF 1.1 y 1.2](http://aspose.com/docs/display/cellsnet/Guardar+archivo+ODS+en+las+especificaciones+ODF+1.1+y+1.2) para obtener más información.
 
 {{% /alert %}} 
 
-### **Método SparklineCollection.Add Agregado**
- Aspose.Cells Las API han expuesto el método SparklineCollection.Add(string dataRange, int row, int column) para especificar el rango de datos y la ubicación del grupo Sparkline. Tenga en cuenta que Excel proporciona la misma característica a través de los siguientes pasos.
+### **Se agregó el método SparklineCollection.Add**
+Las API de Aspose.Cells han expuesto el método SparklineCollection.Add(string dataRange, int row, int column) para especificar el rango de datos y la ubicación del grupo de minigráficos. Tenga en cuenta que Excel proporciona la misma función a través de los siguientes pasos. 
 
-1. Seleccione la celda que contiene su minigráfico.
-1.  Seleccione**Editar datos desde el minigráfico** sección dentro de la**Diseño** pestaña
-1.  Escoger**Editar ubicación y datos del grupo**.
-1.  Especificar**Rango de datos** & **Localización**.
+1. Selecciona la celda que contiene tu Sparkline.
+1. Selecciona **Editar Datos desde la sección de Sparkline** dentro de la pestaña **Diseño**
+1. Elige **Editar Ubicación de Grupo y Datos**.
+1. Especifica **Rango de Datos** & **Ubicación**.
 
- El siguiente código de ejemplo carga la hoja de cálculo de origen, accede al primer grupo de minigráficos y agrega nuevos rangos de datos y ubicaciones para el grupo de minigráficos.
+El siguiente código de muestra carga la hoja de cálculo fuente, accede al primer grupo de sparkline y agrega nuevos rangos de datos y ubicaciones para el grupo de sparkline. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -284,7 +285,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook from source Excel file
 
@@ -317,6 +318,6 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Por favor revisa el artículo[Copie Sparkline especificando el rango de datos y la ubicación del grupo Sparkline](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) para más información.
+Por favor, consulte el artículo [Copiar Mini Gráfico Especificando el Rango de Datos y la Ubicación del Grupo de Mini Gráficos](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) para obtener más información.
 
 {{% /alert %}}

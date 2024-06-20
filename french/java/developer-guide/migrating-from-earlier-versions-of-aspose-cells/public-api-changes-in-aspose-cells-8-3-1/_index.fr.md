@@ -1,27 +1,28 @@
-﻿---
-title: Public API Changements dans Aspose.Cells 8.3.1
+---
+title: Modifications de l API publique dans Aspose.Cells 8.3.1
 type: docs
 weight: 120
 url: /fr/java/public-api-changes-in-aspose-cells-8-3-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.Cells API de la version 8.3.0 à 8.3.1 qui peuvent intéresser les développeurs de modules/applications.
+Ce document décrit les modifications apportées à l'API Aspose.Cells de la version 8.3.0 à la version 8.3.1 qui pourraient intéresser les développeurs de modules/applications.
 
 {{% /alert %}} 
-## **API ajoutées**
-### **Propriété DataLabels.ShowCellRange ajoutée**
-Le getter/setter pour la propriété ShowCellRange a été ajouté à la classe DataLabels afin d'imiter la fonctionnalité d'Excel de formatage des étiquettes de données du graphique au moment de l'exécution. Veuillez noter qu'Excel fournit cette fonctionnalité à travers les étapes suivantes.
+## **APIs ajoutées**
+### **Ajout de la propriété DataLabels.ShowCellRange**
+Le getter/setter de la propriété ShowCellRange a été ajouté à la classe DataLabels afin de reproduire la fonctionnalité d'Excel pour formater les étiquettes de données du graphique en cours d'exécution. Veuillez noter qu'Excel fournit cette fonctionnalité en suivant les étapes suivantes. 
 
 1. Sélectionnez les étiquettes de données de la série et cliquez avec le bouton droit pour ouvrir le menu contextuel.
-1.  Clique le**Formater les étiquettes de données...** et ça montrera**Options d'étiquette**.
-1.  Cochez ou décochez la case**L'étiquette contient - Valeur à partir de Cells**.
+1. Cliquez sur **Format des étiquettes de données…** et il affichera **Options de l'étiquette**.
+1. Cochez ou décochez la case à cocher **L'étiquette contient - Valeur à partir des cellules**.
 
- L'exemple de code ci-dessous accède aux étiquettes de données de la série de graphiques, puis définit la méthode DataLabels.setShowCellRange () sur true pour imiter la fonctionnalité d'Excel de**L'étiquette contient - Valeur à partir de Cells**.
+Le code d'exemple ci-dessous accède aux étiquettes de données de la série du graphique, puis définit la méthode DataLabels.setShowCellRange() sur true pour reproduire la fonctionnalité d'Excel **L'étiquette contient - Valeur à partir des cellules**.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from the source spreadsheet containing an existing chart
 
@@ -49,16 +50,16 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
- Veuillez vérifier l'article[Affichage de la plage Cell comme étiquettes de données](/cells/fr/java/showing-cell-range-as-the-data-labels/) pour plus d'informations.
+Veuillez consulter l'article [Affichage de la plage de cellules en tant que étiquettes de données](/cells/fr/java/showing-cell-range-as-the-data-labels/) pour plus d'informations.
 
 {{% /alert %}} 
 
-### **Méthodes Cell.getTable & ListObject.putCellValue ajoutées**
-Les méthodes Cell.getTable & ListObject.putCellValue ont été ajoutées avec Aspose.Cells for Java 8.3.1 afin de faciliter aux utilisateurs l'accès à ListObject à partir d'une cellule et d'y ajouter des valeurs à l'aide des décalages de ligne et de colonne. L'exemple de code suivant charge la feuille de calcul source et ajoute des valeurs dans le tableau.
+### **Méthodes ajoutées Cell.getTable & ListObject.putCellValue**
+Les méthodes Cell.getTable & ListObject.putCellValue ont été ajoutées avec Aspose.Cells for Java 8.3.1 afin de faciliter l'accès des utilisateurs à ListObject à partir d'une cellule et d'ajouter des valeurs à l'intérieur en utilisant les décalages de ligne et de colonne. Le code d'exemple suivant charge la feuille de calcul source et ajoute des valeurs à l'intérieur de la table.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -92,18 +93,18 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
- Veuillez vérifier l'article[Accéder au tableau à partir de Cell et y ajouter des valeurs à l'aide des décalages de ligne et de colonne](/cells/fr/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/) pour plus d'informations.
+Veuillez consulter l'article [Accéder à un tableau à partir d'une cellule et ajouter des valeurs à l'intérieur en utilisant des décalages de ligne et de colonne](/cells/fr/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/) pour plus d'informations.
 
 {{% /alert %}} 
 
-### **Méthodes OdsSaveOptions.isStrictSchema11 & OdsSaveOptions.setStrictSchema11 ajoutées**
-Les méthodes isStrictSchema11 & setStrictSchema11 ont été ajoutées à la classe OdsSaveOptions afin de permettre aux développeurs d'enregistrer la feuille de calcul dans un format conforme à la spécification ODF v1.2. La valeur par défaut de la propriété setStrictSchema11 est false, ce qui signifie qu'à partir de la version 8.3.1 des API Aspose.Cells, les fichiers ODS seront enregistrés au format ODF version 1.2 par défaut.
+### **Méthodes ajoutées OdsSaveOptions.isStrictSchema11 & OdsSaveOptions.setStrictSchema11**
+Les méthodes isStrictSchema11 & setStrictSchema11 ont été ajoutées à la classe OdsSaveOptions afin de permettre aux développeurs de sauvegarder la feuille de calcul dans un format conforme à la spécification ODF v1.2. La valeur par défaut de la propriété setStrictSchema11 est fausse, cela signifie que, à partir de la version 8.3.1 des API Aspose.Cells, les fichiers ODS seront enregistrés par défaut au format ODF version 1.2.
 
-L'extrait de code fourni ci-dessous enregistre le fichier ODS au format ODF 1.2.
+Le code snippet fourni ci-dessous enregistre le fichier ODS au format ODF 1.2.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 
@@ -135,23 +136,23 @@ workbook.save("ODF1.1.ods", options);
 
 {{% alert color="primary" %}} 
 
- Veuillez vérifier l'article[Enregistrer le fichier ODS dans les spécifications ODF 1.1 et 1.2](/cells/fr/java/save-ods-file-in-odf-1-1-and-1-2-specifications/) pour plus d'informations.
+Veuillez consulter l'article [Sauvegarder un fichier ODS dans les spécifications ODF 1.1 et 1.2](/cells/fr/java/save-ods-file-in-odf-1-1-and-1-2-specifications/) pour plus d'informations.
 
 {{% /alert %}} 
 
-### **Méthode SparklineCollection.add ajoutée**
- Aspose.Cells Les API ont exposé la méthode SparklineCollection.add(String dataRange, int row, int column) pour spécifier la plage de données et l'emplacement du groupe Sparkline. Veuillez noter qu'Excel fournit la même fonctionnalité via les étapes suivantes.
+### **Méthode ajoutée SparklineCollection.add**
+Les API Aspose.Cells ont exposé la méthode SparklineCollection.add(String dataRange, int row, int column) pour spécifier la plage de données et l'emplacement du groupe de mini-graphiques. Veuillez noter qu'Excel propose la même fonctionnalité avec les étapes suivantes. 
 
-1. Sélectionnez la cellule contenant votre Sparkline.
-1.  Sélectionner**Modifier les données du Sparkline** section à l'intérieur du**Concevoir** languette
-1.  Choisir**Modifier l'emplacement et les données du groupe**.
-1.  Spécifier**Plage de données** & **Lieu**.
+1. Sélectionnez la cellule contenant votre mini-graphique.
+1. Sélectionnez **Modifier les données du mini-graphique** dans la section **Conception**.
+1. Choisissez **Modifier l'emplacement et les données du groupe**.
+1. Spécifiez **Plage de données** & **Emplacement**.
 
- L'exemple de code suivant charge la feuille de calcul source, accède au premier groupe de graphiques sparkline et ajoute de nouvelles plages de données et de nouveaux emplacements pour le groupe de graphiques sparkline.
+Le code d'exemple suivant charge la feuille de calcul source, accède au premier groupe de mini-graphiques et ajoute de nouvelles plages de données et des emplacements pour le groupe de mini-graphiques. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -183,6 +184,6 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
- Veuillez vérifier l'article[Copier Sparkline en spécifiant la plage de données et l'emplacement du groupe Sparkline](/cells/fr/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/) pour plus d'informations.
+Veuillez consulter l'article [Copier un mini-graphique en spécifiant la plage de données et l'emplacement du groupe de mini-graphiques](/cells/fr/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/) pour plus d'informations.
 
 {{% /alert %}}

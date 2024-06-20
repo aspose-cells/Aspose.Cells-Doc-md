@@ -1,22 +1,23 @@
 ---
-title: Python の行と列のグループ化とグループ解除
+title: Pythonで行と列をグループ化およびグループ解除する
 type: docs
 weight: 40
 url: /ja/java/grouping-and-ungrouping-rows-and-columns-in-python/
-description: Aspose.Cells for Python Via Java API を通じて行と列をグループ化およびグループ解除する方法を学びます。
-keywords: How to Group and Ungroup Rows and Columns in Python Via Java, Group Rows and Columns using Python Via Java, Python Via Java Ungroup Rows and Columns. 
+description: Aspose.Cells for Python Via Java APIを使用してPythonで行と列をグループ化およびグループ解除する方法を学びます。
+keywords: Python Via Javaを使用して行と列をグループ化およびグループ解除する方法、Python Via Javaを使用して行と列をグループ化する方法、Python Via Javaを使用して行と列をグループ解除する方法。 
 ---
-##  **Aspose.Cells for Python via Java の行と列のグループ化およびグループ化解除の管理**
-###  **Python で行と列をグループ化する方法**
-Cells コレクションの groupRows メソッドと groupColumns メソッドを呼び出すことで、行または列をグループ化することができます。どちらのメソッドも次のパラメータを受け取ります。
 
-- 最初の行/列インデックス、グループ内の最初の行または列。
-- 最後の行/列のインデックス、グループ内の最後の行または列。
-- hidden は、グループ化後に行/列を非表示にするかどうかを指定するブール型パラメーターです。
+## **Aspose.Cells for Python via Javaにおける行と列のグループ化およびグループ解除の管理**
+### **Pythonで行と列をグループ化する方法**
+CellsコレクションのgroupRowsおよびgroupColumnsメソッドを呼び出すことで、行または列をグループ化することが可能です。両方のメソッドには、次のパラメーターがあります：
 
-**Python コード**
+- 最初の行/列インデックス、グループ内の最初の行または列
+ - グループ内の最後の行/列のインデックス、最後の行または列。
+- 非表示かどうか、グループ化後に行または列を非表示にするかどうかを指定するブールパラメータ。
 
-{{< highlight "python" >}}
+**Pythonコード**
+
+{{< highlight python >}}
 
  def group_rows_columns(self):
 
@@ -45,15 +46,15 @@ workbook.save(self.dataDir + "Group Rows And Columns.xls")
 print "Group Rows And Columns Successfully." 
 
 {{< /highlight >}}
-###  **Python を使用して行と列のグループを解除する方法**
-Cells コレクションの UngroupRows メソッドおよび UngroupColumns メソッドを呼び出して、グループ化された行または列のグループ化を解除します。どちらのメソッドも同じパラメータを受け取ります。
+### **Pythonを使用して行および列をグループ解除する方法**
+UngroupRowsとUngroupColumnsメソッドを使用して、Cellsコレクションのグループ化された行や列を解除できます。両方のメソッドには、次のパラメーターがあります：
 
 - 最初の行または列のインデックス、グループ化を解除する最初の行/列。
 - 最後の行または列のインデックス、グループ化を解除する最後の行/列。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def ungroup_rows_columns(self):
 
@@ -82,7 +83,7 @@ workbook.save(self.dataDir + "Ungroup Rows And Columns.xls")
 print "Ungroup Rows And Columns Successfully." 
 
 {{< /highlight >}}
-##  **実行コードをダウンロード**
-ダウンロード**行と列のグループ化とグループ解除 (Aspose.Cells)**以下のソーシャル コーディング サイトのいずれかから:
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**グループとアングループの行と列（Aspose.Cells）**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

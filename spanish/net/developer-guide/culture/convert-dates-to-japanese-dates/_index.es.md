@@ -1,20 +1,21 @@
-﻿---
-title: Convertir fechas a fechas japonesas
+---
+title: Convertir Fechas a Fechas Japonesas
 type: docs
 weight: 350
 url: /es/net/convert-dates-to-japanese-dates/
 ---
+
 {{% alert color="primary" %}} 
 
-En el calendario japonés** **, una nueva era comienza con el reinado de un nuevo emperador. El 1 de mayo de 2019 asumió el poder un nuevo emperador con el que finalizó la era Heisei y comenzó la era Reiwa.
+En el Calendario Japonés, una nueva era comienza con el reinado de un nuevo emperador. El 1 de mayo de 2019, un nuevo emperador tomó el poder con lo cual terminó la era Heisei y comenzó la era Reiwa.
 
 {{% /alert %}} 
 
 
 
- Aspose.Cells proporciona una forma de convertir fechas gregorianas a fechas japonesas. Durante esta conversión, también se consideran los cambios de época. El siguiente fragmento de código convierte el[Excel fuente](90112015.xlsx) archivo que contiene fechas gregorianas hasta el[salida PDF](90112016.pdf) con fechas japonesas como se muestra en la imagen de abajo.
+Aspose.Cells proporciona una manera de convertir fechas Gregorianas a fechas Japonesas. Durante esta conversión, también se consideran los cambios en las eras. El siguiente fragmento de código convierte el archivo de Excel de origen que contiene fechas Gregorianas al [PDF de salida](90112016.pdf) con fechas Japonesas como se muestra en la imagen abajo.
 
-![todo:imagen_alternativa_texto](convert-dates-to-japanese-dates_1.jpg)
+![todo:image_alt_text](convert-dates-to-japanese-dates_1.jpg)
 
 
 

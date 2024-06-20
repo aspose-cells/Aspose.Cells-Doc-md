@@ -1,20 +1,21 @@
-﻿---
-title: Adatta colonne e righe durante il caricamento di HTML nella cartella di lavoro
+---
+title: Adatta automaticamente colonne e righe durante il caricamento di HTML in Workbook
 type: docs
 weight: 120
 url: /it/net/autofit-columns-and-rows-while-loading-html-in-workbook/
 ---
-## **Possibili scenari di utilizzo**
 
-Puoi adattare automaticamente colonne e righe durante il caricamento del file HTML all'interno dell'oggetto Cartella di lavoro. Si prega di impostare il**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)** proprietà a**VERO**per questo scopo.
+## **Possibili Scenari di Utilizzo**
 
-## **Adatta colonne e righe durante il caricamento di HTML nella cartella di lavoro**
+È possibile adattare automaticamente le colonne e le righe durante il caricamento del file HTML all'interno dell'oggetto Workbook. Impostare la proprietà [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows) su **true** a tale scopo.
 
- Il codice di esempio seguente carica innanzitutto l'esempio HTML nella cartella di lavoro senza alcuna opzione di caricamento e lo salva nel formato XLSX. Quindi carica nuovamente il campione HTML nella cartella di lavoro, ma questa volta carica il HTML dopo aver impostato il**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)** proprietà a**VERO**e lo salva nel formato XLSX. Si prega di scaricare entrambi i file excel di output, ad es[File Excel di output senza AutoFitColsAndRows](outputWithout_AutoFitColsAndRows.xlsx) e[File Excel di output con AutoFitColsAndRows](outputWith_AutoFitColsAndRows.xlsx) . Lo screenshot seguente mostra l'effetto di**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)**property su entrambi i file excel di output.
+## **Adatta automaticamente colonne e righe durante il caricamento di HTML in Workbook**
 
-![cose da fare:immagine_alt_testo](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+Il seguente codice di esempio carica innanzitutto l'HTML di esempio in un Workbook senza alcuna opzione di caricamento e lo salva in formato XLSX. Quindi carica nuovamente l'HTML di esempio in un Workbook ma questa volta, carica l'HTML dopo aver impostato la proprietà [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows) su **true** e lo salva in formato XLSX. Si prega di scaricare entrambi i file di output di Excel, cioè [File di Excel di output senza AutoFitColsAndRows](outputWithout_AutoFitColsAndRows.xlsx) e [File di Excel di output con AutoFitColsAndRows](outputWith_AutoFitColsAndRows.xlsx). La seguente schermata mostra l'effetto della proprietà [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows) su entrambi i file di output di Excel.
 
-## **Codice d'esempio**
+![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-AutoFitColumnsandRowsWhileLoadingHTMLInWorkbook-1.cs" >}}
 

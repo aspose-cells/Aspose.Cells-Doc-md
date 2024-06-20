@@ -1,17 +1,18 @@
 ---
-title: Grafik Serisinin Değer Biçimi Kodunu Ayarlama
-description: Aspose.Cells for Java numaralı telefondan grafik serisinin değer format kodunu nasıl ayarlayacağınızı öğrenin. Kılavuzumuz, uygun format kodunu kullanarak grafik serisi verilerinizi nasıl formatlayacağınızı anlamanıza yardımcı olacak ve verilerinizi doğru ve profesyonel bir şekilde sunmanıza olanak sağlayacaktır.
-keywords: Aspose.Cells for Java, chart series, values format code, formatting, data presentation, accuracy, professionalism.
-linktitle: Sayı Formatı
+title: Grafik Serisinin Değer Biçim Kodunu Ayarlayın
+description: Aspose.Cells for Java de grafik serisinin değer biçim kodunu nasıl ayarlayacağınızı öğrenin. Rehberimiz, uygun biçim kodunu kullanarak verilerinizi doğru ve profesyonel bir şekilde sunmanıza olanak tanıyarak, grafik serisi verilerinizi nasıl biçimlendireceğinizi anlamanıza yardımcı olacaktır.
+keywords: Aspose.Cells for Java, grafik serisi, değer biçim kodu, biçimlendirme, veri sunumu, doğruluk, profesyonellik.
+linktitle: Sayı Biçimi
 type: docs
 weight: 100
 url: /tr/java/set-the-values-format-code-of-chart-series/
 ---
-##  **Olası Kullanım Senaryoları**
-Grafik serisinin değer formatı kodunu kullanarak ayarlayabilirsiniz.[Series.setValuesFormatCode](https://reference.aspose.com/cells/java/com.aspose.cells/series/#setValuesFormatCode-java.lang.String-) yöntem. Bu yöntem yalnızca çalışma sayfası içindeki aralığa dayalı seriler için kullanışlı değildir, aynı zamanda bir değerler dizisiyle oluşturulan seriler için de işe yarar.
-##  **Grafik Serisinin Değer Biçimi Kodunu Ayarlama**
- Aşağıdaki örnek kod, boş grafiğe daha önce serisi olmayan bir seri ekler. Değer dizisini kullanarak seriyi ekler. Seriyi ekledikten sonra $#,##0 koduyla formatlar.[Series.setValuesFormatCode](https://reference.aspose.com/cells/java/com.aspose.cells/series/#setValuesFormatCode-java.lang.String-) yöntem ve 10000 sayısı 10.000$ olur. Ekran görüntüsü kodun üzerindeki etkisini gösterir.[örnek Excel dosyası](51740712.xlsx) Ve[Excel dosyasının çıktısı](51740713.xlsx) infazdan sonra.
 
-![yapılacak şey:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
-##  **Basit kod**
+## **Olası Kullanım Senaryoları**
+Grafik serisinin değer biçim kodunu [Series.setValuesFormatCode](https://reference.aspose.com/cells/java/com.aspose.cells/series/#setValuesFormatCode-java.lang.String-) yöntemini kullanarak ayarlayabilirsiniz. Bu yöntem, çalışma sayfası içindeki aralığa dayalı olan seriler için değil, aynı zamanda değerler dizisi ile oluşturulan seriler için de iyi çalışır.
+## **Grafik Serisinin Değer Biçim Kodunu Ayarlayın**
+Aşağıdaki örnek kod, önceden serisi olmayan boş bir grafikte bir seri ekler. Seriyi değerler dizisi kullanarak ekler. Seriyi ekledikten sonra, $#,##0 kodunu kullanarak [Series.setValuesFormatCode](https://reference.aspose.com/cells/java/com.aspose.cells/series/#setValuesFormatCode-java.lang.String-) yöntemiyle biçimlendirir ve 10000 sayısı $10,000 olur. Ekran görüntüsü, [örnek Excel dosyası](51740712.xlsx) ve [çıktı Excel dosyası](51740713.xlsx) üzerinde kodun etkisini gösterir.
+
+![todo:image_alt_text](set-the-values-format-code-of-chart-series_1.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SetValuesFormatCodeOfChartSeries.java" >}}

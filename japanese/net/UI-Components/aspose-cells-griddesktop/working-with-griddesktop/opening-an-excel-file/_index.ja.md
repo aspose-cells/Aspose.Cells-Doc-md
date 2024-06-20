@@ -1,47 +1,50 @@
-﻿---
-title: Excel ファイルを開く
+---
+title: Excelファイルを開く
 type: docs
 weight: 10
-url: /ja/net/opening-an-excel-file/
+url: /ja/net/aspose-cells-griddesktop/openg-an-excel-file/
+keywords: GridDesktop、ファイルを開く
+description: この記事では、GridDesktopでファイルを開く方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells Grid Suite のユニークな機能は、Excel ファイルとの互換性です。このトピックでは、ユーザーが Aspose.Cells.GridDesktop コントロールを使用して Windows アプリケーションで Excel ファイルを開く方法を示します。
+Aspose.Cells Grid Suiteのユニークな機能の1つは、Excelファイルとの互換性です。このトピックでは、Aspose.Cells.GridDesktopコントロールを使用してWindowsアプリケーションでExcelファイルを開く方法を実演します。
 
 {{% /alert %}} 
-## **序章**
- Aspose.Cells.GridDesktop を使用して Excel ファイルを開くには、GridDesktop コントロールを含むデスクトップ アプリケーションを作成する必要があります。 Aspose.Cells.GridDesktop コントロールを Windows フォームに追加する方法がわからない場合は、以下を参照してください。[Aspose.Cells.GridDesktop の使い方](/cells/ja/net/how-to-use-aspose-cells-griddesktop/)
+## **紹介**
+Aspose.Cells.GridDesktopを使用してExcelファイルを開くには、GridDesktopコントロールを含むデスクトップアプリケーションを作成する必要があります。WindowsフォームにAspose.Cells.GridDesktopコントロールを追加する方法がわからない場合は、[Aspose.Cells.GridDesktopの使用方法](/cells/ja/net/how-to-use-aspose-cells-griddesktop/)を参照してください。
 
-Aspose.Cells.GridDesktop は、Excel ファイルを開くための次の 3 つの異なる方法を提供します。
+Aspose.Cells.GridDesktopは、Excelファイルを開くための次の異なる方法を提供します。
 
-1. **ファイルから開く**
-1. **CSV ファイルを開く**
-1. **ストリームから開く**
+1. ファイルから開く
+1. CSVファイルを開く
+1. ストリームから開く
 ## **Excelファイルを開く**
-この例では、デスクトップ アプリケーションを作成し、次の操作を行います。
+この例では、デスクトップアプリケーションを作成し、以下の操作を行います。
 
-- 1 つの GridControl コントロールをフォームに追加します。
-- テキスト プロパティが次のように設定された 3 つのボタンを追加します。
+- フォームにGridControlコントロールを追加します。
+- 以下のテキストプロパティを設定したボタンを3つ追加します:
   - **Excelファイルを開く**
-  - **CSV ファイルを開く**
+  - **CSVファイルを開く**
   - **ストリームから開く**
 ### **ファイルから開く**
-Excel ファイルから Aspose.Cells.GridDesktop コントロールにコンテンツをロードするには、コントロールのメソッドを呼び出して、Excel ファイルのパスを指定する必要があります。その後、Aspose.Cells.GridDesktop コントロールは、指定されたパスからファイルを自動的に検索し、その内容を表示します。次の例は、Excel ファイルの内容を読み込むためのコード スニペットを示しています。の Click イベントを作成します。**Excelファイルを開く**ボタンをクリックして、その中に次のコードを貼り付けます。
+Excelファイルの内容をAspose.Cells.GridDesktopコントロールにロードするには、コントロールのメソッドを呼び出してExcelファイルのパスを指定する必要があります。その後、Aspose.Cells.GridDesktopコントロールは指定されたパスからファイルを自動的に見つけてその内容を表示します。Excelファイルの内容をロードするコードスニペットは以下の例に示されています。**Excelファイルを開く**ボタンのClickイベントを作成し、以下のコードを貼り付けます。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningExcelFile.cs" >}}
 
 
-上記のコード スニペットは、開発者が任意の方法で使用できます。たとえば、Windows フォームの読み込み時に Excel ファイルを自動的に読み込みたい場合は、フォームの Load イベントの下にこのコードを追加できます。
-### **CSV ファイルを開く**
-Aspose.Cells.GridDesktop コントロールは、CSV ファイルの読み込みもサポートします。の Click イベントを作成します。**CSV ファイルを開く**ボタンをクリックして、その中に次のコードを貼り付けます。
+上記のコードスニペットは、開発者が任意の方法で使用できます。たとえば、Windowsフォームの読み込み時に自動的にExcelファイルを読み込みたい場合は、このコードをフォームの読み込みイベントの下に追加することができます。
+### **CSVファイルを開く**
+Aspose.Cells.GridDesktopコントロールはCSVファイルの読み込みもサポートしています。**Open CSV File**ボタンのクリックイベントを作成し、以下のコードを中に貼り付けてください。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningCSVFile.cs" >}}
 ### **ストリームから開く**
-上記の説明では、ファイル パスを使用して Excel ファイルを読み込むことについて説明しましたが、Aspose.Cells.GridDesktop コントロールは、ストリームからの Excel ファイルの読み込みもサポートしています。の Click イベントを作成します。**ストリームから開く**ボタンをクリックして、その中に次のコードを貼り付けます。
+上記のディスカッションでファイルパスを使用してExcelファイルを読み込むことについて説明しましたが、Aspose.Cells.GridDesktopコントロールはストリームからExcelファイルを読み込むこともサポートしています。**Open from Stream**ボタンのクリックイベントを作成し、以下のコードを中に貼り付けてください。
 
 
 
@@ -49,10 +52,10 @@ Aspose.Cells.GridDesktop コントロールは、CSV ファイルの読み込み
 
 
 
-ファイルをストリームとして使用することは、ストリームを閉じることによってファイルへのすべての接続を確実に閉じることができるため、あらゆる種類のファイル アクセスまたは共有違反の問題を防止するためのより良い方法です。
+ファイルをストリームとして使用することは、このアプローチによりファイルアクセスや共有違反の問題を防ぐためにより良いアプローチです。このアプローチにより、ストリームを閉じることでファイルへのすべての接続を確実に閉じることができます。
 
 {{% alert color="primary" %}} 
 
-重要: 重要な点は、Aspose.Cells.GridDesktop コントロールにも LoadFromExcel という名前のメソッドが含まれていることです。このメソッドは、Excel ファイルの内容をグリッドにロードするためにも使用されます。しかし、この方法は現在廃止されています。したがって、すべての開発者は、廃止されたメソッドよりも堅牢で効率的な ImportExcelFile メソッドを使用することをお勧めします。
+重要: Aspose.Cells.GridDesktopコントロールにはLoadFromExcelというメソッドも含まれており、これはExcelファイルの内容をGridに読み込むために使用されます。しかし、このメソッドは現在非推奨となっています。したがって、すべての開発者は、非推奨のものよりも堅牢で効率的なImportExcelFileメソッドを使用することが推奨されています。
 
 {{% /alert %}}

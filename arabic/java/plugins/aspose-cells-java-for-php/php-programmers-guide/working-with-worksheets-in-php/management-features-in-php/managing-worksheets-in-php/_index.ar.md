@@ -1,16 +1,17 @@
-﻿---
-title: إدارة أوراق العمل في Php
+---
+title: إدارة أوراق العمل في PHP
 type: docs
 weight: 10
 url: /ar/java/managing-worksheets-in-php/
 ---
-## **Aspose.Cells - إدارة أوراق العمل**
-### **إضافة أوراق عمل إلى ملف Excel جديد**
- لإضافة ورقة عمل إلى ملف Excel جديد باستخدام**Aspose.Cells Java for PHP** ، ببساطة اتصل**add_worksheet** طريقة**أوراق العمل** وحدة.
+
+## **Aspose.Cells - إدارة ورق العمل**
+### **إضافة ورقات العمل إلى ملف Excel جديد**
+لإضافة صفحة عمل إلى ملف إكسل جديد باستخدام **Aspose.Cells Java for PHP**، ما عليك سوى استدعاء طريقة **add_worksheet** من وحدة **MangingWorksheets**.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object
 
@@ -33,12 +34,12 @@ $worksheet->setName("My Worksheet");
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-### **إزالة أوراق العمل باستخدام اسم الورقة**
- لإزالة ورقة العمل حسب اسم الورقة باستخدام**Aspose.Cells Java for PHP** ، ببساطة اتصل**remove_worksheet_by_name** طريقة**أوراق العمل** وحدة.
+### **إزالة الأوراق العمل باستخدام اسم الورقة**
+لإزالة الصفحة عن طريق اسم الورقة باستخدام **Aspose.Cells Java for PHP**، ما عليك سوى استدعاء طريقة **remove_worksheet_by_name** من وحدة **MangingWorksheets**.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,12 +62,12 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-### **إزالة أوراق العمل باستخدام فهرس الورقة**
- لإزالة ورقة العمل عن طريق فهرس الورقة باستخدام**Aspose.Cells Java for PHP** ، ببساطة اتصل**remove_worksheet_by_index** طريقة**أوراق العمل** وحدة.
+### **إزالة الأوراق العمل باستخدام فهرس الورقة**
+لإزالة الصفحة عن طريق فهرس الصفحة باستخدام **Aspose.Cells Java for PHP**، ما عليك سوى استدعاء طريقة **remove_worksheet_by_index** من وحدة **MangingWorksheets**.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -89,7 +90,7 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**إدارة أوراق العمل (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل  **إدارة الورقة (Aspose.Cells)**  من أي من مواقع التعاون البرمجي الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

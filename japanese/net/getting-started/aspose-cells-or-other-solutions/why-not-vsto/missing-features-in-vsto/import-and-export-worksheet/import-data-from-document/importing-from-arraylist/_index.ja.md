@@ -1,16 +1,17 @@
-﻿---
+---
 title: ArrayList からのインポート
 type: docs
 weight: 20
 url: /ja/net/importing-from-arraylist/
 ---
-開発者は、ArrayList からワークシートにデータをインポートするには、**ImportArrayList** Cells コレクションのメソッド。 ImportArray メソッドは、次のパラメーターを取ります。**配列リスト** 、内容をインポートする必要がある ArrayList オブジェクトを表します
 
-- Row Number は、データがインポートされる最初のセルの行番号を表します
-- 列番号 は、データがインポートされる最初のセルの列番号を表します
-- Vertical 、データを垂直または水平にインポートするように指定するブール値
+開発者は、Cells コレクションの **ImportArrayList** メソッドを呼び出すことで、ArrayList からデータをワークシートにインポートできます。ImportArray メソッドには次のパラメーターがあります：**ArrayList**、インポートする内容の ArrayList オブジェクトを表します
 
-{{< highlight "csharp" >}}
+- 行番号、データをインポートする最初のセルの行番号を表します
+- 列番号、データをインポートする最初のセルの列番号を表します
+- 垂直かどうかを指定するブール値、データを縦方向または横方向にインポートするかどうかを指定します
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 

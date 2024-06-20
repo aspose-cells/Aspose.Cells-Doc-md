@@ -1,34 +1,35 @@
-﻿---
-title: スプレッドシートを CSV 形式にエクスポートする際に、先頭の空白の行と列をトリミングする
+---
+title: スプレッドシートをCSV形式にエクスポートする際に先行する空白行と列をトリミングします
 type: docs
 weight: 50
 url: /ja/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
 ---
-## **考えられる使用シナリオ**
 
-Excel または CSV ファイルの先頭に空白の列または行がある場合があります。たとえば、この行を考えてみましょう
+## **可能な使用シナリオ**
 
-{{< highlight "java" >}}
+ExcelまたはCSVファイルには先行する空白の列または行が含まれている場合があります。 たとえば、この行を考えてみてください
+
+{{< highlight java >}}
 
  ,,,data1,data2
 
 {{< /highlight >}}
 
-ここでは、最初の 3 つのセルまたは列が空白です。このような CSV ファイルを Microsoft Excel で開くと、Microsoft Excel はこれらの先頭の空白行と列を破棄します。
+ここでは、最初の3つのセルまたは列が空白です。 このようなCSVファイルをMicrosoft Excelで開くと、Microsoft Excelはこれらの先行する空白行と列を破棄します。
 
-デフォルトでは、Aspose.Cells は保存時に先頭の空白の列と行を破棄しませんが、Microsoft Excel のようにそれらを削除したい場合は、Aspose.Cells が提供します**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)**財産。に設定してください**真実**保存時に先頭の空白の行と列はすべて破棄されます。
+デフォルトでは、Aspose.Cellsは先行する空白の列と行を保存時に破棄しませんが、Microsoft Excelと同様にそれらを除去したい場合は、Aspose.Cellsが[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)を提供します。 それを**true**に設定すると、すべての先行する空白行と列が保存時に破棄されます。
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET 20.4 のリリース前は、デフォルト値の**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)**だった**間違い** 20.4 リリース以降、デフォルト値の**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)**は**真実。**
+Aspose.Cells for .NET 20.4のリリース前は、[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)のデフォルト値は**false**でした。 20.4リリース以降、[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)のデフォルト値は**true**です。
 
 {{% /alert %}}
 
-## **スプレッドシートを CSV 形式にエクスポートする際に、先頭の空白の行と列をトリミングする**
+## **スプレッドシートをCSV形式にエクスポートする際に先行する空白行と列をトリミングします。**
 
-次のサンプル コードは、先頭に 2 つの空白列があるソース Excel ファイルを読み込みます。最初にExcelファイルを変更せずにCSV形式で保存してから設定します**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)**プロパティへ**真実**再度保存します。スクリーンショットは、[ソースエクセルファイル](sampleTrimBlankColumns.xlsx), [トリミングなしで CSV ファイルを出力](outputWithoutTrimBlankColumns.csv)、 そしてその[CSV ファイルをトリミングして出力](outputTrimBlankColumns.csv).
+以下のサンプルコードは、2つの先行する空白の列を含むソースExcelファイルをロードし、まず何も変更せずにCSV形式で保存し、次に[**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)を**true**に設定して再保存します。 スクリーンショットには、[source excel file](sampleTrimBlankColumns.xlsx)、トリミングなしの[output CSV file without trimming](outputWithoutTrimBlankColumns.csv)、およびトリミングされた[output CSV file with trimming](outputTrimBlankColumns.csv)が表示されています。
 
-![todo:画像_代替_文章](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
+![todo:image_alt_text](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 
 ## **サンプルコード**
 

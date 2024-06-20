@@ -1,13 +1,14 @@
-﻿---
+---
 title: العمل مع الخطوط
 type: docs
 weight: 30
 url: /ar/net/working-with-fonts/
 ---
-## **Aspose.Cells - التعامل مع الخطوط**
+
+## **Aspose.Cells - العمل مع الخطوط**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -48,7 +49,7 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 ## **NPOI - HSSF XSSF - العمل مع الخطوط**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -91,13 +92,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**العمل مع الخطوط** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **العمل مع الخطوط** من أي من المواقع الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[ميزات تشكيل البيانات](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+لمزيد من التفاصيل، قم بزيارة [ميزات تنسيق البيانات](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

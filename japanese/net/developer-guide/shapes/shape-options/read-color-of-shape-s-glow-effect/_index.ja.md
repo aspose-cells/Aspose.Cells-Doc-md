@@ -1,30 +1,33 @@
-﻿---
-title: シェイプのグロー効果の色を読み取る
+---
+title: 形状のグローエフェクトの色を読み取りたい場合は、{0}プロパティを使用してください。これにより、形状のグローエフェクトの色に関連するさまざまなプロパティがわかります。
 type: docs
 weight: 330
 url: /ja/net/read-color-of-shape-s-glow-effect/
 ---
-## 考えられる使用シナリオ
 
-任意の形状のグロー効果の色を読み取りたい場合は、[**シェイプ.グロー.カラー**](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)財産。シェイプのグロー効果の色に関連するさまざまなプロパティを見つけるのに役立ちます。
+## 可能な使用シナリオ
 
-## シェイプのグロー効果の色を読み取る
+形状のグローエフェクトの色を読み取りたい場合は、[**Shape.Glow.Color**](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)プロパティを使用してください。これにより、形状のグローエフェクトの色に関連するさまざまなプロパティがわかります。
 
-次のサンプル コードとそのコードを参照してください。[ソースエクセルファイル](22774108.xlsx)参照用のコンソール出力。次のスクリーンショットは、Microsoft Excel で表示した場合のソース Excel ファイル内の形状のグロー効果を示しています。
+## シェイプのグローエフェクトの色を読む
 
-![todo:画像_代替_文章](read-color-of-shape-s-glow-effect_1.png)
+参照のために、以下はサンプルコードとその [ソースエクセルファイル](22774108.xlsx) およびコンソール出力を示したスクリーンショットです。次のスクリーンショットは、Microsoft Excelで表示したときのソースエクセルファイル内の形状のグローエフェクトを示しています。
 
-## C# 図形の色のグロー効果を読み取るコード
+![todo:image_alt_text](read-color-of-shape-s-glow-effect_1.png)
+
+## C#コード：形状のグローエフェクトの色を読み取る
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ReadColorOfShapesGlowEffect.cs" >}}
 
 ## コンソール出力
 
-上記のサンプル コードを提供されたコマンドで実行した場合のコンソール出力は次のとおりです。[ソースエクセルファイル](22774108.xlsx).
+提供された [ソースエクセルファイル](22774108.xlsx) で上記のサンプルコードを実行したときのコンソール出力は次のとおりです。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
-Color: Color [A=222, R=255, G=0, B=0]ColorIndex: 16711672
+Color: Color [A=222, R=255, G=0, B=0]
+
+ColorIndex: 16711672
 
 IsShapeColor: True
 

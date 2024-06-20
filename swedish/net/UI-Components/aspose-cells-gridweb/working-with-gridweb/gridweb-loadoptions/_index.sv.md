@@ -2,22 +2,24 @@
 title: LoadOptions för GridWeb
 type: docs
 weight: 90
-url: /sv/net/aspose-cells-gridweb/loadoptions/
-keywords: loadoption,loadoptions,setting,
+url: /sv/net/aspose-cells-gridweb/aspose-cells-gridweb/loadoptions/
+keywords: loadoption, loadoptions, setting, load, options, option
+description: Den här artikeln introducerar hur man arbetar med laddningsalternativ i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
 Det finns några laddningsalternativ vi kan ställa in innan filen importeras.
 
- vi kan använda[GridLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridloadoptions/)(för allmän fil) och[GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridtxtloadoptions/) (för csv-fil)
- 
+Vi kan använda [GridLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridloadoptions/) (för allmän fil) och [GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridtxtloadoptions/) (för csv-fil)	
+
 {{% /alert %}} 
-##  ** ladda med annan kodning**
-För csv-filen är det faktiskt en textbaserad fil, utan den specifika kodningen som beskrivs i xlsx-formatfilen.
+## **Ladda med annan kodning**
+För csv-filen är det faktiskt en textbaserad fil, utan den specifika kodningen som beskrivs i filen i xlsx-format.
 
-Därför kan användare ställa in specifik teckenkodning innan filen laddas.
+Därför kan användare ange specifik teckenkodning innan filen laddas.
 
-här är en exempelkod att ladda med kinesiska:
+här är en exempelkod för att ladda med kinesiska:
 
 ```csharp
     GridTxtLoadOptions topt = new GridTxtLoadOptions();

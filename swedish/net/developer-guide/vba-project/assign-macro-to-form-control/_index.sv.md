@@ -1,18 +1,19 @@
-﻿---
-title: Tilldela makro till formulärkontroll
+---
+title: Tilldela Makro till Formulärkontroll
 type: docs
 weight: 60
 url: /sv/net/assign-macro-to-form-control/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells låter dig tilldela en makrokod till en formulärkontroll som en knapp. Vänligen använd[**Shape.MarcoName**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname) egenskap för att tilldela en ny makrokod till en formulärkontroll i arbetsboken.
+Aspose.Cells låter dig tilldela ett makro kod till en formulärkontroll som en knapp. Använd [**Shape.MarcoName**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname) -egenskapen för att tilldela en ny makro kod till en formulärkontroll i arbetsboken.
 
 {{% /alert %}}
 
-Följande exempelkod skapar en ny arbetsbok, tilldelar en makrokod till en formulärknapp och sparar utdata i formatet XLSM. En gång kommer du att öppna utdatafilen XLSM i Microsoft Excel, du kommer att se följande makrokod.
+Följande exempelkod skapar en ny arbetsbok, tilldela en makro kod till en formulärknapp och sparar utdata i XLSM-format. När du sedan öppnar utdata-XLSM-filen i Microsoft Excel kommer du att se följande makro kod.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -24,6 +25,6 @@ End Sub
 
 ## **Tilldela makro till formulärkontroll i C#**
 
-Här är exempelkoden för att generera utdatafilen XLSM med makrokod.
+Här är ett exempel på kod för att generera utdata-XLSM-fil med makro kod.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}

@@ -1,15 +1,16 @@
-﻿---
-title: Ruby'de Belge Özelliklerini Yönetme
+---
+title: Ruby de Belge Özelliklerini Yönetme
 type: docs
 weight: 90
 url: /tr/java/managing-document-properties-in-ruby/
 ---
+
 ## **Aspose.Cells - Belge Özelliklerine Erişme**
-Geliştiriciler,**dizin**veya**İsim** belirli bir mülkü elde etmek için mülkün**custom_properties**aşağıdaki örnekte gösterildiği gibi toplama.
+Geliştiriciler, aşağıdaki örnekte gösterildiği gibi **custom_properties** koleksiyonundan belirli bir özellik almak için özelliğin **İndeks** veya **Adı**'nı kullanabilirler.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_properties()
 
@@ -37,11 +38,11 @@ end
 
 {{< /highlight >}}
 ## **Aspose.Cells - Özel Özellikler Ekleme**
-Ruby için Aspose.Cells Java kullanarak özel belge özellikleri eklemek için arayın**add_custom_property** yöntemi**belge** modül.
+Ruby için Aspose.Cells Java kullanarak özel belge özellikleri eklemek için, **Document** modülünün **add_custom_property** metodunu çağırın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_custom_property()
 
@@ -71,11 +72,11 @@ end   
 
 {{< /highlight >}}
 ## **Aspose.Cells - Özel Özellikleri Kaldırma**
- Ruby için Aspose.Cells Java kullanarak özel belge özelliklerini kaldırmak için arayın**remove_custom_property** yöntemi**belge** modül.
+Ruby için Aspose.Cells Java kullanarak özel belge özelliklerini kaldırmak için, **Document** modülünün **remove_custom_property** metodunu çağırın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_custom_property()
 
@@ -105,6 +106,6 @@ end   
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belge Özelliklerine Erişme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Belge Özelliklerine Erişme (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/document.rb)

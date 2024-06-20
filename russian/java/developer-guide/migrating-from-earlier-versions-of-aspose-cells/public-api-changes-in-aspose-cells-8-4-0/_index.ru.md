@@ -1,35 +1,36 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.4.0
+---
+title: Изменения в общедоступном API в Aspose.Cells 8.4.0
 type: docs
 weight: 140
 url: /ru/java/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.3.2 до 8.4.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы,[добавлены классы и т.д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-4-0/) и[удалены классы и т.д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-4-0/), но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 8.3.2 до 8.4.0, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные общедоступные методы, [добавленные классы и т. д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-4-0/) и [удаленные классы и т. д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-4-0/), но также описание любых изменений в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Механизм изменения кода VBA/макро в электронных таблицах**
- Для обеспечения возможности[Манипуляции с кодом VBA/макро](/cells/ru/java/modifying-vba-or-macro-code-using-aspose-cells/), Aspose.Cells for Java 8.4.0 представил ряд новых классов и свойств в пакете com.aspose.cells.Vba. Вот несколько важных деталей этих новых классов.
+## **Добавленные API**
+### **Механизм изменения кода VBA/Macro в электронных таблицах**
+Для предоставления функции [Манипулирования кодом VBA/Macro](/cells/ru/java/modifying-vba-or-macro-code-using-aspose-cells/), Aspose.Cells for Java 8.4.0 представил ряд новых классов и свойств в пакете com.aspose.cells.Vba. Некоторые важные детали этих новых классов приведены ниже.
 
-- Класс VbaProject можно использовать для извлечения проекта VBA из данной электронной таблицы.
-- Класс VbaModuleCollection представляет коллекцию модулей VBA, которые являются частью данного VbaProject.
-- Класс VbaModule представляет один модуль из коллекции VbaModuleCollection.
+- Класс VbaProject может быть использован для извлечения проекта VBA из заданной электронной таблицы.
+- Класс VbaModuleCollection представляет коллекцию VBA-модулей, которые являются частью заданного VbaProject.
+- Класс VbaModule представляет один модуль из VbaModuleCollection.
 
-В следующем фрагменте кода показано, как динамически изменять сегменты кода VBA.
+Далее приведен фрагмент кода, показывающий, как динамически изменить сегменты кода VBA.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Рабочая книга рабочая книга = новая рабочая книга ("source.xlsm");
+ Workbook workbook = new Workbook("source.xlsm");
 
-//Изменить код модуля VBA
+//Change the VBA Module Code
 
-Модули VbaModuleCollection = workbook.getVbaProject().getModules();
+VbaModuleCollection modules = workbook.getVbaProject().getModules();
 
- для (целое я = 0; я< modules.getCount(); i++)
+for(int i=0; i < modules.getCount(); i++)
 
 {
 
@@ -57,16 +58,16 @@ workbook.save("output.xlsm");
 
 {{< /highlight >}}
 ### **Возможность удалить сводную таблицу**
-Aspose.Cells for Java 8.4.0 предоставляет два метода для PivotTableCollection, чтобы обеспечить функцию удаления сводной таблицы из данной электронной таблицы. Детали вышеупомянутых способов следующие.
+Aspose.Cells for Java 8.4.0 предоставляет два метода для PivotTableCollection для удаления сводной таблицы из заданной электронной таблицы. Подробности указанных методов приведены ниже.
 
-- Метод PivotTableCollection.remove принимает объект сводной таблицы и удаляет его из коллекции.
-- Метод PivotTableCollection.removeAt принимает целочисленное значение на основе нулевого индекса и удаляет конкретную сводную таблицу из коллекции.
+- Метод PivotTableCollection.remove принимает объект PivotTable и удаляет его из коллекции.
+- Метод PivotTableCollection.removeAt принимает целочисленное значение, основанное на нуле, и удаляет определенную сводную таблицу из коллекции.
 
-В следующем фрагменте кода показано, как удалить сводную таблицу, используя оба вышеупомянутых метода.
+Далее показан фрагмент кода, показывающий, как удалить сводную таблицу с использованием обоих вышеупомянутых методов.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -94,23 +95,23 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Поддержка различных макетов сводных таблиц**
-Aspose.Cells for Java 8.4.0 обеспечивает поддержку различных предопределенных макетов для сводных таблиц. Чтобы обеспечить эту функцию, API-интерфейсы Aspose.Cells предоставили три метода для класса сводной таблицы, как подробно описано ниже.
+Aspose.Cells for Java 8.4.0 предоставляет поддержку различных предварительно определенных макетов для сводных таблиц. Для обеспечения этой функции API Aspose.Cells представил три метода для класса PivotTable, подробно описанных ниже.
 
 - Метод PivotTable.showInCompactForm отображает сводную таблицу в компактном макете.
-- Метод PivotTable.showInOutlineForm отображает сводную таблицу в макете Outline.
-- Метод PivotTable.showInTabularForm отображает сводную таблицу в виде таблицы.
+- Метод PivotTable.showInOutlineForm отображает сводную таблицу в макете контурной формы.
+- Метод PivotTable.showInTabularForm отображает сводную таблицу в табличном макете.
 
 {{% alert color="primary" %}} 
 
- Важно вызывать PivotTable.refreshData и PivotTable.calculateData после установки любого из вышеупомянутых макетов.
+Важно вызвать PivotTable.refreshData и PivotTable.calculateData после установки любой из вышеупомянутых компоновок. 
 
 {{% /alert %}} 
 
-Следующий пример кода задает различные макеты для сводной таблицы и сохраняет результат на диске.
+В следующем примере кода устанавливаются различные компоновки для сводной таблицы и результат сохраняется на диск.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -167,19 +168,19 @@ pivotTable.calculateData();
 workbook.save("TabularForm.xlsx");
 
 {{< /highlight >}}
-### **Добавлен класс TxtLoadStyleStrategy и свойство TxtLoadOptions.LoadStyleStrategy.**
-Aspose.Cells for Java 8.4.0 предоставляет класс TxtLoadStyleStrategy и свойство TxtLoadOptions.LoadStyleStrategy для указания стратегии форматирования проанализированных значений при преобразовании строкового значения в число или дату и время.
-### **Добавлен метод DataBar.ToImage**
-С выпуском v8.4.0 Aspose.Cells API предоставил метод DataBar.toImage для сохранения условно отформатированного DataBar в формате изображения. Метод {DataBar.toImage}} принимает два параметра, как описано ниже.
+### **Добавлены класс TxtLoadStyleStrategy и свойство TxtLoadOptions.LoadStyleStrategy.**
+Версия Aspose.Cells for Java 8.4.0 предоставляет класс TxtLoadStyleStrategy и свойство TxtLoadOptions.LoadStyleStrategy для указания стратегии форматирования обработанных значений при преобразовании строки в число или дату.
+### **Добавлен метод DataBar.ToImage.**
+С выпуском версии 8.4.0 API Aspose.Cells предоставил метод DataBar.toImage для сохранения условно отформатированной панели данных в формате изображения. Метод {DataBar.toImage}} принимает два параметра, описанных ниже.
 
-- Первый параметр имеет тип com.aspose.cells.Cell, к которому применено условное форматирование.
+- Первый параметр имеет тип com.aspose.cells.Cell, на котором применено условное форматирование.
 - Второй параметр имеет тип com.aspose.cells.rendering.ImageOrPrintOptions для установки различных параметров результирующего изображения.
 
-В следующем примере кода показано использование метода DataBar.toImage для отображения панели данных в формате изображения.
+В следующем образце кода демонстрируется использование метода DataBar.toImage для отображения панели данных в формате изображения.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -209,7 +210,7 @@ opts.setImageFormat(ImageFormat.getPng());
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.toImage(cell, opts);
+byte[] imgBytes = dbar.toImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -220,24 +221,24 @@ out.write(imgBytes);
 out.close();
 
 {{< /highlight >}}
-### **Добавлено свойство Border.ThemeColor**
-Aspose.Cells API позволяют извлекать данные, относящиеся к темам, из электронных таблиц. В выпуске Aspose.Cells for Java 8.4.0 API предоставил свойство Border.ThemeColor, которое можно использовать для получения атрибутов цвета темы границ Cell.
-### **Добавлено свойство DrawObject.ImageBytes**
-Aspose.Cells for Java 8.4.0 предоставляет свойство DrawObject.ImageBytes для получения данных изображения из диаграммы или формы.
+### **Добавлено свойство Border.ThemeColor.**
+API Aspose.Cells позволяет извлекать данные, связанные с темами, из таблиц. С выпуском Aspose.Cells for Java 8.4.0 API предоставил свойство Border.ThemeColor, которое можно использовать для извлечения атрибутов цветов темы границ ячеек.
+### **Добавлено свойство DrawObject.ImageBytes.**
+В версии Aspose.Cells for Java 8.4.0 было добавлено свойство DrawObject.ImageBytes для получения данных изображения из диаграммы или формы.
 ### **Добавлено свойство HtmlSaveOptions.ExportBogusRowData.**
- Aspose.Cells for Java 8.4.0 предоставляет свойство {HtmlSaveOptions.ExportBogusRowData}}. Свойство логического типа определяет, будет ли API вводить фиктивные данные нижней строки при экспорте электронной таблицы в формат HTML.
+В версии Aspose.Cells for Java 8.4.0 было добавлено свойство {HtmlSaveOptions.ExportBogusRowData}}. Это свойство типа Boolean определяет, будет ли API внедрять фиктивные данные нижней строки при экспорте таблицы в формат HTML. 
 
 {{% alert color="primary" %}} 
 
-Значение по умолчанию верно.
+Значение по умолчанию - true.
 
 {{% /alert %}} 
 
-Следующий пример кода иллюстрирует использование вышеупомянутого свойства.
+В следующем примере кода иллюстрируется использование вышеупомянутого свойства.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -257,15 +258,15 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Добавлено свойство HtmlSaveOptions.CellCssPrefix.**
-Недавно добавленное свойство HtmlSaveOptions.CellCssPrefix позволяет установить префикс для файлов CSS при экспорте электронных таблиц в формат HTML.
+Новое свойство HtmlSaveOptions.CellCssPrefix позволяет установить префикс для CSS-файлов при экспорте таблиц в формат HTML.
 
 {{% alert color="primary" %}} 
 
-Значение по умолчанию — "" (пустая строка).
+Значение по умолчанию - "" (пустая строка).
 
 {{% /alert %}}
 ## **Устаревшие API**
-### **Методы Cells.getCellByIndex и Row.getCellByIndex устарели**
-Вместо этого используйте метод getEnumerator для перебора всех ячеек.
+### **Устаревшие методы Cells.getCellByIndex и Row.getCellByIndex**
+Используйте метод getEnumerator для итерации всех ячеек вместо этого.
 ### **Свойство DrawObject.Image устарело**
-Вместо этого используйте свойство DrawObject.ImageBytes для получения данных изображения.
+Используйте свойство DrawObject.ImageBytes для получения данных изображения вместо этого.

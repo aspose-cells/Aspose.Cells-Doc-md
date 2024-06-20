@@ -1,12 +1,13 @@
-﻿---
+---
 title: ワークブックからワークシートを削除する
 type: docs
 weight: 100
 url: /ja/net/delete-worksheets-from-workbooks/
 ---
-ワークブック内の任意のワークシートを削除できます。ワークシートを削除するには、ワークシート ホスト項目を使用するか、ブックのシート コレクションを使用してワークシートにアクセスします。
+
+ワークブックから任意のワークシートを削除できます。ワークシートを削除するには、ワークシート ホスト項目を使用するか、ワークブックのシートコレクションを使用してワークシートにアクセスします。
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook= this.Application.Workbooks.Open(fileName);
 
@@ -14,7 +15,7 @@ url: /ja/net/delete-worksheets-from-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

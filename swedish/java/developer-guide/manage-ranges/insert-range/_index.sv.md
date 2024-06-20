@@ -1,28 +1,29 @@
-﻿---
+---
 title: Infoga intervall
 type: docs
 weight: 20
 url: /sv/java/insert-ranges-to-Excel/
 ---
+
 ## **Introduktion**
 
-I Excel kan du välja ett intervall, sedan infoga ett intervall och flytta andra data åt höger eller nedåt.
+I Excel kan du välja ett intervall, sedan infoga ett intervall och skifta andra data höger eller ned.
 
 **![Skiftalternativ](InsertRange.png)**
 
-## **Infoga intervall med Aspose.Cells**
+## **Infoga Intervall med Aspose.Cells**
 
- Aspose.Cells tillhandahåller[Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) metod för att infoga ett intervall.
+Aspose.Cells tillhandahåller [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) metoden för att infoga ett område.
 
-## **Sätt in intervall och skift Cells Höger**
+## **Infoga Intervall och skifta celler höger**
 
-Infoga ett område och flytta celler åt höger som följande koder med Aspose.Cells:
+Infoga ett intervall och skifta celler höger med följande koder med Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Right.java" >}}
 
-## **Sätt in intervall och skift Cells Ner**
+## **Infoga Intervall och skifta celler ned**
 
-Infoga ett område och flytta ner cellerna som följande koder med Aspose.Cells:
+Infoga ett intervall och skifta celler ned med följande koder med Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 

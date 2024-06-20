@@ -1,18 +1,19 @@
-﻿---
-title: Geben Sie den fernöstlichen und den lateinischen Namen der Schriftart in den Textoptionen der Form an
+---
+title: Den Fernost und Lateinischen Namen der Schriftart in den Textoptionen der Form festlegen
 type: docs
 weight: 1600
 url: /de/net/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Manchmal möchten Sie Text in fernöstlichen Schriftarten anzeigen, z. B. Japanisch, Chinesisch, Thai usw. Aspose.Cells bietet[**TextOptions.FarEastName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/fareastname)-Eigenschaft, die verwendet werden kann, um den Schriftartnamen der Sprache des Fernen Ostens anzugeben. Außerdem können Sie auch den Namen der lateinischen Schriftart mit angeben[**TextOptions.LatinName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/latinname)Eigentum.
+## **Mögliche Verwendungsszenarien**
 
-## **Geben Sie den fernöstlichen und den lateinischen Namen der Schriftart in den Textoptionen der Form an**
+Manchmal möchte man Text in einer Schriftart für den Fernen Osten anzeigen, z. B. Japanisch, Chinesisch, Thailändisch, etc. Aspose.Cells bietet die Eigenschaft [**TextOptions.FarEastName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/fareastname), die verwendet werden kann, um den Schriftartnamen für den Fernen Osten zu spezifizieren. Außerdem können Sie auch den Lateinischen Schriftartnamen mit der Eigenschaft [**TextOptions.LatinName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/latinname) angeben.
 
- Der folgende Beispielcode erstellt ein Textfeld und fügt darin japanischen Text hinzu. Anschließend gibt es die lateinischen und fernöstlichen Schriftartnamen des Textes an und speichert die Arbeitsmappe unter[Excel-Datei ausgeben](67338274.xlsx). Der folgende Screenshot zeigt die lateinischen und fernöstlichen Schriftartnamen des Ausgabetextfelds in Microsoft Excel.
+## **Den Fernost- und Lateinischen Namen der Schriftart in den Textoptionen der Form festlegen**
 
-![todo: Bild_alt_Text](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
+Der folgende Beispielcode erstellt eine Textbox und fügt einen japanischen Text hinzu. Anschließend wird der lateinische und der Fernost-Schriftname des Textes angegeben und die Arbeitsmappe als [Ausgabedatei](67338274.xlsx) gespeichert. Der folgende Screenshot zeigt die lateinischen und Fernost-Schriftarten des Ausgabetextfelds in Microsoft Excel.
+
+![todo:image_alt_text](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
 
 ## **Beispielcode**
 

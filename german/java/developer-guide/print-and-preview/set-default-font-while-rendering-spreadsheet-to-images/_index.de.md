@@ -1,23 +1,24 @@
-﻿---
-title: Legen Sie die Standardschriftart fest, während Sie die Tabelle in Bilder rendern
+---
+title: Standardfont beim Rendern von Tabellenkalkulationen in Bilder festlegen
 type: docs
 weight: 840
 url: /de/java/set-default-font-while-rendering-spreadsheet-to-images/
 ---
+
 {{% alert color="primary" %}} 
 
- Bitte verwenden Sie die[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) -Eigenschaft zum Festlegen der Standardschriftart beim Rendern von Tabellenkalkulationen in Bilder. Diese Eigenschaft ist nur wirksam, wenn die Standardschriftart der Arbeitsmappe Ihre Zeichen nicht darstellen konnte. Die mit angegebene Standardschriftart[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) -Eigenschaft wird für alle Zellen verwendet, die ungültige oder nicht vorhandene Schriftarten haben.
+Bitte verwenden Sie die Eigenschaft [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont), um den Standardfont beim Rendern von Tabellenkalkulationen in Bilder festzulegen. Diese Eigenschaft ist nur wirksam, wenn der Standardfont der Arbeitsmappe Ihre Zeichen nicht rendern konnte. Der mit der Eigenschaft [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) angegebene Standardfont wird für alle Zellen verwendet, die ungültige oder nicht vorhandene Schriften haben.
 
 {{% /alert %}} 
-## **Legen Sie die Standardschriftart fest, während Sie die Tabelle in Bilder rendern**
-Der folgende Beispielcode erstellt eine Arbeitsmappe, fügt Text in Zelle A4 des ersten Arbeitsblatts hinzu und legt seine Schriftart auf eine ungültige oder nicht vorhandene Schriftart fest. Dann nimmt es zwei Bilder des Arbeitsblatts. Das erste Bild wird aufgenommen, indem die eingestellt wird[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) Eigentum zu*Kurier Neu* und das zweite Bild wird durch Einstellen von aufgenommen[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) Eigentum zu*Times New Roman*.
+## **Standardfont beim Rendern von Tabellenkalkulationen in Bilder festlegen**
+Der folgende Beispielcode erstellt eine Arbeitsmappe, fügt etwas Text in Zelle A4 des ersten Arbeitsblatts hinzu und setzt seine Schriftart auf ungültige oder nicht vorhandene Schriftart. Dann werden zwei Bilder des Arbeitsblatts erstellt. Das erste Bild wird erstellt, indem die Eigenschaft [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) auf *Courier New* gesetzt wird, und das zweite Bild wird erstellt, indem die Eigenschaft [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) auf *Times New Roman* gesetzt wird.
 
- Dies ist das Ausgabebild nach der Einstellung von[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) Eigentum zu*Kurier Neu*.
+Dies ist das Ausgabebild, nachdem die Eigenschaft [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) auf *Courier New* gesetzt wurde.
 
-![todo: Bild_alt_Text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
- Dies ist das Ausgabebild nach der Einstellung von[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) Eigentum zu*Times New Roman*.
+Dies ist das Ausgabebild, nachdem die Eigenschaft [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) auf *Times New Roman* gesetzt wurde.
 
-![todo: Bild_alt_Text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToImages-.java" >}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Styling und Datenformatierung
 linktitle: Stile
 type: docs

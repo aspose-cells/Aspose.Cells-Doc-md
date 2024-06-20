@@ -1,24 +1,25 @@
-﻿---
-title: Exportera arbetsblad CSS separat i utdata HTML
+---
+title: Exportera arbetsbladets CSS separat i utdata HTML filen
 type: docs
 weight: 80
 url: /sv/net/export-worksheet-css-separately-in-output/
 ---
-## **Möjliga användningsscenarier**
 
- Aspose.Cells tillhandahåller funktionen för att exportera kalkylblads-CSS separat när du konverterar din Excel-fil till HTML. Använd[**HtmlSaveOptions.ExportWorksheetCSSSeparat**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetcssseparately) egendom för detta ändamål och ställa den till**Sann** samtidigt som du sparar Excel-fil i formatet HTML.
+## **Möjliga användningsscenario**
 
-## **Exportera arbetsblad CSS separat i utdata HTML**
+Aspose.Cells tillhandahåller funktionen att exportera arbetsblads-CSS separat när du konverterar din Excel-fil till HTML. Använd [**HtmlSaveOptions.ExportWorksheetCSSSeparately**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetcssseparately)-egenskapen för detta ändamål och ange den till **true** vid sparande av Excel-filen i HTML-format.
 
-Följande exempelkod skapar en Excel-fil, lägger till lite text i cellen**B5** i**Röd**färg och sparar den sedan i HTML-format med hjälp av[**HtmlSaveOptions.ExportWorksheetCSSSeparat**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetcssseparately) fast egendom. Vänligen se[utgång HTML](60489766.zip) genereras av koden för referens. Du kommer hitta**stilark.css**inuti den som ett resultat av exempelkoden.
+## **Exportera arbetsbladets CSS separat i utdata-HTML-filen**
+
+Följande exempelkod skapar en Excel-fil, lägger till lite text i cellan **B5** i **röd** färg och sparar sedan den i HTML-format med [**HtmlSaveOptions.ExportWorksheetCSSSeparately**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetcssseparately)-egenskapen. Se [utdata-HTML-filen](60489766.zip) genererad av koden för referens. Du hittar **stylesheet.css** i utdata som ett resultat av exempelkoden.
 
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-ExportWorksheetCSSSeparatelyInOutputHTML.cs" >}}
 
-## **Exportera arbetsbok för ett ark till HTML**
+## **Exportera arbetsbok med enkelt blad till HTML**
 
-När en arbetsbok med flera ark konverteras till HTML med Aspose.Cells, skapas en HTML-fil tillsammans med en mapp som innehåller CSS och flera HTML-filer. När denna HTML-fil öppnas i webbläsaren är flikarna synliga. Samma beteende krävs för en arbetsbok med enstaka kalkylblad när den konverteras till HTML. Tidigare skapades ingen separat mapp för enstaka arbetsböcker och endast HTML-filen skapades. Sådan HTML-fil visar inte flik när den öppnas i webbläsaren. MS Excel skapar en korrekt mapp och HTML för ett enda ark också, och därför implementeras samma beteende med Aspose.Cells API:er. Exempelfilen kan laddas ner från följande länk för användning i exempelkoden nedan:
+När en arbetsbok med flera blad konverteras till HTML med Aspose.Cells skapas en HTML-fil tillsammans med en mapp som innehåller CSS och flera HTML-filer. När denna HTML-fil öppnas i webbläsaren är flikarna synliga. Samma beteende krävs för en arbetsbok med enstaka arbetsblad när den konverteras till HTML. Tidigare skapades inget separat mapp för enkla bladarbetsböcker och endast en HTML-fil skapades. En sådan HTML-fil visar inte flik när den öppnas i webbläsaren. MS Excel skapar en korrekt mapp och HTML-fil för enkla blad också och därför har samma beteende implementerats med Aspose.Cells API:er. Exempelfilen kan laddas ned från följande länk för användning i den angivna koden nedan:
 
 [sampleSingleSheet.xlsx](79527937.xlsx)
 

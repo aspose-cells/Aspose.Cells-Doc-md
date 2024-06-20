@@ -1,24 +1,25 @@
-﻿---
-title: Encuentre filas y columnas máximas compatibles con los formatos XLS y XLSX
+---
+title: Encontrar el número máximo de filas y columnas admitidas por los formatos XLS y XLSX
 type: docs
 weight: 20
 url: /es/net/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
 ---
-## **Posibles escenarios de uso**
 
-Hay diferentes números de filas y columnas compatibles con los formatos de Excel. Por ejemplo, XLS admite 65536 filas y 256 columnas, mientras que XLSX admite 1048576 filas y 16384 columnas. Si desea saber cuántas filas y columnas admite un formato determinado, puede utilizar[**Libro de trabajo.Configuración.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) y[**Libro de trabajo.Configuración.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)propiedades.
+## **Escenarios de uso posibles**
 
-## **Encuentre filas y columnas máximas compatibles con los formatos XLS y XLSX**
+Existen diferentes números de filas y columnas admitidos por los formatos de Excel. Por ejemplo, XLS admite 65536 filas y 256 columnas mientras que XLSX admite 1048576 filas y 16384 columnas. Si deseas saber cuántas filas y columnas son admitidas por un formato dado, puedes utilizar las propiedades [**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) y [**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn).
 
-El siguiente código de ejemplo crea el libro de trabajo primero en formato XLS y luego en formato XLSX. Después de la creación, imprime los valores de[**Libro de trabajo.Configuración.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) y[**Libro de trabajo.Configuración.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)propiedades. Consulte la salida de la consola del código que se proporciona a continuación para su referencia.
+## **Encontrar el número máximo de filas y columnas admitidas por los formatos XLS y XLSX**
+
+El siguiente código de muestra crea primero un libro de trabajo en formato XLS y luego en formato XLSX. Después de la creación, imprime los valores de las propiedades [**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) y [**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn). Por favor, consulta la salida de consola del código que se muestra a continuación para tu referencia.
 
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "WorkbookSettings-FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats.cs" >}}
 
-## **Salida de consola**
+## **Salida de la consola**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Maximum Rows and Columns supported by XLS format.
 

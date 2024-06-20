@@ -1,119 +1,120 @@
 ---
-title: الرسم البياني للصورة
-description: تعرف على كيفية استخدام Aspose.Cells for .NET لتحويل مخطط إلى تنسيق صورة، مثل JPEG أو PNG. سيوضح دليلنا كيفية تصدير مخطط من Microsoft Excel وحفظه كصورة مستقلة لمزيد من الاستخدام والمعالجة.
-keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
-linktitle: الرسم البياني للصورة
+title: تحويل الرسم البياني إلى صورة
+description: تعلم كيفية استخدام Aspose.Cells for .NET لتحويل الرسم البياني إلى تنسيق صورة مثل JPEG أو PNG. سيقوم دليلنا بشرح كيفية تصدير رسم بياني من Microsoft Excel وحفظه كصورة مستقلة للاستخدام والتعديل المستقبلي.
+keywords: Aspose.Cells for .NET، تحويل الرسم البياني إلى صورة، Microsoft Excel، تحويل الصورة، التصدير، صورة مستقلة.
+linktitle: تحويل الرسم البياني إلى صورة
 type: docs
 weight: 46
 url: /ar/net/chart-to-image/
 ---
-##  **تقديم المخططات**
 
- Aspose.Cells دعم واجهات برمجة التطبيقات لتحويل مخططات Excel إلى تنسيقات صور دون الحاجة إلى أي أدوات أو تطبيقات إضافية. من أجل تقديم الدعم، و[**جدول**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) لقد كشفت الطبقة[**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) طرق مع حقيقة الأحمال الزائدة لتناسب متطلبات التطبيق بشكل أفضل.
+## **عرض الرسوم البيانية**
 
-###  **تقديم المخططات إلى الصور**
+تدعم واجهات برمجة التطبيقات في Aspose.Cells تحويل الرسوم البيانية في Excel إلى صيغ صور دون الحاجة إلى أي أدوات أو تطبيقات إضافية. من أجل توفير دعم العرض، فإن فئة [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) قد عرضت طرق مع مجموعة متنوعة من الحمولات لتناسب أفضل متطلبات التطبيق.
 
- ال[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) تحتوي الطريقة على عدد كبير من الأحمال الزائدة لدعم العرض البسيط والمتقدم. إذا كانت متطلبات التطبيق هي عرض المخطط بأبعاده الافتراضية، فنقترح عليك استخدام[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)الطريقة على النحو التالي.
+### **عرض الرسوم البيانية كصور**
+
+تحتوي طريقة [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) على مجموعة متنوعة من الحمولات لدعم العرض البسيط وكذلك العرض المتقدم. إذا كان متطلب التطبيق هو عرض الرسم البياني في أبعاده الافتراضية، نقترح عليك استخدام الطريقة [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) على النحو التالي.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
- من الممكن أيضًا عرض المخططات على الصور باستخدام الإعدادات المتقدمة. كشفت واجهات برمجة التطبيقات Aspose.Cells عن إصدار التحميل الزائد من[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) الطريقة التي يمكن أن تقبل مثيل[**خيارات الصورة أو الطباعة**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)، مع السماح بتحديد المعلمات مثل الدقة ووضع التجانس وتنسيق الصورة وما إلى ذلك.
+من الممكن أيضًا عرض الرسوم البيانية إلى صور باستخدام إعدادات متقدمة. لقد عرضت واجهات برمجة التطبيقات في Aspose.Cells إصدارًا زائدًا من طريقة [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) التي يمكن أن تقبل مثيلًا لـ [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)، مع السماح بتحديد معلمات مثل الدقة، وضع التنعيم، تنسيق الصورة، وما إلى ذلك.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-##  **أنواع المخططات المدعومة للعرض**
+## **أنواع الرسوم البيانية المدعومة للعرض**
 
- هناك بعض أنواع المخططات غير المدعومة حاليًا للعرض. تحتوي أنواع المخططات هذه على**N** في **مدعوم** عمود الجدول أدناه.
+هناك بعض أنواع الرسوم البيانية التي لا تتم دعمها حاليًا للعرض. تحتوي مثل هذه الأنواع على **N** في العمود **مدعوم** للجدول أدناه.
 
-|**نوع التخطيط**|**النوع الفرعي للرسم البياني**|**أيد**|
+|**نوع الرسم البياني**|**نوع الفرعي للرسم البياني**|**مدعوم**|
 | :- | :- | :- |
-|**عمود**|عمود|*ص**|
-| |عمود مكدس|*ص**|
-| |عمود100%مكدس|*ص**|
-| |Column3Dمجمع|*ص**|
-| |Column3DStacked|*ص**|
-| |العمود3D100٪مكدس|*ص**|
-| |عمود3D|*ص**|
-|**حاجِز**|حاجِز|*ص**|
-| |BarStacked|*ص**|
-| |شريط مكدس بنسبة 100%|*ص**|
-| |Bar3Dمجمع|*ص**|
-| |Bar3DStacked|*ص**|
-| |شريط3D100%مكدس|*ص**|
-|**خط**|خط|*ص**|
-| |LineStacked|*ص**|
-| |Line100%مكدس|*ص**|
-| |LineWithDataMarkers|*ص**|
-| |LineStackedWithDataMarkers|*ص**|
-| |Line100%مكدس مع علامات البيانات|*ص**|
-| |Line3D|*ص**|
-|**فطيرة**|فطيرة|*ص**|
-| |فطيرة3D|*ص**|
-| |فطيرة فطيرة|*ص**|
-| |فطيرة انفجرت|*ص**|
-| |Pie3DExploded|*ص**|
-| |بيبار|*ص**|
-|**مبعثر**|مبعثر|*ص**|
-| |مبعثر متصل بواسطة منحنيات مع DataMarker|*ص**|
-| |مبعثر متصل بواسطة منحنيات بدون علامة البيانات|*ص**|
-| |ScatterConnectedByLinesWithDataMarker|*ص**|
-| |ScatterConnectedByLinesWithoutDataMarker|*ص**|
-|**منطقة**|منطقة|*ص**|
-| |منطقة مكدسة|*ص**|
-| |المساحة 100%مكدسة|*ص**|
-| |منطقة3D|*ص**|
-| |Area3DStacked|*ص**|
-| |المساحة 3D100%مكدسة|*ص**|
-|**كعكة محلاة**|كعكة محلاة|*ص**|
-| |دوناتانفجرت|*ص**|
-|**رادار**|رادار|*ص**|
-| |الرادار مع علامات البيانات|*ص**|
-| |رادار معبأ|*ص**|
-|**سطح**|سطح3D|N|
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
 | |SurfaceWireframe3D|N|
 | |SurfaceContour|N|
 | |SurfaceContourWireframe|N|
-|**فقاعة**|فقاعة|*ص**|
+|**Bubble**|Bubble|**Y**|
 | |Bubble3D|N|
-|**مخزون**|StockHighLowClose|*ص**|
-| |ستوك أوبن هاي لو كلوز|*ص**|
-| |حجم المخزون مرتفع، منخفض، إغلاق|*ص**|
-| |حجم المخزون، فتح، ارتفاع، انخفاض، إغلاق|*ص**|
-|**اسطوانة**|اسطوانة|*ص**|
-| |CylinderStacked|*ص**|
-| |الأسطوانة مكدسة بنسبة 100%|*ص**|
-| |شريط اسطواني|*ص**|
-| |CylindricalBarStacked|*ص**|
-| |شريط أسطواني مكدس بنسبة 100%|*ص**|
-| |عمود أسطواني3D|*ص**|
-|**مخروط**|مخروط|*ص**|
-| |ConeStacked|*ص**|
-| |مخروطي100%مكدس|*ص**|
-| |ConicalBar|*ص**|
-| |ConicalBarStacked|*ص**|
-| |شريط مخروطي بنسبة 100% مكدس|*ص**|
-| |ConicalColumn3D|*ص**|
-|**هرم**|هرم|*ص**|
-| |الهرممكدس|*ص**|
-| |الهرم مكدس بنسبة 100%|*ص**|
-| |PyramidBar|*ص**|
-| |PyramidBarStacked|*ص**|
-| |PyramidBar100%مكدس|*ص**|
-| |الهرم العمود3D|*ص**|
+|**Stock**|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
 |**BoxWhisker**|BoxWhisker|Y|
-|**قمع**|قمع|*ص**|
-|**باريتولين**|باريتولين|*ص**|
-|**أمة الله**|أمة الله|*ص**|
-|**خريطة هيكلية**|خريطة هيكلية|*ص**|
-|**شلال**|شلال|*ص**|
-|**الرسم البياني**|الرسم البياني|Y|
-|**خريطة**|خريطة|*ن**|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-في حالة محاولتك تقديم أنواع المخططات غير المدعومة إلى صورة أو PDF، فقد ينتهي بك الأمر بصور بحجم 0 أو PDF فارغة.
+في حال محاولة عرض أنواع الرسوم البيانية غير المدعومة إلى صورة أو PDF، قد تنتهي بصور بحجم 0 أو PDF فارغة.
 
 {{% /alert %}}
 
-##  **مواضيع متقدمة**
+## **مواضيع متقدمة**
 - [تحويل الرسم البياني إلى PDF](/cells/ar/net/chart-to-pdf/)

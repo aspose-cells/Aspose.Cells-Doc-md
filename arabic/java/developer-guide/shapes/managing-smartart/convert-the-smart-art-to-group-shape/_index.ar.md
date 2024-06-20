@@ -1,26 +1,27 @@
-﻿---
-title: تحويل الفن الذكي إلى شكل المجموعة
+---
+title: تحويل الرسوم البيانية الذكية إلى شكل مجموعة
 type: docs
 weight: 80
 url: /ar/java/convert-the-smart-art-to-group-shape/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك تحويل Smart Art Shape إلى Group Shape باستخدام ملف[**Shape.getResultOfSmartArt ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt()) طريقة. سيمكنك من التعامل مع شكل فني ذكي مثل شكل مجموعة. وبالتالي ، سيكون لديك حق الوصول إلى الأجزاء أو الأشكال الفردية لشكل المجموعة.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **تحويل الفن الذكي إلى شكل المجموعة**
+يمكنك تحويل شكل الرسوم البيانية الذكية إلى شكل مجموعة باستخدام الطريقة [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt--). ستمكنك من التعامل مع شكل رسوم بيانية ذكية مثل شكل مجموعة. وبالتالي، ستكون لديك الوصول إلى الأجزاء أو الأشكال الفردية لشكل المجموعة.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](55541806.xlsx)تحتوي على شكل فني ذكي كما هو موضح في لقطة الشاشة هذه. ثم يحول الشكل الفني الذكي إلى شكل مجموعة ويطبع ملف[الشكل](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsGroup)خاصية. يرجى الاطلاع على إخراج وحدة التحكم لعينة التعليمات البرمجية الواردة أدناه.
+## **تحويل الرسوم البيانية الذكية إلى شكل مجموعة**
 
-![ما يجب القيام به: image_بديل_نص](convert-the-smart-art-to-group-shape_1.png)
+الكود العيني التالي يحمل [ملف Excel عيني](55541806.xlsx) يحتوي على شكل رسوم بيانية ذكية كما هو موضح في لقطة الشاشة هذه. ثم يحول شكل الرسوم البيانية الذكية إلى شكل مجموعة ويطبع خاصية [Shape.IsGroup](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsGroup). يرجى الاطلاع على إخراج الكونسول في الكود العيني المعطى أدناه.
 
-## **عينة من الرموز**
+![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-ConvertSmartArtToGroupShape.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: true
 

@@ -1,12 +1,14 @@
 ---
-title: العمل مع جانب عميل GridJs
+title: العمل مع GridJs الجانب العميل
 type: docs
 weight: 250
 url: /ar/net/aspose-cells-gridjs/client/
-keywords: custom,logo,setting,api
+keywords: GridJs ، تخصيص ، شعار ، إعداد ، واجهة برمجة التطبيقات
+description: يقدم هذا المقال واجهات برمجة تطبيقات العميل في GridJs.
 ---
-#  العمل مع جانب عميل GridJs
- قمنا بتطوير عميل GridJs بناءً على[جدول بيانات x](https://github.com/myliang/x-spreadsheet).
+
+# العمل مع GridJs الجانب العميل
+قمنا بتطوير GridJs الجانب العميل بناءً على [x-spreadsheet](https://github.com/myliang/x-spreadsheet).
 
 ##  الخطوات الرئيسية هي:
 
@@ -43,27 +45,27 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
-    
--  تحميل مع بيانات json
+
+- تحميل بيانات json
 ```javascript
 xs.loadData(data)
 // the parameters is:
 	data: the json data which describ the data structure for the worksheets
 ```
--  تعيين الورقة النشطة حسب اسم الورقة
+- تعيين ورقة نشطة حسب اسم الورقة
 ```javascript
 xs.setActiveSheetByName(sheetname)
 // the parameters is:
 	sheetname: the sheet name 
 ```
--  تعيين الورقة النشطة حسب المعرف
+- تعيين ورقة نشطة حسب الهوية
 ```javascript
 xs.setActiveSheet(id)
 // the parameters is:
 	sheetname: the sheet id 
 ```
 
--  تعيين الخلية النشطة
+- تعيين خلية نشطة
 ```javascript
 xs.setActiveCell(row,col);
 // the parameters are:
@@ -71,7 +73,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- قم بتعيين المعلومات لعملية الشكل/الصور للعمل من جانب الخادم
+- تعيين معلومات لشكل/عمليات الصور لإجراءات الجانب الخادم
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -90,18 +92,18 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
-- قم بتعيين المعلومات لعملية التنزيل لإجراء جانب الخادم
+- تعيين معلومات لعملية التنزيل لإجراءات الجانب الخادم
 ```javascript
 xs.setFileDownloadInfo(downloadActionUrl);
 // the parameters are:
 	downloadActionUrl: the get download file action URL in the server side controller
-	 
+
     for example: 
             const fileDownloadUrl = "/GridJs2/Download";
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- قم بتعيين المعلومات لعملية كائن ole للعمل من جانب الخادم
+- تعيين معلومات لعملية الكائن الـ OLE لإجراءات الجانب الخادم
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -110,35 +112,47 @@ xs.setOleDownloadInfo(oleActionUrl);
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
 ```
-  
 
-_
-##  واجهات برمجة التطبيقات المفيدة الأخرى
--  تقديم العرض
+
+___
+## واجهات برمجة التطبيقات الأخرى المفيدة
+- عرض العرض
 ```javascript
 xs.reRender()
 ```
 
--  الحصول على معرف الورقة النشطة
+- الحصول على هوية الورقة النشطة
 ```javascript
 xs.getActiveSheet()
 ```
 
--  ضبط مستوى التكبير/التصغير
+- تعيين مستوى التكبير
 ```javascript
 xs.setZoomLevel(zoom)
 // the parameters is:
 	zoom:the zoom level ,can be number ,for example 0.5 for zoom out, or 2 for zoom in
 ```
 
--  تعيين اسم الملف
+- تعيين اسم الملف 
 ```javascript
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
 ```
 
-- ما إذا كان سيتم تمكين حدث مفتاح النافذة لـ GridJs
+- وظيفة الارتباط لميزة إرسال البريد الإلكتروني.
+```javascript
+xs.setEmailSendCallFunction(callback)
+// the parameters is:
+	callback: the callback function to handle email sending, receives a mailObj parameter
+		callback: function(mailObj) {
+			// mailObj properties:
+			// mailObj.receiver: the email address of the receiver, e.g., 'example@gmail.com'
+			// mailObj.type: the format of the file to be sent, can be 'html', 'xlsx', or 'pdf'
+		}
+```
+
+-  ما إذا كان يتعين تمكين حدث مفتاح النافذة لـ GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -146,13 +160,13 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
--  قم بإلغاء ربط جميع الأحداث المرتبطة بـ GridJs، بما في ذلك حدث مفتاح النافذة وحدث تغيير حجم النافذة.
+-  إلغاء تشبيك جميع الأحداث المرتبطة بـ GridJs، بما في ذلك حدث مفتاح النافذة وحدث تغيير حجم النافذة.
 ```javascript
 xs.destroy()
 ```
 
 
--  ضبط مرشح مرئي للصورة/الشكل
+-  تعيين عامل تصفية مرئي للصورة/الشكل
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
@@ -168,12 +182,12 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
--  احصل على الصورة/الشكل المحدد، إذا لم يكن هناك شيء محدد فسيعود فارغًا
+-  الحصول على الصورة/الشكل المحدد، إذا لم يتم تحديد أي شيء سيتم إرجاع قيمة فارغة
 ```javascript
 xs.sheet.selector.getObj()
 ```
 
--  اضبط الحالة القابلة للتحديد للصورة/الشكل
+-  تعيين حالة القابلية للتحديد للصورة/الشكل 
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -188,14 +202,14 @@ xs.sheet.data.getCell(ri,ci)
 	ri:row index 
 	ci:column index
 ```
--  احصل على نمط الخلية
+-  الحصول على نمط الخلية
 ```javascript
 xs.sheet.data.getCellStyle(ri,ci)
     // the parameters are:
 	ri:row index 
 	ci:column index
 ```
--  قم بتعيين قيمة الخلية
+-  تعيين قيمة الخلية
 ```javascript
 xs.sheet.data.setCellText(ri,ci,value,state)
     // the parameters are:
@@ -205,17 +219,17 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	state: input | finished ,if finished ,it will do update action to servside
 ```
 
--  الحصول على/تعيين نطاق الخلايا المحدد
+-  الحصول/تعيين نطاق الخلية المحدد
 ```javascript
 xs.sheet.data.selector.range
 ```
--  قم بتعيين قيمة الخلية للخلية أو منطقة الخلية المحددة
+-  تعيين قيمة الخلية للخلية المحددة أو منطقة الخلية
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
--  قم بتعيين النمط للخلية أو منطقة الخلية المحددة
+-  تعيين النمط للخلية المحددة أو منطقة الخلية
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
@@ -228,17 +242,17 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 xs.sheet.data.merge()
 ```
 
--  قم بإلغاء دمج منطقة الخلية المحددة
+-  إلغاء دمج منطقة الخلية المحددة
 ```javascript
 xs.sheet.data.unmerge()
 ```
--  احذف الخلية المحددة
+-  حذف الخلية المحددة  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  قم بتعيين جزء التجميد
+-  تحديد لوحة التجميد
 ```javascript
 xs.sheet.data.setFreeze(ri,ci)
     // the parameters are:
@@ -246,28 +260,28 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
--  إدراج صف أو أعمدة في الخلية المحددة
+-  إدراج صف أو أعمدة في الخلية المحددة  
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
 	type: row | column
 	n:the row or column number
 ```
--  حذف الصف أو الأعمدة في الخلية المحددة
+-  حذف صف أو أعمدة في الخلية المحددة  
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
 	type: row | column
 ```
 
--  قم بتعيين العرض للعمود
+-  تعيين العرض للعمود
 ```javascript
 xs.sheet.data.setColWidth(ci,width)
     // the parameters are:
 	ci:column index
 	width:the width for the column
 ```
--  ضبط العرض للأعمدة
+-  تعيين العرض للأعمدة
 ```javascript
 xs.sheet.data.setColsWidth(sci,eci,width)
     // the parameters are:
@@ -276,14 +290,14 @@ xs.sheet.data.setColsWidth(sci,eci,width)
 	width:the width for the column
 ```
 
--  قم بتعيين العرض لجميع الأعمدة
+-  تعيين العرض لجميع الأعمدة
 ```javascript
 xs.sheet.data.setAllColsWidth(width)
     // the parameters are:
 	width:the width for the columns
 ```
 
--  احصل على عرض العمود
+-  الحصول على العرض للعمود 
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
     // the parameters are:
@@ -291,14 +305,14 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  ضبط الارتفاع للصف
+-  تعيين الارتفاع للصف
 ```javascript
 xs.sheet.data.setRowHeight(ri,height)
     // the parameters are:
 	ri:row index
 	height:the height for the row
 ```
--  ضبط الارتفاع للصفوف
+-  تعيين الارتفاع للصفوف
 ```javascript
 xs.sheet.data.setRowsHeight(sri,eri,height)
     // the parameters are:
@@ -307,7 +321,7 @@ xs.sheet.data.setRowsHeight(sri,eri,height)
 	height:the height for the rows
 ```
 
-- اضبط الارتفاع لجميع الصفوف
+-  تعيين الارتفاع لكل الصفوف
 ```javascript
 xs.sheet.data.setAllRowsHeight(height)
     // the parameters are:
@@ -315,7 +329,7 @@ xs.sheet.data.setAllRowsHeight(height)
 ```
 
 
--  احصل على ارتفاع الصف
+-  الحصول على الارتفاع للصف 
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
     // the parameters are:
@@ -323,12 +337,12 @@ xs.sheet.data.rows.sumHeight(min,max)
 	max:the end row index,not include
 ```
 
--  الحصول على/ضبط اتجاه العرض
+-  الحصول/تعيين اتجاه العرض
 ```javascript
 xs.sheet.data.displayRight2Left
 ```
 
-##  معاودة الاتصال بالحدث
+## استدعاء الحدث الرد
 -  يمكننا تتبع الأحداث أدناه
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
@@ -352,7 +366,7 @@ xs.sheet.data.displayRight2Left
             });
 ```
 
-##  التخصيص
+## التخصيص
 
 -  تعيين رمز المنزل والرابط
 ```javascript
@@ -374,10 +388,45 @@ xs.sheet.menubar.hide()
 ```
 
 
-للحصول على معلومات تفصيلية، يمكنك التحقق من المثال هنا
+## واجهات برمجة التطبيقات لكائن مربع النص
+TextBox هو نوع خاص من الشكل والذي تكون خاصيته نوعه: "TextBox".
+على سبيل المثال: سيعرض الكود أدناه أي نوع شكل لصندوق النص
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+
+- تغيير لون الخلفية لكائن صندوق النص
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+- تغيير اللون الخلفي تلقائيًا ولون النص للحصول على تأثير نشط بصريًا
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+- إخفاء/إظهار محتوى النص في كائن المربع
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
+
+لمزيد من المعلومات التفصيلية ، يمكنك التحقق من المثال هنا
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 
 
- 
- 
+
+

@@ -1,124 +1,125 @@
 ---
-title: Hizalama Ayarları
-description: Aspose.Cells kitaplığında metnin düzenini ve görünümünü ayarlamak için hücre hizalama ayarlarını kullanabilirsiniz. Yatay hizalama, dikey hizalama ve metin kaydırma gibi ayarları düzenleyerek metnin hücrelerde nasıl aktığı üzerinde daha fazla kontrole sahip olursunuz. Bu belge, hücre hizalama ayarları için Aspose.Cells'in nasıl kullanılacağını hızlı bir şekilde kavramanıza yardımcı olacak ayrıntılı adımlar ve örnek kod sağlayacaktır.
-keywords: Aspose.Cells, cell alignment, horizontal alignment, vertical alignment, text wrapping
+title: Uyum Ayarları
+description: Aspose.Cells kütüphanesinde, metnin düzeni ve gösterimi ayarlamak için hücre uygunluk ayarlarını kullanabilirsiniz. Yatay hizalama, dikey hizalama ve metin kaydırma gibi ayarları ayarlayarak, metnin hücrelerde nasıl akacağı konusunda daha fazla kontrol sahibi olursunuz. Bu belge, hücre uygunluk ayarlarını nasıl kullanacağınızı hızlıca öğrenmenize ve örnek kodlarıyla adım adım rehberlik etmesine yardımcı olacaktır.
+keywords: Aspose.Cells, hücre uygunluk, yatay hizalama, dikey hizalama, metin kaydırma
 type: docs
 weight: 20
 url: /tr/net/cells-alignment-settings/
 ---
-##  **Hizalama Ayarlarını Yapılandırma**
 
-###  **Microsoft Excel'deki hizalama ayarları**
+## **Hizalama Ayarlarının Yapılandırılması**
 
-Hücreleri biçimlendirmek için Microsoft Excel'i kullanan herkes, Microsoft Excel'deki hizalama ayarlarına aşina olacaktır.
+### **Microsoft Excel'deki hizalama ayarları**
 
-Yukarıdaki şekilde görebileceğiniz gibi, farklı türde hizalama seçenekleri vardır:
+Hücreleri biçimlendirmek için Microsoft Excel kullanan herkes, Microsoft Excel'deki hizalama ayarlarına aşinadır.
 
-- Metin hizalaması (yatay ve dikey)
-- Girinti.
-- Oryantasyon.
-- Metin kontrolü.
-- Metin yönü.
+Yukarıdaki şekilden görebileceğiniz gibi, farklı türde hizalama seçenekleri bulunmaktadır:
 
-Bu hizalama ayarlarının tümü Aspose.Cells tarafından tam olarak desteklenmektedir ve aşağıda daha ayrıntılı olarak ele alınmaktadır.
+- Metin hizalama (yatay ve dikey)
+- Girinti
+- Yönlendirme
+- Metin kontrol
+- Metin yönü
 
-###  **Aspose.Cells'deki hizalama ayarları**
+Bu tüm hizalama ayarları, Aspose.Cells tarafından tamamen desteklenir ve aşağıda daha detaylı olarak tartışılmaktadır.
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , bu bir Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**Çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon. Bir çalışma sayfası şu şekilde temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak. İçindeki her öğe[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyon bir nesneyi temsil eder[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf.
+### **Aspose.Cells'te hizalama ayarları**
 
- Aspose.Cells sağlar[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) Ve[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) için yöntemler[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Bir hücrenin biçimlendirmesini almak ve ayarlamak için kullanılan sınıf.[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)sınıfı, hizalama ayarlarını yapılandırmak için kullanışlı özellikler sağlar.
+Aspose.Cells, bir Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her bir çalışma sayfasına erişim sağlayan bir [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonunu içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu sağlar. [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonundaki her öğe, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının bir örneğini temsil eder.
 
- kullanarak herhangi bir metin hizalama türünü seçin.[**MetinAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) numaralandırma. Önceden tanımlanmış metin hizalama türleri[**MetinAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype)numaralandırma şunlardır:
+Aspose.Cells, [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) ve [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) metodlarını, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfı için bir hücrenin biçimlendirmesini almak ve ayarlamak için kullanır. [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) sınıfı, hizalama ayarlarını yapılandırmak için kullanışlı özellikler sağlar.
 
-|**Metin Hizalama Türleri**|**Tanım**|
+[**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) numarasını kullanarak herhangi bir metin hizalama türünü seçin. [**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) numarasındaki önceden tanımlanmış metin hizalama türleri:
+
+|**Metin Hizalama Türleri**|**Açıklama**|
 | :- | :- |
-|Alt|Alt metin hizalamasını temsil eder|
-|Merkez|Orta metin hizalamasını temsil eder|
-|MerkezKarşısında|Metin hizalaması boyunca merkezi temsil eder|
-|Dağıtılmış|Dağıtılmış metin hizalamasını temsil eder|
-|Doldurmak|Dolgu metni hizalamasını temsil eder|
-|Genel|Genel metin hizalamasını temsil eder|
-|Savunmak|Metin hizalamasını yaslamayı temsil eder|
-|Sol|Sola metin hizalamasını temsil eder|
-|Sağ|Sağ metin hizalamasını temsil eder|
-|Tepe|Üst metin hizalamasını temsil eder|
-|HaklıDüşük|Metni Arapça metin için ayarlanmış kashida uzunluğuyla hizalar.|
-|Tay Dağıtılmış|Tayca metinleri özellikle dağıtır çünkü her karakter bir kelime olarak ele alınır.|
+|Bottom|, alt metin hizalamasını temsil eder
+|Center|, merkez metin hizalamasını temsil eder
+|CenterAcross|, metin hizalamasını çapraz merkezlemeyi temsil eder
+|Distributed|, dağıtılmış metin hizalamasını temsil eder
+|Fill|, doldurma metin hizalamasını temsil eder
+|General|, genel metin hizalamasını temsil eder
+|Justify|, düzgün metin hizalamasını temsil eder
+|Left|, sol metin hizalamasını temsil eder
+|Right|, sağ metin hizalamasını temsil eder
+|Top|, üst metin hizalamasını temsil eder
+|JustifiedLow|, Arapça metin için ayarlanmış bir kashida uzunluğuyla metni hizalar.
+|ThaiDistributed|, Özellikle Tayland metnini dağıtır, çünkü her karakter bir kelime olarak kabul edilir.
 
 {{% alert color="primary" %}}
 
- Dağıtılmış yasla ayarını kullanarak da uygulayabilirsiniz.[**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/isjustifydistributed) mülk.
+Ayrıca [**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/isjustifydistributed) özelliğini kullanarak düzgün dağıtılmış ayarını uygulayabilirsiniz.
 
 {{% /alert %}}
 
-####  **Yatay hizalama**
+#### **Yatay Hizalama**
 
- Kullan[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Yatay hizalama**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/horizontalalignment)Metni yatay olarak hizalama özelliği.
+Metni yatay olarak hizalamak için [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin [**HorizontalAlignment**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/horizontalalignment) özelliğini kullanın
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentHorizontal-1.cs" >}}
 
-####  **Dikey hizalama**
+#### **Dikey Hizalama**
 
- Yatay hizalamaya benzer şekilde,[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Dikey hizalama**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/verticalalignment)Metni dikey olarak hizalama özelliği.
+Yatay hizalama ile benzer şekilde metni dikey olarak hizalamak için [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin [**VerticalAlignment**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/verticalalignment) özelliğini kullanın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentVertical-1.cs" >}}
 
-####  **Girinti**
+#### **Girinti**
 
- Bir hücredeki metnin girinti düzeyini ayarlamak mümkündür.[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Girinti Düzeyi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/indentlevel)mülk.
+Hücredeki metnin girinti seviyesini [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin [**IndentLevel**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/indentlevel) özelliği ile ayarlamak mümkündür.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Indentation-1.cs" >}}
 
-####  **Oryantasyon**
+#### **Yönlendirme**
 
- Bir hücredeki metnin yönünü (döndürmesini) aşağıdaki düğmeyle ayarlayın:[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Dönüş açısı**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/rotationangle)mülk.
+Hücrede metnin yönlendirmesini (döndürme) [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin [**RotationAngle**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/rotationangle) özelliği ile ayarlayın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Orientation-1.cs" >}}
 
-####  **Metin Kontrolü**
+#### **Metin Kontrolü**
 
-Aşağıdaki bölümde metin sarma, sığacak şekilde küçültme ve diğer biçimlendirme seçeneklerini ayarlayarak metnin nasıl kontrol edileceği anlatılmaktadır.
+Aşağıdaki bölüm metin kaydırma, sığdırmayı daraltma ve diğer biçimlendirme seçeneklerini ayarlayarak metni nasıl kontrol edeceğinizi tartışmaktadır.
 
-#####  **Metin Sarma**
+##### **Metni Kaydırma**
 
- Metni bir hücreye sarmak okumayı kolaylaştırır: hücrenin yüksekliği, metni kesmek veya bitişik hücrelere taşmak yerine tüm metne sığacak şekilde ayarlanır. Metin kaydırmayı açık veya kapalı olarak ayarlayın.[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Metin Sarılmış**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)mülk.
+Hücrede metni kaydırmak onu okumayı kolaylaştırır: hücrenin yüksekliği, metni kesmek yerine veya yan hücrelere taşmak yerine tüm metni sığdırmak için ayarlanır. Metin kaydırma özelliğini [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin [**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) özelliği ile açın veya kapatın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 
-#####  **Sığacak Şekilde Küçülüyor**
+##### **Sığdırmayı Daraltma**
 
- Bir alandaki metni sarmalama seçeneği, metin boyutunu hücrenin boyutlarına sığacak şekilde küçültmektir. Bu, ayarlanarak yapılır.[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Metin Sarılmış**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)özelliği *true** olarak değiştirin.
+Bir alanın metnini kaydırmak için bir seçenek, metni hücre boyutlarına sığdırmak için metin boyutunu küçültmektir. Bu, **true** olarak [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin [**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) özelliği ile ayarlanır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-ShrinkingToFit-1.cs" >}}
 
-#####  **Birleştirme Cells**
+##### **Hücreleri Birleştirme**
 
- Microsoft Excel gibi, Aspose.Cells de birkaç hücrenin tek bir hücrede birleştirilmesini destekler. Aspose.Cells bu göreve iki yaklaşım sunuyor. Bunun bir yolu, telefonu aramaktır.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Koleksiyonun[**Birleştirmek**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) yöntem.[**Birleştirmek**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)yöntem hücreleri birleştirmek için aşağıdaki parametreleri alır:
+Microsoft Excel gibi, Aspose.Cells birkaç hücreyi birleştirme işlemine destek verir. Aspose.Cells bu göreve iki yaklaşım sağlar. Bir yol, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonunun [**Merge**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) yöntemini çağırmaktır. [**Merge**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) yöntemi hücreleri birleştirmek için aşağıdaki parametreleri alır:
 
-- İlk satır: birleştirmenin başlayacağı ilk satır.
-- İlk sütun: birleştirmenin başlayacağı ilk sütun.
-- Satır sayısı: birleştirilecek satır sayısı.
-- Sütun sayısı: birleştirilecek sütun sayısı.
+- İlk satır: Birleştirmeye başlamak için ilk satır.
+- İlk sütun: Birleştirmeye başlamak için ilk sütun.
+- Satır sayısı: Birleştirilecek satır sayısı.
+- Sütun sayısı: Birleştirilecek sütun sayısı.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
 
-Diğer yol ise ilk önce telefonu aramaktır.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Koleksiyonun[**Aralık Oluştur**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) Birleştirilecek hücre aralığını oluşturma yöntemi.[**Aralık Oluştur**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) yöntem, yöntem ile aynı parametre kümesini alır.[**Birleştirmek**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) yukarıda tartışılan yöntem ve bir döndürür[**Menzil**](https://reference.aspose.com/cells/net/aspose.cells/range) nesne.[**Menzil**](https://reference.aspose.com/cells/net/aspose.cells/range) nesne aynı zamanda bir sağlar[**Birleştirmek**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) Belirtilen aralığı birleştiren yöntem[**Menzil**](https://reference.aspose.com/cells/net/aspose.cells/range)nesne.
+Diğer yol, öncelikle [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonunun [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) yöntemini çağırmak ve birleştirilecek hücrelerin aralığını oluşturmaktır. [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) yöntemi yukarıdaki [**Merge**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) yönteminin aynı parametre setini alır ve bir [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) nesnesi döndürür. [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) nesnesi ayrıca [**Merge**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) yöntemi sağlar, bu yöntem [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) nesnesinde belirtilen aralığı birleştirir.
 
-#####  **Metin yönü**
+##### **Metin Yönü**
 
-Hücrelerdeki metnin okunma sırasını ayarlamak mümkündür. Okuma sırası, karakterlerin, kelimelerin vb. görüntülendiği görsel sıradır. Örneğin İngilizce soldan sağa doğru bir dil iken Arapça sağdan sola doğru bir dildir.
+Hücrelerdeki metnin okuma sırasını ayarlamak mümkündür. Okuma sırası, karakterlerin, kelimelerin vb. görüntülendiği görsel sıradır. Örneğin, İngilizce soldan sağa bir dil iken Arapça sağdan sola bir dildir.
 
- Okuma sırası şu şekilde ayarlanır:[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Metin yönü**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection) mülk. Aspose.Cells, önceden tanımlanmış metin yönü türlerini sağlar.[**Metin Yönü Türü**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype)numaralandırma.
+Okuma sırası, [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin [**TextDirection**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection) özelliği ile ayarlanır. Aspose.Cells, [**TextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype) numaralandırmasında önceden tanımlanmış metin yönü türlerini sağlar.
 
-|**Metin Yönü Türleri**|**Tanım**|
+|**Metin Yönü Türleri**|**Açıklama**|
 | :- | :- |
-|Bağlam|İlk girilen karakterin diliyle tutarlı okuma sırası|
-|Soldan sağa|Soldan sağa okuma sırası|
-|Sağdan sola|Sağdan sola okuma sırası|
+|Context|Girilen ilk karakterin diline uygun okuma sırası|
+|LeftToRight|Soldan sağa okuma sırası|
+|RightToLeft|Sağdan sola okuma sırası|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChangeTextDirection-1.cs" >}}
 
-##  **İleri konular**
-- [Cells Hizalamasını Değiştirin ve Mevcut Biçimlendirmeyi Koruyun](/cells/tr/net/change-cells-alignment-and-keep-existing-formatting/)
+## **Gelişmiş Konular**
+- [Hücre Düzenini Değiştirme ve Mevcut Biçimlendirmeyi Koruma](/cells/tr/net/change-cells-alignment-and-keep-existing-formatting/)
 - [Satır Sonları ve Metin Kaydırma](/cells/tr/net/line-breaks-and-text-wrapping/)
 

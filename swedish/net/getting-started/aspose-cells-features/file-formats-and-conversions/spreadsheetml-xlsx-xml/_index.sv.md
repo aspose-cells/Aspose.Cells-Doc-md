@@ -1,42 +1,43 @@
-﻿---
+---
 title: SpreadsheetML - XLSX, XML
 type: docs
 weight: 10
 url: /sv/net/spreadsheetml-xlsx-xml/
 ---
-## **Cirka SpreadsheetML**
-SpreadsheetML är ett namn på en familj av XML-baserade format för kalkylarksdokument. Det finns flera versioner av SpreadsheetML:
 
-1. SpreadsheetML version 2003 introducerades i Microsoft Word 2003. SpreadsheetML var ett betydande steg av Microsoft mot att göra dokumentformatet öppet.
-1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) är det nya XML-baserade formatet som introduceras i Microsoft Office 2007-applikationer. Office Open XML är ett containerformat för flera specialiserade XML-baserade märkningsspråk. SpreadsheetML version 2007 är märkningsspråket som används av Microsoft Office Excel 2007 för att lagra sina dokument.
-1. Microsoft Excel 2010 lagrar dokument i SpreadsheetML version 2010 enligt definitionen i den uppdaterade OOXML-standarden.
+## **Om SpreadsheetML**
+SpreadsheetML är ett namn på en familj av XML-baserade format för kalkylbladsdokument. Det finns flera versioner av SpreadsheetML:
+
+1. SpreadsheetML-version 2003 introducerades i Microsoft Word 2003. SpreadsheetML var ett betydande steg av Microsoft mot att göra dokumentformatet öppet.
+1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) är det nya XML-baserade formatet som introducerades i Microsoft Office 2007-applikationer. Office Open XML är ett behållarformat för flera specialiserade XML-baserade märkningsspråk. SpreadsheetML-version 2007 är märkningsspråket som används av Microsoft Office Excel 2007 för att lagra sina dokument.
+1. Microsoft Excel 2010 lagrar dokument i SpreadsheetML-version 2010 enligt den uppdaterade OOXML-standarden.
 ## **SpreadsheetML i Aspose.Cells**
-Det finns tre "versioner" av SpreadsheetML tillgängliga:
+Det finns tre ”versioner” av tillgängligt SpreadsheetML:
 
-|**SpreadsheetML "Version"**|**Tillämplig standard/specifikation**|**Stöds i Aspose.Cells for .NET**|
-|:- |:- |:- |
+|**SpreadsheetML 'Version'**|**Tillämplig standard/specifikation**|**Stöds i Aspose.Cells for .NET**|
+| :- | :- | :- |
 |Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Ja|
 |Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|Ja|
 |Microsoft Excel 2010|OOXML ISO/IEC DIS 29500|Ja|
 |Microsoft Excel 2013|OOXML ISO/IEC DIS 29500|Ja|
-OOXML SpreadsheetML-dokument kommer oftast som XLSX-filer, som är ZIP-paket. Förutom XLSX. Aspose.Cells ger omfattande stöd för att ladda, spara och konvertera SpreadsheetML dokument. En sådan allomfattande implementering är möjlig eftersom Aspose.Cells utformades med strukturen Microsoft Excel-dokument i åtanke (och SpreadsheetML är känt för att efterlikna den interna representationen av Microsoft Excel-dokument).
-### **OOXML är öppet, varför använda Aspose.Cells?**
-Det är sant att Office Open XML-teknik gör det möjligt att bygga dokumentbehandling och generera applikationer med bara XML-klasserna utan att förlita sig på tredjepartsbibliotek som Aspose.Cells. Vi tror dock starkt att det fortfarande är mycket fördelaktigt att använda Aspose.Cells när du har att hantera OOXML-dokument, snarare än att arbeta genom XML eller andra bibliotek.
+OOXML SpreadsheetML-dokument kommer oftast som XLSX-filer, vilka är ZIP-paket. Förutom XLSX, tillhandahåller Aspose.Cells omfattande stöd för att ladda, spara och konvertera SpreadsheetML-dokument. En sådan allomfattande implementation är möjlig eftersom Aspose.Cells utformades med strukturen av Microsoft Excel-dokument i åtanke (och SpreadsheetML är känt för att efterlikna den interna representationen av Microsoft Excel-dokument).
+### **OOXML är öppen, varför använda Aspose.Cells?**
+Det är sant att Office Open XML-tekniken gör det möjligt att bygga dokumentbehandlings- och genereringsapplikationer med bara XML-klasser utan att förlita sig på tredjepartsbibliotek som Aspose.Cells. Dock tror vi starkt att det fortfarande är mycket fördelaktigt att använda Aspose.Cells när du måste hantera OOXML-dokument, snarare än att arbeta genom XML eller andra bibliotek.
 
-OOXML-specifikationen är flera tusen sidor lång. Att vara öppen och standard betyder inte att vara enkel. För att korrekt bearbeta eller generera OOXML-dokument måste man investera i att lära sig formatet väl.
+Specifikationen för OOXML är flera tusen sidor lång. Att vara öppen och standard innebär inte att vara enkel. För att korrekt bearbeta eller generera OOXML-dokument måste man investera i att lära sig formatet väl.
 
-Förutom att göra det enklare att korrekt bearbeta och generera giltiga dokument, tillhandahåller Aspose.Cells följande viktiga funktioner som du inte skulle ha när du arbetar med OOXML-filer direkt via XML eller andra tredjepartsbibliotek:
+Förutom att göra det enklare att korrekt behandla och generera giltiga dokument tillhandahåller Aspose.Cells följande viktiga funktioner som du inte skulle ha när du arbetar med OOXML-filer direkt via XML eller andra tredjepartsbibliotek:
 
-- Kvalitetskonverteringar mellan många populära Excel-format, inklusive konvertering till PDF, HTML, TIFF och utskrift.
-- Möjlighet att bygga dokument från fragment, från ett eller flera dokument, samtidigt som data automatiskt sammanfogas genom stilistisk formatering, diagram och grafik.
-- Funktioner på hög nivå, som att importera data från olika datakällor inklusive Array, ArrayList, DataTable, DataColumn, DataGrid, DataView och DataReader eller exportera data för att fylla en DataTable eller en Array med bara en rad kod.
+- Kvalitativa konverteringar mellan många populära Excel-format, inklusive konvertering till PDF, HTML, TIFF och utskrift.
+- Möjlighet att bygga dokument från fragment, från en eller flera dokument, samtidigt som data automatiskt sammanslås med stilistisk formatering, diagram och grafik.
+- Avancerade funktioner, såsom att importera data från olika datakällor inklusive Array, ArrayList, DataTable, DataColumn, DataGrid, DataView och DataReader eller exportera data för att fylla en DataTable eller en Array med bara en kodrad.
 - Robust formelberäkningsmotor som stöder nästan alla standard- och avancerade Microsoft Excel-funktioner.
 
-Betrakta följande exempel. Vissa celler innehåller texten "Hello World" i fet stil. Föreställ dig nu att du behöver skriva ett program som söker efter alla "Hello World"-fraser i arbetsbladet och ersätter dem med "Goodbye Earth".
+Överväg följande exempel. Vissa celler innehåller texten ”Hello World” i fetstil. Tänk dig nu att du behöver skriva ett program som söker efter alla fraser ”Hello World” i kalkylbladet och ersätter dem med ”Goodbye Earth”.
 ### **Ett fragment av ett Office Open XML-dokument**
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
@@ -169,4 +170,4 @@ Betrakta följande exempel. Vissa celler innehåller texten "Hello World" i fet 
 {{< /highlight >}}
 
 
-Att implementera även en enkel sök- och ersätt-operation i ett Office Open XML-dokument är svårt. Vårt råd: kom ihåg att öppen och standard inte betyder enkel, och använd Aspose.Cells.
+Att implementera även en enkel sök- och ersättningsoperation i ett Office Open XML-dokument är svårt. Vårt råd: kom ihåg att öppet och standardiserat inte betyder enkelt, och använd Aspose.Cells.

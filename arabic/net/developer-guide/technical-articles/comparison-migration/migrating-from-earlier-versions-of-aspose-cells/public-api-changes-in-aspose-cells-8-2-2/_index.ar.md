@@ -1,27 +1,28 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.2.2
+---
+title: تغييرات الواجهة البرمجية العامة في Aspose.Cells 8.2.2
 type: docs
 weight: 90
 url: /ar/net/public-api-changes-in-aspose-cells-8-2-2/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.2.1 إلى 8.2.2 والتي قد تهم مطوري الوحدة / التطبيق.
+يصف هذا المستند التغييرات في واجهة برمجة تطبيقات Aspose.Cells من الإصدار 8.2.1 إلى 8.2.2 التي قد تكون من المصلحة لمطوري الوحدات / التطبيقات.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **تمت إضافة الخاصية BuiltInDocumentPropertyCollection.Version**
-تمت إضافة الإصدار الجديد من الخاصية إلى فئة BuiltInDocumentPropertyCollection للسماح للمطورين باسترداد إصدار التطبيق الذي أنشأ جدول بيانات معين.
+## **واجهات برمجة التطبيقات الجديدة**
+### **تمت إضافة خاصية BuiltInDocumentPropertyCollection.Version**
+تمت إضافة الخاصية الجديدة Version إلى فئة BuiltInDocumentPropertyCollection للسماح للمطورين بالحصول على إصدار التطبيق الذي أنشأ جدول بيانات معين.
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال المفصل[احصل على نسخة من التطبيق الذي أنشأ جدول البيانات](/cells/ar/net/get-the-version-number-of-the-application-that-created-the-excel-document/) للمزيد من المعلومات.
+يرجى التحقق من المقال المفصل [الحصول على إصدار التطبيق الذي أنشأ جدول البيانات](/cells/ar/net/get-the-version-number-of-the-application-that-created-the-excel-document/) لمزيد من المعلومات.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -32,18 +33,18 @@ Console.WriteLine(properties.Version);
 {{< /highlight >}}
 
 
-### **مخطط الملكية. تمت إضافة ورقة العمل**
-قبل إصدار Aspose.Cells 8.2.2 ، لم يكن من الممكن استرداد مثيل ورقة العمل من كائن المخطط الذي يحمله. لقد ملأ Aspose.Cells 8.2.2 هذه الفجوة من خلال توفير خاصية Chart.Worksheet.
+### **تمت إضافة خاصية Chart.Worksheet**
+قبل إصدار Aspose.Cells 8.2.2، كان من غير الممكن استرداد مثيل الورقة من كائن الرسم البياني الذي يحتفظ به. لقد قام Aspose.Cells 8.2.2 بسد هذه الفجوة من خلال توفير خاصية Chart.Worksheet.
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال المفصل[احصل على ورقة عمل الرسم البياني](/cells/ar/net/get-worksheet-of-the-chart/) للمزيد من المعلومات.
+يرجى التحقق من المقال المفصل [الحصول على ورقة البيانات الخاصة بالرسم البياني](/cells/ar/net/get-worksheet-of-the-chart/) لمزيد من المعلومات.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var workbook = new Workbook("sample.xlsx");
 

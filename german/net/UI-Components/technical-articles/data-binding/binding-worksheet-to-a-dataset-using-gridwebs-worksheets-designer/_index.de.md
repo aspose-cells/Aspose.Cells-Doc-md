@@ -1,200 +1,203 @@
-﻿---
-title: Binden des Arbeitsblatts an ein DataSet mithilfe des GridWebs-Arbeitsblatt-Designers
+---
+title: Arbeitsblatt an ein DataSet binden mit dem Arbeitsblätter Designer von GridWeb
 type: docs
 weight: 20
-url: /de/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
+url: /de/net/aspose-cells-gridweb/bind-worksheet-to-a-dataset-use-designer/
+keywords: GridWeb,bind,DataSet,Designer,designer
+description: In diesem Artikel wird erläutert, wie Arbeitsblätter Designer verwendet werden, um ein Arbeitsblatt an ein DataSet in GridWeb zu binden.
 ---
+
 {{% alert color="primary" %}} 
 
- Dieser Artikel beschreibt einen einfachen Ansatz zum Binden von Arbeitsblättern an Datenbanktabellen im GUI-Modus mithilfe eines speziellen Tools, das mit Aspose.Cells.GridWeb, dem Worksheets Designer, geliefert wird.
+Dieser Artikel diskutiert einen einfachen Ansatz zum Binden von Arbeitsblättern an Datenbanktabellen im GUI-Modus unter Verwendung eines speziellen Tools, das mit Aspose.Cells.GridWeb mitgeliefert wird, dem Arbeitsblätter-Designer. 
 
 {{% /alert %}} 
-## **Binden eines Arbeitsblatts mit einer Datenbank mithilfe des Arbeitsblatt-Designers**
+## **Ein Arbeitsblatt mit einer Datenbank mit dem Arbeitsblätter-Designer binden**
 	**Schritt 1: Erstellen einer Beispieldatenbank**
-1. Zuerst erstellen wir die Beispieldatenbank, die in diesem Artikel verwendet wird. Wir verwenden Microsoft Access, um eine Datenbank zu erstellen, die eine Tabelle namens Products enthält. Das Schema ist unten dargestellt.
-   **Designinformationen der Produkttabelle** 
+1. Zunächst erstellen wir die Beispieldatenbank, die in diesem Artikel verwendet wird. Wir verwenden Microsoft Access, um eine Datenbank zu erstellen, die eine Tabelle namens Produkte enthält. Ihre Struktur wird unten dargestellt.
+   **Entwurfsinformationen der Produkte Tabelle** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_1.png)
-
-
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_1.png)
 
 
-1. Der Tabelle Products werden einige Dummy-Datensätze hinzugefügt.
-   **Datensätze in der Tabelle Produkte** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_2.png)
-### **Schritt 2: Beispielanwendung entwerfen**
- Eine ASP.NET-Webanwendung wird wie unten gezeigt in Visual Studio.NET erstellt und entworfen.
+
+1. Einige Dummy-Datensätze werden der Produkte-Tabelle hinzugefügt.
+   **Datensätze in der Produkte-Tabelle** 
+
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_2.png)
+### **Schritt 2: Entwurf der Beispielanwendung**
+Eine ASP.NET-Webanwendung wird erstellt und im Visual Studio .NET entworfen, wie unten gezeigt. 
 **Entworfene Beispielanwendung** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_3.png)
-### **Schritt 3: Herstellen einer Verbindung mit der Datenbank mithilfe des Server-Explorers**
- Es ist Zeit, sich mit der Datenbank zu verbinden. Wir können dies ganz einfach mit dem Server Explorer in Visual Studio.NET tun.
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_3.png)
+### **Schritt 3: Verbindung mit der Datenbank über den Server-Explorer**
+Es ist Zeit, sich mit der Datenbank zu verbinden. Wir können dies ganz einfach über den Server-Explorer in Visual Studio .NET tun. 
 
-1.  Wählen**Datenverbindung** in**Server-Explorer** und Rechtsklick.
-1.  Wählen**Verbindung hinzufügen** aus dem Menü.
-   **Auswahl der Option Verbindung hinzufügen** 
+1. Wählen Sie **Datenverbindung** im **Server-Explorer** aus und klicken Sie mit der rechten Maustaste.
+1. Wählen Sie **Verbindung hinzufügen** im Menü aus.
+   **Auswählen der Option Verbindung hinzufügen** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_4.png)
-
-
-
- Das Dialogfeld Datenverknüpfungseigenschaften wird angezeigt.
-**Das Dialogfeld Datenverknüpfungseigenschaften** 
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_5.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_4.png)
 
 
 
- Mit diesem Dialog können Sie sich mit jeder Datenbank verbinden. Standardmäßig können Sie sich mit einer SQL Server-Datenbank verbinden. Für dieses Beispiel müssen wir eine Verbindung mit einer Microsoft Access-Datenbank herstellen.
+Der Dialogfeld Eigenschaften für Datenverbindungen wird angezeigt. 
+**Das Dialogfeld Eigenschaften für Datenverbindungen** 
 
-1.  Drücke den**Anbieter** Tab.
-1.  Wählen**Microsoft Jet 4.0 OLE DB-Anbieter** von dem**OLE DB-Anbieter** aufführen.
-1.  Klicken**Nächste**.
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_5.png)
+
+
+
+Mit diesem Dialog können Sie sich mit einer beliebigen Datenbank verbinden. Standardmäßig können Sie sich mit einer SQL Server-Datenbank verbinden. Für dieses Beispiel müssen wir uns jedoch mit einer Microsoft Access-Datenbank verbinden. 
+
+1. Klicken Sie auf die Registerkarte **Provider**.
+1. Wählen Sie **Microsoft Jet 4.0 OLE DB Provider** aus der Liste der **OLE DB-Anbieter**.
+1. Klicken Sie auf **Weiter**.
    **Klicken Sie auf Weiter, nachdem Sie einen OLE DB-Anbieter ausgewählt haben** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_6.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_6.png)
 
 
- Das**Verbindung** Registerkarte wird geöffnet.
+Die Registerkarte **Verbindung** wird geöffnet. 
 
-1.  Wählen Sie die Access-Datenbankdatei Microsoft (in unserem Fall db.mdb) und klicken Sie auf**OK**.
+1. Wählen Sie die Microsoft Access-Datenbankdatei (in unserem Fall db.mdb) aus und klicken Sie auf **OK**.
    **Klicken Sie auf die Schaltfläche OK, nachdem Sie die Datenbankdatei ausgewählt haben** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_7.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_7.png)
 
 {{% alert color="primary" %}} 
 
- Nach dem Anklicken**OK** , wird eine Datenbankverbindung zur Microsoft Access-Datenbank in der erstellt**Server-Explorer**Doppelklicken Sie auf die Verbindung, um alle Tabellen, Ansichten und gespeicherten Prozeduren in der Datenbank anzuzeigen.
+Nach dem Klicken auf **OK** wird eine Datenbankverbindung zur Microsoft Access-Datenbank im **Server-Explorer** erstellt. Doppelklicken Sie auf die Verbindung, um alle Tabellen, Ansichten und gespeicherten Prozeduren in der Datenbank anzuzeigen.
 
 {{% /alert %}} 
-### **Schritt 4: Datenbankverbindungsobjekte grafisch erstellen**
-1.  Durchsuchen Sie die Tabellen in der Datenbank mit der**Server-Explorer**.
- Es gibt nur eine Tabelle, Produkte.
-1.  Ziehen Sie die Tabelle Produkte per Drag-and-Drop aus der**Server-Explorer** zum**Web-Formular**.
-   **Ziehen Sie die Produkttabelle aus dem Server-Explorer und legen Sie sie im Webformular ab** 
+### **Schritt 4: Erstellen von Datenbankverbindungsobjekten grafisch**
+1. Durchsuchen Sie die Tabellen in der Datenbank mit dem **Server Explorer**.
+   Es gibt nur eine Tabelle, Produkte. 
+1. Ziehen Sie die Tabelle Produkte aus dem **Server-Explorer** auf das **Webformular** und lassen Sie sie dort fallen.
+   **Ziehen der Tabelle Produkte aus dem Server-Explorer und Ablegen im Webformular** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_8.png)
-
-
-
-Möglicherweise wird ein Dialogfeld angezeigt.
-**Dialog zum Bestätigen der Einbeziehung des Datenbankkennworts in die Verbindungszeichenfolge** 
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_9.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_8.png)
 
 
 
- Entscheiden Sie, ob Sie ein Datenbankkennwort in die Verbindungszeichenfolge aufnehmen möchten oder nicht. Für dieses Beispiel haben wir ausgewählt**Geben Sie kein Passwort ein**. 
+Ein Dialog kann angezeigt werden.
+**Dialog zum Bestätigen der Einschließung des Datenbankpassworts im Verbindungsskript** 
+
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_9.png)
+
+
+
+Entscheiden Sie, ob Sie ein Datenbankpasswort im Verbindungsskript einschließen möchten oder nicht. Für dieses Beispiel haben wir **Passwort nicht einschließen** ausgewählt. 
 Zwei Datenbankverbindungsobjekte (oleDbConnection1 und oleDbDataAdapter1) wurden erstellt und hinzugefügt.
-**Datenbankverbindungsobjekte (oleDbConnection1 & oleDbDataAdapter1) erstellt und angezeigt** 
+**Datenbankverbindungsobjekte (oleDbConnection1 & oleDbDataAdapter1) wurden erstellt und angezeigt** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_10.png)
-
-
-
-### **Schritt 5: DataSet generieren**
-Bisher haben wir Datenbankverbindungsobjekte erstellt, müssen aber nach der Verbindung mit der Datenbank noch Daten speichern. Ein DataSet-Objekt kann Daten genau speichern und wir können es auch einfach mit der VS.NET-IDE generieren.
-
-1.  Wählen**oleDbDataAdaper1** und Rechtsklick.
-1.  Wählen**Datensatz generieren** Option aus dem Menü.
-   **Auswahl der Option DataSet generieren** 
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_11.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_10.png)
 
 
 
- Der Dialog DataSet generieren wird angezeigt.
- Hier kann ein Name für das neu zu erstellende DataSet-Objekt ausgewählt werden und welche Tabellen hinzugefügt werden sollen.
+### **Schritt 5: Generierung des DataSets**
+Bisher haben wir Datenbankverbindungsobjekte erstellt, benötigen jedoch immer noch einen Ort, um Daten nach der Verbindung mit der Datenbank zu speichern. Ein DataSet-Objekt kann Daten präzise speichern und wir können es auch einfach mit der VS.NET-IDE generieren. 
 
-1.  Wähle aus**Fügen Sie dieses Dataset dem Designer hinzu** Möglichkeit.
-1.  Klicken**OK**.
-   **Klicken Sie auf die Schaltfläche OK, um DataSet zu generieren** 
+1. Wählen Sie **oleDbDataAdaper1** aus und klicken Sie mit der rechten Maustaste.
+1. Wählen Sie **DataSet generieren** aus dem Menü.
+   **Auswählen der Option DataSet generieren** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_12.png)
-
-
-
-Dem Designer wird ein dataSet11-Objekt hinzugefügt.
-**DataSet generiert und Designer hinzugefügt** 
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_13.png)
-### **Schritt 6: Verwenden des Arbeitsblatt-Designers**
- Jetzt ist es an der Zeit, das Geheimnis zu lüften.
-
-1. Wählen Sie das GridWeb-Steuerelement aus, und klicken Sie mit der rechten Maustaste.
-1.  Wählen**Arbeitsblatt-Designer** Option aus dem Menü.
-
-   **Auswählen der Option Arbeitsblatt-Designer** 
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_14.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_11.png)
 
 
 
- Der Worksheet Collection Editor (auch Worksheets Designer genannt) wird angezeigt.
-**Dialogfeld Arbeitsblattsammlungs-Editor** 
+Der Dialog zur Generierung des DataSets wird angezeigt. 
+Hier ist es möglich, einen Namen für das neu zu erstellende DataSet-Objekt auszuwählen und welche Tabellen hinzugefügt werden sollen. 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_15.png)
+1. Wählen Sie die Option **Dieses Dataset zum Designer hinzufügen** aus.
+1. Klicken Sie auf **OK**.
+   **Klicken Sie auf die OK-Schaltfläche, um DataSet zu generieren** 
+
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_12.png)
 
 
 
-Das Dialogfeld enthält mehrere Eigenschaften, die konfiguriert werden können, um Sheet1 an eine beliebige Tabelle in der Datenbank zu binden.
+Ein dataSet11-Objekt wird dem Designer hinzugefügt.
+**DataSet generiert und zum Designer hinzugefügt** 
 
-1.  Wähle aus**Datenquelle** Eigentum.
- Das im vorherigen Schritt generierte dataSet11-Objekt wird im Menü aufgelistet.
-1. Wählen Sie dataSet11.
-1.  Drücke den**Datenmitglied** Eigentum.
- Der Worksheets Designer zeigt automatisch eine Liste von Tabellen in dataSet11. Es gibt nur eine Tabelle, Produkte.
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_13.png)
+### **Schritt 6: Verwenden des Worksheets Designers**
+Jetzt ist es an der Zeit, das Geheimnis zu lüften. 
+
+1. Wählen Sie die GridWeb-Steuerung aus und klicken Sie mit der rechten Maustaste.
+1. Wählen Sie die Option **Arbeitsblatt-Designer** im Menü aus. 
+
+   **Auswahl der Option Arbeitsblatt-Designer** 
+
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_14.png)
+
+
+
+Der Arbeitsblattsammlungs-Editor (auch Arbeitsblatt-Designer genannt) wird angezeigt. 
+**Arbeitsblattsammlungs-Editor-Dialog** 
+
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_15.png)
+
+
+
+Der Dialog enthält verschiedene Eigenschaften, die konfiguriert werden können, um Sheet1 mit einer Tabelle in der Datenbank zu verbinden.
+
+1. Wählen Sie die **Datenquelle**-Eigenschaft aus.
+   Das im vorherigen Schritt generierte Objekt dataSet11 wird im Menü aufgelistet. 
+1. Wählen Sie dataSet11 aus.
+1. Klicken Sie auf die **DataMember**-Eigenschaft.
+   Der Arbeitsblatt-Designer zeigt automatisch eine Liste von Tabellen in dataSet11 an. Es gibt nur eine Tabelle, Produkte.
 1. Wählen Sie die Tabelle Produkte aus.
-   **Festlegen von DataSource- und DataMember-Eigenschaften** 
+   **Setzen der DataSource- und DataMember-Eigenschaften** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_16.png)
-
-
-
-
-1.  Überprüf den**BindenSpalten** Eigentum.
-   **Klicken Sie auf die BindColumns-Eigenschaft** 
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_17.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_16.png)
 
 
 
- Klicken Sie auf die**BindenSpalten** -Eigenschaft öffnet den BindColumn-Auflistungs-Editor.
-**Der BindColumn-Auflistungs-Editor** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_18.png)
+1. Überprüfen Sie die **BindColumns**-Eigenschaft.
+   **Klicken der BindColumns-Eigenschaft** 
+
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_17.png)
 
 
 
- Im BindColumn Collection Editor werden alle Spalten der**Produkte** -Tabelle werden automatisch zur BindColumns-Auflistung hinzugefügt.
+Durch Klicken der **BindColumns**-Eigenschaft wird der BindColumn-Editor geöffnet.
+**Der BindColumn-Editor** 
+
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_18.png)
+
+
+
+Im BindColumn-Editor werden automatisch alle Spalten der Tabelle **Produkte** zur BindColumns-Sammlung hinzugefügt. 
 
 1. Wählen Sie eine beliebige Spalte aus und passen Sie ihre Eigenschaften an.
- Beispielsweise können Sie jede Spaltenüberschrift ändern.
-   **Ändern der Beschriftung der ProductID-Spalte** 
+   Sie können beispielsweise jede Spaltenüberschrift anpassen.
+   **Anpassen der Überschrift der Spalte ProductID** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_19.png)
-
-
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_19.png)
 
 
-1.  Nachdem Sie Änderungen vorgenommen haben, klicken Sie auf**OK**.
-1.  Schließen Sie alle Dialoge durch Anklicken**OK**.
- Schließlich kehren Sie zur Seite WebForm1.aspx zurück.
-   **Rückkehr zur Seite WebForm1.aspx nach der Verwendung des Arbeitsblatt-Designers** 
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_20.png)
 
 
- Oben wird der Spaltenname der Tabelle „Products“ angezeigt. Die Breite der Spalten ist gering, sodass die vollständigen Namen einiger Spalten nicht vollständig sichtbar sind.
+1. Nachdem Sie Änderungen vorgenommen haben, klicken Sie auf **OK**.
+1. Schließen Sie alle Dialogfelder, indem Sie auf **OK** klicken.
+   Schließlich kehren Sie zur Seite WebForm1.aspx zurück. 
+   **Zurück zur Seite WebForm1.aspx nach Verwendung des Arbeitsblattdesigners** 
+
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_20.png)
+
+
+Oben wird der Spaltenname der Tabelle 'Products' angezeigt. Die Spaltenbreite ist klein, sodass die vollständigen Namen einiger Spalten nicht vollständig sichtbar sind. 
 ### **Schritt 7: Hinzufügen von Code zum Page_Load-Ereignishandler**
- Wir haben den Arbeitsblatt-Designer verwendet und müssen jetzt nur noch Code zum Page_Load-Ereignishandler hinzufügen, um das dataSet11-Objekt mit Daten aus der Datenbank zu füllen (unter Verwendung von oleDbDataAdapter1) und das GridWeb-Steuerelement durch Aufrufen seiner DataBind-Methode an dataSet11 zu binden.
+Wir haben den Arbeitsblattdesigner verwendet und müssen jetzt nur noch Code zum Page_Load-Ereignishandler hinzufügen, um das Objekt 'dataSet11' mit Daten aus der Datenbank (mit 'oleDbDataAdapter1') zu füllen und das Steuerelement 'GridWeb' an 'dataSet11' zu binden, indem Sie seine DataBind-Methode aufrufen. 
 
-1.  Fügen Sie den Code hinzu:
+1. Fügen Sie den Code hinzu: 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Implementing Page_Load event handler
 
@@ -242,7 +245,7 @@ private void Page_Load(object sender, System.EventArgs e)
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Implementing Page_Load event handler
 
@@ -278,111 +281,111 @@ End Sub
 
 {{< /highlight >}}
 
-1. Überprüfen Sie den Code, der dem Page_Load-Ereignishandler hinzugefügt wurde.
-   **Code zum Page_Load-Ereignishandler hinzugefügt** 
+1. Überprüfen Sie den zum Page_Load-Ereignishandler hinzugefügten Code.
+   **Zum Page_Load-Ereignishandler hinzugefügter Code** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_21.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_21.png)
 ### **Schritt 8: Ausführen der Anwendung**
- Kompilieren Sie die Anwendung und führen Sie sie aus: Drücken Sie entweder**Strg+F5** oder klicken**Start**. 
+Kompilieren und starten Sie die Anwendung: drücken Sie entweder **Strg+F5** oder klicken Sie auf **Start**. 
 **Ausführen der Anwendung** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_22.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_22.png)
 
 
 
-Nach der Kompilierung wird die Seite WebForm1.aspx in einem Browserfenster geöffnet, wobei alle Daten aus der Datenbank geladen werden.
-**Daten, die aus der Datenbank in das GridWeb-Steuerelement geladen werden** 
+Nach dem Kompilieren wird die Seite WebForm1.aspx in einem Browserfenster geöffnet, und alle Daten aus der Datenbank werden geladen.
+**Daten in das Steuerelement 'GridWeb' aus der Datenbank geladen** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_23.png)
-## **Arbeiten mit dem GridWeb Control**
- Wenn Daten in das GridWeb-Steuerelement geladen werden, bietet es Benutzern die Kontrolle über die Daten. GridWeb bietet eine Reihe verschiedener Arten von Datenbearbeitungsfunktionen an.
-### **Datenvalidierung**
-Aspose.Cells. GridWeb erstellt automatisch geeignete Validierungsregeln für alle gebundenen Spalten gemäß den in der Datenbank definierten Datentypen. Zeigen Sie den Validierungstyp einer Zelle an, indem Sie den Mauszeiger darüber bewegen.
-**Überprüfung des Validierungstyps einer Zelle** 
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_23.png)
+## **Arbeiten mit dem Steuerelement 'GridWeb'**
+Wenn Daten in das Steuerelement 'GridWeb' geladen werden, bietet es den Benutzern die Kontrolle über die Daten. Das 'GridWeb' bietet eine Reihe unterschiedlicher Arten von Datenmanipulationsfunktionen. 
+### **Datenüberprüfung**
+Aspose.Cells.GridWeb erstellt automatisch geeignete Validierungsregeln für alle gebundenen Spalten gemäß den in der Datenbank definierten Datentypen. Sehen Sie sich den Validierungstyp einer Zelle an, indem Sie mit dem Cursor darüber fahren.
+**Überprüfen des Validierungstyps einer Zelle** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_24.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_24.png)
 
- Hier enthält die ausgewählte Zelle die**<INT>** Validierung, was bedeutet, dass Benutzer nur ganzzahlige Werte eingeben können. Wenn sie einen anderen Wert eingeben, tritt ein Validierungsfehler auf. Darüber hinaus,**<ERFORDERLICH>** zeigt, dass der Wert Produkt-ID übermittelt werden muss.
+Here, the selected cell contains the **<INT>** validation, which means that users can only enter integer values into it. If they enter another value, a validation error occurs. Moreover, **<REQUIRED>** shows that the value Product ID must be submitted. 
 ### **Zeilen löschen**
- Um eine Zeile zu löschen, wählen Sie eine Zeile (oder eine beliebige Zelle in der Zeile) aus, klicken Sie mit der rechten Maustaste und wählen Sie aus**Zeile löschen**.
-**Auswahl der Option Zeile löschen aus dem Menü** 
+Um eine Zeile zu löschen, wählen Sie eine Zeile (oder eine Zelle in der Zeile) aus, klicken Sie mit der rechten Maustaste und wählen Sie **Zeile löschen**.
+**Auswählen der Option Zeile löschen im Menü** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_25.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_25.png)
 
 
-Die Zeile würde sofort gelöscht.
+Die Zeile wird sofort gelöscht.
 **Rasterdaten (nachdem eine Zeile gelöscht wurde)** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_26.png)
-### **Zeilen bearbeiten**
-Bearbeiten Sie Daten in Zellen oder Zeilen und klicken Sie dann auf**Speichern** oder**einreichen** um die Änderungen zu speichern.
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_26.png)
+### **Bearbeiten von Zeilen**
+Bearbeiten Sie Daten in Zellen oder Zeilen und klicken Sie dann auf **Speichern** oder **Senden**, um die Änderungen zu speichern. 
 ### **Zeilen hinzufügen**
-1.  Um eine Zeile hinzuzufügen, klicken Sie mit der rechten Maustaste auf eine Zelle und wählen Sie sie aus**Zeile hinzufügen**.
-   **Auswahl der Option Zeile hinzufügen aus dem Menü** 
+1. Um eine Zeile hinzuzufügen, klicken Sie mit der rechten Maustaste auf eine Zelle und wählen Sie **Zeile hinzufügen**.
+   **Auswählen der Option Zeile hinzufügen im Menü** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_27.png)
-
-
-
-Eine neue Zeile wird dem Blatt am Ende anderer Zeilen hinzugefügt.
-**Neue Zeile zum Raster hinzugefügt** 
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_28.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_27.png)
 
 
 
- Links neben der neuen Zeile befindet sich ein Sternchen{{< emoticons/cross >}} , was anzeigt, dass die Zeile neu ist.
+Eine neue Zeile wird am Ende der anderen Zeilen dem Blatt hinzugefügt.
+**Neue Zeile dem Raster hinzugefügt** 
 
-1. Fügen Sie der neuen Zeile Werte hinzu.
-1.  Klicken**Speichern** oder**einreichen** um die Änderung zu bestätigen.
-   **Änderungen an Daten speichern, indem Sie auf *Speichern klicken** Knopf*
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_29.png)
-### **Zahlenformat einstellen**
- Im Moment sind die Preise in der**Produktpreis** Spalte werden als numerische Werte angezeigt. Es ist möglich, sie wie eine Währung aussehen zu lassen.
-
-1. Kehren Sie zu Visual Studio.NET zurück.
-1. Öffnen Sie den BindColumn-Auflistungs-Editor.
- Das**NumberType** Eigentum der**Produktpreis** Spalte eingestellt ist**Allgemein**.
-   **Die NumberType-Eigenschaft ist auf General festgelegt** 
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_30.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_28.png)
 
 
 
+At the left of the new row is an asterisk {{< emoticons/cross >}}, indicating that the row is new. 
 
-1.  Klicken**Dropdown-Liste** und auswählen**Währung4** von der Liste.
-   **Die NumberType-Eigenschaft wurde in Currency4 geändert** 
+1. Werte zur neuen Zeile hinzufügen.
+1. Klicken Sie auf **Speichern** oder **Senden**, um die Änderung zu bestätigen.
+   **Änderungen an den Daten durch Klicken auf die *Speichern**-Schaltfläche speichern* 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_31.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_29.png)
+### **Nummernformat festlegen**
+Derzeit werden die Preise in der Spalte **Produktpreis** als numerische Werte angezeigt. Es ist möglich, sie wie Währung aussehen zu lassen.
+
+1. Zurück zu Visual Studio.NET gehen.
+1. Öffnen Sie den BindColumn Collection Editor.
+   Die Eigenschaft **NumberType** der Spalte **Product Price** ist auf **Allgemein** eingestellt.
+   Die Eigenschaft NumberType ist auf Allgemein eingestellt 
+
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_30.png)
 
 
 
 
-1. Führen Sie die Anwendung erneut aus.
- Die Werte in der**Produktpreis** Spalte ist jetzt Währung.
-   **Produktpreise im Währungszahlenformat** 
+1. Klicken Sie auf **DropDownList** und wählen Sie **Currency4** aus der Liste aus.
+   Die Eigenschaft NumberType wurde auf Currency4 geändert 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_32.png)
-### **Bearbeiten von Daten**
- Die Anwendung erlaubt ihren Benutzern bisher nur das Anzeigen von Tabellendaten. Benutzer können Daten im GridWeb-Steuerelement bearbeiten, aber beim Schließen des Browsers und Öffnen der Datenbank hat sich nichts geändert. Die vorgenommenen Änderungen werden nicht in der Datenbank gespeichert.
-
- Im folgenden Beispiel wird der Anwendung Code hinzugefügt, sodass GridWeb Änderungen in der Datenbank speichern kann.
-
-1. Öffne das**Eigenschaften** und wählen Sie das SaveCommand-Ereignis des GridWeb-Steuerelements aus der Liste aus.
-   **Auswählen des SaveCommand-Ereignisses von GridWeb** 
-
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_33.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_31.png)
 
 
 
 
-1.  Doppelklicken Sie auf die**SaveCommand** -Ereignis und VS.NET erstellt den GridWeb1_SaveCommand-Ereignishandler.
-1.  Fügen Sie diesem Ereignishandler Code hinzu, der die Datenbank mit allen geänderten Daten im DataSet aktualisiert, die mit oleDbDataAdapter1 an das Arbeitsblatt gebunden sind.
+1. Starten Sie die Anwendung erneut.
+   Die Werte in der Spalte **Product Price** sind jetzt in Währung.
+   **Produktpreise im Währungsnummerformat** 
+
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_32.png)
+### **Daten bearbeiten**
+Die Anwendung erlaubt bisher nur das Anzeigen von Tabellendaten. Benutzer können Daten im GridWeb-Control bearbeiten, aber beim Schließen des Browsers und Öffnen der Datenbank hat sich nichts geändert. Die vorgenommenen Änderungen werden nicht in der Datenbank gespeichert. 
+
+Das folgende Beispiel fügt Code zur Anwendung hinzu, damit das GridWeb Änderungen in der Datenbank speichern kann. 
+
+1. Öffnen Sie das **Eigenschaften**-Fenster und wählen Sie das **SaveCommand**-Ereignis des GridWeb-Controls aus der Liste aus.
+   **Auswahl des SaveCommand-Ereignisses von GridWeb** 
+
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_33.png)
+
+
+
+
+1. Doppelklicken Sie auf das **SaveCommand**-Ereignis, und VS.NET erstellt den Ereignishandler GridWeb1_SaveCommand.
+1. Fügen Sie diesem Ereignishandler Code hinzu, der die Datenbank mit allen geänderten Daten im an das Arbeitsblatt gebundenen DataSet unter Verwendung von oleDbDataAdapter1 aktualisiert. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Implementing the event handler for SaveCommand event
 
@@ -396,7 +399,7 @@ private void GridWeb1_SaveCommand(object sender, System.EventArgs e)
 
         //Getting the modified data of worksheet as a DataSet
 
-        DataSet dataset = (DataSet)GridWeb1.WebWorksheets[0].DataSource;
+        DataSet dataset = (DataSet)GridWeb1.WorkSheets[0].DataSource;
 
         //Updating database according to modified DataSet
 
@@ -422,7 +425,7 @@ private void GridWeb1_SaveCommand(object sender, System.EventArgs e)
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Implementing the event handler for SaveCommand event
 
@@ -432,7 +435,7 @@ Private Sub GridWeb1_SaveCommand(ByVal sender As Object, ByVal e As System.Event
 
         'Getting the modified data of worksheet as a DataSet
 
-        Dim dataset As DataSet = CType(GridWeb1.WebWorksheets(0).DataSource, DataSet)
+        Dim dataset As DataSet = CType(GridWeb1.WorkSheets(0).DataSource, DataSet)
 
         'Updating database according to modified DataSet
 
@@ -452,15 +455,15 @@ End Sub
 
 {{< /highlight >}}
 
-Sie können auch den Code überprüfen, der dem Ereignishandler GridWeb1_SaveCommand hinzugefügt wurde
-**Code zum GridWeb1_SaveCommand-Ereignishandler hinzugefügt** 
+Sie können auch den zum GridWeb1_SaveCommand-Ereignishandler hinzugefügten Code überprüfen
+**Zum GridWeb1_SaveCommand-Ereignishandler hinzugefügter Code** 
 
-![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_34.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_34.png)
 
- Speichern Sie Änderungen in der Datenbank mit der**Speichern** Schaltfläche speichert sie jetzt definitiv.
+Änderungen an der Datenbank mit der **Speichern**-Schaltfläche jetzt definitiv speichern.
 ## **Fazit**
 {{% alert color="primary" %}} 
 
-Die Datenbindung ist ein wichtiges Feature von Aspose.Cells.GridWeb. Es ist einfach, Arbeitsblätter mit dem von Aspose.Cells.GridWeb angebotenen Worksheets Designer-Dienstprogramm an eine Datenbank zu binden. Aspose.Cells.GridWeb spart Zeit und Mühe beim Erstellen leistungsstarker Grid-Lösungen.
+Datenbindung ist eine wichtige Funktion von Aspose.Cells.GridWeb. Es ist einfach, Arbeitsblätter mithilfe des von Aspose.Cells.GridWeb angebotenen Worksheets Designer-Dienstprogramms an eine Datenbank zu binden. Aspose.Cells.GridWeb spart Zeit und Mühe bei der Erstellung leistungsfähiger Rasterlösungen. 
 
 {{% /alert %}}

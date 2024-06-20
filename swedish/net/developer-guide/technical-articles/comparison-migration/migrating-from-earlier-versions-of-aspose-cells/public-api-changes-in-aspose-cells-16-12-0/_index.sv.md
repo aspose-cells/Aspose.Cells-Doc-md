@@ -1,23 +1,24 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 16.12.0
+---
+title: Offentliga API ändringar i Aspose.Cells 16.12.0
 type: docs
 weight: 360
 url: /sv/net/public-api-changes-in-aspose-cells-16-12-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 16.11.0 till 16.12.0 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringar i Aspose.Cells API från version 16.11.0 till 16.12.0 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser osv., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Filtrera objekt vid laddningstid**
-Aspose.Cells 16.12.0 har exponerat klassen LoadFilter tillsammans med egenskapen LoadOptions.LoadFilter som tillsammans kan styra vilken typ av data som ska laddas samtidigt som en instans av Workbook initialiseras från en mallfil.
+## **Tillagda API:er**
+### **Filterobjekt vid inläsning**
+Aspose.Cells 16.12.0 har exponerat klassen LoadFilter tillsammans med egenskapen LoadOptions.LoadFilter som tillsammans kan kontrollera vilken typ av data som ska laddas vid initialisering av en instans av Workbook från en mallfil.
 
-Här är ett enkelt användningsscenario för att bara ladda dokumentegenskaperna från en mallfil.
+Här är ett enkelt användningsscenariot för att endast ladda dokumentegenskaper från en mallfil.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -37,11 +38,11 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 
 
 
-Följande utdrag läser in allt från ett befintligt kalkylblad förutom diagrammen.
+Följande utdrag laddar allt från en befintlig kalkylblad förutom diagrammen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -59,11 +60,11 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 
 
 
-Följande kod laddar endast celldata (tillsammans med formler) och formatering från ett befintligt kalkylblad.
+Följande kod laddar endast celldata (tillsammans med formler) och formatering från en befintlig kalkylblad.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -81,11 +82,11 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 
 
 
-Klassen LoadFilter tillåter också att anpassa laddningsprocessen enligt egenskaperna för kalkylbladet. För att anpassa laddningsprocessen enligt kalkylbladet måste man åsidosätta metoden LoadFilter.StartSheet som visas nedan.
+Klassen LoadFilter tillåter också att anpassa laddningsprocessen enligt egenskaperna för arket. För att anpassa laddningsprocessen enligt kalkylblad måste en person överväga metoden LoadFilter.StartSheet enligt nedanstående exempel.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomFilter : Aspose.Cells.LoadFilter
 
@@ -123,11 +124,11 @@ Klassen LoadFilter tillåter också att anpassa laddningsprocessen enligt egensk
 
 
 
-Följande kodavsnitt använder klassen CustomFilter som definieras ovan.
+Följande kodsnutt använder CustomFilter-klassen som definierats ovan.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -144,14 +145,14 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 {{< /highlight >}}
 
 
-### **Lade till FileFormatType.OTS Enumeration**
-Aspose.Cells 16.12.0 har lagt till OTS-post till FileFormatType-uppräkningen för att upptäcka formatet på OTS-filer.
+### **Tillagd FileFormatType.OTS Uppräkning**
+Aspose.Cells 16.12.0 har lagt till OTS-posten till uppräkningen FileFormatType för att upptäcka formatet av OTS-filer.
 
-Följande kodavsnitt använder FileFormatType.OTS.
+Följande kodsnutt använder FileFormatType.OTS.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample in an instance of FileStream
 
@@ -170,22 +171,22 @@ Debug.Assert(fileFormatInfo.FileFormatType == FileFormatType.OTS);
 {{< /highlight >}}
 
 
-### **Lade till FontConfigs.PreferSystemFontSubstitutes Property**
-Aspose.Cells 16.12.0 har exponerat egenskapen PreferSystemFontSubstitutes för FontConfigs-klassen. Egenskapen FontConfigs.PreferSystemFontSubstitutes är av typen Boolean, vilket indikerar om API ska använda systemets teckensnittsersättningsmekanism först, ifall ett obligatoriskt teckensnitt inte finns och ingen ersättning för det specifika teckensnittet har definierats. Standardvärdet för egenskapen FontConfigs.PreferSystemFontSubstitutes är falskt.
-### **Lade till egenskapen BuiltInDocumentPropertyCollection.ScaleCrop**
-Aspose.Cells 16.12.0 har lagt till egenskapen ScaleCrop till klassen BuiltInDocumentPropertyCollection. ScaleCrop indikerar visningsläget för dokumentminiatyren. Om du ställer in det här elementet på sant möjliggör skalning av dokumentminiatyrbilden enligt visningen, medan om du ställer in den på false kan du beskära dokumentminiatyren för att visa avsnittet som passar skärmen.
-### **Lade till egenskapen BuiltInDocumentPropertyCollection.LinksUpToDate**
-Aspose.Cells 16.12.0 har också exponerat LinksUpToDate-egenskapen för klassen BuiltInDocumentPropertyCollection. Egenskapen LinksUpToDate anger om hyperlänkarna i ett dokument är uppdaterade.
-### **Lade till Workbook.ExportXml Method**
-Aspose.Cells 16.12.0 har avslöjat metoden Workbook.ExportXml som gör det möjligt att lagra XML-kartdata till angiven filsökväg. Metoden Workbook.ExportXml accepterar 2 parametrar där den första parametern av typen sträng ska vara XML-mappnamnet och den andra parametern ska vara filsökvägen för att lagra XML-data.
-### **Lade till WorksheetCollection.CreateRange Method**
-Aspose.Cells 16.12.0 har lagt till metoden WorksheetCollection.CreateRange som gör det möjligt att skapa intervall baserat på en adress (cellområdesreferens) & kalkylbladsindex.
+### **Tillagd egenskapen FontConfigs.PreferSystemFontSubstitutes**
+Aspose.Cells 16.12.0 har exponerat egenskapen PreferSystemFontSubstitutes för FontConfigs-klassen. Egenskapen FontConfigs.PreferSystemFontSubstitutes är av typen Boolean och indikerar om API:en ska använda systemets fontsubstitutionsmekanism först, om en nödvändig font inte är närvarande och ingen ersättning för den särskilda fonten har definierats. Standardvärdet för egenskapen FontConfigs.PreferSystemFontSubstitutes är falskt.
+### **Tillagd egenskapen BuiltInDocumentPropertyCollection.ScaleCrop**
+Aspose.Cells 16.12.0 har lagt till egenskapen ScaleCrop till BuiltInDocumentPropertyCollection-klassen. ScaleCrop anger visningsläget för dokumentets miniatyrbild. Att sätta det här elementet till sann aktiverar skalningen av dokumentets miniatyrbild enligt visning medan att sätta det till falskt aktiverar beskärningen av dokumentets miniatyrbild för att visa avsnittet som passar visningen.
+### **Tillagd egenskapen BuiltInDocumentPropertyCollection.LinksUpToDate**
+Aspose.Cells 16.12.0 har också exponerat egenskapen LinksUpToDate för BuiltInDocumentPropertyCollection-klassen. Egenskapen LinksUpToDate indikerar om hyperlänkar i en dokument är uppdaterade.
+### **Tillagd Workbook.ExportXml Metoden**
+Aspose.Cells 16.12.0 har exponerat metoden Workbook.ExportXml som tillåter att lagra XML-kartdata till angiven filväg. Workbook.ExportXml metoden accepterar 2 parametrar där den första parametern av typen string ska vara XML-kartnamnet och den andra parametern ska vara filvägsplatsen för att lagra XML-data.
+### **Tillagd WorksheetCollection.CreateRange Metoden**
+Aspose.Cells 16.12.0 har lagt till metoden WorksheetCollection.CreateRange som tillåter att skapa ett område baserat på en adress (cellområdens referens) & Arkindex.
 
-Följande utdrag använder metoden WorksheetCollection.CreateRange för att skapa ett cellintervall som spänner över A1 till A2 i det första (standard) kalkylbladet.
+Följande kodsnutt använder WorksheetCollection.CreateRange-metoden för att skapa ett område med celler som sträcker sig över A1 till A2 i första (standard) kalkylblad.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -202,27 +203,27 @@ var sheets = book.Worksheets;
 var range = sheets.CreateRange("A1:A2", 0);
 
 {{< /highlight >}}
-## **Föråldrade API:er**
-### **Föråldrad LoadOptions.LoadDataOptions-egenskap**
-Använd egenskapen LoadOptions.LoadFilter som ett alternativ.
-### **Föråldrad LoadOptions.LoadDataFilterOptions-egenskap**
-Använd egenskapen LoadOptions.LoadFilter istället.
-### **Föråldrade LoadOptions.OnlyLoadDocumentProperties-egenskap**
-Använd egenskapen LoadOptions.LoadFilter som ett alternativ.
-### **Föråldrad LoadOptions.LoadDataAndFormatting Property**
-Använd egenskapen LoadOptions.LoadFilter istället.
+## **Obsoletterade API:er**
+### **Obsoletterad LoadOptions.LoadDataOptions Egenskap**
+Använd istället LoadOptions.LoadFilter egenskapen som ett alternativ.
+### **Obsoletterad LoadOptions.LoadDataFilterOptions Egenskap**
+Använd istället LoadOptions.LoadFilter egenskapen istället.
+### **Obsoletterad LoadOptions.OnlyLoadDocumentProperties Egenskap**
+Använd istället LoadOptions.LoadFilter egenskapen som ett alternativ.
+### **Obsoletterad LoadOptions.LoadDataAndFormatting Egenskap**
+Använd istället LoadOptions.LoadFilter egenskapen istället.
 
 {{% alert color="primary" %}} 
 
-Kodavsnitt för alla föråldrade API:er har delats ovan.
+Kodsnutten för alla obsoletterade API:er har delats ovan.
 
 {{% /alert %}}
-## **Borttagna API:er**
-### **Raderade DataLabels.Rotation Property**
-Använd egenskapen DataLabels.RotationAngle istället.
-### **Raderad Title.Rotation Property**
-Använd egenskapen Title.RotationAngle som ett alternativ.
-### **Borttagen DataLabels.Background-egenskap**
-Det rekommenderas att använda egenskapen DataLabels.BackgroundMode istället.
-### **Raderad DisplayUnitLabel.Rotation-egenskap**
-Överväg att använda egenskapen DisplayUnitLabel.RotationAngle för att uppnå samma mål.
+## **Raderade API:er**
+### **Raderad DataLabels.Rotation Egenskap**
+Använd istället DataLabels.RotationAngle egenskapen istället.
+### **Borttagen titel.Rotationsattribut**
+Vänligen använd Title.RotationAngle-egendom som ett alternativ.
+### **Borttagen DataLabels.Background Egendom**
+Det rekommenderas att använda DataLabels.BackgroundMode-egendomen istället.
+### **Borttagen DisplayUnitLabel.Rotation-egendom**
+Överväg att använda DisplayUnitLabel.RotationAngle-egendom för att uppnå samma mål.

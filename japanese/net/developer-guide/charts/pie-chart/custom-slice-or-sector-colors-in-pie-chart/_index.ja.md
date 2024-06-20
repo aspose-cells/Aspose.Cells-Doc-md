@@ -1,32 +1,33 @@
 ---
-title: 円グラフのカスタム スライスまたはセクターの色
-description: Aspose.Cells for .NET を使用して円グラフのスライスとセクターの色をカスタマイズする方法を学びます。私たちのガイドでは、視覚的な魅力とデータ表現を向上させるために、各スライス、セクター、またはリージョンに固有の色を割り当てる方法を説明します。
-keywords: Aspose.Cells for .NET, Pie Chart, Custom Slice Colors, Custom Sector Colors, Visual Appeal, Data Representation.
+title: 円グラフのカスタムスライスまたはセクターの色
+description: Aspose.Cells for .NETを使用して、円グラフのスライスやセクターの色をカスタマイズする方法を学んでください。私たちのガイドでは、各スライス、セクター、またはレジョンに一意の色を割り当て、視覚的魅力とデータ表現を向上させる方法を示します。
+keywords: Aspose.Cells for .NET、円グラフ、カスタムスライスの色、カスタムセクターの色、視覚的魅力、データ表現
 type: docs
 weight: 60
 url: /ja/net/custom-slice-or-sector-colors-in-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-この記事では、円グラフのスライス/セクターにカスタム色を追加する方法について説明します。デフォルトでは、円グラフは Microsoft Excel のデフォルト テンプレートを使用します。他の色を使用するには、チャート内の色を再定義します。
+この記事では、円グラフのスライス/セクターにカスタムカラーを追加する方法について説明します。標準では、円グラフはMicrosoft Excelのデフォルトテンプレートを使用します。他の色を使用するには、チャート内の色を再定義してください。
 
 {{% /alert %}}
 
-円グラフの個々のスライスまたはセクターにカスタム色を設定するには:
+円グラフの個々のスライスやセクターにカスタムカラーを設定するには：
 
-1. にアクセスしてください[**シリーズ**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)オブジェクトの[**チャートポイント**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
-1. を使用して選択した色を割り当てます。[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)財産。
+1. [**Series**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)オブジェクトの[**ChartPoint**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint)にアクセスします。
+1. [**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)プロパティを使用して、お好きな色を割り当てます。
 
-この記事では、次の方法についても説明します。
+この記事では次のような方法も説明しています:
 
-- グラフのカテゴリ データ。
-- セルにリンクされたグラフのタイトル。
-- グラフのタイトルのフォント設定。
-- レジェンドの位置。
+- チャートのカテゴリデータ。
+- セルにリンクされたチャートタイトル。
+- チャートタイトルのフォント設定。
+- 凡例の位置。
 
 {{% alert color="primary" %}}
 
-[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)円グラフに固有のものではありませんが、あらゆる種類のグラフに使用できます。
+[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)はパイチャートに特有のものではなく、すべての種類のチャートに使用することができます。
 
 {{% /alert %}}
 

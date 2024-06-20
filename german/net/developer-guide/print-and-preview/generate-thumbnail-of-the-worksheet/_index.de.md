@@ -1,16 +1,17 @@
-﻿---
-title: Generieren Sie eine Miniaturansicht des Arbeitsblatts
+---
+title: Thumbnail des Arbeitsblatts generieren
 type: docs
 weight: 110
 url: /de/net/generate-thumbnail-of-the-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Es kann nützlich sein, Miniaturansichten aus Arbeitsblättern zu generieren. Ein Miniaturbild ist ein kleines Bild, das in ein Word-Dokument oder eine PowerPoint-Präsentation eingefügt werden kann, um eine Vorschau dessen zu geben, was sich auf dem Arbeitsblatt befindet. Es kann mit einem Link zum Herunterladen des Originaldokuments zu einer Webseite hinzugefügt werden und hat eine Vielzahl anderer Verwendungszwecke.
+Es kann nützlich sein, Miniaturansichten aus Arbeitsblättern zu generieren. Eine Miniaturansicht ist ein kleines Bild, das in ein Word-Dokument oder eine PowerPoint-Präsentation eingefügt werden kann, um eine Vorschau dessen zu geben, was sich auf dem Arbeitsblatt befindet. Sie kann einer Webseite mit einem Link zum Download des Originaldokuments hinzugefügt werden und hat viele weitere Verwendungsmöglichkeiten.
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET ermöglicht es Ihnen, Arbeitsblätter in Bilddateien auszugeben, sodass das Erstellen einer Miniaturansicht einfach ist. Der folgende Beispielcode zeigt Ihnen, wie Sie Arbeitsblätter in Bilddateien ausgeben.
+Mit Aspose.Cells for .NET können Arbeitsblätter problemlos in Bilddateien ausgegeben werden, sodass das Erstellen einer Miniaturansicht leicht möglich ist. Der nachstehende Beispielscode zeigt, wie Arbeitsblätter in Bilddateien ausgegeben werden können.
 
 
 

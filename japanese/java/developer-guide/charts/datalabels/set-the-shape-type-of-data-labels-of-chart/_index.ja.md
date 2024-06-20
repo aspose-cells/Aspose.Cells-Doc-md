@@ -1,14 +1,15 @@
-﻿---
-title: グラフのデータ ラベルの形状タイプを設定する
+---
+title: チャートのデータラベルのシェイプタイプを設定する
 type: docs
 weight: 70
 url: /ja/java/set-the-shape-type-of-data-labels-of-chart/
 ---
-## **考えられる使用シナリオ**
 
-を使用して、グラフのデータ ラベルの形状タイプを変更できます。[**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)財産。の値を取ります[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)列挙し、それに応じてデータ ラベルの形状タイプを変更します。その値のいくつかは
+## **可能な使用シナリオ**
 
-{{< highlight "java" >}}
+チャートのデータラベルのシェイプタイプを[**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)プロパティを使って変更できます。これは[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)列挙体の値を取り、それに応じてデータラベルのシェイプタイプを変更します。その値のいくつかは
+
+{{< highlight java >}}
 
 DataLabelShapeType.BENT_LINE_CALLOUT
 
@@ -24,11 +25,11 @@ etc.
 
 {{< /highlight >}}
 
-## **グラフのデータ ラベルの形状タイプを設定する**
+## **チャートのデータラベルの形状タイプを設定する**
 
-次のサンプル コードは、グラフのデータ ラベルの形状タイプを次のように変更します。[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT).をご覧ください[サンプル Excel ファイル](60489794.xlsx)このコードと[出力エクセルファイル](60489793.xlsx)それによって生成されます。スクリーンショットは、サンプル Excel ファイルに対するコードの効果を示しています。
+次のサンプルコードは、チャートのデータラベルのシェイプタイプを[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT)に変更します。このコードで使用されるサンプルExcelファイルは[こちら](60489794.xlsx)で、それを使用した[sample Excel file](60489793.xlsx)で生成される[output Excel file](60489793.xlsx)を参照してください。スクリーンショットは、サンプルExcelファイルに対するコードの効果を示しています。
 
-![todo:画像_代替_文章](set-the-shape-type-of-data-labels-of-chart_1.png)
+![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 
 ## **サンプルコード**
 

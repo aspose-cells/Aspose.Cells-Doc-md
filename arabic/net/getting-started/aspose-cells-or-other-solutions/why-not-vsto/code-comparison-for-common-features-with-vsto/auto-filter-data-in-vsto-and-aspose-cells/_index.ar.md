@@ -1,21 +1,22 @@
-﻿---
-title: بيانات التصفية التلقائية في VSTO و Aspose.Cells
+---
+title: تصفية البيانات تلقائيا في VSTO و Aspose.Cells
 type: docs
 weight: 50
 url: /ar/net/auto-filter-data-in-vsto-and-aspose-cells/
 ---
-لتطبيق التصفية التلقائية على عمود:
 
-1. قم بإنشاء مصنف.
-1. احصل على ورقة عمل.
-1. أضف بيانات العينة.
-1. تطبيق مرشح تلقائي.
-1. تناسب الأعمدة تلقائيًا لجعل الشاشة جذابة.
-1. احفظ جدول البيانات.
+لتطبيق التصفية التلقائية على العمود:
 
-توضح نماذج الكود في هذه المقالة كيفية تنفيذ هذه الخطوات باستخدام VSTO إما مع C# ، أو باستخدام Apose.Cells ، مرة أخرى باستخدام إما C#.
+1. إنشاء دفتر عمل.
+2. الحصول على ورقة العمل.
+1. إضافة بيانات عينة.
+1. تطبيق التصفية التلقائية.
+1. تناسب الأعمدة تلقائيًا لجعل العرض جذابًا.
+1. حفظ جدول البيانات.
+
+توضيح كيفية تنفيذ هذه الخطوات باستخدام VSTO مع إمكانية استخدام C# ، أو باستخدام Apose.Cells مرة أخرى مع إمكانية استخدام C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Excel.Application ExcelApp = Application;
 
@@ -29,27 +30,27 @@ Excel.Worksheet sheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Add data into A1 and B1 Cells as headers.
 
-sheet.Cells[1, 1]= "Product ID";
+sheet.Cells[1, 1] = "Product ID";
 
-sheet.Cells[1, 2]= "Product Name";
+sheet.Cells[1, 2] = "Product Name";
 
 //Add data into details cells.
 
-sheet.Cells[2, 1]= 1;
+sheet.Cells[2, 1] = 1;
 
-sheet.Cells[3, 1]= 2;
+sheet.Cells[3, 1] = 2;
 
-sheet.Cells[4, 1]= 3;
+sheet.Cells[4, 1] = 3;
 
-sheet.Cells[5, 1]= 4;
+sheet.Cells[5, 1] = 4;
 
-sheet.Cells[2, 2]= "Apples";
+sheet.Cells[2, 2] = "Apples";
 
-sheet.Cells[3, 2]= "Bananas";
+sheet.Cells[3, 2] = "Bananas";
 
-sheet.Cells[4, 2]= "Grapes";
+sheet.Cells[4, 2] = "Grapes";
 
-sheet.Cells[5, 2]= "Oranges";
+sheet.Cells[5, 2] = "Oranges";
 
 //Enable Auto-filter.
 
@@ -73,7 +74,7 @@ objBook.SaveCopyAs("vsto_autofilter.xlsx");
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -121,7 +122,7 @@ objBook.Save("aspose-cells_autofilter.xlsx");
 
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Auto.Filter.Data.Aspose.Cells.zip)
-- [سورس فورج](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Auto%20Filter%20Data%20\(Aspose.Cells\).zip / تنزيل)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Auto%20Filter%20Data%20\(Aspose.Cells\).أَزِيز)
+## **تحميل رمز عينة**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Auto.Filter.Data.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Auto%20Filter%20Data%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Auto%20Filter%20Data%20\(Aspose.Cells\).zip)

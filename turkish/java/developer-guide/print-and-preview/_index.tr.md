@@ -1,6 +1,7 @@
-﻿---
-title: İşle, Yazdır ve Önizle
+---
+title: Render, Yazdır ve Önizleme
 type: docs
 weight: 56
 url: /tr/java/rendering/
 ---
+

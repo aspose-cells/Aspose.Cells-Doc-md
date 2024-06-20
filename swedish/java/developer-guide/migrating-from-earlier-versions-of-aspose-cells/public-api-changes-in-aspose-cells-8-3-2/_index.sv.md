@@ -1,35 +1,36 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.3.2
+---
+title: Offentliga API ändringar i Aspose.Cells 8.3.2
 type: docs
 weight: 130
 url: /sv/java/public-api-changes-in-aspose-cells-8-3-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.3.1 till 8.3.2 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder,[lagt till klasser etc.](/cells/sv/java/public-api-changes-in-aspose-cells-8-3-2/) och[borttagna klasser osv.](/cells/sv/java/public-api-changes-in-aspose-cells-8-3-2/), men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringarna i Aspose.Cells API från version 8.3.1 till 8.3.2 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, [tillagda klasser osv.](/cells/sv/java/offentliga-api-ändringar-i-aspose-cells-8-3-2/) och [borttagna klasser osv.](/cells/sv/java/offentliga-api-ändringar-i-aspose-cells-8-3-2/), utan även en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
+## **Tillagda API:er**
 ### **Mekanism för att ställa in absolut position för PivotItem**
- För att tillhandahålla funktionen[PivotItems absoluta positionering](/cells/sv/java/specifying-the-absolute-position-of-the-pivot-item/), Aspose.Cells for Java 8.3.2 har avslöjat en serie egenskaper och en metod som anges nedan.
+För att tillhandahålla funktionen [PivotItem's absolut positionering](/cells/sv/java/ange-den-absoluta-positionen-för-pivot-item/), har Aspose.Cells for Java 8.3.2 exponerat en serie egenskaper och en metod enligt nedan.
 
-- PivotItem.setPosition kan användas för att ställa in positionsindex i alla PivotItems oavsett föräldernod.
-- PivotItem.setPositionInSameParentNode kan användas för att ställa in positionsindex i PivotItems under samma överordnade nod.
-- Metoden PivotItem.move(int count, bool isSameParent) kan användas för att flytta objektet uppåt eller nedåt baserat på count-värdet, där count är antalet positioner för att flytta PivotItem uppåt eller nedåt. Om räknevärdet är mindre än noll, kommer objektet att flyttas uppåt, där som om räknevärdet är större än noll, kommer PivotItem att flyttas nedåt, boolesk typ isSameParent parametern anger om flyttoperationen måste utföras i samma överordnade nod eller inte.
+- PivotItem.setPosition kan användas för att ställa in positionens index i alla PivotItems oavsett föräldernod.
+- PivotItem.setPositionInSameParentNode kan användas för att ställa in positionens index i PivotItems under samma föräldernod.
+- Metoden PivotItem.move(int count, bool isSameParent) kan användas för att flytta objektet uppåt eller nedåt baserat på count-värdet, där count är antalet positioner PivotItem ska flytta uppåt eller nedåt. Om count-värdet är mindre än noll flyttas objektet uppåt, medan om count-värdet är större än noll flyttas PivotItem nedåt. Booleskt typ isSameParent-parametern specificerar om flyttoperationen ska utföras i samma föräldernod eller inte.
 
 {{% alert color="primary" %}} 
 
-Observera att det är nödvändigt att anropa metoderna PivotTable.refreshData och PivotTable.calculateData innan du använder metoderna PivotItem.setPosition, PivotItem.setPositionInSameParentNode och PivotItem.move(int count, bool isSameParent).
+Observera att det är nödvändigt att anropa metoderna PivotTable.refreshData och PivotTable.calculateData innan du använder egenskaperna PivotItem.setPosition, PivotItem.setPositionInSameParentNode och metoden PivotItem.move(int count, bool isSameParent).
 
 {{% /alert %}} 
-### **Class SignatureLine tillagd**
-Aspose.Cells 8.3.2 ger stöd för signaturlinjen för att efterlikna MS Excels motsvarande funktion. Den här versionen har exponerat klassen SignatureLine och egenskapen Picture.SignatureLine för detta ändamål.
+### **Klass SignatureLine tillagd**
+Aspose.Cells 8.3.2 ger stöd för Signature Line för att efterlikna MS Excels motsvarande funktion. Denna version har exponerat klassen SignatureLine och egenskapen Picture.SignatureLine för detta ändamål.
 
-Följande exempelkod lägger till en signaturrad med egenskapen Picture.SignatureLine till arbetsboken.
+Följande exempelkod lägger till en signaturlinje med hjälp av egenskapen Picture.SignatureLine till arbetsboken.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -58,14 +59,14 @@ s.setEmail("john.doe@aspose.com");
 pic.setSignatureLine(s);
 
 {{< /highlight >}}
-### **Metoddiagram.hasAxis tillagd**
-Med lanseringen av v8.3.2 har Aspose.Cells API tillhandahållit metoden Chart.hasAxis(AxisType axisType, bool isPrimary) för att avgöra om diagrammet har en viss axel eller inte.
+### **Tillagd Chart.hasAxis Metod**
+Med utgivningen av v8.3.2 har Aspose.Cells API:er tillhandahållit metoden Chart.hasAxis(AxisType axisType, bool isPrimary) för att avgöra om diagrammet har en särskild axel eller inte.
 
-Följande exempelkod visar användningen av metoden Chart.hasAxis för att avgöra om exempeldiagrammet har primär-, sekundär- och värdeaxel.
+Följande exempelkod visar användningen av metoden Chart.hasAxis för att avgöra om diagrammet har primär-, sekundär- och värdeaxlar.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -98,12 +99,12 @@ ret = chart.hasAxis(AxisType.VALUE, false);
 System.out.println("Has Seconary Value Axis: " + ret);
 
 {{< /highlight >}}
-### **Metod WorkbookSettings.checkWriteProtectedPassword har lagts till**
-Metod WorkbookSettings.checkWriteProtectedPassword gör det möjligt för utvecklarna att kontrollera om ett givet lösenord för att ändra kalkylarket är korrekt eller inte.
+### **Tillagd WorkbookSettings.checkWriteProtectedPassword Metod**
+Metoden WorkbookSettings.checkWriteProtectedPassword gör det möjligt för utvecklare att kontrollera om ett angivet lösenord för att ändra kalkylarket är korrekt eller inte.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify password to open inside the load options
 
@@ -122,14 +123,14 @@ boolean ret = workbook.checkWriteProtectedPassword("567");
 System.out.println("Is 567 correct Password to modify: " + ret);
 
 {{< /highlight >}}
-### **Överbelastningsmetoder WorkbookRender.toPrinter & SheetRender.toPrinter har lagts till**
-Aspose.Cells 8.3.2 har tillhandahållit metoderna WorkbookRender.toPrinter(string printerName, int printPageIndex, int printPageCount) och SheetRender.toPrinter(string printerName, int printPageIndex, int printPageCount) för att skriva ut sidorna i arbetsboken respektive kalkylbladet.
+### **Överlagringsmetoder WorkbookRender.toPrinter & SheetRender.toPrinter Tillagda**
+Aspose.Cells 8.3.2 har tillhandahållit metoderna WorkbookRender.toPrinter(string printerName, int printPageIndex, int printPageCount) och SheetRender.toPrinter(string printerName, int printPageIndex, int printPageCount) för att skriva ut sidområdet för arbetsbok och kalkylblad.
 
-Följande exempelkod illustrerar användningen av ovannämnda metoder för att skriva ut sidorna 2-5 i arbetsboken och arbetsbladet.
+Följande exempelkod illustrerar användningen av ovanstående metoder för att skriva ut sidorna 2-5 i arbetsboken och arbetsbladet.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -156,30 +157,30 @@ SheetRender sr = new SheetRender(worksheet, new ImageOrPrintOptions());
 sr.toPrinter(printerName, 1, 4);
 
 {{< /highlight >}}
-### **Metod Worksheet.refreshPivotTables tillagd**
-Den nya metoden Worksheet.refreshPivotTables gör det möjligt att uppdatera alla pivottabeller i ett visst kalkylblad i ett enda anrop.
+### **Tillagd Worksheet.refreshPivotTables Metod**
+Den nyligen tillagda metoden Worksheet.refreshPivotTables tillåter att uppdatera alla Pivot-tabeller i ett givet kalkylark med ett enda anrop.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  worksheet.refreshPivotTables();
 
 {{< /highlight >}}
-### **Metod Workbook.getNamedStyle tillagd**
-Aspose.Cells 8.3.2 har exponerat metoden Workbook.getNamedStyle som accepterar strängen som parameter och hämtar Style-objektet baserat på parametern som skickas.
-### **Metod Cells.importTwoDimensionArray har lagts till**
-Aspose.Cells API har gjort det möjligt att importera tvådimensionella arrayer till kalkylbladsceller genom att exponera metoden Cells.importTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). Den nämnda metoden importerar en tvådimensionell array av data till ett kalkylblad med mer flexibla alternativ definierade i TxtLoadOptions.
-### **Egenskaper OnePagePerSheet, PageIndex & PageCount har lagts till**
-Aspose.Cells for Java 8.3.2 har exponerat egenskaperna OnePagePerSheet, PageIndex och PageCount för klassen XpsSaveOptions. Användaren kan anpassa allt innehåll i ett kalkylblad på en enda sida av XPS med hjälp av egenskapen OnePagePerSheet och/eller hämta antalet sidor som ska skrivas ut med egenskapen PageCount. Egenskapen PageIndex hämtar/ställer in det 0-baserade indexet för den första sidan som ska sparas.
-### **Egenskaper NumberDecimalSeparator & NumberGroupSeparator tillagd**
-Aspose.Cells for Java 8.3.2 har introducerat NumberDecimalSeparator & NumberGroupSeparator-egenskaper som kan hämta/ställa in de anpassade separatorer som används för att formatera och analysera de numeriska värdena i kalkylblad.
+### **Tillagd Workbook.getNamedStyle Metod**
+Aspose.Cells 8.3.2 har exponerat metoden Workbook.getNamedStyle som accepterar en sträng som parameter och hämtar Style-objektet baserat på den angivna parametern.
+### **Tillagd Cells.importTwoDimensionArray Metod**
+Aspose.Cells API:er har gjort det möjligt att importera tvådimensionella matriser till kalkylarksceller genom att exponera metoden Cells.importTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). Sagda metod importerar en tvådimensionell matris av data till ett kalkylblad med mer flexibla alternativ definierade i TxtLoadOptions.
+### **Tillagd egenskaper OnePagePerSheet, PageIndex och PageCount**
+Aspose.Cells for Java 8.3.2 har exponerat egenskaperna OnePagePerSheet, PageIndex & PageCount för klassen XpsSaveOptions. Användaren kan få alla innehåll i en kalkylblad på en enda sida i XPS genom att använda egenskapen OnePagePerSheet och/eller hämta antalet sidor som ska skrivas ut med hjälp av egenskapen PageCount. Egenskapen PageIndex får/sätter indexet (baserat på 0) för den första sidan som ska sparas.
+### **Tillagd egenskaper NumberDecimalSeparator och NumberGroupSeparator**
+Aspose.Cells for Java 8.3.2 har introducerat egenskaperna NumberDecimalSeparator & NumberGroupSeparator som kan hämta/sätta anpassade separators som används för formatering & tolkning av numeriska värden i kalkylblad.
 
-Följande exempelkod illustrerar hur man anger anpassade avgränsare med Aspose.Cells API. Följande kod anger anpassade decimal- och gruppavgränsare som punkt respektive mellanslag.
+Följande exempelkod illustrerar hur man specificerar anpassade separatorer med Aspose.Cells API. Följande kod specificerar de anpassade decimal- och gruppseparatrarna som punkt och mellanslag, respektive.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook();
 
@@ -190,12 +191,12 @@ workbook.getSettings().setNumberDecimalSeparator('.');
 workbook.getSettings().setNumberGroupSeparator(' ');
 
 {{< /highlight >}}
-### **Egenskapen PdfSaveOptions.setFontSubstitutionCharGranularity har lagts till**
-Aspose.Cells for Java 8.3.2 har avslöjat egenskapen PdfSaveOptions.setFontSubstitutionCharGranularity för att lösa problemet där vissa Unicode-tecken inte kan visas med en specifik teckensnittsfamilj. När egenskapen PdfSaveOptions.setFontSubstitutionCharGranularity är inställd på true ändras endast teckensnittet med ett specifikt tecken som inte är visningsbart till visningsbart teckensnitt och resten av ordet eller meningen ska förbli i det ursprungliga teckensnittet.
+### **Lade till egenskapen PdfSaveOptions.setFontSubstitutionCharGranularity**
+Aspose.Cells for Java 8.3.2 har exponerat egenskapen PdfSaveOptions.setFontSubstitutionCharGranularity för att övervinna problemet där vissa Unicode-tecken inte kan visas med en specifik typsnittsfamilj. När egenskapen PdfSaveOptions.setFontSubstitutionCharGranularity är satt till sant kommer endast typsnittet för ett specifikt tecken som inte kan visas att ändras till ett visa typsnitt, resten av ordet eller meningen ska förbli i det ursprungliga typsnittet.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Save to PDF after setting PdfSaveOptions.setFontSubstitutionCharGranularity
 
@@ -204,36 +205,36 @@ PdfSaveOptions opts = new PdfSaveOptions();
 opts.setFontSubstitutionCharGranularity(true);
 
 {{< /highlight >}}
-## **Borttagna API:er**
-### **Tog bort föråldrade metoder**
-Följande metoder har tagits bort från allmänheten API.
+## **Borttagen API:er**
+### **Borttagna föråldrade metoder**
+Följande metoder har tagits bort från den offentliga API:n.
 
 - Workbook.open & Workbook.save metoder.
-- Workbook.setOleSize-metoden.
-- Workbook.loadData-metoden.
+- Workbook.setOleSize metod.
+- Workbook.loadData metod.
 - WorkbookDesigner.open & WorkbookDesigner.save metoder.
-- Metoden WorksheetCollection.deleteName.
-### **Borttagen föråldrade egenskaper**
-Följande fastigheter har tagits bort från allmänheten API.
+- WorksheetCollection.deleteName metod.
+### **Borttagna föråldrade egenskaper**
+Följande egenskaper har tagits bort från den offentliga API:n.
 
 - Workbook.isProtected egenskap.
-- Arbetsbok.Språkegenskap.
-- Arbetsbok.Regionsegendom.
-- Egenskapen WorkbookSettings.ReCalcOnOpen.
-- WorkbookSettings.Language-egenskap.
-- WorkbookSettings.Encoding-egenskap.
-- Egenskapen WorkbookSettings.ConvertNumericData.
-- Egenskapen WorksheetCollection.HidePivotFieldList.
-- Egenskapen WorksheetCollection.EnableHTTPCompression.
-- WorksheetCollection.isMinimerad egenskap.
-- WorksheetCollection.isDold egenskap.
-- Egenskapen WorksheetCollection.SheetTabBarWidth.
-- Egenskapen WorksheetCollection.WindowLeft.
-- Egenskapen WorksheetCollection.WindowLeftInch.
-- Egenskapen WorksheetCollection.WindowLeftCM.
-- Egenskapen WorksheetCollection.WindowTop.
-- Egenskapen WorksheetCollection.WindowTopInch.
-- Egenskapen WorksheetCollection.WindowTopCM.
+- Workbook.Language egenskap.
+- Workbook.Region egenskap.
+- WorkbookSettings.ReCalcOnOpen egenskap.
+- WorkbookSettings.Language egenskap.
+- WorkbookSettings.Encoding egenskap.
+- WorkbookSettings.ConvertNumericData egenskap.
+- WorksheetCollection.HidePivotFieldList egenskap.
+- WorksheetCollection.EnableHTTPCompression egenskap.
+- WorksheetCollection.isMinimized egenskap.
+- WorksheetCollection.isHidden egenskap.
+- WorksheetCollection.SheetTabBarWidth egenskap.
+- WorksheetCollection.WindowLeft egenskap.
+- WorksheetCollection.WindowLeftInch egenskap.
+- WorksheetCollection.WindowLeftCM egenskap.
+- WorksheetCollection.WindowTop egenskap.
+- WorksheetCollection.WindowTopInch egenskap.
+- WorksheetCollection.WindowTopCM egenskap.
 - Egenskapen WorksheetCollection.WindowWidth.
 - Egenskapen WorksheetCollection.WindowWidthInch.
 - Egenskapen WorksheetCollection.WindowWidthCM.
@@ -242,18 +243,18 @@ Följande fastigheter har tagits bort från allmänheten API.
 - Egenskapen WorksheetCollection.WindowHeightCM.
 - Egenskapen Worksheet.HPageBreaks.
 - Egenskapen Worksheet.VPageBreaks.
-- HtmlSaveOptions.DisplayHTMLCrossString-egenskap.
-- HtmlSaveOptions.ExportChartImageFormat-egenskapen.
+- Egenskapen HtmlSaveOptions.DisplayHTMLCrossString.
+- Egenskapen HtmlSaveOptions.ExportChartImageFormat.
 - Egenskapen SaveOptions.ExpCellNameToXLSX.
 - Egenskapen SaveOptions.DefaultFont.
 - Egenskapen SaveOptions.Compliance.
-- SaveOptions.PdfBookmark-egenskap.
+- Egenskapen SaveOptions.PdfBookmark.
 - Egenskapen SaveOptions.PdfImageCompression.
-- TxtSaveOptions.AlwaysQuoted egenskap.
-## **Föråldrade API:er**
-### **Egenskapsarbetsbok.sparaalternativ Föråldrad**
- Ett objekt med SaveOptions måste skickas till Workbook.Save-metoden efter att ha ställt in korrekta SaveOptions-egenskaper.
-### **Fastighetsarbetsbok. Stilar & Klassstilsamling Föråldrad**
-Det rekommenderas att använda metoden Workbook.createStyle för att skapa och manipulera stil för Workbook-instansen istället för att skapa en Style med metoden StyleCollection.add. Dessutom kan Workbook.getNamedStyle(string)-metoden användas för att få namngiven stil istället för StyleCollection.get(string).
-### **Metod PivotItem.move(int count) Föråldrad**
- Med lanseringen av Aspose.Cells 8.3.2, har API introducerat en annan överbelastning av metoden PivotItem.move som accepterar heltalsparametern för count och boolesk parameter för att flytta en PivotItem inom den överordnade noden.
+- Egenskapen TxtSaveOptions.AlwaysQuoted.
+## **Obsoletterade API:er**
+### **Föråldrad Workbook.saveOptions Egenskap**
+En instans av SaveOptions måste skickas till Workbook.Save-metoden efter att ha ställt in lämpliga SaveOptions-egenskaper. 
+### **Föråldrad Workbook.Styles & Klassen StyleCollection Egenskap**
+Det rekommenderas att använda metoden Workbook.createStyle för att skapa och hantera stil för Workbook-instansen istället för att skapa en stil med metoden StyleCollection.add. Dessutom kan metoden Workbook.getNamedStyle(string) användas för att hämta namngiven stil istället för StyleCollection.get(string).
+### **Föråldrad PivotItem.move(int count) Metod**
+Med utgåvan av Aspose.Cells 8.3.2 har API:et introducerat en annan överbelastning av metoden PivotItem.move som accepterar det heltalsparametern för räkna och boolesk parameter för att flytta en PivotItem inom föräldernod. 

@@ -1,26 +1,27 @@
-﻿---
-title: Şeklin Ayarlama Değerlerini Değiştirme
+---
+title: Şekil Ayar Değerlerini Değiştir
 type: docs
 weight: 3200
 url: /tr/java/change-adjustment-values-of-the-shape/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells sağlar[Shape.getGeometry().getShapeAdjustValues()](https://reference.aspose.com/cells/java/com.aspose.cells/geometry#ShapeAdjustValues) şekillerle ayar noktalarında değişiklik yapma özelliği. Microsoft Excel kullanıcı arabiriminde, ayarlamalar sarı elmas düğümler olarak görüntülenir. Örneğin:
+Aspose.Cells, şekillerle ilgili ayar noktalarını değiştirmek için [Shape.getGeometry().getShapeAdjustValues()](https://reference.aspose.com/cells/java/com.aspose.cells/geometry#ShapeAdjustValues) özelliğini sağlar. Microsoft Excel kullanıcı arayüzünde ayarlar, sarı elmas düğümleri olarak görüntülenir. Örneğin:
 
-- Yuvarlatılmış Dikdörtgenin yayı değiştirmek için bir ayarı vardır
-- Üçgenin noktanın konumunu değiştirmek için bir ayarı vardır
-- Bir yamuk, üst kısmın genişliğini değiştirmek için bir ayara sahiptir
-- Baş ve kuyruğun şeklini değiştirmek için okların iki ayarı vardır
+- Yuvarlatılmış Dikdörtgenin yay değiştirmek için ayarlaması vardır
+- Üçgenin nokta konumunu değiştirmek için bir ayarlaması vardır
+- Bir yamuktur, üstünün genişliğini değiştirmek için bir ayarlamaya sahiptir
+- Oklar, baş ve kuyruk şeklini değiştirmek için iki ayarlamaya sahiptir
 
- Bu makale kullanımını açıklayacaktır[Shape.getGeometry().getShapeAdjustValues()](https://reference.aspose.com/cells/java/com.aspose.cells/geometry#ShapeAdjustValues) farklı şekillerin ayarlama değerini değiştirme özelliği.
+Bu makale, farklı şekillerin ayar değerini değiştirmek için [Shape.getGeometry().getShapeAdjustValues()](https://reference.aspose.com/cells/java/com.aspose.cells/geometry#ShapeAdjustValues) özelliğinin kullanımını açıklayacaktır.
 
 {{% /alert %}} 
-## **Şeklin Ayarlama Değerlerini Değiştirme**
-Aşağıdaki örnek kod, kaynak excel dosyasındaki ilk çalışma sayfasının ilk üç şekline erişir ve ardından şekillerin ayar değerlerini değiştirir. Aşağıdaki ekran görüntüleri, ayar değerlerini değiştirmeden önce ve ardından ayar değerlerini değiştirdikten sonra şekillerin nasıl göründüğünü gösterir.
-### **Ayar Değerlerini Değiştirmeden Önce Şekiller Çizme**
-![yapılacaklar:resim_alternatif_metin](change-adjustment-values-of-the-shape_1.png)
-### **Ayar Değerlerini Değiştirdikten Sonra Şekiller Çizme**
-![yapılacaklar:resim_alternatif_metin](change-adjustment-values-of-the-shape_2.png)
+## **Şekil Ayar Değerlerini Değiştirme**
+Aşağıdaki örnek kod, kaynak excel dosyasındaki ilk üç şekle erişir ve ardından şekillerin ayar değerlerini değiştirir. Aşağıdaki ekran görüntüleri, ayar değerlerini değiştirmeden önce şekillerin nasıl göründüğünü ve ardından ayar değerlerini değiştirdikten sonraki görünümünü göstermektedir.
+### **Ayar Değerleri Değiştirilmeden Önce Çizim Şekilleri**
+![todo:image_alt_text](change-adjustment-values-of-the-shape_1.png)
+### **Ayar Değerleri Değiştirildikten Sonra Çizim Şekilleri**
+![todo:image_alt_text](change-adjustment-values-of-the-shape_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeAdjustmentValuesOfShape-ChangeAdjustmentValuesOfShape.java" >}}

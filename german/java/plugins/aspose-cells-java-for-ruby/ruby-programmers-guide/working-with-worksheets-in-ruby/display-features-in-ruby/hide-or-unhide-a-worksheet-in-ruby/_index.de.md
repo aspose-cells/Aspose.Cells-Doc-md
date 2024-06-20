@@ -1,16 +1,17 @@
-﻿---
-title: Ausblenden oder Einblenden eines Arbeitsblatts in Ruby
+---
+title: Arbeitsblatt in Ruby ausblenden oder wieder einblenden
 type: docs
 weight: 60
 url: /de/java/hide-or-unhide-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells – Ausblenden oder Einblenden eines Arbeitsblatts**
-### **Ausblenden eines Arbeitsblatts**
- Um das Arbeitsblatt mit Aspose.Cells Java für Ruby auszublenden, rufen Sie an**verbergenarbeitsblatt einblenden** Modul.
+
+## **Aspose.Cells - Arbeitsblatt ausblenden oder einblenden**
+### **Arbeitsblatt ausblenden**
+Um ein Arbeitsblatt mit Aspose.Cells Java für Ruby auszublenden, rufen Sie das Modul **hideunhideworksheet** auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -35,19 +36,19 @@ workbook.save(data_dir + "output.xls")
 puts "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
-### **Anzeigen eines Arbeitsblatts**
-Entwickler können ein Arbeitsblatt sichtbar machen, indem sie das festlegen*setVisible(* *wahr* *)*Methode der**Arbeitsblatt**Klasse.
+### **Ein Arbeitsblatt anzeigen**
+Entwickler können ein Arbeitsblatt sichtbar machen, indem sie die Methode *setVisible(* *true* *)* der Klasse **Worksheet** setzen.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the worksheet of the Excel file
 
 worksheet.setVisible(true)
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Ein Arbeitsblatt ein- oder ausblenden (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Download von **Arbeitsblatt ausblenden oder einblenden (Aspose.Cells)** von einer der unten genannten sozialen Coding-Seiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/hideunhideworksheet.rb)

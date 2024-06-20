@@ -1,28 +1,29 @@
-﻿---
-title: Büyük Veri Kümelerine Sahip Büyük Dosyalarla Çalışırken Bellek Kullanımını Optimize Etme
+---
+title: Büyük Veri Setlerine Sahip Büyük Dosyalarla Çalışırken Bellek Kullanımını Optimize Etme
 type: docs
 weight: 110
 url: /tr/nodejs-java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/
 ---
+
 {{% alert color="primary" %}}
 
-Büyük veri kümeleri içeren bir çalışma kitabı oluştururken veya büyük bir Microsoft Excel dosyasını okurken, işlemin alacağı toplam RAM miktarı her zaman endişe vericidir. Zorlukla başa çıkmak için uyarlanabilecek önlemler var. Aspose.Cells bazı ilgili seçenekler sunar ve API hafıza kullanımını azaltmak, azaltmak ve optimize etmek için çağrı yapar. Ayrıca, sürecin daha verimli çalışmasına ve daha hızlı çalışmasına yardımcı olabilir.
+Büyük veri setleriyle çalışırken veya büyük bir Microsoft Excel dosyasını okurken, işlemin alacağı toplam RAM miktarı her zaman endişe kaynağıdır. Mücadele etmek için adapte edilebilecek önlemler bulunmaktadır. Aspose.Cells, bellek kullanımını azaltmak, düşürmek ve optimize etmek için bazı ilgili seçenekler ve API çağrıları sağlar. Ayrıca, işlemin daha verimli çalışmasına ve daha hızlı çalışmasına yardımcı olabilir.
 
- Kullanmak[**Bellek Ayarı.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE) Genel bellek maliyetini azaltmak için hücreler verileri için kullanılan belleği optimize etme seçeneği. Hücreler için büyük veri seti oluştururken, varsayılan ayarı kullanmaya kıyasla belirli bir miktarda bellek tasarrufu sağlayabilir.[**Bellek Ayarı.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL).
+Hücre verileri için kullanılan belleği azaltmak için [**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE) seçeneğini kullanın. Büyük veri kümesi oluştururken, varsayılan ayar kullanmaktan daha fazla bellek tasarrufu sağlayabilir.
 
 {{% /alert %}}
 
-## **Belleği Optimize Etme**
+## **Bellek Kullanımını Optimize Etme**
 
-Aşağıdaki örnek, Aspose.Cells for Node.js via Java'de büyük verilerle çalışırken bellek kullanımının nasıl optimize edileceğini gösterir.
+Aşağıdaki örnek, Aspose.Cells for Node.js via Java ile büyük verilerle çalışırken bellek kullanımını nasıl optimize edeceğinizi göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
 
 ## **Dikkat**
 
- Varsayılan seçenek,[**Bellek Ayarı.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)tüm sürümler için geçerlidir. Hücreler için büyük bir veri kümesi içeren bir çalışma kitabı oluşturmak gibi bazı durumlarda,[**Bellek Ayarı.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)seçeneği bellek kullanımını optimize edebilir ve uygulama için bellek maliyetini azaltabilir. Ancak bu seçenek aşağıdaki gibi bazı özel durumlarda performansı düşürebilir.
+Varsayılan seçenek, [**MemorySetting.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL) tüm sürümler için uygulanır. Bir çalışma kitabı büyük bir veri kümesi için hücreler için bir çalışma kitabı oluşturma gibi bazı durumlarda, [**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE) seçeneği bellek kullanımını optimize edebilir ve uygulama için bellek maliyetini azaltabilir. Ancak bu seçenek özellikle iz sürmedeki bazı özel durumlarda performansı düşürebilir.
 
-1. **Cells'e Rastgele ve Tekrarlayarak Erişim** : Hücre koleksiyonuna erişmek için en verimli sıralama, bir satırda hücre hücre ve ardından satır satırdır. Özellikle, Numaralandırıcı tarafından alınan satırlara/hücrelere erişirseniz[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), [**Satır Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/RowCollection) ve[**Sıra**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) , performans ile maksimize edilecektir[**Bellek Ayarı.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE).
-1. **Cells & Satır Ekleme ve Silme** : Lütfen Cells/Satırlar için çok sayıda ekleme/silme işlemi varsa, performans düşüşünün dikkate değer olacağını unutmayın.[**Bellek Ayarı.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE) modu ile karşılaştırıldığında[**Bellek Ayarı.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)mod.
-1. **Farklı Cell Tiplerinde Çalışma** : Hücrelerin çoğu dize değerleri veya formüller içeriyorsa, bellek maliyeti aynı olacaktır.[**Bellek Ayarı.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)ancak çok sayıda boş hücre varsa veya hücre değerleri sayısal, bool vb. ise,[**Bellek Ayarı.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)seçeneği daha iyi performans verecektir.
+1. **Rastgele ve Tekrarlanan Şekilde Hücrelere Erişme**: Hücre koleksiyonuna erişmek için en verimli sıralama, önce bir satırda hücre hücre, ardından satır satır erişmektir. Özellikle, [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), [**RowCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/RowCollection) ve [**Row**](https://reference.aspose.com/cells/java/com.aspose.cells/Row)'den elde edilen Numaralayıcı ile satırlara/hücrelere erişiyorsanız, performans [**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE) ile maksimize edilecektir.
+1. **Hücreleri ve Satırları Ekleme & Silme**: Eğer Hücreler/Satırlar için birçok ekleme/silme işlemi varsa, [**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE) modu için performans düşüşü, [**MemorySetting.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL) modu ile karşılaştırıldığında belirgin olacaktır.
+1. **Farklı Hücre Türlerinde İşlemler**: Eğer hücrelerin çoğu dize değerleri veya formüller içeriyorsa, bellek maliyeti [**MemorySetting.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL) modu ile aynı olacaktır ancak boş hücrelerin çok olduğu veya hücre değerlerinin sayısal, bool vb. olduğu durumlarda, [**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE) seçeneği daha iyi performans verecektir.
 

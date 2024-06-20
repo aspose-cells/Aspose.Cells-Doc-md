@@ -1,13 +1,14 @@
-﻿---
-title: Affettatrice di rendering
+---
+title: Rendering del filtro
 type: docs
 weight: 40
 url: /it/java/rendering-slicer/
 ---
-## **Possibili scenari di utilizzo**
-Aspose.Cells supporta il rendering della forma affettatrice. Se converti il tuo foglio di lavoro in un'immagine o salvi la tua cartella di lavoro nei formati PDF o HTML, vedrai che gli slicer vengono visualizzati correttamente.
-## **Affettatrice di rendering**
-Il codice di esempio seguente carica il file[esempio di file Excel](67338485.xlsx)che contiene un'affettatrice esistente. Converte il foglio di lavoro in un'immagine impostando l'area di stampa che copre solo l'affettatrice. L'immagine che scorre è il[immagine in uscita](67338486.png)che mostra l'affettatrice renderizzata. Come puoi vedere, l'affettatrice è stata renderizzata correttamente e ha lo stesso aspetto del file Excel di esempio.
 
-![cose da fare:immagine_alt_testo](rendering-slicer_1)
-## **Codice d'esempio**
+## **Possibili Scenari di Utilizzo**
+Aspose.Cells supporta il rendering della forma dello slicer. Se converti il tuo foglio di lavoro in un'immagine o salvi il tuo workbook in formati PDF o HTML, vedrai che gli slicers sono resi correttamente.
+## **Rendering del filtro**
+Il seguente codice di esempio carica il [file di Excel di esempio](67338485.xlsx) che contiene uno slicer esistente. Converte il foglio di lavoro in un'immagine impostando l'area di stampa che copre solo lo slicer. L'immagine seguente è l'[immagine di output](67338486.png) che mostra lo slicer reso. Come puoi vedere, lo slicer è stato reso correttamente e appare identico al file di Excel di esempio.
+
+![todo:image_alt_text](rendering-slicer_1)
+## **Codice di Esempio**

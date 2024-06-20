@@ -1,11 +1,12 @@
-﻿---
-title: Получить гиперссылки в диапазоне
+---
+title: Получение гиперссылок в диапазоне
 type: docs
 weight: 50
 url: /ru/python-java/get-hyperlinks-in-range/
 ---
-## **Получить гиперссылки в диапазоне**
-Чтобы получить гиперссылки в диапазоне, используйте[получить гиперссылки ()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)собственность[Спектр](https://reference.aspose.com/cells/python/asposecells.api/Range)учебный класс.[получить гиперссылки ()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)свойство получает все гиперссылки в выбранном диапазоне.
+
+## **Получение гиперссылок в диапазоне**
+Для получения гиперссылок в диапазоне используйте свойство [getHyperlinks()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks) класса [Range](https://reference.aspose.com/cells/python/asposecells.api/Range). Свойство [getHyperlinks()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks) возвращает все гиперссылки в выбранном диапазоне.
 
 В следующем фрагменте кода показано, как получить все гиперссылки в выбранном диапазоне.
 

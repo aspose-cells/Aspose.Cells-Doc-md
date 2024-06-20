@@ -1,35 +1,36 @@
-﻿---
-title: Festlegen des Formelberechnungsmodus der Arbeitsmappe in Aspose.Cells
+---
+title: Berechnungsmodus der Formel in der Arbeitsmappe in Aspose.Cells einstellen
 type: docs
 weight: 100
 url: /de/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Mit Excel können Sie den Formelberechnungsmodus festlegen, d. h. die Art und Weise, wie Formeln berechnet werden. Es gibt drei mögliche Werte:
+Microsoft Excel ermöglicht es Ihnen, den Formelberechnungsmodus festzulegen, d.h. die Art und Weise, wie Formeln berechnet werden. Es gibt drei mögliche Werte:
 
-- Automatisch - neu berechnen, wenn etwas geändert wird und jedes Mal, wenn eine Arbeitsmappe geöffnet wird.
-- Automatisch außer für Datentabellen - neu berechnen, wenn etwas geändert wird, aber Datentabellen weglassen.
-- Manuell – nur neu berechnen, wenn der Benutzer dies explizit anfordert, indem er F9 oder STRG+ALT+F9 drückt, oder wenn die Arbeitsmappe gespeichert wird.
+- Automatisch - Neu berechnen, wenn sich etwas ändert, und jedes Mal, wenn eine Arbeitsmappe geöffnet wird.
+- Automatisch mit Ausnahme von Datentabellen - Neu berechnen, wenn sich etwas ändert, aber Auslassen von Datentabellen.
+- Manuell - Nur neu berechnen, wenn der Benutzer dies explizit durch Drücken von F9 oder STRG+ALT+F9 anfordert oder wenn die Arbeitsmappe gespeichert wird.
 
 {{% /alert %}} 
 
-So stellen Sie den Formelberechnungsmodus in Microsoft Excel ein:
+Um den Formelberechnungsmodus in Microsoft Excel festzulegen:
 
-1.  Wählen**Formeln** und dann**Berechnungsoptionen**.
+1. Wählen Sie **Formeln** und dann **Berechnungsoptionen**.
 1. Wählen Sie eine der Optionen aus.
 
- Aspose.Cells können Sie auch die einstellen**Formelberechnungsmodus** Verwenden der Moduseigenschaft FormulaSettings.CalculationMode. Sie können ihm die Aufzählung CalcModeType zuweisen, die einen der folgenden Werte hat:
+Aspose.Cells ermöglicht es Ihnen auch, den **Berechnungsmodus der Formel** mithilfe der FormulaSettings.CalculationMode- Eigenschaft festzulegen. Sie können ihm die CalcModeType-Aufzählung zuweisen, die einen der folgenden Werte enthält:
 
 - CalcModeType.Automatic
 - CalcModeType.AutomaticExceptTable
 - CalcModeType.Manual
 
-Der folgende Beispielcode erstellt zuerst eine Arbeitsmappe und setzt dann den Formelberechnungsmodus auf**Handbuch** und speichert die Arbeitsmappe als Excel-Ausgabedatei auf der Festplatte.
+Der folgende Beispielcode erstellt zunächst eine Arbeitsmappe, setzt dann den Formelberechnungsmodus auf **Manuell** und speichert die Arbeitsmappe als Ausgabedatei auf der Festplatte.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -49,6 +50,6 @@ workbook.Save(FileName, SaveFormat.Xlsx);
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Setting%20Formula%20Calculation%20Mode)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Setting%20Formula%20Calculation%20Mode)
 ## **Laufendes Beispiel herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

@@ -1,27 +1,28 @@
-﻿---
-title: Yazı Tiplerine Üst Simge ve Alt Simge Efektleri Uygulayın
+---
+title: Fontlarda Üstsimge ve Altsimge Efektleri Uygulama
 type: docs
 weight: 30
 url: /tr/java/apply-superscript-and-subscript-effects-on-fonts/
-description: Java ile excel'de metne üst simge ve alt simge efekti nasıl uygulanır. Bu makale, Aspose.Cells for Java API kullanımıyla bunu başarmak için Java kodunu sağlar.
-keywords: excel superscript java, excel subscript java, excel superscript and subscript java, insert subscript and superscript in excel java, add subscript and superscript in excel java, add superscript and subscript excel java, add superscript excel java, add subscript excel java
+description: Excel de metne üstsimge ve altsimge efekti uygulama hakkında bilgi için Java kullanarak nasıl yapılacağını açıklayan bir makale. Bu makale, Aspose.Cells for Java API sının kullanımıyla bunu başarmanın Java kodunu sağlar.
+keywords: excel üstsimge java, excel altsimge java, excel üstsimge ve altsimge java, excel e altsimge ve üstsimge ekleme java, excel e altsimge ve üstsimge ekleme java, excel e üstsimge ekleme java, excel e altsimge ekleme java, excel e altsimge ve üstsimge ekleme java, altsimge ve üstsimge uygulama java
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, metne üst simge (taban çizgisinin üzerindeki metin) ve alt simge (taban çizgisinin altındaki metin) efektlerini uygulama işlevselliği sağlar.
+Aspose.Cells, metne üstsimge (metnin taban çizgisinin üstünde) ve altsimge (metnin taban çizgisinin altında) efektlerini uygulama işlevselliği sağlar.
 
 {{% /alert %}}
 
-## **Üst Simge ve Alt Simge ile Çalışma**
+## **Üstsimge ve Altsimge ile Çalışma**
 
- kullanarak üst simge efektini uygulayın.[**Yazı tipi**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) nesnenin[**setSuperscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) Emlak. Alt simgeyi uygulamak için şunu kullanın:[**Yazı tipi**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) nesnenin[**setSubscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)yöntem.
+Üstsimge efektini [**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) nesnesinin [**setSuperscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) özelliğiyle uygulamak için. Altsimgeyi uygulamak için, [**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) nesnesinin [**setSubscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript) metodunu kullanın.
 
-Aşağıdaki kod örnekleri, metne üst ve alt simgenin nasıl uygulanacağını gösterir.
+Aşağıdaki kod örnekleri, metne üstsimge ve altsimge uygulamanın nasıl yapılacağını göstermektedir.
 
-### **Üst simge uygulanıyor**
+### **Üstsimge Uygulama**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingSuperscript-ApplyingSuperscript.java" >}}
 
-### **Abonelik Uygulanıyor**
+### **Altsimge Uygulama**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingSubscript-ApplyingSubscript.java" >}}

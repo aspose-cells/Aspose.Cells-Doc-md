@@ -1,18 +1,19 @@
-﻿---
-title: Укажите язык файла Excel с помощью встроенных свойств документа
+---
+title: Указание языка документа Excel с использованием встроенных свойств документа
 type: docs
 weight: 30
 url: /ru/java/specify-the-language-of-the-excel-file-using-builtin-document-properties/
 ---
+
 ## **Возможные сценарии использования**
 
-Вы можете изменить*Язык*файла Excel, щелкнув файл правой кнопкой мыши и выбрав*Свойства > Детали*а затем редактировать*Язык*поле. Пожалуйста, используйте[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)свойство, чтобы изменить его программно с помощью API Aspose.Cells.
+Вы можете изменить *Язык* файла Excel, щелкнув правой кнопкой мыши на файле, затем выбрав *Свойства > Подробности*, и затем изменяя поле *Язык*. Пожалуйста, используйте свойство [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language) для изменения его программным способом с использованием API Aspose.Cells.
 
-## **Укажите язык файла Excel с помощью встроенных свойств документа**
+## **Указание языка файла Excel с использованием встроенных свойств документа**
 
-Следующий пример кода создает книгу и изменяет ее встроенное свойство документа с именем*Язык*. Пожалуйста, смотрите[выходной файл Excel](outputSpecifyLanguageOfExcelFile.xlsx)сгенерированный код и скриншот, который показывает измененный*Язык*поле по[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)имущество.
+Приведенный ниже образец кода создает рабочую книгу и изменяет встроенное свойство документа с названием *Язык*. Пожалуйста, посмотрите [файл Excel с выводом](outputSpecifyLanguageOfExcelFile.xlsx), созданный кодом и скриншот, который показывает измененное поле *Язык* свойством [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language).
 
-![дело:изображение_альтернативный_текст](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+![todo:image_alt_text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 
 ## **Образец кода**
 

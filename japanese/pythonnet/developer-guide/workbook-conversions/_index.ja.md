@@ -1,136 +1,137 @@
 ---
-title: Excel を PDF、画像、その他の形式に変換
+title: ExcelをPdf、Image、その他の形式に変換する
 linktitle: ワークブックの変換
 type: docs
 weight: 65
 url: /ja/python-net/convert-workbook-to-different-formats/
-description: Excel ファイルを Word、Excel、PowerPoint、PDF、CSV、JPG、HTML、MHT、ODS、BMP、PNG、SVG、TIFF、XPS、に変換します。 JSON、Aspose.Cells for Python via .NET API を使用した SQL、XML など。
-keywords: Python Convert Excel Workbook to PDF, Convert Excel Workbook to JPG in Python, Python Convert Excel Workbook to Image, Converting Excel Workbook to XPS using Python, Convert Excel to Ods,Sxc and Fods via Python, Python Convert Excel Workbook to HTML, Convert Excel Workbook to JSON in Python, Python Convert Excel Workbook to DOCX, Convert Excel Workbook to TIFF or MARKDOWN with Ptyhon.
+description: Aspose.Cells for Python via .NET APIを使用して、ExcelファイルをWord、Excel、PowerPoint、PDF、CSV、JPG、HTML、MHT、ODS、BMP、PNG、SVG、TIFF、XPS、JSON、SQL、XMLなどに変換できます。
+keywords: PythonでExcelワークブックをPDFに変換する、PythonでExcelワークブックをJPGに変換する、Excelワークブックを画像に変換するPython、Pythonを使用してExcelワークブックをXPSに変換する、Pythonを使用してExcelをOds、Sxc、Fodsに変換する、PythonでExcelワークブックをHTMLに変換する、PythonでExcelワークブックをJSONに変換する、PythonでExcelワークブックをDOCXに変換する、PythonでExcelワークブックをTIFFまたはMARKDOWNに変換する。
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET は、多くの形式間の変換をサポートしています。技術的には、変換とは、ワークブックをあるファイル形式でロードし、別のファイル形式で保存することを意味します。
+Aspose.Cells for Python via .NETは、多くのフォーマット間の変換をサポートしています。技術的には、変換とは、1つのファイル形式でワークブックを読み込み、別の形式で保存することを意味します。
 
 {{% /alert %}}
 
-##  **Excel ワークブックを PDF に変換**
+## **ExcelワークブックをPDFに変換**
 
-PDF ファイルは、組織、政府部門、個人の間で文書を交換するために広く使用されています。これは標準のドキュメント形式であり、ソフトウェア開発者はよく Microsoft Excel ファイルを PDF ドキュメントに変換する方法を見つけるように求められます。
+PDFファイルは、組織、政府部門、個人間で文書を交換するために広く使用されています。これは標準のドキュメント形式であり、ソフトウェア開発者はしばしばMicrosoft ExcelファイルをPDFドキュメントに変換する方法を見つけるよう求められます。
 
-Aspose.Cells for Python via .NET は、Excel ファイルの PDF への変換をサポートし、変換時に高い視覚的忠実度を維持します。
+Aspose.Cells for Python via .NETは、高いビジュアルの忠実度を保ちながらExcelファイルをPDFに変換することをサポートしています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-PDF.py" >}}
 
-##  **Excel ワークブックを JPG に変換**
-Aspose.Cells for Python via .NET は、Excel ファイルの JPG への変換をサポートしています。
-以下のコード例は、ワークブックを JPG として保存する方法を示しています。
+## **ExcelワークブックをJPGに変換**
+Aspose.Cells for Python via .NETは、ExcelファイルをJPGに変換することをサポートしています。
+以下のコード例は、ブックをJPG形式で保存する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-JPG.py" >}}
 
-##  **Excel ワークブックを画像に変換**
-Aspose.Cells for Python via .NET は Excel ファイルの画像への変換をサポートしています。
-以下のコード例は、ワークブックを画像として保存する方法を示しています。
+## **Excelブックを画像に変換する**
+Aspose.Cells for Python via .NETは、Excelファイルを画像に変換する機能をサポートしています。
+以下のコード例は、ブックを画像として保存する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-Image.py" >}}
 
-##  **Excel ワークブックを XPS に変換する**
+## **ExcelブックをXPSに変換する**
 
-XPS ドキュメント形式は、ドキュメントのレイアウトと各ページの外観を定義する構造化 XML マークアップと、ドキュメントの配布、アーカイブ、レンダリング、処理、印刷のためのレンダリング ルールで構成されます。
+XPS文書形式は、文書のレイアウトと各ページの外観、配布、アーカイブ、レンダリング、処理、印刷に関するレンダリング規則を定義する構造化されたXMLマークアップで構成されています。
 
-XPS のマークアップ言語は XAML のサブセットで、XAML を使用して Windows Presentation Foundation (WPF) プリミティブをマークアップし、ベクター グラフィック要素をドキュメントに組み込むことができます。使用される要素は、パスおよびその他の幾何学的プリミティブの観点から説明されます。
+XPSのマークアップ言語はXAMLのサブセットで、Windows Presentation Foundation（WPF）のプリミティブをマークアップするためにベクトルグラフィックス要素を組み込むことができます。使用される要素はパスや他の幾何学的プリミティブで記述されています。
 
-実際、XPS ファイルは、オープン パッケージング規則を使用した Unicode ZIP アーカイブであり、ドキュメントを構成するファイルが含まれています。これらには、各ページの XML マークアップ ファイル、テキスト、埋め込みフォント、ラスター イメージ、2D ベクター グラフィックス、およびデジタル著作権管理情報が含まれます。 XPS ファイルの内容は、ZIP ファイルをサポートするアプリケーションで開くだけで調べることができます。
+XPSファイルは、実際には、文書を構成するファイルを含むOpen Packaging Conventionsを使用するユニコードZIPアーカイブであり、各ページのためのXMLマークアップファイル、テキスト、埋め込みフォント、ラスタ画像、2Dベクトルグラフィック、およびデジタル著作権管理情報が含まれています。XPSファイルの内容は、ZIPファイルをサポートするアプリケーションで開くことで簡単に調べることができます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-XPS.py" >}}
 
-##  **Excel を Ods、Sxc、Fods に変換 (OpenOffice / LibreOffice Calc)**
- Aspose.Cells for Python via .NET は、Excel ファイルの Ods、Sxc、および Fods ファイルへの変換をサポートしています。以下のコード例は、[テンパルテ](book1.xlsx)Ods、Sxc、Fods ファイルにコピーします。
+## **ExcelをOds、Sxc、Fods（OpenOffice / LibreOffice Calc）に変換する**
+Aspose.Cells for Python via .NETは、ExcelファイルをOds、Sxc、Fodsファイルに変換する機能をサポートしています。以下のコード例は、[テンプレート](book1.xlsx)をOds、Sxc、Fodsファイルに変換する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-ODS.py" >}}
 
 
-##  **Excel ワークブックを MHTML ファイルに変換する**
+## **ExcelワークブックをMHTMLファイルに変換する**
 
-MHTML は、通常の HTML と外部リソース (つまり、画像、アニメーション、オーディオなど、通常はリンクされているコンテンツ) を 1 つのファイルに結合します。これらは、.mht ファイル拡張子を持つ電子メールに使用されます。
+MHTMLは通常のHTMLと外部リソース（通常はリンクされた画像、アニメーション、オーディオなどのコンテンツ）を1つのファイルに組み合わせたものです。.mhtファイル拡張子を持つ電子メールで使用されています。
 
-Aspose.Cells for Python via .NET は、MHTML ファイルの読み取りと書き込みをサポートします。
+Aspose.Cells for Python via .NETは、MHTMLファイルの読み込みと書き込みをサポートしています。
 
-以下のコード例は、ワークブックを MHTML ファイルとして保存する方法を示しています。
+以下のコード例は、ワークブックをMHTMLファイルとして保存する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-MHTML.py" >}}
 
-##  **Excel ワークブックを HTML に変換する**
+## **ExcelワークブックをHTMLに変換する**
 
- Aspose.Cells for Python via .NET API は、スプレッドシートを HTML 形式にエクスポートするためのサポートを提供します。この目的のために、Aspose.Cells for Python via .NET は**[HtmlSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/)**クラスを使用して、出力 HTML のさまざまな側面を制御する柔軟性を提供します。
+Aspose.Cells for Python via .NET APIでは、スプレッドシートをHTML形式にエクスポートするためのサポートを提供しています。このために、Aspose.Cells for Python via .NETは[**HtmlSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/) クラスを使用して出力HTMLのさまざまな側面を制御する柔軟性を提供します。
 
-以下のコード例は、ワークブックを HTML ファイルとして保存する方法を示しています。
+以下のコード例は、ブックをHTMLファイルとして保存する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-HTML.py" >}}
 
-##  **HTML の画像設定の設定**
+## **HTMLの画像設定を設定する**
 
-Aspose.Cells for Python via .NET が暴露しました**[image_options](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/)**のために**[HtmlSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions)**クラスを使用すると、開発者はスプレッドシートを HTML 形式で保存するときに画像の設定を指定できます。
+Aspose.Cells for Python via .NETは、スプレッドシートをHTML形式に保存する際に画像設定を指定できる[**image_options**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/)を[**HtmlSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions)クラスに公開しています。
 
-以下は、適用できるいくつかの画像設定の詳細です。
+適用できるいくつかの画像設定の詳細は以下のとおりです。
 
-- *[画像タイプ](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)**: 画像の種類を指定します。グラフを含むすべての図形は、出力 HTML でイメージとしてレンダリングされることに注意してください。
-- *[平滑化モード](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode/)**: 塗りつぶされた領域の線、曲線、エッジのアンチエイリアスを指定します。
-- *[text_rendering_hint](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint/)**: テキストのレンダリングの品質を指定します。
-- **[quality](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/quality/)**: **[ImageType] の場合、画像の品質を 0 ～ 100 で指定します。 ](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)**Jpegとして指定します。
-- *[垂直解像度](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/)**: 画像の垂直解像度をドット/インチ単位で取得または設定します。
-- *[水平解像度](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/)**: 画像の水平解像度をドット/インチ単位で取得または設定します。
-- **[tiff_compression](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/)**: **[ImageType]( https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)**は Tiff として指定されます。
-- *[透明](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/transparent/)**: ImageFormat が Png として指定されている場合に、画像の背景を透明にするかどうかを示します。
+- [**ImageType**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)：画像タイプを指定します。すべての形状（チャートを含む）は、出力HTMLでは画像としてレンダリングされることに注意してください。
+- [**smoothing_mode**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode/)：線、曲線、塗りつぶしエリアのアンチエイリアシングを指定します。
+- [**text_rendering_hint**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint/)：テキストのレンダリング品質を指定します。
+- [**quality**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/quality/)：Jpegを指定すると0から100までの画像品質を指定します。
+- [**vertical_resolution**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/)：画像の垂直解像度（dpi）を取得または設定します。
+- [**horizontal_resolution**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/)：画像の水平解像度（dpi）を取得または設定します。
+- [**tiff_compression**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/)：Tiffを指定すると画像の圧縮タイプを取得または設定します。
+- [**transparent**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/transparent/)：ImageFormatをPngと指定すると、画像の背景が透明にするかどうか示します。
 
-以下のコードは使用方法を示しています**[HtmlSaveOptions.image_options](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/)**さまざまな設定を指定します。
+以下のコードは、[**HtmlSaveOptions.image_options**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/)を使用して異なる設定を指定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-HTML-SettingImagePrefrencesforHTML-1.py" >}}
 
-##  **Excel ワークブックをマークダウンに変換**
+## **ExcelブックをMarkdownに変換する**
 
-Aspose.Cells for Python via .NET API は、スプレッドシートを Markdown 形式にエクスポートするためのサポートを提供します。アクティブなワークシートを Markdown にエクスポートするには、次のように渡します。**[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**の 2 番目のパラメータとして**[Workbook.Save](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)**方法。を使用することもできます**[MarkdownSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)**ワークシートを Markdown にエクスポートするための追加設定を指定するクラス。
+Aspose.Cells for Python via .NET APIは、スプレッドシートをMarkdown形式にエクスポートする機能をサポートしています。アクティブなワークシートをMarkdownにエクスポートするには、[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)メソッドの第2パラメータとして[**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)を渡します。ワークシートをMarkdownにエクスポートするための追加の設定を指定するためには、[**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)クラスを使用することもできます。
 
-次のコード例は、アクティブなワークシートを Markdown にエクスポートする方法を示しています。**[SaveFormat.MARKDOWN](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)**列挙メンバー。をご覧ください。[マークダウンファイルを出力する](md_sample.txt)参考のためにコードによって生成されます。
+以下のコード例は、[**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)列挙型のメンバーを使用してアクティブなワークシートをMarkdownにエクスポートする方法を示しています。生成されたコードの参照用に、[出力Markdownファイル](md_sample.txt)をご覧ください。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-Markdown-1.py" >}}
 
-##  **Excel ワークブックを JSON に変換**
+## **ExcelワークブックをJSONに変換**
 
-Aspose.Cells for Python via .NET は、ワークブックの Json(JavaScript Object Notation) ファイルへの変換をサポートしています。
+Aspose.Cells for Python via .NETは、ワークブックをJson（JavaScript Object Notation）ファイルに変換することをサポートしています。
 
-次のコード例は、アクティブなワークシートを Json にエクスポートする方法を示しています。[**SaveFormat.JSON**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)列挙メンバー。変換するコードを参照してください[ソースファイル](Book1.xlsx)に[Jsonファイルを出力する](Book1.Json)参考のためにコードによって生成されます。
+次のコード例は、アクティブワークシートを[**SaveFormat.JSON**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)列挙型メンバーを使用してJSONにエクスポートする方法を示しています。参照のために、コードによって生成された[出力JSONファイル](Book1.Json)に変換する[ソースファイル](Book1.xlsx)をご覧ください。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-JSON.py" >}}
 
-##  **Excel を XML に変換する**
-Aspose.Cells for Python via .NET は、ブックを Excel 2003 スプレッドシート XML およびプレーン XML データに変換することをサポートしています。
+## **ExcelをXMLに変換**
+Aspose.Cells for Python via .NETは、ブックをExcel 2003スプレッドシートXMLおよびプレーンXMLデータに変換することをサポートしています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-XML.py" >}}
 
-##  **Excel ワークブックを TIFF に変換**
-Aspose.Cells for Python via .NET は、ワークブックから TIFF ファイルへの変換をサポートしています。
+## **ExcelブックをTIFFに変換する**
+Aspose.Cells for Python via .NETは、ブックをTIFFファイルに変換することをサポートしています。
 
-以下のコード スニペットは、Excel を TIFF に変換する方法を示しています。
+以下のコードスニペットは、ExcelをTIFFに変換する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-TIFF.py" >}}
 
-##  **Excel ワークブックを DOCX に変換**
+## **ExcelブックをDOCXに変換する**
 
-Aspose.Cells for Python via .NET API は、スプレッドシートを DOCX 形式に変換するためのサポートを提供します。ワークブックを DOCX にエクスポートするには、次のように渡します。[**SaveFormat.DOCX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)の 2 番目のパラメータとして[**ワークブック.保存**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#io.RawIOBase-aspose.cells.SaveOptions)方法。を使用することもできます[**DocxSaveオプション**](https://reference.aspose.com/cells/python-net/aspose.cells/docxsaveoptions/)ワークシートを DOCX にエクスポートするための追加設定を指定するクラス。
+Aspose.Cells for Python via .NET APIは、スプレッドシートをDOCX形式に変換するサポートを提供します。ブックをDOCXにエクスポートするには、[**Workbook.save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#io.RawIOBase-aspose.cells.SaveOptions)メソッドの第2パラメーターとして[**SaveFormat.DOCX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)を渡します。[**DocxSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/docxsaveoptions/)クラスを使用してワークシートをDOCXにエクスポートするための追加設定を指定することもできます。
 
-次のコード例は、アクティブなワークシートを DOCX にエクスポートする方法を示しています。[**SaveFormat.DOCX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)列挙メンバー。をご覧ください。[出力DOCXファイル](Book1.docx)参考のためにコードによって生成されます。
+次のコード例は、アクティブワークシートを[**SaveFormat.DOCX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)列挙型メンバーを使用してDOCXにエクスポートする方法を示しています。参照のために、コードによって生成された[出力DOCXファイル](Book1.docx)をご覧ください。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-Docx-1.py" >}}
 
-##  **Excel ワークブックを PPTX に変換**
+## **ExcelブックをPPTXに変換する**
 
-Aspose.Cells for Python via .NET API は、スプレッドシートを PPTX 形式に変換するためのサポートを提供します。ワークブックを PPTX にエクスポートするには、次のように渡します。[**SaveFormat.PPTX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)の 2 番目のパラメータとして[**ワークブック.保存**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#io.RawIOBase-aspose.cells.SaveOptions)方法。を使用することもできます[**Pptx保存オプション**](https://reference.aspose.com/cells/python-net/aspose.cells/pptxsaveoptions)ワークシートを PPTX にエクスポートするための追加設定を指定するクラス。
+Aspose.Cells for Python via .NET APIは、スプレッドシートをPPTX形式に変換するサポートを提供します。ブックをPPTXにエクスポートするには、[**Workbook.save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#io.RawIOBase-aspose.cells.SaveOptions)メソッドの第2パラメーターとして[**SaveFormat.PPTX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)を渡します。[**PptxSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pptxsaveoptions)クラスを使用してワークシートをPPTXにエクスポートするための追加設定を指定することもできます。
 
-次のコード例は、アクティブなワークシートを PPTX にエクスポートする方法を示しています。[**SaveFormat.PPTX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)列挙メンバー。をご覧ください。[出力PPTXファイル](Book1.pptx)参考のためにコードによって生成されます。
+次のコード例は、アクティブワークシートを[**SaveFormat.PPTX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)列挙型メンバーを使用してPPTXにエクスポートする方法を示しています。参照のために、コードによって生成された[出力PPTXファイル](Book1.pptx)をご覧ください。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-File-To-Pptx-1.py" >}}
 
-##  **アドバンストトピック**
-- [ジソン](/cells/ja/python-net/convert-workbook-to-json/)
-- [PDF](/cells/ja/python-net/convert-excel-to-pdf/)
-- [CSV、TSV、TXT を Excel に変換](/cells/ja/python-net/convert-csv-tsv-and-txt-to-excel/)
+## **高度なトピック**
+- [Json](/cells/ja/python-net/convert-workbook-to-json/)
+- [Pdf](/cells/ja/python-net/convert-excel-to-pdf/)
+- [CSV、TSV、およびTXTをExcelに変換する](/cells/ja/python-net/convert-csv-tsv-and-txt-to-excel/)

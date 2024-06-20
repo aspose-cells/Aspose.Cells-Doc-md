@@ -1,25 +1,26 @@
-﻿---
-title: Используйте пользовательские части XML в Aspose.Cells
+---
+title: Использование пользовательских XML частей в Aspose.Cells
 type: docs
 weight: 390
 url: /ru/net/use-custom-xml-parts-in-aspose-cells/
 ---
-## Использование пользовательских частей XML в Aspose.Cells
 
-Пользовательские XML-части — это XML-данные, которые хранятся различными приложениями, такими как SharePoint и т. д., внутри файла Excel. Эти данные потребляются различными приложениями, которым они нужны. Microsoft Excel не использует эти данные, поэтому графический интерфейс для их добавления отсутствует. Вы можете просмотреть эти данные, изменив расширение**.xlsx** в**.zip** а затем, открыв его с помощью**WinZip** . Вы также можете открыть ZIP-файл с помощью любой zip-утилиты третьей части Windows, такой как WinRAR или WinZip и т. д. Данные находятся внутри**customXml** папка.
+## Использование пользовательских XML-частей в Aspose.Cells
 
- Вы можете добавить пользовательские части XML, используя Aspose.Cells через[**Рабочая книга.ContentTypeProperties.Добавить()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index)метод.
+Пользовательские XML-части - это XML-данные, хранящиеся различными приложениями, такими как SharePoint и т. д., внутри файла Excel. Эти данные используются различными приложениями, которым они необходимы. Microsoft Excel не использует эти данные, поэтому в нем нет графического интерфейса для их добавления. Вы можете просмотреть эти данные, изменив расширение **.xlsx** на **.zip** и затем открыв файл с помощью **WinZip**. Вы также можете открыть ZIP-файл с помощью любой сторонней утилиты для архивации под Windows, такой как WinRAR или WinZip. Данные находятся внутри папки **customXml**.
 
- В следующем примере кода используется[**Рабочая книга.ContentTypeProperties.Добавить()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) метод и добавляет**XML-каталог книг** и его имя**Книжный магазин**. На следующем изображении показан результат этого кода. Как видите, XML каталога книг добавляется внутрь узла BookStore, который является именем этого свойства.
+Вы можете добавлять пользовательские XML-части с помощью Aspose.Cells через метод [**Workbook.ContentTypeProperties.Add()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index).
 
-![дело:изображение_альтернативный_текст](use-custom-xml-parts-in-aspose-cells_1.png)
+Приведенный ниже образец кода использует метод [**Workbook.ContentTypeProperties.Add()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) и добавляет **Book Catalog XML**, его имя **BookStore**. На следующем изображении показан результат этого кода. Как видите, Book Catalog XML добавлен в узел BookStore, который является названием этого свойства.
 
-![дело:изображение_альтернативный_текст](use-custom-xml-parts-in-aspose-cells_2.png)
+![todo:image_alt_text](use-custom-xml-parts-in-aspose-cells_1.png)
 
-## C# код для использования пользовательских частей XML
+![todo:image_alt_text](use-custom-xml-parts-in-aspose-cells_2.png)
+
+## Пример кода на C# для использования пользовательских XML-частей
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingCustomXmlParts-UsingCustomXmlParts.cs" >}}
 
 ## Связанная статья
 
-- [Добавление настраиваемых свойств, видимых на панели сведений о документе](/cells/ru/net/adding-custom-properties-visible-inside-document-information-panel/)
+- [Добавление пользовательских свойств, видимых в панели информации о документе](/cells/ru/net/adding-custom-properties-visible-inside-document-information-panel/)

@@ -1,26 +1,27 @@
-﻿---
-title: Legen Sie die Standardschriftart fest, während Sie die Tabelle in Bilder rendern
+---
+title: Standardfont beim Rendern von Tabellenkalkulationen in Bilder festlegen
 type: docs
 weight: 360
 url: /de/net/set-default-font-while-rendering-spreadsheet-to-images/
 ---
+
 {{% alert color="primary" %}}
 
- Bitte verwenden Sie die[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) -Eigenschaft zum Festlegen der Standardschriftart beim Rendern von Tabellenkalkulationen in Bilder. Diese Eigenschaft ist nur wirksam, wenn die Standardschriftart der Arbeitsmappe Ihre Zeichen nicht darstellen konnte. Die mit angegebene Standardschriftart[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) -Eigenschaft wird für alle Zellen verwendet, die ungültige oder nicht vorhandene Schriftarten haben.
+Bitte verwenden Sie die Eigenschaft [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont), um die Standard-Schriftart beim Rendern von Tabellenkalkulationen als Bilder festzulegen. Diese Eigenschaft ist nur wirksam, wenn die Standard-Schriftart der Arbeitsmappe Ihre Zeichen nicht rendern kann. Die mit der Eigenschaft [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) festgelegte Standard-Schriftart wird für alle Zellen verwendet, die ungültige oder nicht vorhandene Schriftarten haben.
 
 {{% /alert %}}
 
-## Legen Sie die Standardschriftart fest, während Sie die Tabelle in Bilder rendern
+## Standard-Schriftart beim Rendern von Tabellenkalkulationen als Bilder festlegen
 
-Der folgende Beispielcode erstellt eine Arbeitsmappe, fügt Text in Zelle A4 des ersten Arbeitsblatts hinzu und legt seine Schriftart auf eine ungültige oder nicht vorhandene Schriftart fest. Dann nimmt es zwei Bilder des Arbeitsblatts. Das erste Bild wird aufgenommen, indem die eingestellt wird[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) Eigentum zu*Kurier Neu* und das zweite Bild wird durch Einstellen von aufgenommen[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) Eigentum zu*Times New Roman*.
+Der folgende Beispielcode erstellt eine Arbeitsmappe, fügt Text in Zelle A4 des ersten Arbeitsblatts ein und legt die Schriftart auf ungültig oder nicht vorhanden fest. Dann werden zwei Bilder des Arbeitsblatts aufgenommen. Das erste Bild wird durch Festlegen der Eigenschaft [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) auf *Courier New* aufgenommen und das zweite Bild wird durch Festlegen der Eigenschaft [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) auf *Times New Roman* aufgenommen.
 
- Dies ist das Ausgabebild nach der Einstellung von[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) Eigentum zu*Kurier Neu*.
+Dies ist das Ausgabebild nach Festlegen der Eigenschaft [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) auf *Courier New*.
 
-![todo: Bild_alt_Text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
- Dies ist das Ausgabebild nach der Einstellung von[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) Eigentum zu*Times New Roman*.
+Dies ist das Ausgabebild nach Festlegen der Eigenschaft [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) auf *Times New Roman*.
 
-![todo: Bild_alt_Text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
 ## Beispielcode
 

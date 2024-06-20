@@ -1,27 +1,28 @@
 ---
 title: Återanvända stilobjekt
-description: Aspose.Cells for .NET, genom att skapa och använda återanvändbara stilobjekt, kan du förenkla stilhantering och förbättra kodeffektiviteten. Vår guide hjälper dig att utnyttja fördelarna med återanvändbara stilobjekt och implementera dem i din applikation.
-keywords: Aspose.Cells for .NET, Reusing Style Objects, Style Management, Code Efficiency, Reusable Styles, Application Development, API Reference, Example Code, Download, Support.
+description: I Aspose.Cells for .NET kan du genom att skapa och använda återanvändbara stilobjekt förenkla stilhantering och förbättra kodens effektivitet. Vår guide kommer att hjälpa dig dra fördel av fördelarna med återanvändbara stilobjekt och implementera dem i din applikation.
+keywords: Aspose.Cells for .NET, Återanvända stilobjekt, Stilhantering, Kodseffektivitet, Återanvändbara stilar, Applikationsutveckling, API referens, Exempelkod, Hämta, Support.
 type: docs
 weight: 3000
 url: /sv/net/reusing-style-objects/
 ---
+
 {{% alert color="primary" %}}
 
 Att återanvända stilobjekt kan spara minne och göra ett program snabbare.
 
 {{% /alert %}}
 
-Så här tillämpar du viss formatering på ett stort antal celler i ett kalkylblad:
+För att tillämpa viss formatering på en stor omfattning av celler i en arbetsbok:
 
-1. Skapa ett stilobjekt.
+1. Skapa en stilobjekt.
 1. Ange attributen.
-1. Använd stilen på cellerna i intervallet.
+1. Tillämpa stilen på cellerna i området.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ReusingStyleObjects-ReusingStyleObjects.cs" >}}
 
 {{% alert color="primary" %}}
 
- Eftersom den[**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)/[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) metoden använder mycket mindre minne och är effektiv, den äldre Cell.Style-egenskapen som förbrukade mycket onödigt minne togs bort när Aspose.Cells 7.1.0 släpptes.
+Eftersom tillvägagångssättet [**Cell.GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)/[**Cell.SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) använder mycket mindre minne och är effektivt, togs den äldre Cell.Style-egenskapen bort med versionen Aspose.Cells 7.1.0, vilken använde mycket onödigt minne.
 
 {{% /alert %}}

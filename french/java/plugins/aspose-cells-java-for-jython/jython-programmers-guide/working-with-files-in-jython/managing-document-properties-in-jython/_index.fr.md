@@ -1,15 +1,16 @@
-﻿---
-title: Gestion des propriétés de document dans Jython
+---
+title: Gestion des propriétés de document en Jython
 type: docs
 weight: 60
 url: /fr/java/managing-document-properties-in-jython/
 ---
-## **Aspose.Cells - Gestion des propriétés du document**
- Pour joindre des documents à l'aide de**Aspose.Cells Java pour Jython**. Ici vous pouvez voir un exemple de code.
+
+## **Aspose.Cells - Gestion des propriétés de document**
+Pour ajouter des documents en utilisant **Aspose.Cells Java for Jython**. Vous pouvez voir ici le code d'exemple.
 
 **Code Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -63,7 +64,7 @@ if __name__ == '__main__':
     ManagingDocumentProperties()
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Joindre des documents (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Ajouter des documents (Aspose.Cells)** à partir de n'importe lequel des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ManagingDocumentProperties.py)

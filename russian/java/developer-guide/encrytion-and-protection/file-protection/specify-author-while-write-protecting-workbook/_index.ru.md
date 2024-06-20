@@ -1,18 +1,19 @@
-﻿---
-title: Укажите автора при записи защищаемой книги
+---
+title: Укажите автора при защите от записи книги
 type: docs
 weight: 110
 url: /ru/java/specify-author-while-write-protecting-workbook/
 ---
+
 ## **Возможные сценарии использования**
 
-Вы можете указать имя автора при защите своей книги от записи, используя Aspose.Cells API. Пожалуйста, используйте[**Книга.Настройки.Защита от записи.Автор**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#Author)имущество для этой цели.
+Вы можете указать имя автора при защите от записи вашей книги с помощью API Aspose.Cells. Пожалуйста, используйте свойство [**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#Author) для этой цели.
 
-## **Укажите автора при записи защищаемой книги**
+## **Укажите автора при защите от записи книги**
 
-Следующий пример кода объясняет использование[**Книга.Настройки.Защита от записи.Автор**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#Author)имущество. Код создает пустую книгу, защищает ее паролем от записи, указывает имя автора и сохраняет ее как[выходной файл Excel](67338593.xlsx). На следующем снимке экрана для справки показано влияние примера кода на выходной файл Excel.
+В следующем образце кода объясняется использование свойства [**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#Author). Код создает пустую книгу, защищает её паролем, указывает имя автора и сохраняет её как [выходной файл Excel](67338593.xlsx). Ниже приведен скриншот, иллюстрирующий эффект образца кода на выходном файле Excel для вашего справочника.
 
-![дело:изображение_альтернативный_текст](specify-author-while-write-protecting-workbook_1.png)
+![todo:image_alt_text](specify-author-while-write-protecting-workbook_1.png)
 
 ## **Образец кода**
 

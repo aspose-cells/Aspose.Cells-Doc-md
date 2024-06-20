@@ -1,232 +1,233 @@
-﻿---
+---
 title: Grafik Biçimlendirme
 type: docs
 weight: 20
 url: /tr/java/chart-formatting/
 ---
-## **Ayar Tablosu Görünümü**
 
- İçinde[Grafik Türleri](/cells/tr/java/chart-types/), Aspose.Cells tarafından sunulan harita türlerine ve harita nesnelerine kısa bir giriş yaptık.
+## **Grafik Görünümünü Ayarlama**
 
-Bu makalede, bir dizi farklı özellik ayarlayarak grafiklerin görünümünün nasıl özelleştirileceğini tartışıyoruz:
+[Grafik Türleri](/cells/tr/java/chart-types/)'nde, Aspose.Cells tarafından sunulan grafik türleri ve grafik nesnelerine kısaca bir giriş yapmıştık.
+
+Bu makalede, farklı özelliklerin ayarlanmasıyla grafiklerin görünümünün nasıl özelleştirileceğini tartışıyoruz:
 
 - [Grafik alanını ayarlama](/cells/tr/java/chart-formatting/#setting-chart-area).
 - [Grafik çizgilerini ayarlama](/cells/tr/java/chart-formatting/#setting-chart-lines).
-- [temaları uygulama](/cells/tr/java/chart-formatting/#applying-microsoft-excel-20072010-themes-to-charts).
-- [Başlıkları grafiklere ve eksenlere ayarlama](/cells/tr/java/chart-formatting/#setting-the-titles-of-charts-or-axes).
-- [Kılavuz çizgileriyle çalışma](/cells/tr/java/chart-formatting/#setting-major-gridlines).
-- [Arka ve yan duvarlar için sınır belirleme](/cells/tr/java/chart-formatting/#setting-borders-for-back-and-side-walls).
+- [Temalar uygulama](/cells/tr/java/chart-formatting/#applying-microsoft-excel-20072010-themes-to-charts).
+- [Grafiklere ve ekselere başlık atama](/cells/tr/java/chart-formatting/#setting-the-titles-of-charts-or-axes).
+- [Izgaralarla çalışma](/cells/tr/java/chart-formatting/#setting-major-gridlines).
+- [Arka ve yan duvarlar için sınırlar belirleme](/cells/tr/java/chart-formatting/#setting-borders-for-back-and-side-walls).
 
-### **Ayar Tablosu Alanı**
+### **Grafik Alanını Ayarlama**
 
-Bir çizelgede farklı türde alanlar vardır ve Aspose.Cells, her alanın görünümünü değiştirme esnekliği sağlar. Geliştiriciler, ön plan rengini, arka plan rengini ve dolgu biçimini vb. değiştirerek bir alana farklı biçimlendirme ayarları uygulayabilir.
+Bir grafikte farklı türde alanlar bulunmakta ve Aspose.Cells her bir alanın görünümünü değiştirme esnekliği sağlamaktadır. Geliştiriciler, bir alan üzerinde farklı biçimlendirme ayarları uygulayarak öncelikli renk, arka plan rengi ve doldurma formatı gibi özellikleri değiştirebilirler.
 
-Aşağıda verilen örnekte, grafiğin farklı alanlarına farklı biçimlendirme ayarları uyguladık. Bu alanlar şunları içerir:
+Aşağıdaki örnekte, bir grafikte farklı türde alanlara farklı biçimlendirme ayarları uyguladık. Bu alanlar şunları içerir:
 
-- Arsa alanı
+- Plot alanı
 - Grafik alanı
-- [**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) alan
-- Bir noktadaki tek bir noktanın alanı[**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
+- [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) alanı
+- Bir [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) içinde tek bir noktanın alanı
 
-Örnek kodu çalıştırdıktan sonra, çalışma sayfasına aşağıda gösterildiği gibi bir sütun grafiği eklenecektir:
+Örnek kodu çalıştırdıktan sonra aşağıdaki gibi bir sütun grafiği çalışma sayfasına eklenecektir:
 
-**Alanları doldurulmuş bir sütun grafiği** 
+**Renkli alanlara sahip sütun grafiği** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_1.png)
+![todo:image_alt_text](chart-formatting_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartArea-SettingChartArea.java" >}}
 
 ### **Grafik Çizgilerini Ayarlama**
 
- Geliştiriciler ayrıca satırlara veya veri işaretçilerine farklı türde stiller uygulayabilir.[**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)aşağıdaki örnekte gösterildiği gibi. Örnek kodu çalıştırmak, aşağıda gösterildiği gibi çalışma sayfasına bir sütun grafiği ekler:
+Geliştiriciler, örnekte gösterildiği gibi [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) veya diğer grafik nesnelerinin çizgilerine veya veri işaretçilerine farklı stili uygulayabilirler. Örnek kodu çalıştırdıktan sonra çalışma sayfasına bir sütun grafiği eklenir:
 
 **Çizgi stilleri uygulandıktan sonra sütun grafiği** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_2.png)
+![todo:image_alt_text](chart-formatting_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartLines-SettingChartLines.java" >}}
 
 ### **Microsoft Excel 2007/2010 Temalarını Grafiklere Uygulama**
 
-Geliştiriciler, farklı Microsoft Excel temaları ve renkleri uygulayabilir.[**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)veya aşağıdaki örnekte gösterildiği gibi diğer grafik nesneleri.
+Geliştiriciler, aşağıdaki örnekte gösterildiği gibi [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) veya diğer grafik nesnelerine farklı Microsoft Excel temaları ve renkleri uygulayabilirler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
-### **Grafiklerin veya Eksenlerin Başlıklarını Ayarlama**
+### **Grafiğin veya Eksenlerin Başlıklarını Ayarlama**
 
-Aşağıda gösterildiği gibi bir WYSIWYG ortamında grafiğin başlıklarını ve eksenlerini ayarlamak için Microsoft Excel'i kullanabilirsiniz.
+Grafik ve ekselerin başlıkları Excel'i kullanarak aşağıdaki gibi bir WYSIWYG ortamında ayarlanabilir.
 
-**Microsoft Excel kullanarak bir grafiğin ve eksenlerinin başlıklarını ayarlama** 
+**Grafik başlıklarının ve ekselertitslerinin Microsoft Excel kullanarak ayarlanması** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_3.png)
+![todo:image_alt_text](chart-formatting_3.png)
 
- Aspose.Cells, geliştiricilerin çalışma zamanında bir grafiğin başlıklarını ve eksenlerini ayarlamasına da olanak tanır. Tüm çizelgeler ve eksenleri bir[**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)aşağıda bir örnekte gösterildiği gibi başlıklarını ayarlamak için kullanılabilecek bir yöntem. Örnek kodu çalıştırdıktan sonra, çalışma sayfasına aşağıda gösterildiği gibi bir sütun grafiği eklenecektir:
+Aspose.Cells ayrıca geliştiricilere grafiklerin ve ekselerinin başlıklarını çalışma zamanında belirleme imkanı sağlar. Tüm grafiklerin ve ekselerinin bir [**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text) yöntemi bulunur ve bu yöntem örnekte gösterildiği gibi başlıklarını belirlemek için kullanılabilir. Örnek kodu çalıştırdıktan sonra çalışma sayfasına aşağıdaki gibi bir sütun grafiği eklenecektir:
 
-**Başlıkları ayarladıktan sonra sütun grafiği** 
+**Başlık belirlendikten sonraki sütun grafiği** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_4.png)
+![todo:image_alt_text](chart-formatting_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingTitlesAxes-SettingTitlesAxes.java" >}}
 
-### **Ana Kılavuz Çizgilerini Ayarlama**
+### **Önemli Izgaraları Belirleme**
 
-#### **Büyük Kılavuz Çizgilerini Gizleme**
+#### **Büyük Izgaraları Gizleme**
 
- Geliştiriciler, ana kılavuz çizgilerinin görünürlüğünü aşağıdakileri kullanarak kontrol edebilir:[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible) yöntemi[**Astar**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)nesne. Ana kılavuz çizgilerini gizledikten sonra, çalışma sayfasına eklenen bir sütun grafiği aşağıdaki görünüme sahip olur:
+Geliştiriciler, [**Line**](https://reference.aspose.com/cells/java/com.aspose.cells/Line) nesnesinin [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible) yöntemini kullanarak önemli izgaraların görünürlüğünü kontrol edebilirler. Önemli izgaraları gizledikten sonra çalışma sayfasına eklenen sütun grafiğinin aşağıdaki görünüme sahip olacaktır:
 
-**Gizli ana kılavuz çizgileri olan bir sütun grafiği** 
+**Önemli izgaraları gizlenmiş sütun grafiği** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_5.png)
+![todo:image_alt_text](chart-formatting_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-MajorGridlines-1.java" >}}
 
-#### **Ana Kılavuz Çizgileri Ayarlarını Değiştirme**
+#### **Büyük Izgaraların Ayarlarını Değiştirme**
 
-Geliştiriciler yalnızca ana kılavuz çizgilerinin görünürlüğünü değil, aynı zamanda rengi gibi diğer özellikleri de kontrol edebilir. Ana kılavuz çizgilerinin rengini ayarladıktan sonra, çalışma sayfasına eklenen bir sütun grafiği aşağıdaki görünüme sahip olacaktır:
+Geliştiriciler sadece önemli izgaraların görünürlüğünü değil ayrıca rengi gibi diğer özelliklerini de ayarlayabilirler. Önemli izgaraların rengini ayarladıktan sonra çalışma sayfasına eklenen sütun grafiğinin aşağıdaki görünüme sahip olacağı:
 
-**Renkli ana kılavuz çizgileri olan sütun grafiği** 
+**Renkli önemli izgaralı sütun grafiği** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_6.png)
+![todo:image_alt_text](chart-formatting_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-ChangingMajorGridlines-1.java" >}}
 
-### **Arka ve Yan Duvarlar İçin Kenarlık Ayarlama**
+### **Arka ve Yan Duvarlar için Sınırlar Belirleme**
 
- Microsoft Excel 2007'nin piyasaya sürülmesinden bu yana, bir 3B grafiğin duvarları iki bölüme ayrılmıştır: yan duvar ve arka duvar, bu nedenle iki parça kullanmak zorundayız[**Duvarlar**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) nesneleri ayrı ayrı temsil edebilir ve bunları kullanarak erişebilirsiniz.[**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) ve[**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall).
+Microsoft Excel 2007'nin piyasaya sürülmesinden beri, 3D grafiklerin duvarları ikiye bölünmüştür: yan duvar ve arka duvar, bu yüzden bunları ayrı ayrı temsil etmek için iki [**Walls**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) nesnesi kullanmalı ve onlara erişmek için [**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) ve [**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall) kullanabilirsiniz.
 
-Aşağıda verilen örnek, farklı nitelikler kullanılarak yan duvarın sınırının nasıl ayarlanacağını göstermektedir.
+Aşağıdaki örnek, yan duvarın kenarını farklı özellikleri kullanarak nasıl ayarlayacağınızı gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-SettingBorders-1.java" >}}
 
-## **Grafik Konumunu ve Boyutunu Değiştirme**
+## **Grafik Pozisyonunu ve Boyutunu Değiştirme**
 
- Bazen, çalışma sayfasındaki yeni veya mevcut grafiğin konumunu veya boyutunu değiştirmek istersiniz. Aspose.Cells şunları sağlar:[**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)Bunu başarmak için mülkiyet. Grafiği yenisiyle yeniden boyutlandırmak için alt özelliklerini kullanabilirsiniz.**boy uzunluğu** ve**Genişlik** veya yenisiyle yeniden konumlandırın** X** ve**Y** koordinatları.
+Bazen, çalışma sayfası içindeki yeni veya mevcut grafiğin konumunu veya boyutunu değiştirmek isteyebilirsiniz. Aspose.Cells, bunu başarmak için [**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject) özelliğini sağlar. Yeni **yükseklik** ve **genişlik** ile grafik boyutunu veya yeni **X** ve **Y** koordinatları ile konumunu ayarlamak için alt özelliklerini kullanabilirsiniz.
 
 ### **Grafiğin Konumunu ve Boyutunu Değiştirme**
 
-Grafiğin konumunu (X, Y koordinatları) ve boyutunu (yükseklik, genişlik) değiştirmek için şu özellikleri kullanın:
+Grafiğin pozisyonunu (X, Y koordinatları) ve boyutunu (yükseklik, genişlik) değiştirmek için bu özellikleri kullanın:
 
 1. [**Chart.getChartObject().get/setWidth()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Width)
 1. [**Chart.getChartObject().get/setHeight()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Height)
 1. [**Chart.getChartObject().get/setX()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#X)
 1. [**Chart.getChartObject().get/setY()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Y)
 
-Aşağıdaki örnek, yukarıdaki özelliklerin kullanımını açıklamaktadır. İlk çalışma sayfasında bir grafik içeren mevcut çalışma kitabını yükler. Ardından grafiği yeniden boyutlandırır ve yeniden konumlandırır ve çalışma kitabını kaydeder.
+Aşağıdaki örnek yukarıdaki özelliklerin kullanımını açıklar. İlk çalışma sayfasında bir grafiği içeren mevcut bir çalışma kitabını yükler. Ardından grafiği yeniden boyutlandırır ve konumlandırır ve çalışma kitabını kaydeder.
 
-Örnek kodun yürütülmesinden önce, kaynak dosya şöyle görünür:
+Örnek kodun yürütülmeden önce, kaynak dosya şu şekildedir:
 
-**Örnek kodun yürütülmesinden önceki grafik boyutu ve konumu** 
+**Örnek kodun yürütülmeden önce grafiğin boyutu ve konumu** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_7.png)
+![todo:image_alt_text](chart-formatting_7.png)
 
-Yürütmeden sonra çıktı dosyası şöyle görünür:
+Yürütüldükten sonra, çıktı dosyası şu şekildedir:
 
-**Örnek kodun yürütülmesinden sonraki grafik boyutu ve konumu** 
+**Örnek kodun yürütüldükten sonra grafiğin boyutu ve konumu** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_8.png)
+![todo:image_alt_text](chart-formatting_8.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChangeChartPositionAndSize-ChangeChartPositionAndSize.java" >}}
 
-## **Tasarımcı Grafiklerini Değiştirme**
+## **Tasarımcı Grafikleri Manipüle Etmek**
 
-Tasarımcı şablon dosyalarınızdaki grafikleri manipüle etmeniz veya değiştirmeniz gereken zamanlar olabilir. Aspose.Cells, içeriği ve öğeleriyle tasarımcı grafiklerini işlemeyi tamamen destekler. Veriler, grafik içerikleri, arka plan görüntüsü ve biçimlendirme doğrulukla korunabilir.
+Tasarım şablonu dosyalarınızda grafikleri manipüle etmeniz gereken bir zamandır. Aspose.Cells, içeriği ve öğeleriyle tasarım grafiklerini tamamen destekler. Veri, grafik içeriği, arka plan resmi ve biçimlendirme doğrulukla korunabilir.
 
-### **Şablon Dosyalarında Tasarımcı Grafiklerini Değiştirme**
+### **Tasarım Şablonlarında Grafikleri Manipüle Etme**
 
- Bir şablon dosyasındaki tasarımcı grafiklerini değiştirmek için tüm grafikle ilgili API çağrılarını kullanın. Örneğin, kullan[**Worksheet.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts) şablon dosyasındaki mevcut grafikler koleksiyonunu almak için özelliği.
+Tasarım şablonu dosyasındaki grafikleri manipüle etmek için tüm grafikle ilgili API çağrılarını kullanın. Örneğin, mevcut grafikleri almak için [**Worksheet.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts) özelliğini kullanın.
 
-#### **Grafik Oluşturma**
+#### **Bir Grafik Oluşturma**
 
-Aşağıdaki örnek, pasta grafiğin nasıl oluşturulacağını gösterir. Bu tabloyu daha sonra manipüle edeceğiz. Aşağıdaki çıktı kod tarafından üretilir.
+Aşağıdaki örnek, bir pasta grafiği oluşturmanın nasıl yapıldığını gösterir. Bu grafiği daha sonra manipüle edeceğiz. Aşağıdaki çıktı kod tarafından oluşturulmuştur.
 
 **Giriş pasta grafiği** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_9.png)
+![todo:image_alt_text](chart-formatting_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
-#### **Grafiği Manipüle Etme**
+#### **Grafiği Manipüle Etmek**
 
-Aşağıdaki örnek, mevcut grafiğin nasıl değiştirileceğini gösterir. Bu örnekte, yukarıda oluşturulan grafiği değiştiriyoruz. Aşağıdaki çıktı kod tarafından üretilir. Grafik başlığının renginin maviden siyaha ve 'İngiltere 30000'in' Birleşik Krallık, 30K' olarak değiştirildiğine dikkat edin.
+Aşağıdaki örnek, mevcut grafiği nasıl manipüle edeceğinizi gösterir. Bu örnekte yukarıda oluşturulan grafiği değiştiriyoruz. Aşağıdaki çıktı kod tarafından oluşturulmuştur. Grafik başlığının renginin maviden siyaha değiştiğine dikkat edin ve 'England 30000' 'United Kingdom, 30K' olarak değiştirildi.
 
-**Pasta grafik değiştirildi** 
+**Pasta grafiği değiştirildi** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_10.png)
+![todo:image_alt_text](chart-formatting_10.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyPieChart-ModifyPieChart.java" >}}
 
-#### **Tasarımcı Şablonunda Çizgi Grafiği Değiştirme**
+#### **Tasarımcı Şablonunda Bir Çizgi Grafiği Manipüle Etmek**
 
-Bu örnekte, bir çizgi grafiğini işleyeceğiz. Mevcut grafiğe bazı veri serileri ekleyeceğiz ve çizgi renklerini değiştireceğiz.
+Bu örnekte, bir çizgi grafiği manipüle edeceğiz. Mevcut grafiğe bazı veri serileri ekleyeceğiz ve bunların çizgi renklerini değiştireceğiz.
 
-İlk olarak, tasarımcı çizgi grafiğine bir göz atın.
+İlk olarak, tasarımcıdaki hat grafiğine bakın.
 
-**Giriş çizgisi grafiği** 
+**Giriş hat grafiği** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_11.png)
+![todo:image_alt_text](chart-formatting_11.png)
 
- Şimdi (içinde bulunan) çizgi grafiğini manipüle ediyoruz.**çizgi grafiği.xls** dosya) aşağıdaki kodu kullanarak. Aşağıdaki çıktı kod tarafından üretilir.
+Şimdi, aşağıdaki kodu kullanarak hat grafiğini manipüle ediyoruz (**linechart.xls** dosyasında bulunan). Aşağıdaki çıktı kod tarafından oluşturulmuştur.
 
-**Manipüle edilmiş çizgi grafiği** 
+**Manipüle edilen hat grafiği** 
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_12.png)
+![todo:image_alt_text](chart-formatting_12.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyLineChart-ModifyLineChart.java" >}}
 
-## **Mini Grafikleri Kullanma**
+## **Sparklines Kullanma**
 
-Microsoft Excel 2010, bilgileri her zamankinden daha fazla yöntemle analiz edebilir. Kullanıcıların, yeni veri analizi ve görselleştirme araçlarıyla önemli veri trendlerini izlemesine ve vurgulamasına olanak tanır. Mini grafikler, verileri ve grafiği aynı tabloda görüntüleyebilmeniz için hücrelerin içine yerleştirebileceğiniz mini grafiklerdir. Küçük grafikler düzgün kullanıldığında, veri analizi daha hızlı ve isabetlidir. Ayrıca, birçok meşgul çizelge içeren aşırı kalabalık çalışma sayfalarından kaçınarak basit bir bilgi görünümü sağlarlar.
+Microsoft Excel 2010, bilgileri daha önce hiç olmadığı kadar fazla şekilde analiz etmenizi sağlar. Kullanıcıların yeni veri analiz ve görselleştirme araçlarıyla önemli veri eğilimlerini takip etmesine ve vurgulamasına izin verir. Sparklines, veriyi ve tabloyu aynı anda görüntüleyebileceğiniz mini grafiklerdir. Sparklines uygun şekilde kullanıldığında, veri analizi daha hızlı ve daha anlaşılır olur. Ayrıca, aşırı kalabalık çalışma tablolarını çok fazla meşgul grafiklerle önler. Onlar, aynı tabloda veriyi görmek için basit bir görünüm sağlar. Ayrıca, Aspose.Cells, elektronik tablolardaki sparklines'ı manipüle etmek için bir API sağlar.
 
-Aspose.Cells, elektronik tablolardaki mini grafikleri işlemek için bir API sağlar.
+Aspose.Cells, elektronik tablolardaki sparklines'ları manipüle etmek için bir API sağlar.
 
-### **Microsoft Excel'deki Mini Grafikler**
+### **Microsoft Excel'de Sparklines Kullanma**
 
-Microsoft Excel 2010'da minik grafikler eklemek için:
+Microsoft Excel 2010'da Sparklines eklemek için:
 
-1. Mini grafiklerin görünmesini istediğiniz hücreleri seçin. Görüntülenmelerini kolaylaştırmak için verilerin yan tarafındaki hücreleri seçin.
-1.  Tıklamak**Sokmak** şeritte ve ardından seçin**kolon** içinde**mini grafikler** grup.
+1. Sparklines'ların görünmesini istediğiniz hücreleri seçin. Onları görüntülemeyi kolaylaştırmak için, verinin yanındaki hücreleri seçin.
+1. Menü şeridinde **Ekle**'yi tıklayın, ardından **Sparklines** grubunda **Sütun**'u seçin.
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_13.png)
+![todo:image_alt_text](chart-formatting_13.png)
 
-1. Çalışma sayfasında kaynak verileri içeren hücre aralığını seçin veya girin.
- Grafikler görünür.
+1. Kaynak verileri içeren çalışma sayfasındaki hücrelerin aralığını seçin veya girin.
+   Grafikler görünür.
 
-Mini grafikler, örneğin trendleri veya bir softbol liginin galibiyet veya mağlubiyet rekorunu görmenize yardımcı olur. Mini grafikler, ligdeki her takımın tüm sezonunu bile özetleyebilir.
+Kıvılcım çizgileri, örneğin trendleri veya bir ​​beyzbol ligi için kazanma veya kaybetme kaydını görmeye yardımcı olur. Kıvılcım çizgileri, ligin her takımının tüm sezonunu hatta toplayabilir.
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_14.png)
+![todo:image_alt_text](chart-formatting_14.png)
 
-### **Aspose.Cells kullanan mini grafikler**
+### **Aspose.Cells, kullanıcıların verilen veri aralığı için özel grafikleri ekleyerek seçilen hücre alanlarına farklı tipte minik grafikler ekleyebilecekleri özgürlüğü sunar.**
 
-Geliştiriciler, Aspose.Cells tarafından sağlanan API'i kullanarak küçük grafikler (şablon dosyasında) oluşturabilir, silebilir veya okuyabilir. Geliştiriciler, belirli bir veri aralığı için özel grafikler ekleyerek, seçilen hücre alanlarına farklı türde küçük grafikler ekleme özgürlüğüne sahip olurlar.
+Geliştiriciler, Aspose.Cells tarafından sağlanan API ile şablon dosyasındaki kıvılcım çizgilerini oluşturabilir, silebilir veya okuyabilir. Belirli bir veri aralığı için özel grafikler ekleyerek, geliştiriciler seçilen hücre alanlarına farklı tipte küçük grafikler eklemek için özgürlüğe sahiptir.
 
-Aşağıdaki örnek Mini Grafikler özelliğini göstermektedir. Örnek, aşağıdakilerin nasıl yapılacağını gösterir:
+Aşağıdaki örnek, Sparklines özelliğini sergiler. Örnek, şunları gösterir:
 
-1. Basit bir şablon dosyası açın.
-1. Bir çalışma sayfası için mini grafik bilgilerini okuyun.
-1. Belirli bir veri aralığı için bir hücre alanına yeni mini grafikler ekleyin.
-1. Excel dosyasını diske kaydeder.
+1. Basit bir şablon dosyasını açın.
+1. Bir çalışma sayfası için sparklines bilgilerini okuyun.
+1. Belirli bir veri aralığı için yeni sparklines ekleyin.
+1. Excel dosyasını diske kaydedin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-UsingSparklines-UsingSparklines.java" >}}
 
-## **Grafiğe 3B Format Uygulama**
+## **Grafiğe 3D Format Uygulama**
 
-Yalnızca senaryonuz için sonuçları alabilmek için 3B grafik stillerine ihtiyacınız olabilir. Aspose.Cells API'leri, bu makalede gösterildiği gibi Microsoft Excel 2007 3B biçimlendirmesini uygulamak için ilgili API'i sağlar.
+Senaryonuz için sadece sonuçları alabilmeniz için 3D grafik stili gerekebilir. Aspose.Cells API'leri, bu makalede gösterildiği gibi Microsoft Excel 2007 3D biçimlendirmesini uygulamak için ilgili API'yi sağlar.
 
-### **3D Formatını Grafiğe Ayarlama**
+### **Grafiğe 3D Format Ayarlama**
 
-Bir grafiğin nasıl oluşturulacağını ve Microsoft Excel 2007 3B biçimlendirmesinin nasıl uygulanacağını gösteren eksiksiz bir örnek aşağıda verilmiştir. Yukarıdaki örnek kodu çalıştırdıktan sonra, aşağıda gösterildiği gibi çalışma sayfasına bir sütun grafiği (3B efektlerle) eklenecektir.
+Microsoft Excel 2007 3D biçimlendirmesi uygulamak için aşağıda tam bir örnek verilmiştir. Yukarıdaki örnek kodu çalıştırdıktan sonra, aşağıda gösterildiği gibi bir sütun grafiği (3D efektlerle) çalışma sayfasına eklenecektir.
 
-**3B biçimlendirmeli bir sütun grafiği**
+**3D biçimlendirmeli sütun grafiği**
 
-![yapılacaklar:resim_alternatif_metin](chart-formatting_15.png)
+![todo:image_alt_text](chart-formatting_15.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-Applying3DFormat-Applying3DFormat.java" >}}
 
 {{% alert color="primary" %}}
 
- Hangi 2B ve 3B grafiklerin desteklendiğinin tam listesi için bkz.[İşleme için desteklenen grafik türleri](/cells/tr/java/chart-rendering/#supported-chart-types-for-rendering).
+Desteklenen 2D ve 3D grafik türlerinin tam listesi için [Görüntüleme için desteklenen grafik türleri](/cells/tr/java/chart-rendering/#supported-chart-types-for-rendering) sayfasına bakın.
 
 {{% /alert %}}
 
-## **ileri konular**
-- [Grafiği Arka Plan Dolgusu Olarak Ayarla](/cells/tr/java/set-picture-as-background-fill-in-the-chart/)
+## **Gelişmiş Konular**
+- [Grafikte Arka Plan Doldurma Olarak Resim Ayarlama](/cells/tr/java/set-picture-as-background-fill-in-the-chart/)

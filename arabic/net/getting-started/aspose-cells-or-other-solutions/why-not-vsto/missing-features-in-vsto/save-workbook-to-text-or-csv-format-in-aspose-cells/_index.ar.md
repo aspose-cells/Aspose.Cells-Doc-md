@@ -1,44 +1,45 @@
-﻿---
-title: احفظ المصنف إلى نص أو تنسيق CSV في Aspose.Cells
+---
+title: حفظ الدفتر في شكل نصي أو CSV في Aspose.Cells
 type: docs
 weight: 110
 url: /ar/net/save-workbook-to-text-or-csv-format-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-في بعض الأحيان ، تريد تحويل مصنف أو حفظه باستخدام أوراق عمل متعددة إلى تنسيق نصي. بالنسبة لتنسيقات النص (على سبيل المثال TXT ، TabDelim ، CSV إلخ.) ، افتراضيًا ، يتم حفظ محتويات ورقة العمل النشطة فقط Microsoft Excel و Aspose.Cells.
+في بعض الأحيان، ترغب في تحويل أو حفظ دفتر عمل يحتوي على عدة أوراق عمل إلى شكل نصي. في حالات الشكل النصي (على سبيل المثال TXT, TabDelim, CSV الخ)، فإن كل من مايكروسوفت إكسل وAspose.Cells تحفظان افتراضيًا محتويات الورقة العمل النشطة فقط.
 
 {{% /alert %}} 
 
-يوضح المثال التالي من التعليمات البرمجية كيفية حفظ مصنف بأكمله في تنسيق نصي. قم بتحميل المصنف المصدر الذي يمكن أن يكون أي ملف جدول بيانات Microsoft Excel أو OpenOffice (مثل XLS و XLSX و XLSM و XLSB و ODS وما إلى ذلك) بأي عدد من أوراق العمل.
+يوضح مثال الكود التالي كيفية حفظ دفتر عمل بأكمله في تنسيق نصي. يُحمّل دفتر العمل المصدري الذي يمكن أن يكون أي ملف جداول بيانات Microsoft Excel أو OpenOffice (مثل XLS وXLSX وXLSM وXLSB وODS وما إلى ذلك) مع أي عدد من ورقات العمل.
 
-عندما يتم تنفيذ الكود ، فإنه يحول بيانات جميع الأوراق في المصنف إلى تنسيق TXT.
+عند تنفيذ الكود، يحول بيانات جميع الأوراق في كتاب العمل إلى تنسيق نصي.
 
-يمكنك تعديل نفس المثال لحفظ الملف في CSV. بشكل افتراضي ، يكون TxtSaveOptions.Separator عبارة عن فاصلة ، لذلك لا تحدد فاصلًا إذا قمت بالحفظ بتنسيق CSV.
+يمكنك تعديل نفس المثال لحفظ ملفك في تنسيق CSV. بشكل افتراضي، يكون الفاصل في TxtSaveOptions.Separator فاصلة، لذا لا يجب تحديد فاصل عند الحفظ في تنسيق CSV.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- سلسلة filePath = "source.xlsx" ؛
+ string filePath = "source.xlsx";
 
-// تحميل المصنف المصدر الخاص بك
+//Load your source workbook
 
-مصنف المصنف = مصنف جديد (filePath) ؛
+Workbook workbook = new Workbook(filePath);
 
-// 0 بايت صفيف
+//0-byte array
 
-بايت [] workbookData = بايت جديد [0] ؛
+byte[] workbookData = new byte[0];
 
-// خيارات حفظ النص. يمكنك استخدام أي نوع من الفواصل
+//Text save options. You can use any type of separator
 
-TxtSaveOptions opts = new TxtSaveOptions () ؛
+TxtSaveOptions opts = new TxtSaveOptions();
 
-OPts.Separator = '\ t' ؛
+opts.Separator = '\t';
 
-// نسخ كل بيانات ورقة العمل بتنسيق نصي داخل مصفوفة بيانات المصنف
+//Copy each worksheet data in text format inside workbook data array
 
- لـ (int idx = 0 ؛ idx< workbook.Worksheets.Count; idx++)
+for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 
 {
 
@@ -74,7 +75,7 @@ File.WriteAllBytes(filePath + ".out.txt", workbookData);
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

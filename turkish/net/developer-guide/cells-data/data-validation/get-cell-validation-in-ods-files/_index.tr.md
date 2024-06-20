@@ -1,17 +1,18 @@
 ---
-title: ODS Dosyalarında Cell Doğrulamasını Alın
+title: ODS Dosyalarında Hücre Doğrulamasını Al
 type: docs
 weight: 180
 url: /tr/net/get-cell-validation-in-ods-files/
-description: Aspose.Cells for .NET API aracılığıyla ODS Dosyalarında Cell Doğrulamasını nasıl alacağınızı öğrenin.
-keywords: Get Cell Validation, Obtain Cell Validation 
+description: Aspose.Cells for .NET API sını kullanarak ODS Dosyalarında Hücre Doğrulaması nasıl alacağınızı öğrenin.
+keywords: Hücre Doğrulaması Al, Hücre Doğrulaması Alın 
 ---
-##  **ODS Dosyalarında Cell Doğrulamasını Alın**
 
-Aspose.Cells ile doğrulamanın ODS dosyalarındaki bir hücreye uygulanmasını sağlayabilirsiniz. Bunun için API şunu sağlar:[**Doğrulama Alın**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) yöntemi[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf.
+## **ODS Dosyalarında Hücre Doğrulamasını Al**
 
-Aşağıdaki kod örneği, kullanımını gösterir.[**Doğrulama Alın**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) yöntemi yükleyerek[kaynak ODS](101089354.ods)dosyası ve A9 hücresinin doğrulaması okunuyor.
+Aspose.Cells ile ODS dosyalarındaki hücreye uygulanan doğrulamayı alabilirsiniz. Bunun için API, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının [**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) yöntemini sağlar.
 
-###  **Basit kod**
+Aşağıdaki kod örneği, [kaynak ODS](101089354.ods) dosyasını yükleyerek A9 hücresinin doğrulamasını okurken [**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) yönteminin kullanımını göstermektedir.
+
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetCellValidationInODS-1.cs" >}}

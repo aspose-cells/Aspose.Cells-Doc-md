@@ -1,16 +1,17 @@
-﻿---
-title: احتواء تلقائي للصفوف والأعمدة في روبي
+---
+title: ضبط تناسب الصفوف والأعمدة في Ruby
 type: docs
 weight: 20
 url: /ar/java/autofit-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - احتواء تلقائي للصفوف والأعمدة**
-### **صف احتواء تلقائي**
-الطريقة الأكثر مباشرة لتغيير حجم عرض الصف وارتفاعه تلقائيًا هي استدعاء طريقة autoFitRow لفئة ورقة العمل. تأخذ طريقة autoFitRow فهرس صف (للصف المراد تغيير حجمه) كمعامل.
 
-**كود روبي**
+## **Aspose.Cells - تناسب الصفوف والأعمدة**
+### **تناسب تلقائي للصف**
+أبسط نهج لتغيير حجم العرض والارتفاع للصف هو استدعاء طريقة autoFitRow من فئة Worksheet. تأخذ طريقة autoFitRow مؤشر الصف (الذي سيتم تغيير حجمه) كمعلمة.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  def autofit_row()
 
@@ -45,12 +46,12 @@ url: /ar/java/autofit-rows-and-columns-in-ruby/
     end
 
 {{< /highlight >}}
-### **عمود الاحتواء التلقائي**
-أسهل طريقة لتغيير حجم عرض العمود وارتفاعه تلقائيًا هي استدعاء طريقة autoFitColumn لفئة ورقة العمل. تأخذ طريقة autoFitColumn فهرس العمود (الخاص بالعمود على وشك تغيير حجمه) كمعامل.
+### **تكبير العرض تلقائيًا**
+أسهل طريقة لتغيير حجم العرض والارتفاع للعمود هي استدعاء طريقة autoFitColumn من فئة Worksheet. تأخذ طريقة autoFitColumn الفهرس العمود (الذي سيتم تغيير حجمه) كمعلمة.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def autofit_column()
 
@@ -85,7 +86,7 @@ url: /ar/java/autofit-rows-and-columns-in-ruby/
 end
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**احتواء تلقائي للصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل ** تكبير الصفوف والأعمدة (Aspose.Cells) ** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

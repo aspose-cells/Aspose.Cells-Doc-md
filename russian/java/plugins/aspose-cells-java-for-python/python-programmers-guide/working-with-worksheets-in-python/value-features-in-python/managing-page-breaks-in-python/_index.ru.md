@@ -1,16 +1,17 @@
-﻿---
+---
 title: Управление разрывами страниц в Python
 type: docs
 weight: 20
 url: /ru/java/managing-page-breaks-in-python/
 ---
+
 ## **Aspose.Cells - Управление разрывами страниц**
 ### **Добавление разрывов страниц**
- Чтобы добавить разрывы страниц с помощью**Aspose.Cells Java для рубина** , вызов**add_page_breaks** метод**разрывы страниц** модуль. Ниже вы можете увидеть пример кода.
+Чтобы добавить разрывы страниц с помощью **Aspose.Cells Java для Ruby**, вызовите метод **add_page_breaks** модуля **pagebreaks**. Ниже приведен пример кода.
 
-**Python Код**
+**Код Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def add_page_breaks(self):
 
@@ -38,12 +39,12 @@ print "Add page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **Удаление всех разрывов страниц**
- Чтобы очистить все разрывы страниц с помощью**Aspose.Cells Java for Python** , вызов**clear_all_page_breaks** метод**разрывы страниц** модуль. Ниже вы можете увидеть пример кода.
+### **Очистка всех разрывов страниц**
+Для удаления всех разрывов страниц с использованием **Aspose.Cells Java для Python**, вызовите метод **clear_all_page_breaks** модуля **pagebreaks**. Ниже вы можете увидеть пример кода.
 
-**Python Код**
+**Код Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -66,12 +67,12 @@ print "Clear all page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **Удаление определенного разрыва страницы**
- Чтобы удалить определенный разрыв страницы, используя**Aspose.Cells Java for Python** , вызов**remove_page_break** метод**разрывы страниц** модуль. Ниже вы можете увидеть пример кода.
+### **Удаление конкретного разрыва страницы**
+Чтобы удалить конкретный разрыв страницы с использованием **Aspose.Cells Java для Python**, вызовите метод **remove_page_break** модуля **pagebreaks**. Ниже приведен пример кода.
 
-**Python Код**
+**Код Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -101,7 +102,7 @@ print "Remove page break, please check the output file."
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Управление разрывами страниц (Aspose.Cells)** с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Управление Разрывами Страницы (Aspose.Cells)** с любого из упомянутых ниже социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -1,39 +1,40 @@
-﻿---
-title: Läser CSV Fil med flera kodningar
+---
+title: Läsning av CSV fil med flera kodningar
 type: docs
 weight: 200
 url: /sv/net/reading-csv-file-with-multiple-encodings/
 ---
+
 {{% alert color="primary" %}}
 
-Ibland innehåller din CSV-fil flera kodningar (Unicode, ANSI, UTF8, UTF7, etc). Aspose.Cells låter dig ladda sådana CSV-filer och konvertera dem till andra format, till exempel PDF eller XLSX.
+Ibland innehåller din CSV-fil flera krypteringar (Unicode, ANSI, UTF8, UTF7, etc). Aspose.Cells tillåter dig att ladda sådana CSV-filer och konvertera dem till andra format, till exempel PDF eller XLSX.
 
 {{% /alert %}}
 
- Aspose.Cells tillhandahåller[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) egenskap som du måste ställa in på**Sann** för att ladda din CSV-fil med flera kodningar korrekt.
+Aspose.Cells tillhandahåller egenskapen [**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded), som du måste ställa in på **true** för att korrekt ladda din CSV-fil med flera krypteringar.
 
- Följande skärmdump visar ett exempel på CSV-fil som innehåller två rader. Första raden är inne**ANSI** kodning och den andra raden är inne**Unicode** kodning
+Följande skärmbild visar en prov-CSV-fil som innehåller två rader. Den första raden är kodad med **ANSI** och den andra raden är kodad med **Unicode**
 
-|**Indatafil**|
-|:- |
+|**Ingående fil**|
+| :- |
 |![todo:image_alt_text](reading-csv-file-with-multiple-encodings_1.png)|
 
- Följande skärmdump visar XLSX-filen konverterad från ovanstående CSV-fil utan att ställa in[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) egendom till**Sann**. Som du kan se konverterades inte Unicode-texten korrekt.
+Följande skärmbild visar XLSX-filen konverterad från ovanstående CSV-fil utan att ställa in egenskapen [**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) till **true**. Som du kan se konverterades inte den Unicode-texten ordentligt.
 
-|**Utdatafil 1: inget boende gjort för multipelkodning**|
-|:- |
+|**Utgående fil 1: ingen anpassning gjord för flera krypteringar**|
+| :- |
 |![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)|
 
- Följande skärmdump visar XSLX-filen konverterad från ovanstående CSV-fil efter att ha ställt in[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) egendom till**Sann**. Som du kan se är Unicode-texten nu konverterad på rätt sätt.
+Följande skärmbild visar XSLX-filen konverterad från ovanstående CSV-fil efter att ha ställt in egenskapen [**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) till **true**. Som du kan se har den Unicode-texten nu konverterats korrekt.
 
-|**Utdatafil 2: IsMultiEncoded är satt till true**|
-|:- |
+|**Utgående fil 2: IsMultiEncoded är satt till true**|
+| :- |
 |![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)|
 
-Nedan är exempelkoden som konverterar ovanstående CSV-fil till XLSX-format korrekt.
+Nedan är det exempelkod som konverterar ovanstående CSV-fil till XLSX-format korrekt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCSVMultipleEncodings-1.cs" >}}
 
-## relaterade artiklar
+## Relaterade artiklar
 
-- [Öppnar CSV Filer](/cells/sv/net/opening-files-with-different-formats/#opening-csv-files)
+- [Öppning av CSV-filer](/cells/sv/net/opening-files-with-different-formats/#opening-csv-files)

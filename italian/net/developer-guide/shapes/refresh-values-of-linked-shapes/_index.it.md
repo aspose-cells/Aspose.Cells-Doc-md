@@ -1,23 +1,24 @@
-﻿---
+---
 title: Aggiorna i valori delle forme collegate
 type: docs
 weight: 3200
 url: /it/net/refresh-values-of-linked-shapes/
 ---
+
 {{% alert color="primary" %}}
 
- volte, hai una forma collegata nel tuo file Excel che è collegata a qualche cella. In Microsoft Excel, la modifica del valore della cella collegata modifica anche il valore della forma collegata. Funziona bene anche con Aspose.Cells se si desidera salvare la cartella di lavoro nel formato XLS o XLSX. Tuttavia, se desideri salvare la tua cartella di lavoro nel formato PDF o HTML, dovrai chiamare[**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue) metodo per aggiornare il valore della forma collegata.
+A volte, hai una forma collegata nel tuo file Excel che è collegata a una cella. In Microsoft Excel, modificando il valore della cella collegata viene modificato anche il valore della forma collegata. Questo funziona anche bene con Aspose.Cells se vuoi salvare il tuo documento di lavoro in formato XLS o XLSX. Tuttavia, se desideri salvare il tuo documento di lavoro in formato PDF o HTML, allora dovrai chiamare il metodo [**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue) per aggiornare il valore della forma collegata.
 
 {{% /alert %}}
 
 ## Esempio
 
- Lo screenshot seguente mostra il file Excel di origine utilizzato nel codice di esempio riportato di seguito. Ha un'immagine collegata collegata alle celle da A1 a E4. Cambieremo il valore della cella B4 con Aspose.Cells e quindi chiameremo[**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue)metodo per aggiornare il valore dell'immagine e salvarlo nel formato PDF.
+La schermata seguente mostra il file Excel di origine utilizzato nel codice di esempio qui sotto. Ha un'immagine collegata collegata alle celle da A1 a E4. Cambieremo il valore della cella B4 con Aspose.Cells e poi chiameremo il metodo [**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue) per aggiornare il valore dell'immagine e salvarlo in formato PDF.
 
-![cose da fare:immagine_alt_testo](refresh-values-of-linked-shapes_1.jpg)
+![todo:image_alt_text](refresh-values-of-linked-shapes_1.jpg)
 
-Puoi scaricare il[file Excel di origine](95584291.xlsx) e il[uscita PDF](95584292.pdf) dai link indicati.
+È possibile scaricare il [file Excel di origine](95584291.xlsx) e il [PDF di output](95584292.pdf) dai link forniti.
 
-### C# codice per aggiornare i valori delle forme collegate
+### Codice C# per aggiornare i valori delle forme collegate
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}

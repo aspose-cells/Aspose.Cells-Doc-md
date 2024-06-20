@@ -1,17 +1,18 @@
-﻿---
-title: Drucken von Arbeitsmappen mit Aspose.Cells
+---
+title: Arbeitsmappen mit Aspose.Cells drucken
 type: docs
 weight: 20
 url: /de/java/printing-workbooks-using-aspose-cells/
 ---
-## **Aspose.Cells – Drucken von Arbeitsmappen**
-Nachdem Sie mit der Erstellung Ihrer Tabelle fertig sind, möchten Sie wahrscheinlich eine Hardcopy der Tabelle für Ihren Bedarf ausdrucken. Wenn Sie drucken, geht MS Excel davon aus, dass Sie den gesamten Arbeitsblattbereich drucken möchten, es sei denn, Sie geben Ihre Auswahl an.
+
+## **Aspose.Cells - Arbeitsmappen drucken**
+Nachdem Sie Ihre Arbeitsmappe erstellt haben, möchten Sie wahrscheinlich eine gedruckte Version des Blatts für Ihre Zwecke haben. Beim Drucken geht MS Excel davon aus, dass Sie den gesamten Arbeitsblattbereich drucken möchten, es sei denn, Sie geben Ihre Auswahl an.
 
 Arbeitsblatt drucken
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,11 +36,11 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 
-Arbeitsbuch drucken
+Arbeitsmappe drucken
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a WorkbookRender object with respect to your workbook
 
@@ -50,7 +51,7 @@ WorkbookRender wr = new WorkbookRender(book, imgOptions);
 wr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
@@ -58,6 +59,6 @@ wr.toPrinter("Samsung ML-1520 Series");
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Drucken von Arbeitsmappen](/cells/de/java/printing-workbooks).
+Für weitere Details besuchen Sie [Drucken von Arbeitsmappen](/cells/de/java/printing-workbooks).
 
 {{% /alert %}}

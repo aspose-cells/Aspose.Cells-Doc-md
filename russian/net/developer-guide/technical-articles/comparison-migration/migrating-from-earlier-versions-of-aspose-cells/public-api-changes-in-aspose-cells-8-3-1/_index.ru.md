@@ -1,27 +1,28 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.3.1
+---
+title: Изменения в общедоступном API в Aspose.Cells 8.3.1
 type: docs
 weight: 110
 url: /ru/net/public-api-changes-in-aspose-cells-8-3-1/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.3.0 до 8.3.1, которые могут представлять интерес для разработчиков модулей/приложений.
+Этот документ описывает изменения в API Aspose.Cells от версии 8.3.0 до 8.3.1, которые могут быть интересны разработчикам модулей/приложений.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Добавлено свойство DataLabels.ShowCellRange.**
- Свойство ShowCellRange было добавлено в класс DataLabels, чтобы имитировать функциональность Excel по форматированию меток данных диаграммы во время выполнения. Обратите внимание, что Excel предоставляет эту функцию с помощью следующих шагов.
+## **Добавленные API**
+### **Добавлено свойство DataLabels.ShowCellRange**
+В класс DataLabels добавлено свойство ShowCellRange для имитации функционала Excel по форматированию подписей данных диаграмм во время выполнения. Обратите внимание, что в Excel эту функцию можно использовать следующим образом. 
 
-1. Выберите Метки данных серии и щелкните правой кнопкой мыши, чтобы открыть всплывающее меню.
-1.  Нажмите на**Форматировать метки данных...** и это покажет**Параметры метки**.
-1.  Установите или снимите флажок**Этикетка содержит — значение от Cells**.
+1. Выберите метки данных серии и щелкните правой кнопкой мыши, чтобы открыть всплывающее меню.
+1. Нажмите **Формат меток данных...** и отобразится **Параметры метки**.
+1. Установите или снимите флажок **Метка содержит - значение из ячеек**.
 
- Приведенный ниже пример кода обращается к меткам данных серии диаграмм, а затем задает для метода DataLabels.ShowCellRange значение true, чтобы имитировать функцию Excel**Этикетка содержит — значение от Cells**.
+Приведенный ниже образец кода получает доступ к подписям данных серии диаграммы, а затем устанавливает метод DataLabels.ShowCellRange в true для имитации функции Excel **Подпись содержит - Значение из ячеек**.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from the source Excel file
 
@@ -49,7 +50,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -80,16 +81,16 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, проверьте статью[Отображение диапазона Cell в виде меток данных](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) для дополнительной информации.
+Пожалуйста, ознакомьтесь со статьей [Отображение диапазона ячеек в качестве подписей данных](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) для получения дополнительной информации.
 
 {{% /alert %}} 
 
-### **Методы Cell.GetTable и ListObject.PutCellValue добавлены**
-Методы Cell.GetTable и ListObject.PutCellValue были добавлены с Aspose.Cells for .NET 8.3.1, чтобы облегчить пользователям доступ к ListObject из ячейки и добавление значений внутри него, используя смещения строк и столбцов. Следующий пример кода загружает исходную электронную таблицу и добавляет значения в таблицу.
+### **Добавлены методы Cell.GetTable и ListObject.PutCellValue**
+Методы Cell.GetTable и ListObject.PutCellValue были добавлены с Aspose.Cells for .NET 8.3.1 для удобства пользователей в получении доступа к ListObject из ячейки и добавления значений внутри него с использованием смещений строки и столбца. Ниже приведен фрагмент кода, который загружает исходную электронную таблицу и добавляет значения внутри таблицы.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -124,7 +125,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook from source Excel file
 
@@ -159,18 +160,18 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, проверьте статью[Доступ к таблице из Cell и добавление значений внутри нее с использованием смещений строк и столбцов](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) для дополнительной информации.
+Пожалуйста, ознакомьтесь со статьей [Доступ к таблице из ячейки и добавление значений внутри с использованием смещений строки и столбца](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) для получения дополнительной информации.
 
 {{% /alert %}} 
 
-### **Добавлено свойство OdsSaveOptions.IsStrictSchema11.**
-Свойство IsStrictSchema11 было добавлено в класс OdsSaveOptions, чтобы позволить разработчикам сохранять электронную таблицу в формате, соответствующем спецификации ODF v1.2. Значение по умолчанию свойства IsStrictSchema11 равно false, что означает, что начиная с версии 8.3.1 API Aspose.Cells файлы ODS будут по умолчанию сохраняться в формате ODF версии 1.2.
+### **Добавлено свойство OdsSaveOptions.IsStrictSchema11**
+В класс OdsSaveOptions было добавлено свойство IsStrictSchema11, чтобы позволить разработчикам сохранять электронные таблицы в формате, соответствующем спецификации ODF v1.2. Значение по умолчанию свойства IsStrictSchema11 - false, что означает, что с версии 8.3.1 API Aspose.Cells файлы ODS будут сохраняться в формате ODF версии 1.2 по умолчанию.
 
-Приведенный ниже фрагмент кода сохраняет файл ODS в формате ODF 1.2.
+Приведенный ниже отрывок кода сохраняет файл ODS в формате ODF 1.2.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 
@@ -203,7 +204,7 @@ workbook.Save("ODF1.1.ods", options);
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook 
 
@@ -235,23 +236,23 @@ m_workbook.Save("ODF1.1.ods", options)
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, проверьте статью[Сохраните файл ODS в спецификациях ODF 1.1 и 1.2.](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) для дополнительной информации.
+Пожалуйста, ознакомьтесь со статьей [Сохранение файла ODS в спецификациях ODF 1.1 и 1.2](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) для получения дополнительной информации.
 
 {{% /alert %}} 
 
 ### **Добавлен метод SparklineCollection.Add**
- Aspose.Cells API-интерфейсы предоставили метод SparklineCollection.Add(string dataRange, int row, int column) для указания диапазона данных и расположения группы Sparkline. Обратите внимание, что Excel предоставляет ту же функцию, выполнив следующие шаги.
+API Aspose.Cells раскрыли метод SparklineCollection.Add(string dataRange, int row, int column) для указания диапазона данных и расположения группы мини-графиков. Обратите внимание, что Excel предоставляет аналогичную функцию следующим образом. 
 
-1. Выберите ячейку, содержащую вашу спарклайн.
-1.  Выбирать**Редактировать данные из спарклайна** раздел внутри**Дизайн** вкладка
-1.  выберите**Изменить местоположение и данные группы**.
-1.  Указать**Диапазон данных** & **Место расположения**.
+1. Выберите ячейку, содержащую ваш микрографик.
+1. Выберите **Изменить данные** в разделе **Дизайн**.
+1. Выберите **Изменить местоположение и данные группы**.
+1. Укажите **Диапазон данных** и **Местоположение**.
 
- Следующий пример кода загружает исходную электронную таблицу, обращается к первой группе спарклайнов и добавляет новые диапазоны данных и местоположения для группы спарклайнов.
+Приведенный ниже образец кода загружает исходную электронную таблицу, получает первую группу микрографиков и добавляет новые диапазоны данных и местоположения для группы микрографиков. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -284,7 +285,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook from source Excel file
 
@@ -317,6 +318,6 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, проверьте статью[Скопируйте спарклайн, указав диапазон данных и расположение группы спарклайнов](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) для дополнительной информации.
+Пожалуйста, ознакомьтесь с статьей [Копирование мерцания, указав диапазон данных и местоположение группы мерцания](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) для получения более подробной информации.
 
 {{% /alert %}}

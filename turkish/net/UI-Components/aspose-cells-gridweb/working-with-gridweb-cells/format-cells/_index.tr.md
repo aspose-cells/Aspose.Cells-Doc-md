@@ -1,157 +1,160 @@
-﻿---
-title: Biçim Cells
+---
+title: Hücre Biçimi
 type: docs
 weight: 40
-url: /tr/net/format-grid-cells/
+url: /tr/net/aspose-cells-gridweb/format-grid-cell/
+keywords: Bu makale, GridWeb de bir hücre (GridCell) için stil biçimi nasıl ayarlayacağınızı veya uygulayacağınızı tanıtır.
+description: Bu makale, GridWeb deki bir hücrede stili nasıl ayarlayacağınızı veya uygulayacağınızı tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konu, hücrelerin nasıl biçimlendirileceği hakkında ayrıntılı bir tartışma sağlar.
+Bu konu, hücreleri nasıl biçimlendireceğiniz hakkında detaylı bir tartışma sunar.
 
-Aspose.Cells.GridWeb kontrolünün Stil iletişim kutusu kullanılarak GUI modunda hücrelerin biçimlendirilmesini kapsar. Ayrıca hücrelerin programlı olarak nasıl formatlanacağını da gösterir. Yazı tipi, kenarlık ve sayı biçimi gibi farklı biçim ayarları tartışılır, örneklerle gösterilir.
+Aspose.Cells.GridWeb kontrolünün Stil iletişim kutusunu kullanarak GUI modunda hücreleri biçimlendirme konusunu kapsar. Ayrıca, hücreleri programlı olarak biçimlendirmenin nasıl yapıldığını gösterir. Font, kenar ve numara biçimi gibi farklı biçim ayarları örneklerle anlatılmıştır.
 
 {{% /alert %}} 
-## **Stil İletişim Kutusunu Kullanarak Cells'i Biçimlendirme**
- Cells biçimlendirilebilir[programlı olarak](/cells/tr/net/format-cells/)ancak Aspose.Cells.GridWeb kontrolünde hücreleri WYSIWYG biçiminde biçimlendirmenin en kolay yolu Stil iletişim kutusunu kullanmaktır.
+## **Stil İletişim Kutusu Kullanarak Hücreleri Biçimlendirme**
+Hücreler [programlı olarak](/cells/tr/net/aspose-cells-gridweb/format-cells/) biçimlendirilebilir ancak Aspose.Cells.GridWeb kontrolünde hücreleri en kolay biçimlendirmenin yolu, Stil iletişim kutusunu kullanmaktır.
 
 Stil iletişim kutusunu kullanmak için:
- Bir hücre aralığı seçin, ardından sağ tıklayın ve seçin**Biçim Cell**. 
+Hücre aralığını seçin, ardından sağ tıklayarak **Hücre Biçimi**'ni seçin. 
 
-**Format Seçme Cell** 
+**Biçim Hücresi Seçme** 
 
-![yapılacaklar:resim_alternatif_metin](format-cells_1.png)
+![todo:image_alt_text](format-cells_1.png)
 
 
 
- Stil iletişim kutusu görüntülenir.
+Stil iletişim kutusu görüntülenir. 
 
 **Stil iletişim kutusu, hücreleri biçimlendirmek için kullanılır** 
 
-![yapılacaklar:resim_alternatif_metin](format-cells_2.png)
+![todo:image_alt_text](format-cells_2.png)
 
-Stil iletişim kutusu, kullanıcıların yazı tipi ve kenarlık ayarlarını özelleştirerek hücreleri biçimlendirmesine olanak tanır.
+Stil iletişim kutusu, kullanıcıların yazı tipi ve kenarlık ayarlarını özelleştirerek hücreleri biçimlendirmelerine olanak tanır.
 ### **Yazı Tipi Ayarlarını Özelleştirme**
-Stil iletişim kutusunu kullanarak aşağıdaki yazı tipi ayarlarını özelleştirebilirsiniz:
+Stil iletişim kutusu kullanılarak aşağıdaki yazı tipi ayarlarını özelleştirebilirsiniz:
 
-- Yazı tipi adı, listeden istediğiniz yazı tipini seçin.
-- Yazı tipi stili, kalın, italik vb. gibi bir yazı tipi stili uygulayın.
-- Yazı tipi boyutu, punto cinsinden bir yazı tipi boyutu seçin.
-- Metnin altını çiz, altını çiz.
-- Üstü çizili, metne bir üstü çizili efekti uygulayın.
+- Yazı tipi, listeden istenen yazı tipini seçin.
+- Yazı stili, kalın, eğik vb. gibi bir yazı stili uygulayın.
+- Yazı boyutu, punto cinsinden bir yazı boyutu seçin.
+- Altı çizili, metni altı çizili hale getirin.
+- Üstü çizili, metne üstü çizili bir efekt uygulayın.
 - Yatay hizalama, yatay hizalamayı seçin.
 - Dikey hizalama, dikey hizalamayı seçin.
-- Yazı tipi rengi, bir yazı tipi rengi seçin.
+- Yazı rengi, bir yazı rengi seçin.
 - Arka plan, arka plan için bir renk seçin.
 
-Seçilen yazı tipi ayarlarını küçük bir ön izleme alanında kontrol edebilirsiniz.
+Seçili yazı tipi ayarlarını küçük bir önizleme alanında kontrol edebilirsiniz.
 
 **Özelleştirilmiş yazı tipi ayarları** 
 
-![yapılacaklar:resim_alternatif_metin](format-cells_3.png)
+![todo:image_alt_text](format-cells_3.png)
 ### **Kenarlık Ayarlarını Özelleştirme**
-Denetim, kullanıcıların Stil iletişim kutusundaki kenarlık ayarlarını özelleştirerek hücrelerin çevresine bir kenarlık çizmesine de olanak tanır.
+Kontrol, ayrıca hücrelerin etrafına kenarlık çizmelerini Stil iletişim kutusunda kenarlık ayarlarını özelleştirerek oluşturmasına izin verir.
 
-Sınırla ilgili seçenekleri görüntülemek için:
- Tıklamak**Kenarlıklar** Stil iletişim kutusunda.
- Sınırla ilgili seçenekler görüntülenir.
+Kenarlık ile ilgili seçenekleri görüntülemek için:
+**Kenarlık**'ı Stil iletişim kutusunda tıklayın.
+Kenarlık ile ilgili seçenekler görüntülenir. 
 
 **Stil iletişim kutusundaki kenarlık seçenekleri** 
 
-![yapılacaklar:resim_alternatif_metin](format-cells_4.png)
+![todo:image_alt_text](format-cells_4.png)
 
-Stil iletişim kutusundan aşağıdaki kenarlık seçenekleri seçilebilir:
+Aşağıdaki kenarlık seçenekleri Stil iletişim kutusundan seçilebilir:
 
-- Sınır çizgisi stili, düz, kesikli vb. gibi kenarlık stilini seçin.
-- Kenar çizgisi genişliği, kenarlık genişliğini piksel olarak seçin.
-- Kenar çizgisi rengi, çizgi rengini seçin.
-- Sınır çizgileri, sınır çizgilerinin numaralandırılmasını ve konumlandırılmasını seçin.
+- Kenarlık çizgi stili, düz, kesikli vb. gibi kenarlık stiline göre seçin.
+- Kenarlık çizgi genişliği, kenarlık genişliğini piksel cinsinden seçin.
+- Kenarlık çizgi rengi, çizgi rengini seçin.
+- Kenar çizgileri, kenar çizgilerinin numaralandırmasını ve konumlandırmasını seçin.
 
-**Özel kenarlık ayarları** 
+**Özelleştirilmiş kenarlık ayarları** 
 
-![yapılacaklar:resim_alternatif_metin](format-cells_5.png)
-### **Ayarları Uygulamak**
- Tıklamak**Tamam** değişiklikleri uygulamak için Stil iletişim kutusunda.
+![todo:image_alt_text](format-cells_5.png)
+### **Ayarları Uygulama**
+Değişiklikleri uygulamak için Stil iletişim kutusunda **Tamam**'ı tıklayın.
 
 **Yazı tipi ve kenarlık ayarları uygulandı** 
 
-![yapılacaklar:resim_alternatif_metin](format-cells_6.png)
+![todo:image_alt_text](format-cells_6.png)
 
 
-## **Cells'i API Kullanarak Biçimlendirme**
-Cells, Aspose.Cells.GridWeb API ile programlı olarak da biçimlendirilebilir. Her hücrenin, bir GridTableItemStyle nesnesini temsil eden bir Style özelliği vardır. Yazı tipi ve kenarlık ayarlarını özelleştirmek için Style özelliğini kullanın.
+## **API Kullanarak Hücreleri Biçimlendirme**
+Hücreler ayrıca Aspose.Cells.GridWeb API ile programlı olarak biçimlendirilebilir. Her hücrenin bir Stil özelliği vardır, bu özellik bir GridTableItemStyle nesnesini temsil eder. Yazı tipi ve kenarlık ayarlarını özelleştirmek için Stil özelliğini kullanın.
 ### **Yazı Tipi Ayarı**
-Yazı tipi ayarlarını programlı olarak özelleştirmek için:
+Programlı olarak yazı tipi ayarlarını özelleştirmek için:
 
 1. Aspose.Cells.GridWeb denetimini bir Web Formuna ekleyin.
-1. Bir çalışma sayfasına erişin.
-1. Biçimlendirdiğiniz hücreye erişin.
+1. Bir çalışsayı açın.
+1. Biçimlendirme yapmak istediğiniz hücreye erişin.
 1. Hücrenin stiline erişin.
-1. Yazı tipi boyutunu punto olarak ayarlayın.
+1. Punto cinsinden yazı tipi boyutunu ayarlayın.
 1. Yazı tipi stilini ayarlayın.
 1. Ön plan ve arka plan renklerini ayarlayın.
 1. Yatay ve dikey hizalamayı ayarlayın.
 1. Stili hücreye geri ayarlayın.
 
-**Çıktı: A1'de gösterilen özelleştirilmiş yazı tipi ayarları** 
+**Çıktı: A1'de özelleştirilmiş yazı tipi ayarları gösterilir** 
 
-![yapılacaklar:resim_alternatif_metin](format-cells_7.png)
+![todo:image_alt_text](format-cells_7.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyFontStyles.cs" >}}
-### **Sınırları Ayarlama**
-Kenarlıklar, tek tek hücrelere veya bir aralığa uygulanabilir.
-#### **Tek kişilik Cell**
-Tek bir hücrenin kenarlıklarını ayarlamak için:
+### **Kenarlık Ayarı**
+Kenarlıklar tek tek hücrelere veya bir aralığa uygulanabilir.
+#### **Tekil Hücre**
+Bir tek hücrenin kenarlıklarını ayarlamak için:
 
 1. Aspose.Cells.GridWeb denetimini bir Web Formuna ekleyin.
-1. Bir çalışma sayfasına erişin.
-1. Biçimlendirmek üzere olduğunuz hücreye erişin.
+1. Bir çalışsayı açın.
+1. Biçimlendirmek istediğiniz hücreye erişin.
 1. Hücrenin Stil nesnesine erişin.
-1. Kenarlık stilini ayarlayın.
+1. Kenarlık stili ayarlayın.
 1. Kenarlık genişliğini piksel cinsinden ayarlayın.
 1. Kenarlık rengini ayarlayın.
 1. Stili hücreye ayarlayın.
 
 **Tek bir hücrede özelleştirilmiş kenarlık ayarları** 
 
-![yapılacaklar:resim_alternatif_metin](format-cells_8.png)
+![todo:image_alt_text](format-cells_8.png)
 
 {{% alert color="primary" %}} 
 
-Hücrenin Style.TopBorderStyle, Style.BottomBorderStyle, Style.LeftBorderStyle, Style.RightBorderStyle özellikleri ile her kenar çizgisi için farklı stiller ayarlamak mümkündür.
+Hücrenin Stil.TopBorderStyle, Stil.BottomBorderStyle, Stil.LeftBorderStyle, Stil.RightBorderStyle özellikleri ile her kenar çizgisi için farklı stiller belirlenebilir.
 
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyBorderStyles.cs" >}}
-#### **Cells aralığı**
-Bir hücre aralığında kenarlıklar ayarlamak için:
+#### **Hücrelerin Aralığı**
+Bir hücreler aralığına kenarlıklar eklemek için:
 
-1. Web Formunuza Aspose.Cells.GridWeb denetimi ekleyin
-1. İstediğiniz bir çalışma sayfasına erişin
-1. WebBorderStyle sınıfından bir nesne oluşturun
-1. Kenarlığın Stilini Kesintisiz veya Kesikli vb. olarak ayarlayın.
-1. Kenarlığın Genişliğini piksel olarak ayarlayın
-1. Kenarlığın Rengini Ayarla
-1. Belirli bir hücre aralığına WebBorderStyle nesnesinde depolanan kenarlık ayarlarını uygulayın
+1. Web Formunuza Aspose.Cells.GridWeb denetimini ekleyin
+1. İstenilen çalışma sayfasına erişin
+1. WebBorderStyle sınıfından bir nesne örneği oluşturun
+1. Sınırın Stilini Düz veya Kesik vb. olarak ayarlayın.
+1. Sınırın Genişliğini piksel cinsinden ayarlayın
+1. Sınırın Rengini ayarlayın
+1. WebBorderStyle nesnesinde depolanan sınır ayarlarını belirtilen hücre aralığına uygulayın
 
-**Özel kenarlık ayarlarına sahip bir dizi hücre** 
+**Özel sınır ayarlarına sahip bir hücre aralığı** 
 
-![yapılacaklar:resim_alternatif_metin](format-cells_9.png)
+![todo:image_alt_text](format-cells_9.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyRangeBorderStyles.cs" >}}
 ### **Sayı Biçimlerini Ayarlama**
- Aspose.Cells.GridWeb ayar numarası biçimlerini destekler. 59 yerleşik sayı biçimi vardır. Bunları görmek için lütfen buna bakın[desteklenen sayı biçimlerinin listesi](/cells/tr/net/list-of-supported-number-formats/).
+Aspose.Cells.GridWeb numara formatlarını destekler. 59 adet yerleşik numara formatı bulunmaktadır. Onları görmek için lütfen şu [desteklenen numara formatları listesine](/cells/tr/net/aspose-cells-gridweb/list-of-supported-number-formats/) başvurun.
 
-Tüm yerleşik sayı biçimleri, NumberType numaralandırmasındadır. Yerleşik bir sayı biçimi kullanmak için, bir hücrenin nesnesinin SetNumberType yöntemini kullanarak NumberType'ı NumberType numaralandırmasından bir sayı biçimine ayarlayın.
+Tüm yerleşik numara formatları NumberType numaralandırmasında bulunmaktadır. Bir yerleşik numara formatını kullanmak için, hücrenin SetNumberType yöntemini NumberType numaralandırmasından bir numara formatına ayarlayın.
 
-Özel sayı biçimini ayarlamak için hücrenin SetCustom yöntemini kullanın.
+Özel numara formatını ayarlamak için hücrenin SetCustom yöntemini kullanın.
 
-**B1 ve B2'de uygulanan sayı biçimi ayarları** 
+**B1 ve B2 üzerine uygulanan numara formatı ayarları** 
 
-![yapılacaklar:resim_alternatif_metin](format-cells_10.png)
+![todo:image_alt_text](format-cells_10.png)
 
 
 

@@ -1,16 +1,17 @@
-﻿---
-title: Arbeitsblatt seitenweise in eine Bilddatei konvertieren
+---
+title: Arbeitsblatt in Bilddatei nach Seiten konvertieren
 type: docs
 weight: 10
 url: /de/net/converting-worksheet-to-image-file-by-page/
 ---
-{{< highlight "csharp" >}}
 
- Arbeitsbuch book = new Workbook("Sheet to Image by Page.xls");
+{{< highlight csharp >}}
 
-Arbeitsblatt sheet = book.Worksheets[0];
+ Workbook book = new Workbook("Sheet to Image by Page.xls");
 
-Aspose.Cells.Rendering.ImageOrPrintOptions Optionen = neu Aspose.Cells.Rendering.ImageOrPrintOptions();
+Worksheet sheet = book.Worksheets[0];
+
+Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 
 options.HorizontalResolution = 200;
 
@@ -18,11 +19,11 @@ options.VerticalResolution = 200;
 
 options.ImageFormat = System.Drawing.Imaging.ImageFormat.Tiff;
 
-//Konvertierung Sheet2Image By Page
+//Sheet2Image By Page conversion
 
-SheetRender sr = new SheetRender (Blatt, Optionen);
+SheetRender sr = new SheetRender(sheet, options);
 
- für (int j = 0; j< sr.PageCount; j++)
+for (int j = 0; j < sr.PageCount; j++)
 
 {
 
@@ -35,5 +36,5 @@ SheetRender sr = new SheetRender (Blatt, Optionen);
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.image.file.by.Page.Aspose.Cells.zip)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Worksheet%20to%20image%20file%20by%20Page%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.image.file.by.Page.Aspose.Cells.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Worksheet%20to%20image%20file%20by%20Page%20%28Aspose.Cells%29.zip)

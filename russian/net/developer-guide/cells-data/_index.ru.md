@@ -1,86 +1,87 @@
 ---
 title: Управление данными файлов Excel
-linktitle: Cells Данные
+linktitle: Данные ячеек
 type: docs
 weight: 110
 url: /ru/net/view-and-edit-excel-data/
-description: В этой статье описывается, как просматривать и редактировать данные файлов Excel с помощью библиотеки Aspose.Cells.
-keywords: Aspose.Cells C# Manage data of Excel file, add data to Excel file, get data from excel file, How to Improve Efficiency of adding data, manage cells data, update cells data, get cells data, insert cells data
+description: Эта статья описывает, как просматривать и редактировать данные файлов Excel с помощью библиотеки Aspose.Cells.
+keywords: Aspose.Cells C# Управление данными файла Excel, добавление данных в файл Excel, получение данных из файла Excel, Как улучшить эффективность добавления данных, управление данными ячеек, обновление данных ячеек, получение данных ячеек, вставка данных ячеек
 ---
+
 {{% alert color="primary" %}}
 
- В[Доступ к Cells рабочего листа](/cells/ru/net/accessing-cells-of-a-worksheet/)мы обсудили основные подходы к доступу к ячейкам на листе. В этой статье используется один из таких подходов для добавления в ячейки различных типов данных.
+При [Доступ к Ячейкам Рабочего Листа](/cells/ru/net/accessing-cells-of-a-worksheet/), мы обсудили основные методы доступа к ячейкам в рабочем листе. В этой статье используется один из этих методов для добавления различных типов данных в ячейки.
 
 {{% /alert %}}
 
-##  **Как добавить данные в номер Cells**
+## **Как добавить данные в ячейки**
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , который представляет файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) коллекция, которая обеспечивает доступ к каждому листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) сорт.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс обеспечивает[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция. Каждый предмет в[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция представляет собой объект[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)сорт.
+Aspose.Cells предоставляет класс, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) содержит коллекцию [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets), которая позволяет получить доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) предоставляет коллекцию [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). Каждый элемент в коллекции [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) представляет объект класса [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
- Aspose.Cells позволяет разработчикам добавлять данные в ячейки на листах, вызывая[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)сорт'[**Путвалуе**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) метод. Aspose.Cells предоставляет перегруженные версии[**Путвалуе**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) метод, который позволяет разработчикам добавлять в ячейки различные типы данных. Используя эти перегруженные версии[**Путвалуе**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)В ячейку можно добавить логические, строковые, двойные, целочисленные значения, значения даты/времени и т. д.
+Aspose.Cells позволяет разработчикам добавлять данные в ячейки на рабочих листах, вызывая метод [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) класса [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell). Aspose.Cells предоставляет перегруженные версии метода [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index), которые позволяют добавлять различные типы данных в ячейки. Используя эти перегруженные версии метода [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index), можно добавить логические, строковые, числовые и даты/время и т. д. значения в ячейку.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
-##  **Как повысить эффективность**
+## **Как улучшить эффективность**
 
- Если вы используете[**Путвалуе**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)Чтобы поместить большой объем данных на лист, вам следует добавлять значения в ячейки сначала по строкам, а затем по столбцам. Такой подход значительно повышает эффективность ваших приложений.
+Если вы используете метод [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) для вставки большого количества данных на листе, вам следует добавлять значения в ячейки сначала по строкам, а затем по столбцам. Такой подход значительно улучшает эффективность ваших приложений.
 
-##  **Как получить данные с номера Cells**
+## **Как извлечь данные из ячеек**
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) который представляет файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) коллекция, которая обеспечивает доступ к листам в файле. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) сорт.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс обеспечивает[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция. Каждый предмет в[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция представляет собой объект[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)сорт.
+Aspose.Cells предоставляет класс, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) содержит коллекцию [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets), которая позволяет получить доступ к рабочим листам в файле. Рабочий лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) предоставляет коллекцию [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells). Каждый элемент в коллекции [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) представляет объект класса [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
-[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Класс предоставляет несколько свойств, которые позволяют разработчикам извлекать значения из ячеек в соответствии с их типами данных. Эти свойства включают в себя:
+Класс [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) предоставляет несколько свойств, позволяющих разработчикам извлекать значения из ячеек в соответствии с их типами данных. Эти свойства включают:
 
-- [**Строковое значение**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue): возвращает строковое значение ячейки.
-- [**Двойное значение**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): возвращает двойное значение ячейки.
+- [**StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue): возвращает строковое значение ячейки.
+- [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): возвращает числовое значение ячейки.
 - [**BoolValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/boolvalue): возвращает логическое значение ячейки.
-- [**ДатаВремяЗначение**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/datetimevalue): возвращает значение даты/времени ячейки.
-- [**Плавающее значение**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue): возвращает плавающее значение ячейки.
-- [**Интвалуе**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/intvalue): возвращает целочисленное значение ячейки.
+- [**DateTimeValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/datetimevalue): возвращает дату/время значения ячейки.
+- [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue): возвращает дробное значение ячейки.
+- [**IntValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/intvalue): возвращает целочисленное значение ячейки.
 
- Если поле не заполнено, ячейки с[**Двойное значение**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) или[**Плавающее значение**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)выдает исключение.
+Когда поле не заполнено, ячейки со значением [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) или [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue) возбуждают исключение.
 
- Тип данных, содержащихся в ячейке, также можно проверить с помощью[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)сорт'[**Тип**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) свойство. Фактически,[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)сорт'[**Тип**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) собственность основана на[**Тип ячейкиValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)перечисление, предварительно определенные значения которого перечислены ниже:
+Тип данных, содержащихся в ячейке, также можно проверить, используя свойство класса [**Type**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell). Фактически, свойство класса [**Type**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) основано на перечислении [**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype), чьи предопределенные значения перечислены ниже:
 
-|**Cell Типы значений**|**Описание**|
+|**Типы Значений Ячеек**|**Описание**|
 | :- | :- |
 |IsBool|Указывает, что значение ячейки является логическим.|
-|Исдатевремя|Указывает, что значением ячейки является дата/время.|
-|Нулевой|Представляет пустую ячейку.|
+|IsDateTime|Указывает, что значение ячейки является дата/время.|
+|IsNull|Представляет пустую ячейку.|
 |IsNumeric|Указывает, что значение ячейки является числовым.|
 |IsString|Указывает, что значение ячейки является строкой.|
-|Неизвестно|Указывает, что значение ячейки неизвестно.|
+|IsUnknown|Указывает, что значение ячейки неизвестно.|
 
-Вы также можете использовать предварительно определенные типы значений ячеек, указанные выше, для сравнения с типом данных, присутствующих в каждой ячейке.
+Вы также можете использовать вышеперечисленные предопределенные типы значений ячейки для сравнения с типом данных, присутствующим в каждой ячейке.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-RetrievingDataFromCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Работая над листами, пользователи могут добавлять в ячейки различные типы данных. Эти типы данных могут включать логические значения, целые числа, значения с плавающей запятой, текст или значения даты/времени. С помощью Aspose.Cells вы можете получить соответствующие значения из ячеек в соответствии с их типами данных.
+При работе с рабочими листами пользователи могут добавлять разные типы данных в ячейки. Эти типы данных могут включать логические, целочисленные, числа с плавающей запятой, текст или значения даты/времени. С помощью Aspose.Cells вы можете получить соответствующие значения из ячеек в соответствии с их типами данных.
 
 {{% /alert %}}
 
-##  **Предварительные темы**
-- [Доступ к Cells рабочего листа](/cells/ru/net/accessing-cells-of-a-worksheet/)
+## **Продвинутые темы**
+- [Доступ к ячейкам листа](/cells/ru/net/accessing-cells-of-a-worksheet/)
 - [Преобразование текстовых числовых данных в число](/cells/ru/net/convert-text-numeric-data-to-number/)
-- [Создание промежуточных итогов](/cells/ru/net/creating-subtotals/)
+- [Создание итогов](/cells/ru/net/creating-subtotals/)
 - [Фильтрация данных](/cells/ru/net/data-filtering/)
 - [Сортировка данных](/cells/ru/net/sort-data-of-excel/)
 - [Валидация данных](/cells/ru/net/data-validation/)
-- [Экспорт данных из листа](/cells/ru/net/export-data-from-worksheet/)
-- [Найти или найти данные](/cells/ru/net/find-or-search-data/)
-- [Получить строковое значение Cell с форматированием и без него](/cells/ru/net/get-cell-string-value-with-and-without-formatting/)
-- [Добавление HTML форматированного текста внутри Cell](/cells/ru/net/adding-html-rich-text-inside-the-cell/)
+- [Экспорт данных из рабочего листа](/cells/ru/net/export-data-from-worksheet/)
+- [Поиск или поиск данных](/cells/ru/net/find-or-search-data/)
+- [Получение строкового значения ячейки с или без форматирования](/cells/ru/net/get-cell-string-value-with-and-without-formatting/)
+- [Добавление HTML-форматированного текста в ячейку](/cells/ru/net/adding-html-rich-text-inside-the-cell/)
 - [Вставка гиперссылок в Excel или OpenOffice](/cells/ru/net/insert-hyperlinks-to-excel/)
-- [Импортировать данные в рабочий лист](/cells/ru/net/import-data-into-worksheet/)
+- [Импорт данных в рабочий лист](/cells/ru/net/import-data-into-worksheet/)
 - [Как и где использовать перечислители](/cells/ru/net/how-and-where-to-use-enumerators/)
-- [Измерьте ширину и высоту значения Cell в пикселях.](/cells/ru/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)
-- [Чтение значений Cell в нескольких потоках одновременно](/cells/ru/net/reading-cell-values-in-multiple-threads-simultaneously/)
+- [Измерение ширины и высоты значения ячейки в пикселях](/cells/ru/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)
+- [Чтение значений ячеек в нескольких потоках одновременно](/cells/ru/net/reading-cell-values-in-multiple-threads-simultaneously/)
 - [Преобразование между именем ячейки и индексом строки/столбца](/cells/ru/net/names-and-indices/)
-- [Заполнение данных сначала по строке, затем по столбцу](/cells/ru/net/populate-data-first-by-row-then-by-column/)
-- [Сохранять префикс одиночной кавычки для значения или диапазона Cell.](/cells/ru/net/preserve-single-quote-prefix-of-cell-value-or-range/)
-- [Доступ и обновление частей форматированного текста Cell](/cells/ru/net/access-and-update-the-portions-of-rich-text-of-cell/)
+- [Сначала заполняется строка, а затем столбец.](/cells/ru/net/populate-data-first-by-row-then-by-column/)
+- [Сохранить префикс одинарной кавычки значения ячейки или диапазона](/cells/ru/net/preserve-single-quote-prefix-of-cell-value-or-range/)
+- [Доступ и обновление частей Rich Text ячейки](/cells/ru/net/access-and-update-the-portions-of-rich-text-of-cell/)
 
 
 

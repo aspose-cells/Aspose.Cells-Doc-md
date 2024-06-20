@@ -1,17 +1,18 @@
-﻿---
-title: Копировать рабочие листы
+---
+title: Копирование листов
 type: docs
 weight: 60
 url: /ru/net/copy-worksheets/
 ---
+
 ## **Совет по миграции:**
-\1. Создайте объект Workbook и получите Worksheet.
-\2. Вставьте текст в рабочий лист.
-\3. Создайте новый рабочий лист и скопируйте его на предыдущий перед созданием рабочего листа.
-### **ВСТО**
-Ошибка рендеринга макроса 'code': указано недопустимое значение для параметра lang
+\1. Создайте объект рабочей книги и получите лист.
+\2. Вставьте текст в лист.
+\3. Создайте новый лист и скопируйте его на предыдущий сделанный лист.
+### **VSTO**
+Ошибка в рендеринге макроса 'code': Недопустимое значение для параметра lang
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   private static string fileName ="CopyWorksheets.xlsx";
 
@@ -30,5 +31,5 @@ url: /ru/net/copy-worksheets/
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Скачать**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)
+## **Загрузка**
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)

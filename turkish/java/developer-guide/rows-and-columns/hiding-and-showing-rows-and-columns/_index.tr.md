@@ -1,28 +1,29 @@
-﻿---
-title: Satırları ve Sütunları Gizleme ve Gösterme
+---
+title: Satır ve Sütunları Gizleme ve Gösterme
 type: docs
 weight: 50
 url: /tr/java/hiding-and-showing-rows-and-columns/
 ---
+
 ## **Giriş**
-Bazen, kullanıcılar tarafından çalışma sayfasının belirli satırlarını veya sütunlarını gizlemek ve daha sonra bunları görüntülemek de gerekebilir. Microsoft Excel bu özelliği sağlar ve Aspose.Cells gibi.
-## **Satırların ve Sütunların Görünürlüğünü Kontrol Etme**
- Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)Excel dosyasındaki her çalışma sayfasına erişim sağlar. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf bir sağlar[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) çalışma sayfasındaki tüm hücreleri temsil eden koleksiyon. bu[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)[](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)koleksiyon, bir çalışma sayfasındaki satırları veya sütunları yönetmek için çeşitli yöntemler sağlar. Bunlardan bazıları aşağıda tartışılmaktadır.
-### **Satırları veya Sütunları Gizleme**
- Geliştiriciler, çağırarak bir satırı veya sütunu gizleyebilirsiniz.[Satırı Gizle](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideRow\(int\) ) ve[Sütunu Gizle](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideColumn\(int\) ) yöntemleri[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)sırasıyla koleksiyon. Her iki yöntem de belirli satır veya sütunu gizlemek için satır/sütun dizinini parametre olarak alır.
+Bazı durumlarda, çalışma sayfasının belirli satır veya sütunlarını gizlemek ve daha sonra göstermek gerekebilir. Bu özelliği Microsoft Excel sağladığı gibi Aspose.Cells de sağlar.
+## **Satır ve Sütunların Görünürlüğünü Kontrol Etme**
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) içerir. Bir çalışma sayfası, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı, çalışma sayfasındaki tüm hücreleri temsil eden bir [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonu sağlar. [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonu, çalışma sayfasındaki satır veya sütunları yönetmek için çeşitli yöntemler sağlar. Bunlardan bazıları aşağıda tartışılmıştır.
+### **Satır veya Sütunları Gizleme**
+Geliştiriciler, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [HideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideRow\(int\)) ve [HideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideColumn\(int\)) yöntemlerini çağırarak bir satır veya sütunu gizleyebilir. Her iki yöntem de belirli bir satır veya sütunu gizlemek için satır/sütun indeksini parametre olarak alır.
 
 {{% alert color="primary" %}} 
 
-Not: Sırasıyla satır yüksekliğini veya sütun genişliğini 0 olarak ayarlarsak, bir satırı veya sütunu gizlemek de mümkündür.
+Not: Bir satır veya sütunu gizlemek için sırasıyla satır yüksekliğini veya sütun genişliğini 0 olarak ayarlarsak da mümkündür.
 
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-HidingRowsandColumns-HidingRowsandColumns.java" >}}
-### **Satırları ve Sütunları Gösterme**
- Geliştiriciler, çağırarak herhangi bir gizli satırı veya sütunu gösterebilir.[Satırı Göster](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideRow\(int,%20double\) ) ve[Sütunu Göster](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideColumn\(int,%20double\) ) yöntemleri[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)sırasıyla koleksiyon. Her iki yöntem de iki parametre alır:
+### **Satır ve Sütunları Gösterme**
+Geliştiriciler, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [UnhideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideRow\(int,%20double\)) ve [UnhideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideColumn\(int,%20double\)) yöntemlerini çağırarak herhangi bir gizlenmiş satır veya sütunu gösterebilir. Her iki yöntem de iki parametre alır:
 
-- **Satır veya sütun dizini** - belirli bir satır veya sütunu göstermek için kullanılan bir satır veya sütun dizini.
-- **Satır yüksekliği veya sütun genişliği** - gösterildikten sonra satıra veya sütuna atanan satır yüksekliği veya sütun genişliği.
+- **Satır veya sütun dizini** - belirli bir satır veya sütunun gösterilmesi için kullanılan dizin.
+- **Satır yüksekliği veya sütun genişliği** - Gösterildikten sonra satır veya sütuna atanan satır yüksekliği veya sütun genişliği.
 
 
 
@@ -30,6 +31,6 @@ Not: Sırasıyla satır yüksekliğini veya sütun genişliğini 0 olarak ayarla
 
 {{% alert color="primary" %}} 
 
-Gizli bir sütunu/satırı görünür hale getirirken, daha önce atanmış genişliğe veya yüksekliğe veya orijinal genişliğine veya yüksekliğine geri döndürmeniz gerekirse, lütfen negatif genişlik veya yüksekliğe sahip sütunu veya satırı gösterin. Örneğin, worksheet.getCells().unhideColumn(5, -1)
+Gizlenmiş bir sütunu/satırı görünür hale getirirken, onu önceden atanan genişliğe veya yüksekliğe veya orijinal genişliğe veya yüksekliğe geri döndürmeniz gerekiyorsa, lütfen sütunu veya satırı negatif genişlik veya yükseklikle görünmez yapın. Örneğin, worksheet.getCells().unhideColumn(5, -1)
 
 {{% /alert %}}

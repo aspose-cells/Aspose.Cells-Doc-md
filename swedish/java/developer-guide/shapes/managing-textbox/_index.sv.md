@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hantera TextBox
 type: docs
 weight: 20

@@ -1,20 +1,21 @@
-﻿---
-title: HTML'i içe aktarırken satır sonundaki gereksiz boşlukları silin
+---
+title: HTML içe aktarılırken satır sonrası gereksiz boşlukları silin
 type: docs
 weight: 620
 url: /tr/java/delete-redundant-spaces-after-line-break-while-importing/
 ---
+
 {{% alert color="primary" %}} 
 
- Lütfen kullan[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) özellik ve ayarlayın**doğru** satır sonu etiketinden sonra gelen tüm gereksiz boşlukları silmek için. Varsayılan olarak, bu özellik**YANLIŞ**ve fazlalık boşluklar çıktı excel dosyalarında korunur.
+Lütfen [HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) özelliğini kullanın ve **true** olarak ayarlayın, böylece satır sonrası gelen gereksiz boşlukların tümünü silebilirsiniz. Varsayılan olarak, bu özellik **false** olarak ayarlıdır ve gereksiz boşluklar çıktı excel dosyalarında korunur.
 
 {{% /alert %}} 
-## **HtmlLoadOptions.DeleteRedundantSpaces özelliğini false ve true olarak ayarlamanın etkisi**
- Aşağıdaki ekran görüntüsü, bu özelliği şu şekilde ayarlamanın etkisini gösterir:**YANLIŞ** ve**doğru**.
+## **HtmlLoadOptions.DeleteRedundantSpaces özelliğinin **false** ve **true** olarak ayarlanmasının etkisi**
+Bu özelliği **false** ve **true** olarak ayarlamanın etkisini gösteren aşağıdaki ekran görüntüsü.
 
-![yapılacaklar:resim_alternatif_metin](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
-## **HTML'i içe aktarırken satır sonundaki gereksiz boşlukları silin**
- Aşağıdaki örnek kod,[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) Emlak. lütfen ayarla**doğru** veya**YANLIŞ** çıktıyı yukarıdaki ekran görüntüsünde gösterildiği gibi almak için.
+![todo:image_alt_text](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
+## **HTML içe aktarırken satır sonrası gereksiz boşlukları silin**
+Aşağıdaki örnek kod, [HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces)  özelliğinin kullanımını göstermektedir. Lütfen yukarıdaki ekran görüntüsünde gösterildiği gibi **true** veya **false** olarak ayarlayın.
 
 
 

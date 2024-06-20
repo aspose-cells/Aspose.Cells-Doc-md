@@ -1,26 +1,27 @@
 ---
-title: Obtenga todos los índices de filas ocultas después de actualizar el Autofiltro
+title: Obtener Todos los Índices de Filas Ocultas Después de Actualizar el Autofiltro
 type: docs
 weight: 320
 url: /es/net/get-all-hidden-rows-indices-after-refreshing-autofilter/
-description: Aprenda cómo obtener todos los índices de filas ocultas después de actualizar Autofiltro utilizando Aspose.Cells for .NET API.
-keywords: Get All Hidden Rows Indices after Refreshing AutoFilter, Obtain All Hidden Rows Indices after Refreshing AutoFilter, Retrieve All Hidden Rows Indices after Refreshing AutoFilter
+description: Aprenda cómo obtener todos los índices de filas ocultas después de actualizar el filtro automático usando la API Aspose.Cells for .NET.
+keywords: Obtener todos los índices de filas ocultas después de actualizar el filtro automático, obtener todos los índices de filas ocultas después de actualizar el filtro automático, recuperar todos los índices de filas ocultas después de actualizar el filtro automático
 ---
-##  **Posibles escenarios de uso**
 
-Cuando aplica el filtro automático en las celdas de la hoja de trabajo, algunas de las filas se ocultan automáticamente. Pero podría darse el caso de que algunas de las filas ya estén ocultas manualmente por el usuario final de Excel y no estén ocultas mediante un filtro automático. Por lo tanto, resulta difícil saber cuáles de las filas están ocultas por el filtro automático y cuáles están ocultas manualmente por el usuario final de Excel. Aspose.Cells soluciona este problema utilizando int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)método. Este método devuelve los índices de fila de todas las filas que están ocultas por el filtro automático y no manualmente por el usuario final de Excel.
+## **Escenarios de uso posibles**
 
-##  **Obtenga todos los índices de filas ocultas después de actualizar el Autofiltro**
+Cuando aplica el filtro automático en las celdas de la hoja de cálculo, algunas de las filas se ocultan automáticamente. Pero podría ser el caso de que algunas de las filas ya estén ocultas manualmente por el usuario final de Excel y no estén ocultas por un filtro automático. Por lo tanto, es difícil saber cuáles de las filas están ocultas por el filtro automático y cuáles de ellas están ocultas manualmente por el usuario final de Excel. Aspose.Cells resuelve este problema utilizando el método int[] [**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1). Este método devuelve los índices de las filas que están ocultas por el filtro automático y no manualmente por el usuario final de Excel.
 
- Consulte el siguiente código de muestra que carga el[archivo de Excel de muestra](64716909.xlsx) que contiene algunas de las filas ocultas manualmente por el usuario final de Excel. El código aplica el filtro automático y lo actualiza usando int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)Método que devuelve los índices de fila de todas las filas ocultas por el filtro automático. Luego imprime los índices de las filas ocultas en la consola junto con los nombres y valores de las celdas.
+## **Obtener Todos los Índices de Filas Ocultas Después de Actualizar el Autofiltro**
 
-##  **Código de muestra**
+Consulte el siguiente código de muestra que carga el [archivo de Excel de ejemplo](64716909.xlsx) que contiene algunas de las filas ocultas manualmente por el usuario final de Excel. El código aplica el filtro automático y lo actualiza utilizando el método int[] [**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1) que devuelve los índices de todas las filas ocultas por el filtro automático. Luego imprime los índices de las filas ocultas en la consola junto con los nombres y valores de las celdas.
+
+## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.cs" >}}
 
-##  **Salida de consola**
+## **Salida de la consola**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Printing Rows Indices, Cell Names and Values Hidden By AutoFilter.
 

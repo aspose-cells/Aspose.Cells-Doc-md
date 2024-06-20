@@ -1,16 +1,17 @@
-﻿---
-title: Скрыть или показать рабочий лист в Php
+---
+title: Скрыть или отобразить лист в Php
 type: docs
 weight: 50
 url: /ru/java/hide-or-unhide-a-worksheet-in-php/
 ---
-## **Aspose.Cells - Скрыть или показать рабочий лист**
-### **Скрытие рабочего листа**
- Чтобы скрыть рабочий лист, используя Aspose.Cells Java for PHP, позвоните**скрыть рабочий лист** модуль.
+
+## **Aspose.Cells - Скрыть или показать лист**
+### **Скрыть лист**
+Для скрытия листа с использованием Aspose.Cells Java для PHP вызовите модуль **hideunhideworksheet**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -32,7 +33,7 @@ $workbook->save($dataDir . "output.xls");
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Скрыть или показать рабочий лист (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **Показать или скрыть лист (Aspose.Cells)** с любого из нижеуказанных сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/HideUnhideWorksheet.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/HideUnhideWorksheet.php)

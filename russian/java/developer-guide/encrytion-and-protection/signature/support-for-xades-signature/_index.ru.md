@@ -1,12 +1,13 @@
-﻿---
+---
 title: Поддержка подписи XAdES
 type: docs
 weight: 110
 url: /ru/java/support-for-xades-signature/
 ---
-Aspose.Cells поддерживает подписание книг с помощью XAdES Signature. Для этого API предоставляет[**Цифровая подпись**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature)класс и[**XAdESType**](https://reference.aspose.com/cells/java/com.aspose.cells/XAdESType)перечисление.
 
-Следующий фрагмент кода демонстрирует использование[**Цифровая подпись**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature)класс, чтобы подписать[источник](sourceFile.xlsx)рабочая тетрадь.
+Aspose.Cells поддерживает подписание книг с помощью подписи XAdES. Для этого API предоставляет классы [**DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) и перечисление [**XAdESType**](https://reference.aspose.com/cells/java/com.aspose.cells/XAdESType).
+
+Следующий фрагмент кода демонстрирует использование класса [**DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) для подписи рабочей книги [исходящий](sourceFile.xlsx).
 
 ## **Образец кода**
 

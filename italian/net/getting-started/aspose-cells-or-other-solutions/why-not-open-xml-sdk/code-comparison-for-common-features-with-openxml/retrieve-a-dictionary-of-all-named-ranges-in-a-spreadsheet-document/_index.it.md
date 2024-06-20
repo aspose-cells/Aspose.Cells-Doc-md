@@ -1,11 +1,12 @@
-﻿---
-title: Recupera un dizionario di tutti gli intervalli denominati in un foglio di calcolo
+---
+title: Recupera un dizionario di tutti i range con nome in un documento di foglio di calcolo
 type: docs
 weight: 120
 url: /it/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/
 ---
-## **Excel OpenXML**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -59,7 +60,7 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -108,7 +109,7 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 }
 
 {{< /highlight >}}
-## **Scarica l'esempio di codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-## **Codice d'esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Retrieve%20a%20dictionary%20of%20all%20named%20ranges)
+## **Scarica Esempio di Codice in Esecuzione**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+## **Codice di Esempio**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Retrieve%20a%20dictionary%20of%20all%20named%20ranges)

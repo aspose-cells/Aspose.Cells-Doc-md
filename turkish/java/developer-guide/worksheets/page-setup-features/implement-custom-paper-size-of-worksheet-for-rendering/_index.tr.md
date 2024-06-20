@@ -1,21 +1,22 @@
-﻿---
-title: İşleme için Çalışma Sayfasının Özel Kağıt Boyutunu Uygulayın
+---
+title: Otomatik Olarak Çalışma Sayfası Kağıt Boyutunun Oluşturulması için Özelleştirilmiş Kağıt Boyutunun Uygulanması
 type: docs
 weight: 30
 url: /tr/java/implement-custom-paper-size-of-worksheet-for-rendering/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-MS Excel'de özel kağıt boyutları oluşturmak için doğrudan bir seçenek yoktur, ancak Excel dosyasını PDF dosya biçiminde işlerken istediğiniz çalışma sayfalarının özel kağıt boyutunu ayarlayabilirsiniz. Bu belge, Aspose.Cells API'leri kullanılarak bir çalışma sayfasının özel kağıt boyutunun nasıl ayarlanacağını açıklar.
+MS Excel'de özel kağıt boyutları oluşturmak için doğrudan bir seçenek bulunmamaktadır, ancak Excel dosyasını PDF dosya formatına dönüştürürken istediğiniz çalışma sayfasının özel kağıt boyutlarını ayarlayabilirsiniz. Bu belge, Aspose.Cells API'lerini kullanarak çalışma sayfasının özel kağıt boyutunu nasıl ayarlayacağınızı açıklar.
 
-## **İşleme için Çalışma Sayfasının Özel Kağıt Boyutunu Uygulayın**
+## **Otomatik Olarak Çalışma Sayfası için Özel Kağıt Boyutunun Uygulanması**
 
-Aspose.Cells, çalışma sayfasının istediğiniz kağıt boyutunu[**özel KağıtBoyutu**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double) ) yöntemi[**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) . Aşağıdaki örnek kod, çalışma kitabındaki ilk çalışma sayfası için özel bir kağıt boyutunun nasıl belirleneceğini gösterir. Lütfen şuna da bakın:[çıkış PDF](45056030.pdf) bir referans için aşağıdaki kod ile oluşturulmuştur.
+Aspose.Cells, çalışma sayfasının istenen kağıt boyutunu [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) yönteminin [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) yöntemini kullanarak uygulamanıza olanak tanır. Aşağıdaki örnek kod, çalışma kitabındaki ilk çalışma sayfası için özel bir kağıt boyutunu belirtmeyi nasıl gösterdiğini açıklar. Ayrıca aşağıdaki kodla oluşturulan [çıkış PDF](45056030.pdf) dosyasına referans olarak bakınız.
 
-## **Ekran görüntüsü**
+## **Ekran Görüntüsü**
 
-![yapılacaklar:resim_alternatif_metin](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+![todo:image_alt_text](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.java" >}}

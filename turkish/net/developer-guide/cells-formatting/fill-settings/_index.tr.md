@@ -1,91 +1,92 @@
 ---
 title: Doldurma Ayarları
-description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmaya yönelik bir .NET kitaplığıdır. Hücrelerin doldurma ayarlarının yapılmasını destekleyerek kullanıcıların hücrelerin arka planını ve stilini özelleştirmesine olanak tanır. Bu makalede hücre doldurma ayarlarını yapmak için Aspose.Cells kitaplığının nasıl kullanılacağı anlatılacaktır.
-keywords: Aspose.Cells, Cells, Fill Settings, Background, Style
+description: Aspose.Cells, elektronik tablo dosyaları ile çalışmak için bir .NET kitaplığıdır. Hücrelerin doldurma ayarlarını ayarlama özelliğini destekler, böylece kullanıcılar hücrelerin arka planını ve stilini özelleştirebilir. Bu makalede, Aspose.Cells kitaplığını kullanarak hücre doldurma ayarlarını nasıl ayarlayacağımızı öğreneceğiz.
+keywords: Aspose.Cells, Hücreler, Doldurma Ayarları, Arka Plan, Stil
 type: docs
 weight: 50
 url: /tr/net/cells-fill-settings/
 ---
-##  **Renkler ve Arka Plan Desenleri**
 
-Microsoft Excel, hücrelerin ön plan (anahat) ve arka plan (dolgu) renklerini ve arka plan desenlerini ayarlayabilir.
+## **Renkler ve Arka Plan Desenleri**
 
-Aspose.Cells de bu özellikleri esnek bir şekilde desteklemektedir. Bu konumuzda Aspose.Cells'i kullanarak bu özellikleri kullanmayı öğreniyoruz.
+Microsoft Excel, hücrelerin ön plan (çerçeve) ve arka plan (doldurma) renklerini ve arka plan desenlerini ayarlayabilir.
 
-###  **Renkleri ve Arka Plan Desenlerini Ayarlama**
+Aspose.Cells, bu özellikleri esnek bir şekilde destekler. Bu konuda, Aspose.Cells kullanarak bu özellikleri nasıl kullanacağımızı öğreneceğiz.
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**Çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon. Bir çalışma sayfası şu şekilde temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Toplamak. İçindeki her öğe[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyon bir nesneyi temsil eder[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf.
+### **Renkler ve Arka Plan Desenlerini Ayarlama**
 
-[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) var[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) Ve[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) Hücrenin biçimlendirmesini almak ve ayarlamak için kullanılan yöntemler.[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)sınıf, hücrelerin ön plan ve arka plan renklerini ayarlamaya yönelik özellikler sağlar. Aspose.Cells şunları sağlar:[**Arka Plan Türü**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)Aşağıda verilen, önceden tanımlanmış bir dizi arka plan deseni türünü içeren numaralandırma.
+Aspose.Cells, Microsoft Excel dosyasını temsil eden bir sınıf olan [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sunar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her bir çalışma sayfasına erişim sağlayan bir koleksiyon içerir. Bir çalışma sayfası [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, bir koleksiyon sağlar. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, bir koleksiyon sağlar. [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonundaki her öğe, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının bir nesnesini temsil eder.
 
-|**Arka Plan Desenleri**|**Tanım**|
+[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell), hücre biçimlendirme işlemlerini almak ve ayarlamak için kullanılan [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) ve [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) metodlarına sahiptir. [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) sınıfı, hücrelerin ön plan ve arka plan renklerini ayarlamak için özellikler sağlar. Aspose.Cells, aşağıda verilen önceden tanımlanmış arka plan desenlerini içeren bir [**BackgroundType**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype) numaralı sıralı koleksiyon sağlar.
+
+|**Arka Plan Desenleri**|**Açıklama**|
 | :- | :- |
-|Çapraz Çapraz Çizgi|Çapraz çizgi desenini temsil eder|
-|Çapraz Şerit|Çapraz şerit desenini temsil eder|
-|Gri6|%6,25 gri deseni temsil eder|
-|Gri12|%12,5 gri deseni temsil eder|
-|Gri25|%25 gri deseni temsil eder|
-|Gri50|%50 gri deseni temsil eder|
-|Gri75|%75 gri deseni temsil eder|
-|Yatay Şerit|Yatay şerit desenini temsil eder|
-|Hiçbiri|Hiçbir arka planı temsil etmez|
-|Ters Çapraz Şerit|Ters çapraz şerit desenini temsil eder|
-|Sağlam|Katı deseni temsil eder|
-|KalınDiyagonalÇapraz|Kalın çapraz çizgi desenini temsil eder|
-|İnceDiagonalÇaprazhatch|İnce çapraz çizgi desenini temsil eder|
-|İnce Çapraz Şerit|İnce çapraz şerit desenini temsil eder|
-|İnceYatayÇapraz|İnce yatay çapraz çizgi desenini temsil eder|
-|İnceYatayŞerit|İnce yatay şerit desenini temsil eder|
-|İnceTersDiagonalŞerit|İnce ters çapraz şerit desenini temsil eder|
-|İnceDikeyŞerit|İnce dikey şerit desenini temsil eder|
-|Dikey Şerit|Dikey şerit desenini temsil eder|
+|DiagonalCrosshatch|Çapraz çizgili deseni temsil eder|
+|DiagonalStripe|Çapraz şerit deseni temsil eder|
+|Gray6|%6,25 gri deseni temsil eder|
+|Gray12|%12,5 gri deseni temsil eder|
+|Gray25|%25 gri deseni temsil eder|
+|Gray50|%50 gri deseni temsil eder|
+|Gray75|%75 gri deseni temsil eder|
+|HorizontalStripe|Dikey şerit deseni temsil eder|
+|None|Arka plan yok|
+|ReverseDiagonalStripe|Çapraz ters şerit deseni temsil eder|
+|Solid|Düz deseni temsil eder|
+|ThickDiagonalCrosshatch|Kalın çapraz çizgili deseni temsil eder|
+|ThinDiagonalCrosshatch|İnce çapraz çizgili deseni temsil eder|
+|ThinDiagonalStripe|İnce çapraz şerit deseni temsil eder|
+|ThinHorizontalCrosshatch|İnce yatay çapraz çizgili deseni temsil eder|
+|ThinHorizontalStripe|İnce yatay şerit deseni temsil eder|
+|ThinReverseDiagonalStripe|İnce ters çapraz şerit deseni temsil eder|
+|ThinVerticalStripe|İnce dikey şerit deseni temsil eder|
+|VerticalStripe|Dikey şerit deseni temsil eder|
 
-Aşağıdaki örnekte, A1 hücresinin ön plan rengi ayarlanmıştır ancak A2, dikey şerit arka plan deseniyle hem ön plan hem de arka plan renklerine sahip olacak şekilde yapılandırılmıştır.
+Aşağıdaki örnekte, A1 hücresinin ön plan rengi ayarlanmış ancak A2, dikey çizgili bir arka plan deseni olan hem ön plan rengi hem de arka plan rengi olarak yapılandırılmıştır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ColorsAndBackground-1.cs" >}}
 
-###  **Bilmeniz Önemli**
+### **Bilinmesi Gerekenler**
 
 {{% alert color="primary" %}}
 
--  Bir hücrenin ön plan veya arka plan rengini ayarlamak için[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Ön plan rengi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) veya[**Arka plan rengi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) özellikler. Her iki özellik de yalnızca aşağıdaki durumlarda geçerli olacaktır:[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Model**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)özellik yapılandırılmıştır.
-- [**Ön plan rengi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)özelliği hücrenin gölge rengini ayarlar.
-[**Model**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)özelliği, ön plan veya arka plan rengi için kullanılan arka plan deseninin türünü belirtir. Aspose.Cells bir numaralandırma sağlar,[**Arka Plan Türü**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype). önceden tanımlanmış bir dizi arka plan deseni türünü içerir.
--  Eğer seçerseniz*Arka Plan Türü. Yok* gelen değer[**Arka Plan Türü**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)numaralandırmada ön plan rengi uygulanmaz.
- Aynı şekilde, arka plan rengini seçerseniz arka plan rengi uygulanmaz.*Arka Plan Türü. Yok* veya*Arka Plan Türü. Katı* değerler.
--  Hücrenin gölgeleme/dolgu rengini alırken, eğer[**Stil.Desen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) *BackgroundType.None*'dur,[**Stil.Ön PlanRenk**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) *Renk.Empty* değerini döndürecektir.
+- Bir hücrenin ön plan veya arka plan rengini ayarlamak için, [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin [**ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) veya [**BackgroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) özelliklerini kullanın. Her iki özellik de, [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin [**Pattern**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) özelliği yapılandırılmışsa yalnızca etki eder.
+- [**ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) özelliği hücrenin gölge rengini belirler.
+  [**Pattern**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) özelliği, önyüz veya arka plan rengi için kullanılan arka plan deseninin türünü belirtir. Aspose.Cells, bir dizi önceden tanımlanmış arka plan desenlerini içeren [**BackgroundType**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype) adlı bir numaralandırmayı sağlar.
+- Eğer [**BackgroundType**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype) numaralandırmasından *BackgroundType.None* değerini seçerseniz, ön plan rengi uygulanmaz.
+  Benzer şekilde, *BackgroundType.None* veya *BackgroundType.Solid* değerlerini seçerseniz arka plan rengi uygulanmaz.
+- Hücrenin gölgelendirme/dolgu rengini alırken, [**Style.Pattern**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) *BackgroundType.None* ise, [**Style.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) *Color.Empty* değerini döndürecektir.
 
 {{% /alert %}}
 
-###  **Degrade Dolgu Efektleri Uygulama**
+### **Gradyan Dolgu Efektleri Uygulama**
 
- İstediğiniz Degrade Dolgu Efektlerini hücreye uygulamak için[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**İkiRenkDegradeyi Ayarla**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient)buna göre yöntem.
+Hücreye istenilen Gradyan Dolgu Efektlerini uygulamak için, [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin [**SetTwoColorGradient**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient) metodunu kullanın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-ApplyingGradientFillEffects-1.cs" >}}
 
-##  **Renkler ve Palet**
+## **Renkler ve Palet**
 
-Palet, bir görüntü oluştururken kullanılabilecek renklerin sayısıdır. Bir sunumda standartlaştırılmış bir paletin kullanılması, kullanıcının tutarlı bir görünüm oluşturmasına olanak tanır. Her Microsoft Excel (97-2003) dosyasında, bir grafikteki hücrelere, yazı tiplerine, kılavuz çizgilerine, grafik nesnelerine, dolgulara ve çizgilere uygulanabilen 56 renkten oluşan bir palet bulunur.
+Bir palet, bir görüntü oluşturmak için kullanılabilen renk sayısıdır. Bir sunumda standart bir palet kullanımı, kullanıcının tutarlı bir görünüm oluşturmasına olanak tanır. Her Microsoft Excel (97-2003) dosyasının bir hücrelere, fontlara, ızgaralara, grafik nesnelerine, doldurmalara ve çizgilere uygulanabilen 56 renklik bir paleti vardır.
 
-Aspose.Cells ile paletin sadece mevcut renklerini değil, özel renklerini de kullanmak mümkün. Özel bir renk kullanmadan önce onu palete ekleyin.
+Aspose.Cells ile sadece paletin mevcut renklerini değil aynı zamanda özel renkleri de kullanmak mümkündür. Özel bir rengi kullanmadan önce, önce paletine ekleyin.
 
-Bu konuda palete özel renklerin nasıl ekleneceği anlatılmaktadır.
+Bu konu, paletine özel renkler eklemenin nasıl yapıldığını tartışmaktadır.
 
-###  **Palete Özel Renkler Ekleme**
+### **Paletine Özel Renkler Eklemek**
 
-Aspose.Cells, Microsoft Excel'in 56 renk paletini destekler. Palette tanımlanmayan özel bir renk kullanmak için rengi palete ekleyin.
+Aspose.Cells, Microsoft Excel'in 56 renkli paletini destekler. Paletine tanımlanmamış özel bir renk kullanmak için, rengi paletine ekleyin.
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Microsoft Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf sağlar[**Paleti Değiştir**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) Paleti değiştirmek amacıyla özel bir renk eklemek için aşağıdaki parametreleri alan yöntem:
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, paleti değiştirmek için özel bir renk eklemek için aşağıdaki parametreleri alan bir [**ChangePalette**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) yöntemi sağlar:
 
-- Özel Renk, eklenecek özel renk.
-- Dizin, paletteki özel rengin yerini alacağı rengin dizini. 0-55 arasında olmalıdır.
+- Özel Renk, paletine eklenecek özel renk.
+- İndeks, özel rengin paletindeki rengin yerini belirtir. 0-55 arasında olmalıdır.
 
-Aşağıdaki örnek, bir yazı tipine uygulamadan önce palete özel bir renk (Orkide) ekler.
+Aşağıdaki örnek, (Orkide) özel bir rengi paletine ekleyip bunu bir font üzerine uygulamadan önce paletine ekler.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ColorsAndPalette-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Palette yalnızca 56 renk bulunur. Palete özel bir renk eklediğinizde palet değiştirilir ve dosyadaki önceki renkle biçimlendirilmiş herhangi bir öğe değiştirilir. Bu nedenle paleti değiştirirken lütfen çok dikkatli olun. Üstelik bu, yalnızca XLS (Excel 97 - 2003) dosya biçimindeki sınırlamadır; XLSX veya diğer gelişmiş MS Excel (2007/2010 veya 2013) dosya biçimleri için böyle bir sınırlama yoktur.
+Palet sadece 56 renk tutar. Bir özel rengi paletine eklediğinizde, palet değişir ve önceki rengiyle biçimlendirilen dosyadaki her eleman değişir. Bu nedenle, paleti değiştirirken lütfen çok dikkatli olun. Dahası, bu sadece XLS (Excel 97 - 2003) dosya biçiminde bir kısıtlama olarak mevcuttur, XLSX veya diğer gelişmiş MS Excel (2007/2010 veya 2013) dosya biçimleri için böyle bir kısıtlama yoktur.
 
 {{% /alert %}}

@@ -1,10 +1,11 @@
-﻿---
-title: Trabajar con archivos en Ruby
+---
+title: Working With Files in Ruby
 type: docs
 weight: 20
 url: /es/java/working-with-files-in-ruby/
 ---
+
 **Esta sección incluye los siguientes temas:**
 
-- [Funciones de manejo de archivos en Ruby](/cells/es/java/file-handling-features-in-ruby/)
-- [Funciones de utilidad en Ruby](/cells/es/java/utility-features-in-ruby/)
+- [Funciones de Manipulación de Archivos en Ruby](/cells/es/java/file-handling-features-in-ruby/)
+- [Funciones de Utilidad en Ruby](/cells/es/java/utility-features-in-ruby/)

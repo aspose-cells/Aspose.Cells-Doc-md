@@ -1,16 +1,17 @@
 ---
-title: Trabajar con la función Resaltar de GridJs
+title: Trabajando con la función de resaltado de GridJs
 type: docs
 weight: 250
 url: /es/net/aspose-cells-gridjs/highlight/
-description: Este artículo describe cómo usar GridJs para resaltar texto de celda, rangos de celdas, formas e imágenes.
-keywords: highlight, highlight spreadsheet,redaction,remarks
+description: Este artículo describe cómo usar el resaltado en texto de celda, rangos de celdas, formas e imágenes en GridJs.
+keywords: GridJs, resaltar, resaltar hoja de cálculo, redacción, observaciones
 ---
-#  Trabajar con la función Resaltar de GridJs
- Admitimos las siguientes API JS para la función Resaltar
+
+# Trabajando con la función de resaltado de GridJs 
+Apoyamos las siguientes APIs de JS para la función de resaltado 
 
 
--  Habilite el resaltado y establezca el estilo de resaltado. Todas las API de resaltado tendrán efecto solo después de que se establezca el estilo de resaltado en la hoja de trabajo activa.
+- Habilitar resaltado y Establecer estilo de resaltado, todas las APIs de resaltado solo funcionarán después de que se establezca el estilo de resaltado en la hoja de cálculo activa 
 ```javascript
 xs.sheet.showHighlights(style)
  // the parameter is:
@@ -18,7 +19,7 @@ xs.sheet.showHighlights(style)
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
--  actualizar el estilo de resaltado establecido en la hoja de trabajo activa
+- actualizar el estilo de resaltado establecido en la hoja de cálculo activa 
 ```javascript
 xs.sheet.updateHighlightStyle(style)
  // the parameter is:
@@ -27,11 +28,11 @@ xs.sheet.updateHighlightStyle(style)
 ```
 
 
--  Deshabilitar resaltado en la hoja de trabajo activa
+- Deshabilitar resaltado en la hoja de cálculo activa    
 ```javascript
 xs.sheet.hideHighlights()
 ```
--  Agregue texto de celda para resaltar en la hoja de trabajo activa
+- Agregar texto de celda para resaltar en la hoja de cálculo activa 
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -42,7 +43,7 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
     //it support multiple range postion inside one cell
 ```
 
--  Eliminar resaltado del texto de la celda en una matriz en la hoja de trabajo activa
+- Eliminar resaltado para texto de celda en matriz en la hoja de cálculo activa 
 ```javascript
 xs.sheet.removeHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -52,12 +53,12 @@ xs.sheet.removeHighlightText(row,col,startpostion,endposition)
 	endpostion: highlight end postion in cell text 
 ```
 
-- Obtenga una matriz para resaltar el texto de la celda en la hoja de trabajo activa
+- Obtener matriz para resaltar texto de celda en la hoja de cálculo activa   
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
--  Agregar rango de celdas para resaltar en la hoja de trabajo activa
+- Agregar rango de celdas para resaltar en la hoja de cálculo activa 
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
@@ -67,7 +68,7 @@ xs.sheet.addHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Eliminar resaltado del rango de celdas en una matriz en la hoja de trabajo activa
+- Eliminar resaltado para rango de celdas en matriz en la hoja de cálculo activa 
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
@@ -77,12 +78,12 @@ xs.sheet.removeHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Obtenga una matriz para resaltar el rango de celdas en la hoja de trabajo activa
+- Obtener matriz para resaltar rango de celdas en la hoja de cálculo activa   
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
--  Establezca el rango de celdas para invertir el resaltado en la hoja de trabajo activa
+- Establecer rango de celdas para resaltar inversamente en la hoja de cálculo activa 
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
@@ -92,38 +93,38 @@ xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Eliminar resaltado para resaltado inverso en la hoja de trabajo activa
+- Quitar resaltado para resaltar inversamente en la hoja de cálculo activa 
 ```javascript
 xs.sheet.removeHighlightInverseRange()
-     
+
 ```
 
--  Obtenga el rango de celdas de resaltado inverso en la hoja de trabajo activa
+- Obtener rango de celdas de resaltado inverso en la hoja de cálculo activa 
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
--  Agregue forma para resaltar la matriz en la hoja de trabajo activa
+- Agregar forma al conjunto de resaltado en la hoja de cálculo activa 
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Eliminar la forma resaltada en una matriz en la hoja de trabajo activa
+- Quitar forma resaltada en conjunto en la hoja de cálculo activa 
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Obtener matriz para resaltar la forma en la hoja de trabajo activa
+- Obtener arreglo de formas resaltadas en la hoja de cálculo activa  
 ```javascript
 xs.sheet.getHighlightShaps()
 ```
 
--  Agregue un cuadro de texto para resaltar, el cuadro de texto es un tipo especial de forma cuya propiedad de tipo es: "Cuadro de texto", en la hoja de trabajo activa
+- Agregar cuadro de texto para resaltar, el cuadro de texto es un tipo especial de forma cuya propiedad de tipo es :"TextBox", en la hoja de cálculo activa 
 ```javascript
 xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -134,7 +135,7 @@ xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
 ```
 
 
--  Elimine el rango resaltado en el cuadro de texto, el cuadro de texto es un tipo especial de forma cuya propiedad de tipo es: "Cuadro de texto", en la hoja de trabajo activa
+- Quitar rango resaltado en el cuadro de texto, el cuadro de texto es un tipo especial de forma cuya propiedad de tipo es :"TextBox", en la hoja de cálculo activa 
 ```javascript
 xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -144,26 +145,26 @@ xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     //it support multiple range postion inside one textbox
 ```
 
--  Agregue una imagen para resaltar la matriz en la hoja de trabajo activa
+- Agregar imagen al conjunto de resaltado en la hoja de cálculo activa 
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
-- Eliminar la imagen resaltada en una matriz en la hoja de trabajo activa
+- Quitar imagen resaltada en conjunto en la hoja de cálculo activa 
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--  Obtener matriz para imagen resaltada
+- Obtener arreglo de imágenes resaltadas  
 ```javascript
 xs.sheet.getHighlightImages()
 ```
 
--  establezca si se resaltarán todos los objetos en la hoja de trabajo activa, incluirá todas las formas e imágenes y toda el área de la hoja de trabajo
+- Establecer si resaltar todos los objetos en la hoja de cálculo activa, incluyendo todas las formas e imágenes y toda el área de la hoja de cálculo
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -172,7 +173,7 @@ xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
 ```
 
 
--  Establecer función de resaltado de imagen personalizada
+- Establecer función de resaltado de imagen personalizada
 ```javascript
 xs.sheet.setCustomHighlightImgFunc(func)
    // the parameters are:
@@ -183,18 +184,18 @@ xs.sheet.setCustomHighlightImgFunc(func)
             imgobj.filters[0] = ishighlight ? new fabric.Image.filters.Sepia() : false;
             imgobj.applyFilters();
         }
-    
+
 ```
 
--  configuración clara de resaltado para la hoja de trabajo activa
+- Borrar configuración de resaltado para la hoja de cálculo activa
 ```javascript
 xs.sheet.clearHighlights()
 
 ```
 
-###  Resaltado para objeto de cuadro de texto
-El cuadro de texto es un tipo especial de forma cuya propiedad de tipo es: "Cuadro de texto",
-por ejemplo: el siguiente código mostrará qué forma es el cuadro de texto
+### Resaltar para objeto cuadro de texto
+el cuadro de texto es un tipo especial de forma cuya propiedad de tipo es :"TextBox",
+por ejemplo: el código a continuación mostrará qué forma es cuadro de texto
 
 ```javascript
 for (let shape of xs.sheet.data.shapes) {
@@ -203,7 +204,7 @@ for (let shape of xs.sheet.data.shapes) {
     }
 }
 ```
--  Agregar resaltado para el objeto de cuadro de texto
+- Agregar resaltado para objeto cuadro de texto
 ```javascript
     addHighlight(startpostion,endposition)
     // the parameters are:
@@ -218,7 +219,7 @@ const textbox=xs.sheet.data.shapes[0];
  textbox.addHighlight(18,28);
 ```
 
--  Eliminar resaltado del objeto de cuadro de texto
+- Quitar resaltado para objeto cuadro de texto 
 ```javascript
     removeHighlight(startpostion,endposition)
     // the parameters are:
@@ -229,7 +230,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.removeHighlight(5,10);
 ```
 
--  Obtener resaltado para el objeto de cuadro de texto
+- Obtener resaltado para objeto cuadro de texto 
 ```javascript
     getHighlight()
     //for example,we assume shape 0 is a textbox object
@@ -237,29 +238,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.getHighlight();
 ```
 
--  Cambiar el color de fondo del objeto del cuadro de texto
-```javascript
-    setBackgroundColor(color)
-    // the parameters are:
-        color: the html color value in hex string value
-    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
-     const textbox=xs.sheet.data.shapes[0];
-     textbox.setBackgroundColor('#FFFF00');
-```
--  Cambie automáticamente el color de fondo y el color del texto para obtener un efecto visual activo
-```javascript
-    setActiveEffect(boolvalue)
-    // the parameters are:
-        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
-```
-
--  ocultar/mostrar el contenido del texto en el objeto del cuadro de texto
-```javascript
-    hideText(boolvalue)
-    // the parameters are:
-        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
-```
 
 
 
-Puede encontrar más en nuestra página de demostración de github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+Puede encontrar más en nuestra página de demostración en GitHub https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

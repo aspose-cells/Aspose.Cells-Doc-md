@@ -1,12 +1,13 @@
-﻿---
-title: Reemplazar texto en un libro de trabajo usando expresiones regulares
+---
+title: Reemplazar texto en un libro usando expresiones regulares
 type: docs
 weight: 90
 url: /es/java/replace-text-in-a-workbook-using-regular-expression/
 ---
-Aspose.Cells proporciona la función para reemplazar texto en un libro de trabajo usando una expresión regular. Para esto, el API proporciona[**Clave Regex**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)propiedad de la[**Opciones de reemplazo**](https://reference.aspose.com/cells/java/com.aspose.cells/ReplaceOptions)clase. Configuración de la[**Clave Regex**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)a**verdadero**indica que la clave buscada será una expresión regular.
 
-El siguiente fragmento de código demuestra el uso de la[**Clave Regex**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey)propiedad usando el[ejemplo de archivo de Excel](SampleRegexReplace.xlsx). Él[archivo de salida](RegexReplace_out.xlsx)generado por el siguiente fragmento de código se adjunta como referencia.
+Aspose.Cells proporciona la función para reemplazar texto en un libro usando una expresión regular. Para ello, la API proporciona la propiedad [**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey) de la clase [**ReplaceOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ReplaceOptions). Establecer la [**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey) como **true** indica que la clave buscada será una expresión regular.
+
+El siguiente fragmento de código muestra el uso de la propiedad [**RegexKey**](https://reference.aspose.com/cells/java/com.aspose.cells/replaceoptions#RegexKey) usando el [archivo de Excel de ejemplo](SampleRegexReplace.xlsx). Se adjunta el [archivo de salida](RegexReplace_out.xlsx) generado por el siguiente fragmento de código para referencia.
 
 ## **Código de muestra**
 

@@ -1,13 +1,14 @@
-﻿---
-title: Stellen Sie den Arbeitsblatt-Zoomfaktor ein
+---
+title: Arbeitsblatt Zoomfaktor festlegen
 type: docs
 weight: 80
 url: /de/net/set-worksheet-zoom-factor/
 ---
-## **Aspose.Cells - Stellen Sie den Arbeitsblatt-Zoomfaktor ein**
+
+## **Aspose.Cells - Arbeitsblatt-Zoomfaktor festlegen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -30,7 +31,7 @@ workbook.Save("../../data/newWorksheet.xls");
 ## **NPOI - HSSF XSSF - Arbeitsblatt-Zoomfaktor festlegen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -45,13 +46,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Stellen Sie den Arbeitsblatt-Zoomfaktor ein** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Arbeitsblatt-Zoomfaktor festlegen** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Zoom.Factor.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Arbeiten mit Arbeitsblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Für weitere Details besuchen Sie [Arbeiten mit Tabellenblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

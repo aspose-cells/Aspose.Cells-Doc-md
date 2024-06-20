@@ -1,15 +1,18 @@
 ---
-title: İşleme Dilimleyici
+title: Süzgeci Rendering Etme
 type: docs
 weight: 40
 url: /tr/python-net/rendering-slicer/
+description: Aspose.Cells for Python via .NET ile dilimleyiciyi nasıl oluşturacağınızı öğrenin.
+keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, Excel siz Python da dilimleyici renderlama, Aspose.Cells for Python ile Dilimleyici Renderlama.
 ---
-##  **Olası Kullanım Senaryoları**
-Aspose.Cells for Python via .NET, dilimleyici şeklinin oluşturulmasını destekler. Çalışma sayfanızı görsele dönüştürdüğünüzde veya çalışma kitabınızı PDF veya HTML formatlarında kaydettiğinizde dilimleyicilerin düzgün bir şekilde işlendiğini göreceksiniz.
 
-##  **İşleme Dilimleyici**
-Aşağıdaki örnek kod,[örnek Excel dosyası](67338479.xlsx) mevcut bir dilimleyiciyi içerir. Yalnızca dilimleyiciyi kaplayan yazdırma alanını ayarlayarak çalışma sayfasını görüntüye dönüştürür. Akan görüntü budur[çıktı resmi](67338480.png) bu, işlenmiş dilimleyiciyi gösterir. Gördüğünüz gibi dilimleyici düzgün bir şekilde oluşturuldu ve örnek Excel dosyasındakiyle aynı görünüyor.
+## **Olası Kullanım Senaryoları**
+Aspose.Cells for Python via .NET, dilimleyici şeklinin oluşturulmasını destekler. Eğer çalışma sayfanızı bir görüntüye dönüştürür veya çalışma kitabınızı PDF veya HTML biçimlerinde kaydeder, dilimleyicilerin düzgün bir şekilde render edildiğini göreceksiniz.
 
-![yapılacak şey:image_alt_text](rendering-slicer_1)
-##  **Basit kod**
+## **Aspose.Cells for Python Excel Kütüphanesi ile Dilimleyiciyi Nasıl Render Ederiz**
+Aşağıdaki örnek kod, var olan bir süzgeç içeren [örnek Excel dosyasını](67338479.xlsx) yükler. Sadece süzgeci kapsayan baskı alanını ayarlayarak çalışma sayfasını bir resme dönüştürür. Aşağıdaki görsel, oluşturulan [çıktı görüntüsü](67338480.png) görüntülenen süzgeci gösterir. Görebileceğiniz gibi, süzgeç düzgün bir şekilde görüntülenmiş ve örnek Excel dosyasındaki gibi gözükmektedir.
+
+![todo:image_alt_text](rendering-slicer_1)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-RenderingSlicer.py" >}}

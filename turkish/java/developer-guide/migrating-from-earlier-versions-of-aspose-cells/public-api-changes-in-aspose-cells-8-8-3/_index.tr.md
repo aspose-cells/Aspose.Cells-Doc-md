@@ -1,17 +1,18 @@
-﻿---
-title: Genel API Aspose.Cells 8.8.3'teki değişiklikler
+---
+title: Aspose.Cells 8.8.3 te Genel API Değişiklikleri
 type: docs
 weight: 300
 url: /tr/java/public-api-changes-in-aspose-cells-8-8-3/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 8.8.2 sürümünden 8.8.3 sürümüne Aspose.Cells API üzerindeki değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, modül/uygulama geliştiricileri için Aspose.Cells API'sinde 8.8.2'den 8.8.3'e yapılan değişiklikleri açıklar. Yeni ve güncellenmiş genel yöntemler, eklenen ve kaldırılan sınıflar vb. yanı sıra Aspose.Cells arkasındaki davranışlardaki değişikliklerin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **ActiveX Denetimleri için Destek**
-Aspose.Cells for Java 8.8.3, ShapeCollection'a bir ActiveX denetimi eklemeye izin veren addActiveXControl yöntemini kullanıma sundu. Yukarıda belirtilen yöntem, kontrol tipini, kontrolün yerleştirileceği yeri ve kontrolün boyutunu belirtmek için 7 parametre gerektirir. Tip, aşağıdaki olası değerlerle ControlType numaralandırması kullanılarak belirtilebilir.
+## **Eklenen API'lar**
+### **ActiveX Kontrollerini Destekleme**
+Aspose.Cells for Java 8.8.3, ShapeCollection'e bir ActiveX kontrolü eklemeye izin veren addActiveXControl yöntemini açığa çıkardı. Söz konusu yöntem, kontrol türünü, kontrolü yerleştirmek için konumu ve kontrolün boyutunu belirtmek için 7 parametreyi gerektirir. Tür, ControlType numaralandırmasını, aşağıdaki olası değerleri kullanarak belirtilebilir.
 
 1. ControlType.CHECK_BOX
 1. ControlType.COMBO_BOX
@@ -28,15 +29,15 @@ Aspose.Cells for Java 8.8.3, ShapeCollection'a bir ActiveX denetimi eklemeye izi
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Çalışma Sayfasına ActiveX Denetimleri Ekleme](/cells/tr/java/add-activex-controls-using-aspose-cells/).
+Bu özellikle ilgili daha fazla bilgi için lütfen [Worksheet'e ActiveX Kontrolleri Ekleme](/cells/tr/java/add-activex-controls-using-aspose-cells/) başlıklı detaylı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -62,19 +63,19 @@ book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
 ### **LoadOptions.setPaperSize Yöntemi Eklendi**
-Aspose.Cells for Java 8.8.3, aşağıda gösterildiği gibi yeni kullanıma sunulan LoadOptions.setPaperSize yöntemini kullanırken varsayılan yazıcının ayarından varsayılan baskı kağıdı boyutunun ayarlanmasına izin verir. Lütfen yukarıda belirtilen yöntemin giriş parametresinin, önceden tanımlanmış kağıt boyutlarını içeren PaperSizeType numaralandırmasından gelen değer olduğunu unutmayın.
+Aspose.Cells for Java 8.8.3, varsayılan baskı kağıdı boyutunu varsayılan yazıcının ayarlarından ayarlamak için yeni ortaya çıkarılan LoadOptions.setPaperSize yöntemine izin verir. Lütfen dikkat, söz konusu yönteme gelen giriş parametresi, önceden tanımlanmış kağıt boyutlarını içeren PaperSizeType numaralandırmasından gelen değerdir.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Elektronik Tabloları Belirtilen Kağıt Boyutuyla Yükleyin](/cells/tr/java/load-workbook-with-specified-printer-paper-size/).
+Bu özellikle ilgili daha fazla bilgi için lütfen [Belirli Kağıt Boyutu ile Elektronik Tablo Yükleme](/cells/tr/java/load-workbook-with-specified-printer-paper-size/) başlıklı detaylı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions
 
@@ -89,12 +90,12 @@ loadOptions.setPaperSize(PaperSizeType.PAPER_A_4);
 Workbook book = new Workbook(dir + "input.xlsx", loadOptions);
 
 {{< /highlight >}}
-### **Cell.getCharacters(flag) Yöntemi Eklendi**
-Aspose.Cells API'leri, Cell.getCharacters yöntemini kullanarak karakter nesnelerini FontSetting dizisi biçiminde almaya izin verir. Bu sürümle birlikte, Aspose.Cells for Java API, Cell.getCharacters'ın Boolean'ı parametre olarak kabul edebilen aşırı yüklenmiş bir sürümünü kullanıma sunmuştur; bu, hücre bir ListObject'in parçasıysa tablo stilinin hücreye uygulanması gerekip gerekmediğini belirtir.
+### **Added Cell.getCharacters(flag) Method**
+Aspose.Cells API'leri, Cell.getCharacters yöntemini kullanarak FontSetting dizisi olarak karakter nesnelerini almayı sağlar. Bu sürümle birlikte, Aspose.Cells for Java API, hücrenin bir ListObject'un parçası olup olmadığını gösteren bir Boolean parametresini kabul edebilen Cell.getCharacters'ın aşırı yüklenmiş bir sürümünü ortaya çıkardı.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -116,23 +117,23 @@ Cell cell = cells.get("A1");
 
 //Get all Characters objects from the cell
 
-FontSetting[]characters = cell.getCharacters(true);
+FontSetting[] characters = cell.getCharacters(true);
 
 {{< /highlight >}}
-### **OleObject.AutoLoad Özelliği Eklendi**
-Aspose.Cells for Java 8.8.3, temel alınan nesnenin içeriği/verileri değiştirilmişse OleObject görüntüsünün yenilenmesine izin veren OleObject.AutoLoad özelliğini ortaya çıkardı. Yukarıda belirtilen özellik, true olarak ayarlandığında, sonuç elektronik tablosu yüklendiğinde Excel uygulamasını OleObject'in görüntüsünü yenilemeye zorlar.
+### **Added OleObject.AutoLoad Property**
+Aspose.Cells for Java 8.8.3, OleObject.AutoLoad özelliğini açığa çıkardı; bu özellik, temel nesnenin içeriği / verileri değiştiğinde OleObject'in görüntüsünü yenilemeyi sağlar. Söz konusu özellik true olarak ayarlandığında, API, sonuçlandırma elek tablosu yüklendiğinde OleObject'in görüntüsünü yenilemeye zorlar.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[OleObjects'i Otomatik Olarak Yenile](/cells/tr/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
+Bu özellikle ilgili daha fazla bilgi için [OleObjects Otomatik Yenile] başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -155,20 +156,20 @@ OleObject oleObject = oleObjects.get(0);
 oleObject.setAutoLoad(true);
 
 {{< /highlight >}}
-### **HTMLLoadOptions.SupportDivTag Özelliği eklendi**
-Aspose.Cells for Java 8.8.3, Aspose.Cells nesne modelinde HTML dosya/snippet yüklerken TD etiketlerine gömülü DIV etiketlerinin ayrıştırılmasına izin veren HTMLLoadOptions.SupportDivTag özelliğini kullanıma sundu. Boole tipi özelliğinin varsayılan değeri false'tur.
+### **Added HTMLLoadOptions.SupportDivTag Property**
+Aspose.Cells for Java 8.8.3, HTMLLoadOptions.SupportDivTag özelliğini açığa çıkardı; bu özellik, Aspose.Cells nesne modelindeki HTML dosyalarını/snippet'leri yüklerken TD etiketlerine gömülü DIV etiketlerini ayrıştırmayı sağlar. Boolean tipi özelliğin varsayılan değeri false'dur.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Yükleme Sırasında Dahili DIV Etiketlerini Destekleyin HTML](/cells/tr/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+Bu özellikle ilgili daha fazla bilgi için [HTML Yüklenirken İçe Gömülü DIV Etiketlerini Destekleme] başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Store the HTML snippet in a variable
 
@@ -251,20 +252,20 @@ Workbook book = new Workbook(stream, loadOptions);
 book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **HtmlSaveOptions.ExportGridLines Özelliği Eklendi**
-Aspose.Cells for Java 8.8.3, elektronik tabloyu HTML formatına dışa aktarırken ızgara çizgilerini oluşturmaya izin veren HtmlSaveOptions.ExportGridLines özelliğini ortaya çıkardı. Boole türü özelliğinin varsayılan değeri false'tur, ancak true olarak ayarlandığında API, kullanılabilir veri aralığı için kılavuz çizgilerini HTML biçiminde işler.
+### **Added HtmlSaveOptions.ExportGridLines Property**
+Aspose.Cells for Java 8.8.3, HtmlSaveOptions.ExportGridLines özelliğini açığa çıkardı; bu özellik, elek tablosunun HTML biçimine dışa aktarılırken ızgaraların görüntülenmesine izin verir. Boolean tipi özelliğin varsayılan değeri false'dur, ancak true olarak ayarlandığında API, HTML biçiminde mevcut veri aralığı için ızgaraları oluşturur.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Izgara Çizgilerini HTML'e Dönüştür](/cells/tr/java/export-excel-to-html-with-gridlines/).
+Bu özellikle ilgili daha fazla bilgi için [HTML'ye Izgara Çizgilerini Yansıtma] başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load existing spreadsheet
 
@@ -283,20 +284,20 @@ options.setExportGridLines(true);
 book.save(dir + "output.html", options);
 
 {{< /highlight >}}
-### **ListObject.Comment Özelliği Eklendi**
-Aspose.Cells API'ler artık bir ListObject örneği için yorumların alınmasına ve ayarlanmasına izin veriyor. Yukarıda belirtilen özelliği sağlamak için Aspose.Cells API'leri ListObject.Comment özelliğini kullanıma sunmuştur.
+### **Added ListObject.Comment Property**
+Aspose.Cells API'leri artık bir ListObject'in yorumlarını alıp ayarlamayı sağlar. Yukarıda bahsedilen özelliği sağlamak için, Aspose.Cells API'leri ListObject.Comment özelliğini açığa çıkardı.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[ListObjects için Yorum Ekleme](/cells/tr/java/set-the-comment-of-table-or-list-object/).
+Bu özellikle ilgili daha fazla bilgi için [ListObjectlere Yorumlar Ekleme] başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load existing spreadsheet
 
@@ -319,6 +320,6 @@ listObject.setComment("Comments");
 book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
-## **Kaldırılan API'ler**
-### **Workbook.decrypt Yöntemi Kaldırıldı**
-Söz konusu mülk bir süre önce eski olarak işaretlendi. Bu sürüm, onu genel kullanımdan tamamen kaldırdı API. Aynı hedefe ulaşmak için WorkbookSettings.Password özelliğinin null olarak ayarlanması tavsiye edilir.
+## **Removed APIs**
+### **Removed Workbook.decrypt Method**
+Söz konusu özellik bir süre önce eski olarak işaretlendi. Bu sürümde, söz konusu özelliği tamamen halka açık API'den kaldırdı. Aynı hedefe ulaşmak için WorkbookSettings.Password özelliğini null olarak ayarlamak tavsiye edilir.

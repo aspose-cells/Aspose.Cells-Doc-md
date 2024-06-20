@@ -1,14 +1,15 @@
-﻿---
-title: ワークブック内でワークシートをコピーする
+---
+title: ブック内のワークシートをコピー
 type: docs
 weight: 20
 url: /ja/net/copy-worksheets-within-a-workbook/
 ---
-**Aspose.Cells**オーバーロードされたメソッドを提供し、**Aspose.Cells.WorksheetCollection.AddCopy()**、ワークシートをコレクションに追加し、既存のワークシートからデータをコピーするために使用されます。メソッドの 1 つのバージョンは、ソース ワークシートのインデックスをパラメーターとして受け取ります。もう 1 つのバージョンは、ソース ワークシートの名前をパラメーターとして受け取ります。
 
-次の例は、ブック内の既存のワークシートをコピーする方法を示しています。
+**Aspose.Cells**は、**Aspose.Cells.WorksheetCollection.AddCopy()**というオーバーロードされたメソッドを提供し、ワークシートをコレクションに追加し、既存のワークシートからデータをコピーするために使用されます。メソッドの1つのバージョンはソースワークシートのインデックスをパラメータとして取ります。もう1つのバージョンは、ソースワークシートの名前をパラメータとして取ります。
 
-{{< highlight "csharp" >}}
+次の例は、ブック内で既存のワークシートをコピーする方法を示しています。
+
+{{< highlight csharp >}}
 
  //Create a new Workbook.
 
@@ -34,5 +35,5 @@ wb.Save("Copy Worksheet.xls");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Worksheet%20%28Aspose.Cells%29.zip)

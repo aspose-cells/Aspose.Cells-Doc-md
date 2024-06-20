@@ -1,10 +1,11 @@
-﻿---
-title: Aspose.Cells for Android via Java Sınırlamalar ve API Farklar
+---
+title: Aspose.Cells for Android via Java Sınırlamaları ve API Farklılıkları
 type: docs
 weight: 10
 url: /tr/java/aspose-cells-for-android-via-java-limitations-and-api-differences/
 ---
-## **Aspose.Cells for Android via Java API ile Aspose.Cells for Java API arasındaki sınırlamalar**
+
+## **Aspose.Cells for Java API'sine göre Aspose.Cells for Android via Java API Sınırlamaları**
 1. WorkbookRender desteklenmiyor.
-1. TIFF ve GIF biçimlerinde kaydetme desteklenmez.
+1. TIFF ve GIF formatlarında kaydetme desteklenmiyor.
 1. Yazdırma desteklenmiyor.

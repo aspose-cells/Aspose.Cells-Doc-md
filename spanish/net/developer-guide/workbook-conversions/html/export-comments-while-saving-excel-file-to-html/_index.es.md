@@ -1,18 +1,19 @@
-﻿---
-title: Exportar comentarios mientras se guarda el archivo de Excel en HTML
+---
+title: Exportar Comentarios al Guardar Archivo Excel en HTML
 type: docs
 weight: 40
 url: /es/net/export-comments-while-saving-excel-file-to/
 ---
-## **Posibles escenarios de uso**
 
-Cuando guarda su archivo de Excel en HTML, los comentarios no se exportan. Sin embargo, Aspose.Cells proporciona esta característica usando el[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/) propiedad. si lo configuras**verdadero**entonces HTML también mostrará los comentarios presentes en su archivo de Excel.
+## **Escenarios de uso posibles**
 
-## **Exportar comentarios mientras se guarda el archivo de Excel en HTML**
+Cuando guarda su archivo de Excel en HTML, los comentarios no se exportan. Sin embargo, Aspose.Cells proporciona esta función utilizando la propiedad [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/). Si la configura en **verdadero**, entonces HTML también mostrará los comentarios presentes en su archivo de Excel.
 
-El siguiente código de ejemplo explica el uso de[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)propiedad. La captura de pantalla muestra el efecto del código en el HTML cuando está configurado para**verdadero** . Por favor descarga el[ejemplo de archivo de Excel](50528260.xlsx) y el[generado HTML](5052826.txt) para una referencia.
+## **Exportar comentarios al guardar archivo de Excel como HTML**
 
-![todo:imagen_alternativa_texto](export-comments-while-saving-excel-file-to-html_1.png)
+El siguiente código de muestra explica el uso de la propiedad [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/). La captura de pantalla muestra el efecto del código en el HTML cuando está establecido en **verdadero**. Descargue el [archivo de Excel de muestra](50528260.xlsx) y el [HTML generado](5052826.txt) para referencia.
+
+![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 
 ## **Código de muestra**
 

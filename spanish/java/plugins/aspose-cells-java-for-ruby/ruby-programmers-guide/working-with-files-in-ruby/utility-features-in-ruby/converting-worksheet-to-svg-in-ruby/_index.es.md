@@ -1,37 +1,38 @@
-﻿---
-title: Conversión de hoja de trabajo a SVG en Ruby
+---
+title: Convertir hoja de trabajo a SVG en Ruby
 type: docs
 weight: 70
 url: /es/java/converting-worksheet-to-svg-in-ruby/
 ---
-## **Aspose.Cells - Hoja de trabajo de conversión a SVG**
-Para convertir Worksheet a SVG usando Aspose.Cells for Java en Ruby, simplemente invoque worksheet_a_Método svg() del módulo Converter.
 
-**código rubí**
+## **Aspose.Cells - Convertir hoja de trabajo a SVG**
+Para convertir una Hoja de cálculo a SVG usando Aspose.Cells for Java en Ruby, simplemente invoque el método worksheet_to_svg() del módulo Convertidor.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
 
- hoja de trabajo de definición_a_svg (libro de trabajo)
+{{< highlight ruby >}}
 
-# Convierta cada hoja de trabajo en formato svg en una sola página.
+ def worksheet_to_svg(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').nuevo
+    # Convert each worksheet into svg format in a single page.
 
-save_format = Rjb::import('com.aspose.cells.SaveFormat')
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
-imagen_opciones.setSaveFormat(guardar_formato.SVG)
+    save_format = Rjb::import('com.aspose.cells.SaveFormat')
 
-img_options.setOnePagePerSheet(verdadero)
+    img_options.setSaveFormat(save_format.SVG)
+
+    img_options.setOnePagePerSheet(true)
 
 
 
-# Convierta cada hoja de trabajo en formato svg
+    # Convert each worksheet into svg format
 
-sheet_count = libro de trabajo.getWorksheets().getCount()
+    sheet_count = workbook.getWorksheets().getCount()
 
-yo=0
+    i=0
 
- mientras yo< sheet_count
+    while i < sheet_count
 
         sheet = workbook.getWorksheets().get(i)
 
@@ -54,7 +55,7 @@ yo=0
 end 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Conversión de hoja de trabajo a SVG (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Conversión de Hoja de cálculo a SVG (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

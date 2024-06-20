@@ -1,35 +1,36 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.3.2
+---
+title: Cambios en la API Pública en Aspose.Cells 8.3.2
 type: docs
 weight: 130
 url: /es/java/public-api-changes-in-aspose-cells-8-3-2/
 ---
-{{% alert color="primary" %}} 
-
- Este documento describe los cambios al Aspose.Cells API de la versión 8.3.1 a la 8.3.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados,[Clases añadidas, etc.](/cells/es/java/public-api-changes-in-aspose-cells-8-3-2/) y[clases eliminadas, etc.](/cells/es/java/public-api-changes-in-aspose-cells-8-3-2/), pero también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
-
-{{% /alert %}} 
-## **API añadidas**
-### **Mecanismo para establecer la posición absoluta de PivotItem**
- Para proporcionar la característica[Posicionamiento absoluto de PivotItem](/cells/es/java/specifying-the-absolute-position-of-the-pivot-item/), el Aspose.Cells for Java 8.3.2 ha expuesto una serie de propiedades y un método como se indica a continuación.
-
-- PivotItem.setPosition se puede usar para establecer el índice de posición en todos los PivotItems independientemente del nodo principal.
-- PivotItem.setPositionInSameParentNode se puede usar para establecer el índice de posición en PivotItems en el mismo nodo principal.
-- El método PivotItem.move(int count, bool isSameParent) se puede usar para mover el elemento hacia arriba o hacia abajo en función del valor de conteo, donde count es el número de posición para mover el PivotItem hacia arriba o hacia abajo. Si el valor de conteo es menor que cero, el elemento se moverá hacia arriba donde, como si el valor de conteo fuera mayor que cero, PivotItem se moverá hacia abajo, el parámetro de tipo booleano isSameParent especifica si la operación de movimiento debe realizarse en el mismo nodo principal O no.
 
 {{% alert color="primary" %}} 
 
-Tenga en cuenta que es necesario llamar a los métodos PivotTable.refreshData y PivotTable.calculateData antes de usar las propiedades PivotItem.setPosition, PivotItem.setPositionInSameParentNode y el método PivotItem.move(int count, bool isSameParent).
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.3.1 a la 8.3.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo nuevos y actualizados métodos públicos, [clases agregadas, etc.](/cells/es/java/cambios-en-la-api-publica-en-aspose-cells-8-3-2/) y [clases removidas, etc.](/cells/es/java/cambios-en-la-api-publica-en-aspose-cells-8-3-2/), sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-### **Línea de firma de clase agregada**
-Aspose.Cells 8.3.2 proporciona soporte para Signature Line para imitar la función equivalente de MS Excel. Esta versión ha expuesto la clase SignatureLine y la propiedad Picture.SignatureLine para este propósito.
+## **APIs Añadidas**
+### **Mecanismo para Establecer la Posición Absoluta de un Elemento de un Informe de Tabla Dinámica**
+Para proporcionar la función [Posicionamiento Absoluto del Elemento de un Informe de Tabla Dinámica](/cells/es/java/especificar-la-posicion-absoluta-del-elemento-de-informe-de-tabla-dinamica/), la Aspose.Cells for Java 8.3.2 ha expuesto una serie de propiedades y un método como se enumera a continuación.
 
-El siguiente código de ejemplo agrega una línea de firma mediante la propiedad Picture.SignatureLine al libro de trabajo.
+- PivotItem.setPosition se puede utilizar para establecer el índice de posición en todos los PivotItems independientemente del nodo padre.
+- PivotItem.setPositionInSameParentNode se puede utilizar para establecer el índice de posición en los PivotItems ubicados bajo el mismo nodo padre.
+- El método PivotItem.move(int count, bool isSameParent) se puede utilizar para mover el ítem hacia arriba o hacia abajo basándose en el valor de count, donde count es el número de posiciones para mover el PivotItem hacia arriba o hacia abajo. Si el valor de count es menor que cero, el ítem se moverá hacia arriba, y si el valor de count es mayor que cero, el PivotItem se moverá hacia abajo. El parámetro booleano isSameParent especifica si la operación de movimiento se debe realizar en el mismo nodo padre o no.
+
+{{% alert color="primary" %}} 
+
+Ten en cuenta que es necesario llamar a los métodos PivotTable.refreshData y PivotTable.calculateData antes de usar las propiedades PivotItem.setPosition, PivotItem.setPositionInSameParentNode y el método PivotItem.move(int count, bool isSameParent).
+
+{{% /alert %}} 
+### **Clase SignatureLine Agregada**
+Aspose.Cells 8.3.2 proporciona soporte para la Línea de Firma para imitar la característica equivalente de MS Excel. Esta versión ha expuesto la clase SignatureLine y la propiedad Picture.SignatureLine para este propósito.
+
+El siguiente código de ejemplo agrega una Línea de Firma utilizando la propiedad Picture.SignatureLine al libro de trabajo.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -58,14 +59,14 @@ s.setEmail("john.doe@aspose.com");
 pic.setSignatureLine(s);
 
 {{< /highlight >}}
-### **Método Chart.hasAxis agregado**
-Con el lanzamiento de v8.3.2, Aspose.Cells API ha proporcionado el método Chart.hasAxis(AxisType axisType, bool isPrimary) para determinar si el gráfico tiene un eje en particular o no.
+### **Método Chart.hasAxis Agregado**
+Con el lanzamiento de la v8.3.2, la API de Aspose.Cells ha proporcionado el método Chart.hasAxis(AxisType axisType, bool isPrimary) para determinar si el gráfico tiene un eje particular o no.
 
-El siguiente código de ejemplo demuestra el uso del método Chart.hasAxis para determinar si el gráfico de ejemplo tiene eje primario, secundario y de valor.
+El siguiente código de ejemplo demuestra el uso del método Chart.hasAxis para determinar si el gráfico de ejemplo tiene ejes Primario, Secundario y de Valor.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -98,12 +99,12 @@ ret = chart.hasAxis(AxisType.VALUE, false);
 System.out.println("Has Seconary Value Axis: " + ret);
 
 {{< /highlight >}}
-### **Método WorkbookSettings.checkWriteProtectedPassword agregado**
+### **Método WorkbookSettings.checkWriteProtectedPassword Agregado**
 El método WorkbookSettings.checkWriteProtectedPassword permite a los desarrolladores verificar si una contraseña dada para modificar la hoja de cálculo es correcta o no.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify password to open inside the load options
 
@@ -122,14 +123,14 @@ boolean ret = workbook.checkWriteProtectedPassword("567");
 System.out.println("Is 567 correct Password to modify: " + ret);
 
 {{< /highlight >}}
-### **Métodos de sobrecarga WorkbookRender.toPrinter y SheetRender.toPrinter agregados**
-Aspose.Cells 8.3.2 ha proporcionado los métodos WorkbookRender.toPrinter(string printerName, int printPageIndex, int printPageCount) y SheetRender.toPrinter(string printerName, int printPageIndex, int printPageCount) para imprimir el rango de páginas del libro y la hoja de trabajo respectivamente.
+### **Se añadieron los métodos de sobrecarga WorkbookRender.toPrinter y SheetRender.toPrinter**
+Aspose.Cells 8.3.2 ha proporcionado los métodos WorkbookRender.toPrinter y SheetRender.toPrinter para imprimir el rango de páginas de un libro y hoja de cálculo respectivamente.
 
-El siguiente código de ejemplo ilustra el uso de los métodos mencionados anteriormente para imprimir las páginas 2 a 5 del libro de trabajo y la hoja de trabajo.
+El siguiente código de muestra ilustra cómo utilizar los métodos mencionados anteriormente para imprimir las páginas 2-5 del libro y hoja de cálculo.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -156,30 +157,30 @@ SheetRender sr = new SheetRender(worksheet, new ImageOrPrintOptions());
 sr.toPrinter(printerName, 1, 4);
 
 {{< /highlight >}}
-### **Método Worksheet.refreshPivotTables añadido**
-El método recién agregado Worksheet.refreshPivotTables permite actualizar todas las tablas dinámicas en una hoja de cálculo determinada en una sola llamada.
+### **Se agregó el método Worksheet.refreshPivotTables**
+El nuevo método Worksheet.refreshPivotTables permite actualizar todas las tablas dinámicas en una hoja de cálculo en una sola llamada.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  worksheet.refreshPivotTables();
 
 {{< /highlight >}}
-### **Método Workbook.getNamedStyle agregado**
-Aspose.Cells 8.3.2 ha expuesto el método Workbook.getNamedStyle que acepta la cadena como parámetro y recupera el objeto Style en función del parámetro pasado.
-### **Método Cells.importTwoDimensionArray agregado**
-Aspose.Cells API ha hecho posible importar matrices bidimensionales a celdas de hojas de cálculo al exponer el método Cells.importTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). Dicho método importa una matriz de datos de dos dimensiones en una hoja de trabajo con opciones más flexibles definidas en TxtLoadOptions.
-### **Propiedades OnePagePerSheet, PageIndex y PageCount añadidas**
-Aspose.Cells for Java 8.3.2 ha expuesto las propiedades OnePagePerSheet, PageIndex y PageCount para la clase XpsSaveOptions. El usuario puede ajustar todo el contenido de una hoja de cálculo en una sola página de XPS usando la propiedad OnePagePerSheet y/o recuperar el número de páginas que se imprimirán usando la propiedad PageCount. La propiedad PageIndex obtiene/establece el índice basado en 0 de la primera página que se guardará.
-### **Propiedades NumberDecimalSeparator & NumberGroupSeparator añadido**
-Aspose.Cells for Java 8.3.2 ha introducido las propiedades NumberDecimalSeparator y NumberGroupSeparator que pueden obtener/establecer los separadores personalizados utilizados para formatear y analizar los valores numéricos en las hojas de cálculo.
+### **Se agregó el método Workbook.getNamedStyle**
+Aspose.Cells 8.3.2 ha expuesto el método Workbook.getNamedStyle que acepta una cadena como parámetro y recupera el objeto de estilo basado en el parámetro pasado.
+### **Se agregó el método Cells.importTwoDimensionArray**
+La API Aspose.Cells ha hecho posible importar matrices bidimensionales a las celdas de hojas de cálculo exponiendo el método Cells.importTwoDimensionArray.
+### **Se agregaron las propiedades OnePagePerSheet, PageIndex y PageCount**
+Aspose.Cells for Java 8.3.2 ha expuesto las propiedades OnePagePerSheet, PageIndex y PageCount para la clase XpsSaveOptions.
+### **Se agregaron las propiedades NumberDecimalSeparator y NumberGroupSeparator**
+Aspose.Cells for Java 8.3.2 ha introducido las propiedades NumberDecimalSeparator y NumberGroupSeparator que puede establecer los separadores personalizados utilizados para formatear y analizar los valores numéricos en hojas de cálculo.
 
-El siguiente código de ejemplo ilustra cómo especificar los separadores personalizados usando Aspose.Cells API. El siguiente código especifica los separadores Decimal y de Grupo personalizados como punto y espacio respectivamente.
+El siguiente código de muestra ilustra cómo especificar los separadores personalizados utilizando la API Aspose.Cells.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook();
 
@@ -190,12 +191,12 @@ workbook.getSettings().setNumberDecimalSeparator('.');
 workbook.getSettings().setNumberGroupSeparator(' ');
 
 {{< /highlight >}}
-### **Propiedad PdfSaveOptions.setFontSubstitutionCharGranularity agregada**
-Aspose.Cells for Java 8.3.2 ha expuesto la propiedad PdfSaveOptions.setFontSubstitutionCharGranularity para superar el problema en el que algunos caracteres Unicode no se pueden mostrar con una familia de fuentes específica. Cuando la propiedad PdfSaveOptions.setFontSubstitutionCharGranularity se establece en verdadero, solo la fuente del carácter específico que no se puede mostrar se cambiará a la fuente que se puede mostrar y el resto de la palabra u oración debe permanecer en la fuente original.
+### **Se agregó la propiedad PdfSaveOptions.setFontSubstitutionCharGranularity**
+Aspose.Cells for Java 8.3.2 ha expuesto la propiedad PdfSaveOptions.setFontSubstitutionCharGranularity para superar el problema de que algunos caracteres Unicode no pueden mostrarse utilizando una fuente específica.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Save to PDF after setting PdfSaveOptions.setFontSubstitutionCharGranularity
 
@@ -204,9 +205,9 @@ PdfSaveOptions opts = new PdfSaveOptions();
 opts.setFontSubstitutionCharGranularity(true);
 
 {{< /highlight >}}
-## **API eliminadas**
+## **APIs Eliminadas**
 ### **Métodos obsoletos eliminados**
-Los siguientes métodos se han eliminado del Público API.
+Los siguientes métodos han sido eliminados de la API pública.
 
 - Métodos Workbook.open y Workbook.save.
 - Método Workbook.setOleSize.
@@ -214,7 +215,7 @@ Los siguientes métodos se han eliminado del Público API.
 - Métodos WorkbookDesigner.open y WorkbookDesigner.save.
 - Método WorksheetCollection.deleteName.
 ### **Propiedades obsoletas eliminadas**
-Las siguientes propiedades han sido eliminadas del Público API.
+Las siguientes propiedades han sido eliminadas de la API pública.
 
 - Propiedad Workbook.isProtected.
 - Propiedad Workbook.Language.
@@ -225,7 +226,7 @@ Las siguientes propiedades han sido eliminadas del Público API.
 - Propiedad WorkbookSettings.ConvertNumericData.
 - Propiedad WorksheetCollection.HidePivotFieldList.
 - Propiedad WorksheetCollection.EnableHTTPCompression.
-- WorksheetCollection.isPropiedad minimizada.
+- Propiedad WorksheetCollection.isMinimized.
 - Propiedad WorksheetCollection.isHidden.
 - Propiedad WorksheetCollection.SheetTabBarWidth.
 - Propiedad WorksheetCollection.WindowLeft.
@@ -250,10 +251,10 @@ Las siguientes propiedades han sido eliminadas del Público API.
 - Propiedad SaveOptions.PdfBookmark.
 - Propiedad SaveOptions.PdfImageCompression.
 - Propiedad TxtSaveOptions.AlwaysQuoted.
-## **API obsoletas**
-### **Propiedad Workbook.saveOptions Obsoleto**
- Se debe pasar un objeto de SaveOptions al método Workbook.Save después de establecer las propiedades adecuadas de SaveOptions.
-### **Property Workbook.Styles & Class StyleCollection Obsoleto**
-Se recomienda usar el método Workbook.createStyle para crear y manipular el estilo para la instancia de Workbook en lugar de crear un estilo con el método StyleCollection.add. Además, el método Workbook.getNamedStyle(string) se puede usar para obtener un estilo con nombre en lugar de StyleCollection.get(string).
-### **Método PivotItem.move(int count) Obsoleto**
- Con el lanzamiento de Aspose.Cells 8.3.2, API introdujo otra sobrecarga del método PivotItem.move que acepta el parámetro entero para el parámetro de conteo y booleano para mover un PivotItem dentro del nodo principal.
+## **APIs obsoletas**
+### **Propiedad Workbook.saveOptions obsoleta.**
+Se debe pasar un objeto SaveOptions al método Workbook.Save después de configurar las propiedades adecuadas de SaveOptions. 
+### **Propiedades obsoletas Workbook.Styles y Class StyleCollection.**
+Se recomienda utilizar el método Workbook.createStyle para crear y manipular estilos en lugar de crear un Style con el método StyleCollection.add. Además, se puede utilizar el método Workbook.getNamedStyle(nombre) para obtener un estilo con nombre en lugar de StyleCollection.get(nombre).
+### **Método obsoleto PivotItem.move(int count).**
+Con el lanzamiento de Aspose.Cells 8.3.2, la API ha introducido otra sobrecarga del método PivotItem.move que acepta el parámetro entero para el conteo y un parámetro booleano para mover un PivotItem dentro del nodo padre. 

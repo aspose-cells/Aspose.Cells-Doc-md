@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells.GridDesktop - 桌面网格控件
+title: Aspose.Cells.GridDesktop  桌面网格控件
 type: docs
 weight: 30
 url: /zh/net/aspose-cells-griddesktop/features/

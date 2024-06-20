@@ -1,21 +1,22 @@
 ---
-title: Uppdaterar Slicer
+title: Uppdatera slicer
 type: docs
 weight: 50
 url: /sv/net/updating-slicer/
-description: Den här artikeln visar hur du uppdaterar länkade pivottabeller genom att uppdatera slicer med Aspose.Cells for .NET API.
-keywords: Aspose.Cells C# Update slicer, C# how to change the slicer, how to adjust the slicer in C#, how to select or unselect he slicer items.
+description: Den här artikeln visar hur du uppdaterar länkade pivottabeller genom att uppdatera snittet med hjälp av Aspose.Cells for .NET API et.
+keywords: Aspose.Cells C# Uppdatera snittet, C# hur man ändrar snittet, hur man justerar snittet i C#, hur man väljer eller avmarkerar snittobjekten.
 ---
-##  **Möjliga användningsscenarier**
 
-Om du vill uppdatera slicer i Microsoft Excel, välj eller avmarkera dess objekt, den kommer sedan att uppdatera slicer-tabellen eller pivottabellen i enlighet med detta. Snälla använd[**Slicer.SlicerCache.SlicerCacheItems**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercache/properties/slicercacheitems)för att välja eller avmarkera skivningsobjekt med Aspose.Cells och sedan ringa[**Slicer.Refresh()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/methods/refresh)metod för att uppdatera skivningstabellen eller pivottabellen.
+## **Möjliga användningsscenario**
 
-##  **Hur man uppdaterar Slicer**
+Om du vill uppdatera snittet i Microsoft Excel, välj eller avmarkera dess objekt, det kommer sedan att uppdatera snittabellen eller pivottabellen enligt. Använd [**Slicer.SlicerCache.SlicerCacheItems**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercache/properties/slicercacheitems) för att välja eller avmarkera snittobjekten med Aspose.Cells och ring sedan [**Slicer.Refresh()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/methods/refresh) metoden för att uppdatera snittabellen eller pivottabellen.
 
- Följande exempelkod laddar[exempel på Excel-fil](67338475.xlsx) som innehåller en befintlig skivare. Det avmarkerar det andra och tredje objektet i skivaren och uppdaterar skivaren. Den sparar sedan arbetsboken som[utdata Excel-fil](67338476.xlsx)Följande skärmdump visar effekten av exempelkoden på exemplet i Excel-filen. Som du kan se på skärmdumpen har även pivottabellen uppdaterats genom att uppdatera skivaren med utvalda föremål.
+## **Hur man uppdaterar snittet**
+
+Följande exempelkod laddar [provmappen](67338475.xlsx) som innehåller en befintlig snitt. Den avmarkerar den 2:a och 3:e objekten i snittet och uppdaterar snittet sedan. Den sparar sedan arbetsboken som [utmatningsmapp](67338476.xlsx). Skärmbilden nedan visar effekten av exempelkoden på provmappen. Som du kan se på skärmbilden, har uppdateringen av snittet med markerade objekt också uppdaterat pivottabellen.
 
 ![todo:image_alt_text](updating-slicer_1.png)
 
-##  **Exempelkod**
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-UpdatingSlicer.cs" >}}

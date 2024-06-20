@@ -1,16 +1,17 @@
-﻿---
-title: 図形またはテキスト ボックスの段落の行間を設定する
+---
+title: テキストボックスまたはテキストボックス内の段落の行間隔を設定する
 type: docs
 weight: 810
 url: /ja/java/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 ---
+
 {{% alert color="primary" %}} 
 
-TextParagraph.LineSpace、TextParagraph.SpaceBefore、TextParagraph.SpaceAfter をそれぞれ使用して、段落の行間、前の間隔、後の間隔を設定できます。
+段落の行間隔、その前のスペース、その後のスペースをTextParagraph.LineSpace、TextParagraph.SpaceBefore、TextParagraph.SpaceAfterを使用して設定できます。
 
 {{% /alert %}} 
-## **図形またはテキスト ボックスの段落の行間を設定する**
-次のサンプル コードは、前述のプロパティの使用法を説明しています。をダウンロードしてください[出力エクセルファイル](5473432.xlsx)参照用のコードによって生成されます。
+## **テキストボックスまたはテキストボックス内の段落の行間隔を設定する**
+次のサンプルコードは、上記のプロパティの使用方法を説明しています。コードで生成された[output excel file](5473432.xlsx)をダウンロードして参照してください。
 
 
 

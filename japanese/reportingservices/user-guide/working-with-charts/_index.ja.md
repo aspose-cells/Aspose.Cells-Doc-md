@@ -1,24 +1,25 @@
-﻿---
+---
 title: チャートの操作
 type: docs
 weight: 110
 url: /ja/reportingservices/working-with-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells レポート テンプレートは Microsoft Excel チャートをサポートします。レポートを実行するたびに、チャートに最新のデータが取り込まれます。
+Aspose.CellsレポートテンプレートはMicrosoft Excelチャートをサポートしています。レポートを実行するたびに、チャートに最新のデータが表示されます。 
 
 {{% /alert %}} 
 
-レポート テンプレートにグラフを追加するには:
+レポートテンプレートにチャートを追加するには:
 
-1. まず、グラフのデータ ソースとなるデータセットを作成します。
-以下では、SQL Server Reporting Services 2005 に同梱されている AdventureWorks サンプル データベースを使用して、Sales という名前のデータセットを作成します。
-この SQL は、データセットを定義します。
+1. まず、チャートのデータソースとなるデータセットを作成します。
+   以下は、SQL Server Reporting Services 2005に同梱されているAdventureWorksサンプルデータベースを使用し、Salesという名前のデータセットを作成します。
+   このSQLはデータセットを定義しています: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT DATEPART(yy,SOH.OrderDate) 'Year',
 
@@ -42,72 +43,72 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 
 
 
-を参照してください。[データ ソースとクエリ](/cells/ja/reportingservices/data-sources-and-queries/) Aspose.Cells.Report.Designer でデータ ソースとデータセットを作成する方法の詳細については、
+データソースとクエリ[Data Sources and Queries](/cells/ja/reportingservices/data-sources-and-queries/)を参照して、Aspose.Cells.Report.Designerでデータソースとデータセットを作成する方法について詳しく学んでください。
 
-1. の指示に従って、表形式のレポートを作成します。[表形式レポートの作成](/cells/ja/reportingservices/creating-tabular-report/) .この例で作成したレポートを以下に示します。テーブルはチャートのデータ ソースです。
+1. [Creating Tabular Report](/cells/ja/reportingservices/creating-tabular-report/)の指示に従って表形式のレポートを作成します。この例では以下のように作成したレポートを使用しています。表はチャートのデータソースです。 
 
-![todo:画像_代替_文章](working-with-charts_1.png)
-
-
-
-
-1.  Microsoft Excel で、**入れる**メニューと選択**チャート**.
-1. クリック**次**. 
-
-![todo:画像_代替_文章](working-with-charts_2.png)
+![todo:image_alt_text](working-with-charts_1.png)
 
 
 
 
-1. クリック**シリーズ**タブ。
+1. Microsoft Excelで**挿入**メニューをクリックし、**グラフ**を選択します。
+1. **次へ** をクリックします。 
 
-![todo:画像_代替_文章](working-with-charts_3.png)
-
-
-
-
-1. クリック**追加**. 
-
-![todo:画像_代替_文章](working-with-charts_4.png)
+![todo:image_alt_text](working-with-charts_2.png)
 
 
 
 
-1. ダイアログ ボックスで、Series1 (Quarter シリーズ) の値をテーブルの最初のデータ フィールドに設定します。
-サンプルでは、「CompanySales!$C$3:$C$3」です。最初の $C$3 は「Quarter」の最初の行インデックスで、2 番目の $C$3 は「Quarter」の最後の行インデックスのプレースホルダーであり、レンダリング時にテーブル データの実際の行インデックスに置き換えられます。カテゴリ (X) 軸ラベルを「=CompanySales!$C$3:$C$3」に設定します。
+1. **系列**タブをクリックします。 
 
-![todo:画像_代替_文章](working-with-charts_5.png)
-
-
-
-
-1. クリック**追加**別のシリーズを追加します。
-サンプルでは、セールス シリーズを追加しました。
-1. Series2 (販売系列) の値をテーブルの 2 番目のデータ フィールドに設定します。
-サンプルでは「CompanySales!$D$3:$D$3」です。最初の $D$3 は "Sales" の最初の行インデックスで、2 番目の $D$3 は "Sales" の最後の行インデックスのプレースホルダーであり、レンダリング時にテーブル データの実際の行インデックスに置き換えられます。
-1. クリック**次**続ける。
-
-![todo:画像_代替_文章](working-with-charts_6.png)
+![todo:image_alt_text](working-with-charts_3.png)
 
 
 
 
-1. ダイアログ ボックスで、グラフのタイトルとカテゴリ (X) 軸を設定します。
-1. クリック**終了**作業を完了します。
+1. **追加** をクリックします。 
 
-![todo:画像_代替_文章](working-with-charts_7.png)
-
-
-
-テンプレートは以下のようになります。
-
-![todo:画像_代替_文章](working-with-charts_8.png)
+![todo:image_alt_text](working-with-charts_4.png)
 
 
 
 
-1. レポートを保存し、レポート サーバーに公開します。
-1. レポート サーバーからレポートをエクスポートします。
-結果は以下の通り。
+1. ダイアログボックスで、Series1(四半期シリーズ)の値を表の最初のデータフィールドに設定します。
+   例では、これは「CompanySales!$C$3:$C$3」です。「$C$3」は「Quarter」の最初の行インデックスで、「$C$3」は「Quarter」の最後の行のインデックスのプレースホルダですが、レンダリング時に表データの実際の行インデックスに置き換えられます。「=CompanySales!$C$3:$C$3」としてカテゴリ(X)軸ラベルを設定します。 
 
-![todo:画像_代替_文章](working-with-charts_9.png)
+![todo:image_alt_text](working-with-charts_5.png)
+
+
+
+
+1. もう一つの系列を追加するには**追加**をクリックします。
+   例では、売上シリーズを追加しました。 
+1. Series2(売上シリーズ)の値を表の2番目のデータフィールドに設定します。
+   例では、「CompanySales!$D$3:$D$3」となります。「$D$3」は「Sales」の最初の行インデックスで、「$D$3」は「Sales」の最後の行のインデックスのプレースホルダですが、レンダリング時に表データの実際の行インデックスに置き換えられます。 
+1. 次をクリックして続行します。 
+
+![todo:image_alt_text](working-with-charts_6.png)
+
+
+
+
+1. ダイアログボックスで、チャートのタイトルとカテゴリ(X)軸を設定します。
+作業を完了するには**完了**をクリックします。 
+
+![todo:image_alt_text](working-with-charts_7.png)
+
+
+
+テンプレートは以下のようになります。 
+
+![todo:image_alt_text](working-with-charts_8.png)
+
+
+
+
+**開くたびにリフレッシュ**が選択されていることを確認します。
+レポートを保存して、Report Serverに公開します。
+   結果は以下のようになります。 
+
+![todo:image_alt_text](working-with-charts_9.png)

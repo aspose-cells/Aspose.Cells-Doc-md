@@ -1,26 +1,27 @@
-﻿---
-title: Скрытие и отображение рабочих листов в книге в VSTO и Aspose.Cells
+---
+title: Скрытие и отображение листов в книге в VSTO и Aspose.Cells
 type: docs
 weight: 140
 url: /ru/net/hide-and-unhide-worksheets-in-a-workbook-in-vsto-and-aspose-cells/
 ---
-В этой статье сравнивается скрытие и отображение листов с помощью VSTO с использованием C# или Visual Basic с выполнением той же задачи с помощью Aspose.Cells, опять же с использованием C# или Visual Basic. Aspose.Cells позволяет работать без установленного Microsoft Excel.
 
-Шаги, чтобы скрыть рабочий лист:
+В этой статье сравнивается скрытие и отображение листов с использованием VSTO, как на C#, так и Visual Basic, с выполнением той же задачи с помощью Aspose.Cells, снова с использованием как C#, так и Visual Basic. Aspose.Cells позволяет вам работать без установленного Microsoft Excel.
 
-1. Откройте файл.
-1. Получите рабочий лист.
-1. Скрыть рабочий лист.
+Шаги по скрытию листа:
+
+1. Открыть файл.
+1. Получить лист.
+1. Скрыть лист.
 1. Сохраните файл.
- Чтобы снова отобразить рабочий лист, просто включите видимость для скрытого листа.
+   Чтобы снова отобразить лист, просто переключите видимость для скрытого листа.
 
-Примеры кода ниже сначала показывают, как скрыть рабочий лист. В первых примерах показан процесс с VSTO, используя либо C#, либо Aspose.Cells, либо C#.
+Приведенные ниже примеры кода сначала показывают, как скрыть лист. Первые примеры показывают процесс с использованием VSTO, как на C#, по сравнению с использованием Aspose.Cells, снова с использованием как C#.
 
-Второй набор примеров кода показывает строку, используемую для отображения рабочего листа в VSTO или Aspose.Cells.
-## **Скрытие рабочих листов**
-Ниже приведены примеры кода для VSTO и Aspose.Cells, иллюстрирующие, как скрыть лист в книге.
-### **ВСТО**
-{{< highlight "csharp" >}}
+Второй набор примеров кода показывает строку, используемую для отображения скрытого листа в VSTO или Aspose.Cells.
+## **Скрытие листов**
+Ниже приведены примеры кода для VSTO и Aspose.Cells, которые иллюстрируют, как скрыть лист в книге.
+### **VSTO**
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -65,7 +66,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -92,10 +93,10 @@ objSheet.IsVisible = false;
 workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **Отображение рабочего листа**
-Ниже приведены примеры кода для VSTO и Aspose.Cells, иллюстрирующие, как отобразить лист в книге.
-### **ВСТО**
-{{< highlight "csharp" >}}
+## **Отображение листа**
+Ниже приведены примеры кода для VSTO и Aspose.Cells, которые иллюстрируют, как отобразить скрытый лист в книге.
+### **VSTO**
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
@@ -103,14 +104,14 @@ workbook.Save("Book1.xls");
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
 objSheet.IsVisible = true;
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Hide.and.Unhide.Worksheets.in.a.Workbook.Aspose.Cells.zip)
-- [Источникфорж](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/скачать)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip)
+## **Загрузить образец кода**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Hide.and.Unhide.Worksheets.in.a.Workbook.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip)

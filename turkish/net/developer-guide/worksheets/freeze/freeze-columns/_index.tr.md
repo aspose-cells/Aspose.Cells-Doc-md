@@ -1,45 +1,44 @@
 ---
-title: Excel Çalışma Sayfasının İlk Sütunlarını Dondur
-linktitle: Sütunları Dondur
+title: Excel Çalışma Sayfasının İlk Sütunlarını Sabitle
+linktitle: Sütunları Sabitle
 type: docs
 weight: 190
 url: /tr/net/how-to-freeze-columns-of-excel-worksheet
-description: Bu makalede, .NET API ile C# Kütüphanesini kullanarak Excel Çalışma Sayfalarının sol sütunlarını programlı olarak nasıl donduracağınızı öğreneceksiniz.
-keywords: Freeze left columns, Feeze first columns, Lock the column(s)
+description: Bu makalede, C# Kütüphanesi ve .NET API ile Excel Çalışma Sayfasının sol sütunlarını programlı olarak nasıl sabitleyeceğinizi öğreneceksiniz.
+keywords: Sol sütunları sabitle, İlk sütunları sabitle, Sütun(ları) kilitle
 ---
-{{% alert color="primary" %}}
 
-Bu yazıda sol sütun(lar)ın nasıl dondurulacağını öğreneceğiz.
-Bir satırda çok büyük miktarda veri olduğunda, çalışma sayfasını yatay olarak aşağı kaydırdığınızda soldaki sütunları göremezsiniz. Geri kalan veriler kaydırılırken bile dondurulan kısmı görebilmeniz için ilk sütunu/sütunları dondurup kilitleyebilirsiniz. Başlıkları sol sütunlarda kolayca görebilirsiniz.
+## **Giriş**
 
-{{% /alert %}}
-
-##  **Excel'de Sütunları Dondur**
-
-**![Excel'de sol sütunları dondur](freeze-columns.png)**
+Bu makalede, sol sütun(lar) dondurmayı nasıl yapacağımızı öğreneceğiz. Bir satırda büyük miktarda veri olduğunda, sayfayı yatay olarak kaydırdığınızda sol sütunları göremeyebilirsiniz. İlk sütun(ları) dondurup kilitleyerek, geri kalan veriler kaydırılsa bile donmuş kısmı görebilirsiniz. Sol sütunlardaki başlıkları kolayca görebilirsiniz.
 
 
-1. Sol sütunu/sütunları dondurmak istiyorsanız, önce dondurulması gereken sütunun altındaki sütunu seçin.
-2. Görünüm > Bölmeleri Dondur öğesine tıklayın.
-3. Açılır menüde İlk Sütunu Dondur'a tıklayın.
-4. Aşağı kaydırırsanız ilk sütun her zaman sol görünümde olur.
+## **Excel'de Sütunları Sabitle**
 
-**![Fonzen sütunu](frozen-columns.png)**
+**![Excel'de sol sütunları sabitle](freeze-columns.png)**
 
-Gördüğünüz gibi 1. sütun donmuş durumda, yatay olarak kaydırdığınızda ilk sütun her zaman görünümün üst kısmında kilitleniyor.
 
-Sütunları Dondur, uzun verilerinizi ilk sütunu takip etmeden görüntülemenizi sağlar.
+1. Sol sütunları sabitlemek istiyorsanız, öncelikle sabitlenecek sütunun altındaki sütunu seçin
+2. Görünüm > Panoları Dondur'a tıklayın.
+3. Açılır menüden İlk Sütunu Dondur'a tıklayın.
+4. Aşağı kaydırırsanız, ilk sütun her zaman sol görünümde olacaktır.
 
+**![Sürekli sütun](frozen-columns.png)**
+
+Görüldüğü gibi 1. sütun donmuş durumda, yatay kaydırdığınızda ilk sütun her zaman görünümün üstünde sabitlenir.
+
+Sütunları Sabitlemek, ilk sütunu izlemek zorunda kalmadan uzun verilerinizi görüntülemenize olanak tanır.
 
 
 
-##  **.Net için Sütunları Aspose.Cells ile Dondur**
-.Net için ilk sütunu/sütunları Aspose.Cells ile dondurmak kolaydır.
- Lütfen şunu kullanın:[**Çalışma Sayfası.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/)Seçilen sütundaki sütun(lar)ı ücretlendirme yöntemi.
-1. Dosyayı açmak veya boş bir dosya oluşturmak için Çalışma Kitabı Oluşturun.
-2. İlk sütunu Worksheet.FreezePanes() yöntemiyle dondurun.
+
+## **Aspose.Cells for .Net ile Sütunları Sabitleme**
+Aspose.Cells for .Net ile ilk sütun(ları) sabitlemek kolaydır. 
+Lütfen seçilen sütunda sütun(ları) sabitlemek için [**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/) yöntemini kullanın.
+1. Dosyayı açmak veya boş bir dosya oluşturmak için Workbook'u oluşturun.
+2. Worksheet.FreezePanes() yöntemi ile ilk sütunu dondurun.
 3. Dosyayı kaydedin.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Column.cs" >}}
 
- Ekli[örnek kaynak Excel dosyası](Freeze.xlsx).
+Ekli [örnek kaynak Excel dosyası](Freeze.xlsx).

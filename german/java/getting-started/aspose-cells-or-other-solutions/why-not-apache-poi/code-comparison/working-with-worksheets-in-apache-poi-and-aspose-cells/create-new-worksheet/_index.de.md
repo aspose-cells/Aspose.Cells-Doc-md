@@ -1,15 +1,16 @@
-﻿---
+---
 title: Neues Arbeitsblatt erstellen
 type: docs
 weight: 10
 url: /de/java/create-new-worksheet/
 ---
-## **Aspose.Cells – Neues Arbeitsblatt erstellen**
-Hinzufügen eines Arbeitsblatts zur Arbeitsmappe
+
+## **Aspose.Cells - Neues Arbeitsblatt erstellen**
+Ein Arbeitsblatt zu Arbeitsmappe hinzufügen
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -27,11 +28,11 @@ workbook.save("newWorksheet.xls");
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - Neues Arbeitsblatt erstellen**
-Hinzufügen eines Arbeitsblatts zur Arbeitsmappe
+Ein Arbeitsblatt zu Arbeitsmappe hinzufügen
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook(); // or new XSSFWorkbook();
 
@@ -77,7 +78,7 @@ fileOut.close();
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/createnewworksheet)

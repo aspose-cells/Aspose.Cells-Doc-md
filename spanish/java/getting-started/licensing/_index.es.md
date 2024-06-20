@@ -1,29 +1,30 @@
 ---
-title: Licensing
+title: Licencias
 type: docs
 weight: 50
 url: /es/java/licensing/
-description: Aspose.Cells para JAVA proporciona diferentes planes de compra u ofrece una Prueba Gratuita y una Licencia Temporal de 30 días para evaluación utilizando Licensing y políticas de Suscripción en Java.
-keywords: Java Apply License from Disk or Stream. Java Set License from Disk or Stream. Apply License in Aspose.Cells for Java.
+description: Aspose.Cells for JAVA proporciona diferentes planes para compra u ofrece una Prueba Gratuita y una Licencia Temporal de 30 días para evaluación utilizando políticas de licenciamiento y suscripción en Java.
+keywords: Aplicar licencia de Java desde disco o flujo. Establecer licencia de Java desde disco o flujo. Aplicar licencia en Aspose.Cells for Java.
 ---
-##  **Cómo aplicar una licencia en el componente Aspose.Cells**
 
-La licencia es un archivo XML de texto sin formato que contiene detalles como el nombre del producto, la cantidad de desarrolladores para los que tiene licencia, la fecha de vencimiento de la suscripción, etc. El archivo está firmado digitalmente, así que no lo modifique; incluso la adición inadvertida de un salto de línea adicional al archivo lo invalidará.
+## **Cómo Aplicar una Licencia en el Componente Aspose.Cells**
 
-Debe configurar una licencia antes de utilizar Aspose.Cells si desea evitar sus limitaciones de evaluación. Solo es necesario configurar una licencia una vez por solicitud o proceso.
+La licencia es un archivo XML de texto sin formato que contiene detalles como el nombre del producto, el número de desarrolladores con licencia, la fecha de vencimiento de la suscripción, etc. El archivo está firmado digitalmente, por lo que no debe modificarlo; incluso la adición inadvertida de un salto de línea adicional en el archivo lo invalidará.
 
-La licencia se puede cargar desde una secuencia o archivo en las siguientes ubicaciones:
+Debe configurar una licencia antes de utilizar Aspose.Cells si desea evitar sus limitaciones de evaluación. Solo es necesario configurar una licencia una vez por aplicación o proceso.
 
-1. Camino explícito.
-1. La carpeta que contiene Aspose.Cells.jar.
+La licencia se puede cargar desde un flujo o archivo en las siguientes ubicaciones:
 
- Utilizar el[Licencia.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)método para licenciar el componente. A menudo, la forma más sencilla de configurar una licencia es colocar el archivo de licencia en la misma carpeta que Aspose.Cells.jar y especificar solo el nombre del archivo sin la ruta, como se muestra en el siguiente ejemplo:
+1. Ruta explícita.
+1. La carpeta que contiene el Aspose.Cells.jar.
 
-###  **Cómo aplicar una licencia desde el disco**
+Utilice el método [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) para licenciar el componente. A menudo, la forma más fácil de establecer una licencia es colocar el archivo de licencia en la misma carpeta que Aspose.Cells.jar y especificar solo el nombre del archivo sin la ruta, como se muestra en el siguiente ejemplo:
 
- En este ejemplo**Aspose.Cells** Intentará encontrar el archivo de licencia en la carpeta que contiene los archivos JAR de su aplicación.
+### **Cómo Aplicar una Licencia desde el Disco**
 
-{{< highlight "csharp" >}}
+En este ejemplo, **Aspose.Cells** intentará encontrar el archivo de licencia en la carpeta que contiene los JAR de su aplicación.
+
+{{< highlight csharp >}}
 
 com.aspose.cells.License license = new com.aspose.cells.License();
 
@@ -31,11 +32,11 @@ license.setLicense("Aspose.Cells.Java.lic");
 
 {{< /highlight >}}
 
-###  **Cómo solicitar una licencia de Stream**
+### **Cómo Aplicar una Licencia desde un Flujo**
 
-Inicializa una licencia de una secuencia.
+Inicializa una licencia desde un flujo.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 com.aspose.cells.License license = new com.aspose.cells.License();
 
@@ -43,11 +44,11 @@ license.setLicense(new java.io.FileInputStream("Aspose.Cells.Java.lic"));
 
 {{< /highlight >}}
 
-###  **Cómo solicitar una licencia en Aspose.Cells.GridWeb**
+### **Cómo Aplicar una Licencia en Aspose.Cells.GridWeb**
 
-Se recomienda colocar el código de licencia en un lugar de su aplicación web donde deba procesarse primero.
+Se recomienda poner el código de licencia en un lugar de su aplicación web donde se procese primero.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate an instance of license and set the license file through its path
 
@@ -57,13 +58,13 @@ lic.setLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-##  **Cómo solicitar una licencia medida**
+## **Cómo aplicar una licencia medida**
 
-Aspose.Cells permite a los desarrolladores aplicar una clave medida. Es un nuevo mecanismo de concesión de licencias. El nuevo mecanismo de concesión de licencias se utilizará junto con el método de concesión de licencias existente. Aquellos clientes que quieran que se les facture según el uso de las funciones API pueden utilizar la licencia medida. Para obtener más detalles, consulte[Preguntas frecuentes sobre el medidor Licensing](https://purchase.aspose.com/faqs/licensing/metered)sección.
+Aspose.Cells permite a los desarrolladores aplicar una clave medida. Es un nuevo mecanismo de licencias. Este nuevo mecanismo de licencias se utilizará junto con el método de licenciamiento existente. Aquellos clientes que deseen ser facturados en función del uso de las funciones de la API pueden utilizar el licenciamiento medido. Para más detalles, consulte sección de [Preguntas frecuentes sobre Licenciamiento Medido](https://purchase.aspose.com/faqs/licensing/metered).
 
-una nueva clase[medido](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)Se ha introducido para aplicar la clave medida. A continuación se muestra el código de muestra que demuestra cómo configurar la clave pública y privada medida.
+Se ha introducido una nueva clase [Metered](https://reference.aspose.com/cells/java/com.aspose.cells/Metered) para aplicar una clave medida. A continuación se muestra un código de ejemplo que demuestra cómo configurar la clave pública y privada medida.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 //Set metered public and private keys
 

@@ -1,16 +1,19 @@
-﻿---
-title: GridWeb sayfa değişikliğinde istemci tarafı işlevini yürütün
+---
+title: GridWeb sayfa değişikliğinde istemci tarafı fonksiyonunu yürütme
 type: docs
 weight: 140
-url: /tr/net/execute-client-side-function-on-gridweb-page-change/
+url: /tr/net/aspose-cells-gridweb/execute-client-side-function-on-gridweb-page-change/
+keywords: GridWeb,client,js,javascript,function
+description: Bu makale, GridWeb deki istemci js fonksiyonu ile nasıl çalışılacağını tanıtıyor.
 ---
-## **Olası Kullanım Senaryoları**
-Bazen, GridWeb sayfası değiştiğinde müşteri tarafı işlevinizi yürütmeniz gerekir. Aspose.Cells.GridWeb, bu amaçla OnPageChangeClientFunction özelliğini sağlar. Lütfen bu özelliği, yürütmek istediğiniz istemci tarafı işleviyle ayarlayın.
-## **GridWeb sayfa değişikliğinde istemci tarafı işlevini yürütün**
-Aşağıdaki aspx biçimlendirmesi, OnPageChangeClientFunction özelliğinin nasıl kullanılacağını açıklar. Özelliği, MyOnPageChange adlı istemci tarafı işleviyle ayarlar. Lütfen unutmayın, bu özellik yalnızca sayfalamayı etkinleştirdiyseniz geçerlidir, yani EnablePaging="true". Şimdi, GridWeb sayfasını ne zaman değiştirirseniz, istemci tarafı işlevi MyOnPageChange'i çağıracaktır.**geçerli sayfa dizini** üzerinde**konsol** bu ekran görüntüsünde gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_metin](execute-client-side-function-on-gridweb-page-change_1.png)
-## **Basit kod**
-Bu, GridWeb'de OnPageChangeClientFunction="MyOnPageChange" özelliğinin ayarlanması nedeniyle yürütülecek istemci tarafı işlevi MyOnPageChange'in kodudur. Bu, tam aspx sayfa işaretlemesidir.
+## **Olası Kullanım Senaryoları**
+Bazen GridWeb sayfa değiştiğinde istemci tarafı fonksiyonunuzu yürütmek isteyebilirsiniz. Aspose.Cells.GridWeb, bunun amacıyla OnPageChangeClientFunction özelliğini sağlar. Lütfen bu özelliği istemci tarafı fonksiyonunuzla ayarlayın bu özelliği yürütmek istediğiniz.
+## **GridWeb sayfa değişikliğinde istemci tarafı fonksiyonunu yürütme**
+Aşağıda açıklanan aspx işareti, OnPageChangeClientFunction özelliğinin nasıl kullanılacağını açıklıyor. Bu özelliği, MyOnPageChange adlı istemci tarafı fonksiyonuyla ayarlar. Lütfen unutmayın, bu özellik yalnızca sayfalama etkinleştirilmişse geçerlidir, yani EnablePaging="true". Şimdi, GridWeb sayfasını değiştirdiğinizde, **konsolda** gösterildiği gibi **mevcut sayfa dizinini** yazdıran MyOnPageChange istemci tarafı fonksiyonunu çağıracaktır.
+
+![todo:image_alt_text](execute-client-side-function-on-gridweb-page-change_1.png)
+## **Örnek Kod**
+GridWeb'de OnPageChangeClientFunction ="MyOnPageChange" özelliğini ayarladığınız için yürütülecek istemci tarafı fonksiyon MyOnPageChange kodu. Bu tam aspx sayfa işareti.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples.GridWeb-CSharp-GridWebBasics-CallClientsideScriptforGridWeb.aspx-CallClientsideScriptforGridWeb.cs" >}}

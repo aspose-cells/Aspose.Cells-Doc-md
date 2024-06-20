@@ -1,60 +1,61 @@
 ---
-title: チャートデータをフィルタリングする 3 つの方法
-description: Aspose.Cells for .NET を使用して Excel でグラフをフィルタリングする方法を学びます。当社の包括的なガイドでは、グラフにフィルタを適用する方法、グラフ要素をカスタマイズする方法、より良い洞察と情報に基づいた意思決定を行うためのデータ分析ツールの使用方法を説明します。
-keywords: Aspose.Cells for .NET, Filtering Charts in Excel, Data Analysis, Decision Making, Visualization.
+title: チャートデータのフィルタリングの3つの方法
+description: Aspose.Cells for .NETを使用してExcelでチャートをフィルタリングする方法について学びます。当社の包括的なガイドが、チャートにフィルターを適用し、チャート要素をカスタマイズし、より良い洞察と情報に基づく意思決定を行うためのデータ分析ツールを示します。
+keywords: Aspose.Cells for .NET、Excelでのチャートのフィルタリング、データ分析、意思決定、ビジュアライゼーション。
 type: docs
 weight: 2210
 url: /ja/net/filtering-charts-in-excel/
 ---
+
 {{% alert color="primary" %}}
 
-##  **1. シリーズをフィルタリングしてグラフをレンダリングする**
+## **1. チャートからシリーズをフィルタリングする**
 
-###  **Excel でグラフから系列をフィルターする手順**
-Excel では、グラフから特定の系列をフィルタリングして除外し、フィルタリングされた系列がグラフに表示されないようにすることができます。元のチャートは次のとおりです。**図1**。ただし、**Testseries2 をフィルタリングすると、**および *Testseries4** の場合、チャートは *図 2** のように表示されます。
+### **Excelでチャートからシリーズをフィルタリングする手順**
+Excelでは、特定のシリーズをチャートからフィルタリングして、フィルタリングされたシリーズをチャートに表示されないようにすることができます。元のチャートは**図1**に表示されます。ただし、**Testseries2**と**Testseries4**をフィルタリングすると、**図2**に示すようにチャートが表示されます。
 
- Aspose.Cells でも同様の操作を実行できます。のために[サンプル](seriesFiltered.xlsx)フィルターで除外したい場合は、このようなファイル**テストシリーズ2**および *Testseries4** を使用すると、次のコードを実行できます。さらに、2 つのリストを維持します。1 つは ([Nシリーズ](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)選択したすべてのシリーズと別の ([FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/)) フィルタリングされたシリーズを保存します。
+Aspose.Cellsでは同様の操作を実行することができます。次のような[サンプル](seriesFiltered.xlsx)ファイルについて、例えば**Testseries2**と**Testseries4**をフィルタリングしたい場合、次のコードを実行できます。さらに、選択されたシリーズをすべて格納する[NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)リストと、フィルタリングされたシリーズを格納する[FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/)が2つあります。
 
-お願いします**注記**コード内で設定すると、**chart.NSeries[0].IsFiltered = true;**、[NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/) の最初の系列が削除されます[FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/) 内の適切な位置に配置されます。その後、以前の **NSeries[1]**がリストの新しい最初の項目となり、後続のすべてのシリーズが 1 つずつ前方に移動します。これは、*chart.NSeries[1].IsFiltered = true;** を実行すると、元の 3 番目の系列が事実上削除されることを意味します。これは混乱を招く可能性があるため、シリーズを末尾から先頭まで削除するコードの操作に従うことをお勧めします。
+コードで**chart.NSeries[0].IsFiltered = true;**を設定すると、[NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)の最初のシリーズが削除され、適切な位置に[FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/)に配置されます。その後、以前の**NSeries[1]**は新しい最初のアイテムとなり、その後ろの全てのシリーズは1つ前にシフトされます。つまり、次に**chart.NSeries[1].IsFiltered = true;**を実行すると、実質的に元の3番目のシリーズが削除されます。これは、混乱を招くことがあるため、コードで操作に従うことをお勧めします。
 
 ![todo:image_alt_text](Figure1.png)
 
 ![todo:image_alt_text](Figure2.png)
 
-###  **サンプルコード**
-次のサンプルコードは、[サンプル Excel ファイル](seriesFiltered.xlsx).
+### **サンプルコード**
+次のサンプルコードは、[サンプルExcelファイル](seriesFiltered.xlsx)を読み込みます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "seriesFiltered.cs" >}}
 
-##  **2. データをフィルタリングしてグラフを変更します。**
+## **2. データをフィルターし、グラフを変更します**
 
-データのフィルター処理は、大量のデータを含むグラフ フィルターを処理する優れた方法です。データをフィルタリングすると、グラフが変わります。私たちが対処しなければならない問題の 1 つは、チャートが画面上に留まるようにすることです。フィルターすると非表示の行が表示され、場合によってはグラフがそれらの非表示の行に表示されることがあります。
+データをフィルターすることは、多くのデータを持つチャートのフィルターを処理する良い方法です。 データをフィルターすると、グラフが変わります。 対処する問題の1つは、チャートが画面に残るようにすることです。 データをフィルターすると、非表示の行が表示され、時々チャートがその非表示の行に含まれることがあります。
 
 ![todo:image_alt_text](Figure3.png)
 
-###  **データ フィルターを使用して Excel のグラフを変更する手順**
+### **Excelでチャートを変更するデータフィルターの使用手順**
 
-1. データ範囲内をクリックします。
- 2.**データ**タブをクリックし、「フィルター」をクリックしてフィルターをオンにします。ヘッダー行にはドロップダウン矢印が表示されます。
- 3. 次の場所に移動してグラフを作成します。**入れる**タブをクリックして縦棒グラフを選択します。
-4. 次に、データのドロップダウン矢印を使用してデータをフィルタリングします。グラフフィルターは使用しないでください。
+1. データ範囲の内側をクリックします。
+2. **データ** タブをクリックし、フィルターを選択してフィルターをオンにします。 ヘッダー行にはドロップダウン矢印が表示されます。
+3. **挿入** タブに移動し、列のチャートを選択して、チャートを作成します。
+4. 今、データをドロップダウン矢印を使用してフィルタリングします。 チャートフィルターは使用しないでください。
 
-###  **サンプルコード**
-次のサンプル コードは、Aspsoe.Cells を使用した同じ機能を示しています。
+### **サンプルコード**
+以下のサンプルコードは、Aspose.Cellsを使用して同じ機能を示しています。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "DataFilters.cs" >}}
 
-##  **3. テーブルを使用してデータをフィルターし、グラフを変更します。**
+## **3. テーブルを使用してデータをフィルターし、グラフを変更します**
 
-テーブルの使用は、範囲を使用する方法 2 に似ていますが、範囲よりもテーブルの方が利点があります。範囲をテーブルに変更してデータを追加すると、グラフが自動的に更新されます。範囲を指定する場合は、データ ソースを変更する必要があります。
+テーブルを使用することは、範囲を使用する方法2と似ていますが、テーブルには範囲よりも優れた点があります。 テーブルに範囲を変更してデータを追加すると、チャートが自動的に更新されます。 範囲の場合、データソースを変更する必要があります。
 
-###  **Excel で表としてフォーマットする**
+### **Excelでテーブルとしてフォーマット**
 
-データ内をクリックして使用します**CTRL + T**または、「ホーム」タブを使用します。**テーブルとしてフォーマットする**
+データ内をクリックし、**CTRL + T** を使用するか、**ホーム** タブ、**テーブルの書式設定** を使用します。
 
 ![todo:image_alt_text](Figure4.png)
 
-###  **サンプルコード**
-次のサンプルコードは、[サンプル Excel ファイル](TableFilters.xlsx)は、Aspsoe.Cells を使用した同じ機能を示しています。
+### **サンプルコード**
+次のサンプルコードは、[サンプルExcelファイル](TableFilters.xlsx) を使用して、Aspose.Cellsを使用して同じ機能を示しています。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "TableFilters.cs" >}}

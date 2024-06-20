@@ -1,119 +1,120 @@
-﻿---
-title: إنشاء استعلامات ومصادر بيانات جديدة
+---
+title: إنشاء مصادر بيانات واستعلامات جديدة
 type: docs
 weight: 20
 url: /ar/reportingservices/creating-new-data-sources-and-queries/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells.Report.Designer يتكامل مع MS Query ويستخدم MS Query كأداة لإنشاء مصادر البيانات والاستعلامات. لإنشاء مصدر بيانات واستعلام جديدين في Aspose.Cells.Report.Designer ، اتبع الخطوات التالية :.
+يتكامل Aspose.Cells.Report.Designer مع MS Query ويستخدم MS Query كأداة لإنشاء مصادر البيانات والاستعلامات. لإنشاء مصدر بيانات واستعلام جديد في Aspose.Cells.Report.Designer، اتبع الخطوات التالية: 
 
 {{% /alert %}} 
 
-لإنشاء مصدر بيانات واستعلام جديدين في Aspose.Cells.Report.Designer:
+لإنشاء مصدر بيانات واستعلام جديد في Aspose.Cells.Report.Designer:
 
 1. افتح Microsoft Excel.
-1.  انقر**بناء مجموعة البيانات** في Aspose.Cells.Report.Designer شريط الأدوات:
+1. انقر على **بناء مجموعة البيانات** في شريط أدوات Aspose.Cells.Report.Designer: 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_1.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_1.png)
 
 
-يتم سرد كافة مصادر البيانات والاستعلامات في مربع الحوار.
+جميع مصادر البيانات والاستعلامات مدرجة في مربع الحوار. 
 
-1.  عقدة مصدر البيانات:
+1. عقدة مصدر البيانات: 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_2.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_2.png)
 
-1.  عقدة مجموعة البيانات:
+1. عقدة مجموعة البيانات: 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_3.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_3.png)
 
-1. حدد عقدة جذر الشجرة.
-1.  انقر**يضيف**. 
+1. حدد عقدة الجذر الخاصة بالشجرة.
+1. انقر على **إضافة**. 
 
    **إضافة مصادر البيانات ومجموعات البيانات** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_4.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_4.png)
 
 
 
 
-1.  في مربع الحوار ، اتصل بمصدر البيانات**خادم قاعدة البيانات** ومجموعة البيانات**EmpsSalesDetail**.
-1.  انقر**التالي**. 
+1. في مربع الحوار، اسم الاتصال بمصدر البيانات **SqlServer** واسم مجموعة البيانات **EmpsSalesDetail**.
+1. انقر فوق **التالي**. 
 
-   **إضافة مجموعات البيانات ومصادرها** 
+   **إضافة مجموعات البيانات ومصادر البيانات** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_5.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_5.png)
 
 
 
- Aspose.Cells. تقرير. المصمم يبدأ Microsoft الاستعلام.
+يبدأ Aspose.Cells.Report.Designer استعلام Microsoft Query. 
 
-1.  في مربع الحوار اختيار مصدر البيانات ، حدد**مصدر بيانات جديد**.
-1.  انقر**نعم**.
- يمكنك أيضًا تحديد مصدر بيانات موجود.
+1. في مربع حوار اختيار مصدر البيانات، حدد **مصدر بيانات جديد**.
+1. انقر على **موافق**.
+   يمكنك أيضًا تحديد مصدر بيانات موجود. 
 
    **اختيار مصدر البيانات** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_6.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_6.png)
 
 
 
 
-1. أدخل اسم مصدر البيانات وحدد SQL Server من القائمة المنسدلة لبرامج تشغيل قاعدة البيانات.
-1.  انقر**يتصل**. 
+1. أدخل اسم مصدر البيانات وحدد SQL Server من قائمة السائقين قاعدة البيانات المنسدلة.
+1. انقر على **الاتصال**. 
 
    **إنشاء مصدر بيانات جديد** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_7.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_7.png)
 
 
 
 
-1. في مربع حوار تسجيل الدخول إلى خادم SQL ، حدد القيمة المناسبة لكل عنصر.
- على سبيل المثال ، قم بتعيين الخادم على محلي ، وحدد قاعدة بيانات AdventureWorks وحدد**استخدم اتصال موثوق**.
-1.  انقر**نعم**. 
+1. في مربع حوار تسجيل الدخول إلى SQL Server، حدد القيمة المناسبة لكل عنصر.
+   على سبيل المثال، قم بتعيين الخادم إلى محلي، حدد قاعدة بيانات AdventureWorks وحدد **استخدام اتصال موثوق**.
+1. انقر على **موافق**. 
 
    **تسجيل الدخول إلى خادم SQL** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_8.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_8.png)
 
 
 
 
-1.  انقر**نعم**. 
+1. انقر على **موافق**. 
 
-   **لاحظ أننا الآن مسجلون الدخول إلى خادم SQL** 
+   **يرجى ملاحظة أننا الآن قمنا بتسجيل الدخول إلى خادم SQL** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_9.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_9.png)
 
 
 
-يظهر مصدر البيانات الجديد في ملف**اختر مصدر البيانات** الحوار.
+يظهر مصدر البيانات الجديد في مربع حوار **اختيار مصدر البيانات**. 
 
-1.  حدد مصدر البيانات الجديد.
+1. حدد مصدر البيانات الجديد. 
 
    **مصدر البيانات الجديد** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_10.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_10.png)
 
 
 
 
-1.  انقر**نعم** لفتح Microsoft الاستعلام.
-1.  لتكوين استعلام في Microsoft Query ، ارجع إلى Microsoft Query Helper. في النموذج التالي ، نقوم بإنشاء استعلام مع المعلمات.
+1. انقر على **موافق** لفتح الاستعلامات المايكروسوفت.
+1. لإنشاء استعلام في استعلام المايكروسوفت، راجع مساعد الاستعلام المايكروسوفت. في العينة التالية، نقوم بإنشاء استعلام بمعلمات. 
 
    **بناء استعلام** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_11.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_11.png)
 
 
 
- SQL هي كما يلي:
+الاستعلام الخاص بـ ما يلي: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT C.FirstName + ' ' + C.LastName AS Employee,
 
@@ -180,44 +181,44 @@ P.Name, PS.Name, SOD.UnitPrice, PC.Name
 {{< /highlight >}}
 
 
-يحتوي الاستعلام على ثلاث معلمات: ReportYear و ReportMonth و EmpID.
+الاستعلام يحتوي على ثلاث معلمات: سن التقرير، شهر التقرير ومعرف الموظف.
 
-1.  من Microsoft Query's**ملف** القائمة ، حدد**العودة إلى Aspose.Cells.Report.Designer**. 
+1. من قائمة **ملف** في Microsoft Query، حدد **العودة إلى Aspose.Cells.Report.Designer**. 
 
    **العودة إلى مصمم التقرير** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_12.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_12.png)
 
 
 
- يتم سرد مصدر البيانات والاستعلام اللذين تم إنشاؤهما أعلاه في مربع الحوار.
+يتم إدراج مصدر البيانات والاستعلام المنشأ أعلاه في مربع الحوار. 
 
-1.  انقر فوق مصدر البيانات**خادم قاعدة البيانات** لعرض معلوماتها التفصيلية.
+1. انقر فوق مصدر البيانات **SqlServer** لعرض معلوماته المفصلة. 
 
    **مصدر البيانات الجديد** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_13.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_13.png)
 
 
 
 
-1.  انقر فوق الاستعلام EmpSalesDetails لعرض معلوماته التفصيلية.
+1. انقر على استعلام EmpSalesDetails لعرض معلوماته المفصلة. 
 
-   **انقر فوق علامة تبويب SQL لعرض SQL للاستعلام** 
+   **انقر على علامة التبويب SQL لعرض SQL لللاستعلام** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_14.png)
-
-
-
-**انقر فوق علامة تبويب الأعمدة لعرض أعمدة الاستعلام** 
-
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_15.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_14.png)
 
 
 
-**انقر فوق علامة التبويب المعلمات لعرض معلمات الاستعلام** 
+**انقر على علامة التبويب الأعمدة لعرض أعمدة الاستعلام** 
 
-![ما يجب القيام به: image_بديل_نص](creating-new-data-sources-and-queries_16.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_15.png)
+
+
+
+**انقر فوق علامة تبويب المعلمات لعرض معلمات الاستعلام** 
+
+![todo:image_alt_text](creating-new-data-sources-and-queries_16.png)
 
 
 

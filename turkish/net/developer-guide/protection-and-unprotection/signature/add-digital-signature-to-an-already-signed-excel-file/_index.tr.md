@@ -1,25 +1,28 @@
-﻿---
-title: Halihazırda imzalanmış bir Excel dosyasına Dijital İmza ekleme
+---
+title: Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Eklemek
 type: docs
 weight: 20
 url: /tr/net/add-digital-signature-to-an-already-signed-excel-file/
+description: Bu makale, C# kodlarıyla Aspose.Cells for .Net kullanarak zaten imzalanmış bir Excel dosyasına dijital imza ekleme işlemini açıklar.
+keywords: Zaten imzalanmış bir Excel dosyasına dijital imza eklemek, zaten imzalanmış bir Excel belgesine dijital imza eklemenin nasıl yapılacağını açıklar.
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- Aspose.Cells şunları sağlar:[**Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature)Halihazırda imzalanmış bir Excel dosyasına dijital imza eklemek için kullanabileceğiniz bir yöntem.
+Aspose.Cells, zaten imzalanmış bir Excel dosyasına dijital imza eklemek için kullanabileceğiniz [**Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature) yöntemini sağlar.
 
 {{% alert color="primary" %}}
 
-Halihazırda imzalanmış bir Excel belgesine dijital imza eklerken, orijinal belgenin Aspose.Cells tarafından oluşturulmuş bir belge olması durumunda iyi çalıştığını lütfen unutmayın. Ancak orijinal belge başka motorlar tarafından oluşturulmuşsa (örn. Microsoft Excel vb.), Aspose.Cells dosyayı yükleyip yeniden kaydettikten sonra aynı tutamaz, bu orijinal imzayı geçersiz kılar.
+Lütfen dikkat, zaten imzalanmış bir Excel belgesine dijital imza eklerken, eğer orijinal belge Aspose.Cells tarafından oluşturulan bir belge ise, iyi çalışır. Ancak orijinal belge diğer motorlar (örneğin Microsoft Excel vb.) tarafından oluşturulmuşsa, Aspose.Cells, dosyayı yükleyip yeniden kaydettikten sonra aynı tutamayacaktır, bu da orijinal imzanın geçersiz olmasına neden olacaktır.
 
 {{% /alert %}}
 
-## **Halihazırda imzalanmış bir Excel dosyasına Dijital İmza ekleme**
+## **Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Eklemek**
 
-Aşağıdaki örnek kod, nasıl kullanılacağını gösterdi[**Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature) Halihazırda imzalanmış Excel dosyasına dijital imza ekleme yöntemi. lütfen kontrol ediniz[örnek excel dosyası](50528280.xlsx) bu kodda kullanılır. Bu dosya zaten dijital olarak imzalanmış. lütfen kontrol ediniz[çıktı excel dosyası](50528281.xlsx) kod tarafından oluşturulur. adlı demo sertifikasını kullandık.[AsposeDemo.pfx](50528279.pfx) şifresi olan bu kodda**varsaymak**Ekran görüntüsü, yürütmeden sonra örnek kodun örnek Excel dosyası üzerindeki etkisini gösterir.
+Aşağıdaki örnek kod, zaten imzalanmış bir Excel dosyasına dijital imza eklemek için [**Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature) yöntemini nasıl kullanacağını göstermektedir. Lütfen bu kodda kullanılan [örnek Excel dosyasını](50528280.xlsx) kontrol edin. Bu dosya zaten dijital imzalanmıştır. Kod tarafından oluşturulan [çıktı Excel dosyasını](50528281.xlsx) kontrol edin. Bu kodda **aspose** adında bir şifresi olan demo sertifikası olan [AsposeDemo.pfx](50528279.pfx) isimli demo sertifikayı kullandık. Ekran görüntüsü, örnek kodun örnek Excel dosyası üzerindeki etkisini gösterir.
 
-![yapılacaklar:resim_alternatif_metin](add-digital-signature-to-an-already-signed-excel-file_1.png)
+![todo:image_alt_text](add-digital-signature-to-an-already-signed-excel-file_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AddDigitalSignatureToAnAlreadySignedExcelFile.cs" >}}

@@ -1,29 +1,30 @@
-﻿---
-title: Her Çalışma Sayfasını Farklı PDF'e Kaydet
+---
+title: Her Bir Çalışma Sayfasını Farklı PDF ye Kaydetme
 type: docs
 weight: 10
 url: /tr/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - Her Çalışma Sayfasını Farklı PDF'e Kaydet**
-Aspose.Cells, XLS dosyasının (resim, çizelge vb. içeren) PDF belgesine dönüştürülmesini destekler. Aspose.Cells for .NET bir elektronik tabloyu pdf belgesine dönüştürmek için bağımsız olarak çalışabilir ve artık dönüştürme için Aspose.Pdf for .NET kullanmanıza gerek yoktur. Tüm işlem bellekte yapılabildiğinden, dönüştürme herhangi bir geçici dosya (lar) oluşturmayı / kullanmayı gerektirmez.
+
+## **Aspose.Cells - Her Bir Çalışma Sayfasını Farklı PDF'ye Kaydetme**
+Aspose.Cells, resimler, grafikler vb. içeren XLS dosyalarını PDF belgelerine dönüştürmeyi destekler. Aspose.Cells for .NET, bir elektronik tabloyu PDF belgesine dönüştürmek için bağımsız olarak çalışabilir ve dönüşüm için artık Aspose.Pdf for .NET'i kullanmanıza gerek yoktur. Dönüşüm, tüm işlem belleğinde yapılabileceği için herhangi bir geçici dosya oluşturma / kullanma gerektirmez.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- //Yeni bir çalışma kitabı oluşturun ve Excel'i açın
+ //Instantiate a new workbook and open the Excel
 
-// Bulunduğu yerden dosya
+//File from its location
 
-Çalışma kitabı çalışma kitabı = new Workbook("../../data/test.xlsx");
+Workbook workbook = new Workbook("../../data/test.xlsx");
 
-//Çalışma kitabındaki çalışma sayfalarının sayısını al
+//Get the count of the worksheets in the workbook
 
-int SheetCount = workbook.Worksheets.Count;
+int sheetCount = workbook.Worksheets.Count;
 
-//İlk çalışma sayfası dışında tüm sayfaları görünmez yap
+//Make all sheets invisible except first worksheet
 
- için (int ben = 1; ben< workbook.Worksheets.Count; i++)
+for (int i = 1; i < workbook.Worksheets.Count; i++)
 
 {
 
@@ -55,12 +56,12 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Her Çalışma Sayfasını Farklı PDF'e Kaydet** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Her çalışma sayfasını farklı bir PDF olarak kaydetmeyi indirin herhangi aşağıda belirtilen sosyal kodlama sitelerinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Her Çalışma Sayfasını Farklı Bir PDF Dosyasına Kaydet](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
+Daha fazla bilgi için [Her Çalışma Sayfasını Farklı Bir PDF Dosyasına Kaydetme](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/) adresini ziyaret edin.
 
 {{% /alert %}}

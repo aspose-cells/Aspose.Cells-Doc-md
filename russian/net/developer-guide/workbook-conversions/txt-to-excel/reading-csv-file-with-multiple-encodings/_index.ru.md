@@ -1,39 +1,40 @@
-﻿---
-title: Чтение файла CSV с несколькими кодировками
+---
+title: Чтение CSV файла с несколькими кодировками
 type: docs
 weight: 200
 url: /ru/net/reading-csv-file-with-multiple-encodings/
 ---
+
 {{% alert color="primary" %}}
 
-Иногда ваш файл CSV содержит несколько кодировок (Unicode, ANSI, UTF8, UTF7 и т. д.). Aspose.Cells позволяет загружать такие файлы CSV и преобразовывать их в другие форматы, например, PDF или XLSX.
+Иногда ваш CSV-файл содержит несколько кодировок (Unicode, ANSI, UTF8, UTF7 и т. д.). Aspose.Cells позволяет загружать такие CSV-файлы и преобразовывать их в другие форматы, например, PDF или XLSX.
 
 {{% /alert %}}
 
- Aspose.Cells обеспечивает[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) свойство, которое вам нужно установить в**истинный** чтобы правильно загрузить файл CSV с несколькими кодировками.
+Aspose.Cells предоставляет свойство [**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded), которое вам нужно установить в **true**, чтобы корректно загрузить ваш CSV-файл с несколькими кодировками.
 
- На следующем снимке экрана показан пример файла CSV, который содержит две строки. Первая строка находится в**ANSI** кодировка, а вторая строка находится в**Юникод** кодирование
+На следующем скриншоте показан пример CSV-файла, который содержит две строки. Первая строка в кодировке **ANSI**, а вторая строка в кодировке **Unicode**.
 
 |**Входной файл**|
-|:- |
-|![дело:изображение_альтернативный_текст](reading-csv-file-with-multiple-encodings_1.png)|
+| :- |
+|![todo:image_alt_text](reading-csv-file-with-multiple-encodings_1.png)|
 
- На следующем снимке экрана показан файл XLSX, преобразованный из указанного выше файла CSV без установки[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) собственность на**истинный**. Как видите, текст Unicode не был преобразован должным образом.
+На следующем скриншоте показано файл XLSX, преобразованный из указанного CSV-файла без установки свойства [**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) в **true**. Как видите, текст Unicode не был преобразован правильно.
 
-|**Выходной файл 1: приспособление для многократного кодирования не предусмотрено.**|
-|:- |
-|![дело:изображение_альтернативный_текст](reading-csv-file-with-multiple-encodings_2.png)|
+|**Файл вывода 1: не предусмотрены множественные кодировки**|
+| :- |
+|![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)|
 
- На следующем снимке экрана показан файл XSLX, преобразованный из указанного выше файла CSV после установки[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) собственность на**истинный**. Как видите, текст Unicode теперь конвертируется правильно.
+Ниже показан снимок экрана XSLX-файла, преобразованного из приведенного выше CSV-файла после установки свойства [**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) в **true**. Как видите, Юникод-текст теперь конвертирован правильно.
 
-|**Выходной файл 2: IsMultiEncoded имеет значение true**|
-|:- |
-|![дело:изображение_альтернативный_текст](reading-csv-file-with-multiple-encodings_3.png)|
+|**Файл вывода 2: IsMultiEncoded установлен в true**|
+| :- |
+|![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)|
 
-Ниже приведен пример кода, который правильно преобразует указанный выше файл CSV в формат XLSX.
+Ниже приведен образец кода, преобразующий вышеуказанный файл CSV в формат XLSX правильно.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCSVMultipleEncodings-1.cs" >}}
 
-## Статьи по Теме
+## Связанные статьи
 
-- [Открытие CSV файлов](/cells/ru/net/opening-files-with-different-formats/#opening-csv-files)
+- [Открытие файлов CSV](/cells/ru/net/opening-files-with-different-formats/#opening-csv-files)

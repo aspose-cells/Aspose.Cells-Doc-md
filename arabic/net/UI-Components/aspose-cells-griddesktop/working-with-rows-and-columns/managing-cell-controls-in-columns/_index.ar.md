@@ -1,24 +1,27 @@
-﻿---
-title: إدارة Cell عناصر التحكم في الأعمدة
+---
+title: إدارة عناصر التحكم في الأعمدة
 type: docs
 weight: 100
-url: /ar/net/managing-cell-controls-in-columns/
+url: /ar/net/aspose-cells-griddesktop/manage-cell-controls-in-columns/
+keywords: GridDesktop، controls، control
+description: يقدم هذا المقال كيفية ضبط العنصر التحكم في عمود GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-يناقش هذا الموضوع بعض المفاهيم المهمة حول إدارة عناصر تحكم الخلية في الأعمدة باستخدام Aspose.Cells.GridDesktop API. سوف نشرح كيف يمكن للمطورين الوصول إلى عناصر تحكم الخلية وتعديلها وإزالتها من أعمدة أوراق العمل الخاصة بهم. دعونا نلقي نظرة عليه.
+يناقش هذا الموضوع بعض المفاهيم الهامة حول إدارة عناصر التحكم في الخلايا في الأعمدة باستخدام واجهة برمجة التطبيقات Aspose.Cells.GridDesktop. سنشرح كيف يمكن للمطور الوصول إلى العناصر التحكم، وتعديلها، وإزالتها من الأعمدة في ورقة العمل الخاصة بهم. دعونا نلقي نظرة عليها.
 
 {{% /alert %}} 
-## **الوصول إلى Cell الضوابط**
- للوصول إلى عنصر تحكم خلية موجود وتعديله في العمود ، يمكن للمطورين استخدام الخاصية CellControl في ملف**Aspose.Cells.GridDesktop.Data.GridColumn** . بمجرد الوصول إلى عنصر تحكم الخلية ، يمكن للمطورين تعديل خصائصه في وقت التشغيل. على سبيل المثال ، في المثال الموضح أدناه ، وصلنا إلى ملف**خانة الاختيار** التحكم في الخلية من ملف**Aspose.Cells.GridDesktop.Data.GridColumn** وتعديل خاصية التحقق الخاصة به.
+## **الوصول إلى تحكم الخلية**
+يمكن للمطورين الوصول إلى وتعديل ضوابط الخلية الحالية في العمود ببساطة باستخدام خاصية CellControl لـ **Aspose.Cells.GridDesktop.Data.GridColumn**. وبمجرد الوصول إلى ضابط الخلية، يمكن للمطورين تعديل خصائصها أثناء التشغيل. على سبيل المثال، في المثال المعطى أدناه، لقد وصلنا إلى ضابط خلية **CheckBox** موجود من عمود معين لـ **Aspose.Cells.GridDesktop.Data.GridColumn** وقمنا بتعديل خاصيتها Checked.
 
-**الأهمية:** توفر خاصية CellControl عنصر تحكم خلية في شكل**CellControl**موضوع. لذلك ، إذا كنت بحاجة إلى الوصول إلى نوع معين من التحكم في الخلية ، على سبيل المثال**خانة الاختيار** ثم سوف تضطر إلى تلبيس ملف**CellControl** يعترض على**خانة الاختيار** صف دراسي.
+**مهم:** خاصية CellControl توفر ضابط خلية في شكل كائن **CellControl**. لذا، إذا كنت بحاجة إلى الوصول إلى نوع محدد من ضابط الخلية، مثل **CheckBox** على سبيل المثال، فيجب على الشخص نوع المضيف لكائن **CellControl** إلى فئة **CheckBox**.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-ManagingControlsInColumns-AccessCheckbox.cs" >}}
-## **إزالة Cell الضوابط**
- لإزالة عنصر تحكم خلية موجود ، يمكن للمطورين ببساطة الوصول إلى ورقة العمل المطلوبة وبعد ذلك**يزيل** عنصر تحكم الخلية من عمود معين باستخدام**RemoveCellControl** طريقة**Aspose.Cells.GridDesktop.Data.GridColumn**.
+## **إزالة تحكم الخلية**
+لإزالة ضابط خلية موجود، يمكن للمطورين ببساطة الوصول إلى ورقة العمل المطلوبة ثم **إزالة** ضابط الخلية من العمود المحدد باستخدام الطريقة **RemoveCellControl** في **Aspose.Cells.GridDesktop.Data.GridColumn**.
 
 
 
@@ -26,6 +29,6 @@ url: /ar/net/managing-cell-controls-in-columns/
 
 {{% alert color="primary" %}} 
 
- كل عمود في**الأعمدة** جمع**ورقة عمل** يتم تمثيله بمثيل**Aspose.Cells.GridDesktop.Data.GridColumn** صف دراسي.
+يتم تمثيل كل عمود في مجموعة **Columns** لـ **Worksheet** بمثيل من فئة **Aspose.Cells.GridDesktop.Data.GridColumn**.
 
 {{% /alert %}}

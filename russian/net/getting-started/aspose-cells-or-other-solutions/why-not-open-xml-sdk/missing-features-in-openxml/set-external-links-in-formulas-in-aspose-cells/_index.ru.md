@@ -1,20 +1,21 @@
-﻿---
-title: Установите внешние ссылки в формулах в Aspose.Cells
+---
+title: Установка внешних ссылок в формулах Aspose.Cells
 type: docs
 weight: 90
 url: /ru/net/set-external-links-in-formulas-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Иногда необходимо включить в формулы ссылки на внешние файлы, например, чтобы сравнить с ними значение ячейки или диапазона. Aspose.Cells предоставляет эту функцию, и в этом документе объясняется, как ее использовать.
+Иногда необходимо включить ссылки на внешние файлы в формулах, например, для оценки значения ячейки или диапазона по ним. Aspose.Cells предоставляет такую ​​возможность, и в этом документе объясняется, как ею пользоваться.
 
 {{% /alert %}} 
 
-В приведенном ниже примере кода показано, как включить внешние файлы в формулы.
+Ниже приведен пример кода, показывающий, как включить внешние файлы в формулы.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -45,7 +46,7 @@ cells["A2"].Formula = "='[book1.xls]Sheet1'!A8";
 workbook.Save(FileName);
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Set%20External%20Links%20in%20Formula)
-## **Скачать пример запуска**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **Загрузить образец кода**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Set%20External%20Links%20in%20Formula)
+## **Скачать пример выполнения**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

@@ -1,18 +1,19 @@
-﻿---
-title: Geben Sie einen individuellen oder privaten Satz von Schriftarten für das Rendern von Arbeitsmappen an
+---
+title: Individuelle oder private Schriftsätze für das Rendern von Arbeitsbüchern angeben
 type: docs
 weight: 40
 url: /de/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Im Allgemeinen geben Sie das Schriftartenverzeichnis oder die Schriftartenliste für alle Arbeitsmappen an, aber manchmal müssen Sie einzelne oder private Schriftarten für Ihre Arbeitsmappen angeben. Aspose.Cells stellt die Klasse ****[IndividualFontConfigs](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)** bereit, die verwendet werden kann, um den individuellen oder privaten Satz von Schriftarten für Ihre Arbeitsmappe anzugeben.
+## **Mögliche Verwendungsszenarien**
 
-## **Geben Sie einen individuellen oder privaten Satz von Schriftarten für das Rendern von Arbeitsmappen an**
+Normalerweise legen Sie das Schriftartenverzeichnis oder die Liste der Schriftarten für alle Arbeitsmappen fest, aber manchmal müssen Sie individuelle oder private Schriftsätze für Ihre Arbeitsmappen festlegen. Aspose.Cells stellt die [**IndividualFontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs) Klasse bereit, die zur Festlegung der individuellen oder privaten Schriftarten für Ihre Arbeitsmappe verwendet werden kann.
 
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](67338268.xlsx) mit seinem individuellen oder privaten Satz von Schriftarten, die mit angegeben werden**[IndividualFontConfigs](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)** Klasse. Bitte sehen Sie sich ... an[Musterschrift](67338271.zip)innerhalb des Codes sowie der verwendet[Ausgang PDF](67338269.pdf) dadurch erzeugt. Der folgende Screenshot zeigt, wie die Ausgabe PDF aussieht, wenn die Schriftart erfolgreich gefunden wurde.
+## **Individuelle oder private Schriftsätze für das Rendern von Arbeitsbüchern angeben**
 
-![todo: Bild_alt_Text](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](67338268.xlsx) mit ihren individuellen oder privaten Schriftarten, die mit der [**IndividualFontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs) Klasse festgelegt sind. Bitte beachten Sie auch die im Code verwendete [Beispielschriftart](67338271.zip) sowie die daraus generierte [Ausgabe-PDF](67338269.pdf). Der folgende Screenshot zeigt, wie das Ausgabe-PDF aussieht, wenn die Schriftart erfolgreich gefunden wird.
+
+![todo:image_alt_text](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
 
 ## **Beispielcode**
 

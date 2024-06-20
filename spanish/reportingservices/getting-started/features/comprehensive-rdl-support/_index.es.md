@@ -1,26 +1,27 @@
-﻿---
-title: Soporte completo de RDL
+---
+title: Soporte RDL integral
 type: docs
 weight: 20
 url: /es/reportingservices/comprehensive-rdl-support/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services es totalmente compatible con la especificación RDL. Esto significa que puede transferir fácilmente informes RDL existentes a una solución Aspose.
+Aspose.Cells for Reporting Services soporta totalmente la especificación RDL. Esto significa que puede fácilmente trasladar informes RDL existentes a una solución de Aspose.
 
 {{% /alert %}} 
 **Elementos RDL compatibles**
- Aspose.Cells admite los siguientes elementos RDL:
+Aspose.Cells soporta los siguientes elementos RDL: 
 
 - Página, encabezados, pies de página
-- Cajas de texto
+- Cuadros de texto
 - Imágenes
 - Gráficos
-- Liza
-- Mesas
+- Listas
+- Tablas
 - Matrices
 - Estilos
 - Rectángulos, líneas
 - Subinformes
 - Tablix
-- Indicador
+- Medidor

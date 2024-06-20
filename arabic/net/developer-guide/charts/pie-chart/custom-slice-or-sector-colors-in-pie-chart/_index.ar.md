@@ -1,32 +1,33 @@
 ---
-title: شريحة مخصصة أو ألوان القطاع في المخطط الدائري
-description: تعرف على كيفية استخدام Aspose.Cells for .NET لتخصيص ألوان الشرائح والقطاعات في المخطط الدائري. سيوضح دليلنا كيفية تعيين ألوان فريدة لكل شريحة أو قطاع أو فيلق لتحسين المظهر البصري وتمثيل البيانات.
-keywords: Aspose.Cells for .NET, Pie Chart, Custom Slice Colors, Custom Sector Colors, Visual Appeal, Data Representation.
+title: ألوان شريحة أو قطاع مخصصة في الرسم البياني الدائري
+description: تعلم كيفية استخدام Aspose.Cells for .NET لتخصيص ألوان شرائح وأقطاعات في مخطط البيتزا. سيقوم دليلنا بإظهار كيفية تعيين ألوان فريدة لكل شريحة أو قطاع أو ليجيون لتحسين الجاذبية البصرية وتمثيل البيانات.
+keywords: Aspose.Cells for .NET, الرسم الدائري, ألوان شريحة مخصصة, ألوان قطاع مخصصة, جاذبية بصرية, تمثيل البيانات.
 type: docs
 weight: 60
 url: /ar/net/custom-slice-or-sector-colors-in-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-تشرح هذه المقالة كيفية إضافة ألوان مخصصة إلى شرائح/قطاعات المخطط الدائري. بشكل افتراضي، تستخدم المخططات الدائرية قالب Excel الافتراضي Microsoft. لاستخدام ألوان أخرى، قم بإعادة تعريف الألوان في المخطط.
+يشرح هذا المقال كيفية إضافة ألوان مخصصة لشرائح/قطاعات الدائرة الدائرية. بشكل افتراضي، تستخدم الرسوم البيانية الدائرية القوالب الافتراضية لبرنامج Microsoft Excel. لاستخدام ألوان أخرى، أعيد تعريف الألوان في الرسم البياني.
 
 {{% /alert %}}
 
-لتعيين لون مخصص للشرائح أو القطاعات الفردية للمخطط الدائري:
+لتعيين لون مخصص لشرائح أو قطاعات الدائرة الدائرية:
 
-1.  الوصول إلى[**مسلسل**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) أشياء[**تشارتبوينت**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
-1. قم بتعيين اللون الذي تختاره باستخدام[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)ملكية.
+1. الوصول إلى [**Series**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) و[**ChartPoint**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
+1. تعيين اللون الذي تختاره باستخدام [**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor).
 
-تشرح هذه المقالة أيضًا كيفية:
+يشرح هذا المقال أيضًا كيفية:
 
-- بيانات فئة المخطط.
-- عنوان مخطط مرتبط بخلية.
-- إعدادات خط عنوان المخطط.
-- موقف الأسطورة.
+- بيانات فئة الرسم البياني.
+- عنوان الرسم البياني المرتبط بخلية.
+- إعدادات خط عنوان الرسم البياني.
+- موقع وسام.
 
 {{% alert color="primary" %}}
 
-[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor) لا يقتصر على المخططات الدائرية ولكن يمكن استخدامه لجميع أنواع المخططات.
+[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor) ليس محددًا لرسومات الدائرة الدائرية ولكن يمكن استخدامه لجميع أنواع الرسوم البيانية.
 
 {{% /alert %}}
 

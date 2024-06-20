@@ -1,16 +1,17 @@
-﻿---
-title: Insertar y eliminar filas y columnas en Ruby
+---
+title: Insertar y Eliminar Filas y Columnas en Ruby
 type: docs
 weight: 60
 url: /es/java/inserting-and-deleting-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Gestión de filas/columnas**
-### **Insertar una fila**
-Inserte una fila en cualquier ubicación llamando al método insertRows de la colección Cells. El método insertRows toma el índice de la fila donde se insertará la nueva fila como primer argumento y el número de filas que se insertarán como segundo argumento.
 
-**código rubí**
+## **Aspose.Cells - Administración de Filas/Columnas**
+### **Insertar una Fila**
+Insertar una fila en cualquier ubicación llamando al método insertRows de la colección Cells. El método insertRows toma el índice de la fila donde se insertará la nueva fila como primer argumento, y el número de filas a insertar como segundo argumento.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def insert_row()
 
@@ -39,15 +40,15 @@ Inserte una fila en cualquier ubicación llamando al método insertRows de la co
 end   
 
 {{< /highlight >}}
-### **Insertar varias filas**
-Para insertar varias filas en la hoja de cálculo, llame al método insertRows de la colección Cells. El método InsertRows toma dos parámetros:
+### **Insertar Múltiples Filas**
+Para insertar múltiples filas en la hoja de cálculo, llame al método insertRows de la colección Cells. El método insertRows toma dos parámetros:
 
-- Índice de fila, el índice de la fila desde donde se insertarán las nuevas filas.
-- Número de filas, número total de filas que deben insertarse.
+- Índice de la fila, el índice de la fila desde donde se insertarán las nuevas filas.
+- Número de filas, número total de filas que deben ser insertadas.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def insert_multiple_rows()
 
@@ -76,15 +77,15 @@ Para insertar varias filas en la hoja de cálculo, llame al método insertRows d
 end
 
 {{< /highlight >}}
-### **Eliminación de una fila**
-Para eliminar una fila en cualquier ubicación, llame al método deleteRows de la colección Cells. El método DeleteRows toma dos parámetros:
+### **Eliminar una Fila**
+Para eliminar una fila en cualquier ubicación, llame al método deleteRows de la colección Cells. El método deleteRows toma dos parámetros:
 
 - Índice de fila, el índice de la fila desde donde se eliminarán las filas.
-- Número de filas, número total de filas que deben eliminarse.
+- Número de filas, número total de filas que deben ser eliminadas.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def delete_row()
 
@@ -111,15 +112,15 @@ Para eliminar una fila en cualquier ubicación, llame al método deleteRows de l
 end
 
 {{< /highlight >}}
-### **Eliminación de varias filas**
-Para eliminar varias filas de una hoja de cálculo, llame al método deleteRows de la colección Cells. El método DeleteRows toma dos parámetros:
+### **Eliminar Múltiples Filas**
+Para eliminar múltiples filas de una hoja de cálculo, llame al método deleteRows de la colección Cells. El método deleteRows toma dos parámetros:
 
 - Índice de fila, el índice de la fila desde donde se eliminarán las filas.
-- Número de filas, número total de filas que deben eliminarse.
+- Número de filas, número total de filas que deben ser eliminadas.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def delete_multiple_rows()
 
@@ -149,14 +150,14 @@ end 
 
 {{< /highlight >}}
 ### **Insertar una columna**
-Los desarrolladores también pueden insertar una columna en la hoja de trabajo en cualquier ubicación llamando al método insertColumns de la colección Cells. El método insertColumns toma dos parámetros:
+Los desarrolladores también pueden insertar una columna en la hoja de cálculo en cualquier ubicación llamando al método insertColumns de la colección Cells. El método insertColumns toma dos parámetros:
 
-- Índice de columna, el índice de la columna desde donde se insertará la columna
-- Número de columnas, número total de columnas que deben insertarse
+- Índice de la columna, el índice de la columna desde donde se insertará la columna
+- Número de columnas, el número total de columnas que se deben insertar
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def insert_column()
 
@@ -185,16 +186,16 @@ Los desarrolladores también pueden insertar una columna en la hoja de trabajo e
 end  
 
 {{< /highlight >}}
-### **Eliminación de una columna**
-Para eliminar una columna de la hoja de cálculo en cualquier ubicación, llame al método deleteColumns de la colección Cells. El método deleteColumns toma los siguientes parámetros:
+### **Eliminar una columna**
+Para eliminar una columna de la hoja de cálculo en cualquier ubicación, llame al método deleteColumns de la colección Cells. El método deleteColumns toma los siguientes parámetros:
 
-- Índice de columna, el índice de la columna desde donde se eliminará la columna.
-- Número de columnas, número total de columnas que deben eliminarse.
-- Desplazar celdas, parámetro booleano para indicar si se desplazan las celdas a la izquierda después de la eliminación.
+- Índice de columna, el índice de la columna desde donde se va a eliminar la columna.
+- Número de columnas, el número total de columnas que se deben eliminar.
+- Desplazar celdas, parámetro booleano para indicar si se deben desplazar las celdas a la izquierda después de la eliminación.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def delete_column()
 
@@ -223,7 +224,7 @@ Para eliminar una columna de la hoja de cálculo en cualquier ubicación, llame 
 end   
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Gestión de filas/columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Gestión de Filas/Columnas (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

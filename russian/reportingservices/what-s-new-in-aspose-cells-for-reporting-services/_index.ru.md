@@ -1,50 +1,51 @@
-﻿---
-title: Что нового в Aspose.Cells for Reporting Services
+---
+title: Новое в Aspose.Cells for Reporting Services
 type: docs
-description: Aspose.Cells for Reporting Services ежедневно расширяется и улучшается. На этой странице вы можете узнать об огромных и самых интересных возможностях продукта
+description: "Aspose.Cells for Reporting Services расширяется и улучшается ежедневно. На этой странице вы можете узнать о главных и наиболее интересных особенностях продукта."
 weight: 5
 url: /ru/reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 ---
-На этой странице описаны самые интересные новые функции Aspose.Cells for Reporting Services, представленные в последних выпусках.
+
+На этой странице описываются наиболее интересные новые функции Aspose.Cells for Reporting Services, представленные в последних версиях.
 
 ## Aspose.Cells for Reporting Services  22.10
 
-* Исправлено несколько ошибок.
-* Поддержка форматирования чисел.
+* Исправление нескольких ошибок.
+* Поддержка отображения формата чисел.
 
 ## Aspose.Cells for Reporting Services  22.9
 
-* Поддержка рендеринга формата SXC.
+* Поддержка отображения формата SXC.
 
 ## Aspose.Cells for Reporting Services  22.8
 
-* Поддержка рендеринга формата XLTX.
+* Поддержка отображения формата XLTX.
 
 ## Aspose.Cells for Reporting Services  22.7
 
-* Поддержка рендеринга в формате XML.
+* Поддержка отображения формата XML.
 
 ## Aspose.Cells for Reporting Services  22.6
 
-* Улучшение рендеринга html.
+* Улучшение отображения html.
 
 ## Aspose.Cells for Reporting Services  22.5
 
- * Улучшение рендеринга XPS и Tiff.
+* Улучшение отображения XPS и Tiff.	
 
 ## Aspose.Cells for Reporting Services  22.4
 
-* Поддержка рендеринга формата скрипта sql.
+* Поддержка формата sql script.
 
 ## Aspose.Cells for Reporting Services  22.3
 
-* Поддержка рендеринга формата docx.
-* Улучшение визуализации текста.
+* Поддержка формата docx.
+* Улучшение текстового рендерера.
 
 ## Aspose.Cells for Reporting Services  22.2
 
-* Поддержка рендеринга в формате pptx.
+* Поддержка формата pptx.
 
 ## Aspose.Cells for Reporting Services  22.1
 
-* Поддержка рендеринга в формате json.
+* Поддержка формата json.

@@ -1,21 +1,24 @@
-﻿---
-title: ワークシートを追加
+---
+title: ワークシートの追加
 type: docs
 weight: 20
-url: /ja/net/add-worksheets/
+url: /ja/net/aspose-cells-gridweb/add-worksheet/
+keywords: GridWeb,add,worksheet,add GridWorksheet
+description: この記事では、GridWebでワークシート（GridWorksheet）を追加する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-ワークシートは、Aspose.Cells.GridWeb の不可欠な部分です。すべてのデータは、ワークシートの形式で管理および保存されます。 Aspose.Cells.GridWeb を使用すると、開発者は 1 つ以上のワークシートを Aspose.Cells.GridWeb コントロールに追加できます。このトピックでは、ワークシートを Aspose.Cells.GridWeb に追加する簡単な方法を示します。
+ワークシートはAspose.Cells.GridWebの重要な部分です。すべてのデータはワークシートの形式で管理および格納されます。Aspose.Cells.GridWebを使用して、1つ以上のワークシートをAspose.Cells.GridWebコントロールに追加できます。
 
 {{% /alert %}} 
 ## **ワークシートの追加**
 ### **シート名を指定せずに**
-ワークシートを Aspose.Cells.GridWeb に追加する最も簡単な方法は、GridWeb コントロールで GridWorksheetCollection コレクションの Add メソッドを呼び出すことです。これにより、既定の名前 (Sheet1、Sheet2、Sheet3 など) を使用するワークシートが作成され、GridWeb コントロールに追加されます。
+Aspose.Cells.GridWebにワークシートを追加する最も簡単な方法は、GridWebコントロール内のGridWorksheetCollectionコレクションのAddメソッドを呼び出すことです。これにより、デフォルトの名前（Sheet1、Sheet2、Sheet3など）が使用されるワークシートが作成され、GridWebコントロールに追加されます。
 
-**出力: デフォルト名のワークシートが GridWeb に追加されました** 
+**出力: デフォルトの名前のワークシートがGridWebに追加されました** 
 
-![todo:画像_代替_文章](add-worksheets_1.png)
+![todo:image_alt_text](add-worksheets_1.png)
 
 
 
@@ -23,15 +26,15 @@ url: /ja/net/add-worksheets/
 
 {{% alert color="primary" %}} 
 
- Add メソッドは、このワークシートのインスタンスへのアクセスに使用できる新しいワークシートのインデックスを返します。ワークシートへのアクセス方法の詳細については、次を参照してください。[ワークシートへのアクセス](/cells/ja/net/access-worksheets/).
+Addメソッドは、新しいワークシートのインデックスを返します。これを使用してこのワークシートのインスタンスにアクセスできます。ワークシートにアクセスする詳細については、[ワークシートへのアクセス](/cells/ja/net/aspose-cells-gridweb/access-worksheets/)をお読みください。
 
 {{% /alert %}} 
-### **シート名指定あり**
-既定の名前付けスキームを使用する代わりに、特定の名前を持つワークシートを GridWeb コントロールに追加するには、指定された SheetName を受け取る Add メソッドのオーバーロード バージョンを呼び出します。たとえば、次の例では Invoice という名前のワークシートを追加します。
+### **指定されたシート名を使用して**
+デフォルトの命名方式を使用せずに、GridWebコントロールに特定の名前を持つワークシートを追加するには、指定されたSheetNameを取るAddメソッドのオーバーロードバージョンを呼び出します。例えば、以下の例はInvoiceという名前のワークシートを追加します。
 
-**出力: 指定した名前のワークシートが GridWeb に追加されました** 
+**出力: 指定された名前のワークシートがGridWebに追加されました** 
 
-![todo:画像_代替_文章](add-worksheets_2.png)
+![todo:image_alt_text](add-worksheets_2.png)
 
 
 
@@ -39,6 +42,6 @@ url: /ja/net/add-worksheets/
 
 {{% alert color="primary" %}} 
 
-ワークシート名を文字列として受け取る Add メソッドは、GridWorksheet のインスタンスを返します。
+文字列としてワークシート名を受け取るAddメソッドは、GridWorksheetのインスタンスを返します。
 
 {{% /alert %}}

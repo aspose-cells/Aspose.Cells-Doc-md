@@ -1,15 +1,16 @@
-﻿---
-title: Trouver la valeur dans Cells dans xlsx4j
+---
+title: Rechercher une valeur dans les cellules dans xlsx4j
 type: docs
 weight: 30
 url: /fr/java/find-value-in-cells-in-xlsx4j/
 ---
-## **Aspose.Cells - Trouver la valeur dans Cells**
-Dans Microsoft Excel, les utilisateurs peuvent rechercher des cellules contenant des données spécifiques. Par exemple, en cliquant**Éditer**et puis**Trouver**ouvre la boîte de dialogue Rechercher. Les utilisateurs entrent une valeur et cliquent**D'ACCORD**pour le chercher. Excel met en évidence les champs correspondants.
+
+## **Aspose.Cells - Trouver des valeurs dans les cellules**
+Dans Microsoft Excel, les utilisateurs peuvent rechercher des cellules contenant des données spécifiques. Par exemple, en cliquant sur **Modifier** puis sur **Rechercher**, cela ouvre la boîte de dialogue de recherche. Les utilisateurs saisissent une valeur et cliquent sur **OK** pour la rechercher. Excel met en surbrillance les champs correspondants.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -38,13 +39,13 @@ Cell cell = cells.find("SH",null,findOptions);
 System.out.println("Name of the cell containing String: " + cell.getName());
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/findvalueincells/AsposeFindValueInCells.java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Rechercher ou rechercher des données](/cells/fr/java/find-or-search-data).
+Pour plus de détails, visitez [Rechercher ou trouver des données](/cells/fr/java/find-or-search-data).
 
 {{% /alert %}}

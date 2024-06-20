@@ -1,5 +1,5 @@
 ---
-title: 电子表格编辑器 - 与单元格一起工作
+title: 电子表格编辑器  与单元格一起工作
 type: docs
 weight: 40
 url: /zh/java/spreadsheet-editor-working-with-cells/

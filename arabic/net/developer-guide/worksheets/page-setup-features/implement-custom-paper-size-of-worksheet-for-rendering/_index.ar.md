@@ -1,23 +1,24 @@
 ---
-title: تنفيذ حجم الورق المخصص لورقة العمل للعرض
+title: تنفيذ حجم ورق مخصص لورقة العمل للتقديم
 type: docs
 weight: 70
 url: /ar/net/implement-custom-paper-size-of-worksheet-for-rendering/
-description: تشرح هذه المقالة كيفية استخدام نموذج التعليمات البرمجية للمكتبة C# API أو .NET لتعيين حجم الورق المخصص لأوراق العمل المطلوبة عند تقديم ملف Excel إلى تنسيق ملف PDF برمجيًا.
-keywords: set custom paper size while rendering excel to pdf c#
+description: يوضح هذا المقال كيفية استخدام عينة الشيفرة C# API أو المكتبة .NET لتعيين حجم ورق مخصص للورقة المرغوبة عند تقديم ملف إكسل إلى تنسيق ملف PDF بشكل برمجي.
+keywords: تعيين حجم ورق مخصص أثناء تحويل إكسيل إلى PDF باستخدام C#
 ---
-##  **سيناريوهات الاستخدام الممكنة**
 
-لا يوجد خيار مباشر متاح لإنشاء أحجام ورق مخصصة في MS Excel ، ومع ذلك ، يمكنك تعيين حجم ورق مخصص لأوراق العمل التي تريدها عند تقديم ملف Excel إلى تنسيق ملف PDF. يشرح هذا المستند كيفية تعيين حجم ورق مخصص لورقة العمل باستخدام Aspose.Cells APIs.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **تنفيذ حجم الورق المخصص لورقة العمل للعرض**
+لا توجد خيارات مباشرة متاحة لإنشاء أحجام ورق مخصصة في MS Excel، ومع ذلك، يمكنك تعيين حجم ورق مخصص للورقة المرغوبة عند تقديم ملف إكسل إلى تنسيق ملف PDF. يشرح هذا المستند كيفية تعيين حجم ورق مخصص لورقة العمل باستخدام واجهات برمجة التطبيقات لAspose.Cells.
 
- Aspose.Cells يسمح لك بتنفيذ حجم الورق المطلوب لورقة العمل. يمكنك استخدام ملف[**حجم الورق المخصص**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/custompapersize) طريقة[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فئة لتحديد حجم صفحة مخصص. يوضح نموذج التعليمات البرمجية التالي كيفية تحديد حجم ورق مخصص لورقة العمل الأولى في المصنف. يرجى أيضًا الاطلاع على ملف[الإخراج PDF](45056028.pdf)ولدت مع الكود التالي كمرجع.
+## **تنفيذ حجم ورق مخصص لورقة العمل للتقديم**
 
-##  **لقطة شاشة**
+Aspose.Cells تتيح لك تنفيذ حجم الورق المرغوب لورقة العمل. يمكنك استخدام الطريقة [**CustomPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/custompapersize) للفئة [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) لتحديد حجم الصفحة المخصص. يوضح الشيفرة المثالية التالية كيفية تحديد حجم ورق مخصص للصفحة الأولى في دفتر العمل. الرجاء رؤية [PDF الناتج](45056028.pdf) الذي تم إنشاؤه بالشيفرة التالية للإشارة.
 
-![ما يجب القيام به: image_alt_text](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+## **لقطة شاشة**
 
-##  **عينة من الرموز**
+![todo:image_alt_text](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.cs" >}}

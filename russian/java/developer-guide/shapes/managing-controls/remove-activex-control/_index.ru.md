@@ -1,12 +1,13 @@
-﻿---
+---
 title: Удалить элемент управления ActiveX
 type: docs
 weight: 160
 url: /ru/java/remove-activex-control/
 ---
+
 ## **Удалить элемент управления ActiveX**
 
-Aspose.Cells позволяет удалить элемент управления ActiveX из книг. Для этого API предоставляет[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl()) метод. Следующий фрагмент кода демонстрирует использование[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl()) способ удаления элемента управления ActiveX.
+Aspose.Cells предоставляет возможность удаления элементов ActiveX из книг. Для этого API предоставляет метод [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl--). Следующий фрагмент кода демонстрирует использование метода [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl--) для удаления элементов ActiveX.
 
 ## **Образец кода**
 

@@ -1,16 +1,19 @@
-﻿---
+---
 title: تقديم PivotTable في GridDesktop
 type: docs
 weight: 10
-url: /ar/net/render-pivottable-in-griddesktop/
+url: /ar/net/aspose-cells-griddesktop/render-pivottable-in-griddesktop/
+keywords: GridDesktop، جداول الإرتباط الدوري، جدول إرتباط دوري، تقديم جدول إرتباط دوري
+description: يقدم هذا المقال استخدام جداول الإرتباط الدوري في GridDesktop.
 ---
-## **سيناريوهات الاستخدام الممكنة**
-إذا كان ملف Excel الخاص بك يحتوي على Pivot Table ، فسيكون GridDesktop قادرًا على تحميل وعرض Pivot Table بشكل جيد. إلى جانب ذلك ، ستتمكن من التفاعل مع Pivot Table في واجهة المستخدم الرسومية ومعالجتها.
+
+## **سيناريوهات الاستخدام المحتملة**
+إذا كان ملف الإكسل الخاص بك يحتوي على جدول إرتباط دوري، سيتمكن GridDesktop من تحميله وتقديمه بشكل جيد. بالإضافة إلى ذلك، ستتمكن من التفاعل مع جدول الإرتباط الدوري بواجهة المستخدم الرسومية والتلاعب به.
 ## **تقديم PivotTable في GridDesktop**
- يستورد نموذج التعليمات البرمجية التالي ملف[نموذج لملف Excel يحتوي على Pivot Table](48496686.xlsx). تُظهر لقطة الشاشة نتيجة تنفيذ نموذج التعليمات البرمجية هذا كمرجع.
+يقوم الكود المرجعي التالي باستيراد [ملف إكسل عيني يحتوي على جدول الإرتباط الدوري](48496686.xlsx). تُظهر اللقطة الشاشة نتيجة تنفيذ هذا الكود المرجعي للإشارة.
 
-![ما يجب القيام به: image_بديل_نص](render-pivottable-in-griddesktop_1.png)
+![todo:image_alt_text](render-pivottable-in-griddesktop_1.png)
 
-## **عينة من الرموز**
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-PivotTablesInGridDesktop-Form_RenderPivotTableInGridDesktop.cs" >}}
 

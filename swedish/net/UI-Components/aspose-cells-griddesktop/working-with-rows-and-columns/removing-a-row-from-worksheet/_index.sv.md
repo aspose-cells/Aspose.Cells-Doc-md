@@ -1,21 +1,24 @@
-﻿---
+---
 title: Ta bort en rad från arbetsbladet
 type: docs
 weight: 40
-url: /sv/net/removing-a-row-from-worksheet/
+url: /sv/net/aspose-cells-griddesktop/remove-a-row-from-worksheet/
+keywords: GridDesktop, ta bort, rad
+description: Den här artikeln introducerar hur man tar bort en rad i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Detta är ett annat grundläggande ämne för utvecklarna för att förklara ett grundläggande tillvägagångssätt för att ta bort en rad från kalkylbladet. Det är en enkel och praktisk funktion som kan användas av utvecklare när de arbetar med Aspose.Cells.GridDesktop.
+Det här är ett annat grundläggande ämne för utvecklare för att förklara ett grundläggande tillvägagångssätt för att ta bort en rad från arbetsbladet. Det är en enkel och praktisk funktion som utvecklare kan använda när de arbetar med Aspose.Cells.GridDesktop.
 
 {{% /alert %}} 
 
-För att ta bort en rad från kalkylbladet, följ stegen nedan:
+För att ta bort en rad från arbetsbladet, följ nedanstående steg:
 
--  Få åtkomst till alla önskade**Arbetsblad**
--  Ta bort**Rad** från**Arbetsblad** genom att ange indexet för raden som ska tas bort
+- Kom åt något önskat **Kalkylblad**
+- Ta bort **Rad** från **Arbetsbladet** genom att ange indexet för den rad som ska tas bort
 
-Kodexempel nedan visar hur du tar bort en rad från kalkylbladet.
+Nedanstående kodsamling visar hur du tar bort en rad från arbetsbladet.
 
 
 

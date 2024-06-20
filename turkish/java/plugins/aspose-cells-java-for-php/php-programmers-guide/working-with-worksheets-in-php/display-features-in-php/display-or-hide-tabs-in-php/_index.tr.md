@@ -1,16 +1,17 @@
-﻿---
-title: Php'de Sekmeleri Görüntüle veya Gizle
+---
+title: Php de Sekmeleri Göster veya Gizle
 type: docs
 weight: 30
 url: /tr/java/display-or-hide-tabs-in-php/
 ---
-## **Aspose.Cells - Sekmeleri Görüntüle veya Gizle**
+
+## **Aspose.Cells - Sekmeleri Göster veya Gizle**
 ### **Sekmeleri Gizleme**
- kullanarak sekmeleri gizlemek için**Aspose.Cells Java for PHP** , Arama**sekmeleri göster** modül.
+Aspose.Cells Java for PHP kullanarak sekmeleri gizlemek için **displayhidetabs** modülünü çağırın.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -26,6 +27,6 @@ $workbook->save($dataDir + "output.xls");
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Sekmeleri Gizle veya Görüntüle veya Gizle (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Aspose.Cells** ile Sekmeleri Gizle veya Göster'i indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)

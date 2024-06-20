@@ -1,26 +1,27 @@
-﻿---
-title: Controlla se il codice VBA è firmato
+---
+title: Verifica se il Codice VBA è Firmato
 type: docs
 weight: 100
 url: /it/net/check-if-vba-code-is-signed/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells consente all'utente di verificare se il progetto in codice VBA è firmato o meno. Si prega di utilizzare il[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned) proprietà per verificare se il progetto di codice VBA è firmato o meno.
+Aspose.Cells permette all'utente di verificare se il progetto di codice VBA è firmato o no. Si prega di utilizzare la proprietà [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned) per verificare se il progetto di codice VBA è firmato o no.
 
 {{% /alert %}}
 
- Il codice seguente spiega come verificare se il codice VBA è firmato o meno utilizzando il file[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned) proprietà. Puoi utilizzare uno qualsiasi dei tuoi file excel per testare questo codice. A scopo di test, è possibile utilizzare[questo file excel utilizzato nel codice](5115032.xlsm).
+Il codice seguente spiega come verificare se il codice VBA è firmato o no utilizzando la proprietà [**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned). Puoi utilizzare qualunque dei tuoi file excel per testare questo codice. A scopo di testing, puoi utilizzare [questo file Excel utilizzato nel codice](5115032.xlsm).
 
-## **Controlla se il codice VBA è firmato in C#**
+## **Verifica se il Codice VBA è Firmato in C#**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaCodeIsSigned-CheckVbaCodeIsSigned.cs" >}}
 
-## Uscita console
+## Output della console
 
- Di seguito è riportato l'output della console del codice precedente utilizzando il file[file excel di esempio](5115032.xlsm) fornito dal link.
+Di seguito è riportato l'output della console del codice precedente utilizzando il [file Excel di esempio](5115032.xlsm) fornito dal link.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is VBA Code Project Signed: True
 

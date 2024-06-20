@@ -1,30 +1,33 @@
-﻿---
-title: Çalışma Sayfasını GridWeb Kullanarak Özelleştirilmiş Bir Koleksiyon Nesnesine Bağlama
+---
+title: GridWeb Kullanarak Özelleştirilmiş Bir Koleksiyon Nesnesine Çalışma Sayfası Bağlama
 type: docs
 weight: 130
-url: /tr/net/binding-worksheet-to-a-customized-collection-object-using-gridweb/
+url: /tr/net/aspose-cells-gridweb/bind-worksheet-to-a-customized-collection-object-using-gridweb/
+keywords: GridWeb,bind
+description: Bu makale, GridWeb de bir koleksiyona çalışma sayfası bağlamanın nasıl yapılacağını tanıtmaktadır. 
 ---
+
 {{% alert color="primary" %}} 
 
- Microsoft .NET Çerçevesi birçok koleksiyon sınıfı sunar, ancak bazen geliştiricilerin oluşturması için geliştirme gereksinimlerini karşılamazlar.**özel koleksiyonlar**ve bu tür özel koleksiyonları Aspose.Cells.GridWeb ile bağlamayı gerektirebilir.
+.NET Framework, birçok koleksiyon sınıfı sunar, ancak bazen geliştirme gereksinimlerini karşılamazlar, bu nedenle geliştiriciler **özel koleksiyonlar** oluştururlar ve GridWeb'de bir çalışma sayfasını böylesi özel koleksiyonlarla bağlayabilirsiniz.
 
 {{% /alert %}} 
-## **Çalışma Sayfasını Özel Koleksiyonla Bağlama**
-Bu özelliği göstermek için, bu makale örnek bir uygulamanın nasıl oluşturulacağını adım adım açıklamaktadır. Önce özel bir koleksiyon oluşturun ve ardından bu koleksiyonu bir çalışma sayfasıyla ciltlemek için kullanın.
-### **1. Adım: Özel Kayıt Oluşturma**
-Özel bir koleksiyon oluşturmadan önce, koleksiyonda depolanacak özel kayıtları tutmak için bir sınıf oluşturun. Bu makalenin amacı, kendi özel koleksiyonlarınızı nasıl oluşturacağınız ve bunları Aspose.Cells.GridWeb ile nasıl bağlayacağınız konusunda bir fikir vermektir, böylece özel kaydı nasıl oluşturacağınız size kalmıştır.
+## **Özel Bir Koleksiyonla Çalışma Sayfası Bağlama**
+Bu özelliği göstermek için bu makale, adım adım bir örnek uygulama nasıl oluşturulacağı üzerinden ilerlemektedir. İlk olarak, özel bir koleksiyon oluşturun ve ardından bu koleksiyonu bir çalışma sayfası ile bağlantılı olarak kullanın.
+### **Adım 1: Özel Bir Kayıt Oluşturma**
+Özel bir koleksiyon oluşturmadan önce, koleksiyonda depolanacak özel kayıtları tutan bir sınıf oluşturun. Bu makalenin amacı, kendi özel koleksiyonlarınızı nasıl oluşturacağınıza dair bir fikir vermek olduğundan özel kaydı nasıl oluşturacağınız size kalmıştır.
 
-Aşağıdaki örnek, özel alanlara erişimi kontrol eden beş özel alan ve beş genel özellik içeren MyCustomRecord sınıfını kullanır. İşte özelliklerin yapısı:
+Aşağıdaki örnek, beş özel alan içeren ve bu özel alanlara erişimi kontrol eden beş genel özelliği olan MyCustomRecord sınıfını kullanır. İşte özelliklerin yapısı: 
 
--  Okumak ve yazmak için StringField1 özelliği**stringfield1** (sicim).
--  Yalnızca okunacak ReadonlyField2 özelliği**stringfield2** (sicim).
--  Okumak ve yazmak için DateField1 özelliği**tarih alanı1** (TarihSaat).
--  Okumak ve yazmak için IntField1 özelliği**intfield1** (tamsayı).
--  Okumak ve yazmak için DoubleField1 özelliği**çift alan1** (çift).
+- **StringField1** (dize) okumak ve yazmak için StringField1 özelliği.
+- **StringField2** (dize) sadece okumak için ReadonlyField2 özelliği.
+- **datefield1** (TarihZaman) okumak ve yazmak için DateField1 özelliği.
+- **intfield1** (tamsayı) okumak ve yazmak için IntField1 özelliği.
+- **doublefield1** (kesirli sayı) okumak ve yazmak için DoubleField1 özelliği.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a class that will act as record for the custom collection
 
@@ -105,12 +108,12 @@ public class MyCustomRecord
 }
 
 {{< /highlight >}}
-### **2. Adım: Özel Koleksiyon Oluşturma**
-Şimdi, müşteri kayıtları eklemek ve bunlara erişmek için özel bir koleksiyon oluşturun. Basitleştirmek için bu örnek, salt okunur bir dizin oluşturucu içeren MyCollection sınıfını kullanır. Bu indeksleyiciyi kullanarak koleksiyonda saklanan herhangi bir özel kaydı alabiliriz.
+### **Adım 2: Özel Bir Koleksiyon Oluşturma**
+Şimdi, müşteri kayıtlarını eklemek ve erişmek için özel bir koleksiyon oluşturun. Basit tutmak için, bu örnek MyCollection sınıfını kullanır, içinde salt okunur bir indeksleyici içerir. Bu indeksleyiciyi kullanarak, koleksiyonda depolanan herhangi bir özel kayda erişebiliriz.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a custom collection
 
@@ -141,23 +144,23 @@ public class MyCollection : CollectionBase
 }
 
 {{< /highlight >}}
-### **3. Adım: Bir Çalışma Sayfasını Özel Koleksiyonla Bağlama**
-Özel koleksiyon oluşturma işlemi tamamlandı. Şimdi Aspose.Cells.GridWeb içindeki bir çalışma sayfasına bağlamak için özel koleksiyonu kullanın. Önce bir web formu oluşturun, buna GridWeb kontrolünü ekleyin ve bazı kodlar ekleyin.
+### **Adım 3: Bir Çalışsayıyı Özel Bir Koleksiyon ile Bağlama**
+Özel bir koleksiyon oluşturma süreci tamamlandı. Şimdi, özel koleksiyonu Aspose.Cells.GridWeb ile bir çalış sayıya bağlamak için kullanın. İlk önce bir web form oluşturun, üzerine GridWeb kontrolünü ekleyin ve biraz kod ekleyin.
 
-Özel koleksiyonu bağlama amacıyla kullanmak için önce MyCollection sınıfından bir nesne oluşturun (yukarıdaki adımda oluşturuldu).
-Ardından MyCustomRecord nesneleri oluşturun ve MyCollection nesnesine ekleyin.
+Bağlamak için özel koleksiyonu kullanmak için önce MyCollection sınıfından bir nesne oluşturun (yukarıdaki adımda oluşturulmuştur).
+Ardından MyCollection nesneleri oluşturun ve MyCollection nesnesine ekleyin.
 
 {{% alert color="primary" %}} 
 
-Koleksiyona bir MyCustomRecord nesnesi eklemek için MyCollection sınıfında neden bir yöntem olmadığını merak mı ediyorsunuz? Yukarıdaki koda bir kez daha bakın ve MyCollection sınıfının CollectionBase sınıfından (koleksiyona bir nesne eklemek için bir Add yöntemi sağlayan IList arabirimini uygulayan) miras kaldığını fark edeceksiniz. MyCollection nesnesini IList'e yükselterek IList sınıfının Add yöntemini kullanın.
+MyCollection sınıfında bir MyCustomRecord nesnesini koleksiyona eklemek için bir yöntem olmadığını düşünüyor musunuz? Yukarıdaki kodlara tekrar bakın ve MyCollection sınıfının (nesne topluluğuna bir nesne eklemek için Add yöntemini sağlayan IList arabirimini uygulamış olan) CollectionBase sınıfından miras alındığını fark edeceksiniz. MyCollection nesnesini IList'e yükseltme yaparak IList sınıfının Add yöntemini kullanın.
 
 {{% /alert %}} 
 
-Son olarak, MyCollection nesnesini çalışma sayfasının veri kaynağı olarak ayarlayın ve çalışma sayfasını koleksiyonla bağlayın. Bu noktada, çalışma sayfasının ilişkili sütunları için doğrulama kuralları da oluşturabilirsiniz.
+Son olarak, MyCollection nesnesini çalış sayısının veri kaynağı olarak ayarlayın ve çalış sayısını koleksiyonla bağlayın. Bu noktada, çalış sayısının bağlı sütunları için doğrulama kuralları da oluşturabilirsiniz.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Implementing Page_Load event handler
 
@@ -232,16 +235,16 @@ protected void Page_Load(object sender, EventArgs e)
 }
 
 {{< /highlight >}}
-### **Adım 4: Çalışma Sayfasının InitializeNewBindRow Olayını İşleme**
-Yukarıdaki kodda, GridWeb1_InitializeNewBindRow olay işleyicisini çalışma sayfasının InitializeNewBindRow öğesine atamak için kullanılan fazladan bir kod satırı fark etmiş olabilirsiniz. Bu olay, çalışma sayfasına yeni bir ilişkili satır eklendiğinde tetiklenir. MyCustomRecord nesnesinin DateField1 özelliği nedeniyle bu olay için bir olay işleyicisi oluşturduk.
+### **Adım 4: Çalış Sayısının InitializeNewBindRow Olayını İşleme**
+Yukarıdaki kodlarda, çalış sayısının InitializeNewBindRow olayına GridWeb1_InitializeNewBindRow olay işleyicisini atamak için kullanılan ek bir kod satırı fark etmiş olabilirsiniz. Bu olay, çalış sayısına yeni bağlı bir satır eklendiğinde tetiklenir. Bu olay için bir olay işleyici oluşturduk çünkü MyCustomRecord nesnesinin DateField1 özelliğinden dolayı.
 
- Aspose.Cells.GridWeb otomatik olarak başlatılır**int** ve**çift** ile değerler**sıfır (0)**GridWeb denetimine yeni bir bağlı satır eklendiğinde. Tarihler için, GridWeb kontrolünün sistemden güncel tarihi otomatik olarak eklemesini istiyoruz. Bunu yapmak için, InitializeNewBindRow olayı için GridWeb1_InitializeNewBindRow olay işleyicisini oluşturduk.
+Aspose.Cells.GridWeb, yeni bağlı bir satır çalış sayısına eklendiğinde **sıfır (0)** değeri ile **int** ve **double** değerlerini otomatik olarak başlatır. Tarihler için, GridWeb kontrolünün sistemin güncel tarihini otomatik olarak eklemesini istiyoruz. Bunu yapmak için GridWeb1_InitializeNewBindRow olay işleyicisini InitializeNewBindRow olayı için oluşturduk.
 
-BindObject bağımsız değişkenini kullanarak GridWeb'den MyCustomRecord sınıfının belirli bir örneğine erişin ve ardından geçerli sistem tarihini DateField1 özelliğine atayın.
+GridWeb'den MyCustomRecord sınıfının belirli bir örneğine bağlanılmış nesnesi kullanarak ve ardından mevcut sistem tarihini TarihZaman1 özelliğine atayın.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating GridWeb1_InitializeNewBindRow event handler
 
@@ -260,39 +263,39 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 }
 
 {{< /highlight >}}
-### **Adım 5: Uygulamayı Çalıştırma**
- ya basarak uygulamayı çalıştırın**Ctrl+F5** veya**Başlama** VS.NET'deki düğme. Web formu yeni bir tarayıcı penceresinde açılır.
+### **Adım 5: Uygulamanın Çalıştırılması**
+Uygulamayı ya **Ctrl+F5** tuşlarına basarak ya da VS.NET'te **Başlat** düğmesine tıklayarak çalıştırın. Web formu yeni bir tarayıcı penceresinde açılır. 
 
-**Özel bir koleksiyonla ciltlenmiş çalışma sayfası** 
+**Özel koleksiyonla bağlı çalış sayısı** 
 
-![yapılacaklar:resim_alternatif_metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
-
-
-
- Kayıt eklemek veya silmek için GridWeb denetimine sağ tıklayın. Örneğin, seçerek çalışma sayfasına yeni bir kayıt ekleyin.**Satır ekle** seçenek.
-
-**Menüden Satır Ekle seçeneğinin seçilmesi** 
-
-![yapılacaklar:resim_alternatif_metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
 
 
 
- Çalışma sayfasına yeni bir satır eklendiğinde, hücreler geçerli sistem tarihini içeren varsayılan verileri içerir.
+GridWeb kontrolüne sağ tıklayarak bir kayıt ekleyin veya silin. Örneğin, **Satır Ekle** seçeneğini seçerek çalış sayısına yeni bir kayıt ekleyin. 
 
-**Varsayılan verilerle çalışma sayfasına yeni satır eklendi** 
+**Menüden Satır Ekle seçeneğini seçme** 
 
-![yapılacaklar:resim_alternatif_metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
 
 
 
-Verilerde değişiklik yaptıktan sonra tıklayın.**Kayıt etmek** veya**Göndermek** değişikliklerinizi kaydetmek için
+Çalış sayısına yeni bir satır eklendiğinde, hücreler, güncel sistem tarihi de dahil olmak üzere varsayılan verileri içerir. 
 
-**Kaydet düğmesine tıklayarak değişiklikleri kaydetme** 
+**Varsayılan verilerle çalış sayısına yeni satır eklendi** 
 
-![yapılacaklar:resim_alternatif_metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
-## **Çözüm**
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
+
+
+
+Verilere değişiklik yapmak için **Kaydet** veya **Gönder** düğmesine tıklayın. 
+
+**Kaydet** düğmesine tıklayarak değişiklikleri kaydetme 
+
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
+## **Sonuç**
 {{% alert color="primary" %}} 
 
-Bu makale, bir çalışma sayfasının oluşturulan özel bir koleksiyona nasıl bağlanacağını gösterdi. Geliştiriciler, Aspose.Cells.GridWeb'i kullanarak çalışma sayfalarını bir GUI modunda veya kodlama yoluyla Çalışma Sayfaları Tasarımcısı aracılığıyla bir veritabanına veya özel koleksiyonlara bağlayabilir. Bu, geliştiricilere uygulama oluşturmak için çok çeşitli seçenekler sunar.
+Bu makale, oluşturulan bir özel koleksiyona bir çalış sayısını nasıl bağlayacağını gösterdi. Aspose.Cells.GridWeb kullanarak geliştiriciler, çalış sayılarını ya veritabanına ya da çalış tasarımcısı aracılığıyla veya kodlama yoluyla özel koleksiyonlara bağlayabilir. Bu, geliştiricilere uygulamalar oluşturmak için geniş bir seçenek yelpazesi sunar.
 
 {{% /alert %}}

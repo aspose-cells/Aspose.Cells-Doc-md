@@ -1,27 +1,28 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.3.1
+---
+title: Förändringar i den offentliga API en i Aspose.Cells 8.3.1
 type: docs
 weight: 110
 url: /sv/net/public-api-changes-in-aspose-cells-8-3-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.3.0 till 8.3.1 som kan vara av intresse för modul-/applikationsutvecklare.
+Detta dokument beskriver förändringarna i Aspose.Cells API från version 8.3.0 till 8.3.1 som kan vara av intresse för modul-/applikationsutvecklare.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Egenskapen DataLabels.ShowCellRange tillagd**
- Egenskapen ShowCellRange har lagts till i klassen DataLabels för att efterlikna Excels funktionalitet för att formatera diagrammets dataetiketter under körning. Observera att Excel tillhandahåller den här funktionen genom följande steg.
+## **Tillagda API:er**
+### **Tillagd DataLabels.ShowCellRange Egenskap**
+Egenskapen ShowCellRange har lagts till i DataLabels-klassen för att härma Excels funktionalitet att formatera diagrammets datamärken under körning. Observera att Excel tillhandahåller denna funktion genom följande steg. 
 
-1. Välj Dataetiketter i serien och högerklicka för att öppna popup-menyn.
-1.  Klicka på**Formatera dataetiketter...** och det kommer att synas**Etikettalternativ**.
-1.  Markera eller avmarkera kryssrutan**Etikett innehåller - Värde från Cells**.
+1. Välj Data Labels för serien och högerklicka för att öppna snabbmenyn.
+1. Klicka på **Formatera Data Labels...** och det kommer att visa **Märkets alternativ**.
+1. Markera eller avmarkera kryssrutan **Märket innehåller - Värde från celler**.
 
- Exempelkoden nedan ger åtkomst till dataetiketterna i diagramserien och ställer sedan in DataLabels.ShowCellRange-metoden till true för att efterlikna Excels funktion för**Etikett innehåller - Värde från Cells**.
+Exemplet nedan får åtkomst till Data Labels för diagramserien och ställer sedan in DataLabels.ShowCellRange-metoden till true för att härma Excels funktion **Märket innehåller - Värde från celler**.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from the source Excel file
 
@@ -49,7 +50,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -80,16 +81,16 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera artikeln[Visar Cell intervall som dataetiketter](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) för mer information.
+Vänligen kontrollera artikeln [Visa cellintervall som datamärken](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) för mer information.
 
 {{% /alert %}} 
 
-### **Metoder Cell.GetTable & ListObject.PutCellValue Added**
-Metoderna Cell.GetTable & ListObject.PutCellValue har lagts till med Aspose.Cells for .NET 8.3.1 för att underlätta för användarna att komma åt ListObject från en cell och lägga till värden inuti den med hjälp av rad- och kolumnförskjutningar. Följande exempelkod läser in källkalkylarket och lägger till värden i tabellen.
+### **Tillagd Cell.GetTable & ListObject.PutCellValue Metoder**
+Metoderna Cell.GetTable & ListObject.PutCellValue har lagts till med Aspose.Cells for .NET 8.3.1 för att underlätta för användarna att komma åt ListObject från en cell och lägga till värden inuti den med hjälp av rad- och kolumnförskjutningar. Exempelkoden nedan laddar källkalkylarket och lägger till värden inne i tabellen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -124,7 +125,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook from source Excel file
 
@@ -159,18 +160,18 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera artikeln[Få åtkomst till tabell från Cell och lägga till värden i den med hjälp av rad- och kolumnförskjutningar](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) för mer information.
+Vänligen kontrollera artikeln [Åtkomst till tabell från cell och lägga till värden inne i den med rad- och kolumnförskjutningar](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) för mer information.
 
 {{% /alert %}} 
 
-### **Egenskapen OdsSaveOptions.IsStrictSchema11 har lagts till**
-Egenskapen IsStrictSchema11 har lagts till i klassen OdsSaveOptions för att göra det möjligt för utvecklarna att spara kalkylarket i format som överensstämmer med ODF v1.2-specifikationen. Standardvärdet för egenskapen IsStrictSchema11 är falskt, vilket betyder att från version 8.3.1 av Aspose.Cells API:er kommer ODS-filerna att sparas som ODF-format version 1.2 som standard.
+### **Tillagd OdsSaveOptions.IsStrictSchema11 Egenskap**
+Egenskapen IsStrictSchema11 har lagts till i OdsSaveOptions-klassen för att tillåta utvecklare att spara kalkylarket i format som överensstämmer med ODF v1.2-specifikationen. Standardvärdet för Egenskapen IsStrictSchema11 är falskt, vilket innebär att från version 8.3.1 av Aspose.Cells API:er kommer ODS-filer att sparas som ODF-format version 1.2 som standard.
 
-Nedan medföljande kodavsnitt sparar ODS-filen i ODF 1.2-format.
+Nedan följer kodsnutt som sparar ODS-filen i ODF 1.2-format.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 
@@ -203,7 +204,7 @@ workbook.Save("ODF1.1.ods", options);
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook 
 
@@ -235,23 +236,23 @@ m_workbook.Save("ODF1.1.ods", options)
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera artikeln[Spara ODS-filen i ODF 1.1 och 1.2 Specifikationer](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) för mer information.
+Vänligen kontrollera artikeln [Spara ODS-fil enligt ODF 1.1- och 1.2-specifikationerna](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) för mer information.
 
 {{% /alert %}} 
 
-### **Metod SparklineCollection.Add har lagts till**
- Aspose.Cells API:er har avslöjat metoden SparklineCollection.Add(sträng dataområde, int rad, int kolumn) för att ange dataintervall och plats för Sparkline-gruppen. Observera att Excel tillhandahåller samma funktion genom följande steg.
+### **Tillagd SparklineCollection.Add Metod**
+Aspose.Cells API:er har exponerat SparklineCollection.Add(string dataRange, int row, int column) metoden för att ange Data Range och Location för Sparkline Group. Observera att Excel tillhandahåller samma funktion genom följande steg. 
 
 1. Välj cellen som innehåller din Sparkline.
-1.  Välj**Redigera data från Sparkline** avsnitt inuti**Design** flik
-1.  Välja**Redigera gruppplats och data**.
-1.  Specificera**Dataområde** & **Plats**.
+1. Välj **Redigera data** från avsnittet **Design** inne i fliken **Design**
+1. Välj **Redigera gruppläge och data**.
+1. Ange **Data Range** & **Location**.
 
- Följande exempelkod läser in källkalkylarket, kommer åt den första sparklinegruppen och lägger till nya dataintervall och platser för sparklinegruppen.
+Exempelkoden nedan laddar källkalkylarket, får åtkomst till den första sparkline gruppen och lägger till nya dataområden och platser för sparkline gruppen. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -284,7 +285,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook from source Excel file
 
@@ -317,6 +318,6 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera artikeln[Kopiera Sparkline genom att ange dataintervall och plats för Sparkline Group](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) för mer information.
+Vänligen kontrollera artikeln [Kopiera Sparkline genom att ange Data Range och Location för Sparkline Group](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) för mer information.
 
 {{% /alert %}}

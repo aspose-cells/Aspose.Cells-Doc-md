@@ -1,39 +1,40 @@
 ---
-title: Onay Etiketi Yönünü Değiştir
-description: Aspose.Cells for .NET numaralı telefondan onay etiketlerinin yönünü nasıl değiştireceğinizi öğrenin. Kılavuzumuz yatay, dikey ve açılı yönler de dahil olmak üzere eksenlerdeki onay etiketlerinin yönünü nasıl ayarlayacağınızı anlamanıza yardımcı olacaktır.
-keywords: Aspose.Cells for .NET, tick labels, direction, orientation, axes, horizontal, vertical, angled.
+title: Tick Etiketi Yönünü Değiştirme
+description: Aspose.Cells for .NET de tick etiketlerinin yönünü nasıl değiştireceğinizi öğrenin. Rehberimiz, yatay, dikey ve açılı yönlendirme dahil olmak üzere eksendeki tick etiketlerinin yönlendirmesini nasıl ayarlayacağınızı anlamanıza yardımcı olacaktır.
+keywords: Aspose.Cells for .NET, tick etiketleri, yön, yönlendirme, eksende, yatay, dikey, açılı.
 type: docs
 weight: 170
 url: /tr/net/change-tick-label-direction/
 ---
-##  **Onay Etiketi Yönünü Değiştir**
 
-Aspose.Cells, grafik tik etiketi yönünü değiştirme olanağı sağlar.[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) mülk.[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype)mülkiyet kabul eder[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) numaralandırma değeri.[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)numaralandırma aşağıdaki üyeleri sağlar
+## **Tick Etiketi Yönünü Değiştirme**
+
+Aspose.Cells size eksendeki tick etiketi yönünü değiştirme yeteneği sunar. [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) özelliğini kullanarak grafiğin tick etiket yönünü ayarlayabilirsiniz. [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) özelliği [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) numaralı numaralandırma değerini kabul eder. [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) numaralandırma, aşağıdaki üyeleri içerir
 
 - Yatay
 - Dikey
-- Döndür90
-- Döndür270
-- Yığılmış
+- 90 Derece Döndür
+- 270 Derece Döndür
+- Yığınlanmış
 
-Aşağıdaki resim kaynak ve çıktı dosyalarını karşılaştırmaktadır
+Aşağıdaki görüntü kaynak ve çıktı dosyalarını karşılaştırır
 
-###  **Kaynak dosya resmi**
+### **Kaynak dosya görüntüsü**
 
-![yapılacak şey:image_alt_text](change-tick-label-direction_1.jpg)
+![todo:image_alt_text](change-tick-label-direction_1.jpg)
 
-###  **Çıktı dosyası görüntüsü**
+### **Çıktı dosyası görüntüsü**
 
-![yapılacak şey:image_alt_text](change-tick-label-direction_2.jpg)
+![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-Aşağıdaki kod parçacığı, onay etiketi yönünü Rotate90'dan Yatay'a değiştirir.
+Aşağıdaki kod parçacığı, işaret etiket yönünü Rotate90'dan Yatay'a değiştirir.
 
-##  **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChangeTickLabelDirection-1.cs" >}}
 
-Kaynak ve çıktı dosyaları aşağıdaki bağlantılardan indirilebilir.
+Kaynak ve çıktı dosyaları aşağıdaki linklerden indirilebilir.
 
-[Kaynak dosyası](105480221.xlsx)
+[Kaynak Dosya](105480221.xlsx)
 
-[Çıktı dosyası](105480223.xlsx)
+[Çıktı Dosyası](105480223.xlsx)

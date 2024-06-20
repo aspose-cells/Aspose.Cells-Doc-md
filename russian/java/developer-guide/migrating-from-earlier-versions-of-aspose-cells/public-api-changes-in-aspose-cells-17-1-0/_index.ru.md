@@ -1,45 +1,46 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 17.1.0
+---
+title: Изменения в общедоступном API в Aspose.Cells 17.1.0
 type: docs
 weight: 380
 url: /ru/java/public-api-changes-in-aspose-cells-17-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 16.12.0 до 17.1.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 16.12.0 до 17.1.0, которые могут быть интересны для разработчиков модулей/приложений. Он включает не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но также описание любых изменений в поведении внутри Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
+## **Добавленные API**
 ### **Поддержка диаграмм Excel 2016**
-Aspose.Cells В API добавлена поддержка нескольких диаграмм Excel 2016 путем расширения перечисления ChartType. В выпуске Aspose.Cells 17.1.0 были добавлены следующие новые поля.
+API Aspose.Cells добавили поддержку нескольких диаграмм Excel 2016 путем расширения перечисления ChartType. Следующие новые поля были добавлены с выпуском Aspose.Cells 17.1.0.
 
-- ChartType.BOX_WHISKER: серия представлена в виде рамки и усов.
-- ChartType.FUNNEL: серия представлена в виде воронки.
-- ChartType.PARETO_LINE: серия представлена в виде линий Парето.
-- ChartType.SUNBURST: серия представлена в виде солнечных лучей.
-- ChartType.TREEMAP: серия представлена в виде древовидной карты.
-- ChartType.WATERFALL: серия выложена в виде водопада.
-- ChartType.HISTOGRAM: ряд представлен в виде гистограммы.
+- ChartType.BOX_WHISKER: Серия представлена в виде ящика и усов.
+- ChartType.FUNNEL: Серия представлена в виде воронки.
+- ChartType.PARETO_LINE: Серия представлена в виде диаграммы Парето.
+- ChartType.SUNBURST: Серия представлена в виде солнечной вспышки.
+- ChartType.TREEMAP: Серия реализована в виде древовидной карты.
+- ChartType.WATERFALL: Серия представлена в виде водопада.
+- ChartType.HISTOGRAM: Серия представлена в виде гистограммы.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Чтение типов диаграмм Excel 2016](/cells/ru/java/read-and-manipulate-excel-2016-charts/)
+Проверьте подробную статью по [чтению типов диаграмм Excel 2016](/cells/ru/java/read-and-manipulate-excel-2016-charts/)
 
 {{% /alert %}} 
-### **Добавлен установщик для свойства LoadFilter.LoadDataFilterOptions.**
-Aspose.Cells В версии 17.1.0 добавлен установщик для свойства LoadFilter.LoadDataFilterOptions, заменяющий переменную экземпляра m_LoadDataFilterOptions. Пользователи могут изменить свойство LoadDataFilterOptions в собственной реализации класса LoadFilter, чтобы изменить поведение загрузки файлов шаблонов.
+### **Добавлен сеттер для свойства LoadFilter.LoadDataFilterOptions**
+Aspose.Cells 17.1.0 добавил сеттер для свойства LoadFilter.LoadDataFilterOptions для замены переменной экземпляра m_LoadDataFilterOptions. Пользователи могут изменять свойство LoadDataFilterOptions в собственной реализации класса LoadFilter, чтобы изменить поведение загрузки шаблонных файлов.
 
 Вот простой сценарий использования.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Пользовательская фильтрация шаблонов](/cells/ru/java/filter-objects-while-loading-workbook-or-worksheet/)
+Проверьте подробную статью по [настраиваемой фильтрации шаблонов](/cells/ru/java/filter-objects-while-loading-workbook-or-worksheet/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomLoadFilter extends LoadFilter {
 
@@ -75,38 +76,38 @@ Aspose.Cells В версии 17.1.0 добавлен установщик для
 
 {{< /highlight >}}
 ### **Добавлено свойство CellsHelper.SignificantDigits**
-Aspose.Cells 17.1.0 предоставил свойство SignificantDigits из класса CellsHelper, которое позволяет получить или установить количество значащих цифр для числовых значений в электронной таблице. Значение свойства CellsHelper.SignificantDigits по умолчанию равно 17, тогда как оно применимо, только если результат должен быть сохранен в формате файла XLSX.
+Aspose.Cells 17.1.0 вывело свойство SignificantDigits из класса CellsHelper, которое позволяет устанавливать количество значащих цифр для числовых значений в электронной таблице. Значение по умолчанию свойства CellsHelper.SignificantDigits равно 17 и применимо только в случае, если результат должен быть сохранен в формате файла XLSX.
 
-Вот простой сценарий, демонстрирующий использование свойства CellsHelper.SignificantDigits.
+Вот простой сценарий для демонстрации использования свойства CellsHelper.SignificantDigits.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Установка количества значащих цифр](/cells/ru/java/specifying-significant-digits-to-be-stored-in-excel-file/)
+Проверьте подробную статью по [установке количества значащих цифр](/cells/ru/java/specifying-significant-digits-to-be-stored-in-excel-file/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the number of significant digits
 
 CellsHelper.setSignificantDigits(15);
 
 {{< /highlight >}}
-### **Добавлено свойство GlowEffect.Color.**
-Aspose.Cells В версии 17.1.0 добавлено свойство GlowEffect.Color, которое можно использовать для получения цвета эффекта свечения.
+### **Добавлено свойство GlowEffect.Color**
+Aspose.Cells 17.1.0 добавил свойство GlowEffect.Color, которое можно использовать для извлечения цвета свечения.
 
-В следующем фрагменте используется свойство GlowEffect.Color.
+Следующий фрагмент использует свойство GlowEffect.Color.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Чтение цвета свечения фигуры](/cells/ru/java/read-color-of-the-shape-s-glow-effect/)
+Проверьте подробную статью по [Чтению цвета свечения формы](/cells/ru/java/read-color-of-the-shape-s-glow-effect/)
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Read the source Excel file
 
@@ -128,25 +129,25 @@ CellsColor color = glow.getColor();
 
 {{< /highlight >}}
 ### **Добавлены свойства PageSetup.PaperWidth и PaperHeight.**
-Aspose.Cells 17.1.0 предоставляет свойства PaperWidth и PaperHeight для класса PageSetup. Свойства PageSetup.PaperWidth и PageSetup.PaperHeight имеют тип double, представляющий ширину и высоту бумаги в дюймах с учетом ориентации страницы.
+Aspose.Cells 17.1.0 добавил свойства PaperWidth и PaperHeight для класса PageSetup. Свойства PageSetup.PaperWidth и PageSetup.PaperHeight имеют тип double и представляют ширину и высоту бумаги в дюймах с учетом ориентации страницы.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Получение размера бумаги рабочего листа](/cells/ru/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
+Проверьте подробную статью по [Получению размера бумаги листа](/cells/ru/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
 
 {{% /alert %}} 
 ### **Добавлено свойство WorkbookSettings.CheckCustomNumberFormat.**
-Aspose.Cells 17.1.0 добавило свойство CheckCustomNumberFormat в класс WorkbookSettings. CheckCustomNumberFormat полезен для проверки правильности установки свойства Style.Custom. В случае, если свойство Style.Custom установлено неправильно, т.е. значение не соответствует допустимому шаблону, тогда API-интерфейсы Aspose.Cells вызовут исключение CellsException с соответствующим сообщением.
+Aspose.Cells 17.1.0 добавил свойство CheckCustomNumberFormat в класс WorkbookSettings. CheckCustomNumberFormat полезен для проверки, правильно ли установлено свойство Style.Custom или нет. Если свойство Style.Custom было неправильно установлено, т.е. значение не соответствует действительному шаблону, то API Aspose.Cells выдаст исключение CellsException с соответствующим сообщением.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Проверка пользовательской формы](/cells/ru/java/check-custom-number-format-when-setting-style-custom-property/)
+Проверьте подробную статью по [Проверке пользовательского формата](/cells/ru/java/check-custom-number-format-when-setting-style-custom-property/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -183,8 +184,8 @@ style.setCustom("ggg @ fff");
 cell.setStyle(style);
 
 {{< /highlight >}}
-### **Добавлено поле DisplayUnitType.PERCENTAGE**
-Aspose.Cells 17.1.0 также предоставил поле PERCENTAGE для перечисления DisplayUnitType. Поле DisplayUnitType.PERCENTAGE указывает, что значения на графике должны быть разделены на 0,01.
-## **Удаленные API**
-### **Переменная экземпляра m_LoadDataFilterOptions удалена**
-В этом выпуске удалена переменная экземпляра m_LoadDataFilterOptions. Вместо этого рекомендуется использовать свойство LoadFilter.LoadDataFilterOptions.
+### **Добавлено поле DisplayUnitType.PERCENTAGE.**
+Aspose.Cells 17.1.0 также добавил поле PERCENTAGE в перечисление DisplayUnitType. Поле DisplayUnitType.PERCENTAGE указывает, что значения на диаграмме должны быть разделены на 0.01.
+## **Удалены API**
+### **Экземплярная переменная m_LoadDataFilterOptions удалена.**
+Этот релиз удалил экземплярную переменную m_LoadDataFilterOptions. Рекомендуется использовать свойство LoadFilter.LoadDataFilterOptions вместо нее.

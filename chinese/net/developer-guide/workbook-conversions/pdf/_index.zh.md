@@ -42,7 +42,9 @@ Aspose.Cells for .NET支持将电子表格独立转换为PDF，无需其他软�
 
 ### **高级转换**
 
-您还可以选择使用[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)类来设置转换的不同属性。设置[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)类的不同属性可控制输出PDF的打印、字体、安全性和压缩设置。最重要的属性是[**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)，它使您能够将Excel文件保存为PDF/A兼容的PDF文件。
+您还可以选择使用[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)类来设置转换的不同属性。设置[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)类的不同属性可控制输出PDF的打印、字体、安全和压缩设置。 
+
+最重要的属性是[**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)，它允许您设置PDF的标准兼容级别。目前，您可以保存为PDF 1.4、PDF 1.5、PDF 1.6、PDF 1.7、PDF/A-1a、PDF/A-1b、PDF/A-2a、PDF/A-2b、PDF/A-2u、PDF/A-3a、PDF/A-2ab和PDF/A-3u格式。请注意，使用PDF/A格式时，输出文件大小大于常规PDF文件大小。
 
 #### **将工作簿保存为PDF/A兼容文件**
 

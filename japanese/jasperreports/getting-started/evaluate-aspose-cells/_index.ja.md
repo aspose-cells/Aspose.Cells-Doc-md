@@ -1,25 +1,26 @@
-﻿---
-title: 評価する Aspose.Cells
+---
+title: Aspose.Cellsの評価
 type: docs
 weight: 50
 url: /ja/jasperreports/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-から簡単に Aspose.Cells for JasperReports を評価用にダウンロードできます。[ダウンロードページ](https://downloads.aspose.com/cells/jasperreports) .評価版ダウンロードは、購入したダウンロードと同じです。評価版は、後にライセンスが付与されるだけです。[ライセンスの適用](/cells/ja/jasperreports/licensing/).
+[ダウンロードページ](https://downloads.aspose.com/cells/jasperreports)から Aspose.Cells for JasperReports を簡単に評価用にダウンロードできます。評価版のダウンロードは、購入版のダウンロードと同じです。評価版は、[ライセンスを適用](/cells/ja/jasperreports/licensing/)するとライセンスされます。
 
 {{% /alert %}}
 
-Aspose.Cells for JasperReports の評価版 (ライセンス指定なし) は、完全ではありませんが、ある程度の製品機能を提供します。 1 つの制限は、スプレッドシート ドキュメントを開く/保存するときに、評価の透かしを含む追加のワークシートが常に挿入されることです。
+ライセンスが指定されていないAspose.Cells for JasperReportsの評価版は一部の製品機能を提供しますが、完全なものではありません。1つの制限事項は、いかなるスプレッドシートドキュメントの開く／保存時に常に評価用途の透かし付きの余分なワークシートを挿入します。
 
-![todo:画像_代替_文章](evaluate-aspose-cells_1.png)
+![todo:image_alt_text](evaluate-aspose-cells_1.png)
 
-**形：** Aspose.Cells コンポーネントによって作成されたデモ スプレッドシート
+**図:** Aspose.Cells コンポーネントによって作成されたデモ スプレッドシート
 
-追加の評価透かしワークシートがワークブックに挿入されます。
+ワークブックに評価用の透かしワークシートを挿入します。
 
-![todo:画像_代替_文章](evaluate-aspose-cells_2.png)
+![todo:image_alt_text](evaluate-aspose-cells_2.png)
 
-**形：**評価警告 – 追加のワークシート
+**図:** 評価警告 - 追加ワークシート
 
-評価版の制限なしで Aspose.Cells for JasperReports をテストしたい場合は、[30 日間の一時ライセンスをリクエストする](https://purchase.aspose.com/temporary-license).
+評価版の制限事項なしでAspose.Cells for JasperReportsをテストしたい場合、[30日間の仮ライセンス](https://purchase.aspose.com/temporary-license)を要求できます。

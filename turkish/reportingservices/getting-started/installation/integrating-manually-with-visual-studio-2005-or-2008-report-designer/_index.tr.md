@@ -1,26 +1,27 @@
-﻿---
-title: Visual Studio 2005 veya 2008 Rapor Tasarımcısı ile Manuel Olarak Tümleştirme
+---
+title: Visual Studio 2005 veya 2008 Rapor Tasarımcısı ile El ile Entegre Etme
 type: docs
 weight: 30
 url: /tr/reportingservices/integrating-manually-with-visual-studio-2005-or-2008-report-designer/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services'i Microsoft Visual Studio Report Designer için MSI yükleyicisi olmadan manuel olarak yüklemek istiyorsanız lütfen aşağıdaki adımları uygulayın. Gerekli tüm kurulum ve yapılandırmayı otomatik olarak gerçekleştirdiği için MSI yükleyicisini kullanmanızı öneririz. Ancak, MSI yükleyicisini yüklemeyi başaramazsanız, lütfen aşağıdaki yönergeleri izleyin.
- Bu bölüm, Business Intelligence Development Studio ile bir bilgisayara Aspose.Cells for Reporting Services'in nasıl kurulacağını açıklamaktadır. Bu, raporları tasarım zamanında Microsoft Visual Studio 2005 veya 2008 Rapor Tasarımcısı'ndan Microsoft Excel biçimlerine aktarmanıza olanak tanır.
+Eğer MSI kurulum programı olmadan Microsoft Visual Studio Rapor Tasarımcısı için Aspose.Cells for Reporting Services'ü manuel olarak kurmak istiyorsanız lütfen aşağıdaki adımları sırayla uygulayın. Tüm gerekli kurulum ve yapılandırmayı otomatik olarak gerçekleştiren MSI kurulum programını kullanmanızı öneririz. Ancak MSI kurulum programı ile kurulum yapamazsanız, lütfen aşağıdaki yönergeleri takip edin. 
+Bu bölüm, Business Intelligence Development Studio'ya yüklemek Aspose.Cells for Reporting Services'ü bir bilgisayara nasıl yükleneceğini açıklar. Bu, Microsoft Visual Studio 2005 veya 2008 Rapor Tasarımcısı'ndan Microsoft Excel formatlarına raporları tasarım zamanında dışa aktarmanızı sağlar. 
 
 {{% /alert %}} 
 - **Entegrasyon Süreci**
-1.  Kopyala**Aspose.Cells.ReportingServices.dll** Visual Studio dizinine.
- 1. Visual Studio 2005 Rapor Tasarımcısı ile entegre etmek için: kopyala**Aspose.Cells.ReportingServices.dll** C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies dizinine.
- 1. Visual Studio 2008 Rapor Tasarımcısı ile entegre etmek için: kopyala**Aspose.Cells.ReportingServices.dll**C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies dizinine.
-1.  Aspose.Cells for Reporting Services'i işleme uzantısı olarak kaydedin:
- 1. Aç**C:\Program Files\Microsoft Visual Studio <Sürüm>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config** 
- (nerede<Version> Visual Studio 2005 için “8” veya Visual Studio 2008 için “9.0” dır) ve aşağıdaki satırları<Render> eleman:
+1. **Aspose.Cells.ReportingServices.dll**'yi Visual Studio dizinine kopyalayın. 
+   1. Visual Studio 2005 Rapor Tasarımcısı ile entegre etmek için: **Aspose.Cells.ReportingServices.dll**'yi C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies dizinine kopyalayın.
+   1. Visual Studio 2008 Rapor Tasarımcısı ile entegre etmek için: **Aspose.Cells.ReportingServices.dll**'yi C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies dizinine kopyalayın.
+1. Aspose.Cells for Reporting Services'ü bir raporlama uzantısı olarak kaydedin: 
+   1. Open **C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\ RSReportDesigner.config** 
+      (where <Version> is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following lines into the <Render> element: 
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Extension Name="ACXLS" Type="Aspose.Cells.ReportingServices.XlsRenderer,Aspose.Cells.ReportingServices" />
 
@@ -44,13 +45,13 @@ Aspose.Cells for Reporting Services'i Microsoft Visual Studio Report Designer i�
 
 {{< /highlight >}}
 
-1.  Aspose.Cells for Reporting Services'e aşağıdakileri yürütme izni verin:
- 1. C:\Program Files\Microsoft Visual Studio'yu açın<Version>\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config
- (nerede<Version> Visual Studio 2005 için “8” veya Visual Studio 2008 için “9.0” dır) ve ikinciden dıştaki son öğe olarak aşağıdakini ekleyin<CodeGroup> eleman (olması gereken<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">): 
+1. Aspose.Cells for Reporting Services'ün çalışmasına izin verin: 
+   1. Open C:\Program Files\Microsoft Visual Studio <Version>\Common7\IDE\PrivateAssemblies\RSPreviewPolicy.config
+      (where <Version> is “8” for Visual Studio 2005 or “9.0” for Visual Studio 2008) and add the following as the last item in the second to outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. ">): 
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <CodeGroup>
 
@@ -78,10 +79,10 @@ Aspose.Cells for Reporting Services'i Microsoft Visual Studio Report Designer i�
 
 {{< /highlight >}}
 
-1.  Aspose.Cells for Reporting Services'in başarıyla yüklendiğini doğrulayın:
- 1. Microsoft Visual Studio 2005 veya 2008 Rapor Tasarımcısını çalıştırın veya yeniden başlatın.
- Dışa aktarma biçimleri listesinde yeni biçimlerin bulunduğunu fark edeceksiniz.
+1. Aspose.Cells for Reporting Services'ün başarılı bir şekilde yüklendiğini doğrulayın: 
+   1. Microsoft Visual Studio 2005 veya 2008 Rapor Tasarımcısı'nı çalıştırın veya yeniden başlatın.
+      Dışa aktarma formatları listesinde yeni formatların farkına varmalısınız. 
 
 **Bileşen kaydedildiğinde, Rapor Tasarımcısı'nda yeni dışa aktarma biçimleri görünür** 
 
-![yapılacaklar:resim_alternatif_metin](integrating-manually-with-visual-studio-2005-or-2008-report-designer_1.png)
+![todo:image_alt_text](integrating-manually-with-visual-studio-2005-or-2008-report-designer_1.png)

@@ -1,24 +1,25 @@
-﻿---
+---
 title: العمل مع تأثير الظل للشكل أو الرسم البياني
 type: docs
 weight: 940
 url: /ar/java/working-with-the-shadow-effect-of-shape-or-chart/
 ---
-## **سيناريوهات الاستخدام الممكنة**
- يوفر Aspose.Cells ملف[الشكل ، الظل ، التأثير](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect)خاصية للعمل مع تأثير الظل للشكل أو الرسم البياني. يحتوي على الخصائص الفرعية التالية التي يمكنك تعيينها لتحقيق نتائج مختلفة وفقًا لمتطلباتك.
 
-- [تأثير الظل](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Angle)
-- [تأثير الظل](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Blur)
-- [تأثير الظل](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Color)
-- [تأثير الظل والمسافة](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Distance)
-- [تأثير الظل](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#PresetType)
-- [تأثير الظل](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Size)
-- [تأثير الظل والشفافية](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Transparency)
+## **سيناريوهات الاستخدام المحتملة**
+Aspose.Cells يوفر خاصية [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) للعمل مع تأثير الظل للشكل أو الرسم البياني. تحتوي على الخصائص الفرعية التالية التي يمكنك ضبطها لتحقيق نتائج مختلفة حسب احتياجاتك.
 
- تُظهر لقطة الشاشة التالية واجهة Microsoft Excel لتعيين ملف*تأثير الظل*من الشكل.
+- [ShadowEffect.Angle](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Angle)
+- [ShadowEffect.Blur](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Blur)
+- [ShadowEffect.Color](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Color)
+- [ShadowEffect.Distance](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Distance)
+- [ShadowEffect.PresetType](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#PresetType)
+- [ShadowEffect.Size](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Size)
+- [ShadowEffect.Transparency](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Transparency)
 
-![ما يجب القيام به: image_بديل_نص](working-with-the-shadow-effect-of-shape-or-chart_1.png)
+الصورة التالية تظهر واجهة Microsoft Excel لضبط *تأثير الظل* للشكل.
+
+![todo:image_alt_text](working-with-the-shadow-effect-of-shape-or-chart_1.png)
 ## **العمل مع تأثير الظل للشكل أو الرسم البياني**
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[ملف اكسل المصدر](5472531.xlsx) والوصول إلى الشكل الأول في ورقة العمل الأولى وتعيين الخصائص الفرعية لـ[الشكل ، الظل ، التأثير](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect)الخاصية ثم يحفظ المصنف في ملف[ملف اكسل الناتج](5472530.xlsx).
-## **عينة من الرموز**
+يقوم الكود النموذجي التالي بتحميل [ملف الإكسل المصدر](5472531.xlsx) والوصول إلى الشكل الأول في الورقة العمل الأولى وتعيين الخصائص الفرعية لخاصية [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) ومن ثم حفظ المصنف في [ملف الإكسل الناتج](5472530.xlsx).
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}

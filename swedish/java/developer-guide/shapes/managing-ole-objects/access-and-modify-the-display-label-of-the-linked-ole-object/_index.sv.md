@@ -1,26 +1,27 @@
-﻿---
-title: Få åtkomst till och ändra visningsetiketten för det länkade Ole-objektet
+---
+title: Åtkomst och ändring av visningsmärket för det länkade OLE objektet
 type: docs
 weight: 100
 url: /sv/java/access-and-modify-the-display-label-of-the-linked-ole-object/
 ---
-## **Möjliga användningsscenarier**
 
-Microsoft Excel låter dig ändra visningsetiketten för Ole-objektet som visas i följande skärmdump. Du kan också komma åt eller ändra visningsetiketten för Ole-objektet med hjälp av Aspose.Cells API:er med[**OleObject.Label**](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#Label)fast egendom.
+## **Möjliga användningsscenario**
+
+Microsoft Excel tillåter dig att ändra visningsmärket för OLE-objektet enligt följande skärmbild. Du kan också komma åt eller ändra visningsmärket för OLE-objektet med Aspose.Cells API:erna med [**OleObject.Label**](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#Label)egenskapen.
 
 ![todo:image_alt_text](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 
-## **Få åtkomst till och ändra visningsetiketten för det länkade Ole-objektet**
+## **Åtkomst och ändring av visningsmärket för det länkade OLE-objektet**
 
-Se följande exempelkod, den laddar[exempel på Excel-fil](64716833.xlsx)som innehåller Ole-objektet. Koden kommer åt Ole-objektet och ändrar dess etikett från exempel-API:er till Aspose API:er. Se konsolutgången nedan som visar effekten av exempelkoden på exempelfilen i Excel för en referens.
+Se följande exempelkod, den laddar [exempel Excel-filen](64716833.xlsx) som innehåller OLE-objektet. Koden kommer åt OLE-objektet och ändrar dess etikett från  ProvAPIs till AsposeAPIs. Se konsoloutputen nedan som visar effekten av exempelkoden på exempel Excel-filen för referens.
 
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-AccessAndModifyLabelOfOleObject.java" >}}
 
-## **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Ole Object Label - Before: Sample APIs
 

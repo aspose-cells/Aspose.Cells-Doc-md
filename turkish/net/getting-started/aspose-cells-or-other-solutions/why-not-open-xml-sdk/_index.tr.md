@@ -1,80 +1,81 @@
-﻿---
-title: XML SDK Neden Açılmıyor?
+---
+title: Neden Open XML SDK sını Kullanmamalıyız
 type: docs
 weight: 90
 url: /tr/net/why-not-open-xml-sdk/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen şu soruyu duyarız:
+Bazı zamanlarda şu soruyu duyarız:
 
-**Ücretsiz Open XML SDK yerine neden Aspose ürünlerini kullanmalıyız?**
+**Neden ücretsiz Open XML SDK'sı yerine Aspose ürünlerini kullanmalıyız?**
 
-Bu sorunun yanıtlanması kolaydır: özellikler ve işlevsellik.
+Bu soruya cevap vermek kolaydır: özellikler ve işlevsellik.
 
 {{% /alert %}}
 
-## **Açık XML SDK'sı nedir?**
+## **Open XML SDK nedir?**
 
- Göre[MSDN Kitaplığı](https://docs.microsoft.com/en-us/office/open-xml/open-xml-sdk?redirectedfrom=MSDN), Açık XML SDK'sı şu şekilde tanımlanır:
+[MSDN Kütüphanesi](https://docs.microsoft.com/en-us/office/open-xml/open-xml-sdk?redirectedfrom=MSDN)'ne göre, Open XML SDK şöyle tanımlanmaktadır:
 
-"Açık XML SDK 2.5, Açık XML paketlerini ve bir paket içindeki temel Açık XML şema öğelerini değiştirme görevini basitleştirir. Açık XML SDK 2.5, geliştiricilerin Açık XML paketlerinde gerçekleştirdiği birçok genel görevi içerir, sadece birkaç satır kod."
+"Open XML SDK 2.5, Open XML paketlerini ve bir paket içindeki temel Open XML şema öğelerini manipüle etme görevini basitleştirir. Open XML SDK 2.5, geliştiricilerin Open XML paketleri üzerinde gerçekleştirdikleri birçok yaygın görevi kapsar, bu sayede karmaşık işlemleri birkaç satır kodla gerçekleştirebilirsiniz."
 
-OOXML belgeleri esas olarak sıkıştırılmış XML dosyalarıdır ve Open XML SDK, OOXML belgelerinin içeriğiyle kesin olarak yazılmış bir şekilde çalışmanıza izin veren bir sınıflar koleksiyonudur. Bu, XML'i ayıklamak için bir dosyayı açmak, bu XML'i bir DOM ağacına yüklemek ve doğrudan XML öğeleri ve nitelikleriyle çalışmak yerine, Open XML SDK bunu yapmak için sınıflar sağlar.
+OOXML belgeleri esasen sıkıştırılmış XML dosyalarıdır ve Open XML SDK, OOXML belgelerinin içeriğiyle çalışmanıza izin veren bir sınıf koleksiyonudur. Yani, bir dosyayı açmak, XML'i çıkarmak, bu XML'i bir DOM ağacına yüklemek ve XML öğeleriyle ve öznitelikleriyle doğrudan çalışmak yerine, Open XML SDK bunu yapmak için sınıflar sağlar.
 
 ## **Aspose.Cells nedir?**
 
-Aspose.Cells, uygulamaların aşağıdaki elektronik tablo işleme görevlerini gerçekleştirmesine izin veren bir sınıf kitaplığıdır:
+Aspose.Cells, uygulamaların aşağıdaki elektronik tablo işleme görevlerini gerçekleştirmesine izin veren bir sınıf kütüphanesidir:
 
-- PDF, HTML, TIFF'e dönüştürme ve yazdırma dahil olmak üzere tüm popüler Microsoft Excel biçimleri arasında yüksek kaliteli dönüştürmeler.
-- Çalışma kitabı nesne modeliyle programlama.
-- Verileri biçimsel biçimlendirme, çizelgeler ve grafiklerle otomatik olarak birleştirirken parçalardan, bir veya daha fazla belgeden belgeler oluşturma yeteneği.
-- Array, ArrayList, DataTable / ResultSet gibi farklı veri kaynaklarından veri alma gibi üst düzey işlevler.
-- Neredeyse tüm standart ve gelişmiş Microsoft Excel İşlevlerini destekleyen Sağlam Formül Hesaplama Motoru.
+- PDF, HTML, TIFF'e dönüşüm de dahil olmak üzere tüm popüler Microsoft Excel formatları arasında yüksek kaliteli dönüşümler.
+- Elektronik tablo nesne modeliyle programlama.
+- Belge parçalarından, tek veya çoklu belgelerden belge oluşturma yeteneği, veri birleştirme otomatik olarak biçimsel biçimlendirme, grafikler ve grafiklerle.
+- Dizi, ArrayList, DataTable / ResultSet vb. farklı veri kaynaklarından veri alma gibi yüksek düzeyli işlevler.
+- Neredeyse tüm standart ve gelişmiş Microsoft Excel İşlevlerini destekleyen sağlam Formül Hesaplama Motoru.
 
-## **Open XML SDK ile Aspose.Cells'i karşılaştırın**
+## **Open XML SDK ve Aspose.Cells'in Karşılaştırılması**
 
-Aşağıdaki tabloda Açık XML SDK'sı ve Aspose.Cells özellikleri karşılaştırılmaktadır.
+Aşağıdaki tablo, Open XML SDK ve Aspose.Cells özelliklerini karşılaştırır.
 
-|**Özellik veya Özellik Kategorisi**|**XML SDK'yı aç**|**Aspose.Cells**|
-|:- |:- |:- |
-|Desteklenen Excel veya diğer biçimler|XLSX|XLS, CSV, SpreadsheetML 2003, XLSX, HTML, Sekmeyle Ayrılmış, ODS, Düz Metin (TXT), PDF, XPS|
-|Excel biçimleri arasında dönüştürme|Numara|Evet|
-|<p>Çalışma kitabı nesne modeliyle üst düzey programlama:</p><p>- Bul ve Değiştir.</p><p>- Elektronik tabloları birleştirin.</p><p>- Çalışma kitapları arasında parçaları ve çalışma sayfalarını kopyalayın.</p>|Numara|Evet|
-|Belge nesne modeliyle ayrıntılı programlama, tek tek öğelere erişim ve tüm elektronik tablo öğelerinin biçimlendirme özellikleri.|Evet|Evet|
-|Bir OOXML belgesinin ilişki tanımlayıcıları, liste tanımlayıcıları gibi temeldeki XML öğelerine ve özniteliklerine düşük düzeyli doğrudan ve tam erişim.|Evet|Numara|
-|<p>Raporlar oluşturun, belgeleri verilerle doldurun:</p><p>- DataTable / _ResultSet'ten/verileri içe/dışa aktarın.</p><p>- Akıllı İşaretçiler özelliği.</p><p>- Satır/Sütun/Aralık Ekle/Sil.</p><p>- Özel veri kaynakları.</p>|Numara|Evet|
-|<p>Oluşturma ve Yazdırma:* Çalışma sayfası sayfalarını raster görüntülere dönüştürün (TIFF, çok sayfalı TIFF, PNG, JPEG, BMP).* Elektronik tablo sayfalarını vektör görüntülere dönüştürün (EMF).</p><p>- Grafikleri resimlere dönüştürün (TIFF, çok sayfalı TIFF, PNG, JPEG, BMP, EMF, vb.)</p><p>- Görüntü çözünürlüğünü, kalitesini, sıkıştırmayı ve diğer seçenekleri belirleyin.</p><p>- .NET yazdırma altyapısını kullanarak elektronik tabloları yazdırın. Bileşen, çalışma sayfalarını Microsoft Excel'in Baskı Önizleme'de gösterildiği gibi yazdırmak için yerleşik bir yazdırma yöntemine sahiptir.</p>|Numara|Evet|
-|Formülleri dinamik olarak hesaplayın/yeniden hesaplayın|Numara|Evet|
-|desteklenen platformlar|Windows, .NET|Windows, Linux, Java, .NET, Mono|
+|**Özellik veya Özellik Kategorisi**|**Open XML SDK**|**Aspose.Cells**|
+| :- | :- | :- |
+|Desteklenen Excel veya diğer formatlar|XLSX|XLS, CSV, SpreadsheetML 2003, XLSX, HTML, Tab Delimited, ODS, Düz Metin (TXT), PDF, XPS|
+|Excel formatları arasında dönüşüm yap|Hayır|Evet|
+|<p>Bir çalışma kitabı nesne modeli ile yüksek seviyeli programlama:</p><p>- Bul ve değiştir.</p><p>- Elektronik tabloları birleştirmek.</p><p>- Parça ve çalışma kitapları arasında sayfaları kopyalamak.|Hayır|Evet|
+|Ayrıntılı belge nesne modeliyle programlama, tüm elektronik tablo elemanlarının ve biçimlendirme özelliklerinin erişimi.|Evet|Evet|
+|Düşük seviyeli doğrudan ve tam erişim, ilişki tanımlayıcılar gibi OOXML belgesi listesi tanımlayıcıları gibi temel XML öğelerine ve özniteliklerine.|Evet|Hayır|
+|Raporlar oluşturma, belgeleri veriyle doldurma:<br>- DataTable / _ResultSet'e veri aktarımı/aktarımı.<br>- Akıllı İşaretçiler özelliği.<br>- Satır/Sütun/Aralıklar Ekle/Sil.<br>- Özel veri kaynakları.|Hayır|Evet|
+|<p>Raster resme (TIFF, çoklu sayfalı TIFF, PNG, JPEG, BMP) çalışsayfa sayfalarını dönüştürme.<br>- Vektör resme (EMF) elektronik tablo sayfalarını dönüştürme.</p><p> - Grafikleri resimlere dönüştürme (TIFF, çoklu sayfalı TIFF, PNG, JPEG, BMP, EMF vb.).</p><p>- Resim çözünürlüğü, kalitesi, sıkıştırma ve diğer seçenekleri belirtme.<br>- .NET baskı altyapısını kullanarak elektronik tabloları yazdırma. Bileşenin, Microsoft Excel'in Yazdır Önizlemesi'nde gösterildiği gibi çalışsayfalarını yazdırmak için yerleşik bir yazdırma yöntemi bulunur.|Hayır|Evet|
+|Formülleri dinamik olarak hesaplama/yeniden hesaplama|Hayır|Evet|
+|Desteklenen platformlar|Windows, .NET|Windows, Linux, Java, .NET, Mono|
 
-OpenXML'yi Aspose.Cells ile karşılaştırabilirsiniz Bunları yapmak için, OpenXML için Aspose.Cells projesine aşina olmanızı öneririz - bu, Aspose.Cells for .NET API ile OpenXML kullanılarak nasıl farklı görevlerin yapılabileceğini gösterir. Proje ayrıca, yalnızca Aspose.Cells'de bulunan ancak OpenXML'de bulunmayan metin belgeleriyle çalışmaya yönelik özellikleri de kapsar.
+OpenXML'i Aspose.Cells ile karşılaştırabilirsiniz. Bunun için, farklı görevlerin Aspose.Cells for .NET API'si ile OpenXML kullanarak nasıl yapılabileceğini gösteren Aspose.Cells for OpenXML projesiyle tanışmanızı öneririz. Proje ayrıca yalnızca Aspose.Cells'te mevcut olan ancak OpenXML'de bulunmayan metin belgeleri ile çalışma özelliklerini de kapsar.
 
-Bu proje aynı zamanda OpenXML'den Aspose.Cells'e geçiş yapmak isteyen geliştiriciler için de yararlıdır.
+Bu proje aynı zamanda OpenXML'den Aspose.Cells'e geçmeyi düşünen geliştiriciler için de faydalıdır.
 
 {{% alert color="primary" %}}
 
- Keşfetmek[OpenXML ile karşılaştırıldığında Aspose.Cells for .NET özelliklerinin kaynak kodu örnekleri ile eklenti](https://github.com/asposemarketplace/Aspose_for_OpenXML).
+AçıkMXL (OpenXML) ile karşılaştırmalı Aspose.Cells for .NET özellikleri örnekleri ile eklentiye göz atın [örnek kaynak kodlarıyla](https://github.com/asposemarketplace/Aspose_for_OpenXML).
 
- Bu eklenti, Aspose.Cells'in değerlendirme sürümünü kullanır. Değerlendirmenizden memnun olduğunuzda, şu adresten bir lisans satın alabilirsiniz:[Aspose web sitesi](https://purchase.aspose.com/buy) . Değerlendirme mesajını ve özellik sınırlamalarını kaldırmak için bir ürün lisansı uygulamanız gerekir. Ürünü satın aldıktan sonra bir lisans dosyası alacaksınız. Lütfen içindeki talimatları takip edin.["Lisanslama ve Abonelik"](/cells/tr/net/licensing/) Bunu yapmak için makale.
+Bu eklenti, Aspose.Cells'in değerlendirme sürümünü kullanır. Değerlendirmenizden memnun kalırsanız, lisansı [Aspose web sitesinden](https://purchase.aspose.com/buy) satın alabilirsiniz. Değerlendirme ile ilgili mesajı ve özellik kısıtlamalarını kaldırmak için bir ürün lisansı uygulamanız gerekir. Ürün satın aldıktan sonra bir lisans dosyası alacaksınız. Bunun için lütfen ["Lisanslama ve Abonelik"](/cells/tr/net/licensing/) makalesindeki talimatları uygulayın.
 
 {{% /alert %}}
 
-**Çözüm**: Open XML SDK ve Aspose.Cells, oldukça farklı ihtiyaçlara ve kitlelere hitap ettikleri için kafa kafaya rekabet etmezler.
+**Sonuç**: Open XML SDK ve Aspose.Cells doğrudan rekabet etmez çünkü oldukça farklı ihtiyaçları ve kitleleri ele alırlar.
 
-## **XML SDK Neden Açılmıyor?**
-Open XML SDK, OOXML belgeleriyle çalışmak için kesin tipte bir yol sağlayan bir sınıf kitaplığıdır. Aspose.Cells, tüm Microsoft Excel ve diğer dosya biçimleri için mükemmel destek sağlayan çok kullanışlı bir elektronik tablo işleme kitaplığıdır.
+## **Neden Open XML SDK Kullanılmasın**
+Open XML SDK, OOXML belgeleriyle çalışmak için tip güvenli bir yol sağlamak için bir sınıf kitaplığıdır. Aspose.Cells, tüm Microsoft Excel ve diğer dosya biçimleri için mükemmel destek sağlayan çok kullanışlı bir elektronik tablo işleme kitaplığıdır.
 
-Tek yapmanız gereken bir XLSX belgesinde oldukça basit bir programlama işlemi yapmaksa, Open XML SDK uygun bir seçim olabilir. Open XML SDK ile, basit bir XLSX belgesi oluşturmak veya yorumları, üstbilgileri/altbilgileri kaldırmak, görüntüleri ayıklamak veya diğerlerini kaldırmak gibi basit görevleri yaparken oldukça rahat olacaksınız.
-Bazı görevler Open XML SDK ile gerçekleştirilebilir, ancak Aspose.Cells ile gerçekleştirilemez. Örneğin, bir OOXML belgesinin XML öğelerine ve özniteliklerine doğrudan erişmeniz gerekiyorsa, Open XML SDK kullanmalısınız.
+Eğer yapmanız gereken sadece bir XLSX belgesinde temel bir programlama işlemiyse, o zaman Open XML SDK uygun bir seçenek olabilir. Open XML SDK ile basit görevleri yapmak, örneğin basit bir XLSX belgesi oluşturmak veya yorumları kaldırmak, üstbilgiler/altbilgiler, resimleri çıkarmak veya diğer işleri yaparken oldukça rahat hissedeceksiniz. 
+Bazı görevler Open XML SDK ile gerçekleştirilebilir ancak Aspose.Cells ile gerçekleştirilemez. Örneğin, OOXML belgesinin XML öğelerine ve özniteliklerine doğrudan erişmeniz gerekiyorsa, o zaman Open XML SDK'yi kullanmalısınız.
 
-Ancak, aşağıdaki görevlerden bazıları gibi belgeler üzerinde karmaşık işlemler gerçekleştirmeniz gerekiyorsa, Aspose.Cells'i kullanmak en iyi seçeneğinizdir:
+Ancak, eğer belgeler üzerinde karmaşık işlemler yapmanız gerekiyorsa, aşağıdaki görevlerden bazılarını yapmanız gerekiyorsa, o zaman Aspose.Cells kullanmak en iyi seçeneğinizdir:
 
-- XLSX'e ek olarak diğer dosya formatlarını destekleyin.
-- Parçaları ve çalışma sayfalarını çalışma kitapları arasında kopyalayın veya çalışma kitaplarını nesneleri, stilleri ve diğer biçimlendirmeyi uygun bir şekilde birleştirecek şekilde birleştirin.
-- Biçimlendirilmiş veya biçimlendirilmemiş metni değiştirin.
-- Array, ArrayList, DataTable / ResultSet gibi farklı veri kaynaklarından veri alma gibi üst düzey işlevler.
-- Bir veri kaynağından sipariş ayrıntıları içeren bir sipariş gibi bir iş belgesi oluşturun.
-- Bir belgeyi PDF veya XPS'e dönüştürün, böylece tam olarak Microsoft Excel'in dönüştürdüğü gibi görünür.
-- Bir .NET veya Java uygulaması geliştirin.
+- XLSX'ye ek olarak diğer dosya biçimlerini destekleme.
+- Fragmanları ve çalışma kitapları arasında kopyaları yapmak veya çalışma kitaplarını birleştirmek ve nesneleri, stilleri ve diğer biçimlendirmeyi uygun bir şekilde birleştirmek.
+- Biçimlendirilmiş veya biçimsiz metni değiştirme.
+- Dizi, ArrayList, DataTable / ResultSet vb. farklı veri kaynaklarından veri alma gibi yüksek düzeyli işlevler.
+- Bir veri kaynağından sipariş detayları ile bir sipariş gibi iş belgeleri oluşturma.
+- Bir belgeyi Microsoft Excel tarafından dönüştürülmüş gibi PDF veya XPS'e dönüştürme.
+- .NET veya Java uygulaması geliştirme.
 

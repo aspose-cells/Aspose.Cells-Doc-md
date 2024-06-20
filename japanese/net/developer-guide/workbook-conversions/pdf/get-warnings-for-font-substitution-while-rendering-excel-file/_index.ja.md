@@ -1,51 +1,52 @@
-﻿---
-title: Excel ファイルのレンダリング中にフォントの置換に関する警告を受け取る
+---
+title: Excelファイルをレンダリングする際にフォントの置換ワーニングを取得
 type: docs
 weight: 230
 url: /ja/net/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft の Excel ファイルを PDF にレンダリングすると、Aspose.Cells がフォントに置き換わる場合があります。 Aspose.Cells は、警告を発することによって、特定のフォントが置き換えられたことを開発者に知らせる機能を提供します。これは、PDF をレンダリングした Aspose.Cells が元の Microsoft Excel ファイルと異なる理由を特定して、適切なアクションを実行できるようにするのに役立つ便利な機能です。たとえば、不足しているフォントをインストールして、レンダリング結果が同じに見えるようにします。
+Microsoft ExcelファイルをPDFにレンダリングする際、Aspose.Cellsはフォントを置換する場合があります。Aspose.Cellsには、特定のフォントが置換されたことを開発者に知らせる機能が備わっており、警告を表示することができます。これは、Aspose.Cellsがレンダリング結果が元のMicrosoft Excelファイルと異なって見える理由を特定し、適切な対策を取るための有用な機能です。たとえば、不足しているフォントをインストールして、レンダリング結果が同じに見えるようにできます。
 
 {{% /alert %}} 
 
-Excel ファイルを PDF にレンダリングするときにフォント置換の警告を受け取るには、IWarningCallback インターフェイスを実装し、実装したインターフェイスで PdfSaveOptions.WarningCallback プロパティを設定します。
+ExcelファイルをPDFにレンダリングする際、フォントの置き換えに関する警告を受け取るには、IWarningCallbackインターフェースを実装し、PdfSaveOptions.WarningCallbackプロパティを実装したインターフェースに設定します。
 
-以下のスクリーンショットは、次のコードで使用するソース Excel ファイルを示しています。セル A6 と A7 に、Microsoft Excel でうまく表示されないフォントのテキストがあります。
+以下のスクリーンショットは、次のコードで使用する元のExcelファイルを示しています。セルA6およびA7には、Microsoft Excelによって正しくレンダリングされないフォントでテキストが含まれています。
 
-|**すべてのフォントが正しくレンダリングされるわけではありません**|
-|:- |
-|![todo:画像_代替_文章](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)|
-Aspose.Cells は、以下に示すように、セル A6 および A7 のフォントを適切なフォントに置き換えます。
+|**すべてのフォントが正しくレンダリングされているわけではありません**|
+| :- |
+|![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)|
+Aspose.Cellsは、セルA6とA7のフォントを適切なフォントで置き換えます。
 
-|**代替フォント**|
-|:- |
-|![todo:画像_代替_文章](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)|
-## **ソースファイルのダウンロードと出力 PDF**
-ソース Excel ファイルと出力 PDF は、次のリンクからダウンロードできます。
+|**置き換えフォント**|
+| :- |
+|![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)|
+## **ソースファイルと出力PDFのダウンロード**
+以下のリンクからソースExcelファイルと出力PDFをダウンロードできます
 
-- [ソース.xlsx](5112611.xlsx)
+- [source.xlsx](5112611.xlsx)
 - [output.pdf](5112616.pdf)
 ## **コード**
-次のコードは、IWarningCallback を実装し、実装されたインターフェイスで PdfSaveOptions.WarningCallback プロパティを設定します。これで、任意のセルで任意のフォントが置換されるたびに、Aspose.Cells が WarningCallback.Warning() メソッド内で警告を発します。
+次のコードは、IWarningCallbackを実装し、PdfSaveOptions.WarningCallbackプロパティを実装したインターフェースに設定します。これにより、Aspose.Cellsが任意のセルでフォントが置き換えられるたびに、Aspose.CellsはWarningCallback.Warning()メソッド内で警告を発生させます。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetWarningsForFontSubstitution-1.cs" >}}
 ## **出力**
-ソース Excel ファイルを PDF に変換すると、次のように警告がデバッグ コンソールに出力されます。
+ExcelファイルをPDFに変換した後、警告は次のようにデバッグコンソールに出力されます。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- WARNING INFO: Font substitution: Font [ Athene Logos; Regular ]has been substituted in Cell [ A6 ]in Sheet [ Sheet1 ].
+ WARNING INFO: Font substitution: Font [ Athene Logos; Regular ] has been substituted in Cell [ A6 ] in Sheet [ Sheet1 ].
 
-WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted in Cell [ A7 ]in Sheet [ Sheet1 ].
+WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substituted in Cell [ A7 ] in Sheet [ Sheet1 ].
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
 
-スプレッドシートに数式が含まれている場合は、スプレッドシートを PDF 形式にレンダリングする直前に Workbook.CalculateFormula メソッドを呼び出すことをお勧めします。そうすることで、式に依存する値が再計算され、正しい値が PDF に表示されるようになります。
+スプレッドシートに数式が含まれている場合、スプレッドシートをPDF形式にレンダリングする直前にWorkbook.CalculateFormulaメソッドを呼び出すことが最善です。これにより、数式に依存した値が再計算され、正しい値がPDFに表示されます。
 
 {{% /alert %}}

@@ -1,25 +1,26 @@
-﻿---
-title: Kopiera endast intervalldata
+---
+title: Kopiera endast dataområde
 type: docs
 weight: 600
 url: /sv/net/copy-range-data-only/
 ---
+
 {{% alert color="primary" %}}
 
-Ibland måste du kopiera data från ett cellområde till ett annat, bara kopiera data, inte formateringen. Aspose.Cells erbjuder denna funktion.
+Ibland behöver du kopiera data från en cellintervall till en annan, kopiera bara datan, inte formateringen. Aspose.Cells erbjuder den här funktionen.
 
-Den här artikeln innehåller en exempelkod som använder Aspose.Cells för att kopiera en rad data.
+Den här artikeln ger en exempelkod som använder Aspose.Cells för att kopiera ett datintervall.
 
 {{% /alert %}}
 
-Det här exemplet visar hur man:
+Detta exempel visar hur man:
 
 1. Skapa en arbetsbok.
-1. Lägg till data i celler i det första kalkylbladet.
-1.  Skapa en[**Räckvidd**](https://reference.aspose.com/cells/net/aspose.cells/range).
-1.  Skapa en[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt med specificerade formateringsattribut.
-1. Använd stilformateringen på intervallet.
-1. Skapa ytterligare ett cellområde.
-1. Kopiera data från det första intervallet till detta andra intervall.
+1. Lägga till data till celler i den första arbetsboken.
+1. Skapa en [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range).
+1. Skapa ett [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)-objekt med specificerade formateringsattribut.
+1. Tillämpa stilformatering på området.
+1. Skapa en annan cellintervall.
+1. Kopiera data från det första området till det andra området.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}

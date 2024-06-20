@@ -1,31 +1,32 @@
 ---
-title: Tüm Çalışma Sayfası Sütunlarını Tek PDF Sayfaya Sığdır
+title: Tüm Çalışsayfa Sütunlarını Tek PDF Sayfasına Sığdır
 type: docs
 weight: 160
 url: /tr/python-net/fit-all-worksheet-columns-on-single-pdf-page/
-description: Tüm Çalışma Sayfası Sütunlarını Aspose.Cells for Python via .NET API ile Tek PDF Sayfasına nasıl sığdıracağınızı öğrenin.
-keywords: Python Fit All Worksheet Columns on Single PDF Page, Fit Worksheet Columns on Single PDF Page using Python, Python Save All Worksheet Columns to a PDF Page, Save All Columns to single PDF Page in Python
+description: Aspose.Cells for Python via .NET API ile Tüm Çalışma Sayfası Sütunlarını Tek PDF Sayfasına Sığdırmayı Öğrenin.
+keywords: Python ile Tüm Çalışma Sayfası Sütunlarını Tek PDF Sayfasına Sığdır, Python kullanarak Çalışma Sayfası Sütunlarını Tek PDF Sayfasına Sığdır, Python ile Tüm Çalışma Sütunlarını Tek PDF Sayfasına Kaydet, Python da Tüm Sütunları Tek PDF Sayfasına Kaydet
 ---
+
 {{% alert color="primary" %}}
 
-Bazen bir çalışma sayfasının tüm sütunlarını tek bir sayfaya sığdıran bir PDF dosyası oluşturmak istersiniz.[**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/) özelliği bu özelliği oldukça kolay kullanımlı bir şekilde sağlıyor. PDF çıktısının yüksekliği ve genişliği gibi karmaşık hesaplamalar dahili olarak gerçekleştirilir ve çalışma sayfasındaki verilere dayanır.
+Bazı durumlarda, bir çalışsayfanın tüm sütunlarını tek bir sayfaya sığdıran bir PDF dosyası oluşturmak isteyebilirsiniz. [**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/) özelliği bu özelliği çok kullanışlı bir şekilde sağlar. Çıktı PDF'in yükseklik ve genişliği gibi karmaşık hesaplamalar dahili olarak işlenir ve çalışsayfadaki verilere göre belirlenir.
 
 {{% /alert %}}
 
-##  **Çalışma Sayfası Sütunlarını Tek PDF Sayfaya Sığdır**
+## **Tüm Çalışsayfa Sütunlarını Tek PDF Sayfasına Sığdır**
 
-[**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/)çalışma sayfasındaki verilere bağlı olarak satırlar birkaç sayfaya genişleyebilse de, çalışma sayfasındaki tüm sütunların tek bir PDF sayfaya dönüştürülmesini sağlar.
+[**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/), bir çalışsayfadaki tüm sütunların tek bir PDF sayfasına render edilmesini sağlar, ancak satırlar çalışsayfadaki verilere bağlı olarak birden fazla sayfaya genişleyebilir.
 
-Aşağıdaki örnek kod nasıl kullanılacağını gösterir[**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/)100 sütundan oluşan büyük bir çalışma sayfası oluşturma özelliği.
+Aşağıdaki örnek kod, 100 sütunu olan büyük bir çalışsayfayı render etmek için [**PdfSaveOptions.all_columns_in_one_page_per_sheet**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/all_columns_in_one_page_per_sheet/) özelliğini nasıl kullanacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-FitAllWorksheetColumns-1.py" >}}
 
 {{% alert color="primary" %}}
 
-Belirli bir çalışma sayfasında çok sayıda sütun bulunduğunda, oluşturulan PDF dosyası içeriği çok küçük boyutta gösterebilir. Acrobat Reader gibi bir görüntüleme uygulamasında ölçeklendirildiğinde hâlâ okunabilir durumdadır.
+Verilen bir çalışsayfada çok sayıda sütun bulunduğunda, render edilen PDF dosyası içeriği çok küçük bir boyutta görülebilir. Acrobat Reader gibi bir görüntüleme uygulamasında büyütüldüğünde hala okunabilir.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- E-tablonuz formüller içeriyorsa, aramak en iyisidir.[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) elektronik tabloyu PDF biçimine dönüştürmeden hemen önce yöntem. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve PDF'de doğru değerlerin oluşturulmasını sağlayacaktır.
+Eğer elektronik tablonuz formüller içeriyorsa, elektronik tabloyu PDF formatına dönüştürmeden önce [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) yöntemini çağırmanız en iyisidir. Böyle yapmak, formül bağımlı değerlerin yeniden hesaplanmasını sağlayacak ve doğru değerler PDF olarak oluşturulacaktır.
 
 {{% /alert %}}

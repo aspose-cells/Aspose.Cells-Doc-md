@@ -1,15 +1,16 @@
-﻿---
-title: تجميد الأجزاء في Php
+---
+title: تثبيت الألواح في PHP
 type: docs
 weight: 40
 url: /ar/java/freeze-panes-in-php/
 ---
-## **Aspose.Cells - تجميد الأجزاء**
- لتجميد الأجزاء في مستند جدول البيانات باستخدام**Aspose.Cells Java for PHP** ، ببساطة استدعاء**أجزاء التجميد** وحدة.
+
+## **Aspose.Cells - تجميد الألواح**
+لتثبيت الألواح في مستند جدول البيانات باستخدام **Aspose.Cells Java for PHP**, قم ببساطة بالاستدعاء لوحدة **FreezePanes**.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -30,7 +31,7 @@ $worksheet->freezePanes(3,2,3,2);
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**تجميد الأجزاء (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **تجميد الألواح (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)

@@ -1,34 +1,35 @@
 ---
-title: Få en lista över teckensnitt som används i ett kalkylblad eller en arbetsbok
-description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylarksfiler. Det stöder att få en lista över teckensnitt som används i ett kalkylblad eller en arbetsbok, så att användare kan få typsnittsinformation som används i ett dokument. Den här artikeln visar hur du använder Aspose.Cells-biblioteket för att få en lista över teckensnitt.
-keywords: Aspose.Cells, Spreadsheet, Workbook, Font, List
+title: Få en lista över de typsnitt som används i ett kalkylblad eller arbetsbok
+description: Aspose.Cells är ett .NET bibliotek för att arbeta med kalkylbladsfiler. Det stöder att få en lista över de typsnitt som används i ett kalkylblad eller arbetsbok, vilket gör att användare kan få typsnittsinformation som används i ett dokument. Den här artikeln kommer att visa dig hur du använder Aspose.Cells biblioteket för att få en lista över typsnitt.
+keywords: Aspose.Cells, Kalkylblad, Arbetsbok, Typsnitt, Lista
 type: docs
 weight: 20
 url: /sv/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 ---
-##  **Möjliga användningsscenarier**
 
-Det är ofta nödvändigt att känna till de typsnitt som används i din arbetsbok för renderingsändamål. När du konverterar din arbetsbok till PDF eller bild, kräver Aspose.Cells att alla nödvändiga teckensnitt är installerade på ditt system eller finns i din *fonts-katalog**. Om Aspose.Cells inte kan hitta det önskade teckensnittet, försöker den ersätta det med något annat lämpligt teckensnitt som finns på ditt system eller i din teckensnittskatalog och kan ersätta ditt faktiska teckensnitt. Detta resulterar inte bara i oönskad rendering av PDF eller bilder utan tar också bearbetningstid för att hitta lämpliga typsnitt.
+## **Möjliga användningsscenario**
 
-För att hantera sådana fall bör du veta vilka typsnitt som används av din arbetsbok och sedan antingen installera dessa typsnitt på ditt system i fallet med Windows-miljön eller placera det i din typsnittskatalog i fall av Windows- eller Linux-miljö.
+Det är ofta nödvändigt att veta vilka typsnitt som används i din arbetsbok för renderingsändamål. När du konverterar din arbetsbok till PDF eller bild kräver Aspose.Cells att alla nödvändiga typsnitt är installerade på ditt system eller finns i din **typsnittskatalog**. Om Aspose.Cells inte kan hitta det nödvändiga typsnittet, försöker den att ersätta det med något annat lämpligt typsnitt som finns på ditt system eller i din typsnittskatalog och kan ersätta ditt faktiska typsnitt. Detta resulterar inte bara i ogynnsam rendering av PDF eller bilder utan tar också bearbetningstid för att hitta lämpliga typsnitt.
 
- Aspose.Cells tillhandahåller**[Workbook.GetFonts](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts)**metod som returnerar listan över alla teckensnitt som används i din arbetsbok eller kalkylblad.
+För att hantera sådana fall bör du veta vilka typsnitt som används av din arbetsbok, sedan antingen installera dessa typsnitt på ditt system vid Windows-miljö eller placera dem i din typsnittskatalog vid Windows- eller Linux-miljö.
 
-##  **Få en lista över teckensnitt som används i ett kalkylblad eller en arbetsbok**
+Aspose.Cells tillhandahåller metoden [**Workbook.GetFonts**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts) som returnerar en lista över alla de typsnitt som används i din arbetsbok eller kalkylblad.
 
- Följande exempelkod laddar källexcelfilen och hämtar listan över teckensnitt som används i den. Den har ett dummy-arbetsblad som har några dummy-teckensnitt som lagts till för illustrationsändamål. När koden skriver ut alla teckensnitt i arbetsboken, skriver den också ut dessa dummy-teckensnitt. Följande skärmdump visar[exempel på excel-fil](25395211.xlsx) och hur dummy-teckensnitten är listade.
+## **Få en lista över typsnitt som används i en kalkylblad eller arbetsbok**
+
+Följande kodprov laddar den ursprungliga excelfilen och hämtar listan över använda typsnitt i den. Den har ett dumt arbetsblad med några dumma typsnitt tillagda i illustrativt syfte. När koden skriver ut alla typsnitt i arbetsboken, skrivs också dessa dumma typsnitt ut. Följande skärmdump visar [provningsexcelfilen](25395211.xlsx) och hur de dumma typsnitten listas.
 
 ![todo:image_alt_text](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
 
-##  **Exempelkod**
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Fonts-GetListOfFontsUsedInSpreadsheetOrWorkbook.cs" >}}
 
-##  **Konsolutgång**
+## **Konsoloutput**
 
- Här är konsolutgången för ovanstående exempelkod när den körs med den givna[exempel på excel-fil](25395211.xlsx).
+Här är konsolens utmatning av det ovanstående kodprovet när det körs med den angivna [provningsexcelfilen](25395211.xlsx).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Aspose.Cells.Font [ Calibri; 11; Regular; Color [Black] ]
 

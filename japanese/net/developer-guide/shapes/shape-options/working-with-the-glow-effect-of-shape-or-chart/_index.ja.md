@@ -1,17 +1,18 @@
-﻿---
-title: 図形またはチャートのグロー効果の操作
+---
+title: 形状またはチャートのグローエフェクトの操作
 type: docs
 weight: 240
 url: /ja/net/working-with-the-glow-effect-of-shape-or-chart/
 ---
-## **考えられる使用シナリオ**
-Aspose.Cells は[シェイプ.グロー](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow)プロパティと一緒に[グロー効果](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)シェイプまたはチャートのグロー効果を操作するクラス。の[グロー効果](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)クラスには、アプリケーションの要件ごとに異なる結果を達成するために設定できる次のプロパティが含まれています。
+
+## **可能な使用シナリオ**
+Aspose.Cellsは、形状やチャートのグローエフェクトを操作するための [Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) プロパティと [GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) クラスを提供しています。 [GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) クラスには、アプリケーションの要件に応じて異なる結果を得るために設定できる以下のプロパティが含まれています。
 
 - [GlowEffect.Size](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/size)
-- [GlowEffect.透明度](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)
+- [GlowEffect.Transparency](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)
 - [GlowEffect.Color](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)
-## **図形またはチャートのグロー効果の操作**
-次のサンプル コードは、[ソースエクセルファイル](5115407.xlsx)最初のワークシートの最初の形状にアクセスし、サブプロパティを設定します[シェイプ.グロー](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow)プロパティに保存し、ワークブックを[出力エクセルファイル](5115414.xlsx).
+## **形状またはチャートのグローエフェクトの操作**
+以下のサンプルコードは、[ソースエクセルファイル](5115407.xlsx) を読み込み、最初のワークシート内の最初の形状にアクセスし、[Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) プロパティのサブプロパティを設定し、その後、ワークブックを [出力エクセルファイル](5115414.xlsx) に保存します。
 
 
 

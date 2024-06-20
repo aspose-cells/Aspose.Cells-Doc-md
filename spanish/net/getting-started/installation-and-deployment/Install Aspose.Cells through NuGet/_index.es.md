@@ -1,73 +1,75 @@
-﻿---
-title: Instalar Aspose Cells a NuGet
+---
+title: Instalar Aspose Cells a través de NuGet
 type: docs
 weight: 30
 url: /es/net/installation/
 ---
-## **Instalar Aspose.Cells for .NET a NuGet**
-NuGet es la forma más fácil de descargar e instalar Aspose API for .NET. Abra Microsoft Visual Studio y NuGet administrador de paquetes. Busque "aspose" para encontrar el Aspose API deseado. Haga clic en "Instalar", el API seleccionado se descargará y referenciará en su proyecto.
 
-Nota: Puede visitar la página web nuget para aspose.cells para obtener más información:
-[Aspose.Cells for .NET NuGet Paquete](https://www.nuget.org/packages/Aspose.Cells/)
 
-### **Instale Aspose.Cells usando la GUI del Administrador de paquetes**
-Siga estos pasos para hacer referencia al componente Aspose.Cells mediante la GUI del administrador de paquetes:
+## **Instale Aspose.Cells for .NET a través de NuGet**
+NuGet es la forma más fácil de descargar e instalar las API de Aspose para .NET. Abra Microsoft Visual Studio y el administrador de paquetes de NuGet. Busque "aspose" para encontrar la API deseada. Haga clic en "Instalar", la API seleccionada se descargarán y se referenciarán en su proyecto.
 
-- Abra su solución/proyecto en Visual Studio.
-- Hacer clic**Herramientas** -> **Administrador de paquetes de biblioteca** -> **Administrar NuGet Paquetes**de Solución. También puede acceder fácilmente a la misma opción a través del Explorador de soluciones. Haga clic con el botón derecho en la solución o el proyecto y seleccione**Administrar NuGet Paquetes**desde el menú contextual.
-- Seleccione**En línea**en el menú de la izquierda y escriba "Aspose.Cells" en el cuadro de texto de búsqueda para encontrar el paquete Aspose.Cells .NET.
-- Haga clic en el**Instalar**junto a la entrada Aspose.Cells for .NET para instalar la última versión en su proyecto.
-### **Instale Aspose.Cells usando la consola del administrador de paquetes**
-Puede seguir los pasos a continuación para hacer referencia al componente Aspose.Cells usando la consola del administrador de paquetes:
+Nota: Puede visitar la página web de nuget para aspose.cells para obtener más información: 
+[Paquete NuGet Aspose.Cells for .NET](https://www.nuget.org/packages/Aspose.Cells/)
+
+### **Instalar Aspose.Cells usando el GUI del Administrador de Paquetes**
+Siga estos pasos para referenciar el componente Aspose.Cells usando el GUI del administrador de paquetes:
 
 - Abra su solución/proyecto en Visual Studio.
-- Seleccione**Herramientas** -> **Administrador de paquetes de biblioteca** -> **Consola del administrador de paquetes**desde el menú para abrir la consola del administrador de paquetes.
- Escriba el comando "Install-Package Aspose.Cells" y presione enter para instalar la última versión completa en su aplicación. Como alternativa, puede agregar el sufijo "-prelanzamiento" al comando para especificar que también se instalará la última versión, incluidas las revisiones.
-- Verá que el consejo "Descargando Aspose.Cells..." aparece en la parte inferior izquierda de la ventana, lo que indica que la descarga está en proceso.
-- Una vez descargado, verá los siguientes mensajes de confirmación. Si no está familiarizado con el EULA Aspose, es una buena idea leer la licencia a la que se hace referencia en la URL.
-- Ahora debería encontrar que Aspose.Cells se ha agregado y referenciado con éxito en su solicitud para usted.
-## **Haciendo referencia a Aspose.Cells desde un proyecto .NET**
-Para usar Aspose.Cells en una aplicación, agréguele una referencia. Para agregar una referencia usando Visual Studio:
+- Haga clic en **Herramientas** -> **Administrador de paquetes de bibliotecas** -> **Administrar paquetes NuGet** desde la Solución. También puede acceder fácilmente a la misma opción a través del Explorador de soluciones. Haga clic derecho en la solución o proyecto y seleccione **Administrador de paquetes NuGet** desde el menú contextual.
+- Seleccione **En línea** en el menú de la izquierda y escriba "Aspose.Cells" en el cuadro de búsqueda para encontrar el paquete Aspose.Cells .NET.
+- Haga clic en el botón **Instalar** junto a la entrada Aspose.Cells for .NET para instalar la última versión en su proyecto.
+### **Instalar Aspose.Cells usando la Consola del Administrador de Paquetes**
+Puede seguir los siguientes pasos para referenciar el componente Aspose.Cells usando la consola del administrador de paquetes:
 
-1.  En el**Explorador de la solución**, expanda el nodo del proyecto al que desea agregar una referencia.
-1.  Haga clic derecho en el**Referencias** nodo para el proyecto y seleccione**Añadir referencia** del menú.
-1.  En el**Añadir referencia** cuadro de diálogo, seleccione la pestaña .NET (seleccionada de forma predeterminada). Si instaló utilizando el instalador MSI, Aspose.Cells aparecerá en el panel superior.
-1.  Selecciónalo y haz clic**Seleccione**.
+- Abra su solución/proyecto en Visual Studio.
+- Seleccione **Herramientas** -> **Administrador de paquetes de bibliotecas** -> **Consola del Administrador de Paquetes** en el menú para abrir la consola del administrador de paquetes.
+  - Escriba el comando "Install-Package Aspose.Cells" y presione enter para instalar la última versión completa en su aplicación. Alternativamente, puede agregar el sufijo "-prerelease" al comando para especificar que se instale también la última versión que incluya correcciones.
+- Verá que aparece el aviso "Descargando Aspose.Cells..." en la parte inferior izquierda de la ventana, indicando que la descarga está en proceso.
+- Una vez descargado, verá los siguientes mensajes de confirmación. Si no está familiarizado con el EULA de Aspose, es una buena idea leer la licencia referenciada en la URL.
+- Ahora debería encontrar que Aspose.Cells se ha agregado y referenciado con éxito en su aplicación.
+## **Referenciar Aspose.Cells desde un Proyecto .NET**
+Para utilizar Aspose.Cells en una aplicación, agregue una referencia. Para agregar una referencia usando Visual Studio:
 
-Si ha descargado o desempaquetado solo la DLL:
+1. En el **Explorador de soluciones**, expanda el nodo del proyecto al que desea agregar una referencia.
+1. Haga clic derecho en el nodo **Referencias** del proyecto y seleccione **Agregar referencia** en el menú.
+1. En el cuadro de diálogo **Agregar referencia**, seleccione la pestaña .NET (seleccionada por defecto). Si instaló usando el instalador MSI, Aspose.Cells aparecerá en el panel superior.
+1. Selecciónelo y haga clic en **Seleccionar**.
 
-1.  Localice el archivo Aspose.Cells.dll usando el**Navegar** botón. Aspose.Cells debe aparecer en el**Componentes seleccionados** panel del cuadro de diálogo.
-1.  Hacer clic**DE ACUERDO** . La referencia Aspose.Cells aparece bajo el**Referencias** nodo del proyecto.
-### **Hacer referencia al componente de un proyecto de perfil de cliente VS.NET 2010**
-Si el marco de destino de su proyecto es .NET Framework 3.5/4 Client Profile, use el archivo de componente Aspose.Cells.dll ubicado en la carpeta net_ClientProfile de su directorio de instalación. Por ejemplo:
+Si solo has descargado o desempaquetado el archivo DLL:
 
--  En**Explorador de la solución** de VS.NET 2010 para su proyecto, haga clic derecho**Referencias** y seleccione**Añadir referencia**.
--  Selecciona el**Navegar** en la pestaña del cuadro de diálogo y haga clic en el menú desplegable Buscar.
-- Busque y seleccione el archivo del componente Aspose.Cells.dll en su directorio de instalación, por ejemplo: .../Program Files/Aspose/Aspose.Cells for .NET/Bin/net_ClientProfile/ **(Asegúrese de haber instalado el producto usando el instalador MSI en su máquina .)**
--  Hacer clic**DE ACUERDO** para cerrar el diálogo
+1. Ubica el archivo Aspose.Cells.dll usando el botón **Examinar**. Aspose.Cells debería aparecer en el panel **Componentes Seleccionados** de la ventana de diálogo.
+1. Haz clic en **OK**. La referencia a Aspose.Cells aparecerá bajo el nodo **Referencias** del proyecto.
+### **Haciendo referencia al componente desde un proyecto de VS.NET 2010 Client Profile**
+Si el framework de destino de tu proyecto es .NET Framework 3.5/4 Client Profile, utiliza el archivo del componente Aspose.Cells.dll ubicado en la carpeta net_ClientProfile de tu directorio de instalación. Por ejemplo:
+
+- En el **Explorador de soluciones** de VS.NET 2010 para tu proyecto, haz clic derecho en **Referencias** y selecciona **Agregar referencia**.
+- Selecciona la pestaña **Examinar** en el diálogo y haz clic en el menú desplegable **Buscar**.
+- Encuentra y selecciona el archivo del componente Aspose.Cells.dll en tu directorio de instalación, por ejemplo: .../Archivos de programa/Aspose/Aspose.Cells for .NET/Bin/net_ClientProfile/ **(Asegúrate de haber instalado el producto usando el instalador MSI en tu máquina.)**
+- Haz clic en **OK** para cerrar el diálogo
 
 {{% alert color="primary" %}} 
 
-Si el marco de destino de su proyecto VS.NET 2010 es ".NET Framework 4" u otro, simplemente use el archivo de componente Aspose.Cells.dll ubicado en la carpeta net4.0/net2.0.
+Si el framework de destino de tu proyecto de VS.NET 2010 es ".NET Framework 4" u otro, simplemente utiliza el archivo del componente Aspose.Cells.dll ubicado en la carpeta net4.0/net2.0.
 
 {{% /alert %}} 
-## **Referencia a Aspose.Cells Grid Controls de un proyecto .NET**
-Para utilizar un control de cuadrícula en su aplicación, agréguele una referencia. Para hacer referencia a un control de cuadrícula en Visual Studio, haga lo siguiente:
+## **Haciendo referencia a los controles de cuadrícula de Aspose.Cells desde un proyecto .NET**
+Para usar un control de cuadrícula en tu aplicación, agrega una referencia a él. Para hacer referencia a un control de cuadrícula en Visual Studio, realiza lo siguiente:
 
--  En**Explorador de la solución**, expanda el nodo del proyecto al que desea agregar una referencia.
--  Haga clic derecho en el**Referencias** nodo para el proyecto y seleccione**Añadir referencia** del menú.
--  En el**Añadir referencia** cuadro de diálogo, seleccione el**.NET pestaña** (seleccionado por defecto). Si usó el instalador MSI para instalar Aspose.Cells, for .NET, Aspose.Cells.GridDesktop y Aspose.Cells.GridWeb aparecerán en el panel superior.
--  Selecciónelos y haga clic**Seleccione**.
-- Las referencias Aspose.Cells.GridDesktop y Aspose.Cells.GridWeb aparecen en el nodo Referencias del proyecto.
+- En **Explorador de soluciones**, expande el nodo del proyecto al que deseas agregar una referencia.
+- Haz clic con el botón derecho en el nodo **Referencias** del proyecto y selecciona **Agregar referencia** en el menú.
+- En el cuadro de diálogo **Agregar referencia**, selecciona la pestaña **.NET** (seleccionada por defecto). Si has utilizado el instalador MSI para instalar Aspose.Cells for .NET, Aspose.Cells.GridDesktop y Aspose.Cells.GridWeb aparecerán en el panel superior.
+- Selecciona ambos y haz clic en **Seleccionar**.
+- Las referencias a Aspose.Cells.GridDesktop y Aspose.Cells.GridWeb aparecerán bajo el nodo Referencias del proyecto.
 
-Si descargó y descomprimió solo la DLL:
+Si solo has descargado y desempaquetado el archivo DLL:
 
--  Localice los archivos Aspose.Cells.GridDesktop.dll y Aspose.Cells.GridWeb.dll con el botón Examinar. Se ha hecho referencia a Aspose.Cells Grid Suite y debería aparecer en el**Componentes seleccionados** panel del cuadro de diálogo.
--  Hacer clic**ESTÁ BIEN.**
+- Localiza los archivos Aspose.Cells.GridDesktop.dll y Aspose.Cells.GridWeb.dll usando el botón Examinar. El conjunto de controles de cuadrícula de Aspose.Cells ha sido referenciado y debería aparecer en el panel **Componentes Seleccionados** de la ventana de diálogo.
+- Haz clic en **OK.**
 ## **Desinstalando Aspose.Cells for .NET**
-Si usó el instalador MSI para implementar Aspose.Cells for .NET, siga estos pasos para eliminar por completo el componente y los controles, las demostraciones y la documentación asociadas:
+Si ha utilizado el instalador MSI para implementar Aspose.Cells for .NET, siga estos pasos para eliminar por completo el componente y los controles, las demos asociadas y la documentación:
 
--  Desde el**Comenzar** menú, seleccione**Ajustes** , seguido por**Panel de control**.
--  Hacer clic**Añadir Quitar programas**.
+- Desde el menú **Inicio**, seleccione **Configuración**, seguido de **Panel de Control**.
+- Haga clic en **Agregar o quitar programas**.
 - Seleccione Aspose.Cells for .NET (versión).
--  Hacer clic**Cambiar y eliminar** para eliminar Aspose.Cells.
+- Haga clic en **Cambiar/Quitar** para eliminar Aspose.Cells.

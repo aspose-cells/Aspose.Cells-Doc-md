@@ -1,119 +1,120 @@
 ---
-title: チャートから画像へ
-description: Aspose.Cells for .NET を使用してグラフを JPEG や PNG などの画像形式に変換する方法について説明します。ガイドでは、Microsoft Excel からグラフをエクスポートし、さらに使用したり操作したりできるようにスタンドアロン画像として保存する方法を説明します。
-keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
-linktitle: チャートから画像へ
+title: グラフをイメージに変換する
+description: Aspose.Cells for .NETを使用して、Microsoft Excelからグラフをエクスポートし、JPEGやPNGなどの画像形式に保存する方法を学びます。当ガイドでは、Microsoft Excelからグラフをエクスポートし、独立した画像として保存する手順を示します。
+keywords: Aspose.Cells for .NET, グラフをイメージ, Microsoft Excel, 画像変換, エクスポート, スタンドアロン イメージ
+linktitle: グラフをイメージに変換する
 type: docs
 weight: 46
 url: /ja/net/chart-to-image/
 ---
-##  **レンダリングチャート**
 
- Aspose.Cells API は、追加のツールやアプリケーションを必要とせずに、Excel グラフを画像形式に変換することをサポートしています。レンダリングのサポートを提供するために、[**チャート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)クラスが暴露した[**画像へ**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)アプリケーション要件に最適な多数のオーバーロードを備えたメソッド。
+## **チャートのレンダリング**
 
-###  **チャートを画像にレンダリングする**
+Aspose.CellsのAPIは、追加のツールやアプリケーションを必要とせずにExcelのチャートをイメージ形式に変換するサポートを提供しています。描画サポートを提供するため、[**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) クラスは、アプリケーションの要件に最も適したオーバーロードを備えた [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) メソッドを公開しています。
 
-の[**チャート.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)メソッドには、単純なレンダリングだけでなく高度なレンダリングもサポートする多数のオーバーロードがあります。アプリケーションの要件がデフォルトの寸法でグラフをレンダリングすることである場合は、[**チャート.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)以下のような方法で。
+### **画像へのチャートのレンダリング**
+
+このメソッドには、シンプルな描画から高度な描画までをサポートする多くのオーバーロードがあります。アプリケーション要件がチャートをデフォルトの寸法で描画することである場合、[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) メソッドをご利用いただくことをお勧めします。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
-高度な設定を使用してチャートを画像にレンダリングすることもできます。 Aspose.Cells API は、次のオーバーロード バージョンを公開しました。[**チャート.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)のインスタンスを受け入れることができるメソッド[**画像または印刷オプション**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)、解像度、スムージングモード、画像形式などのパラメータを指定できるようにします。
+また、高度な設定でのチャートをイメージに描画することも可能です。Aspose.CellsのAPIは、[**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions) のインスタンスを受け入れるオーバーロードバージョンのメソッドを公開しており、解像度、スムージングモード、画像形式などのパラメータを指定できます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-##  **レンダリングでサポートされているグラフの種類**
+## **レンダリングにサポートされているチャートの種類**
 
-現在レンダリングがサポートされていないグラフの種類がいくつかあります。このようなグラフの種類には次のものがあります。**** の N** サポートされています**下の表の列。
+現在は描画に対応していないチャートタイプもいくつかあります。そうしたチャートタイプには、以下の表の**サポート**列に**N**が含まれています。
 
-|**グラフの種類**|**グラフのサブタイプ**|**サポートされています**|
+|チャートタイプ|チャートサブタイプ|サポートされているかどうか|
 | :- | :- | :- |
-|**カラム**|カラム|*はい**|
-| |列積み上げ|*はい**|
-| |列100パーセント積み上げ|*はい**|
-| |列3Dクラスター化|*はい**|
-| |列 3D 積み上げ|*はい**|
-| |列 3D100 パーセント積み上げ|*はい**|
-| |コラム3D|*はい**|
-|**バー**|バー|*はい**|
-| |バー積み上げ|*はい**|
-| |バー100パーセント積み上げ|*はい**|
-| |バー3Dクラスター化|*はい**|
-| |Bar3D積み上げ|*はい**|
-| |Bar3D100パーセント積み上げ|*はい**|
-|**ライン**|ライン|*はい**|
-| |ラインスタック|*はい**|
-| |線100パーセント積み上げ|*はい**|
-| |LineWithDataMarkers|*はい**|
-| |LineStackedWithDataMarkers|*はい**|
-| |Line100PercentStackedWithDataMarkers|*はい**|
-| |ライン3D|*はい**|
-|**パイ**|パイ|*はい**|
-| |パイ3D|*はい**|
-| |パイパイ|*はい**|
-| |パイ爆発|*はい**|
-| |パイ3D分解|*はい**|
-| |パイバー|*はい**|
-|**散布**|散布|*はい**|
-| |ScatterConnectedByCurvesWithDataMarker|*はい**|
-| |データマーカーなしの曲線による散乱接続|*はい**|
-| |ScatterConnectedByLinesWithDataMarker|*はい**|
-| |ScatterConnectedByLinesWithoutDataMarker|*はい**|
-|**エリア**|エリア|*はい**|
-| |積み上げられたエリア|*はい**|
-| |面積100パーセント積み上げ|*はい**|
-| |エリア3D|*はい**|
-| |エリア3D積み上げ|*はい**|
-| |エリア3D100パーセント積み上げ|*はい**|
-|**ドーナツ**|ドーナツ|*はい**|
-| |ドーナツ爆発|*はい**|
-|**レーダー**|レーダー|*はい**|
-| |レーダーとデータマーカー|*はい**|
-| |レーダー充填済み|*はい**|
-|**表面**|表面3D|N|
-| |表面ワイヤーフレーム3D|N|
-| |表面輪郭|N|
-| |表面輪郭ワイヤーフレーム|N|
-|**バブル**|バブル|*はい**|
-| |バブル3D|N|
-|**ストック**|株価高安値終値|*はい**|
-| |株価オープン高値安値クローズ|*はい**|
-| |株価出来高高安値終値|*はい**|
-| |株価出来高オープン高値安値クローズ|*はい**|
-|**シリンダー**|シリンダー|*はい**|
-| |シリンダー積み上げ|*はい**|
-| |シリンダー100パーセント積み上げ|*はい**|
-| |円筒形バー|*はい**|
-| |円筒形バー積み上げ|*はい**|
-| |円柱バー100パーセント積み上げ|*はい**|
-| |円柱柱3D|*はい**|
-|**円錐**|円錐|*はい**|
-| |コーン積み上げ|*はい**|
-| |コーン100パーセント積み上げ|*はい**|
-| |コニカルバー|*はい**|
-| |円錐形バー積み上げ|*はい**|
-| |円錐バー100パーセント積み上げ|*はい**|
-| |円錐柱3D|*はい**|
-|**ピラミッド**|ピラミッド|*はい**|
-| |ピラミッド積み上げ|*はい**|
-| |ピラミッド100パーセント積み上げ|*はい**|
-| |ピラミッドバー|*はい**|
-| |ピラミッドバー積み上げ|*はい**|
-| |ピラミッドバー100パーセント積み上げ|*はい**|
-| |ピラミッド柱3D|*はい**|
-|**ボックスウィスカー**|ボックスウィスカー|Y|
-|**漏斗**|漏斗|*はい**|
-|**パレートライン**|パレートライン|*はい**|
-|**サンバースト**|サンバースト|*はい**|
-|**ツリーマップ**|ツリーマップ|*はい**|
-|**滝**|滝|*はい**|
-|**ヒストグラム**|ヒストグラム|Y|
-|**地図**|地図|*N**|
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
+| |SurfaceContourWireframe|N|
+|**Bubble**|Bubble|**Y**|
+| |Bubble3D|N|
+|**Stock**|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
+|**BoxWhisker**|BoxWhisker|Y|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-サポートされていないグラフ タイプを画像または PDF にレンダリングしようとすると、サイズが 0 の画像または空白の PDF が表示される可能性があります。
+レンダリングでサポートされていないチャートタイプを画像やPDFにレンダリングしようとすると、サイズが0の画像や空白のPDFができる可能性があります。
 
 {{% /alert %}}
 
-##  **アドバンストトピック**
-- [チャートを PDF に変換](/cells/ja/net/chart-to-pdf/)
+## **高度なトピック**
+- [グラフをPDFに変換する](/cells/ja/net/chart-to-pdf/)

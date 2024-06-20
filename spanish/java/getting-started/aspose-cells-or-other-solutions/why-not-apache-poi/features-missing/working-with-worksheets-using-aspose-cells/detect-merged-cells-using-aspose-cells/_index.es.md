@@ -1,16 +1,17 @@
-﻿---
-title: Detectar combinado Cells usando Aspose.Cells
+---
+title: Detectar Celdas Fusionadas usando Aspose.Cells
 type: docs
 weight: 30
 url: /es/java/detect-merged-cells-using-aspose-cells/
 ---
-## **Aspose.Cells - Detectar combinado Cells**
-En Microsoft Excel, se pueden combinar varias celdas en una sola. Esto se usa a menudo para crear tablas complejas o para crear una celda que contiene un encabezado que abarca varias columnas.
-Aspose.Cells le permite identificar áreas de celdas combinadas en una hoja de trabajo. También puedes separarlos.
+
+## **Aspose.Cells - Detectar celdas fusionadas**
+En Microsoft Excel, varias celdas pueden fusionarse en una sola. Esto se usa a menudo para crear tablas complejas, o para crear una celda que contiene un encabezado que abarca varias columnas.
+Aspose.Cells te permite identificar áreas de celdas fusionadas en una hoja de cálculo. También puedes deshacer la fusión.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the merged cells list to put it into the arraylist object
 
@@ -53,14 +54,14 @@ for(int i = al.size()-1 ; i > -1; i--)
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDetectMergeCells.java)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Detectar fusionado Cells en una hoja de trabajo](/cells/es/java/detect-merged-cells-in-a-worksheet).
+Para obtener más detalles, visite [Detectar celdas fusionadas en una hoja de cálculo](/cells/es/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}

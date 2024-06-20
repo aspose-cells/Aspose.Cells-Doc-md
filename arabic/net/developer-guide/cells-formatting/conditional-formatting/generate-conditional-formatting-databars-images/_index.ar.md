@@ -1,17 +1,18 @@
 ---
-title: إنشاء صور لأشرطة البيانات ذات التنسيق الشرطي
-description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جداول البيانات. وهو يدعم إنشاء أشرطة وصور بيانات منسقة بشكل مشروط، مما يسمح للمستخدمين بتخصيص عرض جدول البيانات بناءً على قيمة الخلايا. ستقدم هذه المقالة كيفية استخدام مكتبة Aspose.Cells لإنشاء أشرطة وصور بيانات منسقة بشكل مشروط.
-keywords: Aspose.Cells, Conditional Formatting, Data Bars, Images, Spreadsheets
+title: إنشاء بيانات شكل معايرة شريطية للصور
+description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جداول البيانات. تدعم إنشاء شرائط بيانات مُنسقة تنسيقيًا والصور، مما يتيح للمستخدمين تخصيص عرض جدول البيانات استنادًا إلى قيمة الخلايا. ستقدم هذه المقالة كيفية استخدام مكتبة Aspose.Cells لإنشاء شرائط بيانات مُنسقة تنسيقيًا والصور.
+keywords: Aspose.Cells، التنسيق الشرطي، شرائط بيانات، صور، جداول بيانات
 type: docs
 weight: 40
 url: /ar/net/generate-conditional-formatting-databars-images/
 ---
+
 {{% alert color="primary" %}}
 
- في بعض الأحيان، تحتاج إلى إنشاء صور لأشرطة بيانات التنسيق الشرطي. يمكنك استخدام Aspose.Cells[**DataBar.ToImage()**](https://reference.aspose.com/cells/net/aspose.cells/databar/methods/toimage) طريقة توليد هذه الصور توضح هذه المقالة كيفية إنشاء صورة DataBar باستخدام Aspose.Cells.
+أحيانًا ، تحتاج إلى إنشاء صور شرائط البيانات التنسيقية الشرطية. يمكنك استخدام طريقة Aspose.Cells [**DataBar.ToImage()**](https://reference.aspose.com/cells/net/aspose.cells/databar/methods/toimage) لإنشاء هذه الصور. توضح هذه المقالة كيفية إنشاء صورة DataBar باستخدام Aspose.Cells.
 
 {{% /alert %}}
 
- نموذج التعليمات البرمجية التالي ينشئ صورة DataBar للخلية C1. أولاً، يصل إلى كائن شرط التنسيق الخاص بالخلية، ثم من هذا الكائن، يصل إلى[**شريط البيانات**](https://reference.aspose.com/cells/net/aspose.cells/databar) الكائن ويستخدمه[**ToImage()**](https://reference.aspose.com/cells/net/aspose.cells/databar/methods/toimage)طريقة توليد صورة الخلية وأخيرا، فإنه يحفظ الصورة على القرص.
+يُنشئ الشفرة النموذجية التالية صورة DataBar للخلية C1. أولاً، يصل إلى كائن شرط التنسيق للخلية، ومن ثم من ذلك الكائن، يصل إلى الكائن [**DataBar**](https://reference.aspose.com/cells/net/aspose.cells/databar) ويستخدم طريقة [**ToImage()**](https://reference.aspose.com/cells/net/aspose.cells/databar/methods/toimage) لإنشاء صورة الخلية. في النهاية، يقوم بحفظ الصورة على القرص.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-GenerateDatabarImage-1.cs" >}}

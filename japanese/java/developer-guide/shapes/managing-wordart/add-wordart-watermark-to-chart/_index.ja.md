@@ -1,31 +1,32 @@
-﻿---
-title: ワードアートの透かしをグラフに追加する
+---
+title: グラフにWordArtウォーターマークを追加する
 type: docs
 weight: 40
 url: /ja/java/add-wordart-watermark-to-chart/
 ---
+
 {{% alert color="primary" %}}
 
-ワードアートを使用して、スプレッドシートに特殊なテキスト効果を追加できます。たとえば、タイトルを引き延ばしたり、テキストを装飾したり、テキストをプリセットの形状に合わせたり、影響を受けるテキストを透かしとしてグラフのプロット エリアに適用したりします。ワードアートは、スプレッドシート内で移動または配置して装飾を追加できるオブジェクトになります。
+WordArtを使用して、スプレッドシートに特殊なテキスト効果を追加できます。たとえば、タイトルを伸ばしたり、テキストを飾ったり、テキストをプリセットされた形に合わせたり、チャートのプロットエリアに影響を及ぼすテキストを透かしとして適用したりできます。WordArtは移動したり配置したりしてスプレッドシートに装飾を追加できるオブジェクトになります。
 
-次の例は、ワードアート図形を透かしとしてグラフ プロット エリアに追加する方法を示しています。
+次の例は、グラフのプロットエリアにウォーターマークとしてWordArtシェイプを追加する方法を示しています。
 
 {{% /alert %}}
 
-## ワードアートの透かしをグラフに追加する
+## グラフにWordArtウォーターマークを追加
 
-次の例は、既存のグラフのプロット エリアの透かしとしてワードアート図形を追加する方法を示しています。この例では、グラフが既に含まれているテンプレート Excel ファイルを使用します。
+次の例は、既存のグラフのプロットエリアにWordArtシェイプをウォーターマークとして追加する方法を示しています。この例では、既にグラフを含むテンプレートのエクセルファイルを使用しています。
 
 ### コード実行前後の比較画像
 
 **入力ファイル**
 
-![todo:画像_代替_文章](add-wordart-watermark-to-chart_1.png)
+![todo:image_alt_text](add-wordart-watermark-to-chart_1.png)
 
 **出力ファイル**
 
-![todo:画像_代替_文章](add-wordart-watermark-to-chart_2.png)
+![todo:image_alt_text](add-wordart-watermark-to-chart_2.png)
 
-### Java グラフにワードアートの透かしを追加するコード
+### グラフにWordArtウォーターマークを追加するJavaコード
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.java" >}}

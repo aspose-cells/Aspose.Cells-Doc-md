@@ -1,16 +1,19 @@
-﻿---
+---
 title: Skriv ut GridWeb
 type: docs
 weight: 90
-url: /sv/net/print-gridweb/
+url: /sv/net/aspose-cells-gridweb/print-gridweb/
+keywords: GridWeb, utskrift
+description: Den här artikeln introducerar hur man skriver ut i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Det finns tillfällen då utvecklare behöver skriva ut GridWeb-innehållet från en webbsida utan att spara resultatet som Microsoft Excel-kalkylarksfil. Aspose.Cells.GridWeb-kontrollen stöder denna funktion via klientsidans funktion.
+Det finns tillfällen då utvecklare behöver skriva ut innehållet i GridWeb från en webbsida utan att spara resultatet som en Microsoft Excel-kalkylbladfil. Aspose.Cells.GridWeb-kontrollen stödjer den här funktionen via klientens funktion.
 
 {{% /alert %}} 
-## **Utskrift GridWeb**
-För att skriva ut innehållet har Aspose.Cells.GridWeb for .NET avslöjat funktionen GridWeb.Print på klientsidan som kan användas i ett JavaScript-anrop som visas nedan.
+## **Utskrift av GridWeb**
+För att skriva ut innehållet har Aspose.Cells.GridWeb för .NET exponerat funktionen GridWeb.Print på klientens sida som kan användas i ett JavaScript-anrop, enligt nedan demonstrerat.
 
 
 
@@ -18,7 +21,7 @@ För att skriva ut innehållet har Aspose.Cells.GridWeb for .NET avslöjat funkt
 
 
 
-När JavaScript-funktionen är på plats kan den utlösas vid valfri händelse. Kontrollera följande ASP.NET-kodavsnitt som använder den ovan definierade JavaScript-funktionen på en knappklickshändelse.
+När JavaScript-funktionen är på plats kan den utlösas vid valfri händelse. Vänligen kontrollera följande ASP.NET-snutt som använder den ovan definierade JavaScript-funktionen vid en knappklickhändelse.
 
 
 

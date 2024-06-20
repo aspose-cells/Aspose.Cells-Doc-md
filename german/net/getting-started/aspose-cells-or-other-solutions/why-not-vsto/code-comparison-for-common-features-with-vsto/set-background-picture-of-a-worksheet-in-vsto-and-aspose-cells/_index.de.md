@@ -1,26 +1,27 @@
-﻿---
-title: Legen Sie das Hintergrundbild eines Arbeitsblatts in VSTO und Aspose.Cells fest
+---
+title: Hintergrundbild eines Arbeitsblatts in VSTO und Aspose.Cells einstellen
 type: docs
 weight: 220
 url: /de/net/set-background-picture-of-a-worksheet-in-vsto-and-aspose-cells/
 ---
-So wenden Sie ein Hintergrundbild auf eine Tabelle an:
 
-1. Erstellen Sie eine Arbeitsmappe und greifen Sie auf das Blatt zu, auf das Sie ein Hintergrundbild anwenden möchten.
+Um ein Hintergrundbild auf ein Tabellenblatt anzuwenden:
+
+1. Erstellen Sie ein Arbeitsbuch und greifen Sie auf das Blatt zu, auf das Sie ein Hintergrundbild anwenden möchten.
 1. Wenden Sie das Hintergrundbild an.
-1. Speichern Sie die Arbeitsmappe.
+1. Speichern Sie das Arbeitsbuch.
 
-Die folgenden Codebeispiele zeigen, wie dies zuerst mit VSTO unter Verwendung von C# oder Visual Basic und dann mit Aspose.Cells for .NET, wiederum unter Verwendung von C# oder Visual Basic, durchgeführt wird.
+Die folgenden Codebeispiele zeigen, wie dies zuerst mit VSTO mithilfe von C# oder Visual Basic und dann mit Aspose.Cells for .NET, wieder mithilfe von C# oder Visual Basic, erreicht werden kann.
 
-Die Codebeispiele in diesem Artikel erstellen ein Arbeitsblatt mit einem sich wiederholenden Hintergrundbild, wie dem im Screenshot unten.
+Die Codebeispiele in diesem Artikel erstellen ein Arbeitsblatt mit einem sich wiederholenden Hintergrundbild, ähnlich dem in der folgenden Abbildung.
 
-![todo: Bild_alt_Text](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-Für das Arbeitsblatt wurde ein Hintergrund festgelegt.
+Ein Hintergrund wurde für das Arbeitsblatt festgelegt.
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -50,7 +51,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -70,7 +71,7 @@ FileStream fs = File.OpenRead(ImageUrl);
 
 //Define a byte array.
 
-byte[]imageData = new Byte[fs.Length];
+byte[] imageData = new Byte[fs.Length];
 
 //Obtain the picture into the array of bytes from streams.
 
@@ -92,6 +93,6 @@ workbook.Save("BackgroundPicBook.xls");
 
 ## **Beispielcode herunterladen**
 
-- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Set.Background.Picture.of.a.Worksheet.Aspose.Cells.zip)
-- [Quellenschmiede](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip/herunterladen)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).Postleitzahl)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Set.Background.Picture.of.a.Worksheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip)

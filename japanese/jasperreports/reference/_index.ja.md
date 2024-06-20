@@ -1,8 +1,9 @@
-﻿---
+---
 title: リファレンス
 type: docs
 weight: 60
 url: /ja/jasperreports/reference/
 ---
-###### **このセクションには、次のトピックが含まれています。**
-- [設定パラメータ](/cells/ja/jasperreports/configuration-parameters/)
+
+###### **このセクションには以下のトピックが含まれています:** 
+- [構成パラメータ](/cells/ja/jasperreports/configuration-parameters/)

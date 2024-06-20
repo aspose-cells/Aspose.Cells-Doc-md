@@ -1,39 +1,40 @@
-﻿---
-title: Aspose.Cells for Java および PHP
+---
+title: Aspose.Cells for JavaとPHP
 type: docs
 weight: 20
 url: /ja/java/aspose-cells-for-java-and-php/
 ---
+
 {{% alert color="primary" %}} 
 
- PHP 開発者は、PHP アプリケーションで Aspose.Cells for Java を使用できます。 Aspose.Cells for Java と PHP を使用するには、PHP バージョン 5 (PHP5 として知られています) を使用します。 PHP4 を使用して Aspose.Cells for Java にアクセスすることもできますが、PHP5 を使用するよりも複雑です。
+PHP開発者はAspose.Cells for JavaをPHPアプリケーションで使用できます。Aspose.Cells for JavaとPHPを使用するには、PHPバージョン5（PHP5としても知られています）を使用してください。PHP4でもAspose.Cells for Javaにアクセスすることができますが、PHP5を使用するよりも複雑です。 
 
 {{% /alert %}} 
-## **PHP の操作**
-### **PHP5 の使用**
-Aspose.Cells for Java は、開発者が Java クラスを直接操作しなくても Aspose.Cells ライブラリを簡単に使用できるようにする PHP5 ラッパー クラスを提供します。
+## **PHPでの操作**
+### **PHP5の使用**
+Aspose.Cells for Javaは、開発者がJavaクラスを直接扱うことなくAspose.Cellsライブラリを使用できるようにするPHP5ラッパークラスを提供します。 
 
-これらのラッパー クラスは、PHP ファイルの形式で aspose.cells.zip アーカイブの PHP ディレクトリにあります。
-## **PHP4 の使用**
-PHP4 は Aspose.Cells for Java でも機能しますが、この場合、開発者は Java クラスを直接操作する必要があります。
+これらのラッパークラスは、aspose.cells.zipアーカイブのPHPディレクトリにPHPファイルの形で見つけることができます。 
+## **PHP4の使用**
+PHP4はAspose.Cells for Javaとも連携しますが、この場合、開発者はJavaクラスを直接使用する必要があります。 
 
 {{% alert color="primary" %}} 
 
- aspose.cells.jar を php.ini ファイルの java.class.path に追加することを忘れないでください。
+php.iniファイルのjava.class.pathにaspose.cells.jarを追加することを忘れないでください。 
 
- PHP ラッパー クラスは、対応する Java クラスの PHP クラスを作成するためのいくつかの静的メソッドを提供します。コンストラクターがオーバーロードされている場合、ClassFactory 内の対応するすべてのメソッドは、作成 + シリアル番号 + クラス名として定義されます。たとえば、((createXXX()}}、create1XXX(args...)、create2XXX(args...)、等々。
+PHPラッパークラスは、ClassFactoryでcreateXXX()というシグネチャで対応するJavaクラスのPHPクラスを作成するいくつかの静的メソッドを提供します。コンストラクタがオーバーロードされている場合、ClassFactory内のすべての対応するメソッドは、create+連番+クラス名、例えば: ((createXXX()}}, create1XXX(args...), create2XXX(args...)などとして定義されます。 
 
-すべての定数は PHP で ClassName+" "+ConstantName として定義されます。たとえば、BorderLineType.NONE は PHP で BorderLineType NONE として定義されます。
+すべての定数は、ClassName+" "+ConstantNameとしてPHPで定義されます。たとえば、BorderLineType.NONEはPHPでBorderLineType NONEとして定義されます。 
 
-メソッドがオーバーロードされている場合は、メソッド名 + シリアル番号として定義されます (たとえば、cell.setValue、cell.setValue1()、cell.setValue2() など)。
+メソッドがオーバーロードされている場合、メソッド名+連番として定義されます。たとえば、cell.setValue、cell.setValue1()、cell.setValue2()などです。 
 
- clone() メソッドは cloneObject() として定義されています。
+clone()メソッドはcloneObject()として定義されます。 
 
 {{% /alert %}} 
 
 **PHP**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?php
 

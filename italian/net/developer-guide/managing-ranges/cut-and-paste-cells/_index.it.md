@@ -1,20 +1,21 @@
-﻿---
-title: Gamma taglia e incolla
+---
+title: Taglia e Incolla Intervallo
 type: docs
 weight: 130
 url: /it/net/cut-and-paste-cells/
 ---
-## **Taglia e incolla Cells**
 
-Aspose.Cells ti offre la possibilità di tagliare e incollare le celle all'interno di un foglio di lavoro utilizzando il file[**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) metodo del[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione. Il[**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells)accetta i seguenti parametri.
+## **Taglia e Incolla Celle**
 
-- [**Allineare**](https://reference.aspose.com/cells/net/aspose.cells/range)l'intervallo di celle da tagliare.
-- Indice riga: l'indice della riga in cui inserire le celle.
-- Indice colonna: l'indice della colonna in cui inserire le celle.
-- [**Tipo di spostamento**](https://reference.aspose.com/cells/net/aspose.cells/shifttype): La direzione di spostamento delle colonne.
+Aspose.Cells ti fornisce la capacità di tagliare e incollare celle all'interno di un foglio di lavoro utilizzando il metodo [**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) della collezione [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Il [**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) accetta i seguenti parametri.
 
-L'esempio seguente mostra come tagliare e incollare le celle all'interno di un foglio di lavoro.
+- [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range): L'intervallo di celle da tagliare.
+- Indice riga: L'indice della riga in cui inserire le celle.
+- Indice colonna: L'indice della colonna in cui inserire le celle.
+- [**ShiftType**](https://reference.aspose.com/cells/net/aspose.cells/shifttype): La direzione di spostamento delle colonne.
 
-## **Codice d'esempio**
+L'esempio seguente mostra come tagliare e incollare celle all'interno di un foglio di lavoro.
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-CutAndPasteCells-1.cs" >}}

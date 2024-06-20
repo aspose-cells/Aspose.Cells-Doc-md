@@ -1,27 +1,28 @@
-﻿---
-title: Yazı Tiplerine Üst Simge ve Alt Simge Efektleri Uygulayın
+---
+title: Fontlarda Üstsimge ve Altsimge Efektleri Uygulama
 type: docs
 weight: 80
 url: /tr/net/apply-superscript-and-subscript-effects-on-fonts/
-description: C# kodu, Aspose.Cells for .NET API kullanarak excel'deki metne üst simge ve alt simge efekti uygulamak için.
-keywords: excel superscript c#, excel subscript c#, excel superscript and subscript c#, insert subscript and superscript in excel c#, add subscript and superscript in excel c#, add superscript and subscript excel c#, add superscript excel c#, add subscript excel c#
+description: Metinde üstsimge ve altsimge efektini, Aspose.Cells for .NET API kullanarak excelle uygulamak için C# kodu.
+keywords: excel c# üstsimge, excel c# altsimge, excel c# üstsimge ve altsimge, excel c# da altsimge ve üstsimge ekleme, excel c# da altsimge ve üstsimge ekleme, altsimge ve üstsimgeyi excel c# da ekleme, excel c# da üstsimge ekleme, excel c# da altsimge ekleme
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, metne üst simge (taban çizgisinin üzerindeki metin) ve alt simge (taban çizgisinin altındaki metin) efektlerini uygulama işlevselliği sağlar.
+Aspose.Cells, metne üstsimge (metnin taban çizgisinin üstünde) ve altsimge (metnin taban çizgisinin altında) efektlerini uygulama işlevselliği sağlar.
 
 {{% /alert %}}
 
-## **Üst Simge ve Alt Simge ile Çalışma**
+## **Üstsimge ve Altsimge ile Çalışma**
 
- ayarlayarak üst simge efektini uygulayın.[**Stil.Yazı Tipi**](https://reference.aspose.com/cells/net/aspose.cells/font) nesnenin[**üst simge**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) mülkiyet**doğru** . Alt simgeyi uygulamak için[**Stil.Yazı Tipi**](https://reference.aspose.com/cells/net/aspose.cells/font) nesnenin[**Abonelik**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) mülkiyet**doğru**.
+Üstsimge efektini **true** olarak ayarlayarak [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) nesnesinin [**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) özelliğini ayarlayarak uygulayabilirsiniz. Altsimge uygulamak için, [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) nesnesinin [**IsSubscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) özelliğini **true** olarak ayarlayın.
 
-Aşağıdaki kod örnekleri, metne süper ve alt simgenin nasıl uygulanacağını gösterir.
+Aşağıdaki kod örnekleri, metne üst simge ve altsimge uygulamanın nasıl yapılacağını göstermektedir.
 
-### Metne Üst Simge efekti uygulamak için C# kodu
+Metne Üstsimge Efekti Uygulamak İçin C# Kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSuperscripteffect-1.cs" >}}
 
-### Metne Abonelik efekti uygulamak için C# kodu
+Metne Altsimge Efekti Uygulamak İçin C# Kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}

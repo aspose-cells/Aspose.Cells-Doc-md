@@ -1,17 +1,18 @@
-﻿---
-title: XLS veya XLSX İhracat
+---
+title: XLS veya XLSX İhracatı
 type: docs
 weight: 20
 url: /tr/jasperreports/xls-or-xlsx-export/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for JasperReports, düzen veya format kaybı olmadan XLS ve XLSX formatında raporları teslim etmenizi sağlar. Microsoft Excel biçimlerinde elektronik tablolar oluşturmak için Aspose.Cells for JasperReports, Excel'in yerleşik bir sürümünü kullanır.[Aspose.Cells for Java](https://products.aspose.com/cells/java/)Aspose'den itibaren önde gelen bir elektronik tablo işleme kitaplığı.
+Aspose.Cells for JasperReports kayıp olmadan XLS ve XLSX formatında raporları iletebilmenizi sağlar. Microsoft Excel formatında elektronik tablolar oluşturmak için Aspose.Cells for JasperReports, Aspose'den önde gelen bir elektronik tablo işleme kütüphanesi olan [Aspose.Cells for Java](https://products.aspose.com/cells/java/)'nın yerleşik bir sürümüne dayanmaktadır.
 
-Microsoft Excel'in Aspose.Cells ile belge oluşturması gerekmez.
+Aspose.Cells ile belgeler oluşturmak için Microsoft Excel gerekli değildir.
 
-**Aspose.Cells for JasperReports kullanılarak dışa aktarılan örnek bir XLS raporu** 
+**Aspose.Cells for JasperReports Kullanılarak İhracat Edilmiş Örnek Bir XLS Raporu** 
 
-![yapılacaklar:resim_alternatif_metin](xls-or-xlsx-export_1.png)
+![todo:image_alt_text](xls-or-xlsx-export_1.png)
 
 {{% /alert %}}

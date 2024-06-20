@@ -1,11 +1,12 @@
-﻿---
-title: Ersätt tagg med text i en textruta i arbetsbladet
+---
+title: Ersätt taggen med text i en textruta på arbetsbladet
 type: docs
 weight: 150
 url: /sv/java/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
 ---
-## **Möjliga användningsscenarier**
-Textrutor kan ha taggar som kan ersättas med viss text vid körning för att konfigurera dem enligt kraven. Taggar kan vara en etikett som omges av vinkelparenteser '<' and '>. Det kan finnas flera taggar i en enda textruta. Exempelfilen kan laddas ner från följande länk.
+
+## **Möjliga användningsscenario**
+Text boxes can have tags that can be replaced with some text at run time to configure them according to the requirement. Tags can be some label enclosed in angle brackets '<' and '>'. There can be multiple tags within a single textbox. The sample file can be downloaded from the following link.
 
 [sampleReplaceTagWithText.xlsx](79527956.xlsx)
 ## **Exempelkod**

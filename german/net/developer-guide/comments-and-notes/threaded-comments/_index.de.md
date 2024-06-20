@@ -1,67 +1,68 @@
-﻿---
-title: Verkettete Kommentare
+---
+title: Threaded Comments
 type: docs
 weight: 140
 url: /de/net/threaded-comments/
 ---
-## **Verkettete Kommentare**
 
-MS Excel 365 bietet eine Funktion zum Hinzufügen von Thread-Kommentaren. Diese Kommentare funktionieren als Konversationen und können für Diskussionen verwendet werden. Die Kommentare verfügen jetzt über ein Antwortfeld, das Thread-Gespräche ermöglicht. Die alten Kommentare heißen in Excel 365 Notizen. Der folgende Screenshot zeigt, wie Thread-Kommentare angezeigt werden, wenn sie in Excel geöffnet werden.
+## **Antwortkommentare**
 
-![todo: Bild_alt_Text](threaded-comments_1.jpg)
+MS Excel 365 bietet eine Funktion zum Hinzufügen von Threaded-Kommentaren. Diese Kommentare fungieren als Unterhaltungen und können für Diskussionen verwendet werden. Die Kommentare enthalten nun eine Antwortbox, die Threaded-Konversationen ermöglicht. Die alten Kommentare werden in Excel 365 als Notizen bezeichnet. Der Screenshot unten zeigt, wie threaded Kommentare angezeigt werden, wenn sie in Excel geöffnet werden.
 
-Thread-Kommentare werden in älteren Versionen von Excel so angezeigt. Die folgenden Bilder wurden durch Öffnen der Beispieldatei in Excel 2016 aufgenommen.
+![todo:image_alt_text](threaded-comments_1.jpg)
 
-![todo: Bild_alt_Text](threaded-comments_2.jpg)
+Threaded comments werden in älteren Versionen von Excel so angezeigt. Die folgenden Bilder wurden erstellt, indem die Beispieldatei in Excel 2016 geöffnet wurde.
 
-![todo: Bild_alt_Text](threaded-comments_3.jpg)
+![todo:image_alt_text](threaded-comments_2.jpg)
 
-Aspose.Cells bietet auch die Funktion zum Verwalten von Thread-Kommentaren.
+![todo:image_alt_text](threaded-comments_3.jpg)
 
-## **Verkettete Kommentare hinzufügen**
+Aspose.Cells bietet auch die Funktion zur Verwaltung von Threaded-Kommentaren.
 
-### **Verketteten Kommentar mit Excel hinzufügen**
+## **Threaded-Kommentare hinzufügen**
 
-Führen Sie die folgenden Schritte aus, um Thread-Kommentare in Excel 365 hinzuzufügen.
+### **Threaded-Kommentar mit Excel hinzufügen**
+
+Um Threaded-Kommentare in Excel 365 hinzuzufügen, befolgen Sie die folgenden Schritte.
 
 - Methode 1
- - Drücke den**Überprüfung** Tab
- - Drücke den**Neuer Kommentar** Knopf
- - Dies öffnet einen Dialog zur Eingabe von Kommentaren in die aktive Zelle.
-  - ![todo: Bild_alt_Text](threaded-comments_4.jpg)
+  - Klicken Sie auf die Registerkarte **Überprüfen**
+  - Klicken Sie auf die Schaltfläche **Neuer Kommentar**
+  - Dadurch wird ein Dialogfeld geöffnet, um Kommentare in der aktiven Zelle einzugeben.
+  - ![todo:image_alt_text](threaded-comments_4.jpg)
 - Methode 2
- - Klicken Sie mit der rechten Maustaste auf die Zelle, in die Sie den Kommentar einfügen möchten.
- - Drücke den**Neuer Kommentar** Möglichkeit.
- - Dies öffnet einen Dialog zur Eingabe von Kommentaren in die aktive Zelle.
-  - ![todo: Bild_alt_Text](threaded-comments_5)
+  - Klicken Sie mit der rechten Maustaste auf die Zelle, in die Sie den Kommentar einfügen möchten.
+  - Klicken Sie auf die Option **Neuer Kommentar**.
+  - Dadurch wird ein Dialogfeld geöffnet, um Kommentare in der aktiven Zelle einzugeben.
+  - ![todo:image_alt_text](threaded-comments_5)
 
-### **Fügen Sie einen Thread-Kommentar mit Aspose.Cells hinzu**
+### **Fügen Sie einen Kommentarfaden mit Aspose.Cells hinzu**
 
-Aspose.Cells bietet[**Kommentare.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) Methode zum Hinzufügen von Thread-Kommentaren[**Kommentare.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)-Methode akzeptiert die folgenden drei Parameter.
+Aspose.Cells bietet die Methode [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) zum Hinzufügen von Kommentarfäden an. Die Methode [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) akzeptiert die folgenden drei Parameter.
 
-- Cell Name: Der Name der Zelle, in die der Kommentar eingefügt wird.
+- Zellenname: Der Name der Zelle, in die der Kommentar eingefügt wird.
 - Kommentartext: Der Text des Kommentars.
-- [**ThreadedCommentAutor**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthor): Der Autor des Kommentars
+- [**ThreadedCommentAuthor**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthor): Der Verfasser des Kommentars
 
-Das folgende Codebeispiel veranschaulicht die Verwendung von[**Kommentare.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)-Methode zum Hinzufügen eines Thread-Kommentars zu Zelle A1. Bitte sehen Sie sich ... an[Excel-Datei ausgeben](89849859.xlsx) generiert durch den Code als Referenz.
+Das folgende Codebeispiel zeigt die Verwendung der Methode [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) zum Hinzufügen eines kommentierten Fadens zur Zelle A1. Bitte sehen Sie die durch den Code generierte [Ausgabe-Excel-Datei](89849859.xlsx) zur Referenz an.
 
 #### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-AddThreadedComments-1.cs" >}}
 
-## **Lesen Sie Thread-Kommentare**
+## **Lese kommentierte Fäden**
 
-### **Lesen Sie Thread-Kommentare mit Excel**
+### **Lese kommentierte Fäden mit Excel**
 
-Um Thread-Kommentare in Excel zu lesen, bewegen Sie einfach die Maus über die Zelle, die Kommentare enthält, um die Kommentare anzuzeigen. Die Kommentaransicht sieht wie in der folgenden Abbildung aus.
+Um kommentierte Fäden in Excel zu lesen, fahren Sie einfach mit der Maus über die Zelle, die Kommentare enthält, um die Kommentare anzuzeigen. Die Ansicht der Kommentare wird der Darstellung im folgenden Bild ähneln.
 
-![todo: Bild_alt_Text](threaded-comments_1.jpg)
+![todo:image_alt_text](threaded-comments_1.jpg)
 
-### **Lesen Sie Thread-Kommentare mit Aspose.Cells**
+### **Lese kommentierte Fäden mit Aspose.Cells**
 
-Aspose.Cells bietet[**Kommentare.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)-Methode, um Thread-Kommentare für die angegebene Spalte abzurufen.[**Kommentare.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)-Methode akzeptiert den Spaltennamen als Parameter und gibt die zurück[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Sie können über die iterieren[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)um die Kommentare anzuzeigen.
+Aspose.Cells bietet die Methode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) zum Abrufen von kommentierten Fäden für die angegebene Spalte. Die Methode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) akzeptiert den Spaltennamen als Parameter und gibt die [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) zurück. Sie können über die [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) iterieren, um die Kommentare anzuzeigen.
 
-Das folgende Beispiel demonstriert das Lesen von Kommentaren aus Spalte A1 durch Laden der[Beispiel-Excel-Datei](89849861.xlsx). Bitte sehen Sie sich die vom Code generierte Konsolenausgabe als Referenz an.
+Das folgende Beispiel zeigt das Lesen von Kommentaren aus Spalte A1 durch Laden der [Beispiel-Excel-Datei](89849861.xlsx). Bitte sehen Sie die durch den Code generierte Konsolenausgabe zur Referenz an.
 
 #### **Beispielcode**
 
@@ -69,15 +70,19 @@ Das folgende Beispiel demonstriert das Lesen von Kommentaren aus Spalte A1 durch
 
 #### **Konsolenausgabe**
 
-Kommentar: Thread-Kommentar testen
+{{< highlight csharp >}}
 
-Autor: Aspose Test
+Comment: Test Threaded Comment
 
-### **Lesen Sie die Erstellungszeit von Thread-Kommentaren**
+Author: Aspose Test
 
-Aspose.Cells bietet[**Kommentare.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)-Methode, um Thread-Kommentare für die angegebene Spalte abzurufen.[**Kommentare.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)-Methode akzeptiert den Spaltennamen als Parameter und gibt die zurück[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Sie können über die iterieren[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) und benutze die[**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime) Eigentum.
+{{< /highlight >}}
 
-Das folgende Beispiel demonstriert das Lesen der Erstellungszeit von Thread-Kommentaren durch Laden der[Beispiel-Excel-Datei](89849861.xlsx). Bitte sehen Sie sich die vom Code generierte Konsolenausgabe als Referenz an.
+### **Lese Erstellungszeitpunkt von kommentierten Fäden**
+
+Aspose.Cells bietet die Methode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) zum Abrufen von kommentierten Fäden für die angegebene Spalte. Die Methode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) akzeptiert den Spaltennamen als Parameter und gibt die [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) zurück. Sie können über die [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) iterieren und die [**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime)-Eigenschaft verwenden.
+
+Das folgende Beispiel zeigt das Lesen des Erstellungszeitpunkts von kommentierten Fäden durch Laden der [Beispiel-Excel-Datei](89849861.xlsx). Bitte sehen Sie die durch den Code generierte Konsolenausgabe zur Referenz an.
 
 #### **Beispielcode**
 
@@ -85,43 +90,47 @@ Das folgende Beispiel demonstriert das Lesen der Erstellungszeit von Thread-Komm
 
 #### **Konsolenausgabe**
 
-Kommentar: Thread-Kommentar testen
+{{< highlight csharp >}}
 
-Autor: Aspose Test
+Comment: Test Threaded Comment
 
-Erstellungszeit: 15.05.2019 12:46:23 Uhr
+Author: Aspose Test
 
-## **Verkettete Kommentare bearbeiten**
+Created Time: 5/15/2019 12:46:23 PM
 
-### **Bearbeiten Sie Thread-Kommentare mit Excel**
+{{< /highlight >}}
 
- Um einen Thread-Kommentar in Excel zu bearbeiten, klicken Sie auf**Bearbeiten** Link auf den Kommentar, wie im folgenden Bild gezeigt.
+## **Kommentare bearbeiten**
 
-![todo: Bild_alt_Text](threaded-comments_7.jpg)
+### **Bearbeiten Sie kommentierte Kommentare mit Excel**
 
-### **Bearbeiten Sie den Thread-Kommentar mit Aspose.Cells**
+Um einen kommentierten Kommentar in Excel zu bearbeiten, klicken Sie auf den **Bearbeiten**-Link im Kommentar wie im folgenden Bild gezeigt.
 
-Aspose.Cells bietet[**Kommentare.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) -Methode, um Thread-Kommentare für die angegebene Spalte abzurufen.[**Kommentare.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)-Methode akzeptiert den Spaltennamen als Parameter und gibt die zurück[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Sie können den erforderlichen Kommentar in der aktualisieren[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)und speichern Sie die Arbeitsmappe.
+![todo:image_alt_text](threaded-comments_7.jpg)
 
-Das folgende Beispiel zeigt das Bearbeiten des ersten Kommentarthreads in Spalte A1 durch Laden der[Beispiel-Excel-Datei](89849861.xlsx). Bitte sehen Sie sich ... an[Excel-Datei ausgeben](89849862.xlsx)generiert durch den Code, der den aktualisierten Kommentar als Referenz anzeigt.
+### **Threaded-Kommentar bearbeiten mit Aspose.Cells**
+
+Aspose.Cells bietet die Methode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) zum Abrufen von Threaded-Kommentaren für die angegebene Spalte. Die Methode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) akzeptiert den Spaltennamen als Parameter und gibt das [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) zurück. Sie können den erforderlichen Kommentar in den [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) aktualisieren und die Arbeitsmappe speichern.
+
+Das folgende Beispiel demonstriert die Bearbeitung des ersten Threaded-Kommentars in Spalte A1 durch Laden der [Beispiel Excel Datei](89849861.xlsx). Bitte beachten Sie die [Ausgabe Excel-Datei](89849862.xlsx), die vom Code generiert wird und die aktualisierten Kommentare zur Referenz zeigt.
 
 #### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-EditThreadedComments-1.cs" >}}
 
-## **Verkettete Kommentare entfernen**
+## **Threaded-Kommentare entfernen**
 
-### **Entfernen Sie Thread-Kommentare mit Excel**
+### **Threaded-Kommentare mit Excel entfernen**
 
- Um Thread-Kommentare in Excel zu entfernen, klicken Sie mit der rechten Maustaste auf die Zelle, die die Kommentare enthält, und klicken Sie auf die**Kommentar löschen** Option wie im folgenden Bild gezeigt.
+Um Threaded-Kommentare in Excel zu entfernen, klicken Sie mit der rechten Maustaste auf die Zelle mit den Kommentaren und wählen Sie die Option **Kommentar löschen**, wie im folgenden Bild gezeigt.
 
-![todo: Bild_alt_Text](threaded-comments_8.jpg)
+![todo:image_alt_text](threaded-comments_8.jpg)
 
-### **Entfernen Sie Thread-Kommentare mit Aspose.Cells**
+### **Threaded-Kommentare mit Aspose.Cells entfernen**
 
-Aspose.Cells bietet[**Kommentare.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)-Methode zum Entfernen von Kommentaren für die angegebene Spalte.[**Kommentare.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)Die Methode akzeptiert den Spaltennamen als Parameter und entfernt die Kommentare in dieser Spalte.
+Aspose.Cells bietet die Methode [**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index) zum Entfernen von Kommentaren für die angegebene Spalte. Die Methode [**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index) akzeptiert den Spaltennamen als Parameter und entfernt die Kommentare in dieser Spalte.
 
-Das folgende Beispiel zeigt das Entfernen von Kommentaren in Spalte A1 durch Laden der[Beispiel-Excel-Datei](89849861.xlsx). Bitte sehen Sie sich ... an[Excel-Datei ausgeben](89849864.xlsx)generiert durch den Code als Referenz.
+Das folgende Beispiel demonstriert das Entfernen von Kommentaren in Spalte A1 durch Laden der [Beispiel Excel Datei](89849861.xlsx). Bitte sehen Sie die [Ausgabe Excel-Datei](89849864.xlsx), die vom Code generiert wurde, zur Referenz.
 
 #### **Beispielcode**
 
@@ -129,6 +138,6 @@ Das folgende Beispiel zeigt das Entfernen von Kommentaren in Spalte A1 durch Lad
 
 {{% alert color="primary" %}}
 
- Bitte beachten Sie, dass durch das Entfernen eines Kommentars mit Aspose.Cells der Autor nicht automatisch entfernt wird. Wenn Sie auch den Autor entfernen müssen, verwenden Sie bitte die RemoveAt-Methode von[**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) Klasse, wie im obigen Beispiel gezeigt.
+Bitte beachten Sie, dass durch Entfernen von Kommentaren mit Aspose.Cells der Autor nicht automatisch entfernt wird. Wenn Sie den Autor ebenfalls entfernen müssen, verwenden Sie bitte die RemoveAt-Methode der [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection)-Klasse, wie im obigen Beispiel gezeigt.
 
 {{% /alert %}}

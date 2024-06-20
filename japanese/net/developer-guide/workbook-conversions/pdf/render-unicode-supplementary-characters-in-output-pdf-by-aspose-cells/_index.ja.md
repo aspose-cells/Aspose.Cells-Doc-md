@@ -1,28 +1,29 @@
-﻿---
-title: Aspose.Cells による出力 PDF の Unicode 補助文字のレンダリング
+---
+title: Aspose.Cells による出力PDFでUnicode補助文字をレンダリングする
 type: docs
 weight: 350
 url: /ja/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-通常の Unicode 文字の長さは 2 バイトですが、Unicode 補助文字の長さは 4 バイトです。 Aspose.Cells は、これらの 4 バイト Unicode 文字のレンダリングをサポートするようになりました。
+通常のUnicode文字は2バイトであり、Unicode補助文字は4バイトです。Aspose.Cells はこれらの4バイトのUnicode文字のレンダリングをサポートしています。
 
-Unicode Character Standard では、補助文字は、U+10000 から U+10FFFF までのコード ポイントが割り当てられた文字です。つまり、これらは U+FFFF より大きい Unicode 文字です。
+Unicode文字標準では、補助文字はU+10000からU+10FFFFまでのコードポイントが割り当てられています。つまり、これらはU+FFFFよりも大きいUnicode文字です。
 
-- UTF-8 では、これらの文字の長さはそれぞれ 4 バイトです。
-- UTF-16 では、これらの文字には 2 つのサロゲート (16 ビット単位) が必要です。
+- UTF-8では、これらの文字はそれぞれ4バイトです。
+- UTF-16では、これらの文字は2つのサロゲート（16ビットユニット）が必要です。
 
 {{% /alert %}}
 
-## Aspose.Cells による出力 PDF の Unicode 補助文字のレンダリング
+##Aspose.Cellsによる出力PDFでUnicode上位文字をレンダリングする
 
-次のスクリーンショットは、Aspose.Cells がどのようにレンダリングされたかを示しています。[ソースエクセルファイル](5115563.xlsx)に[出力 PDF](5115564.pdf).ご覧のとおり、3 つの Unicode 補助文字はすべて、Microsoft Excel とまったく同じようにレンダリングされています。
+下記のスクリーンショットは、Aspose.Cellsが[ソースExcelファイル](5115563.xlsx)を[出力PDF](5115564.pdf)にレンダリングした様子を示しています。すべての3つのUnicode上位文字は、Microsoft Excelによって行われるのと同じように正確にレンダリングされています。
 
-![todo:画像_代替_文章](output.png)
+![todo:image_alt_text](output.png)
 
 ## サンプルコード
 
-このサンプルコードを使用して変換できます[ソースエクセルファイル](5115563.xlsx)の中へ[出力 PDF](5115564.pdf).
+[ソースExcelファイル](5115563.xlsx)を[出力PDF](5115564.pdf)に変換するためのサンプルコードを使用できます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}

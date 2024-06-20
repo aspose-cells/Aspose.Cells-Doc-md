@@ -1,17 +1,18 @@
-﻿---
-title: Grafikler Olmadan Kaynak Excel Dosyasını Yükle
+---
+title: Grafikleri Olmadan Kaynak Excel Dosyasını Yükle
 type: docs
 weight: 420
 url: /tr/net/load-source-excel-file-without-charts/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells, excel dosyanızı çizelgeler olmadan yüklemenizi sağlar. Lütfen kullan[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) Bu amaçla mülk.
+Aspose.Cells, grafikleri olmadan excel dosyanızı yüklemenize izin verir. Bu amaçla lütfen [**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) özelliğini kullanın.
 
 {{% /alert %}}
 
-## **Elektronik Tabloyu Grafikler Olmadan Yükle**
+## **Grafikleri Olmadan Yayınları Yükle**
 
-Aşağıdaki örnek kod, örnek excel dosyasını grafikler olmadan yükler ve PDF çıktı biçiminde kaydeder.
+Aşağıdaki örnek kod, örnek excel dosyasını grafiksiz yükler ve çıktı PDF formatında kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}

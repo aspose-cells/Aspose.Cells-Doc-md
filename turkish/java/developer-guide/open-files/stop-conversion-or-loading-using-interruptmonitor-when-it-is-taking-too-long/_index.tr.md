@@ -1,18 +1,19 @@
-﻿---
-title: Çok uzun sürdüğünde InterruptMonitor kullanarak dönüştürmeyi veya yüklemeyi durdurun
+---
+title: Çok uzun sürüyorsa, Durdur dönüşümü veya yüklemeyi kullanarak InterruptMonitor
 type: docs
 weight: 100
 url: /tr/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells, Çalışma Kitabının PDF, HTML gibi çeşitli biçimlere dönüştürülmesini durdurmanıza olanak tanır.[**Kesinti İzleme**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)çok uzun sürdüğünde itiraz edin. Dönüştürme işlemi genellikle hem CPU hem de Bellek açısından yoğundur ve kaynaklar sınırlı olduğunda genellikle işlemi durdurmak yararlıdır. Kullanabilirsiniz[**Kesinti İzleme**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)hem dönüştürmeyi durdurmak hem de büyük çalışma kitabının yüklenmesini durdurmak için. Lütfen kullan[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor)dönüştürmeyi durdurma özelliği ve[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor)büyük çalışma kitabı yükleme özelliği.
+Aspose.Cells, kaynakların sınırlı olduğu durumlarda dönüşümün uzun sürdüğünde PDF, HTML vb. farklı formattaki dönüşümü **[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)** nesnesini kullanarak durdurmanıza izin verir. Dönüşüm süreci genellikle hem CPU hem de Bellek yoğundur ve kaynaklar sınırlı olduğunda durdurmak faydalı olabilir. Dönüşümü durdurmak için [**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor) özelliğini, büyük bir çalışma kitabını yüklerken durdurmak için [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) kullanabilirsiniz lütfen. Dönüşüm durdurmak ve büyük bir çalışma kitabını yüklemek için lütfen [**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor) özelliğini kullanın.
 
-## **Çok uzun sürdüğünde InterruptMonitor kullanarak dönüştürmeyi veya yüklemeyi durdurun**
+## **Çok uzun sürüyorsa, Duraklatma İzleyiciyi kullanarak dönüşümü veya yüklemeyi durdurun**
 
-Aşağıdaki örnek kod, kullanımını açıklar[**Kesinti İzleme**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)nesne. Kod, oldukça büyük bir Excel dosyasını PDF'e dönüştürür. Birkaç saniye sürer (örn.*30 saniyeden fazla*) bu kod satırları nedeniyle dönüştürülmesini sağlamak için.
+Aşağıdaki örnek kod, [**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor) nesnesinin kullanımını açıklar. Bu kod oldukça büyük bir Excel dosyasını PDF'ye dönüştürür. Kodlar nedeniyle dönüşümün alması birkaç saniye sürebilir (örneğin *30 saniyeden fazla*)
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 //Access cell AB1000000 and add some text inside it.
 
@@ -22,14 +23,14 @@ cell.putValue("This is text.");
 
 {{< /highlight >}}
 
-Gördüğünüz gibi**AB1000000**XLSX dosyasında oldukça uzak bir hücredir. Ancak*WaitForWhileAndThenInterrupt()*yöntemi, dönüştürmeyi 10 saniye sonra keser ve program biter/sonlanır. Lütfen örnek kodu çalıştırmak için aşağıdaki kodu kullanın.
+Görüldüğü gibi **AB1000000** XLSX dosyasında oldukça uzak bir hücredir. Ancak, *WaitForWhileAndThenInterrupt()* metodu dönüşümü 10 saniye sonra keser ve program sona erer/bitirilir. Örnek kodu çalıştırmak için aşağıdaki kodu kullanın.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 new StopConversionOrLoadingUsingInterruptMonitor().testRun();
 
 {{< /highlight >}}
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-StopConversionOrLoadingUsingInterruptMonitor-1.java" >}}

@@ -1,13 +1,14 @@
-﻿---
+---
 title: Riordina i fogli di lavoro
 type: docs
 weight: 70
 url: /it/net/reorder-worksheets/
 ---
-## **Aspose.Cells - Riordina fogli di lavoro**
+
+## **Aspose.Cells - Riordina i fogli di lavoro**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook.
 
@@ -34,10 +35,10 @@ worksheet3.MoveTo(2);
 workbook.Save("../../data/AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Riordina fogli di lavoro**
+## **NPOI - HSSF XSSF - Riordina i fogli di lavoro**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -61,12 +62,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Riordina i fogli di lavoro** formare uno dei siti di social coding sotto indicati:
+Scarica **Riordina i fogli di lavoro** da uno dei siti di social coding menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/ReOrder.WorkSheets.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/ReOrder.WorkSheets.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Lavorare con i fogli di lavoro](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Per ulteriori dettagli, visita [Working with Worksheets](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

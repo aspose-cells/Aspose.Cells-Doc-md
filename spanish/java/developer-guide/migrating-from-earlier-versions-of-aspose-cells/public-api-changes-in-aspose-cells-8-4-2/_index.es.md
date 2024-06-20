@@ -1,23 +1,24 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.4.2
+---
+title: Cambios en la API pública en Aspose.Cells 8.4.2
 type: docs
 weight: 160
 url: /es/java/public-api-changes-in-aspose-cells-8-4-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Este documento describe los cambios al Aspose.Cells API de la versión 8.4.1 a la 8.4.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados,[Clases añadidas, etc.](/cells/es/java/public-api-changes-in-aspose-cells-8-4-2/), pero también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.4.1 a la 8.4.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, [clases agregadas, etc.](/cells/es/java/public-api-changes-in-aspose-cells-8-4-2/), sino también una descripción de cualquier cambio en el comportamiento detrás de escenas en Aspose.Cells.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Mecanismo de creación de gráficos mejorado**
-La clase com.aspose.cells.charts.Chart ha expuesto el método setChartDataRange para facilitar la tarea de creación de gráficos. El método setChartDataRange acepta dos parámetros, donde el primer parámetro es de tipo cadena que especifica el área de la celda desde la cual trazar la serie de datos. El segundo parámetro es de tipo booleano que especifica la orientación de la trama, es decir; si trazar la serie de datos del gráfico a partir de un rango de valores de celda por fila o por columnas.
+## **APIs Añadidas**
+### **Mecanismo mejorado de creación de gráficos**
+La clase com.aspose.cells.charts.Chart ha expuesto el método setChartDataRange para facilitar la tarea de creación de gráficos. El método setChartDataRange acepta dos parámetros, siendo el primer parámetro de tipo cadena que especifica el área de celdas desde la cual trazar las series de datos. El segundo parámetro es de tipo booleano que especifica la orientación del trazado, es decir; si trazar las series de datos del gráfico desde un rango de valores de celda por fila o por columnas.
 
-El siguiente fragmento de código muestra cómo crear un gráfico de columnas con pocas líneas de código, suponiendo que los datos de la serie de gráficos del gráfico están presentes en la misma hoja de trabajo desde la celda A1 hasta la D4.
+El siguiente fragmento de código muestra cómo crear un gráfico de columnas con pocas líneas de código asumiendo que la serie de datos del gráfico está presente en la misma hoja de cálculo desde la celda A1 hasta D4.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Add a new chart of type Column to chart collection
 
@@ -33,14 +34,14 @@ chart.setChartDataRange("A1:D4", true);
 
 {{< /highlight >}}
 
-### **Método VbaModuleCollection.add Agregado**
-Aspose.Cells for Java 8.4.2 ha expuesto el método VbaModuleCollection.add para agregar un nuevo módulo VBA a la instancia de Workbook. El método VbaModuleCollection.add acepta un parámetro de tipo Hoja de trabajo para agregar un módulo específico de la hoja de trabajo.
+### **Método VbaModuleCollection.add agregado**
+Aspose.Cells for Java 8.4.2 ha expuesto el método VbaModuleCollection.add para agregar un nuevo módulo VBA a la instancia de Workbook. El método VbaModuleCollection.add acepta un parámetro de tipo Worksheet para agregar un módulo específico de la hoja de cálculo.
 
 El siguiente fragmento de código muestra cómo usar el método VbaModuleCollection.add.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create new workbook
 
@@ -73,13 +74,13 @@ workbook.save(output, SaveFormat.XLSM);
 {{< /highlight >}}
 
 ### **Método sobrecargado Cells.copyColumns agregado**
-Aspose.Cells for Java 8.4.2 ha expuesto una versión sobrecargada del método Cells.copyColumns para repetir las columnas de origen en el destino. El método recientemente expuesto acepta 5 parámetros en total, donde los primeros 4 parámetros son los mismos que los del método común Cells.copyColumns. Sin embargo, el último parámetro de tipo int especifica el número de columnas de destino en las que se deben repetir las columnas de origen.
+Aspose.Cells for Java 8.4.2 ha expuesto una versión sobrecargada del método Cells.copyColumns para repetir las columnas de origen en el destino. El nuevo método expuesto acepta un total de 5 parámetros, donde los primeros 4 parámetros son iguales que los del método común Cells.copyColumns. Sin embargo, el último parámetro de tipo entero especifica el número de columnas de destino en las cuales se deben repetir las columnas de origen.
 
 El siguiente fragmento de código muestra cómo usar el método Cells.copyColumns recientemente expuesto.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -109,17 +110,17 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-### **Campos de enumeración PasteType.DEFAULT y PasteType.ALL_EXCEPT_BORDERS agregados**
-Con el lanzamiento de v8.4.2, Aspose.Cells API agregó 2 nuevos campos de enumeración para PasteType como se detalla a continuación.
+### **Adición de los campos de enumeración PasteType.DEFAULT y PasteType.ALL_EXCEPT_BORDERS**
+Con el lanzamiento de v8.4.2, la API Aspose.Cells ha agregado 2 nuevos campos de enumeración para PasteType como se detalla a continuación.
 
-- PasteType.DEFAULT: funciona de manera similar a la funcionalidad "Todos" de Excel para pegar el rango de celdas.
-- PegarTipo.TODO_EXCEPTO_FRONTERAS: funciona de manera similar a la funcionalidad "Todo excepto los bordes" de Excel para pegar el rango de celdas.
+- PasteType.DEFAULT: Funciona de manera similar a la funcionalidad "Todo" de Excel para pegar un rango de celdas.
+- PasteType.ALL_EXCEPT_BORDERS: Funciona de manera similar a la funcionalidad "Todo excepto bordes" de Excel para pegar un rango de celdas.
 
-El código de ejemplo siguiente muestra el uso del campo PasteType.DEFAULT.
+El siguiente código de ejemplo demuestra el uso del campo PasteType.DEFAULT.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -157,6 +158,6 @@ workbook.save(output);
 
 {{% alert color="primary" %}} 
 
-A partir del lanzamiento de Aspose.Cells for Java 8.4.2, el archivo de enumeración PasteType.ALL se comporta de manera diferente en comparación con la funcionalidad "Todos" de Excel para pegar el rango de celdas. Ahora, PasteType.ALL también copia los anchos de columna en el rango de destino a diferencia de la funcionalidad "Todos" de Excel. Para imitar el comportamiento "Todos" de Excel, utilice PasteType.DEFAULT.
+A partir del lanzamiento de Aspose.Cells for Java 8.4.2, el campo de enumeración PasteType.ALL se comporta de manera diferente en comparación con la funcionalidad "Todo" de Excel para pegar un rango de celdas. Ahora, el PasteType.ALL también copia los anchos de columna en el rango de destino en oposición a la funcionalidad "Todo" de Excel. Para imitar el comportamiento "Todo" de Excel, por favor use el PasteType.DEFAULT.
 
 {{% /alert %}}

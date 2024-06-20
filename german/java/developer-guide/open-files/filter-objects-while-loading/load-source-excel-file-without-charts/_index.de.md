@@ -1,22 +1,23 @@
-﻿---
-title: Excel-Quelldatei ohne Diagramme laden
+---
+title: Quell Excel Datei ohne Diagramme laden
 type: docs
 weight: 750
 url: /de/java/load-source-excel-file-without-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells ermöglicht es Ihnen, Ihre Excel-Datei ohne Diagramme zu laden. Bitte verwenden Sie zu diesem Zweck die Eigenschaft LoadOptions.LoadFilter.
+Aspose.Cells ermöglicht es Ihnen, Ihre Excel-Datei ohne Diagramme zu laden. Bitte verwenden Sie die Eigenschaft LoadOptions.LoadFilter zu diesem Zweck.
 
 {{% /alert %}} 
-## **Excel-Quelldatei ohne Diagramme laden**
-Der folgende Beispielcode lädt die Beispiel-Excel-Datei ohne Diagramme und speichert sie im PDF-Ausgabeformat.
+## **Quell-Excel-Datei ohne Diagramme laden**
+Der folgende Beispielcode lädt die Beispieldatei ohne Diagramme und speichert sie im Ausgabe-PDF-Format.
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Specify the load options and filter the data
 

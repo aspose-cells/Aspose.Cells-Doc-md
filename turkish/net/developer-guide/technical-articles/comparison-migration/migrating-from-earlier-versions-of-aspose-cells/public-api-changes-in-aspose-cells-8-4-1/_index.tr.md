@@ -1,23 +1,24 @@
-﻿---
-title: Genel API Aspose.Cells 8.4.1'deki değişiklikler
+---
+title: Aspose.Cells 8.4.1 de Genel API Değişiklikleri
 type: docs
 weight: 140
 url: /tr/net/public-api-changes-in-aspose-cells-8-4-1/
 ---
+
 {{% alert color="primary" %}} 
 
- Bu belge, Aspose.Cells API sürümünde 8.4.0'dan 8.4.1'e modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-4-1/) ve[kaldırılan sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-4-1/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
+Bu belge, sürüm 8.4.0'dan 8.4.1'e Aspose.Cells API'deki değişiklikleri açıklar ve modül/uygulama geliştiricilerin ilgisini çekebilecek yeni ve güncellenmiş genel yöntemler, [eklenen sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-4-1/) ve [kaldırılan sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-4-1/) yanı sıra Aspose.Cells'in arka plandaki davranışlarındaki herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **Veritabanı Bağlantısını Değiştirme Mekanizması**
-Aspose.Cells.ExternalConnections.ExternalConnection sınıfı, bir elektronik tabloda saklanan veritabanı bağlantı ayrıntılarını incelemek için kullanılabilecek yöntem ve özellikleri zaten içeriyordu. Aspose.Cells.ExternalConnections.ExternalConnection sınıfıyla ilişkili özelliklerin çoğu, Aspose.Cells for .NET 8.4.1 sürümüne kadar salt okunurdu. Bu sürümle birlikte API, veritabanı bağlantı ayarlarını değiştirme desteği de sağlamıştır.
+Aspose.Cells.ExternalConnections.ExternalConnection sınıfı zaten bir elektronik tablo içinde depolanan veritabanı bağlantı ayrıntılarını incelemek için kullanılabilecek yöntem ve özellikleri içeriyordu. Aspose.Cells.ExternalConnections.ExternalConnection sınıfıyla ilişkilendirilen çoğu özellik, Aspose.Cells for .NET 8.4.1 sürümüne kadar salt okunurdur. Bu sürümle birlikte API, veritabanı bağlantı ayarlarını değiştirmeyi desteklemiştir.
 
-Aşağıdaki kod parçacığı, veritabanı bağlantı ayarlarının dinamik olarak nasıl değiştirileceğini gösterir.
+Aşağıdaki kod örneği, veritabanı bağlantı ayarlarını dinamik olarak nasıl değiştireceğinizi gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -45,38 +46,38 @@ workbook.Save(output);
 
 
 
-{Aspose.Cells.ExternalConnections.ExternalConnection}} sınıfı tarafından sunulan en önemli birkaç özelliği burada bulabilirsiniz.
+Aşağıda {Aspose.Cells.ExternalConnections.ExternalConnection}} sınıfı tarafından sunulan birkaç önemli özellik bulunmaktadır.
 
-|**Mülkiyet adı**|**Açıklama**|
-|:- |:- |
-|ArkaplanYenile|Bağlantının arka planda (eşzamansız olarak) yenilenip yenilenemeyeceğini belirtir.<br> true bağlantının tercih edilen kullanımı arka planda eşzamansız olarak yenilemekse;<br>false bağlantının tercih edilen kullanımı ön planda eşzamanlı olarak yenilemekse.|
-|BağlantıAçıklaması|Bu bağlantı için kullanıcı açıklamasını belirtir|
-|Bağlantı Kimliği|Bu bağlantının benzersiz tanımlayıcısını belirtir.|
-|kimlik bilgileri|Bağlantı kurulurken (veya yeniden kurulurken) kullanılacak kimlik doğrulama yöntemini belirtir.|
-|Silindi|İlişkili çalışma kitabı bağlantısının silinip silinmediğini gösterir. doğru ise<br>bağlantı silindi; Aksi takdirde, yanlış.|
-|Yeni| Bağlantı ilk kez yenilenmediyse doğrudur; Aksi takdirde, yanlış. Bu<br>Durum, bir sorgunun döndürülmesi tamamlanmadan önce kullanıcı dosyayı kaydettiğinde gerçekleşebilir.|
-|Hayatta kal|Elektronik tablo uygulamasının bağlantıyı sürdürmek için çaba göstermesi gerektiğinde doğrudur<br> açık. Yanlış olduğunda, uygulama, bağlantıyı aldıktan sonra bağlantıyı kapatmalıdır.<br>bilgi.|
-|İsim|Bağlantının adını belirtir. Her bağlantının benzersiz bir adı olmalıdır.|
-|OdcDosyası| Bu bağlantının yapıldığı harici bağlantı dosyasının tam yolunu belirtir.<br> oluşturuldu. Verileri yenileme girişimi sırasında bir bağlantı başarısız olursa ve reconnectionMethod=1,<br> ardından elektronik tablo uygulaması, harici bağlantı dosyasındaki bilgileri kullanarak tekrar deneyecektir.<br>çalışma kitabına katıştırılmış bağlantı nesnesi yerine.|
-|Yalnızca Bağlantı Dosyasını Kullan| Elektronik tablo uygulamasının her zaman ve yalnızca<br> odcFile özniteliği tarafından belirtilen harici bağlantı dosyasındaki bağlantı bilgileri<br> bağlantı yenilendiğinde. Yanlışsa, elektronik tablo uygulaması<br>reconnectionMethod özniteliği tarafından belirtilen prosedürü izlemelidir|
-|parametreler|Bir ODBC veya web sorgusu için ConnectionParameterCollection alır.|
-|Yeniden Bağlantı Yöntemi|ReconnectionMethod türünü belirtin|
-|Dahili Yenile|Bağlantının otomatik yenilemeleri arasındaki dakika sayısını belirtir.|
-|Yüklendiğinde Yenile|Dosya açılırken bu bağlantının yenilenmesi gerekiyorsa doğrudur; Aksi takdirde, yanlış.|
-|Veri kaydet|Bir tabloyu doldurmak için bağlantı üzerinden getirilen harici veriler kaydedilecekse doğrudur.<br>çalışma kitabı ile; Aksi takdirde, yanlış.|
-|Şifreyi kaydet|Parola bağlantı dizesinin bir parçası olarak kaydedilecekse doğrudur; Aksi takdirde, Yanlış.|
-|Kaynak dosyası| Harici veri kaynağı dosya tabanlı olduğunda kullanılır. Böyle bir veriye bağlantı kurulduğunda<br> kaynak başarısız olursa, elektronik tablo uygulaması doğrudan bu dosyaya bağlanmaya çalışır. Belki<br>URI veya sisteme özel dosya yolu notasyonu ile ifade edilir.|
-|SSID|Bir aracı arasında kimlik doğrulama için kullanılan Çoklu Oturum Açma (SSO) tanımlayıcısı<br>elektronik tabloML sunucusu ve harici veri kaynağı.|
-|Tip|Veri kaynağı türünü belirtir.|
+|**Özellik Adı**|**Açıklama**|
+| :- | :- |
+|BackgroundRefresh|Bağlantının arka planda (asyenkron olarak) yenilenebileceğini gösterir. <br>Bağlantının tercih edilen kullanımının arka planda asenkron olarak yenilenmesi ise true; <br>bağlantının tercih edilen kullanımının ön planda senkron olarak yenilenmesi ise false.|
+|ConnectionDescription|Bu bağlantı için kullanıcı açıklamasını belirtir|
+|ConnectionId|Bu bağlantının benzersiz kimliğini belirtir.|
+|Credentials|Bağlantıyı kurarken (veya yeniden kurarken) kullanılacak kimlik doğrulama yöntemini belirtir.|
+|IsDeleted|İlgili elektronik tablo bağlantısının silinip silinmediğini belirtir. Bağlantı silinmişse true; aksi halde false.|
+|IsNew|Bağlantının ilk kez yenilenmediğini belirtir. <br>Bu durum, kullanıcının bir sorgu tamamlanmadan dosyayı kaydettiği durumda gerçekleşebilir.|
+|KeepAlive|Elektronik tablo uygulamasının bağlantıyı açık tutma çabası göstermesi durumunda true. false ise, uygulama bilgileri alındıktan sonra bağlantıyı kapatmalıdır.|
+|Name|Bağlantının adını belirtir. Her bağlantının benzersiz bir adı olmalıdır.|
+|OdcFile|Bu bağlantının oluşturulduğu dış bağlantı dosyasının tam yolunu belirtir. Bir bağlantı bir veriyi yenilemeye çalışırken hata oluşursa ve reconnectionMethod=1 ise, elektronik tablo uygulaması, bağlantı nesnesinin içinde değil, dış bağlantı dosyasından gelen bilgileri kullanarak tekrar deneyecektir.|
+|OnlyUseConnectionFile|Elektronik tablo uygulamasının bağlantı yenilendiğinde her zaman ve yalnızca odcFile özniteliğinin belirttiği dış bağlantı dosyasındaki bağlantı bilgilerini kullanıp kullanmayacağını belirtir. false ise, elektronik tablo uygulaması, reconnectionMethod özniteliği tarafından belirtilen prosedürü takip etmelidir.|
+|Parameters|Bir ODBC veya web sorgusu için ConnectionParameterCollection alır.|
+|ReConnectionMethod|Yeniden bağlanma yöntemi türünü belirtir|
+|RefreshInternal| Bağlantının otomatik olarak yenilenmesi arasındaki dakika sayısını belirtir.|
+|RefreshOnLoad|Dosya açıldığında bu bağlantının yenilenip yenilenmeyeceğini belirtir; aksi takdirde false.|
+|SaveData|Bir tabloyu doldurmak için bağlantı üzerinden getirilen dış verilerin elektronik tablo ile birlikte kaydedilip kaydedilmeyeceğini belirtir; aksi takdirde false.|
+|SavePassword|Şifrenin bağlantı dizesinin bir parçası olarak kaydedilip kaydedilmeyeceğini belirtir; aksi takdirde false.|
+|SourceFile|Dış veri kaynağı dosya tabanlı olduğunda kullanılır. Bir bağlantı başarısız olduğunda, elektronik tablo uygulaması doğrudan bu dosyaya bağlanmaya çalışır. URI veya sistem özgü dosya yolu gösteriminde olabilir.|
+|SSOId| Kimlik doğrulama için Ara Sunucu ve dış veri kaynağı arasında kullanılan Tek Oturum Açma (SSO) kimliğini belirtir.|
+|Type|Veri kaynağı türünü belirtir.|
 
-### **DataLabels Metninin Alt Dizisini Formatlama Yeteneği**
-Aspose.Cells for .NET 8.4.1, ChartPoints.DataLabels alt dizisine karşılık gelen FontSetting sınıfı örneğini almak için DataLabels.Characters yöntemini kullanıma sundu. Buna karşılık, FontSetting sınıfının örneği, DataLabels alt dizesini farklı yazı tipi ayarları ve rengiyle biçimlendirmek için kullanılabilir.
+### **Veri Etiketleri Metninin Alt Dizgisini Biçimlendirme Yeteneği**
+Aspose.Cells for .NET 8.4.1, DataLabels.Characters yöntemini açığa çıkardı ve bu yöntem, bir ChartPoints.DataLabels alt dizisinin karşılık gelen FontSetting sınıfını almak için kullanılır. Sırasıyla, FontSetting sınıfının örneği, DataLabels'in alt dizisini farklı font ayarları ve renkleri ile biçimlendirmek için kullanılabilir.
 
-Aşağıdaki kod parçacığı, DataLabels.Characters yönteminin nasıl kullanılacağını gösterir.
+Aşağıdaki kod örneği, DataLabels.Characters yönteminin nasıl kullanılacağını gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook from source Excel file
 
@@ -113,14 +114,14 @@ workbook.Save(output);
 {{< /highlight >}}
 
 
-### **Elektronik Tablo ve Grafik Dışa Aktarma için İstenilen Görüntü Boyutlarını Ayarlayabilme**
-Aspose.Cells for .NET 8.4.1, elektronik tabloları ve çizelgeleri görüntülere dışa aktarırken ortaya çıkan görüntünün boyutlarını ayarlamak için ImageOrPrintOptions.SetDesiredSize yöntemini kullanıma sundu. ImageOrPrintOptions.SetDesiredSize yöntemi, birincisi istenen genişlik ve ikincisi istenen yükseklik olmak üzere iki tamsayı tipi parametreyi kabul eder.
+### **Elektronik Tablo ve Grafik Dışa Aktarma İçin İstenen Görüntü Boyutunu Ayarlama Yeteneği**
+Aspose.Cells for .NET 8.4.1, ImageOrPrintOptions.SetDesiredSize yöntemini dışa aktarılan elektronik tablolar ve grafikler için sonuç görüntüsünün boyutlarını ayarlamak için kullanılabilir hale getirdi. ImageOrPrintOptions.SetDesiredSize yöntemi, istenen genişlik ve yükseklik olmak üzere iki tamsayı türü parametre kabul eder.
 
-Aşağıdaki kod parçacığı, çalışma sayfasını PNG'e dışa aktarırken istenen boyutların nasıl ayarlanacağını gösterir.
+Aşağıdaki kod parçası, çalışma sayfasının PNG olarak dışa aktarılırken istenen boyutların nasıl ayarlanacağını gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -152,23 +153,23 @@ renderer.ToImage(0, "output.png");
 
 {{% alert color="primary" %}} 
 
-Aynı özellik, çizelgeleri resimlere dönüştürmek için de kullanılabilir.
+Aynı özellik, grafikleri görüntülere dönüştürmek için de kullanılabilir.
 
 {{% /alert %}} 
 
 
-### **Yorumlar PDF'e işleniyor**
-v8.4.1'in piyasaya sürülmesiyle, Aspose.Cells API, elektronik tabloları PDF biçimine dönüştürürken yorumların işlenmesini kolaylaştırmak için PageSetup.PrintComments özelliğini ve PrintCommentsType numaralandırmasını sağladı. PrintCommentsType numaralandırması aşağıdaki sabitlere sahiptir.
+### **PDF'ye Yorumları Oluşturma**
+v8.4.1'in yayınlanmasıyla, Aspose.Cells API, elektronik tabloların PDF biçimine dönüştürülürken yorumların oluşturulmasını kolaylaştırmak için PageSetup.PrintComments özelliğini ve PrintCommentsType numaralandırmasını sağlamıştır. PrintCommentsType numaralandırmasında aşağıdaki sabitler bulunmaktadır.
 
-- PrintCommentsType.PrintNoComments: Yorumlar işlenmez.
-- PrintCommentsType.PrintInPlace: Yorumlar yerleştirildikleri yerde işlenecektir.
-- PrintCommentsType.PrintSheetEnd: Yorumlar çalışma sayfasının sonunda işlenecek.
+- PrintCommentsType.PrintNoComments: Yorumlar oluşturulmayacak.
+- PrintCommentsType.PrintInPlace: Yorumlar yerleştirildikleri yerde oluşturulacak.
+- PrintCommentsType.PrintSheetEnd: Yorumlar çalışma sayfasının sonunda oluşturulacak.
 
-Aşağıdaki örnek kod, tüm olası PrintCommentsType numaralandırma değerlerini kullanarak yorumları işlemek için PageSetup.PrintComments özelliğinin kullanımını gösterir.
+Aşağıdaki örnek kod, PageSetup.PrintComments özelliğinin kullanımını, tüm olası PrintCommentsType numaralandırma değerleri kullanarak yorumları oluşturmayı gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of workbook
 
@@ -205,14 +206,14 @@ workbook.Save("printsheetend.pdf");
 {{< /highlight >}}
 
 
-### **Aspose.Cells.GridDesktop'ta Çalışma Sayfalarını Taşı**
-Aspose.Cells.GridDesktop, bir çalışma sayfasını belirtilen dizine taşımak için kullanılabilen WorksheetCollection.MoveTo yöntemini sağlar. Bahsedilen yöntem, kaynak çalışma sayfası ve hedef çalışma sayfasının dizinlerini (sıfır tabanlı) parametre olarak alır.
+### **Aspose.Cells.GridDesktop'ta Çalışma Sayfalarını Taşıma**
+Aspose.Cells.GridDesktop, bir çalışma sayfasını belirtilen dizine taşımak için kullanılabilecek WorksheetCollection.MoveTo yöntemini sağlar. Söz konusu yöntem, kaynak çalışma sayfasının ve hedef çalışma sayfasının (sıfır tabanlı) dizinlerini parametre olarak alır.
 
 Aşağıdaki örnek kod, WorksheetCollection.MoveTo özelliğinin kullanımını gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Move the second worksheet to 4th position.
 
@@ -221,14 +222,14 @@ GridDesktop1.Worksheets.MoveTo(1, 3);
 {{< /highlight >}}
 
 
-### **Workbook.IsLicensed Özelliği Eklendi**
-Aspose.Cells for .NET 8.4.1, lisansın başarıyla yüklenip yüklenmediğini belirlemede çok yardımcı olabilecek Workbook.IsLicensed'ı kullanıma sundu. Bu özelliğe lisansı ayarlamadan önce erişirseniz, false döndürür ve bunun tersi de geçerlidir, ancak lisansın geçerli olması gerekir.
+### **Eklendi Workbook.IsLicensed Özelliği**
+Aspose.Cells for .NET 8.4.1, Workbook.IsLicensed'ı açığa çıkardı, bu özellik yükün başarıyla yüklenip yüklenmediğini belirlemede büyük bir yardımcı olabilir. Bu özelliğe lisansı ayarlamadan erişirseniz false döndürecektir, tam tersi şekilde, lisansın geçerli olması gerekir.
 
 Aşağıdaki örnek kod, Workbook.IsLicensed özelliğinin kullanımını gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object before setting a license
 
@@ -260,13 +261,13 @@ else
 
 
 ### **ImageOrPrintOptions.SVGFitToViewPort Özelliği Eklendi**
-Aspose.Cells for .NET 8.4.1, elektronik tabloları veya grafikleri SVG formatına dışa aktarırken SVG dosya formatı için viewBox özniteliğini açmak için kullanılabilen ImageOrPrintOptions sınıfı için SVGFitToViewPort özelliğini kullanıma sundu. Bu özelliğin varsayılan değeri yanlıştır, bu nedenle yukarıda belirtilen özellik ayarlanmadan oluşturulan SVG dosyası için temel XML, viewBox özniteliğini içermeyecektir.
+Aspose.Cells for .NET 8.4.1, ImageOrPrintOptions sınıfı için SVGFitToViewPort özelliğini açığa çıkardı, bu özellik, elektronik tabloları veya grafikleri SVG biçimine dönüştürürken viewBox özniteliğini etkinleştirmek için kullanılabilir. Bu özelliğin varsayılan değeri false olduğundan dolayı, söz konusu özelliği ayarlamadan oluşturan SVG dosyasının temel XML'i viewBox özniteliğini içermez.
 
-Aşağıdaki örnek kod, ImageOrPrintOptions.SVGFitToViewPort özelliğinin kullanımını gösterir.
+Aşağıdaki örnek kod, ImageOrPrintOptions.SVGFitToViewPort özelliğinin nasıl kullanılacağını gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -296,5 +297,5 @@ renderer.ToImage(0, "output.svg");
 
 {{< /highlight >}}
 ## **Eski API'ler**
-### **Yöntem Workbook.ValidateFormula Eskimiş**
+### **Eskiye Düşmüş Workbook.ValidateFormula Yöntemi**
 Formülü doğrulamak için Cell.Formula yöntemini kullanın.

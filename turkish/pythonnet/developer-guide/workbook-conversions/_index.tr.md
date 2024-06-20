@@ -1,136 +1,137 @@
 ---
-title: Excel'i Pdf, Resim ve diğer formatlara dönüştürün
+title: Excel i Pdf, Görüntü ve diğer biçimlere dönüştürün
 linktitle: Çalışma Kitabı Dönüşümleri
 type: docs
 weight: 65
 url: /tr/python-net/convert-workbook-to-different-formats/
-description: Excel dosyalarını Word, Excel, PowerPoint, PDF, CSV, JPG, HTML, MHT, ODS, BMP, PNG, SVG, TIFF, XPS'e dönüştürün, JSON, SQL, XML ve daha fazlasını Aspose.Cells for Python via .NET API kullanarak yapabilirsiniz.
-keywords: Python Convert Excel Workbook to PDF, Convert Excel Workbook to JPG in Python, Python Convert Excel Workbook to Image, Converting Excel Workbook to XPS using Python, Convert Excel to Ods,Sxc and Fods via Python, Python Convert Excel Workbook to HTML, Convert Excel Workbook to JSON in Python, Python Convert Excel Workbook to DOCX, Convert Excel Workbook to TIFF or MARKDOWN with Ptyhon.
+description: Aspose.Cells for Python via .NET API sını kullanarak Excel dosyalarını Word, Excel, PowerPoint, PDF, CSV, JPG, HTML, MHT, ODS, BMP, PNG, SVG, TIFF, XPS, JSON, SQL, XML ve dahasına dönüştürün.
+keywords: Python ile Excel Çalışma Kitabını PDF ye Dönüştürme, Python ile Excel Çalışma Kitabını JPG ye Dönüştürme, Python ile Excel Çalışma Kitabını Görüntüye Dönüştürme, Python ile Excel Çalışma Kitabını XPS ye Dönüştürme, Python kullanarak Excel i Ods, Sxc ve Fods a dönüştürme, Python ile Excel Çalışma Kitabını HTML ye Dönüştürme, Python ile Excel Çalışma Kitabını JSON a Dönüştürme, Python ile Excel Çalışma Kitabını DOCX e Dönüştürme, Python ile Excel Çalışma Kitabını TIFF veya MARKDOWN a Dönüştürme.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET birçok format arasında dönüşümü destekler. Teknik olarak dönüştürme, bir çalışma kitabını bir dosya biçiminde yüklemek ve onu başka bir dosya biçiminde kaydetmek anlamına gelir.
+Aspose.Cells for Python via .NET, birçok biçim arasında dönüşümü destekler. Teknik olarak, dönüşüm, bir çalışma kitabını bir dosya biçiminde yüklemek ve başka birine kaydetmek anlamına gelir.
 
 {{% /alert %}}
 
-##  **Excel Çalışma Kitabını PDF'e dönüştürün**
+## **Excel Çalışma Kitabını PDF'e Dönüştür**
 
-PDF dosyaları kuruluşlar, devlet sektörleri ve bireyler arasında belge alışverişinde bulunmak için yaygın olarak kullanılır. Standart bir belge formatıdır ve yazılım geliştiricilerden sıklıkla Microsoft Excel dosyalarını PDF belgeye dönüştürmenin bir yolunu bulmaları istenir.
+PDF dosyaları, kuruluşlar, devlet kurumları ve bireyler arasında belge değişiminde geniş ölçüde kullanılır. Standart bir belge biçimidir ve yazılım geliştiriciler genellikle Microsoft Excel dosyalarını PDF belgelerine dönüştürmek için bir yol bulmaları istenir.
 
-Aspose.Cells for Python via .NET, Excel dosyalarının PDF'e dönüştürülmesini destekler ve dönüştürme sırasında yüksek görsel doğruluğu korur.
+Aspose.Cells for Python via .NET, Excel dosyalarını PDF'e dönüştürmeyi destekler ve dönüşümde yüksek görsel sadakati korur.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-PDF.py" >}}
 
-##  **Excel Çalışma Kitabını JPG'ye Dönüştür**
-Aspose.Cells for Python via .NET, Excel dosyalarının JPG'ye dönüştürülmesini destekler.
-Aşağıdaki kod örneği, bir çalışma kitabının JPG olarak nasıl kaydedileceğini gösterir.
+## **Excel Çalışma Kitabını JPG'e Dönüştür**
+Aspose.Cells for Python via .NET, Excel dosyalarını JPG'e dönüştürmeyi destekler.
+Aşağıdaki kod örneği, bir çalışma kitabını JPG olarak kaydetmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-JPG.py" >}}
 
-##  **Excel Çalışma Kitabını Resme Dönüştür**
-Aspose.Cells for Python via .NET, Excel dosyalarının resimlere dönüştürülmesini destekler.
-Aşağıdaki kod örneği, bir çalışma kitabının resim olarak nasıl kaydedileceğini gösterir.
+## **Excel Çalışma Kitabını Görüntüye Dönüştür**
+Aspose.Cells for Python via .NET, Excel dosyalarını resimlere dönüştürmeyi destekler.
+Aşağıdaki kod örneği, bir çalışma kitabını resim olarak kaydetme yöntemini gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-Image.py" >}}
 
-##  **Excel Çalışma Kitabını XPS'e dönüştürme**
+## **Excel Çalışma Kitabını XPS'ye Dönüştürme**
 
-XPS belge formatı, bir belgenin düzenini ve her sayfanın görsel görünümünü tanımlayan yapılandırılmış XML işaretlemesinin yanı sıra belgeleri dağıtmak, arşivlemek, oluşturmak, işlemek ve yazdırmak için oluşturma kurallarından oluşur.
+XPS belge formatı, her bir sayfanın düzenini ve her bir sayfanın görsel görünümünü tanımlayan yapılandırılmış XML işaretleme ve belgelerin dağıtımı, arşivleme, işleme ve yazdırma kurallarıyla birlikte renderleme kurallarından oluşur.
 
-XPS için işaretleme dili, XAML'in bir alt kümesidir ve Windows Sunum Temeli (WPF) temel öğelerini işaretlemek için XAML kullanarak vektör grafik öğelerini belgelere dahil etmesine olanak tanır. Kullanılan elemanlar yollar ve diğer geometrik temel öğeler açısından açıklanmıştır.
+XPS için işaretleme dili, XAML'nin bir alt kümesi olup Windows Presentation Foundation (WPF) temel yapı taşlarını kullanarak belgelere vektör grafik öğelerini dahil etmesine izin verir. Kullanılan öğeler, yol ve diğer geometrik temel yapı taşları terimleriyle tanımlanır.
 
-XPS dosyası aslında Açık Paketleme Kurallarını kullanan ve belgeyi oluşturan dosyaları içeren unicode bir ZIP arşividir. Bunlar, her sayfa için bir XML işaretleme dosyasını, metni, gömülü yazı tiplerini, taramalı görüntüleri, 2B vektör grafiklerini ve ayrıca dijital haklar yönetimi bilgilerini içerir. XPS dosyasının içeriği, ZIP dosyalarını destekleyen bir uygulamada açılarak kolayca incelenebilir.
+Bir XPS dosyası aslında belgeyi oluşturan dosyaları içeren Open Packaging Conventions kullanan bir Unicode ZIP arşividir. Bunlar, her sayfa için bir XML işaretleme dosyasını, metni, gömülü yazı tiplerini, rastgele görüntüleri ve 2D vektör grafikleri yanı sıra dijital hak yönetimi bilgilerini içerir. Bir XPS dosyasının içeriği, ZIP dosyalarını destekleyen bir uygulamada açılarak kolayca incelenebilir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-XPS.py" >}}
 
-##  **Excel'i Ods, Sxc ve Fods'a dönüştürün (OpenOffice / LibreOffice Calc)**
- Aspose.Cells for Python via .NET, Excel dosyalarının Ods,Sxc ve Fods dosyalarına dönüştürülmesini destekler. Aşağıdaki kod örneği, nasıl dönüştürüleceğini gösterir.[şablon](book1.xlsx) Ods,Sxc ve Fods dosyasına.
+## **Excel'i Ods, Sxc ve Fods (OpenOffice / LibreOffice Calc) formatına dönüştür**
+Aspose.Cells for Python via .NET, Excel dosyalarını Ods, Sxc ve Fods formatlarına dönüştürmeyi destekler. Aşağıdaki kod örneği, [şablon](book1.xlsx)'i Ods, Sxc ve Fods formatlarına dönüştürme yöntemini gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-ODS.py" >}}
 
 
-##  **Excel Çalışma Kitabını MHTML Dosyalarına Dönüştürme**
+## **Excel Çalışma Kitabını MHTML Dosyalarına Dönüştürme**
 
-MHTML, normal HTML'i harici kaynaklarla (yani resimler, animasyonlar, ses vb. gibi genellikle bağlantılı içerik) tek bir dosyada birleştirir. .mht dosya uzantısına sahip e-postalar için kullanılırlar.
+MHTML, normal HTML'yi dış kaynaklarla (genellikle bağlantılı olarak bulunan, resimler, animasyonlar, sesler vb.) tek bir dosyaya birleştirir. Bunlar, .mht dosya uzantılı e-postalar için kullanılır.
 
-Aspose.Cells for Python via .NET, MHTML dosyalarının okunmasını ve yazılmasını destekler.
+Aspose.Cells for Python via .NET, MHTML dosyalarını okuma ve yazmayı destekler.
 
-Aşağıdaki kod örneği, bir çalışma kitabının MHTML dosyası olarak nasıl kaydedileceğini gösterir.
+Aşağıdaki kod örneği, bir çalışma kitabını MHTML dosyası olarak kaydetmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-MHTML.py" >}}
 
-##  **Excel Çalışma Kitabını HTML'e dönüştürme**
+## **Excel Çalışma Kitabını HTML'ye Dönüştürme**
 
- Aspose.Cells for Python via .NET API, elektronik tabloların HTML biçimine aktarılması için destek sağlar. Bu amaçla Aspose.Cells for Python via .NET numaralı telefonu kullanıyor.**[HtmlSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/)**HTML çıktısının çeşitli yönlerini kontrol etme esnekliği sağlayan sınıf.
+Aspose.Cells for Python via .NET API, elektronik tabloları HTML formatına aktarma desteği sağlar. Bu amaçla Aspose.Cells for Python via .NET, çıktı HTML'nin birkaç yönünü kontrol etmek için [**HtmlSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/) class'ını kullanır.
 
-Aşağıdaki kod örneği, bir çalışma kitabının HTML dosyası olarak nasıl kaydedileceğini gösterir.
+Aşağıdaki kod örneği, bir çalışma kitabını HTML dosyası olarak kaydetme yöntemini gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-HTML.py" >}}
 
-##  **HTML için Görüntü Tercihlerini Ayarlama**
+## **HTML için Görüntü Tercihlerini Ayarlama**
 
- Aspose.Cells for Python via .NET açığa çıktı**[image_options](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/)** için**[HtmlSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions)**sınıfı, geliştiricilerin e-tabloları HTML biçiminde kaydederken görüntü tercihlerini belirlemesine olanak tanır.
+Aspose.Cells for Python via .NET, elektronik tabloları HTML formatına kaydederken görüntü tercihlerini belirlemek için [**image_options**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/) class'ının [**HtmlSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions) class'ı için kullanımını sağlar.
 
-Aşağıda uygulanabilecek bazı görüntü ayarlarının ayrıntıları verilmiştir.
+Uygulanabilecek bazı görüntü ayarlarının detayları aşağıda verilmiştir.
 
-- *[Resim türü](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)**: Görüntü türünü belirtir. Grafikler dahil tüm şekillerin HTML çıktısında resim olarak işlendiğini lütfen unutmayın.
-- *[düzgünleştirme_modu](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode/)**: Doldurulmuş alanların çizgileri, eğrileri ve kenarları için kenar yumuşatmayı belirtir.
-- *[text_rendering_hint](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint/)**: Metin oluşturmanın kalitesini belirtir.
-- **[kalite](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/quality/)**: **[ImageType olduğunda, 0 ile 100 arasında görüntünün kalitesini belirtir. ](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)**Jpeg olarak belirtilir.
-- *[dikey_çözünürlük](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/)**: Görüntünün dikey çözünürlüğünü inç başına nokta cinsinden alır veya ayarlar.
-- *[yatay_çözünürlük](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/)**: Görüntünün yatay çözünürlüğünü inç başına nokta cinsinden alır veya ayarlar.
-- **[tiff_compression](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/)**: **[ImageType]( olduğunda görüntülerin sıkıştırma türünü alır veya ayarlar. https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/)**Tiff olarak belirtilir.
-- *[şeffaf](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/transparent/)**: ImageFormat Png olarak belirtildiğinde görselin arka planının şeffaf olması gerekip gerekmediğini belirtir.
+- [**ImageType**](https://reference.aspose.com/cells/python-net/aspose.cells.drawing/imagetype/): Görüntü türünü belirtir. Lütfen not edin, tüm şekiller, grafikler de dahil olmak üzere çıktı HTML'de resim olarak oluşturulur.
+- [**smoothing_mode**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/smoothing_mode/): Çizgilerin, eğrilerin ve doldurulmuş alanların kenarlarının düzgünleştirilmesini belirtir.
+- [**text_rendering_hint**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/text_rendering_hint/): Metin düzeltme kalitesini belirtir.
+- [**quality**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/quality/): Jpeg olarak belirtildiğinde 0 ila 100 arasında görüntü kalitesini belirtir.
+- [**vertical_resolution**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/): Görselin dikey düzeyde inç başına nokta cinsinden çözünürlüğünü alır veya ayarlar.
+- [**horizontal_resolution**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/): Görselin yatay düzeyde inç başına nokta cinsinden çözünürlüğünü alır veya ayarlar.
+- [**tiff_compression**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/): Tiff olarak belirtildiğinde, görüntülerin sıkıştırma tipini alır veya ayarlar.
+- [**transparent**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/transparent/): Görüntü biçimi Png olarak belirtildiğinde bir görüntünün arka planının saydam olup olmayacağını belirtir.
 
- Aşağıdaki kod nasıl kullanılacağını gösterir**[HtmlSaveOptions.image_options](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/)**farklı tercihleri belirtmek için.
+Aşağıdaki kod, [**HtmlSaveOptions.image_options**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/image_options/) kullanarak farklı tercihleri belirtmek için nasıl kullanılacağını gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-HTML-SettingImagePrefrencesforHTML-1.py" >}}
 
-##  **Excel Çalışma Kitabını Markdown'a Dönüştür**
+## **Excel Çalışma Kitabını Markdown'a Dönüştür**
 
-Aspose.Cells for Python via .NET API, elektronik tabloların Markdown formatına aktarılması için destek sağlar. Etkin çalışma sayfasını Markdown'a aktarmak için şunu iletin:**[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** ikinci parametre olarak**[Workbook.Save](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)** yöntem. Ayrıca kullanabilirsiniz**[MarkdownSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)** Çalışma sayfasını Markdown'a aktarmak için ek ayarları belirtmek üzere sınıf.
+Aspose.Cells for Python via .NET API, elektronik tabloları Markdown formatına aktarma desteği sağlar. Etkin çalışma sayfasını Markdown'e aktarmak için, [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) yönteminin ikinci parametresi olarak [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) geçirin. Ayrıca, çalışma sayfasını Markdown'e aktarma için ilave ayarları belirlemek için [**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions) class'ını da kullanabilirsiniz.
 
- Aşağıdaki kod örneği, etkin çalışma sayfasını kullanarak Markdown'a aktarmayı gösterir:**[SaveFormat.MARKDOWN](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)** numaralandırma üyesi Lütfen bkz[çıktı Markdown dosyası](md_sample.txt)referans kodu tarafından oluşturulur.
+Aşağıdaki kod örneği, etkin çalışma sayfasını Markdown'a [**SaveFormat.MARKDOWN**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) numaralı üye kullanarak dışa aktarma işlemini göstermektedir. Kod ile oluşturulan [çıktı Markdown dosyasını](md_sample.txt) inceleyebilirsiniz.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-Markdown-1.py" >}}
 
-##  **Excel Çalışma Kitabını JSON'e dönüştürün**
+## **Excel Çalışma Kitabını JSON'a Dönüştür**
 
-Aspose.Cells for Python via .NET, çalışma kitabının Json(JavaScript Object Notation) dosyasına dönüştürülmesini destekler.
+Aspose.Cells for Python via .NET, bir çalışma kitabını Json (JavaScript Object Notation) dosyasına dönüştürmeyi destekler.
 
-Aşağıdaki kod örneği, etkin çalışma sayfasını kullanarak Json'a aktarmayı gösterir:[**SaveFormat.JSON**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) numaralandırma üyesi Lütfen dönüştürülecek koda bakın[Kaynak dosyası](Book1.xlsx) -e[Json dosyasının çıktısı](Book1.Json)referans kodu tarafından oluşturulur.
+Aşağıdaki kod örneği, etkin çalışma sayfasını [**SaveFormat.JSON**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) numaralı üye kullanarak Json'a dışa aktarma işlemini göstermektedir. Kod ile oluşturulan [çıktı Json dosyasını](Book1.Json) inceleyebilirsiniz.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-JSON.py" >}}
 
-##  **Excel'i XML'e dönüştür**
-Aspose.Cells for Python via .NET, çalışma kitabının Excel 2003 Elektronik Tablo XML'sine ve düz XML verilerine dönüştürülmesini destekler.
+## **Excel'i XML'e Dönüştür**
+Aspose.Cells for Python via .NET, bir çalışma kitabını Excel 2003 Elektronik Tablo XML ve düz XML verisine dönüştürmeyi destekler.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-XML.py" >}}
 
-##  **Excel Çalışma Kitabını TIFF'e dönüştürün**
-Aspose.Cells for Python via .NET, çalışma kitabının TIFF dosyasına dönüştürülmesini destekler.
+## **Excel Çalışma Kitabını TIFF'e Dönüştür**
+Aspose.Cells for Python via .NET, bir çalışma kitabını TIFF dosyasına dönüştürmeyi destekler.
 
-Aşağıdaki kod parçacığı, Excel'in TIFF'e nasıl dönüştürüleceğini gösterir:
+Aşağıdaki kod parçası, Excel'i TIFF'e dönüştürmeyi göstermektedir:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-TIFF.py" >}}
 
-##  **Excel Çalışma Kitabını DOCX'e dönüştürün**
+## **Excel Çalışma Kitabını DOCX'e Dönüştür**
 
-Aspose.Cells for Python via .NET API, e-tabloların DOCX biçimine dönüştürülmesi için destek sağlar. Çalışma kitabını DOCX'e aktarmak için şunu iletin:[**SaveFormat.DOCX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) ikinci parametre olarak[**Çalışma kitabı.kaydet**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#io.RawIOBase-aspose.cells.SaveOptions) yöntem. Ayrıca kullanabilirsiniz[**DocxSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/docxsaveoptions/) Çalışma sayfasını DOCX'e aktarmak için ek ayarları belirtmek üzere sınıf.
+Aspose.Cells for Python via .NET API, elektronik tabloyu DOCX formatına dönüştürmeyi destekler. Çalışma sayfasını DOCX'e dışa aktarmak için [**Workbook.save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#io.RawIOBase-aspose.cells.SaveOptions) yönteminin ikinci parametresi olarak [**SaveFormat.DOCX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) 'yi geçirin. Ayrıca, çalışma sayfasını DOCX'e dışa aktarmak için ek ayarları belirtmek için [**DocxSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/docxsaveoptions/) sınıfını da kullanabilirsiniz.
 
- Aşağıdaki kod örneği, etkin çalışma sayfasının kullanılarak DOCX'e aktarılmasını gösterir.[**SaveFormat.DOCX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) numaralandırma üyesi Lütfen bkz[çıktı DOCX dosyası](Book1.docx)referans kodu tarafından oluşturulur.
+Aşağıdaki kod örneği, etkin çalışma sayfasını [**SaveFormat.DOCX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) numaralı üye kullanarak DOCX'e dışa aktarma işlemini göstermektedir. Kod ile oluşturulan [çıktı DOCX dosyasını](Book1.docx) inceleyebilirsiniz.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-Docx-1.py" >}}
 
-##  **Excel Çalışma Kitabını PPTX'e dönüştürün**
+## **Excel Çalışma Kitabını PPTX'e Dönüştür**
 
-Aspose.Cells for Python via .NET API, e-tabloların PPTX biçimine dönüştürülmesi için destek sağlar. Çalışma kitabını PPTX'e aktarmak için şunu iletin:[**SaveFormat.PPTX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) ikinci parametre olarak[**Çalışma kitabı.kaydet**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#io.RawIOBase-aspose.cells.SaveOptions) yöntem. Ayrıca kullanabilirsiniz[**PptxSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pptxsaveoptions) Çalışma sayfasını PPTX'e aktarmak için ek ayarları belirtmek üzere sınıf.
+Aspose.Cells for Python via .NET API, elektronik tabloyu PPTX formatına dönüştürmeyi destekler. Çalışma sayfasını PPTX'e dışa aktarmak için [**Workbook.save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#io.RawIOBase-aspose.cells.SaveOptions) yönteminin ikinci parametresi olarak [**SaveFormat.PPTX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) 'yi geçirin. Ayrıca, çalışma sayfasını PPTX'e dışa aktarmak için ek ayarları belirtmek için [**PptxSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pptxsaveoptions) sınıfını da kullanabilirsiniz.
 
- Aşağıdaki kod örneği, etkin çalışma sayfasının kullanılarak PPTX'e aktarılmasını gösterir.[**SaveFormat.PPTX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) numaralandırma üyesi Lütfen bkz[çıktı PPTX dosyası](Book1.pptx)referans kodu tarafından oluşturulur.
+Aşağıdaki kod örneği, etkin çalışma sayfasını [**SaveFormat.PPTX**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/) numaralı üye kullanarak PPTX'e dışa aktarma işlemini göstermektedir. Kod ile oluşturulan [çıktı PPTX dosyasını](Book1.pptx) inceleyebilirsiniz.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-File-To-Pptx-1.py" >}}
 
-##  **İleri konular**
+## **Gelişmiş Konular**
 - [Json](/cells/tr/python-net/convert-workbook-to-json/)
-- [PDF](/cells/tr/python-net/convert-excel-to-pdf/)
-- [CSV, TSV ve TXT'i Excel'e dönüştürün](/cells/tr/python-net/convert-csv-tsv-and-txt-to-excel/)
+- [Pdf](/cells/tr/python-net/convert-excel-to-pdf/)
+- [CSV, TSV ve TXT'yi Excel'e Dönüştür](/cells/tr/python-net/convert-csv-tsv-and-txt-to-excel/)

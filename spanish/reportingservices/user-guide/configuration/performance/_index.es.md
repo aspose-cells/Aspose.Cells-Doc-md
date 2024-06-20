@@ -1,12 +1,13 @@
-﻿---
+---
 title: Rendimiento
 type: docs
 weight: 30
 url: /es/reportingservices/performance/
 ---
- Para mejorar el rendimiento, establezca el parámetro Rendimiento en**SOBRE**.
 
-{{< highlight "java" >}}
+Para mejorar el rendimiento, establezca el parámetro de Rendimiento en **ON**.
+
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -28,9 +29,9 @@ url: /es/reportingservices/performance/
 
 Los diversos parámetros de rendimiento son los siguientes:
 
-- **LimitCellsNumberForMerged** : el número máximo de celdas que se pueden combinar. El valor predeterminado 1.000.000. El usuario establece el valor del parámetro y no se ve afectado por el interruptor del parámetro de rendimiento.
+- **LimitCellsNumberForMerged**: el número máximo de celdas que se pueden fusionar. El valor predeterminado es 1,000,000. El valor del parámetro lo define el usuario y no se ve afectado por el interruptor del parámetro de rendimiento. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -39,9 +40,9 @@ Los diversos parámetros de rendimiento son los siguientes:
 
 
 
-- **IsAutoRowFit** : Cuando el valor de Rendimiento es**apagado** , el valor de IsAutoRowFit es**falso** por defecto. Cuando el valor del parámetro de rendimiento es**sobre** , el valor es**verdadero** por defecto. Cuando el valor de Rendimiento es**sobre** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
+- **IsAutoRowFit**: Cuando el valor de Rendimiento es **off**, el valor de IsAutoRowFit es **falso** de forma predeterminada. Cuando el valor del parámetro de rendimiento es **on**, el valor es **verdadero** de forma predeterminada. Cuando el valor de Rendimiento es **on**, un subelemento de informe puede restablecer el punto de informe al valor AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -64,9 +65,9 @@ Los diversos parámetros de rendimiento son los siguientes:
 
 
 
-- **Está fusionado** : Cuando el valor de Rendimiento es**apagado** , el valor predeterminado de IsMerged es**falso** . Cuando el valor de Rendimiento es**sobre** , El valor predeterminado es**verdadero** . Cuando el valor del parámetro Performance es**sobre** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
+- **IsMerged**: Cuando el valor de Rendimiento es **off**, el valor predeterminado de IsMerged es **falso**. Cuando el valor de Rendimiento es **on**, el valor predeterminado es **verdadero**. Cuando el valor del parámetro de rendimiento es **on**, un subelemento de informe puede restablecer el punto de informe al valor AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -89,9 +90,9 @@ Los diversos parámetros de rendimiento son los siguientes:
 
 
 
-- **IsSetStyle** : Cuando el valor de Rendimiento es**apagado** , El valor predeterminado es**falso** . Cuando el rendimiento es**sobre** , El valor predeterminado es**verdadero** . Además, cuando el rendimiento es**sobre** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
+- **IsSetStyle**: Cuando el valor de Rendimiento es **off**, el valor predeterminado es **falso**. Cuando Rendimiento es **on**, el valor predeterminado es **verdadero**. Además, cuando Rendimiento es **on**, un subelemento de informe puede restablecer el punto de informe al valor AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -114,9 +115,9 @@ Los diversos parámetros de rendimiento son los siguientes:
 
 
 
-- **EsFormatoCondicional** : cuando el rendimiento es**apagado** , El valor predeterminado es**falso** . Cuando el rendimiento es**sobre** , El valor predeterminado es**verdadero** . Además, cuando el rendimiento es**sobre** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit. Cuando el valor del parámetro IsSetStyle se establece en**falso** , el valor de Rendimiento no es válido.
+- **IsConditionalFormatting**: Cuando el Rendimiento está **apagado**, el valor predeterminado es **false**. Cuando el Rendimiento está **encendido**, el valor predeterminado es **true**. Además, cuando el rendimiento está **encendido**, un subinforme puede restablecer el informe de puntos al valor AutoRowFit. Cuando el valor del parámetro IsSetStyle se establece en **false**, el valor de Rendimiento no es válido. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

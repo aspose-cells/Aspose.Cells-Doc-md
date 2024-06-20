@@ -1,16 +1,17 @@
-﻿---
-title: دعم تخطيط علامات DIV أثناء تحميل HTML لتفوق المصنف
+---
+title: دعم تخطيط علامات DIV أثناء تحميل ملف HTML في دفتر عمل إكسل
 type: docs
 weight: 50
 url: /ar/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
 ---
+
 {{% alert color="primary" %}} 
 
-عادة ، يتم تجاهل تخطيط علامات div أثناء تحميل HTML في كائن مصنف Excel. ومع ذلك ، إذا كنت تريد عدم تجاهل تخطيط علامات div ، فيرجى تعيين[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) ملكية ل**حقيقي** . القيمة الافتراضية لهذه الخاصية هي**خاطئة**.
+عادةً، يتم تجاهل تخطيط وسم div أثناء تحميل HTML في كائن دفتر العمل في Excel. ومع ذلك، إذا كنت ترغب في عدم تجاهل تخطيط وسم div، يرجى ضبط خاصية [HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) على **true**. القيمة الافتراضية لهذه الخاصية هي **false**.
 
 {{% /alert %}} 
 
- يوضح نموذج التعليمات البرمجية التالي استخدام[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) خاصية. يرجى تنزيل ملف[Aspose الشعار](5115218.png) تستخدم داخل المدخلات HTML و[ملف اكسل الناتج](5115220.xlsx) التي تم إنشاؤها بواسطة الكود.
+الكود النموذجي التالي يوضح استخدام خاصية [HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag). يرجى تنزيل [شعار Aspose](5115218.png) المستخدم داخل HTML المدخل والملف [مصنوع من الكود](5115220.xlsx) الذي أنشئه.
 
 
 

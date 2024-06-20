@@ -1,37 +1,38 @@
-﻿---
+---
 title: Come eseguire Aspose.Cells in Docker
 type: docs
-description: Esegui Aspose.Cells in un contenitore Docker per Linux, Windows Server e qualsiasi sistema operativo.
+description: "Esegui Aspose.Cells in un contenitore Docker per Linux, Windows Server e qualsiasi altro sistema operativo."
 weight: 139
 url: /it/net/how-to-run-aspose-cells-in-docker/
 ---
-I microservizi, insieme alla containerizzazione, consentono di combinare facilmente le tecnologie. Docker ti consente di integrare facilmente la funzionalità Aspose.Cells nella tua applicazione, indipendentemente dalla tecnologia presente nel tuo stack di sviluppo.
 
-Se stai prendendo di mira i microservizi o se la tecnologia principale nel tuo stack non è .NET, C++ o Java, ma hai bisogno della funzionalità Aspose.Cells o se usi già Docker nel tuo stack, allora potresti essere interessato a utilizzare Aspose.Cells in un Docker contenitore.
+I microservizi, in combinazione con la containerizzazione, rendono possibile combinare facilmente le tecnologie. Docker ti consente di integrare facilmente la funzionalità Aspose.Cells nella tua applicazione, indipendentemente dalla tecnologia utilizzata nel tuo stack di sviluppo.
+
+Nel caso tu stia puntando ai servizi micro o se la tecnologia principale nel tuo stack non è .NET, C++ o Java, ma hai bisogno della funzionalità di Aspose.Cells, oppure se già utilizzi Docker nel tuo stack, potresti essere interessato a utilizzare Aspose.Cells in un contenitore Docker.
 
 ## Prerequisiti
 
-- Docker deve essere installato sul tuo sistema. Per informazioni su come installare Docker su Windows o Mac, fare riferimento ai collegamenti nella sezione "Vedi anche".
+- Docker deve essere installato sul tuo sistema. Per informazioni su come installare Docker su Windows o Mac, consulta i collegamenti nella sezione "Vedi anche".
 
-- Si noti inoltre che nell'esempio fornito di seguito viene utilizzato l'SDK di Visual Studio 2019, .NET Core 3.1.
+- Nota anche che nell'esempio viene utilizzato Visual Studio 2019, .NET Core 3.1 SDK.
 
 
-## Hello World Richiesta
+## Applicazione Hello World
 
-In questo esempio, crei una semplice applicazione console Hello World che crea un messaggio "Hello World!" documento e lo salva in tutti i formati di salvataggio supportati. L'applicazione può quindi essere creata ed eseguita in Docker.
+In questo esempio, crei una semplice applicazione console Hello World che crea un documento "Hello World!" e lo salva in tutti i formati di salvataggio supportati. L'applicazione può quindi essere compilata ed eseguita in Docker.
 
-### Creazione dell'applicazione console
+### Creazione dell'applicazione Console
 
-Per creare il programma Hello World, attenersi alla seguente procedura:
-1. Una volta installato Docker, assicurati che utilizzi i contenitori Linux (impostazione predefinita). Se necessario, seleziona l'opzione Passa ai contenitori Linux dal menu Docker Desktop.
-1. In Visual Studio creare un'applicazione console principale .NET.<br>
-![cose da fare:immagine_alt_testo](create-a-new-project.png)<br>
-1. Installa l'ultima versione Aspose.Cells da NuGet. System.Drawing.Common e System.Text.Encoding.CodePages verranno installati come dipendenza di Aspose.Cells.<br>
-![cose da fare:immagine_alt_testo](nuget-aspose-cells.png)<br>
-1. Poiché l'applicazione verrà eseguita su Linux, è necessario installare le risorse Linux native appropriate. Iniziare con l'immagine di base dotnet core sdk 3.1 e installare libgdiplus libc6-dev.
-1. Quando tutte le dipendenze richieste sono state aggiunte, scrivi un semplice programma che crei un "Hello World!" cartella di lavoro e la salva in tutti i formati di salvataggio supportati:<br>
+Per creare il programma Hello World, segui i passaggi seguenti:
+1. Una volta installato Docker, assicurati che utilizzi i contenitori Linux (impostazione predefinita). Se necessario, seleziona l'opzione Passa a contenitori Linux dal menu Docker Desktop.
+1. In Visual Studio, create a .NET Core console application.<br>
+![todo:image_alt_text](create-a-new-project.png)<br>
+1. Install the latest Aspose.Cells version from NuGet. System.Drawing.Common and System.Text.Encoding.CodePages will be installed as a dependency of Aspose.Cells.<br>
+![todo:image_alt_text](nuget-aspose-cells.png)<br>
+1. Poiché l'applicazione verrà eseguita su Linux, è necessario installare le risorse native appropriate per Linux. Inizia con l'immagine di base del SDK di dotnet core sdk 3.1 e installa libgdiplus libc6-dev.
+1. When all required dependencies are added, write a simple program that creates a “Hello World!” workbook and saves it in all supported save formats:<br>
 **.NET**<br>
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 using System;
 namespace Aspose.Cells.Docker
 {
@@ -64,16 +65,16 @@ namespace Aspose.Cells.Docker
 
 {{< /highlight >}}
 
-Si noti che la cartella "TestOut" è specificata come cartella di output per il salvataggio dei documenti di output. Quando si esegue l'applicazione in Docker, una cartella sul computer host verrà montata in questa cartella nel contenitore. Ciò consentirà di visualizzare facilmente l'output generato da Aspose.Cells nel contenitore Docker.
+Nota che la cartella "TestOut" è specificata come cartella di output per il salvataggio dei documenti di output. Quando si esegue l'applicazione in Docker, una cartella sulla macchina host verrà montata su questa cartella nel contenitore. Ciò ti consentirà di visualizzare facilmente l'output generato da Aspose.Cells nel contenitore Docker.
 
-### Configurazione di un Dockerfile
+### Configurare un file Dockerfile
 
-Il passaggio successivo consiste nel creare e configurare il Dockerfile.
+Il passo successivo è creare e configurare il Dockerfile.
 
-1. Crea il Dockerfile e posizionalo accanto al file della soluzione della tua applicazione. Mantieni questo nome file senza estensione (impostazione predefinita).
-1. Nel Dockerfile, specificare:
+1. Crea il Dockerfile e posizionalo accanto al file di soluzione della tua applicazione. Mantieni questo nome file senza estensione (il predefinito).
+1. Nel Dockerfile, specifica:
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster 
 COPY fonts/* /usr/share/fonts/
 WORKDIR /app
@@ -81,72 +82,74 @@ COPY . ./
 RUN apt-get update && \
     apt-get install -y --allow-unauthenticated libgdiplus libc6-dev
 RUN dotnet publish "Aspose.Cells.Docker.csproj" -c Release -o /app/publish
-ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]{{< /highlight >}}
+ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]
+{{< /highlight >}}
 
-Quanto sopra è un semplice Dockerfile, che contiene le seguenti istruzioni:
+Quello precedente è un semplice Dockerfile, che contiene le seguenti istruzioni:
 
-- L'immagine SDK da utilizzare. Ecco l'immagine .Net Core SDK 3.1. Docker lo scaricherà quando viene eseguita la build. La versione dell'SDK è specificata come tag.
-- Installa i caratteri perché l'immagine dell'SDK contiene pochissimi caratteri. Il comando copia i file dei font dall'immagine locale all'immagine docker. Assicurati di avere una directory "fonts" locale che contenga tutti i font che devi installare. In questo esempio, la directory "fonts" locale viene inserita nella stessa directory del Dockerfile.
-- La directory di lavoro, specificata nella riga successiva.
-- Il comando per copiare tutto nel contenitore, pubblicare l'applicazione e specificare il punto di ingresso.
-- Il comando per installare libgdiplus viene eseguito nel contenitore. Ciò è richiesto da System.Drawing.Common.
+- L'immagine SDK da utilizzare. Qui è presente l'immagine .Net Core SDK 3.1. Docker la downloaderà durante l'esecuzione della build. La versione del SDK è specificata come tag.
+- Installa i caratteri perché l'immagine SDK contiene pochi caratteri. Il comando copia i file dei caratteri da locale all'immagine docker. Assicurati di avere una directory locale "fonts" che contenga tutti i caratteri che devi installare. In questo esempio, la directory locale "fonts" è posta nella stessa directory del Dockerfile.
+- La directory di lavoro, che è specificata nella riga successiva.
+- Il comando per copiare tutto nel container, pubblicare l'applicazione e specificare il punto di ingresso.
+- Viene eseguito il comando per installare libgdiplus nel container. Questo è richiesto da System.Drawing.Common.
 
-### Creazione ed esecuzione dell'applicazione in Docker
+### Costruzione ed Esecuzione dell'Applicazione in Docker
 
-Ora l'applicazione può essere creata ed eseguita in Docker. Apri il tuo prompt dei comandi preferito, cambia la directory nella cartella con l'applicazione (cartella in cui sono posizionati il file della soluzione e il Dockerfile) ed esegui il seguente comando:
+Ora l'applicazione può essere compilata ed eseguita in Docker. Apri il tuo prompt dei comandi preferito, cambia directory nella cartella dell'applicazione (cartella in cui sono posizionati il file di soluzione e il Dockerfile) ed esegui il seguente comando:
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker build -t actest .
 {{< /highlight >}}
 
-La prima volta che questo comando viene eseguito potrebbe richiedere più tempo, poiché Docker deve scaricare le immagini richieste. Una volta completato il comando precedente, eseguire il seguente comando:
+La prima volta che questo comando viene eseguito, potrebbe richiedere più tempo, poiché Docker ha bisogno di scaricare le immagini richieste. Una volta completato il comando precedente, esegui il seguente comando:
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker run --mount type=bind,source=C:\Temp,target=/TestOut --rm actest from Docker
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
 
-Prestare attenzione all'argomento mount, perché, come accennato in precedenza, una cartella sulla macchina host viene montata nella cartella del contenitore, per vedere facilmente i risultati dell'esecuzione dell'applicazione. I percorsi in Linux fanno distinzione tra maiuscole e minuscole.
+Presta attenzione all'argomento di mount, poiché, come già accennato, una cartella sulla macchina host viene montata nella cartella del container, per vedere facilmente i risultati dell'esecuzione dell'applicazione. I percorsi in Linux sono sensibili alle maiuscole e minuscole.
 
 {{% /alert %}}
 
-## Immagini che supportano Aspose.Cells
+## Immagini con supporto Aspose.Cells
 
 - Aspose.Cells for .NET Standard non supporta EMF e TIFF su Linux.
 
 
-## Altri esempi
+## Altri Esempi
 
 ***1. Per eseguire l'applicazione in Windows Server 2019***
 
 - Dockerfile
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 FROM microsoft/dotnet-framework:4.7.2-sdk-windowsservercore-ltsc2019
 WORKDIR /app
 COPY . ./
 RUN dotnet publish "Aspose.Cells.Docker.csproj" -c Release -o /app/publish
-ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]{{< /highlight >}}
+ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]
+{{< /highlight >}}
 
-- Crea immagine Docker
+- Costruisci l'immagine Docker
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker build -t actest .
 {{< /highlight >}}
 
-- Eseguire l'immagine Docker
+- Esegui l'immagine Docker
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker run --mount type=bind,source=C:\Temp,target=c:\TestOut --rm actest from Docker
 {{< /highlight >}}
 
 
 ***2. Per eseguire l'applicazione in Linux***
 
-- Scrivi un semplice programma che imposta la cartella dei caratteri, crea un "Hello World!" cartella di lavoro e la salva.
+- Scrivi un semplice programma che imposta la cartella dei font, crea un foglio di lavoro con scritto “Hello World!” e lo salva.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 namespace Aspose.Cells.Docker.Fonts
 {
     using System;
@@ -175,7 +178,7 @@ namespace Aspose.Cells.Docker.Fonts
             {
                 Console.WriteLine("Saving outfonts.xlsx\t\t[FAILED],{0}", e.Message);
             }
-           
+
         }
     }
 }
@@ -183,7 +186,7 @@ namespace Aspose.Cells.Docker.Fonts
 {{< /highlight >}}
 - Dockerfile
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster 
 WORKDIR /app
 COPY . ./
@@ -192,25 +195,26 @@ RUN apt-get update && \
 WORKDIR /app
 COPY . ./
 RUN dotnet publish "Aspose.Cells.Docker.Fonts.csproj" -c Release -o /app/publish
-ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.Fonts.dll"]{{< /highlight >}}
+ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.Fonts.dll"]
+{{< /highlight >}}
 
-- Crea immagine Docker
+- Costruisci l'immagine Docker
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker build -t actest .
 {{< /highlight >}}
 
-- Eseguire l'immagine Docker
+- Esegui l'immagine Docker
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker run --mount type=bind,source=C:\Windows\Fonts,target=/Fonts  --mount type=bind,source=C:\Temp,target=/TestOut --rm actest from Docker
 {{< /highlight >}}
 
 
-## Guarda anche
+## Vedi Anche
 
 - [Installa Docker Desktop su Windows](https://docs.docker.com/docker-for-windows/install/)
 - [Installa Docker Desktop su Mac](https://docs.docker.com/docker-for-mac/install/)
 - [Visual Studio 2019, .NET Core 3.1 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31#dependencies)
-- [Passa ai container Linux](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers) opzione
--  Ulteriori informazioni su[.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-sdk)
+- Opzione [Passa ai contenitori Linux](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers)
+- Informazioni aggiuntive su [.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-sdk)

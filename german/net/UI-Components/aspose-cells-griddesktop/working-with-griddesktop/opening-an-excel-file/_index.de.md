@@ -1,47 +1,50 @@
-﻿---
-title: Öffnen einer Excel-Datei
+---
+title: Öffnen einer Excel Datei
 type: docs
 weight: 10
-url: /de/net/opening-an-excel-file/
+url: /de/net/aspose-cells-griddesktop/openg-an-excel-file/
+keywords: GridDesktop, öffnen, Datei
+description: Dieser Artikel zeigt, wie eine Datei im GridDesktop geöffnet werden kann.
 ---
+
 {{% alert color="primary" %}} 
 
-Ein einzigartiges Merkmal von Aspose.Cells Grid Suite ist die Kompatibilität mit Excel-Dateien. In diesem Thema zeigen wir, wie Benutzer Excel-Dateien in ihren Windows-Anwendungen mit dem Aspose.Cells.GridDesktop-Steuerelement öffnen können.
+Ein einzigartiges Merkmal des Aspose.Cells Grid Suite ist seine Kompatibilität mit Excel-Dateien. In diesem Thema zeigen wir, wie Benutzer Excel-Dateien in ihren Windows-Anwendungen mithilfe der Aspose.Cells.GridDesktop-Steuerung öffnen können.
 
 {{% /alert %}} 
 ## **Einführung**
- Um eine Excel-Datei mit Aspose.Cells.GridDesktop zu öffnen, müssen Sie eine Desktop-Anwendung mit GridDesktop Control darin erstellen. Wenn Sie nicht wissen, wie Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrem Windows-Formular hinzufügen, sollten Sie sich auf beziehen[So verwenden Sie Aspose.Cells.GridDesktop](/cells/de/net/how-to-use-aspose-cells-griddesktop/)
+Um eine Excel-Datei mit Aspose.Cells.GridDesktop zu öffnen, müssen Sie eine Desktop-Anwendung mit der GridDesktop-Steuerung erstellen. Wenn Sie nicht wissen, wie Sie die Aspose.Cells.GridDesktop-Steuerung Ihrem Windows-Formular hinzufügen können, sollten Sie sich auf [So verwenden Sie Aspose.Cells.GridDesktop](/cells/de/net/how-to-use-aspose-cells-griddesktop/) beziehen.
 
-Aspose.Cells.GridDesktop bietet drei verschiedene Möglichkeiten, eine Excel-Datei zu öffnen.
+Aspose.Cells.GridDesktop bietet drei verschiedene Möglichkeiten zum Öffnen einer Excel-Datei.
 
 1. **Öffnen aus einer Datei**
 1. **Öffnen einer CSV-Datei**
 1. **Öffnen aus einem Stream**
 ## **Excel-Datei öffnen**
-Erstellen Sie in diesem Beispiel eine Desktop-Anwendung und gehen Sie wie folgt vor.
+Erstellen Sie in diesem Beispiel eine Desktop-Anwendung und führen Sie folgende Schritte aus.
 
-- Fügen Sie dem Formular ein GridControl-Steuerelement hinzu.
+- Fügen Sie dem Formular eine GridControl-Steuerung hinzu.
 - Fügen Sie drei Schaltflächen hinzu, deren Texteigenschaften wie folgt festgelegt sind:
   - **Excel-Datei öffnen**
-  - **Öffnen Sie die Datei CSV**
-  - **Aus Stream öffnen**
-### **Öffnen aus einer Datei**
- Um den Inhalt aus einer Excel-Datei in das Aspose.Cells.GridDesktop-Steuerelement zu laden, müssen Sie eine Methode des Steuerelements aufrufen, um den Pfad der Excel-Datei anzugeben. Danach findet das Aspose.Cells.GridDesktop-Steuerelement automatisch die Datei aus dem angegebenen Pfad und zeigt ihren Inhalt an. Das Code-Snippet zum Laden des Inhalts einer Excel-Datei wird im folgenden Beispiel bereitgestellt. Erstellen Sie das Click-Ereignis der**Excel-Datei öffnen** Schaltfläche und fügen Sie den folgenden Code darin ein.
+  - **CSV-Datei öffnen**
+  - **Aus einem Stream öffnen**
+### **Aus einer Datei öffnen**
+Um den Inhalt einer Excel-Datei zur Aspose.Cells.GridDesktop-Steuerung zu laden, müssen Sie eine Methode der Steuerung aufrufen, um den Pfad der Excel-Datei anzugeben. Danach findet die Aspose.Cells.GridDesktop-Steuerung automatisch die Datei im angegebenen Pfad und zeigt ihren Inhalt an. Der Codeausschnitt zum Laden des Inhalts einer Excel-Datei ist im folgenden Beispiel angegeben. Erstellen Sie das Click-Ereignis der **Excel-Datei öffnen**-Schaltfläche und fügen Sie den folgenden Code ein.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningExcelFile.cs" >}}
 
 
-Das obige Code-Snippet kann von Entwicklern beliebig verwendet werden. Wenn Sie beispielsweise eine Excel-Datei automatisch laden möchten, wenn ein Windows-Formular geladen wird, können Sie diesen Code unter dem Load-Ereignis Ihres Formulars hinzufügen.
+Der obige Codeausschnitt kann von Entwicklern in beliebiger Weise verwendet werden. Wenn Sie beispielsweise automatisch eine Excel-Datei laden möchten, wenn ein Windows-Formular geladen wird, können Sie diesen Code unter das Load-Ereignis Ihres Forms hinzufügen.
 ### **Öffnen einer CSV-Datei**
-Das Aspose.Cells.GridDesktop-Steuerelement unterstützt auch das Laden der CSV-Datei. Erstellen Sie das Click-Ereignis der**Öffnen Sie die Datei CSV** Schaltfläche und fügen Sie den folgenden Code darin ein.
+Die Aspose.Cells.GridDesktop-Steuerung unterstützt auch das Laden von CSV-Dateien. Erstellen Sie das Click-Ereignis der **CSV-Datei öffnen**-Schaltfläche und fügen Sie den folgenden Code ein.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningCSVFile.cs" >}}
-### **Öffnen aus einem Stream**
- In unserer obigen Diskussion haben wir über das Laden einer Excel-Datei unter Verwendung ihres Dateipfads gesprochen, aber das Aspose.Cells.GridDesktop-Steuerelement unterstützt auch das Laden einer Excel-Datei aus einem Stream. Erstellen Sie das Click-Ereignis der**Aus Stream öffnen** Schaltfläche und fügen Sie den folgenden Code darin ein.
+### **Aus einem Stream öffnen**
+In unserer obigen Diskussion haben wir das Laden einer Excel-Datei anhand ihres Dateipfads besprochen, aber die Aspose.Cells.GridDesktop-Steuerung unterstützt auch das Laden einer Excel-Datei aus einem Stream. Erstellen Sie das Click-Ereignis der **Aus einem Stream öffnen**-Schaltfläche und fügen Sie den folgenden Code ein.
 
 
 
@@ -49,10 +52,10 @@ Das Aspose.Cells.GridDesktop-Steuerelement unterstützt auch das Laden der CSV-D
 
 
 
-Die Verwendung von Dateien als Stream ist ein besserer Ansatz, um jegliche Art von Dateizugriff oder Probleme mit Freigabeverletzungen zu verhindern, da dieser Ansatz sicherstellt, dass alle Verbindungen zu den Dateien geschlossen werden, indem der Stream geschlossen wird.
+Die Verwendung einer Datei als Stream ist ein besseres Vorgehen, um jegliche Art von Dateizugriffs- oder Freigabeverletzungsproblemen zu verhindern, da dieses Vorgehen gewährleistet, dass alle Verbindungen zu den Dateien durch Schließen des Streams geschlossen werden.
 
 {{% alert color="primary" %}} 
 
-WICHTIG: Ein wichtiger zu diskutierender Punkt ist, dass das Aspose.Cells.GridDesktop-Steuerelement auch eine Methode namens LoadFromExcel enthält, die auch zum Laden des Inhalts einer Excel-Datei in das Grid verwendet wird. Aber diese Methode ist jetzt veraltet. Daher wird allen Entwicklern empfohlen, die ImportExcelFile-Methode zu verwenden, die robuster und effizienter ist als die veraltete.
+WICHTIG: Ein wichtiger Punkt, der zu diskutieren ist, ist, dass Aspose.Cells.GridDesktop-Steuerelement auch eine Methode namens LoadFromExcel enthält, die ebenfalls zum Laden des Inhalts einer Excel-Datei in das Grid verwendet wird. Diese Methode ist jedoch jetzt veraltet. Daher wird allen Entwicklern empfohlen, die Methode ImportExcelFile zu verwenden, die robuster und effizienter als die veraltete ist.
 
 {{% /alert %}}

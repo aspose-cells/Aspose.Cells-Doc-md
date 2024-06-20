@@ -1,13 +1,16 @@
-﻿---
+---
 title: Rendre la barre de défilement interactive dans GridWeb
 type: docs
 weight: 170
-url: /fr/net/render-interactive-scrollbar-in-gridweb/
+url: /fr/net/aspose-cells-gridweb/render-interactive-scrollbar-in-gridweb/
+keywords: GridWeb,barre de défilement
+description: Cet article présente comment travailler avec la barre de défilement dans GridWeb.
 ---
-## **Scénarios d'utilisation possibles**
- Aspose.Cells pour GridWeb peut rendre le contrôle de barre de défilement interactif dans la feuille de calcul GridWeb. L'utilisateur peut interagir avec la barre de défilement comme ils le font dans Microsoft Excel. Afin de créer une barre de défilement interactive, vous devez ajouter les liens pour**jQuery** et**Interface utilisateur jQuery** bibliothèques comme indiqué ci-dessous.
 
-{{< highlight "java" >}}
+## **Scénarios d'utilisation possibles**
+Aspose.Cells for GridWeb peut rendre le contrôle de barre de défilement interactive à l'intérieur de la feuille de calcul GridWeb. L'utilisateur peut interagir avec la barre de défilement comme dans Microsoft Excel. Pour créer une barre de défilement interactive, vous devez ajouter les liens des bibliothèques **jQuery** et **jQuery UI** comme indiqué ci-dessous.
+
+{{< highlight java >}}
 
  <head runat="server">
 
@@ -21,17 +24,17 @@ url: /fr/net/render-interactive-scrollbar-in-gridweb/
 
 {{< /highlight >}}
 ## **Rendre la barre de défilement interactive dans GridWeb**
- L'exemple de code suivant charge le[exemple de fichier Excel](61767764.xlsx)contenant la barre de défilement comme indiqué dans la capture d'écran suivante. Les autres captures d'écran montrent comment le GridWeb rend la barre de défilement interactive et affiche la valeur de la barre de défilement dans la cellule B3. Chaque fois que vous faites défiler la barre de défilement, la valeur de la cellule B3 affiche la valeur résultante.
+Le code d'exemple suivant charge le [fichier Excel d'exemple](61767764.xlsx) contenant la barre de défilement comme indiqué dans la capture d'écran suivante. Les autres captures d'écran montrent comment GridWeb rend la barre de défilement interactive et affiche la valeur de la barre de défilement dans la cellule B3. Chaque fois que vous faites défiler la barre de défilement, la valeur de la cellule B3 affiche la valeur résultante.
 
-![tâche : image_autre_texte](render-interactive-scrollbar-in-gridweb_1.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_1.png)
 
-![tâche : image_autre_texte](render-interactive-scrollbar-in-gridweb_2.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_2.png)
 
-![tâche : image_autre_texte](render-interactive-scrollbar-in-gridweb_3.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_3.png)
 
-![tâche : image_autre_texte](render-interactive-scrollbar-in-gridweb_4.png)
-## **Exemple de code**
-{{< highlight "java" >}}
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_4.png)
+## **Code d'exemple**
+{{< highlight java >}}
 
  <%@ Page Language="C#" AutoEventWireup="true" CodeFile="TestGridWeb.aspx.cs" Inherits="TestGridWeb" %>
 

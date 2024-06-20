@@ -1,14 +1,15 @@
-﻿---
-title: Impostare il tipo di forma delle etichette dati del grafico
+---
+title: Imposta il tipo di forma dell etichetta dati del grafico
 type: docs
 weight: 70
 url: /it/java/set-the-shape-type-of-data-labels-of-chart/
 ---
-## **Possibili scenari di utilizzo**
 
-È possibile modificare il tipo di forma delle etichette dei dati del grafico utilizzando il[**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)proprietà. Prende il valore di[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)enumerazione e modifica di conseguenza il tipo di forma delle etichette dei dati. Alcuni dei suoi valori lo sono
+## **Possibili Scenari di Utilizzo**
 
-{{< highlight "java" >}}
+Puoi cambiare il tipo di forma delle etichette dati del grafico utilizzando la proprietà [**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType). Prende il valore di enumerazione [**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType) e modifica il tipo di forma delle etichette dati di conseguenza. Alcuni dei suoi valori sono
+
+{{< highlight java >}}
 
 DataLabelShapeType.BENT_LINE_CALLOUT
 
@@ -24,12 +25,12 @@ etc.
 
 {{< /highlight >}}
 
-## **Impostare il tipo di forma delle etichette dati del grafico**
+## **Imposta il tipo di forma delle etichette dati del grafico**
 
-Il codice di esempio seguente modifica il tipo di forma delle etichette dati del grafico in[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Si prega di consultare il[esempio di file Excel](60489794.xlsx)utilizzato in questo codice e il[file Excel di output](60489793.xlsx)generato da esso. Lo screenshot mostra l'effetto del codice sul file Excel di esempio.
+Il codice di esempio seguente cambia il tipo di forma delle etichette dati del grafico a [**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Si prega di consultare il [file di Excel di esempio](60489794.xlsx) utilizzato in questo codice e il [file di Excel di output](60489793.xlsx) generato da esso. La schermata mostra l'effetto del codice sul file di Excel di esempio.
 
-![cose da fare:immagine_alt_testo](set-the-shape-type-of-data-labels-of-chart_1.png)
+![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 
-## **Codice d'esempio**
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-SetShapeTypeOfDataLabelsOfChart.java" >}}

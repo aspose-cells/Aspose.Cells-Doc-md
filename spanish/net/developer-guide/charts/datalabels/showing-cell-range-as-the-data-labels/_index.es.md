@@ -1,25 +1,26 @@
 ---
-title: Mostrando el rango Cell como etiquetas de datos
-description: Aprenda a mostrar un rango de celdas como etiquetas de datos en gráficos usando Aspose.Cells for .NET. Nuestra guía le demostrará cómo vincular las etiquetas a su fuente de datos y formatearlas para proporcionar información precisa y significativa en sus gráficos.
-keywords: Aspose.Cells for .NET, charting, data labels, cell range, data source, formatting, accuracy, meaningful information.
+title: Mostrar rango de celdas como las etiquetas de datos
+description: Aprende a mostrar un rango de celdas como etiquetas de datos en gráficos utilizando Aspose.Cells for .NET. Nuestra guía demostrará cómo vincular las etiquetas a tu fuente de datos y darles formato para proporcionar información precisa y significativa en tus gráficos.
+keywords: Aspose.Cells for .NET, gráficos, etiquetas de datos, rango de celdas, fuente de datos, formato, precisión, información significativa.
 type: docs
 weight: 130
 url: /es/net/showing-cell-range-as-the-data-labels/
 ---
+
 {{% alert color="primary" %}}
 
-En Microsoft Excel 2013, puede mostrar un rango de celdas para etiquetas de datos. Aspose.Cells admite esta función.
+En Microsoft Excel 2013, puedes mostrar un rango de celdas para las etiquetas de datos. Aspose.Cells es compatible con esta función.
 
 {{% /alert %}}
 
-##  **Marque la casilla para mostrar el rango Cell como etiquetas de datos**
+## **Casilla de verificación para Mostrar rango de celdas como etiquetas de datos**
 
 Para mostrar el rango de celdas como etiquetas de datos en Microsoft Excel:
 
-1. Seleccione las etiquetas de datos de la serie y haga clic derecho para abrir el menú contextual.
-1. Seleccione *Formatear etiquetas de datos**. Se muestran las opciones de etiqueta.
-1. Seleccione o borre la opción *La etiqueta contiene: valor de Cells**.
+1. Selecciona las etiquetas de datos de la serie y haz clic derecho para abrir el menú contextual.
+1. Selecciona **Formato de etiquetas de datos**. Se muestran las opciones de etiquetas.
+1. Selecciona o deselecciona la opción **La etiqueta contiene - Valor de las celdas**.
 
- El siguiente código de muestra accede a las etiquetas de datos de una serie de gráficos y establece el[**Etiquetas de datos.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) propiedad a**verdadero** para seleccionar el**La etiqueta contiene: valor de Cells** opción.
+El código de ejemplo a continuación accede a las etiquetas de datos de una serie de gráficos y establece la propiedad [**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) como **true** para seleccionar la opción **La etiqueta contiene - Valor de las celdas**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ShowCellRangeAsDataLabels-ShowCellRangeAsDataLabels.cs" >}}

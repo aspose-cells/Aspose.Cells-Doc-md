@@ -1,77 +1,78 @@
-﻿---
-title: ワークブックへの新しいワークシートの追加とシートのアクティブ化
+---
+title: 新しいワークシートをワークブックに追加し、シートをアクティブ化する
 type: docs
 weight: 10
 url: /ja/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 ---
+
 {{% alert color="primary" %}} 
 
-テンプレート ファイルを使用する場合、データを収集するためにワークシートをワークブックに追加する必要がある場合があります。新しいセルには、各ワークシートの指定された位置と場所にデータが入力されます。
+テンプレートファイルで作業する際、データを収集するためにワークブックに追加のワークシートが必要になることがあります。新しいセルには、各ワークシートで特定の位置や場所にデータが記入されます。
 
-同様に、Microsoft Excel でファイルを開いたときに、特定のワークシートをアクティブにして最初に表示する必要がある場合があります。 "アクティブ シート" は、ワークブックで作業しているシートです。アクティブなシートのタブの名前は、デフォルトで太字になっています。
+同様に、Microsoft Excelでファイルを開いたとき、特定のワークシートがアクティブで最初に表示される必要がある場合があります。「アクティブシート」とは、ワークブックで作業中のシートのことです。アクティブシートのタブにはデフォルトで太字でその名前が表示されます。
 
-ワークシートの追加とアクティブなシートの設定は、開発者が実行方法を知る必要がある一般的で単純なタスクです。この記事では、以下を使用してこれらのタスクを実行します。[VSTO](/cells/ja/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/)と[Aspose.Cells for .NET](/cells/ja/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
+ワークシートの追加とアクティブ化は、開発者が実行する必要のある一般的で簡単なタスクです。この記事では、[VSTO](/cells/ja/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/)と[Aspose.Cells for .NET](/cells/ja/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/)を使用してこれらのタスクを実行します。
 
 {{% /alert %}} 
 ## **ワークシートの追加とシートのアクティブ化**
-この移行のヒントの目的:
+この移行のヒントの目的のために:
 
-1. 新しいワークシートを既存の Microsoft Excel ファイルに追加します。
-1. 新しい各ワークシートのセルにデータを入力します。
-1. ワークブックでシートをアクティブにします。
-1. Microsoft Excel ファイルとして保存します。
+1. 既存のMicrosoft Excelファイルに新しいワークシートを追加します。
+1. 各新しいワークシートのセルにデータを入力します。
+1. ブック内のシートをアクティブにします。
+1. Microsoft Excelファイルとして保存します。
 
-以下は、VSTO (C#、VB) と Aspose.Cells for .NET (C#、VB) の並列コード スニペットで、これらのタスクを実行する方法を示しています。
+以下に、これらのタスクを達成するVSTO（C#、VB）とAspose.Cells for .NET（C#、VB）の並行するコードスニペットが示されています。
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-Microsoft.VisualStudio.Tools.Applications.Runtime を使用して;
+using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
-Excel を使用 = Microsoft.Office.Interop.Excel;
+using Excel = Microsoft.Office.Interop.Excel;
 
-オフィスを使用 = Microsoft.Office.Core;
+using Office = Microsoft.Office.Core;
 
-System.Reflection を使用します。
+using System.Reflection;
 
 .......
 
-//Application オブジェクトをインスタンス化します。
+//Instantiate the Application object.
 
 Excel.Application excelApp = new Excel.ApplicationClass();
 
-// テンプレートの Excel ファイルのパスを指定します。
+//Specify the template excel file path.
 
 string myPath = @"d:\test\My_Book1.xls";
 
-//エクセルファイルを開く。
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value、
+Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value、
+Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value、
+Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value、
+Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value、
+Missing.Value, Missing.Value,
 
-Missing.Value、Missing.Value);
+Missing.Value, Missing.Value);
 
-//Worksheet オブジェクトを宣言します。
+//Declare a Worksheet object.
 
 Excel.Worksheet newWorksheet;
 
-// ワークブックに 5 つの新しいワークシートを追加し、いくつかのデータを入力します
+//Add 5 new worksheets to the workbook and fill some data
 
-//セルに。
+//into the cells.
 
-for (int i = 1; i< 6; i++)
+for (int i = 1; i < 6; i++)
 
 {
 
@@ -111,7 +112,7 @@ excelApp.Quit();
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -185,41 +186,41 @@ excelApp.Quit()
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-Aspose.Cells を使用。
+using Aspose.Cells;
 
 .......
 
-//ライセンスのインスタンスをインスタンス化し、ライセンス ファイルを設定します
+//Instantiate an instance of license and set the license file
 
-//そのパスを介して
+//through its path
 
-Aspose.Cells.License ライセンス = 新しい Aspose.Cells.License();
+Aspose.Cells.License license = new Aspose.Cells.License();
 
 license.SetLicense("Aspose.Cells.lic");
 
-// テンプレートの Excel ファイルのパスを指定します。
+//Specify the template excel file path.
 
 string myPath =@"d:\test\My_Book1.xls";
 
-// 新しい Workbook をインスタンス化します。
+//Instantiate a new Workbook.
 
-//エクセルファイルを開く。
+//Open the excel file.
 
-ワークブック ワークブック = 新しいワークブック(myPath);
+Workbook workbook = new Workbook(myPath);
 
-//Worksheet オブジェクトを宣言します。
+//Declare a Worksheet object.
 
-ワークシート newWorksheet;
+Worksheet newWorksheet;
 
-// ワークブックに 5 つの新しいワークシートを追加し、いくつかのデータを入力します
+//Add 5 new worksheets to the workbook and fill some data
 
-//セルに。
+//into the cells.
 
-for (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -255,7 +256,7 @@ workbook.Save(@"d:\test\out_My_Book1.xls");
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

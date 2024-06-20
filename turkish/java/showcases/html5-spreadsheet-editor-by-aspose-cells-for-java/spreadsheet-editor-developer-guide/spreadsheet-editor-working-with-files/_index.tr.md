@@ -1,29 +1,30 @@
-﻿---
-title: Hesap Tablosu Düzenleyicisi - Dosyalarla Çalışma
+---
+title: Tablo Düzenleyici  Dosyalarla Çalışma
 type: docs
 weight: 10
 url: /tr/java/spreadsheet-editor-working-with-files/
 ---
+
 **İçindekiler**
 
 - [Desteklenen Dosyalar](#SpreadsheetEditor-WorkingwithFiles-SupportedFiles)
 - [Yerel Dosyaları Aç](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
-- [Dropbox'tan aç](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
-- [URL'den aç](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
- - LoaderService.fromUrl
- - LoaderService.buildCellsCache
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
-- [Yeni Bir Elektronik Tablo Oluşturun](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
- - LoaderService.fromBlank
- - buildCellsCache
- - buildColumnWidthCache
- - buildRowHeightCache
-- [Çeşitli Biçimlerde Dışa Aktarma](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
+- [Dropbox'tan Aç](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
+- [URL'den Aç](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
+  - LoaderService.fromUrl
+  - LoaderService.buildCellsCache
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
+- [Yeni Çalışsayısı Oluştur](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
+  - LoaderService.fromBlank
+  - buildCellsCache
+  - buildColumnWidthCache
+  - buildRowHeightCache
+- [Çeşitli Biçimlere Dışa Aktar](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
 ### **Desteklenen Dosyalar**
-HTML5 Elektronik Tablo Düzenleyicisi, aşağıdaki biçimlerdeki dosyaları açabilir:
+HTML5 Tablo Düzenleyici aşağıdaki formatlarda dosyaları açabilir:
 
 - Excel 1997-2003 XLS
 - Excel 2007-2013 XLSX
@@ -31,44 +32,44 @@ HTML5 Elektronik Tablo Düzenleyicisi, aşağıdaki biçimlerdeki dosyaları aç
 - XLSB
 - XLTX
 - SpreadsheetML
-- özgeçmiş
-- Açık Belge
+- CVS
+- OpenDocument
 ### **Yerel Dosyaları Aç**
 Yerel bilgisayardan dosya yüklemek için:
 
-1.  Çevirmek**Dosya sekmesi** üstte
-1.  Tıklamak**Bilgisayardan aç** Gözat iletişim kutusunu açmak için
-1. İstediğiniz dosya konumuna gidin.
-1. Seçmek için istediğiniz dosyayı tıklayın.
-1.  Tıklamak**Açık**.
+1. Üst kısımda **Dosya sekmesine** geçin.
+1. Açma Dialogunu açmak için **Bilgisayardan Aç**'a tıklayın.
+1. Dosyanın istenilen konumuna gidin.
+1. Seçmek için istediğiniz dosyaya tıklayın.
+1. **Aç**'a tıklayın.
 
 Dosya düzenleyicide açılacaktır.
 
-![yapılacaklar:resim_alternatif_metin](bwyl3xi.png)
+![todo:image_alt_text](bwyl3xi.png)
 
 **Nasıl çalışır?**
 
 **Dosya yükleme**
 
- Kullanıcı, web tarayıcısından sunucuya yüklenen ve tarafından alınan yerel bilgisayardan bir dosya seçer.[PrimeFaces dosyasıYükle](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) bileşen.
+Kullanıcı, yerel bilgisayarından bir dosya seçer, bu dosya web tarayıcısı aracılığıyla sunucuya yüklenir ve [PrimeFaces fileUpload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) bileşeni tarafından alınır.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <p:fileUpload fileUploadListener="#\{workbook.onFileUpload\}" update=":ribbon :intro :sheet" />
 
 {{< /highlight >}}
 
-**Çalışma kitabını yönetme**
+**Çalışma kitabı yönetimi**
 
- Dosya tamamen yüklenir yüklenmez, durumu halletmek için WorkbookService.onFileUpload yöntemi devreye girer. WorkbookService, web tarayıcısından olayları alır ve tüm çalışma kitabının durumunu takip eder. WorkbookService.onFileUpload, çalışma kitabını belleğe yüklemek için denetimi LoaderService'e aktarır. olarak***dosya yükleme*** bileşeni, yüklenen dosyayı bir[Giriş Akışı](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html), LoaderService bunu LoaderService.fromInputStream yöntemini kullanarak yükler.
-
-
+Dosya tamamen yüklendiğinde, WorkbookService.onFileUpload yöntemi durumu ele almak için devreye girer. WorkbookService, web tarayıcısından olaylar alır ve tüm çalışma kitabının durumunu takip eder. WorkbookService.onFileUpload kontrolü LoaderService'e ileterek çalışma kitabını belleğe yüklemek için LoaderService'e kontolü ileter. ***fileUpload*** bileşeni yüklendiği dosyayı bir [InputStream](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html) olarak sağladığından, LoaderService.fromInputStream yöntemi kullanarak yükler.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
  public void onFileUpload(FileUploadEvent e) {
 
@@ -86,7 +87,7 @@ Dosya düzenleyicide açılacaktır.
 
 **Yükleme ve boşaltma**
 
- yöntem***LoaderService.fromInputStream*** okur***Giriş Akışı*** fileUpload tarafından sağlanan***bileşen*** örneğini oluştur***com.aspose.cells.Workbook***sınıf. Bu örnek, kullanıcı e-tabloyu web tarayıcısında görüntülemeye veya düzenlemeye devam ettiği sürece bellekte tutulur. Kullanıcı editörden ayrıldığında veya tarayıcıyı kapattığında, sunucuyu temiz tutmak için kullanılmayan örnekler otomatik olarak bellekten kaldırılır.
+LoaderService.fromInputStream yöntemi, dosyaYükleme bileşeni tarafından sağlanan ***InputStream***i okur ve ***com.aspose.cells.Workbook*** sınıfından bir örnek oluşturur. Bu örnek, kullanıcı çalışsayı veya web tarayıcısında tekrar tekrar görüntülerken bellekte tutulur. Kullanıcı düzenleyiciyi terk ettiğinde veya tarayıcıyı kapattığında kullanılmayan örnekler, sunucuyu temiz tutmak için otomatik olarak bellekten boşaltılır.
 
 
 
@@ -94,7 +95,7 @@ Dosya düzenleyicide açılacaktır.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public String fromInputStream(InputStream s, String name) {
 
@@ -132,17 +133,17 @@ Dosya düzenleyicide açılacaktır.
 
 
 
-**Önbelleğe almak**
+**Ön belleğe alma**
 
-Önbelleğe alma, HTML5 Elektronik Tablo Düzenleyicisi için çok önemlidir. Her şeyin sorunsuz çalışmasını sağlar. CellsService, düzenleyici tarafından yüklenen tüm çalışma kitaplarının önbellek satırlarını, sütunlarını, hücrelerini ve özelliklerini tutar. LoaderService bir elektronik tabloyu tamamen yüklediğinde, onu yukarıdan aşağıya okur ve LoaderService.buildCellsCache, LoaderService.buildColumnWidthCache, LoaderService.buildRowHeightCache'yi çağırarak önbelleği doldurur.
-
-
+Önbellekleme, HTML5 Çalışsayı Düzenleyici için çok önemlidir. Her şeyin düzgün çalışmasını sağlar. CellsService, düzenleyici tarafından yüklenen tüm çalışsayıların satırlarını, sütunlarını, hücrelerini ve özelliklerini önbellekte tutar. LoaderService bir çalışma kitabını tamamen yüklediğinde, önbelleği yukarıdan aşağıya okur ve LoaderService.buildCellsCache, LoaderService.buildColumnWidthCache, LoaderService.buildRowHeightCache'ı çağırarak önbelleği doldurur.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -210,7 +211,7 @@ Dosya düzenleyicide açılacaktır.
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -236,7 +237,7 @@ Dosya düzenleyicide açılacaktır.
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -263,46 +264,46 @@ Dosya düzenleyicide açılacaktır.
 
 
 
-### **Dropbox'tan aç**
+### **Dropbox'tan Aç**
 Dropbox'tan dosya açmak için:
 
-1.  Çevirmek**Dosya sekmesi** üstte
-1.  Tıklamak**Dropbox'tan aç** Dropbox dosya seçiciyi açmak için.
-1. Henüz oturum açmadıysanız, Dropbox hesabınızda oturum açmanız gerekir.
-1. İstediğiniz dosyaya gidin ve seçmek için tıklayın.
-1.  Tıklamak**Seçmek** altta.
+1. Üst kısımda **Dosya sekmesine** geçin.
+1. Dropbox'tan Aç'ı tıklayarak Dropbox dosya seçicisini açın.
+1. Zaten oturum açmadıysanız, Dropbox hesabınıza oturum açmanızı gerektirecektir.
+1. İstenilen dosyaya gidin ve seçmek için tıklayın.
+1. Altta **Seç**'i tıklayın.
 
-Seçtiğiniz dosya Dropbox'tan açılacaktır.
+Seçtiğiniz dosya Dropbox'tan açılacak.
 
-![yapılacaklar:resim_alternatif_metin](1e2sfo0.png)
+![todo:image_alt_text](1e2sfo0.png)
 
 **Nasıl çalışır?**
 
- bu**Dropbox'tan aç** düğme kullanır**Dropbox JavaScript Seçici API** Dropbox Seçici iletişim kutusunu açmak için. Seçici, geri arama işlevi tarafından yakalanan ve sunucuya geri gönderilen seçili dosyanın URL'sini sağlar. Sunucu, URL'den bir elektronik tablo örneği oluşturur, bazı temizlik işlerini başlatır ve DOM güncellemelerini tarayıcıya geri gönderir. Tarayıcı HTML'i oluşturur ve yeniler ve kullanıcı yüklenen belgeyi düzenlemeye hazırdır.
-### **URL'den aç**
- Dosyalar doğrudan URL'lerden açılabilir. Bu, kullanıcının İnternet üzerindeki herkese açık herhangi bir dosyayı düzenlemesine izin verir. Dosya ekini açmak için**?url=konum** İstediğiniz değere sahip parametre**yer** editör yüklenirken. Örneğin:
+**Dropbox'tan Aç** düğmesi, **Dropbox JavaScript Chooser API**'yi açmak için kullanır. Seçici, kullanıcının tarafından seçilen dosyanın URL'sini sağlar, bu URL,callback işlevi tarafından yakalanır ve sunucuya geri gönderilir. Sunucu, URL'den çalışsayısı örneği oluşturur, bazı ev bakım işlerini başlatır ve DOM güncellemelerini tarayıcıya geri gönderir. Tarayıcı, HTML'yi yeniden çizer ve kullanıcı düzenlenmiş belgeyi düzenlemeye hazır olur.
+### **URL'den Aç**
+Dosyalar doğrudan URL'lerden açılabilir. Bu, kullanıcının İnternet'te herkese açık bir dosyayı düzenlemesine olanak tanır. Dosyayı açarken düzenleyiciyi yüklerken, **?url=location** parametresini istediğiniz **location** değeri ile birlikte ekleyin. Örneğin:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  http://editor.aspose.com/?url=http://example.com/Sample.xlsx
 
 {{< /highlight >}}
 
-![yapılacaklar:resim_alternatif_metin](exc9ckp.png)
+![todo:image_alt_text](exc9ckp.png)
 
 **Nasıl çalışır?**
 
-**Başlatma sırasında örneklendir**
+**Başlatma sırasında örnekleme**
 
- Ne zaman**Çalışma Sayfası Görünümü** arka uç fasulyesi, JSF tarafından başlatılır**Yapı Sonrası** yöntem**içinde** LoaderService.fromUrl kullanarak elektronik tabloyu yükleyen çağrılır.
+**WorksheetView** arka uç nesnesi JSF tarafından başlatıldığında **PostConstruct** yöntemi olan **init** çağrılır ve LoaderService.fromUrl kullanılarak çalışma kitabı yüklenir.
 
-**Önbelleğe almak**
+**Ön belleğe alma**
 
- Önbelleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. bu**Yükleyici Hizmeti** aramalar**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve**LoaderService.buildRowHeightCache** elektronik tablonun içeriğini önbelleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için tek tek.
+Ön belleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. **LoaderService**, elektronik tablonun içeriğini ön belleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için sırayla **LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve **LoaderService.buildRowHeightCache** 'i çağırır.
 
 **DOM güncellemeleri**
 
-Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve web tarayıcısı tarafından işlenen DOM güncellemelerini kullanıcıya göndermek için JSF bileşenleri kullanılır.
+Elektronik tablo sunucu tarafında hazır olduğunda, JSF bileşenleri yeni HTML oluşturmak ve DOM güncellemelerini web tarayıcısı tarafından işlenen kullanıcıya göndermek için kullanılır.
 
 
 
@@ -310,7 +311,7 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      @PostConstruct
 
@@ -342,7 +343,7 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 #### **LoaderService.fromUrl**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromUrl(String url) {
 
@@ -378,7 +379,7 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 #### **LoaderService.buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -446,7 +447,7 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -472,7 +473,7 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -499,29 +500,29 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 
-### **Yeni Bir Elektronik Tablo Oluşturun**
-Yeni bir boş e-tablo oluşturmak için:
+### **Yeni Çalışsayısı Oluştur**
+Yeni boş bir çalışsayısı oluşturmak için:
 
-1.  Çevirmek**Dosya sekmesi**.
-1.  Tıkla**Yeni** buton.
+1. **Dosya sekmesine** geçin.
+1. **Yeni** düğmesine tıklayın.
 
-Düzenleyici, varsa açılan elektronik tabloyu kapatır ve yeni bir hesap tablosu açar.
+Editör, varsa açık olan elektronik tabloyu kapatır ve yeni bir tane açar.
 
-![yapılacaklar:resim_alternatif_metin](lnydmmf.png)
+![todo:image_alt_text](lnydmmf.png)
 
 **Nasıl çalışır?**
 
-**Yeni bir nesne örneği oluşturun**
+**Yeni bir nesne oluşturun.**
 
- Ne zaman**Yeni** butonu kullanıcı tarafından tıklandığında,**WorksheetView.loadBlank** , sonunda çağıran**LoaderService.fromBlank**. LoaderService, yeni bir boş elektronik tablo örneği oluşturur.
+Kullanıcı **Yeni** düğmesine tıkladığında, sonunda **LoaderService.fromBlank** 'ı çağıran **WorksheetView.loadBlank** çağrılır. LoaderService, boş bir elektronik tablonun yeni bir örneğini oluşturur.
 
-**Önbelleğe almak**
+**Ön belleğe alma**
 
- Önbelleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. bu**Yükleyici Hizmeti** aramalar**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve**LoaderService.buildRowHeightCache** elektronik tablonun içeriğini önbelleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için tek tek.
+Ön belleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. **LoaderService**, elektronik tablonun içeriğini ön belleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için sırayla **LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve **LoaderService.buildRowHeightCache** 'i çağırır.
 
 **DOM güncellemeleri**
 
-Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve web tarayıcısı tarafından işlenen DOM güncellemelerini kullanıcıya göndermek için JSF bileşenleri kullanılır.
+Elektronik tablo sunucu tarafında hazır olduğunda, JSF bileşenleri yeni HTML oluşturmak ve DOM güncellemelerini web tarayıcısı tarafından işlenen kullanıcıya göndermek için kullanılır.
 
 
 
@@ -529,7 +530,7 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void loadBlank() {
 
@@ -543,7 +544,7 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 #### **LoaderService.fromBlank**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromBlank() {
 
@@ -569,7 +570,7 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 #### **buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -637,7 +638,7 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 #### **buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -663,7 +664,7 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 #### **buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -690,14 +691,14 @@ Elektronik tablo sunucu tarafında hazır olduğunda, yeni HTML oluşturmak ve w
 
 
 
-### **Çeşitli Biçimlerde Dışa Aktarma**
-Dosyaları düzenledikten sonra, kullanıcı değişiklikleri kaydetmek isteyecektir. Düzenleyici, kullanıcının değiştirilen elektronik tabloyu yerel bilgisayara aktarmasına ve indirmesine izin verir. Dosyayı dışa aktarmak için:
+### **Çeşitli Biçimlere Dışa Aktar**
+Dosyaları düzenledikten sonra, kullanıcı değişiklikleri kaydetmek isteyecektir. Editör, kullanıcının değiştirilmiş elektronik tabloyu yerel bilgisayarına dışa aktarmasına izin verir. Dosyayı dışa aktarmak için:
 
-1.  Çevirmek**Dosya sekmesi** üstte
-1.  Tıklamak**İhracat** düğme olarak.
-1. Açılır listeden istediğiniz formatı seçin.
+1. Üst kısımda **Dosya sekmesine** geçin.
+1. **Dışa Aktar** olarak düğmesine tıklayın.
+1. Açılır listeden istediğiniz biçimi seçin.
 
-Değiştirilen dosya indirilmek üzere dışa aktarılacaktır. Aşağıdaki biçimler dışa aktarma için desteklenir:
+Değiştirilmiş dosya indirilmek üzere dışa aktarılacaktır. Aşağıdaki biçimler dışa aktarma için desteklenir:
 
 - Excel 2007-2013 XLSX
 - Excel 1997-2003 XLS
@@ -706,12 +707,12 @@ Değiştirilen dosya indirilmek üzere dışa aktarılacaktır. Aşağıdaki bi�
 - Excel XLTX
 - Excel XLTM
 - SpreadsheetML
-- Taşınabilir Belge Formatı (PDF)
-- OpenDocument Elektronik Tablosu (ODS)
+- Taşınabilir Belge Biçimi (PDF)
+- OpenDocument Elektronik Tablo Biçimi (ODS)
 
 **Nasıl çalışır?**
 
- Açılan elektronik tablo, kullanılarak kullanıcı tarafından belirlenen biçime dönüştürülür.**WorksheetView.getOutputFile**.
+Açık olan elektronik tablo, **WorksheetView.getOutputFile** kullanılarak belirtilen formata dönüştürülür.
 
 
 
@@ -719,7 +720,7 @@ Değiştirilen dosya indirilmek üzere dışa aktarılacaktır. Aşağıdaki bi�
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public StreamedContent getOutputFile(int saveFormat) {
 

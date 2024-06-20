@@ -1,11 +1,12 @@
-﻿---
-title: Mostrar cadena en la hoja de trabajo Cell
+---
+title: Mostrar cadena en la celda de la hoja de cálculo
 type: docs
 weight: 110
 url: /es/net/display-string-in-worksheet-cell/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -17,7 +18,7 @@ url: /es/net/display-string-in-worksheet-cell/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

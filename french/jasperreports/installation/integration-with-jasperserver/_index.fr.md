@@ -1,26 +1,27 @@
-﻿---
+---
 title: Intégration avec JasperServer
 type: docs
 weight: 30
 url: /fr/jasperreports/integration-with-jasperserver/
 ---
+
 {{% alert color="primary" %}} 
 
-Pour intégrer Aspose.Cells for JasperReports à JasperServer, suivez les étapes ci-dessous.
+Pour intégrer Aspose.Cells for JasperReports avec JasperServer, effectuez les étapes ci-dessous.
 
 {{% /alert %}} 
 
 {{% alert color="primary" %}} 
 
- Dans toutes les étapes suivantes<InstallDir> représente le répertoire d'installation de JasperServer.
+In all of the following steps <InstallDir> stands for the JasperServer installation directory. 
 
 {{% /alert %}} 
 
-1. Ajoutez les nouvelles propriétés d'exportateur suivantes au**<RépInstall>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** dossier.
+1. Add the following new exporter properties to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <bean id="reportACXlsExporter" class="com.aspose.cells.jasperreports.ACReportXlsExporter" parent="baseReportExporter">
 
@@ -48,11 +49,11 @@ Pour intégrer Aspose.Cells for JasperReports à JasperServer, suivez les étape
 
 {{< /highlight >}}
 
-1.  Localisez le<util:map id=”exporterConfigMap> élément dans le**<RépInstall>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** fichier et ajoutez les lignes suivantes :
+1. Locate the <util:map id=”exporterConfigMap> element in the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file and add the following lines: 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <util:map id="exporterConfigMap">
 
@@ -81,14 +82,14 @@ Pour intégrer Aspose.Cells for JasperReports à JasperServer, suivez les étape
 
 
 
-1.  Copiez toutes les images GIF du**\lib** dossier dans le**aspose.cells.jasperreports.zip** au*<RépInstall>\apache-tomcat\webapps\jasperserver\images* dossier.
-1.  Copiez le**aspose.cells.jasperreports.jar** dossier de la**\lib** dossier dans le**aspose.cells.jasperreports.zip** au**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** dossier.
-1.  Ajoutez les lignes suivantes au**<RépInstall>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** dossier.
- (Ce bean peut contenir divers paramètres de configuration destinés à configurer l'exportation. Par exemple, vous pouvez utiliser la fonctionnalité de mappage de polices JasperReports ou spécifier l'emplacement du fichier de licence Aspose.Cells for JasperReports.)
+1. Copy all GIF images from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the *<InstallDir>\apache-tomcat\webapps\jasperserver\images* folder.
+1. Copy the **aspose.cells.jasperreports.jar** file from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** folder.
+1. Add the following lines to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file.
+   (Ce bean peut contenir divers paramètres de configuration destinés à configurer l'exportation. Par exemple, vous pouvez utiliser la fonction de mappage de police JasperReports ou spécifier l'emplacement du fichier de licence Aspose.Cells for JasperReports.) 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <bean id="excelACExportParameters" class="com.aspose.cells.jasperreports.ACXlsExportParametersBean"> <!-- Uncomment to apply a license. Check the license path.
 
@@ -105,11 +106,11 @@ Pour intégrer Aspose.Cells for JasperReports à JasperServer, suivez les étape
 
 
 
-1. Exécutez JasperServer et ouvrez n'importe quel rapport à afficher. Si les étapes précédentes ont été effectuées correctement, des icônes de format supplémentaires sont disponibles.
+1. Exécutez JasperServer et ouvrez n'importe quel rapport pour le visualiser. Si les étapes précédentes ont été effectuées correctement, des icônes de format supplémentaires sont disponibles. 
 
 **Nouveaux formats d'exportation disponibles (à droite) après l'installation de Aspose.Cells for JasperReports sur JasperServer** 
 
-![tâche : image_autre_texte](integration-with-jasperserver_1.png)
+![todo:image_alt_text](integration-with-jasperserver_1.png)
 
 
 

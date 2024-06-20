@@ -1,22 +1,23 @@
-﻿---
-title: Aspose.Cells .NET für CRM
+---
+title: Aspose.Cells .NET for CRM
 type: docs
 weight: 90
 url: /de/net/aspose-cells-net-for-crm/
 ---
+
 # **Was ist Microsoft Dynamics CRM?**
-Microsoft Dynamics CRM ist ein Softwarepaket für das Kundenbeziehungsmanagement, das von Microsoft entwickelt wurde. Das Produkt konzentriert sich standardmäßig hauptsächlich auf die Bereiche Vertrieb, Marketing und Service (Helpdesk), aber Microsoft hat Dynamics CRM als XRM-Plattform vermarktet und wurde es auch Ermutigung von Partnern, sein proprietäres (.NET-basiertes) Framework zu verwenden, um es anzupassen. Es ist Teil der Microsoft Dynamics-Familie von Geschäftsanwendungen.
+Microsoft Dynamics CRM ist eine Software für Kundenbeziehungsmanagement, die von Microsoft entwickelt wurde. Das Produkt konzentriert sich hauptsächlich auf die Bereiche Vertrieb, Marketing und Service (Helpdesk), aber Microsoft vermarktet Dynamics CRM auch als XRM-Plattform und ermutigt Partner, ihr proprietäres (.NET-basiertes) Framework zur Anpassung zu verwenden. Es ist Teil der Microsoft Dynamics-Familie von Unternehmensanwendungen.
 
-Dynamics CRM ist eine Server-Client-Anwendung, die wie Microsoft SharePoint primär eine IIS-basierte Webanwendung ist, die auch umfangreiche Webservice-Schnittstellen unterstützt. Clients greifen auf Dynamics CRM entweder über einen Browser oder über ein Thick-Client-Plug-in für Microsoft Outlook zu.
-# **Aspose.Cells für .Net**
-Aspose.Cells for .NET bietet die flexibelste Gruppe von Komponenten, die es der .NET-Anwendung ermöglichen, Excel-Tabellen zu erstellen und zu verwalten, ohne dass Microsoft Excel auf dem Server installiert werden muss. Aspose.Cells ist eine der führenden Komponenten für alle Arten der Bearbeitung von Excel-Formaten.
+Dynamics CRM ist eine Server-Client-Anwendung, die wie Microsoft SharePoint hauptsächlich eine auf IIS basierende Webanwendung ist, die auch umfangreiche Webdienstschnittstellen unterstützt. Kunden greifen auf Dynamics CRM entweder über einen Browser oder über ein Plug-in für Microsoft Outlook zu.
+# **Aspose.Cells for .Net**
+Aspose.Cells for .NET bietet die flexibelste Gruppe von Komponenten, die es einer .NET-Anwendung ermöglichen, Excel-Tabellen zu erstellen und zu verwalten, ohne dass Microsoft Excel auf dem Server installiert sein muss. Aspose.Cells ist eine der führenden Komponenten für die Manipulation aller Arten von Excel-Formaten.
 
-Aspose.Cells unterstützt nicht nur die Erstellung von Tabellenkalkulationen und andere grundlegende Dateiformatierungsfunktionen, sondern unterstützt auch eine Reihe von erweiterten Funktionen. Diese erweiterten Funktionen machen es den Entwicklern viel bequemer, den Inhalt von Tabellenkalkulationen, die Zellenformatierung und den Dateischutz zu manipulieren. Aspose.Cells ermöglicht auch den Import von Daten in Tabellenkalkulationen aus verschiedenen Datenquellen, das Hinzufügen allgemeiner und komplexer mathematischer, DateTime-, Finanz-, Textformeln / -funktionen, unterstützt die Manipulation von Diagrammen, Bildern, Kommentaren, Zeichenobjekten und Steuerelementen usw.
-# **Aspose.Cells für CRM**
-Aspose .NET kann auf vielfältige Weise mit Dynamics CRM verwendet werden. Wenn Sie mit Spreadsheets arbeiten, sei es bei der Tabellengenerierung oder -verarbeitung, müssen Sie sich die Aspose-APIs ansehen, die mit minimalen Codezeilen schnelle Ergebnisse liefern können. Sehen Sie sich unten unsere Add-On-Beispiele an. Diese Add-Ons helfen Ihnen bei der Verwendung von Aspose in Ihrer Anwendung.
+Aspose.Cells unterstützt nicht nur die Generierung von Tabellenkalkulationen und andere grundlegende Formatierungsfunktionen, sondern auch eine Reihe fortschrittlicher Funktionen. Diese fortgeschrittenen Funktionen erleichtern es den Entwicklern, den Inhalt von Tabellenkalkulationen, Zellformatierungen und den Schutz von Dateien zu manipulieren. Aspose.Cells ermöglicht außerdem das Importieren von Daten aus verschiedenen Datenquellen in Tabellenkalkulationen, das Hinzufügen von gängigen und komplexen mathematischen, Datums-/Zeit-, Finanz- und Textformeln/Funktionen, unterstützt die Manipulation von Diagrammen, Bildern, Kommentaren, Zeichenobjekten und Steuerelementen usw.
+# **Aspose.Cells for CRM**
+Aspose .NET kann auf verschiedene Arten mit Dynamics CRM verwendet werden. Wenn Sie mit Tabellenkalkulationen arbeiten, sei es die Generierung oder Verarbeitung von Tabellenkalkulationen, müssen Sie die Aspose-APIs verwenden, die mit minimalem Codeaufwand schnell Ergebnisse liefern können. Überprüfen Sie unten unsere Add-On-Beispiele, diese Add-Ons werden Ihnen bei der Verwendung von Aspose in Ihrer Anwendung helfen.
 
-Dieser Abschnitt enthält die folgenden Themen
+Dieser Abschnitt umfasst die folgenden Themen
 
-- [Importtool für Dynamics CRM aktualisieren](/cells/de/net/update-import-tool-for-dynamics-crm/)
-  - [Erweitern Sie das Tool zum Importieren von CRM-Updates und tragen Sie dazu bei](/cells/de/net/extend-and-contribute-to-crm-update-import-tool/)
-  - [Verwenden und Konfigurieren des Tools zum Importieren von CRM-Updates](/cells/de/net/using-and-configuring-crm-update-import-tool/)
+- [Update-Import-Tool für Dynamics CRM](/cells/de/net/update-import-tool-for-dynamics-crm/)
+  - [Erweitern und Beitrag zum CRM-Update-Import-Tool](/cells/de/net/extend-and-contribute-to-crm-update-import-tool/)
+  - [Verwendung und Konfiguration des CRM-Update-Import-Tools](/cells/de/net/using-and-configuring-crm-update-import-tool/)

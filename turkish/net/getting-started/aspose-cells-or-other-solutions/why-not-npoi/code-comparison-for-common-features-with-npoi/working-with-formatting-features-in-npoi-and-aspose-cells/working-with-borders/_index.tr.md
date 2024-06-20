@@ -1,13 +1,14 @@
-﻿---
+---
 title: Sınırlarla Çalışmak
 type: docs
 weight: 10
 url: /tr/net/working-with-borders/
 ---
+
 ## **Aspose.Cells - Sınırlarla Çalışmak**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -38,7 +39,7 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 ## **NPOI - HSSF XSSF - Sınırlarla Çalışmak**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -80,12 +81,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Sınırlarla Çalışmak** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden **Sınırlarla Çalışmak** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Borders.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Veri Biçimlendirme Özellikleri](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Daha fazla bilgi için [Veri Biçimlendirme Özellikleri](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting)ne bakın.
 
 {{% /alert %}}

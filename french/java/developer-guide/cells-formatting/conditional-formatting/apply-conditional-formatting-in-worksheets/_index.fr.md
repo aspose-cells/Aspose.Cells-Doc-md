@@ -1,92 +1,93 @@
-﻿---
-title: Appliquer la mise en forme conditionnelle dans les feuilles de calcul
+---
+title: Appliquer le formatage conditionnel dans les feuilles de calcul
 type: docs
 weight: 40
 url: /fr/java/apply-conditional-formatting-in-worksheets/
 ---
+
 {{% alert color="primary" %}}
 
-Cet article est conçu pour fournir une compréhension détaillée de la façon d'ajouter une mise en forme conditionnelle à une plage de cellules dans une feuille de calcul.
+Cet article est conçu pour fournir une compréhension détaillée de comment ajouter un formatage conditionnel à une plage de cellules dans une feuille de calcul.
 
-La mise en forme conditionnelle est une fonctionnalité avancée d'Excel Microsoft qui vous permet d'appliquer des formats à une plage de cellules et de modifier cette mise en forme en fonction de la valeur de la cellule ou de la valeur d'une formule. Par exemple, l'arrière-plan d'une cellule peut être rouge pour mettre en évidence une valeur négative, ou la couleur du texte peut être verte pour une valeur positive. Lorsque la valeur de la cellule répond à la condition de format, le format est appliqué. Si la valeur de la cellule ne répond pas à la condition de format, la mise en forme par défaut de la cellule est utilisée.
+Le formatage conditionnel est une fonctionnalité avancée de Microsoft Excel qui vous permet d'appliquer des formats à une plage de cellules et d'avoir ce formatage modifié en fonction de la valeur de la cellule ou de la valeur d'une formule. Par exemple, l'arrière-plan d'une cellule peut être rouge pour mettre en évidence une valeur négative, ou la couleur du texte pourrait être verte pour une valeur positive. Lorsque la valeur de la cellule répond à la condition de formatage, le format est appliqué. Si la valeur de la cellule ne répond pas à la condition de formatage, le formatage par défaut de la cellule est utilisé.
 
-Il est possible d'appliquer une mise en forme conditionnelle avec Microsoft Office Automation mais cela a ses inconvénients. Il y a plusieurs raisons et problèmes impliqués : par exemple, la sécurité, la stabilité, l'évolutivité et la vitesse. La raison principale pour trouver une autre solution est que Microsoft eux-mêmes déconseillent fortement la bureautique pour les solutions logicielles.
+Il est possible d'appliquer un formatage conditionnel avec l'automatisation Microsoft Office, mais cela présente des inconvénients. Il y a plusieurs raisons et problèmes impliqués : par exemple, la sécurité, la stabilité, la scalabilité et la vitesse. La principale raison de trouver une autre solution est que Microsoft recommande fortement de ne pas utiliser l'automatisation Office pour les solutions logicielles.
 
-Cet article montre comment créer une application console, ajouter une mise en forme conditionnelle sur les cellules avec quelques lignes de code les plus simples en utilisant le Aspose.Cells API.
+Cet article montre comment créer une application console, ajouter un formatage conditionnel sur des cellules avec quelques lignes de code les plus simples à l'aide de l'API Aspose.Cells.
 
 {{% /alert %}}
 
-## **Travailler avec la mise en forme conditionnelle**
+## **Travailler avec le formatage conditionnel**
 
-Cet article exécute les tâches suivantes :
+Cet article aborde les tâches suivantes :
 
-1. [Utilisation de Aspose.Cells pour appliquer une mise en forme conditionnelle basée sur la valeur de la cellule](/cells/fr/java/apply-conditional-formatting-in-worksheets/#task-1-using-asposecells-to-apply-conditional-formatting-based-on-cell-value).
-1. [Utilisation de Aspose.Cells pour appliquer une mise en forme conditionnelle basée sur une formule](/cells/fr/java/apply-conditional-formatting-in-worksheets/#task-2-using-asposecells-to-apply-conditional-formatting-based-on-a-formula).
+1. [Utilisation d'Aspose.Cells pour appliquer un formatage conditionnel en fonction de la valeur de la cellule](/cells/fr/java/apply-conditional-formatting-in-worksheets/#task-1-using-asposecells-to-apply-conditional-formatting-based-on-cell-value).
+1. [Utilisation d'Aspose.Cells pour appliquer un formatage conditionnel en fonction d'une formule](/cells/fr/java/apply-conditional-formatting-in-worksheets/#task-2-using-asposecells-to-apply-conditional-formatting-based-on-a-formula).
 
-### **Tâche 1 : Utiliser Aspose.Cells pour appliquer une mise en forme conditionnelle basée sur la valeur Cell**
+### **Tâche 1 : Utilisation d'Aspose.Cells pour appliquer un formatage conditionnel en fonction de la valeur de la cellule**
 
-1. **Téléchargez et installez Aspose.Cells.zip**:
-   1. [Télécharger](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
- 1. Décompressez-le sur votre ordinateur de développement.
- Tous les composants Aspose, une fois installés, fonctionnent en mode d'évaluation. Le mode d'évaluation n'a pas de limite de temps et injecte uniquement des filigranes dans les documents produits.
+1. **Téléchargez et installez Aspose.Cells.zip** :
+   1. [Téléchargez](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
+   1. Décompressez-le sur votre ordinateur de développement.
+      Tous les composants Aspose, lorsqu'ils sont installés, fonctionnent en mode d'évaluation. Le mode d'évaluation n'a pas de limite de temps et ne produit que des documents avec des filigranes.
 1. **Créer un projet**.
- Créez un projet à l'aide d'un éditeur Java tel qu'Eclipse ou créez un programme simple à l'aide d'un éditeur de texte.
-1. **Ajouter un chemin de classe**.
- Pour définir un chemin de classe à l'aide d'Eclipse, veuillez suivre les étapes suivantes :
-1. Extrayez les fichiers Aspose.Cells.jar et dom4j_1.6.1.jar de Aspose.Cells.zip.
- 1. Définissez le chemin de classe du projet dans Eclipse :
- 1. Sélectionnez votre projet dans Eclipse puis sélectionnez**Propriétés** du**Projet** menu.
- 1. Sélectionnez "Java Build Path" à gauche de la boîte de dialogue.
- 1. Sur le**Bibliothèques** onglet, sélectionnez**Ajouter des JAR** ou alors**Ajouter des fichiers JAR externes** pour sélectionner Aspose.Cells.jar et dom4j_1.6.1.jar et les ajouter dans les chemins de génération.
- 1. Écrivez une application pour invoquer les API des composants de Aspose.
- Ou vous pouvez définir le chemin lors de l'exécution sur une invite DOS dans Windows.
+   Soit créez un projet à l'aide d'un éditeur Java tel qu'Eclipse, soit créez un programme simple à l'aide d'un éditeur de texte.
+1. **Ajouter le chemin de classe**.
+   Pour définir un chemin de classe en utilisant Eclipse, veuillez suivre les étapes suivantes :
+   1. Extrayez le fichier Aspose.Cells.jar et dom4j_1.6.1.jar du fichier Aspose.Cells.zip.
+   1. Définissez le chemin de classe du projet dans Eclipse :
+      1. Sélectionnez votre projet dans Eclipse, puis sélectionnez ** Propriétés ** dans le menu ** Projet **.
+      1. Sélectionnez "Chemin de construction Java" à gauche de la boîte de dialogue.
+      1. Sur l'onglet ** Bibliothèques **, sélectionnez ** Ajouter des JAR ** ou ** Ajouter des JAR externes ** pour sélectionner Aspose.Cells.jar et dom4j_1.6.1.jar et les ajouter aux chemins de construction.
+   1. Écrivez une application pour appeler les API des composants d'Aspose.
+      Ou vous pouvez définir le chemin à l'exécution sur une invite DOS dans Windows.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
   javac -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName  
 
 {{< /highlight >}}
 
-1. **Appliquer une mise en forme conditionnelle en fonction de la valeur de la cellule**.
- Vous trouverez ci-dessous le code utilisé par le composant pour accomplir la tâche. Il applique une mise en forme conditionnelle sur une cellule.
+1. ** Appliquer une mise en forme conditionnelle en fonction de la valeur de la cellule **.
+   Ci-dessous se trouve le code utilisé par le composant pour accomplir la tâche. Il applique une mise en forme conditionnelle sur une cellule.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingOnCellValue-ApplyConditionalFormattingOnCellValue.java" >}}
 
-Lorsque le code ci-dessus est exécuté, la mise en forme conditionnelle est appliquée à la cellule "A1" dans la première feuille de calcul du fichier de sortie (output.xls). La mise en forme conditionnelle appliquée à A1 dépend de la valeur de la cellule. Si la valeur de cellule de A1 est comprise entre 50 et 100, la couleur d'arrière-plan est rouge en raison de la mise en forme conditionnelle appliquée. Veuillez consulter les captures d'écran suivantes du fichier XLS généré.
+Lorsque le code ci-dessus est exécuté, une mise en forme conditionnelle est appliquée à la cellule "A1" dans la première feuille de calcul du fichier de sortie (output.xls). La mise en forme conditionnelle appliquée à A1 dépend de la valeur de la cellule. Si la valeur de la cellule A1 est comprise entre 50 et 100, la couleur de fond est rouge en raison de la mise en forme conditionnelle appliquée. Veuillez consulter les captures d'écran suivantes du fichier XLS généré.
 
-**Fichier Excel de sortie avec une valeur A1 inférieure à 50**
+** Fichier Excel de sortie avec une valeur A1 inférieure à 50 **
 
-![tâche : image_autre_texte](apply-conditional-formatting-in-worksheets_1.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_1.png)
 
-**Fichier Excel de sortie avec A1 entre 50 et 100**
+** Fichier Excel de sortie avec une valeur A1 entre 50 et 100 **
 
-![tâche : image_autre_texte](apply-conditional-formatting-in-worksheets_2.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_2.png)
 
-### **Tâche 2 : Utiliser Aspose.Cells pour appliquer une mise en forme conditionnelle basée sur une formule**
+### **Tâche 2: Utiliser Aspose.Cells pour appliquer une mise en forme conditionnelle en fonction d'une formule**
 
-1. **Appliquer une mise en forme conditionnelle en fonction de la formule**.
- Vous trouverez ci-dessous le code réel utilisé par le composant pour accomplir la tâche. Il applique une mise en forme conditionnelle sur "B3".
+1. ** Appliquer une mise en forme conditionnelle en fonction d'une formule **.
+   Ci-dessous se trouve le code réel utilisé par le composant pour accomplir la tâche. Il applique une mise en forme conditionnelle sur “B3”.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingBasedOnFormula-ConditionalFormattingBasedOnFormula.java" >}}
 
-Lorsque le code ci-dessus est exécuté, la mise en forme conditionnelle est appliquée à la cellule "B3" dans la première feuille de calcul du fichier de sortie (output.xls). La mise en forme conditionnelle appliquée dépend de la formule qui calcule la valeur de "B3" comme somme de B1 et B2. Veuillez consulter les captures d'écran suivantes du fichier XLS généré.
+Lorsque le code ci-dessus est exécuté, une mise en forme conditionnelle est appliquée à la cellule “B3” dans la première feuille de calcul du fichier de sortie (output.xls). La mise en forme conditionnelle appliquée dépend de la formule qui calcule la valeur de “B3” comme la somme de B1 & B2. Veuillez consulter les captures d'écran suivantes du fichier XLS généré.
 
-**Fichier Excel de sortie avec une valeur B3 inférieure à 100**
+** Fichier Excel de sortie avec une valeur B3 inférieure à 100 **
 
-![tâche : image_autre_texte](apply-conditional-formatting-in-worksheets_3.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_3.png)
 
-**Fichier Excel de sortie avec B3 supérieur à 100**
+** Fichier Excel de sortie avec une valeur B3 supérieure à 100 **
 
-![tâche : image_autre_texte](apply-conditional-formatting-in-worksheets_4.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_4.png)
 
 ### **Conclusion**
 
 {{% alert color="primary" %}}
 
-Cet article montre comment appliquer une mise en forme conditionnelle aux cellules d'une feuille de calcul avec le Aspose.Cells API. J'espère qu'il vous donnera un aperçu afin que vous puissiez utiliser ces options dans vos propres scénarios.
+Cet article montre comment appliquer une mise en forme conditionnelle aux cellules dans une feuille de calcul avec l'API Aspose.Cells. Espérons que cela vous donnera un aperçu afin que vous puissiez utiliser ces options dans vos propres scénarios.
 
-Aspose.Cells offre une grande flexibilité pour les solutions et offre une vitesse, une efficacité et une fiabilité exceptionnelles pour répondre aux exigences spécifiques des applications commerciales. Aspose.Cells bénéficie d'années de recherche, de conception et de réglage minutieux.
+Aspose.Cells offre une grande flexibilité pour les solutions et fournit une vitesse, une efficacité et une fiabilité exceptionnelles pour répondre aux exigences spécifiques des applications métier. Aspose.Cells bénéficie d'années de recherche, de conception et d'accord minutieux.
 
- Nous accueillons vos questions, commentaires et suggestions dans le[Aspose.CellsForum](https://forum.aspose.com/c/cells/9). Nous garantissons une réponse rapide.
+Nous sommes à votre disposition pour répondre à vos questions, commentaires et suggestions dans le [forum Aspose.Cells](https://forum.aspose.com/c/cells/9). Nous garantissons une réponse rapide.
 
 {{% /alert %}}

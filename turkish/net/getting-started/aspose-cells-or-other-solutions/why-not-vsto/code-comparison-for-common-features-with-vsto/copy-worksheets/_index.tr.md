@@ -1,17 +1,18 @@
-﻿---
-title: Çalışma Sayfalarını Kopyala
+---
+title: Çalışsayfaları Kopyala
 type: docs
 weight: 60
 url: /tr/net/copy-worksheets/
 ---
-## **Geçiş İpucu:**
-\1. Çalışma Kitabı nesnesi oluşturun ve Çalışma Sayfası'nı edinin.
-\2. Çalışma sayfasına metin ekleyin.
-\3. Yeni Çalışma Sayfası oluşturun ve daha önce yapılan çalışma sayfasına kopyalayın.
+
+## **Göç Tavsiyesi:**
+1. Çalışma Kitabı nesnesi oluşturun ve Çalışma Sayfasını alın.
+2. Çalışma sayfasında metin ekleyin.
+3. Yeni Çalışma Sayfası oluşturun ve Önceki oluşturulan çalışma sayfasına kopyalayın.
 ### **VSTO**
-Makro 'kodu' oluşturulurken hata oluştu: Parametre dili için geçersiz değer belirtildi
+'code' adlı hata görüntüleme makrosu: Geçersiz parametre değeri belirtilmiştir
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   private static string fileName ="CopyWorksheets.xlsx";
 
@@ -30,5 +31,5 @@ Makro 'kodu' oluşturulurken hata oluştu: Parametre dili için geçersiz değer
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **İndirmek**
+## **İndir**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)

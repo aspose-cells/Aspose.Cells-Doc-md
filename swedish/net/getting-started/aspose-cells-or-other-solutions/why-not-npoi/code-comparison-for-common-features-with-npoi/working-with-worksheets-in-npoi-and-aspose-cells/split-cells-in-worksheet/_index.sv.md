@@ -1,13 +1,14 @@
-﻿---
-title: Dela Cells i arbetsblad
+---
+title: Dela celler i arbetsblad
 type: docs
 weight: 90
 url: /sv/net/split-cells-in-worksheet/
 ---
-## **Aspose.Cells - Split Cells i arbetsblad**
+
+## **Aspose.Cells - Dela celler i arbetsblad**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -29,10 +30,10 @@ workbook.Save("output-Split.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Split Cells i arbetsblad**
+## **NPOI - HSSF XSSF - Dela celler i arbetsblad**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -59,6 +60,6 @@ file.Close();
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Arbeta med arbetsblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+För mer information, besök [Arbeta med kalkylblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

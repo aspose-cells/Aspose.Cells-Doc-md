@@ -3,57 +3,58 @@ title: ヘッダーとフッターの設定
 type: docs
 weight: 30
 url: /ja/net/setting-headers-and-footers/
-description: この記事では、C# API または .NET ライブラリを使用してスクリプト コマンドでヘッダーとフッターを設定し、Excel ワークシートのヘッダーとフッターにプログラムで画像を挿入する方法について説明します。
-keywords: insert image in excel header footer c#, set excel header footer script commands c#
+description: この記事では、C# APIまたは.NETライブラリを使用して、スクリプトコマンドを使用してExcelワークシートのヘッダーとフッターに画像をプログラムで挿入する方法について説明します。
+keywords: C# でエクセルヘッダーフッターに画像を挿入し、C# でエクセルヘッダーフッタースクリプトコマンドを設定する
 ---
+
 {{% alert color="primary" %}}
 
-ヘッダーとフッターは、それぞれ上マージンの下または下マージンの上に表示されるテキスト行です。ワークシートにヘッダーとフッターを追加することもできます。ヘッダーとフッターを使用して、ページ番号、著者名、トピック名、日付と時刻などの役立つ情報を表示できます。ヘッダーとフッターはページ設定設定を使用して管理されます。
+ヘッダーとフッターはそれぞれ上部の余白の下に表示されるテキスト行です。ワークシートにもヘッダーやフッターを追加することができます。ヘッダーやフッターには、ページ番号、著者名、トピック名、または日付と時刻などの有用な情報を表示することができます。ヘッダーとフッターはページ設定の設定を使用して管理されます。
 
 {{% /alert %}}
 
-##  **ヘッダーとフッターの設定**
+## **ヘッダーとフッタの設定**
 
-Aspose.Cells を使用すると、実行時にワークシートにヘッダーとフッターを追加できますが、印刷用に事前に設計されたファイルにヘッダーとフッターを手動で設定することをお勧めします。 Microsoft Excel を GUI ツールとして使用してヘッダーとフッターを設定し、労力と開発時間を節約できます。 Aspose.Cells はファイルをインポートして設定を保存できます。
+Aspose.Cells はランタイムでワークシートにヘッダーやフッターを追加することができますが、印刷のために事前に設計されたファイルでヘッダーとフッターを手動で設定することをお勧めします。Microsoft Excel を GUI ツールとして使用して、ヘッダーやフッターを設定して手間と開発時間を節約することができます。Aspose.Cells はそのファイルをインポートして設定を保存することができます。
 
-実行時にヘッダーとフッターを追加するために、Aspose.Cells はヘッダーとフッターをフォーマットするための特別な API 呼び出しとスクリプト コマンドを提供します。
+ヘッダーやフッターをランタイムで追加するために、Aspose.Cells は特別な API 呼び出しとスクリプトコマンドを提供しています。
 
-###  **スクリプトコマンド**
+### **スクリプトコマンド**
 
-スクリプト コマンドは、ヘッダーとフッターの書式を設定できる特別なコマンドです。
+スクリプトコマンドは、ヘッダーやフッターのフォーマットを設定する特別なコマンドです。
 
 |**スクリプトコマンド**|**説明**|
 | :- | :- |
-|&P|現在のページ番号|
-|&G|絵|
-|&N|総ページ数|
-|&D|現在の日付|
-|&T|現在時刻|
-|&A|ワークシート名|
-|&F|パスのないファイル名|
-|&"\<FontName>"|フォント名を表します。例: &"Arial"|
-|&"\<FontName>, \<FontStyle>"|フォント名をスタイルで表します。例: &"Arial、太字"|
-|&\<FontSize>|フォントサイズを表します。例: 「&14abc」。ただし、このコマンドの後にヘッダーに印刷される単純な数値が続く場合は、フォント サイズとスペース文字で区切る必要があります。例: 「&14 123」。|
+|&P|現在のページ番号
+|&G|画像
+|&N|ページの総数
+|&D|現在の日付
+|&T|現在の時刻
+|&A|ワークシート名
+|&F|パスを除いたファイル名
+|&"\<FontName>"|フォント名を表します。例: &"Arial"
+|&"\<FontName>, \<FontStyle>"|スタイル付きのフォント名を表します。例: &"Arial,Bold"
+|&\<FontSize>|はフォントサイズを表します。例:「&14abc」。ただし、このコマンドに続いてヘッダーに印刷するプレーンな数字がある場合は、フォントサイズとスペース文字で区切られている必要があります。例:「&14 123」。
 
-###  **ヘッダーとフッターを設定する**
+### **ヘッダーやフッタの設定**
 
-の[**ページ設定**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)クラスは 2 つのメソッドを提供します。[**ヘッダーの設定**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheader)と[**フッターを設定**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooter)、ワークシートにヘッダーとフッターを追加するために使用されます。これらのメソッドは次の 2 つのパラメータのみを取ります。
+[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) クラスは、ワークシートにヘッダーやフッターを追加するために使用される [**SetHeader**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheader) と [**SetFooter**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooter) という二つのメソッドを提供します。これらのメソッドは2つのパラメーターのみを取ります。
 
-- **セクション**– ヘッダーまたはフッターを配置するセクション。左、中央、右の 3 つのセクションがあり、それぞれ 0、1、2 で表されます。
-- **脚本**– ヘッダーまたはフッターに使用されるスクリプト。このスクリプトには、ヘッダーまたはフッターをフォーマットするためのスクリプト コマンドが含まれています。
+- **Section** – ヘッダーやフッターを配置するセクション。左、中央、右の3つのセクションがあり、それぞれ0、1、2で表されます。
+- **Script** – ヘッダーやフッターのために使用するスクリプト。このスクリプトにはヘッダーやフッターをフォーマットするためのスクリプトコマンドが含まれます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetHeadersAndFooters-1.cs" >}}
 
-###  **ヘッダーまたはフッターに画像を挿入する**
+### **ヘッダーやフッターに画像を挿入**
 
-の[**ページ設定**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)クラスには 2 つの追加メソッドがあります。[**SetHeaderPicture**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheaderpicture)と[**フッター画像の設定**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooterpicture)、ヘッダーとフッターに画像を追加するために使用されます。これらのメソッドは次のパラメータを受け取ります。
+[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) クラスには、ヘッダーやフッターに画像を追加するために使用される [**SetHeaderPicture**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheaderpicture) と [**SetFooterPicture**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooterpicture) という追加のメソッドがあります。これらのメソッドは以下のパラメーターを取ります。
 
-- **セクション**– 画像が配置されるヘッダーまたはフッター セクション。左、中央、右の 3 つのセクションがあり、それぞれ値 0、1、2 で表されます。
-- **バイト配列**– グラフィック データ (バイナリ データはバイト配列のバッファに書き込まれる必要があります)。
+- **Section** – 画像が配置されるヘッダーやフッターセクション。左、中央、右の3つのセクションがあり、それぞれ0、1、2で表されます。
+- **バイト配列** – グラフィカルデータ（バイナリデータはバイト配列のバッファに書き込む必要があります）。
 
-以下のコードを実行してファイルを開いた後、次の方法でワークシートのヘッダーを確認します。
+以下のコードを実行し、ファイルを開いた後、ワークシートのヘッダーを確認してください。
 
-1. で**ファイル**メニューで、*ページ設定**を選択します。ダイアログが表示されます。
-1. を選択**ヘッダー/フッター**タブ。
+1. **ファイル** メニューから **ページ設定** を選択します。ダイアログが表示されます。
+1. **ヘッダー/フッター** タブを選択します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}

@@ -1,26 +1,27 @@
-﻿---
-title: Редактор электронных таблиц — Работа с файлами
+---
+title: Табличный редактор  Работа с файлами
 type: docs
 weight: 10
 url: /ru/java/spreadsheet-editor-working-with-files/
 ---
-**Оглавление**
+
+**Содержание**
 
 - [Поддерживаемые файлы](#SpreadsheetEditor-WorkingwithFiles-SupportedFiles)
 - [Открыть локальные файлы](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
 - [Открыть из Dropbox](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
-- [Открыть с URL-адреса](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
- - LoaderService.fromUrl
- - LoaderService.buildCellsCache
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
-- [Создать новую таблицу](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
- - LoaderService.fromBlank
- - buildCellsCache
- - buildColumnWidthCache
- - buildRowHeightCache
+- [Открыть из URL](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
+  - LoaderService.fromUrl
+  - LoaderService.buildCellsCache
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
+- [Создать новую электронную таблицу](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
+  - LoaderService.fromBlank
+  - buildCellsCache
+  - buildColumnWidthCache
+  - buildRowHeightCache
 - [Экспорт в различные форматы](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
 ### **Поддерживаемые файлы**
 Редактор электронных таблиц HTML5 может открывать файлы следующих форматов:
@@ -36,39 +37,39 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 ### **Открыть локальные файлы**
 Чтобы загрузить файл с локального компьютера:
 
-1.  Переключить на**Вкладка «Файл»** наверху.
-1.  Нажмите**Открыть с компьютера** чтобы открыть диалоговое окно Обзор.
-1. Перейдите к нужному местоположению файла.
+1. Переключитесь на вкладку **Файл** вверху.
+1. Нажмите **Открыть с компьютера**, чтобы открыть диалоговое окно Обзор.
+1. Перейдите в нужную папку с файлом.
 1. Щелкните нужный файл, чтобы выбрать его.
-1.  Нажмите**Открытым**.
+1. Нажмите **Открыть**.
 
 Файл будет открыт в редакторе.
 
-![дело:изображение_альтернативный_текст](bwyl3xi.png)
+![todo:image_alt_text](bwyl3xi.png)
 
 **Как это работает?**
 
-**Файл загружен**
+**Загрузка файла**
 
- Пользователь выбирает файл с локального компьютера, который загружается из веб-браузера на сервер и принимается[PrimeFaces файлЗагрузить](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) составная часть.
+Пользователь выбирает файл с локального компьютера, который загружается из веб-браузера на сервер и принимается [компонентом PrimeFaces fileUpload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <p:fileUpload fileUploadListener="#\{workbook.onFileUpload\}" update=":ribbon :intro :sheet" />
 
 {{< /highlight >}}
 
-**Управление книгой**
+**Управление электронной книгой**
 
- Как только файл полностью загружен, для обработки ситуации вступает в действие метод WorkbookService.onFileUpload. WorkbookService получает события от веб-браузера и отслеживает состояние всей книги. WorkbookService.onFileUpload передает управление LoaderService для загрузки книги в память. Как***файл загружен*** компонент предоставляет загруженный файл как[Входной поток](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html), LoaderService загружает его с помощью метода LoaderService.fromInputStream.
-
-
+Как только файл загружен полностью, метод WorkbookService.onFileUpload начинает обрабатывать ситуацию. WorkbookService получает события из веб-браузера и отслеживает состояние всей электронной книги. Метод WorkbookService.onFileUpload передает управление в LoaderService для загрузки электронной книги в память. Поскольку компонент ***fileUpload*** предоставляет загруженный файл в виде [InputStream](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html), LoaderService загружает его, используя метод LoaderService.fromInputStream.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
  public void onFileUpload(FileUploadEvent e) {
 
@@ -84,17 +85,17 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 
-**Загрузка и разгрузка**
+**Загрузка и выгрузка**
 
- Метод***LoaderService.fromInputStream*** читает***Входной поток*** предоставлено fileUpload***составная часть*** создать экземпляр***com.aspose.cells.Workbook***учебный класс. Этот экземпляр хранится в памяти, пока пользователь продолжает просматривать или редактировать электронную таблицу в веб-браузере. Когда пользователь выходит из редактора или закрывает браузер, неиспользуемые экземпляры автоматически выгружаются из памяти, чтобы поддерживать чистоту сервера.
-
-
+Метод ***LoaderService.fromInputStream*** считывает ***InputStream***, предоставленный компонентом fileUpload, создает экземпляр класса ***com.aspose.cells.Workbook***. Этот экземпляр хранится в памяти, пока пользователь просматривает или редактирует электронную таблицу в веб-браузере. Когда пользователь покидает редактор или закрывает браузер, неиспользуемые экземпляры автоматически выгружаются из памяти, чтобы поддерживать чистоту сервера.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
  public String fromInputStream(InputStream s, String name) {
 
@@ -134,7 +135,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 **Кэширование**
 
-Кэширование очень важно для редактора электронных таблиц HTML5. Это заставляет все работать гладко. CellsService хранит в кэше строки, столбцы, ячейки и свойства всех книг, загруженных редактором. Когда LoaderService полностью загружает электронную таблицу, он считывает ее сверху вниз и заполняет кеш, вызывая LoaderService.buildCellsCache, LoaderService.buildColumnWidthCache, LoaderService.buildRowHeightCache.
+Кэширование очень важно для HTML5 Редактора электронных таблиц. Это делает все работу гладкой. CellsService хранит кэш строк, столбцов, ячеек и свойств всех электронных таблиц, загруженных редактором. Когда LoaderService полностью загружает электронную таблицу, он читает ее сверху вниз и заполняет кэш, вызывая LoaderService.buildCellsCache, LoaderService.buildColumnWidthCache, LoaderService.buildRowHeightCache.
 
 
 
@@ -142,7 +143,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -210,7 +211,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -236,7 +237,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -266,51 +267,51 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 ### **Открыть из Dropbox**
 Чтобы открыть файлы из Dropbox:
 
-1.  Переключить на**Вкладка «Файл»** наверху.
-1.  Нажмите**Открыть из Dropbox** чтобы открыть средство выбора файлов Dropbox.
+1. Переключитесь на вкладку **Файл** вверху.
+1. Щелкните **Открыть из Dropbox**, чтобы открыть выбор файла Dropbox.
 1. Если вы еще не вошли в систему, вам потребуется войти в свою учетную запись Dropbox.
-1. Перейдите к нужному файлу и нажмите, чтобы выбрать его.
-1.  Нажмите**выберите** внизу.
+1. Перейдите к нужному файлу и щелкните, чтобы выбрать его.
+1. Нажмите **Выбрать** внизу.
 
-Выбранный вами файл будет открыт из Dropbox.
+Выбранный файл будет открыт из Dropbox.
 
-![дело:изображение_альтернативный_текст](1e2sfo0.png)
+![todo:image_alt_text](1e2sfo0.png)
 
 **Как это работает?**
 
-**Открыть из Dropbox** кнопка использует**Выбор JavaScript в Dropbox API** чтобы открыть диалоговое окно Dropbox Chooser. Chooser предоставляет URL-адрес выбранного файла, который перехватывается функцией обратного вызова и отправляется обратно на сервер. Сервер создает экземпляр электронной таблицы из URL-адреса, инициализирует некоторые вспомогательные функции и отправляет обновления DOM обратно в браузер. Браузер отображает и обновляет HTML, и пользователь готов редактировать загруженный документ.
-### **Открыть с URL-адреса**
- Файлы можно открывать напрямую с URL-адресов. Это позволяет пользователю редактировать любой общедоступный файл в Интернете. Чтобы открыть файл, добавьте**?url=местоположение** параметр со значением желаемого**место расположения** при загрузке редактора. Например:
+Кнопка **Открыть из Dropbox** использует **Dropbox JavaScript Chooser API** для открытия диалогового окна Dropbox Chooser. Chooser предоставляет URL выбранного файла, который захватывается обратным вызовом и отправляется обратно на сервер. Сервер создает экземпляр электронной таблицы по URL, инициализирует некоторые вспомогательные функции и отправляет обновления DOM обратно в браузер. Браузер отображает и обновляет HTML, и пользователь готов редактировать загруженный документ.
+### **Открыть из URL**
+Файлы могут быть открыты непосредственно из URL-адресов. Это позволяет пользователю редактировать любой общедоступный файл в Интернете. Чтобы открыть файл, добавьте **?url=location** параметр со значением вашего желаемого **location** при загрузке редактора. Например:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  http://editor.aspose.com/?url=http://example.com/Sample.xlsx
 
 {{< /highlight >}}
 
-![дело:изображение_альтернативный_текст](exc9ckp.png)
+![todo:image_alt_text](exc9ckp.png)
 
 **Как это работает?**
 
-**Создание экземпляра во время запуска**
+**Инициализация во время запуска**
 
- Когда**Вид рабочего листа** backend bean создается JSF**PostConstruct** метод**в этом** вызывается, который загружает электронную таблицу, используя LoaderService.fromUrl.
+Когда бэкенд-бин **WorksheetView** создается с помощью JSF, вызывается метод **init** аннотации **PostConstruct**, который загружает электронную таблицу с помощью LoaderService.fromUrl.
 
 **Кэширование**
 
- Кэширование происходит сразу после загрузки электронной таблицы.**LoaderService** звонки**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** и**LoaderService.buildRowHeightCache** один за другим, чтобы кэшировать содержимое электронной таблицы и обеспечить быстроту и плавность всех операций.
+Кэширование происходит сразу после загрузки таблицы. **LoaderService** вызывает **LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** и **LoaderService.buildRowHeightCache** поочередно для кэширования содержимого таблицы и обеспечения быстрой и плавной работы всех операций.
 
-**Обновления DOM**
+**Обновление DOM**
 
-Когда электронная таблица готова на стороне сервера, компоненты JSF используются для создания нового HTML и отправки обновлений DOM пользователю, которые отображаются веб-браузером.
-
-
+Когда таблица готова на сервере, компоненты JSF используются для генерации нового HTML, который отправляется пользователю в виде обновлений DOM, которые рендерятся веб-браузером.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      @PostConstruct
 
@@ -342,7 +343,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.fromUrl**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromUrl(String url) {
 
@@ -378,7 +379,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -446,7 +447,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -472,7 +473,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -499,37 +500,37 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 
-### **Создать новую таблицу**
-Чтобы создать новую пустую таблицу:
+### **Создать новую электронную таблицу**
+Чтобы создать новую пустую электронную таблицу:
 
-1.  Переключить на**Вкладка «Файл»**.
-1.  Нажмите на**Новый** кнопка.
+1. Переключитесь на вкладку **Файл**.
+1. Нажмите кнопку **Новый**.
 
 Редактор закроет открытую таблицу, если она есть, и откроет новую.
 
-![дело:изображение_альтернативный_текст](lnydmmf.png)
+![todo:image_alt_text](lnydmmf.png)
 
 **Как это работает?**
 
-**Создать новый объект**
+**Создание нового объекта**
 
- Когда**Новый** кнопка нажата пользователем,**WorksheetView.loadBlank** , который в итоге вызывает**LoaderService.fromBlank**. LoaderService создает новый экземпляр пустой электронной таблицы.
+Когда пользователь нажимает кнопку **Новый**, вызывается **WorksheetView.loadBlank**, который в конечном итоге вызывает **LoaderService.fromBlank**. LoaderService создает новый экземпляр пустой таблицы.
 
 **Кэширование**
 
- Кэширование происходит сразу после загрузки электронной таблицы.**LoaderService** звонки**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** и**LoaderService.buildRowHeightCache** один за другим, чтобы кэшировать содержимое электронной таблицы и обеспечить быстроту и плавность всех операций.
+Кэширование происходит сразу после загрузки таблицы. **LoaderService** вызывает **LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** и **LoaderService.buildRowHeightCache** поочередно для кэширования содержимого таблицы и обеспечения быстрой и плавной работы всех операций.
 
-**Обновления DOM**
+**Обновление DOM**
 
-Когда электронная таблица готова на стороне сервера, компоненты JSF используются для создания нового HTML и отправки обновлений DOM пользователю, которые отображаются веб-браузером.
-
-
+Когда таблица готова на сервере, компоненты JSF используются для генерации нового HTML, который отправляется пользователю в виде обновлений DOM, которые рендерятся веб-браузером.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public void loadBlank() {
 
@@ -543,7 +544,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.fromBlank**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromBlank() {
 
@@ -569,7 +570,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 #### **buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -637,7 +638,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 #### **buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -663,7 +664,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 #### **buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -691,13 +692,13 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 ### **Экспорт в различные форматы**
-После редактирования файлов пользователь захочет сохранить изменения. Редактор позволяет пользователю экспортировать и загружать измененную электронную таблицу на локальный компьютер. Чтобы экспортировать файл:
+После редактирования файлов пользователю захочется сохранить изменения. Редактор позволяет пользователю экспортировать и скачать измененную таблицу на локальный компьютер. Чтобы экспортировать файл:
 
-1.  Переключить на**Вкладка «Файл»** наверху.
-1.  Нажмите**Экспорт** как кнопка.
-1. Выберите нужный формат из раскрывающегося списка.
+1. Переключитесь на вкладку **Файл** вверху.
+1. Нажмите кнопку **Экспорт как**.
+1. Выберите нужный формат из выпадающего списка.
 
-Измененный файл будет экспортирован для скачивания. Для экспорта поддерживаются следующие форматы:
+Измененный файл будет экспортирован для скачивания. Поддерживаются следующие форматы для экспорта:
 
 - Excel 2007-2013 XLSX
 - Excel 1997-2003 XLS
@@ -706,12 +707,12 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 - Excel XLTX
 - Excel XLTM
 - SpreadsheetML
-- Портативный формат документов (PDF)
-- Электронная таблица OpenDocument (ODS)
+- Формат портативного документа (PDF)
+- Документ таблицы OpenDocument (ODS)
 
 **Как это работает?**
 
- Открытая электронная таблица преобразуется в указанный пользователем формат с помощью**WorksheetView.getOutputFile**.
+Открытая электронная таблица преобразуется в заданный пользователем формат с использованием **WorksheetView.getOutputFile**.
 
 
 
@@ -719,7 +720,7 @@ url: /ru/java/spreadsheet-editor-working-with-files/
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public StreamedContent getOutputFile(int saveFormat) {
 

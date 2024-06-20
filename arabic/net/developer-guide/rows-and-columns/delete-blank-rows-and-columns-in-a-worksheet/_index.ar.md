@@ -1,24 +1,25 @@
 ---
-title: احذف الصفوف والأعمدة الفارغة في ورقة عمل
+title: حذف الصفوف والأعمدة الفارغة في ورقة العمل
 type: docs
 weight: 300
 url: /ar/net/delete-blank-rows-and-columns-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-من الممكن حذف جميع الصفوف والأعمدة الفارغة من ورقة العمل. يكون هذا مفيدًا ، على سبيل المثال ، عند إنشاء ملف PDF من ملف Excel Microsoft وتريد تحويل الصفوف والأعمدة التي تحتوي على بيانات أو كائن مرتبط فقط.
+من الممكن حذف جميع الصفوف والأعمدة الفارغة من ورقة العمل. هذا مفيد عندما ترغب في إنشاء ملف PDF من ملف Microsoft Excel وترغب في تحويل الصفوف والأعمدة التي تحتوي على بيانات أو كائن مرتبط فقط.
 
-استخدم الطرق Aspose.Cells التالية لحذف الصفوف والأعمدة الفارغة:
+استخدم وسائل Aspose.Cells التالية لحذف الصفوف والأعمدة الفارغة:
 
-1.  لحذف الصفوف الفارغة ، استخدم ملف[**Cells.DeleteBlankRows ()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleteblankrows) طريقة. يرجى ملاحظة أنه بالنسبة للصفوف الفارغة التي سيتم حذفها ، لا يلزم ذلك فقط[**صف ، بلانك**](https://reference.aspose.com/cells/net/aspose.cells/row/isblank/) يجب أن تكون صحيحة ، ولكن يجب أيضًا ألا يكون هناك تعليق مرئي محدد لأي خلية في تلك الصفوف ، ولا يوجد جدول محوري يتقاطع نطاقها معها.
-1.  لحذف الأعمدة الفارغة ، استخدم ملف[**Cells.DeleteBlankColumns ()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleteblankcolumns) طريقة.
+1. لحذف الصفوف الفارغة، استخدم الطريقة [**Cells.DeleteBlankRows()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleteblankrows). يرجى ملاحظة أنه من الضروري للصفوف الفارغة التي سيتم حذفها أن يكون [**Row.IsBlank**](https://reference.aspose.com/cells/net/aspose.cells/row/isblank/) صحيحًا، وأيضًا يجب ألا يكون هناك تعليق مرئي معرف لأي خلية في تلك الصفوف، ولا جدول محوري يتقاطع نطاقه معها.
+1. لحذف الأعمدة الفارغة، استخدم الطريقة [**Cells.DeleteBlankColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleteblankcolumns).
 
 {{% /alert %}}
 
-##  C# كود لحذف الصفوف الفارغة
+## كود C# لحذف الصفوف الفارغة
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankRows-1.cs" >}}
 
-##  C# كود لحذف الأعمدة الفارغة
+## كود C# لحذف الأعمدة الفارغة
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankColumns-1.cs" >}}

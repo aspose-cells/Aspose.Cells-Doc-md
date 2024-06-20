@@ -1,17 +1,18 @@
 ---
-title: Skapa Ta bort och få GridCell-kommentarer
+title: Skapa, ta bort och få kommentarer för GridCell
 type: docs
 weight: 10
 url: /sv/java/create-remove-and-get-gridcell-comments/
 ---
-##  **Möjliga användningsscenarier**
-Följande artikel förklarar hur du skapar, tar bort och får GridCell-kommentarer i GridWeb-kalkylbladet. Det är värt att notera att GridWeb visar kommentarer som verktygstips som MS-Excel när du håller muspekaren över cellen som visas i den här skärmdumpen.
+
+## **Möjliga användningsscenario**
+Följande artikel förklarar hur man skapar, tar bort och hämtar GridCell-kommentarer i GridWeb-kalkylarket. Det är värt att notera att GridWeb visar kommentaren som en verktygstips liknande MS-Excel när du sveper musen över cellen som visas i denna skärmbild.
 
 ![todo:image_alt_text](create-remove-and-get-gridcell-comments_1.png)
-##  **Skapa kommentarsobjekt i Cell**
-Använd metoden GridCell.CreateComment för att skapa ett kommentarsobjekt inuti cellen. Följande exempelkod skapar en exempelkommentar i cell B4 i det första kalkylbladet i GridWeb.
+## **Skapa kommentarsobjekt inuti cellen**
+Använd metoden GridCell.CreateComment för att skapa ett kommentarsobjekt inuti cellen. Följande exempelkod skapar en provkommentar i cell B4 på den första arbetsbladet av GridWeb.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Access first worksheet of GridWeb
 
@@ -28,12 +29,12 @@ GridCell cell = sheet.getCells().get("B4");
 cell.createComment("This is a B4 note.", "Peter", true);
 
 {{< /highlight >}}
-##  **Ta bort kommentarobjekt från Cell**
-Använd metoden GridCell.RemoveComment för att ta bort ett kommentarobjekt från cellen. Följande exempelkod tar bort kommentar från cell B4 i det första kalkylbladet i GridWeb.
+## **Ta bort kommentarsobjekt från cellen**
+Använd GridCell.RemoveComment-metoden för att ta bort ett kommentarobjekt från en cell. Följande exempelkod tar bort kommentaren från cell B4 i den första kalkylbladet i GridWeb.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Access first worksheet of GridWeb
 
@@ -48,10 +49,10 @@ GridCell cell = sheet.getCells().get("B4");
 cell.removeComment();
 
 {{< /highlight >}}
-##  **Få kommentarobjekt från Cell**
-Använd metoden GridCell.GetComment() för att hämta kommentarobjekt från cellen. Följande exempelkod hämtar kommentarsobjektet från cell B4 och kommer sedan åt dess olika egenskaper som författare, anteckning, synlighet etc.
+## **Få kommentarsobjekt från cellen**
+Använd GridCell.GetComment()-metoden för att hämta kommentarobjekt från en cell. Följande exempelkod hämtar kommentarobjektet från cell B4 och får sedan åtkomst till dess olika egenskaper som författare, anteckning, synlighet osv.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Access first worksheet of GridWeb
 

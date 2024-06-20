@@ -1,16 +1,17 @@
-﻿---
-title: GridLines ile Excel'i HTML'e Aktarın
+---
+title: Excel den HTML e Grid Çizgileri ile Dışa Aktar
 type: docs
 weight: 40
 url: /tr/net/export-excel-to-html-with-gridlines/
 ---
+
 {{% alert color="primary" %}} 
 
- Excel dosyanızı GridLines ile HTML'e aktarmak istiyorsanız, lütfen[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) özellik ve ayarlayın**doğru**.
+Excel dosyanızı HTML'e Grid Çizgileri ile dışa aktarmak istiyorsanız, [HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) özelliğini kullanın ve **true** olarak ayarlayın.
 
 {{% /alert %}} 
-## **GridLines ile Excel'i HTML'e Aktarın**
-Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve çalışma sayfasını bazı değerlerle doldurur ve ayarladıktan sonra HTML biçiminde kaydeder.[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) ile**doğru**.
+## **Excel'den HTML'e Grid Çizgileri ile Dışa Aktar**
+Aşağıdaki örnek kod, bir çalışma kitabı oluşturur, çalışma sayfasını bazı değerlerle doldurur ve daha sonra [HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) ayarı **true** olarak ayarlandıktan sonra HTML formatında kaydeder.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 在Eclipse中安装和使用Aspose.Cells Java for Eclipse - Maven
+title: 在Eclipse中安装和使用Aspose.Cells Java for Eclipse  Maven
 type: docs
 weight: 10
 url: /zh/java/installing-and-using-aspose-cells-java-for-eclipse-maven/

@@ -1,40 +1,41 @@
-﻿---
-title: Öffnen verschiedener Microsoft Excel-Versionsdateien
+---
+title: Öffnen von verschiedenen Microsoft Excel Versionen Dateien
 type: docs
 weight: 20
 url: /de/python-net/opening-different-microsoft-excel-versions-files/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells kann eine Reihe verschiedener Microsoft Excel-Versionsdateien öffnen, wie z.
+Aspose.Cells kann eine Vielzahl von verschiedenen Microsoft Excel-Versionen-Dateien öffnen, wie z.B. Microsoft Excel 95/97 - 2003, SpreadsheetML, Öffnen von Microsoft Excel 2007/2010/2013/2016/2019 und Office 365 XLSX oder verschlüsselten Excel-Dateien.
 
 {{% /alert %}}
 
 ## **Öffnen von Dateien verschiedener Microsoft Excel-Versionen**
 
- Eine Anwendung muss häufig Microsoft Excel-Dateien öffnen können, die in verschiedenen Versionen erstellt wurden, z. B. Microsoft Excel 95,97 oder Microsoft Excel 2007/2010/2013/2016/2019 und Office 365 . Möglicherweise müssen Sie eine Datei in einem von mehreren Formaten laden, einschließlich XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited oder TSV, CSV, ODS und so weiter. Verwenden Sie den Konstruktor oder geben Sie die an**Arbeitsmappe** Klasse'**Datei Format**type-Attribut, das das Format mithilfe von angibt**Dateiformattyp**Aufzählung.
+Eine Anwendung muss oft in der Lage sein, Microsoft Excel-Dateien zu öffnen, die in verschiedenen Versionen erstellt wurden, z. B. Microsoft Excel 95, 97, oder Microsoft Excel 2007/2010/2013/2016/2019 und Office 365. Es kann erforderlich sein, eine Datei in einem bestimmten Format zu laden, darunter XLS, XLSX, XLSM, XLSB, SpreadsheetML, Tabulatorgetrennt oder TSV, CSV, ODS usw. Verwenden Sie den Konstruktor oder geben Sie das Attribut **file_format** der **Workbook**-Klasse an, das das Format mithilfe der **FileFormatType**-Enumeration festlegt.
 
- Das**Dateiformattyp**Enumeration enthält viele vordefinierte Dateiformate, von denen einige unten aufgeführt sind.
+Die Enumeration **FileFormatType** enthält viele vordefinierte Dateiformate, von denen einige unten aufgeführt sind.
 
-|**Dateiformattypen**|**Beschreibung**|
-|:- |:- |
-|CSV|Stellt eine CSV-Datei dar|
-|AUSGEZEICHNET_97_BIS_2003|Stellt eine Excel 97-2003-Datei dar|
-|XLSX|Stellt eine Excel 2007/2010/2013/2016/2019- und Office 365-XLSX-Datei dar|
-|XLSM|Stellt eine Excel 2007/2010/2013/2016/2019- und Office 365-XLSM-Datei dar|
-|Xltx|Stellt eine Excel 2007/2010/2013/2016/2019- und Office 365-Vorlagendatei XLTX dar|
-|XLTX|Stellt eine Excel 2007/2010/2013/2016/2019- und Office 365-Makro-aktivierte XLTM-Datei dar|
-|XLSB|Stellt eine Excel 2007/2010/2013/2016/2019- und Office 365-Binärdatei XLSB dar|
-|SPREADSHEET_ML|Stellt eine SpreadsheetML-Datei dar|
-|TSV|Stellt eine tabulatorgetrennte Wertedatei dar|
-|TAB_DELIMITED|Stellt eine tabulatorgetrennte Textdatei dar|
-|ODS|Stellt eine ODS-Datei dar|
-|HTML|Stellt eine HTML-Datei dar|
-|M_HTML|Stellt eine MHTML-Datei dar|
+|**Dateiformat-Typen**|**Beschreibung**|
+| :- | :- |
+|CSV|Repräsentiert eine CSV-Datei|
+|EXCEL_97_TO_2003|Repräsentiert eine Excel 97 - 2003 Datei|
+|XLSX|Repräsentiert eine Excel 2007/2010/2013/2016/2019 und Office 365 XLSX-Datei|
+|XLSM|Repräsentiert eine Excel 2007/2010/2013/2016/2019 und Office 365 XLSM-Datei|
+|Xltx|Stellt eine Excel 2007/2010/2013/2016/2019 und Office 365-Vorlage XLTX-Datei dar|
+|XLTX|Stellt eine Excel 2007/2010/2013/2016/2019 und Office 365 makrofähige XLTM-Datei dar|
+|XLSB|Repräsentiert eine Excel 2007/2010/2013/2016/2019 und Office 365 binäre XLSB-Datei|
+|SPREADSHEET_ML|Repräsentiert eine SpreadsheetML-Datei|
+|TSV|Repräsentiert eine durch Tabulatoren getrennte Werte-Datei|
+|TAB_DELIMITED|Repräsentiert eine tabulatorgetrennte Textdatei|
+|ODS|Repräsentiert eine ODS-Datei|
+|HTML|Repräsentiert eine HTML-Datei|
+|M_HTML|Repräsentiert eine MHTML-Datei|
 
 ### **Öffnen von Microsoft Excel 95/5.0-Dateien**
 
-Um eine Microsoft Excel 95/5.0-Datei zu öffnen, verwenden Sie**Ladeoptionen**und setzen Sie das zugehörige Attribut für die**Ladeoptionen**Klasse für die zu ladende Vorlagendatei. Eine Beispieldatei zum Testen dieser Funktion kann unter folgendem Link heruntergeladen werden:
+Um eine Microsoft Excel 95/5.0-Datei zu öffnen, verwenden Sie **LoadOptions** und legen Sie das entsprechende Attribut für die **LoadOptions**-Klasse der zu ladenden Vorlagendatei fest. Eine Beispieldatei zur Überprüfung dieser Funktion kann von folgendem Link heruntergeladen werden:
 
 [Excel95-Datei](Excel95.xls)
 
@@ -42,25 +43,25 @@ Um eine Microsoft Excel 95/5.0-Datei zu öffnen, verwenden Sie**Ladeoptionen**un
 
 ### **Öffnen von Microsoft Excel 97 - 2003-Dateien**
 
- Verwenden Sie zum Öffnen einer Microsoft Excel 97 - 2003-Datei**Ladeoptionen** und setzen Sie das zugehörige Attribut für die**Ladeoptionen**Klasse für die zu ladende Vorlagendatei.
+Um eine Microsoft Excel 97 - 2003-Datei zu öffnen, verwenden Sie **LoadOptions** und legen Sie das entsprechende Attribut für die **LoadOptions**-Klasse der zu ladenden Vorlagendatei fest.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenExcel97-2003Files.py" >}}
 
-### **Öffnen von Microsoft Excel 2007/2010/2013/2016/2019 und Office 365 XLSX Dateien**
+### **Öffnen von Microsoft Excel 2007/2010/2013/2016/2019 und Office 365 XLSX-Dateien**
 
-Um ein Microsoft Excel 2007/2010/2013/2016/2019- und Office 365-Format zu öffnen, d. h. XLSX oder XLSB, geben Sie den Dateipfad an. Sie können auch verwenden**Ladeoptionen** und legen Sie die zugehörigen Attribute/Optionen der fest**Ladeoptionen**Klasse für die zu ladende Vorlagendatei.
+Um ein Microsoft Excel 2007/2010/2013/2016/2019 und Office 365-Format, das heißt XLSX oder XLSB, zu öffnen, geben Sie den Dateipfad an. Sie können auch ** LoadOptions ** verwenden und das zugehörige Attribut/Optionen der ** LoadOptions ** Klasse für die zu ladende Vorlagendatei festlegen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenExcel2007Files.py" >}}
 
 ### **Öffnen verschlüsselter Excel-Dateien**
 
- Es ist möglich, verschlüsselte Excel-Dateien mit Microsoft Excel zu erstellen. Um eine verschlüsselte Datei zu öffnen, verwenden Sie die**Ladeoptionen**und seine Attribute und Optionen (z. B. ein Passwort vergeben) für die zu ladende Vorlagendatei festlegen.
-Eine Beispieldatei zum Testen dieser Funktion kann unter folgendem Link heruntergeladen werden:
+Es ist möglich, verschlüsselte Excel-Dateien mit Microsoft Excel zu erstellen. Um eine verschlüsselte Datei zu öffnen, verwenden Sie die ** LoadOptions ** und setzen Sie deren Attribute und Optionen (zum Beispiel ein Passwort) für die zu ladende Vorlagendatei.
+Eine Beispieldatei zum Testen dieses Features kann über folgenden Link heruntergeladen werden:
 
-[Verschlüsseltes Excel](EncryptedExcel.xlsx)
+[Encrypted Excel](EncryptedExcel.xlsx)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenEncryptedExcelFiles.py" >}}
 
-Aspose.Cells unterstützt auch das Öffnen passwortgeschützter Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365-Dateien.
+Aspose.Cells unterstützt auch das Öffnen von passwortgeschützten Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365-Dateien.
 
 

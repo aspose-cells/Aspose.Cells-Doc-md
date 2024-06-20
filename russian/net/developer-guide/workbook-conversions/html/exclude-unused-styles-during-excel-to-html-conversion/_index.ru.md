@@ -1,18 +1,19 @@
-﻿---
-title: Исключить неиспользуемые стили во время преобразования Excel в HTML
+---
+title: Исключить неиспользуемые стили во время конвертации Excel в HTML
 type: docs
 weight: 30
 url: /ru/net/exclude-unused-styles-during-excel-to-html-conversion/
 ---
+
 ## **Возможные сценарии использования**
 
-Microsoft Файл Excel может содержать много неиспользуемых стилей. При экспорте файла Excel в формат HTML эти неиспользуемые стили также экспортируются. Это может увеличить размер HTML. Вы можете исключить неиспользуемые стили во время преобразования файла Excel в HTML с помощью[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles) имущество. Когда вы установите его**истинный**, все неиспользуемые стили исключаются из выходных данных HTML. На следующем снимке экрана показан образец неиспользуемого стиля в выходных данных HTML.
+Файл Microsoft Excel может содержать множество неиспользуемых стилей. При экспорте файла Excel в формат HTML эти неиспользуемые стили также экспортируются. Это может увеличить размер HTML. Вы можете исключить неиспользуемые стили во время конвертации файла Excel в HTML, используя свойство [**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles). Когда вы устанавливаете его **true**, все неиспользуемые стили исключаются из выходного HTML. На следующем скриншоте отображается образец неиспользуемого стиля в выходном HTML.
 
-![дело:изображение_альтернативный_текст](exclude-unused-styles-during-excel-to-html-conversion_1.png)
+![todo:image_alt_text](exclude-unused-styles-during-excel-to-html-conversion_1.png)
 
 ## **Исключить неиспользуемые стили во время преобразования Excel в HTML**
 
-В следующем примере кода создается рабочая книга, а также создается неиспользуемый именованный стиль. Поскольку[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles) установлен на**истинный** , этот неиспользуемый именованный стиль не будет экспортирован в[вывод HTML](61767778.zip) . Но если вы установите его на**ЛОЖЬ**, то этот неиспользуемый стиль будет присутствовать внутри вывода HTML, который вы можете увидеть в разметке HTML, как показано на снимке экрана выше.
+Следующий пример кода создает книгу и также создает неиспользуемый именованный стиль. Поскольку [**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles) установлен в **true**, этот неиспользуемый именованный стиль не будет экспортирован в [выходное HTML](61767778.zip). Но если вы установите его в **false**, то этот неиспользуемый стиль будет присутствовать в выходном HTML, который вы сможете увидеть в разметке HTML, как показано на скриншоте выше.
 
 ## **Образец кода**
 

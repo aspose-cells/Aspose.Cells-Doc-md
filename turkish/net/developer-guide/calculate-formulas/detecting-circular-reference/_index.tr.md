@@ -1,31 +1,32 @@
 ---
-title: Dairesel Referansı Algılama
-description: Bu makalede, Microsoft Excel'deki döngüsel başvuruları algılamak için Aspose.Cells kitaplığının nasıl kullanılacağı anlatılmaktadır. Mevcut bir Excel dosyasını yükleyerek veya yeni bir dosya oluşturarak döngüsel referansları tespit etmek ve sonuçları almak için Aspose.Cells'in sağladığı yöntemi kullanabiliriz. Son olarak değiştirdiğimiz Excel dosyasını diske kaydediyoruz.
-keywords: Aspose.Cells, Excel, circular references, detection
+title: Döngüsel Referansın Algılanması
+description: Bu makale, Aspose.Cells kütüphanesini kullanarak Microsoft Excel de döngüsel referansları algılamanın nasıl yapılacağını tanıtıyor. Mevcut bir Excel dosyası yükleyerek veya yeni bir tane oluşturarak, Aspose.Cells tarafından sağlanan yöntemi kullanabilir ve döngüsel referansları algılayabilir ve sonuçları alabiliriz. Son olarak, değiştirilmiş Excel dosyasını diske kaydediyoruz.
+keywords: Aspose.Cells, Excel, döngüsel referanslar, algılama
 type: docs
 weight: 70
 url: /tr/net/detecting-circular-reference/
 ---
-##  **giriiş**
 
-Çalışma kitaplarında döngüsel referanslar olabilir ve bazen döngüsel referansların olup olmadığının tespit edilmesine ihtiyaç duyulur.
+## **Giriş**
 
-##  **Dairesel referansı tespit etmenin arkasındaki kavram**
+Çalışma kitaplarında döngüsel referanslar olabilir ve bazen döngüsel referansların olup olmadığını tespit etmeniz gerekebilir.
 
-Dairesel referanslar yalnızca formül hesaplanırken tespit edilebilir çünkü bir formülün referansları genellikle diğer parçaların veya formüllerin hesaplanan sonuçlarına bağlıdır. Bu nedenle, formül hesaplama sürecinde bu gereksinim için (döngüsel referanslara sahip hücreleri toplamak için) yeni API'ler sağlıyoruz:
+## **Döngüsel referansın tespiti arkasındaki kavram**
 
-[**HesaplamaHücresi**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell): Hesaplanmakta olan bir hücreye ilişkin ilgili verilerin hesaplanmasını temsil eder
+Döngüsel referanslar yalnızca formül hesaplandığında algılanabilir çünkü bir formülün referansları genellikle diğer kısımların veya diğer formüllerin hesaplanmış sonucuna bağlıdır. Bu nedenle bu gereksinim için yeni API'lar sağlarız (döngüsel referanslara sahip hücreleri toplamak için):
 
-[**AbstractCalculationMonitor.OnCircular(IEnumerator sirkülerCellsData)**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular): döngüsel referanslarla karşılaşıldığında formül hesaplama motoru tarafından çağrılacak, numaralandırıcıdaki öğe[**HesaplamaHücresi**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell) bir dairedeki tüm hücreleri temsil eden nesneler. Döndürülen değer, bu çağrıdan sonra formül motorunun bu hücreleri dairesel olarak hesaplamasının gerekip gerekmediğini belirtir.
+[**CalculationCell**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell): Hesaplanan bir hücrenin ilgili verilerinin hesaplanmasını temsil eder
 
- Kullanıcı bu döngüsel referansları aşağıdakilerin uygulanması sırasında toplayabilir:[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular) yöntem.
+[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular): döngüsel referans ile karşılaştığında formül hesaplama motoru tarafından çağrılacaktır, numaralandırıcıdaki elemanlar, bir dairedeki tüm hücreleri temsil eden [**CalculationCell**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell) nesnelerdir. Döngü sonrasındaki çağrıda formül motorunun bu hücreleri hesaplaması gerekip gerekmediğini belirttiğiniz değeri döndürür.
 
-Kaynak örnek dosya aşağıdaki bağlantıdan indirilebilir:
+Kullanıcı, bu döngüsel referansları [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular) yönteminin uygulanmasında toplayabilir.
 
-[Dairesel Formüller.xls](77496332.xls)
+Kaynak örnek dosyası aşağıdaki bağlantıdan indirilebilir:
+
+[Circular Formulas.xls](77496332.xls)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-1.cs" >}}
 
-Tanımı*DaireselMonitör* türetilen sınıf[**SoyutHesaplamaMonitör**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) sınıf aşağıdaki gibidir:
+Aşağıdaki *CircularMonitor* sınıfının tanımı, [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) sınıfından türetilmiştir:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-2.cs" >}}

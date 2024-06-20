@@ -1,32 +1,33 @@
-﻿---
-title: OLE Nesnelerini Çalışma Kitabından Çıkarın
+---
+title: Çalışma Kitabından OLE Nesneleri Çıkarma
 type: docs
 weight: 260
 url: /tr/java/extract-ole-objects-from-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen bir çalışma kitabından OLE nesnelerini ayıklamanız gerekir. Aspose.Cells, bu makalede gösterildiği gibi bu OLE nesnelerinin çıkarılmasını ve kaydedilmesini destekler.
+Bazen, bir çalışma kitabından Ole nesnelerini çıkartmanız gerekebilir. Aspose.Cells, bu Ole nesnelerini çıkartmayı ve kaydetmeyi destekler ve bu makalede gösterildiği gibi bunu yapabilir.
 
 {{% /alert %}}
 
-## **Bir Çalışma Kitabından OLE Nesnelerini Çıkarma**
+## **Bir Çalışma Kitabından OLE Nesneleri Çıkarma**
 
-### **Şablon Çalışma Kitabı Oluşturma**
+### **Bir Şablon Çalışma Kitabı Oluşturma**
 
-1. Microsoft Excel'de bir elektronik tablo oluşturuldu.
-1. İlk çalışma sayfasına OLE nesneleri olarak bir Microsoft Word belgesi, bir Excel çalışma kitabı ve bir PDF belgesi ekleyin.
+1. İlk çalışma sayfasına bir Microsoft Word belgesi, bir Excel çalışma kitabı ve bir PDF belgesi olarak Ole nesneleri eklendi.
+1. İlk çalışma sayfasına bir Microsoft Word belgesi, bir Excel çalışma kitabı ve bir OLE nesnesi olarak PDF belgesi ekleyin.
 
 ### **OLE Nesnelerini Çıkarın**
 
-Aşağıdaki kod, OLE nesnelerini DOCX, XLSX, PPTX ve PDF dosyaları olarak bulma ve ayıklama işini yapar.
+Aşağıdaki kod, DOCX, XLSX, PPTX ve PDF dosyaları olarak gömülü nesneleri bulma ve çıkarma işlemini gerçekleştirir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExtractOLEObjects-ExtractOLEObjects.java" >}}
 
-### **Çözüm:**
+### **Sonuç:**
 
 {{% alert color="primary" %}}
 
-Bu makale, Aspose.Cells kullanarak bir çalışma kitabından OLE nesnelerinin nasıl çıkarılacağını gösterir. Umarız, bu seçenekleri kendi senaryolarınızda kullanmanıza izin verecek bazı bilgiler verir.
+Bu makale, Aspose.Cells kullanarak bir çalışma kitabından OLE nesnelerini çıkarmayı göstermektedir. Umuyoruz ki, kendi senaryolarınızda bu seçenekleri kullanmanıza olanak tanıyan bazı bilgiler sunacaktır.
 
 {{% /alert %}}

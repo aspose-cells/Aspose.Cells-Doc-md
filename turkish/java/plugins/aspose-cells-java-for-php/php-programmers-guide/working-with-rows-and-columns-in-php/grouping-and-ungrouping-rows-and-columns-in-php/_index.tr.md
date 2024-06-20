@@ -1,20 +1,21 @@
-﻿---
-title: PHP'de Satırları ve Sütunları Gruplandırma ve Grubu Çözme
+---
+title: PHP de Satır ve Sütunları Gruplama ve Grubu Dağıtma
 type: docs
 weight: 40
 url: /tr/java/grouping-and-ungrouping-rows-and-columns-in-php/
 ---
-## **Aspose.Cells - Satırlar ve Sütunların Grup Yönetimi**
-### **Satırları ve Sütunları Gruplama**
+
+## **Aspose.Cells - Satırların ve Sütunların Grup Yönetimi**
+### **Satır ve Sütunların Gruplandırılması**
 Cells koleksiyonunun groupRows ve groupColumns yöntemlerini çağırarak satırları veya sütunları gruplamak mümkündür. Her iki yöntem de aşağıdaki parametreleri alır:
 
-- İlk satır/sütun dizini, gruptaki ilk satır veya sütun.
-- Son satır/sütun dizini, gruptaki son satır veya sütun.
-- Gizlidir, gruplamadan sonra satırların/sütunların gizlenip gizlenmeyeceğini belirten bir Boolean parametresidir.
+- İlk satır/sütun indeksi, grup içindeki ilk satır veya sütun.
+- Son satır/sütun indeksi, grup içindeki son satır veya sütun.
+- Gizli mi, satırları/sütunları gruplandırmadan sonra gizlemek için bir Boolean parametre.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function group_rows_columns($dataDir)
 
@@ -47,15 +48,15 @@ Cells koleksiyonunun groupRows ve groupColumns yöntemlerini çağırarak satır
 }
 
 {{< /highlight >}}
-### **Satırları ve Sütunları Çözme**
-Cells koleksiyonunun UngroupRows ve UngroupColumns yöntemlerini çağırarak gruplandırılmış satırların veya sütunların grubunu çözün. Her iki yöntem de aynı parametreleri alır:
+### **Satır ve Sütunların Grubunu Çıkarma**
+Cells koleksiyonunun UngroupRows ve UngroupColumns yöntemlerini çağırarak gruplanmış satırları veya sütunları çıkarabilirsiniz. Her iki yöntem de aşağıdaki parametreleri alır:
 
-- İlk satır veya sütun dizini, grubu çözülecek ilk satır/sütun.
-- Son satır veya sütun dizini, grubu çözülecek son satır/sütun.
+- İlk satır veya sütun dizini, ayrılmak istenen ilk satır/sütun.
+- Son satır veya sütun dizini, ayrılmak istenen son satır/sütun.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function ungroup_rows_columns($dataDir)
 
@@ -89,6 +90,6 @@ Cells koleksiyonunun UngroupRows ve UngroupColumns yöntemlerini çağırarak gr
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Satırları ve Sütunları Gruplandırma ve Grubu Çözme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Grup ve Grupsuz Sıraları ve Sütunları İndirin (Aspose.Cells)**:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

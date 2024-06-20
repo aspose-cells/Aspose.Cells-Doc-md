@@ -1,16 +1,17 @@
-﻿---
-title: Cell Metniyle Ayarlanmış Koşullu Simgeler Ekleme
+---
+title: Hücre Metni ile Koşullu İkon Seti Ekle
 type: docs
 weight: 160
 url: /tr/net/add-conditional-icons-set-with-the-cell-text/
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen, verileri okuyucular için daha anlamlı hale getirmek için hücredeki metnin yanına koşullu simgeler eklemek istersiniz. Hücrelere koşullu biçimlendirme uygulamadan bazı koşullu biçimlendirme simge türlerini kullanmak istiyorsunuz. Aspose.Cells özelliği destekler.
+Ara sıra, verileri okuyucular için daha anlamlı hale getirmek için metnin yanına koşullu simgeler eklemek isteyebilirsiniz. Hücrelere koşullu biçimlendirme uygulamadan koşullu simge tiplerinin bazılarını kullanmak istersiniz. Aspose.Cells, bu özelliği destekler.
 
 {{% /alert %}} 
 
-Aşağıdaki kod örneği, Cell Metin ile ayarlanan koşullu simgelerin nasıl ekleneceğini gösterir.
+Aşağıdaki kod örneği, hücre metni ile koşullu simgeler seti eklemenin nasıl yapıldığını göstermektedir.
 
 
 

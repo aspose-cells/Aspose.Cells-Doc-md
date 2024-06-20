@@ -1,24 +1,25 @@
-﻿---
-title: Seguimiento de precedentes y dependientes en xlsx4j
+---
+title: Rastreo de Precedentes y Dependientes en xlsx4j
 type: docs
 weight: 70
 url: /es/java/tracing-precedents-and-dependents-in-xlsx4j/
 ---
-## **Aspose.Cells - Rastreo de precedentes y dependientes**
-Las hojas de cálculo financieras complejas, especialmente las desarrolladas en colaboración, pueden ocultar los errores más vergonzosos. Verificar la precisión de las fórmulas y encontrar la fuente de un error puede ser difícil cuando la fórmula usa celdas precedentes y celdas dependientes.
 
-- **Células precedentes**son celdas a las que se hace referencia mediante una fórmula en otro Cell. Por ejemplo, si la celda D10 contiene la fórmula =B5, la celda B5 es un precedente de la celda D10.
-- **células dependientes**contienen fórmulas que hacen referencia a otras celdas. Por ejemplo, si la celda D10 contiene la fórmula =B5, la celda D10 depende de la celda B5.
+## **Aspose.Cells - Rastreo de Precedentes y Dependientes**
+Las hojas de cálculo financieras complejas, especialmente aquellas desarrolladas en colaboración, pueden ocultar los errores más vergonzosos. Verificar la precisión de las fórmulas y encontrar la fuente de un error puede ser difícil cuando la fórmula utiliza celdas precedentes y celdas dependientes.
 
-Para que la hoja de cálculo sea fácil de leer, es posible que desee mostrar claramente qué celdas de una hoja de cálculo se utilizan en una fórmula. De manera similar, es posible que desee extraer las celdas dependientes de otras celdas.
+- **Celdas precedentes** son celdas a las que se hace referencia en una fórmula en otra celda. Por ejemplo, si la celda D10 contiene la fórmula =B5, la celda B5 es precedente de la celda D10.
+- **Celdas dependientes** contienen fórmulas que se refieren a otras celdas. Por ejemplo, si la celda D10 contiene la fórmula =B5, la celda D10 es dependiente de la celda B5.
 
-Aspose.Cells le permite rastrear celdas y averiguar cuáles están vinculadas.
+Para que la hoja de cálculo sea fácil de leer, es posible que desees mostrar claramente qué celdas en una hoja de cálculo se utilizan en una fórmula. Del mismo modo, es posible que desees extraer las celdas dependientes de otras celdas.
 
-Rastreando precedentes
+Aspose.Cells te permite rastrear celdas y averiguar cuáles están vinculadas.
+
+Rastreo de Precedentes
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -84,21 +85,21 @@ if(ret != null)
 
 {{< /highlight >}}
 
-Seguimiento de dependientes
+Rastreo de Dependientes
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Obtener la celda A1
+ //Get the A1 cell
 
-Cell c = celdas.get("A5");
+Cell c = cells.get("A5");
 
-// Obtenga todos los dependientes de la celda A5
+//Get the all the Dependents of A5 cell
 
-Cell[]dependientes = c.getDependents(true);
+Cell[] dependents = c.getDependents(true);
 
-para (int i = 0; i< dependents.length; i++)
+for (int i = 0; i< dependents.length; i++)
 
 {
 
@@ -107,13 +108,13 @@ para (int i = 0; i< dependents.length; i++)
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/tracingprecedentsanddependents/AsposeTracingPrecedentsAndDependents.java)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Seguimiento de precedentes y dependientes](/java/tracing-precedents-and-dependents).
+Para más detalles, visita [Rastreo de Precedentes y Dependientes](/java/rastreo-de-precedentes-y-dependientes).
 
 {{% /alert %}}

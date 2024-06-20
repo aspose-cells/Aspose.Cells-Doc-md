@@ -1,18 +1,19 @@
-﻿---
-title: Excelファイルに格納する有効数字を指定する
+---
+title: Excelファイルに保存する有効桁数を指定する
 type: docs
 weight: 30
 url: /ja/net/specifying-significant-digits-to-be-stored-in-excel-file/
 ---
-## **考えられる使用シナリオ**
 
-デフォルトでは、Aspose.Cells は、有効桁数 15 桁のみを格納する MS-Excel とは異なり、Excel ファイル内に有効桁数 17 桁の double 値を格納します。を使用して、Aspose.Cells のデフォルトの動作を 17 桁から 15 桁に変更できます。[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)財産。
+## **可能な使用シナリオ**
 
-## **Excelファイルに格納する有効数字を指定する**
+デフォルトでは、Aspose.CellsはExcelファイル内の倍精度値の17桁の有効桁数を保存しますが、MS-Excelは15桁の有効桁数のみを保存します。[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits) プロパティを使用して、Aspose.Cellsのデフォルトの動作を17桁の有効桁数から15桁の有効桁数に変更できます。
 
-次のサンプル コードは、Aspose.Cells が 15 桁の有効数字を使用するように強制し、Excel ファイル内に double 値を格納します。を確認してください[出力エクセルファイル](22774105.xlsx).拡張子を .zip に変更して解凍すると、Excel ファイル内に有効数字が 15 桁しか格納されていないことがわかります。次のスクリーンショットは、[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)出力 Excel ファイルのプロパティ。
+## **Excelファイルに保存する有効桁数を指定**
 
-![todo:画像_代替_文章](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
+以下のサンプルコードは、Excelファイル内の倍精度値を保存する際にAspose.Cellsに15桁の有効桁数を使用するよう指定しています。[出力エクセルファイル](22774105.xlsx)をご確認ください。その拡張子を .zip に変更して解凍すると、Excelファイル内には15桁の有効桁数のみが保存されていることがわかります。以下のスクリーンショットは、[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits) プロパティの出力エクセルファイルへの影響を説明しています。
+
+![todo:image_alt_text](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
 
 ## **サンプルコード**
 

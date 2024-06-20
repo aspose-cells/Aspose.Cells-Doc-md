@@ -1,60 +1,62 @@
-﻿---
-title: أدخل الأشكال في ورقة العمل في Aspose.Cells
+---
+title: إدراج الأشكال في ورقة عمل في Aspose.Cells
 type: docs
 weight: 5
 url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 ---
+
+
 {{% alert color="primary" %}}
 
-تحتاج أحيانًا إلى إدراج بعض الأشكال الضرورية في ورقة العمل ، وقد تحتاج إلى إدراج نفس الشكل في مواضع مختلفة من ورقة العمل ، أو قد تحتاج إلى إدخال أشكال مجمعة في ورقة العمل.
+في بعض الأحيان قد تحتاج إلى إدراج بعض الأشكال الضرورية في ورقة العمل. قد تحتاج إلى إدراج نفس الشكل في مواقع مختلفة في ورقة العمل. أو قد تحتاج إلى إدراج أشكال بشكل دُفعي في ورقة العمل.
 
- لا تقلق![Aspose.Cells](https://products.aspose.com/cells/)يدعم كل هذه العمليات.
+لا تقلق! [Aspose.Cells](https://products.aspose.com/cells/) تدعم جميع هذه العمليات.
 
 {{% /alert %}}
 
-تنقسم الأشكال في برنامج Excel بشكل أساسي إلى الأنواع التالية:
-- **خطوط**
+الأشكال في إكسل تنقسم أساسًا إلى الأنواع التالية:
+- **الخطوط**
 - **المستطيلات**
 - **الأشكال الأساسية**
-- **أسهم بلوك**
+- **السهام البلوكية**
 - **أشكال المعادلة**
-- **مخططات انسيابية**
-- **النجوم واللافتات**
-- **وسائل الشرح**
+- **رسوم بيانية لسير العمل**
+- **النجوم والرايات**
+- **التلويحات**
 
- ستحدد وثيقة الدليل هذه شكلاً أو شكلين من كل نوع لعمل عينات ، ومن خلال هذه الأمثلة سوف تتعلم كيفية الاستخدام[Aspose.Cells](https://products.aspose.com/cells/) لإدراج الشكل المحدد في ورقة العمل.
+سيتم في هذا الدليل اختيار شكل أو اثنين من كل نوع لإنشاء أمثلة. من خلال هذه الأمثلة، ستتعلم كيفية استخدام [Aspose.Cells](https://products.aspose.com/cells/) لإدراج الشكل المحدد في ورقة العمل.
 
 
 
-## **إدراج سطر في ورقة العمل**
+## **إدراج خط في ورقة العمل**
 
- شكل الخط ينتمي إلى**خطوط** الفئة.
+شكل الخط ينتمي إلى فئة ال**خطوط**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج الخط
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
-- ثم حدد السطر من "الأشكال المستخدمة مؤخرًا" أو "الخطوط"
+- حدد الخلية التي تريد إدراج الخط فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد الخط من 'الأشكال المستخدمة مؤخرًا' أو 'الخطوط'.
 
 ![](line.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج سطر في ورقة العمل.
+يمكنك استخدام الطريقة التالية لإدراج خط في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام addShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
+يعيد الأسلوب كائن [شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج سطر في ورقة العمل.
+يظهر المثال التالي كيفية إدراج خط في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Line.java" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](line2.png)
 
@@ -62,67 +64,67 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 ## **إدراج سهم خط في ورقة العمل**
 
- شكل سهم الخط ينتمي إلى**خطوط** فئة وهي حالة خاصة من الخط.
+شكل سهم الخط ينتمي إلى فئة **الخطوط**. إنه حالة خاصة من الخط.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج سهم الخط
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
-- ثم حدد سهم الخط من "الأشكال المستخدمة مؤخرًا" أو "الخطوط"
+- حدد الخلية التي تريد إدراج سهم الخط فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد سهم الخط من 'الأشكال المستخدمة مؤخرًا' أو 'الخطوط'.
 
 ![](line_arrow1.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
 يمكنك استخدام الطريقة التالية لإدراج سهم خط في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام addShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
+يعيد الأسلوب كائن [شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج سهم الخط في ورقة العمل.
+المثال التالي يوضح كيفية إدراج سهم خط في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-LineArrow.java" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](line_arrow2.png)
 
 
 
-## **ادراج مستطيل في ورقه العمل**
+## **إدراج مستطيل في ورقة العمل**
 
- شكل المستطيل ينتمي إلى**المستطيلات** الفئة.
+شكل المستطيل ينتمي إلى فئة **المستطيلات**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج المستطيل
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
-- ثم حدد المستطيل من "الأشكال المستخدمة حديثًا" أو "المستطيلات"
+- حدد الخلية التي تريد إدراج المستطيل فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم اختر المستطيل من 'الأشكال المستخدمة مؤخرًا' أو 'المستطيلات'
 
 ![](rectangle.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
 يمكنك استخدام الطريقة التالية لإدراج مستطيل في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام addShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
+يعيد الأسلوب كائن [شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج مستطيل في ورقة عمل.
+المثال التالي يوضح كيفية إدراج مستطيل في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Rectangle.java" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](rectangle2.png)
 
@@ -130,67 +132,67 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 ## **إدراج مكعب في ورقة العمل**
 
-شكل المكعب ينتمي إلى**الأشكال الأساسية** الفئة.
+شكل المكعب ينتمي إلى فئة **الأشكال الأساسية**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج المكعب
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد المكعب من**الأشكال الأساسية**
+- حدد الخلية التي تريد إدراج المكعب فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد المكعب من **الأشكال الأساسية**
 
 ![](cube.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج مكعب في ورقة العمل.
+يمكنك استخدام الطريقة التالية لإدراج مكعب في الورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
+يعيد الأسلوب كائن [شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج مكعب في ورقة عمل.
+المثال التالي يوضح كيفية إدراج مكعب في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Cube.java" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](cube2.png)
 
 
 
-## **إدراج سهم وسيلة شرح رباعي في ورقة العمل**
+## **إدراج سهم مربعي الدعوة إلى ورقة العمل**
 
- شكل سهم وسيلة الشرح الرباعي ينتمي إلى**أسهم بلوك** الفئة.
+شكل سهم مربعي الدعوة ينتمي إلى فئة **السهام الكتلية**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج سهم وسيلة الشرح الرباعية
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد سهم وسيلة الشرح الرباعي من**أسهم بلوك**
+- حدد الخلية التي تريد إدراج سهم المربعي الدعوة فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد سهم المربعي الدعوة من **السهام الكتلية**
 
 ![](callout_quad_arrow.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج سهم رباعي وسيلة الشرح في ورقة العمل.
+يمكنك استخدام الطريقة التالية لإدراج سهم رباعي الاتصال في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
+يعيد الأسلوب كائن [شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج سهم وسيلة الشرح الرباعي في ورقة عمل.
+المثال التالي يُظهر كيفية إدراج سهم رباعي الاتصال في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.java" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](callout_quad_arrow2.png)
 
@@ -198,134 +200,134 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 ## **إدراج علامة الضرب في ورقة العمل**
 
- شكل علامة الضرب ينتمي إلى**أشكال المعادلة** الفئة.
+شكل علامة الضرب ينتمي إلى فئة **أشكال المعادلة**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج علامة الضرب
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد علامة الضرب من**أشكال المعادلة**
+- حدد الخلية التي ترغب في إدراج علامة الضرب فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد علامة الضرب من **أشكال المعادلة**
 
 ![](multiplication_sign.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
 يمكنك استخدام الطريقة التالية لإدراج علامة الضرب في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
+يعيد الأسلوب كائن [شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج علامة الضرب في ورقة العمل.
+المثال التالي يُظهر كيفية إدراج علامة الضرب في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.java" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](multiplication_sign2.png)
 
 
 
-## **إدراج مستند متعدد في ورقة العمل**
+## **إدراج مستند متعدد الوثائق في ورقة العمل**
 
- شكل المستندات المتعددة ينتمي إلى**مخططات انسيابية** الفئة.
+شكل مستند متعدد الوثائق ينتمي إلى فئة **الرسوم البيانية للتدفقات**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج المستند المتعدد
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد مستند متعدد من**مخططات انسيابية**
+- حدد الخلية التي ترغب في إدراج مستند متعدد الوثائق فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم اختر مستند متعدد الوثائق من **الرسوم البيانية للتدفقات**
 
 ![](multidocument.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج مستند متعدد في ورقة العمل.
+يمكنك استخدام الطريقة التالية لإدراج مستند متعدد الوثائق في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
+يعيد الأسلوب كائن [شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج مستند متعدد في ورقة عمل.
+المثال التالي يوضح كيفية إدراج مستند متعدد الوثائق في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Multidocument.java" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](multidocument2.png)
 
 
 
-## **إدراج نجمة خماسية في ورقة العمل**
+## **إدراج نجمة مؤلفة من خمس نقاط في ورقة العمل**
 
- شكل النجمة الخماسية ينتمي إلى**النجوم واللافتات** الفئة.
+شكل النجمة المؤلفة من خمس نقاط ينتمي إلى فئة **النجوم والرايات**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج النجمة الخماسية
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد النجمة الخماسية من**النجوم واللافتات**
+- حدد الخلية التي ترغب في إدراج النجمة المؤلفة من خمس نقاط فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم اختر النجمة المؤلفة من خمس نقاط من **النجوم والرايات**
 
 ![](star_5_points.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج نجمة خماسية في ورقة العمل.
+يمكنك استخدام الأسلوب التالي لإدراج نجمة ذات خمس نقاط في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
+يعيد الأسلوب كائن [شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج نجمة خماسية في ورقة العمل.
+توضح النموذج التالي كيفية إدراج نجمة ذات خمس نقاط في ورق عمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-FivePointedStar.java" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](star_5_points2.png)
 
 
 
-## **إدراج سحابة فقاعية في ورقة العمل**
+## **إدراج سحابة فكرية في ورقة العمل**
 
- شكل سحابة فقاعة الفكر ينتمي إلى**وسائل الشرح** الفئة.
+شكل سحابة الفكر ينتمي إلى فئة **المكالمات**.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
-- حدد الخلية حيث تريد إدراج سحابة الفقاعة الفكرية
-- انقر فوق قائمة "إدراج" وانقر فوق الأشكال.
--  ثم حدد سحابة الفقاعة الفكرية من**وسائل الشرح**
+- حدد الخلية التي تريد إدراج سحابة الفكر فيها
+- انقر فوق القائمة إدراج وانقر فوق الأشكال.
+- ثم، حدد سحابة الفكر من **المكالمات**
 
 ![](thought_bubble_cloud.png)
 
-***باستخدام Aspose.Cells***
+***استخدام Aspose.Cells***
 
-يمكنك استخدام الطريقة التالية لإدراج سحابة فقاعية في ورقة العمل.
+يمكنك استخدام الأسلوب التالي لإدراج سحابة فكرية في ورقة العمل.
 
 {{% alert color="primary" %}}
 
-[الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
+يعيد الأسلوب كائن [شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape).
 
 {{% /alert %}}
 
-يوضح المثال التالي كيفية إدراج سحابة فقاعية فكرية في ورقة عمل.
+المثال التالي يوضح كيفية إدراج سحابة فكرية في ورقة العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.java" >}}
 
-قم بتنفيذ الكود أعلاه ، ستحصل على النتائج التالية:
+قم بتنفيذ الكود أعلاه، ستحصل على النتائج التالية:
 
 ![](thought_bubble_cloud2.png)

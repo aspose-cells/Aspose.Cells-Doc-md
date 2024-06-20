@@ -1,13 +1,14 @@
 ---
-title: قم بإنشاء كائن النمط باستخدام فئة CellsFactory
-description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جداول البيانات التي توفر كائن نمط لخلايا النمط. ستقدم هذه المقالة كيفية إنشاء كائن نمط الخلية باستخدام فئة CellsFactory في مكتبة Aspose.Cells بحيث يمكن للمستخدمين تخصيص مظهر الخلايا حسب الحاجة.
-keywords: Aspose.Cells, .NET library, electronic spreadsheet, style object, cell style, customization
+title: انشاء كائن نمط باستخدام فئة CellsFactory
+description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جدول البيانات التي توفر كائن النمط لتنسيق الخلايا. سيقدم هذا المقال كيفية إنشاء كائن نمط الخلية باستخدام فئة CellsFactory في مكتبة Aspose.Cells بحيث يمكن للمستخدمين تخصيص مظهر الخلايا حسب الحاجة.
+keywords: Aspose.Cells ، مكتبة .NET ، جدول بيانات إلكتروني ، كائن نمط ، نمط الخلية ، تخصيص
 type: docs
 weight: 70
 url: /ar/net/create-style-object-using-cellsfactory-class/
 ---
-##  **قم بإنشاء كائن النمط باستخدام فئة CellsFactory**
- يتم إنشاء نموذج التعليمات البرمجية التالي[أسلوب](https://reference.aspose.com/cells/net/aspose.cells/style) الكائن باستخدام[مصنع الخلايا](https://reference.aspose.com/cells/net/aspose.cells/cellsfactory) class ثم يقوم بتعيين النمط الافتراضي للمصنف. يرجى تنزيل[إخراج ملف إكسل](5115153.xlsx) لرؤية نتائج هذا الرمز للرجوع إليها.
+
+## **انشاء كائن نمط باستخدام فئة CellsFactory**
+ينشئ الكود العينة التالي [كائن النمط](https://reference.aspose.com/cells/net/aspose.cells/style) باستخدام [فئة CellsFactory](https://reference.aspose.com/cells/net/aspose.cells/cellsfactory) ثم يحدد النمط الافتراضي لجدول البيانات. يرجى تنزيل [ملف الـExcel الناتج](5115153.xlsx) لرؤية نتائج هذا الكود للرجوع إليه.
 
 
 

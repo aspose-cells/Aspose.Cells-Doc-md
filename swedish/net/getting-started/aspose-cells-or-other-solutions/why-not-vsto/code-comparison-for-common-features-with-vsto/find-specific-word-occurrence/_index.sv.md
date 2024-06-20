@@ -1,11 +1,12 @@
-﻿---
-title: Hitta specifik ordförekomst
+---
+title: Hitta specifik ordhändelse
 type: docs
 weight: 120
 url: /sv/net/find-specific-word-occurrence/
 ---
+
 ## **VSTO Excel**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Excel.Application excelApp = Application;
 
@@ -42,9 +43,9 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- static void Main(string[]args)
+ static void Main(string[] args)
 
 {
 
@@ -116,7 +117,7 @@ private static void findNow(Worksheet objSheet, string textToFind)
 
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Find.Specific.Word.Occurrence.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Find%20Specific%20Word%20Occurrence)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Find%20Specific%20Word%20Occurrence)

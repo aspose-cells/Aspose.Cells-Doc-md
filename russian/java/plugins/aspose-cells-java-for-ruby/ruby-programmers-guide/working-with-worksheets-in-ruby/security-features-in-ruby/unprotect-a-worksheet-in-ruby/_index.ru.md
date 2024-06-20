@@ -1,15 +1,16 @@
-﻿---
-title: Снять защиту рабочего листа в Ruby
+---
+title: Снять защиту листа в Ruby
 type: docs
 weight: 20
 url: /ru/java/unprotect-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells - Снять защиту с рабочего листа**
- Чтобы защитить рабочий лист с помощью**Aspose.Cells Java для рубина** , вызов**unprotect_worksheet** метод**защита** модуль.
 
-**Рубиновый код**
+## **Aspose.Cells - Снять защиту листа**
+Чтобы защитить рабочий лист с помощью Aspose.Cells Java для Ruby, вызовите метод unprotect_worksheet модуля protection.
 
-{{< highlight "ruby" >}}
+**Код на Ruby**
+
+{{< highlight ruby >}}
 
  def unprotect_worksheet()
 
@@ -54,7 +55,7 @@ url: /ru/java/unprotect-a-worksheet-in-ruby/
 end   
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Снять защиту с рабочего листа (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Снятие защиты с листа (Aspose.Cells)** с любого из указанных ниже социальных сайтов для разработки:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

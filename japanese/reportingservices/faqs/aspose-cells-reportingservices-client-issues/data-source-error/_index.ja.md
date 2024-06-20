@@ -1,20 +1,21 @@
-﻿---
-title: データ ソース エラー
+---
+title: データソースのエラー
 type: docs
 weight: 20
 url: /ja/reportingservices/data-source-error/
 ---
-##### **説明**
-レポートを発行すると、Aspose.Cells.ReportingServices クライアントで次のエラーが生成されます。
 
-![todo:画像_代替_文章](data-source-error_1.png)
-##### **解決**
+##### **説明**
+レポートを公開する際、Aspose.Cells.ReportingServicesクライアントでエラーが発生する: 
+
+![todo:image_alt_text](data-source-error_1.png)
+##### **解決策**
 {{% alert color="primary" %}} 
 
-1. クリック**データ ソースの設定**.
-1. 選択する**データ ソースを共有する**.
-1. レポートを再発行します。
+1. **データソースの設定** をクリックします。
+1. **共有データソース** を選択します。
+1. レポートを再公開します。 
 
-![todo:画像_代替_文章](data-source-error_2.png)
+![todo:image_alt_text](data-source-error_2.png)
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
-﻿---
-title: Pivot-Verbindung hinzufügen
+---
+title: Pivot Verbindung hinzufügen
 type: docs
 weight: 30
 url: /de/java/add-pivot-connection/
-description: Erfahren Sie, wie Sie eine Pivot-Verbindung mit der Bibliothek Aspose.Cells Java hinzufügen.
-keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Erfahren Sie, wie Sie eine Pivot Verbindung mit der Aspose.Cells Java Bibliothek hinzufügen.
+keywords: Pivot Verbindung hinzufügen ohne Office 2013, Office 2016, Office 2019 und Office 365.
 ---
-## **Mögliche Nutzungsszenarien**
 
- Wenn Sie Slicer und Pivot-Tabelle in Excel verknüpfen möchten, müssen Sie mit der rechten Maustaste auf Slicer klicken und das Element "Verbindungen melden..." auswählen. In der Optionsliste können Sie das Kontrollkästchen bearbeiten. Wenn Sie Slicer und Pivot-Tabelle mit Aspose.Cells Java API programmgesteuert verknüpfen möchten, verwenden Sie bitte die[**Slicer.addPivotConnection (PivotTable-Pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/) Methode. Es wird Slicer und Pivot-Tabelle zuordnen.
+## **Mögliche Verwendungsszenarien**
 
-## **Slicer und PivotTable zuordnen**
+Wenn Sie in Excel einen Slicer und einen Pivot-Table verknüpfen möchten, müssen Sie mit der rechten Maustaste auf den Slicer klicken und den Punkt "Berichtsverbindungen..." auswählen. In der Optionsliste können Sie das Kontrollkästchen bedienen. Ebenso, wenn Sie Slicer und Pivot-Table mit dem Aspose.Cells Java-API programmgesteuert verknüpfen möchten, verwenden Sie bitte die Methode [**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/). Sie wird Slicer und Pivot-Table verknüpfen.
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](add-pivot-connection.xlsx)die einen vorhandenen Slicer enthält. Sie greift auf den Slicer zu und ordnet dann Slicer und PivotTable zu. Schließlich speichert es die Arbeitsmappe als[Excel-Datei ausgeben](add-pivot-connection-out.xlsx). 
+## **Slicer und PivotTable verknüpfen**
+
+Der folgende Beispielcode lädt die [Beispieldatei](add-pivot-connection.xlsx), die bereits einen Slicer enthält. Er greift auf den Slicer zu und verknüpft dann den Slicer und die Pivot-Tabelle. Schließlich speichert er die Arbeitsmappe als [Ausgabe-Excel-Datei](add-pivot-connection-out.xlsx). 
 
 
 ## **Beispielcode**

@@ -1,17 +1,18 @@
-﻿---
-title: Importación desde matriz
+---
+title: Importar desde un array
 type: docs
 weight: 10
 url: /es/net/importing-from-array/
 ---
- Los desarrolladores pueden importar datos de una matriz a sus hojas de trabajo llamando al**Importar matriz** método de la colección Cells. Hay muchas versiones sobrecargadas del método ImportArray pero una sobrecarga típica toma los siguientes parámetros:
 
-- Array, representa el objeto de matriz cuyo contenido necesita importar
+Los desarrolladores pueden importar datos desde un array a sus hojas de cálculo llamando al método **ImportArray** de la colección Cells. Hay muchas versiones sobrecargadas del método ImportArray, pero una sobrecarga típica toma los siguientes parámetros:
+
+- Array, representa el objeto array cuyo contenido necesita ser importado
 - Número de fila, representa el número de fila de la primera celda donde se importarán los datos
 - Número de columna, representa el número de columna de la primera celda donde se importarán los datos
-- Es Vertical, un valor booleano que especifica importar datos vertical u horizontalmente
+- Es Vertical, un valor booleano que especifica si importar los datos vertical u horizontalmente
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -27,7 +28,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 //Creating an array containing names as string values
 
-string[]names = new string[]{ "laurence chen", "roman korchagin", "kyle huang" };
+string[] names = new string[] { "laurence chen", "roman korchagin", "kyle huang" };
 
 //Importing the array of names to 1st row and first column vertically
 

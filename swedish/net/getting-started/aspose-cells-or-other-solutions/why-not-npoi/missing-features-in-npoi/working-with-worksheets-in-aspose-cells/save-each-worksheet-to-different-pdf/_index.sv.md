@@ -1,29 +1,30 @@
-﻿---
-title: Spara varje arbetsblad till olika PDF
+---
+title: Spara varje kalkylblad i olika PDF
 type: docs
 weight: 10
 url: /sv/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - Spara varje arbetsblad till olika PDF**
-Aspose.Cells stöder konvertering av XLS-filer (som innehåller bilder, diagram etc.) till PDF-dokument. Aspose.Cells for .NET kan arbeta självständigt för att konvertera ett kalkylblad till Pdf-dokument och du behöver inte längre använda Aspose.Pdf for .NET för konverteringen. Konverteringen kräver inte att man skapar/använder någon temporär fil(er) också eftersom hela processen kan göras i minnet.
+
+## **Aspose.Cells - Spara varje kalkylblad i olika PDF**
+Aspose.Cells stöder konvertering av XLS-filer (som innehåller bilder, diagram etc.) till PDF-dokument. Aspose.Cells for .NET kan arbeta självständigt för att konvertera en kalkylblad till Pdf-dokument och du behöver inte längre använda Aspose.Pdf för .NET för konverteringen. Konverteringen kräver inte heller att du skapar/använder några temporära filer eftersom hela processen kan göras i minnet.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- //Instantiera en ny arbetsbok och öppna Excel
+ //Instantiate a new workbook and open the Excel
 
-//Fil från sin plats
+//File from its location
 
-Arbetsbok arbetsbok = ny arbetsbok("../../data/test.xlsx");
+Workbook workbook = new Workbook("../../data/test.xlsx");
 
-//Hämta antalet arbetsblad i arbetsboken
+//Get the count of the worksheets in the workbook
 
-int sheetCount = arbetsbok.Worksheets.Count;
+int sheetCount = workbook.Worksheets.Count;
 
-//Gör alla ark osynliga utom det första kalkylbladet
+//Make all sheets invisible except first worksheet
 
- för (int i = 1; i< workbook.Worksheets.Count; i++)
+for (int i = 1; i < workbook.Worksheets.Count; i++)
 
 {
 
@@ -54,13 +55,13 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Spara varje arbetsblad till olika PDF** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Spara varje kalkylblad i olika PDF** från någon av nedanstående sociala kodningssidor:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Spara varje kalkylblad till en annan PDF-fil](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
+För mer detaljer, besök [Spara varje kalkylblad som en annan PDF-fil](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}

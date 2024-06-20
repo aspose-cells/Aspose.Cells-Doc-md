@@ -1,15 +1,16 @@
-﻿---
-title: Zeichnen Sie die Zeitachse, während Sie Excel auf PDF rendern
+---
+title: Zeitleiste beim Rendern von Excel in PDF zeichnen
 type: docs
 weight: 60
 url: /de/net/draw-timeline-while-rendering-excel-to-pdf/
-description: Verwalten Sie Zeitleisten von Excel-Dateien mit Aspose.Cells.
-keywords: Rendering timeline to pdf without office 2013, office 2016, office 2019 and office 365
+description: Verwalten Sie Zeitachsen von Excel Dateien mit Aspose.Cells.
+keywords: Zeitleiste ohne Office 2013, Office 2016, Office 2019 und Office 365 in PDF rendern
 ---
-## **Zeichnen Sie die Zeitachse, während Sie Excel auf PDF rendern**
-Wenn Sie eine Excel-Datei haben, auf die eine Zeitachse angewendet wurde, und Sie die Excel-Datei mit den Zeitachseneinstellungen nach PDF exportieren möchten, unterstützt Aspose.Cells dies jetzt standardmäßig. Sie exportieren einfach die Excel-Datei mit Zeitleiste nach PDF, die generierte PDF zeigt die angewendete Zeitleiste.
 
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](input.xlsx) die eine vorhandene Zeitleiste enthält. Es speichert dann die Arbeitsmappe als[Ausgabedatei PDF](out.pdf). Der folgende Screenshot vergleicht die Excel-Quelldatei und die generierte PDF-Datei.
+## **Zeitleiste beim Rendern von Excel in PDF zeichnen**
+Wenn Sie eine Excel-Datei haben, der eine Zeitachse zugewiesen ist und Sie die Excel-Datei mit den Einstellungen der Zeitachse in PDF exportieren möchten, unterstützt Aspose.Cells dies jetzt standardmäßig. Exportieren Sie einfach die Excel-Datei mit Zeitachse in PDF, das generierte PDF zeigt die zugewiesene Zeitachse.
+
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](input.xlsx), die eine vorhandene Zeitachse enthält. Anschließend speichert er die Arbeitsmappe als [ausgegebene PDF-Datei](out.pdf). Der folgende Screenshot vergleicht die Quell-Excel-Datei und die generierte PDF-Datei.
 
 <img src="out.png" width="60%">
 

@@ -1,37 +1,38 @@
-﻿---
-title: Was ist eine Designer-Tabelle
+---
+title: Was ist ein Designer Arbeitsblatt
 type: docs
 weight: 50
 url: /de/python-net/what-is-a-designer-spreadsheet/
 ---
+
 ## **Möchten Sie die Entwicklung beschleunigen?**
 
 {{% alert color="primary" %}}
 
-Sie können Aspose.Cells verwenden, um mit Hilfe des flexiblen API Excel-Dateien von Grund auf neu zu erstellen. Eine der häufigsten Anwendungen für Aspose.Cells ist das Erstellen und Füllen von Excel-Dateien mit Daten, die aus einer vorhandenen Datenbank, einem Benutzer oder anderen Quellen stammen können. dynamisch. Neben dem Hinzufügen von Daten zu Excel-Dateien müssen Sie auch schreiben, um die Formatierung (Look and Feel) anzuwenden.
+Sie können Aspose.Cells verwenden, um Excel-Dateien von Grund auf mit Hilfe seiner flexiblen API zu erstellen. Eine der häufigsten Anwendungen von Aspose.Cells besteht darin, Excel-Dateien mit Daten zu erstellen und zu füllen, die aus einer vorhandenen Datenbank, einem Benutzer oder anderen Quellen dynamisch stammen können. Neben der Hinzufügung von Daten zu Excel-Dateien müssen Sie auch die Formatierung anwenden (Aussehen und Gefühl).
 
-Das Formatieren braucht Zeit. Was könnte die Entwicklung beschleunigen?
+Formatierung dauert Zeit. Was könnte die Entwicklung beschleunigen?
 
 {{% /alert %}}
 
-## **Die Lösung - Designer-Tabellenkalkulationen**
+## **Die Lösung - Designer-Arbeitsblätter**
 
-Um Ihre Entwicklung zu beschleunigen, bietet Aspose.Cells die aufregende Feature-Designer-Tabelle.
+Um Ihre Entwicklung zu beschleunigen, bietet Aspose.Cells das aufregende Feature Designer-Arbeitsblatt.
 
-### **Was ist eine Designer-Tabelle?**
+### **Was ist ein Designer-Arbeitsblatt?**
 
-Ein Designer-Arbeitsblatt ist eine Excel-Datei, die mit Microsoft Excel erstellt wurde, in der alle Formatierungen bereits angewendet wurden und der Inhalt zur Entwurfszeit festgelegt werden kann. Es ist eher eine Vorlagendatei, die keine Daten enthält, sondern nur die Formatierung, wie unten gezeigt:
+Ein Designer-Arbeitsblatt ist eine Excel-Datei, die mit Microsoft Excel erstellt wurde und in der bereits alle Formatierungen angewendet wurden, und der Inhalt zur Entwurfszeit festgelegt werden kann. Es ähnelt eher einer Vorlagendatei, die keine Daten, sondern nur die Formatierung enthält, wie unten gezeigt:
 
-**Designer-Tabelle**
+**Designer-Arbeitsblatt**
 
-![todo: Bild_alt_Text](what-is-a-designer-spreadsheet_1.png)
+![todo:image_alt_text](what-is-a-designer-spreadsheet_1.png)
 
-### **Wie benutzt man es?**
+### **Wie wird es verwendet?**
 
- Verwenden Sie nach dem Erstellen eines Designer-Arbeitsblatts Aspose.Cells, um das Designer-Arbeitsblatt zu lesen und Daten an den angegebenen Positionen (gemäß den vordefinierten Formateinstellungen) zur Laufzeit hinzuzufügen. Im obigen Screenshot können Sie beispielsweise sehen, dass wir uns bereits zur Entwurfszeit für das Hinzufügen entschieden haben**Produktname**, **Kategoriename**, **Menge pro Einheit** und**Einheiten auf Lager**Säulen. Sie haben noch keine Daten: diese werden zur Laufzeit hinzugefügt. Die obige Abbildung zeigt eine sehr einfache Tabellenkalkulation, aber Designer-Tabellenkalkulationen sparen Ihnen selbst bei komplexen Tabellenkalkulationen Zeit.
+Nach Erstellung eines Designer-Arbeitsblatts verwenden Sie Aspose.Cells, um das Designer-Arbeitsblatt zu lesen und Daten zu den festgelegten Positionen hinzuzufügen (gemäß den vordefinierten Formateinstellungen) zur Laufzeit. Zum Beispiel sehen Sie im obigen Screenshot, dass wir bereits zur Entwurfszeit entschieden haben, die Spalten **Produktname**, **Kategorienname**, **Menge pro Einheit** und **Einheiten auf Lager** hinzuzufügen. Sie haben noch keine Daten: diese werden zur Laufzeit hinzugefügt. Die obige Abbildung zeigt eine sehr einfache Tabelle, aber Designer-Arbeitsblätter sparen Ihnen auch Zeit, selbst bei komplexen Tabellen.
 
-### **Intelligente Markierungen**
+### **Smart Marker**
 
- Zusätzlich können Sie mit Aspose.Cells hinzufügen[intelligente Markierungen](/cells/de/python-net/smart-markers/) zur Designer-Tabelle. Intelligente Markierungen werden zur Laufzeit mithilfe der Process-Methode der WorkbookDesigner-Klasse verarbeitet. Dies kann Ihnen helfen, weniger Code zu schreiben und trotzdem ein großartiges Ergebnis zu erzielen.
+Zusätzlich können Sie mit Aspose.Cells [Smart Marker](/cells/de/python-net/smart-markers/) zum Designer-Arbeitsblatt hinzufügen. Smart Marker werden zur Laufzeit mithilfe der Process-Methode der WorkbookDesigner-Klasse verarbeitet. Dies kann Ihnen helfen, weniger Code zu schreiben und dennoch ein großartiges Ergebnis zu erzielen.
 
-[Erfahren Sie mehr über intelligente Marker](/cells/de/python-net/smart-markers/).
+Erfahren Sie mehr über Smart Marker](/cells/de/python-net/smart-markers/).

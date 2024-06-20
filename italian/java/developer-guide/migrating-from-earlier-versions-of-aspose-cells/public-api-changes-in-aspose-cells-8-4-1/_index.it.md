@@ -1,23 +1,24 @@
-﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.4.1
+---
+title: Modifiche all API pubblica in Aspose.Cells 8.4.1
 type: docs
 weight: 150
 url: /it/java/public-api-changes-in-aspose-cells-8-4-1/
 ---
+
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.4.0 alla 8.4.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-1/) e[classi rimosse ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-1/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche apportate all'API di Aspose.Cells dalla versione 8.4.0 alla 8.4.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo nuovi e aggiornati metodi pubblici, [classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-1/) e [classi rimosse ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-1/), ma anche una descrizione di eventuali modifiche nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Meccanismo per modificare la connessione al database**
-La classe com.aspose.cells.ExternalConnection conteneva già il metodo e le proprietà che potevano essere utilizzate per ispezionare i dettagli della connessione al database archiviati in un foglio di calcolo. La maggior parte delle proprietà associate alla classe ExternalConnection erano di sola lettura fino al rilascio di Aspose.Cells for Java 8.4.1. Con questa versione, lo API ha fornito il supporto per manipolare anche le impostazioni di connessione al database.
+La classe com.aspose.cells.ExternalConnection conteneva già il metodo e le proprietà che potevano essere utilizzate per ispezionare i dettagli della connessione al database memorizzati in un foglio di calcolo. La maggior parte delle proprietà associate alla classe ExternalConnection erano di sola lettura fino al rilascio di Aspose.Cells for Java 8.4.1. Con questo aggiornamento, l'API ha fornito il supporto per manipolare le impostazioni della connessione al database.
 
-Il frammento di codice seguente mostra come modificare dinamicamente le impostazioni di connessione al database.
+Il seguente frammento di codice mostra come modificare dinamicamente le impostazioni della connessione al database.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -43,38 +44,38 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-Ecco alcune delle proprietà più importanti esposte dalla classe {ExternalConnection}}.
+Ecco alcune delle proprietà più importanti esposte dalla classe {ExternalConnection}.
 
-|**Nome della proprietà** |**Descrizione** |
-|:- |:- |
-| BackgroundRefresh|Indica se la connessione può essere aggiornata in background (in modo asincrono).<br> true se l'utilizzo preferito della connessione consiste nell'aggiornare in modo asincrono in background;<br> false se l'utilizzo preferito della connessione consiste nell'aggiornare in modo sincrono in primo piano.|
-| Descrizione connessione| Specifica la descrizione utente per questa connessione|
-| ID connessione| Specifica l'identificatore univoco di questa connessione.|
-| Credenziali| Specifica il metodo di autenticazione da utilizzare quando si stabilisce (o si ristabilisce) la connessione.|
-| È eliminato|Indica se la connessione alla cartella di lavoro associata è stata eliminata. vero se il<br> la connessione è stata cancellata; altrimenti, falso.|
-| È nuovo| True se la connessione non è stata aggiornata per la prima volta; altrimenti, falso. Questo<br> state può verificarsi quando l'utente salva il file prima che una query abbia finito di restituire.|
-| KeepAlive|Vero quando l'applicazione del foglio di calcolo deve sforzarsi di mantenere la connessione<br> aprire. Se falso, l'applicazione dovrebbe chiudere la connessione dopo aver recuperato il file<br> informazione.|
-| Nome| Specifica il nome della connessione. Ogni connessione deve avere un nome univoco.|
-| OdcFile| Specifica il percorso completo del file di connessione esterno da cui proveniva questa connessione<br> creato. Se una connessione non riesce durante un tentativo di aggiornamento dei dati e reconnectionMethod=1,<br> quindi l'applicazione del foglio di calcolo riproverà utilizzando le informazioni dal file di connessione esterno<br> invece dell'oggetto connessione incorporato nella cartella di lavoro.|
-| Usa solo il file di connessione| Indica se l'applicazione per fogli di calcolo deve utilizzare sempre e solo il file<br> informazioni sulla connessione nel file di connessione esterno indicato dall'attributo odcFile<br> quando la connessione viene aggiornata. Se falso, l'applicazione del foglio di calcolo<br>deve seguire la procedura indicata dall'attributo reconnectionMethod|
-| Parametri| Ottiene ConnectionParameterCollection per una query ODBC o Web.|
-| Metodo di riconnessione| Specificare il tipo di metodo di riconnessione|
-|RefreshInternal| Specifica il numero di minuti tra gli aggiornamenti automatici della connessione.|
-| Aggiorna al caricamento| True se questa connessione deve essere aggiornata all'apertura del file; altrimenti, falso.|
-| Salvare i dati|True se i dati esterni recuperati tramite la connessione per popolare una tabella devono essere salvati<br> con la cartella di lavoro; altrimenti, falso.|
-| Salva la password| True se la password deve essere salvata come parte della stringa di connessione; altrimenti Falso.|
-| File sorgente| Utilizzato quando l'origine dati esterna è basata su file. Quando una connessione a tali dati<br> source non riesce, l'applicazione del foglio di calcolo tenta di connettersi direttamente a questo file. Forse<br> espresso in URI o notazione del percorso file specifica del sistema.|
-|SSOID|Identificatore per Single Sign On (SSO) utilizzato per l'autenticazione tra un intermediario<br> server spreadsheetML e l'origine dati esterna.|
-| Tipo| Specifica il tipo di origine dati.|
+|**Nome Proprietà** |**Descrizione** |
+| :- | :- |
+|BackgroundRefresh |Indica se la connessione può essere aggiornata in background (in modo asincrono). <br>true se l'uso preferito della connessione è quello di aggiornare in modo asincrono in background; <br>false se l'uso preferito della connessione è quello di aggiornare in modo sincrono in primo piano.
+|ConnectionDescription |Specifica la descrizione dell'utente per questa connessione.
+|ConnectionId |Specifica l'identificatore univoco di questa connessione.
+|Credentials |Specifica il metodo di autenticazione da utilizzare durante l'instaurazione (o il ripristino) della connessione.
+|IsDeleted |Indica se la connessione del workbook associata è stata eliminata. true se la<br>connessione è stata eliminata; altrimenti, false.
+|IsNew |True se la connessione non è stata aggiornata per la prima volta; altrimenti, false. Questo <br>stato può verificarsi quando l'utente salva il file prima che una query abbia finito di restituire i dati.
+|KeepAlive |True quando l'applicazione del foglio di calcolo dovrebbe fare sforzi per mantenere la connessione <br>aperta. Quando è false, l'applicazione dovrebbe chiudere la connessione dopo aver recuperato le <br>informazioni.
+|Name |Specifica il nome della connessione. Ogni connessione deve avere un nome univoco.
+|OdcFile |Specifica il percorso completo al file di connessione esterna da cui è stata <br>creata questa connessione. Se una connessione fallisce durante un tentativo di aggiornare i dati e il reconnectionMethod=1, <br>allora l'applicazione del foglio di calcolo tenterà di nuovo utilizzando le informazioni dal file di connessione esterna <br>invece dell'oggetto di connessione incorporato nel workbook.
+|OnlyUseConnectionFile |Indica se l'applicazione del foglio di calcolo dovrebbe sempre e solo utilizzare le <br>informazioni di connessione nel file di connessione esterna indicato dall'attributo odcFile <br>quando la connessione viene aggiornata. Se false, allora l'applicazione del foglio di calcolo <br>dovrebbe seguire la procedura indicata dall'attributo reconnectionMethod.
+|Parameters |Ottiene ConnectionParameterCollection per una query ODBC o web.
+|ReConnectionMethod |Specifica il tipo di reconnectionMethod.
+|RefreshInternal|Specifica il numero di minuti tra gli aggiornamenti automatici della connessione.
+|RefreshOnLoad |True se questa connessione dovrebbe essere aggiornata all'apertura del file; altrimenti, false.
+|SaveData |True se i dati esterni recuperati tramite la connessione per popolare una tabella devono essere salvati<br>con il workbook; altrimenti, false.
+|SavePassword |True se la password deve essere salvata come parte della stringa di connessione; altrimenti, Falso.
+|SourceFile |Utilizzato quando la sorgente dati esterna è basata su file. Quando una connessione a tale sorgente dati non riesce, l'applicazione foglio di calcolo tenta di connettersi direttamente a questo file. Può essere espressa in URI o notazione del percorso di file specifico del sistema.
+|SSOId|Identificatore per Single Sign On (SSO) utilizzato per l'autenticazione tra un server intermedio di spreadsheetML e la sorgente dati esterna.
+|Type |Specifica il tipo di sorgente dati.
 
-### **Possibilità di formattare la sottostringa del testo di DataLabels**
-Aspose.Cells for Java 8.4.1 ha esposto il metodo DataLabels.characters per recuperare un'istanza della classe FontSetting che corrisponde alla sottostringa di un ChartPoints.DataLabels. A sua volta, l'istanza della classe FontSetting può essere utilizzata per formattare la sottostringa di DataLabels con diverse impostazioni e colori dei caratteri.
+### **Possibilità di formattare la sottostringa del testo delle etichette dati.**
+Aspose.Cells for Java 8.4.1 ha esposto il metodo DataLabels.characters per recuperare un'istanza della classe FontSetting che corrisponde alla sottostringa di un ChartPoints.DataLabels. A sua volta, l'istanza della classe FontSetting può essere utilizzata per formattare la sottostringa dei DataLabels con diverse impostazioni del carattere e del colore.
 
-Il frammento di codice seguente mostra come utilizzare il metodo DataLabels.characters.
+Il seguente snippet di codice mostra come utilizzare il metodo DataLabels.characters.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook from source Excel file
 
@@ -110,14 +111,14 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-### **Possibilità di impostare le dimensioni dell'immagine desiderate per l'esportazione di fogli di calcolo e grafici**
-Aspose.Cells for Java 8.4.1 ha esposto il metodo ImageOrPrintOptions.setDesiredSize per impostare le dimensioni dell'immagine risultante durante l'esportazione di fogli di calcolo e grafici in immagini. Il metodo ImageOrPrintOptions.setDesiredSize accetta due parametri di tipo intero, dove il primo è la larghezza desiderata e il secondo l'altezza desiderata.
+### **Possibilità di impostare le dimensioni desiderate dell'immagine per l'esportazione di fogli di calcolo e grafici.**
+Aspose.Cells for Java 8.4.1 ha esposto il metodo ImageOrPrintOptions.setDesiredSize per impostare le dimensioni dell'immagine risultante durante l'esportazione di fogli e grafici in immagini. Il metodo ImageOrPrintOptions.setDesiredSize accetta due parametri di tipo intero, dove il primo è la larghezza desiderata e il secondo è l'altezza desiderata.
 
-Il seguente frammento di codice mostra come impostare le dimensioni desiderate durante l'esportazione del foglio di lavoro in PNG.
+Il frammento di codice seguente mostra come impostare le dimensioni desiderate durante l'esportazione del foglio di lavoro in PNG.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  com.aspose.cells.Workbook workbook = new com.aspose.cells.Workbook(input);
 
@@ -147,22 +148,22 @@ renderer.toImage(0, "output.png");
 
 {{% alert color="primary" %}} 
 
- Lo stesso metodo può essere utilizzato anche per convertire i grafici in immagini.
+Lo stesso metodo può essere utilizzato anche per convertire i grafici in immagini. 
 
 {{% /alert %}} 
 
-### **Commenti di rendering a PDF**
- Con il rilascio di v8.4.1, Aspose.Cells API ha fornito la proprietà PageSetup.PrintComments e l'enumerazione PrintCommentsType per facilitare il rendering dei commenti durante la conversione dei fogli di calcolo nel formato PDF. L'enumerazione PrintCommentsType ha le seguenti costanti.
+### **Rendering dei commenti in formato PDF**
+Con il rilascio della v8.4.1, l'API di Aspose.Cells ha fornito la proprietà PageSetup.PrintComments e l'enumerazione PrintCommentsType per facilitare il rendering dei commenti durante la conversione dei fogli di calcolo nel formato PDF. L'enumerazione PrintCommentsType ha le seguenti costanti. 
 
-- PrintCommentsType.PRINT_NO_COMMENTI: I commenti non devono essere resi.
-- PrintCommentsType.PRINT_IN_LUOGO: i commenti devono essere resi dove sono inseriti.
-- PrintCommentsType.PRINT_FOGLIO_FINE: i commenti devono essere resi alla fine del foglio di lavoro.
+- PrintCommentsType.PRINT_NO_COMMENTS: i commenti non devono essere resi.
+- PrintCommentsType.PRINT_IN_PLACE: i commenti devono essere resi dove sono posizionati.
+- PrintCommentsType.PRINT_SHEET_END: i commenti devono essere resi alla fine del foglio di lavoro.
 
-Il codice di esempio seguente illustra l'utilizzo della proprietà PageSetup.PrintComments per eseguire il rendering dei commenti utilizzando tutti i possibili valori di enumerazione PrintCommentsType.
+Il seguente codice di esempio dimostra l'uso della proprietà PageSetup.PrintComments per rendere i commenti utilizzando tutti i possibili valori di enumerazione PrintCommentsType.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of workbook
 
@@ -198,14 +199,14 @@ workbook.save("printsheetend.pdf");
 
 {{< /highlight >}}
 
-### **Aggiunta proprietà Workbook.isLicensed**
-Aspose.Cells for Java 8.4.1 ha esposto Workbook.isLicensed che potrebbe essere di grande aiuto nel determinare se la licenza è stata caricata correttamente o meno. Se accedi a questa proprietà prima di impostare la licenza, restituirà false e viceversa, tuttavia, la licenza dovrebbe essere valida.
+### **Aggiunta della proprietà Workbook.isLicensed**
+Aspose.Cells for Java 8.4.1 ha esposto Workbook.isLicensed che potrebbe essere di grande aiuto nel determinare se la licenza è stata caricata correttamente o meno. Se si accede a questa proprietà prima di impostare la licenza, restituirà false e viceversa, tuttavia, la licenza dovrebbe essere valida.
 
-Il codice di esempio seguente illustra l'utilizzo della proprietà Workbook.isLicensed.
+Il seguente codice di esempio dimostra l'uso della proprietà Workbook.isLicensed.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object before setting a license
 
@@ -235,14 +236,14 @@ else
 
 {{< /highlight >}}
 
-### **Aggiunta proprietà ImageOrPrintOptions.SVGFitToViewPort**
-Aspose.Cells for Java 8.4.1 ha esposto la proprietà SVGFitToViewPort per la classe ImageOrPrintOptions che può essere utilizzata per attivare l'attributo viewBox per il formato di file SVG durante l'esportazione di fogli di calcolo o grafici nel formato SVG. Il valore di default di questa proprietà è false pertanto l'XML di base per il file SVG generato senza impostare la suddetta proprietà non includerà l'attributo viewBox.
+### **Aggiunta della proprietà ImageOrPrintOptions.SVGFitToViewPort**
+Aspose.Cells for Java 8.4.1 ha esposto la proprietà SVGFitToViewPort per la classe ImageOrPrintOptions che può essere utilizzata per attivare l'attributo viewBox per il formato file SVG durante l'esportazione di fogli e grafici in formato SVG. Il valore predefinito di questa proprietà è falso, quindi l'XML di base per il file SVG generato senza impostare la suddetta proprietà non includerà l'attributo viewBox.
 
-Il codice di esempio seguente illustra l'utilizzo della proprietà ImageOrPrintOptions.SVGFitToViewPort.
+Il seguente codice di esempio mostra l'uso della proprietà ImageOrPrintOptions.SVGFitToViewPort.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -271,6 +272,6 @@ com.aspose.cells.SheetRender renderer = new com.aspose.cells.SheetRender(workshe
 renderer.toImage(0, "output.svg");
 
 {{< /highlight >}}
-## **API obsolete**
-### **Metodo Workbook.validateFormula Obsoleto**
+## **API deprecate**
+### **Metodo Workbook.validateFormula obsolete**
 Utilizzare la proprietà Cell.Formula per convalidare la formula.

@@ -1,45 +1,44 @@
 ---
-title: Frys första kolumn(erna) i Excel-kalkylblad
+title: Frysa första kolumn(er) i Excel ark
 linktitle: Frys kolumner
 type: docs
 weight: 190
 url: /sv/net/how-to-freeze-columns-of-excel-worksheet
-description: I den här artikeln kommer du att lära dig hur du fryser vänstra kolumner i Excel-kalkylblad programmatiskt med C# Library med .NET API.
-keywords: Freeze left columns, Feeze first columns, Lock the column(s)
+description: I den här artikeln kommer du att lära dig hur man fryser vänstra kolumner i Excel ark programmatiskt med C# Library och .NET API.
+keywords: Frys vänstra kolumner, Frys första kolumner, Lås kolumn(er)
 ---
-{{% alert color="primary" %}}
 
-I den här artikeln kommer vi att lära oss hur man fryser vänster kolumn(er).
-När du har en enorm mängd data i rad, så att du inte kan se de vänstra kolumnerna när du rullar horisontellt ner i kalkylbladet. Du kan frysa och låsa första kolumn(erna) så att du kan se den frysta delen även när resten av data rullas. Du kan enkelt se rubriker i de vänstra kolumnerna.
+## **Introduktion**
 
-{{% /alert %}}
+I den här artikeln kommer vi att lära oss hur man fryser vänsterkolumn(er). När du har en stor mängd data i en rad så kan du inte se de vänstra kolumnerna när du horisontellt skrollar i arket. Du kan frysa och låsa den första kolumnen så att du kan se den frysta delen även när resten av datan skrollas. Du kan enkelt se rubriker i de vänstra kolumnerna.
 
-##  **Frys kolumner i Excel**
+
+## **Frys kolumner i Excel**
 
 **![Frys vänster kolumn(er) i Excel](freeze-columns.png)**
 
 
 1. Om du vill frysa vänster kolumn(er), välj först kolumnen under kolumnen som ska frysas
-2. Klicka på Visa > Frys fönster.
-3. Klicka på Frys första kolumnen i rullgardinsmenyn.
-4. Om du bläddrar nedåt är den första kolumnen alltid i vyn till vänster.
+2. Klicka på Visa > Frysa rader.
+3. I rullgardinsmenyn, klicka på Frysa första kolumn.
+4. Om du skrollar ner är den första kolumnen alltid i vänster vy.
 
 **![Fonzen kolumn](frozen-columns.png)**
 
-Som du kan se är den första kolumnen frusen, den första kolumnen är alltid låst högst upp i vyn när du rullar horisontellt.
+Som du kan se är den första kolumnen frusen, den första kolumnen är alltid låst högst upp i vyn när du skrollar horisontellt.
 
-Frys kolumner låter dig se dina långa data utan att behöva hålla reda på den första kolumnen.
-
-
+Frys kolumner låter dig visa dina långa data utan att behöva hålla reda på den första kolumnen.
 
 
-##  **Frys kolumner med Aspose.Cells för .Net**
-Det är enkelt att frysa första kolumn(erna) med Aspose.Cells för .Net.
- Vänligen använd[**Arbetsblad.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/)metod för att feeze kolumn(er) vid den valda kolumnen.
-1. Konstruera arbetsbok för att öppna filen eller skapa en tom fil.
-2. Frys den första kolumnen med metoden Worksheet.FreezePanes().
+
+
+## **Frys kolumner med Aspose.Cells för .Net**
+Det är enkelt att frysa första kolumn(er) med Aspose.Cells för .Net. 
+Använd [**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/)-metoden för att frysa kolumn(er) vid den valda kolumnen.
+1. Konstruera Arbetsbok för att öppna filen eller skapa en tom fil.
+2. Frys den första kolumnen med Worksheet.FreezePanes()-metoden.
 3. Spara filen.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Column.cs" >}}
 
- Bifogad[exempel på Excel-källfil](Freeze.xlsx).
+Bifogad [provkälla Excel-fil](Frys.xlsx).

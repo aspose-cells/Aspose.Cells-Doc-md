@@ -1,16 +1,17 @@
-﻿---
+---
 title: Implementieren Sie Cell.FormulaLocal ähnlich wie Excel VBA Range.FormulaLocal
 type: docs
 weight: 30
 url: /de/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Microsoft Excel-Formeln können in verschiedenen Gebietsschemata, Regionen oder Sprachen unterschiedliche Namen haben. Zum Beispiel,**SUMME**Funktion aufgerufen wird**SUMME** auf Deutsch. Aspose.Cells funktioniert nicht mit nicht-englischen Funktionsnamen. In Microsoft Excel VBA gibt es**Range.FormulaLocal**-Eigenschaft, die den Namen der Funktion gemäß ihrer Sprache oder Region zurückgibt. Aspose.Cells bietet auch[**Cell.FormulaLocal**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formulalocal)Eigentum für diesen Zweck. Diese Eigenschaft funktioniert jedoch nur, wenn Sie implementieren[**GlobalizationSettings.GetLocalFunctionName(string standardName)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname)Methode.
+## **Mögliche Verwendungsszenarien**
+
+Microsoft Excel-Formeln können in verschiedenen Regionen oder Sprachen unterschiedliche Namen haben. Zum Beispiel wird die **SUM**-Funktion auf Deutsch als **SUMME** bezeichnet. Aspose.Cells kann nicht mit Funktionen, die nicht in englischer Sprache angegeben sind, arbeiten. In Microsoft Excel VBA gibt es die **Range.FormulaLocal**-Eigenschaft, die den Namen der Funktion je nach Sprache oder Region zurückgibt. Aspose.Cells bietet auch die Eigenschaft [**Cell.FormulaLocal**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formulalocal) für diesen Zweck. Diese Eigenschaft funktioniert jedoch nur, wenn Sie die [**GlobalizationSettings.GetLocalFunctionName(string standardName)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname)-Methode implementiert haben.
 
 ## **Implementieren Sie Cell.FormulaLocal ähnlich wie Excel VBA Range.FormulaLocal**
 
- Der folgende Beispielcode erläutert die Implementierung[**GlobalizationSettings.GetLocalFunctionName(string standardName)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname) Methode. Die Methode gibt den lokalen Namen der Standardfunktion zurück. Wenn der Standardfunktionsname lautet**SUMME** , es kehrt zurück**UserFormulaLocal_SUM** Sie können den Code nach Ihren Bedürfnissen ändern und die richtigen lokalen Funktionsnamen zurückgeben, z**SUMME** ist**SUMME** auf Deutsch u**TEXT** ist**ТЕКСТ**auf Russisch. Siehe auch die Konsolenausgabe des unten angegebenen Beispielcodes als Referenz.
+Der folgende Beispielcode erläutert die Implementierung der Methode [**GlobalizationSettings.GetLocalFunctionName(string standardName)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname). Die Methode gibt den lokalen Namen der Standardfunktion zurück. Wenn der Standardfunktionsname **SUM** ist, wird **UserFormulaLocal_SUM** zurückgegeben. Sie können den Code entsprechend Ihren Bedürfnissen ändern und die korrekten lokalen Funktionsnamen zurückgeben, z.B. ist **SUM** auf Deutsch **SUMME** und **TEXT** im Russischen **ТЕКСТ**. Bitte beachten Sie auch die Konsolenausgabe des untenstehenden Beispielcodes zur Referenz.
 
 ## **Beispielcode**
 
@@ -18,7 +19,7 @@ url: /de/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Formula Local: =UserFormulaLocal_SUM(A1:A2)
 

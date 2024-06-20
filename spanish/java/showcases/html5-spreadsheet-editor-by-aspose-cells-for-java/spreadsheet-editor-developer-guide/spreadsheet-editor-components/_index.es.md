@@ -1,47 +1,48 @@
-﻿---
-title: Editor de hojas de cálculo - Componentes
+---
+title: Editor de Hoja de Cálculo  Componentes
 type: docs
 weight: 50
 url: /es/java/spreadsheet-editor-components/
 ---
-**Tabla de contenido**
 
-- [índice.html](#SpreadsheetEditor-Components-Index.html)
-- [Vista de hoja de trabajo](#SpreadsheetEditor-Components-WorksheetView)
-- [WorkbookService](#SpreadsheetEditor-Components-WorkbookService)
-- [Servicio de cargador](#SpreadsheetEditor-Components-LoaderService)
-- [servicio de celdas](#SpreadsheetEditor-Components-CellsService)
+**Tabla de contenidos**
 
-El editor de hojas de cálculo HTML5 está construido a partir de unos pocos componentes que se unen para formar el sistema completo. Aquí describimos el propósito y el papel de cada uno.
-### **índice.html**
-Es una página JSF que describe la interfaz de usuario del editor y el punto final principal de nuestra aplicación. Toda la interacción que se realiza entre el navegador web y el servidor se realiza a través de este punto final.
+- [Index.html](#SpreadsheetEditor-Components-Index.html)
+- [Vista de hoja de cálculo](#SpreadsheetEditor-Components-WorksheetView)
+- [Servicio de libro de trabajo](#SpreadsheetEditor-Components-WorkbookService)
+- [LoaderService](#SpreadsheetEditor-Components-LoaderService)
+- [CellsService](#SpreadsheetEditor-Components-CellsService)
 
-Además de definir la interfaz de usuario, todos los servicios de back-end se adjuntan aquí mediante tecnologías JSF. Cuando el usuario interactúa con la interfaz de usuario, los eventos y los datos se transmiten de un lado a otro entre los servicios y el usuario para completar nuestras tareas, por ejemplo, exportar hojas de cálculo.
+El Editor de Hoja de Cálculo HTML5 está construido a partir de varios componentes que se unen para formar el sistema completo. Aquí describimos el propósito y el papel de cada uno.
+### **Index.html**
+Es una página JSF que describe la interfaz de usuario del editor y el punto de conexión principal de nuestra aplicación. Toda la interacción que se realiza entre el navegador web y el servidor se realiza a través de este punto de conexión.
+
+Además de definir la interfaz de usuario, todos los servicios de back-end se adjuntan aquí utilizando tecnologías JSF. Cuando el usuario interactúa con los eventos de la interfaz de usuario, los datos se pasan de un lado a otro entre los servicios y el usuario para completar nuestras tareas, por ejemplo, la exportación de hojas de cálculo.
 
 Tiene dos áreas principales de interés.
 
 **Cinta**
 
-El área de la barra de herramientas con pestañas en la parte superior se llama cinta, técnicamente. Contiene botones, menús desplegables, menús de radio, cuadros de texto y algunos campos ocultos que se utilizan para realizar muchas operaciones en la hoja de cálculo. Cuando se hace clic en estos botones, se envían comandos al servidor y se actualiza la hoja en consecuencia.
+El área de barra de herramientas con pestañas en la parte superior se llama cinta, técnicamente. Contiene botones, menús desplegables, botones de radio, menús de texto y algunos campos ocultos que se utilizan para realizar muchas operaciones en la hoja de cálculo. Estos botones, cuando se hace clic, envían comandos al servidor y actualizan la hoja en consecuencia.
 
 **Hoja**
 
-La hoja son las filas y las columnas. Cuando se hace clic en las celdas, la cinta se actualiza en consecuencia sin enviar solicitudes al servidor, ya que todos los datos que necesita la cinta se adjuntan a cada celda. La cinta también realiza un seguimiento de la celda, la fila y la columna seleccionadas cuando el usuario navega por la hoja.
+La hoja son las filas y columnas. Cuando se hace clic en las celdas, la cinta se actualiza en consecuencia sin enviar solicitudes al servidor, ya que todos los datos que necesita la cinta están adjuntos a cada celda. La cinta también realiza un seguimiento de la celda, fila y columna seleccionadas cuando el usuario navega por la hoja.
 
-Cada celda tiene su propio editor en línea que se vuelve visible cuando una celda está en modo de edición.
-### **Vista de hoja de trabajo**
-Es un bean back-end JSF con ámbito de vista responsable de administrar los contenidos dinámicos de la interfaz de usuario descritos en index.html. Tiene controladores de eventos para solicitudes Ajax que se activan cuando el usuario interactúa con la interfaz de usuario.
-### **WorkbookService**
-El WorkbookService es un bean back-end JSF con ámbito de vista. Funciona como un componente de servicio y carga y descarga la hoja de cálculo con la ayuda de otros servicios. Tiene los siguientes extremos:
+Cada celda tiene su propio editor en línea que se hace visible cuando una celda está en modo de edición.
+### **Vista de hoja de cálculo**
+Es un bean de back-end JSF de alcance de vista responsable de administrar el contenido dinámico de la interfaz de usuario descrito en index.html. Tiene controladores de eventos para las solicitudes Ajax que se activan a medida que el usuario interactúa con la interfaz de usuario.
+### **Servicio de libro de trabajo**
+El WorkbookService es un bean de back-end JSF de alcance de vista. Funciona como un componente de servicio y carga y descarga la hoja de cálculo con la ayuda de otros servicios. Tiene los siguientes puntos finales:
 
-**en eso**
+**init**
 
- Él**en eso** es**PostConstrucción** método que se ejecuta justo después de que el servidor de aplicaciones Java complete la creación del objeto. comprueba si**URL** parámetro en el mapa de parámetros de solicitud y carga la hoja de cálculo correspondiente desde la ubicación dada, si es posible.
+El **init** es un método **PostConstruct** que se ejecuta justo después de que la creación del objeto se completa por el Servidor de Aplicaciones Java. Verifica el parámetro **url** en el mapa de parámetros de la solicitud y carga la hoja de cálculo correspondiente desde la ubicación dada, si es posible.
 
-**destruir**
+**destroy**
 
 Es responsable de limpiar todos los recursos adquiridos cuando ya no son necesarios.
-### **Servicio de cargador**
-Crea instancias de hojas de cálculo y las guarda en la memoria todo el tiempo que se necesitan.
-### **servicio de celdas**
- Él**servicio de celdas** administra el caché de filas, columnas, celdas, formato y estructura de las hojas de cálculo.
+### **LoaderService**
+Crea instancias de la hoja de cálculo y las mantiene en memoria mientras son necesarias.
+### **CellsService**
+El **CellsService** gestiona la caché de filas, columnas, celdas, formato y estructura de las hojas de cálculo.

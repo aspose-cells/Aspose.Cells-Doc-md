@@ -1,23 +1,24 @@
-﻿---
-title: Aspose.Cells auswerten
+---
+title: Aspose.Cells evaluieren
 type: docs
 weight: 60
 url: /de/sharepoint/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Die Evaluierungsversion von Aspose.Cells for SharePoint ist zeitlich unbegrenzt und auch für Evaluierungsbenutzer steht kostenloser technischer Support zur Verfügung.
+Die Evaluierungsversion von Aspose.Cells for SharePoint hat kein Zeitlimit und es steht auch kostenlos technischer Support für Evaluierungsnutzer zur Verfügung.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- Der Download für Evaluierungs- und Vollversionen von Aspose.Cells for SharePoint ist gleich. Einfach Aspose.Cells for SharePoint aus dem herunterladen[Download-Seite](https://downloads.aspose.com/cells/sharepoint) und[es installieren](/cells/de/sharepoint/install-aspose-cells-for-sharepoint/). Aspose.Cells arbeitet standardmäßig im Evaluierungsmodus.
+Der Download für Evaluierungs- und Vollversionen von Aspose.Cells for SharePoint ist der gleiche. Laden Sie einfach Aspose.Cells for SharePoint von der [Download-Seite](https://downloads.aspose.com/cells/sharepoint) herunter und [installieren Sie es](/cells/de/sharepoint/install-aspose-cells-for-sharepoint/). Aspose.Cells funktioniert standardmäßig im Evaluierungsmodus.
 
 {{% /alert %}}
 
-### **Einschränkungen der Evaluierungsversion**
+### **Evaluierungsversion-Beschränkungen**
 
-Der Evaluierungsmodus fügt allen exportierten Dokumenten eine Evaluierungswarnung hinzu. Wenn Sie eine Lizenz erworben haben, einfach[Installieren Sie die Lizenz](/cells/de/sharepoint/installing-aspose-cells-for-sharepoint-license/) und es funktioniert im lizenzierten Modus.
+Der Evaluierungsmodus fügt eine Evaluierungswarnung in alle exportierten Dokumente ein. Wenn Sie eine Lizenz erworben haben, [installieren Sie die Lizenz](/cells/de/sharepoint/installing-aspose-cells-for-sharepoint-license/) einfach und es wird im lizenzierten Modus funktionieren.
 
 **Im Evaluierungsmodus fügt Aspose.Cells for SharePoint eine Evaluierungswarnung ein** 
 
-![todo: Bild_alt_Text](evaluate-aspose-cells_1.png)
+![todo:image_alt_text](evaluate-aspose-cells_1.png)

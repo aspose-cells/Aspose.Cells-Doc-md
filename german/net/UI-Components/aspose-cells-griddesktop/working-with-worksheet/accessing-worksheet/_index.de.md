@@ -1,40 +1,43 @@
-﻿---
-title: Zugriff auf das Arbeitsblatt
+---
+title: Zugriff auf Arbeitsblatt
 type: docs
 weight: 10
-url: /de/net/accessing-worksheet/
+url: /de/net/aspose-cells-griddesktop/access-worksheet/
+keywords: GridDesktop, Arbeitsblatt
+description: Dieser Artikel stellt vor, wie man mit Arbeitsblättern in GridDesktop arbeitet.
 ---
+
 {{% alert color="primary" %}} 
 
-Ein Arbeitsblatt ist ein integraler Bestandteil einer Excel-Datei. Tatsächlich besteht eine Excel-Datei aus einem oder mehreren Arbeitsblättern. Jedes Arbeitsblatt kann nur aus bis zu 65.536 Zeilen und 256 Spalten bestehen. Es ist das Arbeitsblatt, das Daten in einer Excel-Datei enthält.
+Ein Arbeitsblatt ist ein integraler Bestandteil einer Excel-Datei. Tatsächlich besteht eine Excel-Datei aus einem oder mehreren Arbeitsblättern. Jedes Arbeitsblatt kann nur aus bis zu 65.536 Zeilen und 256 Spalten bestehen. Das Arbeitsblatt enthält die Daten in einer Excel-Datei.
 
-Aspose.Cells.GridDesktop kann vorhandene und neue Excel-Dateien erstellen und manipulieren, daher gibt es natürlich eine Möglichkeit, mit Aspose.Cells.GridDesktop auf Arbeitsblätter zuzugreifen. In diesem Thema wird erläutert, wie.
+Aspose.Cells.GridDesktop kann vorhandene Excel-Dateien erstellen und bearbeiten, daher gibt es natürlich eine Möglichkeit, Arbeitsblätter mit Aspose.Cells.GridDesktop zu öffnen. Dieser Artikel behandelt dieses Thema.
 
 {{% /alert %}} 
-## **Verwenden des Arbeitsblattindex**
-Entwickler können auf eine Instanz eines beliebigen Arbeitsblatts zugreifen, indem sie den Arbeitsblattindex eines beliebigen Arbeitsblatts verwenden, wie unten im Beispiel gezeigt. Dieser Ansatz eignet sich gut zum Durchlaufen einer Reihe von Arbeitsblättern in einer Excel-Datei.
+## **Verwendung des Arbeitsblattindexes**
+Entwickler können eine Instanz eines beliebigen Arbeitsblatts anhand des Arbeitsblattindexes eines beliebigen gewünschten Arbeitsblatts zugreifen, wie im folgenden Beispiel gezeigt. Dieser Ansatz ist gut geeignet, um durch eine Anzahl von Arbeitsblättern in einer Excel-Datei zu iterieren.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AccessingWorksheets-AccessingWithIndex.cs" >}}
-## **Verwenden des Arbeitsblattnamens**
-Wenn der Name des Arbeitsblatts bekannt ist, kann auf ein Arbeitsblatt unter Verwendung seines Namens wie unten gezeigt zugegriffen werden.
+## **Verwendung des Arbeitsblattnamens**
+Wenn der Name des Arbeitsblatts bekannt ist, ist es möglich, auf ein Arbeitsblatt anhand seines Namens wie folgend gezeigt zuzugreifen.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AccessingWorksheets-AccessingWithName.cs" >}}
 ## **Zugriff auf ein aktives Arbeitsblatt**
-Es ist möglich, dass eine Excel-Datei mehr als ein Arbeitsblatt enthält. Das eine Htat, an dem ein Benutzer arbeitet, wird als aktives Arbeitsblatt bezeichnet. Es ist möglich, auf das aktive Blatt zuzugreifen.
+Es ist möglich, dass eine Excel-Datei mehr als ein Arbeitsblatt hat. Dasjenige, an dem ein Benutzer arbeitet, wird als aktives Arbeitsblatt bezeichnet. Es ist möglich, auf das aktive Blatt zuzugreifen.
 
 Um auf ein aktives Arbeitsblatt zuzugreifen, bietet Aspose.Cells.GridDesktop zwei Ansätze:
-### **Verwenden der AcriveSheetIndex-Eigenschaft**
-Eine Möglichkeit, mit dem Aspose.Cells.GridDesktop-Steuerelement auf ein aktives Arbeitsblatt zuzugreifen, besteht darin, die ActiveSheetIndex-Eigenschaft des GridDesktop-Steuerelements zu verwenden. Mit dieser Eigenschaft ist es möglich, den Index des aktiven Arbeitsblatts im Steuerelement Aspose.Cells.GridDesktop abzurufen. Dann kann dieser Index verwendet werden, um wie unten gezeigt auf herkömmliche Weise auf das Arbeitsblatt zuzugreifen.
+### **Verwendung der AcriveSheetIndex-Eigenschaft**
+Eine Möglichkeit, auf ein aktives Arbeitsblatt unter Verwendung der Aspose.Cells.GridDesktop-Steuerung zuzugreifen, besteht darin, die ActiveSheetIndex-Eigenschaft der GridDesktop-Steuerung zu verwenden. Unter Verwendung dieser Eigenschaft ist es möglich, den Index des aktiven Arbeitsblatts in der Aspose.Cells.GridDesktop-Steuerung zu erhalten. Dann kann dieser Index verwendet werden, um auf das Arbeitsblatt in herkömmlicher Weise zuzugreifen, wie unten gezeigt.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AccessingWorksheets-AccessingWithActiveWorksheet.cs" >}}
-### **Verwenden der GetActiveWorksheet-Methode**
-Der andere Ansatz besteht darin, die GetActiveWorksheet-Methode des GridDesktop-Steuerelements aufzurufen. Diese Methode stellt einen Verweis auf das Arbeitsblatt bereit, das derzeit im Aspose.Cells.GridDesktop-Steuerelement aktiv ist, wie unten gezeigt.
+### **Verwendung der GetActiveWorksheet-Methode**
+Der andere Ansatz besteht darin, die GetActiveWorksheet-Methode der GridDesktop-Steuerung aufzurufen. Diese Methode liefert eine Referenz auf das Arbeitsblatt, das sich derzeit in der Aspose.Cells.GridDesktop-Steuerung befindet, wie unten gezeigt.
 
 
 

@@ -1,26 +1,27 @@
-﻿---
-title: Genel API Aspose.Cells 8.7.0'daki değişiklikler
+---
+title: Aspose.Cells 8.7.0 da Genel API Değişiklikleri
 type: docs
 weight: 240
 url: /tr/java/public-api-changes-in-aspose-cells-8-7-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 8.6.3 sürümünden 8.7.0 sürümüne Aspose.Cells API üzerindeki değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, modül/uçbirim geliştiricilerin ilgisini çekebilecek Aspose.Cells API'sindeki değişiklikleri, 8.6.3 sürümünden 8.7.0 sürümüne kadar açıklar. Yeni ve güncellenmiş genel yöntemler, eklenen ve kaldırılan sınıflar vb. yanı sıra Aspose.Cells'in arka plandaki davranışında herhangi bir değişikliği de içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **PDF Optimizasyon Desteği**
- Aspose.Cells API'leri zaten e-tabloları PDF'e dönüştürme özelliğini sağlıyor. API'in bu sürümüyle, kullanıcılar artık[ortaya çıkan PDF boyutunu optimize edin](/cells/tr/java/save-excel-into-pdf-with-standard-or-minimum-size/)ilave olarak. Aspose.Cells for Java 8.7.0, elektronik tabloları PDF biçimine dışa aktarırken kullanıcıların istenen optimizasyon algoritmasını seçmesini kolaylaştırmak için PdfSaveOptions.OptimizationType özelliğinin yanı sıra PdfOptimizationType numaralandırmasını kullanıma sundu. PdfSaveOptions.OptimizationType özelliği için aşağıda ayrıntıları verilen 2 olası değer vardır.
+Aspose.Cells API'leri zaten elektronik tabloları PDF'ye dönüştürme özelliğini sağlar. Bu API'nin bu sürümü ile, kullanıcılar artık [üretilen PDF boyutunu optimize edebilir](/cells/tr/java/save-excel-into-pdf-with-standard-or-minimum-size/). Aspose.Cells for Java 8.7.0, kullanıcıların elektronik tabloları PDF biçimine dışa aktarırken istenen optimizasyon algoritmasını seçmelerini kolaylaştırmak için PdfSaveOptions.OptimizationType özelliğini ve PdfOptimizationType numaralandırmasını açığa çıkardı. PdfSaveOptions.OptimizationType özelliğinin 2 olası değeri bulunmaktadır, aşağıda detayları verilmiştir. 
 
-1. PdfOptimizationType.MINIMUM_SIZE: Ortaya çıkan dosya boyutu için kaliteden ödün verilir.
-1. PdfOptimizationType.STANDARD: Kaliteden ödün verilmez, bu nedenle ortaya çıkan dosya boyutu büyük olur.
+1. PdfOptimizationType.MINIMUM_SIZE: Kalite, sonuç dosya boyutu için riske atılır.
+1. PdfOptimizationType.STANDARD: Kalite riske atılmaz, bu nedenle sonuç dosya boyutu büyük olacaktır.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of PdfSaveOptions
 
@@ -41,14 +42,14 @@ Workbook book = new Workbook(inFilePath);
 book.save(outFilePath, pdfSaveOptions);
 
 {{< /highlight >}}
-### **Dijital Olarak İmzalanmış VBA Projesinin Tespiti**
- Yeni ortaya çıkan VbaProject.isSigned özelliği,[Çalışma Kitabındaki VBA projesinin dijital olarak imzalanıp imzalanmadığını tespit edin](/cells/tr/java/check-if-vba-code-is-signed/). VbaProject.isSigned özelliği Boolean türündedir ve VBA projesi dijital olarak imzalanmışsa veya tersi geçerliyse doğru değerini döndürür.
+### **Dijital İmzalı VBA Projesinin Algılanması**
+Yeni açığa çıkarılan VbaProject.isSigned özelliği, bir Workbook'daki VBA projesinin [dijital olarak imzalanıp imzalanmadığını algılamak için kullanılabilir](/cells/tr/java/check-if-vba-code-is-signed/). VbaProject.isSigned özelliği, Boolean türünde olup, VBA projesinin dijital olarak imzalandıysa true değerini döndürür ve aksi takdirde false değerini döndürür.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -77,14 +78,14 @@ else
 }
 
 {{< /highlight >}}
-### **Yöntem Protection.verifyPassword Eklendi**
-Aspose.Cells API'ler, bir parolanın String örneği olarak belirtilmesine izin veren correctPassword yöntemini sunarak Koruma sınıfını geliştirdi ve[Çalışma Sayfasını korumak için aynı parolanın kullanılıp kullanılmadığını doğrular](/cells/tr/java/verify-password-used-to-protect-the-worksheet/). Protection.verifyPassword yöntemi, belirtilen parola verilen çalışma sayfasını korumak için kullanılan parolayla eşleşirse true, belirtilen parola eşleşmezse false değerini döndürür. Aşağıdaki kod parçası, parola korumasını algılamak için Protection.isProtectedWithPassword alanıyla birlikte Protection.verifyPassword yöntemini kullanır ve parolayı doğrular.
+### **Eklendi Protection.verifyPassword Yöntemi**
+Aspose.Cells API'leri, koruma sınıfını verifyPassword yöntemini kullanarak geliştirdi ve bu yöntemle bir String örneği olarak belirtilen şifreyi belirli bir çalışma sayfasını korumak için kullanılıp kullanılmadığını [onaylar](/cells/tr/java/verify-password-used-to-protect-the-worksheet/). Protection.verifyPassword yöntemi, belirtilen şifrenin verilen çalışma sayfasını korumak için kullanılan şifreyle eşleşmesi durumunda true değerini döndürür ve belirtilen şifre eşleşmiyorsa false değerini döndürür.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load a spreadsheet
 
@@ -121,14 +122,14 @@ if (sheet.getProtection().isProtectedWithPassword())
 }
 
 {{< /highlight >}}
-### **Özellik Koruması.isProtectedWithPassword Eklendi**
- Aspose.Cells for Java'in bu sürümü ayrıca şu alanlarda yararlı olabilecek Protection.isProtectedWithPassword alanını kullanıma sunmuştur.[bir Çalışma Sayfasının parola korumalı olup olmadığını tespit etme](/cells/tr/java/detect-if-worksheet-is-password-protected/).
+### **Eklendi Protection.isProtectedWithPassword Özelliği**
+Aspose.Cells for Java'nin bu sürümü ayrıca, [bir Çalışma Sayfasının şifre korunup korunmadığını algılamak için kullanılabilecek olan Protection.isProtectedWithPassword alanını açıkladı](/cells/tr/java/detect-if-worksheet-is-password-protected/).
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -161,14 +162,14 @@ else
 }
 
 {{< /highlight >}}
-### **Özellik ColorScale.Is3ColorScale Eklendi**
- Aspose.Cells for Java 8.7.0, kullanılabilecek ColorScale.Is3ColorScale özelliğini ortaya çıkardı[Renkli Ölçekli koşullu format oluştur](/cells/tr/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). Bahsedilen özellik, varsayılan değeri true olan Boolean türündedir; bu, koşullu formatın varsayılan olarak 3-Renk Ölçeği olacağı anlamına gelir. Ancak, ColorScale.Is3ColorScale özelliğinin false olarak değiştirilmesi, 2-Renk Ölçeği koşullu biçimini oluşturur.
+### **Eklendi ColorScale.Is3ColorScale Özelliği**
+Aspose.Cells for Java 8.7.0, ColorScale.Is3ColorScale özelliğini açığa çıkardı, bu [2-Renkli Ölçek koşullu formatını oluşturmak](/cells/tr/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/) için kullanılabilir. Söz konusu özellik, varsayılan değeri true olan Boolean türündedir, bu da koşullu formatın varsayılan olarak 3-Renkli Ölçek olacağı anlamına gelir. Bununla birlikte, ColorScale.Is3ColorScale özelliğini false olarak değiştirmek, 2-Renkli Ölçek koşullu format oluşturacaktır.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -211,14 +212,14 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 //Set other necessary properties
 
 {{< /highlight >}}
-### **Özellik TxtLoadOptions.HasFormula Eklendi**
- Aspose.Cells for Java 8.7.0 desteği sağladı[sınırlandırılmış düz verilere sahip CSV/TXT dosyaları yüklenirken formülleri tanımlayın ve ayrıştırın](/cells/tr/java/load-or-import-csv-file-with-formulas/). Yeni kullanıma sunulan TxtLoadOptions.HasFormula özelliği true olarak ayarlandığında, API'i formülleri girişle ayrılmış dosyadan ayrıştırmaya ve herhangi bir ek işlem gerektirmeden ilgili hücrelere ayarlamaya yönlendirir.
+### **Added TxtLoadOptions.HasFormula Property**
+Aspose.Cells for Java 8.7.0, [Deli̇mi̇teli̇ düz veri içeren CSV/TXT dosyalarını yüklerken formülleri tanımlamak ve ayrıştırmak](/cells/tr/java/load-or-import-csv-file-with-formulas/) için destek sağladı. Yeni açığa çıkarılan TxtLoadOptions.HasFormula özelliği true olarak ayarlandığında API'nin giriş belirtilen dosyadaki formülleri ayrıştırmasına ve ilgili hücrelere ek işlem gerektirmeksizin ayarlamasına yönlendirmesini sağlar.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of TxtLoadOptions
 
@@ -245,14 +246,14 @@ book.calculateFormula();
 book.save(outFilePath);
 
 {{< /highlight >}}
-### **Özellik DataLabels.ResizeShapeToFitText Eklendi**
- Aspose.Cells for Java 8.7.0'ın kullanıma sunduğu diğer bir kullanışlı özellik,[metni sığdırmak için şekli yeniden boyutlandırma](/cells/tr/java/resize-chart-s-data-label-shape-to-fit-text/)grafiğin veri etiketleri için Excel uygulamasının özelliği.
+### **Added DataLabels.ResizeShapeToFitText Property**
+Aspose.Cells for Java 8.7.0 tarafından açığa çıkarılan başka bir faydalı özellik, Excel uygulamasının grafik veri etiketlerinin [metni sığdırmak için şekli yeniden boyutlandırmasını](/cells/tr/java/resize-chart-s-data-label-shape-to-fit-text/) sağlayan DataLabels.ResizeShapeToFitText özelliğidir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook containing the Chart
 
@@ -279,6 +280,6 @@ labels.setResizeShapeToFitText(true);
 chart.calculate();
 
 {{< /highlight >}}
-## **Kaldırılan API'ler**
-### **Workbook.SaveOptions Özelliği Kaldırıldı**
-Workbook.SaveOptions özelliği bir süre önce geçersiz olarak işaretlendi. Bu sürümle birlikte, genel kullanımdan tamamen kaldırıldı API bu nedenle, alternatif olarak Workbook.save(Stream, SaveOptions) veya Workbook.save(string, SaveOptions) yönteminin kullanılması tavsiye edilir.
+## **Removed APIs**
+### **Kaldırılan Workbook.SaveOptions Özelliği**
+Workbook.SaveOptions özelliği bir süre önce işaretlenmiş olarak eskimiştir. Bu sürümle birlikte, bu özellik API'den tamamen kaldırıldığı için, alternatif olarak Workbook.save(Stream, SaveOptions) veya Workbook.save(string, SaveOptions) yöntemlerini kullanmanız önerilir.

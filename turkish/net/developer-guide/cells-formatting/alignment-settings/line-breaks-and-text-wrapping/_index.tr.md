@@ -1,25 +1,26 @@
 ---
 title: Satır Sonları ve Metin Kaydırma
-description: C#'deki Aspose.Cells kitaplığını kullanarak metin sarma ve sözcük kaydırma nasıl uygulanır. Aspose.Cells kitaplığını kullanarak, hücrelere kolayca metin ekleyebilir ve el ile sözcük kaydırma, sözcük kaydırma vb. gibi metin sarma yöntemini ayarlayabilirsiniz. Bu belgede nasıl Bu özellikleri uygulamak ve referansınız için örnek kod sağlamak.
-keywords: Aspose.Cells, line breaks, text wraps, text layout
+description: Aspose.Cells kütüphanesini kullanarak C# dilinde metin kaydırma ve kelime kaydırması nasıl uygulanır. Aspose.Cells kütüphanesini kullanarak hücrelere metin ekleyebilir ve metin kaydırma yöntemini, manuel kelime kaydırması, kelime kaydırma vb. gibi ayarlayabilirsiniz. Bu belgede bu özelliklerin nasıl uygulanacağı ayrıntılı olarak açıklanmış ve örnek kodları sunulmuştur.
+keywords: Aspose.Cells, satır sonları, metin kaydırma, metin düzeni
 type: docs
 weight: 60
 url: /tr/net/line-breaks-and-text-wrapping/
 ---
+
 {{% alert color="primary" %}}
 
-Hücredeki metnin okunabilmesini sağlamak için açık satır sonları ve metin kaydırma uygulanabilir. Metin sarma, bir hücrede bir satırı birden fazla satıra dönüştürür; bu, açık satır sonlarının tam olarak istediğiniz yerde kesmelere yerleştirilmesini sağlar.
+Hücredeki metnin okunabilmesi için, açık satır sonları ve metin kaydırma uygulanabilir. Metin kaydırma, hücredeki bir satırı birden fazla satıra dönüştürür, açık satır sonları istediğiniz yerde kesmek için kullanılır.
 
 {{% /alert %}}
 
-##  **Cell'deki Metni Sarmak için**
+## **Hücrede Metin Kaydırma**
 
-Metni bir hücreye sarmak için şunu kullanın:[**Aspose.Cells.Style.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)mülk.
+Hücrede metin kaydırmak için, [**Aspose.Cells.Style.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) özelliği kullanılır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 
-##  **Açık Satır Sonlarını Kullanmak için**
+## **Açık Satır Sonları Kullanımı**
 
-Bir hücreye açık satır sonları eklemek için C#'de '\n' ve VB.NET'de ' vbLf' kullanabilirsiniz.
+Bir hücrede açık satır sonları eklemek için C# dilinde '\n' ve VB.NET dilinde ' vbLf' kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-UseExplicitLineBreaks-1.cs" >}}

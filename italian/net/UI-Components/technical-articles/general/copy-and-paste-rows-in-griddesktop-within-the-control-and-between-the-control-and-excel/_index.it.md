@@ -1,16 +1,19 @@
-﻿---
-title: Copia e incolla righe in GridDesktop all'interno del controllo e tra il controllo ed Excel
+---
+title: Copia e Incolla Righe in GridDesktop all interno del Controllo e tra il Controllo ed Excel
 type: docs
 weight: 70
-url: /it/net/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+url: /it/net/aspose-cells-griddesktop/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+keywords: GridDesktop, copia, incolla
+description: Questo articolo introduce la copia e l incolla in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Se desideri abilitare le righe di copia e incolla in GridDesktop all'interno del controllo o tra controllo ed Excel, imposta la proprietà GridDesktop.ClipboardCopyPaste su true. È possibile impostare questa proprietà in fase di progettazione o nel codice. Il valore predefinito di questa proprietà è false. Attualmente, può solo copiare e incollare i valori delle celle e non copierà nessun'altra impostazione della cella come formato, stile del bordo e così via.
+Se si desidera abilitare la copia e l'incolla delle righe in GridDesktop all'interno del controllo o tra il controllo ed Excel, impostare la proprietà GridDesktop.ClipboardCopyPaste su true. È possibile impostare questa proprietà in design time o nel codice. Il valore predefinito di questa proprietà è false. Attualmente, è in grado di copiare e incollare solo i valori delle celle e non copierà altre impostazioni della cella come formato, stile del bordo e così via.
 
 {{% /alert %}} 
-## **Impostazione della proprietà GridDesktop.ClipboardCopyPaste in modalità progettazione e in fase di esecuzione**
- Il codice di esempio seguente imposta la proprietà GridDesktop.ClipboardCopyPaste in**Tempo di esecuzione**.
+## **Impostazione della proprietà GridDesktop.ClipboardCopyPaste in modalità Progettazione e Esecuzione**
+Il seguente codice di esempio imposta la proprietà GridDesktop.ClipboardCopyPaste in **Esecuzione**.
 
 
 

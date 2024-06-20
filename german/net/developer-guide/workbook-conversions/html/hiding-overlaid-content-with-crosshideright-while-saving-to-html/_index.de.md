@@ -1,18 +1,19 @@
-﻿---
-title: Ausblenden von überlagerten Inhalten mit CrossHideRight beim Speichern unter HTML
+---
+title: Verbergen von überlagertem Inhalt mit CrossHideRight beim Speichern als HTML
 type: docs
 weight: 100
 url: /de/net/hiding-overlaid-content-with-crosshideright-while-saving-to/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn Sie Ihre Excel-Datei unter HTML speichern, können Sie verschiedene Kreuztypen für Zellstrings angeben. Standardmäßig generiert Aspose.Cells HTML gemäß Microsoft Excel, aber wenn Sie den Kreuztyp in ändern[**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype), dann werden alle Zeichenfolgen auf der rechten Seite der Zelle ausgeblendet, die mit der Zellzeichenfolge überlagert oder überlappt sind.
+## **Mögliche Verwendungsszenarien**
 
-## **Ausblenden von überlagerten Inhalten mit CrossHideRight beim Speichern in HTML**
+Wenn Sie Ihre Excel-Datei in HTML speichern, können Sie verschiedene Kreuzungstypen für Zellzeichenfolgen angeben. Standardmäßig generiert Aspose.Cells HTML entsprechend Microsoft Excel, aber wenn Sie den Kreuzungstyp auf [**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) ändern, werden alle Zeichenfolgen auf der rechten Seite der Zelle ausgeblendet, die mit der Zellzeichenfolge überlagert oder überlappend sind.
 
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](64716894.xlsx) und speichert es ab[Ausgang HTML](64716893.zip) nach dem Einstellen der[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/htmlcrossstringtype)als[**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). Der Screenshot erklärt wie[**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)beeinflusst die Ausgabe HTML von der Standardausgabe.
+## **Verstecken überlagerter Inhalte mit CrossHideRight beim Speichern in Html**
 
-![todo: Bild_alt_Text](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](64716894.xlsx) und speichert sie im [Ausgabe-HTML](64716893.zip) nachdem der [**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/htmlcrossstringtype) als [**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) festgelegt wurde. Die Abbildung erklärt, wie [**CrossHideRight**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) den Ausgabe-HTML-Code vom Standardausgang beeinflusst.
+
+![todo:image_alt_text](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
 
 ## **Beispielcode**
 

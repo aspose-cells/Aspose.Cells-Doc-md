@@ -1,39 +1,42 @@
-﻿---
-title: Cambiar el nombre de las hojas de trabajo
+---
+title: Renombrar hojas de cálculo
 type: docs
 weight: 40
-url: /es/net/rename-worksheets/
+url: /es/net/aspose-cells-gridweb/rename-worksheet/
+keywords: GridWeb,renombrar,renombrar hoja de cálculo,renombrar GridWorksheet
+description: Este artículo presenta cómo renombrar hojas de cálculo (GridWorksheet) en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Cambiar el nombre de una hoja de trabajo puede ser muy útil cuando se trabaja con muchas hojas de trabajo en Aspose.Cells.GridWeb y decide cambiar sus nombres para que sean más significativas. Por ejemplo, se puede cambiar el nombre de una hoja de trabajo que contiene una factura a Factura en lugar de Hoja1. Este tema describe esta característica simple pero útil.
+Renombrar una hoja de cálculo puede ser muy útil al trabajar con muchas hojas de cálculo en Aspose.Cells.GridWeb y decidir cambiar sus nombres para que sean más significativos. Por ejemplo, una hoja de cálculo que contiene una factura puede ser renombrada como Factura en lugar de Hoja1. Este tema describe esta función simple pero útil.
 
 {{% /alert %}} 
-## **Cambiar el nombre de una hoja de trabajo**
-Todas las hojas de trabajo contienen una propiedad Nombre que permite a los desarrolladores acceder o modificar los nombres de las hojas de trabajo. Para cambiar el nombre de una hoja de trabajo:
+## **Cambiar el nombre de una hoja de cálculo**
+Todas las hojas de cálculo contienen una propiedad Nombre que permite a los desarrolladores acceder o modificar los nombres de las hojas de cálculo. Para cambiar el nombre de una hoja de cálculo:
 
-1. Acceda a una hoja de trabajo desde GridWorksheetCollection.
+1. Acceda a una hoja de cálculo desde GridWorksheetCollection.
 1. Cambiar el nombre de la hoja de cálculo seleccionada.
 
 
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre cómo acceder a las hojas de trabajo en Aspose.Cells.GridWeb, consulte[Acceder a hojas de trabajo](/cells/es/net/access-worksheets/).
+Para obtener más detalles sobre cómo acceder a las hojas de cálculo en Aspose.Cells.GridWeb, consulte [Acceder a hojas de cálculo](/cells/es/net/aspose-cells-gridweb/access-worksheets/).
 
 {{% /alert %}} 
 
-Antes de ejecutar el código, la hoja de cálculo tiene un nombre predeterminado, como Hoja1.
+Antes de ejecutar el código, la hoja de cálculo tiene un nombre predeterminado, como Sheet1.
 
-**Archivo de entrada: una hoja de trabajo con un nombre predeterminado Hoja1** 
+**Archivo de entrada: una hoja de cálculo con el nombre predeterminado Sheet1** 
 
-![todo:imagen_alternativa_texto](rename-worksheets_1.png)
+![todo:image_alt_text](rename-worksheets_1.png)
 
-Después de ejecutar el código, la hoja de trabajo se renombra como Estudiantes.
+Después de ejecutar el código, la hoja de cálculo se renombra como Estudiantes.
 
-**Salida: la hoja de trabajo se renombra Estudiantes** 
+**Salida: la hoja de cálculo se renombra como Estudiantes** 
 
-![todo:imagen_alternativa_texto](rename-worksheets_2.png)
+![todo:image_alt_text](rename-worksheets_2.png)
 
 
 

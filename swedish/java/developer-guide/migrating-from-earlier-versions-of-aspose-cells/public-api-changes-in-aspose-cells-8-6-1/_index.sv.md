@@ -1,28 +1,29 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.6.1
+---
+title: Ändringar i offentlig API i Aspose.Cells 8.6.1
 type: docs
 weight: 210
 url: /sv/java/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.6.0 till 8.6.1 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda klasser, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringarna i Aspose.Cells API från version 8.6.0 till 8.6.1 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda klasser, utan också en beskrivning av eventuella ändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Stöd för HTML Länkmåltyp**
- Den här utgåvan av Aspose.Cells for Java API har avslöjat en uppräkning nämligen HtmlLinkTargetType tillsammans med en ny egenskap HtmlSaveOptions.LinkTargetType som tillsammans tillåter att[ställ in måltypen för länkarna i kalkylbladet medan du konverterar till formatet HTML](/cells/sv/java/change-the-html-link-target-type/). De möjliga värdena för HtmlLinkTargetType-uppräkningen följer där standardvärdet är SELF.
+## **Tillagda API:er**
+### **Stöd för HTML Länk Måltyp**
+Denna release av Aspose.Cells for Java API har exponerat en uppräkning, nämligen HtmlLinkTargetType tillsammans med en ny egenskap HtmlSaveOptions.LinkTargetType som tillsammans möjliggör att [sätta måltypen för länkarna i kalkylblad vid konvertering till HTML-format](/cells/sv/java/change-the-html-link-target-type/). De möjliga värdena för uppräkningen HtmlLinkTargetType är följande där standardvärdet är SELF.
 
-1. HtmlLinkTargetType.BLANK: Öppnar det länkade dokumentet/sidan i ett nytt fönster eller en ny flik.
-1. HtmlLinkTargetType.PARENT: Öppnar det länkade dokumentet/sidan i den överordnade ramen.
-1. HtmlLinkTargetType.SELF: Öppnar det länkade dokumentet/sidan i samma ram där länken klirrades.
-1. HtmlLinkTargetType.TOP: Öppnar det länkade dokumentet/sidan i hela fönstret.
+1. HtmlLinkTargetType.BLANK: Öppnar det länkade dokumentet/sidan i ett nytt fönster eller flik.
+1. HtmlLinkTargetType.PARENT: Öppnar det länkade dokumentet/sidan i föräldrarfönstret.
+1. HtmlLinkTargetType.SELF: Öppnar det länkade dokumentet/sidan i samma fönster där länken klickades.
+1. HtmlLinkTargetType.TOP: Öppnar det länkade dokumentet/sidan i hela fönstrets kropp.
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -42,14 +43,14 @@ options.setLinkTargetType(HtmlLinkTargetType.BLANK);
 workbook.save(outputFilePath, options);
 
 {{< /highlight >}}
-### **Metod VbaModuleCollection.remove Tillagd**
-Aspose.Cells for Java 8.6.1 har avslöjat ytterligare en överbelastning av metoden VbaModuleCollection.remove som nu kan acceptera en instans av Worksheet för att ta bort alla VBA-moduler som är associerade med det specificerade arbetsbladet.
+### **Tillagd VbaModuleCollection.remove Metod**
+Aspose.Cells for Java 8.6.1 har exponerat en annan överbelastning av VbaModuleCollection.remove-metoden som nu kan acceptera en instans av Worksheet för att ta bort alla VBA-moduler som är associerade med den angivna Worksheet.
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -64,14 +65,14 @@ VbaModuleCollection modules = workbook.getVbaProject().getModules();
 modules.remove(workbook.getWorksheets().get(0));
 
 {{< /highlight >}}
-### **Metod RangeCollection.add tillagd**
-Aspose.Cells for Java 8.6.1 har exponerat metoden RangeCollection.Add som kan användas för att lägga till Range-objekt till samlingen av intervall för ett visst kalkylblad.
+### **Lade till RangeCollection.add-metoden**
+Aspose.Cells for Java 8.6.1 har exponerat RangeCollection.Add-metoden som kan användas för att lägga till Range-objekt i samlingen av intervall för en specifik Worksheet.
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -90,14 +91,14 @@ RangeCollection ranges = cells.getRanges();
 ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
-### **Metod Cell.setCharacters tillagd**
- Metoden Cell.setCharacters kan användas för att[uppdatera delarna av den rika texten](/cells/sv/java/access-and-update-the-portions-of-rich-text-of-cell/) av ett givet Cell objekt. Metoden Cell.getCharacters ska användas för att komma åt delarna av texten och sedan kan ändringar göras med metoden Cell.setCharacters medan**skaffa sig** metod returnerar en uppsättning FontSetting-objekt som kan manipuleras för att ställa in olika egenskaper typsnittsnamn, teckensnittsfärg, fetstil etc.**uppsättning** metod kan användas för att tillämpa ändringarna.
+### **Lade till Cell.setCharacters-metoden**
+Cell.setCharacters-metoden kan användas för att [uppdatera delar av den rika texten](/cells/sv/java/access-and-update-the-portions-of-rich-text-of-cell/) för en given Cell-objekt. Cell.getCharacters-metoden ska användas för att komma åt delar av texten och sedan kan ändringar göras med Cell.setCharacters-metoden, medan **get**-metoden returnerar en matris av FontSetting-objekt som kan manipuleras för att ställa in olika egenskaper som teckensnittsnamn, teckenfärg, fetstil osv och **set**-metoden kan användas för att tillämpa ändringarna.
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -113,7 +114,7 @@ Cell cell = worksheet.getCells().get("A1");
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.getCharacters();
+FontSetting[] settings = cell.getCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -124,14 +125,14 @@ settings[0].getFont().setName("Arial");
 cell.setCharacters(settings);
 
 {{< /highlight >}}
-### **Egenskapen VbaProject.isSignad tillagd**
- Aspose.Cells for Java 8.6.1 har exponerat egenskapen VbaProject.isSigned som kan användas för att[testa om ett VbaProject i en arbetsbok är signerat eller inte](/cells/sv/java/check-if-vba-project-in-a-workbook-is-signed/)Boolesk typ egenskap returnerar true om projektet är signerat.
+### **Lade till VbaProject.isSigned-egenskapen**
+Aspose.Cells for Java 8.6.1 har exponerat VbaProject.isSigned-egenskapen som kan användas för att [testa om ett VbaProject i en Workbook är signerat eller inte](/cells/sv/java/check-if-vba-project-in-a-workbook-is-signed/). Boolesk typegenskap returnerar true om projektet är signerat.
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -160,9 +161,9 @@ else
 }
 
 {{< /highlight >}}
-## **Ändrade API:er**
-### **Metod Cell.getFormatConditions Modified**
-Med lanseringen av v8.6.1 har Aspose.Cells for Java API ändrat returtypen för metoden Cell.getFormatConditions som nu returnerar en array av typen FormatConditionCollection.
-## **Föråldrade API:er**
-### **Metod Workbook.checkWriteProtectedPassword föråldrat**
-Med lanseringen av v8.6.1 har metoden Workbook.checkWriteProtectedPassword markerats som avskriven. Det rekommenderas att använda metoden WorkbookSettings.WriteProtection.validatePassword som kan acceptera ett strängvärde som parameter och returnerar booleskt om lösenordet matchar det förinställda lösenordet för kalkylarket.
+## **Modifierade API:er**
+### **Modifierade Cell.getFormatConditions-metoden**
+Med utgåvan av v8.6.1 har Aspose.Cells for Java API modifierat returtypen för Cell.getFormatConditions-metoden som nu returnerar en matris av typ FormatConditionCollection.
+## **Obsoletterade API:er**
+### **Obsolet Workbook.checkWriteProtectedPassword-metod**
+Med utgåvan av v8.6.1 har Workbook.checkWriteProtectedPassword-metoden markerats som föråldrad. Det rekommenderas att använda WorkbookSettings.WriteProtection.validatePassword-metoden som kan acceptera en String-värde som parameter och returnerar Boolean om lösenordet matchar det förinställda lösenordet för kalkylbladet.

@@ -1,44 +1,45 @@
-﻿---
-title: Hesap Tablosu Düzenleyicisi - Satırlar ve Sütunlarla Çalışma
+---
+title: Tablo Düzenleyici  Satırlar ve Sütunlarla Çalışma
 type: docs
 weight: 30
 url: /tr/java/spreadsheet-editor-working-with-rows-and-columns/
 ---
+
 **İçindekiler**
 
-- [Satır Ekle](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
- - WorksheetView.addRowAbove
- - WorksheetView.addRowBelow
+- [Bir Satır Ekle](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
+  - WorksheetView.addRowAbove
+  - WorksheetView.addRowBelow
 - [Sütun Ekle](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
- - WorksheetView.addColumnBefore
- - WorksheetView.addColumnAfter
+  - WorksheetView.addColumnBefore
+  - WorksheetView.addColumnAfter
 - [Satır Sil](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
- - WorksheetView.deleteRow
+  - WorksheetView.deleteRow
 - [Bir Sütunu Sil](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
- - WorksheetView.deleteColumn
+  - WorksheetView.deleteColumn
 - [Sütun Genişliği ve Satır Yüksekliği](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
- - WorksheetView.setCurrentRowHeight
- - WorksheetView.setCurrentColumnWidth
-- [Cell girin](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
- - WorksheetView.addCellShiftRight
- - WorksheetView.addCellShiftDown
-### **Satır Ekle**
+  - WorksheetView.setCurrentRowHeight
+  - WorksheetView.setCurrentColumnWidth
+- [Bir Hücre Ekle](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
+  - WorksheetView.addCellShiftRight
+  - WorksheetView.addCellShiftDown
+### **Bir Satır Ekle**
 Yeni bir satır eklemek için:
 
-1. Satır eklemek istediğiniz hücreye tıklayın.
-1.  Çevirmek**Biçim sekmesi**.
-1.  Tıklamak**Yukarıya Satır Ekle** seçili hücrenin üstüne bir satır eklemek için.
-1.  Tıklamak**Aşağıya Satır Ekle** seçili hücrenin altına bir satır eklemek için.
+1. Bir satır eklemek istediğiniz hücreye tıklayın.
+1. **Biçim** sekmesine geçin.
+1. Seçili hücrenin üstüne bir satır eklemek için **Üstte Satır Ekle**'ye tıklayın.
+1. Seçili hücrenin altına bir satır eklemek için **Alttan Satır Ekle**'ye tıklayın.
 
-Düzenleyici, seçilen konuma yeni bir satır ekleyecektir.
+Düzenleyici seçili konuma yeni bir satır ekleyecek.
 
-![yapılacaklar:resim_alternatif_metin](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Nasıl çalışır?**
 
- bu**Yukarıya Satır Ekle** ve**Aşağıya Satır Ekle** JSF arka uç çekirdeği tarafından işlenir**Çalışma Sayfası Görünümü**. İlgili yöntemlerin kaynak kodu aşağıdaki gibidir:
+**Üstte Satır Ekle** ve **Alttan Satır Ekle**, JSF arka uç fasulyesi **WorksheetView** tarafından ele alınır. İlgili yöntemlerin kaynak kodları aşağıdaki gibidir:
 #### **WorksheetView.addRowAbove**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowAbove() {
 
@@ -63,7 +64,7 @@ Düzenleyici, seçilen konuma yeni bir satır ekleyecektir.
 {{< /highlight >}}
 
 #### **WorksheetView.addRowBelow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowBelow() {
 
@@ -99,20 +100,20 @@ Düzenleyici, seçilen konuma yeni bir satır ekleyecektir.
 ### **Sütun Ekle**
 Yeni bir sütun eklemek için:
 
-1. Sütun eklemek istediğiniz hücreye tıklayın.
-1.  Çevirmek**Biçim sekmesi**.
-1.  Tıklamak**Önce Sütun Ekle**seçili hücreden önce bir sütun eklemek için.
-1.  Tıklamak**Sonra Sütun Ekle** seçili hücreden sonra bir sütun eklemek için.
+1. Bir sütun eklemek istediğiniz hücreye tıklayın.
+1. **Biçim** sekmesine geçin.
+1. Seçili hücrenin yanına bir sütun eklemek için **Öncesine Sütun Ekle**'ye tıklayın.
+1. Seçili hücrenin sonrasına bir sütun eklemek için **Sonrasına Sütun Ekle**'ye tıklayın.
 
-Düzenleyici, seçilen konuma yeni bir sütun ekleyecektir.
+Düzenleyici seçili konuma yeni bir sütun ekleyecek.
 
-![yapılacaklar:resim_alternatif_metin](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Nasıl çalışır?**
 
- bu**Önce Sütun Ekle** ve**Sonra Sütun Ekle** JSF arka uç çekirdeği tarafından işlenir**Çalışma Sayfası Görünümü**. İlgili yöntemlerin kaynak kodu aşağıdaki gibidir:
+**Öncesine Sütun Ekle** ve **Sonrasına Sütun Ekle**, JSF arka uç fasulyesi **WorksheetView** tarafından ele alınır. İlgili yöntemlerin kaynak kodları aşağıdaki gibidir:
 #### **WorksheetView.addColumnBefore**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnBefore() {
 
@@ -137,7 +138,7 @@ Düzenleyici, seçilen konuma yeni bir sütun ekleyecektir.
 {{< /highlight >}}
 
 #### **WorksheetView.addColumnAfter**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnAfter() {
 
@@ -165,19 +166,19 @@ Düzenleyici, seçilen konuma yeni bir sütun ekleyecektir.
 ### **Satır Sil**
 Bir satırı silmek için:
 
-1. Silmek istediğiniz satırdaki bir hücreye tıklayın.
-1.  Çevirmek**Biçim sekmesi**.
-1.  Tıklamak**Sırayı sil** buton.
+1. Sileceğiniz satırdaki bir hücreye tıklayın.
+1. **Biçim** sekmesine geçin.
+1. **Satırı Sil** düğmesine tıklayın.
 
-Düzenleyici, seçilen hücreyi içeren satırı siler.
+Düzenleyici seçili hücreyi içeren satırı silecektir.
 
-![yapılacaklar:resim_alternatif_metin](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Nasıl çalışır?**
 
- bu**Sırayı sil** düğme JSF arka uç çekirdeği tarafından işlenir**Çalışma Sayfası Görünümü** yöntem kullanarak**WorksheetView.deleteRow**:
+**Satırı Sil** düğmesi, **WorksheetView.deleteRow** yöntemini kullanarak JSF backend bean **WorksheetView** tarafından işlenir:
 #### **WorksheetView.deleteRow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteRow() {
 
@@ -205,19 +206,19 @@ Düzenleyici, seçilen hücreyi içeren satırı siler.
 ### **Bir Sütunu Sil**
 Bir sütunu silmek için:
 
-1. Silmek istediğiniz sütundaki bir hücreye tıklayın.
-1.  Çevirmek**Biçim sekmesi**.
-1.  Tıklamak**Sütunu Sil** buton.
+1. Sileceğiniz sütundaki bir hücreye tıklayın.
+1. **Biçim** sekmesine geçin.
+1. **Sütunu Sil** düğmesine tıklayın.
 
-Düzenleyici, seçilen hücreyi içeren sütunu siler.
+Düzenleyici seçili hücreyi içeren sütunu silecektir.
 
-![yapılacaklar:resim_alternatif_metin](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Nasıl çalışır?**
 
- bu**Sütunu Sil** düğme JSF arka uç çekirdeği tarafından işlenir**Çalışma Sayfası Görünümü** yöntem kullanarak**WorksheetView.deleteColumn**:
+**Sütunu Sil** düğmesi, **WorksheetView.deleteColumn** yöntemini kullanarak JSF backend bean **WorksheetView** tarafından işlenir:
 #### **WorksheetView.deleteColumn**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteColumn() {
 
@@ -245,31 +246,31 @@ Düzenleyici, seçilen hücreyi içeren sütunu siler.
 ### **Sütun Genişliği ve Satır Yüksekliği**
 Bir sütunun genişliğini değiştirmek için:
 
-1. Sütunun içindeki herhangi bir hücreye tıklayın.
-1.  Çevirmek**Biçim sekmesi**.
-1.  Tıklamak**Sütun genişliği** açmak için düğme**Sütun genişliği** diyalog
+1. Sütun içinde herhangi bir hücreye tıklayın.
+1. **Biçim** sekmesine geçin.
+1. **Sütun Genişliği** düğmesine tıklayarak **Sütun Genişliği** iletişim kutusunu açın.
 1. İletişim kutusuna yeni bir değer girin.
-1.  Tıklamak**Kapalı**.
+1. **Kapat**'a tıklayın.
 
-Düzenleyici, sütunun genişliğini değiştirecektir.
+Düzenleyici sütunun genişliğini değiştirecektir.
 
 **Satır yüksekliği nasıl değiştirilir?**
 
 Bir satırın yüksekliğini değiştirmek için:
 
-1. Satır içindeki herhangi bir hücreye tıklayın.
-1.  Çevirmek**Biçim sekmesi**.
-1.  Tıklamak**Satır yüksekliği** açmak için düğme**Satır yüksekliği** diyalog
+1. Satır içinde herhangi bir hücreye tıklayın.
+1. **Biçim** sekmesine geçin.
+1. **Satır Yüksekliği** düğmesine tıklayarak **Satır Yüksekliği** iletişim kutusunu açın.
 1. İletişim kutusuna yeni bir değer girin.
-1.  Tıklamak**Kapalı**.
+1. **Kapat**'a tıklayın.
 
-Editör satırın yüksekliğini değiştirir.
+Düzenleyici satırın yüksekliğini değiştirecektir.
 
 **Nasıl çalışır?**
 
- Kullanıcı genişlik ve yükseklik değerini gönderdiğinde, bu değerler sunucu tarafında şu şekilde işlenir:**setCurrentRowHeight** ve**setCurrentColumnWidth** JSF arka uç fasulyesi yöntemleri**Çalışma Sayfası Görünümü**.
+Kullanıcı genişlik ve yükseklik değerlerini gönderdiğinde, bu değerler JSF backend bean **WorksheetView**'in **setCurrentRowHeight** ve **setCurrentColumnWidth** metodları tarafından sunucu tarafında işlenir.
 #### **WorksheetView.setCurrentRowHeight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentRowHeight(int height) {
 
@@ -290,7 +291,7 @@ Editör satırın yüksekliğini değiştirir.
 {{< /highlight >}}
 
 #### **WorksheetView.setCurrentColumnWidth**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentColumnWidth(int width) {
 
@@ -309,21 +310,21 @@ Editör satırın yüksekliğini değiştirir.
     }
 
 {{< /highlight >}}
-### **Cell girin**
+### **Bir Hücre Ekle**
 Yeni bir hücre eklemek için:
 
-1. Yeni yapmak istediğiniz bir hücreye tıklayın.
-1.  Çevirmek**Sekme ekle**.
-1.  Tıklamak**Cell** buton.
-1.  Seçmek**Cells Sağa Kaydır** veya**Vites Cells Aşağı** buton.
+1. Yeni eklemek istediğiniz hücreye tıklayın.
+1. **Ekleme sekmesine** geçin.
+1. **Hücre** düğmesine tıklayın.
+1. **Sağa Kaydır** veya **Aşağı Kaydır** düğmesini seçin.
 
-Düzenleyici, seçilen konuma yeni bir hücre ekleyecektir. Bitişik hücreler, yenisine yer açmak için otomatik olarak yatay veya dikey olarak kaydırılacaktır.
+Düzenleyici seçilen konumda yeni bir hücre ekleyecektir. Yeni bir hücre için yatay veya dikey olarak bitişik hücreler otomatik olarak kaydırılır.
 
 **Nasıl çalışır?**
 
- bu**Cells Sağa Kaydır** ve**Vites Cells Aşağı** JSF arka uç çekirdeği tarafından işlenir**Çalışma Sayfası Görünümü**. İlgili yöntemlerin kaynak kodu aşağıdaki gibidir:
+**Sağa Kaydır** ve **Aşağı Kaydır** olayları JSF backend bean **WorksheetView** tarafından işlenir. İlgili metodların kaynak kodları aşağıdaki gibidir:
 #### **WorksheetView.addCellShiftRight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftRight() {
 
@@ -348,7 +349,7 @@ Düzenleyici, seçilen konuma yeni bir hücre ekleyecektir. Bitişik hücreler, 
 {{< /highlight >}}
 
 #### **WorksheetView.addCellShiftDown**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftDown() {
 

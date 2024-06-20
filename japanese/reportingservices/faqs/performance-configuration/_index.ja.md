@@ -1,20 +1,21 @@
-﻿---
-title: パフォーマンス構成
+---
+title: パフォーマンスの構成
 type: docs
 weight: 20
 url: /ja/reportingservices/performance-configuration/
 ---
+
 {{% alert color="primary" %}} 
 
-ユーザーはパフォーマンスをある程度最適化できます。で一部の属性とパラメータを構成できます。**Aspose.Cells.ReportingServices.xml**以下に説明するファイル。
+ユーザーは一定の範囲でパフォーマンスを最適化できます。以下で説明するように、**Aspose.Cells.ReportingServices.xml**ファイルでいくつかの属性とパラメータを構成できます。
 
 {{% /alert %}} 
 ### **パフォーマンスセクション**
-これは、デフォルトのパフォーマンス セクションを示しています。
+これはデフォルトのパフォーマンスセクションを示します。
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -35,12 +36,12 @@ url: /ja/reportingservices/performance-configuration/
 
 
 {{< /highlight >}}
-### **性能パラメータ**
-- LimitCellsNumberForMerged – パラメータのデフォルト値は 1000000 です。パラメータ値はクライアントによって設定され、パフォーマンス パラメータのスイッチの影響を受けません。以下の構成を参照してください。
+### **パフォーマンスパラメータ**
+- 結合セルの数を制限 - パラメータのデフォルト値は1000000です。パラメータの値はクライアントによって設定され、パフォーマンスパラメータのスイッチに影響を受けません。以下の構成を参照してください。 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -48,15 +49,15 @@ url: /ja/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsAutoRowFit – true または false のいずれかになります。
- - Performance パラメータが「off」に設定されている場合、デフォルト値は false です。
- - Performance パラメータが「on」に設定されている場合、デフォルト値は true です。
- - Performance パラメータが「on」に設定されている場合、サブ要素レポートはレポートの AutoRowFile パラメータを再設定できます。
-以下の構成を参照してください。
+- 自動行のフィットが可能か - trueまたはfalseにできます。 
+  - パフォーマンスパラメータが「オフ」に設定されているとき、デフォルトの値はfalseです。
+  - パフォーマンスパラメータが「オン」に設定されているとき、デフォルトの値はtrueです。
+  - パフォーマンスパラメータが「オン」に設定されているとき、サブエレメントレポートはレポートのAutoRowFileパラメータを再設定できます。
+    以下の構成を参照してください。 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -78,15 +79,15 @@ url: /ja/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsMerged – true または false のいずれかになります。
- - Performance パラメータが「off」に設定されている場合、デフォルト値は false です。
- - Performance パラメータが「on」に設定されている場合、デフォルト値は true です。
- - Performance パラメータが「on」に設定されている場合、サブ要素レポートはレポートの AutoRowFile パラメータを再設定できます。
-以下の構成を参照してください。
+- 結合されているか - trueまたはfalseにできます。 
+  - パフォーマンスパラメータが「オフ」に設定されているとき、デフォルトの値はfalseです。
+  - パフォーマンスパラメータが「オン」に設定されているとき、デフォルトの値はtrueです。
+  - パフォーマンスパラメータが「オン」に設定されているとき、サブエレメントレポートはレポートのAutoRowFileパラメータを再設定できます。
+    以下の構成を参照してください。 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -108,15 +109,15 @@ url: /ja/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsSetStyle – true または false のいずれかになります。
- - Performance パラメータが「off」に設定されている場合、デフォルト値は false です。
- - Performance パラメータが「on」に設定されている場合、デフォルト値は true です。
- - Performance パラメータが「on」に設定されている場合、サブ要素レポートはレポートの AutoRowFile パラメータを再設定できます。
-以下の構成を参照してください。
+- スタイルを設定するか - trueまたはfalseにできます。 
+  - パフォーマンスパラメータが「オフ」に設定されているとき、デフォルトの値はfalseです。
+  - パフォーマンスパラメータが「オン」に設定されているとき、デフォルトの値はtrueです。
+  - パフォーマンスパラメータが「オン」に設定されているとき、サブエレメントレポートはレポートのAutoRowFileパラメータを再設定できます。
+    以下の構成を参照してください。 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -138,16 +139,16 @@ url: /ja/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsConditionalFormatting – true または false のいずれかになります。
- - Performance パラメータが「off」に設定されている場合、デフォルト値は false です。
- - Performance パラメータが「on」に設定されている場合、デフォルト値は true です。
- - パフォーマンス パラメーターが「オン」に設定されている場合、サブ要素レポートはポイント レポートの AutoRowFile パラメーターを再設定できます。
- - IsSetStyle パラメーターが false に設定されている場合、Performance パラメーターの値は無効です。
-以下の構成を参照してください。
+- 条件付き書式が可能か - trueまたはfalseにできます。 
+  - パフォーマンスパラメータが「オフ」に設定されているとき、デフォルトの値はfalseです。
+  - パフォーマンスパラメータが「オン」に設定されているとき、デフォルトの値はtrueです。
+  - パフォーマンスパラメータが「オン」に設定されているとき、サブエレメントレポートはレポートのAutoRowFileパラメータを再設定できます。
+  - IsSetStyleパラメータがfalseに設定されているとき、パフォーマンスパラメータの値は無効です。
+    以下の構成を参照してください。 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

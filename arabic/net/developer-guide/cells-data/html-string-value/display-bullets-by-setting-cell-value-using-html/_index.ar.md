@@ -1,25 +1,26 @@
-﻿---
-title: عرض الرموز النقطية بتحديد قيمة Cell باستخدام HTML
+---
+title: عرض الرموز باستخدام قيمة الخلية باستخدام HTML
 type: docs
 weight: 130
 url: /ar/net/display-bullets-by-setting-cell-value-using/
-description: أضف الرموز النقطية إلى Excel Cells باستخدام HTML وسهل الاستخدام Aspose.Cells for .NET API.
-keywords: add bullets in excel, add bullets in excel c#, display bullets in excel, display bullets in excel c#, add bullets in excel with html, add bullets in excel with html c#, display bullets in excel with html, display bullets in excel with html c#, display bullets in excel using html, add bullets in excel using html
+description: إضافة رموز نقاط إلى خلايا Excel باستخدام HTML وواجهة برمجة التطبيقات السهلة الاستخدام Aspose.Cells for .NET.
+keywords: إضافة رموز نقاط في Excel، إضافة رموز نقاط في Excel بلغة C#، عرض رموز نقاط في Excel، عرض رموز نقاط في Excel بلغة C#، إضافة رموز نقاط في Excel بواسطة HTML، إضافة رموز نقاط في Excel بواسطة HTML بلغة C#، عرض رموز نقاط في Excel بواسطة HTML، عرض رموز نقاط في Excel بواسطة HTML بلغة C#، عرض رموز نقاط في Excel باستخدام HTML، إضافة رموز نقاط في Excel باستخدام HTML
 ---
+
 {{% alert color="primary" %}}
 
-يدعم Aspose.Cells إظهار الرموز النقطية برمز HTML. تشرح هذه المقالة كيفية عرض الرموز النقطية عن طريق تعيين قيمة الخلية باستخدام HTML. سوف نستخدمها[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) خاصية لتعيين قيمة الخلية باستخدام HTML الخاص بنا.
+تدعم Aspose.Cells عرض رموز النقاط بكود HTML. سيشرح هذا المقال كيفية عرض الرموز النقاط عن طريق تعيين قيمة الخلية باستخدام HTML. سنستخدم خاصية [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) لتعيين قيمة الخلية بكود HTML.
 
 {{% /alert %}}
 
-## C# كود لعرض التعداد النقطي عن طريق ضبط قيمة Cell باستخدام HTML
+## رمز C# لعرض رموز النقاط عن طريق تعيين قيمة الخلية باستخدام HTML
 
-يستخدم الكود التالي رمز HTML لتعيين قيمة الخلية. بمجرد تشغيل هذا الرمز ، ستحصل على الإخراج كما هو موضح في الصورة أدناه.
+يستخدم الكود التالي كود HTML لتعيين قيمة الخلية. بمجرد تشغيل هذا الكود، ستحصل على الإخراج كما هو موضح في الصورة أدناه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-DisplayBulletsInCellUsingHtml-DisplayBulletsInCellUsingHtml.cs" >}}
 
-## الناتج الناتج عن نموذج التعليمات البرمجية
+## الإخراج الذي تم توليده بواسطة رمز العينة
 
-تُظهر لقطة الشاشة التالية إخراج نموذج التعليمات البرمجية أعلاه.
+تُظهر اللقطة الشاشية التالية الإخراج الناتج من الكود المثالي السابق.
 
-![ما يجب القيام به: image_بديل_نص](display-bullets-by-setting-cell-value-using-html_1.png)
+![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)

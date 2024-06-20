@@ -1,13 +1,14 @@
-﻿---
-title: Erstellungsdatum Cell in Apache POI und Aspose.Cells
+---
+title: Erstellungsdatumzelle in Apache POI und Aspose.Cells erstellen
 type: docs
 weight: 90
 url: /de/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Erstellungsdatum Cell**
+
+## **Aspose.Cells - Erstellungsdatumzelle erstellen**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,10 +35,10 @@ style.setCustom("d-mmm-yy");
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - Erstellungsdatum Cell**
+## **Apache POI SS (HSSF + XSSF) - Erstellungsdatumzelle erstellen**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -86,17 +87,17 @@ cell.setCellValue(Calendar.getInstance());
 cell.setCellStyle(cellStyle);
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Laden Sie Laufbeispiele für**Erstellungsdatum Cell in Aspose.Cells und Apache POI** von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laufende Beispiele für **Erstellung einer Datumszelle in Aspose.Cells und Apache POI** von einer der unten genannten Websites für soziale Programmierung herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **Quellcode herunterladen**
- Quellcode herunterladen für**Erstellungsdatum Cell in Aspose.Cells und Apache POI** von einer der unten genannten Social-Coding-Sites:
+Quellcode für **Erstellung einer Datumszelle in Aspose.Cells und Apache POI** von einer der unten genannten Websites für soziale Programmierung herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Hinzufügen von Daten zu Cells](/cells/de/java/add-data-in-cells/).
+Besuchen Sie für weitere Details [Hinzufügen von Daten zu Zellen](/cells/de/java/add-data-in-cells/).
 
 {{% /alert %}}

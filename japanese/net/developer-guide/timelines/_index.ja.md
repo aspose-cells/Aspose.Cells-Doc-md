@@ -1,20 +1,21 @@
-﻿---
+---
 title: タイムラインを挿入
 linktitle: タイムライン
 type: docs
 weight: 170
 url: /ja/net/create-timeline/
-description: Aspose.Cells でタイムラインを作成する方法を学びます。
+description: Aspose.Cellsでタイムラインを作成する方法について学びます。
 ---
-## **考えられる使用シナリオ**
 
-フィルターを調整して日付を表示する代わりに、ピボットテーブル タイムラインを使用できます。これは、日付/時刻で簡単にフィルター処理し、スライダー コントロールで必要な期間を拡大できる動的フィルター オプションです。 Microsoft Excel では、ピボット テーブルを選択してから、*挿入 > タイムライン*. Aspose.Cells を使用してタイムラインを作成することもできます[**Worksheet.Timelines.Add()**](https://reference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index)方法。
+## **可能な使用シナリオ**
 
-## **ピボット テーブルにタイムラインを作成する**
+日付を表示するためにフィルタを調整する代わりに、PivotTableタイムラインを使用できます。これは、日付/時刻で簡単にフィルタリングを行い、スライダーで希望する期間をズームインできる動的フィルタオプションです。マイクロソフトエクセルでは、ピボットテーブルを選択して*挿入 > タイムライン*をクリックすることでタイムラインを作成できます。Aspose.Cellsでは、[**Worksheet.Timelines.Add()**](https://reference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index)メソッドを使用してタイムラインを作成できます。
 
-以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](input.xlsx)ピボットテーブルが含まれています。次に、最初のベース ピボット フィールドに基づいてタイムラインを作成します。最後に、ワークブックを[出力 XLSX](output.xlsx)フォーマット。次のスクリーンショットは、出力 Excel ファイルで Aspose.Cells によって作成されたタイムラインを示しています。
+## **ピボットテーブルにタイムラインを作成する**
 
-![todo:画像_代替_文章](create-timeline-to-a-pivot-table_1.png)
+次のサンプルコードを参照してください。ピボットテーブルを含む[サンプルExcelファイル](input.xlsx)をロードし、最初の基本ピボットフィールドに基づいてタイムラインを作成します。最後に、[出力XLSX](output.xlsx)形式でワークブックを保存します。次のスクリーンショットは、Aspose.Cellsによって出力されたExcelファイル内のタイムラインを示しています。
+
+![todo:image_alt_text](create-timeline-to-a-pivot-table_1.png)
 
 ### **サンプルコード**
 

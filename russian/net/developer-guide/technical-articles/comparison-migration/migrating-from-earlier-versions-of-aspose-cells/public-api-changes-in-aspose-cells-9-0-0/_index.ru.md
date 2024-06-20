@@ -1,23 +1,24 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 9.0.0
+---
+title: Изменения в общедоступном API в Aspose.Cells 9.0.0
 type: docs
 weight: 330
 url: /ru/net/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.9.2 до 9.0.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 8.9.2 по 9.0.0, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные открытые методы, добавленные и удаленные классы и т. д., но также описание любых изменений в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Добавлено свойство Shape.TextOptions**
-Aspose.Cells for .NET предоставил свойство TextOptions для класса Shape, чтобы управлять внешним видом текстовых частей Shape.
+## **Добавленные API**
+### **Добавлено свойство Shape.TextOptions.**
+Aspose.Cells for .NET добавил свойство TextOptions для класса Shape для управления внешним видом текстовых частей формы.
 
 Вот простой сценарий использования свойства Shape.TextOptions.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize an instance of Workbook
 
@@ -48,20 +49,20 @@ textbox.TextOptions.IsItalic = true;
 {{< /highlight >}}
 
 
-### **Добавлено свойство LoadOptions.CultureInfo.**
-Aspose.Cells for .NET 9.0.0 предоставляет свойство LoadOptions.CultureInfo, которое позволяет вставлять экземпляр CultureInfo во время загрузки документа в экземпляр Workbook.
+### **Добавлено свойство LoadOptions.CultureInfo**
+Aspose.Cells for .NET 9.0.0 предоставил свойство LoadOptions.CultureInfo, которое позволяет вставлять экземпляр CultureInfo во время загрузки документа в экземпляр Workbook.
 
-Вот простой сценарий использования вышеупомянутых свойств.
+Вот простой сценарий использования вышеперечисленных свойств.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Загрузка электронной таблицы с определенной информацией о культуре](/cells/ru/net/load-the-workbook-with-specific-system-culture-info/).
+Проверьте подробную статью по ссылке [Загрузка электронной таблицы с определенной CultureInfo](/cells/ru/net/load-the-workbook-with-specific-system-culture-info/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of CultureInfo and populate its properties
 
@@ -86,20 +87,20 @@ var book = new Workbook(dir + "input.html", options);
 {{< /highlight >}}
 
 
-### **Добавлено свойство ChartPoint.IsInSecondaryPlot**
-Aspose.Cells for .NET предоставил свойство ChartPoint.IsInSecondaryPlot, которое можно использовать для определения того, находится ли ChartPoint на вторичном графике круговой или гистограммы.
+### **Добавлено свойство ChartPoint.IsInSecondaryPlot.**
+Aspose.Cells for .NET предоставил свойство ChartPoint.IsInSecondaryPlot, которое может использоваться для определения того, находится ли ChartPoint на вторичном графике круговой или столбчатой диаграммы.
 
 Вот простой сценарий использования свойства Shape.Line.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Поиск DataPoint находится на втором графике](/cells/ru/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
+Проверьте подробную статью по ссылке [Поиск точки данных находится на втором графике](/cells/ru/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load an existing spreadsheet containing a Pie chart
 
@@ -137,19 +138,19 @@ foreach (ChartPoint point in series.Points)
 
 
 ### **Добавлено свойство OleObject.ClassIdentifier.**
-Aspose.Cells for .NET 9.0.0 предоставило свойство OleObject.ClassIdentifier, которое можно использовать для указания поведения приложения при загрузке OleObject. Например, файл PPT может быть встроен в электронную таблицу с двумя разными представлениями, то есть; представление презентации или представление слайдов, тогда как оба представления имеют разные значения идентификатора класса.
+Aspose.Cells for .NET 9.0.0 предоставил свойство OleObject.ClassIdentifier, которое может использоваться для указания поведения приложения при загрузке OleObject. Например, файл PPT можно встроить в электронную таблицу с 2 разными видами: видом презентации или видом слайда, причем оба вида имеют разные значения идентификатора класса.
 
 Ниже приведен простой сценарий использования свойства OleObject.ClassIdentifier.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Использование OleObject.ClassIdentifier](/cells/ru/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/).
+Проверьте подробную статью по ссылке [Использование OleObject.ClassIdentifier](/cells/ru/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a spreadsheet containing a presentation as OleObject
 
@@ -165,13 +166,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 string progID = "";
 
@@ -181,7 +182,7 @@ string sourceFullName = "";
 
 bool isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 // Get the first worksheet from the collection
 
@@ -267,23 +268,23 @@ book.Save(dir  + "output.xls");
 
 {{< /highlight >}}
 ## **Устаревшие API**
-### **Устаревший метод Worksheet.SetBackground**
+### **Метод Worksheet.SetBackground устарел**
 Вместо этого используйте свойство Worksheet.BackgroundImage.
-### **Устаревшие свойства LineShape.BeginArrowheadStyle и ArcShape.BeginArrowheadStyle**
+### **Свойства LineShape.BeginArrowheadStyle и ArcShape.BeginArrowheadStyle устарели**
 В качестве альтернативы используйте свойство Shape.Line.BeginArrowheadStyle.
-### **Устаревшие свойства LineShape.EndArrowheadStyle и ArcShape.EndArrowheadStyle**
+### **Свойства LineShape.EndArrowheadStyle и ArcShape.EndArrowheadStyle устарели**
 В качестве альтернативы используйте свойство Shape.Line.EndArrowheadStyle.
-### **Устаревшие свойства LineShape.BeginArrowheadWidth и ArcShape.BeginArrowheadWidth**
+### **Свойства LineShape.BeginArrowheadWidth и ArcShape.BeginArrowheadWidth устарели**
 В качестве альтернативы используйте свойство Shape.Line.BeginArrowheadWidth.
-### **Устаревшие свойства LineShape.BeginArrowheadLength и ArcShape.BeginArrowheadLength**
-Вместо этого используйте свойство Shape.Line.BeginArrowheadLength.
-### **Устаревшие свойства LineShape.EndArrowheadWidth и ArcShape.EndArrowheadWidth**
-Вместо этого используйте свойство Shape.Line.EndArrowheadWidth.
-### **Устаревшие свойства LineShape.EndArrowheadLength и ArcShape.EndArrowheadLength**
-Вместо этого используйте свойство Shape.Line.EndArrowheadLength.
+### **Свойства LineShape.BeginArrowheadLength и ArcShape.BeginArrowheadLength устарели**
+Используйте свойство Shape.Line.BeginArrowheadLength вместо.
+### **Свойства LineShape.EndArrowheadWidth и ArcShape.EndArrowheadWidth устарели**
+Используйте свойство Shape.Line.EndArrowheadWidth вместо.
+### **Свойства LineShape.EndArrowheadLength и ArcShape.EndArrowheadLength устарели**
+Используйте свойство Shape.Line.EndArrowheadLength вместо.
 ## **Удаленные API**
-### **Удаленный метод Worksheet.CopyConditionalFormatting**
-### **Удаленный метод Workbook.CheckWriteProtectedPassword**
+### **Удален метод Worksheet.CopyConditionalFormatting**
+### **Удален метод Workbook.CheckWriteProtectedPassword**
 ## **Переименованные API**
-### **Метод Workbook.RemoveDigitallySign переименован.**
+### **Переименован метод Workbook.RemoveDigitallySign**
 Метод Workbook.RemoveDigitallySign был переименован в Workbook.RemoveDigitalSignature.

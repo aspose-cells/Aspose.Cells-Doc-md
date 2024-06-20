@@ -1,14 +1,15 @@
 ---
-title: FAQ
+title: よくある質問
 type: docs
 weight: 100
 url: /ja/cpp/faq/
 ---
-##  **まだ**
+
+## **まだありません**
 
 <!--
-## **Encryption and decryption are not supported for Aspose.Cells for C++ now**
-Now, encryption and decryption are not supported for Aspose.Cells for C++, so if you want to open a file with password the code will throw exception.
+## **現時点では、暗号化と復号はサポートされていません for Aspose.Cells for C++**
+現時点では、暗号化と復号は Aspose.Cells for C++ に対してサポートされていません。したがって、ファイルをパスワードで開きたい場合は、コードで例外がスローされます。
 
 
 

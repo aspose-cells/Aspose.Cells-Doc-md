@@ -1,54 +1,55 @@
-﻿---
+---
 title: Masquer et afficher des lignes et des colonnes
 type: docs
 weight: 60
 url: /fr/net/hiding-and-showing-rows-and-columns/
 ---
+
 {{% alert color="primary" %}}
 
-Parfois, il est judicieux de masquer certaines lignes ou colonnes dans une feuille de calcul et de les afficher ultérieurement. Microsoft Excel fournit cette fonctionnalité, tout comme Aspose.Cells.
+Parfois, il est judicieux de masquer certaines lignes ou colonnes dans une feuille de calcul et de les afficher plus tard. Microsoft Excel fournit cette fonctionnalité et Aspose.Cells également.
 
 {{% /alert %}}
 
-## **Contrôle de la visibilité des lignes et des colonnes**
+## **Contrôler la visibilité des lignes et des colonnes**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) qui permet aux développeurs d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection qui représente toutes les cellules de la feuille de calcul. Le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection propose plusieurs méthodes de gestion des lignes ou des colonnes dans une feuille de calcul. Quelques-uns d'entre eux sont discutés ci-dessous.
+Aspose.Cells fournit une classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contient une collection [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) qui permet aux développeurs d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fournit une collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) qui représente toutes les cellules de la feuille de calcul. La collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul. Certaines d'entre elles sont discutées ci-dessous.
 
-### **Masquer des lignes et des colonnes**
+### **Masquer les lignes et les colonnes**
 
- Les développeurs peuvent masquer une ligne ou une colonne en appelant le[**Masquer la ligne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) et[**CacherColonne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) méthodes de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collecte respectivement. Les deux méthodes prennent l'index de ligne et de colonne comme paramètre pour masquer la ligne ou la colonne spécifique.
+Les développeurs peuvent masquer une ligne ou une colonne en appelant respectivement les méthodes [**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) et [**HideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) de la collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Les deux méthodes prennent l'index de la ligne ou de la colonne comme paramètre pour masquer la ligne ou colonne spécifique.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Il est également possible de masquer une ligne ou une colonne en définissant respectivement la hauteur de ligne ou la largeur de colonne sur 0.
+Il est également possible de masquer une ligne ou une colonne en définissant respectivement la hauteur de la ligne ou la largeur de la colonne à 0.
 
 {{% /alert %}}
 
-### **Affichage des lignes et des colonnes**
+### **Afficher des lignes et des colonnes**
 
- Les développeurs peuvent afficher n'importe quelle ligne ou colonne masquée en appelant le[**Afficher la ligne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) et[**Afficher la colonne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) méthodes de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collecte respectivement. Les deux méthodes prennent deux paramètres :
+Les développeurs peuvent afficher toute ligne ou colonne masquée en appelant respectivement les méthodes [**UnhideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) et [**UnhideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) de la collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Les deux méthodes prennent deux paramètres :
 
-- **Index de ligne ou de colonne** - l'index d'une ligne ou d'une colonne qui est utilisé pour afficher la ligne ou la colonne spécifique.
-- **Hauteur de ligne ou largeur de colonne** - la hauteur de ligne ou la largeur de colonne attribuée à la ligne ou à la colonne après l'affichage.
+- **Index de la ligne ou de la colonne** - l'index d'une ligne ou colonne utilisé pour afficher la ligne ou colonne spécifique.
+- **Hauteur de la ligne ou largeur de la colonne** - la hauteur de la ligne ou la largeur de la colonne assignée à la ligne ou colonne après démasquage.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-UnhidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Lorsque vous rendez visible une colonne masquée, si vous devez la restaurer à la largeur précédemment attribuée ou à sa largeur d'origine, veuillez afficher la colonne avec une largeur négative. Par exemple : worksheet.Cells.UnhideColumn(5, -1)
+Lorsque vous rendez une colonne masquée visible, si vous avez besoin de la restaurer à la largeur précédemment assignée ou à sa largeur d'origine, veuillez démasquer la colonne avec une largeur négative. Par exemple : worksheet.Cells.UnhideColumn(5, -1)
 
 {{% /alert %}}
 
 ### **Masquer plusieurs lignes et colonnes**
 
- Les développeurs peuvent masquer plusieurs lignes ou colonnes à la fois en appelant le[**Masquer les lignes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) et[**CacherColonnes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) méthodes de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collecte respectivement. Les deux méthodes prennent l'index de la ligne ou de la colonne de départ et le nombre de lignes ou de colonnes qui doivent être masquées comme paramètres.
+Les développeurs peuvent masquer plusieurs lignes ou colonnes en une seule fois en appelant respectivement les méthodes [**HideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) et [**HideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) de la collection [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Les deux méthodes prennent l'index de la ligne ou de la colonne de départ et le nombre de lignes ou de colonnes à masquer comme paramètres.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingMultipleRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Il est également possible d'utiliser le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) classe'[**Afficher les lignes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) et[**Afficher les colonnes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)méthodes pour rendre plusieurs lignes et colonnes visibles.
+Il est également possible d'utiliser les méthodes [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) et [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) de la classe [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) pour rendre plusieurs lignes et colonnes visibles.
 
 {{% /alert %}}

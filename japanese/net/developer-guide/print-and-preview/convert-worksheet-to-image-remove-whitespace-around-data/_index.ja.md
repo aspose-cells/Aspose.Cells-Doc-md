@@ -1,22 +1,23 @@
-﻿---
-title: ワークシートを画像に変換 - データの周りの空白を削除
+---
+title: ワークシートを画像に変換  データ周りの余白を削除する
 type: docs
 weight: 40
 url: /ja/net/convert-worksheet-to-image-remove-whitespace-around-data/
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、アプリケーションまたは Web ページでワークシート イメージを表示する必要があります。たとえば、Word ドキュメント、PDF ファイル、PowerPoint プレゼンテーション、またはその他のドキュメントに画像を挿入する必要がある場合があります。基本的に、ワークシートを画像としてレンダリングして、他のアプリケーションに貼り付けることができます。 Aspose.Cells では、Microsoft Excel ワークシートを画像に変換できます。
+時には、ワークシートの画像をアプリケーションやWebページで表示する必要があります。たとえば、画像をWord文書、PDFファイル、PowerPointプレゼンテーション、あるいは他のドキュメントに挿入する必要があるかもしれません。基本的に、ワークシートを画像としてレンダリングして、他のアプリケーションに貼り付けられるようにしたいと思うでしょう。Aspose.Cellsを使用すると、Microsoft Excelのワークシートを画像に変換することができます。
 
 {{% /alert %}}
 
-## **データの周囲の空白を削除**
+## **データ周りの余白を削除してください**
 
-の[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API は、ワークシートを指定された属性 (イメージ形式、ページ付けされたシートなど) を持つイメージ ファイルに変換します。
+[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)APIは、ワークシートを指定された属性（たとえば、画像形式、ページ化されたシートなど）で画像ファイルに変換します。いくつかの画像形式がサポートされており、BMP、GIF、JPG、TIFF、EMFなどが含まれています。
 
-シートから画像への機能を使用すると、出力画像にはデフォルトで余白、つまり境界線が表示されます。これを削除するには、元のワークシートの上下左右のページ設定マージンを 0 に設定し、指定します。[**Aspose.Cells.Rendering.ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)それに応じて属性。
+シートを画像化する際、出力画像にはデフォルトで余白（ボーダー）があります。これを削除するには、元のワークシートの上部、下部、左側、右側のページ設定のマージンを0に設定し、それに応じて[**Aspose.Cells.Rendering.ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)属性を指定してください。
 
-次のコード スニペットは、出力画像のデータの周囲の空白を削除します。
+次のコードスニペットは、出力画像のデータ周りの余白を削除します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RemoveWhitespaceAroundData-1.cs" >}}
 

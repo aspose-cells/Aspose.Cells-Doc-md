@@ -1,61 +1,64 @@
-﻿---
-title: Aspose.Cells.GridWeb - Web Izgara Kontrolü
+---
+title: Aspose.Cells.GridWeb  Web Izgara Kontrolü
 type: docs
 weight: 40
-url: /tr/net/aspose-cells-gridweb-web-grid-control/
+url: /tr/net/aspose-cells-gridweb/features/
+keywords: GridWeb,özellikler,özellik
+description: Bu makale, GridWeb için özellikleri tanıtmaktadır.
 ---
-## **Aspose.Cells.GridWeb – Web Izgara Kontrolü**
-### **İçe/Dışa Aktarma Özellikleri**
-- Excel elektronik tablolarından içe aktarın ve dışa aktarın.
-- Verileri doğrudan DataView veya DataTable nesnelerinden içe ve dışa aktarın.
+
+## **Aspose.Cells.GridWeb – Web Grid Control**
+### **İçe Aktarma/Dışa Aktarma Özellikleri**
+- Excel elektronik tablolarına içe aktarma ve dışa aktarma.
+- Verilerin DataView veya DataTable nesnelerinden doğrudan içe aktarılması ve dışa aktarılması.
 ### **Çalışma Sayfası Özellikleri**
-- Çalışma sayfaları ekleyin/kaldırın.
-- Çalışma sayfası verilerinin hem yatay hem de dikey sıralamasını destekler.
-- Çalışma sayfası sayfalandırmayı destekler.
-- Sıfırdan elektronik tablolar oluşturun.
+- Çalışsayfaları ekleme/kaldırma.
+- Çalışsayfa verilerinin hem yatay hem de dikey sıralamasını destekler.
+- Çalışsayfa sayfalama desteğine sahiptir.
+- Sıfırdan elektronik tablo oluşturma.
 ### **Satır ve Sütun Özellikleri**
-- Bir çalışma sayfasına satır ve sütun ekleyin, ekleyin ve kaldırın.
-- Satırları ve sütunları gizleyin ve gösterin.
-- Satırları ve sütunları dondurun ve çözün.
-- Satırların ve sütunların başlıklarını özelleştirin.
-### **Cell Özellikler**
-- İstemci tarafında birden çok hücreyi, sunucu tarafına tek bir gönderiyle düzenleyin.
-- Sayı, tarih ve saat biçimi ayarlarını destekler.
-- Özel biçim ayarlarını destekler
-- Metin hizalamasını kontrol edin.
-- Sınırları yönetin.
-- Yazı tipi ayarlarını kontrol edin.
-- Hücreleri birleştirme veya bölme
+- Çalışsayfalarına satır ve sütun ekleme, ekleme ve kaldırma.
+- Satır ve sütun gizleme ve gösterme.
+- Satır ve sütun dondurma ve çözme.
+- Satır ve sütun başlıklarını özelleştirme.
+### **Hücre Özellikleri**
+- Birden fazla hücreyi istemci tarafında tek bir sunucu tarafı gönderimiyle düzenleme.
+- Sayı, tarih ve saat formatı ayarlarını destekler.
+- Özel format ayarlarını destekler.
+- Metin hizalamasını kontrol etme.
+- Sınırları yönetme.
+- Yazı tipi ayarlarını kontrol etme.
+- Hücreleri birleştirme veya böleme
 ### **Biçimlendirme Özellikleri**
-- Masaüstü elektronik tablo uygulamaları gibi görünen ve hissedilen web tabanlı etkileşimli ızgara uygulamaları oluşturun.
-- İstemci tarafı hücre biçimlendirmesini destekler.
+- Masaüstü elektronik tablo uygulamaları gibi görünüm ve his bulunan web tabanlı etkileşimli ızgaralar oluşturma.
+- İstemci tarafı hücre biçimlendirme desteği.
 - Hem yerleşik hem de özelleştirilebilir görsel stiller sağlar.
 ### **Yardımcı Özellikler**
-- Açılır liste ve normal ifade doğrulamalarını destekler.
-- Yorum ekleyin ve kaldırın.
-- Resimleri ekleyin ve kaldırın.
-- Köprüleri ekleyin ve kaldırın.
-- Klavye navigasyonu.
-### **Gelişmiş Özellikler**
-- Web sayfalarında formül oluşturmayı ve hesaplamayı destekler.
-- Matematik, metin ve veriler, tarih ve saat ve mantıkla ilgili 80'den fazla önceden tanımlanmış işlev sağlar.
-- Dinamik pivot tablolar oluşturmayı destekler.
-- Farklı ızgara olayları altında eylemler gerçekleştirin.
-- Aspose.Cells.GridWeb kontrolünü oturumsuz modda kullanın.
-- Tek bir tıklamayla ızgara verilerini gönderin.
+- Açılır listeler ve düzenli ifadeler doğrulamalarını destekler.
+- Yorum ekleyip kaldırma.
+- Resim ekleme ve kaldırma.
+- Bağlantılar ekleme ve kaldırma.
+- Klavye ile gezinme.
+### **İleri Düzey Özellikler**
+- Web sayfalarında formüller oluşturup hesaplama desteği.
+- Matematik, metin ve veri, tarih ve saat, mantık ile ilgili önceden tanımlanmış 80'den fazla fonksiyon sağlar.
+- Dinamik pivot tablolar oluşturma desteği.
+- Farklı grid olayları altında işlemler gerçekleştirme.
+- Oturum gerektirmeyen modda Aspose.Cells.GridWeb kontrolünü kullanma.
+- Tek tıklamayla grid verilerini gönderme.
 ### **Desteklenen Tarayıcılar**
 - Microsoft Internet Explorer
-- Mozilla Firefox
+- Mozilla FireFox
 - Opera
-- Google krom
-- Microsoft Kenar
-### **Microsoft Excel Desteklenir**
+- Google Chrome
+- Microsoft Edge
+### **Microsoft Excel Desteği**
 - Microsoft Excel 97
-- Microsoft excel 2000
+- Microsoft Excel 2000
 - Microsoft Excel XP
-- Microsoft excel 2003
-- Microsoft excel 2007
-- Microsoft excel 2010
-- Microsoft excel 2013
+- Microsoft Excel 2003
+- Microsoft Excel 2007
+- Microsoft Excel 2010
+- Microsoft Excel 2013
 ### **Desteklenen Platformlar**
-- ASP.NET Web Formları
+- ASP.NET Web Forms

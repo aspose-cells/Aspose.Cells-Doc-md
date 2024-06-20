@@ -1,25 +1,26 @@
-﻿---
-title: Genel API Aspose.Cells 8.5.2'deki değişiklikler
+---
+title: Aspose.Cells 8.5.2 de Yapılan Genel API Değişiklikleri
 type: docs
 weight: 190
 url: /tr/java/public-api-changes-in-aspose-cells-8-5-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Bu belge, Aspose.Cells API sürümünde 8.5.1'den 8.5.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-5-2/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
+Bu belge, Aspose.Cells API'sının 8.5.1'den 8.5.2'ye sürümünde modül/uygulama geliştiricilerinin ilgisini çekebilecek değişiklikleri açıklar. Yeni ve güncellenmiş genel yöntemler, [eklenen sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-5-2/) yanı sıra Aspose.Cells'in arka plandaki davranışındaki herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Çalışma Sayfasını Grafik Bağlamına Dönüştür**
-Aspose.Cells for Java API'in bu sürümü, artık Graphics2D sınıfının bir örneğini kabul etmeye izin veren SheetRender.toImage yönteminin başka bir aşırı yüklemesini açığa çıkardı.[Çalışma Sayfasını Grafik bağlamında işleyin](/cells/tr/java/render-worksheet-to-graphic-context/). Yeni eklenen yöntemin imzaları aşağıdaki gibidir.
+## **Eklenen API'lar**
+### **Çalışsayısını Grafiksel Ortama Dönüştürme**
+Bu Aspose.Cells for Java API sürümü, Artık SheetRender.toImage yönteminin bir başka aşırısını ortaya çıkardı ve şimdi [Çalışsayıyı Görsel bağlamda oluşturmaya izin veren bir Graphics2D sınıfının örneğini kabul etmek için](/cells/tr/java/render-worksheet-to-graphic-context/) kullanılabilir. Yeni eklenen yöntemin imzaları aşağıdaki gibidir.
 
-- SheetRender.toImage(int pageIndex, Graphics2D grafiği)
+- SheetRender.toImage(int pageIndex, Graphics2D graphic)
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -62,14 +63,14 @@ File outputfile = new File("test.png");
 ImageIO.write(image, "png", outputfile);
 
 {{< /highlight >}}
-### **Yöntem PivotTable.getCellByDisplayName Eklendi**
- Aspose.Cells for Java 8.5.2, PivotTable.getCellByDisplayName yöntemini kullanıma sundu.[PivotField adına göre Cell nesnesini alın](/cells/tr/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Bu yöntem, PivotField başlığını vurgulamak veya biçimlendirmek istediğiniz senaryolarda yararlı olabilir.
+### **Eklenen PivotTable.getCellByDisplayName Yöntemi**
+Aspose.Cells for Java 8.5.2, PivotTable.getCellByDisplayName yöntemini açığa çıkardı ve bu, [PivotField'ın adına göre Hücre nesnesini almak için](/cells/tr/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/) kullanılabilir. Bu yöntem, PivotField başlığını vurgulamak veya biçimlendirmek istediğiniz senaryolarda faydalı olabilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -106,35 +107,35 @@ pivotTable.format(cell.getRow(), cell.getColumn(), style);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Özellik SaveOptions.MergeAreas Eklendi**
-Aspose.Cells for Java 8.5.2, Boole türü değeri kabul edebilen SaveOptions.MergeAreas özelliğini kullanıma sundu. Varsayılan değer false'tur, ancak true olarak ayarlanırsa Aspose.Cells for Java API, dosyayı kaydetmeden önce ayrı CellArea'yı birleştirmeye çalışır.
+### **Eklenen SaveOptions.MergeAreas Özelliği**
+Aspose.Cells for Java 8.5.2, SaveOptions.MergeAreas özelliğini açığa çıkardı ve Boolean türünde değer alabilen bir özelliktir. Varsayılan değer false olmasına rağmen, true olarak ayarlanırsa, Aspose.Cells for Java API dosyayı kaydetmeden önce hücre alanlarını birleştirmeye çalışır.
 
 {{% alert color="primary" %}} 
 
-Bir e-tabloda doğrulama uygulanmış çok fazla bireysel hücre varsa, ortaya çıkan e-tablonun bozulma olasılığı vardır. Muhtemel bir çözüm, hücreleri aynı doğrulama kurallarına sahip birleştirmek veya artık API'i kaydetme işleminden önce CellAreas'ı otomatik olarak birleştirmeye yönlendirmek için SaveOptions.MergeAreas özelliğini kullanabilirsiniz.
+Bir elektronik tabloda uygulanan çok sayıda tekil hücre varsa, sonucun bozulma olasılıkları vardır. Tekil doğrulama kurallarına sahip hücreleri birleştirmenin bir olası çözümü veya Aspose.Cells for Java API'nın kaydetme işleminden önce hücre Alanlarını otomatik olarak birleştirmek için artık SaveOptions.MergeAreas özelliğini kullanabilirsiniz.
 
 {{% /alert %}} 
-### **Özellik Geometry.ShapeAdjustValues Eklendi**
- v8.5.2 sürümüyle birlikte Aspose.Cells API, şu amaçlarla kullanılabilecek Geometry.getShapeAdjustValues yöntemini kullanıma sundu.[farklı şekillerin ayar noktalarına erişin ve bu noktalarda değişiklik yapın](/cells/tr/java/change-adjustment-values-of-the-shape/).
+### **Eklenen Geometry.ShapeAdjustValues Özelliği**
+V8.5.2'nin piyasaya sürülmesiyle Aspose.Cells API, farklı şekillerin ayar noktalarına [erişmek ve değişiklik yapmak için kullanılabilecek Geometry.getShapeAdjustValues yöntemini açığa çıkardı](/cells/tr/java/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel arayüzünde, ayar noktaları sarı elmas düğümler olarak görüntülenir.
+Microsoft Excel arayüzünde, ayar noktaları sarı elmas düğümleri olarak görüntülenir.
 
 {{% /alert %}} 
 
- Örneğin,
+Örneğin, 
 
-1. Yuvarlatılmış Dikdörtgenin yayı değiştirmek için bir ayarı vardır
-1. Üçgenin noktanın konumunu değiştirmek için bir ayarı vardır
-1. Yamuk, üst kısmın genişliğini değiştirmek için bir ayara sahiptir
-1. Baş ve kuyruğun şeklini değiştirmek için okların iki ayarı vardır
+1. Yuvarlatılmış Dikdörtgenin yay'ı değiştirmek için bir ayarı vardır
+1. Üçgen'in noktasının konumunu değiştirmek için bir ayarı vardır
+1. Yaygın olmayan yukarıda bir ayarı değiştirmek için bir ayarı vardır
+1. Okların kuyruk ve başının şeklini değiştirmek için iki ayarı vardır
 
 İşte en basit kullanım senaryosu.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -165,11 +166,11 @@ shape3.getGeometry().getShapeAdjustValues().get(0).setValue(0.5d);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Numaralandırma Alanı KonsolidasyonFunction.DISTINCT_COUNT Eklendi**
-Aspose.Cells for Java 8.5.2, bir PivotTable'ın DataField'inde Distinct Count birleştirilmiş işlevini uygulamak için kullanılabilecek ConsolidationFunction.DISTINCT_COUNT alanını kullanıma sundu.
+### **Numaralı Alan Konsolidasyon Fonksiyonu.DISTINCT_COUNT Eklendi**
+Aspose.Cells for Java 8.5.2, ConsolidationFunction.DISTINCT_COUNT alanını DataField'ın üzerine Uygulanan Farklı Sayıda birleşik fonksiyonu için kullanılabilir hale getirdi.
 
 {{% alert color="primary" %}} 
 
-Farklı Sayı birleştirme işlevi yalnızca Microsoft Excel 2013 tarafından desteklenir.
+Farklı Sayıda konsolidasyon fonksiyonu yalnızca Microsoft Excel 2013 tarafından desteklenmektedir.
 
 {{% /alert %}}

@@ -1,17 +1,18 @@
-﻿---
-title: Rendern Sie alle Berichtsdiagrammelemente in Excel-Diagramme
+---
+title: Alle Berichtsdiagramme als Excel Diagramme renden
 type: docs
 weight: 10
 url: /de/reportingservices/render-all-report-chart-items-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-So rendern Sie alle Diagrammelemente in einem Bericht als bearbeitbare Excel-Diagramme:
+Um alle Diagrammelemente in einem Bericht als bearbeitbare Excel-Diagramme zu rendern:
 
-1. Öffne das**Aspose.Cells.ReportingServices.xml** Datei.
-1.  Ändern Sie die Konfigurationsparameter wie folgt:
+1. Öffnen Sie die Datei **Aspose.Cells.ReportingServices.xml**.
+1. Ändern Sie die Konfigurationsparameter wie folgt: 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart value="all">
 
@@ -19,10 +20,10 @@ So rendern Sie alle Diagrammelemente in einem Bericht als bearbeitbare Excel-Dia
 
 {{< /highlight >}}
 
- Wenn der Wert auf „alle“ gesetzt ist, werden alle Diagrammelemente als bearbeitbare Diagramme gerendert.
+Wenn der Wert auf „all“ gesetzt ist, werden alle Diagrammelemente als bearbeitbare Diagramme gerendert. 
 
 **Diagramme in Excel bearbeiten** 
 
-![todo: Bild_alt_Text](render-all-report-chart-items-to-excel-charts_1.png)
+![todo:image_alt_text](render-all-report-chart-items-to-excel-charts_1.png)
 
 {{% /alert %}}

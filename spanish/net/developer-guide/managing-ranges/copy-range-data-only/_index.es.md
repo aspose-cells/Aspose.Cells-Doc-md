@@ -1,25 +1,26 @@
-﻿---
-title: Copiar solo datos de rango
+---
+title: Copiar Solo Datos de Rango
 type: docs
 weight: 600
 url: /es/net/copy-range-data-only/
 ---
+
 {{% alert color="primary" %}}
 
-veces, necesita copiar datos de un rango de celdas a otro, copiando solo los datos, no el formato. Aspose.Cells ofrece esta característica.
+A veces, necesitas copiar datos de un rango de celdas a otro, copiando solo los datos, no el formato. Aspose.Cells ofrece esta función.
 
-Este artículo proporciona un código de muestra que usa Aspose.Cells para copiar un rango de datos.
+Este artículo proporciona un código de ejemplo que utiliza Aspose.Cells para copiar un rango de datos.
 
 {{% /alert %}}
 
 Este ejemplo muestra cómo:
 
 1. Crear un libro de trabajo.
-1. Agregue datos a las celdas en la primera hoja de trabajo.
-1.  Crear un[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range).
-1.  Crear un[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objeto con atributos de formato especificados.
-1. Aplique el formato de estilo al rango.
-1. Cree otro rango de celdas.
-1. Copie los datos del primer rango a este segundo rango.
+1. Agregar datos a las celdas en la primera hoja de cálculo.
+1. Crear un [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range).
+1. Crea un objeto [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) con atributos de formato especificados.
+1. Aplica el formato de estilo al rango.
+1. Crear otro rango de celdas.
+1. Copiar datos del primer rango a este segundo rango.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}

@@ -1,21 +1,22 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.6.2
+---
+title: Изменения в публичном API в Aspose.Cells 8.6.2
 type: docs
 weight: 210
 url: /ru/net/public-api-changes-in-aspose-cells-8-6-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Этот документ описывает изменения в Aspose.Cells API с версии 8.6.1 до 8.6.2, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы, добавленные классы, но и описание любых изменений поведения за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 8.6.1 до 8.6.2, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные публичные методы, добавленные классы, но также описание любых изменений в поведении Aspose.Cells за кулисами.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Поддержка обратного вызова с помощью интеллектуальных маркеров**
- В этом выпуске Aspose.Cells for .NET API представлены свойство WorkbookDesigner.CallBack и интерфейс ISmartMarkerCallBack, которые вместе позволяют[получать уведомления об обработке ссылки на ячейку и/или смарт-маркера](/cells/ru/net/getting-notifications-while-merging-data-with-smart-markers/). Следующий фрагмент кода демонстрирует использование интерфейса ISmartMarkerCallBack для определения нового класса, который обрабатывает обратный вызов для метода WorkbookDesigner.Process.
+## **Добавленные API**
+### **Поддержка обратного вызова с использованием умных маркеров**
+Этот выпуск API Aspose.Cells for .NET предоставил свойство WorkbookDesigner.CallBack и интерфейс ISmartMarkerCallBack, которые вместе позволяют [получать уведомления о обработке ссылки на ячейку и/или умного маркера](/cells/ru/net/getting-notifications-while-merging-data-with-smart-markers/). В следующем фрагменте кода демонстрируется использование интерфейса ISmartMarkerCallBack для определения нового класса, который обрабатывает вызов для метода WorkbookDesigner.Process.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class SmartMarkerCallBack : ISmartMarkerCallBack
 
@@ -47,11 +48,11 @@ url: /ru/net/public-api-changes-in-aspose-cells-8-6-2/
 
 
 
-Остальная часть процесса включает в себя загрузку электронной таблицы конструктора, содержащей смарт-маркеры, с помощью WorkbookDesigner и ее обработку путем установки источника данных. Однако для включения уведомлений необходимо установить свойство WorkbookDesigner.CallBack перед вызовом метода WorkbookDesigner.Process, как показано ниже.
+Дальнейший процесс включает загрузку конструкторской электронной таблицы, содержащей умные маркеры, с помощью WorkbookDesigner и ее обработку путем установки источника данных. Однако, чтобы включить уведомления, необходимо установить свойство WorkbookDesigner.CallBack перед вызовом метода WorkbookDesigner.Process, как показано ниже.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loading the designer spreadsheet in an instance of Workbook
 
@@ -77,13 +78,13 @@ designer.Process(false);
 
 
 ### **Добавлен метод Chart.ToPdf**
- Aspose.Cells for .NET 8.6.2 предоставил метод Chart.ToPdf, который можно использовать для[непосредственно отображать форму диаграммы в формате PDF](/cells/ru/net/convert-an-excel-chart-to-image/). Указанный метод в настоящее время принимает параметр типа string в качестве пути к файлу для сохранения результирующего файла на диске.
+Aspose.Cells for .NET 8.6.2 предоставил метод Chart.ToPdf, который может использоваться для [непосредственного отображения формы графика в PDF-формате](/cells/ru/net/convert-an-excel-chart-to-image/). Указанный метод в настоящее время принимает параметр типа строка в качестве местоположения пути к файлу для сохранения результирующего файла на диске.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet containing charts
 
@@ -105,13 +106,13 @@ chart.ToPdf(outputFilePath);
 
 
 ### **Добавлен метод Workbook.RemoveUnusedStyles**
- Aspose.Cells for .NET 8.6.2 предоставил метод Workbook.RemoveUnusedStyles, который можно использовать для[удалить все неиспользуемые объекты Style из пула стилей](/cells/ru/net/remove-unused-styles-inside-the-workbook/).
+Aspose.Cells for .NET 8.6.2 предоставил метод Workbook.RemoveUnusedStyles, который может быть использован для [удаления всех неиспользуемых объектов стиля из пула стилей](/cells/ru/net/remove-unused-styles-inside-the-workbook/).
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet
 
@@ -124,14 +125,14 @@ workbook.RemoveUnusedStyles();
 {{< /highlight >}}
 
 
-### **Добавлено свойство Cells. Стиль**
-Свойство Cells.Style можно использовать для доступа к стилю для рабочего листа, представляющего стиль по умолчанию.
+### **Добавлено свойство Cells.Style**
+Свойство Cells.Style может быть использовано для доступа к стилю для Листа, представляющего собой стандартный стиль.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -144,8 +145,8 @@ Style style = book.Worksheets[0].Cells.Style;
 {{< /highlight >}}
 
 
-### **Добавлены события для GridWeb**
-Aspose.Cells.GridWeb for .NET 8.6.2 выявил следующие два новых события.
+### **События добавлены для GridWeb**
+Aspose.Cells.GridWeb для .NET 8.6.2 предоставил следующие два новых события.
 
-1. AjaxCallFinished: запускается после завершения AJAX-обновления элемента управления. (EnableAJAX должен быть установлен в true).
-1. CellModifiedOnAjax: срабатывает, когда ячейка изменяется в вызове AJAX.
+1. AjaxCallFinished: Срабатывает, когда AJAX-обновление элемента управления завершено. (EnableAJAX должен быть установлен в true).
+1. CellModifiedOnAjax: Срабатывает, когда ячейка изменена в вызове AJAX.

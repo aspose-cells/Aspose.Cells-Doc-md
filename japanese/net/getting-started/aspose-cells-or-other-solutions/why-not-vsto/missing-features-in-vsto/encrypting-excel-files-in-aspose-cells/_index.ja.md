@@ -1,44 +1,45 @@
-﻿---
-title: Aspose.Cells で Excel ファイルを暗号化する
+---
+title: Aspose.CellsでExcelファイルを暗号化する
 type: docs
 weight: 90
 url: /ja/net/encrypting-excel-files-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel (97 - 2007) では、スプレッドシートを暗号化し、パスワードで保護できます。暗号化サービス プロバイダー (CSP) によって提供されるアルゴリズムを使用します。これは、さまざまなプロパティを持つ一連の暗号化アルゴリズムです。デフォルトの CSP は「Office 97/2000 互換」または「弱い暗号化 (XOR)」です。適切な暗号化キーの長さを選択することが重要です。一部の CSP は、40 ビットまたは 56 ビットを超えるビットをサポートしていません。これは弱い暗号化と見なされます。強力な暗号化を行うには、128 ビット以上のキー長が必要です。 Microsoft Windows には、「Microsoft 強力な暗号化プロバイダー」などの強力な暗号化タイプも提供する CSP が含まれています。 128 ビット暗号化は、銀行がインターネット バンキング システムとの接続を暗号化するために使用するものです。
+マイクロソフトエクセル（97-2007）は、スプレッドシートを暗号化およびパスワード保護することができます。異なる特性を持つ一連の暗号化アルゴリズムである暗号化サービスプロバイダ（CSP）で提供されるアルゴリズムを使用します。デフォルトのCSPは「Office 97/2000互換」または「弱い暗号化（XOR）」です。適切な暗号化キー長を選択することが重要です。一部のCSPは40ビットまたは56ビットを超えるキー長をサポートしていません。それは弱い暗号化と見なされます。強力な暗号化のためには、最低128ビットの鍵長が必要です。Microsoft Windowsには、たとえば「マイクロソフト強力暗号化プロバイダ」のような強力な暗号化タイプを提供するCSPが含まれています。128ビットの暗号化が銀行がインターネットバンキングシステムとの接続を暗号化するために使用するものです。
 
-Aspose.Cells を使用すると、目的の暗号化タイプで Microsoft Excel ファイルを暗号化し、パスワードで保護できます。
+Aspose.Cellsを使用すると、任意の暗号化タイプでMicrosoft Excelファイルを暗号化およびパスワード保護することができます。
 
 {{% /alert %}} 
-## **Microsoft エクセルを使う**
-Microsoft Excel (ここでは Microsoft Excel 2003) でファイル暗号化設定を設定するには:
+## **Microsoft Excel の使用**
+Microsoft Excel（ここではMicrosoft Excel 2003）でファイルの暗号化設定を行うには：
 
-1. から**ツール**メニュー、選択**オプション**.
-ダイアログが表示されます。
-1. を選択**安全**タブ。
-1. パスワードを入力してクリック**高度** 
-   **オプションダイアログ** 
+1. **ツール**メニューから**オプション**を選択します。
+   ダイアログが表示されます。
+1. **セキュリティ**タブを選択します。
+1. パスワードを入力し、**詳細**をクリックします。 
+   **オプション ダイアログ** 
 
-![todo:画像_代替_文章](encrypting-excel-files-in-aspose-cells_1.png)
-
-
+![todo:image_alt_text](encrypting-excel-files-in-aspose-cells_1.png)
 
 
-1. 暗号化タイプを選択し、パスワードを確認します。
+
+
+1. 暗号化方式を選択し、パスワードを確認します。 
 
    **暗号化タイプダイアログ** 
 
-![todo:画像_代替_文章](encrypting-excel-files-in-aspose-cells_2.png)
+![todo:image_alt_text](encrypting-excel-files-in-aspose-cells_2.png)
 
 
 
-## **Aspose.Cellsで暗号化**
-次の例は、Aspose.Cells API を使用して Excel ファイルを暗号化し、パスワードで保護する方法を示しています。
+## **Aspose.Cells を使用した暗号化**
+次の例は、Aspose.Cells APIを使用してExcelファイルを暗号化およびパスワード保護する方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a Workbook object.
 
@@ -65,7 +66,7 @@ workbook.Save("encryptedBook1.xls");
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Encrypting%20Excel%20Files)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1))

@@ -1,21 +1,22 @@
-﻿---
-title: Cell Metniyle Ayarlanmış Koşullu Simgeler Ekleme
+---
+title: Hücre Metni ile Koşullu İkon Seti Ekle
 type: docs
 weight: 70
 url: /tr/java/add-conditional-icons-set-with-the-cell-text/
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen, verileri okuyucular için daha anlamlı hale getirmek için hücredeki metnin yanına koşullu simgeler eklemek istersiniz. Hücrelere koşullu biçimlendirme uygulamadan bazı koşullu biçimlendirme simge türlerini kullanmak istiyorsunuz. Aspose.Cells özelliği destekler.
+Ara sıra, verileri okuyucular için daha anlamlı hale getirmek için metnin yanına koşullu simgeler eklemek isteyebilirsiniz. Hücrelere koşullu biçimlendirme uygulamadan koşullu simge tiplerinin bazılarını kullanmak istersiniz. Aspose.Cells, bu özelliği destekler.
 
 {{% /alert %}} 
 
-Aşağıda, koşullu biçimlendirme uygulamadan metin içeren hücrelere koşullu simgeler ekleyerek sıfırdan bir XLSX dosyası oluşturan bir örnek verilmiştir.
+Aşağıda, koşullu simgeleri hücrelere koşullu biçimlendirme uygulamadan ekleyen bir XLSX dosyası oluşturan bir örnek bulunmaktadır.
 
-Kod yürütüldüğünde, koşullu simge setinden görüntüler, aşağıda gösterildiği gibi "B2:C4" hücre alanına eklenir.
+Kod çalıştırıldığında, koşullu simge setinden görüntüler aşağıdaki gibi "B2:C4" hücre bölgesine eklenir.
 
-**Çıktı dosyası** 
+**Çıkış dosyası** 
 
-![yapılacaklar:resim_alternatif_metin](add-conditional-icons-set-with-the-cell-text_1.png)
+![todo:image_alt_text](add-conditional-icons-set-with-the-cell-text_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddConditionalIconsSet-AddConditionalIconsSet.java" >}}

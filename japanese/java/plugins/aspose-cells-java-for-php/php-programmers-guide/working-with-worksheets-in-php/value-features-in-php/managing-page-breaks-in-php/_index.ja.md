@@ -1,16 +1,17 @@
-﻿---
-title: PHP で改ページを管理する
+---
+title: Phpでのページ休憩の管理
 type: docs
 weight: 20
 url: /ja/java/managing-page-breaks-in-php/
 ---
-## **Aspose.Cells - 改ページの管理**
-### **改ページの追加**
-を使用して改ページを追加するには**Aspose.Cells Java for PHP**、 電話**add_page_breaks**方法**改ページ**モジュール。以下にコード例を示します。
 
-**PHP コード**
+## **Aspose.Cells - ページの区切りを管理する**
+### **ページブレークの追加**
+**Aspose.Cells Java for PHP**を使用してページ休憩を追加するには、**pagebreaks**モジュールの**add_page_breaks**メソッドを呼び出します。以下にコード例を示します。
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
  $worksheets = $workbook->getWorksheets();
 
@@ -29,12 +30,12 @@ $v_page_breaks->add("Y30");
 $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
-### **すべての改ページのクリア**
-を使用してすべての改ページをクリアするには**Aspose.Cells Java for PHP**、 電話**clear_all_page_breaks**方法**改ページ**モジュール。以下にコード例を示します。
+### **すべてのページの改ページをクリアする**
+**Aspose.Cells Java for PHP**を使用して、すべてのページ休憩をクリアするには、**pagebreaks**モジュールの**clear_all_page_breaks**メソッドを呼び出します。以下にコード例を示します。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $workbook->getWorksheets()->get(0)->getHorizontalPageBreaks()->clear();
 
@@ -45,12 +46,12 @@ $workbook->getWorksheets()->get(0)->getVerticalPageBreaks()->clear();
 $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
-### **特定の改ページの削除**
-を使用して特定の改ページを削除するには**Aspose.Cells Java for PHP**、 電話**remove_page_break**方法**改ページ**モジュール。以下にコード例を示します。
+### **特定の改ページを削除する**
+**Aspose.Cells Java for PHP**を使用して特定の改ページを削除するには、**pagebreaks**モジュールの**remove_page_break**メソッドを呼び出します。以下にコード例が示されています。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $worksheets = $workbook->getWorksheets();
 
@@ -69,7 +70,7 @@ $v_page_breaks->removeAt(0);
 $workbook->save($dataDir . "Remove Page Break.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**改ページの管理 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**Managing Page Breaks (Aspose.Cells)**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/ManagingPageBreaks.php)

@@ -1,14 +1,15 @@
-﻿---
-title: XML用紙仕様 - XPS
+---
+title: XML Paper Specification - XPS
 type: docs
 weight: 30
 url: /ja/net/xml-paper-specification-xps/
 ---
+
 ## **XPSについて**
 
-|![todo:画像_代替_文章](xml-paper-specification-xps_1.png)|の[XML用紙仕様](https://en.wikipedia.org/wiki/XML_Paper_Specification)ページ記述言語であり、もともと Microsoft によって開発された固定ドキュメント フォーマットです。|
-|:- |:- |
+|![todo:image_alt_text](xml-paper-specification-xps_1.png)|The [XML Paper Specification](https://en.wikipedia.org/wiki/XML_Paper_Specification) is a page description language and a fixed-document format originally developed by Microsoft. Like PDF, XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance.|
+| :- | :- |
 ## **Aspose.CellsのXPS**
-Aspose.Cells にロードされたドキュメントはすべて XPS に変換できます。Aspose.Cells は同じ忠実度の高いページ レイアウトおよびレンダリング エンジンを使用して、サポートされているすべての固定レイアウト形式 (PDF、XPS など) で出力を生成します。
+Aspose.Cellsに読み込まれた任意のドキュメントをXPSに変換することができます。Aspose.Cellsは、サポートされているすべての固定配置形式（例：PDF、XPSなど）で同じ高保持度のページレイアウトとレンダリングエンジンを使用して出力を生成します。
 
-Aspose.Cells は、.NET Framework 3.5 にある Windows Presentation Foundation クラスに依存せずに (TrueType フォントのサブセットを含む) XPS を直接生成することに注意する価値があります。完全に異なるプラットフォームで。
+Aspose.Cellsは、.NET Framework 3.5のWindows Presentation Foundationクラスに依存することなく、TrueTypeフォントのサブセット化を含めて、直接XPSを生成することができることに値します。これにより、以前のバージョンの.NETを実行するマシンや完全に異なるプラットフォームでAspose.CellsがXPSを生成することが可能となります。

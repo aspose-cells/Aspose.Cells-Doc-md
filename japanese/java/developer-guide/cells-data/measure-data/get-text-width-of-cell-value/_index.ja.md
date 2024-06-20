@@ -1,14 +1,15 @@
-﻿---
-title: Cell値のテキスト幅を取得
+---
+title: セル値のテキスト幅を取得する
 type: docs
 weight: 40
 url: /ja/java/get-text-width-of-cell-value/
 ---
-## **Cell値のテキスト幅を取得**
 
-開発者は、レイアウトにデータを配置するために、セルの値の幅を計算する必要がある場合があります。 Aspose.Cells は[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double)) メソッドを使用すると、開発者はセルの値のテキスト幅を取得できます。次のサンプル コードは、使用方法を示しています。[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double)) セルの値のテキスト幅にアクセスします。
+## **セル値のテキスト幅を取得する**
 
-次のコード スニペットで使用されているソース ファイルは、参照用に添付されています。
+開発者は、時折、データを整理するためにセルの値の幅を計算する必要があります。Aspose.Cellsは開発者がセルの値のテキスト幅を取得することを可能にする[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double))メソッドを提供します。次のサンプルコードは、[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double))を使用してセルの値のテキスト幅にアクセスする方法を示しています。
+
+以下のコードスニペットで使用されるソースファイルは参照用に添付されています。
 
 [ソースファイル](GetTextWidthSample.xlsx)
 

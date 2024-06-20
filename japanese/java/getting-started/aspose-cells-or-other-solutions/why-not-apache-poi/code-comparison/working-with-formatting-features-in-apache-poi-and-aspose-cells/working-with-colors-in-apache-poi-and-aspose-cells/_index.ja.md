@@ -1,17 +1,18 @@
-﻿---
-title: Apache POI および Aspose.Cells での色の操作
+---
+title: Apache POI および Aspose.Cells で色の扱い
 type: docs
 weight: 20
 url: /ja/java/working-with-colors-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - 色を扱う**
-Aspose.Cells はクラスを提供し、[ワークブック](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)、Microsoft Excel ファイルを表します。 Workbook クラスには、Excel ファイル内の各ワークシートへのアクセスを許可する WorksheetCollection が含まれています。ワークシートは、[ワークシート](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)クラス。 Worksheet クラスは Cellscollection を提供します。 Cells コレクションの各アイテムは、[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)クラス。
 
-Aspose.Cells は、セルの書式設定に使用される Cell クラスの setStyle メソッドを提供します。また、Style クラスの Style オブジェクトを使用して、フォント設定を構成できます。
+## **Aspose.Cells - 色の操作**
+Aspose.Cells は、Microsoft Excel ファイルを表す[Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) クラスを提供します。 Workbook クラスには、Excel ファイル内の各ワークシートにアクセスが許可される[WorksheetCollection](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet) を含んでいます。ワークシートは[Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet) クラスによって表されます。Worksheet クラスは、Cellscollection を提供します。Cells コレクション内の各アイテムは、[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell) クラスのオブジェクトを表します。
+
+Aspose.Cells は、Cell クラスのsetStyle メソッドを提供し、セルのフォーマットを設定するために使用されます。また、Style クラスの Style オブジェクトを使用してフォント設定を構成できます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Accessing cell from the worksheet
 
@@ -59,12 +60,12 @@ cell.setStyle(style);
 
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - 色の操作**
-CellStyle クラスを使用して、背景と塗りつぶしの設定を設定できます。
+## **Apache POI SS - HSSF XSSF - 色の扱い**
+CellStyle クラスは、背景色と塗りつぶしパターンの設定を行うために利用できます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Aqua background
 
@@ -95,13 +96,13 @@ cell.setCellValue("X");
 cell.setCellStyle(style);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/colors)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[色と背景パターン](http://docs.aspose.com:8082/docs/display/cellsjava/Colors+and+Background+Patterns).
+[カラーと背景パターン](http://docs.aspose.com:8082/docs/display/cellsjava/Colors+and+Background+Patterns)をご覧ください。
 
 {{% /alert %}}

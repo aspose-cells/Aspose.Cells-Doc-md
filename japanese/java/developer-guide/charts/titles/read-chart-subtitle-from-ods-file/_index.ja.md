@@ -1,12 +1,13 @@
-﻿---
-title: ODS ファイルからチャート サブタイトルを読み取る
+---
+title: ODSファイルからチャートサブタイトルを読む
 type: docs
 weight: 120
 url: /ja/java/read-chart-subtitle-from-ods-file/
 ---
-## **ODS ファイルからチャート サブタイトルを読み取る**
 
-Aspose.Cells を使用すると、ODS ファイルのチャート サブタイトルを読み取ることができます。[**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)財産。次のサンプル コードは、[サンプル ODS ファイル](SampleChart.ods)を使用してチャートのサブタイトルを読み取ります[**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)プロパティを取得し、コンソール ウィンドウに出力します。以下のコードのコンソール出力を参照してください。
+## **ODSファイルからチャートサブタイトルを読む**
+
+Aspose.Cellsは、[**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)プロパティを使用してODSファイル内のチャートのサブタイトルを読み取る機能を提供します。次のサンプルコードでは、[サンプルODSファイル](SampleChart.ods)をロードし、[**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)プロパティを使用してチャートのサブタイトルを読み取り、それをコンソールウィンドウに出力します。参照のために、以下のコードのコンソール出力をご覧ください。
 
 ## **サンプルコード**
 
@@ -14,7 +15,7 @@ Aspose.Cells を使用すると、ODS ファイルのチャート サブタイ�
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Chart Subtitle: Sample Chart Subtitle
 

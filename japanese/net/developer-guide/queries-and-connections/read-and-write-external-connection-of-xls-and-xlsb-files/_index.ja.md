@@ -1,28 +1,29 @@
-﻿---
-title: XLS および XLSB ファイルの外部接続の読み取りと書き込み
+---
+title: XLSおよびXLSBファイルの外部接続の読み取りと書き込み
 type: docs
 weight: 80
 url: /ja/net/read-and-write-external-connection-of-xls-and-xlsb-files/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells は既に XLSX ファイルの読み取りと書き込みの外部接続をサポートしていますが、現在は XLSB と XLS ファイルのこの機能もサポートしています。ただし、コードはすべてのタイプの形式で同じです。
+## **可能な使用シナリオ**
 
-## **XLS/XLSB ファイルの外部接続の読み取りと書き込み**
+Aspose.CellsはすでにXLSXファイルの外部接続の読み取りと書き込みをサポートしていますが、現在はXLSBおよびXLSファイルの外部接続の読み取りと書き込みもサポートしています。ただし、すべての種類の形式に対してコードは同じです。
 
-次のサンプル コードは、サンプル XLSB ファイル (XLS もロード可能) をロードし、実際には Microsoft Access DB 接続である最初の外部接続を読み取ります。次に、[**DBConnection.Name**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name)プロパティを取得し、出力 XLS/XLSB ファイルとして保存します。スクリーンショットは、コードの効果を示しています[サンプル XLSB ファイル](51740722.xlsb)と[出力 XLSB ファイル](51740723.xlsb)その実行後。以下のサンプル コードのコンソール出力も参照してください。
+## **XLS/XLSBファイルの外部接続の読み取りと書き込み**
 
-![todo:画像_代替_文章](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)
+以下のサンプルコードでは、サンプルのXLSBファイル（XLSもロードできます）をロードし、実際にはMicrosoft Access DB接続である最初の外部接続を取得します。その後、[**DBConnection.Name**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) プロパティを変更し、出力されたXLS/XLSBファイルとして保存します。スクリーンショットは、コードの [サンプルXLSBファイル](51740722.xlsb) および [出力XLSBファイル](51740723.xlsb) への影響を示しています。以下に示すサンプルコードのコンソール出力も参照してください。
+
+![todo:image_alt_text](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)
 
 ## **サンプルコード**
 
-次のコードは、適切な拡張子を持つファイルを読み込んで保存することにより、XLSB と XLS の両方のファイルに対して機能します。
+このコードは、適切な拡張子のファイルを読み込んで保存することにより、XLSBおよびXLSファイルの両方で動作します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.cs" >}}
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Connection Name: Cust
 

@@ -1,54 +1,55 @@
-﻿---
-title: Aspose.Cells, TrueType Yazı Tiplerini nasıl kullanır?
+---
+title: Aspose.Cells in TrueType Font ları nasıl kullandığı
 type: docs
 weight: 10
 url: /tr/java/how-aspose-cells-uses-truetype-fonts/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, elektronik tabloları PDF, XPS ve resimler gibi biçimlerde işlerken TrueType yazı tiplerini gerektirir.
+Aspose.Cells, PDF, XPS ve görüntüler gibi formatlara elektronik tabloları renderlarken TrueType font'ları gerektirir.
 
-Aspose.Cells bir elektronik tablo oluşturduğunda, elektronik tabloda kullanılan TrueType yazı tiplerine erişim gerektirir. Bu, PDF, XPS ve görüntü oluşturma sırasında normal bir uygulamadır ve dönüştürülen belgenin veya görüntünün herhangi bir izleyici için aynı görünmesini sağlar.
+Aspose.Cells bir elektronik tablo renderladığında, elektronik tabloda kullanılan TrueType font'larına erişim gerektirir. Bu, PDF, XPS ve görüntü oluşturma sırasında normal bir uygulamadır ve dönüştürülen belge veya görüntünün herhangi bir görüntüleyici için aynı görünmesini sağlar.
 
 {{% /alert %}}
 
-## **Yazı Tipleri Hakkında**
+## **Fontlar Hakkında**
 
-### **Yazı Tipi Kullanılabilirliği ve Değiştirme**
+### **Font Erişilebilirliği ve Yedekleme**
 
-Bir elektronik tablo, Arial, Times New Roman, Verdana ve diğerleri gibi çeşitli yazı tipleri kullanılarak biçimlendirilebilir. Aspose.Cells bir elektronik tablo oluşturduğunda, elektronik tabloda kullanılan yazı tiplerini seçmeye çalışır. Ancak, tam yazı tipinin mevcut olmadığı durumlar vardır, bu nedenle Aspose.Cells bunun yerine benzer bir yazı tipini değiştirmek zorunda kalır.
+Bir elektronik tablo, Arial, Times New Roman, Verdana ve diğer fontlar gibi çeşitli fontlar kullanılarak biçimlendirilebilir. Aspose.Cells bir elektronik tablo renderladığında, elektronik tabloda kullanılan fontları seçmeye çalışır. Ancak, tam font mevcut olmayabilecek durumlar vardır, bu durumda Aspose.Cells benzer bir font seçmek zorunda kalır.
 
-Aspose.Cells'in perde arkasından takip ettiği süreç aşağıdadır.
+Aşağıda, Aspose.Cells'in sahnenin arkasındaki süreci bulunmaktadır.
 
-1. Aspose.Cells, dosya sisteminde elektronik tabloda kullanılan yazı tipi adıyla tam olarak eşleşen yazı tiplerini bulmaya çalışır.
-1. Aspose.Cells tam olarak aynı ada sahip yazı tiplerini bulamazsa, Workbook'un DefaultStyle.Font özelliği altında belirtilen varsayılan yazı tipini kullanmayı dener.
-1. Aspose.Cells, çalışma kitabının DefaultStyle.Font özelliği altında tanımlanan yazı tipini bulamazsa, mevcut tüm yazı tiplerinden en uygun yazı tiplerini seçmeye çalışır.
-1. Son olarak, Aspose.Cells dosya sisteminde herhangi bir yazı tipi bulamazsa, elektronik tabloyu Arial kullanarak işler.
+1. Aspose.Cells, elektronik tabloda kullanılan tam font adına eşleşen fontları dosya sisteminde bulmaya çalışır.
+1. Aspose.Cells, aynı isimdeki fontları bulamazsa, Workbook'ün DefaultStyle.Font özelliği altında belirtilen varsayılan fontu kullanmaya çalışır.
+1. Aspose.Cells, işlemine mevcut tüm fontlardan en uygun fontları seçmeye çalışır.
+1. Son olarak, Aspose.Cells dosya sistemde hiçbir font bulamazsa, elektronik tabloyu Arial kullanarak renderler.
 
-### **Aspose.Cells Yazı Tiplerini Nerede Arar?**
+### **Aspose.Cells'in Font Aradığı Yerler**
 
-Aspose.Cells, dosya sisteminde TrueType yazı tiplerini otomatik olarak bulmaya çalışır. TrueType yazı tiplerini bulmak için çoğu zaman Aspose.Cell'in varsayılan davranışına güvenebilirsiniz, ancak bazen FontConfigs.setFontFolder fabrika yöntemini kullanarak TrueType yazı tiplerini içeren klasörleri belirtmeniz gerekebilir.
+Aspose.Cells, dosya sisteminden TrueType fontlarını otomatik olarak bulmaya çalışır. Genellikle TrueType fontlarını bulmak için Aspose.Cells'in varsayılan davranışına güvenebilirsiniz, ancak bazen TrueType font'larını içeren klasörleri FontConfigs.setFontFolder fabrika yöntemi kullanarak belirtmeniz gerekebilir.
 
-### **Yazı Tipiyle İlgili Tipik Sorunlar ve Çözümler**
+### **Tipik Fontla İlgili Problemler ve Çözümler**
 
-Bu tablo, Aspose.Cells'i kullanarak elektronik tabloları PDF'e dönüştürürken karşılaşabileceğiniz sorunlardan bazılarını ve çözümlerini listeler.
+Bu tablo, Aspose.Cells kullanarak elektronik tabloları PDF'e renderlerken karşılaşabileceğiniz bazı problemleri ve çözümlerini listeler.
 
 {{% alert color="primary" %}}
 
- Herhangi bir yazı tipini kopyalarken çoğu yazı tipinin telif hakkına sahip olduğunu unutmayın. Önce bir yazı tipinin lisansını önceden bulun ve başka bir makineye serbestçe aktarılabildiğini doğrulayın.
+Herhangi bir font kopyalarken çoğu fontun telif hakkı olduğunu unutmayın. Bir fontun lisansını önceden bulun ve başka bir makineye serbestçe aktarılabilir olduklarını doğrulayın. 
 
 {{% /alert %}}
 
-|**Sorun** |**Sebep** |**Çözüm** |
-|:- |:- |:- |
-| İşlenen belgedeki düzen ve yazı tipleri orijinalinden farklı.| TureType yazı tiplerinin varsayılan olarak bulunmadığı Linux veya Mac OS'de Aspose.Cells kullanıyorsunuz, bu nedenle Aspose.Cells, bilgisayarınızda yazı tiplerini bulamıyor.|TrueType yazı tipi dosyalarını bir Windows makinesinden kopyalayın veya bir TrueType yazı tipi paketi kurun. Yazı tipi dosyalarının konumunu belirtmek için FontConfigs.setFontFolder fabrika yöntemini kullanın.|
+|**Problem** |**Sebep** |**Çözüm** |
+| :- | :- | :- |
+|Render edilen belgedeki düzen ve fontlar orijinalden farklı. |Aspose.Cells'i Linux veya Mac OS'ta kullanıyorsunuz, burada TureType fontları varsayılan olarak bulunmadığından Aspose.Cells bilgisayarınızda fontları bulamıyor. |TrueType font dosyalarını Windows makinesinden kopyalayın veya TrueType font paketi yükleyin. TrueType font dosyalarının konumunu belirtmek için FontConfigs.setFontFolder fabrika yöntemini kullanın.|
 
 {{% alert color="primary" %}}
 
-Ayrıntılı makaleleri kontrol edin
+Detaylı makaleleri kontrol edin
 
-- [TrueType yazı tiplerini Linux'a nasıl yerleştirebilirim?](/cells/tr/java/how-to-install-truetype-fonts-on-linux/).
-- [TrueType yazı tiplerinin konumu nasıl belirlenir](/cells/tr/java/how-to-specify-truetype-fonts-location/).
-- [Yazı tipi değişikliği gerçekleştiğinde nasıl uyarı alınır?](/cells/tr/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
+- [Linux'ta TrueType fontları nasıl yerleştireceğiniz](/cells/tr/java/how-to-install-truetype-fonts-on-linux/).
+- [TrueType font'larının konumunu nasıl belirteceğiniz](/cells/tr/java/how-to-specify-truetype-fonts-location/).
+- [TrueType font yedekleme gerçekleştiğinde uyarıları nasıl alırsınız](/cells/tr/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}

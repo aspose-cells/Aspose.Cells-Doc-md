@@ -1,38 +1,39 @@
-﻿---
-title: تعيين صورة الخلفية لورقة العمل
+---
+title: تعيين صورة خلفية لورقة عمل
 type: docs
 weight: 90
 url: /ar/net/set-background-picture-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-توجد صور الخلفية خلف النص والخطوط في جدول بيانات. يتم استخدامها لإعطاء معلومات حول مصنف ، على سبيل المثال عند استخدامها كعلامات مائية للحالة ، ولكن يمكنها أيضًا إضافة علامة تجارية للشركة أو زخرفة. Microsoft يسمح Excel للمستخدمين بإضافة صور الخلفية يدويًا.
+تقع صور الخلفية خلف النص والخطوط في جدول بيانات. يتم استخدامها لتقديم معلومات حول دفتر العمل، على سبيل المثال عند استخدام علامات المرجعية للحالة، ولكن يمكنها أيضًا إضافة العلامة التجارية للشركة أو الزخرفة. يسمح Microsoft Excel للمستخدمين بإضافة صور الخلفية يدويًا.
 
-يمكن للمطورين أيضًا إضافة صور الخلفية من خلال تطبيقاتهم ، باستخدام إما Aspose.Cells for .NET أو VSTO. تقارن هذه المقالة بين الطريقتين.
+يمكن للمطورين أيضًا إضافة صور خلفية من خلال تطبيقاتهم، باستخدام إما Aspose.Cells for .NET أو VSTO. يقارن هذا المقال بين النهجين.
 
 {{% /alert %}}
 
-## **تعيين صورة خلفية في ورقة عمل**
+## **تعيين صورة خلفية على ورقة العمل**
 
-لتطبيق صورة خلفية على جدول بيانات:
+لتطبيق صورة الخلفية على جدول بيانات:
 
-1. قم بإنشاء مصنف والوصول إلى الورقة التي تريد تطبيق صورة خلفية عليها.
-1. قم بتطبيق صورة الخلفية.
-1. احفظ المصنف.
+1. إنشاء دفتر عمل والوصول إلى الورقة التي ترغب في تطبيق صورة خلفية عليها.
+1. تطبيق صورة الخلفية.
+1. حفظ الدفتر.
 
- توضح نماذج التعليمات البرمجية التالية كيفية القيام بذلك أولاً باستخدام[VSTO](/cells/ar/net/set-background-picture-of-a-worksheet/) ، باستخدام C# أو Visual Basic ، ثم مع[Aspose.Cells for .NET](/cells/ar/net/set-background-picture-of-a-worksheet/)، مرة أخرى باستخدام إما C# أو Visual Basic.
+توضح عينات الشفرات التي تتبع كيفية القيام بذلك أولاً مع [VSTO](/cells/ar/net/set-background-picture-of-a-worksheet/)، باستخدام إما C# أو Visual Basic، وبعد ذلك مع [Aspose.Cells for .NET](/cells/ar/net/set-background-picture-of-a-worksheet/)، مرة أخرى باستخدام إما C# أو Visual Basic.
 
-تُنشئ أمثلة الكود في هذه المقالة ورقة عمل بها صورة خلفية متكررة ، مثل تلك الموجودة في لقطة الشاشة أدناه.
+تقوم أمثلة الشفرات في هذا المقال بإنشاء ورقة عمل بخلفية صورة متكررة، مثل ما هو موضح في لقطة الشاشة أدناه.
 
 **تم تعيين خلفية لورقة العمل.**
 
-![ما يجب القيام به: image_بديل_نص](set-background-picture-of-a-worksheet_1.png)
+![todo:image_alt_text](set-background-picture-of-a-worksheet_1.png)
 
-### **ضبط صور الخلفية باستخدام VSTO**
+### **تعيين صور خلفية باستخدام VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -76,11 +77,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **ضبط صور الخلفية مع Aspose.Cells for .NET**
+### **تعيين صور خلفية باستخدام Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -108,7 +109,7 @@ FileStream fs = File.OpenRead(ImageUrl);
 
 //Define a byte array.
 
-byte[]imageData = new Byte[fs.Length];
+byte[] imageData = new Byte[fs.Length];
 
 //Obtain the picture into the array of bytes from streams.
 

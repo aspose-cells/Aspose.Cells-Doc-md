@@ -1,16 +1,17 @@
-﻿---
+---
 title: Spara filer i PHP
 type: docs
 weight: 20
 url: /sv/net/saving-files-in-php/
 ---
+
 ## **Aspose.Cells - Spara Excel-filer**
-### **Öppning genom vägen**
+### **Öppning genom sökväg**
 Spara en Microsoft Excel-fil genom att referera till filens sökväg
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -31,7 +32,7 @@ Spara en Microsoft Excel-fil genom att referera till filens sökväg
         print "File saved successfully!" . PHP_EOL;
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Spara filer (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Sparar filer (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

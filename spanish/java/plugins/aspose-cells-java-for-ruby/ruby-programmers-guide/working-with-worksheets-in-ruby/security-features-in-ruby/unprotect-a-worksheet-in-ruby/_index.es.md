@@ -1,15 +1,16 @@
-﻿---
-title: Desproteger una hoja de trabajo en Ruby
+---
+title: Desproteger una hoja de cálculo en Ruby
 type: docs
 weight: 20
 url: /es/java/unprotect-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells - Desproteger una hoja de trabajo**
- Para proteger la hoja de trabajo usando**Aspose.Cells Java para rubí** , llamada**desproteger_hoja de trabajo** método de**proteccion** módulo.
 
-**código rubí**
+## **Aspose.Cells - Desproteger una hoja de cálculo**
+Para proteger una hoja de cálculo usando **Aspose.Cells Java for Ruby**, llama al método **unprotect_worksheet** del módulo **protection**.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def unprotect_worksheet()
 
@@ -54,7 +55,7 @@ url: /es/java/unprotect-a-worksheet-in-ruby/
 end   
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Desproteger una hoja de trabajo (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Desproteger una hoja de cálculo (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

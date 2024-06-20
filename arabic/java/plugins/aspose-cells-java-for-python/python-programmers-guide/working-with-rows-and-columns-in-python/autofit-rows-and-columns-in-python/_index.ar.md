@@ -1,18 +1,19 @@
 ---
-title: الصفوف والأعمدة التلقائية في Python
+title: يتماشى الصفوف والأعمدة تلقائيًا في Python
 type: docs
 weight: 20
 url: /ar/java/autofit-rows-and-columns-in-python/
-description: تعرف على كيفية الاحتواء التلقائي للصفوف والأعمدة من خلال Aspose.Cells for Python عبر Java API.
-keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
+description: تعلم كيفية ضبط ارتفاع الصفوف وعرض الأعمدة من خلال Aspose.Cells لـ Python عبر واجهة برمجة التطبيقات Java.
+keywords: كيفية ضبط ارتفاع الصفوف وعرض الأعمدة في Python عبر Java، ضبط البيانات لصفوف الارتفاع التلقائي في Python عبر Java، Python عبر Java ضبط بيانات الأعمدة لارتفاع التلقائي. 
 ---
-##  **كيفية الاحتواء التلقائي للصفوف والأعمدة**
-###  **كيفية الاحتواء التلقائي للصف**
-الطريقة الأكثر مباشرة للتحجيم التلقائي لعرض الصف وارتفاعه هي استدعاء أسلوب autoFitRow الخاص بفئة ورقة العمل. تأخذ الطريقة autoFitRow فهرس الصف (الصف الذي سيتم تغيير حجمه) كمعلمة.
 
-**Python كود**
+## **كيفية ضبط ارتفاع الصفوف وعرض الأعمدة تلقائيًا**
+### **كيفية ضبط ارتفاع الصف تلقائيًا**
+أبسط نهج لتغيير حجم العرض والارتفاع للصف هو استدعاء طريقة autoFitRow من فئة Worksheet. تأخذ طريقة autoFitRow مؤشر الصف (الذي سيتم تغيير حجمه) كمعلمة.
 
-{{< highlight "python" >}}
+**كود Python**
+
+{{< highlight python >}}
 
  def autofit_row(self):
 
@@ -32,7 +33,7 @@ worksheet.autoFitRow(2)
 
 \# cells (from 1st to 9th column) within the row
 
-# worksheet.autoFitRow(2,0,8) # Uncomment this line if you to do AutoFit Row in a Range of Cells. Also, comment line 288.
+#worksheet.autoFitRow(2,0,8) # Uncomment this line if you to do AutoFit Row in a Range of Cells. Also, comment line 288.
 
 \# Saving the modified Excel file in default (that is Excel 2003) format
 
@@ -41,12 +42,12 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-###  **كيفية الاحتواء التلقائي للعمود**
-أسهل طريقة لتحديد حجم عرض العمود وارتفاعه تلقائيًا هي استدعاء أسلوب autoFitColumn الخاص بفئة ورقة العمل. تأخذ الطريقة autoFitColumn فهرس العمود (العمود الذي على وشك تغيير حجمه) كمعلمة.
+### **كيفية تعديل حجم العمود تلقائيًا**
+أسهل طريقة لتغيير حجم العرض والارتفاع للعمود هي استدعاء طريقة autoFitColumn من فئة Worksheet. تأخذ طريقة autoFitColumn الفهرس العمود (الذي سيتم تغيير حجمه) كمعلمة.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def autofit_column(self):
 
@@ -66,7 +67,7 @@ worksheet.autoFitColumn(3)
 
 \# cells (from 1st to 9th row) within the column
 
-# worksheet.autoFitColumn(3,0,8) #Uncomment this line if you to do AutoFit Column in a Range of Cells. Also, comment line 310.
+#worksheet.autoFitColumn(3,0,8) #Uncomment this line if you to do AutoFit Column in a Range of Cells. Also, comment line 310.
 
 \# Saving the modified Excel file in default (that is Excel 2003) format
 
@@ -75,7 +76,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-##  **تحميل كود التشغيل**
-تحميل**الاحتواء التلقائي للصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل ** تكبير الصفوف والأعمدة (Aspose.Cells) ** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -1,32 +1,33 @@
-﻿---
-title: Akıllı İşaretleyicileri İşleyerek Grafik Oluşturun
+---
+title: Akıllı İşaretlerin İşlenmesiyle Grafik Oluşturma
 type: docs
 weight: 180
 url: /tr/java/generate-chart-by-processing-smart-markers/
 ---
-{{% alert color="primary" %}} 
-
-Aspose.Cells API'ler, WorkbookDesigner sınıfının, biçimlendirmenin ve formüllerin tasarımcı elektronik tablolarına yerleştirildiği ve ardından verileri Akıllı İşaretleyicilere göre doldurmak için belirtilen veri kaynaklarına göre işlendiği Akıllı İşaretleyicilerle çalışmasını sağlar. Aşağıdaki adımları gerektiren Akıllı İşaretleyicileri işleyerek Excel grafikleri oluşturmak da mümkündür.
-
-- Tasarımcı e-tablosunun oluşturulması
-- Belirtilen veri kaynağına göre tasarımcı elektronik tablosu işleniyor
-- Doldurulmuş verilere dayalı grafiğin oluşturulması
-
-{{% /alert %}} 
-## **Tasarımcı Elektronik Tablosunun Oluşturulması**
-Bir tasarımcı elektronik tablosu, Microsoft Excel uygulaması veya Aspose.Cells API'leri ile oluşturulmuş, içeriğin çalışma zamanında doldurulacağı görsel biçimlendirmeyi, formülleri ve akıllı işaretçileri içeren basit bir Excel dosyasıdır.
 
 {{% alert color="primary" %}} 
 
- Akıllı İşaretleyiciler hakkında detaylı bilgi mevcuttur[Burada](/cells/tr/java/smart-markers/).
+Aspose.Cells API'leri, Smart Markers ile çalışmak için WorkbookDesigner sınıfını sağlar; burada biçimlendirme ve formüller tasarımcı elektronik tablolarına yerleştirilir ve ardından belirtilen veri kaynağı(ları)na göre veri akıllı işaretlere göre doldurularak Excel grafikleri oluşturulabilir. Bu şu adımları gerektirir:
+
+- Tasarımcı elektronik tablosunun oluşturulması
+- Belirtilen veri kaynağına göre tasarımcı elektronik tablonun işlenmesi
+- Popüle edilmiş veriye dayalı olarak grafik oluşturulması
+
+{{% /alert %}} 
+## **Tasarımcı Tablonun Oluşturulması**
+Bir tasarımcı tablo, Microsoft Excel uygulaması veya Aspose.Cells API'leri ile oluşturulan basit bir Excel dosyasıdır. Görsel biçimlendirme, formüller ve akıllı işaretçiler içerir ve içerikler çalışma zamanında doldurulur.
+
+{{% alert color="primary" %}} 
+
+Akıllı İşaretçiler hakkında detaylı bilgi [burada](/cells/tr/java/smart-markers/) bulunmaktadır.
 
 {{% /alert %}} 
 
-Basitlik adına, Aspose.Cells for Java API'i kullanarak tasarımcı elektronik tablosunu oluşturacağız ve daha sonra gösteri amacıyla dinamik olarak oluşturulmuş bir veri kaynağına karşı işleyeceğiz.
+Basitlik açısından tasarımcı tabloyu Aspose.Cells for Java API kullanarak oluşturacağız ve daha sonra gösterim amaçları için dinamik olarak oluşturulmuş bir veri kaynağına karşı işleyeceğiz.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -58,37 +59,37 @@ cells.get("A5").putValue("&=$Year2015(horizontal)");
 
 {{< /highlight >}}
 
-Bu aşamada ortaya çıkan elektronik tabloyu kaydederseniz, çalışma tablosundaki veriler aşağıdaki gibi görünecektir.
+Bu aşamada oluşan tabloyu kaydedersek, çalışma sayfasındaki veriler aşağıdaki gibi görünecek.
 
-![yapılacaklar:resim_alternatif_metin](generate-chart-by-processing-smart-markers_1.png)
-## **İşleme Tasarımcısı Elektronik Tablosu**
- Tasarımcı elektronik tablosunu işlemek için, tasarımcı elektronik tablosunda kullanılan Akıllı İşaretleyicilere karşılık gelen bir veri kaynağına sahip olmamız gerekir. Örneğin, şu şekilde bir Akıllı İşaretleyici girişi oluşturduk:**&=$Başlıklar(yatay)** değişkeni Headers adına göre temsil ederken, anahtar**(yatay)** verilerin yatay olarak doldurulması gerektiğini önerir.
+![todo:image_alt_text](generate-chart-by-processing-smart-markers_1.png)
+## **Tasarımcı Tablonun İşlenmesi**
+Tasarımcı tablonun işlenmesi için, tasarımcı tabloda kullanılan Akıllı İşaretçilere uygun bir veri kaynağına sahip olmalıyız. Örneğin, **&=$Headers(horizontal)** gibi bir Akıllı İşaretçi girişi oluşturduk, bu, Headers adındaki değişkeni temsil ederken **(horizontal)** anahtarının ise verinin yatay olarak doldurulmasını önerdiğini gösterir.
 
-Bu kullanım örneğini göstermek için, veri kaynağını sıfırdan oluşturacağız ve onu önceki adımda oluşturulan tasarımcı elektronik tablosuna göre işleyeceğiz. Ancak, gerçek zamanlı senaryoda, veriler daha sonraki işlemler için zaten mevcut olabilir, bu nedenle veriler zaten mevcutsa veri kaynağının oluşturulmasını atlayabilirsiniz.
+Bu kullanım durumunu göstermek için veri kaynağını sıfırdan oluşturacağız ve bu durumda tasarımcı tablo karşısında işlem yapacağız. Ancak gerçek zamanlı senaryoda veri zaten mevcut olabilir, bu durumda veri kaynağının oluşturulmasını atlayabilirsiniz.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create string arrays which will serve as data sources to the smart markers
 
-String[]headers = new String[]{"", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9", "Item 10", "Item 11", "Item 12"};
+String[] headers = new String[]{"", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9", "Item 10", "Item 11", "Item 12"};
 
-String[]year2000 = new String[]{"2000", "310", "0", "110", "15", "20", "25", "30", "1222", "200", "421", "210", "133"};
+String[] year2000 = new String[]{"2000", "310", "0", "110", "15", "20", "25", "30", "1222", "200", "421", "210", "133"};
 
-String[]year2005 = new String[]{"2005", "508", "0", "170", "280", "190", "400", "105", "132", "303", "199", "120", "100"};
+String[] year2005 = new String[]{"2005", "508", "0", "170", "280", "190", "400", "105", "132", "303", "199", "120", "100"};
 
-String[]year2010 = new String[]{"2010", "0", "210", "230", "1420", "1530", "160", "170", "110", "199", "129", "120", "230"};
+String[] year2010 = new String[]{"2010", "0", "210", "230", "1420", "1530", "160", "170", "110", "199", "129", "120", "230"};
 
-String[]year2015 = new String[]{"2015", "2818", "320", "340", "260", "210", "310", "220", "0", "0", "0", "0", "122"};
+String[] year2015 = new String[]{"2015", "2818", "320", "340", "260", "210", "310", "220", "0", "0", "0", "0", "122"};
 
 {{< /highlight >}}
 
-Akıllı İşaretleyicilerin işlenmesi aşağıdaki gibi oldukça basittir.
+Akıllı İşaretçilerin İşlenmesi oldukça basittir ve aşağıdaki gibidir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of WorkbookDesigner
 
@@ -116,17 +117,17 @@ designer.process();
 
 {{< /highlight >}}
 
-Bu aşamada elektronik tabloyu kaydederseniz, veriler aşağıdaki gibi görünecektir.
+Bu aşamada tabloyu kaydedersek, veri aşağıdaki gibi görünecektir.
 
-![yapılacaklar:resim_alternatif_metin](generate-chart-by-processing-smart-markers_2.png)
+![todo:image_alt_text](generate-chart-by-processing-smart-markers_2.png)
 
 {{% alert color="primary" %}} 
 
-Yukarıdaki kod parçacığı, ilk adımda oluşturulan Workbook sınıfının mevcut örneğini kullanır. Diskte veya bellekte tasarımcı elektronik tablosu dosyanız zaten varsa, mevcut tasarımcı elektronik tablosunu yükleyerek Workbook sınıfının bir örneğini oluşturabilirsiniz.
+Yukarıdaki kod parçacığı, ilk adımda oluşturulan Workbook sınıfının mevcut örneğini kullanır. Eğer zaten diskte ya da hafızada tasarımcı tablo dosyasınız varsa, mevcut tasarımcı tablosunu yükleyerek Workbook sınıfının bir örneğini oluşturabilirsiniz.
 
 {{% /alert %}} 
-## **Grafiğin Oluşturulması**
-Veriler yerleştirildikten sonra, tek yapmamız gereken veri kaynağına dayalı bir grafik oluşturmaktır. Örneği basit tutmak için, grafiği daha fazla yapılandırmamıza gerek kalmaması için Chart.setChartDataRange yöntemini kullanacağız.
+## **Grafik Oluşturulması**
+Veri hazır olduğunda yapmamız gereken tek şey, veri kaynağına dayalı bir grafik oluşturmaktır. Örneği basit tutmak için, Chart.setChartDataRange yöntemini kullanacağız, böylece grafikleri daha fazla yapılandırmamız gerekmez.
 
 
 
@@ -140,6 +141,6 @@ Veriler yerleştirildikten sonra, tek yapmamız gereken veri kaynağına dayalı
 
 
 
-Son tablo aşağıdaki gibi görünüyor.
+Son grafik aşağıdaki gibi görünmektedir.
 
-![yapılacaklar:resim_alternatif_metin](generate-chart-by-processing-smart-markers_3.png)
+![todo:image_alt_text](generate-chart-by-processing-smart-markers_3.png)

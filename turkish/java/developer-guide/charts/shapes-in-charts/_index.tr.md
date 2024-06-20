@@ -1,101 +1,102 @@
-﻿---
-title: Grafiklerdeki Kontroller
-linktitle: Grafikteki Şekiller
+---
+title: Grafiklerde Kontroller
+linktitle: Grafikte Şekiller
 type: docs
 weight: 60
 url: /tr/java/controls-in-charts/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen bir grafiğe etiketler, metin kutuları, resimler vb. gibi çizim nesneleri eklemeniz gerekir. Aspose.Cells, kontrolleri çalışma zamanında bir grafiğe ekleyebilir.
+Bazen bir grafik içine etiketler, metin kutuları, resimler ve benzeri çizim nesneleri eklemeniz gerekebilir. Aspose.Cells, çalışma zamanında bir grafiğe denetim ekleyebilir.
 
 {{% /alert %}}
 
-## **Grafiğe Etiket Kontrolü Ekleme**
+## **Grafiğe Etiket Denetimi Ekleme**
 
-Etiketler, kullanıcılara elektronik tablonun içeriği hakkında bilgi vermek için bir araç sağlar. Aspose.Cells, grafiklere bile etiket eklemenize ve değiştirmenize olanak tanır.
+Etiketler, bir elektronik tablonun içeriği hakkında kullanıcılara bilgi vermenin bir yolunu sağlar. Aspose.Cells, etiketleri hatta grafiklere bile eklemenize ve bunları manipüle etmenize olanak sağlar.
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıf adlı bir yöntem sağlar[**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)), bir grafiğe bir etiket kontrolü eklemek için kullanılır. Yöntem için kullanılan parametrelerin listesi aşağıdadır:
+ [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıfı, bir etiket kontrolü eklemek için kullanılan [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)) adında bir yöntem sağlar. Aşağıda bu yöntem için kullanılan parametrelerin bir listesi bulunmaktadır:
 
-- **tepe** – grafik alanının 1/4000'lik birimlerinde sol üst köşeden etiketin dikey ofseti.
-- **sol** – grafik alanının 1/4000'lik birimlerinde sol üst köşeden etiketin dikey ofseti.
-- **boy uzunluğu** – grafik alanının 1/4000 birimi cinsinden etiketin yüksekliği.
-- **Genişlik** – grafik alanının 1/4000'lik birimlerinde etiketin genişliği.
+- **üst** – etiketin sol üst köşesinden dikey ofset (1/4000 biriminde grafik alanı).
+- **sol** – etiketin sol üst köşesinden yatay ofset (1/4000 biriminde grafik alanı).
+- **yükseklik** – etiketin yüksekliği, grafik alanının 1/4000 biriminde.
+- **Genişlik** – etiketin genişliği, birim olarak 1/4000'lik chart alanının birimleri.
 
- Yöntem, bir nesne döndürür[**Etiket**](https://reference.aspose.com/cells/java/com.aspose.cells/Label) sınıf, nerede[**Etiket**](https://reference.aspose.com/cells/java/com.aspose.cells/Label)class grafikte bir etiketi temsil eder. Aşağıda ayrıntıları verilen bazı önemli üyeleri vardır:
+Yöntem, [**Label**](https://reference.aspose.com/cells/java/com.aspose.cells/Label) sınıfının bir nesnesini döndürür, burada [**Label**](https://reference.aspose.com/cells/java/com.aspose.cells/Label) sınıfı, tabloda bir etiketi temsil eder. Aşağıda bununla ilgili bazı önemli üyeler bulunmaktadır:
 
-- [**Metin**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Text)özelliği, bir etiketin başlık dizesini belirtir.
-- [**Doldurmak**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Fill) özelliği, dolgu rengi niteliklerini belirtir.
+- [**Text**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Text) özelliği bir etiketin başlık dizesini belirtir.
+- [**Fill**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Fill) özelliği doldurma renk özelliklerini belirtir.
 
-Aşağıdaki örnek, grafiğe nasıl etiket ekleneceğini gösterir. Örnek, içinde grafik bulunan bir tasarımcı dosyası kullanır. Grafiğe bir etiket eklemek için bu dosyayı kullanıyoruz.
+Aşağıdaki örnek, bir etiketi tabloya eklemenin nasıl yapıldığını göstermektedir. Örnek, bir grafik içeren bir tasarımcı dosyasını kullanır. Bu dosyayı bir etiketi grifiğe eklemek için kullanırız.
 
-Aşağıda, tasarımcı dosyasının bir ekran görüntüsü bulunmaktadır.
+Aşağıda tasarımcı dosyasının ekran görüntüsü bulunmaktadır.
 
-**tasarımcı grafiği**
+**Tasarımcı grafik**
 
-![yapılacaklar:resim_alternatif_metin](controls-in-charts_1.png)
+![todo:image_alt_text](controls-in-charts_1.png)
 
-Grafiğe etiket eklemek için orijinal kod aşağıdadır. Kod yürütülürken aşağıdaki çıktı oluşturulur.
+Aşağıda, grafik üzerine bir etiket eklemek için orijinal kod bulunmaktadır. Kodu çalıştırdığınızda aşağıdaki çıktı oluşturulur.
 
-**Grafiğe bir etiket eklendi**
+**Bir etiket grafik üzerine eklenir**
 
-![yapılacaklar:resim_alternatif_metin](controls-in-charts_2.png)
+![todo:image_alt_text](controls-in-charts_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingLabelControl-AddingLabelControl.java" >}}
 
-## **Grafiğe Metin Kutusu Denetimi Ekleme**
+## **Grafiğe TextBox Kontrolü Ekleme**
 
- Bir rapordaki önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya en yüksek satışa sahip coğrafi bölgeyi belirtmek için metin girin. bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıf adlı bir yöntem sağlar[**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)), bir grafiğe bir metin kutusu denetimi eklemek için kullanılır. Yöntem için kullanılan parametre listesi aşağıdadır:
+Bir raporda önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya en yüksek satış yapılan coğrafi bölgeyi belirtmek için metin girin. [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıfı, grafiğe bir metin kutusu denetimi eklemek için kullanılan [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)) adında bir yöntem sağlar. Aşağıdaki parametre listesi, yöntem için kullanılan parametreleri gösterir:
 
-- **tepe** – grafik alanının 1/4000 biriminde metin kutusunun sol üst köşeden dikey uzaklığı.
-- **sol** – grafik alanının 1/4000 biriminde metin kutusunun sol üst köşeden dikey uzaklığı.
-- **boy uzunluğu**– grafik alanının 1/4000'lik birimlerinde metin kutusunun yüksekliği.
-- **Genişlik** – grafik alanının 1/4000'lik birimleri cinsinden metin kutusunun genişliği.
+- **top** – metin kutusunun grafik alanının sol üst köşesinden dikey ofseti, 1/4000 birimde.
+- **sol** – metin kutusunun grafik alanının sol üst köşesinden yatay ofseti, 1/4000 birim olarak.
+- **height** – metin kutusunun yüksekliği, grafik alanının 1/4000 biriminde.
+- **width** – metin kutusunun genişliği, grafik alanının 1/4000 biriminde.
 
- Yöntem, bir nesne döndürür[**Metin kutusu**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox) sınıf nerede[**Metin kutusu**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox)class, grafikte bir metin kutusunu temsil eder.
+Yöntem, bir [**TextBox**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox) sınıfının nesnesini döndürür. [**TextBox**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox) sınıfı, grafikte bir metin kutusunu temsil eder.
 
-Aşağıdaki örnek, bir grafiğe nasıl metin kutusu ekleneceğini gösterir. Örnek, içinde bir grafik bulunan önceki tasarımcı dosyasını kullanır. Grafik başlığını göstermek için grafiğe bir metin kutusu eklemek için bu dosyayı kullanıyoruz.
+Aşağıdaki örnek, bir metin kutusunu bir grafik üzerine nasıl ekleyeceğinizi göstermektedir. Örnek, içinde grafik bulunan önceki tasarımcı dosyasını kullanır. Bu dosyayı kullanarak grafiğe bir metin kutusu ekleriz.
 
-Grafiğe bir metin kutusu eklemek için orijinal kod aşağıdadır. Kod yürütülürken aşağıdaki çıktı oluşturulur.
+Grafik üzerine bir metin kutusu eklemek için orijinal kod aşağıda verilmektedir. Kodu çalıştırdığınızda aşağıdaki çıktı oluşturulur.
 
-**Grafiğe bir metin kutusu eklenir**
+**Bir metin kutusu grafik üzerine eklenir**
 
-![yapılacaklar:resim_alternatif_metin](controls-in-charts_3.png)
+![todo:image_alt_text](controls-in-charts_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingTextBoxControl-AddingTextBoxControl.java" >}}
 
 ## **Grafiğe Resim Ekleme**
 
-Aspose.Cells, bir grafiğe resim eklemenizi sağlar. Örneğin, bir grafiği veya içeriğini vurgulamak veya daha fazla anlam vermek için bir resim ekleyin veya bir marka görsel dosyası ekleyin.
+Aspose.Cells, bir grafiğe resim eklemenize olanak tanır. Örneğin, bir resim ekleyerek bir grafiği vurgulamak veya anlamını artırmak veya bir marka resim dosyası eklemek.
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıf adlı bir yöntem sağlar[**ResimInChart'a ekle**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)), grafiğe bir resim nesnesi eklemek için kullanılır. Yöntem için kullanılan parametre listesi aşağıdadır:
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) sınıfı, grafiğe bir resim nesnesi eklemek için kullanılan [**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)) adında bir yöntem sağlar. Aşağıdaki parametre listesi, yöntem için kullanılan parametreleri gösterir:
 
-- **tepe**– tablo alanının 1/4000 biriminde resmin sol üst köşeden dikey kayması.
-- **sol**– tablo alanının 1/4000 biriminde resmin sol üst köşeden dikey kayması.
-- **aktarım** – görüntü verilerini içeren bir akış nesnesi.
-- **genişlikÖlçeği** – görüntü genişliği ölçeği, bir yüzde değeri.
-- **yükseklikÖlçek** – görüntü yüksekliği ölçeği, bir yüzde değeri.
+- **top** – resmin, grafik alanının sol üst köşesinden dikey ofseti, 1/4000 birimde.
+- **left** – resmin, grafik alanının sol üst köşesinden dikey ofseti, 1/4000 birimde.
+- **stream** – resim verisini içeren bir akım nesnesi.
+- **widthScale** – resmin genişlik ölçeği, yüzde değeri.
+- **heightScale** – resmin yükseklik ölçeği, yüzde değeri.
 
- Yöntem, bir nesne döndürür[**Resim**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) sınıf nerede[**Resim**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)class, grafikteki bir resim nesnesini temsil eder.
+Yöntem, [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) sınıfının bir nesnesini döndürür. [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) sınıfı, grafikte bir resim nesnesini temsil eder.
 
-Aşağıdaki örnek, grafiğe nasıl resim ekleneceğini gösterir. Örnek, içinde bir grafik bulunan önceki tasarımcı dosyasını kullanır. Bu dosyayı grafiğe bir resim eklemek için kullanıyoruz.
+Aşağıdaki örnek, bir resmi bir grafik üzerine nasıl ekleyeceğinizi göstermektedir. Örnek, içinde grafik bulunan önceki tasarımcı dosyasını kullanır. Bu dosyayı kullanarak grafiğe bir resim ekleriz.
 
-Grafiğe resim eklemek için orijinal kod aşağıdadır. Kod yürütülürken aşağıdaki çıktı üretilir
+Aşağıda, grafik üzerine bir resim eklemek için orijinal kod bulunmaktadır. Kodu çalıştırdığınızda aşağıdaki çıktı oluşturulur.
 
-**Grafiğe bir resim eklenir**
+**Bir resim grafik içine eklenir**
 
-![yapılacaklar:resim_alternatif_metin](controls-in-charts_4.png)
+![todo:image_alt_text](controls-in-charts_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingPictureToChart-AddingPictureToChart.java" >}}
 
 ## **Grafiğe Onay Kutusu Ekleme**
 
-Aspose.Cells kullanarak bir grafik sayfasına onay kutuları eklemenizi sağlar.[**MsoDrawingType**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoDrawingType) numaralandırma. Aşağıdaki örnek, bir grafik sayfasına bir onay kutusu eklemeyi gösterir.
+Aspose.Cells, [**MsoDrawingType**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoDrawingType) numaralandırmasını kullanarak bir grafik sayfasına onay kutuları eklemenize olanak tanır. Aşağıdaki örnek, bir grafik sayfasına bir onay kutusu eklemenin nasıl yapılacağını göstermektedir.
 
-Aşağıdaki resimde, çıktı dosyasında onay kutusu bulunan grafik sayfası gösterilmektedir.
+Aşağıdaki resim, çıktı dosyasındaki grafik tablosunu içeren onay kutusu göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](controls-in-charts_5.jpg)
+![todo:image_alt_text](controls-in-charts_5.jpg)
 
-bu[çıktı dosyası](InsertCheckboxInChartSheet_out.xlsx)aşağıdaki kod parçacığı tarafından oluşturulan referans için eklenmiştir.
+Aşağıdaki kod parçası tarafından oluşturulan [çıktı dosyası](InsertCheckboxInChartSheet_out.xlsx) ekli olarak sunulmuştur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}

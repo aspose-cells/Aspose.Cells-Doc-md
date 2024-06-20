@@ -1,12 +1,13 @@
-﻿---
-title: Ordina i dati nei fogli di lavoro
+---
+title: Ordinare i Dati nei Fogli di Lavoro
 type: docs
 weight: 230
 url: /it/net/sort-data-in-worksheets/
 ---
+
 Di seguito è riportato l'esempio di codice di confronto per VSTO e Aspose.Cells.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -36,7 +37,7 @@ Di seguito è riportato l'esempio di codice di confronto per VSTO e Aspose.Cells
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -53,5 +54,5 @@ Di seguito è riportato l'esempio di codice di confronto per VSTO e Aspose.Cells
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Scaricamento
-- [Git Hub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)
+## **Scaricare
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)

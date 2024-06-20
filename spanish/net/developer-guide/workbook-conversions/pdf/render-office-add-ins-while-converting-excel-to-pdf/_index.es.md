@@ -1,16 +1,17 @@
-﻿---
-title: Procesar complementos de Office al convertir Excel a PDF
+---
+title: Renderizar complementos de Office al convertir Excel a PDF
 type: docs
 weight: 100
 url: /es/net/render-office-add-ins-while-converting-excel-to-pdf/
 ---
-## **Posibles escenarios de uso**
 
-Anteriormente, Aspose.Cells no podía procesar complementos de Office cuando el archivo de Excel se guardaba en formato PDF. Ahora Aspose.Cells lo hace bien. No necesita usar ningún método o propiedad especial para representar los complementos de Office en la salida PDF. Simplemente guarde su archivo de Excel en el formato PDF y generará los complementos de Office.
+## **Escenarios de uso posibles**
 
-## **Procesar complementos de Office al convertir Excel a PDF**
+Anteriormente, Aspose.Cells no podía renderizar complementos de Office cuando se guardaba el archivo de Excel en formato PDF. Ahora Aspose.Cells lo renderiza correctamente. No es necesario usar ningún método o propiedad especial para renderizar complementos de Office en el PDF de salida. Simplemente guarde su archivo de Excel en formato PDF y se renderizarán los complementos de Office.
 
- El siguiente código de ejemplo guarda el[ejemplo de archivo de Excel](60489769.xlsx) que contiene los complementos de Office. Por favor vea el[salida PDF generada con la versión anterior, es decir, 17.11](60489770.pdf) y el[salida PDF generada con la versión más reciente, es decir, 17.12 y posteriores](60489771.pdf)El resultado de la versión anterior PDF está en blanco, pero el resultado de la versión más reciente PDF muestra el complemento de Office.
+## **Renderizar complementos de Office al convertir Excel a PDF**
+
+El siguiente código de ejemplo guarda el [archivo de Excel de muestra](60489769.xlsx) que contiene los complementos de Office. Consulte el [PDF de salida generado con la versión anterior, es decir, 17.11](60489770.pdf) y el [PDF de salida generado con la versión más reciente, es decir, 17.12 en adelante](60489771.pdf). El PDF de salida de la versión anterior está en blanco, pero el PDF de salida de la versión más reciente muestra el complemento de Office.
 
 ## **Código de muestra**
 

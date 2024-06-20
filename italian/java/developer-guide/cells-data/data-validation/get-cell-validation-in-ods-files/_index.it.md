@@ -1,15 +1,16 @@
-﻿---
-title: Ottieni la convalida Cell nei file ODS
+---
+title: Ottieni la convalida della cella nei file ODS
 type: docs
 weight: 190
 url: /it/java/get-cell-validation-in-ods-files/
 ---
-## **Ottieni la convalida Cell nei file ODS**
 
-Con Aspose.Cells, puoi ottenere la convalida applicata a una cella nei file ODS. Per questo, lo API fornisce il[**Ottieni convalida**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) metodo del[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)classe.
+## **Ottieni la Convalida Cellulare nei File ODS**
 
-Nell'esempio di codice seguente viene illustrato l'utilizzo di[**Ottieni convalida**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) metodo caricando il file[fonte ODS](SampleBook1.ods)file e leggendo la validazione della cella A9.
+Con Aspose.Cells, è possibile ottenere la convalida applicata a una cella nei file ODS. A tal fine, l'API fornisce il metodo [**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) della classe [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell).
 
-### **Codice d'esempio**
+Il seguente esempio di codice dimostra l'uso del metodo [**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) caricando il [file ODS di origine](SampleBook1.ods) e leggendo la convalida della cella A9.
+
+### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-GetCellValidationInODS-1.java" >}}

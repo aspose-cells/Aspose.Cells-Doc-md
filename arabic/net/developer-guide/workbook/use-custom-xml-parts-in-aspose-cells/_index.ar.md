@@ -1,25 +1,26 @@
-﻿---
-title: استخدم أجزاء XML المخصصة في Aspose.Cells
+---
+title: استخدام أجزاء XML المخصصة في Aspose.Cells
 type: docs
 weight: 390
 url: /ar/net/use-custom-xml-parts-in-aspose-cells/
 ---
+
 ## استخدام أجزاء XML المخصصة في Aspose.Cells
 
-أجزاء XML المخصصة هي بيانات XML التي يتم تخزينها بواسطة تطبيقات مختلفة مثل SharePoint وما إلى ذلك داخل ملف Excel. يتم استهلاك هذه البيانات من قبل التطبيقات المختلفة التي تحتاج إليها. Microsoft لا يستخدم Excel هذه البيانات لذلك لا توجد واجهة مستخدم رسومية لإضافتها. يمكنك عرض هذه البيانات عن طريق تغيير امتداد**.xlsx** داخل**.أَزِيز** ثم فتحه باستخدام**برنامج WinZip** . يمكنك أيضًا فتح ملف ZIP باستخدام أي أداة مضغوطة من الجزء الثالث Windows مثل WinRAR أو WinZip وما إلى ذلك. البيانات موجودة داخل**customXml** مجلد.
+أجزاء XML المخصصة هي بيانات XML يتم تخزينها بواسطة تطبيقات مختلفة مثل SharePoint وما إلى ذلك داخل ملف إكسل. يتم استخدام هذه البيانات بواسطة تطبيقات مختلفة تحتاج إليها. لا يقوم Microsoft Excel باستخدام هذه البيانات لذا لا توجد واجهة المستخدم الرسومية لإضافتها. يمكنك عرض هذه البيانات عن طريق تغيير امتداد **.xlsx** إلى **.zip** ثم فتحها باستخدام **WinZip**. يمكنك أيضًا فتح ملف ZIP باستخدام أي أداة ضغط ZIP خارجية لنظام Windows مثل WinRAR أو WinZip وما إلى ذلك. البيانات موجودة داخل مجلد **customXml**.
 
- يمكنك إضافة أجزاء XML مخصصة باستخدام Aspose.Cells عبر ملف[**Workbook.ContentTypeProperties.Add ()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index)طريقة.
+يمكنك إضافة أجزاء XML مخصصة باستخدام Aspose.Cells عبر طريقة [**Workbook.ContentTypeProperties.Add()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index).
 
- يستخدم نموذج التعليمات البرمجية التالي[**Workbook.ContentTypeProperties.Add ()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) طريقة ويضيف**كتالوج الكتب XML** واسمه**مكتبة لبيع الكتب**. الصورة التالية تظهر نتيجة هذا الرمز. كما ترى ، تمت إضافة XML لـ Book Catalog داخل عقدة BookStore وهي اسم هذه الخاصية.
+يستخدم مقتطف الكود التالي الطريقة [**Workbook.ContentTypeProperties.Add()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) ويضيف **فهرس كتب XML** واسمه **BookStore**. تُظهر الصورة التالية نتيجة هذا الكود. كما يمكنك رؤية فهرس كتب XML داخل عقدة BookStore وهو اسم هذه الخاصية.
 
-![ما يجب القيام به: image_بديل_نص](use-custom-xml-parts-in-aspose-cells_1.png)
+![todo:image_alt_text](use-custom-xml-parts-in-aspose-cells_1.png)
 
-![ما يجب القيام به: image_بديل_نص](use-custom-xml-parts-in-aspose-cells_2.png)
+![todo:image_alt_text](use-custom-xml-parts-in-aspose-cells_2.png)
 
-## C# كود لاستخدام أجزاء XML المخصصة
+## كود C# لاستخدام أجزاء XML مخصصة
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingCustomXmlParts-UsingCustomXmlParts.cs" >}}
 
-## مقالات لها صلة
+## مقال ذو صلة
 
-- [إضافة خصائص مخصصة مرئية داخل لوحة معلومات المستند](/cells/ar/net/adding-custom-properties-visible-inside-document-information-panel/)
+- [إضافة خصائص مخصصة مرئية داخل لوحة معلومات الوثيقة](/cells/ar/net/adding-custom-properties-visible-inside-document-information-panel/)

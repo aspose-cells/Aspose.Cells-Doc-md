@@ -1,15 +1,16 @@
-﻿---
-title: Crea grafici utilizzando Apache POI e Aspose.Cells
+---
+title: Creare grafici utilizzando Apache POI e Aspose.Cells
 type: docs
 weight: 50
 url: /it/java/create-charts-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Crea Grafici**
-È possibile aggiungere una varietà di grafici ai fogli di calcolo con Aspose.Cells. Aspose.Cells fornisce molti oggetti grafici flessibili.
+
+## **Aspose.Cells - Crea grafici**
+È possibile aggiungere una varietà di grafici ai fogli di calcolo con Aspose.Cells. Aspose.Cells fornisce molti oggetti di grafici flessibili.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -74,10 +75,10 @@ Series series = nSeries.get(1);
 series.setType(ChartType.LINE);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - Crea grafici**
+## **Apache POI SS (HSSF + XSSF) - Creare grafici**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();
 
@@ -142,16 +143,16 @@ chart.plot(data, bottomAxis, leftAxis);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica esempi di esecuzione per**Crea grafici utilizzando Apache POI e Aspose.Cells** da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica esempi in esecuzione per **Creare grafici utilizzando Apache POI e Aspose.Cells** da uno qualsiasi dei siti di codice sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
-## **Scarica il codice sorgente**
- Scarica il codice sorgente per**Crea grafici utilizzando Apache POI e Aspose.Cells** da uno qualsiasi dei siti di social coding sotto indicati:
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
+## **Scarica codice sorgente**
+Scarica il codice sorgente per **Creare grafici utilizzando Apache POI e Aspose.Cells** da uno qualsiasi dei siti di codice sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Creazione di grafici personalizzati](/cells/it/java/creating-and-customizing-charts/).
+Per maggiori dettagli, visita [Creazione di grafici personalizzati](/cells/it/java/creazione-e-personalizzazione-di-grafici/).
 
 {{% /alert %}}

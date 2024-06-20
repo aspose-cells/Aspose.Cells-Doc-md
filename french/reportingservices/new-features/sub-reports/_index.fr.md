@@ -1,23 +1,24 @@
-﻿---
-title: Sous-rapports
+---
+title: Sous rapports
 type: docs
 weight: 20
 url: /fr/reportingservices/sub-reports/
 ---
+
 {{% alert color="primary" %}} 
 
-Nous avons intégré la prise en charge de l'intégration d'un sous-rapport dans une ligne de groupe de tableaux. Le format est :
+Nous avons intégré la prise en charge de l'intégration d'un sous-rapport dans une ligne de groupe de table. Le format est :
 
-&=subreport{ReportName=le nom de votre rapport ; nom du paramètre1 = valeur du paramètre1 ; nom du paramètre2 = valeur du paramètre2 ;......} 
+&=subreport{ReportName=your report name; parameter1 name = parameter1 value; parameter2 name = parameter2 value;......} 
 
 {{% /alert %}} 
 ### **Exemple**
-**Un sous-rapport dans un tableau** 
+**Un sous-rapport dans une table** 
 
-![tâche : image_autre_texte](sub-reports_1.png)
+![todo:image_alt_text](sub-reports_1.png)
 
- Dans l'exemple, le nom du sous-rapport est "Sales Order Detail". Il a un paramètre,*Numéro de commande* . La valeur du paramètre est*EmpSalesDetail.SalesOrderNumber.*
-#### **Restrictions sur l'utilisation des sous-rapports**
-- Le sous-rapport doit être conçu avec l'outil Aspose.Cells.Reporting Services Designer.
-- Le sous-rapport ne peut être intégré que dans la ligne du groupe de tableaux et la ligne du groupe ne peut pas contenir d'autres éléments que le sous-rapport. L'intégration d'un sous-rapport dans les lignes de détail du tableau ou les lignes de pied de page n'est pas autorisée.
-- Actuellement, l'imbrication de plusieurs niveaux n'est pas prise en charge. Le sous-rapport ne peut pas contenir de rapport intégré.
+Dans l'exemple, le nom du sous-rapport est "Détail de la commande de vente". Il a un paramètre, *NuméroDeCommandeVente*. La valeur du paramètre est *EmpSalesDetail.SalesOrderNumber.*
+#### **Restrictions concernant l'utilisation des sous-rapports**
+- Le sous-rapport doit être conçu avec l'outil de conception Aspose.Cells.Reporting Services.
+- Le sous-rapport ne peut être intégré que dans la ligne de groupe de table et la ligne de groupe ne peut pas contenir d'autres éléments que le sous-rapport. Il n'est pas autorisé d'intégrer un sous-rapport dans les lignes de détail ou les lignes de pied de table.
+- Actuellement, l'imbrication de plus d'un niveau n'est pas prise en charge. Le sous-rapport ne peut contenir de rapport incorporé.

@@ -1,12 +1,13 @@
-﻿---
-title: Verim
+---
+title: Performans
 type: docs
 weight: 30
 url: /tr/reportingservices/performance/
 ---
- Performansı artırmak için Performans parametresini şu şekilde ayarlayın:**ÜZERİNDE**.
 
-{{< highlight "java" >}}
+Performansı artırmak için Performans parametresini **AÇIK** olarak ayarlayın.
+
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -28,9 +29,9 @@ url: /tr/reportingservices/performance/
 
 Çeşitli performans parametreleri aşağıdaki gibidir:
 
-- **LimitCellsNumberForMerged** : birleştirilebilecek maksimum hücre sayısı. Varsayılan değer 1.000.000. Parametre değeri kullanıcı tarafından ayarlanır ve performans parametre anahtarından etkilenmez.
+- **MergeEdilecekHücreSayısıSınırı**: Birleştirilebilecek maksimum hücre sayısı. Varsayılan değer 1.000.000. Parametre değeri kullanıcı tarafından belirlenir ve performans parametresi anahtarı tarafından etkilenmez. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -39,9 +40,9 @@ url: /tr/reportingservices/performance/
 
 
 
-- **AutoRowFit mi** : Performance değeri şu olduğunda**kapalı** , IsAutoRowFit'in değeri:**YANLIŞ** varsayılan olarak. Performans parametresinin değeri**üzerinde** , değer**doğru** varsayılan olarak. Performance'ın değeri şu olduğunda**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir.
+- **OtomatikSatırUygunluğu**: Performans değeri **kapalı** olduğunda, OtomatikSatırUygunluğu değeri varsayılan olarak **false** olur. Performans parametresi değeri **açık** olduğunda, değer varsayılan olarak **true** olur. Performans parametresi **açık** olduğunda, bir alt eleman raporu OtomatikSatırUygunluğu değerine sıfırlayabilir.Puan raporunu OtomatikSatırUygunluğu değerine sıfırlayabilir. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -64,9 +65,9 @@ url: /tr/reportingservices/performance/
 
 
 
-- **Birleştirilmiş** : Performance değeri şu olduğunda**kapalı** , IsMerged varsayılan değeri:**YANLIŞ** . Performance'ın değeri şu olduğunda**üzerinde** , varsayılan değer**doğru** . Değer Performans parametresi olduğunda**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir.
+- **BirleştirildiMi**: Performans değeri **kapalı** olduğunda, BirleştirildiMi varsayılan değeri **false** olur. Performans değeri **açık** olduğunda, varsayılan değer **true** olur. Performans parametresi **açık** olduğunda, bir alt eleman raporu OtomatikSatırUygunluğu değerine sıfırlayabilir. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -89,9 +90,9 @@ url: /tr/reportingservices/performance/
 
 
 
-- **SetStyle** : Performance değeri şu olduğunda**kapalı** , varsayılan değer**YANLIŞ** . Performans ne zaman**üzerinde** , varsayılan değer**doğru** . Ayrıca, Performans**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir.
+- **StilAyarlandıMı**: Performans değeri **kapalı** olduğunda, varsayılan değer **false** olur. Performans **açık** olduğunda, varsayılan değer **true** olur. Ayrıca, Performans **açık** olduğunda, bir alt eleman raporu OtomatikSatırUygunluğu değerine sıfırlayabilir. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -114,9 +115,9 @@ url: /tr/reportingservices/performance/
 
 
 
-- **Koşullu Biçimlendirme** : Performans**kapalı** , varsayılan değer**YANLIŞ** . Performans ne zaman**üzerinde** , varsayılan değer**doğru** . Ayrıca, Performans**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir. IsSetStyle parametre değeri olarak ayarlandığında**YANLIŞ** , Performans değeri geçersiz.
+- **KoşulluBiçimlendirmeMı**: Performans değeri **kapalı** olduğunda, varsayılan değer **false** olur. Performans **açık** olduğunda, varsayılan değer **true** olur. Ayrıca, Performans **açık** olduğunda, bir alt eleman raporu OtomatikSatırUygunluğu değerine sıfırlayabilir. StilAyarlandıMı parametre değeri **false** olarak ayarlandığında, Performans değeri geçersizdir. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

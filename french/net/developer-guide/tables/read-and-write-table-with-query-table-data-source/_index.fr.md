@@ -1,11 +1,12 @@
-﻿---
-title: Table de lecture et d'écriture avec source de données de table de requête
+---
+title: Lire et écrire un tableau avec la source de données de table de requête
 type: docs
 weight: 30
 url: /fr/net/read-and-write-table-with-query-table-data-source/
 ---
-## **Table de lecture et d'écriture avec source de données de table de requête**
-Avec Aspose.Cells, vous pouvez lire et écrire une table qui a une QueryTable comme source de données. La prise en charge de cette fonctionnalité existe également pour les fichiers XLS. L'extrait de code suivant illustre la lecture et l'écriture d'un tel tableau en lisant d'abord le tableau, puis en le modifiant pour ajouter la ligne des totaux.
+
+## **Lire et Écrire un Tableau avec une Source de Données de Table de Requête**
+Avec Aspose.Cells, vous pouvez lire et écrire une table qui a un QueryTable comme source de données. Le support de cette fonctionnalité existe également pour les fichiers XLS. Le code ci-dessous montre comment lire et écrire une telle table en lisant d'abord la table puis en la modifiant pour ajouter la ligne des totaux.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-ReadAndWriteTableWithQueryTableDataSource-1.cs" >}}
 

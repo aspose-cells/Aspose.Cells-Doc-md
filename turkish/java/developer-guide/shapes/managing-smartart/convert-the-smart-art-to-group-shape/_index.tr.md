@@ -1,26 +1,27 @@
-﻿---
-title: Akıllı Sanatı Grup Şekline Dönüştürün
+---
+title: Akıllı Sanatı Grup Şekline Dönüştür
 type: docs
 weight: 80
 url: /tr/java/convert-the-smart-art-to-group-shape/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Smart Art Shape'i kullanarak Grup Shape'e dönüştürebilirsiniz.[**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt()) yöntem. Akıllı sanat şeklini bir grup şekli gibi işlemenizi sağlayacaktır. Sonuç olarak, grup şeklinin ayrı parçalarına veya şekillerine erişebileceksiniz.
+Grup Şeklini Kullanarak Akıllı Sanat Şeklini Grup Şekline Dönüştürebilirsiniz. Bu yöntemle akıllı sanat şeklini bir grup şekli gibi işleyebilirsiniz. Sonuç olarak, grup şeklinin bireysel parçalarına veya şekillerine erişebileceksiniz.
 
-## **Akıllı Sanatı Grup Şekline Dönüştürün**
+## **Akıllı Sanatı Grup Şekline Dönüştür**
 
-Aşağıdaki örnek kod,[örnek excel dosyası](55541806.xlsx)bu ekran görüntüsünde gösterildiği gibi bir akıllı sanat şekli içeren. Daha sonra akıllı sanat şeklini grup şekline dönüştürür ve[Shape.IsGroup](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsGroup)Emlak. Lütfen aşağıda verilen örnek kodun konsol çıktısına bakın.
+Aşağıdaki örnek kod, bu ekran görüntüsünde gösterilen akıllı sanat şeklini içeren [örnek Excel dosyasını](55541806.xlsx) yükler. Ardından akıllı sanat şeklini grup şekline dönüştürür ve [Shape.IsGroup](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsGroup) özelliğini yazdırır. Lütfen verilen örnek kodun konsol çıktısına aşağıdan bakınız.
 
-![yapılacaklar:resim_alternatif_metin](convert-the-smart-art-to-group-shape_1.png)
+![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-ConvertSmartArtToGroupShape.java" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: true
 

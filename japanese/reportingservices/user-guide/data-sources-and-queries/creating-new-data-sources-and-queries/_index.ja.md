@@ -1,119 +1,120 @@
-﻿---
-title: 新しいデータ ソースとクエリの作成
+---
+title: 新しいデータソースとクエリを作成します
 type: docs
 weight: 20
 url: /ja/reportingservices/creating-new-data-sources-and-queries/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.Report.Designer は MS Query と統合され、MS Query をデータ ソースとクエリを作成するためのツールとして使用します。 Aspose.Cells.Report.Designer で新しいデータ ソースとクエリを作成するには、次の手順に従います。
+Aspose.Cells.Report.Designer は MS Query と統合し、MS Query をデータソースとクエリの作成ツールとして使用します。Aspose.Cells.Report.Designer で新しいデータソースとクエリを作成するには、次の手順に従います： 
 
 {{% /alert %}} 
 
-Aspose.Cells.Report.Designer で新しいデータ ソースとクエリを作成するには:
+Aspose.Cells.Report.Designer で新しいデータソースとクエリを作成するには：
 
-1. Microsoft エクセルを開きます。
-1. クリック**DataSet の構築**Aspose.Cells.Report.Designer ツールバーで:
+1. Microsoft Excel を開きます。
+1. Aspose.Cells.Report.Designer ツールバーの **Build DataSet** をクリックします。 
 
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_1.png)
-
-
-すべてのデータ ソースとクエリがダイアログ ボックスに一覧表示されます。
-
-1. データ ソース ノード:
-
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_2.png)
-
-1. データセットノード:
-
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_3.png)
-
-1. ツリーのルート ノードを選択します。
-1. クリック**追加**. 
-
-   **データ ソースとデータ セットの追加** 
-
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_4.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_1.png)
 
 
+すべてのデータソースとクエリがダイアログボックスにリストされます。 
 
+1. データソースノード： 
 
-1. ダイアログ ボックスで、データ ソースを呼び出します。**SQLサーバー**とデータセット**EmpsSalesDetail**.
-1. クリック**次**. 
+![todo:image_alt_text](creating-new-data-sources-and-queries_2.png)
 
-   **データ セットとデータ ソースの追加** 
+1. データセットノード： 
 
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_5.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_3.png)
 
+ツリーのルートノードを選択します。
+1. **追加** をクリックします。 
 
+   **データソースとデータセットの追加** 
 
-Aspose.Cells.Report.Designer は Microsoft クエリを開始します。
-
-1.  [データ ソースの選択] ダイアログで、次のように選択します。**新しいデータ ソース**.
-1. クリック**わかった**.
-既存のデータ ソースを選択することもできます。
-
-   **データ ソースの選択** 
-
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_6.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_4.png)
 
 
 
 
-1. データ ソース名を入力し、データベース ドライバーのドロップダウン リストから SQL Server を選択します。
-1. クリック**接続**. 
+1. ダイアログボックスで、データソースを **SqlServer**、データセットを **EmpsSalesDetail** と呼び出します。
+1. **次へ** をクリックします。 
 
-   **新しいデータ ソースの作成** 
+   **データセットとデータソースの追加** 
 
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_7.png)
-
-
-
-
-1. [SQL Server ログイン] ダイアログで、各項目に適切な値を選択します。
-たとえば、サーバーをローカルに設定し、AdventureWorks データベースを選択して、**信頼できる接続を使用**.
-1. クリック**わかった**. 
-
-   **SQL サーバーへのログイン** 
-
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_8.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_5.png)
 
 
 
+Aspose.Cells.Report.Designer が Microsoft Query を起動します。 
 
-1. クリック**わかった**. 
+1. データソースの選択ダイアログボックスで **新しいデータソース** を選択します。
+1. **OK** をクリックします。
+   既存のデータソースを選択することもできます。 
 
-   **SQL サーバーにログインしていることに注意してください。** 
+   **データソースの選択** 
 
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_9.png)
-
-
-
-新しいデータ ソースが**データ ソースの選択**ダイアログ。
-
-1. 新しいデータ ソースを選択します。
-
-   **新しいデータ ソース** 
-
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_10.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_6.png)
 
 
 
 
-1. クリック**わかった**Microsoft クエリを開きます。
-1.  Microsoft クエリでクエリを作成するには、Microsoft クエリ ヘルパーを参照してください。次のサンプルでは、パラメーターを使用してクエリを作成します。
+1. データソース名を入力し、ドロップダウンリストから SQL Server を選択します。
+1. **接続** をクリックします。 
 
-   **クエリの作成** 
+   **新しいデータソースの作成** 
 
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_11.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_7.png)
 
 
 
-SQL は次のとおりです。
+
+1. SQL Server ログインダイアログボックスで、各項目に適切な値を選択します。
+   たとえば、サーバーをローカルに設定し、AdventureWorks データベースを選択し、**信頼済み接続を使用** を選択します。
+1. **OK** をクリックします。 
+
+   **SQL サーバーにログインする** 
+
+![todo:image_alt_text](creating-new-data-sources-and-queries_8.png)
+
+
+
+
+1. **OK** をクリックします。 
+
+   **SQLサーバーにログインしていることに注意してください** 
+
+![todo:image_alt_text](creating-new-data-sources-and-queries_9.png)
+
+
+
+新しいデータソースが**データソースの選択**ダイアログに表示されます。 
+
+1. 新しいデータソースを選択します。 
+
+   **新しいデータソース** 
+
+![todo:image_alt_text](creating-new-data-sources-and-queries_10.png)
+
+
+
+
+1. **OK** をクリックして Microsoft Query を開きます。
+Microsoft Query でクエリを作成するには、Microsoft Query Helper を参照してください。次のサンプルでは、パラメータを使用したクエリを作成します。 
+
+   **クエリの構築** 
+
+![todo:image_alt_text](creating-new-data-sources-and-queries_11.png)
+
+
+
+SQLは次のようになります: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT C.FirstName + ' ' + C.LastName AS Employee,
 
@@ -180,44 +181,44 @@ P.Name, PS.Name, SOD.UnitPrice, PC.Name
 {{< /highlight >}}
 
 
-クエリには、ReportYear、ReportMonth、および EmpID の 3 つのパラメーターがあります。
+クエリには ReportYear、ReportMonth、EmpID の 3 つのパラメータがあります。
 
-1.  Microsoftからお問い合わせ**ファイル**メニュー、選択**Aspose.Cells.Report.Designerに戻る**. 
+1. Microsoft Query の**ファイル**メニューから**Aspose.Cells.Report.Designer に戻る**を選択します。 
 
-   **レポート デザイナーに戻る** 
+   **レポートデザイナーに戻る** 
 
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_12.png)
-
-
-
-上記で作成したデータ ソースとクエリがダイアログ ボックスに一覧表示されます。
-
-1. データ ソースをクリックします。**SQLサーバー**詳細情報を表示します。
-
-   **新しいデータ ソース** 
-
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_13.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_12.png)
 
 
 
+上記で作成したデータソースとクエリがダイアログボックスにリストされています。 
 
-1.  EmpSalesDetails クエリをクリックして、その詳細情報を表示します。
+1. 詳細情報を表示するにはデータソース **SqlServer** をクリックします。 
 
-   **SQL タブをクリックして、クエリの SQL を表示します。** 
+   **新しいデータソース** 
 
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_14.png)
-
-
-
-**[列] タブをクリックして、クエリの列を表示します。** 
-
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_15.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_13.png)
 
 
 
-**[パラメーター] タブをクリックして、クエリのパラメーターを表示します。** 
 
-![todo:画像_代替_文章](creating-new-data-sources-and-queries_16.png)
+1. 詳細情報を表示するにはクエリ EmpSalesDetails をクリックします。 
+
+   **クエリのSQLを表示するには SQL タブをクリックします** 
+
+![todo:image_alt_text](creating-new-data-sources-and-queries_14.png)
+
+
+
+**クエリの列を表示するには列タブをクリックします** 
+
+![todo:image_alt_text](creating-new-data-sources-and-queries_15.png)
+
+
+
+**クエリのパラメータを表示するにはパラメータタブをクリックします** 
+
+![todo:image_alt_text](creating-new-data-sources-and-queries_16.png)
 
 
 

@@ -1,73 +1,74 @@
-﻿---
-title: استخدام الأنماط المضمنة
+---
+title: استخدام الأنماط المدمجة
 type: docs
 weight: 80
 url: /ar/net/using-built-in-styles/
-description: C# كود لاستخدام أنماط Excel المضمنة مع Aspose.Cells for .NET API
-keywords: c# use excel built in styles, c# programmatically apply styles in workbook, programmatically apply styles in workbook, c# apply built in styles in excel, c# apply built in styles in workbook, c# code apply built in styles in workbook, c# code apply built in styles in excel workbook
+description: كود C# لاستخدام أنماط Excel المضمنة مع واجهة برمجة التطبيقات Aspose.Cells for .NET
+keywords: c# استخدام أنماط Excel المدمجة، c# تطبيق الأنماط برمجيًا في السجل، تطبيق الأنماط برمجيًا في السجل، c# تطبيق الأنماط المضمنة في Excel، c# تطبيق الأنماط المضمنة في السجل، c# كود تطبيق الأنماط المضمنة في السجل في Excel
 ---
+
 {{% alert color="primary" %}}
 
-يوفر Aspose.Cells مجموعة كبيرة من الأنماط التي يمكن إعادة استخدامها لتنسيق خلية في وثيقة جدول حسابي. يمكننا استخدام الأنماط المضمنة في مصنفنا وأيضًا إنشاء أنماط مخصصة.
+توفر Aspose.Cells مجموعة واسعة من الأنماط القابلة لإعادة الاستخدام لتنسيق الخلية في مستند جدول البيانات. يمكننا استخدام الأنماط المضمنة في سجلنا وأيضًا إنشاء أنماط مخصصة.
 
 {{% /alert %}}
 
-## **كيفية استخدام الأنماط المضمنة**
+## **كيفية استخدام الأنماط المدمجة**
 
- طريقة[**المصنف**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) والعد[**نوع البناء**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) اجعله مناسبًا لاستخدام الأنماط المضمنة. فيما يلي قائمة بجميع الأنماط المضمنة الممكنة:
+الطريقة [**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) والتعداد [**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) تجعل من السهل استخدام الأنماط المضمنة. إليك قائمة بجميع الأنماط المضمنة الممكنة:
 
-- عشرين_نسبه مئويه_ACCENT_1
-- عشرين_نسبه مئويه_ACCENT_2
-- عشرين_نسبه مئويه_ACCENT_3
-- عشرين_نسبه مئويه_ACCENT_4
-- عشرين_نسبه مئويه_ACCENT_5
-- عشرين_نسبه مئويه_ACCENT_6
-- أربعين_نسبه مئويه_ACCENT_1
-- أربعين_نسبه مئويه_ACCENT_2
-- أربعين_نسبه مئويه_ACCENT_3
-- أربعين_نسبه مئويه_ACCENT_4
-- أربعين_نسبه مئويه_ACCENT_5
-- أربعين_نسبه مئويه_ACCENT_6
-- ستون_نسبه مئويه_ACCENT_1
-- ستون_نسبه مئويه_ACCENT_2
-- ستون_نسبه مئويه_ACCENT_3
-- ستون_نسبه مئويه_ACCENT_4
-- ستون_نسبه مئويه_ACCENT_5
-- ستون_نسبه مئويه_ACCENT_6
-- ACCENT_1
-- ACCENT_2
-- ACCENT_3
-- ACCENT_4
-- ACCENT_5
-- ACCENT_6
+- TWENTY_PERCENT_ACCENT_1
+- TWENTY_PERCENT_ACCENT_2
+- TWENTY_PERCENT_ACCENT_3
+- TWENTY_PERCENT_ACCENT_4
+- TWENTY_PERCENT_ACCENT_5
+- TWENTY_PERCENT_ACCENT_6
+- FORTY_PERCENT_ACCENT_1
+- FORTY_PERCENT_ACCENT_2
+- FORTY_PERCENT_ACCENT_3
+- FORTY_PERCENT_ACCENT_4
+- FORTY_PERCENT_ACCENT_5
+- FORTY_PERCENT_ACCENT_6
+- SIXTY_PERCENT_ACCENT_1
+- SIXTY_PERCENT_ACCENT_2
+- SIXTY_PERCENT_ACCENT_3
+- أكثر من ستين في المائة
+- أكثر من ستين في المائة
+- أكثر من ستين في المائة
+- لهجة 1
+- لهجة 2
+- لهجة 3
+- لهجة 4
+- لهجة 5
+- لهجة 6
 - سيء
-- عملية حسابية
-- CHECK_CELL
+- حساب
+- تحقق الخلية
 - فاصلة
-- COMMA_1
+- فاصلة 1
 - عملة
-- CURRENCY_1
-- EXPLANATORY_TEXT
-- حسن
-- HEADER_1
-- HEADER_2
+- عملة 1
+- نص توضيحي
+- جيد
+- رأس الجدول 1
+- رأس الجدول 2
 - HEADER_3
 - HEADER_4
-- رابط تشعبي
+- HYPERLINK
 - FOLLOWED_HYPERLINK
-- إدخال
+- INPUT
 - LINKED_CELL
-- محايد
-- عادي
-- ملاحظة
-- انتاج
-- نسبه مئويه
-- لقب
-- مجموع
-- WARNING_TEXT
-- ROW_LEVEL
-- COLUMN_LEVEL
+- NEUTRAL
+- NORMAL
+- NOTE
+- OUTPUT
+- PERCENT
+- العنوان
+- المجموع
+- نص التحذير
+- مستوى الصف
+- مستوى العمود
 
-## C# كود لاستخدام الأنماط المضمنة
+## كود C# لاستخدام الأنماط المدمجة
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}

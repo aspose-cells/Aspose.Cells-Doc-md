@@ -1,71 +1,72 @@
-﻿---
-title: Aspose.Cells for SharePoint - Kullanım ve Faydalar
+---
+title: Aspose.Cells for SharePoint  Kullanım ve Faydalar
 type: docs
 weight: 10
 url: /tr/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/
 ---
+
 {{% alert color="primary" %}} 
 
-SharePoint siteleri, belirli iş ihtiyaçlarını karşılamak için işbirliği, iletişim ve içerik depolama amaçlıdır. Aspose.Cells for SharePoint, SharePoint belge kitaplıklarında bulunan Microsoft Excel belgeleri üzerinde belirli işlemleri gerçekleştirmek için kullanıma sunuldu. Bu makale aşağıdakileri kapsar:
+SharePoint siteleri, belirli iş gereksinimlerini karşılamak için işbirliği, iletişim ve içerik depolama amacıyla oluşturulmuştur. Aspose.Cells for SharePoint, SharePoint belge kitaplıklarında bulunan Microsoft Excel belgeleri üzerinde belirli işlemleri gerçekleştirmek üzere tanıtılmıştır. Bu makale şunları kapsar:
 
 - [SharePoint belge kitaplıkları hakkında kısa bir not](/cells/tr/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
-- [Avantajlar Aspose.Cells for SharePoint](/cells/tr/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
-- [Microsoft Excel belgelerini diğer biçimlere dönüştürme](/cells/tr/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
+- [Aspose.Cells for SharePoint'ın getirileri](/cells/tr/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
+- [Microsoft Excel belgelerini diğer biçimlere dönüştürme yöntemleri](/cells/tr/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/).
 
 {{% /alert %}} 
-### **SharePoint Belge Kitaplıkları Üzerine Kısa Bir Not**
-SharePoint sitelerindeki içerikler, SharePoint belge kitaplığı (bazen "paylaşılan belge kitaplığı" olarak da bilinir) adı verilen merkezi bir konumda paylaşılan belgeler biçimindedir. Yetkili kullanıcılar, belgeleri yerel makinelerinden SharePoint sitesine yükleyebilir. Bu belgeler, SharePoint sitesi tarafından kullanılan bir SQL Server veritabanında ikili biçimde depolanır. Belgeler, aşağıda gösterildiği gibi bir köprü listesi biçiminde diğer SharePoint kullanıcıları tarafından kullanılabilir hale gelir:
+### **SharePoint Belge Kitaplıkları Hakkında Kısa bir Not**
+SharePoint sitelerindeki içerikler, "paylaşılan belge kütüphanesi" olarak bilinen merkezi bir konumda paylaşılan belge biçiminde bulunur. Yetkili kullanıcılar, yerel makinalarından SharePoint sitesine belge yükleyebilir. Bu belgeler, SharePoint sitesi tarafından kullanılan bir SQL Server veritabanında ikili biçimde depolanır. Belgeler, diğer SharePoint kullanıcılarına aşağıdaki gibi hiperbağlantı listesi biçiminde sunulur:
 
-**Bir belge kitaplığı** 
+**Bir belge kütüphanesi** 
 
 
 ### **Faydalar**
-Aşağıdaki liste, Aspose.Cells for SharePoint'i kullanmanın birkaç avantajını vurgulamaktadır:
+Aşağıdaki liste, Aspose.Cells for SharePoint'un kullanımının birkaç faydasını vurgular:
 
-- SharePoint site sunucusu, Microsoft Excel dosyalarını doğrudan sunucuda dönüştürmek için yerleşik bir yeteneğe sahip değildir. Aspose.Cells for SharePoint, bu özelliği SharePoint site sunucusuna ekler.
-- Aspose.Cells for SharePoint, Microsoft Excel'in çalışmasını gerektirmez. Sunucuya yüklenir, böylece SharePoint kullanıcıları Microsoft Excel belgelerini bir biçimden diğerine dönüştürmek için yerel sistemlerinde Microsoft Excel'e ihtiyaç duymazlar.
-- Aspose.Cells for SharePoint, SharePoint sitesi oluşturmak için gerekli olanlar dışında herhangi bir ön koşul gerektirmez.
--  Aspose.Cells for SharePoint[bir SharePoint site sunucusunda kurulumu kolay](/cells/tr/sharepoint/installing-aspose-cells-for-sharepoint/).
--  Aspose.Cells for SharePoint destekler[bir dizi giriş ve çıkış formatı](/cells/tr/sharepoint/multiple-format-support/).
-- Aspose.Cells for SharePoint, kendi SharePoint çözümlerini geliştirmesi gereken geliştiriciler için genel bir API'i gösterir.
-### **Microsoft Excel Belgelerini Aspose.Cells for SharePoint İle Dönüştürme**
- Aspose.Cells for SharePoint SharePoint sunucusuna yüklendikten sonra, seçenek**Aspose.Cells.SharePoint ile dönüştürün** bağlam menüsünde mevcuttur:
+- SharePoint sitesi sunucusunun doğrudan Microsoft Excel dosyalarını dönüştürme yeteneği bulunmamaktadır. Aspose.Cells for SharePoint, bu özelliği SharePoint sitesi sunucusuna ekler.
+- Aspose.Cells for SharePoint, Microsoft Excel'in çalışması için gereksinim duymaz. Sunucuya kurulduğu için SharePoint kullanıcılarının, Microsoft Excel'i yerel sistemlerinde kurmalarına gerek yoktur.
+- Aspose.Cells for SharePoint, bir SharePoint sitesi oluşturmak için gerekenler dışında hiçbir önkoşul gerektirmez.
+- Aspose.Cells for SharePoint, bir SharePoint site sunucusuna [kolayca dağıtılabilmektedir](/cells/tr/sharepoint/installing-aspose-cells-for-sharepoint/).
+- Aspose.Cells for SharePoint, [çeşitli giriş ve çıkış formatlarını destekler](/cells/tr/sharepoint/multiple-format-support/).
+- Aspose.Cells for SharePoint, kendi SharePoint çözümlerini geliştirmek isteyen geliştiriciler için genel bir API sunar.
+### **Aspose.Cells for SharePoint ile Microsoft Excel Belgelerini Dönüştürme**
+Aspose.Cells for SharePoint SharePoint sunucusuna kurulduğunda, seçenek **Aspose.Cells.SharePoint ile Dönüştür** bağlam menüsünde bulunur: 
 
-**Şununla Dönüştür... seçeneğini bulma** 
+**Dönüştürme seçeneğini bulma** 
 
-SharePoint belge kitaplığınızdaki bir Microsoft Excel belgesini başka biçimlere dönüştürmek için aşağıdaki adımları izleyin:
+SharePoint belge kütüphanenizdeki bir Microsoft Excel belgesini diğer formatlara dönüştürmek için aşağıdaki adımları izleyin:
 
-1. İstediğiniz Microsoft Excel belgesine tıklayın ve ardından Aspose.Cells for SharePoint ile Dönüştür'e tıklayın
- Dönüştürme Ayarları ekranı görüntülenir.
+1. İstenen Microsoft Excel belgesine tıklayın ve ardından Aspose.Cells for SharePoint ile dönüştür seçeneğine tıklayın.
+   Dönüştürme Ayarları ekranı görüntülenir. 
 
-   **Dönüştürmeye karar vermek** 
-
-
-1. Çıktı biçimini seçin.
- Burada çıktı dosyası adını ve hedef klasörü de değiştirebilirsiniz.
-1.  Tıklamak**Dönüştürmek**. 
-
-   **Çıktı biçimini seçme** 
+   **Dönüştürmeye karar verme** 
 
 
+1. Çıkış formatını seçin.
+   Burada, ayrıca çıkış dosya adını ve hedef klasörü değiştirebilirsiniz.
+1. **Dönüştür**'e tıklayın. 
 
-1.  Dönüştürme tamamlandığında, bir başarı mesajı görüntülenir.
+   **Çıkış formatını seçme** 
+
+
+
+1. Dönüşüm tamamlandığında, başarılı bir mesaj görüntülenir. 
 
    **Başarılı dönüşüm** 
 
 
 
-1.  Tıklamak**Geri dönmek** Belge kitaplığına geri dönmek için.
-1.  Dönüştürülen belge, SharePoint belge kitaplığında listelenir.
+1. Geri dönmek için **Geri**'ye tıklayın, belge kütüphanesine dönersiniz.
+1. Dönüştürülen belge, SharePoint belge kütüphanesinde listelenir. 
 
-   **Dönüştürülen dosya belge kitaplığında listelenir** 
+   **Dönüştürülen dosya belge kütüphanesinde listelenir** 
 
 
 ### **Özet**
 {{% alert color="primary" %}} 
 
-Aspose.Cells for SharePoint kurulumu ve kullanımı kolaydır. Microsoft Excel dosyalarını doğrudan SharePoint sunucusuna dönüştürmek için bir özellik eklemekle kalmaz, aynı zamanda istemci makinelerde Microsoft Excel'in yüklenmesi ihtiyacını da ortadan kaldırır. Ayrıca, geliştiriciler kendi SharePoint çözümlerini geliştirmek için Aspose.Cells for SharePoint'in genel API'ini kullanabilirler.
+Aspose.Cells for SharePoint'un kurulması ve kullanılması kolaydır. Bu, yalnızca SharePoint sunucusunda doğrudan Microsoft Excel dosyalarını dönüştürme özelliği eklemekle kalmaz, aynı zamanda Microsoft Excel'in istemci makinelerine kurulmasına gerek kalmaz. Ayrıca, geliştiriciler Aspose.Cells for SharePoint'un genel API'sini kendi SharePoint çözümlerini geliştirmek için kullanabilirler.
 
-Yani for SharePoint site yöneticileri, geliştiriciler ve son kullanıcılar için faydalıdır.
+Başka bir deyişle, SharePoint site yöneticileri, geliştiriciler ve son kullanıcılar için faydalıdır. 
 
 {{% /alert %}}

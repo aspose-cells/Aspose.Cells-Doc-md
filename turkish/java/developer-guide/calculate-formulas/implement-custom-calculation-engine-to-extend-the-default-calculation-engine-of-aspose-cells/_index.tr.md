@@ -1,34 +1,35 @@
 ---
-title: Aspose.Cells Varsayılan Hesaplama Motorunu genişletmek için Özel Hesaplama Motorunu uygulayın
+title: Aspose.Cells in Varsayılan Hesaplama Motorunu Genişletmek
 type: docs
 weight: 590
 url: /tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells, Microsoft Excel formüllerinin neredeyse tamamını hesaplayabilen güçlü bir hesaplama motoruna sahiptir. Buna rağmen, size daha fazla güç ve esneklik sağlayan varsayılan hesaplama motorunu genişletmenize de olanak tanır.
+Aspose.Cells'in neredeyse tüm Microsoft Excel formüllerini hesaplayabilen güçlü bir hesaplama motoru bulunmaktadır. Bununla birlikte, varsayılan hesaplama motorunu genişletmenize olanak tanır ve size daha fazla güç ve esneklik sağlar.
 
-Bu özelliğin uygulanmasında aşağıdaki özellik ve sınıflar kullanılır.
+Bu özellik uygulamada kullanılan özellik ve sınıflar.
 
 - [CalculationOptions.CustomEngine](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#CustomEngine)
-- [ÖzetHesaplamaMotoru](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)
-- [HesaplamaVerileri](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationData)
+- [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)
+- [CalculationData](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationData)
 
 {{% /alert %}} 
-##  **Özel Hesaplama Motorunu Uygulama**
-Aşağıdaki kod Özel Hesaplama Motorunu uygular. Arayüzü uygular[ÖzetHesaplamaMotoru](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) tek bir yöntemi olan[calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)). Bu yöntem tüm formüllerinize karşı çağrılır. Bu yöntemin içinde şunları yakalarız:**TODAY** işlevini kullanın ve sistem tarihine bir gün ekleyin. Dolayısıyla, geçerli tarih 27/07/2023 ise özel motor TODAY() işlevini 28/07/2023 olarak hesaplayacaktır.
+## **Özel Hesaplama Motorunu Uygulama**
+Aşağıdaki kod özel Hesaplama Motorunu uygular. Yalnızca bir methoda [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)) sahip olan [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) arabirimini uygular. Bu method, bütün formülleriniz üzerinde çağrılır. Bu methodun içinde, **TODAY** fonksiyonunu yakalar ve sistem tarihine bir gün ekler. Bu nedenle, eğer mevcut tarih 27/07/2023 ise, özel motor TODAY() fonksiyonunu 28/07/2023 olarak hesaplayacaktır.
 
-###  **Programlama Örneği**
+### **Programlama Örneği**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementCustomCalculationEngine-ImplementCustomCalculationEngine.java" >}}
 
-###  **Sonuç**
+### **Sonuç**
 
-Lütfen yukarıdaki örnek kodun konsol çıktısını kontrol edin; özel motorla A1'in değeri (tarih saat), özel motor olmadan sonuçtan bir gün sonra olmalıdır.
+Lütfen yukarıdaki örnek kodun konsol çıktısını kontrol edin, özel motor ile A1'in değeri (tarih saati) motor olmadan sonuçtan bir gün sonraki olmalıdır.
 
-###  **İlgili Makale**
+### **İlgili Makale**
 {{% alert color="primary" %}} 
 
-- [Özel işlevin çalışma sayfasına yazmadan doğrudan hesaplanması](/cells/tr/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
+- [Özel işlevin çalışma tablosuna yazılmadan doğrudan hesaplanması](/cells/tr/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}

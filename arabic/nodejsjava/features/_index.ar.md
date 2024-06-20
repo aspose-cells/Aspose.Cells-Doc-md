@@ -1,100 +1,101 @@
-﻿---
-title: سمات
+---
+title: الميزات
 type: docs
 weight: 5
 url: /ar/nodejs-java/features/
-keywords: nodejs, excel, api, feature
-description: Aspose.Cells for Node.js via Java ميزات
+keywords: "nodejs, excel, api, features"
+description: "Aspose.Cells for Node.js via Java ميزات."
 ---
+
 ## **Aspose.Cells for Node.js via Java نظرة عامة على الميزات**
-يقدم هذا القسم مقارنة لتوافر الميزات بين Aspose.Cells for Java و Aspose.Cells for Node.js via Java.
+تقدم هذه القسم مقارنة بتوفر الميزات بين Aspose.Cells for Java و Aspose.Cells for Node.js via Java.
 ### **تنسيقات الملفات والتحويلات**
-يعتمد العديد من العملاء في جميع أنحاء العالم على ميزات استيراد وتصدير المستندات الشاملة التي يوفرها Aspose.Cells.
+يعتمد العديد من العملاء في جميع أنحاء العالم على ميزات الاستيراد والتصدير الشاملة التي يوفرها Aspose.Cells.
 
-|**ميزة**|**وصف**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
-|:- |:- |:- |:- |
-|تحويلات عالية الجودة|تحويل سريع وموثوق بين العديد من تنسيقات المستندات الشائعة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft مصنف Excel (XLS)|تطبيق تنسيق XLS الأسرع والأكثر اكتمالًا الذي يمكنك العثور عليه.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|SpreadsheetML (XLSX ، XML)| يدعم Aspose.Cells OOXML و Flat OPC وأيضًا Excel 2003 XML. علاوة على ذلك،<br>يدعم المكون جميع تنسيقات ملفات Excel 2007 والإصدارات الأحدث مثل XLSX و XLTX و XLSM و XLTM إلخ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|قيمة مفصولة بفاصلة (CSV)|دعم شامل للتنسيق CSV للتفاعل مع مجموعة متنوعة من التطبيقات.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|حفظ باسم HTML متاح.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|OpenDocument (ODS)|يمكن Aspose.Cells تحميل وحفظ الوثائق بتنسيق OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تنسيق المستندات المحمولة من Adobe (PDF)|قم بتحويل أي جدول بيانات إلى PDF بدقة عالية.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|علامة التبويب محدد|قم بتحميل وحفظ المستندات بتنسيق ملف محدد بعلامات جدولة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|نص عادي (TXT)|استخرج النص بسهولة عن طريق الحفظ بتنسيق نص عادي.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **التقديم والطباعة**
-يوفر Aspose.Cells الآن تصيير عالي الدقة لصفحات جداول البيانات.
+|**الميزة**|**الوصف**|**Aspose.Cells for Java**|**Aspose.Cells ل Node.js via Java**|
+| :- | :- | :- | :- |
+|تحويل ذو جودة عالية|قم بتحويل بين عدة تنسيقات مستندات شائعة بسرعة وبشكل موثوق.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|مصنف Microsoft Excel (XLS)|أسرع وأكثر تنفيذًا لتنسيق XLS يمكنك العثور عليه.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX، XML)|تدعم Aspose.Cells OOXML، Flat OPC وأيضًا Excel 2003 XML. علاوة على ذلك، تدعم المكون جميع تنسيقات ملفات إكسل الرئيسية مثل XLSX، XLTX، XLSM، XLTM إلخ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|القيم المفصولة بفاصلة (CSV)|دعم شامل لتنسيق CSV للتفاعل مع مجموعة متنوعة من التطبيقات.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|حفظ كصيغة HTML متاح.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|OpenDocument (ODS)|يمكن لـ Aspose.Cells تحميل وحفظ المستندات في تنسيق ورقة البيانات OpenDocument (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تنسيق مستند الأكروبات المحمولة (PDF)|تحويل أي جدول بيانات إلى PDF بدقة عالية.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|محددة المواقع|تحميل وحفظ المستندات في تنسيق ملف البيانات المحدد.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|نص عادي (TXT)|استخراج النص بسهولة عن طريق الحفظ بتنسيق نص عادي.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **تقديم وطباعة**
+توفر Aspose.Cells الآن تقديمًا ذو دقة عالية لصفحات جداول البيانات.
 
-|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
-|:- |:- |:- |
-|تخطيط المستند إلى صفحات بدقة عالية إلى Microsoft Excel® (تمامًا مثل Microsoft Excel® سيفعل ذلك).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|عرض صفحات ورقة العمل على الصور النقطية (PNG ، JPEG ، إلخ).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تقديم صفحات ورقة العمل إلى صور نقطية (Multipage TIFF، GIF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تقديم صفحات جداول البيانات إلى صور متجهة (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|حدد دقة الصورة والجودة والضغط والخيارات الأخرى.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|طباعة صفحات جداول البيانات باستخدام البنية الأساسية للطباعة Java.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|قم بتحديث أرقام الصفحات والحقول الأخرى قبل التقديم أو الطباعة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **ميزات محتوى جدول البيانات**
-يوفر Aspose.Cells نموذجًا غنيًا للعناصر يتكون من أكثر من 100 فئة / واجهة عامة ، والتي تتيح لك إنشاء جداول البيانات المحملة أو دمجها أو تعديلها أو تحليلها أو فحصها بطريقة برمجية. يتم إعطاء بعض الميزات الرئيسية في الجدول أدناه.
+|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells لـ Node.js via Java**|
+| :- | :- | :- |
+|تخطيط المستند في صفحات بدقة عالية تمامًا كما يفعل Microsoft Excel® (بالضبط مثلما يفعل Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تقديم صفحات ورقة البيانات إلى صور بكثافة البكسل (PNG، JPEG، إلخ).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تقديم صفحات ورقة البيانات إلى صور بكثافة البكسل (الصور المتحركة TIFF متعددة الصفحات، GIF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تقديم صفحات جدول البيانات إلى صور متجهية (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|حدد دقة الصورة ، الجودة ، الضغط وخيارات أخرى.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|طباعة صفحات جداول البيانات باستخدام البنية التحتية للطباعة في جافا.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|تحديث أرقام الصفحات وحقول أخرى قبل التقديم أو الطباعة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **ميزات محتوى جداول البيانات**
+يوفر Aspose.Cells نموذج كائن غني يتكون من أكثر من 100 فئة / واجهة عمومية ، تتيح لك إنشاء الجداول الإلكترونية ، تجميعها ، تعديلها ، تحليلها أو فحصها برمجيًا أو بطرق أخرى. يتم تقديم بعض الميزات الرئيسية في الجدول أدناه.
 
-|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
-|:- |:- |:- |
-|استيراد / تصدير البيانات من Array و ArrayList و ResultSet وما إلى ذلك.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|أضف نسخة من ورقة العمل الموجودة (جميع المحتويات بما في ذلك الصور والمخططات والكائنات الأخرى وما إلى ذلك)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|انسخ أوراق العمل أو انقلها داخل المصنفات أو بينها|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|أدخل الصور|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells لـ Node.js via Java**|
+| :- | :- | :- |
+|استيراد/تصدير البيانات من مصفوفة ، ArrayList ، ResultSet الخ.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|إضافة نسخة من ورقة العمل الحالية (جميع المحتويات بما في ذلك الصور ، والرسوم البيانية ، والكائنات الأخرى الخ.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|نسخ أو نقل الأوراق العمل داخل أو بين مصنفات العمل|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|إدراج الصور|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |إنشاء الرسوم البيانية|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تعيين خلفية متدرجة للمخططات باستخدام API|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|أضف التعليقات إلى الخلايا|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft سمات وألوان برنامج Excel 2007 والإصدارات الأحدث|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|إنشاء مرشحات تلقائية|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تنفيذ عمليات التحقق من صحة البيانات|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تعيين خلفية التدرج للرسوم البيانية باستخدام واجهة برمجة التطبيقات|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|إضافة تعليقات إلى الخلايا|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|موضوعات وألوان Microsoft Excel 2007 والإصدارات اللاحقة|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|إنشاء عوامل تصفية تلقائية|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تنفيذ التحقق من البيانات|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |تنفيذ فرز البيانات|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|بحث واستبدال النص|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|دمج / تقسيم Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تجميع / فك تجميع الصفوف والأعمدة|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|إنشاء فواصل صفحات مخصصة|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|العثور واستبدال النص|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|دمج/تقسيم الخلايا|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تجميع/فك تجميع الصفوف والأعمدة|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|إنشاء فواصل صفحات مخصصة| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 |إدراج / حذف أو إخفاء الصفوف والأعمدة والأوراق|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|احسب صيغ Excel المعقدة|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|دعم التنسيق الشرطي المتقدم المعتمد في Microsoft Excel 2007 والإصدارات الأحدث|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تجميد / إلغاء تجميد الأجزاء|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|أدخل ارتباطات تشعبية لربط البيانات|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تطبيق العلامات الذكية|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|حدد إعدادات خصائص الوثيقة|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|حماية / عدم حماية أوراق العمل|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|حدد خيارات الحماية المتقدمة المقدمة في Excel XP والإصدارات الأحدث|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|إنشاء كائن قائمة / جداول إكسل Microsoft|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|إنشاء المجاميع الفرعية|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|قم بإدراج عناصر تحكم النموذج والأشكال / الكائنات الرسومية الأخرى|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|إنشاء جداول محورية ومخططات محورية|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|الاحتفاظ بوحدات الماكرو الإضافية أو VBA أو وحدات الماكرو أو إزالتها|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|معالجة النطاقات المسماة|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|إنشاء مخططات مخصصة|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|إضافة أو الاحتفاظ أو استخراج كائنات OLE من جداول البيانات.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تنفيذ خطوط المؤشرات|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تشفير الملفات|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|حساب صيغ Excel المعقدة| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|دعم التنسيق المشروط المتقدم المدعوم في Microsoft Excel 2007 والإصدارات الأحدث| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|تجميد/إلغاء تجميد الألواح| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|إدراج روابط تشعبية لربط البيانات| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|تنفيذ العلامات الذكية| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|تحديد إعدادات خصائص المستند| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|حماية/إلغاء حماية الأوراق العمل| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|تحديد خيارات الحماية المتقدمة المقدمة في Excel XP والإصدارات الأحدث| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|إنشاء كائن قائمة/جداول Microsoft Excel| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|إنشاء مجاميع فرعية| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|إدراج عناصر التحكم في النموذج وأشكال/أجسام رسم أخرى| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|إنشاء جداول محورية ورسم بياني محوري| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|الحفاظ على أو إزالة الإضافة، VBA، البرمجيات النصية| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|التلاعب بالنطاقات المسماة| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|إنشاء رسوم بيانية مخصصة| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|إضافة، الحفاظ على أو استخراج الكائنات OLE من الجداول الإلكترونية.| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|تنفيذ خطوط الشرارة| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+|تشفير الملفات| {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 ### **ميزات تنسيق جدول البيانات**
-يوفر Aspose.Cells وصول برمجي مفصل لخصائص التنسيق لكل عناصر جدول البيانات.
+يوفر Aspose.Cells وصولاً برمجيًا مفصلاً إلى خصائص التنسيق لجميع عناصر جدول البيانات.
 
-|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
-|:- |:- |:- |
-|قم بتطبيق جميع تنسيق الأحرف في الخلايا بما في ذلك الخطوط والألوان والتأثيرات والحدود والتظليل.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|قم بتطبيق كافة إعدادات تنسيق الأرقام (المدعومة في Microsoft Excel) للخلايا.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|قم بتعيين كافة أنواع إعدادات محاذاة النص.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|قم بتطبيق أنواع مختلفة من إعدادات الخط للخلايا.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|قم بتطبيق ألوان مختلفة على الخلايا والخطوط وخطوط الشبكة والكائنات الرسومية وما إلى ذلك.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تطبيق تنسيق نص منسق مختلف في خلية واحدة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells لـ Node.js via Java**|
+| :- | :- | :- |
+|تطبيق جميع تنسيقات الأحرف في الخلايا بما في ذلك الخطوط والألوان والتأثيرات والحدود والتظليل.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تطبيق جميع إعدادات تنسيق الأرقام (المدعومة في Microsoft Excel) للخلايا.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تعيين جميع أنواع إعدادات محاذاة النص.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تطبيق أنواع مختلفة من إعدادات الخط للخلايا.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تطبيق ألوان مختلفة على الخلايا، الخطوط، خطوط الشبكة، الكائنات الرسومية الخ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تطبيق تنسيق نص غني مختلف في خلية واحدة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |تطبيق إعدادات حدود مختلفة على الخلايا.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|قم بتطبيق أنماط خلفية مختلفة على الخلايا.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|قم بتطبيق إعدادات التنسيق على ورقة عمل أو صف أو عمود أو نطاق من الخلايا ، إلخ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **ميزات PageSetup**
-يمكنك استخدام Aspose.Cells لتنفيذ خيارات إعداد الصفحة لأوراق العمل.
+|تطبيق أنماط خلفية مختلفة على الخلايا.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تطبيق إعدادات التنسيق على ورقة عمل أو صف أو عمود أو نطاق من الخلايا، الخ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **ميزات إعداد الصفحة**
+يمكنك استخدام Aspose.Cells لتنفيذ خيارات إعداد الصفحة لورقات البيانات.
 
-|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
-|:- |:- |:- |
-|اضبط اتجاه صفحتك ، والقياس ، وحجم الورق.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|حدد الهوامش وتوسيط الصفحة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|قم بإنشاء أو تحرير الرأس و / أو التذييل.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|قم بتعيين منطقة الطباعة أو طباعة العناوين أو تشغيل خطوط الشبكة وما إلى ذلك.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**ميزة**|**Aspose.Cells for Java**|**Aspose.Cells لـ Node.js via Java**|
+| :- | :- | :- |
+|ضبط توجيه الصفحة، وتحجيمها، وحجم الورق.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تحديد الهوامش الخاصة بك وتوسيط الصفحة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|إنشاء أو تحرير رأس و/أو تذييل الصفحة الخاصة بك.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تعيين منطقة الطباعة، وأعناون الطباعة، أو تشغيل خطوط الشبكة الخ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 

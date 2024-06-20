@@ -1,12 +1,13 @@
-﻿---
+---
 title: Prestanda
 type: docs
 weight: 30
 url: /sv/reportingservices/performance/
 ---
- För att förbättra prestandan, ställ in parametern Performance till**PÅ**.
 
-{{< highlight "java" >}}
+För att förbättra prestandan, sätt parametern Prestanda till **PÅ**.
+
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -26,11 +27,11 @@ url: /sv/reportingservices/performance/
 
 {{< /highlight >}}
 
-De olika prestandaparametrarna är följande:
+De olika prestanda parametrarna är följande:
 
-- **LimitCellsNumberForMerged** : det maximala antalet celler som kan slås samman. Standardvärdet 1 000 000. Parametervärdet ställs in av användaren och påverkas inte av prestandaparameteromkopplaren.
+- **LimitCellsNumberForMerged**: det maximala antalet celler som kan sammanslås. Standardvärdet är 1 000 000. Parametervärdet sätts av användaren och påverkas inte av prestandaparameterns växling. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -39,9 +40,9 @@ De olika prestandaparametrarna är följande:
 
 
 
-- **IsAutoRowFit** : När värdet på Performance är**av** , värdet på IsAutoRowFit är**falsk** som standard. När värdet på prestandaparametern är**på** , värdet är**Sann** som standard. När värdet av Performance är**på** , kan en underelementrapport återställa punktrapporten till AutoRowFit-värdet.
+- **IsAutoRowFit**: När värdet för prestanda är **av**, är standardvärdet för IsAutoRowFit **falskt**. När värdet för prestandaparametern är **på**, är värdet **sant** som standard. När värdet för prestanda är **på** kan en underliggande elementrapport återställa punktrapport till AutoRowFit-värdet. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -64,9 +65,9 @@ De olika prestandaparametrarna är följande:
 
 
 
-- **IsMerged** : När värdet på Performance är**av** , IsMerged standardvärde är**falsk** . När värdet av Performance är**på** , är standardvärdet**Sann** . När värdet Performance parameter är**på** , kan en underelementrapport återställa punktrapporten till AutoRowFit-värdet.
+- **IsMerged**: När värdet för prestanda är **av**, är standardvärdet för IsMerged **falskt**. När värdet för prestanda är **på**, är standardvärdet **sant**. När prestandaparameterns värde är **på**, kan en underliggande elementrapport återställa punktrapporten till AutoRowFit-värdet. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -89,9 +90,9 @@ De olika prestandaparametrarna är följande:
 
 
 
-- **IsSetStyle** : När värdet på Performance är**av** , är standardvärdet**falsk** . När Performance är**på** , är standardvärdet**Sann** . Också när Performance är**på** , kan en underelementrapport återställa punktrapporten till AutoRowFit-värdet.
+- **IsSetStyle**: När värdet för prestanda är **av**, är standardvärdet **falskt**. När prestanda är **på**, är standardvärdet **sant**. Dessutom kan när prestanda är **på** en underliggande elementrapport återställa punktrapporten till AutoRowFit-värdet. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -114,9 +115,9 @@ De olika prestandaparametrarna är följande:
 
 
 
-- **IsConditionalFormatting** : När Performance är**av** , är standardvärdet**falsk** . När Performance är**på** , är standardvärdet**Sann** . Också när Performance är**på** , kan en underelementrapport återställa punktrapporten till AutoRowFit-värdet. När parametervärdet IsSetStyle är inställt på**falsk** , värdet på Performance är ogiltigt.
+- **IsConditionalFormatting**: När Prestanda är **av**, är standardvärdet **falskt**. När Prestanda är **på**, är standardvärdet **sant**. Dessutom kan när Prestanda är **på** en underliggande elementrapport återställa punktrapporten till AutoRowFit-värdet. När IsSetStyle parameter värdet är satt till **falskt**, är värdet för Prestanda ogiltigt. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

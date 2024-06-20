@@ -1,18 +1,19 @@
-﻿---
-title: Rango de impresión de páginas usando SheetRender y WorkbookRender
+---
+title: Impresión de rango de páginas usando SheetRender y WorkbookRender
 type: docs
 weight: 250
 url: /es/net/printing-range-of-pages-using-sheetrender-and-workbookrender/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel le permite imprimir un rango de páginas de un libro o una hoja de trabajo. La siguiente captura de pantalla muestra la interfaz de Excel Microsoft para especificar el rango de páginas.
+Microsoft Excel te permite imprimir un rango de páginas de un libro o una hoja de trabajo. La siguiente captura de pantalla muestra la interfaz de Microsoft Excel para especificar el rango de páginas.
 
-Aspose.Cells proporciona los métodos WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) y SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) para este propósito.
+Aspose.Cells proporciona los métodos WorkbookRender.ToPrinter (string PrinterName, int PrintPageIndex, int PrintPageCount) y SheetRender.TePrinter (string PrinterName, int PrintPageIndex, int PrintPageCount) con este propósito.
 
 {{% /alert %}} 
-## **Microsoft Interfaz de Excel para especificar el rango de páginas para imprimir**
-El siguiente código de ejemplo ilustra el uso de los métodos WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) y SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount). Imprime las páginas 2-5 del libro de trabajo y la hoja de trabajo.
+## **Interfaz de Microsoft Excel para especificar el rango de páginas a imprimir**
+El siguiente código de ejemplo ilustra el uso de los métodos WorkbookRender.ToPrinter (string PrinterName, int PrintPageIndex, int PrintPageCount) y SheetRender.ToPrinter (string PrinterName, int PrintPageIndex, int PrintPageCount). Imprime las páginas 2-5 del libro y la hoja de trabajo.
 
 
 

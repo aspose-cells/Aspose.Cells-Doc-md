@@ -1,15 +1,16 @@
-﻿---
-title: Rimuovere la protezione di un foglio di lavoro in Ruby
+---
+title: Sblocca un foglio di lavoro in Ruby
 type: docs
 weight: 20
 url: /it/java/unprotect-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells - Rimuovere la protezione di un foglio di lavoro**
- Per proteggere il foglio di lavoro utilizzando**Aspose.Cells Java per Rubino** , chiamata**unprotect_worksheet** metodo di**protezione** modulo.
 
-**Codice Rubino**
+## **Aspose.Cells - Sbloccare un foglio di lavoro**
+Per proteggere il foglio di lavoro utilizzando **Aspose.Cells Java per Ruby**, chiama il metodo **unprotect_worksheet** del modulo **protection**.
 
-{{< highlight "ruby" >}}
+**Codice Ruby**
+
+{{< highlight ruby >}}
 
  def unprotect_worksheet()
 
@@ -55,6 +56,6 @@ end   
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Rimuovere la protezione di un foglio di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Sbloccare un foglio di lavoro (Aspose.Cells)** da uno dei siti di codice sociale di seguito indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

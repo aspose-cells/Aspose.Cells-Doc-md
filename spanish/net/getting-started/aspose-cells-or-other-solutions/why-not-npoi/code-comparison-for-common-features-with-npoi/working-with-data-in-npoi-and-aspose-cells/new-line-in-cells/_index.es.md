@@ -1,17 +1,18 @@
-﻿---
-title: Nueva Linea en Cells
+---
+title: Nueva línea en celdas
 type: docs
 weight: 30
 url: /es/net/new-line-in-cells/
 ---
-## **Aspose.Cells - Nueva Línea en Cells**
-Para garantizar que se pueda leer el texto de una celda, se pueden aplicar saltos de línea explícitos y ajuste de texto. El ajuste de texto convierte una línea en varias en una celda, cuyos saltos de línea explícitos los colocan exactamente donde los desea.
 
-Para ajustar texto en una celda, use la propiedad Aspose.Cells.Style.IsTextWrapped.
+## **Aspose.Cells - Nueva línea en celdas**
+Para asegurarse de que el texto en una celda se pueda leer, se pueden aplicar saltos de línea explícitos y ajuste de texto. El ajuste de texto convierte una línea en varias en una celda, mientras que los saltos de línea explícitos se colocan exactamente donde se desean.
+
+Para ajustar texto en una celda, usa la propiedad Aspose.Cells.Style.IsTextWrapped.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -34,12 +35,12 @@ sheet.Cells[2, 2].SetStyle(style);
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Nueva línea en Cells**
-CellStyle.setWrapText debe ser verdadero para el texto ajustado.
+## **NPOI - HSSF XSSF - Nueva línea en celdas**
+CellStyle.setWrapText debe ser verdadero para texto ajustado.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -66,13 +67,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Nueva Linea en Cells** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Nueva línea en celdas** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Saltos de línea y ajuste de texto](/cells/es/net/line-breaks-and-text-wrapping/).
+Para más detalles, visita [Saltos de línea y ajuste de texto](/cells/es/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}

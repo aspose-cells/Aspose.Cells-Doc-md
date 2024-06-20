@@ -1,28 +1,29 @@
-﻿---
+---
 title: Imprimir hojas de cálculo
 type: docs
 weight: 20
 url: /es/net/print-spreadsheets/
 ---
-Los ajustes de configuración de página también proporcionan varias opciones de impresión (también denominadas opciones de hoja) que permiten a los usuarios controlar las páginas impresas de las hojas de trabajo. Estas opciones de impresión permiten a los usuarios:
 
-- Seleccione un área de impresión específica de la hoja de trabajo
+La configuración de la página también proporciona varias Opciones de impresión (también llamadas Opciones de hoja) que permiten a los usuarios controlar las páginas impresas de sus hojas de cálculo. Estas opciones de impresión permiten a los usuarios:
+
+- Seleccionar un área de impresión específica de la hoja de cálculo
 - Imprimir títulos
 - Imprimir líneas de cuadrícula
 - Imprimir encabezados de fila/columna
 - Lograr calidad de borrador
 - Imprimir comentarios
-- Imprimir Cell Errores
+- Imprimir errores de celda
 - Definir el orden de las páginas
-  **Configuración de las opciones de impresión/hoja**
+  **Configuración de Opciones de Impresión/Hoja**
 
-Aspose.Cells admite todas estas opciones de impresión y los desarrolladores pueden configurar fácilmente estas opciones para sus hojas de trabajo deseadas utilizando las diversas propiedades que ofrece la clase PageSetup. El uso de estas propiedades de la clase PageSetup se analiza a continuación con más detalle.
-## **Establecer área de impresión**
-De forma predeterminada, solo se selecciona el área de impresión que incorpora toda el área de la hoja de trabajo, que contiene datos, pero los desarrolladores también pueden establecer un área de impresión específica de la hoja de trabajo según su deseo.
+Aspose.Cells admite todas estas opciones de impresión y los desarrolladores pueden configurar fácilmente estas opciones para sus hojas de cálculo deseadas utilizando las diversas propiedades ofrecidas por la clase PageSetup. El uso de estas propiedades de la clase PageSetup se discute a continuación con más detalle.
+## **Establecer Área de Impresión**
+Por defecto, solo se selecciona el área de impresión que incorpora todo el área de la hoja de cálculo que contiene datos, pero los desarrolladores también pueden establecer un área de impresión específica de la hoja según su deseo.
 
- Para seleccionar un área de impresión específica, los desarrolladores pueden usar set**Área de impresión** metodo de la**Configuración de página** clase. Puede proporcionar el rango de celdas del área de impresión a este método como argumento.
+Para seleccionar un área de impresión específica, los desarrolladores pueden utilizar el método **setPrintArea** de la clase **PageSetup**. Puedes proporcionar el rango de celdas del área de impresión a este método como argumento.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -38,12 +39,12 @@ pageSetup.PrintArea = "A1:T35";
 
 
 {{< /highlight >}}
-## **Establecer títulos de impresión**
- Aspose.Cells le permite designar encabezados de fila y columna que desea que se repitan en todas las páginas de su hoja de trabajo impresa. Para hacerlo, los desarrolladores pueden usar set**ImprimirTítuloColumnas** y**setPrintTitleRows** métodos de la**Configuración de página** clase.
+## **Establecer Títulos de Impresión**
+Aspose.Cells te permite designar los encabezados de fila y columna que quieres que se repitan en todas las páginas de tu hoja de cálculo impresa. Para hacerlo, los desarrolladores pueden utilizar los métodos **setPrintTitleColumns** y **setPrintTitleRows** de la clase **PageSetup**.
 
-Las filas o columnas (que se repetirán en todas las páginas de la hoja de trabajo impresa) se definen pasando sus números de fila o columna. Por ejemplo, las filas se definen como \ $1: \ $2 y las columnas se definen como \ $A: \ $B.
+Las filas o columnas (que se repetirán en todas las páginas de la hoja de cálculo impresa) se definen pasando sus números de fila o columna. Por ejemplo, las filas se definen como \ $1: \ $2 y las columnas se definen como \ $A: \ $B.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -62,19 +63,19 @@ pageSetup.PrintTitleColumns = "$A:$B";
 pageSetup.PrintTitleRows = "$1:$2";
 
 {{< /highlight >}}
-## **Establecer otras opciones de impresión**
-**Configuración de página** La clase también proporciona varios otros métodos para configurar las opciones generales de impresión de la siguiente manera:
+## **Establecer Otras Opciones de Impresión**
+La clase **PageSetup** también proporciona varios otros métodos para establecer opciones generales de impresión de la siguiente manera:
 
-- **método setPrintGridline s** , se pasa un parámetro booleano a este método que define si imprimir o no las líneas de cuadrícula
-- **método setPrintHeadings** se pasa un parámetro booleano a este método que define si imprimir encabezados de fila y columna o no
-- **método setBlackAndWhite** , se pasa un parámetro booleano a este método que define si imprimir la hoja de trabajo en modo blanco y negro o no
-- **método setPrintComments** , define si mostrar los comentarios de impresión en la hoja de trabajo o al final de la hoja de trabajo
-- **método setPrintDraft** , se pasa un parámetro booleano a este método que define si imprimir la hoja de trabajo en calidad de borrador o no
-- **método setPrintErrors** , define si imprimir los errores de celda como se muestra, en blanco, guión o N/A
+- **método setPrintGridline s**, se pasa un parámetro booleano a este método que define si imprimir o no las líneas de cuadrícula
+- **método setPrintHeadings**, se pasa un parámetro booleano a este método que define si imprimir o no los encabezados de fila y columna
+- **método setBlackAndWhite**, se pasa un parámetro booleano a este método que define si imprimir la hoja de cálculo en modo blanco y negro o no
+- **método setPrintComments**, define si mostrar los comentarios de impresión en la hoja de cálculo o al final de la hoja de cálculo
+- **método setPrintDraft**, se pasa un parámetro booleano a este método que define si imprimir la hoja de cálculo en calidad de borrador o no
+- **método setPrintErrors**, define si imprimir errores de celda tal como se muestran, en blanco, guion o N/A
 
- Para usar conjunto**ImprimirComentarios** y establecer**Errores de impresión** métodos, Aspose.Cells también proporciona dos enumeraciones, PrintCommentsType y PrintErrorsType que contienen valores predefinidos que se pasan a parámetros para configurar los métodos PrintComments y PrintErrors respectivamente.
+Para utilizar los métodos **setPrintComments** y **setPrintErrors**, Aspose.Cells también proporciona dos enumeraciones, PrintCommentsType y PrintErrorsType que contienen valores predefinidos para ser pasados como parámetros a los métodos setPrintComments y setPrintErrors respectivamente.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -109,14 +110,14 @@ pageSetup.PrintDraft = true;
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
 
 {{< /highlight >}}
-## **Establecer orden de página**
-**Configuración de página**La clase proporciona un método de orden establecido que se usa para ordenar que se impriman varias páginas de su hoja de trabajo. Hay dos posibilidades para ordenar las páginas de la siguiente manera:
+## **Establecer Orden de Páginas**
+La clase **PageSetup** proporciona el método set Order que se utiliza para ordenar las múltiples páginas de tu hoja de cálculo a imprimir. Hay dos posibilidades para ordenar las páginas de la siguiente manera:
 
-Abajo y luego encima, por lo tanto, imprimirá todas las páginas hacia abajo antes de imprimir las páginas hacia la derecha.
-Luego hacia abajo, imprimirá las páginas de izquierda a derecha antes de imprimir las páginas a continuación.
-Aspose.Cells proporciona una enumeración, PrintOrderType, que contiene todos los tipos de pedidos predefinidos que se asignarán al método setPage Order.
+Primero abajo y luego a la derecha, por lo que imprimirá todas las páginas hacia abajo antes de imprimir las páginas hacia la derecha
+Primero de arriba abajo, luego se imprimirán las páginas de izquierda a derecha antes de imprimir las páginas debajo
+Aspose.Cells proporciona una enumeración, PrintOrderType, que contiene todos los tipos de orden predefinidos para asignar al método setPage Order.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -131,6 +132,6 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 pageSetup.Order = PrintOrderType.OverThenDown;
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Print%20Spreadsheet%20with%20Options%20%28Aspose.Cells%29.zip)

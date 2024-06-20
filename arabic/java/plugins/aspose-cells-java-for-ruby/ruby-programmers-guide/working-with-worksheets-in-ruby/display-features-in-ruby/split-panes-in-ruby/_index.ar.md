@@ -1,15 +1,16 @@
-﻿---
+---
 title: تقسيم الألواح في روبي
 type: docs
 weight: 80
 url: /ar/java/split-panes-in-ruby/
 ---
-## **Aspose.Cells - تقسيم الأجزاء**
- لتقسيم الأجزاء باستخدام**Aspose.Cells Java لروبي** ، ببساطة استدعاء**SplitPanes** وحدة.
 
-**كود روبي**
+## **Aspose.Cells - تقسيم الألواح**
+لتقسيم الألواح باستخدام **Aspose.Cells Java for Ruby**، قم ببساطة بدعوة الوحدة **SplitPanes**.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -32,7 +33,7 @@ workbook.save(data_dir + "SplitPanes output.xls")
 puts "Panes split successfully."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**تقسيم الأجزاء (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **تقسيم الألواح (Aspose.Cells)** من أي من مواقع الترميز الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/splitpanes.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/splitpanes.rb)

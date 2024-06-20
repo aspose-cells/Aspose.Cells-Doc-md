@@ -1,14 +1,15 @@
-﻿---
-title: 区切り記号
+---
+title: デリミタ
 type: docs
 weight: 20
 url: /ja/reportingservices/delimiters/
 ---
-Aspose.Cells for Reporting Services は、TXT または CSV 形式をレンダリングするときに指定された区切り文字をサポートします。 2 つの設定で、Aspose.Cells for Reporting Services のフィールド区切り文字を制御します。
 
-1. のフィールド区切り文字パラメーター**rsreportserver.config**指定された表示拡張機能のみを制御できます。
+Aspose.Cells for Reporting Services は TXT や CSV フォーマットでの指定されたデリミタのサポートを提供します。Aspose.Cells for Reporting Services では、2つの設定が Aspose.Cells for Reporting Services のフィールドデリミタを制御します。
 
-{{< highlight "java" >}}
+1. **rsreportserver.config** のフィールドデリミタパラメータは特定のレンダリング拡張子を制御できます。 
+
+{{< highlight java >}}
 
  <Extension Name="ACTXT" Type="Aspose.Cells.ReportingServices.TabDelimitedRenderer,Aspose.Cells.ReportingServices" >
 
@@ -64,9 +65,9 @@ Specified field delimiters configuration reference:
 
 
 
-1. のフィールド区切り文字パラメーター**Aspose.Cells.ReportingServices.xml** TXT タイプのレンダリング拡張機能をすべて制御できます。
+1. **Aspose.Cells.ReportingServices.xml** のフィールドデリミタパラメータはすべての TXT 型のレンダリング拡張子を制御できます。 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 
 
@@ -87,4 +88,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
-のフィールド区切り文字パラメーター**rsreportserver.config**のフィールド区切り文字パラメーターよりも優先されます。**Aspose.Cells.ReportingServices.xml** .フィールド区切りパラメータが**rsreportserver.config**null またはデフォルト値、フィールド区切り文字パラメータ**Aspose.Cells.ReportingServices.xml**使用されている。
+**rsreportserver.config**のフィールド区切り記号パラメーターは、**Aspose.Cells.ReportingServices.xml**のフィールド区切り記号パラメーターよりも優先されます。**rsreportserver.config**のフィールド区切り記号パラメーターがnullまたはデフォルト値の場合、**Aspose.Cells.ReportingServices.xml**のフィールド区切り記号パラメーターが使用されます。

@@ -1,22 +1,23 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.8.3
+---
+title: Cambios en la API pública en Aspose.Cells 8.8.3
 type: docs
 weight: 300
 url: /es/java/public-api-changes-in-aspose-cells-8-8-3/
 ---
+
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.Cells API de la versión 8.8.2 a la 8.8.3 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, clases agregadas y eliminadas, etc., sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.8.2 a la 8.8.3 que pueden interesar a los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, clases agregadas y eliminadas, etc., sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Compatibilidad con controles ActiveX**
-Aspose.Cells for Java 8.8.3 ha expuesto el método addActiveXControl que permite agregar un control ActiveX a ShapeCollection. El método mencionado requiere 7 parámetros para especificar el tipo de control, la ubicación para colocar el control y el tamaño del control. El tipo se puede especificar mediante la enumeración ControlType con los siguientes valores posibles.
+## **APIs Añadidas**
+### **Soporte para controles ActiveX**
+Aspose.Cells for Java 8.8.3 ha expuesto el método addActiveXControl que permite agregar un control ActiveX a ShapeCollection. El mencionado método requiere 7 parámetros para especificar el tipo de control, la ubicación para colocar el control y el tamaño del control. El tipo se puede especificar utilizando la enumeración ControlType con los siguientes valores posibles.
 
 1. ControlType.CHECK_BOX
 1. ControlType.COMBO_BOX
 1. ControlType.COMMAND_BUTTON
-1. ControlType.IMAGEN
+1. ControlType.IMAGE
 1. ControlType.LABEL
 1. ControlType.LIST_BOX
 1. ControlType.RADIO_BUTTON
@@ -28,15 +29,15 @@ Aspose.Cells for Java 8.8.3 ha expuesto el método addActiveXControl que permite
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Adición de controles ActiveX a la hoja de trabajo](/cells/es/java/add-activex-controls-using-aspose-cells/).
+Para obtener más detalles sobre esta característica, revise el artículo detallado sobre [Agregar controles ActiveX a la hoja de cálculo](/cells/es/java/add-activex-controls-using-aspose-cells/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -61,20 +62,20 @@ control.setLinkedCell("A1");
 book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **Se agregó el método LoadOptions.setPaperSize**
-Aspose.Cells for Java 8.8.3 permite establecer el tamaño de papel de impresión predeterminado a partir de la configuración predeterminada de la impresora mientras se usa el método LoadOptions.setPaperSize recientemente expuesto, como se muestra a continuación. Tenga en cuenta que el parámetro de entrada del método mencionado anteriormente es el valor de la enumeración PaperSizeType que contiene los tamaños de papel predefinidos.
+### **Agregado método LoadOptions.setPaperSize**
+Aspose.Cells for Java 8.8.3 permite configurar el tamaño de papel de impresión predeterminado desde la configuración de la impresora predeterminada al utilizar el método recién expuesto LoadOptions.setPaperSize como se muestra a continuación. Tenga en cuenta que el parámetro de entrada al método mencionado es el valor de la enumeración PaperSizeType que contiene los tamaños de papel predefinidos.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Cargar hojas de cálculo con el tamaño de papel especificado](/cells/es/java/load-workbook-with-specified-printer-paper-size/).
+Para obtener más detalles sobre esta característica, revise el artículo detallado sobre [Cargar hojas de cálculo con un tamaño de papel especificado](/cells/es/java/load-workbook-with-specified-printer-paper-size/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions
 
@@ -89,12 +90,12 @@ loadOptions.setPaperSize(PaperSizeType.PAPER_A_4);
 Workbook book = new Workbook(dir + "input.xlsx", loadOptions);
 
 {{< /highlight >}}
-### **Se agregó el método Cell.getCharacters (bandera)**
-Las API Aspose.Cells permiten obtener los objetos de caracteres en forma de matriz FontSetting utilizando el método Cell.getCharacters. Con esta versión, Aspose.Cells for Java API ha expuesto una versión sobrecargada de Cell.getCharacters que podría aceptar Boolean como parámetro, indicando si el estilo de tabla debe aplicarse en la celda si la celda es parte de ListObject.
+### **Añadido método Cell.getCharacters(flag)**
+Las APIs de Aspose.Cells permiten obtener los objetos de caracteres en forma de matriz de FontSetting utilizando el método Cell.getCharacters. Con esta versión, la API Aspose.Cells for Java ha expuesto una versión sobrecargada de Cell.getCharacters que podría aceptar un Boolean como parámetro, indicando si se debe aplicar el estilo de tabla en la celda si la celda es parte de un ListObject.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -116,23 +117,23 @@ Cell cell = cells.get("A1");
 
 //Get all Characters objects from the cell
 
-FontSetting[]characters = cell.getCharacters(true);
+FontSetting[] characters = cell.getCharacters(true);
 
 {{< /highlight >}}
-### **Se agregó la propiedad OleObject.AutoLoad**
-Aspose.Cells for Java 8.8.3 ha expuesto la propiedad OleObject.AutoLoad que permite actualizar la imagen de OleObject si se han cambiado los contenidos/datos del objeto subyacente. La propiedad mencionada anteriormente, cuando se establece en verdadero, obliga a la aplicación de Excel a actualizar la imagen de OleObject cuando se carga la hoja de cálculo resultante.
+### **Añadida propiedad OleObject.AutoLoad**
+Aspose.Cells for Java 8.8.3 ha expuesto la propiedad OleObject.AutoLoad que permite actualizar la imagen de OleObject si el contenido/datos del objeto subyacente han cambiado. La mencionada propiedad, cuando se establece en true, obliga a la aplicación de Excel a actualizar la imagen del OleObject cuando se carga la hoja de cálculo resultante.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Actualizar automáticamente OleObjects](/cells/es/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
+Para obtener más detalles sobre esta característica, revise el artículo detallado sobre [Actualizar automáticamente los OleObjects](/cells/es/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -155,20 +156,20 @@ OleObject oleObject = oleObjects.get(0);
 oleObject.setAutoLoad(true);
 
 {{< /highlight >}}
-### **Se agregó la propiedad HTMLLoadOptions.SupportDivTag**
-Aspose.Cells for Java 8.8.3 ha expuesto la propiedad HTMLLoadOptions.SupportDivTag que permite analizar las etiquetas DIV incrustadas en las etiquetas TD al cargar HTML archivos/fragmentos en el modelo de objetos Aspose.Cells. La propiedad de tipo booleano tiene el valor predeterminado falso.
+### **Añadida propiedad HTMLLoadOptions.SupportDivTag**
+Aspose.Cells for Java 8.8.3 ha expuesto la propiedad HTMLLoadOptions.SupportDivTag que permite analizar las etiquetas DIV incrustadas en las etiquetas TD al cargar archivos/snippets HTML en el modelo de objetos Aspose.Cells. La propiedad de tipo booleano tiene el valor predeterminado de falso.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Admite etiquetas DIV internas durante la carga HTML](/cells/es/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+Para más detalles sobre esta característica, por favor revise el artículo detallado en [Soportar Etiquetas DIV Internas al Cargar HTML](/cells/es/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Store the HTML snippet in a variable
 
@@ -251,20 +252,20 @@ Workbook book = new Workbook(stream, loadOptions);
 book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **Se agregó la propiedad HtmlSaveOptions.ExportGridLines**
-Aspose.Cells for Java 8.8.3 ha expuesto la propiedad HtmlSaveOptions.ExportGridLines que permite representar las líneas de cuadrícula mientras se exporta la hoja de cálculo al formato HTML. La propiedad de tipo booleano tiene el valor predeterminado falso; sin embargo, cuando se establece en verdadero, API representa las líneas de cuadrícula para el rango de datos disponible en formato HTML.
+### **Agregada la propiedad HtmlSaveOptions.ExportGridLines**
+Aspose.Cells for Java 8.8.3 ha expuesto la propiedad HtmlSaveOptions.ExportGridLines que permite renderizar las líneas de cuadrícula al exportar la hoja de cálculo al formato HTML. La propiedad de tipo booleano tiene el valor predeterminado de falso, sin embargo, cuando se establece en verdadero, la API renderiza las líneas de cuadrícula para el rango de datos disponible en formato HTML.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Renderizar líneas de cuadrícula a HTML](/cells/es/java/export-excel-to-html-with-gridlines/).
+Para más detalles sobre esta característica, por favor revise el artículo detallado en [Renderizar Líneas de Cuadrícula a HTML](/cells/es/java/export-excel-to-html-with-gridlines/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load existing spreadsheet
 
@@ -283,20 +284,20 @@ options.setExportGridLines(true);
 book.save(dir + "output.html", options);
 
 {{< /highlight >}}
-### **Propiedad ListObject.Comment añadida**
-Aspose.Cells Las API ahora permiten obtener y configurar los comentarios para una instancia de ListObject. Para proporcionar la función antes mencionada, las API Aspose.Cells han expuesto la propiedad ListObject.Comment.
+### **Agregada la propiedad ListObject.Comment**
+Las APIs de Aspose.Cells ahora permiten obtener y establecer los comentarios para una instancia de ListObject. Para proporcionar la característica anteriormente mencionada, las APIs de Aspose.Cells han expuesto la propiedad ListObject.Comment.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Adición de comentarios para ListObjects](/cells/es/java/set-the-comment-of-table-or-list-object/).
+Para más detalles sobre esta característica, por favor revise el artículo detallado en [Agregar Comentarios para ListObjects](/cells/es/java/set-the-comment-of-table-or-list-object/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load existing spreadsheet
 
@@ -319,6 +320,6 @@ listObject.setComment("Comments");
 book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
-## **API eliminadas**
-### **Método Workbook.decrypt eliminado**
-Dicha propiedad fue marcada como obsoleta hace algún tiempo. Esta versión lo ha eliminado por completo del público API. Se recomienda establecer la propiedad WorkbookSettings.Password en nulo para lograr el mismo objetivo.
+## **APIs Eliminadas**
+### **Método Workbook.decrypt Eliminado**
+La mencionada propiedad fue marcada como obsoleta hace algún tiempo. Esta versión la ha eliminado por completo de la API pública. Se recomienda establecer la propiedad WorkbookSettings.Password en nulo para lograr el mismo objetivo.

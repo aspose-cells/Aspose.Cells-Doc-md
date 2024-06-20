@@ -1,40 +1,43 @@
-﻿---
-title: Come utilizzare FormulaBar con Aspose.Cells.GridDesktop
+---
+title: Come utilizzare la FormulaBar con Aspose.Cells.GridDesktop
 type: docs
 weight: 20
-url: /it/net/how-to-use-formulabar-with-aspose-cells-griddesktop/
+url: /it/net/aspose-cells-griddesktop/how-to-use-formulabar-with-aspose-cells-griddesktop/
+keywords: formulabar
+description: Questo articolo introduce l uso della formulabar in GridDesktop.
 ---
-## **Utilizzo di FormulaBar con Aspose.Cells.GridDesktop**
-### **Passaggio 1: creazione di un nuovo progetto**
-1. Apri Visual Studio 2019.
-1. Dal**File**menù, selezionare**Nuovo**, poi**Progetto**.
- Viene aperta la finestra di dialogo Crea un nuovo progetto.
-1. Selezionare**App Moduli Windows (Framework .NET)**dai modelli di progetto installati di Visual Studio e fare clic su**Prossimo**.
 
-![cose da fare:immagine_alt_testo](how-to-use-formulabar-with-aspose-cells-griddesktop_1.jpg)
+## **Utilizzo della FormulaBar con Aspose.Cells.GridDesktop**
+### **Passo 1: Creazione di un nuovo progetto**
+1. Aprire Visual Studio 2019.
+1. Dal menu **File**, selezionare **Nuovo**, quindi **Progetto**.
+   Viene aperta la finestra di creazione di un nuovo progetto.
+1. Seleziona **App Windows Forms (.NET Framework)** dai modelli di progetto installati di Visual Studio e clicca su **Avanti**.
 
-1. Specificare una posizione in cui la posizione e il nome del progetto e fare clic**Creare**.
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_1.jpg)
 
-![cose da fare:immagine_alt_testo](how-to-use-formulabar-with-aspose-cells-griddesktop_2.jpg)
-### **Passaggio 2: aggiungi i controlli alla casella degli strumenti**
-1.  Clicca sul**Cassetta degli attrezzi**
-1.  Scegliere**Controlli comuni**, fai clic con il pulsante destro del mouse e seleziona "**Scegli gli articoli...**" dal menu contestuale.
-1.  Nel**.NET Componenti Quadro** scheda del**Scegli Oggetti Toolbox** finestra, scorrere e selezionare**GrigliaDesktop** e**Barra della formula** componenti.
+1. Specifica una posizione dove mettere la posizione e il nome del progetto e clicca su **Crea**.
 
-![cose da fare:immagine_alt_testo](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)
-### **Passaggio 3: aggiungere controlli al modulo**
-1. Trascina i controlli GridDestop e FormulaBar nel form. Questo dovrebbe aggiungere il riferimento a Aspose.Cells.GridDesktop.dll nei riferimenti al progetto. Se il riferimento non viene aggiunto, è possibile aggiungere manualmente il riferimento facendo clic con il pulsante destro del mouse sui riferimenti e selezionando l'opzione "Aggiungi riferimenti". Passare alla posizione di Aspose.Cells.GridDesktop.dll e aggiungerlo.
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_2.jpg)
+### **Passo 2: Aggiungi controlli alla toolbox**
+1. Clicca sulla **Toolbox**
+1. Scegli **Controlli comuni**, fai clic destro e seleziona "**Scegli elementi...**" dal menu contestuale.
+1. Nella scheda **Componenti del Framework .NET** della finestra **Scegli elementi della Toolbox**, scorri e seleziona i componenti **GridDesktop** e **FormulaBar**.
 
-![cose da fare:immagine_alt_testo](how-to-use-formulabar-with-aspose-cells-griddesktop_4.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)
+### **Passo 3: Aggiungi controlli al form**
+1. Trascina i controlli GridDestop e FormulaBar sul form. Questo dovrebbe aggiungere il riferimento al file Aspose.Cells.GridDesktop.dll nei riferimenti del progetto. Se il riferimento non è stato aggiunto, è possibile aggiungerlo manualmente facendo clic destro sui riferimenti e selezionando l'opzione "Aggiungi riferimenti". Passa alla posizione del file Aspose.Cells.GridDesktop.dll e aggiungilo.
 
-1. Una volta aggiunti i controlli, imposta il nome del controllo GridDesktop nella scheda delle proprietà. [questo è necessario per collegare FormulaBar a GridDesktop]
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_4.jpg)
 
-![cose da fare:immagine_alt_testo](how-to-use-formulabar-with-aspose-cells-griddesktop_5.jpg)
+1. Una volta aggiunti i controlli, imposta il nome del controllo GridDesktop nella scheda delle proprietà.[questo è necessario per collegare il FormulaBar al GridDesktop]
 
-1. Collega FormulaBar al controllo GridDesktop come mostrato nell'immagine seguente.
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_5.jpg)
 
-![cose da fare:immagine_alt_testo](how-to-use-formulabar-with-aspose-cells-griddesktop_6.jpg)
-### **Passaggio 4: testare i controlli**
-Eseguire l'applicazione e testare i controlli. Genererà l'output simile a quello mostrato nell'immagine seguente. Puoi vedere nell'immagine di output che FormulaBar e GridDesktop sono collegati.
+1. Collega il FormulaBar al controllo GridDesktop come mostrato nell'immagine seguente.
 
-![cose da fare:immagine_alt_testo](how-to-use-formulabar-with-aspose-cells-griddesktop_7.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_6.jpg)
+### **Passo 4: Testa i controlli**
+Avvia l'applicazione e testa i controlli. Genererà un output simile a quello mostrato nell'immagine seguente. Si può vedere nell'immagine di output che il FormulaBar e il GridDesktop sono collegati.
+
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_7.jpg)

@@ -1,14 +1,15 @@
-﻿---
-title: 組み込みのスタイルを使用してワード アート テキストを追加する
+---
+title: 組み込みスタイルを持つ WordArt テキストを追加する
 type: docs
 weight: 270
 url: /ja/net/add-word-art-text-with-built-in-styles/
 ---
-## **考えられる使用シナリオ**
-Aspose.Cells を使用して、組み込みのスタイルでワード アート テキストを追加できます。[ShapeCollection.AddWordArt()](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addwordart)この目的のためのメソッド。
-## **組み込みのスタイルを使用してワード アート テキストを追加する**
-次のサンプル コードは、さまざまな組み込みスタイルを持つワード アート テキストを追加します。を確認してください[出力エクセルファイル](5115470.xlsx)このコードで生成されます。このように[出力エクセルファイル](5115470.xlsx)Microsoft Excel で検索します。
 
-![todo:画像_代替_文章](add-word-art-text-with-built-in-styles_1.png)
+## **可能な使用シナリオ**
+Aspose.Cellsを使用して組み込みのスタイル付きのワードアートテキストを追加することができます。この目的のためには、[ShapeCollection.AddWordArt()](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addwordart)メソッドを使用してください。
+## **組み込みスタイルを持つ WordArt テキストを追加する**
+以下のサンプルコードは、異なる組み込みスタイルのワードアートテキストを追加します。このコードで生成された[output excel file](5115470.xlsx)をチェックしてください。これがMicrosoft Excelで表示される[output excel file](5115470.xlsx)の外観です。
+
+![todo:image_alt_text](add-word-art-text-with-built-in-styles_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddWordArtTextWithBuiltinStyle-1.cs" >}}

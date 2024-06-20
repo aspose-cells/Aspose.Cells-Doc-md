@@ -1,15 +1,16 @@
-﻿---
-title: توفير مسار ملف html لورقة العمل المصدرة عبر واجهة IFilePathProvider
+---
+title: توفير مسار ملف HTML لورقة العمل المصدر من خلال واجهة IFilePathProvider
 type: docs
 weight: 70
 url: /ar/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
-## **سيناريوهات الاستخدام الممكنة**
- لنفترض أن لديك ملف Excel به أوراق متعددة وتريد تصدير كل ورقة إلى ملف HTML فردي. إذا كان أي من أوراقك يحتوي على روابط لأوراق أخرى ، فسيتم قطع هذه الروابط في HTML. للتعامل مع هذه المشكلة ، يوفر Aspose.Cells[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)واجهة يمكنك تنفيذها لإصلاح الروابط المعطلة.
-## **قم بتوفير مسار ملف ورقة العمل HTML الذي تم تصديره عبر واجهة IFilePathProvider**
- يرجى تنزيل ملف[نموذج ملف اكسل](5115213.zip)المستخدمة في الكود التالي والملفات المصدرة HTML. كل هذه الملفات موجودة داخل دليل Temp. يجب عليك استخراجه على محرك الأقراص C:. ثم سيصبح دليل C: \ Temp. ثم تفتح ملف Sheet1.html في المتصفح والنقر فوق الرابطين بداخله. تشير هذه الروابط إلى هاتين أوراق العمل HTML المصدرة والموجودة داخل دليل C: \ Temp \ OtherSheets.
 
-{{< highlight "java" >}}
+## **سيناريوهات الاستخدام المحتملة**
+لنفترض أن لديك ملف Excel بعدة أوراق وترغب في تصدير كل ورقة عمل إلى ملف HTML فردي. إذا كانت أي من الأوراق لديك تحتوي على روابط إلى أوراق أخرى، فإن هذه الروابط ستتعطل في HTML الذي تم تصديره. للتعامل مع هذه المشكلة، يوفر Aspose.Cells [واجهة IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider) التي يمكنك تنفيذها لإصلاح الروابط المتعطلة.
+## **توفير مسار ملف HTML لواجهة IFilePathProvider**
+يرجى تنزيل [ملف Excel عينة](5115213.zip) المستخدم في الكود التالي وملفات HTML التي تم تصديرها. كل هذه الملفات داخل دليل Temp. يجب أن تقوم بفك الضغط عليه على قرص C:، ثم سيصبح C:\Temp. بعد ذلك، ستفتح ملف Sheet1.html في المتصفح وتنقر فوق الرابطين داخله. تشير هذه الروابط إلى ورقتي العمل HTML التي تم تصديرهما والتي تقع داخل الدليل C:\Temp\OtherSheets.
+
+{{< highlight java >}}
 
  file:///C:/Temp/OtherSheets/Sheet2.html#RANGE!A1
 
@@ -17,23 +18,23 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 {{< /highlight >}}
 
-توضح لقطة الشاشة التالية كيف تبدو C: \ Temp \ Sheet1.html وروابطها
+اللقطة الشاشية التالية تظهر كيفية الرؤية C:\Temp\Sheet1.html وروابطها
 
-![ما يجب القيام به: image_بديل_نص](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
+![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
- تُظهر لقطة الشاشة التالية المصدر HTML. كما ترى أن الروابط تشير الآن إلى دليل C: \ Temp \ OtherSheets. تم تحقيق ذلك باستخدام[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)واجهه المستخدم.
+اللقطة الشاشية التالية تظهر المصدر HTML. كما يمكنك أن ترى أن الروابط الآن تشير إلى مجلد C:\Temp\OtherSheets. تم تحقيق ذلك باستخدام [IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider) interface.
 
-![ما يجب القيام به: image_بديل_نص](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
-## **عينة من الرموز**
- يرجى ملاحظة أن دليل C: \ Temp هو لغرض التوضيح فقط. يمكنك استخدام أي دليل من اختيارك ومكان[نموذج ملف اكسل](5115211.xlsx)بالداخل هناك وتنفيذ نموذج التعليمات البرمجية المقدم. سيقوم بعد ذلك بإنشاء دليل فرعي OtherSheets داخل الدليل الخاص بك وتصدير أوراق العمل الثانية والثالثة HTML بداخله. يرجى تغيير متغير dirPath داخل الكود المقدم وإحالته إلى الدليل الذي تختاره قبل التنفيذ.
+![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
+## **الكود المثالي**
+يرجى ملاحظة أن مجلد C:\Temp موجود فقط لأغراض التوضيح. يمكنك استخدام أي مجلد تختاره ووضع [ملف Excel عينة](5115211.xlsx) داخله وتنفيذ الكود العيني المقدم. ثم سيقوم بإنشاء مجلد فرعي بعنوان OtherSheets داخل المجلد الخاص بك ويصدر ورقة عمل ثانية وثالثة كصفحات HTML داخله. يرجى تغيير متغير dirPath داخل الكود المقدم والإشارة إليه في المجلد الخاص بك قبل التنفيذ.
 
 {{% alert color="primary" %}} 
 
-سيعمل نموذج الكود فقط عندما تقوم بتعيين ترخيص Aspose.Cells. إذا كنت ستحاول تشغيل الكود بدون ضبط الترخيص ، فسوف يدخل في حلقة لا نهائية. لذلك ، قمنا بإضافة فحص لطباعة رسالة وإيقاف التنفيذ عندما لا يتم تعيين الترخيص. يمكنك إما شراء ترخيص أو طلب ترخيص مؤقت لمدة 30 يومًا من فريق Aspose.Purchase.
+سيعمل الكود العيني فقط عندما تقوم بتعيين ترخيص Aspose.Cells. إذا حاولت تشغيل الكود دون تعيين الترخيص، فسيدخل في حلقة لانهائية. لذا، قمنا بإضافة فحص لطباعة رسالة وإيقاف التنفيذ عندما لا يتم تعيين الترخيص. يمكنك إما شراء ترخيص أو طلب ترخيص مؤقت لمدة 30 يومًا من فريق Aspose.Purchase.
 
 {{% /alert %}} 
 
-الرجاء الاطلاع على التعليق على هذه الأسطر داخل الشفرة مما يؤدي إلى كسر الروابط في Sheet1.html ولن يتم فتح Sheet2.html أو Sheet3.html عند النقر فوق ارتباطاتها داخل Sheet1.html
+يرجى أن ترى أن تعليق هذه الأسطر داخل الكود سيفسد الروابط في Sheet1.html ولن يتم فتح Sheet2.html أو Sheet3.html عند النقر على روابطهما داخل Sheet1.html
 
 
 
@@ -41,7 +42,7 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 
 
- فيما يلي نموذج التعليمات البرمجية الكامل الذي يمكنك تنفيذه باستخدام ملف[نموذج ملف اكسل](5115211.xlsx).
+فيما يلي الكود العيني الكامل الذي يمكنك تنفيذه مع [ملف Excel عينة](5115211.xlsx) المقدم.
 
 
 

@@ -1,53 +1,54 @@
-﻿---
-title: Çalışma Kitabı veya Çalışma Sayfası yüklenirken Nesneleri Filtrele
+---
+title: Çalışma Kitabı veya Çalışsayfa Yüklenirken Nesneleri Filtrele
 type: docs
 weight: 330
 url: /tr/net/filter-objects-while-loading-workbook-or-worksheet/
 ---
+
 ## **Olası Kullanım Senaryoları**
-Lütfen kullan[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)çalışma kitabından verileri filtrelerken özelliği. Ancak verileri tek tek çalışma sayfalarından filtrelemek istiyorsanız, o zaman geçersiz kılmak zorunda kalacaksınız.[LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet)yöntem. Lütfen uygun değeri girin[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)oluştururken veya birlikte çalışırken numaralandırma[Yük Filtresi](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
+Lütfen, çalışma kitabından veri filtrelerken [LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) özelliğini kullanın. Ancak tek tek çalışsayfalarından veri filtrelemek istiyorsanız, [LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet) yöntemini geçersiz kılmanız gerekecektir. [LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter) oluştururken veya çalışırken uygun değeri [LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) numaralandırmasından belirtmelisiniz.
 
- bu[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)numaralandırma aşağıdaki olası değerlere sahiptir.
+[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) numaralandırmasında aşağıdaki olası değerler bulunmaktadır.
 
-- Herşey
-- Kitap Ayarları
-- HücreBlank
+- Tümü
+- KitapAyarları
+- HücreBoş
 - HücreBool
-- Hücre Verileri
-- hücre hatası
-- HücreSayısal
-- hücre dizisi
-- Hücre Değeri
-- Çizelge
-- Koşullu biçimlendirme
-- Veri doğrulama
-- tanımlı adlar
-- Döküman özellikleri
-- formül
-- köprüler
-- BirleştirilmişAlan
-- Pivot tablo
-- Ayarlar
-- Şekil
+- CellData
+- CellError
+- CellNumeric
+- CellString
+- CellValue
+- Chart
+- ConditionalFormatting
+- DataValidation
+- DefinedNames
+- DocumentProperties
+- Formula
+- Hyperlinkler
+- MergedArea
+- PivotTable
+- Settings
+- Shape
 - SheetData
-- Sayfa Ayarları
-- Yapı
-- stil
-- Masa
+- SheetSettings
+- Structure
+- Style
+- Table
 - VBA
 - XmlMap
-## **Çalışma Kitabını yüklerken Nesneleri Filtrele**
- Aşağıdaki örnek kod, çalışma kitabından grafiklerin nasıl filtreleneceğini gösterir. lütfen kontrol ediniz[örnek excel dosyası](5115258.xlsx) Bu kodda kullanılan ve[çıkış PDF](5115257.pdf)onun tarafından oluşturulur. PDF çıktısında görebileceğiniz gibi, tüm grafikler çalışma kitabından filtrelendi.
+## **Çalışma Kitabını Yüklerken Filtreleme Nesneleri**
+Aşağıdaki örnek kodlar, çalışma kitabından grafikleri filtrelemenin nasıl yapıldığını göstermektedir. Lütfen bu kodda kullanılan [örnek excel dosyasını](5115258.xlsx) ve bunun tarafından oluşturulan [çıktı PDF'yi](5115257.pdf) kontrol edin. Çıktı PDF'de, tüm grafiklerin çalışma kitabından filtrelenmiş olduğunu görebilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-FilteringObjects.cs" >}}
-## **Çalışma Sayfası yüklenirken Nesneleri Filtrele**
- Aşağıdaki örnek kod,[kaynak excel dosyası](5115255.xlsx) ve özel bir filtre kullanarak aşağıdaki verileri çalışma sayfalarından filtreler.
+## **Çalışma Sayfasını Yüklerken Filtreleme Nesneleri**
+Aşağıdaki örnek kod, [kaynak excel dosyasını](5115255.xlsx) yükler ve çalışma sayfalarından aşağıdaki verileri özel bir filtreden geçirir.
 
-- NoCharts adlı çalışma sayfasındaki Grafikleri filtreler.
-- NoShapes adlı çalışma sayfasındaki Şekilleri filtreler.
-- NoConditionalFormatting adlı çalışma sayfasından Koşullu Biçimlendirmeyi filtreler.
+- Tablo adı NoCharts olan çalışma sayfasından Grafikleri filtreler.
+- Tablo adı NoShapes olan çalışma sayfasından Şekilleri filtreler.
+- Tablo adı NoConditionalFormatting olan çalışma sayfasından Koşullu Biçimlendirmeyi filtreler.
 
- Bir kez, yükler[kaynak excel dosyası](5115255.xlsx) özel bir filtre ile tüm çalışma sayfalarının resimlerini tek tek alır. İşte referansınız için çıktı görüntüleri. Gördüğünüz gibi, ilk resimde grafikler yok, ikinci resimde şekiller yok ve üçüncü resimde koşullu biçimlendirme yok.
+Özel bir filtreden sonra [kaynak excel dosyasını](5115255.xlsx) yüklediğinde, tüm çalışma sayfalarının resimlerini sırayla alır. Referansınız için çıktı resimleri aşağıdadır. Görebileceğiniz gibi, ilk resimde grafik yok, ikinci resimde şekiller yok ve üçüncü resimde koşullu biçimlendirme yok.
 
 - [NoCharts.png](5115254.png)
 - [NoShapes.png](5115256.png)
@@ -58,6 +59,6 @@ Lütfen kullan[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/as
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-1.cs" >}}
 
 
-Bu, CustomLoadFilter sınıfını çalışma sayfası adlarına göre nasıl kullanacağınızdır.
+Bu, özel filtrenin çalışma sayfası adlarına göre nasıl kullanılacağının örneğidir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}

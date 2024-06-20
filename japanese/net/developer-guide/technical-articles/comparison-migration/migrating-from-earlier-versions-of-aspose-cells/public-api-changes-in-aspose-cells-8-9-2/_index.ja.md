@@ -1,27 +1,28 @@
-﻿---
-title: パブリック API Aspose.Cells 8.9.2 の変更点
+---
+title: Aspose.Cells 8.9.2 でのパブリック API 変更
 type: docs
 weight: 320
 url: /ja/net/public-api-changes-in-aspose-cells-8-9-2/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.9.1 から 8.9.2 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントは、Aspose.Cells API の 8.9.1 から 8.9.2 への変更点をモジュール/アプリケーション開発者にとって興味深いものについて説明しています。新しいおよび更新されたパブリックメソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の内部での動作の変更についても説明しています。
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-こちらもご確認ください[Public API Aspose.Cells for .NET 8.9.1 で導入された変更](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1)
+[Aspose.Cells for .NET 8.9.1 で新たに導入された Public API 変更](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1) も参照してください。
 
 {{% /alert %}} 
-## **追加された API**
-### **TextOptions クラスと FontSettings.TextOptions プロパティを追加**
-Aspose.Cells for .NET は、Shape のテキスト部分の外観を制御するために、FontSettings.TextOptions プロパティと共に TextOptions クラスを公開しました。
+## **APIの追加**
+### **TextOptions クラスと FontSettings.TextOptions プロパティが追加されました**
+Aspose.Cells for .NET で TextOptions クラスとそれに伴う FontSettings.TextOptions プロパティを公開し、Shape のテキスト部分の外観を制御するためのものです。
 
-FontSettings.TextOptions プロパティの簡単な使用シナリオを次に示します。
+FontSettings.TextOptions プロパティの簡単な使用シナリオは次のとおりです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -42,14 +43,14 @@ var textOptions = shape.TextBody[1].TextOptions;
 {{< /highlight >}}
 
 
-### **TextOptions.Fill、Outline、Shadow プロパティを追加**
-Aspose.Cells for .NET 8.9.2 では、TextOptions.Fill、TextOptions.Outline、TextOptions.Shadow プロパティが公開されており、それぞれ塗りつぶし、影、アウトラインなど、形状のテキスト コンテンツの側面を制御できます。
+### **TextOptions.Fill、Outline、Shadow プロパティが追加されました**
+Aspose.Cells for .NET 8.9.2 で TextOptions.Fill、TextOptions.Outline、TextOptions.Shadow プロパティが公開され、それぞれ形状のテキストコンテンツの塗りつぶし、影、輪郭などの側面を制御できます。
 
-前述のプロパティの簡単な使用シナリオを次に示します。
+前述のプロパティの簡単な使用シナリオは次のとおりです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -88,14 +89,14 @@ textOptions.Outline.SetOneColorGradient(Color.Blue, 0.3, GradientStyleType.Horiz
 {{< /highlight >}}
 
 
-### **Shape.Line プロパティを追加**
-Aspose.Cells for .NET は、Shape のアウトラインの外観を制御するために LineFormat のインスタンスを返す Shape.Line プロパティを公開しました。
+### **Shape.Line プロパティが追加されました**
+Aspose.Cells for .NET で Shape.Line プロパティが公開され、Shape の輪郭の外観を制御するための LineFormat インスタンスを返します。
 
-Shape.Line プロパティの簡単な使用シナリオを次に示します。
+以下はShape.Lineプロパティの簡単な使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -120,14 +121,14 @@ line.Weight = 1;
 {{< /highlight >}}
 
 
-### **Shape.Fill プロパティを追加**
-Aspose.Cells for .NET 8.9.2 は、形状領域のさまざまな側面を制御するために、FillFormat のインスタンスを返す Shape.Fill プロパティを公開しました。
+### **Shape.Fill プロパティが追加されました**
+Aspose.Cells for .NET 8.9.2 で Shape.Fill プロパティが公開され、異なる形状領域の側面を制御するための FillFormat インスタンスを返します。
 
-以下は、Shape.Fill プロパティの簡単な使用シナリオです。
+Shape.Fill プロパティの簡単な使用シナリオは次のとおりです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -150,16 +151,16 @@ var fill = shape.Fill;
 fill.SetOneColorGradient(Color.Red, 0.1, GradientStyleType.Horizontal, 2);
 
 {{< /highlight >}}
-## **廃止された API**
-### **廃止された ShapeFont クラス**
-代わりに TextOptions クラスを使用してください。
-### **廃止された ShapeFormat クラス**
-Shape.Fill および Shape.Line プロパティを直接使用してください。
-### **廃止された Shape.Format プロパティ**
-Shape.Fill および Shape.Line プロパティを直接使用してください。
-### **廃止された Shape.LineFormat プロパティ**
-代わりに Shape.Line プロパティを使用してください。
-### **廃止された Shape.FillFormat プロパティ**
-代わりに Shape.Fill プロパティを使用してください。
-### **廃止された FontSetting.ShapeFont プロパティ**
-代わりに FontSetting.TextOptions プロパティを使用してください。
+## **非推奨API**
+### **非推奨のShapeFontクラス**
+代わりにTextOptionsクラスを使用してください。
+### **非推奨のShapeFormatクラス**
+代わりにShape.FillおよびShape.Lineプロパティを直接使用してください。
+### **非推奨のShape.Formatプロパティ**
+代わりにShape.FillおよびShape.Lineプロパティを直接使用してください。
+### **非推奨のShape.LineFormatプロパティ**
+代わりにShape.Lineプロパティを使用してください。
+### **非推奨のShape.FillFormatプロパティ**
+代わりにShape.Fillプロパティを使用してください。
+### **非推奨のFontSetting.ShapeFontプロパティ**
+代わりにFontSetting.TextOptionsプロパティを使用してください。

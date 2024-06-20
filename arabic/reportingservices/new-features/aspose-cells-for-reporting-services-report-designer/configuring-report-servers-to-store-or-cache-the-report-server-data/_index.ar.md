@@ -1,7 +1,8 @@
-﻿---
-title: تكوين خوادم التقارير لتخزين أو تخزين بيانات خادم التقارير
+---
+title: تكوين خوادم التقرير لتخزين أو تخزين بيانات خادم التقرير
 type: docs
 weight: 30
 url: /ar/reportingservices/configuring-report-servers-to-store-or-cache-the-report-server-data/
 ---
-يقوم Aspose.Cells for Reporting Services Report Designer بحفظ عنوان URL لخادم التقرير الذي تم الوصول إليه حاليًا. عند فتح مربع حوار Report Server Manager في Aspose.Cells Report Designer مرة أخرى ، يقوم نموذج الحوار تلقائيًا بتحميل معلومات خادم التقارير المحفوظة.
+
+يحتفظ من مصمم التقرير Aspose.Cells for Reporting Services بعنوان URL المخدم التقريري الحالي. عند فتح صندوق حوار مدير خادم التقرير في مصمم تقارير Aspose.Cells مرة أخرى، يحمّل النموذج الحواري تلقائياً معلومات خادم التقرير المحفوظة.

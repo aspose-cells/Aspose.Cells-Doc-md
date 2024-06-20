@@ -1,16 +1,17 @@
-﻿---
-title: Php でのワークシートのコピーと移動
+---
+title: Phpでのワークシートのコピーと移動
 type: docs
 weight: 10
 url: /ja/java/copying-and-moving-worksheets-in-php/
 ---
+
 ## **Aspose.Cells - ワークシートのコピーと移動**
-### **ワークブック内でワークシートをコピーする**
-を使用してワークシートをコピーするには**Aspose.Cells PHP で for Java**、 電話**copy_worksheet**方法**コピーワークシート**モジュール。以下にコード例を示します。
+### **ブック内でのワークシートのコピー**
+**PHPでAspose.Cells for Javaを使用してワークシートをコピーする**場合は、**copyworksheets**モジュールの**copy_worksheet**メソッドを呼び出します。以下に、コード例が示されています。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Create a Worksheets object with reference to the sheets of the Workbook.
 
@@ -27,11 +28,11 @@ $workbook->save($dataDir . "Copy Worksheet.xls");
 
 {{< /highlight >}}
 ### **ワークブック内でワークシートを移動する**
-を使用してワークシートを移動するには**Aspose.Cells PHP で for Java**、 電話**move_worksheet**方法**コピーワークシート**モジュール。以下にコード例を示します。
+**PHPでAspose.Cells for Javaを使用してワークシートを移動する**場合は、**copyworksheets**モジュールの**move_worksheet**メソッドを呼び出します。以下に、コード例が示されています。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Get the first worksheet in the book.
 
@@ -46,7 +47,7 @@ $sheet->moveTo(2);
 $workbook->save($dataDir . "Move Worksheet.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートのコピーと移動 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のどちらかのソーシャルコーディングサイトから、**Aspose.Cells**の**ワークシートのコピーと移動**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/CopyingAndMovingWorksheets.php)

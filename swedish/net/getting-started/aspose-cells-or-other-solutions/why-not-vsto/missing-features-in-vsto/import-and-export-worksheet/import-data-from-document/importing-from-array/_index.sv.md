@@ -1,17 +1,18 @@
-﻿---
-title: Importerar från Array
+---
+title: Importera från Array
 type: docs
 weight: 10
 url: /sv/net/importing-from-array/
 ---
- Utvecklare kan importera data från en array till sina kalkylblad genom att anropa**ImportArray** metoden för samlingen Cells. Det finns många överbelastade versioner av ImportArray-metoden men en typisk överbelastning kräver följande parametrar:
 
-- Array, representerar arrayobjektet vars innehåll måste importeras
-- Radnummer, representerar radnumret för den första cellen där data kommer att importeras
-- Kolumnnummer, representerar kolumnnumret för den första cellen där data kommer att importeras
-- Is Vertical, ett booleskt värde som anger att data ska importeras vertikalt eller horisontellt
+Utvecklare kan importera data från en array till sina kalkylblad genom att anropa metoden **ImportArray** i Cells-samlingen. Det finns många överbelastade versioner av metoden ImportArray men en typisk överbelastning tar följande parametrar:
 
-{{< highlight "csharp" >}}
+- Array, representerar arrayobjektet vars innehåll behöver importeras
+- Radnummer, representerar radnumret för den första cellen där datan kommer att importeras
+- Kolumnnummer, representerar kolumnnumret för den första cellen där datan kommer att importeras
+- Är Vertikal, ett booleskt värde som specificerar att importera data vertikalt eller horisontellt
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -27,7 +28,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 //Creating an array containing names as string values
 
-string[]names = new string[]{ "laurence chen", "roman korchagin", "kyle huang" };
+string[] names = new string[] { "laurence chen", "roman korchagin", "kyle huang" };
 
 //Importing the array of names to 1st row and first column vertically
 

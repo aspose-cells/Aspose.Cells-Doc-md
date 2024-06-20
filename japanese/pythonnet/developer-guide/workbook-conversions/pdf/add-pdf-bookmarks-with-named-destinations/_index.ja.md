@@ -1,21 +1,22 @@
 ---
-title: 名前付き宛先を含む PDF ブックマークを追加する
+title: 名前付き目次でPDFブックマークを追加する
 type: docs
 weight: 20
 url: /ja/python-net/add-pdf-bookmarks-with-named-destinations/
-description: Aspose.Cells for Python via .NET API の名前付き宛先を含む PDF ブックマークを追加する方法を説明します。
-keywords: Python Add PDF Bookmarks with Named Destinations
+description: Aspose.Cells for Python via .NET APIを使用した名前付き宛先付きPDFブックマークの追加方法。
+keywords: Pythonで名前付き宛先付きPDFブックマークを追加する方法。
 ---
-##  **考えられる使用シナリオ**
 
-名前付き宛先は、PDF ページに依存しない、PDF 内の特別な種類のブックマークまたはリンクです。つまり、PDF に対してページが追加または削除された場合、ブックマークは無効になる可能性がありますが、名前付きの宛先はそのまま残ります。名前付き宛先を作成するには、[**PdfBookmarkEntry.destination_name**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name/)財産。
+## **可能な使用シナリオ**
 
-##  **名前付き宛先を含む PDF ブックマークを追加する**
+名前付き目次はPDFページに依存しないPDF内のブックマークまたはリンクの特別な種類です。つまり、PDFにページが追加または削除されても、ブックマークは無効になる可能性がありますが、名前付き目次はそのままです。名前付き目次を作成するには、[**PdfBookmarkEntry.destination_name**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name/)プロパティを設定してください。
 
-次のサンプルコードを参照してください。[ソース Excel ファイル](50528348.xlsx)、そしてその[出力PDFファイル](50528349.pdf)。スクリーンショットは、出力 PDF 内のブックマークと名前付きの宛先を示しています。このスクリーンショットでは、名前付きの宛先を表示する方法と、Acrobat Reader のプロフェッショナル バージョンが必要であることも説明されています。
+## **名前付き目次でPDFブックマークを追加する**
+
+以下のサンプルコードとその[ソースExcelファイル](50528348.xlsx)、[出力PDFファイル](50528349.pdf)を参照してください。スクリーンショットには、出力PDF内のブックマークと名前付きデスティネーションが表示されます。スクリーンショットには、名前付きデスティネーションの表示方法と、Acrobat Readerのプロフェッショナルバージョンが必要であることが記載されています。
 
 ![todo:image_alt_text](add-pdf-bookmarks-with-named-destinations_1.png)
 
-##  **サンプルコード**
+## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddPDFBookmarksWithNamedDestinations.py" >}}

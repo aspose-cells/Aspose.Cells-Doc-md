@@ -1,36 +1,37 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.9.1
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.9.1
 type: docs
 weight: 310
 url: /de/net/public-api-changes-in-aspose-cells-8-9-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.9.0 zu 8.9.1, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells API von Version 8.9.0 auf 8.9.1, die für Modul- / Anwendungsentwickler von Interesse sein können. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung von Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Konfigurierbare Schriftartquellen**
-Aspose.Cells for .NET hat eine Reihe von Klassen verfügbar gemacht, um die Unterstützung für konfigurierbare Schriftartquellen zum Rendern von Tabellenkalkulationen bereitzustellen. Hier ist die Liste der Klassen, die mit Aspose.Cells for .NET 8.9.1 hinzugefügt wurden.
+## **Hinzugefügte APIs**
+### **Konfigurierbare Schriftquellen**
+Aspose.Cells for .NET hat eine Reihe von Klassen freigegeben, um die Unterstützung für konfigurierbare Schriftquellen zur Darstellung von Tabellenkalkulationen bereitzustellen. Hier ist die Liste der Klassen, die mit Aspose.Cells for .NET 8.9.1 hinzugefügt wurden.
 
-1. Die FontConfigs-Klasse gibt die Schriftarteinstellungen an.
-1. Die FontSourceBase-Klasse ist eine abstrakte Basisklasse für die Klassen, die es dem Benutzer ermöglichen, verschiedene Schriftartquellen anzugeben.
-1. Die FileFontSource-Klasse stellt die einzelne TrueType-Schriftartdatei dar, die im Dateisystem gespeichert ist.
-1. Die FolderFontSource-Klasse stellt den Ordner dar, der TrueType-Schriftartdateien enthält.
-1. Die MemoryFontSource-Klasse stellt die einzelne TrueType-Schriftartdatei dar, die im Arbeitsspeicher gespeichert ist.
-1. Die Aufzählung FontSourceType gibt den Typ einer Schriftartquelle an.
+1. Die Klasse FontConfigs gibt die Schrifteinstellungen an.
+1. Die Klasse FontSourceBase ist eine abstrakte Basisklasse für die Klassen, die es dem Benutzer ermöglichen, verschiedene Schriftquellen anzugeben.
+1. Die Klasse FileFontSource repräsentiert die einzelne TrueType-Schriftartdatei, die im Dateisystem gespeichert ist.
+1. Die Klasse FolderFontSource repräsentiert den Ordner, der TrueType-Schriftartdateien enthält.
+1. Die Klasse MemoryFontSource repräsentiert die einzelne TrueType-Schriftartdatei, die im Speicher gespeichert ist.
+1. Die Enumeration FontSourceType gibt den Typ einer Schriftquelle an.
 
-Mit den oben genannten Änderungen ermöglicht die Aspose.Cells for .NET die Einstellung der Schriftarten wie unten beschrieben.
+Mit den oben genannten Änderungen ermöglicht Aspose.Cells for .NET das Festlegen der Schriften wie unten beschrieben.
 
-1. Legen Sie einen benutzerdefinierten Schriftartenordner fest, während Sie die Methode FontConfigs.SetFontFolder verwenden.
-1. Legen Sie mehrere Ordner für benutzerdefinierte Schriftarten fest, während Sie die Methode FontConfigs.SetFontFolders verwenden.
-1. Legen Sie Schriftartquellen aus einem benutzerdefinierten Schriftartordner, einer einzelnen Schriftartdatei oder Schriftartdaten aus einem Array von Bytes fest, während Sie die FontConfigs.SetFontSources-Methode verwenden.
+1. Festlegen eines benutzerdefinierten Schriftordners unter Verwendung der Methode FontConfigs.SetFontFolder.
+1. Festlegen mehrerer benutzerdefinierter Schriftordner unter Verwendung der Methode FontConfigs.SetFontFolders.
+1. Festlegen von Schriftquellen aus einem benutzerdefinierten Schriftordner, einer einzelnen Schriftartdatei oder Schriftartdaten aus einem Byte-Array unter Verwendung der Methode FontConfigs.SetFontSources.
 
-Hier ist ein einfaches Anwendungsszenario der oben genannten Methoden.
+Hier ist ein einfaches Anwendungsszenario für die oben genannten Methoden.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Defining string variables to store paths to font folders & font file
 
@@ -50,7 +51,7 @@ FontConfigs.SetFontFolder(fontFolder1, true);
 
 // Second parameter prohibits the API to search the subfolders for font files
 
-FontConfigs.SetFontFolders(new string[]{ fontFolder1, fontFolder2 }, false);
+FontConfigs.SetFontFolders(new string[] { fontFolder1, fontFolder2 }, false);
 
 // Defining FolderFontSource
 
@@ -66,58 +67,58 @@ MemoryFontSource sourceMemory = new MemoryFontSource(System.IO.File.ReadAllBytes
 
 //Setting font sources
 
-FontConfigs.SetFontSources(new FontSourceBase[]{ sourceFolder, sourceFile, sourceMemory});
+FontConfigs.SetFontSources(new FontSourceBase[] { sourceFolder, sourceFile, sourceMemory});
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
 
-Beide FontConfigs.SetFontFolder- und FontConfigs.SetFontFolders-Methoden akzeptieren einen zweiten Parameter vom Typ Boolean. Die Übergabe von true als zweiten Parameter weist die Aspose.Cells-APIs an, die Unterordner nach den Schriftartdateien zu durchsuchen.
+Die Methoden FontConfigs.SetFontFolder und FontConfigs.SetFontFolders akzeptieren beide einen booleschen Typ als zweiten Parameter. Das Übergeben von true als zweiten Parameter wird die Aspose.Cells-APIs anweisen, nach Schriftordnern in den Unterordnern zu suchen.
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET ermöglicht auch die Konfiguration der Schriftersetzung. Dieser Mechanismus ist hilfreich, wenn eine erforderliche Schriftart auf dem Computer, auf dem die Konvertierung stattfinden soll, nicht verfügbar ist. Benutzer können eine Liste mit Schriftartnamen als Alternative zur ursprünglich erforderlichen Schriftart bereitstellen. Um dies zu erreichen, haben die Aspose.Cells-APIs die FontConfigs.SetFontSubstitutes-Methode verfügbar gemacht, die zwei Parameter akzeptiert. Der erste Parameter ist vom Typ string, der der Name der Schriftart sein sollte, die ersetzt werden muss. Der zweite Parameter ist ein Array vom Typ String. Benutzer können eine Liste mit Schriftartnamen als Ersatz für den ursprünglichen Schriftartnamen (angegeben im ersten Parameter) bereitstellen.
+Aspose.Cells for .NET ermöglicht auch die Konfiguration der Schriftart-Substitution. Dieser Mechanismus ist hilfreich, wenn eine erforderliche Schriftart auf dem Rechner, auf dem die Konvertierung stattfinden soll, nicht verfügbar ist. Benutzer können eine Liste von Schriftartnamen als Alternative zur ursprünglich erforderlichen Schriftart bereitstellen. Um dies zu erreichen, haben die Aspose.Cells-APIs die Methode FontConfigs.SetFontSubstitutes freigegeben, die 2 Parameter akzeptiert. Der erste Parameter ist vom Typ string und sollte der Name der Schriftart sein, die substituiert werden soll. Der zweite Parameter ist ein Array vom Typ string. Benutzer können eine Liste von Schriftartnamen als Ersatz für den ursprünglichen Schriftartnamen bereitstellen (der im ersten Parameter angegeben ist).
 
-Hier ist ein einfaches Nutzungsszenario der Methode FontConfigs.SetFontSubstitutes.
+Hier ist ein einfaches Anwendungsszenario für die Methode FontConfigs.SetFontSubstitutes.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Substituting the Arial font with Times New Roman & Calibri
 
-FontConfigs.SetFontSubstitutes("Arial", new string[]{ "Times New Roman", "Calibri" });
+FontConfigs.SetFontSubstitutes("Arial", new string[] { "Times New Roman", "Calibri" });
 
 {{< /highlight >}}
 
 
 
-Die Aspose.Cells for .NET hat auch Mittel bereitgestellt, um Informationen darüber zu sammeln, welche Quellen und Substitutionen eingestellt wurden.
+Aspose.Cells for .NET hat auch Mittel bereitgestellt, um Informationen darüber zu sammeln, welche Quellen und Substitutionen festgelegt wurden.
 
-1. Die Methode FontConfigs.GetFontSources gibt ein Array vom Typ FontSourceBase zurück, das die Liste der angegebenen Schriftartquellen enthält. Falls keine Quellen festgelegt wurden, gibt die Methode FontConfigs.GetFontSources ein leeres Array zurück.
-1. Die Methode „FontConfigs.GetFontSubstitutes“ akzeptiert einen Parameter vom Typ „String“, mit dem der Schriftartname angegeben werden kann, für den eine Ersetzung festgelegt wurde. Falls für den angegebenen Schriftartnamen keine Ersetzung festgelegt wurde, gibt die Methode FontConfigs.GetFontSubstitutes null zurück.
+1. Die Methode FontConfigs.GetFontSources gibt ein Array vom Typ FontSourceBase zurück, das die Liste der angegebenen Schriftquellen enthält. Falls keine Quellen festgelegt wurden, gibt die Methode FontConfigs.GetFontSources ein leeres Array zurück.
+1. Die Methode FontConfigs.GetFontSubstitutes akzeptiert einen Parameter vom Typ string, mit dem der Schriftartname angegeben werden kann, für den eine Substitution festgelegt wurde. Falls keine Substitution für den angegebenen Schriftartnamen festgelegt wurde, gibt die Methode FontConfigs.GetFontSubstitutes null zurück.
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu FontConfigs finden Sie im Artikel unter[Konfigurieren von Schriftarten zum Rendern von Tabellenkalkulationen](/cells/de/net/configuring-fonts-for-rendering-spreadsheets/).
+Für weitere Details zu FontConfigs lesen Sie bitte den Artikel über [Konfigurieren von Schriftarten für das Rendern von Tabellenkalkulationen](/cells/de/net/configuring-fonts-for-rendering-spreadsheets/).
 
 {{% /alert %}} 
-### **IFilePathProvider Interface & HtmlSaveOptions.FilePathProvider-Eigenschaft hinzugefügt**
-Aspose.Cells for .NET 8.9.1 ermöglicht das Abrufen/Setzen des IFilePathProvider zum Exportieren von Arbeitsblättern in separate HTML-Dateien. Diese neuen APIs sind in Szenarien hilfreich, in denen Hyperlinks in einem Arbeitsblatt auf eine Position in einem anderen Arbeitsblatt verweisen, in denen die Anwendungsanforderung darin besteht, jedes Arbeitsblatt in eine separate HTML-Datei zu rendern. Die Implementierung des IFilePathProvider ermöglicht es, die oben genannten Hyperlinks intakt zu halten, unabhängig davon, ob sie auf einen Ort in einer separaten resultierenden HTML-Datei verweisen.
+### **Hinzugefügt: IFilePathProvider-Schnittstelle & HtmlSaveOptions.FilePathProvider-Eigenschaft**
+Aspose.Cells for .NET 8.9.1 ermöglicht das Setzen/Abfragen des IFilePathProvider zum Exportieren von Tabellenkalkulationen in separate HTML-Dateien. Diese neuen APIs sind hilfreich in Szenarien, in denen Hyperlinks in einer Tabelle auf einen Ort in einer anderen Tabelle verweisen, und die Anwendungsanforderung ist, jede Tabelle in eine separate HTML-Datei zu rendert. Die Implementierung des IFilePathProvider ermöglicht das Beibehalten der genannten Hyperlinks, unabhhängig davon, ob sie auf einen Ort in einer separaten resultierenden HTML-Datei verweisen.
 
-Im Folgenden ist das einfache Verwendungsszenario der HtmlSaveOptions.FilePathProvider-Eigenschaft dargestellt.
+Im Folgenden wird das einfache Anwendungsszenario der Eigenschaft HtmlSaveOptions.FilePathProvider beschrieben.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- // Eine Tabelle in eine Instanz von Workbook laden
+ // Load a spreadsheet in an instance of Workbook
 
 var book = new Workbook(dir + "sample.xlsx");
 
-// Speichern Sie jedes Arbeitsblatt in einer separaten HTML-Datei
+// Save each Worksheet to separate HTML file
 
- für (int i = 0; i< book.Worksheets.Count; i++)
+for (int i = 0; i < book.Worksheets.Count; i++)
 
 {
 
@@ -145,11 +146,11 @@ var book = new Workbook(dir + "sample.xlsx");
 
 
 
-So implementieren Sie die IFilePathProvider-Schnittstelle.
+So implementiert man das IFilePathProvider-Interface.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class FilePathProvider : IFilePathProvider
 
@@ -203,17 +204,17 @@ So implementieren Sie die IFilePathProvider-Schnittstelle.
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Verbesserung finden Sie im Artikel auf[Implementieren der IFilePathProvider-Schnittstelle](/cells/de/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
+Für weitere Details zu dieser Optimierung lesen Sie bitte den Artikel über [Implementierung des IFilePathProvider-Interfaces](/cells/de/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
 
 {{% /alert %}} 
-### **CopyOptions.ReferToDestinationSheet-Eigenschaft und Überladung für Cells.CopyRows-Methode hinzugefügt**
-Aspose.Cells for .NET API hat die CopyOptions.ReferToDestinationSheet-Eigenschaft des booleschen Typs zusammen mit der Überladung der Cells.CopyRows-Methode verfügbar gemacht, um den Vorgang zum Kopieren von Zeilen zu vereinfachen, wenn zu kopierende Zeilen auch ein Diagramm und seine Datenquelle enthalten. Entwickler können diese neuen APIs verwenden, um die Datenquelle des Diagramms auf die Quell- oder Zielarbeitsblätter zu verweisen.
+### **Hinzugefügte CopyOptions.ReferToDestinationSheet Eigenschaft & Überladung für Cells.CopyRows Methode**
+Die Aspose.Cells for .NET-API hat die Boolean-Typen CopyOptions.ReferToDestinationSheet Eigenschaft freigegeben, zusammen mit einer Überladung der Cells.CopyRows Methode, um den Kopiervorgang von Zeilen zu erleichtern, wenn die zu kopierenden Zeilen auch ein Diagramm und seine Datenquelle enthalten. Entwickler können diese neuen APIs nutzen, um die Datenquelle des Diagramms auf die Quell- oder Zielarbeitsblätter zu verweisen.
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet in an instance of Workbook
 
@@ -245,17 +246,17 @@ book.Save(dir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im Artikel auf[Steuern Sie die Datenquelle des Diagramms beim Kopieren von Zeilen](/cells/de/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
+Für weitere Details zu dieser Funktion lesen Sie bitte den Artikel über [Steuerung der Datenquelle des Diagramms beim Kopieren von Zeilen](/cells/de/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
 
 {{% /alert %}} 
-### **CalculationOptions.Recursive-Eigenschaft hinzugefügt**
-Aspose.Cells for .NET 8.9.1 hat die CalculationOptions.Recursive-Eigenschaft des booleschen Typs verfügbar gemacht. Durch Festlegen der Eigenschaft „CalculationOptions.Recursive“ auf „true“ und Übergeben des Objekts an die Methode „Workbook.CalculateFormula“ werden die Aspose.Cells-APIs angewiesen, die abhängigen Zellen rekursiv zu berechnen, wenn Zellen berechnet werden, die von anderen Zellen abhängen.
+### **Hinzugefügt: CalculationOptions.Recursive-Eigenschaft**
+Aspose.Cells for .NET 8.9.1 hat die Boolean-Typen CalculationOptions.Recursive Eigenschaft freigegeben. Durch Setzen der CalculationOptions.Recursive Eigenschaft auf true und Übergeben des Objekts an die Workbook.CalculateFormula Methode wird die Aspose.Cells-API angewiesen, die abhängigen Zellen rekursiv zu berechnen, wenn Zellen berechnet werden, die von anderen Zellen abhängen.
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet in an instance of Workbook
 
@@ -275,13 +276,13 @@ book.CalculateFormula(options);
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im Artikel auf[Berechnungszeit optimieren](/cells/de/net/decrease-the-calculation-time-of-cell-calculate-method/).
+Für weitere Details zu dieser Optimierung lesen Sie bitte den Artikel über [Optimierung der Berechnungszeit](/cells/de/net/decrease-the-calculation-time-of-cell-calculate-method/).
 
 {{% /alert %}}
 ## **Veraltete APIs**
-### **Veraltete CellsHelper.FontDir-Eigenschaft**
-Es wird empfohlen, stattdessen die Methode FontConfigs.SetFontFolder(string, bool) zu verwenden, wobei der Ordner rekursiv zu „false“ wird.
-### **Veraltete CellsHelper.FontDirs-Eigenschaft**
-Verwenden Sie stattdessen die Methode „FontConfigs.SetFontFolders(string[], bool)“, wobei der Ordner rekursiv zu „false“ wird.
-### **Veraltete CellsHelper.FontFiles-Eigenschaft**
-Verwenden Sie stattdessen die Methode FontConfigs.SetFontSources(FontSourceBase[]).
+### **Veraltete Eigenschaft CellsHelper.FontDir**
+Es wird empfohlen, die FontConfigs.SetFontFolder(string, bool) Methode mit rekursivem Ordner auf false zu verwenden.
+### **Veraltete Eigenschaft CellsHelper.FontDirs**
+Verwenden Sie die FontConfigs.SetFontFolders(string[], bool) Methode mit rekursivem Ordner auf false stattdessen.
+### **Veraltete Eigenschaft CellsHelper.FontFiles**
+Verwenden Sie die Methode FontConfigs.SetFontSources(FontSourceBase[]) stattdessen.

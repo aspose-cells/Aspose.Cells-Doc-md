@@ -1,30 +1,33 @@
-﻿---
-title: Exportación de datos desde la cuadrícula
+---
+title: Exportar datos desde Grid
 type: docs
 weight: 60
-url: /es/net/exporting-data-from-grid/
+url: /es/net/aspose-cells-griddesktop/export-data-from-grid/
+keywords: GridDesktop, exportar, datos, exportar datos
+description: Este artículo presenta cómo exportar datos en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-En nuestro tema anterior, hablamos sobre la importación del contenido de un DataTable al control Aspose.Cells.GridDesktop, pero no mencionamos a propósito que Aspose.Cells.GridDesktop también admite el proceso inverso. Entonces, en este tema, hablaremos sobre cómo exportar los datos dentro del control Aspose.Cells.GridDesktop a un DataTable.
+En nuestro tema anterior, hemos hablado acerca de importar el contenido de un DataTable al control Aspose.Cells.GridDesktop, pero no mencionamos a propósito que Aspose.Cells.GridDesktop también soporta el proceso inverso. Por lo tanto, en este tema, discutiremos sobre la exportación de los datos dentro del control Aspose.Cells.GridDesktop a un DataTable.
 
 {{% /alert %}} 
-## **Exportación de contenido de cuadrícula**
-### **Exportación a una tabla de datos específica**
- Para exportar el contenido de Grid a un objeto DataTable específico, siga los pasos a continuación: Agregue el control Aspose.Cells.GridDesktop a su**Formulario**.
+## **Exportar contenido de Grid**
+### **Exportar a un DataTable específico**
+Para exportar el contenido del Grid a un objeto DataTable específico, siga los siguientes pasos: Agregue el control Aspose.Cells.GridDesktop a su **Formulario**.
 
 - Cree un objeto DataTable específico según sus necesidades.
--  Exportar los datos de un seleccionado**Hoja de cálculo** a su objeto DataTable especificado.
+- Exporte los datos de una **Hoja de cálculo** seleccionada a su objeto DataTable especificado.
 
-En el ejemplo que se muestra a continuación, hemos creado un objeto DataTable específico que tiene cuatro columnas en su interior. Finalmente, exportamos los datos de la hoja de trabajo (comenzando desde la primera celda con 69 filas y 4 columnas) a un objeto DataTable ya creado por nosotros.
+En el ejemplo a continuación, hemos creado un objeto DataTable específico con cuatro columnas. Finalmente, exportamos los datos de la hoja de cálculo (comenzando desde la primera celda con 69 filas y 4 columnas) a un objeto DataTable que ya hemos creado.
 
 **Ejemplo:**
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ExportDataToDataTable-ExportToSpecificDataTable.cs" >}}
-### **Exportación a una nueva tabla de datos**
-veces, los desarrolladores pueden no estar interesados en crear su propio objeto DataTable y pueden tener una simple necesidad de exportar los datos de la hoja de trabajo a un nuevo objeto DataTable. Sería la forma más rápida para que los desarrolladores simplemente exporten los datos de la hoja de trabajo.
+### **Exportar a un nuevo DataTable**
+A veces, los desarrolladores pueden no estar interesados en crear su propio objeto DataTable y podrían tener la simple necesidad de exportar los datos de la hoja de cálculo a un nuevo objeto DataTable. Sería la forma más rápida para los desarrolladores de exportar los datos de la hoja de cálculo.
 
-En el ejemplo que se muestra a continuación, hemos probado una forma diferente de explicar el uso del método ExportDataTable. Hemos tomado la referencia de la hoja de trabajo que está actualmente activa y luego exportamos los datos completos de esa hoja de trabajo activa a un nuevo objeto DataTable. Ahora, este objeto DataTable se puede usar de cualquier forma que desee un desarrollador. Solo por ejemplo, un desarrollador puede vincular este objeto DataTable a un DataGrid para ver los datos.
+En el ejemplo a continuación, hemos intentado una forma diferente de explicar el uso del método ExportDataTable. Hemos tomado la referencia de la hoja de cálculo que está actualmente activa y luego exportamos los datos completos de esa hoja de cálculo activa a un nuevo objeto DataTable. Ahora, este objeto DataTable puede ser utilizado de la forma que el desarrollador desee. Por ejemplo, un desarrollador puede vincular este objeto DataTable a un DataGrid para ver los datos.
 
 **Ejemplo:**
 
@@ -32,6 +35,6 @@ En el ejemplo que se muestra a continuación, hemos probado una forma diferente 
 
 {{% alert color="primary" %}} 
 
-En el caso anterior, utilizaremos una versión sobrecargada del método ExportDataTable que simplemente devolverá un nuevo objeto DataTable que contiene datos exportados desde la hoja de trabajo.
+En el caso anterior, utilizaremos una versión sobrecargada del método ExportDataTable que simplemente devolverá un nuevo objeto DataTable conteniendo los datos exportados de la hoja de cálculo.
 
 {{% /alert %}}

@@ -1,25 +1,26 @@
-﻿---
-title: احصل على تطبيق التحقق من الصحة على Cell
+---
+title: الحصول على التحقق المطبق على خلية ما
 type: docs
 weight: 200
 url: /ar/net/get-validation-applied-on-a-cell/
-description: توضح هذه المقالة كيفية تطبيق التحقق من الصحة على Cell مع C#
-keywords: apply cell validation in excel with c#, apply validation on a cell in excel with c#, apply validation in excel with c#, cell validation in excel with c#, c# apply cell validation in excel, c# apply validation on a cell in excel, c# cell validation in excel, c# cell validation
+description: توضح هذه المقالة كيفية تطبيق التحقق على خلية باستخدام C#
+keywords: تطبيق التحقق من الخلية في إكسل باستخدام C#، تطبيق التحقق على خلية في إكسل باستخدام C#، تطبيق التحقق في إكسل باستخدام C#، التحقق من الخلية في إكسل باستخدام C#، C# تطبيق التحقق على خلية في إكسل، C# تطبيق التحقق في إكسل على خلية، C# التحقق من الخلية في إكسل، C# التحقق من الخلية
 ---
+
 {{% alert color="primary" %}}
 
-يمكنك استخدام Aspose.Cells لتطبيق التحقق على خلية. يوفر Aspose.Cells ملف[**Cell.GetValidation ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) طريقة لهذا الغرض. إذا لم يتم تطبيق التحقق من الصحة على الخلية ، فإنها ترجع قيمة خالية.
+يمكنك استخدام Aspose.Cells للحصول على التحقق المطبق على خلية. توفر Aspose.Cells الأسلوب [**Cell.GetValidation()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) لهذا الغرض. إذا لم يتم تطبيق التحقق على الخلية، يعيد قيمة فارغة.
 
- وبالمثل ، يمكنك استخدام ملفات[**Worksheet.Validations.GetValidationInCell**](https://reference.aspose.com/cells/net/aspose.cells/validationcollection/methods/getvalidationincell) طريقة للحصول على التحقق المطبق على خلية من خلال توفير فهارس الصفوف والأعمدة.
+بالمثل، يمكنك استخدام الأسلوب [**Worksheet.Validations.GetValidationInCell**](https://reference.aspose.com/cells/net/aspose.cells/validationcollection/methods/getvalidationincell) للحصول على التحقق المطبق على خلية عن طريق توفير مؤشرات الصف والعمود الخاصة بها.
 
 {{% /alert %}}
 
-## C# كود للحصول على التحقق المطبق على Cell
+## كود C# للحصول على التحقق المطبق على الخلية
 
-أدناه نموذج التعليمات البرمجية ، يوضح لك كيفية تطبيق التحقق من الصحة على خلية.
+توضح العينة البرمجية التالية كيفية الحصول على التحقق المطبق على خلية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetValidationAppliedOnCell-GetValidationAppliedOnCell.cs" >}}
 
 ## مقالات ذات صلة
 
-- [تأكيد صحة البيانات](/cells/ar/net/data-validation/)
+- [التحقق من البيانات](/cells/ar/net/data-validation/)

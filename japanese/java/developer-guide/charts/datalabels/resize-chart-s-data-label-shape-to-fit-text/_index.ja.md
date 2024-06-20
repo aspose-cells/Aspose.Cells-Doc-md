@@ -1,27 +1,28 @@
-﻿---
-title: グラフのデータ ラベルの形状をテキストに合わせてサイズ変更する
+---
+title: チャートのデータラベルの形状をテキストに合わせるようにサイズ変更する
 type: docs
 weight: 190
 url: /ja/java/resize-chart-s-data-label-shape-to-fit-text/
 ---
+
 {{% alert color="primary" %}}
 
-Excel アプリケーションが提供する**テキストに合わせて図形のサイズを変更する**テキストが内部に収まるように形状のサイズを大きくするには、Chart の DataLabels のオプション。このオプションは、グラフのデータ ラベルのいずれかを選択することにより、Excel インターフェイスでアクセスできます。右クリックして選択**DataLabels の書式設定**メニュー。の上**サイズと特性**タブ、展開**アライメント**を含む関連プロパティを明らかにする**図形のサイズを変更してテキストを修正する**オプション。
+Excelアプリケーションは、チャートのデータラベルの**テキストに合わせたシェイプをリサイズ**するオプションを提供しています。これにより、テキストが内部に収まるようにシェイプのサイズを拡大できます。このオプションは、Excelインターフェースでチャートのデータラベルを選択し、右クリックして**フォーマットデータラベル**メニューを選択することでアクセスできます。**Size & Properties**タブで、**Alignment**を展開して**テキストに合わせてサイズ変更**オプションを表示します。
 
-![todo:画像_代替_文章](resize-chart-s-data-label-shape-to-fit-text_1.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_1.png)
 
 {{% /alert %}}
 
-## **グラフのデータ ラベルの形状をテキストに合わせてサイズ変更する**
+## **テキストに合わせるようにチャートのデータラベルの形状をリサイズする**
 
-データ ラベルの形状をテキストに合わせてサイズ変更する Excel の機能を模倣するために、Aspose.Cells API は Boolean 型を公開しました。[**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText)財産。次のコードは、の単純な使用シナリオを示しています。[**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText)財産。
+Excelのデータラベルのサイズをテキストに合わせる機能を模倣するために、Aspose.Cells APIでは、ブール型[**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText)プロパティが公開されています。次のコード例は、[**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText)プロパティの簡単な使用シナリオを示しています。
 
-コードを実行する前のチャートは次のようになります。
+コードを実行する前のチャートは次のように見えます。
 
-![todo:画像_代替_文章](resize-chart-s-data-label-shape-to-fit-text_2.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ResizeChartDataLabelShapeToFitText-ResizeChartDataLabelShapeToFitText.java" >}}
 
-コードを実行すると、チャートは次のようになります。
+コードを実行した後のチャートは次のように見えます。
 
-![todo:画像_代替_文章](resize-chart-s-data-label-shape-to-fit-text_3.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)

@@ -3,156 +3,157 @@ title: Veri Filtreleme
 type: docs
 weight: 85
 url: /tr/net/data-filtering/
-description: Aspose.Cells for .NET API numaralı telefonu kullanarak veri filtresini nasıl ekleyeceğinizi öğrenin.
-keywords: Add Filter by Color, Add Date Filters, Add Number Filters, Add Dynamic Filter, Add Text Filters, Add custom filter with Contains, Add custom filter with NotContains, Add custom filter with BeginsWith, Add custom filter with EndsWith
+description: Aspose.Cells for .NET API sını kullanarak veri filtresi eklemeyi öğrenin.
+keywords: Renkle Filtre Ekleme, Tarih Filtreleri Ekleme, Sayı Filtreleri Ekleme, Dinamik Filtre Ekleme, Metin Filtreleri Ekleme, İçeren Özel Filtre Ekleme, İçermeyen Özel Filtre Ekleme, Başlayan Özel Filtre Ekleme, Biten Özel Filtre Ekleme
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel, çalışma sayfası verilerini otomatik olarak filtrelemek için bazı iyi özellikler sağlar. Aspose.Cells, Microsoft Excel'in otomatik filtreleme özelliklerini tam olarak destekler. Bu makalede, Microsoft Excel'deki özelliklerin nasıl kullanılacağı ve bunların Aspose.Cells kullanılarak nasıl kodlanacağı açıklanmaktadır.
+Microsoft Excel, elektronik tablo verilerini otomatik filtreleme özellikleri sağlar. Aspose.Cells, Microsoft Excel'in otomatik filtreleme özelliklerini tamamen destekler. Bu makale, Microsoft Excel'deki özellikleri nasıl kullanabileceğinizi ve onları Aspose.Cells kullanarak nasıl kodlayabileceğinizi açıklar.
 
 {{% /alert %}}
 
-##  **Verileri Otomatik Filtrele**
+## **Veriye Otomatik Filtreleme Uygulama**
 
-Otomatik filtreleme, çalışma sayfasında yalnızca listede görüntülemek istediğiniz öğeleri seçmenin en hızlı yoludur. Otomatik filtreleme özelliği, kullanıcıların bir listedeki öğeleri belirlenen kriterlere göre filtrelemesine olanak tanır. Metne, sayılara veya tarihlere göre filtreleyin.
+Otomatik filtreleme, listede görüntülemek istediğiniz yalnızca öğeleri seçmenin en hızlı yoludur. Otomatik filtreleme özelliği, kullanıcılara belirli bir kriterlere göre listedeki öğeleri filtreleme olanağı sağlar. Metne, sayılara veya tarih bilgilerine göre filtreleme yapın.
 
-###  **Microsoft Excel'de otomatik filtreleme**
+### **Microsoft Excel'de Otomatik Filtreleme**
 
 Microsoft Excel'de otomatik filtreleme özelliğini etkinleştirmek için:
 
-1. Bir çalışma sayfasında başlık satırını tıklayın.
-1.  itibaren**Veri** menü, seç**Filtre** ve ardından *Otomatik Filtre**.
+1. Bir çalışma sayfasında başlık satırına tıklayın.
+1. **Veri** menüsünden **Filtre** seçin ve ardından **Otomatik Filtre**'yi seçin.
 
-Bir çalışma sayfasına otomatik filtre uyguladığınızda, sütun başlıklarının sağında filtre anahtarları (siyah oklar) görünür.
+Bir çalışma sayfasına otomatik filtre uyguladığınızda, filtre anahtarları (siyah oklar) sütun başlıklarının sağında görünür.
 
-1. Filtre seçeneklerinin listesini görmek için bir filtre okunu tıklayın.
+1. Bir filtre okuna tıklayarak filtre seçeneklerinin listesini görüntüleyin.
 
-Otomatik filtre seçeneklerinden bazıları şunlardır:
+Otomatik filtre seçeneklerinden bazıları:
 
-|**Seçenekler**|**Tanım**|
+|**Seçenekler**|**Açıklama**|
 | :- | :- |
-|Tüm|Listedeki tüm öğeleri bir kez göster.|
-|Gelenek|İçerir/içermez gibi filtre kriterlerini özelleştirin|
-|Renge Göre Filtrele|Doldurulan renge göre filtreler|
-|Tarih Filtreleri|Tarihe göre farklı ölçütlere göre satırları filtreler|
-|Sayı Filtreleri|Karşılaştırma, ortalamalar ve İlk 10 gibi sayılara ilişkin farklı filtre türleri.|
-|Metin Filtreleri|İle başlar, ile biter, içerir vb. gibi farklı filtreler,|
-|Boşluklar/Boş Olmayanlar|Bu filtreler Boş Metin Filtresi aracılığıyla uygulanabilir|
+|All|Listedeki tüm öğeleri bir kez gösterir.
+|Custom|İçerir/içermez gibi özel filtre kriterleri
+|Filter by Color|Dolgu rengine göre filtreleme
+|Date Filters|Tarihe göre farklı kriterlere dayalı filtreleme
+|Number Filters|Karşılaştırma, ortalama ve En Üst 10 vb. gibi sayılar üzerinde farklı filtre türleri.
+|Text Filters|Başlangıç, son, içerir vb. gibi farklı filtreler
+|Blanks/Non Blanks|Bu filtreler Metin Filtre Boş üzerinden uygulanabilir
 
-Kullanıcılar bu seçenekleri kullanarak Microsoft Excel'deki çalışma sayfası verilerini manuel olarak filtrelerler.
+Kullanıcılar, Microsoft Excel'de bu seçenekleri kullanarak çalışma sayfalarındaki verileri manuel olarak filtreler.
 
-###  **Aspose.Cells ile otomatik filtre**
+### **Aspose.Cells ile Autofilter**
 
-Aspose.Cells, bir Excel dosyasını temsil eden Çalışma Kitabı adlı bir sınıf sağlar. Çalışma Kitabı sınıfı, Excel dosyasındaki her çalışma sayfasına erişime izin veren bir Çalışma Sayfaları koleksiyonu içerir.
+Aspose.Cells, Excel dosyasını temsil eden Bir Excel dosyasını temsil eden Workbook sınıfını sağlar. Workbook sınıfı, her bir çalışma sayfasına erişime izin veren Worksheets koleksiyonunu içerir.
 
-Bir çalışma sayfası, Worksheet sınıfı tarafından temsil edilir. Worksheet sınıfı, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Otomatik filtre oluşturmak için Worksheet sınıfının AutoFilter özelliğini kullanın. AutoFilter özelliği, bir başlık satırını oluşturan hücre aralığını belirtmek için Range özelliğini sağlayan AutoFilter sınıfının bir nesnesidir. Başlık satırı olan hücre aralığına otomatik filtre uygulanır.
+Bir çalışma sayfası Worksheet sınıfı ile temsil edilir. Worksheet sınıfı, çalışma sayfalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Bir otomatik filtre oluşturmak için AutoFilter sınıfının Worksheet sınıfının AutoFilter özelliğini kullanın. AutoFilter özelliği, başlık satırını oluşturan hücre aralığını belirtmek için Range özelliğini sağlar. Bir otomatik filtre, başlık satırını oluşturan hücre aralığına uygulanır.
 
-Her çalışma sayfasında yalnızca bir filtre aralığı belirtebilirsiniz. Bu Microsoft Excel ile sınırlıdır. Özel veri filtreleme için AutoFilter.Custom yöntemini kullanın.
+Her çalışma sayfasında yalnızca bir filtre aralığı belirleyebilirsiniz. Bu, Microsoft Excel tarafından sınırlıdır. Özel veri filtrelemesi için AutoFilter.Custom yöntemini kullanın.
 
-Aşağıda verilen örnekte, yukarıdaki bölümde Microsoft Excel kullanarak oluşturduğumuz Otomatik Filtrenin aynısını Aspose.Cells kullanarak oluşturduk.
+Aşağıdaki örnekte, Yukarıdaki bölümde Microsoft Excel kullanarak oluşturulan AutoFilter'ı Aspose.Cells kullanarak oluşturduk.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterData-1.cs" >}}
 
-####  **Farklı Filtre türleri**
+#### **Farklı Türlerde Filtre**
 
-Aspose.Cells, Renk Filtresi, Tarih Filtresi, Sayı Filtresi, Metin Filtresi, Boş Filtreler ve Boş Olmayan Filtreler gibi farklı filtre türlerini uygulamak için birden fazla seçenek sunar.
+Aspose.Cells, Renk Filtresi, Tarih Filtresi, Sayı Filtresi, Metin Filtresi, Boş Filtreler ve Dolu Filtreler gibi farklı filtre türleri uygulamak için birden fazla seçenek sağlar.
 
-#####  **Dolgu Rengi**
+##### **Dolgu Rengi**
 
-Aspose.Cells, hücrelerin dolgu rengi özelliğine göre verileri filtrelemek için AddFillColorFilter işlevini sağlar. Aşağıda verilen örnekte, renk filtreleme fonksiyonunu test etmek için sayfanın ilk sütununda farklı dolgu renklerine sahip bir şablon dosyası kullanılmıştır. Örnek dosyalar aşağıdaki bağlantılardan indirilebilir.
+Aspose.Cells, hücrelerin dolum rengi özelliğine göre verileri filtrelemek için AddFillColorFilter fonksiyonunu sağlar. Aşağıdaki örnekte, sayfanın ilk sütununda farklı dolgu renklerine sahip bir şablon dosyası, renk filtreleme işlevini test etmek için kullanılmaktadır. Örnek dosyalar aşağıdaki bağlantılardan indirilebilir.
 
-1. [Renkli Hücreler.xlsx](72417315.xlsx)
-1. [FiltrelenmişRenkliHücreler.xlsx](72417316.xlsx)
+1. [ColouredCells.xlsx](72417315.xlsx)
+1. [FilteredColouredCells.xlsx](72417316.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterColor-1.cs" >}}
 
-#####  **Tarih**
+##### **Tarih**
 
-Ocak 2018'de tarihleri olan tüm satırları filtrelemek gibi farklı türde tarih filtreleri uygulanabilir. Aşağıdaki örnek kod, bu filtreyi AddDateFilter işlevini kullanarak gösterir. Örnek dosyalar aşağıda verilmiştir.
+Ocak 2018 tarihine sahip tüm satırları filtrelemek gibi farklı tarih filtreleri uygulanabilir. Aşağıdaki örnek kod, AddDateFilter işlevini kullanarak bu filtrelemeyi göstermektedir. Örnek dosyalar aşağıda verilmiştir.
 
-1. [Tarih.xlsx](72417317.xlsx)
+1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDate.xlsx](72417318.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterDate-1.cs" >}}
 
-#####  **Dinamik Tarih**
+##### **Dinamik Tarih**
 
-Bazen, yıldan bağımsız olarak tüm hücrelerin Ocak ayında tarihlere sahip olması gibi, tarihe dayalı olarak dinamik filtreler gerekir. Bu durumda aşağıdaki örnek kodda verildiği gibi DynamicFilter fonksiyonu kullanılır. Örnek dosyalar aşağıda verilmiştir.
+Zaman zaman yıla bağlı olmaksızın, örneğin Ocak ayında tüm hücrelerin tarih temelli dinamik filtrelemelere ihtiyaç duyulabilir. Bu durumda DynamicFilter işlevi aşağıdaki örnek kodda olduğu gibi kullanılır. Örnek dosyalar aşağıdaki verilmiştir.
 
-1. [Tarih.xlsx](72417317.xlsx)
+1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDynamicDate.xlsx](72417319.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterDynamicFilter-1.cs" >}}
 
-#####  **Sayı**
+##### **Sayı**
 
-Belirli bir aralıkta sayıya sahip hücreleri seçmek gibi Aspose.Cells kullanılarak özel filtreler uygulanabilir. Aşağıdaki örnek, sayıları filtrelemek için Custom() işlevinin kullanımını göstermektedir. Örnek dosyalar aşağıda verilmiştir.
+Aspose.Cells ile Özel filtreler, belirli bir aralıktaki sayıları seçmek gibi uygulanabilir. Aşağıdaki örnek, sayıları filtreleme işlevini göstermek için Custom() fonksiyonunun kullanımını göstermektedir. Örnek dosyalar aşağıda verilmiştir.
 
-1. [Sayı.xlsx](72417320.xlsx)
+1. [Number.xlsx](72417320.xlsx)
 1. [FilteredNumber.xlsx](72417321.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterNumber-1.cs" >}}
 
-#####  **Metin**
+##### **Metin**
 
-Bir sütunda metin varsa ve belirli bir metni içeren hücreler seçilecekse, Filter() işlevi kullanılabilir. Aşağıdaki örnekte, şablon dosyası ülkelerin listesini içermektedir ve belirli bir ülke adını içeren satır seçilecektir. Aşağıdaki kod, metni filtrelemeyi gösterir. Örnek dosyalar aşağıda verilmiştir.
+Eğer bir sütun metin içeriyorsa ve belirli metni içeren hücreler seçilmek isteniyorsa, Filter() işlevi kullanılabilir. Aşağıdaki örnekte, şablon dosyası ülkelerin listesini içerir ve belirli bir ülke adını içeren satır seçilmelidir. Aşağıdaki kod, metni filtrelemeyi göstermektedir. Örnek dosyalar aşağıda verilmiştir.
 
-1. [Metin.xlsx](72417322.xlsx)
+1. [Text.xlsx](72417322.xlsx)
 1. [FilteredText.xlsx](72417323.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterText-1.cs" >}}
 
-#####  **Boşluklar**
+##### **Boşluklar**
 
-Bir sütun, birkaç hücrenin boş olacağı şekilde metin içeriyorsa ve yalnızca boş hücrelerin bulunduğu satırları seçmek için filtre gerekiyorsa, MatchBlanks() işlevi aşağıda gösterildiği gibi kullanılabilir. Örnek dosyalar aşağıda verilmiştir.
+Eğer bir sütun metin içeriyorsa ve bazı hücreler boşsa ve yalnızca boş hücrelerin bulunduğu satırları seçmek gerekiyorsa, MatchBlanks() işlevi aşağıda gösterildiği gibi kullanılabilir. Örnek dosyalar aşağıda verilmiştir.
 
 1. [Boş.xlsx](72417324.xlsx)
-1. [FilteredBlank.xlsx](72417325.xlsx)
+1. [FiltreliBos.xlsx](72417325.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterBlank-1.cs" >}}
 
-#####  **Boşluksuz**
+##### **Boş Olmayanlar**
 
-Herhangi bir metin içeren hücreler filtrelenecekse, aşağıda gösterildiği gibi MatchNonBlanks filtre işlevini kullanın. Örnek dosyalar aşağıda verilmiştir.
+Herhangi bir metin içeren hücrelerin filtrelenmesi gerektiğinde, aşağıda gösterildiği gibi MatchNonBlanks filtre işlevi kullanılır. Örnek dosyalar aşağıda verilmiştir.
 
 1. [Boş.xlsx](72417324.xlsx)
-1. [FilteredNonBlank.xlsx](72417326.xlsx)
+1. [FiltreliBosOlmayan.xlsx](72417326.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterNonBlank-1.cs" >}}
 
-#####  **İçerir özelliğine sahip özel filtre**
+##### **Contains ile Özel filtre**
 
-Excel, bazı belirli dizeleri içeren filtre satırları gibi özel filtreler sağlar. Bu özellik Aspose.Cells'de mevcuttur ve aşağıda örnek dosyadaki adların filtrelenmesiyle gösterilmiştir. Örnek dosyalar aşağıda verilmiştir.
+Excel, bazı belirli dizeleri içeren satırları filtrelemek gibi özel filtreler sunar. Bu özellik Aspose.Cells'te mevcuttur ve aşağıda örnek dosyadaki isimleri filtreleyerek gösterilmiştir. Örnek dosyalar aşağıda verilmiştir
 
-1. [kaynakÖrnekÜlkeAdları.xlsx](sourseSampleCountryNames.xlsx)
+1. [sourseOrnekUlkeIsimleri.xlsx](sourseOrnekUlkeIsimleri.xlsx)
 1. [outSourseSampleCountryNames.xlsx](outSourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterCustom-Contains-1.cs" >}}
 
-#####  **NotContains ile özel filtre**
+##### **Contains Kullanmadan Özel filtre**
 
-Excel, belirli bir dize içermeyen filtre satırları gibi özel filtreler sağlar. Bu özellik Aspose.Cells'de mevcuttur ve aşağıda verilen örnek dosyadaki isimler filtrelenerek aşağıda gösterilmiştir.
+Excel, belirli bir dizeyi içermeyen satırları filtrelemek gibi özel filtreler sunar. Bu özellik Aspose.Cells'te mevcuttur ve aşağıda örnek dosyadaki isimleri filtreleyerek gösterilmiştir.
 
-1. [kaynakÖrnekÜlkeAdları.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterCustom-NotContains-1.cs" >}}
 
-#####  **BeginsWith ile özel filtre**
+##### **Belirli bir dizeyle Başlayan Özel Filtre**
 
-Excel, belirli bir dizeyle başlayan filtre satırları gibi özel filtreler sağlar. Bu özellik Aspose.Cells'de mevcuttur ve aşağıda verilen örnek dosyadaki isimler filtrelenerek aşağıda gösterilmiştir.
+Excel, belirli bir dizeyle başlayan satırları filtrelemek gibi özel filtreler sunar. Bu özellik Aspose.Cells'te mevcuttur ve aşağıda örnek dosyadaki isimleri filtreleyerek gösterilmiştir.
 
-1. [kaynakÖrnekÜlkeAdları.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterBeginsWith-1.cs" >}}
 
-#####  **EndsWith ile özel filtre**
+##### **Belirli Bir Dize ile Biten Özel Filtre**
 
-Excel, belirli bir dizeyle biten filtre satırları gibi özel filtreler sağlar. Bu özellik Aspose.Cells'de mevcuttur ve aşağıda verilen örnek dosyadaki isimler filtrelenerek aşağıda gösterilmiştir.
+Excel, belirli bir dizeyle biten satırları filtrelemek gibi özel filtreler sunar. Bu özellik Aspose.Cells'te mevcuttur ve aşağıda örnek dosyadaki isimleri filtreleyerek gösterilmiştir.
 
-1. [kaynakÖrnekÜlkeAdları.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterEndsWith-1.cs" >}}
 
-##  **İleri konular**
-- [Karmaşık Kriterleri Karşılayan Kayıtları Görüntülemek için Microsoft Excel Gelişmiş Filtresini Uygulayın](/cells/tr/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
-- [Otomatik Filtreyi Yeniledikten Sonra Tüm Gizli Satır Dizinlerini Al](/cells/tr/net/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+## **Gelişmiş Konular**
+- [Karmaşık Kriterleri Karşılayan Kayıtları Göstermek İçin Microsoft Excel'in İleri Filtresini Uygulayın](/cells/tr/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Yenileme Otomatik Filtre Sonrası Tüm Gizli Satır Dizinleri Alın](/cells/tr/net/get-all-hidden-rows-indices-after-refreshing-autofilter/)

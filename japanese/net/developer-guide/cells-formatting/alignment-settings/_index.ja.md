@@ -1,124 +1,125 @@
 ---
-title: アライメント設定
-description: Aspose.Cells ライブラリでは、セル配置設定を使用してテキストのレイアウトと表示を調整できます。水平方向の配置、垂直方向の配置、テキストの折り返しなどの設定を調整することで、セル内でのテキストの流れをより詳細に制御できます。このドキュメントでは、セルの配置設定に Aspose.Cells を使用する方法をすぐに理解できるように、詳細な手順とサンプル コードを提供します。
-keywords: Aspose.Cells, cell alignment, horizontal alignment, vertical alignment, text wrapping
+title: 配置設定
+description: Aspose.Cellsライブラリでは、セルの配置設定を使用してテキストのレイアウトと表示を調整できます。水平配置、垂直配置、テキストの折り返しなどの設定を調整することで、セル内のテキストの流れをより細かく制御できます。このドキュメントでは、Aspose.Cellsを使用したセルの配置設定の詳細な手順とサンプルコードを提供し、すばやく理解するのに役立ちます。
+keywords: Aspose.Cells、セルの配置、水平配置、垂直配置、テキストの折り返し
 type: docs
 weight: 20
 url: /ja/net/cells-alignment-settings/
 ---
-##  **アライメント設定の構成**
 
-###  **Microsoft Excel の配置設定**
+## **配置設定の構成**
 
-Microsoft Excel を使用してセルの書式を設定したことのある人は、Microsoft Excel の配置設定に精通しているでしょう。
+### **Microsoft Excelの配置設定**
 
-上の図からわかるように、さまざまな種類の位置合わせオプションがあります。
+セルの書式設定にMicrosoft Excelを使用したことがある人であれば、Microsoft Excelの配置設定に精通しているでしょう。
+
+上記の図から分かるように、異なる種類の配置オプションがあります:
 
 - テキストの配置（水平および垂直）
-- インデント。
-- オリエンテーション。
-- テキストコントロール。
-- テキストの方向。
+- インデント
+- 方向
+- テキスト コントロール。
+- テキスト方向。
 
-これらの位置合わせ設定はすべて Aspose.Cells で完全にサポートされており、以下で詳しく説明します。
+これらの配置設定は、Aspose.Cellsで完全にサポートされており、以下で詳しく説明します。
 
-###  **Aspose.Cells の配置設定**
+### **Aspose.Cellsの配置設定**
 
-Aspose.Cells はクラスを提供します。[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)、Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートへのアクセスを許可するコレクション。ワークシートは次のように表されます。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスが提供するのは[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクション。の各項目[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションはオブジェクトを表します[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラス。
+Aspose.Cellsは、Excelファイルを表すクラス[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)を提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスできる[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) コレクションが含まれています。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスは[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) コレクションを提供します。[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) コレクション内の各アイテムは[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) クラスのオブジェクトを表します。
 
- Aspose.Cellsが提供します[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle)そして[**スタイルの設定**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle)のためのメソッド[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)セルの書式設定を取得および設定するために使用されるクラス。の[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)クラスは、位置合わせ設定を構成するための便利なプロパティを提供します。
+Aspose.Cellsは、[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) および[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) メソッドを提供しています。これらは[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) クラスで使用され、セルの書式設定を取得および設定します。[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) クラスには、配置設定を構成するための便利なプロパティが提供されています。
 
-を使用して任意のテキスト配置タイプを選択します。[**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype)列挙。の事前定義されたテキスト配置タイプ[**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype)列挙は次のとおりです。
+[**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) 列挙型を使用して任意のテキスト配置タイプを選択します。[**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) 列挙型の事前定義されたテキスト配置タイプは次のとおりです:
 
-|**テキスト配置の種類**|**説明**|
+|**テキスト配置タイプ**|**説明**|
 | :- | :- |
-|底|下部のテキストの配置を表します|
-|中心|テキストの中央揃えを表します|
-|センターアクロス|テキスト全体の中央揃えを表します|
-|分散型|分散テキストの配置を表します|
-|埋める|塗りつぶしテキストの配置を表します|
-|一般的な|一般的なテキストの配置を表します|
-|正当化する|テキストの位置揃えを表します|
-|左|テキストの左揃えを表します|
-|右|テキストの右揃えを表します|
-|上|上部のテキストの配置を表します|
-|両端揃え低|アラビア語テキストの調整されたカシダ長にテキストを配置します。|
-|タイ語分散型|各文字が単語として扱われるため、特にタイ語のテキストを配布します。|
+|Bottom| 下部のテキスト配置を表します。
+|Center| 中央のテキスト配置を表します。
+|CenterAcross| 横方向に中央揃えのテキスト配置を表します。
+|Distributed| 分散テキスト配置を表します。
+|Fill| 塗りつぶしのテキスト配置を表します。
+|General| 一般的なテキスト配置を表します。
+|Justify| 両端揃えのテキスト配置を表します。
+|Left| 左揃えのテキスト配置を表します。
+|Right| 右揃えのテキスト配置を表します。
+|Top| 上部のテキスト配置を表します。
+|JustifiedLow| アラビア語のテキストに対して調整されたカシダ長でテキストを配置します。
+|ThaiDistributed| 特にタイ語のテキストを分散配置し、各文字を単語として扱います。
 
 {{% alert color="primary" %}}
 
-また、[**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/isjustifydistributed)財産。
+また、[**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/isjustifydistributed) プロパティを使用して両端揃え分散設定を適用できます。
 
 {{% /alert %}}
 
-####  **水平方向の配置**
+#### **水平配置**
 
-使用[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**水平方向の配置**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/horizontalalignment)プロパティを使用してテキストを水平に配置します。
+[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) オブジェクトの[**HorizontalAlignment**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/horizontalalignment) プロパティを使用してテキストを水平に配置します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentHorizontal-1.cs" >}}
 
-####  **垂直方向の配置**
+#### **垂直配置**
 
-水平方向の配置と同様に、[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**垂直配置**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/verticalalignment)プロパティを使用してテキストを垂直方向に配置します。
+水平配置と同様に、[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) オブジェクトの[**VerticalAlignment**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/verticalalignment) プロパティを使用してテキストを垂直に配置します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentVertical-1.cs" >}}
 
-####  **インデント**
+#### **インデント**
 
-セル内のテキストのインデントレベルを設定できます。[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**インデントレベル**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/indentlevel)財産。
+セル内のテキストのインデントレベルを[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) オブジェクトの[**IndentLevel**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/indentlevel) プロパティで設定することができます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Indentation-1.cs" >}}
 
-####  **オリエンテーション**
+#### **方向**
 
-セル内のテキストの方向（回転）を設定します。[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**回転角度**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/rotationangle)財産。
+セル内のテキストの方向（回転）を[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) オブジェクトの[**RotationAngle**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/rotationangle) プロパティで設定します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Orientation-1.cs" >}}
 
-####  **テキストコントロール**
+#### **テキストコントロール**
 
-次のセクションでは、テキストの折り返し、全体に合わせて縮小、その他の書式設定オプションを設定してテキストを制御する方法について説明します。
+次のセクションでは、テキストの折り返し、収縮に合わせるなど、テキストの制御方法について説明します。
 
-#####  **テキストの折り返し**
+##### **テキストの折り返し**
 
-セル内でテキストを折り返すと読みやすくなります。テキストが切り取られたり、隣接するセルにはみ出したりするのではなく、すべてのテキストが収まるようにセルの高さが調整されます。テキストの折り返しをオンまたはオフに設定します。[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)財産。
+セル内のテキストを折り返すと、テキストが切れたり隣接するセルに流れ出ないようになり、読みやすくなります。テキストの折り返しは、[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)の[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)プロパティを使用してオンまたはオフに設定できます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 
-#####  **ぴったりと縮む**
+##### **収縮に合わせる**
 
-フィールド内のテキストを折り返すオプションとして、セルのサイズに合わせてテキスト サイズを縮小することができます。これは、[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)プロパティを *true** に設定します。
+フィールド内のテキストを折り返すオプションは、セルのサイズに合わせてテキストサイズを収縮することもできます。これは、[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)の[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)プロパティを**true**に設定することで行います。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-ShrinkingToFit-1.cs" >}}
 
-#####  **結合 Cells**
+##### **セルの結合**
 
- Microsoft Excel と同様に、Aspose.Cells は複数のセルを 1 つに結合することをサポートしています。 Aspose.Cells では、このタスクに対する 2 つのアプローチを提供しています。 1 つの方法は、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションの[**マージ**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)方法。の[**マージ**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)このメソッドは、セルを結合するために次のパラメーターを受け取ります。
+Aspose.Cellsは、Microsoft Excelのように複数のセルを1つに結合する機能をサポートしています。Aspose.Cellsには、このタスクを行うための2つの方法が提供されています。1つ目は、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)の[**Merge**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)メソッドを呼び出す方法です。[**Merge**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)メソッドは、次のパラメータを取り、セルを結合します:
 
-- 最初の行: マージを開始する最初の行。
-- 最初の列: マージを開始する最初の列。
-- 行数: マージする行の数。
-- 列数: マージする列の数。
+- 最初の行: 結合の開始行。
+- 最初の列: 結合の開始列。
+- 行数: 結合する行数。
+- 列数: 結合する列数。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
 
-もう 1 つの方法は、最初に[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションの[**範囲の作成**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index)結合するセルの範囲を作成するメソッド。の[**範囲の作成**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index)メソッドは、メソッドと同じパラメータのセットを受け取ります。[**マージ**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)上で説明したメソッドは、[**範囲**](https://reference.aspose.com/cells/net/aspose.cells/range)物体。の[**範囲**](https://reference.aspose.com/cells/net/aspose.cells/range)オブジェクトはまた、[**マージ**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge)で指定した範囲を結合するメソッド[**範囲**](https://reference.aspose.com/cells/net/aspose.cells/range)物体。
+もう1つの方法は、まず[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)の[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index)メソッドを呼び出して結合するセルの範囲を作成する方法です。[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index)メソッドは、前述の[**Merge**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)メソッドと同じパラメータを取り、[**Range**](https://reference.aspose.com/cells/net/aspose.cells/range)オブジェクトを返します。[**Range**](https://reference.aspose.com/cells/net/aspose.cells/range)オブジェクトには、[**Range**](https://reference.aspose.com/cells/net/aspose.cells/range)オブジェクトで指定された範囲を結合する[**Merge**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge)メソッドも用意されています。
 
-#####  **テキストの方向**
+##### **テキストの方向**
 
-セル内のテキストの読み上げ順序を設定できます。読み順とは、文字や単語などが表示される視覚的な順序です。たとえば、英語は左から右へ記述する言語ですが、アラビア語は右から左へ記述する言語です。
+セル内のテキストの読み取り順を設定することが可能です。読み取り順は、文字や単語などが表示される視覚的な順序です。たとえば、英語は左から右への言語であり、アラビア語は右から左への言語です。
 
-読み上げ順序は、[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**テキストの方向**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection)財産。 Aspose.Cells は、事前定義されたテキスト方向タイプを提供します。[**TextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype)列挙。
+読み取り順は、[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)の[**TextDirection**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection)プロパティを使用して設定されます。Aspose.Cellsは、[**TextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype)列挙型で事前定義されたテキストの方向タイプを提供しています。
 
-|**テキストの方向の種類**|**説明**|
+|**テキスト方向の種類**|**説明**|
 | :- | :- |
-|コンテクスト|最初に入力された文字の言語と一致する読み上げ順序|
-|左から右へ|左から右へ読む順序|
-|右から左に|右から左への読み取り順序|
+|Context|最初に入力された文字の言語と一貫した読み取り順|
+|LeftToRight|左から右の読み取り順|
+|RightToLeft|右から左の読み取り順|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChangeTextDirection-1.cs" >}}
 
-##  **アドバンストトピック**
-- [Cells 配置を変更し、既存の書式設定を維持する](/cells/ja/net/change-cells-alignment-and-keep-existing-formatting/)
+## **高度なトピック**
+- [セルの配置を変更し、既存の書式を保持する](/cells/ja/net/change-cells-alignment-and-keep-existing-formatting/)
 - [改行とテキストの折り返し](/cells/ja/net/line-breaks-and-text-wrapping/)
 

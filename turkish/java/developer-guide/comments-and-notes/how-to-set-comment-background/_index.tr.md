@@ -1,35 +1,36 @@
-﻿---
-title: Excel'de yorumdaki arka plan nasıl değiştirilir?
+---
+title: Excel de yorumun arka planını nasıl değiştirilir
 linktitle: Yorum Arka Planı
 type: docs
 weight: 190
 url: /tr/java/how-to-set-comment-background/
-description: Excel'de yorumda renk nasıl değiştirilir. Excel'de yorumda resim veya resim nasıl eklenir.
-keywords: add inset picture iamge color comment background excel
+description: Excel de yorumda rengi nasıl değiştirilir. Excel de yoruma resim veya görüntü nasıl eklenir.
+keywords: excel yorumda ekleme resmi resim rengi yorum arka planı eklemek
 ---
+
 {{% alert color="primary" %}}
 
- Bir formülün nasıl çalıştığına, bir değerin nereden geldiğine veya gözden geçirenlerin sorularına kadar her şeyi, yorumları kaydetmek için hücrelere yorumlar eklenir. Birden fazla kişi aynı belgeyi farklı zamanlarda tartıştığında veya incelediğinde yorumlar son derece önemli bir rol oynar. Farklı insanların yorumları nasıl ayırt edilir? Evet, her yorum için farklı bir arka plan rengi belirleyebiliyoruz. Ancak çok sayıda belgeyi ve çok sayıda yorumu işlememiz gerektiğinde, bunu manuel olarak yapmak bir felakettir. Neyse ki[**Aspose.Cells**](https://products.aspose.com/cells/java/) bunu kodda yapmanıza izin veren bir API sağlar.
+Yorumlar, formülün nasıl çalıştığının ayrıntılarından, bir değerin nereden geldiğinden veya inceleyicilerden gelen sorulardan herhangi bir şeyi kaydetmek için hücrelere eklenir. Yorumlar, aynı belgeyi farklı zamanlarda farklı kişilerin tartıştığı veya incelediği durumlarda son derece önemli bir rol oynar. Farklı kişilerin yorumlarını nasıl ayırt ederiz? Evet, her yorum için farklı bir arka plan rengi belirleyebiliriz. Ancak birçok belge ve yoruma ihtiyaç duyduğumuzda, manuel olarak yapmak bir felakettir. Neyse ki [**Aspose.Cells**](https://products.aspose.com/cells/java/), bunu kodda yapmanıza izin veren bir API sağlar.
 
 {{% /alert %}}
 
-## **Excel'de yorumdaki renk nasıl değiştirilir?**
+## **Excel'de yorumda renk nasıl değiştirilir**
 
-Yorumlar için varsayılan arka plan rengine ihtiyacınız olmadığında, onu ilgilendiğiniz bir renkle değiştirmek isteyebilirsiniz. Excel'de Yorumlar kutusunun arka plan rengini nasıl değiştiririm?
+Varsayılan arka plan rengini yorumlar için kullanmak istemediğinizde, ilginizi çeken bir renk ile değiştirmek isteyebilirsiniz. Excel'de Yorum Kutusunun Arka Plan Rengini nasıl değiştiririm?
 
- Aşağıdaki kod, nasıl kullanılacağı konusunda size rehberlik edecektir.[**Aspose.Cells**](https://products.aspose.com/cells/java/) kendi seçtiğiniz yorumlara favori arka plan renginizi eklemek için.
+Yukarıdaki kod, istediğiniz kendi seçtiğiniz rengin yorumlara eklenmesi için [**Aspose.Cells**](https://products.aspose.com/cells/java/) kullanımını gösterecektir.
 
- Burada bir hazırladık[örnek dosya](exmaple.xlsx) sizin için.Bu dosya, aşağıdaki kodda Çalışma Kitabı nesnesini başlatmak için kullanılır.
+Burada sizin için bir [örnek dosya](exmaple.xlsx) hazırladık. Bu dosya, aşağıdaki kodda Workbook nesnesini başlatmak için kullanılır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HowToChangeCommentBackgroundColor.java" >}}
 
- Yukarıdaki kodu yürütün ve bir alacaksınız[çıktı dosyası](result.xlsx).
+Yukarıdaki kodu çalıştırın ve bir [çıktı dosyası](result.xlsx) elde edeceksiniz.
 
-## **Excel'de yoruma resim veya resim nasıl eklenir**
+## **Excel'de yorumlara resim veya görüntü eklemek**
 
-Microsoft Excel, kullanıcıların elektronik tabloların görünümünü ve hissini büyük ölçüde özelleştirmesine olanak tanır. Yorumlara arka plan resmi eklemek bile mümkündür. Arka plan resmi eklemek estetik bir seçim olabilir veya markayı güçlendirmek için kullanılabilir.
+Microsoft Excel, kullanıcılara elektronik tabloların görünümünü büyük ölçüde özelleştirme imkanı sunar. Ayrıca yorumlara arka plan resimleri eklemek bile mümkündür. Bir arka plan resmi eklemek estetik bir tercih olabilir veya markalama güçlendirmek için kullanılabilir.
 
- Aşağıdaki örnek kod, kullanarak sıfırdan bir XLSX dosyası oluşturur.[**Aspose.Cells**](https://products.aspose.com/cells/java/) API ve A1 hücresine resimli bir arka plana sahip bir açıklama ekler.
+Aşağıdaki örnek kod, sıfırdan bir XLSX dosyası oluşturur ve hücre A1'e resim arka planlı bir yorum ekler, [**Aspose.Cells**](https://products.aspose.com/cells/java/) API.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HowToInsertPictureOrImageInComment.java" >}}
 

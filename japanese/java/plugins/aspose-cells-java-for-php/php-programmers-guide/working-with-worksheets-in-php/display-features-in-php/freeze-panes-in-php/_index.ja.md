@@ -1,15 +1,16 @@
-﻿---
-title: Phpでペインをフリーズ
+---
+title: PHPでウィンドウを固定する
 type: docs
 weight: 40
 url: /ja/java/freeze-panes-in-php/
 ---
-## **Aspose.Cells - フリーズペイン**
-を使用してスプレッドシート ドキュメントのペインを固定するには**Aspose.Cells Java for PHP**、単に呼び出す**FreezePanes**モジュール。
 
-**PHP コード**
+## **Aspose.Cells - ペインを固定する**
+Aspose.Cells Java for PHPを使用してスプレッドシートドキュメントでウィンドウを固定するには、**FreezePanes**モジュールを単純に呼び出します。
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -30,7 +31,7 @@ $worksheet->freezePanes(3,2,3,2);
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**フリーズペイン (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、Aspose.CellsのFreeze Panesをダウンロードする
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)

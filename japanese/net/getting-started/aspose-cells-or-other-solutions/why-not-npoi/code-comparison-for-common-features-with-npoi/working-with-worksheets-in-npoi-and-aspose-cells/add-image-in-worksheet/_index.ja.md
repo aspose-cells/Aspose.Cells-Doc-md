@@ -1,13 +1,14 @@
-﻿---
+---
 title: ワークシートに画像を追加
 type: docs
 weight: 20
 url: /ja/net/add-image-in-worksheet/
 ---
+
 ## **Aspose.Cells - ワークシートに画像を追加**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -52,7 +53,7 @@ workbook.Save("../../data/image.xlsx");
 ## **NPOI - HSSF XSSF - ワークシートに画像を追加**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -60,7 +61,7 @@ ISheet sheet1 = wb.CreateSheet("First Sheet");
 
 //add picture data to this workbook.
 
-byte[]bytes = File.ReadAllBytes("../../data/aspose.png");
+byte[] bytes = File.ReadAllBytes("../../data/aspose.png");
 
 int pictureIdx = wb.AddPicture(bytes, PictureType.PNG);
 
@@ -95,13 +96,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートに画像を追加**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**ワークシートに画像を追加**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Add.Image.in.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+詳細については、[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/)ページを参照してください。
 
 {{% /alert %}}

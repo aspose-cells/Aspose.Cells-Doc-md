@@ -1,21 +1,22 @@
-﻿---
-title: Проверьте, содержит ли рабочая книга скрытые внешние ссылки
+---
+title: Проверка, содержит ли рабочая книга скрытые внешние ссылки
 type: docs
 weight: 230
 url: /ru/net/check-if-workbook-contains-hidden-external-links/
 ---
+
 ## **Возможные сценарии использования**
-Иногда рабочая книга содержит внешние ссылки, которые скрыты и не могут быть просмотрены в Microsoft Excel. Aspose.Cells извлекает все внешние ссылки, видимые они или скрытые. Тем не менее, вы можете проверить[ExternalLink.IsVisible](https://reference.aspose.com/cells/net/aspose.cells/externallink/properties/isvisible)свойство, чтобы проверить, видна ли внешняя ссылка или нет
-## **Проверьте, содержит ли рабочая книга скрытые внешние ссылки**
- Следующий пример кода загружает[исходный файл excel](5115413.xlsx) который содержит скрытые внешние ссылки. Эти ссылки нельзя просмотреть в Microsoft Excel, но они присутствуют внутри рабочей книги. После печати[ВнешняяСсылка.DataSource](https://reference.aspose.com/cells/net/aspose.cells/externallink/properties/datasource) и[ExternalLink.IsReferred](https://reference.aspose.com/cells/net/aspose.cells/externallink/properties/isreferred) свойство, он печатает[ExternalLink.IsVisible](https://reference.aspose.com/cells/net/aspose.cells/externallink/properties/isvisible)имущество. В приведенном ниже выводе консоли вы видите, что все его внешние ссылки не видны.
+Иногда в рабочей книге могут содержаться скрытые внешние ссылки, которые нельзя просмотреть в Microsoft Excel. Aspose.Cells извлекает все внешние ссылки, независимо от того, видимы они или скрыты. Однако вы можете проверить свойство [ExternalLink.IsVisible](https://reference.aspose.com/cells/net/aspose.cells/externallink/properties/isvisible), чтобы проверить, видима ли внешняя ссылка или нет.
+## **Проверка, содержит ли рабочая книга скрытые внешние ссылки**
+Следующий образец кода загружает [исходный файл Excel](5115413.xlsx), который содержит скрытые внешние ссылки. Эти ссылки нельзя просмотреть в Microsoft Excel, но они присутствуют внутри рабочей книги. После печати [ExternalLink.DataSource](https://reference.aspose.com/cells/net/aspose.cells/externallink/properties/datasource) и [ExternalLink.IsReferred](https://reference.aspose.com/cells/net/aspose.cells/externallink/properties/isreferred), он выводит свойство [ExternalLink.IsVisible](https://reference.aspose.com/cells/net/aspose.cells/externallink/properties/isvisible). На выводе консоли ниже вы видите, что все его внешние ссылки не видны.
 ### **Образец кода**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CheckHiddenExternalLinks-CheckHiddenExternalLinks.cs" >}}
-### **Консольный вывод**
- Вот вывод консоли приведенного выше примера кода при выполнении с заданным[образец эксель файла](5115413.xlsx).
+### **Вывод в консоль**
+Вот вывод консоли вышеприведенного образца кода при выполнении с заданным [образцовым файлом Excel](5115413.xlsx).
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Data Source: C:\International\DDB\FAS 133\Swap Rates\GS_1M_3M_1_2_5_¥$_(B)IRSwaps_0400.xls
 

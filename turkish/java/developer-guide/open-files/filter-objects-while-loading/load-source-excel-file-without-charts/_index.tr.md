@@ -1,22 +1,23 @@
-﻿---
-title: Grafikler olmadan kaynak excel dosyasını yükleyin
+---
+title: Çalışma sayfanızı grafikler olmadan yüklemenize izin veren Aspose.Cells kullanmanıza olanak sağlar. Bu amaç için lütfen LoadOptions.LoadFilter özelliğini kullanın.
 type: docs
 weight: 750
 url: /tr/java/load-source-excel-file-without-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells, excel dosyanızı çizelgeler olmadan yüklemenizi sağlar. Lütfen bu amaçla LoadOptions.LoadFilter özelliğini kullanın.
+Aspose.Cells, excel dosyanızı grafikler olmadan yüklemenize olanak tanır. Bu amaçla LoadOptions.LoadFilter özelliğini kullanınız.
 
 {{% /alert %}} 
-## **Grafikler olmadan kaynak excel dosyasını yükleyin**
-Aşağıdaki örnek kod, örnek excel dosyasını grafikler olmadan yükler ve çıktı pdf formatında kaydeder.
+## **Grafikler olmadan kaynak excel dosyasını yükleme**
+Aşağıdaki örnek kod, örnek excel dosyasını grafikler olmadan yükler ve çıktı olarak pdf formatında kaydeder.
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Specify the load options and filter the data
 

@@ -1,15 +1,16 @@
-﻿---
-title: Hello World
+---
+title: Hallo Welt
 type: docs
 weight: 10
 url: /de/java/hello-world/
 ---
+
 ## **Aspose.Cells - Hello World**
-Um etwas in das Spreadsheet-Dokument mit Aspose.Cells for Java in PHP zu schreiben, rufen Sie einfach das HelloWorld-Modul auf.
+Um irgendetwas im Tabellendokument mithilfe von Aspose.Cells for Java in PHP zu schreiben, rufen Sie einfach das HelloWorld-Modul auf.
 
 **PHP-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Instantiating a Workbook object that represents a Microsoft Excel file.
 
@@ -40,7 +41,7 @@ $workbook.save($data_dir . "HelloWorld.xls", $file_format_type->EXCEL_97_TO_2003
 print "Document has been saved, please check the output file.";
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Hello World (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+**Hello World (Aspose.Cells)** herunterladen von einer der unten genannten sozialen Programmierseiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/quickstart/HelloWorld.php)

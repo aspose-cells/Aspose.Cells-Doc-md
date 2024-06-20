@@ -1,31 +1,34 @@
-﻿---
-title: Microsoft Excel Dosyasını Dışa Aktar
+---
+title: Microsoft Excel Dosyası Dışa Aktar
 type: docs
 weight: 50
-url: /tr/net/export-microsoft-excel-file/
+url: /tr/net/aspose-cells-gridweb/export-microsoft-excel-file/
+keywords: GridWeb,dışa aktar
+description: Bu makale, GridWeb de dosya nasıl dışa aktarılırı tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb kontrolü kullanılarak GUI modundaki web sitelerinde yeni Microsoft Excel dosyaları oluşturmak veya mevcut Microsoft Excel dosyalarını değiştirmek mümkündür. Dosyalar daha sonra Excel dosyalarına kaydedilebilir. Aspose.Cells.GridWeb, etkin bir çevrimiçi hesap tablosu düzenleyicisi olarak hizmet verir. Bu konuda kılavuz içeriğinin Excel dosyalarına nasıl kaydedileceği açıklanmaktadır.
+Aspose.Cells.GridWeb denetimini kullanarak web sitelerinde GUI modunda yeni Microsoft Excel dosyaları oluşturmak veya mevcut dosyaları değiştirmek mümkündür. Dosyalar daha sonra Excel dosyalarına kaydedilebilir. Aspose.Cells.GridWeb etkili bir çevrimiçi elektronik tablo düzenleyici olarak hizmet verir. Bu konu, grid içeriğinin Excel dosyalarına kaydedilmesinin nasıl yapıldığını açıklar.
 
 {{% /alert %}} 
 ## **Excel Dosyalarını Dışa Aktarma**
 ### **Dosya Olarak Dışa Aktar**
-Aspose.Cells.GridWeb kontrolünün içeriğini bir Excel dosyası olarak kaydetmek için:
+Aspose.Cells.GridWeb denetiminin içeriğini Excel dosyası olarak kaydetmek için:
 
 1. Aspose.Cells.GridWeb denetimini web formunuza ekleyin.
-1. Çalışmanızı belirtilen bir yolda bir Excel dosyası olarak kaydedin.
+1. Çalışmanızı belirtilen bir yola Excel dosyası olarak kaydedin.
 1. Uygulamayı çalıştırın.
 
 {{% alert color="primary" %}} 
 
- Web formunuza Aspose.Cells.GridWeb kontrolünü nasıl ekleyeceğinizi bilmiyorsanız, o zaman başvurmalısınız.[GridWeb'i Web Formuna Ekleme](/cells/tr/net/add-gridweb-to-web-form/)
+Aspose.Cells.GridWeb denetimini web formunuza nasıl ekleyeceğinizi bilmiyorsanız, [Web Formuna GridWeb Eklemek](/cells/tr/net/aspose-cells-gridweb/add-gridweb-to-web-form/) adresine bakmalısınız.
 
 {{% /alert %}} 
 
-Windows formuna Aspose.Cells.GridWeb denetimi eklendiğinde, denetim otomatik olarak başlatılır ve forma varsayılan boyutta eklenir. Aspose.Cells.GridWeb kontrol nesnesi oluşturmanıza gerek yok, tek yapmanız gereken kontrolü sürükleyip bırakmak ve kullanmaya başlamak.
+Aspose.Cells.GridWeb denetimi bir windows formuna eklendiğinde, denetim otomatik olarak başlatılır ve varsayılan boyutta forma eklenir. Bir Aspose.Cells.GridWeb denetimi nesnesi oluşturmanıza gerek yoktur, yapmanız gereken tek şey denetimi sürükleyip bırakarak kullanmaktır.
 
-Aşağıdaki kod örneği, ızgara içeriğinin bir Excel dosyasına nasıl kaydedileceğini gösterir.
+Aşağıdaki kod örneği, grid içeriğini bir Excel dosyasına kaydetmenin nasıl yapıldığını açıklar.
 
 
 
@@ -33,27 +36,27 @@ Aşağıdaki kod örneği, ızgara içeriğinin bir Excel dosyasına nasıl kayd
 
 {{% alert color="primary" %}} 
 
-Dosya sisteminiz NTFS ise, ASPNET veya Herkes kullanıcı hesaplarına okuma/yazma erişimi verin, aksi takdirde çalışma zamanında erişim engellendi istisnası alırsınız.
+Dosya sisteminiz NTFS ise, ASPNET veya Herkes kullanıcı hesaplarına okuma/yazma erişimi izni verin, aksi takdirde çalışma zamanında erişim reddedildi istisnası alırsınız.
 
 {{% /alert %}} 
 
-Yukarıdaki kod parçacığı birkaç şekilde kullanılabilir. Yaygın bir yol, tıklandığında ızgara içeriğini bir Excel dosyasına kaydeden bir düğme eklemektir. Aspose.Cells.GridWeb görev için daha kolay bir yaklaşım sunar. Aspose.Cells.GridWeb'de SaveCommand adında bir olay var. Yukarıdaki kod parçacığı, SaveCommand olayının olay işleyicisine eklenebilir ve bu, kullanıcıların Aspose.Cells.GridWeb'in dahili**Kayıt etmek** buton.
+Yukarıdaki kod parçası birkaç farklı şekilde kullanılabilir. Yaygın bir yol, tıklanıldığında grid içeriğini Excel dosyasına kaydeden bir düğme eklemektir. Aspose.Cells.GridWeb, görev için daha kolay bir yaklaşım sunar. Aspose.Cells.GridWeb'in SaveCommand adında bir olayı vardır. Yukarıdaki kod parçası, kullanıcıların yerleşik **Kaydet** düğmesine tıklayarak çalışmalarını kaydetmelerine olanak tanıyan SaveCommand olayının olay işleyicisine eklenebilir.
 
 **GridWeb'in SaveCommand olayı** 
 
-![yapılacaklar:resim_alternatif_metin](export-microsoft-excel-file_1.jpg)
+![todo:image_alt_text](export-microsoft-excel-file_1.jpg)
 
-**GridWeb'in yerleşik Kaydet düğmesini tıklatarak kılavuz içeriğini Excel'e kaydetme** 
+**GridWeb'in yerleşik Kaydet düğmesine tıklayarak grid içeriğini Excel'e kaydetme** 
 
-![yapılacaklar:resim_alternatif_metin](export-microsoft-excel-file_2.png)
+![todo:image_alt_text](export-microsoft-excel-file_2.png)
 
 {{% alert color="primary" %}} 
 
- Visual Studio'da çalışıyorsanız, SaveCommand olayının olay işleyicisini, olaya çift tıklayarak kolayca oluşturabilirsiniz.**Özellikler** bölmesi. Bu konuda daha fazla bilgi edinmek için lütfen bkz.[GridWeb Events ile Çalışma](/cells/tr/net/working-with-gridweb-events/)
+Visual Studio'da çalışıyorsanız, **Özellikler** penceresindeki olaya çift tıklayarak Kolay Kaydet olayının olay işleyicisini kolayca oluşturabilirsiniz. Bu konu hakkında daha fazla bilgi için [GridWeb Olayları ile Çalışmak](/cells/tr/net/aspose-cells-gridweb/working-with-gridweb-events/) adresine bakınız.
 
 {{% /alert %}} 
-### **Akış Olarak Dışa Aktar**
-Izgara içeriğini bir akışa (örneğin, MemoryStream) kaydetmek de mümkündür.
+### **Akış Olarak Dışa Aktarma**
+Grid içeriğini bir akışa (örneğin MemoryStream) kaydetmek de mümkündür.
 
 
 

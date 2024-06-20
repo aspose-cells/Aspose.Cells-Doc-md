@@ -1,31 +1,34 @@
-﻿---
-title: Aspose.Cells for Java - 中断可能なライブラリ
+---
+title: Aspose.Cells for Java  中断可能ライブラリ
 type: docs
 weight: 1090
 url: /ja/java/aspose-cells-for-java-interruptible-library/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Java は、大きな Excel ファイルの操作中にロード/保存プロセスを中断することをサポートしています。ライブラリ /components を割り込み可能にしたい場合があります。これにより、サービス/プロセスの効率と信頼性が確実に向上します。変換に時間がかかりすぎることがわかった場合、変換を途中で確実にあきらめることができます。これにより、CPU 使用率、RAM などを節約できます。変換をキャンセルするためだけにサーバー全体を強制終了するなどの抜本的な手順を実行する必要がないことを意味します。
+Aspose.Cells for Javaは大きなExcelファイルを扱う際の読み込みや保存処理を中断するサポートを提供しています。時々、ライブラリやコンポーネントを中断可能にしたいことがあります。これにより、サービス/プロセスの効率と信頼性が向上します。時間がかかりすぎることがわかった場合、変換を中途で中断できます。これにより、CPU使用率やRAMの使用量を節約できます。つまり、変換をキャンセルするためにサーバ全体を停止するなどの緊急の措置を取る必要はありません。 
 {{% /alert %}}
 
-## **例：**
+## **例:**
 
-次のプログラムは、次のコマンドを使用して保存プロセスを中断する方法を示しています。**InterruptMonitor.interrupt()**方法。
+次のプログラムは、**InterruptMonitor.interrupt()**メソッドを使用して保存処理を中断する方法を示しています。
 
-[**Java**]{{< highlight "java" >}}
+[**Java**]
 
- //新しいワークブックを作成
+{{< highlight java >}}
 
-最終ワークブック wb = 新しいワークブック();
+ //Create a new Workbook  
 
-// ワークシートを取得
+final Workbook wb = new Workbook();
+
+// Get the Worksheets
 
 WorksheetCollection wss = wb.getWorksheets();
 
-// ループを実行してシート セルにデータを入力します
+// Run a loop to fill sheet cells with data
 
-for (int i = 0; i< 50; i++) {
+for (int i = 0; i < 50; i++) {
 
     Worksheet sheet = wss.get(wss.add());
 

@@ -1,19 +1,20 @@
-﻿---
-title: Elevata fedeltà al design del report
+---
+title: Alta fedeltà al design del report
 type: docs
 weight: 30
 url: /it/jasperreports/high-fidelity-to-the-report-design/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for JasperReports esporta i report come Microsoft fogli di calcolo Excel che sembrano identici ai report esportati dagli esportatori integrati di[JasperReports](https://community.jaspersoft.com/project/jasperreports-library).
+Aspose.Cells for JasperReports esporta report come fogli di calcolo Microsoft Excel che sono identici ai report esportati dagli esportatori integrati di [JasperReports](https://community.jaspersoft.com/project/jasperreports-library).
 
-**Un report di esempio XLS esportato utilizzando Aspose.Cells for JasperReports** 
+**Un esempio di report XLS esportato utilizzando Aspose.Cells for JasperReports** 
 
-![cose da fare:immagine_alt_testo](high-fidelity-to-the-report-design_1.png)
+![todo:image_alt_text](high-fidelity-to-the-report-design_1.png)
 
-**Un report di esempio XLS esportato utilizzando gli esportatori [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) integrati**
+**Un esempio di report XLS esportato utilizzando gli esportatori integrati di [JasperReports](https://community.jaspersoft.com/project/jasperreports-library)**
 
-![cose da fare:immagine_alt_testo](high-fidelity-to-the-report-design_2.png)
+![todo:image_alt_text](high-fidelity-to-the-report-design_2.png)
 
 {{% /alert %}}

@@ -1,15 +1,16 @@
-﻿---
-title: Sammanfoga eller ta bort sammanfogning Cells i ett kalkylblad i VSTO och Aspose.Cells
+---
+title: Sammanslå eller avsammanslå celler i ett arbetsblad i VSTO och Aspose.Cells
 type: docs
 weight: 170
 url: /sv/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Öppna en befintlig excel-fil, slå samman några celler i det första kalkylbladet i arbetsboken och spara excel-filen.
-## **Slår ihop Cells**
-### **VSTO**
-Följande är de parallella kodavsnitten för VSTO (C#) och Aspose.Cells for .NET (C#).
 
-{{< highlight "csharp" >}}
+Öppna en befintlig excelfil, Sammanslå några celler i det första arbetsbladet i arbetsboken och spara excelfilen.
+## **Sammanfoga celler**
+### **VSTO**
+Här nedan är de parallella kodsnutten för VSTO (C#) och Aspose.Cells for .NET (C#).
+
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -55,7 +56,7 @@ Följande är de parallella kodavsnitten för VSTO (C#) och Aspose.Cells for .NE
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -82,10 +83,10 @@ Följande är de parallella kodavsnitten för VSTO (C#) och Aspose.Cells for .NE
   workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **Ta bort sammanslagningen Cells**
-För att ta bort cellen/cellerna använder du följande kodrader för VSTO (C#) och Aspose.Cells for .NET (C#).
+## **Upplösa celler**
+För att upplösa cellerna, använd följande kodrader för VSTO (C#) och Aspose.Cells for .NET (C#).
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //UnMerge the cell.
 
@@ -93,7 +94,7 @@ För att ta bort cellen/cellerna använder du följande kodrader för VSTO (C#) 
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Cells rng = workbook.Worksheets[0].Cells;
 
@@ -102,7 +103,7 @@ För att ta bort cellen/cellerna använder du följande kodrader för VSTO (C#) 
   rng.UnMerge(0, 0, 1, 3);
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Merge.or.UnMerge.Cells.in.a.Worksheet.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).blixtlås)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introduction
 type: docs
 weight: 10

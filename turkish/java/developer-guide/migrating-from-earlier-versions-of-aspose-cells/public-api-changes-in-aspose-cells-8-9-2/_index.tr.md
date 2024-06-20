@@ -1,27 +1,28 @@
-﻿---
-title: Genel API Aspose.Cells 8.9.2'deki değişiklikler
+---
+title: Aspose.Cells 8.9.2 de Kamu API Değişiklikleri
 type: docs
 weight: 330
 url: /tr/java/public-api-changes-in-aspose-cells-8-9-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 8.9.1 sürümünden 8.9.2 sürümüne Aspose.Cells API üzerindeki değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, sürüm 8.9.1'den 8.9.2'ye Aspose.Cells API'sindeki değişiklikleri açıklar ki bu, modül/uygulama geliştiricilerinin ilgisini çekebilir. Yalnızca yeni ve güncellenmiş kamu yöntemleri, eklendi & kaldırılan sınıflar vb. değil, aynı zamanda Aspose.Cells'in arka plandaki davranışındaki herhangi bir değişikliği de içerir.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Lütfen ayrıca kontrol edin[Genel API Aspose.Cells for Java 8.9.1'de yapılan değişiklikler](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1)
+Lütfen [Aspose.Cells for Java 8.9.1'de Tanıtılan Kamu API Değişikliklerini](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1) de kontrol edin
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **TextOptions Sınıfı ve FontSettings.TextOptions Özelliği Eklendi**
-Aspose.Cells for Java, bir Şeklin metinsel bölümlerinin görünümünü kontrol etmek için TextOptions sınıfını FontSettings.TextOptions özelliğiyle birlikte kullanıma sundu.
+## **Eklenen API'lar**
+### **TextOptions Sınıfı & FontSettings.TextOptions Özelliği eklendi**
+Aspose.Cells for Java, bir Şeklin metin kısımlarının yapısını kontrol etmek için TextOptions sınıfını ve FontSettings.TextOptions özelliğini açığa çıkardı.
 
-İşte FontSettings.TextOptions özelliğinin basit kullanım senaryosu.
+FontSettings.TextOptions özelliğinin basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -45,13 +46,13 @@ TextOptions textOptions =  ((FontSetting)shape.getCharacters().get(0)).getTextOp
 
 {{< /highlight >}}
 ### **TextOptions.Fill, Outline & Shadow Özellikleri Eklendi**
- Aspose.Cells for Java 8.9.2, sırasıyla dolgu, gölge ve anahat gibi şeklin metin içeriğinin yönlerini kontrol etmeyi sağlayan TextOptions.Fill, TextOptions.Outline & TextOptions.Shadow özelliklerini ortaya çıkardı.
+Aspose.Cells for Java 8.9.2, metin içeriğinin görünümünü kontrol etmeye izin veren TextOptions.Fill, TextOptions.Outline & TextOptions.Shadow özelliklerini açıkladı. 
 
-İşte yukarıda belirtilen özelliklerin basit kullanım senaryosu.
+Yukarıdaki özelliklerin basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -88,14 +89,14 @@ textOptions.getFill().getSolidFill().setColor(Color.getRed());
 textOptions.getOutline().setOneColorGradient(Color.getBlue(), 0.3, GradientStyleType.HORIZONTAL, 2);
 
 {{< /highlight >}}
-### **Shape.Line Özelliği Eklendi**
-Aspose.Cells for Java, Shape anahatlarının görünümünü kontrol etmek için LineFormat örneğini döndüren Shape.Line özelliğini kullanıma sundu.
+### **Eklenen Shape.Line Özelliği**
+Aspose.Cells for Java, Shape.Line özelliğini ortaya çıkarmıştır; bu, Bir Şeklin dış hatlarının görünümünü kontrol etmek için bir LineFormat örneği döndürür.
 
 İşte Shape.Line özelliğinin basit kullanım senaryosu.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -118,14 +119,14 @@ LineFormat line = shape.getLine();
 line.setWeight(4);
 
 {{< /highlight >}}
-### **Shape.Fill özelliği eklendi**
-Aspose.Cells for Java 8.9.2, şekil alanının farklı yönlerini kontrol etmek için bir FillFormat örneği döndüren Shape.Fill özelliğini ortaya çıkardı.
+### **Eklenen Shape.Fill özelliği**
+Aspose.Cells for Java 8.9.2, Shape.Fill özelliğini ortaya çıkarmıştır; bu, şekil alanının farklı yönlerini kontrol etmek için bir FillFormat örneği döndürür.
 
-Shape.Fill özelliğinin basit kullanım senaryosu aşağıdadır.
+İşte Shape.Fill özelliğinin basit kullanım senaryosu.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -150,16 +151,16 @@ fill.setFillType(FillType.SOLID);
 fill.getSolidFill().setColor(Color.getBlue());
 
 {{< /highlight >}}
-## **Eski API'ler**
-### **Eski ShapeFont Sınıfı**
+## **Eskimiş API'lar**
+### **Eskiye Dair ShapeFont Sınıfı**
 Lütfen bunun yerine TextOptions sınıfını kullanın.
-### **Eski ShapeFormat Sınıfı**
+### **Eskiye Dair ShapeFormat Sınıfı**
 Lütfen doğrudan Shape.Fill ve Shape.Line özelliklerini kullanın.
-### **Eski Shape.Format Özelliği**
+### **Eskiye Dair Shape.Format Özelliği**
 Lütfen doğrudan Shape.Fill ve Shape.Line özelliklerini kullanın.
-### **Eski Shape.LineFormat Özelliği**
+### **Eskiye Dair Shape.LineFormat Özelliği**
 Lütfen bunun yerine Shape.Line özelliğini kullanın.
-### **Eski Shape.FillFormat Özellik**
+### **Eskiye Dair Shape.FillFormat Özelliği**
 Lütfen bunun yerine Shape.Fill özelliğini kullanın.
-### **Eski FontSetting.ShapeFont Özelliği**
+### **Eskiye Dair FontSetting.ShapeFont Özelliği**
 Lütfen bunun yerine FontSetting.TextOptions özelliğini kullanın.

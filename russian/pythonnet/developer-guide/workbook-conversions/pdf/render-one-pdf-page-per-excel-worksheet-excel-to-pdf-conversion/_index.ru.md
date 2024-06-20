@@ -1,18 +1,19 @@
 ---
-title: Рендеринг одной страницы PDF на лист Excel — преобразование Excel в PDF
+title: Рендеринг одной страницы PDF на один лист Excel – Преобразование Excel в PDF
 type: docs
 weight: 100
 url: /ru/python-net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
-description: Узнайте, как визуализировать одну страницу Excel на листе PDF при преобразовании Excel в PDF с помощью Aspose.Cells for Python via .NET API.
-keywords: Python Render One PDF Page Per Excel Worksheet while saving file to PDF, One PDF Page Per Excel Worksheet while saving Excel to PDF using Python, Python show one page per worksheet when converting Excel to PDF
+description: Узнайте, как отображать одну страницу PDF на один лист Excel при преобразовании Excel в PDF с помощью Aspose.Cells для Python via .NET API.
+keywords: Отображение одной страницы PDF на один лист Excel при сохранении файла в PDF с помощью Python, Одна страница PDF на один лист Excel при сохранении Excel в PDF с помощью Python, Показывать одну страницу на лист при преобразовании Excel в PDF
 ---
+
 {{% alert color="primary" %}} 
 
-При работе с большими файлами Excel Microsoft (например, с книгой, состоящей из множества листов, каждый из которых содержит 50 столбцов и 300 или более строк данных), вам может потребоваться, чтобы вывод PDF отображал одну страницу на лист, независимо от размера листа. . Это будет означать, что каждая страница, скорее всего, будет иметь совершенно разный размер. Этого можно добиться, используя Aspose.Cells for Python via .NET API.
+При работе с большими файлами Microsoft Excel (например, книга, содержащая много листов, каждый с 50 столбцами и 300 и более строками данных), вы можете хотеть, чтобы выходной PDF показывал одну страницу на лист, независимо от размера листа. Это означает, что каждая страница, вероятно, будет иметь радикально разные размеры страницы. Это можно сделать с помощью Aspose.Cells для Python via .NET API.
 
 {{% /alert %}} 
 
-См. следующий пример кода, который преобразует файл Excel с несколькими листами в PDF.
+Пожалуйста, ознакомьтесь с следующим образцом кода, который преобразует файл Excel с несколькими листами в PDF.
 
 
 
@@ -20,10 +21,10 @@ keywords: Python Render One PDF Page Per Excel Worksheet while saving file to PD
 
 {{% alert color="primary" %}} 
 
- Если[PdfSaveOptions.one_page_per_sheet](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/one_page_per_sheet/)Если для параметра установлено значение *true**, все содержимое листа будет отображено на одной странице PDF.
+Если установить параметр [PdfSaveOptions.one_page_per_sheet](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/one_page_per_sheet/) в **true**, весь контент листа будет отображен на одной странице PDF.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Если ваша электронная таблица содержит формулы, лучше всего вызвать[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) метод непосредственно перед отображением электронной таблицы в PDF. Это гарантирует, что значения, зависящие от формулы, будут пересчитаны, а правильные значения будут отображены в PDF.
+Если ваш электронный таблица содержит формулы, лучше вызвать метод [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) непосредственно перед отображением таблицы в формате PDF. Это гарантирует пересчет значений, зависящих от формул, и отображение правильных значений в PDF.
 
 {{% /alert %}}

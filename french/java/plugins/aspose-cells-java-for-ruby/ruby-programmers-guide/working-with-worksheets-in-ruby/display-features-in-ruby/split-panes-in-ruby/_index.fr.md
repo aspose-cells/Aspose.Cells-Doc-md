@@ -1,15 +1,16 @@
-﻿---
-title: Volets divisés en Ruby
+---
+title: Découper les volets en Ruby
 type: docs
 weight: 80
 url: /fr/java/split-panes-in-ruby/
 ---
-## **Aspose.Cells - Vitres fractionnées**
- Pour diviser les volets à l'aide de**Aspose.Cells Java pour rubis** , invoquez simplement**SplitPanes** module.
 
-**Code rubis**
+## **Aspose.Cells - Diviser les volets**
+Pour découper les volets en utilisant Aspose.Cells Java pour Ruby, il suffit d'invoquer le module SplitPanes.
 
-{{< highlight "ruby" >}}
+**Code Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -32,7 +33,7 @@ workbook.save(data_dir + "SplitPanes output.xls")
 puts "Panes split successfully."
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Vitres divisées (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Split Panes (Aspose.Cells)** depuis l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/splitpanes.rb)

@@ -1,26 +1,27 @@
-﻿---
+---
 title: Infoga en länkad bild från webbadress
 type: docs
 weight: 50
 url: /sv/java/insert-a-linked-picture-from-web-address/
 ---
+
 {{% alert color="primary" %}}
 
-Ibland behöver du infoga en bild från webben (http://) i ett kalkylblad. För att göra det, ange bildens URL och bilden kommer att laddas ner varje gång kalkylarket öppnas i Microsoft Excel. Bilden är inte fysiskt inbäddad i Excel-dokumentet, utan pekar på en webbresurs.
+Ibland behöver du infoga en bild från webben (http://) i ett kalkylblad. För att göra detta, ange bildens URL och bilden kommer att hämtas varje gång kalkylarket öppnas i Microsoft Excel. Bilden är inte fysiskt inbäddad i Excel-dokumentet, utan pekar på en webbresurs.
 
 {{% /alert %}}
 
 ## **Infoga en länkad bild från webbadress**
 
-### **Använder Microsoft Excel**
+### **Använda Microsoft Excel**
 
 I Microsoft Excel (till exempel 2007):
 
-1.  Klicka på**Föra in** menyn och välj**Bild**.
+1. Klicka på **Infoga** i menyn och välj **Bild**.
 
 ![todo:image_alt_text](insert-a-linked-picture-from-web-address_1.png)
 
-1.  Ange webbadressen för bilden i dialogrutan Infoga bild.
+1. Ange webbadressen för bilden i dialogrutan Infoga bild. 
 
 ![todo:image_alt_text](insert-a-linked-picture-from-web-address_2.png)
 
@@ -28,17 +29,17 @@ Bilden infogas.
 
 ![todo:image_alt_text](insert-a-linked-picture-from-web-address_3.png)
 
-### **Använder Aspose.Cells for Java**
+### **Användning av Aspose.Cells for Java**
 
- Aspose.Cells for Java stöder att lägga till en länkad bild med metoden[**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
+Aspose.Cells for Java stöder att lägga till en länkad bild med hjälp av metoden [**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
 
- Metoden returnerar en[**Bild**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)objekt.
+Metoden returnerar en [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) -objekt.
 
-Följande exempel visar hur man lägger till länkad bild från webbadress till ett kalkylblad.
+I följande exempel visas hur man lägger till en länkad bild från webbadress till ett kalkylblad.
 
-Efter att ha kört koden innehåller den genererade Excel-filen en länkad bild på det första kalkylbladet.
+Efter att koden har körts, innehåller den genererade Excelfilen en länkad bild på det första kalkylbladet.
 
-**Utdatafilen** 
+**Utgångsfilen** 
 
 ![todo:image_alt_text](insert-a-linked-picture-from-web-address_4.png)
 

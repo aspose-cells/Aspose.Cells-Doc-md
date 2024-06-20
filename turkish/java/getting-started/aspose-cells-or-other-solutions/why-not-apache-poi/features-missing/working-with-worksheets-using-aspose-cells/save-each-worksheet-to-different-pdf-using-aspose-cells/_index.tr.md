@@ -1,33 +1,34 @@
-﻿---
-title: Aspose.Cells'i kullanarak Her Çalışma Sayfasını Farklı PDF'e Kaydet
+---
+title: Her Çalışma Sayfasını Farklı PDF ye Kaydetme  Aspose.Cells
 type: docs
 weight: 80
 url: /tr/java/save-each-worksheet-to-different-pdf-using-aspose-cells/
 ---
-## **Aspose.Cells - Her Çalışma Sayfasını Farklı PDF'e Kaydet**
-Aspose.Cells, XLS dosyasının (resim, çizelge vb. içeren) PDF belgesine dönüştürülmesini destekler. Aspose.Cells for Java bir elektronik tabloyu pdf belgesine dönüştürmek için bağımsız olarak çalışabilir ve artık dönüştürme için Aspose.Pdf for Java kullanmanıza gerek yoktur. Tüm işlem bellekte yapılabildiğinden, dönüştürme herhangi bir geçici dosya (lar) oluşturmayı / kullanmayı gerektirmez.
+
+## **Aspose.Cells - Her Bir Çalışma Sayfasını Farklı PDF'ye Kaydetme**
+Aspose.Cells, görüntü, grafik vb. içeren XLS dosyalarını PDF belgelerine dönüştürmeyi destekler. Aspose.Cells for Java, bir elektronik tabloyu Pdf belgesine dönüştürmek için bağımsız olarak çalışabilir ve artık dönüştürme için Aspose.Pdf for Java'yı kullanmanıza gerek yok. Ayrıca dönüşümün herhangi bir geçici dosya oluşturmaya / kullanmaya gerek duymadığını da unutmayın, çünkü tüm işlem bellekte yapılabilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Excel dosya yolunu al
+ //Get the Excel file path
 
 String filePath = dataDir + "workbook.xlsx";
 
-//Yeni bir çalışma kitabı oluşturun ve Excel'i açın
+//Instantiate a new workbook and open the Excel
 
-// Bulunduğu yerden dosya
+//File from its location
 
-Çalışma kitabı çalışma kitabı = yeni Çalışma Kitabı(filePath);
+Workbook workbook = new Workbook(filePath);
 
-//Çalışma kitabındaki çalışma sayfalarının sayısını al
+//Get the count of the worksheets in the workbook
 
-int SheetCount = workbook.getWorksheets().getCount();
+int sheetCount = workbook.getWorksheets().getCount();
 
-//İlk çalışma sayfası dışında tüm sayfaları görünmez yap
+//Make all sheets invisible except first worksheet
 
- için (int ben = 1; ben< workbook.getWorksheets().getCount(); i++)
+for (int i = 1; i < workbook.getWorksheets().getCount(); i++)
 
 {
 
@@ -59,11 +60,11 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/SaveEachWorksheetToDifferentPDF.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Her Çalışma Sayfasını Farklı Bir PDF Dosyasına Kaydet](/cells/tr/java/save-each-worksheet-to-a-different-pdf-file).
+Daha fazla bilgi için [Her Bir Çalışma Sayfasını Farklı Bir PDF Dosyasına Kaydet](/cells/tr/java/save-each-worksheet-to-a-different-pdf-file)'i ziyaret edin.
 
 {{% /alert %}}

@@ -1,16 +1,17 @@
-﻿---
-title: Добавить рабочие листы в существующий файл Excel в PHP
+---
+title: Добавление листов в существующий файл Excel в PHP
 type: docs
 weight: 10
 url: /ru/net/add-worksheets-to-existing-excel-file-in-php/
 ---
-Добавить рабочие листы в существующий файл Excel
 
-Добавить рабочие листы в существующий файл Excel
+Добавить листы в существующий файл Excel
+
+Добавить листы в существующий файл Excel
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -37,7 +38,7 @@ url: /ru/net/add-worksheets-to-existing-excel-file-in-php/
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Добавить рабочие листы в существующий файл Excel (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузить **Добавить листы в существующий файл Excel (Aspose.Cells)** с любого из указанных ниже социальных кодирования сайтов:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddWorksheetsToExistingExcelFile.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddWorksheetsToExistingExcelFile.php)

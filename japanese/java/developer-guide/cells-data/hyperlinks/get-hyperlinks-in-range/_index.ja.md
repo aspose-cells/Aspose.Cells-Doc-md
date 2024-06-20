@@ -1,12 +1,13 @@
-﻿---
+---
 title: 範囲内のハイパーリンクを取得
 type: docs
 weight: 130
 url: /ja/java/get-hyperlinks-in-range/
 ---
+
 ## **範囲内のハイパーリンクを取得**
 
-の[**範囲**](https://reference.aspose.com/cells/java/com.aspose.cells/range)クラスは[**getハイパーリンク()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#Hyperlinks)選択した範囲内のすべてのハイパーリンクを取得するプロパティ ゲッター。を呼び出してハイパーリンクを削除することもできます。[**Hyperlink.delete()**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#delete()） 方法。
+[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/range)クラスは、選択した範囲内のすべてのハイパーリンクを取得するための[**getHyperlinks()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#Hyperlinks)プロパティゲッターを提供します。[**Hyperlink.delete()**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#delete--)メソッドを呼び出すことで、ハイパーリンクを削除することもできます。
 
 ## サンプルコード
 

@@ -1,21 +1,22 @@
-﻿---
-title: Python'de Satır Yüksekliğini ve Sütun Genişliğini Ayarlama
+---
+title: Python da Satır Yüksekliğini ve Sütun Genişliğini Ayarlama
 type: docs
 weight: 10
 url: /tr/java/adjusting-row-height-and-column-width-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel pytho
-description: Python Excel API'i kullanarak Python'de Excel dosyaları oluşturun. MS Office olmadan Python uygulamalarınızda XLSX veya XLS'de satır yüksekliğini ve sütun genişliğini ayarlayın.
+keywords: Python da XLSX oluşturma, Python da XLS oluşturma, Python da XLSX, Python da XLS, Python da satır yüksekliği, python da sütun genişliği, Excel python
+description: Python Excel API sini kullanarak Python da Excel dosyaları oluşturun. Uygulamalarınızda MS Office olmadan XLSX veya XLS te satır yüksekliğini ve sütun genişliğini ayarlayın.
 ---
-## **Python'de Excel Elektronik Tabloları - Satır Yüksekliğini ve Sütun Genişliğini Ayarlama**
-### **Satır Yüksekliğini Ayarlama**
-Aspose.Cells ile Cells koleksiyonunun setRowHeight yöntemini çağırarak Python'de tek bir satırın yüksekliğini ayarlamak mümkündür. setRowHeight yöntemi aşağıdaki parametreleri alır:
 
-- **Satır dizini**, yüksekliğini değiştirdiğiniz satırın dizini.
-- **Satır yüksekliği**, satıra uygulanacak satır yüksekliği.
+## **Python'da Excel Elektronik Tablolarda Satır Yüksekliğini ve Sütun Genişliğini Ayarlama**
+### **Satır Yüksekliğini Ayarlamak**
+Aspose.Cells ile Python'da tek bir satırın yüksekliğini belirlemek, Cells koleksiyonunun setRowHeight yöntemini çağırarak mümkündür. setRowHeight yöntemi aşağıdaki parametreleri alır:
 
-**Python Kod**
+- **Satır dizini**, yüksekliği değiştirdiğiniz satırın dizini.
+- **Satır yüksekliği**, satıra uygulanan satır yüksekliği.
 
-{{< highlight "python" >}}
+**Python Kodu**
+
+{{< highlight python >}}
 
  def set_row_height(self):
 
@@ -41,14 +42,14 @@ print "Set Row Height Successfully."
 
 {{< /highlight >}}
 ### **Sütun Genişliğini Ayarlama**
-Cells koleksiyonunun setColumnWidth yöntemini çağırarak bir sütunun genişliğini ayarlayın. setColumnWidth yöntemi aşağıdaki parametreleri alır:
+Bir sütunun genişliğini, Hücreler koleksiyonunun setColumnWidth method'unu çağırarak ayarlayın. setColumnWidth method'u aşağıdaki parametreleri alır:
 
-- **Sütun dizini**, genişliğini değiştirdiğiniz sütunun dizini.
+- **Sütun dizini**, genişliği değiştirdiğiniz sütunun dizini.
 - **Sütun genişliği**, istenen sütun genişliği.
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_column_width(self):
 
@@ -74,6 +75,6 @@ print "Set Column Width Successfully."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Satır Yüksekliğini ve Sütun Genişliğini Ayarlama (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Satır Yüksekliğini ve Sütun Genişliğini Ayarlama (Aspose.Cells)** dosyasını indirebilirsiniz:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

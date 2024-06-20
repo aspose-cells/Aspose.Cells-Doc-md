@@ -1,19 +1,22 @@
 ---
-title: Quitar la rebanadora
+title: Eliminar filtro
 type: docs
 weight: 30
 url: /es/python-net/removing-slicer/
+description: Aprenda cómo eliminar el filtro con la biblioteca Aspose.Cells para Python via .NET.
+keywords: Aspose.Cells for Python Excel, biblioteca Python de Excel, eliminar Slicer sin Excel en Python, Eliminar Slicer usando Aspose.Cells para Python, Python borrar slicer, Eliminar slicer a través de la biblioteca excel de Aspsoe.Cells para python.
 ---
-##  **Posibles escenarios de uso**
 
- Si desea eliminar la segmentación de datos en Microsoft Excel, simplemente selecciónela y presione el botón*Borrar* botón. De manera similar, si desea eliminarlo usando Aspose.Cells for Python via .NET API mediante programación, utilice el[**Hoja de trabajo.slicers.remove()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/)método. Eliminará la segmentación de datos de la hoja de trabajo.
+## **Escenarios de uso posibles**
 
-##  **Quitar la rebanadora**
+Si desea eliminar un slicer en Microsoft Excel, simplemente selecciónelo y presione el botón *Eliminar*. De manera similar, si desea eliminarlo mediante el API de Aspose.Cells para Python via .NET de forma programática, por favor use el método [**Worksheet.slicers.remove()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/). Esto eliminará el slicer de la hoja de cálculo.
 
-El siguiente código de muestra carga el[archivo de Excel de muestra](67338478.xlsx)que contiene una segmentación de datos existente. Accede a las cortadoras y luego las elimina. Finalmente, guarda el libro de trabajo como[archivo de salida de Excel](67338477.xlsx). La siguiente captura de pantalla muestra la segmentación que se eliminará después de la ejecución del código de muestra.
+## **Cómo eliminar Slicer usando la biblioteca Excel de Aspose.Cells para Python**
+
+El siguiente código muestra el [archivo de Excel de muestra](67338478.xlsx) que contiene un slicer existente. Accede a los slicers y luego lo elimina. Finalmente, guarda el libro de trabajo como [archivo de Excel de salida](67338477.xlsx). La siguiente captura de pantalla muestra el slicer que se eliminará después de la ejecución del código de muestra.
 
 ![todo:image_alt_text](removing-slicer_1.png)
 
-##  **Código de muestra**
+## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-RemovingSlicer.py" >}}

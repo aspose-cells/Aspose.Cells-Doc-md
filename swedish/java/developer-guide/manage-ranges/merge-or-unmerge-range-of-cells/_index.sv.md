@@ -1,21 +1,22 @@
-﻿---
-title: Sammanfoga eller ta bort sammanslagningsintervall för Cells
+---
+title: Slå samman eller dela upp cellintervall
 type: docs
 weight: 70
 url: /sv/java/merge-or-unmerge-range-of-cells/
-description: Sammanfoga och ta bort Cells i ett intervall i Excel med Java-kod.
-keywords: java merge and unmerge cells in a range, java merge and unmerge cells in range, merge and unmerge cells in range with java, merge and unmerge cells in range using java, merge and unmerge cells in excel using java, merge and unmerge cells in excel with java, java merge and unmerge cells in excel, java merge cells in excel, java unmerge cells in excel, merge cells in range with java
+description: Slå samman och avsloga celler i ett område i Excel med Java kod.
+keywords: java slå samman och avsloga celler i ett område, java slå samman och avsloga celler i område, slå samma och avsloga celler i område med java, slå samma och avsloga celler i område med hjälp av java, slå samma och avsloga celler i excel med java, slå samma och avsloga celler i excel med java, java slå samman och avsloga celler i excel, java slå samman celler i excel, java avsloga celler i excel, slå samman celler i område med java
 ---
+
 {{% alert color="primary" %}}
 
- Du kan använda Aspose.Cells för att slå samman eller dela ett cellintervall. Aspose.Cells tillhandahåller[**Range.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge() ) och[**Range.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge()) metoder för detta ändamål. Den här artikeln förklarar hur du slår samman ett cellintervall till en enda cell.
+Du kan använda Aspose.Cells för att slå samman eller dela upp ett cellintervall. Aspose.Cells tillhandahåller [**Range.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge--) och [**Range.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge--) metoder för detta ändamål. Denna artikel förklarar hur man slår samman ett cellintervall till en enda cell.
 
 {{% /alert %}}
 
- Följande exempelkod skapar först ett intervall - A1:D4 - och slår sedan samman cellerna i intervallet till en enda cell med hjälp av[**Range.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge()) metod.
- På samma sätt är det möjligt att dela celler genom att skapa ett intervall och anropa[**Range.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge()) metod.
+Den följande exempelkoden skapar först ett område - A1:D4 - och sedan slår samman cellerna i området till en enda cell med hjälp av [**Range.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge--)-metoden.
+På samma sätt är det möjligt att dela celler genom att skapa ett intervall och anropa metoden [**Range.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge--).
 
-Följande bild visar utdata Excel-filen genererad med exempelkoden. Som du kan se har området A1:D4 slagits samman till en enda cell.
+Följande bild visar den genererade Excel-filen med det exempelkod genererat utdata. Som du kan se har området A1:D4 sammanslagits till en enda cell.
 
 ![todo:image_alt_text](merge-or-unmerge-range-of-cells_1.png)
 
@@ -23,8 +24,8 @@ Följande bild visar utdata Excel-filen genererad med exempelkoden. Som du kan s
 
 {{% alert color="primary" %}}
 
-## **relaterade artiklar**
+## **Relaterade artiklar**
 
-- [Sammanfoga och dela celler](/cells/sv/java/merging-and-unmerging-cells/).
+- [Sammanslagning och delning av celler](/cells/sv/java/sammanslagning-och-delsning-av-celler/).
 
 {{% /alert %}}

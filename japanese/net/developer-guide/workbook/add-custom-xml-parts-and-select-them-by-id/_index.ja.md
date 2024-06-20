@@ -1,16 +1,17 @@
-﻿---
-title: カスタム XML パーツを追加し、ID で選択する
+---
+title: カスタムXMLパーツの追加およびIDでの選択
 type: docs
 weight: 70
 url: /ja/net/add-custom-xml-parts-and-select-them-by-id/
 ---
-## **考えられる使用シナリオ**
 
-カスタム XML パーツは、Microsoft Excel ドキュメント内に保存され、それらを処理するアプリケーションによって使用される XML データです。現時点では、Microsoft Excel UI を使用してそれらを直接追加する方法はありません。ただし、VSTO を使用したり、Aspose.Cells を使用したりするなど、さまざまな方法でプログラムで追加できます。使用してください。[**Workbook.CustomXmlParts.Add()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add)Aspose.Cells API を使用してカスタム XML 部分を追加する場合は、メソッドを使用します。[**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id)財産。同様に、カスタム XML パーツを ID で選択する場合は、次を使用できます。[**Workbook.CustomXmlParts.SelectByID()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid)方法。
+## **可能な使用シナリオ**
 
-## **カスタム XML パーツを追加し、ID で選択する**
+カスタムXMLパーツは、Microsoft Excelドキュメント内に格納されるXMLデータであり、それを処理するアプリケーションで使用されます。現時点では、Microsoft Excel UIで直接追加する方法はありませんが、VSTO、Aspose.Cellsなどを使用してプログラムで追加できます。Aspose.Cells APIを使用してカスタムXMLパーツを追加したい場合は[**Workbook.CustomXmlParts.Add()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add)メソッドを使用してください。また、[**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id)プロパティを使用してそのIDを設定できます。同様に、IDでカスタムXMLパーツを選択したい場合は[**Workbook.CustomXmlParts.SelectByID()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid)メソッドを使用できます。
 
-次のサンプル コードは、最初に を使用して 4 つのカスタム XML パーツを追加します。[**Workbook.CustomXmlParts.Add()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add)方法。次に、ID を次のように設定します。[**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id)財産。最後に、追加されたカスタム XML 部分の 1 つを検索または選択します。[**Workbook.CustomXmlParts.SelectByID()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid)方法。以下のコードのコンソール出力も参照してください。
+## **カスタムXMLパーツの追加およびIDでの選択**
+
+以下のサンプルコードは、まず[**Workbook.CustomXmlParts.Add()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/add)メソッドを使用して4つのカスタムXMLパーツを追加します。次に[**CustomXmlPart.ID**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpart/properties/id)プロパティを使用してそれらのIDを設定します。最後に[**Workbook.CustomXmlParts.SelectByID()**](https://reference.aspose.com/cells/net/aspose.cells.markup/customxmlpartcollection/methods/selectbyid)メソッドを使用して追加されたカスタムXMLパーツの1つを検索または選択します。以下のコードのコンソール出力も参照してください。
 
 ## **サンプルコード**
 
@@ -18,7 +19,7 @@ url: /ja/net/add-custom-xml-parts-and-select-them-by-id/
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Found: CustomXmlPart ID Sport
 

@@ -1,26 +1,27 @@
-﻿---
-title: Tema Verilerini Excel Dosyasından Çıkarın
+---
+title: Excel Dosyasından Tema Verilerini Çıkartma
 type: docs
 weight: 110
 url: /tr/java/extract-theme-data-from-excel-file/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, kullanıcıların Tema ile ilgili verileri bir Excel dosyasından çıkarmasına olanak tanır. Örneğin, çalışma kitabına uygulanan Tema Adını ve hücreye veya hücre kenarlıklarına uygulanan Tema Rengini vb. çıkarabilirsiniz.
+Aspose.Cells, kullanıcıların bir Excel dosyasından Tema ile ilgili verileri çıkarmasına izin verir. Örneğin, bir çalışma kitabına uygulanan Tema Adını ve bir hücrenin veya hücre sınırlarının uygulanan Tema Rengini çıkarabilirsiniz.
 
-Sayfa Düzeni > Temalar komutu ile Microsoft Excel kullanarak çalışma kitabınıza Tema uygulayabilirsiniz.
+Microsoft Excel üzerinden Sayfa Düzeni > Temalar komutunu kullanarak çalışma kitabınıza Tema uygulayabilirsiniz.
 
 {{% /alert %}}
 
-## **Örnek vermek**
+## **Örnek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExtractThemeData-ExtractThemeData.java" >}}
 
 ## **Örnek Çıktı**
 
-İşte yukarıdaki kodun örnek bir konsol çıktısı.
+Yukarıdaki kodun örnek konsol çıktısı burada bulunmaktadır.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Civic
 

@@ -1,12 +1,13 @@
-﻿---
-title: Ta bort kalkylblad från arbetsböcker
+---
+title: Ta bort arbetsblad från arbetsböcker
 type: docs
 weight: 100
 url: /sv/net/delete-worksheets-from-workbooks/
 ---
-Du kan ta bort alla kalkylblad i en arbetsbok. Om du vill ta bort ett kalkylblad använder du kalkylbladets värdobjekt eller kommer åt kalkylbladet genom att använda arbetsbokens arksamling.
+
+Du kan ta bort vilket arbetsblad som helst i en arbetsbok. För att ta bort ett arbetsblad, använd arbetsbladets värdobjekt eller kom åt arbetsbladet genom att använda kalkylbladssamlingen i arbetsboken.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook= this.Application.Workbooks.Open(fileName);
 
@@ -14,7 +15,7 @@ Du kan ta bort alla kalkylblad i en arbetsbok. Om du vill ta bort ett kalkylblad
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -23,5 +24,5 @@ Du kan ta bort alla kalkylblad i en arbetsbok. Om du vill ta bort ett kalkylblad
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Ladda ner**
+## **Nerladdning**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)

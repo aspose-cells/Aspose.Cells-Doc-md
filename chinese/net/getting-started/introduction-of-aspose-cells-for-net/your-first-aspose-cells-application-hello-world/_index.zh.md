@@ -1,5 +1,5 @@
 ---
-title: 您的第一个 Aspose.Cells 应用程序 - Hello World
+title: 您的第一个 Aspose.Cells 应用程序  Hello World
 type: docs
 weight: 30
 url: /zh/net/your-first-aspose-cells-application-hello-world/

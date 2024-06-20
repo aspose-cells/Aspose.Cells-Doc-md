@@ -1,91 +1,92 @@
 ---
 title: Как запустить Aspose.Cells для .Net6
 type: docs
-description: Как запустить Aspose.Cells для .Net6
+description: «Как запустить Aspose.Cells для .Net6.»
 weight: 138
 url: /ru/net/how-to-run-aspose-cells-for-net6/
 ---
-##  Обзор
 
- Для платформ .NET6 (или более поздних версий) по сравнению с предыдущими платформами (.netcore31 или более ранними) важным отличием является графическая библиотека.
- В этом официальном[Microsoft Документ](https://learn.microsoft.com/en-gb/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only), в нем объясняется, что для выпусков .NET6 или более поздних версий графическая библиотека «System.Drawing.Common» будет поддерживаться только на Windows, и даются рекомендации по замене графической библиотеки.
+## Обзор
 
-Для продукта Apose.Cells мы провели оценку и завершили миграцию графической библиотеки. Мы используем SkiaSharp вместо System.Drawing.Common в системах, отличных от Windows, как предложено в официальной документации Microsoft. Обратите внимание, что это критическое изменение вступит в силу в версии Aspose.Cells 22.10.1 или более поздней версии для .Net6.
+Для платформ .NET6 (или позднее) основное отличие по сравнению с предыдущими платформами (.netcore31 или ранее) заключается в графической библиотеке. 
+В этом официальном [документе Microsoft](https://learn.microsoft.com/en-gb/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only) объясняется, что для .NET6 или более поздних релизов графическая библиотека "System.Drawing.Common" будет поддерживаться только в Windows и даются рекомендации по замене графической библиотеки.
 
-Для .netcore31 и более ранних версий в целях совместимости и стабильности в настоящее время мы по-прежнему используем графическую библиотеку System.Drawing.Common. Зависимости для .netcore31 или более ранней версии следующие:
-- Система.Рисование.Общий, 4.7.0.
+Для продукта Apose.Cells мы провели оценку и завершили миграцию графической библиотеки. Мы используем SkiaSharp вместо System.Drawing.Common в системах, отличных от Windows, как предложено в официальной документации от Microsoft. Обратите внимание, что это важное изменение начнет действовать в Aspose.Cells 22.10.1 или более поздних версиях для .Net6.
+
+Для .netcore31 или ранее, для совместимости и стабильности в настоящее время мы все еще используем графическую библиотеку "System.Drawing.Common". Зависимости для .netcore31 или ранее следующие:
+- System.Drawing.Common, 4.7.0.
 - System.Security.Cryptography.Pkcs, 5.0.1.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-##  Запустите Aspose.Cells для .Net6 на Windows.
+## Запуск Aspose.Cells для .Net6 в Windows
 
-Сначала вы можете создать приложение .net6 с помощью VS2022, затем выбрать следующие варианты установки:
+Сначала вы можете создать приложение .net6 с помощью VS2022, затем вы можете выбрать следующие варианты установки:
 
-###  Установить через nuget
+### Установка через NuGet
 
-1.  Искать Aspose.Cells из NuGet:[Aspose.Cells for .NET NuGet Пакет](https://www.nuget.org/packages/Aspose.Cells/). 
-Вы также можете установить Aspose.Cells из менеджера пакетов Nuget в VS2022.
+1. Поиск Aspose.Cells в NuGet: [Aspose.Cells for .NET Набор NuGet](https://www.nuget.org/packages/Aspose.Cells/). 
+Вы также можете установить Aspose.Cells через менеджер пакетов NuGet в VS2022.
 
-2. «SkiaSharp» или «System.Drawing.Common» будут установлены автоматически как зависимость Aspose.Cells 22.10.1 или более поздней версии для платформ .Net6, что зависит от конфигурации «Целевой ОС» в вашем проекте.
-- Установите для «Целевой ОС» значение «Windows» для вашего проекта, вы будете использовать «System.Drawing.Common» в качестве зависимости от вашей системы Windows для проекта .Net6. В этой конфигурации результат отрисовки ближе к .netcore31 или более раннему варианту.
-**![Конфигурация целевой ОС](TargetOS.png)**
--  Установите для параметра «Целевая ОС» значение «Нет» или другие параметры вашего проекта. Вы будете использовать «SkiaSharp» в качестве зависимости от вашей системы Windows для проекта .Net6.*Обратите внимание, что версия, использующая «SkiaSharp» в качестве зависимости, не поддерживает функцию печати на принтере.*
+2. "SkiaSharp" или "System.Drawing.Common" будут автоматически установлены в качестве зависимости Aspose.Cells 22.10.1 или более поздней версии для платформ .Net6, в зависимости от конфигурации "Целевая ОС" в вашем проекте.
+- Установите "Целевая ОС" в "Windows" для вашего проекта, вы будете использовать "System.Drawing.Common" в качестве зависимости на вашей системе Windows для проекта .Net6. В этой конфигурации результат рисования ближе к .netcore31 или ранее.
+**![Настройка целевой ОС](TargetOS.png)**
+- Установите "Целевая ОС" в "Нет" или другие варианты для вашего проекта, вы будете использовать "SkiaSharp" в качестве зависимости на вашей системе Windows для проекта .Net6. *Обратите внимание, что версия, использующая "SkiaSharp" в качестве зависимости, не поддерживает функцию печати на принтер.*
 
-###  Установить через MSI или DLL.
+### Установка через msi или DLL
 
-1. [Загрузите Aspose.Cells.msi или DLL.](https://releases.aspose.com/cells/net/)
+1. [Загрузить Aspose.Cells.msi или DLL](https://releases.aspose.com/cells/net/)
 
-2. Откройте каталог установки или каталог DLL, затем выберите шаг 3 или 4 ниже:
+2. Откройте директорию установки или директорию DLL, затем выберите шаг 3 или 4 ниже:
 
-3. найдите подкаталог «net6.0-windows», добавьте в него Aspose.Cells.dll в свое приложение .net6. Вручную добавьте следующие пакеты nuget в свой проект .net6:
-- Система.Рисование.Общий, 4.7.0.
+3. Найдите подкаталог "net6.0-windows", добавьте Aspose.Cells.dll в него в ваше приложение .net6. Вручную добавьте следующие пакеты NuGet в ваш проект .net6:
+- System.Drawing.Common, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-Таким образом, вы будете использовать «System.Drawing.Common» в качестве зависимости от вашей системы Windows для проекта .Net6. В этой конфигурации результат отрисовки ближе к .netcore31 или более раннему варианту.
+Таким образом, вы будете использовать "System.Drawing.Common" в качестве зависимости на вашей системе Windows для проекта .Net6. В этой конфигурации результат рисования ближе к .netcore31 или ранее.
 
-4. найдите подкаталог «net6.0», добавьте в него Aspose.Cells.dll в свое приложение .net6. Вручную добавьте следующие пакеты nuget в свой проект .net6:
-- СкиаШарп, 2.88.6.
+4. Найдите подкаталог "net6.0", добавьте Aspose.Cells.dll в него в ваше приложение .net6. Вручную добавьте следующие пакеты NuGet в ваш проект .net6:
+- SkiaSharp, 2.88.6.
 - System.Security.Cryptography.Pkcs, 6.0.3.
 - System.Text.Encoding.CodePages, 4.7.0.
 
- Таким образом, вы будете использовать «SkiaSharp» в качестве зависимости от вашей системы Windows для проекта .Net6.*Обратите внимание, что версия, использующая «SkiaSharp» в качестве зависимости, не поддерживает функцию печати на принтере.*
-##  Запустите Aspose.Cells для .Net6 в Linux.
+Таким образом, вы будете использовать "SkiaSharp" в качестве зависимости на вашей системе Windows для проекта .Net6. *Обратите внимание, что версия, использующая "SkiaSharp" в качестве зависимости, не поддерживает функцию печати на принтер.*
+## Запустите Aspose.Cells для .Net6 на Linux
 
-См. метод установки по номеру Windows. Вы можете выбрать SkiaSharp только в качестве зависимости графической библиотеки от системы Linux.
+Ссылка на метод установки в Windows, вы можете выбрать только SkiaSharp в качестве зависимости графической библиотеки в системе Linux.
 
-Вам необходимо выполнить следующие дополнительные операции, чтобы обеспечить правильное использование SkiaSharp под Linux:
+Вам нужно выполнить следующие дополнительные операции, чтобы обеспечить правильное использование SkiaSharp в Linux:
 
-1. Запустите следующую команду в вашей системе Linux:
+1. Выполните следующую команду в вашей системе Linux:
 ```
 apt-get update && apt-get install -y libfontconfig1
 ```
-OR
+ИЛИ
 ```
 apk update && apk add fontconfig 
 ```
 
-2. Добавьте пакеты nuget «SkiaSharp.NativeAssets.Linux 2.88.6» в свой проект .net6.
+2. Добавьте пакеты NuGet "SkiaSharp.NativeAssets.Linux 2.88.6" в ваш проект .net6.
 
-3. Или вы можете добавить nuget пакет «SkiaSharp.NativeAssets.Linux.NoDependologies 2.88.6» в свой проект .net6 вместо двух шагов, описанных выше.
+3. Или вы можете выбрать добавление пакетов NuGet "SkiaSharp.NativeAssets.Linux.NoDependencies 2.88.6" в ваш проект .net6, вместо двух шагов выше.
 
-###  Пример Dockerfile для Ubuntu
+### Пример Dockerfile для Ubuntu
 
-1. Добавьте пакеты nuget «SkiaSharp.NativeAssets.Linux 2.88.6» в свой проект .net6.
+1. Добавьте пакеты NuGet "SkiaSharp.NativeAssets.Linux 2.88.6" в ваш проект .net6.
 
-2. Используйте следующий файл Docker:
-{{< highlight "plain" >}}
-#  Ubuntu 20.04
+2. Используйте следующий Dockerfile:
+{{< highlight plain >}}
+# Ubuntu 20.04
 FROM mcr.microsoft.com/dotnet/runtime:6.0-focal AS base
 WORKDIR /app
 
-#  add "libfontconfig1" package if using "SkiaSharp.NativeAssets.Linux" in your project
-#  Or you need to use "SkiaSharp.NativeAssets.Linux.NoDependencies" in your project
+# add "libfontconfig1" package if using "SkiaSharp.NativeAssets.Linux" in your project
+# Or you need to use "SkiaSharp.NativeAssets.Linux.NoDependencies" in your project
 RUN apt-get update && apt-get install -y libfontconfig1
 
-#  Copy fonts from local to docker
-#  For example, put a "fonts" folder in your project folder, and put the font files in it,
-#  then, use the following line:
+# Copy fonts from local to docker
+# For example, put a "fonts" folder in your project folder, and put the font files in it,
+# then, use the following line:
 COPY fonts/ /usr/share/fonts
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0-focal AS build
@@ -105,23 +106,23 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Ubuntu_Docker.dll"]
 {{< /highlight >}}
 
-###  Пример Dockerfile для Alpine
+### Пример Dockerfile для Alpine
 
-1. Добавьте пакеты nuget «SkiaSharp.NativeAssets.Linux 2.88.6» в свой проект .net6.
+1. Добавьте пакеты NuGet "SkiaSharp.NativeAssets.Linux 2.88.6" в ваш проект .net6.
 
-2. Используйте следующий файл Docker:
-{{< highlight "plain" >}}
-# Alpine 3.16
+2. Используйте следующий Dockerfile:
+{{< highlight plain >}}
+#Alpine 3.16
 FROM mcr.microsoft.com/dotnet/runtime:6.0-alpine3.16 AS base
 WORKDIR /app
 
-#  add "fontconfig" package if using "SkiaSharp.NativeAssets.Linux" in your project
-#  Or you need to use "SkiaSharp.NativeAssets.Linux.NoDependencies" in your project
+# add "fontconfig" package if using "SkiaSharp.NativeAssets.Linux" in your project
+# Or you need to use "SkiaSharp.NativeAssets.Linux.NoDependencies" in your project
 RUN apk update && apk add fontconfig 
 
-#  Copy fonts from local to docker
-#  For example, put a "fonts" folder in your project folder, and put the font files in it,
-#  then, use the following line:
+# Copy fonts from local to docker
+# For example, put a "fonts" folder in your project folder, and put the font files in it,
+# then, use the following line:
 COPY fonts/ /usr/share/fonts
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine3.16 AS build

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gestire SmartArt
 type: docs
 weight: 100

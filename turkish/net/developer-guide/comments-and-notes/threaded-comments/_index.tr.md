@@ -1,134 +1,143 @@
-﻿---
-title: Zincirleme Yorumlar
+---
+title: İz bırakan Yorumlar
 type: docs
 weight: 140
 url: /tr/net/threaded-comments/
 ---
-## **Zincirleme Yorumlar**
 
-MS Excel 365, dizili yorumlar eklemek için bir özellik sağlar. Bu yorumlar sohbet işlevi görür ve tartışmalar için kullanılabilir. Yorumlar artık zincirleme konuşmalara izin veren bir Yanıt kutusuyla birlikte gelir. Eski yorumlar, Excel 365'te Notlar olarak adlandırılır. Aşağıdaki ekran görüntüsü, Excel'de açıldığında zincir halinde yorumların nasıl görüntülendiğini gösterir.
+## **İz bırakan Yorumlar**
 
-![yapılacaklar:resim_alternatif_metin](threaded-comments_1.jpg)
+MS Excel 365, iz bırakan yorum eklemek için bir özellik sağlar. Bu yorumlar, sohbetler gibi çalışır ve tartışmalar için kullanılabilir. Yorumlar artık, iz bırakan konuşmalar yapma olanağı tanıyan bir Yanıt kutusuyla birlikte gelir. Eski yorumlar, Excel 365'te Notlar olarak adlandırılır. Aşağıdaki ekran görüntüsü, Excel'de açıldığında iz bırakan yorumların nasıl görüntülendiğini göstermektedir.
 
-Zincirleme yorumlar, Excel'in eski sürümlerinde bu şekilde gösterilir. Aşağıdaki görseller örnek dosya Excel 2016 programında açılarak çekilmiştir.
+![todo:image_alt_text](threaded-comments_1.jpg)
 
-![yapılacaklar:resim_alternatif_metin](threaded-comments_2.jpg)
+İz bırakan yorumlar, Excel'in daha eski sürümlerinde bu şekilde gösterilir. Aşağıdaki resimler, örnek dosyanın Excel 2016'da açılarak alınmıştır.
 
-![yapılacaklar:resim_alternatif_metin](threaded-comments_3.jpg)
+![todo:image_alt_text](threaded-comments_2.jpg)
 
-Aspose.Cells ayrıca zincirleme yorumları yönetme özelliği de sağlar.
+![todo:image_alt_text](threaded-comments_3.jpg)
 
-## **Zincirleme Yorumlar Ekle**
+Aspose.Cells ayrıca iz bırakan yorumları yönetme özelliği sağlar.
 
-### **Excel ile Zincirli yorum ekleme**
+## **İz Bırakan Yorumlar Ekle**
 
-Excel 365'te zincirleme açıklamalar eklemek için aşağıdaki adımları izleyin.
+### **Excel'de İz bırakan yorum eklemek için aşağıdaki adımları izleyin.**
 
 - Yöntem 1
- - Tıkla**Gözden geçirmek** Sekme
- - Tıkla**Yeni yorum** buton
- - Bu, aktif hücreye yorum girmek için bir diyalog açacaktır.
-  - ![yapılacaklar:resim_alternatif_metin](threaded-comments_4.jpg)
-- Yöntem 2
- - Yorumu eklemek istediğiniz hücreye sağ tıklayın.
- - Tıkla**Yeni yorum** seçenek.
- - Bu, aktif hücreye yorum girmek için bir diyalog açacaktır.
-  - ![yapılacaklar:resim_alternatif_metin](threaded-comments_5)
 
-### **Aspose.Cells'i kullanarak Zincirli Yorum Ekle**
+- **İncele** Sekmesine tıklayın
+  - **Yeni Yorum** düğmesine tıklayın
+  - Bu, etkin hücreye yorum girmek için bir iletişim kutusu açacaktır.
+  - Bu, etkin hücreye yorum girmek için bir iletişim kutusu açacaktır.
+  - ![todo:image_alt_text](threaded-comments_4.jpg)
+- Yorum eklemek istediğiniz hücreye sağ tıklayın.
+  - **Yeni Yorum** seçeneğine tıklayın
+  - **Yeni Yorum** seçeneğine tıklayın.
+  - Bu, etkin hücreye yorum girmek için bir iletişim kutusu açacaktır.
+  - ![todo:image_alt_text](threaded-comments_5)
 
-Aspose.Cells sağlar[**Yorumlar.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) zincirleme yorumlar ekleme yöntemi.[**Yorumlar.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)method aşağıdaki üç parametreyi kabul eder.
+### **Aspose.Cells Kullanarak İz bırakan Yorum Ekleme**
 
-- Cell Ad: Yorumun ekleneceği hücrenin adı.
-- Yorum Metni: Yorum metni.
-- [**KonuluYorumYazar**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthor): Yorumun yazarı
+Aspose.Cells, iz bırakan yorumları eklemek için [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) yöntemi sağlar. [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) yöntemi, aşağıdaki üç parametreyi kabul eder.
 
-Aşağıdaki kod örneği, kullanımını gösterir[**Yorumlar.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)A1 hücresine iş parçacıklı Yorum ekleme yöntemi. Lütfen bkz[çıktı excel dosyası](89849859.xlsx) referans için kod tarafından oluşturulur.
+- Hücre Adı: Yoruma eklenecek hücrenin adı.
+- Yorum Metni: Yorumun metni.
+- [**ThreadedCommentAuthor**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthor): Yorumun yazarı
 
-#### **Basit kod**
+Aşağıdaki kod örneği, A1 hücresine iz bırakan Yorum eklemek için [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) yönteminin kullanımını göstermektedir. Referans için kod tarafından oluşturulan [çıktı Excel dosyasını](89849859.xlsx) lütfen inceleyin.
+
+#### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-AddThreadedComments-1.cs" >}}
 
-## **Zincirlenmiş Yorumları Oku**
+## **İz Bırakan Yorumları Okuma**
 
-### **Excel ile Zincirlenmiş yorumları okuyun**
+### **Excel'de İz bırakan yorumları okuma**
 
-Excel'de dizili yorumları okumak için, yorumları görüntülemek üzere farenizi yorumları içeren hücrenin üzerine getirin. Yorumlar görünümü, aşağıdaki görüntüdeki görünüme benzeyecektir.
+Excel'de iz bırakan yorumları okumak için, yorum içeren hücrenin üzerine fareyi getirerek yorumları görüntüleyebilirsiniz. Yorumlar görünümü aşağıdaki resimde görüldüğü gibi olacaktır.
 
-![yapılacaklar:resim_alternatif_metin](threaded-comments_1.jpg)
+![todo:image_alt_text](threaded-comments_1.jpg)
 
-### **Aspose.Cells'i kullanarak Zincirli yorumları okuyun**
+### **Aspose.Cells Kullanarak İz Bırakan Yorumları Okuma**
 
-Aspose.Cells sağlar[**Yorumlar.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)belirtilen sütun için dizili yorumları alma yöntemi.[**Yorumlar.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)yöntem, sütun adını bir parametre olarak kabul eder ve[**KonuluYorum Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). üzerinde yineleme yapabilirsiniz[**KonuluYorum Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)yorumları görüntülemek için.
+Aspose.Cells, belirli sütun için iz bırakan yorumları almak için [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) yöntemini sağlar. [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) yöntemi, sütun adını parametre olarak alır ve [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)'yi döndürür. Yorumları görüntülemek için [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) üzerinde yinelemeniz gerekebilir.
 
-Aşağıdaki örnek, aşağıdakileri yükleyerek A1 sütunundaki açıklamaları okumayı gösterir:[örnek Excel Dosyası](89849861.xlsx). Lütfen referans için kod tarafından oluşturulan konsol çıktısına bakın.
+Aşağıdaki örnek, [örnek Excel Dosyasını](89849861.xlsx) yükleyerek A1 sütunundan yorumları okumayı göstermektedir. Referans için kod tarafından oluşturulan konsol çıktısını inceleyin.
 
-#### **Basit kod**
+#### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-ReadThreadedComments-1.cs" >}}
 
-#### **Konsol Çıkışı**
+#### **Konsol Çıktısı**
 
-Yorum: Dişli Yorumu Test Et
+{{< highlight csharp >}}
 
-Yazar: Aspose Testi
+Comment: Test Threaded Comment
 
-### **Zincirleme yorumların Oluşturulma Zamanını Oku**
+Author: Aspose Test
 
-Aspose.Cells sağlar[**Yorumlar.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)belirtilen sütun için dizili yorumları alma yöntemi.[**Yorumlar.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)yöntem, sütun adını bir parametre olarak kabul eder ve[**KonuluYorum Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). üzerinde yineleme yapabilirsiniz[**KonuluYorum Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) ve kullan[**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime) Emlak.
+{{< /highlight >}}
 
-Aşağıdaki örnek, dizili yorumların oluşturulan zamanını yükleyerek okumayı gösterir.[örnek Excel Dosyası](89849861.xlsx). Lütfen referans için kod tarafından oluşturulan konsol çıktısına bakın.
+### **Dişli yorumların oluşturulma zamanını okuyun**
 
-#### **Basit kod**
+Aspose.Cells belirtilen sütun için dişli yorumları almak için [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) metodunu sağlar. [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) metodu sütun adını bir parametre olarak alır ve [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) değerini döndürür. [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) üzerinde yineleyebilir ve [**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime) özelliğini kullanabilirsiniz.
+
+Aşağıdaki örnek, [örnek Excel Dosyasını](89849861.xlsx) yükleyerek dişli yorumların oluşturulma zamanını okuma işlemini göstermektedir. Kod tarafından oluşturulan konsol çıktısını referans için lütfen inceleyin.
+
+#### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-ReadThreadedCommentCreatedTime-1.cs" >}}
 
-#### **Konsol Çıkışı**
+#### **Konsol Çıktısı**
 
-Yorum: Dişli Yorumu Test Et
+{{< highlight csharp >}}
 
-Yazar: Aspose Testi
+Comment: Test Threaded Comment
 
-Oluşturulma Zamanı: 15.05.2019 12:46:23
+Author: Aspose Test
 
-## **Zincirlenmiş Yorumları Düzenle**
+Created Time: 5/15/2019 12:46:23 PM
 
-### **Excel ile Zincirlenmiş yorumu düzenleyin**
+{{< /highlight >}}
 
- Excel'de zincir halinde bir yorumu düzenlemek için,**Düzenlemek** aşağıdaki resimde gösterildiği gibi yorumdaki bağlantı.
+## **Dişli Yorumları Düzenle**
 
-![yapılacaklar:resim_alternatif_metin](threaded-comments_7.jpg)
+### **Excel'de Dişli yorumu düzenle**
 
-### **Aspose.Cells'i kullanarak Zincirleme yorumu düzenleyin**
+Excel'de dişli yorumu düzenlemek için, aşağıdaki resimde gösterildiği gibi yorumun üzerindeki **Düzenle** bağlantısına tıklayın.
 
-Aspose.Cells sağlar[**Yorumlar.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) belirtilen sütun için dizili yorumları alma yöntemi.[**Yorumlar.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)yöntem, sütun adını bir parametre olarak kabul eder ve[**KonuluYorum Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Gerekli yorumu güncelleyebilirsiniz.[**KonuluYorum Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)ve çalışma kitabını kaydedin.
+![todo:image_alt_text](threaded-comments_7.jpg)
 
-Aşağıdaki örnek, sütunu yükleyerek A1 sütunundaki ilk zincirleme yorumun düzenlenmesini gösterir.[örnek Excel Dosyası](89849861.xlsx). Lütfen bkz[çıktı excel dosyası](89849862.xlsx)referans için güncellenmiş yorumu gösteren kod tarafından oluşturulur.
+### **Aspose.Cells, belirtilen sütun için dişli yorumları almak için {0} metodunu sağlar. {1} metodu sütun adını bir parametre olarak alır ve {2} değerini döndürür. Gereken yorumu {3} içinde güncelleyebilir ve çalışma kitabını kaydedebilirsiniz.**
 
-#### **Basit kod**
+Aşağıdaki örnek, [örnek Excel Dosyasını](89849861.xlsx) yükleyerek A1 sütunundaki ilk dişli yorumu düzenleme işlemini göstermektedir. Kod tarafından oluşturulan güncellenmiş yorumu içeren [çıktı Excel dosyasını](89849862.xlsx) referans için lütfen inceleyin.
+
+Aşağıdaki örnek, A1 sütunundaki ilk konu başlı yorumu düzenlemeyi, [örnek Excel Dosyasını](89849861.xlsx) yükleyerek gösterir. Lütfen kodla oluşturulan güncellenmiş yorumu referans için [çıktı Excel dosyasını](89849862.xlsx) görün.
+
+#### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-EditThreadedComments-1.cs" >}}
 
-## **Zincirlenmiş Yorumları Kaldır**
+## **Dişli Yorumları Kaldır**
 
-### **Excel ile Zincirlenmiş yorumları kaldırın**
+### **Excel'de dişli yorumları kaldırın**
 
- Excel'de zincirlenmiş yorumları kaldırmak için, yorumları içeren hücreye sağ tıklayın ve**Yorumu Sil** Aşağıdaki resimde gösterildiği gibi seçenek.
+Excel'de dişli yorumları kaldırmak için, yorumları içeren hücre üzerinde sağ tıklayın ve aşağıdaki resimde gösterildiği gibi **Yorumu Sil** seçeneğini tıklayın.
 
-![yapılacaklar:resim_alternatif_metin](threaded-comments_8.jpg)
+![todo:image_alt_text](threaded-comments_8.jpg)
 
-### **Aspose.Cells kullanarak Zincirli yorumları kaldırın**
+### **Aspose.Cells, belirtilen sütun için yorumları kaldırmak için {0} metodu sağlar. {1} metodu sütun adını bir parametre olarak alır ve o sütundaki yorumları kaldırır.**
 
-Aspose.Cells sağlar[**Yorumlar.Kaldır**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)belirtilen sütun için yorumları kaldırma yöntemi.[**Yorumlar.Kaldır**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)yöntem, sütun adını bir parametre olarak kabul eder, o sütundaki yorumları kaldırır.
+Aşağıdaki örnek, [örnek Excel Dosyasını](89849861.xlsx) yükleyerek A1 sütunundaki yorumları kaldırma işlemini göstermektedir. Kod tarafından oluşturulan [çıktı Excel dosyasını](89849864.xlsx) referans için lütfen inceleyin.
 
-Aşağıdaki örnek, sütunu yükleyerek A1 sütunundaki açıklamaları kaldırmayı gösterir.[örnek Excel Dosyası](89849861.xlsx). Lütfen bkz[çıktı excel dosyası](89849864.xlsx)referans için kod tarafından oluşturulur.
+Aşağıdaki örnek, A1 sütunundaki yorumları kaldırmayı, [örnek Excel Dosyasını](89849861.xlsx) yükleyerek gösterir. Referans için kodla oluşturulan [çıktı Excel dosyasını](89849864.xlsx) görün.
 
-#### **Basit kod**
+#### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-RemoveThreadedComments-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Lütfen Aspose.Cells ile yorumu kaldırarak yazarın otomatik olarak kaldırılmadığını unutmayın. Yazarı da kaldırmanız gerekiyorsa, lütfen RemoveAt yöntemini kullanın.[**ThreadedCommentYazarKoleksiyon**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) Yukarıdaki örnekte gösterildiği gibi sınıf.
+Lütfen Aspose.Cells ile yorum kaldırma işlemi yaparken, yazar otomatik olarak kaldırılmaz. Yazarı da kaldırmak istiyorsanız, lütfen yukarıdaki örnekte [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) sınıfının RemoveAt metodu kullanın.
 
 {{% /alert %}}

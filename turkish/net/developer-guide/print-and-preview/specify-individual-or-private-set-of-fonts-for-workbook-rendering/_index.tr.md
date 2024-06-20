@@ -1,19 +1,20 @@
-﻿---
-title: Çalışma Kitabı Oluşturma için Bireysel veya Özel Yazı Tipi Kümesi Belirtin
+---
+title: Çalışma Kitabı Rendeleme için Bireysel veya Özel Font Kümesini Belirtin
 type: docs
 weight: 40
 url: /tr/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Genel olarak, tüm çalışma kitapları için yazı tipi dizinini veya yazı tipi listesini belirtirsiniz, ancak bazen çalışma kitaplarınız için ayrı veya özel yazı tipi seti belirtmeniz gerekir. Aspose.Cells, çalışma kitabınız için ayrı veya özel yazı tipi setini belirtmek için kullanılabilecek ****[IndividualFontConfigs](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)** sınıfını sağlar.
+Genellikle, tüm çalışma kitapları için font dizinini veya font listesini belirtirsiniz, ancak bazen, çalışma kitaplarınız için bireysel veya özel bir font kümesini belirtmeniz gerekir. Aspose.Cells, çalışma kitabınız için bireysel veya özel bir font kümesini belirtmek için kullanılabilecek [**IndividualFontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs) sınıfını sağlar.
 
-## **Çalışma Kitabı Oluşturma için Bireysel veya Özel Yazı Tipi Kümesi Belirtin**
+## **Çalışma Kitabı Rendeleme İçin Bireysel veya Özel Font Kümesini Belirtin**
 
- Aşağıdaki örnek kod,[örnek excel dosyası](67338268.xlsx) kullanılarak belirtilen bireysel veya özel yazı tipi seti ile**[IndividualFontConfigs](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)** sınıf. Lütfen bkz[örnek yazı tipi](67338271.zip)kodunun yanı sıra kodun içinde de kullanılır.[çıkış PDF](67338269.pdf) onun tarafından oluşturulur. Aşağıdaki ekran görüntüsü, yazı tipi başarıyla bulunursa PDF çıktısının nasıl göründüğünü gösterir.
+Aşağıdaki örnek kod, [**IndividualFontConfigs**](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs) sınıfını kullanarak belirtilen bireysel veya özel fontları olan bir örnek Excel dosyasını yükler. Ayrıca kod içinde kullanılan örnek fontu ve onunla oluşturulan [çıkış PDF](67338269.pdf)'i de görebilirsiniz. Aşağıdaki ekran görüntüsü, font başarıyla bulunursa çıktı PDF'in nasıl göründüğünü göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
+![todo:image_alt_text](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Fonts-SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.cs" >}}

@@ -1,17 +1,18 @@
-﻿---
-title: Supprimer le tableau croisé dynamique d'une feuille de calcul
+---
+title: Supprimer le tableau croisé dynamique d une feuille de calcul
 type: docs
 weight: 60
 url: /fr/net/delete-pivot-table-from-a-worksheet/
-description: C# code pour supprimer le tableau croisé dynamique pour les feuilles de calcul Excel
-keywords: c# remove pivot table from worksheet, c# remove pivot table from excel, how to delete pivot table with c#, delete pivot table with c#, delete pivot table from excel with c#, c# delete pivot table, c# remove pivot table, remove pivot table, delete pivot table, how to delete pivot table
+description: Code C# pour supprimer le tableau croisé dynamique des feuilles de calcul Excel
+keywords: c# supprimer un tableau croisé dynamique d une feuille de calcul, c# supprimer un tableau croisé dynamique d Excel, comment supprimer un tableau croisé dynamique avec c#, supprimer un tableau croisé dynamique avec c#, supprimer un tableau croisé dynamique d Excel avec c#, c# supprimer un tableau croisé dynamique, c# supprimer un tableau croisé dynamique, supprimer un tableau croisé dynamique, comment supprimer un tableau croisé dynamique
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells fournit une fonctionnalité pour supprimer ou supprimer le tableau croisé dynamique d'une feuille de calcul. Vous pouvez supprimer le tableau croisé dynamique à l'aide de l'objet tableau croisé dynamique ou de la position du tableau croisé dynamique. Veuillez utiliser le[**Feuille de calcul.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) méthode pour supprimer le tableau croisé dynamique à l'aide d'un objet tableau croisé dynamique et[**Feuille de calcul.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) méthode pour supprimer un objet de tableau croisé dynamique en utilisant sa position à l'intérieur de la collection de tableaux croisés dynamiques.
+Aspose.Cells offre une fonctionnalité pour supprimer ou retirer un tableau croisé dynamique d'une feuille de calcul. Vous pouvez supprimer le tableau croisé dynamique en utilisant l'objet tableau croisé dynamique ou la position du tableau croisé dynamique. Veuillez utiliser la méthode [**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) pour supprimer le tableau croisé dynamique en utilisant l'objet tableau croisé dynamique et la méthode [**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) pour supprimer l'objet tableau croisé dynamique en utilisant sa position dans la collection de tableaux croisés dynamiques.
 
 {{% /alert %}}
 
- L'exemple de code suivant supprime deux tableaux croisés dynamiques de la feuille de calcul. Tout d'abord, il supprime le tableau croisé dynamique à l'aide de[**Feuille de calcul.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) méthode, puis il supprime le tableau croisé dynamique à l'aide[**Feuille de calcul.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) méthode
+Le code d'exemple suivant supprime deux tableaux croisés dynamiques de la feuille de calcul. D'abord, il supprime un tableau croisé dynamique en utilisant la méthode [**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) et ensuite il supprime un tableau croisé dynamique en utilisant la méthode [**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.cs" >}}

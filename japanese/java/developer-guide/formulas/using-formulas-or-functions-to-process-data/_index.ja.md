@@ -1,53 +1,54 @@
-﻿---
-title: 数式または関数を使用してデータを処理する
+---
+title: フォーミュラや関数を使用してデータを処理する
 type: docs
 weight: 5
 url: /ja/java/get-and-set-formula/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel の魅力的な機能の 1 つは、数式と関数を使用してデータを処理できることです。 Microsoft Excel には、ユーザーが複雑な計算をすばやく実行するのに役立つ一連の組み込み関数と数式が用意されています。 Aspose.Cells には、開発者が値を簡単に計算するのに役立つ組み込み関数と数式の膨大なセットも用意されています。 Aspose.Cellsもアドイン機能に対応。さらに、Aspose.Cells は Aspose.Cells の配列と R1C1 数式をサポートします。
+Microsoft Excel の魅力的な機能の1つは、フォーミュラや関数を使用してデータを処理する能力です。Microsoft Excel は、複雑な計算を迅速に実行するための組み込みの関数とフォーミュラのセットを提供します。Aspose.Cells も、開発者が値を簡単に計算できる大規模な組み込みの関数とフォーミュラを提供します。また、Aspose.Cells はアドイン関数をサポートします。さらに、Aspose.Cells は Aspose.Cells での配列および R1C1 フォーミュラをサポートします。
 
 {{% /alert %}}
 
-## **数式と関数の使用**
+## **フォーミュラと関数を使用する**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)、Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)Excel ファイル内の各ワークシートにアクセスできるコレクション。ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスは[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)コレクション。の各項目[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)コレクションはのオブジェクトを表します[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラス。
+Aspose.Cells は Microsoft Excel ファイルを表す [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスは Excel ファイル内の各ワークシートにアクセスを可能にする [**Worksheets**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) コレクションを含みます。ワークシートは [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスは [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) コレクションを提供します。[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) コレクションの各アイテムは [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) クラスのオブジェクトを表します。
 
-によって提供されるプロパティとメソッドを使用して、数式をセルに適用することができます。[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラスについては、以下で詳しく説明します。
+[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) クラスが提供するプロパティやメソッドを使用してセルにフォーミュラを適用することができます。詳細は以下で議論されます。
 
-- [組み込み関数の使用](/cells/ja/java/using-formulas-or-functions-to-process-data/#using-built-in-functions).
-- [アドイン機能の使用](/cells/ja/java/using-formulas-or-functions-to-process-data/#using-add-in-functions).
-- [配列数式の操作](/cells/ja/java/using-formulas-or-functions-to-process-data/#using-array-formula).
-- [R1C1 式の作成](/cells/ja/java/using-formulas-or-functions-to-process-data/#using-r1c1-formula).
+- [組み込みの関数を使用する](/cells/ja/java/using-formulas-or-functions-to-process-data/#using-built-in-functions)
+- [アドイン関数を使用する](/cells/ja/java/using-formulas-or-functions-to-process-data/#using-add-in-functions)
+- [配列フォーミュラを使用する](/cells/ja/java/using-formulas-or-functions-to-process-data/#using-array-formula)
+- [R1C1形式の数式の作成](/cells/ja/java/using-formulas-or-functions-to-process-data/#using-r1c1-formula)。
 
 ## **組み込み関数の使用**
 
-組み込み関数または数式は、開発者の労力と時間を削減するために既製の関数として提供されます。見る[組み込み関数のリスト](/cells/ja/java/supported-formula-functions/).関数はアルファベット順にリストされています。今後、さらに多くの機能がサポートされる予定です。
+組み込みの関数または数式は、開発者の努力と時間を削減するために準備された関数です。[組み込みの関数の一覧](/cells/ja/java/supported-formula-functions/)をご覧ください。 関数はアルファベット順にリストされています。将来的にはさらに多くの関数がサポートされます。
 
- Aspose.Cells は、Microsoft Excel で提供されるほとんどの数式または関数をサポートしています。開発者は、API または[デザイナースプレッドシート](/cells/ja/java/what-is-a-designer-spreadsheet/)Aspose.Cells は、数学、文字列、ブール、日付/時刻、統計、データベース、ルックアップ、および参照式の膨大なセットをサポートしています。
+Aspose.Cellsは、Microsoft Excelが提供するほとんどの数式または関数をサポートしています。 開発者はAPIまたは[デザイナースプレッドシート](/cells/ja/java/what-is-a-designer-spreadsheet/)を通じてこれらの数式を使用できます。 Aspose.Cellsは、数学、文字列、ブール、日付/時刻、統計、データベース、検索、参照の数式の豊富なセットをサポートしています。
 
-使用[**方式**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)のプロパティ[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)セルに数式を追加するクラス。**複雑な数式**、 例えば
+セルに数式を追加するには、[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラスの[**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)プロパティを使用します。たとえば、**複雑な数式**。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  = H7*(1+IF(P7 = $L$3,$M$3, (IF(P7=$L$4,$M$4,0))))
 
 {{< /highlight >}}
 
-、Aspose.Cells でもサポートされています。数式をセルに適用するときは、Microsoft Excel で数式を作成するときと同じように、常に等号 (=) で文字列を開始し、カンマ (,) を使用して関数パラメーターを区切ります。
+、Aspose.Cellsでは複雑な数式もサポートされています。セルに数式を適用する際は、常に文字列を等号（=）で始めてマイクロソフトExcelで数式を作成するときと同様に関数パラメータを区切るためにコンマ（,）を使用してください。
 
-以下の例では、ワークシートの最初のセルに複雑な数式が適用されています。[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)コレクション。式は組み込みの**もしも**Aspose.Cellsが提供する機能です。
+以下の例では、ワークシートの[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)コレクションの最初のセルに複雑な数式が適用されています。この数式では、Aspose.Cellsで提供される組み込みの**IF**関数が使用されています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingBuiltinfunction-1.java" >}}
 
-## **アドイン機能の使用**
+## **アドイン関数の使用**
 
-Excel アドインとして含めたいユーザー定義の数式をいくつか持つことができます。設定時[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)関数組み込み関数は正常に機能しますが、アドイン関数を使用してカスタム関数または数式を設定する必要があります。
+Excelアドインとして含めたいユーザー定義の数式があるかもしれません。[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)関数を設定すると組み込み関数は正常に動作しますが、アドイン関数を設定する必要があります。
 
- Aspose.Cells は、アドイン関数を使用して登録する機能を提供します。[**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)）。その後、設定すると[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) anyFunctionFromAddIn の場合、出力 Excel ファイルには AddIn 関数から計算された値が含まれます。
+Aspose.Cellsは[**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean))を使用してアドイン関数を登録する機能を提供しています。その後、[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddInとすると、出力されるExcelファイルにはアドイン関数からの計算された値が含まれます。
 
-以下のサンプルコードのアドイン機能を登録するために、XLAM以降のファイルをダウンロードする必要があります。同様に、出力ファイル「test_udf.xlsx」をダウンロードして、出力を確認できます。
+以下のサンプルコードでは、アドイン関数の登録を行います。同様に、「test_udf.xlsx」という出力ファイルをダウンロードして結果を確認することもできます。
 
 [TestUDF.xlam](TestUDF.xlam)
 
@@ -57,25 +58,25 @@ Excel アドインとして含めたいユーザー定義の数式をいくつ�
 
 ## **配列数式の使用**
 
-配列数式は、数式を構成する関数の引数として、個々の数値ではなく配列を操作する数式です。配列数式を表示するときは、以下のように中かっこ ({}) で囲みます。
+配列数式は、数式を構成する関数への個々の数値の代わりに配列と連動する数式です。配列数式が表示されると、以下に示すように波括弧（{}）で囲まれています。
 
-**セルG2に配列数式を設定する** 
+**セルG2に配列数式を設定** 
 
-![todo:画像_代替_文章](using-formulas-or-functions-to-process-data_1.png)
+![todo:image_alt_text](using-formulas-or-functions-to-process-data_1.png)
 
-Microsoft 一部の Excel 関数は、値の配列を返します。配列数式を使用して複数の結果を計算するには、配列引数と同じ行数と列数のセル範囲に配列を入力します。
+いくつかのMicrosoft Excel関数は値の配列を返します。配列数式を使用して複数の結果を計算するには、配列を配列引数と同じ行数および列数のセル範囲に入力してください。
 
-を呼び出して、配列数式をセルに適用することができます。[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラス'[**setArray式**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)） 方法。の[**setArray式**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)メソッドは、次のパラメーターを取ります。
+配列数式をセルに適用するには、[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラスの[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int))メソッドを呼び出すことができます。[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int))メソッドは次のパラメータを取ります。
 
 - **配列数式**、配列数式。
-- **行の数**、配列数式の結果を入力する行数。
-- **列の数**、配列数式の結果を入力する列の数。
+- **行数**、配列数式の結果を設定する行数。
+- **列数**、配列数式の結果を設定する列数。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingArrayFunction-1.java" >}}
 
-## **R1C1式の使用**
+## **R1C1形式の数式の使用**
 
-適用する**R1C1**セルへのスタイル式の参照[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラス'[**setR1C1式**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#R1C1Formula)財産。
+R1C1参照スタイルの数式を、[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)クラスの[**setR1C1Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#R1C1Formula)プロパティを使用してセルに適用します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
 

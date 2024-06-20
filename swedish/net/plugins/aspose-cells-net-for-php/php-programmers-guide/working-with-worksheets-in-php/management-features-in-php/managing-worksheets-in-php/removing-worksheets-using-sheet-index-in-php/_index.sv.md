@@ -1,15 +1,16 @@
-﻿---
-title: Ta bort arbetsblad med Sheet Index i PHP
+---
+title: Ta bort arbetsblad med hjälp av arkindex i PHP
 type: docs
 weight: 30
 url: /sv/net/removing-worksheets-using-sheet-index-in-php/
 ---
-## **Ta bort arbetsblad med Sheet Index**
-Ta bort arbetsblad med Sheet Index
+
+## **Ta bort arbetsblad med hjälp av arkindex**
+Ta bort arbetsblad med hjälp av arkindex
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -30,7 +31,7 @@ Ta bort arbetsblad med Sheet Index
         $ptr->Call($workbook,"Save",array($dataDir."/output.xls"));
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Ta bort kalkylblad med hjälp av arkindex (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Hämta **Ta bort arbetsblad med hjälp av arkindex (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetIndex.php)

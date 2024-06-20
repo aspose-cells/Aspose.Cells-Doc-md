@@ -1,55 +1,56 @@
-﻿---
-title: Konvertera arbetsblad till SVG i Jython
+---
+title: Omvandling av arbetsblad till SVG i Jython
 type: docs
 weight: 40
 url: /sv/java/converting-worksheet-to-svg-in-jython/
 ---
-## **Aspose.Cells - Konvertera arbetsblad till SVG**
- För att lägga till dokument med hjälp av**Aspose.Cells Java för Jython**. Här kan du se exempelkod.
 
-**Jython Code**
+## **Aspose.Cells - Omvandling av arbetsblad till SVG**
+Att lägga till dokument med **Aspose.Cells Java för Jython**. Här kan du se exempelkod.
 
-{{< highlight "java" >}}
+**Jython Kod**
 
- från aspose-celler importera inställningar
+{{< highlight java >}}
 
-från com.aspose.cells import arbetsbok
+ from aspose-cells import Settings
 
-från com.aspose.cells importera ImageFormat
+from com.aspose.cells import Workbook
 
-från com.aspose.cells importera ImageOrPrintOptions
+from com.aspose.cells import ImageFormat
 
-från com.aspose.cells importera SheetRender
+from com.aspose.cells import ImageOrPrintOptions
 
-från com.aspose.cells importera SaveFormat
+from com.aspose.cells import SheetRender
+
+from com.aspose.cells import SaveFormat
 
 
 
 class ConvertingWorksheetToSVG:
 
- def__i det__(själv):
+    def __init__(self):
 
- dataDir = Settings.dataDir + 'WorkingWithFiles/ConvertingWorksheetToSVG/'
+        dataDir = Settings.dataDir + 'WorkingWithFiles/ConvertingWorksheetToSVG/'
 
 
 
- saveFormat = SaveFormat
+        saveFormat = SaveFormat
 
- arbetsbok = Arbetsbok(dataDir + "Book1.xls")
+        workbook = Workbook(dataDir + "Book1.xls")
 
- #Konvertera varje kalkylblad till svg-format på en enda sida.
+        #Convert each worksheet into svg format in a single page.
 
- imgOptions = ImageOrPrintOptions()
+        imgOptions = ImageOrPrintOptions()
 
- imgOptions.setSaveFormat(saveFormat.SVG)
+        imgOptions.setSaveFormat(saveFormat.SVG)
 
- imgOptions.setOnePagePerSheet(True)
+        imgOptions.setOnePagePerSheet(True)
 
- #Konvertera varje kalkylblad till svg-format
+        #Convert each worksheet into svg format
 
- sheetCount = workbook.getWorksheets().getCount()
+        sheetCount = workbook.getWorksheets().getCount()
 
- #for(i=0; i<sheetCount; i++)
+        #for(i=0; i<sheetCount; i++)
 
         for i in range(sheetCount):
 
@@ -86,7 +87,7 @@ if __name__ == '__main__':
     ConvertingWorksheetToSVG()
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Bifoga dokument (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ned **Hämta dokument (Aspose.Cells)** från någon av de sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ConvertingWorksheetToSVG.py)

@@ -1,14 +1,15 @@
-﻿---
-title: Ohal Raporu Kanvas Bileşeni
+---
+title: Ohal Rapor Kanevi Bileşeni
 type: docs
 weight: 30
 url: /tr/net/ohal-report-canvas-component/
 ---
+
 {{% alert color="primary" %}}
 
 [Rapor PDF](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
 
-**Rapor Kanvası Bileşeninde Aspose.Cells Kullanımı**
+**Rapor Kanevi Bileşeni'nde Aspose.Cells Kullanımı**
 
 Robert Chilvers, 17 Mart 2008
 
@@ -16,28 +17,28 @@ Robert Chilvers, 17 Mart 2008
 
 ## **Ürün Arka Planı**
 
-Rapor Tuvali Bileşeni, kullanıcının önceden yüklenmiş bir veri kümesine dayalı olarak görsel raporlar oluşturmasına olanak tanır. Kullanıcı tuvaline resimler, metin kutuları, çizelgeler ve tablolar dahil olmak üzere farklı bileşenler ekleyebilir, ardından verileri ve bunların nasıl bir araya getirilmesi gerektiğini belirtir. Kullanıcı daha sonra nesneleri sayfalarına sığdırmak için yeniden düzenleyebilir ve yeniden boyutlandırabilir. Kullanıcı, renk paletlerini belirleyebilir ve ileride kullanmak üzere şablonları kaydedebilir. Aspose.Cells tuvaldeki tüm nesneleri doğru verilerle Excel'e aktarmak için kullanılır. Bileşen, Visual Studio 2008'de VB.Net ile yazılmıştır.
+Rapor Kanevi Bileşeni, kullanıcının önceden yüklenmiş bir veri kümesine dayalı görsel raporlar oluşturmasını sağlar. Kullanıcı resimler, metin kutuları, grafikler ve tablolar da dahil olmak üzere farklı bileşenleri kanvaslarına ekleyebilir, ardından veriyi ve nasıl toplanması gerektiğini belirler. Kullanıcı daha sonra nesneleri yeniden düzenleyebilir ve sayfalarına sığdırmak için boyutlarını ayarlayabilir. Kullanıcı renk paletlerini belirleyebilir ve gelecekte kullanmak üzere şablonlar kaydedebilir. Aspose.Cells, kanvas üzerindeki tüm nesneleri doğru verilerle Excel'e dışa aktarmak için kullanılır. Bileşen, VB.Net'te Visual Studio 2008'de yazılmıştır.
 
 ## **Gereksinim Senaryosu**
 
-Neredeyse eksiksiz Microsoft Excel dışa aktarma özellikleri nedeniyle Aspose.Cells'i seçtik. Bizim için en önemlisi, özellikle Microsoft Excel 2007'de grafikleri ve tabloları dışa aktarabilme yeteneğidir – bunlar diğer 3. taraf bileşenlerinde yoktu.
+Aspose.Cells'i seçmemizin nedeni, neredeyse tamamen Microsoft Excel dışa aktarma yetenekleri. Özellikle Microsoft Excel 2007'de grafik ve tabloları dışa aktarma yeteneği bizim için çok önemliydi - bu, diğer 3. parti bileşenlerde bulunmuyordu.
 
 ## **Çözüm Uygulaması**
 
-Rapor tuvalindeki her nesnenin, Aspose.Cells çalışma sayfasının bir örneğini geçiren ve kendisini çalışma sayfasına ekleyen bir işlevi vardır. Kullanıcı bir dışarı aktarma isteğinde bulunduğunda, çalışma kitabı ve çalışma sayfaları başlatılır ve rapor tuvalindeki her nesne bu işleve sahiptir.
+Rapor kanevi üzerindeki her nesnenin, Aspose.Cells çalışma sayfasının bir örneği gönderilen ve kendisini çalışma sayfasına ekleyen bir işlevi vardır. Kullanıcı bir dışa aktarma istediğinde, çalışma kitabı ve çalışma sayfaları başlatılır ve rapor kanevi üzerindeki her nesnenin bu fonksiyonu çağrılır.
 
 ## **Faydalar**
 
-Aspose.Cells, Excel çalışma kitabını Excel'den tamamen bağımsız olarak oluşturmamıza ve ardından çalışma kitabını kullanıcı tarafından seçilen biçimde kaydetmemize olanak sağladı. Bu, Excel birlikte çalışmasını kullanırken ve Excel'in çeşitli sürümlerine kaydetmek için farklı yordamlar uygularken etkileşimde hata ayıklamak için saatler kazandırdı.
+Aspose.Cells, Excel kullanılmadan Excel'i tamamen oluşturmamızı sağladı ve kullanıcı tarafından seçilen formatta çalışma kitabını kaydettik. Excel etkileşimini hata ayıklama ve farklı Excel sürümlerine kaydetmek için farklı rutinler uygulama saatlerini kurtardı.
 
 ## **Gelecekteki Uygulama**
 
-Excel dosyalarının tüm yüklenmesi ve kaydedilmesi için Aspose.Cells kullanmamız muhtemeldir. Bu, veri şablonlarının yüklenmesini ve sonuçların dışa aktarılmasını içerecektir.
+Olası tüm Excel dosyalarının yükleme ve kaydetme işlemlerinde Aspose.Cells kullanacağız. Bu, veri şablonlarını yükleme ve sonuçları dışa aktarma işlemlerini içerecektir.
 
-## **Çözüm**
+## **Sonuç**
 
 {{% alert color="primary" %}}
 
-Şimdiye kadar Aspose.Cells bileşenlerini kullanmakta hiçbir sorun yaşamadık ve bileşen bize hem kısa hem de uzun vadede geliştirme süresi kazandırmalıdır. Destek ve Satış sorguları hızlı ve yardımcı bir şekilde yanıtlandı.
+Henüz Aspose.Cells bileşenlerini kullanırken herhangi bir problem yaşamadık ve bu bileşen kısa ve uzun vadede geliştirme süremizi kurtarmalı. Destek ve satış ile ilgili sorular hızlı ve yardımcı bir şekilde cevaplandı.
 
 {{% /alert %}}

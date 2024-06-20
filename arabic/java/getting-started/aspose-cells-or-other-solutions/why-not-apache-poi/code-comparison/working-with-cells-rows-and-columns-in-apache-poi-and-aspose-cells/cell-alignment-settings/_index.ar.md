@@ -1,21 +1,22 @@
-﻿---
-title: Cell إعدادات المحاذاة
+---
+title: إعدادات محاذاة الخلية
 type: docs
 weight: 20
 url: /ar/java/cell-alignment-settings/
 ---
-## **Aspose.Cells-Cell إعدادات المحاذاة**
-يوفر Aspose.Cells فئة ، مصنف ، يمثل ملف Excel. تحتوي فئة المصنف على مجموعة أوراق العمل التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة ورقة العمل.
 
-توفر فئة ورقة العمل مجموعة Cells. يمثل كل عنصر في مجموعة Cells عنصرًا من فئة Cell.
+## **Aspose.Cells - إعدادات محاذاة الخلية**
+توفر Aspose.Cells فئة Workbook التي تمثل ملف Excel. تحتوي فئة Workbook على WorksheetCollection تسمح بالوصول إلى كل ورقة عمل في ملف Excel. تمثل ورقة عمل بواسطة فئة Worksheet.
 
-يوفر Aspose.Cells طريقة setStyle في فئة Cell التي تستخدم تنسيق الخلية. توفر فئة Style خصائص مفيدة لتكوين إعدادات الخط.
+توفر فئة Worksheet مجموعة من الخلايا. يمثل كل عنصر في مجموعة الخلايا كائنًا من فئة الخلية.
 
-حدد أي نوع من أنواع محاذاة النص باستخدام تعداد TextAlignmentType.
+توفر Aspose.Cells طريقة setStyle في فئة الخلية التي تُستخدم في تنسيق الخلية. توفر فئة النمط خصائص مفيدة لتكوين إعدادات الخط.
+
+حدد أي نوع محاذاة نص باستخدام تعداد TextAlignmentType.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -48,14 +49,14 @@ style.setHorizontalAlignment(TextAlignmentType.CENTER);
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF & XSSF - Cell إعدادات المحاذاة**
-يوفر HSSFCellStyle نمط المحاذاة في الخلايا باستخدام Apache POI API.
+## **Apache POI SS - HSSF & XSSF - إعدادات محاذاة الخلية**
+توفر HSSFCellStyle النمط للمحاذاة في الخلايا باستخدام واجهة برمجة التطبيقات Apache POI.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws IOException
+ public static void main(String[] args) throws IOException
 
 {
 
@@ -126,13 +127,13 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / cells / أمثلة / featurescomparison / cellrowscolumns / cellalignment)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/cellalignment)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[تكوين إعدادات المحاذاة](/cells/ar/java/data-formatting/).
+لمزيد من التفاصيل، قم بزيارة [تكوين إعدادات التوجيه](/cells/ar/java/data-formatting/).
 
 {{% /alert %}}

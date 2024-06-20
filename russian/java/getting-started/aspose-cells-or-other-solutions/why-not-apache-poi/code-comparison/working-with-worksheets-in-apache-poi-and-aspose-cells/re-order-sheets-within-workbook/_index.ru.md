@@ -1,15 +1,16 @@
-﻿---
-title: Изменить порядок листов в книге
+---
+title: Переупорядочить листы в рабочей книге
 type: docs
 weight: 50
 url: /ru/java/re-order-sheets-within-workbook/
 ---
-## **Aspose.Cells - Изменить порядок листов в книге**
-Aspose.Cells предоставляет метод Worksheet.moveTo(), используемый для перемещения рабочего листа в другое место в той же электронной таблице.
+
+## **Aspose.Cells - Переупорядочить листы в рабочей книге**
+Aspose.Cells предоставляет метод Worksheet.moveTo(), используемый для перемещения листа в другое место в той же электронной таблице.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a new Workbook.
 
@@ -36,12 +37,12 @@ worksheet3.moveTo(2);
 workbook.save(dataDir + "AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF XSSF — Переупорядочивание листов в рабочей книге**
-Apache POI предоставляет метод Workbook.setSheetOrder() для установки листов в требуемом порядке.
+## **Apache POI SS - HSSF XSSF - Переупорядочить листы в рабочей книге**
+Apache POI предоставляет метод setSheetOrder() для установки листов в необходимом порядке.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/reordersheets)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/reordersheets)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Копирование и перемещение рабочих листов](/cells/ru/java/copying-and-moving-worksheets).
+Для получения более подробной информации посетите [Копирование и перемещение листов](/cells/ru/java/copying-and-moving-worksheets).
 
 {{% /alert %}}

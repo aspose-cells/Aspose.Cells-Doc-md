@@ -1,16 +1,17 @@
 ---
-title: Z-Achse
-description: Erfahren Sie unter Aspose.Cells for .NET, wie Sie mit der Z-Achse arbeiten. Unser Leitfaden hilft Ihnen zu verstehen, wie Sie die Z-Achse, einschließlich ihrer Skala und Beschriftungen, konfigurieren und anpassen, um Ihre Diagramme zu verbessern.
-keywords: Aspose.Cells for .NET, Z-axis, charting, configuration, customization, scale, labels.
+title: Z Achse
+description: Erfahren Sie, wie Sie mit der Z Achse in Aspose.Cells for .NET arbeiten können. Unser Leitfaden hilft Ihnen dabei, die Z Achse zu konfigurieren und anzupassen, einschließlich ihrer Skala und Beschriftungen, um Ihre Diagramme zu verbessern.
+keywords: Aspose.Cells for .NET, Z Achse, Diagrammerstellung, Konfiguration, Anpassung, Skala, Beschriftungen.
 type: docs
 weight: 210
 url: /de/net/z-axis/
 ---
-##  **Mögliche Nutzungsszenarien**
-Bei einigen 3D-Diagrammen wie 3D-Säulen, 3D-Kegeln oder 3D-Pyramiden gibt es eine Tiefenachse (Reihenachse), auch Z-Achse genannt, die Sie ändern können. Sie können den Abstand zwischen Teilstrichen, Achsenbeschriftungen und anderen Vorgängen festlegen.
-##  **Behandeln Sie die primäre und zweite Achse wie Microsoft Excel**
- Bitte sehen Sie sich den folgenden Beispielcode an, der eine neue Excel-Datei erstellt und Werte des Diagramms in das erste Arbeitsblatt einfügt. Dann fügen wir ein Diagramm hinzu und stellen den Diagrammtyp auf Column3D ein. Dann können Sie die Z-Achse sehen, die auch Tiefenachse genannt wird.
+
+## **Mögliche Verwendungsszenarien**
+Für einige 3-D-Diagramme wie 3-D-Säulen, 3-D-Kegel oder 3-D-Pyramiden, die eine Tiefenachsen (Reihenachsen) haben, auch bekannt als Z-Achse, die Sie ändern können. Sie können das Intervall zwischen den Tickmarken, Achsenbeschriftungen und anderen Operationen festlegen.
+## **Behandeln Sie die primäre und sekundäre Achse wie in Microsoft Excel**
+Bitte beachten Sie den folgenden Beispielcode, der eine neue Excel-Datei erstellt und die Werte des Diagramms im ersten Arbeitsblatt platziert. Dann fügen wir ein Diagramm hinzu und setzen den Diagrammtyp auf Säule3D, dann können Sie auch die Z-Achse, auch als Tiefe-Achse bezeichnet, sehen. 
 
 ![todo:image_alt_text](excel.png)
-##  **Beispielcode**
+## **Beispielcode**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ZAxis.cs" >}}

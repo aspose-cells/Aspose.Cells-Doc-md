@@ -1,44 +1,45 @@
-﻿---
-title: Çalışma Sayfasına Metin Kutusu nasıl eklenir/eklenir
+---
+title: Çalışma Sayfasına TextBox nasıl eklenir/eklenir
 linktitle: Çalışma Sayfasına Metin Kutusu Ekle
 type: docs
 weight: 10
 url: /tr/net/add-text-box-to-worksheet-in-aspose-cells/
-description: Aspose.Cells'de Çalışma Sayfasına Metin Kutusu nasıl eklenir/eklenir.
-keywords: add/insert Text Box TextBox Worksheet Excel Aspose
+description: Aspose.Cells te Çalışma Sayfasına TextBox nasıl eklenir/eklenir
+keywords: Aspose te Excel de metin Kutusu TextBox Çalışma Sayfasına Ekle/Ekle
 ---
-## Excel'de Çalışma Sayfasına Metin Kutusu Ekleme
 
-Excel programında (versiyon 07 ve üzeri), metin kutuları ekleyebileceğiniz iki yer vardır. Biri "insert-shapes" içinde, diğeri ise "Ekle" seçeneğinin üst menüsünün sağ tarafındadır.
+## Excel'de Çalışma Sayfasına Metin Kutusu Ekle
 
-### birinci yöntem:
+Excel programında (07 ve üstü sürümlerde), metin kutularını ekleyebileceğiniz iki yer bulunmaktadır. Biri "ekle-şekiller"de, diğeri de "Ekle" seçeneğinin üst menüsünün sağ tarafında.
+
+### yöntem biri:
 
 ![1](1.png)
 
-### ikinci yöntem:
+### yöntem iki:
 
 ![2](2.png)
 
-## Nasıl oluşturulurum
+## Nasıl oluşturulur
 
-Yatay veya dikey metin içeren metin kutuları oluşturabilirsiniz.
+Metin Kutusu, yatay veya dikey metinle oluşturulabilir.
 
-- Karşılık gelen seçeneği seçin (yatay veya dikey)
-- Sayfaya sol tıklayın
-- Sol düğmeyi basılı tutun ve sayfada bir mesafe sürükleyin
-- Sol düğmeyi bırakın
+- İlgili seçeneği (yatay veya dikey) seçin.
+- Sayfada sol tuşa basın.
+- Sol tuşa basılı tutun ve sayfada bir mesafe sürükleyin.
+- Sol tuşu bırakın.
 
-Şimdi bir metin kutusu alıyorsunuz.
+Şimdi bir metin kutusuna sahipsiniz.
 
-## Aspose.Cells'de Çalışma Sayfasına Metin Kutusu Ekleme
+## Aspose.Cells'te Çalışma Sayfasına Metin Kutusu Ekle
 
- TextBox'ı çalışma sayfasına toplu olarak eklemeniz gerektiğinde, manuel ekleme yönteminin tam bir felaket olduğu açıktır. Bu sizi rahatsız ediyorsa, bu belgenin size yardımcı olacağını düşünüyorum.[Aspose.Cells](https://products.aspose.com/cells/) kodunuza kolayca toplu eklemeler yapmanız için size bir API sağlar.
+Çalışma sayfasına topluca TextBox eklemeniz gerektiğinde, manuel ekleme yöntemi açıkça bir felakettir. Bu sizi rahatsız ediyorsa, bu belge size yardımcı olacaktır. [Aspose.Cells](https://products.aspose.com/cells/), kodunuzda toplu eklemeler yapmanıza olanak sağlayan bir API sunar.
 
-Aşağıdaki örnek kod, bir metin kutusu oluşturur.
+Aşağıdaki örnek kod bir metin kutusu oluşturur.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "AddTextBoxToWorksheetInAsposeCells.cs" >}}
 
- Şuna benzer bir dosya alacaksınız[sonuç dosyası](result.xlsx).Dosyada aşağıdakileri göreceksiniz:
+Benzer bir dosya olan [sonuç dosyasını](sonuç.xlsx) alacaksınız. Dosyada aşağıdakileri göreceksiniz:
 
 ![](52449.png)
 

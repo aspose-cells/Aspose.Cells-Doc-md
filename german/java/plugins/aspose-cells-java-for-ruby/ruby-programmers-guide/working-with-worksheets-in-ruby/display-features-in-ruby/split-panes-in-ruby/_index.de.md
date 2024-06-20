@@ -1,15 +1,16 @@
-﻿---
-title: Geteilte Scheiben in Rubin
+---
+title: Bereiche in Ruby teilen
 type: docs
 weight: 80
 url: /de/java/split-panes-in-ruby/
 ---
-## **Aspose.Cells - Geteilte Scheiben**
- So teilen Sie Fenster mit**Aspose.Cells Java für Rubin** , einfach aufrufen**SplitPanes** Modul.
+
+## **Aspose.Cells - Panes aufteilen**
+Um Bereichsteilungen mit Aspose.Cells Java für Ruby durchzuführen, rufen Sie einfach das Modul SplitPanes auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -32,7 +33,7 @@ workbook.save(data_dir + "SplitPanes output.xls")
 puts "Panes split successfully."
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Geteilte Scheiben (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Downloaden **Panes splitten (Aspose.Cells)** von einer der unten genannten sozialen Coding-Seiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/splitpanes.rb)

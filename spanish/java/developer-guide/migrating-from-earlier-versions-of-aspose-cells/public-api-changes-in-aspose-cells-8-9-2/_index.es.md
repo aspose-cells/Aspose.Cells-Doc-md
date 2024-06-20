@@ -1,27 +1,28 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.9.2
+---
+title: Cambios en la API pública en Aspose.Cells 8.9.2
 type: docs
 weight: 330
 url: /es/java/public-api-changes-in-aspose-cells-8-9-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.Cells API de la versión 8.9.1 a la 8.9.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, clases agregadas y eliminadas, etc., sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.9.1 hasta la 8.9.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, clases agregadas y eliminadas, etc., sino también una descripción de cualquier cambio en el comportamiento en segundo plano de Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Por favor, compruebe también el[Público API Cambios introducidos en Aspose.Cells for Java 8.9.1](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1)
+También consulte los [Cambios en la API pública introducidos en Aspose.Cells for Java 8.9.1](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1)
 
 {{% /alert %}} 
-## **API añadidas**
-### **Se agregaron la clase TextOptions y la propiedad FontSettings.TextOptions**
-Aspose.Cells for Java ha expuesto la clase TextOptions junto con la propiedad FontSettings.TextOptions para controlar la apariencia de las partes textuales de una forma.
+## **APIs Añadidas**
+### **Clase TextOptions y propiedad FontSettings.TextOptions agregadas**
+Aspose.Cells for Java ha expuesto la clase TextOptions junto con la propiedad FontSettings.TextOptions para controlar la apariencia de las partes de texto de una forma.
 
 Aquí hay un escenario de uso simple de la propiedad FontSettings.TextOptions.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -44,14 +45,14 @@ shape.setText("Aspose");
 TextOptions textOptions =  ((FontSetting)shape.getCharacters().get(0)).getTextOptions();
 
 {{< /highlight >}}
-### **Se agregaron TextOptions.Propiedades de relleno, contorno y sombra**
- Aspose.Cells for Java 8.9.2 ha expuesto las propiedades TextOptions.Fill, TextOptions.Outline y TextOptions.Shadow que permiten controlar los aspectos del contenido textual de la forma, como el relleno, la sombra y el contorno, respectivamente.
+### **Propiedad de relleno, contorno y sombra TextOptions agregadas**
+Aspose.Cells for Java 8.9.2 ha expuesto las propiedades TextOptions.Fill, TextOptions.Outline y TextOptions.Shadow que permiten controlar los aspectos de los contenidos de texto de la forma, como el relleno, la sombra y el contorno respectivamente. 
 
-Aquí hay un escenario de uso simple de las propiedades antes mencionadas.
+Aquí hay un escenario de uso simple de las propiedades mencionadas.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -88,14 +89,14 @@ textOptions.getFill().getSolidFill().setColor(Color.getRed());
 textOptions.getOutline().setOneColorGradient(Color.getBlue(), 0.3, GradientStyleType.HORIZONTAL, 2);
 
 {{< /highlight >}}
-### **Propiedad Shape.Line añadida**
+### **Propiedad Shape.Line agregada**
 Aspose.Cells for Java ha expuesto la propiedad Shape.Line que devuelve una instancia de LineFormat para controlar la apariencia de los contornos de una forma.
 
 Aquí hay un escenario de uso simple de la propiedad Shape.Line.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -118,14 +119,14 @@ LineFormat line = shape.getLine();
 line.setWeight(4);
 
 {{< /highlight >}}
-### **Se agregó la propiedad Shape.Fill**
-Aspose.Cells for Java 8.9.2 ha expuesto la propiedad Shape.Fill que devuelve una instancia de FillFormat para controlar los diferentes aspectos del área de forma.
+### **Propiedad Shape.Fill agregada**
+Aspose.Cells for Java La versión 8.9.2 ha expuesto la propiedad Shape.Fill que devuelve una instancia de FillFormat para controlar los diferentes aspectos del área de la forma.
 
-El siguiente es el escenario de uso simple de la propiedad Shape.Fill.
+A continuación se muestra el escenario de uso simple de la propiedad Shape.Fill.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -150,16 +151,16 @@ fill.setFillType(FillType.SOLID);
 fill.getSolidFill().setColor(Color.getBlue());
 
 {{< /highlight >}}
-## **API obsoletas**
+## **APIs obsoletas**
 ### **Clase ShapeFont obsoleta**
-Utilice la clase TextOptions en su lugar.
+Por favor, utilice la clase TextOptions en su lugar.
 ### **Clase ShapeFormat obsoleta**
-Utilice directamente las propiedades Shape.Fill y Shape.Line.
+Por favor, utilice directamente las propiedades Shape.Fill y Shape.Line.
 ### **Propiedad Shape.Format obsoleta**
-Utilice directamente las propiedades Shape.Fill y Shape.Line.
+Por favor, utilice directamente las propiedades Shape.Fill y Shape.Line.
 ### **Propiedad Shape.LineFormat obsoleta**
-Utilice la propiedad Shape.Line en su lugar.
+Por favor, utilice la propiedad Shape.Line en su lugar.
 ### **Propiedad Shape.FillFormat obsoleta**
-Utilice la propiedad Shape.Fill en su lugar.
+Por favor, utilice la propiedad Shape.Fill en su lugar.
 ### **Propiedad FontSetting.ShapeFont obsoleta**
-Utilice la propiedad FontSetting.TextOptions en su lugar.
+Por favor, utilice la propiedad FontSetting.TextOptions en su lugar.

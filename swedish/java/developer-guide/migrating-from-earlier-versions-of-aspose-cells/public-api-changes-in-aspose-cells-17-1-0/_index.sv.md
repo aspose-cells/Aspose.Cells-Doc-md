@@ -1,45 +1,46 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 17.1.0
+---
+title: Offentliga API ändringar i Aspose.Cells 17.1.0
 type: docs
 weight: 380
 url: /sv/java/public-api-changes-in-aspose-cells-17-1-0/
 ---
-{{% alert color="primary" %}} 
-
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 16.12.0 till 17.1.0 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
-
-{{% /alert %}} 
-## **Lade till API:er**
-### **Stöd för Excel 2016-diagram**
-Aspose.Cells API:er har lagt till stöd för några Excel 2016-diagram genom att förbättra ChartType-uppräkningen. Följande nya fält har lagts till med utgivningen av Aspose.Cells 17.1.0.
-
-- ChartType.BOX_WHISKER: Serien är upplagd som låda och morrhår.
-- ChartType.FUNNEL: Serien är upplagd som en tratt.
-- ChartType.PARETO_LINE: Serien är upplagd som pareto-linjer.
-- ChartType.SUNBURST: Serien är upplagd som en sunburst.
-- ChartType.TREEMAP: Serien är upplagd som en trädkarta.
-- ChartType.WATERFALL: Serien är upplagd som ett vattenfall.
-- ChartType.HISTOGRAM: Serien är upplagd som ett histogram.
 
 {{% alert color="primary" %}} 
 
- Kolla den detaljerade artikeln om[Läser Excel 2016 diagramtyper](/cells/sv/java/read-and-manipulate-excel-2016-charts/)
+I detta dokument beskrivs ändringarna i Aspose.Cells API från version 16.12.0 till 17.1.0 som kan vara intressanta för modul/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade publika metoder, tilläggade och borttagna klasser, etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-### **Lade till Setter för egenskapen LoadFilter.LoadDataFilterOptions**
-Aspose.Cells 17.1.0 har lagt till setter för egenskapen LoadFilter.LoadDataFilterOptions för att ersätta instansvariabeln m_LoadDataFilterOptions. Användare kan ändra egenskapen LoadDataFilterOptions i sin egen implementering av klassen LoadFilter för att ändra beteendet för att ladda mallfiler.
+## **Tillagda API:er**
+### **Support för Excel 2016-diagram**
+Aspose.Cells API har lagt till stöd för några Excel 2016-diagram genom att förbättra ChartType-uppräkningen. Följande nya fält har lagts till med utgivningen av Aspose.Cells 17.1.0.
+
+- ChartType.BOX_WHISKER: Serien är utlagd som box och whisker.
+- ChartType.FUNNEL: Serien är utlagd som en tratt.
+- ChartType.PARETO_LINE: Serien är utlagd som paretolinjer.
+- ChartType.SUNBURST: Serien är utlagd som en solfjäder.
+- ChartType.TREEMAP: Serien är utlagd som ett trädkarta.
+- ChartType.WATERFALL: Serien är utlagd som ett vattenfall.
+- ChartType.HISTOGRAM: Serien är utlagd som ett histogram.
+
+{{% alert color="primary" %}} 
+
+Kontrollera den detaljerade artikeln om [Läsning av Excel 2016 Diagramtyper](/cells/sv/java/läs-och-manipulera-excel-2016-diagram/)
+
+{{% /alert %}} 
+### **Tillagd Setter for LoadFilter.LoadDataFilterOptions Property**
+Aspose.Cells 17.1.0 har lagt till setter för LoadFilter.LoadDataFilterOptions-egendomen för att ersätta variabeln m_LoadDataFilterOptions. Användare kan ändra LoadDataFilterOptions-egendomen i sin egen implementation av LoadFilter-klassen för att ändra beteendet för att ladda mallfiler.
 
 Här är ett enkelt användningsscenario.
 
 {{% alert color="primary" %}} 
 
- Kolla den detaljerade artikeln om[Anpassad mallfiltrering](/cells/sv/java/filter-objects-while-loading-workbook-or-worksheet/)
+Kontrollera den detaljerade artikeln om [Anpassad Mallfiltrering](/cells/sv/java/filtreringsobjekt-vid-laddning-av-kalkylblad-eller-arbetsblad/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomLoadFilter extends LoadFilter {
 
@@ -74,39 +75,39 @@ Här är ett enkelt användningsscenario.
 }
 
 {{< /highlight >}}
-### **Lade till CellsHelper.SignificantDigits Property**
-Aspose.Cells 17.1.0 har exponerat egenskapen SignificantDigits från klassen CellsHelper som gör det möjligt att hämta eller ställa in antalet signifikanta siffror för numeriska värden i ett kalkylblad. Standardvärdet för egenskapen CellsHelper.SignificantDigits är 17 medan det endast är tillämpligt om resultatet måste lagras i filformatet XLSX.
+### **Tillagd CellsHelper.SignificantDigits-egendom**
+Aspose.Cells 17.1.0 har exponerat SignificantDigits-egendomen från CellsHelper-klassen vilket gör att man kan hämta eller ställa in antalet signifikanta siffror för numeriska värden i ett kalkylark. Standardvärdet för CellsHelper.SignificantDigits-egendomen är 17, och den är tillämplig endast om resultatet ska lagras i XLSX-filformatet.
 
-Här är ett enkelt scenario för att demonstrera användningen av CellsHelper.SignificantDigits-egenskapen.
+Här är ett enkelt scenario för att demonstrera användningen av CellsHelper.SignificantDigits-egendomen.
 
 {{% alert color="primary" %}} 
 
- Kolla den detaljerade artikeln om[Ställa in antal signifikanta siffror](/cells/sv/java/specifying-significant-digits-to-be-stored-in-excel-file/)
+Kontrollera den detaljerade artikeln om [Angivande av Antal Signifikanta Siffror](/cells/sv/java/ange-antal-signifikanta-siffror-att-lagra-i-excel-fil/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the number of significant digits
 
 CellsHelper.setSignificantDigits(15);
 
 {{< /highlight >}}
-### **Lade till egenskapen GlowEffect.Color**
-Aspose.Cells 17.1.0 har lagt till egenskapen GlowEffect.Color som kan användas för att hämta färgen på glödeffekten.
+### **Tillagd GlowEffect.Color-egendom**
+Aspose.Cells 17.1.0 har lagt till GlowEffect.Color-egendomen som kan användas för att hämta färgen på glödeffekten.
 
-Följande kodavsnitt använder egenskapen GlowEffect.Color.
+Följande utdrag använder GlowEffect.Color-egendomen.
 
 {{% alert color="primary" %}} 
 
- Kolla den detaljerade artikeln om[Att läsa formens glödfärg](/cells/sv/java/read-color-of-the-shape-s-glow-effect/)
+Kontrollera den detaljerade artikeln om [Läsning av färg för formens glöd](/cells/sv/java/read-color-of-the-shape-s-glow-effect/)
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Read the source Excel file
 
@@ -127,26 +128,26 @@ GlowEffect glow = shape.getGlow();
 CellsColor color = glow.getColor();
 
 {{< /highlight >}}
-### **Lade till PageSetup.PaperWidth & PaperHeight Properties**
-Aspose.Cells 17.1.0 har exponerat egenskaperna PaperWidth & PaperHeight för klassen PageSetup. Egenskaperna PageSetup.PaperWidth & PageSetup.PaperHeight är av typen dubbel som representerar papperets bredd och höjd i enheten tum med hänsyn till sidorienteringen.
+### **Tillagd PageSetup.PaperWidth & PaperHeight-egendom**
+Aspose.Cells 17.1.0 har exponerat PaperWidth & PaperHeight-egendomen för PageSetup-klassen. PageSetup.PaperWidth & PageSetup.PaperHeight-egendomen är av typen double och representerar pappersbredden och höjden i tum med hänsyn till sidorienteringen.
 
 {{% alert color="primary" %}} 
 
- Kolla den detaljerade artikeln om[Hämtar arbetsbladets pappersstorlek](/cells/sv/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
+Kontrollera den detaljerade artikeln om [Hämta arbetsbladets pappersstorlek](/cells/sv/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
 
 {{% /alert %}} 
-### **Lade till WorkbookSettings.CheckCustomNumberFormat-egenskap**
-Aspose.Cells 17.1.0 har lagt till egenskapen CheckCustomNumberFormat till klassen WorkbookSettings. CheckCustomNumberFormat är användbart för att kontrollera om Style.Custom-egenskapen har ställts in korrekt eller inte. Om egenskapen Style.Custom har ställts in felaktigt, det vill säga; värdet överensstämmer inte med ett giltigt mönster då Aspose.Cells API:erna skickar CellsException med lämpligt meddelande.
+### **Tillagt WorkbookSettings.CheckCustomNumberFormat Egendom**
+Aspose.Cells 17.1.0 har lagt till egenskapen CheckCustomNumberFormat till klassen WorkbookSettings. CheckCustomNumberFormat är användbar för att kontrollera om egendomen Style.Custom har ställts in korrekt eller inte. Om egenskapen Style.Custom har ställts in felaktigt, det vill säga om värdet inte överensstämmer med ett giltigt mönster, kommer Aspose.Cells API:erna att kasta CellsException med lämpligt meddelande.
 
 {{% alert color="primary" %}} 
 
- Kolla den detaljerade artikeln om[Verifierar anpassat format](/cells/sv/java/check-custom-number-format-when-setting-style-custom-property/)
+Kontrollera den detaljerade artikeln om [Verifiering av anpassat format](/cells/sv/java/check-custom-number-format-when-setting-style-custom-property/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -183,8 +184,8 @@ style.setCustom("ggg @ fff");
 cell.setStyle(style);
 
 {{< /highlight >}}
-### **Fältet DisplayUnitType.PERCENTAGE har lagts till**
-Aspose.Cells 17.1.0 har också exponerat PERCENTAGE-fältet för DisplayUnitType-uppräkningen. Fältet DisplayUnitType.PERCENTAGE anger att värdena på diagrammet ska delas med 0,01.
-## **Borttagna API:er**
-### **Instansvariabel m_LoadDataFilterOptions borttagen**
-Den här versionen har tagit bort instansvariabeln m_LoadDataFilterOptions. Det rekommenderas att använda egenskapen LoadFilter.LoadDataFilterOptions istället.
+### **Lagt till DisplayUnitType.PERCENTAGE-fältet**
+Aspose.Cells 17.1.0 har också exponerat PERCENTAGE-fältet för DisplayUnitType-uppräkningen. DisplayUnitType.PERCENTAGE-fältet indikerar att värdena på diagrammet ska delas med 0,01.
+## **Borttagen API:er**
+### **Instans Variabel m_LoadDataFilterOptions Borttagen**
+Denna version har tagit bort instansvariabeln m_LoadDataFilterOptions. Det rekommenderas att istället använda egenskapen LoadFilter.LoadDataFilterOptions.

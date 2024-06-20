@@ -1,46 +1,47 @@
 ---
-title: Precedenti e dipendenti
+title: Precedenti e Dipendenti
 type: docs
 weight: 100
 url: /it/cpp/precedents-and-dependents/
 ---
+
 {{% alert color="primary" %}} 
 
-Fogli di lavoro finanziari complessi, soprattutto quelli sviluppati in collaborazione, possono nascondere gli errori più imbarazzanti. Controllare l'accuratezza delle formule e trovare l'origine di un errore può essere difficile quando la formula utilizza celle precedenti e celle dipendenti.
+I fogli di lavoro finanziari complessi, specialmente quelli sviluppati in collaborazione, possono nascondere errori imbarazzanti. Verificare la precisione delle formule e trovare la fonte di un errore può essere difficile quando la formula utilizza celle precedenti e dipendenti.
 
 {{% /alert %}} 
-##  **introduzione**
-- **Celle precedenti** sono celle a cui fa riferimento una formula in un'altra cella. Ad esempio, se la cella D10 contiene la formula =B5, la cella B5 è un precedente della cella D10.
-- **Celle dipendenti** contengono formule che si riferiscono ad altre celle. Ad esempio, se la cella D10 contiene la formula =B5, la cella D10 dipende dalla cella B5.
+## **Introduzione**
+- **Celle Precedenti** sono celle a cui una formula in un'altra cella fa riferimento. Ad esempio, se la cella D10 contiene la formula =B5, la cella B5 è precedente alla cella D10.
+- Le **Celle Dipendenti** contengono formule che fanno riferimento ad altre celle. Ad esempio, se la cella D10 contiene la formula =B5, la cella D10 dipende dalla cella B5.
 
-Per rendere il foglio di calcolo facile da leggere, potresti voler mostrare chiaramente quali celle di un foglio di calcolo vengono utilizzate in una formula. Allo stesso modo, potresti voler estrarre le celle dipendenti di altre celle.
+Per rendere il foglio di calcolo facile da leggere, potresti voler mostrare chiaramente quali celle del foglio di calcolo sono utilizzate in una formula. Allo stesso modo, potresti voler estrarre le celle dipendenti da altre celle.
 
-Aspose.Cells permette di tracciare le celle e scoprire quali sono collegate.
-##  **Tracciamento precedente e dipendente Cells: Microsoft Excel**
-Le formule possono cambiare in base alle modifiche apportate da un cliente. Ad esempio, se la cella C1 dipende da C3 e C4 che contengono una formula e C1 viene modificata (quindi la formula viene sovrascritta), C3 e C4, o altre celle, devono essere modificate per bilanciare il foglio di calcolo in base alle regole aziendali.
+Aspose.Cells ti consente di tracciare le celle e scoprire quali sono collegate.
+## **Il Tracciamento delle Celle Precedenti e Dipendenti: Microsoft Excel**
+Le formule possono cambiare in base alle modifiche apportate da un cliente. Ad esempio, se la cella C1 dipende da C3 e C4 contenenti una formula, e la cella C1 viene modificata (in modo che la formula venga sovrascritta), C3 e C4, o altre celle, devono cambiare per bilanciare il foglio di calcolo in base alle regole aziendali.
 
-Allo stesso modo, supponiamo che C1 contenga la formula "=(B1*22)/(M2*N32)". Voglio trovare le celle da cui dipende C1, ovvero le celle precedenti B1, M2 e N32.
+Allo stesso modo, supponiamo che la cella C1 contenga la formula "=(B1*22)/(M2*N32)". Voglio trovare le celle di cui C1 dipende, cioè le celle precedenti B1, M2 e N32.
 
-Potrebbe essere necessario tracciare la dipendenza di una particolare cella da altre celle. Se le regole aziendali sono incorporate nelle formule, vorremmo scoprire la dipendenza ed eseguire alcune regole basate su di essa. Allo stesso modo, se il valore di una particolare cella viene modificato, quali celle del foglio di lavoro saranno interessate da tale modifica?
+Potresti aver bisogno di tracciare la dipendenza di una particolare cella verso altre celle. Se le regole aziendali sono incorporate nelle formule, vorremmo scoprire la dipendenza ed eseguire alcune regole in base ad essa. Allo stesso modo, se il valore di una particolare cella viene modificato, quali celle nel foglio di calcolo sono influenzate da tale modificare?
 
-Microsoft Excel consente agli utenti di risalire a precedenti e dipendenti.
+Microsoft Excel consente agli utenti di tracciare le celle precedenti e dipendenti.
 
-1.  Sul**Visualizza barra degli strumenti**, seleziona **Controllo formula**
-1. Traccia precedenti:
- 1. Seleziona la cella che contiene la formula per la quale desideri trovare le celle precedenti.
- 1. Per visualizzare una freccia tracciante su ciascuna cella che fornisce direttamente i dati alla cella attiva, fare clic su**Tracciare i precedenti** sul**Controllo delle formule** barra degli strumenti.
-1. Tracciare le formule che fanno riferimento a una cella particolare (dipendenti)
- 1. Seleziona la cella per la quale desideri identificare le celle dipendenti.
-1. Per visualizzare una freccia di tracciamento su ciascuna cella che dipende dalla cella attiva, fare clic su Traccia dipendenti sulla barra degli strumenti Controllo formula.
-##  **Tracciamento Precedenti e Dipendenti Cells: Aspose.Cells**
-###  **Tracciare i precedenti**
-Aspose.Cells semplifica il recupero delle celle precedenti. Non solo può recuperare celle che forniscono dati a formule precedenti semplici, ma anche trovare celle che forniscono dati a formule precedenti complesse con intervalli denominati.
+1. Sulla **Barra degli Strumenti Visualizza**, seleziona **Auditing Formule**
+1. Tracciare Precedenti:
+   1. Seleziona la cella che contiene la formula per la quale desideri trovare le celle precedenti.
+   1. Per visualizzare una freccia tracciante su ciascuna cella che fornisce direttamente dati alla cella attiva, fare clic su **Traccia Precedenti** sulla barra degli strumenti **Auditing delle Formule**.
+1. Traccia delle formule che fanno riferimento a una particolare cella (dipendenti)
+   1. Selezionare la cella per la quale si desidera identificare le celle dipendenti.
+   1. Per visualizzare una freccia tracciante su ciascuna cella che dipende dalla cella attiva, fare clic su Traccia Dipendenti sulla barra degli strumenti dell'Auditing delle Formule.
+## **Tracciamento delle Celle Precedenti e Dipendenti: Aspose.Cells**
+### **Tracciamento dei Precedenti**
+Aspose.Cells rende facile ottenere le celle precedenti. Non solo può recuperare le celle che forniscono dati alle precedenti formule semplici, ma può anche trovare le celle che forniscono dati alle precedenti formule complesse con intervalli denominati.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-TracingPrecedents-new.cpp" >}}
-###  **Tracciamento dei dipendenti**
-Aspose.Cells ti consente di ottenere celle dipendenti nei fogli di calcolo. Aspose.Cells non solo può recuperare celle che forniscono dati relativi a una formula semplice, ma anche trovare celle che forniscono dati a dipendenti di formule complesse con intervalli denominati.
+### **Tracciamento dei Dipendenti**
+Aspose.Cells consente di ottenere le celle dipendenti nei fogli di calcolo. Aspose.Cells può non solo recuperare le celle che forniscono dati relativi a una formula semplice, ma può anche trovare le celle che forniscono dati ai dipendenti formule complesse con intervalli denominati.
 
 
 

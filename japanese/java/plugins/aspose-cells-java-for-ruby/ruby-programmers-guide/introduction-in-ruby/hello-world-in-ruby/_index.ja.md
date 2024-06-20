@@ -1,15 +1,16 @@
-﻿---
-title: ルビーのHello World
+---
+title: Ruby で Hello World
 type: docs
 weight: 10
 url: /ja/java/hello-world-in-ruby/
 ---
+
 ## **Aspose.Cells - Hello World**
-Ruby で Aspose.Cells for Java を使用してスプレッドシート ドキュメントに何かを書き込むには、HelloWorld モジュールを呼び出すだけです。
+RubyでAspose.Cells for Javaを使用してスプレッドシート文書に何かを書き込むには、単にHelloWorldモジュールを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -42,7 +43,7 @@ workbook.save(data_dir + "HelloWorld.xls", file_format_type.EXCEL_97_TO_2003)
 puts "Document has been saved, please check the output file."
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**Hello World (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから、**Hello World (Aspose.Cells)** をダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/helloworld.rb)

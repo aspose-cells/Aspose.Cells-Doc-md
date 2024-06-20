@@ -1,21 +1,22 @@
 ---
-title: Dilimleyici Güncelleniyor
+title: Süzgeci Güncelleme
 type: docs
 weight: 50
 url: /tr/net/updating-slicer/
-description: Bu makalede, dilimleyiciyi Aspose.Cells for .NET API ile güncelleyerek bağlantılı pivot tabloların nasıl güncelleneceği gösterilmektedir.
-keywords: Aspose.Cells C# Update slicer, C# how to change the slicer, how to adjust the slicer in C#, how to select or unselect he slicer items.
+description: Bu makale, süzgeci Aspose.Cells for .NET API ile güncelleyerek bağlantılı özet tabloları nasıl güncelleyeceğinizi göstermektedir.
+keywords: Aspose.Cells C# Süzgeç güncelleme, C# süzgeci nasıl değiştirilir, C# de süzgeci ayarlama, C# de süzgeci seçme veya seçmeme.
 ---
-##  **Olası Kullanım Senaryoları**
 
-Microsoft Excel'de dilimleyiciyi güncellemek istiyorsanız öğelerini seçin veya seçimini kaldırın, ardından dilimleyici tablosunu veya pivot tabloyu buna göre güncelleyecektir. Lütfen kullan[**Slicer.SlicerCache.SlicerCacheItems**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercache/properties/slicercacheitems)Aspose.Cells ile dilimleyici öğelerini seçmek veya seçimini kaldırmak ve ardından aramak için[**Slicer.Refresh()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/methods/refresh)dilimleyici tablosunu veya pivot tabloyu güncelleme yöntemi.
+## **Olası Kullanım Senaryoları**
 
-##  **Dilimleyici Nasıl Güncellenir**
+Microsoft Excel'de süzgeci güncellemek, öğelerini seçmek veya seçmemek istiyorsanız, Ardından Aspose.Cells ile süzgeç öğelerini seçmek veya seçmemek için [**Slicer.SlicerCache.SlicerCacheItems**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercache/properties/slicercacheitems) kullanın ve ardından süzgeç tablosunu veya özet tabloyu güncellemek için [**Slicer.Refresh()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/methods/refresh) yöntemini çağırın.
 
- Aşağıdaki örnek kod,[örnek Excel dosyası](67338475.xlsx) mevcut bir dilimleyiciyi içerir. Dilimleyicinin 2. ve 3. öğelerinin seçimini kaldırır ve dilimleyiciyi yeniler. Daha sonra çalışma kitabını şu şekilde kaydeder:[Excel dosyasının çıktısı](67338476.xlsx)Aşağıdaki ekran görüntüsü örnek kodun örnek Excel dosyası üzerindeki etkisini göstermektedir. Ekran görüntüsünde görebileceğiniz gibi, dilimleyicinin seçilen öğelerle yenilenmesi pivot tablonun da buna uygun şekilde yenilenmesini sağlamıştır.
+## **Süzgeci Nasıl Güncellenir**
 
-![yapılacak şey:image_alt_text](updating-slicer_1.png)
+Aşağıdaki örnek kod, mevcut bir süzgeç içeren [örnek Excel dosyasını](67338475.xlsx) yükler. Süzgecin 2. ve 3. öğelerini seçmez ve süzgeci yeniler. Ardından çalışma kitabını [çıktı Excel dosyası](67338476.xlsx) olarak kaydeder. Ekran görüntüsünde, örnek kodun örnek Excel dosyasındaki etkisini görebilirsiniz. Ekran görüntüsünde, seçili öğelerle süzgeci yenilemenin aynı zamanda özet tabloyu da yenilediğini görebilirsiniz.
 
-##  **Basit kod**
+![todo:image_alt_text](updating-slicer_1.png)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-UpdatingSlicer.cs" >}}

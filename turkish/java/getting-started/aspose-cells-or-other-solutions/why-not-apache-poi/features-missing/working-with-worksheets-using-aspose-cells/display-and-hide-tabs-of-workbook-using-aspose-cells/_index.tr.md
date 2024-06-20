@@ -1,15 +1,16 @@
-﻿---
-title: Aspose.Cells'i kullanarak Çalışma Kitabının Sekmelerini Görüntüleme ve Gizleme
+---
+title: Aspose.Cells ile Çalışma Kitabının Sekmelerini Göster ve Gizle
 type: docs
 weight: 50
 url: /tr/java/display-and-hide-tabs-of-workbook-using-aspose-cells/
 ---
-## **Aspose.Cells - Çalışma Kitabının Sekmelerini Görüntüle ve Gizle**
-Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir Çalışma Kitabı sınıfı sağlar. Workbook sınıfı, bir Excel dosyasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Geliştiriciler, bir Excel dosyasındaki sekmelerin görünürlüğünü kontrol etmek için Workbook sınıfının setShowTabs yöntemini kullanabilir.
+
+## **Aspose.Cells - İş Kitabının Sekmelerini Göster ve Gizle**
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir **Workbook** sınıfını sağlar. Workbook sınıfı, Excel dosyasını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Bir Excel dosyasındaki sekmelerin görünürlüğünü kontrol etmek için geliştiriciler, Workbook sınıfının **setShowTabs** yöntemini kullanabilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -36,6 +37,6 @@ workbook.save(dataDir + "AsposeDisplayTabs.xls");
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideTabs.java)
 

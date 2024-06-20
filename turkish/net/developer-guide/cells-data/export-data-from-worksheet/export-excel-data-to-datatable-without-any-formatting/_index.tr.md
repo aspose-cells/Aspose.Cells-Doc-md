@@ -1,34 +1,35 @@
 ---
-title: Excel Verilerini herhangi bir Biçimlendirme olmadan DataTable'a aktarma
+title: Herhangi bir Biçimlendirmeye Gerek Duymadan Excel Verilerini DataTable a Aktar
 type: docs
 weight: 280
 url: /tr/net/export-excel-data-to-datatable-without-any-formatting/
-description: Aspose.Cells for .NET API numaralı telefondan Excel Verilerini herhangi bir Formatlama olmadan DataTable'a nasıl aktaracağınızı öğrenin.
-keywords: Export Excel Data to DataTable without any Formatting, Specify Cell Value Format Strategy, Add Format Strategy When Exporting Data to DataTable. 
+description: Aspose.Cells for .NET API si aracılığıyla Herhangi bir Biçimlendirmeye Gerek Duymadan Excel Verilerini DataTable a Aktarmanın Nasıl Yapılacağını Öğrenin
+keywords: Herhangi bir Biçimlendirmeye Gerek Duymadan Excel Verilerini DataTable a Aktar, Hücre Değer Biçimi Stratejisini Belirt, Verileri DataTable a Aktarırken Biçim Stratejisi Ekle 
 ---
+
 {{% alert color="primary" %}}
 
-Bazen kullanıcılar excel verilerini herhangi bir biçimlendirme olmadan bir veri tablosuna aktarmak isterler. Örneğin, bir hücre 0,012345 değerine sahipse ve iki ondalık basamağı görüntüleyecek şekilde biçimlendirilmişse, kullanıcı excel verilerini bir veri tablosuna aktardığında, bu 0,012345 olarak değil 0,01 olarak dışa aktarılacaktır. Bu sorunla başa çıkmak için Aspose.Cells sağlandı[**ExportTableOptions.FormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/formatstrategy) Bu üç değerden birini alabilen özellik
+Bazı durumlarda kullanıcılar, herhangi bir biçimlendirmeye gerek duymaksızın excel verilerini bir veri tablosuna aktarmak isteyebilir. Örneğin, bir hücrede değer 0.012345 olarak girilmiş ve bu değer iki ondalık basamaklı olarak biçimlendirilmişse, kullanıcı excel verilerini bir veri tablosuna aktardığında 0.012345 yerine 0.01 olarak aktarılacaktır. Bu sorunla başa çıkmak için Aspose.Cells, bu üç değerden birini alabilen [**ExportTableOptions.FormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/formatstrategy) özelliğini sağlamıştır
 
 - CellValueFormatStrategy.CellStyle
 - CellValueFormatStrategy.DisplayStyle
 - CellValueFormatStrategy.None
 
- Eğer bunu ayarlayacaksan[**CellValueFormatStrategy.None**](https://reference.aspose.com/cells/net/aspose.cells/cellvalueformatstrategy), ardından verileri herhangi bir biçimlendirme olmadan dışa aktarır.
+Eğer [**CellValueFormatStrategy.None**](https://reference.aspose.com/cells/net/aspose.cells/cellvalueformatstrategy) olarak ayarlarsanız, o zaman verileri herhangi bir biçimlendirmeye gerek duymadan aktaracaktır
 
 {{% /alert %}}
 
-##  Basit kod
+## Örnek Kod
 
- Aşağıdaki örnek kullanımını açıklamaktadır[**ExportTableOptions.FormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/formatstrategy)Excel verilerini herhangi bir biçimlendirmeyle veya biçimlendirme olmadan dışa aktarma özelliği.
+Aşağıdaki örnek, excel verilerini [**ExportTableOptions.FormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/formatstrategy) özelliğini kullanarak biçimlendirmesiz olarak bir veri tablosuna aktarmanın nasıl yapılacağını açıklar
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ExportExcelDataToDataTableWithoutFormatting-ExportExcelDataToDataTableWithoutFormatting.cs" >}}
 
-##  **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-Yukarıdaki örnek kodun konsol hata ayıklama çıktısı aşağıdadır
+Yukarıdaki örnek kodun konsol hata ayıklama çıktısı aşağıda yer almaktadır
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Cell String Value: 0.01
 

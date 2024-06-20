@@ -1,14 +1,15 @@
-﻿---
+---
 title: Trennzeichen
 type: docs
 weight: 20
 url: /de/reportingservices/delimiters/
 ---
-Aspose.Cells for Reporting Services unterstützt ein bestimmtes Trennzeichen beim Rendern des Formats TXT oder CSV. Zwei Einstellungen steuern den Feldbegrenzer in Aspose.Cells for Reporting Services.
 
-1.  Der Feldbegrenzerparameter in**rsreportserver.config** kann nur eine bestimmte Rendering-Erweiterung steuern.
+Aspose.Cells for Reporting Services unterstützt ein festgelegtes Trennzeichen beim Rendern von TXT- oder CSV-Format. Zwei Einstellungen steuern das Feldtrennzeichen in Aspose.Cells for Reporting Services.
 
-{{< highlight "java" >}}
+1. Der Feldtrennzeichen-Parameter in **rsreportserver.config** kann nur eine bestimmte Rendierungserweiterung steuern. 
+
+{{< highlight java >}}
 
  <Extension Name="ACTXT" Type="Aspose.Cells.ReportingServices.TabDelimitedRenderer,Aspose.Cells.ReportingServices" >
 
@@ -64,9 +65,9 @@ Specified field delimiters configuration reference:
 
 
 
-1.  Der Feldbegrenzerparameter in**Aspose.Cells.ReportingServices.xml** kann alle Rendering-Erweiterungen vom Typ TXT steuern.
+1. Der Feldtrennzeichen-Parameter in **Aspose.Cells.ReportingServices.xml** kann alle TXT-Typ-Rendierungserweiterungen steuern. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 
 
@@ -87,4 +88,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- Der Feldbegrenzerparameter in**rsreportserver.config** hat Vorrang vor dem Feldbegrenzerparameter in**Aspose.Cells.ReportingServices.xml** . Wenn der Feldbegrenzerparameter in**rsreportserver.config** null oder der Standardwert ist, der Feldbegrenzerparameter in**Aspose.Cells.ReportingServices.xml** wird genutzt.
+Der Feldtrennzeichen-Parameter in **rsreportserver.config** hat Vorrang vor dem Feldtrennzeichen-Parameter in **Aspose.Cells.ReportingServices.xml**. Wenn der Feldtrennzeichen-Parameter in **rsreportserver.config** null oder der Standardwert ist, wird der Feldtrennzeichen-Parameter in **Aspose.Cells.ReportingServices.xml** verwendet.

@@ -1,16 +1,17 @@
-﻿---
-title: Ruby'de Sayfa Sonlarını Yönetme
+---
+title: Ruby de Sayfa Kesmelerini Yönetme
 type: docs
 weight: 20
 url: /tr/java/managing-page-breaks-in-ruby/
 ---
-## **Aspose.Cells - Sayfa Sonlarını Yönetme**
-### **Sayfa Sonları Ekleme**
- kullanarak sayfa sonları eklemek için**Yakut için Aspose.Cells Java** , Arama**add_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
 
-**Yakut Kodu**
+## **Aspose.Cells - Sayfa Kesmelerini Yönetme**
+### **Sayfa Kesmeleri Eklemek**
+Ruby için  **Aspose.Cells Java** kullanarak sayfa kesmeleri eklemek için, **pagebreaks** modülünün **add_page_breaks** yöntemini çağırın. Aşağıda örnek kodu görebilirsiniz.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  def add_page_breaks(workbook)
 
@@ -37,12 +38,12 @@ url: /tr/java/managing-page-breaks-in-ruby/
 end   
 
 {{< /highlight >}}
-### **Tüm Sayfa Sonlarını Temizleme**
- kullanarak tüm sayfa sonlarını temizlemek için**Yakut için Aspose.Cells Java** , Arama**clear_all_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+### **Tüm Sayfa Kesmelerini Temizleme**
+Ruby için  **Aspose.Cells Java** kullanarak tüm sayfa kesmelerini temizlemek için, **pagebreaks** modülünün **clear_all_page_breaks** yöntemini çağırın. Aşağıda örnek kodu görebilirsiniz.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def clear_all_page_breaks(workbook)
 
@@ -59,12 +60,12 @@ end   
 end 
 
 {{< /highlight >}}
-### **Belirli Sayfa Sonunu Kaldırma**
- Kullanarak belirli sayfa sonunu kaldırmak için**Yakut için Aspose.Cells Java** , Arama**remove_page_break** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+### **Belirli Sayfa Kesmelerini Kaldırma**
+Ruby için  **Aspose.Cells Java** kullanarak belirli sayfa kesmesini kaldırmak için, **pagebreaks** modülünün **remove_page_break** yöntemini çağırın. Aşağıda örnek kodu görebilirsiniz.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_page_break(workbook)
 
@@ -94,6 +95,6 @@ end 
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Sayfa Sonlarını Yönetme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıdaki sosyal kodlama sitelerinden herhangi birinden **Sayfa Kesmelerini Yönetme (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreaks.rb)

@@ -1,16 +1,17 @@
-﻿---
-title: Exportera liknande kantstil när kantstil inte stöds av webbläsare
+---
+title: Exportera liknande kantsytel när kantsytele inte stöds av webbläsare
 type: docs
 weight: 70
 url: /sv/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/
 ---
-## **Möjliga användningsscenarier**
 
-Microsoft Excel stöder någon typ av streckade kanter som inte stöds av webbläsare. När du konverterar en sådan Excel-fil till HTML med Aspose.Cells tas sådana gränser bort. Aspose.Cells kan dock också stödja att visa liknande ramar med[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle)fast egendom. Vänligen ställ in dess värde som**Sann**och de ostödda gränserna kommer också att exporteras till filen HTML.
+## **Möjliga användningsscenario**
 
-## **Exportera liknande kantstil när kantstil inte stöds av webbläsare**
+Microsoft Excel stöder vissa typer av punkterade kanter som inte stöds av webbläsare. När du konverterar en sådan Excel-fil till HTML med hjälp av Aspose.Cells tas sådana kanter bort. Men Aspose.Cells kan också stödja att visa liknande kanter med [**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle) egenskapen. Ställ in dess värde som **sant** och de oaccepterade kanterna kommer också att exporteras till HTML-filen.
 
-Följande exempelkod laddar[exempel på Excel-fil](64716832.xlsx)som innehåller några gränser som inte stöds som visas i följande skärmdump. Skärmdumpen illustrerar ytterligare effekten av[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle)egendom inuti[utgång HTML](64716831.zip).
+## **Exportera liknande kantstilmall när kantstil inte stöds av webbläsare**
+
+Följande provkod laddar den [provexelfilen](64716832.xlsx) som innehåller några oaccepterade kanter enligt följande skärmbild. Skärmbilden illustrerar ytterligare effekten av [**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle) egenskapen i [utdata-HTML](64716831.zip).
 
 ![todo:image_alt_text](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cartes XML
 type: docs
 weight: 210

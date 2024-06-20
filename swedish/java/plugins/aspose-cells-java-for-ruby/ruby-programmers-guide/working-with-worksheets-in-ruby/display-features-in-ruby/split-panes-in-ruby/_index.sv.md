@@ -1,15 +1,16 @@
-﻿---
-title: Delade rutor i Ruby
+---
+title: Dela rutor i Ruby
 type: docs
 weight: 80
 url: /sv/java/split-panes-in-ruby/
 ---
-## **Aspose.Cells - Delade rutor**
- För att dela fönster med**Aspose.Cells Java för Ruby** , helt enkelt åberopa**SplitPanes** modul.
 
-**Ruby kod**
+## **Aspose.Cells - Dela fönster**
+För att dela rutor med **Aspose.Cells Java för Ruby**, helt enkelt använd **SplitPanes**-modulen.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -32,7 +33,7 @@ workbook.save(data_dir + "SplitPanes output.xls")
 puts "Panes split successfully."
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Delade rutor (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Delade rutor (Aspose.Cells)** från någon av nedan nämnda sociala kodbaser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/splitpanes.rb)

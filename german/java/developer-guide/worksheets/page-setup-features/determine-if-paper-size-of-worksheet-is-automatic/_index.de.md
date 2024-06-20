@@ -1,23 +1,24 @@
-﻿---
-title: Stellen Sie fest, ob die Papiergröße des Arbeitsblatts automatisch ist
+---
+title: Feststellen, ob das Papierformat des Arbeitsblatts automatisch ist
 type: docs
 weight: 20
 url: /de/java/determine-if-paper-size-of-worksheet-is-automatic/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Meistens ist die Papiergröße des Arbeitsblatts automatisch. Wenn es automatisch ist, wird es oft als eingestellt*Buchstabe* . Manchmal legt der Benutzer die Papiergröße des Arbeitsblatts gemäß seinen Anforderungen fest. In diesem Fall wird das Papierformat nicht automatisch eingestellt. Sie können feststellen, ob die Papiergröße des Arbeitsblatts automatisch ist oder nicht, indem Sie die verwenden[**Worksheet.getPageSetup().isAutomaticPaperSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#IsAutomaticPaperSize)Methode.
+## **Mögliche Verwendungsszenarien**
 
-## **Stellen Sie fest, ob die Papiergröße des Arbeitsblatts automatisch ist**
+Die Papiergröße des Arbeitsblatts ist in der Regel automatisch. Wenn sie automatisch ist, wird sie oft als *Letter* festgelegt. Manchmal setzt der Benutzer die Papiergröße des Arbeitsblatts nach seinen Anforderungen. In diesem Fall ist die Papiergröße nicht automatisch. Sie können mit der Methode [**Worksheet.getPageSetup().isAutomaticPaperSize()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#IsAutomaticPaperSize) feststellen, ob die Arbeitsblattpapiergröße automatisch ist oder nicht.
 
-Der unten angegebene Beispielcode lädt die folgenden zwei Excel-Dateien
+## **Feststellen, ob die Papiergröße des Arbeitsblatts automatisch ist**
+
+Der folgende Beispielscode lädt die folgenden beiden Excel-Dateien
 
 - [samplePageSetupIsAutomaticPaperSize-False.xlsx](48496700.xlsx)
 - [samplePageSetupIsAutomaticPaperSize-True.xlsx](48496701.xlsx)
 
-und finden Sie heraus, ob die Papiergröße ihres ersten Arbeitsblatts automatisch ist oder nicht. In Microsoft Excel können Sie über das Fenster Seite einrichten prüfen, ob das Papierformat automatisch ist oder nicht, wie in diesem Screenshot gezeigt.
+und überprüft, ob die Papiergröße ihres ersten Arbeitsblatts automatisch ist oder nicht. In Microsoft Excel können Sie über das Dialogfeld Seitenlayout wie in diesem Screenshot gezeigt feststellen, ob die Papiergröße automatisch ist oder nicht.
 
-![todo: Bild_alt_Text](determine-if-paper-size-of-worksheet-is-automatic_1.png)
+![todo:image_alt_text](determine-if-paper-size-of-worksheet-is-automatic_1.png)
 
 ## **Beispielcode**
 
@@ -25,9 +26,9 @@ und finden Sie heraus, ob die Papiergröße ihres ersten Arbeitsblatts automatis
 
 ## **Konsolenausgabe**
 
-Hier ist die Konsolenausgabe des obigen Beispielcodes, wenn er mit den angegebenen Beispiel-Excel-Dateien ausgeführt wird.
+Hier ist die Konsolenausgabe des obigen Beispielscodes, wenn er mit den angegebenen Beispieldateien ausgeführt wird.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 First Worksheet of First Workbook - IsAutomaticPaperSize: false
 

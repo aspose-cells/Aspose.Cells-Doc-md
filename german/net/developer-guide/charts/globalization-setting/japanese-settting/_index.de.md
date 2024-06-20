@@ -1,29 +1,30 @@
 ---
-title: Konvertieren Sie das Diagramm in ein Bild für die japanische Region
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET die japanische Konfiguration für das Diagramm festlegen. Unser Leitfaden zeigt, wie Sie Diagramme so konfigurieren, dass sie japanische Zeichen und Formatierungen unterstützen, einschließlich Schriftarten, Größe, Textrichtung und mehr.
-keywords: Aspose.Cells for .NET, Charts, Japanese configuration, font, font size, text direction, support.
-linktitle: Legen Sie die japanische Region fest
+title: Diagramm in Bild umwandeln für die japanische Region
+description: Erfahren Sie, wie Sie Aspose.Cells for .NET die japanische Konfiguration für das Diagramm einstellen. Unser Leitfaden zeigt, wie Sie Diagramme so konfigurieren, dass sie japanische Zeichen und Formatierung unterstützen, einschließlich Schriftarten, Größe, Textausrichtung und mehr.
+keywords: Aspose.Cells for .NET, Diagramme, japanische Konfiguration, Schriftart, Schriftgröße, Textausrichtung, Unterstützung.
+linktitle: Japanische Region festlegen
 type: docs
 weight: 10
 url: /de/net/convert-chart-to-image-for-japanese-region/
 alias: [/net/set-japanese-configuration-for-chart/]
 ---
+
 {{% alert color="primary" %}}
 
-In diesem Thema zeigen wir Ihnen, wie Sie die japanische Region für ein Diagramm festlegen.
+In diesem Thema zeigen wir Ihnen, wie Sie die japanische Region für ein Diagramm festlegen können.
 
 {{% /alert %}}
 
-##  **Definiert eine Vererbungsklasse**
+## **Definiert eine Vererbungsklasse**
 
- Im ersten Schritt müssen Sie eine Klasse „ChartJapaneseSetttings“ definieren, von der geerbt wird[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
-Anschließend können Sie durch Umschreiben der zugehörigen Funktionen den Text der Diagrammelemente in Ihrer eigenen Sprache festlegen.
+Als ersten Schritt müssen Sie eine Klasse "ChartJapaneseSetttings" definieren, die von [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/) erbt. 
+Dann können Sie durch Neudefinition der entsprechenden Funktionen den Text der Diagrammelemente in Ihrer eigenen Sprache festlegen.
 Codebeispiel:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChartJapaneseSetttings.cs" >}}
 
-##  **Konfigurieren Sie die japanische Einstellung für das Diagramm**
+## **Japanische Einstellung für Diagramm konfigurieren**
 
-In diesem Schritt verwenden Sie die Klasse „ChartJapaneseSetttings“, die Sie im vorherigen Schritt definiert haben.
+In diesem Schritt verwenden Sie die in Schritt zuvor definierte Klasse "ChartJapaneseSetttings".
 Codebeispiel:
 
 ```
@@ -33,20 +34,20 @@ Codebeispiel:
 	chart0.ToImage("Output.png");
 ```
 
-Dann können Sie den Effekt im Ausgabebild sehen, die Elemente im Diagramm werden entsprechend Ihren Einstellungen gerendert.
+Dann können Sie den Effekt im Ausgabebild sehen, die Elemente im Diagramm werden gemäß Ihren Einstellungen gerendert.
 
-##  **Abschluss**
+## **Fazit**
 
-Wenn Sie in diesem Beispiel nicht die japanische Region für ein Diagramm festlegen, werden die folgenden Diagrammelemente möglicherweise in der Standardsprache, z. B. Englisch, gerendert.
-Nach dem obigen Vorgang können wir ein Ausgabediagrammbild mit der japanischen Region erhalten.
+In diesem Beispiel, wenn Sie für ein Diagramm keine japanische Region festlegen, können die folgenden Diagrammelemente in der Standardsprache gerendert werden, wie zum Beispiel Englisch.
+Nach obiger Operation können wir ein Ausgabediagrammbild mit japanischer Region erhalten.
 
 |**Unterstützte Elemente**|**Wert in diesem Beispiel**|**Standardwert in der englischen Umgebung**|
 | :- | :- | :- |
-|Name des Achsentitels|軸タイトル|Achsentitel|
-|Name der Achseneinheit|百,千...|Hunderte, Tausende...|
-|Name des Diagrammtitels|グラフ タイトル|Diagrammtitel|
-|Legende: Name erhöhen|ぞうか|Zunahme|
-|Name der Legende verringern|削減|Verringern|
-|Gesamtname der Legende|すべての|Gesamt|
-|Anderer Name|その他|Andere|
+|Achsentitelname|軸タイトル|Achsentitel|
+|Achsenbezeichnung|百,千...|Hunderte, Tausende...|
+|Diagramm-Titelname|グラフ タイトル|Diagrammtitel|
+|Legende Anstiegsname|ぞうか|Erhöhen|
+|Legende Abnahmename|削減|Abnehmen|
+|Legende Gesamtname|すべての|Gesamt|
+|Andere Bezeichnung|その他|Andere|
 |Serienname|シリーズ|Serie|

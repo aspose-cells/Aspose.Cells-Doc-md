@@ -1,16 +1,17 @@
-﻿---
-title: Power Query-Formelelement aktualisieren
+---
+title: Aktualisieren des Power Query Formelelements
 type: docs
 weight: 120
 url: /de/net/update-power-query-formula-item/
 ---
-## **Nutzungsszenario**
 
- Es kann Fälle geben, in denen die Datenquellendateien verschoben werden und die Excel-Datei die Datei nicht finden kann. In solchen Fällen bietet Aspose.Cells API die Option, das Power Query-Formelelement mithilfe von zu aktualisieren[*PowerQueryFormulaItem*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem) -Klasse, um den Speicherort der Quelldatei zu aktualisieren.
+## **Anwendungsszenario**
+
+Es kann Fälle geben, in denen die Datenquellendateien verschoben werden und die Excel-Datei nicht in der Lage ist, die Datei zu finden. In solchen Fällen bietet die Aspose.Cells-API die Option, das Power Query-Formelelement durch Verwendung der Klasse [*PowerQueryFormulaItem*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem) zu aktualisieren, um den Speicherort der Quelldatei zu aktualisieren.
 
 ## **Aktualisieren des Power Query-Formelelements**
 
- Aspose.Cells API bietet die Möglichkeit, Power Query-Formelelemente zu aktualisieren. Das folgende Code-Snippet veranschaulicht das Aktualisieren des Speicherorts der Datenquellendatei in der Excel-Datei mithilfe der[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)Eigentum. Die Quell- und Ausgabedateien sind als Referenz beigefügt.
+Die Aspose.Cells-API bietet die Möglichkeit, Power Query-Formelelemente zu aktualisieren. Der folgende Codeausschnitt zeigt, wie der Speicherort der Datenquellendatei in der Excel-Datei durch Verwendung der [**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)-Eigenschaft aktualisiert wird. Die Quell- und Ausgabedateien sind als Referenz angehängt.
 
 - [Quelldatei 1](106364953.xlsx)
 - [Quelldatei 2](106364954.xlsx)

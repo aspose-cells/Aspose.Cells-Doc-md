@@ -1,51 +1,54 @@
-﻿---
-title: Aspose.Cells.GridDesktop - Contrôle de la grille du bureau
+---
+title: Aspose.Cells.GridDesktop  Contrôle Grille de bureau
 type: docs
 weight: 30
-url: /fr/net/aspose-cells-griddesktop-desktop-grid-control/
+url: /fr/net/aspose-cells-griddesktop/features/
+keywords: GridDesktop,features,feature
+description: Cet article présente les fonctionnalités de GridDesktop.
 ---
-## **Aspose.Cells.GridDesktop - Contrôle de la grille du bureau**
-### **Fonctionnalités d'importation/exportation**
-- Importez du contenu à partir de feuilles de calcul Excel.
-- Importez des données directement à partir d'un objet DataTable.
-- Exportez le contenu vers des feuilles de calcul Excel.
+
+## **Aspose.Cells.GridDesktop - Contrôle Grille de bureau**
+### **Fonctionnalités d'import/export**
+- Importer du contenu à partir de feuilles de calcul Excel.
+- Importer des données directement à partir d'un objet DataTable.
+- Exporter le contenu vers des feuilles de calcul Excel.
 ### **Fonctionnalités de la feuille de calcul**
 - Ajouter, insérer ou supprimer des feuilles de calcul.
-- Renommer les feuilles de calcul.
+- Renommer des feuilles de calcul.
 - Trier les données de la feuille de calcul.
-### **Caractéristiques des lignes et des colonnes**
-- Ajoutez, insérez ou supprimez des lignes et des colonnes.
-- Masquez ou affichez des lignes et des colonnes.
+### **Caractéristiques de ligne et de colonne**
+- Ajouter, insérer ou supprimer des lignes et des colonnes.
+- Masquer ou afficher des lignes et des colonnes.
 - Geler ou dégeler des lignes et des colonnes.
-### **Cell Caractéristiques**
-- Prend en charge les paramètres de format numérique.
-- Contrôlez l'alignement du texte.
+### **Fonctionnalités de cellule**
+- Prend en charge les paramètres de formatage des nombres.
+- Contrôler l'alignement du texte.
 - Gérer les paramètres de bordure.
-- Contrôlez les paramètres de police.
+- Contrôler les paramètres de police.
 - Fusionner ou diviser des cellules.
 ### **Fonctionnalités de formatage**
-- Contrôlez le comportement, l'aspect et la convivialité de la grille.
-- Appliquez le style et la police d'une cellule ciblée à d'autres cellules à l'aide du Reproduire la mise en forme.
-- Manipulez facilement les styles de données et de cellules.
-### **Fonctionnalités utilitaires**
-- Ajoutez ou supprimez des commentaires de cellule.
+- Contrôler le comportement, l'apparence et la convivialité de la grille.
+- Appliquer le style et la police d'une cellule ciblée à d'autres cellules à l'aide du Pinceau de formatage.
+- Manipuler les données et les styles de cellules facilement.
+### **Fonctionnalités Utilitaires**
+- Ajouter ou supprimer des commentaires de cellules.
 - Insérer ou supprimer des images.
 - Ajouter ou supprimer des hyperliens.
-- Ajoutez ou supprimez des règles de validation.
-- Ajoutez ou supprimez des contrôles (comme CheckBox, ComboBox, etc.) dans les cellules.
+- Ajouter ou supprimer des règles de validation.
+- Ajouter ou supprimer des contrôles (comme des cases à cocher, des listes déroulantes, etc.) dans les cellules.
 - Navigation au clavier des cellules.
-### **Fonctions de sécurité**
-- Protégez vos cellules en les verrouillant ou en les cachant.
+### **Fonctionnalités de sécurité**
+- Protégez vos cellules en les verrouillant ou en les masquant.
 ### **Fonctionnalités avancées**
-- Prend en charge la création et le calcul de formules.
-- Effectuez les actions souhaitées sous différents événements de grille.
-### **Versions Excel Microsoft prises en charge**
+- Prise en charge de la création et du calcul de formules.
+- Effectuez vos actions souhaitées sous différents événements de grille.
+### **Versions de Microsoft Excel prises en charge**
 - Microsoft Excel 97
 - Microsoft Excel 2000
-- MicrosoftExcel XP
+- Microsoft Excel XP
 - Microsoft Excel 2003
 - Microsoft Excel 2007
 - Microsoft Excel 2010
 - Microsoft Excel 2013
-### **Plates-formes prises en charge**
-- Windows Formulaires
+### **Plateformes prises en charge**
+- Windows Forms

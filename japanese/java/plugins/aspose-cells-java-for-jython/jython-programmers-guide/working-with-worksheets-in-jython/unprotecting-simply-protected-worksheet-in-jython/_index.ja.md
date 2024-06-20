@@ -1,15 +1,16 @@
-﻿---
-title: Jython で単純に保護されたワークシートの保護を解除する
+---
+title: Jythonで簡単に保護されたワークシートの保護を解除する
 type: docs
 weight: 160
 url: /ja/java/unprotecting-simply-protected-worksheet-in-jython/
 ---
-## **Aspose.Cells - 単純に保護されたワークシートの保護解除**
-を使用してドキュメントを追加するには**Aspose.Cells Jython の場合は Java**.ここでサンプルコードを見ることができます。
 
-**Jython コード**
+## **Aspose.Cells - 簡単に保護されたワークシートの保護解除**
+**Aspose.Cells Java for Jython**を使用してドキュメントを追加します。ここでは例を示します。
 
-{{< highlight "java" >}}
+**Jythonコード**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -65,7 +66,7 @@ if __name__ == '__main__':
     UnprotectingSimplyProtectedWorksheet()
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**添付書類 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に示すいずれかのソーシャルコーディングサイトから**Aspose.Cellsのドキュメントを追加する**をダウンロード:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/UnprotectingSimplyProtectedWorksheet.py)

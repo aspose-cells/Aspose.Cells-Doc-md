@@ -1,19 +1,20 @@
 ---
-title: Сохраняйте разделители для пустых строк при экспорте электронных таблиц в формат CSV.
+title: Сохранять разделители для пустых строк при экспорте таблиц в формат CSV
 type: docs
 weight: 160
 url: /ru/python-net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/
-description: Сохраняйте разделители для пустых строк при экспорте электронных таблиц в формат CSV, используя Aspose.Cells for Python via .NET API.
-keywords: Python Keep Separators for Blank Rows while exporting spreadsheets to CSV format, Keep Separators for Blank Rows while saving excel to CSV format in Python via NET, Python Keep Separators for Blank Rows when exporting excel to CSV format.
+description: Сохранение разделителей для пустых строк при экспорте таблиц в формат CSV с использованием Aspose.Cells для Python via .NET API.
+keywords: Python Сохранение разделителей для пустых строк при экспорте таблиц в формат CSV, Сохранение разделителей для пустых строк при сохранении эксель в формат CSV в Python via NET, Python Сохранение разделителей для пустых строк при экспорте Excel в формат CSV.
 ---
-##  **Сохраняйте разделители для пустых строк при экспорте электронных таблиц в формат CSV.**
 
-Aspose.Cells for Python via .NET обеспечивает возможность сохранять разделители строк при преобразовании электронных таблиц в формат CSV. Для этого Вы можете использовать**[keep_separators_for_blank_row](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/)**свойство**[TxtSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/)**сорт.**[keep_separators_for_blank_row](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/)**является логическим свойством. Чтобы сохранить разделители пустых строк при преобразовании файла Excel в CSV, установите параметр**[keep_separators_for_blank_row](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/)**свойство в *true**.
+## **Сохранять разделители для пустых строк при экспорте таблиц в формат CSV**
 
-Следующий пример кода загружает[исходный файл Excel](84378743.xlsx). Он устанавливает**[keep_separators_for_blank_row](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/)**собственность**истинный** и сохраняет его как[вывод.csv](84378744.csv) . На снимке экрана показано сравнение исходного файла Excel, вывода по умолчанию, созданного при преобразовании электронной таблицы в CSV, и вывода, созданного при настройке**[keep_separators_for_blank_row](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/)**на *истину**.
+Aspose.Cells для Python via .NET позволяет сохранять разделители строк при преобразовании электронных таблиц в формат CSV. Для этого можно использовать свойство [**keep_separators_for_blank_row**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/) класса [**TxtSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/). [**keep_separators_for_blank_row**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/) является логическим свойством. Чтобы сохранить разделители для пустых строк при преобразовании файла Excel в CSV, установите свойство [**keep_separators_for_blank_row**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/) в **true**.
 
-![задача: image_alt_text](result.jpg)
+Приведенный ниже образец кода загружает [исходный файл Excel](84378743.xlsx). Устанавливает свойство [**keep_separators_for_blank_row**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/) в **true** и сохраняет его в [output.csv](84378744.csv). Снимок экрана показывает сравнение между исходным файлом Excel, выходным файлом, сгенерированным по умолчанию при преобразовании электронной таблицы в CSV и выходным файлом, сгенерированным при установке [**keep_separators_for_blank_row**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/keep_separators_for_blank_row/) в **true**.
 
-##  **Образец кода**
+![todo:image_alt_text](result.jpg)
+
+## **Образец кода**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CSV-TSV-TXT-KeepSeparatorsForBlankRow-1.py" >}}

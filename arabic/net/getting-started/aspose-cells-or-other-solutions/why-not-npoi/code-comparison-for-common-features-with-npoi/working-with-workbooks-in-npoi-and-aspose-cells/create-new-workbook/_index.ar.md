@@ -1,27 +1,28 @@
-﻿---
-title: إنشاء مصنف جديد
+---
+title: إنشاء سجل عمل جديد
 type: docs
 weight: 20
 url: /ar/net/create-new-workbook/
 ---
-## **Aspose.Cells - إنشاء مصنف جديد**
-فئة المصنف متاحة للاستخدام البسيط
+
+## **Aspose.Cells - إنشاء سجل عمل جديد**
+تتوفر فئة Workbook للاستخدام البسيط
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
 workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many formats
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - إنشاء كتاب عمل جديد**
-قم بإنشاء مصنف جديد باستخدام فئة المصنف وحفظه باستخدام FileOutputStream.
+## **NPOI - HSSF XSSF - إنشاء سجل عمل جديد**
+إنشاء سجل عمل جديد باستخدام فئة Workbook وحفظه باستخدام FileOutputStream
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -38,7 +39,7 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إنشاء مصنف جديد** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **إنشاء سجل عمل جديد** من أي من مواقع التعديل الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)

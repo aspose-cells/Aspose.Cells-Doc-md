@@ -1,16 +1,17 @@
-﻿---
-title: Copiar y mover hojas de trabajo en Php
+---
+title: Copiar y Mover Hojas de Cálculo en Php
 type: docs
 weight: 10
 url: /es/java/copying-and-moving-worksheets-in-php/
 ---
-## **Aspose.Cells - Copiar y mover hojas de trabajo**
-### **Copiar hojas de trabajo dentro de un libro de trabajo**
- Para copiar la hoja de trabajo usando**Aspose.Cells for Java en PHP** , llamada**copiar_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
+
+## **Aspose.Cells - Copiar y Mover hojas de cálculo**
+### **Copiar Hojas de Cálculo dentro de un Libro de Trabajo**
+Para copiar una hoja de cálculo usando **Aspose.Cells for Java en PHP**, llama al método **copy_worksheet** del módulo **copyworksheets**. A continuación se muestra un ejemplo de código.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Create a Worksheets object with reference to the sheets of the Workbook.
 
@@ -26,12 +27,12 @@ $workbook->save($dataDir . "Copy Worksheet.xls");
 
 
 {{< /highlight >}}
-### **Mover hojas de trabajo dentro de un libro de trabajo**
- Para mover la hoja de trabajo usando**Aspose.Cells for Java en PHP** , llamada**mover_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
+### **Mover hojas de cálculo dentro de un libro de trabajo**
+Para mover una hoja de cálculo usando **Aspose.Cells for Java en PHP**, llama al método **move_worksheet** del módulo **copyworksheets**. A continuación se muestra un ejemplo de código.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Get the first worksheet in the book.
 
@@ -46,7 +47,7 @@ $sheet->moveTo(2);
 $workbook->save($dataDir . "Move Worksheet.xls");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Copiar y mover hojas de trabajo (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Copiando y Moviendo Hojas de Cálculo (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/CopyingAndMovingWorksheets.php)

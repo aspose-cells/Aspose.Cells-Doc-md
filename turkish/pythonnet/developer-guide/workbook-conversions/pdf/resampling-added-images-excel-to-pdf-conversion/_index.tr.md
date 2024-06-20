@@ -1,27 +1,28 @@
 ---
-title: Eklenen Görselleri Yeniden Örnekleme - Excel'den PDF'e Dönüştürme
+title: Eklenen Resimleri Yeniden Örnekle  Excel den PDF ye Dönüştürme
 type: docs
 weight: 150
 url: /tr/python-net/resample-added-images-excel-to-pdf-conversion/
-description: Aspose.Cells for Python via .NET API ile excel'i pdf'ye dönüştürürken eklenen görselleri nasıl yeniden örnekleyeceğinizi öğrenin.
-keywords: Python Resample Added Images when Convert Excel to PDF
+description: Aspose.Cells for Python via .NET API siyle Excel den PDF ye dönüştürürken eklenen resimleri yeniden örnekleme yöntemini öğrenin.
+keywords: Çok sayıda resmi içeren büyük Microsoft Excel dosyalarıyla çalışırken, eklenen resimleri sıkıştırmak ve çıktı PDF dosya boyutunu azaltmak, genel dönüştürme performansını iyileştirmek için resimleri yeniden örneklemek gerekebilir. Aspose.Cells for Python via .NET eklenen resimleri yeniden örnekleme işlemini destekler.
 ---
+
 {{% alert color="primary" %}}
 
-Çok sayıda görüntü içeren büyük Microsoft Excel dosyalarıyla çalışırken, çıktı PDF dosya boyutunu azaltmak ve genel dönüştürme performansını artırmak için eklenen görüntüleri sıkıştırmanız gerekebilir. Aspose.Cells for Python via .NET, çıktı PDF dosya boyutunu azaltmak ve performansı bir miktar artırmak için eklenen görüntülerin yeniden örneklenmesini destekler.
+Büyük Microsoft Excel dosyalarıyla çalışırken, eklenen ve çıkarılmış resimleri sıkıştırmak, çıktı PDF dosya boyutunu azaltmak ve genel dönüşüm performansını geliştirmek isteyebilirsiniz. Aspose.Cells for Python via .NET, eklenen resimleri sıkıştırmayı destekler, çıktı PDF dosyası boyutunu azaltmak ve performansı biraz artırmak için resimleri örnekleme yapabilir.
 
 {{% /alert %}}
 
-Lütfen Aspose.Cells for Python via .NET API kullanılarak görevin nasıl gerçekleştirileceğini açıklayan aşağıdaki örnek koda bakın. Örnek, dosyadaki görüntüleri sıkıştırırken Microsoft Excel dosyasını PDF dosyasına dönüştürür.
+Aşağıdaki örnek kod, Aspose.Cells for Python via .NET API'si kullanılarak görevi nasıl gerçekleştireceğinizi açıklar. Örnek, Microsoft Excel dosyasını PDF dosyasına dönüştürürken dosyadaki resimleri sıkıştırır.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ResamplingAddedImages-1.py" >}}
 
 {{% alert color="primary" %}}
 
- kullanarak[**PdfSaveOptions.set_image_resample**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/set_image_resample/#int-int)seçeneği, PDF çıktısının boyutunu en aza indirir ancak görüntü kalitesini biraz etkileyebilir.
+[**PdfSaveOptions.set_image_resample**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/set_image_resample/#int-int) seçeneğini kullanarak çıktı PDF dosyasının boyutunu küçültür, ancak biraz görüntü kalitesini etkileyebilir.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- E-tablonuz formüller içeriyorsa, aramak en iyisidir.[**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) e-tabloyu PDF biçimine dönüştürmeden hemen önce. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve PDF'de doğru değerlerin oluşturulmasını sağlayacaktır.
+Eğer elektronik tablonuz formüller içeriyorsa, PDF formatına dönüştürmeden hemen önce [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) çağrısını yapmanız en iyisidir. Böyle yaparak formüle bağımlı değerler yeniden hesaplanacak ve doğru değerler PDF'de gösterilecektir.
 
 {{% /alert %}}

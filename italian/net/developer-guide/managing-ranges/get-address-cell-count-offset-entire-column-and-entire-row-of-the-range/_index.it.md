@@ -1,37 +1,38 @@
-﻿---
-title: Ottieni indirizzo Cell Scostamento conteggio dell'intera colonna e dell'intera riga dell'intervallo
+---
+title: Ottenere Conteggio Cellule Indirizzo Spostamento Intera Colonna e Intera Riga della Gamma
 type: docs
 weight: 330
 url: /it/net/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
 ---
-## **Possibili scenari di utilizzo**
-Aspose.Cells fornisce l'oggetto Range che ha vari metodi di utilità che facilitano all'utente di lavorare facilmente con gli intervalli di Excel. Questo articolo illustra l'utilizzo dei seguenti metodi o proprietà dell'oggetto Range.
+
+## **Possibili Scenari di Utilizzo**
+Aspose.Cells fornisce l'oggetto Range che ha vari metodi di utilità che facilitano all'utente lavorare facilmente con gli intervalli di Excel. Questo articolo illustra l'uso dei seguenti metodi o proprietà dell'oggetto Range.
 
 - **Indirizzo**
 
-Ottiene l'indirizzo dell'intervallo.
+Ottiene l'indirizzo della gamma.
 
-- **Cell Conte**
+- **Conteggio celle**
 
-Ottiene tutto il conteggio delle celle nell'intervallo.
+Ottiene il conteggio di tutte le celle nella gamma.
 
-- **Compensare**
+- **Spostamento**
 
-Ottiene l'intervallo in base all'offset.
+Ottiene la gamma per spostamento.
 
-- **Colonna intera**
+- **Intera Colonna**
 
-Ottiene un oggetto Range che rappresenta l'intera colonna (o le colonne) che contiene l'intervallo specificato.
+Restituisce un oggetto Range che rappresenta l'intera colonna (o colonne) che contiene il range specificato.
 
-- **Intera riga**
+- **Intera Riga**
 
-Ottiene un oggetto Range che rappresenta l'intera riga (o le righe) che contiene l'intervallo specificato.
-## **Ottieni indirizzo, Cell Conteggio, offset, intera colonna e intera riga dell'intervallo**
-Il seguente codice di esempio illustra l'utilizzo dei metodi e delle proprietà come discusso in precedenza. Si prega di consultare l'output della console del codice fornito di seguito per un riferimento.
-## ` `**Codice d'esempio**
+Restituisce un oggetto Range che rappresenta l'intera riga (o righe) che contiene il range specificato.
+## **Ottieni Indirizzo, Conteggio Celle, Spostamento, Intera Colonna e Intera Riga del Range**
+Il seguente codice di esempio spiega l'uso dei metodi e delle proprietà come discusso in precedenza. Si prega di consultare l'output della console del codice fornito di seguito per un riferimento.
+## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.cs" >}}
-## **Uscita console**
-{{< highlight "java" >}}
+## **Output della console**
+{{< highlight java >}}
 
  Creating Range A1:B3
 

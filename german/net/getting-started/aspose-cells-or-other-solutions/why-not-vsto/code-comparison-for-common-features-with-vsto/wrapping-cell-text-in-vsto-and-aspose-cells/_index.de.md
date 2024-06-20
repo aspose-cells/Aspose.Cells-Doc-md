@@ -1,33 +1,34 @@
-﻿---
-title: Umbruch von Cell Text in VSTO und Aspose.Cells
+---
+title: Zelltext in VSTO und Aspose.Cells umbrechen
 type: docs
 weight: 250
 url: /de/net/wrapping-cell-text-in-vsto-and-aspose-cells/
 ---
-So erstellen Sie ein Arbeitsblatt mit zwei Zellen, eine mit umbrochenem Text und eine ohne:
 
-1.  Erstellen Sie das Arbeitsblatt:
- 1. Erstellen Sie eine Arbeitsmappe.
- 1. Greifen Sie auf das erste Arbeitsblatt zu.
-1.  Text hinzufügen:
- 1. Fügen Sie Text zu Zelle A1 hinzu.
- 1. Fügen Sie umgebrochenen Text zu Zelle A5 hinzu.
+Um ein Arbeitsblatt mit zwei Zellen zu erstellen, eine mit umgebrochenem Text und eine ohne:
+
+1. Richten Sie das Arbeitsblatt ein: 
+   1. Ein Arbeitsbuch erstellen.
+   1. Greifen Sie auf das erste Arbeitsblatt zu.
+1. Text hinzufügen: 
+   1. Fügen Sie Text zur Zelle A1 hinzu.
+   1. Fügen Sie Text in Zelle A5 ein.
 1. Speichern Sie die Tabelle.
- Die folgenden Codebeispiele zeigen, wie diese Schritte unter Verwendung von VSTO mit C# ausgeführt werden. Codebeispiele, die zeigen, wie dasselbe mit Aspose.Cells oder for .NET ausgeführt wird, wiederum mit entweder C#, folgen unmittelbar danach.
+   Die unten aufgeführten Codebeispiele zeigen, wie Sie diese Schritte mithilfe von VSTO entweder mit C# ausführen können. Codebeispiele, die zeigen, wie Sie dasselbe mit Aspose.Cells for .NET tun können, auch mit C#, folgen unmittelbar danach.
 
-Das Ausführen des Codes führt zu einer Tabelle mit zwei Zellen, eine mit nicht umbrochenem Text und eine mit:
+Wenn Sie den Code ausführen, entsteht eine Tabelle mit zwei Zellen, eine mit nicht umschlossenem und eine mit umschlossenem Text:
 
 ## **Ausgabe mit VSTO Excel**
 
-![todo: Bild_alt_Text](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-## **Ausgabe über Aspose.Cells for .NET**
+## **Ausgabe mit Aspose.Cells for .NET**
 
-![todo: Bild_alt_Text](picture2.png)
+![todo:image_alt_text](picture2.png)
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Access vsto application
 
@@ -71,7 +72,7 @@ app.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void WrappingCellText()
 
@@ -117,6 +118,6 @@ app.Quit();
 
 ## **Beispielcode herunterladen**
 
-- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
-- [Quellenschmiede](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/herunterladen)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).Postleitzahl)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip)

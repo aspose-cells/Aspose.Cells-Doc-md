@@ -1,13 +1,14 @@
-﻿---
-title: Ställ in kalkylbladszoomfaktor
+---
+title: Ställ in arbetsbladets zoomfaktor
 type: docs
 weight: 80
 url: /sv/net/set-worksheet-zoom-factor/
 ---
-## **Aspose.Cells - Ställ in kalkylbladszoomfaktor**
+
+## **Aspose.Cells - Ställ in arbetsbladets zoomfaktor**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -27,10 +28,10 @@ workbook.Save("../../data/newWorksheet.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Ställ in kalkylbladszoomfaktor**
+## **NPOI - HSSF XSSF - Ställ in arbetsbladets zoomfaktor**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -45,13 +46,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Ställ in kalkylbladszoomfaktor** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner formuläret **Ställ in arbetsbladets zoomfaktor** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Zoom.Factor.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Arbeta med arbetsblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+För mer information, besök [Arbeta med kalkylblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

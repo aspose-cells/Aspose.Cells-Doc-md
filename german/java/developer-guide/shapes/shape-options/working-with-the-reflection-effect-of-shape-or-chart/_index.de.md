@@ -1,11 +1,12 @@
-﻿---
-title: Arbeiten mit dem Reflexionseffekt von Formen oder Diagrammen
+---
+title: Arbeiten mit dem Spiegeleffekt von Form oder Diagramm
 type: docs
 weight: 930
 url: /de/java/working-with-the-reflection-effect-of-shape-or-chart/
 ---
-## **Mögliche Nutzungsszenarien**
- Aspose.Cells bietet die[Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection)-Eigenschaft, um mit dem Reflexionseffekt von Formen oder Diagrammen zu arbeiten. Es enthält die folgenden Untereigenschaften, die Sie einstellen können, um je nach Ihren Anforderungen unterschiedliche Ergebnisse zu erzielen.
+
+## **Mögliche Verwendungsszenarien**
+Aspose.Cells bietet die [Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection) Eigenschaft, um mit dem Spiegeleffekt von Form oder Diagramm zu arbeiten. Sie enthält die folgenden Unter-Eigenschaften, die Sie einstellen können, um verschiedene Ergebnisse entsprechend Ihren Anforderungen zu erzielen.
 
 - [ReflectionEffect.Blur](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Blur)
 - [ReflectionEffect.Direction](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Direction)
@@ -16,10 +17,10 @@ url: /de/java/working-with-the-reflection-effect-of-shape-or-chart/
 - [ReflectionEffect.Transparency](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Transparency)
 - [ReflectionEffect.Type](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Type)
 
- Der folgende Screenshot zeigt die Microsoft Excel-Oberfläche zum Einstellen der*Reflexionseffekt*von Form.
+Die folgende Screenshots zeigt die Benutzeroberfläche von Microsoft Excel zur Einstellung des *Spiegeleffekts* von Form.
 
-![todo: Bild_alt_Text](working-with-the-reflection-effect-of-shape-or-chart_1.png)
-## **Arbeiten mit dem Reflexionseffekt von Formen oder Diagrammen**
- Der folgende Beispielcode lädt die[Excel-Quelldatei](5472529.xlsx) und greift auf die erste Form im ersten Arbeitsblatt zu und legt die Untereigenschaften von fest[Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection)-Eigenschaft und speichert dann die Arbeitsmappe in der[Excel-Datei ausgeben](5472539.xlsx).
+![todo:image_alt_text](working-with-the-reflection-effect-of-shape-or-chart_1.png)
+## **Arbeiten mit dem Spiegeleffekt von Form oder Diagramm**
+Der folgende Beispielcode lädt die [Quelldatei für Excel](5472529.xlsx) und greift auf die erste Form im ersten Arbeitsblatt zu. Dabei werden die Untereigenschaften der [Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection) festgelegt und anschließend das Arbeitsbuch in der [Ausgabedatei für Excel](5472539.xlsx) gespeichert.
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}

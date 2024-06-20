@@ -1,22 +1,23 @@
-﻿---
-title: スプレッドシート エディター - 関数の操作
+---
+title: スプレッドシートエディター  関数の操作
 type: docs
 weight: 60
 url: /ja/java/spreadsheet-editor-working-with-functions/
 ---
+
 **目次**
 
 - [数式バー](#SpreadsheetEditor-WorkingwithFunctions-FormulaBar) 
- saveFormulaBarContents
-- [関数を挿入する](#SpreadsheetEditor-WorkingwithFunctions-InsertaFunction)
+  - saveFormulaBarContents
+- [関数の挿入](#SpreadsheetEditor-WorkingwithFunctions-InsertaFunction)
 ### **数式バー**
-数式バーは、シート領域の上にあるテキスト ボックスです。現在のセルの数式を表示し、ユーザーが編集できるようにします。
+数式バーはシート領域の上にあるテキストボックスです。現在のセルの数式を表示し、ユーザーがそれを編集することを可能にします。
 
-**使い方？**
+**動作仕様**
 
-セルを選択すると、数式バーがセルと同期し、数式が表示されます。ユーザーは編集できます。ユーザーが編集して Enter キーを押すと、JavaScript 関数**saveFormulaBarContents**実行される
+セルが選択されると、数式バーが同期されて数式が表示されます。ユーザーは編集が許可されています。ユーザーが編集して Enter キーを押すと、JavaScript 関数**saveFormulaBarContents**が実行されます。
 #### **saveFormulaBarContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  function saveFormulaBarContents() {
 
@@ -31,9 +32,9 @@ url: /ja/java/spreadsheet-editor-working-with-functions/
 }
 
 {{< /highlight >}}
-### **関数を挿入する**
-関数または式を挿入するには:
+### **関数の挿入**
+関数や数式を挿入するには:
 
-1. セルをクリックして選択します。
-1. クリック**挿入機能**上のボタン。
-1. の指示に従ってください**挿入機能**ダイアログ。
+1. セルを選択するためにクリックします。
+1. 上部の**関数の挿入**ボタンをクリックします。
+1. **関数の挿入**ダイアログの指示に従います。

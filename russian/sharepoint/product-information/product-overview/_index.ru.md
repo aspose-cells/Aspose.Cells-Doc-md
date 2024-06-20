@@ -1,51 +1,52 @@
-﻿---
+---
 title: Обзор продукта
 type: docs
 weight: 10
 url: /ru/sharepoint/product-overview/
 ---
+
 {{% alert color="primary" %}} 
 
-![дело:изображение_альтернативный_текст](product-overview_1)
-### **Добро пожаловать в документацию Aspose.Cells for SharePoint!**
-Aspose.Cells for SharePoint — это гибкое решение, поддерживающее преобразование электронных таблиц, которое позволяет преобразовывать документы MS Excel в приложениях SharePoint Microsoft.
+![todo:image_alt_text](product-overview_1)
+### **Добро пожаловать в Документацию Aspose.Cells for SharePoint!**
+Aspose.Cells for SharePoint - гибкое решение, поддерживающее конвертацию таблиц, что позволяет конвертировать документы MS Excel в приложениях Microsoft SharePoint.
 
 {{% /alert %}} 
 
-Вы можете конвертировать несколько форматов документов, например:
+Вы можете конвертировать несколько форматов документов, таких как:
 
-- PDF — переносимый документ Adobe
+- PDF - Портативный документ Adobe
 - XLS - MS Excel 97~2003
-- XLSX — Office Open XML
-- XLSM — Office Open XML для макросов включен
-- TXT — обычный текст
-- XML-Microsoft Excel SpreadsheetML
-- ODS - Электронная таблица OpenDocument
-- CSV — значения, разделенные запятыми
-- XLSB - Двоичный файл Excel 2007
-- MHtml — многоцелевое расширение почты Интернета HTML
-- XPS - Спецификация документа XML
-- TIFF - Формат файла изображения с тегами
-- SVG - Масштабируемая векторная графика
-- DIF - Формат обмена чертежами
+- XLSX - Office Open XML
+- XLSM - Office Open XML для включения макросов
+- TXT - Простой текст
+- XML - Microsoft Excel SpreadsheetML
+- ODS - Таблица документов OpenDocument
+- CSV - Значения, разделенные запятыми
+- XLSB - Двоичный формат Excel 2007
+- MHtml - Многоцелевое расширение почтового интернет-HTML
+- XPS - XML Paper Specification
+- TIFF - Tagged Image File Format
+- SVG - Scalable Vector Graphics
+- DIF - Drawing Interchange Format
 
-Aspose.Cells for SharePoint предназначен для использования со следующими продуктами:
+Aspose.Cells for SharePoint предназначен для использования с следующими продуктами:
 
-- Windows Службы SharePoint 3.0 (ВСС)
-- Microsoft Office SharePoint Server 2007 (MOSS) Стандартный
-- Microsoft Office SharePoint Server 2007 (МОСС) предприятие
-- Microsoft Office SharePoint Server 2010 (MOSS) Стандартный
-- Microsoft Office SharePoint Server 2010 (МОСС) предприятие
-- Microsoft Office SharePoint Server 2013 (MOSS) Стандартный
-- Microsoft Office SharePoint Server 2013 (МОСС) предприятие
-- Microsoft Office SharePoint Server 2016 (MOSS) Стандартный
-- Microsoft Office SharePoint Server 2016 (МОСС) предприятие
+- Windows SharePoint Services 3.0 (WSS)
+- Microsoft Office SharePoint Server 2007 (MOSS) Standard
+- Microsoft Office SharePoint Server 2007 (MOSS) Enterprise
+- Microsoft Office SharePoint Server 2010 (MOSS) Standard
+- Microsoft Office SharePoint Server 2010 (MOSS) Enterprise
+- Microsoft Office SharePoint Server 2013 (MOSS) Standard
+- Microsoft Office SharePoint Server 2013 (MOSS) Enterprise
+- Microsoft Office SharePoint Server 2016 (MOSS) Standard
+- Microsoft Office SharePoint Server 2016 (MOSS) Enterprise
 
-Никаких дополнительных системных требований, помимо перечисленных выше продуктов, нет.
+Для указанных выше продуктов дополнительных требований к системе нет.
 
- В этой документации описывается[Особенности](/cells/ru/sharepoint/features/), [установка](/cells/ru/sharepoint/install-aspose-cells-for-sharepoint/), [оценка](/cells/ru/sharepoint/evaluate-aspose-cells/), [лицензирование](/cells/ru/sharepoint/license-aspose-cells-for-sharepoint/), общие варианты использования и настройки Aspose.Cells for SharePoint.
+Эта документация описывает [функции](/cells/ru/sharepoint/features/), [установку](/cells/ru/sharepoint/install-aspose-cells-for-sharepoint/), [оценку](/cells/ru/sharepoint/evaluate-aspose-cells/), [лицензирование](/cells/ru/sharepoint/license-aspose-cells-for-sharepoint/), типичные сценарии использования и настройки продукта Aspose.Cells for SharePoint.
 
-**Используйте Aspose.Cells for SharePoint из библиотеки документов SharePoint для преобразования документов**
+**Используйте Aspose.Cells for SharePoint из библиотеки документов SharePoint для конвертации документов**
 
 **![todo:image_alt_text](product-overview_2.png)**
 

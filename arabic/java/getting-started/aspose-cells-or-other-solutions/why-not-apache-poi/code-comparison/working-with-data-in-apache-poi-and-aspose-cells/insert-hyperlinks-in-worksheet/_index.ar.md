@@ -1,17 +1,18 @@
-﻿---
-title: أدخل الارتباطات التشعبية في ورقة العمل
+---
+title: إدراج الروابط الفائقة في ورقة العمل
 type: docs
 weight: 20
 url: /ar/java/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - ادراج ارتباطات تشعبية في ورقة العمل**
-**إضافة ارتباط إلى Cell في نفس الملف**
 
-من الممكن إضافة ارتباطات تشعبية إلى الخلايا في نفس ملف Excel عن طريق استدعاء طريقة إضافة مجموعة الارتباط التشعبي. تعمل طريقة الإضافة مع الارتباطات التشعبية الداخلية والخارجية.
+## **Aspose.Cells - إدراج الروابط الفائقة في ورقة العمل**
+**إضافة ارتباط إلى خلية في نفس الملف**
+
+من الممكن إضافة روابط فائقة إلى الخلايا في نفس ملف Excel عن طريق استدعاء أسلوب الإضافة في مجموعة الروابط الفائقة. يعمل أسلوب الإضافة لكل من الروابط الفائقة الداخلية والخارجية.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the first worksheet.
 
@@ -48,18 +49,18 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 
 {{< /highlight >}}
 
-**إضافة ارتباط إلى ملف خارجي**
+**إضافة رابط إلى ملف خارجي**
 
-من الممكن إضافة ارتباطات تشعبية إلى ملفات Excel الخارجية عن طريق استدعاء طريقة إضافة مجموعة الارتباطات التشعبية. تأخذ طريقة الإضافة المعلمات التالية:
+من الممكن إضافة روابط تشعبية إلى ملفات Excel خارجية عن طريق استدعاء طريقة Add في مجموعة Hyperlinks. تأخذ طريقة Add المعلمات التالية:
 
-- Cell ، اسم الخلية التي سيتم إضافة الوصلة المرجعية إليها.
-- عدد الصفوف ، عدد الصفوف في نطاق الارتباط التشعبي هذا.
-- عدد الأعمدة ، عدد الأعمدة في نطاق الارتباط التشعبي هذا.
-- URL ، عنوان الهدف ، ملف Excel خارجي.
+- اسم الخلية، اسم الخلية التي سيتم إضافة الرابط التشعبي إليها.
+- عدد الصفوف، عدد الصفوف في نطاق الارتباط الفائق.
+- عدد الأعمدة، عدد الأعمدة في نطاق الارتباط الفائق.
+- عنوان الويب (URL)، عنوان الهدف، ملف Excel الخارجي.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  cell = cells.get("A3");
 
@@ -74,10 +75,10 @@ hyperlinks = sheet.getHyperlinks();
 hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - أدخل الارتباطات التشعبية في ورقة العمل**
+## **Apache POI SS - HSSF XSSF - إدراج روابط تشعبية في ورقة العمل**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  CellStyle hlink_style = wb.createCellStyle();
 
@@ -158,8 +159,8 @@ cell.setHyperlink(link2);
 cell.setCellStyle(hlink_style);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / cells / أمثلة / featurescomparison / datahandling / hyperlink)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlink)
 

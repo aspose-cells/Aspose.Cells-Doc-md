@@ -1,15 +1,16 @@
-﻿---
+---
 title: Aggiungi immagini nel foglio di calcolo in xlsx4j
 type: docs
 weight: 20
 url: /it/java/add-images-in-spreadsheet-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Aggiungi immagini nel foglio di calcolo**
 La classe Picture è disponibile per gestire le immagini nel foglio di lavoro
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -27,13 +28,13 @@ Picture picture = sheet.getPictures().get(pictureIndex);
 
 {{< /highlight >}}
 ## **xlsx4j - Aggiungi immagini nel foglio di calcolo**
-La classe di disegno è disponibile per gestire le immagini nel foglio di lavoro
+La classe Drawing è disponibile per gestire le immagini nel foglio di lavoro
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "AddImage-Xlsx4j.xlsx";
 
@@ -407,12 +408,12 @@ public static CTDrawing buildDrawingPartContentFromXmlString(String imageRelID) 
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addimage)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addimage)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Aggiungi collegamenti ipertestuali alle immagini](/java/add-image-hyperlinks).
+Per ulteriori dettagli, visita [Aggiungi collegamenti ipertestuali alle immagini](/java/aggiungi-collegamenti-ipertestuali-immagini).
 
 {{% /alert %}}

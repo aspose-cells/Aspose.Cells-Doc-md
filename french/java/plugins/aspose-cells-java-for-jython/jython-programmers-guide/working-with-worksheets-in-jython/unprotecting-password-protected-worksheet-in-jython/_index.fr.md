@@ -1,15 +1,16 @@
-﻿---
-title: Déprotéger la feuille de travail protégée par mot de passe dans Jython
+---
+title: Déprotection du classeur protégé par mot de passe en Jython
 type: docs
 weight: 150
 url: /fr/java/unprotecting-password-protected-worksheet-in-jython/
 ---
-## **Aspose.Cells - Joindre des documents**
- Pour joindre des documents à l'aide de**Aspose.Cells Java pour Jython**. Ici vous pouvez voir un exemple de code.
+
+## **Aspose.Cells - Ajouter des documents**
+Pour ajouter des documents en utilisant **Aspose.Cells Java for Jython**. Vous pouvez voir ici le code d'exemple.
 
 **Code Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -57,7 +58,7 @@ if __name__ == '__main__':
     UnprotectingPasswordProtectedWorksheet()
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Joindre des documents (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Ajouter des documents (Aspose.Cells)** à partir de n'importe lequel des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/UnprotectingPasswordProtectedWorksheet.py)

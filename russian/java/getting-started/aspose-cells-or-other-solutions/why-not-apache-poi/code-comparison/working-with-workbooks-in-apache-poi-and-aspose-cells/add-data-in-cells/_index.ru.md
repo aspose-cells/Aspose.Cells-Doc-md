@@ -1,15 +1,16 @@
-﻿---
-title: Добавить данные в Cells
+---
+title: Добавление данных в ячейки
 type: docs
 weight: 10
 url: /ru/java/add-data-in-cells/
 ---
-## **Aspose.Cells - Добавить данные в Cells**
-Aspose.Cells предоставляет класс Workbook, который представляет файл Microsoft Excel. Класс Workbook содержит коллекцию WorksheetCollection, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен классом Worksheet. Класс Worksheet предоставляет коллекцию Cells. Каждый элемент коллекции Cells представляет объект класса Cell.
+
+## **Aspose.Cells - добавление данных в ячейки**
+Aspose.Cells предоставляет класс, Workbook, который представляет собой файл Microsoft Excel. Класс Workbook содержит WorksheetCollection, который позволяет получить доступ к каждому рабочему листу в файле Excel. Лист представлен классом Worksheet. Класс Worksheet предоставляет коллекцию Cells. Каждый элемент в коллекции Cells представляет объект класса Cell.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cell.setStyle(style);
 workbook.save(dataDir + "DataInCells_Aspose.xls"); //Saving the Excel file
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF XSSF — добавить данные в Cells**
-В Apache POI SS row.createCell(1).setCellValue можно использовать для добавления данных в ячейки.
+## **Apache POI SS - HSSF XSSF - добавление данных в ячейки**
+В Apache POI SS можно использовать row.createCell(1).setCellValue для добавления данных в ячейки.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -86,13 +87,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/adddataincells)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/adddataincells)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Добавление данных в Cells](/java/adding-data-to-cells).
+Для получения дополнительной информации посетите [Добавление данных в ячейки](/java/adding-data-to-cells).
 
 {{% /alert %}}

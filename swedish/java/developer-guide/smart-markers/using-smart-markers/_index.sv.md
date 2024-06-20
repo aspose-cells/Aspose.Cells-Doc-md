@@ -1,53 +1,54 @@
 ---
-title: Använda smarta markörer
+title: Användning av Smart Markers
 type: docs
 weight: 40
 url: /sv/java/using-smart-markers/
 ---
-##  **Introduktion**
+
+## **Introduktion**
 
 {{% alert color="primary" %}}
 
-**Smarta markörer** används för att låta Aspose.Cells veta vilken information som ska placeras i en Microsoft Excel[designerkalkylblad](/cells/sv/java/what-is-a-designer-spreadsheet/). Smarta markörer låter dig skapa mallar som endast innehåller relevant information och formatering.
+**Smart markörer** används för att låta Aspose.Cells veta vilken information som ska placeras i en Microsoft Excel [designer spreadsheet](/cells/sv/java/what-is-a-designer-spreadsheet/). Smart markers gör dig möjligt att skapa mallar som endast innehåller relevant information och formatering.
 
 {{% /alert %}}
 
-##  **Designerkalkylblad och smarta markörer**
+## **Designer Spreadsheet & Smart Markers**
 
-Designer-kalkylblad är vanliga Excel-filer som innehåller visuell formatering, formler och smarta markörer. De kan innehålla smarta markörer som refererar till en eller flera datakällor, till exempel information från ett projekt och information för relaterade kontakter. Smarta markörer skrivs in i cellerna där du vill ha information.
+Designer spreadsheets är standard Excel-filer som innehåller visuell formatering, formler och smart markers. De kan innehålla smart markers som refererar till en eller flera datakällor, såsom information från ett projekt och information för relaterade kontakter. Smart markers är skrivna i cellerna där du vill ha information.
 
-Alla smarta markörer börjar med &=. Ett exempel på en datamarkör är &=Party.FullName. Om datamarkören resulterar i mer än ett objekt, till exempel en hel rad, flyttas följande rader ned automatiskt för att ge plats åt den nya informationen. Således kan delsummor och totaler placeras på raden omedelbart efter datamarkören för att göra beräkningar baserade på infogade data. För att göra beräkningar på de infogade raderna, använd[dynamiska formler](/cells/sv/java/using-smart-markers/#dynamic-formulas).
+Alla smart markers börjar med &=. Ett exempel på en datamarkör är &=Party.FullName. Om datamarkören resulterar i mer än en post, till exempel en komplett rad, flyttas de följande raderna ned automatiskt för att göra plats för den nya informationen. Därmed kan delsummer och totaler placeras på raden omedelbart efter datamarkören för att göra beräkningar baserade på infogad data. För att göra beräkningar på de infogade raderna, använd [dynamiska formler](/cells/sv/java/using-smart-markers/#dynamic-formulas).
 
- Smarta markörer består av**datakälla** och**fält namn** delar för mest information. Särskild information kan också skickas med variabler och variabla arrayer. Variabler fyller alltid bara en cell medan variabla arrayer kan fylla flera. Använd endast en datamarkör per cell. Oanvända smarta markörer tas bort.
+Smart markers består av **datakälla** och **fältnamn** för de flesta uppgifter. Speciell information kan också skickas med variabler och variabelmatriser. Variabler fyller alltid bara en cell medan variabelmatriser kan fylla flera. Använd endast en datamarkör per cell. Oanvända smart markers tas bort.
 
-En smart markör kan också innehålla parametrar. Parametrar låter dig ändra hur informationen är upplagd. De läggs till i slutet av den smarta markören inom parentes som en kommaseparerad lista.
+En smart marker kan också innehålla parametrar. Parametrar gör att du kan ändra hur informationen är utformad. De läggs till i slutet av smart markern inom parentes som en kommaseparerad lista.
 
-###  **Alternativ för smarta markörer**
+### **Smart Marker-alternativ**
 
-&=Datakälla.Fältnamn
-&=[Datakälla].[Fältnamn]
-&=$Variabelnamn
+&=DataSource.FieldName
+&=[Data Source].[Field Name]
+&=$VariableName
 &=$VariableArray
-&==DynamicFormula
-&=&=RepeatDynamicFormula
+&==Dynamisk formula
+&=&=UpprepaDynamiskFormula
 
-###  **Parametrar**
+### **Parametrar**
 
 Följande parametrar är tillåtna:
 
 - **noadd** - Lägg inte till extra rader för att passa data.
-- **hoppa över:n** - Hoppa över n antal rader för varje rad med data.
-- *stigande:n eller fallande:n - Sortera data i smarta markörer. Om n är 1, är kolumnen den första nyckeln i sorteraren. Data sorteras efter bearbetning av datakällan. Till exempel: &=Tabell1.Fält3(stigande:1).
-- **horisontell** - Skriv data från vänster till höger, istället för från topp till botten.
+- **skip:n** - Hoppa över n antal rader för varje datarad.
+- *ascending:n eller descending:n - Sortera data i smarta markörer. Om n är 1, är kolumnen den första nyckeln för sorteraren. Data sorteras efter bearbetning av datakällan. Till exempel: &=Tabell1.Fält3(ascending:1).
+- **horisontell** - Skriv data från vänster till höger i stället för uppifrån och ner.
 - **numerisk** - Konvertera text till nummer om möjligt.
-- **flytta** - Växla nedåt eller höger, skapa extra rader eller kolumner för att passa data. Skiftparametern fungerar på samma sätt som i Microsoft Excel. Till exempel i Microsoft Excel, när du markerar ett cellintervall, högerklickar du och väljer**Föra in** och specificera**flytta ner cellerna**, **skifta celler åt höger** och andra alternativ. Kort sagt, skiftparametern fyller samma funktion för vertikala/normala (uppifrån och ned) eller horisontella (vänster till höger) smarta markörer.
-- **böna** - Indikerar att datakällan är en enkel POJO. Stöds endast i Java API.
+- **shift** - Flytta nedåt eller åt höger, skapa extra rader eller kolumner för att passa data. Shift-parametern fungerar på samma sätt som i Microsoft Excel. Till exempel, när du väljer ett cellintervall, högerklickar och väljer **Infoga** och specificerar **flytta celler nedåt**, **flytta celler åt höger** och andra alternativ. Kort sagt, fyller shift-parametern samma funktion för vertikala/normala (uppifrån och ner) eller horisontella (från vänster till höger) smarta markörer.
+- **bean** - Indikerar att datakällan är en enkel POJO. Endast stöds i Java API.
 
-Parametrarna noadd och skip kan kombineras för att infoga data på alternerande rader. Eftersom mallen bearbetas från botten till toppen bör du lägga till noadd på den första raden för att undvika att extra rader infogas före den alternativa raden.
+Parametrarna noadd och skip kan kombineras för att infoga data på växelvis rader. Eftersom mallen bearbetas nerifrån och upp bör du lägga till noadd på första raden för att undvika att extra rader infogas före den alternativa raden.
 
-Om du har flera parametrar, separera dem med ett kommatecken, men inget mellanslag: parameterA,parameterB,parameterC
+Om du har flera parametrar, separera dem med ett kommatecken, men inget utrymme: parameterA, parameterB, parameterC
 
-Följande skärmdumpar visar hur man infogar data på varannan rad.
+Följande skärmbilder visar hur du infogar data på varannan rad.
 
 ![todo:image_alt_text](using-smart-markers_1.png)
 
@@ -55,16 +56,16 @@ Följande skärmdumpar visar hur man infogar data på varannan rad.
 
 ![todo:image_alt_text](using-smart-markers_2.png)
 
-###  **Dynamiska formler**
+### **Dynamiska formler**
 
-Dynamiska formler låter dig infoga Excel-formler i celler även när formeln refererar till rader som kommer att infogas under exportprocessen. Dynamiska formler kan upprepas för varje infogat rad eller bara använda cellen där datamarkören är placerad.
+Dynamiska formler gör det möjligt att infoga Excel-formler i celler även när formeln refererar till rader som kommer att infogas under exportprocessen. Dynamiska formler kan upprepas för varje infogad rad eller använda endast den cell där datamarkören placeras.
 
-Dynamiska formler tillåter följande ytterligare alternativ:
+Dynamiska formler möjliggör följande ytterligare alternativ:
 
-- r - Aktuellt radnummer.
-- 2, -1 - Offset till aktuellt radnummer.
+- r - Nuvarande radnummer.
+- 2, -1 - Förskjutning till aktuellt radnummer.
 
-Följande illustrerar en återkommande dynamisk formel och det resulterande Excel-kalkylbladet.
+Följande illustrerar en upprepande dynamisk formel och den resulterande Excel-arket.
 
 ![todo:image_alt_text](using-smart-markers_3.png)
 
@@ -74,68 +75,68 @@ Följande illustrerar en återkommande dynamisk formel och det resulterande Exce
 
 Cell C1 innehåller formeln =A1*B1, C2 innehåller = A2*B2 och C3 = A3*B3.
 
- Det är väldigt enkelt att bearbeta de smarta markörerna. Följande exempelkod visar hur man använder dynamiska formler i smarta markörer. Vi laddar[mallfil](templateDynamicFormulas.xlsx) och skapa testdata, bearbeta markörerna för att fylla data i cellerna mot markören.
+Det är mycket enkelt att bearbeta smarta markörer. Följande exempelkod visar hur du använder dynamiska formler i Smart Markers. Vi laddar [mallfilen](templateDynamicFormulas.xlsx) och skapar testdata, bearbetar markörerna för att fylla i data i cellerna mot markören. 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-DynamicFormulas-DynamicFormulas.java" >}}
 
-##  **Använda variabla arrayer**
+## **Användning av variabla Arrayer**
 
-Följande exempelkod visar hur man använder variabla arrayer i Smart Markers. Vi placerar en variabel arraymarkör dynamiskt i A1-cellen i det första kalkylbladet i arbetsboken som innehåller en sträng med värden som vi ställer in för markören, bearbetar markörerna för att fylla data i cellerna mot markören. Slutligen sparar vi Excel-filen.
+Följande exempelkod visar hur du använder variabla arrayer i Smart Markers. Vi placerar en variabel arraymarkör i cell A1 i den första kalkylbladet i arbetsboken dynamiskt som innehåller en sträng med värden som vi ställer in för markören, bearbetar markörerna för att fylla i data i cellerna mot markören. Slutligen sparar vi Excel-filen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingVariableArray-UsingVariableArray.java" >}}
 
-##  **Gruppera data**
+## **Gruppering av data**
 
-I vissa Excel-rapporter kan du behöva dela upp data i grupper för att göra det lättare att läsa och analysera. Ett av de primära syftena med att dela upp data i grupper är att köra beräkningar (utföra sammanfattningar) på varje grupp av poster.
+I vissa Excel-rapporter kan du behöva bryta upp datan i grupper för att göra det lättare att läsa och analysera. Ett av de primära syftena med att bryta upp data i grupper är att köra beräkningar (utföra sammanfattande operationer) på varje grupp av poster.
 
-Aspose.Cells smarta markörer låter dig gruppera data efter fältuppsättningar och placera sammanfattningsrader mellan datamängder eller datagrupper. Om du till exempel grupperar data efter Customers.CustomerID, kan du lägga till en sammanfattningspost varje gång gruppen ändras.
+Aspose.Cells smarta markörer gör det möjligt för dig att gruppera data efter inställda fält och placera sammanfattande rader mellan datasatser eller datagrupper. Till exempel, om du grupperar data efter Customers.CustomerID, kan du lägga till en sammanfattande post varje gång gruppen ändras.
 
-###  **Parametrar**
+### **Parametrar**
 
-Nedan följer några smarta markörparametrar som används för att gruppera data.
+Följande är några smarta markörsparametrar som används för att gruppera data.
 
-####  **grupp:normal/sammanfoga/upprepa**
+#### **group:normal/merge/repeat**
 
 Vi stödjer tre typer av grupper som du kan välja mellan.
 
-- **vanligt** - Värdet för grupp efter fält upprepas inte för motsvarande poster i kolumnen; istället skrivs de ut en gång per datagrupp.
-- **sammanfoga** - Samma beteende som för den normala parametern, förutom att den slår samman cellerna i gruppen efter fält för varje gruppuppsättning.
-- **upprepa** - Värdet för grupp efter fält upprepas för motsvarande poster.
+- **normal** - Gruppera efter fält(s) värde upprepas inte för de motsvarande posterna i kolumnen; istället skrivs de ut en gång per datagrupp.
+- **merge** - Samma beteende som för normalparametern, förutom att den slår samman cellerna i grupperingsfält(en) för varje gruppsats.
+- **repeat** - Gruppera efter fält(s) värde upprepas för de motsvarande posterna.
 
-Till exempel: &=Kunder.Kund-ID(grupp:sammanfoga)
+Till exempel: &=Customers.CustomerID(group:merge)
 
-####  **hoppa**
+#### **skip**
 
-Hoppa över ett visst antal rader efter varje grupp.
+Hoppa över ett specifikt antal rader efter varje grupp.
 
-Till exempel &=Anställda.Anställd-ID(grupp:normal,hoppa över:1)
+Till exempel &=Employees.EmployeeID(group:normal,skip:1)
 
-####  **delsummaN**
+#### **subtotalN**
 
-Utför en sammanfattningsåtgärd för en specificerad fältdata relaterad till en grupp för fält. N representerar siffror mellan 1 och 11 som anger funktionen som används vid beräkning av delsummor i en lista med data. (1=GENOMsnitt, 2=ANTAL, 3=ANTAL, 4=MAX, 5=MIN,...9=SUMMA etc.) Se Deltotalreferensen i Microsoft Excels hjälp för ytterligare detaljer.
+Utför en sammanfattande operation för ett specificerat fältdata relaterat till ett grupperingsfält. N står för nummer mellan 1 och 11 som anger den funktion som används vid beräkning av delsummor inom en lista över data. (1=MEDDELVÄRDE, 2=RÄKNA, 3=RÄKNAA, 4=MAX, 5=MIN,...9=SUMMA osv.) Se delsummareferensen i Microsoft Excels hjälp för ytterligare detaljer.
 
-Formatet säger faktiskt som:
-subtotalN:Ref där Ref refererar till gruppen för kolumn.
+Formatet anges faktiskt som:
+delsummaN:Ref där Ref avser grupperingskolumnen.
 
 Till exempel,
 
--  &=Products.Units(subtotal9:Products.ProductID) specificerar sammanfattningsfunktion på**Enheter** fält med avseende på**Serienummer** fältet i**Produkter** tabell.
--  &=Tabx.Col3(subtotal9:Tabx.Col1) anger sammanfattningsfunktionen på**Kol3** fältgrupp efter**Kol 1** i tabellen *Tabx**.
--  &=Tabell1.KolumnD(delsumma9:Tabell1.KolumnA&Tabell1.KolumnB) anger sammanfattningsfunktion på**KolumnD** fältgrupp efter**Kolumn A** och**KolumnB** i tabell *Tabell1**.
+- &=Products.Units(delsumma9:Products.ProductID) anger sammanfattningsfunktion för fältet **Units** med avseende på fältet **ProductID** i tabellen **Products**.
+- &=Tabx.Col3(delsumma9:Tabx.Col1) anger sammanfattningsfunktion för fältet **Col3** grupperat efter **Col1** i tabellen **Tabx**.
+- &=Table1.ColumnD(delsumma9:Table1.ColumnA&Table1.ColumnB) anger sammanfattningsfunktion för fältet **ColumnD** grupperat efter **ColumnA** och **ColumnB** i tabellen **Table1**.
 
-##  **Använda kapslade objekt**
+## **Användning av inbäddade objekt**
 
-Aspose.Cells stöder kapslade objekt i smarta markörer, de kapslade objekten ska vara enkla.
+Aspose.Cells stöder inbäddade objekt i smarta markörer, de inbäddade objekten bör vara enkla.
 
-Vi använder en enkel mallfil. Se designerkalkylarket som innehåller några kapslade smarta markörer.
+Vi använder en enkel mallfil. Se kalkylbladet som innehåller några inbäddade smarta markörer.
 
-**Det första kalkylbladet i designerfilen som visar kapslade smarta markörer.**
+**Första kalkylbladet i designmallen visar inbäddade smarta markörer.**
 
 ![todo:image_alt_text](using-smart-markers_5.png)
 
-Exemplet som följer visar hur detta fungerar. Att köra koden nedan resulterar i utgången nedan.
+Exemplet nedan visar hur detta fungerar. Att köra koden nedan resulterar i utdata nedan.
 
-**Det första kalkylbladet i utdatafilen som visar de resulterande data.**
+**Första kalkylbladet i utdatafilen visar den resulterande datan.**
 
 ![todo:image_alt_text](using-smart-markers_6.png)
 
@@ -143,9 +144,9 @@ Exemplet som följer visar hur detta fungerar. Att köra koden nedan resulterar 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-Individual-Individual.java" >}}
 
-##  **Använder generisk lista som kapslade objekt**
+## **Användning av generisk lista som inbäddat objekt**
 
-Aspose.Cells stöder nu även användning av en generisk lista som ett kapslat objekt. Kontrollera skärmdumpen av den utgående excel-filen som genereras med följande kod. Som du kan se på skärmdumpen innehåller ett Lärarobjekt flera kapslade elevobjekt.
+Aspose.Cells stödjer nu även användning av en generisk lista som ett inbäddat objekt. Var vänlig kontrollera skärmbilden av den genererade excel-filen med följande kod. Som du kan se i skärmbilden innehåller en Lärar-objekt flera inbäddade elevobjekt.
 
 ![todo:image_alt_text](using-smart-markers_7.png)
 
@@ -155,16 +156,16 @@ Aspose.Cells stöder nu även användning av en generisk lista som ett kapslat o
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-Person-Person.java" >}}
 
-##  **Använder HTML egendom för Smart Markers**
+## **Användning av HTML-egenskapen hos Smart Markers**
 
-Följande exempelkod förklarar användningen av egenskapen HTML för Smart Markers. När det kommer att bearbetas kommer det att visa "World" i "Hello World" som fetstil på grund av HTML \<b> märka.
+The following sample code explains the use of the HTML property of the Smart Markers. When it will be processed, it will show "World" in "Hello World" as bold because of HTML \<b> tag.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingHTMLProperty-UsingHTMLProperty.java" >}}
 
-##  **Få aviseringar när du slår samman data med smarta markörer**
+## **Få meddelanden när data sammanfogas med smarta markörer**
 
- Ibland kan det krävas att du får meddelanden om cellreferensen eller den specifika smarta markören som bearbetas innan slutförandet. Detta kan uppnås med hjälp av[**WorkbookDesigner.CallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#CallBack)egendom och[**ISmartMarkerCallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)
+Ibland kan det vara nödvändigt att få meddelanden om cellreferensen eller den specifika Smart Markern som behandlas före slutförandet. Detta kan uppnås med hjälp av [**WorkbookDesigner.CallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#CallBack)-egenskapen och [**ISmartMarkerCallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)
 
-För exempelkod och detaljerad förklaring, se den här artikeln.
+För exempelkod och detaljerad förklaring, se denna artikel.
 
-- [Få aviseringar när du slår samman data med smarta markörer](/cells/sv/java/getting-notifications-while-merging-data-with-smart-markers/)
+- [Få meddelanden när data sammanfogas med smarta markörer](/cells/sv/java/getting-notifications-while-merging-data-with-smart-markers/)

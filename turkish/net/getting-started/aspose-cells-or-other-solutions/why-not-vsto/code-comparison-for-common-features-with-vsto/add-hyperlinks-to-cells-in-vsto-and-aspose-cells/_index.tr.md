@@ -1,30 +1,31 @@
-﻿---
-title: VSTO'da Cells'e ve Aspose.Cells'e Köprüler ekleyin
+---
+title: VSTO ve Aspose.Cells te Hücrelere Bağlantı Ekleme
 type: docs
 weight: 20
 url: /tr/net/add-hyperlinks-to-cells-in-vsto-and-aspose-cells/
 ---
-Bir elektronik tablodaki hücrelere köprüler eklemek için aşağıdaki adımları izleyin:
 
-1.  Çalışma sayfasını ayarlayın:
- 1. Bir Uygulama nesnesinin örneğini oluşturun. (Yalnızca VSTO.)
- 1. Bir Çalışma Kitabı ekleyin.
- 1. İlk sayfayı alın.
- 1. Köprü ekleyeceğiniz hücrelere metin ekleyin.
-1. Köprü ekle.
+Bir elektronik tabloya hücrelere bağlantı eklemek için aşağıdaki adımları izleyin:
+
+1. Çalışma sayfasını kurun: 
+   1. Bir Uygulama nesnesi örneği oluşturun.(Sadece VSTO.)
+   1. Bir çalışma kitabı ekleyin.
+   1. İlk sayfayı alın.
+   1. Hücrelere bağlantı eklenecek metni ekleyin.
+1. Bağlantı ekle.
 1. Belgeyi kaydedin.
 
-Bu adımlar aşağıdaki kod örneklerinde gösterilmektedir. İlk örnekler, bir hücreye köprü eklemek için VSTO'nun C# ile nasıl kullanılacağını gösterir. Aşağıdaki örnekler, aynı şeyi Aspose.Cells for .NET kullanarak ve yine C# kullanarak nasıl yapacağınızı göstermektedir.
+Bu adımlar aşağıdaki kod örneklerinde gösterilmiştir. İlk örnekler, VSTO'yu C# kullanarak bir hücreye bağlantı eklemek için nasıl kullanacağınızı gösterir. Bu örneklerin ardından aynı işlemi Aspose.Cells for .NET kullanarak C# ile nasıl yapacağınızı gösteren örnekler bulunmaktadır.
 
-Kod örnekleri, ilk çalışma sayfasındaki A1 hücresinde köprü bulunan bir Excel dosyası oluşturur.
+Kod örnekleri, birinci çalışma sayfasındaki A1 hücresinde bir bağlantıya sahip bir Excel dosyası oluşturur.
 
-![yapılacaklar:resim_alternatif_metin](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-A1 hücresine bir köprü eklenir.
+Hücre A1'e bir bağlantı eklenir.
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -60,7 +61,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook object.
 
@@ -88,8 +89,8 @@ workbook.Save("Hyperlink_test.xls");
 
 {{< /highlight >}}
 
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
-- [kaynak forge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/indir)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip)

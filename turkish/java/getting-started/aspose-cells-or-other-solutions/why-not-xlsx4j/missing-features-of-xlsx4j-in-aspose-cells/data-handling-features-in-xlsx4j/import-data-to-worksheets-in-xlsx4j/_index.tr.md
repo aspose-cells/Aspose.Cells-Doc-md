@@ -1,15 +1,16 @@
-﻿---
-title: Verileri xlsx4j'deki Çalışma Sayfalarına Aktarın
+---
+title: xlsx4j e Veri İçe Aktar
 type: docs
 weight: 50
 url: /tr/java/import-data-to-worksheets-in-xlsx4j/
 ---
-## **Aspose.Cells - Verileri Çalışma Sayfalarına Aktar**
-Dizilerden Verileri İçe Aktar
+
+## **Aspose.Cells - Çalışan Kodu İçe Aktar**
+Dizilerden Veri İçe Aktar
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -25,7 +26,7 @@ Worksheet worksheet= workbook.getWorksheets().get(sheetIndex);
 
 //Creating an array containing names as string values
 
-String[]names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
+String[] names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -35,11 +36,11 @@ cells.importArray(names,0,0,false);
 
 {{< /highlight >}}
 
-ArrayList'ten Verileri İçe Aktar
+ArrayList'ten Veri İçe Aktar
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  ArrayList<String> list = new ArrayList<String>();
 
@@ -64,5 +65,5 @@ workbook.save(dataDir + "AsposeDataImport.xls");
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/importdatatoworksheets/AsposeImportDataToWorksheets.java)

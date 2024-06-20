@@ -1,15 +1,18 @@
-﻿---
-title: Çalışma Sayfasını GridWeb Kullanarak Çalışma Zamanında Bir Veri Kümesine Bağlama
+---
+title: GridWeb de Çalışma Zamanında Bir DataSet e Çalışsheet Bağlama
 type: docs
 weight: 70
-url: /tr/net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
+url: /tr/net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
+keywords: GridWeb,bind,DataSet
+description: Bu makale, GridWeb de bir Veri Setini Çalışma Zamanında Çalış Sayfasına nasıl bağlayacağınızı tanıtır.
 ---
+
 ## **Olası Kullanım Senaryoları**
-Aspose.Cells.GridWeb, bir DataSet'i Çalışma Sayfasına dinamik olarak bağlamak için kullanılabilen kolay bir API sağlar.
-## **Bir Çalışma Sayfasını DataSet'e Bağlama**
-Aşağıdaki örnek kod, çalışma zamanında bir Çalışma Sayfasının bir DataSet'e nasıl bağlanacağını açıklar.
-## **Basit kod**
-{{< highlight "java" >}}
+Aspose.Cells.GridWeb, Veri Setini Dinamik olarak Çalış Sayfasına bağlamak için kullanılabilecek basit bir API sağlar.
+## **Çalış Sayfasını Veri Setine Bağlama**
+Aşağıdaki örnek kod, bir Çalış Sayfasını Çalışma Zamanında Veri Setine bağlamanın nasıl yapıldığını açıklar.
+## **Örnek Kod**
+{{< highlight java >}}
 
  // Implementing Page_Load event handler
 
@@ -81,6 +84,6 @@ public partial class GridBind : System.Web.UI.Page
 
 {{< /highlight >}}
 ## **Çıktı Ekran Görüntüsü**
-Aşağıdaki ekran görüntüsü, yukarıdaki örnek kodun yürütülmesinden sonraki GridWeb'i göstermektedir.
+Aşağıdaki ekran görüntüsü, yukarıdaki örnek kodun çalıştırılmasından sonra GridWeb'i göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

@@ -1,14 +1,15 @@
-﻿---
-title: Перемещение рабочих листов в рабочей книге
+---
+title: Перемещение листов внутри книги
 type: docs
 weight: 30
 url: /ru/net/move-worksheets-within-workbook/
 ---
-Aspose.Cells предоставляет метод Aspose.Cells.Worksheet.MoveTo(), используемый для перемещения рабочего листа в другое место электронной таблицы. Метод принимает индекс целевого рабочего листа в качестве параметра.
 
-В следующем примере показано, как переместить лист в другое место в книге.
+Aspose.Cells предоставляет метод Aspose.Cells.Worksheet.MoveTo(), используемый для перемещения листа в другое место в электронной таблице. Метод принимает индекс целевого листа в качестве параметра.
 
-{{< highlight "csharp" >}}
+В следующем примере показано, как переместить лист в другое место внутри рабочей книги.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -39,6 +40,6 @@ worksheet.MoveTo(2);
 wb.Save(FileName);
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)
+## **Загрузить образец кода**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)

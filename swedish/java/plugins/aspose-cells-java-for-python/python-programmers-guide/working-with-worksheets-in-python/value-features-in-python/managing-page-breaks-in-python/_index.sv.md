@@ -1,16 +1,17 @@
-﻿---
-title: Hantera sidbrytningar i Python
+---
+title: Hantera Sidbrytningar i Python
 type: docs
 weight: 20
 url: /sv/java/managing-page-breaks-in-python/
 ---
+
 ## **Aspose.Cells - Hantera sidbrytningar**
 ### **Lägga till sidbrytningar**
- För att lägga till sidbrytningar med hjälp av**Aspose.Cells Java för Ruby** , ringa upp**add_page_breaks** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+För att lägga till sidbrytningar med **Aspose.Cells Java för Ruby**, anropa **add_page_breaks** metoden i **pagebreaks** modulen. Nedan kan du se kodexemplet.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def add_page_breaks(self):
 
@@ -39,11 +40,11 @@ print "Add page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Rensa alla sidbrytningar**
- För att rensa alla sidbrytningar med**Aspose.Cells Java for Python** , ringa upp**rensa_alla_sidebrytningar** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+För att rensa alla sidbrytningar med hjälp av **Aspose.Cells Java för Python**, anropa **clear_all_page_breaks** metoden i **pagebreaks** modulen. Nedan kan du se ett kodexempel.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -67,11 +68,11 @@ print "Clear all page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Ta bort specifik sidbrytning**
- För att ta bort specifik sidbrytning med**Aspose.Cells Java for Python** , ringa upp**remove_page_break** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+För att ta bort specifika sidbrytningar med hjälp av **Aspose.Cells Java för Python**, anropa **remove_page_break** metoden i **pagebreaks** modulen. Nedan kan du se ett kodexempel.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -101,7 +102,7 @@ print "Remove page break, please check the output file."
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Hantera sidbrytningar (Aspose.Cells)** från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Hantering av Sidbrytningar (Aspose.Cells)** från någon av de sociala kodningssidorna som nämns nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

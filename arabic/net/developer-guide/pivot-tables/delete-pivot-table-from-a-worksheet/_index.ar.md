@@ -1,17 +1,18 @@
-﻿---
-title: حذف Pivot Table من ورقة عمل
+---
+title: حذف جدول الدوران من ورقة العمل
 type: docs
 weight: 60
 url: /ar/net/delete-pivot-table-from-a-worksheet/
-description: كود C# لإزالة PivotTable لأوراق عمل Excel
-keywords: c# remove pivot table from worksheet, c# remove pivot table from excel, how to delete pivot table with c#, delete pivot table with c#, delete pivot table from excel with c#, c# delete pivot table, c# remove pivot table, remove pivot table, delete pivot table, how to delete pivot table
+description: كود C# لإزالة PivotTable لأوراق العمل في إكسيل
+keywords: c# إزالة جدول الدوران من ورقة العمل، c# إزالة جدول الدوران من إكسل، كيفية حذف جدول الدوران باستخدام c#، حذف جدول الدوران باستخدام c#، حذف جدول الدوران من إكسل باستخدام c#، c# حذف جدول الدوران، c# إزالة جدول الدوران، إزالة جدول الدوران، حذف جدول الدوران، كيفية حذف جدول الدوران
 ---
+
 {{% alert color="primary" %}}
 
- يوفر Aspose.Cells خاصية لحذف Pivot Table أو إزالته من ورقة العمل. يمكنك حذف الجدول المحوري باستخدام كائن الجدول المحوري أو موضع الجدول المحوري. الرجاء استخدام[**Worksheet.PivotTables.Remove ()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) طريقة لحذف الجدول المحوري باستخدام كائن الجدول المحوري و[**Worksheet.PivotTables.RemoveAt ()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) طريقة لحذف كائن الجدول المحوري باستخدام موضعه داخل مجموعة الجدول المحوري.
+توفر Aspose.Cells ميزة لحذف أو إزالة جدول الدوران من ورقة عمل. يمكنك حذف جدول الدوران باستخدام كائن جدول الدوران أو موضع جدول الدوران. يرجى استخدام الطريقة [**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) لحذف جدول الدوران باستخدام كائن جدول الدوران والطريقة [**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) لحذف كائن جدول الدوران باستخدام موضعه داخل مجموعة جدول الدوران.
 
 {{% /alert %}}
 
- نموذج التعليمات البرمجية التالي يحذف جدولين محوريين من ورقة العمل. أولا يزيل الجدول المحوري باستخدام[**Worksheet.PivotTables.Remove ()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) طريقة ثم يزيل الجدول المحوري باستخدام[**Worksheet.PivotTables.RemoveAt ()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) طريقة
+تحتوي رمز العينة التالي على حذف جدولين للدوران من ورقة العمل. أولاً يقوم بإزالة جدول الدوران باستخدام الطريقة [**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) ثم يزيل جدول الدوران باستخدام الطريقة [**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.cs" >}}

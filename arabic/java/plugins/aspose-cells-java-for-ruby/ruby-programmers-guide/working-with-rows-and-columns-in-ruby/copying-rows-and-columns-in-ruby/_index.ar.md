@@ -1,22 +1,23 @@
-﻿---
-title: نسخ الصفوف والأعمدة في روبي
+---
+title: نسخ الصفوف والأعمدة في Ruby
 type: docs
 weight: 30
 url: /ar/java/copying-rows-and-columns-in-ruby/
 ---
+
 ## **Aspose.Cells - نسخ الصفوف والأعمدة**
 ### **نسخ الصفوف**
-يوفر Aspose.Cells طريقة copyRow لفئة Cells. تنسخ هذه الطريقة جميع أنواع البيانات بما في ذلك الصيغ والقيم والتعليقات وتنسيقات الخلايا والخلايا المخفية والصور والكائنات الرسومية الأخرى من صف المصدر إلى صف الوجهة.
+توفر Aspose.Cells طريقة copyRow من فئة Cells. تقوم هذه الطريقة بنسخ جميع أنواع البيانات بما في ذلك الصيغ والقيم والتعليقات وتنسيقات الخلية والخلايا المخفية والصور وغيرها من الكائنات الرسومية الأخرى من الصف المصدر إلى الصف الوجهة.
 
 تأخذ طريقة copyRow المعلمات التالية:
 
-- الكائن المصدر Cells ،
-- فهرس صف المصدر و
-- فهرس صف الوجهة.
+- كائن الـCells المصدر،
+- فهرس الصف المصدر، و
+- فهرس الصف الوجهة.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_rows()
 
@@ -48,37 +49,37 @@ end
 
 {{< /highlight >}}
 ### **نسخ الأعمدة**
-يوفر Aspose.Cells طريقة copyColumn لفئة Cells ، وتقوم هذه الطريقة بنسخ جميع أنواع البيانات ، بما في ذلك الصيغ - مع المراجع المحدثة - والقيم والتعليقات وتنسيقات الخلايا والخلايا المخفية والصور وكائنات الرسم الأخرى من العمود المصدر إلى العمود الوجهة.
+توفر Aspose.Cells طريقة copyColumn من فئة Cells، هذه الطريقة تقوم بنسخ جميع أنواع البيانات بما في ذلك الصيغ - بالمراجع المحدثة - والقيم والتعليقات وتنسيقات الخلية والخلايا المخفية والصور وغيرها من الكائنات الرسومية الأخرى من العمود المصدر إلى العمود الوجهة.
 
 تأخذ طريقة copyColumn المعلمات التالية:
 
-- الكائن المصدر Cells ،
-- فهرس عمود المصدر و
-- فهرس عمود الوجهة.
+- كائن الـCells المصدر،
+- فهرس العمود المصدر، و
+- فهرس العمود الوجهة.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
- def copy_columns ()
+ def copy_columns()
 
-بيانات_dir = File.dirname (File.dirname (File.dirname (__ملف__))) + '/ بيانات /'
+    data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
 
 
-# إنشاء كائن مصنف من خلال مسار ملف Excel
+    # Instantiating a Workbook object by excel file path
 
-المصنف = Rjb :: import ('com.aspose.cells.Workbook'). new
+    workbook = Rjb::import('com.aspose.cells.Workbook').new
 
-# الوصول إلى ورقة العمل الأولى في ملف Excel
+    # Accessing the first worksheet in the Excel file
 
-ورقة العمل = workbook.getWorksheets (). get (0)
+    worksheet = workbook.getWorksheets().get(0)
 
-# ضع بعض البيانات في صفوف الرأس (A1: A4)
+    # Put some data into header rows (A1:A4)
 
-أنا = 0
+    i = 0
 
- عندما أنا< 5
+    while i < 5
 
         worksheet.getCells().get(i, 0).setValue("Header Row #{i}")
 
@@ -125,7 +126,7 @@ end
 end
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**نسخ الصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **نسخ الصفوف والأعمدة (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

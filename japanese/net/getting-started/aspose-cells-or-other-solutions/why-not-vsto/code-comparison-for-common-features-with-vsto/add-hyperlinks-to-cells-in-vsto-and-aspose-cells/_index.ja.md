@@ -1,30 +1,31 @@
-﻿---
-title: ハイパーリンクを VSTO の Cells と Aspose.Cells に追加します。
+---
+title: VSTOおよびAspose.Cellsでセルにハイパーリンクを追加する
 type: docs
 weight: 20
 url: /ja/net/add-hyperlinks-to-cells-in-vsto-and-aspose-cells/
 ---
-スプレッドシートのセルにハイパーリンクを追加するには、次の手順を実行します。
 
-1. ワークシートを設定します。
- 1. Application オブジェクトをインスタンス化します (VSTO のみ)。
- 1. ワークブックを追加します。
- 1. 最初のシートを取得します。
- 1. ハイパーリンクを追加するセルにテキストを追加します。
-1. ハイパーリンクを追加します。
-1. ドキュメントを保存します。
+スプレッドシートのセルにハイパーリンクを追加するには、以下の手順を実行してください:
 
-これらの手順は、以下のコード例に示されています。最初の例は、VSTO を C# と共に使用してセルにハイパーリンクを追加する方法を示しています。次の例は、Aspose.Cells for .NET を使用して同じことを行う方法を示し、再び C# を使用します。
+1. ワークシートを設定します: 
+   1. Application オブジェクトをインスタンス化する。（VSTO のみ）
+   1. ワークブックを追加する
+   1. 最初のシートを取得する
+   1. ハイパーリンクを追加するセルにテキストを追加する
+1. ハイパーリンクを追加する
+1. ドキュメントを保存する
 
-コード サンプルは、最初のワークシートのセル A1 にハイパーリンクを含む Excel ファイルを生成します。
+これらの手順は以下のコード例で示されています。最初の例では、VSTOを使用してC#でセルにハイパーリンクを追加する方法が示されます。続く例では、同じことを行う方法がC#を使用して再度表示されますが、Aspose.Cells for .NETを使用します。
 
-![todo:画像_代替_文章](picture1.png)
+コードサンプルは、最初のワークシートのセルA1にハイパーリンクを持つExcelファイルを生成します。
 
-ハイパーリンクがセル A1 に追加されます。
+![todo:image_alt_text](picture1.png)
+
+ハイパーリンクがセルA1に追加されます。
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -60,7 +61,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook object.
 
@@ -90,6 +91,6 @@ workbook.Save("Hyperlink_test.xls");
 
 ## **サンプルコードをダウンロード**
 
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
-- [ソースフォージ](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\)。ジップ）
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip)

@@ -1,18 +1,19 @@
 ---
-title: Autopassa rader och kolumner i Python
+title: Justera rader och kolumner i Python
 type: docs
 weight: 20
 url: /sv/java/autofit-rows-and-columns-in-python/
-description: Lär dig hur du automatiskt anpassar rader och kolumner genom Aspose.Cells for Python Via Java API.
-keywords: How to Autofit Rows and Columns in Python Via Java, Autofit Rows Data in workbook using Python Via Java, Python Via Java Autofit Columns Data. 
+description: Lär dig hur man anpassar rader och kolumner via Aspose.Cells for Python Via Java API.
+keywords: Hur man anpassar rader och kolumner i Python Via Java, Anpassa rader Data i arbetsbok med Python Via Java, Python Via Java Anpassa kolumner Data. 
 ---
-##  **Hur man automatiskt anpassar rader och kolumner**
-###  **Hur man autopassar rad**
-Det enklaste sättet att automatiskt anpassa bredd och höjd på en rad är att anropa Worksheet-klassens autoFitRow-metod. AutoFitRow-metoden tar ett radindex (för raden som ska ändras storlek) som en parameter.
 
-**Python Kod**
+## **Hur man anpassar rader och kolumner**
+### **Hur man anpassar rad**
+Det mest raka sättet att automatiskt justera bredden och höjden på en rad är att anropa klassens 'Worksheet' 'autoFitRow'-metod.
 
-{{< highlight "python" >}}
+**Python-kod**
+
+{{< highlight python >}}
 
  def autofit_row(self):
 
@@ -32,7 +33,7 @@ worksheet.autoFitRow(2)
 
 \# cells (from 1st to 9th column) within the row
 
-# worksheet.autoFitRow(2,0,8) # Uncomment this line if you to do AutoFit Row in a Range of Cells. Also, comment line 288.
+#worksheet.autoFitRow(2,0,8) # Uncomment this line if you to do AutoFit Row in a Range of Cells. Also, comment line 288.
 
 \# Saving the modified Excel file in default (that is Excel 2003) format
 
@@ -41,12 +42,12 @@ workbook.save(self.dataDir + "Autofit Row.xls")
 print "Autofit Row Successfully." 
 
 {{< /highlight >}}
-###  **Hur man automatiskt anpassar kolumn**
-Det enklaste sättet att automatiskt anpassa bredden och höjden på en kolumn är att anropa Worksheet-klassens autoFitColumn-metod. AutoFitColumn-metoden tar kolumnindex (för kolumnen som ska ändras storlek) som en parameter.
+### **Hur man anpassar kolumn**
+Det enklaste sättet att automatiskt justera bredden och höjden på en kolumn är att anropa klassens 'Worksheet' 'autoFitColumn'-metod.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def autofit_column(self):
 
@@ -66,7 +67,7 @@ worksheet.autoFitColumn(3)
 
 \# cells (from 1st to 9th row) within the column
 
-# worksheet.autoFitColumn(3,0,8) #Uncomment this line if you to do AutoFit Column in a Range of Cells. Also, comment line 310.
+#worksheet.autoFitColumn(3,0,8) #Uncomment this line if you to do AutoFit Column in a Range of Cells. Also, comment line 310.
 
 \# Saving the modified Excel file in default (that is Excel 2003) format
 
@@ -75,7 +76,7 @@ workbook.save(self.dataDir + "Autofit Column.xls")
 print "Autofit Column Successfully." 
 
 {{< /highlight >}}
-##  **Ladda ner Running Code**
-Ladda ner**Autopassa rader och kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Justera rader och kolumner automatiskt (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

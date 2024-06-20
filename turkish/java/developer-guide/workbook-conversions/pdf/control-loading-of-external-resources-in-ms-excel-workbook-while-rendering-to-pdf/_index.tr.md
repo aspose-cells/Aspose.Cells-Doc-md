@@ -1,19 +1,20 @@
-﻿---
-title: PDF'e işlenirken MS Excel Çalışma Kitabında Dış Kaynakların yüklenmesini kontrol edin
+---
+title: MS Excel Çalışma Kitabının PDF ye dönüştürülürken Harici Kaynakların Yüklenmesini Kontrol Etme
 type: docs
 weight: 40
 url: /tr/java/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Excel dosyanız, bağlantılı resimler veya nesneler gibi harici kaynaklar içerebilir. Excel dosyanızı PDF'e dönüştürdüğünüzde, Aspose.Cells bu harici kaynakları alır ve PDF'e dönüştürür. Ancak bazen bu harici kaynakları yüklemek istemezsiniz ve bundan daha fazlası, onları manipüle etmek istersiniz. Bunu kullanarak yapabilirsiniz[**PdfSaveOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#StreamProvider)hangi uygular[**IStream Sağlayıcı**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)arayüz.
+Excel dosyanız harici kaynaklar içerebilir, örneğin bağlı resimler veya nesneler. Excel dosyanızı PDF'e dönüştürdüğünüzde, Aspose.Cells bu harici kaynakları alır ve bunları PDF'e dönüştürür. Ancak bazen bu harici kaynakları yüklemek istemeyebilirsiniz ve daha da önemlisi, bunları yönetmek isteyebilirsiniz. Bunun için [**PdfSaveOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#StreamProvider) kullanabilirsiniz ve [**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) arayüzünü uygular.
 
-## **PDF'e işlenirken MS Excel Çalışma Kitabında Dış Kaynakların yüklenmesini kontrol edin**
+## **MS Excel Çalışma Kitabında Harici Kaynakların Yüklenmesine Kontrol Etmek**
 
-Aşağıdaki örnek kod, nasıl kullanılacağını açıklar[**PdfSaveOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#StreamProvider)dış kaynakların yüklenmesini kontrol etmek ve bunları manipüle etmek. lütfen kontrol ediniz[örnek excel dosyası](50528353.xlsx)kodun içinde kullanılır ve[çıkış PDF](50528354.pdf)kod tarafından oluşturulur. bu[ekran görüntüsü](50528357.png)nasıl olduğunu gösterir[eski dış görüntü](50528356.png)örnek Excel dosyasında bir ile değiştirildi[yeni görüntü](50528355.png)PDF çıktısında.
+Aşağıdaki örnek kod, harici kaynakların yüklenmesini kontrol etmek ve bunları manipüle etmek için [**PdfSaveOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#StreamProvider) nasıl kullanılacağını açıklar. Kod içinde kullanılan [örnek Excel dosyasını](50528353.xlsx) ve kod tarafından üretilen [çıktı PDF'sini](50528354.pdf) kontrol edin. [Ekran görüntüsü](50528357.png) old external image(50528356.png) örnek Excel dosyasında nasıl yeni bir görüntü olan [new image](50528355.png) ile değiştirildiğini gösterir.
 
-![yapılacaklar:resim_alternatif_metin](control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf_1.png)
+![todo:image_alt_text](control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-ControlLoadingOfExternalResourcesInExcelToPDF.java" >}}

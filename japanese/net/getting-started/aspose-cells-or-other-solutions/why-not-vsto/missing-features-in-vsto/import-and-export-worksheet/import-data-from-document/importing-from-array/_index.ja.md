@@ -1,17 +1,18 @@
-﻿---
-title: アレイからのインポート
+---
+title: 配列からのインポート
 type: docs
 weight: 10
 url: /ja/net/importing-from-array/
 ---
-開発者は、配列からワークシートにデータをインポートするには、**ImportArray** Cells コレクションのメソッド。 ImportArray メソッドにはオーバーロードされたバージョンが多数ありますが、典型的なオーバーロードは次のパラメーターを取ります。
 
-- 配列は、内容をインポートする必要がある配列オブジェクトを表します
-- 行番号は、データがインポートされる最初のセルの行番号を表します
-- 列番号は、データがインポートされる最初のセルの列番号を表します
-- データを垂直方向または水平方向にインポートするように指定するブール値です。
+開発者は、Cells コレクションの **ImportArray** メソッドを呼び出すことで、配列からデータをワークシートにインポートできます。ImportArray メソッドには多くのオーバーロードされたバージョンがありますが、典型的なオーバーロードは次のパラメーターを取ります：
 
-{{< highlight "csharp" >}}
+- 配列、インポートする内容の配列オブジェクトを表します
+- 行番号、データをインポートする最初のセルの行番号を表します
+- 列番号、データをインポートする最初のセルの列番号を表します
+- 垂直かどうかを指定するブール値、データを縦方向または横方向にインポートするかどうかを指定します
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -27,7 +28,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 //Creating an array containing names as string values
 
-string[]names = new string[]{ "laurence chen", "roman korchagin", "kyle huang" };
+string[] names = new string[] { "laurence chen", "roman korchagin", "kyle huang" };
 
 //Importing the array of names to 1st row and first column vertically
 

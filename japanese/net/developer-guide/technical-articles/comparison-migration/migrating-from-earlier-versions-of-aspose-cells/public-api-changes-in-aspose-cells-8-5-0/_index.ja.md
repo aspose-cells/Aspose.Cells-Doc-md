@@ -1,27 +1,28 @@
-﻿---
-title: パブリック API Aspose.Cells 8.5.0 の変更点
+---
+title: Aspose.Cells 8.5.0での公開APIの変更
 type: docs
 weight: 160
 url: /ja/net/public-api-changes-in-aspose-cells-8-5-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.4.2 から 8.5.0 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/net/public-api-changes-in-aspose-cells-8-5-0/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
+このドキュメントは、Aspose.Cells バージョン 8.4.2 から 8.5.0 への変更について、モジュール／アプリケーション開発者に興味を持たれるかもしれない点を記載しています。これには新しいおよび更新された公開メソッド、[追加されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-5-0/)に関する情報だけでなく、Aspose.Cells の内部の動作に変更がある場合の説明も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **ICustomFunction.CalculateCustomFunction パラメータを変更しました**
-カスタム関数の 1 つのパラメーターがセル参照である場合、古いバージョン Aspose.Cells では、セル参照を 1 つのセル値または参照領域内のすべてのセル値のオブジェクト配列に変換するために API が使用されていました。ただし、多くの関数とユーザーにとって、参照された領域内のすべてのセルのセル値配列は必要ありません。数式の位置に対応する 1 つのセルが必要なだけか、セル値または値配列の代わりに参照自体が必要なだけです。 .状況によっては、すべてのセル値をフェッチすると、循環参照エラーのリスクが高まることさえありました。
+## **APIの追加**
+### **ICustomFunction.CalculateCustomFunctionパラメータを変更しました**
+カスタム関数の1つのパラメータがセル参照の場合、古いバージョンのAspose.Cells APIでは、セル参照を1つのセル値に変換するか、参照領域のすべてのセル値のオブジェクト配列に変換していました。しかし、多くの関数やユーザーにとって、参照領域のセル値配列は必要ない場合があります。彼らは式の位置に対応する1つのセル値だけが必要だったり、セル値の配列の代わりに参照自体が欲しい場合があります。一部の状況では、すべてのセル値を取得することが循環参照エラーのリスクを高めることさえありました。
 
-このような要件をサポートするために、Aspose.Cells for .NET 8.5.0 では、参照される領域のパラメーター値が「paramsList」に変更されました。 v8.5.0 以降、API は、対応するパラメーターが参照であるか、その計算結果が参照である場合、ReferredArea オブジェクトを「paramsList」に入れるだけです。参照自体が必要な場合は、ReferredArea を直接使用できます。数式の位置に対応する参照から 1 つのセル値を取得する必要がある場合は、ReferredArea.GetValue(rowOffset, int colOffset) メソッドを使用できます。領域全体のセル値配列が必要な場合は、ReferredArea.GetValues メソッドを使用できます。
+このような要件をサポートするために、Aspose.Cells for .NET 8.5.0 では参照された範囲に対するパラメータ値を「paramsList」に変更しました。v8.5.0 以降、API では、対応するパラメータが参照またはその計算結果が参照である場合、ReferredArea オブジェクトを「paramsList」に入れるだけになります。参照そのものが必要な場合は、ReferredArea を直接使用できます。式の位置に対応する参照から単一のセルの値を取得する必要がある場合は、ReferredArea.GetValue(rowOffset, int colOffset) メソッドを使用できます。範囲全体のセル値の配列が必要な場合は、ReferredArea.GetValues メソッドを使用できます。
 
-Aspose.Cells for .NET 8.5.0 は「paramsList」で ReferredArea を提供するため、「contextObjects」の ReferredAreaCollection はもう必要ありません (古いバージョンでは、カスタム関数のパラメーターに常に 1 対 1 のマップを与えることができませんでした)。そのため、このリリースでは「contextObjects」からも削除されました。
+現在、Aspose.Cells for .NET 8.5.0 では「paramsList」で ReferredArea を提供されており、「contextObjects」での ReferredAreaCollection は不要になりました（以前のバージョンでは常にカスタム関数のパラメータに対して一対一のマップを提供できなかったため）。そのため、このリリースでは「contextObjects」から ReferredAreaCollection を削除しました。
 
-この変更により、参照パラメーターの値が必要な場合、ICustomFunction の実装のコードを少し変更する必要があります。
+この変更により、リファレンスパラメータの値/値を必要とするときに、ICustomFunction の実装コードに多少の変更が必要になります。
 
-**古い実装**
+** 古い実装 **
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
@@ -47,9 +48,9 @@ Aspose.Cells for .NET 8.5.0 は「paramsList」で ReferredArea を提供する�
 
 {{< /highlight >}}
 
-**新しい実装**
+** 新しい実装 **
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
@@ -100,31 +101,31 @@ Aspose.Cells for .NET 8.5.0 は「paramsList」で ReferredArea を提供する�
 {{< /highlight >}}
 
 
-### **クラス計算オプションが追加されました**
-Aspose.Cells for .NET 8.5.0 では、CalculationOptions クラスが公開され、数式計算エンジンの柔軟性と拡張性が向上しました。新しく追加されたクラスには、次のプロパティがあります。
+### **クラス CalculationOptions 追加**
+Aspose.Cells for .NET 8.5.0 では、CalculationOptions クラスが公開され、数式計算エンジンの柔軟性と拡張性を向上させるためのクラスが追加されました。新たに追加されたクラスには以下のプロパティがあります。
 
-1. CalculationOptions.CalcStackSize: セルを再帰的に計算するためのスタック サイズを指定します。 -1 は、計算が対応するワークブックの WorkbookSettings.CalcStackSize を使用することを指定します。
-1. CalculationOptions.CustomFunction: 数式計算エンジンをカスタム数式で拡張します。
-1. CalculationOptions.IgnoreError: ブール型の値は、数式の計算中にエラーを非表示にするかどうかを示します。エラーは、サポートされていない関数、外部リンクなどが原因である可能性があります。
-1. CalculationOptions.PrecisionStrategy: 計算の処理精度の戦略を指定する CalculationPrecisionStrategy 型の値。
-### **Enumeration CalculationPrecisionStrategy が追加されました**
-Aspose.Cells for .NET 8.5.0 では列挙型の CalculationPrecisionStrategy が公開され、数式計算エンジンの柔軟性が向上し、目的の結果が得られます。この列挙は、計算精度の処理を戦略化します。 IEEE 754 Floating-Point Arithmetic の精度の問題により、一見単純な数式の一部が計算されず、期待される結果が得られない場合があるため、最新の API ビルドでは、選択に従って目的の結果が得られるように次のフィールドが公開されています。
+1. CalculationOptions.CalcStackSize: 再帰的にセルを計算するためのスタックサイズを指定します。-1 は、計算が対応するワークブックの WorkbookSettings.CalcStackSize を使用することを指定します。
+1. CalculationOptions.CustomFunction: カスタム数式を使用して数式計算エンジンを拡張します。
+1. CalculationOptions.IgnoreError: エラーを隠すべきかどうかを示す真偽値。エラーの原因は、サポートされていない関数、外部リンクなどによる場合があります。
+1. CalculationOptions.PrecisionStrategy: 計算の精度処理の戦略を指定する CalculationPrecisionStrategy タイプの値。
+### **列挙型 CalculationPrecisionStrategy 追加**
+Aspose.Cells for .NET 8.5.0 では、希望の結果を得るために計算エンジンに柔軟性を追加するために、列挙型 CalculationPrecisionStrategy が公開されました。この列挙型は計算精度の処理戦略を規定します。IEEE 754浮動小数点演算の精度の問題のため、見た目には単純な数式でも、期待通りの結果が得られないことがあるため、最新のAPIビルドでは以下のフィールドが公開され、選択に応じて希望の結果を得ることができます。
 
-1. CalculationPrecisionStrategy.Decimal: 可能な場合はオペランドとして 10 進数を使用しますが、パフォーマンスを考慮すると最も非効率的です。
-1. CalculationPrecisionStrategy.Round: 有効桁数に従って計算結果を丸めます。
-1. CalculationPrecisionStrategy.None: 戦略は適用されないため、計算中にエンジンは元の double 値をオペランドとして使用し、結果を直接返します。このオプションは最も効率的で、ほとんどの場合に適用できます。
-### **CalculationOptions を使用するために追加されたメソッド**
-v8.5.0 のリリースにより、Aspose.Cells API は、以下にリストされている CalculateFormula メソッドのオーバーロード バージョンを追加しました。
+1. CalculationPrecisionStrategy.Decimal: 可能な限り10進数をオペランドとして使用し、パフォーマンス上最も効率が悪いです。
+1. CalculationPrecisionStrategy.Round: 計算結果を有効桁数に従って四捨五入します。
+1. CalculationPrecisionStrategy.None: 戦略は適用されず、計算中にエンジンはオリジナルの倍精度値をオペランドとして使用し、結果を直接返します。このオプションは最も効率的で、ほとんどの場合に適用できます。
+### **CalculationOptions を使用するためのメソッドが追加されました**
+v8.5.0のリリース以降、Aspose.Cells API は、以下にリストされている CalculateFormula メソッドのオーバーロードバージョンを追加しました。
 
-- Workbook.CalculateFormula(計算オプション)
-- Worksheet.CalculateFormula(CalculationOptions オプション、bool 再帰)
-- Cell.Calculate(計算オプション)
+- Workbook.CalculateFormula(CalculationOptions)
+- Worksheet.CalculateFormula(CalculationOptions options, bool recursive)
+- Cell.Calculate(CalculationOptions)
 ### **列挙型フィールド PasteType.RowHeights が追加されました**
-Aspose.Cells API は、範囲をコピーしながら行の高さをコピーする目的で、PasteType.RowHeights 列挙型フィールドを提供しました。 PasteOptions.PasteType プロパティを ((PasteType.RowHeights}} に設定すると、ソース範囲内のすべての行の高さが宛先範囲にコピーされます。
+Aspose.Cells API は、範囲をコピーする際に行の高さをコピーするための PasteType.RowHeights 列挙フィールドを提供しています。PasteOptions.PasteTypeプロパティを ((PasteType.RowHeights}}に設定すると、ソース範囲内のすべての行の高さが、宛先範囲にコピーされます。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -173,12 +174,12 @@ workbook.Save("output.xlsx", SaveFormat.Xlsx);
 {{< /highlight >}}
 
 
-### **プロパティ SheetRender.PageScale が追加されました**
-を使用してページ設定スケーリングを設定すると、**幅 n ページ、高さ m に合わせる**オプション、Microsoft Excel はページ設定倍率を計算します。同じことは、Aspose.Cells for .NET 8.5.0 によって公開された SheetRender.PageScale プロパティを使用して実現できます。このプロパティは、パーセント値に変換できる double 値を返します。たとえば、0.507968245 を返す場合、倍率が 51% であることを意味します。
+### **SheetRender.PageScale プロパティが追加されました**
+Microsoft Excel で **Fit to n page(s) wide by m tall** オプションを使用してページ設定スケーリングを設定すると、ページ設定のスケーリングファクターが計算されます。Aspose.Cells for .NET 8.5.0 が公開した SheetRender.PageScale プロパティを使用して同じことを達成できます。このプロパティはパーセンテージ値に変換できる倍精度値を返します。たとえば、0.507968245 が返された場合、スケーリングファクターは51％であることを意味します。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -217,20 +218,20 @@ Console.WriteLine(strPageScale);
 {{< /highlight >}}
 
 
-### **列挙体 CellValueFormatStrategy が追加されました**
-Aspose.Cells for .NET 8.5.0 では、フォーマットを適用して、または適用せずにセル値を抽出する必要がある状況を処理するために、新しい列挙体 CellValueFormatStrategy が追加されました。列挙体 CellValueFormatStrategy には次のフィールドがあります。
+### **列挙型 CellValueFormatStrategy 追加**
+Aspose.Cells for .NET 8.5.0 は、セルの値をフォーマットを適用した場合、または適用しなかった場合に処理するための新しい列挙型 CellValueFormatStrategy を追加しました。列挙型 CellValueFormatStrategy には、以下のフィールドがあります。
 
-1. CellValueFormatStrategy.CellStyle: セルの元の形式でのみフォーマットされます。
-1. CellValueFormatStrategy.DisplayStyle: セルの表示スタイルでフォーマットされます。
-1. CellValueFormatStrategy.None: フォーマットされていません。
-### **メソッド Cell.GetStingValue を追加**
-CellValueFormatStrategy 列挙を使用するために、v8.5.0 では Cell.GetStingValue メソッドが公開されました。このメソッドは、CellValueFormatStrategy 型のパラメーターを受け入れ、指定されたオプションに応じた値を返します。
+1. CellValueFormatStrategy.CellStyle: セルのオリジナルの書式をそのままにフォーマットします。
+1. CellValueFormatStrategy.DisplayStyle: セルの表示スタイルでフォーマットします。
+1. CellValueFormatStrategy.None: フォーマットされません。
+### **Cell.GetStingValue メソッドが追加されました**
+CellValueFormatStrategy 列挙型を使用するために、v8.5.0 で Cell.GetStingValue メソッドが公開されました。このメソッドは、CellValueFormatStrategy型のパラメータを受け取り、指定されたオプションに応じた値を返します。
 
-次のコード スニペットは、新しく公開された Cells.GetStingValue メソッドの使用方法を示しています。
+以下のコードスニペットは、新しく公開された Cells.GetStingValue メソッドの使用方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 
@@ -271,14 +272,14 @@ Console.WriteLine(value);
 {{< /highlight >}}
 
 
-### **プロパティ ExportTableOptions.FormatStrategy が追加されました**
-Aspose.Cells for .NET 8.5.0 では、書式設定の有無にかかわらずデータを DataTable にエクスポートするユーザーのために、ExportTableOptions.FormatStrategy プロパティが公開されています。このプロパティは、CellValueFormatStrategy 列挙を利用し、指定されたオプションに従ってデータをエクスポートします。
+### **ExportTableOptions.FormatStrategy プロパティが追加されました**
+Aspose.Cells for .NET 8.5.0 は、データをフォーマット付きでDataTableにエクスポートする必要があるユーザー向けに、ExportTableOptions.FormatStrategy プロパティが公開されました。このプロパティは、CellValueFormatStrategy 列挙型を使用し、指定されたオプションに従ってデータをエクスポートします。
 
-次のコードは、ExportTableOptions.FormatStrategy プロパティの使用について説明しています。
+以下のコードは、ExportTableOptions.FormatStrategy プロパティの使用方法を説明しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 

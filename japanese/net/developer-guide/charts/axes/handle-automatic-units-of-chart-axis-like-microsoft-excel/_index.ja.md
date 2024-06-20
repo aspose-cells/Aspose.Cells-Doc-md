@@ -1,16 +1,17 @@
 ---
-title: Microsoft Excel のようなグラフ軸の自動単位の処理
-description: Microsoft Excel と同様に、Aspose.Cells for .NET でグラフ軸の自動単位を処理する方法を学習します。私たちのガイドでは、科学表記法の表示やスケールの調整など、チャート軸の自動単位を設定およびカスタマイズする方法を説明します。
-keywords: Aspose.Cells for .NET, chart axes, automatic units, Microsoft Excel, configuration, customization, scientific notation, scaling.
+title: Microsoft Excelのようにチャートの軸の自動単位を処理する
+description: Microsoft Excelと同様に、Aspose.Cells for .NETのグラフ軸の自動単位を処理する方法を学びます。このガイドでは、グラフ軸の自動単位を構成およびカスタマイズする方法、科学表記の表示、およびスケーリングの調整方法を紹介します。
+keywords: Aspose.Cells for .NET、チャート軸、自動単位、Microsoft Excel、構成、カスタマイズ、科学表記、スケーリング。
 type: docs
 weight: 120
 url: /ja/net/handle-automatic-units-of-chart-axis-like-microsoft-excel/
 ---
-##  **考えられる使用シナリオ**
-Aspose.Cells の初期のバージョンでは、グラフがイメージまたは PDF にレンダリングされるときにグラフ軸の自動単位を適切に処理できませんでした。現在、Aspose.Cells はグラフ軸の自動単位の処理をサポートしています。コードの変更はありません。グラフを画像または PDF に変換するだけで、Excel がレンダリングする Microsoft と同じようにグラフの軸がレンダリングされます。
-##  **Microsoft Excel のようなグラフ軸の自動単位の処理**
-次のサンプルコードは、[サンプル Excel ファイル](61767755.xlsx)そして、[出力PDFチャート](61767752.pdf)。スクリーンショットでは、チャート軸の自動単位が赤い四角形で示されており、サンプル Excel ファイル チャートと出力 PDF チャートも比較されています。どちらもまったく同じです。
+
+## **可能な使用シナリオ**
+Aspose.Cellsの初期バージョンは、画像またはPDFとしてチャートをレンダリングする際にチャート軸の自動単位を適切に処理することができませんでした。現在、Aspose.Cellsはチャート軸の自動単位を処理するようになりました。コードの変更はありません。チャートを画像またはPDFに変換するだけで、Microsoft Excelがそれをレンダリングするようにチャート軸がレンダリングされます。
+## **Microsoft Excelのようにチャートの軸の自動単位を処理する**
+次のサンプルコードは、[サンプルExcelファイル](61767755.xlsx)をロードし、[出力PDFチャート](61767752.pdf)を生成します。スクリーンショットは、赤い四角でチャート軸の自動単位を示し、また、サンプルExcelファイルのチャートと出力PDFチャートを比較しています。両方が完全に同じです。
 
 ![todo:image_alt_text](handle-automatic-units-of-chart-axis-like-microsoft-excel_1.png)
-##  **サンプルコード**
+## **サンプルコード**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.cs" >}}

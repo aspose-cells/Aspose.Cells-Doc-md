@@ -1,75 +1,76 @@
 ---
-title: 数式を計算する
-description: この記事では、Aspose.Cells Excel で数式を計算するための Aspose.Cells ライブラリを使用する方法を紹介します。既存の Excel ファイルをロードするか、新しい Excel ファイルを作成することで、Aspose.Cells が提供するメソッドを使用して数式を計算し、結果を取得できます。最後に、変更した Excel ファイルをディスクに保存します。
-keywords: Aspose.Cells, Excel, formulas, calculations, Direct Calculation of Formula, Calculate Formulas repeatedly, add formulas.
+title: 数式の計算
+description: この記事では、Aspose.Cellsライブラリを使用してMicrosoft Excelで数式を計算する方法について紹介します。既存のExcelファイルをロードするか、新しいExcelファイルを作成し、Aspose.Cellsで提供されるメソッドを使用して数式を計算して結果を取得することができます。最後に、変更したExcelファイルをディスクに保存します。
+keywords: Aspose.Cells、Excel、数式、計算、数式の直接計算、数式の繰り返し計算。
 type: docs
 weight: 125
 url: /ja/net/calculate-formulas/
 ---
-##  **数式の追加と結果の計算**
 
-Aspose.Cells には数式計算エンジンが組み込まれています。デザイナー テンプレートからインポートされた数式を再計算できるだけでなく、実行時に追加された数式の結果の計算もサポートします。
+## **数式の追加と結果の計算**
 
- Aspose.Cells は、Microsoft Excel(読み取り) の一部である数式または関数のほとんどをサポートしています。[計算エンジンがサポートする関数のリスト](/cells/ja/net/supported-formula-functions/)）。これらの関数は、API またはデザイナー スプレッドシートを通じて使用できます。 Aspose.Cells は、数学、文字列、ブール値、日付/時刻、統計、データベース、ルックアップ、および参照の数式の膨大なセットをサポートしています。
+Aspose.Cellsには埋め込み数式計算エンジンがあります。デザイナーテンプレートからインポートされた数式を再計算するだけでなく、実行時に追加された数式の結果を計算することもサポートしています。
 
-使用[**式**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula)財産または[**SetFormula(...)**](https://reference.aspose.com/cells/net/aspose.cells.cell/setformula/methods/2)のメソッド[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)セルに数式を追加するクラス。数式を適用するときは、Microsoft Excel で数式を作成する場合と同様に、必ず文字列を等号 (=) で開始し、カンマ (,) を使用して関数パラメータを区切ります。
+Aspose.Cellsは、Microsoft Excelの一部である多くの数式または関数をサポートしています（[計算エンジンがサポートする関数のリスト](/cells/ja/net/supported-formula-functions/)を参照）。これらの関数はAPIまたはデザイナースプレッドシートを介して使用できます。Aspose.Cellsは、数学、文字列、ブール値、日付/時刻、統計、データベース、検索、参照の広範なセットの数式をサポートしています。
 
-数式の結果を計算するには、ユーザーは[**計算式**](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1)の方法[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Excel ファイルに埋め込まれたすべての数式を処理するクラス。または、ユーザーは[**計算式**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/calculateformula)の方法[**ワーシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)シートに埋め込まれたすべての数式を処理するクラス。または、ユーザーは、[**計算する**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/calculate)の方法[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)つの Cell の数式を処理するクラス:
+[**Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula)プロパティまたは[**SetFormula(...)**](https://reference.aspose.com/cells/net/aspose.cells.cell/setformula/methods/2)メソッドの[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラスを使用して、セルに数式を追加します。数式を適用するときには常に等号（=）で始め、Microsoft Excelで数式を作成するときと同様に関数パラメータを区切るためにコンマ（,）を使用します。
+
+数式の結果を計算するには、ユーザーはExcelファイルに埋め込まれたすべての数式を処理する[**CalculateFormula**](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1)メソッドを呼び出すか、シートに埋め込まれたすべての数式を処理する[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)メソッドを呼び出すか、またはセルの数式を処理する[**CalculateFormula**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/calculateformula)メソッドを呼び出すかを選択できます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-CalculatingFormulas-1.cs" >}}
 
-###  **数式について知っておくべき重要なこと**
+### **数式に関する重要な点**
 
 {{% alert color="primary" %}}
 
-の**式**財産と**SetFormula(...)**のメソッド[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラスの仕事は他のものとは異なります**計算する**のメソッド[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook), [**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)そして[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラス。の**式**財産と**SetFormula(...)**メソッドはセルに数式を追加するだけで、実行時に結果を計算しません。数式の結果を取得するには、電話してください。**計算する**メソッド。
+[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラスの**Formula**プロパティと**SetFormula(...)**メソッドは、**Calculate**クラスのメソッドと異なる動作をします。**Formula**プロパティと**SetFormula(...)**メソッドは単にセルに数式を追加するだけであり、実行時に結果を計算しません。数式の結果を取得するには、**Calculate**メソッドを呼び出してください。
 
 {{% /alert %}}
 
-##  **式の直接計算**
+## **数式の直接計算**
 
-Aspose.Cells には数式計算エンジンが組み込まれています。デザイナー ファイルからインポートされた数式を計算するだけでなく、Aspose.Cells は数式の結果を直接計算することもできます。
+Aspose.Cellsには、埋め込みファイルからインポートされた数式を計算するだけでなく、直接数式の結果を計算する機能があります。
 
-場合によっては、数式の結果をワークシートに追加せずに直接計算する必要があることがあります。数式で使用されるセルの値はワークシート内にすでに存在しているため、ワークシートに数式を追加せずに、Microsoft Excel 数式に基づいてそれらの値の結果を検索するだけで済みます。
+時々、ワークシートに追加することなく、Microsoft Excelの数式に基づいてワークシート内にすでに存在するセルの値の結果を見つける必要があります。
 
- Aspose.Cells' の数式計算エンジン API を次の目的で使用できます。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)に[**計算する**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3)このような数式の結果をワークシートに追加せずに表示します。
+Aspose.Cellsの数式計算エンジンAPIを使用して、ワークシートに追加せずにそのような数式の結果を[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)から[**calculate**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3)まで計算できます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DirectCalculationFormula-1.cs" >}}
 
-上記のコードは次の出力を生成します。
-{{< highlight "net" >}}
+上記のコードは次の出力を生成します：
+{{< highlight net >}}
 Value of A1: 20
 Value of A2: 30
 Result of Sum(A1:A2): 50.0
 {{< /highlight >}}
 
-##  **数式を繰り返し計算する方法**
+## **数式を繰り返し計算する方法**
 
-ワークブックに多数の数式があり、ユーザーがその一部のみを変更して繰り返し計算する必要がある場合、数式計算チェーンを有効にするとパフォーマンスが向上する可能性があります。[**FormulaSettings.EnableCalculationChain**](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/properties/enablecalculationchain).
+ブック内に多くの数式があり、ユーザーがそれらを修正する部分がわずかで繰り返し計算する必要がある場合は、パフォーマンスのために数式計算チェーンを有効にすると役立ちます：[**FormulaSettings.EnableCalculationChain**](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/properties/enablecalculationchain)。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-CalculatingFormulasOnce-1.cs" >}}
 
-###  **知っておくべき重要なこと**
+### **重要なこと**
 
 {{% alert color="primary" %}}
 
-デフォルトでは、計算チェーンは無効になっています。チェーンの作成にも時間がかかるので、最初の計算式([**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1)) チェーンを使用しない計算式と比較すると、より多くの CPU 処理時間とメモリを消費する可能性があります。ユーザーが数式を繰り返し計算する必要がない場合は、デフォルトの動作 (計算チェーンを作成せずに数式を直接計算する) の方が良い方法です。
+デフォルトでは、計算チェーンは無効になっています。チェーンを作成するには追加の時間が必要なため、数式を計算する最初の回（[**Workbook.CalculateFormula(...)**](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1)）は、チェーンを作成せずに数式を計算する場合と比較して、CPU処理時間とメモリをより多く消費する可能性があります。ユーザーが数式を繰り返し計算する必要がない場合は、デフォルトの動作（計算チェーンを作成せずに数式を直接計算する）がより良い方法となります。
 
 {{% /alert %}}
 
 
-##  **アドバンストトピック**
-- [Cells を Microsoft Excel 数式ウォッチ ウィンドウに追加](/cells/ja/net/add-cells-to-microsoft-excel-formula-watch-window/)
-- [Aspose.Cellsを使用したIFNA関数の計算](/cells/ja/net/calculating-ifna-function-using-aspose-cells/)
+## **高度なトピック**
+- [Microsoft Excelフォーミュラ計算エンジンのAspose.Cells](/cells/ja/net/add-cells-to-microsoft-excel-formula-watch-window/)
+- [Aspose.Cellsを使用してIFNA関数を計算する](/cells/ja/net/calculating-ifna-function-using-aspose-cells/)
 - [データテーブルの配列式の計算](/cells/ja/net/calculation-of-array-formula-of-data-tables/)
-- [Excel 2016 MINIFS および MAXIFS 関数の計算](/cells/ja/net/calculation-of-excel-2016-minifs-and-maxifs-functions/)
-- [Cellの計算時間を短縮します。計算メソッド](/cells/ja/net/decrease-the-calculation-time-of-cell-calculate-method/)
+- [Excel 2016のMINIFSおよびMAXIFS関数の計算](/cells/ja/net/calculation-of-excel-2016-minifs-and-maxifs-functions/)
+- [Cell.Calculateメソッドの計算時間を短縮する](/cells/ja/net/decrease-the-calculation-time-of-cell-calculate-method/)
 - [循環参照の検出](/cells/ja/net/detecting-circular-reference/)
-- [カスタム関数をワークシートに記述せずに直接計算](/cells/ja/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
-- [カスタム計算エンジンを実装して、Aspose.Cells のデフォルト計算エンジンを拡張します。](/cells/ja/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+- [ワークシートに書き込まずにカスタム機能を直接計算する](/cells/ja/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
+- [Aspose.Cellsのデフォルトの計算エンジンを拡張するためにカスタム計算エンジンを実装する](/cells/ja/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 - [ワークブックの数式計算を中断またはキャンセルする](/cells/ja/net/interrupt-or-cancel-the-formula-calculation-of-workbook/)
-- [AbstractCalculationEngine を使用して値の範囲を返す](/cells/ja/net/returning-a-range-of-values-using-abstractcalculationengine/)
-- [ICustomFunction を使用して値の範囲を返す](/cells/ja/net/returning-a-range-of-values-using-icustomfunction/)
-- [ワークブックの数式計算モードの設定](/cells/ja/net/setting-formula-calculation-mode-of-workbook/)
-- [Aspose.Cells での FormulaText 関数の使用](/cells/ja/net/using-formulatext-function-in-aspose-cells/)
-- [ICustomFunction 機能の使用](/cells/ja/net/using-icustomfunction-feature/)
+- [AbstarctCalculationEngineを使用して値の範囲を返す](/cells/ja/net/returning-a-range-of-values-using-abstractcalculationengine/)
+- [ICustomFunctionを使用して値の範囲を返す](/cells/ja/net/returning-a-range-of-values-using-icustomfunction/)
+- [ブックの数式計算モードの設定](/cells/ja/net/setting-formula-calculation-mode-of-workbook/)
+- [Aspose.CellsでのFormulaText関数の使用](/cells/ja/net/using-formulatext-function-in-aspose-cells/)
+- [ICustomFunction機能の使用](/cells/ja/net/using-icustomfunction-feature/)

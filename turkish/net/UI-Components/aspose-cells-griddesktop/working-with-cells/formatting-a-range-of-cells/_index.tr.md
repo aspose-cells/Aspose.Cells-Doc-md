@@ -1,18 +1,21 @@
-﻿---
-title: Cells Aralığını Biçimlendirme
+---
+title: Hücre Aralığının Biçimlendirilmesi
 type: docs
 weight: 60
-url: /tr/net/formatting-a-range-of-cells/
+url: /tr/net/aspose-cells-griddesktop/formatting-a-range-of-cells/
+keywords: GridDesktop,format,stil,hücreler
+description: Bu makale, GridDesktop taki hücrelere stil formatı uygulamanın nasıl yapılacağını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konu aynı zamanda hücrelerde yazı tipi ayarlarının ve diğer biçimlendirme stillerinin uygulanmasıyla ilgili konu dizisine aittir. Son konularımız, bu tür özelliklerin ele alınması hakkında iyi bir şekilde ele alınmıştır. Örneğin, başvurabilirsiniz[Cell'in Yazı Tipi ve Rengini Değiştirme](/cells/tr/net/changing-the-font-and-color-of-a-cell/) ve[Cells'de Stilleri Uygulamak](/cells/tr/net/applying-styles-on-cells/) aynı özellikler hakkında bilgi edinmek için konular. Öyleyse, bu kavramları zaten ele aldıysak, bu konudaki yenilikler nelerdir? Bu konunun öncekilerden tek farkı, biçimlendirme ayarlarını (yazı tipleri ve diğer stillerle ilgili) tek bir hücre yerine bir dizi hücreye uygulayacak olmamızdır. Bu konuyu yine de sizin için yararlı bulacağınızı umuyoruz.
+Bu konu ayrıca, hücrelere yazı tipi ayarları ve diğer biçimlendirme stilleri uygulama konulu konu serisine aittir. Geçmiş konularımız bu özellikleri ele almıştır. Örneğin, [Hücrenin Yazı Tipi ve Rengini Değiştirme](/hücreler/tr/net/hücrenin-yazı-tipi-ve-rengini-değiştirme/) ve [Hücrelere Stil Uygulama](/hücreler/tr/net/hücrelere-stil-uygulama/) konularına aynı özellikler hakkında bilgi edinmek için başvurabilirsiniz. Peki, eğer bu kavramları zaten ele aldıysak, bu konuda yeni olan nedir. İşte farklılık, sadece bir tek hücre yerine bir hücre aralığına biçimlendirme ayarları (yazı tipleri ve diğer stillerle ilgili) uygulayacağız. Umuyoruz ki bu konunun yine de sizin için faydalı olacağını düşüneceğiz.
 
 {{% /alert %}} 
-## **Cells Aralığının Yazı Tipi ve Stilini Ayarlama**
- Biçimlendirme ayarlarından bahsetmeden önce (önceki konularımızda çokça konuştuk), hücre aralığını nasıl oluşturacağımızı bilmeliyiz. Pekala, kullanarak bir hücre aralığı oluşturabiliriz.**Hücre Aralığı** yapıcısı hücre aralığını belirtmek için bazı parametreler alan sınıf. Kullanarak hücre aralığını belirtebiliriz.**İsimler** veya**Satır ve Sütun İndeksleri** başlangıç ve bitiş hücrelerinin sayısı.
+## **Bir Hücre Aralığının Yazı Tipi ve Stil Ayarı**
+Önce, hücre aralığı oluşturmak hakkında (ki zaten önceki konularımızda çok konuştuk), biçimlendirme ayarlarından bahsetmeden önce hücre aralığı nasıl oluşturulacağını bilmeliyiz. Peki, **CellRange** sınıfını kullanarak bir hücre aralığı oluşturabiliriz. Bu sınıfın yapıcı fonksiyonu, hücrelerin aralığını belirtmek için bazı parametreleri alır. Hücre aralığını başlangıç ve bitiş hücrelerinin **Adları** veya **Satır ve Sütun İndeksleri** kullanarak belirleyebiliriz.
 
- Bir kez oluşturduğumuzda**Hücre Aralığı** nesnenin aşırı yüklenmiş sürümlerini kullanabiliriz.**SetStyle**, **SetFont** & **SetFontColor** alabilen Çalışma Sayfası yöntemleri**Hücre Aralığı** biçimlendirme ayarlarını belirtilen hücre aralığında uygulamak için nesne.
+Bir **CellRange** nesnesini oluşturduktan sonra, **Worksheet**'ın **SetStyle**, **SetFont** ve **SetFontColor** metodlarının aşırı yüklenmiş sürümlerini kullanabiliriz. Bu metodlar, belirtilen hücre aralığına biçimlendirme ayarları uygulamak için **CellRange** nesnesi alabilir.
 
 Bu temel kavramı anlamak için bir örneğe bakalım.
 

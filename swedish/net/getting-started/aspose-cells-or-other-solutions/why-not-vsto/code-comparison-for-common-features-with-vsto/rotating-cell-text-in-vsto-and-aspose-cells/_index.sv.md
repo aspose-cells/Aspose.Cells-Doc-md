@@ -1,18 +1,19 @@
-﻿---
-title: Roterande Cell Text i VSTO och Aspose.Cells
+---
+title: Rotera celltext i VSTO och Aspose.Cells
 type: docs
 weight: 210
 url: /sv/net/rotating-cell-text-in-vsto-and-aspose-cells/
 ---
-För att rotera text i en cell på ett kalkylblad, utför följande steg:
 
-1. Skapa en arbetsbok och få ett arbetsblad.
+För att rotera text i en cell på en arbetsblad, följ följande steg:
+
+1. Skapa en arbetsbok och hämta ett arbetsblad.
 1. Lägg till exempeltext.
 1. Formatera texten: rotera, lägg till bakgrundsfärg.
 1. Spara filen.
- Kodexemplen som följer visar hur man utför dessa steg först i VSTO, med antingen C#, och sedan i Aspose.Cells, igen med antingen C#.
+   Kodexemplen nedan visar hur man utför dessa steg först i VSTO, med antingen C#, och sedan i Aspose.Cells, igen med antingen C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //intiate Application object
 
@@ -28,7 +29,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -58,7 +59,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
 
@@ -105,7 +106,7 @@ objcell.SetStyle(objstyle);
 objworkbook.Save("RotateText_test.xlsx");
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Rotating.Cell.Text.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Rotating%20Cell%20Text%20\(Aspose.Cells\).zip/download)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Rotating%20Cell%20Text%20\(Aspose.Cells\).blixtlås)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Rotating%20Cell%20Text%20\(Aspose.Cells\).zip)

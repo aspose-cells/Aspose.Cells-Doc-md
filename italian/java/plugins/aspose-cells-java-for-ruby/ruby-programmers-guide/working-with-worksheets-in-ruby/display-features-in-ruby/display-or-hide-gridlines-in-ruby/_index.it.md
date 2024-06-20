@@ -1,16 +1,17 @@
-﻿---
+---
 title: Mostra o nascondi le linee della griglia in Ruby
 type: docs
 weight: 10
 url: /it/java/display-or-hide-gridlines-in-ruby/
 ---
-## **Aspose.Cells - Visualizza o nascondi griglia**
-### **Nascondere le linee della griglia**
- Per nascondere il foglio di lavoro utilizzando**Aspose.Cells Java per Rubino** , chiamata**displayhidegridlines** modulo.
 
-**Codice Rubino**
+## **Aspose.Cells - Mostra o Nascondi le linee della griglia**
+### **Nascondere le Linee della Griglia**
+Per nascondere il foglio di lavoro usando **Aspose.Cells Java per Ruby**, chiamare il modulo **displayhidegridlines**.
 
-{{< highlight "ruby" >}}
+**Codice Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -37,12 +38,12 @@ workbook.save(data_dir + "output.xls")
 puts "Gridlines are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Rendere visibili le linee della griglia**
-Per rendere visibili le linee della griglia, utilizzare il metodo setGridlinesVisible(true) della classe Worksheet.
+### **Rendere Visibili le Linee della Griglia**
+Per rendere visibili le linee della griglia, utilizzare il metodo `setGridlinesVisible(true)` della classe `Worksheet`.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the gridlines of the worksheet
 
@@ -50,6 +51,6 @@ worksheet.setGridlinesVisible(true)
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Mostra o nascondi griglia (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Mostra o Nascondi le linee della griglia (Aspose.Cells)** da uno dei siti di codice sociale di seguito elencati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)

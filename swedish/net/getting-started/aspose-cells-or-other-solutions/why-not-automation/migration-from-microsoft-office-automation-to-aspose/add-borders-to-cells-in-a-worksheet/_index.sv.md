@@ -1,46 +1,47 @@
-﻿---
-title: Lägg till gränser till Cells i ett kalkylblad
+---
+title: Lägg till ramar till celler i ett kalkylblad
 type: docs
 weight: 50
 url: /sv/net/add-borders-to-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET låter dig utföra nästan alla uppgifter via din applikation som en användare kan utföra i Microsoft Excel. Aspose.Cells är prestanda och robust och har den extra fördelen att arbeta oberoende av Microsoft Automation. Den här artikeln visar hur du lägger till kanter till celler i ett kalkylblad med Aspose.Cells for .NET jämfört med VSTO.
+Aspose.Cells for .NET låter dig utföra nästan vilka uppgifter som helst genom din applikation som en användare kan utföra i Microsoft Excel. Aspose.Cells är effektiv och robust och har fördelen att fungera oberoende av Microsoft Automation. Den här artikeln visar hur man lägger till ramar till celler i ett kalkylblad med hjälp av Aspose.Cells for .NET jämfört med VSTO.
 
 {{% /alert %}}
 
-## **Lägger till gränser till Cells**
+## **Lägga till ramar till celler**
 
-För att lägga till kanter till celler i ett kalkylblad, gör följande:
+För att lägga till ramar i celler i ett kalkylblad, följ följande steg:
 
-1. Konfigurera arbetsbladet:
- 1. Instantiera ett applikationsobjekt.
- (Endast VSTO.)
- 1. Lägg till en arbetsbok.
- 1. Skaffa det första arket.
- 1. Lägg till text i cellerna som du ska lägga till kanter till.
-1. Lägg till kanter:
- 1. Definiera ett intervall.
-1. Använd en kantstil på intervallet.
- Upprepa för varje område och varje kantstil du vill ställa in. Detta exempel gäller hårlinjer, tunna, medelstora och tjocka linjer.
+1. Ställ in kalkylbladet:
+   1. Instantiera en Applikationsobjekt.
+      (Endast VSTO.)
+   1. Lägg till en arbetsbok.
+   1. Hämta det första arket.
+   1. Lägg till text i de celler som du ska lägga till ramar till.
+1. Lägg till ramar:
+   1. Definiera en omfattning.
+   1. Applicera en ramstil på omfattningen.
+      Upprepa för varje omfattning och varje ramstil du vill ställa in. Detta exempel tillämpar hårstrån, tunna, medelstora och tjocka linjer.
 1. Avsluta:
- 1. Anpassa kolumnen som cellerna är i automatiskt för att passa texten snyggt.
- 1. Spara dokumentet.
+   1. Justera kolumnen där cellerna finns för att passa texten snyggt.
+   1. Spara dokumentet.
 
- Dessa steg visas i koden nedan. De första kodexemplen visar hur man implementerar dem med hjälp av[VSTO](/cells/sv/net/add-borders-to-cells-in-a-worksheet/) med antingen C# eller Visual Basic. Efter VSTO-exemplen finns exempel som visar hur man utför samma steg med hjälp av[Aspose.Cells for .NET](/cells/sv/net/add-borders-to-cells-in-a-worksheet/), återigen med antingen C# eller Visual Basic. Aspose.Cells-kodexemplen är mycket kortare eftersom Aspose.Cells är optimerad för effektiv kodning.
+Dessa steg visas i koden nedan. De första kodexemplen visar hur du implementerar dem med antingen C# eller Visual Basic med [VSTO](/cells/sv/net/add-borders-to-cells-in-a-worksheet/). Efter VSTO-exemplen följer exempel som visar hur man utför samma steg med [Aspose.Cells for .NET](/cells/sv/net/add-borders-to-cells-in-a-worksheet/), igen med antingen C# eller Visual Basic. Aspose.Cells kodexempel är mycket kortare eftersom Aspose.Cells är optimerat för effektiv kodning.
 
-Koden genererar en Excel-fil med ett antal celler på det första arket, var och en med olika ramar:
+Koden genererar en Excelfil med ett antal celler på det första arket, var och en med en annan ram:
 
 ![todo:image_alt_text](add-borders-to-cells-in-a-worksheet_1.png)
 
-**Cells med gränser applicerade.**
+**Celler med tillämpade ramar.**
 
-### **Lägga till gränser med VSTO**
+### **Lägga till ramar med VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -70,13 +71,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -186,11 +187,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Lägger till gränser med Aspose.Cells for .NET**
+### **Lägga till ramar med Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

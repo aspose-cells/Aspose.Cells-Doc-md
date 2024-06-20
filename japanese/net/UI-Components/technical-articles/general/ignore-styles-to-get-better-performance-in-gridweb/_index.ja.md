@@ -1,33 +1,34 @@
-﻿---
-title: GridWeb でのパフォーマンスを向上させるためにスタイルを無視する
+---
+title: GridWebでパフォーマンスを向上させるためにスタイルを無視します
 type: docs
 weight: 1060
 url: /ja/net/aspose-cells-gridweb/ignorestylewithnodata
-description: この記事では、IgnoreStyleWithNoData を使用して Aspose.Cells.GridWeb ライブラリのパフォーマンスを向上させる方法について説明します。
-keywords: performance
+description: この記事では、IgnoreStyleWithNoDataを使用してGridWebでパフォーマンスを向上する方法について説明します。
+keywords: GridWeb,performance
 ---
-## **考えられる使用シナリオ**
-使ってください[GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata)ワークブックから必要性の低い行/列をロードするプロパティ。
- 
-## **ワークブックの読み込み中にパフォーマンスを向上させる**
-を確認してください[サンプルエクセルファイル](largerowswithstyle.xlsx) 
 
-IgnoreStyleWithNoData = true に設定した場合。
+## **可能な使用シナリオ**
+ワークブックから必要な行/列を少なく読み込むために[GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata)プロパティを使用してください。
 
-ご覧のとおり、行 (15 まで) と列 (L まで) が表示されます。セルにデータがない最後の連続行と列は表示されません。したがって、ロード時間は短くなります。
+## **ワークブックの読み込み時にパフォーマンスを向上させる**
+[サンプルExcelファイル](largerowswithstyle.xlsx)を確認してください 
 
-![スタイルを無視するワークブック](ignorestyletrue.png)
+IgnoreStyleWithNoData = true;と設定した場合、
+
+ご覧のように、15行（まで）とL列（まで）が表示されます。そして、最後の連続したデータのない行と列は表示されません。したがって、読み込み時間が短くなります。
+
+![スタイルを無視したワークブック](ignorestyletrue.png)
 
 
-IgnoreStyleWithNoData = false; に設定した場合 (デフォルト値は false)
+IgnoreStyleWithNoDataをfalseに設定すると、（デフォルト値はfalseです）
 
-ご覧のとおり、はるかに多くの行 (500 まで) と列 (CZ まで) を示しています。
+見ての通り、行（最大500行）と列（最大CZ列）が表示されます
 
-行 16 から行 500 まで、いくつかのセルは罫線スタイルを設定していますが、セルにはデータが含まれていません。
+行16から行500まで、一部のセルに枠線スタイルが設定されていますが、データは含まれていません
 
-列 M から列 CZ まで、いくつかのセルに境界線スタイルが設定されていますが、セルにはデータが含まれていません。
+M列からCZ列まで、一部のセルに枠線スタイルが設定されていますが、データは含まれていません
 
-![スタイルを無視しないワークブック](ignorestylefalse.png)
- 
- 
- 
+![IgnoreStyleFalseワークブック](ignorestylefalse.png)
+
+
+

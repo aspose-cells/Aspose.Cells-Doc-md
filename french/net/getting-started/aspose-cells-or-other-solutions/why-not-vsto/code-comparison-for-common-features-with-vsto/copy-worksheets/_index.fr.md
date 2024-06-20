@@ -1,17 +1,18 @@
-﻿---
+---
 title: Copier des feuilles de calcul
 type: docs
 weight: 60
 url: /fr/net/copy-worksheets/
 ---
-## **Conseil de migration :**
-\1. Créez un objet Workbook et obtenez Worksheet.
+
+## **Astuce de migration :**
+\1. Créer un objet Workbook et obtenir une feuille de calcul.
 \2. Insérer du texte dans la feuille de calcul.
-\3. Créez une nouvelle feuille de calcul et copiez-la dans la feuille de calcul précédente.
+\3. Créer une nouvelle feuille de calcul et la copier dans la feuille de calcul précédente.
 ### **VSTO**
-Erreur lors du rendu de la macro 'code' : valeur non valide spécifiée pour le paramètre lang
+Erreur de rendu de la macro 'code' : Valeur non valide spécifiée pour le paramètre lang
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   private static string fileName ="CopyWorksheets.xlsx";
 

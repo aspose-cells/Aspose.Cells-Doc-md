@@ -1,20 +1,23 @@
-﻿---
-title: Aspose.Cells.GridDesktop を使用した Excel ファイルでのデータ検証の読み取り
+---
+title: Aspose.Cells.GridDesktopを使用してExcelファイルのデータ検証を読み込む
 type: docs
 weight: 170
-url: /ja/net/reading-data-validations-in-excel-file-using-aspose-cells-griddesktop/
+url: /ja/net/aspose-cells-griddesktop/read-data-validations-in-excel-file-using-aspose-cells-griddesktop/
+keywords: GridDesktop, データの検証, 取得, 検証
+description: この記事では、GridDesktopで検証を行う方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop は読み取りと適用が可能**データ検証**あなたのExcelファイルで。 Excel ファイルを GridDesktop にロードすると、その中のすべてのデータ検証が Microsoft Excel と同じように機能し始めます。
+Aspose.Cells.GridDesktopは、Excelファイル内の**データ検証**を読み込んで適用することができます。ExcelファイルをGridDesktopに読み込むと、それらのExcelファイル内のデータ検証がMicrosoft Excelで行うのと同じように機能します。
 
 {{% /alert %}} 
-## **Aspose.Cells.GridDesktop を使用した Excel ファイルでのデータ検証の読み取り**
-次のサンプル コードは、[サンプルエクセルファイル](5115550.xlsx)いくつか含まれています**データ検証**GridDesktop 内。
+## **Aspose.Cells.GridDesktopを使用してExcelファイル内のデータ検証を読み込む**
+次のサンプルコードは、GridDesktopに含まれるいくつかの**データ検証**を含む[サンプルExcelファイル](5115550.xlsx)をインポートします。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ReadingDataValidations-1.cs" >}}
 
 
-ファイルを GridDesktop にインポートした後、セル A2 の値を 100 より大きく変更しようとすると、**検証エラー メッセージ ボックス**.
+GridDesktopでのワークシートの削除

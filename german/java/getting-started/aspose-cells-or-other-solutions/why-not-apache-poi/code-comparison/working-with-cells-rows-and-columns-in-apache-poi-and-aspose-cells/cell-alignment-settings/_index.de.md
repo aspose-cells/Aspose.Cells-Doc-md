@@ -1,21 +1,22 @@
-﻿---
-title: Cell Ausrichtungseinstellungen
+---
+title: Zellenausrichtungseinstellungen
 type: docs
 weight: 20
 url: /de/java/cell-alignment-settings/
 ---
-## **Aspose.Cells - Cell Ausrichtungseinstellungen**
+
+## **Aspose.Cells - Zellenausrichtungseinstellungen**
 Aspose.Cells bietet eine Klasse, Workbook, die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine WorksheetCollection, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse dargestellt.
 
-Die Worksheet-Klasse stellt eine Cells-Sammlung bereit. Jedes Element in der Sammlung Cells repräsentiert ein Objekt der Klasse Cell.
+Die Worksheet-Klasse bietet eine Cells-Sammlung. Jedes Element in der Cells-Sammlung stellt ein Objekt der Cell-Klasse dar.
 
-Aspose.Cells stellt die setStyle-Methode in der Cell-Klasse bereit, die zur Formatierung einer Zelle verwendet wird. Die Style-Klasse stellt nützliche Eigenschaften zum Konfigurieren von Schriftarteinstellungen bereit.
+Aspose.Cells bietet die setStyle-Methode in der Cell-Klasse, die zur Zellformatierung verwendet wird. Die Klasse Style bietet nützliche Eigenschaften zur Konfiguration von Schriftarten.
 
-Wählen Sie mithilfe der TextAlignmentType-Enumeration einen beliebigen Textausrichtungstyp aus.
+Wählen Sie einen Textausrichtungstyp mithilfe der TextAlignmentType-Aufzählung aus.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -48,14 +49,14 @@ style.setHorizontalAlignment(TextAlignmentType.CENTER);
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF & XSSF - Cell Ausrichtungseinstellungen**
-HSSFCellStyle stellt den Stil für die Ausrichtung in Zellen mit Apache POI API bereit.
+## **Apache POI SS - HSSF & XSSF - Zellenausrichtungseinstellungen**
+HSSFCellStyle bietet den Stil zur Ausrichtung in Zellen mithilfe der Apache POI-API.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws IOException
+ public static void main(String[] args) throws IOException
 
 {
 
@@ -126,13 +127,13 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/cellalignment)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Ausrichtungseinstellungen konfigurieren](/cells/de/java/data-formatting/).
+Besuchen Sie für weitere Details [Konfigurieren von Ausrichtungseinstellungen](/cells/de/java/data-formatting/).
 
 {{% /alert %}}

@@ -1,26 +1,27 @@
 ---
-title: チャートの計算後に軸ラベルを読み取る
-description: グラフの計算後に Aspose.Cells for .NET の軸ラベルを読み取る方法を学習します。私たちのガイドでは、軸ラベルにアクセスして取得する方法 (書式設定や配置など) を説明します。
-keywords: Aspose.Cells for .NET, chart, axis labels, calculation, reading, accessing, retrieving, formatting, positioning.
+title: チャートの計算後に軸ラベルを読む
+description: Aspose.Cells for .NETの計算後に軸ラベルを読む方法を学びます。当社のガイドでは、軸ラベルにアクセスして取得する方法、それらのフォーマットおよび配置を含む軸ラベルを表示する方法を示します。
+keywords: Aspose.Cells for .NET、チャート、軸ラベル、計算、読み取り、アクセス、取得、フォーマット、配置。
 type: docs
 weight: 90
 url: /ja/net/read-axis-labels-after-calculating-the-chart/
 ---
-##  **考えられる使用シナリオ**
 
-を使用して値を計算した後、グラフの軸ラベルを読み取ることができます。[**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/calculate/)方法。をご利用ください。[**Axis.GetAxisTexts()**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/getaxistexts/)この目的のために、軸ラベルのリストを返すメソッドを使用します。
+## **可能な使用シナリオ**
 
-##  **チャートの計算後に軸ラベルを読み取る**
+軸ラベルの値を計算した後に、[**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/calculate/)メソッドを使用してチャートの軸ラベルを読み取ることができます。この目的のためには、リストは[**Axis.GetAxisTexts()**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/getaxistexts/)メソッドを使用してください。
 
-をロードする次のサンプルコードを参照してください。[サンプル Excel ファイル](ReadAxisLabels.xlsx)そして、最初のワークシートのグラフのカテゴリ軸ラベルを読み取ります。次に、軸ラベルの値をコンソールに出力します。参考として、以下に示すサンプル コードのコンソール出力を参照してください。
+## **チャートを計算した後に軸ラベルを読み取る**
 
-##  **サンプルコード**
+次のサンプルコードは、[サンプルExcelファイル](ReadAxisLabels.xlsx)を読み込み、最初のワークシートのチャートのカテゴリ軸ラベルを読み取ります。その後、軸ラベルの値をコンソールに出力します。参考のために、以下に示すサンプルコードのコンソール出力をご覧ください。
+
+## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Charts-ReadAxisLabelsAfterCalculatingTheChart.cs" >}}
 
-##  **コンソール出力**
+## **コンソール出力**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Category Axis Labels:
 

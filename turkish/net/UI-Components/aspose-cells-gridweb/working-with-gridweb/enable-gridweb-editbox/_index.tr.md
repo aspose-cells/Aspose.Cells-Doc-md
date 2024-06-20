@@ -1,22 +1,25 @@
-﻿---
-title: GridWeb EditBox'ı Etkinleştir
+---
+title: GridWeb Editör Kutusunu Etkinleştir
 type: docs
 weight: 110
-url: /tr/net/enable-gridweb-editbox/
+url: /tr/net/aspose-cells-gridweb/enable-gridweb-editbox/
+keywords: GridWeb, editör kutusu, formül çubuğu
+description: Bu makale, GridWeb de formül çubuğu veya düzenleme kutusu ile nasıl çalışılacağını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-GridWeb'in Düzenleme Kutusu, verileri/formülleri hücrelere görmek/girmek veya kopyalamak için kullanabileceğiniz, kontrolün üst kısmında işlenen bir araç çubuğudur. Ayrıca düzenlemekte olduğunuz hücrenin adını da gösterir. Çerçeveye tıkladıktan sonra veya veri yazmaya başladığınızda veya eşittir (=) sembolü yazdığınızda, Düzenleme Kutusu aktif olacaktır.
+GridWeb'in Düzenleme Kutusu (Excel'de formül çubuğu olarak adlandırılır), odaklanılan hücre için değer girişi veya kopyalama veri/formülü yapmak için kullanabileceğiniz, aynı zamanda düzenlemekte olduğunuz hücrenin adını gösteren bir araç çubuğudur. Kenara tıklayarak veya veri yazmaya başladığınızda veya eşittir (=) simgesi yazmaya başladığınızda Düzenleme Kutusu etkinleştirilecektir.
 
 {{% /alert %}} 
-## **Aspose.Cells.GridWeb'in Düzenleme Kutusunu Ayarlama**
-GridWeb denetimi, geliştiricilerin araç çubuğunu açmak için bunu "True" olarak atayabilecekleri ShowCellEditBox özelliğini sağlar. Özniteliğin varsayılan değeri Yanlış'tır. Değerini "True" olarak ayarladığınızda, GridWeb kontrolünün üstünde Düzenleme Kutusu görünecektir.
+## **Aspose.Cells.GridWeb'in Düzenleme Kutusu'nun Ayarlanması**
+GridWeb denetimi, geliştiricilerin toolbar'ı göstermek için ShowCellEditBox özelliğini "True" olarak atayabileceği bir özellik sağlar. Özniteliğin varsayılan değeri False'dur. Değerini "True" olarak ayarladığınızda, Düzenleme Kutusu GridWeb denetiminin üstünde görünecektir.
 
 {{% alert color="primary" %}} 
 
- Bu özelliği etkinleştirmek için, "jquery.js" dosyasını projenize aktarmanız ve çalışması için .aspx sayfalarınıza başvurmanız gerekir. jQuery arşivini adresinden indirebilirsiniz.<https://jqueryui.com/download/all/> ve kütüphane dosyalarını projedeki bazı klasörlere koyun ve kütüphane dosyasına şu şekilde referans ekleyin:<script> .aspx web formunuzda aşağıdaki gibi etiketleyin. En son jQuery sürümlerinin tümü tamam.
+To enable this feature, you need to import "jquery.js" file to your project and refer it in your .aspx page(s) to make it work. You may download the jQuery archive from <https://jqueryui.com/download/all/> and put the library file(s) into some folder in the project and add reference to the library file via <script> tag in your .aspx web form as following. All the latest jQuery versions are OK.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <head id="Head1" runat="server">
 
@@ -32,10 +35,10 @@ GridWeb denetimi, geliştiricilerin araç çubuğunu açmak için bunu "True" ol
 
 {{% /alert %}} 
 
-**Edit Box ile GridWeb kontrolü** 
+**Düzen Kutusu ile GridWeb Denetimi** 
 
-![yapılacaklar:resim_alternatif_metin](enable-gridweb-editbox_1.png)
-### **Örnek vermek**
+![todo:image_alt_text](enable-gridweb-editbox_1.png)
+### **Örnek**
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-DisplayCellEditBox.aspx-DisplayCellEditBox.cs" >}}

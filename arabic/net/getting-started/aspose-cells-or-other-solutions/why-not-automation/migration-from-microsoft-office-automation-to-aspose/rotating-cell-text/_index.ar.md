@@ -1,38 +1,39 @@
-﻿---
-title: تدوير نص Cell
+---
+title: تدوير نص الخلية
 type: docs
 weight: 100
 url: /ar/net/rotating-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، يكون رأس العمود أوسع بكثير من البيانات الموجودة في الخلايا أدناه. يمكن أن يتسبب هذا في وجود مسافات بيضاء غير ضرورية على الصفحة. يتمثل أحد الحلول في تدوير النص رأسيًا بحيث يأخذ مساحة أفقية أقل. في Microsoft Excel ، يكون تدوير النص أمرًا سهلاً. لحسن الحظ ، من الممكن تدوير النص برمجيًا أيضًا ، بحيث يمكن للمطورين تدوير الملصقات في جداول البيانات التي ينشئونها داخل تطبيقاتهم.
+أحيانًا، يكون رأس العمود أو العنوان أعرض بكثير من البيانات في الخلايا أدناه. يمكن أن يتسبب هذا في وجود فراغات غير ضرورية على الصفحة. أحد الحلول هو تدوير النص عموديًا بحيث يأخذ مساحة أفقية أقل. في Microsoft Excel، يُسهل تدوير النص. لحسن الحظ، يمكن تدوير النص برمجيًا أيضًا، بحيث يمكن للمطوّرين تدوير التسميات في الجداول النصية التي يقومون بإنشائها ضمن تطبيقاتهم.
 
- تتناول هذه المقالة كيفية تدوير النص في الخلايا باستخدام[Aspose.Cells for .NET](/cells/ar/net/rotating-cell-text/) مقارنة بفعل الشيء نفسه مع[VSTO](/cells/ar/net/rotating-cell-text/).
+يتناول هذا المقال كيفية تدوير النص في الخلايا باستخدام [Aspose.Cells for .NET](/cells/ar/net/rotating-cell-text/) مقارنة بفعل نفس الشيء باستخدام [VSTO](/cells/ar/net/rotating-cell-text/).
 
 {{% /alert %}}
 
-## **تدوير النص في Cells**
+## **تدوير النص في الخلايا**
 
-لتدوير نص في خلية في ورقة عمل ، اتبع الخطوات التالية:
+لتدوير النص في خلية على ورقة العمل، اتبع الخطوات التالية:
 
-1. قم بإنشاء مصنف واحصل على ورقة عمل.
-1. أضف عينات نصية.
-1. تنسيق النص: تدوير وإضافة لون الخلفية.
-1. حفظ الملف.
+1. إنشاء دفتر عمل والحصول على ورقة عمل.
+2. إضافة نصوص عينات.
+3. تنسيق النص: تدوير، إضافة لون خلفية.
+4. حفظ الملف.
 
- توضح نماذج التعليمات البرمجية التالية كيفية تنفيذ هذه الخطوات أولاً في[VSTO](/cells/ar/net/rotating-cell-text/) ، باستخدام C# أو Visual Basic ، ثم في[Aspose.Cells](/cells/ar/net/rotating-cell-text/)، مرة أخرى باستخدام إما C# أو Visual Basic.
+توضح الأمثلة التالية كيفية تنفيذ هذه الخطوات أولاً في [VSTO](/cells/ar/net/rotating-cell-text/)، باستخدام إما C# أو Visual Basic، ثم في [Aspose.Cells](/cells/ar/net/rotating-cell-text/)، مرة أخرى باستخدام إما C# أو Visual Basic.
 
-تعطي أمثلة التعليمات البرمجية في هذه المقالة الإخراج الموضح أدناه.
-**خلية بها نص تم تدويره.**
+تعطي أمثلة الشفرات في هذا المقال الناتج المعروض أدناه.
+**خلية بها نص مدوّر.**
 
-![ما يجب القيام به: image_بديل_نص](rotating-cell-text_1.png)
+![todo:image_alt_text](rotating-cell-text_1.png)
 
 ### **تدوير النص باستخدام VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -56,7 +57,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -90,14 +91,14 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-#### **تدوير النص مع Aspose.Cells for .NET**
+#### **تدوير النص باستخدام Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
- 
+
  Workbook objworkbook = new Workbook();
 
 // Get the First sheet.

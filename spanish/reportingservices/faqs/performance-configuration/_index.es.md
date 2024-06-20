@@ -1,20 +1,21 @@
-﻿---
+---
 title: Configuración de rendimiento
 type: docs
 weight: 20
 url: /es/reportingservices/performance-configuration/
 ---
+
 {{% alert color="primary" %}} 
 
- Los usuarios pueden optimizar el rendimiento hasta cierto punto. Puede configurar algunos atributos y parámetros en el**Aspose.Cells.ReportingServices.xml** archivo como se describe a continuación.
+Los usuarios pueden optimizar el rendimiento hasta cierto punto. Se pueden configurar algunos atributos y parámetros en el archivo **Aspose.Cells.ReportingServices.xml** como se describe a continuación.
 
 {{% /alert %}} 
-### **Sección de rendimiento**
-Esto muestra la sección Rendimiento tal como está de forma predeterminada.
+### **Sección de Rendimiento**
+Esto muestra la sección de Rendimiento tal como está por defecto.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -35,12 +36,12 @@ Esto muestra la sección Rendimiento tal como está de forma predeterminada.
 
 
 {{< /highlight >}}
-### **Parámetros de rendimiento**
--  LimitCellsNumberForMerged: el valor predeterminado del parámetro es 1000000. El valor del parámetro lo establece el cliente y no se ve afectado por el cambio del parámetro de rendimiento. Consulte la siguiente configuración.
+### **Parámetros de Rendimiento**
+- LimitCellsNumberForMerged – El valor por defecto del parámetro es 1000000. El valor del parámetro es establecido por el cliente y no se ve afectado por el interruptor de parámetros de rendimiento. Por favor refiérase a la siguiente configuración. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -48,15 +49,15 @@ Esto muestra la sección Rendimiento tal como está de forma predeterminada.
 
 {{< /highlight >}}
 
--  IsAutoRowFit: puede ser verdadero o falso:
- - Cuando el parámetro Rendimiento se establece en 'apagado', el valor predeterminado es falso.
- - Cuando el parámetro Rendimiento se establece en 'activado', el valor predeterminado es verdadero.
- - Cuando el parámetro Rendimiento se establece en 'activado', un informe de subelemento puede restablecer el parámetro AutoRowFile del informe.
-Consulte la siguiente configuración.
+- IsAutoRowFit – Puede ser verdadero o falso: 
+  - Cuando el parámetro de rendimiento está configurado en 'off', el valor predeterminado es falso.
+  - Cuando el parámetro de rendimiento está configurado en 'on', el valor predeterminado es verdadero.
+  - Cuando el parámetro de rendimiento está configurado en 'on', un subelemento del informe puede restablecer el parámetro AutoRowFile del informe.
+    Consulte la siguiente configuración. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -78,15 +79,15 @@ Consulte la siguiente configuración.
 
 {{< /highlight >}}
 
--  IsMerged: puede ser verdadero o falso:
- - Cuando el parámetro Rendimiento se establece en 'apagado', el valor predeterminado es falso.
- - Cuando el parámetro Rendimiento se establece en 'activado', el valor predeterminado es verdadero.
- - Cuando el parámetro Rendimiento se establece en 'activado', un informe de subelemento puede restablecer el parámetro AutoRowFile del informe.
-Consulte la siguiente configuración.
+- IsMerged – Puede ser verdadero o falso: 
+  - Cuando el parámetro de rendimiento está configurado en 'off', el valor predeterminado es falso.
+  - Cuando el parámetro de rendimiento está configurado en 'on', el valor predeterminado es verdadero.
+  - Cuando el parámetro de rendimiento está configurado en 'on', un subelemento del informe puede restablecer el parámetro AutoRowFile del informe.
+    Consulte la siguiente configuración. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -108,15 +109,15 @@ Consulte la siguiente configuración.
 
 {{< /highlight >}}
 
--  IsSetStyle: puede ser verdadero o falso:
- - Cuando el parámetro Rendimiento se establece en 'apagado', el valor predeterminado es falso.
- - Cuando el parámetro Rendimiento se establece en 'activado', el valor predeterminado es verdadero.
- - Cuando el parámetro Rendimiento se establece en 'activado', un informe de subelemento puede restablecer el parámetro AutoRowFile del informe.
-Consulte la siguiente configuración.
+- IsSetStyle – Puede ser verdadero o falso: 
+  - Cuando el parámetro de rendimiento está configurado en 'off', el valor predeterminado es falso.
+  - Cuando el parámetro de rendimiento está configurado en 'on', el valor predeterminado es verdadero.
+  - Cuando el parámetro de rendimiento está configurado en 'on', un subelemento del informe puede restablecer el parámetro AutoRowFile del informe.
+    Consulte la siguiente configuración. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -138,16 +139,16 @@ Consulte la siguiente configuración.
 
 {{< /highlight >}}
 
--  IsConditionalFormatting: puede ser verdadero o falso:
- - Cuando el parámetro Rendimiento se establece en 'apagado', el valor predeterminado es falso.
- - Cuando el parámetro Rendimiento se establece en 'activado', el valor predeterminado es verdadero.
- - Cuando el parámetro Rendimiento se establece en 'activado', el informe de subelementos puede restablecer el parámetro AutoRowFile del informe de puntos.
- - Cuando el parámetro IsSetStyle se establece en false, el valor del parámetro Performance no es válido.
-Consulte la siguiente configuración.
+- IsConditionalFormatting: Puede ser verdadero o falso: 
+  - Cuando el parámetro de rendimiento está configurado en 'off', el valor predeterminado es falso.
+  - Cuando el parámetro de rendimiento está configurado en 'on', el valor predeterminado es verdadero.
+  - Cuando el parámetro de rendimiento está configurado en 'on', el subelemento del informe puede restablecer el parámetro AutoRowFile del informe de puntos.
+  - Cuando el parámetro IsSetStyle está configurado en falso, el valor del parámetro de rendimiento es inválido.
+    Consulte la siguiente configuración. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

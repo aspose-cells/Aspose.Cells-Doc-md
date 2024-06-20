@@ -1,41 +1,44 @@
-﻿---
-title: Stil İletişim Kutusunu Kullanma
+---
+title: Stil Diyaloğunu Kullanmak
 type: docs
 weight: 70
-url: /tr/net/using-style-dialog/
+url: /tr/net/aspose-cells-griddesktop/use-style-dialog/
+keywords: GridDesktop,stil diyaloğu,stil
+description: Bu makale, GridDesktop taki Stil Diyaloğunu tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop, kullanıcılarının verileri üzerinde WYSIWYG modunda çalışmasına izin veren GUI tabanlı bir denetimdir. Farklı türden görevleri gerçekleştirmek için Aspose.Cells.GridDesktop'un API'ini çok araştırdık. Ayrıca, Aspose.Cells.GridDesktop'un sağlam ve daha kolay API'ini kullanarak Izgara, Çalışma Sayfaları, Satırlar ve Sütunlar ve Cells'in biçimlendirme ayarlarını programlı olarak kontrol etmeyi tartıştık. Ancak bunların hepsi programlama açısındandı. Bu konu başlığında, basit bir son kullanıcının, Aspose.Cells.GridDesktop'un biçimlendirme ayarlarını kullanarak nasıl kontrol edebileceğini tartışacağız.**Stil İletişim Kutusu**.
+Aspose.Cells.GridDesktop, kullanıcılarının verileri WYSIWYG modunda çalıştırmasına olanak tanıyan bir GUI tabanlı kontrolüdür. Aspose.Cells.GridDesktop API'sını farklı türde görevleri gerçekleştirmek için keşfettik. Grid, Çalışma Sayfaları, Satırlar ve Sütunların ve Hücrelerin biçimlendirme ayarlarını programlı olarak kontrol etme konusunu da ele aldık. Ancak, tüm bunlar programlama açısından oldu. Bu konuda, bir son kullanıcının Aspose.Cells.GridDesktop'in biçimlendirme ayarlarını nasıl kontrol edebileceğini ele alacağız. Bunun için **Stil Diyaloğu**'nun kullanımını tartışacağız.
 
 {{% /alert %}} 
-## **Stil İletişim Kutusunu Kullanma**
- Kullanmak**Stil İletişim Kutusu** Aspose.Cells.GridDesktop'ta, lütfen aşağıdaki adımları izleyin:
+## **Stil Diyaloğunu Kullanmak**
+Aspose.Cells.GridDesktop'taki **Stil Diyaloğu**'nu kullanmak için lütfen aşağıdaki adımları izleyin:
 
-- **Sağ tık** ızgarada. Bazı seçenekler sunmadan önce bir içerik menüsü açılacaktır.
--  Seçme**Biçimlendir Cells...** bağlam menüsünden seçeneği.
+- Grid üzerinde **Sağ Tıklayın**. Size bazı seçenekler sunan bir bağlam menüsü açılacaktır
+- Bağlam menüsünden **Hücreleri Biçimlendir...** seçeneğini seçin.
 
- seçtikten sonra**Biçimlendir Cells...** seçenek,**Stil İletişim Kutusu** karşınıza çıkacaktı.**Stil İletişim Kutusu** aşağıdakileri içeren birkaç sekmeden oluşur:* **Sayı**
+**Hücreleri Biçimlendir...** seçeneğini seçtikten sonra, **Stil Diyaloğu** sizin önünüze çıkacaktır. **Stil Diyaloğu**, **Sayı** gibi birkaç sekmeden oluşur.
 
+- **Sayı**
 - **Hizalama**
-- **Sınır**
-- **Yazı tipi**
-- **Koruma**
+- **Kenar**
+- **Yazı Tipi**
 
- Her bir sekmeyi tartışalım ve görüntüleyelim**Stil İletişim Kutusu** tek tek
-### **Sayı Sekmesi**
-**Sayı** sekmesini ayarlamak için kullanılır.**Sayı Biçimi** bir hücrenin ayarları. Bir sayı formatı kategorisi seçebilir, değer için ondalık basamaklar ayarlayabilir, bir sembol seti seçebilir ve ayrıca hücrede negatif değerin nasıl gösterileceğini seçebilirsiniz.
+- **Koruma**
+### ****Stil Diyaloğu**'nun her bir sekmesini tartışalım ve inceleyelim.**
+**Sayı** sekmesi, bir hücrenin **Sayı Formatı** ayarlarını yapmak için kullanılır. Bir sayı formatı kategorisi seçebilir, değer için ondalık basamak sayısını belirleyebilir, bir simge seti seçebilir ve ayrıca hücrede negatif değeri nasıl göstereceğinizi seçebilirsiniz.
 ### **Hizalama Sekmesi**
- kullanma**Hizalama** sekmesinde, kullanıcılar metnin yatay ve dikey hizalamasını ayarlayabilir. Hatta metni kaydırma, metni sığdırmak için hücreyi küçültme ve hücreleri birleştirme gibi diğer metin kontrol seçeneklerini de kullanabilirler.
-### **Kenarlık Sekmesi**
-**Sınır** sekmesi, kullanıcıların yalnızca birkaç tıklamayla her tür ve renkte kenarlık çizmesini kolaylaştırır. Tek yapmaları gereken, arzularına göre bir sınır çizmek için birkaç seçeneği seçmek.
+**Hizalama** sekmesi kullanıcıların metnin yatay ve dikey hizalamasını belirlemesini sağlar. Ayrıca metni saran, hücreyi metne uyacak şekilde küçültme ve hücreleri birleştirme gibi diğer metin kontrol seçeneklerini de kullanabilirler.
+### **Kenar Sekmesi**
+**Kenar** sekmesi, kullanıcıların birkaç tıklama ile her türlü kenarı ve rengi çizmelerini sağlar. Sadece bazı seçenekleri seçerek isteklerine göre bir kenar çizmek için yapmaları gereken tek şey budur.
 ### **Yazı Tipi Sekmesi**
- kullanma**Yazı tipi** sekmesinde, kullanıcılar yazı tipi adını, boyutunu, rengini ve stillerini vb. değiştirebilirler. Kullanıcılar ayrıca yazı tipi ayarlarını hücrelere uygulamadan önce önizleyebilirler. Böylece hücrelerin formatlanması kullanıcıların işini kolaylaştırır.**Tam zamanında**.
+**Yazı tipi** sekmesi kullanıcıların yazı tipi adını, boyutunu, rengini ve stillerini değiştirmelerini sağlar. Kullanıcılar hücrelerde uygulamadan önce yazı tipi ayarlarını önizleyebilirler. Bu, kullanıcıların hücreleri **Tam Zamanında** biçimlendirmesini kolaylaştırır.
 ### **Koruma Sekmesi**
-**Koruma** sekmesi, kullanıcıların hücrelerini kilitleyerek veya gizleyerek korumalarına izin verir.
+**Koruma** sekmesi sadece kullanıcıların hücrelerini kilitleyerek veya gizleyerek korumalarına olanak tanır. 
 
 {{% alert color="primary" %}} 
 
- Geliştiriciler de açabilir**Stil İletişim Kutusu**çağırarak programlı olarak**ShowStyleDialog** yöntemi**IzgaraMasaüstü**
+Geliştiriciler, ayrıca **GridDesktop**'ın **Stil Diyaloğu**'nu programlı olarak çağırarak **ShowStyleDialog** yöntemini açabilir.
 
 {{% /alert %}}

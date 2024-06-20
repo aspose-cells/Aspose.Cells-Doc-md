@@ -1,25 +1,26 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.5.2
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.5.2
 type: docs
 weight: 190
 url: /de/java/public-api-changes-in-aspose-cells-8-5-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.5.1 zu 8.5.2, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden,[zusätzliche Klassen usw.](/cells/de/java/public-api-changes-in-aspose-cells-8-5-2/), sondern auch eine Beschreibung etwaiger Verhaltensänderungen hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 8.5.1 auf 8.5.2, die für Modul-/Anwendungs-Entwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, [hinzugefügte Klassen usw.](/cells/de/java/public-api-changes-in-aspose-cells-8-5-2/), sondern auch eine Beschreibung von Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Rendern Sie das Arbeitsblatt in den grafischen Kontext**
-Diese Version von Aspose.Cells for Java API hat eine weitere Überladung der SheetRender.toImage-Methode verfügbar gemacht, die es jetzt ermöglicht, eine Instanz der Graphics2D-Klasse zu akzeptieren[Rendern Sie das Arbeitsblatt im Grafikkontext](/cells/de/java/render-worksheet-to-graphic-context/). Die Signaturen der neu hinzugefügten Methode sind wie folgt.
+## **Hinzugefügte APIs**
+### **Arbeitsblatt in Grafikkontext rendern**
+Diese Version von Aspose.Cells for Java-API hat eine weitere Überlastung der SheetRender.toImage-Methode freigelegt, die jetzt eine Instanz der Graphics2D-Klasse akzeptiert, um [das Arbeitsblatt im grafischen Kontext zu rendern](/cells/de/java/render-worksheet-to-graphic-context/). Die Signaturen der neu hinzugefügten Methode lauten wie folgt.
 
-- SheetRender.toImage(int pageIndex, Graphics2D-Grafik)
+- SheetRender.toImage(int pageIndex, Graphics2D graphic)
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -62,14 +63,14 @@ File outputfile = new File("test.png");
 ImageIO.write(image, "png", outputfile);
 
 {{< /highlight >}}
-### **Methode PivotTable.getCellByDisplayName hinzugefügt**
- Aspose.Cells for Java 8.5.2 hat die PivotTable.getCellByDisplayName-Methode verfügbar gemacht, die verwendet werden kann[Rufen Sie das Objekt Cell nach dem Namen des PivotField ab](/cells/de/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Diese Methode kann in Szenarien nützlich sein, in denen Sie den PivotField-Header hervorheben oder formatieren möchten.
+### **Hinzugefügter PivotTable.getCellByDisplayName-Methode**
+Aspose.Cells for Java 8.5.2 hat die PivotTable.getCellByDisplayName-Methode freigelegt, die verwendet werden kann, um [das Zellenobjekt nach dem Namen des PivotField abzurufen](/cells/de/java/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Diese Methode könnte in Szenarien nützlich sein, in denen Sie den PivotField-Header hervorheben oder formatieren möchten.
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -106,35 +107,35 @@ pivotTable.format(cell.getRow(), cell.getColumn(), style);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Eigenschaft SaveOptions.MergeAreas hinzugefügt**
-Aspose.Cells for Java 8.5.2 hat die Eigenschaft SaveOptions.MergeAreas verfügbar gemacht, die Werte vom Typ Boolean akzeptieren kann. Der Standardwert ist "false". Wenn er jedoch auf "true" gesetzt ist, versucht Aspose.Cells for Java API, die einzelne CellArea zusammenzuführen, bevor die Datei gespeichert wird.
+### **Hinzugefügte SaveOptions.MergeAreas-Eigenschaft**
+Aspose.Cells for Java 8.5.2 hat die SaveOptions.MergeAreas-Eigenschaft freigelegt, die einen Wert vom Typ Boolean akzeptieren kann. Der Standardwert ist false, jedoch versucht, wenn er auf true gesetzt ist, die Aspose.Cells for Java-API, die einzelnen CellAreas vor dem Speichern der Datei zusammenzuführen.
 
 {{% alert color="primary" %}} 
 
-Wenn eine Tabelle zu viele einzelne Zellen mit angewendeter Validierung enthält, besteht die Möglichkeit, dass die resultierende Tabelle beschädigt wird. Eine mögliche Lösung besteht darin, die Zellen mit identischen Validierungsregeln zusammenzuführen, oder Sie können jetzt die Eigenschaft SaveOptions.MergeAreas verwenden, um API anzuweisen, die CellAreas vor dem Speichervorgang automatisch zusammenzuführen.
+Wenn in einer Tabellenkalkulation zu viele einzelne Zellen mit angewendeter Validierung vorhanden sind, besteht die Gefahr, dass die resultierende Tabellenkalkulation beschädigt wird. Eine mögliche Lösung ist, die Zellen mit identischen Validierungsregeln zusammenzuführen, oder Sie können jetzt die SaveOptions.MergeAreas-Eigenschaft verwenden, um die API anzuweisen, die CellAreas automatisch vor dem Speichervorgang zusammenzuführen.
 
 {{% /alert %}} 
-### **Eigenschaft Geometry.ShapeAdjustValues Hinzugefügt**
- Mit der Veröffentlichung von v8.5.2 hat Aspose.Cells API die Geometry.getShapeAdjustValues-Methode verfügbar gemacht, die verwendet werden kann[auf die Anpassungspunkte verschiedener Formen zugreifen und Änderungen daran vornehmen](/cells/de/java/change-adjustment-values-of-the-shape/).
+### **Hinzugefügte Geometry.ShapeAdjustValues-Eigenschaft**
+Mit der Veröffentlichung von v8.5.2 hat die Aspose.Cells-API die Geometry.getShapeAdjustValues-Methode freigelegt, die dazu verwendet werden kann, [auf die Anpassungspunkte verschiedener Formen zuzugreifen und Änderungen vorzunehmen](/cells/de/java/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
-In der Microsoft Excel-Oberfläche werden die Anpassungspunkte als gelbe Rautenknoten angezeigt.
+Im Microsoft Excel-Interface werden die Anpassungspunkte als gelbe Diamantknoten angezeigt.
 
 {{% /alert %}} 
 
- Zum Beispiel,
+Zum Beispiel 
 
-1. Abgerundetes Rechteck hat eine Anpassung, um den Bogen zu ändern
-1. Dreieck hat eine Anpassung, um die Position des Punktes zu ändern
-1. Trapez hat eine Anpassung, um die Breite der Oberseite zu ändern
-1. Pfeile haben zwei Anpassungen, um die Form des Kopfes und des Schwanzes zu ändern
+1. Das abgerundete Rechteck hat eine Anpassung, um den Bogen zu ändern
+1. Das Dreieck hat eine Anpassung, um die Position des Punkts zu ändern
+1. Das Trapezoid hat eine Anpassung, um die Breite des oberen Teils zu ändern
+1. Pfeile haben zwei Anpassungen, um die Form des Kopfes und des Endes zu ändern
 
 Hier ist das einfachste Anwendungsszenario.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -165,11 +166,11 @@ shape3.getGeometry().getShapeAdjustValues().get(0).setValue(0.5d);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Aufzählungsfeld ConsolidationFunction.DISTINCT_COUNT Hinzugefügt**
-Aspose.Cells for Java 8.5.2 hat das Feld ConsolidationFunction.DISTINCT_COUNT bereitgestellt, das verwendet werden kann, um die konsolidierte Funktion Distinct Count auf DataField einer PivotTable anzuwenden.
+### **Aufzählungsfeldkonsolidierungsfunktion.DISTINCT_COUNT Hinzugefügt**
+Aspose.Cells for Java 8.5.2 hat das Feld ConsolidationFunction.DISTINCT_COUNT freigelegt, das verwendet werden kann, um die konsolidierte Funktion Distinct Count auf das Datenfeld eines PivotTables anzuwenden.
 
 {{% alert color="primary" %}} 
 
-Die Distinct Count-Konsolidierungsfunktion wird nur von Microsoft Excel 2013 unterstützt.
+Die Konsolidierungsfunktion Distinct Count wird nur von Microsoft Excel 2013 unterstützt.
 
 {{% /alert %}}

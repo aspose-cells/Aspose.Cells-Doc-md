@@ -1,25 +1,26 @@
-﻿---
-title: نطاق تصدير Cells في ورقة عمل إلى صورة
+---
+title: تصدير مجموعة من الخلايا في ورقة عمل إلى صورة
 type: docs
 weight: 60
 url: /ar/net/export-range-of-cells-in-a-worksheet-to-image/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك عمل صورة لورقة عمل باستخدام Aspose.Cells. ومع ذلك ، في بعض الأحيان تحتاج فقط إلى تصدير نطاق من الخلايا في ورقة عمل إلى صورة. تشرح هذه المقالة كيفية تحقيق ذلك.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **نطاق تصدير Cells في ورقة عمل إلى صورة**
+يمكنك إنشاء صورة لورقة عمل باستخدام Aspose.Cells. ومع ذلك، في بعض الأحيان، تحتاج إلى تصدير مجموعة من الخلايا فقط في ورقة عمل إلى صورة. تشرح هذه المقالة كيفية تحقيق ذلك.
 
- لالتقاط صورة لنطاق ، اضبط منطقة الطباعة على النطاق المطلوب ثم اضبط جميع الهوامش على 0. قم أيضًا بتعيين[**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet) إلى**حقيقي** . يأخذ الكود التالي صورة للنطاق D8: G16. يوجد أدناه لقطة شاشة لـ[نموذج لملف Excel](47153160.xlsx) المستخدمة في الكود. يمكنك تجربة الكود مع أي ملف Excel.
+## **تصدير مجموعة من الخلايا في ورقة عمل إلى صورة**
 
-## **لقطة شاشة لملف Excel ونسخته المصدرة**
+لالتقاط صورة من مجموعة، قم بتعيين منطقة الطباعة إلى المجال المطلوب ثم قم بتعيين جميع الهوامش إلى 0. كما قم بتعيين [**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet) إلى **صحيح**. يأخذ الكود التالي صورة للمدى D8:G16. أدناه، صورة لل[ملف الإكسل عينة](47153160.xlsx) المستخدم في الكود. يمكنك تجربة الكود مع أي ملف إكسل.
 
-**! [todo: image_alt_text] (export-range-of-cells-in-a-workheet-to-image_1.png)**
+## **صورة للملف الإكسل العيني وصورته المصدرية**
 
-يؤدي تنفيذ الكود إلى إنشاء صورة للنطاق D8: G16 فقط.
+**![todo:image_alt_text](export-range-of-cells-in-a-worksheet-to-image_1.png)**
 
-**[todo: image_alt_text] (Output-Image.png)**
+تنفيذ الكود ينشئ صورة للمدى D8:G16 فقط.
 
-## **عينة من الرموز**
+**![todo:image_alt_text](Output-Image.png)**
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-ExportRangeOfCellsInWorksheetToImage-1.cs" >}}

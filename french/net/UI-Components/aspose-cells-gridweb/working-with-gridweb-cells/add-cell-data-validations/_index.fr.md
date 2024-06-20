@@ -1,18 +1,21 @@
-﻿---
-title: Ajouter Cell Validations de données
+---
+title: Ajouter des validations de données de cellule
 type: docs
 weight: 90
-url: /fr/net/add-cell-data-validations/
+url: /fr/net/aspose-cells-gridweb/add-cell-data-validations/
+keywords: GridWeb,validation,validation de données,GridValidation
+description: Cet article présente comment ajouter une validation de données (GridValidation) dans GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb vous permet d'ajouter**La validation des données** en utilisant la méthode GridWorksheet.Validations.Add(). En utilisant cette méthode, vous devez spécifier le**Cell Gamme** Mais si vous souhaitez créer une validation de données dans un seul GridCell, vous pouvez le faire directement en utilisant la méthode GridCell.CreateValidation(). De même, vous pouvez supprimer**La validation des données** à partir d'un GridCell à l'aide de la méthode GridCell.RemoveValidation().
+Aspose.Cells.GridWeb vous permet d'ajouter une **Validation des données** en utilisant la méthode GridWorksheet.Validations.Add(). En utilisant cette méthode, vous devez spécifier la **Plage de cellules**. Mais si vous voulez créer une Validation de données dans une seule GridCell, vous pouvez le faire directement en utilisant la méthode GridCell.CreateValidation(). De même, vous pouvez supprimer la **Validation de données** d'une GridCell en utilisant la méthode GridCell .RemoveValidation().
 
 {{% /alert %}} 
-## **Créer une validation de données dans une GridCell de GridWeb**
- L'exemple de code suivant crée un**La validation des données** dans une cellule B3. Si vous entrez une valeur qui n'est pas comprise entre 20 et 40, la cellule B3 affichera**erreur de validation** sous la forme de**Rouge XXXX** comme le montre cette capture d'écran.
+## **Créer une validation de données dans une cellule de GridWeb**
+Le code d'exemple suivant crée une **Validation de données** dans une cellule B3. Si vous saisissez une valeur qui n'est pas comprise entre 20 et 40, la cellule B3 affichera une **Erreur de validation** sous la forme de **XXXX rouge**, comme le montre cette capture d'écran.
 
-![tâche : image_autre_texte](add-cell-data-validations_1.png)
+![todo:image_alt_text](add-cell-data-validations_1.png)
 
 
 

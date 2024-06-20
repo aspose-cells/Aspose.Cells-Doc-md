@@ -1,19 +1,20 @@
 ---
 title: チャートポイントのリッチテキストカスタムデータラベル
-description: Aspose.Cells for .NET のグラフ ポイントにリッチ テキストのカスタム データ ラベルを追加する方法について説明します。このガイドでは、グラフの外観と読みやすさを向上させるために、さまざまなフォント、色、配置オプションを使用してラベルを書式設定する方法を説明します。
-keywords: Aspose.Cells for .NET, charting, rich text, custom data labels, fonts, colors, alignment, appearance, readability.
+description: Aspose.Cells for .NETでチャートポイントにリッチテキストカスタムデータラベルを追加する方法を学習してください。ガイドでは、異なるフォント、色、配置オプションでラベルをフォーマットし、チャートの外観と可読性を向上させる方法を示します。
+keywords: Aspose.Cells for .NET、チャート作成、リッチテキスト、カスタムデータラベル、フォント、色、配置、外観、可読性。
 type: docs
 weight: 10
 url: /ja/net/rich-text-custom-data-label-of-chart-point/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells を使用して、チャート ポイントのリッチ テキスト カスタム データ ラベルを作成できます。 Aspose.Cells は、[**DataLabels.Characters()**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/methods/characters)を返すメソッド[**フォント設定**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting)色、太さなどのテキストのフォントプロパティを設定するために使用できるオブジェクト。
+Aspose.Cellsを使用して、チャートポイントのリッチテキストカスタムデータラベルを作成することができます。Aspose.Cellsは、フォントのプロパティ（色、太字など）を設定するために使用できる[**DataLabels.Characters()**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/methods/characters)メソッドを提供しています。
 
 {{% /alert %}}
 
 ## チャートポイントのリッチテキストカスタムデータラベル
 
-次のコードは、最初のシリーズの最初のグラフ ポイントにアクセスし、そのテキストを設定し、色を赤に、太字を *true** に設定して、最初の 10 文字のフォントを設定します。
+次のコードは、最初のシリーズの最初のチャートポイントにアクセスし、そのテキストを設定し、その後、最初の10文字のフォントを赤に設定し、**true**に太字を設定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}

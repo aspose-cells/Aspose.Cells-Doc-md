@@ -1,24 +1,25 @@
 ---
-title: クライアント側で GridWeb セルの値を読み取る
+title: クライアントサイドでGridWebセルの値を読み取ります。
 type: docs
 weight: 10
 url: /ja/java/read-the-values-of-the-gridweb-cells-on-client-side/
 ---
-##  **考えられる使用シナリオ**
-Gridwebinstance.getCellsArray() メソッドを使用して、クライアント側スクリプトで GridWeb セルの値を読み取ることができます。一度呼び出すと、アクティブなワークシート内のすべてのセルの配列が返されます。次に、次のメソッドを使用して、セルの値やその他の情報を取得できます。
 
-- グリッドウェブインスタンス.getCellName()
-- Gridwebinstance.getCellValueByCell()
-- グリッドウェブインスタンス.getCellRow()
-- Gridwebinstance.getCellColumn()
-##  **クライアント側で GridWeb セルの値を読み取る**
-次のサンプル コードは、すべてのセルを取得し、その名前、値、行、列を出力します。この記事の下部でコンソール出力を確認できます。次のスクリーンショットは、Google Chrome でのサンプル コードのコンソール出力を示しています。
-##  **スクリーンショット**
+## **可能な使用シナリオ**
+client side scriptを使用してGridWebセルの値を読み取るには、gridwebinstance.getCellsArray()メソッドを使用します。一度呼び出すと、アクティブなワークシートのすべてのセルの配列が返されます。その後、以下のメソッドを使用してセルの値やその他の情報を取得できます。
+
+- gridwebinstance.getCellName()
+- gridwebinstance.getCellValueByCell()
+- gridwebinstance.getCellRow()
+- gridwebinstance.getCellColumn()
+## **クライアントサイドでGridWebセルの値を読み取ります**
+次のサンプルコードはすべてのセルを取得し、その名前、値、行、列を表示します。このコードのコンソール出力は、この記事の下部に表示されます。以下のスクリーンショットは、Google Chromeでのサンプルコードのコンソール出力を示しています。
+## **スクリーンショット**
 ![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
 
-##  **サンプルコード**
-{{< highlight "java" >}}
+## **サンプルコード**
+{{< highlight java >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
 
@@ -125,10 +126,10 @@ out.print(gridweb.getHTMLBody());
 </html>
 
 {{< /highlight >}}
-##  **コンソール出力**
-これは、上記のサンプル コードのコンソール出力です。
+## **コンソール出力**
+これは上記のサンプルコードのコンソール出力です。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0:A1,value is:This ,row:0,col:0
 

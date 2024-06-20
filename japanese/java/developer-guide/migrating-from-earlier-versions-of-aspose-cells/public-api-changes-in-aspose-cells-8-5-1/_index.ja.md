@@ -1,21 +1,22 @@
-﻿---
-title: パブリック API Aspose.Cells 8.5.1 の変更点
+---
+title: Aspose.Cells 8.5.1 での Public API 変更
 type: docs
 weight: 180
 url: /ja/java/public-api-changes-in-aspose-cells-8-5-1/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.5.0 から 8.5.1 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/java/public-api-changes-in-aspose-cells-8-5-1/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
+このドキュメントには、バージョン8.5.0から8.5.1へのAspose.Cells APIの変更が含まれており、モジュール/アプリケーション開発者に興味を持たれる可能性があるものです。新しいメソッドや更新されたpublicメソッド,[追加されたクラスなど](/cells/ja/java/public-api-changes-in-aspose-cells-8-5-1/)だけでなく、Aspose.Cellsの背後での挙動に変更がある場合についての説明も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **メソッド Workbook.Dispose が追加されました**
-Aspose.Cells for Java 8.5.1 では、Workbook オブジェクトのアンマネージ リソースを解放する Workbook.dispose メソッドが公開されました。 Dispose パターンは、ファイルおよびパイプ ハンドル、レジストリ ハンドル、待機ハンドル、アンマネージ メモリのブロックへのポインターなど、アンマネージ リソースにアクセスするオブジェクトに対してのみ使用されます。これは、ガベージ コレクターが未使用の管理対象オブジェクトを効率的に再利用できるが、管理されていないオブジェクトを再利用できないためです。
+## **APIの追加**
+### **Workbook.Disposeメソッドを追加**
+Aspose.Cells for Java 8.5.1では、Workbook.disposeメソッドを公開し、Workbookオブジェクトのアンマネージリソースを解放するようになりました。アンマネージリソースにアクセスするオブジェクトにのみdisposeパターンが使用されます。このようなオブジェクトには、ファイルやパイプハンドル、レジストリハンドル、ウェイトハンドル、またはアンマネージメモリブロックへのポインタなど、アンマネージリソースにアクセスするオブジェクトが含まれます。これは、ガベージコレクタが未使用の管理されたオブジェクトを効率的に回収できるが、アンマネージされたオブジェクトを回収できないためです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -26,23 +27,23 @@ Workbook book = new Workbook();
 book.dispose();
 
 {{< /highlight >}}
-### **メソッド Cell.getHeightOfValue を追加**
-Aspose.Cells for Java 8.5.1 では、セル値の高さを取得する Cell.getHeightOfValue メソッドが公開されました。このメソッドを使用すると、セル値の高さを計算し、そのセルの行の高さをそれぞれ設定できます。の詳細記事をチェック[セルの高さと幅を計算する方法](/cells/ja/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
-### **列挙 TableDataSourceType が追加されました**
-Aspose.Cells for Java 8.5.1 では、列挙 com.aspose.cells.TableDataSourceType を公開して、ListObject のデータ ソース タイプを取得しました。次のフィールドとしての TableDataSourceType 列挙。
+### **Cell.getHeightOfValueメソッドを追加**
+Aspose.Cells for Java 8.5.1では、Cell.getHeightOfValueメソッドを公開し、セル値の高さを取得するようになりました。このメソッドを使用することで、セル値の高さを計算し、そのセルの行の高さを設定することができます。詳細については、[セルの高さと幅を計算する方法](/cells/ja/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)の詳細な記事をご覧ください。
+### **Enumeration TableDataSourceTypeを追加**
+Aspose.Cells for Java 8.5.1では、ListObjectのデータソースタイプを取得するための列挙型com .aspose.cells.TableDataSourceTypeを公開しました。TableDataSourceType列挙型には以下のフィールドが含まれています。 
 
 1. TableDataSourceType.QUERY_TABLE
 1. TableDataSourceType.SHARE_POINT
 1. TableDataSourceType.WORKSHEET
 1. TableDataSourceType.XML
-### **プロパティ ListObject.DataSourceType が追加されました**
-v8.5.1 のリリースにより、Aspose.Cells API は、ListObject のデータ ソース タイプを検出するために使用できる読み取り専用の ListObject.DataSourceType プロパティを公開しました。
+### **ListObject.DataSourceTypeプロパティを追加**
+v8.5.1のリリースに伴い、Aspose.Cells APIは読み取り専用のListObject.DataSourceTypeプロパティを公開しました。このプロパティを使用して、ListObjectのデータソースタイプを検出することができます。
 
-これが最も単純な使用シナリオです。
+以下は最もシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("D:/book1.xlsx");
 

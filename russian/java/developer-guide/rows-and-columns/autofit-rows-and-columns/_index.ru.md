@@ -1,75 +1,76 @@
-﻿---
-title: Автоподбор строк и столбцов
+---
+title: Автоподбор высоты и ширины строк и столбцов
 type: docs
 weight: 20
 url: /ru/java/autofit-rows-and-columns/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel предоставляет хорошую функцию автоматического изменения ширины и высоты ячейки в соответствии с ее содержимым. Эта функция также доступна для пользователей Aspose.Cells с возможностью автоматического изменения размеров ячейки во время выполнения.
+Microsoft Excel предоставляет хорошую возможность автоматического изменения ширины и высоты ячейки в соответствии с её содержимым. Эта возможность также доступна пользователям Aspose.Cells с возможностью автоматического изменения размеров ячейки во время выполнения.
 
 {{% /alert %}} 
-## **Автоматическая установка**
- Aspose.Cells предоставляет класс,[Рабочая тетрадь](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , представляющий файл Excel Microsoft.[Рабочая тетрадь](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) класс содержит[Рабочие листы](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel.
+## **Автоматическая подгонка размера**
+Aspose.Cells предоставляет класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) содержит коллекцию [Worksheets](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets), позволяющую получать доступ к каждому листу в файле Excel.
 
- Рабочий лист представлен[Рабочий лист](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) учебный класс.[Рабочий лист](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Класс предоставляет широкий спектр свойств и методов для управления рабочим листом. В этой статье рассматривается использование[Рабочий лист](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)класс для автоподбора строк или столбцов.
-### **Автоподбор строки — простой**
- Самый простой подход к автоматическому изменению ширины и высоты строки — вызвать метод[Рабочий лист](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) учебный класс'[autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\) ) метод.[autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\)) принимает индекс строки (строки, размер которой нужно изменить) в качестве параметра.
+Лист представлен классом [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Класс [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) предоставляет множество свойств и методов для управления листом. В этой статье рассматривается использование класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) для автоподбора высоты строк или ширины столбцов.
+### **Автоматическая подгонка строки - простой**
+Наиболее простой подход к автоматическому изменению ширины и высоты строки - вызов метода [autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\)) класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Метод [autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\)) принимает индекс строки (строки, которую необходимо изменить) в качестве параметра.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsandColumns-AutoFitRowsandColumns.java" >}}
-### **Автоподбор строки в диапазоне Cells**
- Строка состоит из множества столбцов. Aspose.Cells позволяет разработчикам автоматически подбирать строку на основе содержимого диапазона ячеек в строке, вызывая перегруженную версию[autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int,%20int,%20int\)) метод. Он принимает следующие параметры:
+### **Автоподбор высоты строки в диапазоне ячеек**
+Строка состоит из множества столбцов. Aspose.Cells позволяет разработчикам автоматически подогнать строку под содержимое диапазона ячеек внутри строки, вызвав перегруженную версию метода [autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int,%20int,%20int\)). Он принимает следующие параметры:
 
-- **Индекс строки**, индекс строки, которая будет автоматически подобрана.
-- **Индекс первого столбца**, индекс первого столбца строки.
-- **Индекс последнего столбца**, индекс последнего столбца строки.
+- Индекс строки, индекс строки, которую нужно автоматически подогнать.
+- Индекс первого столбца, индекс первого столбца строки.
+- Индекс последнего столбца, индекс последнего столбца строки.
 
-[autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int,%20int,%20int\)) проверяет содержимое всех столбцов в строке, а затем автоматически подбирает строку.
+Метод [autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int,%20int,%20int\)) проверяет содержимое всех столбцов строки и автоматически подгоняет размер строки.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsinaRangeofCells-AutoFitRowsinaRangeofCells.java" >}}
-### **Столбец автоподбора — простой**
- Самый простой способ автоматически изменить ширину и высоту столбца — вызвать метод[Рабочий лист](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) учебный класс'[autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\) ) метод.[autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\)принимает индекс столбца (столбца, размеры которого должны быть изменены) в качестве параметра.
+### **Автоподгонка столбца - Простая**
+Самый простой способ автоматически установить ширину и высоту столбца - вызвать метод [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\)) класса [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Метод [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\)) принимает индекс столбца (столбец, который будет изменен в размере) в качестве параметра.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsandColumns-AutoFitRowsandColumns.java" >}}
-### **Автоподбор столбца в диапазоне Cells**
- Столбец состоит из множества строк. Можно автоматически подогнать столбец на основе содержимого диапазона ячеек в столбце, вызвав перегруженную версию[autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) метод, который принимает следующие параметры:
+### **Автоподгонка столбца в диапазоне ячеек**
+Столбец состоит из множества строк. Можно подогнать столбец по содержимому диапазона ячеек в столбце, вызвав перегруженную версию метода [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)), который принимает следующие параметры:
 
 - **Индекс столбца**, представляет индекс столбца, содержимое которого должно быть автоматически подогнано
 - **Индекс первой строки**, представляет индекс первой строки столбца
 - **Индекс последней строки**, представляет индекс последней строки столбца
 
-[autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) проверяет содержимое всех строк в столбце, а затем автоматически подбирает размер столбца.
+Метод [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) проверяет содержимое всех строк в столбце и автоматически подгоняет размер столбца.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitColumnsinaRangeofCells-AutoFitColumnsinaRangeofCells.java" >}}
-### **Автоподбор строк для объединенных Cells**
-С помощью Aspose.Cells можно автоматически подбирать строки даже для ячеек, которые были объединены с помощью[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) API. [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)класс предоставляет[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType)свойство, которое можно использовать для автоподбора строк для объединенных ячеек.[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType)принимает[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitMergedCellsType)перечислимое, которое имеет следующие члены.
+### **AutoFit строк для объединенных ячеек**
+С помощью Aspose.Cells можно автоматически подогнать строки даже для объединенных ячеек, используя API [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions). Класс [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) предоставляет свойство [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType), которое можно использовать для автоматической подгонки строк для объединенных ячеек. [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType) принимает перечисление [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitMergedCellsType) со следующими элементами:
 
-- [НИКТО](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#NONE): игнорировать объединенные ячейки.
-- [ПЕРВАЯ СТРОКА](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#FIRST_LINE): Увеличивает только высоту первой строки.
-- [ПОСЛЕДНЯЯ ЛИНИЯ](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#LAST_LINE): Увеличивает только высоту последней строки.
-- [КАЖДАЯ СТРОКА](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#EACH_LINE): увеличивает только высоту каждой строки.
+- [НИКАКОЙ](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#NONE): Игнорирует объединенные ячейки.
+- [ПЕРВАЯ_СТРОКА](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#FIRST_LINE): Расширяет только высоту первой строки.
+- [ПОСЛЕДНЯЯ_СТРОКА](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#LAST_LINE): Расширяет только высоту последней строки.
+- [КАЖДАЯ_СТРОКА](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#EACH_LINE): Расширяет только высоту каждой строки.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-AutofitRowsforMergedCells-1.java" >}}
 
- Вы также можете использовать перегруженные версии[autoFitRows](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRows\(\)) & [autoFitColumns](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumns\(\) ) методы, принимающие диапазон строк/столбцов и экземпляр[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) для автоматического подбора выбранных строк/столбцов с желаемым[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)соответственно.
+Также можно использовать перегруженные версии методов [autoFitRows](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRows\(\)) и [autoFitColumns](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumns\(\)), принимающих диапазон строк/столбцов и экземпляр [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) для автоматической подгонки выбранных строк/столбцов с желаемыми [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) в соответствии.
 
-Сигнатуры вышеуказанных методов следующие:
+Сигнатуры вышеперечисленных методов следующие:
 
-1.  autoFitRows(int startRow, int endRow,[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)параметры)
-1.  autoFitColumns (int firstColumn, int lastColumn,[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)параметры)
+1. autoFitRows(int startRow, int endRow, [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) options)
+1. autoFitColumns(int firstColumn, int lastColumn, [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) options)
 ## **Важно знать**
 {{% alert color="primary" %}} 
 
- Если ячейка объединена, то*Автоподбор* методы не будут применяться, как и в Microsoft Excel. Более того, если текст в ячейке переносится,[autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\) ) метод также не будет применяться. Еще одна вещь, которую вам нужно знать, это то, что*Автоподбор*методы отнимают много времени. Таким образом, вы должны вызывать эти методы как можно реже, чтобы обеспечить эффективность вашего приложения.
+Если ячейка объединена, то метод *AutoFit* не будет применен, что соответствует поведению в Microsoft Excel. Более того, если текст в ячейке перенесен, то метод [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\)) также не будет применен. Еще одна важная вещь, которую вам следует знать, заключается в том, что методы *AutoFit* занимают много времени. Поэтому вы должны вызывать эти методы как можно реже, чтобы обеспечить эффективность вашего приложения.
 
 {{% /alert %}}

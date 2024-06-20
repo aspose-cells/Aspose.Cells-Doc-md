@@ -1,28 +1,29 @@
-﻿---
-title: حماية وعدم حماية المصنفات
+---
+title: حماية وإلغاء حماية مصنفات العمل
 type: docs
 weight: 20
 url: /ar/net/protecting-and-unprotecting-workbooks/
 ---
+
 {{% alert color="primary" %}} 
 
-لمنع أي شخص من تغيير أوراق العمل أو نقلها أو حذفها عن طريق الخطأ أو عن عمد ، يمكنك حماية عناصر المصنف بكلمة مرور أو بدونها. لحماية بنية المصنف بحيث لا يمكن نقل أوراق العمل الموجودة في المصنف أو حذفها أو إخفاؤها أو إظهارها أو إعادة تسميتها ، ولا يمكن إدراج أوراق عمل جديدة ، حدد نوع Protection على هيئة هيكل.
+لمنع شخص ما من تغيير أوراق العمل بطريقة عرضية أو متعمدة ، أو حذفها ، يمكنك حماية عناصر مصنف العمل مع أو بدون كلمة مرور. لحماية هيكل مصنف العمل بحيث لا يمكن نقل أوراق العمل في مصنف العمل أو حذفها أو إخفاؤها أو إظهارها أو إعادة تسميتها ، ولا يمكن إدراج أوراق العمل الجديدة ، حدد ProtectionType كهيكل.
 
- لحماية Windows بحيث تكون بنفس الحجم والموضع في كل مرة يتم فيها فتح المصنف ، حدد ProtectionType كـ Windows. في هذه المقالة ، نوضح كيفية[يحمي](/cells/ar/net/protecting-and-unprotecting-workbooks/) و[غير محمي](/cells/ar/net/protecting-and-unprotecting-workbooks/) المصنفات التي تستخدم VSTO و Aspose.Cells for .NET لتمكنك من مقارنة الطريقتين.
+لحماية النوافذ بحيث تكون نفس الحجم والموضع في كل مرة يتم فيها فتح مصنف العمل ، حدد ProtectionType كـ Windows. في هذه المقالة ، نوضح كيفية [حماية](/cells/ar/net/protecting-and-unprotecting-workbooks/) و [إلغاء الحماية](/cells/ar/net/protecting-and-unprotecting-workbooks/) مصنفات العمل باستخدام VSTO و Aspose.Cells for .NET لتمكينك من مقارنة الطريقتين.
 
-يعمل Aspose.Cells بشكل مستقل عن Microsoft Office Automation وتم تطويره ليكون سهل الاستخدام وينتج كودًا أنيقًا.
+يعمل Aspose.Cells بشكل مستقل عن أتمتة مايكروسوفت أوفيس وتم تطويره ليكون سهل الاستخدام وينتج كودًا منظمًا.
 
-لا تمنع حماية المصنف المستخدمين من تحرير الخلايا. لحماية البيانات ، يجب عليك حماية أوراق العمل.
+حماية مصنف العمل لا تمنع المستخدمين من تحرير الخلايا. لحماية البيانات ، يجب عليك حماية أوراق العمل.
 
 {{% /alert %}} 
-## **حماية مصنف**
-لفتح ملف Excel Microsoft موجود ، قم بحماية المصنف بالهيكل والخصائص Windows واحفظ الملف.
+## **حماية مصنف العمل**
+لفتح ملف Microsoft Excel موجود، حماية المصنف بالبنية وسمات ويندوز وحفظ الملف.
 
-فيما يلي مقتطفات التعليمات البرمجية المتوازية لـ VSTO (C# ، VB) و Aspose.Cells for .NET (C# ، VB) التي توضح كيفية حماية مصنف.
+فيما يلي مقتطفات الكود المتوازية لـ VSTO (C#، VB) و Aspose.Cells for .NET (C#، VB) التي تُظهر كيفية حماية مصنف العمل.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -80,7 +81,7 @@ excelApp.Quit();
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -110,12 +111,12 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 
 {{< /highlight >}}
-## **غير حماية مصنف**
-لإلغاء حماية مصنف ، استخدم سطور التعليمات البرمجية التالية لـ VSTO (C#، VB) و Aspose.Cells for .NET (C#، VB).
+## **إلغاء حماية جدول**
+لإلغاء حماية جدول، استخدم الأسطر التالية من الشفرة لـ VSTO (C#، VB) و Aspose.Cells for .NET (C#، VB).
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 
@@ -129,7 +130,7 @@ excelApp.ActiveWorkbook.Unprotect("007");
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 

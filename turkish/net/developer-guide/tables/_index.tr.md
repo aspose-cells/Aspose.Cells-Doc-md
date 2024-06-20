@@ -1,64 +1,65 @@
-﻿---
+---
 title: Microsoft Excel dosyalarının tablolarını oluşturun ve yönetin.
 linktitle: Tablolar
 type: docs
 weight: 150
 url: /tr/net/create-and-format-table/
-description: Aspose.Cells kitaplığını kullanarak Excel dosyalarının tablosunu ekleyin, yeniden boyutlandırın, düzenleyin, silin, biçimlendirin.
+description: Aspose.Cells kütüphanesi kullanarak Excel dosyalarının tablosunu ekle, yeniden boyutlandır, düzenle, sil ve biçimlendirin.
 ---
+
 ## **Tablo Oluştur**
 
-E-tabloların avantajlarından biri, telefon listeleri, görev listeleri, işlem listeleri, varlıklar veya yükümlülükler gibi farklı türde listeler oluşturmanıza izin vermesidir. Birkaç kullanıcı, çeşitli listeleri kullanmak, oluşturmak ve sürdürmek için birlikte çalışabilir.
+Hesap tablolarının avantajlarından biri, telefon listeleri, görev listeleri, işlemler, varlıklar veya borçlar gibi farklı tiplerde listeler oluşturmanıza olanak tanımalarıdır. Çeşitli kullanıcılar birden fazla listeyi kullanmak, oluşturmak ve yönetmek için birlikte çalışabilir.
 
-Aspose.Cells, Liste oluşturmayı ve yönetmeyi destekler.
+Aspose.Cells, listeler oluşturmayı ve yönetmeyi destekler.
 
-### **Liste Nesnesinin Avantajları**
+### **Liste Nesnesi Avantajları**
 
-Bir veri listesini gerçek bir Liste Nesnesine dönüştürdüğünüzde pek çok avantaj vardır.
+Veri listesini gerçek bir Liste Nesnesine dönüştürdüğünüzde birkaç avantaj bulunmaktadır
 
-- Yeni satırlar ve sütunlar otomatik olarak dahil edilir.
-- SUM, AVERAGE, COUNT, vb. görüntülemek için listenizin en altına bir toplam satırı kolayca eklenebilir.
-- Sağa eklenen sütunlar otomatik olarak List nesnesine eklenir.
-- Satır ve sütunlara dayalı grafikler otomatik olarak genişletilecektir.
+- Yeni satır ve sütunlar otomatik olarak dahil edilir.
+- Listenizin altından toplam satırı SUM, AVERAGE, COUNT vb. göstermek için kolayca ekleyebilirsiniz.
+- Sağa eklenen sütunlar otomatik olarak List nesnesine dahil edilir.
+- Satırlar ve sütunlara dayalı grafikler otomatik olarak genişletilecektir.
 - Satırlara ve sütunlara atanan adlandırılmış aralıklar otomatik olarak genişletilir.
-- Liste, yanlışlıkla satır ve sütun silinmesine karşı korumalıdır.
+- Liste kazara satır ve sütun silme işlemlerine karşı korunur.
 
-### **Microsoft Excel kullanarak Liste Nesnesi Oluşturma**
+### **Microsoft Excel Kullanarak Bir Liste Nesnesi Oluşturma**
 
-- Liste nesnesi oluşturmak için veri aralığı seçme
+- Liste nesnesi oluşturmak için veri aralığını seçme
 - Bu, Liste Oluştur iletişim kutusunu görüntüler.
--  Veriler için Liste nesnesini uygulayın ve toplam satırı belirtin (Seçin**Veri** , o zamanlar**Liste** , bunu takiben**Toplam Satır**).
+- Veri için Liste nesnesini uygulama ve toplam satırı belirtme (Seç **Veri**, ardından **Liste**, sonra **Toplam Satır**).
 
-### **Aspose.Cells API'i kullanma**
+### **Aspose.Cells API'si Kullanımı**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir sınıf, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonu içerir.
 
- Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, bir çalışma sayfasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Oluşturmak için[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) bir çalışma sayfasında,[**Nesneleri Listele**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects) toplama özelliği[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. Her biri[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) aslında bir nesnedir[**Nesne Koleksiyonunu Listele**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection) ayrıca sağlayan sınıf,[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index)Liste nesnesi ekleme ve liste için bir hücre aralığı belirtme yöntemi.
+Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, bir çalışma sayfasını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Bir çalışma sayfasında bir [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) oluşturmak için, [**ListObjects**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects) sınıfının koleksiyon özelliğini kullanın. Her [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject), aslında [**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection) sınıfının bir nesnesidir ve daha fazla List nesnesi eklemek ve belirtilen hücre aralığı için [**Add**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index) yöntemini sağlayan [**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection) sınıfının bir nesnesidir.
 
-Liste nesnesi, belirtilen hücre aralığına göre Aspose.Cells tarafından oluşturulur. Nitelikleri kullanın (örneğin,[**Toplamları Göster**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/showtotals), [**Sütunları Listele**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/listcolumns) , vb.)[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)Listeyi kontrol etmek için sınıf.
+Belirtilen hücre aralığına göre, Aspose.Cells tarafından Liste nesnesi oluşturulur. Liste yönetmek için [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) sınıfının özniteliklerini (örneğin, [**ShowTotals**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/showtotals), [**ListColumns**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/listcolumns), vb.) kullanın.
 
- Aşağıda verilen örnekte, aynısını oluşturduk[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)Yukarıdaki bölümde Microsoft Excel kullanarak oluşturduğumuz gibi Aspose.Cells API kullanarak.
+Aşağıdaki örnekte, yukarıdaki bölümde Microsoft Excel kullanarak oluşturduğumuz gibi, Aspose.Cells API'sini kullanarak aynı [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)'yi oluşturduk.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-CreatingListObject-1.cs" >}}
 
-## **Tablo Biçimlendirme**
+## **Tabloyu Biçimlendir**
 
-Bir grup ilgili veriyi yönetmek ve analiz etmek için, bir hücre aralığını bir liste nesnesine (Excel tablosu olarak da bilinir) dönüştürmek mümkündür. Tablo, diğer satır ve sütunlardaki verilerden bağımsız olarak yönetilen ilgili verileri içeren bir dizi satır ve sütundur. Varsayılan olarak, liste nesnesi verilerinizi hızlı bir şekilde filtreleyebilmeniz veya sıralayabilmeniz için tablodaki her sütunun başlık satırında filtreleme etkindir. Her bir toplam satırı hücresi için toplama işlevlerinin açılır listesini sağlayan liste nesnesine, bir toplam satırı (sayısal verilerle çalışmak için kullanışlı toplama işlevleri seçimi sağlayan bir listedeki özel bir satır) ekleyebilirsiniz. Aspose.Cells, listeler (veya tablolar) oluşturmak ve yönetmek için seçenekler sunar.
+İlgili veri grubunu yönetmek ve analiz etmek için, hücre aralığını bir liste nesnesine (aynı zamanda bir Excel tablosu olarak da bilinir) dönüştürmek mümkündür. Bir tablo, ilişkili verileri içeren bir dizi satır ve sütun, diğer satır ve sütunlardaki veriden bağımsız olarak yönetilir. Varsayılan olarak, tablodaki her sütunun başlık satırında filtreleme etkinleştirilir, böylece listeniz nesnesi verilerinizi hızlı bir şekilde filtreleyebilir veya sıralayabilir. Listeniz nesnesine (sayısal verilerle çalışmak için faydalı olan bir listede özel bir satır) toplam satır ekleyebilirsiniz. Bu toplam satırın her hücresi için bir toplama işlevlerinin açılır menüsünü sağlayan özel bir satır. Aspose.Cells, listelerin (veya tabloların) oluşturulması ve yönetilmesi için seçenekler sunar.
 
 ### **Liste Nesnesini Biçimlendirme**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir sınıf, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonu içerir.
 
- Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Oluşturmak için[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) bir çalışma sayfasında, kullanın[**Nesneleri Listele**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects) toplama özelliği[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. Her biri[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) aslında bir nesnedir[**Nesne Koleksiyonunu Listele**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection) ayrıca sağlayan sınıf,[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index) List nesnesi ekleme ve kapsaması gereken hücre aralığını belirleme yöntemi. Belirtilen hücre aralığına göre, bir[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)çalışma sayfasında Aspose.Cells tarafından oluşturulur. Nitelikleri kullanın (örneğin,[**Tablo Stili Türü**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/tablestyletype) )[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)tabloyu gereksinimlerinize göre biçimlendirmek için sınıf.
+Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, bir çalışma sayfasını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Bir çalışma sayfasında bir [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) oluşturmak için, [**ListObjects**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects) sınıfının koleksiyon özelliğini kullanın. Her [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject), aslında [**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection) sınıfının bir nesnesidir ve istenen hücre aralığını belirlemek amacıyla [**Add**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index) yöntemini sağlayan [**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection) sınıfından bir nesnedir. Belirtilen hücre aralığına göre, Aspose.Cells tarafından bir [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) oluşturulur. [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) sınıfının özniteliklerini (örneğin, [**TableStyleType**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/tablestyletype)) kullanarak tablonuzu biçimlendirebilirsiniz.
 
- Aşağıdaki örnek, bir çalışma sayfasına örnek veriler ekler,[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) ve varsayılan stilleri ona uygulayın.[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)stiller Microsoft Excel 2007/2010 tarafından desteklenir.
+Aşağıdaki örnek, bir çalışma sayfasına örnek veri ekler, bir [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) ekler ve ona varsayılan stilleri uygular. Microsoft Excel 2007/2010 tarafından desteklenen [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) stilleri bulunmaktadır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-FormataListObject-1.cs" >}}
 
-## **ileri konular**
-- [Tabloyu ODS'e Dönüştür](/cells/tr/net/convert-table-to-ods/)
-- [Dış Veri Bağlantılarıyla İlgili Sorgu Tablolarını ve Liste Nesnelerini Bulun](/cells/tr/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
+## **Gelişmiş Konular**
+- [Tabloyu ODS'ye Dönüştür](/cells/tr/net/convert-table-to-ods/)
+- [Dış Veri Bağlantılarıyla İlgili Sorgu Tablolarını ve List Obje Bulma](/cells/tr/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
 - [Sorgu Tablosu Veri Kaynağı ile Tablo Okuma ve Yazma](/cells/tr/net/read-and-write-table-with-query-table-data-source/)
-- [Çalışma Sayfasında Tablo veya Liste Nesnesinin Yorumunu Ayarlama](/cells/tr/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
+- [Çalışma Sayfası içinde Masa veya Liste Nesnesi Yorumunu Ayarlayın](/cells/tr/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
 - [Tablolar ve Aralıklar](/cells/tr/net/tables-and-ranges/)
 

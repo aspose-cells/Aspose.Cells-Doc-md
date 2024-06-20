@@ -1,18 +1,19 @@
-﻿---
-title: PDF に保存しながらコメントを印刷
+---
+title: PDFへ保存する際にコメントを印刷する
 type: docs
 weight: 10
 url: /ja/net/print-comments-while-saving-to-pdf/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel では、次のオプションを使用して PDF 形式で印刷または保存するときにコメントを印刷できます。
+Microsoft Excelでは、印刷またはPDF形式への保存時にコメントを印刷する機能が以下のオプションで提供されています
 
 - なし
-- シートの最後
-- シートに表示されているとおり
+- シートの末尾
+- シートに表示されている通り
 
-Aspose.Cells提供[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)同じ機能をサポートする列挙型。の[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)enum には次のメンバーがあります
+Aspose.Cellsは同様の機能をサポートするために[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)列挙型を提供します。[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)列挙型には次のメンバーがあります
 
 - PrintNoComments
 - PrintInPlace
@@ -20,8 +21,8 @@ Aspose.Cells提供[**PrintCommentsType**](https://reference.aspose.com/cells/net
 
 {{% /alert %}}
 
-## **PDF に保存しながらコメントを印刷**
+## **PDFへ保存する際にコメントを印刷する**
 
-次のサンプル コードは、使用方法を示しています。[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)PDF に保存しながらコメントを印刷します。
+以下のサンプルコードは、[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)を使用してPDFに保存する際にコメントを印刷する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintCommentWhileSavingToPdf-PrintCommentWhileSavingToPdf.cs" >}}

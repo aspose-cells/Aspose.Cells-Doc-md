@@ -1,23 +1,26 @@
-﻿---
-title: Excel ファイルの保存
+---
+title: Excelファイルを保存する
 type: docs
 weight: 20
-url: /ja/net/saving-an-excel-file/
+url: /ja/net/aspose-cells-griddesktop/save-an-excel-file/
+keywords: GridDesktop、save、file
+description: この記事では、GridDesktopでファイルを保存する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop コントロールを使用すると、ユーザーは新しい Excel ファイルを作成できるだけでなく、既存のファイルを管理することもできます。ただし、どちらの場合も、Aspose.Cells.GridDesktop の内容を保存する必要があります。したがって、これは、グリッドの内容を Excel ファイルとして保存する方法をユーザーに知らせるために、現在私たちが議論しているトピックです。
+Aspose.Cells.GridDesktopコントロールを使用すると、新しいExcelファイルを作成するだけでなく、既存のファイルを管理することもできます。しかし、どちらの場合もAspose.Cells.GridDesktopのコンテンツをExcelファイルとして保存する必要があります。したがって、今回は、ユーザーがGridのコンテンツをExcelファイルとして保存する方法について知るための話題です。
 
 {{% /alert %}} 
-## **序章**
-Aspose.Cells.GridDesktop コントロールの内容を Excel ファイルとして保存するために、Aspose.Cells.GridDesktop は次のメソッドを提供します。
+## **紹介**
+Aspose.Cells.GridDesktopコントロールのコンテンツをExcelファイルとして保存するには、Aspose.Cells.GridDesktopは以下のメソッドを提供しています。
 
-1. **ファイルとして保存する**
+1. **ファイルとして保存**
 1. **ストリームとして保存**
-## **ファイルの保存**
-デスクトップ アプリケーションを作成し、GridControl コントロールを含む 2 つのボタンをフォームに追加します。ボタンのテキスト プロパティを次のように設定します。**ファイルとして保存**と**ストリームとして保存**それぞれ。
+## **ファイルを保存**
+デスクトップアプリケーションを作成し、フォームにGridControlコントロールと2つのボタンを追加します。ボタンのテキストプロパティをそれぞれ **Save as File** と **Save as Stream** に設定してください。
 ### **ファイルとして保存する**
-の Click イベントを作成します。**ファイルとして保存**ボタンをクリックして、その中に次のコードを貼り付けます。
+**Save as File** ボタンのクリックイベントを作成し、以下のコードを中に貼り付けてください。
 
 
 
@@ -25,11 +28,11 @@ Aspose.Cells.GridDesktop コントロールの内容を Excel ファイルとし
 
 {{% alert color="primary" %}} 
 
-重要: 重要な点は、Aspose.Cells.GridDesktop コントロールには SaveToExcel という名前のメソッドも含まれていることです。このメソッドは、Excel ファイルの内容をグリッドにロードするためにも使用されます。しかし、この方法は現在廃止されています。したがって、すべての開発者は、廃止されたものよりも堅牢で効率的な ExportExcelFile メソッドを使用することをお勧めします。
+重要: Aspose.Cells.GridDesktopコントロールにはSaveToExcelというメソッドも含まれており、これはExcelファイルへのGridデータの保存に使用されます。しかし、このメソッドも現在非推奨となっています。したがって、すべての開発者は、非推奨のものよりも堅牢で効率的なExportExcelFileメソッドを使用することが推奨されています。
 
 {{% /alert %}} 
-### **ストリームとして保存**
-場合によっては、開発者がグリッド コンテンツをストリーム (たとえば、MemoryStream) に保存する必要がある場合があります。このタスクを容易にするために、Aspose.Cells.GridDesktop コントロールは、グリッド データのストリームへの保存もサポートしています。の Click イベントを作成します。**ストリームとして保存**ボタンをクリックして、その中に次のコードを貼り付けます。
+### **ストリームとして保存する**
+開発者がGridのコンテンツをストリーム（例えばMemoryStream）に保存する必要がある場合があります。このタスクを容易にするために、Aspose.Cells.GridDesktopコントロールはGridデータをストリームに保存するのをサポートしています。**Save as Stream** ボタンのクリックイベントを作成し、以下のコードを中に貼り付けてください。
 
 
 
@@ -37,6 +40,6 @@ Aspose.Cells.GridDesktop コントロールの内容を Excel ファイルとし
 
 {{% alert color="primary" %}} 
 
-重要: Microsoft Excel のサポート Excel シートには、最大 65,536 行と 256 列を含めることができます。 Aspose.Cells.GridDesktop も同じ基準に従っています。 Aspose.Cells.GridDesktop コントロールでは、開発者は標準の制限よりも多くの行と列を作成できますが、グリッド データを Excel ファイルに保存すると、例外がスローされます。これは、Aspose.Cells.GridDesktop を使用して、65,536 行 256 列に含まれるデータのみを Excel ファイルに保存できることを意味します。
+重要: Microsoft ExcelはExcelシートに最大で65,536行と256列を含めることができます。Aspose.Cells.GridDesktopも同じ標準に従っています。Aspose.Cells.GridDesktopコントロールでは、標準制限を超える行数や列数を作成することができますが、GridデータをExcelファイルに保存する際に例外がスローされます。つまり、Aspose.Cells.GridDesktopを使用してExcelファイルに保存できるのは65,536行と256列に含まれるデータのみです。
 
 {{% /alert %}}

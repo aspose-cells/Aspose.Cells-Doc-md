@@ -1,49 +1,50 @@
-﻿---
+---
 title: Kommentare und Notizen verwalten
 linktitle: Kommentare und Notizen
 type: docs
 weight: 128
 url: /de/java/comments-and-notes/
-description: Fügen Sie Kommentare oder Notizen ein und verwalten Sie sie mit Aspose.Cells für Java.
-keywords: insert comments, insert notes
+description: Kommentare oder Notizen mit Aspose.Cells for Java einfügen und verwalten.
+keywords: Kommentare einfügen, Notizen einfügen
 ---
+
 ## **Einführung**
 
-Kommentare werden verwendet, um zusätzliche Informationen zu Zellen hinzuzufügen. Aspose.Cells bietet zwei Methoden zum Hinzufügen von Kommentaren zu Zellen. Die erste besteht darin, Kommentare manuell in einer Designerdatei zu erstellen. Diese Kommentare werden dann mit Aspose.Cells importiert. Die zweite besteht darin, Kommentare mit Aspose.Cells API zur Laufzeit hinzuzufügen. In diesem Thema wird das Hinzufügen von Kommentaren zu Zellen mit Aspose.Cells API behandelt. Das Formatieren von Kommentaren wird ebenfalls erläutert.
+Kommentare werden verwendet, um zusätzliche Informationen zu Zellen hinzuzufügen. Aspose.Cells bietet zwei Methoden zum Hinzufügen von Kommentaren zu Zellen. Die erste Methode besteht darin, Kommentare manuell in einer Designerdatei zu erstellen. Diese Kommentare werden dann mithilfe von Aspose.Cells importiert. Die zweite Methode besteht darin, Kommentare mithilfe der Aspose.Cells-API zur Laufzeit hinzuzufügen. In diesem Thema wird das Hinzufügen von Kommentaren zu Zellen mithilfe der Aspose.Cells-API erläutert. Auch die Formatierung von Kommentaren wird erklärt.
 
-## **Hinzufügen eines Kommentars**
+## **Einen Kommentar hinzufügen**
 
- Fügen Sie einer Zelle einen Kommentar hinzu, indem Sie die aufrufen[**Bemerkungen**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) Sammlung**Addieren** Methode (eingekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Objekt). Das neue[**Kommentar**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) Auf das Objekt kann über die zugegriffen werden[**Bemerkungen**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) Sammlung durch Übergabe des Kommentarindex. Nach dem Zugriff auf die[**Kommentar**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) Objekt, passen Sie die Kommentarnotiz an, indem Sie das verwenden[**Kommentar**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) Objekt[**Notiz**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note)Eigentum.
+Fügen Sie einen Kommentar zu einer Zelle hinzu, indem Sie die **Hinzufügen**-Methode der [**Comments**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection)-Sammlung (die in dem Objekt [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) verkapselt ist) aufrufen. Das neue [**Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment)-Objekt kann von der [**Comments**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection)-Sammlung abgerufen werden, indem der Kommentarindex übergeben wird. Nach dem Zugriff auf das [**Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment)-Objekt können Sie den Kommentarhinweis anpassen, indem Sie die [**Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment)-Eigenschaft des Objekts [**Note**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note) verwenden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddingComment-1.java" >}}
 
 ## **Kommentarformatierung**
 
-Es ist auch möglich, das Erscheinungsbild von Kommentaren zu formatieren, indem Sie ihre Höhe, Breite und Schriftarteinstellungen konfigurieren.
+Es ist auch möglich, das Erscheinungsbild von Kommentaren zu formatieren, indem ihre Höhe, Breite und Schriftarteneinstellungen konfiguriert werden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "CommentFormatting-1.java" >}}
 
-## **Fügen Sie ein Bild zum Kommentar hinzu**
+## **Ein Bild zum Kommentar hinzufügen**
 
-Mit Microsoft Excel 2007 ist es auch möglich, ein Bild als Hintergrund für einen Zellkommentar zu haben. In Excel 2007 wird dies durch Ausführen der folgenden Schritte erreicht. (Sie gehen davon aus, dass Sie bereits einen Zellenkommentar hinzugefügt haben.)
+Mit Microsoft Excel 2007 ist es auch möglich, ein Bild als Hintergrund für einen Zellenkommentar zu haben. In Excel 2007 wird dies durch die folgenden Schritte erreicht. (Es wird davon ausgegangen, dass bereits ein Zellenkommentar hinzugefügt wurde.)
 
 1. Klicken Sie mit der rechten Maustaste auf die Zelle, die den Kommentar enthält.
-1.  Wählen**Kommentare ein-/ausblenden**, und löschen Sie jeglichen Text aus dem Kommentar.
+1. Wählen Sie **Kommentare einblenden/ausblenden** und löschen Sie jeglichen Text aus dem Kommentar.
 1. Klicken Sie auf den Rand des Kommentars, um ihn auszuwählen.
-1.  Wählen**Format** , dann**Kommentar**.
-1.  Auf der**Farben und Linien** Erweitern Sie die Registerkarte**Farbe** aufführen.
-1.  Klicken**Fülleffekte**.
-1.  Auf der**Bild** Registerkarte, klicken Sie auf**Wählen Sie Bild**.
+1. Wählen Sie **Format** und dann **Kommentar** aus.
+1. Auf der Registerkarte **Farben und Linien** die **Farbe**-Liste erweitern.
+1. Klicken Sie auf **Fülleffekte**.
+1. Klicken Sie auf der Registerkarte **Bild** auf **Bild auswählen**.
 1. Suchen Sie das Bild und wählen Sie es aus.
-1.  Klicken**OK** bis alle Dialoge geschlossen sind.
+1. Klicken Sie auf **OK**, bis alle Dialogfelder geschlossen sind.
 
-Aspose.Cells bietet diese Funktion ebenfalls. Unten ist ein Codebeispiel, das eine XLSX-Datei von Grund auf neu erstellt, indem ein Kommentar zur Zelle "A1" mit einem als Hintergrund festgelegten Bild hinzugefügt wird.
+Auch Aspose.Cells bietet diese Funktion. Im Folgenden finden Sie einen Beispielcode, der eine XLSX-Datei von Grund auf erstellt und einem Zelle "A1" einen Kommentar mit einem Bild als Hintergrund hinzufügt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddImageToComment-1.java" >}}
 
-## **Themen vorantreiben**
-- [Textrichtung des Kommentars ändern](/cells/de/java/change-text-direction-of-the-comment/)
-- [So ändern Sie die Schriftfarbe für Kommentare](/cells/de/java/how-to-change-the-comment-font-color/)
-- [So legen Sie den Kommentarhintergrund fest](/cells/de/java/how-to-set-comment-background/)
-- [Verkettete Kommentare](/cells/de/java/threaded-comments/)
+## **Erweiterte Themen**
+- [Ändern der Textrichtung des Kommentars](/cells/de/java/change-text-direction-of-the-comment/)
+- [Ändern der Kommentarschriftfarbe](/cells/de/java/how-to-change-the-comment-font-color/)
+- [Wie man den Kommentarhintergrund einstellt](/cells/de/java/how-to-set-comment-background/)
+- [Antwortkommentare](/cells/de/java/threaded-comments/)
 

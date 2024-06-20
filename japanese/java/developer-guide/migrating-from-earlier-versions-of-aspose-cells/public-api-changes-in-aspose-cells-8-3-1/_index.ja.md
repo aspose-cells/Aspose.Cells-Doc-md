@@ -1,27 +1,28 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.3.1
+---
+title: Aspose.Cells 8.3.1のパブリックAPIの変更
 type: docs
 weight: 120
 url: /ja/java/public-api-changes-in-aspose-cells-8-3-1/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.3.0 から 8.3.1 への Aspose.Cells API への変更について説明します。
+このドキュメントでは、Aspose.Cells APIのバージョン8.3.0から8.3.1への変更について、モジュール/アプリケーション開発者に興味を持っていただけるかもしれない変更について説明しています
 
 {{% /alert %}} 
-## **追加された API**
-### **プロパティ DataLabels.ShowCellRange が追加されました**
-実行時にグラフのデータ ラベルをフォーマットする Excel の機能を模倣するために、プロパティ ShowCellRange のゲッター/セッターが DataLabels クラスに追加されました。 Excel は、次の手順でこの機能を提供することに注意してください。
+## **APIの追加**
+### **DataLabels.ShowCellRangeプロパティを追加しました**
+DataLabelsクラスに、実行時にChartのデータラベルをフォーマットするExcelの機能を模倣するためのShowCellRangeプロパティのgetter/setterが追加されました 
 
-1. シリーズのデータ ラベルを選択し、右クリックしてポップアップ メニューを開きます。
-1. クリック**データ ラベルの書式設定...**そしてそれは表示されます**ラベル オプション**.
-1. チェックボックスをオンまたはオフにする**ラベルの内容 - Cells からの値**.
+データラベルを表示するための記事をご覧ください
+1. **データラベルの書式設定...**をクリックし、**ラベルオプション**が表示されます。
+1. チェックボックス **ラベルに - セルの値が含まれている** をチェックまたはチェックを外します。
 
-以下のサンプル コードは、グラフ シリーズのデータ ラベルにアクセスし、DataLabels.setShowCellRange() メソッドを true に設定して、Excel の機能を模倣します。**ラベルの内容 - Cells からの値**.
+以下のサンプルコードは、グラフシリーズのデータラベルにアクセスし、DataLabels.setShowCellRange()メソッドをtrueに設定して**ラベルが持つ - セルからの値**のExcelの機能を模倣します。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from the source spreadsheet containing an existing chart
 
@@ -49,16 +50,16 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-記事をご確認ください[Cell 範囲をデータ ラベルとして表示](/cells/ja/java/showing-cell-range-as-the-data-labels/)詳細については。
+詳細については、[セル範囲をデータラベルとして表示](/cells/ja/java/showing-cell-range-as-the-data-labels/)の記事を確認してください。
 
 {{% /alert %}} 
 
-### **メソッド Cell.getTable & ListObject.putCellValue を追加**
-メソッド Cell.getTable & ListObject.putCellValue が Aspose.Cells for Java 8.3.1 で追加され、ユーザーがセルから ListObject にアクセスし、行と列のオフセットを使用してその中に値を追加できるようになりました。次のサンプル コードは、ソース スプレッドシートを読み込み、テーブル内に値を追加します。
+### **Cell.getTableおよびListObject.putCellValueメソッドを追加しました**
+Cell.getTableおよびListObject.putCellValueメソッドは、Aspose.Cells for Java 8.3.1で追加されました。これにより、ユーザーはセルからListObjectにアクセスし、行および列のオフセットを使用してその内部に値を追加できます。次のサンプルコードでは、ソーススプレッドシートをロードし、テーブル内に値を追加しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -92,18 +93,18 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-記事をご確認ください[Cell からテーブルにアクセスし、行と列のオフセットを使用してテーブル内に値を追加する](/cells/ja/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/)詳細については。
+詳細については、[セルからテーブルにアクセスし、行および列のオフセットを使用して値を追加する](/cells/ja/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/)をご覧ください。
 
 {{% /alert %}} 
 
-### **メソッド OdsSaveOptions.isStrictSchema11 および OdsSaveOptions.setStrictSchema11 が追加されました**
-開発者が ODF v1.2 仕様に準拠した形式でスプレッドシートを保存できるようにするために、メソッド isStrictSchema11 および setStrictSchema11 が OdsSaveOptions クラスに追加されました。 setStrictSchema11 プロパティのデフォルト値は false です。これは、Aspose.Cells API のバージョン 8.3.1 以降、デフォルトで ODS ファイルが ODF フォーマット バージョン 1.2 として保存されることを意味します。
+### **OdsSaveOptions.isStrictSchema11およびOdsSaveOptions.setStrictSchema11メソッドを追加しました**
+isStrictSchema11およびsetStrictSchema11メソッドは、OdsSaveOptionsクラスに追加されました。これにより、開発者はスプレッドシートをODF v1.2仕様に準拠した形式で保存できるようになります。setStrictSchema11プロパティのデフォルト値はfalseであり、Aspose.Cells APIの8.3.1以降では、ODSファイルはデフォルトでODF形式バージョン1.2として保存されます。
 
-以下のコード スニペットは、ODS ファイルを ODF 1.2 形式で保存します。
+以下のコードスニペットは、ODSファイルをODF 1.2形式で保存します。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 
@@ -135,23 +136,23 @@ workbook.save("ODF1.1.ods", options);
 
 {{% alert color="primary" %}} 
 
-記事をご確認ください[ODS ファイルを ODF 1.1 および 1.2 仕様で保存](/cells/ja/java/save-ods-file-in-odf-1-1-and-1-2-specifications/)詳細については。
+詳細については、[ODF 1.1および1.2仕様でODSファイルを保存する](/cells/ja/java/save-ods-file-in-odf-1-1-and-1-2-specifications/)をご覧ください。
 
 {{% /alert %}} 
 
-### **メソッド SparklineCollection.add が追加されました**
-Aspose.Cells API は SparklineCollection.add(String dataRange, int row, int column) メソッドを公開して、スパークライン グループのデータ範囲と場所を指定しました。 Excel は、次の手順で同じ機能を提供することに注意してください。
+### **SparklineCollection.addメソッドを追加しました**
+Aspose.Cells APIは、SparklineCollection.add(String dataRange, int row, int column)メソッドを公開し、データ範囲とスパークライングループの場所を指定できるようにしました。Excelでは同様の機能を以下の手順で提供しています。 
 
 1. スパークラインを含むセルを選択します。
-1. 選択する**スパークラインからデータを編集する**セクション内**デザイン**タブ
-1. 選ぶ**グループの場所とデータの編集**.
-1. 特定**データ範囲** & **位置**.
+1. **デザイン**タブ内の**スパークライン**セクションから**データの編集**を選択します
+1. **グループの場所とデータの編集**を選択します。
+1. **データ範囲**および**場所**を指定します。
 
-次のサンプル コードは、ソース スプレッドシートを読み込み、最初のスパークライン グループにアクセスし、スパークライン グループに新しいデータ範囲と場所を追加します。
+以下のサンプルコードでは、ソーススプレッドシートをロードし、最初のスパークライングループにアクセスし、新しいデータ範囲と場所を追加しています。 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -183,6 +184,6 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-記事をご確認ください[スパークライン グループのデータ範囲と場所を指定してスパークラインをコピーする](/cells/ja/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/)詳細については。
+詳細については、[スパークライングループのデータ範囲と場所を指定してコピーする](/cells/ja/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/)をご覧ください。
 
 {{% /alert %}}

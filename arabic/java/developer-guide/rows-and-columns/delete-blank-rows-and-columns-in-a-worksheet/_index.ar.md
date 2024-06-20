@@ -1,17 +1,18 @@
-﻿---
-title: احذف الصفوف والأعمدة الفارغة في ورقة عمل
+---
+title: حذف الصفوف والأعمدة الفارغة في ورقة العمل
 type: docs
 weight: 360
 url: /ar/java/delete-blank-rows-and-columns-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-من الممكن حذف جميع الصفوف والأعمدة الفارغة من ورقة العمل. هذا مفيد على سبيل المثال عند إنشاء ملف PDF من ملف Excel Microsoft وتريد تحويل الصفوف والأعمدة التي تحتوي على بيانات فقط.
+من الممكن حذف جميع الصفوف والأعمدة الفارغة من ورقة عمل. هذا مفيد على سبيل المثال عند إنشاء ملف PDF من ملف Microsoft Excel وترغب في تحويل الصفوف والأعمدة التي تحتوي على بيانات فقط.
 
-استخدم الطرق Aspose.Cells التالية لحذف الصفوف والأعمدة الفارغة:
+استخدم وسائل Aspose.Cells التالية لحذف الصفوف والأعمدة الفارغة:
 
-1.  لحذف الصفوف الفارغة ، استخدم ملف[Cells.deleteBlankRows ()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows\(\)) طريقة.
-1.  لحذف الأعمدة الفارغة ، استخدم ملف[Cells.deleteBlankColumns ()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns\(\)) طريقة.
+1. لحذف الصفوف الفارغة، استخدم الطريقة [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows\(\))
+1. لحذف الأعمدة الفارغة، استخدم الطريقة [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns\(\))
 
 {{% /alert %}} 
 ## **حذف الصفوف الفارغة**

@@ -1,23 +1,24 @@
-﻿---
-title: Resim Köprüleri Ekle
+---
+title: Resim Bağlantıları Ekle
 type: docs
 weight: 20
 url: /tr/java/add-image-hyperlinks/
 ---
+
 {{% alert color="primary" %}} 
 
-Köprüler, diğer çalışma sayfalarındaki veya web sitelerindeki bilgilere erişmek için kullanışlıdır. Microsoft Excel, kullanıcıların hücrelerdeki ve resimlerdeki metne köprüler eklemesine izin verir. Görüntü köprüleri, örneğin sonraki ve önceki düğmeleri veya belirli sitelere bağlanan logolar gibi bir çalışma sayfasında gezinmeyi kolaylaştırabilir. Bu belge, Aspose.Cells kullanılarak bir çalışma sayfasına görüntü köprülerinin nasıl ekleneceğini açıklar.
+Hyperlinkler, diğer çalışma sayfalarındaki veya web sitelerindeki bilgilere erişim için kullanışlıdır. Microsoft Excel, kullanıcıların hücrelerdeki metinlere ve resimlere hyperlinkler eklemelerine olanak tanır. Resim hyperlinkleri, örneğin, bir sonraki ve önceki düğmelere veya belirli sitelere bağlı logolar gibi, bir çalışma sayfasında gezinmeyi kolaylaştırabilir. Bu belge, Aspose.Cells kullanarak bir çalışma sayfasına resim hyperlinkleri eklemenin nasıl yapılacağını açıklar.
 
 {{% /alert %}} 
 
-Aspose.Cells, çalışma zamanında e-tablolardaki resimlere köprüler eklemenizi sağlar. Bağlantının ekran ipucunu ve adresini ayarlamak ve değiştirmek mümkündür.
+Aspose.Cells, çalışma zamanında elektronik tablolardaki resimlere hyperlink eklemenize olanak tanır. Bağlantının ekran ipucunu ve adresini ayarlamak ve değiştirmek mümkündür.
 
-Aşağıdaki örnek kod, bir çalışma sayfasına görüntü köprüsünün nasıl ekleneceğini gösterir.
+Aşağıdaki örnek kod, bir çalışma sayfasına bir resim bağlantısı eklemenin nasıl yapılacağını göstermektedir.
 
- Kod çalıştığında, içinde görüntü köprüsü bulunan bir çıktı dosyası kaydeder.
+Kod çalıştığında, bir resim bağlantısı olan bir çıkış dosyası kaydeder. 
 
-**çıktı dosyası** 
+**Çıkış dosyası** 
 
-![yapılacaklar:resim_alternatif_metin](add-image-hyperlinks_1.png)
+![todo:image_alt_text](add-image-hyperlinks_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddImageHyperlinks-AddImageHyperlinks.java" >}}

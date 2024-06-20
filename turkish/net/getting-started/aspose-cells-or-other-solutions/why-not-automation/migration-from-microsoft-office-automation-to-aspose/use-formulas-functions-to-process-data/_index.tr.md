@@ -1,12 +1,13 @@
-﻿---
-title: Verileri İşlemek için Formül İşlevlerini Kullanma
+---
+title: Veri İşleme İçin Formül İşlevlerini Kullanma
 type: docs
 weight: 140
 url: /tr/net/use-formulas-functions-to-process-data/
 ---
+
 {{% alert color="primary" %}}
 
- Bu teknik ipucu, verileri işlemek için formülleri/işlevleri nasıl kullanabileceğinizi gösterecektir.**VSTO** ve**Aspose.Cells for .NET** kod aracılığıyla.
+Bu teknik ipucu, **VSTO** ve **Aspose.Cells for .NET** ile kod üzerinden veri işlemek için formüller/fonksiyonları nasıl kullanabileceğinizi anlatacak. 
 
 {{% /alert %}}
 
@@ -17,7 +18,7 @@ url: /tr/net/use-formulas-functions-to-process-data/
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -89,7 +90,7 @@ void AddingCellFormula()
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void AddingCellFormula()
 
@@ -151,12 +152,12 @@ void AddingCellFormula()
 
 ### **1) VSTO**
 
-![yapılacaklar:resim_alternatif_metin](use-formulas-functions-to-process-data_1.png)
+![todo:image_alt_text](use-formulas-functions-to-process-data_1.png)
 
-**Şekil 1:** VSTO ile formülleri kullanarak çıktı alın
+**Şekil 1:** VSTO ile formüller kullanarak çıktı
 
 ### **2) Aspose.Cells for .NET**
 
-![yapılacaklar:resim_alternatif_metin](use-formulas-functions-to-process-data_2.png)
+![todo:image_alt_text](use-formulas-functions-to-process-data_2.png)
 
-**Şekil 2:** Aspose.Cells for .NET ile formülleri kullanarak çıktı
+**Şekil 2:** Aspose.Cells for .NET ile formüller kullanarak çıktı

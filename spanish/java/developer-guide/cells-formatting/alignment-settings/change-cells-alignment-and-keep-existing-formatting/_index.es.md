@@ -1,18 +1,19 @@
-﻿---
-title: Cambiar la alineación Cells y mantener el formato existente
+---
+title: Cambiar la Alineación de las Celdas y Mantener el Formato Existente
 type: docs
 weight: 260
 url: /es/java/change-cells-alignment-and-keep-existing-formatting/
 ---
-## **Posibles escenarios de uso**
 
-A veces, desea cambiar la alineación de varias celdas pero también desea mantener el formato existente. Aspose.Cells le permite hacerlo usando el[**StyleFlag.Alineaciones**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments) propiedad. si lo vas a configurar**verdadero** , se producirán cambios en la alineación, de lo contrario no. Tenga en cuenta,[**Bandera de estilo**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) El objeto se pasa como un parámetro a[**Rango.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) método que realmente aplica el formato al rango de celdas.
+## **Escenarios de uso posibles**
 
-## **Cambiar la alineación Cells y mantener el formato existente**
+A veces, desea cambiar la alineación de múltiples celdas pero también desea mantener el formato existente. Aspose.Cells le permite hacerlo usando la propiedad [**StyleFlag.Alignments**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments). Si lo establece como **true**, los cambios en la alineación se llevarán a cabo, de lo contrario no. Tenga en cuenta que se pasa el objeto [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) como parámetro al método [**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) que aplica efectivamente el formato al rango de celdas.
 
-El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](67338592.xlsx), crea el rango y el centro lo alinea horizontal y verticalmente y mantiene intacto el formato existente. La siguiente captura de pantalla compara el archivo de ejemplo de Excel y[archivo de salida de Excel](67338591.xlsx)y muestra que todo el formato existente de las celdas es el mismo excepto que las celdas ahora están alineadas al centro horizontal y verticalmente.
+## **Cambiar la alineación de las celdas y mantener el formato existente**
 
-![todo:imagen_alternativa_texto](change-cells-alignment-and-keep-existing-formatting_1.png)
+El siguiente código de muestra carga el [archivo de Excel de muestra](67338592.xlsx), crea el rango y lo alinea vertical y horizontalmente en el centro manteniendo el formato existente. La siguiente captura de pantalla compara el archivo de Excel de muestra y el [archivo de Excel de salida](67338591.xlsx) y muestra que todo el formato existente de las celdas es el mismo excepto que ahora las celdas están alineadas en el centro tanto horizontal como verticalmente.
+
+![todo:image_alt_text](change-cells-alignment-and-keep-existing-formatting_1.png)
 
 ## **Código de muestra**
 

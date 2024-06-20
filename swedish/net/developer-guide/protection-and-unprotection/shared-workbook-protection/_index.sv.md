@@ -1,18 +1,19 @@
-﻿---
-title: Lösenordsskydda eller avskydda den delade arbetsboken
+---
+title: Lösenordsskydda eller upphäva skyddet för delad arbetsbok
 type: docs
 weight: 10
 url: /sv/net/password-protect-or-unprotect-the-shared-workbook/
 ---
-## **Möjliga användningsscenarier**
 
- Du kan skydda eller avskydda den delade arbetsboken med Microsoft Excel som visas i följande skärmdump. Aspose.Cells stöder också den här funktionen med[**Workbook.ProtectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) och[**Workbook.UnprotectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook)metoder.
+## **Möjliga användningsscenario**
+
+Du kan skydda eller avskydda den delade arbetsboken med Microsoft Excel enligt följande skärmbild. Aspose.Cells stöder också denna funktion med metoderna [**Workbook.ProtectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) och [**Workbook.UnprotectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook).
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
-## **Lösenordsskydda eller avskydda den delade arbetsboken**
+## **Lösenordsskydda eller upplåsa den delade arbetsboken**
 
-Följande exempelkod skapar en arbetsbok och skyddar den samtidigt som den aktiverar delning och sparar den som[utdata Excel-fil](55541777.xlsx). Skärmdumpen visar att när du försöker ta bort skyddet, uppmanar Microsoft Excel dig att ange lösenordet för att ta bort skyddet.
+Följande exempelkod skapar en arbetsbok och skyddar den medan du aktiverar delning och sparar den som [utdata Excelfil](55541777.xlsx). På skärmbilden visas det att när du försöker avskydda den, ber Microsoft Excel dig att ange lösenordet för att avskydda den.
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)
 

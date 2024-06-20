@@ -1,22 +1,23 @@
-﻿---
-title: تغيير قيم الضبط للشكل
+---
+title: تغيير قيم التعديل للشكل
 type: docs
 weight: 2000
 url: /ar/net/change-adjustment-values-of-the-shape/
 ---
+
 {{% alert color="primary" %}}
 
- يوفر Aspose.Cells[**الشكل ، الهندسة ، الشكل ، الضبط ، القيم**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) خاصية لإجراء تغييرات على نقاط الضبط مع الأشكال. في Microsoft Excel UI ، يتم عرض التعديلات كعقد ماسية صفراء. على سبيل المثال:
+توفر Aspose.Cells خاصية [**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) لإجراء تغييرات على نقاط التعديل مع الأشكال. في واجهة مستخدم Microsoft Excel، تعرض عمليات التعديل على شكل نقاط ماسية صفراء. على سبيل المثال:
 
-- مستطيل مدور لديه تعديل لتغيير القوس
-- المثلث لديه تعديل لتغيير موقع النقطة
-- شبه منحرف لديه تعديل لتغيير عرض الجزء العلوي
-- تحتوي الأسهم على تعديلين لتغيير شكل الرأس والذيل
+- المستطيل المستدير له تعديل لتغيير القوس
+- المثلث له تعديل لتغيير موقع النقطة
+- المنظر له تعديل لتغيير عرض الجزء العلوي
+- السهام لها تعديلين لتغيير شكل الرأس والذيل
 
- تشرح هذه المقالة استخدام[**الشكل ، الهندسة ، الشكل ، الضبط ، القيم**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) خاصية لتغيير قيمة الضبط للأشكال المختلفة.
+سيشرح هذا المقال استخدام خاصية [**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) لتغيير قيمة التعديل لأشكال مختلفة.
 
 {{% /alert %}}
 
-يوضح نموذج التعليمات البرمجية أدناه كيفية تغيير قيم الضبط للشكل.
+يُظهر الكود العيني أدناه كيفية تغيير قيم التعديل للشكل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.cs" >}}

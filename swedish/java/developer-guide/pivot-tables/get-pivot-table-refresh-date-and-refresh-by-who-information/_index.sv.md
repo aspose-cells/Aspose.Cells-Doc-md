@@ -1,16 +1,17 @@
-﻿---
-title: Få pivottabellens uppdateringsdatum och uppdatera av vem information
+---
+title: Hämta Pivot Table uppdateringsdatum och information om vem som uppdaterade
 type: docs
 weight: 80
 url: /sv/java/get-pivot-table-refresh-date-and-refresh-by-who-information/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells stöder nu hämtning av uppdateringsdatum och uppdatering av vem information från en arbetsbok.
+Aspose.Cells stöder nu hämtning av uppdateringsdatum och information om vem som uppdaterade från en arbetsbok.
 
 {{% /alert %}}
 
-[**PivotTable.getRefreshDate**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshDate) returnerar det datum då pivottabellrapporten senast uppdaterades. Liknande[**PivotTable.getRefreshByWho**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshedByWho) egenskapen returnerar namnet på användaren som uppdaterade rapporten senast. Följande exempel visar denna funktion och exempelfilen kan laddas ner från följande länk.
+[**PivotTable.getRefreshDate**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshDate) returnerar datumet då PivotTable-rapporten senast uppdaterades. På liknande sätt returnerar [**PivotTable.getRefreshByWho**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshedByWho)-egenskapen namnet på användaren som senast uppdaterade rapporten. Följande exempel demonstrerar denna funktion och provfilen kan laddas ner från följande länk.
 
 [SourcePivotTable.xlsx](77987843.xlsx)
 

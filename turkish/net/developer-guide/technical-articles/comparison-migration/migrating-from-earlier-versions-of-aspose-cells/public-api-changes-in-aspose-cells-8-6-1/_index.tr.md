@@ -1,28 +1,29 @@
-﻿---
-title: Genel API Aspose.Cells 8.6.1'deki değişiklikler
+---
+title: Aspose.Cells 8.6.1 de Genel API Değişiklikleri
 type: docs
 weight: 200
 url: /tr/net/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.6.0'dan 8.6.1'e modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen sınıfları değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek Aspose.Cells API'sındaki değişiklikleri, sürüm 8.6.0'dan 8.6.1'e, yeni ve güncellenmiş genel yöntemler, eklenecek sınıflar ve ayrıca Aspose.Cells arka plandaki davranışındaki herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **HTML Bağlantı Hedefi Türü Desteği**
- Aspose.Cells for .NET API'in bu sürümü, birlikte izin veren yeni bir özellik olan HtmlSaveOptions.LinkTargetType ile birlikte HtmlLinkTargetType adında bir numaralandırma ortaya çıkardı.[HTML formatına dönüştürürken e-tablodaki bağlantılar için hedef tipini ayarlayın](/cells/tr/net/change-the-html-link-target-type/). Varsayılan değerin Self olduğu HtmlLinkTargetType numaralandırmasının olası değerleri aşağıdaki gibidir.
+## **Eklenen API'lar**
+### **HTML Bağlantı Hedef Türü Desteği**
+Bu sürümde Aspose.Cells for .NET API, HtmlLinkTargetType adlı bir numaralandırmayı ve birlikte, elektronik tabloyu HTML biçimine dönüştürürken bağlantıların hedef türünü [ayarlamaya izin veren HtmlSaveOptions.LinkTargetType adlı yeni bir özelliği ortaya çıkarmıştır](/cells/tr/net/change-the-html-link-target-type/). HtmlLinkTargetType numaralandırmasının olası değerleri aşağıdaki gibidir, varsayılan değeri Self'tir.
 
-1. HtmlLinkTargetType.Blank: Bağlantılı belgeyi/sayfayı yeni bir pencerede veya sekmede açar.
-1. HtmlLinkTargetType.Parent: Bağlı belgeyi/sayfayı ana çerçevede açar.
-1. HtmlLinkTargetType.Self: Bağlantı verilen belgeyi/sayfayı, bağlantının tıklandığı çerçevede açar.
-1. HtmlLinkTargetType.Top: Bağlantılı belgeyi/sayfayı pencerenin tüm gövdesinde açar.
+1. HtmlLinkTargetType.Blank: Bağlantılı belge/sayfa yeni bir pencerede veya sekmede açılır.
+1. HtmlLinkTargetType.Parent: Bağlantılı belge/sayfa üst çerçevede açılır.
+1. HtmlLinkTargetType.Self: Bağlantılı belge/sayfa, bağlantının tıklandığı yerdeki çerçevede açılır.
+1. HtmlLinkTargetType.Top: Bağlantılı belge/sayfa, pencerenin tam gövdesinde açılır.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -43,14 +44,14 @@ workbook.Save(outputFilePath, options);
 {{< /highlight >}}
 
 
-### **Yöntem VbaModuleCollection.Remove Eklendi**
-Aspose.Cells for .NET 8.6.1, belirtilen Çalışma Sayfası ile ilişkili tüm VBA modüllerini kaldırmak için artık bir Çalışma Sayfası örneğini kabul edebilen VbaModuleCollection.Remove yönteminin başka bir aşırı yüklemesini ortaya çıkardı.
+### **Eklenen VbaModuleCollection.Remove Yöntemi**
+Aspose.Cells for .NET 8.6.1, VbaModuleCollection.Remove yönteminin, belirli Worksheet ile ilişkili tüm VBA modüllerini kaldırmak için bir Worksheet örneğini kabul edebilen bir overload'unu ortaya çıkarmıştır.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -67,14 +68,14 @@ modules.Remove(workbook.Worksheets[0]);
 {{< /highlight >}}
 
 
-### **Yöntem RangeCollection.Add Eklendi**
-Aspose.Cells for .NET 8.6.1, belirli bir Çalışma Sayfası için aralık koleksiyonuna Range nesneleri eklemek için kullanılabilecek RangeCollection.Add yöntemini kullanıma sundu.
+### **Eklenen RangeCollection.Add Yöntemi**
+Aspose.Cells for .NET 8.6.1, bir Worksheet için belirli bir Collection of ranges'e Range nesneleri eklemek için kullanılan RangeCollection.Add yöntemini ortaya çıkarmıştır.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -95,14 +96,14 @@ ranges.Add(cells.CreateRange("A1:B4"));
 {{< /highlight >}}
 
 
-### **Yöntem Cell.SetCharacters Eklendi**
- Cell.SetCharacters yöntemi şu amaçlarla kullanılabilir:[zengin metnin bölümlerini güncelleme](/cells/tr/net/access-and-update-the-portions-of-rich-text-of-cell/) belirli bir Cell nesnesinin. Cell.GetCharacters yöntemi ile metnin bölümlerine ulaşmak için kullanılır ve daha sonra Cell.SetCharacters yöntemi kullanılarak düzeltmeler yapılabilir.**Elde etmek** yöntemi, yazı tipi adı, yazı tipi rengi, kalınlık vb. çeşitli özellikleri ayarlamak için kullanılabilecek bir FontSetting nesneleri dizisi döndürür ve**Ayarlamak** Yöntem, değişiklikleri uygulamak için kullanılabilir.
+### **Cell.SetCharacters Methodu Eklendi**
+Cell.SetCharacters yöntemi, verilen bir Hücre nesnesinin zengin metninin bölümlerini güncellemek için kullanılabilir. Cell.GetCharacters yöntemi metnin bölümlerine erişmek için kullanılır ve ardından değişiklikler, **Get** yöntemi bir FontSetting nesnesi dizisi döndürür ve font adı, font rengi, kalınlık vb. gibi çeşitli özelliklerini ayarlamak için manipüle edilebilir ve **Set** yöntemi değişiklikleri uygulamak için kullanılabilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -118,7 +119,7 @@ Cell cell = worksheet.Cells["A1"];
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.GetCharacters();
+FontSetting[] settings = cell.GetCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -131,14 +132,14 @@ cell.SetCharacters(settings);
 {{< /highlight >}}
 
 
-### **Özellik VbaProject.IsSigned Eklendi**
- Aspose.Cells for .NET 8.6.1, kullanılabilecek VbaProject.IsSigned özelliğini kullanıma sundu.[Çalışma Kitabındaki bir VbaProject'in imzalanıp imzalanmadığını test edin](/cells/tr/net/check-if-vba-project-in-a-workbook-is-signed/)Boole tipi özelliği, proje imzalanmışsa true değerini döndürür.
+### **VbaProject.IsSigned Özelliği Eklendi**
+Aspose.Cells for .NET 8.6.1, VbaProject.IsSigned özelliğini açığa çıkardı. Bu özellik, bir Workbook içindeki VbaProject'in imzalı olup olmadığını kontrol etmek için kullanılabilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -167,9 +168,9 @@ else
 }
 
 {{< /highlight >}}
-## **Değiştirilmiş API'ler**
-### **Yöntem Cell.GetFormatConditions Değiştirildi**
-v8.6.1 sürümüyle, Aspose.Cells for .NET API, artık FormatConditionCollection türünde bir dizi döndüren Cell.GetFormatConditions yönteminin dönüş türünü değiştirdi.
-## **Eski API'ler**
-### **Yöntem Workbook.CheckWriteProtectedPassword Eskimiş**
-v8.6.1 sürümüyle Workbook.CheckWriteProtectedPassword yöntemi amortismana tabi tutuldu olarak işaretlendi. Bir dize değerini parametre olarak kabul edebilen ve parola elektronik tablonun önceden ayarlanmış parolasıyla eşleşirse Boolean döndüren WorkbookSettings.WriteProtection.ValidatePassword yönteminin kullanılması önerilir.
+## **Değiştirilmiş API'lar**
+### **Cell.GetFormatConditions Methodu Değiştirildi**
+v8.6.1'in piyasaya sürülmesiyle, Aspose.Cells for .NET API'sı Cell.GetFormatConditions yönteminin dönüş türünü değiştirmiştir ve artık FormatConditionCollection türünde bir dizi döndürmektedir.
+## **Eskimiş API'lar**
+### **Workbook.CheckWriteProtectedPassword Yöntemi Kullanımdan Kaldırıldı**
+V8.6.1'in piyasaya sürülmesiyle, Workbook.CheckWriteProtectedPassword yöntemi kullanımdan kaldırılmıştır. Önerilen, belirli bir şifre ile eşleşip eşleşmediğini kontrol eden ve True döndüren WorkbookSettings.WriteProtection.ValidatePassword yöntemini kullanmaktır.

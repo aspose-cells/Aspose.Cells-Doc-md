@@ -1,30 +1,31 @@
 ---
-title: اكتشف ما إذا كانت ورقة العمل هي ورقة حوار
+title: البحث عما إذا كانت ورقة العمل هي ورقة حوار
 type: docs
 weight: 90
 url: /ar/net/find-if-the-worksheet-is-dialog-sheet/
-description: ورقة الحوار هي تنسيق قديم للورقة. توفر هذه المقالة إرشادات ونموذج التعليمات البرمجية لتحديد ما إذا كانت ورقة عمل Excel عبارة عن ورقة حوار برمجيًا باستخدام مكتبة C# API أو .NET Library.
-keywords: find excel worksheet dialog type c#, worksheet dialog c#
+description: ورقة الحوار هي صيغة قديمة من الورقة. تقدم هذه المقالة تعليمات وشرح الكود لتحديد برمجياً ما إذا كانت ورقة Excel هي ورقة حوار بواسطة واجهة برمجة التطبيقات C# أو مكتبة .NET.
+keywords: العثور على نوع ورقة العمل من نوع حوار Excel باستخدام C#، ورقة حوار C#
 ---
-##  **سيناريوهات الاستخدام الممكنة**
 
-ورقة الحوار هي تنسيق قديم للورقة يحتوي على مربع حوار. يمكن إدراج هذه الورقة بواسطة إصدار أقدم من Microsoft Excel ، على سبيل المثال 2003 كما هو موضح في لقطة الشاشة هذه. يمكن أيضًا إدراجه مع VBA في الإصدارات الأحدث مثل Microsoft Excel 2016.
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به: image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
+ورقة الحوار هي صيغة قديمة من الورقة تحتوي على مربع حوار. يمكن إدراج مثل هذه الورقة من قبل إصدار أقدم من Microsoft Excel مثل الإصدار 2003 كما هو موضح في هذه الصورة. يمكن أيضاً إدراجها باستخدام VBA في الإصدارات الأحدث مثل Microsoft Excel 2016.
 
-يمكنك معرفة ما إذا كانت الورقة عبارة عن ورقة حوار أو نوع آخر من الأوراق به[**نوع ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)تم توفير الخاصية بواسطة Aspose.Cells. إذا تم إرجاع قيمة التعداد[**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype)اذن هذا يعني انك تتعامل مع ورقة حوار.
+![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-##  **اكتشف ما إذا كانت ورقة العمل هي ورقة حوار**
+يمكنك معرفة ما إذا كانت الورقة ورقة حوارية أم نوعًا آخر من الأوراق بوجود خاصية [**Worksheet.Type**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type) المقدمة من Aspose.Cells. إذا عادت قيمة تعداد [**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype)، فهذا يعني أنك تتعامل مع ورقة حوار.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](64716820.xlsx) الذي يحتوي على ورقة حوار. يتحقق من ملف[**نوع ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)الممتلكات تقارن مع[**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype) ثم يطبع الرسالة. يرجى الاطلاع على إخراج وحدة التحكم لعينة التعليمات البرمجية الواردة أدناه للحصول على مزيد من المساعدة.
+## **العثور على ورقة العمل هل هي ورقة حوار**
 
-##  **عينة من الرموز**
+يحمل الكود العيني التالي الملف الإكسل العيني (64716820.xlsx) الذي يحتوي على ورقة حوار. يتحقق من الخاصية [**Worksheet.Type**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)، يقارنها بـ [**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype) ثم يطبع الرسالة. يرجى الاطلاع على مخرجات الكونسول في الكود العيني المعطى أدناه للمزيد من المساعدة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-FindIfWorksheetIsDialogSheet.cs" >}}
 
-##  **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Worksheet is a Dialog Sheet.
 

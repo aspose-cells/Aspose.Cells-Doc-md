@@ -1,23 +1,26 @@
-﻿---
-title: Kopieren Sie ein Arbeitsblatt
+---
+title: Ein Arbeitsblatt kopieren
 type: docs
 weight: 50
-url: /de/net/copy-a-worksheet/
+url: /de/net/aspose-cells-gridweb/copy-a-worksheet/
+keywords: GridWeb, kopieren, GridWorksheet
+description: Dieser Artikel stellt vor, wie ein Arbeitsblatt (GridWorksheet) in GridWeb kopiert werden kann.
 ---
+
 {{% alert color="primary" %}} 
 
-[Arbeitsblätter hinzufügen](/cells/de/net/add-worksheets/) beschreibt, wie man neue Arbeitsblätter zu Aspose.Cells.GridWeb hinzufügt. Es ist auch möglich, dem Aspose.Cells.GridWeb-Steuerelement eine Kopie (oder ein Replikat) eines anderen Arbeitsblatts hinzuzufügen. Diese Funktion kann nützlich sein, wenn identische oder ähnliche Daten in einem Arbeitsblatt auch in einem anderen Arbeitsblatt benötigt werden. In diesem Fall ist es einfacher, ein vorhandenes Arbeitsblatt zu kopieren und es als neues Arbeitsblatt zu Aspose.Cells.GridWeb hinzuzufügen, anstatt es von Grund auf neu zu erstellen.
+[Arbeitsblätter hinzufügen](/cells/de/net/aspose-cells-gridweb/add-worksheets/) beschreibt, wie neue Arbeitsblätter zu Aspose.Cells.GridWeb hinzugefügt werden. Es ist auch möglich, eine Kopie (oder ein Duplikat) eines anderen Arbeitsblatts der Aspose.Cells.GridWeb-Steuerung hinzuzufügen. Diese Funktion kann nützlich sein, wenn identische oder ähnliche Daten in einem Arbeitsblatt auch in einem anderen Arbeitsblatt benötigt werden. In diesem Fall ist es einfacher, ein vorhandenes Arbeitsblatt zu kopieren und es dem Aspose.Cells.GridWeb als neues Arbeitsblatt hinzuzufügen, anstatt es von Grund auf zu erstellen.
 
 {{% /alert %}} 
 ## **Kopieren eines Arbeitsblatts**
-### **Blattindex verwenden**
-Der folgende Beispielcode zeigt, wie dem GridWeb-Steuerelement eine Kopie eines Arbeitsblatts hinzugefügt wird, indem der Index des Arbeitsblatts in der AddCopy-Methode der GridWorksheetCollection angegeben wird.
+### **Verwendung des Blattindex**
+Der folgende Beispielcode zeigt, wie eine Kopie eines Arbeitsblatts zur GridWeb-Steuerung hinzugefügt wird, indem der Index des Arbeitsblatts in der Methode AddCopy der GridWorksheetCollection angegeben wird.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-CopyWorksheets.aspx-CopyWorksheetUsingIndex.cs" >}}
-### **Blattname verwenden**
-Der folgende Beispielcode zeigt, wie dem GridWeb-Steuerelement eine Kopie eines Arbeitsblatts hinzugefügt wird, indem der Name des Arbeitsblatts in der AddCopy-Methode der GridWorksheetCollection angegeben wird.
+### **Verwendung des Blattnamens**
+Der folgende Beispielcode zeigt, wie eine Kopie eines Arbeitsblatts zur GridWeb-Steuerung hinzugefügt wird, indem der Name des Arbeitsblatts in der Methode AddCopy der GridWorksheetCollection angegeben wird.
 
 
 
@@ -25,6 +28,6 @@ Der folgende Beispielcode zeigt, wie dem GridWeb-Steuerelement eine Kopie eines 
 
 {{% alert color="primary" %}} 
 
- Die Methode AddCopy gibt den Index des neu hinzugefügten Arbeitsblatts zurück, der für den Zugriff auf die Arbeitsblattinstanz verwendet werden kann. Weitere Informationen zum Zugriff auf Arbeitsblätter finden Sie unter[Greifen Sie auf Arbeitsblätter zu](/cells/de/net/access-worksheets/).
+Die AddCopy-Methode gibt den Index des neu hinzugefügten Arbeitsblatts zurück, der verwendet werden kann, um auf die Arbeitsblattinstanz zuzugreifen. Weitere Details zum Zugriff auf Arbeitsblätter finden Sie unter [Arbeitsblätter zugreifen](/cells/de/net/aspose-cells-gridweb/access-worksheets/).
 
 {{% /alert %}}

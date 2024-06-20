@@ -1,15 +1,16 @@
-﻿---
-title: Excel till PDF Konvertering i PHP
+---
+title: Excel till PDF omvandling i PHP
 type: docs
 weight: 20
 url: /sv/net/excel-to-pdf-conversion-in-php/
 ---
-## **Aspose.Cells - Konvertering av Excel till PDF**
+
+## **Aspose.Cells - Excel till PDF-omvandling**
 Konvertera Microsoft Excel-fil till PDF
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -28,7 +29,7 @@ Konvertera Microsoft Excel-fil till PDF
         print "Conversion Completed" . PHP_EOL;
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Konvertering av Excel till PDF (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Excel till PDF-omvandling (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/Excel2PDFConversion.php)

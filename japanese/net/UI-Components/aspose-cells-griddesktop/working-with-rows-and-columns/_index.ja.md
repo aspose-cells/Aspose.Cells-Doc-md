@@ -1,6 +1,8 @@
-﻿---
-title: 行と列の操作
+---
+title: 行と列での作業
 type: docs
 weight: 50
-url: /ja/net/working-with-rows-and-columns/
+url: /ja/net/aspose-cells-griddesktop/working-with-rows-and-columns/
 ---
+
+

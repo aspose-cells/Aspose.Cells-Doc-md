@@ -1,18 +1,19 @@
-﻿---
+---
 title: Évaluer Aspose.Cells
 type: docs
 weight: 40
 url: /fr/python-net/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Vous pouvez facilement télécharger Aspose.Cells pour évaluation à partir de[pypi](https://pypi.org/project/aspose-cells-python/). Le téléchargement de l'évaluation est le même que le téléchargement de la version complète : l'évaluation devient sous licence lorsque vous appliquez une licence.
+Vous pouvez facilement télécharger Aspose.Cells pour l'évaluation depuis [pypi](https://pypi.org/project/aspose-cells-python/). Le téléchargement d'évaluation est le même que le téléchargement pour la version complète: l'évaluation devient sous licence lorsque vous appliquez une licence.
 
 {{% /alert %}}
 
-La version d'évaluation de Aspose.Cells (c'est-à-dire Aspose.Cells sans licence appliquée) fournit la plupart des fonctionnalités du produit. Une limitation est qu'il injecte toujours une feuille de calcul supplémentaire avec un filigrane d'évaluation lorsqu'une feuille de calcul est ouverte ou enregistrée. La feuille de calcul de filigrane d'évaluation supplémentaire injectée dans le classeur est illustrée ci-dessous :
+La version d'évaluation d'Aspose.Cells (c'est-à-dire Aspose.Cells sans licence appliquée) fournit la plupart des fonctionnalités du produit. Une limitation est qu'elle injecte toujours une feuille de calcul supplémentaire avec un filigrane d'évaluation lorsqu'une feuille de calcul est ouverte ou enregistrée. La feuille de calcul supplémentaire avec filigrane d'évaluation injecté dans le classeur est montrée ci-dessous:
 
-|**Avertissement d'évaluation - une feuille de travail supplémentaire**|
-|:- |
-|![tâche : image_autre_texte](evaluate-aspose-cells_1.png)|
- Si vous souhaitez tester Aspose.Cells sans limitations de version d'évaluation,[demander une licence temporaire de 30 jours](https://purchase.aspose.com/temporary-license).
+|**Avertissement d'évaluation - une feuille de calcul supplémentaire**|
+| :- |
+|![todo:image_alt_text](evaluate-aspose-cells_1.png)|
+Si vous souhaitez tester Aspose.Cells sans les limitations de la version d'évaluation, [demandez une licence temporaire de 30 jours](https://purchase.aspose.com/temporary-license).

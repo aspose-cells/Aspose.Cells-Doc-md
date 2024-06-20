@@ -1,22 +1,26 @@
 ---
-title: Пользовательская проверка в GridWeb
+title: Пользовательская валидация в GridWeb
 type: docs
 weight: 90
-url: /ru/net/custom-validation-in-gridweb/
-keywords: validation,custom,server
+url: /ru/net/aspose-cells-gridweb/custom-validation-in-gridweb/
+keywords: GridWeb,validation,custom,server
+description: В этой статье описывается пользовательская валидация в GridWeb.
+
 ---
-##  **Возможные сценарии использования**
-Aspose.Cells.GridWeb предоставляет виды проверки, отличные от обычных, определенных в API проверки ячеек.
-обычный тип проверки в ячейках:<https://docs.aspose.com/cells/net/data-validation/>
 
- обычное использование проверки в демонстрации GridWeb:<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/GridWeb.Net4/CSharp/Miscellaneous/Common/DataValidation.aspx.cs>
 
- здесь мы можем проверить GridValidationType:<https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridvalidationtype/>
+## **Возможные сценарии использования**
+Aspose.Cells.GridWeb предоставляет различные виды валидации, чем это обычно определено в API валидации ячеек.
+the normal validation type in cells :<https://docs.aspose.com/cells/net/data-validation/>
 
-ниже приведена расширенная проверка, которую мы можем использовать в GridWeb.
- 
+the normal validation usage in GridWeb demo: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/GridWeb.Net4/CSharp/Miscellaneous/Common/DataValidation.aspx.cs>
 
-##  **GridValidationType.DropDownList**
+here we can check GridValidationType: <https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridvalidationtype/>
+
+Ниже приведено расширенное описание валидации, которое мы можем использовать в GridWeb.
+
+
+## **GridValidationType.DropDownList**
 код:
 ```C#
             // ExStart:AddDropDownListValidation
@@ -32,7 +36,7 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
 
             // Creating DropDownList validation for the "C1" cell
             var validation = cell.CreateValidation(GridValidationType.DropDownList, true);
-                        
+
             // Adding values to DropDownList validation
             var values = new System.Collections.Specialized.StringCollection();
             values.Add("Bachelor");
@@ -42,9 +46,9 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
 ```
 
 результат:
-![todo: результат проверки](gridvalidation_dropdownlist.png) 
+![todo:the validation result](gridvalidation_dropdownlist.png) 
 
-##  **GridValidationType.FreeList**
+## **GridValidationType.FreeList**
 код:
 ```C#
              GridValidation validationOfList = this.GridWeb1.ActiveSheet.Validations.Add("c1");
@@ -60,24 +64,24 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
 ```
 
 результат:
-![todo: результат проверки](gridvalidation_freelist.png)  
+![todo:the validation result](gridvalidation_freelist.png)  
 
-##  **GridValidationType.CustomExpression**
+## **GridValidationType.CustomExpression**
 код:
 ```C#
              var sheet = GridWeb1.ActiveSheet;
              GridCell cell = sheet.Cells["B1"];
              cell.PutValue("Please enter Date in cell C3 e.g. 2018-02-18");
-	    
+
              //Access cell B3 and add the Date Pattern
              cell = sheet.Cells["B3"];
              cell.PutValue("Date (yyyy-mm-dd):");
-	    
+
              // Access cell C3 and add to it custom expression validation to accept dates in yyyy-mm-dd format
              cell = sheet.Cells["C3"];
              var validation = cell.CreateValidation(GridValidationType.CustomExpression, true);
              validation.RegEx = @"\d{4}-\d{2}-\d{2}";
-	    
+
              //Set the column widths
              sheet.Cells.SetColumnWidth(1, 40);
              sheet.Cells.SetColumnWidth(2, 30);
@@ -86,22 +90,22 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
 	     // Assigning the name of JavaScript function to OnCellErrorClientFunction property of GridWeb
              GridWeb1.OnCellErrorClientFunction = "ValidationErrorFunction";
 ```
-добавить функцию JavaScript на страницу клиента
+добавить функцию JavaScript на клиентской странице
 ```javascript
-   
+
          function ValidationErrorFunction()
         {
             // Showing an alert message where "this" refers to GridWeb
             console.log(this.id + ": Please correct your input error.");
         }
-   
+
 ```
 
 результат:
-после ввода неверного значения
-![todo: результат проверки](gridvalidation_customexpression.png)  
+после ввода недопустимого значения
+![todo:результат валидации](gridvalidation_customexpression.png)  
 
-##  **GridValidationType.Boolean**
+## **GridValidationType.Boolean**
 код:
 ```C#
  //add boolean validation at d1
@@ -109,13 +113,13 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
 ```
 
 результат:
- после ввода неверного значения
-![todo: результат проверки](gridvalidation_bool.png)  
+после ввода недопустимого значения 
+![todo:результат валидации](gridvalidation_bool.png)  
 
- после ввода истинного значения
-![todo: результат проверки](gridvalidation_bool2.png)  
+после ввода правильного значения 
+![todo:результат валидации](gridvalidation_bool2.png)  
 
-##  **GridValidationType.DateTime**
+## **GridValidationType.DateTime**
 код:
 ```C#
   //add DateTime validation at d3
@@ -123,9 +127,9 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
 ```
 
 результат:
-![todo: результат проверки](gridvalidation_datetime.png)  
+![todo:результат валидации](gridvalidation_datetime.png)  
 
-##  **GridValidationType.CheckBox**
+## **GridValidationType.CheckBox**
 код:
 ```C#
    //add checkbox validation at d1
@@ -133,19 +137,19 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
 ```
 
 результат:
-![todo: результат проверки](gridvalidation_checkbox.png)  
+![todo:результат валидации](gridvalidation_checkbox.png)  
 
 
-##  **GridValidationType.CustomFunction**
+## **GridValidationType.CustomFunction**
 код:
 ```C#
       //add boolean validation at d4
      GridValidation customValidation= GridWeb1.ActiveSheet.Cells[3, 3].CreateValidation(GridValidationType.CustomFunction, true);
      customValidation.ClientValidationFunction = "MyClientValidation";
 ```
-добавить функцию JavaScript на страницу клиента
+добавить функцию JavaScript на клиентской странице
 ```javascript
-   
+
         function MyClientValidation(source, value)
         {
             if (Number(value) > 10000)
@@ -153,13 +157,13 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
             else
                 return false;
         }
-   
+
 ```
 
-результат: после ввода неверного значения в d4
-![todo: результат проверки](gridvalidation_customfunction.png)  
+результат: после ввода недопустимого значения в d4
+![todo:результат проверки](gridvalidation_customfunction.png)  
 
-##  **GridValidationType.CustomServerFunction**
+## **GridValidationType.CustomServerFunction**
 код:
 ```C#
   //define server side validation class which implment GridCustomServerValidation and ISerializable
@@ -169,7 +173,7 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
         string s;
        void ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
        {
-         
+
            info.AddValue("s",s);
        }
        protected myservervalid(SerializationInfo info, StreamingContext context)
@@ -195,7 +199,7 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
             }
         }
     }
-         
+
         //add CustomServerFunction validation at G5 to G8
          GridValidation val = this.GridWeb1.ActiveSheet.Validations.Add(new GridCellArea(5,6, 8, 6));
          val.ValidationType = GridValidationType.CustomServerFunction;
@@ -204,9 +208,9 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
          val.ErrorMessage=("error message is here");
          val.ErrorTitle=("this is error title");
 ```
-добавить функцию JavaScript на страницу клиента
+добавить функцию JavaScript на клиентской странице
 ```javascript
-   
+
         var lastselectvalue = null;
         var localvalue = {};
         function ValidationErrorClientFunctionCallback(cell,msg)
@@ -231,8 +235,8 @@ Aspose.Cells.GridWeb предоставляет виды проверки, от�
             lastselectvalue = localvalue[key];
             setInnerText(cell.children[0], lastselectvalue);
         }
-   
+
 ```
 результат: после ввода значения в g6
-![todo: результат проверки](gridvalidation_customserverfunction.png) 
+![todo:результат проверки](gridvalidation_customserverfunction.png) 
 

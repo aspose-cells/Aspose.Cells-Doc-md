@@ -1,16 +1,17 @@
 ---
-title: Travailler avec la fonctionnalité GridJs Highlight
+title: Travailler avec la fonction de surlignage de GridJs
 type: docs
 weight: 250
 url: /fr/net/aspose-cells-gridjs/highlight/
-description: Cet article décrit comment utiliser GridJs pour mettre en surbrillance le texte des cellules, les plages de cellules, les formes et les images.
-keywords: highlight, highlight spreadsheet,redaction,remarks
+description: Cet article décrit comment utiliser la surbrillance sur le texte de cellule, les plages de cellules, les formes et les images dans GridJs.
+keywords: GridJs, surbrillance, feuille de calcul de surbrillance, retranchement, remarques
 ---
-#  Travailler avec la fonctionnalité GridJs Highlight
- Nous prenons en charge les API JS ci-dessous pour la fonctionnalité Highlight
+
+# Travailler avec la fonction de surlignage de GridJs 
+Nous prenons en charge les API JS ci-dessous pour la fonction de surlignage 
 
 
--  Activez la surbrillance et définissez le style de surbrillance. Toutes les API de surbrillance ne prendront effet qu'une fois le style de surbrillance défini dans la feuille de calcul active.
+-  Activer le surlignage et définir le style de surlignage, toutes les API de surlignage ne prendront effet qu'après que le style de surlignage ait été défini dans la feuille de calcul active 
 ```javascript
 xs.sheet.showHighlights(style)
  // the parameter is:
@@ -18,7 +19,7 @@ xs.sheet.showHighlights(style)
  for example: {'color':'rgba(85, 57, 47, 0.08)'}
 ```
 
--  mettre à jour le style de surbrillance défini dans la feuille de calcul active
+-  mettre à jour le style de surlignage défini dans la feuille de calcul active 
 ```javascript
 xs.sheet.updateHighlightStyle(style)
  // the parameter is:
@@ -27,11 +28,11 @@ xs.sheet.updateHighlightStyle(style)
 ```
 
 
--  Désactiver la surbrillance dans la feuille de calcul active
+-  Désactiver le surlignage dans la feuille de calcul active    
 ```javascript
 xs.sheet.hideHighlights()
 ```
--  Ajouter du texte de cellule à mettre en surbrillance dans la feuille de calcul active
+-  Ajouter du texte de cellule à surligner dans la feuille de calcul active 
 ```javascript
 xs.sheet.addHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -42,7 +43,7 @@ xs.sheet.addHighlightText(row,col,startpostion,endposition)
     //it support multiple range postion inside one cell
 ```
 
--  Supprimer la surbrillance du texte de cellule dans le tableau de la feuille de calcul active
+-  Supprimer le surlignage du texte de la cellule dans un tableau dans la feuille de calcul active 
 ```javascript
 xs.sheet.removeHighlightText(row,col,startpostion,endposition)
     // the parameters are:
@@ -52,12 +53,12 @@ xs.sheet.removeHighlightText(row,col,startpostion,endposition)
 	endpostion: highlight end postion in cell text 
 ```
 
-- Obtenir un tableau pour mettre en surbrillance le texte de la cellule dans la feuille de calcul active
+-  Obtenir un tableau pour surligner le texte de la cellule dans la feuille de calcul active   
 ```javascript
 xs.sheet.getHighlightTexts()
 ```
 
--  Ajouter une plage de cellules à mettre en surbrillance dans la feuille de calcul active
+-  Ajouter une plage de cellules à surligner dans la feuille de calcul active 
 ```javascript
 xs.sheet.addHighlightRange(sri,sci,eri,eci)
     // the parameters are:
@@ -67,7 +68,7 @@ xs.sheet.addHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Supprimer la surbrillance de la plage de cellules dans le tableau de la feuille de calcul active
+-  Supprimer le surlignage de la plage de cellules dans un tableau dans la feuille de calcul active 
 ```javascript
 xs.sheet.removeHighlightRange(sri,sci,eri,eci)
      // the parameters are:
@@ -77,12 +78,12 @@ xs.sheet.removeHighlightRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Obtenir un tableau pour mettre en surbrillance la plage de cellules dans la feuille de calcul active
+-  Obtenir un tableau pour surligner la plage de cellules dans la feuille de calcul active   
 ```javascript
 xs.sheet.getHighlightRanges()
 ```
 
--  Définir la plage de cellules pour inverser la surbrillance dans la feuille de calcul active
+-  Définir une plage de cellules pour inverser le surlignage dans la feuille de calcul active 
 ```javascript
 xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
     // the parameters are:
@@ -92,38 +93,38 @@ xs.sheet.setHighlightInverseRange(sri,sci,eri,eci)
 	eci:end column index of cell range
 ```
 
--  Supprimer la surbrillance pour la surbrillance inversée dans la feuille de calcul active
+-  Supprimer le surlignage pour inverser le surlignage dans la feuille de calcul active 
 ```javascript
 xs.sheet.removeHighlightInverseRange()
-     
+
 ```
 
--  Obtenez la plage de cellules de surbrillance inversée dans la feuille de calcul active
+-  Obtenir la plage de cellules de surlignage inverse dans la feuille de calcul active 
 ```javascript
 xs.sheet.getHighlightInverseRange()
 ```
 
 
--  Ajouter une forme pour mettre en surbrillance le tableau dans la feuille de calcul active
+-  Ajouter une forme pour surligner un tableau dans la feuille de calcul active 
 ```javascript
 xs.sheet.addHighlightShape(shapeid)
     // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Supprimer la forme de surbrillance dans le tableau de la feuille de calcul active
+-  Supprimer la forme de surlignage dans un tableau dans la feuille de calcul active 
 ```javascript
 xs.sheet.removeHighlightShape(shapeid)
      // the parameters are:
     shapeid: the id of shape, can be find in xs.sheet.data.shapes
 ```
 
--  Obtenir un tableau pour mettre en surbrillance la forme dans la feuille de calcul active
+-  Obtenir un tableau pour surligner la forme dans la feuille de calcul active  
 ```javascript
 xs.sheet.getHighlightShaps()
 ```
 
--  Ajouter une zone de texte à mettre en surbrillance, la zone de texte est un type spécial de forme dont la propriété de type est : "TextBox", dans la feuille de calcul active
+-  Ajouter une zone de texte pour surligner, la zone de texte est un type de forme spécial dont la propriété de type est: "ZoneDeTexte", dans la feuille de calcul active 
 ```javascript
 xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -134,7 +135,7 @@ xs.sheet.addHighlightTextBox(shapeid, startpostion, endposition)
 ```
 
 
--  Supprimez la plage de surbrillance dans la zone de texte, la zone de texte est un type spécial de forme dont la propriété de type est : "TextBox", dans la feuille de calcul active
+-  Supprimer la plage de surlignage dans la zone de texte, la zone de texte est un type de forme spécial dont la propriété de type est: "ZoneDeTexte", dans la feuille de calcul active 
 ```javascript
 xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     // the parameters are:
@@ -144,26 +145,26 @@ xs.sheet.removeHighlightTextBox(shapeid, startpostion, endposition)
     //it support multiple range postion inside one textbox
 ```
 
--  Ajouter une image pour mettre en surbrillance le tableau dans la feuille de calcul active
+-  Ajouter une image pour surligner un tableau dans la feuille de calcul active 
 ```javascript
 xs.sheet.addHighlightImage(imageid)
     // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
-- Supprimer l'image en surbrillance dans le tableau de la feuille de calcul active
+-  Supprimer l'image de surlignage dans un tableau dans la feuille de calcul active 
 ```javascript
 xs.sheet.removeHighlightImage(imageid)
      // the parameters are:
     imageid: the id of image, can be find in xs.sheet.data.images
 ```
 
--  Obtenir un tableau pour l'image en surbrillance
+-  Obtenir un tableau pour surligner l'image dans la feuille de calcul active  
 ```javascript
 xs.sheet.getHighlightImages()
 ```
 
--  définir s'il faut mettre en évidence tous les objets dans la feuille de calcul active, inclure toutes les formes et images et toute la zone de la feuille de calcul
+- Définir si mettre en évidence tous les objets dans la feuille active, y compris toutes les formes et images et toute la zone de la feuille de calcul
 ```javascript
 xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
    // the parameters are:
@@ -172,7 +173,7 @@ xs.sheet.setHighlightAll(ishighlightall,isrerender=true)
 ```
 
 
--  Définir la fonction de surbrillance d'image personnalisée
+-  Définir une fonction de surlignage d'image personnalisée
 ```javascript
 xs.sheet.setCustomHighlightImgFunc(func)
    // the parameters are:
@@ -183,18 +184,18 @@ xs.sheet.setCustomHighlightImgFunc(func)
             imgobj.filters[0] = ishighlight ? new fabric.Image.filters.Sepia() : false;
             imgobj.applyFilters();
         }
-    
+
 ```
 
--  effacer le paramètre de surbrillance pour la feuille de calcul active
+- Effacer les paramètres de mise en évidence pour la feuille active
 ```javascript
 xs.sheet.clearHighlights()
 
 ```
 
-###  Mettre en surbrillance l'objet zone de texte
-textbox est un type spécial de forme dont la propriété de type est : "TextBox",
-par exemple : le code ci-dessous montrera quelle forme est une zone de texte
+### Surlignage pour l'objet zone de texte
+textbox est un type spécial de forme dont la propriété de type est :"TextBox",
+par exemple: le code ci-dessous va montrer quelle forme est textbox
 
 ```javascript
 for (let shape of xs.sheet.data.shapes) {
@@ -203,7 +204,7 @@ for (let shape of xs.sheet.data.shapes) {
     }
 }
 ```
--  Ajouter un surlignage pour l'objet zone de texte
+- Ajouter un surlignage pour l'objet textbox
 ```javascript
     addHighlight(startpostion,endposition)
     // the parameters are:
@@ -218,7 +219,7 @@ const textbox=xs.sheet.data.shapes[0];
  textbox.addHighlight(18,28);
 ```
 
--  Supprimer la surbrillance de l'objet zone de texte
+- Supprimer un surlignage pour l'objet textbox 
 ```javascript
     removeHighlight(startpostion,endposition)
     // the parameters are:
@@ -229,7 +230,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.removeHighlight(5,10);
 ```
 
--  Obtenir la mise en surbrillance de l'objet zone de texte
+- Obtenir un surlignage pour l'objet textbox 
 ```javascript
     getHighlight()
     //for example,we assume shape 0 is a textbox object
@@ -237,29 +238,7 @@ const textbox=xs.sheet.data.shapes[0];
      textbox.getHighlight();
 ```
 
--  Changer la couleur d'arrière-plan de l'objet zone de texte
-```javascript
-    setBackgroundColor(color)
-    // the parameters are:
-        color: the html color value in hex string value
-    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
-     const textbox=xs.sheet.data.shapes[0];
-     textbox.setBackgroundColor('#FFFF00');
-```
--  Changez automatiquement la couleur d'arrière-plan et la couleur du texte pour obtenir un effet visuel actif
-```javascript
-    setActiveEffect(boolvalue)
-    // the parameters are:
-        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
-```
-
--  masquer/afficher le contenu du texte dans l'objet zone de texte
-```javascript
-    hideText(boolvalue)
-    // the parameters are:
-        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
-```
 
 
 
-Vous pouvez en trouver plus sur notre page de démonstration github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+Vous pouvez trouver plus d'informations sur notre page de démonstration GitHub https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html

@@ -1,14 +1,15 @@
-﻿---
-title: انقل أوراق العمل داخل المصنف
+---
+title: نقل الأوراق داخل سجل العمل
 type: docs
 weight: 30
 url: /ar/net/move-worksheets-within-workbook/
 ---
-يوفر Aspose.Cells طريقة ، Aspose.Cells.Worksheet.MoveTo () ، تُستخدم لنقل ورقة العمل إلى مكان آخر في جدول البيانات. تأخذ الطريقة فهرس ورقة العمل الهدف كمعامل.
 
-يوضح المثال التالي كيفية نقل ورقة عمل إلى موقع آخر داخل المصنف.
+Aspose.Cells يوفر طريقة، Aspose.Cells.Worksheet.MoveTo()، تستخدم لنقل ورقة عمل إلى موقع آخر في جدول البيانات. الطريقة تأخذ فهرس الورقة المستهدف كمعامل.
 
-{{< highlight "csharp" >}}
+المثال التالي يظهر كيفية نقل ورقة عمل إلى موقع آخر داخل سجل العمل.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -39,6 +40,6 @@ worksheet.MoveTo(2);
 wb.Save(FileName);
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **تحميل رمز عينة**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)

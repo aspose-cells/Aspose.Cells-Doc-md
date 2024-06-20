@@ -1,86 +1,89 @@
-﻿---
-title: Ajout de contrôles Cell dans les feuilles de calcul
+---
+title: Ajout de contrôles de cellules dans les feuilles de calcul
 type: docs
 weight: 120
-url: /fr/net/adding-cell-controls-in-worksheets/
+url: /fr/net/aspose-cells-griddesktop/add-cell-controls-in-worksheets/
+keywords: GridDesktop,add,control,button,checkbox,combobox
+description: Cet article présente comment ajouter un contrôle dans une feuille de calcul dans GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
- Les contrôles Cell sont en fait les contrôles qui peuvent être ajoutés aux feuilles de calcul. Nous les appelons**Cell Commandes** car ces contrôles sont affichés dans des cellules. Dans cette rubrique, nous discuterons de l'ajout et de la gestion des événements de ces contrôles de cellule.
+Les contrôles de cellules sont en fait des contrôles qui peuvent être ajoutés aux feuilles de calcul. Nous les appelons **Contrôles de cellules** car ces contrôles sont affichés dans les cellules. Dans ce sujet, nous discuterons de l'ajout et de la gestion des événements de ces contrôles de cellules.
 
 {{% /alert %}} 
 ## **Introduction**
-Actuellement, Aspose.Cells.GridDesktop prend en charge l'ajout de trois types de contrôles de cellule, notamment :
+Actuellement, Aspose.Cells.GridDesktop prend en charge l'ajout de trois types de contrôles de cellules, qui comprennent les éléments suivants :
 
 - **Bouton**
 - **Case à cocher**
-- **Boîte combo**
+- **Zone de liste déroulante**
 
-Tous ces contrôles sont dérivés d'une classe abstraite,**CellControl**Chaque feuille de travail contient une collection de**Les contrôles**. De nouveaux contrôles de cellule peuvent être ajoutés et les contrôles existants sont accessibles à l'aide de cette**Les contrôles**collecte facilement.
+Tous ces contrôles sont dérivés d'une classe abstraite, **CellControl**. Chaque feuille de calcul contient une collection de **Contrôles**. De nouveaux contrôles de cellules peuvent être ajoutés et les existants peuvent être accédés en utilisant cette collection de **Contrôles** facilement.
 
-**IMPORTANT:**Si vous souhaitez ajouter des contrôles de cellule à toutes les cellules d'une colonne au lieu d'en ajouter une par une, vous pouvez vous référer à[Gestion des contrôles Cell en colonnes.](/cells/fr/net/adding-cell-controls-in-worksheets/)
-### **Ajouter un bouton**
-Pour ajouter un bouton dans la feuille de calcul à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
+**IMPORTANT :** Si vous souhaitez ajouter des contrôles de cellules à toutes les cellules d'une colonne au lieu d'ajouter un par un, vous pouvez consulter [Gérer les contrôles de cellules dans les colonnes.](/cells/fr/net/aspose-cells-griddesktop/adding-cell-controls-in-worksheets/)
+### **Ajout d'un bouton**
+Pour ajouter un bouton dans la feuille de calcul à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
 
-- Ajoutez le contrôle Aspose.Cells.GridDesktop à votre**Formulaire**
-- Accédez à tout**Feuille de travail**
-- Ajouter**Bouton**au**Les contrôles**collecte de la**Feuille de travail**
+- Ajouter le contrôle Aspose.Cells.GridDesktop à votre **Formulaire**
+- Accéder à n'importe quelle **Feuille de calcul** désirée
+- Ajouter un **Bouton** à la collection de **Contrôles** de la **Feuille de calcul**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingButton.cs" >}}
 
 
-En ajoutant**Bouton**, nous pouvons spécifier l'emplacement de la cellule (où l'afficher), la largeur et la hauteur et la légende du bouton.
+Lors de l'ajout d'un **Bouton**, nous pouvons spécifier l'emplacement de la cellule (où l'afficher), la largeur et la hauteur et la légende du bouton.
 #### **Gestion des événements du bouton**
-Nous avons discuté de l'ajout**Bouton**contrôle à la**Feuille de travail**mais quel est l'avantage d'avoir juste un bouton dans la feuille de calcul si nous ne pouvons pas l'utiliser. Donc, voici le besoin de gestion des événements du bouton.
+Nous avons discuté de l'ajout du contrôle **Bouton** à la **Feuille de calcul** mais quel est l'avantage d'avoir simplement un bouton dans la feuille de calcul si nous ne pouvons pas l'utiliser. Ainsi, voici la nécessité de la gestion des événements du bouton.
 
-Pour gérer le**Cliquez sur**événement de la**Bouton**contrôle, Aspose.Cells.GridDesktop fournit**ClicBoutonCellule**événement qui devrait être mis en œuvre par les développeurs en fonction de leurs besoins. Pour une instance, nous venons d'afficher un message lorsque le bouton est cliqué comme indiqué ci-dessous :
+Pour gérer l'événement **Clic** du contrôle **Bouton**, Aspose.Cells.GridDesktop fournit l'événement **CellButtonClick** qui doit être implémenté par les développeurs selon leurs besoins. Par exemple, nous avons simplement affiché un message lorsque le bouton est cliqué comme indiqué ci-dessous :
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-HandlingButton.cs" >}}
-#### **Spécification d'une image d'arrière-plan pour le contrôle de bouton**
-Nous pouvons définir une image/image d'arrière-plan pour le contrôle du bouton avec son étiquette/texte comme indiqué dans le code ci-dessous :
+#### **Spécifier une image d'arrière-plan pour le contrôle de bouton**
+Nous pouvons définir une image d'arrière-plan pour le contrôle de bouton avec son libellé/texte comme indiqué dans le code ci-dessous :
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-SetBackground.cs" >}}
 
 
-**IMPORTANT:**Tous les événements des contrôles de cellule contiennent un**CellControlEventArgsCellControlEventArgs**argument qui fournit les numéros de ligne et de colonne de la cellule qui contient le contrôle de cellule (dont l'événement est déclenché).
-### **Ajout d'une case à cocher**
-Pour ajouter une case à cocher dans la feuille de calcul à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
+**IMPORTANT:** Tous les événements des contrôles de cellules contiennent un argument **CellControlEventArgs** qui fournit les numéros de ligne et de colonne de la cellule contenant le contrôle de cellule (dont l'événement est déclenché).
+### **Ajout de CheckBox**
+Pour ajouter une case à cocher dans la feuille de calcul en utilisant Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous:
 
-- Ajoutez le contrôle Aspose.Cells.GridDesktop à votre**Formulaire**
-- Accédez à tout**Feuille de travail**
-- Ajouter**Case à cocher**au**Les contrôles**collecte de la**Feuille de travail**
+- Ajouter le contrôle Aspose.Cells.GridDesktop à votre **Formulaire**
+- Accéder à n'importe quelle **Feuille de calcul** désirée
+- Ajouter une **CheckBox** à la collection des **Contrôles** de la **Feuille de calcul**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingCheckbox.cs" >}}
 
 
-En ajoutant**Case à cocher**, nous pouvons spécifier l'emplacement de la cellule (où l'afficher) et l'état de la case à cocher.
-#### **Gestion des événements de CheckBox**
-Aspose.Cells.GridDesktop fournit**CelluleVérifiéeModifiée**événement qui se déclenche lorsque le**Vérifié**l'état de la case à cocher est modifié. Les développeurs peuvent gérer cet événement en fonction de leurs besoins. Pour une instance, nous venons d'afficher un message pour montrer le**Vérifié**état de la case à cocher dans le code ci-dessous :
+Lors de l'ajout d'une **CheckBox**, nous pouvons spécifier l'emplacement de la cellule (où l'afficher) et l'état de la case à cocher.
+#### **Gestion d'événements de la case à cocher**
+Aspose.Cells.GridDesktop fournit un événement **CellCheckedChanged** qui est déclenché lorsque l'état **Checked** de la case à cocher est modifié. Les développeurs peuvent gérer cet événement selon leurs besoins. Par exemple, nous venons d'afficher un message pour montrer l'état **Checked** de la case à cocher dans le code ci-dessous:
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-HandlingCheckbox.cs" >}}
-### **Ajout d'un ComboBox**
-Pour ajouter une zone de liste déroulante dans la feuille de calcul à l'aide de Aspose.Cells.GridDesktop , veuillez suivre les étapes ci-dessous :
+### **Ajout de ComboBox**
+Pour ajouter une combobox dans la feuille de calcul en utilisant Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous:
 
-- Ajoutez le contrôle Aspose.Cells.GridDesktop à votre**Formulaire**
-- Accédez à tout**Feuille de travail**
-- Créez un tableau d'éléments (ou de valeurs) qui seront ajoutés à**Boîte combo**
-- Ajouter**Boîte combo**au**Les contrôles**collecte de la**Feuille de travail**en spécifiant l'emplacement de la cellule (où la combobox sera affichée) et les éléments/valeurs qui seront affichés lorsque la combobox sera cliqué
+- Ajouter le contrôle Aspose.Cells.GridDesktop à votre **Formulaire**
+- Accéder à n'importe quelle **Feuille de calcul** désirée
+- Créer un tableau d'éléments (ou valeurs) qui seront ajoutés à la **ComboBox**
+- Ajouter une **ComboBox** à la collection des **Contrôles** de la **Feuille de calcul** en spécifiant l'emplacement de la cellule (où la combobox sera affichée) et les éléments/valeurs qui seront affichés lorsque la combobox sera cliquée
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingCombobox.cs" >}}
-#### **Gestion des événements de ComboBox**
-Aspose.Cells.GridDesktop fournit**CellSelectedIndexChanged**événement qui se déclenche lorsque le**Index sélectionné**de combobox est modifié. Les développeurs peuvent gérer cet événement selon leurs envies. Pour une instance, nous venons d'afficher un message pour montrer le**Élément sélectionné**de la combobox :
+#### **Gestion d'événements de la ComboBox**
+Aspose.Cells.GridDesktop fournit un événement **CellSelectedIndexChanged** qui est déclenché lorsque l'**Index Sélectionné** de la combobox est modifié. Les développeurs peuvent gérer cet événement selon leurs désirs. Par exemple, nous venons d'afficher un message pour montrer l'**Élément Sélectionné** de la combobox:
 
 
 

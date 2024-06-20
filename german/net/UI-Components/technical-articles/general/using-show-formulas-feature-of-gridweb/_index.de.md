@@ -1,20 +1,23 @@
-﻿---
-title: Verwenden der Formeln anzeigen-Funktion von GridWeb
+---
+title: Verwenden Sie die Funktion Formeln anzeigen von GridWeb
 type: docs
 weight: 30
-url: /de/net/using-show-formulas-feature-of-gridweb/
+url: /de/net/aspose-cells-gridweb/use-show-formulas-feature/
+keywords: GridWeb, Formeln anzeigen, Formel
+description: Dieser Artikel beschreibt, wie Formeln in GridWeb angezeigt werden können.
 ---
+
 {{% alert color="primary" %}} 
 
-Manchmal müssen Sie einen einfachen Weg für die Zellen finden, die Formeln enthalten. Sie müssen einen Ansatz haben, um alle Formeln schnell durchzulesen und auf Fehler zu prüfen. Dies kann Ihnen helfen, die in einer Formel verwendeten Daten nachzuverfolgen.
+Manchmal müssen Sie einen einfachen Weg finden, um Zellen mit Formeln zu finden. Sie müssen eine Methode haben, um schnell alle Formeln durchzulesen und auf Fehler zu überprüfen. Dies kann Ihnen helfen, die Daten nachzuvollziehen, die in einer Formel verwendet werden.
 
-Aspose.Cells.GridWeb bietet die Funktion, die Formeln anzeigen in Microsoft Excel genannt wird.
+Aspose.Cells.GridWeb bietet die Funktion, die als 'Formeln anzeigen' in Microsoft Excel bezeichnet wird.
 
 {{% /alert %}} 
-## **Verwenden der Funktion „Formeln anzeigen“.**
-Alles, was Sie brauchen, um eine Tastenkombination "STRG + ~" zu verwenden, um alle Formeln im Arbeitsblatt anzuzeigen.
+## **Verwendung der Funktion 'Formeln anzeigen'**
+Alles, was Sie tun müssen, ist die Tastenkombination 'STRG + ~' zu verwenden, um alle Formeln im Arbeitsblatt anzuzeigen.
 
-Zum Beispiel laden wir eine Vorlagendatei in das GridWeb, die Formeln in der C-Spalte enthält, hier ist der Code, den wir einfach zum Laden der Datei verwendet haben.
+Beispielsweise laden wir eine Vorlagendatei in das GridWeb, die Formeln in der Spalte C enthält. Hier ist der Code, den wir einfach verwendet haben, um die Datei zu laden.
 
 
 
@@ -22,10 +25,10 @@ Zum Beispiel laden wir eine Vorlagendatei in das GridWeb, die Formeln in der C-S
 
 
 
-Die Datei wird in das GridWeb geladen und wir können ein Blatt mit allen Werten im Bild unten sehen.
+Die Datei wird in das GridWeb geladen, und wir können ein Arbeitsblatt mit allen Werten im Bild unten sehen.
 
-![todo: Bild_alt_Text](using-show-formulas-feature-of-gridweb_1.png)
+![todo:image_alt_text](using-show-formulas-feature-of-gridweb_1.png)
 
 Nach dem Drücken von STRG + ~ werden alle Formeln angezeigt.
 
-![todo: Bild_alt_Text](using-show-formulas-feature-of-gridweb_2.png)
+![todo:image_alt_text](using-show-formulas-feature-of-gridweb_2.png)

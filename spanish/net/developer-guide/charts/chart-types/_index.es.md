@@ -1,226 +1,227 @@
 ---
-title: Tipos de gráficos
-description: Conozca los distintos tipos de gráficos admitidos por Aspose.Cells for .NET. Nuestra guía lo guiará a través de los diferentes tipos de gráficos disponibles y le mostrará cómo crearlos y modificarlos para mejorar sus hojas de trabajo.
-keywords: Aspose.Cells for .NET, charting, chart types, supported, creation, modification, worksheets.
+title: Tipos de Gráficos
+description: Aprenda acerca de los diversos tipos de gráficos admitidos por Aspose.Cells for .NET. Nuestra guía le llevará a través de los diferentes tipos de gráficos disponibles y le mostrará cómo crear y modificarlos para mejorar sus hojas de cálculo.
+keywords: Aspose.Cells for .NET, gráficos, tipos de gráficos, admitidos, creación, modificación, hojas de cálculo.
 type: docs
 weight: 5
 url: /es/net/chart-types/
 ---
-##  **Introducción**
-Un gráfico es una presentación visual de información. Aspose.Cells permite a los desarrolladores visualizar información en gráficos tal como lo hace Microsoft Excel. Presentar información en gráficos siempre es útil para que los tomadores de decisiones tomen decisiones rápidas y oportunas. Es más fácil ver rápidamente comparaciones, patrones y tendencias en los datos con gráficos que con números sin procesar. La creación de gráficos en tiempo de ejecución, basados en los datos de una hoja de cálculo, es una de las funciones más poderosas de Aspose.Cells.
-##  **Tipos de gráficos**
-Aspose.Cells admite casi todos los tipos de gráficos admitidos en Microsoft Excel. Los gráficos se clasifican en dos categorías principales:
+
+## **Introducción**
+Un gráfico es una visualización de información. Aspose.Cells permite a los desarrolladores visualizar información en gráficos de la misma manera que lo hace Microsoft Excel. Presentar información en gráficos siempre es útil para los tomadores de decisiones para tomar decisiones rápidas y oportunas. Es más fácil ver rápidamente comparaciones, patrones y tendencias en los datos con gráficos que con números en bruto. Crear gráficos en tiempo de ejecución, basados en los datos en una hoja de cálculo, es una de las características más poderosas de Aspose.Cells.
+## **Tipos de gráficos**
+Aspose.Cells soporta casi todos los tipos de gráficos admitidos en Microsoft Excel. Los gráficos se clasifican en dos categorías principales:
 
 - Tipos estándar
 - Tipos personalizados
-###  **Tipos estándar**
+### **Tipos Estándar**
 Los gráficos estándar son aquellos que normalmente se utilizan con formato estándar:
 
-- Columna
+- Column
 - Bar
-- Línea
-- Tarta
-- Dispersión
-- Área
-- Rosquilla
+- Line
+- Pie
+- Scatter
+- Area
+- Doughnut
 - Radar
-- Embudo
-- Superficie 3D
-- Burbuja
-- Existencias
-- Cilindro
-- Cono
-- Pirámide
-- Mapa de árbol
-- resplandor solar
-- Histograma
-- Caja y bigote
-- Cascada
+- Funnel
+- Surface 3D
+- Bubble
+- Stock
+- Cylinder
+- Cone
+- Pyramid
+- Treemap
+- Sunburst
+- Histogram
+- Box and Whisker
+- Waterfall
 | :- | :- |
 Cada uno de los tipos de gráficos estándar se describe con más detalle a continuación.
-####  **Gráficos de columnas**
-Los gráficos de columnas utilizan barras verticales (llamadas columnas) para mostrar diferentes valores de uno o más elementos de datos. Los gráficos de columnas se utilizan principalmente para comparar valores entre diferentes categorías. Son ideales para mostrar variaciones en el valor de un artículo a lo largo del tiempo, por ejemplo, al realizar un análisis presupuestario.
+#### **Gráficos de Columnas**
+Los gráficos de columnas utilizan barras verticales (llamadas columnas) para mostrar diferentes valores de uno o más elementos de datos. Los gráficos de columnas se utilizan principalmente para comparar valores entre diferentes categorías. Son ideales para mostrar variaciones en el valor de un elemento con el tiempo, por ejemplo, al realizar un análisis presupuestario.
 
-Los siguientes gráficos de columnas son compatibles con Aspose.Cells:
+Los siguientes gráficos de columnas son compatibles en Aspose.Cells:
 
-- Gráfico de columnas agrupadas
-- Gráfico de columnas apiladas
-- Gráfico de columnas 100% apiladas
-- Gráfico de columnas agrupadas en 3D
-- Gráfico de columnas apiladas en 3D
-- Gráfico de columnas 3D 100% apiladas
-- gráfico de columnas 3D
-####  **Gráfica de barras**
+- Clustered column chart
+- Stacked column chart
+- 100% stacked column chart
+- 3D clustered column chart
+- 3D stacked column chart
+- 3D 100% stacked column chart
+- 3D column chart
+#### **Gráficos de Barras**
 Los gráficos de barras son casi del mismo tipo que los gráficos de columnas. La diferencia es que utilizan barras horizontales en lugar de verticales.
 
-Los siguientes gráficos de barras son compatibles con Aspose.Cells:
+Los siguientes gráficos de barras son compatibles en Aspose.Cells:
 
-- Gráfico de barras agrupadas
-- Gráfico de barras apiladas
-- Gráfico de barras 100% apiladas
-- Gráfico de barras agrupadas en 3D
-- Gráfico de barras apiladas en 3D
-- Gráfico de barras 100% apiladas en 3D
-####  **Gráficos de líneas**
-Los gráficos de líneas utilizan líneas para mostrar información. Estos gráficos son muy útiles para mostrar una tendencia temporal a lo largo del tiempo y, a menudo, se utilizan para mostrar variaciones en el valor de más de un artículo a lo largo del tiempo.
+- Clustered bar chart
+- Stacked bar chart
+- 100% stacked bar chart
+- 3D clustered bar chart
+- 3D stacked bar chart
+- 3D 100% stacked bar chart
+#### **Gráficos de Líneas**
+Los gráficos de líneas hacen uso de líneas para mostrar la información. Estos gráficos son muy útiles para mostrar una tendencia temporal con el tiempo y se utilizan a menudo para mostrar variaciones en el valor de más de un elemento con el tiempo.
 
-Los siguientes gráficos de líneas son compatibles con Aspose.Cells:
+Los siguientes gráficos de líneas son compatibles en Aspose.Cells:
 
-- gráfico de líneas simples
-- Gráfico de líneas apiladas
-- Gráfico de líneas 100% apiladas
-- Gráfico de líneas con marcadores de datos
-- Gráfico de líneas apiladas con marcadores de datos
-- Gráfico de líneas 100% apiladas con marcadores de datos
-- gráfico de líneas 3D
+- Simple line chart
+- Stacked line chart
+- 100% stacked line chart
+- Line chart with data markers
+- Stacked line chart with data markers
+- 100% stacked line chart with data markers
+- 3D line chart
 
 {{% alert color="primary" %}} 
 
-Los marcadores de datos se utilizan para representar puntos de datos, los valores individuales trazados en un gráfico. Los marcadores de datos del mismo color constituyen una serie de datos.
+Los marcadores de datos se utilizan para representar puntos de datos, los valores individuales representados en un gráfico. Los marcadores de datos del mismo color constituyen una serie de datos.
 
 {{% /alert %}} 
-####  **Gráficos circulares**
-Los gráficos circulares se utilizan principalmente para mostrar información cuando se desea representar las diferentes partes de un todo o los porcentajes de un total.
+#### **Gráficos de Sectores**
+Los gráficos de sectores se utilizan principalmente para mostrar información cuando se desean representar las diferentes partes de un todo o los porcentajes de un total.
 
-Los siguientes gráficos circulares son compatibles con Aspose.Cells:
+Los siguientes gráficos de sectores son compatibles en Aspose.Cells:
 
-- gráfico circular simple
-- gráfico circular 3D
-- Pastel de gráfico circular
-- Gráfico circular desglosado
-- Gráfico circular despiezado en 3D
-- Barra de gráfico circular
-####  **Gráficos de dispersión**
-Los gráficos de dispersión se utilizan principalmente en estadística para mostrar y comparar visualmente dos conjuntos de datos cuantitativos o numéricos relacionados mostrando solo un número finito de puntos, cada uno con una coordenada en un eje horizontal ("X") y vertical ("Y").
+- Simple pie chart
+- 3D pie chart
+- Pie of pie chart
+- Exploded pie chart
+- 3D exploded pie chart
+- Bar of pie chart
+#### **Gráficos de Dispersión**
+Los gráficos de dispersión se utilizan principalmente en estadísticas para mostrar visualmente y comparar dos conjuntos de datos cuantitativos o numéricos relacionados al mostrar solo un número finito de puntos, cada uno con una coordenada en un eje horizontal ("X") y un eje vertical ("Y").
 
-Los siguientes gráficos de dispersión son compatibles con Aspose.Cells:
+Los siguientes gráficos de dispersión son compatibles en Aspose.Cells:
 
-- Gráfico de dispersión simple
-- Gráfico de dispersión conectado por curvas, con marcadores de datos
-- Gráfico de dispersión conectado por curvas, sin marcadores de datos
-- Gráfico de dispersión conectado por líneas, con marcadores de datos
-- Gráfico de dispersión conectado por líneas, sin marcadores de datos
-####  **Gráficos de área**
-Un gráfico de áreas es una especie de gráfico de líneas en el que a cada área se le asigna un color o patrón sólido para enfatizar las relaciones entre las piezas de información del gráfico.
+- Simple scatter chart
+- Scatter chart connected by curves, with data markers
+- Scatter chart connected by curves, without data markers
+- Scatter chart connected by lines, with data markers
+- Scatter chart connected by lines, without data markers
+#### **Gráficos de área**
+Un gráfico de área es un tipo de gráfico de líneas en el que cada área recibe un color sólido o un patrón para enfatizar las relaciones entre las partes de la información graficada.
 
-Los siguientes gráficos de áreas son compatibles con Aspose.Cells:
+Los siguientes gráficos de área son compatibles en Aspose.Cells:
 
-- Gráfico de áreas simple
-- Gráfico de áreas apiladas
-- Gráfico de áreas 100% apiladas
-- gráfico de áreas 3D
-- Gráfico de áreas apiladas en 3D
-- Gráfico de áreas 100% apiladas en 3D
-####  **Gráficos de anillos**
-Un gráfico de anillos es similar a un gráfico circular y se utiliza principalmente para mostrar cómo las proporciones de los datos contribuyen al todo.
+- Simple area chart
+- Stacked area chart
+- 100% stacked area chart
+- 3D area chart
+- 3D stacked area chart
+- 3D 100% stacked area chart
+#### **Gráficos de rosquilla**
+Un gráfico de rosquilla es similar a un gráfico circular y se usa principalmente para mostrar cómo contribuyen las proporciones de datos al todo.
 
-Los siguientes gráficos de anillos son compatibles con Aspose.Cells:
+Los siguientes gráficos de rosquilla son compatibles en Aspose.Cells:
 
-- Gráfico de anillos simple
-- Gráfico de anillos desglosado
+- Simple doughnut chart
+- Exploded doughnut chart
 
-####  **Gráficos de radar**
+#### **Gráficos de radar**
 
-Los gráficos radiales son más útiles cuando desea observar varios factores diferentes, que están relacionados con un elemento. Estos gráficos tienen múltiples ejes a lo largo de los cuales se pueden trazar datos.
+Los gráficos de radar son más útiles cuando se desea analizar varios factores diferentes relacionados con un único ítem. Estos gráficos tienen múltiples ejes a lo largo de los cuales se pueden trazar datos.
 
-Los siguientes gráficos de radar son compatibles con Aspose.Cells:
+Los siguientes gráficos de radar son compatibles en Aspose.Cells:
 
-- Carta radar sencilla
-- Gráfico radial con marcadores de datos.
-- Gráfico de radar lleno
+- Simple radar chart
+- Radar chart with data markers
+- Filled radar chart
 
-####  **Gráfico de embudo**
-Un gráfico de embudo muestra valores en varias etapas de un proceso. Por ejemplo, podría utilizar un gráfico de embudo para mostrar la cantidad de prospectos de ventas en cada etapa de un proceso de ventas. Normalmente, los valores disminuyen gradualmente, permitiendo que las barras parezcan un embudo.
+#### **Gráfico de embudo**
+Un gráfico de embudo muestra valores en múltiples etapas de un proceso. Por ejemplo, se podría usar un gráfico de embudo para mostrar el número de prospectos de venta en cada etapa de un embudo de ventas. Típicamente, los valores disminuyen gradualmente, lo que permite que las barras se asemejen a un embudo.
 
-El gráfico de embudo se admite en Aspose.Cells.
+El gráfico de embudo es compatible en Aspose.Cells.
 
-####  **Gráficos de superficie 3D**
-Al igual que otros gráficos 3D, los gráficos 3D de superficie también se basan en los ejes X, Y y Z. Estos gráficos son útiles para mostrar una variación de la variable "Z" según las otras dos variables, "X" e "Y".
+#### **Gráficos 3D de superficie**
+Como otros gráficos 3D, los gráficos 3D de superficie también se basan en los ejes X, Y y Z. Estos gráficos son útiles para mostrar una variación en la variable "Z" según las otras dos variables, "X" y "Y".
 
-Los siguientes gráficos 3D de superficie son compatibles con Aspose.Cells:
+Los siguientes gráficos 3D de superficie son compatibles en Aspose.Cells:
 
-- gráfico de superficie 3D
-- Gráfico de superficie 3D de estructura alámbrica
-- Gráfico de contorno de superficie
-- Gráfico de contorno de estructura alámbrica
-####  **Gráficos de burbujas**
-Un gráfico de burbujas es una variación de un gráfico de dispersión en el que los puntos de datos se reemplazan por burbujas. Se puede utilizar un gráfico de burbujas en lugar de un gráfico de dispersión si sus datos tienen tres series de datos, cada una de las cuales contiene un conjunto de valores. Los gráficos de burbujas se utilizan principalmente para mostrar datos financieros.
+- 3D surface chart
+- Wireframe 3D surface chart
+- Surface contour chart
+- Wireframe contour chart
+#### **Gráficos de burbujas**
+Un gráfico de burbujas es una variación de un gráfico de dispersión en el cual los puntos de datos son reemplazados con burbujas. Un gráfico de burbujas se puede usar en lugar de un gráfico de dispersión si sus datos tienen tres series de datos, cada una de las cuales contiene un conjunto de valores. Los gráficos de burbujas se usan principalmente para mostrar datos financieros.
 
-Los siguientes gráficos de burbujas son compatibles con Aspose.Cells:
+Los siguientes gráficos de burbujas son compatibles en Aspose.Cells:
 
-- Gráfico de burbujas sencillo
-- gráfico de burbujas 3D
-####  **Gráficos de acciones**
-Los gráficos de acciones se utilizan principalmente para datos de precios de acciones, pero también se pueden utilizar para datos científicos.
+- Simple bubble chart
+- 3D bubble chart
+#### **Gráficos de acciones**
+Los gráficos de acciones son utilizados principalmente para datos de precios de las acciones, pero también se pueden utilizar para datos científicos.
 
-Los siguientes gráficos de cotizaciones son compatibles con Aspose.Cells:
+Los siguientes gráficos de acciones son compatibles en Aspose.Cells:
 
-- Gráfico de acciones de cierre alto-bajo
-- Gráfico de acciones de apertura, máximo, mínimo y cierre
-- Gráfico de acciones de volumen-alto-bajo-cierre
-- Gráfico de acciones de volumen-apertura-alto-bajo-cierre
-####  **Gráficos de cilindros**
-Estos tipos de gráficos utilizan marcadores de datos cilíndricos para dar un efecto espectacular a los gráficos de columnas, barras y columnas 3D.
+- High-low-close stock chart
+- Open-high-low-close stock chart
+- Volume-high-low-close stock chart
+- Volume-open-high-low-close stock chart
+#### **Gráficos de cilindro**
+Estos tipos de gráficos utilizan marcadores de datos cilíndricos para dar un efecto dramático a los gráficos de columnas, barras y gráficos de columnas 3D.
 
-Los siguientes gráficos de cilindros son compatibles con Aspose.Cells:
+Los siguientes gráficos de cilindro son compatibles en Aspose.Cells:
 
-- Diagrama de cilindros simple
-- Gráfico de cilindros apilados
-- Gráfico de cilindros 100% apilados
-- Gráfico de barras cilíndricas
-- Gráfico de barras cilíndricas apiladas
-- Gráfico de barras cilíndricas 100% apiladas
-- Gráfico de columnas cilíndricas 3D
-####  **Gráficos de cono**
-Estos tipos de gráficos utilizan marcadores de datos de cono para dar un efecto espectacular a los gráficos de columnas, barras y columnas 3D.
+- Simple cylinder chart
+- Stacked cylinder chart
+- Gráfico de cilindro apilado al 100%
+- Cylindrical bar chart
+- Stacked cylindrical bar chart
+- 100% stacked cylindrical bar chart
+- 3D cylindrical column chart
+#### **Gráficos de cono**
+Estos tipos de gráficos utilizan marcadores de datos de cono para dar un efecto dramático a los gráficos de columnas, barras y gráficos de columnas 3D.
 
-Los siguientes gráficos de conos son compatibles con Aspose.Cells:
+Los siguientes gráficos de cono son compatibles en Aspose.Cells:
 
-- gráfico de cono simple
-- Gráfico de conos apilados
-- Gráfico de conos 100% apilados
-- Gráfico de barras cónicas
-- Gráfico de barras cónicas apiladas
-- Gráfico de barras cónicas 100% apiladas
-- Gráfico de columnas cónicas 3D
-####  **Gráficos piramidales**
-Estos tipos de gráficos utilizan marcadores de datos piramidales para dar un efecto espectacular a los gráficos de columnas, barras y columnas 3D.
+- Simple cone chart
+- Stacked cone chart
+- 100% stacked cone chart
+- Conical bar chart
+- Stacked conical bar chart
+- 100% stacked conical bar chart
+- 3D conical column chart
+#### **Gráficos de pirámide**
+Estos tipos de gráficos utilizan marcadores de datos de pirámide para dar un efecto dramático a los gráficos de columnas, barras y gráficos de columnas 3D.
 
-Los siguientes gráficos piramidales son compatibles con Aspose.Cells:
+Los siguientes gráficos de pirámide son compatibles en Aspose.Cells:
 
-- Gráfico piramidal sencillo
-- Gráfico piramidal apilado
-- Gráfico piramidal 100% apilado
-- Gráfico de barras piramidal
-- Gráfico de barras piramidales apiladas
-- Gráfico de barras piramidales 100% apiladas
-- Gráfico de columnas piramidal 3D
-####  **Gráfico de mapa de árbol**
-Un gráfico de mapa de árbol proporciona una vista jerárquica de sus datos y facilita la detección de patrones, como qué artículos son los más vendidos de una tienda. Las ramas de los árboles están representadas por rectángulos y cada subrama se muestra como un rectángulo más pequeño. El gráfico de mapa de árbol muestra categorías por color y proximidad y puede mostrar fácilmente una gran cantidad de datos que serían difíciles con otros tipos de gráficos.
+- Simple pyramid chart
+- Stacked pyramid chart
+- 100% stacked pyramid chart
+- Pyramid bar chart
+- Stacked pyramid bar chart
+- 100% stacked pyramid bar chart
+- 3D pyramid column chart
+#### **Gráfico de mapa de árbol**
+Un gráfico Treemap proporciona una vista jerárquica de sus datos y facilita detectar patrones, como cuáles son los artículos más vendidos de una tienda. Las ramas del árbol están representadas por rectángulos y cada subrama se muestra como un rectángulo más pequeño. El gráfico Treemap muestra categorías por color y proximidad y puede mostrar fácilmente muchos datos que serían difíciles con otros tipos de gráficos.
 
-El gráfico de mapa de árbol se admite en Aspose.Cells.
+El gráfico de mapa de árbol es compatible en Aspose.Cells.
 
-####  **Gráfico de rayos solares**
-El gráfico Sunburst es ideal para mostrar datos jerárquicos. Cada nivel de la jerarquía está representado por un anillo o círculo con el círculo más interno como la parte superior de la jerarquía. Un gráfico de rayos de sol sin datos jerárquicos (un nivel de categorías) se parece a un gráfico de anillos. Sin embargo, un gráfico de rayos de sol con múltiples niveles de categorías muestra cómo se relacionan los anillos exteriores con los anillos interiores. El gráfico de rayos de sol es más eficaz para mostrar cómo un anillo se divide en sus piezas contribuyentes, mientras que otro tipo de gráfico jerárquico, el gráfico de mapa de árbol, es ideal para comparar tamaños relativos.
+#### **Gráfico de ráfaga solar**
+El gráfico de ráfaga solar es ideal para mostrar datos jerárquicos. Cada nivel de la jerarquía está representado por un anillo o círculo con el círculo más interno como la parte superior de la jerarquía. Un gráfico de ráfaga solar sin datos jerárquicos (un nivel de categorías), se parece a un gráfico de rosquilla. Sin embargo, un gráfico de ráfaga solar con múltiples niveles de categorías muestra cómo se relacionan los anillos exteriores con los interiores. El gráfico de ráfaga solar es más efectivo al mostrar cómo un anillo se divide en sus partes contribuyentes, mientras que otro tipo de gráfico jerárquico, el gráfico de mapa de árbol, es ideal para comparar tamaños relativos.
 
-El gráfico Sunburst se admite en Aspose.Cells.
+El gráfico de ráfaga solar es compatible en Aspose.Cells.
 
-####  **Gráfico de histograma**
+#### **Gráfico de histograma**
 Un histograma es un gráfico de columnas que muestra datos de frecuencia.
 
-Los siguientes gráficos de radar son compatibles con Aspose.Cells:
+Los siguientes gráficos de radar son compatibles en Aspose.Cells:
 
-- gráfico de histograma
-- diagrama de Pareto
+- Histogram chart
+- Pareto chart
 
-####  **Cuadro de cajas y bigotes**
-Un gráfico de caja y bigotes muestra la distribución de los datos en cuartiles, destacando la media y los valores atípicos. Las cajas pueden tener líneas que se extienden verticalmente llamadas "bigotes". Estas líneas indican variabilidad fuera de los cuartiles superior e inferior, y cualquier punto fuera de esas líneas o bigotes se considera un valor atípico.
+#### **Gráfico de caja y bigotes**
+Un gráfico de caja y bigotes muestra la distribución de datos en cuartiles, resaltando la media y los valores atípicos. Las cajas pueden tener líneas que se extienden verticalmente llamadas "bigotes". Estas líneas indican variabilidad fuera de los cuartiles superior e inferior, y cualquier punto fuera de esas líneas o bigotes se considera un valor atípico.
 
-El gráfico de cajas y bigotes se admite en Aspose.Cells.
+El gráfico de caja y bigotes es compatible en Aspose.Cells.
 
-####  **Gráfico de cascada**
-Un gráfico en cascada muestra un total acumulado a medida que se suman o restan valores. Es útil para comprender cómo un valor inicial (por ejemplo, el ingreso neto) se ve afectado por una serie de valores positivos y negativos.
+#### **Gráfico de cascada**
+Un gráfico de cascada muestra un total acumulado a medida que se agregan o restan valores. Es útil para comprender cómo un valor inicial (por ejemplo, ingresos netos) se ve afectado por una serie de valores positivos y negativos.
 
-El gráfico en cascada se admite en Aspose.Cells.
-###  **Tipos de gráficos personalizados**
-Los gráficos personalizados le permiten crear gráficos con formato personalizado que también se pueden aplicar a otros gráficos. Aquí, solo hemos discutido los gráficos estándar. Si desea conocer más detalles sobre los gráficos personalizados, lea el artículo Creación de gráficos personalizados que describe cómo crear gráficos personalizados.
+El gráfico de cascada es compatible en Aspose.Cells.
+### **Tipos de gráficos personalizados**
+Los gráficos personalizados le permiten crear gráficos con formato personalizado que también se pueden aplicar a otros gráficos. Aquí solo hemos discutido los gráficos estándar. Si desea conocer más detalles sobre gráficos personalizados, lea el artículo Creación de gráficos personalizados que describe cómo crear gráficos personalizados.

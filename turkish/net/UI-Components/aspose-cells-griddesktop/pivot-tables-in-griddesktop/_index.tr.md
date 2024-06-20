@@ -1,6 +1,9 @@
-﻿---
-title: GridDesktop'ta Pivot Tablolar
+---
+title: GridDesktop ta Dönen Tablolar
 type: docs
 weight: 70
-url: /tr/net/pivot-tables-in-griddesktop/
+url: /tr/net/aspose-cells-griddesktop/pivot-tables-in-griddesktop/
+keywords: GridDesktop, dönen tablolar, dönen
+description: Bu makale, GridDesktop ta pivot tablolarının kullanımını tanıtıyor.
 ---
+

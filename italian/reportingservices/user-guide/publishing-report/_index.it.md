@@ -1,47 +1,48 @@
-﻿---
-title: Rapporto di pubblicazione
+---
+title: Pubblicazione del Report
 type: docs
 weight: 120
 url: /it/reportingservices/publishing-report/
 ---
+
 {{% alert color="primary" %}} 
 
-Dopo aver progettato un report con tutti gli elementi desiderati, il passaggio successivo consiste nel pubblicarlo sul Reporting Server in modo che tu ei tuoi colleghi possiate eseguirlo.
+Quando hai progettato un report con tutti gli elementi che desideri, il passaggio successivo è pubblicarlo sul Server dei report in modo che tu e i tuoi colleghi possiate eseguirlo.
 
 {{% /alert %}} 
 
-Per pubblicare un report su Report Server, attenersi alla seguente procedura:
+Per pubblicare un report sul Server dei report, segui i passaggi seguenti:
 
-1.  Clic**Pubblicare** 
+1. Fare clic su **Pubblica** 
 
-![cose da fare:immagine_alt_testo](publishing-report_1.png)
+![todo:image_alt_text](publishing-report_1.png)
 
- sulla barra degli strumenti Aspose.Cells.Report.Designer e fare clic su**sì** pulsante per salvare il rapporto.
+nella barra degli strumenti Aspose.Cells.Report.Designer e fare clic sul pulsante **Sì** per salvare il report. 
 
-![cose da fare:immagine_alt_testo](publishing-report_2.png)
-
-
-
-
-1.  Nella finestra di dialogo immettere l'URL del server di report e fare clic su**ricaricare** pulsante.
-
-![cose da fare:immagine_alt_testo](publishing-report_3.png)
-
-1.  Seleziona una cartella di destinazione e inserisci il nome del rapporto. Clicca il**Configurazione dell'origine dati** pulsante per impostare le origini dati.
-
-![cose da fare:immagine_alt_testo](publishing-report_4.png)
+![todo:image_alt_text](publishing-report_2.png)
 
 
 
-Viene visualizzata la finestra di dialogo Impostazione origine dati.
 
-1.  Nella finestra di dialogo immettere le informazioni sull'origine dati. Clic**Selezionare** per selezionare le origini dati condivise. (Se ne hai bisogno, le origini dati condivise dovrebbero essere l'origine dati principale del rapporto). Clicca il**OK** pulsante per completare il lavoro.
+1. Nella finestra di dialogo, immettere l'URL del Server dei report e fare clic sul pulsante **Aggiorna**.
 
-![cose da fare:immagine_alt_testo](publishing-report_5.png)
+![todo:image_alt_text](publishing-report_3.png)
 
-1.  Clic**Pubblicare** per pubblicare il report nel server di report.
+1. Selezionare una cartella di destinazione e immettere il nome del report. Fare clic sul pulsante **Imposta origine dati** per configurare le origini dati. 
 
-![cose da fare:immagine_alt_testo](publishing-report_6.png)
+![todo:image_alt_text](publishing-report_4.png)
+
+
+
+Viene visualizzata la finestra di dialogo Imposta origine dati.
+
+1. Nella finestra di dialogo, inserisci le informazioni sulla sorgente dati. Clicca su **Seleziona** per scegliere le sorgenti dati condivise. (Se necessario, le sorgenti dati condivise dovrebbero essere la principale sorgente dati del report). Clicca sul pulsante **OK** per completare il lavoro.
+
+![todo:image_alt_text](publishing-report_5.png)
+
+1. Clicca su **Pubblica** per pubblicare il report sul Report Server. 
+
+![todo:image_alt_text](publishing-report_6.png)
 
 
 

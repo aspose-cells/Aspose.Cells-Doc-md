@@ -1,17 +1,18 @@
-﻿---
-title: ワードアートの透かしをロックする
+---
+title: WordArtウォーターマークをロックする
 type: docs
 weight: 160
 url: /ja/java/locking-wordart-watermark/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells API を使用すると、ワードアートがワークシート上で移動および配置できるオブジェクトになる方法で、ワークシートにワードアートの透かしを追加できます。編集、移動、選択などの操作に対してワードアート オブジェクトをロックすることもできます。この記事では、[**Shape.setLockedProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#setLockedProperty(int,%20boolean)) 透かしのいくつかの側面をロックする方法。
+Aspose.CellsのAPIを使用して、WordArtウォーターマークをワークシートに追加すると、WordArtは移動やワークシート上での配置などの操作が可能になります。WordArtオブジェクトを編集、移動、選択などの相互作用からロックすることも可能です。この記事では、[**Shape.setLockedProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#setLockedProperty(int,%20boolean))メソッドを使用してウォーターマークのいくつかの側面をロックする方法について説明しています。
 
 {{% /alert %}}
 
-## **ワードアートの透かしをロックする**
+## **WordArtウォーターマークをロックする**
 
-Aspose.Cells API を使用すると、透かしの特定の側面をロックして、ユーザーの操作を制限または完全にブロックできます。次のコード スニペットは、Aspose.Cells for Java API を使用して、読み込まれたスプレッドシートの各ワークシートに透かしを作成し、透かしの選択、移動、編集、およびサイズ変更をロックする方法を示しています。
+Aspose.CellsのAPIを使用すると、ユーザーの操作を制限したり完全にブロックしたりするためにウォーターマークの特定の側面をロックすることができます。以下のコードスニペットは、ロードされたスプレッドシートの各ワークシートにウォーターマークを作成し、選択、移動、編集、サイズ変更をロックするAspose.Cells for Java APIの使用方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LockWordArtWatermark-LockWordArtWatermark.java" >}}

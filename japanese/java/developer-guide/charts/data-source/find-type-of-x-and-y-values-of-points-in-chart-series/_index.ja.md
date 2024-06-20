@@ -1,16 +1,17 @@
-﻿---
-title: チャート シリーズのポイントの X 値と Y 値のタイプを見つける
+---
+title: チャートシリーズのポイントのXおよびY値のタイプを検索する
 type: docs
 weight: 110
 url: /ja/java/find-type-of-x-and-y-values-of-points-in-chart-series/
 ---
-## **考えられる使用シナリオ**
 
-系列のチャート ポイントの X 値と Y 値のタイプを知りたい場合があります。 Aspose.Cells提供[**ChartPoint.XValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#XValueType)と[**ChartPoint.YValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#YValueType)この目的で使用できるプロパティ。お電話になりますのでご了承ください[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()) メソッドを使用してから、これらのプロパティを効果的に使用してください。
+## **可能な使用シナリオ**
 
-## **チャート シリーズのポイントの X 値と Y 値のタイプを見つける**
+時々、チャートのシリーズ内のチャートポイントのXおよびY値のタイプを知りたい場合があります。Aspose.Cellsは、この目的に使用できる[**ChartPoint.XValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#XValueType)および[**ChartPoint.YValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#YValueType)プロパティを提供します。これらのプロパティを効果的に使用するには、[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate--)メソッドを呼び出す必要があります。
 
-次のサンプル コードは、[サンプル Excel ファイル](64716920.xlsx)最初のワークシート内の最初のグラフにアクセスします。次に、[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()メソッドを呼び出し、最初のチャート ポイントの X 値と Y 値のタイプを見つけて、コンソールに出力します。参考として、以下に示すコンソール出力を参照してください。
+## **チャートシリーズのX値とY値のタイプを検索する**
+
+以下のサンプルコードでは、[sample Excel file](64716920.xlsx)を読み込み、最初のワークシート内の最初のチャートにアクセスします。その後、[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate--)メソッドを呼び出して、最初のチャートポイントのXおよびY値のタイプを見つけ、それをコンソールに出力します。参考のために、以下に示すコンソール出力をご覧ください。
 
 ## **サンプルコード**
 
@@ -18,7 +19,7 @@ url: /ja/java/find-type-of-x-and-y-values-of-points-in-chart-series/
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 X Value Type: IsString
 

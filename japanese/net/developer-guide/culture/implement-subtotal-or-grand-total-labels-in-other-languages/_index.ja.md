@@ -1,21 +1,22 @@
-﻿---
-title: 小計または総計のラベルを他の言語で実装する
+---
+title: 他の言語でサブトータルまたはグランドトータルラベルを実装する
 type: docs
 weight: 50
 url: /ja/net/implement-subtotal-or-grand-total-labels-in-other-languages/
 ---
-## **考えられる使用シナリオ**
 
-中国語、日本語、アラビア語、ヒンディー語など、英語以外の言語で小計と総計のラベルを表示したい場合があります。Aspose.Cells を使用すると、[**グローバリゼーション設定**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)クラスと[**Workbook.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings)財産。利用方法はこちらの記事をご覧ください[**グローバリゼーション設定**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)クラス
+## **可能な使用シナリオ**
 
-- [カスタム小計ラベルおよび円グラフのその他のラベルに GlobalizationSettings クラスを使用する](/cells/ja/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
+時には、中国語、日本語、アラビア語、ヒンディ語などの非英語の言語でサブトータルとグランドトータルのラベルを表示したいことがあります。Aspose.Cells を使用すると、[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)クラスと[**Workbook.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings)プロパティを使用してこれを行うことができます。[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)クラスの使用方法については、この記事を参照してください。
 
-## **小計または総計のラベルを他の言語で実装する**
+- [ピーグラフのカスタムサブトータルラベルおよびその他のラベル用のGlobalizationSettingsクラスの使用](/cells/ja/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
 
-次のサンプル コードは、[サンプルエクセルファイル](5115151.xlsx)小計と総計の名前を中国語で実装します。を確認してください[出力エクセルファイル](5115152.xlsx)参照用にこのコードによって生成されます。最初にクラスを作成します[**グローバリゼーション設定**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)コードで使用します。
+## **他の言語でサブトータルまたはグランドトータルラベルを実装する**
+
+以下のサンプルコードでは、中国語でサブトータルとグランドトータル名を実装し、このコードによって生成された [出力Excelファイル](5115152.xlsx) をご参照ください。まず、[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)クラスを作成し、その後コードで使用します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-TotalsInOtherLanguages-GlobalizationSettings.cs" >}}
 
-上記で作成したクラスを以下のコードで使用します。
+上記で作成したクラスを以下のようにコードで使用します:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-TotalsInOtherLanguages-UsingGlobalizationSettings.cs" >}}

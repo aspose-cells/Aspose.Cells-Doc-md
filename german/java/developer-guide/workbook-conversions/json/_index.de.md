@@ -1,7 +1,7 @@
-﻿---
+---
 title: Json
 type: docs
 weight: 230
-description: Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells in json konvertieren.
-keywords: Exporting Workbook to json without office 2013, office 2016, office 2019 and office 365
+description: Lernen Sie, wie Sie Excel Datei in JSON mit Aspose.Cells konvertieren.
+keywords: Exportieren von Arbeitsmappe nach JSON ohne Office 2013, Office 2016, Office 2019 und Office 365
 ---

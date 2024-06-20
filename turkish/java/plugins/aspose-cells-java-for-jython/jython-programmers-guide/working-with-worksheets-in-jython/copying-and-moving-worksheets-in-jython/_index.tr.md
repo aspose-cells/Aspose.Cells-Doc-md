@@ -1,15 +1,16 @@
-﻿---
-title: Jython'da Çalışma Sayfalarını Kopyalama ve Taşıma
+---
+title: Jython da Çalışsayfa Kopyalama ve Taşıma
 type: docs
 weight: 20
 url: /tr/java/copying-and-moving-worksheets-in-jython/
 ---
-## **Aspose.Cells - Çalışma Sayfalarını Kopyalama ve Taşıma**
- Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
+
+## **Aspose.Cells - Çalışsayfa Kopyalama ve Taşıma**
+**Aspose.Cells Java for Jython** ile belgeler eklemek için. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -98,6 +99,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belgeleri Ekleyin (Aspose.Cells)** Aşağıda belirtilen sosyal kodlamaların herhangi birinden
+Herhangi bir sosyal kodlama sitesinden **Append Documents (Aspose.Cells)**'ı indirin: 
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)

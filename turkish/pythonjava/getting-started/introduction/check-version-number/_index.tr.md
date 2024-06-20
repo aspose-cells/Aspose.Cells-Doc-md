@@ -1,30 +1,31 @@
-﻿---
-title: Sürüm Numarasını Kontrol Et
+---
+title: Sürüm Numarasını Kontrol Edin
 type: docs
 weight: 80
 url: /tr/python-java/check-version-number/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells'in hangi sürümünü kullandığınızı merak mı ediyorsunuz? Hem yeni özellikler sunmak hem de sorunları gidermek için düzenli olarak Aspose.Cells'in yeni sürümlerini yayınlıyoruz. Sürüm numarası ana sürüm numarası, alt sürüm numarası ve düzeltme sürüm numarasından oluşur. Her sayı 0'dan yukarı bir tam sayı olmalıdır. Biçim aşağıdaki gibidir:
+Kullandığınız Aspose.Cells'in hangi sürümü olduğunu merak mı ediyorsunuz? Aspose.Cells'in yeni sürümlerini, hem yeni özellikler tanıtmak hem de düzeltmeler yapmak için düzenli olarak yayınlıyoruz. Sürüm numarası, büyük sürüm numarası, küçük sürüm numarası ve düzeltme sürüm numarasından oluşur. Her sayı, 0'dan yukarı bir tam sayı olmalıdır. Format aşağıdaki gibidir:
 
 büyük.küçük.düzeltme
 
-Aspose.Cells'in yeni bir derlemesini yayınladığımızda, sürüm numarasını güncelleriz.
+Yeni bir Aspose.Cells sürümü yayımladığımızda, sürüm numarasını güncelliyoruz.
 
-Bu makalede, Aspose.Cells'in hangi sürümünün sistemde yüklü olduğunun manuel olarak ve Aspose.Cells API kullanılarak nasıl kontrol edileceği açıklanmaktadır.
+Bu makale, Aspose.Cells'in yüklü olduğu sürümü manuel olarak ve Aspose.Cells API'sını kullanarak nasıl kontrol edileceğini açıklar.
 
 {{% /alert %}}
 
-## **Sürüm Numarasını Manuel Olarak Kontrol Edin**
+## **Sürüm Numarasını Manüel Olarak Kontrol Etme**
 
-Aspose.Cells'in hangi sürümünü manuel olarak kullandığınızı öğrenmek için:
+Kullandığınız Aspose.Cells'in sürüm numarasını manuel olarak bulmak için:
 
-1.  Aspose.Cells.dll dosyasına sağ tıklayın ve seçin**Özellikler**.
-1. Sürüm numarasını kontrol etmek için Sürüm (veya Ayrıntılar) sekmesine tıklayın.
+1. Aspose.Cells.dll dosyasına sağ tıklayın ve **Özellikler** seçeneğini belirleyin.
+1. Sürüm (veya Ayrıntılar) sekmesine tıklayarak sürüm numarasını kontrol edin.
 
-## **Aspose.Cells API'i Kullanarak Versiyon Numarasını Kontrol Edin**
+## **Aspose.Cells API'sini Kullanarak Sürüm Numarasını Kontrol Etme**
 
- Aspose.Cells'in hangi versiyonunu kullandığınızı API üzerinden öğrenmek için,[HücrelerYardımcısı](https://reference.aspose.com/cells/python-java/asposecells.api/cellshelper) Aspose.Cell'in sürüm numarasını almak için sınıf GetVersion statik yöntemi.
+API üzerinden Aspose.Cells'in hangi sürümünü kullandığınızı bulmak için [CellsHelper](https://reference.aspose.com/cells/python-java/asposecells.api/cellshelper) sınıfının GetVersion statik yöntemini kullanın.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CheckVersionNumber.py" >}}

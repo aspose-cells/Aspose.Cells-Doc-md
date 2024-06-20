@@ -1,19 +1,20 @@
 ---
-title: Yazdırılacak Hiçbir Şey Olmadığında Boş Sayfa Çıktısı
+title: Hiçbir şey Yazdırılacak Değilken Boş Sayfa Çıktısı
 type: docs
 weight: 80
 url: /tr/java/output-blank-page-when-there-is-nothing-to-print/
 ---
-##  **Olası Kullanım Senaryoları**
 
-Sayfa boşsa, çalışma sayfasını görüntüye aktardığınızda Aspose.Cells hiçbir şey yazdırmayacaktır. Bu davranışı kullanarak değiştirebilirsiniz.[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint)mülk. *true** olarak ayarladığınızda, boş sayfayı yazdıracaktır.
+## **Olası Kullanım Senaryoları**
 
-##  **Yazdırılacak Hiçbir Şey Olmadığında Boş Sayfa Çıktısı**
+Eğer sayfa boşsa, Aspose.Cells sayfa görüntüsünü dışa aktardığınızda hiçbir şey yazdırmayacaktır. Bu davranışı [**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint) özelliğini kullanarak değiştirebilirsiniz. Bu özelliği **true** olarak ayarladığınızda, boş sayfayı yazdıracaktır.
 
-Aşağıdaki örnek kod, boş bir çalışma sayfası olan boş çalışma kitabını oluşturur ve boş çalışma sayfasını ayarladıktan sonra bir görüntüye dönüştürür.[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint)özelliği *true** olarak ayarlayın. Sonuç olarak, aşağıdaki gibi görebileceğiniz yazdırılacak hiçbir şey olmadığı için boş bir sayfa oluşturur.
+## **Hiçbir şey Yazdırılacak Değilken Boş Sayfa Çıktısı**
 
-![yapılacaklar:image_alt_text](output-blank-page-when-there-is-nothing-to-print_1.png)
+Aşağıdaki örnek kod boş bir elektronik tablo oluşturur ve [**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint) özelliğini **true** olarak ayarladıktan sonra boş tabloyu görüntüye dönüştürür. Sonuç olarak, hiçbir şey yazdırılmadığı için boş bir sayfa oluşturur.
 
-##  **Basit kod**
+![todo:image_alt_text](output-blank-page-when-there-is-nothing-to-print_1.png)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-OutputBlankPageWhenThereIsNothingToPrint-1.java" >}}

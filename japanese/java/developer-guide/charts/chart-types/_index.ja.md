@@ -1,258 +1,259 @@
-﻿---
-title: グラフの種類
+---
+title: チャートタイプ
 type: docs
 weight: 10
 url: /ja/java/chart-types/
 ---
+
 {{% alert color="primary" %}} 
 
-チャートは、情報を視覚的に表示するものです。 Aspose.Cells を使用すると、開発者は Microsoft Excel と同じようにチャートで情報を視覚化できます。チャートで情報を提示することは、意思決定者が迅速かつタイムリーに意思決定を行うのに常に役立ちます。生の数値よりも、グラフを使用してデータの比較、パターン、および傾向をすばやく確認する方が簡単です。スプレッドシートのデータに基づいて実行時にグラフを作成することは、Aspose.Cells の最も強力な機能の 1 つです。
+チャートは情報の視覚的表示です。Aspose.Cellsを使用すると、情報をMicrosoft Excelと同様にチャートで視覚化できます。情報をチャートで提示することは、迅速かつタイムリーな意思決定を行うための決定者にとって常に役立ちます。生の数字よりもチャートでデータの比較、パターン、トレンドを素早く確認することができます。スプレッドシート内のデータに基づいて実行時にチャートを作成することは、Aspose.Cellsの最も強力な機能の1つです。
 
 {{% /alert %}} 
-## **グラフの種類**
-Aspose.Cells は、Microsoft Excel でサポートされているほぼすべてのグラフの種類をサポートしています。チャートは、次の 2 つの主要なカテゴリに分類されます。
+## **チャートタイプ**
+Aspose.Cellsは、Microsoft Excelでサポートされているほとんどのチャートタイプをサポートしています。チャートは主に次の2つの主要なカテゴリに分類されます:
 
-- [標準タイプ](/cells/ja/java/chart-types/).
-- [カスタム タイプ](/cells/ja/java/chart-types/).
+- [標準の種類](/cells/ja/java/chart-types/)
+- [カスタムの種類](/cells/ja/java/chart-types/)
 ### **標準タイプ**
-標準チャートは、標準フォーマットで通常使用されるチャートです。
+標準のチャートは通常、標準の書式設定で使用されるチャートです:
 
-|<p>- [桁](/cells/ja/java/chart-types/)</p><p>- [バー](/cells/ja/java/chart-types/)</p><p>- [ライン](/cells/ja/java/chart-types/)</p><p>- [パイ](/cells/ja/java/chart-types/)</p><p>- [散布](/cells/ja/java/chart-types/)</p><p>- [範囲](/cells/ja/java/chart-types/)</p><p>- [ドーナツ](/cells/ja/java/chart-types/)</p>|<p>- [レーダー](/cells/ja/java/chart-types/)</p><p>- [サーフェス 3D](/cells/ja/java/chart-types/)</p><p>- [バブル](/cells/ja/java/chart-types/)</p><p>- [ストック](/cells/ja/java/chart-types/)</p><p>- [シリンダー](/cells/ja/java/chart-types/)</p><p>- [円錐](/cells/ja/java/chart-types/)</p><p>- [ピラミッド](/cells/ja/java/chart-types/)</p><p>- [ツリーマップ](/cells/ja/java/chart-types/)</p><p>- [サンバースト](/cells/ja/java/chart-types/)</p><p>- [ヒストグラム](/cells/ja/java/chart-types/)</p><p>- [ボックスとウィスカー](/cells/ja/java/chart-types/)</p><p>- [滝](/cells/ja/java/chart-types/)</p>|
-|:- |:- |
-標準的なチャート タイプのそれぞれについて、以下で詳しく説明します。
-#### **縦棒グラフ**
-縦棒グラフは、縦棒 (列と呼ばれる) を使用して、1 つ以上のデータ項目のさまざまな値を表示します。縦棒グラフは主に、異なるカテゴリ間で値を比較するために使用されます。これらは、予算分析を行う場合など、時間の経過に伴うアイテムの価値の変動を示すのに理想的です。
+|<p>- [縦型棒](/cells/ja/java/chart-types/)</p><p>- [横型棒](/cells/ja/java/chart-types/)</p><p>- [折れ線](/cells/ja/java/chart-types/)</p><p>- [円](/cells/ja/java/chart-types/)</p><p>- [散布図](/cells/ja/java/chart-types/)</p><p>- [面](/cells/ja/java/chart-types/)</p><p>- [ドーナツ](/cells/ja/java/chart-types/)</p>|<p>- [レーダー](/cells/ja/java/chart-types/)</p><p>- [3D表面](/cells/ja/java/chart-types/)</p><p>- [バブル](/cells/ja/java/chart-types/)</p><p>- [株価](/cells/ja/java/chart-types/)</p><p>- [円柱](/cells/ja/java/chart-types/)</p><p>- [円錐](/cells/ja/java/chart-types/)</p><p>- [ピラミッド](/cells/ja/java/chart-types/)</p><p>- [ツリーマップ](/cells/ja/java/chart-types/)</p><p>- [サンバースト](/cells/ja/java/chart-types/)</p><p>- [ヒストグラム](/cells/ja/java/chart-types/)</p><p>- [箱ひげ](/cells/ja/java/chart-types/)</p><p>- [ウォーターフォール](/cells/ja/java/chart-types/)</p>|
+| :- | :- |
+各標準のチャートタイプについては、以下で詳しく説明します。
+#### **列チャート**
+列チャートは縦棒（列と呼ばれる）を使用して1つまたは複数のデータアイテムの異なる値を表示します。列チャートは、異なるカテゴリ間での値の比較を表示するために主に使用されます。予算分析を行う際など、アイテムの値の時間との変動を示すのに最適です。
 
-**Microsoft Excel でサポートされている縦棒グラフ** 
+**Microsoft Excelでサポートされている縦型棒グラフ** 
 
-![todo:画像_代替_文章](chart-types_1.png)
+![todo:image_alt_text](chart-types_1.png)
 
-Aspose.Cells では、次の縦棒グラフがサポートされています。
+Aspose.Cellsでサポートされている列チャートは次のとおりです:
 
-- 集合縦棒グラフ
-- 積み上げ縦棒グラフ
-- 100% 積み上げ縦棒グラフ
-- 3D 集合縦棒グラフ
-- 3D 積み上げ縦棒グラフ
-- 3D 100% 積み上げ縦棒グラフ
-- 立体縦棒グラフ
-#### **棒グラフ**
-棒グラフは、縦棒グラフとほぼ同じタイプです。違いは、縦棒ではなく横棒を使用することです。
+- Clustered column chart
+- Stacked column chart
+- 100% stacked column chart
+- 3D clustered column chart
+- 3D stacked column chart
+- 3D 100% stacked column chart
+- 3D column chart
+#### **棒チャート**
+棒グラフは列チャートとほぼ同じタイプです。違いは、縦の棒の代わりに水平の棒を使用することです。
 
-**Microsoft Excel でサポートされている棒グラフ** 
+**Microsoft Excelでサポートされている横型棒グラフ** 
 
-![todo:画像_代替_文章](chart-types_2.png)
+![todo:image_alt_text](chart-types_2.png)
 
-Aspose.Cells では、次の棒グラフがサポートされています。
+Aspose.Cellsでサポートされている棒グラフは次のとおりです:
 
-- 集合棒グラフ
-- 積み上げ棒グラフ
-- 100% 積み上げ棒グラフ
-- 3D 集合棒グラフ
-- 3D 積み上げ棒グラフ
-- 3D 100% 積み上げ棒グラフ
-#### **折れ線グラフ**
-折れ線グラフは、線を使用して情報を表示します。これらのグラフは、時間の経過に伴う一時的な傾向を示すのに非常に役立ち、多くの場合、複数の項目の値の経時変化を示すために使用されます。
+- Clustered bar chart
+- Stacked bar chart
+- 100% stacked bar chart
+- 3D clustered bar chart
+- 3D stacked bar chart
+- 3D 100% stacked bar chart
+#### **折れ線チャート**
+折れ線チャートは線を使用して情報を表示します。これらのチャートは、時間の経過に伴う時系列の傾向を示すのに非常に役立ちます。1つ以上の項目の値が時間とともに変動することを示すためによく使用されます。
 
-**Microsoft Excel でサポートされている折れ線グラフ** 
+**Microsoft Excelでサポートされている折れ線グラフ** 
 
-![todo:画像_代替_文章](chart-types_3.png)
+![todo:image_alt_text](chart-types_3.png)
 
-Aspose.Cells では、次の折れ線グラフがサポートされています。
+Aspose.Cellsでサポートされている折れ線チャートは次のとおりです:
 
-- シンプルな折れ線グラフ
-- 積み上げ折れ線グラフ
-- 100% 積み上げ折れ線グラフ
-- データ マーカー付き折れ線グラフ
-- データ マーカー付き積み上げ折れ線グラフ
-- データ マーカー付きの 100% 積み上げ折れ線グラフ
-- 立体折れ線グラフ
+- Simple line chart
+- Stacked line chart
+- 100% stacked line chart
+- Line chart with data markers
+- Stacked line chart with data markers
+- 100% stacked line chart with data markers
+- 3D line chart
 
 {{% alert color="primary" %}} 
 
-データ マーカーは、グラフにプロットされる個々の値であるデータ ポイントを表すために使用されます。同じ色のデータ マーカーは、データ系列を構成します。
+データマーカーは、チャートにプロットされた個々の値であるデータポイントを表します。同じ色のデータマーカーはデータシリーズを構成します。
 
 {{% /alert %}} 
 #### **円グラフ**
-円グラフは、全体のさまざまな部分または合計のパーセンテージを表す場合に、情報を表示するために主に使用されます。
+円グラフは、全体の異なる部分や合計の割合を表す場合に主に使用されます。
 
-**Microsoft Excel でサポートされている円グラフ** 
+**Microsoft Excelでサポートされている円グラフ** 
 
-![todo:画像_代替_文章](chart-types_4.png)
+![todo:image_alt_text](chart-types_4.png)
 
-Aspose.Cells では、次の円グラフがサポートされています。
+Aspose.Cellsでサポートされている円グラフは次のとおりです:
 
-- シンプルな円グラフ
-- 立体円グラフ
-- 円グラフの円
-- 分解円グラフ
-- 3D 分解円グラフ
-- 円グラフのバー
+- Simple pie chart
+- 3D pie chart
+- Pie of pie chart
+- Exploded pie chart
+- 3D exploded pie chart
+- Bar of pie chart
 #### **散布図**
-散布図は主に統計で使用され、それぞれが水平 (「X」) 軸と垂直 (「Y」) 軸に座標を持つ有限数の点のみを表示することにより、2 つの関連する量的データまたは数値データのセットを視覚的に表示および比較します。
+散布図は主に統計に使用され、関連する2つの数量的または数値データのセットを視覚的に表示および比較するために使用されます。それぞれが水平（"X"）および垂直（"Y"）軸上の座標を持つ有限の点のみを表示します。
 
-**Microsoft Excel でサポートされている散布図** 
+**Microsoft Excelでサポートされている散布図** 
 
-![todo:画像_代替_文章](chart-types_5.png)
+![todo:image_alt_text](chart-types_5.png)
 
-Aspose.Cells では、次の散布図がサポートされています。
+Aspose.Cellsでサポートされている散布図は次のとおりです:
 
-- 単純な散布図
-- 曲線で結ばれた散布図、データ マーカー付き
-- 曲線で接続された散布図、データ マーカーなし
-- データ マーカー付きの線で結ばれた散布図
-- 線で結ばれた散布図、データ マーカーなし
-#### **面グラフ**
-面グラフは、グラフ化された情報の間の関係を強調するために各領域に無地の色またはパターンが与えられている折れ線グラフの一種です。
+- Simple scatter chart
+- Scatter chart connected by curves, with data markers
+- Scatter chart connected by curves, without data markers
+- Scatter chart connected by lines, with data markers
+- Scatter chart connected by lines, without data markers
+#### **面積グラフ**
+面積グラフは、各エリアにソリッドカラーやパターンを付けて、チャートされた情報の関係を強調するための折れ線グラフの一種です。
 
-**Microsoft Excel でサポートされている面グラフ** 
+**Microsoft Excelでサポートされている面グラフ** 
 
-![todo:画像_代替_文章](chart-types_6.png)
+![todo:image_alt_text](chart-types_6.png)
 
-Aspose.Cells では、次の面グラフがサポートされています。
+Aspose.Cells でサポートされている面積グラフは以下のとおりです:
 
-- 単純な面グラフ
-- 積み上げ面グラフ
-- 100% 積み上げ面グラフ
-- 3D 面グラフ
-- 3D 積み上げ面グラフ
-- 3D 100% 積み上げ面グラフ
-#### **ドーナツチャート**
-ドーナツ グラフは円グラフに似ており、主にデータの割合が全体にどのように寄与しているかを示すために使用されます。
+- Simple area chart
+- Stacked area chart
+- 100% stacked area chart
+- 3D area chart
+- 3D stacked area chart
+- 3D 100% stacked area chart
+#### **ドーナツグラフ**
+ドーナツグラフは円グラフに似ており、データの割合が全体にどのように寄与するかを示すために主に使用されます。
 
-**Microsoft Excel でサポートされているドーナツ グラフ** 
+**Microsoft Excelでサポートされているドーナツグラフ** 
 
-![todo:画像_代替_文章](chart-types_7.png)
+![todo:image_alt_text](chart-types_7.png)
 
-Aspose.Cells では、次のドーナツ グラフがサポートされています。
+Aspose.Cells でサポートされているドーナツグラフは以下のとおりです:
 
-- シンプルなドーナツ チャート
-- 分解されたドーナツ チャート
-#### **レーダーチャート**
-レーダー チャートは、1 つの項目に関連するいくつかの異なる要因を調べたい場合に最も役立ちます。これらのチャートには、データをプロットできる複数の軸があります。
+- Simple doughnut chart
+- Exploded doughnut chart
+#### **レーダーグラフ**
+複数の軸があり、データをプロットできるレーダーグラフは、1つのアイテムに関連する複数の異なる要因を見たいときに最も役立ちます。
 
-**Microsoft Excel でサポートされているレーダー チャート** 
+**Microsoft Excelでサポートされているレーダーグラフ** 
 
-![todo:画像_代替_文章](chart-types_8.png)
+![todo:image_alt_text](chart-types_8.png)
 
-Aspose.Cells では、次のレーダー チャートがサポートされています。
+Aspose.Cellsでは、次のレーダーチャートがサポートされています:
 
-- シンプルなレーダーチャート
-- データ マーカー付きのレーダー チャート
-- 塗りつぶされたレーダー チャート
-#### **曲面 3D グラフ**
-他の 3D チャートと同様に、サーフェス 3D チャートは X、Y、および Z 軸に基づいています。これらのチャートは、他の 2 つの変数「X」と「Y」による「Z」変数の変化を示すのに役立ちます。
+- Simple radar chart
+- Radar chart with data markers
+- Filled radar chart
+#### **サーフェス3Dグラフ**
+他の3Dグラフと同様に、3DサーフェスグラフはX軸、Y軸、Z軸に基づいています。これらのチャートは、"Z"変数の他の2つの変数"X"および"Y"に応じて変動を表示するのに役立ちます。
 
-**Microsoft Excel でサポートされているサーフェス 3D グラフ** 
+**Microsoft Excelでサポートされている3Dサーフェスグラフ** 
 
-![todo:画像_代替_文章](chart-types_9.png)
+![todo:image_alt_text](chart-types_9.png)
 
-Aspose.Cells では、次のサーフェス 3D グラフがサポートされています。
+Aspose.Cells でサポートされているサーフェス3Dグラフは以下のとおりです:
 
-- 3D 等高線図
-- ワイヤーフレーム 3D 等高線図
-- 等高線図
-- ワイヤーフレーム等高線図
+- 3D surface chart
+- Wireframe 3D surface chart
+- Surface contour chart
+- Wireframe contour chart
 #### **バブルチャート**
-バブル チャートは、データ ポイントがバブルに置き換えられた散布図のバリエーションです。データに 3 つのデータ系列があり、それぞれに一連の値が含まれている場合は、散布図の代わりにバブル チャートを使用できます。バブル チャートは、主に財務データを表示するために使用されます。
+バブルチャートは、データポイントがバブルに置き換えられる散布図の変形です。バブルチャートは、各々が値のセットを含む3つのデータ系列を持つデータの代わりに使用できます。バブルチャートは主に財務データを表示するために使用されます。
 
-**Microsoft Excel でサポートされているバブル チャート** 
+**Microsoft Excelでサポートされているバブルチャート** 
 
-![todo:画像_代替_文章](chart-types_10.png)
+![todo:image_alt_text](chart-types_10.png)
 
-Aspose.Cells では、次のバブル チャートがサポートされています。
+Aspose.Cells でサポートされているバブルチャートは以下のとおりです:
 
-- シンプルなバブル チャート
-- 3D バブル チャート
-#### **株価チャート**
-株価チャートは主に株価データに使用されますが、科学データにも使用できます。
+- Simple bubble chart
+- 3D bubble chart
+#### **ストックチャート**
+ストックチャートは主に株価データに使用されますが、科学データにも使用できます。
 
-**Microsoft Excel でサポートされている株価チャート** 
+**Microsoft Excelでサポートされている株価チャート** 
 
-![todo:画像_代替_文章](chart-types_11.png)
+![todo:image_alt_text](chart-types_11.png)
 
-Aspose.Cells では、次の株価チャートがサポートされています。
+Aspose.Cells でサポートされているストックチャートは以下のとおりです:
 
-- 高値・安値・終値の株価チャート
-- 始値 - 高値 - 安値 - 終値の株価チャート
-- 出来高 - 高値 - 安値 - 終値の株価チャート
-- 出来高-始値-高値-安値-終値の株価チャート
-#### **円柱グラフ**
-これらのグラフ タイプは、円柱データ マーカーを使用して、縦棒グラフ、横棒グラフ、および 3D 縦棒グラフに劇的な効果をもたらします。
+- High-low-close stock chart
+- Open-high-low-close stock chart
+- Volume-high-low-close stock chart
+- Volume-open-high-low-close stock chart
+#### **シリンダーチャート**
+これらのチャートタイプは、カラム、棒、3Dカラムチャートに劇的な効果を与えるためにシリンダーデータマーカーを使用します。
 
-**Microsoft Excel でサポートされている円柱グラフ** 
+**Microsoft Excelでサポートされている円柱グラフ** 
 
-![todo:画像_代替_文章](chart-types_12.png)
+![todo:image_alt_text](chart-types_12.png)
 
-Aspose.Cells では、次の円柱グラフがサポートされています。
+Aspose.Cells でサポートされているシリンダーチャートは以下のとおりです:
 
-- シンプルな円柱グラフ
-- 積み上げ円柱グラフ
-- 100% 積み上げ円柱グラフ
-- 円柱棒グラフ
-- 積み上げ円筒棒グラフ
-- 100% 積み上げ円柱棒グラフ
-- 立体円柱棒グラフ
+- Simple cylinder chart
+- Stacked cylinder chart
+- 100% stacked cylinder chart
+- Cylindrical bar chart
+- Stacked cylindrical bar chart
+- 100% stacked cylindrical bar chart
+- 3D cylindrical column chart
 #### **コーンチャート**
-これらのグラフ タイプは、コーン データ マーカーを使用して、縦棒グラフ、横棒グラフ、および 3D 縦棒グラフに劇的な効果をもたらします。
+これらのチャートタイプは、カラム、棒、3Dカラムチャートに劇的な効果を与えるためにコーンデータマーカーを使用します。 
 
-![todo:画像_代替_文章](chart-types_13.png)
+![todo:image_alt_text](chart-types_13.png)
 
 
-**Microsoft Excel でサポートされている円錐グラフ**
+**Microsoft Excelでサポートされている円錐グラフ**
 
-Aspose.Cells では、次のコーン チャートがサポートされています。
+Aspose.Cells でサポートされているコーンチャートは以下のとおりです:
 
-- シンプルコーンチャート
-- 積み上げ円錐グラフ
-- 100% 積み上げ円錐グラフ
-- 円錐棒グラフ
-- 積み上げ円錐棒グラフ
-- 100% 積み上げ円錐棒グラフ
-- 3D コニカル カラム チャート
-#### **ピラミッド チャート**
-これらのチャート タイプは、ピラミッド データ マーカーを使用して、縦棒グラフ、横棒グラフ、および 3D 縦棒グラフに劇的な効果をもたらします。
+- Simple cone chart
+- Stacked cone chart
+- 100% stacked cone chart
+- Conical bar chart
+- Stacked conical bar chart
+- 100% stacked conical bar chart
+- 3D conical column chart
+#### **ピラミッドチャート**
+これらのチャートタイプは、カラム、棒、3Dカラムチャートに劇的な効果を与えるためにピラミッドデータマーカーを使用します。
 
-**Microsoft Excel でサポートされているピラミッド グラフ** 
+**Microsoft Excelでサポートされているピラミッドグラフ** 
 
-![todo:画像_代替_文章](chart-types_14.png)
+![todo:image_alt_text](chart-types_14.png)
 
-Aspose.Cells では、次のピラミッド チャートがサポートされています。
+Aspose.Cellsでは、次のピラミッドチャートがサポートされています:
 
-- シンプルなピラミッド チャート
-- 積み上げピラミッド チャート
-- 100% 積み上げピラミッド チャート
-- ピラミッド棒グラフ
-- 積み上げピラミッド棒グラフ
-- 100% 積み上げピラミッド棒グラフ
-- 立体ピラミッド縦棒グラフ
-#### **ツリーマップ チャート**
-ツリーマップ グラフは、データの階層ビューを提供し、どの商品が店舗のベストセラーであるかなどのパターンを簡単に見つけられるようにします。ツリー ブランチは四角形で表され、各サブブランチは小さな四角形で表示されます。ツリーマップ グラフは、色と近接度でカテゴリを表示し、他の種類のグラフでは困難な大量のデータを簡単に表示できます。
+- Simple pyramid chart
+- Stacked pyramid chart
+- 100% stacked pyramid chart
+- Pyramid bar chart
+- Stacked pyramid bar chart
+- 100% stacked pyramid bar chart
+- 3D pyramid column chart
+#### **ツリーマップチャート**
+ツリーマップチャートは、データを階層ビューで表し、店舗の売れ筋商品などのパターンを簡単に把握できます。ツリーのブランチは長方形で表され、各サブブランチは小さな長方形として表示されます。ツリーマップチャートは、色と近接性でカテゴリを表示し、他のチャートタイプでは難しい大量のデータを簡単に表示できます。
 
-ツリーマップ チャートは Aspose.Cells でサポートされています。
+ツリーマップチャートはAspose.Cellsでサポートされています。
 
 #### **サンバーストチャート**
-サンバースト チャートは、階層データの表示に最適です。階層の各レベルは、最も内側の円を階層の最上位とする 1 つのリングまたは円で表されます。階層データ (1 レベルのカテゴリ) のないサンバースト グラフは、ドーナツ グラフに似ています。ただし、カテゴリの複数のレベルを持つサンバースト チャートは、外側のリングが内側のリングにどのように関連しているかを示します。サンバースト チャートは、1 つのリングがどのように寄与する部分に分割されているかを示すのに最も効果的ですが、別の種類の階層チャートであるツリーマップ チャートは、相対的なサイズを比較するのに最適です。
+サンバーストチャートは、階層データを表示するのに最適です。階層の各レベルは、内側の円を1つのリングまたは円で表します。階層データがない（1つのカテゴリのみの場合）サンバーストチャートは、ドーナツチャートに似ています。ただし、複数レベルのカテゴリを持つサンバーストチャートは、外側のリングが内側のリングとどのように関連しているかを示します。サンバーストチャートは、1つのリングがその構成要素にどのように分割されるかを示すのに最も効果的です。一方、他の種類の階層チャートであるツリーマップチャートは相対サイズを比較するのに最適です。
 
-サンバースト チャートは Aspose.Cells でサポートされています。
+サンバーストチャートはAspose.Cellsでサポートされています。
 
 #### **ヒストグラムチャート**
-ヒストグラムは、度数データを示す縦棒グラフです。
+ヒストグラムは、頻度データを示す列グラフです。
 
-Aspose.Cells では、次のレーダー チャートがサポートされています。
+Aspose.Cellsでは、次のレーダーチャートがサポートされています:
 
-- ヒストグラムチャート
-- パレート図
+- Histogram chart
+- Pareto chart
 
-#### **箱ひげ図**
-箱ひげ図は、四分位数へのデータの分布を示し、平均値と外れ値を強調表示します。ボックスには、「ひげ」と呼ばれる垂直に伸びる線が含まれている場合があります。これらの線は、上下の四分位数の外側にある変動性を示しており、これらの線またはひげの外側にあるポイントは外れ値と見なされます。
+#### **箱ひげ図チャート**
+箱ひげ図チャートはデータを四分位数に分布として示し、平均値と外れ値を強調します。箱には「ひげ」と呼ばれる垂直に伸びる線が表示されることがあります。これらの線は四分位数の外の変動性を示し、これらの線またはひげの外側の点は外れ値と見なされます。
 
-箱ひげ図は Aspose.Cells でサポートされています。
+箱ひげ図チャートはAspose.Cellsでサポートされています。
 
-#### **ウォーターフォール チャート**
-ウォーターフォール チャートは、値が加算または減算された現在の合計を示します。初期値 (純利益など) が一連の正と負の値によってどのように影響を受けるかを理解するのに役立ちます。
+#### **ウォーターフォールチャート**
+ウォーターフォールチャートは、値が追加または減算されるたびに累積合計を示します。初期値（たとえば、純利益）が一連の正の値と負の値によってどのように影響を受けるかを理解するのに役立ちます。
 
-ウォーターフォール チャートは Aspose.Cells でサポートされています。
+ウォーターフォールチャートはAspose.Cellsでサポートされています。
 
-### **カスタム チャート タイプ**
-カスタム チャートを使用すると、他のチャートにも適用できるカスタム フォーマットを使用してチャートを作成できます。ここでは、標準チャートについてのみ説明しました。カスタム チャートの詳細を知りたい場合は、[カスタム グラフの作成](/cells/ja/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects)カスタム グラフの作成方法を説明する記事。
+### **カスタムチャートタイプ**
+カスタムチャートは他のチャートにも適用できるカスタムフォーマットを持つチャートを作成することを可能にします。ここでは、標準チャートのみを説明しました。カスタムチャートの詳細については、[カスタムチャートの作成](/cells/ja/java/creating-and-customizing-charts/#creatingandcustomizingcharts-usingchartingobjects) 記事を読んでください。

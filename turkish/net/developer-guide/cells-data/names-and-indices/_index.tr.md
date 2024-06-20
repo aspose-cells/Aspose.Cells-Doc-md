@@ -1,44 +1,45 @@
 ---
-title: Hücre adı ile satır/sütun dizini arasındaki dönüşüm
-linktitle: Cell İsim ve Dizin Dönüşümü
+title: Hücre adı ve satır/sütun dizini arasında dönüştürme işlemi
+linktitle: Hücre Adı ve Dizin Dönüştürme
 type: docs
 weight: 10
 url: /tr/net/names-and-indices/
-description: Aspose.Cells for .NET API aracılığıyla hücre adı ile satır/sütun dizini arasındaki dönüşümü nasıl alacağınızı öğrenin.
-keywords: Get Cell Name from Row and Column Indices, Get Row and Column Indices from Cell Name, Create safe worksheet names, Add safe worksheet names
+description: Aspose.Cells for .NET API si aracılığıyla Hücre Adı ve Satır/Sütun İndeks Dönüşümünü Nasıl Alın.
+keywords: Satır ve Sütun İndekslerinden Hücre Adı Alın, Satır ve Sütun İndekslerini Hücre Adından Alın, Güvenli çalışma sayfası adları oluşturun, Güvenli çalışma sayfası adları ekleyin
 ---
-##  **Satır ve Sütun İndekslerinden Cell Adını Alın**
-Satır ve sütun indeksine göre bir hücrenin adını bulmak mümkündür. Bu makalede bunun nasıl yapılacağı açıklanmaktadır.
-Aspose.Cells, geliştiricilerin satır ve sütun dizinini sağlamaları durumunda hücrenin adını almasına olanak tanıyan CellsHelper.CellIndexToName yöntemini sağlar.
+
+## **Satır ve Sütun Dizilerinden Hücre Adı Alın**
+Bir hücrenin adını bulmak mümkündür, verilen satır ve sütun dizini. Bu makale açıklar.
+Aspose.Cells, geliştiricilere, satır ve sütun dizinini sağladıklarında bir hücrenin adını almasını sağlayan CellsHelper.CellIndexToName yöntemini sağlar.
 
 {{% alert color="primary" %}} 
 
-Satır ve sütun dizinlerinin 1'den başladığı Microsoft Excel'in aksine, Aspose.Cells, satır ve sütun dizinlerini 0'dan saymaya başlar.
+Microsoft Excel'in aksine, satır ve sütun indisleri 1'den başlamaz, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kod, bilinen bir satır ve sütun dizini verilen hücrenin adına erişmek için CellsHelper.CellIndexToName öğesinin nasıl kullanılacağını gösterir. Kod aşağıdaki çıktıyı üretir.
+Aşağıdaki örnek kod, CellsHelper.CellIndexToName'i bir bilinen satır ve sütun endeksine göre hücrenin adına erişmek için nasıl kullandığını gösterir. Kod aşağıdaki çıktıyı üretir.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelperClass-IndexToName-1.cs" >}}
-##  **Cell Adından Satır ve Sütun İndekslerini Alın**
-Adından hücrenin satır ve sütun indeksini bulmak mümkündür. Bu makalede bunun nasıl yapılacağı açıklanmaktadır.
-Aspose.Cells, geliştiricilerin hücre adından satır ve sütun dizini almasına olanak tanıyan CellsHelper.CellNameToIndex yöntemini sağlar.
+## **Hücre Adından Satır ve Sütun Dizilerini Alın**
+Bir hücrenin adından satır ve sütun dizinini bulmak mümkündür. Bu makale açıklar.
+Aspose.Cells, geliştiricilere, hücrenin adını verdiklerinde CellsHelper.CellNameToIndex yöntemini kullanarak satır ve sütun indisini almasını sağlar.
 
 {{% alert color="primary" %}} 
 
-Satır ve sütun dizinlerinin 1'den başladığı Microsoft Excel'in aksine, Aspose.Cells, satır ve sütun dizinlerini 0'dan saymaya başlar.
+Microsoft Excel'in aksine, satır ve sütun indisleri 1'den başlamaz, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kod, hücrenin adından satır ve sütun dizinini almak için CellsHelper.CellNameToIndex'in nasıl kullanılacağını gösterir. Kod aşağıdaki çıktıyı üretir.
+Aşağıdaki örnek kod, CellsHelper.CellNameToIndex'i kullanarak hücre adından satır ve sütun indeksini nasıl alacağını göstermektedir. Kod aşağıdaki çıktıyı oluşturur.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelperClass-NameToIndex-1.cs" >}}
-##  **Güvenli sayfa adları oluşturun**
- Bazen çalışma zamanında sayfa adını atamaya ihtiyaç duyulur. Bu senaryoda, aşağıdaki gibi bazı ek karakterleri içerebilecek sayfa adları olabilir:<>+(?". Sayfa adı olarak kullanılmasına izin verilmeyen herhangi bir karakterin, kullanıcı tarafından sağlanan önceden ayarlanmış bir karakterle değiştirilmesine ihtiyaç vardır. Benzer şekilde uzunluk, kesilmesi gereken 31 karakterden fazla artabilir. Apache POI sağlar Güvenli adlar oluşturmanın belirli özellikleri olduğundan, tüm bu sorunları çözmek için Aspose.Cells tarafından benzer bir özellik sağlanmıştır. Aşağıdaki örnek kod bu özelliği göstermektedir:
+## **Güvenli Çalışma Sayfası Adları Oluşturun**
+Bazı durumlarda çalışma zamanında sayfa adının atanması gerekebilir. Bu senaryoda, kullanıcı tarafından belirtilen bazı özel karakterler içerebilecek sayfa adları olabilir, örneğin <>+(?”. Sayfa adı olarak izin verilmeyen herhangi bir karakterin belirlenmiş bir karakterle değiştirilmesi gerekmektedir. Benzer şekilde uzunluk 31 karakterden fazla olabilir ve kısaltılması gerekmektedir. Apache POI, güvenli adlar oluşturmanın belirli özelliklerini sağlar, bu nedenle Aspose.Cells tarafından tüm bu sorunlarla başa çıkmak için benzer bir özellik sağlanmıştır. Aşağıdaki örnek kod bu özelliği göstermektedir:
 
 
 
@@ -46,6 +47,6 @@ Aşağıdaki örnek kod, hücrenin adından satır ve sütun dizinini almak içi
 
 Çıktı:
 
-bu cre olan ilk isim
+Bu, oluşturulmuş ilk adın kısaltıldığı ad
 
-` `<> + (adj.Özel _ " Özel"
+` <> + (adj.Private _ "Özel"

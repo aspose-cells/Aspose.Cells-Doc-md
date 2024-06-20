@@ -1,15 +1,16 @@
-﻿---
+---
 title: Зашифровать книгу с помощью Aspose.Cells
 type: docs
 weight: 60
 url: /ru/java/encrypt-workbook-using-aspose-cells/
 ---
+
 ## **Aspose.Cells - Зашифровать книгу**
-В следующем примере показано, как вы можете зашифровать/защитить паролем файл Excel, используя код Aspose.Cells API.
+В следующем примере показано, как вы можете зашифровать / защитить паролем файл Excel с использованием API Aspose.Cells.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -32,14 +33,14 @@ workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128)
 workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
+## **Скачать работающий код**
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeEncryptSpreadsheets.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeEncryptSpreadsheets.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Шифрование файлов Excel](/cells/ru/java/encrypting-excel-files/).
+Для получения дополнительной информации посетите [Шифрование файлов Excel](/cells/ru/java/encrypting-excel-files/).
 
 {{% /alert %}}

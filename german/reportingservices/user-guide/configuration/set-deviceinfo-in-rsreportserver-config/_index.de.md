@@ -1,28 +1,29 @@
-﻿---
-title: Legen Sie DeviceInfo in rsreportserver.config fest
+---
+title: Setzen Sie DeviceInfo in der rsreportserver.config
 type: docs
 weight: 60
 url: /de/reportingservices/set-deviceinfo-in-rsreportserver-config/
 ---
-- **Dateierweiterung** 
- Wenn der Wert null ist, ist der Erweiterungsname der exportierten Berichtsdatei der Standardwert. Wenn der Wert nicht null ist, ist der Erweiterungsname der exportierten Berichtsdatei value.
-- **SimplePageHeader** 
- Wenn der Wert wahr ist, wird das Kopfzeilenelement des Berichts in die Kopfzeile der Excel-Seite gerendert. Der Standardwert ist falsch.
-- **EinfacheSeitenFußzeilen** 
- Wenn der Wert wahr ist, wird das Fußzeilenelement des Berichts in die Excel-Seitenfußzeile gerendert. Der Standardwert ist wahr.
+
+- **FileExtension** 
+  Wenn der Wert null ist, hat der exportierte Dateierweiterungsname des Berichts den Standardwert. Ist der Wert nicht null, ist der Erweiterungsname der exportierten Berichtsdatei der Wert.
+- **SimplePageHeaders** 
+  Wenn der Wert wahr ist, rendert es das Berichtskopf-Element in den Excel-Seitenkopf. Der Standardwert ist falsch.
+- **SimplePageFooters** 
+  Wenn der Wert wahr ist, rendert es das Berichtsfuß-Element in den Excel-Seitenfuß. Der Standardwert ist wahr.
 - **PutoutHeader** 
- Wenn der Wert wahr ist, wird das Kopfzeilenelement des Berichts exportiert. Wenn der Wert falsch ist, wird das Kopfzeilenelement des Berichts nicht exportiert. Der Standardwert ist wahr. Der Wert unterstützt nur die Excel2007Xlsx(Data Only)-Erweiterung.
+  Wenn der Wert wahr ist, exportiert es das Berichtskopf-Element. Wenn der Wert falsch ist, wird das Berichtskopf-Element nicht exportiert. Der Standardwert ist wahr. Der Wert wird nur für die Erweiterung Excel2007Xlsx(Data Only) unterstützt.
 - **PutoutFooter** 
-Wenn der Wert wahr ist, wird das Fußzeilenelement des Berichts exportiert. Wenn der Wert falsch ist, wird das Fußzeilenelement des Berichts nicht exportiert. Der Standardwert ist wahr. Der Wert unterstützt nur die Excel2007Xlsx(Data Only)-Erweiterung.
+  Wenn der Wert wahr ist, exportiert es das Berichtsfuß-Element. Wenn der Wert falsch ist, wird das Berichtsfuß-Element nicht exportiert. Der Standardwert ist wahr. Der Wert wird nur für die Erweiterung Excel2007Xlsx(Data Only) unterstützt.
 - **FillTableGroupHeaderForSimpleOutPut** 
- Der Standardwert ist falsch. Der Wert unterstützt nur die Excel2007Xlsx(Data Only)-Erweiterung.
+  Der Standardwert ist falsch. Der Wert wird nur für die Erweiterung Excel2007Xlsx(Data Only) unterstützt.
 - **NoOutPutTotalForSimpleOutPut** 
- Der Standardwert ist falsch. Der Wert unterstützt nur die Excel2007Xlsx(Data Only)-Erweiterung.
+  Der Standardwert ist falsch. Der Wert wird nur für die Erweiterung Excel2007Xlsx(Data Only) unterstützt.
 - **NoOutPutGroupForSimpleOutPut** 
- Der Standardwert ist falsch. Der Wert unterstützt nur die Excel2007Xlsx(Data Only)-Erweiterung.
+  Der Standardwert ist falsch. Der Wert wird nur für die Erweiterung Excel2007Xlsx(Data Only) unterstützt.
 - **NoDoGroupPageForSimpleOutPut** 
- Der Standardwert ist wahr. Der Wert unterstützt nur die Excel2007Xlsx(Data Only)-Erweiterung.
+  Der Standardwert ist true. Der Wert unterstützt nur die Excel2007Xlsx(Nur Daten) Erweiterung.
 - **NoDoPageForSimpleOutPut** 
- Der Standardwert ist wahr. Der Wert unterstützt nur die Excel2007Xlsx(Data Only)-Erweiterung.
-- **Feldbegrenzer** 
- Es setzt Feldbegrenzer. Der Wert unterstützt die Erweiterungen CSV und TXT.
+  Der Standardwert ist true. Der Wert unterstützt nur die Excel2007Xlsx(Nur Daten) Erweiterung.
+- **FieldDelimiter** 
+  Es legt Feldtrennzeichen fest. Der Wert unterstützt die Erweiterungen CSV und TXT. 

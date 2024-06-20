@@ -1,16 +1,17 @@
-﻿---
-title: HTML からインポートする際に、大きな数の指数表記を避ける
+---
+title: HTMLからの大きな数値の指数表記を避ける
 type: docs
 weight: 600
 url: /ja/java/avoid-exponential-notation-of-large-numbers-while-importing-from/
 ---
+
 {{% alert color="primary" %}} 
 
-HTML に 1234567890123456 のような 15 桁を超える数字が含まれている場合があり、HTML を Excel ファイルにインポートすると、これらの数字は 1.23457E+15 のような指数表記に変換されます。必要に応じて、数値をそのままインポートし、指数表記に変換しないでください。[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision)プロパティと設定**真実**HTML の読み込み中。
+HTMLには 1234567890123456 のような15桁以上の長い数字が含まれることがあり、これらの数字をエクセルファイルにインポートすると、1.23457E+15 のように指数表記に変換されることがあります。もし、数値をそのままインポートし、指数表記に変換しないで欲しい場合は、HTMLをロードする際に[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision)プロパティを **true** に設定してください。
 
 {{% /alert %}} 
-## **HTML からインポートする際に、大きな数の指数表記を避ける**
-次のサンプル コードは、[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision)財産。指数表記に変換せずに数値をそのままインポートします。
+## **HTMLからの大きな数値の指数表記を避ける**
+次のサンプルコードは、[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision)プロパティの使用方法を説明しています。これにより、指数表記に変換せずに数値をインポートします。
 
 
 

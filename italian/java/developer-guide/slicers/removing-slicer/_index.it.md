@@ -1,14 +1,15 @@
-﻿---
-title: Rimozione dell'affettatrice
+---
+title: Rimozione del filtro
 type: docs
 weight: 30
 url: /it/java/removing-slicer/
 ---
-## **Possibili scenari di utilizzo**
-Se vuoi rimuovere l'affettatrice in Microsoft Excel, basta selezionarlo e premere il*Elimina*pulsante. Allo stesso modo, se vuoi rimuoverlo usando Aspose.Cells API a livello di codice, usa il[Foglio di lavoro.getSlicers().remove()](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#remove\(com.aspose.cells.Slicer\)) metodo. Rimuoverà l'affettatrice dal foglio di lavoro.
-## **Rimozione dell'affettatrice**
-Il codice di esempio seguente carica il file[esempio di file Excel](67338504.xlsx)che contiene un'affettatrice esistente. Accede alle affettatrici e quindi lo rimuove. Infine, salva la cartella di lavoro come[file Excel di output](67338502.xlsx). Lo screenshot seguente mostra l'affettatrice che verrà rimossa dopo l'esecuzione del codice di esempio.
 
-![cose da fare:immagine_alt_testo](removing-slicer_1.png)
-## **Codice d'esempio**
+## **Possibili Scenari di Utilizzo**
+Se desideri rimuovere lo slicer in Microsoft Excel, basta selezionarlo e premere il pulsante *Elimina*. Allo stesso modo, se desideri rimuoverlo utilizzando l'API di Aspose.Cells in modo programmatico, utilizza il metodo [Worksheet.getSlicers().remove()](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#remove(com.aspose.cells.Slicer)). Rimuoverà lo slicer dal foglio di lavoro. 
+## **Rimozione dello slicer**
+Il seguente codice di esempio carica il [file di Excel di esempio](67338504.xlsx) che contiene uno slicer esistente. Accede agli slicer e quindi li rimuove. Infine, salva il workbook come [file di Excel di output](67338502.xlsx). La schermata seguente mostra lo slicer che verrà rimosso dopo l'esecuzione del codice di esempio.
+
+![todo:image_alt_text](removing-slicer_1.png)
+## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-RemovingSlicer.java" >}}

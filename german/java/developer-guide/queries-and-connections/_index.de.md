@@ -1,4 +1,4 @@
-﻿---
+---
 title: Abfragen und Verbindungen
 linktitle: Abfragen und Verbindungen
 type: docs

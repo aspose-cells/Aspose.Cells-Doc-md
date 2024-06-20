@@ -1,22 +1,23 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.8.3
+---
+title: Cambios en la API pública en Aspose.Cells 8.8.3
 type: docs
 weight: 290
 url: /es/net/public-api-changes-in-aspose-cells-8-8-3/
 ---
+
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.Cells API de la versión 8.8.2 a la 8.8.3 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, clases agregadas y eliminadas, etc., sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.8.2 a la 8.8.3 que pueden interesar a los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, clases agregadas y eliminadas, etc., sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Compatibilidad con controles ActiveX**
-Aspose.Cells for .NET 8.8.3 ha expuesto el método AddActiveXControl que permite agregar un control ActiveX a ShapeCollection. El método mencionado requiere 7 parámetros para especificar el tipo de control, la ubicación para colocar el control y el tamaño del control. El tipo se puede especificar mediante la enumeración ControlType con los siguientes valores posibles.
+## **APIs Añadidas**
+### **Soporte para controles ActiveX**
+Aspose.Cells for .NET 8.8.3 ha expuesto el método AddActiveXControl que permite agregar un control ActiveX a la ShapeCollection. El método mencionado requiere 7 parámetros para especificar el tipo de control, la ubicación para colocar el control y el tamaño del control. El tipo puede especificarse utilizando la enumeración ControlType con los siguientes valores posibles.
 
 1. ControlType.CheckBox
 1. ControlType.ComboBox
 1. ControlType.CommandButton
-1. ControlType.Imagen
+1. ControlType.Image
 1. ControlType.Label
 1. ControlType.ListBox
 1. ControlType.RadioButton
@@ -24,19 +25,19 @@ Aspose.Cells for .NET 8.8.3 ha expuesto el método AddActiveXControl que permite
 1. ControlType.SpinButton
 1. ControlType.TextBox
 1. ControlType.ToggleButton
-1. ControlType.Desconocido
+1. ControlType.Unknown
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Adición de controles ActiveX a la hoja de trabajo](/cells/es/net/add-activex-controls-using-aspose-cells/).
+Para más detalles sobre esta característica, consulte el artículo detallado sobre [Agregar controles ActiveX a la hoja de cálculo](/cells/es/net/add-activex-controls-using-aspose-cells/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -63,20 +64,20 @@ book.Save(dir + "output.xlsx", SaveFormat.Xlsx);
 {{< /highlight >}}
 
 
-### **Se agregó el método LoadOptions.SetPaperSize**
-Aspose.Cells for .NET 8.8.3 permite configurar el tamaño de papel de impresión predeterminado a partir de la configuración predeterminada de la impresora mientras se usa el método LoadOptions.SetPaperSize recientemente expuesto, como se muestra a continuación. Tenga en cuenta que el parámetro de entrada del método mencionado anteriormente es el valor de la enumeración PaperSizeType que contiene los tamaños de papel predefinidos.
+### **Agregado el método LoadOptions.SetPaperSize**
+Aspose.Cells for .NET 8.8.3 permite establecer el tamaño de papel de impresión predeterminado desde la configuración de la impresora predeterminada al utilizar el método expuesto recientemente LoadOptions.SetPaperSize tal como se muestra a continuación. Por favor, tenga en cuenta que el parámetro de entrada para dicho método es el valor de la enumeración PaperSizeType que contiene los tamaños de papel predefinidos.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Cargar hojas de cálculo con el tamaño de papel especificado](/cells/es/net/load-workbook-with-specified-printer-paper-size/).
+Para más detalles sobre esta función, por favor revise el artículo detallado sobre [Cargar Hojas de Cálculo con Tamaño de Papel Especificado](/cells/es/net/load-workbook-with-specified-printer-paper-size/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions
 
@@ -93,12 +94,12 @@ var book = new Workbook(dir + "input.xlsx", loadOptions);
 {{< /highlight >}}
 
 
-### **Se agregó el método Cell.GetCharacters(flag)**
-Las API Aspose.Cells permiten obtener los objetos de caracteres en forma de matriz FontSetting utilizando el método Cell.GetCharacters. Con esta versión, Aspose.Cells for .NET API ha expuesto una versión sobrecargada de Cell.GetCharacters que podría aceptar Boolean como parámetro, indicando si el estilo de tabla debe aplicarse en la celda si la celda es parte de ListObject.
+### **Agregado el método Cell.GetCharacters(flag)**
+Las APIs de Aspose.Cells permiten obtener los objetos de caracteres en forma de una matriz de FontSetting mediante el uso del método Cell.GetCharacters. Con esta versión, la API Aspose.Cells for .NET ha expuesto una versión sobrecargada de Cell.GetCharacters que puede aceptar un Booleano como parámetro, indicando si el estilo de tabla debe aplicarse en la celda si la celda es parte de un ListObject.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load an existing spreadsheet
 
@@ -125,20 +126,20 @@ var characters = cell.GetCharacters(true);
 {{< /highlight >}}
 
 
-### **Se agregó la propiedad OleObject.AutoLoad**
-Aspose.Cells for .NET 8.8.3 ha expuesto la propiedad OleObject.AutoLoad que permite actualizar la imagen de OleObject si se han cambiado los contenidos/datos del objeto subyacente. La propiedad mencionada anteriormente, cuando se establece en verdadero, obliga a la aplicación de Excel a actualizar la imagen de OleObject cuando se carga la hoja de cálculo resultante.
+### **Añadida propiedad OleObject.AutoLoad**
+Aspose.Cells for .NET 8.8.3 ha expuesto la propiedad OleObject.AutoLoad que permite refrescar la imagen del OleObject si el contenido/datos del objeto subyacente han cambiado. Cuando la mencionada propiedad se establece en true, obliga a la aplicación de Excel a refrescar la imagen del OleObject cuando se carga la hoja de cálculo resultante.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Actualizar automáticamente OleObjects](/cells/es/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
+Para más detalles sobre esta función, por favor revise el artículo detallado sobre [Actualizar Automáticamente los OleObjects](/cells/es/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load an existing spreadsheet
 
@@ -163,20 +164,20 @@ oleObject.AutoLoad = true;
 {{< /highlight >}}
 
 
-### **Se agregó la propiedad HTMLLoadOptions.SupportDivTag**
-Aspose.Cells for .NET 8.8.3 ha expuesto la propiedad HTMLLoadOptions.SupportDivTag que permite analizar las etiquetas DIV incrustadas en las etiquetas TD al cargar HTML archivos/fragmentos en el modelo de objetos Aspose.Cells. La propiedad de tipo booleano tiene el valor predeterminado falso.
+### **Añadida propiedad HTMLLoadOptions.SupportDivTag**
+Aspose.Cells for .NET 8.8.3 ha expuesto la propiedad HTMLLoadOptions.SupportDivTag que permite analizar las etiquetas DIV incrustadas en las etiquetas TD mientras se cargan archivos/fracciones de HTML en el modelo de objeto Aspose.Cells. La propiedad de tipo Booleano tiene un valor predeterminado de false.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Admite etiquetas DIV internas durante la carga HTML](/cells/es/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+Para más detalles sobre esta función, por favor revise el artículo detallado sobre [Soporte de Etiquetas DIV Internas al Cargar HTML](/cells/es/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Store the HTML snippet in a variable
 
@@ -275,20 +276,20 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 {{< /highlight >}}
 
 
-### **Se agregó la propiedad HtmlSaveOptions.ExportGridLines**
-Aspose.Cells for .NET 8.8.3 ha expuesto la propiedad HtmlSaveOptions.ExportGridLines que permite representar las líneas de cuadrícula mientras se exporta la hoja de cálculo al formato HTML. La propiedad de tipo booleano tiene el valor predeterminado falso; sin embargo, cuando se establece en verdadero, API representa las líneas de cuadrícula para el rango de datos disponible en formato HTML.
+### **Agregada la propiedad HtmlSaveOptions.ExportGridLines**
+Aspose.Cells for .NET 8.8.3 ha expuesto la propiedad HtmlSaveOptions.ExportGridLines que permite renderizar las líneas de la cuadrícula al exportar la hoja de cálculo en formato HTML. La propiedad de tipo Booleano tiene un valor predeterminado de false, sin embargo, cuando se establece en true, la API renderiza las líneas de la cuadrícula para el rango de datos disponible en formato HTML.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Renderizar líneas de cuadrícula a HTML](/cells/es/net/export-excel-to-html-with-gridlines/).
+Para más detalles sobre esta función, por favor revise el artículo detallado sobre [Renderizar Líneas de Cuadrícula en HTML](/cells/es/net/export-excel-to-html-with-gridlines/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load existing spreadsheet
 
@@ -309,20 +310,20 @@ book.Save(dir + "output.html", options);
 {{< /highlight >}}
 
 
-### **Propiedad ListObject.Comment añadida**
-Aspose.Cells Las API ahora permiten obtener y configurar los comentarios para una instancia de ListObject. Para proporcionar la función antes mencionada, las API Aspose.Cells han expuesto la propiedad ListObject.Comment.
+### **Agregada la propiedad ListObject.Comment**
+Las APIs de Aspose.Cells ahora permiten obtener y establecer los comentarios para una instancia de ListObject. Para proporcionar la característica anteriormente mencionada, las APIs de Aspose.Cells han expuesto la propiedad ListObject.Comment.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Adición de comentarios para ListObjects](/cells/es/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/).
+Para más detalles sobre esta característica, por favor revise el artículo detallado sobre [Agregar comentarios a ListObjects](/cells/es/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load existing spreadsheet
 
@@ -347,16 +348,16 @@ book.Save(dir + "output.xlsx");
 {{< /highlight >}}
 
 
-### **Se agregó la propiedad GridWeb.SessionStorePath**
-Aspose.Cells.GridWeb for .NET 8.8.3 ha expuesto la propiedad SessionStorePath que permite obtener o establecer la ruta del almacenamiento de la sesión cuando el modo de sesión es ViewState. La propiedad antes mencionada obtiene o establece la ruta relativa al directorio base de la aplicación web actual.
+### **Añadida la propiedad GridWeb.SessionStorePath**
+Aspose.Cells.GridWeb para .NET 8.8.3 ha expuesto la propiedad SessionStorePath que permite obtener o configurar la ruta de almacenamiento de sesión cuando el Modo de Sesión es ViewState. La mencionada propiedad obtiene o establece la ruta relativa al Directorio Base de la aplicación web actual.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Especifique la ruta para los archivos de sesión temporales](/cells/es/net/specify-the-path-where-gridweb-stores-temporary-session-files/).
+Para más detalles sobre esta característica, por favor revise el artículo detallado sobre [Especificar la ruta para los archivos temporales de sesión](/cells/es/net/specify-the-path-where-gridweb-stores-temporary-session-files/).
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
-## **API eliminadas**
-### **Libro de trabajo eliminado. Método de descifrado**
-Dicha propiedad fue marcada como obsoleta hace algún tiempo. Esta versión lo ha eliminado por completo del público API. Se recomienda establecer la propiedad WorkbookSettings.Password en nulo para lograr el mismo objetivo.
+A continuación se muestra un escenario de uso simple.
+## **APIs Eliminadas**
+### **Método Workbook.Decrypt Eliminado**
+La mencionada propiedad fue marcada como obsoleta hace algún tiempo. Esta versión la ha eliminado por completo de la API pública. Se recomienda establecer la propiedad WorkbookSettings.Password en nulo para lograr el mismo objetivo.

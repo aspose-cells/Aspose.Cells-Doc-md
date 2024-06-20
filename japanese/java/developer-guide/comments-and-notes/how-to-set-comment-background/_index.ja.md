@@ -1,35 +1,36 @@
-﻿---
-title: Excelでコメントの背景を変更する方法
-linktitle: コメントの背景
+---
+title: Excel でコメントの背景を変更する方法
+linktitle: コメント背景
 type: docs
 weight: 190
 url: /ja/java/how-to-set-comment-background/
-description: Excelでコメントの色を変更する方法.Excelでコメントに画像や画像を挿入する方法.
-keywords: add inset picture iamge color comment background excel
+description: Excel でコメントの色を変更する方法。Excel でコメントに画像を挿入する方法。
+keywords: 画像、色、コメント、背景、Excel の挿入要素を追加
 ---
+
 {{% alert color="primary" %}}
 
-コメントをセルに追加して、数式の詳細、値の取得元、レビュー担当者からの質問など、コメントを記録します。コメントは、複数の人が同じドキュメントを異なる時間に議論またはレビューする場合に非常に重要な役割を果たします。異なる人々のコメントを区別する方法は？はい、コメントごとに異なる背景色を設定できます。しかし、大量のドキュメントと大量のコメントを処理する必要がある場合、手動で行うのは大変です。幸運にも[**Aspose.Cells**](https://products.aspose.com/cells/java/)コードでこれを行うことができる API を提供します。
+コメントはセルに追加され、数式の詳細、値の出所、レビュワーからの質問など、さまざまな内容を記録するために使用されます。複数人が異なる時間に同じ文書を議論したりレビューしたりする際には非常に重要です。異なる人々のコメントをどのように区別しますか？ はい、各コメントに異なる背景色を設定できます。ただし、多くの文書やコメントを処理する必要がある場合、手動で行うのは大変です。幸いにも、[**Aspose.Cells**](https://products.aspose.com/cells/java/) はこれをコードで行うための API を提供しています。
 
 {{% /alert %}}
 
-## **Excelでコメントの色を変更する方法**
+## **Excel でコメントの色を変更する方法**
 
-コメントの既定の背景色が必要ない場合は、興味のある色に置き換えることができます。Excel の [コメント] ボックスの背景色を変更するにはどうすればよいですか?
+既定のコメントの背景色が必要ない場合、興味のある色に置き換えたいことがあるかもしれません。Excel でコメントボックスの背景色を変更する方法は？
 
-次のコードは、使用方法をガイドします[**Aspose.Cells**](https://products.aspose.com/cells/java/)好きな背景色を自分で選んだコメントに追加できます。
+以下のコードは、[**Aspose.Cells**](https://products.aspose.com/cells/java/) を使用して自分の選択したコメントに好きな背景色を追加する方法を案内します。
 
-ここでは、[サンプルファイル](exmaple.xlsx)このファイルは、以下のコードで Workbook オブジェクトを初期化するために使用されます。
+ここでは、[サンプルファイル](exmaple.xlsx) をご用意しています。このファイルは、以下のコードでワークブックオブジェクトを初期化するために使用されます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HowToChangeCommentBackgroundColor.java" >}}
 
-上記のコードを実行すると、[出力ファイル](result.xlsx).
+上記のコードを実行すると、[出力ファイル](result.xlsx) が生成されます。
 
-## **Excelのコメントに写真や画像を挿入する方法**
+## **Excel でコメントに画像を挿入する方法**
 
-Microsoft Excel では、ユーザーはスプレッドシートのルック アンド フィールを大幅にカスタマイズできます。コメントに背景画像を追加することも可能です。背景画像を追加することは、審美的な選択であり、ブランディングを強化するために使用できます。
+Microsoft Excel はスプレッドシートの見た目や感じを大幅にカスタマイズできます。コメントに背景画像を追加することも可能です。背景画像を追加することは見た目の選択肢であり、またブランディングを強化するためにも使用できます。
 
-以下のサンプル コードは、XLSX ファイルをゼロから作成します。[**Aspose.Cells**](https://products.aspose.com/cells/java/) API 、画像の背景を持つコメントをセル A1 に追加します。
+以下のサンプルコードは、[**Aspose.Cells**](https://products.aspose.com/cells/java/) API を使用して XLSX ファイルをゼロから作成し、画像背景のコメントをセル A1 に追加します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HowToInsertPictureOrImageInComment.java" >}}
 

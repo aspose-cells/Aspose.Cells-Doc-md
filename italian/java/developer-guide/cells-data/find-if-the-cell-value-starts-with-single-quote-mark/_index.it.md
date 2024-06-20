@@ -1,16 +1,17 @@
-﻿---
-title: Trova se il valore della cella inizia con virgolette singole
+---
+title: Verifica se il valore della cella inizia con un apice singolo
 type: docs
 weight: 610
 url: /it/java/find-if-the-cell-value-starts-with-single-quote-mark/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells ora fornisce il[Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) proprietà per trovare se il valore della cella inizia con una singola virgoletta. Prima di questa proprietà, non c'era modo di distinguere tra stringhe come sample e 'sample etc.
+Aspose.Cells ora fornisce la proprietà [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) per verificare se il valore della cella inizia con un apice singolo. Prima di questa proprietà, non c'era modo di distinguere tra le stringhe come campione e 'campione etc.
 
 {{% /alert %}} 
-## **Trova se il valore della cella inizia con virgolette singole**
-Il seguente codice di esempio spiega che le stringhe come sample e 'sample non possono essere differenziate con[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) proprietà. Pertanto dobbiamo usare[Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)proprietà per distinguerli.
+## **Verifica se il valore della cella inizia con un apice singolo**
+Il seguente codice di esempio spiega che le stringhe come campione e 'campione non possono essere differenziate con la proprietà [Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue). Pertanto, dobbiamo usare la proprietà [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) per distinguerle.
 
 
 

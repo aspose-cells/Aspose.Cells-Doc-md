@@ -1,24 +1,25 @@
-﻿---
-title: Harici Bağlantılarla Menzil Alın
+---
+title: Harici Bağlantıları İçeren Menzil Al
 type: docs
 weight: 140
 url: /tr/java/get-range-with-external-links/
 ---
-## **Harici Bağlantılarla Menzil Alın**
 
-Çoğu zaman Excel dosyaları, dış bağlantıları kullanarak diğer Excel dosyalarındaki verilere erişir. Aspose.Cells, bu harici bağlantıları kullanarak alma seçeneği sunar.[**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) yöntem. bu[**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) yöntemi bir tür dizisi döndürür[**YönlendirilenAlan**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea). bu[**YönlendirilenAlan**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea)sınıf bir sağlar[**HariciDosyaAdı**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#ExternalFileName)harici dosyanın adını döndüren özellik. bu[**YönlendirilenAlan**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea)sınıf aşağıdaki üyeleri gösterir.
+## **Harici Bağlantıları Olan Aralığı Al**
 
-- [**Bitiş Sütunu**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#EndColumn): Alanın bitiş sütunu
-- [**EndRow**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#EndRow): Alanın son satırı
-- [**HariciDosyaAdı**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#ExternalFileName): Bu bir harici referans ise harici dosya adını alın
-- [**alan**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#IsArea): Bunun bir alan olup olmadığını gösterir
-- [**Harici Bağlantı**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#IsExternalLink): Bunun harici bir bağlantı olup olmadığını gösterir
-- [**SayfaAdı**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#SheetName): Bu referansın hangi sayfada olduğunu gösterir
-- [**Başlat Sütunu**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#StartColumn): Alanın başlangıç sütunu
-- [**Satırı Başlat**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#StartRow): Alanın başlangıç satırı
+Çoğu zaman Excel dosyaları diğer Excel dosyalarından veri erişimi yapar ve bunu harici bağlantılar kullanarak yapar. Aspose.Cells, bu harici bağlantıları [**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) yöntemini kullanarak almak için seçenek sunar. [**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) yöntemi, [**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea) türünde bir dizi döndürür. [**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea) sınıfı, harici dosyanın adını döndüren bir özellik olan bir [**ExternalFileName**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#ExternalFileName) özelliği sağlar. [**ReferredArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredArea) sınıfı, aşağıdaki üyeleri açığa çıkarır.
 
-Aşağıda verilen örnek kod,[**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) harici bağlantılarla Aralıkları alma yöntemi.
+- [**EndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#EndColumn): Alanın son sütunu
+- [**EndRow**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#EndRow): Alanın son satırı
+- [**ExternalFileName**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#ExternalFileName): Bu harici bir başvuru ise harici dosya adını al
+- [**IsArea**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#IsArea): Bu bir alan mı belirtir
+- [**IsExternalLink**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#IsExternalLink): Bu bir harici bağlantı mı belirtir
+- [**SheetName**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#SheetName): Bu başvurunun hangi tabloda olduğunu belirtir
+- [**StartColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#StartColumn): Alanın başlangıç sütunu
+- [**StartRow**](https://reference.aspose.com/cells/java/com.aspose.cells/referredarea#StartRow): Alanın başlangıç satırı
 
-## **Basit kod**
+Aşağıda verilen örnek kod, harici bağlantıları içeren menzilleri almak için [**Name.GetReferredAreas**](https://reference.aspose.com/cells/java/com.aspose.cells/name#getReferredAreas(boolean)) yönteminin kullanımını gösterir.
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-GetRangeWithExternalLinks-1.java" >}}

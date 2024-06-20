@@ -1,31 +1,34 @@
-﻿---
-title: Aspose.Cells.GridDesktop'u WPF Uygulamasında Kullanma
+---
+title: WPF Uygulamasında Aspose.Cells.GridDesktop Kullanma
 type: docs
 weight: 50
-url: /tr/net/using-aspose-cells-griddesktop-in-wpf-application/
+url: /tr/net/aspose-cells-griddesktop/use-aspose-cells-griddesktop-in-wpf-application/
+keywords: GridDesktop,wpf
+description: Bu makale, WPF uygulamasında GridDesktop ı nasıl kullanacağınızı tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
- Bu makale, bir WPF uygulamasında Aspose.Cells.GridDesktop gibi bir Windows Forms denetimini barındırmak için Visual Studio için Windows Presentation Foundation (WPF) Tasarımcısının nasıl kullanılacağını gösterir.
-Süreci göstermek için Visual Studio 2015 kullanacağız, ancak Visual Studio 2008 veya sonraki sürümleri de dahil olmak üzere herhangi bir sürümü kullanabilirsiniz.
+Bu makale, Windows Presentation Foundation (WPF) Designer'ı Visual Studio'da bir Windows Forms denetimini (örneğin Aspose.Cells.GridDesktop) bir WPF uygulamasında barındırmak için nasıl kullanacağınızı göstermektedir. 
+Bu süreci göstermek için Visual Studio 2015 kullanacağız, ancak Visual Studio 2008 veya sonraki herhangi bir sürümü kullanabilirsiniz.
 
 {{% /alert %}} 
 
-Bu öğretici, bir WPF uygulamasına Aspose.Cells.GridDesktop denetimi ekleme sürecinde size yol gösterecektir. Bunu kendi tarafınızda denemek için WPF geliştirmeyi destekleyen herhangi bir Visual Studio IDE sürümüne ihtiyacınız var.
-## **Visual Studio'yu kullanarak bir WPF uygulaması oluşturun**
- Önce Visual Studio IDE kullanarak bir WPF uygulaması oluşturun. Tıklamak**Dosya** >> **Yeni** >> **Proje** menü ve seçin**WPF Uygulaması** Şablonlar'dan projeyi adlandırın ve tıklayın**Tamam**. Projenizi 2.0'dan daha yüksek herhangi bir .NET Çerçevesine hedefleyebilirsiniz, ancak müşteri profili .NET Çerçevelerini kullanamazsınız.
+Bu öğretici, Aspose.Cells.GridDesktop kontrolünü bir WPF uygulamasına eklemenin sürecini adım adım anlatacaktır. Bu işlemi kendi tarafınızda denemek için WPF geliştirmeyi destekleyen herhangi bir Visual Studio IDE sürümüne ihtiyacınız olacaktır.
+## **Visual Studio Kullanarak WPF Uygulaması Oluşturma**
+İlk olarak, Visual Studio IDE kullanarak WPF uygulaması oluşturun. Şablonlardan **WPF Uygulaması**'nı seçmek için **Dosya** >> **Yeni** >> **Proje** menüsüne tıklayın, projeye bir isim verin ve **Tamam**'a tıklayın. Projeyi 2.0'dan daha yüksek herhangi bir .NET Framework'e hedefleyebilirsiniz, ancak istemci profili .NET Framework'leri kullanamazsınız.
 ## **Gerekli ad alanlarına referanslar ekleyin**
-References from Solution Explorer penceresine sağ tıklayarak ve Add Reference menüsünü seçerek aşağıdaki derlemelere referansları ekleyin.
+Çözüm Gezgini penceresinden Referanslar'a sağ tıklayarak ve Ekle > Referans menüsünü seçerek aşağıdaki derlemelere referans ekleyin.
 
 - WindowsFormsIntegration derlemesi (WindowsFormsIntegration.dll).
-- Windows Form derlemesi (System.Windows.Forms.dll).
+- Windows Forms derlemesi (System.Windows.Forms.dll).
 - Aspose.Cells.GridDesktop derlemesi (Aspose.Cells.GridDesktop.dll).
 
-Bu eylem, gerekli derlemeleri uygulamaya ekler, yani; derlemeleri uygulamanın Bin klasörüne kopyalar.
-## **XAML'ye başvurular ekleyin**
-Ardından, XAML dosyasına gidin ve aşağıdaki ad alanlarını ve derleme referanslarını Windows etiketi içine ekleyin.
+Bu işlem, gerekli derlemeleri uygulamaya ekler; yani derlemeleri uygulamanın Bin klasörüne kopyalar.
+## **XAML'e referanslar ekleyin**
+Daha sonra, XAML dosyasına gidin ve Windows etiketi içine aşağıdaki ad alanlarını ve derleme referanslarını ekleyin.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
 
@@ -33,13 +36,13 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 {{< /highlight >}}
 
-**Son Windows etiketi, aşağıda gösterilene benzer görünecektir.**
+**Son Windows etiketi aşağıdaki gibi görünecektir.**
 
-![yapılacaklar:resim_alternatif_metin](using-aspose-cells-griddesktop-in-wpf-application_1.png)
-## **XAML'ye Aspose.Cells.GridDesktop denetimi ekleyin**
- XAML'deki Grid etiketinin içine aşağıdaki kodu eklemeniz yeterlidir. bu**WindowsFormsHost** etiketi, Windows Form kontrolünü barındırmak için kullanılır ve**gridDesktop:GridDesktop** etiketi, Aspose.Cells.GridDesktop denetimini temsil eder. Kodda kolayca başvurulabilmesi için denetimi de adlandırabilirsiniz.
+![todo:image_alt_text](using-aspose-cells-griddesktop-in-wpf-application_1.png)
+## **Aspose.Cells.GridDesktop kontrolünü XAML'e ekleyin**
+Sadece aşağıdaki kodu XAML'deki Grid etiketi içine ekleyin. **WindowsFormsHost** etiketi Windows Forms denetimini barındırmak için kullanılır ve **gridDesktop:GridDesktop** etiketi Aspose.Cells.GridDesktop kontrolünü temsil eder. Ayrıca kontrolü adlandırabilirsiniz, böylece kod içinde kolayca referans alabilirsiniz.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <WindowsFormsHost Loaded="FrameworkElement_OnLoaded">
 
@@ -55,12 +58,12 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 **Son XAML aşağıdaki gibi görünecektir.** 
 
-![yapılacaklar:resim_alternatif_metin](using-aspose-cells-griddesktop-in-wpf-application_2.png)
-## **Aspose.Cells.GridDesktop'u kullanın**
-Artık .cs dosyasındaki Aspose.Cells.GridDesktop kontrolüne diğer Windows Forms uygulamaları gibi erişebilir ve kullanabiliriz. Gösterimi basit tutmak için, Aspose.Cells.GridDesktop kontrolüne örnek bir elektronik tablo yüklüyoruz ve onu geri kaydediyoruz. Ayrıca, aşağıdaki ifadeleri tetiklemek için FrameworkElement_OnLoaded olayını kullandık.
+![todo:image_alt_text](using-aspose-cells-griddesktop-in-wpf-application_2.png)
+## **Aspose.Cells.GridDesktop Kullanma**
+Artık Aspose.Cells.GridDesktop kontrolüne .cs dosyasında diğer Windows Forms uygulamaları gibi erişebilir ve kullanabiliriz. Gösterimi basit tutmak için Aspose.Cells.GridDesktop kontrolünde örnek bir elektronik tablo yüklüyoruz ve geri kaydediyoruz. Dahası, FrameworkElement_OnLoaded olayını aşağıdaki ifadeleri tetiklemek için kullanıyoruz.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-UsingGridDesktopInWpf-MainWindow.xaml-UsingGridDesktopInWpf.cs" >}}
-## **Yap ve Çalıştır**
- Şimdi, kullanarak uygulamayı oluşturun ve çalıştırın.**F5** veya**Başlama** Visual Studio kullanıcı arabirimindeki düğme.
+## **Derle ve Çalıştır**
+Şimdi, Visual Studio UI üzerinde **F5** veya **Başlat** düğmesini kullanarak uygulamayı derleyin ve çalıştırın.

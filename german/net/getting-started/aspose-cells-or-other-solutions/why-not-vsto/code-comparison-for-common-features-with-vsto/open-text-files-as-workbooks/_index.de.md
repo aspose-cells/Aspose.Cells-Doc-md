@@ -1,12 +1,13 @@
-﻿---
-title: Öffnen Sie Textdateien als Arbeitsmappen
+---
+title: Textdateien als Arbeitsmappen öffnen
 type: docs
 weight: 180
 url: /de/net/open-text-files-as-workbooks/
 ---
-Nachfolgend finden Sie ein Vergleichscodebeispiel zum Öffnen von Textdateien als Arbeitsmappen:
+
+Nachfolgend finden Sie Vergleichscodebeispiele zum Öffnen von Textdateien als Arbeitsmappen:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
      this.Application.Workbooks.OpenText(@"OpenTextFilesAsWorkbooks.txt",
 
@@ -22,7 +23,7 @@ Nachfolgend finden Sie ein Vergleichscodebeispiel zum Öffnen von Textdateien al
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
     private static string fileName = "OpenTextFilesAsWorkbooks.xlsx";
 
@@ -37,5 +38,5 @@ Nachfolgend finden Sie ein Vergleichscodebeispiel zum Öffnen von Textdateien al
    newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Download**
+##**Herunterladen**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

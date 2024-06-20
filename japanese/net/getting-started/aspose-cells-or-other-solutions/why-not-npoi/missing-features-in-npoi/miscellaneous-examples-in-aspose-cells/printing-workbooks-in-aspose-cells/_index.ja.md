@@ -1,17 +1,18 @@
-﻿---
-title: Aspose.Cells でワークブックを印刷する
+---
+title: Aspose.Cellsでワークブックを印刷
 type: docs
 weight: 20
 url: /ja/net/printing-workbooks-in-aspose-cells/
 ---
+
 ## **Aspose.Cells - ワークブックの印刷**
-スプレッドシートの作成が完了したら、必要に応じてシートのハード コピーを印刷することをお勧めします。印刷するとき、MS Excel は、選択を指定しない限り、ワークシート領域全体を印刷すると想定します。
+スプレッドシートの作成が完了したら、必要に応じてシートの印刷を行いたいと思うでしょう。印刷を行う際、MS Excelは特定の選択を指定しない限り、ワークシート全体を印刷するものと見なします。
 
 ワークシートの印刷
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -34,13 +35,13 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 sr.ToPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークブックの印刷**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**ワークブックの印刷**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークブックの印刷](/cells/ja/net/printing-workbooks/).
+詳細については、[ワークブックの印刷](/cells/ja/net/printing-workbooks/)をご覧ください。
 
 {{% /alert %}}

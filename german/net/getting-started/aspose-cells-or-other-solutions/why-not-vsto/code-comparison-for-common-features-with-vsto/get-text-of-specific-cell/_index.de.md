@@ -1,11 +1,12 @@
-﻿---
-title: Holen Sie sich den Text der spezifischen Cell
+---
+title: Text einer bestimmten Zelle abrufen
 type: docs
 weight: 130
 url: /de/net/get-text-of-specific-cell/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -45,7 +46,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the excel file path.
 
@@ -70,5 +71,5 @@ Console.ReadKey();
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Get.Text.of.Specific.Cell.Aspose.Cells.zip)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Get%20Text%20of%20Specific%20Cell)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Get.Text.of.Specific.Cell.Aspose.Cells.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Get%20Text%20of%20Specific%20Cell)

@@ -1,18 +1,19 @@
-﻿---
-title: Cell Metni VSTO ve Aspose.Cells'de Döndürme
+---
+title: VSTO ve Aspose.Cells te Bir Hücrenin Metnini Döndürme
 type: docs
 weight: 210
 url: /tr/net/rotating-cell-text-in-vsto-and-aspose-cells/
 ---
-Çalışma sayfasındaki bir hücredeki metni döndürmek için aşağıdaki adımları izleyin:
+
+Bir çalışsayfadaki bir hücrede metni döndürmek için aşağıdaki adımları izleyin:
 
 1. Bir çalışma kitabı oluşturun ve bir çalışma sayfası alın.
 1. Örnek metin ekleyin.
 1. Metni biçimlendirin: döndürün, arka plan rengi ekleyin.
-1. Dosya 'yı kaydet.
- Aşağıdaki kod örnekleri, bu adımların önce VSTO'da C# kullanılarak ve sonra Aspose.Cells'de tekrar C# kullanılarak nasıl gerçekleştirileceğini gösterir.
+1. Dosyayı kaydedin.
+   Aşağıdaki kod örnekleri, önce C# kullanarak VSTO'da ve sonra yine C# kullanarak Aspose.Cells'te bu adımları nasıl gerçekleştireceğinizi gösterir.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //intiate Application object
 
@@ -28,7 +29,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -58,7 +59,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
 
@@ -105,7 +106,7 @@ objcell.SetStyle(objstyle);
 objworkbook.Save("RotateText_test.xlsx");
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Rotating.Cell.Text.Aspose.Cells.zip)
-- [kaynak forge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Rotating%20Cell%20Text%20\(Aspose.Cells\).zip/indir)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Rotating%20Cell%20Text%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Rotating%20Cell%20Text%20\(Aspose.Cells\).zip)

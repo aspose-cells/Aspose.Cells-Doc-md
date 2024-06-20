@@ -1,15 +1,16 @@
-﻿---
-title: xlsx4j の数式計算エンジン
+---
+title: xlsx4j でワークシートへのデータのインポート
 type: docs
 weight: 40
 url: /ja/java/formula-calculation-engine-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - 数式計算エンジン**
-数式計算エンジンは Aspose.Cells に組み込まれています。デザイナー スプレッドシート ファイルからインポートされた数式を再計算できるだけでなく、実行時に追加された数式の結果を計算することもサポートします。
+数式計算エンジンはAspose.Cellsに組み込まれています。設計用スプレッドシートファイルからインポートされた数式を再計算するだけでなく、ランタイムで追加された数式の結果を計算することもサポートしています。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -58,13 +59,13 @@ book.calculateFormula();
 book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/formulacalculationengine/AsposeFormulaCalculationEngine.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[式計算エンジン](/cells/ja/java/formula-calculation-engine-in-aspose-cells).
+詳細については、[式計算エンジン](/cells/ja/java/formula-calculation-engine-in-aspose-cells)を参照してください。
 
 {{% /alert %}}

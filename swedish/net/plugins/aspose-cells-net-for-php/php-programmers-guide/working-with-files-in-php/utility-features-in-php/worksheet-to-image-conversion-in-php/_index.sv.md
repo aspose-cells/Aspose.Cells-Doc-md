@@ -1,15 +1,16 @@
-﻿---
-title: Arbetsblad till bildkonvertering i PHP
+---
+title: Ark till bildkonvertering i PHP
 type: docs
 weight: 40
 url: /sv/net/worksheet-to-image-conversion-in-php/
 ---
+
 ## **Aspose.Cells - Konvertera kalkylblad till bild**
-Konvertera ett Microsoft Excel-kalkylblad till bildfil
+Konvertera en Microsoft Excel-kalkylblad till bildfil
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -44,7 +45,7 @@ Konvertera ett Microsoft Excel-kalkylblad till bildfil
         print "Conversion to Image(s) completed!" . PHP_EOL;
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Kalkylblad till bild (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Kalkylblad till bild (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

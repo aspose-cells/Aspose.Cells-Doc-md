@@ -1,28 +1,29 @@
-﻿---
-title: Public API Changements dans Aspose.Cells 8.6.1
+---
+title: Changements d API public dans Aspose.Cells 8.6.1
 type: docs
 weight: 200
 url: /fr/net/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.Cells API de la version 8.6.0 à 8.6.1 qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement des méthodes publiques nouvelles et mises à jour, des classes ajoutées, mais également une description de tout changement de comportement en coulisse dans Aspose.Cells.
+Ce document décrit les changements apportés à l'API Aspose.Cells de la version 8.6.0 à la 8.6.1 qui peuvent intéresser les développeurs de modules/applications. Il inclut non seulement de nouvelles et des méthodes publiques mises à jour, des classes ajoutées, mais aussi une description de tout changement dans le comportement en arrière-plan d'Aspose.Cells.
 
 {{% /alert %}} 
-## **API ajoutées**
-### **Prise en charge du type de cible de lien HTML**
- Cette version de Aspose.Cells for .NET API a exposé une énumération à savoir HtmlLinkTargetType avec une nouvelle propriété HtmlSaveOptions.LinkTargetType qui, ensemble, permet de[définir le type de cible pour les liens dans la feuille de calcul lors de la conversion au format HTML](/cells/fr/net/change-the-html-link-target-type/). Les valeurs possibles de l'énumération HtmlLinkTargetType sont les suivantes, où la valeur par défaut est Self.
+## **APIs ajoutées**
+### **Support du type de cible de lien HTML**
+Cette version de l'API Aspose.Cells for .NET a exposé une énumération nommée HtmlLinkTargetType ainsi qu'une nouvelle propriété HtmlSaveOptions.LinkTargetType qui permettent ensemble de définir le type de cible pour les liens dans la feuille de calcul lors de la conversion au format HTML. Les valeurs possibles de l'énumération HtmlLinkTargetType sont les suivantes où la valeur par défaut est Self.
 
-1. HtmlLinkTargetType.Blank : ouvre le document/la page liés dans une nouvelle fenêtre ou un nouvel onglet.
-1. HtmlLinkTargetType.Parent : ouvre le document/la page liés dans le cadre parent.
-1. HtmlLinkTargetType.Self : Ouvre le document/la page lié(e) dans le même cadre où le lien a été cliqué.
-1. HtmlLinkTargetType.Top : Ouvre le document/la page lié(e) dans le corps entier de la fenêtre.
+1. HtmlLinkTargetType.Blank : Ouvre le document/page lié dans une nouvelle fenêtre ou un nouvel onglet.
+1. HtmlLinkTargetType.Parent : Ouvre le document/page lié dans le cadre parent.
+1. HtmlLinkTargetType.Self : Ouvre le document/page lié dans le même cadre où le lien a été cliqué.
+1. HtmlLinkTargetType.Top : Ouvre le document/page lié dans l'intégralité de la fenêtre.
 
 Voici le scénario d'utilisation simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -43,14 +44,14 @@ workbook.Save(outputFilePath, options);
 {{< /highlight >}}
 
 
-### **Méthode VbaModuleCollection.Remove ajoutée**
-Aspose.Cells for .NET 8.6.1 a exposé une autre surcharge de la méthode VbaModuleCollection.Remove qui peut désormais accepter une instance de Worksheet pour supprimer tous les modules VBA associés à la Worksheet spécifiée.
+### **Ajout de la méthode VbaModuleCollection.Remove**
+Aspose.Cells for .NET 8.6.1 a exposé une autre surcharge de la méthode VbaModuleCollection.Remove qui peut désormais accepter une instance de Worksheet pour supprimer tous les modules VBA associés à la feuille de calcul spécifiée.
 
 Voici le scénario d'utilisation simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -67,14 +68,14 @@ modules.Remove(workbook.Worksheets[0]);
 {{< /highlight >}}
 
 
-### **Méthode RangeCollection.Add Ajouté**
+### **Ajout de la méthode RangeCollection.Add**
 Aspose.Cells for .NET 8.6.1 a exposé la méthode RangeCollection.Add qui peut être utilisée pour ajouter des objets Range à la collection de plages pour une feuille de calcul particulière.
 
 Voici le scénario d'utilisation simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -95,14 +96,14 @@ ranges.Add(cells.CreateRange("A1:B4"));
 {{< /highlight >}}
 
 
-### **Méthode Cell.SetCharacters ajouté**
- La méthode Cell.SetCharacters peut être utilisée pour[mettre à jour les parties du texte enrichi](/cells/fr/net/access-and-update-the-portions-of-rich-text-of-cell/) d'un objet Cell donné. La méthode Cell.GetCharacters doit être utilisée pour accéder aux parties du texte, puis les modifications peuvent être effectuées à l'aide de la méthode Cell.SetCharacters alors que la**Obtenir** La méthode renvoie un tableau d'objets FontSetting qui peuvent être manipulés pour définir diverses propriétés nom de police, couleur de police, gras, etc. et**Ensemble** peut être utilisée pour appliquer les modifications.
+### **Ajout de la méthode Cell.SetCharacters**
+La méthode Cell.SetCharacters peut être utilisée pour [mettre à jour les portions du texte enrichi](/cells/fr/net/access-and-update-the-portions-of-rich-text-of-cell/) d'un objet Cell donné. La méthode Cell.GetCharacters doit être utilisée pour accéder aux portions du texte, puis les modifications peuvent être apportées en utilisant la méthode Cell.SetCharacters, alors que la méthode **Get** renvoie un tableau d'objets FontSetting qui peuvent être manipulés pour définir diverses propriétés telles que le nom de la police, la couleur de la police, la graisse, etc. et la méthode **Set** peut être utilisée pour appliquer les changements.
 
 Voici le scénario d'utilisation simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -118,7 +119,7 @@ Cell cell = worksheet.Cells["A1"];
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.GetCharacters();
+FontSetting[] settings = cell.GetCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -132,13 +133,13 @@ cell.SetCharacters(settings);
 
 
 ### **Propriété VbaProject.IsSigned ajoutée**
- Aspose.Cells for .NET 8.6.1 a exposé la propriété VbaProject.IsSigned qui peut être utilisée pour[tester si un VbaProject dans un classeur est signé ou non](/cells/fr/net/check-if-vba-project-in-a-workbook-is-signed/)La propriété de type booléen renvoie true si le projet est signé.
+Aspose.Cells for .NET 8.6.1 a exposé la propriété VbaProject.IsSigned qui peut être utilisée pour [vérifier si un projet VBA dans un classeur est signé ou non](/cells/fr/net/check-if-vba-project-in-a-workbook-is-signed/). La propriété de type booléen renvoie true si le projet est signé.
 
 Voici le scénario d'utilisation simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -167,9 +168,9 @@ else
 }
 
 {{< /highlight >}}
-## **API modifiées**
-### **Méthode Cell.GetFormatConditions modifiées**
-Avec la version v8.6.1, le Aspose.Cells for .NET API a modifié le type de retour de la méthode Cell.GetFormatConditions qui renvoie désormais un tableau de type FormatConditionCollection.
-## **API obsolètes**
+## **APIs modifiées**
+### **Méthode Cell.GetFormatConditions modifiée**
+Avec la publication de v8.6.1, l'API Aspose.Cells for .NET a modifié le type de retour de la méthode Cell.GetFormatConditions qui renvoie désormais un tableau de type FormatConditionCollection.
+## **APIs obsolètes**
 ### **Méthode Workbook.CheckWriteProtectedPassword obsolète**
-Avec la version v8.6.1, la méthode Workbook.CheckWriteProtectedPassword a été marquée comme dépréciée. Il est conseillé d'utiliser la méthode WorkbookSettings.WriteProtection.ValidatePassword qui peut accepter une valeur de chaîne comme paramètre et renvoie un booléen si le mot de passe correspond au mot de passe prédéfini de la feuille de calcul.
+Avec la publication de v8.6.1, la méthode Workbook.CheckWriteProtectedPassword a été marquée comme obsolète. Il est conseillé d'utiliser la méthode WorkbookSettings.WriteProtection.ValidatePassword qui peut accepter une valeur de chaîne en paramètre et renvoie un booléen si le mot de passe correspond au mot de passe prédéfini de la feuille de calcul.

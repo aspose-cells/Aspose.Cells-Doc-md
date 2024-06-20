@@ -1,15 +1,16 @@
-﻿---
-title: ワークブック内のシートの並べ替え
+---
+title: ワークブック内でシートを再配置する
 type: docs
 weight: 50
 url: /ja/java/re-order-sheets-within-workbook/
 ---
-## **Aspose.Cells - ワークブック内のシートの並べ替え**
-Aspose.Cells は、ワークシートを同じスプレッドシート内の別の場所に移動するために使用される Worksheet.moveTo() メソッドを提供します。
+
+## **Aspose.Cells - ワークブック内でシートを再配置する**
+Aspose.Cellsは、同じスプレッドシート内でワークシートを別の場所に移動するために使用されるWorksheet.moveTo（）メソッドを提供しています。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a new Workbook.
 
@@ -36,12 +37,12 @@ worksheet3.moveTo(2);
 workbook.save(dataDir + "AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - ワークブック内のシートの並べ替え**
-Apache POI は Workbook.setSheetOrder() メソッドを提供して、必要な順序でワークシートを設定します。
+## **Apache POI SS - HSSF XSSF - ワークブック内でシートの順序を変更する**
+Apache POIは、必要な順にワークシートを設定するためのWorkbook.setSheetOrder（）メソッドを提供しています。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/reordersheets)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークシートのコピーと移動](/cells/ja/java/copying-and-moving-worksheets).
+詳細については、[ワークシートのコピーと移動](/cells/ja/java/copying-and-moving-worksheets)をご覧ください。
 
 {{% /alert %}}

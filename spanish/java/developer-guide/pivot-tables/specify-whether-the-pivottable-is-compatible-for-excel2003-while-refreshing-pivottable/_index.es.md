@@ -1,24 +1,25 @@
-﻿---
-title: Especifique si la tabla dinámica es compatible con Excel 2003 mientras actualiza la tabla dinámica
+---
+title: Especifique si la tabla dinámica es compatible con Excel2003 al actualizar la tabla dinámica
 type: docs
 weight: 880
 url: /es/java/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells proporciona el[PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible)propiedad que puede usar para especificar si la tabla dinámica es compatible con Excel2003 mientras actualiza la tabla dinámica. Si**verdadero** , una cadena debe tener menos o igual a 255 caracteres, por lo que si la cadena tiene más de 255 caracteres, se truncará. Si**falso** , una cadena no tendrá la restricción antes mencionada. El valor predeterminado es**verdadero**.
+Aspose.Cells proporciona la propiedad [PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) que puede utilizar para especificar si la tabla dinámica es compatible con Excel2003 al actualizar la tabla dinámica. Si es **verdadero**, una cadena debe ser menor o igual a 255 caracteres, por lo que si la cadena es mayor a 255 caracteres, se truncará. Si es **falso**, una cadena no tendrá la restricción mencionada. El valor predeterminado es **verdadero**.
 
 {{% /alert %}} 
-## **Especifique si la tabla dinámica es compatible con Excel 2003 mientras actualiza la tabla dinámica**
- El siguiente código de ejemplo explica el uso de[PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) propiedad. La cadena original tiene 383 caracteres. Pero cuando[PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) la propiedad se establece en**verdadero** y la tabla dinámica se actualiza, los datos de la celda B5 de la tabla dinámica se truncan y pasan a tener 255 caracteres. Sin embargo cuando[PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) se establece la propiedad**falso** y la tabla dinámica se actualiza nuevamente, los datos de la celda B5 de la tabla dinámica no se truncan y siguen teniendo 383 caracteres. Por favor descarga el[ejemplo de archivo de Excel](5472558.xlsx) utilizado en este código,[archivo de salida de Excel](5472557.xlsx) generado por él y su salida de consola para su referencia. Lea también los comentarios dentro del código para una mejor comprensión de esta propiedad.
+## **Especifique si la tabla dinámica es compatible con Excel2003 al actualizar la tabla dinámica**
+El siguiente código de muestra explica el uso de la propiedad [PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible). La cadena original tiene una longitud de 383 caracteres. Pero cuando se establece [PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) en **verdadero** y se actualiza la tabla dinámica, los datos de la celda B5 de la tabla dinámica se truncan y tienen una longitud de 255 caracteres. Sin embargo, cuando se establece [PivotTable.IsExcel2003Compatible](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#IsExcel2003Compatible) en **falso** y se actualiza nuevamente la tabla dinámica, los datos de la celda B5 de la tabla dinámica no se truncan y siguen teniendo una longitud de 383 caracteres. Descargue también el [archivo de Excel de muestra](5472558.xlsx) utilizado en este código, el [archivo de Excel de salida](5472557.xlsx) generado por él y su salida de consola para su referencia. También lea los comentarios dentro del código para comprender mejor esta propiedad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-IsPivotTableCompatibleForExcel2003-.java" >}}
-## **Salida de consola**
-Aquí está la salida de la consola del código de muestra anterior cuando se ejecuta con el dado[ejemplo de archivo de Excel](5472558.xlsx).
+## **Salida de la consola**
+Esta es la salida de consola del código de muestra anterior cuando se ejecuta con el [archivo de Excel de muestra](5472558.xlsx) dado.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Length of original data string: 383
 

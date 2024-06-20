@@ -1,19 +1,20 @@
-﻿---
-title: テキストボックスにテキストの配置を適用/設定する方法
-linktitle: テキストボックスにテキスト配置を適用/設定
+---
+title: テキストボックスにテキストの配置/設定する方法
+linktitle: テキストボックスにテキストの配置を行う
 type: docs
 weight: 20
 url: /ja/java/applying-text-alignment-to-partial-text-inside-the-textbox/
-description: Aspose.cells のテキスト ボックスにテキストの配置を適用/設定する方法。
-keywords: apply/set alignment TextBox Worksheet Excel Aspose
+description: Aspose.Cellsでテキストボックスにテキストの配置/設定する方法。
+keywords: Excelのワークシートテキストボックスに配置/設定を行うAspose
 ---
-TextBox は、ドキュメントや図の表現力を向上させることができ、TextBox のさまざまな部分にさまざまな配置を適用することで、読者が関心のあるポイントを強調するのに役立ちます。ただし、TextBox のデフォルトの配置はすべてのニーズを満たしているわけではありません。このため、各 TextBox をターゲットの要件を満たすように調整する必要がある場合があります。微調整する TextBox オブジェクトが多くない場合は、幸運です。調整する TextBox がたくさんあると、大変なことになると思います。今は心配しないでください。[Aspose.Cells](https://products.aspose.com/cells/)は、そのような API インターフェイスを提供して、まさにそれを行うのに役立ちます。
 
-次のサンプル コードは、TextBox にテキストの配置を適用します。
+テキストボックスは、文書や図表の表現力を向上させ、テキストボックスの異なる配置を適用することで、読者にとって興味深い点を強調するのに役立ちます。しかし、テキストボックスのデフォルトの配置がすべてのニーズを満たすわけではありません。そのため、各テキストボックスを調整する必要があります。テキストボックスを調整する必要がない場合は運が良いですが、多くのテキストボックスを調整する必要がある場合は、問題が発生するかもしれません。しかし、心配することはありません。 [Aspose.Cells](https://products.aspose.com/cells/) では、そのようなAPIインターフェイスを提供しています。
+
+次のサンプルコードは、テキストボックスにテキストの配置を適用します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ApplyAlignmentToTextBox.java" >}}
 
-また、適切な HTML テキストを使用して、TextBox 図形内の一部のテキストのテキスト配置を変更することもできます。次のサンプル コードは、TextBox 内の部分的なテキストにテキスト配置を適用します。
+適切なHTMLテキストを使用して、テキストボックス内の一部のテキストの配置を変更することもできます。次のサンプルコードは、テキストボックス内の一部のテキストにテキストの配置を適用します。
 
 [ソースファイル](SampleTextboxExcel2016.xlsx)
 

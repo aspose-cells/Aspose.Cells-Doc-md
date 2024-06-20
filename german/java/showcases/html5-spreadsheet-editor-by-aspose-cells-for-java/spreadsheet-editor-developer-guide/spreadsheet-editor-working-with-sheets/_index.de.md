@@ -1,42 +1,43 @@
-﻿---
-title: Tabelleneditor - Arbeiten mit Tabellen
+---
+title: Tabellenkalkulation  Arbeiten mit Tabellen
 type: docs
 weight: 20
 url: /de/java/spreadsheet-editor-working-with-sheets/
 ---
+
 **Inhaltsverzeichnis**
 
 - [Blätter hinzufügen und entfernen?](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
- - WorksheetView.onAddNewSheet
- - WorksheetView.onRemoveActiveSheet
+  - WorksheetView.onAddNewSheet
+  - WorksheetView.onRemoveActiveSheet
 - [Blätter umbenennen](#SpreadsheetEditor-WorkingwithSheets-RenameSheets) 
- - WorksheetView.setActiveSheet
-- [Wechseln Sie zwischen Blättern](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
- - WorksheetView.setActiveSheet
+  - WorksheetView.setActiveSheet
+- [Zwischen Blättern wechseln](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
+  - WorksheetView.setActiveSheet
 ### **Blätter hinzufügen und entfernen?**
-Microsoft Excel erlaubt mehrere Blätter in einer einzigen Datei. Mit dem HTML5-Tabellen-Editor kann der Benutzer Blätter hinzufügen und entfernen. Auf der Registerkarte Blätter haben wir eine Dropdown-Liste mit Blättern. Das ausgewählte Blatt ist dasjenige, das vom Editor geöffnet wird.
+Microsoft Excel ermöglicht mehrere Blätter in einer einzelnen Datei. Der HTML5 Spreadsheet Editor ermöglicht es dem Benutzer, Blätter hinzuzufügen und zu entfernen. Auf dem Registerblatt 'Blätter' haben wir eine Dropdown-Liste von Blättern. Das ausgewählte Blatt ist dasjenige, das vom Editor geöffnet wird.
 
-So fügen Sie ein neues Blatt hinzu:
+Um ein neues Blatt hinzuzufügen:
 
-1.  Wechseln zu**Registerkarte "Blätter".**.
+1. Wechseln Sie zum **Blätter-Tab**.
 1. Klicken Sie auf die Schaltfläche **+** (Plus).
 
 Ein neues Blatt wird hinzugefügt und der Editor wechselt zu diesem.
 
-So entfernen Sie das aktuell ausgewählte Blatt:
+Um das aktuell ausgewählte Blatt zu entfernen:
 
-1.  Wechseln zu**Registerkarte "Blätter".**.
+1. Wechseln Sie zum **Blätter-Tab**.
 1. Klicken Sie auf die Schaltfläche **-** (Minus).
 
-Das aktuell ausgewählte Blatt wird entfernt und der Editor wechselt zum zuletzt ausgewählten Blatt.
+Das aktuell ausgewählte Blatt wird entfernt und der Editor wechselt zum zuletzt ausgewählten.
 
-![todo: Bild_alt_Text](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Wenn der Benutzer auf klickt** +** (plus) und**-** (Minus)-Schaltfläche angeklickt werden, die JSF-Backend-Bean**Arbeitsblattansicht** behandelt die Ereignisse mit**WorksheetView.onAddNewSheet** und**WorksheetView.onRemoveActiveSheet**-Methoden.
+Wenn der Benutzer auf die Schaltfläche **+** (Plus) und **-** (Minus) klickt, behandelt das JSF-Backend-Bean **WorksheetView** die Ereignisse mithilfe der Methoden **WorksheetView.onAddNewSheet** und **WorksheetView.onRemoveActiveSheet**.
 #### **WorksheetView.onAddNewSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onAddNewSheet() {
 
@@ -63,7 +64,7 @@ Das aktuell ausgewählte Blatt wird entfernt und der Editor wechselt zum zuletzt
 {{< /highlight >}}
 
 #### **WorksheetView.onRemoveActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onRemoveActiveSheet() {
 
@@ -97,22 +98,22 @@ Das aktuell ausgewählte Blatt wird entfernt und der Editor wechselt zum zuletzt
 
 {{< /highlight >}}
 ### **Blätter umbenennen**
-So benennen Sie ein Blatt um:
+Um ein Blatt umzubenennen:
 
-1.  Wechseln zu**Registerkarte "Blätter".**.
-1. Klicken Sie auf den Blattnamen im Textfeld, um es zu bearbeiten.
-1. Ändern Sie den Namen des Blatts.
-1. Wenn Sie fertig sind, drücken Sie die EINGABETASTE oder klicken Sie irgendwo außerhalb des Felds.
+1. Wechseln Sie zum **Blätter-Tab**.
+1. Klicken Sie auf den Blattnamen im Textfeld, um ihn zu bearbeiten.
+1. Ändern Sie den Namen des Blattes.
+1. Drücken Sie die EINGABETASTE, oder klicken Sie außerhalb des Feldes, wenn Sie fertig sind.
 
 Das Blatt wird umbenannt.
 
-![todo: Bild_alt_Text](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Wenn der Textfeldwert geändert wird, wird das Ereignis auf dem Server von der JSF-Backend-Bean verarbeitet**Arbeitsblattansicht** Methode verwenden**WorksheetView.setActiveSheet**.
+Wenn der Textfeldwert geändert wird, wird das Ereignis auf dem Server von JSF-Backend-Bean **WorksheetView** mit der Methode **WorksheetView.setActiveSheet** verarbeitet.
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 
@@ -135,21 +136,21 @@ Das Blatt wird umbenannt.
     }
 
 {{< /highlight >}}
-### **Wechseln Sie zwischen Blättern**
-So wechseln Sie zu einem anderen Blatt:
+### **Zwischen Blättern wechseln**
+Um zu einem anderen Blatt zu wechseln:
 
-1.  Wechseln zu**Registerkarte "Blätter".**.
+1. Wechseln Sie zum **Blätter-Tab**.
 1. Wählen Sie ein Blatt aus dem Dropdown-Menü aus.
 
-Der Editor wechselt zum ausgewählten Blatt.
+Der Editor wechselt zu dem ausgewählten Blatt.
 
-![todo: Bild_alt_Text](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Wenn der Wert des Dropdown-Selektors geändert wird, wird das Ereignis auf dem Server von der JSF-Back-End-Bean verarbeitet**Arbeitsblattansicht** Methode verwenden**WorksheetView.setActiveSheet**.
+Wenn der Wert des Dropdown-Selectors geändert wird, wird das Ereignis auf dem Server von JSF-Backend-Bean **WorksheetView** mit der Methode **WorksheetView.setActiveSheet** verarbeitet.
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 

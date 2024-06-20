@@ -1,27 +1,28 @@
 ---
-title: Создать прозрачное изображение рабочего листа Excel
+title: Create Transparent Image of Excel Worksheet
 type: docs
 weight: 170
 url: /ru/net/create-transparent-image-of-excel-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Иногда вам нужно создать изображение вашего рабочего листа как прозрачное изображение. Вы хотите применить прозрачность ко всем ячейкам, которые не имеют цветов заливки. Aspose.Cells обеспечивает[**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent) свойство, чтобы применить прозрачность к изображению рабочего листа. Когда это свойство равно *false**, ячейки без цветов заливки отображаются белым цветом, а когда оно равно *true**, ячейки без цветов заливки отображаются прозрачными.
+Иногда вам может потребоваться создать изображение вашего листа как прозрачное изображение. Вы хотите применить прозрачность ко всем ячейкам без цвета заливки. Aspose.Cells предоставляет свойство [**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent) для применения прозрачности к изображению листа. Когда это свойство имеет значение **false**, то ячейки без цвета заливки рисуются белым цветом, а когда оно имеет значение **true**, то ячейки без цвета заливки рисуются прозрачными.
 
 {{% /alert %}} 
 
-На следующем изображении рабочего листа прозрачность не применялась. Ячейки без заливки окрашены в белый цвет.
+На следующем изображении листа прозрачность не была применена. Ячейки без цвета заливки рисуются белым цветом.
 
 |**Вывод без прозрачности: фон ячейки белый**|
 | :- |
-|![дело:image_alt_text](create-transparent-image-of-excel-worksheet_1.png)|
+|![todo:image_alt_text](create-transparent-image-of-excel-worksheet_1.png)|
 
-В то время как на следующем изображении рабочего листа была применена прозрачность. Ячейки без цветов заливки прозрачны.
+Тогда как на следующем изображении листа прозрачность была применена. Ячейки без цвета заливки рисуются прозрачными.
 
-|**Вывод с включенной прозрачностью**|
+|**Вывод со включенной прозрачностью**|
 | :- |
-|![дело:image_alt_text](create-transparent-image-of-excel-worksheet_2.png)|
+|![todo:image_alt_text](create-transparent-image-of-excel-worksheet_2.png)|
 
-Следующий пример кода создает прозрачное изображение из листа Excel.
+Следующий образец кода генерирует прозрачное изображение из листа Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateTransparentImage-1.cs" >}}

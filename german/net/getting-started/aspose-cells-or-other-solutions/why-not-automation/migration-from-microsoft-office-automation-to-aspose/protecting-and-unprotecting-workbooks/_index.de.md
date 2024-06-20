@@ -1,28 +1,29 @@
-﻿---
-title: Arbeitsmappen schützen und Schutz aufheben
+---
+title: Arbeitsmappen schützen und schützen aufheben
 type: docs
 weight: 20
 url: /de/net/protecting-and-unprotecting-workbooks/
 ---
+
 {{% alert color="primary" %}} 
 
-Um zu verhindern, dass jemand versehentlich oder absichtlich Arbeitsblätter ändert, verschiebt oder löscht, können Sie Arbeitsmappenelemente mit oder ohne Kennwort schützen. Um die Struktur einer Arbeitsmappe zu schützen, sodass Arbeitsblätter in der Arbeitsmappe nicht verschoben, gelöscht, ausgeblendet, eingeblendet oder umbenannt und keine neuen Arbeitsblätter eingefügt werden können, geben Sie den ProtectionType als Structure an.
+Um zu verhindern, dass jemand Arbeitsblätter versehentlich oder absichtlich ändert, verschiebt oder löscht, können Sie Arbeitsmappenelemente mit oder ohne Kennwort schützen. Um die Struktur einer Arbeitsmappe zu schützen, damit Tabellenblätter in der Arbeitsmappe nicht verschoben, gelöscht, ausgeblendet, eingeblendet oder umbenannt und keine neuen Tabellenblätter eingefügt werden können, geben Sie den ProtectionType als Struktur an.
 
- Um Windows so zu schützen, dass sie bei jedem Öffnen der Arbeitsmappe dieselbe Größe und Position haben, geben Sie den ProtectionType als Windows an. In diesem Artikel zeigen wir, wie es geht[beschützen](/cells/de/net/protecting-and-unprotecting-workbooks/) und[entschützen](/cells/de/net/protecting-and-unprotecting-workbooks/) Arbeitsmappen mit VSTO und Aspose.Cells for .NET, damit Sie die beiden Methoden vergleichen können.
+Um Windows zu schützen, sodass sie jedes Mal, wenn die Arbeitsmappe geöffnet wird, die gleiche Größe und Position haben, geben Sie den ProtectionType als Windows an. In diesem Artikel zeigen wir, wie man Arbeitsmappen mit VSTO und Aspose.Cells for .NET [schützt](/cells/de/net/protecting-and-unprotecting-workbooks/) und [entsperrt](/cells/de/net/protecting-and-unprotecting-workbooks/), um Ihnen zu ermöglichen, die beiden Methoden zu vergleichen.
 
-Aspose.Cells funktioniert unabhängig von Microsoft Office Automation und wurde entwickelt, um einfach zu verwenden und sauberen Code zu produzieren.
+Aspose.Cells funktioniert unabhängig von der Microsoft Office-Automatisierung und ist darauf ausgelegt, einfach zu bedienen zu sein und sauberen Code zu erzeugen.
 
-Das Schützen einer Arbeitsmappe hindert Benutzer nicht daran, Zellen zu bearbeiten. Um die Daten zu schützen, müssen Sie die Arbeitsblätter schützen.
+Das Schützen einer Arbeitsmappe verhindert nicht, dass Benutzer Zellen bearbeiten. Um die Daten zu schützen, müssen Sie die Arbeitsblätter schützen.
 
 {{% /alert %}} 
 ## **Schützen einer Arbeitsmappe**
-Um eine vorhandene Microsoft-Excel-Datei zu öffnen, schützen Sie die Arbeitsmappe mit Struktur- und Windows-Attributen und speichern Sie die Datei.
+Um eine vorhandene Microsoft Excel-Datei zu öffnen, schützen Sie die Arbeitsmappe mit Struktur- und Windows-Attributen und speichern Sie die Datei.
 
-Nachfolgend finden Sie parallele Codeausschnitte für VSTO (C#, VB) und Aspose.Cells for .NET (C#, VB), die zeigen, wie eine Arbeitsmappe geschützt wird.
+Nachfolgend finden Sie parallele Code-Schnipsel für VSTO (C#, VB) und Aspose.Cells for .NET (C#, VB), die zeigen, wie man eine Arbeitsmappe schützt.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -80,7 +81,7 @@ excelApp.Quit();
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -110,12 +111,12 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 
 {{< /highlight >}}
-## **Schutz einer Arbeitsmappe aufheben**
-Um den Schutz einer Arbeitsmappe aufzuheben, verwenden Sie die folgenden Codezeilen für VSTO (C#, VB) und Aspose.Cells for .NET (C#, VB).
+## **Entsperren einer Arbeitsmappe**
+Um eine Arbeitsmappe zu entsperren, verwenden Sie die folgenden Codezeilen für VSTO (C#, VB) und Aspose.Cells for .NET (C#, VB).
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 
@@ -129,7 +130,7 @@ excelApp.ActiveWorkbook.Unprotect("007");
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 

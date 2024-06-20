@@ -1,19 +1,20 @@
-﻿---
-title: تحديث الأيام مع الاحتفاظ بمحفوظات المراجعة في المصنف المشترك
+---
+title: تحديث الأيام الحفظ تاريخ سجلات المراجعة في الورقة المشتركة
 type: docs
 weight: 80
 url: /ar/net/update-days-preserving-history-of-revision-logs-in-shared-workbook/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
- عند مشاركة مصنف ، تحصل على خيار يقول***احتفظ بسجل التغييرات لمدة N أيام*** كما هو موضح في الصورة التالية. يمكنك تحديث عدد الأيام لحفظ المحفوظات باستخدام Aspose.Cells مع[**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/net/aspose.cells.revisions/revisionlogcollection/properties/dayspreservinghistory)خاصية.
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به: image_بديل_نص](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
+عندما تشارك دفتر عمل، تحصل على خيار يقول *** الاحتفاظ بسجل التغييرات لمدة N أيام *** كما هو موضح في لقطة الشاشة التالية. يمكنك تحديث عدد الأيام للحفاظ على التاريخ باستخدام Aspose.Cells مع الخاصية [**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/net/aspose.cells.revisions/revisionlogcollection/properties/dayspreservinghistory).
 
-## **تحديث الأيام مع الاحتفاظ بمحفوظات المراجعة في المصنف المشترك**
+![todo:image_alt_text](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
 
- يُنشئ نموذج التعليمات البرمجية التالي مصنفًا فارغًا ، ثم يشاركه ويحدّث أيام سجلات المراجعة مع الاحتفاظ بالمحفوظات إلى 7 أيام وهو عادةً 30 يومًا. الرجاء مراجعة[إخراج ملف Excel](60489773.xlsx) تم إنشاؤها بواسطة رمز كمرجع.
+## **تحديث أيام الاحتفاظ بتاريخ سجل المراجعة في دفتر العمل المشترك**
 
-## **عينة من الرموز**
+الكود المثالي التالي يقوم بإنشاء دفتر عمل فارغ، ثم يشاركه ويحدّث أيام سجلات المراجعة للحفاظ على التاريخ لـ 7 أيام والتي تكون عادة 30 يومًا. يُرجى الرجوع إلى [ملف الإكسل الناتج](60489773.xlsx) الذي تم إنشاؤه بواسطة الكود للرجوع إليه.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.cs" >}}

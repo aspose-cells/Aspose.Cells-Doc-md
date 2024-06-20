@@ -1,38 +1,39 @@
-﻿---
-title: إدخال وإزالة Cell تعليقات في ورقة عمل
+---
+title: إدراج وإزالة تعليقات الخلايا في ورقة العمل
 type: docs
 weight: 30
 url: /ar/net/inserting-and-removing-cell-comments-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-بشكل عام ، يتم استخدام التعليقات لإضافة معلومات إضافية إلى الخلايا في ورقة العمل. نستخدمها بين الحين والآخر ونحذفها عندما لا نحتاج إليها بعد الآن. التعليقات مفيدة إذا كنت بحاجة إلى توثيق قيمة معينة أو لمساعدتك على تذكر ما تفعله الصيغة. عند تحريك مؤشر الماوس فوق خلية بها تعليق ، ينبثق التعليق في مربع صغير.
+عادة ما يتم استخدام التعليقات لإضافة معلومات إضافية إلى الخلايا في ورقة العمل. نستخدمها كل الآوان ونقوم بحذفها عندما لا نحتاج إليها بعد الآن. تكون التعليقات مفيدة إذا كنت بحاجة لتوثيق قيمة معينة أو للمساعدة في تذكر ما يفعله صيغة معينة. عند نقل مؤشر الماوس فوق خلية تحتوي على تعليق، يظهر التعليق في صندوق صغير.
 
-في هذه المقالة ، نقوم بمقارنة كيفية إضافة وإزالة التعليقات من الخلايا باستخدام VSTO و Aspose.Cells for .NET. يعمل Aspose.Cells for .NET مع ملفات Excel Microsoft بشكل مستقل عن Office Automation ويمنحك أدوات قوية لإنشاء جداول البيانات ومعالجتها.
+في هذه المقالة، نقارن كيفية إضافة التعليقات وإزالتها من الخلايا باستخدام VSTO و Aspose.Cells for .NET. يعمل Aspose.Cells for .NET مع ملفات Microsoft Excel بشكل مستقل عن التشغيل التلقائي للمكتب ويمنحك أدوات قوية لإنشاء وتلاعب في جداول البيانات.
 
 {{% /alert %}}
 
-## **إضافة وإزالة التعليقات على Cells**
+## **إضافة وإزالة التعليقات على الخلايا**
 
 لإضافة تعليقات إلى الخلايا:
 
 1. افتح ملف Excel موجود.
-1. أضف تعليقًا إلى خلية.
-1. حفظ الملف.
+1. أضف تعليقًا لخلية.
+4. حفظ الملف.
 
-لإزالة التعليقات ، تكون العملية مماثلة ، باستثناء إزالة التعليق.
+لإزالة التعليقات، يكون العملية مماثلة، باستثناء إزالة التعليق.
 
- توضح نماذج الكود أدناه أولاً كيفية القيام بذلك[اضف تعليق](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) ثم كيف[إزالة تعليق](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) مع VSTO أو Aspose.Cells for .NET.
+توضح الأمثلة المدرجة أدناه أولاً كيفية [إضافة تعليق](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) ومن ثم كيفية [إزالة تعليق](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) سواء باستخدام VSTO أو Aspose.Cells for .NET.
 
-## **ادراج التعليقات**
+## **إدراج التعليقات**
 
- توضح مقتطفات التعليمات البرمجية هذه كيفية إضافة تعليق إلى خلية أولاً باستخدام[VSTO](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#، VB) ثم مع[Aspose.Cells for .NET](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C# ، VB).
+تظهر هذه المقتطفات البرمجية كيفية إضافة تعليق إلى الخلية أولاً بـ [VSTO](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) ثم بواسطة [Aspose.Cells for .NET](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB).
 
-### **إدخال تعليق بواسطة VSTO**
+### **إدراج تعليق باستخدام VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -90,11 +91,11 @@ excelApp.Quit();
 
 {{< /highlight >}}
 
-### **ادراج تعليق مع Aspose.Cells for .NET**
+### **إدراج تعليق باستخدام Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -134,13 +135,13 @@ workbook.Save(@"d:\test\Book1.xls");
 
 ## **إزالة التعليقات**
 
- لإزالة تعليق من خلية ، استخدم أسطر التعليمات البرمجية التالية لـ[VSTO](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C# ، VB) و[Aspose.Cells](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) for .NET (C# ، VB).
+لإزالة تعليق من خلية، استخدم الأسطر البرمجية التالية لـ [VSTO](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) و [Aspose.Cells](/cells/ar/net/inserting-and-removing-cell-comments-in-a-worksheet/) لـ .NET (C#, VB).
 
 ### **إزالة تعليق باستخدام VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 
@@ -150,11 +151,11 @@ rng1.Comment.Delete();    
 
 {{< /highlight >}}
 
-### **إزالة تعليق بالرقم Aspose.Cells for .NET**
+### **إزالة تعليق باستخدام Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 

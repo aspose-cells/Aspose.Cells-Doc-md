@@ -3,34 +3,35 @@ title: Как конвертировать HTML в PDF
 type: docs
 weight: 80
 url: /ru/python-net/convert-html-to-pdf/
-description: В этой теме показано, как преобразовать формат сохранения HTML в PDF и формат сохранения MHTML в PDF с помощью Aspose.Cells for Python через NET.
-keywords: convert HTML to PDF saveformat and MHTML to PDF saveformat.
+description: В этой теме показано, как конвертировать HTML в PDF saveformat и MHTML в PDF saveformat с использованием Aspose.Cells для Python via NET.
+keywords: конвертировать HTML в PDF saveformat и MHTML в PDF saveformat.
 ---
-##  **Обзор**
-<b>Aspose.Cells for Python через NET</b> это профессиональное решение, которое позволяет генерировать файлы PDF из веб-страниц и необработанный код HTML в ваших приложениях.
 
- В этой статье объясняется, как<b>преобразовать HTML в PDF</b>. Он охватывает следующие темы.
+## **Обзор**
+<b>Aspose.Cells for Python via NET</b> is a professional solution that allows you to generate PDF files from web pages and raw HTML code in your applications. 
+
+This article explains how to <b>конвертировать HTML в PDF</b>. It covers the following topics.
 
 <ul>
-<li><a href="#python-convert-html-to-pdf">Python via NET HTML до PDF</a></li>
-<li><a href="#python-convert-html-to-pdf">Python via NET Преобразовать HTML в PDF</a></li>
-<li><a href="#python-convert-html-to-pdf">Python via NET Как преобразовать HTML в PDF</a></li>
+<li><a href="#python-convert-html-to-pdf">Python via NET HTML в PDF</a></li>
+<li><a href="#python-convert-html-to-pdf">Python via NET Конвертировать HTML в PDF</a></li>
+<li><a href="#python-convert-html-to-pdf">Python via NET Как конвертировать HTML в PDF</a></li>
 </ul>
 
-##  **HTML в PDF Преобразование в Python**
- Как преобразовать HTML в PDF? С[Aspose.Cells for Python через NET](https://pypi.org/project/aspose-cells-python/) библиотеки, вы можете легко преобразовать HTML в PDF программно с помощью нескольких строк кода. Aspose.Cells for Python через NET способен создавать кроссплатформенные приложения с возможностью генерировать, изменять, конвертировать, отображать и распечатывать все файлы Excel.
+## **Преобразование HTML в PDF с использованием Python**
+Как конвертировать HTML в PDF? С помощью библиотеки [Aspose.Cells для Python via NET](https://pypi.org/project/aspose-cells-python/) можно легко программно конвертировать HTML в PDF всего лишь несколькими строками кода. Aspose.Cells для Python via NET способен создавать кросс-платформенные приложения с возможностью генерировать, изменять, конвертировать, визуализировать и печатать все файлы Excel.
 
-##  **Python Преобразовать HTML в PDF**
-В следующем примере кода C# показано, как преобразовать документ HTML в документ PDF с помощью[Aspose.Cells for Python через NET](https://pypi.org/project/aspose-cells-python/).
+## **Python Конвертировать HTML в PDF**
+Приведенный ниже пример кода на C# показывает, как конвертировать HTML-документ в PDF с использованием [Aspose.Cells для Python via NET](https://pypi.org/project/aspose-cells-python/).
 
-1.  Создайте экземпляр[HtmlLoadOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/) сорт.
-1.  Инициализировать[Рабочая тетрадь](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) объект.
-1. Сохраните выходной документ PDF, вызвав метод Workbook.save().
+1. Создать экземпляр класса [HtmlLoadOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/).
+1. Инициализировать объект [Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/).
+1. Сохранить выходной PDF-документ, вызвав метод Workbook.save().
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-save-to-pdf.py" >}}
 
-##  **Попробуйте перевести HTML в PDF онлайн.**
+## **Попробуйте конвертировать HTML в PDF онлайн**
 
-[Aspose.Cells for Python через NET](https://pypi.org/project/aspose-cells-python/) представляет вам бесплатное онлайн-приложение<a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">«HTML на PDF»</a>, где вы можете попробовать изучить функциональность и качество его работы.
+[Aspose.Cells for Python via NET](https://pypi.org/project/aspose-cells-python/) presents you online free application <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">«HTML в PDF»</a>, where you may try to investigate the functionality and quality it works.
 <br>
 <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf"><img src="htmltopdf.png" width=80%></a>

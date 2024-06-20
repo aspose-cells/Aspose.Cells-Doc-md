@@ -1,52 +1,53 @@
-﻿---
-title: Aspose.Cells Java для IntelliJ IDEA - Maven
+---
+title: Aspose.Cells Java for IntelliJ IDEA - Maven
 type: docs
 weight: 50
 url: /ru/java/aspose-cells-java-for-intellij-idea-maven/
 ---
-## **Вступление**
 
-### **IntelliJ ИДЕЯ**
+## **Введение**
 
-**IntelliJ ИДЕЯ** — это интегрированная среда разработки (IDE) Java для разработчиков программного обеспечения. Он разработан JetBrains. Первоначально созданный for Java, в настоящее время он поддерживает широкий спектр языков, включая JavaScript, Groovy, HTML, CSS, RSS, R, Haskell, PHP, Ruby, Python, Scala, Clojure и Kotlin.
+### **IntelliJ IDEA**
 
- В 2010 году**Информационный мир** В отчете IntelliJ получил наивысший балл из четырех лучших инструментов программирования Java: Eclipse, IntelliJ IDEA, NetBeans и Oracle JDeveloper.
+**IntelliJ IDEA** - это интегрированная среда разработки (IDE) для программистов. Она разработана компанией JetBrains. Изначально создана для Java, в настоящее время поддерживает широкий спектр языков, включая JavaScript, Groovy, HTML, CSS, RSS, R, Haskell, PHP, Ruby, Python, Scala, Clojure и Kotlin.
+
+В отчете **Infoworld** 2010 года IntelliJ получила наивысший балл тестирования среди четырех лучших инструментов разработки на Java: Eclipse, IntelliJ IDEA, NetBeans и Oracle JDeveloper.
 
 ### **Aspose.Cells for Java**
 
-[Aspose.Cells](https://products.aspose.com/cells/java/)for Java — это компонент отчетности по электронным таблицам Excel®, который позволяет приложениям Java создавать электронные таблицы Excel® и управлять ими без использования Microsoft Excel®. Aspose.Cells for Java — это невероятно многофункциональный компонент, который предлагает гораздо больше, чем просто основные функции экспорта данных.
+[Aspose.Cells](https://products.aspose.com/cells/java/) для Java - это компонент отчетов для электронных таблиц Excel®, который позволяет приложениям на Java создавать и управлять электронными таблицами Excel® без использования Microsoft Excel®. Aspose.Cells for Java представляет собой чрезвычайно функциональный компонент, предлагающий гораздо больше, чем простые функции экспорта данных.
 
-### **Aspose.Cells Java для IntelliJ IDEA - Maven**
+### **Aspose.Cells Java for IntelliJ IDEA - Maven**
 
--  Aspose.Cells Java для IntelliJ IDEA (Maven) — это**Плагин IntelliJ IDEA** который позволяет создавать проекты maven (т.е. созданный проект содержит зависимость Aspose.Cells for Java API maven) и загружать примеры исходного кода API для использования**Aspose.Cells for Java API**.
+- Aspose.Cells Java для IntelliJ IDEA (Maven) - это **плагин IntelliJ IDEA**, позволяющий создавать проекты Maven (т.е. созданный проект содержит Aspose.Cells for Java API зависимость maven) и загружать примеры исходного кода API для использования **Aspose.Cells for Java API**.
 
--  Этот плагин поможет вам работать с**Aspose.Cells for Java API** внутри вашей любимой IntelliJ IDEA.
+- Этот плагин помогает вам работать с **Aspose.Cells for Java API** в вашей любимой среде разработки IntelliJ IDEA.
 
-![дело:изображение_альтернативный_текст](kwkgljg.png)
+![todo:image_alt_text](kwkgljg.png)
 
-**ВОЛШЕБНИКИ**:
+**WIZARDS**:
 Плагин содержит два мастера -----
 
-**Мастер 1:** Aspose.Cells Maven Проект
+**Мастер 1:** Aspose.Cells Maven Project
 
--  Плагины**Aspose Maven Мастер проектов** позволяет разработчикам создавать проекты Aspose.Cells for Java Maven.
--  Ссылка**Aspose.Cells for Java API** maven зависимость автоматически извлекается из[Aspose Облако Maven Репозиторий](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) и добавляется в pom.xml.
-- Созданный проект всегда будет содержать самую последнюю доступную версию Maven Зависимость для Aspose.Cells for Java.
--  Шаги мастера также представлены с возможностью загрузки[Примеры исходного кода для использования Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
+- Мастер создания проекта Aspose Maven позволяет разработчикам создавать проект Maven Aspose.Cells for Java.
+- Ссылка на зависимость **Aspose.Cells for Java API** maven автоматически извлекается из [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) и добавляется в pom.xml.
+- Созданный проект всегда будет содержать самую последнюю доступную версию зависимости Maven для Aspose.Cells for Java.
+- Шаги мастера также предоставляют возможность загрузки [примеров исходного кода для использования Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
 
-**Мастер 2:** Aspose.Cells Примеры
+**Мастер 2:** Примеры Aspose.Cells
 
-- **Aspose.Cells Мастер примеров** позволяет создавать / копировать загруженные[Примеры исходного кода Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) в свой проект. Все примеры для выбранной категории будут скопированы в папку пакета проекта «com.aspose.cells.examples» вместе с необходимыми ресурсами в папке «src/main/resources», необходимыми для запуска примеров.
+- **Мастер примеров Aspose.Cells** позволяет вам создавать / копировать загруженные [Примеры исходного кода API Aspose.Cells for Java](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) в ваш проект. Все примеры для выбранной категории будут скопированы в пакетную папку "com.aspose.cells.examples" проекта вместе с необходимыми ресурсами в папке "src/main/resources", необходимыми для запуска примеров.
 
-- [Примеры исходного кода Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) предназначены для демонстрации различных вариантов использования API.
+- [Примеры исходного кода API Aspose.Cells for Java](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) предназначены для демонстрации различных использований API.
 
-## **Системные требования и поддерживаемые платформы**
+## **Требования к системе и поддерживаемые платформы**
 
-### **Системные Требования**
+### **Системные требования**
 
-- Microsoft Windows 8/7/Vista/2003/XP (включая 64-разрядную версию) / рабочий стол Linux GNOME или KDE / Mac OS X 10.5 или выше
-- Минимум 1 ГБ ОЗУ, рекомендуется 2 ГБ ОЗУ
-- 300 МБ свободного места на жестком диске + не менее 1 ГБ для кеша
+- Microsoft Windows 8/7/Vista/2003/XP (включая 64-разрядную) / Linux GNOME или KDE рабочий стол / Mac OS X 10.5 или выше
+- Минимум 1 ГБ оперативной памяти, рекомендуется 2 ГБ
+- 300 МБ свободного места на жестком диске + не менее 1 ГБ для кэша
 - Минимальное разрешение экрана 1024x768
 - Рекомендуется JDK 1.7 или выше
 - IntelliJ IDEA CE/UE (13.0.1, 13.1.2 или 14.0.2)
@@ -57,63 +58,63 @@ url: /ru/java/aspose-cells-java-for-intellij-idea-maven/
 Плагин поддерживает следующие версии IntelliJ IDEA:
 
 - 13.0.1 (Сообщество / Ultimate Edition)
-- 13.1.2 (СЕ/ЕС)
-- 14.0.2 (CE/ЕС)
+- 13.1.2  (CE / UE)
+- 14.0.2 (CE/ UE)
 
 ## **Загрузка**
 
 ### **Загрузка IntelliJ IDEA**
 
- Вам нужно будет сначала установить IntelliJ IDEA CE / UE перед загрузкой**Aspose.Cells Java для IntelliJ IDEA (Maven)** плагин.
+Сначала вам нужно установить IntelliJ IDEA CE / UE перед загрузкой плагина **Aspose.Cells Java для IntelliJ IDEA (Maven)**.
 
-Чтобы скачать IntelliJ IDEA
+Для загрузки IntelliJ IDEA
 
-1.  Перейти к<https://www.jetbrains.com/idea/download/>
-1. Выберите свою работающую ОС
+1. Go to <https://www.jetbrains.com/idea/download/>
+1. Выберите вашу операционную систему.
 1. Нажмите на загрузку UE или CE.
 
-### **Загрузка Aspose.Cells Java для плагина IntelliJ IDEA (Maven)**
+### **Загрузка плагина Aspose.Cells Java для IntelliJ IDEA (Maven)**
 
--  Плагин можно скачать напрямую с сайта[URL-адрес хостинга плагина JetBrains](https://goo.gl/R4pysl) - в репозитории плагинов IntelliJ IDEA
- и позже можно установить с помощью опции IDE:
- - Перейти к**Файл** > **Настройки**...>**Плагины**
- - Выбирать "**Установить плагин с диска"**
-- Или его можно установить напрямую (без ручной загрузки с URL-адреса хостинга плагинов JetBrains) с помощью параметров IDE:
- - Перейти к**Файл** > **Настройки**...>**Плагины**
- - Выбирать**«Просмотреть репозитории»**
- - В поле поиска введите: "Aspose"
- - Выбирать "**Aspose Cells Java для IntelliJ IDEA Maven**"Плагин для установки.
+- Плагин может быть загружен напрямую с [URL хостинга плагинов JetBrains](https://goo.gl/R4pysl) - на репозитории плагинов IntelliJ IDEA
+  и позже может быть установлено с использованием опции IDE:
+  - Перейдите в **Файл** > **Настройки**...>**Плагины**
+  - Выберите "**Установить плагин из файла"**
+- Или его можно установить напрямую (без ручной загрузки с URL-адреса хостинга плагинов JetBrains) с помощью опций IDE:
+  - Перейдите в **Файл** > **Настройки**...>**Плагины**
+  - Выберите **"Обзор репозиториев"**
+  - В поле поиска введите: "Aspose"
+  - Выберите плагин "**Aspose Cells Java for IntelliJ IDEA Maven**" для установки.
 
 ## **Установка**
 
-[Установка Aspose.Cells для IntelliJ IDEA — Maven](/cells/ru/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Installing)
+[Установка Aspose.Cells для IntelliJ IDEA - Maven](/cells/ru/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Installing)
 
-## **С использованием**
+## **Использование**
 
-[Использование Aspose.Cells для IntelliJ IDEA — Maven](/cells/ru/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Using)
+[Использование Aspose.Cells для IntelliJ IDEA - Maven](/cells/ru/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Using)
 
-## **Демонстрационное видео**
+## **Видео-демонстрация**
 
- пожалуйста, проверьте[видео](https://www.youtube.com/watch?v=8sHoB5Isq-A) ниже, чтобы увидеть мастер проектов Aspose.Cells Maven и мастер примеров Aspose.Cells в действии.
+Пожалуйста, посмотрите [видео](https://www.youtube.com/watch?v=8sHoB5Isq-A) ниже, чтобы увидеть в действии мастер проекта Maven и мастер примеров Aspose.Cells.
 
-## **Поддержка, расширение и участие**
+## **Поддержка, расширение и вклад**
 
-### **Поддерживать**
+### **Поддержка**
 
-- Если вы хотите видеть известные / зарегистрированные проблемы (пользователями или командой QA) в плагине.
-- Или вы хотите сообщить о любой проблеме, которую вы обнаружили в плагине.
-- У вас есть предложения по улучшению или вы хотели бы сделать запрос на какую-либо функцию
+- Если вы хотите увидеть известные / сообщенные проблемы (пользователями или командой Q.A) в плагине.
+- Или вы хотите сообщить о проблеме, которую обнаружили в плагине
+- Если у вас есть предложение по улучшению или вы хотите сделать запрос на добавление новой функции
 
-**Пожалуйста, используйте любой из следующих трекеров проекта:**
+**Пожалуйста, используйте любой из указанных инструментов для отслеживания проблем в проекте:**
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
 
-### **Расширяйте и вносите свой вклад**
+### **Расширение и вклад**
 
-**Aspose.Cells Java для IntelliJ IDEA (Maven)** Плагин имеет открытый исходный код, и его исходный код доступен на основных веб-сайтах социального кодирования, перечисленных ниже. Разработчикам рекомендуется загружать исходный код и вносить свой вклад, предлагая или добавляя новые функции или улучшая существующие, чтобы другие также могли извлечь из этого пользу.
+Плагин **Aspose.Cells Java для IntelliJ IDEA (Maven)** является открытым исходным кодом, и его исходный код доступен на основных веб-сайтах социального кодирования, перечисленных ниже. Разработчиков призывают загрузить исходный код и внести вклад, предлагая или добавляя новые функции или улучшая существующие, чтобы другие также могли извлечь пользу из этого.
 
 ### **Исходный код**
 
-Вы можете получить последний исходный код из одного из следующих мест
+Вы можете получить последний исходный код в одном из следующих мест
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_IntelliJ(Maven))
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_IntelliJ(Maven))

@@ -1,15 +1,16 @@
-﻿---
-title: Hitta värde på Cells med Aspose.Cells
+---
+title: Hitta värde i celler med Aspose.Cells
 type: docs
 weight: 10
 url: /sv/java/find-value-in-cells-using-aspose-cells/
 ---
-## **Aspose.Cells - Hitta värde i Cells**
-I Microsoft Excel kan användare söka efter celler som innehåller specifika data. Till exempel att klicka**Redigera**och då**Hitta**öppnar dialogrutan Sök. Användare anger ett värde och klickar**OK**att söka efter det. Excel markerar matchande fält.
+
+## **Aspose.Cells - Hitta värde i celler**
+I Microsoft Excel kan användare söka efter celler som innehåller specifik data. Till exempel, att klicka på **Redigera** och sedan **Sök** öppnar sökdialogen. Användarna anger ett värde och klickar på **OK** för att söka efter det. Excel markerar matchande fält.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -38,14 +39,14 @@ Cell cell = cells.find("SH",null,findOptions);
 System.out.println("Name of the cell containing String: " + cell.getName());
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/search/AsposeFindCellsWithString.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Hitta eller sök data](/cells/sv/java/find-or-search-data).
+För mer detaljer, besök [Hitta eller Sök Data](/cells/sv/java/hitta-eller-sok-data).
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
-﻿---
-title: Показать начальный апостроф в ячейках
+---
+title: Показывать ведущий апостроф в ячейках
 type: docs
 weight: 20
 url: /ru/java/show-leading-apostrophe-in-cells/
 ---
-## **Показать начальный апостроф в ячейках**
 
-В Microsoft Excel начальный апостроф в значении ячейки скрыт. Aspose.Cells предоставляет возможность отображать апостроф по умолчанию. Для этого API предоставляет[**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)имущество. Это свойство указывает, следует ли устанавливать[**ЦитатаПрефикс**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix)свойство при вводе строкового значения, начинающегося с одинарной кавычки в ячейку. Настройка[**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)собственность на**ЛОЖЬ**отобразит начальный апостроф в выходном файле Excel.
+## **Показывать ведущую апостроф в ячейках.**
+
+В Microsoft Excel ведущий апостроф в значении ячейки скрыт. Aspose.Cells предоставляет возможность отображать апостроф по умолчанию. Для этого API предоставляет свойство, которое указывает, нужно ли устанавливать свойство при вводе строки, начинающейся с одинарной кавычки, в ячейку. Установка свойства в **false** будет показывать ведущий апостроф в выходном файле Excel.
 
 На следующем снимке экрана показан выходной файл Excel с видимым апострофом.
 
-![дело:изображение_альтернативный_текст](show-leading-apostrophe-in-cells_1.jpg)
+![todo:image_alt_text](show-leading-apostrophe-in-cells_1.jpg)
 
-Следующий фрагмент кода демонстрирует это, добавляя данные со смарт-маркерами в исходный файл Excel. Исходный и выходной файлы Excel прилагаются для ознакомления.
+Ниже приведен фрагмент кода, демонстрирующий это путем добавления данных с интеллектуальными маркерами в исходный файл Excel. В качестве справки прилагаются исходный и выходной файлы Excel.
 
 [Исходный файл](AllowLeadingApostropheSample.xlsx)
 
@@ -22,6 +23,6 @@ url: /ru/java/show-leading-apostrophe-in-cells/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AllowLeadingApostrophe-1.java" >}}
 
-Реализация*Объект данных*класс указан ниже
+Реализация класса *DataObject* представлена ниже
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelperClasses-DataObject-1.java" >}}

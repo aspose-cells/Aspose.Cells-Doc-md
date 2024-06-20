@@ -1,41 +1,42 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.8.0
+---
+title: Изменения в публичном API в Aspose.Cells 8.8.0
 type: docs
 weight: 270
 url: /ru/java/public-api-changes-in-aspose-cells-8-8-0/
 ---
-{{% alert color="primary" %}} 
-
-В этом документе описаны изменения в Aspose.Cells API с версии 8.7.2 до 8.8.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
-
-{{% /alert %}} 
-## **Добавлены API**
-### **Получить Cell ссылки для внешнего подключения**
- Aspose.Cells for Java 8.8.0 предоставляет следующие новые свойства, которые полезны при получении ссылок на целевые и выходные ячейки для внешних подключений, хранящихся в электронной таблице.
-
-1. QueryTable.ConnectionId: получает идентификатор соединения таблицы запросов.
-1. ExternalConnection.Id: получает идентификатор внешнего подключения.
-1. ListObject.QueryTable: получает связанную таблицу запросов.
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[Поиск таблиц запросов и список объектов, связанных с подключениями к внешним данным](/cells/ru/java/find-query-tables-and-list-objects-related-to-external-data-connections/)
+Этот документ описывает изменения в API Aspose.Cells с версии 8.7.2 до 8.8.0, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные публичные методы, добавленные и удаленные классы и т. д., но также описание любых изменений в поведении внутри Aspose.Cells.
 
 {{% /alert %}} 
-### **Добавлено свойство HTMLLoadOptions.KeepPrecision.**
-Aspose.Cells for Java 8.8.0 добавлено свойство HTMLLoadOptions.KeepPrecision для управления преобразованием длинных числовых значений в экспоненциальное представление при импорте файлов HTML. По умолчанию любое значение длиннее 15 цифр преобразуется в экспоненциальное представление, если данные импортируются из строки или файла HTML. Однако теперь пользователи могут управлять этим поведением с помощью свойства HTMLLoadOptions.KeepPrecision. Если для указанного свойства установлено значение true, значения будут импортированы так, как они есть в источнике.
+## **Добавленные API**
+### **Получить ссылки на ячейки для внешнего подключения**
+Aspose.Cells for Java 8.8.0 добавил следующие новые свойства, которые полезны для извлечения ссылок на целевые и выходные ячейки для внешних подключений, хранящихся в электронной таблице. 
+
+1. QueryTable.ConnectionId: Получает идентификатор подключения таблицы запросов.
+1. ExternalConnection.Id: Получает идентификатор внешнего подключения.
+1. ListObject.QueryTable: Получает связанную таблицу запросов.
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[ Избегайте преобразования больших числовых значений в экспоненциальное представление](/cells/ru/java/avoid-exponential-notation-of-large-numbers-while-importing-from/)
+Для получения дополнительной информации об этой функции, ознакомьтесь со статьей [Поиск таблиц запросов и объектов списков, связанных с внешними подключениями данных](/cells/ru/java/find-query-tables-and-list-objects-related-to-external-data-connections/)
+
+{{% /alert %}} 
+### **Добавлено свойство HTMLLoadOptions.KeepPrecision**
+Aspose.Cells for Java 8.8.0 добавил свойство HTMLLoadOptions.KeepPrecision для управления преобразованием длинных числовых значений в экспоненциальную нотацию при импорте HTML-файлов. По умолчанию любое значение длиной более 15 цифр преобразуется в экспоненциальную нотацию, если данные импортируются из строки или файла HTML. Однако теперь пользователи могут управлять этим поведением с помощью свойства HTMLLoadOptions.KeepPrecision. Если данное свойство установлено в true, значения будут импортироваться так, как они есть в источнике.
+
+{{% alert color="primary" %}} 
+
+Для получения дополнительной информации об этой функции, ознакомьтесь со статьей [Избегайте преобразования больших числовых значений в экспоненциальную нотацию](/cells/ru/java/avoid-exponential-notation-of-large-numbers-while-importing-from/)
 
 {{% /alert %}} 
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Sample Html containing large number with digits greater than 15
 
@@ -51,7 +52,7 @@ String html = "<html>"
 
 //Convert Html to byte array
 
-byte[]byteArray = html.getBytes();
+byte[] byteArray = html.getBytes();
 
 //Set Html load options and keep precision true
 
@@ -80,20 +81,20 @@ worksheet.autoFitColumns();
 workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **Добавлено свойство HTMLLoadOptions.DeleteRedundantSpaces.**
-Aspose.Cells for Java 8.8.0 предоставил свойство HTMLLoadOptions.DeleteRedundantSpaces, чтобы сохранить или удалить лишние пробелы после тега разрыва строки (<br>Тег) при импорте данных из строки или файла HTML. Свойство HTMLLoadOptions.DeleteRedundantSpaces имеет значение по умолчанию false, что означает, что все лишние пробелы будут сохранены и импортированы в объект Workbook, однако, если установлено значение true, API удалит все лишние пробелы, идущие после тега разрыва строки.
+### **Добавлено свойство HTMLLoadOptions.DeleteRedundantSpaces**
+Aspose.Cells for Java 8.8.0 has exposed the HTMLLoadOptions.DeleteRedundantSpaces property in order to keep or delete the extra spaces after the line break tag (<br> Tag) while importing the data from the HTML string or file. The HTMLLoadOptions.DeleteRedundantSpaces property has the default value as false that means, all extra spaces will be preserved and imported to the Workbook object, however, when set to true, the API will delete all the redundant spaces coming after the line break tag.
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[Удалить избыточные пространства из HTML](/cells/ru/java/delete-redundant-spaces-after-line-break-while-importing/)
+Для получения дополнительной информации об этой функции, пожалуйста, просмотрите подробную статью по ссылке [Удаление избыточных пробелов из HTML](/cells/ru/java/delete-redundant-spaces-after-line-break-while-importing/)
 
 {{% /alert %}} 
 
- Простой сценарий использования выглядит следующим образом.
+Простой сценарий использования выглядит следующим образом. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Sample Html containing redundant spaces after <br> tag
 
@@ -125,7 +126,7 @@ String html = "<html>"
 
 //Convert Html to byte array
 
-byte[]byteArray = html.getBytes();
+byte[] byteArray = html.getBytes();
 
 //Set Html load options and keep precision true
 
@@ -155,19 +156,19 @@ workbook.save(dataDir + "output-" + loadOptions.getDeleteRedundantSpaces() + ".x
 
 {{< /highlight >}}
 ### **Добавлено свойство Style.QuotePrefix**
- Aspose.Cells for Java 8.8.0 предоставило свойство Style.QuotePrefix, чтобы определить, начинается ли значение ячейки с одинарной кавычки.
+Aspose.Cells for Java 8.8.0 добавило свойство Style.QuotePrefix для определения того, начинается ли значение ячейки с символа одиночной кавычки 
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[Обнаружение одиночной кавычки в начале значения Cell](/cells/ru/java/find-if-the-cell-value-starts-with-single-quote-mark/)
+Для получения дополнительной информации об этой функции, пожалуйста, просмотрите подробную статью по ссылке [Определение одинарной кавычки в начале значения ячейки](/cells/ru/java/find-if-the-cell-value-starts-with-single-quote-mark/)
 
 {{% /alert %}} 
 
- Простой сценарий использования выглядит следующим образом.
+Простой сценарий использования выглядит следующим образом. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of workbook
 

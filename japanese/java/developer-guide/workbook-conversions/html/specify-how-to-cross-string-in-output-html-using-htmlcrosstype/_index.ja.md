@@ -1,28 +1,29 @@
-﻿---
-title: HtmlCrossType を使用して、出力 HTML で文字列を交差させる方法を指定します
+---
+title: 出力HTML内の文字列をHtmlCrossTypeを使用してクロスする方法を指定
 type: docs
 weight: 140
 url: /ja/java/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ---
-## **考えられる使用シナリオ**
 
-セルにテキストまたは文字列が含まれているが、セルの幅よりも大きい場合、次の列の次のセルが null または空の場合、文字列はオーバーフローします。 Excel ファイルを HTML に保存すると、クロス タイプを指定してこのオーバーフローを制御できます。[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)列挙。次の値があります。
+## **可能な使用シナリオ**
 
-- [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): 次のセルに依存する MS Excel のように表示します。次のセルが null の場合、文字列が交差するか、切り捨てられます。
+セルにはテキストまたは文字列が含まれていますが、セルの幅よりも大きい場合、次の列の次のセルがヌルまたは空の場合に文字列がオーバーフローします。 ExcelファイルをHTMLに保存すると、[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)列挙型を使用してこのオーバーフローを制御できます。次の値があります。
 
-- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT): MS Excel exporting HTML のような文字列を表示します。
+- [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): MS Excelのように表示しますが、次のセルに依存します。次のセルがnullの場合、文字列はクロスされるか、切り捨てられます。
 
-- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS) : HTML クロス文字列を表示します。大きな HTML ファイルを作成するパフォーマンスは、値を に設定するよりも 10 倍以上高速になります[**デフォルト**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT)また[**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL).
+- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT): MS ExcelのHTMLエクスポートのように文字列を表示します。
 
-- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): HTML クロス文字列を表示し、テキストが重なると右文字列を非表示にします。
+- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): HTMLクロス文字列を表示し、大きなHTMLファイルの作成のパフォーマンスは[**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT)または[**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL)の値を設定するよりも10倍速くなります。
 
-- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL)セルの幅内の文字列のみを表示します。
+- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): HTMLクロス文字列を表示し、テキストが重なる場合は右側の文字列を非表示にします。
 
-## **HtmlCrossType を使用して、出力 HTML で文字列を交差させる方法を指定します**
+- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL): セルの幅内で文字列のみを表示します。
 
-次のサンプル コードは、[サンプル Excel ファイル](51740747.xlsx)を指定して、HTML 形式で保存します。[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType).をダウンロードしてください[出力 HTML](51740745.zip)このコードで生成されたファイル。サンプルの Excel ファイルには、このスクリーンショットに示すように、赤い色で囲まれた画像が含まれています。[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)出力 HTML の値。
+## **出力HTML内の文字列をHtmlCrossTypeを使用してクロスする方法を指定**
 
-![todo:画像_代替_文章](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
+次のサンプルコードは、異なる[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)を指定して[sample Excel file](51740747.xlsx)をロードし、HTML形式で保存します。このコードで生成された[出力HTMLファイル](51740745.zip)をダウンロードしてください。サンプルExcelファイルにはこのスクリーンショットに示されているように赤色で枠線を引いた画像が含まれています。
+
+![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 
 ## **サンプルコード**
 

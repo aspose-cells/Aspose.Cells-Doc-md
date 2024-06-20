@@ -1,13 +1,14 @@
-﻿---
-title: Автоподбор столбцов на листе
+---
+title: Автоматическое подбирая столбцы в листе
 type: docs
 weight: 30
 url: /ru/net/auto-fit-columns-in-worksheet/
 ---
-## **Aspose.Cells - Автоподбор столбцов на листе**
+
+## **Aspose.Cells - Автоматическое подбирая столбцы в листе**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -48,10 +49,10 @@ worksheet.AutoFitColumn(3);
 workbook.Save("AutoFiltRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Автоподбор столбцов на листе**
+## **NPOI - HSSF XSSF - Автоматическое подбирая столбцы в листе**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -78,13 +79,13 @@ hssfworkbook.Write(file);
 file.Close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Автоподгонка столбца** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Автоматическое подбирая столбец** с любого из упомянутых ниже сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Работа с рабочими листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Для получения дополнительной информации посетите [Работа с листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

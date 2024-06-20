@@ -1,12 +1,13 @@
-﻿---
-title: Ta bort ActiveX-kontrollen
+---
+title: Ta bort ActiveX kontroll
 type: docs
 weight: 160
 url: /sv/java/remove-activex-control/
 ---
-## **Ta bort ActiveX-kontrollen**
 
-Aspose.Cells ger möjlighet att ta bort ActiveX-kontroll från arbetsböcker. För detta tillhandahåller API[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl()) metod. Följande kodavsnitt visar användningen av[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl()) metod för att ta bort ActiveX-kontrollen.
+## **Ta bort ActiveX-kontroll**
+
+Aspose.Cells ger möjlighet att ta bort ActiveX-kontroll från arbetsböckerna. För detta tillhandahåller API:et den [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl--)metoden. Följande kodsnutt demonstrerar användningen av [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#removeActiveXControl--)metoden för att ta bort ActiveX-kontroll.
 
 ## **Exempelkod**
 

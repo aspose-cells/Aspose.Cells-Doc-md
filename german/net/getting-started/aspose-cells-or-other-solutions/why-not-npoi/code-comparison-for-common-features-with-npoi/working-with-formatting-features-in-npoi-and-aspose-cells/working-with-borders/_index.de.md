@@ -1,13 +1,14 @@
-﻿---
-title: Arbeiten mit Grenzen
+---
+title: Mit Rahmen arbeiten
 type: docs
 weight: 10
 url: /de/net/working-with-borders/
 ---
-## **Aspose.Cells - Arbeiten mit Grenzen**
+
+## **Aspose.Cells - Mit Rahmen arbeiten**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -35,10 +36,10 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Arbeiten mit Grenzen**
+## **NPOI - HSSF XSSF - Mit Rahmen arbeiten**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -79,13 +80,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Arbeiten mit Grenzen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Mit Rahmen arbeiten** von einer der unten genannten Social-Coding-Sites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Borders.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Datenformatierungsfunktionen](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Für weitere Details besuchen Sie [Datenformatierungsfunktionen](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

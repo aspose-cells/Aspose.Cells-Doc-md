@@ -1,17 +1,18 @@
 ---
-title: Получите подтверждение Cell в файлах ODS.
+title: Получить проверку ячейки в файлах ODS
 type: docs
 weight: 180
 url: /ru/net/get-cell-validation-in-ods-files/
-description: Узнайте, как получить подтверждение Cell в файлах ODS через Aspose.Cells for .NET API..
-keywords: Get Cell Validation, Obtain Cell Validation 
+description: Узнайте, как получить проверку ячейки в файлах ODS через API Aspose.Cells for .NET.
+keywords: Получение проверки ячейки, Получение проверки ячейки 
 ---
-##  **Получите подтверждение Cell в файлах ODS.**
 
-С помощью Aspose.Cells вы можете применить проверку к ячейке в файлах ODS. Для этого номер API предоставляет[**Получить валидацию**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) метод[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) сорт.
+## **Получить проверку ячейки в файлах ODS**
 
-В следующем примере кода показано использование[**Получить валидацию**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) метод путем загрузки[источник ODS](101089354.ods)файл и чтение проверки ячейки A9.
+С помощью Aspose.Cells вы можете получить проверку, примененную к ячейке в файлах ODS. Для этого API предоставляет метод [**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) класса [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
-###  **Образец кода**
+В следующем образце кода демонстрируется использование метода [**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation), загружая [исходный файл ODS](101089354.ods) и считывая проверку ячейки A9.
+
+### **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetCellValidationInODS-1.cs" >}}

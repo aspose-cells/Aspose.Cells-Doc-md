@@ -1,13 +1,14 @@
-﻿---
+---
 title: Arbeiten mit Schriftarten
 type: docs
 weight: 30
 url: /de/net/working-with-fonts/
 ---
-## **Aspose.Cells – Arbeiten mit Schriftarten**
+
+## **Aspose.Cells - Arbeiten mit Schriftarten**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -48,7 +49,7 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 ## **NPOI - HSSF XSSF - Arbeiten mit Schriftarten**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -91,13 +92,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Arbeiten mit Schriftarten** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Arbeiten mit Schriftarten** von einer der unten genannten Social-Coding-Sites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Datenformatierungsfunktionen](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Für weitere Details besuchen Sie [Datenformatierungsfunktionen](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

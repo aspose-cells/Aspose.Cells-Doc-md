@@ -1,14 +1,15 @@
-﻿---
-title: Verwenden von verschachtelten Objekten
+---
+title: Verwendung von verschachtelten Objekten
 type: docs
 weight: 50
 url: /de/net/using-nested-objects/
 ---
-Aspose.Cells unterstützt verschachtelte Objekte in Smartmarkern, die verschachtelten Objekte sollten einfach sein.**Individuell** Klasse muss vom Benutzer für den folgenden Code definiert werden.
 
-Wir verwenden eine einfache Vorlagendatei. Sehen Sie sich das Designer-Arbeitsblatt an, das einige verschachtelte intelligente Markierungen enthält.
+Aspose.Cells unterstützt verschachtelte Objekte in Smart-Markierungen.
 
-{{< highlight "csharp" >}}
+Wir verwenden eine einfache Vorlagendatei. Siehe die Designer-Arbeitsmappe, die einige verschachtelte Smart-Markierungen enthält.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -63,5 +64,5 @@ designer.Workbook.Save(FileName);
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)

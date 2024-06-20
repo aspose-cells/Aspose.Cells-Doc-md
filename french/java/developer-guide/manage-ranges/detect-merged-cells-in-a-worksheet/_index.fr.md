@@ -1,41 +1,42 @@
-﻿---
-title: Détecter fusionné Cells dans une feuille de calcul
+---
+title: Détecter les cellules fusionnées dans une feuille de calcul
 type: docs
 weight: 3000
 url: /fr/java/detect-merged-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Dans Microsoft Excel, plusieurs cellules peuvent être fusionnées en une seule. Ceci est souvent utilisé pour créer des tableaux complexes ou pour créer une cellule contenant un en-tête qui s'étend sur plusieurs colonnes.
+Dans Microsoft Excel, plusieurs cellules peuvent être fusionnées en une seule. Cela est souvent utilisé pour créer des tableaux complexes ou pour créer une cellule qui contient un en-tête qui s'étend sur plusieurs colonnes.
 
-Aspose.Cells vous permet d'identifier les zones de cellules fusionnées dans une feuille de calcul. Vous pouvez également les dissocier. Cet article fournit les lignes de code les plus simples pour effectuer la tâche à l'aide de Aspose.Cells.
+Aspose.Cells vous permet d'identifier les zones de cellules fusionnées dans une feuille de calcul. Vous pouvez également les dé-fusionner. Cet article fournit les lignes de code les plus simples pour effectuer la tâche avec Aspose.Cells.
 
-Cet article fournit des instructions compactes sur la façon de rechercher puis de dissocier des cellules fusionnées dans une feuille de calcul.
+Cet article fournit des instructions compactes sur la manière de trouver puis dé-fusionner les cellules fusionnées dans une feuille de calcul.
 
 {{% /alert %}}
 
-## **Manifestation**
+## **Démonstration**
 
- Cet exemple utilise un modèle de fichier Excel Microsoft appelé**MergeTrial**. Il comporte des zones de cellules fusionnées dans une feuille également appelée Merge Trial.
+Cet exemple utilise un fichier Microsoft Excel modèle appelé **MergeTrial**. Il a quelques zones de cellules fusionnées dans une feuille également appelée Fusion d'essai.
 
 **Le fichier modèle**
 
-![tâche : image_autre_texte](detect-merged-cells-in-a-worksheet_1.png)
+![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
- Aspose.Cells fournit le[**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells)méthode utilisée pour obtenir une ArrayList de zones de cellules fusionnées.
+Aspose.Cells fournit la méthode [**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells) qui est utilisée pour obtenir un ArrayList de zones de cellules fusionnées.
 
-Lorsque le code ci-dessous est exécuté, il efface le contenu de la feuille et dissocie toutes les zones de cellules avant de réenregistrer le fichier.
+Lorsque le code ci-dessous est exécuté, il efface le contenu de la feuille et dé-fusionne toutes les zones de cellules avant d'enregistrer à nouveau le fichier.
 
 **Le fichier de sortie**
 
-![tâche : image_autre_texte](detect-merged-cells-in-a-worksheet_2.png)
+![todo:image_alt_text](detect-merged-cells-in-a-worksheet_2.png)
 
 ## **Exemple de code**
 
-Veuillez consulter l'exemple de code suivant pour savoir comment identifier les zones de cellules fusionnées dans une feuille de calcul et les dissocier.
+Veuillez consulter le code d'exemple suivant pour savoir comment identifier les zones de cellules fusionnées dans une feuille de calcul et les dé-fusionner.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectMergedCells-DetectMergedCells.java" >}}
 
-## **Articles Liés**
+## **Articles connexes**
 
-- [Fusionner et diviser des cellules](/cells/fr/java/merging-and-unmerging-cells/).
+- [Fusionner et scinder des cellules](/cells/fr/java/fusionner-et-separer-des-cellules/).

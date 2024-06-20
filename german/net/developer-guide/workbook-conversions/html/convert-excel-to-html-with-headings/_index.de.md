@@ -1,14 +1,15 @@
-﻿---
-title: Konvertieren Sie Excel in HTML mit Überschriften
+---
+title: Excel in HTML mit Überschriften konvertieren
 type: docs
 weight: 10
 url: /de/net/convert-excel-to-html-with-headings/
 ---
-## **Konvertieren Sie Excel in HTML mit Überschriften**
 
-Aspose.Cells bietet die Möglichkeit, Überschriften beim Konvertieren von Excel in HTML zu exportieren[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportheadings) Eigentum zu**wahr**. Der Standardwert von[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportheadings) Eigentum ist**FALSCH**. Das folgende Bild zeigt die vom folgenden Code generierte Ausgabedatei.
+## **Excel in HTML mit Überschriften konvertieren**
 
-![todo: Bild_alt_Text](convert-excel-to-html-with-headings_1.jpg)
+Aspose.Cells bietet die Möglichkeit, Überschriften beim Konvertieren von Excel nach HTML zu exportieren. Dazu können Sie die Eigenschaft [**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportheadings) auf **true** setzen. Der Standardwert der Eigenschaft [**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportheadings) ist **false**. Das folgende Bild zeigt die Ausgabedatei, die durch den folgenden Code generiert wurde.
+
+![todo:image_alt_text](convert-excel-to-html-with-headings_1.jpg)
 
 ## **Beispielcode**
 

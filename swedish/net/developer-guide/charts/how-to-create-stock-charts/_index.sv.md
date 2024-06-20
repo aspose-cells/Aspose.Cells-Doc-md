@@ -1,25 +1,26 @@
 ---
-title: Hur man skapar aktiediagram
-description: Lär dig hur du enkelt skapar aktiediagram med ImproveNets steg-för-steg-guide. Vi guidar dig genom processen att ställa in och anpassa dina diagram för att visualisera marknadsdata och få bättre insikter.
-keywords: Create Stock Charts, ImproveNet, Market Data Visualization, Stock Market Analysis, Step-by-Step Guide.
+title: Hur man skapar Lagerdiagram
+description: Aktie diagram är en specifik typ av diagram som används för att spåra förändringar i priset på handlade tillgångar. I den här avsnittet kommer vi att visa dig hur du enkelt skapar olika typer av aktie diagram med hjälp av Aspose.Cells API er. Specifikt kommer vi att täcka följande typer av aktie diagram Hög Låg Stäng (HLC) aktie diagram, Öppen Hög Låg Stäng (OHLC) diagram, Volym Hög Låg Stäng (VHLC) aktie diagram och Volym Öppen Hög Låg Stäng (VOHLC) aktie diagram. 
+keywords: Skapa Aktie diagram, Aspose.Cells, Marknadsdata Visualisering, Aktiemarknadsanalys, Steg för steg guide.
 type: docs
 weight: 71
 url: /sv/net/how-to-create-stock-charts/
 ---
+
 {{% alert color="primary" %}}
 
-Det här stycket kommer att berätta hur du skapar ett aktiediagram, som inkluderar fyra typer:
+Detta avsnitt kommer att berätta för dig hur man skapar ett lagerdiagram, vilket inkluderar fyra typer:
 - **HLC** – Hög-Låg-Stäng.
-- **OHLC** – Öppna-Hög-Låg-Stäng.
+- **OHLC** – Öppen-Hög-Låg-Stäng.
 - **VHLC** – Volym-Hög-Låg-Stäng.
-- **VOHLC**– Volym-Öppna-Hög-Låg-Stäng.
+- **VOHLC** – Volym-Öppen-Hög-Låg-Stäng.
 
 {{% /alert %}}
 
-##  **Vad är aktiediagram?**
+## **Vad är lagerdiagram?**
 
-Aktiediagram är ett specifikt diagram som används för att spåra förändringar i priset på omsatta tillgångar. Tillgångar såsom råvaror, aktier och kryptovalutor. De låter dig se höga och låga värden över tid, tillsammans med öppnings- och stängningsvärden i ett diagram. Aspose.Cells erbjuder 4 aktiediagram och för att använda dessa måste du ha rätt datauppsättningar tillgängliga och du måste välja kolumnerna i rätt ordning.
+Lagerdiagram är ett specifikt diagram som används för att spåra förändringarna i pris på handlade tillgångar. Tillgångar som varor, aktier och kryptovalutor. De låter dig se höga och låga värden över tiden, tillsammans med öppnings- och stängningsvärden i ett diagram. Aspose.Cells erbjuder 4 lagerdiagram och för att använda dessa måste du ha rätt uppsättning data tillgänglig och du måste välja kolumnerna i rätt ordning.
 
- Nedanstående datauppsättning visar den dagliga handelsinformationen för en aktie. Vi kommer att använda dessa data för att skapa var och en av de 4 aktiediagrammen som finns tillgängliga i Aspose.Cells.
+Följande dataset visar den dagliga handelsinformationen för en aktie. Vi kommer att använda dessa data för att skapa fyra typer av aktie-diagram: Hög-Låg-Stäng (HLC) aktie-diagram, Öppen-Hög-Låg-Stäng (OHLC) diagram, Volym-Hög-Låg-Stäng (VHLC) aktie-diagram och Volym-Öppen-Hög-Låg-Stäng (VOHLC) aktie-diagram. 
 
 ![todo:image_alt_text](stock.chart.data.png)

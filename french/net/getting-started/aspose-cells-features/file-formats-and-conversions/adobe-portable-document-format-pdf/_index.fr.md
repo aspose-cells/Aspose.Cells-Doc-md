@@ -1,25 +1,26 @@
-﻿---
-title: Format de document portable Adobe - PDF
+---
+title: Adobe Portable Document Format - PDF
 type: docs
 weight: 40
 url: /fr/net/adobe-portable-document-format-pdf/
 ---
+
 {{% alert color="primary" %}} 
 
- Tout document chargé dans Aspose.Cells peut être converti en PDF conforme à la[PDF 1.5](https://docs.fileformat.com/pdf/) ou alors[PDF/A-1b](https://docs.fileformat.com/pdf/a/)spécification. Aspose.Cells se donne beaucoup de mal pour convertir fidèlement les documents Excel Microsoft en PDF. La plupart du temps, l'apparence du document PDF final sera indiscernable du document Excel Microsoft original.
+Tout document chargé dans Aspose.Cells peut être converti en PDF conforme à la spécification [PDF 1.5](https://docs.fileformat.com/pdf/) ou [PDF/A-1b](https://docs.fileformat.com/pdf/a/). Aspose.Cells s'efforce de convertir fidèlement les documents Microsoft Excel en PDF. La plupart du temps, l'aspect du document PDF final sera indiscernable du document Microsoft Excel original.
 
 {{% /alert %}} 
-## **PDF à Aspose.Cells**
-La solution Aspose prend entièrement en charge les fonctionnalités de document suivantes lors de la conversion vers PDF :
+## **PDF dans Aspose.Cells**
+La solution Aspose prend en charge de manière exhaustive les fonctionnalités de document suivantes lors de la conversion en PDF :
 
-- Cell Formatage des données et du texte
+- Données de cellules et mise en forme du texte
 - Graphiques et tableaux croisés dynamiques
 - En-têtes/pieds de page
-- Mise en forme conditionnelle
+- Formatage conditionnel
 - Bordures, couleurs de bordure
 - Images, zones de texte et formes de dessin
 - Signets
-- Hyperliens
-- Fusionné Cells, sauts de page, titres d'impression
+- Liens hypertexte
+- Cellules fusionnées, Sauts de page, Titres d'impression
 
- Vous pouvez également voir le[spécification détaillée](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) sur la façon dont Aspose.Cells convertit un document en PDF.
+Vous pouvez également consulter la [spécification détaillée](https://docs.aspose.com/cells/net/convert-excel-workbook-to-pdf/) sur la manière dont Aspose.Cells convertit un document en PDF.

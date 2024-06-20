@@ -1,29 +1,30 @@
-﻿---
-title: Genel API Aspose.Cells 8.7.1'deki değişiklikler
+---
+title: Aspose.Cells 8.7.1 de Genel API Değişiklikleri
 type: docs
 weight: 250
 url: /tr/java/public-api-changes-in-aspose-cells-8-7-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 8.7.0 sürümünden 8.7.1 sürümüne Aspose.Cells API değişikliklerini açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, modül/uygulama geliştiriciler için ilgi çekebilecek Aspose.Cells API'sindeki değişiklikleri 8.7.0'dan 8.7.1'e kadar açıklar. Yeni ve güncelleştirilmiş genel yöntemler, eklenen ve kaldırılan sınıflar vb. dahil olduğu gibi, Aspose.Cells'in arkasındaki davranışlarda da herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **LookInType.ORIGINAL_VALUES Özelliği Eklendi**
- Aspose.Cells API'ler zaten şunu destekliyor:[Veri Bul veya Ara](/cells/tr/java/find-or-search-data/)hücre değeri ve formülde belirli bir içerik parçasını bulmak için elektronik tablolar için özellik. Bununla birlikte, bu özellik, içeriğin değerinin yanı sıra görünümünü de değiştirebilecek, sonuç olarak metni orijinal değer kullanılarak aranamaz hale getirebilecek hücreye uygulanan biçimlendirmenin yönünden yoksundu. Aspose.Cells API'lerinin bu sürümüyle, LookInType.ORIGINAL_VALUES adlı başka bir sabit, yukarıda tartışılan durumun üstesinden gelinmesine izin veren API geneline sunuldu.
+Aspose.Cells API'ları zaten elektronik tablolarda [Veri bul veya Ara](/cells/tr/java/find-or-search-data/) özelliğini destekler, böylece hücre değeri ve formülündeki belirli bir içeriği bulabilir. Ancak, bu özellik, hücreye uygulanan biçimi ve onun değerini değiştirebilen biçimlendirmenin eksikliğini yaşamış ve sonuç olarak metni orijinal değer kullanılamaz hale getirmiştir. Bu Aspose.Cells API'ları sürümüyle, LookInType.ORIGINAL_VALUES adında başka bir sabit genel API'ya açılmıştır, bu da yukarıda tartışılan durumu aşmanızı sağlar. 
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Orijinal Değerleri Kullanarak Veri Arama](https://docs.aspose.com/cells/java/search-data-using-original-values/)
+Bu özellikle ilgili daha fazla detay için [Orijinal Değerleri Kullanarak Veri Arama](https://docs.aspose.com/cells/java/search-data-using-original-values/) adlı ayrıntılı makaleyi inceleyin
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 

@@ -1,34 +1,35 @@
-﻿---
+---
 title: Aspose.Cells Java for Python
 type: docs
 weight: 60
 url: /ja/java/aspose-cells-java-for-python/
 ---
+
 ## **JPype**
 
-JPype は、Python プログラムが Java クラス ライブラリに完全にアクセスできるようにする取り組みです。これは、Jython/JPython が行ったように Python を再実装することによってではなく、両方の仮想マシンのネイティブ レベルでインターフェイスすることによって達成されます。
+JPypeは、PythonプログラムがJavaクラスライブラリへの完全なアクセスを許可する取り組みです。これは、Jython/JPythonが行ったようにPythonを再実装するのではなく、両方の仮想マシンでネイティブレベルでのインターフェイスを介して達成されています。
 
-でもっと読む[readthedocs.org](https://jpype.readthedocs.io/en/latest/userguide.html)
+詳細は[readthedocs.org](https://jpype.readthedocs.io/en/latest/userguide.html)で読んでください。
 
 ## **Aspose.Cells for Java**
 
-Aspose.Cells for Java は高度なクラス ライブラリ for Java であり、Java アプリケーション内でさまざまなドキュメント処理タスクを直接実行できます。
+Aspose.Cells for JavaはJavaの高度なクラスライブラリであり、Javaアプリケーション内で直接多くのドキュメント処理タスクを実行できます。
 
-Aspose.Cells for Java supports processing Excel (XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM), CSV (Comma Separated Value), TSV (Tab-separated values), TabDelimited (Tab delimited text file), Html, MHtml, ODS ( OpenDocument スプレッドシート)、SpreadsheetML、および Numbers (文書は Apple の「Numbers」アプリケーションによって作成されます) ファイル。 Aspose.Cells を使用すると、Microsoft Excel を使用せずにドキュメントを生成、変更、および変換できます。
+Aspose.Cells for JavaはExcel（XLS、XLSX、XLSB、XLSM、XLT、XLTX、XLTM）、CSV（カンマ区切り値）、TSV（タブ区切り値）、TabDelimited（タブ区切りテキストファイル）、Html、MHtml、ODS（OpenDocument Spreadsheet）、SpreadsheetML、およびNumbers（Appleの"Numbers"アプリケーションで作成されたドキュメント）ファイルの処理をサポートしています。Aspose.Cellsを使用して、Microsoft Excelを使用せずにドキュメントを生成、変更、および変換できます。
 
-## **Aspose.Cells Jython の場合は Java**
+## **Aspose.Cells Java for Jython**
 
-Aspose.Cells Java for Python は、Python の Aspose.Cells for Java API の使用例をデモンストレーション/提供するプロジェクトです。
+Aspose.Cells Java for PythonはPythonでのAspose.Cells for Java APIの使用例を示すプロジェクトです。
 
-## **システム要求**
+## **システム要件**
 
-**Aspose.Cells Java for Python を使用するためのシステム要件は次のとおりです。**
+**Aspose.Cells Java for Pythonのシステム要件は次のとおりです:**
 
 - Jpype
-- Aspose.Cells コンポーネントをダウンロードしました。
+- Aspose.Cellsコンポーネントをダウンロードしてください。
 
 ## **サポートされているプラットフォーム**
 
-**サポートされているプラットフォームは次のとおりです。**
+**サポートされているプラットフォームは次のとおりです:**
 
-- Python 2.7.xx
+- Python 2.7.x.x

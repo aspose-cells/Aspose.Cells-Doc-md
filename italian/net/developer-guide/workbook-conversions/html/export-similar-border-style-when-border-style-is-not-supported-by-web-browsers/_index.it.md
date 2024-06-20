@@ -1,19 +1,20 @@
-﻿---
-title: Esporta uno stile del bordo simile quando lo stile del bordo non è supportato dai browser web
+---
+title: Esportare uno stile di bordo simile quando lo stile di bordo non è supportato dai browser web
 type: docs
 weight: 70
 url: /it/net/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/
 ---
-## **Possibili scenari di utilizzo**
 
-Microsoft Excel supporta alcuni tipi di bordi tratteggiati che non sono supportati dai browser Web. Quando si converte un file Excel di questo tipo in HTML utilizzando Aspose.Cells, tali bordi vengono rimossi. Tuttavia, Aspose.Cells può anche supportare la visualizzazione di tali bordi con[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle) proprietà. Si prega di impostare il suo valore come**VERO**e anche i bordi non supportati verranno esportati nel file HTML.
+## **Possibili Scenari di Utilizzo**
 
-## **Esporta uno stile del bordo simile quando lo stile del bordo non è supportato dai browser web**
+Microsoft Excel supporta alcuni tipi di bordi tratteggiati che non sono supportati dai browser Web. Quando converti tale file di Excel in HTML utilizzando Aspose.Cells, tali bordi vengono rimossi. Tuttavia, Aspose.Cells può anche supportare la visualizzazione di tali bordi con la proprietà [**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle). Imposta il suo valore su **true** e i bordi non supportati verranno esportati anche nel file HTML.
 
-Il codice di esempio seguente carica il file[esempio di file Excel](64716806.xlsx) che contiene alcuni bordi non supportati come mostrato nello screenshot seguente. Lo screenshot illustra ulteriormente l'effetto di[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)proprietà all'interno del[uscita HTML](64716804.zip).
+## **Esporta uno stile di bordo simile quando lo stile di bordo non è supportato dai browser Web**
 
-![cose da fare:immagine_alt_testo](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
+Il codice di esempio seguente carica il [file di Excel di esempio](64716806.xlsx) che contiene alcuni bordi non supportati come mostrato nella seguente schermata. La schermata illustra ulteriormente l'effetto della proprietà [**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle) all'interno dell'HTML [generato](64716804.zip).
 
-## **Codice d'esempio**
+![todo:image_alt_text](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-ExportSimilarBorderStyle.cs" >}}

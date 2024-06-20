@@ -1,88 +1,82 @@
-﻿---
-title: Inserte imágenes y formas de archivos de Excel.
-linktitle: formas
+---
+title: Insertar imágenes y formas de archivos de Excel.
+linktitle: Formas
 type: docs
 weight: 140
 url: /es/net/insert-shapes/
-description: Administre imágenes, oleobject, formas en archivos de Excel.
+description: Administrar imágenes, oleobject, formas en archivos de Excel.
 ---
+
 {{% alert color="primary" %}}
 
-A veces, necesita insertar algunas formas necesarias en la hoja de trabajo. Es posible que deba insertar la misma forma en diferentes posiciones de la hoja de trabajo. O necesita insertar formas por lotes en la hoja de trabajo.
+A veces necesitas insertar algunas formas necesarias en la hoja de cálculo. Puedes necesitar insertar la misma forma en diferentes posiciones de la hoja de cálculo. O necesitas insertar formas en lotes en la hoja de cálculo.
 
- ¡No te preocupes![Aspose.Cells](https://products.aspose.com/cells/)soporta todas estas operaciones.
+¡No te preocupes! [Aspose.Cells](https://products.aspose.com/cells/) soporta todas estas operaciones.
 
 {{% /alert %}}
 
 Las formas en Excel se dividen principalmente en los siguientes tipos:
-- **Fotos**
-- **OleObjetos**
+- **Imágenes**
+- **OleObjects**
 - **Líneas**
 - **Rectángulos**
-- **Formas básicas**
-- **flechas de bloque**
-- **Formas de ecuación**
-- **diagramas de flujo**
-- **estrellas y pancartas**
-- **Rótulos**
+- **Formas Básicas**
+- **Flechas en Bloque**
+- **Formas de Ecuaciones**
+- **Diagramas de Flujo**
+- **Estrellas y Banderas**
+- **Llamadas**
 
- Este documento guía seleccionará una o dos formas de cada tipo para hacer muestras. A través de estos ejemplos, aprenderá a usar[Aspose.Cells](https://products.aspose.com/cells/) para insertar la forma especificada en la hoja de cálculo.
+Este documento guía seleccionará una o dos formas de cada tipo para hacer ejemplos. A través de estos ejemplos, aprenderás cómo usar [Aspose.Cells](https://products.aspose.com/cells/) para insertar la forma especificada en la hoja de cálculo.
 
-## **Adición de imágenes en la hoja de cálculo de Excel en C#**
+## **Agregar imágenes en una hoja de cálculo de Excel en C#**
 
-Agregar imágenes a una hoja de cálculo es muy fácil. Solo se necesitan unas pocas líneas de código:
- Simplemente llame al[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) metodo de la[**Fotos**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) colección (encapsulada en el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) objeto). Él[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)método toma los siguientes parámetros:
+Agregar imágenes a una hoja de cálculo es muy fácil. Solo toma unas pocas líneas de código:
+Simplemente llame al método [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) de la colección [**Pictures**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) (encapsulada en el objeto [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)). El método [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) toma los siguientes parámetros:
 
-- **Índice de la fila superior izquierda**, el índice de la fila superior izquierda.
-- **Índice de la columna superior izquierda**, el índice de la columna superior izquierda.
+- **Índice de fila superior izquierda**, el índice de la fila superior izquierda.
+- **Índice de columna superior izquierda**, el índice de la columna superior izquierda.
 - **Nombre del archivo de imagen**, el nombre del archivo de imagen, completo con la ruta.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-AddingPictures-1.cs" >}}
 
 
-## **Insertar objetos OLE en la hoja de cálculo de Excel en C#**
+## **Insertar objetos OLE en una hoja de cálculo de Excel en C#**
 
-Aspose.Cells admite agregar, extraer y manipular objetos OLE en hojas de trabajo. Por esta razón, Aspose.Cells tiene la[**OleObjectCollectionOleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) clase, utilizada para agregar un nuevo objeto OLE a la lista de recopilación. Otra clase,[**Objeto OLE**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), representa un objeto OLE. Tiene algunos miembros importantes:
+Aspose.Cells admite agregar, extraer y manipular objetos OLE en hojas de cálculo. Por esta razón, Aspose.Cells tiene la clase [**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection), utilizada para agregar un nuevo objeto OLE a la lista de colecciones. Otra clase, [**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), representa un objeto OLE. Tiene algunos miembros importantes:
 
--  Él[**Datos de imagen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)La propiedad especifica los datos de la imagen (icono) del tipo de matriz de bytes. La imagen se mostrará para mostrar el objeto OLE en la hoja de trabajo.
--  Él[**ObjetoDatos**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)La propiedad especifica los datos del objeto en forma de una matriz de bytes. Estos datos se mostrarán en su programa relacionado cuando haga doble clic en el icono Objeto OLE.
+- La propiedad [**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata) especifica los datos de imagen (icono) de tipo matriz de bytes. La imagen se mostrará para mostrar el objeto OLE en la hoja de cálculo.
+- La propiedad [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata) especifica los datos del objeto en forma de matriz de bytes. Estos datos se mostrarán en su programa relacionado cuando hagas doble clic en el ícono del objeto OLE.
 
-El siguiente ejemplo muestra cómo agregar objetos OLE a una hoja de cálculo.
+El siguiente ejemplo muestra cómo agregar un objeto(s) OLE a una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
-## **Insertar una línea en la hoja de cálculo de Excel en C#**
+## **Insertar una línea en una hoja de cálculo de Excel en C#**
 
- La forma de la línea pertenece a la**líneas** categoría.
+La forma de la línea pertenece a la categoría de **líneas**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar la línea
-- Haga clic en el menú Insertar y haga clic en Formas.
-- Luego, seleccione la línea de 'Formas usadas recientemente' o 'Líneas'
+- Selecciona la celda donde deseas insertar la línea
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, selecciona la línea de 'Formas utilizadas recientemente' o 'Líneas'
 
 ![](line.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar una línea en la hoja de cálculo.
+Puedes utilizar el siguiente método para insertar una línea en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Agregar línea de forma de línea pública (
- int fila superior izquierda,
- en la parte superior,
- int columna superior izquierda,
- int izquierda,
- altura interna,
- ancho int
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- El método devuelve un[LíneaForma](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) objeto.
+El método devuelve un objeto [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar una línea en una hoja de trabajo.
+El siguiente ejemplo muestra cómo insertar una línea en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Line.cs" >}}
 
@@ -94,32 +88,25 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar una flecha de línea en la hoja de cálculo de Excel en C#**
 
- La forma de flecha de línea pertenece a la**Líneas** categoría. Es un caso especial de línea.
+La forma de la flecha de línea pertenece a la categoría **Líneas**. Es un caso especial de línea.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
 - Seleccione la celda donde desea insertar la flecha de línea
-- Haga clic en el menú Insertar y haga clic en Formas.
+- Haga clic en el menú Insertar y luego en Formas.
 - Luego, seleccione la flecha de línea de 'Formas usadas recientemente' o 'Líneas'
 
 ![](line_arrow1.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar una flecha de línea en la hoja de trabajo.
+Puede utilizar el siguiente método para insertar una flecha de línea en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Agregar línea de forma de línea pública (
- int fila superior izquierda,
- en la parte superior,
- int columna superior izquierda,
- int izquierda,
- altura interna,
- ancho int
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn,	int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- El método devuelve un[LíneaForma](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) objeto.
+El método devuelve un objeto [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape).
 
 {{% /alert %}}
 
@@ -133,34 +120,27 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 
 
-## **Insertar un rectángulo en una hoja de cálculo de Excel en C#**
+## **Insertar un rectángulo en la hoja de cálculo de Excel en C#**
 
- La forma de rectángulo pertenece a la**Rectángulos** categoría.
+La forma del rectángulo pertenece a la categoría de **Rectángulos**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar el rectángulo
-- Haga clic en el menú Insertar y haga clic en Formas.
-- Luego, seleccione el rectángulo de 'Formas usadas recientemente' o 'Rectángulos'
+- Selecciona la celda donde deseas insertar el rectángulo
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, selecciona el rectángulo de 'Formas usadas recientemente' o 'Rectángulos'
 
 ![](rectangle.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un rectángulo en la hoja de cálculo.
+Puedes utilizar el siguiente método para insertar un rectángulo en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[public RectangleShape AddRectangle(
- int fila superior izquierda,
- en la parte superior,
- int columna superior izquierda,
- int izquierda,
- altura interna,
- ancho int
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
+[**public RectangleShape AddRectangle(int upperLeftRow,	int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
 
- El método devuelve un[Forma rectangular](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) objeto.
+El método devuelve un objeto [RectangleShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape).
 
 {{% /alert %}}
 
@@ -174,39 +154,31 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 
 
-## **Insertar un cubo en una hoja de cálculo de Excel en C#**
+## **Insertar un Cubo en la hoja de cálculo de Excel en C#**
 
-La forma de cubo pertenece a la**Formas básicas** categoría.
+La forma del cubo pertenece a la categoría de **Formas básicas**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar el cubo
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione el Cubo de**Formas básicas**
+- Selecciona la celda donde deseas insertar el cubo
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, selecciona el Cubo de **Formas básicas**
 
 ![](cube.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un cubo en la hoja de cálculo.
+Puede utilizar el siguiente método para insertar un cubo en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública AddAutoShape(
- tipo AutoShapeType,
- int fila superior izquierda,
- en la parte superior,
- int columna superior izquierda,
- int izquierda,
- altura interna,
- ancho int
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objeto.
+El método devuelve un objeto [Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar un cubo en una hoja de trabajo.
+El siguiente ejemplo muestra cómo insertar un cubo en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Cube.cs" >}}
 
@@ -216,39 +188,31 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 
 
-## **Insertar una flecha cuádruple de llamada en la hoja de cálculo de Excel en C#**
+## **Insertar una flecha de cuadro de referencia a la hoja de cálculo de Excel en C#**
 
- La forma de la flecha cuádruple de llamada pertenece a la**flechas de bloque** categoría.
+La forma de la flecha de cuadro de referencia pertenece a la categoría **Flechas de bloque**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar la flecha cuádruple de llamada
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione la flecha cuádruple de llamada de**flechas de bloque**
+- Seleccione la celda donde desea insertar la flecha de cuadro de referencia
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, seleccione la flecha de cuadro de referencia de **Flechas de bloque**
 
 ![](callout_quad_arrow.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar una flecha cuádruple de llamada en la hoja de trabajo.
+Puede utilizar el siguiente método para insertar una flecha de cuadro de referencia en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública AddAutoShape(
- tipo AutoShapeType,
- int fila superior izquierda,
- en la parte superior,
- int columna superior izquierda,
- int izquierda,
- altura interna,
- ancho int
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objeto.
+El método devuelve un objeto [Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar una flecha cuádruple de llamada en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar una flecha de cuadro de referencia en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.cs" >}}
 
@@ -258,39 +222,31 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 
 
-## **Insertar un signo de multiplicación en la hoja de cálculo de Excel en C#**
+## **Insertar un signo de multiplicación a una hoja de cálculo de Excel en C#**
 
- La forma del signo de multiplicación pertenece a la**Formas de ecuación** categoría.
+La forma del signo de multiplicación pertenece a la categoría **Formas de ecuaciones**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
 - Seleccione la celda donde desea insertar el signo de multiplicación
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione el signo de multiplicación de**Formas de ecuación**
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, seleccione el signo de multiplicación de **Formas de ecuaciones**
 
 ![](multiplication_sign.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un signo de multiplicación en la hoja de cálculo.
+Puede utilizar el siguiente método para insertar un signo de multiplicación en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública AddAutoShape(
- tipo AutoShapeType,
- int fila superior izquierda,
- en la parte superior,
- int columna superior izquierda,
- int izquierda,
- altura interna,
- ancho int
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objeto.
+El método devuelve un objeto [Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar el signo de multiplicación en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar un signo de multiplicación en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.cs" >}}
 
@@ -300,39 +256,31 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 
 
-## **Inserción de un multidocumento a la hoja de cálculo de Excel en C#**
+## **Insertar un multidocumento en una hoja de cálculo de Excel en C#**
 
- La forma de multidocumento pertenece a la**diagramas de flujo** categoría.
+La forma del multidocumento pertenece a la categoría **Flujogramas**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
 - Seleccione la celda donde desea insertar el multidocumento
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione el multidocumento de**diagramas de flujo**
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, selecciona el multidocumento de **Flujogramas**
 
 ![](multidocument.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un multidocumento en la hoja de trabajo.
+Puedes usar el siguiente método para insertar un multidocumento en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública AddAutoShape(
- tipo AutoShapeType,
- int fila superior izquierda,
- en la parte superior,
- int columna superior izquierda,
- int izquierda,
- altura interna,
- ancho int
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objeto.
+El método devuelve un objeto [Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar varios documentos en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar un multidocumento en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Multidocument.cs" >}}
 
@@ -344,33 +292,25 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar una estrella de cinco puntas en la hoja de cálculo de Excel en C#**
 
- La forma de estrella de cinco puntas pertenece a la**estrellas y pancartas** categoría.
+La forma de la estrella de cinco puntas pertenece a la categoría de **Estrellas y Banderas**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar la estrella de cinco puntas
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione la estrella de cinco puntas de**estrellas y pancartas**
+- Selecciona la celda donde desees insertar la estrella de cinco puntas
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, selecciona la estrella de cinco puntas de **Estrellas y Banderas**
 
 ![](star_5_points.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar una estrella de cinco puntas en la hoja de trabajo.
+Puedes usar el siguiente método para insertar una estrella de cinco puntas en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública AddAutoShape(
- tipo AutoShapeType,
- int fila superior izquierda,
- en la parte superior,
- int columna superior izquierda,
- int izquierda,
- altura interna,
- ancho int
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objeto.
+El método devuelve un objeto [Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
@@ -384,39 +324,31 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 
 
-## **Insertar una nube de burbujas de pensamiento en la hoja de cálculo de Excel en C#**
+## **Insertar un globo de pensamiento en una hoja de cálculo de Excel en C#**
 
- La forma de la nube de burbujas de pensamiento pertenece a la**Rótulos** categoría.
+La forma de un globo de pensamiento pertenece a la categoría de **Llamadas**.
 
-***En Microsoft Excel (por ejemplo 2007):***
+***En Microsoft Excel (por ejemplo, 2007):***
 
-- Seleccione la celda donde desea insertar la nube de burbujas de pensamiento
-- Haga clic en el menú Insertar y haga clic en Formas.
--  Luego, seleccione la nube de burbujas de pensamiento de**Rótulos**
+- Seleccione la celda donde desea insertar el globo de pensamiento
+- Haga clic en el menú Insertar y luego en Formas.
+- Luego, seleccione el globo de pensamiento de **Llamadas**
 
 ![](thought_bubble_cloud.png)
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar una nube de burbujas de pensamiento en la hoja de trabajo.
+Puede utilizar el siguiente método para insertar un globo de pensamiento en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
-[Forma pública AddAutoShape(
- tipo AutoShapeType,
- int fila superior izquierda,
- en la parte superior,
- int columna superior izquierda,
- int izquierda,
- altura interna,
- ancho int
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- El método devuelve un[Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objeto.
+El método devuelve un objeto [Forma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar una nube de burbujas de pensamiento en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar un globo de pensamiento en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.cs" >}}
 
@@ -426,20 +358,20 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Temas avanzados**
 - [Cambiar los valores de ajuste de la forma](/cells/es/net/change-adjustment-values-of-the-shape/)
-- [Copiar formas entre hojas de trabajo](/cells/es/net/copy-shapes-between-worksheets/)
-- [Datos en forma no primitiva](/cells/es/net/data-in-non-primitive-shape/)
-- [Encontrar la posición absoluta de la forma dentro de la hoja de trabajo](/cells/es/net/finding-absolute-position-of-shape-inside-the-worksheet/)
-- [Obtener puntos de conexión de la forma](/cells/es/net/get-connection-points-from-shape/)
-- [Gestión de controles](/cells/es/net/managing-controls/)
-- [Agregar iconos a la hoja de trabajo](/cells/es/net/insert-svg-to-excel/)
-- [Gestión de objetos OLE](/cells/es/net/managing-ole-objects/)
-- [Gestión de imágenes](/cells/es/net/managing-pictures/)
-- [Administrar arte inteligente](/cells/es/net/managing-smartart/)
-- [Gestión de cuadro de texto](/cells/es/net/managing-textbox-of-excel/)
-- [Agregar marca de agua de WordArt a la hoja de trabajo](/cells/es/net/add-wordart-watermark-to-worksheet/)
-- [Actualizar valores de formas vinculadas](/cells/es/net/refresh-values-of-linked-shapes/)
-- [Enviar forma al frente o al reverso dentro de la hoja de trabajo](/cells/es/net/send-shape-front-or-back-inside-the-worksheet/)
-- [Administrar opciones de forma](/cells/es/net/managing-shape-options/)
-- [Administrar opciones de texto de forma](/cells/es/net/managing-shape-text-options/)
-- [Extensiones web: complementos de Office](/cells/es/net/web-extensions-office-add-ins/)
+- [Copiar formas entre hojas de cálculo](/cells/es/net/copy-shapes-between-worksheets/)
+- [Datos en Forma No Primitiva](/cells/es/net/data-in-non-primitive-shape/)
+- [Encontrar la Posición Absoluta de la Forma dentro de la Hoja de Trabajo](/cells/es/net/finding-absolute-position-of-shape-inside-the-worksheet/)
+- [Obtener Puntos de Conexión de la Forma](/cells/es/net/get-connection-points-from-shape/)
+- [Gestionar Controles](/cells/es/net/managing-controls/)
+- [Agregar Iconos a la Hoja de Trabajo](/cells/es/net/insert-svg-to-excel/)
+- [Gestionar Objetos OLE](/cells/es/net/managing-ole-objects/)
+- [Gestionar Imágenes](/cells/es/net/managing-pictures/)
+- [Gestionar SmartArt](/cells/es/net/managing-smartart/)
+- [Gestionar Cuadro de Texto](/cells/es/net/managing-textbox-of-excel/)
+- [Agregar WordArt como Marca de Agua a la Hoja de Trabajo](/cells/es/net/add-wordart-watermark-to-worksheet/)
+- [Actualizar Valores de Formas Vinculadas](/cells/es/net/refresh-values-of-linked-shapes/)
+- [Enviar Forma al Frente o Atrás Dentro de la Hoja de Trabajo](/cells/es/net/send-shape-front-or-back-inside-the-worksheet/)
+- [Gestionar Opciones de la Forma](/cells/es/net/managing-shape-options/)
+- [Gestionar Opciones de Texto de la Forma](/cells/es/net/managing-shape-text-options/)
+- [Extensiones Web - Complementos de Office](/cells/es/net/web-extensions-office-add-ins/)
 

@@ -3,16 +3,17 @@ title: إدراج وحذف الصفوف والأعمدة في PHP
 type: docs
 weight: 60
 url: /ar/java/inserting-and-deleting-rows-and-columns-in-php/
-description: تعرف على كيفية إدراج وحذف الصفوف والأعمدة من خلال واجهات برمجة التطبيقات Aspose.Cells for PHP via Java.
-keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Columns using PHP, PHP Delete Rows and Columns, Insert Rows or Columns with PHP, Delete Rows or Columns via PHP.
+description: تعلم كيفية إدراج وحذف الصفوف والأعمدة من خلال Aspose.Cells for PHP via Java APIs.
+keywords: كيفية إدراج وحذف الصفوف والأعمدة في PHP، إدراج الصفوف والأعمدة باستخدام PHP، حذف الصفوف والأعمدة في PHP، إدراج الصفوف أو الأعمدة باستخدام PHP، حذف الصفوف أو الأعمدة عبر PHP.
 ---
-##  **Aspose.Cells - إدارة الصفوف والأعمدة**
-###  **إدراج صف**
-قم بإدراج صف في أي مكان عن طريق استدعاء الأسلوب InsertRows للمجموعة Cells. تأخذ طريقة InsertRows فهرس الصف الذي سيتم إدراج الصف الجديد فيه كوسيطة أولى، وعدد الصفوف التي سيتم إدراجها كوسيطة ثانية.
+
+## **Aspose.Cells - إدارة الصفوف/الأعمدة**
+### **إدراج صف**
+أدرج صفًا في أي موقع عن طريق استدعاء طريقة insertRows لمجموعة Cells. تأخذ طريقة insertRows فهرس الصف حيث سيتم إدراج الصف الجديد كمعلمة أولى، وعدد الأسطر التي سيتم إدراجها كمعلمة ثانوية.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_row($dataDir)
 
@@ -39,15 +40,15 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }  
 
 {{< /highlight >}}
-###  **إدراج صفوف متعددة**
-لإدراج صفوف متعددة في ورقة العمل، اتصل بأسلوب InsertRows للمجموعة Cells. يأخذ الأسلوب InsertRows معلمتين:
+### **إدراج صفوف متعددة**
+لإدراج صفوف متعددة في الورقة العمل، اُناد الطريقة insertRows من مجموعة Cells. تأخذ طريقة InsertRows معها معلمتين:
 
-- فهرس الصف، فهرس الصف الذي سيتم إدراج الصفوف الجديدة منه.
-- عدد الصفوف، إجمالي عدد الصفوف التي يجب إدراجها.
+- فهرس الصف، الفهرس للصف من حيث إن الصفوف الجديدة ستدرج.
+- عدد الصفوف، العدد الإجمالي للصفوف التي يجب إدراجها.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_multiple_rows($dataDir)
 
@@ -74,15 +75,15 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }
 
 {{< /highlight >}}
-###  **حذف صف**
-لحذف صف في أي مكان، اتصل بأسلوبdeleteRows للمجموعة Cells. تأخذ طريقة RemoveRows معلمتين:
+### **حذف صف**
+لحذف صف في أي مكان، اُناد الطريقة deleteRows من مجموعة Cells. تأخذ طريقة DeleteRows معها معلمتيتن:
 
-- فهرس الصف، فهرس الصف الذي سيتم حذف الصفوف منه.
-- عدد الصفوف، إجمالي عدد الصفوف التي يجب حذفها.
+- فهرس الصف، الفهرس للصف من حيث سيتم حذف الصفوف.
+- عدد الصفوف، العدد الإجمالي للصفوف التي يجب حذفها.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_row($dataDir)
 
@@ -109,15 +110,15 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }
 
 {{< /highlight >}}
-###  **حذف صفوف متعددة**
-لحذف صفوف متعددة من ورقة عمل، قم باستدعاء الأسلوبdeleteRows للمجموعة Cells. تأخذ طريقة RemoveRows معلمتين:
+### **حذف صفوف متعددة**
+لحذف صفوف متعددة من ورقة العمل، اُناد الطريقة deleteRows من مجموعة Cells. تأخذ طريقة DeleteRows معها معلمتين:
 
-- فهرس الصف، فهرس الصف الذي سيتم حذف الصفوف منه.
-- عدد الصفوف، إجمالي عدد الصفوف التي يجب حذفها.
+- فهرس الصف، الفهرس للصف من حيث سيتم حذف الصفوف.
+- عدد الصفوف، العدد الإجمالي للصفوف التي يجب حذفها.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_multiple_rows($dataDir)
 
@@ -144,15 +145,15 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }
 
 {{< /highlight >}}
-###  **إدراج عمود**
-يمكن للمطورين أيضًا إدراج عمود في ورقة العمل في أي مكان عن طريق استدعاء الأسلوب InsertColumns للمجموعة Cells. تأخذ طريقة InsertColumns معلمتين:
+### **إدراج عمود**
+يُمكن للمطوِّرون أيضًا إدراج عمود في ورقة العمل في أي مكان عن طريق اُناد الطريقة insertColumns من مجموعة Cells. تأخذ طريقة insertColumns معها معلمتين:
 
 - فهرس العمود، فهرس العمود الذي سيتم إدراج العمود منه
-- عدد الأعمدة، إجمالي عدد الأعمدة التي يجب إدراجها
+- عدد الأعمدة، العدد الإجمالي للأعمدة التي يجب إدراجها
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_column($dataDir)
 
@@ -179,16 +180,16 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }
 
 {{< /highlight >}}
-###  **حذف عمود**
-لحذف عمود من ورقة العمل في أي مكان، اتصل بالطريقةdeleteColumns للمجموعة Cells. تأخذ طريقةdeleteColumns المعلمات التالية:
+### **حذف عمود**
+لاحذف عمود من ورقة العمل في أي موقع، قم بإستدعاء طريقة الحذف الأعمدة من مجموعة الخلايا. تأخذ طريقة حذف الأعمدة المتغيرات التالية:
 
-- فهرس العمود، فهرس العمود الذي سيتم حذف العمود منه.
-- عدد الأعمدة، إجمالي عدد الأعمدة التي يجب حذفها.
-- تحويل الخلايا، معلمة منطقية للإشارة إلى ما إذا كان سيتم نقل الخلايا المتبقية بعد الحذف.
+- فهرس العمود، وهو فهرس العمود الذي سيتم حذفه.
+- عدد الأعمدة، العدد الإجمالي للأعمدة التي ينبغي حذفها.
+- تحريك الخلايا، المعلمة البولية للإشارة إذا كان يجب تحريك الخلايا لليسار بعد الحذف.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_column($dataDir)
 
@@ -215,7 +216,7 @@ keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Colu
 }  
 
 {{< /highlight >}}
-##  **تحميل كود التشغيل**
- تحميل**إدارة الصفوف/الأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **إدارة الصفوف/الأعمدة (Aspose.Cells)** من أي من المواقع التالية للبرمجة الاجتماعية:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

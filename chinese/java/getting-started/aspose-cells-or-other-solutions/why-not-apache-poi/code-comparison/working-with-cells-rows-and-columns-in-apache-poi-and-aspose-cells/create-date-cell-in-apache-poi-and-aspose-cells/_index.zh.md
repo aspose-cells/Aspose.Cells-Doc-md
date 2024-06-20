@@ -6,7 +6,7 @@ url: /zh/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
 
 ## **Aspose.Cells - 创建日期单元格**
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -36,7 +36,7 @@ cell.setStyle(style);
 
 {{< /highlight >}}
 ## **Apache POI SS (HSSF + XSSF) - 创建日期单元格**
-Java
+**Java**
 
 {{< highlight java >}}
 

@@ -1,16 +1,17 @@
-﻿---
-title: Seiteneinrichtungseinstellungen aus dem Quellarbeitsblatt in das Zielarbeitsblatt kopieren
+---
+title: Kopieren von Seiteneinrichtungseinstellungen vom Quellarbeitsblatt in das Zielarbeitsblatt
 type: docs
 weight: 10
 url: /de/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn Sie einer Arbeitsmappe ein neues Blatt hinzufügen, enthält es die Standardeinstellungen für die Seiteneinrichtung. Es kann vorkommen, dass Sie die Einstellungen übertragen müssen ([**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)) von einem Arbeitsblatt zu einem anderen Arbeitsblatt. In diesem Dokument wird erläutert, wie Sie Seiteneinrichtungseinstellungen mithilfe von Aspose.Cells-APIs von einem Arbeitsblatt in ein anderes kopieren.
+## **Mögliche Verwendungsszenarien**
 
-## **Seiteneinrichtungseinstellungen aus dem Quellarbeitsblatt in das Zielarbeitsblatt kopieren**
+Wenn Sie ein neues Blatt zu einer Arbeitsmappe hinzufügen, enthält es die Standardseite Einrichtungseinstellungen. Es kann Zeiten geben, in denen Sie die Einstellungen ([**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)) von einem Arbeitsblatt auf ein anderes Arbeitsblatt übertragen müssen. Dieses Dokument erklärt, wie Sie die Seite Einrichtungseinstellungen von einem Arbeitsblatt auf ein anderes mithilfe von Aspose.Cells APIs kopieren.
 
-Der folgende Beispielcode veranschaulicht, wie die Seiteneinrichtungseinstellungen mithilfe von von einem Arbeitsblatt in ein anderes kopiert werden[**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)) Methode. Bitte sehen Sie sich den folgenden Beispielcode und seine Konsolenausgabe als Referenz an.
+## **Seiteneinrichtungseinstellungen von der Quellarbeitsmappe in die Zieltabelle kopieren**
+
+Der folgende Beispielcode veranschaulicht, wie Sie die Seiteneinrichtungseinstellungen von einem Arbeitsblatt auf ein anderes mithilfe der Methode [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)) kopieren. Bitte beachten Sie den folgenden Beispielcode und dessen Konsolenausgabe als Referenz.
 
 ## **Beispielcode**
 
@@ -18,7 +19,7 @@ Der folgende Beispielcode veranschaulicht, wie die Seiteneinrichtungseinstellung
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Before Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 

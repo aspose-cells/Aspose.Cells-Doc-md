@@ -1,16 +1,17 @@
-﻿---
-title: Holen Sie sich die Papierbreite und -höhe von PageSetup des Arbeitsblatts
+---
+title: Papierbreite und höhe aus der Seite des Arbeitsblatts einrichten erhalten
 type: docs
 weight: 300
 url: /de/java/get-paper-width-and-height-from-pagesetup-of-worksheet/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Manchmal müssen Sie die Breite und Höhe des Papierformats kennen, da es in der Seiteneinrichtung des Arbeitsblatts festgelegt wurde. Bitte verwenden Sie die[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) und[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)Eigenschaften für diesen Zweck.
+## **Mögliche Verwendungsszenarien**
 
-## **Holen Sie sich die Papierbreite und -höhe von PageSetup des Arbeitsblatts**
+Manchmal müssen Sie die Breite und Höhe der Papiergröße wissen, wie sie in der Seiteneinrichtung des Arbeitsblatts festgelegt wurde. Bitte verwenden Sie die Eigenschaften [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) und [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight) für diesen Zweck.
 
- Der folgende Beispielcode erläutert die Verwendung von[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) und[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)Eigenschaften. Es ändert zuerst das Papierformat in A2 und findet dann die Breite und Höhe des Papiers, dann ändert es es in A3, A4, Letter und findet die Breite bzw. Höhe des Papiers.
+## **Papierbreite und -höhe aus den Seiteinstellungen des Arbeitsblatts abrufen**
+
+Der folgende Beispielcode erläutert die Verwendung der Eigenschaften [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) und [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight). Zuerst ändert er die Papiergröße auf A2 und findet dann die Breite und Höhe des Papiers, ändert sie dann auf A3, A4, Buchstabe und findet die Breite und Höhe des Papiers jeweils.
 
 ## **Beispielcode**
 
@@ -20,7 +21,7 @@ url: /de/java/get-paper-width-and-height-from-pagesetup-of-worksheet/
 
 Hier ist die Konsolenausgabe des obigen Beispielcodes.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 PaperA2: 16.54x23.39
 

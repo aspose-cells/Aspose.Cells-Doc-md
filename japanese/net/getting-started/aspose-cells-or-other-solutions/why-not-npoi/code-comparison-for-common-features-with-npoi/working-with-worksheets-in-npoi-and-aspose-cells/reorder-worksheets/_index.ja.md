@@ -1,13 +1,14 @@
-﻿---
+---
 title: ワークシートの並べ替え
 type: docs
 weight: 70
 url: /ja/net/reorder-worksheets/
 ---
+
 ## **Aspose.Cells - ワークシートの並べ替え**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook.
 
@@ -37,7 +38,7 @@ workbook.Save("../../data/AsposeMoveSheet.xls");
 ## **NPOI - HSSF XSSF - ワークシートの並べ替え**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -60,13 +61,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートの並べ替え**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下に記載されているソーシャルコーディングサイトのいずれかから**シートの並べ替え**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/ReOrder.WorkSheets.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+詳細については、[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/)ページを参照してください。
 
 {{% /alert %}}

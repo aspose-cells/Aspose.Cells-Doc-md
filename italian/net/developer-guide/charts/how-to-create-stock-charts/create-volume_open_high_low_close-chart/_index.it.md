@@ -1,20 +1,21 @@
 ---
-title: Crea un grafico azionario Volume-Apertura-Alto-Basso-Chiusura (VOHLC).
-description: Scopri come creare un grafico azionario volume-apertura-massimo-minimo-chiusura utilizzando Aspose.Cells for .NET. La nostra guida mostrerà come tracciare i dati del mercato azionario, inclusi volume, prezzi di apertura, massimo, minimo e chiusura, su un grafico per una migliore analisi e visualizzazione.
-keywords: Aspose.Cells for .NET, Volume-Open-High-Low-Close Stock Chart, Stock Market Data, Analysis, Visualization.
+title: Crea Grafico Azionario Volume Apri Alto Basso Chiusura(VOHLC)
+description: Scopri come creare un grafico azionario volume apri alto basso chiusura utilizzando Aspose.Cells for .NET. La nostra guida ti mostrerà come tracciare i dati di mercato azionario, inclusi volume, apertura, massimo, minimo e prezzi di chiusura, su un grafico per una migliore analisi e visualizzazione.
+keywords: Aspose.Cells for .NET, Grafico Azionario Volume Apri Alto Basso Chiusura, Dati di Mercato Azionario, Analisi, Visualizzazione.
 type: docs
 weight: 184
 url: /it/net/create-volume-open-high-low-close-stock-chart/
 ---
-##  **Possibili scenari di utilizzo**
-Il quarto grafico azionario che esamineremo è il grafico Volume Apertura Alto Basso Chiusura. Ancora una volta è importante ripetere che è necessario disporre dei dati nell'ordine corretto. Se hai bisogno di riorganizzare la tabella dati, dovresti farlo prima di impostare il grafico.
-Questo grafico include una colonna per il volume immediatamente dopo la prima colonna (categoria) e i grafici includono un istogramma sull'asse primario che mostra questo volume, mentre i prezzi vengono spostati sull'asse secondario.
 
-![cose da fare:immagine_alt_testo](data.png)
-##  **Grafico azionario Volume-Apertura-Alto-Basso-Chiusura (VHLC).**
+## **Possibili Scenari di Utilizzo**
+Il quarto grafico azionario che esamineremo è il grafico Volume Apri Alto Basso Chiusura. È nuovamente importante ripetere che è necessario avere i dati nell'ordine corretto. Se è necessario riordinare la tabella dei dati, è necessario farlo prima di impostare il grafico.
+Questo grafico include una colonna per il volume immediatamente dopo la prima colonna (categoria), e i grafici includono un grafico a colonne sull'asse primario che mostra questo volume, mentre i prezzi sono spostati sull'asse secondario.
 
-![cose da fare:immagine_alt_testo](sample.png)
-##  **Codice d'esempio**
- Il codice di esempio seguente carica il file[file Excel di esempio](Volume-Open-High-Low-Close.xlsx) e genera il[file Excel di output](out.xlsx).
+![todo:image_alt_text](data.png)
+## **Grafico Azionario Volume-Apri-Alto-Basso-Chiusura (VHLC)**
+
+![todo:image_alt_text](sample.png)
+## **Codice di Esempio**
+Il codice di esempio seguente carica il [file Excel di esempio](Volume-Open-High-Low-Close.xlsx) e genera il [file Excel di output](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-volume-open-high-low-close-stock-chart.cs" >}}

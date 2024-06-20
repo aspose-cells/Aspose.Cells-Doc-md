@@ -1,16 +1,17 @@
-﻿---
-title: تقديم واحد PDF صفحة لكل ورقة عمل Excel - تحويل Excel إلى PDF
+---
+title: عرض صفحة PDF واحدة لكل ورقة Excel  تحويل Excel إلى صيغة PDF
 type: docs
 weight: 100
 url: /ar/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 ---
+
 {{% alert color="primary" %}} 
 
-عند العمل باستخدام ملفات Excel كبيرة Microsoft (على سبيل المثال ، مصنف يحتوي على العديد من الأوراق ، كل منها يحتوي على 50 عمودًا و 300 صف أو أكثر من البيانات) ، قد ترغب في أن يعرض إخراج PDF صفحة واحدة لكل ورقة عمل ، بغض النظر عن حجم ورقة العمل . قد يعني هذا أنه من المحتمل أن يكون لكل صفحة حجم صفحة مختلف تمامًا. يمكن تحقيق ذلك باستخدام Aspose.Cells for .NET.
+عند العمل مع ملفات Microsoft Excel الكبيرة (على سبيل المثال، سجل عمل يحتوي على العديد من الأوراق، كل ورقة بها 50 عمود و300 أو أكثر صفوف من البيانات)، قد ترغب في أن تظهر الناتج كملف PDF صفحة واحدة لكل ورقة عمل، بصرف النظر عن حجم الورقة. يمكن تحقيق ذلك عن طريق استخدام Aspose.Cells for .NET.
 
 {{% /alert %}} 
 
-يرجى الاطلاع على نموذج التعليمات البرمجية التالي الذي يحول ملف Excel مع أوراق عمل متعددة إلى PDF.
+يرجى الاطلاع على الكود النموذجي التالي الذي يحول ملف Excel مع العديد من الأوراق إلى PDF.
 
 
 
@@ -18,10 +19,10 @@ url: /ar/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 
 {{% alert color="primary" %}} 
 
- إذا كان[OnePagePerSheet](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet) تم تعيين الخيار إلى**حقيقي**، سيتم تحويل كافة محتويات الورقة إلى صفحة PDF واحدة.
+إذا تم تعيين الخيار [OnePagePerSheet](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet) إلى **true**, سيتم عرض محتوى الورقة كاملة في صفحة واحدة من ملف PDF.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل الاتصال[المصنف .CalculateFormula ()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)قبل تحويل جدول البيانات إلى PDF. هذا يضمن إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في PDF.
+إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، من الأفضل استدعاء [Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) قبل تقديم جدول البيانات إلى PDF. هذا يضمن إعادة حساب قيم الصيغ وتقديم القيم الصحيحة في ملف PDF.
 
 {{% /alert %}}

@@ -4,16 +4,17 @@ type: docs
 weight: 60
 url: /fr/cpp/create-named-range-in-a-workbook/
 ---
-##  **Scénarios d'utilisation possibles**
- Aspose.Cells prend en charge la création d'une plage nommée. Il existe différentes manières de créer une plage nommée. L'un des moyens les plus simples consiste à créer d'abord[Gamme](https://reference.aspose.com/cells/cpp/aspose.cells/range) objet, puis définissez son nom en utilisant[Range.SetName()](https://reference.aspose.com/cells/cpp/aspose.cells/range/setname) méthode. Vous pouvez voir toutes les plages nommées dans votre fichier Excel via Microsoft Excel*Gestionnaire de noms*interface.
-##  **Créer une plage nommée dans un classeur**
- L'exemple de code suivant explique comment créer un*Plage nommée* via Aspose.Cells. Une fois, le*Plage nommée* est créé, il est visible à l'intérieur du[Workbook.GetWorksheets().GetNames()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/getnames) collection. Veuillez consulter le[sortie du fichier Excel](23167006.xlsx) généré par le code pour une référence.
-##  **Exemple de code**
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CreateNamedRangeInWorkbook-new.cpp" >}}
-##  **Sortie console**
- La sortie de console suivante imprime les valeurs de[ObtenirFullText](https://reference.aspose.com/cells/cpp/aspose.cells/name/getfulltext/) et[ObtenirRefersTo](https://reference.aspose.com/cells/cpp/aspose.cells/name/getrefersto/) méthodes de création*Plage nommée*dans le code ci-dessus.
 
-{{< highlight "java" >}}
+## **Scénarios d'utilisation possibles**
+Aspose.Cells prend en charge la création d'une plage nommée. Il existe différentes façons de créer une plage nommée. L'une des façons les plus simples est de d'abord créer un [objet Range](https://reference.aspose.com/cells/cpp/aspose.cells/range) puis définir son nom à l'aide de la méthode [Range.SetName()](https://reference.aspose.com/cells/cpp/aspose.cells/range/setname). Vous pouvez voir toutes les plages nommées dans votre fichier Excel via l'interface *Gestionnaire de noms* de Microsoft Excel.
+## **Créer une plage nommée dans un classeur**
+Le code d'exemple suivant explique comment créer une *plage nommée* via Aspose.Cells. Une fois la *plage nommée* créée, elle est visible dans la collection [Workbook.GetWorksheets().GetNames()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/getnames). Veuillez consulter le [fichier Excel de sortie](23167006.xlsx) généré par le code pour référence.
+## **Code d'exemple**
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CreateNamedRangeInWorkbook-new.cpp" >}}
+## **Sortie console**
+La sortie de la console suivante affiche les valeurs des méthodes [GetFullText](https://reference.aspose.com/cells/cpp/aspose.cells/name/getfulltext/) et [GetRefersTo](https://reference.aspose.com/cells/cpp/aspose.cells/name/getrefersto/) de la *plage nommée* créée dans le code ci-dessus.
+
+{{< highlight java >}}
 
  Full Text: MyNamedRange
 

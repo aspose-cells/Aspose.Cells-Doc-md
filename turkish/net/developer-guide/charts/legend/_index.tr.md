@@ -1,24 +1,25 @@
 ---
-title: Excel Grafiklerinin Efsanesini Yönetme
-description: Microsoft Excel'deki grafik göstergelerini etkili bir şekilde kullanmak ve özelleştirmek için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Kapsamlı kılavuzumuz, açıklamanın işlevselliğini, ona nasıl erişileceğini ve değiştirileceğinin yanı sıra, açıklamalarla görselleştirmenin ve veri anlayışının nasıl geliştirileceğini açıklamaktadır.
-keywords: Aspose.Cells for .NET, Chart Legends, Microsoft Excel, Visualization, Data Understanding.
-linktitle: Efsane
+title: Excel Grafiklerinin Açıklamasını Yönetme
+description: Microsoft Excel de grafik açıklamalarını etkin bir şekilde kullanarak özelleştirmek ve kullanmak için Aspose.Cells for .NET yi nasıl kullanacağınızı öğrenin. Kapsamlı rehberimiz, açıklamanın işlevselliğini, nasıl erişileceğini ve değiştirileceğini, ayrıca açıklama ile görselleştirme ve veri anlayışını nasıl iyileştireceğinizi açıklar.
+keywords: Aspose.Cells for .NET, Grafik Açıklamaları, Microsoft Excel, Görselleştirme, Veri Anlayış.
+linktitle: Açıklama
 type: docs
 weight: 50
 url: /tr/net/chart-legend/
 ---
-##  **Açıklama Seçenekleri**
- Aspose.Cells ayrıca çalışma zamanında grafiğin göstergesini yönetmeye de olanak tanır.[Efsane](https://reference.aspose.com/cells/net/aspose.cells.charts/legend/) nesne, açıklama taşınabilir, güncellenebilir ve biçimlendirilebilir.
 
-|![yapılacak şey:image_alt_text](chart_legend.png)|
+## **Açıklama Seçenekleri**
+Aspose.Cells, çalışma zamanında grafik açıklamasını yönetmenize olanak tanır. [Açıklama](https://reference.aspose.com/cells/net/aspose.cells.charts/legend/) nesnesi ile açıklama taşınabilir, güncellenebilir ve biçimlendirilebilir.
 
-##  **Grafiğin Açıklamasını Ayarlama**
- Grafiğin açıklamasını Aspose.Cells ile yönetmek çok kolay[Efsane](https://reference.aspose.com/cells/net/aspose.cells.charts/legend/).
+|![todo:image_alt_text](chart_legend.png)|
 
-Aşağıdaki kod parçacığı göstergenin nasıl yönetileceğini gösterir:
+## **Grafiğin Açıklamasını Ayarlama**
+Grafiğin açıklamasını Aspose.Cells [Açıklama](https://reference.aspose.com/cells/net/aspose.cells.charts/legend/) ile yönetmek basittir.
+
+Aşağıdaki kod parçası, açıklamanın nasıl yönetileceğini göstermektedir:
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chart_legend.cs" >}}
 
-##  **İleri konular**
-- [Aspose.Cells'i kullanarak grafik göstergesi girişi dolgusunun metnini yok olarak ayarlayın](/cells/tr/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+## **Gelişmiş Konular**
+- [Grafik lejant giriş dolgu metnini hiçbir şeye ayarlayın using Aspose.Cells](/cells/tr/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)

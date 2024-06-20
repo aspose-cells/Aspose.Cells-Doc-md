@@ -1,19 +1,20 @@
-﻿---
-title: Tablo Raporu Oluşturmaya Hazırlanma
+---
+title: Tablo Raporu Oluşturulması için Hazırlık
 type: docs
 weight: 10
 url: /tr/reportingservices/preparing-for-creating-table-report/
 ---
- Tablolu bir rapor oluşturmadan önce, kullanıcı önce veri kaynaklarını, veri kümelerini ve rapor parametrelerini (isteğe bağlı) aşağıda açıklandığı gibi oluşturmalıdır.[Veri Kaynakları ve Sorgular](/cells/tr/reportingservices/data-sources-and-queries/).
 
-Aşağıda, SQL Server Reporting Services 2005 ile birlikte gelen AdventureWorks örnek veritabanını kullanıyoruz.
+Tablo raporu oluşturmadan önce kullanıcı, ilk olarak [Veri Kaynakları ve Sorgular](/cells/tr/reportingservices/data-sources-and-queries/) bölümünde açıklanan şekilde veri kaynakları, veri setleri ve rapor parametrelerini (isteğe bağlı) oluşturmalıdır.
 
-1. EmpSalesDetail adlı bir veri kümesi oluşturun. Bunu tablonun veri kaynağı olarak kullanacağız. Veri kümesinin üç parametresi vardır: ReportYear, ReportMonth ve EmpID.
- EmpSalesDetail'i tanımlayan SQL aşağıdaki gibidir:
+Aşağıda, SQL Server Raporlama Servisleri 2005 ile birlikte sevk edilen AdventureWorks örnek veritabanını kullanıyoruz.
+
+1. EmpSalesDetail adında bir veri seti oluşturun. Bunu tablonun veri kaynağı olarak kullanacağız. Veri setinde üç parametre bulunmaktadır: RaporYılı, RaporAyı ve EmpID.
+   EmpSalesDetail'i tanımlayan SQL şu şekildedir: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT C.FirstName+' '+C.LastName 'Employee',
 
@@ -83,12 +84,12 @@ PC.Name
 
 {{< /highlight >}}
 
-1. SalesEmps adlı bir veri kümesi oluşturun. EmpID parametresi için geçerli değerler olarak bunu kullanacağız.
- SalesEmps'i tanımlayan SQL şudur:
+1. SalesEmps adında bir veri seti oluşturun. Bunu EmpID parametresi için geçerli değerler olarak kullanacağız.
+   SalesEmps'i tanımlayan SQL şudur: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT  E.EmployeeID,  C.FirstName + N' ' + C.LastName AS Employee
 
@@ -102,28 +103,28 @@ ON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName
 
 {{< /highlight >}}
 
-1.  Üç rapor parametresi oluşturun: ReportYear, ReportMonth ve EmpID.
- 1. ReportYear parametresi için geçerli değerler şunlardır:
+1. ReportYear, ReportMonth ve EmpID olmak üzere üç rapor parametresi oluşturun. 
+   1. ReportYear parametresi için geçerli değerler: 
 
-![yapılacaklar:resim_alternatif_metin](preparing-for-creating-table-report_1.png)
-
-
-
-
-1. ReportMonth parametresi için geçerli değerler:
-
-![yapılacaklar:resim_alternatif_metin](preparing-for-creating-table-report_2.png)
+![todo:image_alt_text](preparing-for-creating-table-report_1.png)
 
 
 
 
-1.  EmpID parametresi için geçerli değerler şunlardır:
+1. ReportMonth parametresi için geçerli değerler: 
 
-![yapılacaklar:resim_alternatif_metin](preparing-for-creating-table-report_3.png)
-
-
+![todo:image_alt_text](preparing-for-creating-table-report_2.png)
 
 
-1.  Veri kümesi parametrelerini aşağıdaki gibi rapor parametreleriyle eşleyin:
 
-![yapılacaklar:resim_alternatif_metin](preparing-for-creating-table-report_4.png)
+
+1. EmpID parametresi için geçerli değer: 
+
+![todo:image_alt_text](preparing-for-creating-table-report_3.png)
+
+
+
+
+1. Veri seti parametrelerini rapor parametrelerine aşağıdaki gibi eşleyin: 
+
+![todo:image_alt_text](preparing-for-creating-table-report_4.png)

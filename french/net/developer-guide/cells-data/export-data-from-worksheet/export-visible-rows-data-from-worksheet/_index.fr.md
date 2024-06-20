@@ -1,27 +1,28 @@
 ---
-title: Exporter les données des lignes visibles à partir d'une feuille de calcul
+title: Exporter les données des lignes visibles de la feuille de calcul
 type: docs
 weight: 10
 url: /fr/net/export-visible-rows-data-from-worksheet/
-description: Découvrez comment exporter les données des lignes visibles à partir d'une feuille de calcul via le Aspose.Cells for .NET API.
-keywords: Export Visible Rows Data to DataTable, Export unhidden Rows Data to DataTable, Export Rows Data to DataTable and Exclude hidden rows, Ignore Hidden Rows while Exporting Worksheet Data to Data Table
+description: Apprenez comment exporter les données des lignes visibles de la feuille de calcul via l API Aspose.Cells for .NET.
+keywords: Exporter les données des lignes visibles dans le DataTable, Exporter les données des lignes non masquées dans le DataTable, Exporter les données des lignes dans le DataTable et Exclure les lignes masquées, Ignorer les lignes masquées lors de l exportation des données de la feuille de calcul dans le DataTable
 ---
+
 {{% alert color="primary" %}}
 
- Vous pouvez exporter les données des feuilles de calcul vers des tableaux de données à l'aide de Aspose.Cells. Parfois, vous souhaitez exporter uniquement les données des lignes visibles. Aspose.Cells fournit un moyen d’y parvenir. Utilisez le[**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows)pour spécifier que vous souhaitez exporter uniquement les données des lignes visibles.
+Vous pouvez exporter des données des feuilles de calcul dans des tables de données en utilisant Aspose.Cells. Parfois, vous voulez exporter uniquement les données des lignes visibles. Aspose.Cells fournit un moyen d'y parvenir. Utilisez [**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows) pour spécifier que vous voulez exporter uniquement les données des lignes visibles.
 
 {{% /alert %}}
 
 Cet exemple montre comment exporter les données de la feuille de calcul suivante. Les lignes 5, 6 et 7 sont masquées.
 
-|**Exemples de données dans la feuille de calcul, les lignes 5, 6 et 7 sont masquées**|
+|**Exemple de données dans la feuille de calcul, les lignes 5, 6 et 7 sont masquées**|
 | :- |
-|![tâche : image_alt_text](export-visible-rows-data-from-worksheet_1.png)|
+|![todo:image_alt_text](export-visible-rows-data-from-worksheet_1.png)|
 
- Une fois les données exportées vers une table de données à l'aide du[**Feuille de calcul.Cells.ExportDataTable()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) méthode avec le[**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows)option, cela ressemblera à ceci. Les lignes masquées sont tracées sous forme de lignes vides
+Une fois que les données sont exportées vers un DataTable en utilisant la méthode [**Worksheet.Cells.ExportDataTable()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) avec l'option [**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows), elles ressembleront à ceci. Les lignes masquées sont représentées sous forme de lignes vierges
 
-|**Les lignes masquées sont exportées vers la table de données sous forme de lignes vides**|
+|**Les lignes masquées sont exportées vers le tableau de données sous forme de lignes vides**|
 | :- |
-|![tâche : image_alt_text](export-visible-rows-data-from-worksheet_2.png)|
+|![todo:image_alt_text](export-visible-rows-data-from-worksheet_2.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExportVisibleRowsData-1.cs" >}}

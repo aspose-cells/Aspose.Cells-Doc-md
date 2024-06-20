@@ -1,21 +1,22 @@
 ---
-title: قم بتغيير المحاذاة Cells واحتفظ بالتنسيق الموجود
-description: استخدم مكتبة Aspose.Cells لتغيير محاذاة الخلية والحفاظ على التنسيق الحالي
-keywords: Aspose.Cells, C#, Cell alignment, preserve existing formatting
+title: تغيير توجيه الخلايا والاحتفاظ بالتنسيقات الحالية
+description: استخدم مكتبة Aspose.Cells لتغيير توجيه الخلية والحفاظ على التنسيق الحالي
+keywords: Aspose.Cells، C#، توجيه الخلية، الحفاظ على التنسيق الحالي
 type: docs
 weight: 340
 url: /ar/net/change-cells-alignment-and-keep-existing-formatting/
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-في بعض الأحيان، تريد تغيير محاذاة خلايا متعددة ولكنك تريد أيضًا الاحتفاظ بالتنسيق الحالي. Aspose.Cells يسمح لك بالقيام بذلك باستخدام[**StyleFlag.Alignments**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/alignments) ملكية. إذا قمت بتعيينه *صحيح**، فإن التغييرات في المحاذاة ستحدث وإلا فلن يحدث ذلك. يرجى الملاحظة،[**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) يتم تمرير الكائن كمعلمة إلى[**Range.ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/applystyle)الطريقة التي تطبق التنسيق فعليًا على نطاق من الخلايا.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **قم بتغيير المحاذاة Cells واحتفظ بالتنسيق الموجود**
+في بعض الأحيان، ترغب في تغيير توجيه خلايا متعددة ولكنك ترغب أيضًا في الاحتفاظ بالتنسيق الحالي. Aspose.Cells يسمح لك بالقيام به باستخدام الخاصية [**StyleFlag.Alignments**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/alignments). إذا قمت بضبطها على **true**, سيحدث تغيير في التوجيه وإلا لن يحدث. يرجى ملاحظة، يتم تمرير كائن [**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) كمعلمة إلى طريقة [**Range.ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/applystyle) التي تقوم بتطبيق التنسيق على مجموعة من الخلايا.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[عينة من ملف إكسل](67338585.xlsx) ، يقوم بإنشاء النطاق ومحاذاته في الوسط أفقيًا وعموديًا ويحافظ على التنسيق الحالي كما هو. تقارن لقطة الشاشة التالية نموذج ملف Excel و[إخراج ملف إكسل](67338586.xlsx) ويبين أن جميع التنسيقات الموجودة للخلايا هي نفسها فيما عدا أن الخلايا أصبحت الآن محاذاة للوسط أفقيًا وعموديًا.
+## **تغيير توجيه الخلايا والاحتفاظ بالتنسيقات الحالية**
 
-![ما يجب القيام به:image_alt_text](change-cells-alignment-and-keep-existing-formatting_1.png)
+الكود النموذجي التالي يقوم بتحميل الملف الإكسل النموذجي، ينشئ المدى ويضبط توسيطه أفقيا وعموديا ويحتفظ بالتنسيق الحالي. الصورة النموذجية التالية تقارن ملف الإكسل النموذجي وملف الإكسل الناتج وتُظهر أن جميع التنسيقات الحالية للخلايا هي نفسها باستثناء أن الخلايا الآن موجهة في منتصف الخط أفقيًا وعموديًا.
 
-##  **عينة من الرموز**
+![todo:image_alt_text](change-cells-alignment-and-keep-existing-formatting_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-ChangeCellsAlignmentAndKeepExistingFormatting.cs" >}}

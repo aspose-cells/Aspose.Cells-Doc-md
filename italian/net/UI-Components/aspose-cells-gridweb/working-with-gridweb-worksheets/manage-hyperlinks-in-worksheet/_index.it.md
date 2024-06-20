@@ -1,59 +1,62 @@
-﻿---
-title: Gestisci i collegamenti ipertestuali nel foglio di lavoro
+---
+title: Gestione degli Hyperlink nel foglio di lavoro
 type: docs
 weight: 100
-url: /it/net/manage-hyperlinks-in-worksheet/
+url: /it/net/aspose-cells-gridweb/manage-hyperlinks-in-worksheet/
+keywords: GridWeb, hyperlink
+description: Questo articolo introduce come lavorare con il collegamento ipertestuale in GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Questo argomento illustra quali tipi di collegamenti ipertestuali sono supportati in Aspose.Cells.GridWeb e come gestirli a livello di codice. I collegamenti ipertestuali possono essere utilizzati per creare collegamenti a URL Web o per eseguire il postback su un server.
+Questo argomento discute quali tipi di collegamenti ipertestuali sono supportati in Aspose.Cells.GridWeb e come gestirli programmaticamente. I collegamenti ipertestuali possono essere utilizzati sia per creare collegamenti a URL web sia per eseguire un postback a un server.
 
 {{% /alert %}} 
-## **Lavorare con i collegamenti ipertestuali**
-### **Tipi di collegamenti ipertestuali**
+## **Lavorare con Collegamenti Ipotestuali**
+### **Tipi di Collegamenti Ipotestuali**
 Generalmente, i seguenti collegamenti ipertestuali sono supportati da Aspose.Cells.GridWeb:
 
-- [Collegamenti ipertestuali dell'URL](/cells/it/net/manage-hyperlinks-in-worksheet/), collegamenti ipertestuali che possono essere collegati a URL Web.
-- [Collegamenti ipertestuali di testo](/cells/it/net/manage-hyperlinks-in-worksheet/), collegamenti ipertestuali URL applicati al testo.
-- [Collegamenti ipertestuali delle immagini](/cells/it/net/manage-hyperlinks-in-worksheet/), collegamenti ipertestuali URL applicati alle immagini.
-- [Cell collegamenti ipertestuali di comando](/cells/it/net/manage-hyperlinks-in-worksheet/), collegamenti ipertestuali che inviano dati a un server. Tali collegamenti ipertestuali agiscono più come un pulsante che attiva un evento lato server quando viene cliccato.
+- [Collegamenti ipertestuali URL](/cells/it/net/aspose-cells-gridweb/manage-hyperlinks-in-worksheet/), collegamenti ipertestuali che possono essere collegati a URL web.
+- [Collegamenti ipertestuali di testo](/cells/it/net/aspose-cells-gridweb/manage-hyperlinks-in-worksheet/), collegamenti ipertestuali URL applicati al testo.
+- [Collegamenti ipertestuali di immagini](/cells/it/net/aspose-cells-gridweb/manage-hyperlinks-in-worksheet/), collegamenti ipertestuali URL applicati alle immagini.
+- [Collegamenti ipertestuali di comando celle](/cells/it/net/aspose-cells-gridweb/manage-hyperlinks-in-worksheet/), collegamenti ipertestuali che inviano dati a un server. Tali collegamenti ipertestuali agiscono più come un pulsante che attiva un evento lato server quando viene cliccato.
 
-Le sezioni seguenti descrivono in dettaglio l'uso di tutti i tipi di collegamenti ipertestuali. Discute anche su come accedere o rimuovere i link.
-### **Aggiunta di collegamenti ipertestuali**
+Le sezioni seguenti descrivono l'uso di tutti i tipi di collegamenti ipertestuali in dettaglio. Si discute anche come accedere o rimuovere i collegamenti.
+### **Aggiunta di Collegamenti Ipotestuali**
 
-#### **Collegamenti ipertestuali dell'URL**
-I collegamenti ipertestuali URL assomigliano più a semplici collegamenti ipertestuali che si vedono normalmente sui siti web. Un collegamento ipertestuale URL funziona come un'ancora in una cella. Ogni volta che viene cliccato, naviga verso una pagina web o apre una nuova finestra del browser.
+#### **Collegamenti Ipotestuali URL**
+I collegamenti ipertestuali URL assomigliano più a semplici collegamenti ipertestuali che normalmente si vedono sui siti web. Un collegamento ipertestuale URL funziona come un'ancla in una cella. Ogni volta che viene cliccato, naviga su una pagina web o apre una nuova finestra del browser.
 
-Esistono diversi tipi di collegamenti ipertestuali URL:
+Ci sono diversi tipi di collegamenti ipertestuali URL:
 
 - Collegamenti ipertestuali di testo.
-- Collegamenti ipertestuali delle immagini.
+- Collegamenti ipertestuali di immagini.
 
-Gli sviluppatori possono specificare un'immagine per il collegamento ipertestuale. Se non viene specificata un'immagine, viene creato un collegamento ipertestuale di testo; altrimenti viene creato un collegamento ipertestuale immagine.
+Gli sviluppatori possono specificare un'immagine per il collegamento ipertestuale. Se un'immagine non è specificata, viene creato un collegamento ipertestuale di testo; altrimenti, viene creato un collegamento ipertestuale di immagine.
 
 
-##### **Collegamenti ipertestuali di testo**
+##### **Collegamenti Ipotestuali di Testo**
 Per aggiungere un collegamento ipertestuale di testo a un foglio di lavoro:
 
-1. Aggiungere il controllo Aspose.Cells.GridWeb al Web Form.
+1. Aggiungi il controllo Aspose.Cells.GridWeb al tuo modulo web.
 1. Accedi a un foglio di lavoro.
-1. Aggiungere un collegamento ipertestuale a una cella nel foglio di lavoro.
+1. Aggiungi un collegamento ipertestuale a una cella nel foglio di lavoro.
 1. Imposta il testo che verrà mostrato nella cella.
 1. Imposta l'URL del collegamento ipertestuale.
-1. Impostare la destinazione del collegamento ipertestuale, se lo si desidera.
-1. Impostare una descrizione comandi, se lo si desidera.
+1. Imposta il target del collegamento ipertestuale, se desiderato.
+1. Imposta un suggerimento per lo strumento, se desiderato.
 
 {{% alert color="primary" %}} 
 
- NOTA: la destinazione del collegamento ipertestuale può essere impostata su_ se stesso,_top o _parent per aprire rispettivamente gli URL web in una finestra nuova, corrente o in alto.
+NOTA: Il target del collegamento ipertestuale può essere impostato su _self, _top o _parent per aprire gli URL web in una nuova finestra, la finestra corrente o la finestra superiore rispettivamente.
 
 {{% /alert %}} 
 
-L'esempio seguente aggiunge due collegamenti ipertestuali a un foglio di lavoro. Uno non ha target mentre l'altro è impostato su _parent.
+Nell'esempio sottostante vengono aggiunti due collegamenti ipertestuali a un foglio di lavoro. Uno non ha alcun target, mentre l'altro è impostato su _parent.
 
 **Output: collegamenti ipertestuali di testo aggiunti al foglio di lavoro** 
 
-![cose da fare:immagine_alt_testo](manage-hyperlinks-in-worksheet_1.png)
+![todo:image_alt_text](manage-hyperlinks-in-worksheet_1.png)
 
 
 
@@ -63,61 +66,61 @@ L'esempio seguente aggiunge due collegamenti ipertestuali a un foglio di lavoro.
 ##### **Collegamenti ipertestuali delle immagini**
 Per aggiungere un collegamento ipertestuale all'immagine:
 
-1. Aggiungere il controllo Aspose.Cells.GridWeb al Web Form.
+1. Aggiungi il controllo Aspose.Cells.GridWeb al tuo modulo web.
 1. Accedi a un foglio di lavoro.
-1. Aggiungere un collegamento ipertestuale a una cella.
+1. Aggiungi un collegamento ipertestuale a una cella.
 1. Imposta l'URL dell'immagine che verrà visualizzata come collegamento ipertestuale.
 1. Imposta l'URL del collegamento ipertestuale.
-1. Impostare una descrizione comandi, se lo si desidera.
-1. Impostare il testo del collegamento ipertestuale, se lo si desidera.
+1. Imposta un suggerimento per lo strumento, se desiderato.
+1. Imposta il testo del collegamento ipertestuale, se desiderato.
 
-**Output: collegamenti ipertestuali immagine aggiunti al foglio di lavoro** 
+**Output: collegamenti ipertestuali delle immagini aggiunti al foglio di lavoro** 
 
-![cose da fare:immagine_alt_testo](manage-hyperlinks-in-worksheet_2.png)
+![todo:image_alt_text](manage-hyperlinks-in-worksheet_2.png)
 
 {{% alert color="primary" %}} 
 
- L'impostazione dell'AltText del collegamento ipertestuale dell'immagine svolge una funzione simile all'impostazione di an<ALT> tag in HTML. Il testo viene visualizzato solo se l'immagine con collegamento ipertestuale non viene visualizzata. (Ad esempio, se l'immagine non si trova nella posizione specificata.) Se l'immagine del secondo collegamento ipertestuale non viene trovata, l'output del frammento di codice seguente avrà il seguente aspetto.
+Setting the image hyperlink's AltText fills a similar function as setting an <ALT> tag in HTML. The text is displayed only if the hyperlinked image is not displayed. (For example, if the image isn't at the specified location.) If the image of the second hyperlink is not found, the output of the code snippet below would look as follows.
 
-**Impossibile trovare l'immagine per l'URL dell'immagine** 
+**Non è stato possibile trovare l'immagine per l'URL dell'immagine** 
 
-![cose da fare:immagine_alt_testo](manage-hyperlinks-in-worksheet_3.png)
+![todo:image_alt_text](manage-hyperlinks-in-worksheet_3.png)
 
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AddHyperlinks.aspx-AddImageHyperlinks.cs" >}}
 
 
-#### **Cell Comando Collegamenti ipertestuali**
-Un collegamento ipertestuale di comando cella è un tipo speciale di collegamento ipertestuale che attiva un evento sul lato server invece di aprire una pagina Web. Gli sviluppatori possono aggiungere codice all'evento lato server ed eseguire qualsiasi attività quando si fa clic sul collegamento ipertestuale. Questa funzione consente agli sviluppatori di creare più applicazioni interattive.
+#### **Collegamenti ipertestuali delle celle di comando**
+Un collegamento ipertestuale di comando della cella è un tipo speciale di collegamento ipertestuale che attiva un evento lato server invece di aprire una pagina web. Gli sviluppatori possono aggiungere codice all'evento lato server e eseguire qualsiasi attività quando il collegamento ipertestuale viene cliccato. Questa funzionalità consente agli sviluppatori di creare applicazioni più interattive.
 
-Per aggiungere un collegamento ipertestuale al comando di cella:
+Per aggiungere un collegamento ipertestuale di comando della cella:
 
-1. Aggiungere il controllo Aspose.Cells.GridWeb al Web Form.
+1. Aggiungi il controllo Aspose.Cells.GridWeb al tuo modulo web.
 1. Accedi a un foglio di lavoro.
-1. Aggiungere un collegamento ipertestuale a una cella.
-1. Impostare il comando del collegamento ipertestuale su qualsiasi valore desiderato.
- Il valore viene utilizzato dal gestore dell'evento del collegamento ipertestuale per riconoscerlo.
-1. Impostare una descrizione comandi, se lo si desidera.
+1. Aggiungi un collegamento ipertestuale a una cella.
+1. Imposta il comando del collegamento ipertestuale su un valore desiderato.
+   Il valore è utilizzato dall'handler dell'evento del collegamento ipertestuale per riconoscerlo.
+1. Imposta un suggerimento per lo strumento, se desiderato.
 1. Imposta l'URL per l'immagine che verrà visualizzata come collegamento ipertestuale.
 
-**Un collegamento ipertestuale di comando cella è stato aggiunto al foglio di lavoro** 
+**Un collegamento ipertestuale di comando della cella è stato aggiunto al foglio di lavoro** 
 
-![cose da fare:immagine_alt_testo](manage-hyperlinks-in-worksheet_4.png)
+![todo:image_alt_text](manage-hyperlinks-in-worksheet_4.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AddHyperlinks.aspx-AddCellCommandHyperlinks.cs" >}}
-##### **Gestione degli eventi dei collegamenti ipertestuali di comando Cell**
-Gli sviluppatori devono creare un gestore eventi per l'evento CellCommand del controllo GridWeb per eseguire attività specifiche quando si fa clic su un collegamento ipertestuale di comando cella specifico. Il gestore dell'evento dell'evento CellCommand fornisce un oggetto del tipo CellEventArgs che offre la proprietà Argument. Utilizzare la proprietà Argument per identificare un collegamento ipertestuale specifico confrontandone il valore CellCommand.
+##### **Gestione degli eventi dei collegamenti ipertestuali di comando cella**
+Gli sviluppatori devono creare un gestore eventi per l'evento CellCommand del controllo GridWeb per eseguire compiti specifici quando viene cliccato un collegamento ipertestuale di comando della cella specifica. Il gestore eventi di CellCommand fornisce un oggetto del tipo CellEventArgs che offre la proprietà Argument. Utilizza la proprietà Argument per identificare un collegamento ipertestuale specifico confrontando il suo valore di CellCommand.
 
-L'esempio seguente crea un gestore eventi per il collegamento ipertestuale del comando cella creato nel codice precedente. Il CellCommand del collegamento ipertestuale è stato impostato su Click. Quindi, nel gestore dell'evento, prima controllalo e poi aggiungi il codice che visualizza un messaggio nella cella A6.
+L'esempio sottostante crea un gestore eventi per il collegamento ipertestuale di comando della cella creato nel codice sopra. Il CellCommand del collegamento ipertestuale è stato impostato su Click. Quindi, nell'handler dell'evento, controlla prima di aggiungere il codice che visualizza un messaggio nella cella A6.
 
-Il gestore dell'evento viene richiamato quando si fa clic sul collegamento ipertestuale.
+Il gestore eventi viene invocato quando il collegamento ipertestuale viene cliccato.
 
-**Output: testo aggiunto alla cella A6 quando si fa clic sul collegamento ipertestuale** 
+**Output: testo aggiunto alla cella A6 quando viene cliccato il collegamento ipertestuale** 
 
-![cose da fare:immagine_alt_testo](manage-hyperlinks-in-worksheet_5.png)
+![todo:image_alt_text](manage-hyperlinks-in-worksheet_5.png)
 
 
 
@@ -126,18 +129,18 @@ Il gestore dell'evento viene richiamato quando si fa clic sul collegamento ipert
 Per accedere a un collegamento ipertestuale esistente:
 
 1. Accedi alla cella che lo contiene.
-1. Ottieni il riferimento di cella.
-1. Passare il riferimento al metodo GetHyperlink della raccolta Hyperlinks per accedere al collegamento ipertestuale.
+1. Ottieni il riferimento della cella.
+1. Passa il riferimento al metodo GetHyperlink della collezione Hyperlinks per accedere al collegamento ipertestuale.
 1. Modifica le proprietà del collegamento ipertestuale.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-ManageHyperlinks.aspx-AccessHyperlinks.cs" >}}
-### **Rimozione di collegamenti ipertestuali**
+### **Rimozione dei collegamenti ipertestuali**
 Per rimuovere un collegamento ipertestuale:
 
-1. Accedi al foglio di lavoro attivo.
-1. Rimuovere un collegamento ipertestuale utilizzando il metodo Remove della raccolta Hyperlinks.
+1. Accedi alla scheda attiva.
+1. Rimuovi un collegamento ipertestuale utilizzando il metodo Rimuovi della raccolta Collegamenti ipertestuali.
 
 
 

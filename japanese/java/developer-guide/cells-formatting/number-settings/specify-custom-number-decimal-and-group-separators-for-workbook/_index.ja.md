@@ -1,33 +1,34 @@
-﻿---
-title: ワークブックのカスタム数値の小数点記号とグループ区切り記号を指定する
+---
+title: ブックでのカスタム番号の小数点とグループの区切り記号を指定する
 type: docs
 weight: 100
 url: /ja/java/specify-custom-number-decimal-and-group-separators-for-workbook/
-description: この記事では、Aspose.Cells for Java API.
-keywords: specify custom decimal separator excel, specify custom decimal separator excel java, specify custom group separator excel, specify custom group separator excel java, specify custom decimal and group separator excel, specify custom decimal and group separator excel java, change decimal and group separator excel java, change decimal and group separator excel, change decimal separator excel, change decimal separator excel java, change group separator excel, change group separator excel java
+description: この記事では、Aspose.Cells for Java APIを使用してMS Excelで番号の小数点およびグループの区切り記号を変更する方法を示しています。
+keywords: エクセルのカスタム小数点セパレータを指定する、エクセルのカスタム小数点セパレータを指定するためのjava、エクセルのカスタムグループセパレータを指定する、エクセルのカスタムグループセパレータを指定するためのjava、エクセルのカスタム小数点およびグループセパレータを指定する、エクセルのカスタム小数点およびグループセパレータを指定するためのjava、エクセルの小数点およびグループセパレータを変更するためのjava、エクセルの小数点およびグループセパレータを変更する、エクセルの小数点セパレータを変更するためのjava、エクセルの小数点セパレータを変更する、エクセルのグループセパレータを変更するためのjava、エクセルのグループセパレータを変更する
 ---
+
 {{% alert color="primary" %}}
 
- Microsoft Excel では、システム区切り記号を使用する代わりに、カスタムの小数点記号と桁区切り記号を指定できます。**高度な Excel オプション**下のスクリーンショットに示すように。
+Microsoft Excelでは、**その他のExcelオプション** から **詳細設定** を使用せずに、カスタムの小数点および千の区切り記号を指定できます。次のスクリーンショットでは、その手順が示されています。
 
-Aspose.Cells は[**WorkbookSettings.setNumberDecimalSeparator()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#NumberDecimalSeparator)と[WorkbookSettings.setNumberGroupSeparator()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#NumberGroupSeparator)プロパティを使用して、数値の書式設定/解析用のカスタム セパレータを設定します。
+Aspose.Cellsは、[**WorkbookSettings.setNumberDecimalSeparator()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#NumberDecimalSeparator)および[WorkbookSettings.setNumberGroupSeparator()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#NumberGroupSeparator)プロパティを提供しており、数値のフォーマット設定/解析のためにカスタムセパレータを設定できます。
 
 {{% /alert %}}
 
-## **Microsoft Excel を使用したカスタム セパレータの指定**
+## **Microsoft Excelを使用してカスタムセパレータを指定する**
 
-1. 開ける**オプション**の中に**ファイル**タブ。
-1. 開く**高度**タブ。
-1. で設定を変更します。**編集オプション**セクション。
+1. **ファイル** タブで **オプション** を開きます。
+1. **詳細設定** タブを開きます。
+1. **編集オプション** セクションの設定を変更します。
 
-次のスクリーンショットは、**高度な Excel オプション**セクションを強調表示して、**カスタムセパレーター**.
+次のスクリーンショットは、**詳細設定** タブを示し、**カスタムセパレータ** を指定するセクションを強調しています。
 
-![todo:画像_代替_文章](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
+![todo:image_alt_text](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 
-## **Aspose.Cells を使用したカスタム セパレータの指定**
+## **Aspose.Cellsを使用してカスタムセパレータを指定する**
 
-次のサンプル コードは、Aspose.Cells API を使用してカスタム セパレータを指定する方法を示しています。これは、カスタム数値の小数点とグループ セパレータをそれぞれドットとスペースとして指定しています。だから数**123,456.789**として表示されます**123 456.789**コードによって生成された出力 PDF を示すスクリーンショットに示すように。
+次のサンプルコードは、Aspose.Cells APIを使用してカスタムセパレータを指定する方法を示しています。これにより、数字 **123,456.789** が **123 456.789** と表示されるようになります。このスクリーンショットは、そのコードによって生成された出力PDFを示しています。
 
-![todo:画像_代替_文章](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
+![todo:image_alt_text](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyingCustomSeparators-SpecifyingCustomSeparators.java" >}}

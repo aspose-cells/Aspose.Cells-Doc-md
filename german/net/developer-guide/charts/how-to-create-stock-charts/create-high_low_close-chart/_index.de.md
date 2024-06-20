@@ -1,20 +1,21 @@
 ---
-title: Erstellen Sie ein High-Low-Close (HLC)-Aktiendiagramm
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET ein Hoch-Tief-Schluss-Aktiendiagramm erstellen. Unsere Schritt-für-Schritt-Anleitung zeigt, wie Sie Börsendaten, einschließlich der Höchst-, Tiefst- und Schlusskurse, zur besseren Analyse und Visualisierung in einem Diagramm darstellen .
-keywords: Aspose.Cells for .NET, High-Low-Close Stock Chart, Stock Market Data, Analysis, Visualization.
+title: Erstellen eines Hoch Tief Schluss(HLC) Aktiendiagramms
+description: Erfahren Sie, wie Sie ein Hoch Tief Schluss Aktiendiagramm mit Aspose.Cells for .NET erstellen. Unsere schrittweise Anleitung wird zeigen, wie Sie Börsendaten, einschließlich der Hoch , Tief und Schlusskurse, für eine bessere Analyse und Visualisierung in ein Diagramm eintragen.
+keywords: Aspose.Cells for .NET, Hoch Tief Schluss Aktiendiagramm, Börsendaten, Analyse, Visualisierung.
 type: docs
 weight: 181
 url: /de/net/create-high-low-close-stock-chart/
 ---
-##  **Mögliche Nutzungsszenarien**
-Das High-Low-Close (HLC)-Aktiendiagramm verwendet vier Datenspalten. Die erste Spalte ist eine Kategorie, normalerweise ein Datum, es können jedoch auch Aktiennamen verwendet werden. Die nächsten drei Spalten in der Reihenfolge sind für Höchst-, Tiefst- und Schlusskurse. Die Preisspanne für jede Kategorie wird durch eine vertikale Linie vom Tief zum Hoch angezeigt, und der Schlusskurs wird durch ein Häkchen angezeigt, das sich rechts von dieser Linie erstreckt.
+
+## **Mögliche Verwendungsszenarien**
+Das Hoch-Tief-Schluss (HLC)-Aktiendiagramm verwendet vier Datenreihen. Die erste Reihe ist in der Regel eine Kategorie, üblicherweise ein Datum, aber auch Aktiennamen können verwendet werden. Die nächsten drei Reihen sind für die Hoch-, Tief- und Schlusskurse vorgesehen. Der Kursbereich für jede Kategorie wird durch eine vertikale Linie von Tief- zu Hochkurs angezeigt, und der Schlusskurs wird durch ein Tickzeichen angezeigt, das sich rechts von dieser Linie erstreckt.
 
 ![todo:image_alt_text](sample.png)
-##  **Sichtbarkeitsverbesserungen im Diagramm**
-Um das Diagramm intuitiver zu gestalten, können wir manchmal das Erscheinungsbild der Markierung ändern (schließen) oder sie auf der Sekundärachse anzeigen lassen.
+## **Verbesserungen der Sichtbarkeit im Diagramm**
+Manchmal können wir das Aussehen des Markers (Schlusskurs) anpassen oder ihn auf der sekundären Achse anzeigen, um das Diagramm übersichtlicher zu gestalten.
 
 ![todo:image_alt_text](sample2.png)
-##  **Beispielcode**
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](High-Low-Close.xlsx) und erzeugt die[Excel-Datei ausgeben](out.xlsx).
+## **Beispielcode**
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](High-Low-Close.xlsx) und generiert die [Ausgabe-Excel-Datei](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-high-low-close-stock-chart.cs" >}}

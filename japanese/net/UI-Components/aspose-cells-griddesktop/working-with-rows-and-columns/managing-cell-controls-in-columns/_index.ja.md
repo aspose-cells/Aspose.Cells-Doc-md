@@ -1,24 +1,27 @@
-﻿---
-title: 列での Cell コントロールの管理
+---
+title: 列のセルコントロールの管理
 type: docs
 weight: 100
-url: /ja/net/managing-cell-controls-in-columns/
+url: /ja/net/aspose-cells-griddesktop/manage-cell-controls-in-columns/
+keywords: GridDesktop,コントロール,制御
+description: この記事では、GridDesktopで列にコントロールを設定する方法について紹介します
 ---
+
 {{% alert color="primary" %}} 
 
-このトピックでは、Aspose.Cells.GridDesktop API を使用して列内のセル コントロールを管理することに関するいくつかの重要な概念について説明します。開発者がワークシートの列からセル コントロールにアクセス、変更、および削除する方法について説明します。それを見てみましょう。
+このトピックでは、Aspose.Cells.GridDesktop APIを使用して列のセルコントロールを管理する際の重要な概念について説明します。開発者がワークシートの列からセルコントロールにアクセスし、変更、削除する方法について説明します。ぜひご覧ください。
 
 {{% /alert %}} 
-## **Cell コントロールへのアクセス**
-開発者は、列内の既存のセル コントロールにアクセスして変更するために、**Aspose.Cells.GridDesktop.Data.GridColumn** .セル コントロールにアクセスすると、開発者は実行時にそのプロパティを変更できます。たとえば、以下の例では、既存の**チェックボックス**特定の細胞制御**Aspose.Cells.GridDesktop.Data.GridColumn**その Checked プロパティを変更しました。
+## **セルコントロールへのアクセス**
+列内の既存のセルコントロールにアクセスして変更するには、開発者は**Aspose.Cells.GridDesktop.Data.GridColumn**の**CellControl**プロパティを使用できます。一度セルコントロールにアクセスすると、開発者はそのプロパティを実行時に変更できます。たとえば、以下の例では、特定の**Aspose.Cells.GridDesktop.Data.GridColumn**から既存の**CheckBox**セルコントロールにアクセスし、そのCheckedプロパティを変更しました。
 
-**重要：** CellControl プロパティは、セル コントロールを次の形式で提供します。**セルコントロール**物体。したがって、特定の種類のセル コントロールにアクセスする必要がある場合は、**チェックボックス**次に、型キャストする必要があります**セルコントロール**異議を唱える**チェックボックス**クラス。
+**重要:** CellControlプロパティは**CellControl**オブジェクトとしてセルコントロールを提供します。そのため、特定のタイプのセルコントロール（例えば**CheckBox**）にアクセスする必要がある場合は、**CellControl**オブジェクトを**CheckBox**クラスにキャストする必要があります。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-ManagingControlsInColumns-AccessCheckbox.cs" >}}
-## **Cell コントロールの削除**
-既存のセル コントロールを削除するには、開発者は目的のワークシートにアクセスしてから、**削除する**を使用して、特定の列からのセル コントロール**削除セル コントロール**方法**Aspose.Cells.GridDesktop.Data.GridColumn**.
+## **セルコントロールの削除**
+既存のセルコントロールを削除するには、開発者は単純に目的のワークシートにアクセスし、**Aspose.Cells.GridDesktop.Data.GridColumn**の**RemoveCellControl**メソッドを使用して特定の列からセルコントロールを削除できます。
 
 
 
@@ -26,6 +29,6 @@ url: /ja/net/managing-cell-controls-in-columns/
 
 {{% alert color="primary" %}} 
 
-の各列**コラム**のコレクション**ワークシート**のインスタンスで表されます**Aspose.Cells.GridDesktop.Data.GridColumn**クラス。
+ワークシートの**Columns**コレクション内の各列は、**Aspose.Cells.GridDesktop.Data.GridColumn**クラスのインスタンスによって表されます。
 
 {{% /alert %}}

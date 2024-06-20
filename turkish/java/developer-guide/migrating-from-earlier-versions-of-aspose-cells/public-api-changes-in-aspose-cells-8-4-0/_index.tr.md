@@ -1,35 +1,36 @@
-﻿---
-title: Genel API Aspose.Cells 8.4.0'daki değişiklikler
+---
+title: Aspose.Cells 8.4.0 taki Genel API Değişiklikleri
 type: docs
 weight: 140
 url: /tr/java/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürüm 8.3.2'den 8.4.0'a modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-4-0/) ve[kaldırılan sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-4-0/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
+Bu belge, Aspose.Cells API'sındaki 8.3.2'den 8.4.0'a kadar olan değişiklikleri, modül / uygulama geliştiricilerin ilgisini çekebilecek şekilde açıklar. Sadece yeni ve güncellenmiş genel yöntemleri, [eklenen sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-4-0/) ve [kaldırılan sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-4-0/) içermez, aynı zamanda Aspose.Cells'in arka plandaki davranışındaki değişikliklerin bir açıklamasını da içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **Elektronik Tablolardaki VBA/Makro Kodunu Değiştirme Mekanizması**
- özelliğini sağlamak için[VBA/Makro Kod Manipülasyonu](/cells/tr/java/modifying-vba-or-macro-code-using-aspose-cells/)Aspose.Cells for Java 8.4.0, com.aspose.cells.Vba paketinde bir dizi yeni sınıf ve özellik ortaya çıkardı. Bu yeni sınıfların önemli detaylarından birkaçı aşağıdaki gibidir.
+[VBA/Makro Kodu Manipülasyonu](/cells/tr/java/modifying-vba-or-macro-code-using-aspose-cells/) özelliğini sağlamak için, Aspose.Cells for Java 8.4.0, com.aspose.cells.Vba paketinde bir dizi yeni sınıf ve özellikleri açığa çıkarmıştır. Bu yeni sınıfların bazı önemli ayrıntıları aşağıdaki gibidir.
 
-- VbaProject sınıfı, belirli bir elektronik tablodan VBA projesini getirmek için kullanılabilir.
-- VbaModuleCollection sınıfı, belirli bir VbaProject'in parçası olan VBA modüllerinin koleksiyonunu temsil eder.
+- VbaProject sınıfı, verilen elektronik tablodan VBA projesini almak için kullanılabilir.
+- VbaModuleCollection sınıfı, verilen VbaProject'ın bir parçası olan VBA modüllerinin koleksiyonunu temsil eder.
 - VbaModule sınıfı, VbaModuleCollection'dan tek bir modülü temsil eder.
 
-Aşağıdaki kod parçacığı, VBA kod bölümlerinin dinamik olarak nasıl değiştirileceğini gösterir.
+Aşağıdaki kod parçası, VBA kod segmentlerini dinamik olarak nasıl değiştireceğinizi gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Çalışma kitabı çalışma kitabı = yeni Çalışma Kitabı("source.xlsm");
+ Workbook workbook = new Workbook("source.xlsm");
 
-//VBA Modül Kodunu Değiştirin
+//Change the VBA Module Code
 
-VbaModuleCollection modülleri = workbook.getVbaProject().getModules();
+VbaModuleCollection modules = workbook.getVbaProject().getModules();
 
- for(int i=0; ben< modules.getCount(); i++)
+for(int i=0; i < modules.getCount(); i++)
 
 {
 
@@ -56,17 +57,17 @@ VbaModuleCollection modülleri = workbook.getVbaProject().getModules();
 workbook.save("output.xlsm");
 
 {{< /highlight >}}
-### **Pivot Tabloyu Kaldırma Yeteneği**
-Aspose.Cells for Java 8.4.0, PivotTableCollection'ın belirli bir e-tablodan Pivot Tablo kaldırma özelliği sağlaması için iki yöntem ortaya çıkardı. Bahsi geçen yöntemlerin detayları aşağıdaki gibidir.
+### **Pivot Tablosu Kaldırma Yeteneği**
+Aspose.Cells for Java 8.4.0, belirli bir elektronik tablodan Pivot Tablosu kaldırma özelliğini sağlamak için PivotTableCollection için iki yöntem sağlamıştır. Yukarıdaki yöntemlerin ayrıntıları aşağıdaki gibidir.
 
-- PivotTableCollection.remove yöntemi, PivotTable'ın bir nesnesini kabul eder ve onu koleksiyondan kaldırır.
-- PivotTableCollection.removeAt yöntemi, sıfır dizin tabanlı bir tamsayı değeri kabul eder ve belirli PivotTable'ı koleksiyondan kaldırır.
+- PivotTableCollection.remove yöntemi, bir PivotTable nesnesini kabul eder ve onu koleksiyondan kaldırır.
+- PivotTabloKoleksiyonu.removeAt yöntemi, sıfır tabanlı bir tamsayı değeri kabul eder ve belirli PivotTable'ı koleksiyondan kaldırır.
 
-Aşağıdaki kod parçacığı, PivotTable'ın yukarıda belirtilen her iki yöntemi de kullanarak nasıl kaldırılacağını gösterir.
+Aşağıdaki kod parçası, yukarıda bahsedilen her iki yöntemi kullanarak PivotTablosu'nu nasıl kaldıracağınızı gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -93,24 +94,24 @@ worksheet.getPivotTables().removeAt(0);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Farklı Pivot Tablo Düzenleri için Destek**
-Aspose.Cells for Java 8.4.0, Pivot Tablolar için önceden tanımlanmış farklı düzenler için destek sağlar. Bu özelliği sağlamak için Aspose.Cells API'leri, PivotTable sınıfı için aşağıda ayrıntılı olarak açıklanan üç yöntemi kullanıma sunmuştur.
+### **Farklı Pivot Tablosu Düzenleri Desteği**
+Aspose.Cells for Java 8.4.0, Pivot Tabloları için farklı önceden tanımlanmış düzenleri desteklemektedir. Bu özelliği sağlamak için Aspose.Cells API'leri PivotTable sınıfı için aşağıdaki üç yöntemi sağlamıştır.
 
-- PivotTable.showInCompactForm yöntemi, Pivot Tabloyu Kompakt mizanpajda işler.
-- PivotTable.showInOutlineForm yöntemi, Pivot Tabloyu Anahat düzeninde işler.
-- PivotTable.showInTabularForm yöntemi, Pivot Tabloyu Tablo düzeninde işler.
+- PivotTable.showInCompactForm yöntemi, Pivot Tablosunu Kompakt düzeninde renderlar.
+- PivotTable.showInOutlineForm yöntemi, Pivot Tablosunu Anahat düzeninde renderlar.
+- PivotTable.showInTabularForm yöntemi, Pivot Tablosunu Tablo düzeninde renderlar.
 
 {{% alert color="primary" %}} 
 
- Yukarıda belirtilen düzenlerden herhangi birini ayarladıktan sonra PivotTable.refreshData & PivotTable.calculateData'yı çağırmak önemlidir.
+Yukarıdaki düzenlerden herhangi birini ayarladıktan sonra PivotTable.refreshData ve PivotTable.calculateData metodlarını çağırmak önemlidir. 
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kod, Pivot Tablo için farklı düzenler ayarlar ve sonucu diskte depolar.
+Aşağıdaki örnek kod, bir Pivot Tablosu için farklı düzenler belirler ve sonucu diske kaydeder.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -167,19 +168,19 @@ pivotTable.calculateData();
 workbook.save("TabularForm.xlsx");
 
 {{< /highlight >}}
-### **Sınıf TxtLoadStyleStrategy ve Özellik TxtLoadOptions.LoadStyleStrategy Eklendi**
-Aspose.Cells for Java 8.4.0, dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılan değerleri biçimlendirme stratejisini belirtmek için TxtLoadStyleStrategy sınıfını ve TxtLoadOptions.LoadStyleStrategy özelliğini kullanıma sundu.
-### **Yöntem DataBar.ToImage Eklendi**
-v8.4.0'ın piyasaya sürülmesiyle, Aspose.Cells API, koşullu olarak biçimlendirilmiş DataBar'ı görüntü biçiminde kaydetmek için DataBar.toImage yöntemini sağladı. {DataBar.toImage}} yöntemi, aşağıda ayrıntıları verilen iki parametreyi kabul eder.
+### **Class TxtLoadStyleStrategy & Property TxtLoadOptions.LoadStyleStrategy Eklendi**
+Aspose.Cells for Java 8.4.0, dize değerini sayıya veya tarih saatine dönüştürürken ayrıntılı değerleri biçimlendirmek için TxtLoadStyleStrategy sınıfını ve TxtLoadOptions.LoadStyleStrategy özelliğini sağlamıştır.
+### **DataBar.ToImage Metodu Eklendi**
+V8.4.0'ın yayınlanmasıyla, Aspose.Cells API'si, koşullu olarak biçimlendirilmiş DataBar'ı resim formatında kaydetmek için DataBar.toImage yöntemini sağlamıştır. {DataBar.toImage}} yöntemi aşağıdaki şekilde iki parametreyi kabul eder.
 
-- İlk parametre, koşullu biçimlendirmenin uygulandığı com.aspose.cells.Cell türündedir.
-- Elde edilen görüntünün farklı parametrelerini ayarlamak için ikinci parametre com.aspose.cells.rendering.ImageOrPrintOptions türündedir.
+- İlk parametre, üzerinde koşullu biçimlendirme uygulanan com.aspose.cells.Cell türünden bir hücredir.
+- İkinci parametre, sonuç resminin farklı parametrelerini ayarlamak için com.aspose.cells.rendering.ImageOrPrintOptions türündendir.
 
-Aşağıdaki örnek kod, DataBar'ı görüntü biçiminde işlemek için DataBar.toImage yönteminin kullanımını gösterir.
+Aşağıdaki örnek kod, DataBar.toImage yönteminin kullanımını resim formatında DataBar'ı renderlamak için gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -209,7 +210,7 @@ opts.setImageFormat(ImageFormat.getPng());
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.toImage(cell, opts);
+byte[] imgBytes = dbar.toImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -220,24 +221,24 @@ out.write(imgBytes);
 out.close();
 
 {{< /highlight >}}
-### **Özellik Border.ThemeColor Eklendi**
-Aspose.Cells API'ler, elektronik tablolardan temayla ilgili verilerin çıkarılmasına izin verir. Aspose.Cells for Java 8.4.0 sürümüyle birlikte API, Cell kenarlıklarının tema rengi özniteliklerini almak için kullanılabilecek Border.ThemeColor özelliğini kullanıma sundu.
-### **Özellik DrawObject.ImageBytes Eklendi**
-Aspose.Cells for Java 8.4.0, Grafik veya Şekil'den resim verilerini almak için DrawObject.ImageBytes özelliğini kullanıma sundu.
-### **Özellik HtmlSaveOptions.ExportBogusRowData Eklendi**
- Aspose.Cells for Java 8.4.0, {HtmlSaveOptions.ExportBogusRowData}} özelliğini sağladı. Boole tipi özelliği, elektronik tabloyu HTML biçimine dışa aktarırken API'in sahte alt sıra verileri enjekte edip etmeyeceğini belirler.
+### **Border.ThemeColor Özelliği Eklendi**
+Aspose.Cells API'leri, elektronik tablolardan temaya ilişkin verilerin çıkarılmasına olanak tanır. Aspose.Cells for Java 8.4.0'ın yayınlanmasıyla, API, Hücre sınırlarının tema rengi özniteliğini almak için Border.ThemeColor özelliğini sağlamıştır.
+### **DrawObject.ImageBytes Özelliği Eklendi**
+Aspose.Cells for Java 8.4.0, Grafik veya Şekilden resim verilerini almak için DrawObject.ImageBytes özelliğini sağlamıştır.
+### **HtmlSaveOptions.ExportBogusRowData Özelliği Eklendi**
+Aspose.Cells for Java 8.4.0, {HtmlSaveOptions.ExportBogusRowData}} özelliğini sağlamıştır. Boolean türünde bir özellik olan bu property, elektronik tabloyu HTML formatına dönüştürürken sahte alt satır verileri ekleyip eklemeyeceğini belirler. 
 
 {{% alert color="primary" %}} 
 
-Varsayılan değer doğrudur.
+Varsayılan değer true'dur.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kod, yukarıda bahsedilen özelliğin kullanımını göstermektedir.
+Aşağıdaki örnek kod, yukarıdaki özellik kullanımını göstermektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -256,16 +257,16 @@ Workbook workbook = new Workbook("source.xlsx");
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Özellik HtmlSaveOptions.CellCssPrefix Eklendi**
-Yeni eklenen özellik HtmlSaveOptions.CellCssPrefix, e-tabloları HTML biçiminde dışa aktarırken CSS dosyaları için önek ayarlamanıza olanak tanır.
+### **HtmlSaveOptions.CellCssPrefix Özelliği Eklendi**
+Yeni eklenen HtmlSaveOptions.CellCssPrefix özelliği, elektronik tabloları HTML formatına dönüştürürken CSS dosyaları için önek belirlemeye olanak tanır.
 
 {{% alert color="primary" %}} 
 
-Varsayılan değer boş bir dizedir).
+Varsayılan değer "" (boş dize) dir.
 
 {{% /alert %}}
 ## **Eski API'ler**
-### **Yöntemler Cells.getCellByIndex & Row.getCellByIndex Kullanımdan Kaldırıldı**
-Bunun yerine tüm hücreleri yinelemek için getEnumerator yöntemini kullanın.
-### **DrawObject.Image Özelliği Kullanımdan Kaldırıldı**
-Bunun yerine resim verilerini almak için DrawObject.ImageBytes özelliğini kullanın.
+### **Obsoleted Cells.getCellByIndex & Row.getCellByIndex Yöntemleri**
+Tüm hücreleri yinelemek için getEnumerator yöntemini kullanın.
+### **Eski DrawObject.Image Özelliği**
+Resim verilerini almak için DrawObject.ImageBytes özelliğini kullanın.

@@ -1,26 +1,27 @@
 ---
-title: チャートの計算後に軸ラベルを読み取る
-description: グラフの計算後に Aspose.Cells for Java の軸ラベルを読み取る方法を学習します。私たちのガイドでは、軸ラベルにアクセスして取得する方法 (書式設定や配置など) を説明します。
-keywords: Aspose.Cells for Java, chart, axis labels, calculation, reading, accessing, retrieving, formatting, positioning.
+title: チャートの計算後に軸ラベルを読む
+description: チャートを計算した後に、Aspose.Cells for Javaで軸ラベルを読み取る方法を学んでください。当社のガイドには、軸ラベルへのアクセスと取得方法、それらのフォーマットと配置も含まれています。
+keywords: Aspose.Cells for Java、チャート、軸ラベル、計算、読み取り、アクセス、取得、フォーマット、配置
 type: docs
 weight: 90
 url: /ja/java/read-axis-labels-after-calculating-the-chart/
 ---
-##  **考えられる使用シナリオ**
 
-を使用して値を計算した後、グラフの軸ラベルを読み取ることができます。[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart/#calculate--)方法。をご利用ください。[**Axis.getAxisTexts()**](https://reference.aspose.com/cells/java/com.aspose.cells/axis/#getAxisTexts--)この目的のために、軸ラベルのリストを返すメソッドを使用します。
+## **可能な使用シナリオ**
 
-##  **チャートの計算後に軸ラベルを読み取る**
+チャートの値を計算した後に、軸ラベルを読み取る場合は、[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart/#calculate--)メソッドを使用します。これにより、軸ラベルのリストが返されます。
 
-をロードする次のサンプルコードを参照してください。[サンプル Excel ファイル](64716829.xlsx)そして、最初のワークシートのグラフのカテゴリ軸ラベルを読み取ります。次に、軸ラベルの値をコンソールに出力します。参考として、以下に示すサンプル コードのコンソール出力を参照してください。
+## **チャートを計算した後に軸ラベルを読み取る**
 
-##  **サンプルコード**
+次のサンプルコードでは、読み込み{0}し、ワークシートの最初のチャートのカテゴリ軸ラベルを読み取ります。その後、コンソールに軸ラベルの値を出力します。参考のため、次のサンプルコードのコンソール出力を参照してください。
+
+## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-ReadAxisLabelsAfterCalculatingTheChart.java" >}}
 
-##  **コンソール出力**
+## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Category Axis Labels:
 

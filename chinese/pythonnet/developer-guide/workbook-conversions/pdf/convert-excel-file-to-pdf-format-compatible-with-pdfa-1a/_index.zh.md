@@ -1,10 +1,10 @@
 ---
-title: 将Excel文件转换为与PDFA-1a兼容的PDF格式
+title: 将Excel文件转换为与PDFA 1a兼容的PDF格式
 type: docs
 weight: 130
 url: /zh/python-net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/
-description: 学习如何使用Aspose.Cells for Python via .NET API将Excel文件转换为与PDFA-1a兼容的PDF格式。
-keywords: Python将Excel文件转换为与PDFA-1a兼容的PDF格式，PDFA-1a，PDFA-1b，PDF14，PDF15，PDF16，PDF17
+description: 学习如何使用Aspose.Cells for Python via .NET API将Excel文件转换为与PDFA 1a兼容的PDF格式。
+keywords: Python将Excel文件转换为与PDFA 1a兼容的PDF格式，PDFA 1a，PDFA 1b，PDF14，PDF15，PDF16，PDF17
 ---
 
 ## **可能的使用场景**

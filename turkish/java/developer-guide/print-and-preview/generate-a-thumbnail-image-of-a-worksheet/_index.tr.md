@@ -1,18 +1,19 @@
-﻿---
-title: Bir Çalışma Sayfasının Küçük Resmini Oluşturun
+---
+title: Çalışma Sayfasının Küçük Resmi Oluşturma
 type: docs
 weight: 30
 url: /tr/java/generate-a-thumbnail-image-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Çalışma sayfalarından küçük resimler oluşturmak yararlı olabilir. Küçük resim, çalışma sayfasında ne olduğuna dair bir önizleme vermek için bir Word belgesine veya PowerPoint sunumuna yapıştırılabilen küçük bir resimdir. Orijinal belgeyi indirmek için bir bağlantı içeren bir web sayfasına eklenebilir ve bir dizi başka kullanıma sahiptir.
+Çalışma sayfalarından küçük resimler oluşturmak faydalı olabilir. Bir küçük resim, çalışma sayfasındaki içeriğin bir ön izlemesini vermek üzere bir Word belgesine veya bir PowerPoint sunumuna yapıştırılabilir. Gerçek belgenin indirme bağlantısına bir bağlantıyla bir web sayfasına eklenebilir ve diğer birçok kullanımı bulunmaktadır.
 
 {{% /alert %}} 
 
-Aspose.Cells for Java, çalışma sayfalarının çıktısını görüntü dosyalarına almanızı sağlar, böylece küçük resim yapmak kolaydır.
+Aspose.Cells for Java, çalışma sayfalarını görüntü dosyalarına çıkarmanızı sağladığı için küçük resim oluşturmak kolaydır.
 
-Aşağıdaki örnek kod, nasıl yapılacağını adım adım gösterir.
+Aşağıdaki örnek kod size adım adım nasıl yapılacağını gösterir.
 
 
 

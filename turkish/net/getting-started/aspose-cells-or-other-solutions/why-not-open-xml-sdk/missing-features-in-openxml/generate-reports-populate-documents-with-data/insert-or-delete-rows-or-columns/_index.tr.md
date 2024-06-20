@@ -1,18 +1,19 @@
-﻿---
+---
 title: Satır veya Sütun Ekleme veya Silme
 type: docs
 weight: 20
 url: /tr/net/insert-or-delete-rows-or-columns/
 ---
-İster sıfırdan yeni bir çalışma sayfası oluşturuyor olun, ister mevcut bir çalışma sayfası üzerinde çalışıyor olun, daha fazla veriyi barındırmak için veya başka bir nedenle çalışma sayfasına fazladan satırlar veya sütunlar eklememiz gerekebilir. Tersine, çalışma sayfasının belirtilen konumlarından satır veya sütunların silinmesi de gerekebilir.
-## **Satırları/Sütunları Yönetme**
-**Aspose.Cells** bir Excel dosyasını temsil eden bir çalışma kitabı sınıfı sağlar. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişime izin veren bir Worksheets koleksiyonu içerir. Bir çalışma sayfası, Worksheet sınıfı tarafından temsil edilir. Worksheet sınıfı, çalışma sayfasındaki tüm hücreleri temsil eden bir Cells koleksiyonu sağlar.
 
-**Cells**koleksiyon, bir çalışma sayfasındaki satırları veya sütunları yönetmek için çeşitli yöntemler sağlar; bunlardan birkaçı aşağıda daha ayrıntılı olarak ele alınmıştır.
+Sıfırdan yeni bir çalışma sayfası oluşturuyor olsak da mevcut bir çalışma sayfası üzerinde çalışıyor olsak da, çalışma sayfasına daha fazla veri sığdırmak veya başka bir nedenle ekstra satır veya sütun eklememiz gerekebilir. Tersi durumda, belirli konumlardan satır veya sütun silinmesi de gerekebilir.
+## **Satır/Sütun Yönetimi**
+**Aspose.Cells**, bir Excel dosyasını temsil eden bir Workbook sınıfını sağlar. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişimi sağlayan bir Worksheets koleksiyonunu içerir. Bir çalışma sayfası Worksheet sınıfı ile temsil edilir. Worksheet sınıfı, çalışma sayfasındaki tüm hücreleri temsil eden bir Cells koleksiyonunu sağlar.
+
+**Cells** koleksiyonu, çalışma sayfasındaki satır veya sütunları yönetmek için birçok yöntem sağlar, bunlardan bazıları burada daha detaylı olarak tartışılmaktadır.
 ## **Satır Ekleme**
- Geliştiriciler, Cells koleksiyonunun InsertRow yöntemini çağırarak çalışma sayfasına herhangi bir konumda bir satır ekleyebilir.**Satır Ekle** method yeni satırın ekleneceği satırın indeksini alır.
+Geliştiriciler, Cells koleksiyonunun InsertRow yöntemini çağırarak çalışma sayfasına istenilen konuma bir satır ekleyebilir. **InsertRow** yöntemi, yeni satırın ekleneceği satırın dizinini alır.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -41,13 +42,13 @@ workbook.Save(MyDir + "Inserting Row.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Birden Çok Satır Ekleme**
-Bazen, geliştiricilerin çalışma sayfasına birden çok satır eklemesi gerekebilir. Cells koleksiyonunun InsertRows yöntemi çağrılarak yapılabilir. InsertRows yöntemi iki parametre alır:
+## **Birden Fazla Satır Ekleme**
+Geliştiriciler bazen çalışma sayfasına birden çok satır eklemeleri gerekebilir. Bu, Cells koleksiyonunun InsertRows yöntemini çağırarak yapılabilir. InsertRows yöntemi iki parametre alır:
 
-- **Satır Dizini**, yeni satırların ekleneceği satırın dizini
-- **Satır sayısı**, eklenmesi gereken toplam satır sayısı
+- **Satır İndeksi**, yeni satırların nereden ekleneceği satırın endeksi
+- **Satır Sayısı**, eklenmesi gereken toplam satır sayısı
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -76,10 +77,10 @@ workbook.Save(MyDir + "Inserting Mutiple Rows.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Satır Silme**
- Geliştiriciler, herhangi bir konumdaki çalışma sayfasındaki bir satırı şunu çağırarak silebilir:**Sırayı sil** Cells koleksiyonunun yöntemi.**Sırayı sil** method silinmesi gereken satırın indeksini alır.
+## **Bir Satırı Silme**
+Geliştiriciler, çalışma sayfasından herhangi bir konumdaki bir satırı silmek için Cells koleksiyonunun **DeleteRow** yöntemini çağırabilir. **DeleteRow** yöntemi silinmesi gereken satırın endeksini alır.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -108,13 +109,13 @@ workbook.Save(MyDir + "Deleting Rows.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Birden Çok Satırı Silme**
-Geliştiricilerin çalışma sayfasından birden çok satırı silmeleri gerekiyorsa, bu, Cells koleksiyonunun DeleteRows yöntemi çağrılarak da yapılabilir. DeleteRows yöntemi iki parametre alır:
+## **Birden Fazla Satırı Silme**
+Geliştiriciler, çalışma sayfasından birden fazla satır silmek istediklerinde, bu da Cells koleksiyonunun DeleteRows yöntemi çağırılarak yapılabilir. DeleteRows yöntemi iki parametre alır:
 
-- **Satır Dizini**, satırların silineceği satırın dizini.
-- **Satır sayısı**, silinmesi gereken toplam satır sayısı.
+- **Satır İndeksi**, silinecek satırların başlangıç endeksi
+- **Satır Sayısı**, silinmesi gereken toplam satır sayısı
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -143,10 +144,10 @@ workbook.Save(MyDir + "Deleting Mutiple Rows.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Sütun Ekleme**
-Geliştiriciler ayrıca Cells koleksiyonunun InsertColumn yöntemini çağırarak çalışma sayfasına herhangi bir konumda bir sütun ekleyebilir. InsertColumn yöntemi, yeni sütunun ekleneceği sütunun dizinini alır.
+## **Bir Sütun Ekleme**
+Geliştiriciler, çalışma sayfasına herhangi bir konumda sütun eklemek için Cells koleksiyonunun InsertColumn yöntemini de çağırabilir. InsertColumn yöntemi yeni sütunun ekleneceği sütunun endeksini alır.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -175,10 +176,10 @@ workbook.Save(MyDir + "Inserting Column.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Sütun Silme**
-Herhangi bir konumdaki çalışma sayfasından bir sütunu silmek için geliştiriciler, Cells koleksiyonunun DeleteColumn yöntemini çağırabilir. DeleteColumn yöntemi, silinecek sütunun dizinini alır.
+## **Bir Sütunu Silme**
+Herhangi bir konumdan çalışma sayfasından bir sütunu silmek için geliştiriciler, Cells koleksiyonunun DeleteColumn yöntemini çağırabilir. DeleteColumn yöntemi silinecek sütunun endeksini alır.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -207,6 +208,6 @@ workbook.Save(MyDir + "Deleting Column.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Work%20with%20Rows%20n%20Columns%20%28Aspose.Cells%29.zip)

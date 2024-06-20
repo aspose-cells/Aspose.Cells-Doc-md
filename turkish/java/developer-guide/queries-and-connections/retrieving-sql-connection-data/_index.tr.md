@@ -1,28 +1,29 @@
-﻿---
-title: SQL Bağlantı Verilerini Alma
+---
+title: SQL Bağlantı Verilerini Almak
 type: docs
 weight: 20
 url: /tr/java/retrieving-sql-connection-data/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells, SQL bağlantı verilerini almanıza yardımcı olabilir. Bu, SQL sunucusuna bağlantı kurmak için gereken tüm verileri içerir, örneğin,**sunucu URL'si**, **Kullanıcı adı**, **Tablo ismi**, **tam SQL sorgusu**, **Sorgu Türü**, **masanın yeri** , ve**adlandırılmış aralığın adı** ile ilişkili.
+Aspose.Cells, SQL bağlantı verilerini almanıza yardımcı olabilir. Bu, SQL sunucusuna bağlanmak için gereken her türlü veriyi içerir, örneğin **sunucu URL'si**, **kullanıcı adı**, **tablo adı**, **tam SQL sorgusu**, **sorgu türü**, **tablonun konumu** ve onunla ilişkilendirilen adlandırılmış aralığın adı gibi.
 
 {{% /alert %}} 
 
-Microsoft Excel'de bir veritabanına şu şekilde bağlanın:
+Microsoft Excel'de, bir veritabanına bağlanmak için:
 
-1.  tıklayarak**Veri** menü ve seçim**Diğer Kaynaklardan** bunu takiben**SQL Server'dan**.
-1.  Ardından seçin**Veri** bunu takiben**Bağlantılar**.
-1. Veritabanına bağlanmak ve bir veritabanı sorgusu oluşturmak için Bağlantılar sihirbazını kullanın.
+1. **Veri** menüsünü tıklayın ve **Diğer Kaynaklardan, SQL Server'dan** ardından **Veri Al**'ı seçin.
+1. Ardından **Veri**'yi ve ardından **Bağlantılar**'ı seçin.
+1. Bağlantı sihirbazını kullanarak veritabanına bağlanın ve bir veritabanı sorgusu oluşturun.
 
-**Microsoft Excel'de SQL bağlantı seçeneği gösteriliyor** 
+**Microsoft Excel'de SQL bağlantı seçeneğini gösterme** 
 
-![yapılacaklar:resim_alternatif_metin](retrieving-sql-connection-data_1.png)
+![todo:image_alt_text](retrieving-sql-connection-data_1.png)
 
-Aspose.Cells, harici bağlantıları almak için Workbook.getDataConnections() yöntemini sağlar. Çalışma kitabındaki ExternalConnection nesnelerinin bir koleksiyonunu döndürür.
+Aspose.Cells, Workbook.getDataConnections() yöntemini dış bağlantıları almak için sağlar. Bu, bir çalışma kitabındaki ExternalConnection nesnelerinin bir koleksiyonunu döndürür.
 
-ExternalConnection nesnesi SQL bağlantı verilerini içeriyorsa, veritabanı komutunu, komut türünü, bağlantı açıklamasını, bağlantı bilgilerini, kimlik bilgilerini vb. almak için kullanılan özelliklerini bir DBConnection nesnesine tür olarak aktarabilir.
+Eğer ExternalConnection nesnesi SQL bağlantı verisi içeriyorsa, bunun özellikleri DBConnection nesnesine tür dönüşümü yapılabilir ve veritabanı komutu, komut türü, bağlantı açıklaması, bağlantı bilgisi, kimlik bilgileri, ve benzeri kullanılabilir.
 
 
 

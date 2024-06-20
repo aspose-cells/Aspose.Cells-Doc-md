@@ -1,12 +1,13 @@
-﻿---
-title: Ta bort ActiveX-kontrollen
+---
+title: Ta bort ActiveX kontroll
 type: docs
 weight: 1000
 url: /sv/net/remove-activex-control/
 ---
-## **Ta bort ActiveX-kontrollen**
 
- Aspose.Cells ger möjlighet att ta bort ActiveX-kontroll från arbetsböcker. För detta tillhandahåller API[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol)metod. Följande kodavsnitt visar användningen av[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol)metod för att ta bort ActiveX-kontrollen.
+## **Ta bort ActiveX-kontroll**
+
+Aspose.Cells ger möjlighet att ta bort ActiveX-kontroll från arbetsböcker. För detta tillhandahåller API:et [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol) metoden. Följande kodsnutt demonstrerar användningen av [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol) metoden för att ta bort ActiveX-kontroll.
 
 ## **Exempelkod**
 

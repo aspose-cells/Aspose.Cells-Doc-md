@@ -1,36 +1,37 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.9.1
+---
+title: تغييرات واجهة برمجة التطبيقات العمومية في Aspose.Cells 8.9.1
 type: docs
 weight: 320
 url: /ar/java/public-api-changes-in-aspose-cells-8-9-1/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.9.0 إلى 8.9.1 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات التي طرأت على واجهة برمجة التطبيقات في Aspose.Cells من الإصدار 8.9.0 إلى 8.9.1 والتي قد تكون مثيرة لاهتمام مطوري الوحدات/التطبيقات. إنه يشتمل ليس فقط على الطرق العامة الجديدة والمحدثة، والفئات المضافة والمحذوفة الخ، ولكن أيضاً وصف لأي تغييرات في السلوك وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
+## **واجهات برمجة التطبيقات الجديدة**
 ### **مصادر الخطوط القابلة للتكوين**
-قام Aspose.Cells for Java بعرض عدد من الفئات لتوفير الدعم لمصادر أطقم الطباعة القابلة للتكوين لتقديم جداول البيانات. فيما يلي قائمة بالفئات التي تمت إضافتها بالرقم Aspose.Cells for Java 8.9.1.
+Aspose.Cells for Java قد عرضت عددًا من الفئات لتزويد الدعم لمصادر الخطوط القابلة للتكوين لتقديم جداول البيانات. إليك قائمة الفئات التي تمت إضافتها مع Aspose.Cells for Java 8.9.1.
 
-1. تحدد فئة FontConfigs إعدادات الخط.
-1. فئة FontSourceBase هي فئة أساسية مجردة للفئات التي تسمح للمستخدم بتحديد مصادر الخطوط المختلفة.
-1. تمثل فئة FileFontSource ملف خط TrueType الفردي المخزن في نظام الملفات.
-1. تمثل فئة FolderFontSource المجلد الذي يحتوي على ملفات خطوط TrueType.
-1. تمثل فئة MemoryFontSource ملف خط تروتايب الفردي المخزن في الذاكرة.
-1. يحدد تعداد FontSourceType نوع مصدر الخط.
+1. تحديد تهيئات الخطوط الفئة تحدد إعدادات الخطوط.
+1. فئة FontSourceBase هي فئة قاعدية مجردة للفئات التي تسمح للمستخدم بتحديد مصادر الخطوط المختلفة.
+1. تمثل فئة FileFontSource ملف الخط TrueType الفردي المخزن في نظام ملفات النظام.
+1. تمثل فئة FolderFontSource المجلد الذي يحتوي على ملفات خط TrueType.
+1. تمثل فئة MemoryFontSource ملف الخط TrueType الفردي المخزن في الذاكرة.
+1. تحدد تعداد عناصر نوع مصدر الخط من خلال تعداد FontSourceType.
 
-مع التغييرات المذكورة أعلاه في المكان ، فإن Aspose.Cells for Java يسمح بتعيين الخطوط كما هو مفصل أدناه.
+مع التغييرات المذكورة أعلاه في المكان، يسمح الرقم Aspose.Cells for Java بتحديد الخطوط كما يلي.
 
-1. قم بتعيين مجلد خط مخصص واحد أثناء استخدام طريقة FontConfigs.setFontFolder.
-1. قم بتعيين مجلد خط مخصص متعدد أثناء استخدام طريقة FontConfigs.setFontFolders.
-1. قم بتعيين مصادر الخطوط من مجلد خط مخصص أو ملف خط مفرد أو بيانات خط من مصفوفة بايت أثناء استخدام طريقة FontConfigs.setFontSources.
+1. تعيين مجلد خط مخصص واحد أثناء استخدام طريقة FontConfigs.setFontFolder.
+1. تعيين مجلدات خط مخصصة متعددة أثناء استخدام طريقة FontConfigs.setFontFolders.
+1. تعيين مصادر الخط من مجلد خط مخصص، ملف خط فردي أو بيانات خط من مصفوفة بايت أثناء استخدام طريقة FontConfigs.setFontSources.
 
-فيما يلي سيناريو الاستخدام البسيط للطرق المذكورة أعلاه.
+فيما يلي سيناريو استخدام بسيط للطرق المذكورة أعلاه.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Defining string variables to store paths to font folders & font file
 
@@ -50,7 +51,7 @@ FontConfigs.setFontFolder(fontFolder1, true);
 
 //Second parameter prohibits the API to search the sub folders for font files
 
-FontConfigs.setFontFolders(new String[]{ fontFolder1, fontFolder2 }, false);
+FontConfigs.setFontFolders(new String[] { fontFolder1, fontFolder2 }, false);
 
 //Defining FolderFontSource
 
@@ -62,62 +63,62 @@ FileFontSource sourceFile = new FileFontSource(fontFile);
 
 //Defining MemoryFontSource
 
-byte[]bytes = Files.readAllBytes(new File(fontFile).toPath());
+byte[] bytes = Files.readAllBytes(new File(fontFile).toPath());
 
 MemoryFontSource sourceMemory = new MemoryFontSource(bytes);
 
 //Setting font sources
 
-FontConfigs.setFontSources(new FontSourceBase[]{ sourceFolder, sourceFile, sourceMemory});
+FontConfigs.setFontSources(new FontSourceBase[] { sourceFolder, sourceFile, sourceMemory});
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
 
- تقبل كلتا الطريقتين FontConfigs.setFontFolder & FontConfigs.setFontFolders معلمة ثانية من النوع المنطقي. تمرير صحيح كمعامل ثان سيوجه Aspose.Cells APIs للبحث في المجلدات الفرعية عن ملفات الخطوط.
+يقبل كلتا الطرقتين FontConfigs.setFontFolder و FontConfigs.setFontFolders المعامل الثاني من نوع مضاد. تمرير القيمة true كمعامل ثانوي سيوجه API Aspose.Cells إلى البحث في المجلدات الفرعية عن ملفات الخطوط. 
 
 {{% /alert %}} 
 
-Aspose.Cells for Java يسمح أيضًا بتوصيف استبدال الخط. هذه الآلية مفيدة عندما لا يكون الخط المطلوب متاحًا على الجهاز حيث يجب إجراء التحويل. يمكن للمستخدمين توفير قائمة بأسماء الخطوط كبديل للخط المطلوب في الأصل. من أجل تحقيق ذلك ، كشفت واجهات برمجة التطبيقات Aspose.Cells طريقة FontConfigs.setFontSubstitutes التي تقبل معلمتين. المعلمة الأولى هي من نوع السلسلة ، والتي يجب أن تكون اسم الخط الذي يجب استبداله. المعلمة الثانية هي مصفوفة من نوع السلسلة. يمكن للمستخدمين توفير قائمة بأسماء الخطوط كبديل لاسم الخط الأصلي (المحدد في المعلمة الأولى).
+Aspose.Cells for Java ايضا يسمح بتكوين بديل الخط. هذا الآلية مفيدة عندما الخط المطلوب غير متاح على الجهاز الذي يجب فيه اجراء التحويل. يمكن للمستخدمين تقديم قائمة من أسماء الخطوط كبديل للخط المطلوب في الأصل. من اجل تحقيق ذلك, API Aspose.Cells جعلت المعرضات لطريقة FontConfigs.setFontSubstitutes التي تقبل 2 معلمة. المعلمة الأولى من نوع سلسلة, يجب ان يكون الاسم الخط الذي يجب استبداله. المعلمة الثانية من نوع سلسلة. المستخدمين يمكنهم تقديم قائمة من أسماء الخطوط كبديل لاسم الخط الأصلي (المحدد في المعلمة الأولى).
 
 فيما يلي سيناريو استخدام بسيط لطريقة FontConfigs.SetFontSubstitutes.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Substituting the Arial font with Times New Roman & Calibri
 
-FontConfigs.setFontSubstitutes("Arial", new String[]{ "Times New Roman", "Calibri" });
+FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calibri" });
 
 {{< /highlight >}}
 
-يوفر Aspose.Cells for Java أيضًا وسائل لجمع المعلومات حول المصادر والبدائل التي تم تعيينها.
+ايضا قدم Aspose.Cells for Java وسائل لجمع المعلومات حول ما إذا كانت المصادر والاستبدالات قد تم تعيينها.
 
-1. تقوم طريقة FontConfigs.getFontSources بإرجاع مصفوفة من النوع FontSourceBase تحتوي على قائمة بمصادر الخطوط المحددة. في حالة عدم تعيين أي مصادر ، ستُرجع طريقة FontConfigs.getFontSources مصفوفة فارغة.
-1. يقبل أسلوب FontConfigs.getFontSubstitutes معلمة من نوع سلسلة تسمح بتحديد اسم الخط الذي تم تعيين بديل له. في حالة عدم تعيين أي استبدال لاسم الخط المحدد ، فإن طريقة FontConfigs.getFontSubstitutes ستعيد فارغة.
+1. طريقة FontConfigs.getFontSources تقوم بإرجاع مصفوفة من نوع FontSourceBase تحتوي على قائمة المصادر الخط المحددة. في حالة عدم تحديد المصادر، ستقوم طريقة FontConfigs.getFontSources بإرجاع مصفوفة فارغة.
+1. تقبل طريقة FontConfigs.getFontSubstitutes معلمة من نوع سلسلة تتيح تحديد اسم الخط الذي تم تحديد استبداله. في حالة عدم تحديد استبدال لاسم الخط المحدد، ستقوم طريقة FontConfigs.getFontSubstitutes بإرجاع قيمة فارغة.
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول FontConfigs ، يرجى مراجعة المقال على[تكوين الخطوط لتقديم جداول البيانات](/cells/ar/java/configuring-fonts-for-rendering-spreadsheets/).
+للمزيد من التفاصيل حول FontConfigs، يرجى مراجعة المقالة على [تكوين الخطوط لرسم الجداول الجديدة](/cells/ar/java/configuring-fonts-for-rendering-spreadsheets/).
 
 {{% /alert %}} 
 ### **تمت إضافة واجهة IFilePathProvider وخاصية HtmlSaveOptions.FilePathProvider**
-Aspose.Cells for Java 8.9.1 يسمح بالحصول على / تعيين IFilePathProvider لتصدير أوراق العمل لفصل ملفات HTML. تعد واجهات برمجة التطبيقات الجديدة هذه مفيدة في السيناريوهات حيث تشير الارتباطات التشعبية الموجودة في ورقة عمل واحدة إلى موقع في ورقة عمل أخرى ، حيث تكون متطلبات التطبيق هي عرض كل ورقة عمل لفصل ملف HTML. يسمح تنفيذ IFilePathProvider بالحفاظ على الارتباطات التشعبية المذكورة أعلاه سليمة بغض النظر عن حقيقة أنها تشير إلى موقع في ملف ناتج منفصل HTML.
+Aspose.Cells for Java 8.9.1 يسمح بالحصول على / تعيين IFilePathProvider لتصدير الأوراق العمل إلى ملفات HTML منفصلة. هذه الواجهات الجديدة مفيدة في السيناريوهات حيث تشير الروابط الفائقة في ورقة العمل إلى موقع في ورقة عمل أخرى، حيث تتطلب التطبيق رسم كل ورقة عمل لملف HTML منفصل. تنفيذ IFilePathProvider يسمح بالاحتفاظ بالروابط الفائقة المذكورة سابقًا بغض النظر عما إذا كانت تشير إلى موقع في ملف HTML منفصل.
 
 فيما يلي سيناريو الاستخدام البسيط لخاصية HtmlSaveOptions.FilePathProvider.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- // تحميل جدول بيانات في مثيل مصنف
+ //Load a spreadsheet in an instance of Workbook
 
-كتاب المصنف = مصنف جديد (dir + "sample.xlsx") ؛
+Workbook book = new Workbook(dir + "sample.xlsx");
 
-// احفظ كل ورقة عمل لفصل ملف HTML
+//Save each Worksheet to separate  HTML file
 
- لـ (int i = 0 ؛ i< book.getWorksheets().getCount(); i++)
+for (int i = 0; i < book.getWorksheets().getCount(); i++)
 
 {
 
@@ -173,17 +174,17 @@ Aspose.Cells for Java 8.9.1 يسمح بالحصول على / تعيين IFilePat
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذا التحسين ، يرجى مراجعة المقالة الموجودة على[تنفيذ واجهة IFilePathProvider](/cells/ar/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
+لمزيد من التفاصيل حول هذا التحسين، يرجى مراجعة المقالة حول [تنفيذ واجهة IFilePathProvider](/cells/ar/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
 
 {{% /alert %}} 
-### **تمت إضافة خاصية CopyOptions.ReferToDestinationSheet & Overload لـ Cells.copyRows Method**
-كشف Aspose.Cells for Java API الخاصية CopyOptions من النوع المنطقي .ReferToDestinationSheet جنبًا إلى جنب مع التحميل الزائد للطريقة Cells.copyRows لتسهيل عملية نسخ الصفوف عندما تحتوي الصفوف المراد نسخها أيضًا على مخطط ومصدر بياناته. يمكن للمطورين الاستفادة من واجهات برمجة التطبيقات الجديدة هذه لتوجيه مصدر بيانات المخطط إلى أوراق العمل المصدر أو الوجهة.
+### **تمت إضافة خاصية CopyOptions.ReferToDestinationSheet والتحميل الزائد لأسلوب Cells.copyRows.**
+Aspose.Cells for Java API قد عرضت خاصية نوع Boolean CopyOptions.ReferToDestinationSheet جنبًا إلى جنب مع التحميل الزائد لأسلوب Cells.copyRows لتيسير عملية نسخ الصفوف عندما تحتوي الصفوف المراد نسخها أيضًا على رسم بياني ومصدر بياناته. يمكن للمطورين استخدام هذه الواجهات الجديدة لتوجيه مصدر بيانات الرسم البياني إلى أوراق العمل المصدر أو الوجهة.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet in an instance of Workbook
 
@@ -215,17 +216,17 @@ book.save(dir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة على[التحكم في مصدر بيانات المخطط أثناء نسخ الصفوف](/cells/ar/java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
+لمزيد من التفاصيل حول هذه الميزة، يرجى مراجعة المقالة حول [التحكم في مصدر البيانات للرسم البياني أثناء نسخ الصفوف](/cells/ar/java/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
 
 {{% /alert %}} 
-### **تمت إضافة CalculationOptions.Recursive Property**
-كشف Aspose.Cells for Java 8.9.1 خيارات حساب النوع المنطقي. يؤدي تعيين CalculationOptions.Recursive property إلى true وتمرير الكائن إلى Workbook.calculateFormula طريقة توجيه Aspose.Cells APIs لحساب الخلايا التابعة بشكل متكرر عند حساب الخلايا التي تعتمد على الخلايا الأخرى.
+### **تمت إضافة خاصية CalculationOptions.Recursive.**
+Aspose.Cells for Java 8.9.1 قد عرضت خاصية Boolean CalculationOptions.Recursive. ضبط خاصية CalculationOptions.Recursive على true وتمرير الكائن إلى أسلوب Workbook.calculateFormula يوجه واجهات Aspose.Cells لحساب الخلايا التي تعتمد تلقائيًا على حساب الخلايا الأخرى.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet in an instance of Workbook
 
@@ -245,13 +246,13 @@ book.calculateFormula(options);
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة على[تحسين وقت الحساب](/cells/ar/java/decrease-the-calculation-time-of-cell-calculate-method/).
+لمزيد من التفاصيل حول هذه الميزة، يرجى مراجعة المقالة حول [تحسين وقت الحساب](/cells/ar/java/decrease-the-calculation-time-of-cell-calculate-method/).
 
 {{% /alert %}}
-## **واجهات برمجة التطبيقات التي عفا عليها الزمن**
-### **خاصية CellsHelper.FontDir التي عفا عليها الزمن**
-يُنصح باستخدام طريقة FontConfigs.setFontFolder (String، boolean) مع المجلد العودي إلى false بدلاً من ذلك.
-### **خاصية CellsHelper.FontDirs التي عفا عليها الزمن**
-استخدم طريقة FontConfigs.setFontFolders (String []، boolean) مع المجلد العودي إلى false بدلاً من ذلك.
-### **خاصية CellsHelper.FontFiles التي عفا عليها الزمن**
-استخدم طريقة FontConfigs.setFontSources (FontSourceBase []) بدلاً من ذلك.
+## **واجهات برمجة التطبيق القديمة**
+### **خاصية CellsHelper.FontDir المهجورة**
+يُنصح باستخدام أسلوب FontConfigs.setFontFolder(String, boolean) مع تكرار المجلد إلى false بدلاً من ذلك.
+### **خاصية CellsHelper.FontDirs المهجورة**
+استخدم أسلوب FontConfigs.setFontFolders(String[], boolean) مع تكرار المجلد إلى false بدلاً من ذلك.
+### **الواجهات المهجورة خاصية CellsHelper.FontFiles**
+استخدم طريقة FontConfigs.setFontSources(FontSourceBase[]) بدلاً من ذلك.

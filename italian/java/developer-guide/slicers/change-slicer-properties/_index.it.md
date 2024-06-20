@@ -1,17 +1,18 @@
-﻿---
-title: Modifica proprietà affettatrice
+---
+title: Cambia proprietà Slicer
 type: docs
 weight: 70
 url: /it/java/change-slicer-properties/
 ---
-## **Possibili scenari di utilizzo**
 
-Potrebbero esserci situazioni in cui potresti voler modificare le proprietà dello Slicer come il posizionamento o l'altezza della riga. Aspose.Cells offre la possibilità di aggiornare queste proprietà.
+## **Possibili Scenari di Utilizzo**
 
-## **Modifica proprietà affettatrice**
+Potrebbero esserci situazioni in cui potresti voler modificare le proprietà del Slicer come posizionamento o altezza riga. Aspose.Cells ti offre l'opzione di aggiornare queste proprietà.
 
- Vedere il seguente codice di esempio. Carica il[esempio di file Excel](sampleCreateSlicerToExcelTable.xlsx) che contiene una tabella. Quindi crea l'affettatrice in base alla prima colonna e ne modifica le proprietà come altezza della riga, larghezza, è stampabile, titolo, ecc. Salva la cartella di lavoro come[outputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
+## **Modifica le proprietà dello slicer**
 
-## **Codice d'esempio**
+Si prega di vedere il seguente codice di esempio. Carica il [file Excel di esempio](sampleCreateSlicerToExcelTable.xlsx) che contiene una tabella. Quindi crea il slicer in base alla prima colonna e cambia le sue proprietà come altezza riga, larghezza, è stampabile, titolo, ecc. Salva il workbook come [outputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Slicers-ChangeSlicerProperties-1.java" >}}

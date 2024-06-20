@@ -1,13 +1,14 @@
-﻿---
-title: أضف صورة في ورقة العمل
+---
+title: إضافة صورة في ورقة العمل
 type: docs
 weight: 20
 url: /ar/net/add-image-in-worksheet/
 ---
+
 ## **Aspose.Cells - إضافة صورة في ورقة العمل**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -49,10 +50,10 @@ workbook.Save("../../data/image.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - أضف صورة في ورقة العمل**
+## **NPOI - HSSF XSSF - إضافة صورة في ورقة العمل**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -60,7 +61,7 @@ ISheet sheet1 = wb.CreateSheet("First Sheet");
 
 //add picture data to this workbook.
 
-byte[]bytes = File.ReadAllBytes("../../data/aspose.png");
+byte[] bytes = File.ReadAllBytes("../../data/aspose.png");
 
 int pictureIdx = wb.AddPicture(bytes, PictureType.PNG);
 
@@ -95,13 +96,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**أضف صورة في ورقة العمل** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **إضافة صورة في ورقة العمل** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Add.Image.in.Worksheet.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Add.Image.in.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+لمزيد من التفاصيل، قم بزيارة [العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

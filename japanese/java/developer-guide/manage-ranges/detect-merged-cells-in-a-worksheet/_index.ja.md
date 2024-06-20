@@ -1,41 +1,42 @@
-﻿---
-title: ワークシートでマージされた Cells を検出する
+---
+title: ワークシート内の結合セルを検出
 type: docs
 weight: 3000
 url: /ja/java/detect-merged-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel では、複数のセルを 1 つに結合できます。これは、複雑なテーブルを作成したり、複数の列にまたがる見出しを保持するセルを作成したりするためによく使用されます。
+Microsoft Excelでは、複数のセルを1つに結合することができます。これは、複雑なテーブルを作成したり、複数の列にまたがる見出しを作成したりするためによく使用されます。
 
-Aspose.Cells を使用すると、ワークシート内の結合されたセル領域を識別できます。それらをマージ解除することもできます。この記事では、Aspose.Cells を使用してタスクを実行するための最も単純なコード行を提供します。
+Aspose.Cellsを使用してワークシート内の結合セル領域を特定できます。また、それらを結合解除することもできます。この記事では、Aspose.Cellsを使用してタスクを実行するための最も簡単なコード行を提供しています。
 
-この記事では、ワークシート内の結合セルを検索して結合解除する方法について簡潔に説明します。
+この記事では、ワークシート内の結合されたセルを検出してから結合を解除する手順の簡潔な説明を提供します。
 
 {{% /alert %}}
 
 ## **デモンストレーション**
 
-この例では、テンプレート Microsoft という Excel ファイルを使用します。**マージトライアル**Merge Trial とも呼ばれるシートにいくつかの結合されたセル領域があります。
+この例では、**MergeTrial**というテンプレートのMicrosoft Excelファイルを使用しています。そのシートには複数の結合セル領域も含まれています。
 
 **テンプレートファイル**
 
-![todo:画像_代替_文章](detect-merged-cells-in-a-worksheet_1.png)
+![todo:image_alt_text](detect-merged-cells-in-a-worksheet_1.png)
 
-Aspose.Cells は[**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells)結合されたセル領域の ArrayList を取得するために使用されるメソッド。
+Aspose.Cellsは、結合セル領域のArrayListを取得するために使用される[**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells)メソッドを提供します。
 
-以下のコードが実行されると、シートの内容がクリアされ、ファイルを再度保存する前にすべてのセル領域が結合解除されます。
+下記のコードを実行すると、シートの内容をクリアし、すべてのセル領域のマージを解除してファイルを再保存します。
 
-**出力ファイル**
+出力ファイル
 
-![todo:画像_代替_文章](detect-merged-cells-in-a-worksheet_2.png)
+![todo:image_alt_text](detect-merged-cells-in-a-worksheet_2.png)
 
 ## **コード例**
 
-次のサンプル コードを参照して、ワークシート内の結合されたセル領域を特定し、結合を解除する方法を見つけてください。
+ワークシート内の結合されたセル領域を特定し、それらを解除する方法を見つけるために、以下のサンプルコードを参照してください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectMergedCells-DetectMergedCells.java" >}}
 
 ## **関連記事**
 
-- [セルの結合と分割](/cells/ja/java/merging-and-unmerging-cells/).
+- [セルを結合および分割](/cells/ja/java/merging-and-unmerging-cells/)。

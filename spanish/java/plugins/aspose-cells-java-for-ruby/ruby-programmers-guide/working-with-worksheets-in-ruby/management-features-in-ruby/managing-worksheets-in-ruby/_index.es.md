@@ -1,16 +1,17 @@
-﻿---
-title: Gestión de hojas de trabajo en Ruby
+---
+title: Gestionar Hojas de Cálculo en Ruby
 type: docs
 weight: 10
 url: /es/java/managing-worksheets-in-ruby/
 ---
-## **Aspose.Cells - Gestión de hojas de trabajo**
-### **Agregar hojas de trabajo a un nuevo archivo de Excel**
- Para agregar una hoja de trabajo a un nuevo archivo de Excel usando**Aspose.Cells Java para rubí** , simplemente llama**añadir_hoja de trabajo** método de**Gestión de hojas de trabajo** módulo.
 
-**código rubí**
+## **Aspose.Cells - Gestionar Hojas de Cálculo**
+### **Añadir hojas de cálculo a un nuevo archivo de Excel**
+Para agregar una hoja de cálculo a un nuevo archivo de Excel usando **Aspose.Cells Java para Ruby**, simplemente llama al método **add_worksheet** del módulo **MangingWorksheets**.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def add_worksheet()
 
@@ -39,12 +40,12 @@ url: /es/java/managing-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Adición de hojas de trabajo a una hoja de cálculo de Designer**
-El proceso de agregar hojas de trabajo a una hoja de cálculo de diseñador es completamente igual al del enfoque anterior, excepto que el archivo de Excel ya está creado y necesitamos abrir ese archivo de Excel primero antes de agregarle la hoja de trabajo.
+### **Añadir hojas de cálculo a una hoja de cálculo de diseñador**
+El proceso de agregar hojas de cálculo a una hoja de cálculo de diseño es completamente igual al enfoque anterior, excepto que el archivo de Excel ya está creado y necesitamos abrir ese archivo de Excel primero antes de agregar la hoja de cálculo.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet_to_designer_spreadsheet()
 
@@ -75,12 +76,12 @@ El proceso de agregar hojas de trabajo a una hoja de cálculo de diseñador es c
 end  
 
 {{< /highlight >}}
-### **Acceder a las hojas de trabajo usando el nombre de la hoja**
- Para acceder a la hoja de trabajo por nombre de hoja usando**Aspose.Cells Java para rubí** , simplemente llama**obtener_hoja de trabajo** método de**Gestión de hojas de trabajo** módulo.
+### **Acceso a las hojas de cálculo usando el nombre de la hoja**
+Para acceder a la hoja de cálculo por el nombre de la hoja usando **Aspose.Cells Java para Ruby**, simplemente llama al método **get_worksheet** del módulo **MangingWorksheets**.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_worksheet()
 
@@ -101,12 +102,12 @@ end  
 end
 
 {{< /highlight >}}
-### **Eliminación de hojas de trabajo usando el nombre de la hoja**
- Para eliminar la hoja de trabajo por nombre de hoja usando**Aspose.Cells Java para rubí** , simplemente llama**remove_worksheet_by_name** método de**Gestión de hojas de trabajo** módulo.
+### **Eliminar hojas de cálculo utilizando el nombre de la hoja**
+Para eliminar una hoja de cálculo por nombre de hoja usando **Aspose.Cells Java para Ruby**, simplemente llama al método **remove_worksheet_by_name** del módulo **MangingWorksheets**.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_name()
 
@@ -138,12 +139,12 @@ end
 
 
 {{< /highlight >}}
-### **Eliminación de hojas de cálculo mediante el índice de hojas**
- Para eliminar hoja de trabajo por índice de hoja usando**Aspose.Cells Java para rubí** , simplemente llama**remove_worksheet_by_index** método de**Gestión de hojas de trabajo** módulo.
+### **Eliminar hojas de cálculo utilizando el índice de la hoja**
+Para eliminar una hoja de cálculo por índice de hoja usando **Aspose.Cells Java para Ruby**, simplemente llama al método **remove_worksheet_by_index** del módulo **MangingWorksheets**.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_index()
 
@@ -174,7 +175,7 @@ end
 end 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Gestión de hojas de trabajo (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Gestión de Hojas de Cálculo (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

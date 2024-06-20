@@ -1,18 +1,19 @@
-﻿---
-title: Фильтровать определенные имена при загрузке книги
+---
+title: Фильтрация заданных имен при загрузке рабочей книги
 type: docs
 weight: 50
 url: /ru/java/filter-defined-names-while-loading-workbook/
 ---
+
 ## **Возможные сценарии использования**
 
-Aspose.Cells позволяет фильтровать или удалять определенные имена, присутствующие в книге. Пожалуйста, используйте[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)для загрузки определенных имен и использования ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)чтобы удалить их при загрузке книги. Обратите внимание: если вы удалите определенные имена, формулы внутри рабочей книги могут разбиться.
+Aspose.Cells позволяет фильтровать или удалять заданные имена, присутствующие внутри рабочей книги. Пожалуйста, используйте [**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES) для загрузки заданных имен и ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES) для их удаления при загрузке рабочей книги. Обратите внимание, что если вы удалите заданные имена, то формулы внутри рабочей книги могут перестать работать.
 
-## **Фильтровать определенные имена при загрузке книги**
+## **Фильтрация заданных имен при загрузке рабочей книги**
 
-Следующий пример кода загружает[образец файла Excel](61767873.xlsx)который имеет формулу в ячейке C1, содержащую определенные имена, т.е.*=СУММ(МоеИмя1, МоеИмя2)*. Так как мы используем ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)чтобы удалить определенные имена при загрузке книги, формула в ячейке C1 в[выходной файл Excel](61767872.xlsx)расстается и ты увидишь*#NAME?*вместо. См. следующий снимок экрана, на котором показано влияние кода на пример файла Excel.
+Приведенный ниже образец кода загружает [образец Excel-файла](61767873.xlsx), в котором в ячейке C1 содержится формула, содержащая заданные имена, т. е. *=SUM(MyName1, MyName2)*. Поскольку мы используем ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES) для удаления заданных имен при загрузке рабочей книги, формула в ячейке C1 в [конечном Excel-файле](61767872.xlsx) перестает работать и вы видите *#NAME?* вместо этого. Пожалуйста, обратите внимание на следующий скриншот, который показывает эффект кода на пример Excel-файла.
 
-![дело:изображение_альтернативный_текст](filter-defined-names-while-loading-workbook_1.png)
+![todo:image_alt_text](filter-defined-names-while-loading-workbook_1.png)
 
 ## **Образец кода**
 

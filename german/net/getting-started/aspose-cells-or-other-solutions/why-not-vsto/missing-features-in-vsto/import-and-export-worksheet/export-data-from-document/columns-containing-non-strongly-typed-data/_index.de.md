@@ -1,12 +1,13 @@
-﻿---
+---
 title: Spalten mit nicht stark typisierten Daten
 type: docs
 weight: 10
 url: /de/net/columns-containing-non-strongly-typed-data/
 ---
- Wenn alle Werte in den Spalten eines Arbeitsblatts nicht stark typisiert sind (d. h. die Werte in einer Spalte können unterschiedliche Datentypen haben), können wir den Inhalt des Arbeitsblatts exportieren, indem wir die aufrufen**ExportDataTableAsString** Methode der Klasse Cells.**ExportDataTableAsString** Die Methode verwendet denselben Satz von Parametern wie die von**ExportDataTable** Methode zum Exportieren von Arbeitsblattdaten als**Datentabelle** Objekt.
 
-{{< highlight "csharp" >}}
+Wenn alle Werte in den Spalten eines Arbeitsblatts nicht stark typisiert sind (das bedeutet, dass die Werte in einer Spalte verschiedene Datentypen haben können), dann können wir den Arbeitsblattinhalt exportieren, indem wir die Methode **ExportDataTableAsString** der Cells-Klasse aufrufen. Die Methode **ExportDataTableAsString** nimmt denselben Satz von Parametern wie die Methode **ExportDataTable** an, um die Arbeitsblattdaten als **DataTable**-Objekt zu exportieren.
+
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -36,13 +37,13 @@ fstream.Close();
 
 {{< /highlight >}}
 
-Nachfolgend die Screenshots:
+Hier sind die Screenshots:
 
-![todo: Bild_alt_Text](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-![todo: Bild_alt_Text](picture2.png)
+![todo:image_alt_text](picture2.png)
 
 ## **Beispielcode herunterladen**
 
-- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

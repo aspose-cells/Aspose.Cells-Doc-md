@@ -1,39 +1,40 @@
-﻿---
-title: Kaydet İptal İletişim Kutusunu Açmadan Excel Dosyasını Açma
+---
+title: Aç Kaydet İptal İletişim Kutusu Gösterilmeden Excel Dosyasını Açma
 type: docs
 weight: 150
 url: /tr/net/opening-excel-file-without-open-save-cancel-dialog-box/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aç-Kaydet-İptal iletişim kutusunu göstermeden bir tarayıcıda Microsoft Excel dosyasının nasıl açılacağını açıklar.
+Bu belge, aç-Kaydet-İptal iletişim kutusunu göstermeden tarayıcıda bir Microsoft Excel dosyasını nasıl açacağınızı açıklar. 
 
- Burada, bir dosyanın doğrudan indirilmesine izin vermeyen güvenlik kısıtlamasının Aspose tarafından değil, Microsoft (veya diğer tarayıcı satıcıları) tarafından uygulandığı belirtilmelidir. Zararlı olabilecek dosyaların yerel makinelere indirilmesini engellemek ve kısıtlamak için uygulanır. .
+Burada dikkat edilmesi gereken nokta, dosyanın doğrudan indirilmesine izin vermeyen güvenlik kısıtlamasının Microsoft (veya diğer tarayıcı sağlayıcıları) tarafından uygulandığıdır. Bu, potansiyel olarak zararlı dosyaların yerel makinelerine indirilmesini engellemek ve kısıtlamak için uygulanmıştır. 
 
-İstemcinin yerel sisteminin, indirmeyi istemek için Aç-Kaydet-İptal iletişim kutusunu göstermeden indirmeye izin vermesi risklidir. Çok büyük bir güvenlik riski oluşturacağı için Aspose numaralı telefondan herhangi bir seçenek veya geçici çözüm bulunmamaktadır.
+Müşterinin yerel sistemine indirme yapmadan gösterilen Aç-Kaydet-İptal iletişim kutusuna izin vermek risklidir. Bu, çok büyük bir güvenlik riski olacağından Aspose tarafından herhangi bir seçenek veya geçici çözüm bulunmamaktadır.
 
 {{% /alert %}} 
 ## **Neden bir güvenlik riski?**
-Aşağıdaki görüntü, bir dosyayı indirmeye çalışırken Internet Explorer tarafından gösterilen Aç-Kaydet-İptal iletişim kutusunu göstermektedir.
+Aşağıdaki resim, bir dosya indirmeye çalışırken Internet Explorer tarafından gösterilen Aç-Kaydet-İptal iletişim kutusunu göstermektedir.
 
 |**Aç-Kaydet-İptal iletişim kutusu**|
-|:- |
-|![yapılacaklar:resim_alternatif_metin](opening-excel-file-without-open-save-cancel-dialog-box_1.png)|
-Yukarıda açıklandığı gibi, gerçekten istediğinize dair onay almadan bir dosyanın sisteminizde açılmasına veya çalışmasına izin vermek bir güvenlik riskidir. Bazı dosyalar virüs içerir ve bazı siteler size sormadan zararlı dosyaları makinenize indirmeye çalışır. Bu nedenle, kullanıcıların dosyayı doğrulaması gerekmesi ve indirmeden veya çalıştırmadan önce kaynağının doğrulanabilmesi için indirme istemi olmadan dosya indirmeye izin vermeniz önerilmez. İndirme iletişim kutusunun devre dışı bırakılması, sisteminizi sessizce etkileyebilecek virüslere, Truva atlarına ve bilgisayar korsanlarına karşı savunmasız hale getirir.
-## **Bir Dosyayı Aç-Kaydet-İptal iletişim kutusu olmadan açma**
- Büyük bir güvenlik endişesi olsa da, Microsoft, kullanıcıların dosya indirme için Aç-Kaydet-İptal istemini devre dışı bırakmasına izin veren Internet Explorer ayarları sağlar.
+| :- |
+|![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_1.png)|
+Yukarıda açıklandığı gibi, bir dosyanın gerçekten isteyip istemediğinize dair onay olmadan sisteminizde açılmasına veya çalıştırılmasına izin vermek bir güvenlik riski oluşturur. Bazı dosyalar virüs içerebilir ve bazı siteler zararlı dosyaları sessizce makinenize indirmeye çalışabilir. Bu nedenle, kullanıcıların dosyayı doğrulamak ve kaynağını indirmeden veya çalıştırmadan önce doğrulamasına izin vermemeniz önerilmez. İndirme iletişim kutusunun devre dışı bırakılması, sistemi virüs, Truva atları ve sessizce sistemizi etkileyebilecek hackerlara karşı savunmasız hale getirir. 
+## **Aç-Kaydet-İptal iletişim kutusu olmadan bir Dosya Açma**
+Büyük bir güvenlik endişesi olmasına rağmen, Microsoft hala kullanıcıların dosya indirme için Aç-Kaydet-İptal uyarısını devre dışı bırakmasına izin veren Internet Explorer ayarları sağlar. 
 
-Windows Explorer'da:
+Windows Gezgini'nde:
 
-1.  Üzerinde**Araçlar** menü, seç**Dosya seçenekleri**.
+1. **Araçlar** menüsünde **Klasör Seçenekleri'ni** seçin.
 1. Klasör Seçenekleri iletişim kutusundaki Dosya Türleri sekmesine tıklayın.
 1. XLS uzantı dosya türünü seçin.
-1.  Tıklamak**Gelişmiş**. 
-Bir iletişim kutusu görüntülenir. Altta üç seçenek var.
-1.  İşareti kaldır**İndirdikten sonra açmayı onaylayın**.
-1.  Üçüncü seçeneği seçin -**Aynı pencerede göz atın** - Microsoft Excel'i tek başına başlatmadan Excel dosyasını Internet Explorer'da görüntülemek için.
+1. **Gelişmiş**'i tıklayın. 
+   Bir iletişim kutusu görüntülenir. Alt kısmında üç seçenek bulunmaktadır.
+1. **İndirdikten sonra açmayı onaylama**'yı işaretlemeyin.
+1. Excel dosyasını İnternet Explorer'da başlatmadan görüntülemek için üçüncü seçeneği - **Aynı pencerede göz atma** - seçin. 
 
-|**Dosya türü seçeneklerini düzenleme**|
-|:- |
-|![yapılacaklar:resim_alternatif_metin](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
-Bu ayar, dosyayı indirirken veya açarken Aç-Kaydet-İptal iletişim kutusu gösterilmeden dosyaların doğrudan web tarayıcısında çalışmasına olanak tanır.
+|**Dosya türü seçeneklerini Düzenleme**|
+| :- |
+|![todo:image_alt_text](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
+Bu ayar, dosyaların indirilirken veya açılırken Aç-Kaydet-İptal iletişim kutusunun gösterilmeden web tarayıcısında doğrudan çalışmasına olanak tanır.

@@ -1,34 +1,35 @@
-﻿---
-title: Erstellen Sie ein Kreisdiagramm
+---
+title: Erstellen eines Tortendiagramms
 type: docs
 weight: 110
 url: /de/net/create-a-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Diagramme präsentieren Daten auf leicht verständliche Weise. Benutzer, die mit Microsoft Excel arbeiten, können eine Reihe verschiedener Diagramme erstellen und anpassen. Die gleichen Funktionen stehen Entwicklern zur Verfügung, die mit Aspose.Cells for .NET arbeiten.
+Diagramme stellen Daten auf leicht verständliche Weise dar. Microsoft Excel-Benutzer können eine Vielzahl verschiedener Diagramme erstellen und anpassen. Die gleichen Funktionen stehen Entwicklern zur Verfügung, die mit Aspose.Cells for .NET arbeiten.
 
 {{% /alert %}}
 
-## **Erstellen eines Kreisdiagramms**
+## **Erstellen eines Tortendiagramms**
 
-Dieser Artikel vergleicht die Erstellung eines Kreisdiagramms mit Office Automation und VSTO mit der Verwendung von Aspose.Cells for .NET. Die Schritte zum Erstellen eines Kreisdiagramms sind:
+Dieser Artikel vergleicht, wie man ein Kreisdiagramm mit Office Automation und VSTO im Vergleich zur Verwendung von Aspose.Cells for .NET erstellt. Die Schritte zum Erstellen eines Kreisdiagramms lauten:
 
-1. Erstellen einer Arbeitsmappe und eines Arbeitsblatts.
-1. Beispieldaten hinzufügen.
-1. Verweisende ProdukteChart.
-1. Hinzufügen eines Tortendiagramms, Definieren des Datenbereichs und des Diagrammtitels.
-1. Tabelle speichern.
+1. Erstellen eines Arbeitsblatts und Arbeitsblattes.
+1. Hinzufügen von Beispieldaten.
+1. Verweisen auf productsChart.
+1. Hinzufügen eines Kreisdiagramms, Definieren des Datenbereichs und des Diagrammtitels.
+1. Speichern der Arbeitsmappe.
 
- Die Codebeispiele in diesem Artikel zeigen, wie Sie ein Kreisdiagramm mit hinzufügen[VSTO](/cells/de/net/create-a-pie-chart/) , entweder mit C# oder Visual Basic, im Vergleich zum Erstellen eines mit[Aspose.Cells](/cells/de/net/create-a-pie-chart/), wiederum entweder mit C# oder Visual Basic.
+Die Codebeispiele in diesem Artikel zeigen, wie man ein Kreisdiagramm mit [VSTO](/cells/de/net/create-a-pie-chart/) hinzufügen kann, wahlweise mithilfe von C# oder Visual Basic, im Vergleich zur Erstellung mit [Aspose.Cells](/cells/de/net/create-a-pie-chart/), wiederum mithilfe von C# oder Visual Basic.
 
 ### **Erstellen eines Kreisdiagramms mit VSTO**
 
-Die folgenden Codebeispiele zeigen, wie Sie mithilfe von VSTO ein Kreisdiagramm zu einer Tabelle hinzufügen.
+Die folgenden Codebeispiele zeigen, wie man mithilfe von VSTO ein Kreisdiagramm zu einem Tabellenblatt hinzufügen kann.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void PieChart()
 
@@ -100,15 +101,15 @@ Die folgenden Codebeispiele zeigen, wie Sie mithilfe von VSTO ein Kreisdiagramm 
 
 **Ein mit VSTO erstelltes Kreisdiagramm** 
 
-![todo: Bild_alt_Text](create-a-pie-chart_1.png)
+![todo:image_alt_text](create-a-pie-chart_1.png)
 
 ### **Erstellen eines Kreisdiagramms mit Aspose.Cells for .NET**
 
-Die folgenden Codebeispiele zeigen, wie Sie mithilfe von Aspose.Cells ein Kreisdiagramm zu einer Tabelle hinzufügen.
+Die folgenden Codebeispiele zeigen, wie man mithilfe von Aspose.Cells ein Kreisdiagramm zu einem Tabellenblatt hinzufügen kann.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void PieChart()
 
@@ -178,6 +179,6 @@ Die folgenden Codebeispiele zeigen, wie Sie mithilfe von Aspose.Cells ein Kreisd
 
 {{< /highlight >}}
 
-**Kreisdiagramm erstellt mit Aspose.Cells for .NET** 
+**Mit Aspose.Cells for .NET erstelltes Kreisdiagramm** 
 
-![todo: Bild_alt_Text](create-a-pie-chart_2.png)
+![todo:image_alt_text](create-a-pie-chart_2.png)

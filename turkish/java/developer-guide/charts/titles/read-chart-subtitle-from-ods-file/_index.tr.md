@@ -1,20 +1,21 @@
-﻿---
-title: ODS Dosyasından Grafik Alt Başlığını Okuyun
+---
+title: ODS Dosyasından Grafik Altyazısını Oku
 type: docs
 weight: 120
 url: /tr/java/read-chart-subtitle-from-ods-file/
 ---
-## **ODS Dosyasından Grafik Alt Başlığını Okuyun**
 
-Aspose.Cells, ODS dosyalarındaki grafik altyazılarını okuma olanağı sağlar.[**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)Emlak. Aşağıdaki örnek kod,[örnek ODS dosyası](SampleChart.ods)kullanarak grafik alt başlığını okur ve[**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)özelliğini kullanır ve Konsol Penceresinde yazdırır. Lütfen referans için aşağıda verilen kodun konsol çıktısına bakın.
+## **ODS Dosyasından Grafik Alt Başlığını Okuma**
 
-## **Basit kod**
+Aspose.Cells, kullanarak ODS dosyalarındaki grafik altyazılarını [**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle) özelliğini kullanarak okuma olanağı sağlar. Aşağıdaki örnek kod, [örnek ODS dosyasını](SampleChart.ods) yükler ve [**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle) özelliğini kullanarak grafik altyazısını okur ve bunu Konsol Penceresinde yazdırır. Referans için aşağıdaki kodun konsol çıktısına bakınız.
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-GetChartSubTitleForODSFile-1.java" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Chart Subtitle: Sample Chart Subtitle
 

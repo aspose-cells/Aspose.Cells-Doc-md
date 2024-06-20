@@ -1,25 +1,26 @@
-﻿---
-title: Tratar con la configuración de fuentes
-linktitle: Configuración de fuentes
+---
+title: Tratando con Configuraciones de Fuente
+linktitle: Configuración de fuente
 type: docs
 weight: 20
 url: /es/java/dealing-with-font-settings/
 ---
+
 {{% alert color="primary" %}} 
 
-La apariencia del texto se puede controlar cambiando la configuración de la fuente. Estos ajustes de fuente pueden incluir el nombre, el estilo, el tamaño, el color y otros efectos de las fuentes, como se muestra a continuación en la figura:
+La apariencia del texto se puede controlar cambiando su configuración de fuente. Estas configuraciones de fuente pueden incluir el nombre, estilo, tamaño, color y otros efectos de las fuentes como se muestra a continuación en la figura:
 
 **Configuración de fuente en Microsoft Excel** 
 
-![todo:imagen_alternativa_texto](dealing-with-font-settings_1.png)
+![todo:image_alt_text](dealing-with-font-settings_1.png)
 
 Al igual que Microsoft Excel, Aspose.Cells también admite la configuración de la fuente de las celdas.
 
 {{% /alert %}} 
-## **Configuración de ajustes de fuente**
- Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) que representa un archivo de Excel Microsoft. Él[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)clase. Él[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la clase proporciona un[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) recopilación. Cada artículo en el[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) colección representa un objeto de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)clase.
+## **Configuración de fuente**
+Aspose.Cells proporciona una clase, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) que representa un archivo de Microsoft Excel. La clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) contiene una [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) que permite acceder a cada hoja de cálculo en un archivo de Excel. Una hoja de cálculo está representada por la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). La clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) proporciona una colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). Cada elemento en la colección [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) representa un objeto de la clase [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell).
 
- Aspose.Cells proporciona el[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) clase'[establecerEstilo](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\) ), utilizado para establecer el formato de una celda. Asimismo, el objeto de la[Estilo](https://reference.aspose.com/cells/java/com.aspose.cells/Style)La clase proporciona propiedades para configurar los ajustes de fuente.
+Aspose.Cells proporciona el método [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) de la clase [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell), que se utiliza para establecer el formato de una celda. Además, el objeto de la clase [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) proporciona propiedades para configurar la configuración de la fuente.
 
 Este artículo muestra cómo:
 
@@ -28,76 +29,76 @@ Este artículo muestra cómo:
 - [Establecer el tamaño de fuente](/cells/es/java/dealing-with-font-settings/).
 - [Establecer el color de la fuente](/cells/es/java/dealing-with-font-settings/).
 - [Subrayar texto](/cells/es/java/dealing-with-font-settings/).
-- [texto tachado](/cells/es/java/dealing-with-font-settings/).
+- [Tachar texto](/cells/es/java/dealing-with-font-settings/).
 - [Establecer texto en subíndice](/cells/es/java/dealing-with-font-settings/).
 - [Establecer texto en superíndice](/cells/es/java/dealing-with-font-settings/).
-### **Configuración del nombre de la fuente**
- Aplique una fuente específica al texto en las celdas usando el[Fuente](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objetos[escoger un nombre](https://reference.aspose.com/cells/java/com.aspose.cells/font#Name)propiedad.
+### **Establecer nombre de fuente**
+Aplicar una fuente específica al texto en las celdas utilizando la propiedad [setName](https://reference.aspose.com/cells/java/com.aspose.cells/font#Name) del objeto [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontName-SettingFontName.java" >}}
-### **Configuración del estilo de fuente en negrita**
- Establezca el texto en negrita configurando el[Fuente](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objetos[poner en negrita](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsBold) propiedad a**verdadero**.
+### **Establecer estilo de fuente en negrita**
+Establezca el texto en negrita estableciendo la propiedad [setBold](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsBold) del objeto [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) en **verdadero**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SettingFontStyle-1.java" >}}
-### **Configuración del tamaño de fuente**
- Establezca el tamaño de la fuente con el[Fuente](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objetos[establecerTamaño](https://reference.aspose.com/cells/java/com.aspose.cells/font#Size)propiedad.
+### **Establecer tamaño de fuente**
+Establezca el tamaño de fuente utilizando la propiedad [setSize](https://reference.aspose.com/cells/java/com.aspose.cells/font#Size) del objeto [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontSize-SetFontSize.java" >}}
-### **Configuración del tipo de subrayado de fuente**
- Subraya el texto con el[Fuente](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objetos[establecerSubrayado](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) propiedad. Aspose.Cells ofrece varios tipos de subrayado de fuente predefinidos en el[FuenteSubrayadoTipo](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType)enumeración.
+### **Establecer tipo de subrayado de fuente**
+Subraye el texto con la propiedad [setUnderline](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) del objeto [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font). Aspose.Cells ofrece varios tipos predefinidos de subrayado de fuente en la enumeración [FontUnderlineType](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType).
 
 |**Tipos de subrayado de fuente**|**Descripción**|
-|:- |:- |
-|[NINGUNO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#NONE)|sin subrayar|
-|[ÚNICO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|Un solo subrayado|
-|[DOBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)|Explicación doble|
-|[CONTABILIDAD](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)|Un solo subrayado contable|
-|[DOBLE_CONTABILIDAD](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE_ACCOUNTING)|Subrayado de doble contabilidad|
-|[ESTRELLARSE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH)|Subrayado discontinuo|
-|[ESTRELLARSE_PUNTO_PUNTO_PESADO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_DOT_HEAVY)|Subrayado grueso de puntos y guiones|
-|[ESTRELLARSE_PUNTO_PESADO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_HEAVY)|Subrayado de puntos y guiones gruesos|
-|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED_HEAVY)|Subrayado discontinuo grueso|
-|[DASH_LARGO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG)|Subrayado discontinuo largo|
-|[ESTRELLARSE_LARGO_PESADO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)|Subrayado grueso de trazos largos|
-|[PUNTO GUIÓN](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DASH)|Subrayado de puntos y guiones|
-|[PUNTO_PUNTO_ESTRELLARSE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DOT_DASH)|Guión-Punto-Punto Subrayado|
-|[PUNTEADO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)|Subrayado punteado|
-|[DOTTED_PESADO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED_HEAVY)|Subrayado punteado grueso|
-|[PESADO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#HEAVY)|Subrayado grueso|
-|[ONDA](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|Subrayado de onda|
-|[ONDULADO_DOBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|Subrayado de doble onda|
-|[ONDULADO_PESADO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|Subrayado de onda pesada|
-|` `[PALABRAS](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|Subrayar solo caracteres que no sean espacios|
+| :- | :- |
+|[NONE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#NONE)|Sin subrayado|
+|[SINGLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|Un solo subrayado|
+|[DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)|Doble subrayado|
+|[ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)|Subrayado contable sencillo|
+|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE_ACCOUNTING)|Subrayado contable doble|
+|[DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH)|Subrayado punteado|
+|[DASH_DOT_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_DOT_HEAVY)|Subrayado grueso de guión-punto-punto|
+|[DASH_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_HEAVY)|Subrayado grueso de guión-punto|
+|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED_HEAVY)|Subrayado grueso de guionado|
+|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG)|Subrayado largo de guión|
+|[DASH_LONG_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)|Subrayado grueso de guión largo|
+|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DASH)|Subrayado de guion-punto|
+|[DOT_DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DOT_DASH)|Subrayado de guión-punto-punto|
+|[DOTTED](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)|Subrayado de guionado|
+|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED_HEAVY)|Subrayado grueso de guionado|
+|[HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#HEAVY)|Subrayado grueso|
+|[WAVE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|Subrayado ondulado|
+|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|Doble subrayado ondulado|
+|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|Subrayado pesado ondulado|
+|[WORDS](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|Subrayar solo caracteres no espaciales|
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontUnderlineType-SettingFontUnderlineType.java" >}}
 
 
 
-### **Configuración del color de fuente**
- Establezca el color de la fuente con el[Fuente](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objetos[establecerColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color) propiedad. Seleccione cualquier color de la[Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) enumeración y asignar el color seleccionado a la[Fuente](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objetos[establecerColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color).
+### **Establecer color de fuente**
+Establecer el color de fuente con la propiedad [setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color) del objeto [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font). Selecciona cualquier color de la enumeración [Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) y asígnalo al color seleccionado al objeto [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) usando la propiedad [setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontColor-SetFontColor.java" >}}
 
 
 
-### **Configuración del efecto de tachado en el texto**
- Texto tachado con el[Fuente](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objetos[tachar](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsStrikeout)propiedad.
+### **Aplicar efecto tachado al texto**
+Tachar texto con la propiedad [setStrikeout](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsStrikeout) del objeto [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingStrikeOutEffect-SettingStrikeOutEffect.java" >}}
 
 
 
-### **Subíndice de configuración**
- Haga superíndice de texto usando el[Fuente](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objetos[establecerSubíndice](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)propiedad.
+### **Ajustar subíndice**
+Hacer el texto en subíndice usando la propiedad [setSubscript](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript) del objeto [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSubscript-SetSubscript.java" >}}
 
 
 
-### **Configuración de superíndice**
- Aplicar superíndice al texto con el[Fuente](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objetos[conjuntoSuperíndice](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript)propiedad.
+### **Ajustar superíndice**
+Aplicar superíndice al texto con la propiedad [setSuperscript](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) del objeto [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSuperscript-SetSuperscript.java" >}}
 
 ## **Temas avanzados**
 - [Aplicar efectos de superíndice y subíndice en fuentes](/cells/es/java/apply-superscript-and-subscript-effects-on-fonts/)
-- [Obtenga una lista de fuentes utilizadas en una hoja de cálculo o libro de trabajo](/cells/es/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+- [Obtener una lista de fuentes utilizadas en una hoja de cálculo o libro de trabajo](/cells/es/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)

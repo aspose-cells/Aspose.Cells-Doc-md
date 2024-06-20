@@ -1,20 +1,21 @@
-﻿---
-title: ワークシートがダイアログ シートかどうかを調べる
+---
+title: ワークシートがダイアログシートであるかを検索する
 type: docs
 weight: 100
 url: /ja/java/find-if-the-worksheet-is-dialog-sheet/
 ---
-## **考えられる使用シナリオ**
 
-ダイアログ シートは、ダイアログ ボックスを含む古い形式のシートです。このようなシートは、このスクリーンショットに示すように、2003 などの古いバージョンの Microsoft Excel で挿入できます。 Microsoft Excel 2016 など、新しいバージョンの VBA で挿入することもできます。
+## **可能な使用シナリオ**
 
-![todo:画像_代替_文章](find-if-the-worksheet-is-dialog-sheet_1.png)
+ダイアログシートは、ダイアログボックスを含むシートの古い形式です。このようなシートは、Microsoft Excel 2003などの古いバージョンによって挿入される場合があります（以下のスクリーンショットで示されています）。また、Microsoft Excel 2016などの最新バージョンではVBAによって挿入することもできます。
 
-シートがダイアログ シートであるか、他のタイプのシートであるかを確認できます。[**Worksheet.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)Aspose.Cells 提供のプロパティ。列挙値を返す場合[**SheetType.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)の場合は、ダイアログ シートを扱っていることを意味します。
+![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-## **ワークシートがダイアログ シートかどうかを調べる**
+Aspose.Cellsが提供する*[**Worksheet.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)*プロパティを使用して、シートがダイアログシートまたはその他の種類のシートかどうかを見分けることができます。列挙値*[**SheetType.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)*を返す場合、ダイアログシートと取り扱っていることを意味します。
 
-次のサンプル コードは、[サンプル Excel ファイル](64716841.xlsx)ダイアログシートが含まれています。それはチェックします[**Worksheet.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)プロパティはそれを[**SheetType.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)メッセージを出力します。詳細については、以下のサンプル コードのコンソール出力を参照してください。
+## **ワークシートがダイアログシートであるかを検索する**
+
+以下のサンプルコードは、ダイアログシートを含む*サンプルExcelファイル*(64716841.xlsx)を読み込みます。*[**Worksheet.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)*プロパティをチェックして*[**SheetType.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)*と比較し、そのメッセージを印刷します。詳細については、以下のサンプルコードのコンソール出力を参照してください。
 
 ## **サンプルコード**
 
@@ -22,7 +23,7 @@ url: /ja/java/find-if-the-worksheet-is-dialog-sheet/
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Worksheet is a Dialog Sheet.
 

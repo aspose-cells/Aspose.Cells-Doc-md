@@ -1,4 +1,4 @@
-﻿---
+---
 title: フォント
 type: docs
 weight: 110

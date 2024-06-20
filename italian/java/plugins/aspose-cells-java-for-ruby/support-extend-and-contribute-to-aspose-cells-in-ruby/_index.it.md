@@ -1,20 +1,21 @@
-﻿---
-title: Supporta, estendi e contribuisci a Aspose.Cells in Ruby
+---
+title: Supportare, Estendere e Contribuire ad Aspose.Cells in Ruby
 type: docs
 weight: 30
 url: /it/java/support-extend-and-contribute-to-aspose-cells-in-ruby/
 ---
+
 ## **Supporto**
-Fin dai primi giorni di Aspose, sapevamo che solo dare ai nostri clienti buoni prodotti non sarebbe bastato. Avevamo anche bisogno di fornire un buon servizio. Siamo sviluppatori noi stessi e comprendiamo quanto sia frustrante quando un problema tecnico o una stranezza nel software ti impedisce di fare ciò che devi fare. Siamo qui per risolvere i problemi, non per crearli.
+Fin dai primi giorni di Aspose, sapevamo che fornire ai nostri clienti solo buoni prodotti non sarebbe stato sufficiente. Dovevamo anche offrire un buon servizio. Siamo anche sviluppatori e comprendiamo quanto sia frustrante quando un problema tecnico o una stranezza nel software ti impedisce di fare ciò che devi fare. Siamo qui per risolvere i problemi, non per crearli.
 
-Per questo offriamo assistenza gratuita. Chiunque utilizzi il nostro prodotto, sia che lo abbia acquistato o che stia utilizzando una valutazione, merita la nostra piena attenzione e rispetto.
+Ecco perché offriamo un supporto gratuito. Chiunque utilizzi il nostro prodotto, che li abbia acquistati o li stia usando in valutazione, merita la nostra piena attenzione e rispetto.
 
-Puoi registrare eventuali problemi o suggerimenti relativi a Aspose.Cells Java per Ruby utilizzando una delle seguenti piattaforme:
+È possibile registrare eventuali problemi o suggerimenti relativi ad Aspose.Cells Java for Ruby utilizzando una delle seguenti piattaforme:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
-## **Estendi e contribuisci**
-Aspose.Cells Java per Ruby è open source e il suo codice sorgente è disponibile sui principali siti Web di social coding elencati di seguito. Gli sviluppatori sono incoraggiati a scaricare il codice sorgente ea contribuire suggerendo o aggiungendo nuove funzionalità o migliorando quelle esistenti, in modo che anche altri possano trarne vantaggio.
-## **Codice sorgente**
-È possibile ottenere il codice sorgente più recente da una delle seguenti posizioni:
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
+## **Estensione e Contribuzione**
+Aspose.Cells Java for Ruby è open source e il suo codice sorgente è disponibile sui principali siti di codifica sociale elencati di seguito. Gli sviluppatori sono incoraggiati a scaricare il codice sorgente e contribuire suggerendo o aggiungendo nuove funzionalità o migliorando quelle esistenti, in modo che anche gli altri possano beneficiarne.
+## **Codice Sorgente**
+È possibile ottenere il codice sorgente più recente da uno dei seguenti siti:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Ruby)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Ruby)

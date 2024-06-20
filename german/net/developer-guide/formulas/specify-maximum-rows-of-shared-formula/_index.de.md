@@ -1,18 +1,19 @@
-﻿---
-title: Geben Sie die maximalen Zeilen der freigegebenen Formel an
+---
+title: Maximale Zeilen der gemeinsamen Formel angeben
 type: docs
 weight: 40
 url: /de/net/specify-maximum-rows-of-shared-formula/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Die standardmäßige maximale Anzahl von Zeilen der freigegebenen Formel ist 64. Es kann eine beliebige Zahl sein, z. B. 1000. Die Leistung der freigegebenen Formel ändert sich mit einer anderen Anzahl von Zeilen. Daher bietet die Aspose.Cells die[**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula)Eigenschaft, die verwendet werden kann, um die maximalen Zeilen der freigegebenen Formel anzugeben. Die freigegebene Formel wird auf mehrere freigegebene Formeln aufgeteilt, wenn die Gesamtzahl der Zeilen der freigegebenen Formel größer ist, wie im folgenden Screenshot gezeigt.
+## **Mögliche Verwendungsszenarien**
 
-![todo: Bild_alt_Text](specify-maximum-rows-of-shared-formula_1.png)
+Die Standard-Maximalzeilen der gemeinsamen Formel sind 64. Es könnte jede beliebige Zahl sein, z.B. 1000. Die Leistung der gemeinsamen Formel ändert sich mit einer unterschiedlichen Anzahl von Zeilen. Daher bietet Aspose.Cells die Eigenschaft [**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula), die verwendet werden kann, um die maximalen Zeilen der gemeinsamen Formel festzulegen. Die gemeinsame Formel wird auf mehrere gemeinsame Formeln aufgeteilt, wenn die Gesamtzeilen der gemeinsamen Formel größer sind als in der folgenden Bildschirmaufnahme gezeigt.
 
-## **Geben Sie die maximalen Zeilen der freigegebenen Formel an**
+![todo:image_alt_text](specify-maximum-rows-of-shared-formula_1.png)
 
-Der folgende Beispielcode erläutert die Verwendung der[**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula) Eigentum. Es setzt die maximalen Zeilen der freigegebenen Formel auf 5 und fügt die freigegebene Formel in Zelle D1 für 100 Zeilen hinzu und speichert in[Excel-Datei ausgeben](61767856.xlsx). Wenn Sie den Inhalt der ausgegebenen Excel-Datei extrahieren und die*Blatt1.xml*, sehen Sie die freigegebenen Formelaufteilungen nach jeweils 5 Zeilen, wie im obigen Screenshot hervorgehoben.
+## **Maximale Zeilen der gemeinsamen Formel angeben**
+
+Der folgende Beispielcode erläutert die Verwendung der Eigenschaft [**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula). Es setzt die maximalen Zeilen der gemeinsamen Formel auf 5 und fügt die gemeinsame Formel in Zelle D1 für 100 Zeilen hinzu und speichert sie in der [Ausgabedatei für Excel](61767856.xlsx). Wenn Sie die Inhalte der Ausgabedatei für Excel extrahieren und die *sheet1.xml* überprüfen, sehen Sie, dass die gemeinsame Formel nach jeweils 5 Zeilen aufgeteilt ist, wie in der obigen Bildschirmaufnahme hervorgehoben.
 
 ## **Beispielcode**
 

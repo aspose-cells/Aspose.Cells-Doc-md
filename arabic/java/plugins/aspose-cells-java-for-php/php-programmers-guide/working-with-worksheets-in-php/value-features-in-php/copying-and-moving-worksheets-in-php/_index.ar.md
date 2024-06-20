@@ -1,16 +1,17 @@
-﻿---
-title: نسخ أوراق العمل ونقلها في Php
+---
+title: نسخ ونقل الأوراق العمل في PHP
 type: docs
 weight: 10
 url: /ar/java/copying-and-moving-worksheets-in-php/
 ---
-## **Aspose.Cells - نسخ أوراق العمل ونقلها**
-### **نسخ أوراق العمل داخل مصنف**
- لنسخ ورقة العمل باستخدام**Aspose.Cells for Java في PHP** ، مكالمة**نسخة_ورقة عمل** طريقة**أوراق العمل** وحدة. أدناه يمكنك مشاهدة مثال رمز.
+
+## **Aspose.Cells - نسخ ونقل أوراق العمل**
+### **نسخ أوراق العمل داخل دفتر عمل**
+لنسخ ورق عمل باستخدام **Aspose.Cells for Java في PHP**، اتصل بطريقة **copy_worksheet** في وحدة **copyworksheets**. يمكنك رؤية مثال على الكود أدناه.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Create a Worksheets object with reference to the sheets of the Workbook.
 
@@ -26,12 +27,12 @@ $workbook->save($dataDir . "Copy Worksheet.xls");
 
 
 {{< /highlight >}}
-### **انقل أوراق العمل داخل مصنف**
- لنقل ورقة العمل باستخدام**Aspose.Cells for Java في PHP** ، مكالمة**نقل ورقة العمل** طريقة**أوراق العمل** وحدة. أدناه يمكنك مشاهدة مثال رمز.
+### **نقل ورقات العمل داخل كتاب عمل**
+لنقل ورقة العمل باستخدام **Aspose.Cells for Java في PHP**، اتصل بطريقة **move_worksheet** في وحدة **copyworksheets**. يمكنك رؤية مثال على الكود أدناه.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  # Get the first worksheet in the book.
 
@@ -46,7 +47,7 @@ $sheet->moveTo(2);
 $workbook->save($dataDir . "Move Worksheet.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**نسخ أوراق العمل ونقلها (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **نسخ ونقل أوراق العمل (Aspose.Cells)** من أي مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/CopyingAndMovingWorksheets.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/CopyingAndMovingWorksheets.php)

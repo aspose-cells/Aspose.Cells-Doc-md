@@ -3,26 +3,28 @@ title: Arbeta med GridJs lagring
 type: docs
 weight: 250
 url: /sv/net/aspose-cells-gridjs/storage/
-description: Den här artikeln beskriver den allmänna behandlingen för Aspose.Cells.GridJs.
-keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
+description: Denna artikel beskriver den allmänna filhanteringen för GridJs.
+keywords: filcache,lager,GridJs,GridJs lager,GridJs uid,hämta,unikt id
 ---
-#  Arbeta med GridJs Storage
-##  den allmänna filprocessen
-Efter import av en kalkylarksfil,
 
- GridJs kommer att skapa en cache-fil med den angivna uid i**`Config.FileCacheDirectory`** mapp ,
 
- med formatet av[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
+# Arbeta med GridJs-lagring
+## den allmänna filhanteringen 
+Efter import av en kalkylbladsfil,
 
- GridJs kommer också att spara alla former/bilder till en zip-arkivfil i**`Config.PictureCacheDirectory`** mapp för att senare visa former/bilder i klientgränssnittet.
+GridJs kommer att skapa en cache-fil med den angivna uid i mappen **`Config.FileCacheDirectory`**,
 
-och efter varje uppdateringsåtgärd i klientgränssnittet,
+med formatet [Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat"),
 
-till exempel ställ in cellvärde, ställ in cellstil, etc. ,
+GridJs kommer också att spara alla former/bilder i en ziparkivfil i mappen **`Config.PictureCacheDirectory`** för senare visning av former/bilder i klientgränssnittet.
 
-GridJs klientsida js kommer att utlösa kontrollåtgärder för att utföra en UpdateCell-operation.
+och efter varje uppdatering i klientgränssnittet,
 
-I den här åtgärden kommer en spara tillbaka till cachefilen att ske under UpdateCell-metoden.
+till exempel ställa in cellvärde, ställa in cellstil, osv.,
+
+GridJs klient-sidans js kommer att utlösa kontrolleraction för att utföra en uppdateringscelloperation.
+
+I denna åtgärd kommer en sparning tillbaka till cache-filen att inträffa under UpdateCell-metoden.
 ```C#   
         // post: /GridJs/UpdateCell
         [HttpPost] 
@@ -35,16 +37,16 @@ I den här åtgärden kommer en spara tillbaka till cachefilen att ske under Upd
             return Content(ret, "text/plain", System.Text.Encoding.UTF8);
         }
 ```
-###  var är cachefilen egentligen
+### Var finns cache-filen faktiskt 
 
 A. Om vi implementerar GridCacheForStream och ställer in GridJsWorkbook.CacheImp.
- till exempel i koden nedan kan vi bara lägga och hämta cachefilen från**"D:\temp"**
+till exempel i koden nedan kan vi bara sätta och hämta cache-filen från **"D:\temp"**
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
 GridJsWorkbook.CacheImp=new LocalFileCache();
 public class LocalFileCache  : GridCacheForStream
     {
-         
+
         /// <summary>
         /// Implement this method to savecache,save the stream to the cache object with the key id.
         /// </summary>
@@ -74,23 +76,23 @@ public class LocalFileCache  : GridCacheForStream
         }
 		...
 ```
-B.Om vi inte ställer in GridJsWorkbook.CacheImp,
+B. Om vi inte ställer in GridJsWorkbook.CacheImp,
 
- GridJs kommer att skapa och spara filen i**`Config.FileCacheDirectory`** , som är standardcachekatalogen som vi kan ställa in.
+kommer GridJs att skapa och spara filen inom **`Config.FileCacheDirectory`**, vilket är standardcachekatalogen som vi kan ställa in.
 
-###  hur man får den uppdaterade resultatfilen
-#### 1. en specificerad uid för fil
- Se till att en specificerad mappningsöverensstämmelse mellan filen och uid,
+### hur man får den uppdaterade resultatsfilen
+#### 1. ett specifierad uid för filen 
+Se till att en specifierad kartläggning korrespondens mellan filen och uid finns, 
 
-du kan alltid få samma uid för ett specificerat filnamn, inte från slumpmässig generering.
+Du kan alltid få samma uid för ett angivet filnamn, inte från slumpmässig generering.
 
-Använd till exempel bara filnamnet är ok.
+Till exempel är det bra att bara använda filnamnet.
 ```C#
 //in controller  
 ...
         public ActionResult Uidtml(String filename)
         {
- 
+
             return Redirect("~/xspread/uidload.html?file=" + filename + "&uid=" +  Path.GetFileNameWithoutExtension(filename));
         }
  ...
@@ -111,22 +113,22 @@ Använd till exempel bara filnamnet är ok.
         }
 ```
 
-####  2. synkronisera med klientens användargränssnitt
-Egentligen för vissa klientgränssnittsoperationer,
+#### 2. synkronisera med klientens UI-operation
+Faktum är att för vissa klienters UI-operation,
 
 till exempel:
 
-växla det aktiva arket till ett annat,
+växla det aktiva kalkylarket till ett annat,
 
-ändra bildpositionen,
+ändra bildplaceringen,
 
-rotera/ändra storlek på bild, etc.
+rotera/ändra bildstorlek, etc.
 
-UpdateCell-åtgärden utlöses inte.
+kommer inte UpdateCell-åtgärden att utlösas.
 
-Så om vi vill få den uppdaterade filen precis som klientens användargränssnitt visar,
+Så om vi vill få den uppdaterade filen precis som klientens UI visar,
 
-vi måste göra en sammanfogningsoperation innan vi sparar åtgärden för att synkronisera dessa klientgränssnittsoperationer.
+måste vi göra en sammanfogning innan spara-åtgärden för att synkronisera de där klientens UI-operationerna.
 ```javascript
 //in the js
   function save() {
@@ -161,8 +163,8 @@ vi måste göra en sammanfogningsoperation innan vi sparar åtgärden för att s
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-####  3. hämta filen från cachen
-till exempel: i nedladdningsåtgärden kan du bara hämta den från cachekatalogen med uid.
+#### 3. hämta filen från cache
+till exempel: i hämtnings-åtgärden kan du bara hämta den från cache-katalogen med uid.
 ```C#
 //in controller  
 

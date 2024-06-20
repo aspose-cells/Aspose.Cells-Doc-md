@@ -1,15 +1,16 @@
-﻿---
+---
 title: Agregar hojas de trabajo a un nuevo archivo de Excel en PHP
 type: docs
 weight: 20
 url: /es/net/add-worksheets-to-new-excel-file-in-php/
 ---
+
 ## **Agregar hojas de trabajo a un nuevo archivo de Excel**
 Agregar hojas de trabajo a un nuevo archivo de Excel
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -36,7 +37,7 @@ Agregar hojas de trabajo a un nuevo archivo de Excel
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Agregar hojas de trabajo a un nuevo archivo de Excel (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Agregar hojas de trabajo a un nuevo archivo de Excel (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddingWorksheetsToNewExcelFile.php)

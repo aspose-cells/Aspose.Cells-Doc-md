@@ -1,28 +1,29 @@
-﻿---
-title: Apertura di file in PHP
+---
+title: Apertura dei File in PHP
 type: docs
 weight: 10
 url: /it/java/opening-files-in-php/
 ---
-## **Aspose.Cells - Semplici modi per aprire file Excel**
-### **Apertura attraverso il percorso**
-Basta aprire un file Excel Microsoft facendo riferimento al percorso del file
+
+## **Aspose.Cells - Modi semplici per aprire file Excel**
+### **Apertura attraverso percorso**
+Apri semplicemente un file Microsoft Excel facendo riferimento al percorso del file
 
 **Codice PHP**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  $dataDir = '';
 
 $workbook1 = new Workbook($dataDir . "Book1.xls");
 
 {{< /highlight >}}
-### **Apertura tramite Stream**
-A volte, il file Excel che desideri aprire viene archiviato come flusso. In tal caso, utilizzare una versione di overload del metodo Open che accetta l'oggetto Stream che contiene il file Excel per aprire il file.
+### **Apertura tramite flusso**
+A volte, il file Excel che si desidera aprire è memorizzato come stream. In tal caso, utilizzare una versione sovraccaricata del metodo Open che prende l'oggetto Stream che contiene il file Excel per aprire il file.
 
 **Codice PHP**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  $fstream = new FileInputStream($dataDir . "Book2.xls");
 
@@ -34,6 +35,6 @@ $fstream->close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Apertura File (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Apertura File (Aspose.Cells)** da uno qualsiasi dei siti di codifica sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/OpeningFiles.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/OpeningFiles.php)

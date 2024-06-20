@@ -1,15 +1,16 @@
-﻿---
-title: أضف علامة مائية Word Art إلى ورقة العمل باستخدام Aspose.Cells
+---
+title: إضافة كلمة مثيرة للفن إلى ورقة عمل باستخدام Aspose.Cells
 type: docs
 weight: 10
 url: /ar/java/add-word-art-watermark-to-worksheet-using-aspose-cells/
 ---
-## **Aspose.Cells - إضافة علامة مائية Word Art إلى ورقة العمل**
-استخدم WordArt لإضافة تأثيرات نصية خاصة إلى جداول البيانات. على سبيل المثال ، قم بتمديد عنوان عبر الجزء العلوي من الملف ، وقم بتزيين النص ، وجعل النص يلائم شكلًا محددًا مسبقًا ، أو قم بتطبيق نص على ورقة Excel كعلامة مائية للخلفية. يصبح WordArt عنصرًا يمكنك نقله أو وضعه في جداول البيانات لإضافة زخرفة.
+
+## **Aspose.Cells - إضافة كلمة فنية مائية إلى ورقة عمل**
+استخدم WordArt لإضافة تأثيرات نصية خاصة إلى جداول البيانات. على سبيل المثال، يمكنك تمتد عنوان عبر الجزء العلوي من الملف، أو تزيين النص، و تحريك النص لملائمة شكل محدد مسبقًا، أو تطبيق النص على ورقة Excel كخلفية مائية. يصبح WordArt كائنًا يمكنك نقله أو تحديد موضعه في جداول البيانات لإضافة الزخارف.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook();
 
@@ -42,13 +43,13 @@ wordart.setHasLine(false);
 workbook.save(dataDir + "AsposeWatermark_Out.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AddWatermarkToWorksheet.java)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AddWatermarkToWorksheet.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[أضف علامة WordArt المائية إلى ورقة العمل](/cells/ar/java/add-wordart-watermark-to-worksheet).
+لمزيد من التفاصيل، قم بزيارة [إضافة كلمة مثيرة للفن إلى ورقة العمل](/cells/ar/java/add-wordart-watermark-to-worksheet).
 
 {{% /alert %}}

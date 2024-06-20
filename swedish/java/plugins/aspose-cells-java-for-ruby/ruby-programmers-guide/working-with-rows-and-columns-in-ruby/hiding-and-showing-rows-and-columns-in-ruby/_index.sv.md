@@ -1,16 +1,17 @@
-﻿---
+---
 title: Dölja och visa rader och kolumner i Ruby
 type: docs
 weight: 50
 url: /sv/java/hiding-and-showing-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Kontrollera synligheten för rader och kolumner**
-### **Döljer rader och kolumner**
-Utvecklare kan dölja en rad eller kolumn genom att anropa metoderna HideRow och HideColumn i samlingen Cells. Båda metoderna tar rad/kolumnindex som en parameter för att dölja den specifika raden eller kolumnen.
 
-**Ruby kod**
+## **Aspose.Cells - Kontrollera synligheten av rader & kolumner**
+### **Dölja rader och kolumner**
+Utvecklare kan dölja en rad eller kolumn genom att anropa HideRow och HideColumn metoderna i Cells-kollektionen respektive. Båda metoderna tar rad/kolumnindexet som parameter för att dölja den specifika raden eller kolumnen.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  def hide_rows_columns()
 
@@ -43,15 +44,15 @@ Utvecklare kan dölja en rad eller kolumn genom att anropa metoderna HideRow och
 end
 
 {{< /highlight >}}
-### **Visar rader och kolumner**
-Utvecklare kan visa alla dolda rader eller kolumner genom att anropa metoderna UnhideRow och UnhideColumn i samlingen Cells. Båda metoderna tar två parametrar:
+### **Visa rader och kolumner**
+Utvecklare kan återvisa dolda rader eller kolumner genom att anropa UnhideRow och UnhideColumn metoderna i Cells-kollektionen respektive. Båda metoderna tar två parametrar:
 
-- **Rowor kolumnindex**- indexet för en rad eller kolumn som används för att visa den specifika raden eller kolumnen.
-- **Radhöjd eller kolumnbredd**- radhöjden eller kolumnbredden som tilldelats raden eller kolumnen efter att den har visats.
+- **Rad- eller kolumnindex** - index för en rad eller kolumn som används för att visa den specifika raden eller kolumnen.
+- **Radhöjd eller kolumnbredd** - radhöjd eller kolumnbredd tilldelad till raden eller kolumnen efter att den visas.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def unhide_rows_columns()
 
@@ -84,7 +85,7 @@ Utvecklare kan visa alla dolda rader eller kolumner genom att anropa metoderna U
 end
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Kontrollera synligheten för rader och kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Kontrollera synligheten av rader & kolumner (Aspose.Cells)** från någon av nedanstående sociala kodningssidor:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

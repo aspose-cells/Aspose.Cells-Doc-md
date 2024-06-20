@@ -1,35 +1,36 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.4.0
+---
+title: تغييرات الواجهة العامة في Aspose.Cells 8.4.0
 type: docs
 weight: 140
 url: /ar/java/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.3.2 إلى 8.4.0 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/java/public-api-changes-in-aspose-cells-8-4-0/) و[الفئات المحذوفة وما إلى ذلك.](/cells/ar/java/public-api-changes-in-aspose-cells-8-4-0/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.3.2 إلى 8.4.0 التي قد تكون مثيرة لاهتمام مطوري الوحدات / التطبيقات. يشمل ليس فقط الطرق العامة الجديدة والمحدثة ، ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **آلية لتعديل VBA / Macro Code في جداول البيانات**
- من أجل توفير ميزة[معالجة التعليمات البرمجية لـ VBA / الماكرو](/cells/ar/java/modifying-vba-or-macro-code-using-aspose-cells/)، كشف Aspose.Cells for Java 8.4.0 عن سلسلة من الفئات والخصائص الجديدة في حزمة com.aspose.cells.Vba. فيما يلي بعض التفاصيل المهمة لهذه الفئات الجديدة.
+## **واجهات برمجة التطبيقات الجديدة**
+### **آلية تعديل رموز VBA/Macro في جداول البيانات**
+لتوفير ميزة [تلاعب الكود VBA/Macro](/cells/ar/java/modifying-vba-or-macro-code-using-aspose-cells/)، قامت Aspose.Cells for Java 8.4.0 بتعريض سلسلة من الفئات والخصائص الجديدة في حزمة com.aspose.cells.Vba. بعض تفاصيل الفئات الجديدة المهمة كما يلي.
 
-- يمكن استخدام فئة VbaProject لجلب مشروع VBA من جدول بيانات معين.
-- تمثل فئة VbaModuleCollection مجموعة وحدات VBA النمطية التي تعد جزءًا من مشروع VbaProject المحدد.
+- يمكن استخدام فئة VbaProject لاسترداد مشروع VBA من جدول بيانات معين.
+- تمثل فئة VbaModuleCollection مجموعة الوحدات VBA التي تشكل جزءًا من VbaProject معين.
 - تمثل فئة VbaModule وحدة واحدة من VbaModuleCollection.
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية تعديل مقاطع التعليمات البرمجية لـ VBA ديناميكيًا.
+يظهر مقتطف الكود التالي كيفية تعديل الأكواد VBA بشكل ديناميكي.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- مصنف المصنف = مصنف جديد ("source.xlsm") ؛
+ Workbook workbook = new Workbook("source.xlsm");
 
-// تغيير رمز وحدة VBA
+//Change the VBA Module Code
 
-وحدات VbaModuleCollection = workbook.getVbaProject (). getModules () ؛
+VbaModuleCollection modules = workbook.getVbaProject().getModules();
 
- لـ (int i = 0 ؛ i< modules.getCount(); i++)
+for(int i=0; i < modules.getCount(); i++)
 
 {
 
@@ -56,17 +57,17 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-4-0/
 workbook.save("output.xlsm");
 
 {{< /highlight >}}
-### **القدرة على إزالة الجدول المحوري**
-كشف Aspose.Cells for Java 8.4.0 طريقتين لمجموعة PivotTableCollection لتوفير ميزة إزالة Pivot Table من جدول بيانات معين. تفاصيل الطرق المذكورة هي كما يلي.
+### **القدرة على إزالة جدول الدوران**
+قامت Aspose.Cells for Java 8.4.0 بتعريض طريقتين لمجموعة الجدول المحوري لتوفير ميزة إزالة جدول بيانات محوري من جدول بيانات معين. تفاصيل الطرق المذكورة أدناه.
 
-- يقبل أسلوب PivotTableCollection.remove كائن PivotTable ويزيله من المجموعة.
-- يقبل أسلوب PivotTableCollection.removeAt قيمة عدد صحيح تستند إلى فهرس صفري ويزيل PivotTable معين من المجموعة.
+- يقبل الارتباط PivotTableCollection.remove كائنًا من PivotTable ، ويزيله من المجموعة.
+- يقبل الارتباط PivotTableCollection.removeAt قيمة صحيحة من نوع الصفر ويزيل PivotTable معينة من المجموعة.
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية إزالة PivotTable باستخدام كلتا الطريقتين المذكورتين أعلاه.
+يوضح مقتطف الكود التالي كيفية إزالة جدول الدوران باستخدام الارتباطين المذكورة أعلاه.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -93,24 +94,24 @@ worksheet.getPivotTables().removeAt(0);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **دعم لتخطيطات الجدول المحوري المختلفة**
-Aspose.Cells for Java 8.4.0 يوفر الدعم لمختلف المخططات المعرفة مسبقًا للجداول المحورية. لتوفير هذه الميزة ، كشفت واجهات برمجة التطبيقات Aspose.Cells ثلاث طرق لفئة PivotTable كما هو مفصل أدناه.
+### **دعم تخطيطات جدول الدوران المختلفة**
+توفر Aspose.Cells for Java 8.4.0 الدعم لتخطيطات محددة مخصصة مختلفة للجداول الدورية. من أجل توفير هذه الميزة، قدم واجهات برمجة التطبيقات Aspose.Cells ثلاث طرق لفئة PivotTable كما هو مفصل أدناه.
 
-- يعرض أسلوب PivotTable.showInCompactForm الجدول المحوري في التخطيط المضغوط.
-- يعرض أسلوب PivotTable.showInOutlineForm الجدول المحوري في تخطيط المخطط التفصيلي.
-- يعرض أسلوب PivotTable.showInTabularForm الجدول المحوري في تخطيط جدولي.
+- يقوم الارتباط PivotTable.showInCompactForm بعرض جدول الدوران في النسق المضغوط.
+- يقوم الارتباط PivotTable.showInOutlineForm بعرض جدول الدوران في تخطيط المخطط.
+- يقوم الارتباط PivotTable.showInTabularForm بعرض جدول الدوران في التخطيط الجدولي.
 
 {{% alert color="primary" %}} 
 
- من المهم استدعاء PivotTable.refreshData & PivotTable.calculateData بعد تعيين أي من التخطيطات المذكورة أعلاه.
+من المهم استدعاء PivotTable.refreshData و PivotTable.calculateData بعد تعيين أي من التخطيطات المذكورة أعلاه. 
 
 {{% /alert %}} 
 
-يعيّن نموذج التعليمات البرمجية التالي تخطيطات مختلفة لجدول Pivot ويخزن النتيجة على القرص.
+يقوم المقتطف البرمجي التالي بتعيين تخطيطات مختلفة لجدول دوران ويخزن النتيجة على القرص.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -167,19 +168,19 @@ pivotTable.calculateData();
 workbook.save("TabularForm.xlsx");
 
 {{< /highlight >}}
-### **Class TxtLoadStyle الإستراتيجية والممتلكات TxtLoadOptions.LoadStyle الإستراتيجية المضافة**
-كشف Aspose.Cells for Java 8.4.0 عن فئة TxtLoadStyleStrategy و TxtLoadOptions.LoadStyleStrategy من أجل تحديد استراتيجية تنسيق القيم التي تم تحليلها أثناء تحويل قيمة السلسلة إلى رقم أو وقت تاريخ.
-### **الطريقة DataBar.ToImage مضافة**
-مع إصدار v8.4.0 ، قدم Aspose.Cells API طريقة DataBar.toImage لحفظ DataBar المنسق شرطيًا في تنسيق صورة. تقبل طريقة {DataBar.toImage}} معلمتين على النحو المفصل أدناه.
+### **تمت إضافة فئة TxtLoadStyleStrategy وخاصية TxtLoadOptions.LoadStyleStrategy**
+قدمت Aspose.Cells for Java 8.4.0 فئة TxtLoadStyleStrategy وخاصية TxtLoadOptions.LoadStyleStrategy من أجل تحديد الاستراتيجية لتنسيق القيم المعالجة أثناء تحويل القيمة النصية إلى رقم أو تاريخ.
+### **تمت إضافة DataBar.ToImage Method**
+مع إصدار الإصدار 8.4.0، قدّمت واجهة برمجة التطبيقات لـ Aspose.Cells الارتباط DataBar.toImage لحفظ شريط البيانات المشروط في تنسيق الصورة. يقبل الارتباط DataBar.toImage ثلاثة معلمات كما هو مفصل أدناه.
 
-- المعامل الأول من النوع com.aspose.cells.Cell الذي تم تطبيق التنسيق الشرطي عليه.
-- المعامل الثاني هو من النوع com.aspose.cells.rendering.ImageOrPrintOptions لتعيين معاملات مختلفة للصورة الناتجة.
+- النموذج الأول من النوع com.aspose.cells.Cell الذي تم تطبيق التنسيق المشروط عليه.
+- النموذج الثاني من نوع com.aspose.cells.rendering.ImageOrPrintOptions من أجل تعيين معلمات مختلفة للصورة الناتجة.
 
-يوضح نموذج التعليمات البرمجية التالي استخدام أسلوب DataBar.toImage لتقديم DataBar بتنسيق صورة.
+الكود عينة التالية توضح استخدام الطريقة DataBar.toImage لتقديم DataBar في شكل صورة.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -209,7 +210,7 @@ opts.setImageFormat(ImageFormat.getPng());
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.toImage(cell, opts);
+byte[] imgBytes = dbar.toImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -220,24 +221,24 @@ out.write(imgBytes);
 out.close();
 
 {{< /highlight >}}
-### **تمت إضافة الخاصية Border.ThemeColor**
-تسمح واجهات برمجة التطبيقات Aspose.Cells باستخراج البيانات المتعلقة بالموضوع من جداول البيانات. مع إصدار Aspose.Cells for Java 8.4.0 ، كشف API خاصية Border.ThemeColor التي يمكن استخدامها لاسترداد سمات لون النسق لحدود Cell.
-### **تمت إضافة خاصية DrawObject.ImageBytes**
-كشف Aspose.Cells for Java 8.4.0 الخاصية DrawObject.ImageBytes للحصول على بيانات الصورة من Chart أو Shape.
-### **تمت إضافة الخاصية HtmlSaveOptions.ExportBogusRowData**
- قدم Aspose.Cells for Java 8.4.0 خاصية {HtmlSaveOptions.ExportBogusRowData}}. تحدد خاصية النوع المنطقي ما إذا كان API سيضخ بيانات زائفة للصف السفلي أثناء تصدير جدول البيانات إلى تنسيق HTML.
+### **تمت إضافة خاصية Border.ThemeColor.**
+تسمح واجهات برمجة التطبيقات Aspose.Cells باستخراج البيانات ذات الصلة بالسمة من جداول البيانات. مع إصدار Aspose.Cells for Java 8.4.0، قد عُرضت خاصية Border.ThemeColor التي يمكن استخدامها لاسترداد خصائص لون السمة لحدود الخلية.
+### **تمت إضافة خاصية DrawObject.ImageBytes.**
+Aspose.Cells for Java 8.4.0 قد عرضت خاصية DrawObject.ImageBytes للحصول على بيانات الصورة من الرسم البياني أو الشكل.
+### **تمت إضافة خاصية HtmlSaveOptions.ExportBogusRowData.**
+قدمت Aspose.Cells for Java 8.4.0 خاصية {HtmlSaveOptions.ExportBogusRowData}. تحدد الخاصية من نوع بولياني إذا كان سيقوم الواجهة برمجة التطبيقات بحقن بيانات صف سفلية وهمية أثناء تصدير جداول البيانات إلى تنسيق HTML. 
 
 {{% alert color="primary" %}} 
 
-القيمة الافتراضية هي الحقيقية.
+القيمة الافتراضية هي صحيحة.
 
 {{% /alert %}} 
 
-يوضح نموذج التعليمات البرمجية التالي استخدام الخاصية المذكورة.
+الكود عينة التالية توضح استخدام الخاصية المذكورة سابقًا.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -256,16 +257,16 @@ Workbook workbook = new Workbook("source.xlsx");
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **تمت إضافة الخاصية HtmlSaveOptions.CellCssPrefix**
-تسمح الخاصية المضافة حديثًا HtmlSaveOptions.CellCssPrefix بتعيين البادئة لملفات CSS أثناء تصدير جداول البيانات إلى تنسيق HTML.
+### **تمت إضافة خاصية HtmlSaveOptions.CellCssPrefix.**
+خاصية HtmlSaveOptions.CellCssPrefix الجديدة تسمح بتعيين البادئة لملفات CSS أثناء تصدير جداول البيانات إلى تنسيق HTML.
 
 {{% alert color="primary" %}} 
 
-القيمة الافتراضية هي سلسلة فارغة).
+القيمة الافتراضية هي "" (سلسلة فارغة).
 
 {{% /alert %}}
-## **واجهات برمجة التطبيقات المهجورة**
-### **طرق Cells.getCellByIndex & Row.getCellByIndex قديمة**
-استخدم طريقة getEnumerator لتكرار كل الخلايا بدلاً من ذلك.
-### **خاصية DrawObject.Image قديمة**
+## **واجهات برمجة التطبيقات المهملة**
+### **واجهات برمجة التطبيقات المهملة Cells.getCellByIndex & Row.getCellByIndex**
+استخدم الطريقة getEnumerator لتكرار جميع الخلايا بدلاً من ذلك.
+### **واجهات برمجة التطبيقات المهملة DrawObject.Image**
 استخدم خاصية DrawObject.ImageBytes للحصول على بيانات الصورة بدلاً من ذلك.

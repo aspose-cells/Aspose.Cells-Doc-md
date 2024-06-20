@@ -1,16 +1,17 @@
-﻿---
-title: Exporter la plage de la zone d'impression vers HTML
+---
+title: Exporter la plage de zone d impression au format HTML
 type: docs
 weight: 60
 url: /fr/java/export-print-area-range-to-html/
 ---
+
 ## Scénarios d'utilisation possibles
 
-Il s'agit d'un scénario très courant dans lequel nous devons exporter uniquement la zone d'impression, c'est-à-dire la plage de cellules sélectionnée au lieu de la feuille entière vers HTML. Cette fonctionnalité est déjà disponible pour le rendu PDF, cependant, vous pouvez maintenant effectuer cette tâche pour HTML également. Tout d'abord, définissez la zone d'impression dans l'objet de mise en page de la feuille de calcul. Utilisation ultérieure[**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportPrintAreaOnly)propriété pour exporter uniquement la plage sélectionnée.
+Il s'agit d'un scénario très courant où nous devons exporter uniquement la zone d'impression, c'est-à-dire la plage de cellules sélectionnée au lieu de la feuille entière, au format HTML. Cette fonctionnalité est déjà disponible pour le rendu PDF, cependant, vous pouvez désormais effectuer cette tâche également pour le HTML. Définissez d'abord la zone d'impression dans l'objet de mise en page de la feuille de calcul. Ensuite, utilisez la propriété [**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportPrintAreaOnly) pour n'exporter que la plage sélectionnée.
 
-## Java code pour exporter la plage de la zone d'impression vers HTML
+## Code Java pour exporter la plage de la zone d'impression au format HTML
 
-L'exemple de code suivant charge un classeur, puis exporte la zone d'impression vers le HTML. L'exemple de fichier pour tester cette fonctionnalité peut être téléchargé à partir du lien suivant :
+Le code d'exemple suivant charge un classeur puis exporte la zone d'impression vers le HTML. Le fichier d'exemple pour tester cette fonctionnalité peut être téléchargé depuis le lien suivant :
 
 [sampleInlineCharts.xlsx](79527960.xlsx)
 

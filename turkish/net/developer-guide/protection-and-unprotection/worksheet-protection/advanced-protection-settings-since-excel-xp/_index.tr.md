@@ -1,67 +1,68 @@
-﻿---
-title: Excel XP'den bu yana Gelişmiş Koruma Ayarları
+---
+title: Excel XP den beri Gelişmiş Koruma Ayarları
 type: docs
 weight: 30
 url: /tr/net/advanced-protection-settings-since-excel-xp/
 ---
+
 {{% alert color="primary" %}}
 
-Excel 2002 veya XP'nin piyasaya sürülmesinden bu yana Microsoft, birçok gelişmiş koruma ayarı ekledi.
+2002 veya XP sürümüyle birlikte, Microsoft birçok gelişmiş koruma ayarı eklemiştir.
 
 {{% /alert %}}
 
 ## **Giriş**
 
-Bu koruma ayarları, kullanıcıların şunları yapmasına izin verir veya kısıtlar:
+Bu koruma ayarları, kullanıcıların aşağıdakileri kısıtlamasına veya izin vermesini sağlar:
 
-- Satırları veya sütunları silin.
-- İçeriği, nesneleri veya senaryoları düzenleyin.
-- Hücreleri, satırları veya sütunları biçimlendirin.
-- Satırları, sütunları veya köprüleri ekleyin.
-- Kilitli veya kilidi açılmış hücreleri seçin.
-- Pivot tabloları ve çok daha fazlasını kullanın.
+- Satırları veya sütunları sil.
+- İçerik, nesneler veya senaryoları düzenle.
+- Hücreleri, satırları veya sütunları biçimlendir.
+- Satırları, sütunları veya hyperlinkleri ekle.
+- Kilitli veya kilitsiz hücreleri seç.
+- Özet tabloları ve çok daha fazlasını kullanın.
 
-Aspose.Cells, Excel XP veya sonraki sürümleri tarafından sunulan tüm gelişmiş koruma ayarlarını destekler.
+Aspose.Cells, Excel XP veya sonraki sürümlerinin sunduğu tüm gelişmiş koruma ayarlarını destekler.
 
-### **Excel XP ve Sonraki Sürümleri Kullanan Gelişmiş Koruma Ayarları**
+### **Excel XP'de bulunan koruma ayarlarını görüntülemek için:**
 
-Excel XP'de bulunan koruma ayarlarını görüntülemek için:
+**Araçlar** menüsünden **Koruma** ardından **Sayfayı Koru**'yu seçin.
 
-1.  itibaren**Araçlar** menü, seç**Koruma** bunu takiben**Sayfayı Koruyun**. Bir diyalog görüntülenecektir.
+1. **Araçlar** menüsünden **Koruma** ve ardından **Çalışma Sayfası Koru** seçin. Bir iletişim kutusu görüntülenecektir.
 
-Excel 2016'da bulunan koruma ayarlarını görüntülemek için
+Excel 2016'da mevcut koruma ayarlarını görmek için
 
-1.  itibaren**Dosya** menü, seç**Çalışma Kitabını Koru** bunu takiben**Geçerli Sayfayı Koru**.
-1.  seçin**Sayfayı Koruyun** içinde**Gözden geçirmek** Menü.
+1. **Dosya** menüsünden **Çalışma Kitabını Koru** ve ardından **Mevcut Sayfayı Koru** seçin.
+1. **İncele** menüsünde **Çalışma Sayfası Koru** seçin.
 
-Yukarıda belirtilen adımların ardından, çalışma sayfası özelliklerine izin verebileceğiniz veya kısıtlayabileceğiniz veya çalışma sayfasına bir parola uygulayabileceğiniz bir iletişim kutusu gösterilecektir.
+Yukarıda bahsedilen adımları takip etmek, çalışma sayfasına özelliklerin izin verilmesi veya kısıtlanması ya da çalışma sayfasına şifre uygulanması konusunda bir iletişim kutusu gösterecektir.
 
 ### **Aspose.Cells Kullanarak Gelişmiş Koruma Ayarları**
 
 Aspose.Cells, tüm gelişmiş koruma ayarlarını destekler.
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)sınıf.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) koleksiyonunu içerir. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir.
 
- bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Koruma**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) Bu gelişmiş koruma ayarlarını uygulamak için kullanılan özellik. bu[**Koruma**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) mülkiyet aslında bir nesnedir[**Koruma**](https://reference.aspose.com/cells/net/aspose.cells/protection)kısıtlamaları devre dışı bırakmak veya etkinleştirmek için çeşitli Boolean özelliklerini kapsayan sınıf.
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, bu gelişmiş koruma ayarlarını uygulamak için kullanılan [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) özelliğini sağlar. Aslında, [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) özelliği, birkaç Boolean özelliği devre dışı bırakma veya etkinleştirme için kullanılan bir [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/protection) sınıfı nesnesidir.
 
-Aşağıda küçük bir örnek uygulama var. Bir Excel dosyasını açar ve Excel XP ve sonraki sürümleri tarafından desteklenen gelişmiş koruma ayarlarının çoğunu kullanır.
+Aşağıda küçük bir örnek uygulama bulunmaktadır. Bir Excel dosyası açar ve Excel XP ve sonraki sürümler tarafından desteklenen gelişmiş koruma ayarlarının çoğunu kullanır.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-AdvancedProtectionSettings-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- lütfen aramayın[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**Korumak**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) yöntemini kullanırken[**Koruma**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)Emlak. Ayrıca, gelişmiş koruma ayarları yalnızca Excel XP ve sonraki sürümler tarafından desteklendiğinden, dosyayı Excel97To2003 veya Xlsx biçiminde kaydedin.
+Lütfen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfının [**Protect**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) yöntemini kullanırken [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) özelliğini kullanmayın. Ayrıca, gelişmiş koruma ayarlarının sadece Excel XP ve sonraki sürümler tarafından desteklendiğinden, dosyayı Excel97To2003 veya Xlsx biçiminde kaydedin.
 
 {{% /alert %}}
 
-### **Cell Kilitleme Sorunu**
+### **Hücre Kilitleme Sorunu**
 
-Kullanıcıların hücreleri düzenlemesini kısıtlamak istiyorsanız, herhangi bir koruma ayarı uygulanmadan önce hücreler kilitlenmelidir. Aksi takdirde, çalışma sayfası korumalı olsa bile hücreler düzenlenebilir. Microsoft Excel XP'de hücreler aşağıdaki iletişim kutusu aracılığıyla kilitlenebilir:
+Kullanıcıların hücreleri düzenlemesini kısıtlamak istiyorsanız, koruma ayarlarının uygulanmadan önce hücrelerin kilitli olması gerekir. Aksi takdirde, çalışma sayfası korunmuş olsa bile hücreler düzenlenebilir. Microsoft Excel XP'de, hücreler aşağıdaki iletişim kutusu aracılığıyla kilitleyebilir:
 
-|**Excel XP'de hücreleri kilitlemek için iletişim kutusu**|
-|:- |
-|![yapılacaklar:resim_alternatif_metin](advanced-protection-settings-since-excel-xp_1.png)|
+|**Excel XP'de Hücreleri Kilitlme İletişim Kutusu**|
+| :- |
+|![todo:image_alt_text](advanced-protection-settings-since-excel-xp_1.png)|
 
-Aspose.Cells API kullanarak da hücreleri kilitlemek mümkündür. Her hücre alabilir[**stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Boole özelliği içeren biçimlendirme,[**Kilitli**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Yı kur[**Kilitli**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) mülkiyet**doğru** veya**YANLIŞ** hücreyi kilitlemek veya kilidini açmak için
+Aspose.Cells API'sı kullanarak da hücreleri kilitlemek mümkündür. Her hücre, bir Boole özelliği içeren [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) biçimlendirmesi alabilir. Hücreyi kilitlemek veya açmak için [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) özelliğini **true** veya **false** olarak ayarlayın.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}

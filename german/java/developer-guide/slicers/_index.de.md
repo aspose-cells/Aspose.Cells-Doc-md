@@ -1,4 +1,4 @@
-﻿---
+---
 title: Slicer
 type: docs
 weight: 180

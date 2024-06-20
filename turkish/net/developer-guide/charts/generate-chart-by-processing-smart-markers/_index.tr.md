@@ -1,49 +1,50 @@
 ---
-title: Akıllı İşaretleyicileri İşleyerek Grafik Oluşturun
-description: Aspose.Cells for .NET numaralı telefonu kullanarak akıllı işaretçilerle nasıl grafik oluşturacağınızı öğrenin. Rehberimiz, grafiklerinizin görünümünü ve kullanılabilirliğini geliştirmek için akıllı işaretçileri ve bunların özelliklerini nasıl işleyeceğinizi gösterecektir.
-keywords: Aspose.Cells for .NET, chart generation, smart markers, appearance, usability, processing.
+title: Akıllı İşaretlerin İşlenmesiyle Grafik Oluşturma
+description: Aspose.Cells for .NET kullanarak akıllı işaretleyicileri kullanan grafiklerin nasıl oluşturulacağını öğrenin. Rehberimiz, akıllı işaretleyicileri ve özelliklerini işlemek ve grafiklerinizin görünüşünü ve kullanılabilirliğini artırmak için nasıl kullanacağınızı gösterecektir.
+keywords: Aspose.Cells for .NET, grafik oluşturma, akıllı işaretleyiciler, görünüş, kullanılabilirlik, işleme.
 type: docs
 weight: 2100
 url: /tr/net/generate-chart-by-processing-smart-markers/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells API'ler şunları sağlar:[**Çalışma Kitabı Tasarımcısı**](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) biçimlendirmenin ve formüllerin tasarımcı elektronik tablolarına yerleştirildiği ve ardından işlendiği Akıllı İşaretleyiciler ile çalışma sınıfı[**Çalışma Kitabı Tasarımcısı**](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner)verileri belirtilen Akıllı İşaretleyicilere göre doldurmak için sınıf. Aşağıdaki adımları gerektirecek Akıllı İşaretleyicileri işleyerek Excel grafikleri oluşturmak da mümkündür.
+Aspose.Cells API'ları, biçimlendirme ve formüllerin tasarım elektronik tablolara yerleştirilmiş ve ardından belirli Akıllı İşaretleyicilere göre verilerin doldurulması için [**WorkbookDesigner**](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner) sınıfını sağlar. İşaretlenen akıllı işaretleyicileri işleyerek Excel grafikleri oluşturulabilir, bu da aşağıdaki adımları gerektirecektir.
 
 - Tasarımcı elektronik tablosunun oluşturulması
-- Tasarımcı elektronik tablosu belirtilen veri kaynağına göre işleniyor
-- Doldurulmuş verilere dayalı grafiğin oluşturulması
+- Belirli veri kaynağına karşı tasarımcı elektronik tablonun işlenmesi
+- Popüle edilmiş veriye dayalı olarak grafik oluşturulması
 
 {{% /alert %}}
 
-##  Tasarımcı Elektronik Tablosunun Oluşturulması
+## Tasarımcı Elektronik Tablonun Oluşturulması
 
-Tasarımcı elektronik tablosu, içeriğin çalışma zamanında doldurulabileceği görsel biçimlendirmeyi, formülleri ve akıllı işaretçileri içeren Microsoft Excel uygulaması veya Aspose.Cells API'leri ile oluşturulan basit bir Excel dosyasıdır.
+Tasarımcı elektronik tablo, Microsoft Excel uygulaması veya Aspose.Cells API'leri ile oluşturulmuş basit bir Excel dosyasıdır; görsel biçimlendirme, formüller ve akıllı işaretleyiciler içeren, içerikler çalışma zamanında doldurulabilir.
 
-Basitlik adına, Aspose.Cells for .NET API'i kullanarak tasarımcı elektronik tablosunu oluşturacağız ve daha sonra bunu gösterim amacıyla dinamik olarak oluşturulmuş bir veri kaynağına karşı işleyeceğiz.
+Basitlik açısından, Aspose.Cells for .NET API kullanarak tasarımcı elektronik tablo oluşturacağız ve daha sonra gösterim amaçları için dinamik olarak oluşturulmuş bir veri kaynağına karşı işleyeceğiz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfDesignerSpreadsheet.cs" >}}
 
-##  İşleme Tasarımcısı Elektronik Tablosu
+## Tasarımcı Elektronik Tablonun İşlenmesi
 
-Tasarımcı elektronik tablosunu işlemek için, tasarımcı elektronik tablosunda kullanılan Akıllı İşaretleyicilere karşılık gelen bir veri kaynağına sahip olunması gerekir. Örneğin, DataTable Sales'teki Yıl sütununu temsil eden &=Satış.Yıl şeklinde bir Akıllı İşaretleyici girişi oluşturduk. Veri kaynağında karşılık gelen bir sütunun bulunmaması durumunda, Aspose.Cells API'leri söz konusu Akıllı İşaretleyiciye ilişkin işlemi atlayacak ve sonuç olarak söz konusu Akıllı İşaretleyiciye ilişkin veriler doldurulmayacaktır.
+Tasarımcı elektronik tablonun işlenmesi için, tasarımcı elektronik tabloda kullanılan Akıllı İşaretleyicilere uygun bir veri kaynağınız olmalıdır. Örneğin, Sales.DataTable'daki Yıl sütununu temsil eden &=Sales.Year şeklinde bir Akıllı İşaretleyici girdisi oluşturduk. Karşılık gelen bir sütun veri kaynağında bulunmuyorsa, Aspose.Cells API'leri o belirli Akıllı İşaretleyici için işlemeyi atlayacak ve sonuç olarak belirli Akıllı İşaretleyici için veriler doldurulmayacaktır.
 
-Bu kullanım durumunu göstermek için veri kaynağını sıfırdan oluşturacağız ve onu önceki adımda oluşturulan tasarımcı elektronik tablosuna göre işleyeceğiz. Ancak gerçek zamanlı bir senaryoda, veriler daha sonraki işlemler için zaten mevcut olabilir; dolayısıyla, veriler zaten mevcutsa veri kaynağı oluşturma işlemini atlayabilirsiniz.
+Bu kullanım durumunu göstermek için, veri kaynağını sıfırdan oluşturacağız ve hazırladığımız tasarımcı elektronik tabloya karşı işleyeceğiz. Bununla birlikte, gerçek zamanlı bir senaryoda, veri zaten mevcutsa, veri kaynağının oluşturulmasını atlayabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-ProcessingDesignerSpreadsheet.cs" >}}
 
-Akıllı İşaretleyicilerin işlenmesi aşağıdaki kod parçacığında da gösterildiği gibi oldukça basittir.
+Akıllı İşaretleyicilerin işlenmesi, aşağıdaki kod örneği ile gösterildiği gibi oldukça basittir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-ProcessingOfSmartMarkers.cs" >}}
 
 {{% alert color="primary" %}}
 
- Yukarıdaki kod parçacığı, mevcut örneğini kullanır.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) İlk adımda oluşturulan sınıf. Diskte veya bellekte tasarımcı elektronik tablosu dosyanız zaten varsa, bunun bir örneğini oluşturabilirsiniz.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)mevcut tasarımcı e-tablosunu yükleyerek sınıf.
+Yukarıdaki kod örneği, ilk adımda oluşturulan [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfının mevcut örneğini kullanmaktadır. Eğer zaten diskte veya bellekte tasarımcı elektronik tablo dosyası varsa, mevcut tasarımcı elektronik tablosunu yükleyerek [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfının bir örneğini oluşturabilirsiniz.
 
 {{% /alert %}}
 
-##  Grafiğin Oluşturulması
+## Grafik Oluşturma
 
- Veriler yerleştirildikten sonra tek yapmamız gereken, veri kaynağına dayalı bir grafik oluşturmaktır. Örneği basit tutmak için şunu kullanacağız:[**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange)Grafiği daha fazla yapılandırmamıza gerek kalmayacak şekilde.
+Veri yerine getirildikten sonra, yapmamız gereken tek şey veri kaynağına dayalı bir grafik oluşturmaktır. Örneği basit tutmak için [**Chart.SetChartDataRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) yöntemini kullanacağız, böylece grafikleri daha fazla yapılandırmaya gerek kalmadan kullanabiliriz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GenerateChartByProcessingSmartMarkers-CreationOfChart.cs" >}}

@@ -1,10 +1,11 @@
-﻿---
-title: Fonctionnalités de sécurité dans Ruby
+---
+title: Fonctionnalités de sécurité en Ruby
 type: docs
 weight: 40
 url: /fr/java/security-features-in-ruby/
 ---
-**Cette section comprend les rubriques suivantes :**
 
-- [Protéger les feuilles de calcul dans Ruby](/cells/fr/java/protecting-worksheets-in-ruby/)
-- [Déprotéger une feuille de calcul dans Ruby](/cells/fr/java/unprotect-a-worksheet-in-ruby/)
+**Cette section inclut les sujets suivants:**
+
+- [Protéger les feuilles de calcul en Ruby](/cells/fr/java/protecting-worksheets-in-ruby/)
+- [Déprotéger une feuille de calcul en Ruby](/cells/fr/java/unprotect-a-worksheet-in-ruby/)

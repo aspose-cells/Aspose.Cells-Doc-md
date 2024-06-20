@@ -1,39 +1,40 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.7.2
+---
+title: Aspose.Cells 8.7.2 での公開 API 変更
 type: docs
 weight: 250
 url: /ja/net/public-api-changes-in-aspose-cells-8-7-2/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.7.1 から 8.7.2 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントでは、Aspose.Cells API のバージョン 8.7.1 から 8.7.2 への変更について、モジュール/アプリケーション開発者に興味を持つ可能性がある内容が記載されています。新しいおよび更新された公開メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の背後での挙動に変更があった場合についても説明しています。
 
 {{% /alert %}} 
-## **追加された API**
-### **デフォルトの計算エンジンを拡張**
-Aspose.Cells API には、ほとんどすべての Microsoft Excel 関数を計算できる強力な計算エンジンがあります。さらに、Aspose.Cells API を使用すると、デフォルトの計算エンジンを拡張して、あらゆるアプリケーションのカスタム計算要件を満たすことができます。
+## **APIの追加**
+### **デフォルト計算エンジンの拡張**
+Aspose.Cells API には強力な計算エンジンがあり、ほとんどすべての Microsoft Excel 関数を計算できます。さらに、Aspose.Cells API では、デフォルトの計算エンジンを拡張して、任意のアプリケーションのカスタム計算要件に適合させることができます。
 
-Aspose.Cells for .NET 8.7.2 のリリースで、次の API が追加されました。
+以下は、Aspose.Cells for .NET 8.7.2のリリースとともに追加されたAPIです。
 
 1. AbstractCalculationEngine クラス
-1. 計算データ クラス
+1. CalculationData クラス
 1. CalculationOptions.CustomEngine プロパティ
 
 {{% alert color="primary" %}} 
 
-上記の API を使用すると、すべての関数 (Excel のネイティブ関数を含む) のカスタム計算エンジンをより柔軟に実装できます。
+上記の API は、より柔軟性を持ってすべての関数（Excel のネイティブ関数を含む）にカスタム計算エンジンを実装できるようにします。
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[カスタム計算エンジンの実装](/cells/ja/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+この機能の詳細については、[デフォルトの計算エンジンを拡張するためのカスタム計算エンジンの実装](/cells/ja/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)の詳細記事をご覧ください
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class MyEngine : AbstractCalculationEngine
 
@@ -88,20 +89,20 @@ Aspose.Cells for .NET 8.7.2 のリリースで、次の API が追加されま�
 {{< /highlight >}}
 
 
-### **TextBoxCollection のオーバーロードされたインデクサーを追加しました**
-Aspose.Cells for .NET 8.7.2 は、名前を文字列として使用して TextBox のインスタンスにアクセスするために、TextBoxCollection クラスのオーバーロードされたインデックスを公開しました。
+### **TextBoxCollection用のオーバーロードされたインデクサを追加しました**
+Aspose.Cells for .NET 8.7.2では、TextBoxCollectionクラスにおいて名前を使用してTextBoxのインスタンスにアクセスするためのオーバーロードされたインデクサーが公開されました。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[名前を介して TextBox にアクセスする](/cells/ja/net/access-the-text-box-by-the-name/)
+この機能の詳細については、[名前を使用してTextBoxにアクセス](/cells/ja/net/access-the-text-box-by-the-name/)の詳細記事をご覧ください
 
 {{% /alert %}} 
 
-簡単な使用シナリオは次のようになります。
+シンプルな使用シナリオは次のようになります。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -130,14 +131,14 @@ box = sheet.TextBoxes["MyTextBox"];
 {{< /highlight >}}
 
 
-### **GridWeb の OnAfterColumnFilter イベントを追加**
-Aspose.Cells.GridWeb for .NET 8.7.2 は、Aspose.Cells.GridWeb UI を通じて行われるフィルタリング メカニズムへのコールバックとして機能する OnAfterColumnFilter イベントを公開しました。名前が示すように、イベントは列フィルタリングが適用された後にトリガーされ、フィルターが適用された列インデックスや選択されたフィルター値などのフィルター情報を取得するために使用できます。
+### **GridWeb用のOnAfterColumnFilterイベントを追加しました**
+Aspose.Cells.GridWeb for .NET 8.7.2では、GridWeb UIを介したフィルタリングメカニズムに対するコールバックとしてOnAfterColumnFilterイベントが公開されました。イベント名が示すように、このイベントは列のフィルタリングが適用された後にトリガされ、フィルタリング情報（適用された列インデックスや選択されたフィルタ値など）を取得するために使用できます。
 
-簡単な使用シナリオは次のようになります。
+シンプルな使用シナリオは次のようになります。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void GridWeb1_AfterColumnFilter(object sender, Aspose.Cells.GridWeb.RowColumnEventArgs e)
 
@@ -151,6 +152,6 @@ Aspose.Cells.GridWeb for .NET 8.7.2 は、Aspose.Cells.GridWeb UI を通じて�
 
 {{% alert color="primary" %}} 
 
-イベントをGridWebコントロールに登録することを忘れないでください<acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
+Do not forget to register the event to GridWeb control <acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
 
 {{% /alert %}}

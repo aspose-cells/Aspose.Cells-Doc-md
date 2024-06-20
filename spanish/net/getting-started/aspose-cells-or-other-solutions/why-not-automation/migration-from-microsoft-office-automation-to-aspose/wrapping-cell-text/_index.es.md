@@ -1,41 +1,42 @@
-﻿---
-title: Envoltura Cell Texto
+---
+title: Envolver texto de celda
 type: docs
 weight: 130
 url: /es/net/wrapping-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-Ajustar el texto facilita la lectura: una celda con texto ajustado se expande para ajustarse al texto de modo que el texto no se muestre sobre otras celdas.
+Envolver texto hace que sea más fácil de leer: una celda con texto envuelto se expande para ajustarse al texto, de manera que el texto no se muestra sobre otras celdas.
 
-Con Aspose.Cells for .NET, los desarrolladores pueden realizar la mayoría de las tareas en sus aplicaciones que los usuarios pueden realizar con Microsoft Excel, incluido el ajuste de texto en celdas. Este artículo explica cómo y compara la tarea usando VSTO y Aspose.Cells. Aspose.Cells está optimizado para una codificación eficiente y funciona sin Microsoft Automatización.
+Con Aspose.Cells for .NET, los desarrolladores pueden realizar la mayoría de las tareas en sus aplicaciones que los usuarios pueden realizar con Microsoft Excel, incluyendo envolver texto en celdas. Este artículo explica cómo, y compara la tarea usando VSTO y Aspose.Cells. Aspose.Cells está optimizado para una codificación eficiente y funciona sin Automatización de Microsoft.
 
 {{% /alert %}}
 
-## **Envoltura Cell Texto**
+## **Envolver texto de celda**
 
-Para crear una hoja de cálculo con dos celdas, una con texto ajustado y otra sin:
+Para crear una hoja de cálculo con dos celdas, una con texto envuelto y otra sin:
 
-1. Configure la hoja de trabajo:
- 1. Cree un libro de trabajo.
- 1. Acceda a la primera hoja de trabajo.
-1. Añadir texto:
- 1. Agregue texto a la celda A1.
- 1. Agregue texto ajustado a la celda A5.
-1. Guarde la hoja de cálculo.
+1. Configurar la hoja de cálculo:
+   1. Crear un libro de trabajo.
+   1. Acceder a la primera hoja de cálculo.
+1. Agregar texto:
+   1. Agregar texto a la celda A1.
+   1. Agregar texto envuelto a la celda A5.
+1. Guardar la hoja de cálculo.
 
- Los ejemplos de código a continuación muestran cómo realizar estos pasos usando[VSTO](/cells/es/net/wrapping-cell-text/) con C# o Visual Basic. Ejemplos de código que muestran cómo hacer lo mismo usando[Aspose.Cells for .NET](/cells/es/net/wrapping-cell-text/), nuevamente utilizando C# o Visual Basic, siga inmediatamente después.
+Los ejemplos de código a continuación muestran cómo realizar estos pasos usando [VSTO](/cells/es/net/wrapping-cell-text/) con C# o Visual Basic. Los ejemplos de código que muestran cómo hacer lo mismo usando [Aspose.Cells for .NET](/cells/es/net/wrapping-cell-text/), nuevamente usando C# o Visual Basic, siguen inmediatamente después.
 
-Ejecutar el código da como resultado una hoja de cálculo con dos celdas, una que tiene texto que no se ha ajustado y otra que tiene:
+Al ejecutar el código se obtiene una hoja de cálculo con dos celdas, una con texto que no ha sido envuelto y otra con:
 
-|<p>**Texto de celda de ajuste de salida con VSTO** </p><p>![todo:imagen_alternativa_texto](wrapping-cell-text_1.png)</p>|<p>**Texto de celda de envoltura de salida con Aspose.Cells for .NET** </p><p>![todo:imagen_alternativa_texto](wrapping-cell-text_2.png)</p>|
-|:- |:- |
+|<p>**Output wrapping cell text with VSTO** </p><p>![todo:image_alt_text](wrapping-cell-text_1.png)</p>|<p>**Output wrapping cell text with Aspose.Cells for .NET** </p><p>![todo:image_alt_text](wrapping-cell-text_2.png)</p>|
+| :- | :- |
 
-### **Envolviendo Cell texto usando VSTO**
+### **Envolver texto de celda usando VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -85,11 +86,11 @@ void WrappingCellText()
 
 {{< /highlight >}}
 
-### **Envolviendo Cell Texto usando Aspose.Cells for .NET**
+### **Envolver texto de celda usando Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void WrappingCellText()
 

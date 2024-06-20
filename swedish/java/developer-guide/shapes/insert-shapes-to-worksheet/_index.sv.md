@@ -1,86 +1,88 @@
-﻿---
-title: Infoga former till arbetsblad i Aspose.Cells
+---
+title: Infoga former i arbetsbladet i Aspose.Cells
 type: docs
 weight: 5
 url: /sv/java/insert-shapes-to-worksheet-in-aspose-cells/
 ---
+
+
 {{% alert color="primary" %}}
 
-Ibland behöver du infoga några nödvändiga former i kalkylbladet. Du kan behöva infoga samma form på olika positioner i kalkylbladet. Eller så måste du infoga former i kalkylbladet.
+Ibland behöver du infoga vissa nödvändiga former i arbetsbladet. Du kan behöva infoga samma form på olika positioner på arbetsbladet. Eller så behöver du satsvis infoga former i arbetsbladet.
 
- Oroa dig inte![Aspose.Cells](https://products.aspose.com/cells/)stöder alla dessa operationer.
+Var inte orolig! [Aspose.Cells](https://products.aspose.com/cells/) stöder alla dessa operationer.
 
 {{% /alert %}}
 
-Formerna i excel är huvudsakligen indelade i följande typer:
-- **Rader**
+Formerna i Excel är huvudsakligen uppdelade i följande typer:
+- **Linjer**
 - **Rektanglar**
-- **Grundläggande former**
-- **Block pilar**
-- **Ekvationsformer**
-- **Flödesdiagram**
+- **Grundformer**
+- **Blockpilar**
+- **Ekvationformer**
+- **Flödesscheman**
 - **Stjärnor och banderoller**
-- **Bildtexter**
+- **Inrop**
 
- Detta guidedokument kommer att välja en eller två former från varje typ för att göra prover. Genom dessa exempel kommer du att lära dig hur du använder[Aspose.Cells](https://products.aspose.com/cells/) för att infoga den angivna formen i kalkylbladet.
+Denna guide kommer att välja en eller två former från varje typ för att skapa exempel. Genom dessa exempel kommer du att lära dig hur du använder [Aspose.Cells](https://products.aspose.com/cells/) för att infoga den angivna formen i arbetsbladet.
 
 
 
-## **Infoga en rad i arbetsbladet**
+## **Infoga en Linje i Arbetsblad**
 
- Linjens form tillhör**rader** kategori.
+Linjens form tillhör kategorin **linjer**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga raden
+- Välj cellen där du vill infoga linjen
 - Klicka på Infoga-menyn och klicka på Former.
-- Välj sedan raden från "Nyligen använda former" eller "Linjer"
+- Välj sedan linjen från 'Nyligen använda former' eller 'Linjer'
 
 ![](line.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en rad i kalkylbladet.
+Du kan använda följande metod för att infoga en linje i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public Shape addShape(int typ, int upperLeftRow, int top, int upperLeftColumn, int left, int höjd, int bredd)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar en rad i ett kalkylblad.
+Följande exempel visar hur man infogar en linje i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Line.java" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](line2.png)
 
 
 
-## **Infoga en linjepil i arbetsblad**
+## **Infoga en Linje Pil i Arbetsblad**
 
- Formen på linjepilen tillhör**Rader** kategori. Det är ett specialfall av linje.
+Linjepilen tillhör kategorin **Linjer**. Det är ett specialfall av linje.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga linjepilen
+- Välj cellen där du vill infoga linjepilen
 - Klicka på Infoga-menyn och klicka på Former.
-- Välj sedan linjepilen från "Nyligen använda former" eller "Linjer"
+- Välj sedan linjepilen från 'Nyligen använda former' eller 'Linjer'
 
 ![](line_arrow1.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en linjepil i kalkylbladet.
+Du kan använda följande metod för att infoga en linjepil i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public Shape addShape(int typ, int upperLeftRow, int top, int upperLeftColumn, int left, int höjd, int bredd)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
 {{% /alert %}}
 
@@ -88,67 +90,67 @@ Följande exempel visar hur man infogar en linjepil i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-LineArrow.java" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](line_arrow2.png)
 
 
 
-## **Infoga en rektangel i arbetsbladet**
+## **Infoga en Rektangel i Arbetsblad**
 
- Formen på rektangeln tillhör**Rektanglar** kategori.
+Rektangeln tillhör kategorin **Rektanglar**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga rektangeln
+- Välj cellen där du vill infoga rektangeln
 - Klicka på Infoga-menyn och klicka på Former.
-- Välj sedan rektangeln från "Nyligen använda former" eller "Rektanglar"
+- Välj sedan rektangeln från 'Nyligen använda former' eller 'Rektanglar'
 
 ![](rectangle.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en rektangel i kalkylbladet.
+Du kan använda följande metod för att infoga en rektangel i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public Shape addShape(int typ, int upperLeftRow, int top, int upperLeftColumn, int left, int höjd, int bredd)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur du infogar rektangel i ett kalkylblad.
+Följande exempel visar hur man infogar en rektangel i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Rectangle.java" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](rectangle2.png)
 
 
 
-## **Infoga en kub i arbetsbladet**
+## **Infoga en Kub i Arbetsblad**
 
-Formen på kuben tillhör**Grundläggande former** kategori.
+Kuben tillhör kategorin **Grundformer**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga kuben
+- Välj cellen där du vill infoga kuben
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan kuben från**Grundläggande former**
+- Välj sedan kuben från **Grundläggande former**
 
 ![](cube.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en kub i kalkylbladet.
+Du kan använda följande metod för att infoga en kub i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int typ, int upperLeftRow, int top, int upperLeftColumn, int left, int höjd, int bredd)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
 {{% /alert %}}
 
@@ -156,176 +158,176 @@ Följande exempel visar hur man infogar en kub i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Cube.java" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](cube2.png)
 
 
 
-## **Infogar en bildtext quad-pil i kalkylblad**
+## **Infoga en pratbubbepil i Arbetsblad**
 
- Formen på bildtexten quad pil tillhör**Block pilar** kategori.
+Formen av återuppringningpilar tillhör kategorin **Blockpilar**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga bildtexten quad-pilen
+- Välj cellen där du vill infoga återuppringningspilar
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan bildtexten quad-pilen från**Block pilar**
+- Välj sedan återuppringningspilar från **Blockpilar**
 
 ![](callout_quad_arrow.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en bildtext quad-pil i kalkylbladet.
+Du kan använda följande metod för att infoga återuppringningspilar i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int typ, int upperLeftRow, int top, int upperLeftColumn, int left, int höjd, int bredd)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar bildtext quad-pil i ett kalkylblad.
+Följande exempel visar hur man infogar återuppringningspilar i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.java" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](callout_quad_arrow2.png)
 
 
 
-## **Infoga ett multiplikationstecken i arbetsbladet**
+## **Infoga en multiplikationsskylt i Arbetsblad**
 
- Formen på multiplikationstecknet tillhör**Ekvationsformer** kategori.
+Formen av multiplikationstecken tillhör kategorin **Ekvationformer**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga multiplikationstecknet
+- Välj cellen där du vill infoga multiplikationstecknet
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan multiplikationstecknet från**Ekvationsformer**
+- Välj sedan multiplikationstecknet från **Ekvationformer**
 
 ![](multiplication_sign.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga ett multiplikationstecken i kalkylbladet.
+Du kan använda följande metod för att infoga ett multiplikationstecken i kalkylarket.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int typ, int upperLeftRow, int top, int upperLeftColumn, int left, int höjd, int bredd)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar multiplikationstecken i ett kalkylblad.
+Följande exempel visar hur man infogar ett multiplikationstecken i ett kalkylblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.java" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](multiplication_sign2.png)
 
 
 
-## **Infoga ett multidokument i kalkylblad**
+## **Infoga en multidokument i Arbetsblad**
 
- Formen på multidokument tillhör**Flödesdiagram** kategori.
+Formen av multidokument tillhör kategorin **Flödesscheman**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga multidokumentet
+- Välj cellen där du vill infoga multi-dokument
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan multidokumentet från**Flödesdiagram**
+- Välj sedan multi-dokumentet från **Flödesscheman**
 
 ![](multidocument.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga ett multidokument i kalkylbladet.
+Du kan använda följande metod för att infoga ett multi-dokument i arbetsbladet.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int typ, int upperLeftRow, int top, int upperLeftColumn, int left, int höjd, int bredd)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar flera dokument i ett kalkylblad.
+Följande exempel visar hur man infogar multi-dokument i ett arbetsblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Multidocument.java" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](multidocument2.png)
 
 
 
-## **Infoga en femuddig stjärna i arbetsbladet**
+## **Infoga en femuddig stjärna i Arbetsblad**
 
- Formen på en femuddig stjärna tillhör**Stjärnor och banderoller** kategori.
+Formen av Femuddig stjärna tillhör kategorin **Stjärnor och band**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Markera cellen där du vill infoga den femuddiga stjärnan
+- Välj cellen där du vill infoga Femuddig stjärna
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan den femuddiga stjärnan från**Stjärnor och banderoller**
+- Välj sedan Femuddig stjärna från **Stjärnor och band**
 
 ![](star_5_points.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga en femuddig stjärna i kalkylbladet.
+Du kan använda följande metod för att infoga en Femuddig stjärna i arbetsbladet.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int typ, int upperLeftRow, int top, int upperLeftColumn, int left, int höjd, int bredd)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar en femuddig stjärna i ett kalkylblad.
+Följande exempel visar hur man infogar Femuddig stjärna i ett arbetsblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-FivePointedStar.java" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](star_5_points2.png)
 
 
 
-## **Infogar ett tankebubbelmoln i arbetsblad**
+## **Infoga en tankebubbla till arbetsbladet**
 
- Formen på tankebubbelmoln tillhör**Bildtexter** kategori.
+Formen av pratbubblan tillhör kategorin **Pilfunktioner**.
 
 ***I Microsoft Excel (till exempel 2007):***
 
-- Välj cellen där du vill infoga tankebubbelmolnet
+- Välj cellen där du vill infoga pratbubblan
 - Klicka på Infoga-menyn och klicka på Former.
--  Välj sedan tankebubblans moln från**Bildtexter**
+- Välj sedan pratbubblan från **Pilfunktioner**
 
 ![](thought_bubble_cloud.png)
 
-***Använder Aspose.Cells***
+***Använda Aspose.Cells***
 
-Du kan använda följande metod för att infoga ett tankebubbelmoln i kalkylbladet.
+Du kan använda följande metod för att infoga en pratbubbla i arbetsbladet.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int typ, int upperLeftRow, int top, int upperLeftColumn, int left, int höjd, int bredd)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Metoden returnerar en[Form](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objekt.
+Metoden returnerar en [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape)-objekt.
 
 {{% /alert %}}
 
-Följande exempel visar hur man infogar tankebubblor i ett kalkylblad.
+Följande exempel visar hur man infogar pratbubblan i ett arbetsblad.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.java" >}}
 
-Utför koden ovan, du får följande resultat:
+Exekvera ovanstående kod, kommer du att få följande resultat:
 
 ![](thought_bubble_cloud2.png)

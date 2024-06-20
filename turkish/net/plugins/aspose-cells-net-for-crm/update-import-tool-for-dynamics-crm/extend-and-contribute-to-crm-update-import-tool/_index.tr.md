@@ -1,16 +1,17 @@
-﻿---
-title: Genişletin ve CRM Güncelleme İçe Aktarma Aracına Katkıda Bulunun
+---
+title: CRM Güncelleme İçe Aktarma Aracını Genişletme ve Katkıda Bulunma
 type: docs
 weight: 10
 url: /tr/net/extend-and-contribute-to-crm-update-import-tool/
 ---
-En son kaynak kodunu şu adresten indirebilirsiniz:
+
+En son kaynak kodunu şuradan indirebilirsiniz:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Plugins.UpdateImportTool).
 
-Verileri CRM'den Excel'e Aktarma
+CRM'den Veriyi Excel'e Dışarı Aktar
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
   SaveFileDialog fileDialog = new SaveFileDialog();
 
@@ -71,9 +72,9 @@ Verileri CRM'den Excel'e Aktarma
 
 {{< /highlight >}}
 
-Verileri Excel'den CRM'ye Aktarın
+Excelden CRM'ye Veri İçeri Aktar
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
   if (ctrl.CrmConnectionMgr != null && ctrl.CrmConnectionMgr.CrmSvc != null && ctrl.CrmConnectionMgr.CrmSvc.IsReady)
 

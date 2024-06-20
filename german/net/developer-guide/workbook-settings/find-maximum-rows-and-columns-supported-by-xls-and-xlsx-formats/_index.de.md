@@ -1,16 +1,17 @@
-﻿---
-title: Finden Sie maximale Zeilen und Spalten, die von den Formaten XLS und XLSX unterstützt werden
+---
+title: Suchen Sie nach der maximal unterstützten Anzahl von Zeilen und Spalten in den Formaten XLS und XLSX
 type: docs
 weight: 20
 url: /de/net/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Es gibt eine unterschiedliche Anzahl von Zeilen und Spalten, die von Excel-Formaten unterstützt werden. Beispielsweise unterstützt XLS 65536 Zeilen und 256 Spalten, während XLSX 1048576 Zeilen und 16384 Spalten unterstützt. Wenn Sie wissen möchten, wie viele Zeilen und Spalten von einem bestimmten Format unterstützt werden, können Sie verwenden[**Arbeitsmappe.Einstellungen.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) und[**Arbeitsmappe.Einstellungen.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)Eigenschaften.
+## **Mögliche Verwendungsszenarien**
 
-## **Finden Sie maximale Zeilen und Spalten, die von den Formaten XLS und XLSX unterstützt werden**
+Excel-Formate unterstützen unterschiedliche Anzahlen von Zeilen und Spalten. Zum Beispiel unterstützt XLS 65536 Zeilen und 256 Spalten, während XLSX 1048576 Zeilen und 16384 Spalten unterstützt. Wenn Sie wissen möchten, wie viele Zeilen und Spalten von einem bestimmten Format unterstützt werden, können Sie die Eigenschaften [**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) und [**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn) verwenden.
 
-Der folgende Beispielcode erstellt eine Arbeitsmappe zuerst im Format XLS und dann im Format XLSX. Nach der Erstellung werden die Werte von gedruckt[**Arbeitsmappe.Einstellungen.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) und[**Arbeitsmappe.Einstellungen.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)Eigenschaften. Bitte sehen Sie sich die Konsolenausgabe des unten angegebenen Codes als Referenz an.
+## **Suchen Sie die maximale Anzahl von Zeilen und Spalten, die von den XLS- und XLSX-Formaten unterstützt werden**
+
+Der folgende Beispielcode erstellt zuerst eine Arbeitsmappe im XLS- und dann im XLSX-Format. Nach der Erstellung gibt er die Werte der Eigenschaften [**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) und [**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn) aus. Bitte sehen Sie sich die Konsolenausgabe des unten angegebenen Codes zur Referenz an.
 
 ## **Beispielcode**
 
@@ -18,7 +19,7 @@ Der folgende Beispielcode erstellt eine Arbeitsmappe zuerst im Format XLS und da
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Maximum Rows and Columns supported by XLS format.
 

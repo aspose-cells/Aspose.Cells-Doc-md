@@ -1,15 +1,16 @@
-﻿---
-title: اكتشف ما إذا كانت ورقة العمل محمية بكلمة مرور
+---
+title: الكشف عما إذا كانت ورقة العمل محمية بكلمة مرور
 type: docs
 weight: 360
 url: /ar/net/detect-if-worksheet-is-password-protected/
 ---
+
 {{% alert color="primary" %}}
 
-من الممكن حماية المصنفات وأوراق العمل بشكل منفصل. على سبيل المثال ، قد يحتوي جدول البيانات على ورقة عمل واحدة أو أكثر محمية بكلمة مرور ، ومع ذلك ، قد يكون جدول البيانات نفسه محميًا أو غير محمي. توفر واجهات برمجة التطبيقات Aspose.Cells وسيلة لاكتشاف ما إذا كانت ورقة عمل معينة محمية بكلمة مرور أم لا. توضح هذه المقالة استخدام Aspose.Cells for .NET API لتحقيق ذلك.
+من الممكن حماية الدفاتر المحاسبية وأوراق العمل بشكل منفصل. على سبيل المثال ، قد تحتوي جدول بيانات على ورقة واحدة أو أكثر محمية بكلمة مرور ، ومع ذلك ، قد تكون جدول البيانات نفسه محميًا أو قد لا يكون محميًا. توفر واجهات برمجة التطبيقات في Aspose.Cells الوسيلة للكشف عما إذا كانت ورقة العمل المحددة محمية بكلمة مرور أم لا. يوضح هذا المقال استخدام واجهة برمجة التطبيقات Aspose.Cells for .NET لتحقيق الهدف نفسه.
 
 {{% /alert %}}
 
- كشف Aspose.Cells for .NET 8.7.0 عن ملف[**الحماية محمية بكلمة مرور**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) خاصية اكتشاف ما إذا كانت ورقة العمل محمية بكلمة مرور أم لا. النوع المنطقي[**الحماية محمية بكلمة مرور**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) إرجاع الممتلكات**حقيقي** إذا[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) محمي بكلمة مرور و**خاطئة** ان لم.
+قد قامت Aspose.Cells for .NET 8.7.0 بتعريض الخاصية [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) للكشف عما إذا كانت ورقة العمل محمية بكلمة مرور أم لا. تعيد الخاصية [**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) من نوع بولياني **true** إذا كانت [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) محمية بكلمة مرور و **false** إذا لم تكن.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckIfPasswordProtected-CheckIfPasswordProtected.cs" >}}

@@ -1,64 +1,65 @@
-﻿---
-title: Skapa och hantera tabeller med Microsoft Excel-filer.
+---
+title: Skapa och hantera tabeller i Microsoft Excel filer.
 linktitle: Tabeller
 type: docs
 weight: 150
 url: /sv/net/create-and-format-table/
-description: Infoga, ändra storlek, redigera, ta bort, formatera tabell över Excel-filer med Aspose.Cells-biblioteket.
+description: Infoga, ändra storlek, redigera, ta bort, formatera tabell i Excel filer med hjälp av Aspose.Cells biblioteket.
 ---
-## **Skapa bord**
 
-En av fördelarna med kalkylblad är att de låter dig skapa olika typer av listor, till exempel telefonlistor, uppgiftslistor, listor över transaktioner, tillgångar eller skulder. Flera användare kan arbeta tillsammans för att använda, skapa och underhålla olika listor.
+## **Skapa tabell**
 
-Aspose.Cells stöder att skapa och hantera listor.
+En av fördelarna med kalkylblad är att de tillåter dig att skapa olika typer av listor, till exempel telefonlistor, uppgiftslistor, listor över transaktioner, tillgångar eller skulder. Flera användare kan samarbeta för att använda, skapa och underhålla olika listor.
 
-### **Fördelar med ett listobjekt**
+Aspose.Cells stödjer skapande och hantering av listor.
 
-Det finns en hel del fördelar när du konverterar en lista med data till ett faktiskt listobjekt
+### **Fördelar med en List-objekt**
+
+Det finns ganska många fördelar när du konverterar en lista med data till ett faktiskt List-objekt
 
 - Nya rader och kolumner inkluderas automatiskt.
-- En total rad längst ner på din lista kan enkelt läggas till för att visa SUMMA, AVERAGE, COUNT, etc.
-- Kolumner som läggs till till höger infogas automatiskt i List-objektet.
-- Diagram baserade på rader och kolumner utökas automatiskt.
-- Namngivna intervall som tilldelats rader och kolumner kommer att utökas automatiskt.
-- Listan är skyddad från oavsiktlig radering och radering.
+- En totalrad längst ner i din lista kan enkelt läggas till för att visa SUMMA, MEDELVÄRDE, ANTAL, osv.
+- Kolumner som läggs till till höger inkorporeras automatiskt i listobjektet.
+- Diagram baserade på rader och kolumner kommer att utökas automatiskt.
+- Namngivna intervall tilldelade rader och kolumner kommer att utökas automatiskt.
+- Listan är skyddad från oavsiktlig rad- och kolumnradering.
 
-### **Skapa ett listobjekt med Microsoft Excel**
+### **Skapa ett List-objekt med hjälp av Microsoft Excel**
 
-- Välja dataintervall för att skapa ett listobjekt
-- Detta visar dialogrutan Skapa lista.
--  Implementera List-objektet för data och ange total rad (Välj**Data** , då**Lista** , följd av**Total rad**).
+- Välja dataintervall för att skapa ett List-objekt
+- Detta visar skapa List-dialogrutan.
+- Implementera List-objektet för datan och specificera total rad (Välj **Data**, sedan **Lista**, följt av **Total rad**).
 
-### **Använder Aspose.Cells API**
+### **Använda Aspose.Cells API**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)samling som ger åtkomst till varje kalkylblad i en Excel-fil.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klassen innehåller en [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)samling som ger åtkomst till varje arbetsblad i en Excel-fil.
 
- Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass tillhandahåller ett brett utbud av egenskaper och metoder för att hantera ett kalkylblad. Att skapa en[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) i ett kalkylblad använder du[**Listobjekt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects) samling egendom av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. Varje[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) är i själva verket ett föremål för[**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection) klass, som ytterligare ger[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index)metod för att lägga till ett List-objekt och ange ett cellintervall för listan.
+Ett kalkylblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) tillhandahåller ett brett utbud av egenskaper och metoder för att hantera ett kalkylblad. För att skapa en [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) i ett kalkylblad, använd [**ListObjects**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects)-egenskapen i klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Varje [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) är i själva verket en objekt av klassen [**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection), som dessutom tillhandahåller [**Add**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index)-metoden för att lägga till ett List-objekt och specificera en intervall av celler för listan.
 
-Enligt det angivna cellintervallet skapas List-objektet av Aspose.Cells. Använd attribut (t.ex.[**ShowTotals**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/showtotals), [**Lista kolumner**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/listcolumns) , etc.) av[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)klass för att kontrollera listan.
+Enligt det angivna cellintervallet skapas List-objektet av Aspose.Cells. Använd attribut (till exempel [**ShowTotals**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/showtotals), [**ListColumns**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/listcolumns), etc.) för klassen [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) för att kontrollera listan.
 
- I exemplet nedan har vi skapat detsamma[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)med Aspose.Cells API som vi skapade med Microsoft Excel i avsnittet ovan.
+I det exempel som ges nedan har vi skapat samma [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) med hjälp av Aspose.Cells API som vi skapade med hjälp av Microsoft Excel i avsnittet ovan.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-CreatingListObject-1.cs" >}}
 
 ## **Formatera en tabell**
 
-För att hantera och analysera en grupp relaterade data är det möjligt att förvandla ett cellintervall till ett listobjekt (även känt som en Excel-tabell). En tabell är en serie rader och kolumner som innehåller relaterade data som hanteras oberoende av data i andra rader och kolumner. Som standard har varje kolumn i tabellen filtrering aktiverad i rubrikraden så att du snabbt kan filtrera eller sortera dina listobjektdata. Du kan lägga till en totalrad (en speciell rad i en lista som ger ett urval av aggregerade funktioner som är användbara för att arbeta med numerisk data) till listobjektet som tillhandahåller en rullgardinslista med aggregerade funktioner för varje total radcell. Aspose.Cells ger alternativ för att skapa och hantera listor (eller tabeller).
+För att hantera och analysera en grupp relaterade data är det möjligt att göra om ett cellområde till ett listobjekt (även känt som en Exceltabell). En tabell är en serie rader och kolumner som innehåller relaterade data som hanteras oberoende från data i andra rader och kolumner. Som standard har varje kolumn i tabellen filtrering aktiverat i rubrikraden så att du snabbt kan filtrera eller sortera dina listobjektdata. Du kan lägga till en totalrad (en specialrad i en lista som ger ett urval av aggregeringsfunktioner som är användbara för att arbeta med numeriska data) till listobjektet som ger en rullista med aggregeringsfunktioner för varje cell i totalraden. Aspose.Cells tillhandahåller alternativ för att skapa och hantera listor (eller tabeller).
 
-### **Formatera ett listobjekt**
+### **Formatera ett Listobjekt**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)samling som ger åtkomst till varje kalkylblad i en Excel-fil.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klassen innehåller en [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)samling som ger åtkomst till varje arbetsblad i en Excel-fil.
 
- Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. Att skapa en[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) i ett kalkylblad, använd[**Listobjekt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects) samling egendom av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. Varje[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) är i själva verket ett föremål för[**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection) klass, som ytterligare ger[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index) metod för att lägga till ett List-objekt och ange det cellintervall som det ska omfatta. Enligt det specificerade cellområdet, a[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)skapas i kalkylbladet av Aspose.Cells. Använd attribut (t.ex.[**TableStyleType**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/tablestyletype) ) av[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)klass för att formatera tabellen för ditt krav.
+Ett kalkylblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att skapa en [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) i ett kalkylblad, använd [**ListObjects**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects)-egenskapen i klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Varje [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) är i själva verket en objekt av klassen [**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection), som dessutom tillhandahåller [**Add**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index)-metoden för att lägga till ett List-objekt och specificera det intervall av celler den ska omfatta. Enligt det angivna cellintervallet skapas en [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) i kalkylbladet av Aspose.Cells. Använd attribut (till exempel [**TableStyleType**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/tablestyletype)) för klassen [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) för att formatera tabellen enligt dina behov.
 
- Exemplet nedan lägger till exempeldata till ett kalkylblad, lägger till en[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) och tillämpa standardstilar på den.[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)stilar stöds av Microsoft Excel 2007/2010.
+I exemplet nedan läggs provdata till ett kalkylblad, ett [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) läggs till och standardstilar tillämpas på det. [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)-stilar stöds av Microsoft Excel 2007/2010.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-FormataListObject-1.cs" >}}
 
-## **Förhandsämnen**
+## **Fortsatta ämnen**
 - [Konvertera tabell till ODS](/cells/sv/net/convert-table-to-ods/)
-- [Hitta frågetabeller och listobjekt relaterade till externa dataanslutningar](/cells/sv/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
+- [Hitta frågetabeller och lista objekt relaterade till externa dataanslutningar](/cells/sv/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
 - [Läs och skriv tabell med datakälla för frågetabell](/cells/sv/net/read-and-write-table-with-query-table-data-source/)
-- [Ställ in kommentaren för tabell eller listobjekt i kalkylbladet](/cells/sv/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
-- [Tabeller och intervall](/cells/sv/net/tables-and-ranges/)
+- [Ange kommentaren för tabell eller listobjekt inne i kalkylbladet](/cells/sv/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
+- [Tabeller och områden](/cells/sv/net/tables-and-ranges/)
 

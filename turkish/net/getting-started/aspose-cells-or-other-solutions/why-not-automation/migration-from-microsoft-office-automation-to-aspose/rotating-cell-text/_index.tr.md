@@ -1,38 +1,39 @@
-﻿---
-title: Dönen Cell Metin
+---
+title: Hücre Metnini Döndürme
 type: docs
 weight: 100
 url: /tr/net/rotating-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen bir sütun başlığı, aşağıdaki hücrelerdeki verilerden çok daha geniştir. Bu, sayfada gereksiz boşluklara neden olabilir. Bir çözüm, daha az yatay alan kaplayacak şekilde metni dikey olarak döndürmektir. Microsoft Excel'de metni döndürmek kolaydır. Şans eseri, metni programlı olarak döndürmek de mümkündür, böylece geliştiriciler uygulamalarında oluşturdukları elektronik tablolardaki etiketleri döndürebilir.
+Bazen bir sütun başlığı, altındaki hücrelerde bulunan veriden çok daha geniştir. Bu sayfada gereksiz boşluklara neden olabilir. Bir çözüm, metni dikey olarak döndürerek yatay alandan daha az yer kaplamasını sağlamaktır. Microsoft Excel'de metni döndürmek kolaydır. Neyse ki, metni programatik olarak da döndürmek mümkündür, bu sayede geliştiriciler uygulamaları içinde oluşturdukları elektronik tablolardaki etiketleri döndürebilirler.
 
- Bu makale, kullanarak hücrelerdeki metnin nasıl döndürüleceğini ele almaktadır.[Aspose.Cells for .NET](/cells/tr/net/rotating-cell-text/) ile aynı şeyi yapmaya kıyasla[VSTO](/cells/tr/net/rotating-cell-text/).
+Bu makale, [Aspose.Cells for .NET](/cells/tr/net/rotating-cell-text/) kullanarak hücrelerde metni döndürme işlemini [VSTO](/cells/tr/net/rotating-cell-text/) ile yapmanın karşılaştırmasına bakar.
 
 {{% /alert %}}
 
-## **Cells'de Metin Döndürme**
+## **Hücrelerde Metin Döndürme**
 
-Çalışma sayfasındaki bir hücredeki metni döndürmek için aşağıdaki adımları izleyin:
+Bir çalışsayfadaki bir hücrede metni döndürmek için aşağıdaki adımları izleyin:
 
 1. Bir çalışma kitabı oluşturun ve bir çalışma sayfası alın.
 1. Örnek metin ekleyin.
 1. Metni biçimlendirin: döndürün, arka plan rengi ekleyin.
-1. Dosya 'yı kaydet.
+1. Dosyayı kaydedin.
 
- Aşağıdaki kod örnekleri, ilk olarak bu adımların nasıl gerçekleştirileceğini gösterir.[VSTO](/cells/tr/net/rotating-cell-text/) C# veya Visual Basic kullanarak ve ardından[Aspose.Cells](/cells/tr/net/rotating-cell-text/), yine C# veya Visual Basic kullanarak.
+Aşağıdaki kod örnekleri, bu adımları [VSTO](/cells/tr/net/rotating-cell-text/) kullanarak, C# veya Visual Basic kullanarak ve ardından [Aspose.Cells](/cells/tr/net/rotating-cell-text/) kullanarak, yine C# veya Visual Basic kullanarak nasıl gerçekleştireceğinizi gösterir.
 
-Bu makaledeki kod örnekleri, aşağıda gösterilen çıktıyı verir.
+Bu makaledeki kod örnekleri aşağıda gösterilen çıktıyı verir.
 **Döndürülmüş metne sahip bir hücre.**
 
-![yapılacaklar:resim_alternatif_metin](rotating-cell-text_1.png)
+![todo:image_alt_text](rotating-cell-text_1.png)
 
-### **VSTO ile Metni Döndürme**
+### **VSTO ile Metin Döndürme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -56,7 +57,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -94,10 +95,10 @@ ExcelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
- 
+
  Workbook objworkbook = new Workbook();
 
 // Get the First sheet.

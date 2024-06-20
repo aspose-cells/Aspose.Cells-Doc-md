@@ -1,21 +1,22 @@
 ---
-title: تحويل Excel إلى HTML باستخدام تلميح الأدوات
+title: تحويل Excel إلى HTML مع تلميح سريع
 type: docs
 weight: 200
 url: /ar/python-net/convert-excel-to-html-with-tooltip/
-description: يوضح لك هذا الموضوع كيفية تحويل Excel إلى HTML باستخدام تلميح الأداة باستخدام Aspose.Cells for Python عبر NET.
-keywords: Python Convert Excel to HTML with tooltip, Convert Excel to HTML with tooltip Python via NET, Python via NET Excel to HTML with tooltip, Python Workbook to HTML with tooltip.
+description: يُظهر هذا الموضوع لك كيفية تحويل Excel إلى HTML مع تلميح باستخدام Aspose.Cells for Python via NET.
+keywords: تحويل Excel إلى HTML مع تلميح Python ، تحويل Excel إلى HTML مع تلميح Python via NET، Python via NET Excel إلى HTML مع تلميح ، أوراق العمل بالبايثون إلى HTML مع تلميح.
 ---
-##  **تحويل Excel إلى HTML باستخدام تلميح الأدوات**
 
-قد تكون هناك حالات يتم فيها قطع النص في HTML الذي تم إنشاؤه وتريد عرض النص الكامل كتلميح أداة في حدث التمرير. Aspose.Cells يدعم ذلك من خلال توفير**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** ملكية. وضع**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** الملكية ل**حقيقي** سيضيف النص الكامل كتلميح أداة في HTML الذي تم إنشاؤه.
+## **تحويل Excel إلى HTML مع تلميحة**
 
-تُظهر الصورة التالية تلميح الأداة في الملف HTML الذي تم إنشاؤه.
+قد تكون هناك حالات حيث يتم قص النص في HTML المولد وترغب في عرض كامل النص كتلميح عند حدوث حدث تحويم. Aspose.Cells تدعم ذلك من خلال توفير الخاصية [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/). ضبط الخاصية [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/) على **true** سيضيف النص الكامل كتلميح في HTML المولد.
 
-![ما يجب القيام به:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
+تُظهر الصورة التالية التلميح السريع في ملف HTML المولد.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[ملف اكسيل المصدر](98107416.xlsx) ويولد[ملف الإخراج HTML](98107417.zip) مع تلميح الأداة.
+![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
-عينة من الرموز
+يستعرض الكود العينة التالي ملف الExcel المصدر ويولد [ملف HTML الناتج](98107417.zip) مع التلميح السريع.
+
+الكود المثالي
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ConvertExcelFileToHtmlWithTooltip-1.py" >}}

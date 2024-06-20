@@ -1,15 +1,16 @@
-﻿---
-title: Blätter innerhalb der Arbeitsmappe neu anordnen
+---
+title: Tabellenblätter innerhalb der Arbeitsmappe neu anordnen
 type: docs
 weight: 50
 url: /de/java/re-order-sheets-within-workbook/
 ---
-## **Aspose.Cells – Blätter in der Arbeitsmappe neu anordnen**
-Aspose.Cells bietet eine Methode, Worksheet.moveTo(), die verwendet wird, um ein Arbeitsblatt an eine andere Stelle in derselben Tabelle zu verschieben.
+
+## **Aspose.Cells - Tabellenblätter innerhalb der Arbeitsmappe neu anordnen**
+Aspose.Cells bietet eine Methode, Worksheet.moveTo(), um ein Tabellenblatt in einer Tabelle an eine andere Stelle zu verschieben.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a new Workbook.
 
@@ -36,12 +37,12 @@ worksheet3.moveTo(2);
 workbook.save(dataDir + "AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Blätter innerhalb der Arbeitsmappe neu anordnen**
-Apache POI stellt die Methode Workbook.setSheetOrder() bereit, um Arbeitsblätter in der erforderlichen Reihenfolge festzulegen.
+## **Apache POI SS - HSSF XSSF - Tabellenblätter innerhalb der Arbeitsmappe neu anordnen**
+Apache POI bietet die Methode Workbook.setSheetOrder(), um Tabellenblätter in der erforderlichen Reihenfolge festzulegen.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/reordersheets)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Kopieren und Verschieben von Arbeitsblättern](/cells/de/java/copying-and-moving-worksheets).
+Für weitere Details besuchen Sie [Kopieren und Verschieben von Tabellenblättern](/cells/de/java/copying-and-moving-worksheets).
 
 {{% /alert %}}

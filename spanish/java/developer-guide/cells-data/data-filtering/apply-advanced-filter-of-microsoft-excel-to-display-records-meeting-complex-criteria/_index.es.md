@@ -1,38 +1,39 @@
-﻿---
-title: Aplicar filtro avanzado de Microsoft Excel para mostrar registros que cumplen criterios complejos
+---
+title: Aplicar filtro avanzado de Microsoft Excel para mostrar registros que cumplan criterios complejos
 type: docs
 weight: 190
 url: /es/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
 ---
-## **Posibles escenarios de uso**
- Microsoft Excel te permite aplicar*Filtro avanzado* en los datos de la hoja de cálculo para mostrar registros que cumplen criterios complejos. Puede aplicar Filtro avanzado con Microsoft Excel a través de su*Datos > Avanzado*comando como se muestra en esta captura de pantalla.
 
-![todo:imagen_alternativa_texto](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
+## **Escenarios de uso posibles**
+Microsoft Excel te permite aplicar el *Filtro Avanzado* en los datos de la hoja de cálculo para mostrar registros que cumplan criterios complejos. Puedes aplicar el Filtro Avanzado en Microsoft Excel a través del comando *Datos > Avanzados* como se muestra en esta captura de pantalla.
 
-Aspose.Cells también le permite aplicar el Filtro avanzado usando el[Hoja de trabajo.filtro avanzado()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\)) método. Al igual que Microsoft Excel, acepta los siguientes parámetros.
+![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
 
-**esFiltro**
+Aspose.Cells también te permite aplicar el Filtro Avanzado utilizando el método [Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\)). Al igual que Microsoft Excel, acepta los siguientes parámetros.
 
-Indica si se filtra la lista en su lugar.
+**isFilter**
 
-**rango de lista**
+Indica si se está filtrando la lista en su lugar.
+
+**listRange**
 
 El rango de la lista.
 
-**Rango de criterio**
+**criteriaRange**
 
 El rango de criterios.
 
-**copiar a**
+**copyTo**
 
 El rango donde se copian los datos.
 
-**UniqueRecordOnly**
+**uniqueRecordOnly**
 
-Solo mostrar o copiar filas únicas.
-## **Aplicar filtro avanzado de Microsoft Excel para mostrar registros que cumplen criterios complejos**
-El siguiente código de ejemplo aplica el filtro avanzado en el[Ejemplo de archivo de Excel](48496702.xlsx) y genera la[Archivo de Excel de salida](48496705.xlsx). La captura de pantalla muestra ambos archivos para comparar. Como puede ver dentro de la captura de pantalla, los datos se filtraron dentro del archivo de salida de Excel de acuerdo con criterios complejos.
+Solo muestra o copia filas únicas.
+## **Aplicar Filtro Avanzado de Microsoft Excel para Mostrar Registros que Cumplen Criterios Complejos**
+El siguiente código de muestra aplica el filtro avanzado en el [Archivo de Excel de Muestra](48496702.xlsx) y genera el [Archivo de Excel de Salida](48496705.xlsx). La captura de pantalla muestra ambos archivos para comparación. Como se puede ver en la captura de pantalla, los datos han sido filtrados dentro del archivo de Excel de salida de acuerdo con criterios complejos.
 
-![todo:imagen_alternativa_texto](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
+![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ApplyAdvancedFilterOfMicrosoftExcel.java" >}}

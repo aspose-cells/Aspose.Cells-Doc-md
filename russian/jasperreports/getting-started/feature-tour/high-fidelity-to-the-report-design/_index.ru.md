@@ -1,19 +1,20 @@
-﻿---
-title: Высокая точность дизайна отчета
+---
+title: Точное соответствие дизайну отчета
 type: docs
 weight: 30
 url: /ru/jasperreports/high-fidelity-to-the-report-design/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for JasperReports экспортирует отчеты как электронные таблицы Excel Microsoft, которые выглядят идентично отчетам, экспортируемым встроенными средствами экспорта[ДжасперРепортс](https://community.jaspersoft.com/project/jasperreports-library).
+Aspose.Cells for JasperReports экспортирует отчеты в виде электронных таблиц Microsoft Excel, которые выглядят идентично отчетам, экспортированным встроенными экспортерами [JasperReports](https://community.jaspersoft.com/project/jasperreports-library).
 
-**Пример отчета XLS, экспортированного с использованием Aspose.Cells for JasperReports** 
+**Образец экспортированного отчета XLS, используя Aspose.Cells for JasperReports** 
 
-![дело:изображение_альтернативный_текст](high-fidelity-to-the-report-design_1.png)
+![todo:image_alt_text](high-fidelity-to-the-report-design_1.png)
 
-**Пример отчета XLS, экспортированного с помощью встроенных средств экспорта [JasperReports](https://community.jaspersoft.com/project/jasperreports-library)**
+**Образец экспортированного отчета XLS с использованием встроенных экспортеров [JasperReports](https://community.jaspersoft.com/project/jasperreports-library)**
 
-![дело:изображение_альтернативный_текст](high-fidelity-to-the-report-design_2.png)
+![todo:image_alt_text](high-fidelity-to-the-report-design_2.png)
 
 {{% /alert %}}

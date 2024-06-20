@@ -1,15 +1,16 @@
-﻿---
-title: Berechnen Sie Zwischensummen in xlsx4j
+---
+title: Teilsummen in xlsx4j berechnen
 type: docs
 weight: 10
 url: /de/java/calculate-sub-totals-in-xlsx4j/
 ---
-## **Aspose.Cells - Zwischensummen berechnen**
-Sie können automatisch Zwischensummen für sich wiederholende Werte in einer Tabelle erstellen. Aspose.Cells bietet API-Funktionen, mit denen Sie programmgesteuert Zwischensummen zu Tabellenkalkulationen hinzufügen können.
+
+## **Aspose.Cells - Teilsummenberechnung**
+Sie können automatisch Teilergebnisse für beliebige wiederholende Werte in einem Tabellenblatt erstellen. Aspose.Cells bietet API-Funktionen, die Ihnen helfen, Teilergebnisse programmgesteuert zu Tabellenblättern hinzuzufügen.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,20 +36,20 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[]{ 1 });
+cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 
 //Save the excel file
 
 workbook.save(dataDir + "AsposeTotal.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/calculatesubtotals/AsposeCalculateSubTotals.java)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Erstellen von Zwischensummen](/cells/de/java/creating-subtotals).
+Für weitere Details, besuchen Sie [Erstellen von Teilergebnissen](/cells/de/java/creating-subtotals).
 
 {{% /alert %}}

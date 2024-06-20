@@ -1,15 +1,16 @@
-﻿---
-title: Combinar Cells
+---
+title: Fusionar Celdas
 type: docs
 weight: 60
 url: /es/java/merge-cells/
 ---
-## **Aspose.Cells - Combinar Cells**
-La clase Cells tiene algunos métodos útiles para la tarea. Por ejemplo, el método de combinación combina las celdas en una sola celda dentro de un rango específico de celdas.
+
+## **Aspose.Cells - Fusionar Celdas**
+La clase Cells tiene algunos métodos útiles para la tarea. Por ejemplo, el método merge fusiona las celdas en una sola celda dentro de un rango especificado de las celdas.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a Workbook.
 
@@ -36,12 +37,12 @@ worksheet.getCells().get(5,2).setValue("This is a test of merging");
 wbk.save(dataDir + "merge_Aspose.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Fusión Cells**
-Sheet.addMergedRegion se puede usar para fusionar Cells.
+## **Apache POI SS - HSSF XSSF - Fusionar Celdas**
+Se puede usar Sheet.addMergedRegion para Fusionar Celdas.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -66,13 +67,13 @@ sheet.addMergedRegion(new CellRangeAddress(
 ));
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowcolumns/mergecells)
+## **Descargar Código de Ejemplo**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/mergecells)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Fusión y desfusión (división) Cells](/cells/es/java/merging-and-unmerging-cells).
+Para más detalles, visita [Combinación y Descombinación (División) de Celdas](/cells/es/java/merging-and-unmerging-cells).
 
 {{% /alert %}}

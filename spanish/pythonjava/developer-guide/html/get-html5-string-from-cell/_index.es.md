@@ -1,19 +1,20 @@
-﻿---
-title: Obtener cadena HTML5 de Cell
+---
+title: Obtener cadena HTML5 de la Celda
 type: docs
 weight: 40
 url: /es/python-java/get-html5-string-from-cell/
 ---
-## **Obtener cadena HTML5 de Cell**
-Usando Aspose.Cells for Python via Java, puede obtener la cadena HTML de la celda. Esto se puede lograr usando el[getHtmlString(booleano html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) método proporcionado por el API. Si pasa**falso**como parámetro te devolverá Normal HTML pero si pasas**verdadero**como parámetro, devolverá una cadena HTML5.
 
-El código de ejemplo siguiente crea un objeto de libro y agrega texto en la celda A1 de la primera hoja de cálculo. Luego obtiene la cadena Normal HTML y HTML5 de la celda A1 usando el[getHtmlString(booleano html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) y los imprime.
+## **Obtener cadena HTML5 de la Celda**
+Usando Aspose.Cells para Python via Java, puedes obtener la cadena HTML de la celda. Esto se puede lograr utilizando el método [getHtmlString(boolean html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)). Si pasas **false** como parámetro, te devolverá un HTML normal pero si pasas **true** como parámetro, te devolverá una cadena HTML5.
+
+El siguiente código de ejemplo crea un objeto de libro y agrega un texto en la celda A1 de la primera hoja de trabajo. Luego obtiene la cadena de HTML normal y HTML5 de la celda A1 utilizando el método [getHtmlString(boolean html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) y los imprime.
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-GetHTML5StringFromCell.py" >}}
 
-El siguiente es el resultado generado por el fragmento de código proporcionado anteriormente.
-## **Producción**
-{{< highlight "java" >}}
+La siguiente es la salida generada por el fragmento de código proporcionado anteriormente.
+## **Salida**
+{{< highlight java >}}
 
  Normal:
 

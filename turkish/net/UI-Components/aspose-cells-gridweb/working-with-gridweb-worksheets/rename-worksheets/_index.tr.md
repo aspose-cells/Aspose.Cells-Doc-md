@@ -1,39 +1,42 @@
-﻿---
-title: Çalışma Sayfalarını Yeniden Adlandırma
+---
+title: Çalışma Sayfalarının Yeniden Adlandırılması
 type: docs
 weight: 40
-url: /tr/net/rename-worksheets/
+url: /tr/net/aspose-cells-gridweb/rename-worksheet/
+keywords: GridWeb, adlandırma, çalışma sayfasını yeniden adlandırma, GridWorksheet ı yeniden adlandırma
+description: Bu makale, GridWeb de çalışma sayfasını (GridWorksheet) nasıl yeniden adlandıracağını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Bir çalışma sayfasını yeniden adlandırmak, Aspose.Cells.GridWeb'de birçok çalışma sayfasıyla çalışırken ve daha anlamlı hale getirmek için adlarını değiştirmeye karar verirken çok yararlı olabilir. Örneğin, fatura içeren bir çalışma sayfası, Sayfa1 yerine Fatura olarak yeniden adlandırılabilir. Bu konuda, bu basit ama kullanışlı özellik açıklanmaktadır.
+Bir çalışma sayfasının adını değiştirmek, Aspose.Cells.GridWeb'de birçok çalışma sayfasıyla çalışırken çok faydalı olabilir ve onların adlarını daha anlamlı hale getirmek için adlarını değiştirmeye karar verdiğinizde çok faydalı olabilir. Örneğin, bir faturayı içeren bir çalışma sayfası, Sheet1 yerine Invoice olarak yeniden adlandırılabilir. Bu konu, bu basit ama faydalı özelliği açıklar.
 
 {{% /alert %}} 
 ## **Çalışma Sayfasını Yeniden Adlandırma**
-Tüm çalışma sayfaları, geliştiricilerin çalışma sayfalarının adlarına erişmesine veya bu adları değiştirmesine izin veren bir Ad özelliği içerir. Bir çalışma sayfasını yeniden adlandırmak için:
+Tüm çalışma sayfaları, geliştiricilerin çalışma sayfalarının adlarını erişebilmesini veya değiştirebilmesini sağlayan bir Name özelliğine sahiptir. Bir çalışma sayfasını yeniden adlandırmak için:
 
 1. GridWorksheetCollection'dan bir çalışma sayfasına erişin.
-1. Seçilen çalışma sayfasını yeniden adlandırın.
+1. Seçili çalışma sayfasını yeniden adlandırın.
 
 
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb'deki çalışma sayfalarına nasıl erişileceği hakkında daha fazla bilgi için lütfen şu adrese bakın:[Çalışma Sayfalarına Erişim](/cells/tr/net/access-worksheets/).
+Aspose.Cells.GridWeb'de çalışma sayfalarına nasıl erişileceği hakkında daha fazla bilgi için lütfen [Çalışma Sayfalarına Erişim](/cells/tr/net/aspose-cells-gridweb/access-worksheets/) sayfasına bakın.
 
 {{% /alert %}} 
 
-Kodu çalıştırmadan önce, çalışma sayfasının Sayfa1 gibi varsayılan bir adı vardır.
+Kodu çalıştırmadan önce, çalışma sayfasının varsayılan adı olan Sheet1 olarak adlandırıldığını unutmayın.
 
 **Giriş dosyası: varsayılan adı Sheet1 olan bir çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_metin](rename-worksheets_1.png)
+![todo:image_alt_text](rename-worksheets_1.png)
 
-Kodu çalıştırdıktan sonra çalışma sayfası, Öğrenciler olarak yeniden adlandırılır.
+Kodu çalıştırdıktan sonra, çalışma sayfasının adı Students olarak değiştirilir.
 
-**Çıktı: çalışma sayfası, Öğrenciler olarak yeniden adlandırılır** 
+**Çıktı: çalışma sayfası Students olarak yeniden adlandırıldı** 
 
-![yapılacaklar:resim_alternatif_metin](rename-worksheets_2.png)
+![todo:image_alt_text](rename-worksheets_2.png)
 
 
 

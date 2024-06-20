@@ -1,15 +1,16 @@
-﻿---
+---
 title: تحويل ورقة العمل إلى صورة في PHP
 type: docs
 weight: 50
 url: /ar/java/converting-worksheet-to-image-in-php/
 ---
+
 ## **Aspose.Cells - تحويل ورقة العمل إلى صورة**
-لتحويل ورقة العمل إلى صورة باستخدام Aspose.Cells for Java في PHP ، ما عليك سوى استدعاء وحدة المحول.
+لتحويل ورقة العمل إلى صورة باستخدام رمز Aspose.Cells for Java في PHP، قم ببساطة باستدعاء وحدة Converter.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $imageFormat = new ImageFormat();
 
@@ -44,7 +45,7 @@ for ($j = 0; $j < $sr->getPageCount(); $j++)
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**تحويل ورقة العمل إلى صورة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **تحويل ورقة العمل إلى صورة (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

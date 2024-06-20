@@ -1,87 +1,89 @@
-﻿---
-title: Microsoft Excel dosyalarının Çalışma Sayfalarını yönetin.
-linktitle: çalışma sayfaları
+---
+title: Microsoft Excel dosyalarının çalışma sayfalarını yönetme.
+linktitle: Çalışma Sayfaları
 type: docs
 weight: 90
 url: /tr/net/manage-worksheets/
-description: Aspose.Cells'i kullanarak çalışma sayfası ekleyin, çalışma sayfasını ve etkin Sayfayı kaldırın.
+description: Aspose.Cells kullanarak çalışma sayfası ekleyebilir, çalışma sayfasını kaldırabilir ve etkin sayfayı ekleyebilirsiniz.
 ---
+
+
 {{% alert color="primary" %}}
 
-Geliştiriciler, Microsoft Excel dosyalarındaki çalışma sayfalarını programlı olarak Aspose.Cells' esnek API'i kullanarak kolayca oluşturabilir ve yönetebilir. Bu konu, Microsoft Excel dosyalarına çalışma sayfası ekleme ve kaldırma yaklaşımlarını açıklamaktadır.
+Geliştiriciler, Aspose.Cells'in esnek API'sini kullanarak Microsoft Excel dosyalarında programlı olarak çalışma sayfaları eklemek ve kaldırmak için yaklaşımlar sağlar. Bu konu, bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir {2} koleksiyonuna sahip olan bir {0} temsil eden bir Aspose.Cells sınıfını açıklar.
 
 {{% /alert %}}
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Bu bir Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
+Aspose.Cells, bir Excel dosyasını temsil eden bir [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonuna sahiptir.
 
- Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar.
+Bir çalışma sayfası, bir [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, çalışma sayfalarını yönetmek için geniş bir yelpazede özellikler ve yöntemler sağlar.
 
-## **Çalışma Sayfalarını Yeni Bir Excel Dosyasına Ekleme**
+## **Yeni bir Excel Dosyasına Çalışsayfalar Ekleme**
 
 Programlı olarak yeni bir Excel dosyası oluşturmak için:
 
-1.  Şunun bir nesnesini oluşturun:[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf.
-1.  Ara[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) yöntemi[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) sınıf. Excel dosyasına otomatik olarak boş bir çalışma sayfası eklenir. Yeni çalışma sayfasının sayfa dizini şuraya geçirilerek başvurulabilir:[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Toplamak.
+1. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfının bir nesnesini oluşturun.
+1. [**Add**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) methodunu [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) sınıfın serisine çağırın. Boş bir çalışma sayfası otomatik olarak Excel dosyasına eklenir. Yeni çalışma sayfasının dizinini [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonuna geçirerek referans alınabilir.
 1. Bir çalışma sayfası referansı edinin.
-1. Çalışma sayfaları üzerinde çalışma gerçekleştirin.
-1.  Çağırarak yeni Excel dosyasını yeni çalışma sayfalarıyla kaydedin.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf'[**Kayıt etmek**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)yöntem.
+1. Çalışma sayfalarında çalışma yapın.
+1. Yeni çalışma sayfaları ile Excel dosyasını [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfının [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) methodunu çağırarak kaydedin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToNewExcelFile-1.cs" >}}
 
-## **Tasarımcı Elektronik Tablosuna Çalışma Sayfaları Ekleme**
+## **Tasarımcı Çalışsayfalara Çalışsayfalar Ekleme**
 
- Bir tasarımcı elektronik tablosuna çalışma sayfası ekleme işlemi, Excel dosyasının zaten mevcut olması ve çalışma sayfaları eklenmeden önce açılması gerektiği dışında, yeni bir çalışma sayfası ekleme işlemiyle aynıdır. Bir tasarımcı e-tablosu şu şekilde açılabilir:[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf.
+Tasarımcı bir e-tablosuna çalışma sayfaları eklemenin süreci, yeni bir çalışma sayfası eklemekle aynıdır. Tek fark, Excel dosyasının zaten mevcut olması ve çalışma sayfaları eklenmeden önce açılması gerektiği. Bir tasarımcı e-tablosu, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı tarafından açılabilir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToDesignerSpreadSheet-1.cs" >}}
 
-## **Sayfa Adını Kullanarak Çalışma Sayfalarına Erişme**
+## **Sayfa Adını Kullanarak Çalışsayfalara Erişme**
 
 Adını veya dizinini belirterek herhangi bir çalışma sayfasına erişin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AccessingWorksheetsusingSheetName-1.cs" >}}
 
-## **Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma**
+## **Sayfa Adını Kullanarak Çalışsayfaları Kaldırma**
 
-Çalışma sayfalarını bir dosyadan kaldırmak için,[**KaldırAt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat/index) yöntemi[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) sınıf. Sayfa adını şuraya iletin:[**KaldırAt**](https://reference.aspose.com/cells/net/aspose.cells.worksheetcollection/removeat/methods/1)belirli bir çalışma sayfasını kaldırma yöntemi.
+Dosyadan çalışma sayfalarını kaldırmak için, [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) sınıfının [**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat/index) methodunu çağırın. Belirli bir çalışma sayfasını kaldırmak için [**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells.worksheetcollection/removeat/methods/1) methoduna çalışma sayfasının adını geçirin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetName-1.cs" >}}
 
-## **Sayfa Dizini Kullanarak Çalışma Sayfalarını Kaldırma**
+## **Sayfa Dizinini Kullanarak Çalışma Sayfalarını Kaldırma**
 
- Çalışma sayfalarını ada göre kaldırmak, çalışma sayfasının adı bilindiğinde işe yarar. Çalışma sayfasının adını bilmiyorsanız, aşırı yüklenmiş bir sürümünü kullanın.[**KaldırAt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat)çalışma sayfasının sayfa adı yerine sayfa dizinini alan yöntem.
+Çalışma sayfalarını adı bilindiğinde adıyla kaldırmak iyi çalışır. Eğer çalışma sayfasının adını bilmiyorsanız, çalışma sayfasının adı yerine dizinini alan [**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat) methodunun aşırı yüklenmiş bir sürümünü kullanın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetIndex-1.cs" >}}
 
-## **Sayfaları Etkinleştirme ve Çalışma Sayfasında Cell Etkinleştirme**
+## **Sayfaları Etkinleştirme ve Çalışma Sayfasında Aktif Bir Hücre Yapma**
 
-Bazen, bir kullanıcı bir Microsoft Excel dosyasını Excel'de açtığında belirli bir çalışma sayfasının etkin olması ve görüntülenmesi gerekir. Benzer şekilde, belirli bir hücreyi etkinleştirmek ve kaydırma çubuklarını etkin hücreyi gösterecek şekilde ayarlamak isteyebilirsiniz.
-Aspose.Cells tüm bu görevleri yapabilecek kapasitededir.
+Bazen, bir kullanıcı Excel'de bir Microsoft Excel dosyasını açtığında belirli bir çalışma sayfasının etkin ve görüntülenen olmasını istersiniz. Benzer şekilde, belirli bir hücreyi etkinleştirmek ve kaydırmalı çubukların etkin hücreyi göstermesini isteyebilirsiniz.
+Aspose.Cells, tüm bu görevleri yapabilir.
 
- Bir**etkin sayfa** üzerinde çalıştığınız bir sayfadır: sekmedeki etkin sayfanın adı varsayılan olarak kalındır.
+Bir **etkin sayfa**, üzerinde çalıştığınız bir sayfadır: sekmelerdeki etkin sayfanın adı varsayılan olarak kalın harfle yazılıdır.
 
- Bir**aktif hücre** seçili bir hücredir, yazmaya başladığınızda verilerin girildiği hücredir. Aynı anda yalnızca bir hücre etkindir. Etkin hücre kalın bir kenarlıkla vurgulanır.
+Bir **etkin hücre**, seçilen hücredir, verinin başlatıldığı hücredir. Aynı zamanda yalnızca bir hücre etkindir. Etkin hücre, kalın bir kenarlıkla vurgulanır.
 
-### **Sayfaları Etkinleştirme ve Cell Etkinleştirme**
+### **Sayfaları Aktifleştirme ve Bir Hücreyi Etkin Yapma**
 
-Aspose.Cells, bir sayfa ve hücreyi etkinleştirmek için özel API çağrıları sağlar. Örneğin,[**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex)özelliği, bir çalışma kitabındaki etkin sayfayı ayarlamak için kullanışlıdır.
-Benzer şekilde,[**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell)özelliği, çalışma sayfasında etkin bir hücre ayarlamak ve almak için kullanılır.
+Aspose.Cells, bir sayfayı ve bir hücreyi aktifleştirmek için özel API çağrıları sağlar. Örneğin, [**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex) özelliği, bir çalışma kitabında etkin sayfayı ayarlamak için kullanışlıdır.
+Benzer şekilde, [**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell) özelliği, çalışma sayfasında etkin bir hücreyi ayarlamak ve almak için kullanılır.
 
-Yatay veya dikey kaydırma çubuklarının, belirli verileri göstermek istediğiniz satır ve sütun dizini konumunda olduğundan emin olmak için,[**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) ve[**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn)özellikler.
+Yatay veya dikey kaydırmalı çubukların belirli verileri göstermek istediğiniz satır ve sütun dizin konumuna geldiğinden emin olmak için, [**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) ve [**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn) özelliklerini kullanın.
 
-Aşağıdaki örnek, bir çalışma sayfasının nasıl etkinleştirileceğini ve içinde etkin bir hücrenin nasıl oluşturulacağını gösterir. Oluşturulan çıktıda, kaydırma çubukları kaydırılarak 2. sıra ve 2. sütun ilk görünür satır ve sütunları olur.
+Aşağıdaki örnek, bir çalışma sayfasını etkinleştirmenin ve üzerinde etkin bir hücre oluşturmanın nasıl yapıldığını gösterir. Oluşturulan çıktıda, kaydırmalı çubuklar, ilk görünür satır ve sütun olarak 2. satır ve 2. sütunu yapmak için kaydırılır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-MakeCellActive-1.cs" >}}
 
-## **ileri konular**
+## **Gelişmiş Konular**
 - [Çalışma Sayfalarını Kopyalama ve Taşıma](/cells/tr/net/copying-and-moving-worksheets/)
-- [Çalışma Sayfasındaki hücre sayısını sayın](/cells/tr/net/count-number-of-cells-in-the-worksheet/)
+- [Çalışma Sayfasındaki Hücre Sayısını Sayma](/cells/tr/net/count-number-of-cells-in-the-worksheet/)
 - [Boş Çalışma Sayfalarını Algılama](/cells/tr/net/detecting-empty-worksheets/)
-- [Çalışma Sayfasının İletişim Sayfası olup olmadığını bulun](/cells/tr/net/find-if-the-worksheet-is-dialog-sheet/)
-- [Çalışma sayfası benzersiz kimliğini al](/cells/tr/net/get-worksheet-unique-id/)
-- [Çalışma Sayfalarından Senaryolar Oluşturun, Yönetin veya Kaldırın](/cells/tr/net/create-manipulate-or-remove-scenarios-from-worksheets/)
+- [Çalışma Sayfasının Diyaloğu Sayfa Olup Olmadığını Bulma](/cells/tr/net/find-if-the-worksheet-is-dialog-sheet/)
+- [Çalışma sayfası benzersiz kimliğini alın](/cells/tr/net/get-worksheet-unique-id/)
+- [Çalışma Sayfalarından Senaryo Oluşturma, Hareketlendirme veya Kaldırma](/cells/tr/net/create-manipulate-or-remove-scenarios-from-worksheets/)
 - [Sayfa Sonlarını Yönetme](/cells/tr/net/managing-page-breaks/)
-- [Sayfa Düzeni Özellikleri](/cells/tr/net/page-setup-features/)
-- [Bir çalışma sayfasının birden çok kopyasını yazdırma](/cells/tr/net/print-multiple-copies-of-a-worksheet/)
-- [Aspose.Cells kullanarak OpenXml'nin Sheet.SheetId özelliğini kullanın](/cells/tr/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
+- [Sayfa Ayarı Özellikleri](/cells/tr/net/page-setup-features/)
+- [Bir çalışma sayfasının birden fazla kopyasını yazdırma](/cells/tr/net/print-multiple-copies-of-a-worksheet/)
+- [Aspose.Cells üzerinde Sheet.SheetId özelliğini kullanarak OpenXml'in faydalanılması](/cells/tr/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Çalışma Sayfası Görünümleri](/cells/tr/net/worksheet-views/)
 

@@ -1,23 +1,24 @@
-﻿---
-title: パブリック API Aspose.Cells 8.4.1 の変更点
+---
+title: Aspose.Cells 8.4.1の公開APIの変更
 type: docs
 weight: 140
 url: /ja/net/public-api-changes-in-aspose-cells-8-4-1/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.4.0 から 8.4.1 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/net/public-api-changes-in-aspose-cells-8-4-1/)と[削除されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-4-1/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
+このドキュメントは、Aspose.Cellsのバージョン8.4.0から8.4.1への変更点について、モジュール/アプリケーション開発者にとって興味深い可能性があるものを記載しています。[追加されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-4-1/)、[削除されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-4-1/)に加えて、Aspose.Cells内部での挙動の変更についての記述も含まれます。
 
 {{% /alert %}} 
-## **追加された API**
-### **データベース接続を変更するメカニズム**
-Aspose.Cells.ExternalConnections.ExternalConnection クラスには、スプレッドシートに保存されているデータベース接続の詳細を検査するために使用できるメソッドとプロパティが既に含まれていました。 Aspose.Cells.ExternalConnections.ExternalConnection クラスに関連付けられたプロパティのほとんどは、Aspose.Cells for .NET 8.4.1 のリリースまで読み取り専用でした。このリリースでは、API はデータベース接続設定の操作もサポートしています。
+## **APIの追加**
+### **データベース接続の変更メカニズム**
+Aspose.Cells.ExternalConnections.ExternalConnection クラスには、スプレッドシートに格納されているデータベース接続の詳細を検査するために使用できるメソッドやプロパティが既に含まれていました。Aspose.Cells.ExternalConnections.ExternalConnection クラスに関連するプロパティのほとんどは、リリースAspose.Cells for .NET 8.4.1まで読み取り専用でした。このリリースにより、APIはデータベース接続設定を操作するためのサポートを提供しました。
 
-次のコード スニペットは、データベース接続設定を動的に変更する方法を示しています。
+次のコードスニペットは、データベース接続設定を動的に変更する方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -45,38 +46,38 @@ workbook.Save(output);
 
 
 
-{Aspose.Cells.ExternalConnections.ExternalConnection}} クラスによって公開されるいくつかの最も重要なプロパティを次に示します。
+Aspose.Cells.ExternalConnections.ExternalConnection クラスで公開されている重要なプロパティの一部です。
 
 |**プロパティ名**|**説明**|
-|:- |:- |
-|背景の更新|接続をバックグラウンドで (非同期に) リフレッシュできるかどうかを示します。<br>バックグラウンドで非同期に更新することを優先する接続の使用法である場合は true 。<br>フォアグラウンドで同期的に更新することを優先する接続の使用法である場合は false。|
-|接続説明|この接続のユーザーの説明を指定します|
-|接続 ID|この接続の一意の識別子を指定します。|
-|資格情報|接続を確立 (または再確立) するときに使用する認証方法を指定します。|
-|削除済み|関連するワークブック接続が削除されているかどうかを示します。真の場合<br>接続が削除されました。それ以外の場合は false。|
-|新しく追加されました|接続が初めて更新されていない場合は true。それ以外の場合は false。この<br>クエリが返される前にユーザーがファイルを保存すると、状態が発生する可能性があります。|
-|生き続ける|スプレッドシート アプリケーションが接続を維持するために努力する必要がある場合は True<br>開いた。 false の場合、アプリケーションは、<br>情報。|
-|名前|接続の名前を指定します。各接続には一意の名前が必要です。|
-|OdcFile|この接続元の外部接続ファイルへのフル パスを指定します。<br>作成した。データの更新中に接続が失敗し、reconnectionMethod=1 の場合、<br>その後、スプレッドシート アプリケーションは、外部接続ファイルからの情報を使用して再試行します。<br>ワークブック内に埋め込まれた接続オブジェクトの代わりに。|
-|OnlyUseConnectionFile|スプレッドシート アプリケーションが常に使用する必要があるかどうかを示します。<br> odcFile 属性で示される外部接続ファイル内の接続情報<br>接続が更新されたとき。 false の場合、スプレッドシート アプリケーション<br>reconnectionMethod 属性で示される手順に従う必要があります|
-|パラメーター|ODBC または Web クエリの ConnectionParameterCollection を取得します。|
-|再接続方法|reconnectionMethod タイプを指定します|
-|RefreshInternal|接続の自動リフレッシュ間の分数を指定します。|
-|RefreshOnLoad|ファイルを開くときにこの接続を更新する必要がある場合は True。それ以外の場合は false。|
-|データの保存|テーブルに入力するために接続を介してフェッチされた外部データを保存する場合は true<br>ワークブックで;それ以外の場合は false。|
-|パスワードを保存する|パスワードを接続文字列の一部として保存する場合は True。それ以外の場合は False。|
-|ソースファイル|外部データ ソースがファイルベースの場合に使用されます。そのようなデータへの接続時に<br>source が失敗すると、スプレッドシート アプリケーションはこのファイルに直接接続しようとします。多分<br>URI またはシステム固有のファイル パス表記で表されます。|
-|SSOId|中間サーバー間の認証に使用されるシングル サインオン (SSO) の識別子。<br>スプレッドシート ML サーバーと外部データ ソース。|
-|タイプ|データ ソースの種類を指定します。|
+| :- | :- |
+|BackgroundRefresh|接続をバックグラウンドでリフレッシュできるかどうかを示します。接続の推奨される使用法がバックグラウンドで非同期にリフレッシュする場合は true。接続の推奨される使用法が前景で同期にリフレッシュする場合は false。|
+|ConnectionDescription|この接続のユーザー説明を指定します|
+|ConnectionId|この接続の一意の識別子を指定します。|
+|Credentials|接続を確立（または再確立）する際に使用する認証メソッドを指定します。|
+|IsDeleted|関連するワークブック接続が削除されたかどうかを示します。接続が削除されている場合は true。それ以外の場合は false。|
+|IsNew|接続が最初にリフレッシュされていない場合は true。それ以外の場合は false。この状態は、クエリが返ってくる前にユーザーがファイルを保存すると発生する可能性があります。|
+|KeepAlive|スプレッドシート アプリケーションが接続を維持する努力をする場合は true。false の場合、情報を取得した後に接続を閉じる必要があります。|
+|Name|接続の名前を指定します。各接続には固有の名前が必要です。|
+|OdcFile|この接続が作成された外部接続ファイルのフルパスを指定します。接続が再試行Method=1 によってデータの再リフレッシュ中に接続が失敗し、external connection fileによる情報を使用して再度試す場合は、スプレッドシート アプリケーションは、ブック内に埋め込まれている接続オブジェクトではなく、external connection file内の情報を使用して再度試します。|
+|OnlyUseConnectionFile|接続がリフレッシュされる際に、常に外部接続ファイルで指示された接続情報のみを使用するかどうかを示します。false の場合、スプレッドシート アプリケーションは、reconnectionMethod 属性によって指示された手順に従う必要があります。|
+|Parameters|ODBCまたはWeb QueryのConnectionParameterCollectionを取得します。|
+|ReConnectionMethod|再接続Methodのタイプを指定します|
+|RefreshInternal|は接続の自動更新間隔を分単位で指定します。
+|RefreshOnLoad|ファイルを開く際にこの接続をリフレッシュする必要がある場合は true。それ以外の場合は false。|
+|SaveData|接続を通じて取得した外部データをワークブックとともに保存する場合は true。それ以外の場合は false。|
+|SavePassword|接続文字列の一環としてパスワードを保存する場合はTrue。それ以外の場合はFalse。|
+|SourceFile|外部データソースがファイルベースの場合に使用されます。このようなデータソースへの接続が失敗した場合、スプレッドシートアプリケーションは直接このファイルに接続を試みます。URIまたはシステム固有のファイルパス表記で表すことができます。|
+|SSOId|中間のspreadsheetMLサーバーと外部データソース間の認証に使用されるSingle Sign On (SSO)の識別子。|
+|Type|データソースのタイプを指定します。|
 
-### **DataLabels のテキストの部分文字列をフォーマットする機能**
-Aspose.Cells for .NET 8.4.1 は DataLabels.Characters メソッドを公開して、ChartPoints.DataLabels の部分文字列に対応する FontSetting クラスのインスタンスを取得します。次に、FontSetting クラスのインスタンスを使用して、DataLabels の部分文字列をさまざまなフォント設定と色でフォーマットできます。
+### **データラベルのテキストのサブストリングをフォーマットする機能**
+Aspose.Cells for .NET 8.4.1では、DataLabels.Charactersメソッドが公開され、ChartPoints.DataLabelsのサブ文字列に対応するFontSettingクラスのインスタンスを取得するために使用できます。次に、FontSettingクラスのインスタンスを使用して、DataLabelsのサブ文字列をさまざまなフォント設定および色でフォーマットすることができます。
 
-次のコード スニペットは、DataLabels.Characters メソッドの使用方法を示しています。
+次のコードスニペットは、DataLabels.Charactersメソッドの使用方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook from source Excel file
 
@@ -113,14 +114,14 @@ workbook.Save(output);
 {{< /highlight >}}
 
 
-### **スプレッドシートとチャートのエクスポートに必要な画像サイズを設定する機能**
-Aspose.Cells for .NET 8.4.1 は、ImageOrPrintOptions.SetDesiredSize メソッドを公開して、スプレッドシートとチャートを画像にエクスポートする際に結果の画像の寸法を設定します。 ImageOrPrintOptions.SetDesiredSize メソッドは、2 つの整数型パラメーターを受け入れます。1 つ目は目的の幅、2 つ目は目的の高さです。
+### **スプレッドシートおよびチャートのエクスポート時に所望の画像サイズを設定する機能**
+Aspose.Cells for .NET 8.4.1では、ImageOrPrintOptions.SetDesiredSizeメソッドが公開され、スプレッドシートやチャートを画像にエクスポートする際に、結果の画像のサイズを設定するために使用できます。ImageOrPrintOptions.SetDesiredSizeメソッドは、第1パラメーターが所望の幅であり、第2パラメーターが所望の高さである2つの整数型のパラメーターを受け入れます。
 
-次のコード スニペットは、ワークシートを PNG にエクスポートする際に目的のディメンションを設定する方法を示しています。
+次のコードスニペットは、ワークシートをPNGにエクスポートする際に所望の寸法を設定する方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -152,23 +153,23 @@ renderer.ToImage(0, "output.png");
 
 {{% alert color="primary" %}} 
 
-グラフを画像に変換するためにも同じプロパティを使用できます。
+同じプロパティは、チャートを画像に変換する際にも使用できます。
 
 {{% /alert %}} 
 
 
-### **PDF へのコメントのレンダリング**
-v8.4.1 のリリースにより、Aspose.Cells API は、スプレッドシートを PDF 形式に変換する際のコメントのレンダリングを容易にするために、PageSetup.PrintComments プロパティと PrintCommentsType 列挙を提供しました。 PrintCommentsType 列挙には、次の定数があります。
+### **PDFへのコメントのレンダリング**
+v8.4.1のリリースにより、Aspose.Cells APIは、スプレッドシートをPDF形式に変換する際にコメントをレンダリングするためのPageSetup.PrintCommentsプロパティとPrintCommentsType列挙体を提供しました。PrintCommentsType列挙体には以下の定数があります。
 
-- PrintCommentsType.PrintNoComments: コメントは表示されません。
-- PrintCommentsType.PrintInPlace: コメントは、配置された場所にレンダリングされます。
-- PrintCommentsType.PrintSheetEnd: コメントはワークシートの最後に表示されます。
+- PrintCommentsType.PrintNoComments: コメントはレンダリングされません。
+- PrintCommentsType.PrintInPlace: コメントが配置されている場所にレンダリングされます。
+- PrintCommentsType.PrintSheetEnd: コメントはワークシートの最後にレンダリングされます。
 
-次のサンプル コードは、PageSetup.PrintComments プロパティを使用して、可能なすべての PrintCommentsType 列挙値を使用してコメントを表示する方法を示しています。
+次のサンプルコードは、PageSetup.PrintCommentsプロパティを使用して、すべてのPrintCommentsType列挙体値を使用してコメントをレンダリングする方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of workbook
 
@@ -205,14 +206,14 @@ workbook.Save("printsheetend.pdf");
 {{< /highlight >}}
 
 
-### **Aspose.Cells.GridDesktop のワークシートを移動**
-Aspose.Cells.GridDesktop は、指定したインデックスにワークシートを移動するために使用できる WorksheetCollection.MoveTo メソッドを提供します。前述のメソッドは、ソース ワークシートと宛先ワークシートのインデックス (0 から始まる) をパラメーターとして受け取ります。
+### **Aspose.Cells.GridDesktopでワークシートを移動する**
+Aspose.Cells.GridDesktopは、ワークシートを指定されたインデックスに移動するためのWorksheetCollection.MoveToメソッドを提供しており、前述のメソッドはソースワークシートと宛先ワークシートのインデックス（ゼロベース）をパラメーターとして受け取ります。
 
-次のサンプル コードは、WorksheetCollection.MoveTo プロパティの使用方法を示しています。
+次のサンプルコードは、WorksheetCollection.MoveToプロパティの使用方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Move the second worksheet to 4th position.
 
@@ -221,14 +222,14 @@ GridDesktop1.Worksheets.MoveTo(1, 3);
 {{< /highlight >}}
 
 
-### **Workbook.IsLicensed プロパティを追加**
-Aspose.Cells for .NET 8.4.1 は Workbook.IsLicensed を公開しました。これは、ライセンスが正常に読み込まれたかどうかを判断するのに非常に役立ちます。ライセンスを設定する前にこのプロパティにアクセスすると false が返され、その逆も同様ですが、ライセンスは有効である必要があります。
+### **Workbook.IsLicensedプロパティを追加**
+Aspose.Cells for .NET 8.4.1では、有効なライセンスが正常にロードされたかどうかを判断するのに役立つWorkbook.IsLicensedが公開されています。ライセンスを設定する前にこのプロパティにアクセスするとfalseを返し、その逆もまた然りですが、ライセンスは有効である必要があります。
 
-次のサンプル コードは、Workbook.IsLicensed プロパティの使用方法を示しています。
+次のサンプルコードは、Workbook.IsLicensedプロパティの使用方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object before setting a license
 
@@ -259,14 +260,14 @@ else
 {{< /highlight >}}
 
 
-### **ImageOrPrintOptions.SVGFitToViewPort プロパティを追加**
-Aspose.Cells for .NET 8.4.1 は、スプレッドシートまたはチャートを SVG 形式にエクスポートする際に、SVG ファイル形式の viewBox 属性をオンにするために使用できる ImageOrPrintOptions クラスの SVGFitToViewPort プロパティを公開しました。このプロパティのデフォルト値は false であるため、前述のプロパティを設定せずに生成された SVG ファイルのベース XML には、viewBox 属性が含まれません。
+### **ImageOrPrintOptions.SVGFitToViewPortプロパティを追加しました**
+Aspose.Cells for .NET 8.4.1では、ImageOrPrintOptionsクラスのSVGFitToViewPortプロパティが公開され、スプレッドシートやチャートをSVG形式にエクスポートする際にviewBox属性を有効にするために使用できます。このプロパティのデフォルト値はfalseです。したがって、前述のプロパティを設定せずに生成されたSVGファイルのベースXMLにはviewBox属性が含まれません。
 
-次のサンプル コードは、ImageOrPrintOptions.SVGFitToViewPort プロパティの使用方法を示しています。
+以下のサンプルコードは、ImageOrPrintOptions.SVGFitToViewPortプロパティの使用方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -295,6 +296,6 @@ Aspose.Cells.Rendering.SheetRender renderer = new Aspose.Cells.Rendering.SheetRe
 renderer.ToImage(0, "output.svg");
 
 {{< /highlight >}}
-## **廃止された API**
-### **メソッド Workbook.ValidateFormula 廃止されました**
-Cell.Formula メソッドを使用して式を検証します。
+## **非推奨のAPI**
+### **廃止されたWorkbook.ValidateFormulaメソッド**
+Cell.Formulaメソッドを使用して式を検証してください。

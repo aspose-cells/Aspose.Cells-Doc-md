@@ -1,14 +1,15 @@
-﻿---
-title: Rechercher et remplacer dans une feuille de calcul
+---
+title: Rechercher et remplacer dans les feuilles de calcul
 type: docs
 weight: 30
 url: /fr/net/find-and-replace-in-spreadsheet/
 ---
-![tâche : image_autre_texte](Find_and_Replace.png)
 
-Lorsque nous cliquons sur le bouton Rechercher, voici le code :
+![todo:image_alt_text](Find_and_Replace.png)
 
-{{< highlight "csharp" >}}
+Lorsque nous cliquons sur le bouton Rechercher, le code suivant est exécuté :
+
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "")
 
@@ -54,9 +55,9 @@ Lorsque nous cliquons sur le bouton Rechercher, voici le code :
 
 {{< /highlight >}}
 
-En cliquant sur le bouton Remplacer, le code suivant est exécuté :
+En cliquant sur le bouton Remplacer, le code suivant est exécuté :
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "" && TXBX_Replace.Text!="")
 
@@ -108,7 +109,7 @@ En cliquant sur le bouton Remplacer, le code suivant est exécuté :
 
 {{< /highlight >}}
 
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)

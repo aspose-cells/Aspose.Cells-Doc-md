@@ -1,46 +1,47 @@
 ---
-title: ICustomFunction 機能の使用
-description: この記事では、Aspose.Cells ライブラリの ICustomFunction 機能を使用して、Microsoft Excel でカスタム関数を作成する方法について説明します。既存の Excel ファイルをロードするか、新しい Excel ファイルを作成することで、Aspose.Cells が提供するメソッドを使用してカスタム関数を定義および登録し、結果を取得できます。最後に、変更した Excel ファイルをディスクに保存します。
-keywords: Aspose.Cells, Excel, ICustomFunction features, custom functions
+title: ICustomFunction機能の使用
+description: この記事では、Aspose.CellsライブラリのICustomFunction機能を使用してMicrosoft Excelでカスタム関数を作成する方法について説明します。既存のExcelファイルを読み込むか新しいExcelファイルを作成し、Aspose.Cellsが提供するメソッドを使用してカスタム関数を定義し登録し、結果を取得することができます。最後に、変更したExcelファイルをディスクに保存します。
+keywords: Aspose.Cells、Excel、ICustomFunction機能、カスタム関数
 type: docs
 weight: 30
 url: /ja/net/using-icustomfunction-feature/
 ---
+
 {{% alert color="primary" %}} 
 
-この記事では、ICustomFunction 機能を使用して Aspose.Cells API でカスタム関数を実装する方法について詳しく説明します。
+この記事では、ICustomFunction機能を使用してAspose.Cells APIでカスタム関数を実装する方法について詳細に説明します。
 
-ICustomFunction インターフェイスを使用すると、カスタム数式計算関数を追加して、特定の要件を満たすために Aspose.Cells のコア計算エンジンを拡張できます。この機能は、他の既定の Microsoft Excel 関数と同様に、Aspose.Cells API を使用してカスタム関数を実装および評価できるテンプレート ファイルまたはコードでカスタム (ユーザー定義) 関数を定義する場合に便利です。
+ICustomFunctionインターフェースを使用すると、特定の要件を満たすためにAspose.Cellsのコア計算エンジンを拡張してカスタム形式計算関数を追加できます。この機能は、テンプレートファイルやコードでカスタム関数を定義し、Aspose.Cells APIを使用して通常のMicrosoft Excel関数と同様に実装および評価できるようにします。
 
-このインターフェースは次のものに置き換えられていることに注意してください。[抽象的な計算エンジン](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/)そして将来的には削除される予定です。新しい API に関するいくつかの技術記事/例:[ここ](/cells/ja/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)そして[ここ](/cells/ja/net/returning-a-range-of-values-using-abstractcalculationengine/)
+このインターフェースは [AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) に置き換えられ、将来的には削除されます。新しいAPIに関するいくつかの技術記事/例: [こちら](/cells/ja/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) および [こちら](/cells/ja/net/returning-a-range-of-values-using-abstractcalculationengine/) 。
 
 {{% /alert %}} 
-##  **ユーザー定義関数の作成と評価**
-この記事では、カスタム関数を作成し、それをスプレッドシートで使用して結果を取得するための ICustomFunction インターフェイスの実装について説明します。カスタム関数を名前で定義します**マイファンク**これは、次の詳細を含む 2 つのパラメーターを受け入れます。
+## **ユーザー定義関数の作成と評価**
+この記事では、ICustomFunctionインタフェースの実装をデモし、スプレッドシートでカスタム関数を作成し、その結果を取得する方法を説明します。名前が **MyFunc** のカスタム関数を定義し、次の詳細を持つ2つのパラメーターを受け入れるカスタム関数を定義します。
 
-- 最初のパラメータは単一のセルを参照します
-- 番目のパラメータはセル範囲を参照します
+- 1番目のパラメーターは単一のセルを参照します
+- 2番目のパラメーターはセル範囲を参照します
 
-カスタム関数は、2 番目のパラメーターとして指定されたセル範囲のすべての値を加算し、結果を 1 番目のパラメーターの値で除算します。
+カスタム関数は、指定された2番目のパラメーターからすべての値を追加し、1番目のパラメーターの値で結果を除算します。
 
-CalculateCustomFunction メソッドを実装する方法を次に示します。
+次は、CalculateCustomFunction メソッドの実装方法です。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-UsingICustomFunctionfeature-ICustomFunction.cs" >}}
 
 
-スプレッドシートで新しく定義した関数を使用する方法は次のとおりです。
+新しく定義された関数をスプレッドシートで使用する方法は次のとおりです。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-UsingICustomFunctionfeature-UsingICustomFunctionFeature.cs" >}}
-##  **概要**
-Aspose.Cells API は、対応するパラメーターが参照であるか、その計算結果が参照である場合に、ReferredArea オブジェクトを「paramsList」に入れるだけです。参照自体が必要な場合は、ReferredArea を直接使用できます。数式の位置に対応する参照から単一セルの値を取得する必要がある場合は、ReferredArea.GetValue(rowOffset, intcolOffset) メソッドを使用できます。エリア全体のセル値配列が必要な場合は、ReferredArea.GetValues メソッドを使用できます。
+## **概要**
+Aspose.Cells API は、対応するパラメータが参照またはその計算結果が参照の場合、「paramsList」に ReferredArea オブジェクトを置きます。参照自体が必要な場合は ReferredArea を直接使用できます。式の位置に対応する参照から単一のセルの値を取得する必要がある場合は、ReferredArea.GetValue(rowOffset, int colOffset) メソッドを使用できます。全体の範囲のセル値の配列が必要な場合は、ReferredArea.GetValues メソッドを使用できます。
 
-Aspose.Cells API は「paramsList」の ReferredArea を提供するため、「contextObjects」の ReferredAreaCollection は不要になります (古いバージョンでは、常にカスタム関数のパラメーターに 1 対 1 のマップを与えることができませんでした)。 「contextObjects」から削除されました。
+Aspose.CellsのAPIが"paramsList"にReferredAreaを与えるため、「contextObjects」でのReferredAreaCollectionはもはや必要ありません(以前のバージョンでは、カスタム関数のパラメーターに常に1対1マップを提供することができなかったため、これが"contextObjects"から削除されました)。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 

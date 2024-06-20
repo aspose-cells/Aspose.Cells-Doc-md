@@ -1,27 +1,28 @@
-﻿---
-title: Arbeta med Dyn-Hide Form
+---
+title: Arbete med Dyn Hide Formulär
 type: docs
 weight: 150
 url: /sv/reportingservices/working-with-dyn-hide-form/
 ---
+
 {{% alert color="primary" %}} 
 
-Dialogrutan "Dyn-Göm" låter dig dölja information dynamiskt från en rapport. Det låter dig definiera ett cellområde på ett kalkylblad som du vill dölja.
+Dialogrutan "Dyn-Hide" låter dig dynamiskt dölja information från en rapport. Det låter dig definiera en cellområde på en arbetsbok som du vill dölja.
 
 {{% /alert %}} 
 
-Så här döljer du information:
+För att dölja information:
 
-1.  I Microsoft Excel klickar du**Dyn-Hide** på kommandofältet Aspose.Cells.
- Dialogrutan Dyn-Hide visas.
+1. I Microsoft Excel, klicka på **Dyn-Hide** på Aspose.Cells kommandofält.
+   Dialogrutan Dyn-Hide visas. 
 
 ![todo:image_alt_text](working-with-dyn-hide-form_1.png)
 
 
 
 
-1. Redigera dölj informationen.
-1.  Klick**Lägg till** för att lägga till dölj information.
+1. Redigera döljinformationen.
+1. Klicka på **Lägg till** för att lägga till dold information. 
 
 ![todo:image_alt_text](working-with-dyn-hide-form_2.png)
 
@@ -29,8 +30,8 @@ Så här döljer du information:
 
 Det definierade området är dolt från rapporten.
 
-Så här tar du bort göm information:
+För att ta bort dold information:
 
-1. Välj ett ark från listan över dolda områden i dialogrutan Dyn-Hide.
-1.  Klick**Radera**.
- Det valda området raderas och visas i rapporten.
+1. Välj en blad från listan över dolda områden i Dyn-Hide-dialogrutan.
+1. Klicka på **Ta bort**.
+   Det markerade området raderas och visas i rapporten.

@@ -1,15 +1,16 @@
-﻿---
+---
 title: Afficher et masquer les barres de défilement des classeurs
 type: docs
 weight: 40
 url: /fr/java/display-and-hide-scrollbars-of-workbooks/
 ---
+
 ## **Aspose.Cells - Afficher et masquer les barres de défilement des classeurs**
- Aspose.Cells fournit une classe,**Cahier** qui représente un fichier Excel.**Cahier** fournit un large éventail de propriétés et de méthodes pour gérer un fichier Excel. Mais, pour contrôler la visibilité des barres de défilement dans le fichier Excel, les développeurs peuvent utiliser**setVScrollBarVisiblesetVScrollBarVisible** & **setHScrollBarVisible** méthodes de la**Cahier** classe.
+Aspose.Cells fournit une classe, **Workbook** qui représente un fichier Excel. La classe **Workbook** offre un large éventail de propriétés et de méthodes pour gérer un fichier Excel. Mais, pour contrôler la visibilité des barres de défilement dans le fichier Excel, les développeurs peuvent utiliser les méthodes **setVScrollBarVisible** et **setHScrollBarVisible** de la classe **Workbook**.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -43,8 +44,8 @@ workbook.save(dataDir + "AsposeDisplaySrollbars.xls");
 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideScrollbars.java)

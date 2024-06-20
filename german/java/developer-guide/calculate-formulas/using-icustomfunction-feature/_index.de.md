@@ -1,35 +1,36 @@
 ---
-title: Verwenden der ICustomFunction-Funktion
+title: Verwendung der ICustomFunction Funktion
 type: docs
 weight: 890
 url: /de/java/using-icustomfunction-feature/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieser Artikel bietet detaillierte Informationen zur Verwendung der ICustomFunction-Funktion zum Implementieren benutzerdefinierter Funktionen mit Aspose.Cells-APIs.
+Dieser Artikel bietet eine ausführliche Erklärung zur Verwendung des ICustomFunction-Features zur Implementierung benutzerdefinierter Funktionen mit Aspose.Cells-APIs.
 
-Die ICustomFunction-Schnittstelle ermöglicht das Hinzufügen benutzerdefinierter Formelberechnungsfunktionen zur Erweiterung der Aspose.Cells'-Kernberechnungs-Engine, um bestimmte Anforderungen zu erfüllen. Diese Funktion ist nützlich, um benutzerdefinierte (benutzerdefinierte) Funktionen in einer Vorlagendatei oder in Code zu definieren, wobei die benutzerdefinierte Funktion mithilfe von Aspose.Cells-APIs wie jede andere Standard-Excel-Funktion Microsoft implementiert und ausgewertet werden kann.
+Die ICustomFunction-Schnittstelle ermöglicht die Hinzufügung benutzerdefinierter Formelberechnungsfunktionen, um den Kernberechnungsmotor von Aspose.Cells zu erweitern, um bestimmte Anforderungen zu erfüllen. Diese Funktion ist nützlich, um benutzerdefinierte Funktionen in einer Vorlagendatei oder im Code zu definieren, wo die benutzerdefinierte Funktion mit Aspose.Cells-APIs wie jede andere Standard-Microsoft Excel-Funktion implementiert und ausgewertet werden kann.
 
- Bitte beachten Sie, dass diese Schnittstelle durch ersetzt wurde[AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) und wird in Zukunft entfernt. Einige Fachartikel/Beispiele zur neuen API:[Hier](/cells/de/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) Und[Hier](/cells/de/java/returning-a-range-of-values-using-abstractcalculationengine/)
+Bitte beachten Sie, dass diese Schnittstelle durch [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) ersetzt wurde und in Zukunft entfernt wird. Einige technische Artikel/Beispiele zur neuen API finden Sie [hier](/cells/de/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) und [hier](/cells/de/java/returning-a-range-of-values-using-abstractcalculationengine/).
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Wenn Sie mit den APIs Aspose.Cells for Java noch nicht vertraut sind, überprüfen Sie dies bitte[Das](https://docs.aspose.com/cells/java/installation/) In diesem Artikel erfahren Sie, wie Sie die Aspose.Cells for Java in Ihrem Projekt erwerben und referenzieren können.
+Wenn Sie neu bei Aspose.Cells for Java-APIs sind, überprüfen Sie bitte [diesen](https://docs.aspose.com/cells/java/installation/) Artikel, um zu erfahren, wie Sie die Aspose.Cells for Java in Ihrem Projekt erwerben und referenzieren können.
 
 {{% /alert %}} 
-##  **Erstellen und Auswerten einer benutzerdefinierten Funktion**
- Dieser Artikel demonstriert die Implementierung der ICustomFunction-Schnittstelle zum Schreiben einer benutzerdefinierten Funktion und deren Verwendung in der Tabelle, um die Ergebnisse zu erhalten. Wir werden eine benutzerdefinierte Funktion nach Namen definieren**MyFunc** welches 2 Parameter mit folgenden Details akzeptiert.
+## **Erstellen und Auswerten einer benutzerdefinierten Funktion**
+Dieser Artikel demonstriert die Implementierung der ICustomFunction-Schnittstelle, um eine benutzerdefinierte Funktion zu schreiben und sie in der Tabellenkalkulation zu verwenden, um die Ergebnisse zu erhalten. Wir definieren eine benutzerdefinierte Funktion namens **MyFunc**, die 2 Parameter mit folgenden Details akzeptiert.
 
-- Der 1. Parameter bezieht sich auf eine einzelne Zelle
-- Der 2. Parameter bezieht sich auf einen Zellbereich
+- Der erste Parameter bezieht sich auf eine einzelne Zelle
+- Der zweite Parameter bezieht sich auf einen Zellenbereich
 
-Die benutzerdefinierte Funktion addiert alle Werte aus dem als 2. Parameter angegebenen Zellbereich und dividiert das Ergebnis durch den Wert im 1. Parameter.
+Die benutzerdefinierte Funktion wird alle Werte aus dem als 2. Parameter angegebenen Zellbereich addieren und das Ergebnis durch den Wert im 1. Parameter dividieren.
 
-So haben wir die Methode „calculeCustomFunction“ implementiert.
+So haben wir die Methode calculateCustomFunction implementiert.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomFunction implements ICustomFunction
 
@@ -93,11 +94,11 @@ So haben wir die Methode „calculeCustomFunction“ implementiert.
 
 {{< /highlight >}}
 
-Hier erfahren Sie, wie Sie die neu definierte Funktion in einer Tabellenkalkulation verwenden
+So verwenden Sie die neu definierte Funktion in einer Tabellenkalkulation
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Open the workbook
 
@@ -148,12 +149,12 @@ worksheet.getCells().get("A1").putValue(worksheet.getCells().get("A1").getValue(
 workbook.save(dir + "UsingICustomFunction.xls");
 
 {{< /highlight >}}
-##  **Überblick**
-Die Aspose.Cells-APIs fügen das ReferredArea-Objekt einfach in die „paramsList“ ein, wenn der entsprechende Parameter eine Referenz oder sein berechnetes Ergebnis eine Referenz ist. Wenn Sie die Referenz selbst benötigen, können Sie die ReferredArea direkt verwenden. Wenn Sie den Wert einer einzelnen Zelle aus der Referenz abrufen müssen, die der Position der Formel entspricht, können Sie die Methode ReferredArea.getValue(rowOffset, int colOffset) verwenden. Wenn Sie ein Array mit Zellenwerten für den gesamten Bereich benötigen, können Sie die Methode „ReferredArea.getValues“ verwenden.
+## **Übersicht**
+Die Aspose.Cells-APIs legen einfach das ReferredArea-Objekt in die "paramsList" ab, wenn der entsprechende Parameter eine Referenz ist oder sein berechnetes Ergebnis eine Referenz ist. Wenn Sie die Referenz selbst benötigen, können Sie direkt ReferredArea verwenden. Wenn Sie den Wert einer einzelnen Zelle aus der Referenz, die der Position der Formel entspricht, benötigen, können Sie die Methode ReferredArea.getValue(rowOffset, int colOffset) verwenden. Wenn Sie ein Zellwerte-Array für den gesamten Bereich benötigen, können Sie die Methode ReferredArea.getValues verwenden.
 
-Da die Aspose.Cells-APIs die ReferredArea in „paramsList“ angeben, wird die ReferredAreaCollection in „contextObjects“ nicht mehr benötigt (in alten Versionen war es nicht immer möglich, den Parametern der benutzerdefinierten Funktion eine Eins-zu-eins-Zuordnung zu geben), daher ist dies der Fall wurde aus den „contextObjects“ entfernt.
+Da die Aspose.Cells-APIs die ReferredArea in "paramsList" erhalten, wird die ReferredAreaCollection in "contextObjects" nicht mehr benötigt (in älteren Versionen konnte sie nicht immer eine eins-zu-eins-Mapping zu den Parametern der benutzerdefinierten Funktion erstellen), daher wurde sie aus den "contextObjects" entfernt.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public Object calculateCustomFunction(String functionName, ArrayList paramsList, ArrayList contextObjects)
 

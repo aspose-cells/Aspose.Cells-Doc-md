@@ -1,19 +1,20 @@
-﻿---
-title: احفظ ملف Excel في PDF بالحجم القياسي أو الأدنى
+---
+title: حفظ Excel إلى PDF بحجم قياسي أو حد أدنى
 type: docs
 weight: 340
 url: /ar/net/save-excel-into-pdf-with-standard-or-minimum-size/
 ---
+
 {{% alert color="primary" %}} 
 
- بشكل افتراضي ، يقوم Aspose.Cells بحفظ Excel في PDF بالحجم القياسي. ومع ذلك ، يمكنك أيضًا حفظه بأدنى حجم باستخدام ملف[PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype) خاصية. يقبل القيم التالية
+بشكل افتراضي، تقوم Aspose.Cells بحفظ Excel إلى PDF بحجم قياسي. ومع ذلك، يمكنك أيضًا حفظه بحجم أدنى باستخدام خاصية [PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype). إنها تقبل القيم التالية
 
-- PdfOptimizationType.Sandard
+- PdfOptimizationType.Standard
 - PdfOptimizationType.MinimumSize
 
 {{% /alert %}} 
-## **احفظ ملف Excel في PDF بالحجم القياسي أو الأدنى باستخدام Aspose.Cells**
- يوضح نموذج التعليمات البرمجية التالي كيف يمكنك حفظ Excel في PDF بالحجم القياسي أو الأدنى باستخدام[PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype)خاصية.
+## **حفظ Excel إلى PDF بحجم قياسي أو حد أدنى باستخدام Aspose.Cells**
+يوضح الكود العيني التالي كيف يمكنك حفظ Excel إلى PDF بحجم قياسي أو حد أدنى باستخدام الخاصية [PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype).
 
 
 

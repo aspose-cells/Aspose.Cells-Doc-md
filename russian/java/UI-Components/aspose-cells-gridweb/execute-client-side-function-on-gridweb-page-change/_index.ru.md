@@ -1,19 +1,20 @@
 ---
-title: Выполнение функции на стороне клиента при изменении страницы GridWeb
+title: Выполнение клиентской функции на изменение страницы GridWeb
 type: docs
 weight: 70
 url: /ru/java/execute-client-side-function-on-gridweb-page-change/
 ---
-##  **Возможные сценарии использования**
-Иногда вам нужно выполнить функцию на стороне клиента при изменении страницы GridWeb. Для этой цели Aspose.Cells.GridWeb предоставляет свойство OnPageChangeClientFunction. Установите это свойство с функцией на стороне клиента, которую вы хотите выполнить.
-##  **Выполнение функции на стороне клиента при изменении страницы GridWeb**
- Следующий код Java объясняет, как использовать свойство GridWebBean.setOnPageChangeClientFunction(). Он устанавливает свойство с помощью клиентской функции MyOnPageChange. Обратите внимание: это свойство действительно только в том случае, если вы включили разбиение по страницам, т. е. GridWebBean.setEnablePaging(true). Теперь всякий раз, когда вы меняете страницу GridWeb, она вызывает клиентскую функцию MyOnPageChange, которая печатает**индекс текущей страницы** на**консоль** как показано на этом скриншоте.
 
-![задача: image_alt_text](execute-client-side-function-on-gridweb-page-change_1.png)
-##  **Образец кода**
-Это код клиентской функции MyOnPageChange, которая будет выполнена из-за этой строки, т.е. Gridweb.setOnPageChangeClientFunction("MyOnPageChange");
+## **Возможные сценарии использования**
+Иногда вам нужно выполнить вашу клиентскую функцию при изменении страницы GridWeb. Aspose.Cells.GridWeb предоставляет свойство OnPageChangeClientFunction для этой цели. Пожалуйста, установите это свойство с клиентской функцией, которую вы хотите выполнить.
+## **Выполнение клиентской функции на изменение страницы GridWeb**
+Следующий код на Java объясняет, как использовать свойство GridWebBean.setOnPageChangeClientFunction(). Он устанавливает это свойство с клиентской функцией с именем MyOnPageChange. Обратите внимание, что это свойство действительно только в том случае, если вы включили постраничную навигацию, то есть GridWebBean.setEnablePaging(true). Теперь, каждый раз при изменении страницы GridWeb будет вызывать клиентскую функцию MyOnPageChange, которая выводит **текущий индекс страницы** в **консоль**, как показано на этом скриншоте.
 
-{{< highlight "java" >}}
+![todo:image_alt_text](execute-client-side-function-on-gridweb-page-change_1.png)
+## **Образец кода**
+Это код клиентской функции MyOnPageChange, который будет выполнен из-за этой строки, то есть Gridweb.setOnPageChangeClientFunction("MyOnPageChange");
+
+{{< highlight java >}}
 
  function MyOnPageChange(index) {
 
@@ -23,9 +24,9 @@ url: /ru/java/execute-client-side-function-on-gridweb-page-change/
 
 {{< /highlight >}}
 
-В следующем коде объясняется, как включить разбиение по страницам и установить свойство OnPageChangeClientFunction.
+Следующий код объясняет, как включить постраничную навигацию и установить свойство OnPageChangeClientFunction.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  GridWebBean gridweb=BeanManager.getBean(request);
 

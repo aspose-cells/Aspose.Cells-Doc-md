@@ -1,9 +1,10 @@
-﻿---
-title: Hanteringsfunktioner i Php
+---
+title: Hantera funktioner i Php
 type: docs
 weight: 20
 url: /sv/java/management-features-in-php/
 ---
-**Det här avsnittet innehåller följande ämnen:**
 
-- [Hantera arbetsblad i Php](/cells/sv/java/managing-worksheets-in-php/)
+**Denna avsnitt innehåller följande ämnen:**
+
+- [Hantera kalkyler i Php](/cells/sv/java/managing-worksheets-in-php/)

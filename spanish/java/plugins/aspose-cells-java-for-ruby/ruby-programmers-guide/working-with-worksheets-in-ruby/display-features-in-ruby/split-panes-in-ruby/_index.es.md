@@ -1,15 +1,16 @@
-﻿---
-title: Paneles partidos en Ruby
+---
+title: Dividir paneles en Ruby
 type: docs
 weight: 80
 url: /es/java/split-panes-in-ruby/
 ---
-## **Aspose.Cells - Paneles divididos**
- Para dividir paneles usando**Aspose.Cells Java para rubí** , simplemente invocar**paneles divididos** módulo.
 
-**código rubí**
+## **Aspose.Cells - Dividir paneles**
+Para dividir paneles usando **Aspose.Cells Java para Ruby**, simplemente invoque el módulo **SplitPanes**.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -32,7 +33,7 @@ workbook.save(data_dir + "SplitPanes output.xls")
 puts "Panes split successfully."
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Paneles divididos (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Dividir paneles (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/splitpanes.rb)

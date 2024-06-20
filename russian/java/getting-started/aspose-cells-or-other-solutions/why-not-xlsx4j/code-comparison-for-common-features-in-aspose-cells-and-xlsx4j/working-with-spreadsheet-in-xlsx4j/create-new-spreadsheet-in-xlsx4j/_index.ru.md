@@ -1,15 +1,16 @@
-﻿---
-title: Создать новую таблицу в xlsx4j
+---
+title: Создание новой электронной таблицы в xlsx4j
 type: docs
 weight: 30
 url: /ru/java/create-new-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Создать новую таблицу**
-Класс Workbook доступен для простого использования.
+
+## **Aspose.Cells - Создание новой электронной таблицы**
+Класс Workbook доступен для простого использования
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,14 +35,14 @@ cell.setValue("This is Aspose test of fonts!");
 workbook.save(dataDir + "newWorksheet_Aspose.xls");
 
 {{< /highlight >}}
-## **xlsx4j — создать новую электронную таблицу**
-В приведенном ниже примере показано, как можно создать новую электронную таблицу при использовании xlsx4j.
+## **xlsx4j - Создание новой электронной таблицы**
+Ниже приведен пример того, как создать новую электронную таблицу с использованием xlsx4j.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "newWorksheet_Xlsx4j.xlsx";
 
@@ -114,7 +115,7 @@ private static Cell createCell(String content) {
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/createnewspreadsheet)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/createnewspreadsheet)

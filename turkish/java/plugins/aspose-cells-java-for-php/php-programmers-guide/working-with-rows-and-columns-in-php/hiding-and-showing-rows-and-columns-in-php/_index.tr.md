@@ -1,18 +1,19 @@
 ---
-title: PHP'de Satırları ve Sütunları Gizleme ve Gösterme
+title: PHP de Satır ve Sütunları Gizleme ve Gösterme
 type: docs
 weight: 50
 url: /tr/java/hiding-and-showing-rows-and-columns-in-php/
-description: Aspose.Cells for PHP via Java API'leri aracılığıyla Satırları ve Sütunları nasıl Gizleyeceğinizi ve Göstereceğinizi öğrenin.
-keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
+description: Aspose.Cells for PHP via Java API leri aracılığıyla Satır ve Sütunları Nasıl Gizleyip Gösterileceğini Öğrenin.
+keywords: PHP de Satırları ve Sütunları Nasıl Gizler ve Gösterirsiniz, PHP ile Satırları veya Sütunları Gizleme, PHP ile Satırları veya Sütunları Gösterme. 
 ---
-##  **Aspose.Cells for PHP - Satır ve Sütunların Görünürlüğünü Kontrol Etme**
-###  **PHP'de Satır ve Sütunlar Nasıl Gizlenir**
-Geliştiriciler, sırasıyla Cells koleksiyonunun HideRow ve HideColumn yöntemlerini çağırarak bir satırı veya sütunu gizleyebilir. Her iki yöntem de belirli bir satırı veya sütunu gizlemek için satır/sütun dizinini parametre olarak alır.
 
-**PHP Kodu**
+## **Aspose.Cells for PHP - Satırların ve Sütunların Görünürlüğünü Kontrol Etme**
+### **PHP'de Satırları ve Sütunları Nasıl Gizler**
+Geliştiriciler, sırasıyla hücrelerin koleksiyonunun HideRow ve HideColumn yöntemlerini çağırarak bir satırı veya sütunu gizleyebilirler. Her iki yöntem de belirli bir satırı veya sütunu gizlemek için satır/sütun endeksini bir parametre olarak alır.
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
  public static function hide_rows_columns($dataDir)
 
@@ -45,15 +46,15 @@ Geliştiriciler, sırasıyla Cells koleksiyonunun HideRow ve HideColumn yönteml
 }
 
 {{< /highlight >}}
-###  **PHP Kullanarak Satırları ve Sütunları Gösterme**
-Geliştiriciler, sırasıyla Cells koleksiyonunun UnhideRow ve UnhideColumn yöntemlerini çağırarak herhangi bir gizli satırı veya sütunu gösterebilir. Her iki yöntem de iki parametre alır:
+### **PHP kullanarak Satırları ve Sütunları Nasıl Gösterirsiniz**
+Geliştiriciler, sırasıyla hücrelerin koleksiyonunun UnhideRow ve UnhideColumn yöntemlerini çağırarak gizlenmiş herhangi bir satırı veya sütunu gösterebilirler. Her iki yöntem de iki parametre alır:
 
-- **Satır sütun dizini**belirli bir satırı veya sütunu göstermek için kullanılan bir satır veya sütunun dizini.
-- **Satır yüksekliği veya sütun genişliği**- gösterildikten sonra satır veya sütuna atanan satır yüksekliği veya sütun genişliği.
+- **Satır veya sütun endeksi** - belirli satırı veya sütunu göstermek için kullanılan satırın veya sütunun endeksi.
+- **Satır yüksekliği veya sütun genişliği** - gösterildikten sonra satıra veya sütuna atanan satır yüksekliği veya sütun genişliği.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function unhide_rows_columns($dataDir)
 
@@ -86,7 +87,7 @@ Geliştiriciler, sırasıyla Cells koleksiyonunun UnhideRow ve UnhideColumn yön
 }
 
 {{< /highlight >}}
-##  **Çalışan Kodu İndir**
- İndirmek**Satırların ve Sütunların Görünürlüğünü Kontrol Etme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+## **Çalışan Kodu İndir**
+Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Sıraların ve Sütunların Görünürlüğünü Kontrol Etme (Aspose.Cells)** :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

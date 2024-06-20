@@ -3,16 +3,17 @@ title: Dölja och visa rader och kolumner i PHP
 type: docs
 weight: 50
 url: /sv/java/hiding-and-showing-rows-and-columns-in-php/
-description: "Lär dig hur du döljer och visar rader och kolumner genom API:erna Aspose.Cells for PHP via Java."
-keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
+description: Lär dig hur man döljer och visar rader och kolumner genom Aspose.cells för PHP via Java API er.
+keywords: Hur man döljer och visar rader och kolumner i PHP, dölj rader eller kolumner med hjälp av PHP, PHP Visa rader eller kolumner. 
 ---
-##  **Aspose.Cells for PHP - Kontrollera synligheten för rader och kolumner**
-###  **Hur man döljer rader och kolumner i PHP**
-Utvecklare kan dölja en rad eller kolumn genom att anropa metoderna HideRow och HideColumn i samlingen Cells. Båda metoderna tar rad/kolumnindex som en parameter för att dölja den specifika raden eller kolumnen.
+
+## **Aspose.Cells för PHP - Kontrollera synligheten för rader och kolumner**
+### **Hur man döljer rader och kolumner i PHP**
+Utvecklare kan dölja en rad eller kolumn genom att anropa HideRow och HideColumn metoderna i Cells-kollektionen respektive. Båda metoderna tar rad/kolumnindexet som parameter för att dölja den specifika raden eller kolumnen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function hide_rows_columns($dataDir)
 
@@ -45,15 +46,15 @@ Utvecklare kan dölja en rad eller kolumn genom att anropa metoderna HideRow och
 }
 
 {{< /highlight >}}
-###  **Hur man visar rader och kolumner med PHP**
-Utvecklare kan visa alla dolda rader eller kolumner genom att anropa metoderna UnhideRow och UnhideColumn i samlingen Cells. Båda metoderna tar två parametrar:
+### **Hur man visar rader och kolumner med PHP**
+Utvecklare kan återvisa dolda rader eller kolumner genom att anropa UnhideRow och UnhideColumn metoderna i Cells-kollektionen respektive. Båda metoderna tar två parametrar:
 
-- **Rowor kolumnindex**indexet för en rad eller kolumn som används för att visa den specifika raden eller kolumnen.
-- **Radhöjd eller kolumnbredd**- radhöjden eller kolumnbredden som tilldelats raden eller kolumnen efter att den har visats.
+- **Rad- eller kolumnindex** - index för en rad eller kolumn som används för att visa den specifika raden eller kolumnen.
+- **Radhöjd eller kolumnbredd** - radhöjd eller kolumnbredd tilldelad till raden eller kolumnen efter att den visas.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function unhide_rows_columns($dataDir)
 
@@ -86,7 +87,7 @@ Utvecklare kan visa alla dolda rader eller kolumner genom att anropa metoderna U
 }
 
 {{< /highlight >}}
-##  **Ladda ner Running Code**
- Ladda ner**Kontrollera synligheten för rader och kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Kontrollera synligheten av rader & kolumner (Aspose.Cells)** från någon av nedanstående sociala kodningssidor:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

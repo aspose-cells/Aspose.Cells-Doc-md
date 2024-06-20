@@ -1,14 +1,15 @@
-﻿---
-title: Excel を HTML に変換する際にオーバーレイ コンテンツを非表示にする
+---
+title: ExcelをHTMLに変換する際に、セル文字列のクロスタイプを指定できます。デフォルトでは、Aspose.CellsはMicrosoft Excelに従ってHTMLを生成しますが、[HtmlSaveOptions.HtmlCrossStringType](https //reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#HtmlCrossStringType)を[CROSS_HIDE_RIGHT](https //reference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT)に変更すると、セル文字列に被っている右側のすべての文字列を非表示にします。
 type: docs
 weight: 40
 url: /ja/python-java/hide-overlaid-content-while-converting-excel-to/
 ---
-## **Excel を HTML に変換する際にオーバーレイ コンテンツを非表示にする**
-Excel ファイルを HTML に保存すると、セル文字列に異なるクロス タイプを指定できます。デフォルトでは、Aspose.Cells は Microsoft Excel に従って HTML を生成しますが、[HtmlSaveOptions.HtmlCrossStringType](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#HtmlCrossStringType)に[クロス_隠れる_正しい](https://reference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT)次に、セル文字列とオーバーレイまたはオーバーラップしているセルの右側にあるすべての文字列を非表示にします。
 
-次のサンプル コードは、[サンプル Excel ファイル](sampleHidingOverlaidContentWithCrossHideRight.xlsx)そしてそれをに保存します[出力 HTML](HTML-outputHidingOverlaidContentWithCrossHideRight.zip)を設定した後[HtmlSaveOptions.HtmlCrossStringType](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#HtmlCrossStringType)なので[クロス_隠れる_正しい](https://reference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT).スクリーンショットはその方法を説明しています[クロス_隠れる_正しい](https://reference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT)デフォルト出力からの出力 HTML に影響します。
+## **ExcelをHTMLに変換する際に、セル文字列のクロスタイプを指定できます。デフォルトでは、Aspose.CellsはMicrosoft Excelに従ってHTMLを生成しますが、[HtmlSaveOptions.HtmlCrossStringType](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#HtmlCrossStringType)を[CROSS_HIDE_RIGHT](https://reference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT)に変更すると、セル文字列に被っている右側のすべての文字列を非表示にします。**
+ExcelファイルをHTMLに保存する場合、セル文字列のクロスタイプを指定できます。デフォルトでは、Aspose.CellsはMicrosoft Excelに従ってHTMLを生成しますが、[HtmlSaveOptions.HtmlCrossStringType](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#HtmlCrossStringType)を[CROSS_HIDE_RIGHT](https://reference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT)に変更すると、セル文字列に被っている右側のすべての文字列を非表示にします。
 
-![todo:画像_代替_文章](Hiding-Overlaid-Content-With-CrossHideRight.png)
+以下のコードサンプルでは、[サンプルExcelファイル](sampleHidingOverlaidContentWithCrossHideRight.xlsx)をロードし、[出力HTML](HTML-outputHidingOverlaidContentWithCrossHideRight.zip)を[HtmlSaveOptions.HtmlCrossStringType](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#HtmlCrossStringType)を[CROSS_HIDE_RIGHT](https://reference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT)に設定して保存します。スクリーンショットは、[CROSS_HIDE_RIGHT](https://reference.aspose.com/cells/python/asposecells.api/htmlcrosstype#CROSS_HIDE_RIGHT)が出力HTMLに与える影響を説明しています。
+
+![todo:image_alt_text](Hiding-Overlaid-Content-With-CrossHideRight.png)
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.py" >}}

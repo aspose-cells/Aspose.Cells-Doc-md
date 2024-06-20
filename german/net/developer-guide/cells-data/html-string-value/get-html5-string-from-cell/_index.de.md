@@ -1,26 +1,27 @@
 ---
-title: Holen Sie sich die HTML5-Zeichenfolge von Cell
+title: HTML5 String aus Zelle abrufen
 type: docs
 weight: 90
 url: /de/net/get-html5-string-from-cell/
-description: Erfahren Sie, wie Sie die HTML5-Zeichenfolge von Cell bis Aspose.Cells, for .NET und API abrufen.
-keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
+description: Erfahren Sie, wie Sie den HTML5 String aus der Zelle durch die Aspose.Cells for .NET API erhalten können.
+keywords: Holen Sie den HTML5 String aus der Zelle, HTML5 String aus der Zelle erhalten, HTML5 String der Zelle verwalten
 ---
-##  **Mögliche Nutzungsszenarien**
 
-Aspose.Cells gibt die Zeichenfolge HTML der Zelle unter Verwendung von zurück[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) Methode, die einen booleschen Parameter akzeptiert. Wenn Sie bestehen**FALSCH** Als Parameter wird Normal HTML zurückgegeben, aber wenn Sie bestehen**WAHR** Als Parameter wird eine HTML5-Zeichenfolge zurückgegeben.
+## **Mögliche Verwendungsszenarien**
 
-##  **Holen Sie sich die HTML5-Zeichenfolge von Cell**
+Aspose.Cells gibt den HTML-String der Zelle mit der Methode [**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) zurück, die einen booleschen Parameter akzeptiert. Wenn Sie **false** als Parameter übergeben, wird Normal HTML zurückgegeben, aber wenn Sie **true** als Parameter übergeben, wird ein HTML5-String zurückgegeben.
 
-Der folgende Beispielcode erstellt ein Arbeitsmappenobjekt und fügt Text in Zelle A1 des ersten Arbeitsblatts hinzu. Anschließend werden die normale Zeichenfolge HTML und die HTML5-Zeichenfolge aus Zelle A1 mithilfe von abgerufen[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)Methode und druckt sie auf der Konsole aus.
+## **Holen Sie sich HTML5-String aus der Zelle**
 
-##  **Beispielcode**
+Der folgende Beispielcode erstellt ein Arbeitsmappenobjekt und fügt etwas Text in Zelle A1 des ersten Arbeitsblatts ein. Anschließend wird der Normal HTML- und HTML5-String aus Zelle A1 mit der Methode [**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) geholt und auf der Konsole gedruckt.
+
+## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-GetHTML5StringFromCell.cs" >}}
 
-##  **Konsolenausgabe**
+## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Normal:
 

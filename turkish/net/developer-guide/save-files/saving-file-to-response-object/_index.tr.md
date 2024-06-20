@@ -1,49 +1,50 @@
 ---
-title: Dosyayı Yanıt Nesnesine Kaydetme
+title: Yanıt Nesnesine Dosya Kaydet
 type: docs
 weight: 50
 url: /tr/net/saving-file-to-response-object/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, dosyaları değiştirmeyi mümkün kılar. Bu makalede, dosyaların bir yanıt nesnesine kaydedilebileceği çeşitli yollar açıklanmaktadır.
+Aspose.Cells, dosyaların manipüle edilmesini mümkün kılar. Bu makale, dosyaların bir yanıt nesnesine nasıl kaydedilebileceğini açıklar.
 
 {{% /alert %}}
 
-##  **Dosyayı Yanıt Nesnesine Kaydetme**
+## **Yanıt Nesnesine Dosya Kaydetme**
 
-Dinamik olarak bir dosya oluşturmak ve onu doğrudan bir istemci tarayıcısına göndermek de mümkündür. Bunu yapmak için, programın aşırı yüklenmiş özel bir sürümünü kullanın.**[Kaydet](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)**aşağıdaki parametreleri kabul eden yöntem:
+Ayrıca, bir dosya dinamik olarak oluşturulup doğrudan istemci tarayıcısına gönderilmesi de mümkündür. Bunun için aşağıdaki parametreleri kabul eden [**Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5) yönteminin özel aşırı yüklenmiş sürümünü kullanın:
 
-- ASP.NET **[HttpResponse](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8)**nesne.
+- ASP.NET [**HttpResponse**](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8) nesnesi.
 - Dosya adı.
-- *[içerik eğilimi](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**, çıktı dosyasının içerik düzenleme türü.
-- *[Seçenekleri Kaydet](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**, dosya biçimi türü
+- Çıktı dosyasının içerik düzeni türü olan [**ContentDisposition**](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition).
+- Dosya biçim türü olan [**SaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/saveoptions).
 
- bu**[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**numaralandırma, tarayıcıya gönderilen dosyanın doğrudan tarayıcıda veya .xls/.xlsx veya başka bir uzantıyla ilişkili bir uygulamada kendi kendine açma seçeneği sunup sunmadığını belirler.
+[**ContentDisposition**](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition) numaralandırması, tarayıcıya gönderilen dosyanın doğrudan tarayıcıda kendisi veya .xls/.xlsx veya başka bir uzantıyla ilişkilendirilmiş bir uygulamada açılıp açılmamasının seçeneğini belirler.
 
-Numaralandırma, aşağıdaki önceden tanımlanmış kaydetme türlerini içerir:
+Numaralama aşağıdaki önceden tanımlanmış kaydetme türlerini içerir:
 
-|**Tip**|**Tanım**|
+|**Tür**|**Açıklama**|
 | :- | :- |
-|Attachment|Elektronik tabloyu tarayıcıya gönderir ve bir uygulamada .xls/.xlsx veya diğer uzantılarla ilişkili bir ek olarak açılır.|
-|Inline|Belgeyi tarayıcıya gönderir ve elektronik tabloyu diske kaydetme veya tarayıcıda açma seçeneği sunar|
+|Ek|Elektronik tabloyu tarayıcıya gönderir ve .xls/.xlsx veya diğer uzantılarla ilişkilendirilmiş bir uygulamada bir eki olarak açar|
+|İçeride|Belgeyi tarayıcıya gönderir ve elektronik tabloyu diske kaydetme veya tarayıcı içinde açma seçeneği sunar|
 
-###  **XLS Dosyalar**
+### **XLS Dosyaları**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-###  **XLSX Dosyalar**
+### **XLSX Dosyaları**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-###  **PDF Dosyalar**
+### **PDF Dosyaları**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 
-###  **Not**
+### **Not**
 
-.NET5 ve .Netstandard'da yer almayan "System.Web.HttpResponse" nesnesi nedeniyle,
-Yani bu fonksiyon Aspose.Cells .NET5 ve .Netstandard versiyonunda yoktur, dosyayı stream'e kaydetmek için aşağıdaki koda başvurabilir, ardından stream'e işlem yapabilirsiniz.
+Sistemi içermeyen "System.Web.HttpResponse" nesnesi sebebiyle,
+Bu durum, Aspose.Cells .NET5 ve .Netstandard sürümlerinde bulunmadığı için, dosyayı akıma kaydetme işlemini yapmak için aşağıdaki kodlara başvurabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 

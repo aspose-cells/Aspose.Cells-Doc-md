@@ -1,12 +1,13 @@
-﻿---
-title: Lägga till formler för Reporting Services
+---
+title: Lägga till rapporteringstjänster Formler
 type: docs
 weight: 30
 url: /sv/reportingservices/adding-reporting-services-formulas/
 ---
-För att lägga till Reporting Services-formler till tabelldatacellen, följ stegen nedan:
 
--  Välj tabelldatacellen och klicka**Infoga formel**verktygsfältet Aspose.Cells.Report.Designer (
+För att lägga till Reporting Services-formler i tabelldatacellen, följ stegen nedan:
+
+- Markera tabelldatacellen och klicka på **Infoga Formel** på verktygsfältet Aspose.Cells.Report.Designer (
 
 ![todo:image_alt_text](adding-reporting-services-formulas_1.png)
 
@@ -17,7 +18,7 @@ För att lägga till Reporting Services-formler till tabelldatacellen, följ ste
 
 
 
--  Välj ”Datauppsättning” i den vänstra panelen, välj ”EmpSalesDetail” i mittenpanelen och dubbelklicka på ”Sum(EmpSalesDetail.OrderQuty)” i den högra panelen. Ett formeluttryck visas i den övre redigeringsrutan. Klick**OK** knappen för att infoga uttrycket i cellen.
+- Välj ”DataSet” i vänster panel, välj ”EmpSalesDetail” i mittenpanelen och dubbelklicka på ”Sum(EmpSalesDetail.OrderQty)” i höger panel. En formeluttryck visas i toppredigeringsrutan. Klicka på **OK**-knappen för att infoga uttrycket i cellen.
 
 ![todo:image_alt_text](adding-reporting-services-formulas_3.png)
 
@@ -28,8 +29,8 @@ För att lägga till Reporting Services-formler till tabelldatacellen, följ ste
 
 ![todo:image_alt_text](adding-reporting-services-formulas_4.png)
 
-- Upprepa stegen ovan för att lägga till formeln i kolumnen Försäljning, som visas i följande.
+- Upprepa ovanstående steg för att lägga till formel till försäljningskolumnen, som visas nedan.
 
-**Formel läggs till i försäljningskolumnen** 
+**Formel tillagd i försäljningskolumnen** 
 
 ![todo:image_alt_text](adding-reporting-services-formulas_5.png)

@@ -1,39 +1,40 @@
-﻿---
-title: Aspose.Cells.GridJs モバイルでの作業
+---
+title: モバイルでAspose.Cells.GridJsが動作しています
 type: docs
 weight: 250
 url: /ja/net/aspose-cells-gridjs/mobile/
-description: この記事では、モバイル デバイスで GridJ を使用する方法について説明します。
-keywords: mobile spreadsheet editor, mobile spreadsheet viewer
+description: この記事では、モバイルデバイスでGridJsを使用する方法について説明します。
+keywords: GridJs、モバイルスプレッドシートエディター、モバイルスプレッドシートビューア、Excel、表示、編集、モバイル
 ---
-## モバイル デバイスで GridJ を使用する
 
-モバイル端末でスムーズにGridJsを利用できます。
+## モバイルデバイスでGridJsを使用する
 
-GridJs はモバイル画面を適応させることができます。
+モバイルデバイスでGridJsをスムーズに利用できます 
 
-実行します[ GridJsのデモ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "demo of GridJs ")
+GridJsはモバイル画面に適応します
 
-デモ プロジェクトのデフォルト ポートは 24262 です。
+[GridJsのデモ] (https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "GridJsのデモ") を実行します
 
-モバイル端末 http://localhost:24262/GridJs2/List で IP 経由でページにアクセスする必要があります。
+デモプロジェクトのデフォルトポートは24262です 
 
-次のような小さなツールを使用できます: iisexpress プロキシ。
+モバイル端末でIP経由でページにアクセスする必要があります http://localhost:24262/GridJs2/List . 
 
-次のコマンドでインストールします。
+iisexpress proxyのような小さなツールを使用できます
+
+次のコマンドでインストールしてください：
 
 *npm install -g iisexpress-proxy*
 
-次のコマンドを実行して、ポート マッピングを完了します。
+ポートマッピングを完了するコマンドを実行します。
 
-*iisexpress-proxy 24262 ～ 82*
+*iisexpress-proxy 24262 を 82 にマッピングします*
 
-![todo:iisexpress コマンド](iisproxy_port_map.png)
+![todo:iisexpress command](iisproxy_port_map.png)
 
-次に、モバイル ブラウザーでデモ Web ページを開くことができます。
+その後、モバイルブラウザでデモのウェブページを開くことができます。
 
-ページ http://yourip:82/GridJs2/List に移動し、開くファイルを選択します。
+ページ http://yourip:82/GridJs2/List へ移動し、ファイルを選択して開きます。
 
 ![todo:モバイルでの画面ナビゲーション](gridjs_edit_on_mobile.png)
 
-その後、PC デバイスと同じように編集操作を行うことができます。
+その後、PCデバイスと同じように編集操作ができます。

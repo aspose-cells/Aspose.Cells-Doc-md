@@ -1,15 +1,16 @@
-﻿---
-title: PHP'de Belge Özelliklerini Yönetme
+---
+title: PHP de Belge Özelliklerini Yönetme
 type: docs
 weight: 30
 url: /tr/net/managing-document-properties-in-php/
 ---
+
 ## **Aspose.Cells - Belge Özelliklerini Yönetme**
 Microsoft Excel Dosyasının Belge Özelliklerini Yönetme
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -79,6 +80,6 @@ Microsoft Excel Dosyasının Belge Özelliklerini Yönetme
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belge Özelliklerini Yönetme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir aşağıda belirtilen sosyal kodlama sitesinden **Belge Özelliklerini Yönetme (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

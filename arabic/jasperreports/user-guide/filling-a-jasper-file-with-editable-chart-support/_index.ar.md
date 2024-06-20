@@ -1,22 +1,23 @@
-﻿---
-title: تعبئة ملف .jasper مع دعم الرسم البياني القابل للتحرير
+---
+title: ملء ملف .jasper مع دعم المخطط القابل للتحرير
 type: docs
 weight: 10
 url: /ar/jasperreports/filling-a-jasper-file-with-editable-chart-support/
 ---
+
 {{% alert color="primary" %}} 
 
- يتطلب Aspose.Cells for JasperReports تعبئة ملف .jasper إلى كائن .jrprint أو عنصر JasperPrint قبل أن يمكن تصديره إلى ملف XLS. ليس هناك أي تعديل مطلوب لملف .jrxml على الإطلاق. يخزن إجراء الملء التمثيلات الداخلية للمخططات في كائن JasperPrint والذي يتم استخدامه بعد ذلك لإنشاء مخططات قابلة للتحرير.
+Aspose.Cells for JasperReportsيتطلب ملف .jasper ليتم ملؤه بملف .jrprint أو كائن JasperPrint قبل أن يمكن تصديره إلى ملف XLS. لا توجد أي تعديلات مطلوبة لملف .jrxml على الإطلاق. إجراء الملء يقوم بتخزين التمثيلات الداخلية للمخططات في كائن JasperPrint الذي يُستخدم بعد ذلك لإنشاء المخططات القابلة للتحرير. 
 
 {{% /alert %}} 
 
-يرجى قراءة وثائق JasperReports للحصول على وصف تفصيلي لكيفية ملء التقرير.
+يرجى قراءة وثائق JasperReports للحصول على وصف مفصل حول كيفية ملء التقرير.
 
-هذا مثال:
+إليك مثال:
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  JasperPrint jasperPrint = JasperFillManager.fillReport(jasperFileName, parameters, getConnection());
 

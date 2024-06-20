@@ -1,44 +1,45 @@
-﻿---
-title: Редактор электронных таблиц — Работа со строками и столбцами
+---
+title: Редактор электронных таблиц  Работа с строками и столбцами
 type: docs
 weight: 30
 url: /ru/java/spreadsheet-editor-working-with-rows-and-columns/
 ---
-**Оглавление**
+
+**Содержание**
 
 - [Добавить строку](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
- - WorksheetView.addRowAbove
- - WorksheetView.addRowBelow
+  - WorksheetView.addRowAbove
+  - WorksheetView.addRowBelow
 - [Добавить столбец](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
- - WorksheetView.addColumnBefore
- - WorksheetView.addColumnAfter
+  - WorksheetView.addColumnBefore
+  - WorksheetView.addColumnAfter
 - [Удалить строку](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
- - WorksheetView.deleteRow
+  - WorksheetView.deleteRow
 - [Удалить столбец](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
- - WorksheetView.deleteColumn
+  - WorksheetView.deleteColumn
 - [Ширина столбца и высота строки](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
- - WorksheetView.setCurrentRowHeight
- - WorksheetView.setCurrentColumnWidth
-- [Вставьте Cell](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
- - WorksheetView.addCellShiftRight
- - WorksheetView.addCellShiftDown
+  - WorksheetView.setCurrentRowHeight
+  - WorksheetView.setCurrentColumnWidth
+- [Вставить ячейку](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
+  - WorksheetView.addCellShiftRight
+  - WorksheetView.addCellShiftDown
 ### **Добавить строку**
 Чтобы добавить новую строку:
 
-1. Нажмите на ячейку, в которую вы хотите добавить строку.
-1.  Переключить на**Вкладка Формат**.
-1.  Нажмите**Добавить строку выше** чтобы добавить строку над выбранной ячейкой.
-1.  Нажмите**Добавить строку ниже** чтобы добавить строку под выбранной ячейкой.
+1. Щелкните по ячейке, где вы хотите добавить строку.
+1. Переключитесь на вкладку **Формат**.
+1. Нажмите **Добавить строку выше**, чтобы добавить строку над выбранной ячейкой.
+1. Нажмите **Добавить строку ниже**, чтобы добавить строку под выбранной ячейкой.
 
 Редактор добавит новую строку в выбранное место.
 
-![дело:изображение_альтернативный_текст](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Как это работает?**
 
-**Добавить строку выше** и**Добавить строку ниже** обрабатываются внутренним компонентом JSF**Вид рабочего листа**. Исходный код соответствующих методов выглядит следующим образом:
+**Добавить строку выше** и **Добавить строку ниже** обрабатываются бэкэнд-бином JSF **WorksheetView**. Исходный код соответствующих методов выглядит следующим образом:
 #### **WorksheetView.addRowAbove**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowAbove() {
 
@@ -63,7 +64,7 @@ url: /ru/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.addRowBelow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowBelow() {
 
@@ -99,20 +100,20 @@ url: /ru/java/spreadsheet-editor-working-with-rows-and-columns/
 ### **Добавить столбец**
 Чтобы добавить новый столбец:
 
-1. Щелкните ячейку, в которую вы хотите добавить столбец.
-1.  Переключить на**Вкладка Формат**.
-1.  Нажмите**Добавить столбец перед**чтобы добавить столбец перед выбранной ячейкой.
-1.  Нажмите**Добавить столбец после** чтобы добавить столбец после выбранной ячейки.
+1. Щелкните по ячейке, где вы хотите добавить столбец.
+1. Переключитесь на вкладку **Формат**.
+1. Нажмите **Добавить столбец до** для добавления столбца перед выбранной ячейкой.
+1. Нажмите **Добавить столбец после** для добавления столбца после выбранной ячейки.
 
 Редактор добавит новый столбец в выбранное место.
 
-![дело:изображение_альтернативный_текст](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Как это работает?**
 
-**Добавить столбец перед** и**Добавить столбец после** обрабатываются внутренним компонентом JSF**Вид рабочего листа**. Исходный код соответствующих методов выглядит следующим образом:
+Операции **Добавить столбец до** и **Добавить столбец после** выполняются бэкэнд-бином JSF **WorksheetView**. Исходный код соответствующих методов выглядит следующим образом:
 #### **WorksheetView.addColumnBefore**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnBefore() {
 
@@ -137,7 +138,7 @@ url: /ru/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.addColumnAfter**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnAfter() {
 
@@ -163,21 +164,21 @@ url: /ru/java/spreadsheet-editor-working-with-rows-and-columns/
 
 {{< /highlight >}}
 ### **Удалить строку**
-Чтобы удалить строку:
+Для удаления строки:
 
 1. Нажмите на ячейку в строке, которую вы хотите удалить.
-1.  Переключить на**Вкладка Формат**.
-1.  Нажмите**Удалить строку** кнопка.
+1. Переключитесь на вкладку **Формат**.
+1. Нажмите кнопку **Удалить строку**.
 
-Редактор удалит строку, содержащую выбранную ячейку.
+Редактор удалит строку, включающую выбранную ячейку.
 
-![дело:изображение_альтернативный_текст](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Как это работает?**
 
-**Удалить строку** кнопка обрабатывается внутренним компонентом JSF**Вид рабочего листа** используя метод**WorksheetView.deleteRow**:
+Операция кнопки **Удалить строку** обрабатывается бэкэнд-бином JSF **WorksheetView** с помощью метода **WorksheetView.deleteRow**:
 #### **WorksheetView.deleteRow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteRow() {
 
@@ -203,21 +204,21 @@ url: /ru/java/spreadsheet-editor-working-with-rows-and-columns/
 
 {{< /highlight >}}
 ### **Удалить столбец**
-Чтобы удалить столбец:
+Для удаления столбца:
 
 1. Нажмите на ячейку в столбце, который вы хотите удалить.
-1.  Переключить на**Вкладка Формат**.
-1.  Нажмите**Удалить столбец** кнопка.
+1. Переключитесь на вкладку **Формат**.
+1. Нажмите кнопку **Удалить столбец**.
 
-Редактор удалит столбец, содержащий выбранную ячейку.
+Редактор удалит столбец, включающий выбранную ячейку.
 
-![дело:изображение_альтернативный_текст](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
 **Как это работает?**
 
-**Удалить столбец** кнопка обрабатывается внутренним компонентом JSF**Вид рабочего листа** используя метод**WorksheetView.deleteColumn**:
+Кнопка **Удалить столбец** управляется бэкэнд-бином JSF **WorksheetView** с использованием метода **WorksheetView.deleteColumn**:
 #### **WorksheetView.deleteColumn**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteColumn() {
 
@@ -243,33 +244,33 @@ url: /ru/java/spreadsheet-editor-working-with-rows-and-columns/
 
 {{< /highlight >}}
 ### **Ширина столбца и высота строки**
-Чтобы изменить ширину столбца:
+Для изменения ширины столбца:
 
-1. Нажмите на любую ячейку внутри столбца.
-1.  Переключить на**Вкладка Формат**.
-1.  Нажмите**Ширина колонки** кнопка, чтобы открыть**Ширина колонки** диалог.
+1. Щелкните любую ячейку внутри столбца.
+1. Переключитесь на вкладку **Формат**.
+1. Щелкните по кнопке **Ширина столбца**, чтобы открыть диалоговое окно **Ширина столбца**.
 1. Введите новое значение в диалоговом окне.
-1.  Нажмите**Закрывать**.
+1. Нажмите **Закрыть**.
 
 Редактор изменит ширину столбца.
 
 **Как изменить высоту строки?**
 
-Чтобы изменить высоту строки:
+Для изменения высоты строки:
 
-1. Нажмите на любую ячейку внутри строки.
-1.  Переключить на**Вкладка Формат**.
-1.  Нажмите**Высота строки** кнопка, чтобы открыть**Высота строки** диалог.
+1. Щелкните любую ячейку внутри строки.
+1. Переключитесь на вкладку **Формат**.
+1. Щелкните по кнопке **Высота строки**, чтобы открыть диалоговое окно **Высота строки**.
 1. Введите новое значение в диалоговом окне.
-1.  Нажмите**Закрывать**.
+1. Нажмите **Закрыть**.
 
 Редактор изменит высоту строки.
 
 **Как это работает?**
 
- Когда пользователь отправляет значение ширины и высоты, эти значения обрабатываются на стороне сервера**setCurrentRowHeight** и**setCurrentColumnWidth** методы внутреннего компонента JSF**Вид рабочего листа**.
+Когда пользователь отправляет значение ширины и высоты, эти значения обрабатываются на серверной стороне с помощью методов **setCurrentRowHeight** и **setCurrentColumnWidth** бэкэнд-бина JSF **WorksheetView**.
 #### **WorksheetView.setCurrentRowHeight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentRowHeight(int height) {
 
@@ -290,7 +291,7 @@ url: /ru/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.setCurrentColumnWidth**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentColumnWidth(int width) {
 
@@ -309,21 +310,21 @@ url: /ru/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **Вставьте Cell**
+### **Вставить ячейку**
 Чтобы добавить новую ячейку:
 
-1. Нажмите на ячейку, которую вы хотите создать.
-1.  Переключить на**Вкладка «Вставка»**.
-1.  Нажмите**Cell** кнопка.
-1.  выберите**Сдвиг Cells Вправо** или же**Сдвиг Cells Вниз** кнопка.
+1. Нажмите на ячейку, где хотите добавить новую.
+1. Переключитесь на вкладку **Вставка**.
+1. Нажмите на кнопку **Ячейка**.
+1. Выберите кнопку **Сдвинуть ячейки вправо** или **Сдвинуть ячейки вниз**.
 
-Редактор добавит новую ячейку в выбранное место. Соседние ячейки будут автоматически сдвинуты по горизонтали или вертикали, чтобы освободить место для новой.
+Редактор добавит новую ячейку ​​в выбранное место. Соседние ячейки автоматически сдвинутся горизонтально или вертикально, чтобы освободить место для новой.
 
 **Как это работает?**
 
-**Сдвиг Cells Вправо** и**Сдвиг Cells Вниз** обрабатываются внутренним компонентом JSF**Вид рабочего листа**. Исходный код соответствующих методов выглядит следующим образом:
+**Сдвиг ячеек вправо** и **Сдвиг ячеек вниз** обрабатываются бэкэнд-бином JSF **WorksheetView**. Исходный код соответствующих методов выглядит следующим образом:
 #### **WorksheetView.addCellShiftRight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftRight() {
 
@@ -348,7 +349,7 @@ url: /ru/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.addCellShiftDown**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftDown() {
 

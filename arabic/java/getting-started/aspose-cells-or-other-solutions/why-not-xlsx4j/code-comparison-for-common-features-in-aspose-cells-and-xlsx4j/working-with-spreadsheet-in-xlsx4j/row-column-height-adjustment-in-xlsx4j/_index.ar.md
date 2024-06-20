@@ -1,23 +1,24 @@
-﻿---
-title: ضبط ارتفاع عمود الصف في xlsx4j
+---
+title: ضبط ارتفاع الصف والعمود في xlsx4j
 type: docs
 weight: 50
 url: /ar/java/row-column-height-adjustment-in-xlsx4j/
 ---
-## **Aspose.Cells - تعديل ارتفاع عمود الصف**
-من الممكن ضبط ارتفاع صف واحد عن طريق استدعاء طريقة setRowHeight لمجموعة Cells. تأخذ طريقة setRowHeight المعلمات التالية:
 
-- **فهرس الصف**، فهرس الصف الذي تقوم بتغيير ارتفاعه.
-- **ارتفاع الصف**، ارتفاع الصف المراد تطبيقه على الصف.
+## **Aspose.Cells - تعديل ارتفاع الصف والعمود**
+من الممكن تعيين ارتفاع صف واحد عن طريق استدعاء طريقة setRowHeight لمجموعة Cells. تأخذ طريقة setRowHeight  المعلمات التالية:
 
-قم بتعيين عرض العمود عن طريق استدعاء طريقة setColumnWidth للمجموعة Cells. تأخذ طريقة setColumnWidth المعلمات التالية:
+- **مؤشر الصف**, مؤشر الصف الذي كنت تغير ارتفاعه.
+- **ارتفاع الصف**, ارتفاع الصف المطبق على الصف.
 
-- **فهرس العمود**، هو فهرس العمود الذي تقوم بتغيير عرضه.
-- **عرض العمود**، عرض العمود المطلوب.
+قم بتعيين عرض عمود عن طريق استدعاء طريقة setColumnWidth لمجموعة Cells. تأخذ طريقة setColumnWidth  المعلمات التالية:
+
+- **فهرس العمود**, فهرس العمود الذي تريد تغيير عرضه.
+- **عرض العمود**, العرض المطلوب للعمود.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cells.setRowHeight(1, 40);
 cells.setColumnWidth(1, 17.5);
 
 {{< /highlight >}}
-## **xlsx4j - ضبط ارتفاع عمود الصف**
-يتم استخدام Row.setHt لتعيين ارتفاع مخصص للصفوف باستخدام xlsx4j. يجب تعيين setCustomHeight على TRUE.
+## **xlsx4j - تعديل ارتفاع الصف والعمود**
+يُستخدم Row.setHt لتعيين ارتفاع مخصص للصفوف باستخدام xlsx4j. يجب تعيين setCustomHeight على TRUE.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SpreadsheetMLPackage pkg = SpreadsheetMLPackage.createPackage();
 
@@ -88,13 +89,13 @@ row.getC().add(cell2);
 sheetData.getRow().add(row);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[ضبط ارتفاع الصف وعرض العمود](/java/adjusting-row-height-and-volumn-width).
+للمزيد من التفاصيل، قم بزيارة [ضبط ارتفاع الصف وعرض العمود](/java/adjusting-row-height-and-volumn-width).
 
 {{% /alert %}}

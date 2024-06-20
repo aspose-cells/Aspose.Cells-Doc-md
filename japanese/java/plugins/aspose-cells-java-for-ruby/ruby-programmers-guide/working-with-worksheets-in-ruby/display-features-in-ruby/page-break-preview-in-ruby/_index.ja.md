@@ -1,15 +1,16 @@
-﻿---
-title: Ruby での改ページのプレビュー
+---
+title: Rubyでページ区切りプレビュー
 type: docs
 weight: 70
 url: /ja/java/page-break-preview-in-ruby/
 ---
-## **Aspose.Cells - 改ページのプレビュー**
-を使用してワークシートを改ページプレビューに設定するには**Aspose.Cells Ruby の場合は Java**、単に呼び出す**改ページプレビュー**モジュール。
 
-**ルビーコード**
+## **Aspose.Cells - ページ区切りプレビュー**
+Aspose.Cells Java for Rubyを使用して、**PageBreakPreview**モジュールを単純に呼び出してワークシートをページ区切りプレビューに設定します。
 
-{{< highlight "ruby" >}}
+**Ruby Code**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -36,7 +37,7 @@ workbook.save(data_dir + "output.xls")
 puts "Set page break preview, please check the output file."
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**改ページプレビュー (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、Aspose.Cellsのページ区切りプレビューをダウンロードする
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreakpreview.rb)

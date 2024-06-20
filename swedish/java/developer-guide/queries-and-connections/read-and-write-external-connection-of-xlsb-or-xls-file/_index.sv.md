@@ -1,28 +1,29 @@
-﻿---
+---
 title: Läs och skriv extern anslutning av XLSB eller XLS fil
 type: docs
 weight: 80
 url: /sv/java/read-and-write-external-connection-of-xlsb-or-xls-file/
 ---
-## **Möjliga användningsscenarier**
 
-Aspose.Cells stöder redan läs och skriv extern anslutning av filen XLSX men nu stöder den även den här funktionen för filen XLSB och XLS. Koden är dock samma för båda typerna av format.
+## **Möjliga användningsscenario**
 
-## **Läs och skriv extern anslutning av XLSB/XLS fil**
+Aspose.Cells stöder redan läsning och skrivning av extern anslutning för XLSX-filen men nu stödjer den även den här funktionen för XLSB- och XLS-filer. Dock är koden densamma för båda formattyperna.
 
-Följande exempelkod laddar exempelfilen XLSB(XLS kan också laddas) och läser dess första externa anslutning som faktiskt är en Microsoft Access DB-anslutning. Den ändrar sedan[**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)egenskap och sparar den som utdatafil XLSB. Skärmdumpen visar effekten av kod på[exempel XLSB fil](51740743.xlsb)och[utgång XLSB fil](51740742.xlsb)efter dess utförande. Se även konsolutgången för exempelkoden nedan för en referens.
+## **Läs och skriv extern anslutning av XLSB/XLS-fil**
+
+Följande exempelkod laddar den prov-XLSB (XLS kan också laddas) filen och läser dess första externa anslutning som faktiskt är en Microsoft Access DB-anslutning. Den modifierar sedan [**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name) egenskapen och sparar den som en resultat XLSB-fil. Skärmdumpen visar effekten av koden på [prov-XLSB filen](51740743.xlsb) och [resultat XLSB-filen](51740742.xlsb) efter dess körning. Se också konsolresultatet av exempelkoden nedan för referens.
 
 ![todo:image_alt_text](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 
 ## **Exempelkod**
 
-Följande kod ska fungera för både XLSB och XLS genom att ladda och spara filer med lämplig tillägg.
+Följande kod kommer att fungera för både XLSB och XLS genom att ladda och spara filer med lämplig tillägg.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.java" >}}
 
-## **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Connection Name: Cust
 

@@ -1,5 +1,5 @@
 ---
-title: Web扩展 - Office插件
+title: Web扩展  Office插件
 type: docs
 weight: 130
 url: /zh/net/web-extensions-office-add-ins/

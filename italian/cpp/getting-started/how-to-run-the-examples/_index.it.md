@@ -1,25 +1,26 @@
-﻿---
-title: Come eseguire gli esempi
+---
+title: Come Eseguire gli Esempi
 type: docs
 weight: 60
 url: /it/cpp/how-to-run-the-examples/
 ---
-## **Requisiti software**
+
+## **Requisiti Software**
 Assicurati di soddisfare i seguenti requisiti prima di scaricare ed eseguire gli esempi.
 
-- Visual Studio 2015 o versioni successive
+- Visual Studio 2015 o successivo
 ## **Scarica da GitHub**
- Tutti gli esempi di Aspose.Cells for C++ sono ospitati su[Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-C/).
+Tutti gli esempi di Aspose.Cells for C++ sono ospitati su [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-C/).
 
--  Puoi clonare il repository utilizzando il tuo client GitHub preferito o scaricare il file ZIP da[qui](https://github.com/aspose-cells/Aspose.Cells-for-C/archive/master.zip).
--  Estrai il contenuto del file ZIP in qualsiasi cartella sul tuo computer. Tutti gli esempi si trovano in**Esempi** cartella.
-- Apri il file della soluzione in Visual Studio e compila il progetto.
-- **Dati** folder nella cartella principale di**Esempi** contiene file di input. E' obbligatorio scaricare il**Dati** cartella insieme al progetto di esempio.
-- Apri main.cpp, tutti gli esempi vengono richiamati da qui.
-- Rimuovere il commento dagli esempi che si desidera eseguire dall'interno del progetto.
+- Puoi clonare il repository utilizzando il tuo client GitHub preferito o scaricare il file ZIP da [qui](https://github.com/aspose-cells/Aspose.Cells-for-C/archive/master.zip).
+- Estrai il contenuto del file ZIP in una qualsiasi cartella sul tuo computer. Tutti gli esempi si trovano nella cartella **Esempi**.
+- Apri il file di soluzione in Visual Studio e compila il progetto.
+- La cartella **Data** nella cartella radice degli **Esempi** contiene i file di input. È obbligatorio scaricare la cartella **Data** insieme al progetto degli esempi.
+- Aprire main.cpp, tutti gli esempi vengono chiamati da qui.
+- Rimuovere il commento dagli esempi che si desidera eseguire all'interno del progetto.
 
-Non esitare a contattarci utilizzando i nostri forum in caso di problemi con l'impostazione o l'esecuzione degli esempi.
-## **Contribuire**
-Se desideri aggiungere o migliorare un esempio, ti invitiamo a contribuire al progetto. Tutti gli esempi e i progetti vetrina in questo repository sono open source e possono essere utilizzati liberamente nelle tue applicazioni.
+Non esitate a contattarci utilizzando i nostri Forum se avete problemi nell'impostazione o nell'esecuzione degli esempi.
+## **Contribuisci**
+Se ti piace aggiungere o migliorare un esempio, ti incoraggiamo a contribuire al progetto. Tutti gli esempi e i progetti di showcase in questo repository sono open source e possono essere liberamente utilizzati nelle proprie applicazioni.
 
-Per contribuire, puoi eseguire il fork del repository, modificare il codice sorgente e creare una richiesta pull. Esamineremo le modifiche e le includeremo nel repository se ritenuto utile.
+Per contribuire, è possibile fare il fork del repository, modificare il codice sorgente e creare una pull request. Esamineremo le modifiche e le includeremo nel repository se trovate utili.

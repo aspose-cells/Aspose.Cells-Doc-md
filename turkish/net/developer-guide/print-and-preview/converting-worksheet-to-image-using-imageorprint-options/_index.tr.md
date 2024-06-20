@@ -1,58 +1,59 @@
 ---
-title: ImageOrPrint Seçeneklerini Kullanarak Çalışma Sayfasını Görüntüye Dönüştürme
+title: Resim veya Yazdır Seçeneklerini Kullanarak Çalışma Sayfasını Resme Dönüştürme
 type: docs
 weight: 90
 url: /tr/net/converting-worksheet-to-image-using-imageorprint-options/
 ---
+
 {{% alert color="primary" %}}
 
-Bu belge, bir çalışma sayfasının bir görüntü dosyasına nasıl dönüştürüleceğinin ve görüntü için farklı görüntü ve yazdırma seçeneklerinin, çözünürlük, TIFF sıkıştırma, görüntü formatı ve sayfa kalitesi gibi seçeneklerin nasıl uygulanacağının ayrıntılı olarak anlaşılmasını sağlamak için tasarlanmıştır.
+Bu belge, bir çalışma sayfasını bir resim dosyasına dönüştürme ve resim için farklı resim ve yazdır seçeneklerini (çözünürlük, TIFF sıkıştırma, resim formatı ve sayfa kalitesi gibi) uygulama konusunda ayrıntılı bir anlayış sağlamak amacıyla tasarlanmıştır.
 
 {{% /alert %}}
 
-##  **Çalışma Sayfalarını Görüntülere Kaydetme - Farklı Yaklaşımlar**
+## **Çalışma Sayfalarını Resim Olarak Kaydetme - Farklı Yaklaşımlar**
 
-Bazen, çalışma sayfalarınızı resimli bir sunum olarak sunmanız gerekebilir. Çalışma sayfası görüntülerini uygulamalarınıza veya web sayfalarınıza sunmanız gerekir. Görüntüleri bir Word belgesine, bir PDF dosyasına, bir PowerPoint sunumuna eklemeniz veya başka bir senaryoda kullanmanız gerekebilir. Basitçe, başka bir yerde kullanabilmeniz için bir çalışma sayfasının görüntü olarak işlenmesini istiyorsunuz. Aspose.Cells, Excel dosyalarındaki çalışma sayfalarının görüntülere dönüştürülmesini destekler. Ayrıca Aspose.Cells, görüntü formatı, çözünürlük (dikey ve yatay), görüntü kalitesi ve diğer görüntü ve baskı seçenekleri gibi farklı seçeneklerin ayarlanmasını destekler.
+Bazen çalışsayılarınızı resimsel bir temsil olarak sunmanız gerekebilir. Çalışsayı resimlerini uygulamalarınıza veya web sayfalarınıza eklemeniz veya kullanmanız gerekebilir. Resimlerini bir Word belgesine, bir PDF dosyasına, bir PowerPoint sunumuna eklemeniz veya bunları başka bir senaryoda kullanmanız gerekebilir. Basitçe başka bir yerde kullanabilmek için çalışsayısının bir resim olarak görüntülenmesini istersiniz. Aspose.Cells, Excel dosyalarındaki çalışsayıları resme dönüştürmeyi destekler. Ayrıca, Aspose.Cells, resim formatı, çözünürlük (dikey ve yatay), resim kalitesi ve diğer resim ve yazdırma seçenekleri belirleme gibi farklı seçenekleri destekler.
 
-Office Otomasyonu'nu deneyebilirsiniz, ancak Office otomasyonunun kendi dezavantajları vardır. İlgili birkaç neden ve sorun vardır: örneğin, güvenlik, kararlılık, ölçeklenebilirlik ve hız, fiyat ve özellikler. Kısacası, pek çok neden var ve bunlardan en önemlisi Microsoft'in yazılım çözümlerinden Office otomasyonuna karşı şiddetle tavsiye etmesi.
+Bu işlem için Office Otomasyonunu deneyebilirsiniz ancak Office otomasyonunun kendi dezavantajları vardır. Güvenlik, kararlılık, ölçeklenebilirlik ve hız, fiyat ve özellikler gibi çeşitli nedenler ve sorunlar bulunmaktadır. Kısacası, birçok neden bulunmakla birlikte en önemli neden, Microsoft'un Office otomasyonuna karşı kesinlikle tavsiye etmemesidir.
 
-Bu makale, Visual Studio .NET'de bir konsol uygulamasının nasıl oluşturulacağını, Aspose.Cells API kullanarak birkaç ve en basit kod satırıyla farklı görüntü ve yazdırma seçeneklerini kullanarak bir çalışma sayfasının görüntüye dönüştürülmesini nasıl gerçekleştireceğinizi gösterir.
+Bu makale, Visual Studio .NET'te bir konsol uygulaması oluşturmayı, Aspose.Cells API'sını kullanarak bir çalışma sayfasını farklı resim ve yazdır seçenekleriyle bir resme dönüştürmeyi ve bunu birkaç basit satır kodla gerçekleştirmeyi gösteriyor.
 
- içe aktarmanız gerekiyor[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering)programınıza/projenize ad alanı. Birkaç değerli sınıfı vardır, örneğin,[**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**Çalışma KitabıRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)vesaire.
+Programınıza/projenize [**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering) ad alanını eklemeniz gerekecektir. [**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender) vb. gibi birçok değerli sınıfı bulunmaktadır.
 
-bu[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class, çalışma sayfası için görüntüleri işlemek üzere bir çalışma sayfasını temsil eder, aşırı yüklenmiş[**Hayal etmek**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)bir çalışma sayfasını, istediğiniz nitelikler veya seçeneklerle belirtilen görüntü dosya(lar)ına doğrudan dönüştürebilen yöntem. System.Drawing.Bitmap nesnesini döndürebilir ve bir görüntü dosyasını diske/akışa kaydedebilirsiniz. Desteklenen birkaç resim formatı vardır, örneğin BMP, PNG, GIFF, JPEG, TIFF, EMF vb.
+[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) sınıfı, çalışma sayfası için resimleri oluşturmak için temsil eder, istenen öznitelikler veya seçenekler belirtilmiş çalışma sayfasını doğrudan resim dosyasına dönüştürebilen aşırı yüklenmiş [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index) yöntemine sahiptir. System.Drawing.Bitmap nesnesi döndürebilir ve bir resim dosyasını disk/akışa kaydedebilirsiniz. BMP, PNG, GIFF, JPG, JPEG, TIFF, EMF ve diğerleri gibi birçok resim formatı desteklenmektedir.
 
-##  **ImageOrPrint seçeneklerini kullanarak Çalışma Sayfasını Görüntüye Dönüştürmek için Aspose.Cells'i kullanma.**
+## **Aspose.Cells'ı Kullanarak Resme Dönüştürme İçin Resim veya Yazdır Seçeneklerini Kullanma**
 
-###  **Microsoft Excel'de şablon çalışma kitabı oluşturma**
+### **Microsoft Excel'de şablon çalışma kitabı oluşturma**
 
-MS Excel'de yeni bir çalışma kitabı oluşturdum ve ilk çalışma sayfasına bazı veriler ekledim. Şimdi şablon dosyasının “Sheet1” çalışma sayfasını “SheetImage.tiff” imaj dosyasına çevireceğim ve yatay ve dikey çözünürlükler, TiffCompression vb. farklı resim seçeneklerini uygulayacağım.
+MS Excel'de yeni bir çalışma kitabı oluşturdum ve ilk çalışma sayfasına bazı veriler ekledim. Şimdi, şablon dosyasının "Sheet1" adlı çalışma sayfasını "SheetImage.tiff" adlı bir görüntü dosyasına dönüştüreceğim ve yatay ve dikey çözünürlük, TiffCompression vb. gibi farklı görüntü seçenekleri uygulayacağım.
 
-###  **İndirin ve yükleyin Aspose.Cells**
+### **Aspose.Cells'i İndirin ve Yükleyin**
 
- Öncelikle yapmanız gerekenler[indirmek](https://downloads.aspose.com/cells/net) .Net için Aspose.Cells. Geliştirme bilgisayarınıza kurun. Tüm[Aspose](http://www.aspose.com/)bileşenler kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun zaman sınırı yoktur ve yalnızca üretilen belgelere filigran ekler.
+Öncelikle, .Net için [Aspose.Cells'i](https://downloads.aspose.com/cells/net) indirmeniz gerekmektedir. Geliştirme bilgisayarınıza kurun. Tüm [Aspose](http://www.aspose.com/) bileşenleri, kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun bir süre sınırlaması yoktur ve yalnızca üretilen belgelere filigranlar enjekte eder.
 
-###  **Proje Oluştur**
+### **Bir Proje Oluşturun**
 
-Visual Studio'yu başlatın. Net ve yeni bir konsol uygulaması oluşturun. Bu örnek, bir C# konsol uygulamasını gösterecektir, ancak VB.NET'i de kullanabilirsiniz.
+Visual Studio. Net'i başlatın ve yeni bir konsol uygulaması oluşturun. Bu örnek bir C# konsol uygulaması gösterecektir, ancak VB.NET'i de kullanabilirsiniz.
 
-###  **Referans Ekle**
+### **Referanslar Ekle**
 
-Bu proje Aspose.Cells'i kullanacaktır. Bu nedenle, projenize Aspose.Cells bileşenine referans eklemelisiniz. Örneğin, ….\Program Files\Aspose\Aspose.Cells for .NET\Bin\Net1.0\Aspose.Cells.dll dosyasına bir başvuru ekleyin.
+Bu proje Aspose.Cells'i kullanacaktır. Bu nedenle, projenize Aspose.Cells bileşenine referans eklemeniz gerekmektedir. Örneğin, ….\Program Files\Aspose\Aspose.Cells for .NET\Bin\Net1.0\Aspose.Cells.dll'ye bir referans ekleyin.
 
-###  **Çalışma Sayfasını bir Görüntü dosyasına dönüştürün**
+### **Çalışma Sayfasını Bir Görüntü Dosyasına Dönüştürme**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-WorksheetToAnImage-1.cs" >}}
 
-##  **Dönüşüm Seçenekleri**
+## **Dönüşüm Seçenekleri**
 
-Görüntüye belirli sayfaları kaydetmek mümkündür. Aşağıdaki kod, bir çalışma kitabındaki birinci ve ikinci çalışma sayfalarını JPG resimlerine dönüştürür.
+Belirli sayfaları resme kaydetmek mümkündür. Aşağıdaki kod, bir çalışma kitabındaki ilk ve ikinci çalışsayılarını JPG resimlerine dönüştürür.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-SpecificPagesToImage-1.cs" >}}
 
-##  **WorkbookRender kullanarak görüntü dönüştürme**
+## **WorkbookRender kullanarak Görüntü dönüşümü**
 
-Bir TIFF görüntüsü birden fazla çerçeve içerebilir. Tüm çalışma kitabını birden fazla çerçeve veya sayfa içeren tek bir TIFF görüntüsüne kaydedebilirsiniz:
+Bir TIFF görüntüsü birden fazla çerçeve içerebilir. Tüm çalışma kitabını tek bir TIFF görüntüsüne çoğaltılmış çerçeveler veya sayfalarla kaydedebilirsiniz:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-UseWorkbookRenderForImageConversion-1.cs" >}}
 

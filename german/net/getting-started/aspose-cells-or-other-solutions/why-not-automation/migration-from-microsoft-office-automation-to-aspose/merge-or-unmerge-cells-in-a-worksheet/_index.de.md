@@ -1,12 +1,13 @@
-﻿---
-title: Cells in einem Arbeitsblatt zusammenführen oder Zusammenführung aufheben
+---
+title: Zusammenführen oder Aufteilen von Zellen in einem Arbeitsblatt
 type: docs
 weight: 40
 url: /de/net/merge-or-unmerge-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Beim Arbeiten mit Arbeitsblättern müssen Sie häufig einen Titel / eine Überschrift in einer einzelnen Zelle erstellen, die sich über den oberen Rand Ihres Arbeitsblatts erstreckt. Möglicherweise erstellen Sie eine Rechnung und möchten weniger Spalten für die Gesamt- oder Zusammenfassungswerte. Wenn Sie aus zwei oder mehr Zellen eine Zelle machen möchten, führen Sie die Zellen zusammen. Wir führen die Aufgabe mit VSTO und Aspose.Cells for .NET selbstständig durch.
+Beim Arbeiten mit Arbeitsblättern müssen Sie häufig einen Titel/Überschrift in einer einzelnen Zelle erstellen, der über dem Arbeitsblatt steht. Möglicherweise erstellen Sie eine Rechnung und möchten weniger Spalten für die Gesamt- oder Zusammenfassungswerte. Wenn Sie eine Zelle aus zwei oder mehr Zellen erstellen möchten, müssen Sie die Zellen zusammenführen. Wir führen die Aufgabe unabhängig mit VSTO und Aspose.Cells for .NET durch.
 
 {{% /alert %}}
 
@@ -14,15 +15,15 @@ Beim Arbeiten mit Arbeitsblättern müssen Sie häufig einen Titel / eine Übers
 
 Öffnen Sie eine vorhandene Excel-Datei, führen Sie einige Zellen im ersten Arbeitsblatt in der Arbeitsmappe zusammen und speichern Sie die Excel-Datei.
 
-## **Cells zusammenführen**
+## **Zellen zusammenführen**
 
-Es folgen die parallelen Codeausschnitte für VSTO (C#, VB) und Aspose.Cells for .NET (C#, VB).
+Im Folgenden finden Sie parallele Code-Schnipsel für VSTO (C#, VB) und Aspose.Cells for .NET (C#, VB).
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -86,7 +87,7 @@ excelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -122,15 +123,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **Zusammenführung der Cells aufheben**
+## **Aufteilen der Zellen**
 
-Verwenden Sie zum Aufheben der Zusammenführung der Zelle(n) die folgenden Codezeilen für VSTO (C#, VB) und Aspose.Cells for .NET (C#, VB).
+Um die Zelle(n) aufzuteilen, verwenden Sie die folgenden Codezeilen für VSTO (C#, VB) und Aspose.Cells for .NET (C#, VB).
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 
@@ -148,7 +149,7 @@ rng1.UnMerge();     
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 

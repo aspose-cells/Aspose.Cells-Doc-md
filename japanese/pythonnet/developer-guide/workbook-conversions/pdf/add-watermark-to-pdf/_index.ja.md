@@ -1,22 +1,23 @@
 ---
-title: PDF に透かしを追加
+title: PDFに透かしを追加する
 type: docs
 weight: 9
 url: /ja/python-net/add-watermark-to-pdf/
-description: Aspose.Cells for Python via .NET API を使用して PDF に透かしを追加する方法を学びます。
-keywords: Python add watermark to pdf, add watermark to pdf Pyton via NET, insert watermark to pdf
+description: Aspose.Cells for Python via .NET APIを使用したPDFへの透かしの追加方法。
+keywords: PythonでPDFに透かしを追加する、PythonでPDFに透かしを追加するvia NET、PDFに透かしを挿入する。
 ---
-Excel ファイルを PDF に変換する際、PDF ファイルに透かしを追加する必要がある場合があります。次の例は、PDF へのレンダリング中に PDF にテキストと画像の透かしを追加する方法を示しています。
 
-##   **PDF にテキストの透かしを追加**
+ExcelファイルをPDFに変換する際、PDFファイルに透かしを追加する要件がある場合があります。次の例では、PDFに変換する際にテキストや画像の透かしを追加する方法が示されています。
 
-テキストと対応するフォントを指定することで、PDF にテキストの透かしを簡単に追加できます。また、配置、オフセット、回転、不透明度、前景/背景、ページのスケールを設定することもできます。[レンダリング透かし](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
+## **PDFにテキスト透かしを追加する**
+
+対応するテキストとフォントを指定して、簡単にPDFにテキスト透かしを追加できます。また、[RenderingWatermark](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/)で配置、オフセット、回転、不透明度、前景色/背景色、およびページへのスケールを設定できます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddTextWatermarkToPdf.py" >}}
 
-##  **画像の透かしを PDF に追加**
+## **PDFに画像透かしを追加する**
 
-画像の画像バイトを指定するだけで、PDF に画像の透かしを追加できます。また、配置、オフセット、回転、不透明度、前景/背景、ページのスケールを設定することもできます。[レンダリング透かし](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
+対応する画像バイトを指定するだけで、簡単にPDFに画像透かしを追加できます。また、[RenderingWatermark](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/)で配置、オフセット、回転、不透明度、前景色/背景色、およびページへのスケールを設定できます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddImageWatermarkToPdf.py" >}}
 

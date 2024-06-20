@@ -1,27 +1,28 @@
 ---
-title: PivotTable'ın PivotField'ının DisplayName'ine göre Cell nesnesini alın
+title: PivotTablo alanının GörünenAdı ile Hücre nesnesini alın
 type: docs
 weight: 70
 url: /tr/python-net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/
-description: Cell nesnesi, PivotTable'ın PivotField'ının DisplayName'i ile Aspose.Cells for Python via .NET ile nasıl alınır.
-keywords: Get the Cell object by DisplayName of PivotField of PivotTable.
+description: Aspose.Cells for Python via .NET ile PivotTablosunun PivotAlanı nın DisplayName ine göre Hücre nesnesini alma
+keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, Aspose.Cells for Python Excel Kütüphanesi Kullanarak PivotTablosunun PivotAlanı nın DisplayName ine göre Hücre nesnesini alma
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for Python via .NET sağlar[**PivotTable.get_cell_by_display_name(görünen_adı)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/get_cell_by_display_name/#str) Pivot alanının görünen adına göre hücre nesnesine erişmek için kullanabileceğiniz yöntem. Bu yöntem, pivot alan başlığınızı vurgulamak veya biçimlendirmek istediğinizde kullanışlıdır. Bu makalede, hücre nesnesinin veri alanının görünen adına göre nasıl alınacağı ve ardından ona biçimlendirmenin nasıl uygulanacağı açıklanmaktadır.
+Aspose.Cells for Python via .NET, pivot alanının görüntü adıyla hücre nesnesine erişebileceğiniz bir yöntem sunar. Bu yöntem, pivot alanını vurgulamak veya biçimlendirmek istediğinizde kullanışlıdır. Bu makale, pivot alanının görüntü adını alarak hücre nesnesini nasıl alacağınızı ve ardından bu nesneye biçimlendirme uygulayacağınızı açıklar.
 
 {{% /alert %}}
 
-##  **PivotTable'ın PivotField'ının DisplayName'ine göre Cell nesnesini alın**
+## **PivotTablosunun PivotAlanı'nın DisplayName'ine göre Hücre nesnesini alma yöntemi**
 
-Aşağıdaki kod, çalışma sayfasının ilk pivot tablosuna erişir ve ardından pivot tablonun ikinci veri alanının görünen adına göre hücreyi alır. Daha sonra hücrenin dolgu rengini ve yazı tipi rengini sırasıyla açık mavi ve siyah olarak değiştirir. Aşağıdaki ekran görüntüleri, pivot tablonun kodun yürütülmesinden önce ve sonra nasıl göründüğünü göstermektedir.
+Aşağıdaki kod, çalışma kitabının ilk pivot tablosuna erişir ve ardından pivot tablosunun ikinci veri alanının görüntü adıyla hücreyi alır. Daha sonra hücrenin dolum rengini açık mavi, yazı tipi rengini ise siyah olarak değiştirir. Aşağıdaki ekran görüntüleri, kodun yürütülmeden önce ve sonra pivot tablosunun nasıl göründüğünü göstermektedir.
 
-|**Pivot Tablo - Önce**|
+|**Pivot Tablosu - Önce**|
 | :- |
-|![yapılacak şey:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)|
+|![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)|
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-GetCellByDisplayName-GetCellObjectByDisplayName.py" >}}
 
-|**Pivot Tablo - Sonra**|
+|**Pivot Tablosu - Sonra**|
 | :- |
-|![yapılacak şey:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+|![todo:image_alt_text](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|

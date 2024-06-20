@@ -1,38 +1,39 @@
-﻿---
-title: Показать или скрыть заголовки столбцов строк в Aspose.Cells
+---
+title: Отображение или скрытие заголовков строк и столбцов в Aspose.Cells
 type: docs
 weight: 60
 url: /ru/net/display-or-hide-row-column-headers-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Все рабочие листы в файле Excel состоят из ячеек, расположенных в строках и столбцах. Все строки и столбцы имеют уникальные значения, которые используются для их идентификации и идентификации отдельных ячеек. Например, строки пронумерованы — 1, 2, 3, 4 и т. д. — а столбцы упорядочены в алфавитном порядке — A, B, C, D и т. д. Значения строк и столбцов отображаются в заголовках. Используя Aspose.Cells, разработчики могут контролировать видимость этих заголовков строк и столбцов.
+Все листы в файле Excel состоят из ячеек, которые располагаются в строках и столбцах. Все строки и столбцы имеют уникальные значения, которые используются для их идентификации и для идентификации отдельных ячеек. Например, строки пронумерованы – 1, 2, 3, 4 и т. д., а столбцы упорядочены по алфавиту – A, B, C, D и т. д. Значения строк и столбцов отображаются в заголовках. С помощью Aspose.Cells разработчики могут контролировать видимость этих заголовков строк и столбцов.
 
 {{% /alert %}}
 
-## **Управление видимостью рабочих листов**
+## **Управление видимостью листов**
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel.
+Aspose.Cells предоставляет класс, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), который представляет собой файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) содержит коллекцию [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets), позволяющую получить доступ к каждому листу в файле Excel.
 
- Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Класс предоставляет широкий спектр свойств и методов для управления рабочими листами. Чтобы управлять видимостью заголовков строк и столбцов, используйте[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс'[**Исровколумнхедерсвидибле**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) имущество.[**Исровколумнхедерсвидибле**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) является логическим свойством, что означает, что оно может хранить только**истинный** или же**ЛОЖЬ** стоимость.
+Лист представляется классом [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) предоставляет широкий спектр свойств и методов для управления листами. Для управления видимостью заголовков строк и столбцов используйте свойство [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) класса [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) - булево свойство, что означает, что оно может хранить только значение **true** или **false**.
 
- Ниже приведен полный пример, который показывает, как использовать[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс'[**Исровколумнхедерсвидибле**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) свойство, чтобы скрыть заголовки строк и столбцов на первом рабочем листе в файле.
+Ниже приведен полный пример, показывающий, как использовать свойство [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) класса [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) для скрытия заголовков строк и столбцов на первом листе файла.
 
-На снимке экрана показан входной файл Book1.xls. Он содержит три рабочих листа: Лист1, Лист2 и Лист3. Каждый рабочий лист показывает заголовки строк и столбцов.
+На скриншоте показан файл Book1.xls, входной файл. Он содержит три листа: Sheet1, Sheet2 и Sheet3. Каждый лист показывает заголовки строк и столбцов.
 
-**Book1.xls: рабочий лист до изменения**
+**Book1.xls: лист перед внесением изменений**
 
-![дело:изображение_альтернативный_текст](display-or-hide-row-column-headers-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-row-column-headers-in-aspose-cells_1.png)
 
-Book1.xls открывается путем вызова метода Open класса Workbook, а заголовки строк и столбцов на первом рабочем листе скрыты. Измененный файл сохраняется как output.xls.
+Файл Book1.xls открыт с помощью вызова метода Open класса Workbook, и заголовки строк и столбцов на первом листе скрыты. Измененный файл сохраняется как output.xls.
 
-**Output.xls: рабочий лист после модификации** 
+**output.xls: лист после внесения изменений** 
 
-![дело:изображение_альтернативный_текст](display-or-hide-row-column-headers-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-row-column-headers-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -62,8 +63,8 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Row%20Column%20Headers)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Row%20Column%20Headers)
 
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

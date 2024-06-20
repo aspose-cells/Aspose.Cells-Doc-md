@@ -1,15 +1,16 @@
-﻿---
-title: Php'de bir Çalışma Sayfasının korumasını kaldırın
+---
+title: PHP de Bir Çalışsayıyı Korumayı Kaldırma
 type: docs
 weight: 20
 url: /tr/java/unprotect-a-worksheet-in-php/
 ---
-## **Aspose.Cells - Bir Çalışma Sayfasının korumasını kaldırın**
- Çalışma sayfasını kullanarak korumak için**Aspose.Cells Java for PHP** , Arama**unprotect_worksheet** yöntemi**koruma** modül.
 
-**PHP Kodu**
+## **Aspose.Cells - Bir Çalışma Sayfasının Korumasını Kaldırma**
+**Aspose.Cells Java for PHP** kullanarak çalışsayıyı korumak için **protection** modülünün **unprotect_worksheet** yöntemini çağırın.
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
  $filesFormatType = new FileFormatType();
 
@@ -33,6 +34,6 @@ $workbook->save($dataDir . "output.xls", $filesFormatType->EXCEL_97_TO_2003); 
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Bir Çalışma Sayfasının korumasını kaldırın (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Bir Çalışma Sayfasını Korumasız Bırakma (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/UnprotectingPasswordProtectedWorksheet.php)

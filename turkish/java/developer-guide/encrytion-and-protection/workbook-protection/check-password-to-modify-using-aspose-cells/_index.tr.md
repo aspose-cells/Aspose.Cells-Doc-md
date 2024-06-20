@@ -1,30 +1,31 @@
-﻿---
-title: Aspose.Cells kullanarak değiştirmek için Parolayı kontrol edin
+---
+title: Aspose.Cells Kullanarak Değiştirme Şifresini Kontrol Etme
 type: docs
 weight: 190
 url: /tr/java/check-password-to-modify-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- atayabilirsiniz**açmak için şifre** ve bir**Değiştirilecek şifre** Microsoft Excel'de çalışma kitaplarınızı oluştururken. Lütfen Microsoft Excel'in bu şifreleri belirtmek için sağladığı arayüzü gösteren bu ekran görüntüsüne bakın.
+Microsoft Excel'de çalışma kitaplarını oluştururken **Açmak için Parola** ve **Değiştirmek için Parola** atayabilirsiniz. Bu parolaları belirtmek için Microsoft Excel'in sağladığı arayüzü gösteren bu ekran görüntüsüne bakınız.
 
-![yapılacaklar:resim_alternatif_metin](check-password-to-modify-using-aspose-cells_1.png)
+![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
- Bazen, verilen şifrenin şifreyle eşleşip eşleşmediğini kontrol etmeniz gerekir.**Değiştirilecek şifre** programlı olarak. Aspose.Cells sağlar[**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)) değiştirmek için verilen şifrenin doğru olup olmadığını kontrol etmek için kullanabileceğiniz yöntem.
+Bazen, verilen parolanın **Değiştirmek için Parola** ile eşleşip eşleşmediğini programlı olarak kontrol etmeniz gerekebilir. Aspose.Cells, verilen parolanın doğru olup olmadığını kontrol etmek için [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)) yöntemini sağlar.
 
 {{% /alert %}}
 
-## Java kodunu kontrol etmek için Şifre Aspose.Cells kullanılarak değiştirilecek
+## Aspose.Cells kullanarak Değiştirmek için Parolayı kontrol etmek için Java kodu
 
- Aşağıdaki örnek kodlar,[kaynak Excel](5473057.xlsx) dosya. Olarak açmak için bir şifresi var*1234* ve değiştirmek için şifre*5678* . Kod ilk önce olup olmadığını kontrol eder*567* değiştirilecek doğru paroladır ve geri döner**YANLIŞ** ve sonra olup olmadığını kontrol eder*5678* değiştirilecek şifredir ve geri döner**doğru**.
+Aşağıdaki örnek kodlar [kaynak Excel](5473057.xlsx) dosyasını yükler. Bu dosyanın açmak için parolası *1234* ve değiştirmek için parolası *5678* vardır. Kod önce *567* 'nin doğru parola olup olmadığını kontrol eder ve **false** döndürür ve ardından *5678* 'nin parola olup olmadığını kontrol eder ve **true** döndürür.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckPassword-CheckPassword.java" >}}
 
-## Java kodu tarafından oluşturulan Konsol Çıktısı
+## Aspose.Cells tarafından oluşturulan Java kodu tarafından oluşturulan Konsol Çıktısı
 
- Yükledikten sonra yukarıdaki örnek kodun Konsol Çıktısı:[kaynak Excel](5473057.xlsx) dosya.
+Yukarıdaki örnek kodun [kaynak Excel](5473057.xlsx) dosyasını yükledikten sonra Konsol Çıktısı
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is 567 correct Password to modify: false
 

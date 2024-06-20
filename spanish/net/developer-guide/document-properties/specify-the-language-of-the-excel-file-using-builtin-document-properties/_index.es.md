@@ -1,18 +1,19 @@
-﻿---
-title: Especifique el idioma del archivo de Excel usando las propiedades del documento incorporado
+---
+title: Especificar el idioma del archivo de Excel usando las propiedades de documento integradas
 type: docs
 weight: 30
 url: /es/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/
 ---
-## **Posibles escenarios de uso**
 
-Puede cambiar el idioma del archivo de Excel haciendo clic con el botón derecho en el archivo y luego seleccionando Propiedades > Detalles y luego editando el campo Idioma. Por favor use[**BuiltInDocumentPropertyCollection.Idioma**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)property para cambiarla mediante programación usando las API Aspose.Cells.
+## **Escenarios de uso posibles**
 
-## **Especifique el idioma del archivo de Excel usando las propiedades del documento incorporado**
+Puede cambiar el idioma del archivo de Excel haciendo clic derecho en el archivo y luego seleccionando Propiedades > Detalles y luego editando el campo de idioma. Utilice la propiedad [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language) para cambiarlo programáticamente mediante las API de Aspose.Cells.
 
- El siguiente código de ejemplo crea un libro de trabajo y cambia su propiedad de documento integrada denominada Idioma. Por favor vea el[archivo de salida de Excel](64716891.xlsx) generado por el código y captura de pantalla que muestra el campo Idioma modificado por[**BuiltInDocumentPropertyCollection.Idioma**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)propiedad.
+## **Especificar el idioma del archivo de Excel mediante propiedades de documento integradas**
 
-![todo:imagen_alternativa_texto](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+El siguiente código de ejemplo crea un libro y cambia su propiedad integrada del documento llamada Idioma. Consulte el [archivo de Excel de salida](64716891.xlsx) generado por el código y la captura de pantalla que muestra el campo de idioma modificado por la propiedad [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language).
+
+![todo:image_alt_text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 
 ## **Código de muestra**
 

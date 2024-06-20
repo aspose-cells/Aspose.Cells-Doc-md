@@ -1,14 +1,15 @@
-﻿---
-title: Konvertieren Sie Excel in HTML mit Überschriften
+---
+title: Excel in HTML mit Überschriften konvertieren
 type: docs
 weight: 10
 url: /de/python-java/convert-excel-to-html-with-headings/
 ---
-## **Konvertieren Sie Excel in HTML mit Überschriften**
-Aspose.Cells bietet die Option, Zeilen- und Spaltenüberschriften zu exportieren, während Excel in HTML konvertiert wird. Dies kann mit erreicht werden[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings)Eigenschaft, die von API bereitgestellt wird. Der Standardwert von[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) ist**FALSCH** . Passieren**Wahr** als Parameter zum Rendern von Überschriften in der Ausgabedatei HTML. Das folgende Bild zeigt die vom folgenden Code generierte Ausgabedatei.
 
-![todo: Bild_alt_Text](PrintHeadings.jpg)
+## **Excel in HTML mit Überschriften konvertieren**
+Aspose.Cells bietet die Möglichkeit, Zeilen- und Spaltenüberschriften beim Konvertieren von Excel nach HTML zu exportieren. Dies kann erreicht werden, indem die Eigenschaft [HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) verwendet wird, die von der API bereitgestellt wird. Der Standardwert von [HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) ist **False**. Geben Sie **True** als Parameter ein, um die Überschriften in der Ausgabedatei als HTML zu rendern. Das folgende Bild zeigt die Ausgabedatei, die durch den folgenden Code generiert wurde.
 
-Der folgende Beispielcode veranschaulicht die Verwendung von[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings)-Eigenschaft zum Rendern von Überschriften in der Ausgabedatei HTML.
+![todo:image_alt_text](PrintHeadings.jpg)
+
+Der folgende Beispielcode demonstriert die Verwendung der Eigenschaft [HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings), um die Überschriften in der Ausgabedatei als HTML zu rendern.
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-GetHTML5StringFromCell.py" >}}

@@ -1,16 +1,17 @@
-﻿---
-title: Deaktivieren Sie den Export von Rahmenskripten und Dokumenteigenschaften
+---
+title: Deaktivieren des Exportierens von Rahmen Skripten und Dokumenteigenschaften
 type: docs
 weight: 410
 url: /de/java/disable-exporting-frame-scripts-and-document-properties/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells exportiert Rahmenskripte und Dokumenteigenschaften beim Konvertieren einer Arbeitsmappe in HTML. Die Version 8.6.0 von Aspose.Cells for Java führt eine Option ein, mit der Sie optional den Export von Rahmenskripten und Dokumenteigenschaften deaktivieren können. Bitte verwenden Sie die[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) -Eigenschaft, um den Export zu deaktivieren.
+Aspose.Cells exportiert Rahmen-Skripte und Dokumenteigenschaften beim Konvertieren einer Arbeitsmappe in HTML. Die Version 8.6.0 von Aspose.Cells for Java führt eine Option ein, die es ermöglicht, das Exportieren von Rahmen-Skripten und Dokumenteigenschaften optional zu deaktivieren. Bitte verwenden Sie die [HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) Eigenschaft, um den Export zu deaktivieren.
 
 {{% /alert %}} 
-## **Deaktivieren Sie den Export von Rahmenskripten und Dokumenteigenschaften**
-Mit dem folgenden Beispielcode können Sie das Exportieren von Rahmenskripten und Dokumenteigenschaften deaktivieren. Nachdem Sie eine Arbeitsmappe in HTML konvertiert haben, enthält die Ausgabedatei keine Rahmenskripts und Dokumenteigenschaften.
+## **Deaktivieren des Exports von Rahmen-Skripten und Dokumenteigenschaften**
+Der folgende Beispielcode ermöglicht es Ihnen, den Export von Rahmen-Skripten und Dokumenteigenschaften zu deaktivieren. Nach der Konvertierung einer Arbeitsmappe in HTML enthält die Ausgabedatei keine Rahmen-Skripte und Dokumenteigenschaften.
 
 Hier ist ein Beispielcode.
 

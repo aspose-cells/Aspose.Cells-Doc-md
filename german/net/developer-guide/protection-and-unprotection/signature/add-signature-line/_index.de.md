@@ -1,22 +1,22 @@
-﻿---
-title: Signaturzeile zum Arbeitsblatt hinzufügen
+---
+title: Fügen Sie eine Signaturlinie zum Arbeitsblatt hinzu
 type: docs
 weight: 200
 url: /de/net/add-signature-line/
+description: In diesem Artikel wird beschrieben, wie man mit C# Codes und Aspose.Cells für .NET eine Signaturlinie im Arbeitsblatt hinzufügt.
+keywords: Signaturlinie im Arbeitsblatt hinzufügen, Wie fügt man eine Signaturlinie im Arbeitsblatt hinzu, Wie fügt man eine Signaturlinie zum Arbeitsblatt hinzu, Wie fügt man die Signaturlinie zum Arbeitsblatt hinzu.
 ---
-## **Mögliche Nutzungsszenarien**
 
-{{% alert color="primary" %}}
+## **Einführung**
 
- Aspose.Cells bietet die[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) -Eigenschaft, um die Signaturzeile des Arbeitsblatts hinzuzufügen.
+Aspose.Cells stellt die Eigenschaft [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) bereit, um die Signaturlinie des Arbeitsblatts hinzuzufügen.
 
-{{% /alert %}}
 
-## **Signaturzeile zum Arbeitsblatt hinzufügen**
+## **Wie fügt man eine Signaturlinie zum Arbeitsblatt hinzu**
 
- Der folgende Beispielcode demonstriert die Verwendung von[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)-Eigenschaft, um die Signaturzeile des Arbeitsblatts hinzuzufügen. Der Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispiel-Excel-Datei nach der Ausführung.
+Der folgende Beispielcode zeigt, wie die Eigenschaft [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) verwendet wird, um dem Arbeitsblatt eine Signaturlinie hinzuzufügen. Der Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispiel-Excel-Datei nach der Ausführung.
 
-![todo: Bild_alt_Text](add-signature-line.png)
+![todo:image_alt_text](add-signature-line.png)
 
 ## **Beispielcode**
 

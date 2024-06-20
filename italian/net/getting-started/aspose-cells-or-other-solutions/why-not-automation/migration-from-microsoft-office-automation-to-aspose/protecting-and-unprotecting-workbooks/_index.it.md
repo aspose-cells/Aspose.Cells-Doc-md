@@ -1,28 +1,29 @@
-﻿---
-title: Protezione e rimozione della protezione delle cartelle di lavoro
+---
+title: Protezione e rimozione della protezione dei file di lavoro
 type: docs
 weight: 20
 url: /it/net/protecting-and-unprotecting-workbooks/
 ---
+
 {{% alert color="primary" %}} 
 
-Per impedire a qualcuno di modificare, spostare o eliminare accidentalmente o deliberatamente i fogli di lavoro, è possibile proteggere gli elementi della cartella di lavoro con o senza password. Per proteggere la struttura di una cartella di lavoro in modo che i fogli di lavoro nella cartella di lavoro non possano essere spostati, eliminati, nascosti, scoperti o rinominati e non possano essere inseriti nuovi fogli di lavoro, specificare ProtectionType come Structure.
+Per impedire a qualcuno di modificare, spostare o eliminare accidentalmente o deliberatamente i fogli di lavoro, è possibile proteggere gli elementi del libro con o senza una password. Per proteggere la struttura di un libro in modo che i fogli di lavoro nel libro non possano essere spostati, eliminati, nascosti, resi visibili o rinominati e nuovi fogli di lavoro non possano essere inseriti, specificare il tipo di protezione come Struttura.
 
- Per proteggere Windows in modo che abbiano le stesse dimensioni e posizione ogni volta che viene aperta la cartella di lavoro, specificare il ProtectionType come Windows. In questo articolo viene mostrato come[proteggere](/cells/it/net/protecting-and-unprotecting-workbooks/) e[Non protetto](/cells/it/net/protecting-and-unprotecting-workbooks/) cartelle di lavoro che utilizzano VSTO e Aspose.Cells for .NET per confrontare i due metodi.
+Per proteggere le finestre in modo che siano delle stesse dimensioni e posizione ogni volta che il libro viene aperto, specificare il tipo di protezione come Finestre. In questo articolo, mostriamo come [proteggere](/cells/it/net/protecting-and-unprotecting-workbooks/) e [sbloccare](/cells/it/net/protecting-and-unprotecting-workbooks/) i libri utilizzando VSTO e Aspose.Cells for .NET per consentirti di confrontare i due metodi.
 
-Aspose.Cells funziona indipendentemente da Microsoft Office Automation ed è sviluppato per essere facile da usare e produrre codice pulito.
+Aspose.Cells funziona indipendentemente dall'automazione di Microsoft Office ed è sviluppato per essere facile da usare e produrre del codice pulito.
 
-La protezione di una cartella di lavoro non impedisce agli utenti di modificare le celle. Per proteggere i dati, è necessario proteggere i fogli di lavoro.
+Proteggere un libro non impedisce agli utenti di modificare le celle. Per proteggere i dati, è necessario proteggere i fogli di lavoro.
 
 {{% /alert %}} 
-## **Protezione di una cartella di lavoro**
-Per aprire un file Excel Microsoft esistente, proteggere la cartella di lavoro con la struttura e gli attributi Windows e salvare il file.
+## **Proteggere un Libro**
+Per aprire un file esistente di Microsoft Excel, proteggere il libro con attributi di struttura e finestre e salvare il file.
 
-Di seguito sono riportati frammenti di codice paralleli per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB) che mostrano come proteggere una cartella di lavoro.
+Di seguito sono riportati frammenti di codice paralleli per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB) che mostrano come proteggere un libro.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -80,7 +81,7 @@ excelApp.Quit();
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -110,12 +111,12 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 
 {{< /highlight >}}
-## **Rimozione della protezione di una cartella di lavoro**
-Per rimuovere la protezione di una cartella di lavoro, utilizzare le seguenti righe di codice per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB).
+## **Sbloccare un Libro**
+Per sbloccare un libro, utilizzare le seguenti righe di codice per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB).
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 
@@ -129,7 +130,7 @@ excelApp.ActiveWorkbook.Unprotect("007");
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 

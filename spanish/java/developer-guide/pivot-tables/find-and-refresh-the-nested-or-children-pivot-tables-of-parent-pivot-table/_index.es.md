@@ -1,18 +1,19 @@
-﻿---
-title: Buscar y actualizar las tablas dinámicas anidadas o secundarias de la tabla dinámica principal
+---
+title: Encontrar y actualizar las tablas dinámicas anidadas o secundarias de la tabla dinámica principal
 type: docs
 weight: 50
 url: /es/java/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/
 ---
-## **Posibles escenarios de uso**
 
-A veces, una tabla dinámica utiliza otra tabla dinámica como fuente de datos, por lo que se denomina tabla dinámica secundaria o tabla dinámica anidada. Puede encontrar las tablas dinámicas secundarias de una tabla dinámica principal utilizando el[**Tabla dinámica.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren()) método.
+## **Escenarios de uso posibles**
 
-## **Buscar y actualizar las tablas dinámicas anidadas o secundarias de la tabla dinámica principal**
+A veces, una tabla dinámica utiliza otra tabla dinámica como origen de datos, por lo que se le llama tabla dinámica secundaria o tabla dinámica anidada. Puede encontrar las tablas dinámicas secundarias de una tabla dinámica principal utilizando el método [**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren--).
 
-El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](61767766.xlsx)que contiene tres tablas dinámicas. Las dos tablas dinámicas inferiores son las secundarias de la tabla dinámica anterior, como se muestra en esta captura de pantalla. El código encuentra la tabla dinámica de niños usando el[**Tabla dinámica.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren()) y luego los actualiza uno por uno.
+## **Encontrar y actualizar las tablas dinámicas anidadas o secundarias de la tabla dinámica principal**
 
-![todo:imagen_alternativa_texto](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
+El siguiente código de ejemplo carga el [archivo de Excel de ejemplo](61767766.xlsx) que contiene tres tablas dinámicas. Las dos tablas dinámicas inferiores son las secundarias de la tabla dinámica superior como se muestra en esta captura de pantalla. El código encuentra las tablas dinámicas secundarias utilizando el método [**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren--) y luego las actualiza una por una.
+
+![todo:image_alt_text](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
 
 ## **Código de muestra**
 

@@ -1,21 +1,22 @@
-﻿---
-title: Autofiltrera data i VSTO och Aspose.Cells
+---
+title: Automatfiltrera data i VSTO och Aspose.Cells
 type: docs
 weight: 50
 url: /sv/net/auto-filter-data-in-vsto-and-aspose-cells/
 ---
-Så här tillämpar du automatisk filtrering på en kolumn:
+
+För att tillämpa automatisk filtrering på en kolumn:
 
 1. Skapa en arbetsbok.
-1. Skaffa ett arbetsblad.
+1. Hämta ett arbetsblad.
 1. Lägg till exempeldata.
-1. Använd autofilter.
-1. Autopassa kolumner för att göra skärmen attraktiv.
+1. Tillämpa automatisk filtrering.
+1. Justera kolumnbredderna för att göra visningen attraktiv.
 1. Spara kalkylarket.
 
-Kodexemplen i den här artikeln visar hur du utför dessa steg med VSTO med antingen C# eller med Apose.Cells, igen med antingen C#.
+Kodexemplen i den här artikeln visar hur man utför dessa steg med VSTO med antingen C# eller med Apose.Cells, igen med antingen C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Excel.Application ExcelApp = Application;
 
@@ -29,27 +30,27 @@ Excel.Worksheet sheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Add data into A1 and B1 Cells as headers.
 
-sheet.Cells[1, 1]= "Product ID";
+sheet.Cells[1, 1] = "Product ID";
 
-sheet.Cells[1, 2]= "Product Name";
+sheet.Cells[1, 2] = "Product Name";
 
 //Add data into details cells.
 
-sheet.Cells[2, 1]= 1;
+sheet.Cells[2, 1] = 1;
 
-sheet.Cells[3, 1]= 2;
+sheet.Cells[3, 1] = 2;
 
-sheet.Cells[4, 1]= 3;
+sheet.Cells[4, 1] = 3;
 
-sheet.Cells[5, 1]= 4;
+sheet.Cells[5, 1] = 4;
 
-sheet.Cells[2, 2]= "Apples";
+sheet.Cells[2, 2] = "Apples";
 
-sheet.Cells[3, 2]= "Bananas";
+sheet.Cells[3, 2] = "Bananas";
 
-sheet.Cells[4, 2]= "Grapes";
+sheet.Cells[4, 2] = "Grapes";
 
-sheet.Cells[5, 2]= "Oranges";
+sheet.Cells[5, 2] = "Oranges";
 
 //Enable Auto-filter.
 
@@ -73,7 +74,7 @@ objBook.SaveCopyAs("vsto_autofilter.xlsx");
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -121,7 +122,7 @@ objBook.Save("aspose-cells_autofilter.xlsx");
 
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Auto.Filter.Data.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Auto%20Filter%20Data%20\(Aspose.Cells\).zip/download)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Auto%20Filter%20Data%20\(Aspose.Cells\).blixtlås)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Auto%20Filter%20Data%20\(Aspose.Cells\).zip)

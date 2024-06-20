@@ -1,23 +1,24 @@
-﻿---
+---
 title: Создание именованного диапазона в VSTO и Aspose.Cells
 type: docs
 weight: 90
 url: /ru/net/creating-a-named-range-in-vsto-and-aspose-cells/
 ---
-Чтобы создать именованный диапазон:
 
-1.  Настройте рабочий лист:
- 1. Создайте экземпляр объекта приложения (только VSTO).
- 1. Добавьте рабочую книгу.
- 1. Получите первый лист.
-1.  Создайте именованный диапазон:
- 1. Определите диапазон.
- 1. Назовите диапазон.
- 1. Сохраните файл.
+Для создания именованного диапазона:
 
-В приведенных ниже примерах кода показано, как выполнить эти шаги с помощью VSTO с любым из C#. В следующих примерах кода показано, как сделать то же самое с помощью Aspose.Cells for .NET, снова с любым из C#.
-## **ВСТО**
-{{< highlight "csharp" >}}
+1. Настройте лист: 
+   1. Создать объект приложения.(только VSTO.)
+   1. Добавить книгу.
+   1. Получить первый лист.
+1. Создать именованный диапазон: 
+   1. Определить диапазон.
+   1. Дать диапазону имя.
+   1. Сохраните файл.
+
+Примеры кода ниже показывают, как выполнить эти шаги с помощью VSTO, либо на C#. Примеры кода, представленные далее, показывают, как сделать то же самое с использованием Aspose.Cells for .NET, также с использованием C#.
+## **VSTO**
+{{< highlight csharp >}}
 
  //Create Excel Object
 
@@ -63,25 +64,25 @@ xl.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Создание экземпляра объекта Workbook
+ //Instantiating a Workbook object
 
-Рабочая книга рабочая книга = новая рабочая книга();
+Workbook workbook = new Workbook();
 
-//Доступ к первому рабочему листу в файле Excel
+//Accessing the first worksheet in the Excel file
 
-Рабочий лист рабочего листа = рабочая книга.Рабочие листы[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Создание именованного диапазона
+//Creating a named range
 
-Диапазон диапазона = рабочий лист.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Установка имени именованного диапазона
+//Setting the name of the named range
 
-диапазон.Имя = "Тест_Диапазон";
+range.Name = "Test_Range";
 
- for (целая строка = 0; строка< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 
@@ -101,7 +102,7 @@ workbook.Save("Test_Range.xls");
 
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
-- [Источникфорж](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/скачать)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip)
+## **Загрузить образец кода**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip)

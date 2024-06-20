@@ -1,35 +1,36 @@
-﻿---
-title: Elektronik tabloları CSV biçimine dışa aktarırken Öndeki Boş Satırları ve Sütunları Kırp
+---
+title: CSV formatına yayılım tablolarını dışa aktarırken Önde Gelen Boş Satırları ve Sütunları Kırpmak
 type: docs
 weight: 100
 url: /tr/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Bazen, Excel veya CSV dosyanızın başında boş sütunlar veya satırlar olabilir. Örneğin, bu satırı düşünün
+Bazen, Excel veya CSV dosyanızın önde gelen boş sütunları veya satırları bulunur. Örneğin, şu satırı düşünün
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  ,,,data1,data2
 
 {{< /highlight >}}
 
-Burada ilk üç hücre veya sütun boştur. Böyle bir CSV dosyasını Microsoft Excel'de açtığınızda, Microsoft Excel bu önde gelen boş satırları ve sütunları atar.
+Burada ilk üç hücre veya sütun boştur. Bu tür bir CSV dosyasını Microsoft Excel'de açarsanız, Microsoft Excel bu önde gelen boş satırları ve sütunları atar.
 
- Varsayılan olarak, Aspose.Cells, kaydetme sırasında önde gelen boş sütunları ve satırları atmaz, ancak bunları tıpkı Microsoft Excel'in yaptığı gibi kaldırmak isterseniz, Aspose.Cells şunları sağlar:**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** Emlak. Lütfen şuna ayarlayın:**doğru**ve ardından tüm önde gelen boş satırlar ve sütunlar kaydedilirken atılacaktır.
+Varsayılan olarak, Aspose.Cells, kaydederken önde gelen boş sütunları ve satırları atmaz, ancak Microsoft Excel gibi onları kaldırmak istiyorsanız, Aspose.Cells [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) özelliğini sağlar. Lütfen onu **true** olarak ayarlayın ve tüm önde gelen boş satırlar ve sütunlar kaydederken atılacaktır.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET 20.4 sürümünden önce, varsayılan değer**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** öyleydi**YANLIŞ** . 20.4 sürümünden bu yana, varsayılan değer**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** dır-dir**doğru.**
+20.4 sürümünden önce Aspose.Cells for .NET'nin varsayılan değeri **false** idi. 20.4 sürümünden bu yana, [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) varsayılan değeri **false**. [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) Varsayılan değeri ise 20.4 sürümünden bu yana **true**.
 
 {{% /alert %}}
 
-## **Elektronik tabloları CSV biçimine dışa aktarırken Öndeki Boş Satırları ve Sütunları Kırp**
+## **CSV formatına elektronik tabloları dışa aktarırken Öneki Boş Satırları ve Sütunları Kırp**
 
- Aşağıdaki örnek kod,[kaynak excel dosyası](sampleTrimBlankColumns.xlsx) önde gelen iki boş sütunu olan. Excel dosyasını önce CSV formatında hiçbir değişiklik yapmadan kaydeder ve ardından ayarlar.**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** mülkiyet**doğru** ve tekrar kaydeder. Ekran görüntüsü[kaynak excel dosyası](sampleTrimBlankColumns.xlsx), [kırpma olmadan CSV dosyası çıktısı](outputWithoutTrimBlankColumns.csv), ve[kırpma ile çıktı CSV dosyası](outputTrimBlankColumns.csv).
+Aşağıdaki örnek kod, [örnek Excel dosyasını](sampleTrimBlankColumns.xlsx) yükler, iki önde gelen boş sütunu bulunan Excel dosyasını önce herhangi bir değişiklik yapmadan CSV formatında kaydeder ve sonra [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn) özelliğini **true** olarak ayarlar ve tekrar kaydeder. Ekran görüntüsü, [örnek Excel dosyası](sampleTrimBlankColumns.xlsx), önde gelen boş sütunları kırpmadan oluşturulan [çıktı CSV dosyası](outputWithoutTrimBlankColumns.csv) ve kırparak oluşturulan [çıktı CSV dosyası](outputTrimBlankColumns.csv)'ı gösterir.
 
-![yapılacaklar:resim_alternatif_metin](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
+![todo:image_alt_text](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-TrimLeadingBlankRowsAndColumnsWhileExportingSpreadsheetsToCSVFormat.cs" >}}

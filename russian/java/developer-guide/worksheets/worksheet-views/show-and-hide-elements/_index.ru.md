@@ -1,225 +1,226 @@
-﻿---
-title: Показать и скрыть элементы
+---
+title: Показ и скрытие элементов
 type: docs
 weight: 60
 url: /ru/java/show-and-hide-elements/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells позволяет пользователю отображать и скрывать элементы книги, включая рабочие листы, строки, столбцы, вкладки, полосы прокрутки, линии сетки,
+Aspose.Cells позволяет пользователю показывать и скрывать элементы книги, включая листы, строки, столбцы, вкладки, полосы прокрутки, линии сетки.
 
 {{% /alert %}}
 
-## **Показать и скрыть рабочий лист**
+## **Показать и скрыть лист**
 
- Файл Excel может иметь один или несколько рабочих листов. Всякий раз, когда мы создаем файл Excel, мы добавляем рабочие листы в файл Excel, в котором мы работаем. Каждый рабочий лист в файле Excel независим от другого рабочего листа, поскольку имеет свои собственные данные, настройки форматирования и т. д. Иногда разработчикам может потребоваться сделать несколько рабочих листов скрытыми, а другие видимыми в файле Excel для их собственных интересов. Так,**Aspose.Cells** позволяет разработчикам контролировать видимость рабочих листов в своих файлах Excel.
+Файл Excel может содержать один или более листов. Всякий раз, когда мы создаем файл Excel, мы добавляем листы в файл Excel, в котором работаем. Каждый лист в файле Excel независим от другого листа и имеет свои собственные данные и настройки форматирования и т. д. Иногда разработчики могут захотеть скрыть несколько листов и сделать другие видимыми в файле Excel по своему усмотрению. Таким образом, **Aspose.Cells** позволяет разработчикам контролировать видимость листов в их файлах Excel.
 
-**Управление видимостью рабочих листов:**
+**Контроль видимости листов:**
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) который представляет файл Excel.[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) класс содержит[**Рабочий листКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) что позволяет получить доступ к каждому рабочему листу в файле Excel.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет собой файл Excel. Класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) содержит [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection), позволяющий получить доступ к каждому листу в файле Excel.
 
- Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Класс предоставляет широкий спектр свойств и методов для управления рабочим листом. Но для управления видимостью рабочего листа разработчики могут использовать[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) метод[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс.
+Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) предоставляет широкий спектр свойств и методов для управления листом. Однако для управления видимостью листа разработчики могут использовать метод [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-### **Делаем рабочий лист видимым**
+### **Сделать лист видимым**
 
- Разработчики могут сделать рабочий лист видимым, передав**истинный** как параметр к[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) метод[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс.
+Разработчики могут сделать лист видимым, передавая **true** в качестве параметра в метод [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-### **Скрытие рабочего листа**
+### **Скрыть лист**
 
- Разработчики могут скрыть рабочий лист, передав**ЛОЖЬ** как параметр к[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) метод[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс.
+Разработчики могут скрыть лист, передавая **false** в качестве параметра в метод [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
 **Пример:**
 
- Ниже приведен полный пример, демонстрирующий использование[**setVisible (ложь)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) метод[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) класс, чтобы скрыть первый рабочий лист файла Excel.
+Ниже приведен полный пример, демонстрирующий использование метода [**setVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) для скрытия первого листа файла Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-display-HideUnhideWorksheet-1.java" >}}
 
-**Рабочий лист - до изменения:**
+**Лист - Перед изменением:**
 
- На скриншоте ниже вы можете видеть, что**Книга1.xls** файл содержит три рабочих листа:**Лист1** , **Лист2** и**Лист3** .
+На скриншоте ниже вы можете увидеть, что файл **Book1.xls** содержит три листа: **Sheet1**, **Sheet2** и **Sheet3**.
 
-![дело:изображение_альтернативный_текст](show-and-hide-elements_1.png)
+![todo:image_alt_text](show-and-hide-elements_1.png)
 
-**Фигура:** Просмотр рабочего листа до внесения каких-либо изменений
+**Рисунок:** Вид листа перед любыми изменениями
 
-**Рабочий лист — после выполнения примера кода:**
+**Лист - После выполнения примера кода:**
 
-**Книга1.xls** файл открывается с помощью[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)класс, а затем первый рабочий лист**Книга1.xls** файл сделан скрытым. Измененный файл сохраняется как**вывод.xls** файл, графический вид которого показан ниже:
+Файл **Book1.xls** открыт с помощью класса [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), а затем первый лист файла **Book1.xls** скрыт. Измененный файл сохранен как **output.xls**, визуальное представление которого показано ниже:
 
-![дело:изображение_альтернативный_текст](show-and-hide-elements_2.png)
+![todo:image_alt_text](show-and-hide-elements_2.png)
 
-**Фигура:** Вид рабочего листа после модификации
+**Рисунок:** Вид листа после изменения
 
-**Установка типа видимости**
+**Установка VisibilityType**
 
- Вы также можете скрыть рабочие листы особым образом. Эта функция может скрыть рабочий лист, так что единственный способ снова сделать его видимым — дать[**Тип видимости.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) как значение параметра для[**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) метод в коде (здесь следует отметить, что пользователь не может сделать объект видимым в MS Excel напрямую, используя его пункты меню). Пользователи также могут использовать[**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) метод, чтобы проверить, помечен ли лист как VeryHidden или нет.
+Вы также можете скрыть листы специальным образом. Эта функция может скрыть лист так, чтобы единственный способ снова сделать его видимым - передать значение [**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN) в качестве параметра для метода [**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType) в коде (здесь следует отметить, что пользователи не могут сделать объект видимым в MS Excel непосредственно, используя его меню). Пользователи также могут использовать метод [**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType), чтобы проверить, помечен ли лист как "Очень скрыт" или нет.
 
 ## **Показать или скрыть вкладки**
 
-Если вы внимательно посмотрите в конец файла Excel Microsoft, вы увидите ряд элементов управления. К ним относятся:
+Если вы внимательно посмотрите внизу файла Microsoft Excel, вы увидите ряд элементов управления. Среди них:
 
-- Вкладки листа.
+- Вкладки листов.
 - Кнопки прокрутки вкладок.
 
-Вкладки листов представляют рабочие листы в файле Excel. Щелкните любую вкладку, чтобы переключиться на этот рабочий лист. Чем больше рабочих листов в рабочей книге, тем больше вкладок листов. Если в файле Excel много рабочих листов, вам нужны кнопки для навигации по ним. Итак, Microsoft Excel предоставляет кнопки прокрутки вкладок для прокрутки вкладок листа.
+Вкладки представляют листы Excel-файла. Щелкните на любой вкладке, чтобы переключиться на этот лист. Чем больше листов в книге Excel, тем больше вкладок. Если в Excel-файле большое количество листов, вам понадобятся кнопки для перемещения по ним. Поэтому Microsoft Excel предоставляет кнопки прокрутки вкладок для прокрутки по вкладкам.
 
 **Вкладки листов и кнопки прокрутки вкладок**
 
-![дело:изображение_альтернативный_текст](show-and-hide-elements_3.png)
+![todo:image_alt_text](show-and-hide-elements_3.png)
 
-Используя Aspose.Cells, разработчики могут контролировать видимость вкладок листа и кнопок прокрутки вкладок в файлах Excel.
+С помощью Aspose.Cells разработчики могут контролировать видимость вкладок листов и кнопок прокрутки в файле Excel.
 
-**Управление видимостью вкладок:**
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Класс предоставляет широкий спектр свойств и методов для управления файлом Excel.
+**Контроль видимости вкладок:**
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), представляющий файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) предоставляет широкий спектр свойств и методов для управления файлом Excel.
 
 ### **Скрытие вкладок**
 
- Скрыть вкладки в файле Excel, установив[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) учебный класс'[**getSettings().setShowTabs(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) метод.
+Скрыть вкладки в файле Excel, установив метод [**getSettings().setShowTabs(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) класса [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
 
-### **Делаем вкладки видимыми**
+### **Отображение вкладок**
 
- Сделайте вкладки видимыми с помощью[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) учебный класс'[**getSettings().setShowTabs(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) метод.
+Отобразить вкладки с помощью метода [**getSettings().setShowTabs(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) класса [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayTab-1.java" >}}
 
 **Полный пример кода:**
 
-Ниже приведен полный пример, который открывает файл Excel (book1.xls), скрывает его вкладки и сохраняет измененный файл как output.xls.
+Ниже приведен полный пример, который открывает файл Excel (book1.xls), скрывает его вкладки и сохраняет измененный файл с именем output.xls.
 
-Вы можете видеть, что файл Book1.xls содержит вкладки на рисунке ниже. После выполнения кода примера вкладки скрыты, как видно из скриншота файла output.xls ниже.
+Вы можете увидеть, что файл Book1.xls содержит вкладки на рисунке ниже. После выполнения примерного кода вкладки скрыты, как видно на скриншоте файла output.xls ниже.
 
-**book1.xls: файл Excel до каких-либо изменений**
+**book1.xls: Файл Excel перед любыми модификациями**
 
-![дело:изображение_альтернативный_текст](show-and-hide-elements_4.png)
+![todo:image_alt_text](show-and-hide-elements_4.png)
 
-**output.xls: файл Excel после модификации**
+**output.xls: Файл Excel после изменений**
 
-![дело:изображение_альтернативный_текст](show-and-hide-elements_5.png)
+![todo:image_alt_text](show-and-hide-elements_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
 
-## **Показать и скрыть строки и столбцы**
+## **Показ и скрытие строк и столбцов**
 
-Все рабочие листы в файле Excel состоят из ячеек, расположенных в строках и столбцах. Все строки и столбцы имеют уникальные значения, которые используются для их идентификации и идентификации отдельных ячеек. Например, строки пронумерованы — 1, 2, 3, 4 и т. д. — а столбцы упорядочены в алфавитном порядке — A, B, C, D и т. д. Значения строк и столбцов отображаются в заголовках. Используя Aspose.Cells, разработчики могут контролировать видимость этих заголовков строк и столбцов.
+Все листы в файле Excel состоят из ячеек, которые располагаются в строках и столбцах. Все строки и столбцы имеют уникальные значения, которые используются для их идентификации и для идентификации отдельных ячеек. Например, строки пронумерованы – 1, 2, 3, 4 и т. д., а столбцы упорядочены по алфавиту – A, B, C, D и т. д. Значения строк и столбцов отображаются в заголовках. С помощью Aspose.Cells разработчики могут контролировать видимость этих заголовков строк и столбцов.
 
-**Управление видимостью рабочих листов:**
+**Контроль видимости листов:**
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), представляющий файл Excel Microsoft. Класс Workbook содержит коллекцию WorksheetCollection, которая обеспечивает доступ к каждому рабочему листу в файле Excel.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), представляющий файл Microsoft Excel. Класс Workbook содержит WorksheetCollection, которая позволяет получить доступ к каждому листу в файле Excel.
 
- Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)учебный класс. Класс Worksheet предоставляет широкий набор свойств и методов для управления рабочими листами. Чтобы управлять видимостью заголовков строк и столбцов, используйте класс Worksheet.[**setRowColumnHeadersVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) метод.
+Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Класс Worksheet предоставляет широкий спектр свойств и методов для управления листами. Для контроля видимости заголовков строк и столбцов используйте метод класса Worksheet [**setRowColumnHeadersVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible).
 
 ### **Скрытие заголовков строк/столбцов**
 
- Скрыть заголовки строк и столбцов с помощью[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс'[**setRowColumnHeadersVisible (ложь)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) метод.
+Скрыть заголовки строк и столбцов, используя метод класса [**setRowColumnHeadersVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
 ### **Отображение заголовков строк/столбцов**
 
- Сделайте заголовки строк и столбцов видимыми с помощью[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс'[**setRowColumnHeadersVisible (истина)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) метод.
+Сделать заголовки строк и столбцов видимыми, используя метод класса [**setRowColumnHeadersVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
- Ниже приведен полный пример, демонстрирующий, как использовать[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс'[**setRowColumnHeadersVisible (ложь)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) способ скрыть заголовки строк и столбцов первого рабочего листа файла Excel.
+Приведен полный пример ниже, демонстрирующий, как использовать метод класса [**setRowColumnHeadersVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) для скрытия заголовков строк и столбцов первого листа Excel.
 
-На приведенном ниже снимке экрана показано, что Book1.xls содержит три рабочих листа: Sheet1, Sheet2 и Sheet3. Каждый рабочий лист показывает заголовки строк и столбцов.
+На снимке экрана ниже показано, что в файле Book1.xls содержатся три листа Excel: Лист1, Лист2 и Лист3. Каждый лист отображает заголовки строк и столбцов.
 
-**Book1.xls: рабочий лист до изменения**
+**Book1.xls: лист перед внесением изменений**
 
-![дело:изображение_альтернативный_текст](show-and-hide-elements_6.png)
+![todo:image_alt_text](show-and-hide-elements_6.png)
 
- Book1.xls открывается с помощью[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class», а заголовки строк и столбцов на первом листе скрыты. Измененный файл сохраняется как output.xls.
+Файл Book1.xls открыт с использованием класса [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), и заголовки строк и столбцов на первом листе скрыты. Измененный файл сохраняется как output.xls.
 
-**Вид рабочего листа после модификации**
+**Просмотр листа после изменений**
 
-![дело:изображение_альтернативный_текст](show-and-hide-elements_7.png)
+![todo:image_alt_text](show-and-hide-elements_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideUnhideWorksheet-1.java" >}}
 
-## **Показать и скрыть полосы прокрутки**
+## **Показывать и скрывать полосы прокрутки**
 
-Полосы прокрутки очень часто используются для навигации по содержимому любого файла. Обычно существует два вида полос прокрутки:
+Полосы прокрутки широко используются для навигации по содержимому любого файла. Обычно существует два типа полос прокрутки:
 
 - Вертикальные полосы прокрутки
 - Горизонтальные полосы прокрутки
 
-Microsoft Excel также предоставляет горизонтальные и вертикальные полосы прокрутки, чтобы пользователи могли прокручивать содержимое рабочего листа. Используя Aspose.Cells, разработчики могут управлять видимостью обоих типов полос прокрутки в файлах Excel.
+Microsoft Excel также предоставляет горизонтальные и вертикальные полосы прокрутки, чтобы пользователи могли пролистывать содержимое листа Excel. Используя Aspose.Cells, разработчики могут контролировать видимость обоих типов полос прокрутки в файлах Excel.
 
 **Управление видимостью полос прокрутки:**
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) который представляет файл Excel.[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Класс предоставляет широкий спектр свойств и методов для управления файлом Excel. Но для управления видимостью полос прокрутки в файле Excel разработчики могут использовать[**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) & [**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) методы[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) учебный класс.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), представляющий файл Excel. Класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) предоставляет широкий спектр свойств и методов для управления файлом Excel. Однако для управления видимостью полос прокрутки в файле Excel разработчики могут использовать методы [**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) и [**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) класса [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook).
 
 ### **Скрытие полос прокрутки**
 
- Скройте полосы прокрутки, установив[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) учебный класс'[**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) или же[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) методы**ЛОЖЬ**.
+Скрыть полосы прокрутки, установив методы [**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) или [**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) класса [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) в **false**.
 
-### **Делаем полосы прокрутки видимыми**
+### **Отображение полос прокрутки**
 
- Сделайте полосы прокрутки видимыми, установив класс Workbook.[**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) или же[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) методы**истинный**.
+Сделать полосы прокрутки видимыми, установив методы [**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) класса Workbook в **true**.
 
 **Полный пример кода:**
 
-Ниже приведен полный код, который открывает файл Excel, book1.xls, скрывает обе полосы прокрутки, а затем сохраняет измененный файл как output.xls.
+Ниже приведен полный код, который открывает файл Excel, book1.xls, скрывает оба ползунка прокрутки, а затем сохраняет измененный файл как output.xls.
 
-На снимке экрана ниже показан файл Book1.xls, содержащий обе полосы прокрутки. Измененный файл сохраняется как файл output.xls, также показанный ниже.
+На скриншоте ниже показан файл Book1.xls, содержащий оба ползунка прокрутки. Измененный файл сохранен как файл output.xls, также показан ниже.
 
-**Book1.xls: файл Excel до каких-либо изменений**
+**Book1.xls: Файл Excel до любых изменений**
 
-![дело:изображение_альтернативный_текст](show-and-hide-elements_8.png)
+![todo:image_alt_text](show-and-hide-elements_8.png)
 
-**output.xls: файл Excel после модификации**
+**output.xls: Файл Excel после изменений**
 
-![дело:изображение_альтернативный_текст](show-and-hide-elements_9.png)
+![todo:image_alt_text](show-and-hide-elements_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-display-DisplayHideScrollBars-1.java" >}}
 
-## **Показать и скрыть линии сетки**
+## **Отображение и скрытие линий сетки**
 
-Все рабочие листы Excel Microsoft имеют линии сетки по умолчанию. Они помогают разграничить ячейки, чтобы было легко вводить данные в определенные ячейки. Линии сетки позволяют нам рассматривать рабочий лист как набор ячеек, где каждую ячейку легко идентифицировать.
+Все листы Microsoft Excel по умолчанию имеют линии сетки. Они помогают выделить ячейки, поэтому легко вводить данные в конкретные ячейки. Линии сетки позволяют нам видеть лист как совокупность ячеек, где каждая ячейка легко идентифицируема.
 
-Aspose.Cells также позволяет контролировать видимость линий сетки.
+Aspose.Cells также позволяет вам контролировать видимость линий сетки.
 
 ### **Управление видимостью линий сетки**
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) который представляет собой файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) класс содержит[**Рабочий листКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) который позволяет получить доступ к каждому рабочему листу в файле.
+Aspose.Cells предоставляет класс, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) содержит объект [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection), который позволяет получить доступ к каждому листу в файле.
 
- Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Класс предоставляет широкий спектр свойств и методов для управления рабочими листами. Для управления видимостью линий сетки используйте[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс'[**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) метод.
+Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) предоставляет широкий спектр свойств и методов для управления листами. Чтобы контролировать видимость линий сетки, используйте метод класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) объекта [**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible).
 
-#### **Делаем линии сетки видимыми**
+#### **Отображение линий сетки**
 
- Чтобы сделать линии сетки видимыми, используйте кнопку[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс'[**setGridlinesVisible (истина)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) метод.
+Чтобы отобразить линии сетки, используйте метод [**setGridlinesVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
 #### **Скрытие линий сетки**
 
- Скрыть линии сетки с помощью[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс'[**setGridlinesVisible (ложь)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) метод.
+Скрыть линии сетки, используя метод [**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
 {{% alert color="primary" %}}
 
-Линии сетки применяются ко всему листу. Чтобы «скрыть» линии сетки в разделе рабочего листа, используйте[форматирование границ](/cells/ru/java/create-table-by-using-border-lines-for-a-range/) чтобы установить для границ цвет, который сочетается с цветовой схемой листа.
+Линии сетки применяются ко всему листу. Чтобы 'скрыть' линии сетки на части листа, используйте [форматирование границ](/cells/ru/java/create-table-by-using-border-lines-for-a-range/) для установки границ определенного цвета, который сочетается с цветовой схемой листа.
 
 {{% /alert %}}
 
-**Пример: скрытие линий сетки на определенном рабочем листе**
+**Пример: Скрытие линий сетки на конкретном листе**
 
- Пример ниже демонстрирует использование[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс'[**setGridlinesVisible (ложь)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) способ скрыть линии сетки первого рабочего листа файла Excel.
+Приведенный ниже пример демонстрирует использование метода [**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) класса [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) для скрытия линий сетки первого листа файла Excel.
 
-На приведенном ниже снимке экрана показано, что файл Book1.xls содержит три рабочих листа: Sheet1, Sheet2 и Sheet3. Все эти рабочие листы имеют линии сетки.
+На скриншоте ниже показано, что файл Book1.xls содержит три листа: Лист1, Лист2 и Лист3. У всех этих листов есть линии сетки.
 
-**Вид рабочего листа до изменения**
+**Вид листа перед изменениями**
 
-![дело:изображение_альтернативный_текст](show-and-hide-elements_10.png)
+![todo:image_alt_text](show-and-hide-elements_10.png)
 
- Файл Book1.xls открывается с помощью[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class, а затем линии сетки первого рабочего листа скрываются. Измененный файл сохраняется как файл output.xls.
+Файл Book1.xls открывается с использованием класса [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), а затем линии сетки первого листа скрываются. Измененный файл сохраняется как файл output.xls.
 
-**Вид рабочего листа после модификации**
+**Просмотр листа после изменений**
 
-![дело:изображение_альтернативный_текст](show-and-hide-elements_11.png)
+![todo:image_alt_text](show-and-hide-elements_11.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayHideGridlines-DisplayHideGridlines.java" >}}
 
-### **Статьи по Теме**
+### **Связанные статьи**
 
 {{% alert color="primary" %}}
 
-- [Особенности настройки страницы](/cells/ru/java/page-setup-features/).
-- [Добавление границ к ячейкам для создания таблицы](/cells/ru/java/create-table-by-using-border-lines-for-a-range/).
+- [Функции настройки страницы](/cells/ru/java/page-setup-features/).
+- [Добавление границ ячеек для создания таблицы](/cells/ru/java/create-table-by-using-border-lines-for-a-range/).
 
 {{% /alert %}}

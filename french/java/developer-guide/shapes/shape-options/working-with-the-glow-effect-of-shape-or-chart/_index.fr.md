@@ -1,21 +1,22 @@
-﻿---
-title: Utilisation de l'effet lumineux de la forme ou du graphique
+---
+title: Travailler avec l effet de lueur de la forme ou du graphique
 type: docs
 weight: 960
 url: /fr/java/working-with-the-glow-effect-of-shape-or-chart/
 ---
+
 ## **Scénarios d'utilisation possibles**
-Aspose.Cells fournit la propriété Shape.Glow pour travailler avec l'effet de lueur de la forme ou du graphique. Il contient les sous-propriétés suivantes que vous pouvez définir pour obtenir différents résultats selon vos besoins.
+Aspose.Cells fournit la propriété Shape.Glow pour travailler avec l'effet de lueur de la forme ou du graphique. Elle contient les sous-propriétés suivantes que vous pouvez définir pour obtenir différents résultats selon vos besoins.
 
-- GlowEffect.Taille
-- GlowEffet.Transparence
+- GlowEffect.Size
+- GlowEffect.Transparency
 
-La capture d'écran suivante montre l'interface Excel Microsoft pour définir l'effet lumineux de la forme.
+La capture d'écran suivante montre l'interface de Microsoft Excel pour définir l'effet de lueur de la forme.
 
-![tâche : image_autre_texte](working-with-the-glow-effect-of-shape-or-chart_1.png)
-## **Utilisation de l'effet lumineux de la forme ou du graphique**
- L'exemple de code suivant charge le[fichier excel source](5472520.xlsx)et accède à la première forme dans la première feuille de calcul et définit les sous-propriétés de la propriété Shape.Glow, puis enregistre le classeur dans[fichier excel de sortie](5472527.xlsx).
-## **Exemple de code**
+![todo:image_alt_text](working-with-the-glow-effect-of-shape-or-chart_1.png)
+## **Travailler avec l'effet de lueur de la forme ou du graphique**
+Le code d'exemple suivant charge le [fichier Excel source](5472520.xlsx) et accède à la première forme dans la première feuille de calcul, puis définit les sous-propriétés de la propriété Shape.Glow, puis enregistre le classeur dans le [fichier Excel de sortie](5472527.xlsx).
+## **Code d'exemple**
 
 
 

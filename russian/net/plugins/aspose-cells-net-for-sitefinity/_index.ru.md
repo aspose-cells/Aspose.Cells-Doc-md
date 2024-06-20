@@ -1,28 +1,29 @@
-﻿---
-title: Aspose.Cells .NET для Sitefinity
+---
+title: Aspose.Cells .NET for Sitefinity
 type: docs
 weight: 80
 url: /ru/net/aspose-cells-net-for-sitefinity/
 ---
-**Краткое содержание**
 
-- [Начиная](#Aspose.Cells.NETforSitefinity-GettingStarted) 
-  - [Вступление](#Aspose.Cells.NETforSitefinity-Introduction) 
+**Содержание**
+
+- [Начало работы](#Aspose.Cells.NETforSitefinity-GettingStarted) 
+  - [Введение](#Aspose.Cells.NETforSitefinity-Introduction) 
     - [Что такое Sitefinity?](#Aspose.Cells.NETforSitefinity-WhatisSitefinity?)
     - [Aspose.Cells for .NET](#Aspose.Cells.NETforSitefinity-Aspose.Cellsfor.NET)
     - [Aspose.Cells for .NET Плагины](#Aspose.Cells.NETforSitefinity-Aspose.Cellsfor.NETPlugins)
-## **Начиная**
-### **Вступление**
+## **Начало работы**
+### **Введение**
 #### **Что такое Sitefinity?**
-Sitefinity — это современная система управления веб-контентом (CMS) на основе ASP.NET, обеспечивающая интуитивно понятное управление веб-контентом и надежную среду разработки для бизнес-профессионалов. Вот проекты, которые мы создали для этой популярной CMS.
+Sitefinity - современная система управления содержимым веб-сайта на основе ASP.NET, предоставляющая интуитивное управление содержимым веб-страниц и надежную среду для разработки для деловых профессионалов. Вот проекты, которые мы создали для этой популярной CMS.
 #### **Aspose.Cells for .NET**
-Aspose.Cells for .NET — это расширенная библиотека классов for .NET, которая позволяет выполнять широкий спектр задач обработки электронных таблиц непосредственно в приложениях .NET.
+Aspose.Cells for .NET - это передовая библиотека классов для .NET, которая позволяет выполнять широкий спектр задач по обработке электронных таблиц непосредственно в ваших приложениях .NET.
 
-С Aspose.Cells вы можете создавать, изменять, преобразовывать, визуализировать и печатать электронные таблицы, не используя Microsoft Excel.
+С Aspose.Cells вы можете генерировать, изменять, преобразовывать, визуализировать и печатать электронные таблицы без использования Microsoft Excel.
 
-Aspose.Cells for .NET поддерживает XSL, XSLX, OpenOffice и многие другие форматы.
+Aspose.Cells for .NET поддерживает форматы XSL, XSLX, OpenOffice и многие другие.
 #### **Aspose.Cells for .NET Плагины**
-В этом разделе есть следующие темы:
+Этот раздел содержит следующие темы:
 
-- [Aspose.Cells Формы для Sitefinity](/cells/ru/net/aspose-cells-forms-for-sitefinity/)
-- [Экспорт пользователей Sitefinity в Excel](/cells/ru/net/sitefinity-export-users-to-excel/)
+- [Aspose.Cells Forms for Sitefinity](/cells/ru/net/aspose-cells-forms-for-sitefinity/)
+- [Sitefinity Экспорт пользователей в Excel](/cells/ru/net/sitefinity-export-users-to-excel/)

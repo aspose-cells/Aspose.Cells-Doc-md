@@ -1,16 +1,17 @@
 ---
-title: Z ekseni
-description: Aspose.Cells for .NET numaralı telefondan Z ekseniyle nasıl çalışılacağını öğrenin. Kılavuzumuz, grafiklerinizi geliştirmek için ölçeği ve etiketleri de dahil olmak üzere Z eksenini nasıl yapılandıracağınızı ve özelleştireceğinizi anlamanıza yardımcı olacaktır.
-keywords: Aspose.Cells for .NET, Z-axis, charting, configuration, customization, scale, labels.
+title: Z Ekseni
+description: Aspose.Cells for .NET içinde Z ekseniyle nasıl çalışılacağını öğrenin. Kılavuzumuz, grafiklerinizi geliştirmek için ölçek ve etiketlerini yaplandırma konusunda size yardımcı olacaktır.
+keywords: Aspose.Cells for .NET, Z ekseni, grafikleme, yapılandırma, özelleştirme, ölçek, etiketler.
 type: docs
 weight: 210
 url: /tr/net/z-axis/
 ---
-##  **Olası Kullanım Senaryoları**
-Z ekseni olarak da bilinen, değiştirebileceğiniz bir derinlik (seri) eksenine sahip 3 boyutlu sütun, 3 boyutlu koni veya 3 boyutlu piramit gibi bazı 3 boyutlu grafikler için. Onay işaretleri, eksen etiketleri ve diğer işlemler arasındaki aralığı belirleyebilirsiniz.
-##  **Birincil ve İkinci Ekseni Microsoft Excel gibi kullanın**
- Lütfen yeni bir Excel dosyası oluşturan ve grafiğin değerlerini ilk çalışma sayfasına koyan aşağıdaki örnek koda bakın. Daha sonra bir grafik ekliyoruz ve grafik tipini Column3D olarak ayarlıyoruz, ardından Derinlik Ekseni olarak da adlandırılan Z Eksenini görebilirsiniz.
 
-![yapılacak şey:image_alt_text](excel.png)
-##  **Basit kod**
+## **Olası Kullanım Senaryoları**
+Derinlik (seri) ekseni olarak da bilinen Z ekseni gibi bazı 3 boyutlu grafikler için değişiklik yapabilirsiniz. İşaret aralığı, eksen etiketleri ve diğer işlemleri belirtebilirsiniz.
+## **Birincil ve İkinci Ekseni Microsoft Excel gibi ele alın**
+Lütfen aşağıdaki örnek kodları inceleyin, yeni bir Excel dosyası oluşturun ve çalışma sayfasına grafiğin değerlerini ekleyin. Daha sonra bir grafik ekleyin ve grafik türünü Sütun3D olarak ayarlayın, böylece Z Ekseni olarak da adlandırılan Derinlik Eksenini görebilirsiniz. 
+
+![todo:image_alt_text](excel.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ZAxis.cs" >}}

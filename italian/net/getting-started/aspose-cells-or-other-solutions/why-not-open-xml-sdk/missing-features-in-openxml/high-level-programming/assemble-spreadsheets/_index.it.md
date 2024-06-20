@@ -1,30 +1,31 @@
-﻿---
+---
 title: Assemblare fogli di calcolo
 type: docs
 weight: 10
 url: /it/net/assemble-spreadsheets/
 ---
+
 Questa sezione descrive come:
 
-Crea un nuovo file Excel da zero e aggiungi un foglio di lavoro.
+Creare un nuovo file Excel da zero e aggiungere un foglio di lavoro ad esso.
 
-- Aggiungi fogli di lavoro ai fogli di lavoro del designer.
-- Accedi ai fogli di lavoro utilizzando il nome del foglio.
-- Rimuovi un foglio di lavoro da un file Excel usando il nome del foglio.
-- Rimuovi un foglio di lavoro da un file Excel utilizzando il relativo indice del foglio.
+- Aggiungi fogli di lavoro a fogli di calcolo di progettazione.
+- Accedere ai fogli di lavoro usando il nome del foglio.
+- Rimuovere un foglio di lavoro da un file Excel utilizzando il suo nome foglio.
+- Rimuovere un foglio di lavoro da un file Excel utilizzando il suo indice di foglio.
 - Aspose.Cells fornisce una classe, Workbook che rappresenta un file Excel. La classe Workbook contiene una raccolta di fogli di lavoro che consente di accedere a ciascun foglio di lavoro nel file Excel.
 
-Un foglio di lavoro è rappresentato dalla classe Worksheet. La classe Worksheet fornisce un'ampia gamma di proprietà e metodi per la gestione dei fogli di lavoro.
-## **Aggiunta di fogli di lavoro a un nuovo file Excel**
-Per creare un nuovo file Excel a livello di codice:
+Un foglio di lavoro è rappresentato dalla classe Worksheet. La classe Worksheet fornisce una vasta gamma di proprietà e metodi per la gestione dei fogli di lavoro.
+## **Aggiungere fogli di lavoro a un nuovo file Excel**
+Per creare un nuovo file Excel in modo programmatico:
 
 - Creare un oggetto della classe Workbook.
-- Chiamare il metodo Add della raccolta Worksheets. Un foglio di lavoro vuoto viene aggiunto automaticamente al file Excel *. È possibile fare riferimento passando l'indice del foglio del nuovo foglio di lavoro alla raccolta Fogli di lavoro.
+- Chiamare il metodo Aggiungi della raccolta di fogli di lavoro. Viene aggiunto automaticamente un foglio di lavoro vuoto al file Excel. Può essere referenziato passando l'indice di foglio del nuovo foglio di lavoro alla raccolta di fogli di lavoro.
 - Ottenere un riferimento al foglio di lavoro.
-- Eseguire il lavoro sui fogli di lavoro.
-- Salvare il nuovo file Excel con nuovi fogli di lavoro chiamando il metodo Save della classe Workbook.
+- Svolgere lavori sui fogli di lavoro.
+- Salva il nuovo file Excel con nuovi fogli di lavoro chiamando il metodo Salva della classe Workbook.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -47,10 +48,10 @@ worksheet.Name = "My Worksheet";
 workbook.Save("Adding Worksheet.xls");
 
 {{< /highlight >}}
-## **Aggiunta di fogli di lavoro a un foglio di calcolo di Designer**
-Il processo di aggiunta di fogli di lavoro a un foglio di lavoro del progettista è uguale a quello di aggiunta di un nuovo foglio di lavoro, tranne per il fatto che il file Excel esiste già, quindi deve essere aperto prima dell'aggiunta dei fogli di lavoro. Un foglio di calcolo del designer può essere aperto dalla classe Workbook.
+## **Aggiunta di fogli di lavoro a un foglio di lavoro progettato**
+Il processo di aggiunta di fogli di lavoro a un foglio di calcolo predefinito è identico a quello di aggiunta di un nuovo foglio di lavoro, tranne che il file Excel esiste già quindi dovrebbe essere aperto prima che siano aggiunti i fogli di lavoro. Un foglio di calcolo di progettazione può essere aperto dalla classe Workbook.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -84,9 +85,9 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **Accesso ai fogli di lavoro utilizzando il nome del foglio**
-Accedi o ottieni qualsiasi foglio di lavoro specificandone il nome o l'indice.
+Accedi o ottieni qualsiasi foglio di lavoro specificando il suo nome o indice.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -103,10 +104,10 @@ Workbook workbook = new Workbook(fstream);
 Worksheet worksheet = workbook.Worksheets["Sheet1"];
 
 {{< /highlight >}}
-## **Rimozione di fogli di lavoro utilizzando il nome del foglio**
-Per rimuovere i fogli di lavoro da un file, chiama il metodo RemoveAt della raccolta Worksheets. Passare il nome del foglio al metodo RemoveAt per rimuovere un foglio di lavoro specifico.
+## **Rimozione dei fogli di lavoro utilizzando il nome del foglio**
+Per rimuovere fogli di lavoro da un file, chiamare il metodo RimuoviAt della raccolta Fogli di lavoro. Passa il nome del foglio al metodo RimuoviAt per rimuovere un foglio di lavoro specifico.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -125,10 +126,10 @@ workbook.Worksheets.RemoveAt("Sheet3");
 workbook.Save("WorksHeet Operations.xls");
 
 {{< /highlight >}}
-## **Rimozione di fogli di lavoro utilizzando l'indice dei fogli**
-La rimozione dei fogli di lavoro per nome funziona bene quando il nome del foglio di lavoro è noto. Se non conosci il nome del foglio di lavoro, usa una versione di overload del metodo RemoveAt che accetta l'indice del foglio di lavoro invece del nome del foglio.
+## **Rimozione dei fogli di lavoro utilizzando l'indice del foglio**
+La rimozione dei fogli di lavoro per nome funziona bene quando si conosce il nome del foglio di lavoro. Se non si conosce il nome del foglio di lavoro, utilizzare una versione sovraccaricata del metodo RimuoviAt che prende l'indice del foglio di lavoro invece del suo nome foglio.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //creating a file stream containing the Excel file to be opened
 

@@ -1,15 +1,16 @@
-﻿---
+---
 title: Beräkna formler i PHP
 type: docs
 weight: 10
 url: /sv/net/calculating-formulas-in-php/
 ---
+
 ## **Beräkna formler**
 Beräkna formler
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -64,7 +65,7 @@ Beräkna formler
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Beräknar formler (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Hämta ** Beräkna formler (Aspose.Cells) ** från någon av nedan nämnda sociala kodningssidor:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingwithFormulas/CalculatingFormulas.php)

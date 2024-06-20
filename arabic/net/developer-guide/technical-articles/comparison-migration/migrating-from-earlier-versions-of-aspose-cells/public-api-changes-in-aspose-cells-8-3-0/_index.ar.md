@@ -1,27 +1,28 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.3.0
+---
+title: تغييرات الواجهة البرمجية العامة في Aspose.Cells 8.3.0
 type: docs
 weight: 100
 url: /ar/net/public-api-changes-in-aspose-cells-8-3-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.2.2 إلى 8.3.0 والتي قد تهم مطوري الوحدة / التطبيق.
+يصف هذا المستند التغييرات التي طرأت على واجهة برمجة التطبيقات لـ Aspose.Cells من الإصدار 8.2.2 إلى 8.3.0 والتي قد تكون مهمة لمطوري الوحدات / التطبيقات.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
+## **واجهات برمجة التطبيقات الجديدة**
 ### **تمت إضافة خاصية WorkbookSettings.AutoRecover**
 تمت إضافة الخاصية الجديدة AutoRecover إلى فئة WorkbookSettings للسماح للمطورين بتعيين خيار الاسترداد التلقائي لجداول البيانات في تطبيقاتهم.
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال[إعداد الاسترداد التلقائي لجدول البيانات](http://aspose.com/docs/display/cellsnet/How+to+set+AutoRecover+property+of+Workbook) للمزيد من المعلومات.
+يرجى التحقق من المقال [ضبط استرداد تلقائي لجدول البيانات](http://aspose.com/docs/display/cellsnet/How+to+set+AutoRecover+property+of+Workbook) لمزيد من المعلومات.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -33,11 +34,11 @@ settings.AutoRecover = true;
 
 
 ### **تمت إضافة خاصية WorkbookSettings.CrashSave**
-تمت إضافة خاصية النوع المنطقي CrashSave إلى فئة WorkbookSettings التي تشير إلى ما إذا كان التطبيق قد حفظ ملف المصنف آخر مرة بعد حدوث عطل أم لا.
+تمت إضافة خاصية CrashSave من النوع المنطقي إلى فئة WorkbookSettings التي تشير إلى ما إذا كانت التطبيق قد حفظ المصنف بعد حدوث تعطل.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -49,11 +50,11 @@ Console.WriteLine(settings.CrashSave);
 
 
 ### **تمت إضافة خاصية WorkbookSettings.DataExtractLoad**
-تمت إضافة الخاصية DataExtractLoad إلى فئة WorkbookSettings للسماح للمطورين بالحصول على المعلومات المتعلقة بعملية الاسترداد الأخيرة. إذا كانت الخاصية DataExtractLoad ترجع صحيحًا ، فهذا يشير إلى أن استعادة البيانات قد تم إجراؤها على جدول البيانات.
+تمت إضافة خاصية DataExtractLoad إلى فئة WorkbookSettings للسماح للمطورين بالحصول على معلومات حول آخر عملية استرداد. إذا كانت الخاصية DataExtractLoad تقوم بإرجاع true فهذا يشير إلى أن عملية استرداد البيانات قد تمت على جدول البيانات.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -64,12 +65,12 @@ Console.WriteLine(settings.DataExtractLoad);
 {{< /highlight >}}
 
 
-### **تمت إضافة إعدادات مصنف الملكية**
-تشير الخاصية RepairLoad إلى ما إذا كان قد تم إصلاح جدول البيانات في آخر تحميل باستخدام تطبيق Excel.
+### **تمت إضافة خاصية WorkbookSettings.RepairLoad**
+تشير خاصية RepairLoad إذا كان قد تمت إصلاح ورقة الجدول في آخر تحميل بتطبيق Excel.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -80,12 +81,12 @@ Console.WriteLine(settings.RepairLoad);
 {{< /highlight >}}
 
 
-### **تمت إضافة الخاصية TxtLoadOptions.KeepExactFormat**
-تمت إضافة الخاصية KeepExactFormat إلى فئة TxtLoadOptions التي تشير إلى ما إذا كان يجب الاحتفاظ بالتنسيق الدقيق لقيمة الخلية عند تحويل السلسلة / النص إلى أرقام أو DateTime. تمت إضافة هذه الخاصية لمطابقة سلوك تطبيق MS Excel لتحميل DateTime أو القيم الرقمية من ملفات CSV. لمحاكاة سلوك MS Excel ، قم بتعيين الخاصية KeepExactFormat على false ، بينما القيمة الافتراضية هي true ، لذا سيتم تنسيق قيمة الخلية كسلسلة في ملف CSV.
+### **تمت إضافة خاصية TxtLoadOptions.KeepExactFormat**
+تمت إضافة خاصية KeepExactFormat إلى فئة TxtLoadOptions التي تشير إلى ما إذا كان يجب الاحتفاظ بالتنسيق الدقيق لقيمة الخلية عند تحويل النص/النص إلى أرقام أو تاريخ. تمت إضافة هذه الخاصية لمطابقة سلوك تطبيق MS Excel لتحميل القيم الزمنية أو الرقمية من ملفات CSV. من أجل محاكاة سلوك MS Excel ، قم بتعيين الخاصية KeepExactFormat على false ، في حين أن القيمة الافتراضية هي true بحيث سيتم تنسيق قيمة الخلية كالنص في ملف CSV.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var options = new TxtLoadOptions();
 
@@ -96,12 +97,12 @@ var book = new Workbook("sample.csv", options);
 {{< /highlight >}}
 
 
-### **شكل الملكية. أضيفت**
-تمت إضافة معرف الخاصية إلى فئة الشكل لتعريف كل كائن شكل بشكل فريد في ورقة spredsheet المحددة. تساعد هذه الخاصية الجديدة أيضًا في تحديد كائنات المخطط في جدول بيانات كما هو موضح أدناه.
+### **تمت إضافة خاصية Shape.Id**
+تمت إضافة خاصية Id إلى فئة Shape لتحديد كل كائن شكل بشكل فريد في ورقة الجدول المحددة. تساعد هذه الخاصية الجديدة أيضًا في تحديد كائنات الرسم البياني في جداول البيانات كما هو موضح أدناه.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -118,12 +119,12 @@ foreach(Chart chart in book.Worksheets[0].Charts)
 {{< /highlight >}}
 
 
-### **الطريقة PlotArea.SetPositionAuto المضافة**
-تمت إضافة طريقة SetPositionAuto إلى فئة PlotArea التي تساعد في تعيين منطقة رسم المخطط على الوضع التلقائي.
+### **تمت إضافة الطريقة SetPositionAuto إلى فئة PlotArea**
+تمت إضافة الطريقة SetPositionAuto إلى فئة PlotArea التي تساعد في ضبط منطقة رسم الرسم البياني إلى الوضع التلقائي.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 

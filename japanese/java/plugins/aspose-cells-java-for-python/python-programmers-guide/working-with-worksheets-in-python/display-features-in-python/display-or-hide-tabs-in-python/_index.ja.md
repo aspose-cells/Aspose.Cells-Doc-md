@@ -1,24 +1,25 @@
-﻿---
-title: Python でタブを表示または非表示にする
+---
+title: Pythonでタブを表示または非表示にする
 type: docs
 weight: 30
 url: /ja/java/display-or-hide-tabs-in-python/
 ---
-## **Aspose.Cells - 表示非表示タブ**
+
+## **Aspose.Cells - タブを表示または非表示にする**
 ### **タブを非表示にする**
-を使用してタブを非表示にするには**Aspose.Cells Ruby の場合は Java**、 電話**表示非表示タブ**モジュール。
+Aspose.Cells Java for Rubyを使用してタブを非表示にするには、displayhidetabsモジュールを呼び出します。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  workbook = self.Workbook(self.dataDir + "Book1.xls")
 
-# Hiding the tabs of the Excel file
+#Hiding the tabs of the Excel file
 
 workbook.getSettings().setShowTabs(False)
 
-# Saving the modified Excel file in default (that is Excel 2003) format
+#Saving the modified Excel file in default (that is Excel 2003) format
 
 workbook.save(self.dataDir + "output.xls")
 
@@ -28,18 +29,18 @@ print "Tabs are now hidden, please check the output file."
 
 {{< /highlight >}}
 ### **タブを表示する**
-Workbook クラスの setSheetTabBarHidden(false) メソッドでタブを表示します。
+WorkbookクラスのsetSheetTabBarHidden(false)メソッドを使用して、タブを表示する
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  # Displaying the tabs of the Excel file
 
 workbook.getSettings().setSowTabs(true)
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**Hello World (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから**Hello World (Aspose.Cells)**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

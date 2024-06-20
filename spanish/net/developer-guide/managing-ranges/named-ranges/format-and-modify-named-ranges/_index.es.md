@@ -1,25 +1,26 @@
-﻿---
-title: Dar formato y modificar rangos con nombre
+---
+title: Formatear y modificar rangos con nombre
 type: docs
 weight: 85
 url: /es/net/format-and-modify-named-ranges/
 ---
-## **Rangos de formato**
 
-### **Establecimiento de atributos de fuente y color de fondo en un rango con nombre**
+## **Formato de rangos**
 
- Para aplicar formato, defina un[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objeto para especificar la configuración de estilo y aplicarlo al[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range)objeto.
+### **Establecer el color de fondo y los atributos de fuente a un rango con nombre**
 
-El siguiente ejemplo muestra cómo establecer el color de relleno sólido (color de sombreado) con la configuración de fuente en un rango.
+Para aplicar formato, define un objeto [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) para especificar la configuración del estilo y aplícalo al objeto [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) .
+
+El siguiente ejemplo muestra cómo establecer el color de relleno sólido (color de sombreado) con la configuración de fuente a un rango.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-FormatRanges1-1.cs" >}}
 
-### **Adición de bordes a un rango con nombre**
+### **Agregar bordes a un rango con nombre**
 
- Es posible agregar bordes a un rango de celdas en lugar de a una sola celda. Él[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range) objeto proporciona un[**EstablecerEsquemaBorde**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder)método que toma los siguientes parámetros para agregar un borde al rango de celdas:
+Es posible agregar bordes a un rango de celdas en lugar de solo una celda. El objeto [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) proporciona un método [**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) que toma los siguientes parámetros para agregar un borde al rango de celdas:
 
--  Tipo de borde, el tipo de borde, seleccionado de la[**Tipo de borde**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)enumeración.
--  Estilo de línea, el estilo de línea, seleccionado de la[**Tipo de borde de celda**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)enumeración.
+- Tipo de borde, el tipo de borde, seleccionado de la enumeración [**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype).
+- Estilo de línea, el estilo de línea, seleccionado de la enumeración [**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype).
 - Color, el color de la línea, seleccionado de la enumeración Color.
 
 El siguiente ejemplo muestra cómo establecer un borde de contorno en un rango.
@@ -30,32 +31,32 @@ El siguiente ejemplo muestra cómo establecer bordes alrededor de cada celda en 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-SetBorderAroundEachCell-1.cs" >}}
 
-## **Cambiar el nombre de un rango con nombre**
+## **Renombrar un rango con nombre**
 
- Aspose.Cells le permite cambiar el nombre de un rango con nombre según sus necesidades. Puede obtener el rango con nombre y cambiarle el nombre usando[**Nombre.Texto**](https://reference.aspose.com/cells/net/aspose.cells/name/properties/text)atributo. El siguiente ejemplo muestra cómo cambiar el nombre de un rango con nombre.
+Aspose.Cells te permite renombrar un rango con nombre según tus necesidades. Puedes obtener el rango con nombre y renombrarlo usando el atributo [**Name.Text**](https://reference.aspose.com/cells/net/aspose.cells/name/properties/text). El siguiente ejemplo muestra cómo renombrar un rango con nombre.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RenameNamedRange-1.cs" >}}
 
-## **Unión de Rangos**
+## **Unión de rangos**
 
- Aspose.Cells proporciona[**Rango.Unión**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/union)para tomar la unión de rangos, el método devuelve un[*Lista de arreglo*](https://docs.microsoft.com/en-gb/dotnet/api/system.collections.arraylist?view=netframework-4.8)objeto. El siguiente ejemplo muestra cómo tomar la unión de rangos.
+Aspose.Cells proporciona el método [**Range.Union**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/union) para realizar la unión de rangos, el método devuelve un objeto [*ArrayList*](https://docs.microsoft.com/es-es/dotnet/api/system.collections.arraylist?view=netframework-4.8). El siguiente ejemplo muestra cómo realizar la unión de rangos.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-UnionOfRanges-1.cs" >}}
 
-## **Intersección de Rangos**
+## **Intersección de rangos**
 
- Aspose.Cells proporciona el[**Rango.Intersección**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect) método para intersecar dos rangos. El método devuelve un[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range) objeto. Para verificar si un rango se cruza con otro rango, use el[**Rango.Intersección**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect)método que devuelve un valor booleano. El siguiente ejemplo muestra cómo cruzar los rangos.
+Aspose.Cells proporciona el método [**Range.Intersect**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect) para intersectar dos rangos. El método devuelve un objeto [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range). Para comprobar si un rango se interseca con otro, usa el método [**Range.Intersect**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect) que devuelve un valor booleano. El siguiente ejemplo muestra cómo intersectar los rangos.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-IntersectionofRanges-1.cs" >}}
 
-## **Combinar Cells en el rango con nombre**
+## **Combinar celdas en el rango con nombre**
 
- Aspose.Cells proporciona[**Rango.Fusionar()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge)método para fusionar las celdas en el rango. El siguiente ejemplo muestra cómo fusionar las celdas individuales de un rango con nombre.
+Aspose.Cells proporciona el método [**Range.Merge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) para combinar las celdas en el rango. El siguiente ejemplo muestra cómo combinar las celdas individuales de un rango con nombre.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-MergeCellsInNamedRange-1.cs" >}}
 
-## **Eliminar un rango con nombre**
+## **Eliminar un Rango Nombrado**
 
- Aspose.Cells proporciona el[**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) método para borrar el nombre del rango. Para borrar el contenido del rango, utilice[**Cells.ClearRango()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index)método. El siguiente ejemplo muestra cómo eliminar un rango con nombre con su contenido.
+Aspose.Cells proporciona el método [**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) para borrar el nombre del rango. Para borrar el contenido del rango, usa el método [**Cells.ClearRange()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index). El siguiente ejemplo muestra cómo eliminar un rango con nombre y su contenido.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}

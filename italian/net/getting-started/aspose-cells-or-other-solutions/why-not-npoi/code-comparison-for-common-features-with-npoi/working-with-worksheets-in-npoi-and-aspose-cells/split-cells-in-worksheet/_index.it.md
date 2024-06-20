@@ -1,13 +1,14 @@
-﻿---
-title: Dividi Cells nel foglio di lavoro
+---
+title: Dividere celle nel foglio di lavoro
 type: docs
 weight: 90
 url: /it/net/split-cells-in-worksheet/
 ---
-## **Aspose.Cells - Dividi Cells nel foglio di lavoro**
+
+## **Aspose.Cells - Dividere celle nel foglio di lavoro**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -29,10 +30,10 @@ workbook.Save("output-Split.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Divisione Cells nel foglio di lavoro**
+## **NPOI - HSSF XSSF - Dividere celle nel foglio di lavoro**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -59,6 +60,6 @@ file.Close();
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Lavorare con i fogli di lavoro](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Per ulteriori dettagli, visita [Working with Worksheets](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

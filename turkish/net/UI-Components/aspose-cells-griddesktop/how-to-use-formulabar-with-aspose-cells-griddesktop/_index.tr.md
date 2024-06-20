@@ -1,40 +1,43 @@
-﻿---
-title: Aspose.Cells.GridDesktop ile FormulaBar nasıl kullanılır?
+---
+title: Aspose.Cells.GridDesktop ile FormulaBar ı Nasıl Kullanılır
 type: docs
 weight: 20
-url: /tr/net/how-to-use-formulabar-with-aspose-cells-griddesktop/
+url: /tr/net/aspose-cells-griddesktop/how-to-use-formulabar-with-aspose-cells-griddesktop/
+keywords: formül çubuğu
+description: Bu makale, GridDesktop ta formül çubuğunun kullanımını tanıtır.
 ---
-## **Aspose.Cells.GridDesktop ile FormulaBar'ı kullanma**
-### **1. Adım: Yeni Bir Proje Oluşturma**
+
+## **Aspose.Cells.GridDesktop ile FormulaBar'ı Kullanma**
+### **Adım 1: Yeni Bir Proje Oluşturma**
 1. Visual Studio 2019'u açın.
-1. itibaren**Dosya**menü, seç**Yeni**, o zamanlar**Proje**.
- Yeni bir proje oluştur iletişim kutusu açılır.
-1. Seçme**Windows Form Uygulaması(.NET Çerçeve)**Visual Studio yüklü proje şablonlarından ve tıklayın**Sonraki**.
+1. **Dosya** menüsünden **Yeni**, ardından **Proje**'yi seçin.
+   Yeni proje iletişim kutusu açılır.
+1. Visual Studio yüklü proje şablonlarından **Windows Forms Uygulaması(.NET Framework)**'ı seçin ve **İleri**'ye tıklayın.
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-formulabar-with-aspose-cells-griddesktop_1.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_1.jpg)
 
-1. Projenin yeri ve adının bulunduğu bir yer belirleyin ve tıklayın.**Yaratmak**.
+1. Konumunu belirtin ve **Oluştur**'a tıklayarak proje adını ve konumunu belirtin.
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-formulabar-with-aspose-cells-griddesktop_2.jpg)
-### **2. Adım: Araç kutusuna kontroller ekleyin**
-1.  Tıkla**araç kutusu**
-1.  Seçmek**Ortak Kontroller**, sağ tıklayın ve "**Öğeleri Seç...**" içerik menüsünden.
-1.  İçinde**.NET Çerçeve Bileşenleri** sekmesi**Araç Kutusu Öğelerini Seçin** pencere, kaydırın ve seçin**IzgaraMasaüstü** ve**Formül çubuğu** bileşenler.
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_2.jpg)
+### **Adım 2: Kontrolleri Toolbox'a Eklemek**
+1. **Toolbox** üzerine tıklayın.
+1. **Ortak Kontrolleri** seçin, sağ tıklayın ve bağlam menüsünden "**Öğeleri Seç...**"'i seçin.
+1. **.NET Framework Bileşenleri** sekmesinde yuvarlayarak **GridDesktop** ve **FormulaBar** bileşenlerini seçin.
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)
-### **3. Adım: Forma denetimler ekleyin**
-1. GridDestop ve FormulaBar kontrollerini forma sürükleyin. Bu, proje referanslarında Aspose.Cells.GridDesktop.dll'ye referans eklemelidir. Referans eklenmemişse, referansları sağ tıklayıp "Referans Ekle" seçeneğini seçerek manuel olarak referans ekleyebilirsiniz. Aspose.Cells.GridDesktop.dll dosyasının konumuna gidin ve ekleyin.
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)
+### **Adım 3: Kontrolleri Forma Eklemek**
+1. GridDestop ve FormulaBar kontrollerini forma sürükleyip bırakın. Bu, projenin referanslarına Aspose.Cells.GridDesktop.dll referansının eklenmesi gerekmektedir. Referans eklenmediyse, sağ tıklayarak referanslara gidin ve "Referansları Ekle" seçeneğini seçin. Aspose.Cells.GridDesktop.dll dosyasının konumuna göz atın ve ekleyin.
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-formulabar-with-aspose-cells-griddesktop_4.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_4.jpg)
 
-1. Kontroller eklendikten sonra, özellikler sekmesinde GridDesktop kontrolünün adını ayarlayın.[bu, FormulaBar'ı GridDesktop'a bağlamak için gereklidir]
+1. Kontroller eklendikten sonra, GridDesktop kontrolünün adını özellikler sekmesinde belirtin. [Bu, FormulaBar'ı GridDesktop'a bağlamak için gereklidir]
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-formulabar-with-aspose-cells-griddesktop_5.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_5.jpg)
 
-1. Aşağıdaki resimde gösterildiği gibi FormulaBar'ı GridDesktop kontrolüne bağlayın.
+1. Formül Çubuğunu, aşağıdaki resimde gösterildiği gibi GridDesktop kontrolüne bağlayın.
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-formulabar-with-aspose-cells-griddesktop_6.jpg)
-### **4. Adım: Kontrolleri test edin**
-Uygulamayı çalıştırın ve kontrolleri test edin. Aşağıdaki resimde gösterilene benzer bir çıktı üretecektir. Çıktı görüntüsünde FormulaBar ve GridDesktop'un bağlantılı olduğunu görebilirsiniz.
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_6.jpg)
+### **Adım 4: Kontrolleri test edin**
+Uygulamayı çalıştırın ve kontrolleri test edin. Aşağıdaki resimde gösterilenle benzer bir çıktı üretecektir. Çıktı resminde Formül Çubuğu ve GridDesktop'un bağlı olduğunu görebilirsiniz.
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-formulabar-with-aspose-cells-griddesktop_7.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_7.jpg)

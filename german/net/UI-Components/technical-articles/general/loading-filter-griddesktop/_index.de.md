@@ -1,44 +1,46 @@
-﻿---
-title: Filtern Sie Objekte beim Laden der Arbeitsmappe in GridDesktop
+---
+title: Filterobjekte beim Laden der Arbeitsmappe in GridDesktop
 type: docs
 weight: 1060
 url: /de/net/aspose-cells-griddesktop/loading-filter
-description: In diesem Artikel wird beschrieben, wie Sie den Ladefilter für die Bibliothek Aspose.Cells.GridDesktop verwenden.
+description: Dieser Artikel beschreibt, wie man das Lade Filter in GridDesktop verwendet.
+keywords: GridDesktop,loading,loading filter,filter
 ---
-## **Mögliche Nutzungsszenarien**
- Bitte verwende[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)-Eigenschaft beim Filtern von Daten aus der Arbeitsmappe.
 
- Das[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)Enumeration hat die folgenden Werte.
-- Alles
+## **Mögliche Verwendungsszenarien**
+Bitte verwenden Sie die [GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter) Eigenschaft zum Filtern von Daten aus der Arbeitsmappe.
+
+Die [GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions) Enumeration hat folgende Werte.
+- Alle
 - Bucheinstellungen
-- ZelleLeer
-- CellBool
-- CellData
+- Zelle Leer
+- Zelle Bool
+- Zelldaten
 - Zellenfehler
-- ZelleNumerisch
-- CellString
+- Zellnumerisch
+- Zellenzeichenfolge
 - Zellwert
-- Diagramm
+- Chart
 - Bedingte Formatierung
 - Datenvalidierung
-- DefinierteNamen
+- Definierte Namen
 - Dokumenteigenschaften
 - Formel
 - Hyperlinks
-- MergedArea
-- PivotTable
+- Zusammengeführter Bereich
+- Pivot-Tabelle
 - Einstellungen
 - Form
-- Blattdaten
+- Tabellendaten
 - Tabelleneinstellungen
 - Struktur
 - Stil
-- Tisch
+- Tabelle
 - VBA
 - XmlMap
-## **Filtern Sie Daten beim Laden der Arbeitsmappe**
- Der folgende Beispielcode veranschaulicht, wie Zeichnungen aus der Arbeitsmappe gefiltert werden. Bitte überprüfen Sie die[Excel-Beispieldatei](5472489.xlsx) . Wie Sie sehen können, wurden alle Diagramme/Formen/Bilder aus der Arbeitsmappe herausgefiltert.
+## **Daten filtern beim Laden der Arbeitsmappe**
+Der folgende Beispielcode veranschaulicht, wie man Zeichnungen aus der Arbeitsmappe filtert. Bitte überprüfen Sie die [Beispiel-Excel-Datei](5472489.xlsx) . Wie Sie sehen können, wurden alle Diagramme/Formen/Bilder aus der Arbeitsmappe herausgefiltert.
 ![Arbeitsmappe ohne Bild](nodrawing.png)
 ### **Beispielcode**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "LoadingFilter.cs" >}}
- 
+

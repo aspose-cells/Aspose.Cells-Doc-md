@@ -1,15 +1,16 @@
-﻿---
-title: Ruby'de Sayfa Sonu Önizlemesi
+---
+title: Ruby de Sayfa Kesme Önizlemesi
 type: docs
 weight: 70
 url: /tr/java/page-break-preview-in-ruby/
 ---
-## **Aspose.Cells - Sayfa Sonu Önizlemesi**
- Çalışma sayfasını kullanarak sayfa sonu önizlemesini ayarlamak için**Yakut için Aspose.Cells Java** , sadece çağırmak**PageBreakÖnizleme** modül.
 
-**Yakut Kodu**
+## **Aspose.Cells - Sayfa Kesme Önizlemesi**
+Aspose.Cells Java for Ruby kullanarak çalışsayıyı sayfa kesme önizlemesi olarak ayarlamak için **PageBreakPreview** modülünü basitçe çağırın.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -37,6 +38,6 @@ puts "Set page break preview, please check the output file."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Sayfa Sonu Önizlemesi (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+İndirin **Sayfa Kesme Önizlemesi (Aspose.Cells)**	any of the aşağıda bahsedilen sosyal kodlama sitelerinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreakpreview.rb)

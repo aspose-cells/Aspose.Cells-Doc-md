@@ -1,18 +1,21 @@
-﻿---
+---
 title: Zeilen und Spalten löschen
 type: docs
 weight: 20
-url: /de/net/delete-rows-and-columns/
+url: /de/net/aspose-cells-gridweb/delete-rows-and-columns/
+keywords: GridWeb, Zeilen löschen, Spalten löschen
+description: Dieser Artikel zeigt, wie man Zeilen und Spalten in GridWeb löscht.
 ---
+
 {{% alert color="primary" %}} 
 
-In diesem Thema wird gezeigt, wie Zeilen und Spalten mithilfe von Aspose.Cells.GridWeb API aus einem Arbeitsblatt gelöscht werden. Mithilfe dieser Funktion können Entwickler Zeilen oder Spalten zur Laufzeit löschen.
+Dieser Artikel zeigt, wie man Zeilen und Spalten aus einem Arbeitsblatt mithilfe der Aspose.Cells.GridWeb-API löscht. Mit dieser Funktion können Entwickler Zeilen oder Spalten zur Laufzeit löschen.
 
 {{% /alert %}} 
 ## **Zeilen löschen**
-So löschen Sie eine Zeile aus Ihrem Arbeitsblatt:
+Um eine Zeile aus Ihrem Arbeitsblatt zu löschen:
 
-1. Fügen Sie einem Webformular das Aspose.Cells.GridWeb-Steuerelement hinzu.
+1. Fügen Sie der Webformularsteuerung Aspose.Cells.GridWeb hinzu.
 1. Greifen Sie auf das Arbeitsblatt zu, aus dem Sie Zeilen löschen.
 1. Löschen Sie eine Zeile aus dem Arbeitsblatt, indem Sie ihren Zeilenindex angeben.
 
@@ -20,9 +23,9 @@ So löschen Sie eine Zeile aus Ihrem Arbeitsblatt:
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-DeleteRowsColumns.aspx-DeleteRow.cs" >}}
 ## **Spalten löschen**
-So löschen Sie eine Spalte aus Ihrem Arbeitsblatt:
+Um eine Spalte aus Ihrem Arbeitsblatt zu löschen:
 
-1. Fügen Sie einem Webformular das Aspose.Cells.GridWeb-Steuerelement hinzu.
+1. Fügen Sie der Webformularsteuerung Aspose.Cells.GridWeb hinzu.
 1. Greifen Sie auf das Arbeitsblatt zu, aus dem Sie Spalten löschen möchten.
 1. Löschen Sie eine Spalte aus dem Arbeitsblatt, indem Sie ihren Spaltenindex angeben.
 
@@ -32,6 +35,6 @@ So löschen Sie eine Spalte aus Ihrem Arbeitsblatt:
 
 {{% alert color="primary" %}} 
 
-Sie können auch DeleteRows/DeleteColumns-Methoden verwenden, um mehrere Zeilen/Spalten in den Arbeitsblättern zu löschen.
+Sie können auch die Methoden DeleteRows/DeleteColumns verwenden, um mehrere Zeilen/Spalten in den Arbeitsblättern zu löschen.
 
 {{% /alert %}}

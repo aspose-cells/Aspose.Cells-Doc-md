@@ -1,13 +1,14 @@
-﻿---
-title: Trabajar con colores
+---
+title: Trabajando con colores
 type: docs
 weight: 20
 url: /es/net/working-with-colors/
 ---
-## **Aspose.Cells - Trabajar con colores**
+
+## **Aspose.Cells - Trabajando con colores**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -53,10 +54,10 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Trabajar con colores**
+## **NPOI - HSSF XSSF - Trabajando con colores**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -102,13 +103,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Trabajar con colores** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Trabajando con colores** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Colors.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Funciones de formato de datos](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Para más detalles, visita [Características de Formato de Datos](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

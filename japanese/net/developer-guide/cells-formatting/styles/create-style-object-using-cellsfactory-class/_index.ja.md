@@ -1,13 +1,14 @@
 ---
-title: CellsFactoryクラスを使用してStyleオブジェクトを作成する
-description: Aspose.Cells は、セルのスタイルを設定するためのスタイル オブジェクトを提供する、スプレッドシート ファイルを操作するための .NET ライブラリです。この記事では、ユーザーが必要に応じてセルの外観をカスタマイズできるように、Aspose.Cells ライブラリの CellsFactory クラスを使用してセル スタイル オブジェクトを作成する方法を紹介します。
-keywords: Aspose.Cells, .NET library, electronic spreadsheet, style object, cell style, customization
+title: CellsFactoryクラスを使用してスタイルオブジェクトを作成する
+description: Aspose.Cellsは、セルのスタイルをカスタマイズできるように、スタイルオブジェクトを提供するスプレッドシートファイルの.NETライブラリです。この記事では、Aspose.CellsライブラリでCellsFactoryクラスを使用してセルスタイルオブジェクトを作成する方法を紹介します。
+keywords: Aspose.Cells、.NETライブラリ、電子スプレッドシート、スタイルオブジェクト、セルスタイル、カスタマイズ
 type: docs
 weight: 70
 url: /ja/net/create-style-object-using-cellsfactory-class/
 ---
-##  **CellsFactoryクラスを使用してStyleオブジェクトを作成する**
-次のサンプルコードは、[スタイル](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトを使用する[細胞工場](https://reference.aspose.com/cells/net/aspose.cells/cellsfactory)クラスを設定し、ワークブックのデフォルト スタイルを設定します。ダウンロードしてください[Excelファイルを出力する](5115153.xlsx)参考としてこのコードの結果を確認してください。
+
+## **CellsFactoryクラスを使用してスタイルオブジェクトを作成する**
+次のサンプルコードは、[CellsFactory](https://reference.aspose.com/cells/net/aspose.cells/cellsfactory) クラスを使用して[Style](https://reference.aspose.com/cells/net/aspose.cells/style) オブジェクトを作成し、ワークブックのデフォルトスタイルを設定します。このコードの結果については、[出力エクセルファイル](5115153.xlsx) をダウンロードして参照してください。
 
 
 

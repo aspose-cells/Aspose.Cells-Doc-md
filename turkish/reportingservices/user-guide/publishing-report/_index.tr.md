@@ -1,48 +1,49 @@
-﻿---
+---
 title: Raporun Yayınlanması
 type: docs
 weight: 120
 url: /tr/reportingservices/publishing-report/
 ---
+
 {{% alert color="primary" %}} 
 
-Sahip olmasını istediğiniz tüm unsurları içeren bir rapor tasarladığınızda, bir sonraki adım sizin ve iş arkadaşlarınızın çalıştırabilmesi için onu Raporlama Sunucusunda yayınlamaktır.
+Tüm istediğiniz öğeleri içeren bir raporu tasarladığınızda, bir sonraki adım onu sizin ve meslektaşlarınızın çalıştırabilmesi için Rapor Sunucusuna yayınlamaktır.
 
 {{% /alert %}} 
 
-Rapor Sunucusunda bir rapor yayınlamak için aşağıdaki adımları izleyin:
+Bir raporu Rapor Sunucusuna yayınlamak için aşağıdaki adımları izleyin:
 
-1.  Tıklamak**Yayınla** 
+1. **Yayınla**'ya tıklayın 
 
-![yapılacaklar:resim_alternatif_metin](publishing-report_1.png)
+![todo:image_alt_text](publishing-report_1.png)
 
- Aspose.Cells.Report.Designer araç çubuğunda ve**Evet** raporu kaydetmek için düğmesine basın.
+Aspose.Cells.Report.Designer araç çubuğunda ve raporu kaydetmek için **Evet** düğmesine tıklayın. 
 
-![yapılacaklar:resim_alternatif_metin](publishing-report_2.png)
-
-
-
-
-1.  İletişim kutusunda, Rapor Sunucusunun URL'sini girin ve**Yenile** buton.
-
-![yapılacaklar:resim_alternatif_metin](publishing-report_3.png)
-
-1.  Bir hedef klasör seçin ve rapor adını girin. Tıkla**Veri Kaynağı Kurulumu** veri kaynaklarını ayarlamak için düğme.
-
-![yapılacaklar:resim_alternatif_metin](publishing-report_4.png)
+![todo:image_alt_text](publishing-report_2.png)
 
 
 
-DataSource Kurulumu iletişim kutusu görüntülenir.
 
-1.  İletişim kutusunda, veri kaynağı bilgilerini girin. Tıklamak**Seçme** Paylaşılan veri kaynaklarını seçmek için (Bunlara ihtiyacınız varsa, paylaşılan veri kaynakları raporun birincil veri kaynağı olmalıdır). Tıkla**Tamam** işi tamamlamak için düğmesine basın.
+1. Açılan iletişim kutusunda Rapor Sunucusunun URL'sini girin ve **Yenile** düğmesine tıklayın.
 
-![yapılacaklar:resim_alternatif_metin](publishing-report_5.png)
+![todo:image_alt_text](publishing-report_3.png)
 
-1.  Tıklamak**Yayınla** raporu Rapor Sunucusunda yayınlamak için.
+1. Bir hedef klasör seçin ve rapor adını girin. Veri kaynaklarını yapılandırmak için **Veri Kaynağı Kurulumu** düğmesine tıklayın. 
 
-![yapılacaklar:resim_alternatif_metin](publishing-report_6.png)
-
+![todo:image_alt_text](publishing-report_4.png)
 
 
-işi tamamlamak için düğmesine basın.
+
+Veri Kaynağı Kurulumu iletişim kutusu görüntülenir.
+
+1. Açılan iletişim kutusunda veri kaynağı bilgilerini girin. Paylaşılan veri kaynaklarını seçmek için **Seç**'e tıklayın (Gerekiyorsa, paylaşılan veri kaynakları raporun ana veri kaynağı olmalıdır). İşlemi tamamlamak için **Tamam** düğmesine tıklayın.
+
+![todo:image_alt_text](publishing-report_5.png)
+
+1. Raporu Rapor Sunucusuna yayınlamak için **Yayınla**'ya tıklayın. 
+
+![todo:image_alt_text](publishing-report_6.png)
+
+
+
+işlemi tamamlamak için düğme.

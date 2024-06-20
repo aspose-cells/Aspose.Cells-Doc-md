@@ -1,16 +1,17 @@
-﻿---
-title: Çalışma Sayfasını İçe ve Dışa Aktarma
+---
+title: Çalışma Sayfası İçe ve Dışa Aktar
 type: docs
 weight: 100
 url: /tr/net/import-and-export-worksheet/
 ---
-Bu bölümde aşağıdaki konular yer almaktadır:
 
-- [Verileri belgeden dışa aktar](/cells/tr/net/export-data-from-document/)
-  - [Kesinlikle Yazılmamış Veriler İçeren Sütunlar](/cells/tr/net/columns-containing-non-strongly-typed-data/)
-  - [Kesinlikle Yazılmış Verileri İçeren Sütunlar](/cells/tr/net/columns-containing-strongly-typed-data/)
-- [Belgeden verileri içe aktar](/cells/tr/net/import-data-from-document/)
-  - [Diziden İçe Aktarma](/cells/tr/net/importing-from-array/)
-  - [ArrayList'ten içe aktarma](/cells/tr/net/importing-from-arraylist/)
-  - [Özel Nesnelerden İçe Aktarma](/cells/tr/net/importing-from-custom-objects/)
-  - [DataTable'dan içe aktarma](/cells/tr/net/importing-from-datatable/)
+Bu bölümdeki konular şunlardır:
+
+- [Belgeden Veri Aktar](/cells/tr/net/export-data-from-document/)
+  - [Güçlü-Tiplendirilmemiş Veri İçeren Sütunlar](/cells/tr/net/columns-containing-non-strongly-typed-data/)
+  - [Güçlü-Tiplendirilmiş Veri İçeren Sütunlar](/cells/tr/net/columns-containing-strongly-typed-data/)
+- [Belgeden veri içe aktarma](/cells/tr/net/import-data-from-document/)
+  - [Diziden Alınan Veri](/cells/tr/net/importing-from-array/)
+  - [ArrayList'ten Alınan Veri](/cells/tr/net/importing-from-arraylist/)
+  - [Özel Nesnelerden Alınan Veri](/cells/tr/net/importing-from-custom-objects/)
+  - [DataTable'dan Alınan Veri](/cells/tr/net/importing-from-datatable/)

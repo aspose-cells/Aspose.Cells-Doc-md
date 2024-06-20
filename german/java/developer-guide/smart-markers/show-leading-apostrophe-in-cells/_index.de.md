@@ -1,18 +1,19 @@
-﻿---
-title: Führenden Apostroph in Zellen anzeigen
+---
+title: Führende Apostroph in Zellen anzeigen
 type: docs
 weight: 20
 url: /de/java/show-leading-apostrophe-in-cells/
 ---
-## **Führenden Apostroph in Zellen anzeigen**
 
-In Microsoft Excel ist der führende Apostroph im Wert der Zelle ausgeblendet. Aspose.Cells bietet die Funktion zum standardmäßigen Anzeigen des Apostrophs. Dafür sorgt die API[**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)Eigentum. Diese Eigenschaft gibt an, ob festgelegt werden soll[**ZitatPräfix**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix)-Eigenschaft, wenn Sie einen Zeichenfolgenwert eingeben, der mit einem einfachen Anführungszeichen in die Zelle beginnt. Einstellung der[**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)Eigentum zu**FALSCH**zeigt den führenden Apostroph in der Excel-Ausgabedatei an.
+## **Führende Apostrophzeichen in Zellen anzeigen**
 
-Der folgende Screenshot zeigt die ausgegebene Excel-Datei mit dem sichtbaren Apostroph.
+In Microsoft Excel wird der führende Apostroph im Zellwert ausgeblendet. Aspose.Cells bietet die Funktion, den Apostroph standardmäßig anzuzeigen. Dafür stellt die API die [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)-Eigenschaft bereit. Diese Eigenschaft gibt an, ob die [**QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix)-Eigenschaft festgelegt werden soll, wenn ein Zeichenfolgenwert mit einem einzelnen Anführungszeichen in die Zelle eingegeben wird. Das Festlegen der [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)-Eigenschaft auf **false** zeigt den führenden Apostroph in der Ausgabedatei an.
 
-![todo: Bild_alt_Text](show-leading-apostrophe-in-cells_1.jpg)
+Der folgende Screenshot zeigt die Ausgabedatei mit dem sichtbaren Apostroph.
 
-Das folgende Code-Snippet demonstriert dies durch Hinzufügen von Daten mit Smart Markers in der Excel-Quelldatei. Die Quell- und Ausgabe-Excel-Dateien sind als Referenz beigefügt.
+![todo:image_alt_text](show-leading-apostrophe-in-cells_1.jpg)
+
+Der folgende Code-Ausschnitt zeigt dies, indem Daten mit Smart Markern in der Quell-Excel-Datei hinzugefügt werden. Die Quell- und Ausgabedateien für Referenzzwecke sind angehängt.
 
 [Quelldatei](AllowLeadingApostropheSample.xlsx)
 
@@ -22,6 +23,6 @@ Das folgende Code-Snippet demonstriert dies durch Hinzufügen von Daten mit Smar
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AllowLeadingApostrophe-1.java" >}}
 
-Die Implementierung von*Datenobjekt*Klasse ist unten angegeben
+Die Implementierung der *DataObject* Klasse ist unten angegeben
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelperClasses-DataObject-1.java" >}}

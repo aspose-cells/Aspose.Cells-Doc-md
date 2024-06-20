@@ -1,14 +1,15 @@
-﻿---
-title: رسم القطاعة أثناء تقديم Excel إلى PDF
+---
+title: رسم المنقي أثناء تحويل Excel إلى PDF
 type: docs
 weight: 60
 url: /ar/net/draw-slicer-while-rendering-excel-to-pdf/
 ---
-## **رسم القطاعة أثناء تقديم Excel إلى PDF**
-إذا كان لديك ملف Excel مطبق عليه أداة تقطيع وتريد تصدير ملف Excel إلى PDF باستخدام إعدادات تقطيع الشرائح ، فإن Aspose.Cells يدعم هذا افتراضيًا الآن. ما عليك سوى تصدير ملف Excel باستخدام أداة تقطيع الشرائح إلى PDF ، وسيُظهر PDF المُنشأ أداة التقطيع المطبقة.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](94044165.xlsx) الذي يحتوي على مقسم شرائح موجود. ثم يحفظ المصنف باسم[ملف الإخراج PDF](94044166.pdf). تقارن لقطة الشاشة التالية بين ملف Excel المصدر وملف PDF الذي تم إنشاؤه.
+## **رسم المنقي أثناء تحويل Excel إلى PDF**
+إذا كان لديك ملف Excel به منقي مطبق وترغب في تصدير ملف Excel إلى PDF مع إعدادات المنقي، تدعم Aspose.Cells الآن هذا بشكل افتراضي. ببساطة قم بتصدير ملف Excel مع المنقي إلى PDF، فإن الملف المولد سيظهر المنقي المطبق.
 
-![ما يجب القيام به: image_بديل_نص](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
-## **عينة من الرموز**
+الكود العيني
+
+![todo:image_alt_text](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-ExportSlicerToPDF-1.cs" >}}

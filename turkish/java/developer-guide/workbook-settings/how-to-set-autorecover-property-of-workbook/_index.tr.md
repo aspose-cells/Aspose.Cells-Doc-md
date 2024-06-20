@@ -1,28 +1,29 @@
-﻿---
-title: Çalışma Kitabının Otomatik Kurtarma özelliği nasıl ayarlanır?
+---
+title: Çalışma Kitabının Otomatik Kurtarma Özelliğini Ayarlamak
 type: docs
 weight: 160
 url: /tr/java/how-to-set-autorecover-property-of-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Çalışma kitabının Otomatik Kurtarma özelliğini ayarlamak için Aspose.Cells'i kullanabilirsiniz. Bu özelliğin varsayılan değeri**doğru** . Ayarladığınızda**YANLIŞ** bir çalışma kitabında, Microsoft Excel, o Excel dosyasında Otomatik Kurtarma'yı (Otomatik kaydetme) devre dışı bırakır.
+Aspose.Cells'i kullanarak çalışma kitabının Otomatik Kurtarma özelliğini ayarlayabilirsiniz. Bu özelliğin varsayılan değeri **true**. Eğer bir çalışma kitabında bunu **false** olarak ayarlarsanız, Microsoft Excel Otomatik Kurtarma (Oto Kaydet) özelliğini devre dışı bırakır.
 
- Aspose.Cells sağlar[**Workbook.getSettings().setAutoRecover()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#AutoRecover) özelliği, bu seçeneği etkinleştirmek veya devre dışı bırakmak için.
+Aspose.Cells, bu seçeneği etkinleştirmek veya devre dışı bırakmak için [**Workbook.getSettings().setAutoRecover()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#AutoRecover) özelliğini sağlar.
 
 {{% /alert %}}
 
-## Çalışma Kitabının Otomatik Kurtarma özelliğini ayarlamak için Java kodu
+## Çalışma Kitabının Otomatik Kurtarma Özelliğini Ayarlamak için Java Kodu
 
- Aşağıdaki kod nasıl kullanılacağını açıklar[**Workbook.getSettings().setAutoRecover()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#AutoRecover) çalışma kitabının özelliği. Kod, önce bu özelliğin varsayılan değerini okur.**doğru** , ardından şu şekilde ayarlar:**YANLIŞ** ve çalışma kitabını kaydeder. Daha sonra çalışma kitabını tekrar okur ve bu özelliğin şu anda yanlış olan değerini okur.
+Aşağıdaki kod, çalışma kitabının [**Workbook.getSettings().setAutoRecover()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#AutoRecover) özelliğinin nasıl kullanılacağını açıklar. Kod önce bu özelliğin varsayılan değerini (**true**) okur, ardından onu **false** olarak ayarlar ve çalışma kitabını kaydeder. Sonra çalışma kitabını tekrar okur ve bu özelliğin o anda **false** olan değerini okur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetAutoRecoverProperty-SetAutoRecoverProperty.java" >}}
 
-## Örnek kod tarafından oluşturulan çıktı
+## Örnek Kod Tarafından Oluşturulan Çıkış
 
-İşte yukarıdaki örnek kodun konsol çıktısı.
+Yukarıdaki örnek kodun konsol çıktısı burada gösterilmektedir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 AutoRecover: true
 

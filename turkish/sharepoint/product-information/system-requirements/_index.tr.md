@@ -1,26 +1,27 @@
-﻿---
-title: sistem gereksinimleri
+---
+title: Sistem Gereksinimleri
 type: docs
 weight: 40
 url: /tr/sharepoint/system-requirements/
 ---
-### **Sunucu Gereksinimleri**
-Aspose.Cells for SharePoint'i yüklemek için aşağıdakilerden birini çalıştıran bir bilgisayara ihtiyacınız vardır:
 
-- Windows SharePoint Hizmetleri 3.0
-- Microsoft Office SharePoint Sunucusu 2007
-- Microsoft SharePoint Sunucusu 2010
-- Microsoft SharePoint Sunucusu 2013
+### **Sunucu Gereksinimleri**
+Aspose.Cells for SharePoint'u yüklemek için aşağıdakilerden biri olan bir bilgisayarda çalışan bir işletim sistemine ihtiyacınız vardır:
+
+- Windows SharePoint Services 3.0
+- Microsoft Office SharePoint Server 2007
+- Microsoft SharePoint Server 2010
+- Microsoft SharePoint Server 2013
 
 {{% alert color="primary" %}} 
 
-Bu ürünler için Service Pack 2 veya sonraki bir sürümünü yüklemenizi öneririz.
+Bu ürünler için Service Pack 2 veya sonraki sürümünü yüklemenizi tavsiye ederiz.
 
 {{% /alert %}}
-### **Müşteri Gereksinimleri**
-SharePoint sitelerine erişmek için bir tarayıcıya ihtiyacınız var. Aspose.Cells for SharePoint ile test edilir:
+### **İstemci Gereksinimleri**
+SharePoint sitelerine erişmek için bir tarayıcıya ihtiyacınız vardır. Aspose.Cells for SharePoint şunlarla test edilmiştir:
 
 - Microsoft Internet Explorer
-- Mozilla Firefox
-- Google krom
+- Mozilla FireFox
+- Google Chrome
 - Safari

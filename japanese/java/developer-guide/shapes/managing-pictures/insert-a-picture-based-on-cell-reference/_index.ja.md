@@ -1,24 +1,25 @@
-﻿---
-title: Cell 参照に基づいて画像を挿入する
+---
+title: セル参照に基づいて画像を挿入する
 type: docs
 weight: 90
 url: /ja/java/insert-a-picture-based-on-cell-reference/
 ---
+
 {{% alert color="primary" %}}
 
-空白の画像があり、数式バーでセル参照を設定して画像にデータやコンテンツを表示する必要がある場合があります。 Aspose.Cells はこの機能をサポートしています (Microsoft Excel 2010)。
+時々、空の画像があり、Formula Barでセル参照を設定して画像内のデータや内容を表示する必要があります。 Aspose.Cellsはこの機能（Microsoft Excel 2010）をサポートしています。
 
 {{% /alert %}}
 
-## Cell 参照に基づく画像の挿入
+## セル参照に基づいて画像を挿入する
 
-Aspose.Cells は、ワークシート セルの内容を画像の形で表示することをサポートします。表示するデータを含むセルに画像をリンクできます。セルまたはセル範囲がグラフィック オブジェクトにリンクされているため、データへの変更は自動的にグラフィック オブジェクトに表示されます。を呼び出して、ワークシートに画像を追加します。[**画像を追加**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPicture(int,%20int,%20int,%20int,%20java.io.InputStream) ) の方法[**シェイプコレクション**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection)コレクション ([**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)物体）。を使用してセル範囲を指定します。[**set式**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#Formula)の方法[**写真**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)物体。
+Aspose.Cellsはワークシートセルの内容を画像形状で表示することをサポートしています。表示したいデータを含むセルに画像をリンクすることができます。セルまたはセル範囲がグラフィックオブジェクトにリンクされているため、データの変更が自動的にグラフィックオブジェクトに反映されます。ワークシートに画像を追加するには、[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)オブジェクトでカプセル化された[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection)コレクションの[**addPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPicture(int,%20int,%20int,%20int,%20java.io.InputStream))メソッドを呼び出します。[**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)オブジェクトの[**setFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#Formula)メソッドを使用してセル範囲を指定します。
 
-以下は、以下のコードが生成するファイルのスクリーンショットです。
+以下は、下記のコードによって生成されるファイルのスクリーンショットです。
 
-**セル参照に基づく画像の挿入**
+**セル参照に基づいて画像を挿入する**
 
-![todo:画像_代替_文章](insert-a-picture-based-on-cell-reference_1.png)
+![todo:image_alt_text](insert-a-picture-based-on-cell-reference_1.png)
 
 ## サンプルコード
 

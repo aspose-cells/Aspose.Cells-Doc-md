@@ -1,20 +1,21 @@
-﻿---
-title: تقديم عناصر المخطط للتقرير المحدد إلى مخططات Excel
+---
+title: عرض عناصر الرسم البياني في التقرير المحدد كمخططات Excel
 type: docs
 weight: 20
 url: /ar/reportingservices/render-chart-items-of-selected-report-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-لتقديم عناصر المخطط إلى مخططات Excel Microsoft:
+لعرض عناصر الرسم البياني إلى مخططات Microsoft Excel:
 
-1. افتح ال**Aspose.Cells.ReportingServices.xml** ملف.
-1.  قم بتعديل معلمات التكوين في ملف**Aspose.Cells.ReportingServices.xml** ملف.
-1. أضف معلومات تكوين التقرير المطلوب.
+1. افتح ملف **Aspose.Cells.ReportingServices.xml**.
+1. قم بتعديل معلمات التكوين في ملف **Aspose.Cells.ReportingServices.xml**.
+1. أضف معلومات تكوين التقرير المرغوبة.
 
 على سبيل المثال:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 
@@ -28,6 +29,6 @@ url: /ar/reportingservices/render-chart-items-of-selected-report-to-excel-charts
 
 **يمكن تحرير مخططات Excel في Microsoft Excel** 
 
-![ما يجب القيام به: image_بديل_نص](render-chart-items-of-selected-report-to-excel-charts_1.png)
+![todo:image_alt_text](render-chart-items-of-selected-report-to-excel-charts_1.png)
 
 {{% /alert %}}

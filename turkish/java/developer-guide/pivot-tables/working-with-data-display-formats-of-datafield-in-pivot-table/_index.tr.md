@@ -1,20 +1,21 @@
-﻿---
-title: Pivot Tabloda DataField'in veri görüntüleme biçimleriyle çalışma
+---
+title: Pivot Tablosundaki Veri Alanı nın Veri Görüntüleme Biçimleriyle Çalışma
 type: docs
 weight: 150
 url: /tr/java/working-with-data-display-formats-of-datafield-in-pivot-table/
 ---
+
 {{% alert color="primary" %}}
 
 Aspose.Cells, DataField'ın tüm veri görüntüleme formatlarını destekler.
 
 {{% /alert %}}
 
-## **"En Küçükten En Büyüğe Sırala" ve "En Büyükten En Küçüğe Sırala" görüntü formatı seçeneği**
+## **"En Küçükten En Büyüğe Sırala" ve "En Büyükten En Küçüğe Sırala" görüntüleme formatı seçeneği**
 
-Aspose.Cells, pivot alanlar için görüntüleme formatı seçeneğini belirleme yeteneği sağlar. Bunun için API,[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfield#DataDisplayFormat) Emlak. En büyükten en küçüğe sıralamak için[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfield#DataDisplayFormat)mülkiyet[**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfielddatadisplayformat#RANK_LARGEST_TO_SMALLEST). Aşağıdaki kod parçacığı, görüntü formatı seçeneklerini ayarlamayı gösterir.
+Aspose.Cells, haraket alanları için görüntüleme formatı seçeneğini ayarlama olanağı sağlar. Bunun için API, [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfield#DataDisplayFormat) özelliğini sağlar. En büyükten en küçüğe sıralamak için, [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfield#DataDisplayFormat) özelliğini [**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfielddatadisplayformat#RANK_LARGEST_TO_SMALLEST) olarak ayarlayabilirsiniz. Aşağıdaki kod parçası, görüntüleme formatı seçeneklerinin ayarlanmasını göstermektedir.
 
-Örnek kodu test etmek için örnek kaynak ve çıktı dosyaları buradan indirilebilir:
+Örnek kaynak ve çıktı dosyalarını buradan indirebilir ve örnek kodu test etmek için kullanabilirsiniz:
 
 [Kaynak Excel Dosyası](PivotTableSample.xlsx)
 

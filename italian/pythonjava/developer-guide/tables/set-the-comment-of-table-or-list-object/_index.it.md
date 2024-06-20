@@ -1,16 +1,17 @@
-﻿---
-title: Impostare il commento dell'oggetto tabella o elenco
+---
+title: Imposta il commento dell oggetto tabella o elenco
 type: docs
 weight: 60
 url: /it/python-java/set-the-comment-of-table-or-list-object/
 ---
-## **Impostare il commento della tabella o dell'oggetto elenco all'interno del foglio di lavoro**
-Aspose.Cells for Python via Java supporta l'aggiunta del commento di List Object. Per questo, lo API fornisce il[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)proprietà. Il commento aggiunto dal[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)proprietà sarà visibile all'interno del*xl/tabelle/nometabella.xml* file.
 
-Lo screenshot seguente mostra il commento creato dal codice di esempio nel rettangolo rosso.
+## **Imposta il commento della tabella o dell'oggetto lista all'interno del foglio di lavoro**
+Aspose.Cells for Python via Java supporta l'aggiunta del commento dell'oggetto elenco. A tal fine, l'API fornisce la proprietà [ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment). Il commento aggiunto dalla proprietà [ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment) sarà visibile all'interno del file *xl/tables/tableName.xml*.
 
-![cose da fare:immagine_alt_testo](setting-list-object-comment.png)
+La seguente schermata mostra il commento creato dal codice di esempio nel rettangolo rosso.
 
-Il codice di esempio seguente carica il file[file excel di origine](source.xlsx), imposta il commento del primo oggetto tabella o elenco all'interno del foglio di lavoro
+![todo:image_alt_text](setting-list-object-comment.png)
+
+Il seguente codice di esempio carica il [file excel di origine](source.xlsx), imposta il commento della prima tabella o oggetto elenco all'interno del foglio di lavoro 
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Tables-SetTheCommentOfTableOrListObject.py" >}}

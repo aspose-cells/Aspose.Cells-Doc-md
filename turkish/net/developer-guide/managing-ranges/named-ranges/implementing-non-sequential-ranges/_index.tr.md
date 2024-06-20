@@ -1,16 +1,17 @@
-﻿---
-title: Sıralı Olmayan Aralıkları Uygulama
+---
+title: Sıralı Olmayan Menzilleri Uygulama
 type: docs
 weight: 700
 url: /tr/net/implementing-non-sequential-ranges/
 ---
+
 {{% alert color="primary" %}} 
 
-Normal olarak, adlandırılmış aralıklar dikdörtgen şeklindedir ve hücreler süreklidir ve birbirine bitişiktir. Ancak bazen, hücrelerin bitişik olmadığı sıralı olmayan bir hücre aralığı kullanmanız gerekebilir. Aspose.Cells, bitişik olmayan hücrelerle adlandırılmış bir aralık oluşturmayı destekler.
+Normalde, adlandırılmış aralıklar hücrelerin ardışık ve bitişik olduğu dikdörtgen şeklindedir. Ancak bazen, bitişik olmayan hücrelerin bulunduğu sırasız bir hücre aralığını kullanmanız gerekebilir. Aspose.Cells, bitişik olmayan hücrelerle adlandırılmış bir aralık oluşturmaya olanak tanır.
 
 {{% /alert %}} 
 
-Aşağıdaki kod örneği, Aspose.Cells for .NET ile adlandırılmış sıralı olmayan bir aralığın nasıl oluşturulacağını gösterir.
+Aşağıdaki kod örneği, Aspose.Cells for .NET ile adlandırılmış ardışık olmayan bir aralık oluşturmayı gösterir.
 
 
 

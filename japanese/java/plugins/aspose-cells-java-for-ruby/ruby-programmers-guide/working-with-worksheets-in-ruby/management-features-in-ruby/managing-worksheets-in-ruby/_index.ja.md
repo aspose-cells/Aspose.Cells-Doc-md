@@ -1,16 +1,17 @@
-﻿---
-title: Ruby でのワークシートの管理
+---
+title: Rubyでのワークシートの管理
 type: docs
 weight: 10
 url: /ja/java/managing-worksheets-in-ruby/
 ---
+
 ## **Aspose.Cells - ワークシートの管理**
-### **新しい Excel ファイルへのワークシートの追加**
-を使用して新しい Excel ファイルにワークシートを追加するには**Aspose.Cells Ruby の場合は Java**、単に呼び出す**add_worksheet**方法**ワークシートの管理**モジュール。
+### **新しいExcelファイルにワークシートを追加する**
+**Aspose.Cells Java for Ruby** を使用して新しいExcelファイルにワークシートを追加するには、**MangingWorksheets** モジュールの **add_worksheet** メソッドを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet()
 
@@ -39,12 +40,12 @@ url: /ja/java/managing-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Designer スプレッドシートへのワークシートの追加**
-ワークシートをデザイナー スプレッドシートに追加するプロセスは、Excel ファイルが既に作成されており、ワークシートを追加する前にまずその Excel ファイルを開く必要があることを除いて、上記のアプローチのプロセスとまったく同じです。
+### **デザイナースプレッドシートにワークシートを追加する**
+デザイナースプレッドシートにワークシートを追加するプロセスは、上記のアプローチとまったく同じです。ただし、Excelファイルはすでに作成されており、ワークシートを追加する前にそのExcelファイルを開く必要があります。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet_to_designer_spreadsheet()
 
@@ -76,11 +77,11 @@ end  
 
 {{< /highlight >}}
 ### **シート名を使用してワークシートにアクセスする**
-を使用してシート名でワークシートにアクセスするには**Aspose.Cells Ruby の場合は Java**、単に呼び出す**get_worksheet**方法**ワークシートの管理**モジュール。
+**Aspose.Cells Java for Ruby** を使用してシート名でワークシートにアクセスするには、**MangingWorksheets** モジュールの **get_worksheet** メソッドを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_worksheet()
 
@@ -102,11 +103,11 @@ end
 
 {{< /highlight >}}
 ### **シート名を使用してワークシートを削除する**
-を使用してシート名でワークシートを削除するには**Aspose.Cells Ruby の場合は Java**、単に呼び出す**remove_worksheet_by_name**方法**ワークシートの管理**モジュール。
+**Aspose.Cells Java for Ruby** を使用してシート名でワークシートを削除するには、**MangingWorksheets** モジュールの **remove_worksheet_by_name** メソッドを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_name()
 
@@ -138,12 +139,12 @@ end
 
 
 {{< /highlight >}}
-### **シート インデックスを使用してワークシートを削除する**
-を使用してシート インデックスごとにワークシートを削除するには**Aspose.Cells Ruby の場合は Java**、単に呼び出す**remove_worksheet_by_index**方法**ワークシートの管理**モジュール。
+### **Sheet Indexを使用してワークシートを削除する**
+**Aspose.Cells Java for Ruby** を使用してシートインデックスでワークシートを削除するには、**MangingWorksheets** モジュールの **remove_worksheet_by_index** メソッドを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_index()
 
@@ -174,7 +175,7 @@ end
 end 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートの管理 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**Managing Worksheets (Aspose.Cells)** をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

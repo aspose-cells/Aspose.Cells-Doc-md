@@ -1,23 +1,24 @@
-﻿---
-title: Genel API Aspose.Cells 16.12.0'daki değişiklikler
+---
+title: Aspose.Cells 16.12.0 daki Genel API Değişiklikleri
 type: docs
 weight: 360
 url: /tr/net/public-api-changes-in-aspose-cells-16-12-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 16.11.0 sürümünden 16.12.0 sürümüne Aspose.Cells API değişikliklerini açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, 16.11.0'dan 16.12.0'a Aspose.Cells API'sindeki değişiklikleri modül/uygulama geliştiricilerinin ilgisini çekebilecek değişiklikleri açıklar. Sadece yeni ve güncellenmiş genel yöntemleri, eklendikçe ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'in arka planda olan değişikliklerini de açıklar.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Yükleme Süresinde Nesneleri Filtrele**
-Aspose.Cells 16.12.0, bir şablon dosyasından bir Çalışma Kitabı örneğini başlatırken yüklenecek veri türünü birlikte kontrol edebilen LoadFilter sınıfını ve LoadOptions.LoadFilter özelliğini kullanıma sundu.
+## **Eklenen API'lar**
+### **Yükleme Zamanında Filtre Nesneleri**
+Aspose.Cells 16.12.0, bir şablon dosyasından bir Workbook örneğini başlatırken yüklenmesini kontrol edebilen LoadFilter sınıfını ve LoadOptions.LoadFilter özelliğini açığa çıkarmıştır.
 
-Bir şablon dosyasından yalnızca belge özelliklerini yüklemek için basit bir kullanım senaryosu.
+Şablon dosyasından sadece belge özelliklerini yüklemek için basit bir kullanım senaryosu burada.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -37,11 +38,11 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 
 
 
-Aşağıdaki snippet, grafikler dışında mevcut bir e-tablodaki her şeyi yükler.
+Aşağıdaki kesit, grafikler hariç mevcut bir elektronik tablodan her şeyi yükler.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -59,11 +60,11 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 
 
 
-Aşağıdaki kod, yalnızca hücre verilerini (formüllerle birlikte) ve mevcut bir elektronik tablodan biçimlendirmeyi yükler.
+Aşağıdaki kod, yalnızca mevcut bir elektronik tablodan hücre verilerini (formüllerle birlikte) ve biçimlendirmeyi yükler.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -81,11 +82,11 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 
 
 
-LoadFilter sınıfı, yükleme işleminin Çalışma Sayfasının özelliklerine göre özelleştirilmesine de izin verir. Yükleme işlemini çalışma sayfasına göre özelleştirmek için, aşağıda gösterildiği gibi LoadFilter.StartSheet yöntemini geçersiz kılmak gerekir.
+YükFilter sınıfı aynı zamanda Yapısayfaların özelliklerine göre yükleme sürecini özelleştirmenize olanak tanır. Yükleme sürecini yapıl sayfa olarak özelleştirmek için, aşağıda gösterildiği gibi LoadFilter.StartSheet yöntemini geçersiz kılmak gerekir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomFilter : Aspose.Cells.LoadFilter
 
@@ -123,11 +124,11 @@ LoadFilter sınıfı, yükleme işleminin Çalışma Sayfasının özelliklerine
 
 
 
-Aşağıdaki kod parçacığı, yukarıda tanımlanan CustomFilter sınıfını kullanır.
+Yukarıda tanımlanan CustomFilter sınıfının kullanımı aşağıdaki örnekte gösterilmiştir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -144,14 +145,14 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 {{< /highlight >}}
 
 
-### **FileFormatType.OTS Numaralandırması Eklendi**
-Aspose.Cells 16.12.0, OTS dosyalarının biçimini algılamak için FileFormatType numaralandırmasına OTS girişi ekledi.
+### **Eklendi FileFormatType.OTS Numaralandırması**
+Aspose.Cells 16.12.0, OTS dosyalarının biçimini algılamak için FileFormatType numaralandırmasına OTS girişi eklemiştir.
 
-Aşağıdaki kod parçası, FileFormatType.OTS'den yararlanır.
+Aşağıdaki kesit, FileFormatType.OTS'yi kullanır.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample in an instance of FileStream
 
@@ -170,22 +171,22 @@ Debug.Assert(fileFormatInfo.FileFormatType == FileFormatType.OTS);
 {{< /highlight >}}
 
 
-### **FontConfigs.PreferSystemFontSubstitutes Özelliği Eklendi**
-Aspose.Cells 16.12.0, FontConfigs sınıfı için PreferSystemFontSubstitutes özelliğini kullanıma sundu. FontConfigs.PreferSystemFontSubstitutes özelliği Boolean türündedir ve gerekli bir yazı tipinin olmaması ve belirli bir yazı tipi için herhangi bir ikamenin tanımlanmaması durumunda API'in önce sistemin yazı tipi değiştirme mekanizmasını kullanıp kullanmayacağını belirtir. FontConfigs.PreferSystemFontSubstitutes özelliğinin varsayılan değeri yanlıştır.
-### **BuiltInDocumentPropertyCollection.ScaleCrop Özelliği eklendi**
-Aspose.Cells 16.12.0, ScaleCrop özelliğini BuiltInDocumentPropertyCollection sınıfına ekledi. ScaleCrop, belge küçük resminin görüntüleme modunu belirtir. Bu öğenin true olarak ayarlanması, belge küçük resminin ekrana göre ölçeklenmesini sağlarken, false olarak ayarlanması, ekrana uyan bölümü göstermek için belge küçük resminin kırpılmasını sağlar.
-### **BuiltInDocumentPropertyCollection.LinksUpToDate Özelliği eklendi**
-Aspose.Cells 16.12.0 ayrıca, BuiltInDocumentPropertyCollection sınıfı için LinksUpToDate özelliğini kullanıma sunmuştur. LinksUpToDate özelliği, bir belgedeki köprülerin güncel olup olmadığını gösterir.
-### **Workbook.ExportXml Yöntemi Eklendi**
-Aspose.Cells 16.12.0, XML eşleme verilerini belirtilen dosya yolunda depolamaya izin veren Workbook.ExportXml yöntemini kullanıma sundu. Workbook.ExportXml yöntemi 2 parametre kabul eder; burada string türündeki ilk parametre XML eşleme adı olmalıdır ve ikinci parametre, XML verilerini depolamak için dosya yolu konumu olmalıdır.
-### **WorksheetCollection.CreateRange Yöntemi Eklendi**
-Aspose.Cells 16.12.0, bir adrese (hücre alanı referansı) ve Çalışma Sayfası dizinine dayalı aralık oluşturmaya izin veren WorksheetCollection.CreateRange yöntemini ekledi.
+### **EKLENEN FontConfigs.PreferSystemFontSubstitutes Özelliği**
+Aspose.Cells 16.12.0, FontConfigs sınıfı için PreferSystemFontSubstitutes özelliğini ortaya çıkarmıştır. FontConfigs.PreferSystemFontSubstitutes özelliği, belirli bir yazı tipinin belirtilmiş bir biçimlendirme olmaksızın mevcut olmaması durumunda, API'nin ilk olarak sistem yazı tipi değişim mekanizmasını kullanıp kullanmayacağını gösteren Boolean türündedir. FontConfigs.PreferSystemFontSubstitutes özelliğinin varsayılan değeri false'tur.
+### **Eklendi BuiltInDocumentPropertyCollection.ScaleCrop Özelliği**
+Aspose.Cells 16.12.0, BuiltInDocumentPropertyCollection sınıfına ScaleCrop özelliğini eklemiştir. ScaleCrop, belge küçük resminin görüntü modunu gösterir. Bu öğeyi true olarak ayarlamak, belge küçük resminin görüntüye göre ölçeklenmesini sağlarken, false olarak ayarlamak, belge küçük resminin gösterilen bölümünü kırpılmasını sağlar.
+### **Eklendi BuiltInDocumentPropertyCollection.LinksUpToDate Özelliği**
+Aspose.Cells 16.12.0, BuiltInDocumentPropertyCollection sınıfı için LinksUpToDate özelliğini de açıklamıştır. LinksUpToDate özelliği, bir belgedeki bağlantıların güncel olup olmadığını gösterir.
+### **EKLENEN Workbook.ExportXml Yöntemi**
+Aspose.Cells 16.12.0, XML haritası verilerini belirtilen dosya yoluna saklamayı sağlayan Workbook.ExportXml yöntemini ortaya çıkarmıştır. Workbook.ExportXml yöntemi, ilk parametresi string türünde olan XML haritası adını ve ikinci parametresi saklanacak XML verilerinin dosya yolunu belirtmelidir.
+### **EKLENEN WorksheetCollection.CreateRange Yöntemi**
+Aspose.Cells 16.12.0, WorksheetCollection.CreateRange yöntemini, bir adres (hücre alanı referansı) ve Çalışsayfa dizine dayalı olarak bir aralık oluşturmanıza olanak tanır.
 
-Aşağıdaki kod parçacığı, ilk (varsayılan) çalışma sayfasında A1'den A2'ye kadar uzanan bir hücre aralığı oluşturmak için WorksheetCollection.CreateRange yöntemini kullanır.
+Aşağıdaki kesitte, ilk (varsayılan) çalışsayfa içinde A1'den A2'ye uzanan hücrelerin bir aralığını oluşturmak için WorksheetCollection.CreateRange yöntemi kullanılmaktadır.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -202,27 +203,27 @@ var sheets = book.Worksheets;
 var range = sheets.CreateRange("A1:A2", 0);
 
 {{< /highlight >}}
-## **Eski API'ler**
-### **Eski LoadOptions.LoadDataOptions Özelliği**
+## **Eskimiş API'lar**
+### **Yönetimsiz LoadOptions.LoadDataOptions Özelliği**
 Lütfen alternatif olarak LoadOptions.LoadFilter özelliğini kullanın.
-### **Eski LoadOptions.LoadDataFilterOptions Özelliği**
-Lütfen bunun yerine LoadOptions.LoadFilter özelliğini kullanın.
-### **Eski LoadOptions.OnlyLoadDocumentProperties Özelliği**
+### **Yönetimsiz LoadOptions.LoadDataFilterOptions Özelliği**
 Lütfen alternatif olarak LoadOptions.LoadFilter özelliğini kullanın.
-### **Eski LoadOptions.LoadDataAndFormatting Özellik**
-Lütfen bunun yerine LoadOptions.LoadFilter özelliğini kullanın.
+### **Yönetimsiz LoadOptions.OnlyLoadDocumentProperties Özelliği**
+Lütfen alternatif olarak LoadOptions.LoadFilter özelliğini kullanın.
+### **Yönetimsiz LoadOptions.LoadDataAndFormatting Özelliği**
+Lütfen alternatif olarak LoadOptions.LoadFilter özelliğini kullanın.
 
 {{% alert color="primary" %}} 
 
-Tüm eskimiş API'ler için kod parçacıkları yukarıda paylaşılmıştır.
+Tüm yönetimsiz API'ler için kod parçacıkları yukarıda paylaşılmıştır.
 
 {{% /alert %}}
-## **Silinmiş API'ler**
+## **Silinmiş API'lar**
 ### **Silinmiş DataLabels.Rotation Özelliği**
-Lütfen bunun yerine DataLabels.RotationAngle özelliğini kullanın.
-### **Title.Rotation Özelliği Silindi**
+Lütfen alternatif olarak DataLabels.RotationAngle özelliğini kullanın.
+### **Silinmiş Title.Rotation Özelliği**
 Lütfen alternatif olarak Title.RotationAngle özelliğini kullanın.
 ### **Silinmiş DataLabels.Background Özelliği**
-Bunun yerine DataLabels.BackgroundMode özelliğinin kullanılması önerilir.
-### **DisplayUnitLabel.Rotation Özelliği Silindi**
-Lütfen aynı hedefe ulaşmak için DisplayUnitLabel.RotationAngle özelliğini kullanmayı düşünün.
+Bunun yerine DataLabels.BackgroundMode özelliğini kullanmanız önerilir.
+### **Silinmiş DisplayUnitLabel.Rotation Özelliği**
+Aynı hedefe ulaşmak için lütfen DisplayUnitLabel.RotationAngle özelliğini kullanmayı düşünün.

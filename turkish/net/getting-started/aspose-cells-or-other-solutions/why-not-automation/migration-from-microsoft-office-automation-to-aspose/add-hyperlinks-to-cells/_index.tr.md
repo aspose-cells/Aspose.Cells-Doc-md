@@ -1,41 +1,42 @@
-﻿---
-title: Cells'e Köprü Ekle
+---
+title: Hücrelere Bağlantılar Ekle
 type: docs
 weight: 60
 url: /tr/net/add-hyperlinks-to-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET, bir kullanıcının Microsoft Excel'de gerçekleştirebileceği hemen hemen tüm görevleri uygulamanız üzerinden gerçekleştirmenizi sağlar. Bu makale, VSTO ve Aspose.Cells for .NET kullanarak bir çalışma sayfasındaki bir hücreye nasıl köprü ekleneceğini karşılaştırır.
+Aspose.Cells for .NET, Microsoft Excel'de bir kullanıcının gerçekleştirebileceği neredeyse tüm görevleri uygulamanız aracılığıyla gerçekleştirmenizi sağlar. Bu makale, bir çalışma sayfasındaki bir hücreye bir bağlantı eklemenin VSTO ve Aspose.Cells for .NET kullanarak nasıl yapıldığını karşılaştırır.
 
 {{% /alert %}}
 
-## **Cells'e Köprüler Ekleme**
+## **Hücrelere Bağlantılar Ekleme**
 
-Bir elektronik tablodaki hücrelere köprüler eklemek için aşağıdaki adımları izleyin:
+Bir elektronik tabloya hücrelere bağlantı eklemek için aşağıdaki adımları izleyin:
 
-1. Çalışma sayfasını ayarlayın:
- 1. Bir Uygulama nesnesi oluşturun.
- (Yalnızca VSTO.)
- 1. Bir Çalışma Kitabı ekleyin.
- 1. İlk sayfayı alın.
- 1. Köprü ekleyeceğiniz hücrelere metin ekleyin.
-1. Köprü ekle.
+1. Çalışma sayfasını kurun:
+   1. Bir Uygulama nesnesi örnekleyin.
+      (Sadece VSTO.)
+   1. Bir çalışma kitabı ekleyin.
+   1. İlk sayfayı alın.
+   1. Hücrelere bağlantı eklenecek metni ekleyin.
+1. Bağlantı ekle.
 1. Belgeyi kaydedin.
 
- Bu adımlar aşağıdaki kod örneklerinde gösterilmektedir. İlk örnekler nasıl kullanılacağını gösterir[VSTO](/cells/tr/net/add-hyperlinks-to-cells/) bir hücreye köprü eklemek için C# veya Visual Basic ile. Aşağıdaki örnekler, kullanarak aynı şeyi nasıl yapacağınızı gösterir.[Aspose.Cells for .NET](/cells/tr/net/add-hyperlinks-to-cells/), yine C# veya Visual Basic kullanarak.
+Bu adımlar aşağıdaki kod örnekleriyle gösterilmiştir. İlk örnekler, [VSTO](/cells/tr/net/add-hyperlinks-to-cells/) kullanarak bir hücreye bağlantı eklemenin C# veya Visual Basic kullanarak nasıl yapılacağını gösterir. Bunu yapmanın aynı adımlarını gösteren örneklerin ardından, yine C# veya Visual Basic kullanarak [Aspose.Cells for .NET](/cells/tr/net/add-hyperlinks-to-cells/) kullanarak aynı şeyi nasıl yapacağınızı gösteren örnekler bulunmaktadır.
 
-Kod örnekleri, ilk çalışma sayfasındaki A1 hücresinde köprü bulunan bir Excel dosyası oluşturur.
+Kod örnekleri, birinci çalışma sayfasındaki A1 hücresinde bir bağlantıya sahip bir Excel dosyası oluşturur.
 
-![yapılacaklar:resim_alternatif_metin](add-hyperlinks-to-cells_1.png)
+![todo:image_alt_text](add-hyperlinks-to-cells_1.png)
 
-**A1 hücresine bir köprü eklenir.**
+**A1 hücresine bir bağlantı eklenir.**
 
-### **VSTO ile Cells'e Köprü Ekleme**
+### **VSTO ile Hücrelere Bağlantı Ekleme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -87,11 +88,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Aspose.Cells for .NET ile Cells'e Köprü Ekleme**
+### **Aspose.Cells for .NET ile Hücrelere Bağlantı Ekleme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

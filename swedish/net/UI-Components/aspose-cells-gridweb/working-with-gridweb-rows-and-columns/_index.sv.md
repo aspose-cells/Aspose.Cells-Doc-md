@@ -1,6 +1,8 @@
-﻿---
-title: Arbeta med GridWeb rader och kolumner
+---
+title: Arbeta med rader och kolumner i GridWeb
 type: docs
 weight: 50
-url: /sv/net/working-with-gridweb-rows-and-columns/
+url: /sv/net/aspose-cells-gridweb/work-with-gridweb-rows-and-columns/
 ---
+
+

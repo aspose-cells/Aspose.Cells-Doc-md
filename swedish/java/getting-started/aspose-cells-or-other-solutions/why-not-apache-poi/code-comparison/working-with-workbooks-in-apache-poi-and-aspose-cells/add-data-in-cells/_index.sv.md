@@ -1,15 +1,16 @@
-﻿---
-title: Lägg till data på Cells
+---
+title: Lägg till data i celler
 type: docs
 weight: 10
 url: /sv/java/add-data-in-cells/
 ---
-## **Aspose.Cells - Lägg till data i Cells**
-Aspose.Cells tillhandahåller en klass, arbetsbok, som representerar en Microsoft Excel-fil. Workbook-klassen innehåller en WorksheetCollection som ger åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen Worksheet. Klassen Worksheet tillhandahåller en Cellscollection. Varje föremål i samlingen Cells representerar ett föremål i klassen Cell.
+
+## **Aspose.Cells - Lägg till data i celler**
+Aspose.Cells tillhandahåller en klass, Workbook, som representerar en Microsoft Excel-fil. Workbook-klassen innehåller en WorksheetCollection som ger åtkomst till varje arbetsblad i Excel-filen. Ett arbetsblad representeras av klassen Worksheet. Worksheet-klassen tillhandahåller en Cells-samling. Varje objekt i Cells-samlingen representerar ett objekt av klassen Cell.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cell.setStyle(style);
 workbook.save(dataDir + "DataInCells_Aspose.xls"); //Saving the Excel file
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Lägg till data i Cells**
+## **Apache POI SS - HSSF XSSF - Lägg till data i celler**
 I Apache POI SS kan row.createCell(1).setCellValue användas för att lägga till data i celler.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -86,13 +87,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/adddataincells)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Lägger till data till Cells](/java/adding-data-to-cells).
+För mer information, besök [Lägga till data i celler](/java/adding-data-to-cells).
 
 {{% /alert %}}

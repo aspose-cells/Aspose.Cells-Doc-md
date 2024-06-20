@@ -60,4 +60,19 @@ CurrentRegion 是一个返回代表当前区域的 Range 对象的属性。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Ranges-CurrentRegion.py" >}}
 
+## **高级主题**
+- [Excel文件的自动填充范围](/cells/zh/python-net/autofill-ranges/)
+- [复制Excel的区域](/cells/zh/python-net/copy-ranges-of-excel/)
+- [仅复制区域数据](/cells/zh/python-net/copy-range-data-only/)
+- [复制具有样式的区域数据](/cells/zh/python-net/copy-range-data-with-style/)
+- [仅复制区域样式](/cells/zh/python-net/copy-range-style-only/)
+- [创建联合范围](/cells/zh/python-net/create-union-range/)
+- [剪切和粘贴范围](/cells/zh/python-net/cut-and-paste-cells/)
+- [删除区域](/cells/zh/python-net/delete-ranges-from-excel/)
+- [获取区域的地址、单元格计数、偏移、整行和整列](/cells/zh/python-net/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/)
+- [插入范围](/cells/zh/python-net/insert-ranges-to-excel/)
+- [合并或取消合并单元格范围](/cells/zh/python-net/merge-or-unmerge-range-of-cells/)
+- [在工作表中移动单元格范围](/cells/zh/python-net/move-range-of-cells-in-a-worksheet/)
+- [创建工作簿和工作表范围命名](/cells/zh/python-net/create-workbook-and-worksheet-scoped-named-ranges/)
+- [在范围内搜索和替换数据](/cells/zh/python-net/search-and-replace-data-in-a-range/)
 

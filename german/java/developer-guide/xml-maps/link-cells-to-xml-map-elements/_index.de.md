@@ -1,20 +1,21 @@
-﻿---
-title: Link Cells zu XML-Kartenelementen
+---
+title: Zellen mit XML Map Elementen verknüpfen
 type: docs
 weight: 50
 url: /de/java/link-cells-to-xml-map-elements/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Sie können Ihre Zellen mit Aspose.Cells mit XML-Map-Elementen verknüpfen. Bitte verwenden Sie die[**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) Methode zu diesem Zweck.
+## **Mögliche Verwendungsszenarien**
 
-## **Link Cells zu XML-Kartenelementen**
+Sie können Ihre Zellen mit XML-Map-Elementen mithilfe von Aspose.Cells verknüpfen. Bitte verwenden Sie die [**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String))-Methode zu diesem Zweck.
 
- Der folgende Beispielcode lädt die[Excel-Quelldatei](5472518.xlsx) die XML Map enthält und dann die Zellen A1, B2, C3, D4, E5 und F6 mit den XML Map-Elementen FIELD1, FIELD2, FIELD4, FIELD5, FIELD7 und FIELD8 verknüpft und dann die Arbeitsmappe in speichert[Excel-Datei ausgeben](5472517.xlsx).
+## **Zellen mit XML-Map-Elementen verknüpfen**
 
- Wenn Sie die öffnen[Excel-Datei ausgeben](5472517.xlsx) und klicken Sie auf die*Entwickler > Quelle*Schaltfläche sehen Sie, dass die Zellen mit XML-Map-Elementen verknüpft sind, und sie werden auch von Microsoft Excel hervorgehoben, wie in diesem Bild gezeigt.
+Der folgende Beispielcode lädt die [Quellexcel-Datei](5472518.xlsx), die eine XML-Map enthält, und verknüpft dann die Zellen A1, B2, C3, D4, E5 und F6 mit den XML-Map-Elementen FELD1, FELD2, FELD4, FELD5, FELD7 und FELD8 und speichert dann die Arbeitsmappe in der [Ausgabexcel-Datei](5472517.xlsx).
 
-![todo: Bild_alt_Text](link-cells-to-xml-map-elements_1.png)
+Wenn Sie die [Ausgabexcel-Datei](5472517.xlsx) öffnen und auf die Schaltfläche *Entwickler > Quelle* klicken, sehen Sie, dass die Zellen mit den XML-Map-Elementen verknüpft sind und von Microsoft Excel hervorgehoben werden, wie in diesem Bild gezeigt.
+
+![todo:image_alt_text](link-cells-to-xml-map-elements_1.png)
 
 ## **Beispielcode**
 

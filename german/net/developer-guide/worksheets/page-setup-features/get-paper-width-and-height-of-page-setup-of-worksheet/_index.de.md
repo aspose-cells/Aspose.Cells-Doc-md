@@ -1,28 +1,29 @@
 ---
-title: Ermitteln Sie die Papierbreite und -höhe der Seiteneinrichtung des Arbeitsblatts
+title: Papierbreite und höhe des Seitenlayouts des Arbeitsblatts abrufen
 type: docs
 weight: 50
 url: /de/net/get-paper-width-and-height-of-page-setup-of-worksheet/
-description: In diesem Artikel erfahren Sie, wie Sie die Seitenbreite und -höhe des Excel-Arbeitsblatts mithilfe des Codes C# programmgesteuert mit .NET API oder der Bibliothek abrufen können.
-keywords: excel page setup paper width c#, excel page setup paper height c#
+description: In diesem Artikel erfahren Sie, wie Sie mit dem C# Code programmgesteuert die Papierbreite und höhe des Excel Arbeitsblattseitenlayouts mit der .NET API oder Bibliothek abrufen.
+keywords: Excel Seitenlayout Papierbreite c#, Excel Seitenlayout Papierhöhe c#
 ---
-##  **Mögliche Nutzungsszenarien**
 
-Manchmal müssen Sie die Breite und Höhe des Papierformats kennen, wie es bei der Seiteneinrichtung des Arbeitsblatts festgelegt wurde. Bitte nutzen Sie die[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)Und[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)Eigenschaften für diesen Zweck.
+## **Mögliche Verwendungsszenarien**
 
-##  **Ermitteln Sie die Papierbreite und -höhe der Seiteneinrichtung des Arbeitsblatts**
+Manchmal müssen Sie die Breite und Höhe der Papiergröße kennen, wie sie im Seitenlayout des Arbeitsblatts festgelegt wurde. Verwenden Sie hierfür die [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)- und [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)-Eigenschaften.
 
- Der folgende Beispielcode erläutert die Verwendung von[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) Und[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) Eigenschaften. Zunächst wird das Papierformat auf geändert*A2*und ermittelt dann die Breite und Höhe des Papiers und ändert sie dann in*A3*, *A4*, *Letter*und ermittelt die Breite bzw. Höhe des Papiers.
+## **Papierbreite und -höhe des Seitenlayouts des Arbeitsblatts abrufen**
 
-###  **Beispielcode**
+Der folgende Beispielscode erläutert die Verwendung der [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)- und [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)-Eigenschaften. Er ändert zuerst die Papiergröße in *A2* und findet dann die Breite und Höhe des Papiers, ändert sie dann auf *A3*, *A4*, *Brief* und findet jeweils die Breite und Höhe des Papiers.
+
+### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-GetPageDimensions.cs" >}}
 
-###  **Konsolenausgabe**
+### **Konsolenausgabe**
 
 Hier ist die Konsolenausgabe des obigen Beispielcodes.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 PaperA2: 16.54x23.39
 

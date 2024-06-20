@@ -1,15 +1,16 @@
-﻿---
+---
 title: ワークシートに画像を追加
 type: docs
 weight: 20
 url: /ja/java/add-images-in-worksheet/
 ---
+
 ## **Aspose.Cells - ワークシートに画像を追加**
-ワークシート内の画像を扱うためのPictureクラスが利用可能
+Pictureクラスを使用してワークシートに画像を操作できます
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the first worksheet
 
@@ -42,17 +43,17 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - ワークシートに画像を追加**
-ワークシート内の画像を扱うためのPictureクラスが利用可能
+Pictureクラスを使用してワークシートに画像を操作できます
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //add picture data to this workbook.
 
 InputStream is = new FileInputStream(dataDir + "aspose.jpg");
 
-byte[]bytes = IOUtils.toByteArray(is);
+byte[] bytes = IOUtils.toByteArray(is);
 
 int pictureIdx = wb.addPicture(bytes, Workbook.PICTURE_TYPE_JPEG);
 
@@ -87,13 +88,13 @@ Picture pict = drawing.createPicture(anchor, pictureIdx);
 pict.resize();
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/addimages)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[画像のハイパーリンクを追加](/java/add-image-hyperlinks).
+詳細については、[画像ハイパーリンクの追加](/java/add-image-hyperlinks)をご覧ください。
 
 {{% /alert %}}

@@ -1,6 +1,8 @@
-﻿---
-title: Aspose.Cells Особенности
+---
+title: Возможности Aspose.Cells
 type: docs
 weight: 40
 url: /ru/net/aspose-cells-features/
 ---
+
+

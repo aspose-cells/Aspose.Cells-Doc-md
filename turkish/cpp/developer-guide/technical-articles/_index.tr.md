@@ -1,4 +1,4 @@
-﻿---
+---
 title: Teknik Makaleler
 type: docs
 weight: 90

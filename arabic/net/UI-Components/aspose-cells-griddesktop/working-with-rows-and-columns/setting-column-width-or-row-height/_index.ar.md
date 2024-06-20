@@ -2,29 +2,30 @@
 title: تحديد عرض العمود أو ارتفاع الصف
 type: docs
 weight: 60
-url: /ar/net/setting-column-width-or-row-height/
-description: تشرح هذه المقالة كيفية تعيين عرض العمود وارتفاع الصف باستخدام Aspose.Cells.GridDesktop API.
-keywords: C# Set Column Width and Row Height
+url: /ar/net/aspose-cells-griddesktop/set-column-width-or-row-height/
+description: يشرح هذا المقال كيفية تحديد عرض العمود وارتفاع الصف باستخدام واجهة برمجة التطبيقات Aspose.Cells.GridDesktop.
+keywords: GridDesktop، تعيين، عرض، عمود، ارتفاع، صف
 ---
+
 {{% alert color="primary" %}} 
 
-يناقش هذا الموضوع تعيين عرض العمود وارتفاع الصف باستخدام Aspose.Cells.GridDesktop API. في بعض الأحيان، تحتوي خلايا ورقة العمل على قيم أكبر من الخلية الأصلية. يجعل من الصعب على المستخدمين قراءة محتوى الخلية. لا يحب بعض المستخدمين استخدام مفتاح السهم لليمين لعرض القيمة الكاملة في الخلية. لحل مثل هذه المشاكل، يمكن للمطورين تغيير عرض العمود. يؤدي تغيير ارتفاع الصف إلى حل مشكلات مماثلة.
+يناقش هذا الموضوع تحديد عرض العمود وارتفاع الصف باستخدام واجهة برمجة التطبيقات Aspose.Cells.GridDesktop. أحيانًا، تحتوي خلايا ورق العمل على قيم تكون أوسع من الخلية الأصلية. وهذا يجعل من الصعب على المستخدمين قراءة محتوى الخلية. بعض المستخدمين لا يحبون استخدام مفتاح الأسهم اليمنى لعرض القيمة الكاملة في الخلية. لحل مثل هذه المشاكل، يمكن للمطورين تغيير عرض العمود. تغيير ارتفاع الصف يحل مشاكل مماثلة.
 
 {{% /alert %}} 
-##  **كيفية ضبط عرض العمود**
-لتعيين عرض العمود باستخدام Aspose.Cells.GridDesktop:
+## **كيفية تحديد عرض العمود**
+لتحديد عرض عمود باستخدام Aspose.Cells.GridDesktop:
 
-1. الوصول إلى ورقة عمل.
-1. قم بالوصول إلى العمود الذي تريد تغيير عرضه.
-1. ضبط عرض العمود.
+1. الوصول إلى ورقة العمل.
+1. الوصول إلى العمود الذي ترغب في تغيير عرضه.
+1. تعيين عرض العمود.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-SettingColumnWidthAndRowHeight-SetColumnWidth.cs" >}}
 
-##  **كيفية ضبط ارتفاع الصف**
-لتعيين ارتفاع الصف باستخدام Aspose.Cells.GridDesktop، يرجى اتباع الخطوات التالية:
+## **كيفية تحديد ارتفاع الصف**
+لتحديد ارتفاع الصف باستخدام Aspose.Cells.GridDesktop، يرجى اتباع الخطوات التالية:
 
-1. الوصول إلى أي ورقة العمل المطلوبة.
-1. قم بالوصول إلى الصف الذي تريد تغيير ارتفاعه.
-1. ضبط ارتفاع الصف.
+1. الوصول إلى أي ورقة عمل مطلوبة.
+1. الوصول إلى الصف الذي ترغب في تغيير ارتفاعه.
+1. تعيين ارتفاع الصف.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-SettingColumnWidthAndRowHeight-SetRowHeight.cs" >}}

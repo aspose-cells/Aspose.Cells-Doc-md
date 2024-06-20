@@ -1,12 +1,13 @@
-﻿---
-title: Получить гиперссылки в диапазоне
+---
+title: Получение гиперссылок в диапазоне
 type: docs
 weight: 130
 url: /ru/java/get-hyperlinks-in-range/
 ---
-## **Получить гиперссылки в диапазоне**
 
-[**Спектр**](https://reference.aspose.com/cells/java/com.aspose.cells/range) класс предоставляет[**получить гиперссылки ()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#Hyperlinks) метод получения свойств, который получает все гиперссылки в выбранном диапазоне. Вы также можете удалить гиперссылку, вызвав[**Гиперссылка.удалить()**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#delete()) метод.
+## **Получение гиперссылок в диапазоне**
+
+Класс [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/range) предоставляет метод получения всех гиперссылок в выбранном диапазоне с помощью свойства-метода [**getHyperlinks()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#Hyperlinks). Вы также можете удалить гиперссылку, вызвав метод [**Hyperlink.delete()**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#delete--).
 
 ## Образец кода
 

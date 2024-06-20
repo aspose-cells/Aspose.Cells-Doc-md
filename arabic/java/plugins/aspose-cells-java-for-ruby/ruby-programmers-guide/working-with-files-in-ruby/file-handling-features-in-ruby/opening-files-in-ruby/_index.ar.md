@@ -1,28 +1,29 @@
-﻿---
+---
 title: فتح الملفات في روبي
 type: docs
 weight: 10
 url: /ar/java/opening-files-in-ruby/
 ---
-## **Aspose.Cells - طرق بسيطة لفتح ملفات Excel**
-### **فتح طريق**
-ما عليك سوى فتح ملف Microsoft Excel بالرجوع إلى مسار الملف
 
-**كود روبي**
+## **Aspose.Cells - طرق بسيطة لفتح ملفات إكسل**
+### **الفتح عبر المسار**
+فقط قم بفتح ملف Microsoft Excel عن طريق الإشارة إلى مسار الملف
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
 workbook = Rjb::import('com.aspose.cells.Workbook').new(data_dir + 'Book1.xls')
 
 {{< /highlight >}}
-### **فتح من خلال تيار**
-في بعض الأحيان ، يتم تخزين ملف Excel الذي تريد فتحه كتدفق. في هذه الحالة ، استخدم إصدارًا محملاً بشكل زائد من الأسلوب Open الذي يأخذ كائن Stream الذي يحتوي على ملف Excel لفتح الملف.
+### **الفتح عبر التيار**
+في بعض الأحيان، يتم تخزين ملف إكسل الذي ترغب في فتحه كتيار. في هذه الحالة، استخدم الإصدار المحمل من طريقة الفتح التي تأخذ كائن التيار الذي يحتوي على ملف إكسل لفتح الملف.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 

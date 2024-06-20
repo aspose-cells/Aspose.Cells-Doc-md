@@ -1,34 +1,35 @@
-﻿---
-title: Gruppera data i Aspose.Cells
+---
+title: Gruppering av data i Aspose.Cells
 type: docs
 weight: 10
 url: /sv/net/grouping-data-in-aspose-cells/
 ---
-I vissa Excel-rapporter kan du behöva dela upp data i grupper för att göra det lättare att läsa och analysera. Ett av de primära syftena med att dela upp data i grupper är att köra beräkningar (utföra sammanfattningar) på varje grupp av poster.
 
-Aspose.Cells smarta markörer låter dig gruppera dina data efter fält och placera sammanfattningsrader mellan datamängder eller datagrupper. Om du till exempel grupperar data efter Customers.CustomerID, kan du lägga till en sammanfattningspost varje gång gruppen ändras.
+I vissa Excel-rapporter kan du behöva bryta upp datan i grupper för att göra det lättare att läsa och analysera. Ett av de primära syftena med att bryta upp data i grupper är att köra beräkningar (utföra sammanfattande operationer) på varje grupp av poster.
 
-Exempelkodavsnitten som följer visar hur man grupperar data i en Excel-rapport med hjälp av smarta markörer.
+Aspose.Cells smarta markörer tillåter dig att gruppera dina data efter fält och placera sammanfattande rader mellan datauppsättningar eller datagrupper. Till exempel, om du grupperar data efter Kunder.CustomerID, kan du lägga till en sammanfattande post varje gång gruppen ändras.
+
+De exempelkodsnuttar som följer visar hur man grupperar data i en Excel-rapport med smarta markörer.
 ## **Parametrar**
-Nedan följer några av de smarta markörparametrarna som används för att gruppera data.
-**grupp:normal/sammanfoga/upprepa**
+Här är några av de smarta markörsparametrar som används för att gruppera data.
+**group:normal/merge/repeat**
 
 Vi stödjer tre typer av grupper som du kan välja mellan.
 
-- normal - Värdet för grupp efter fält upprepas inte för motsvarande poster i kolumnen; istället skrivs de ut en gång per datagrupp.
-- merge - Samma beteende som för den normala parametern, förutom att den slår samman cellerna i gruppen efter fält för varje gruppuppsättning.
-- repeat - Värdet för grupp efter fält upprepas för motsvarande poster.
+- normal - Grupperingen efter fältens värde upprepas inte för de motsvarande posterna i kolumnen; istället skrivs de ut en gång per datagrupp.
+- sammanfoga - Samma beteende som för det normala parametern, förutom att den sammanfogar cellerna i fälten för varje gruppsats.
+- repeat - Fältet/gruppfältet värdet är upprepat för de motsvarande posterna.
 
-Om du har flera parametrar, separera dem med ett kommatecken, men inget mellanslag: parameterA,parameterB,parameterC
+Om du har flera parametrar, separera dem med kommatecken, men inget mellanrum: parameterA, parameterB, parameterC
 ### **Exempel**
-Det här exemplet visar några av grupperingsparametrarna i funktion. Den använder Northwind.mdb Microsoft Access-databasen och extraherar data från tabellen med namnet "Order Details". Vi skapar en designerfil som heter SmartMarker_Designer.xls i Microsoft Excel och lägger in smarta markörer i olika celler i kalkylblad. Markörerna bearbetas för att fylla kalkylbladen. Data placeras och organiseras av ett gruppfält.
+Det här exemplet visar några av gruppfunktionerna i aktion. Det använder Microsoft Access-databasen Northwind.mdb och extraherar data från tabellen som heter "Order Details". Vi skapar en designerfil som heter SmartMarker_Designer.xls i Microsoft Excel och placerar smarta markörer i olika celler i kalkylbladen. Markörerna bearbetas för att fylla i kalkylbladen. Data placeras och organiseras efter ett gruppfält.
 
-Designerfilen har två kalkylblad. I den första lägger vi smarta markörer med grupperingsparametrar som visas i skärmdumpen nedan. Tre smarta markörer (med grupperingsparametrar) placeras:
-&=Beställningsinformation.OrderID(grupp:sammanfoga,hoppa över:1),
-&=Orderdetaljer.Quantity(delsumma9:Orderdetaljer.OrderID), och
-&=Orderdetaljer.Enhetspris(delsumma9:Orderdetaljer.OrderID) går in i A5, B5 respektive C5.
+Designfilen har två kalkylblad. På första kalkylbladet placerar vi smarta markörer med gruppindata som visas i skärmbilden nedan. Tre smarta markörer (med gruppfunktioner) placeras:
+&=Order Details.OrderID(group:merge,skip:1),
+&=Order Details.Quantity(subtotal9:Order Details.OrderID), och
+&=Order Details.UnitPrice(subtotal9:Order Details.OrderID) placeras i A5, B5 och C5 respektive.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a connection object, specify the provider info and set the data source.
 
@@ -83,5 +84,5 @@ wd.Process(true);
 wd.Workbook.Save("outSmartMarker_Designer.xls");
 
 {{< /highlight >}}
-## **Ladda ner provkod**
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Grouping%20Data%20OLE%20DB%20%28Aspose.Cells%29.zip)
+## **Ladda ned provkoden**
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Grouping%20Data%20OLE%20DB%20%28Aspose.Cells%29.zip)

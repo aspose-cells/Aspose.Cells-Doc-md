@@ -1,23 +1,24 @@
-﻿---
-title: Sayfa ayarı
+---
+title: Sayfa Ayarı
 type: docs
 weight: 80
 url: /tr/reportingservices/page-setup/
 ---
-Yapılandırma, iki bölüm ve 8 tür Sayfa Yapısı özelliği içerir. Bu özellikler arasında name, index, FitToPagesTall, FitToPagesWide, TopMargin, FooterMargin, HeaderMargin, BottomMargin, LeftMargin ve RightMargin bulunur.
 
-- **isim** rapor adını temsil eder, ad boş bırakıldığında tüm raporu temsil eder.
-- **dizin** dışa aktarılan Excel dosyasının çalışma sayfası dizinini temsil eder.
-- **Sayfalara SığdırUzun** yazdırıldığında çalışma sayfasının ölçekleneceği uzun sayfa sayısını temsil eder.
-- **Sayfalara SığdırGeniş** çalışma sayfasının yazdırıldığında ölçekleneceği genişlikteki sayfa sayısını temsil eder.
-- **Altbilgi Kenar Boşluğu** sayfanın altından altbilgiye olan mesafeyi santimetre biriminde temsil eder.
-- **Başlık Marjı** sayfanın üstünden başlığa olan mesafeyi santimetre biriminde temsil eder.
-- **sol kenar boşluğu** sol kenar boşluğunun boyutunu santimetre biriminde temsil eder.
-- **sağ kenar boşluğu** sağ kenar boşluğunun boyutunu santimetre biriminde temsil eder.
-- **Üst boşluk** üst kenar boşluğunun boyutunu santimetre biriminde temsil eder.
-- **Alt Marj**alt kenar boşluğunun boyutunu santimetre biriminde temsil eder.
+Yapılandırma iki bölümü ve 8 çeşit Sayfa Ayarı özelliğini içerir. Bu özellikler arasında ad, index, FitToPagesTall, FitToPagesWide, ÜstKenarBoşluğu, AltbilgiKenarBoşluğu, BaşlıkKenarBoşluğu, AltKenarBoşluğu, SolKenarBoşluğu ve SağKenarBoşluğu bulunmaktadır.
 
-Sayfa Kurulumu Yapılandırma Örneği:
+- **ad** rapor adını temsil eder, ad boş olduğunda tüm raporu temsil eder.
+- **index** dışa aktarılan Excel dosyasının çalışsayfa index'ini temsil eder.
+- **FitToPagesTall** çalışsayfanın basıldığında ölçekleneceği dikey sayfa sayısını temsil eder.
+- **FitToPagesWide** çalışsayfanın basıldığında ölçekleneceği yatay sayfa sayısını temsil eder.
+- **FooterMargin**, ayırma ölçüsünü temsil eder, birim santimetre olarak.
+- **HeaderMargin**, sayfanın üstünden başlığa olan uzaklığı, birim santimetre olarak temsil eder.
+- **LeftMargin**, sol kenar boşluğunun boyutunu, birim santimetre olarak temsil eder.
+- **RightMargin**, sağ kenar boşluğunun boyutunu, birim santimetre olarak temsil eder.
+- **TopMargin**, üst kenar boşluğunun boyutunu, birim santimetre olarak temsil eder.
+- **BottomMargin**, alt kenar boşluğunun boyutunu, birim santimetre olarak temsil eder.
+
+PageSetup Yapılandırma Örneği:
 
 {{code  lang="xml" }}
 <PageSetup>

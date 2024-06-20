@@ -4,101 +4,102 @@ type: docs
 weight: 10
 url: /tr/net/getting-started/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu sayfada Aspose Cells'in nasıl kurulacağı ve Hello World uygulamasının nasıl oluşturulacağı gösterilecektir.
+Bu sayfa, Aspose Cells'i nasıl kuracağınızı gösterecek ve bir Merhaba Dünya uygulaması oluşturmanıza yardımcı olacaktır.
 
 {{% /alert %}}
 
-##  **Kurulum**
+## **Kurulum**
 
-###  **Aspose.Cells ila NuGet'i yükleyin**
+### **Aspose.Cells'i NuGet üzerinden yükleyin**
 
- NuGet, Aspose.Cells for .NET'i indirip kurmanın en kolay yoludur.
+NuGet, Aspose.Cells for .NET indirmenin ve yüklemenin en kolay yoludur. 
 
-1.  Microsoft Visual Studio ve NuGet paket yöneticisini açın.
-1.  İstediğiniz Aspose.Cells for .NET'i bulmak için "aspose.cells" ifadesini arayın.
-1. "Yükle"ye tıklayın, Aspose.Cells for .NET indirilecek ve projenizde referans alınacaktır.
-**![Aspose Cells'den NuGet'e kadar kurulum yapın](nuget.png aracılığıyla kurulum)**
+1. Microsoft Visual Studio'yu açın ve NuGet paket yöneticisini açın. 
+1. Arama yapın "aspose.cells" istenen Aspose.Cells for .NET bulmak için. 
+1. "Yükle" üzerine tıklayın, Aspose.Cells for .NET projenizde indirilip referans olarak eklenir.
+**![NuGet ile Aspose Cells'yi Yükle](install-through-nuget.png)**
 
- Ayrıca aspose.cells'in nuget web sayfasından da indirebilirsiniz:
-[Aspose.Cells for .NET NuGet Paket](https://www.nuget.org/packages/Aspose.Cells/)
+Aspose.Cells için nuget web sayfasından da indirebilirsiniz: 
+[Aspose.Cells for .NET NuGet Paketi](https://www.nuget.org/packages/Aspose.Cells/)
 
-[Ayrıntılar için daha fazla adım](/cells/tr/net/installation/)
+[Daha fazla adım detayı için](/cells/tr/net/installation/)
 
-###  **Windows'a Aspose.Cells'i yükleyin**
+### **Windows üzerinde Aspose.Cells'i Yükle**
 
-1. Aspose.Cells.msi dosyasını aşağıdaki sayfadan indirin:
-[Aspose.Cells.msi dosyasını indirin](https://downloads.aspose.com/cells/net/)
-1. Aspose Cells msi'ye çift tıklayın ve yüklemek için talimatları izleyin:
+1. Aşağıdaki sayfadan Aspose.Cells.msi'yi indirin:
+[Aspose.Cells.msi'yi İndirin](https://downloads.aspose.com/cells/net/)
+1. Aspose Cells msi dosyasına çift tıklayın ve kurulum talimatlarını takip edin:
 
-**![Windows'a Aspose Cells'i yükleyin](install-on-windows.png)**
+**![Aspose Cells'i Windows'ta Yükle](install-on-windows.png)**
 
-[Ayrıntılar için daha fazla adım](/cells/tr/net/installing-aspose-cells-on-windows/)
+[Daha fazla adım detayı için](/cells/tr/net/installing-aspose-cells-on-windows/)
 
-###  **Linux'a Aspose.Cells'i yükleyin**
+### **Linux'ta Aspose.Cells'i Yükle**
 
-Bu örnekte, Linux'ta Aspose.Cells'i kullanmaya nasıl başlayacağımı göstermek için Ubuntu'yu kullanıyorum.
+Bu örnekte, Ubuntu kullanarak Linux'ta Aspose.Cells nasıl kullanılacağını gösteriyorum.
 
-1. "AsposeCellsTest" adlı bir .netcore uygulaması oluşturun.
-2. "AsposeCellsTest.csproj" dosyasını açın, Aspose.Cells paket referansları için aşağıdaki satırları dosyaya ekleyin:
-{{< highlight "plain" >}}
+1. "AsposeCellsTest" adında bir .netcore uygulaması oluşturun.
+2. "AsposeCellsTest.csproj" dosyasını açın, Aspose.Cells paket referansları için aşağıdaki satırları ekleyin:
+{{< highlight plain >}}
   <ItemGroup>
-    <PackageReference Include="Aspose.Cells" Version="24.3" />
+    <PackageReference Include="Aspose.Cells" Version="24.6" />
   </ItemGroup>
 {{< /highlight >}}
-3. Projeyi Ubuntu'da VSCode ile açın:
-**![Linux'a Aspose Cells'i yükleyin](install-on-linux.png)**
-4. testi aşağıdaki kodla çalıştırın:
+3. Ubuntu'da projeyi VSCode ile açın:
+**![Aspose Cells'i Linux'ta Yükle](install-on-linux.png)**
+4. Aşağıdaki kodla testi çalıştırın:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnLinux.cs" >}}
 
-Not: Aspose.Cells .NetStandard için linux gereksinimlerinizi destekleyebilir.
+Not: Aspose.Cells For .NetStandard, linux'ta ihtiyacınızı destekleyebilir.
 
-Şunlar için geçerlidir: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 ve gelişmiş sürüm.
+Uygulanabilir: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 ve gelişmiş sürüm.
 
-###  **MAC OS'a Aspose.Cells'i yükleyin**
+### **MAC OS'ta Aspose.Cells'i Yükle**
 
-Bu örnekte, MAC OS'ta Aspose.Cells'i kullanmaya nasıl başlayacağımı göstermek için macOS High Sierra kullanıyorum.
+Bu örnekte, Aspose.Cells'i MAC OS üzerinde nasıl kullanmaya başlayacağımı göstermek için macOS High Sierra'yı kullanıyorum.
 
-1. "AsposeCellsTest" adlı bir .netcore uygulaması oluşturun.
-2. Uygulamayı Mac için Visual Studio ile açın ve ardından Aspose Cells ila NuGet arasındaki sayıları yükleyin:
-**![Aspose Cells'i macOS'a yükleyin](install-on-mac-os.png)**
-3. testi aşağıdaki kodla çalıştırın:
+1. "AsposeCellsTest" adında bir .netcore uygulaması oluşturun.
+2. Visual Studio for Mac ile uygulamayı açın, daha sonra Aspose Cells'i NuGet ile yükleyin:
+**![Aspose Cells'i macOS Üzerinde Yükle](install-on-mac-os.png)**
+3. Aşağıdaki kodla testi çalıştırın:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-StartOnMacOS.cs" >}}
-4. Çizimle ilgili özellikleri kullanmanız gerekiyorsa lütfen libgdiplus'ı macOS'a yükleyin, bkz.:
-[MacOS'ta libgdiplus nasıl kurulur](/cells/tr/net/how-to-install-libgdiplus-in-macos/)
+4. Çizimle ilgili özellikleri kullanmanız gerekiyorsa, lütfen macOS'ta libgdiplus'ı yükleyin, bkz:
+[macOS'ta libgdiplus Nasıl Yüklenir](/cells/tr/net/macos'ta-libgdiplus-nasil-yuklenir/)
 
-Not: Aspose.Cells .NetStandard için MAC OS gereksinimlerinizi destekleyebilir.
+Not: Aspose.Cells For .NetStandard MAC OS'ta gereksiniminizi destekleyebilir.
 
-Şunlar için geçerlidir: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 ve gelişmiş sürüm.
+Uygulanabilir: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 ve gelişmiş sürüm.
 
-###  **[Docker'da Aspose Cells'i çalıştırın](/cells/net/how-to-run-aspose-cells-in-docker/)**
+### [**Run Aspose Cells in Docker**](/cells/tr/net/how-to-run-aspose-cells-in-docker/)
 
-###  **Net6 ile Windows dışı platformlarda grafik kitaplığı nasıl kullanılır?**
+### **Net6 ile grafik kütüphanesinin kullanımı**
 
- Net6 için Aspose.Cells artık grafik kitaplığı olarak SkiaSharp'ı kullanıyor.[Microsoft resmi beyanı](https://github.com/dotnet/designs/blob/f9d006073b7a019bd2021e99c66516447f7fb1a6/accepted/2021/system-drawing-win-only/system-drawing-win-only.md) . Aspose.Cells'i NET6 ile kullanma hakkında daha fazla ayrıntı için lütfen bkz.[.Net6 için Aspose.Cells Nasıl Çalıştırılır](/cells/tr/net/how-to-run-aspose-cells-for-net6/).
+Aspose.Cells for Net6 artık grafiğin kütüphanesi olarak [Microsoft'ın resmi açıklamasında](https://github.com/dotnet/designs/blob/f9d006073b7a019bd2021e99c66516447f7fb1a6/accepted/2021/system-drawing-win-only/system-drawing-win-only.md) önerildiği gibi SkiaSharp kullanıyor. NET6 ile Aspose.Cells kullanımı hakkında daha fazla bilgi için [Aspose.Cells for .Net6 Çalıştırma Nasıl Yapılır](/cells/tr/net/asp/asp-net-support-mac/) sayfasına bakınız.
 
-##  **Hello World Uygulamasının Oluşturulması**
+## **Merhaba Dünya Uygulamasını Oluşturma**
 
-Aşağıdaki adımlar, Aspose.Cells API'i kullanarak Hello World uygulamasını oluşturur:
+Aşağıdaki adımlar, Aspose.Cells API'sini kullanarak Merhaba Dünya uygulamasını oluşturur:
 
-1.  Ehliyetin varsa o zaman[Uygula](/cells/tr/net/licensing/).
- Değerlendirme sürümünü kullanıyorsanız lisansla ilgili kod satırlarını atlayın.
-1.  Bir örneğini oluşturun[Çalışma kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook) Yeni bir Excel dosyası oluşturmak veya mevcut bir Excel dosyasını açmak için sınıfı kullanın.
-1. Excel dosyasındaki bir çalışma sayfasının istediğiniz herhangi bir hücresine erişin.
-1.  Kelimeleri ekleyin**Hello World!** erişilen bir hücreye.
-1. Değiştirilen Microsoft Excel dosyasını oluşturun.
+1. Bir lisansınız varsa, [uygulayın](/cells/tr/net/licensing).
+   Eğer değerlendirme sürümünü kullanıyorsanız, lisansla ilgili kod satırlarını atlayın.
+1. Yeni bir Excel dosyası oluşturmak veya mevcut bir Excel dosyasını açmak için [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfından bir örnek oluşturun.
+1. Excel dosyasındaki istenen hücreye erişin.
+1. Erişilen bir hücreye **Merhaba Dünya!** kelimesini ekleyin.
+1. Değiştirilmiş Microsoft Excel dosyasını oluşturun.
 
-Yukarıdaki adımların uygulanması aşağıdaki örneklerde gösterilmiştir.
+Yukarıdaki adımların uygulanışı aşağıdaki örneklerde gösterilmektedir.
 
-###  **Kod Örneği: Yeni Bir Çalışma Kitabı Oluşturma**
+### **Kod Örneği: Yeni Bir Workbook Oluşturma**
 
-Aşağıdaki örnekte sıfırdan yeni bir çalışma kitabı oluşturulur ve "Hello World!" eklenir. ilk çalışma sayfasında A1 hücresine girer ve Excel dosyası olarak kaydeder.
+Aşağıdaki örnek, sıfırdan yeni bir çalışma kitabı oluşturur, ilk çalışma sayfasındaki A1 hücresine "Merhaba Dünya!" ekler ve Excel dosyası olarak kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-FirstApplication-1.cs" >}}
 
-###  **Kod Örneği: Mevcut Bir Dosyayı Açma**
+### **Kod Örneği: Mevcut Bir Dosyayı Açma**
 
-Aşağıdaki örnek, mevcut bir Microsoft Excel şablon dosyasını "Sample.xlsx" açar ve "Hello World!" ilk çalışma sayfasında A1 hücresine girer ve Excel dosyası olarak kaydeder.
+Aşağıdaki örnek, mevcut bir Microsoft Excel şablon dosyasını açar, ilk çalışma sayfasındaki A1 hücresine "Merhaba Dünya!" ekler ve Excel dosyası olarak kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}

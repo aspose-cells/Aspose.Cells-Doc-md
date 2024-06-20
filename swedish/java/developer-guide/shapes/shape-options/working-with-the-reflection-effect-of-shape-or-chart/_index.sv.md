@@ -1,11 +1,12 @@
-﻿---
-title: Arbeta med reflektionseffekten av form eller diagram
+---
+title: Att arbeta med reflektionseffekten i formen eller diagrammet
 type: docs
 weight: 930
 url: /sv/java/working-with-the-reflection-effect-of-shape-or-chart/
 ---
-## **Möjliga användningsscenarier**
- Aspose.Cells tillhandahåller[Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection)egenskap för att arbeta med reflektionseffekten av form eller diagram. Den innehåller följande underegenskaper som du kan ställa in för att uppnå olika resultat enligt dina krav.
+
+## **Möjliga användningsscenario**
+Aspose.Cells tillhandahåller egenskapen [Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection) för att arbeta med reflektionseffekten i formen eller diagrammet. Den innehåller följande underegenskaper som du kan ställa in för att uppnå olika resultat enligt dina behov.
 
 - [ReflectionEffect.Blur](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Blur)
 - [ReflectionEffect.Direction](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Direction)
@@ -16,10 +17,10 @@ url: /sv/java/working-with-the-reflection-effect-of-shape-or-chart/
 - [ReflectionEffect.Transparency](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Transparency)
 - [ReflectionEffect.Type](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Type)
 
- Följande skärmdump visar Microsoft Excel-gränssnittet för att ställa in*Reflektionseffekt*av form.
+Följande skärmbild visar Microsoft Excels gränssnitt för att ställa in *reflektionseffekten* i formen.
 
 ![todo:image_alt_text](working-with-the-reflection-effect-of-shape-or-chart_1.png)
-## **Arbeta med reflektionseffekten av form eller diagram**
- Följande exempelkod laddar[source excel-fil](5472529.xlsx) och kommer åt den första formen i det första kalkylbladet och ställer in underegenskaperna för[Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection)egenskapen och sparar sedan arbetsboken i[output excel-fil](5472539.xlsx).
+## **Att arbeta med reflektionseffekten i formen eller diagrammet**
+Följande kodexempel laddar [käll-excel-filen](5472529.xlsx) och får åtkomst till den första formen i den första arbetsboken och anger underegenskaperna för [Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection) egenskapen och sparar sedan arbetsboken i [utdata-excel-filen](5472539.xlsx).
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}

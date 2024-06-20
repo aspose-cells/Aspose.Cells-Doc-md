@@ -1,41 +1,42 @@
-﻿---
+---
 title: チャートでのデータの書式設定
-linktitle: 情報元
+linktitle: データソース
 type: docs
 weight: 50
 url: /ja/java/data-formatting-in-charts/
 ---
+
 {{% alert color="primary" %}}
 
-前のトピックでは、グラフのデータ ソースを設定する方法を示すために既に多くの例を提供しましたが、このトピックでは、グラフに設定できるデータの種類についてさらに詳しく説明します。
+以前のトピックで、チャートのデータソースを設定する方法の多くの例を提供しましたが、このトピックではチャートに設定できるデータの種類について詳細を提供します。
 
 {{% /alert %}}
 
 ## **チャートデータの設定**
 
-次のように、Aspose.Cells を使用してグラフを操作する際に扱うデータには、次の 2 種類があります。
+Aspose.Cellsを使用してチャートを作成する際に扱うデータには、次の2種類があります：
 
-- [チャートデータ](/cells/ja/java/data-formatting-in-charts/#chart-data).
-- [カテゴリーデータ](/cells/ja/java/data-formatting-in-charts/#category-data).
+- [チャートデータ](/cells/ja/java/data-formatting-in-charts/#chart-data)
+- [カテゴリデータ](/cells/ja/java/data-formatting-in-charts/#category-data)
 
 ### **チャートデータ**
 
-チャート データは、チャートを作成するためのデータ ソースとして使用するデータです。を呼び出して、セル範囲 (グラフ データを含む) を追加できます。[**シリーズコレクション**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)オブジェクトの[**追加**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)） 方法。
+チャートデータとは、チャートを作成するためのデータソースとして使用されるデータです。[**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)オブジェクトの[**Add**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object))メソッドを呼び出すことで、チャートデータを含むセルの範囲を追加できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 
-### **カテゴリーデータ**
+### **カテゴリデータ**
 
-カテゴリ データは、グラフ データのラベル付けに使用され、追加できます。[**シリーズコレクション**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)その使用によって[**setCategoryData**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#CategoryData)方法。
+カテゴリデータは、チャートデータにラベル付けするために使用され、[**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)の[**setCategoryData**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#CategoryData)メソッドを使用して追加できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingCategoryData-SettingCategoryData.java" >}}
 
-**グラフとカテゴリ データを含む縦棒グラフ** 
+**カラムチャートとチャート＆カテゴリデータ** 
 
-![todo:画像_代替_文章](data-formatting-in-charts_1.png)
+![todo:image_alt_text](data-formatting-in-charts_1.png)
 
-## **先行トピック**
-- [ダイナミック チャートの作成](/cells/ja/java/create-dynamic-charts/)
-- [Chart.setChartDataRange メソッドを使用したチャート設定の簡単な方法](/cells/ja/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
-- [チャート シリーズのポイントの X 値と Y 値のタイプを見つける](/cells/ja/java/find-type-of-x-and-y-values-of-points-in-chart-series/)
-- [チャート シリーズの値のフォーマット コードを設定する](/cells/ja/java/set-the-values-format-code-of-chart-series/)
+## **高度なトピック**
+- [動的なチャートを作成する](/cells/ja/java/create-dynamic-charts/)
+- [Chart.setChartDataRangeメソッドを使用したチャートセットアップの簡単な方法](/cells/ja/java/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
+- [チャートシリーズのX値とY値のタイプを検索する](/cells/ja/java/find-type-of-x-and-y-values-of-points-in-chart-series/)
+- [チャートシリーズの値の形式コードを設定する](/cells/ja/java/set-the-values-format-code-of-chart-series/)

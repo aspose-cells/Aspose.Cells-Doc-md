@@ -1,13 +1,14 @@
-﻿---
-title: Agregar comentario en la hoja de trabajo
+---
+title: Agregar comentario en hoja de cálculo
 type: docs
 weight: 10
 url: /es/net/add-comment-in-worksheet/
 ---
-## **Aspose.Cells - Agregar comentario en la hoja de trabajo**
+
+## **Aspose.Cells - Agregar comentario en hoja de cálculo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -47,10 +48,10 @@ workbook.Save("Output-AddingComment.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Agregar comentario en la hoja de trabajo**
+## **NPOI - HSSF XSSF - Agregar comentario en hoja de cálculo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -94,13 +95,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Agregar imagen en la hoja de trabajo** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Agregar imagen en hoja de cálculo** desde cualquiera de los siguientes sitios de programación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Add.Comment.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Trabajar con hojas de trabajo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Para más detalles, visita [Trabajando con Hojas de Cálculo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

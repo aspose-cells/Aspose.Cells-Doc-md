@@ -1,15 +1,16 @@
-﻿---
-title: Erstellen Sie Diagramme in xlsx4j
+---
+title: Diagramme in xlsx4j erstellen
 type: docs
 weight: 20
 url: /de/java/create-charts-in-xlsx4j/
 ---
-## **Aspose.Cells – Diagramme erstellen**
-Mit Aspose.Cells können Tabellenkalkulationen eine Vielzahl von Diagrammen hinzugefügt werden. Aspose.Cells bietet viele flexible Diagrammobjekte.
+
+## **Aspose.Cells - Diagramme erstellen**
+Mit Aspose.Cells können verschiedene Diagramme in Arbeitsmappen hinzugefügt werden. Aspose.Cells bietet viele flexible Diagramm-Objekte.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -68,7 +69,7 @@ serieses.add("A1:B3", true);
 workbook.save(dataDir + "Chart_Aspose.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/charts/createcharts/AsposeCreateCharts.java)

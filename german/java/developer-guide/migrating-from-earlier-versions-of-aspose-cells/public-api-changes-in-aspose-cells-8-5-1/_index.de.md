@@ -1,21 +1,22 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.5.1
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.5.1
 type: docs
 weight: 180
 url: /de/java/public-api-changes-in-aspose-cells-8-5-1/
 ---
+
 {{% alert color="primary" %}} 
 
- Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.5.0 zu 8.5.1, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden,[zusätzliche Klassen usw.](/cells/de/java/public-api-changes-in-aspose-cells-8-5-1/), sondern auch eine Beschreibung etwaiger Verhaltensänderungen hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 8.5.0 auf 8.5.1, die für Modul-/Anwendungsentwickler interessant sein können. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, [hinzugefügte Klassen etc.](/cells/de/java/public-api-changes-in-aspose-cells-8-5-1/), sondern auch eine Beschreibung von Änderungen im Verhalten im Hintergrund von Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Methode Workbook.Dispose Hinzugefügt**
-Aspose.Cells for Java 8.5.1 hat die Workbook.dispose-Methode verfügbar gemacht, um die nicht verwalteten Ressourcen des Workbook-Objekts freizugeben. Das Dispose-Muster wird nur für Objekte verwendet, die auf nicht verwaltete Ressourcen zugreifen, z. B. Datei- und Pipe-Handles, Registrierungshandles, Wait-Handles oder Zeiger auf Blöcke von nicht verwaltetem Speicher. Dies liegt daran, dass der Garbage Collector beim Zurückgewinnen nicht verwendeter verwalteter Objekte sehr effizient ist, aber nicht in der Lage ist, nicht verwaltete Objekte zurückzugewinnen.
+## **Hinzugefügte APIs**
+### **Methode Workbook.Dispose hinzugefügt**
+Aspose.Cells for Java 8.5.1 hat die Methode Workbook.dispose freigegeben, um die nicht verwalteten Ressourcen des Workbook-Objekts freizugeben. Das Dispose-Muster wird nur für Objekte verwendet, die auf nicht verwaltete Ressourcen wie Datei- und Pipe-Handles, Registrierungsgriffe, Wartegriffe oder Zeiger auf Blöcke nicht verwalteten Speichers zugreifen. Dies liegt daran, dass der Garbage Collector sehr effizient darin ist, nicht genutzte verwaltete Objekte zurückzugewinnen, jedoch keine unverwalteten Objekte zurückgewinnen kann.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -27,22 +28,22 @@ book.dispose();
 
 {{< /highlight >}}
 ### **Methode Cell.getHeightOfValue hinzugefügt**
- Aspose.Cells for Java 8.5.1 hat die Methode Cell.getHeightOfValue bereitgestellt, um die Höhe des Zellenwerts abzurufen. Mit dieser Methode können Sie die Höhe des Zellenwerts berechnen und dann die Höhe der Zeile dieser Zelle festlegen. Überprüfen Sie den ausführlichen Artikel auf[wie man die Zellenhöhe und -breite berechnet](/cells/de/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
-### **Enumeration TableDataSourceType hinzugefügt**
-Aspose.Cells for Java 8.5.1 hat die Enumeration com.aspose.cells.TableDataSourceType verfügbar gemacht, um den Datenquellentyp eines ListObject abzurufen. Die TableDataSourceType-Enumeration als folgende Felder.
+Aspose.Cells for Java 8.5.1 hat die Methode Cell.getHeightOfValue freigegeben, um die Höhe des Zellenwerts zu erhalten. Mit dieser Methode können Sie die Höhe des Zellenwerts berechnen und dann entsprechend die Höhe der Zeile dieser Zelle festlegen. Prüfen Sie den ausführlichen Artikel über [die Berechnung der Zellenhöhe und -breite](/cells/de/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+### **Aufzählung TableDataSourceType hinzugefügt**
+Aspose.Cells for Java 8.5.1 hat die Aufzählung com.aspose.cells.TableDataSourceType freigegeben, um den Datentyp der Datenquelle eines ListObject abzurufen. Die Aufzählung TableDataSourceType mit folgenden Feldern. 
 
 1. TableDataSourceType.QUERY_TABLE
 1. TableDataSourceType.SHARE_POINT
 1. TableDataSourceType.WORKSHEET
 1. TableDataSourceType.XML
-### **Eigenschaft ListObject.DataSourceType hinzugefügt**
-Mit der Veröffentlichung von v8.5.1 hat Aspose.Cells API die schreibgeschützte ListObject.DataSourceType-Eigenschaft verfügbar gemacht, die verwendet werden kann, um den Datenquellentyp eines ListObject zu erkennen.
+### **Hinzugefügtes ListObject.DataSourceType-Eigenschaft**
+Mit der Veröffentlichung von v8.5.1 hat die Aspose.Cells-API die schreibgeschützte ListObject.DataSourceType-Eigenschaft freigelegt, die dazu verwendet werden kann, den Datentyp der Datenquelle eines ListObjects zu erkennen.
 
 Hier ist das einfachste Anwendungsszenario.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("D:/book1.xlsx");
 

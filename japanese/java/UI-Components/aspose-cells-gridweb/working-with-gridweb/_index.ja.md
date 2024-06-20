@@ -1,54 +1,55 @@
 ---
-title: GridWeb の操作
+title: GridWeb での作業
 type: docs
 weight: 20
 url: /ja/java/working-with-gridweb/
 ---
-##  **Microsoft Excel ファイルを開く**
 
-Aspose.Cells.GridWeb コントロールは、Microsoft Excel ファイルを開いて読み込むことができます - データ、書式設定、グラフ、画像などを備えています。このトピックではその方法について説明します。
+## **Microsoft Excelファイルを開く**
 
-GridWeb コントロールを使用して Excel ファイルを開くには:
+Aspose.Cells.GridWebコントロールを使用して、Microsoft Excelファイルをデータ、書式、グラフ、画像などを含めて開きます。このトピックではその方法について説明します。
 
-1. Aspose.Cells.GridWeb コントロールを Web フォームまたはページに追加します。
-1. ファイルパスを指定して Excel ファイルをインポートします。
+GridWebコントロールを使用してExcelファイルを開くには:
+
+1. Aspose.Cells.GridWebコントロールをWebフォームまたはページに追加します。
+1. ファイルのパスを指定してExcelファイルをインポートします。
 1. アプリケーションを実行するか、ページを開きます。
 
-Excel ファイルから Aspose.Cells.GridWeb コントロールにコンテンツをロードするには、importExcelFile メソッドを呼び出して Excel ファイルのパスを指定する必要があります。その後、GridWeb コントロールは指定されたパスからファイルを自動的に検索し、そのファイルの内容を表示します。 Excel ファイルの内容をロードするコード スニペットを以下に示します。
+Aspose.Cells.GridWebコントロールにExcelファイルからコンテンツをロードするには、importExcelFileメソッドを呼び出してExcelファイルのパスを指定する必要があります。その後、GridWebコントロールは指定されたパスからファイルを自動的に見つけ、その内容を表示します。Excelファイルの内容をロードするコードの断片が以下に示されています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-OpeningfromFile-OpeningfromFile.jsp" >}}
 
-上記のコード スニペットは、任意の方法で使用できます。たとえば、Web フォームの読み込み時に Excel ファイルを自動的に読み込むには、自分で指定したフォームの Page_Load イベントにこのコードを追加します。
+上記のコード断片は任意の方法で使用できます。たとえば、Webフォームが読み込まれるときにExcelファイルを自動的に読み込む場合は、このコードを自分で指定したフォームのPage_Loadイベントに追加します。
 
-**Excel ファイルが GridWeb にロードされる**
+GridWebにExcelファイルがロードされます
 
 ![todo:image_alt_text](working-with-gridweb_1.png)
 
-##  **Microsoft Excel ファイルの保存**
+## **Microsoft Excelファイルの保存**
 
-Aspose.Cells.GridWeb コントロールを使用して、Web サイト上で GUI モードで新しい Microsoft Excel ファイルを作成したり、既存の Microsoft Excel ファイルを操作したりすることができます。ファイルは Excel ファイルに保存できます。 Aspose.Cells.GridWeb は、オンライン スプレッドシート エディタとして効果的に機能します。このトピックでは、グリッドのコンテンツを Excel ファイルに保存する方法について説明します。
+Aspose.Cells.GridWebコントロールを使用して、Webサイト上で新しいMicrosoft Excelファイルを作成したり既存のファイルを操作したりし、Excelファイルとして保存することができます。Aspose.Cells.GridWebは、オンラインスプレッドシートエディタとして効果的に機能します。このトピックでは、グリッドの内容をExcelファイルに保存する方法について説明します。
 
-###  **ファイルとして保存する**
+### **ファイルとして保存する**
 
-Aspose.Cells.GridWeb コントロールの内容を Excel ファイルとして保存するには:
+Aspose.Cells.GridWebコントロールのコンテンツをExcelファイルとして保存するには：
 
-1. Aspose.Cells.GridWeb コントロールを Web フォームまたはページに追加します。
-1. 作業内容を Excel ファイルとして指定したパスに保存します。
+1. Aspose.Cells.GridWebコントロールをWebフォームまたはページに追加します。
+1. 指定したパスに作業内容をExcelファイルとして保存します。
 1. アプリケーションを実行するか、ページを開きます。
 
-以下のコード例は、グリッドのコンテンツを Excel ファイルに保存する方法を示しています。
+以下のコード例は、グリッドコンテンツをExcelファイルに保存する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-SavingasFile-SavingasFile.jsp" >}}
 
-上記のコード スニペットは、いくつかの方法で使用できます。一般的な方法は、クリック時にグリッドの内容を Excel ファイルに保存するボタンを追加することです。 Aspose.Cells.GridWeb は、このタスクに対する簡単なアプローチを提供します。 Aspose.Cells.GridWeb には SaveCommand というイベントがあります。上記のコード スニペットを SaveCommand イベントのイベント ハンドラーに追加すると、ユーザーは Aspose.Cells.GridWeb の組み込みファイルをクリックして作業を保存できます。**保存**ボタン。
+上記のコード断片はいくつかの方法で使用できます。一般的な方法は、バックグラウンドでExcelファイルにグリッドの内容を保存するボタンを追加することです。Aspose.Cells.GridWebはこのタスクのための簡単なアプローチを提供します。Aspose.Cells.GridWebにはSaveCommandというイベントがあります。上記のコード断片はSaveCommandイベントのイベントハンドラに追加することができ、ユーザーはAspose.Cells.GridWebの組み込みの**Save**ボタンをクリックして作業を保存できます。
 
-##  **Aspose.Cells.GridWeb とそのヘッダー バーのサイズ変更**
+## **Aspose.Cells.GridWebとそのヘッダーバーのサイズ変更**
 
-この記事では、Aspose.Cells.GridWeb API を使用して実行時に GridWeb のサイズ変更を行う方法について説明します。また、データを読みやすくするために Aspose.Cells.GridWeb コントロールのヘッダー バーのサイズを変更する方法についても説明します。
+この記事では、Aspose.Cells.GridWeb APIを使用してランタイムでGridWebのサイズを変更する方法について説明します。また、Aspose.Cells.GridWebコントロールのヘッダーバーのサイズを変更してデータを読みやすくする方法についても説明します。
 
-###  **Aspose.Cells.GridWeb の幅と高さを変更する**
+### **Aspose.Cells.GridWeb の幅と高さを変更する**
 
-Aspose.Cells.GridWeb コントロールの幅と高さの変更は単純ですが重要な機能です。 Aspose.Cells.GridWeb コントロールは、API の GridWeb クラスによって表されます。 GridWeb コントロールの幅と高さを変更するには、その幅と高さのプロパティを使用するだけです。
+Aspose.Cells.GridWebコントロールの幅と高さを変更することは、単純ながら重要な機能です。Aspose.Cells.GridWebコントロールはAPI内のGridWebクラスで表されます。GridWebコントロールの幅と高さを変更するには、その幅と高さのプロパティを単純に使用します。
 
 {{% alert color="primary" %}}
 
@@ -56,28 +57,28 @@ Aspose.Cells.GridWeb コントロールの幅と高さの変更は単純です�
 
 {{% /alert %}}
 
-以下のコード スニペットの出力を以下に示します。
+以下のコードスニペットの出力は以下のようになります。
 
-**GridWeb コントロールの幅と高さを変更しました**
+**GridWebコントロールの幅と高さを変更しました**
 
 ![todo:image_alt_text](working-with-gridweb_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangedwidthheightofGridWebcontrol-ChangedwidthheightofGridWebcontrol.jsp" >}}
 
-###  **ヘッダーバーの幅と高さの変更**
+### **ヘッダーバーの幅と高さを変更する**
 
-Aspose.Cells.GridWeb コントロールには、次の 2 つのヘッダー バーが含まれています。
+Aspose.Cells.GridWebコントロールには、次のような2つのヘッダーバーがあります:
 
-- 上部のヘッダー バー。このヘッダー バーは列を A、B、C、D などとして表します。
-- 左側のヘッダー バー。このヘッダー バーは行を 1、2、3、4 などとして表します。
+- 上部のヘッダーバー、このヘッダーバーはA、B、C、Dなどの列を表します。
+- 左側のヘッダーバー、このヘッダーバーは1、2、3、4などの行を表します。
 
-これらのヘッダー バーの両方を以下に示します。
+これらのヘッダーバーは以下に示しています。
 
 **ヘッダーバー**
 
 ![todo:image_alt_text](working-with-gridweb_3.png)
 
-GridWeb コントロールの HeaderBarHeight プロパティと HeaderBarWidth プロパティをそれぞれ使用して、上部のヘッダー バーの高さと左側のヘッダー バーの幅を変更します。以下の図は、次のコード例の出力を示しています。
+GridWebコントロールのHeaderBarHeightとHeaderBarWidthプロパティを使用して、上部ヘッダーバーの高さと左側ヘッダーバーの幅を変更します。以下のコード例の出力は以下のようになります。
 
 **ヘッダーバーの幅と高さを変更しました**
 
@@ -85,144 +86,144 @@ GridWeb コントロールの HeaderBarHeight プロパティと HeaderBarWidth 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangingWidthandHeightofHeaderBar-ChangingWidthandHeightofHeaderBar.jsp" >}}
 
-##  **Aspose.Cells.GridWeb イベントの操作**
+## **Aspose.Cells.GridWebイベントの操作**
 
-すべての開発者は、イベントとその目的をよく知っている必要があります。イベントは、コントロールまたはクラスで発生する可能性のある変更の通知を送信するために使用されます。 Aspose.Cells.GridWeb には、コントロールで特定の変更が発生したときに特定のタスクを実行するために使用できるイベントがいくつかあります。
+すべての開発者はイベントとその目的を把握している必要があります。 イベントは、コントロールやクラスで発生する変更の通知を送信するために使用されます。 Aspose.Cells.GridWebには、コントロール内で特定の変更が発生したときに特定のタスクを実行するために使用できるいくつかのイベントがあります。
 
-このトピックでは、Aspose.Cells.GridWeb コントロールでサポートされるすべてのイベントの概要と、これらのイベントの処理方法の詳細を説明します。
+このトピックでは、Aspose.Cells.GridWebコントロールでサポートされているすべてのイベントについて紹介し、これらのイベントをどのように扱うかについて詳細を提供します。
 
-###  **グリッドイベントの概要**
+### **Gridイベントへの導入**
 
-Aspose.Cells.GridWeb コントロールは、コントロール内で特定のイベントがトリガーされたときに操作を実行するためのより詳細な制御を提供するいくつかのイベントをサポートしています。 Aspose.Cells.GridWeb コントロールでサポートされるイベントの完全なリストは以下にあります。
+Aspose.Cells.GridWebコントロールは、コントロールで特定のイベントがトリガーされたときに操作をより細かく行うための複数のイベントをサポートしています。Aspose.Cells.GridWebコントロールでサポートされているイベントの完全なリストは以下で見つけることができます。
 
 |**イベント**|**説明**|
 | :- | :- |
-|セルコマンド|セルのコマンド ハイパーリンクがクリックされたときに発生します。このイベントが発生すると、そのパラメーター e.Argument によってコマンドの名前が提供されます。|
-|セルダブルクリック|セルがダブルクリックされると発生します。|
-|列削除済み|ユーザーがクライアント側のメニューを使用してワークシートから列を削除すると発生します。|
-|列の削除|ユーザーがクライアント側メニューを使用してワークシートから列を削除しようとしているときに発生します。|
-|列ダブルクリック|列ヘッダーがダブルクリックされると発生します。|
-|列が挿入されました|ユーザーがクライアント側のメニューを使用してワークシートに列を挿入すると発生します。|
-|カスタムコマンド|ユーザーがカスタム コマンド ボタンをクリックすると発生します。|
-|カスタムデータのロード|コントロールの EnableSession プロパティが false に設定されており、ワークシート データを読み込む必要がある場合に発生します。このイベントをセッションレス モードで処理して、ファイルまたはデータベースからワークシート データをロードできます。|
-|PageIndexChanged|コントロールのシート ページ インデックスが変更されたときに発生します。|
-|行削除済み|ユーザーがクライアント側のメニューを使用してワークシートから行を削除すると発生します。|
-|行の削除|ユーザーがクライアント側メニューを使用してワークシートから行を削除しようとしているときに発生します。|
-|行ダブルクリック|行ヘッダーがダブルクリックされると発生します。|
-|行挿入済み|ユーザーがクライアント側のメニューを使用してワークシートに行を挿入すると発生します。|
-|保存コマンド|次のときに発生します。**保存**ボタンがクリックされました。|
-|シートタブクリック|シート タブをクリックすると発生します。|
-|送信コマンド|次のときに発生します。**提出する**ボタンがクリックされました。|
-|元に戻すコマンド|次のときに発生します。**元に戻す**ボタンがクリックされました。|
-|AjaxCall終了|コントロールの AJAX 更新が完了したときに発生します。 (EnableAJAX は true に設定されます)。|
-|CellModifiedOnAjax|AJAX 呼び出しでセルが変更されたときに発生します。|
-|AfterColumnFilter|フィルターが列に適用されるときに発生します。|
+|CellCommand|セルのコマンドハイパーリンクがクリックされたときに発生します。このイベントが発生すると、そのパラメータe.Argumentがコマンドの名前を提供します。
+|CellDoubleClick|セルがダブルクリックされたときに発生します。
+|ColumnDeleted|クライアント側のメニューを使用してワークシートから列を削除するユーザーがいる場合に発生します。
+クライアント側のメニューを使用してワークシートから列を削除しようとする場合に発生します。
+列ヘッダーがダブルクリックされたときに発生します。
+クライアント側のメニューを使用してワークシートに列を挿入しようとする際に発生します。
+ユーザーがカスタムコマンドボタンをクリックしたときに発生します。
+コントロールのEnableSessionプロパティがfalseに設定されており、セッションレスモードでワークシートデータをロードする必要がある場合に発生します。セッションレスモードで、ファイルやデータベースからワークシートデータをロードするためにこのイベントを処理できます。
+コントロールのシートページインデックスが変更されたときに発生します。
+クライアント側のメニューを使用してワークシートから行を削除しようとする場合に発生します。
+クライアント側のメニューを使用してワークシートから行を削除しようとする場合に発生します。
+行ヘッダーがダブルクリックされたときに発生します。
+|RowInserted|クライアント側のメニューを使用してワークシートに行を挿入したときに発生します。
+|SaveCommand|**保存**ボタンがクリックされたときに発生します。
+|SheetTabClick|シートタブがクリックされたときに発生します。
+|SubmitCommand|**送信**ボタンがクリックされたときに発生します。
+|UndoCommand|**元に戻す**ボタンがクリックされたときに発生します。
+|AjaxCallFinished|コントロールのAJAX更新が終了したときに発生します。(EnableAJAXがtrueに設定されている必要があります)。
+|CellModifiedOnAjax|AJAX呼び出しでセルが変更されたときに発生します。
+|AfterColumnFilter|列にフィルターが適用されたときに発生します。
 
-###  **グリッドイベントの処理**
+### **グリッドイベントの処理**
 
-特定のイベントのトリガー時に特定の操作を実行するには、イベント ハンドラーを作成する必要があります。イベント ハンドラーは、特定のイベントがトリガーされると、目的のタスクを実行します。次の例は、単純なグリッド イベントを処理する方法を示しています。
+特定のイベントをトリガーとして特定の操作を行うには、イベントハンドラを作成する必要があります。 イベントハンドラは、特定のイベントがトリガーされたときに必要なタスクを実行します。 以下の例では、シンプルなグリッドイベントの処理方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-HandlingGridEvents-HandlingGridEvents.jsp" >}}
 
-##  **ダブルクリックイベントの操作**
+## **ダブルクリックイベントの操作**
 
-Aspose.Cells.GridWeb には、次の 3 種類のダブルクリック イベントが含まれています。
+Aspose.Cells.GridWeb には、3種類のダブルクリックイベントが含まれています:
 
-- CellDoubleClick。セルがダブルクリックされると起動されます。
-- ColumnDoubleClick。列ヘッダーがダブルクリックされると起動されます。
-- RowDoubleClick。行ヘッダーがダブルクリックされると起動されます。
+- CellDoubleClick: セルがダブルクリックされたときに発生します。
+- ColumnDoubleClick: 列ヘッダがダブルクリックされたときに発生します。
+- RowDoubleClick: 行ヘッダがダブルクリックされたときに発生します。
 
-このトピックでは、Aspose.Cells.GridWeb でダブルクリック イベントを有効にする方法について説明します。これらのイベントのイベント ハンドラーの作成についても説明します。
+このトピックでは、Aspose.Cells.GridWeb でのダブルクリックイベントの有効化と、これらのイベントのためのイベントハンドラの作成について説明します。
 
-###  **ダブルクリックイベントを有効にする**
+### **ダブルクリックイベントの有効化**
 
-GridWeb コントロールの EnableDoubleClickEvent プロパティを true に設定することで、すべての種類のダブルクリック イベントをクライアント側で有効にすることができます。
+すべての種類のダブルクリックイベントをクライアント側で有効にするには、GridWeb コントロールの EnableDoubleClickEvent プロパティを true に設定します。
 
 {{% alert color="primary" %}}
 
-デフォルトでは、EnableDoubleClickEvent プロパティは false に設定されています。これは、ダブルクリック イベントがデフォルトでは有効になっていないことを意味します。このようなイベントを実装するには、まず機能を有効にします。
+デフォルトでは、EnableDoubleClickEvent プロパティは false に設定されています。 これは、ダブルクリックイベントがデフォルトで有効になっていないことを意味します。 このようなイベントを実装するには、まずこの機能を有効にする必要があります。
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-EnablingDoubleClickEvents-EnablingDoubleClickEvents.jsp" >}}
 
-ダブルクリック イベントを有効にすると、任意のダブルクリック イベントのイベント ハンドラーを作成できるようになります。これらのイベント ハンドラーは、特定のダブルクリック イベントが発生したときに特定のタスクを実行します。
+ダブルクリックイベントが有効になると、任意のダブルクリックイベントのためのイベントハンドラを作成できます。 これらのイベントハンドラは、特定のダブルクリックイベントが発生したときに特定のタスクを実行します。
 
-###  **ダブルクリックイベントの処理**
+### **ダブルクリックイベントの処理**
 
-####  **ダブルクリック Cell**
+#### **セルのダブルクリック**
 
-CellDoubleClick イベントのイベント ハンドラーは、CellEventArgs 型の引数を提供します。これは、ダブルクリックされたセルの完全な情報を提供します。
+CellDoubleClick イベントのイベントハンドラは、CellEventArgs タイプの引数を提供します。 これにより、ダブルクリックされたセルの完全な情報が提供されます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickCell-DoubleClickCell.jsp" >}}
 
-####  **列ヘッダーをダブルクリックします**
+#### **列ヘッダのダブルクリック**
 
-ColumnDoubleClick イベントのイベント ハンドラーは、ダブルクリックされたヘッダーの列のインデックス番号とその他の情報を提供する RowColumnEventArgs 型の引数を提供します。
+ColumnDoubleClick イベントのイベントハンドラは、ColumnDoubleClick イベントのイベントハンドラは、RowColumnEventArgs タイプの引数を提供し、ダブルクリックされたヘッダの列のインデックス番号などの情報が提供されます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickColumnHeader-DoubleClickColumnHeader.jsp" >}}
 
-####  **行ヘッダーをダブルクリックします**
+#### **行ヘッダのダブルクリック**
 
-RowDoubleClick イベントのイベント ハンドラーは、ダブルクリックされたヘッダーの行のインデックス番号とその他の関連情報を提供する RowColumnEventArgs 型の引数を提供します。
+RowDoubleClick イベントのイベントハンドラは、RowColumnEventArgs タイプの引数を提供し、ダブルクリックされたヘッダの行のインデックス番号などの情報が提供されます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-DoubleClickRowHeader-DoubleClickRowHeader.jsp" >}}
 
-##  **Aspose.Cells.GridWeb のスタイルまたは外観の設定**
+## **Aspose.Cells.GridWebのスタイルまたは外観の設定**
 
-Aspose.Cells.GridWeb には独自のデフォルトのルック アンド フィールがありますが、その外観を変更することができます。 Aspose.Cells.GridWeb には、開発者がその外観を完全に制御できるようにするいくつかのプロパティが用意されています。このトピックでは、これらのプロパティのいくつかについて説明します。
+Aspose.Cells.GridWebにはデフォルトの外観がありますが、外観を変更することも可能です。Aspose.Cells.GridWebは、開発者が外観を完全に制御するためにいくつかのプロパティを提供しています。このトピックでは、その中のいくつかのプロパティについて説明します。
 
-###  **Aspose.Cells.GridWeb のスタイルまたは外観の設定**
+### **Aspose.Cells.GridWebのスタイルまたは外観の設定**
 
-####  **プリセットスタイル**
+#### **プリセットスタイル**
 
-開発者の労力を節約するために、Aspose.Cells.GridWeb はいくつかのプリセット スタイルを提供しています。リストからスタイルを選択するだけで、スタイルを適用できます。
+開発者の手間を省くために、Aspose.Cells.GridWebはいくつかのプリセットスタイルを提供しています。リストからスタイルを選択して適用するだけです。
 
-|**スタイル**|**カラースキーム**|
+|**スタイル**|**色の配色**|
 | :- | :- |
-|標準|銀|
-|カラフル1|薔薇|
-|カラフル2|青|
-|プロフェッショナル1|シアン|
-|プロフェッショナル2|またシアン|
-|伝統的1|暗い|
-|トラディショナル2|グレー|
-|カスタム|カスタマイズされた|
-特定のスタイルを選択すると、GridWeb コントロールの外観全体が変更されます。開発者は、Aspose.Cells.GridWeb の柔軟な API を使用して、実行時に適用するプリセット スタイルを選択できます。
+|Standard|Silver|
+|Colorful1|Rose|
+|Colorful2|Blue|
+|Professional1|Cyan|
+|Professional2|Cyan again|
+|Traditional1|Dark|
+|Traditional2|Gray|
+|Custom|Customized|
+特定のスタイルが選択されると、GridWebコントロール全体の外観が変更されます。 開発者は、柔軟なAspose.Cells.GridWebのAPIを使用して、ランタイムでプリセットスタイルを選択して適用することができます。
 
-GridWeb コントロールは、開発者が任意のプリセット スタイルを割り当てることができる PresetStyle プロパティを提供します。
+GridWebコントロールは、開発者が任意のプリセットスタイルを割り当てることができるPresetStyleプロパティを提供します。
 
-以下のコード スニペットの出力を以下に示します。
+以下のコードスニペットの出力は以下に示されています。
 
-**Colorful1 スタイルが適用された GridWeb コントロール**
+Colorful1スタイルが適用されたGridWebコントロール
 
 ![todo:image_alt_text](working-with-gridweb_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
-####  **ヘッダーバーのスタイル**
+#### **ヘッダーバースタイル**
 
-GridWeb コントロールを見ると、2 つのヘッダー バーに気づくでしょう。 1 つは列 (A、B、C、D など) 用で、もう 1 つは行 (1、2、3、4 など) 用です。 Aspose.Cells.GridWeb を使用すると、開発者はこれらのヘッダー バーの外観を制御できます。開発者は実行時にヘッダー バーのスタイルを設定できます。
+GridWebコントロールを見ると、2つのヘッダーバーがあることに気付くでしょう。 列用のもの（A、B、C、Dなど）と行用のもの（1、2、3、4など）です。 Aspose.Cells.GridWebでは、これらのヘッダーバーの外観を制御することが可能です。 開発者は、ランタイムでヘッダーバーのスタイルを設定することができます。
 
 {{% alert color="primary" %}}
 
-GridWeb コントロールは、コントロールの両方のヘッダー バーにスタイルを適用する HeaderBarStyle プロパティを提供します。
+GridWebコントロールは、コントロールの両方のヘッダーバーにスタイルを適用するHeaderBarStyleプロパティを提供します。
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
-####  **タブバーのスタイル**
+#### **タブバースタイル**
 
-タブバーのスタイルを設定することも可能です。次のコードを参照してください
+タブバーのスタイルを設定することができます。次のコードを参照してください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-HeaderBarStyle-HeaderBarStyle.jsp" >}}
 
-####  **スタイルファイルの読み込み中**
+#### **スタイルファイルの読み込み**
 
-既存のスタイル ファイルから GridWeb コントロールにスタイル設定を適用するには、開発者はスタイル ファイルのパスをコントロールの CustomStyleFileName プロパティに設定します。ただし、その前に、コントロールの PresetStyle プロパティを Custom に設定する必要があります。これは、そのスタイル ファイルには、開発者によってすでに定義されているカスタム スタイル情報が含まれているためです。
+開発者は、既存のスタイルファイルからGridWebコントロールにスタイル設定を適用するために、コントロールのCustomStyleFileNameプロパティにスタイルファイルのパスを設定することができます。ただし、その前に、コントロールのPresetStyleプロパティをCustomに設定する必要があります。なぜなら、スタイルファイルには、すでに開発者によって定義されたカスタムスタイル情報が含まれているためです。
 
-カスタム スタイルが適用された GridWeb を示す次の画像を参照してください。
+カスタムスタイルが適用されたGridWebを示す次の画像をご覧ください。
 
 ![todo:image_alt_text](working-with-gridweb_6.png)
 
@@ -230,33 +231,33 @@ GridWeb コントロールは、コントロールの両方のヘッダー バ�
 
 {{% alert color="primary" %}}
 
-重要: スタイル ファイルを GridWeb コントロールにロードしても、コントロールのセルの書式設定には影響しません。
+重要：GridWebコントロールにスタイルファイルを読み込んでも、コントロールのセルの書式設定には影響しません。
 
 {{% /alert %}}
 
-####  **カスタム スタイル テンプレートのサンプル**
+#### **サンプルカスタムスタイルテンプレート**
 
-カスタム スタイル テンプレートのサンプルを次に示します。要件に応じて変更できます。
+以下はサンプルのカスタムスタイルテンプレートです。必要に応じて変更することができます。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <aspose.excel.web.viewerStyletemplate runat="server" HeaderBarWidth="30pt" ScrollBarBaseColor="#AFEEEE" SelectCellBgColor="#FFFAF0" ActiveHeaderBgColor="#DAA520" ActiveCellBgColor="#DDDDFF" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LeftBorderStyle-BorderWidth="" FrameTableStyle-LeftBorderStyle-BorderColor="" FrameTableStyle-LayoutFixed="Fixed" FrameTableStyle-RightBorderStyle-BorderWidth="" FrameTableStyle-RightBorderStyle-BorderColor="" FrameTableStyle-BorderWidth="1px" FrameTableStyle-CellSpacing="0" FrameTableStyle-BorderColor="#C0FFC0" FrameTableStyle-CellPadding="0" FrameTableStyle-TopBorderStyle-BorderWidth="" FrameTableStyle-TopBorderStyle-BorderColor="" FrameTableStyle-BackColor="#FFFFCC" FrameTableStyle-BottomBorderStyle-BorderWidth="" FrameTableStyle-BottomBorderStyle-BorderColor="" HeaderBarStyle-LeftBorderStyle-BorderWidth="" HeaderBarStyle-LeftBorderStyle-BorderColor="" HeaderBarStyle-verticalalign="Middle" HeaderBarStyle-RightBorderStyle-BorderWidth="" HeaderBarStyle-RightBorderStyle-BorderColor="" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-font-size="10pt" HeaderBarStyle-BorderColor="#00C0C0" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-horizontalalign="Center" HeaderBarStyle-ForeColor="Red" HeaderBarStyle-TopBorderStyle-BorderWidth="" HeaderBarStyle-TopBorderStyle-BorderColor="" HeaderBarStyle-BackColor="#D8BFD8" HeaderBarStyle-BottomBorderStyle-BorderWidth="" HeaderBarStyle-BottomBorderStyle-BorderColor="" ViewTableStyle-LeftBorderStyle-BorderWidth="" ViewTableStyle-LeftBorderStyle-BorderColor="" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-RightBorderStyle-BorderWidth="" ViewTableStyle-RightBorderStyle-BorderColor="" ViewTableStyle-BorderWidth="0px" ViewTableStyle-CellSpacing="0" ViewTableStyle-CellPadding="0" ViewTableStyle-TopBorderStyle-BorderWidth="" ViewTableStyle-TopBorderStyle-BorderColor="" ViewTableStyle-BottomBorderStyle-BorderWidth="" ViewTableStyle-BottomBorderStyle-BorderColor="" BottomTableStyle-LeftBorderStyle-BorderWidth="" BottomTableStyle-LeftBorderStyle-BorderColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-RightBorderStyle-BorderWidth="" BottomTableStyle-RightBorderStyle-BorderColor="" BottomTableStyle-Height="32pt" BottomTableStyle-BorderWidth="0px" BottomTableStyle-CellSpacing="0" BottomTableStyle-BorderColor="#80FF80" BottomTableStyle-CellPadding="0" BottomTableStyle-ForeColor="#FFE0C0" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="#FF69B4" BottomTableStyle-BottomBorderStyle-BorderWidth="" BottomTableStyle-BottomBorderStyle-BorderColor="" HeaderBarHeight="15pt" ActiveTabStyle-LeftBorderStyle-BorderWidth="" ActiveTabStyle-LeftBorderStyle-BorderColor="" ActiveTabStyle-RightBorderStyle-BorderWidth="" ActiveTabStyle-RightBorderStyle-BorderColor="" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-font-size="10pt" ActiveTabStyle-BorderColor="#00C0C0" ActiveTabStyle-BorderStyle="Solid" ActiveTabStyle-ForeColor="#FF00FF" ActiveTabStyle-TopBorderStyle-BorderWidth="" ActiveTabStyle-TopBorderStyle-BorderColor="" ActiveTabStyle-BackColor="#80FFFF" ActiveTabStyle-BottomBorderStyle-BorderWidth="" ActiveTabStyle-BottomBorderStyle-BorderColor="" HeaderBarTableStyle-LeftBorderStyle-BorderWidth="" HeaderBarTableStyle-LeftBorderStyle-BorderColor="" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-RightBorderStyle-BorderWidth="" HeaderBarTableStyle-RightBorderStyle-BorderColor="" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-CellSpacing="0" HeaderBarTableStyle-CellPadding="0" HeaderBarTableStyle-TopBorderStyle-BorderWidth="" HeaderBarTableStyle-TopBorderStyle-BorderColor="" HeaderBarTableStyle-BackColor="#C0FFC0" HeaderBarTableStyle-BottomBorderStyle-BorderWidth="" HeaderBarTableStyle-BottomBorderStyle-BorderColor="" DefaultGridLineColor="#228B22" TabStyle-LeftBorderStyle-BorderWidth="" TabStyle-LeftBorderStyle-BorderColor="" TabStyle-RightBorderStyle-BorderWidth="" TabStyle-RightBorderStyle-BorderColor="" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-font-size="8pt" TabStyle-BorderColor="#8080FF" TabStyle-BorderStyle="Groove" TabStyle-ForeColor="#FFFFCC" TabStyle-TopBorderStyle-BorderWidth="" TabStyle-TopBorderStyle-BorderColor="" TabStyle-BackColor="#C0C0FF" TabStyle-BottomBorderStyle-BorderWidth="" TabStyle-BottomBorderStyle-BorderColor="" scrollbararrowColor="#778899"/>
 
 {{< /highlight >}}
 
-##  **Web フォームでのコントロールの作成**
+## **Webフォームでコントロールを作成する**
 
-この記事では、GridWeb コントロールを含む単純な Web フォーム JSP (Java Server Page) を作成する方法を説明します。
+この記事では、GridWebコントロールを含むシンプルなWebフォームJSP（Java Server Page）を作成する方法について説明します。
 
-**ステップ 1 - ディレクトリ構造の作成**
+ステップ1 - ディレクトリ構造の作成
 
-次のディレクトリ構造を作成する必要があります。**ウェブアプリ**Tomcatサーバーのディレクトリ
+Tomcat Serverの**webapps**ディレクトリに、以下のディレクトリ構造を作成する必要があります
 
 ![todo:image_alt_text](working-with-gridweb_7.png)
 
-これらは、作成する必要があるディレクトリとファイルです。コメントを読んでフォローしてください。最新の Aspose.Cells.GridWeb for Java リリース アーカイブは、以下から入手できます。[このリンク](https://downloads.aspose.com/cells/java).
+これらが作成する必要のあるディレクトリとファイルです。コメントを読んでそれに従ってください。最新のAspose.Cells.GridWeb for Javaのリリースアーカイブは、[このリンク](https://downloads.aspose.com/cells/java)から入手できます。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SamplePageGridWebJava
 
@@ -286,13 +287,13 @@ SamplePageGridWebJava\SamplePage.jsp
 
 {{< /highlight >}}
 
-**ステップ 2 - 作成したファイルにコードを追加する**
+ステップ2 - 作成したファイルにコードを追加
 
-このセクションでは、上記のディレクトリ構造で作成されるさまざまなファイルのコードを示します。これらのコードを取得し、メモ帳で開いてコピー/ペーストしてファイルに追加してください。
+このセクションでは、上記のディレクトリ構造で作成されたさまざまなファイルのコードを示しています。これらのコードを取得し、メモ帳でファイルを開いてコピー/貼り付けしてください。
 
 **Web.xml**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <?xml version="1.0" encoding="UTF-8"?>
 
@@ -330,7 +331,7 @@ SamplePageGridWebJava\SamplePage.jsp
 
 **head.jsp**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <%
 
@@ -436,95 +437,95 @@ span.wrap {
 
 {{< /highlight >}}
 
-**サンプルページ.jsp**
+**SamplePage.jsp**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-SamplePage-SamplePage.jsp" >}}
 
-**ステップ 3 - サンプル JSP Web ページの実行**
+ステップ3 - サンプルJSPウェブページの実行
 
-これですべての作業が完了しました。 Web ページを実行する時が来ました。 Tomcat サーバーを起動し、次の URL を Web ブラウザに貼り付けてください。
+これで作業はすべて完了しました。ウェブページを実行する準備が整いました。Tomcatサーバーを起動して、次のURLをWebブラウザに貼り付けてください。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  http://localhost:8080/SamplePageGridWebJava/SamplePage.jsp
 
 {{< /highlight >}}
 
-次のスクリーンショットのようなものが表示されます。おめでとうございます。JSP ページで GridWeb コントロールが正常に使用されました。
+次のスクリーンショットのようなものが表示されます。おめでとうございます、JSPページでGridWebコントロールを正常に使用しました。
 
 ![todo:image_alt_text](working-with-gridweb_8.png)
 
-##  **グリッドウェブの印刷**
+## **GridWeb の印刷**
 
-開発者は、Microsoft Excel ファイルを保存せずに、Web ページに含まれる GridWeb コンテンツを印刷する必要がある場合があります。 Aspose.Cells.GridWeb コントロールはこの機能をサポートしています。
+開発者がMicrosoft Excelファイルを保存せずにWebページからGridWebのコンテンツを印刷する必要がある場合があります。Aspose.Cells.GridWebコントロールは、この機能をサポートしています。
 
-###  **グリッドウェブの印刷**
+### **GridWeb の印刷**
 
-別のファイルを保存せずに印刷するには、クライアント側で GridWeb クラスの print() メソッドを呼び出してグリッドを印刷します。適切なイベントを選択することもできます。
+別のファイルを保存せずに印刷するには、クライアント側でGridWebクラスのprint()メソッドを呼び出します。適切なイベントを選択することもできます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-PrintingGridWeb-PrintingGridWeb.jsp" >}}
 
-クライアント側から呼び出しているため、最初に GridWeb クライアント ID を取得する必要があります。クライアント ID は、gridweb.getClientID() メソッドを使用して取得できます。
+クライアント側のサンプルコード
 
-###  **クライアント側のサンプルコード**
+### **クライアントサイドのサンプルコード**
 
-クライアント側から Gridweb.print() メソッドを呼び出す次のリンクを参照してください。
+次のリンクをご覧ください。これは、クライアント側からgridweb.print()メソッドを呼び出すリンクです。
 
 **HTML**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <a href="#" onclick='<%=gridweb.getClientID()%>.print(); '>Print Function of GridWeb</a>
 
 {{< /highlight >}}
 
-##  **さまざまなグリッド モードの概要**
+## **異なるグリッドモードの紹介**
 
-この記事では、Aspose.Cells.GridWeb のさまざまなモードについて説明します。これらのモードは、機能と動作が異なるため、論理的に区別されます。さまざまなタイプのモードを次のように識別しました。
+この記事では、Aspose.Cells.GridWebの異なるモードについて説明しています。これらのモードは、異なる機能や動作を持つため、論理的に区別されています。私たちは、次の種類のモードを特定しました。
 
-- 編集モード
-- ビューモード
+- Edit モード
+- View モード
 
-これらのモードにはすべて独自の特徴があります。開発者は、要件に応じて任意のモードで Aspose.Cells.GridWeb を操作できます。以下で各モードを見ていきます。
+これらのモードはそれぞれ独自の特性を持ちます。開発者は、必要に応じて任意のモードで Aspose.Cells.GridWeb と連携できます。以下で各モードを見ていきます。
 
-###  **編集モード**
+### **Edit モード**
 
-デフォルトでは、Aspose.Cells.GridWeb コントロールは編集モードになっています。編集モードでは、Aspose.Cells.GridWeb コントロールが提供するすべての機能を使用して、グリッド コンテンツを完全に編集または変更できます。これらの機能には次のものが含まれます。
+デフォルトでは、Aspose.Cells.GridWeb コントロールは Edit モードになっています。Edit モードでは、Aspose.Cells.GridWeb コントロールが提供するすべての機能を使用して、グリッドコンテンツを完全に編集したり修正したりできます。これらの機能には次のものが含まれます:
 
-- グリッドの内容を Microsoft Excel ファイルに保存します。
-- データをサーバーに送信します。
-- 計算式。
-- 以前のアクションを元に戻すか破棄します。
-- 行と列の管理。
-- データの切り取り、コピー、または貼り付け。
-- セルの書式設定など
+- グリッドのコンテンツを Microsoft Excel ファイルに保存する。
+- サーバーにデータを送信する。
+- 数式の計算。
+- 前のアクションを取り消す、または破棄する。
+- 行と列を管理する。
+- データを切り取り、コピー、または貼り付ける。
+- セルなどの書式を設定する。
 
-**編集モードの GridWeb コントロール**
+**編集モードのGridWebコントロール**
 
 ![todo:image_alt_text](working-with-gridweb_9.png)
 
-開発者は、GridWeb コントロールの EditMode プロパティを true に設定することで、プログラムで編集モードに切り替えることもできます。
+開発者は、GridWebコントロールのEditModeプロパティをtrueに設定することでプログラムで編集モードに切り替えることもできます。
 
-###  **コード例**
+### **コード例**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-GridWebEditMode-GridWebEditMode.jsp" >}}
 
-###  **ビューモード**
+### **ビューモード**
 
-GridWeb コントロールが表示モードの場合、ユーザーはグリッド コンテンツを編集または変更できません。つまり、ユーザーはグリッド コンテンツを表示することしかできません。このため、このモードは表示モードと呼ばれます。表示モードでは、いくつかのボタン (**送信**、**保存**そして**元に戻す**) は非表示になり、右クリックすると表示されるメニューには **コピーのみが含まれます。**そして**探す**オプション。
+GridWebコントロールが表示モードになっている場合、ユーザーはグリッドの内容を編集したり変更したりすることはできません。つまり、ユーザーはグリッドの内容を表示するだけです。それがこのモードが表示モードと呼ばれる理由です。表示モードでは、いくつかのボタン(**送信**、**保存**、**元に戻す**)が非表示になり、右クリックした際に表示されるメニューには**コピー**と**検索**のオプションしか含まれません。
 
-**表示モードの GridWeb コントロール** 
+**ビューモードのGridWebコントロール** 
 
 ![todo:image_alt_text](working-with-gridweb_10.png)
 
-開発者がユーザーにデータの表示のみを許可したい場合は、GridWeb コントロールの EditMode プロパティを *false** に設定することで、プログラムによって表示モードに切り替えることができます。
+開発者がユーザーにデータを表示のみで表示させたい場合は、GridWebコントロールのEditModeプロパティを**false**に設定することで、プログラム上でも表示モードに切り替えることができます。
 
-###  **コード例**
+### **コード例**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-GridWebViewMode-GridWebViewMode.jsp" >}}
 
 {{% alert color="primary" %}}
 
-表示モードでも、ユーザーは行と列の高さと幅を変更できます。
+ビューモードでも、ユーザーは行と列の高さと幅を変更することができます。
 
 {{% /alert %}}

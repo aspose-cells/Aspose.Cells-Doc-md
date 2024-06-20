@@ -1,18 +1,19 @@
-﻿---
-title: Değerlendir Aspose.Cells
+---
+title: Aspose.Cells ı Değerlendirin
 type: docs
 weight: 40
 url: /tr/python-java/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Değerlendirme için Aspose.Cells adresinden kolayca indirebilirsiniz.[pypi](https://pypi.org/project/aspose-cells/). Değerlendirme indirmesi, tam sürümün indirilmesi ile aynıdır: Bir lisans uyguladığınızda değerlendirme lisanslanır.
+Değerlendirme için Aspose.Cells'i [pypi](https://pypi.org/project/aspose-cells/) üzerinden kolayca indirebilirsiniz. Değerlendirme indirmesi tam sürüm indirimi gibidir: değerlendirme lisans uygulandığında lisanslanır.
 
 {{% /alert %}}
 
-Aspose.Cells değerlendirme sürümü (yani lisans uygulanmamış Aspose.Cells), ürün işlevlerinin çoğunu sağlar. Bir sınırlama, bir elektronik tablo açıldığında veya kaydedildiğinde her zaman fazladan bir çalışma sayfasına bir değerlendirme filigranı enjekte etmesidir. Çalışma kitabına eklenen ekstra değerlendirme filigranı çalışma sayfası aşağıda gösterilmiştir:
+Lisanssız Aspose.Cells'in değerlendirme sürümü (yani, lisans uygulanmadan Aspose.Cells) ürün işlevselliğinin çoğunu sağlar. Bir kısıtlama, bir elektronik tablo açıldığında veya kaydedildiğinde her zaman bir değerlendirme filigranıyla ek bir elektronik tablo enjekte etmesidir. Enjekte edilen ekstra değerlendirme filigranı elektronik tablo kitabına aşağıda gösterildiği gibidir:
 
-|**Değerlendirme uyarısı – fazladan bir çalışma sayfası**|
-|:- |
-|![yapılacaklar:resim_alternatif_metin](evaluate-aspose-cells_1.png)|
- Aspose.Cells'i değerlendirme sürüm sınırlaması olmadan test etmek istiyorsanız,[30 günlük geçici lisans talep edin](https://purchase.aspose.com/temporary-license).
+|**Değerlendirme uyarısı - ek bir elektronik tablo**|
+| :- |
+|![todo:image_alt_text](evaluate-aspose-cells_1.png)|
+Aspose.Cells'i sınırlamalar olmadan test etmek istiyorsanız, [30 günlük geçici lisans](https://purchase.aspose.com/temporary-license) isteyin.

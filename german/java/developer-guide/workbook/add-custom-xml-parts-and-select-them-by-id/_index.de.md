@@ -1,16 +1,17 @@
-﻿---
-title: Fügen Sie benutzerdefinierte XML-Teile hinzu und wählen Sie sie nach ID aus
+---
+title: Benutzerdefinierte XML Teile hinzufügen und nach ID auswählen
 type: docs
 weight: 10
 url: /de/java/add-custom-xml-parts-and-select-them-by-id/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Benutzerdefinierte XML-Teile sind die XML-Daten, die in den Microsoft Excel-Dokumenten gespeichert sind und von den Anwendungen verwendet werden, die sich damit befassen. Derzeit gibt es keine direkte Möglichkeit, sie über die Excel-Benutzeroberfläche Microsoft hinzuzufügen. Sie können sie jedoch auf verschiedene Weise programmgesteuert hinzufügen, z. B. mit*VSTO*, verwenden*Aspose.Cells*etc. Bitte verwenden[**Workbook.getCustomXmlParts().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#add(java.lang.Object))-Methode, wenn Sie einen benutzerdefinierten XML-Teil mithilfe von Aspose.Cells API hinzufügen möchten. Sie können auch seine ID mithilfe von festlegen[**CustomXmlPart.ID**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpart#ID)Eigentum. Wenn Sie benutzerdefiniertes XML-Teil nach ID auswählen möchten, können Sie auf ähnliche Weise verwenden[**Workbook.getCustomXmlParts().selectByID()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#selectByID(java.lang.String)) Methode.
+## **Mögliche Verwendungsszenarien**
 
-## **Fügen Sie benutzerdefinierte XML-Teile hinzu und wählen Sie sie nach ID aus**
+Benutzerdefinierte XML-Teile sind die XML-Daten, die in den Microsoft Excel-Dokumenten gespeichert sind und von den Anwendungen verwendet werden, die mit ihnen umgehen. Es gibt derzeit keine direkte Möglichkeit, sie über die Microsoft Excel-Benutzeroberfläche hinzuzufügen. Sie können sie jedoch programmgesteuert auf verschiedene Arten hinzufügen, z.B. mit VSTO, mit Aspose.Cells usw. Verwenden Sie die Methode [**Workbook.getCustomXmlParts().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#add(java.lang.Object)), wenn Sie benutzerdefinierte XML-Teile über die Aspose.Cells-API hinzufügen möchten. Sie können auch deren ID festlegen, indem Sie die Eigenschaft [**CustomXmlPart.ID**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpart#ID) verwenden. Ebenso können Sie, falls Sie ein benutzerdefiniertes XML-Teil nach ID auswählen möchten, die Methode [**Workbook.getCustomXmlParts().selectByID()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#selectByID(java.lang.String)) verwenden.
 
-Der folgende Beispielcode fügt zunächst vier benutzerdefinierte XML-Teile hinzu[**Workbook.getCustomXmlParts().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#add(java.lang.Object)) Methode. Anschließend legt sie ihre IDs mit fest[**CustomXmlPart.ID**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpart#ID)Eigentum. Schließlich findet oder wählt es einen der hinzugefügten benutzerdefinierten XML-Teile aus[**Workbook.getCustomXmlParts().selectByID()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#selectByID(java.lang.String)) Methode. Bitte beachten Sie auch die Konsolenausgabe des unten angegebenen Codes als Referenz.
+## **Benutzerdefinierte XML-Teile hinzufügen und nach ID auswählen**
+
+Der folgende Beispielcode fügt zunächst vier benutzerdefinierte XML-Teile mit der Methode [**Workbook.getCustomXmlParts().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#add(java.lang.Object)) hinzu. Anschließend werden ihre IDs mit der Eigenschaft [**CustomXmlPart.ID**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpart#ID) festgelegt. Schließlich wird eines der hinzugefügten benutzerdefinierten XML-Teile mit der Methode [**Workbook.getCustomXmlParts().selectByID()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#selectByID(java.lang.String)) gefunden oder ausgewählt. Bitte sehen Sie auch die Konsolenausgabe des unten gegebenen Codes zur Referenz.
 
 ## **Beispielcode**
 
@@ -18,7 +19,7 @@ Der folgende Beispielcode fügt zunächst vier benutzerdefinierte XML-Teile hinz
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Found: CustomXmlPart ID Sport
 

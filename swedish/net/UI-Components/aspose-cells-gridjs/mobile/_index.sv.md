@@ -1,39 +1,40 @@
-﻿---
-title: Aspose.Cells.GridJs Arbetar i mobil
+---
+title: Aspose.Cells.GridJs fungerar i mobil
 type: docs
 weight: 250
 url: /sv/net/aspose-cells-gridjs/mobile/
-description: Den här artikeln beskriver hur du använder GridJs i mobila enheter.
-keywords: mobile spreadsheet editor, mobile spreadsheet viewer
+description: Denna artikel beskriver hur man använder GridJs på en mobil enhet.
+keywords: GridJs, mobil kalkylbladredigerare, mobil kalkylbladsvy, excel, vy, redigera, mobil
 ---
-## Använd GridJs i mobila enheter
 
- Du kan använda GridJs smidigt på den mobila enheten.
+## Använd GridJs på mobil enhet
 
-GridJs kan anpassa mobilskärmen.
+Du kan använda GridJs smidigt på mobila enheter. 
 
- Springa det[ demo av GridJs](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "demo of GridJs ")
+GridJs kan anpassa sig till den mobila skärmen.
 
-Standardporten för demoprojektet är 24262.
+Kör [demo av GridJs ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "demo av GridJs ")
 
- Du måste komma åt sidan via IP-väg på mobilterminalen http://localhost:24262/GridJs2/List .
+Standardporten för demo-projektet är 24262. 
+
+Du behöver komma åt sidan via IP-vägen på den mobila terminalen http://localhost:24262/GridJs2/List . 
 
 Du kan använda ett litet verktyg som: iisexpress proxy.
 
 Installera med följande kommando:
 
-*npm installera -g iisexpress-proxy*
+*npm install -g iisexpress-proxy*
 
 Kör kommandot för att slutföra portmappningen:
 
-*iisexpress-proxy 24262 till 82*
+*iisexpress-proxy 24262 to 82*
 
-![kommandot todo:iisexpress](iisproxy_port_map.png)
+![att göra: iisexpress-kommando](iisproxy_port_map.png)
 
-Då kan vi öppna demowebbsidan i mobilens webbläsare.
+Därefter kan vi öppna demo-webbsidan i den mobila webbläsaren.
 
-Navigera på sidan http://yourip:82/GridJs2/List och välj en fil att öppna.
+Navigera till sidan http://yourip:82/GridJs2/List  och välj en fil för att öppna.
 
-![att göra: skärmnavigeringen på mobilen](gridjs_edit_on_mobile.png)
+![att göra: skärmnavigation på mobil](gridjs_edit_on_mobile.png)
 
-Sedan kan vi göra redigeringsoperationer som i PC-enhet.
+Därefter kan vi göra redigeringsoperationer som på en PC-enhet.

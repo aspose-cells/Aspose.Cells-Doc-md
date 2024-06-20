@@ -1,6 +1,8 @@
-﻿---
-title: Arbeta med GridWeb Client Side Script
+---
+title: Arbeta med GridWeb klient sideskript
 type: docs
 weight: 30
-url: /sv/net/working-with-gridweb-client-side-script/
+url: /sv/net/aspose-cells-gridweb/working-with-gridweb-client-side-script/
 ---
+
+

@@ -1,17 +1,18 @@
-﻿---
-title: Şeklin veya Grafiğin Işıma Efekti ile Çalışma
+---
+title: Şekil veya Grafik Gölgelendirme Efekti Çalışmak
 type: docs
 weight: 240
 url: /tr/net/working-with-the-glow-effect-of-shape-or-chart/
 ---
+
 ## **Olası Kullanım Senaryoları**
- Aspose.Cells şunları sağlar:[Şekil.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) ile birlikte mülk[GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) şeklin veya grafiğin parlama efektiyle çalışmak için sınıf. bu[GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)class, uygulama gereksinimlerine göre farklı sonuçlar elde etmek için ayarlanabilen aşağıdaki özellikleri içerir.
+Aspose.Cells, [Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) özelliği ile birlikte [GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) sınıfını kullanarak şekil veya grafik gölgelendirme efektiyle çalışmak için sağlar. [GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) sınıfı, aşağıdaki özellikleri içerir ve uygulama gereksinimlerine göre farklı sonuçlar elde etmek için bu özellikler ayarlanabilir.
 
 - [GlowEffect.Size](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/size)
-- [GlowEffect.Şeffaflık](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)
-- [GlowEffect.Renk](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)
-## **Şeklin veya Grafiğin Işıma Efekti ile Çalışma**
- Aşağıdaki örnek kod,[kaynak excel dosyası](5115407.xlsx) ve ilk çalışma sayfasındaki ilk şekle erişir ve alt özelliklerini ayarlar.[Şekil.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) özelliği ve ardından çalışma kitabını şuraya kaydeder:[çıktı excel dosyası](5115414.xlsx).
+- [GlowEffect.Transparency](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)
+- [GlowEffect.Color](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)
+## **Şekil veya Grafik Gölgelendirme Efekti Çalışmak**
+Aşağıdaki örnek kod, [kaynak excel dosyasını] (5115407.xlsx) yükler ve ilk çalışma sayfasındaki ilk şekle erişir ve [Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) özelliğinin alt özelliklerini ayarlar ve ardından çalışma kitabını [çıkış excel dosyasına] (5115414.xlsx) kaydeder.
 
 
 

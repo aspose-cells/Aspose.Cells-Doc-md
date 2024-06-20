@@ -1,27 +1,28 @@
-﻿---
-title: Crea nuova cartella di lavoro
+---
+title: Crea un Nuovo Workbook
 type: docs
 weight: 20
 url: /it/net/create-new-workbook/
 ---
-## **Aspose.Cells - Crea nuova cartella di lavoro**
-La classe della cartella di lavoro è disponibile per un uso semplice
+
+## **Aspose.Cells - Crea un Nuovo Workbook**
+La classe Workbook è disponibile per un uso semplice
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
 workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many formats
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Crea nuova cartella di lavoro**
-Crea una nuova cartella di lavoro utilizzando la classe Workbook e salva utilizzando FileOutputStream.
+## **NPOI - HSSF XSSF - Crea un Nuovo Workbook**
+Crea un nuovo Workbook usando la classe Workbook e salva usando FileOutputStream.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -39,6 +40,6 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Crea nuova cartella di lavoro** formare uno dei siti di social coding sotto indicati:
+Scarica **Crea un Nuovo Workbook** da uno dei siti di codifica sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)

@@ -1,27 +1,28 @@
 ---
-title: Modi per calcolare le formule
+title: Modi per Calcolare le Formule
 type: docs
 weight: 30
 url: /it/cpp/ways-to-calculate-formulas/
 ---
-##  **introduzione**
-Aspose.Cells ha un motore di calcolo delle formule incorporato. Non solo può ricalcolare le formule importate dai modelli di progettazione, ma supporta anche il calcolo dei risultati delle formule aggiunte in fase di esecuzione.
-##  **Aggiunta di formule e calcolo dei risultati**
-Aspose.Cells supporta la maggior parte delle formule o funzioni che fanno parte di Microsoft Excel. possono essere utilizzati tramite lo API o utilizzando i fogli di calcolo del designer. Aspose.Cells supporta un vasto set di formule matematiche, di stringa, booleane, di data/ora, statistiche, di ricerca e di riferimento.
 
-Utilizza il metodo Cell.SetFormula per aggiungere una formula a una cella. Quando applichi una formula a una cella, inizia sempre la stringa con un segno uguale (=) come fai quando crei una formula in Microsoft Excel. Utilizzare una virgola (,) per delimitare i parametri della funzione.
+## **Introduzione**
+Aspose.Cells ha un motore di calcolo delle formule integrato. Può non solo ricalcolare le formule importate dai modelli del designer ma supporta anche il calcolo dei risultati delle formule aggiunte in fase di esecuzione.
+## **Aggiungere Formule & Calcolare i Risultati**
+Aspose.Cells supporta la maggior parte delle formule o funzioni che fanno parte di Microsoft Excel. Possono essere utilizzate tramite l'API o utilizzando i fogli di calcolo del designer. Aspose.Cells supporta un vasto insieme di formule matematiche, stringhe, booleani, date/orario, statistiche, ricerca e riferimento.
 
-Per calcolare i risultati delle formule, chiama il metodo Workbook.CalculateFormula() che elabora tutte le formule incorporate in un file Excel. Consulta il seguente codice di esempio che aggiunge la formula e ne calcola i risultati. Si prega di controllare[file Excel di output](38109185.xlsx) generato con questo codice.
+Utilizzare il metodo Cell.SetFormula per aggiungere una formula a una cella. Quando si applica una formula a una cella, iniziare sempre la stringa con un segno uguale (=) come si fa quando si crea una formula in Microsoft Excel. Utilizzare una virgola (,) per delimitare i parametri della funzione.
 
-**Codice d'esempio**
+Per calcolare i risultati delle formule, chiamare il metodo Workbook.CalculateFormula() che elabora tutte le formule incorporate in un file Excel. Si prega di controllare il seguente codice di esempio che aggiunge la formula e ne calcola i risultati. Si prega di controllare il [file di Excel di output](38109185.xlsx) generato con questo codice.
+
+**Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-AddingFormulasAndCalculatingResults-new.cpp" >}}
-<!---## **Direct Calculation of Formula**
-Sometimes, you need to calculate formula results directly without adding them into a worksheet. The values of the cells used in the formula already exist in a worksheet and all you need is to find the result of those values based on some Microsoft Excel formula without adding the formula in a worksheet.
+<!---## **Calcolo Diretto della Formula**
+A volte è necessario calcolare direttamente i risultati delle formule senza aggiungerli in un foglio di lavoro. I valori delle celle utilizzati nella formula esistono già in un foglio di lavoro e tutto ciò che serve è trovare il risultato di quei valori in base a una certa formula di Microsoft Excel senza aggiungere la formula in un foglio di lavoro.
 
-You can use Worksheet.CalculateFormula(String formula) method to calculate the results of such formulas without adding them to worksheet.
+È possibile utilizzare il metodo Worksheet.CalculateFormula(String formula) per calcolare i risultati di tali formule senza aggiungerle al foglio di lavoro.
 
-The code below produces the following output.
+Il codice sottostante produce il seguente output.
 
 {{< highlight java >}}
 
@@ -33,18 +34,18 @@ Result of Sum(A1:A2): 50
 
 {{< /highlight >}}
 
-**Sample Code**
+**Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-DirectCalculationOfFormula.cpp" >}}   --->
-##  **Calcolo delle formule una sola volta**
-Quando Workbook.CalculateFormula() viene chiamato per calcolare i valori delle formule in un modello di cartella di lavoro, Aspose.Cells crea una catena di calcolo. Aumenta le prestazioni quando le formule vengono calcolate per la seconda o terza volta.
+## **Calcolare le Formule Solo una Volta**
+Quando si chiama Workbook.CalculateFormula() per calcolare i valori delle formule in un modello di cartella di lavoro, Aspose.Cells crea una catena di calcolo. Aumenta le prestazioni quando le formule vengono calcolate per la seconda o terza volta.
 
-Tuttavia, se il modello contiene molte formule, la prima volta che la formula viene calcolata può consumare molto tempo di elaborazione e memoria della CPU.
+Tuttavia, se il modello contiene molte formule, la prima volta che la formula viene calcolata può consumare molto tempo di elaborazione della CPU e memoria.
 
-Aspose.Cells permette di disattivare la creazione di una catena di calcolo utile quando si vogliono calcolare le formule una sola volta.
+Aspose.Cells ti consente di disattivare la creazione di una catena di calcolo, utile quando si vuole calcolare le formule solo una volta.
 
- Chiama Workbook.GetISettings().SetCreateCalcChain() con il parametro false. Puoi usare il[file Excel fornito](38109186.xlsx) per testare questo codice.
+Si prega di chiamare Workbook.GetISettings().SetCreateCalcChain() con il parametro false. È possibile utilizzare il [file Excel fornito](38109186.xlsx) per testare questo codice.
 
-**Codice d'esempio**
+**Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-CalculatingFormulasOnceOnly-new.cpp" >}}

@@ -1,19 +1,20 @@
 ---
-title: Führen Sie eine clientseitige Funktion bei einer GridWeb-Seitenänderung aus
+title: Ausführen der Client seitigen Funktion bei Änderung der GridWeb Seite
 type: docs
 weight: 70
 url: /de/java/execute-client-side-function-on-gridweb-page-change/
 ---
-##  **Mögliche Nutzungsszenarien**
-Manchmal müssen Sie Ihre clientseitige Funktion ausführen, wenn sich die GridWeb-Seite ändert. Aspose.Cells.GridWeb stellt hierfür die Eigenschaft OnPageChangeClientFunction zur Verfügung. Bitte legen Sie diese Eigenschaft mit der clientseitigen Funktion fest, die Sie ausführen möchten.
-##  **Führen Sie eine clientseitige Funktion bei einer GridWeb-Seitenänderung aus**
- Der folgende Java-Code erläutert, wie die Eigenschaft GridWebBean.setOnPageChangeClientFunction() verwendet wird. Es legt die Eigenschaft mit der clientseitigen Funktion namens MyOnPageChange fest. Bitte beachten Sie, dass diese Eigenschaft nur gültig ist, wenn Sie Paging aktiviert haben, also GridWebBean.setEnablePaging(true). Wenn Sie nun die GridWeb-Seite ändern, wird die clientseitige Funktion MyOnPageChange aufgerufen, die die ausgibt**Aktueller Seitenindex** auf der**Konsole** wie in diesem Screenshot gezeigt.
+
+## **Mögliche Verwendungsszenarien**
+Manchmal müssen Sie Ihre Client-seitige Funktion ausführen, wenn sich die GridWeb-Seite ändert. Aspose.Cells.GridWeb bietet die OnPageChangeClientFunction-Eigenschaft zu diesem Zweck. Bitte setzen Sie diese Eigenschaft mit der Client-seitigen Funktion, die Sie ausführen möchten.
+## **Ausführen der Client-seitigen Funktion bei Änderung der GridWeb-Seite**
+Der folgende Java-Code erklärt, wie die GridWebBean.setOnPageChangeClientFunction() Eigenschaft genutzt wird. Es setzt die Eigenschaft mit der clientseitigen Funktion namens MyOnPageChange. Bitte beachten Sie, dass diese Eigenschaft nur gültig ist, wenn Sie das Paging aktiviert haben, d.h. GridWebBean.setEnablePaging(true). Jetzt, jedes Mal, wenn Sie die GridWeb-Seite ändern, wird die clientseitige Funktion MyOnPageChange aufgerufen, die den **aktuellen Seitenindex** in der **Konsole** ausgibt, wie in diesem Screenshot gezeigt.
 
 ![todo:image_alt_text](execute-client-side-function-on-gridweb-page-change_1.png)
-##  **Beispielcode**
-Dies ist der Code der clientseitigen Funktion MyOnPageChange, die aufgrund dieser Zeile ausgeführt wird, z. B. Gridweb.setOnPageChangeClientFunction("MyOnPageChange");
+## **Beispielcode**
+Dies ist der Code der clientseitigen Funktion MyOnPageChange, die ausgeführt wird, weil dieser Befehl verwendet wird: Gridweb.setOnPageChangeClientFunction("MyOnPageChange");
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  function MyOnPageChange(index) {
 
@@ -23,9 +24,9 @@ Dies ist der Code der clientseitigen Funktion MyOnPageChange, die aufgrund diese
 
 {{< /highlight >}}
 
-Im folgenden Code wird erläutert, wie Paging aktiviert und die OnPageChangeClientFunction-Eigenschaft festgelegt wird.
+Der folgende Code erklärt, wie das Paging aktiviert und die OnPageChangeClientFunction-Eigenschaft gesetzt wird.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  GridWebBean gridweb=BeanManager.getBean(request);
 

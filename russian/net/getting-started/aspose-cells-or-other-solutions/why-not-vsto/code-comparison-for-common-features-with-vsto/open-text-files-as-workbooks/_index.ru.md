@@ -1,12 +1,13 @@
-﻿---
-title: Открывать текстовые файлы как рабочие книги
+---
+title: Открывайте текстовые файлы как книги
 type: docs
 weight: 180
 url: /ru/net/open-text-files-as-workbooks/
 ---
-Ниже приведен пример сравнительного кода для открытия текстового файла в качестве рабочих книг:
-## **ВСТО**
-{{< highlight "csharp" >}}
+
+Ниже приведены примеры кода для сравнения открытия текстового файла как книги:
+## **VSTO**
+{{< highlight csharp >}}
 
      this.Application.Workbooks.OpenText(@"OpenTextFilesAsWorkbooks.txt",
 
@@ -22,7 +23,7 @@ url: /ru/net/open-text-files-as-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
     private static string fileName = "OpenTextFilesAsWorkbooks.xlsx";
 
@@ -37,5 +38,5 @@ url: /ru/net/open-text-files-as-workbooks/
    newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Скачать**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)
+##**Скачать**
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

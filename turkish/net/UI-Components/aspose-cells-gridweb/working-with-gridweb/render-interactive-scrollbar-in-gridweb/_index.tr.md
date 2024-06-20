@@ -1,13 +1,16 @@
-﻿---
-title: GridWeb'de Etkileşimli Kaydırma Çubuğu Oluşturma
+---
+title: GridWeb de Etkileşimli Kaydırgaç Oluşturma
 type: docs
 weight: 170
-url: /tr/net/render-interactive-scrollbar-in-gridweb/
+url: /tr/net/aspose-cells-gridweb/render-interactive-scrollbar-in-gridweb/
+keywords: GridWeb, kaydırgaç
+description: Bu makale, GridWeb de kaydırgaçla çalışmanın nasıl yapılacağını tanıtır.
 ---
-## **Olası Kullanım Senaryoları**
- GridWeb için Aspose.Cells, GridWeb çalışma sayfası içinde etkileşimli kaydırma çubuğu kontrolü sağlayabilir. Kullanıcı, Microsoft Excel'de olduğu gibi kaydırma çubuğuyla etkileşim kurabilir. Etkileşimli kaydırma çubuğu oluşturmak için aşağıdaki bağlantıları eklemelisiniz:**jQuery** ve**jQuery kullanıcı arayüzü** kitaplıklar aşağıda gösterildiği gibi.
 
-{{< highlight "java" >}}
+## **Olası Kullanım Senaryoları**
+Aspose.Cells for GridWeb, GridWeb elektronik tablosunun içine etkileşimli kaydırgaç kontrolü oluşturabilir. Kullanıcılar, Microsoft Excel'de yaptıkları gibi kaydırgac ile etkileşimde bulunabilir. Etkileşimli kaydırgaç oluşturabilmek için aşağıda gösterildiği gibi **jQuery** ve **jQuery UI** kütüphaneleri için bağlantıları eklemeniz gerekir.
+
+{{< highlight java >}}
 
  <head runat="server">
 
@@ -20,18 +23,18 @@ url: /tr/net/render-interactive-scrollbar-in-gridweb/
 </head>
 
 {{< /highlight >}}
-## **GridWeb'de Etkileşimli Kaydırma Çubuğu Oluşturma**
- Aşağıdaki örnek kod,[örnek excel dosyası](61767764.xlsx)aşağıdaki ekran görüntüsünde gösterildiği gibi kaydırma çubuğunu içerir. Diğer ekran görüntüleri, GridWeb'in etkileşimli kaydırma çubuğunu nasıl işlediğini ve kaydırma çubuğunun değerini B3 hücresinde nasıl görüntülediğini gösterir. Kaydırma çubuğunu her kaydırdığınızda, B3 hücresinin değeri sonuçta ortaya çıkan değeri gösterir.
+## **GridWeb'de Etkileşimli Kaydırgaç Oluşturma**
+Aşağıdaki örnek kod, aşağıdaki ekran görüntüsünde gösterilen kaydırgacı içeren [örnek Excel dosyasını](61767764.xlsx) yükler. Diğer ekran görüntüleri, GridWeb'in etkileşimli kaydırgacı oluşturduğunu ve kaydırgacın değerini B3 hücresinde gösterdiğini gösterir. Kaydırgacı sürüklediğinizde, B3 hücresinin değeri elde edilen değeri gösterir.
 
-![yapılacaklar:resim_alternatif_metin](render-interactive-scrollbar-in-gridweb_1.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_1.png)
 
-![yapılacaklar:resim_alternatif_metin](render-interactive-scrollbar-in-gridweb_2.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_2.png)
 
-![yapılacaklar:resim_alternatif_metin](render-interactive-scrollbar-in-gridweb_3.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_3.png)
 
-![yapılacaklar:resim_alternatif_metin](render-interactive-scrollbar-in-gridweb_4.png)
-## **Basit kod**
-{{< highlight "java" >}}
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_4.png)
+## **Örnek Kod**
+{{< highlight java >}}
 
  <%@ Page Language="C#" AutoEventWireup="true" CodeFile="TestGridWeb.aspx.cs" Inherits="TestGridWeb" %>
 

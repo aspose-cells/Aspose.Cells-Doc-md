@@ -1,16 +1,17 @@
-﻿---
-title: Conversione di un foglio di lavoro in un file immagine per pagina
+---
+title: Convertire un Foglio di Lavoro in un File Immagine Per Pagina
 type: docs
 weight: 10
 url: /it/net/converting-worksheet-to-image-file-by-page/
 ---
-{{< highlight "csharp" >}}
 
- Libro della cartella di lavoro = nuova cartella di lavoro ("Foglio per immagine per pagina.xls");
+{{< highlight csharp >}}
 
-Foglio di lavoro = libro.Fogli di lavoro[0];
+ Workbook book = new Workbook("Sheet to Image by Page.xls");
 
-Aspose.Cells.Rendering.ImageOrPrintOptions options = nuovo Aspose.Cells.Rendering.ImageOrPrintOptions();
+Worksheet sheet = book.Worksheets[0];
+
+Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 
 options.HorizontalResolution = 200;
 
@@ -18,11 +19,11 @@ options.VerticalResolution = 200;
 
 options.ImageFormat = System.Drawing.Imaging.ImageFormat.Tiff;
 
-//Sheet2Image Conversione per pagina
+//Sheet2Image By Page conversion
 
-SheetRender sr = new SheetRender(foglio, opzioni);
+SheetRender sr = new SheetRender(sheet, options);
 
- per (int j = 0; j< sr.PageCount; j++)
+for (int j = 0; j < sr.PageCount; j++)
 
 {
 

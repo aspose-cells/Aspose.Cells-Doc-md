@@ -1,13 +1,14 @@
-﻿---
-title: Добавить комментарий в рабочий лист
+---
+title: Добавить комментарий на листе
 type: docs
 weight: 10
 url: /ru/net/add-comment-in-worksheet/
 ---
-## **Aspose.Cells - Добавить комментарий в рабочий лист**
+
+## **Aspose.Cells - Добавление комментария на листе**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -47,10 +48,10 @@ workbook.Save("Output-AddingComment.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Добавить комментарий в рабочий лист**
+## **NPOI - HSSF XSSF - Добавление комментария на листе**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -94,13 +95,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Добавить изображение в рабочий лист** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Добавление изображения в лист** с любого из упомянутых ниже сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Add.Comment.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Add.Comment.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Работа с рабочими листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Для получения дополнительной информации посетите [Работа с листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

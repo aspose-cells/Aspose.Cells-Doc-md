@@ -1,15 +1,16 @@
-﻿---
-title: الاستيراد من DataTable
+---
+title: استيراد من DataTable
 type: docs
 weight: 40
 url: /ar/net/importing-from-datatable/
 ---
- يمكن للمطورين استيراد البيانات من ملف**جدول البيانات** إلى أوراق العمل الخاصة بهم عن طريق استدعاء**إيمبورداتاتابلي** طريقة جمع Cells. هناك العديد من الإصدارات المحملة بشكل زائد من**إيمبورداتاتابلي** طريقة ولكن الحمل الزائد النموذجي يأخذ المعلمات التالية:**جدول البيانات** ، يمثل**جدول البيانات** الكائن الذي يجب استيراد محتوياته
 
-- **هل اسم الحقل معروض**، يحدد ما إذا كان يجب استيراد أسماء أعمدة DataTable إلى ورقة العمل كصف أول أم لا
-- **ابدأ Cell**، يمثل اسم خلية البداية (أي "A1") من مكان استيراد محتويات DataTable
+يمكن للمطورين استيراد البيانات من **DataTable** إلى ورقة العمل الخاصة بهم من خلال استدعاء الأسلوب **ImportDataTable** من مجموعة الخلايا. هناك العديد من الإصدارات المتعددة لأسلوب **ImportDataTable** ولكن الإصدار النموذجي يأخذ المعلمات التالية:**DataTable** , يمثل كائن **DataTable** التي تحتاج إلى استيراد محتوياتها
 
-{{< highlight "csharp" >}}
+- **هل يتم عرض اسم الحقل**, يحدد ما إذا كانت أسماء أعمدة DataTable يجب استيرادها إلى ورقة العمل كصف أول أم لا
+- **الخلية البدء** , يمثل اسم الخلية البداية (مثل "A1") من حيث يتم استيراد محتويات **DataTable**
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -41,11 +42,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -57,11 +58,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 
@@ -78,6 +79,6 @@ worksheet.Cells.ImportDataTable(dataTable, true, "A1");
 workbook.Save("Import From Data Table.xls");
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Import.to.Worksheet.Aspose.Cells.zip)
+## **تحميل رمز عينة**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Import.to.Worksheet.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)

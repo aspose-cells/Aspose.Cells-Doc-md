@@ -1,37 +1,38 @@
-﻿---
-title: Docker'da Aspose.Cells Nasıl Çalıştırılır?
+---
+title: Docker da Aspose.Cells ı Çalıştırma
 type: docs
-description: Aspose.Cells'i Linux, Windows Sunucusu ve herhangi bir işletim sistemi için bir Docker kapsayıcısında çalıştırın.
+description: Linux, Windows Sunucusu ve herhangi bir işletim sisteminde Aspose.Cells ı Docker konteynırında çalıştırın.
 weight: 139
 url: /tr/net/how-to-run-aspose-cells-in-docker/
 ---
-Mikro hizmetler, kapsayıcılıkla birlikte teknolojileri kolayca birleştirmeyi mümkün kılar. Docker, geliştirme yığınınızda hangi teknolojinin bulunduğundan bağımsız olarak Aspose.Cells işlevselliğini uygulamanıza kolayca entegre etmenize olanak tanır.
 
-Mikro hizmetleri hedefliyorsanız veya yığınınızdaki ana teknoloji .NET, C++ veya Java değilse, ancak Aspose.Cells işlevine ihtiyacınız varsa veya yığınınızda zaten Docker kullanıyorsanız, Docker'da Aspose.Cells kullanmak ilginizi çekebilir konteyner.
+Mikrohizmetler, konteynerleştirme ile birleştirildiğinde, teknolojileri kolayca birleştirmeyi mümkün kılar. Docker, geliştirme yığınızda hangi teknolojinin olduğundan bağımsız olarak Aspose.Cells işlevselliğini kolayca entegre etmenize olanak tanır.
+
+Mikrohizmetleri hedefliyorsanız veya yığınınızda temel teknoloji .NET, C++ veya Java değilse ancak Aspose.Cells işlevselliğine ihtiyacınız varsa veya zaten yığınınızda Docker kullanıyorsanız, bu durumda Aspose.Cells'ı bir Docker konteynırında kullanmayı düşünebilirsiniz.
 
 ## Önkoşullar
 
-- Docker sisteminizde yüklü olmalıdır. Docker'ı Windows veya Mac'e nasıl yükleyeceğiniz hakkında bilgi için "Ayrıca Bakınız" bölümündeki bağlantılara bakın.
+- Docker'ın sisteminizde yüklü olması gerekmektedir. Windows veya Mac'te Docker'ı nasıl yükleyeceğinizle ilgili bilgi için, "Ayrıca Bakınız" bölümündeki bağlantılara başvurun.
 
-- Ayrıca, aşağıda verilen örnekte Visual Studio 2019, .NET Core 3.1 SDK'nın kullanıldığını unutmayın.
+- Ayrıca, aşağıda sağlanan örnekte Visual Studio 2019, .NET Core 3.1 SDK'nın kullanıldığını unutmayın.
 
 
-## Hello World Başvuru
+## Merhaba Dünya Uygulaması
 
-Bu örnekte, "Hello World!" yapan basit bir Hello World konsol uygulaması oluşturuyorsunuz. belge ve desteklenen tüm kaydetme biçimlerinde kaydeder. Uygulama daha sonra Docker'da oluşturulabilir ve çalıştırılabilir.
+Bu örnekte, desteklenen tüm kaydetme formatlarında "Merhaba Dünya!" belgesi oluşturan ve kaydeden basit bir Merhaba Dünya konsol uygulaması oluşturursunuz. Uygulama ardından Docker'da derlenebilir ve çalıştırılabilir.
 
-### Konsol Uygulamasını Oluşturma
+### Konsol Uygulaması Oluşturma
 
-Hello World programını oluşturmak için aşağıdaki adımları takip ediniz:
-1. Docker yüklendikten sonra, Linux Kapsayıcılarını (varsayılan) kullandığından emin olun. Gerekirse, Docker Masaüstü menüsünden Linux kapsayıcılarına geç seçeneğini seçin.
-1. Visual Studio'da bir .NET Core konsol uygulaması oluşturun.<br>
-![yapılacaklar:resim_alternatif_metin](create-a-new-project.png)<br>
-1. NuGet'den en son Aspose.Cells sürümünü yükleyin. System.Drawing.Common ve System.Text.Encoding.CodePages, Aspose.Cells'in bir bağımlılığı olarak kurulacaktır.<br>
-![yapılacaklar:resim_alternatif_metin](nuget-aspose-cells.png)<br>
-1. Uygulama Linux üzerinde çalışacağından, uygun yerel Linux varlıklarının yüklenmesi gerekir. Dotnet core sdk 3.1 temel görüntüsüyle başlayın ve libgdiplus libc6-dev'i kurun.
-1. Gerekli tüm bağımlılıklar eklendiğinde, “Hello World!” Oluşturan basit bir program yazın. çalışma kitabı ve onu desteklenen tüm kaydetme biçimlerinde kaydeder:<br>
+Merhaba Dünya programını oluşturmak için aşağıdaki adımları izleyin:
+1. Docker kurulduktan sonra varsayılan olarak Linux Konteynerları kullanıldığından emin olun. Gerekirse, Docker Desktop menüsünden Linux konteynerlerine geçiş seçeneğini seçin.
+1. In Visual Studio, create a .NET Core console application.<br>
+![todo:image_alt_text](create-a-new-project.png)<br>
+1. Install the latest Aspose.Cells version from NuGet. System.Drawing.Common and System.Text.Encoding.CodePages will be installed as a dependency of Aspose.Cells.<br>
+![todo:image_alt_text](nuget-aspose-cells.png)<br>
+1. Uygulama Linux'ta çalıştırılacağından, uygun yerel Linux varlıkları yüklü olmalıdır. .Net core sdk 3.1 taban görüntüsü ile başlayın ve libgdiplus libc6-dev'i yükleyin.
+1. When all required dependencies are added, write a simple program that creates a “Hello World!” workbook and saves it in all supported save formats:<br>
 **.NET**<br>
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 using System;
 namespace Aspose.Cells.Docker
 {
@@ -64,16 +65,16 @@ namespace Aspose.Cells.Docker
 
 {{< /highlight >}}
 
-"TestOut" klasörünün, çıktı belgelerinin kaydedilmesi için bir çıktı klasörü olarak belirtildiğine dikkat edin. Uygulamayı Docker'da çalıştırırken, kapsayıcıdaki bu klasöre ana makinedeki bir klasör monte edilecektir. Bu, Docker kapsayıcısında Aspose.Cells tarafından oluşturulan çıktıyı kolayca görüntülemenizi sağlayacaktır.
+Dikkat edin, "TestOut" klasörü, çıktı belgelerini kaydetmek için bir çıkış klasörü olarak belirtilir. Docker'da uygulamayı çalıştırdığınızda, ana makinedeki bir klasör, bu klasöre konteynerde birleştirilir. Bu, Docker konteynerinde Aspose.Cells tarafından oluşturulan çıktıları kolayca görüntülemenizi sağlar.
 
-### Dockerfile Yapılandırma
+### Bir Dockerfile Yaplandırma
 
-Bir sonraki adım, Dockerfile dosyasını oluşturmak ve yapılandırmaktır.
+Bir sonraki adım, Dockerfile'ı oluşturmak ve yapılandırmaktır.
 
-1. Dockerfile dosyasını oluşturun ve uygulamanızın çözüm dosyasının yanına yerleştirin. Bu dosya adını uzantısız tutun (varsayılan).
-1. Dockerfile'da şunları belirtin:
+1. Dockerfile'ı oluşturun ve uygulamanızın çözüm dosyasının yanına yerleştirin. Bu dosya adını uzantısız tutun (varsayılan).
+1. Dockerfile'da aşağıdakileri belirtin:
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster 
 COPY fonts/* /usr/share/fonts/
 WORKDIR /app
@@ -81,72 +82,74 @@ COPY . ./
 RUN apt-get update && \
     apt-get install -y --allow-unauthenticated libgdiplus libc6-dev
 RUN dotnet publish "Aspose.Cells.Docker.csproj" -c Release -o /app/publish
-ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]{{< /highlight >}}
+ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]
+{{< /highlight >}}
 
-Yukarıdaki, aşağıdaki talimatları içeren basit bir Docker dosyasıdır:
+Yukarıdaki, aşağıdaki talimatları içeren basit bir Dockerfile'dır:
 
-- Kullanılacak SDK görüntüsü. İşte .Net Core SDK 3.1 görüntüsü. Derleme çalıştırıldığında Docker onu indirecektir. SDK'nın sürümü bir etiket olarak belirtilir.
-- Yazı Tiplerini yükleyin çünkü SDK görüntüsü çok az yazı tipi içerir. Komut, yazı tipi dosyalarını yerelden docker görüntüsüne kopyalar. Yüklemeniz gereken tüm yazı tiplerini içeren yerel bir "yazı tipleri" dizinine sahip olduğunuzdan emin olun. Bu örnekte, yerel "fontlar" dizini Dockerfile ile aynı dizine konulmuştur.
-- Bir sonraki satırda belirtilen çalışma dizini.
-- Her şeyi kaba kopyalama, uygulamayı yayınlama ve giriş noktasını belirleme komutu.
-- Libgdiplus'ı kurma komutu kapsayıcıda çalıştırılır. Bu, System.Drawing.Common tarafından gereklidir.
+- Kullanılacak SDK görüntüsü. Burada .Net Core SDK 3.1 görüntüsüdür. Docker, derleme çalıştırıldığında bu, indirecektir. SDK'nın sürümü etiket olarak belirtilmiştir.
+- Fontları yükle çünkü SDK imajı çok az font içerir. Komut, yereldeki font dosyalarını docker imajına kopyalar. Yüklemeniz gereken tüm fontları içeren yerel bir "fonts" dizininiz olduğundan emin olun. Bu örnekte, yerel "fonts" dizini, Dockerfile ile aynı dizine konulmuştur.
+- Çalışma dizini, bir sonraki satırda belirtildiği gibi.
+- Her şeyi konteynıra kopyalama, uygulamayı yayınlama ve giriş noktasını belirtme komutu.
+- İlgili komut, System.Drawing.Common tarafından gereklidir ve libgdiplus kurulumunu çalıştırmaktadır.
 
-### Docker'da Uygulama Oluşturma ve Çalıştırma
+### Docker'da Uygulamanın Derlenmesi ve Çalıştırılması
 
-Artık uygulama Docker'da oluşturulabilir ve çalıştırılabilir. Favori komut isteminizi açın, dizini uygulamanın bulunduğu klasöre (çözüm dosyasının ve Dockerfile'nin yerleştirildiği klasör) değiştirin ve aşağıdaki komutu çalıştırın:
+Artık uygulama Docker'da derlenebilir ve çalıştırılabilir. Favori komut istemini açın, uygulamanın bulunduğu klasöre değiştirin (çözüm dosyası ve Dockerfile'ın yerleştirildiği klasör) ve aşağıdaki komutu çalıştırın:
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker build -t actest .
 {{< /highlight >}}
 
-Docker'ın gerekli görüntüleri indirmesi gerektiğinden, bu komut ilk kez çalıştırıldığında daha uzun sürebilir. Önceki komut tamamlandığında, aşağıdaki komutu çalıştırın:
+Bu komutun ilk kez çalıştırılması biraz daha uzun sürebilir, çünkü Docker'ın gereken görüntüleri indirmesi gerekir. Önceki komut tamamlandıktan sonra aşağıdaki komutu çalıştırın:
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker run --mount type=bind,source=C:\Temp,target=/TestOut --rm actest from Docker
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
 
-Bağlama bağımsız değişkenine dikkat edin, çünkü daha önce belirtildiği gibi, uygulamanın yürütülmesinin sonuçlarını kolayca görmek için ana makinedeki bir klasör kapsayıcının klasörüne bağlanır. Linux'taki yollar büyük/küçük harfe duyarlıdır.
+Dikkatlice dağınık argümanına dikkat edin, çünkü daha önce belirtildiği gibi, ana makinedeki bir klasör, uygulama çalıştırılmasının sonuçlarını kolayca görmek için konteynerin klasörüne birleştirilir. Linux'taki yollar büyük harfe duyarlıdır.
 
 {{% /alert %}}
 
-## Destekleyen Görseller Aspose.Cells
+## Aspose.Cells'i Destekleyen Görüntüler
 
-- Aspose.Cells for .NET Standart, Linux'ta EMF ve TIFF'i desteklemez.
+- Aspose.Cells for .NET Standart Linux'ta EMF ve TIFF'i desteklemez.
 
 
-## Daha fazla örnek
+## Daha Fazla Örnek
 
-***1. Uygulamayı Windows Server 2019'da çalıştırmak için***
+***1. Windows Server 2019'da uygulamayı çalıştırmak için***
 
-- liman işçisi dosyası
+- Dockerfile
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 FROM microsoft/dotnet-framework:4.7.2-sdk-windowsservercore-ltsc2019
 WORKDIR /app
 COPY . ./
 RUN dotnet publish "Aspose.Cells.Docker.csproj" -c Release -o /app/publish
-ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]{{< /highlight >}}
+ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.dll"]
+{{< /highlight >}}
 
-- Docker Görüntüsü Oluşturun
+- Docker İmajı Oluştur
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker build -t actest .
 {{< /highlight >}}
 
-- Docker Görüntüsünü Çalıştır
+- Docker İmajını Çalıştır
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker run --mount type=bind,source=C:\Temp,target=c:\TestOut --rm actest from Docker
 {{< /highlight >}}
 
 
-***2. Uygulamayı Linux'ta çalıştırmak için***
+***2. Linux'ta uygulamayı çalıştırmak için***
 
-- Yazı tipi klasörünü ayarlayan basit bir program yazın, bir “Hello World!” çalışma kitabı ve kaydeder.
+- Bir font klasörü belirleyen basit bir program yazın, "Merhaba Dünya!" çalışma kitabını oluşturun ve kaydedin.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 namespace Aspose.Cells.Docker.Fonts
 {
     using System;
@@ -175,15 +178,15 @@ namespace Aspose.Cells.Docker.Fonts
             {
                 Console.WriteLine("Saving outfonts.xlsx\t\t[FAILED],{0}", e.Message);
             }
-           
+
         }
     }
 }
 
 {{< /highlight >}}
-- liman işçisi dosyası
+- Dockerfile
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster 
 WORKDIR /app
 COPY . ./
@@ -192,25 +195,26 @@ RUN apt-get update && \
 WORKDIR /app
 COPY . ./
 RUN dotnet publish "Aspose.Cells.Docker.Fonts.csproj" -c Release -o /app/publish
-ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.Fonts.dll"]{{< /highlight >}}
+ENTRYPOINT ["dotnet", "publish/Aspose.Cells.Docker.Fonts.dll"]
+{{< /highlight >}}
 
-- Docker Görüntüsü Oluşturun
+- Docker İmajı Oluştur
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker build -t actest .
 {{< /highlight >}}
 
-- Docker Görüntüsünü Çalıştır
+- Docker İmajını Çalıştır
 
-{{< highlight "plain" >}}
+{{< highlight plain >}}
 docker run --mount type=bind,source=C:\Windows\Fonts,target=/Fonts  --mount type=bind,source=C:\Temp,target=/TestOut --rm actest from Docker
 {{< /highlight >}}
 
 
-## Ayrıca bakınız
+## Ayrıca Bakınız
 
-- [Docker Desktop'ı Windows'e kurun](https://docs.docker.com/docker-for-windows/install/)
-- [Mac'te Docker Desktop'ı Kurun](https://docs.docker.com/docker-for-mac/install/)
-- [Visual Studio 2019, .NET Çekirdek 3.1 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31#dependencies)
-- [Linux kapsayıcılarına geçin](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers) seçenek
--  hakkında ek bilgi[.NET Çekirdek SDK'sı](https://hub.docker.com/_/microsoft-dotnet-sdk)
+- [Windows'ta Docker Desktop Kurulumu](https://docs.docker.com/docker-for-windows/install/)
+- [Mac'te Docker Desktop Kurulumu](https://docs.docker.com/docker-for-mac/install/)
+- [Visual Studio 2019, .NET Core 3.1 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore31#dependencies)
+- Linux konteynerlerine geçiş seçeneği
+- [.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet) hakkında ek bilgi

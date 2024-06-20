@@ -1,41 +1,42 @@
-﻿---
-title: Aspose.Cells'de Sekmeleri Görüntüle veya Gizle
+---
+title: Aspose.Cells te Sekmelerin Görüntülenmesi veya Gizlenmesi
 type: docs
 weight: 80
 url: /tr/net/display-or-hide-tabs-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel dosyasının en altına yakından bakarsanız, bir dizi kontrol görürsünüz. Bunlar şunları içerir:
+Microsoft Excel dosyasının alt kısmına dikkatlice baktığınızda, bir dizi kontrolü göreceksiniz. Bunlar şunları içerir:
 
 - Sayfa sekmeleri.
 - Sekme kaydırma düğmeleri.
 
-Sayfa sekmeleri, Excel dosyasındaki çalışma sayfalarını temsil eder. Söz konusu çalışma sayfasına geçmek için herhangi bir sekmeye tıklayın. Çalışma kitabında ne kadar çok çalışma sayfası varsa, o kadar çok sayfa sekmesi vardır. Excel dosyasında çok sayıda çalışma sayfası varsa, bunlar arasında gezinmek için düğmelere ihtiyacınız vardır. Bu nedenle, Microsoft Excel, sayfa sekmeleri arasında gezinmek için sekme kaydırma düğmeleri sağlar.
+Sayfa sekmeleri, Excel dosyasındaki çalışma sayfalarını temsil eder. Herhangi bir sekmeye tıklayarak o çalışma sayfasına geçebilirsiniz. Çalışma kitabında daha fazla çalışma sayfası olduğunda, daha fazla sayfa sekmesi olacaktır. İyi bir sayıda çalışma sayfasının olduğu Excel dosyasında bunları dolaşmak için düğmeler kullanmanız gerekebilir. Bu nedenle, Microsoft Excel, sayfa sekmeleri ve sekmeler arasında kaydırmak için düğmeler sağlar.
 
-**Sayfa sekmeleri ve sekme kaydırma düğmeleri** 
+**Sayfa sekmeleri & sekme kaydırma düğmeleri** 
 
-![yapılacaklar:resim_alternatif_metin](display-or-hide-tabs-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-tabs-in-aspose-cells_1.png)
 
-Geliştiriciler, Aspose.Cells'i kullanarak Excel dosyalarındaki sayfa sekmelerinin ve sekme kaydırma düğmelerinin görünürlüğünü kontrol edebilir.
+Aspose.Cells kullanarak geliştiriciler Excel dosyalarında sayfa sekmelerinin ve sekmelerin kaydırma düğmelerinin görünürlüğünü kontrol edebilirler. 
 
 {{% /alert %}} 
 
-Aşağıda, bir Excel dosyasını (book1.xls) açan, sekmelerini gizleyen ve değiştirilen dosyayı output.xls olarak kaydeden tam bir örnek bulunmaktadır.
+Aşağıda, bir Excel dosyasını (book1.xls) açan, sekmesini gizleyen ve değiştirilmiş dosyayı output.xls olarak kaydeden tam bir örnek bulunmaktadır.
 
-Book1.xls dosyasının aşağıdaki şekilde sekmeler içerdiğini görebilirsiniz. Örnek kod yürütüldükten sonra, aşağıdaki output.xls dosyasının ekran görüntüsünden de görebileceğiniz gibi sekmeler gizlenir.
+Book1.xls dosyasının aşağıdaki şekilde sekmeler içerdiğini görebilirsiniz. Örnek kod çalıştırıldıktan sonra, sekmeler gizlenir ve output.xls dosyasının ekran görüntüsünde gördüğünüz gibi görünür.
 
-**book1.xls: Herhangi bir değişiklikten önceki Excel dosyası** 
+**book1.xls: Herhangi bir değişiklik öncesi Excel dosyası** 
 
-![yapılacaklar:resim_alternatif_metin](display-or-hide-tabs-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-tabs-in-aspose-cells_2.png)
 
-**output.xls: Değişiklikten sonra Excel dosyası** 
+**output.xls: Değişiklik sonrası Excel dosyası** 
 
-![yapılacaklar:resim_alternatif_metin](display-or-hide-tabs-in-aspose-cells_3.png)
+![todo:image_alt_text](display-or-hide-tabs-in-aspose-cells_3.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -57,7 +58,7 @@ workbook.Save("output.xls");
 ## **Sekme Çubuğu Genişliğini Kontrol Etme**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Adjusting the sheet tab bar width
 
@@ -68,5 +69,5 @@ workbook.Worksheets.SheetTabBarWidth = 800;
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Tabs)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

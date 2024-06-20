@@ -1,28 +1,29 @@
-﻿---
-title: Fusionar o desfusionar Cells en una hoja de trabajo
+---
+title: Combinar o descombinar celdas en una hoja de cálculo
 type: docs
 weight: 40
 url: /es/net/merge-or-unmerge-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Mientras trabaja con hojas de trabajo, a menudo necesita crear un título/encabezado en una sola celda que abarque la parte superior de su hoja de trabajo. Es posible que esté creando una factura y desee menos columnas para los valores totales o resumidos. Cuando desee crear una celda a partir de dos o más celdas, fusione las celdas. Realizamos la tarea usando VSTO y Aspose.Cells for .NET de forma independiente.
+Al trabajar con hojas de cálculo, a menudo necesitas crear un título o encabezado en una celda única que abarque la parte superior de tu hoja de cálculo. Es posible que estés creando una factura y desees tener menos columnas para los valores totales o de resumen. Cuando quieras combinar una celda a partir de dos o más celdas, puedes combinar las celdas. Realizamos esta tarea utilizando VSTO y Aspose.Cells for .NET de forma independiente.
 
 {{% /alert %}}
 
 ## **Descripción**
 
-Abra un archivo de Excel existente, combine algunas celdas en la primera hoja de trabajo del libro de trabajo y guarde el archivo de Excel.
+Abrir un archivo de Excel existente, combinar algunas celdas en la primera hoja de cálculo del libro de trabajo y guardar el archivo de Excel
 
-## **Fusionando Cells**
+## **Combinar celdas**
 
-Los siguientes son fragmentos de código paralelo para VSTO (C#, VB) y Aspose.Cells for .NET (C#, VB).
+A continuación se muestran los fragmentos de código paralelos para VSTO (C#, VB) y Aspose.Cells for .NET (C#, VB).
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -86,7 +87,7 @@ excelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -122,15 +123,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **Desfusionando el Cells**
+## **Descombinar las celdas**
 
-Para separar las celdas, use las siguientes líneas de código para VSTO (C#, VB) y Aspose.Cells for .NET (C#, VB).
+Para descombinar la(s) celda(s), utiliza las siguientes líneas de código para VSTO (C#, VB) y Aspose.Cells for .NET (C#, VB).
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 
@@ -148,7 +149,7 @@ rng1.UnMerge();     
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 

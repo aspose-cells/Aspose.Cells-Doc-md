@@ -1,17 +1,18 @@
-﻿---
-title: XLS または XLSX エクスポート
+---
+title: XLSまたはXLSXエクスポート
 type: docs
 weight: 20
 url: /ja/jasperreports/xls-or-xlsx-export/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for JasperReports を使用すると、レイアウトやフォーマットを失うことなく、XLS および XLSX フォーマットでレポートを配信できます。 Microsoft Excel 形式でスプレッドシートを作成するには、Aspose.Cells for JasperReports は組み込みバージョンの[Aspose.Cells for Java](https://products.aspose.com/cells/java/)、Aspose からの主要なスプレッドシート処理ライブラリ。
+Aspose.Cells for JasperReportsは、レイアウトや書式設定の損失なしにXLSおよびXLSX形式でレポートを配信することができます。Microsoft Excel形式のスプレッドシートを作成するには、Aspose.Cells for JasperReportsはAsposeからのリーディングなスプレッドシート処理ライブラリである[Aspose.Cells for Java](https://products.aspose.com/cells/java/)の内蔵バージョンを利用しています。
 
-Microsoft Aspose.Cells でドキュメントを生成するために Excel は必要ありません。
+Microsoft ExcelはAspose.Cellsを使用してドキュメントを生成する際に必要ありません。
 
-**Aspose.Cells for JasperReports を使用してエクスポートされたサンプル XLS レポート** 
+**Aspose.Cells for JasperReportsを使用してエクスポートされたサンプルXLSレポート** 
 
-![todo:画像_代替_文章](xls-or-xlsx-export_1.png)
+![todo:image_alt_text](xls-or-xlsx-export_1.png)
 
 {{% /alert %}}

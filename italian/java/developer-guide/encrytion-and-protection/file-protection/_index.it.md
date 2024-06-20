@@ -1,41 +1,42 @@
-﻿---
-title: Crittografare e decrittografare i file Excel
+---
+title: Crittografa e Decrittografa file Excel
 type: docs
 weight: 40
 url: /it/java/encrypt-and-decrypt-excel-files/
-description: Come crittografare e decrittografare i file excel utilizzando java. Blocca e sblocca i file Excel.
+description: Come crittografare e decrittografare file Excel utilizzando Java. Blocca e sblocca file Excel.
 ---
+
 {{% alert color="primary" %}}
-Microsoft Excel (97 - 365 ) consente di crittografare/proteggere con password i fogli di calcolo. Utilizza algoritmi forniti da Crypto Service Provider. Un Crypto Service Provider o CSP è un insieme di algoritmi crittografici con diverse proprietà. Il CSP predefinito è "Compatibile con Office 97/2000" o "Crittografia settimanale (XOR)". È anche importante scegliere una lunghezza della chiave di crittografia adeguata. Alcuni dei provider di servizi di crittografia non supportano più di 40 o 56 bit. Questo è considerato un tipo di crittografia debole. Tuttavia, per un tipo di crittografia forte, è richiesta una lunghezza minima della chiave di 128 bit. Microsoft Windows contiene provider di servizi di crittografia che offrono anche tipi di crittografia avanzata, ad esempio "Microsoft Strong Cryptographic Provider". Per dare un'idea, la crittografia a 128 bit è ciò che le banche utilizzano per crittografare la connessione con i loro sistemi di Internet Banking. Aspose.Cells consente di crittografare/proteggere con password i file excel con il tipo di crittografia desiderato.
+Microsoft Excel (97 - 365) consente di crittografare / proteggere con password i propri fogli di calcolo. Utilizza algoritmi forniti dal Crypto Service Provider. Un Crypto Service Provider o CSP è un insieme di algoritmi crittografici con diverse proprietà. Il CSP predefinito è "Office 97/2000 Compatible" o "Crittografia settimanale (XOR)". È anche importante scegliere una corretta lunghezza della chiave di crittografia. Alcuni Crypto Service Provider non supportano più di 40 o 56 bit. Questo è considerato un tipo di crittografia debole. Ma, per un tipo di crittografia forte, è richiesta una lunghezza minima della chiave di 128 bit. Microsoft Windows contiene Crypto Service Providers che offrono anche tipi di crittografia forte, ad esempio il 'Microsoft Strong Cryptographic Provider'. Per darti un'idea, la crittografia a 128 bit è quella che le banche utilizzano per crittografare la connessione con i loro sistemi di banca online. Aspose.Cells ti consente di crittografare / proteggere con password i tuoi file Excel con il tipo di crittografia desiderato.
 
 {{% /alert %}}
 
-## **Utilizzo di Microsoft Excel**
+## **Usare MS Excel**
 
-In MS Excel (ad esempio MS Excel 2003), per implementare le impostazioni di crittografia dei file, puoi provare:
+In MS Excel (ad esempio MS Excel 2003), per implementare le impostazioni di crittografia del file, si può provare:
 
--  Dal**Utensili** menù, selezionare**Opzioni** , quindi selezionare il**Sicurezza** scheda.
--  Ingresso**Password per aprire** e fare clic su**Avanzate** pulsante.
-- Scegli il tipo di crittografia e conferma la password.
+- Dal menu **Strumenti**, selezionare **Opzioni**, e quindi selezionare la scheda **Sicurezza**.
+- Inserire la **Password per aprire** e fare clic sul pulsante **Avanzate**.
+- Scegliere il tipo di crittografia e confermare la password.
 
-![cose da fare:immagine_alt_testo](encrypting-excel-files_1.png)
+![todo:image_alt_text](encrypting-excel-files_1.png)
 
-**Figura: finestra di dialogo Opzioni**
+**Figura: Dialogo Opzioni**
 
-![cose da fare:immagine_alt_testo](encrypting-excel-files_2.png)
+![todo:image_alt_text](encrypting-excel-files_2.png)
 
-**Figura: finestra di dialogo Tipo di crittografia**
+**Figura: Dialogo Tipo di Crittografia**
 
-## **Crittografia file Excel**
-L'esempio seguente mostra come è possibile crittografare/proteggere con password un file excel utilizzando Aspose.Cells API.
+## **Crittografare il file Excel**
+L'esempio seguente mostra come è possibile crittografare / proteggere con password un file Excel utilizzando l'API di Aspose.Cells.
 
-### **Codice d'esempio:**
+### **Codice di Esempio:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-EncryptingFiles-EncryptingFiles.java" >}}
 
 
-## **Decrittografia file Excel con Aspose.Cells**
-È molto utile aprire il file excel protetto da password e decrittografarlo utilizzando Aspose.Cells API come i seguenti codici:
+## **Decrittografare un file Excel con Aspose.Cells**
+È molto semplice aprire un file Excel protetto da password e decifrarlo usando l'API Aspose.Cells come segue:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Decrypt-Excel-File.java" >}}
 

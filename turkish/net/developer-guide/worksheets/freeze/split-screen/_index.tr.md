@@ -1,56 +1,53 @@
 ---
 title: Excel Çalışma Sayfasının Bölünmüş Ekranı
-linktitle: Bölünmüş ekran
+linktitle: Bölünmüş Ekran
 type: docs
 weight: 190
 url: /tr/net/how-to-split-screen-of-excel-worksheet
-description: Bu makalede, C# Kitaplığı ile .NET API'i kullanarak çalışma sayfasını programlı olarak iki veya dört parçaya bölerek belirli satırları ve/veya sütunları ayrı bölmelerde nasıl görüntüleyeceğinizi öğreneceksiniz.
-keywords: Freeze top rows, Feeze top row.
+description: Bu makalede, belirli satırları ve/veya sütunları ayrı panolarda görüntülemeyi öğreneceksiniz, C# Kütüphanesi ve .NET API ile çalışarak elektronik tabloyu programlı olarak ikiye veya dörde bölmeyi öğreneceksiniz.
+keywords: Üst satırları dondur, Üst satırı dondur.
 ---
-{{% alert color="primary" %}}
 
-Bu makalede, çalışma sayfasını iki veya dört parçaya bölerek belirli satır ve/veya sütunların ayrı bölmelerde nasıl görüntüleneceğini öğreneceğiz.
-Büyük veri kümeleriyle çalışırken, farklı veri alt kümelerini karşılaştırmak için aynı çalışma sayfasının birkaç alanını aynı anda görmemiz gerekir.
-Bölünmüş ekran işlevi ihtiyaçlarınızı karşılayabilir.
+## **Giriş**
 
-{{% /alert %}}
+Bu makalede, Excel çalışma sayfasını iki veya dört parçaya bölererek belirli satırları ve/veya sütunları ayrı bölmelere ayırmayı öğreneceğiz. Büyük veri kümeleriyle çalışırken, farklı veri alt kümelerini karşılaştırmak için aynı çalışma sayfasının birkaç bölümünü aynı anda görmemiz gerekebilir. Bölme ekranı işlevi ihtiyaçlarınızı karşılayabilir.
 
-##  **Excel'de ekran nasıl bölünür**
-Bir çalışma sayfasını iki veya dört parçaya bölmek için aşağıdakileri yapın:
+## **Excel'de ekranı nasıl bölebilirsiniz**
+Bir elektronik tabloyu ikiye veya dörde bölmek için aşağıdakileri yapın:
 
-1. Bölmeyi önüne yerleştirmek istediğiniz satırı/sütun/hücreyi seçin.
-2. Görünüm sekmesinin Windows grubunda Böl düğmesini tıklayın.
+1. Bölme yapmak istediğiniz satır/sütun/hücreyi seçin.
+2. Görünüm sekmesinde, Pencereler grubunda, Böl düğmesini tıklayın.
 
-**![Bölünmüş Ekran](Bölünmüş Ekran.png)**
+**![Bölünmüş Ekran](Bölünmüş-Ekran.png)**
 
-##  **Çalışma sayfasını sütunlara dikey olarak bölme**
+## **Excel'de sütunlara dik olarak elektronik tabloyu bölmek**
 
-Elektronik tablonun iki alanını dikey olarak ayırmak için, bölmenin görünmesini istediğiniz sütunun sağındaki sütunu seçin ve Excel'de Böl düğmesini tıklayın.
+Elektronik tablonun farklı alanlarını dikey olarak ayırmak için, bölmenin görünmesini istediğiniz sütunun sağındaki sütunu seçin ve Excel'de Böl düğmesini tıklayın.
 
-.Net için Aspose.Cells ile çalışma sayfasını programlı olarak sütunlara dikey olarak bölmek kolaydır, yalnızca üst satırdaki bir hücreyi aktif hücre olarak seçmemiz gerekir, ardından
-ile ayrılmak[**Çalışma Sayfası.Bölünmüş**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) yöntem.
+Aspose.Cells for .Net ile sütunlara dik şekilde elektronik tabloyu programlı olarak bölmek Aspose.Cells for .Net ile kolaydır, yalnızca en üst satırda bir hücre seçmemiz gerekiyor, sonra
+[**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) yöntemi ile bölmek.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Vertically-Split.cs" >}}
 
-##  **Çalışma sayfasını yatay olarak satırlara bölme**
-Excel pencerenizi yatay olarak ayırmak için bölmenin Excel'de gerçekleşmesini istediğiniz satırın altındaki satırı seçin.
+## **Satırlara yatay olarak elektronik tabloyu bölmek**
+Excel'de pencerenizi yatay olarak ayırmak için, bölmeyi istediğiniz satırın altındaki satırı seçin.
 
-.Net için Aspose.Cells ile çalışma sayfasını programlı olarak satırlara yatay olarak bölmek kolaydır, sol sütundaki yalnızca bir hücreyi aktif hücre olarak seçmemiz gerekir, ardından
-ile ayrılmak[**Çalışma Sayfası.Bölünmüş**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) yöntem.
+Aspose.Cells for .Net ile satırlara yatay olarak elektronik tabloyu programlı olarak bölmek Aspose.Cells for .Net ile kolaydır, yalnızca soldaki sütunda bir hücre seçmemiz gerekiyor, sonra
+[**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) yöntemi ile bölmek.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Horizontally-Split.cs" >}}
 
-##  **Çalışma sayfasını dört parçaya bölün**
-Aynı çalışma sayfasının dört farklı bölümünü aynı anda görüntülemek için Excel'de ekranınızı hem dikey hem de yatay olarak bölün.
+## **Elektronik tabloyu dört bölüme ayırmak**
+Aynı elektronik tablonun dört farklı bölümünü aynı anda görüntülemek için, Excel'de ekranınızı hem dikey hem yatay olarak bölebilirsiniz.
 
-.Net için Aspose.Cells ile çalışma sayfasını programlı olarak sütunlara dikey olarak bölmek kolaydır, yalnızca ilk satırda ve sütunda olmayan bir hücreyi aktif hücre olarak seçmemiz gerekir, ardından
-ile ayrılmak[**Çalışma Sayfası.Bölünmüş**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) yöntem.
+Aspose.Cells for .Net ile sütunlara dik olarak elektronik tabloyu programlı olarak bölmek Aspose.Cells for .Net ile kolaydır, yalnızca en üst satır veya sütunda olmayan bir hücre seçmemiz gerekiyor, sonra
+[**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) yöntemi ile bölmek.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Split-Four.cs" >}}
 
-##  **Bölünme nasıl kaldırılır**
-Çalışma sayfasının bölünmesini kaldırmak için Böl düğmesini tekrar tıklamanız yeterlidir.
+## **Bölünmüş bölgeyi kaldırmak için**
+Elektronik tabloyu bölme ayarını kaldırmak için, sadece Böl düğmesini tekrar tıklayın.
 
- .Net için Aspose.Cells şunları sağlar:[**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) Bölünmüş ayarı kaldırma yöntemi.
+Aspose.Cells for .Net, bölme ayarını kaldırmak için bir [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) yöntemi sağlar.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}

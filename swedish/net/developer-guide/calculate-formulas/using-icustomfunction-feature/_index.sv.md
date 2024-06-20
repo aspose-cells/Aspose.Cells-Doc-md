@@ -1,46 +1,47 @@
 ---
-title: Använder ICustomFunction-funktionen
-description: Den här artikeln beskriver hur du skapar en anpassad funktion i Microsoft Excel med hjälp av ICustomFunction-funktionen i Aspose.Cells-biblioteket. Genom att ladda en befintlig Excel-fil eller skapa en ny Excel-fil kan vi använda metoderna som tillhandahålls av Aspose.Cells för att definiera och registrera anpassade funktioner och få resultaten. Slutligen sparar vi den modifierade Excel-filen på disken.
-keywords: Aspose.Cells, Excel, ICustomFunction features, custom functions
+title: Använda funktionen ICustomFunction
+description: Denna artikel beskriver hur man skapar en anpassad funktion i Microsoft Excel med hjälp av ICustomFunction funktionen i Aspose.Cells biblioteket. Genom att ladda en befintlig Excel fil eller skapa en ny Excel fil kan vi använda de metoder som tillhandahålls av Aspose.Cells för att definiera och registrera anpassade funktioner och få resultaten. Till slut sparar vi den modifierade Excel filen på disk.
+keywords: Aspose.Cells, Excel, ICustomFunction funktioner, anpassade funktioner
 type: docs
 weight: 30
 url: /sv/net/using-icustomfunction-feature/
 ---
+
 {{% alert color="primary" %}} 
 
-Den här artikeln ger en detaljerad förståelse för hur du använder ICustomFunction-funktionen för att implementera anpassade funktioner med Aspose.Cells API:er.
+Den här artikeln ger en detaljerad förståelse för hur man använder ICustomFunction-funktionen för att implementera anpassade funktioner med Aspose.Cells API:er.
 
-ICustomFunction-gränssnittet gör det möjligt att lägga till anpassade formelberäkningsfunktioner för att utöka Aspose.Cells' kärnberäkningsmotor för att uppfylla vissa krav. Den här funktionen är användbar för att definiera anpassade (användardefinierade) funktioner i en mallfil eller i kod där den anpassade funktionen kan implementeras och utvärderas med Aspose.Cells API:er som vilken annan standard Microsoft Excel-funktion som helst.
+ICustomFunction-gränssnittet tillåter att lägga till anpassade formelberäkningsfunktioner för att utöka Aspose.Cells kärnberäkningsmotor för att uppfylla vissa krav. Denna funktion är användbar för att definiera anpassade (användardefinierade) funktioner i en mallfil eller i kod där den anpassade funktionen kan implementeras och utvärderas med Aspose.Cells API:er som vilken annan standardfunktion som helst i Microsoft Excel.
 
- Observera att detta gränssnitt har ersatts av[AbstractCalculation Engine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) och kommer att tas bort i framtiden. Några tekniska artiklar/exempel om nya API:[här](/cells/sv/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) och[här](/cells/sv/net/returning-a-range-of-values-using-abstractcalculationengine/)
+Observera att detta gränssnitt har ersatts av [AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/) och kommer att tas bort i framtiden. Några tekniska artiklar/exempel om den nya API:en: [här](/cells/sv/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) och [här](/cells/sv/net/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} 
-##  **Skapa och utvärdera en användardefinierad funktion**
- Den här artikeln visar implementeringen av ICustomFunction-gränssnittet för att skriva en anpassad funktion och använda den i kalkylarket för att få resultaten. Vi kommer att definiera en anpassad funktion efter namn**MyFunc** som accepterar 2 parametrar med följande detaljer.
+## **Skapa och utvärdera en användardefinierad funktion**
+Den här artikeln demonstrerar implementeringen av ICustomFunction-gränssnittet för att skriva en anpassad funktion och använda den i kalkylarket för att få resultaten. Vi kommer att definiera en anpassad funktion vid namn **MyFunc** som kommer att acceptera 2 parametrar med följande detaljer.
 
-- Den första parametern hänvisar till en enskild cell
-- Den andra parametern hänvisar till ett cellintervall
+- Första parametern hänvisar till en enda cell
+- Andra parametern hänvisar till en rad av celler
 
-Den anpassade funktionen kommer att lägga till alla värden från cellområdet som anges som 2:a parametern och dividera resultatet med värdet i den 1:a parametern.
+Den anpassade funktionen kommer att lägga till alla värden från cellområdet som anges som 2: a parameter och dela resultatet med värdet i den första parametern.
 
-Så här har vi implementerat CalculateCustomFunction-metoden.
+Här är hur vi har implementerat metoden CalculateCustomFunction.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-UsingICustomFunctionfeature-ICustomFunction.cs" >}}
 
 
-Så här använder du den nydefinierade funktionen i ett kalkylblad
+Här är hur du använder den nyligen definierade funktionen i ett kalkylblad
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-UsingICustomFunctionfeature-UsingICustomFunctionFeature.cs" >}}
-##  **Översikt**
-Aspose.Cells API:erna placerar bara ReferredArea-objektet i "paramsList" när motsvarande parameter är en referens eller dess beräknade resultat är referens. Om du behöver själva referensen kan du använda ReferredArea direkt. Om du behöver få värdet på en enskild cell från referensen som motsvarar formelns position, kan du använda metoden ReferredArea.GetValue(rowOffset, int colOffset). Om du behöver en cellvärdesarray för hela området kan du använda metoden ReferredArea.GetValues.
+## **Översikt**
+Aspose.Cells-API:erna sätter helt enkelt in ReferredArea-objektet i "paramsList" när det motsvarande parametern är en referens eller dess beräknade resultat är en referens. Om du behöver referensen själv kan du använda ReferredArea direkt. Om du behöver få värdet av en enskild cell från referensen som motsvarar formelns position kan du använda ReferredArea.GetValue(rowOffset, int colOffset) metoden. Om du behöver en array av cellvärden för hela området kan du använda ReferredArea.GetValues-metoden.
 
-Eftersom Aspose.Cells API:erna ger ReferredArea i "paramsList", kommer ReferredAreaCollection i "contextObjects" inte att behövas längre (i gamla versioner kunde den inte alltid ge en-till-en-karta till parametrarna för den anpassade funktionen) därför har tagits bort från "contextObjects".
+Eftersom Aspose.Cells API: er ger ReferredArea i "paramsList", kommer ReferredAreaCollection i "contextObjects" inte längre att behövas (i äldre versioner kunde den inte ge en-ett-karts till anpassade funktioners parametrar alltid) därför har den tagits bort från "contextObjects".
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 

@@ -1,15 +1,16 @@
-﻿---
+---
 title: Vad är nytt i Aspose.Cells for Reporting Services
 type: docs
-description: Aspose.Cells for Reporting Services utökas och förbättras dagligen. På den här sidan kan du lära dig om produktens enorma och mest intressanta egenskaper
+description: "Aspose.Cells for Reporting Services utökar och förbättrar dagligen. På denna sida kan du lära dig om de stora och mest intressanta funktionerna i produkten."
 weight: 5
 url: /sv/reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 ---
-Den här sidan beskriver de mest intressanta nya funktionerna Aspose.Cells for Reporting Services som introducerats i de senaste utgåvorna.
+
+Denna sida beskriver de mest intressanta nya Aspose.Cells for Reporting Services-funktionerna som introducerats i de senaste versionerna.
 
 ## Aspose.Cells for Reporting Services  22.10
 
-* Fixa några buggar.
+* Åtgärda några buggar.
 * Stöd för att rendera nummerformat.
 
 ## Aspose.Cells for Reporting Services  22.9
@@ -22,7 +23,7 @@ Den här sidan beskriver de mest intressanta nya funktionerna Aspose.Cells for R
 
 ## Aspose.Cells for Reporting Services  22.7
 
-* Stöd för att göra XML-format.
+* Stöd för att rendera XML-format.
 
 ## Aspose.Cells for Reporting Services  22.6
 
@@ -30,7 +31,7 @@ Den här sidan beskriver de mest intressanta nya funktionerna Aspose.Cells for R
 
 ## Aspose.Cells for Reporting Services  22.5
 
- * Förbättring för rendering av XPS och Tiff.
+* Förbättring för rendering av XPS och Tiff.	
 
 ## Aspose.Cells for Reporting Services  22.4
 
@@ -39,7 +40,7 @@ Den här sidan beskriver de mest intressanta nya funktionerna Aspose.Cells for R
 ## Aspose.Cells for Reporting Services  22.3
 
 * Stöd för att rendera docx-format.
-* Förbättra textrenderaren.
+* Förbättra textrendering.
 
 ## Aspose.Cells for Reporting Services  22.2
 

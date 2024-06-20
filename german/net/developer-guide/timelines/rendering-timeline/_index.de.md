@@ -1,18 +1,19 @@
-﻿---
-title: Rendering-Zeitachse
+---
+title: Zeitachse rendern
 type: docs
 weight: 40
 url: /de/net/rendering-timeline/
-description: Verwalten Sie Zeitleisten von Excel-Dateien mit Aspose.Cells.
-keywords: Rendering timeline without office 2013, office 2016, office 2019 and office 365
+description: Verwalten Sie Zeitachsen von Excel Dateien mit Aspose.Cells.
+keywords: Zeitachse rendern ohne Office 2013, Office 2016, Office 2019 und Office 365
 ---
-## **Mögliche Nutzungsszenarien**
-Aspose.Cells unterstützt das Rendern der Zeitleistenform ohne Verwendung von Office 2013, Office 2016, Office 2019 und Office 365. Wenn Sie Ihr Arbeitsblatt in ein Bild konvertieren oder Ihre Arbeitsmappe in den Formaten PDF oder HTML speichern, werden Sie sehen, dass Zeitleisten ordnungsgemäß gerendert werden.
 
-## **Rendering-Zeitachse**
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](input.xlsx) die eine vorhandene Zeitleiste enthält. Rufen Sie das Shape-Objekt gemäß dem Namen der Zeitleiste ab und rendern Sie es dann mit der Methode Shape.ToImage() in ein Bild. Das fließende Bild ist die[Ausgangsbild](out.png)das zeigt die gerenderte Zeitleiste. Wie Sie sehen können, wurde die Zeitachse richtig gerendert und sieht genauso aus wie in der Beispiel-Excel-Datei.
+## **Mögliche Verwendungsszenarien**
+Aspose.Cells unterstützt das Rendern von Zeitachseformen, ohne Office 2013, Office 2016, Office 2019 und Office 365 zu verwenden. Wenn Sie Ihr Arbeitsblatt in ein Bild konvertieren oder Ihre Arbeitsmappe in den Formaten PDF oder HTML speichern, sehen Sie, dass die Zeitachsen ordnungsgemäß gerendert werden.
 
-![todo: Bild_alt_Text](out.png)
+## **Zeitachse rendern**
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](input.xlsx) mit einer vorhandenen Zeitachse. Rufen Sie das Formobjekt entsprechend dem Namen der Zeitachse ab und rendern Sie es dann in ein Bild mit der Methode Shape.ToImage(). Das folgende Bild ist das [Ausgabebild](out.png), das die gerenderte Zeitachse zeigt. Wie Sie sehen können, wurde die Zeitachse korrekt gerendert und sieht genauso aus wie in der Beispiel-Excel-Datei.
+
+![todo:image_alt_text](out.png)
 ### **Beispielcode**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-RenderingTimeline.cs" >}}
 

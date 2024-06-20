@@ -1,27 +1,28 @@
-﻿---
-title: Genel API Aspose.Cells 8.3.0'daki değişiklikler
+---
+title: Aspose.Cells 8.3.0 da Genel API Değişiklikleri
 type: docs
 weight: 110
 url: /tr/java/public-api-changes-in-aspose-cells-8-3-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürüm 8.2.2'den 8.3.0'a modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır.
+Bu belge, modül/uygulama geliştiricilerin ilgisini çekebilecek Aspose.Cells API'sindeki 8.2.2'den 8.3.0'a yapılan değişiklikleri açıklar.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Özellik WorkbookSettings.AutoRecover Eklendi**
-AutoRecover özelliği için alıcı/ayarlayıcı, geliştiricilerin uygulamalarında elektronik tablolar için Otomatik Kurtarma seçeneğini almalarına/ayarlamalarına izin vermek için WorkbookSettings sınıfına eklenmiştir.
+## **Eklenen API'lar**
+### **WorkbookSettings.AutoRecover Özelliği Eklendi**
+Getter/setter, uygulamalarının çalışma sayfaları için Otomatik Kurtarma seçeneğini ols/aan geliştiricilere getirilmiştir. 
 
 {{% alert color="primary" %}} 
 
- Lütfen makaleyi kontrol edin[Elektronik Tablo Otomatik Kurtarmayı Ayarlama](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook) daha fazla bilgi için.
+Daha fazla bilgi için [Çalışma Sayfası Otomatik Kurtarma Ayarı](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook) üzerinde detaylı makaleyi kontrol edin.
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -31,12 +32,12 @@ settings.setAutoRecover(true);
 
 {{< /highlight >}}
 
-### **Özellik WorkbookSettings.CrashSave Eklendi**
-CrashSave özelliği için alıcı/ayarlayıcı, WorkbookSettings sınıfına eklendi. Boole tipi özelliği, uygulamanın çalışma kitabı dosyasını bir kilitlenmeden sonra en son kaydedip kaydetmediğini gösterir.
+### **WorkbookSettings.CrashSave Özelliği Eklendi**
+Getter/setter, CrashSave özelliği, uygulamanın son çökmesinden sonra çalışma kitabı dosyasını kurtarılıp kurtarılmadığını belirtir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -46,12 +47,12 @@ System.out.println(settings.getCrashSave());
 
 {{< /highlight >}}
 
-### **Özellik WorkbookSettings.DataExtractLoad Eklendi**
-DataExtractLoad özelliği için alıcı/ayarlayıcı, geliştiricilerin son kurtarma ile ilgili bilgileri almasına/ayarlamasına izin vermek için WorkbookSettings sınıfına eklendi. DataExtractLoad özelliği, çalışma kitabı dosyasında veri kurtarmanın gerçekleştirildiğini gösteren true değerini döndürürse.
+### **WorkbookSettings.DataExtractLoad Özelliği Eklendi**
+Getter/setter, DataExtractLoad özelliği, geliştiricilere çalışma kitabı dosyasında son kurtarmanın yapılıp yapılmadığı hakkında bilgi almak/ayarlamak için eklenmiştir. DataExtractLoad özelliği true döndürürse, bu, çalışma kitabı dosyasında veri kurtarımının yapıldığını belirtir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -61,12 +62,12 @@ System.out.println(settings.getDataExtractLoad());
 
 {{< /highlight >}}
 
-### **Özellik WorkbookSettings.RepairLoad Eklendi**
-RepairLoad özelliği için alıcı/ayarlayıcı, WorkbookSettings sınıfına eklendi. Boole tipi özelliği, elektronik tablonun Excel uygulamasıyla son yükleme oturumunda onarılıp onarılmadığını gösterir.
+### **WorkbookSettings.RepairLoad Özelliği Eklendi**
+Getter/setter, RepairLoad özelliği, uygulamanın son yükleme oturumunda elektronik tablonun onarıldığını belirtir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -76,12 +77,12 @@ System.out.println(settings.getRepairLoad());
 
 {{< /highlight >}}
 
-### **Özellik TxtLoadOptions.KeepExactFormat Eklendi**
-TxtLoadOptions sınıfına, dize/metin sayılara veya DateTime'a dönüştürüldüğünde hücre değeri için tam biçimlendirmenin korunması gerekip gerekmediğini gösteren KeepExactFormat özelliği eklendi. Bu özellik, MS Excel uygulamasının CSV dosyalarından DateTime veya sayısal değerleri yükleme davranışına uyması için eklenmiştir. MS Excel'in davranışını simüle etmek için, KeepExactFormat özelliğini false olarak ayarlayın, varsayılan değer ise true'dur, böylece hücre değeri CSV dosyasında dize olarak biçimlendirilecektir.
+### **TxtLoadOptions.KeepExactFormat Özelliği Eklendi**
+KeepExactFormat özelliği, metin/dizge sayıya veya TarihSaat'e dönüştürüldüğünde hücre değerinin tam biçiminin korunup korunmayacağını belirtir. Bu özellik, CSV dosyalarından TarihSaat veya sayısal değerleri yüklerken MS Excel programının davranışını eşleştirmek için eklenmiştir. MS Excel'in davranışını taklit etmek için KeepExactFormat özelliğini false olarak ayarlayın, varsayılan değer true olduğu için hücre değeri CSV dosyasındaki dize şeklinde biçimlendirilecektir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  TxtLoadOptions options = new TxtLoadOptions();
 
@@ -91,18 +92,18 @@ Workbook book = new Workbook("sample.csv", options);
 
 {{< /highlight >}}
 
-### **Özellik Shape.Id Eklendi**
-v8.3.0, belirli bir elektronik tablodaki her bir şekil nesnesini benzersiz şekilde tanımlamak için Shape.Id özelliği için alıcı/ayarlayıcı eklemiştir. Bu yeni özellik, aşağıda gösterildiği gibi bir elektronik tablodaki Chart nesnelerini benzersiz bir şekilde tanımlamaya da yardımcı olur.
+### **Shape.Id Özelliği Eklendi**
+V8.3.0, her bir şekil nesnesini benzersiz şekilde tanımlamak için Shape.Id özelliğinin getter/setter'ı eklenmiştir. Bu yeni özellik ayrıca bir elektronik tabloda Grafik nesnelerini benzersiz bir şekilde tanımlamada da yardımcı olur.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Çalışma kitabı kitabı = yeni Çalışma Kitabı ("sample.xlsx");
+ Workbook book = new Workbook("sample.xlsx");
 
-ChartCollection çizelgeleri = book.getWorksheets().get(0).getCharts();
+ChartCollection charts = book.getWorksheets().get(0).getCharts();
 
- for(int dizin = 0; dizin<= charts.getCount(); index++)
+for(int index = 0; index <= charts.getCount(); index++)
 
 {
 
@@ -116,12 +117,12 @@ ChartCollection çizelgeleri = book.getWorksheets().get(0).getCharts();
 
 {{< /highlight >}}
 
-### **Yöntem PlotArea.setPositionAuto Eklendi**
-Grafiğin çizim alanını otomatik moda ayarlamaya yardımcı olan PlotArea sınıfına setPositionAuto yöntemi eklendi.
+### **PlotArea.setPositionAuto Yöntemi Eklendi**
+setPositionAuto yöntemi PlotArea sınıfına eklendi ve bu, grafik alanının otomatik moda ayarlanmasına yardımcı olur.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 

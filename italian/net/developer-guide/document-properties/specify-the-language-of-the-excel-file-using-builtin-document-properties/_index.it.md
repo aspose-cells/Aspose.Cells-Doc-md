@@ -1,19 +1,20 @@
-﻿---
-title: Specificare la lingua del file Excel utilizzando le proprietà del documento incorporate
+---
+title: Specificare la lingua del file Excel utilizzando le proprietà del documento integrato
 type: docs
 weight: 30
 url: /it/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/
 ---
-## **Possibili scenari di utilizzo**
 
-È possibile modificare la lingua del file Excel facendo clic con il pulsante destro del mouse sul file, quindi selezionando Proprietà > Dettagli e quindi modificando il campo Lingua. Si prega di utilizzare[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)property per modificarlo a livello di codice utilizzando le API Aspose.Cells.
+## **Possibili Scenari di Utilizzo**
 
-## **Specificare la lingua del file Excel utilizzando le proprietà del documento incorporate**
+Puoi modificare la Lingua del file Excel facendo clic con il tasto destro del mouse sul file e selezionando Proprietà > Dettagli e modificando il campo Lingua. Si prega di utilizzare la proprietà [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language) per modificarla programmaticamente utilizzando le API di Aspose.Cells.
 
- Il codice di esempio seguente crea una cartella di lavoro e ne modifica la proprietà del documento incorporata denominata Language. Si prega di consultare il[file Excel di output](64716891.xlsx) generato dal codice e dallo screenshot che mostra il campo Lingua modificato da[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)proprietà.
+## **Specificare la lingua del file Excel utilizzando le proprietà di documento incorporate**
 
-![cose da fare:immagine_alt_testo](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+Il codice di esempio seguente crea un foglio di lavoro e modifica la sua proprietà di documento incorporata denominata Lingua. Si prega di consultare il [file Excel di output](64716891.xlsx) generato dal codice e lo screenshot che mostra il campo Lingua modificato dalla proprietà [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language).
 
-## **Codice d'esempio**
+![todo:image_alt_text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.cs" >}}

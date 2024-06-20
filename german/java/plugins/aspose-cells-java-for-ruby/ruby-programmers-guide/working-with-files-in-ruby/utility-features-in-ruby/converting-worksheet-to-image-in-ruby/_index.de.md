@@ -1,45 +1,46 @@
-﻿---
-title: Konvertieren von Arbeitsblättern in Bilder in Ruby
+---
+title: Arbeitsblatt in Bild konvertieren in Ruby
 type: docs
 weight: 60
 url: /de/java/converting-worksheet-to-image-in-ruby/
 ---
-## **Aspose.Cells – Arbeitsblatt in Bild konvertieren**
-Um Worksheet in Image mit Aspose.Cells for Java in Ruby zu konvertieren, rufen Sie einfach das Converter-Modul auf.
+
+## **Aspose.Cells - Konvertierung von Arbeitsblatt in Bild**
+Um ein Arbeitsblatt in Ruby mit Aspose.Cells for Java in ein Bild zu konvertieren, rufen Sie einfach das Converter-Modul auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
- def Arbeitsblatt_zu_Bild (Arbeitsmappe)
+ def worksheet_to_image(workbook)
 
-#Erstellen Sie ein Objekt für ImageOptions
+    #Create an object for ImageOptions
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
-
-
-
-# Legen Sie den Bildtyp fest
-
-image_format = Rjb::import('com.aspose.cells.ImageFormat')
-
-Bild_options.setImageFormat(Bild_format.getPng())
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
 
 
-# Holen Sie sich das erste Arbeitsblatt.
+    # Set the image type
 
-Blatt = Arbeitsmappe.getWorksheets().get(0)
+    image_format = Rjb::import('com.aspose.cells.ImageFormat')
 
-# Erstellen Sie ein SheetRender-Objekt für das Zielblatt
-
-sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+    img_options.setImageFormat(image_format.getPng())
 
 
 
-j = 0
+    # Get the first worksheet.
 
- während j< sr.getPageCount()
+    sheet = workbook.getWorksheets().get(0)
+
+    # Create a SheetRender object for the target sheet
+
+    sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+
+
+
+    j = 0
+
+    while j < sr.getPageCount()
 
         # Generate an image for the worksheet
 
@@ -54,7 +55,7 @@ j = 0
 end 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Arbeitsblatt in Bild konvertieren (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Konvertierung von Arbeitsblatt in Bild (Aspose.Cells)** von einer der unten aufgeführten sozialen Codierungsseiten herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

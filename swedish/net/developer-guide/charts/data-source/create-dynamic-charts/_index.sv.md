@@ -1,53 +1,54 @@
 ---
 title: Skapa dynamiska diagram
-description: Lär dig hur du skapar dynamiska diagram i Aspose.Cells for .NET. Vår guide visar dig hur du dynamiskt uppdaterar diagramdata, serier och formatering baserat på dina krav, så att du kan presentera ändrad data visuellt i dina kalkylblad.
-keywords: Aspose.Cells for .NET, charting, dynamic charts, data, series, formatting, worksheets, updating.
+description: Lär dig hur du skapar dynamiska diagram i Aspose.Cells for .NET. Vår guide visar hur du dynamiskt uppdaterar diagrammets data, serier och formatering baserat på dina behov, vilket gör det möjligt för dig att visuellt presentera föränderliga data i dina kalkylblad.
+keywords: Aspose.Cells for .NET, diagram, dynamiska diagram, data, serier, formatering, kalkylblad, uppdatering.
 type: docs
 weight: 240
 url: /sv/net/create-dynamic-charts/
 ---
-{{% alert color="primary" %}}
-
-Dynamiska (eller interaktiva) diagram har möjlighet att ändras när du ändrar dataomfånget. Med andra ord kan de dynamiska diagrammen automatiskt återspegla ändringar när datakällan ändras. För att utlösa förändringen i datakällan kan man använda filtreringsalternativet i Excel-tabeller eller använda en kontroll som ComboBox eller Dropdown-lista.
-
-Den här artikeln visar användningen av Aspose.Cells for .NET API:er för att skapa dynamiska diagram med båda de ovannämnda metoderna.
-
-{{% /alert %}}
-
-##  **Använda Excel-tabeller**
 
 {{% alert color="primary" %}}
 
- Excel-tabeller hänvisas till som ListObjects i Aspose.Cells' perspektiv, därför kommer vi att använda termen "ListObject" istället för "Tabell" för tydlighetens skull. Läs i detalj hur du gör[skapa ListObjects](/cells/sv/net/create-and-format-table/)med Aspose.Cells for .NET API.
+Dynamiska (eller interaktiva) diagram har förmågan att ändra sig när du ändrar omfånget för data. Med andra ord kan de dynamiska diagrammen automatiskt återspegla förändringar när datakällan ändras. För att trigga ändringen i datakällan kan man använda filteralternativet för Excel-tabeller eller använda en kontroll såsom ComboBox eller rullgardinslista.
+
+Den här artikeln demonstrerar användningen av Aspose.Cells for .NET API för att skapa dynamiska diagram med hjälp av båda de tidigare nämnda metoderna.
 
 {{% /alert %}}
 
- ListObjects tillhandahåller den inbyggda funktionen för att sortera och filtrera data vid användarinteraktion. Både sorterings- och filtreringsalternativ tillhandahålls via rullgardinslistorna som automatiskt läggs till i rubrikraden i[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) . På grund av dessa funktioner (sortering och filtrering),[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) verkar vara den perfekta kandidaten för att fungera som datakälla för ett dynamiskt diagram eftersom när sortering eller filtrering ändras kommer representationen av data i diagrammet att ändras för att återspegla det aktuella tillståndet för[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
+## **Använda Excel-tabeller**
 
- För att hålla demonstrationen enkel att förstå kommer vi att skapa[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)från början och gå framåt steg för steg enligt beskrivningen nedan.
+{{% alert color="primary" %}}
 
-1.  Skapa en tom[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
-1.  Få tillgång till[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) av den första[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) i[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
-1. Infoga lite data i cellerna.
-1.  Skapa[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)baserat på de infogade uppgifterna.
-1.  Skapa[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) baserat på dataintervallet för[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
-1. Spara resultatet på skivan.
+Excel-tabeller hänvisas till som ListObjects i Aspose.Cells-perspektiv, därför kommer vi att använda termen "ListObject" istället för "Tabell" för att öka tydligheten. Läs detaljerat om hur du [skapar ListObjects](/cells/sv/net/create-and-format-table/) med Aspose.Cells for .NET API.
+
+{{% /alert %}}
+
+ListObjects tillhandahåller inbyggd funktionalitet för att sortera och filtrera data efter användarinteraktion. Både sorterings- och filteralternativ tillhandahålls via rullgardinslistor som automatiskt läggs till i rubrikraden för [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject). På grund av dessa funktioner (sortering och filtrering) verkar [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) vara det perfekta alternativet för att fungera som datakälla till ett dynamiskt diagram eftersom när sortering eller filtrering ändras kommer representationen av data i diagrammet att ändras för att återspegla det aktuella tillståndet för [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
+
+För att hålla demonstrationen enkel att förstå kommer vi att skapa [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) från början och gå framåt steg för steg enligt följande anvisningar.
+
+1. Skapa en tom [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+1. Få tillgång till [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) på den första [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) i [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+1. Infoga några data i cellerna.
+1. Skapa [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) baserat på de infogade datan.
+1. Skapa [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) baserat på dataområdet för [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
+1. Spara resultatet på disken.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateDynamicCharts-CreateDynamicCharts.cs" >}}
 
-##  **Använda dynamiska formler**
+## **Använda dynamiska formler**
 
-Om du inte vill använda[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)som en datakälla till det dynamiska diagrammet är det andra alternativet att använda Excel-funktioner (eller formler) för att skapa ett dynamiskt dataområde, och en kontroll (som ComboBox) för att utlösa dataändringen. I det här scenariot kommer vi att använda VLOOKUP-funktionen för att hämta lämpliga värden baserat på valet av ComboBox. När valet ändras, uppdaterar funktionen VLOOKUP cellens värde. Om ett cellintervall använder funktionen VLOOKUP, kan hela intervallet uppdateras vid användarinteraktion, därför kan det användas som en källa till det dynamiska diagrammet.
+Om du inte vill använda [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) som datakälla till det dynamiska diagrammet är det andra alternativet att använda Excel-funktioner (eller formler) för att skapa en dynamisk datarange och en kontroll (såsom ComboBox) för att utlösa ändringen i datan. I detta scenario kommer vi att använda VLOOKUP-funktionen för att hämta lämpliga värden baserat på valet av ComboBox. När valet ändras kommer VLOOKUP-funktionen att uppdatera cellvärdet. Om en datarange använder VLOOKUP-funktionen kan hela området uppdateras efter användarinteraktion, därför kan det användas som källa till det dynamiska diagrammet.
 
-För att hålla demonstrationen enkel att förstå kommer vi att skapa arbetsboken från början och gå vidare steg för steg enligt beskrivningen nedan.
+För att hålla demonstrationen enkel att förstå kommer vi att skapa arbetsboken från början och gå framåt steg för steg enligt följande anvisningar.
 
-1.  Skapa en tom[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
-1.  Få tillgång till[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) av den första[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) i[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
-1. Infoga några data i cellerna genom att skapa ett namngivet intervall. Dessa data kommer att fungera som en serie till det dynamiska diagrammet.
-1.  Skapa[**Kombinationsrutan**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox)baserat på det namngivna intervallet som skapades i föregående steg.
-1. Infoga lite mer data till cellerna som kommer att fungera som en källa till UPPSÖKNINGSfunktionen.
-1. Infoga VLOOKUP-funktionen (med lämpliga parametrar) i ett cellområde. Detta kommer att fungera som en källa till det dynamiska diagrammet.
-1.  Skapa[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)baserat på intervallet som skapades i föregående steg.
-1. Spara resultatet på skivan.
+1. Skapa en tom [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+1. Få tillgång till [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) på den första [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) i [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+1. Infoga några data i cellerna genom att skapa en namngiven range. Dessa data kommer att tjäna som en serie till det dynamiska diagrammet.
+1. Skapa [**ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) baserat på den namngivna range som skapats i det föregående steget.
+1. Infoga mer data i cellerna som kommer att fungera som källa till VLOOKUP-funktionen.
+1. Infoga VLOOKUP-funktionen (med lämpliga parametrar) till ett område av celler. Detta område kommer att fungera som källa till den dynamiska diagrammet.
+1. Skapa [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) baserat på det område som skapats i det föregående steget.
+1. Spara resultatet på disken.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}

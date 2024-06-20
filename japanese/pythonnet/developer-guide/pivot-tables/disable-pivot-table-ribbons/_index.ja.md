@@ -1,19 +1,20 @@
 ---
-title: ピボットテーブルのリボンを無効にする
+title: ピボットテーブルリボンの無効化
 type: docs
 weight: 90
 url: /ja/python-net/disable-pivot-table-ribbons/
-description: Aspose.Cells for Python via .NET でピボット テーブル リボンを無効にする方法。
-keywords: Disable Pivot Table Ribbons.
+description: Aspose.Cells for Python via .NETでPivotTableリボンを無効にする方法
+keywords: Aspose.Cells for Python Excel、Excel Pythonライブラリを使用してPivot Table Ribbonsを無効にする方法
 ---
+
 {{% alert color="primary" %}}
 
-ピボット テーブル ベースのレポートは便利ですが、ターゲット ユーザーがこれらのレポートを構成するための Excel の詳細な知識を持っていない場合、エラーが発生しやすくなります。このような状況では、組織はユーザーがピボット テーブル ベースのレポートを変更できないように制限する必要があります。フィルター、スライサー、フィールドの追加、レポート内の特定の項目の順序の変更などの一般的なピボット テーブル機能は、ほとんどの場合、すべてのユーザーに推奨されません。一方、これらのユーザーはレポートを更新し、既存のフィルターまたはスライサーを使用することもできます。 Aspose.Cells for Python via .NET は、これらのレポートの作成中にユーザーがこれらのレポートを変更できないように制限するこの機能を開発者に提供しました。この目的のために、Excel はピボット テーブル リボンを無効にする機能を提供しており、同様の機能が Aspose.Cells for Python via .NET によって提供されています。つまり、開発者はこれらのレポートを変更するためのコントロールを含むリボンを無効にすることができます。
+ピボットテーブルを基にしたレポートは便利ですが、対象ユーザーがこれらのレポートを構成するための詳細な知識を持っていない場合、エラーの発生箇所になります。このような状況では、組織はユーザーがピボットテーブルを変更できないようにしたいと考えるでしょう。報告書の作成中にこれらの報告書を変更できないようにするために、Excelはピボットテーブルリボンを無効にする機能を提供しており、Aspose.Cells for Python via .NETでも同様の機能が提供されています。つまり、開発者はこれらのレポートを変更できないようにするためにリボンを無効にできます。
 
 {{% /alert %}}
 
-##  **PivotTable.EnableWizard を使用してピボット テーブル リボンを無効にする**
+## **Aspose.Cells for Python Excelライブラリを使用してピボットテーブルリボンを無効にする方法**
 
-次のコードは、シートからピボット テーブルにアクセスして設定することにより、この機能を示しています。[**有効化ウィザード**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/)*偽**に。ピボットテーブルのサンプルファイルはここからダウンロードできます[リンク](pivot_table_test.xlsx).
+次のコードは、シートからピボットテーブルを取得し、[**enable_wizard**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/)を**false**に設定することでこの機能を示しています。サンプルのピボットテーブルファイルは、この[リンク](pivot_table_test.xlsx)からダウンロードできます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-DisablePivotTableRibbon.py" >}}

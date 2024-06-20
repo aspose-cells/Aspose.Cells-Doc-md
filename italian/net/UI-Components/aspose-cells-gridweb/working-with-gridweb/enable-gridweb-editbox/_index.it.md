@@ -1,22 +1,25 @@
-﻿---
-title: Abilita GridWeb EditBox
+---
+title: Abilita la casella di modifica di GridWeb
 type: docs
 weight: 110
-url: /it/net/enable-gridweb-editbox/
+url: /it/net/aspose-cells-gridweb/enable-gridweb-editbox/
+keywords: GridWeb, casella di modifica, barra delle formule
+description: Questo articolo illustra come lavorare con la barra delle formule o la casella di modifica in GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-La casella di modifica di GridWeb è una barra degli strumenti visualizzata nella parte superiore del controllo che è possibile utilizzare per visualizzare/inserire o copiare dati/formula nelle celle. Mostra anche il nome della cella che stai modificando. Dopo aver fatto clic sulla cornice o quando si inizia a scrivere dati o si digita un simbolo di uguale (=), verrà attivata la casella di modifica.
+La casella di modifica di GridWeb (chiamata barra delle formule in Excel) è una barra degli strumenti che viene renderizzata nella parte superiore del controllo e può essere utilizzata per visualizzare o inserire valori o copiare dati/formule per la cella focalizzata. Mostra anche il nome della cella che si sta modificando. Dopo aver fatto clic sulla cornice o quando si inizia a scrivere dati o si digita un simbolo uguale (=), la casella di modifica verrà attivata.
 
 {{% /alert %}} 
 ## **Impostazione della casella di modifica di Aspose.Cells.GridWeb**
-Il controllo GridWeb fornisce la proprietà ShowCellEditBox a cui gli sviluppatori possono assegnarla su "True" per attivare la barra degli strumenti. Il valore predefinito dell'attributo è False. Quando ne imposti il valore su "True", la casella di modifica verrà visualizzata nella parte superiore del controllo GridWeb.
+Il controllo GridWeb fornisce la proprietà ShowCellEditBox a cui gli sviluppatori possono assegnare "True" per attivare la barra degli strumenti. Il valore predefinito dell'attributo è False. Quando si imposta il valore su "True", comparirà la casella di modifica nella parte superiore del controllo GridWeb.
 
 {{% alert color="primary" %}} 
 
- Per abilitare questa funzione, devi importare il file "jquery.js" nel tuo progetto e farvi riferimento nelle tue pagine .aspx per farlo funzionare. È possibile scaricare l'archivio jQuery da<https://jqueryui.com/download/all/> e inserisci i file della libreria in una cartella del progetto e aggiungi un riferimento al file della libreria tramite<script> tag nel tuo modulo web .aspx come segue. Tutte le ultime versioni di jQuery sono OK.
+To enable this feature, you need to import "jquery.js" file to your project and refer it in your .aspx page(s) to make it work. You may download the jQuery archive from <https://jqueryui.com/download/all/> and put the library file(s) into some folder in the project and add reference to the library file via <script> tag in your .aspx web form as following. All the latest jQuery versions are OK.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <head id="Head1" runat="server">
 
@@ -34,7 +37,7 @@ Il controllo GridWeb fornisce la proprietà ShowCellEditBox a cui gli sviluppato
 
 **Controllo GridWeb con casella di modifica** 
 
-![cose da fare:immagine_alt_testo](enable-gridweb-editbox_1.png)
+![todo:image_alt_text](enable-gridweb-editbox_1.png)
 ### **Esempio**
 
 

@@ -1,30 +1,31 @@
-﻿---
-title: DLL のみを使用する
+---
+title: DLLのみを使用
 type: docs
 weight: 20
 url: /ja/reportingservices/using-dll-only/
 ---
-## DLL のみを使用して Aspose.Cells for Reporting Services をインストールする方法:
 
-- 訪問 Aspose.Cells for Reporting Services[ダウンロードページ](https://downloads.aspose.com/cells/reportingservices)をダウンロードして、**Aspose.Cells for Reporting Services (zip)**コンポーネントの最新バージョンとインストールされたドキュメントを含むアーカイブ。
- - Aspose.Cells.ReportingServices.DLLs_xx.xx.zip 内の Aspose.Cells.ReprotingSerivces.dll のバージョンは 7 種類あります。これらは、さまざまな Microsoft レポート サーバー製品をサポートしています。
- - SSRS2005 フォルダーの Aspose.Cells.ReportingServices.dll は、Microsoft SQL Server 2005 Reporting Services をサポートします。
- - SSRS2008 フォルダーの Aspose.Cells.ReportingServices.dll は、Microsoft SQL Server 2008 Reporting Services をサポートします。
- - SSRS2008R2 フォルダーの Aspose.Cells.ReportingServices.dll は、Microsoft SQL Server 2008R2/2012/2014 Reporting Services をサポートします。
- - SSRS2016 フォルダーの Aspose.Cells.ReportingServices.dll は、Microsoft SQL Server 2016/2017/2019 Reporting Services をサポートします。
-   
-- アーカイブをハード ドライブのディレクトリに解凍します。
+## Aspose.Cells for Reporting ServicesのみをDLLでインストールする方法:
 
-- Aspose.Cells for Reporting Services レポート デザイナーをインストールします。
- - 登録**Aspose.Cells.ReportingServices.Client.dll**Regasm.exe ユーティリティを使用します。
- - Excel に Aspose.Cells for Reporting Services アドインを追加します。
-   
-- Microsoft SQL Server Reporting Services サービス コンポーネントの Aspose.Cells for Reporting Services をインストールします。
- - 置く**Aspose.Cells.ReportingServices.dll**${Microsoft SQL Server Reporting Services インストール フォルダー}\ReportServer\bin フォルダーに移動します。
- - Aspose.Cells for Reporting Services レンダラー拡張機能を追加:
- - 開ける**${Microsoft SQL Server Reporting Services インストール フォルダー}\ReportServer\rsreportserver.config**
- - 次の行を<Render>……</Render>エレメント：
-{{< highlight "xml" >}}
+- Aspose.Cells for Reporting Services [ダウンロードページ](https://downloads.aspose.com/cells/reportingservices)を訪れ、最新バージョンのコンポーネントとインストール済みドキュメントが含まれる**Aspose.Cells for Reporting Services (zip)**アーカイブをダウンロードします。
+   - Aspose.Cells.ReportingServices.DLLs_xx.xx.zipには7種類のバージョンのAspose.Cells.ReprotingSerivces.dllが含まれています。これらは異なるMicrosoftリポートサーバー製品をサポートしています。
+       - SSRS2005フォルダーのAspose.Cells.ReportingServices.dllはMicrosoft SQL Server 2005 Reporting Servicesをサポートしています。
+       - SSRS2008フォルダーのAspose.Cells.ReportingServices.dllはMicrosoft SQL Server 2008 Reporting Servicesをサポートしています。
+       - SSRS2008R2フォルダーのAspose.Cells.ReportingServices.dllはMicrosoft SQL Server 2008R2/2012/2014 Reporting Servicesをサポートしています。
+       - SSRS2016フォルダーのAspose.Cells.ReportingServices.dllはMicrosoft SQL Server 2016/2017/2019 Reporting Servicesをサポートしています。
+
+- アーカイブをハードドライブ上のディレクトリに展開します。
+
+- Aspose.Cells for Reporting Servicesレポートデザイナーをインストールします:
+   - Regasm.exeユーティリティを使用して**Aspose.Cells.ReportingServices.Client.dll**を登録します。
+   - ExcelにAspose.Cells for Reporting Servicesアドインを追加します。
+
+- Microsoft SQL Server Reporting ServicesのAspose.Cells for Reporting Servicesサービスコンポーネントをインストールします:
+   - **Aspose.Cells.ReportingServices.dll**を${Microsoft SQL Server Reporting Servicesインストールフォルダー}\ReportServer\binフォルダーに入れます。 
+   - Aspose.Cells for Reporting Servicesのレンダラーエクステンションを追加します:  
+      - **${Microsoft SQL Server Reporting Servicesインストールフォルダー}\ReportServer\rsreportserver.config**を開きます。
+      - Add the following lines into the <Render>……</Render> element: 
+{{< highlight xml >}}
 
  <Render>
 
@@ -76,11 +77,11 @@ url: /ja/reportingservices/using-dll-only/
 </Render>
 
 {{< /highlight >}}
- - 実行するための Aspose.Cells for Reporting Services 権限を追加します。
- - 開ける**${Microsoft SQL Server Reporting Services インストール フォルダー}\ReportServer\rssrvpolicy.config**そして
- 外側の 2 番目の最後の項目として次を追加します。<CodeGroup>要素 (これは<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
+   - Aspose.Cells for Reporting Servicesの実行権限を追加します:
+      - **${Microsoft SQL Server Reporting Servicesのインストールフォルダー}\ReportServer\rssrvpolicy.config** を開きます。
+      - Add the following as the last item in the second to the outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
 
-{{< highlight "xml" >}}
+{{< highlight xml >}}
 
  <CodeGroup>
 
@@ -106,16 +107,16 @@ url: /ja/reportingservices/using-dll-only/
 
 {{< /highlight >}}
 
-## Aspose.Cells for Reporting Services が正常にインストールされたことを確認します。
-1. レポート マネージャーを開き、レポートで使用できるエクスポート タイプのリストを確認します。 (ブラウザを開いて Report Manager を起動し、Report Manager の URL をアドレス バーに入力します。(デフォルトでは、URL は http://<ComputerName>/レポート)。
- 1. サーバー上のレポートの 1 つを選択し、**フォーマットを選択**リスト。
-Aspose.Cells for Reporting Services が提供するエクスポート形式のリストが表示されます。
- 1. 選択**XLS – Aspose.Cells 経由の Excel ワークブック**.
- 1. クリック**輸出**.
-選択した形式でレポートが生成されます。
- 1. クライアントに送信し、適切なアプリケーションで開きます。この場合、レポートは Microsoft Excel で開きます。
+## Aspose.Cells for Reporting Services が正常にインストールされたことを確認します:
+   1. Open the Report Manager and check the list of available export types for a report. (Launch Report Manager by opening a browser and type the Report Manager URL into the address bar. (By default, the URL is http://<ComputerName>/Reports).
+   1. サーバー上のレポートのいずれかを選択して、**フォーマットの選択**リストを開きます。
+      Aspose.Cells for Reporting Services が提供するエクスポート形式のリストが表示されるはずです。
+   1. **XLS – Aspose.Cells を使用して Excel ワークブック** を選択します。
+   1. **エクスポート** をクリックします。
+      選択した形式でレポートが生成されます。
+   1. クライアントに送信し、適切なアプリケーションで開きます。この場合、レポートは Microsoft Excel で開きます。
 
-おめでとうございます。Aspose.Cells for Reporting Services が正常にインストールされ、レポートが Microsoft Excel ファイルとして生成されました。
+おめでとうございます。Aspose.Cells for Reporting Services を正常にインストールし、Microsoft Excel ファイルとしてレポートを生成しました!
 
 
- Aspose.Cells.ReportingServices.DLLs_xx.xx.zipの中にAspose.Cells.ReprotingSerivces.dllの7種類のバージョンがあります。これらは、さまざまな Microsoft レポート サーバー製品をサポートしています。
+Aspose.Cells.ReportingServices.DLLs_xx.xx.zip には7種類の Aspose.Cells.ReprotingSerivces.dll のバージョンが含まれています。これらは異なるMicrosoftレポートサーバー製品をサポートしています。 

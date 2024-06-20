@@ -1,30 +1,31 @@
-﻿---
-title: ピボット テーブル オプションの設定 - 空の場合 Cells 表示
+---
+title: ピボットテーブルオプションの設定  空白セルに表示する内容を設定する
 type: docs
 weight: 40
 url: /ja/net/setting-pivot-table-option-for-empty-cells-show/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells を使用して、さまざまなピボット テーブル オプションを設定できます。そのようなオプションの 1 つに、「空のセルを表示する」があります。このオプションを設定すると、ピボット テーブル内のすべての空のセルが指定された文字列として表示されます。
+Aspose.Cellsを使用してさまざまなピボットテーブルオプションを設定できます。そのようなオプションの1つは"空白のセルに表示する内容"です。このオプションを設定することで、ピボットテーブル内のすべての空白セルが指定された文字列として表示されます。
 
 {{% /alert %}}
 
-## **Microsoft Excel でピボット テーブル オプションを設定する**
+## **Microsoft Excelでのピボットテーブルオプションの設定**
 
-Microsoft Excel でこのオプションを見つけて設定するには:
+Microsoft Excelでこのオプションを見つけて設定するには:
 
-1. ピボット テーブルを選択して右クリックします。
-1. 選択する**ピボットテーブル オプション**.
-1. を選択**レイアウトとフォーマット**タブ。
-1. を選択**空のセルが表示される場合**オプションを選択して文字列を指定します。
+1. ピボットテーブルを選択し、右クリックします。
+1. **ピボットテーブルオプション**を選択します。
+1. **レイアウトと書式**タブを選択します。
+1. **空白のセルに表示する内容**オプションを選択し、文字列を指定します。
 
-## **Aspose.Cells を使用したピボット テーブル オプションの設定**
+## **Aspose.Cellsを使用したピボットテーブルオプションの設定**
 
-Aspose.Cells は[**PivotTable.DisplayNullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/displaynullstring)と[**ピボットテーブル.NullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/nullstring) [空のセルを表示] ピボット テーブル オプションを設定するためのプロパティ。
+Aspose.Cellsは、「空白セルに表示する内容」ピボットテーブルオプションを設定するための[**PivotTable.DisplayNullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/displaynullstring)および[**PivotTable.NullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/nullstring)プロパティを提供します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-SettingPivotTableOption-SettingPivotTableOption.cs" >}}
 
 ## 関連記事
 
-- [ピボット テーブルの書式設定](/cells/ja/net/formatting-pivot-table/)
+- [ピボットテーブルの書式設定](/cells/ja/net/formatting-pivot-table/)

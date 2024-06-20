@@ -1,17 +1,18 @@
 ---
-title: Sayfa Yapısı Ölçeklendirme Faktörünü Hesapla
+title: Sayfa Ayarı Ölçek Faktörünü Hesaplayın
 type: docs
 weight: 300
 url: /tr/net/calculate-page-setup-scaling-factor/
-description: Bu makale, Excel çalışma sayfasının n sayfaya/sayfalara genişe m uzunluğa sığdır seçeneğini programlı olarak kullanarak Sayfa Yapısı ölçeklendirme faktörünü hesaplamak için C# API veya .NET kitaplığının nasıl kullanılacağını açıklayan örnek kod sağlar.
-keywords: Fit to n page wide by m tall excel c#, calculate page setup scaling factor c#
+description: Bu makale, C# API veya .NET kütüphanesini kullanarak Excel çalışma sayfasının programlı olarak n sayfa genişliğine m sayfa yüksekliğine oturtma seçeneği kullanarak Sayfa Ayarı ölçek faktörünü hesaplamanın örnek kodunu içerir.
+keywords: C# de n sayfa genişliğine m sayfa yüksekliğine oturt, c# ile sayfa ayarı ölçek faktörü hesapla
 ---
+
 {{% alert color="primary" %}}
 
- Sayfa Düzeni Ölçekleme'yi kullanarak ayarladığınızda**Genişliğe m uzunluğa n sayfaya sığdır** seçeneği, Microsoft Excel, Sayfa Yapısı Ölçeklendirme Faktörünü hesaplar. Aynı şeyi kullanarak hesaplayabilirsiniz.[**SheetRender.PageScale**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale)mülk. Bu özellik, yüzde değerine dönüştürülebilen bir çift değer döndürür. Örneğin, 0,5 döndürürse, ölçeklendirme faktörünün %50 olduğu anlamına gelir.
+Sayfa Ayarı Ölçeklendirme'yi **n sayfa genişliğine m sayfa yüksekliğine oturt** seçeneğini kullanarak ayarladığınızda, Microsoft Excel Sayfa Ayarı Ölçek Faktörünü hesaplar. Aynı şeyi [**SheetRender.PageScale**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale) özelliğini kullanarak hesaplayabilirsiniz. Bu özellik, yüzde değerine dönüştürülebilen bir double değeri döndürür. Örneğin, 0,5 döndürüyorsa, bu ölçek faktörünün %50 olduğu anlamına gelir.
 
 {{% /alert %}}
 
- Aşağıdaki örnek kod, kullanılarak sayfa düzeni ölçekleme faktörünün nasıl hesaplanacağını gösterir.[**SheetRender.PageScale**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale) mülk.
+Aşağıdaki örnek kod, [**SheetRender.PageScale**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/properties/pagescale) özelliğini kullanarak sayfa ayarı ölçek faktörünü hesaplamanın örneklerini göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CalculateScalingFactor-CalculatePageSetupScalingFactor.cs" >}}

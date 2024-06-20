@@ -1,25 +1,26 @@
-﻿---
-title: Vista previa del documento
+---
+title: Vista previa de documento
 type: docs
 weight: 40
 url: /es/sharepoint/previewing-document/
 ---
-Aspose.Cells para Share Point admite la vista previa de documentos directamente desde SharePoint. Los siguientes formatos admiten la vista previa:
+
+Aspose.Cells para SharePoint admite la vista previa de documentos directamente desde SharePoint. Los siguientes formatos admiten vista previa:
 
 - XLS – Microsoft Excel 97 - 2003
-- XLSX – Oficina XML abierta
+- XLSX – Office Open XML
 - XLSM, XLTX, XLTM – Office Open XML
-- XML-Microsoft Excel SpreadsheetML
+- XML – Microsoft Excel SpreadsheetML
 
-**Selección de un documento para obtener una vista previa** 
+**Seleccionar un documento para previsualizar** 
 
-![todo:imagen_alternativa_texto](previewing-document_1.png)
+![todo:image_alt_text](previewing-document_1.png)
 
 
 
-**Vista previa del documento desde una biblioteca de SharePoint** 
+**Vista previa de documentos desde una biblioteca de SharePoint** 
 
-![todo:imagen_alternativa_texto](previewing-document_2.png)
+![todo:image_alt_text](previewing-document_2.png)
 
 
 

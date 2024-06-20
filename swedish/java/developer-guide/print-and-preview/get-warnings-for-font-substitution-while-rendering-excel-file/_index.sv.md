@@ -1,35 +1,36 @@
-﻿---
-title: Få varningar för teckensnittsersättning när du renderar Excel-fil
+---
+title: Få varningar för teckensnittsersättning vid rendering av Excel fil
 type: docs
 weight: 120
 url: /sv/java/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
+
 {{% alert color="primary" %}}
 
-Ibland, när du renderar Microsoft Excel-filer till PDF, ersätter Aspose.Cells teckensnitt. Aspose.Cells tillhandahåller en funktion som låter utvecklare veta att ett visst teckensnitt har ersatts med en varning. Detta är en användbar funktion som kan hjälpa dig att identifiera varför Aspose.Cells renderad PDF är annorlunda än den faktiska Excel-filen och du kan sedan vidta lämpliga åtgärder. Du kan till exempel installera de saknade typsnitten så att renderingsresultaten kan se likadana ut.
+Ibland, när man renderar Microsoft Excel-filer till PDF, gör Aspose.Cells teckensnittsersättningar. Aspose.Cells tillhandahåller en funktion som låter utvecklare veta att ett visst teckensnitt har ersatts genom att avfyra en varning. Detta är en användbar funktion som kan hjälpa dig att identifiera varför Aspose.Cells renderade PDF är annorlunda än den faktiska Excel-filen och du kan sedan vidta lämpliga åtgärder. Till exempel kan du installera de saknade teckensnitten så att renderingresultaten ser likadana ut.
 
-Om du vill få varningarna för teckensnittsersättning medan du renderar en Excel-fil till PDF, implementera IWarningCallback-gränssnittet och ställ in metoden PdfSaveOptions.setWarningCallback() med ditt implementerade gränssnitt.
+Om du vill få varningar för teckensnittsersättning vid rendering av en Excel-fil till PDF implementerar du IWarningCallback-gränssnittet och anger PdfSaveOptions.setWarningCallback() metoden med ditt implementerade gränssnitt.
 
 {{% /alert %}}
 
-Skärmdumpen nedan visar källfilen för Excel som används i följande kod. Den har en del text i cellerna A6 och A7 i teckensnitt som inte renderas bra av Microsoft Excel.
+Skärmdumpen nedan visar den källa Excel-fil som används i följande kod. Den har lite text i cellerna A6 och A7 i teckensnitt som inte renderas väl av Microsoft Excel.
 
 ![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)
 
-Aspose.Cells kommer att ersätta typsnitten i cellerna A6 och A7 med lämpliga typsnitt som visas nedan.
+Aspose.Cells kommer att ersätta teckensnitten i cellerna A6 och A7 med lämpliga teckensnitt, som visas nedan.
 
 ![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
 
-## **Ladda ner källfil och utdata PDF**
+## **Hämta källfilen och output-PDF**
 
-Du kan ladda ner källfilen för Excel och utgången PDF från följande länkar
+Du kan hämta den käll-Excel-filen och output-PDF från följande länkar
 
 - [source.xlsx](5472700.xlsx)
 - [output.pdf](5472699.pdf)
 
- Följande kod implementerar[**IWarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) och ställ in[**PdfSaveOptions.setWarningCallback()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#WarningCallback) metod med det implementerade gränssnittet. Nu, när ett teckensnitt kommer att ersättas i en cell, kommer Aspose.Cells att avge en varning i metoden WarningCallback.warning().
+Följande kod implementerar [**IWarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) och ställer in [**PdfSaveOptions.setWarningCallback()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#WarningCallback) metoden med det implementerade gränssnittet. Nu, när något teckensnitt kommer att ersättas i någon cell, kommer Aspose.Cells att avfyra en varning inuti WarningCallback.warning() metoden.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public class WarningCallback implements IWarningCallback {
 
@@ -69,20 +70,20 @@ static void Run() throws Exception
 
 {{< /highlight >}}
 
-## **Utmatning av varningar**
+## **Varningsutdata**
 
-Efter konvertering av källfilen matas följande varningar till felsökningskonsolen:
+Efter att ha konverterat källfilen, utdata följande varningar till felsökningskonsolen:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
-WARNING INFO: Font substitution: Font [ Athene Logos; Regular ]has been substituted in Cell [ A6 ]in Sheet [ Sheet1 ].
+WARNING INFO: Font substitution: Font [ Athene Logos; Regular ] has been substituted in Cell [ A6 ] in Sheet [ Sheet1 ].
 
-WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted in Cell [ A7 ]in Sheet [ Sheet1 ].
+WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substituted in Cell [ A7 ] in Sheet [ Sheet1 ].
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
 
- Om ditt kalkylblad innehåller formler är det bäst att anropa Workbook.calculateFormula-metoden precis innan du renderar kalkylarket till formatet PDF. Om du gör det säkerställs att de formelberoende värdena räknas om och att de korrekta värdena återges i PDF.
+Om din kalkylblad innehåller formler är det bäst att kalla Workbook.calculateFormula metoden strax före rendering av kalkylbladet till PDF-format. Genom att göra det säkerställs att formla beroende värden omberäknas och de korrekta värdena renderas i PDF. 
 
 {{% /alert %}}

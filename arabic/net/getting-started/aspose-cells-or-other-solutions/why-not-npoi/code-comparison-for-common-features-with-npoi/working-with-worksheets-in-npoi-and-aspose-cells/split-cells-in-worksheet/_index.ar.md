@@ -1,13 +1,14 @@
-﻿---
-title: انقسام Cells في ورقة العمل
+---
+title: تقسيم الخلايا في ورقة العمل
 type: docs
 weight: 90
 url: /ar/net/split-cells-in-worksheet/
 ---
-## **Aspose.Cells - انقسام Cells في ورقة العمل**
+
+## **Aspose.Cells - تقسيم الخلايا في ورقة العمل**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -29,10 +30,10 @@ workbook.Save("output-Split.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - انقسام Cells في ورقة العمل**
+## **NPOI - HSSF XSSF - تقسيم الخلايا في ورقة العمل**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -59,6 +60,6 @@ file.Close();
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+لمزيد من التفاصيل، قم بزيارة [العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

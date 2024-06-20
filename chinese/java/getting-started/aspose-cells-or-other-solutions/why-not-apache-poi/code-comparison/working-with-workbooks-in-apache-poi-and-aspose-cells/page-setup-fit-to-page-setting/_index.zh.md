@@ -1,5 +1,5 @@
 ---
-title: 页面设置 - 自适应页面设置
+title: 页面设置  自适应页面设置
 type: docs
 weight: 30
 url: /zh/java/page-setup-fit-to-page-setting/

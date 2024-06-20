@@ -1,26 +1,27 @@
 ---
-title: احصل على سلسلة HTML5 من Cell
+title: الحصول على سلسلة HTML5 من الخلية
 type: docs
 weight: 90
 url: /ar/net/get-html5-string-from-cell/
-description: تعرف على كيفية الحصول على سلسلة HTML5 من Cell إلى Aspose.Cells for .NET API.
-keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
+description: تعلم كيفية الحصول على سلسلة HTML5 من الخلية من خلال واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: الحصول على سلسلة HTML5 من الخلية، الحصول على سلسلة HTML5 من الخلية، إدارة سلسلة HTML5 للخلية
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-Aspose.Cells تقوم بإرجاع السلسلة HTML للخلية باستخدام[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) الطريقة التي تقبل معلمة منطقية. إذا نجحت**خطأ شنيع** كمعلمة، فإنه سيعود عادي HTML ولكن إذا نجحت**حقيقي** كمعلمة، فإنه سيتم إرجاع سلسلة HTML5.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **احصل على سلسلة HTML5 من Cell**
+تعيد Aspose.Cells سلسلة HTML للخلية باستخدام الطريقة [**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) التي تقبل معلمة منطقية. إذا قمت بتمرير **false** كمعلمة، ستعيد HTML عادي ولكن إذا قمت بتمرير **true** كمعلمة، ستقوم بإرجاع سلسلة HTML5.
 
-يقوم نموذج التعليمات البرمجية التالي بإنشاء كائن مصنف وإضافة بعض النص في الخلية A1 من ورقة العمل الأولى. ثم يحصل على سلسلة Normal HTML وHTML5 من الخلية A1 باستخدام[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)الطريقة وطباعتها على وحدة التحكم.
+## **الحصول على سلسلة HTML5 من الخلية**
 
-##  **عينة من الرموز**
+يقوم الكود النموذجي التالي بإنشاء كائن جدول بيانات ويضيف بعض النص في الخلية A1 للورقة العمل الأولى. يتم الحصول بعد ذلك على السلسلة العادية لـ HTML وسلسلة HTML5 من الخلية A1 باستخدام الأسلوب  [**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) ويتم طباعتها على وحدة التحكم.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-GetHTML5StringFromCell.cs" >}}
 
-##  **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Normal:
 

@@ -1,39 +1,40 @@
-﻿---
-title: Genel API Aspose.Cells 8.7.2'deki değişiklikler
+---
+title: Aspose.Cells 8.7.2 de Genel API Değişiklikleri
 type: docs
 weight: 260
 url: /tr/java/public-api-changes-in-aspose-cells-8-7-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.7.1'den 8.7.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, modül/uygulama geliştiricileri için 8.7.1'den 8.7.2'e Aspose.Cells API'sindeki değişiklikleri açıklar. Yeni ve güncellenmiş genel yöntemler, eklenen ve kaldırılan sınıflar vb. dahil olduğu gibi, Aspose.Cells'in arkasındaki davranışlarda da herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Varsayılan Hesaplama Motorunu Genişletti**
-Aspose.Cells API'leri, neredeyse tüm Microsoft Excel işlevlerini hesaplayabilen güçlü bir hesaplama motoruna sahiptir. Ayrıca, Aspose.Cells API'leri artık herhangi bir uygulamanın özel hesaplama gereksinimlerini karşılamak için varsayılan hesaplama motorunun genişletilmesine izin veriyor.
+## **Eklenen API'lar**
+### **Varsayılan Hesaplama Motoru Genişletildi**
+Aspose.Cells API'ları güçlü bir hesaplama motoruna sahiptir ve neredeyse tüm Microsoft Excel işlevlerini hesaplayabilir. Ayrıca, Aspose.Cells API'ları artık herhangi bir uygulamanın özel hesaplama gereksinimlerini karşılamak için varsayılan hesaplama motorunu genişletmesine izin verir.
 
-Aspose.Cells for Java 8.7.2 sürümüyle aşağıdaki API'ler eklenmiştir.
+Aspose.Cells for Java 8.7.2'nin piyasaya sürülmesiyle aşağıdaki API'ler eklenmiştir.
 
-1. SoyutHesaplamaMotor Sınıfı
+1. AbstractCalculationEngine Sınıfı
 1. CalculationData Sınıfı
-1. CalculationOptions.CustomEngine Özellik
+1. CalculationOptions.CustomEngine Özelliği
 
 {{% alert color="primary" %}} 
 
-Yukarıda belirtilen API'ler, tüm işlevler için (Excel'in yerel işlevleri dahil) daha fazla esneklikle özel hesaplama motorunun uygulanmasına izin verir.
+Yukarıda bahsedilen API'ler, tüm işlevler (Excel'in orijinal işlevleri de dahil olmak üzere) için özel hesaplama motoru uygulamanıza izin verir ve daha fazla esneklik sağlar.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Özel Hesaplama Motorunu Uygulama](/cells/tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+Bu özellikle ilgili daha fazla detay için [Varsayılan Hesaplama Motorunu Genişletme](/cells/tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) adlı ayrıntılı makaleyi inceleyin
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomEngine extends AbstractCalculationEngine
 
@@ -60,20 +61,20 @@ Basit kullanım senaryosu aşağıdadır.
 }
 
 {{< /highlight >}}
-### **TextBoxCollection için Aşırı Yüklenmiş Dizin Oluşturucu eklendi**
-Aspose.Cells for Java 8.7.2, adını String olarak kullanarak TextBox örneğine erişmek için TextBoxCollection sınıfı için aşırı yüklenmiş dizin oluşturucuyu kullanıma sundu.
+### **TextBoxCollection için Aşırı Yüklü İndeksleyici eklendi**
+Aspose.Cells for Java 8.7.2, TextBoxCollection sınıfı için adını String olarak kullanarak TextBox örneğini erişmek için aşırı yüklü indeksleyiciyi ortaya çıkardı.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[TextBox'a Adı Üzerinden Erişmek](/cells/tr/java/access-the-text-box-by-the-name/)
+Bu özellikle ilgili detaylar için lütfen [Adıyla TextBox Erişimi](/cells/tr/java/access-the-text-box-by-the-name/) başlıklı detaylı makaleye göz atın.
 
 {{% /alert %}} 
 
- Basit kullanım senaryosu aşağıdaki gibidir.
+Basit kullanım senaryosu aşağıdaki gibi görünüyor. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 

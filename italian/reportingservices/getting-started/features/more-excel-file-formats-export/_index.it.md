@@ -1,21 +1,22 @@
-﻿---
-title: Esportazione di altri formati di file Excel
+---
+title: Più formati di file Excel esportati
 type: docs
 weight: 10
 url: /it/reportingservices/more-excel-file-formats-export/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services consente di fornire report Excel Microsoft nativi tramite Microsoft SQL Server 2005 e 2008 Reporting Services. Unlike the built-in renderer for Microsoft Excel-based reports, Aspose.Cells for Reporting Services provides an extended feature set that convert RDL reports to: Excel 97-2003 binary XLS format, CSV, SpreadsheetML, Excel 2007 XLSX , Excel 2007 XLSM, Excel 2007 XLSB, Formato HTML e ODS.
+Aspose.Cells for Reporting Services consente di fornire report nativi di Microsoft Excel attraverso i servizi di report di Microsoft SQL Server 2005 e 2008. A differenza del renderer integrato per i report basati su Microsoft Excel, Aspose.Cells for Reporting Services fornisce un set di funzionalità estese che convertire i report RDL in: formato binario XLS di Excel 97-2003, CSV, SpreadsheetML, XLSX Excel 2007, XLSM Excel 2007, XLSB Excel 2007, formato HTML e ODS. 
 
 {{% /alert %}} 
 
-Aspose.Cells for Reporting Services supporta più formati di file rispetto agli esportatori nativi. Di seguito sono riportati gli screenshot dei report di esempio XLS esportati con Aspose.Cells.
+Aspose.Cells for Reporting Services supporta più formati di file rispetto agli esportatori nativi. Di seguito ci sono screenshot di esempi di report XLS esportati con Aspose.Cells.
 
-**Viene esportato un report di esempio XLS utilizzando Aspose.Cells for Reporting Services** 
+Un esempio di report XLS viene esportato utilizzando Aspose.Cells for Reporting Services 
 
-![cose da fare:immagine_alt_testo](more-excel-file-formats-export_1.png)
+![todo:image_alt_text](more-excel-file-formats-export_1.png)
 
-**Viene generato un report Tabella pivot di esempio XLS utilizzando Aspose.Cells for Reporting Services** 
+Viene generato un esempio di report XLS con tabella pivot utilizzando Aspose.Cells for Reporting Services 
 
-![cose da fare:immagine_alt_testo](more-excel-file-formats-export_2.png)
+![todo:image_alt_text](more-excel-file-formats-export_2.png)

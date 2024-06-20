@@ -1,42 +1,43 @@
-﻿---
-title: Come e dove usare gli iteratori
+---
+title: Come e dove utilizzare gli iteratori
 linktitle: Iterare i dati
 type: docs
 weight: 640
 url: /it/java/how-and-where-to-use-iterators/
 ---
+
 {{% alert color="primary" %}} 
 
-Un oggetto di un'interfaccia iteratore può essere utilizzato per attraversare tutti gli elementi di una raccolta. Gli iteratori possono essere utilizzati per ispezionare i dati in una raccolta, ma non possono essere utilizzati per modificare la raccolta sottostante. In generale, per utilizzare un iteratore per scorrere i contenuti di una raccolta, è necessario eseguire i seguenti passaggi:
+Un oggetto di un'interfaccia di iteratore può essere utilizzato per attraversare tutti gli elementi di una collezione. Gli iteratori possono essere utilizzati per ispezionare i dati in una collezione, ma non possono essere utilizzati per modificare la collezione sottostante. In generale, per utilizzare un iteratore per ciclare attraverso i contenuti di una collezione, devono essere seguiti i seguenti passaggi:
 
-1. Ottenere un iteratore all'inizio della raccolta chiamando il metodo iteratore della raccolta.
-1. Imposta un ciclo che effettua una chiamata al metodo hasNext. Fai iterare il ciclo finché il metodo hasNext restituisce true.
-1. All'interno del ciclo, ottenere ogni elemento chiamando il metodo next.
+1. Ottenere un iteratore all'inizio della collezione chiamando il metodo iteratore della collezione.
+1. Impostare un ciclo che effettua una chiamata al metodo hasNext. Fare in modo che il ciclo si ripeta finché il metodo hasNext restituisce true.
+1. All'interno del ciclo, ottenere ciascun elemento chiamando il metodo successivo.
 
-Aspose.Cells Le API forniscono una serie di iteratori, tuttavia, questo articolo discute principalmente i tre tipi elencati di seguito.
+Le API di Aspose.Cells forniscono un insieme di iteratori, tuttavia, questo articolo discute principalmente i tre tipi di seguito elencati.
 
-1. Cells Iteratore
-1. Iteratore di righe
-1. Iteratore di colonne
+1. Iteratore celle
+1. Iteratore righe
+1. Iteratore colonne
 
 {{% /alert %}} 
-## **Come usare gli iteratori**
-### **Cells Iteratore**
-Esistono vari modi per accedere all'iteratore delle celle e si può utilizzare uno qualsiasi di questi metodi in base ai requisiti dell'applicazione. Ecco i metodi che restituiscono l'iteratore delle celle.
+## **Come utilizzare gli iteratori**
+### **Iteratore celle**
+Ci sono vari modi per accedere all'iteratore delle celle, e si può utilizzare uno qualsiasi di questi metodi in base alle esigenze dell'applicazione. Ecco i metodi che restituiscono l'iteratore delle celle.
 
 1. Cells.iterator
-1. Riga.iteratore
-1. Intervallo.iteratore
+1. Row.iterator
+1. Range.iterator
 
-Tutti i metodi sopra citati restituiscono l'iteratore che permette di attraversare la collezione di celle che sono state inizializzate.
+Tutti i metodi sopra menzionati restituiscono l'iteratore che consente di attraversare la collezione di celle che sono state inizializzate.
 
 {{% alert color="primary" %}} 
 
-Durante l'attraversamento delle celle, la raccolta non deve essere modificata (operazioni che causeranno l'istanziazione di un nuovo Cell o l'eliminazione di Cell esistente). In caso contrario, l'iteratore potrebbe non essere in grado di attraversare correttamente tutte le celle (alcuni elementi potrebbero essere attraversati ripetutamente o ignorati).
+Durante il attraversamento delle celle, la collezione non dovrebbe essere modificata (operazioni che causerebbero l'istanziazione di una nuova Cell o la cancellazione di una Cell esistente). Altrimenti l'iteratore potrebbe non essere in grado di attraversare correttamente tutte le celle (alcuni elementi potrebbero essere attraversati ripetutamente o saltati).
 
 {{% /alert %}} 
 
-Nell'esempio di codice seguente viene illustrata l'implementazione della classe Iterator per una raccolta di celle.
+L'esempio di codice seguente dimostra l'implementazione della classe Iterator per una collezione di celle.
 
 
 
@@ -49,8 +50,8 @@ Nell'esempio di codice seguente viene illustrata l'implementazione della classe 
 
 
 
-##### **Iteratore di righe**
-È possibile accedere a Rows Iterator durante l'utilizzo del metodo RowCollection.iterator. Nell'esempio di codice seguente viene illustrata l'implementazione della classe Iterator per RowCollection.
+##### **Iteratore delle righe**
+L'Iteratore delle righe può essere accessibile utilizzando il metodo RowCollection.iterator. L'esempio di codice seguente dimostra l'implementazione dell'Iterator per la classe RowCollection.
 
 
 
@@ -61,8 +62,8 @@ Nell'esempio di codice seguente viene illustrata l'implementazione della classe 
 
 
 
-##### **Iteratore di colonne**
-È possibile accedere a Columns Iterator durante l'utilizzo del metodo ColumnCollection.iterator. Nell'esempio di codice seguente viene illustrata l'implementazione della classe Iterator per ColumnCollection.
+##### **Iteratore delle colonne**
+L'Iteratore delle colonne può essere accessibile utilizzando il metodo ColumnCollection.iterator. L'esempio di codice seguente dimostra l'implementazione dell'Iteratore per la classe ColumnCollection.
 
 
 
@@ -73,11 +74,11 @@ Nell'esempio di codice seguente viene illustrata l'implementazione della classe 
 
 
 
-#### **Dove usare gli iteratori**
-Per discutere i vantaggi dell'utilizzo degli iteratori, facciamo un esempio in tempo reale.
+#### **Dove utilizzare gli iteratori**
+Per discutere i vantaggi dell'utilizzo degli iteratori, prendiamo un esempio in tempo reale.
 ##### **Scenario**
-Un requisito dell'applicazione è attraversare tutte le celle in un determinato foglio di lavoro per leggerne i valori. Ci potrebbero essere diversi modi per implementare questo obiettivo. Alcuni sono dimostrati di seguito.
-###### **Utilizzo dell'intervallo di visualizzazione**
+Un requisito dell'applicazione è attraversare tutte le celle in un dato Foglio di lavoro per leggere i loro valori. Potrebbero esserci diversi modi per implementare questo obiettivo. Ne vengono dimostrati alcuni di seguito.
+###### **Utilizzo della gamma di visualizzazione**
 
 
 
@@ -98,14 +99,14 @@ Un requisito dell'applicazione è attraversare tutte le celle in un determinato 
 
 
 
-Come puoi osservare, entrambi gli approcci sopra menzionati utilizzano una logica più o meno simile, ovvero; eseguire il ciclo su tutte le celle della raccolta per leggere i valori delle celle. Questo potrebbe essere problematico per una serie di motivi come discusso di seguito.
+Come puoi osservare, entrambi i suddetti approcci utilizzano più o meno la stessa logica, cioè; iterare su tutte le celle nella collezione per leggere i valori delle celle. Questo potrebbe essere problematico per diversi motivi come discusso di seguito.
 
-1. Le API come MaxRow, MaxDataRow, MaxColumn, MaxDataColumn e MaxDisplayRange richiedono più tempo per raccogliere le statistiche corrispondenti. Nel caso in cui la matrice di dati (righe x colonne) sia grande, l'utilizzo di queste API potrebbe imporre una riduzione delle prestazioni.
-1. Nella maggior parte dei casi, non tutte le celle in un determinato intervallo vengono istanziate. In tali situazioni controllare ogni cella della matrice non è così efficiente rispetto a controllare solo le celle inizializzate.
-1. L'accesso a una cella in un ciclo come Cells.get(rowIndex, columnIndex) causerà la creazione di un'istanza di tutti gli oggetti cella in un intervallo, che alla fine potrebbe causare OutOfMemoryError.
-##### **Conclusione**
-Sulla base dei fatti sopra menzionati, di seguito sono riportati i possibili scenari in cui è necessario utilizzare gli iteratori.
+1. Le API come MaxRow, MaxDataRow, MaxColumn, MaxDataColumn e MaxDisplayRange richiedono tempo aggiuntivo per raccogliere le statistiche corrispondenti. Nel caso la matrice dei dati (righe x colonne) sia ampia, utilizzare queste API potrebbe infliggere una penalità sulle prestazioni.
+1. Nella maggior parte dei casi, non tutte le celle in un dato intervallo sono istanziate. In tali situazioni controllare ogni cella nella matrice non è così efficiente rispetto al controllo solo delle celle inizializzate.
+1. L'accesso a una cella in un ciclo come Cells.get(rowIndex, columnIndex) causerà l'istanziazione di tutti gli oggetti cella in un intervallo, il che potrebbe alla fine causare OutOfMemoryError.
+##### **Conclusioni**
+Sulla base dei fatti sopra menzionati, di seguito sono riportati i possibili scenari in cui dovrebbero essere utilizzati gli iteratori.
 
-1. È richiesto l'accesso in sola lettura della raccolta di celle, ovvero; requisito è quello di ispezionare solo le cellule.
-1. È necessario attraversare un gran numero di celle.
+1. È richiesto l'accesso in sola lettura della raccolta di celle, cioè; il requisito è solo ispezionare le celle.
+1. È necessario attraversare un grande numero di celle.
 1. Devono essere attraversate solo celle/righe/colonne inizializzate.

@@ -1,30 +1,31 @@
-﻿---
-title: Kopiera arbetsblad mellan arbetsböcker
+---
+title: Kopiera kalkylblad mellan arbetsböcker
 type: docs
 weight: 10
 url: /sv/net/copy-worksheets-between-workbooks/
 ---
-Aspose.Cells tillhandahåller en metod, Aspose.Cells.Worksheet.Copy() som används för att kopiera data och formatering från ett källkalkylblad till ett annat kalkylblad inom eller mellan arbetsböcker. Metoden tar källarksobjektet som en parameter.
 
-Följande exempel visar hur man kopierar ett kalkylblad från en arbetsbok till en annan arbetsbok.
+Aspose.Cells tillhandahåller en metod, Aspose.Cells.Worksheet.Copy(), som används för att kopiera data och formatering från ett källkalkylblad till ett annat kalkylblad inom eller mellan arbetsböcker. Metoden tar källkalkylbladsobjektet som parameter.
 
-{{< highlight "csharp" >}}
+Det följande exemplet visar hur man kopierar ett kalkylblad från en arbetsbok till en annan arbetsbok.
 
-string FilePath = @"..\..\..\Sample Files\";
+{{< highlight csharp >}}
 
-string FileName = FilePath + "Kopiera ark mellan Workbook.xlsx";
+ string FilePath = @"..\..\..\Sample Files\";
 
-//Skapa en ny arbetsbok.
+string FileName = FilePath + "Copy Sheet between Workbook.xlsx";
+
+//Create a new Workbook.
 
 Workbook excelWorkbook0 = new Workbook();
 
-//Hämta det första kalkylbladet i boken.
+//Get the first worksheet in the book.
 
-Arbetsblad ws0 = excelWorkbook0.Worksheets[0];
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-//Sätt in lite data i rubrikrader (A1:A4)
+//Put some data into header rows (A1:A4)
 
- för (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -75,24 +76,24 @@ ws1.Copy(ws0);
 excelWorkbook1.Save(FileName);
 
 {{< /highlight >}}
-## **Ladda ner provkod**
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
+## **Ladda ned provkoden**
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
-Följande exempel visar hur man kopierar ett kalkylblad från en arbetsbok till en annan arbetsbok.
+Det följande exemplet visar hur man kopierar ett kalkylblad från en arbetsbok till en annan arbetsbok.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Skapa en ny arbetsbok.
+ //Create a new Workbook.
 
 Workbook excelWorkbook0 = new Workbook();
 
-//Hämta det första kalkylbladet i boken.
+//Get the first worksheet in the book.
 
-Arbetsblad ws0 = excelWorkbook0.Worksheets[0];
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-//Sätt in lite data i rubrikrader (A1:A4)
+//Put some data into header rows (A1:A4)
 
- för (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -144,6 +145,6 @@ excelWorkbook1.Save("copyworksheet.xls");
 
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)

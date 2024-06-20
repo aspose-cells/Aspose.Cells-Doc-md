@@ -1,13 +1,14 @@
-﻿---
+---
 title: Liste Nesnesini Biçimlendirme
 type: docs
 weight: 30
 url: /tr/python-java/formatting-list-object/
 ---
-## **Liste Nesnesini Biçimlendirme**
-Tablo, diğer satır ve sütunlardaki verilerden bağımsız olarak yönetilen ilgili verileri içeren bir dizi satır ve sütundur. Varsayılan olarak, liste nesnesi verilerinizi hızlı bir şekilde filtreleyebilmeniz veya sıralayabilmeniz için tablodaki her sütunun başlık satırında filtreleme etkindir. Her bir toplam satırı hücresi için toplama işlevlerinin açılır listesini sağlayan liste nesnesine, bir toplam satırı (sayısal verilerle çalışmak için kullanışlı toplama işlevleri seçimi sağlayan bir listedeki özel bir satır) ekleyebilirsiniz.
 
-Aspose.Cells, Liste nesnelerini biçimlendirmeyi destekler. Bunun için size API sağlar[Nesne Listesi](https://reference.aspose.com/cells/python/asposecells.api/ListObject) ve[Tablo Stili Türü](https://reference.aspose.com/cells/python/asposecells.api/TableStyleType) sınıflar. bu[Tablo Stili Türü](https://reference.aspose.com/cells/python/asposecells.api/TableStyleType)class yerleşik tablo stillerini temsil eden sabitleri içerir. Aşağıdaki kod parçacığı, yeni bir Liste Nesnesi oluşturur ve tablo stili türünü şu şekilde ayarlar:[MASA_STİL_ORTA_10](https://reference.aspose.com/cells/python/asposecells.api/tablestyletype#TABLE_STYLE_MEDIUM_10)
+## **Liste Nesnesini Biçimlendirme**
+Tablo, ilişkili verileri bağımsız olarak yöneten ilgili satırlar ve sütunlardan oluşan bir dizi veridir. Tablodaki her sütun, tablonun başlık satırında filtreleme etkinleştirilmiş şekilde varsayılan olarak bulunur, böylece liste nesnesi verilerinizi hızlı bir şekilde filtreleyebilir veya sıralayabilirsiniz. Liste nesnesine, her toplam satır hücresinde sayısal verilerle çalışmak için yararlı bir toplamak fonksiyonları seçkisi sağlayan özel bir satır olan toplam satır (bir liste içinde) ekleyebilirsiniz. 
+
+Aspose.Cells, format List nesnelerini destekler. Bunun için API, [ListObject](https://reference.aspose.com/cells/python/asposecells.api/ListObject) ve [TableStyleType](https://reference.aspose.com/cells/python/asposecells.api/TableStyleType) sınıflarını sağlar. [TableStyleType](https://reference.aspose.com/cells/python/asposecells.api/TableStyleType) sınıfı, yerleşik tablo stillerini temsil eden sabitler içerir. Aşağıdaki kod örneği yeni bir Liste Nesnesi oluşturur ve tablo stili tipini [TABLE_STYLE_MEDIUM_10](https://reference.aspose.com/cells/python/asposecells.api/tablestyletype#TABLE_STYLE_MEDIUM_10) olarak ayarlar.
 
 
 

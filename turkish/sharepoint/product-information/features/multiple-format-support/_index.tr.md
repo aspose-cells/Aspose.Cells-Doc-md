@@ -1,12 +1,13 @@
-﻿---
-title: Çoklu Format Desteği
+---
+title: Çoklu Biçim Desteği
 type: docs
 weight: 10
 url: /tr/sharepoint/multiple-format-support/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for SharePoint ile, bir SharePoint belge kitaplığından belgeleri birçok popüler ofis belgesi biçimi arasında dönüştürebilirsiniz. Dönüşümlerin çoğu yüksek doğruluk ve hassasiyetle yapılır.
+Aspose.Cells for SharePoint ile bir SharePoint belge kitaplığında çok sayıda popüler ofis belge biçimi arasında dönüşüm yapabilirsiniz. Dönüşümlerin çoğu yüksek sadelik ve hassasiyetle gerçekleştirilir.
 
 {{% /alert %}}
 
@@ -15,33 +16,33 @@ Aspose.Cells for SharePoint ile, bir SharePoint belge kitaplığından belgeleri
 Aspose.Cells for SharePoint aşağıdaki giriş biçimlerini destekler:
 
 - XLS – Microsoft Excel 97~2003
-- XLSX – Office Açık XML
-- XLSM, XLTX, XLTM – Office Açık XML
-- CSV – Virgülle Ayrılmış Değerler Çalışma Sayfası Belgesi
-- ODS – Açık Belge
+- XLSX – Office Open XML
+- XLSM, XLTX, XLTM – Office Open XML
+- CSV - Virgülle Ayrılmış Değerler Çalışma Tablosu Belgesi
+- ODS – OpenDocument
 - XML – Microsoft Excel SpreadsheetML
 
- Aspose.Cells for SharePoint, belgeleri oluşturmak için yerleşik bir sürüme dayanır.[Aspose.Cells for .NET](https://products.aspose.com/cells/net/)Aspose'den pazar lideri elektronik tablo işleme bileşeni. Microsoft Belge oluşturmak için Excel kullanılmaz.
+Belgeleri oluşturmak için, Aspose.Cells for SharePoint, Aspose'den lider elektronik tablo işleme bileşeni [Aspose.Cells for .NET](https://products.aspose.com/cells/net/)'nin yerleşik bir sürümüne dayanır. Microsoft Excel belge oluşturmak için kullanılmaz.
 
-## **Desteklenen Çıktı Biçimleri**
+## **Desteklenen Çıkış Biçimleri**
 
-Aspose.Cells for SharePoint tarafından desteklenen çıktı biçimlerinin tam listesi:
+Aspose.Cells for SharePoint tarafından desteklenen tüm çıkış biçimleri listesi:
 
-- PDF – Adobe Taşınabilir Belgesi
+- PDF - Adobe Taşınabilir Belge
 - XLS – Microsoft Excel 97 - 2003
-- XLSX – Office Açık XML
-- XLSM – Makrolar için Office Açık XML etkinleştirildi
-- TXT – Düz Metin
+- XLSX – Office Open XML
+- XLSM – Office Open XML for macros enabled
+- TXT – Plain Text
 - XML – Microsoft Excel SpreadsheetML
-- ODS – Açık Belge
-- CSV – Virgülle Ayrılmış Değerler
-- XLSB – Microsoft Excel İkili 2007
-- MHTML – Çok Amaçlı İnternet Posta Uzantısı HTML
-- XPS – XML Kağıt Spesifikasyonu
-- TIFF – Etiketli Resim Dosyası Biçimi
-- SVG – Ölçeklenebilir Vektör Grafikleri
-- DIF – Çizim Değişim Formatı
+- ODS – OpenDocument
+- CSV – Comma Separated Values
+- XLSB – Microsoft Excel Binary 2007
+- MHTML – Multipurpose Internet Mail Extension HTML
+- XPS – XML Paper Specification
+- TIFF – Tagged Image File Format
+- SVG – Scalable Vector Graphics
+- DIF – Drawing Interchange Format
 
-**Bir dosya için kullanılabilen desteklenen dönüştürme biçimleri listelenir** 
+Bir dosya için kullanılabilir dönüşüm formatları listelenir 
 
-![yapılacaklar:resim_alternatif_metin](multiple-format-support_1.png)
+![todo:image_alt_text](multiple-format-support_1.png)

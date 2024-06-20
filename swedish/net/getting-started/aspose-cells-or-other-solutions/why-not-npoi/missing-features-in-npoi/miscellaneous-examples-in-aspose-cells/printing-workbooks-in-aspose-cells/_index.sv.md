@@ -1,17 +1,18 @@
-﻿---
-title: Skriver ut arbetsböcker på Aspose.Cells
+---
+title: Skriva ut arbetsböcker i Aspose.Cells
 type: docs
 weight: 20
 url: /sv/net/printing-workbooks-in-aspose-cells/
 ---
-## **Aspose.Cells - Skriva ut arbetsböcker**
-När du har skapat ditt kalkylblad vill du antagligen skriva ut en papperskopia av bladet för ditt behov. När du skriver ut antar MS Excel att du vill skriva ut hela kalkylbladet om du inte anger ditt val.
 
-Skriva ut arbetsblad
+## **Aspose.Cells - Skriv ut arbetsböcker**
+När du har skapat din kalkylblad vill du förmodligen skriva ut en papperskopia av kalkylarket enligt ditt behov. När du skriver ut antar MS Excel att du vill skriva ut hela kalkylbladsområdet om du inte specificerar ditt urval.
+
+Utskrift av kalkylblad
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -34,13 +35,13 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 sr.ToPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Skriva ut arbetsböcker** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Skriva ut arbetsböcker** från någon av nedan nämnda sociala kodningsplatser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Skriva ut arbetsböcker](/cells/sv/net/printing-workbooks/).
+För mer information, besök [Skriva ut arbetsböcker](/cells/sv/net/printing-workbooks/).
 
 {{% /alert %}}

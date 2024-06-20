@@ -1,17 +1,18 @@
-﻿---
-title: 改行 in Cells
+---
+title: セル内の改行
 type: docs
 weight: 30
 url: /ja/java/new-line-in-cells/
 ---
-## **Aspose.Cells - Cells の改行**
-セル内のテキストを確実に読み取れるようにするために、明示的な改行とテキストの折り返しを適用できます。テキストの折り返しにより、セル内の 1 行が複数の行に変わり、明示的な改行によって、必要な場所に正確に改行が挿入されます。
+
+## **Aspose.Cells - セル内の改行**
+セル内のテキストが読み取れるようにするために、明示的な改行とテキストの折り返しを適用することができます。テキストの折り返しは、セル内の一行を複数行に変換し、明示的な改行は望む場所に改行を挿入します。
 
 セル内のテキストを折り返すには、Style.setTextWrapped メソッドを使用します。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Add Text to the First Cell with Explicit Line Breaks
 
@@ -30,12 +31,12 @@ style.setTextWrapped(true);
 cell.get(0, 0).setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Cells の改行**
-CellStyle.setWrapText は、折り返されたテキストに対して true にする必要があります。
+## **Apache POI SS - HSSF XSSF - セル内の改行**
+CellStyle.setWrapTextは、折り返されたテキストに対してtrueである必要があります。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Row row = sheet.createRow(2);
 
@@ -52,13 +53,13 @@ cs.setWrapText(true);
 cell.setCellStyle(cs);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/newlineincells)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[改行とテキストの折り返し](/java/line-breaks-and-text-wrapping).
+詳細については、[改行とテキストの折り返し](/java/line-breaks-and-text-wrapping) を参照してください。
 
 {{% /alert %}}

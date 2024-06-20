@@ -1,16 +1,17 @@
-﻿---
-title: حساب دالة IFNA باستخدام Aspose.Cells
+---
+title: حساب وظيفة IFNA باستخدام Aspose.Cells
 type: docs
 weight: 200
 url: /ar/java/calculating-ifna-function-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-يدعم Aspose.Cells حساب دالة IFNA Excel. تُرجع الدالة IFNA القيمة التي تحددها إذا كانت الصيغة تُرجع قيمة الخطأ # N / A ؛ وإلا ترجع نتيجة الصيغة.
+تدعم Aspose.Cells حساب وظيفة IFNA في Excel. تقوم وظيفة IFNA بإرجاع القيمة التي تحددها إذا عادت الصيغة بقيمة خطأ #N/A. وإلا، ستقوم بإرجاع نتيجة الصيغة.
 
 {{% /alert %}} 
-## **حساب دالة IFNA باستخدام Aspose.Cells**
-يوضح رمز العينة التالي حساب دالة IFNA بواسطة Aspose.Cells.
+## **حساب وظيفة IFNA باستخدام Aspose.Cells**
+الكود النموذجي التالي يوضح حساب وظيفة IFNA باستخدام Aspose.Cells.
 
 
 
@@ -23,10 +24,10 @@ url: /ar/java/calculating-ifna-function-using-aspose-cells/
 
 
 
-## **إخراج وحدة التحكم**
-هنا هو إخراج وحدة التحكم من نموذج التعليمات البرمجية أعلاه.
+## **مخرجات الوحدة**
+فيما يلي مخرجات وحدة الإدخال الخاصة بالكود المصدري أعلاه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Not found
 

@@ -1,5 +1,5 @@
-﻿---
-title: Styling och dataformatering
+---
+title: Formatering och dataformatering
 linktitle: Stilar
 type: docs
 weight: 60

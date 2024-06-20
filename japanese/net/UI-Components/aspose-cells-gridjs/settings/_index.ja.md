@@ -1,18 +1,20 @@
-﻿---
-title: GridJsの設定
+---
+title: # GridJsの設定
 type: docs
 weight: 250
 url: /ja/net/aspose-cells-gridjs/settings/
-description: この記事では、GridJs の設定について説明します。
-keywords: settings
+description: この記事では、GridJsの設定について説明しています。
+keywords: GridJs,settings,GridWorkbookSettings
 ---
-set GridWorkbookSettings で指定できる設定がいくつかあります。
-
- 
-- **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)**
 
 
-たとえば、次のコードは ReCalculateOnOpen を false に設定して、ファイルを開くときに caculate を停止します。
+GridWorkbookSettingsで指定できるいくつかの設定があります :
+
+
+- [**GridWorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)
+
+
+たとえば、次のコードはReCalculateOnOpenをfalseに設定して、ファイルを開くときの計算を停止します :
 ```C#
    GridJsWorkbook gw = new GridJsWorkbook();
    GridWorkbookSettings gws = new GridWorkbookSettings();
@@ -21,7 +23,7 @@ set GridWorkbookSettings で指定できる設定がいくつかあります。
     gw.Settings = gws;
     gw.ImportExcelFile(@"c:\test.xlsx");
 ```
-次のコードは、ファイルの作成者を設定します。
+ 次のコードは、ファイルの作成者を設定します :
 ```C#
    GridJsWorkbook gw = new GridJsWorkbook();
    GridWorkbookSettings gws = new GridWorkbookSettings();
@@ -30,5 +32,5 @@ set GridWorkbookSettings で指定できる設定がいくつかあります。
     gw.Settings = gws;
     gw.ImportExcelFile(@"c:\test.xlsx");
 ```
-このクラスでより多くの設定を確認できます。
- 
+このクラスでさらなる設定を確認できます。
+

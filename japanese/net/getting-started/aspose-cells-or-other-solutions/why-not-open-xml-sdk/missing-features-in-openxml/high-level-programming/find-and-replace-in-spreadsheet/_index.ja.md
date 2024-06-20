@@ -1,14 +1,15 @@
-﻿---
-title: スプレッドシートでの検索と置換
+---
+title: スプレッドシート内で検索して置換する
 type: docs
 weight: 30
 url: /ja/net/find-and-replace-in-spreadsheet/
 ---
-![todo:画像_代替_文章](Find_and_Replace.png)
 
-検索ボタンをクリックすると、コードは次のようになります。
+![todo:image_alt_text](Find_and_Replace.png)
 
-{{< highlight "csharp" >}}
+検索ボタンをクリックすると、以下のコードが実行されます:
+
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "")
 
@@ -54,9 +55,9 @@ url: /ja/net/find-and-replace-in-spreadsheet/
 
 {{< /highlight >}}
 
-[置換] ボタンをクリックすると、次のコードが実行されます。
+置換ボタンをクリックすると、以下のコードが実行されます:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "" && TXBX_Replace.Text!="")
 
@@ -110,5 +111,5 @@ url: /ja/net/find-and-replace-in-spreadsheet/
 
 ## **サンプルコードをダウンロード**
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)

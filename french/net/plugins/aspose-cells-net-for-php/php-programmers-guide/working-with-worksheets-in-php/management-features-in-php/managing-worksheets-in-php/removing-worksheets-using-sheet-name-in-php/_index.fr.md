@@ -1,15 +1,16 @@
-﻿---
-title: Suppression de feuilles de calcul à l'aide du nom de la feuille en PHP
+---
+title: Suppression des feuilles de calcul en utilisant le nom de la feuille en PHP
 type: docs
 weight: 40
 url: /fr/net/removing-worksheets-using-sheet-name-in-php/
 ---
-## **Suppression de feuilles de calcul à l'aide du nom de la feuille**
-Suppression de feuilles de calcul à l'aide du nom de la feuille
+
+## **Suppression des feuilles de calcul en utilisant le nom de la feuille**
+Suppression des feuilles de calcul en utilisant le nom de la feuille
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -32,7 +33,7 @@ Suppression de feuilles de calcul à l'aide du nom de la feuille
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Suppression de feuilles de calcul à l'aide du nom de la feuille (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Suppression des feuilles de calcul en utilisant le nom de la feuille (Aspose.Cells)** de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetName.php)

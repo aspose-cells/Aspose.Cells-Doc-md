@@ -4,43 +4,44 @@ type: docs
 weight: 10
 url: /ar/cpp/adjusting-row-height-and-column-width/
 ---
+
 {{% alert color="primary" %}} 
 
-عند العمل باستخدام جداول البيانات وإضافة البيانات إلى الصفوف أو الأعمدة، قد تحتاج إلى تغيير ارتفاع الصفوف أو عرض الأعمدة. في بعض الأحيان، يعني تطبيق التنسيق على الصفوف أو الأعمدة أن الارتفاع أو العرض الحالي يحتاج إلى التغيير لعرض البيانات. عادةً، يقوم المستخدمون بضبط ارتفاعات الصفوف وعرض الأعمدة في بيئة WYSIWYG باستخدام Microsoft Excel. ولكن مع Aspose.Cells يمكن للمطورين تنفيذ هذه العمليات في وقت التشغيل.
+عند العمل مع أوراق العمل وإضافة البيانات إلى الصفوف أو الأعمدة، قد تحتاج أحيانًا إلى تغيير ارتفاع الصفوف أو عرض الأعمدة. أحيانًا، تعني تطبيق التنسيق على الصفوف أو الأعمدة أن ارتفاع الصف الحالي أو عرض العمود بحاجة إلى تغيير لعرض البيانات. عادةً ما يقوم المستخدمون بضبط ارتفاع الصفوف وعرض الأعمدة في بيئة WYSIWYG باستخدام مايكروسوفت إكسل. ولكن مع Aspose.Cells، يمكن للمطورين تنفيذ هذه العمليات في وقت التشغيل.
 
 {{% /alert %}} 
-##  **العمل مع الصفوف**
-###  **ضبط ارتفاع الصف**
- Aspose.Cells يوفر فئة،[دفتر العمل](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) الذي يمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) يحتوي الفصل على أ[مجموعة أوراق العمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)الذي يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) فصل. ال[ورقة عمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) يوفر الفصل أ[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) المجموعة التي تمثل كافة الخلايا في ورقة العمل. ال[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)توفر المجموعة عدة طرق لإدارة الصفوف أو الأعمدة في ورقة العمل. وتناقش بعض هذه أدناه بمزيد من التفصيل.
-####  **تحديد ارتفاع الصف**
- من الممكن ضبط ارتفاع صف واحد عن طريق استدعاء[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) المجموعة[SetRowHeight](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setrowheight/) طريقة. ال[SetRowHeight](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setrowheight/)تأخذ الطريقة المعلمات التالية كما يلي:
+## **العمل مع الصفوف**
+### **ضبط ارتفاع الصف**
+توفر Aspose.Cells فئة تمثل [دفتر العمل](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) الذي يمثل ملف Microsoft Excel. تحتوي فئة [دفتر العمل](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) على [مجموعة أوراق العمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. تمثل ورقة العمل بواسطة فئة [ورقة العمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) وتوفر فئة [ورقة العمل](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) مجموعة [الخلايا](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) التي تمثل جميع الخلايا في ورقة العمل. تقدم مجموعة [الخلايا](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) عدة أساليب لإدارة الصفوف أو الأعمدة في ورقة العمل. يتم مناقشة بعض هذه الأساليب أدناه بتفصيل أكثر.
+#### **تعيين ارتفاع الصف**
+من الممكن تعيين ارتفاع صف واحد عن طريق استدعاء [مجموعة الخلايا](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) و[تعيين ارتفاع الصف](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setrowheight/) والتي تأخذ المعلمات التالية كما يلي:
 
-- *فهرس الصف**، فهرس الصف الذي تقوم بتغيير ارتفاعه.
-- *ارتفاع الصف**، ارتفاع الصف الذي سيتم تطبيقه على الصف.
+- **مؤشر الصف**, مؤشر الصف الذي كنت تغير ارتفاعه.
+- **ارتفاع الصف**, ارتفاع الصف المطبق على الصف.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingHeightOfRow-new.cpp" >}}
 
 
-####  **ضبط ارتفاع كافة الصفوف في ورقة العمل**
- إذا كان المطورون بحاجة إلى تعيين نفس ارتفاع الصف لجميع الصفوف في ورقة العمل، فيمكنهم القيام بذلك باستخدام[SetStandardHeight](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setstandardheight/) طريقة[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)مجموعة.
+#### **تعيين ارتفاع جميع الصفوف في ورقة العمل**
+إذا كان لدى المطورين حاجة لتعيين نفس ارتفاع الصف لجميع الصفوف في ورقة العمل، فيمكنهم فعل ذلك باستخدام [مجموعة الخلايا](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) و[تعيين ارتفاع قياسي](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setstandardheight/) للصفوف.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingHeightOfAllRowsInWorksheet-new.cpp" >}}
-##  **العمل مع الأعمدة**
-###  **تحديد عرض العمود**
- قم بتعيين عرض العمود عن طريق استدعاء[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) المجموعة[عرض_SetColumnWidth](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setcolumnwidth/) طريقة. ال[عرض_SetColumnWidth](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setcolumnwidth/)تأخذ الطريقة المعلمات التالية:
+## **العمل مع الأعمدة**
+### **ضبط عرض العمود**
+قم بتعيين عرض العمود عن طريق استدعاء [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)  ‎ ‎ ‎ ‎‎مجموعة [SetColumnWidth](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setcolumnwidth/)  ‎‎‎استخدم الأسلوب. [SetColumnWidth](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setcolumnwidth/) يأخذ البيانات التالية:
 
-- *فهرس العمود**، فهرس العمود الذي تقوم بتغيير عرضه.
-- *عرض العمود**، عرض العمود المطلوب.
+- **فهرس العمود**, فهرس العمود الذي تريد تغيير عرضه.
+- **عرض العمود**, العرض المطلوب للعمود.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingWidthOfColumn-new.cpp" >}}
-###  **ضبط عرض كافة الأعمدة في ورقة العمل**
- لتعيين نفس عرض العمود لجميع الأعمدة في ورقة العمل، استخدم الأمر[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) المجموعة[SetStandardWidth](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setstandardwidth/)طريقة.
+### **تعيين عرض جميع الأعمدة في ورقة العمل**
+لتعيين نفس عرض العمود لجميع الأعمدة في ورقة العمل، استخدم الأسلوب [SetStandardWidth](https://reference.aspose.com/cells/cpp/aspose.cells/cells/setstandardwidth/)  ‎ من مجموعة [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)‎.
 
 
 

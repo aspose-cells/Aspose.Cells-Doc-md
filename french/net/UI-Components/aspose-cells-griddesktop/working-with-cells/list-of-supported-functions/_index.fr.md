@@ -1,109 +1,112 @@
-﻿---
+---
 title: Liste des fonctions prises en charge
 type: docs
 weight: 10
-url: /fr/net/list-of-supported-functions/
+url: /fr/net/aspose-cells-griddesktop/list-of-supported-functions/
+keywords: GridDesktop,functions,formula
+description: Cet article présente les fonctions prises en charge dans GridDesktop.
 ---
-## **Introduction**
-De nombreuses fonctions intégrées sont prises en charge par Aspose.Cells Grid Controls. Ces fonctions appartiennent aux catégories suivantes :
 
-- **Fonctions mathématiques** , fournit un vaste ensemble de fonctions qui peuvent être utilisées dans de nombreux calculs mathématiques
-- **Fonctions de texte et de données** , fournit diverses fonctions pour effectuer différents types d'opérations sur du texte et des données
-- **Fonctions de date et d'heure** , fournit des fonctions utiles liées aux données et à l'heure
+## **Introduction**
+Il existe de nombreuses fonctions intégrées prises en charge par le contrôle Aspose.Cells.GridDesktop. Ces fonctions appartiennent aux catégories suivantes :
+
+- **Fonctions mathématiques** , fournissent un ensemble important de fonctions pouvant être utilisées dans de nombreux calculs mathématiques.
+- **Fonctions de texte et de données** , fournit diverses fonctions pour effectuer différents types d'opérations sur le texte et les données
+- **Fonctions de date et d'heure** , fournit quelques fonctions utiles liées à la date et à l'heure
 - **Fonctions logiques** , fournit un petit ensemble de fonctions logiques pour gérer certaines opérations logiques sur les données
 ### **Fonctions mathématiques**
-- PLAFOND, COMBIN, COS, COSH, COUNTIF
-- DEGRÉS
-- PAIR, EXP
-- FAIT, PLANCHER
+- CEILING,COMBIN,COS,COSH,COUNTIF
+- DEGREES
+- EVEN,EXP
+- FACT,FLOOR
 - INT
 - LN,LOG,LOG10
 - MOD
-- ÉTRANGE
-- PI, PUISSANCE, PRODUIT
-- RADIANS, RAND, ARRONDI, ARRONDI EN BAS, ARRONDI EN HAUT
-- SIGNE, NAS, SINH
-- CARRÉ,SOMME,SOMMESI,SOMMEPROD,SUMSQ,SUMX2MY2,SUMX2PY2,SUMXMY2
-- TAN, TANH, TRONC
+- ODD
+- PI,POWER,PRODUCT
+- RADIANS,NB.ALEA,ARRONDI,ARRONDI.INF,ARRONDI.SUP
+- SIGN,SIN,SINH
+- SQRT,SUM,SUMIF,SUMPRODUCT,SUMSQ,SUMX2MY2,SUMX2PY2,SUMXMY2
+- TAN,TANH,TRUNC
 ### **Fonctions de texte et de données**
-- CHAR,CODE,CONCATENER
+- CHAR,CODE,CONCATENATE
 - DOLLAR
 - EXACT
-- TROUVER, FIXE
-- GAUCHE, LEN, INFÉRIEUR
-- MILIEU
-- RENCONTRE
-- REMPLACER, REPT, DROIT
-- RECHERCHER, SUBSTITUER
-- T, TEXTE, COUPE
-- PLUS HAUT
-- ÉVALUER
-- CHERCHER
-- RECHERCHEV
+- FIND,FIXED
+- LEFT,LEN,LOWER
+- MID
+- MATCH
+- REPLACE,REPT,RIGHT
+- SEARCH,SUBSTITUTE
+- T,TEXT,TRIM
+- UPPER
+- VALUE
+- LOOKUP
+- VLOOKUP
 - WIDECHAR
 ### **Fonctions de date et d'heure**
-- HEURE
-- MINUTES, MOIS
-- MAINTENANT
-- DEUXIÈME
-- HEURE, AUJOURD'HUI
-- JOUR DE LA SEMAINE
-- AN
+- HOUR
+- MINUTE,MONTH
+- NOW
+- SECOND
+- TIME,TODAY
+- WEEKDAY
+- YEAR
 ### **Fonctions logiques**
-- FAUX
-- SI
-- NE PAS
-- OU ALORS
-- vrai
+- FALSE
+- IF
+- NOT
+- OR
+- TRUE
 ### **Nouvelles fonctions**
 - MIN
-- ROW (pris en charge dans Aspose.Cells.GridWeb uniquement)
-- ROW S (pris en charge dans Aspose.Cells.GridWeb uniquement)
-- COLONNE (pris en charge dans Aspose.Cells.GridWeb uniquement)
-- COLONNE S (pris en charge dans Aspose.Cells.GridWeb uniquement)
-- ADRESSE (pris en charge dans Aspose.Cells.GridWeb uniquement)
-- DÉCALAGE
+- ROW (Pris en charge uniquement dans Aspose.Cells.GridWeb) 
+- ROW S (Pris en charge uniquement dans Aspose.Cells.GridWeb) 
+- COLUMN (Pris en charge uniquement dans Aspose.Cells.GridWeb) 
+- COLUMN S (Pris en charge uniquement dans Aspose.Cells.GridWeb) 
+- ADDRESS (Pris en charge uniquement dans Aspose.Cells.GridWeb) 
+- OFFSET
 - INDIRECT
 - ISERR
-- ESTNUMÉRO
-- FAIRE LE MÉNAGE
-- RMB
-- FAITDOUBLE
-- PGCD
+- ISNUMBER
+- CLEAN
+- BoutonDroitSouris
+- FACTDOUBLE
+- GCD
 - LCM
-- MROND
+- MROUND
 - MULTINOMIAL
 - QUOTIENT
-- ALENTENTENTE
-- SOMME DE LA SÉRIE
+- RANDBETWEEN
+- SERIESSUM
 - SQRTPI
-- TOTAL
-- COMPTER
+- SUBTOTAL
+- COUNT
 - COUNTA
-- INDICE
-- CELLULE
-- MÉDIAN
-- TYPE.ERREUR
-- ESTBLANC
-- ESTERREUR
-- ISLOGIQUE
+- INDEX
+- CELL
+- MEDIAN
+- ERROR.TYPE
+- ISBLANK
+- ISERROR
+- ISLOGICAL
 - ISNA
-- N'EST PAS TEXTE
+- ISNONTEXT
 - ISTEXT
 - ISREF
 - N
-- N / A
-- TAPER
-- COMPTEVIDE
-- GRANDE
+- NA
+- TYPE
+- COUNTBLANK
+- LARGE
 - MAXA
-- MINE
-- MOYENNE
+- MINA
+- AVERAGEA
 - MODE
-- CENTILE
-- RANG POURCENTAGE
-- RANG
-- CHOISIR
-- RECHERCHEH
-- PETIT (pris en charge dans Aspose.Cells.GridWeb uniquement)
+- PERCENTILE
+- PERCENTRANK
+- RANK
+- CHOOSE
+- HLOOKUP
+- SMALL (Pris en charge uniquement dans Aspose.Cells.GridWeb) 
 

@@ -1,103 +1,104 @@
-﻿---
-title: Linux に TrueType フォントをインストールする方法
+---
+title: LinuxにTrueTypeフォントをインストールする方法
 type: docs
 weight: 20
 url: /ja/java/how-to-install-truetype-fonts-on-linux/
 ---
+
 {{% alert color="primary" %}}
 
-最も可能性の高いシナリオは、Aspose.Cells を使用してスプレッドシートを PDF に変換することです。Linux などの Windows ベース以外のオペレーティング システムでこれを行う場合、このトピックでは、Aspose.Cells が最高の忠実度でスプレッドシートをレンダリングすることを確認する方法について説明します。
+もっともありそうなシナリオは、Aspose.Cellsを使用してスプレッドシートをPDFに変換することです。LinuxなどのWindows以外のオペレーティングシステムでこれを行っている場合、このトピックはAspose.Cellsがスプレッドシートを最も忠実にレンダリングするためにLinuxシステムに"Windowsフォント"または"TrueTypeフォント"をインストールする方法について説明しています。
 
-Aspose.Cells で変換されたスプレッドシートができるだけオリジナルに近く表示されるようにするには、Linux システムに「Windows フォント」または「TrueType フォント」をインストールする必要がある場合があります。これは、最も一般的に使用される TrueType フォントがプリインストールされていないためですデフォルトでは Linux ディストリビューション。
+Aspose.Cellsによって変換されたスプレッドシートが可能な限り元のものに近い形で表示されるようにするためには、Linuxシステムに"Windowsフォント"または"TrueTypeフォント"をインストールする必要があるかもしれません。最も一般的に使用されるTrueTypeフォントは、通常、Linuxディストリビューションにデフォルトでプリインストールされていません。
 
-Linux システムで TrueType フォントを取得するには、主に 2 つの方法があります。
+LinuxシステムにTrueTypeフォントを取得する主な方法には次の2つがあります:
 
-1. フォント ファイル (.TTF および .TTC) を Windows マシンから Linux マシンにコピーします。
-1. msttcorefonts などの TrueType フォント パッケージをインストールします。
+1. Windowsマシンからフォントファイル（.TTFおよび.TTC）をLinuxマシンにコピーする。
+1. msttcorefontsなどのTrueTypeフォントパッケージをインストールする。
 
 {{% /alert %}}
 
 ## **Windows マシンからフォントをコピーする**
 
-簡単で迅速な方法は、Windows マシンの C:\Windows\Fonts ディレクトリから Linux マシンのディレクトリに .TTF および .TTC ファイルをコピーすることです。これらのフォントを Linux にインストールまたは登録する必要はありません。アプリケーションで FontConfigs.setFontFolder メソッドを使用してフォントの場所を指定するだけで済みます。
+Windows マシンの C:\Windows\Fonts ディレクトリから .TTF および .TTC ファイルを Linux マシンの任意のディレクトリにコピーする簡単で迅速な方法があります。Linux にこれらのフォントをインストールまたは登録する必要はありません。アプリケーション内で FontConfigs.setFontFolder メソッドを使用してフォントの場所を指定するだけです。
 
 {{% alert color="primary" %}}
 
-私たちの知る限り、Microsoft はフォントを誰でも自由に使用できるようにライセンスを供与していますが、フォントのライセンスについてはご自身でご確認ください。
+Microsoft はおそらく誰もが自由に使用できるようにフォントのライセンスを提供していますが、フォントのライセンスについては自分で確認してください。
 
 {{% /alert %}}
 
-## **TrueType フォント パッケージをインストールする**
+## **TrueType フォントパッケージをインストールする**
 
-以下に提供される情報は、Fedora や Red Hat Enterprise Linux (RHEL) などの Linux ディストリビューションに Microsoft の最も有名な TrueType フォントをインストールするための手順を順を追って説明します。
+以下の情報に従って、Fedora および Red Hat Enterprise Linux (RHEL) などの Linux ディストリビューションに Microsoft の最も有名な TrueType フォントをインストールする手順が示されています。
 
 {{% alert color="primary" %}}
 
-「root」レベルの権限が必要な場合があるため、「root」としてログインするか、sudo を設定してください。
+おそらく 'root' レベルの権限が必要になるため、'root' としてログインするか、sudo を設定します。
 
 {{% /alert %}}
 
-ターミナルを使用してそれを行う方法は次のとおりです。
+ターミナルを使用して次のように行います。
 
 1. 次の RPM パッケージがインストールされていることを確認します。
-   1. **rpm-ビルド**インストールされていない場合は、次のコマンドを使用して rpm-build パッケージをインストールします。
+   1. **rpm-build**: インストールされていない場合、次のコマンドを使用して rpm-build パッケージをインストールします。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 yum install rpm-build cabextract ttmkfdir
 
 {{< /highlight >}}
 
-1. **wget**: インストールされていない場合は、次のコマンドを使用します
+1. **wget**: インストールされていない場合、次のコマンドを使用します。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 yum \-y install wget
 
 {{< /highlight >}}
 
-1. 次のコマンドを使用して、SourceForge から最新の msttcorefonts 仕様ファイルをダウンロードします。
+以下のコマンドを使用して、SourceForge から最新の msttcorefonts スペックファイルをダウンロードします。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 wget http://corefonts.sourceforge.net/msttcorefonts-2.5-1.spec
 
 {{< /highlight >}}
 
-1. 以前にダウンロードしたスペック ファイルと次のコマンドを使用して RPM ファイルをビルドします。
+以前にダウンロードしたスペックファイルと次のコマンドを使用して RPM ファイルをビルドします。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 rpmbuild \-ba msttcorefonts-2.5-1.spec
 
 {{< /highlight >}}
 
-1. RPM ファイルは /root/rpmbuild/RPMS/noarch/ に保存されます。次のようにインストールします。
+RPM ファイルは次の場所に保存されます: /root/rpmbuild/RPMS/noarch/。次のようにインストールします。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 rpm \-ivh /root/rpmbuild/RPMS/noarch/msttcorefonts-2.5-1.noarch.rpm
 
 {{< /highlight >}}
 
-1. マシンを再起動して、変更を有効にします。
+変更を有効にするためにマシンを再起動します。
 
-上記の手順により、次のフォント ファミリを含む Microsoft TTF パッケージがインストールされます。
+上記の手順に従うと、Microsoft の TTFs パッケージがインストールされます。これには次のフォントファミリーが含まれます:
 
-1. アンデール Mono
-1. Arial 黒/Arial (太字、斜体、太字斜体)
-1. Comic Sans MS (太字)
-1. Courier New (太字、斜体、太字斜体)
-1. ジョージア (太字、斜体、太字斜体)
-1. 影響
-1. タホマ
-1. Times New Roman (太字、斜体、太字斜体)
-1. トレビュシェット (太字、斜体、太字斜体)
-1. Verdana (ボールド、イタリック、ボールド イタリック)
-1. ウェッディング
+1. Andale Mono
+1. Arial Black/Arial (Bold, Italic, Bold Italic)
+1. Comic Sans MS (Bold)
+1. Courier New (Bold, Italic, Bold Italic)
+1. Georgia (Bold, Italic, Bold Italic)
+1. Impact
+1. Tahoma
+1. Times New Roman (Bold, Italic, Bold Italic)
+1. Trebuchet (Bold, Italic, Bold Italic)
+1. Verdana (Bold, Italic, Bold Italic)
+1. Webdings
 
 {{% alert color="primary" %}}
 
-Ubuntu では、Synaptic Package Manager に移動します。を見つけてインストールする**ttf-mscorefonts-インストーラー**パッケージ。
+Ubuntu では、Synaptic パッケージマネージャに移動し、**ttf-mscorefonts-installer** パッケージを検索してインストールします。
 
 {{% /alert %}}

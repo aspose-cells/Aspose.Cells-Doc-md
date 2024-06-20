@@ -1,28 +1,29 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.6.1
+---
+title: Cambios en la API pública en Aspose.Cells 8.6.1
 type: docs
 weight: 210
 url: /es/java/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.Cells API de la versión 8.6.0 a la 8.6.1 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, clases agregadas, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.6.0 hasta la 8.6.1 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo nuevos y actualizados métodos públicos, clases agregadas, sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Compatibilidad con el tipo de destino de enlace HTML**
- Esta versión de Aspose.Cells for Java API ha expuesto una enumeración llamada HtmlLinkTargetType junto con una nueva propiedad HtmlSaveOptions.LinkTargetType que juntos permiten[establezca el tipo de destino para los enlaces en la hoja de cálculo durante la conversión al formato HTML](/cells/es/java/change-the-html-link-target-type/). Los valores posibles de la enumeración HtmlLinkTargetType son los siguientes, donde el valor predeterminado es SELF.
+## **APIs Añadidas**
+### **Soporte para tipo de enlace HTML**
+Esta versión de la API Aspose.Cells for Java ha expuesto una enumeración llamada HtmlLinkTargetType junto con una nueva propiedad HtmlSaveOptions.LinkTargetType que juntas permiten [establecer el tipo de destino para los enlaces en la hoja de cálculo durante la conversión al formato HTML](/cells/es/java/change-the-html-link-target-type/). Los valores posibles de la enumeración HtmlLinkTargetType son: donde el valor predeterminado es SELF.
 
-1. HtmlLinkTargetType.BLANK: abre el documento o la página vinculados en una nueva ventana o pestaña.
-1. HtmlLinkTargetType.PARENT: abre el documento o la página vinculados en el marco principal.
-1. HtmlLinkTargetType.SELF: abre el documento o la página vinculados en el mismo marco donde se hizo clic en el vínculo.
-1. HtmlLinkTargetType.TOP: abre el documento o la página vinculados en el cuerpo completo de la ventana.
+1. HtmlLinkTargetType.BLANK: Abre el documento/enlace vinculado en una nueva ventana o pestaña.
+1. HtmlLinkTargetType.PARENT: Abre el documento/enlace vinculado en el marco principal.
+1. HtmlLinkTargetType.SELF: Abre el documento/enlace vinculado en el mismo marco donde se hizo clic en el enlace.
+1. HtmlLinkTargetType.TOP: Abre el documento/enlace vinculado en todo el cuerpo de la ventana.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -42,14 +43,14 @@ options.setLinkTargetType(HtmlLinkTargetType.BLANK);
 workbook.save(outputFilePath, options);
 
 {{< /highlight >}}
-### **Método VbaModuleCollection.remove Agregado**
-Aspose.Cells for Java 8.6.1 ha expuesto otra sobrecarga del método VbaModuleCollection.remove que ahora puede aceptar una instancia de Worksheet para eliminar todos los módulos VBA asociados con la hoja de trabajo especificada.
+### **Método VbaModuleCollection.remove agregado**
+Aspose.Cells for Java 8.6.1 ha expuesto otra sobrecarga del método VbaModuleCollection.remove que ahora puede aceptar una instancia de Worksheet para eliminar todos los módulos VBA asociados con la Hoja de cálculo especificada.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -64,14 +65,14 @@ VbaModuleCollection modules = workbook.getVbaProject().getModules();
 modules.remove(workbook.getWorksheets().get(0));
 
 {{< /highlight >}}
-### **Método RangeCollection.add Agregado**
-Aspose.Cells for Java 8.6.1 ha expuesto el método RangeCollection.Add que se puede usar para agregar objetos Range a la colección de rangos para una hoja de trabajo en particular.
+### **Método RangeCollection.add agregado**
+Aspose.Cells for Java 8.6.1 ha expuesto el método RangeCollection.Add que se puede utilizar para agregar objetos Range a la colección de rangos para una Hoja de cálculo específica.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -90,14 +91,14 @@ RangeCollection ranges = cells.getRanges();
 ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
-### **Método Cell.setCaracteres agregados**
- El método Cell.setCharacters se puede utilizar para[actualizar las partes del texto enriquecido](/cells/es/java/access-and-update-the-portions-of-rich-text-of-cell/) de un objeto Cell dado. El método Cell.getCharacters se debe usar para acceder a las partes del texto y luego se pueden hacer enmiendas usando el método Cell.setCharacters mientras que el**conseguir** El método devuelve una matriz de objetos FontSetting que se pueden manipular para establecer varias propiedades: nombre de fuente, color de fuente, negrita, etc.**colocar** El método se puede utilizar para aplicar los cambios.
+### **Agregado el Método Cell.setCharacters**
+El método Cell.setCharacters puede utilizarse para [actualizar las porciones del texto enriquecido](/cells/es/java/acceder-y-actualizar-las-porciones-del-texto-enriquecido-de-una-celda/) de un objeto Cell dado. El método Cell.getCharacters se utiliza para acceder a las porciones del texto y luego se pueden realizar modificaciones usando el método Cell.setCharacters, mientras que el método **get** devuelve un array de objetos FontSetting que pueden ser manipulados para establecer diversas propiedades como el nombre de la fuente, color de la fuente, negrita, etc. El método **set** se puede utilizar para aplicar los cambios.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -113,7 +114,7 @@ Cell cell = worksheet.getCells().get("A1");
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.getCharacters();
+FontSetting[] settings = cell.getCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -124,14 +125,14 @@ settings[0].getFont().setName("Arial");
 cell.setCharacters(settings);
 
 {{< /highlight >}}
-### **Propiedad VbaProject.isSigned agregado**
- Aspose.Cells for Java 8.6.1 ha expuesto la propiedad VbaProject.isSigned que se puede utilizar para[probar si un VbaProject en un libro de trabajo está firmado o no](/cells/es/java/check-if-vba-project-in-a-workbook-is-signed/)La propiedad de tipo booleano devuelve verdadero si el proyecto está firmado.
+### **Agregada la Propiedad VbaProject.isSigned**
+La versión Aspose.Cells for Java 8.6.1 ha expuesto la propiedad VbaProject.isSigned que se puede usar para [comprobar si un VbaProject en un libro de Excel está firmado o no](/cells/es/java/comprobar-si-el-proyecto-vba-en-un-libro-de-excel-esta-firmado/). La propiedad de tipo booleano devuelve true si el proyecto está firmado.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -160,9 +161,9 @@ else
 }
 
 {{< /highlight >}}
-## **API modificadas**
-### **Método Cell.getFormatConditions modificado**
-Con el lanzamiento de v8.6.1, Aspose.Cells for Java API modificó el tipo de devolución del método Cell.getFormatConditions que ahora devuelve una matriz de tipo FormatConditionCollection.
-## **API obsoletas**
+## **APIs Modificados**
+### **Método Cell.getFormatConditions Modificado**
+Con el lanzamiento de v8.6.1, la API Aspose.Cells for Java ha modificado el tipo de retorno del método Cell.getFormatConditions, que ahora devuelve un array del tipo FormatConditionCollection.
+## **APIs obsoletas**
 ### **Método Workbook.checkWriteProtectedPassword Obsoleto**
-Con el lanzamiento de v8.6.1, el método Workbook.checkWriteProtectedPassword se ha marcado como obsoleto. Se recomienda utilizar el método WorkbookSettings.WriteProtection.validatePassword que puede aceptar un valor de cadena como parámetro y devuelve un valor booleano si la contraseña coincide con la contraseña preestablecida de la hoja de cálculo.
+Con el lanzamiento de v8.6.1, el método Workbook.checkWriteProtectedPassword ha sido marcado como obsoleto. Se recomienda utilizar el método WorkbookSettings.WriteProtection.validatePassword que puede aceptar un valor de tipo String como parámetro y devuelve un valor Booleano si la contraseña coincide con la contraseña predefinida de la hoja de cálculo.

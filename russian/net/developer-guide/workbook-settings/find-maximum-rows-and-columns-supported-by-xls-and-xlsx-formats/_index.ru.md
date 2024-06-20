@@ -1,24 +1,25 @@
-﻿---
-title: Найти максимальное количество строк и столбцов, поддерживаемых форматами XLS и XLSX
+---
+title: Найдите максимальное количество строк и столбцов, поддерживаемых форматами XLS и XLSX
 type: docs
 weight: 20
 url: /ru/net/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
 ---
+
 ## **Возможные сценарии использования**
 
-Форматы Excel поддерживают разное количество строк и столбцов. Например, XLS поддерживает 65536 строк и 256 столбцов, а XLSX поддерживает 1048576 строк и 16384 столбца. Если вы хотите узнать, сколько строк и столбцов поддерживается данным форматом, вы можете использовать[**Рабочая книга.Настройки.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) и[**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)характеристики.
+Разные форматы Excel поддерживают разное количество строк и столбцов. Например, XLS поддерживает 65536 строк и 256 столбцов, а XLSX поддерживает 1048576 строк и 16384 столбца. Если вы хотите узнать, сколько строк и столбцов поддерживается данным форматом, вы можете использовать свойства [**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) и [**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn).
 
-## **Найти максимальное количество строк и столбцов, поддерживаемых форматами XLS и XLSX**
+## **Найдите максимальное количество строк и столбцов, поддерживаемых форматами XLS и XLSX**
 
-Следующий пример кода создает книгу сначала в формате XLS, а затем в формате XLSX. После создания он печатает значения[**Рабочая книга.Настройки.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) и[**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)характеристики. Для справки см. консольный вывод кода, приведенного ниже.
+В следующем примере кода сначала создается рабочая книга в формате XLS, а затем в формате XLSX. После создания он печатает значения свойств [**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) и [**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn). Пожалуйста, ознакомьтесь с выводом консоли приведенного ниже кода для справки.
 
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "WorkbookSettings-FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats.cs" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Maximum Rows and Columns supported by XLS format.
 

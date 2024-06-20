@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formoptionen verwalten
 type: docs
 weight: 200

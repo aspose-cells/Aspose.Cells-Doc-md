@@ -1,16 +1,17 @@
-﻿---
-title: Verwalten von Seitenumbrüchen in Python
+---
+title: Seitenumbrüche verwalten in Python
 type: docs
 weight: 20
 url: /de/java/managing-page-breaks-in-python/
 ---
-## **Aspose.Cells – Verwalten von Seitenumbrüchen**
+
+## **Aspose.Cells - Seitenumbrüche verwalten**
 ### **Seitenumbrüche hinzufügen**
- So fügen Sie Seitenumbrüche hinzu mit**Aspose.Cells Java für Rubin** , Anruf**add_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+Um Seitenumbrüche mit **Aspose.Cells Java für Ruby** hinzuzufügen, rufen Sie die Methode **add_page_breaks** des Moduls **pagebreaks** auf. Im Folgenden finden Sie ein Codebeispiel.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def add_page_breaks(self):
 
@@ -38,12 +39,12 @@ print "Add page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **Löschen aller Seitenumbrüche**
- Um alle Seitenumbrüche zu löschen, verwenden Sie**Aspose.Cells Java for Python** , Anruf**clear_all_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+### **Alle Seitenumbrüche löschen**
+Um alle Seitenumbrüche mit **Aspose.Cells Java für Python** zu löschen, rufen Sie die Methode **clear_all_page_breaks** des Moduls **pagebreaks** auf. Im Folgenden finden Sie ein Codebeispiel.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -66,12 +67,12 @@ print "Clear all page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **Entfernen eines bestimmten Seitenumbruchs**
- So entfernen Sie einen bestimmten Seitenumbruch mit**Aspose.Cells Java for Python** , Anruf**remove_page_break** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+### **Bestimmten Seitenumbruch entfernen**
+Um einen bestimmten Seitenumbruch mit **Aspose.Cells Java für Python** zu entfernen, rufen Sie die Methode **remove_page_break** des Moduls **pagebreaks** auf. Im Folgenden finden Sie ein Codebeispiel.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -101,7 +102,7 @@ print "Remove page break, please check the output file."
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Seitenumbrüche verwalten (Aspose.Cells)** von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Seitenumbrüche verwalten (Aspose.Cells)** von einer der unten genannten sozialen Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -1,27 +1,28 @@
-﻿---
+---
 title: نظرة عامة على المنتج
 type: docs
 weight: 10
 url: /ar/jasperreports/product-overview/
 ---
+
 {{% alert color="primary" %}}
 
-![ما يجب القيام به: image_بديل_نص](product-overview_1.png)
+![todo:image_alt_text](product-overview_1.png)
 
-### **مرحبًا بكم في التوثيق Aspose.Cells for JasperReports!**
+### **مرحبًا بك في وثائق Aspose.Cells for JasperReports!**
 
- Aspose.Cells for JasperReports هي مكتبة تعمل كبديل ل[جاسبر ريبورتس](https://community.jaspersoft.com/project/jasperreports-library)مصدر Excel أصلي Microsoft ، مرفق ببعض التحسينات الرائعة. يقوم بإزالة التبعية على مكتبة POI ، ويستخدم Aspose.Cells for Java على النهاية الخلفية لتصدير التقارير بتنسيقات Excel Microsoft (XLS ، XLSX).
+Aspose.Cells for JasperReports هي مكتبة تعمل كبديل لصادر [تقارير جاسبر](https://community.jaspersoft.com/project/jasperreports-library)'s المصدر الأصلي لمايكروسوفت إكسل، مع بعض التحسينات الرائعة. تقوم بالتخلص من الاعتماد على مكتبة POI، وتستخدم Aspose.Cells for Java في الخلفية لتصدير التقارير في تنسيقات مايكروسوفت إكسل (XLS، XLSX).
 
 {{% /alert %}}
 
 ### **وصف المنتج**
 
-Aspose.Cells for JasperReports هو حل مرن يسهل تصدير التقارير من JasperReports و JasperServer إلى تنسيقات ملفات Excel Microsoft. يتم تحويل كافة ميزات التقرير إلى جداول بيانات Microsoft Excel بأعلى درجة من الدقة.
+تعتبر Aspose.Cells for JasperReports حلاً مرنًا يُسهل تصدير التقارير من JasperReports و JasperServer إلى تنسيقات ملفات Microsoft Excel. يتم تحويل جميع ميزات التقرير إلى جداول برامج Microsoft Excel بأعلى درجات الدقة.
 
-إلى جانب الوظيفة التي يوفرها مصدر Micrsofot Excel الأصلي المستند إلى POI ، يوفر هذا المكون بعض الميزات القيمة. تشمل الابتكارات الرئيسية المتعلقة بالتصدير إلى XLS ما يلي:
+بالإضافة إلى الوظائف المقدمة من قبل مصدر برنامج تصدير ميكروسوفت إكسل الأصلي على أساس POI، يُزود هذا المكون ببعض الميزات القيمة. تتضمن الابتكارات الرئيسية المتعلقة بالتصدير إلى XLS ما يلي:
 
-- قم بتوفير مخططات قابلة للتحرير بتنسيق Microsoft Excel بدلاً من الصور الثابتة.
+- توفير رسوم بيانية قابلة للتحرير بتنسيق Microsoft Excel بدلاً من الصور الثابتة.
 
-**يتم إنشاء نموذج تقرير باستخدام Aspose.Cells for JasperReports** 
+**يتم إنشاء تقرير عيني باستخدام Aspose.Cells for JasperReports** 
 
-![ما يجب القيام به: image_بديل_نص](product-overview_2.png)
+![todo:image_alt_text](product-overview_2.png)

@@ -1,30 +1,31 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.1.0
+---
+title: تغييرات الواجهة العمومية في Aspose.Cells 8.1.0
 type: docs
 weight: 50
 url: /ar/java/public-api-changes-in-aspose-cells-8-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.0.2 إلى 8.1.0 ، والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.0.2 إلى 8.1.0، والتي قد تكون ذات أهمية لمطوري الوحدات / التطبيقات. يشمل ذلك ليس فقط الأساليب العمومية الجديدة والمحدثة، ولكن أيضًا وصفاً لأي تغييرات في السلوك الكامنة في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة خاصية HtmlSaveOptions.ExportHiddenWorksheet**
-كشفت فئة HtmlSaveOptions عن خاصية ExportHiddenWorksheet التي يمكن استخدامها لتحديد ما إذا كان سيتم تصدير أوراق العمل المخفية بتنسيق HTML. القيمة الافتراضية هي الحقيقية. بينما إذا تم الضبط على "خطأ" ، فلن يقوم Aspose.Cells بتصدير محتويات ورقة العمل المخفية.
+## **تمت إضافة خاصية حفظ الورقة مخفية إلى خيارات حفظ HTML**
+فصل HtmlSaveOptions تضم خاصية ExportHiddenWorksheet التي يمكن استخدامها لتحديد ما إذا كانت الأوراق العمل المخفية تُصدر إلى تنسيق HTML. القيمة الافتراضية هي true، حيث إذا تم تعيينها على false، فإن Aspose.Cells لن تصدر محتويات الأوراق العمل المخفية.
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال المفصل على[منع تصدير ورقة العمل المخفية](/cells/ar/java/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
+يرجى التحقق من المقال المفصل حول [منع تصدير الأوراق العمل المخفية](/cells/ar/java/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
 
 {{% /alert %}}
-## **تمت إضافة Cell.StringValueWithoutFormat خاصية**
- تمت إضافة خاصية StringValueWithoutFormat إلى الفئة Cell ، من أجل تسهيل استرجاع المطورين لقيمة الخلية دون تطبيق أي تنسيق.
+## **تمت إضافة خاصية Cell.StringValueWithoutFormat**
+تمت إضافة خاصية StringValueWithoutFormat إلى فئة الخلية، لتسهيل عمل المطورين في استرداد قيمة الخلية بدون تطبيق أي تنسيق. 
 
-يوضح مقتطف الكود أدناه استخدام طريقة Cell.getStringValueWithoutFormat مقارنةً بالخلية cell.getDisplayStringValue عن طريق إنشاء جدول بيانات من البداية وتطبيق تنسيق الأرقام على إحدى الخلايا.
+الكود المقدم أدناه يظهر كيفية استخدام طريقة Cell.getStringValueWithoutFormat مقارنة ب cell.getDisplayStringValue عن طريق إنشاء جدول بيانات من البداية وتطبيق تنسيق على إحدى الخلايا. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -80,11 +81,11 @@ System.out.println("Un-formatted String Value: " + unformatted);
 
 {{% alert color="primary" %}} 
 
-إخراج الكود أعلاه على النحو التالي
+إخراج الكود أعلاه هو كما يلي
 
-قيمة السلسلة المنسقة: 123،456
-قيمة السلسلة غير المنسقة: 123456
+القيمة المنسقة: 123,456
+القيمة غير المنسقة: 123456
 
 {{% /alert %}}
-## **البايت المتقادمة ، الأحرف ، الأحرف مع المسافات ، الخطوط ، خصائص الفقرات**
- تم تمييز العديد من العقارات من فئة BuiltInDocumentPropertyCollection بأنها قديمة بدءًا من Aspose.Cells for .NET 8.1.0. تتضمن هذه الخصائص Bytes و Characters و CharactersWithSpaces و Lines & Paragraphs. السبب هو أن الخصائص المذكورة أعلاه لا تفيد في الحفاظ على جداول بيانات Excel لأن Excel يغفلها. حيث تمت كتابة هذه الخصائص في الأصل لمستندات Word والعروض التقديمية PowerPoint.
+## **خصائص Bytes, Characters, CharactersWithSpaces, Lines, Paragraphs تم تسجيلها بأنها منتهية الصلاحية**
+تم تحديد العديد من الخصائص من فئة BuiltInDocumentPropertyCollection كمهجون اعتبارًا من Aspose.Cells for .NET 8.1.0. يشمل ذلك الخصائص Bytes وCharacters وCharactersWithSpaces وLines & Paragraphs. السبب في ذلك هو عدم الفائدة من هذه الخصائص في الحفاظ على جداول بيانات Excel لأن Excel يتجاهلها. حيث كانت هذه الخصائص مكتوبة أصلاً لمستندات Word وعروض تقديمية لـ PowerPoint. 

@@ -1,88 +1,89 @@
-﻿---
-title: Aspose.Cells Modello oggetto
+---
+title: Modello di oggetto Aspose.Cells
 type: docs
 weight: 20
 url: /it/python-java/aspose-cells-object-model/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells Object Model fornisce informazioni sulle relazioni strutturali tra gli oggetti della libreria di classi Aspose.Cells.
+Il modello di oggetto Aspose.Cells fornisce informazioni sulle relazioni strutturali tra gli oggetti della libreria di classi Aspose.Cells.
 
 {{% /alert %}}
 
-La struttura di livello superiore del modello a oggetti Aspose.Cells è mostrata di seguito in modo gerarchico.
+La struttura di livello superiore del modello di oggetto Aspose.Cells è mostrata di seguito in modo gerarchico.
 
-|**Struttura di primo livello del modello a oggetti Aspose.Cells**|
-|:- |
-|![cose da fare:immagine_alt_testo](aspose-cells-object-model_1.png)|
-Come puoi vedere dalla figura sopra, la radice del modello a oggetti è l'oggetto Workbook. Di seguito viene fornita una breve descrizione di alcuni degli oggetti a scopo introduttivo.
+|**Struttura di livello superiore del modello di oggetto Aspose.Cells**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_1.png)|
+Come si può vedere dalla figura precedente, la radice del modello di oggetto è l'oggetto Workbook. Una breve descrizione di alcuni degli oggetti è fornita di seguito a scopo introduttivo.
 
-## **Foglio di lavoroCollezione/Foglio di lavoro**
+## **WorksheetCollection/Worksheet**
 
-L'oggetto Workbook contiene WorksheetCollection, che rappresenta la raccolta di tutti gli oggetti Worksheet in un foglio di calcolo come mostrato di seguito:
+L'oggetto Workbook contiene la WorksheetCollection, che rappresenta la raccolta di tutti gli oggetti Worksheet in un foglio di calcolo, come mostrato di seguito:
 
-|**Fogli di lavoro e oggetti del foglio di lavoro**|
-|:- |
-|![cose da fare:immagine_alt_testo](aspose-cells-object-model_2.png)|
+|**Fogli di lavoro e oggetti fogli di lavoro**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_2.png)|
 
 ## **Cells/Cell**
 
-Ogni oggetto foglio di lavoro contiene un oggetto Cells che rappresenta la raccolta di tutti gli oggetti Cell in un foglio di lavoro come mostrato di seguito:
+Ogni oggetto foglio di lavoro contiene un oggetto Celle che rappresenta la collezione di tutte le celle in un foglio di lavoro come mostrato di seguito:
 
-|**Cells & Cell oggetti**|
-|:- |
-|![cose da fare:immagine_alt_testo](aspose-cells-object-model_3.png)|
-È possibile utilizzare l'oggetto Cell per ottenere e impostare il valore, lo stile, la formula e altre proprietà di una singola cella.
+|**Celle e oggetti cella**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_3.png)|
+È possibile utilizzare l'oggetto Cella per ottenere e impostare il valore, lo stile, la formula e altre proprietà di una singola cella.
 
-## **GraficoCollezione/Grafico**
+## **ChartCollection/Chart**
 
-L'oggetto Charts rappresenta una raccolta di tutti gli oggetti Chart in un foglio di lavoro. Ogni oggetto grafico è composto da diversi altri oggetti che lavorano insieme per creare e gestire grafici. La struttura del grafico in Aspose.Cells è mostrata nel diagramma seguente:
+L'oggetto Grafici rappresenta una collezione di tutti gli oggetti Grafico in un foglio di lavoro. Ogni oggetto Grafico è composto da diversi altri oggetti che lavorano insieme per creare e gestire i grafici. La struttura del grafico in Aspose.Cells è mostrata nel diagramma sottostante:
 
-|**Modello a oggetti del grafico**|
-|:- |
-|![cose da fare:immagine_alt_testo](aspose-cells-object-model_4.png)|
+|**Modello di oggetto del grafico**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_4.png)|
 
-## **CommentRaccolta/Commento**
+## **CommentCollection/Comment**
 
-Ogni oggetto Worksheet contiene anche un oggetto Comments che rappresenta la raccolta di tutti gli oggetti Comment in un foglio di lavoro come mostrato di seguito:
+Ogni oggetto foglio di lavoro contiene anche un oggetto Commenti che rappresenta la collezione di tutti gli oggetti Commento in un foglio di lavoro come mostrato di seguito:
 
 |**Commenti e oggetti commento**|
-|:- |
-|![cose da fare:immagine_alt_testo](aspose-cells-object-model_5.png)|
-Un oggetto Comment viene utilizzato per aggiungere un commento a qualsiasi cella specificata nel foglio di lavoro.
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_5.png)|
+Un oggetto Commento viene utilizzato per aggiungere un commento a una cella specificata nel foglio di lavoro.
 
-## **RaccoltaInterruzionePaginaOrizzontale/InterruzionePaginaOrizzontale**
+## **HorizontalPageBreakCollection/HorizontalPageBreak**
 
-Ogni oggetto Worksheet contiene un oggetto HorizontalPageBreakCollection che rappresenta una raccolta di tutti gli oggetti HorizontalPageBreak in un foglio di lavoro come mostrato di seguito:
+Ogni oggetto foglio di lavoro contiene una Collezione interruzioni di pagina orizzontale che rappresenta una collezione di tutte le interruzioni di pagina orizzontale in un foglio di lavoro come mostrato di seguito:
 
-|**Oggetti HPageBreaks e HPageBreak**|
-|:- |
-|![cose da fare:immagine_alt_testo](aspose-cells-object-model_6.png)|
-Un oggetto HorizontalPageBreak viene utilizzato per creare un'interruzione di pagina orizzontale nel foglio di lavoro.
+|**InterruzioniPagina & Oggetti Interruzione di pagina**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_6.png)|
+Un oggetto Interruzione di pagina orizzontale viene utilizzato per creare un'interruzione di pagina orizzontale nel foglio di lavoro.
 
-## **Collegamento ipertestuale/collegamento ipertestuale**
+## **HyperlinkCollection/Hyperlink**
 
-Un oggetto Worksheet contiene anche un HyperlinkCollection che rappresenta una raccolta di tutti gli oggetti Hyperlink nel foglio di lavoro come mostrato di seguito:
+Un oggetto foglio di lavoro contiene anche una Collezione collegamenti ipertestuali che rappresenta una collezione di tutti gli oggetti collegamento ipertestuale nel foglio di lavoro come mostrato di seguito:
 
 |**Collegamenti ipertestuali e oggetti collegamento ipertestuale**|
-|:- |
-|![cose da fare:immagine_alt_testo](aspose-cells-object-model_7.png)|
-Un oggetto Hyperlink rappresenta un collegamento ipertestuale nel foglio di lavoro. Gli sviluppatori possono impostare l'indirizzo del collegamento ipertestuale e altre proprietà correlate utilizzando l'oggetto Collegamento ipertestuale.
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_7.png)|
+Un oggetto Collegamento ipertestuale rappresenta un collegamento ipertestuale nel foglio di lavoro. Gli sviluppatori possono impostare l'indirizzo del collegamento ipertestuale e altre proprietà correlate utilizzando l'oggetto Collegamento ipertestuale.
 
-## **Raccolta di immagini/Immagine**
+## **PictureCollection/Picture**
 
-Ogni oggetto Worksheet contiene un oggetto PictureCollection che rappresenta una raccolta di tutti gli oggetti Picture in un foglio di lavoro come mostrato di seguito:
+Ciascun oggetto Worksheet contiene un oggetto PictureCollection che rappresenta una collezione di tutti gli oggetti Picture in un foglio di lavoro come mostrato di seguito:
 
-|**Immagini e oggetti immagine**|
-|:- |
-|![cose da fare:immagine_alt_testo](aspose-cells-object-model_8.png)|
-Un oggetto Picture rappresenta un'immagine nel foglio di lavoro. Utilizzando l'oggetto Immagine, gli sviluppatori non possono solo aggiungere immagini nei loro fogli di lavoro, ma anche posizionare queste immagini in qualsiasi posizione. È anche possibile impostare bordi o altre proprietà delle immagini.
+|**Immagine e oggetti Immagine**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_8.png)|
+Un oggetto Picture rappresenta un'immagine nel foglio di lavoro. Utilizzando l'oggetto Picture, gli sviluppatori possono non solo aggiungere immagini nei propri fogli di lavoro ma anche posizionare queste immagini in qualsiasi posizione. È anche possibile impostare i bordi o altre proprietà delle immagini.
 
 ## **VerticalPageBreakCollection/VerticalPageBreak**
 
-Ogni oggetto Worksheet contiene un oggetto VerticalPageBreakCollection che rappresenta una raccolta di tutti gli oggetti VerticalPageBreak in un foglio di lavoro come mostrato di seguito:
+Ciascun oggetto Worksheet contiene un oggetto VerticalPageBreakCollection che rappresenta una collezione di tutte le interruzioni di pagina verticali in un foglio di lavoro come mostrato di seguito:
 
-|**Oggetti VPageBreaks e VPageBreak**|
-|:- |
-|![cose da fare:immagine_alt_testo](aspose-cells-object-model_9.png)|
+|**VPageBreaks e oggetti VPageBreak**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_9.png)|
 Un oggetto VerticalPageBreak viene utilizzato per creare un'interruzione di pagina verticale nel foglio di lavoro.

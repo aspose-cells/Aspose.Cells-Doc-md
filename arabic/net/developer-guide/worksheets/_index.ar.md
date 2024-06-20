@@ -1,87 +1,89 @@
-﻿---
-title: إدارة أوراق عمل Microsoft ملفات Excel.
-linktitle: أوراق عمل
+---
+title: إدارة أوراق العمل في ملفات Microsoft Excel.
+linktitle: أوراق العمل
 type: docs
 weight: 90
 url: /ar/net/manage-worksheets/
-description: إضافة ورقة عمل وإزالة ورقة العمل والورقة النشطة باستخدام Aspose.Cells.
+description: إضافة ورقة عمل، إزالة ورقة عمل وورقة نشطة باستخدام Aspose.Cells.
 ---
+
+
 {{% alert color="primary" %}}
 
-يمكن للمطورين إنشاء أوراق عمل وإدارتها بسهولة في ملفات Excel Microsoft برمجيًا باستخدام API Aspose.Cells 'مرنًا. يصف هذا الموضوع طرق إضافة أوراق العمل وإزالتها في ملفات Excel Microsoft.
+يمكن للمطورين إنشاء وإدارة أوراق العمل بشكل سهل في ملفات مايكروسوفت إكسل برمجيًا باستخدام واجهة برمجة التطبيقات المرنة لـ Aspose.Cells. يصف هذا الموضوع الطرق لإضافة وإزالة أوراق العمل في ملفات مايكروسوفت إكسل.
 
 {{% /alert %}}
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل ملف Excel. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
+توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، تمثل ملف إكسل. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) تتيح الوصول إلى كل ورقة عمل في ملف إكسل.
 
- يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)توفر class مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل.
+تمثل ورقة العمل بفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل.
 
-## **إضافة أوراق عمل إلى ملف Excel جديد**
+## **إضافة ورقات العمل إلى ملف Excel جديد**
 
-لإنشاء ملف Excel جديد برمجيًا:
+لإنشاء ملف Excel جديد برمجياً:
 
-1.  قم بإنشاء كائن من[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)صف دراسي.
-1.  اتصل ب[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) طريقة[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) صف دراسي. تتم إضافة ورقة عمل فارغة إلى ملف Excel تلقائيًا. يمكن الرجوع إليه عن طريق تمرير فهرس ورقة ورقة العمل الجديدة إلى ملف[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) مجموعة.
+1. إنشاء كائن من الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+1. استدعاء الطريقة [**Add**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) من الفئة [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection). يتم إضافة ورقة عمل فارغة تلقائياً إلى ملف إكسل. يمكن الإشارة إليها عن طريق تمرير فهرس الورقة الجديدة إلى مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets).
 1. الحصول على مرجع ورقة العمل.
-1. أداء العمل على أوراق العمل.
-1.  احفظ ملف Excel الجديد بأوراق عمل جديدة عن طريق استدعاء ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**يحفظ**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)طريقة.
+1. القيام بالعمل على أوراق العمل.
+1. حفظ ملف إكسل الجديد مع أوراق جديدة بتوجيه طريقة [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) لفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToNewExcelFile-1.cs" >}}
 
-## **إضافة أوراق عمل إلى جدول بيانات المصمم**
+## **إضافة ورقات عمل إلى جدول التصميم**
 
- عملية إضافة أوراق العمل إلى جدول بيانات المصمم مماثلة لعملية إضافة ورقة عمل جديدة ، باستثناء أن ملف Excel موجود بالفعل ، لذا يجب فتحه قبل إضافة أوراق العمل. يمكن فتح جدول بيانات المصمم بواسطة[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)صف دراسي.
+عملية إضافة أوراق العمل إلى جدول إكسل للمصمم هي نفس عملية إضافة ورقة عمل جديدة، باستثناء أن ملف إكسل موجود بالفعل ويجب فتحه قبل إضافة الأوراق. يمكن فتح جدول إكسل للمصمم بواسطة فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToDesignerSpreadSheet-1.cs" >}}
 
-## **الوصول إلى أوراق العمل باستخدام اسم الورقة**
+## **الوصول إلى الأوراق العمل باستخدام اسم الورقة**
 
-قم بالوصول إلى أي ورقة عمل بتحديد اسمها أو فهرسها.
+الوصول إلى أي ورقة عمل عن طريق تحديد اسمها أو فهرسها.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AccessingWorksheetsusingSheetName-1.cs" >}}
 
-## **إزالة أوراق العمل باستخدام اسم الورقة**
+## **إزالة الأوراق العمل باستخدام اسم الورقة**
 
-لإزالة أوراق العمل من أحد الملفات ، اتصل بامتداد[**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat/index) طريقة[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) صف دراسي. قم بتمرير اسم الورقة إلى[**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells.worksheetcollection/removeat/methods/1)طريقة لإزالة ورقة عمل محددة.
+لإزالة أوراق العمل من ملف، ادع الطريقة [**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat/index) من فئة [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection). امرر اسم الورقة إلى الطريقة [**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells.worksheetcollection/removeat/methods/1) لإزالة ورقة عمل معينة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetName-1.cs" >}}
 
-## **إزالة أوراق العمل باستخدام فهرس الورقة**
+## **إزالة الأوراق العمل باستخدام فهرس الورقة**
 
- تعمل إزالة أوراق العمل حسب الاسم بشكل جيد عندما يكون اسم ورقة العمل معروفًا. إذا كنت لا تعرف اسم ورقة العمل ، فاستخدم إصدارًا محملاً بشكل زائد من ملف[**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat)الطريقة التي تأخذ فهرس ورقة العمل بدلاً من اسم الورقة الخاص بها.
+يعمل إزالة الأوراق باسم عندما يكون اسم ورقة العمل معروفًا. إذا لم تكن تعرف اسم ورقة العمل، استخدم الطراز الزائد للطريقة [**RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat) الذي يأخذ فهرس ورقة العمل بدلاً من اسمها.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetIndex-1.cs" >}}
 
-## **تنشيط الأوراق وتفعيل Cell في ورقة العمل**
+## **تنشيط الأوراق وجعل خلية نشطة في ورقة العمل**
 
-في بعض الأحيان ، تحتاج إلى ورقة عمل محددة لتكون نشطة ويتم عرضها عندما يفتح المستخدم ملف Excel Microsoft في Excel. وبالمثل ، قد ترغب في تنشيط خلية معينة وتعيين أشرطة التمرير لإظهار الخلية النشطة.
-Aspose.Cells قادر على القيام بكل هذه المهام.
+أحيانًا، تحتاج ورقة عمل معينة إلى أن تكون نشطة ومعروضة عندما يفتح المستخدم ملف إكسل في إكسل. بالمثل، قد ترغب في تنشيط خلية معينة وتعيين شريطي التمرير لعرض الخلية النشطة.
+تمتلك Aspose.Cells القدرة على القيام بكل هذه المهام.
 
- ان**الورقة النشطة** هي ورقة تعمل عليها: اسم الورقة النشطة في علامة التبويب غامق افتراضيًا.
+ورقة العمل النشطة هي الورقة التي تعمل عليها: اسم الورقة النشطة على علامة التبويب يكون سميك افتراضيًا.
 
- ان**خلية نشطة** هي خلية محددة ، الخلية التي يتم إدخال البيانات فيها عند بدء الكتابة. فقط خلية واحدة نشطة في كل مرة. يتم تمييز الخلية النشطة بحد ثقيل.
+الخلية النشطة هي الخلية المحددة، الخلية التي يتم إدخال البيانات فيها عند بدء الكتابة. تكون خلية واحدة فقط نشطة في وقت واحد. يتم تمييز الخلية النشطة بحد ثقيل.
 
-### **تنشيط الأوراق وتنشيط Cell**
+### **تفعيل الأوراق وجعل خلية نشطة**
 
-يوفر Aspose.Cells استدعاءات API محددة لتنشيط جدول وخانة. على سبيل المثال ، ملف[**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex)الخاصية مفيدة لتعيين الورقة النشطة في مصنف.
-بصورة مماثلة،[**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell)تُستخدم الخاصية لتعيين خلية نشطة والحصول عليها في ورقة العمل.
+توفر Aspose.Cells استدعاءات API محددة لتفعيل ورقة وخلية. على سبيل المثال، تعد خاصية [**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex) مفيدة لضبط الورقة النشطة في دفتر العمل.
+بالمثل، تستخدم الخاصية [**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell) لضبط والحصول على خلية نشطة في ورقة العمل.
 
-للتأكد من أن أشرطة التمرير الأفقية أو الرأسية موجودة في موضع فهرس الصفوف والأعمدة الذي تريده لإظهار بيانات محددة ، استخدم[**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) و[**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn)الخصائص.
+للتأكد من أن شريطي التمرير الأفقي أو العمودي في موضع فهرس الصف والعمود الذي تريد عرض البيانات المحددة فيه، استخدم الخصائص [**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) و [**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn).
 
-يوضح المثال التالي كيفية تنشيط ورقة عمل وإنشاء خلية نشطة فيها. في الإخراج الذي تم إنشاؤه ، سيتم تمرير أشرطة التمرير لجعل الصف الثاني والعمود الثاني كأول صف وعمود مرئيين.
+تُظهر الشفرة المثالية التالية كيفية تفعيل ورقة عمل وجعل خلية نشطة فيها. في الناتج المولد، ستتم تمرير أشرطة التمرير لجعل الصف الثاني والعمود الثاني أول صف وعمود مرئيين لديها.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-MakeCellActive-1.cs" >}}
 
-## **موضوعات مسبقة**
-- [نسخ أوراق العمل ونقلها](/cells/ar/net/copying-and-moving-worksheets/)
-- [عد عدد الخلايا في ورقة العمل](/cells/ar/net/count-number-of-cells-in-the-worksheet/)
-- [كشف أوراق العمل الفارغة](/cells/ar/net/detecting-empty-worksheets/)
-- [اكتشف ما إذا كانت ورقة العمل هي ورقة حوار](/cells/ar/net/find-if-the-worksheet-is-dialog-sheet/)
-- [احصل على معرف فريد لورقة العمل](/cells/ar/net/get-worksheet-unique-id/)
-- [إنشاء أو معالجة أو إزالة السيناريوهات من أوراق العمل](/cells/ar/net/create-manipulate-or-remove-scenarios-from-worksheets/)
+## **مواضيع متقدمة**
+- [نسخ ونقل أوراق العمل](/cells/ar/net/copying-and-moving-worksheets/)
+- [عدد الخلايا في ورقة العمل](/cells/ar/net/count-number-of-cells-in-the-worksheet/)
+- [الكشف عن ورق العمل الفارغة](/cells/ar/net/detecting-empty-worksheets/)
+- [العثور على ورقة العمل هل هي ورقة حوار](/cells/ar/net/find-if-the-worksheet-is-dialog-sheet/)
+- [الحصول على معرف فريد لورقة العمل](/cells/ar/net/get-worksheet-unique-id/)
+- [إنشاء أو تلاعب أو إزالة السيناريوهات من ورقات العمل](/cells/ar/net/create-manipulate-or-remove-scenarios-from-worksheets/)
 - [إدارة فواصل الصفحات](/cells/ar/net/managing-page-breaks/)
 - [ميزات إعداد الصفحة](/cells/ar/net/page-setup-features/)
-- [اطبع عدة نسخ من ورقة العمل](/cells/ar/net/print-multiple-copies-of-a-worksheet/)
-- [استخدم خاصية Sheet.SheetId الخاصة بـ OpenXml باستخدام Aspose.Cells](/cells/ar/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
-- [طرق عرض ورقة العمل](/cells/ar/net/worksheet-views/)
+- [طباعة عدة نسخ من ورقة العمل](/cells/ar/net/print-multiple-copies-of-a-worksheet/)
+- [الاستفادة من خاصية Sheet.SheetId في الشكل المفتوحXML باستخدام Aspose.Cells](/cells/ar/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
+- [عروض ورقة العمل](/cells/ar/net/worksheet-views/)
 

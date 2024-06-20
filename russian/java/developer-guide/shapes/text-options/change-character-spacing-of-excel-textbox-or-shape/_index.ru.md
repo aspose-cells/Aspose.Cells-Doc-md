@@ -1,23 +1,24 @@
-﻿---
-title: Изменить межсимвольный интервал в текстовом поле или фигуре Excel
+---
+title: Изменение межсимвольного интервала текстового поля или формы Excel
 type: docs
 weight: 740
 url: /ru/java/change-character-spacing-of-excel-textbox-or-shape/
 ---
+
 {{% alert color="primary" %}} 
 
- Вы можете изменить межсимвольный интервал в текстовом поле или фигуре Excel с помощью[FontSetting.TextOptions.Spacing](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#Spacing) имущество.
+Вы можете изменить межсимвольный интервал текстового поля или формы Excel с помощью свойства [FontSetting.TextOptions.Spacing](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#Spacing).
 
 {{% /alert %}} 
-## **Изменить межсимвольный интервал в текстовом поле или фигуре Excel**
-Следующий пример кода изменяет интервал между символами текстового поля в файле Excel на точку 4, а затем сохраняет его на диске.
+## **Изменить интервал между символами в текстовом поле или фигуре Excel**
+Приведенный ниже образец кода изменяет интервал между символами текстового поля в файле Excel на 4 и затем сохраняет его на диске.
 
- На следующем снимке экрана показано, как[образец эксель файла](5473426.xlsx) смотрит перед выполнением кода.
+На следующем скриншоте показано, как выглядит [примерный файл Excel](5473426.xlsx) до выполнения кода.
 
-![дело:изображение_альтернативный_текст](change-character-spacing-of-excel-textbox-or-shape_1.png)
+![todo:image_alt_text](change-character-spacing-of-excel-textbox-or-shape_1.png)
 
- На следующем снимке экрана показано, как[выходной файл excel](5473425.xlsx) следит за выполнением кода.
+На следующем скриншоте показано, как выглядит [файл Excel с результатом](5473425.xlsx) после выполнения кода.
 
-![дело:изображение_альтернативный_текст](change-character-spacing-of-excel-textbox-or-shape_2.png)
+![todo:image_alt_text](change-character-spacing-of-excel-textbox-or-shape_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeCharacterSpacing-ChangeCharacterSpacing.java" >}}

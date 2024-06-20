@@ -1,38 +1,39 @@
-﻿---
-title: Använd alternativ för felkontroll
+---
+title: Använda alternativ för felkontroll
 type: docs
 weight: 60
 url: /sv/java/use-error-checking-options/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel tillåter användare att definiera felkontrollalternativ och regler. Användare ser ofta felkontroller när de skapar formler, en liten triangel i det övre högra hörnet av en cell markerar när det finns ett problem med en cell. Excel tillhandahåller information som hjälper användare att åtgärda vanliga problem.
+Microsoft Excel låter användare definiera felkontrollalternativ och regler. Användare ser ofta felkontroller vid skapande av formler, en liten triangel i övre högra hörnet på en cell markeras om det finns ett problem med en cell. Excel tillhandahåller information som hjälper användare att korrigera vanliga problem.
 
 {{% /alert %}} 
 ## **Typer av fel**
-Fel som gör att formeln inte kan returnera ett resultat - som att dividera ett tal med noll - kräver omedelbar uppmärksamhet och ett felvärde visas i cellen. Om du klickar på den gröna triangeln visas ett utropstecken, om du klickar på detta öppnas en lista med alternativ.
+Fel som innebär att formeln inte kan returnera ett resultat - som att dividera ett tal med noll - kräver omedelbar uppmärksamhet och ett felvärde visas i cellen. Klicka på den gröna triangeln, ett utropstecken visas. Genom att klicka på detta öppnas en lista med alternativ. 
 
-Felet kan lösas med hjälp av alternativen eller ignoreras. Att ignorera ett fel innebär att det felet inte kommer att visas i ytterligare felkontroller.
+Felet kan åtgärdas med hjälp av alternativen eller ignoreras. Att ignorera ett fel innebär att felet inte kommer att visas i ytterligare felkontroller.
 
-Aspose.Cells ger felkontrollfunktioner. Klassen ErrorCheckOptions hanterar olika typer av felkontroller, till exempel nummer lagrade som text, formelberäkningsfel och valideringsfel. Använd ErrorCheckType-uppräkningen för att ställa in önskad felkontroll.
-## **Numbers Lagrat som text**
-Ibland kan siffror formateras och lagras i celler som text. Detta kan orsaka problem med beräkningar eller skapa förvirrande sorteringsordningar. Numbers som är formaterade som text är vänsterjusterade istället för högerjusterade i cellen. Om en formel som ska utföra en matematisk operation på celler inte returnerar ett värde, kontrollera justeringen i cellerna som formeln refererar till – några eller alla av dessa celler kan vara siffror formaterade som text.
+Aspose.Cells tillhandahåller funktioner för felkontroll. Klassen ErrorCheckOptions hanterar olika typer av felkontroller, till exempel nummer som lagras som text, formelberäkningsfel och valideringsfel. Använd enum ErrorCheckType för att ställa in önskad felkontroll.
+## **Nummer som lagras som text**
+Ibland kan nummer formateras och lagras i celler som text. Det kan orsaka problem med beräkningar eller producera förvirrande sorteringsordningar. Nummer som är formaterade som text är vänsterjusterade istället för högerjusterade i cellen. Om en formel som ska utföra en matematisk operation på celler inte returnerar ett värde, kontrollera justeringen i cellerna som formeln hänvisar till - vissa eller alla dessa celler kan vara nummer formaterade som text.
 
-Du kan använda alternativen för felkontroll för att snabbt konvertera siffror som lagrats som text till reella siffror. I Microsoft Excel 2003:
+Du kan använda felkontrolloptionerna för att snabbt konvertera nummer som lagras som text till verkliga nummer.
 
-1.  På**Verktyg** menyn, klicka**alternativ**.
-1. Välj fliken Felkontroll.
-   **Nummer lagras som text** alternativet är markerat som standard.
-1. Inaktivera den.
- Se bilden nedan om hur den gröna triangeln visas för data i MS Excel.
+1. På **Verktyg**-menyn klickar du på **Alternativ**.
+1. Markera fliken för Felkontroll.
+   **Alternativ för siffror sparade som text** alternativet är markerat som standard. 
+1. Inaktivera det.
+   Se nedanstående bild om hur den gröna triangeln visas för datan i MS Excel.
 
 ![todo:image_alt_text](use-error-checking-options_1.png)
 
- Följande exempelkod visar hur du inaktiverar siffrorna som lagras som textfelkontrollalternativ för ett kalkylblad i mallen XLS-filen med hjälp av Aspose.Cells-API:erna.
+Följande exempelkod visar hur man inaktiverar felkontrollen för siffror sparade som text för en arbetsbok i mallen XLS med hjälp av Aspose.Cells API. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook and opening a template spreadsheet
 

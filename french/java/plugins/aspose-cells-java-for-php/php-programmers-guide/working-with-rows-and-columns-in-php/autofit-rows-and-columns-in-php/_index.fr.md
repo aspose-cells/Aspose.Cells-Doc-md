@@ -1,16 +1,17 @@
-﻿---
+---
 title: Ajustement automatique des lignes et des colonnes en PHP
 type: docs
 weight: 20
 url: /fr/java/autofit-rows-and-columns-in-php/
 ---
-## **Aspose.Cells - Ajustement automatique des lignes et des colonnes**
-### **Ligne d'ajustement automatique**
-L'approche la plus simple pour dimensionner automatiquement la largeur et la hauteur d'une ligne consiste à appeler la méthode autoFitRow de la classe Worksheet. La méthode autoFitRow prend un index de ligne (de la ligne à redimensionner) comme paramètre.
+
+## **Aspose.Cells - Ajuster automatiquement les lignes et les colonnes**
+### **Ajuster automatiquement la ligne**
+L'approche la plus directe pour ajuster automatiquement la largeur et la hauteur d'une ligne est d'appeler la méthode autoFitRow de la classe Worksheet. La méthode autoFitRow prend un indice de ligne (de la ligne à redimensionner) en tant que paramètre.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_row($dataDir)
 
@@ -43,12 +44,12 @@ L'approche la plus simple pour dimensionner automatiquement la largeur et la hau
 }
 
 {{< /highlight >}}
-### **Colonne d'ajustement automatique**
-Le moyen le plus simple de redimensionner automatiquement la largeur et la hauteur d'une colonne consiste à appeler la méthode autoFitColumn de la classe Worksheet. La méthode autoFitColumn prend l'index de colonne (de la colonne sur le point d'être redimensionnée) comme paramètre.
+### **Ajustement automatique de colonne**
+La manière la plus simple pour auto-dimensionner la largeur et la hauteur d'une colonne est d'appeler la méthode autoFitColumn de la classe Worksheet. La méthode autoFitColumn prend l'indice de la colonne (de la colonne à redimensionner) en tant que paramètre.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_column($dataDir)
 
@@ -81,7 +82,7 @@ Le moyen le plus simple de redimensionner automatiquement la largeur et la haute
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Ajustement automatique des lignes et des colonnes (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Télécharger **Ajustement automatique des lignes et des colonnes (Aspose.Cells)** de n'importe lequel des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

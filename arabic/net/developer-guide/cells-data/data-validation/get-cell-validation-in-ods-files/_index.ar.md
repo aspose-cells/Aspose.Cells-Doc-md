@@ -1,17 +1,18 @@
 ---
-title: احصل على التحقق من صحة Cell في ملفات ODS
+title: الحصول على التحقق من الخلية في ملفات ODS
 type: docs
 weight: 180
 url: /ar/net/get-cell-validation-in-ods-files/
-description: تعرف على كيفية الحصول على التحقق من صحة Cell في ODS الملفات من خلال Aspose.Cells for .NET API..
-keywords: Get Cell Validation, Obtain Cell Validation 
+description: تعلم كيفية الحصول على التحقق من الخلية في ملفات ODS من خلال واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: الحصول على التحقق من الخلية، الحصول على التحقق من الخلية 
 ---
-##  **احصل على التحقق من صحة Cell في ملفات ODS**
 
-مع Aspose.Cells، يمكنك الحصول على التحقق من الصحة المطبق على خلية في ODS ملف. لهذا، يوفر API[**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) طريقة[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) فصل.
+## **الحصول على التحقق من الخلية في ملفات ODS**
 
-يوضح نموذج التعليمات البرمجية التالي استخدام[**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) الطريقة عن طريق تحميل[المصدر ODS](101089354.ods)الملف وقراءة التحقق من صحة الخلية A9.
+مع Aspose.Cells، يمكنك الحصول على التحقق المطبق على خلية في ملفات ODS. لهذا الغرض، يوفر واجهة برمجة التطبيقات الوسيلة [**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) للفئة [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
-###  **عينة من الرموز**
+توضح العينة البرمجية التالية استخدام الأسلوب [**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) من خلال تحميل ملف [ODS المصدر](101089354.ods) وقراءة التحقق من صحة الخلية A9.
+
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetCellValidationInODS-1.cs" >}}

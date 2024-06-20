@@ -1,34 +1,35 @@
-﻿---
-title: Konvertieren Sie eine Datei
+---
+title: Datei konvertieren
 type: docs
 weight: 10
 url: /de/sharepoint/convert-one-file/
 ---
+
 {{% alert color="primary" %}} 
 
- Eine der häufigsten Aufgaben, für die Benutzer Aspose.Cells verwenden, ist das Konvertieren einzelner Dateien.
+Eine der häufigsten Aufgaben, für die Benutzer Aspose.Cells verwenden, ist die Konvertierung einzelner Dateien. 
 
 {{% /alert %}} 
-### **Konvertieren einzelner Dateien**
- So konvertieren Sie ein bestimmtes Dokument in einer Dokumentbibliothek:
+### **Einzelne Dateien konvertieren**
+Um ein bestimmtes Dokument in einer Dokumentenbibliothek zu konvertieren: 
 
-1.  Wählen**Konvertieren Sie mit Aspose.Cells.SharePoint** im Edit Control Block (ECB) des Dokuments.
+1. Wählen Sie **Mit Aspose.Cells.SharePoint konvertieren** im Bearbeitungssteuerelement (ECB) des Dokuments aus. 
 
-   **Auswahl des Elements „Convert via Aspose.Cells“ im ECB des Dokuments** 
+   **Auswahl des Elements „Konvertieren über Aspose.Cells“ im ECB des Dokuments** 
 
-![todo: Bild_alt_Text](convert-one-file_1.png)
+![todo:image_alt_text](convert-one-file_1.png)
 
 
 
-Der Bildschirm mit den Konvertierungseinstellungen wird angezeigt. Hier können Sie die Konvertierung feinjustieren:
+Der Konvertierungseinstellungen-Bildschirm wird angezeigt. Hier können Sie die Konvertierung feinabstimmen:
 
-1.  Wählen Sie das Zieldateiformat aus der**Konvertieren zu** aufführen.
-1.  Geben Sie den Namen der Ausgabedatei in die**Zieldatei** Gebiet.
- Standardmäßig wird dieses Feld mit Aspose.Cells for SharePoint mit dem Namen der Quelldatei vorbelegt.
- Die Erweiterung wird entsprechend dem ausgewählten Format automatisch hinzugefügt.
-1.  Starten Sie die Konvertierung durch Klicken**Konvertieren**.
-(Oder gehen Sie zurück zur Bibliothek und verwerfen Sie Ihre Einstellungen, indem Sie auf klicken**Stornieren**.)
+1. Wählen Sie das Zielformat aus der Liste **Konvertieren zu** aus.
+1. Geben Sie den Namen der Ausgabedatei in das Feld **Zieldatei** ein.
+   Standardmäßig wird dieses Feld von Aspose.Cells for SharePoint mit dem Namen der Quelldatei ausgefüllt. 
+   Die Erweiterung wird automatisch gemäß dem ausgewählten Format hinzugefügt.
+1. Starten Sie die Konvertierung durch Klicken auf **Konvertieren**.
+   (Oder gehen Sie zurück zur Bibliothek, indem Sie Ihre Einstellungen verwerfen und auf **Abbrechen** klicken.)
 
-**Bildschirm „Konvertierungseinstellungen“ für eine Dateikonvertierung** 
+**Konvertierungseinstellungen-Bildschirm für die Konvertierung einer einzelnen Datei** 
 
-![todo: Bild_alt_Text](convert-one-file_2.png)
+![todo:image_alt_text](convert-one-file_2.png)

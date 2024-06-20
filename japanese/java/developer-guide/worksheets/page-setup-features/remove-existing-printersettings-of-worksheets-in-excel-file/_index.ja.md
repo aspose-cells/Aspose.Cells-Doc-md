@@ -1,19 +1,20 @@
-﻿---
-title: Excel ファイルのワークシートの既存の PrinterSettings を削除する
+---
+title: Excelファイルのワークシートの既存のPrinterSettingsを削除する方法
 type: docs
 weight: 40
 url: /ja/java/remove-existing-printersettings-of-worksheets-in-excel-file/
 ---
-## **考えられる使用シナリオ**
-開発者は、Excel が含まれないようにしたい場合があります。*。置き場*保存された XLSX ファイル内のプリンター設定のファイル。プリンター設定ファイルは次の場所にあります。*「[ファイル「ルート」]\xl\printerSettings」*.このドキュメントでは、Aspose.Cells API を使用して既存のプリンター設定を削除する方法について説明します。
-## **Excel ファイルのワークシートの既存の PrinterSettings を削除する**
-Aspose.Cells を使用すると、Excel ファイル内の異なるシートに指定されている既存のプリンター設定を削除できます。次のサンプル コードは、ブック内のすべてのワークシートの既存のプリンター設定を削除する方法を示しています。ご覧ください[サンプル Excel ファイル](45056023.xlsx), [出力エクセルファイル](45056024.xlsx)、コンソール出力、および参照用のスクリーンショット。
+
+## **可能な使用シナリオ**
+開発者は、保存されたXLSXファイルで*.bin*ファイルを含めないようにすることがあります。プリンター設定ファイルは*「[file "root"]\xl\printerSettings」*の下にあります。このドキュメントでは、Aspose.Cells APIを使用して既存のプリンター設定を削除する方法について説明します。
+## **Excelファイルのワークシートの既存のPrinterSettingsを削除する**
+Aspose.Cellsを使用して、Excelファイルの異なるシートに指定された既存のプリンター設定を削除することができます。次のサンプルコードは、ワークブック内のすべてのワークシートに対して既存のプリンター設定を削除する方法を示しています。[サンプルExcelファイル](45056023.xlsx)、[出力Excelファイル](45056024.xlsx)、コンソール出力、および参照用のスクリーンショットをご覧ください。
 ## **スクリーンショット**
-![todo:画像_代替_文章](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
+![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.java" >}}
 ## **コンソール出力**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  PrinterSettings of this worksheet exist.
 

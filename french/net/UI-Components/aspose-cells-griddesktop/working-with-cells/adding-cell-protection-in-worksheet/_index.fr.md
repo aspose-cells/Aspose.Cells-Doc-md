@@ -1,16 +1,19 @@
-﻿---
-title: Ajout de la protection Cell dans la feuille de calcul
+---
+title: Ajouter la protection dans la feuille de calcul
 type: docs
 weight: 130
-url: /fr/net/adding-cell-protection-in-worksheet/
+url: /fr/net/aspose-cells-griddesktop/adding-cell-protection-in-worksheet/
+keywords: GridDesktop,protéger
+description: Cet article présente comment protéger les cellules dans la feuille de calcul dans GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells pour GridDesktop vous permet de protéger vos cellules dans une feuille de calcul. Vous devez d'abord protéger votre feuille de calcul, puis vous pouvez protéger les cellules souhaitées dans une feuille de calcul. Afin de protéger la feuille de calcul, veuillez définir**Feuille de calcul.Protégé** propriété sur true, puis utilisez**Feuille de calcul.SetProtected()** méthode pour protéger la plage de cellules.
+Aspose.Cells pour GridDesktop vous permet de protéger les cellules dans une feuille de calcul. Tout d'abord, vous devez protéger votre feuille de calcul, puis vous pouvez protéger les cellules souhaitées dans la feuille de calcul. Pour protéger la feuille de calcul, veuillez définir la propriété **Protected** de la feuille de calcul sur true, puis utilisez la méthode **SetProtected()** de la feuille de calcul pour protéger la plage de cellules.
 
 {{% /alert %}} 
-## **Protégez Cell en utilisant Aspose.Cells.GridDesktop**
- L'exemple de code suivant protège toutes les cellules de la plage**A1:B1** de la feuille de calcul active de GridDesktop. Lorsque vous double-cliquez sur une cellule de cette plage, vous ne pourrez pas modifier. Cela rendra ces cellules en lecture seule.
+## **Protéger la cellule en utilisant Aspose.Cells.GridDesktop**
+Le code d'exemple suivant protège toutes les cellules de la plage **A1:B1** de la feuille de calcul active de GridDesktop. Lorsque vous double-cliquerez sur une cellule de cette plage, vous ne pourrez pas la modifier. Ces cellules deviendront en lecture seule.
 
 
 

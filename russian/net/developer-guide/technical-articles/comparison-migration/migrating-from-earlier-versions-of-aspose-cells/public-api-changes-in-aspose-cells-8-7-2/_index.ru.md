@@ -1,39 +1,40 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.7.2
+---
+title: Изменения в общедоступном API в Aspose.Cells 8.7.2
 type: docs
 weight: 250
 url: /ru/net/public-api-changes-in-aspose-cells-8-7-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Этот документ описывает изменения в Aspose.Cells API с версии 8.7.1 до 8.7.2, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 8.7.1 до 8.7.2, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но также описание любых изменений в поведении внутри Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Расширен механизм расчета по умолчанию**
-Aspose.Cells API-интерфейсы имеют мощный вычислительный механизм, который может вычислять почти все Microsoft функции Excel. Более того, API-интерфейсы Aspose.Cells теперь позволяют расширить механизм вычислений по умолчанию, чтобы он соответствовал требованиям к вычислениям для любого приложения.
+## **Добавленные API**
+### **Расширен стандартный расчетный механизм**
+API Aspose.Cells имеет мощный расчетный механизм, который может вычислять практически все функции Microsoft Excel. Более того, API Aspose.Cells теперь позволяет расширять стандартный расчетный механизм для удовлетворения индивидуальных потребностей расчета любого приложения.
 
 Следующие API были добавлены с выпуском Aspose.Cells for .NET 8.7.2.
 
 1. Класс AbstractCalculationEngine
 1. Класс CalculationData
-1. CalculationOptions.CustomEngine Свойство
+1. Свойство CalculationOptions.CustomEngine
 
 {{% alert color="primary" %}} 
 
-Вышеупомянутые API-интерфейсы позволяют реализовать настраиваемый механизм расчета для всех функций (включая собственные функции Excel) с большей гибкостью.
+Упомянутые выше API позволяют реализовать пользовательский расчетный движок для всех функций (включая собственные функции Excel) с большей гибкостью.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[Внедрение пользовательского механизма расчета](/cells/ru/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+Для получения дополнительной информации об этой функции ознакомьтесь со подробной статьей по [Реализация пользовательского расчетного механизма](/cells/ru/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}} 
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class MyEngine : AbstractCalculationEngine
 
@@ -88,12 +89,12 @@ Aspose.Cells API-интерфейсы имеют мощный вычислите
 {{< /highlight >}}
 
 
-### **Добавлен перегруженный индексатор для TextBoxCollection**
-Aspose.Cells for .NET 8.7.2 предоставил перегруженный индекс для класса TextBoxCollection, чтобы получить доступ к экземпляру TextBox, используя его имя в виде строки.
+### **Добавлен перегруженный индексатор для коллекции TextBox**
+Aspose.Cells for .NET 8.7.2 добавил перегруженный индекс для класса TextBoxCollection для доступа к экземпляру TextBox по его имени в виде строки.
 
 {{% alert color="primary" %}} 
 
- Дополнительные сведения об этой функции см. в подробной статье о[Доступ к TextBox через его имя](/cells/ru/net/access-the-text-box-by-the-name/)
+Для получения дополнительной информации об этой функции ознакомьтесь со подробной статьей по [Доступ к текстовому полю по его имени](/cells/ru/net/access-the-text-box-by-the-name/)
 
 {{% /alert %}} 
 
@@ -101,7 +102,7 @@ Aspose.Cells for .NET 8.7.2 предоставил перегруженный и
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -130,14 +131,14 @@ box = sheet.TextBoxes["MyTextBox"];
 {{< /highlight >}}
 
 
-### **Добавлено событие OnAfterColumnFilter для GridWeb.**
-Aspose.Cells.GridWeb for .NET 8.7.2 предоставляет событие OnAfterColumnFilter, которое служит обратным вызовом для механизма фильтрации, выполняемого через пользовательский интерфейс Aspose.Cells.GridWeb. Как следует из названия, событие запускается после применения фильтрации столбца и может использоваться для получения информации о фильтрации, такой как индекс столбца, к которому был применен фильтр, и выбранное значение фильтра.
+### **Добавлено событие OnAfterColumnFilter для GridWeb**
+Aspose.Cells.GridWeb для .NET 8.7.2 добавил событие OnAfterColumnFilter, которое служит в качестве обратного вызова для механизма фильтрации, выполненной через пользовательский интерфейс Aspose.Cells.GridWeb. Как следует из названия, событие срабатывает после применения фильтрации столбца и может использоваться для получения информации о фильтрации, такой как индекс столбца, на котором был применен фильтр, и выбранное значение фильтра.
 
 Простой сценарий использования выглядит следующим образом.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void GridWeb1_AfterColumnFilter(object sender, Aspose.Cells.GridWeb.RowColumnEventArgs e)
 
@@ -151,6 +152,6 @@ Aspose.Cells.GridWeb for .NET 8.7.2 предоставляет событие On
 
 {{% alert color="primary" %}} 
 
-Не забудьте зарегистрировать событие в элементе управления GridWeb.<acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
+Do not forget to register the event to GridWeb control <acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
 
 {{% /alert %}}

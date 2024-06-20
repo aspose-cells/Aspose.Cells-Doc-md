@@ -1,16 +1,17 @@
-﻿---
-title: Afficher ou masquer les onglets dans Ruby
+---
+title: Afficher ou masquer les onglets en Ruby
 type: docs
 weight: 40
 url: /fr/java/display-or-hide-tabs-in-ruby/
 ---
-## **Aspose.Cells - Afficher ou masquer les onglets**
-### **Masquer les onglets**
- Pour masquer les onglets à l'aide de**Aspose.Cells Java pour rubis** , téléphoner à**afficher les onglets masqués** module.
 
-**Code rubis**
+## **Aspose.Cells - Afficher ou Masquer les onglets**
+### **Masquage des onglets**
+Pour masquer les onglets en utilisant **Aspose.Cells Java pour Ruby**, appelez le module **displayhidetabs**.
 
-{{< highlight "ruby" >}}
+**Code Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -30,18 +31,18 @@ puts "Tabs are now hidden, please check the output file."
 
 {{< /highlight >}}
 ### **Rendre les onglets visibles**
-Rendez les onglets visibles avec la méthode setSheetTabBarHidden(false) de la classe Workbook.
+Rendre les onglets visibles avec la méthode setSheetTabBarHidden(false) de la classe Workbook.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the tabs of the Excel file
 
 workbook.getSettings().setSowTabs(true)
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Masquer ou afficher ou masquer les onglets (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Masquer ou afficher ou masquer les onglets (Aspose.Cells)** sur l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidetabs.rb)

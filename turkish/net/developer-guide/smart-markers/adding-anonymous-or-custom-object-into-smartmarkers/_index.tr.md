@@ -1,18 +1,19 @@
-﻿---
-title: SmartMarkers'a Anonim veya Özel Nesne Ekleme
+---
+title: Anonim veya Özel Nesne Eklemek, Akıllı İşaretlerine
 type: docs
 weight: 10
 url: /tr/net/adding-anonymous-or-custom-object-into-smartmarkers/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu, anonim veya özel nesnelerin SmartMarkers'a nasıl aktarılacağını açıklar.
+Bu, anonim veya özel nesneleri Akıllı İşaretleri için veri kaynağı olarak nasıl içe aktaracağınızı açıklar.
 
-Bazen, özel nesneleri SmartMarkers'a bir veri kaynağı olarak dahil etmeniz gerekir. Aspose.Cells, veri kaynağı olarak özel nesnelerin kullanılmasını mümkün kılar.
+Bazen Akıllı İşaretleri için özel nesneleri veri kaynağı olarak eklemek isteyebilirsiniz. Aspose.Cells, özel nesnelerin veri kaynağı olarak kullanılmasını mümkün kılar.
 
 {{% /alert %}} 
 
-Lütfen özel nesnelerin SmartMarkers için bir veri kaynağı olarak nasıl ekleneceğini gösteren aşağıdaki örnek koda bakın.
+Aşağıdaki örnek kodu inceleyin, özel nesneleri Akıllı İşaretleri için veri kaynağı olarak nasıl ekleyeceğinizi gösterir.
 
 
 

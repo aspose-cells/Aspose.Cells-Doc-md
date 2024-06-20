@@ -1,15 +1,16 @@
-﻿---
-title: Удаление рабочих листов с использованием имени листа в PHP
+---
+title: Удаление листов с использованием имени листа в PHP
 type: docs
 weight: 40
 url: /ru/net/removing-worksheets-using-sheet-name-in-php/
 ---
-## **Удаление рабочих листов с использованием имени листа**
-Удаление рабочих листов с использованием имени листа
+
+## **Удаление листов с использованием имени листа**
+Удаление листов с использованием имени листа
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -32,7 +33,7 @@ url: /ru/net/removing-worksheets-using-sheet-name-in-php/
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Удаление рабочих листов с использованием имени листа (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **Удаление листов по имени (Aspose.Cells)** с любого из нижеперечисленных сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetName.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetName.php)

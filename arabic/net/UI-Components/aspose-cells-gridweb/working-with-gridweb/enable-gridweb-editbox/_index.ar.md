@@ -1,22 +1,25 @@
-﻿---
-title: تفعيل GridWeb EditBox
+---
+title: تمكين مربع التحرير في GridWeb
 type: docs
 weight: 110
-url: /ar/net/enable-gridweb-editbox/
+url: /ar/net/aspose-cells-gridweb/enable-gridweb-editbox/
+keywords: GridWeb, editbox, شريط الصيغ
+description: يقدم هذا المقال كيفية العمل مع شريط الصيغ أو مربع التحرير في GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-مربع تحرير GridWeb هو شريط أدوات يتم عرضه في الجزء العلوي من عنصر التحكم الذي يمكنك استخدامه لرؤية / إدخال البيانات / الصيغة أو نسخها إلى الخلايا. يعرض أيضًا اسم الخلية التي تقوم بتحريرها. بعد النقر فوق الإطار أو عند البدء في كتابة البيانات أو كتابة رمز يساوي (=) ، سيتم تنشيط مربع التحرير.
+قسم تحرير GridWeb (المعروف في Excel باسم شريط الصيغ) هو شريط أدوات يتم تقديمه في الجزء العلوي من عناصر التحكم يمكنك استخدامه لعرض قيمة أو إدخالها أو نسخ البيانات/الصيغة للخلية المركزة. كما يظهر اسم الخلية التي تقوم بتحريرها. بعد النقر على الإطار أو عند بدء كتابة البيانات أو إدخال علامة تساوي (=)، سيتم تنشيط قسم التحرير.
 
 {{% /alert %}} 
-## **ضبط مربع التحرير Aspose.Cells.GridWeb**
-يوفر عنصر التحكم GridWeb خاصية ShowCellEditBox التي يمكن للمطورين تعيينها إلى "True" لجعل شريط الأدوات يعمل. القيمة الافتراضية للسمة هي False. عند تعيين قيمته إلى "True" ، سيظهر مربع التحرير أعلى عنصر تحكم GridWeb.
+## **ضبط قسم التحرير في Aspose.Cells.GridWeb**
+يوفر عنصر تحكم GridWeb خاصية ShowCellEditBox التي يمكن للمطورين تعيينها على "True" لإظهار شريط الأدوات. القيمة الافتراضية للسمة هي False. عند تعيين قيمتها على "True"، سيظهر قسم التحرير في الجزء العلوي من عنصر تحكم GridWeb.
 
 {{% alert color="primary" %}} 
 
- لتمكين هذه الميزة ، تحتاج إلى استيراد ملف "jquery.js" إلى مشروعك وإحالته في صفحة (صفحات) aspx الخاصة بك لجعله يعمل. يمكنك تنزيل أرشيف jQuery من<https://jqueryui.com/download/all/> ووضع ملف (ملفات) المكتبة في مجلد ما في المشروع وإضافة مرجع إلى ملف المكتبة عبر<script> علامة في نموذج الويب .aspx الخاص بك على النحو التالي. جميع إصدارات jQuery الأخيرة على ما يرام.
+To enable this feature, you need to import "jquery.js" file to your project and refer it in your .aspx page(s) to make it work. You may download the jQuery archive from <https://jqueryui.com/download/all/> and put the library file(s) into some folder in the project and add reference to the library file via <script> tag in your .aspx web form as following. All the latest jQuery versions are OK.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <head id="Head1" runat="server">
 
@@ -32,9 +35,9 @@ url: /ar/net/enable-gridweb-editbox/
 
 {{% /alert %}} 
 
-**التحكم في GridWeb باستخدام مربع التحرير** 
+**عنصر تحكم GridWeb مع قسم التحرير** 
 
-![ما يجب القيام به: image_بديل_نص](enable-gridweb-editbox_1.png)
+![todo:image_alt_text](enable-gridweb-editbox_1.png)
 ### **مثال**
 
 

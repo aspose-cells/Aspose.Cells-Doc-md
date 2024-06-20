@@ -1,17 +1,20 @@
 ---
-title: Modifier les propriétés du segment
+title: Changer les propriétés de la trancheuse
 type: docs
 weight: 70
 url: /fr/python-net/change-slicer-properties/
+description: Apprenez comment changer les propriétés de la trancheuse avec Aspose.Cells pour Python via .NET.
+keywords: Aspose.Cells pour Python Excel, bibliothèque Excel Python, Changer les propriétés de la trancheuse sans Excel Python, Modifier les propriétés de la trancheuse sans Excel Python, Changer les propriétés de la trancheuse en utilisant la bibliothèque Excel Aspose.Cells pour Python.
 ---
-##  **Scénarios d'utilisation possibles**
 
-Dans certaines situations, vous souhaiterez peut-être modifier les propriétés du Slicer, telles que le placement ou la hauteur des lignes. Aspose.Cells for Python via .NET vous offre la possibilité de mettre à jour ces propriétés.
+## **Scénarios d'utilisation possibles**
 
-##  **Modifier les propriétés du segment**
+Il peut arriver que vous souhaitiez changer les propriétés de la trancheuse, comme son emplacement ou sa hauteur de ligne. Aspose.Cells for Python via .NET vous offre la possibilité de mettre à jour ces propriétés.
 
- Veuillez consulter l'exemple de code suivant. Il charge le[exemple de fichier Excel](sampleCreateSlicerToExcelTable.xlsx)qui contient un tableau. Il crée ensuite le slicer en fonction de la première colonne et modifie ses propriétés telles que la hauteur de la ligne, la largeur, est imprimable, le titre, etc. Il enregistre le classeur sous[sortieChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
+## **Comment changer les propriétés de la trancheuse en utilisant la bibliothèque Excel Aspose.Cells pour Python**
 
-##  **Exemple de code**
+Veuillez consulter le code d'exemple suivant. Il charge le [fichier Excel d'exemple](sampleCreateSlicerToExcelTable.xlsx) qui contient un tableau. Il crée ensuite la trancheuse en fonction de la première colonne et modifie ses propriétés telles que la hauteur de ligne, la largeur, l'impression, le titre, etc. Il enregistre le classeur sous forme de [fichier Excel de sortie](outputChangeSlicerProperties.xlsx).
+
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-ChangeSlicerProperties-1.py" >}}

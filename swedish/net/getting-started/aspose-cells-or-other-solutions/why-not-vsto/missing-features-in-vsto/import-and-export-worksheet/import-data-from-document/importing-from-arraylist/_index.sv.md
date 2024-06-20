@@ -1,16 +1,17 @@
-﻿---
-title: Importerar från ArrayList
+---
+title: Importera från ArrayList
 type: docs
 weight: 20
 url: /sv/net/importing-from-arraylist/
 ---
- Utvecklare kan importera data från en ArrayList till sina kalkylblad genom att anropa**ImportArrayList** metoden för samlingen Cells. ImportArray-metoden tar följande parametrar:**ArrayList** , representerar ArrayList-objektet vars innehåll måste importeras
 
-- Radnummer , representerar radnumret för den första cellen där data kommer att importeras
-- Kolumnnummer , representerar kolumnnumret för den första cellen där data kommer att importeras
-- Is Vertical , ett booleskt värde som anger att data ska importeras vertikalt eller horisontellt
+Utvecklare kan importera data från en ArrayList till sina kalkylblad genom att anropa metoden **ImportArrayList** i Cells-samlingen. ImportArray metoden tar följande parametrar: **ArrayList** , representerar ArrayList-objektet vars innehåll behöver importeras
 
-{{< highlight "csharp" >}}
+- Radnummer , representerar radnumret för den första cellen där datan kommer att importeras
+- Kolumnnummer , representerar kolumnnumret för den första cellen där datan kommer att importeras
+- Är Vertikal , ett booleskt värde som specificerar att importera data vertikalt eller horisontellt
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 

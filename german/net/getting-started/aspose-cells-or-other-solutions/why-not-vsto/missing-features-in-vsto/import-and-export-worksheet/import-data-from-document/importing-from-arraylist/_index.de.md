@@ -1,16 +1,17 @@
-﻿---
+---
 title: Importieren aus ArrayList
 type: docs
 weight: 20
 url: /de/net/importing-from-arraylist/
 ---
- Entwickler können Daten aus einer ArrayList in ihre Arbeitsblätter importieren, indem sie die aufrufen**ArrayListe importieren** Methode der Sammlung Cells. Die ImportArray-Methode akzeptiert die folgenden Parameter:**Anordnungsliste** , stellt das ArrayList-Objekt dar, dessen Inhalt importiert werden muss
 
-- Zeilennummer stellt die Zeilennummer der ersten Zelle dar, in die die Daten importiert werden
-- Spaltennummer stellt die Spaltennummer der ersten Zelle dar, in die die Daten importiert werden
-- Is Vertical , ein boolescher Wert, der angibt, dass Daten vertikal oder horizontal importiert werden
+Entwickler können Daten aus einem ArrayList in ihre Tabellenblätter importieren, indem sie die **ImportArrayList**-Methode der Cells-Sammlung aufrufen. Die ImportArray Methode nimmt die folgenden Parameter an: **ArrayList** , repräsentiert das ArrayList-Objekt, dessen Inhalt importiert werden muss
 
-{{< highlight "csharp" >}}
+- Zeilennummer , repräsentiert die Zeilennummer der ersten Zelle, in die die Daten importiert werden
+- Spaltennummer , repräsentiert die Spaltennummer der ersten Zelle, in die die Daten importiert werden
+- Ist vertikal , ein boolescher Wert, der angibt, ob die Daten vertikal oder horizontal importiert werden sollen
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 

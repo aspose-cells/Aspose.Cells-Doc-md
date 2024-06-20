@@ -1,42 +1,43 @@
-﻿---
-title: Ihre erste Aspose.Cells Bewerbung - Hello World
+---
+title: Ihre erste Aspose.Cells Anwendung  Hallo Welt
 type: docs
 weight: 30
 url: /de/python-java/your-first-aspose-cells-application-hello-world/
 ---
+
 {{% alert color="primary" %}}
 
-Dieses Anfängerthema zeigt, wie Entwickler eine einfache erste Anwendung (Hello World) mit Aspose.Cells' einfach API erstellen können. Die Anwendung erstellt eine Microsoft-Excel-Datei mit den Wörtern Hello World in einer bestimmten Zelle eines Arbeitsblatts.
+Dieses Anfängerthema zeigt, wie Entwickler mithilfe der einfachen API von Aspose.Cells eine einfache erste Anwendung ('Hello World') erstellen können. Die Anwendung erstellt eine Microsoft Excel-Datei mit den Worten 'Hello World' in einer bestimmten Zelle eines Arbeitsblatts.
 
 {{% /alert %}}
 
 ### **Erstellen der Hello World-Anwendung**
 
-So erstellen Sie die Anwendung Hello World mit Aspose.Cells API:
+Um die Hello World-Anwendung mit der Aspose.Cells-API zu erstellen:
 
-1.  Erstellen Sie eine Instanz der**[Arbeitsmappe](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)**Klasse.
-1. Wenden Sie die Lizenz an:
-1. Wenn Sie eine Lizenz erworben haben, verwenden Sie die Lizenz in Ihrer Anwendung, um Zugriff auf die volle Funktionalität von Aspose.Cells zu erhalten
- 1. Wenn Sie die Evaluierungsversion der Komponente verwenden (wenn Sie Aspose.Cells ohne Lizenz verwenden), überspringen Sie diesen Schritt.
-1. Erstellen Sie eine neue Microsoft Excel-Datei oder öffnen Sie eine vorhandene Datei, in der Sie Text hinzufügen/aktualisieren möchten.
-1. Greifen Sie auf eine beliebige Zelle eines Arbeitsblatts in der Excel-Datei Microsoft zu.
-1.  Füge die Wörter ein**Hello World!** in eine zugegriffene Zelle.
-1. Generieren Sie die geänderte Excel-Datei Microsoft.
+1. Erstellen Sie eine Instanz der Klasse [**Workbook**](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook).
+1. Die Lizenz anwenden:
+   1. Wenn Sie eine Lizenz erworben haben, verwenden Sie die Lizenz in Ihrer Anwendung, um auf die volle Funktionalität von Aspose.Cells zuzugreifen.
+   1. Wenn Sie die Evaluierungsversion des Komponenten verwenden (wenn Sie Aspose.Cells ohne Lizenz verwenden), überspringen Sie diesen Schritt.
+1. Erstellen Sie eine neue Microsoft Excel-Datei oder öffnen Sie eine vorhandene Datei, in der Sie einige Texte hinzufügen/aktualisieren möchten.
+1. Greifen Sie auf eine Zelle eines Arbeitsblatts in der Microsoft Excel-Datei zu.
+1. Fügen Sie die Worte **Hallo Welt!** in eine zugängliche Zelle ein.
+1. Generieren Sie die modifizierte Microsoft Excel-Datei.
 
-Die folgenden Beispiele veranschaulichen die obigen Schritte.
+Die folgenden Beispiele demonstrieren die obigen Schritte.
 
-#### **Erstellen einer Arbeitsmappe**
+#### **Erstellen eines Arbeitsblatts**
 
-Das folgende Beispiel erstellt eine neue Arbeitsmappe von Grund auf, schreibt die Wörter "Hello World!" in Zelle A1 auf dem ersten Arbeitsblatt und speichert die Datei.
+Das folgende Beispiel erstellt ein neues Arbeitsblatt von Grund auf, schreibt die Worte 'Hallo Welt!' in die Zelle A1 des ersten Arbeitsblatts und speichert die Datei.
 
 **Die generierte Tabelle** 
 
-![todo: Bild_alt_Text](your-first-aspose-cells-application-hello-world_1.png)
+![todo:image_alt_text](your-first-aspose-cells-application-hello-world_1.png)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-#### **Öffnen einer bestehenden Datei**
+#### **Öffnen einer vorhandenen Datei**
 
- Das folgende Beispiel öffnet eine vorhandene Microsoft Excel-Vorlagendatei mit dem Namen**book1.xls**Sie schreibt die Worte "Hello World!" in Zelle A1 im ersten Arbeitsblatt und speichert die Arbeitsmappe als neue Datei.
+Das folgende Beispiel öffnet eine vorhandene Microsoft Excel-Vorlagendatei namens **book1.xls**, schreibt die Worte 'Hallo Welt!' in die Zelle A1 im ersten Arbeitsblatt und speichert das Arbeitsblatt als neue Datei.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpeningExistingFile.py" >}}

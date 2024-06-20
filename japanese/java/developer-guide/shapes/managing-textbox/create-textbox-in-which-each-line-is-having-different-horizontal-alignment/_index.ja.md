@@ -1,16 +1,17 @@
-﻿---
-title: 各行の水平方向の配置が異なる TextBox を作成する
+---
+title: 各行が異なる水平方向の整列を持つテキストボックスを作成
 type: docs
 weight: 800
 url: /ja/java/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/
 ---
+
 {{% alert color="primary" %}} 
 
-TextParagraph.AlignmentType プロパティを使用して、段落テキストの水平方向の配置を設定できます。
+TextParagraph.AlignmentType プロパティを使用して段落テキストの水平整列を設定できます。
 
 {{% /alert %}} 
-## **各行の水平方向の配置が異なる TextBox を作成する**
-次のサンプル コードは、3 つの行を作成し、それぞれの水平方向の配置を設定します。をダウンロードしてください[出力エクセルファイル](5473433.xlsx)参照用のコードによって生成されます。
+## **各行が異なる水平方向の整列を持つテキストボックスを作成します。**
+次のサンプルコードは3つの行を作成し、それぞれの水平配置を設定します。コードで生成されたエクセルファイルは参照用に[こちら](5473433.xlsx)からダウンロードしてください。
 
 
 

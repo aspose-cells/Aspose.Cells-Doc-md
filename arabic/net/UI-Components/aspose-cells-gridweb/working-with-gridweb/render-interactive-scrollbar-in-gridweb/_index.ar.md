@@ -1,13 +1,16 @@
-﻿---
-title: تقديم شريط التمرير التفاعلي في GridWeb
+---
+title: عرض شريط التمرير التفاعلي في GridWeb
 type: docs
 weight: 170
-url: /ar/net/render-interactive-scrollbar-in-gridweb/
+url: /ar/net/aspose-cells-gridweb/render-interactive-scrollbar-in-gridweb/
+keywords: GridWeb,scrollbar
+description: يقدم هذا المقال كيفية العمل مع شريط التمرير في GridWeb.
 ---
-## **سيناريوهات الاستخدام الممكنة**
- يمكن لـ Aspose.Cells لـ GridWeb تقديم تحكم شريط التمرير التفاعلي داخل ورقة عمل GridWeb. يمكن للمستخدم التفاعل مع شريط التمرير كما يفعل في Microsoft Excel. لإنشاء شريط تمرير تفاعلي ، يجب إضافة روابط لـ**مسج** و**jQuery UI** المكتبات كما هو موضح أدناه.
 
-{{< highlight "java" >}}
+## **سيناريوهات الاستخدام المحتملة**
+يمكن لـ Aspose.Cells for GridWeb تقديم عنصر تحكم شريط التمرير التفاعلي داخل ورقة العمل GridWeb. يمكن للمستخدم التفاعل مع شريط التمرير كما يفعلون في Microsoft Excel. من أجل إنشاء شريط تحكم تفاعلي، يجب عليك إضافة الروابط لمكتبات jQuery و jQuery UI كما هو موضح أدناه.
+
+{{< highlight java >}}
 
  <head runat="server">
 
@@ -21,17 +24,17 @@ url: /ar/net/render-interactive-scrollbar-in-gridweb/
 
 {{< /highlight >}}
 ## **تقديم شريط التمرير التفاعلي في GridWeb**
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](61767764.xlsx)تحتوي على شريط التمرير كما هو موضح في لقطة الشاشة التالية. تُظهر لقطات الشاشة الأخرى كيف يعرض GridWeb شريط التمرير التفاعلي ويعرض قيمة شريط التمرير في الخلية B3. كلما قمت بالتمرير في شريط التمرير ، تعرض قيمة الخلية B3 القيمة الناتجة.
+الكود النموذجي التالي يحمل [ملف Excel عيني](61767764.xlsx) الذي يحتوي على شريط التمرير كما هو موضح في اللقطة الشاشية التالية. الصور الأخرى توضح كيف تقوم GridWeb بتقديم شريط التمرير التفاعلي وعرض قيمة شريط التمرير في الخلية B3. كلما قمت بتمرير شريط التمرير، تظهر قيمة الخلية B3 القيمة الناتجة.
 
-![ما يجب القيام به: image_بديل_نص](render-interactive-scrollbar-in-gridweb_1.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_1.png)
 
-![ما يجب القيام به: image_بديل_نص](render-interactive-scrollbar-in-gridweb_2.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_2.png)
 
-![ما يجب القيام به: image_بديل_نص](render-interactive-scrollbar-in-gridweb_3.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_3.png)
 
-![ما يجب القيام به: image_بديل_نص](render-interactive-scrollbar-in-gridweb_4.png)
-## **عينة من الرموز**
-{{< highlight "java" >}}
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_4.png)
+## **الكود المثالي**
+{{< highlight java >}}
 
  <%@ Page Language="C#" AutoEventWireup="true" CodeFile="TestGridWeb.aspx.cs" Inherits="TestGridWeb" %>
 

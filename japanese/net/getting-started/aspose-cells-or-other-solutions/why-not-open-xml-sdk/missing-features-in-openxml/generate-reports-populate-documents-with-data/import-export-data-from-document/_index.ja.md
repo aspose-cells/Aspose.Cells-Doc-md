@@ -1,40 +1,41 @@
-﻿---
-title: ドキュメントからデータをインポート
+---
+title: ドキュメントからのインポートおよびエクスポートデータ
 type: docs
 weight: 10
 url: /ja/net/import-export-data-from-document/
 ---
-## **ドキュメントからデータをインポートする**
 
-データは未加工の事実の集まりであり、これらの未加工の事実をより意味のある方法で提示するために、スプレッドシート ドキュメントまたはレポートを作成します。通常、自分でスプレッドシートにデータを追加しますが、既存のデータ リソースを再利用する必要がある場合があり、さまざまなデータ ソースからスプレッドシートにデータをインポートする必要があります。このトピックでは、さまざまなデータ ソースからワークシートにデータをインポートするいくつかの手法について説明します。
+## **ドキュメントからのデータのインポート**
 
-## **Aspose.Cells を使用したデータのインポート**
+データは、生の事実の集まりであり、これらの生の事実をより意味のある形で提示するためにスプレッドシートドキュメントやレポートを作成します。通常、スプレッドシートにデータを追加しますが、既存のデータリソースを再利用する必要がある場合があります。その際に異なるデータソースからワークシートにデータをインポートする必要があります。このトピックでは、異なるデータソースからワークシートにデータをインポートするためのいくつかの技術について説明します。
 
-使用するとき**Aspose.Cells**Excel ファイルを開くと、ファイル内のすべてのデータが自動的にインポートされますが、Aspose.Cells はさまざまなデータ ソースからのデータのインポートもサポートしています。これらのデータ ソースのいくつかを以下に示します。
+## **Aspose.Cellsを使用したデータのインポート**
 
-- **配列**
-- **配列リスト**
-- **データ表**
-- **データ列**
-- **データビュー**
-- **データグリッド**
-- **データリーダー**
-- **グリッドビュー**
+**Aspose.Cells**を使用してExcelファイルを開くと、ファイルのすべてのデータが自動的にインポートされますが、Aspose.Cellsは異なるデータソースからのデータのインポートもサポートしています。いくつかのデータソースのうちいくつかを以下に示します。
 
-Aspose.Cells はクラスを提供し、**ワークブック**これは Excel ファイルを表します。 Workbook クラスには、Excel ファイル内の各ワークシートにアクセスできる Worksheets コレクションが含まれています。ワークシートは Worksheet クラスによって表されます。 Worksheet クラスは Cells コレクションを提供します。
+- **Array**
+- **ArrayList**
+- **DataTable**
+- **DataColumn**
+- **DataView**
+- **DataGrid**
+- **DataReader**
+- **GridView**
 
-Cells コレクションは、さまざまなデータ ソースからデータをインポートするための非常に便利な方法を提供します。
+Aspose.Cellsは、Excelファイルを表す**Workbook**クラスを提供しています。Workbookクラスには、Excelファイルの各ワークシートにアクセスすることができるWorksheetsコレクションが含まれています。ワークシートはWorksheetクラスで表されます。WorksheetクラスはCellsコレクションを提供しています。
 
-### **アレイからのインポート**
+Cellsコレクションは、異なるデータソースからのデータのインポートに非常に有用なメソッドを提供しています。
 
-開発者は、配列からワークシートにデータをインポートするには、**ImportArray** Cells コレクションのメソッド。 ImportArray メソッドにはオーバーロードされたバージョンが多数ありますが、典型的なオーバーロードは次のパラメーターを取ります。
+### **配列からのインポート**
 
-- 配列は、内容をインポートする必要がある配列オブジェクトを表します
-- 行番号は、データがインポートされる最初のセルの行番号を表します
-- 列番号は、データがインポートされる最初のセルの列番号を表します
-- データを垂直方向または水平方向にインポートするように指定するブール値です。
+開発者は、Cells コレクションの **ImportArray** メソッドを呼び出すことで、配列からデータをワークシートにインポートできます。ImportArray メソッドには多くのオーバーロードされたバージョンがありますが、典型的なオーバーロードは次のパラメーターを取ります：
 
-{{< highlight "csharp" >}}
+- 配列、インポートする内容の配列オブジェクトを表します
+- 行番号、データをインポートする最初のセルの行番号を表します
+- 列番号、データをインポートする最初のセルの列番号を表します
+- 垂直かどうかを指定するブール値、データを縦方向または横方向にインポートするかどうかを指定します
+
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -50,7 +51,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 //Creating an array containing names as string values
 
-string[]names = new string[]{ "laurence chen", "roman korchagin", "kyle huang" };
+string[] names = new string[] { "laurence chen", "roman korchagin", "kyle huang" };
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -62,15 +63,15 @@ workbook.Save(MyDir+"DataImport from Array.xls");
 
 {{< /highlight >}}
 
-### **ArrayList からのインポート**
+### **ArrayListからのインポート**
 
-開発者は、ArrayList からワークシートにデータをインポートするには、**ImportArrayList** Cells コレクションのメソッド。 ImportArray メソッドは、次のパラメーターを取ります。**配列リスト** 、内容をインポートする必要がある ArrayList オブジェクトを表します
+開発者は、Cells コレクションの **ImportArrayList** メソッドを呼び出すことで、ArrayList からデータをワークシートにインポートできます。ImportArray メソッドには次のパラメーターがあります：**ArrayList**、インポートする内容の ArrayList オブジェクトを表します
 
-- Row Number は、データがインポートされる最初のセルの行番号を表します
-- 列番号 は、データがインポートされる最初のセルの列番号を表します
-- Vertical 、データを垂直または水平にインポートするように指定するブール値
+- 行番号、データをインポートする最初のセルの行番号を表します
+- 列番号、データをインポートする最初のセルの列番号を表します
+- 垂直かどうかを指定するブール値、データを縦方向または横方向にインポートするかどうかを指定します
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -108,11 +109,11 @@ workbook.Save(MyDir + "DataImport from Array List.xls");
 
 {{< /highlight >}}
 
-### **カスタム オブジェクトからのインポート**
+### **カスタムオブジェクトからのインポート**
 
-開発者は、オブジェクトのコレクションからワークシートにデータをインポートできます。**ImportCustomObjects**.メソッドに列/プロパティのリストを指定して、必要なオブジェクトのリストを表示できます。
+開発者は、**ImportCustomObjects** を使用して、オブジェクトのコレクションからワークシートにデータをインポートできます。このメソッドに自分の希望のオブジェクトリストを表示するための列/プロパティのリストを指定できます。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate a new Workbook
 
@@ -142,7 +143,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 
@@ -168,14 +169,14 @@ book.Save(MyDir+"ImportedCustomObjects.xls");
 
 {{< /highlight >}}
 
-### **DataTable からのインポート**
+### **DataTableからのインポート**
 
-開発者は、**データ表**を呼び出してワークシートに**ImportDataTable**Cells コレクションのメソッド。には多くのオーバーロードされたバージョンがあります**ImportDataTable**メソッドですが、典型的なオーバーロードは次のパラメーターを取ります。**データ表**は、**データ表**コンテンツをインポートする必要があるオブジェクト
+開発者は、Cells コレクションの **ImportDataTable** メソッドを呼び出すことで、**DataTable** からデータをワークシートにインポートできます。**ImportDataTable** メソッドには多くのオーバーロードされたバージョンがありますが、典型的なオーバーロードは次のパラメーターを取ります：**DataTable**、インポートする内容の **DataTable** オブジェクトを表します
 
-- **フィールド名は表示されますか**は、DataTable の列の名前を最初の行としてワークシートにインポートするかどうかを指定します
-- **スタート Cell**は、DataTable の内容をインポートする開始セル (つまり "A1") の名前を表します
+- **フィールド名が表示される**、DataTable の列の名前をワークシートに最初の行としてインポートするかどうかを指定します
+- **開始セル**、**DataTable** のコンテンツをインポートする開始セル（たとえば「A1」）の名前を表します
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -207,11 +208,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -223,11 +224,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 
@@ -247,26 +248,26 @@ workbook.Save(MyDir+"Import From Data Table.xls");
 
 ## **サンプルコードをダウンロード**
 
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
 
-## **ドキュメントからデータをエクスポート**
+## **ドキュメントからのデータのエクスポート**
 
- Aspose.Cells は、ユーザーが外部データ ソースからワークシートにデータをインポートできるようにするだけでなく、ワークシート データを**データ表**.私たちが知っているように**データ表**ADO.NET の一部であり、データを保持するために使用されます。データが**データ表**、ユーザーの要件に応じて任意の方法で使用できます。
+**Aspose.Cells**は、ユーザーが外部データソースからワークシートにデータをインポートするだけでなく、ワークシートデータを**DataTable**にエクスポートすることも可能です。**DataTable**はADO.NETの一部であり、データを保持するために使用されます。データが**DataTable**に格納されると、ユーザーの要件に応じて任意の方法で使用することができます。
 
-## **Aspose.Cells を使用して DataTable (.NET) にデータをエクスポートする**
+## **Aspose.Cellsを使用した**DataTable**へのデータのエクスポート**
 
-開発者は、Cells クラスの ExportDataTable または ExportDataTableAsString メソッドを呼び出して、ワークシート データを DataTable オブジェクトに簡単にエクスポートできます。どちらの方法も、以下で詳しく説明するさまざまなシナリオで使用されます。
+開発者は、CellsクラスのExportDataTableまたはExportDataTableAsStringメソッドを呼び出すことで、ワークシートデータを簡単にDataTableオブジェクトにエクスポートできます。両方のメソッドは、以下で詳しく説明されている異なるシナリオで使用されます。
 
-### **厳密に型指定されたデータを含む列**
+### **型指定データを含む列**
 
-スプレッドシートはデータを一連の行と列として保存することがわかっています。ワークシートの列のすべての値が厳密に型指定されている場合 (つまり、列のすべての値が同じデータ型である必要があることを意味します)、**ExportDataTable** Cells クラスのメソッド。**ExportDataTable**メソッドは、次のパラメーターを使用して、ワークシート データを次のようにエクスポートします。**データ表**物体：**行番号** 、データがエクスポートされる最初のセルの行番号を表します
+スプレッドシートはデータを行と列の連続として保存することを知っています。ワークシートの列のすべての値が強く型付けされている場合（つまり、ワークシートの列のすべての値が同じデータ型でなければならない）、Cells クラスの **ExportDataTable** メソッドを呼び出すことでワークシートの内容をエクスポートできます。**ExportDataTable** メソッドは、**DataTable** オブジェクトとしてワークシートのデータをエクスポートするために次のパラメーターを取ります： **行番号**、データのエクスポートを開始する最初のセルの行番号を表します
 
-- **列番号**、データがエクスポートされる最初のセルの列番号を表します
-- **行の数**、エクスポートする行数を表します
-- **列の数**、エクスポートする列の数を表します
-- **列名のエクスポート**、ワークシートの最初の行のデータを DataTable の列名としてエクスポートするかどうかを示すブール プロパティ
+- **列番号**、データのエクスポートを開始する最初のセルの列番号を表します
+- **行数**、エクスポートする行の数を表します
+- **列数**、エクスポートする列の数を表します
+- **エクスポートする列名**、ワークシートの最初の行のデータを DataTable の列名としてエクスポートするかどうかを表すブール値プロパティ
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Creating a file stream containing the Excel file to be opened
 
@@ -296,11 +297,11 @@ fstream.Close();
 
 {{< /highlight >}}
 
-### **厳密に型指定されていないデータを含む列**
+### **非型指定データを含む列**
 
-ワークシートの列のすべての値が厳密に型指定されていない場合 (つまり、列の値のデータ型が異なる可能性があることを意味します)、**ExportDataTableAsString** Cells クラスのメソッド。**ExportDataTableAsString**メソッドは、のと同じパラメータのセットを取ります**ExportDataTable**ワークシートデータをエクスポートするメソッド**データ表**物体。
+ワークシートの列のすべての値が強く型付けされていない場合（つまり、列の値が異なるデータ型を持つ可能性がある場合）は、Cellsクラスの**ExportDataTableAsString**メソッドを呼び出してワークシートのコンテンツをエクスポートすることができます。**ExportDataTableAsString**メソッドは、**ExportDataTable**メソッドと同じパラメータセットを取り、ワークシートデータを**DataTable**オブジェクトとしてエクスポートします。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Creating a file stream containing the Excel file to be opened
 
@@ -332,5 +333,5 @@ fstream.Close();
 
 ## **サンプルコードをダウンロード**
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

@@ -1,6 +1,6 @@
-﻿---
-title: Progetto VBA della cartella di lavoro
-linktitle: Progetto Macro
+---
+title: Progetto VBA del Libro di Lavoro
+linktitle: Progetto macro
 type: docs
 weight: 200
 url: /it/java/workbook-vba-project/

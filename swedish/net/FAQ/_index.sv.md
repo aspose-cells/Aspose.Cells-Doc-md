@@ -1,51 +1,49 @@
-﻿---
-title: FAQ
+---
+title: Frågor och svar
 type: docs
 weight: 100
 url: /sv/net/faq/
 ---
-## **Hur fixar jag System.StackOverFlowException på Workbook.CalculateFormula?**
-Ibland möter användare System.StackOverFlowException på Workbook.CalculateFormula-metoden. Detta undantag uppstår vanligtvis eftersom standardstackstorleken för IIS är för liten (endast 265k). Du kan åtgärda det här felet genom att skapa en annan tråd med ökad stackstorlek och sedan flytta din Workbook.CalculateFormula-relaterade kod inuti den.
+
+## **Hur man åtgärdar System.StackOverFlowException på Workbook.CalculateFormula?**
+Ibland stöter användare på System.StackOverFlowException på metoden Workbook.CalculateFormula. Detta undantag inträffar vanligtvis eftersom standardstackens storlek för IIS är för liten (endast 265k). Du kan åtgärda detta fel genom att skapa en annan tråd med ökad stackstorlek och sedan flytta din Workbook.CalculateFormula-relaterade kod inuti den.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
-## **Problem med linjernas tjocklek när Excel renderas till PDF**
-Ibland, när Excel-filen konverteras till PDF, är tjockleken på linjerna annorlunda i utdata PDF. Det här problemet orsakas inte av Aspose.Cells. Det orsakas av**Adobe läsare** när dess inställningar**"Slät linjekonst"** och**"Förbättra tunna linjer"** är kontrollerade. Om du avmarkerar dessa alternativ visas PDF fint.
+## **Tjocklek av linjer problem vid renderande Excel till PDF**
+Ibland, när Excel-filen konverteras till PDF, är tjockleken på linjerna annorlunda i den resulterande PDFen. Detta problem orsakas inte av Aspose.Cells. Det beror på **Adobe Reader** när dess inställningar **"Jämn linjekonst"** och **"Förbättra tunna linjer"** är markerade. Att avmarkera dessa alternativ kommer att visa PDFen korrekt.
 
- Om kontrollera**"Slät linjekonst"** och**"Förbättra tunna linjer"**, tjockleken på linjer är annorlunda. Se följande steg hur det görs:
+Om du markerar **"Jämn linjekonst"** och **"Förbättra tunna linjer"**, är tjockleken på linjerna annorlunda. Se följande steg hur det görs:
 
--  Gå till**Redigera**
--  Välj**Inställningar**
--  I den**Sidvisning** Kategori Kontrollera**"Slät linjekonst"** och**"Förbättra tunna linjer"**
+- Gå till **Redigera**
+- Välj **Preferenser**
+- I **Sidvisning**-kategori, markera **"Jämn linjekonst"** och **"Förbättra tunna linjer"**
 
- Om avmarkera**"Slät linjekonst"** och**"Förbättra tunna linjer"**, tjockleken på linjer är densamma. För att uppnå detta, följ bara stegen nedan:
+Om du avmarkerar **"Jämn linjekonst"** och **"Förbättra tunna linjer"**, är tjockleken på linjerna densamma. För att uppnå detta följ bara stegen nedan:
 
--  Gå till**Redigera**
--  Välj**Inställningar**
--  I den**Sidvisning** Kategori Avmarkera**"Slät linjekonst"** och**"Förbättra tunna linjer"**
-## **Hur fixar man System.OutOfMemoryException när man laddar stora kalkylblad?**
-Det finns rimliga chanser att Workbook-konstruktören kan kasta System.OutOfMemoryException när stora kalkylblad laddas. Detta undantag tyder på att det tillgängliga minnet är otillräckligt för att fullständigt ladda kalkylarket i minnet, därför måste kalkylarket laddas samtidigt som du aktiverar[Minnesinställningar](/cells/sv/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
+- Gå till **Redigera**
+- Välj **Preferenser**
+- I **Sidvisning**-kategori, avmarkera **"Jämn linjekonst"** och **"Förbättra tunna linjer"**
+## **Hur man åtgärdar System.OutOfMemoryException vid inläsning av stora kalkylblad?**
+Det finns goda chanser att Workbook-konstruktören kan kasta System.OutOfMemoryException vid inläsning av stora kalkylblad. Detta undantag tyder på att tillgängligt minne är otillräckligt för att helt ladda kalkylbladet i minnet och därför måste kalkylbladet laddas med [Minnesinställningar](/cells/sv/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/) aktiverat.
 
-Aspose.Cells API:er tillhandahåller minnesinställningar för att optimera minnesförbrukningen när du laddar och bearbetar kalkylblad. Dessa alternativ är också användbara för att effektivt ladda de stora kalkylbladen som innehåller enorma datamängder i Workbook-objektet som visas nedan.
+Aspose.Cells APIer tillhandahåller Minnesinställningar för att optimera minnesförbrukningen vid inläsning och bearbetning av kalkylblad. Dessa alternativ är också användbara för att effektivt ladda stora kalkylblad med stora datamängder i Workbook-objektet, som demonstreras nedan.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-FAQs-FixOutOfMemoryException-1.cs" >}}
 
-## **Bestäm vilken stackstorlek som behövs för en viss arbetsbok**
-Även om vi har förbättrat Aspose.Cells formelberäkningsmotorn och i de flesta fall bör du kunna få alla formler beräknade framgångsrikt för en given mallfil utan att ange mindre stackstorlek. Men ändå, ibland kan StackOverFlowException på Workbook.CalculateFormula-metoden vara oundviklig. Vi tillhandahåller nya API:er för användarna att spåra formelberäkningarna. Vi har lagt till en klass som heter "AbstractCalculationMonitor" och tillhandahållit en egenskap, dvs.*CalculationOptions.CalculationMonitor*för att hantera/spåra problemet.
+## **Bestäm vilken stackstorlek som behövs för en viss Workbook**
+Även om vi har förbättrat Aspose.Cells formelberäkningsmotor och i de flesta fall bör du kunna få alla formler beräknade framgångsrikt för en given mallfil utan att specificera mindre stackstorlek, ibland kan **StackOverFlowException** på metoden Workbook.CalculateFormula vara oundviklig. Vi tillhandahåller nya APIer för användarna för att spåra formelberäkningarna. Vi har lagt till en klass med namnet "AbstractCalculationMonitor" och tillhandahållit en egenskap, dvs. *CalculationOptions.CalculationMonitor* för att hantera/spåra problemet.
 
-Användare kan spåra stackstorleken själva med hjälp av API:erna. Observera att en kontroll av stacken för varje cell säkerligen kommer att försämra prestandan i större utsträckning. Se exempelkodsegmentet för din referens:
+Användare kan spåra stackstorleken själva med hjälp av APIer. Observera, att kontrollen av stacken för varje cell säkerligen kommer att försämra prestandan i hög grad. Se kodsnutten nedan som exempel:
 
-`     `public class MyCalculationMonitor : AbstractCalculationMonitor
-`     `{  ` `public override void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)  ` `{  ` `if(new StackTrace(false).FrameCount _x{000) `d 0:00:000) Stoppa formelberäkningen eftersom risken för StackOverflowException");  ` `}  ` `}  ` `} 
-
-
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CalculationMonitor-CustomStackTrace.cs" >}}
 
 {{% alert color="primary" %}} 
 
-Det finns inget bättre sätt att få stackstorleken att användas under körning. Ovanstående kod vi tillhandahållit är bara till exempel. Prestandan kommer säkert att försämras avsevärt. Så vi tror att koden kan optimeras av användare (som verkligen vill använda den) enligt deras olika scenarier och krav. Såsom att kontrollera stacken när antalet rekursiva celler når ett visst antal, samla in den genomsnittliga ökningshastigheten för stacken för en rekursiv cell och bestämma frekvensen för att kontrollera stacken, etc.
+Det finns inget bättre sätt att få den använda stackstorleken vid körning. Koden ovan är bara ett exempel. Prestandan kommer att försämras avsevärt, säkerligen. Så vi anser att koden kan optimeras av användare (som verkligen vill använda den) enligt deras olika scenarier och krav. Till exempel, kontrollera stacken när antalet rekursiva celler når ett visst antal, samla in den genomsnittliga ökningshastigheten för stack för en rekursiv cell och bestäm frekvensen för att kontrollera stacken, osv.
 
 {{% /alert %}}
 

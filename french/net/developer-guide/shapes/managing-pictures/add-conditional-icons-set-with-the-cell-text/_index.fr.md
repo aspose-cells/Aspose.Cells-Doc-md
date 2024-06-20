@@ -1,16 +1,17 @@
-﻿---
-title: Ajouter un ensemble d'icônes conditionnelles avec le texte Cell
+---
+title: Ajouter un ensemble d icônes conditionnelles avec le texte de la cellule
 type: docs
 weight: 160
 url: /fr/net/add-conditional-icons-set-with-the-cell-text/
 ---
+
 {{% alert color="primary" %}} 
 
-Parfois, vous souhaitez ajouter des icônes conditionnelles à côté du texte dans une cellule pour rendre les données plus significatives pour les lecteurs. Vous souhaitez utiliser certains des types d'icônes de mise en forme conditionnelle, mais sans appliquer la mise en forme conditionnelle aux cellules. Aspose.Cells prend en charge la fonctionnalité.
+Parfois, vous voulez ajouter des icônes conditionnelles à côté du texte dans une cellule pour rendre les données plus significatives pour les lecteurs. Vous voulez utiliser certains types d'icônes de mise en forme conditionnelle mais sans appliquer de mise en forme conditionnelle aux cellules. Aspose.Cells prend en charge cette fonctionnalité.
 
 {{% /alert %}} 
 
-L'exemple de code suivant montre comment ajouter des icônes conditionnelles définies avec le texte Cell.
+Le code d'exemple suivant montre comment ajouter un ensemble d'icônes conditionnelles avec le texte de la cellule.
 
 
 

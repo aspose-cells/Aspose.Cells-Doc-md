@@ -1,54 +1,55 @@
-﻿---
-title: Erstellen von Berichtsparametern
+---
+title: Report Parameter erstellen
 type: docs
 weight: 10
 url: /de/reportingservices/creating-report-parameters/
 ---
-So erstellen Sie einen Berichtsparameter in Aspose.Cells.Report.Designer:
+
+Um einen Report-Parameter in Aspose.Cells.Report.Designer zu erstellen:
 
 1. Öffnen Sie Microsoft Excel.
-1.  Klicken**Berichtsparameter** auf der Aspose.Cells.Report.Designer-Symbolleiste. (
+1. Klicken Sie in der Aspose.Cells.Report.Designer-Symbolleiste auf **Report Parameter**.
 
-![todo: Bild_alt_Text](creating-report-parameters_1.png)
+![todo:image_alt_text](creating-report-parameters_1.png)
 
 )
- Im Dialogfeld werden alle Berichtsparameter im linken Bereich aufgelistet.
+In dem Dialogfeld werden alle Report-Parameter im linken Bereich aufgelistet. 
 
-1.  Klicken**Addieren**. 
+1. Klicken Sie auf **Hinzufügen**. 
 
-   **Das Formular Berichtsparameterkonfiguration** 
+   **Das Formular zur Report-Parameterkonfiguration** 
 
-![todo: Bild_alt_Text](creating-report-parameters_2.png)
-
-
+![todo:image_alt_text](creating-report-parameters_2.png)
 
 
-1.  Geben Sie im Dialogfeld die Berichtsparameterinformationen ein.
+
+
+1. Geben Sie im Dialogfeld die Report-Parameter-Informationen ein. 
 
    **Hinzufügen von Parameterinformationen** 
 
-![todo: Bild_alt_Text](creating-report-parameters_3.png)
+![todo:image_alt_text](creating-report-parameters_3.png)
 
 
 
-Die gültigen Werte für einen Berichtsparameter können aus einem Datensatz oder einer Gruppe benutzerdefinierter Werte stammen. Ein Berichtsparameter hat zwei Datenfelder: Bezeichnung und Wert. Der Labelwert kann null sein.
+Die gültigen Werte für einen Report-Parameter können aus einem Datensatz oder einer Gruppe von Benutzerdefinierten Werten stammen. Ein Report-Parameter hat zwei Datenfelder: Label und Wert. Der Label-Wert kann null sein. 
 
-1.  Klicken**Installieren** um eine Gruppe von Werten für den Berichtsparameter einzurichten.
-1.  Fügen Sie Werte für die hinzu**Etikette** und**Wert** Felder.
+1. Klicken Sie auf **Einrichten**, um eine Gruppe von Werten für den Report-Parameter einzurichten.
+1. Fügen Sie Werte für die **Label**- und **Wert**-Felder hinzu. 
 
-   **Etikett und Wert hinzufügen** 
+   **Hinzufügen von Label und Wert** 
 
-![todo: Bild_alt_Text](creating-report-parameters_4.png)
-
-
+![todo:image_alt_text](creating-report-parameters_4.png)
 
 
-1.  Klicken**Addieren**.
- Wiederholen Sie diesen Vorgang, um weitere Werte für den Parameter hinzuzufügen.
-1.  Klicken**Nahe**.
-1.  Klicken**Speichern** um den Parameter zu speichern.
-1.  Der neue Berichtsparameter wird im linken Bereich aufgelistet.
+
+
+1. Klicken Sie auf **Hinzufügen**.
+   Wiederholen Sie dies, um weitere Werte für den Parameter hinzuzufügen.
+1. Klicken Sie auf **Schließen**.
+1. Klicken Sie auf **Speichern**, um den Parameter zu speichern. 
+1. Der neue Berichtsparameter wird im linken Bereich aufgelistet. 
 
    **Der neue Parameter** 
 
-![todo: Bild_alt_Text](creating-report-parameters_5.png)
+![todo:image_alt_text](creating-report-parameters_5.png)

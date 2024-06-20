@@ -1,30 +1,31 @@
 ---
-title: Licensing
+title: Lisanslama
 type: docs
 weight: 120
 url: /tr/net/licensing/
-description: Aspose.Cells for .NET, farklı satın alma planları sunar veya Licensing'i ve C#'deki Abonelik politikalarını kullanarak değerlendirme için Ücretsiz Deneme ve 30 günlük Geçici Lisans sunar.
-keywords: C# Apply License from Disk or Stream. C# Set License from Disk or Stream. Apply License in Aspose.Cells for NET.
+description: Aspose.Cells for .NET, C# Lisanslama ve Abonelik politikaları kullanarak satın alma için farklı planlar veya Ücretsiz Deneme ve değerlendirme için 30 günlük Geçici Lisans sunar.
+keywords: C# Diskten veya Akıştan Lisans Uygulama. C# Diskten veya Akıştan Lisans Ayarlama. Aspose.Cells for NET te Lisans Uygulama.
 ---
-##  **Aspose.Cells Bileşeninde Lisans Nasıl Başvurulur**
 
-Lisans, ürün adı, lisanslandığı geliştirici sayısı, aboneliğin sona erme tarihi vb. ayrıntıları içeren düz metinli bir XML dosyasıdır. Dosya dijital olarak imzalanmıştır, dolayısıyla dosyayı değiştirmeyin. Dosyaya yanlışlıkla fazladan bir satır sonu eklenmesi bile dosyayı geçersiz kılacaktır. Değerlendirme sınırlamasından kaçınmak istiyorsanız Aspose.Cells'i kullanmadan önce bir lisans ayarlamanız gerekir. Her uygulama (veya işlem) için yalnızca bir kez lisans ayarlamanız gerekir. Lisans bir dosyadan, akıştan veya yerleşik bir kaynaktan yüklenebilir.
+## **Aspose.Cells Bileşeninde Lisans Nasıl Uygulanır**
 
-Aspose.Cells, lisansı aşağıdaki konumlarda bulmaya çalışır:
+Lisans, ürün adı, lisanslanan geliştiricilerin sayısı, abonelik sona erme tarihi vb. gibi ayrıntıları içeren düz metin XML dosyasıdır. Dosya dijital olarak imzalanmıştır, bu nedenle dosyayı değiştirmeyin. Dosyaya yanlışlıkla bir ek satır eklemek bile dosyayı geçersiz kılacaktır. Aspose.Cells'in değerlendirme sınırlamasından kaçınmak istiyorsanız, Aspose.Cells'i kullanmadan önce bir lisans ayarlamanız gerekir. Lisans, uygulama (veya işlem) başına yalnızca bir kez ayarlanması gereklidir. Lisans, bir dosya, akış veya gömülü bir kaynaktan yüklenebilir.
 
-- Açık yol
-- Aspose.Cells.dll dosyasını içeren klasör
-- Aspose.Cells.dll adlı derlemeyi içeren klasör
-- Giriş derlemesini içeren klasör (.exe'niz)
-- Derlemede Aspose.Cells.dll adlı gömülü bir kaynak
+Aspose.Cells, lisansı aşağıdaki konumlarda aramaya çalışır:
 
-Lisansı uygulamanın dosyadan, akıştan veya gömülü kaynak olarak iki yaygın yöntemi vardır.
+- Açık yolu
+- Aspose.Cells.dll'yi içeren klasör
+- Aspose.Cells.dll'yi çağıran derlemenin bulunduğu klasör
+- Giriş derlemesini (kendi .exe dosyanız) içeren klasör
+- Aspose.Cells.dll'yi çağıran derlemede gömülü bir kaynak
 
-###  **Diskten veya Akıştan Lisans Nasıl Uygulanır?**
+Dosyadan veya akıştan lisans uygulamanın iki yaygın yöntemi bulunur.
 
-Lisans ayarlamanın en kolay yolu, lisans dosyasını Aspose.Cells.dll ile aynı klasöre koymak ve yolu olmadan sadece dosya adını belirtmektir.
+### **Diskten veya bir akıştan lisans uygulamanın en kolay yolu, lisans dosyasını, bileşenin (Aspose.Cells.GridWeb içeren) dll'sinin bulunduğu klasörle aynı klasöre koymak ve yalnızca dosya adını, yol olmadan belirtmektir.**
 
-{{< highlight "csharp" >}}
+Lisansı belirlemenin en kolay yolu, Aspose.Cells.dll dosyasının bulunduğu klasörde lisans dosyasını koymak ve yalnızca dosya adını, yol olmadan belirtmektir.
+
+{{< highlight csharp >}}
 
  //Instantiate an instance of license and set the license file through its path
 
@@ -36,13 +37,13 @@ license.SetLicense("Aspose.Cells.lic");
 
 {{% alert color="primary" %}}
 
-SetLicense yöntemini çağırdığınızda lisans adı, lisans dosya adınızla aynı olmalıdır. Örneğin, lisans dosyası adını *Aspose.Cells.lic.xml** olarak değiştirebilirsiniz. Daha sonra kodunuzda SetLicense yöntemi için değiştirilmiş lisans adını (**Aspose.Cells.lic.xml**) kullanmalısınız.
+SetLicense yöntemini çağırdığınızda, lisans adı lisans dosya adıyla aynı olmalıdır. Örneğin, lisans dosya adını **Aspose.Cells.lic.xml** olarak değiştirebilirsiniz. Daha sonra kodunuzda, SetLicense yöntemi için değiştirilmiş lisans adını (**Aspose.Cells.lic.xml**) kullanmalısınız.
 
 {{% /alert %}}
 
-Bir akıştan lisans yüklemek de mümkündür.
+Bir lisansı bir akıştan yüklemek de mümkündür.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate an instance of license and set the license through a stream
 
@@ -52,13 +53,13 @@ license.SetLicense(myStream);
 
 {{< /highlight >}}
 
-###  **Ölçülü Lisans Nasıl Başvurulur**
+### **Saatlik Lisansın Uygulanması**
 
-Aspose.Cells, geliştiricilerin ölçülü anahtar uygulamasına olanak tanır. Yeni bir lisanslama mekanizmasıdır. Yeni lisanslama mekanizması mevcut lisanslama yöntemiyle birlikte kullanılacaktır. API özelliğinin kullanımına göre faturalandırılmak isteyen müşterilerimiz, ölçülü lisanslamayı kullanabilirler. Daha fazla ayrıntı için lütfen bkz.[Ölçülü Licensing SSS](https://purchase.aspose.com/faqs/licensing/metered)bölüm.
+Aspose.Cells, geliştiricilere saatlik anahtar uygulama imkanı tanır. Bu yeni bir lisanslama mekanizmasıdır. Yeni lisanslama mekanizması, mevcut lisanslama yöntemi ile birlikte kullanılacaktır. API özelliklerinin kullanımına göre faturalandırılmak isteyen müşteriler, saatlik lisanslamayı kullanabilir. Daha fazla bilgi için lütfen [Saatlik Lisanslama SSY](https://purchase.aspose.com/faqs/licensing/metered) bölümüne başvurun.  
 
-Yeni bir sınıf[Ölçülü](https://reference.aspose.com/cells/net/aspose.cells/metered)ölçülü anahtarı uygulamak için tanıtıldı. Ölçülü genel ve özel anahtarın nasıl ayarlanacağını gösteren örnek kod aşağıda verilmiştir.
+Saatlik anahtar uygulamak için yeni bir [Metered](https://reference.aspose.com/cells/net/aspose.cells/metered) sınıfı tanıtılmıştır. Aşağıda, saatlik genel ve özel anahtarın nasıl ayarlanacağını gösteren örnek bir kod bulunmaktadır.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Set metered public and private keys
 
@@ -98,16 +99,16 @@ Console.WriteLine(amountAfter);
 
 {{< /highlight >}}
 
-###  **Gömülü Kaynak Nasıl Kullanılır**
+### **Bir Gömülü Kaynağın Kullanımı**
 
-Lisansı uygulamanızla birlikte paketlemenin ve kaybolmamasını sağlamanın bir başka düzgün yolu da, onu Aspose.Cells'i çağıran derlemelerden birine gömülü kaynak olarak eklemektir. Lisans dosyasını gömülü kaynak olarak eklemek için aşağıdaki adımları uygulayın. :
+Lisansı uygulamanın yanına yerleştirme ve kaybolmamasını sağlamanın başka bir güzel yolu, onu Aspose.Cells'i çağıran derlemelerden birine gömülü bir kaynak olarak eklemektir. Lisans dosyasını gömülü bir kaynak olarak eklemek için aşağıdaki adımları gerçekleştirin:
 
-1.  Visual Studio .NET'de lisans (.lic) dosyasını seçim yaparak projeye ekleyin**Mevcut Öğeyi Ekle** itibaren**Dosya** Menü.
-1.  Çözüm Gezgini'nde dosyayı seçin ve ayarlayın.**Eylem Oluştur** ile**Gömülü Kaynak** Özellikler penceresinde
+1. Visual Studio .NET'te, **Dosya** menüsünden **Mevcut Öğe Ekle** seçeneğini seçerek (.lic) lisans dosyasını projeye ekleyin.
+1. Çözüm Gezgini'nde dosyayı seçin ve Özellikler penceresinde **Yerleşik Kaynak** seçeneğine **Yapılandırma Eylemi**'ni ayarlayın.
 
-Derlemeye katıştırılmış lisansa (gömülü kaynak olarak) erişmek için, Microsoft .NET Framework'ün System.Reflection.Assembly sınıfının GetExecutingAssembly ve GetManifestResourceStream yöntemlerini çağırmak gerekli değildir. Yapmanız gereken tek şey, lisans dosyasını projenize gömülü kaynak olarak eklemek ve lisans dosyasının adını SetLicense yöntemine iletmektir.**Aspose.Cells.License** class, lisans dosyasını gömülü kaynaklarda otomatik olarak bulacaktır. Uygulamalarınızda lisans (gömülü) ayarlama yöntemini anlamak için lütfen aşağıda verilen örneği inceleyin.
+Derlemeye gömülü lisansa (yerleşik kaynak olarak) erişmek için Microsoft .NET Framework'ün System.Reflection.Assembly sınıfının GetExecutingAssembly ve GetManifestResourceStream yöntemlerini çağırmak gerekli değildir. Yapmanız gereken tek şey, lisans dosyasını projenize gömülü bir kaynak olarak eklemek ve SetLicense yöntemine lisans dosyasının adını iletmektir. **Aspose.Cells.License** sınıfı, lisans dosyasını yerleşik kaynaklarda otomatik olarak bulur. Bu lisanslama yönteminin uygulanması hakkında daha fazla ayrıntı için aşağıdaki örneği inceleyin.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the License class
 
@@ -119,27 +120,27 @@ license.SetLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-##  **Aspose.Cells Izgara Kontrollerinde Lisans Nasıl Ayarlanır**
+## **Aspose.Cells Grid Kontrollerinde Lisansı Ayarlama**
 
-Aspose.Cells Grid Suite'te lisans bir dosyadan, akıştan veya gömülü bir kaynaktan yüklenebilir. Aspose.Cells.GridDesktop / Aspose.Cells.GridWeb, lisansı aşağıdaki konumlarda bulmaya çalışır:
+Aspose.Cells Grid Suite'te lisans, dosyadan, akıştan veya bir gömülü kaynaktan yüklenebilir. Aspose.Cells.GridDesktop / Aspose.Cells.GridWeb, lisansı aşağıdaki konumlarda bulmaya çalışır:
 
-1. Açık yol
-1. Bileşenin dll'sini içeren klasör (Aspose.Cells.GridDesktop veya Aspose.Cells.GridWeb'de bulunur)
-1. Bileşenin dll'sini çağıran derlemeyi içeren klasör (Aspose.Cells.GridDesktop veya Aspose.Cells.GridWeb'de bulunur)
-1. Giriş derlemesini içeren klasör (.exe'niz)
-1. Bileşenin dll'sini çağıran derlemede yerleşik bir kaynak (Aspose.Cells.GridDesktop veya Aspose.Cells.GridWeb'de bulunur)
+1. Belirtilen yol
+1. Bileşenin dll'sini içeren klasör (Aspose.Cells.GridDesktop veya Aspose.Cells.GridWeb'in bir parçası olarak)
+1. Bileşenin dll'sini çağıran derlemeyi içeren klasör (Aspose.Cells.GridDesktop veya Aspose.Cells.GridWeb'in bir parçası olarak)
+1. Giriş derlemesini (yani .exe dosyasını) içeren klasör
+1. Bileşenin dll'sini çağıran derlemenin gömülü bir kaynağı olarak (Aspose.Cells.GridDesktop veya Aspose.Cells.GridWeb'in bir parçası olarak)
 
 {{% alert color="primary" %}}
 
-Aspose.Cells.GridDesktop kontrolünü kullanıyorsanız lisans sınıfı Aspose.Cells.GridDesktop.License olarak kullanılacaktır, ancak Aspose.Cells.GridWeb kontrolünü kullanıyorsanız lisansı ayarlamak için Aspose.Cells.GridWeb.License sınıfı kullanılacaktır.
+Aspose.Cells.GridDesktop denetimini kullanıyorsanız, lisans sınıfı Aspose.Cells.GridDesktop.License olarak kullanılır, ancak Aspose.Cells.GridWeb denetimini kullanıyorsanız, lisans sınıfı Aspose.Cells.GridWeb.License kullanılır.
 
 {{% /alert %}}
 
-###  **Diskten veya Akıştan Lisans Nasıl Uygulanır?**
+### **Diskten veya bir akıştan lisans uygulamanın en kolay yolu, lisans dosyasını, bileşenin (Aspose.Cells.GridWeb içeren) dll'sinin bulunduğu klasörle aynı klasöre koymak ve yalnızca dosya adını, yol olmadan belirtmektir.**
 
-Bir lisans ayarlamanın en kolay yolu, lisans dosyasını bileşenin dll dosyasıyla (Aspose.Cells.GridWeb'de bulunur) aynı klasöre koymak ve yolu olmadan yalnızca dosya adını belirtmektir.
+SetLicense yöntemini çağırdığınızda, lisans adı, lisans dosya adıyla aynı olmalıdır. Örneğin, lisans dosya adını "MyLicense.lic.xml" olarak değiştirebilirsiniz. Daha sonra kodunuzda, SetLicense yöntemi için değiştirilmiş lisans adını (yani MyLicense.lic.xml) kullanmalısınız.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate an instance of license and set the license file through its path
 
@@ -151,13 +152,13 @@ license.SetLicense("MyLicense.lic");
 
 {{% alert color="primary" %}}
 
-SetLicense yöntemini çağırdığınızda lisans adı, lisans dosya adınızla aynı olmalıdır. Örneğin lisans dosyasının adını "MyLicense.lic.xml" olarak değiştirebilirsiniz. Daha sonra kodunuzda SetLicense yöntemi için değiştirilmiş lisans adını (yani MyLicense.lic.xml) kullanmalısınız.
+SetLicense yöntemini çağırdığınızda, lisans adının lisans dosya adıyla aynı olması gerekir. Örneğin, lisans dosya adını "MyLicense.lic.xml" olarak değiştirebilirsiniz. Ardından kodunuzda, lisans adını değiştirilmiş lisans adını (yani MyLicense.lic.xml) SetLicense yöntemi için kullanmalısınız.
 
 {{% /alert %}}
 
-Bir akıştan lisans yüklemek de mümkündür.
+Bir lisansı bir akıştan yüklemek de mümkündür.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate an instance of license and set the license through a stream
 
@@ -167,17 +168,17 @@ license.SetLicense(myStream);
 
 {{< /highlight >}}
 
-###  **Gömülü Kaynak Olarak Lisans Nasıl Başvurulur**
+### **Bir Gömülü Kaynak Olarak Lisans Uygulama**
 
-Lisansı uygulamanızla birlikte paketlemenin ve kaybolmayacağından emin olmanın başka bir düzgün yolu, onu bileşenin dll'sini (Aspose.Cells.GridDesktop'a dahil) çağıran derlemelerden birine gömülü bir kaynak olarak eklemektir. Lisans dosyasını katıştırılmış kaynak olarak eklemek için aşağıdaki adımları gerçekleştirin:
+Lisansı uygulamanın yanına yerleştirme ve kaybolmamasını sağlamanın başka bir güzel yolu, onu bileşenin (Aspose.Cells.GridDesktop içeren) derlemelerden birine gömülü bir kaynak olarak eklemektir. Lisans dosyasını gömülü bir kaynak olarak eklemek için aşağıdaki adımları gerçekleştirin:
 
-1.  Visual Studio .NET'de, lisans (.lic) dosyasını kullanarak projeye ekleyin.**Mevcut Öğeyi Ekle** seçeneği**Dosya** Menü.
-1. Çözüm Gezgini'nde dosyayı seçin ve Özellikler penceresinde Eylem Oluştur'u Katıştırılmış Kaynak olarak ayarlayın.
-1. Derlemeye katıştırılmış lisansa (gömülü kaynak olarak) erişmek için, Microsoft .NET Framework'ün System.Reflection.Assembly sınıfının GetExecutingAssembly ve GetManifestResourceStream yöntemlerini çağırmanıza gerek yoktur. Bunun yerine, lisans dosyasını sisteminize katıştırılmış bir kaynak olarak ekleyin. projeyi oluşturun ve lisans dosyasının adını SetLicense yöntemine iletin. License sınıfı, lisans dosyasını gömülü kaynaklarda otomatik olarak bulur.
+1. Visual Studio .NET'te, **Dosya** menüsünde **Mevcut Öğe Ekle** seçeneğini kullanarak (.lic) lisans dosyasını projeye ekleyin.
+1. Çözüm Gezgini'nde dosyayı seçin ve Özellikler penceresinde **Yapılandırma Eylemi**'ni **Yerleşik Kaynak** olarak ayarlayın.
+Derlemeye gömülü bulunan lisansa (yerleşik kaynak olarak) erişmek için, Microsoft .NET Framework'ün System.Reflection.Assembly sınıfının GetExecutingAssembly ve GetManifestResourceStream yöntemleri çağrılmasına gerek yoktur. Yapmanız gereken tek şey, lisans dosyasını projenize gömülü bir kaynak olarak eklemek ve SetLicense yöntemine lisans dosyasının adını iletmektir. Lisans sınıfı, lisans dosyasını yerleşik kaynaklarda otomatik olarak bulur. Bu lisanslama yönteminin uygulanması hakkında daha fazla ayrıntı için aşağıdaki örneği inceleyin.
 
-Bir lisansı uygulamalarınıza gömülü bir kaynak olarak uygulamanın bu yöntemini anlamak için lütfen aşağıda verilen örneği inceleyin.
+Bu yöntemi uygulayarak lisansı, gömülü kaynak olarak uygulamanıza entegre edebilirsiniz.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the License class
 
@@ -189,11 +190,11 @@ license.SetLicense("Aspose.Total.lic");
 
 {{< /highlight >}}
 
-##  **WinForm Uygulaması için Aspose.Cells.GridDesktop'ta Lisans Nasıl Başvurulur**
+## **WinForm Uygulaması için Aspose.Cells.GridDesktop'ta Lisans Uygulama**
 
-Lisans kodunuzu başvurunuz başlamadan önce girmeniz ve yalnızca bir kez uygulamanız önerilir. Örneğin, bir Windows C# uygulaması için lisans kodunu Main yöntemine koyun.
+Tavsiye edilen uygulama başlamadan önce lisanslama kodunun yerleştirilmesi ve sadece bir kez uygulanması önerilir. Örneğin, bir windows C# uygulaması için, lisanslama kodunu Main metodu içine yerleştirin.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 public class Form1 : System.Windows.Forms.Form
 
@@ -277,11 +278,11 @@ gridDesktop1.ActiveSheetIndex = 1;
 
 {{< /highlight >}}
 
-##  **Aspose.Cells.GridWeb'de Lisans Başvurusuna İlişkin Notlar**
+## **Aspose.Cells.GridWeb'de Lisans Uygulanması Notları**
 
-Lisans kodunu web uygulamanızın Global.asax.cs dosyasına yerleştirmeniz önerilir (bu lisans dosyasının " d:\ " sürücüsüne konulduğu varsayılır):
+Lisanslama kodunu web uygulamanızın Global.asax.cs dosyasına yerleştirmeniz önerilir (bu lisans dosyasının " d:\ " sürücüsüne konulması varsayılmıştır):
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void Application_Start(Object sender, EventArgs e)
 
@@ -295,9 +296,9 @@ Lisans kodunu web uygulamanızın Global.asax.cs dosyasına yerleştirmeniz öne
 
 {{< /highlight >}}
 
-Akıştan Lisans Yükleme
+Bir Akıştan Lisans Yükleme
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void Application_Start(Object sender, EventArgs e)
 

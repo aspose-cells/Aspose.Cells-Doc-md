@@ -1,18 +1,19 @@
-﻿---
-title: Fügen Sie mithilfe der XmlMapCollection.Add-Methode eine XML-Zuordnung innerhalb der Arbeitsmappe hinzu
+---
+title: XML Map innerhalb der Arbeitsmappe mit der XmlMapCollection.Add Methode hinzufügen
 type: docs
 weight: 10
 url: /de/java/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells bietet[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object))-Methode, mit der Sie Ihre XML-Zuordnung in die Arbeitsmappe importieren können.
+## **Mögliche Verwendungsszenarien**
 
-## **Fügen Sie mithilfe der XmlMapCollection.Add-Methode eine XML-Zuordnung innerhalb der Arbeitsmappe hinzu**
+Aspose.Cells stellt die Methode [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object)) zur Verfügung, die Sie verwenden können, um Ihre XML-Map innerhalb der Arbeitsmappe zu importieren.
 
- Der folgende Beispielcode fügt eine XML-Zuordnung innerhalb der Arbeitsmappe mithilfe von hinzu[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object) ) Methode und speichert sie als[Excel-Datei ausgeben](5472533.xlsx) . Der Screenshot zeigt die XML-Zuordnung, die aus importiert wurde[Beispiel.xml](5472532.xml) in der ausgegebenen Excel-Datei.
+## **XML Map innerhalb der Arbeitsmappe mit der XmlMapCollection.Add Methode hinzufügen**
 
-![todo: Bild_alt_Text](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
+Der folgende Beispielscode fügt mithilfe der Methode [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object)) XML Map innerhalb der Arbeitsmappe hinzu und speichert sie als [Ausgabe-Excel-Datei](5472533.xlsx). Der Screenshot zeigt die XML Map, die aus der [Beispiel.xml](5472532.xml) in die Ausgabe-Excel-Datei importiert wurde.
+
+![todo:image_alt_text](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
 
 ## **Beispielcode**
 

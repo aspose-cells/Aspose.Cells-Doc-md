@@ -1,54 +1,55 @@
-﻿---
-title: Ajout de nouvelles feuilles de calcul au classeur et activation d'une feuille dans VSTO et Aspose.Cells
+---
+title: Ajout de nouvelles feuilles de calcul au classeur et activation d une feuille dans VSTO et Aspose.Cells
 type: docs
 weight: 30
 url: /fr/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-in-vsto-and-aspose-cells/
 ---
-## **Conseil de migration :**
-1. Ajoutez de nouvelles feuilles de calcul à un fichier Excel Microsoft existant.
-1. Remplissez les données dans les cellules de chaque nouvelle feuille de calcul.
-1. Activer une feuille dans le classeur.
-1. Enregistrez en tant que fichier Excel Microsoft.
 
-Vous trouverez ci-dessous des extraits de code parallèles pour VSTO (C#) et Aspose.Cells for .NET (C#), qui montrent comment accomplir ces tâches.
+## **Astuce de migration :**
+1. Ajouter de nouvelles feuilles de calcul à un fichier Microsoft Excel existant.
+1. Remplir les données dans les cellules de chaque nouvelle feuille de calcul.
+1. Activer une feuille dans le classeur.
+1. Enregistrer en tant que fichier Microsoft Excel.
+
+Ci-dessous, des extraits de code parallèles pour VSTO (C#) et Aspose.Cells for .NET (C#), montrant comment accomplir ces tâches.
 
 **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-//Objet d'application initial
+ //intiate application object
 
 Excel.Application excelApp = Application;
 
-// Spécifiez le chemin du fichier Excel du modèle.
+//Specify the template excel file path.
 
-string myPath = "Book1.xls" ;
+string myPath = "Book1.xls";
 
-//Ouvre le fichier excel.
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante,
+Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante,
+Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante,
+Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante,
+Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante,
+Missing.Value, Missing.Value,
 
-Valeur.manquante, Valeur.manquante );
+Missing.Value, Missing.Value);
 
-// Déclare un objet Worksheet.
+//Declare a Worksheet object.
 
 Excel.Worksheet newWorksheet;
 
-//Ajouter 5 nouvelles feuilles de calcul au classeur et remplir quelques données
+//Add 5 new worksheets to the workbook and fill some data
 
-//dans les cellules.
+//into the cells.
 
- pour (int je = 1; je< 6; i++){
+for (int i = 1; i < 6; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -88,35 +89,35 @@ excelApp.Quit();
 
 **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Instancier une instance de licence et définir le fichier de licence
+ //Instantiate an instance of license and set the license file
 
-//par son chemin
+//through its path
 
 Aspose.Cells.License license = new Aspose.Cells.License();
 
-licence.SetLicense("Aspose.Total.lic");
+license.SetLicense("Aspose.Total.lic");
 
-// Spécifiez le chemin du fichier Excel du modèle.
+//Specify the template excel file path.
 
-string myPath = "Book1.xls" ;
+string myPath = "Book1.xls";
 
-// Instancier un nouveau classeur.
+//Instantiate a new Workbook.
 
-//Ouvre le fichier excel.
+//Open the excel file.
 
-Classeur classeur = nouveau classeur (myPath);
+Workbook workbook = new Workbook(myPath);
 
-// Déclare un objet Worksheet.
+//Declare a Worksheet object.
 
-Feuille de travail newWorksheet;
+Worksheet newWorksheet;
 
-//Ajouter 5 nouvelles feuilles de calcul au classeur et remplir quelques données
+//Add 5 new worksheets to the workbook and fill some data
 
-//dans les cellules.
+//into the cells.
 
- pour (int je = 0; je< 5; i++){
+for (int i = 0; i < 5; i++){
 
                 //Add a worksheet to the workbook.
 
@@ -145,7 +146,7 @@ workbook.Worksheets.ActiveSheetIndex = 0;
 workbook.Save("out_My_Book1.xls");
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
-- [GithubGenericName](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/télécharger)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).Zip *: français)
+## **Télécharger le code source d'exemple**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Adding.New.Worksheets.to.Workbook.and.Activating.a.Sheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Adding%20New%20Worksheets%20to%20Workbook%20and%20Activating%20a%20Sheet%20\(Aspose.Cells\).zip)

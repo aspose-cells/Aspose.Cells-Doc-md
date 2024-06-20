@@ -1,9 +1,10 @@
-﻿---
-title: Jthon でのクイック スタート
+---
+title: Jythonのクイックスタート
 type: docs
 weight: 10
 url: /ja/java/quick-start-in-jython/
 ---
-**このセクションには、次のトピックが含まれています。**
 
-- [Hello World で Jython](/cells/ja/java/hello-world-in-jython/)
+**このセクションには次のトピックが含まれています:**
+
+- [JythonでHello World](/cells/ja/java/hello-world-in-jython/)

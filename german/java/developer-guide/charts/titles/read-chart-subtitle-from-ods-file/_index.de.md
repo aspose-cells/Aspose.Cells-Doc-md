@@ -1,12 +1,13 @@
-﻿---
-title: Lesen Sie den Diagrammuntertitel aus der Datei ODS
+---
+title: Lese Diagramm Untertitel aus ODS Datei
 type: docs
 weight: 120
 url: /de/java/read-chart-subtitle-from-ods-file/
 ---
-## **Lesen Sie den Diagrammuntertitel aus der Datei ODS**
 
-Aspose.Cells bietet Ihnen die Möglichkeit, Diagrammuntertitel in ODS-Dateien zu lesen, indem Sie die verwenden[**Diagramm.Untertitel**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)Eigentum. Der folgende Beispielcode lädt die[Beispieldatei ODS](SampleChart.ods)und liest den Diagrammuntertitel mit[**Diagramm.Untertitel**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)-Eigenschaft und druckt sie im Konsolenfenster. Bitte sehen Sie sich die Konsolenausgabe des unten angegebenen Codes als Referenz an.
+## **Diagramm-Untertitel aus ODS-Datei lesen**
+
+Aspose.Cells ermöglicht es Ihnen, Untertitel in ODS-Dateien zu lesen, indem Sie die Eigenschaft [**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle) verwenden. Der folgende Beispielcode lädt die [Beispiel-ODS-Datei](SampleChart.ods) und liest den Diagramm-Untertitel mithilfe der Eigenschaft [**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle) und gibt ihn im Konsolenfenster aus. Bitte sehen Sie sich die Konsolenausgabe des unten stehenden Codes zur Referenz an.
 
 ## **Beispielcode**
 
@@ -14,7 +15,7 @@ Aspose.Cells bietet Ihnen die Möglichkeit, Diagrammuntertitel in ODS-Dateien zu
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Chart Subtitle: Sample Chart Subtitle
 

@@ -1,15 +1,16 @@
-﻿---
+---
 title: Защита рабочих листов в Ruby
 type: docs
 weight: 10
 url: /ru/java/protecting-worksheets-in-ruby/
 ---
+
 ## **Aspose.Cells - Защита рабочих листов**
- Чтобы защитить рабочий лист с помощью**Aspose.Cells Java для рубина** , вызов**Protect_worksheet** метод**защита** модуль.
+Чтобы защитить рабочий лист с помощью Aspose.Cells Java для Ruby, вызовите метод protect_worksheet модуля protection.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def protect_worksheet()
 
@@ -54,7 +55,7 @@ url: /ru/java/protecting-worksheets-in-ruby/
 end   
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Защита рабочих листов (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите защиту рабочих листов (Aspose.Cells) с любого из упомянутых ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

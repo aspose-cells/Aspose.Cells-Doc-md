@@ -1,20 +1,21 @@
-﻿---
-title: Ajout du module et du code VBA à l'aide de Aspose.Cells
+---
+title: Ajouter un module VBA et du code en utilisant Aspose.Cells
 type: docs
 weight: 20
 url: /fr/java/adding-vba-module-and-code-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells vous permet d'ajouter un nouveau module VBA et un code macro à l'aide de Aspose.Cells. Veuillez utiliser le[**Classeur.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) méthode pour ajouter le nouveau module VBA dans le classeur
+Aspose.Cells vous permet d'ajouter un nouveau module VBA et un code Macro en utilisant Aspose.Cells. Veuillez utiliser la méthode [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) pour ajouter le nouveau module VBA dans le classeur
 
 {{% /alert %}}
 
-## **Ajout du module et du code VBA à l'aide de Aspose.Cells**
+## **Ajouter un module VBA et du code en utilisant Aspose.Cells**
 
-L'exemple de code suivant crée un nouveau classeur et ajoute un nouveau module VBA et un code de macro et enregistre la sortie au format XLSM. Une fois, vous ouvrirez le fichier de sortie XLSM dans Microsoft Excel et cliquez sur le**Développeur > Visual Basic** commandes de menu, vous verrez un module nommé "TestModule" et à l'intérieur, vous verrez le code macro suivant.
+Le code d'exemple suivant crée un nouveau classeur et ajoute un nouveau module VBA et un code de macro, puis enregistre la sortie au format XLSM. Une fois, vous ouvrirez le fichier XLSM de sortie dans Microsoft Excel et cliquerez sur les commandes de menu **Développeur > Visual Basic**, vous verrez un module nommé "TestModule" et à l'intérieur, vous verrez le code de macro suivant.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -24,8 +25,8 @@ End Sub
 
 {{< /highlight >}}
 
-## Exemple de code
+## Code d'exemple
 
-Voici un exemple de code pour générer le fichier de sortie XLSM avec le module VBA et le code macro.
+Voici un code d'exemple pour générer le fichier de sortie XLSM avec un module VBA et du code Macro.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}

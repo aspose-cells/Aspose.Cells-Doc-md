@@ -1,42 +1,43 @@
-﻿---
-title: Éditeur de feuille de calcul - Travailler avec des feuilles
+---
+title: Éditeur de feuille de calcul  Travailler avec des feuilles
 type: docs
 weight: 20
 url: /fr/java/spreadsheet-editor-working-with-sheets/
 ---
+
 **Table des matières**
 
-- [Ajouter et supprimer des feuilles ?](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
- - WorksheetView.onAddNewSheet
- - WorksheetView.onRemoveActiveSheet
+- [Ajouter et supprimer des feuilles?](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
+  - WorksheetView.onAddNewSheet
+  - WorksheetView.onRemoveActiveSheet
 - [Renommer les feuilles](#SpreadsheetEditor-WorkingwithSheets-RenameSheets) 
- - WorksheetView.setActiveSheet
-- [Basculer entre les feuilles](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
- - WorksheetView.setActiveSheet
-### **Ajouter et supprimer des feuilles ?**
-Microsoft Excel autorise plusieurs feuilles dans un seul fichier. HTML5 Spreadsheet Editor permet à l'utilisateur d'ajouter et de supprimer des feuilles. Dans l'onglet Feuilles, nous avons une liste déroulante de feuilles. La feuille sélectionnée est celle qui est ouverte par l'éditeur.
+  - WorksheetView.setActiveSheet
+- [Passer d'une feuille à l'autre](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
+  - WorksheetView.setActiveSheet
+### **Ajouter et supprimer des feuilles?**
+Microsoft Excel permet plusieurs feuilles dans un seul fichier. L'éditeur de feuilles HTML5 permet à l'utilisateur d'ajouter et de supprimer des feuilles. Sur l'onglet Feuilles, nous avons une liste déroulante de feuilles. La feuille sélectionnée est celle qui est ouverte par l'éditeur.
 
-Pour ajouter une nouvelle feuille :
+Pour ajouter une nouvelle feuille:
 
-1.  Basculer vers**Onglet Feuilles**.
-1. Cliquez sur le bouton ***+** (plus).
+1. Basculez vers l'onglet **Feuilles**.
+1. Cliquez sur le bouton **+** (plus).
 
-Une nouvelle feuille sera ajoutée et l'éditeur y basculera.
+Une nouvelle feuille sera ajoutée et l'éditeur basculera dessus.
 
-Pour supprimer la feuille actuellement sélectionnée :
+Pour supprimer la feuille actuellement sélectionnée:
 
-1.  Basculer vers**Onglet Feuilles**.
+1. Basculez vers l'onglet **Feuilles**.
 1. Cliquez sur le bouton **-** (moins).
 
-La feuille actuellement sélectionnée sera supprimée et l'éditeur passera à la dernière feuille sélectionnée.
+La feuille actuellement sélectionnée sera supprimée et l'éditeur basculera sur la dernière sélectionnée.
 
-![tâche : image_autre_texte](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
- Lorsque l'utilisateur clique sur** +** (plus) et**-** (moins) sont cliqués, le bean backend JSF**Feuille de calcul** gère les événements à l'aide**WorksheetView.onAddNewSheet** et**Méthodes WorksheetView.onRemoveActiveSheet**.
+Lorsque l'utilisateur clique sur les boutons **+** (plus) et **-** (moins), le bean backend JSF **WorksheetView** gère les événements en utilisant les méthodes **WorksheetView.onAddNewSheet** et **WorksheetView.onRemoveActiveSheet**.
 #### **WorksheetView.onAddNewSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onAddNewSheet() {
 
@@ -63,7 +64,7 @@ La feuille actuellement sélectionnée sera supprimée et l'éditeur passera à 
 {{< /highlight >}}
 
 #### **WorksheetView.onRemoveActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onRemoveActiveSheet() {
 
@@ -97,22 +98,22 @@ La feuille actuellement sélectionnée sera supprimée et l'éditeur passera à 
 
 {{< /highlight >}}
 ### **Renommer les feuilles**
-Pour renommer une feuille :
+Pour renommer une feuille:
 
-1.  Basculer vers**Onglet Feuilles**.
-1. Cliquez sur le nom de la feuille dans la zone de texte pour la modifier.
-1. Modifiez le nom de la feuille.
-1. Lorsque vous avez terminé, appuyez sur la touche ENTREE ou cliquez n'importe où en dehors de la zone.
+1. Basculez vers l'onglet **Feuilles**.
+1. Cliquez sur le nom de la feuille dans la zone de texte pour le modifier.
+1. Changez le nom de la feuille.
+1. Lorsque vous avez terminé, appuyez sur la touche ENTRÉE ou cliquez n'importe où à l'extérieur de la boîte.
 
 La feuille sera renommée.
 
-![tâche : image_autre_texte](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
- Lorsque la valeur de la zone de texte est modifiée, l'événement est géré sur le serveur par le bean backend JSF**Feuille de calcul** en utilisant la méthode**WorksheetView.setActiveSheet**.
+Lorsque la valeur de la zone de texte est modifiée, l'événement est géré côté serveur par le bean backend JSF **WorksheetView** à l'aide de la méthode **WorksheetView.setActiveSheet**.
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 
@@ -135,21 +136,21 @@ La feuille sera renommée.
     }
 
 {{< /highlight >}}
-### **Basculer entre les feuilles**
-Pour passer à une autre feuille :
+### **Passer d'une feuille à l'autre**
+Pour passer à une autre feuille :
 
-1.  Basculer vers**Onglet Feuilles**.
+1. Basculez vers l'onglet **Feuilles**.
 1. Sélectionnez une feuille dans le menu déroulant.
 
 L'éditeur passera à la feuille sélectionnée.
 
-![tâche : image_autre_texte](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**Comment ça fonctionne?**
+**Comment cela fonctionne?**
 
- Lorsque la valeur du sélecteur déroulant est modifiée, l'événement est géré sur le serveur par le bean backend JSF**Feuille de calcul** en utilisant la méthode**WorksheetView.setActiveSheet**.
+Lorsque la valeur du sélecteur déroulant est modifiée, l'événement est géré côté serveur par le bean backend JSF **WorksheetView** à l'aide de la méthode **WorksheetView.setActiveSheet**.
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 

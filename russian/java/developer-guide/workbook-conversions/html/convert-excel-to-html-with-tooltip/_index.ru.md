@@ -1,18 +1,19 @@
-﻿---
-title: Преобразование Excel в HTML с помощью всплывающей подсказки
+---
+title: Преобразовать Excel в HTML c всплывающей подсказкой
 type: docs
 weight: 150
 url: /ru/java/convert-excel-to-html-with-tooltip/
 ---
-## **Преобразование Excel в HTML с помощью всплывающей подсказки**
 
-Могут быть случаи, когда текст обрезается в сгенерированном HTML, и вы хотите отобразить полный текст в виде всплывающей подсказки при наведении курсора. Aspose.Cells поддерживает это, предоставляя**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText)**имущество. Настройка**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText)**собственность на**истинный**добавит полный текст в качестве всплывающей подсказки в сгенерированном HTML.
+## **Преобразование Excel в HTML со всплывающей подсказкой**
 
-На следующем изображении показана всплывающая подсказка в сгенерированном файле HTML.
+Возможно, есть случаи, когда текст обрезается в создаваемом HTML, и вы хотите отображать полный текст в виде всплывающей подсказки при событии наведения. Aspose.Cells поддерживает это, предоставляя свойство [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText). Установка свойства [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText) в **true** добавит полный текст в виде всплывающей подсказки в создаваемое HTML.
 
-![дело:изображение_альтернативный_текст](convert-excel-to-html-with-tooltip_1.jpg)
+На следующем изображении показана всплывающая подсказка в сгенерированном HTML файле.
 
-Следующий пример кода загружает[исходный файл excel](AddTooltipToHtmlSample.xlsx)и генерирует[выходной файл HTML](AddTooltipToHtmlSample_out.zip)с подсказкой.
+![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
+
+Приведенный ниже код загружает [исходный файл Excel](AddTooltipToHtmlSample.xlsx) и генерирует [выходной HTML файл](AddTooltipToHtmlSample_out.zip) с всплывающей подсказкой.
 
 ## Образец кода
 

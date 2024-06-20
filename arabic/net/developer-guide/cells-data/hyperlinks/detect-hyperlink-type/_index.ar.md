@@ -1,29 +1,30 @@
 ---
-title: كشف نوع الارتباط التشعبي
+title: اكتشاف نوع الرابط الفائق
 type: docs
 weight: 160
 url: /ar/net/detect-hyperlink-type/
-description: تعرف على كيفية اكتشاف نوع الارتباط التشعبي من خلال Aspose.Cells for .NET API.
-keywords: Detect hyperlink type, Detect the type of hyperlink, Get the type of hyperlink
+description: تعلم كيفية كشف نوع الروابط التشعبية من خلال واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: اكتشاف نوع الروابط التشعبية, كشف نوع الروابط التشعبية, الحصول على نوع الروابط التشعبية
 ---
-##  **كشف نوع الارتباط التشعبي**
 
- يمكن أن يحتوي ملف Excel على أنواع مختلفة من الارتباطات التشعبية مثل الارتباطات الخارجية ومرجع الخلية ومسار الملف وما إلى ذلك. ويدعم Aspose.Cells ميزة اكتشاف نوع الارتباط التشعبي. يتم تمثيل أنواع الارتباطات التشعبية بواسطة[**نوع الوضع المستهدف**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)تعداد. ال[**نوع الوضع المستهدف**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)التعداد لديه الأعضاء التالية أسماؤهم.
+## **اكتشاف نوع الرابط الفائق**
 
-- خارجي: رابط خارجي
-- FilePath: المسار المحلي والكامل إلى الملفات\المجلدات.
-- البريد الإلكتروني: البريد الإلكتروني
-- مرجع الخلية: ارتباط بالخلية أو النطاق المسمى.
+يمكن أن يحتوي ملف إكسل على أنواع مختلفة من الرابط الشعبي مثل الرابط الخارجي، مرجع الخلية، مسار الملف، الخ. Aspose.Cells تدعم ميزة كشف نوع الرابط. تتمثل أنواع الروابط التشعبية في تقديم فئة  [**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype) زمرة التعداد. تحتوي فئة التعداد  [**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype) على الأعضاء التالية.
 
- للتحقق من نوع الارتباط التشعبي،[**الارتباط التشعبي**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) يوفر الفصل أ[**نوع الرابط**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) خاصية مع نوع الإرجاع[**نوع الوضع المستهدف**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). يوضح مقتطف التعليمات البرمجية التالي استخدام[**نوع الرابط**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)الملكية باستخدام هذا[ملف اكسيل المصدر](94896195.xlsx).
+- الخارجي: رابط خارجي
+- مسار الشكل: مسار ملف\مجلد محلي بالكامل.
+- البريد الإلكتروني: بريد إلكتروني
+- مرجع الخلية: ربط الخلية أو النطاق المسمى.
 
-###  مصدر الرمز
+للتحقق من نوع الرابط التشعبي، توفر فئة  [**Hyperlink**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) خاصية  [**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) بنوع العود. الشيفة النصية التالية توضح استخدام خاصية  [**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) عن طريق استخدام هذا الملف  [**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype) مثلاً.
+
+### كود المصدر
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-DetectLinkTypes-1.cs" >}}
 
-ما يلي هو الإخراج الناتج عن مقتطف الشفرة المذكور أعلاه.
+الناتج التالي الذي تم إنشاؤه بواسطة مقتطف الكود أعلاه.
 
-###  إخراج وحدة التحكم
+### إخراج الكونسول
 ```
 LinkTypes.xlsx: FilePath </br>
 C:\Windows\System32\cmd.exe: FilePath </br>

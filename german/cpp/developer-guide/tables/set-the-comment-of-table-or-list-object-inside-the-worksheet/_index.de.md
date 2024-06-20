@@ -1,16 +1,17 @@
 ---
-title: Legen Sie den Kommentar des Tabellen- oder Listenobjekts im Arbeitsblatt fest
+title: Setzen des Kommentars für Tabelle oder Listenobjekt in einem Arbeitsblatt
 type: docs
 weight: 20
 url: /de/cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
- Bitte legen Sie den Kommentar des Tabellen- oder Listenobjekts im Arbeitsblatt fest[ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/) Methode. Der Kommentar wird in der Datei xl/tables/tableName.xml sichtbar sein.
+Legen Sie bitte den Kommentar der Tabelle oder des Listenobjekts innerhalb der Arbeitsmappe mithilfe der Methode [ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/) fest. Der Kommentar wird in der Datei xl/tables/tableName.xml angezeigt.
 
 {{% /alert %}} 
-##  **Legen Sie den Kommentar des Tabellen- oder Listenobjekts im Arbeitsblatt fest**
-Der folgende Beispielcode lädt die Excel-Quelldatei und legt den Kommentar des ersten Tabellen- oder Listenobjekts im Arbeitsblatt fest.
+## **Den Kommentar der Tabelle oder des Listenobjekts innerhalb des Arbeitsblatts festlegen**
+Der folgende Beispielcode lädt die Quell-Excel-Datei und setzt den Kommentar des ersten Listenobjekts oder der ersten Tabelle in der Arbeitsmappe.
 
 
 

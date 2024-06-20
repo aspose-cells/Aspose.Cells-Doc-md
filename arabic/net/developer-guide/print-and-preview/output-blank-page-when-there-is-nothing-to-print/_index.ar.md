@@ -1,19 +1,20 @@
-﻿---
-title: إخراج صفحة فارغة عندما لا يوجد شيء للطباعة
+---
+title: إخراج صفحة فارغة عند عدم وجود شيء للطباعة
 type: docs
 weight: 90
 url: /ar/net/output-blank-page-when-there-is-nothing-to-print/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
- إذا كانت الورقة فارغة ، فلن يطبع Aspose.Cells أي شيء عند تصدير ورقة العمل إلى الصورة. يمكنك تغيير هذا السلوك باستخدام[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) خاصية. عندما تقوم بتعيينه**حقيقي**، سيتم طباعة الصفحة الفارغة.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **إخراج صفحة فارغة عندما لا يوجد شيء للطباعة**
+إذا كانت الورقة فارغة، فلن يقوم Aspose.Cells بطباعة أي شيء عند تصدير ورقة العمل إلى صورة. يمكنك تغيير هذا السلوك باستخدام الخاصية [**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint). عند تعيين القيمة **true**، سيتم طباعة الصفحة الفارغة.
 
-ينشئ نموذج التعليمات البرمجية التالي مصنفًا فارغًا يحتوي على ورقة عمل فارغة ويعرض ورقة العمل الفارغة إلى صورة بعد تعيين[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) الملكية مثل**حقيقي**. وبالتالي ، فإنه ينشئ صفحة فارغة حيث لا يوجد شيء يمكن طباعته يمكنك رؤيته في الصورة أدناه.
+## **إخراج صفحة فارغة عند عدم وجود شيء للطباعة**
 
-![ما يجب القيام به: image_بديل_نص](output-blank-page-when-there-is-nothing-to-print_1.png)
+يقوم الكود العيني التالي بإنشاء السجل الفارغ الذي يحتوي على ورقة عمل فارغة ويقوم بتقديم الصورة للورقة الفارغة بعد ضبط الخاصية [**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) بقيمة **true**. وبالتالي، يتم إنشاء الصفحة الفارغة نتيجة عدم وجود شيء للطباعة والذي يمكنك رؤيته في الصورة أدناه.
 
-## **عينة من الرموز**
+![todo:image_alt_text](output-blank-page-when-there-is-nothing-to-print_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-OutputBlankPageWhenThereIsNothingToPrint-1.cs" >}}

@@ -1,15 +1,16 @@
-﻿---
+---
 title: Réorganiser les feuilles dans le classeur
 type: docs
 weight: 50
 url: /fr/java/re-order-sheets-within-workbook/
 ---
+
 ## **Aspose.Cells - Réorganiser les feuilles dans le classeur**
 Aspose.Cells fournit une méthode, Worksheet.moveTo(), utilisée pour déplacer une feuille de calcul vers un autre emplacement dans la même feuille de calcul.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a new Workbook.
 
@@ -41,7 +42,7 @@ Apache POI fournit la méthode Workbook.setSheetOrder() pour définir les feuill
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/reordersheets)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Copier et déplacer des feuilles de calcul](/cells/fr/java/copying-and-moving-worksheets).
+Pour plus de détails, visitez [Copier et déplacer les feuilles de calcul](/cells/fr/java/copying-and-moving-worksheets).
 
 {{% /alert %}}

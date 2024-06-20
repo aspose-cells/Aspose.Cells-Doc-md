@@ -1,23 +1,24 @@
 ---
-title: Implementa il formato carta personalizzato del foglio di lavoro per il rendering
+title: Implementa la dimensione della carta personalizzata del foglio di lavoro per la resa
 type: docs
 weight: 70
 url: /it/net/implement-custom-paper-size-of-worksheet-for-rendering/
-description: Questo articolo spiega come usare il codice di esempio della libreria C# API o .NET per impostare dimensioni carta personalizzate dei fogli di lavoro desiderati durante il rendering del file Excel nel formato file PDF a livello di codice.
-keywords: set custom paper size while rendering excel to pdf c#
+description: Questo articolo spiega come utilizzare il codice di esempio dell API C# o della libreria .NET per impostare la dimensione della carta personalizzata dei fogli di lavoro desiderati durante la resa del file Excel nel formato file PDF in modo programmato.
+keywords: imposta dimensione carta personalizzata durante la resa excel in pdf c#
 ---
-##  **Possibili scenari di utilizzo**
 
-Non è disponibile alcuna opzione diretta per creare formati carta personalizzati in MS Excel, tuttavia, è possibile impostare il formato carta personalizzato dei fogli di lavoro desiderati durante il rendering del file Excel nel formato file PDF. Questo documento spiega come impostare un formato carta personalizzato di un foglio di lavoro utilizzando le API Aspose.Cells.
+## **Possibili Scenari di Utilizzo**
 
-##  **Implementa il formato carta personalizzato del foglio di lavoro per il rendering**
+Non c'è un'opzione diretta disponibile per creare dimensioni di carta personalizzate in MS Excel, tuttavia è possibile impostare la dimensione della carta personalizzata dei fogli di lavoro desiderati durante la resa del file Excel nel formato file PDF. Questo documento spiega come impostare una dimensione di carta personalizzata di un foglio di lavoro utilizzando le API di Aspose.Cells.
 
- Aspose.Cells consente di implementare il formato carta desiderato del foglio di lavoro. Puoi usare il[**Formato carta personalizzato**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/custompapersize) metodo del[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class per specificare una dimensione di pagina personalizzata. Il codice di esempio riportato di seguito illustra come specificare un formato carta personalizzato per il primo foglio di lavoro della cartella di lavoro. Si prega di consultare anche il[uscita PDF](45056028.pdf)generato con il seguente codice per riferimento.
+## **Implementare un formato carta personalizzato del foglio di lavoro per il rendering**
 
-##  **Immagine dello schermo**
+Aspose.Cells consente di implementare la dimensione della carta desiderata del foglio di lavoro. È possibile utilizzare il metodo [**CustomPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/custompapersize) della classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) per specificare una dimensione della pagina personalizzata. Il seguente codice di esempio illustra come specificare una dimensione di carta personalizzata per il primo foglio di lavoro nella cartella di lavoro. Si prega inoltre di consultare il [file PDF di output](45056028.pdf) generato con il seguente codice per un riferimento.
 
-![cose da fare:image_alt_text](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+## **Screenshot**
 
-##  **Codice d'esempio**
+![todo:image_alt_text](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.cs" >}}

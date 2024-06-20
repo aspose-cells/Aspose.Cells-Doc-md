@@ -1,17 +1,18 @@
-﻿---
-title: Fügen Sie mithilfe der XmlMapCollection.Add-Methode eine XML-Zuordnung innerhalb der Arbeitsmappe hinzu
+---
+title: XML Map innerhalb der Arbeitsmappe mit der XmlMapCollection.Add Methode hinzufügen
 type: docs
 weight: 10
 url: /de/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Aspose.Cells bietet[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) -Methode, mit der Sie Ihre XML-Zuordnung in die Arbeitsmappe importieren können.
+## **Mögliche Verwendungsszenarien**
 
-## **Fügen Sie mithilfe der XmlMapCollection.Add-Methode eine XML-Zuordnung innerhalb der Arbeitsmappe hinzu**
+Aspose.Cells bietet die Methode [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add), die Sie verwenden können, um Ihre XML-Map in die Arbeitsmappe zu importieren.
 
- Der folgende Beispielcode fügt eine XML-Zuordnung innerhalb der Arbeitsmappe mithilfe von hinzu[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) Methode und speichert sie als[Excel-Datei ausgeben](5115434.xlsx) . Der Screenshot zeigt die XML-Zuordnung, die aus importiert wurde[Beispiel.xml](5115433.xml) in der ausgegebenen Excel-Datei.
+## **XML Map innerhalb der Arbeitsmappe mit der XmlMapCollection.Add Methode hinzufügen**
 
-![xml-map hinzufügen](add-xml-map.png)
+Der folgende Beispielcode fügt mithilfe der Methode [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) eine XML-Map in die Arbeitsmappe ein und speichert sie als [Ausgabedatei](5115434.xlsx). Der Screenshot zeigt die XML-Map, die aus [sample.xml](5115433.xml) in die Ausgabedatei importiert wurde.
+
+![add-xml-map](add-xml-map.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddXmlMapInsideWorkbook-AddXmlMapInsideWorkbook.cs" >}}

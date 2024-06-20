@@ -1,19 +1,20 @@
-﻿---
-title: Esporta Excel in HTML con GridLines
+---
+title: Esportare Excel in HTML con linee della griglia
 type: docs
 weight: 760
 url: /it/java/export-excel-to-html-with-gridlines/
 ---
+
 {{% alert color="primary" %}} 
 
- Se desideri esportare il tuo file Excel in HTML con GridLines, utilizza il[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) proprietà e impostarla**VERO**.
+Se si desidera esportare il file Excel in HTML con linee della griglia, utilizzare la proprietà [HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) e impostarla su **true**.
 
 {{% /alert %}} 
-## **Esporta Excel in HTML con GridLines**
-Il seguente codice di esempio crea una cartella di lavoro e riempie il suo foglio di lavoro con alcuni valori e quindi lo salva nel formato HTML dopo aver impostato il[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) a**VERO**.
+## **Esportare Excel in HTML con linee della griglia**
+Il seguente codice di esempio crea un foglio di lavoro, lo riempie con alcuni valori e quindi lo salva in formato HTML dopo aver impostato la [HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) a **true**.
 
-Lo screenshot seguente mostra l'output HTML generato con questo codice di esempio. Come puoi vedere, mostra anche le linee della griglia nell'output HTML.
+La seguente schermata mostra l'HTML di output generato con questo codice di esempio. Come si può vedere, mostra anche le linee della griglia nell'HTML di output.
 
-![cose da fare:immagine_alt_testo](export-excel-to-html-with-gridlines_1.png)
+![todo:image_alt_text](export-excel-to-html-with-gridlines_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportExceltoHTML-ExportExceltoHTML.java" >}}

@@ -1,26 +1,27 @@
-﻿---
-title: Acceder y modificar la etiqueta de visualización del objeto Ole vinculado
+---
+title: Acceder y Modificar la Etiqueta de Visualización del Objeto Ole Vinculado
 type: docs
 weight: 100
 url: /es/net/access-and-modify-the-display-label-of-the-linked-ole-object/
 ---
-## **Posibles escenarios de uso**
 
- Microsoft Excel le permite cambiar la etiqueta de visualización del objeto antiguo como se muestra en la siguiente captura de pantalla. También puede acceder o modificar la etiqueta de visualización del objeto Ole utilizando las API Aspose.Cells con el[**OleObject.Etiqueta**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label)propiedad.
+## **Escenarios de uso posibles**
 
-![todo:imagen_alternativa_texto](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
+Microsoft Excel le permite cambiar la etiqueta de visualización del Objeto Ole como se muestra en la siguiente captura de pantalla. También puede acceder o modificar la etiqueta de visualización del objeto Ole utilizando las API de Aspose.Cells con la propiedad [**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label).
 
-## **Acceder y modificar la etiqueta de visualización del objeto Ole vinculado**
+![todo:image_alt_text](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 
-Consulte el siguiente código de ejemplo, carga el[ejemplo de archivo de Excel](64716810.xlsx)que contiene el Objeto Viejo. El código accede al objeto Ole y cambia su etiqueta de las API de muestra a las API Aspose. Consulte el resultado de la consola que se proporciona a continuación que muestra el efecto del código de muestra en el archivo de muestra de Excel como referencia.
+## **Acceder y Modificar la Etiqueta de Visualización del Objeto Ole Vinculado**
+
+Consulte el siguiente código de ejemplo, carga el [archivo de Excel de ejemplo](64716810.xlsx) que contiene el Objeto Ole. El código accede al Objeto Ole y cambia su Etiqueta de Muestra de APIs de Muestra a APIs de Aspose. Consulte la salida de consola que se muestra a continuación que muestra el efecto del código de ejemplo en el archivo de Excel de ejemplo como referencia.
 
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-AccessAndModifyLabelOfOleObject.cs" >}}
 
-## **Salida de consola**
+## **Salida de la consola**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Ole Object Label - Before: Sample APIs
 

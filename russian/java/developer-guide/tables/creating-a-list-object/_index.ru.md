@@ -1,54 +1,55 @@
-﻿---
+---
 title: Создание таблицы
 type: docs
 weight: 40
 url: /ru/java/creating-a-list-object/
 ---
+
 {{% alert color="primary" %}}
 
-Одним из преимуществ электронных таблиц является то, что они позволяют создавать различные типы списков, например, списки телефонов, списки задач, списки транзакций, активов или пассивов. Несколько пользователей могут работать вместе, чтобы использовать, создавать и поддерживать различные списки.
+Одним из преимуществ электронных таблиц является возможность создания различных типов списков, например, списков телефонов, списков задач, списков транзакций, активов или обязательств. Несколько пользователей могут вместе работать с созданием и поддержкой различных списков.
 
-Aspose.Cells поддерживает создание списков и управление ими.
+Aspose.Cells поддерживает создание и управление списками.
 
 {{% /alert %}}
 
-## **Преимущества стола**
+## **Преимущества таблицы**
 
-Преобразование списка данных в фактический объект списка дает ряд преимуществ:
+Есть несколько преимуществ при преобразовании списка данных в фактический объект List:
 
-- Новые строки и столбцы включаются автоматически.
-- Итоговую строку в нижней части списка можно легко добавить для отображения СУММЫ, СРЕДНЕГО, СЧЕТА и т. д.
-- Столбцы, добавленные справа, автоматически включаются в объект списка.
-- Диаграммы на основе строк и столбцов будут расширены автоматически.
-- Именованные диапазоны, назначенные строкам и столбцам, будут расширены автоматически.
+- Новые строки и столбцы автоматически включаются.
+- Итоговая строка внизу списка легко добавляется для отображения SUM, AVERAGE, COUNT и т. д.
+- Добавленные столбцы справа автоматически включаются в объект списка.
+- Графики, основанные на строках и столбцах, будут автоматически расширены.
+- Именованные диапазоны, присвоенные строкам и столбцам, будут автоматически расширены.
 - Список защищен от случайного удаления строк и столбцов.
 
-## **Создание таблицы с помощью Microsoft Excel**
+## **Создание таблицы с использованием Microsoft Excel**
 
-**Выбор диапазона данных для создания объекта списка** 
+Выбор диапазона данных для создания объекта списка 
 
-![дело:изображение_альтернативный_текст](creating-a-list-object_1.png)
+![todo:image_alt_text](creating-a-list-object_1.png)
 
-Отобразится диалоговое окно «Создать список».
+Это отображает диалоговое окно Создать список.
 
-**Диалоговое окно «Создать список»** 
+Диалоговое окно Создать список 
 
-![дело:изображение_альтернативный_текст](creating-a-list-object_2.png)
+![todo:image_alt_text](creating-a-list-object_2.png)
 
- Реализация объекта List и указание строки итогов (Select**Данные** , тогда**Список** , с последующим**Итоговая строка**).
+Реализация объекта Список и указание Итоговой строки (Выберите **Данные**, затем **Список**, затем **Итоговая строка**).
 
-**Создание объекта списка** 
+Создание объекта списка 
 
-![дело:изображение_альтернативный_текст](creating-a-list-object_3.png)
+![todo:image_alt_text](creating-a-list-object_3.png)
 
-## **Создание таблицы с использованием Использование Aspose.Cells API**
+## **Создание таблицы с использованием Aspose.Cells API**
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), представляющий файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) содержит коллекцию [**Worksheets**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets), позволяющую получить доступ к каждому рабочему листу в файле Excel.
 
- Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Класс предоставляет широкий спектр свойств и методов для управления рабочим листом. Чтобы создать[**СписокОбъект**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) на листе используйте[**СписокОбъектов**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ListObjects) свойство collection класса Worksheet. Каждый[**СписокОбъект**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) фактически является объектом[**КоллекцияОбъектовСписка**](https://reference.aspose.com/cells/java/com.aspose.cells/listobjectcollection)class, который дополнительно предоставляет метод add для добавления объекта List и указания диапазона ячеек для списка.
+Рабочий лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) предоставляет широкий спектр свойств и методов для управления рабочим листом. Чтобы создать [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) в рабочем листе, используйте свойство коллекции [**ListObjects**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ListObjects) класса Worksheet. Каждый [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) на самом деле является объектом класса [**ListObjectCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/listobjectcollection), который дополнительно предоставляет метод add для добавления объекта списка и указания диапазона ячеек для списка.
 
-В соответствии с указанным диапазоном ячеек объект «Список» создается на листе по номеру Aspose.Cells. Используйте атрибуты (например, ShowTotals, ListColumns и т. д.)[**СписокОбъект**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)класс для управления списком.
+Согласно указанному диапазону ячеек, объект списка создается в рабочем листе Aspose.Cells. Используйте атрибуты (например, ShowTotals, ListColumns и т. д.) класса [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject), чтобы контролировать список.
 
- В приведенном ниже примере мы создали тот же[**СписокОбъект**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)используя Aspose.Cells API, как мы создали с помощью Microsoft Excel в предыдущем разделе.
+В приведенном ниже примере мы создали тот же [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) с использованием API Aspose.Cells, что и при создании в Microsoft Excel в предыдущем разделе.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}

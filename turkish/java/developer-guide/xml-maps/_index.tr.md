@@ -1,4 +1,4 @@
-﻿---
+---
 title: XML Haritaları
 type: docs
 weight: 210

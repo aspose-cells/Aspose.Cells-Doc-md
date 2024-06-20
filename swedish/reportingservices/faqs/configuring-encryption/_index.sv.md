@@ -1,26 +1,27 @@
-﻿---
-title: Konfigurera kryptering
+---
+title: Konfigurering av kryptering
 type: docs
 weight: 40
 url: /sv/reportingservices/configuring-encryption/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells for Reporting Services stöder kryptering och du kan rendera krypterade Microsoft Excel-filer.
+Aspose.Cells for Reporting Services stöder kryptering och du kan rendra krypterade Microsoft Excel-filer. 
 
 {{% /alert %}} 
 ### **Typer av kryptering**
-Aspose.Cells for Reporting Services stöder kryptering vid export av Excel-filer. Den stöder tre krypteringstyper:
+Aspose.Cells for Reporting Services stöder kryptering vid export av Excel-filer. Det stöder tre typer av kryptering:
 
 - XOR
 - SVAG KRYPTERING
-- Microsoft Stark kryptografisk leverantör
+- Microsoft Strong Cryptographic Provider
 ### **Konfigurera information**
- Det finns konfigurationsinformation för kryptering i**Aspose.Cells.ReportingServices.xml** fil. När värdet för kryptering är inställt på "av", stänger Aspose.Cells.ReportingServices kryptering av.
+Det finns konfigureringsinformation för kryptering i filen **Aspose.Cells.ReportingServices.xml**. När värdet för kryptering är inställt på "av" stänger Aspose.Cells.ReportingServices av krypteringen.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="off">
 
@@ -40,24 +41,24 @@ Aspose.Cells for Reporting Services stöder kryptering vid export av Excel-filer
 
 {{< /highlight >}}
 
-När kryptering är inställt på "på", aktiverar Aspose.Cells.ReportingServices kryptering.
+När krypteringen är inställd på "på" aktiverar Aspose.Cells.ReportingServices kryptering.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-Det finns fyra parametrar i avsnittet Kryptering: ReportName, Password, EncryptionType och KeyLength.
+Det finns fyra parametrar i avsnittet Kryptering: Rapportnamn, Lösenord, KrypteringsTyp och Nyckellängd.
 
-- ReportName – Anger rapporten som behöver krypteringsinställningar. En rapport använder samma krypteringssätt när parametern är tom.
-- Lösenord – Ställer in lösenordet. Det kan inte lämnas tomt.
-- EncryptionType – Anger krypteringstyp. Det kan inte lämnas tomt.
--  KeyLength – Ställer in nyckellängden. Det kan inte lämnas tomt.
+- Rapportnamn – Anger rapporten som behöver krypteringsinställningar. En rapport använder samma krypteringssätt när parametern är tom.
+- Lösenord – Anger lösenordet. Det kan inte lämnas tomt.
+- KrypteringsTyp – Anger krypteringstyp. Den kan inte lämnas tom.
+- Nyckellängd – Anger nyckellängden. Den kan inte lämnas tom. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="on">
 

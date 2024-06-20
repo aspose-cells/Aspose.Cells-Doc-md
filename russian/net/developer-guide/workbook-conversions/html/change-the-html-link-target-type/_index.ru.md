@@ -1,28 +1,29 @@
-﻿---
-title: Изменить тип цели ссылки HTML
+---
+title: Изменить тип HTML ссылки
 type: docs
 weight: 320
 url: /ru/net/change-the-html-link-target-type/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells позволяет изменить тип цели ссылки HTML. HTML ссылка выглядит так
+Aspose.Cells позволяет вам изменять тип целевой ссылки HTML. HTML-ссылка выглядит так
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <a href="http://www.aspose.com/" target="_self">
 
 {{< /highlight >}}
 
-Как вы можете видеть, целевой атрибут в приведенной выше ссылке HTML — **_self**. Вы можете управлять этим целевым атрибутом с помощью свойства [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). Это свойство принимает перечисление [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype), которое имеет следующие значения.
+Как видно из атрибута target в указанной выше HTML-ссылке **_self**. Вы можете контролировать этот атрибут target, используя свойство [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). Это свойство принимает перечисление [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype), которое имеет следующие значения.
 
-- HtmlLinkTargetType. Пусто
+- HtmlLinkTargetType.Blank
 - HtmlLinkTargetType.Parent
 - HtmlLinkTargetType.Self
 - HtmlLinkTargetType.Top
 
 {{% /alert %}}
 
- Следующий код иллюстрирует использование[**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) имущество. Он изменяет тип цели ссылки на**пустой**. По умолчанию это**родитель**.
+Приведенный ниже код иллюстрирует использование свойства [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). Он изменяет тип целевой ссылки на **blank**. По умолчанию это **parent**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}

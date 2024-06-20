@@ -1,17 +1,18 @@
-﻿---
-title: Новая линия в Cells
+---
+title: Новая строка в ячейках
 type: docs
 weight: 30
 url: /ru/net/new-line-in-cells/
 ---
-## **Aspose.Cells - Новая строка в Cells**
-Чтобы гарантировать, что текст в ячейке может быть прочитан, можно применить явные разрывы строк и перенос текста. Обтекание текстом превращает одну строку в несколько в ячейке, при этом явные разрывы строк помещаются именно там, где вы хотите.
 
-Для переноса текста в ячейку используйте свойство Aspose.Cells.Style.IsTextWrapped.
+## **Aspose.Cells - Новая строка в ячейках**
+Чтобы гарантировать, что текст в ячейке может быть прочитан, можно применить явные разрывы строк и перенос текста. Перенос текста превращает одну строку в несколько в ячейке, а явные разрывы строк устанавливаются точно там, где вы их хотите.
+
+Чтобы переносить текст в ячейке, используйте свойство Aspose.Cells.Style.IsTextWrapped.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -34,12 +35,12 @@ sheet.Cells[2, 2].SetStyle(style);
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Новая линия в Cells**
-CellStyle.setWrapText должно иметь значение true для переноса текста.
+## **NPOI - HSSF XSSF - Новая строка в ячейках**
+CellStyle.setWrapText должно быть true для переноса текста.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -66,13 +67,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Новая линия в Cells** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Новая строка в ячейках** с любого из указанных ниже сайтов для социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Разрывы строк и перенос текста](/cells/ru/net/line-breaks-and-text-wrapping/).
+Для получения более подробной информации посетите [Разрывы строк и перенос текста](/cells/ru/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}

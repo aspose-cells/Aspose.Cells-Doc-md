@@ -1,18 +1,19 @@
 ---
-title: Sütun Başlığı İpucunu Ayarla
+title: Sütun Başlık İpucu Ayarla
 type: docs
 weight: 90
 url: /tr/java/set-column-header-tip/
 ---
-##  **Olası Kullanım Senaryoları**
-Çalışma sayfasında tabloyu oluştururken özel sütununuz için ipucu ayarlamanız gerekebilir. Aspose.Cells.GridWeb, bir sütunun başlığını yeniden adlandırmanıza olanak tanır ve sütuna ipucu ayarlayabilirsiniz, böylece kullanıcılar sütunun ne işe yaradığını kolayca anlayabilir.
-##  **Sütun Başlığı İpucunu Ayarlama**
-Sütun başlıklarının nasıl değiştirileceğini ve araç ipucu metninin nasıl uygulanacağını göstermek için aşağıda eksiksiz bir örnek verilmiştir. Örnek kodu çalıştırdıktan sonra, fare imlecini belirtilen sütunun başlığının üzerine getirdiğinizde araç ipucu metni ortaya çıkacaktır.
 
-##  **Basit kod**
-İşte örnek kod**test.jsp** dosya.
+## **Olası Kullanım Senaryoları**
+Çalışma sayfasında tablo oluştururken özel sütun için açıklama metni ayarlamanız gerekebilir. Aspose.Cells.GridWeb, bir sütunun başlığını değiştirmenize ve sütuna açıklama metni ayarlamanıza olanak tanır, böylece kullanıcılar sütunun ne için olduğunu kolayca anlayabilir.
+## **Sütun Başlık İpucu Ayarlama**
+Aşağıdaki tam örnek, nasıl sütun başlıklarını değiştireceğinizi ve açıklama metinlerini uygulayacağınızı göstermektedir. Örnek kodu çalıştırdıktan sonra, belirtilen sütun başlığının üzerine fare imleci getirildiğinde açıklama metni görüntülenecektir.
 
-{{< highlight "java" >}}
+## **Örnek Kod**
+İşte **test.jsp** dosyasının örnek kodu.
+
+{{< highlight java >}}
 
  <%@ page language="java" contentType="text/html; charset=UTF-8"
 

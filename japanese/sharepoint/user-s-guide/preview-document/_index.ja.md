@@ -1,19 +1,20 @@
-﻿---
+---
 title: ドキュメントのプレビュー
 type: docs
 weight: 30
 url: /ja/sharepoint/preview-document/
 ---
-ドキュメント ライブラリで Microsoft Excel ドキュメントをプレビューするには:
 
-1. 選択する**Aspose.Cells でドキュメントをプレビュー**ドキュメントの編集制御ブロック (ECB) から。
+ドキュメントライブラリのMicrosoft Excelドキュメントをプレビューするには：
 
-   **メニューから [ドキュメントのプレビュー] を選択する** 
+1. **Aspose.Cellsでドキュメントをプレビュー**をドキュメントのECBから選択します。 
 
-![todo:画像_代替_文章](preview-document_1.png)
+   メニューから**プレビュードキュメントを選択する** 
+
+![todo:image_alt_text](preview-document_1.png)
 
 
 
-**ドキュメントのプレビュー** 
+**ドキュメントプレビュー** 
 
-![todo:画像_代替_文章](preview-document_2.png)
+![todo:image_alt_text](preview-document_2.png)

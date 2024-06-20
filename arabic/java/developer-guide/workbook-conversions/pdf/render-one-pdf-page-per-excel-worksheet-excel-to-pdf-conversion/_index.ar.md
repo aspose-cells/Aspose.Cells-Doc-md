@@ -1,25 +1,26 @@
-﻿---
-title: تقديم واحد PDF صفحة لكل ورقة عمل Excel - تحويل Excel إلى PDF
+---
+title: عرض صفحة PDF واحدة لكل ورقة Excel  تحويل Excel إلى صيغة PDF
 type: docs
 weight: 40
 url: /ar/java/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 ---
+
 {{% alert color="primary" %}}
 
-عند العمل باستخدام ملفات Excel كبيرة Microsoft (على سبيل المثال ، مصنف يحتوي على العديد من الأوراق ، كل منها يحتوي على 50 عمودًا و 300 صف أو أكثر من البيانات) ، قد ترغب في أن يعرض إخراج PDF صفحة واحدة لكل ورقة عمل ، بغض النظر عن حجم ورقة العمل . قد يعني هذا أنه من المحتمل أن يكون لكل صفحة حجم صفحة مختلف تمامًا. يمكن تحقيق ذلك باستخدام Aspose.Cells for Java.
+عند العمل مع ملفات مايكروسوفت إكسل الكبيرة (على سبيل المثال، دفتر عمل يحتوي على العديد من الأوراق، كل ورقة تحتوي على 50 عمودًا و300 صفًا أو أكثر من البيانات)، قد ترغب في جعل مخرجات PDF تظهر صفحة واحدة لكل ورقة عمل، بصرف النظر عن حجم الورقة. هذا يعني أن كل صفحة عرض على الأرجح ستكون لها حجم صفحة مختلفة بشكل كبير. يمكن تحقيق هذا باستخدام الرقم المعرف Aspose.Cells for Java.
 
 {{% /alert %}}
 
-يرجى الاطلاع على نموذج التعليمات البرمجية التالي الذي يحول ملف Excel مع أوراق عمل متعددة إلى PDF.
+يرجى الاطلاع على الكود النموذجي التالي الذي يحول ملف Excel مع العديد من الأوراق إلى PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExceltoPDF-ExceltoPDF.java" >}}
 
 {{% alert color="primary" %}}
 
- إذا كان[**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet) تم تعيين الخيار إلى**حقيقي** ، يتم تحويل كافة محتويات الورقة إلى صفحة PDF واحدة. تم تحديد حجم الورق بواسطة[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) غير صالح ، لكن الإعدادات الأخرى التي تم ضبطها باستخدام[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)لا يزال ساري المفعول.
+إذا تم تعيين [**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet)إلى **true**, سيتم عرض جميع محتويات الورقة إلى صفحة واحدة في PDF. حجم الورقة المعين بواسطة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) غير صالح، ولكن الإعدادات الأخرى المعينة بواسطة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) لا يزال لها تأثير.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل استدعاء[**مصنف .calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()قبل تحويل جدول البيانات إلى PDF. هذا يضمن إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في PDF.
+إذا كانت جداول البيانات الخاصة بك تحتوي على صيغ، فمن الأفضل استدعاء الطريقة [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) قبل عرض الجدول الحاسبي إلى PDF. هذا يضمن إعادة حساب القيم المعتمدة على الصيغ، وعرض القيم الصحيحة في ملف الـPDF.
 
 {{% /alert %}}

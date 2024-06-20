@@ -1,45 +1,46 @@
-﻿---
-title: Преобразование рабочего листа в изображение в Ruby
+---
+title: Преобразование Листа в изображение в Ruby
 type: docs
 weight: 60
 url: /ru/java/converting-worksheet-to-image-in-ruby/
 ---
-## **Aspose.Cells - Преобразование рабочего листа в изображение**
-Чтобы преобразовать рабочий лист в изображение с помощью Aspose.Cells for Java в Ruby, просто вызовите модуль Converter.
 
-**Рубиновый код**
+## **Aspose.Cells - Преобразование Листа в изображение**
+Чтобы преобразовать Лист в изображение, используя Aspose.Cells for Java в Ruby, просто вызовите модуль Converter.
 
-{{< highlight "ruby" >}}
+**Код на Ruby**
 
- рабочий лист определения_к_изображение (книга)
+{{< highlight ruby >}}
 
-#Создать объект для ImageOptions
+ def worksheet_to_image(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').новый
+    #Create an object for ImageOptions
 
-
-
-# Установить тип изображения
-
-image_format = Rjb::import('com.aspose.cells.ImageFormat')
-
-изображение_options.setImageFormat (изображение_формат.getPng())
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
 
 
-# Получить первый рабочий лист.
+    # Set the image type
 
-лист = рабочая книга.getWorksheets().get(0)
+    image_format = Rjb::import('com.aspose.cells.ImageFormat')
 
-# Создайте объект SheetRender для целевого листа
-
-sr = Rjb::import('com.aspose.cells.SheetRender').new(лист, img_options)
+    img_options.setImageFormat(image_format.getPng())
 
 
 
-j = 0
+    # Get the first worksheet.
 
- в то время как j< sr.getPageCount()
+    sheet = workbook.getWorksheets().get(0)
+
+    # Create a SheetRender object for the target sheet
+
+    sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+
+
+
+    j = 0
+
+    while j < sr.getPageCount()
 
         # Generate an image for the worksheet
 
@@ -54,7 +55,7 @@ j = 0
 end 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Преобразование рабочего листа в изображение (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Преобразование Листа в изображение (Aspose.Cells)** с любого из указанных ниже сайтов для социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

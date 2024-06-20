@@ -1,12 +1,13 @@
-﻿---
+---
 title: خطوط الشبكة
 type: docs
 weight: 10
 url: /ar/reportingservices/gridlines/
 ---
- تم تكوين خطوط الشبكة بتنسيق**Aspose.Cells.ReportingServices.xml** حتى تتمكن من التحكم في ما إذا كان ملف Excel Microsoft المُصدَّر يعرض خطوط الشبكة. النظام الأساسي**إيقاف**، مما يعني عدم عرض خطوط الشبكة.
 
-{{< highlight "java" >}}
+تم تكوين خطوط الشبكة في **Aspose.Cells.ReportingServices.xml** بحيث يمكنك التحكم في ما إذا كان ملف Excel المصدر يظهر خطوط الشبكة أم لا. القيمة الافتراضية هي **إيقاف**, مما يعني أن خطوط الشبكة لا تُعرض.
+
+{{< highlight java >}}
 
  <Aspose>
 

@@ -1,17 +1,20 @@
-﻿---
-title: Créer supprimer et obtenir des commentaires GridCell
+---
+title: Créer, supprimer et obtenir des commentaires de cellule de la grille
 type: docs
 weight: 100
-url: /fr/net/create-remove-and-get-gridcell-comments/
+url: /fr/net/aspose-cells-gridweb/manage-comment/
+keywords: GridWeb,comment
+description: Cet article présente comment travailler avec les commentaires dans GridWeb.
 ---
+
 ## **Scénarios d'utilisation possibles**
-L'article suivant explique comment créer, supprimer et obtenir des commentaires GridCell dans la feuille de calcul GridWeb. Il convient de noter que GridWeb affiche un commentaire sous forme d'info-bulle comme MS-Excel lorsque vous passez la souris sur la cellule, comme indiqué dans cette capture d'écran.
+L'article suivant explique comment créer, supprimer et obtenir un commentaire à partir d'une cellule (GridCell) à l'intérieur de la feuille de calcul GridWeb. Il est à noter que GridWeb affiche le commentaire sous forme de tooltip comme MS-Excel lorsque vous survolez la cellule comme indiqué dans cette capture d'écran.
 
-![tâche : image_autre_texte](create-remove-and-get-gridcell-comments_1.png)
-## **Créer un objet de commentaire à l'intérieur de Cell**
-Veuillez utiliser la méthode GridCell.CreateComment pour créer un objet de commentaire dans la cellule. L'exemple de code suivant crée un exemple de commentaire dans la cellule B4 de la première feuille de calcul de GridWeb.
+![todo:image_alt_text](create-remove-and-get-gridcell-comments_1.png)
+## **Créer un objet Commentaires à l'intérieur de la cellule**
+Veuillez utiliser la méthode GridCell.CreateComment pour créer un objet commentaire à l'intérieur de la cellule. Le code d'exemple suivant crée un commentaire d'exemple dans la cellule B4 de la première feuille de calcul de GridWeb.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Access first worksheet of GridWeb
 
@@ -28,12 +31,12 @@ GridCell cell = sheet.Cells["B4"];
 cell.CreateComment("This is a B4 note.", "Peter", true);
 
 {{< /highlight >}}
-## **Supprimer l'objet Commentaire de Cell**
-Veuillez utiliser la méthode GridCell.RemoveComment pour supprimer un objet de commentaire de la cellule. L'exemple de code suivant supprime le commentaire de la cellule B4 dans la première feuille de calcul de GridWeb.
+## **Supprimer un objet Commentaires de la cellule**
+Veuillez utiliser la méthode GridCell.RemoveComment pour supprimer un objet commentaire de la cellule. Le code d'exemple suivant supprime le commentaire de la cellule B4 à l'intérieur de la première feuille de calcul de GridWeb.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Access first worksheet of GridWeb
 
@@ -48,10 +51,10 @@ GridCell cell = sheet.Cells["B4"];
 cell.RemoveComment();
 
 {{< /highlight >}}
-## **Obtenir l'objet Commentaire de Cell**
-Veuillez utiliser la méthode GridCell.GetComment() pour obtenir l'objet commentaire de la cellule. L'exemple de code suivant obtient l'objet de commentaire de la cellule B4, puis accède à ses différentes propriétés telles que Auteur, Note, Visibilité, etc.
+## **Obtenir un objet Commentaires de la cellule**
+Veuillez utiliser la méthode GridCell.GetComment() pour obtenir l'objet commentaire de la cellule. Le code d'exemple suivant récupère l'objet commentaire de la cellule B4 puis accède à ses différentes propriétés comme Auteur, Note, Visibilité, etc.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Access first worksheet of GridWeb
 

@@ -1,13 +1,14 @@
-﻿---
-title: Autopassa kolumner i kalkylblad
+---
+title: Justera kolumnbredden i arbetsblad
 type: docs
 weight: 30
 url: /sv/net/auto-fit-columns-in-worksheet/
 ---
-## **Aspose.Cells - Autopassa kolumner i kalkylblad**
+
+## **Aspose.Cells - Justera kolumnbredden i arbetsblad**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -48,10 +49,10 @@ worksheet.AutoFitColumn(3);
 workbook.Save("AutoFiltRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Autopassa kolumner i arbetsblad**
+## **NPOI - HSSF XSSF - Justera kolumnbredden i arbetsblad**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -78,13 +79,13 @@ hssfworkbook.Write(file);
 file.Close();
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Kolumn Autopassning** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Justera kolumn** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Arbeta med arbetsblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+För mer information, besök [Arbeta med kalkylblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

@@ -1,51 +1,54 @@
-﻿---
-title: Erstellen Sie benutzerdefinierte Befehlsschaltflächen
+---
+title: Erstellen benutzerdefinierter Befehlsschaltflächen
 type: docs
 weight: 100
-url: /de/net/create-custom-command-buttons/
+url: /de/net/aspose-cells-gridweb/create-custom-command-buttons/
+keywords: GridWeb, Befehl, Befehlsschaltflächen, benutzerdefiniert
+description: Dieser Artikel zeigt, wie benutzerdefinierte Befehlsschaltflächen in GridWeb erstellt werden.
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb enthält spezielle Schaltflächen wie**einreichen**, **Speichern** und**Rückgängig machen**. Alle diese Schaltflächen führen bestimmte Aufgaben für Aspose.Cells.GridWeb aus.
-Es ist auch möglich, benutzerdefinierte Schaltflächen hinzuzufügen, die benutzerdefinierte Aufgaben ausführen. In diesem Thema wird die Verwendung dieser Funktion erläutert.
+Aspose.Cells.GridWeb enthält spezielle Schaltflächen wie **Senden**, **Speichern** und **Rückgängig machen**. All diese Schaltflächen führen spezifische Aufgaben für Aspose.Cells.GridWeb aus.
+Es ist auch möglich, benutzerdefinierte Schaltflächen hinzuzufügen, die benutzerdefinierte Aufgaben ausführen. In diesem Artikel wird erläutert, wie diese Funktion verwendet wird.
 
 {{% /alert %}} 
 ## **Erstellen von benutzerdefinierten Befehlsschaltflächen**
-So erstellen Sie eine benutzerdefinierte Befehlsschaltfläche in Aspose.Cells.GridWeb:
+Um eine benutzerdefinierte Befehlsschaltfläche in Aspose.Cells.GridWeb zu erstellen:
 
 1. Fügen Sie dem Webformular das Aspose.Cells.GridWeb-Steuerelement hinzu.
 1. Greifen Sie auf ein Arbeitsblatt zu.
-1. Erstellen Sie eine Instanz der CustomCommandButton-Klasse.
-1. Setzen Sie den Befehl der Schaltfläche auf einen Wert. Dieser Wert wird im Ereignishandler der Schaltfläche verwendet.
+1. Erstellen Sie eine Instanz der Klasse CustomCommandButton.
+1. Legen Sie den Befehl der Schaltfläche auf einen bestimmten Wert fest. Dieser Wert wird im Ereignishandler der Schaltfläche verwendet.
 1. Legen Sie den Text der Schaltfläche fest.
-1. Legen Sie die Bild-URL der Schaltfläche fest.
-1. Fügen Sie schließlich das CustomCommandButton-Objekt der CustomCommandButtons-Auflistung des GridWeb-Steuerelements hinzu.
+1. Legen Sie die URL des Schaltflächenbilds fest.
+1. Fügen Sie schließlich das Objekt CustomCommandButton zur CustomCommandButtons-Sammlung des GridWeb-Steuerelements hinzu.
 
 {{% alert color="primary" %}} 
 
-Benutzerdefinierte Befehlsschaltflächen können auch im WYSIWYG-Modus mithilfe des Eigenschaftendialogfelds von Visual Studio hinzugefügt werden.
+Benutzerdefinierte Befehlsschaltflächen können auch im WYSIWYG-Modus über das Eigenschaftenfenster von Visual Studio hinzugefügt werden.
 
 {{% /alert %}} 
 
-Die Ausgabe des Code-Snippets ist unten dargestellt:
+Die Ausgabe des Code-Snippets wird unten angezeigt:
 
-**Eine benutzerdefinierte Befehlsschaltfläche, die dem GridWeb-Steuerelement hinzugefügt wurde** 
+**Eine benutzerdefinierte Befehlsschaltfläche wurde zum GridWeb-Steuerelement hinzugefügt** 
 
-![todo: Bild_alt_Text](create-custom-command-buttons_1.png)
+![todo:image_alt_text](create-custom-command-buttons_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-InitCustomCommandButton.aspx-InitCustomCommandButton.cs" >}}
-### **Ereignisbehandlung der benutzerdefinierten Befehlsschaltfläche**
-Der wichtigste Aspekt benutzerdefinierter Befehlsschaltflächen ist die Aktion, die sie ausführen, wenn sie angeklickt wird. Erstellen Sie zum Festlegen der Aktion einen Ereignishandler für das CustomCommand-Ereignis des GridWeb-Steuerelements.
+### **Eventbehandlung der benutzerdefinierten Befehlsschaltfläche**
+Der wichtigste Aspekt von benutzerdefinierten Befehlsschaltflächen ist die Aktion, die sie ausführen, wenn darauf geklickt wird. Um die Aktion einzustellen, erstellen Sie einen Ereignishandler für das CustomCommand-Ereignis des GridWeb-Steuerelements.
 
-Das CustomCommand-Ereignis wird immer ausgelöst, wenn auf eine benutzerdefinierte Befehlsschaltfläche geklickt wird. Daher muss der Ereignishandler die spezifische benutzerdefinierte Befehlsschaltfläche identifizieren, auf die er durch den Befehlssatz angewendet wird, wenn die Schaltfläche dem GridWeb-Steuerelement hinzugefügt wird. Fügen Sie schließlich benutzerdefinierten Code hinzu, der ausgeführt wird, wenn auf die Schaltfläche geklickt wird.
+Das CustomCommand-Ereignis wird immer ausgelöst, wenn auf eine benutzerdefinierte Befehlsschaltfläche geklickt wird. Der Ereignishandler muss also die spezifische benutzerdefinierte Befehlsschaltfläche identifizieren, auf die er sich bezieht, indem der Befehl beim Hinzufügen der Schaltfläche zum GridWeb-Steuerelement festgelegt wird. Fügen Sie schließlich benutzerdefinierten Code hinzu, der ausgeführt wird, wenn auf die Schaltfläche geklickt wird.
 
-Im folgenden Codebeispiel wird der Zelle A1 eine Textnachricht hinzugefügt, wenn auf die Schaltfläche geklickt wird.
+Im nachfolgenden Codebeispiel wird eine Textnachricht der Zelle A1 hinzugefügt, wenn die Schaltfläche geklickt wird.
 
-**Text, der der A1-Zelle hinzugefügt wird, wenn auf eine benutzerdefinierte Befehlsschaltfläche geklickt wird** 
+**Text zur Zelle A1 hinzugefügt, wenn benutzerdefinierte Schaltfläche geklickt wird** 
 
-![todo: Bild_alt_Text](create-custom-command-buttons_2.png)
+![todo:image_alt_text](create-custom-command-buttons_2.png)
 
 
 

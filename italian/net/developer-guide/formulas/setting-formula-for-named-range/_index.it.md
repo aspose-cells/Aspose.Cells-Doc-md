@@ -1,19 +1,20 @@
-﻿---
-title: Impostazione della formula per l'intervallo denominato
+---
+title: Impostazione della formula per Intervallo con Nome
 type: docs
 weight: 20
 url: /it/net/setting-formula-for-named-range/
 ---
-## **Impostazione della formula per l'intervallo denominato**
- Come l'applicazione Excel, le API Aspose.Cells offrono la possibilità di specificare una formula per un intervallo denominato durante l'utilizzo del relativo[Si riferisce a](https://reference.aspose.com/cells/net/aspose.cells/range/properties/refersto)proprietà. Potrebbero esserci numerosi scenari di usabilità per questa funzione, alcuni dei quali sono dettagliati come segue.
-### **Impostazione di una formula semplice per un intervallo denominato**
-Una formula semplice potrebbe essere un riferimento a un'altra cella nello stesso (o diverso) foglio di lavoro. L'esempio seguente crea un intervallo denominato in un nuovo foglio di calcolo e ne imposta il riferimento a un'altra cella.
+
+## **Impostazione della formula per il intervallo nominato**
+Come l'applicazione Excel, le API di Aspose.Cells forniscono la possibilità di specificare una formula per un intervallo con nome utilizzando la proprietà [RefersTo](https://reference.aspose.com/cells/net/aspose.cells/range/properties/refersto). Ci potrebbero essere numerose situazioni d'uso per questa funzionalità, alcune delle quali dettagliate di seguito.
+### **Impostazione di una Simple Formula per Intervallo con Nome**
+Una formula semplice potrebbe essere un riferimento ad un'altra cella nella stessa (o diversa) cartella di lavoro. Nell'esempio seguente viene creato un intervallo con nome in un nuovo foglio di lavoro e si imposta il suo riferimento ad un'altra cella.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-SettingSimpleFormula-SettingSimpleFormulaForNamedRanges.cs" >}}
-### **Impostazione di una formula complessa per un intervallo denominato**
-Una formula complessa può essere qualsiasi cosa, ad esempio un intervallo dinamico o una formula che si estende su più celle in diversi fogli di lavoro. L'esempio seguente crea un intervallo dinamico utilizzando la funzione INDICE per ottenere il valore da un elenco in base alla sua posizione.
+### **Impostazione di una Formula Complessa per Intervallo con Nome**
+Una formula complessa potrebbe essere qualsiasi cosa, come un intervallo dinamico o una formula che si estende su più celle in fogli di lavoro diversi. Nell'esempio seguente viene creato un intervallo dinamico utilizzando la funzione INDICE per ottenere il valore da un elenco in base alla sua posizione.
 
 
 
@@ -21,7 +22,7 @@ Una formula complessa può essere qualsiasi cosa, ad esempio un intervallo dinam
 
 
 
-Ecco un altro esempio che utilizza un intervallo denominato per sommare i valori di 2 celle in diversi fogli di lavoro.
+Ecco un altro esempio che utilizza un intervallo con nome per sommare i valori di 2 celle in fogli di lavoro diversi.
 
 
 

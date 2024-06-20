@@ -1,20 +1,21 @@
-﻿---
-title: Ställ in kalkylbladsflikfärg i Aspose.Cells
+---
+title: Ställ in färg för kalkylblad i Aspose.Cells
 type: docs
 weight: 20
 url: /sv/net/set-worksheet-tab-color-in-aspose-cells/
 ---
-## **Aspose.Cells - Ställ in kalkylbladsflikfärg**
-Aspose.Cells låter dig ändra färgen på enskilda kalkylbladsflikar för att göra dem framträdande från resten. Du kan till exempel göra utgifter röda, försäljningsgröna, tillgångar blå osv.
-### **Ställa in kalkylbladsflikfärg med Microsoft Excel**
-1. Högerklicka på en flik i flikarket längst ned i det aktuella kalkylbladet.
-1. Välj**Flikfärg**.
+
+## **Aspose.Cells - Ställ in färg för fliken för kalkylblad**
+Aspose.Cells låter dig ändra färgen på individuella arbetsbladsflikar för att göra dem framträdande från resten. Till exempel kan du göra Utgifter röda, Försäljning gröna, Tillgångar blå, osv.
+### **Ställa in färg på arbetsbladets flik i Microsoft Excel**
+1. Högerklicka på en flik i flikarket längst ned på det aktuella arbetsbladet.
+1. Välj **Flikens färg**.
 1. Välj en färg från paletten.
-1. Klick**OK**.
+1. Klicka på **OK**.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiate a new Workbook
 
@@ -33,13 +34,13 @@ worksheet.TabColor = Color.Red;
 workbook.Save("AsposeColoredTab_Out.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Ställ in kalkylbladsflikfärg** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Ställ in färg för kalkylblad** från någon av nedanstående sociala kodningssidor:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Worksheet.Tab.Color.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Ställ in kalkylbladsflikfärg](/cells/sv/net/set-worksheet-tab-color/).
+För mer detaljer, besök [Ställ in färg för kalkylblad](/cells/sv/net/set-worksheet-tab-color/).
 
 {{% /alert %}}

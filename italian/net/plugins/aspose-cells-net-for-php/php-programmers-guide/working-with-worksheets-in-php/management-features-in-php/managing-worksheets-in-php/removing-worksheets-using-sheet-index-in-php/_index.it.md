@@ -1,15 +1,16 @@
-﻿---
-title: Rimozione di fogli di lavoro utilizzando l'indice dei fogli in PHP
+---
+title: Rimozione Fogli di Lavoro Usando l Indice del Foglio in PHP
 type: docs
 weight: 30
 url: /it/net/removing-worksheets-using-sheet-index-in-php/
 ---
-## **Rimozione di fogli di lavoro utilizzando l'indice dei fogli**
-Rimozione di fogli di lavoro utilizzando l'indice dei fogli
+
+## **Rimozione Fogli di Lavoro Usando l'Indice del Foglio**
+Rimozione Fogli di Lavoro Usando l'Indice del Foglio
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -31,6 +32,6 @@ Rimozione di fogli di lavoro utilizzando l'indice dei fogli
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Rimozione di fogli di lavoro utilizzando l'indice dei fogli (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Rimozione Fogli di Lavoro Usando l'Indice del Foglio (Aspose.Cells)** da uno qualsiasi dei siti di codifica sociale sotto indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetIndex.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetIndex.php)

@@ -1,38 +1,39 @@
-﻿---
-title: Visa eller dölj radkolumnrubriker i Aspose.Cells
+---
+title: Visa eller dölj rad och kolumnhuvuden i Aspose.Cells
 type: docs
 weight: 60
 url: /sv/net/display-or-hide-row-column-headers-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Alla kalkylblad i en Excel-fil är sammansatta av celler som är ordnade i rader och kolumner. Alla rader och kolumner har unika värden som används för att identifiera dem och för att identifiera enskilda celler. Till exempel är rader numrerade – 1, 2, 3, 4, etc. – och kolumner ordnas i alfabetisk ordning – A, B, C, D, etc. Rad- och kolumnvärdena visas i rubrikerna. Med hjälp av Aspose.Cells kan utvecklare kontrollera synligheten för dessa rad- och kolumnrubriker.
+Alla arbetsblad i en Excel-fil består av celler som är placerade i rader och kolumner. Alla rader och kolumner har unika värden som används för att identifiera dem, och för att identifiera enskilda celler. Till exempel är rader numrerade - 1, 2, 3, 4 osv. - och kolumner är ordnade alfabetiskt - A, B, C, D osv. Rad- och kolumnvärden visas i rubrikerna. Genom att använda Aspose.Cells kan utvecklare styra synligheten av dessa rad- och kolumnrubriker.
 
 {{% /alert %}}
 
-## **Styra arbetsbladens synlighet**
+## **Kontrollera synligheten av arbetsbladen**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)samling som ger åtkomst till varje kalkylblad i en Excel-fil.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. Klassen [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) innehåller en [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) -samling som möjliggör åtkomst till varje arbetsblad i en Excel-fil.
 
- Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att kontrollera synligheten för rad- och kolumnrubriker använder du[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass'[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) fast egendom.[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) är en boolesk egenskap, vilket betyder att den bara kan lagra en**Sann** eller**falsk** värde.
+Ett arbetsblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) tillhandahåller ett brett utbud av egenskaper och metoder för hantering av arbetsblad. För att kontrollera synligheten av rad- och kolumnhuvuden använder [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klassen [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) egendom. [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) är en boolesk egendom, vilket innebär att den endast kan lagra ett **true** eller **false** värde.
 
- Ett komplett exempel ges nedan som visar hur man använder[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass'[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) egenskap för att dölja rad- och kolumnrubriker på det första kalkylbladet i en fil.
+Ett komplett exempel ges nedan som visar hur du använder [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klassens [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) egendom för att dölja rad- och kolumnhuvuden på det första arbetsbladet i en fil.
 
-Skärmdumpen visar Book1.xls, indatafilen. Den innehåller tre arbetsblad: Blad1, Blad2 och Blad3. Varje kalkylblad visar rad- och kolumnrubriker.
+Skärmdumpen visar Book1.xls, ingångsfilen. Den innehåller tre arbetsblad: Sheet1, Sheet2 och Sheet3. Varje arbetsblad visar rad- och kolumnhuvuden.
 
-**Book1.xls: kalkylblad före ändring**
+**Book1.xls: arbetsblad före modifiering**
 
 ![todo:image_alt_text](display-or-hide-row-column-headers-in-aspose-cells_1.png)
 
-Book1.xls öppnas genom att anropa Workbook-klassens Open-metod och rad- och kolumnrubrikerna på det första kalkylbladet är dolda. Den ändrade filen sparas som output.xls.
+Book1.xls öppnas genom att använda Workbook klassens Open-metod och rad- och kolumnhuvuden på det första arbetsbladet döljs. Den modifierade filen sparas som output.xls.
 
-**Output.xls: kalkylblad efter modifiering** 
+**Output.xls: kalkylblad efter ändring** 
 
 ![todo:image_alt_text](display-or-hide-row-column-headers-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -62,8 +63,8 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Row%20Column%20Headers)
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

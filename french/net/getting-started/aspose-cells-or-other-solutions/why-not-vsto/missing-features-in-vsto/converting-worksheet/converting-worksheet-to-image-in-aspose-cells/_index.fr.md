@@ -1,17 +1,18 @@
-﻿---
+---
 title: Conversion de la feuille de calcul en image dans Aspose.Cells
 type: docs
 weight: 20
 url: /fr/net/converting-worksheet-to-image-in-aspose-cells/
 ---
-Ce document est conçu pour fournir aux développeurs une compréhension détaillée sur la façon de convertir une feuille de calcul en un fichier image et une feuille de calcul avec plusieurs pages en un fichier image par page.
- Parfois, vous devrez peut-être présenter des feuilles de calcul sous forme d'images, par exemple pour les utiliser dans des applications ou des pages Web. Vous devrez peut-être insérer les images dans un document Word, un**PDF** fichier, une présentation PowerPoint ou les utiliser dans un autre scénario. Simplement, vous voulez rendre la feuille de calcul sous forme d'image. Aspose.Cells prend en charge la conversion des feuilles de calcul dans les fichiers Excel Microsoft en images. Aussi,**Aspose.Cells** prend en charge la conversion d'un classeur en plusieurs fichiers image, un par page.
 
-Vous pouvez utiliser la bureautique pour y parvenir, mais la bureautique a ses propres inconvénients. Il y a plusieurs raisons et problèmes impliqués : par exemple la sécurité, la stabilité, l'évolutivité/la vitesse, le prix et les fonctionnalités. Bref, les raisons sont multiples, mais la principale est que le Microsoft lui-même déconseille fortement la bureautique.
+Ce document est conçu pour fournir aux développeurs une compréhension détaillée de la manière de convertir une feuille de calcul en un fichier image et une feuille de calcul avec plusieurs pages en un fichier image par page.
+Parfois, vous pourriez avoir besoin de présenter des feuilles de calcul sous forme d'images, par exemple pour les utiliser dans des applications ou des pages web. Vous pourriez avoir besoin d'insérer les images dans un document Word, un fichier **PDF**, une présentation PowerPoint ou les utiliser dans un autre scénario. Simplement, vous voulez rendre la feuille de calcul comme une image. Aspose.Cells prend en charge la conversion de feuilles de calcul dans des fichiers Microsoft Excel en images. De plus, **Aspose.Cells** prend en charge la conversion d'un classeur en plusieurs fichiers image, un par page.
 
-Cet article montre comment créer une application console dans Visual Studio.Net, convertir une feuille de calcul en image et une feuille de calcul en une image pour chaque feuille de calcul avec quelques lignes de code simples à l'aide de Aspose.Cells API.Vous devez importer Aspose.Cells.Rendering namespace à votre programme/projet. Il a plusieurs classes utiles, par exemple SheetRender, ImageOrPrintOptions, WorkbookRender etc.**VersImage** méthode qui peut convertir directement une feuille de calcul en fichier(s) image spécifié(s) avec les attributs ou options souhaités. Il peut revenir**System.Drawing.Bitmap** objet et vous pouvez enregistrer un fichier image sur le disque/flux. Plusieurs formats d'image sont pris en charge, par exemple .bmp, .png, .gif, .jpg, .jpeg, .tiff, .emf, etc.
+Vous pourriez utiliser l'automatisation Office pour y parvenir, mais l'automatisation Office a ses propres inconvénients. Il existe plusieurs raisons et problèmes impliqués : par exemple la sécurité, la stabilité, la scalabilité/la vitesse, le prix et les fonctionnalités. En bref, il existe de nombreuses raisons, mais la principale est que Microsoft elle-même déconseille fortement l'automatisation Office.
 
-{{< highlight "csharp" >}}
+Cet article montre comment créer une application console dans Visual Studio.Net, convertir une feuille de calcul en une image, et une feuille de calcul en une image pour chaque feuille de calcul avec quelques lignes de code les plus simples en utilisant l'API Aspose.Cells. Vous devez importer l'espace de noms Aspose.Cells.Rendering dans votre programme/projet. Il possède plusieurs classes précieuses, par exemple SheetRender, ImageOrPrintOptions, WorkbookRender, etc. La classe Aspose.Cells.Rendering.SheetRender représente une feuille de calcul pour rendre des images pour la feuille de calcul, elle possède une méthode **ToImage** surchargée qui peut convertir directement une feuille de calcul en fichier image(s) spécifié(s) avec vos attributs ou options désirés. Elle peut retourner un objet **System.Drawing.Bitmap** et vous pouvez sauvegarder un fichier image sur le disque/flux. Plusieurs formats d'image sont pris en charge, par exemple .bmp, .png, .gif, .jpg, .jpeg, .tiff, .emf etc.
+
+{{< highlight csharp >}}
 
  //Create a new Workbook object
 
@@ -44,6 +45,6 @@ Bitmap bitmap = sr.ToImage(0);
 bitmap.Save("SheetImage.jpg");
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
-- [GithubGenericName](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.Image.Aspose.Cells.zip)
+## **Télécharger le code source d'exemple**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.Image.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Worksheet%20to%20Image%20%28Aspose.Cells%29.zip)

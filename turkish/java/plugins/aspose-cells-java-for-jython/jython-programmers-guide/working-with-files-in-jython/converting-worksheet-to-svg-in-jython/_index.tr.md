@@ -1,55 +1,56 @@
-﻿---
-title: Çalışma Sayfasını Jython'da SVG'e Dönüştürme
+---
+title: Jython da Çalışma Sayfasını SVG ye Dönüştürme
 type: docs
 weight: 40
 url: /tr/java/converting-worksheet-to-svg-in-jython/
 ---
-## **Aspose.Cells - Çalışma Sayfasını SVG'e Dönüştürme**
- Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
+
+## **Aspose.Cells - Çalışma Sayfasını SVG'ye Dönüştürme**
+**Aspose.Cells Java for Jython** ile belgeler eklemek için. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- aspose-cells'ten içe aktarma Ayarları
+ from aspose-cells import Settings
 
-com.aspose.cells'ten içe aktarma Çalışma Kitabı
+from com.aspose.cells import Workbook
 
-com.aspose.cells'den ImageFormat'ı içe aktarın
+from com.aspose.cells import ImageFormat
 
-com.aspose.cells'den ImageOrPrintOptions'ı içe aktarın
+from com.aspose.cells import ImageOrPrintOptions
 
-com.aspose.cells'den SheetRender'ı içe aktarın
+from com.aspose.cells import SheetRender
 
-com.aspose.cells'den SaveFormat'ı içe aktarın
-
-
-
-sınıf ConvertingWorksheetToSVG:
-
- kesin__içinde__(kendisi):
-
- dataDir = Settings.dataDir + 'WorkingWithFiles/ConvertingWorksheetToSVG/'
+from com.aspose.cells import SaveFormat
 
 
 
- saveFormat = SaveFormat
+class ConvertingWorksheetToSVG:
 
- çalışma kitabı = Çalışma Kitabı(dataDir + "Kitap1.xls")
+    def __init__(self):
 
- #Her çalışma sayfasını tek bir sayfada svg formatına dönüştür.
+        dataDir = Settings.dataDir + 'WorkingWithFiles/ConvertingWorksheetToSVG/'
 
- imgOptions = ImageOrPrintOptions()
 
- imgOptions.setSaveFormat(saveFormat.SVG)
 
- imgOptions.setOnePagePerSheet(Doğru)
+        saveFormat = SaveFormat
 
- #Her çalışma sayfasını svg formatına dönüştür
+        workbook = Workbook(dataDir + "Book1.xls")
 
- SheetCount = workbook.getWorksheets().getCount()
+        #Convert each worksheet into svg format in a single page.
 
- #for(i=0; ben<sheetCount; i++)
+        imgOptions = ImageOrPrintOptions()
+
+        imgOptions.setSaveFormat(saveFormat.SVG)
+
+        imgOptions.setOnePagePerSheet(True)
+
+        #Convert each worksheet into svg format
+
+        sheetCount = workbook.getWorksheets().getCount()
+
+        #for(i=0; i<sheetCount; i++)
 
         for i in range(sheetCount):
 
@@ -87,6 +88,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belgeleri Ekleyin (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Append Documents (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ConvertingWorksheetToSVG.py)

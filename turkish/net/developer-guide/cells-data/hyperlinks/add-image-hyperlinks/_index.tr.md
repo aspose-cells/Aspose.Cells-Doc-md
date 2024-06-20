@@ -1,18 +1,19 @@
 ---
-title: Resim Köprüleri Ekle
+title: Resim Bağlantıları Ekle
 type: docs
 weight: 140
 url: /tr/net/add-image-hyperlinks/
-description: Aspose.Cells for .NET API numaralı telefondan Resim Köprüleri Eklemeyi öğrenin.
-keywords: Add Image Hyperlinks, Insert Image Hyperlinks
+description: Aspose.Cells for .NET API sı aracılığıyla Resim Bağlantıları Eklemeyi Öğrenin.
+keywords: Resim Bağlantıları Ekleyin, Resim Bağlantılarını Ekle
 ---
+
 {{% alert color="primary" %}} 
 
-Köprüler, diğer çalışma sayfalarındaki veya web sitelerindeki bilgilere erişim için kullanışlıdır. Microsoft Excel, kullanıcıların hücrelerdeki metinlere ve resimlere köprüler eklemesine olanak tanır. Resim köprüleri, örneğin sonraki ve önceki düğmeler veya belirli sitelere bağlantı veren logolar gibi bir çalışma sayfasında gezinmeyi kolaylaştırabilir. Bu belgede, Aspose.Cells kullanılarak bir çalışma sayfasına görüntü köprülerinin nasıl ekleneceği açıklanmaktadır.
+Bağlantılar diğer çalışma sayfalarındaki veya web sitelerindeki bilgilere erişim için kullanışlıdır. Microsoft Excel kullanıcıların hücrelerdeki metinlere ve resimlere bağlantı eklemesine izin verir. Resim bağlantıları, bir çalışma sayfasında gezinmeyi kolaylaştırabilir, örneğin, önceki ve sonraki düğmeler veya belirli sitelere bağlantı kuran logolar gibi. Bu belge, Aspose.Cells kullanarak bir çalışma sayfasında resim bağlantıları eklemenin nasıl yapılacağını açıklar.
 
 {{% /alert %}} 
 
-Aspose.Cells, çalışma zamanında e-tablolardaki resimlere köprüler eklemenizi sağlar. Bağlantının ekran ipucunu ve adresini ayarlamak ve değiştirmek mümkündür. Aşağıdaki örnek kod, çalışma sayfasına nasıl resim köprüsü ekleneceğini gösterir.
+Aspose.Cells, çalışma kitaplarında resimlere bağlantı eklemeyi çalışma zamanında sağlar. Bağlantının ekran ipucunu ve adresini belirlemek ve değiştirmek mümkündür. Aşağıdaki örnek kod, bir çalışma sayfasına resim bağlantısı nasıl ekleyeceğinizi gösterir.
 
 
 

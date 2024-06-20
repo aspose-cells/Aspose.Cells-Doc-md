@@ -1,15 +1,16 @@
-﻿---
-title: Crittografare la cartella di lavoro utilizzando Aspose.Cells
+---
+title: Crittografare un foglio di lavoro utilizzando Aspose.Cells
 type: docs
 weight: 60
 url: /it/java/encrypt-workbook-using-aspose-cells/
 ---
-## **Aspose.Cells - Crittografa cartella di lavoro**
-L'esempio seguente mostra come è possibile crittografare/proteggere con password un file excel utilizzando Aspose.Cells API.
+
+## **Aspose.Cells - Crittografare un foglio di lavoro**
+L'esempio seguente mostra come è possibile crittografare / proteggere con password un file Excel utilizzando l'API di Aspose.Cells.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -34,12 +35,12 @@ workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeEncryptSpreadsheets.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeEncryptSpreadsheets.java)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Crittografia di file Excel](/cells/it/java/encrypting-excel-files/).
+Per ulteriori dettagli, visita [Crittografare file Excel](/cells/it/java/encrypting-excel-files/).
 
 {{% /alert %}}

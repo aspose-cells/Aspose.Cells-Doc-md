@@ -1,19 +1,20 @@
-﻿---
-title: Belgeyi Önizle
+---
+title: Belgeyi Önizleme
 type: docs
 weight: 30
 url: /tr/sharepoint/preview-document/
 ---
-Bir Microsoft Excel belgesini belge kitaplığında önizlemek için:
 
-1.  Seçme**Aspose.Cells ile Belge Önizleme** belgenin Düzenleme Kontrol Bloğundan (ECB).
+Belge kitaplığında bir Microsoft Excel belgesini önizlemek için:
 
-   **Menüden Belge Önizleme'yi seçme** 
+1. Belge'nin Düzenleme Kontrol Blogu'ndan (ECB) **Aspose.Cells ile Belgeyi Önizle**'yi seçin. 
 
-![yapılacaklar:resim_alternatif_metin](preview-document_1.png)
+   **Menüden Belge Önizleme Seçme** 
+
+![todo:image_alt_text](preview-document_1.png)
 
 
 
 **Belge önizlemesi** 
 
-![yapılacaklar:resim_alternatif_metin](preview-document_2.png)
+![todo:image_alt_text](preview-document_2.png)

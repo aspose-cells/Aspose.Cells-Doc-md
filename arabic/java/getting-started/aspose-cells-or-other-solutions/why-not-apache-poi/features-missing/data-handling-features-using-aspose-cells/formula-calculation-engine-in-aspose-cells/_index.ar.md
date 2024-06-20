@@ -1,15 +1,16 @@
-﻿---
-title: محرك حساب الصيغة Aspose.Cells
+---
+title: محرك حساب الصيغ في Aspose.Cells
 type: docs
 weight: 50
 url: /ar/java/formula-calculation-engine-in-aspose-cells/
 ---
-## **Aspose.Cells - محرك حساب الصيغة**
-تم تضمين محرك حساب الصيغة في Aspose.Cells. لا يمكنه فقط إعادة حساب الصيغة المستوردة من ملف جدول بيانات مصمم ولكنه يدعم أيضًا حساب نتائج الصيغ المضافة في وقت التشغيل.
+
+## **أسبوز.خلايا - محرك حساب الصيغ**
+يتم تضمين محرك حساب الصيغ في Aspose.Cells. يمكنه القيام ليس فقط بإعادة حساب الصيغة المستوردة من ملف ورقة بيانات المصمم ولكنه أيضًا يدعم حساب نتائج الصيغ الجديدة في وقت التشغيل.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -58,14 +59,14 @@ book.calculateFormula();
 book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل رمز التشغيل**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/formula/AsposeFormulaCalculationEngine.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/formula/AsposeFormulaCalculationEngine.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[محرك حساب الصيغة](/cells/ar/java/aspose-cells-formula-calculation-engine).
+لمزيد من التفاصيل، قم بزيارة [محرك حساب الصيغة](/cells/ar/java/aspose-cells-formula-calculation-engine).
 
 {{% /alert %}}

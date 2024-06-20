@@ -1,16 +1,17 @@
-﻿---
-title: PHP'de Mevcut Excel Dosyasına Çalışma Sayfaları Ekleme
+---
+title: Varolan Excel Dosyasına Sayfa Ekleme
 type: docs
 weight: 10
 url: /tr/net/add-worksheets-to-existing-excel-file-in-php/
 ---
-Mevcut Excel Dosyasına Çalışma Sayfaları Ekleme
 
-Mevcut Excel Dosyasına Çalışma Sayfaları Ekleme
+Varolan Excel Dosyasına Sayfa Ekleme
 
-**PHP Kodu**
+Varolan Excel Dosyasına Sayfa Ekleme
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -38,6 +39,6 @@ Mevcut Excel Dosyasına Çalışma Sayfaları Ekleme
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Mevcut Excel Dosyasına Çalışma Sayfaları Ekleme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+**Varolan Excel Dosyasına Sayfa Ekleme (Aspose.Cells)**'ı aşağıdaki sosyal kodlama sitelerinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddWorksheetsToExistingExcelFile.php)

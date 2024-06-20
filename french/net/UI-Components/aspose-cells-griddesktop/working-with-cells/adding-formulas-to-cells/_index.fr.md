@@ -1,22 +1,25 @@
-﻿---
-title: Ajout de formules au Cells
+---
+title: Ajouter une formule à une cellule
 type: docs
 weight: 30
-url: /fr/net/adding-formulas-to-cells/
+url: /fr/net/aspose-cells-griddesktop/adding-formula-to-cell/
+keywords: GridDesktop, formule
+description: Cet article présente comment obtenir ou définir une formule dans la cellule de la feuille de calcul de GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Une cellule ne peut pas seulement contenir une simple valeur comme un chiffre ou du texte, mais nous pouvons également insérer une formule dans une cellule comme valeur. Une formule est utilisée dans une cellule lorsque la valeur d'une cellule doit être déterminée après certains calculs. Dans cette rubrique, nous verrons comment accéder et modifier une formule appliquée sur une cellule.
+Une cellule peut contenir non seulement une valeur simple comme un chiffre ou du texte, mais aussi une formule comme sa valeur. Une formule est utilisée dans une cellule lorsque la valeur de la cellule doit être déterminée après quelques calculs. Dans ce sujet, nous discuterons de l'accès et de la modification d'une formule appliquée à une cellule.
 
 {{% /alert %}} 
-## **Ajouter une formule à un Cell**
- Ajouter une formule à une cellule revient à définir la valeur d'une cellule, comme nous l'avons vu dans notre sujet précédent :[Accès et modification de la valeur d'un Cell](/cells/fr/net/accessing-and-modifying-the-value-of-a-cell/) sauf que dans ce cas, nous avons simplement ajouté des valeurs simples aux cellules. Maintenant, nous allons ajouter des formules. Les développeurs peuvent utiliser la propriété Value d'une cellule pour accéder et modifier la formule ou autrement**DéfinirValeurCellule** La méthode de la cellule peut également être utilisée pour ajouter ou modifier la formule dans une cellule.
+## **Ajouter une formule à une cellule**
+Ajouter une formule à une cellule est similaire à définir la valeur d'une cellule comme nous l'avons discuté dans notre sujet précédent: [Accéder et modifier la valeur d'une cellule](/cells/fr/net/acceder-et-modifier-la-valeur-dune-cellule/) sauf que dans ce cas, nous ajoutons simplement des valeurs simples aux cellules. Maintenant, nous ajouterons des formules. Les développeurs peuvent utiliser la propriété Value d'une cellule pour accéder et modifier la formule ou sinon la méthode **SetCellValue** de la cellule peut également être utilisée pour ajouter ou modifier la formule dans une cellule.
 
-**IMPORTANT:** La différence fondamentale entre l'utilisation de la propriété Value ou**DéfinirValeurCellule** méthode d'une cellule est que la propriété Value appelle**ExécuterToutesFormules** méthode de Grille automatiquement pour recalculer les valeurs de toutes les formules où, comme dans le cas de**DéfinirValeurCellule** les développeurs de méthodes doivent appeler**ExécuterToutesFormules** méthode explicitement après que les formules ont été ajoutées aux cellules. En fait, lorsque nous utilisons**DéfinirValeurCellule** méthode d'une cellule, cette méthode définit la valeur de la cellule sur**Type de formule** seulement et ne calculez pas la formule. De plus, appeler**ExécuterToutesFormules**méthode à chaque fois n'est pas nécessaire. Si vous souhaitez ajouter de nombreuses formules dans les cellules d'une feuille de calcul, vous pouvez appeler**ExécuterToutesFormules** méthode une seule fois à la fin.
+**IMPORTANT :** La différence fondamentale entre l'utilisation de la propriété Value ou de la méthode **SetCellValue** d'une cellule est que la propriété Value invoque automatiquement la méthode **RunAllFormulas** de Grid pour recalculer les valeurs de toutes les formules, tandis que dans le cas de la méthode **SetCellValue**, les développeurs doivent appeler explicitement la méthode **RunAllFormulas** après avoir ajouté les formules aux cellules. En fait, lorsque nous utilisons la méthode **SetCellValue** d'une cellule, cette méthode définit la valeur de la cellule uniquement sur **FormulaType** et ne calcule pas la formule. De plus, appeler la méthode **RunAllFormulas** à chaque fois n'est pas nécessaire. Si vous souhaitez ajouter de nombreuses formules dans les cellules d'une feuille de calcul, vous pouvez appeler la méthode **RunAllFormulas** une seule fois à la fin.
 
- Une formule est ajoutée à une cellule en tant que valeur de chaîne. De plus, la structure de formule doit être compatible avec la structure de formule de MS Excel. Toutes les formules doivent commencer par un**Signe égal (=)**.
+Une formule est ajoutée à une cellule sous forme de valeur de chaîne. De plus, la structure de la formule doit être compatible avec la structure de la formule de MS Excel. Toutes les formules doivent commencer par un signe égal (=).
 
- Dans l'exemple ci-dessous, nous avons ajouté une formule pour multiplier les valeurs de deux cellules de la feuille de calcul et stocker le résultat dans une autre cellule.**ExécuterToutesFormules** La méthode est également invoquée à la fin.
+Dans l'exemple ci-dessous, nous avons ajouté une formule pour multiplier les valeurs de deux cellules de la feuille de calcul et stocker le résultat dans une autre cellule. La méthode **RunAllFormulas** est également invoquée à la fin.
 
 
 
@@ -24,10 +27,10 @@ Une cellule ne peut pas seulement contenir une simple valeur comme un chiffre ou
 
 
 
-Exécutez maintenant l'application. Si vous double-cliquez sur la cellule où la formule a été ajoutée, vous remarquerez que la valeur sera remplacée par la formule qui calcule réellement la valeur sur le back-end.
+Maintenant, exécutez l'application. Si vous double-cliquez sur la cellule où la formule a été ajoutée, vous remarquerez que la valeur sera remplacée par la formule qui calcule réellement la valeur en arrière-plan.
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridDesktop prend en charge la plupart des fonctions couramment utilisées de MS Excel. Pour plus de détails sur la liste des fonctions prises en charge, veuillez[Cliquez ici.](/cells/fr/net/list-of-supported-functions/)
+Aspose.Cells.GridDesktop prend en charge la plupart des fonctions couramment utilisées dans MS Excel. Pour plus de détails sur la liste des fonctions prises en charge, veuillez [cliquer ici.](/cells/fr/net/liste-des-fonctions-prise-en-charge/)
 
 {{% /alert %}}

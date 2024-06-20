@@ -1,15 +1,16 @@
-﻿---
+---
 title: Преобразование диаграммы в изображение в PHP
 type: docs
 weight: 10
 url: /ru/java/converting-chart-to-image-in-php/
 ---
-## **Aspose.Cells - Преобразование диаграммы в изображение**
-Чтобы преобразовать диаграмму в изображение с помощью Aspose.Cells for Java в PHP, просто вызовите модуль Converter.
+
+## **Aspose.Cells - Преобразование Диаграммы в Изображение**
+Для преобразования диаграммы в изображение с использованием Aspose.Cells for Java в PHP, просто вызовите модуль Converter.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $chartType = new ChartType();
 
@@ -140,7 +141,7 @@ $chart->toImage($fs, $imgOpts);
 $fs->close();  
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Преобразование диаграммы в изображение (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Преобразование диаграммы в изображение (Aspose.Cells)** с любого из перечисленных ниже социальных сайтов для программистов:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ChartToImage.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ChartToImage.php)

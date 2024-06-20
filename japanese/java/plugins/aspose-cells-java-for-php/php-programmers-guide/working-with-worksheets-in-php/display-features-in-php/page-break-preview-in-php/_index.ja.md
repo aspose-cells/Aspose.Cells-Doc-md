@@ -1,15 +1,16 @@
-﻿---
-title: PHP での改ページ プレビュー
+---
+title: Phpでページブレイクプレビュー
 type: docs
 weight: 60
 url: /ja/java/page-break-preview-in-php/
 ---
-## **Aspose.Cells - 改ページのプレビュー**
-を使用してワークシートを改ページプレビューに設定するには**Aspose.Cells Java for PHP**、単に呼び出す**改ページプレビュー**モジュール。
 
-**PHP コード**
+## **Aspose.Cells - ページ区切りプレビュー**
+**Aspose.Cells Java for PHP**を使用してワークシートをページブレイクプレビューに設定するには、簡単に**PageBreakPreview**モジュールを呼び出してください。
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -30,7 +31,7 @@ $worksheet->setPageBreakPreview(true);
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**改ページプレビュー (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、Aspose.Cellsのページ区切りプレビューをダウンロードする
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/PageBreakPreview.php)

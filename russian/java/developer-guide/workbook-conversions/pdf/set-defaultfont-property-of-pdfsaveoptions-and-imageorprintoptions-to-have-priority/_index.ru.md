@@ -1,38 +1,39 @@
-﻿---
-title: Установите свойство DefaultFont PdfSaveOptions и ImageOrPrintOptions, чтобы иметь приоритет
+---
+title: Установите свойство DefaultFont объектов PdfSaveOptions и ImageOrPrintOptions в приоритетном порядке
 type: docs
 weight: 30
 url: /ru/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/
 ---
+
 ## **Возможные сценарии использования**
 
- При установке**Шрифт по умолчанию** собственностью[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) и[**Имажеорпринтоптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) , вы могли бы ожидать, что сохранение в PDF или образ установит это**Шрифт по умолчанию** ко всему тексту в книге, в котором отсутствует (не установлен) шрифт.
+При установке свойства **DefaultFont** в [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) и [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) можно ожидать, что при сохранении в формат PDF или изображения будет установлен этот **DefaultFont** для всего текста в рабочей книге, используя отсутствующий (не установленный) шрифт.
 
- Как правило, при сохранении в PDF или изображение Aspose.Cells сначала попытается установить шрифт Workbook по умолчанию (т. е.[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) ). Если шрифт рабочей книги по умолчанию по-прежнему не может правильно отображать/отображать текст, тогда Aspose.Cells попытается отобразить шрифт, указанный против**Шрифт по умолчанию** атрибут в[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**Имажеорпринтоптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+Когда сохраняется в формат PDF или изображения, Aspose.Cells сначала пытается установить шрифт по умолчанию рабочей книги (т.е. [**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)). Если шрифт по умолчанию рабочей книги все еще не может правильно показывать/воспроизводить текст, то Aspose.Cells попытается воспроизвести с использованием шрифта, указанного в атрибуте **DefaultFont** в [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
 
-Чтобы оправдать ваши ожидания, у нас есть логическое свойство с именем "**CheckWorkbookDefaultFont** " в[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**Имажеорпринтоптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) . Вы можете установить для него значение false, чтобы отключить использование шрифта книги по умолчанию, или разрешить**Шрифт по умолчанию** установка в[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**Имажеорпринтоптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) иметь приоритет.
+Чтобы соответствовать вашему ожиданию, у нас есть логическое свойство с именем "**CheckWorkbookDefaultFont**" в [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions). Вы можете установить его в значение false, чтобы отключить попытку установки шрифта по умолчанию рабочей книги, или позволить установке **DefaultFont** в [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) иметь приоритет.
 
-## **Установите свойство DefaultFont для PdfSaveOptions/ImageOrPrintOptions**
+## **Установите свойство DefaultFont объектов PdfSaveOptions/ImageOrPrintOptions**
 
-Следующий пример кода открывает файл Excel. В ячейке A1 (на первом листе) установлен текст «Текст шрифта Christmas Time». Название шрифта «Christmas Time Personal Use» не установлено на машине. Мы устанавливаем**Шрифт по умолчанию**атрибут[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**Имажеорпринтоптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)в «Таймс Нью Роман». Мы также устанавливаем**CheckWorkbookDefaultFont**логическое свойство "**ЛОЖЬ**", что гарантирует, что текст ячейки A1 отображается шрифтом "Times New Roman" и не должен использовать шрифт книги по умолчанию (в данном случае "Calibri"). Код отображает первый рабочий лист в форматах изображений PNG и TIFF. Наконец, он отображается в формате файла PDF.
+Следующий образец кода открывает файл Excel. В ячейке A1 (на первом листе) установлен текст "Christmas Time Font text". Название шрифта - "Christmas Time Personal Use", который не установлен на машине. Мы устанавливаем атрибут **DefaultFont** объектов [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) на "Times New Roman". Мы также устанавливаем логическое свойство **CheckWorkbookDefaultFont** в "**false**", чтобы гарантировать, что текст ячейки A1 будет отображаться шрифтом "Times New Roman" и не будет использоваться шрифт по умолчанию рабочей книги (в данном случае - "Calibri"). Код рендерит первый лист в форматах PNG и TIFF. Затем рендерит в формат PDF.
 
 {{% alert color="primary" %}}
 
- Значение по умолчанию***CheckWorkbookDefaultFont*** атрибут**истинный**.
+Значение по умолчанию атрибута ***CheckWorkbookDefaultFont*** - **true**.
 
 {{% /alert %}}
 
-Это скриншот из[файл шаблона](49446914.xlsx)используется в примере кода.
+Это скриншот файла [шаблона](49446914.xlsx), используемого в примере кода.
 
-![дело:изображение_альтернативный_текст](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-Это выходное изображение PNG после установки[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)собственность "Таймс Нью Роман".
+Это выходное изображение PNG после установки свойства [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) в "Times New Roman".
 
-![дело:изображение_альтернативный_текст](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-Посмотреть результат[TIFF](out1_imageTIFF.tiff)изображение после установки[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)собственность "Таймс Нью Роман".
+Смотрите выходное изображение [TIFF](out1_imageTIFF.tiff) после установки свойства [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) в "Times New Roman".
 
-Посмотреть результат[PDF](out1_pdf.pdf)файл после установки[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont)собственность "Таймс Нью Роман".
+Смотрите выходной [PDF](out1_pdf.pdf) файл после установки свойства [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont) в "Times New Roman".
 
 ## **Образец кода**
 

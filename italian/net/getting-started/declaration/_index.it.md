@@ -1,29 +1,30 @@
-﻿---
+---
 title: Dichiarazione
 type: docs
 weight: 30
 url: /it/net/declaration/
 ---
+
 {{% alert color="primary" %}} 
 
-In genere, tutti i componenti Aspose .NET richiedono il set di autorizzazioni Full Trust. Il motivo è che i componenti Aspose for .NET devono accedere alle impostazioni del registro, ai file di sistema diversi dalla directory virtuale per determinate operazioni come l'analisi dei caratteri, ecc. impostato in molti casi.
+In generale, tutti i componenti Aspose .NET richiedono impostazioni di autorizzazione Full Trust. Il motivo è che i componenti Aspose per .NET devono accedere alle impostazioni del registro, ai file di sistema diversi dalla directory virtuale per determinate operazioni come l'analisi dei font, ecc. Inoltre, i componenti Aspose per .NET (compreso Aspose.Cells for .NET) si basano sulle classi di sistema di base .NET che richiedono anche impostazioni di autorizzazione Full Trust in molti casi.
 
 {{% /alert %}} 
-## **Sfida fiducia parziale/fiducia media**
-provider di servizi Internet che ospitano più applicazioni di società diverse applicano per lo più un livello di sicurezza medio. Inoltre, a volte è necessario ospitare più applicazioni su un server condiviso, ad esempio in un ISP o in altri scenari, è necessario utilizzare il livello di attendibilità medio per limitare le applicazioni. Il livello di attendibilità medio ASP.NET fornisce un ambiente di esecuzione vincolato adatto per isolare più applicazioni ospitate su server ISP. Nel caso di .NET 2.0, tale livello di sicurezza può impostare i seguenti vincoli che potrebbero influire sulla capacità di Aspose.Cells for .NET di funzionare correttamente, ad esempio:
+## **Sfida di Trust parziale / medio**
+I provider di servizi Internet che ospitano più applicazioni di diverse aziende in genere impongono un livello di sicurezza di Trust medio. Inoltre, a volte è necessario ospitare più applicazioni su un server condiviso, ad esempio in un ISP o in altri scenari, è necessario utilizzare il livello di Trust medio per limitare le applicazioni. Il livello di Trust medio di ASP.NET fornisce un ambiente di esecuzione limitato adatto all'isolamento di più applicazioni ospitate su server ISP. Nel caso di .NET 2.0, tale livello di sicurezza può impostare i seguenti vincoli che potrebbero influenzare la capacità di Aspose.Cells for .NET di funzionare correttamente, ad esempio:
 
-- **RegistryPermission non è disponibile**. Ciò significa che non è possibile accedere al registro, necessario per enumerare i font installati durante il rendering di fogli di calcolo o altri documenti.
-- **FileIOPermission è limitato**Ciò significa che puoi accedere solo ai file nella gerarchia di directory virtuale della tua applicazione. Ciò significa potenzialmente che i caratteri non possono essere letti durante l'esportazione.
-## **Usa Aspose.Cells for .NET sul set di autorizzazioni di attendibilità medio**
-È possibile seguire alcuni consigli per eseguire Aspose.Cells for .NET su livello di attendibilità medio o ambiente server condiviso:
+- **RegistryPermission non è disponibile**. Ciò significa che non è possibile accedere al registro, il che è necessario per enumerare i font installati durante il rendering di fogli di calcolo o altri documenti.
+- **FileIOPermission è limitato**. Ciò significa che è possibile accedere solo ai file nella gerarchia della directory virtuale dell'applicazione. Questo potenzialmente significa che i font non possono essere letti durante l'esportazione.
+## **Usa Aspose.Cells for .NET su un set di autorizzazioni di Trust medio**
+Puoi seguire alcune raccomandazioni per eseguire Aspose.Cells for .NET a livello di Trust medio o in un ambiente server condiviso:
 
-- Per impostare il file di licenza nel codice, è meglio chiamare il metodo License.SetLicense(Stream) dopo aver ottenuto il file di licenza nei flussi.
-- La directory dei caratteri (a cui si può accedere con autorizzazione) deve essere impostata. Se non è possibile accedere al file sul server, aggiungere i file dei caratteri necessari all'applicazione.
-- In modalità di attendibilità parziale, la conversione Shape-to-EMF non è supportata, quindi imposta il tipo di immagine esportata (per le forme) su un altro formato di immagine.
+- Per impostare il file di licenza nel tuo codice, è meglio chiamare il metodo License.SetLicense(Stream) dopo aver ottenuto il file di licenza in stream.
+- Deve essere impostata la directory dei font (a cui potrebbe essere consentito l'accesso). Se non c'è modo di accedere al file sul server, aggiungere i file dei font necessari all'applicazione.
+- In modalità di Trust parziale, la conversione da Shape a EMF non è supportata, quindi impostare il tipo di immagine esportata (per forme) in altri formati di immagine.
 
-Vedere l'esempio seguente che dimostra come utilizzare/eseguire Aspose.Cells for .NET in modalità Medium Trust.
+Guarda l'esempio in seguito che dimostra come utilizzare/eseguire Aspose.Cells for .NET in modalità di Trust medio.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate the License object
 

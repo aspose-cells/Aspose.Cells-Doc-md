@@ -1,16 +1,17 @@
-﻿---
-title: Verfolgen Sie den Konvertierungsfortschritt von Excel bis TIFF
+---
+title: Konvertierungsvorgang von Excel nach TIFF verfolgen
 type: docs
 weight: 140
 url: /de/java/track-conversion-progress-of-excel-to-tiff/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Manchmal kann das Konvertieren großer Excel-Dateien einige Zeit dauern. Während dieser Zeit möchten Sie möglicherweise den Fortschritt der Dokumentkonvertierung statt nur eines Ladebildschirms anzeigen, um die Benutzerfreundlichkeit Ihrer Anwendung zu verbessern. Aspose.Cells unterstützt die Verfolgung des Dokumentenkonvertierungsprozesses durch Bereitstellung der**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**Schnittstelle. Das**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**Schnittstelle bietet**[PageStartSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs))**und**[PageEndSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs))** Methoden, die Sie in Ihrer benutzerdefinierten Klasse implementieren können. Sie können auch steuern, welche Seiten gerendert werden, wie in gezeigt*TestTiffPageSavingCallback*benutzerdefinierte Klasse.
+## **Mögliche Verwendungsszenarien**
 
-## **Verfolgen Sie den Konvertierungsfortschritt von Excel bis TIFF**
+Manchmal kann die Konvertierung großer Excel-Dateien einige Zeit in Anspruch nehmen. Während dieser Zeit möchten Sie möglicherweise den Dokumentkonvertierungsfortschritt anzeigen, anstatt nur einen Ladebildschirm anzuzeigen, um die Benutzerfreundlichkeit Ihrer Anwendung zu verbessern. Aspose.Cells unterstützt die Verfolgung des Dokumentkonvertierungsprozesses durch Bereitstellung der [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)-Schnittstelle. Die [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)-Schnittstelle bietet [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) und [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) Methoden, die Sie in Ihrer eigenen Klasse implementieren können. Sie können auch steuern, welche Seiten dargestellt werden, wie in der benutzerdefinierten Klasse *TestTiffPageSavingCallback* dargestellt.
 
-Das folgende Codebeispiel lädt die[Excel-Quelldatei](sampleUseWorkbookRenderForImageConversion.xlsx) und druckt seinen Konvertierungsfortschritt in der Konsole mithilfe von*TestTiffPageSavingCallback*benutzerdefinierte Klasse, die die implementiert**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**Schnittstelle. Die generierte Ausgabedatei ist als Referenz beigefügt.
+## **Konvertierungsvorgang von Excel nach TIFF verfolgen**
+
+Der folgende Codeausschnitt lädt die [Quellexceldatei](sampleUseWorkbookRenderForImageConversion.xlsx) und gibt ihren Konvertierungsfortschritt in der Konsole aus, indem die benutzerdefinierte Klasse *TestTiffPageSavingCallback* implementiert wird, die die [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)-Schnittstelle implementiert. Die generierte Ausgabedatei ist für Ihre Referenz angehängt.
 
 [Ausgabedatei](DocumentConversionProgressForTiff_out.tiff)
 
@@ -18,27 +19,30 @@ Das folgende Codebeispiel lädt die[Excel-Quelldatei](sampleUseWorkbookRenderFor
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgressForTiff-1.java" >}}
 
-Das Folgende ist der Code für die*TestTiffPageSavingCallback*benutzerdefinierte Klasse.
+Der folgende Code zeigt die *TestTiffPageSavingCallback*-benutzerdefinierte Klasse.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgressForTiff-2.java" >}}
 
 ## **Konsolenausgabe**
 
-Beginnen Sie mit dem Speichern des Seitenindex 0 der Seiten 10</br>
-Beenden Sie das Speichern des Seitenindex 0 der Seiten 10</br>
-Beginnen Sie mit dem Speichern von Seitenindex 1 von Seite 10</br>
-Beenden Sie das Speichern des Seitenindex 1 der Seite 10</br>
-Beginnen Sie mit dem Speichern von Seitenindex 2 von Seite 10</br>
-Beenden Sie das Speichern des Seitenindex 2 der Seite 10</br>
-Beginnen Sie mit dem Speichern von Seitenindex 3 von Seite 10</br>
-Beenden Sie das Speichern des Seitenindex 3 der Seite 10</br>
-Beginnen Sie mit dem Speichern von Seitenindex 4 von Seite 10</br>
-Beenden Sie das Speichern von Seitenindex 4 von Seite 10</br>
-Beginnen Sie mit dem Speichern von Seitenindex 5 der Seiten 10</br>
-Beenden Sie das Speichern des Seitenindex 5 der Seite 10</br>
-Beginnen Sie mit dem Speichern von Seitenindex 6 von Seite 10</br>
-Beenden Sie das Speichern des Seitenindex 6 der Seite 10</br>
-Beginnen Sie mit dem Speichern von Seitenindex 7 von Seiten 10</br>
-Beenden Sie das Speichern des Seitenindex 7 von Seite 10</br>
-Beginnen Sie mit dem Speichern von Seitenindex 8 von Seiten 10</br>
-Beenden Sie das Speichern des Seitenindex 8 von Seite 10
+{{< highlight java >}}
+Start saving page index 0 of pages 10</br>
+End saving page index 0 of pages 10</br>
+Start saving page index 1 of pages 10</br>
+End saving page index 1 of pages 10</br>
+Start saving page index 2 of pages 10</br>
+End saving page index 2 of pages 10</br>
+Start saving page index 3 of pages 10</br>
+End saving page index 3 of pages 10</br>
+Start saving page index 4 of pages 10</br>
+End saving page index 4 of pages 10</br>
+Start saving page index 5 of pages 10</br>
+End saving page index 5 of pages 10</br>
+Start saving page index 6 of pages 10</br>
+End saving page index 6 of pages 10</br>
+Start saving page index 7 of pages 10</br>
+End saving page index 7 of pages 10</br>
+Start saving page index 8 of pages 10</br>
+End saving page index 8 of pages 10
+
+{{< /highlight >}}

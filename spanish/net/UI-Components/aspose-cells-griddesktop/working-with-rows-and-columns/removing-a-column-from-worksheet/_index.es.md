@@ -1,19 +1,22 @@
-﻿---
-title: Quitar una columna de la hoja de trabajo
+---
+title: Eliminar una Columna de la Hoja de cálculo
 type: docs
 weight: 20
-url: /es/net/removing-a-column-from-worksheet/
+url: /es/net/aspose-cells-griddesktop/remove-a-column-from-worksheet/
+keywords: GridDesktop, eliminar, columna, borrar, columna
+description: Este artículo presenta cómo eliminar columna en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Este es un tema básico para los desarrolladores que solo describe el enfoque más simple para eliminar una columna de la hoja de trabajo. Parece una característica simple pero útil que los desarrolladores pueden usar en sus tareas de rutina mientras trabajan con Aspose.Cells.GridDesktop.
+Este es un tema básico para los desarrolladores que simplemente describe el enfoque más simple para eliminar una columna de la hoja de cálculo. Parece sencillo pero es una característica útil que los desarrolladores pueden utilizar en sus tareas de rutina al trabajar con Aspose.Cells.GridDesktop.
 
 {{% /alert %}} 
-## **Quitar una columna de la hoja de trabajo**
-Para eliminar una columna de la hoja de trabajo, siga los pasos a continuación:
+## **Eliminar una Columna de la Hoja de cálculo**
+Para eliminar una columna de la hoja de cálculo, siga los siguientes pasos:
 
--  Accede a cualquier deseado**Hoja de cálculo**
--  Eliminar**Columna** desde el**Hoja de cálculo** especificando el índice de la columna a eliminar
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Elimine una **Columna** de la **Hoja de cálculo** especificando el índice de la columna a eliminar
 
 
 

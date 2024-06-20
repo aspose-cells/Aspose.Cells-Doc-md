@@ -1,15 +1,16 @@
-﻿---
-title: Hitta värde på Cells
+---
+title: Hitta värde i celler
 type: docs
 weight: 20
 url: /sv/net/find-value-in-cells/
 ---
-## **Aspose.Cells - Hitta värde i Cells**
-I Microsoft Excel kan användare söka efter celler som innehåller specifika data. Till exempel att klicka**Redigera**och då**Hitta**öppnar dialogrutan Sök. Användare anger ett värde och klickar**OK**att söka efter det. Excel markerar matchande fält.
+
+## **Aspose.Cells - Hitta värde i celler**
+I Microsoft Excel kan användare söka efter celler som innehåller specifik data. Till exempel, att klicka på **Redigera** och sedan **Sök** öppnar sökdialogen. Användarna anger ett värde och klickar på **OK** för att söka efter det. Excel markerar matchande fält.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -38,13 +39,13 @@ Cell cell = cells.Find("SH", null, findOptions);
 Console.WriteLine("Name of the cell containing String: " + cell.Name);
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Hitta värde på Cells** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Hitta värde i celler** från någon av nedan nämnda sociala kodningsplatser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Find.Value.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Hitta eller sök data](/cells/sv/net/find-or-search-data/).
+För mer information, besök [Hitta eller sök data](/cells/sv/net/find-or-search-data/).
 
 {{% /alert %}}

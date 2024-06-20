@@ -1,15 +1,16 @@
-﻿---
-title: 属性の変更フォームからテーブルの非表示属性を設定する
+---
+title: Modify Attributeフォームからテーブルの非表示属性を設定する
 type: docs
 weight: 10
 url: /ja/reportingservices/set-a-table-s-hide-attributes-from-the-modify-attribute-form/
 ---
-表レポートの非表示属性を設定する**属性の変更**.パラメータは次のとおりです。
 
-- **タイプ**非表示オブジェクト タイプを表します。テーブル、行、および列が含まれます。
-- **索引**非表示オブジェクトの位置を表します。タイプがワークシートの場合、値は null です。インデックス値は 0 から始まります。
-- **表現**非表示状態の値を表します。値は true、false、または Excel 式です。式は、Reporting Services の式をサポートしています。
+テーブルレポートの非表示属性を**Modify Attribute**から設定します。パラメータには次が含まれます：
 
-**テーブル レポートの非表示属性の設定** 
+- **Type**は非表示オブジェクトタイプを表します。これには、テーブル、行、列が含まれます。
+- **Index**は非表示オブジェクトの位置を示します。タイプがワークシートの場合、値はnullです。インデックス値は0から開始します。
+- **Expression**は非表示状態の値を表します。値はtrue、false、またはExcel式です。式はReporting Services式をサポートしています。
 
-![todo:画像_代替_文章](set-a-table-s-hide-attributes-from-the-modify-attribute-form_1.png)
+**テーブルレポートの非表示属性を設定する** 
+
+![todo:image_alt_text](set-a-table-s-hide-attributes-from-the-modify-attribute-form_1.png)

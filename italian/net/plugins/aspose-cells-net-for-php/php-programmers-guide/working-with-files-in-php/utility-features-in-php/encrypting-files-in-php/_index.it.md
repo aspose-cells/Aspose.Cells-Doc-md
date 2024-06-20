@@ -1,15 +1,16 @@
-﻿---
-title: Crittografia dei file in PHP
+---
+title: Crittografia dei File in PHP
 type: docs
 weight: 10
 url: /it/net/encrypting-files-in-php/
 ---
-## **Aspose.Cells - Crittografa file Excel**
-Crittografia di un file Excel Microsoft
+
+## **Aspose.Cells - Crittografa File Excel**
+Crittografare un file Microsoft Excel
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -41,6 +42,6 @@ Crittografia di un file Excel Microsoft
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Crittografia file (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Crittografia File (Aspose.Cells)** da uno qualsiasi dei siti di codifica sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)

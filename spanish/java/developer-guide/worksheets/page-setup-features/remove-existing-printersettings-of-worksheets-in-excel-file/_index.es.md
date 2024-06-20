@@ -1,19 +1,20 @@
-﻿---
-title: Eliminar la configuración de impresora existente de las hojas de trabajo en el archivo de Excel
+---
+title: Eliminar Configuraciones de Impresora Existente de Hojas de Cálculo en Archivo Excel
 type: docs
 weight: 40
 url: /es/java/remove-existing-printersettings-of-worksheets-in-excel-file/
 ---
-## **Posibles escenarios de uso**
-A veces, los desarrolladores quieren evitar que Excel incluya*.compartimiento* archivos de configuración de la impresora en los archivos XLSX guardados. Los archivos de configuración de la impresora se encuentran en*“[archivo "raíz"]\xl\printerSettings”*. Este documento explica cómo eliminar la configuración de la impresora existente mediante las API Aspose.Cells.
-## **Eliminar la configuración de impresora existente de las hojas de trabajo en el archivo de Excel**
-Aspose.Cells le permite eliminar la configuración de impresora existente especificada para diferentes hojas en el archivo de Excel. El siguiente código de ejemplo ilustra cómo quitar la configuración de impresora existente para todas las hojas de cálculo del libro. Por favor vea su[ejemplo de archivo de Excel](45056023.xlsx), [archivo de salida de Excel](45056024.xlsx), salida de la consola, así como una captura de pantalla como referencia.
+
+## **Escenarios de uso posibles**
+A veces, los desarrolladores desean evitar que Excel incluya archivos *.bin* de la configuración de impresora en los archivos XLSX guardados. Los archivos de configuración de impresora se encuentran en *“[archivo "raíz"]\xl\printerSettings”*. Este documento explica cómo eliminar las configuraciones de impresora existentes utilizando las API de Aspose.Cells.
+## **Eliminar la configuración existente de PrinterSettings de las hojas de cálculo en el archivo de Excel**
+Aspose.Cells le permite eliminar la configuración de impresión existente especificada para diferentes hojas en el archivo de Excel. El siguiente código de ejemplo ilustra cómo eliminar la configuración de impresión existente para todas las hojas de cálculo en el libro. Consulte su [archivo de Excel de ejemplo](45056023.xlsx), [archivo de Excel de salida](45056024.xlsx), salida de la consola y una captura de pantalla como referencia.
 ## **Captura de pantalla**
-![todo:imagen_alternativa_texto](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
+![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.java" >}}
-## **Salida de consola**
-{{< highlight "java" >}}
+## **Salida de la consola**
+{{< highlight java >}}
 
  PrinterSettings of this worksheet exist.
 

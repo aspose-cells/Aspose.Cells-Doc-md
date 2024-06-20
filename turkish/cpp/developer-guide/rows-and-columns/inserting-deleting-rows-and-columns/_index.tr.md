@@ -4,30 +4,31 @@ type: docs
 weight: 40
 url: /tr/cpp/inserting-deleting-rows-and-columns/
 ---
-##  **giriiş**
-İster sıfırdan yeni bir çalışma sayfası oluşturun ister mevcut bir çalışma sayfası üzerinde çalışın, daha fazla veriyi barındırmak için fazladan satır veya sütun eklememiz gerekebilir. Bunun tersine, çalışma sayfasında belirtilen konumlardaki satırları veya sütunları da silmemiz gerekebilir. Bu gereksinimleri karşılamak için Aspose.Cells, aşağıda tartışılan çok basit bir sınıf ve yöntem seti sağlar.
-###  **Satırları ve Sütunları Yönetme**
- Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) Microsoft Excel dosyasını temsil eder.[Çalışma kitabı](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) sınıf bir içerir[Çalışma sayfaları](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)Bir Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon. Bir çalışma sayfası şu şekilde temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıf.[Çalışma kağıdı](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıf sağlar[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)çalışma sayfasındaki tüm hücreleri temsil eden koleksiyon.
 
-[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)koleksiyon, bir çalışma sayfasındaki satırları ve sütunları yönetmeye yönelik çeşitli yöntemler sağlar. Bunlardan bazıları aşağıda tartışılmaktadır.
+## **Giriş**
+Sıfırdan yeni bir çalışsayfa oluştururken veya mevcut bir çalışsayfada çalışırken, daha fazla veriyi yerleştirmek için ekstra satırlar veya sütunlar eklemeniz veya belirli konumlardan satır veya sütunları silmeniz gerekebilir. Bu gereksinimleri karşılamak için Aspose.Cells, aşağıda tartışılan çok basit bir sınıf ve yöntem seti sağlar.
+### **Satır ve Sütun Yönetimi**
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) adında bir sınıf sağlar. [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) sınıfı, Excel dosyasındaki her sayfaya erişime izin veren bir [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) koleksiyonu içerir. Bir çalışsayfa [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) sınıfı, çalışsayfadaki tüm hücreleri temsil eden bir [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) koleksiyonu sağlar.
+
+[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) koleksiyonu, çalışsayfadaki satırları veya sütunları yönetmek için çeşitli yöntemler sağlar, bunlardan bazıları aşağıda daha detaylı olarak tartışılmaktadır.
 
 {{% alert color="primary" %}} 
 
-Satır veya sütunlar eklendiğinde çalışma sayfasındaki içerik aşağı veya sağa kaydırılır; satırlar veya sütunlar kaldırıldığında içerik yukarı veya sola kaydırılır.
+Satırlar veya sütunlar eklenirse, çalışma sayfasındaki içerik aşağıya veya sağa kaydırılır ve satırlar veya sütunlar kaldırılırsa içerik yukarıya veya sola kaydırılır.
 
 {{% /alert %}} 
-####  **Satır Ekle**
- Çağırarak çalışma sayfasının herhangi bir yerine bir satır ekleyin.[InsertRow](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) yöntemi[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) Toplamak.[InsertRow](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/)metodu yeni satırın ekleneceği satırın indeksini alır.
+#### **Bir Satır Ekle**
+Worksheeta satır eklemek için [InsertRow](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) methodunu [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) koleksiyonunun çağrılmasıyla herhangi bir konumda çalıştırın. [InsertRow](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrow/) methodu ile yeni satırın ekleneceği satırın dizinini alır.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-InsertingDeletingRowsAndColumns-InsertRow-new.cpp" >}}
 
 
-####  **Birden Çok Satır Ekleme**
- Bir çalışma sayfasına birden çok satır eklemek için[Satırları Ekle](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) yöntemi[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) Toplamak.[Satırları Ekle](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/)yöntem iki parametre alır:
+#### **Birden Fazla Satır Ekleme**
+Çalışsayadh birden çok satır eklemek için [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) koleksiyonunun [InsertRows](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) methodunu çağırın. [InsertRows](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertrows/) methodu iki parametre alır:
 
-- Satır dizini, yeni satırların ekleneceği satırın dizini.
+- Satır indeksi, yeni satırların ekleneceği satırın indeksi.
 - Satır sayısı, eklenmesi gereken toplam satır sayısı.
 
 
@@ -35,27 +36,27 @@ Satır veya sütunlar eklendiğinde çalışma sayfasındaki içerik aşağı ve
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-InsertingDeletingRowsAndColumns-InsertingMultipleRows-new.cpp" >}}
 
 
-####  **Birden Çok Satırı Silme**
- Bir çalışma sayfasından birden çok satırı silmek için,[Satırları Sil](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) yöntemi[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) Toplamak.[Satırları Sil](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/)yöntem iki parametre alır:
+#### **Birden Fazla Satırı Silme**
+Çalışma sayfasından birden çok satır silmek için [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) koleksiyonunun [DeleteRow](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) methodunu çağırın. [DeleteRow](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deleterows/) methodu iki parametre alır:
 
-- Satır dizini, satırların silineceği satırın dizini.
-- Satır sayısı, silinmesi gereken toplam satır sayısı.
+- Satır endeksi, satırların silineceği başlangıç satırının endeksi.
+- satır sayısı, silinmesi gereken toplam satır sayısı
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-InsertingDeletingRowsAndColumns-DeletingMultipleRows-new.cpp" >}}
 
 
-####  **Sütun Ekle**
- Geliştiriciler ayrıca çalışma sayfasının herhangi bir yerindeki sütunu çağırarak da sütun ekleyebilirler.[Sütun Ekle](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/) yöntemi[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) Toplamak.[Sütun Ekle](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/)yöntem, yeni sütunun ekleneceği sütunun dizinini alır.
+#### **Bir Sütun Eklemek**
+Geliştiriciler [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) koleksiyonunun [InsertColumn](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/) methodunu çağırarak çalışsaydh herhangi bir konuma bir sütun da ekleyebilirler. [InsertColumn](https://reference.aspose.com/cells/cpp/aspose.cells/cells/insertcolumn/) methodu ile yeni sütunun ekleneceği sütunun dizinini alır.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-InsertingDeletingRowsAndColumns-InsertColumn-new.cpp" >}}
 
 
-####  **Bir Sütunu Sil**
- Çalışma sayfasında herhangi bir yerden bir sütunu silmek için[Sütunu Sil](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/) yöntemi[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) Toplamak.[Sütunu Sil](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/)yöntem silinecek sütunun dizinini alır.
+#### **Bir Sütunu Sil**
+Herhangi bir konumdan çalışma sayfasından bir sütun silmek için [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) koleksiyonunun [DeleteColumn](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/) methodunu çağırın. [DeleteColumn](https://reference.aspose.com/cells/cpp/aspose.cells/cells/deletecolumn/) methodu silinecek sütunun dizinini alır.
 
 
 

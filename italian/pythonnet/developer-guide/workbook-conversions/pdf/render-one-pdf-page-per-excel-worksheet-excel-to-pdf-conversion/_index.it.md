@@ -1,18 +1,19 @@
 ---
-title: Visualizza una pagina PDF per foglio di lavoro Excel - Conversione da Excel a PDF
+title: Rendere una pagina PDF per foglio di lavoro di Excel  Conversione di Excel in PDF
 type: docs
 weight: 100
 url: /it/python-net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
-description: Scopri come eseguire il rendering di una pagina per foglio di lavoro Excel PDF durante la conversione di Excel in PDF con Aspose.Cells for Python via .NET API.
-keywords: Python Render One PDF Page Per Excel Worksheet while saving file to PDF, One PDF Page Per Excel Worksheet while saving Excel to PDF using Python, Python show one page per worksheet when converting Excel to PDF
+description: Scopri come rendere una pagina PDF per foglio di lavoro di Excel durante la conversione di Excel in PDF con l API Aspose.Cells for Python via .NET.
+keywords: Python renderizza una pagina PDF per foglio di lavoro Excel durante il salvataggio del file in PDF, Una pagina PDF per foglio di lavoro Excel durante il salvataggio di Excel in PDF usando Python, Python mostra una pagina per foglio di lavoro durante la conversione di Excel in PDF
 ---
+
 {{% alert color="primary" %}} 
 
-Quando si lavora con file Excel Microsoft di grandi dimensioni (ad esempio una cartella di lavoro con molti fogli, ciascuno con 50 colonne e 300 o più righe di dati), è possibile che l'output PDF mostri una pagina per foglio di lavoro, indipendentemente dalle dimensioni del foglio di lavoro . Ciò significherebbe che è probabile che ciascuna pagina abbia dimensioni di pagina radicalmente diverse. Ciò può essere ottenuto utilizzando Aspose.Cells for Python via .NET API.
+Quando si lavora con grandi file di Microsoft Excel (ad esempio un file di lavoro che ha molti fogli, ognuno con 50 colonne e 300 o più righe di dati), potresti voler che l'output in PDF mostri una pagina per foglio di lavoro, indipendentemente dalle dimensioni del foglio di lavoro. Ciò significherebbe che ogni pagina avrà probabilmente una dimensione di pagina radicalmente diversa. Questo può essere realizzato utilizzando l'API Aspose.Cells for Python via .NET.
 
 {{% /alert %}} 
 
-Consulta il seguente codice di esempio che converte un file Excel con più fogli di lavoro in PDF.
+Si prega di vedere il seguente codice di esempio che converte un file di Excel con più fogli di lavoro in PDF.
 
 
 
@@ -20,10 +21,10 @@ Consulta il seguente codice di esempio che converte un file Excel con più fogli
 
 {{% alert color="primary" %}} 
 
- Se la[PdfSaveOptions.one_page_per_sheet](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/one_page_per_sheet/)è impostata su *true**, tutto il contenuto del foglio verrà visualizzato in una pagina PDF.
+Se l'opzione [PdfSaveOptions.one_page_per_sheet](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/one_page_per_sheet/) è impostata su **true**, tutto il contenuto del foglio sarà reso in una pagina PDF.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Se il tuo foglio di calcolo contiene formule, è meglio chiamare[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) subito prima di eseguire il rendering del foglio di calcolo su PDF. Ciò garantisce che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati in PDF.
+Se il tuo foglio di calcolo contiene formule, è meglio chiamare il metodo [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) proprio prima di renderizzare il foglio di calcolo in PDF. Questo garantisce che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano resi nel PDF.
 
 {{% /alert %}}

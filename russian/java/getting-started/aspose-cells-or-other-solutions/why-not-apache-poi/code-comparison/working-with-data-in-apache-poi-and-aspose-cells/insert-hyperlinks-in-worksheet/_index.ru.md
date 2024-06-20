@@ -1,17 +1,18 @@
-﻿---
-title: Вставить гиперссылки на лист
+---
+title: Вставка гиперссылок в рабочем листе
 type: docs
 weight: 20
 url: /ru/java/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Вставка гиперссылок на лист**
-**Добавление ссылки на Cell в тот же файл**
 
-Можно добавить гиперссылки в ячейки в том же файле Excel, вызвав метод Add коллекции Hyperlink. Метод Add работает как для внутренних, так и для внешних гиперссылок.
+## **Aspose.Cells - Вставка гиперссылок в рабочем листе**
+**Добавление ссылки в ячейку в том же файле**
+
+Возможно добавить гиперссылки в ячейки в том же файле Excel при вызове метода Add коллекции Hyperlink. Метод Add работает как для внутренних, так и для внешних гиперссылок.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the first worksheet.
 
@@ -50,16 +51,16 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 
 **Добавление ссылки на внешний файл**
 
-Можно добавить гиперссылки во внешние файлы Excel, вызвав метод Add коллекции Hyperlinks. Метод Add принимает следующие параметры:
+Возможно добавить гиперссылку на внешний файл Excel, вызвав метод Add коллекции Hyperlinks. Метод Add принимает следующие параметры:
 
-- Cell имя, имя ячейки, в которую будет добавлена гиперссылка.
+- Имя ячейки, в которую будет добавлена гиперссылка.
 - Количество строк, количество строк в этом диапазоне гиперссылок.
 - Количество столбцов, количество столбцов в этом диапазоне гиперссылок.
 - URL, адрес цели, внешний файл Excel.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  cell = cells.get("A3");
 
@@ -74,10 +75,10 @@ hyperlinks = sheet.getHyperlinks();
 hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF XSSF — вставка гиперссылок на лист**
+## **Apache POI SS - HSSF XSSF - Вставка гиперссылок в лист**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  CellStyle hlink_style = wb.createCellStyle();
 
@@ -158,8 +159,8 @@ cell.setHyperlink(link2);
 cell.setCellStyle(hlink_style);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/гиперссылка)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlink)
 

@@ -1,26 +1,27 @@
 ---
-title: Crear una imagen transparente de la hoja de cálculo de Excel
+title: Create Transparent Image of Excel Worksheet
 type: docs
 weight: 170
 url: /es/net/create-transparent-image-of-excel-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
- veces, necesita generar la imagen de su hoja de trabajo como una imagen transparente. Desea aplicar transparencia a todas las celdas que no tienen colores de relleno. Aspose.Cells proporciona el[**ImageOrPrintOptions.Transparente**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent) propiedad para aplicar transparencia a la imagen de la hoja de cálculo. Cuando esta propiedad es *falsa**, las celdas sin colores de relleno se dibujan con color blanco y cuando es *verdadero**, las celdas sin colores de relleno se dibujan transparentes.
+A veces, es necesario generar la imagen de la hoja de cálculo como una imagen transparente. Desea aplicar transparencia a todas las celdas que no tienen colores de relleno. Aspose.Cells proporciona la propiedad [**ImageOrPrintOptions.Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent) para aplicar transparencia a la imagen de la hoja de cálculo. Cuando esta propiedad es **false**, entonces las celdas sin colores de relleno se dibujan con color blanco, y cuando es **true**, las celdas sin colores de relleno se dibujan transparentes.
 
 {{% /alert %}} 
 
-En la siguiente imagen de hoja de cálculo, no se ha aplicado transparencia. Las celdas sin colores de relleno se dibujan en blanco.
+En la siguiente imagen de la hoja de cálculo, no se ha aplicado transparencia. Las celdas sin colores de relleno se dibujan de color blanco.
 
-|**Salida sin transparencia: el fondo de la celda es blanco**|
+|**Resultado sin transparencia: el fondo de la celda es blanco**|
 | :- |
-|![todo:imagen_alt_texto](create-transparent-image-of-excel-worksheet_1.png)|
+|![todo:image_alt_text](create-transparent-image-of-excel-worksheet_1.png)|
 
-Mientras que, en la siguiente imagen de la hoja de trabajo, se ha aplicado transparencia. Las celdas sin colores de relleno son transparentes.
+Mientras que, en la siguiente imagen de la hoja de cálculo, se ha aplicado transparencia. Las celdas sin colores de relleno son transparentes.
 
-|**Salida con transparencia habilitada**|
+|**Resultado con transparencia habilitada**|
 | :- |
-|![todo:imagen_alt_texto](create-transparent-image-of-excel-worksheet_2.png)|
+|![todo:image_alt_text](create-transparent-image-of-excel-worksheet_2.png)|
 
 El siguiente código de ejemplo genera una imagen transparente a partir de una hoja de cálculo de Excel.
 

@@ -1,21 +1,22 @@
-﻿---
-title: Cell Ajustes de alineación
+---
+title: Configuración de Alineación de Celdas
 type: docs
 weight: 20
 url: /es/java/cell-alignment-settings/
 ---
-## **Aspose.Cells - Cell Ajustes de alineación**
-Aspose.Cells proporciona una clase, Workbook, que representa un archivo de Excel. La clase Workbook contiene una WorksheetCollection que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por la clase Worksheet.
 
-La clase Worksheet proporciona una colección Cells. Cada elemento de la colección Cells representa un objeto de la clase Cell.
+## **Aspose.Cells - Configuración de Alineación de Celdas**
+Aspose.Cells proporciona una clase, Workbook, que representa un archivo de Excel. La clase Workbook contiene una WorksheetCollection que permite acceder a cada hoja de cálculo en el archivo de Excel. Una hoja de cálculo está representada por la clase Worksheet.
 
-Aspose.Cells proporciona el método setStyle en la clase Cell que se usa para formatear una celda. La clase Style proporciona propiedades útiles para configurar los ajustes de fuente.
+La clase Worksheet proporciona una colección de Cells. Cada elemento en la colección de Cells representa un objeto de la clase Cell.
 
-Seleccione cualquier tipo de alineación de texto mediante la enumeración TextAlignmentType.
+Aspose.Cells proporciona el método setStyle en la clase Cell que se utiliza para la formatear una celda. La clase Style proporciona propiedades útiles para configurar la configuración de fuentes.
+
+Seleccione cualquier tipo de alineación de texto utilizando la enumeración TextAlignmentType.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -48,14 +49,14 @@ style.setHorizontalAlignment(TextAlignmentType.CENTER);
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF y XSSF - Cell Configuración de alineación**
-HSSFCellStyle proporciona el estilo para la alineación en celdas utilizando Apache POI API.
+## **Apache POI SS - HSSF & XSSF - Configuración de alineación de celdas**
+HSSFCellStyle proporciona el estilo para la alineación en celdas utilizando la API de Apache POI.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws IOException
+ public static void main(String[] args) throws IOException
 
 {
 
@@ -126,13 +127,13 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowcolumns/cellalignment)
+## **Descargar Código de Ejemplo**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/cellalignment)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Configuración de ajustes de alineación](/cells/es/java/data-formatting/).
+Para más detalles, visita [Configuración de alineación de celdas](/cells/es/java/data-formatting/).
 
 {{% /alert %}}

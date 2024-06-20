@@ -1,15 +1,16 @@
-﻿---
-title: Php でのワークシートの保護
+---
+title: Phpでのワークシートの保護
 type: docs
 weight: 10
 url: /ja/java/protecting-worksheets-in-php/
 ---
+
 ## **Aspose.Cells - ワークシートの保護**
-を使用してワークシートを保護するには**Aspose.Cells Java for PHP**、 電話**保護ワークシート**方法**保護**モジュール。
+ワークシートを保護するには、**Aspose.Cells Java for PHP** の **protection** モジュールの **protect_worksheet** メソッドを呼び出します。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -40,7 +41,7 @@ $protection->setPassword("1234");
 $excel->save($dataDir . "output.xls");  
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートの保護 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のどちらかのソーシャルコーディングサイトから、**Aspose.Cells**の**ワークシートの保護**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/ProtectingWorksheet.php)

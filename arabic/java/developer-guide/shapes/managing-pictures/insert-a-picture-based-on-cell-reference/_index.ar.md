@@ -1,25 +1,26 @@
-﻿---
-title: قم بإدراج صورة بناءً على مرجع Cell
+---
+title: إدراج صورة بناءً على إشارة الخلية
 type: docs
 weight: 90
 url: /ar/java/insert-a-picture-based-on-cell-reference/
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان يكون لديك صورة فارغة وتحتاج إلى إظهار البيانات أو المحتويات في الصورة عن طريق تعيين مرجع خلية في شريط الصيغة. يدعم Aspose.Cells هذه الميزة (Microsoft Excel 2010).
+أحيانًا يكون لديك صورة فارغة وتحتاج إلى عرض البيانات أو المحتويات في الصورة عن طريق تحديد إشارة للخلية في شريط الصيغة. تدعم Aspose.Cells هذه الميزة (Microsoft Excel 2010).
 
 {{% /alert %}}
 
-## إدراج صورة بناءً على مرجع Cell
+## إدراج صورة بناءً على إشارة الخلية
 
- يدعم Aspose.Cells عرض محتويات خلية ورقة العمل في شكل صورة. يمكنك ربط الصورة بالخلية التي تحتوي على البيانات التي تريد عرضها. نظرًا لأن الخلية أو نطاق الخلية مرتبط بكائن رسومي ، تظهر التغييرات التي يتم إجراؤها على البيانات تلقائيًا في الكائن الرسومي. أضف صورة إلى ورقة العمل عن طريق استدعاء[**إضافة الصورة**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPicture(int,%20int,%20int,%20int,%20java.io.InputStream) ) طريقة ال[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) مجموعة (مغلفة في ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) موضوع). حدد نطاق الخلايا باستخدام[**مجموعة الصيغة**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#Formula) طريقة[**صورة**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)موضوع.
+تدعم Aspose.Cells عرض محتويات خلية ورقة العمل في شكل صورة. يمكنك ربط الصورة بالخلية التي تحتوي على البيانات التي تريد عرضها. نظرًا لأن الخلية أو نطاق الخلايا مرتبط بالكائن الرسومي، فإن التغييرات في البيانات ستظهر تلقائيًا في الكائن الرسومي. أضف صورة إلى ورقة العمل من خلال استدعاء الطريقة [**addPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPicture(int,%20int,%20int,%20int,%20java.io.InputStream)) من مجموعة الكائنات [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) (محاطة بكائن [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). حدد نطاق الخلية باستخدام الطريقة [**setFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#Formula) من كائن [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture).
 
-يوجد أدناه لقطة شاشة للملف الذي ينشئه الكود أدناه.
+أدناه يوجد لقطة شاشة للملف الذي يقوم الكود أدناه بإنشائه.
 
-**إدراج صورة بناءً على مرجع الخلية**
+إدراج صورة بناءً على إشارة الخلية
 
-![ما يجب القيام به: image_بديل_نص](insert-a-picture-based-on-cell-reference_1.png)
+![todo:image_alt_text](insert-a-picture-based-on-cell-reference_1.png)
 
-## عينة من الرموز
+## كود عينة
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-InsertPictureCellReference-InsertPictureCellReference.java" >}}

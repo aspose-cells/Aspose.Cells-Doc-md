@@ -1,42 +1,43 @@
-﻿---
-title: Kalkylarksredigerare - Arbeta med Kalkylark
+---
+title: Kalkylbladsredigerare  Arbeta med blad
 type: docs
 weight: 20
 url: /sv/java/spreadsheet-editor-working-with-sheets/
 ---
-**Innehållsförteckning**
 
-- [Lägg till och ta bort ark?](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
- - WorksheetView.onAddNewSheet
- - WorksheetView.onRemoveActiveSheet
-- [Byt namn på ark](#SpreadsheetEditor-WorkingwithSheets-RenameSheets) 
- - WorksheetView.setActiveSheet
-- [Växla mellan ark](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
- - WorksheetView.setActiveSheet
-### **Lägg till och ta bort ark?**
-Microsoft Excel tillåter flera ark i en enda fil. HTML5 Spreadsheet Editor låter användaren lägga till och ta bort ark. På fliken Ark har vi en rullgardinslista med ark. Det valda arket är det som öppnas av redaktören.
+Innehållsförteckning
 
-Så här lägger du till ett nytt blad:
+- [Lägga till och ta bort blad?](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
+  - WorksheetView.onAddNewSheet
+  - WorksheetView.onRemoveActiveSheet
+- [Byt namn på blad](#SpreadsheetEditor-WorkingwithSheets-RenameSheets) 
+  - WorksheetView.setActiveSheet
+- [Växla mellan flikar](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
+  - WorksheetView.setActiveSheet
+### **Lägga till och ta bort blad?**
+Microsoft Excel tillåter flera blad i en enda fil. HTML5-kalkylbladsredigeraren tillåter användaren att lägga till och ta bort blad. På fliken Blad har vi en rullgardinslista över blad. Det valda bladet är det som öppnas av redaktören.
 
-1.  Byta till**Fliken Ark**.
-1. Klicka på **+** (plus)-knappen.
+För att lägga till ett nytt blad:
 
-Ett nytt ark läggs till och redigeraren byter till det.
+1. Byt till **Flikblad**.
+1. Klicka på **+** (plus) knappen.
 
-Så här tar du bort det för närvarande valda arket:
+Ett nytt blad läggs till och redaktören kommer att växla till det.
 
-1.  Byta till**Fliken Ark**.
-1. Klicka på knappen **-** (minus).
+För att ta bort det aktuellt valda bladet:
 
-Det för närvarande valda arket kommer att tas bort och redigeraren växlar till det senast valda arket.
+1. Byt till **Flikblad**.
+1. Klicka på **-** (minus) knappen.
+
+Det aktuellt valda bladet kommer att tas bort och redaktören kommer att växla till det senast valda bladet.
 
 ![todo:image_alt_text](4wgvmu8.png)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- När användaren klickar på** +** (plus) och**-** (minus) knappen klickas, JSF backend bean**Arbetsbladsvy** hanterar händelserna med hjälp av**WorksheetView.onAddNewSheet** och**WorksheetView.onRemoveActiveSheet** metoder.
+När användaren klickar på **+** (plus) och **-** (minus) knappen, hanterar JSF backend bean **WorksheetView** händelserna med metoderna **WorksheetView.onAddNewSheet** och **WorksheetView.onRemoveActiveSheet**.
 #### **WorksheetView.onAddNewSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onAddNewSheet() {
 
@@ -63,7 +64,7 @@ Det för närvarande valda arket kommer att tas bort och redigeraren växlar til
 {{< /highlight >}}
 
 #### **WorksheetView.onRemoveActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onRemoveActiveSheet() {
 
@@ -96,23 +97,23 @@ Det för närvarande valda arket kommer att tas bort och redigeraren växlar til
     }
 
 {{< /highlight >}}
-### **Byt namn på ark**
-Så här byter du namn på ett arbetsblad:
+### **Byt namn på blad**
+För att döpa om ett blad:
 
-1.  Byta till**Fliken Ark**.
-1. Klicka på arkets namn i textrutan för att redigera det.
-1. Ändra namnet på arket.
-1. När du är klar, tryck på ENTER-tangenten eller klicka var som helst utanför rutan.
+1. Byt till **Flikblad**.
+1. Klicka på fliknamnet i textrutan för att redigera det.
+1. Ändra namnet på fliken.
+1. När du är klar, tryck på ENTER-tangenten eller klicka utanför rutan.
 
-Arket kommer att döpas om.
+Fliken kommer att döpas om.
 
 ![todo:image_alt_text](4wgvmu8.png)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- När textboxens värde ändras, hanteras händelsen på servern av JSF backend bean**Arbetsbladsvy** använder metoden**WorksheetView.setActiveSheet**.
+När textrutans värde ändras, hanteras händelsen på servern av JSF backend-beanen **WorksheetView** med hjälp av metoden **WorksheetView.setActiveSheet**.
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 
@@ -135,21 +136,21 @@ Arket kommer att döpas om.
     }
 
 {{< /highlight >}}
-### **Växla mellan ark**
-Så här byter du till ett annat blad:
+### **Växla mellan flikar**
+För att växla till en annan flik:
 
-1.  Byta till**Fliken Ark**.
-1. Välj ett ark från rullgardinsmenyn.
+1. Byt till **Flikblad**.
+1. Välj en flik från rullgardinsmenyn.
 
-Redaktören växlar till det valda arket.
+Redigeraren kommer att växla till den valda fliken.
 
 ![todo:image_alt_text](4wgvmu8.png)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- När den nedrullningsbara väljarens värde ändras, hanteras händelsen på servern av JSF backend bean**Arbetsbladsvy** använder metoden**WorksheetView.setActiveSheet**.
+När rullgardinsväljarens värde ändras, hanteras händelsen på servern av JSF backend-beanen **WorksheetView** med hjälp av metoden **WorksheetView.setActiveSheet**.
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 

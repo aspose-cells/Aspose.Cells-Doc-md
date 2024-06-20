@@ -1,16 +1,17 @@
-﻿---
+---
 title: Mostra o nascondi le schede in Php
 type: docs
 weight: 30
 url: /it/java/display-or-hide-tabs-in-php/
 ---
-## **Aspose.Cells - Mostra o nascondi schede**
+
+## **Aspose.Cells - Visualizza o Nascondi Schede**
 ### **Nascondere le schede**
- Per nascondere le schede utilizzando**Aspose.Cells Java for PHP** , chiamata**displayhidetabs** modulo.
+Per nascondere le schede utilizzando **Aspose.Cells Java for PHP**, chiamare il modulo **displayhidetabs**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -26,6 +27,6 @@ $workbook->save($dataDir + "output.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Nascondi o mostra o nascondi schede (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Nascondi o Visualizza o Nascondi Schede (Aspose.Cells)** da uno dei siti di codice sociale sotto indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)

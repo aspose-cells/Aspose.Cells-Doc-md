@@ -1,13 +1,14 @@
-﻿---
-title: Установить коэффициент масштабирования рабочего листа
+---
+title: Установить коэффициент масштабирования на рабочем листе
 type: docs
 weight: 80
 url: /ru/net/set-worksheet-zoom-factor/
 ---
-## **Aspose.Cells - Установить коэффициент масштабирования рабочего листа**
+
+## **Aspose.Cells - Установить коэффициент масштабирования на рабочем листе**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -27,10 +28,10 @@ workbook.Save("../../data/newWorksheet.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Установить коэффициент масштабирования рабочего листа**
+## **NPOI - HSSF XSSF - Установить коэффициент масштабирования на рабочем листе**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -45,13 +46,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Установить коэффициент масштабирования рабочего листа** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **установить коэффициент масштабирования на рабочем листе** с любого из перечисленных ниже сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Zoom.Factor.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Zoom.Factor.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Работа с рабочими листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Для получения дополнительной информации посетите [Работа с листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

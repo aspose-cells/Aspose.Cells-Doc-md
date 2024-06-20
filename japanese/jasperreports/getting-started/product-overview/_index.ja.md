@@ -1,27 +1,28 @@
-﻿---
-title: 製品の概要
+---
+title: 製品概要
 type: docs
 weight: 10
 url: /ja/jasperreports/product-overview/
 ---
+
 {{% alert color="primary" %}}
 
-![todo:画像_代替_文章](product-overview_1.png)
+![todo:image_alt_text](product-overview_1.png)
 
-### **Aspose.Cells for JasperReports ドキュメンテーションへようこそ!**
+### **Aspose.Cells for JasperReports ドキュメントへようこそ！**
 
- Aspose.Cells for JasperReports は、[ジャスパーレポート](https://community.jaspersoft.com/project/jasperreports-library)s オリジナルの Microsoft Excel エクスポーター。いくつかの優れた拡張機能がバンドルされています。 POI ライブラリへの依存を排除し、バックエンドで Aspose.Cells for Java を使用してレポートを Microsoft Excel 形式 (XLS、XLSX) でエクスポートします。
+Aspose.Cells for JasperReportsは、[JasperReports](https://community.jaspersoft.com/project/jasperreports-library)のオリジナルのMicrosoft Excelエクスポーターの代替として機能するライブラリであり、いくつかの素晴らしい機能が備わっています。POIライブラリに依存せず、バックエンドでAspose.Cells for Javaを使用して、Microsoft Excel形式（XLS、XLSX）でレポートをエクスポートします。
 
 {{% /alert %}}
 
 ### **製品説明**
 
-Aspose.Cells for JasperReports は、JasperReports および JasperServer から Microsoft Excel ファイル形式にレポートを簡単にエクスポートできる柔軟なソリューションです。すべてのレポート機能は、最高の精度で Microsoft Excel スプレッドシートに変換されます。
+Aspose.Cells for JasperReportsは、JasperReportsとJasperServerからMicrosoft Excelファイル形式にレポートをエクスポートすることを容易にする柔軟なソリューションです。 すべてのレポート機能は、最高の精度でMicrosoft Excelスプレッドシートに変換されます。
 
-元の POI ベースの Micrsofot Excel エクスポーターが提供する機能に加えて、このコンポーネントはいくつかの価値ある機能を提供します。 XLS へのエクスポートに関連する主な革新は次のとおりです。
+元のPOIベースのMicrosoft Excelエクスポーターが提供する機能に加えて、このコンポーネントにはいくつかの貴重な機能が提供されます。 XLSへのエクスポートに関連する主要な革新には、次のものがあります：
 
-- Microsoft 静止画像ではなく、編集可能なグラフを Excel 形式で提供します。
+- 静的な画像ではなく、Microsoft Excel形式の編集可能なチャートを提供します。
 
-**サンプル レポートは、Aspose.Cells for JasperReports を使用して生成されます。** 
+**Aspose.Cells for JasperReportsを使用してサンプルレポートが生成されます** 
 
-![todo:画像_代替_文章](product-overview_2.png)
+![todo:image_alt_text](product-overview_2.png)

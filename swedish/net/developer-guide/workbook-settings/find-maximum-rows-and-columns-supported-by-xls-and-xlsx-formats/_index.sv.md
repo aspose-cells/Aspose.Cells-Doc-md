@@ -1,24 +1,25 @@
-﻿---
-title: Hitta maximalt antal rader och kolumner som stöds av formaten XLS och XLSX
+---
+title: Hitta maxrader och maxkolumner som stöds av XLS och XLSX format
 type: docs
 weight: 20
 url: /sv/net/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
 ---
-## **Möjliga användningsscenarier**
 
-Det finns olika antal rader och kolumner som stöds av Excel-format. Till exempel stöder XLS 65536 rader och 256 kolumner medan XLSX stöder 1048576 rader och 16384 kolumner. Om du vill veta hur många rader och kolumner som stöds av ett givet format kan du använda[**Arbetsbok.Inställningar.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) och[**Arbetsbok.Inställningar.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)egenskaper.
+## **Möjliga användningsscenario**
 
-## **Hitta maximalt antal rader och kolumner som stöds av formaten XLS och XLSX**
+Det finns olika antal rader och kolumner som stöds av Excel-format. Till exempel stöder XLS 65536 rader och 256 kolumner medan XLSX stöder 1048576 rader och 16384 kolumner. Om du vill veta hur många rader och kolumner som stöds av ett visst format kan du använda egenskaperna [**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) och [**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn).
 
-Följande exempelkod skapar arbetsbok först i XLS och sedan i XLSX-format. Efter skapandet skriver den ut värdena för[**Arbetsbok.Inställningar.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) och[**Arbetsbok.Inställningar.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)egenskaper. Se konsolutgången för koden nedan för din referens.
+## **Hitta maxrader och maxkolumner som stöds av XLS och XLSX-format**
+
+Följande exempelkod skapar först arbetsboken i XLS-format och sedan i XLSX-format. Efter skapandet skrivs värdena av egenskaperna [**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) och [**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn) ut. Se konsoloutputen för koden nedan för referens.
 
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "WorkbookSettings-FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats.cs" >}}
 
-## **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Maximum Rows and Columns supported by XLS format.
 

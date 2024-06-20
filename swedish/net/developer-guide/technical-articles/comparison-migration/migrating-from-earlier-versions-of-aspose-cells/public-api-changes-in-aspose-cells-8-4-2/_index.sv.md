@@ -1,23 +1,24 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.4.2
+---
+title: Offentliga API ändringar i Aspose.Cells 8.4.2
 type: docs
 weight: 150
 url: /sv/net/public-api-changes-in-aspose-cells-8-4-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.4.1 till 8.4.2 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder,[lagt till klasser etc.](/cells/sv/net/public-api-changes-in-aspose-cells-8-4-2/), men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringarna i Aspose.Cells API från version 8.4.1 till 8.4.2 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, [tillagda klasser etc.](/cells/sv/net/public-api-changes-in-aspose-cells-8-4-2/), utan även en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Förbättrad mekanism för att skapa diagram**
-Klassen Aspose.Cells.Charts.Chart har exponerat metoden SetChartDataRange för att underlätta arbetet med att skapa diagram. Metoden SetChartDataRange accepterar två parametrar, där den första parametern är av typen sträng som anger från vilket cellområde dataserien ska plottas. Den andra parametern är av typen Boolean som anger plotorienteringen, det vill säga; om du vill plotta diagramdataserien från ett intervall av cellvärden efter rad eller kolumner.
+## **Tillagda API:er**
+### **Förbättrad diagramskapningsmekanism**
+Aspose.Cells.Charts.Chart-klassen har exponerat SetChartDataRange-metoden för att underlätta uppgiften med att skapa diagram. SetChartDataRange-metoden accepterar två parametrar, där första parametern är av typen sträng som specificerar cellområdet från vilket dataserierna ska plottas. Den andra parametern är av typen Boolean som specificerar plottorienteringen, det vill säga; om dataserierna ska plottas från ett cellvärdesområde efter rad eller kolumn.
 
-Följande kodavsnitt visar hur man skapar ett kolumndiagram med några rader kod förutsatt att diagrammets plotseriedata finns på samma kalkylblad från cell A1 till D4.
+Följande kodsnutt visar hur man skapar ett kolumnschema med några få rader kod under förutsättning att diagrammets plottseriedata finns på samma kalkylblad från cell A1 till D4.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Add a new chart of type Column to chart collection
 
@@ -34,14 +35,14 @@ chart.SetChartDataRange("A1:D4", true);
 {{< /highlight >}}
 
 
-### **Metod VbaModuleCollection.Add tillagd**
-Aspose.Cells for .NET 8.4.2 har avslöjat metoden VbaModuleCollection.Add för att lägga till en ny VBA-modul till instansen av Workbook. Metoden VbaModuleCollection.Add accepterar en parameter av typ av arbetsblad för att lägga till en kalkylbladsspecifik modul.
+### **Tillagd VbaModuleCollection.Add-metod**
+Aspose.Cells for .NET 8.4.2 har exponerat VbaModuleCollection.Add-metoden för att lägga till en ny VBA-modul till instansen av Workbook. VbaModuleCollection.Add-metoden accepterar en parameter av typen Worksheet för att lägga till en arbetsbladsspecifik modul.
 
-Följande kodavsnitt visar hur man använder metoden VbaModuleCollection.Add.
+Följande kodsnutt visar hur man använder VbaModuleCollection.Add-metoden.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create new workbook
 
@@ -74,14 +75,14 @@ workbook.Save(output, SaveFormat.Xlsm);
 {{< /highlight >}}
 
 
-### **Överbelastad metod Cells.CopyColumns har lagts till**
-Aspose.Cells for .NET 8.4.2 har avslöjat en överbelastad version av metoden Cells.CopyColumns för att upprepa källkolumnerna till destinationen. Den nyligen exponerade metoden accepterar 5 parametrar totalt, där de första 4 parametrarna är desamma som för den vanliga Cells.CopyColumns-metoden. Den sista parametern av typen int anger dock antalet destinationskolumner som källkolumnerna måste upprepas på.
+### **Överlagrad metod Cells.CopyColumns tillagd**
+Aspose.Cells for .NET 8.4.2 har exponerat en överlagrad version av Cells.CopyColumns-metoden för att upprepa källkolumnerna på destinationen. Den nyexponerade metoden accepterar totalt 5 parametrar, där de första 4 parametrarna är desamma som Cells.CopyColumns-metoden. Men den sista parametern av typen int specifierar antalet destinationsspalter på vilka källspalterna ska upprepas.
 
-Följande kodavsnitt visar hur man använder den nyligen exponerade metoden Cells.CopyColumns.
+Följande kodsnutt visar hur man använder den nyexponerade Cells.CopyColumns-metoden.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -112,17 +113,17 @@ workbook.Save(output);
 {{< /highlight >}}
 
 
-### **Uppräkningsfält PasteType.Default & PasteType.DefaultExceptBorders har lagts till**
-Med lanseringen av v8.4.2 har Aspose.Cells API lagt till 2 nya uppräkningsfält för PasteType som beskrivs nedan.
+### **Enumerationsfälten PasteType.Default & PasteType.DefaultExceptBorders tillagda**
+Med frisläppandet av v8.4.2 har Aspose.Cells API lagt till 2 nya uppräkningsfält för PasteType enligt detaljerna nedan.
 
-- PasteType.Default: Fungerar liknande Excels "Alla"-funktion för att klistra in cellintervall.
-- PasteType.DefaultExceptBorders: Fungerar liknande Excels "Alla utom gränser"-funktionalitet för att klistra in cellintervall.
+- PasteType.Default: Fungerar liknande Excel's "All"-funktionalitet för att klistra in område med celler.
+- PasteType.DefaultExceptBorders: Fungerar liknande Excel's "All except borders" funktion för att klistra in området med celler.
 
-Följande exempelkod visar användningen av fältet PasteType.Default.
+Följande kodexempel demonstrerar användningen av fältet PasteType.Default.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -154,6 +155,6 @@ workbook.Save(output);
 
 {{% alert color="primary" %}} 
 
-Från och med lanseringen av Aspose.Cells for .NET 8.4.2, uppförde uppräkningen PasteType.All sig annorlunda jämfört med Excels "Alla"-funktion för att klistra in cellintervall. Nu kopierar PasteType.All också kolumnbredderna till destinationsintervallet i motsats till Excels "Alla"-funktionalitet. För att efterlikna Excels "Alla" beteende, använd PasteType.Default.
+Från och med släppet av Aspose.Cells for .NET 8.4.2, beter sig uppräkningfältet PasteType.All annorlunda jämfört med Excels "All" funktionalitet vid att klistra in området med celler. Nu kopierar PasteType.All även kolumnbredderna till destinationsområdet istället för Excels "All" funktionalitet. För att härma Excels "All" beteende, vänligen använd PasteType.Default.
 
 {{% /alert %}}

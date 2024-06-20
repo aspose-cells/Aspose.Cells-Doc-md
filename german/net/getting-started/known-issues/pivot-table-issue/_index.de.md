@@ -1,19 +1,20 @@
-﻿---
-title: Pivot-Tabellenproblem
+---
+title: Pivot Tabellenproblem
 type: docs
 weight: 50
 url: /de/net/pivot-table-issue/
 ---
+
 ## **Symptom**
-"Ich habe versucht, die generierte Excel-Datei über die Schaltfläche "Öffnen" des IE zu öffnen. Die Excel-Datei wurde durch Lesen einer Excel-Vorlage generiert. Während ich auf die Schaltfläche "Öffnen" klicke, wird sie geöffnet und gleichzeitig erscheint sie Fehlermeldung "Kann Pivot-Tabellen-Quelldatei nicht öffnen.....".
+„Ich habe versucht, die generierte Excel-Datei über die Schaltfläche „Öffnen“ des IE zu öffnen. Die Excel-Datei wurde durch das Lesen einer Excel-Vorlage generiert. Wenn ich auf die Schaltfläche Öffnen klicke, öffnet sie sich und gleichzeitig wird eine Fehlermeldung angezeigt, die besagt: „Pivot-Tabellenquellendatei kann nicht geöffnet werden.....“.
 
-Aber wenn ich die generierte Excel-Datei mit der Schaltfläche "Speichern" speichere und sie aus der Datei aus dem gespeicherten Pfad öffne, wird sie ohne Fehler ordnungsgemäß geöffnet. "
+Aber wenn ich die generierte Excel-Datei mit der Schaltfläche „Speichern“ speichere und sie dann über den gespeicherten Pfad öffne, wird sie ohne Fehler ordnungsgemäß geöffnet.
 ### **Lösung**
-Aspose.Cells legt das Pivot-Datenformat fest und zwingt MS Excel, Pivot-Tabellenberichte und andere Berechnungsaufgaben basierend auf der Datenquelle zu erstellen, wenn die Arbeitsmappe in MS Excel geöffnet wird. Also sollte man verwenden**SaveType.OpenInBrowser** anstatt zu verwenden**SaveType.OpenInExcel**Einer der vielen Gründe ist, dass MS Excel die Arbeitsmappendaten nicht parsen konnte, um einen Pivot-Tabellenbericht zu erstellen, wenn Sie die OpenInExcel-Option verwenden, während Sie die generierte Ausgabedatei zur Laufzeit in MS Excel speichern, indem Sie die Schaltfläche „Öffnen“ des Download-Dialogfelds verwenden. Dies wird durch das Dateinamenproblem verursacht. Es ist die Routine von IE, da es so etwas wie "[1]" anhängt, um es als "Dateiname" + "[1]" + ".xls" an den ursprünglichen Namen und somit nichts zu machen tun mit Aspose.Cells. (dh ... es fügt immer "[1]" hinzu, um "Dateiname" + "[1]" + ".xls" zu machen und nicht wie Dateiname.xls). Kurz gesagt, wenn eine Datei eine Pivot-Tabelle enthält, kann sie nicht mit der OpenInExcel SaveType-Option geöffnet werden, und dies gilt für beide, dh wenn Sie die Datei von Grund auf neu erstellen oder eine Vorlagendatei für Quelldaten verwenden, um einen Pivot-Tabellenbericht zu erstellen. Sie sollten also die OpenInBrowser SaveType-Option verwenden, wenn die Datei Pivot-Tabellendaten enthält, um einen Pivot-Tabellenbericht zu erstellen.
+Aspose.Cells setzt das Pivot-Datenformat und zwingt MS Excel, den Pivot-Tabellenbericht und andere Berechnungsaufgaben basierend auf der Datenquelle zu erstellen, wenn die Arbeitsmappe in MS Excel geöffnet wird. Daher sollte man **SaveType.OpenInBrowser** verwenden, anstatt **SaveType.OpenInExcel** zu verwenden. Einer der vielen Gründe ist, wenn Sie beim Speichern der generierten Ausgabedatei in MS Excel zur Laufzeit über die Schaltfläche "Öffnen" des Download-Dialogfelds die Option OpenInExcel verwenden, kann MS Excel die Arbeitsbuchdaten nicht parsen, um den Pivot-Tabellenbericht zu generieren. Dies wird durch das Dateinamenproblem verursacht. Es ist die Routine des IE, da er etwas wie "[1]" hinzufügt, um es als "Dateiname"+"[1]"+".xls" zum ursprünglichen Namen zu machen und somit nichts mit Aspose.Cells zu tun hat. (d.h. es fügt immer "[1]" hinzu, um "Dateiname"+"[1]"+".xls" zu machen und nicht wie dateiname.xls). Kurz gesagt, wenn eine Datei eine Pivot-Tabelle enthält, kann sie nicht mit der Option SaveType.OpenInExcel geöffnet werden, und das gilt sowohl dafür, ob Sie die Datei von Grund auf erstellen oder eine Vorlagendatei für die Quelldaten verwenden, um den Pivot-Tabellenbericht zu erstellen. Daher sollte die SaveType-Option OpenInBrowser verwendet werden, wenn die Datei Pivot-Tabellendaten enthält, um den Pivot-Tabellenbericht zu erstellen.
 
-Sie sollten Ihren Code ändern und auf SaveType.OpenInBrowser aktualisieren, wenn Sie die Methode Workbook.Save() verwenden
+Sie sollten Ihren Code ändern und auf SaveType.OpenInBrowser aktualisieren, wenn Sie die Workbook.Save() Methode verwenden.
 
-Oder bearbeiten Sie Ihren Code so, dass er „inline“ verwendet, wenn Sie die Option „Anhang“ in Ihrem Code verwenden. dh
+Oder bearbeiten Sie Ihren Code, um "inline" zu verwenden, wenn Sie die Option "Anhang" in Ihrem Code verwenden. d.h.
 
 
 

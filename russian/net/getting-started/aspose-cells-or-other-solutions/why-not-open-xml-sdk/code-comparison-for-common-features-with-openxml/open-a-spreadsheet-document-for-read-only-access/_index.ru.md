@@ -1,11 +1,12 @@
-﻿---
-title: Открытие табличного документа для доступа только для чтения
+---
+title: Открыть документ таблицы только для чтения
 type: docs
 weight: 100
 url: /ru/net/open-a-spreadsheet-document-for-read-only-access/
 ---
-## **Опенксмл Excel**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -39,7 +40,7 @@ using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Open(filepa
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -61,7 +62,7 @@ public static void OpenSpreadsheetDocumentReadonly(string filepath)
 
 
 {{< /highlight >}}
-## **Скачать пример работающего кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+## **Скачать пример выполнения кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
 ## **Образец кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Open%20read-only%20access)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Open%20read-only%20access)

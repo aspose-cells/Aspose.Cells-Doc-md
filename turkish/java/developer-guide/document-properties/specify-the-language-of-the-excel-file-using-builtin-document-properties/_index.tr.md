@@ -1,19 +1,20 @@
-﻿---
-title: Yerleşik Belge Özelliklerini Kullanarak Excel Dosyasının Dilini Belirtin
+---
+title: Dahili Belge Özelliklerini Kullanarak Excel Dosyasının Dilini Belirtme
 type: docs
 weight: 30
 url: /tr/java/specify-the-language-of-the-excel-file-using-builtin-document-properties/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-değiştirebilirsiniz*Dil*Dosyayı sağ tıklatarak ve ardından seçerek Excel dosyasının*Özellikler > Ayrıntılar*ve ardından düzenleme*Dil*tarla. Lütfen kullan[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)Aspose.Cells API'leri kullanarak programlı olarak değiştirmek için özellik.
+Excel dosyasının *Dilini* değiştirebilirsiniz sağ tıklayarak ve ardından *Özellikler > Ayrıntılar* seçeneğini belirleyerek ve ardından *Dil* alanını düzenleyerek. Lütfen Aspose.Cells API'larını kullanarak bunu programlı olarak değiştirmek için [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language) özelliğini kullanın.
 
-## **Yerleşik Belge Özelliklerini Kullanarak Excel Dosyasının Dilini Belirtin**
+## **Dahili Belge Özelliklerini Kullanarak Excel Dosyasının Dilini Belirtme**
 
-Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve adlı yerleşik belge özelliğini değiştirir.*Dil*. Lütfen bkz[çıktı excel dosyası](outputSpecifyLanguageOfExcelFile.xlsx)değiştirileni gösteren kod ve ekran görüntüsü tarafından oluşturulur*Dil*tarafından alan[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)Emlak.
+Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve *Dil* adlı yerleşik belge özelliğini değiştirir. Lütfen kod tarafından oluşturulan [çıktı Excel dosyasını](outputSpecifyLanguageOfExcelFile.xlsx) inceleyin ve [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language) özelliği ile değiştirilen *Dil* alanını gösteren ekran görüntüsünü görün.
 
-![yapılacaklar:resim_alternatif_metin](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+![todo:image_alt_text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.java" >}}

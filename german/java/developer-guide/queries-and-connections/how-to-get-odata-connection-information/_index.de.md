@@ -1,16 +1,17 @@
-﻿---
-title: So erhalten Sie OData-Verbindungsinformationen
+---
+title: Wie man OData Verbindungsinformationen abruft
 type: docs
 weight: 60
 url: /de/java/how-to-get-odata-connection-information/
 ---
-## **Rufen Sie OData-Verbindungsinformationen ab**
 
-Es kann Fälle geben, in denen Entwickler OData-Informationen aus der Excel-Datei extrahieren müssen. Aspose.Cells bietet die[**Arbeitsmappe.DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup)-Eigenschaft, die die in der Excel-Datei vorhandenen DataMashup-Informationen zurückgibt. Diese Informationen werden durch die DataMashup-Klasse dargestellt. Die DataMashup-Klasse stellt die PowerQueryFormulas-Eigenschaft bereit, die die PowerQueryFormulaCollction-Auflistung zurückgibt. Über PowerQueryFormulaCollction erhalten Sie Zugriff auf PowerQueryFormula und PowerQueryFormulaItem.
+## **OData-Verbindungsinformationen abrufen**
 
-Der folgende Codeausschnitt veranschaulicht die Verwendung dieser Klassen zum Abrufen der OData-Informationen.
+Es kann vorkommen, dass Entwickler OData-Informationen aus der Excel-Datei extrahieren müssen. Aspose.Cells bietet die Eigenschaft [**Workbook.DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup), die die im Excel-File vorhandenen Datenmashup-Informationen zurückgibt. Diese Informationen werden durch die Klasse DataMashup dargestellt. Die Klasse DataMashup bietet die Eigenschaft PowerQueryFormulas, die die PowerQueryFormulaCollction-Sammlung zurückgibt. Aus der PowerQueryFormulaCollction können Sie auf PowerQueryFormula und PowerQueryFormulaItem zugreifen.
 
-Die im folgenden Codeausschnitt verwendete Quelldatei ist als Referenz beigefügt.
+Der folgende Code-Ausschnitt zeigt die Verwendung dieser Klassen zum Abrufen der OData-Informationen.
+
+Die im folgenden Code-Ausschnitt verwendete Quelldatei ist zur Referenz angehängt.
 
 [Quelldatei](ODataSample.xlsx)
 
@@ -20,12 +21,16 @@ Die im folgenden Codeausschnitt verwendete Quelldatei ist als Referenz beigefüg
 
 ### **Konsolenausgabe**
 
-Verbindungsname: Bestellungen
+{{< highlight java >}}
 
-Name: Quelle
+Connection Name: Orders
 
-Wert: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
+Name: Source
+
+Value: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
 
 Name: Orders_table
 
-Wert: Quelle{[Name="Orders",Signature="table"]}[Daten]
+Value: Source{[Name="Orders",Signature="table"]}[Data]
+
+{{< /highlight >}}

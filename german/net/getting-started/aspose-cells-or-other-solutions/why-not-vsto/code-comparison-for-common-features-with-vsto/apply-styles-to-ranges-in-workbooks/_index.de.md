@@ -1,12 +1,13 @@
-﻿---
-title: Wenden Sie Stile auf Bereiche in Arbeitsmappen an
+---
+title: Styles auf Bereiche in Arbeitsmappen anwenden
 type: docs
 weight: 40
 url: /de/net/apply-styles-to-ranges-in-workbooks/
 ---
-Nachfolgend finden Sie den Codevergleich zum Anwenden von Stilen auf Zeilen und Spalten von Arbeitsmappen:
+
+Im Folgenden finden Sie den Code-Vergleich zur Anwendung von Stilen auf Zeilen und Spalten von Arbeitsmappen:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -30,7 +31,7 @@ Nachfolgend finden Sie den Codevergleich zum Anwenden von Stilen auf Zeilen und 
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -81,5 +82,5 @@ Nachfolgend finden Sie den Codevergleich zum Anwenden von Stilen auf Zeilen und 
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Download**
+## **Herunterladen**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)

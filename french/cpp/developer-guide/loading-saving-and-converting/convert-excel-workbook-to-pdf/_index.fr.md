@@ -4,44 +4,45 @@ type: docs
 weight: 80
 url: /fr/cpp/convert-excel-workbook-to-pdf/
 ---
-##  **Conversion du classeur Excel en PDF**
-Les fichiers PDF sont largement utilisés pour échanger des documents entre des organisations, des secteurs gouvernementaux et des particuliers. Il s'agit d'un format de document standard et il est souvent demandé aux développeurs de logiciels de trouver un moyen de convertir des fichiers Excel Microsoft en documents PDF.
 
-Aspose.Cells prend en charge la conversion de fichiers Excel en PDF et maintient une haute fidélité visuelle lors de la conversion.
+## **Conversion du classeur Excel en PDF**
+Les fichiers PDF sont largement utilisés pour échanger des documents entre les organisations, les secteurs gouvernementaux et les particuliers. Il s'agit d'un format de document standard et les développeurs de logiciels sont souvent invités à trouver un moyen de convertir des fichiers Microsoft Excel en documents PDF.
+
+Aspose.Cells prend en charge la conversion de fichiers Excel en PDF et maintient une haute fidélité visuelle dans la conversion.
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells écrit directement les informations sur API et le numéro de version dans les documents de sortie. Par exemple, lors du rendu du document vers PDF, Aspose.Cells for C++ remplit le champ**Application** champ avec la valeur 'Aspose.Cells' et**PDF Producteur** champ avec une valeur, par exemple « Aspose.Cells v18.5.0 ».
+Aspose.Cells écrit directement les informations sur l'API et le numéro de version dans les documents de sortie. Par exemple, lors du rendu du document en PDF, Aspose.Cells for C++ remplit le champ **Application** avec la valeur 'Aspose.Cells' et le champ **Producteur PDF** avec la valeur, par exemple 'Aspose.Cells v18.5.0'.
 
-Veuillez noter que vous ne pouvez pas demander au Aspose.Cells for C++ de modifier ou de supprimer ces informations des documents de sortie.
+Veuillez noter que vous ne pouvez pas demander à Aspose.Cells for C++ de modifier ou de supprimer ces informations des documents de sortie.
 
 {{% /alert %}} 
-###  **Conversion directe**
-Aspose.Cells prend en charge la conversion des feuilles de calcul vers PDF indépendamment des autres logiciels. Enregistrez simplement un fichier Excel au PDF en utilisant le[Cahier d'exercices](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)classe'[Sauvegarder](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)méthode. Le[Sauvegarder](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)la méthode fournit le[EnregistrerFormat_Pdf](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/)membre d'énumération qui convertit les fichiers Excel natifs au format PDF.
+### **Conversion directe**
+Aspose.Cells prend en charge la conversion des feuilles de calcul en PDF indépendamment des autres logiciels. Il suffit de sauvegarder un fichier Excel au format PDF en utilisant la [Classe Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) et sa méthode [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/). La méthode [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) fournit un membre d'énumération [SaveFormat_Pdf](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/) qui convertit les fichiers Excel natifs au format PDF.
 
-Suivez les étapes ci-dessous pour convertir directement les feuilles de calcul Excel au format PDF :
+Suivez les étapes ci-dessous pour convertir directement les feuilles de calcul Excel au format PDF :
 
-1.  Instancier un objet du[Cahier d'exercices](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)classe en appelant son constructeur vide.
-1. Vous pouvez ouvrir/charger un fichier modèle existant ou ignorer cette étape si vous créez le classeur à partir de zéro.
-1. Effectuez tout travail (saisie de données, application d'un formatage, définition de formules, insertion d'images ou d'autres objets de dessin, etc.) sur la feuille de calcul à l'aide des API Aspose.Cells.
-1.  Lorsque le code de la feuille de calcul est terminé, appelez le[Cahier d'exercices](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)classe'[Sauvegarder](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)méthode pour enregistrer la feuille de calcul.
+1. Instanciez un objet de la [Classe Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) en appelant son constructeur vide.
+1. Vous pouvez ouvrir/charger un fichier de modèle existant ou sauter cette étape si vous créez le classeur à partir de zéro.
+1. Effectuez les travaux (saisie de données, application de mise en forme, définition de formules, insertion d'images ou d'autres objets graphiques, etc.) sur la feuille de calcul à l'aide des API Aspose.Cells.
+1. Lorsque le code de la feuille de calcul est terminé, appelez la méthode [Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/) de la classe Workbook pour sauvegarder la feuille de calcul.
 
-Le format de fichier doit être PDF, alors sélectionnez PDF pertinent (une valeur prédéfinie) dans l'énumération SaveFormat pour générer le document final PDF.
+Le format de fichier doit être PDF, sélectionnez donc PDF (comme valeur prédéfinie) dans l'énumération SaveFormat pour générer le document PDF final.
 
- Veuillez consulter l'exemple de code suivant, son[exemple de fichier Excel](67338368.xlsx) et[sortie PDF](67338369.pdf) pour votre référence.
+Veuillez consulter le code d'exemple suivant, son [fichier Excel d'exemple](67338368.xlsx) et le [PDF de sortie](67338369.pdf) pour votre référence.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_DirectConversion-new.cpp" >}}
-###  **Conversion avancée**
-Vous pouvez également choisir d'utiliser le[Options d'enregistrement PDF](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/)classe pour définir différents attributs pour la conversion. Définition de différentes propriétés du**Options d'enregistrement PDF** La classe vous donne le contrôle sur les paramètres d'impression, de police, de sécurité et de compression pour la sortie PDF. La propriété la plus importante est[Définir la conformité](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/setcompliance/)qui vous permet d'enregistrer les fichiers Excel dans des fichiers PDF/A conformes à la norme PDF.
-####  **Enregistrement du classeur dans les fichiers conformes PDF/A**
-L'extrait de code suivant montre comment utiliser le**Options d'enregistrement PDF**classe pour enregistrer des fichiers Excel au format PDF/A conforme à PDF
+### **Conversion avancée**
+Vous pouvez également choisir d'utiliser la classe [PdfSaveOptions](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/) pour définir différentes propriétés pour la conversion. Le réglage des différentes propriétés de la classe **PdfSaveOptions** vous donne le contrôle sur les paramètres d'impression, de police, de sécurité et de compression pour le PDF de sortie. La propriété la plus importante est [SetCompliance](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/setcompliance/) qui vous permet de sauvegarder les fichiers Excel au format PDF/A conforme.
+#### **Enregistrement du classeur en fichiers conformes PDF/A**
+Le code ci-dessous montre comment utiliser la classe **PdfSaveOptions** pour sauvegarder les fichiers Excel au format PDF/A conforme
 
- Veuillez consulter l'exemple de code suivant et son[sortie PDF](67338370.pdf) pour votre référence.
+Veuillez consulter le code d'exemple suivant et son [PDF de sortie](67338370.pdf) pour votre référence.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_A_CompliedFiles-new.cpp" >}}
-####  **Définir l'heure de création PDF**
-Avec le**IPdfSaveOptions** classe, vous pouvez obtenir ou définir l’heure de création PDF.
+#### **Définir l'heure de création du PDF**
+Avec la classe **IPdfSaveOptions**, vous pouvez obtenir ou définir l'heure de création du PDF.
 
- Veuillez consulter l'exemple de code suivant et son[sortie PDF](67338371.pdf) pour votre référence.
+Veuillez consulter le code d'exemple suivant et son [PDF de sortie](67338371.pdf) pour votre référence.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}

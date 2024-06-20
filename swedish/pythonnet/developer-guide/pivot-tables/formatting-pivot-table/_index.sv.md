@@ -1,66 +1,67 @@
 ---
-title: Formatera pivottabell
+title: Formatera Pivot tabell
 type: docs
 weight: 10
-url: /sv/net/formatting-pivot-table/
-description: Hur man formaterar pivottabellen med Aspose.Cells for Python via .NET.
-keywords: Format pivot table.
+url: /sv/python-net/formatting-pivot-table/
+description: Hur man formaterar pivot tabell med Aspose.Cells för Python via .NET.
+keywords: Formatera pivot tabell.
 ---
-##  **Pivottabellens utseende**
 
-Hur man skapar en pivottabell förklarar hur man skapar en enkel pivottabell. Den här artikeln beskriver hur du anpassar en pivottabells utseende genom att ställa in olika egenskaper:
+## **Pivottabellens utseende**
 
-- Alternativ för pivottabellformat
-- Formatalternativ för pivotfält
-- Formatalternativ för datafält
+Hur man skapar en pivottabell förklarar hur man skapar en enkel pivottabell. Den här artikeln beskriver hur man anpassar en pivottabells utseende genom att ställa in olika egenskaper:
 
-###  **Ställa in alternativ för pivottabellformat**
+- Pivottabellformatalternativ
+- Alternativ för pivottabellfältformat
+- Alternativ för datafältformat
 
- De[**Pivottabell**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/)klass styr den övergripande pivottabellen och kan formateras på ett antal sätt.
+### **Hur man ställer in pivottabellsformatalternativ**
 
-####  **Ställa in AutoFormat Type**
+Klassen [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/) kontrollerar den övergripande pivottabellen och kan formateras på olika sätt.
 
-Microsoft Excel erbjuder ett antal olika förinställda rapportformat. Aspose.Cells for Python via .NET stöder även dessa formateringsalternativ. Så här kommer du åt dem:
+#### **Hur man ställer in automatiskt format typ**
 
-1.  Uppsättning[**PivotTable.is_auto_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_auto_format/)till *sant**.
-1.  Tilldela ett formateringsalternativ från[**PivotTableAutoFormatType**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottableautoformattype/)uppräkning.
+Microsoft Excel erbjuder olika förinställda rapportformat. Aspose.Cells för Python via .NET stöder också dessa formateringsalternativ. För att komma åt dem:
+
+1. Ställ in [**PivotTable.is_auto_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_auto_format/) till **true**.
+1. Tilldela ett formateringsalternativ från uppräkningen [**PivotTableAutoFormatType**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottableautoformattype/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingAutoFormat-1.py" >}}
 
-####  **Ställa in formatalternativ**
+#### **Hur man ställer in formateringsalternativ**
 
-Kodexemplet nedan visar hur man formaterar pivottabellen för att visa totalsummor för rader och kolumner, och hur man ställer in rapportens fältordning. Den visar också hur man ställer in en kundsträng för nollvärden.
+Kodprovet nedan visar hur man formaterar pivottabellen för att visa totaler för rader och kolumner, och hur man ställer in rapportens fältsortering. Det visar också hur man ställer in en anpassad sträng för nollvärden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingFormatOptions-1.py" >}}
 
-####  **Formatera utseende och känsla manuellt**
+#### **Manuell formatering av utseende**
 
-För att formatera hur pivottabellsrapporten ser ut manuellt, istället för att använda förinställda rapportformat, använd[**PivotTable.format_all(stil)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) och[**PivotTable.format(rad, kolumn, stil)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/)metoder. Skapa ett stilobjekt för önskad formatering, till exempel:
+För att manuellt formatera hur pivottabelrapporten ser ut, istället för att använda förinställda rapportformat, använd [**PivotTable.format_all(style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/)- och [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/)-metoderna. Skapa en stilobjekt för önskad formatering, till exempel:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-FormattingLook-1.py" >}}
 
-###  **Ställa in alternativ för pivotfältsformat**
+### **Hur man ställer in pivottabellsfältformatalternativ**
 
- De[**Pivotfält**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/)klass representerar ett fält i en pivottabell och kan formateras på ett antal sätt. Kodexemplet nedan visar hur du:
+Klassen [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/) representerar ett fält i en pivottabell och kan formateras på olika sätt. Kodprovet nedan visar hur man:
 
-- Få tillgång till radfält.
-- Ställa in delsummor.
-- Ställa in autosort.
-- Ställa in autoshow.
+- Tillgång till radfält.
+- Inställning av delsummer.
+- Inställning av autosortering.
+- Inställning av autoshow.
 
-####  **Ställa in format för rad/kolumn/sidfält**
+#### **Hur man ställer in rad/kolumn/sida fältformat**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingPageFieldFormat-1.py" >}}
 
-###  **Ställa in format för datafält**
+### **Hur man ställer in datafältformat**
 
-Kodexemplet nedan visar hur man ställer in visningsformat och talformat för datafält.
+Kodprovet nedan visar hur man ställer in visningsformat och nummerformat för datafält.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingDataFieldFormat-1.py" >}}
 
-###  **Rensa pivotfält**
+### **Hur man rensar pivottabellsfält**
 
- De[**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/) har en metod som heter[**clear()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#)som låter dig rensa pivotfält. Använd den när du vill rensa alla pivotfält i områdena, till exempel sida, kolumn, rad eller data.
-Kodexemplet nedan visar hur man rensar alla pivotfält i ett dataområde.
+Klassen [**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/) har en metod som heter [**clear()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#) som låter dig rensa pivottabellsfält. Använd den när du vill rensa alla pivottabellfält i områdena, till exempel sida, kolumn, rad eller data.
+Kodprovet nedan visar hur man rensar alla pivottabellfält i ett dataområde.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}

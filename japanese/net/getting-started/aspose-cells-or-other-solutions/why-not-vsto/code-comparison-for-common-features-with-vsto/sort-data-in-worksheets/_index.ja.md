@@ -1,12 +1,13 @@
-﻿---
-title: ワークシートのデータを並べ替える
+---
+title: ワークシートのデータをソートする
 type: docs
 weight: 230
 url: /ja/net/sort-data-in-worksheets/
 ---
-以下は、VSTO と Aspose.Cells の比較コード例です。
+
+VSTOおよびAspose.Cellsの比較コード例を以下に示します。
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -36,7 +37,7 @@ url: /ja/net/sort-data-in-worksheets/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

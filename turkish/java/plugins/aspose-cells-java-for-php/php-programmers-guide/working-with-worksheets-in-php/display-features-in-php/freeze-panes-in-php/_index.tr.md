@@ -1,15 +1,16 @@
-﻿---
-title: Php'de Bölmeleri Dondur
+---
+title: Php de Pencereleri Sabitle
 type: docs
 weight: 40
 url: /tr/java/freeze-panes-in-php/
 ---
-## **Aspose.Cells - Bölmeleri Dondur**
- Kullanarak Elektronik Tablo Belgesindeki Bölmeleri Dondurmak için**Aspose.Cells Java for PHP** , sadece çağırmak**Donma bölmeleri** modül.
 
-**PHP Kodu**
+## **Aspose.Cells - Panoları Sabitleme**
+**Aspose.Cells Java for PHP** kullanarak Elektronik Tablo Belgesinde Pencereleri Sabitlemek için **FreezePanes** modülünü sadece çağırın.
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -31,6 +32,6 @@ $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Bölmeleri Dondur (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Aspose.Cells** ile Panoları Sabitleme'yi indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)

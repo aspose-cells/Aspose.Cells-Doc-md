@@ -1,57 +1,58 @@
-﻿---
-title: lisanslama
+---
+title: Lisanslama
 type: docs
 weight: 50
 url: /tr/python-java/licensing/
 ---
+
 {{% alert color="primary" %}} 
 
- değerlendirme sürümünü yükleyebilirsiniz.**Aspose.Cells** for Python via Java ile `pip install aspose-cells`. Değerlendirme sürümü, ürünün lisanslı sürümü ile tamamen aynı yetenekleri sağlar. Ayrıca, bir lisans satın aldığınızda ve lisansı uygulamak için birkaç satır kod eklediğinizde, değerlendirme sürümü kolayca lisanslanır.
+**Aspose.Cells** için Python via Java sürümünü `pip install aspose-cells` komutu ile yükleyebilirsiniz. Değerlendirme sürümü, ürünün lisanslı sürümü ile tamamen aynı yetenekleri sağlar. Ayrıca, değerlendirme sürümü, bir lisans satın aldığınızda ve lisansı uygulamak için birkaç satır kod eklediğinizde basitçe lisanslı hale gelir.
 
- Değerlendirmenizden memnun olduğunuzda**Aspose.Cells** , yapabilirsin[lisans satın al](https://purchase.aspose.com)Aspose web sitesinde. Sunulan farklı abonelik türleri hakkında bilgi sahibi olun. Herhangi bir sorunuz varsa, Aspose satış ekibiyle iletişime geçmekten çekinmeyin.
+**Aspose.Cells** değerlendirmenizden memnun kalırsanız, Aspose web sitesinden [lisans satın alabilirsiniz](https://purchase.aspose.com). Sunulan farklı abonelik türleri hakkında bilgi edinin. Herhangi bir sorunuz varsa, Aspose satış ekibiyle iletişime geçmekten çekinmeyin.
 
-Her Aspose lisansı, bu süre içinde çıkan tüm yeni sürümlere veya düzeltmelere ücretsiz yükseltmeler için bir yıllık abonelik içerir. Teknik destek ücretsiz ve sınırsızdır ve hem lisanslı hem de değerlendirme kullanıcılarına sağlanır.
+Her Aspose lisansı, bu süre zarfında ortaya çıkan yeni sürümlere veya düzeltmelere ücretsiz yükseltmeler için bir yıllık abonelik içerir. Teknik destek, lisanslı ve değerlendirme kullanıcılara ücretsiz ve sınırsız olarak sağlanır.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- test etmek istersen**Aspose.Cells** değerlendirme sürümü sınırlamaları olmadan, 30 günlük bir geçici lisans talep edin. Bakınız[Geçici Lisans nasıl alınır?](https://purchase.aspose.com/temporary-license) daha fazla bilgi için.
+**Aspose.Cells**'i değerlendirme sınırlamaları olmadan test etmek istiyorsanız, 30 günlük geçici bir lisans isteyin. Daha fazla bilgi için [Geçici Lisans Nasıl Alınır?](https://purchase.aspose.com/temporary-license) sayfasına başvurun.
 
 {{% /alert %}}
 
-## **Değerlendirme Sürümü Sınırlamaları**
+## **Değerlendirme Sürümü Kısıtlamaları**
 
- değerlendirme versiyonu**Aspose.Cells** ürün (belirtilen bir lisans olmadan), tam ürün işlevselliği sağlar, ancak bir programda 100 dosya ve değerlendirme filigranlı fazladan bir çalışma sayfası açmakla sınırlıdır.
+Lisans belirtilmeden **Aspose.Cells** ürününün değerlendirme sürümü, tam ürün işlevselliği sağlar, ancak bir programda 100 dosyayı açmak ve ek bir çalışma sayfası ile sınırlıdır.
 
 Sınırlamalar aşağıda gösterilmiştir:
 
 ### **1. Sınırlama: Açılan Dosya Sayısı**
 
-Programınızı çalıştırırken sadece 100 Excel dosyası açabilirsiniz. Uygulamanız bu sayıyı aşarsa bir istisna atılır.
+Programınızı çalıştırdığınızda, yalnızca 100 Excel dosyasını açabilirsiniz. Uygulamanız bu sayıyı aşarsa, bir istisna fırlatılacaktır.
 
-### **2. Sınırlama: Değerlendirme Filigranlı Çalışma Sayfası**
+### **2. Sınırlama: Değerlendirme Filigranı ile Çalışma Sayfası**
 
-![yapılacaklar:resim_alternatif_metin](licensing_1.png)
+![todo:image_alt_text](licensing_1.png)
 
-Bu çalışma sayfası her zaman etkin çalışma sayfası olarak gösterilir. Yalnızca lisanslı sürümde, aktif çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz.
+Bu çalışma sayfası her zaman etkin çalışma sayfası olarak gösterilir. Yalnızca lisanslı sürümde etkin çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz.
 
 ## **Lisans Ayarlama**
 
-Lisans, ürün adı, lisanslandığı geliştirici sayısı, abonelik bitiş tarihi gibi ayrıntıları içeren düz metin bir XML dosyasıdır. Dosya dijital olarak imzalanmıştır, bu nedenle dosyayı değiştirmeyin; dosyaya yanlışlıkla fazladan bir satır sonu eklenmesi bile dosyayı geçersiz kılacaktır.
+Lisans, ürün adı, lisanslanan geliştiricilerin sayısı, abonelik bitiş tarihi gibi detayları içeren düz metin XML dosyasıdır. Dosya dijital olarak imzalanmıştır, bu nedenle dosyayı değiştirmeyin; hatta dosyaya yanlışlıkla ek bir satır aralığı eklemek bile geçersiz kılacaktır.
 
-Değerlendirme sınırlamalarından kaçınmak istiyorsanız, Aspose.Cells'i kullanmadan önce bir lisans ayarlamanız gerekir. Uygulama veya işlem başına yalnızca bir kez lisans ayarlamanız gerekir.
+Aspose.Cells kullanmadan önce lisansı ayarlamanız gerekmektedir. Bir uygulama veya işlem başına yalnızca bir kez lisans ayarlamanız gerekmektedir.
 
-Lisans, aşağıdaki konumlardaki bir dosyadan yüklenebilir:
+Lisans, aşağıdaki konumlardan bir dosyadan yüklenebilir:
 
 1. Açık yol.
 1. Çalışma klasörü.
 
- Kullan[Lisans.setLicense](https://reference.aspose.com/cells/python-java/asposecells.api/License) bileşeni lisanslama yöntemi. Genellikle bir lisans ayarlamanın en kolay yolu, lisans dosyasını Aspose.Cells.jar ile aynı klasöre koymak ve aşağıdaki örnekte gösterildiği gibi yolsuz sadece dosya adını belirtmektir:
+Bileşeni lisanslamak için [License.setLicense](https://reference.aspose.com/cells/python-java/asposecells.api/License) yöntemini kullanın. Lisansı ayarlamak için genellikle en kolay yol, lisans dosyasını Aspose.Cells.jar ile aynı klasöre koymak ve sadece dosya adını belirtmektir, yol olmadan aşağıdaki örnekte gösterildiği gibi.
 
-### **Örnek vermek**
+### **Örnek**
 
- Bu örnekte**Aspose.Cells** çalışma klasörünüzdeki lisans dosyasını bulmaya çalışacaktır.
+Bu örnekte **Aspose.Cells**, lisans dosyasını çalışma klasörünüzde bulmaya çalışacaktır.
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 from asposecells.api import License
 

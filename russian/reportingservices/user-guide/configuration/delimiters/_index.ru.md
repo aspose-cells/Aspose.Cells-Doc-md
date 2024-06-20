@@ -1,14 +1,15 @@
-﻿---
+---
 title: Разделители
 type: docs
 weight: 20
 url: /ru/reportingservices/delimiters/
 ---
-Aspose.Cells for Reporting Services поддерживает указанный разделитель при отображении формата TXT или CSV. Две настройки управляют разделителем полей в Aspose.Cells for Reporting Services.
 
-1.  Параметр разделителя полей в**rsreportserver.config** может управлять только указанным расширением рендеринга.
+Aspose.Cells for Reporting Services поддерживает указанный разделитель при отображении формата TXT или CSV. Два параметра управляют разделителем полей в Aspose.Cells for Reporting Services.
 
-{{< highlight "java" >}}
+1. Параметр разделителя полей в **rsreportserver.config** может управлять только определенным расширением отображения. 
+
+{{< highlight java >}}
 
  <Extension Name="ACTXT" Type="Aspose.Cells.ReportingServices.TabDelimitedRenderer,Aspose.Cells.ReportingServices" >
 
@@ -64,9 +65,9 @@ Specified field delimiters configuration reference:
 
 
 
-1.  Параметр разделителя полей в**Aspose.Cells.ReportingServices.xml** может управлять всеми расширениями рендеринга типа TXT.
+1. Параметр разделителя полей в **Aspose.Cells.ReportingServices.xml** может управлять всеми расширениями отображения типа TXT. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 
 
@@ -87,4 +88,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- Параметр разделителя полей в**rsreportserver.config** имеет приоритет над параметром разделителя полей в**Aspose.Cells.ReportingServices.xml** . Когда параметр разделителя полей в**rsreportserver.config** имеет значение null или значение по умолчанию, параметр разделителя полей в**Aspose.Cells.ReportingServices.xml** используется.
+Параметр разделителя полей в **rsreportserver.config** имеет приоритет над параметром разделителя полей в **Aspose.Cells.ReportingServices.xml**. Когда параметр разделителя полей в **rsreportserver.config** равен null или значению по умолчанию, используется параметр разделителя полей в **Aspose.Cells.ReportingServices.xml**.

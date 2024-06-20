@@ -1,23 +1,24 @@
-﻿---
-title: قم بتعيين الخط الافتراضي أثناء عرض جدول البيانات على الصور
+---
+title: تعيين الخط الافتراضي أثناء تقديم جدول البيانات إلى الصور
 type: docs
 weight: 840
 url: /ar/java/set-default-font-while-rendering-spreadsheet-to-images/
 ---
+
 {{% alert color="primary" %}} 
 
- الرجاء استخدام[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) لتعيين الخط الافتراضي أثناء عرض جدول البيانات على الصور. لن تكون هذه الخاصية فعالة إلا عندما يتعذر على الخط الافتراضي للمصنف عرض الأحرف الخاصة بك. الخط الافتراضي المحدد بـ[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) يتم استخدام الخاصية لجميع تلك الخلايا التي تحتوي على خطوط غير صالحة أو غير موجودة.
+الرجاء استخدام خاصية [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) لتعيين الخط الافتراضي أثناء تقديم جدول البيانات إلى الصور. ستكون هذه الخاصية فعالة فقط عندما لا يمكن أن يقوم الخط الافتراضي للدفتر بتقديم الشخصيات الخاصة بك. يتم استخدام الخط الافتراضي المحدد باستخدام الخاصية [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) لجميع تلك الخلايا التي تحتوي على خطوط غير صالحة أو غير موجودة.
 
 {{% /alert %}} 
-## **قم بتعيين الخط الافتراضي أثناء عرض جدول البيانات على الصور**
-يقوم نموذج التعليمات البرمجية التالي بإنشاء مصنف ، ويضيف بعض النص في الخلية A4 من ورقة العمل الأولى ويعين الخط الخاص به على خط غير صالح أو غير موجود. ثم يأخذ صورتين من ورقة العمل. يتم التقاط الصورة الأولى عن طريق ضبط[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) ملكية ل*ساعي جديد* ويتم التقاط الصورة الثانية عن طريق ضبط[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) ملكية ل*تايمز نيو رومان*.
+## **تعيين الخط الافتراضي أثناء تقديم جدول البيانات إلى الصور**
+الكود المرجعي التالي ينشئ دفتر عمل ، يضيف بعض النص في الخلية A4 من الورقة العمل الأولى ويعين خطه إلى خط غير صالح أو غير موجود. ثم يأخذ صورتين من الورقة العمل. تم أخذ الصورة الأولى عن طريق تعيين [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) الخاصية إلى *Courier New* وتم أخذ الصورة الثانية عن طريق تعيين [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) الخاصية إلى *Times New Roman*.
 
- هذه هي صورة الإخراج بعد ضبط ملف[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) ملكية ل*ساعي جديد*.
+هذه هي الصورة الناتجة بعد تعيين [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) الخاصية إلى *Courier New*.
 
-![ما يجب القيام به: image_بديل_نص](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
- هذه هي صورة الإخراج بعد ضبط ملف[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) ملكية ل*تايمز نيو رومان*.
+هذه هي الصورة الناتجة بعد تعيين [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) الخاصية إلى *Times New Roman*.
 
-![ما يجب القيام به: image_بديل_نص](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToImages-.java" >}}

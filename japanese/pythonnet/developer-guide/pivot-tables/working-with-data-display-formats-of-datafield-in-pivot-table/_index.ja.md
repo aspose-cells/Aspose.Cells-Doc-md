@@ -1,25 +1,26 @@
 ---
-title: ピボットテーブルのデータフィールドのデータ表示形式を操作する
+title: ピボットテーブルでのデータフィールドの表示形式を操作する
 type: docs
 weight: 140
 url: /ja/python-net/working-with-data-display-formats-of-datafield-in-pivot-table/
-description: Aspose.Cells for Python via .NET を使用してピボット テーブルのデータフィールドのデータ表示形式を操作する方法。
-keywords: Work with data display formats of DataField in Pivot Table.
+description: Aspose.Cells for Python via .NETでPythonのPivot TableのDataFieldのデータ表示形式をどのように扱うか
+keywords: Aspose.Cells for Python Excel、Excel Pythonライブラリ、PivotテーブルのDataFieldのデータ表示形式を扱う
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET は、DataField のすべてのデータ表示形式をサポートします。
+Aspose.Cells for Python via .NETはすべてのDataFieldのデータ表示形式をサポートしています
 
 {{% /alert %}}
 
-##  **「最小から最大へのランク」および「最大から最小へのランク」表示形式オプション**
+## **「最小から最大へのランク」と「最大から最小へのランク」の表示形式オプションを設定する方法**
 
-Aspose.Cells for Python via .NET は、ピボット フィールドの表示形式オプションを設定する機能を提供します。このために、API は[**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/)財産。最大から最小にランク付けするには、次のように設定できます。[**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/)財産を[**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfielddatadisplayformat/)。次のコード スニペットは、表示形式オプションの設定を示しています。
+Aspose.Cells for Python via .NETでは、ランク最大から最小への表示形式オプションを設定するために、[**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/) プロパティが提供されています。最大から最小へのランクを設定するには、[**PivotField.data_display_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/data_display_format/) プロパティを[**PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfielddatadisplayformat/) に設定することができます。次のコードスニペットは表示形式オプションの設定を示しています。
 
-サンプル コードをテストするために、サンプル ソース ファイルと出力ファイルをここからダウンロードできます。
+サンプルソースと出力ファイルは、テスト用のサンプルコードをダウンロードできます:
 
-[ソース Excel ファイル](101089332.xlsx)
+[ソースExcelファイル](101089332.xlsx)
 
-[Excelファイルの出力](101089333.xlsx)
+[出力Excelファイル](101089333.xlsx)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableDataDisplayFormatRanking-1.py" >}}

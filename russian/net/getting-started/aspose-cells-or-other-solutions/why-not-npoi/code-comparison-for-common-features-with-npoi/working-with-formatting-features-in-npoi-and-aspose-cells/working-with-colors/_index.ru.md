@@ -1,13 +1,14 @@
-﻿---
+---
 title: Работа с цветами
 type: docs
 weight: 20
 url: /ru/net/working-with-colors/
 ---
+
 ## **Aspose.Cells - Работа с цветами**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -53,10 +54,10 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI — HSSF XSSF — Работа с цветами**
+## **NPOI - HSSF XSSF - Работа с цветами**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -102,13 +103,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Работа с цветами** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Работа с цветами** с любого из указанных ниже сайтов для социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Colors.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Colors.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Особенности форматирования данных](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Для получения дополнительной информации посетите [Особенности форматирования данных](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

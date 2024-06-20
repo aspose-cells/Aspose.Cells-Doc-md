@@ -1,16 +1,17 @@
-﻿---
-title: Réglage des options de page dans Python
+---
+title: Configurer les options de la page en Python
 type: docs
 weight: 10
 url: /fr/java/setting-page-options-in-python/
 ---
-## **Aspose.Cells - Paramètres des options de la page**
-### **Orientation des pages**
- Pour appliquer les paramètres d'orientation de la page à l'aide de**Aspose.Cells Java pour rubis** , téléphoner à**page_orientation** méthode de**mise en page** module.
+
+## **Aspose.Cells - Définition des options de page**
+### **Orientation de la page**
+Pour appliquer les paramètres d'orientation de page en utilisant **Aspose.Cells Java pour Ruby**, appelez la méthode **page_orientation** du module **pagesetup**.
 
 **Code Python**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def page_orientation(self):
 
@@ -43,11 +44,11 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **Facteur d'échelle**
- Pour appliquer une mise à l'échelle à l'aide de**Aspose.Cells Java for Python** , téléphoner à**mise à l'échelle** méthode de**mise en page** module.
+Pour appliquer la mise à l'échelle à l'aide d'**Aspose.Cells Java pour Python**, appelez la méthode **scaling** du module **pagesetup**.
 
 **Code Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def scaling(self):        
 
@@ -76,7 +77,7 @@ workbook.save(self.dataDir + "Scaling.xls")
 print "Set scaling, please check the output file."
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Réglage des options de page (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Configurer les options de la page (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

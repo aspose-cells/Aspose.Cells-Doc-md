@@ -1,17 +1,18 @@
 ---
-title: Angeben der benutzerdefinierten DBNum-Musterformatierung
-description: Aspose.Cells ist eine .NET-Bibliothek für die Arbeit mit Tabellenkalkulationsdateien, die die Formatierung von Datumsangaben und Zahlen mithilfe benutzerdefinierter Formatierungsmuster unterstützt. In diesem Artikel erfahren Sie, wie Sie mithilfe der Bibliothek Aspose.Cells das benutzerdefinierte Formatmuster „dbnum“ angeben, damit Benutzer mehr Kontrolle darüber haben, wie Zahlen angezeigt werden.
-keywords: Aspose.Cells, .NET library, electronic spreadsheet, custom format pattern, formatting, 'dbnum', control display
+title: Benutzerdefinierte Musterformatierung für DBNum festlegen
+description: Aspose.Cells ist eine .NET Bibliothek zum Arbeiten mit Tabellendateien, die die Formatierung von Datum und Zahlen mithilfe benutzerdefinierter Formatierungsmuster unterstützt. Dieser Artikel zeigt, wie die Aspose.Cells Bibliothek verwendet werden kann, um das benutzerdefinierte Formatmuster dbnum festzulegen, sodass Benutzer mehr Kontrolle darüber haben, wie Zahlen angezeigt werden.
+keywords: Aspose.Cells, .NET Bibliothek, elektronische Tabellenkalkulation, benutzerdefiniertes Formatmuster, Formatierung, dbnum , Anzeigesteuerung
 type: docs
 weight: 110
 url: /de/net/specifying-dbnum-custom-pattern-formatting/
 ---
-##  **Mögliche Nutzungsszenarien**
 
- Aspose.Cells unterstützt die*DBNum*benutzerdefinierte Musterformatierung. Wenn Ihr Zellenwert beispielsweise 123 ist und Sie die benutzerdefinierte Formatierung als [DBNum2][$-804]Allgemein angeben, wird er wie folgt angezeigt: 壹佰贰拾叁. Sie können Ihre benutzerdefinierte Formatierung der Zelle mit angeben[**Cell.GetStyle()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) Methode und[**Stil.Benutzerdefiniert**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)Eigentum.
+## **Mögliche Verwendungsszenarien**
 
-##  **Beispielcode**
+Aspose.Cells unterstützt die benutzerdefinierte Musterformatierung *DBNum*. Wenn beispielsweise der Zellenwert 123 beträgt und seine benutzerdefinierte Formatierung als [DBNum2][$-804]Allgemein festgelegt wird, wird er wie 壹佰贰拾叁 angezeigt. Sie können die benutzerdefinierte Formatierung der Zelle mithilfe der Methode [**Cell.GetStyle()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) und der Eigenschaft [**Style.Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) festlegen.
 
- Der folgende Beispielcode veranschaulicht die Angabe*DBNum* benutzerdefinierte Musterformatierung. Bitte überprüfen Sie es[Ausgabe PDF](43352081.pdf) für weitere Hilfe.
+## **Beispielcode**
+
+Der folgende Beispielcode verdeutlicht, wie die *DBNum* benutzerdefinierte Musterformatierung festgelegt wird. Bitte überprüfen Sie die [Ausgabepdf](43352081.pdf) für weitere Hilfe.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}

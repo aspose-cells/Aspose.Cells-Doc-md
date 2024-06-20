@@ -1,49 +1,52 @@
-﻿---
-title: GridWeb'i ve Başlık Çubuğunu Yeniden Boyutlandırın
+---
+title: GridWeb Eklemek için Web Formuna Ekle, WYSIWYG kullanarak Aspose.Cells.GridWeb kontrolü boyutlandırıldı. Bu makale, aynı şeyi ama Aspose.Cells.GridWeb API sini çalışma zamanında kullanarak nasıl yapılacağını açıklar. Ayrıca Aspose.Cells.GridWeb kontrolünün başlık çubuklarını okunabilirliği artırmak için boyutlandırmanın nasıl yapılacağını da açıklar.
 type: docs
 weight: 30
-url: /tr/net/resize-gridweb-and-its-header-bar/
+url: /tr/net/aspose-cells-gridweb/resize-gridweb-and-its-header-bar/
+keywords: GridWeb, boyutlandırma
+description: Bu makale, GridWeb de nasıl yeniden boyutlandırılacağını tanıtır.
 ---
-{{% alert color="primary" %}} 
-
-[GridWeb'i Web Formuna Ekleme](/cells/tr/net/add-gridweb-to-web-form/), WYSIWYG kullanarak Aspose.Cells.GridWeb kontrolünün yeniden boyutlandırılması ele alındı. Bu makale aynı şeyi çalışma zamanında Aspose.Cells.GridWeb API kullanarak nasıl yapacağınızı açıklar. Ayrıca, verilerinin daha kolay okunmasını sağlamak için Aspose.Cells.GridWeb kontrolünün başlık çubuklarının nasıl yeniden boyutlandırılacağını açıklar.
-
-{{% /alert %}} 
-## **Aspose.Cells.GridWeb'in Genişlik ve Yüksekliğini Değiştirme**
-Aspose.Cells.GridWeb kontrolünün genişliğini ve yüksekliğini değiştirmek basit ama önemli bir özelliktir. Aspose.Cells.GridWeb denetimi, API'deki GridWeb sınıfı tarafından temsil edilir. GridWeb denetiminin genişlik ve yüksekliğini yeniden boyutlandırmak için, genişlik ve yükseklik özelliklerini kullanmanız yeterlidir.
 
 {{% alert color="primary" %}} 
 
-Kontrolün genişliği ve yüksekliği piksel veya nokta olarak tanımlanabilir.
+[Web Form'a GridWeb Ekle](/cells/tr/net/aspose-cells-gridweb/add-gridweb-to-web-form/) , Aspose.Cells.GridWeb kontrolünü WYSIWYG kullanarak yeniden boyutlandırmayı tartışır. Bu makale, aynı şeyi ancak Aspose.Cells.GridWeb API'sini kullanarak çalışma zamanında nasıl yapılacağını açıklamaktadır. Ayrıca, Aspose.Cells.GridWeb kontrolünün başlık çubuklarını yeniden boyutlandırmayı, verilerini okuma işini daha kolay hale getirmek için nasıl yapılabileceğini açıklar.
+
+{{% /alert %}} 
+## **Aspose.Cells.GridWeb'in Genişliği ve Yüksekliği Değiştirme**
+Aspose.Cells.GridWeb kontrolünün genişliğini ve yüksekliğini değiştirmek basit ancak önemli bir özelliktir. Aspose.Cells.GridWeb kontrolü, API'de GridWeb sınıfı tarafından temsil edilir. GridWeb kontrolünün genişliğini ve yüksekliğini yeniden boyutlandırmak için sadece genişlik ve yükseklik özelliklerini kullanın.
+
+{{% alert color="primary" %}} 
+
+Denetimin genişliği ve yüksekliği piksel veya noktalarda tanımlanabilir.
 
 {{% /alert %}} 
 
-Aşağıdaki kod parçacığının çıktısı aşağıda gösterilmiştir.
+Aşağıdaki kod parçasının çıktısı aşağıda gösterilmiştir.
 
 **GridWeb kontrolünün genişliği ve yüksekliği değiştirildi** 
 
-![yapılacaklar:resim_alternatif_metin](resize-gridweb-and-its-header-bar_1.png)
+![todo:image_alt_text](resize-gridweb-and-its-header-bar_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ResizeGridWeb.aspx-ResizeGridWeb.cs" >}}
-### **Başlık Çubuğunun Genişliğini ve Yüksekliğini Değiştirme**
-Aspose.Cells.GridWeb denetimi aşağıdaki gibi iki başlık çubuğu içerir:
+### **Başlık Çubuğunun Genişliği ve Yüksekliğini Değiştirme**
+Aspose.Cells.GridWeb kontrolü şu şekilde iki başlık çubuğu içerir:
 
-- Üst başlık çubuğu, bu başlık çubuğu A , B , C , D gibi sütunları temsil eder.
-- Sol başlık çubuğu, bu başlık çubuğu satırları 1 , 2 , 3 , 4 vb. olarak temsil eder.
+- Üst başlık çubuğu, bu başlık çubuğu sütunları A, B, C, D gibi temsil eder.
+- Sol başlık çubuğu, bu başlık çubuğu satırları 1, 2, 3, 4 gibi temsil eder.
 
-Bu başlık çubuklarının her ikisi de aşağıda gösterilmiştir.
+Bu başlık çubukları aşağıda gösterilmiştir.
 
 **Başlık çubukları** 
 
-![yapılacaklar:resim_alternatif_metin](resize-gridweb-and-its-header-bar_2.png)
+![todo:image_alt_text](resize-gridweb-and-its-header-bar_2.png)
 
-Sırasıyla GridWeb denetiminin HeaderBarHeight ve HeaderBarWidth özelliklerini kullanarak üst başlık çubuğunun yüksekliğini ve sol başlık çubuğunun genişliğini değiştirin. Aşağıdaki şekil, aşağıdaki kod örneğinin çıktısını göstermektedir.
+GridWeb kontrolünün HeaderBarHeight ve HeaderBarWidth özelliklerini kullanarak üst başlık çubuğunun yüksekliğini ve sol başlık çubuğunun genişliğini değiştirin. Aşağıdaki şekil, aşağıdaki kod örneğinin çıktısını göstermektedir.
 
-**Başlık çubuğunun genişliği ve yüksekliği değiştirildi** 
+**Değiştirilmiş başlık çubuğu genişliği ve yüksekliği** 
 
-![yapılacaklar:resim_alternatif_metin](resize-gridweb-and-its-header-bar_3.png)
+![todo:image_alt_text](resize-gridweb-and-its-header-bar_3.png)
 
 
 

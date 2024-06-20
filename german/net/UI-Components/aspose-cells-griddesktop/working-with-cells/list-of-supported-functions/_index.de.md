@@ -1,109 +1,112 @@
-﻿---
+---
 title: Liste der unterstützten Funktionen
 type: docs
 weight: 10
-url: /de/net/list-of-supported-functions/
+url: /de/net/aspose-cells-griddesktop/list-of-supported-functions/
+keywords: GridDesktop,functions,formula
+description: Dieser Artikel stellt die unterstützten Funktionen in GridDesktop vor.
 ---
-## **Einführung**
-Es gibt viele integrierte Funktionen, die von Aspose.Cells Grid Controls unterstützt werden. Diese Funktionen gehören zu den folgenden Kategorien:
 
-- **Mathematische Funktionen** , bietet eine riesige Menge an Funktionen, die in zahlreichen mathematischen Berechnungen verwendet werden können
-- **Text- und Datenfunktionen** , stellt verschiedene Funktionen bereit, um verschiedene Arten von Operationen mit Text und Daten auszuführen
-- **Datums- und Zeitfunktionen** , bietet einige nützliche Funktionen in Bezug auf Daten und Zeit
-- **Logische Funktionen** , stellt eine kleine Menge logischer Funktionen bereit, um einige logische Operationen an Daten durchzuführen
+## **Einführung**
+Es gibt viele eingebaute Funktionen, die vom Aspose.Cells.GridDesktop Control unterstützt werden. Diese Funktionen gehören zu folgenden Kategorien:
+
+- **Mathematische Funktionen**, bietet eine große Auswahl an Funktionen, die bei zahlreichen mathematischen Berechnungen verwendet werden können
+- **Text- und Datenfunktionen**, bietet verschiedene Funktionen zur Durchführung verschiedener Arten von Operationen mit Text und Daten
+- **Datum- und Zeitfunktionen**, bietet einige nützliche Funktionen im Zusammenhang mit Datum und Zeit
+- **Logische Funktionen**, bietet eine kleine Auswahl an logischen Funktionen zur Durchführung von logischen Operationen mit Daten
 ### **Mathematische Funktionen**
 - CEILING,COMBIN,COS,COSH,COUNTIF
-- GRAD
-- GERADE, EXP
-- FAKT, BODEN
+- DEGREES
+- EVEN,EXP
+- FACT,FLOOR
 - INT
 - LN,LOG,LOG10
 - MOD
-- SELTSAM
-- PI, LEISTUNG, PRODUKT
+- ODD
+- PI,POWER,PRODUCT
 - RADIANS,RAND,ROUND,ROUNDDOWN,ROUNDUP
-- ZEICHEN, SÜNDE, SINH
-- SQRT, SUMME, SUMMEWENN, SUMMENPRODUKT, SUMQ, SUMX2MY2, SUMX2PY2, SUMXMY2
+- SIGN,SIN,SINH
+- SQRT,SUM,SUMIF,SUMPRODUCT,SUMSQ,SUMX2MY2,SUMX2PY2,SUMXMY2
 - TAN,TANH,TRUNC
-### **Text- und Datenfunktionen**
-- ZEICHEN, CODE, VERKETTEN
+### **Text- und Datumsfunktionen**
+- CHAR,CODE,CONCATENATE
 - DOLLAR
-- GENAU
-- FINDEN, BEHOBEN
-- LINKS,LEN,UNTEN
-- MITTEL
-- PASSEN
-- ERSETZEN, ERSETZEN, RECHTS
-- SUCHEN, ERSETZEN
+- EXACT
+- FIND,FIXED
+- LEFT,LEN,LOWER
+- MID
+- MATCH
+- REPLACE,REPT,RIGHT
+- SEARCH,SUBSTITUTE
 - T,TEXT,TRIM
-- OBERER, HÖHER
-- WERT
-- NACHSCHLAGEN
-- SVERWEIS
+- UPPER
+- VALUE
+- LOOKUP
+- VLOOKUP
 - WIDECHAR
 ### **Datums- und Zeitfunktionen**
-- STUNDE
-- MINUTE, MONAT
-- JETZT
-- SEKUNDE
-- ZEIT, HEUTE
-- WOCHENTAG
-- JAHR
+- HOUR
+- MINUTE,MONTH
+- NOW
+- SECOND
+- TIME,TODAY
+- WEEKDAY
+- YEAR
 ### **Logische Funktionen**
-- FALSCH
-- WENN
-- NICHT
-- ODER
-- WAHR
+- FALSE
+- IF
+- NOT
+- OR
+- TRUE
 ### **Neue Funktionen**
-- MINDEST
-- ROW (nur in Aspose.Cells.GridWeb unterstützt)
+- MIN
+- ROW (Nur in Aspose.Cells.GridWeb unterstützt)
 - ROW S (Nur in Aspose.Cells.GridWeb unterstützt)
 - COLUMN (Nur in Aspose.Cells.GridWeb unterstützt)
-- SPALTE S (nur in Aspose.Cells.GridWeb unterstützt)
-- ADRESSE (Nur in Aspose.Cells.GridWeb unterstützt)
-- VERSATZ
-- INDIREKT
+- COLUMN S (Nur in Aspose.Cells.GridWeb unterstützt)
+- ADDRESS (Nur in Aspose.Cells.GridWeb unterstützt)
+- OFFSET
+- INDIRECT
 - ISERR
-- IST NUMMER
-- REINIGEN
-- Renminbi
-- FAKTDOPPELT
+- ISNUMBER
+- CLEAN
+- RMB
+- FACTDOUBLE
 - GCD
 - LCM
-- MRUND
+- MROUND
 - MULTINOMIAL
 - QUOTIENT
-- RANDZWISCHEN
-- SERIESUM
+- RANDBETWEEN
+- SERIESSUM
 - SQRTPI
-- ZWISCHENSUMME
-- ANZAHL
-- GRAF
+- SUBTOTAL
+- COUNT
+- COUNTA
 - INDEX
-- ZELLE
+- CELL
 - MEDIAN
-- FEHLERTYP
-- IST LEER
-- FEHLER
-- ISLOGISCH
+- ERROR.TYPE
+- ISBLANK
+- ISERROR
+- ISLOGICAL
 - ISNA
-- ISTNOTEXT
+- ISNONTEXT
 - ISTEXT
 - ISREF
 - N
-- N / A
-- TYP
-- ZÄHLLEER
-- GROSS
+- NA
+- TYPE
+- COUNTBLANK
+- LARGE
 - MAXA
-- Mina
-- DURCHSCHNITTSA
-- MODUS
-- PERZENTIL
-- PROZENTRANK
-- RANG
-- WÄHLEN
-- HVERWEIS
-- KLEIN (nur in Aspose.Cells.GridWeb unterstützt)
+- MINA
+- AVERAGEA
+- MODE
+- PERCENTILE
+- PERCENTRANK
+- RANK
+- CHOOSE
+- HLOOKUP
+- SMALL (Nur in Aspose.Cells.GridWeb unterstützt)
 

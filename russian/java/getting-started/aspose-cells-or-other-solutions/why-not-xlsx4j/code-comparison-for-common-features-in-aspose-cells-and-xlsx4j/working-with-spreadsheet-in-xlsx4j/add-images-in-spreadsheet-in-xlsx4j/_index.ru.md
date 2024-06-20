@@ -1,15 +1,16 @@
-﻿---
-title: Добавить изображения в электронную таблицу в xlsx4j
+---
+title: Добавление изображений в электронную таблицу в xlsx4j
 type: docs
 weight: 20
 url: /ru/java/add-images-in-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Добавить изображения в электронную таблицу**
-Класс Picture доступен для работы с изображениями на рабочем листе.
+
+## **Aspose.Cells - Добавление изображений в электронную таблицу**
+Класс Picture доступен для работы с изображениями в рабочем листе
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -26,14 +27,14 @@ int pictureIndex = sheet.getPictures().add(5,5, dataDir + "greentick.png");
 Picture picture = sheet.getPictures().get(pictureIndex);
 
 {{< /highlight >}}
-## **xlsx4j — добавление изображений в электронную таблицу**
-Доступен класс рисования для работы с изображениями на рабочем листе.
+## **xlsx4j - Добавление изображений в электронную таблицу**
+Класс Drawing доступен для работы с изображениями в рабочем листе
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "AddImage-Xlsx4j.xlsx";
 
@@ -406,13 +407,13 @@ public static CTDrawing buildDrawingPartContentFromXmlString(String imageRelID) 
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addimage)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addimage)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Добавить гиперссылки на изображения](/java/add-image-hyperlinks).
+Дополнительные сведения см. на странице [Добавление гиперссылок на изображение](/java/add-image-hyperlinks).
 
 {{% /alert %}}

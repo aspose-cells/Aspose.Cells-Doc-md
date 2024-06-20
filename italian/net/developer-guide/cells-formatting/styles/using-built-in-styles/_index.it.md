@@ -1,39 +1,40 @@
-﻿---
-title: Utilizzo degli stili incorporati
+---
+title: Uso degli Stili Incorporati
 type: docs
 weight: 80
 url: /it/net/using-built-in-styles/
-description: C# codice per utilizzare gli stili predefiniti di Excel con Aspose.Cells for .NET API
-keywords: c# use excel built in styles, c# programmatically apply styles in workbook, programmatically apply styles in workbook, c# apply built in styles in excel, c# apply built in styles in workbook, c# code apply built in styles in workbook, c# code apply built in styles in excel workbook
+description: Codice C# per utilizzare gli stili incorporati di Excel con API Aspose.Cells for .NET
+keywords: c# usare stili incorporati di excel, c# applicare stili in modo programmatico nel workbook, applicare stili in modo programmatico nel workbook, c# applicare stili incorporati in excel, c# applicare stili incorporati nel workbook, c# codice applicare stili incorporati nel workbook, c# codice applicare stili incorporati nell excel workbook
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells fornisce una vasta raccolta di stili riutilizzabili per formattare una cella nel documento del foglio di calcolo. Possiamo utilizzare gli stili incorporati nella nostra cartella di lavoro e anche creare stili personalizzati.
+Aspose.Cells fornisce una vasta raccolta di stili riutilizzabili per formattare una cella nel documento di foglio di calcolo. Possiamo utilizzare gli stili incorporati nel nostro workbook e anche creare stili personalizzati.
 
 {{% /alert %}}
 
-## **Come usare gli stili incorporati**
+## **Come utilizzare gli stili incorporati**
 
- Il metodo[**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) e l'enumerazione[**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) rendere conveniente l'uso degli stili incorporati. Ecco un elenco di tutti i possibili stili incorporati:
+Il metodo [**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) e l'enumerazione [**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) rendono comodo l'uso degli stili incorporati. Ecco un elenco di tutti gli stili incorporati possibili:
 
-- VENTI_PER CENTO_ACCENTO_1
-- VENTI_PER CENTO_ACCENTO_2
-- VENTI_PER CENTO_ACCENTO_3
-- VENTI_PER CENTO_ACCENTO_4
-- VENTI_PER CENTO_ACCENTO_5
-- VENTI_PER CENTO_ACCENTO_6
-- QUARANTA_PER CENTO_ACCENTO_1
-- QUARANTA_PER CENTO_ACCENTO_2
-- QUARANTA_PER CENTO_ACCENTO_3
-- QUARANTA_PER CENTO_ACCENTO_4
-- QUARANTA_PER CENTO_ACCENTO_5
-- QUARANTA_PER CENTO_ACCENTO_6
-- SESSANTA_PER CENTO_ACCENTO_1
-- SESSANTA_PER CENTO_ACCENTO_2
-- SESSANTA_PER CENTO_ACCENTO_3
-- SESSANTA_PER CENTO_ACCENTO_4
-- SESSANTA_PER CENTO_ACCENTO_5
-- SESSANTA_PER CENTO_ACCENTO_6
+- TWENTY_PERCENT_ACCENT_1
+- TWENTY_PERCENT_ACCENT_2
+- TWENTY_PERCENT_ACCENT_3
+- TWENTY_PERCENT_ACCENT_4
+- TWENTY_PERCENT_ACCENT_5
+- VENTI_PERC_ACCENTO_6
+- QUARANTA_PERC_ACCENTO_1
+- QUARANTA_PERC_ACCENTO_2
+- QUARANTA_PERC_ACCENTO_3
+- QUARANTA_PERC_ACCENTO_4
+- QUARANTA_PERC_ACCENTO_5
+- QUARANTA_PERC_ACCENTO_6
+- SESSANTA_PERC_ACCENTO_1
+- SESSANTA_PERC_ACCENTO_2
+- SESSANTA_PERC_ACCENTO_3
+- SESSANTA_PERC_ACCENTO_4
+- SESSANTA_PERC_ACCENTO_5
+- SESSANTA_PERC_ACCENTO_6
 - ACCENTO_1
 - ACCENTO_2
 - ACCENTO_3
@@ -42,10 +43,10 @@ Aspose.Cells fornisce una vasta raccolta di stili riutilizzabili per formattare 
 - ACCENTO_6
 - CATTIVO
 - CALCOLO
-- CHECK_CELL
+- CONTROLLA_CELLA
 - VIRGOLA
-- COMMA_1
-- MONETA
+- VIRGOLA_1
+- VALUTA
 - VALUTA_1
 - TESTO_ESPLICATIVO
 - BUONO
@@ -53,21 +54,21 @@ Aspose.Cells fornisce una vasta raccolta di stili riutilizzabili per formattare 
 - INTESTAZIONE_2
 - INTESTAZIONE_3
 - INTESTAZIONE_4
-- COLLEGAMENTO IPERTESTUALE
-- FOLLOWED_HYPERLINK
-- INGRESSO
-- LINKED_CELL
+- HYPERLINK
+- COLLEGAMENTO_IPERTESTO_SEGUITO
+- INPUT
+- CELLA_COLLEGATA
 - NEUTRO
 - NORMALE
 - NOTA
-- PRODUZIONE
-- PER CENTO
+- OUTPUT
+- PERCENTUALE
 - TITOLO
 - TOTALE
-- AVVISO_TESTO
-- ROW_LEVEL
-- COLONNA_LIVELLO
+- TESTO_AVVISO
+- LIVELLO_RIGA
+- LIVELLO_COLONNA
 
-## C# per utilizzare gli stili incorporati
+## Codice C# per utilizzare gli stili incorporati
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}

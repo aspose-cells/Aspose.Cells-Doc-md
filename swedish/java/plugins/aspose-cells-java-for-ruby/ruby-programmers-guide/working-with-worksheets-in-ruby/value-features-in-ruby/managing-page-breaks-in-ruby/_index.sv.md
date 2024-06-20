@@ -1,16 +1,17 @@
-﻿---
-title: Hantera sidbrytningar i Ruby
+---
+title: Hantera Sidbrytningar i Ruby
 type: docs
 weight: 20
 url: /sv/java/managing-page-breaks-in-ruby/
 ---
+
 ## **Aspose.Cells - Hantera sidbrytningar**
 ### **Lägga till sidbrytningar**
- För att lägga till sidbrytningar med hjälp av**Aspose.Cells Java för Ruby** , ringa upp**add_page_breaks** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+För att lägga till sidbrytningar med **Aspose.Cells Java för Ruby**, anropa **add_page_breaks** metoden i **pagebreaks** modulen. Nedan kan du se kodexemplet.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_page_breaks(workbook)
 
@@ -38,11 +39,11 @@ end   
 
 {{< /highlight >}}
 ### **Rensa alla sidbrytningar**
- För att rensa alla sidbrytningar med**Aspose.Cells Java för Ruby** , ringa upp**rensa_alla_sidebrytningar** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+För att rensa alla sidbrytningar med **Aspose.Cells Java för Ruby**, anropa **clear_all_page_breaks** metoden i **pagebreaks** modulen. Nedan kan du se kodexemplet.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def clear_all_page_breaks(workbook)
 
@@ -60,11 +61,11 @@ end 
 
 {{< /highlight >}}
 ### **Ta bort specifik sidbrytning**
- För att ta bort specifik sidbrytning med**Aspose.Cells Java för Ruby** , ringa upp**remove_page_break** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+För att ta bort en specifik sidbrytning med **Aspose.Cells Java för Ruby**, anropa **remove_page_break** metoden i **pagebreaks** modulen. Nedan kan du se kodexemplet.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_page_break(workbook)
 
@@ -93,7 +94,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Hantera sidbrytningar (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Hämta **Hantera Sidbrytningar (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreaks.rb)

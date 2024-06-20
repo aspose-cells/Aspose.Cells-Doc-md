@@ -1,77 +1,78 @@
-﻿---
-title: Çalışma Kitabına Yeni Çalışma Sayfaları Ekleme ve Bir Sayfayı Etkinleştirme
+---
+title: Yeni Çalışma Sayfalarını İçeriye Aktar ve Bir Sayfayı Etkinleştirme
 type: docs
 weight: 10
 url: /tr/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Bir şablon dosyasıyla çalışırken, bazen veri toplamak için çalışma kitabına fazladan çalışma sayfaları eklemeniz gerekebilir. Yeni hücreler, her çalışma sayfasında belirtilen konum ve konumlardaki verilerle doldurulacaktır.
+Şablon dosyası ile çalışırken, bazen çalışma kitabına veri toplamak için ek çalışma sayfalarının eklenmesi gerekebilir. Yeni hücreler her bir çalışma sayfasındaki belirli konumlarda ve yerlerdeki verilerle doldurulacaktır.
 
-Benzer şekilde, belirli bir çalışma sayfasının etkin olması ve dosya Microsoft Excel'de açıldığında ilk olarak görüntülenmesi gerekebilir. "Etkin sayfa", bir çalışma kitabında üzerinde çalıştığınız sayfadır. Etkin sayfanın sekmesindeki ad varsayılan olarak kalındır.
+Benzer şekilde, Microsoft Excel'de dosya açıldığında belirli bir çalışma sayfasına ihtiyaç duyabilir ve bu çalışma sayfası öncelikli olarak görüntülenir. Bir "etkin sayfa", bir çalışma kitabında üzerinde çalıştığınız sayfadır. Etkin sayfanın sekmesindeki adı varsayılan olarak kalındır.
 
- Çalışma sayfaları eklemek ve hangi sayfanın etkin olduğunu ayarlamak, geliştiricilerin nasıl gerçekleştireceklerini bilmesi gereken yaygın ve basit görevlerdir. Bu yazıda, bu görevleri kullanarak gerçekleştiriyoruz.[VSTO](/cells/tr/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) ve[Aspose.Cells for .NET](/cells/tr/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
+Çalışma sayfaları eklemek ve hangi sayfanın etkin olduğunu ayarlamak, geliştiricilerin bilmesi gereken yaygın ve basit görevlerdir. Bu makalede, bu görevleri [VSTO](/hücreler/tr/net/yeni-çalışma-sayfalarını-içeriye-aktar-ve-bir-sayfayı-etkinleştirme/) ve [Aspose.Cells for .NET](/hücreler/tr/net/yeni-çalışma-sayfalarını-içeriye-aktar-ve-bir-sayfayı-etkinleştirme/) kullanarak gerçekleştiriyoruz.
 
 {{% /alert %}} 
-## **Çalışma Sayfaları Ekleme ve Bir Sayfayı Etkinleştirme**
-Bu geçiş ipucunun amaçları doğrultusunda:
+## **Çalışma Sayfaları Ekleme ve Bir Sayfayı Aktifleştirme**
+Bu göç ipucu için:
 
-1. Mevcut bir Microsoft Excel dosyasına yeni çalışma sayfaları ekleyin.
-1. Verileri her yeni çalışma sayfasının hücrelerine doldurun.
-1. Çalışma kitabında bir sayfayı etkinleştirin.
+1. Mevcut bir Microsoft Excel dosyasına yeni çalışsayfalar ekleyin.
+1. Her yeni çalışsayfanın hücrelerine veri girin.
+1. Çalışma kitabındaki bir çalışsayfayı etkinleştirin.
 1. Microsoft Excel dosyası olarak kaydedin.
 
-Aşağıda, bu görevlerin nasıl gerçekleştirileceğini gösteren VSTO (C#, VB) ve Aspose.Cells for .NET (C#, VB) için paralel kod parçacıkları bulunmaktadır.
+Aşağıda, bu görevleri C# ve VB ile VSTO ve Aspose.Cells for .NET için paralel kod örnekleri bulunmaktadır, bu öğelerin bu görevleri nasıl gerçekleştireceğini gösterir.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-Microsoft.VisualStudio.Tools.Applications.Runtime kullanarak;
+using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
-Excel kullanarak = Microsoft.Office.Interop.Excel;
+using Excel = Microsoft.Office.Interop.Excel;
 
-Office = Microsoft.Office.Core kullanılarak;
+using Office = Microsoft.Office.Core;
 
-System.Reflection kullanarak;
+using System.Reflection;
 
 .......
 
-//Uygulama nesnesini örneklendirin.
+//Instantiate the Application object.
 
-Excel.Application excelApp = yeni Excel.ApplicationClass();
+Excel.Application excelApp = new Excel.ApplicationClass();
 
-//Şablonun excel dosya yolunu belirtin.
+//Specify the template excel file path.
 
 string myPath = @"d:\test\My_Book1.xls";
 
-//excel dosyasını açın.
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer,
+Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer,
+Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer,
+Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer,
+Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer,
+Missing.Value, Missing.Value,
 
-Eksik.Değer, Eksik.Değer);
+Missing.Value, Missing.Value);
 
-//Bir Çalışma Sayfası nesnesi tanımlayın.
+//Declare a Worksheet object.
 
-Excel.Çalışma sayfası yeniÇalışma sayfası;
+Excel.Worksheet newWorksheet;
 
-//Çalışma kitabına 5 yeni çalışma sayfası ekleyin ve bazı verileri doldurun
+//Add 5 new worksheets to the workbook and fill some data
 
-//hücrelere.
+//into the cells.
 
- için (int ben = 1; ben< 6; i++)
+for (int i = 1; i < 6; i++)
 
 {
 
@@ -111,7 +112,7 @@ excelApp.Quit();
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -185,41 +186,41 @@ excelApp.Quit()
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-Aspose.Cells kullanarak;
+using Aspose.Cells;
 
 .......
 
-//Bir lisans örneği oluşturun ve lisans dosyasını ayarlayın
+//Instantiate an instance of license and set the license file
 
-//yolu boyunca
+//through its path
 
-Aspose.Cells.Lisans lisansı = yeni Aspose.Cells.License();
+Aspose.Cells.License license = new Aspose.Cells.License();
 
 license.SetLicense("Aspose.Cells.lic");
 
-//Şablonun excel dosya yolunu belirtin.
+//Specify the template excel file path.
 
 string myPath =@"d:\test\My_Book1.xls";
 
-//Yeni bir Çalışma Kitabı oluşturun.
+//Instantiate a new Workbook.
 
-//excel dosyasını açın.
+//Open the excel file.
 
-Çalışma kitabı çalışma kitabı = yeni Çalışma Kitabı(myPath);
+Workbook workbook = new Workbook(myPath);
 
-//Bir Çalışma Sayfası nesnesi tanımlayın.
+//Declare a Worksheet object.
 
-Çalışma sayfası yeniÇalışma sayfası;
+Worksheet newWorksheet;
 
-//Çalışma kitabına 5 yeni çalışma sayfası ekleyin ve bazı verileri doldurun
+//Add 5 new worksheets to the workbook and fill some data
 
-//hücrelere.
+//into the cells.
 
- için (int ben = 0; ben< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -255,7 +256,7 @@ workbook.Save(@"d:\test\out_My_Book1.xls");
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

@@ -1,19 +1,20 @@
-﻿---
-title: احصل على تاريخ تحديث Pivot Table وقم بالتحديث حسب من المعلومات
+---
+title: الحصول على تاريخ تحديث جدول الدوران ومعلومات من يقوم بالتحديث
 type: docs
 weight: 80
 url: /ar/java/get-pivot-table-refresh-date-and-refresh-by-who-information/
 ---
+
 {{% alert color="primary" %}}
 
-يدعم Aspose.Cells الآن إحضار تاريخ التحديث والتحديث بواسطة معلومات من مصنف.
+Aspose.Cells الآن تدعم الحصول على تاريخ التحديث ومعلومات من يقوم بالتحديث من صفحة العمل.
 
 {{% /alert %}}
 
-[**PivotTable.getRefreshDate**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshDate) إرجاع التاريخ الذي تم فيه آخر تحديث لتقرير PivotTable. بصورة مماثلة[**PivotTable.getRefreshByWho**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshedByWho) إرجاع الخاصية اسم المستخدم الذي قام بتحديث التقرير في المرة الأخيرة. يوضح المثال التالي هذه الميزة ويمكن تنزيل ملف عينة من الرابط التالي.
+تعيد [**PivotTable.getRefreshDate**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshDate) التاريخ الذي تم فيه تحديث تقرير PivotTable لآخر مرة. بالمثل، تعيد الخاصية [**PivotTable.getRefreshByWho**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#RefreshedByWho) اسم المستخدم الذي قام بتحديث التقرير في المرة الأخيرة. يوضح المثال التالي هذه الميزة ويمكن تنزيل ملف العينة من الرابط التالي.
 
-[المصدر: PivotTable.xlsx](77987843.xlsx)
+[SourcePivotTable.xlsx](77987843.xlsx)
 
-**عينة من الرموز**
+**كود عينة**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-GetPivotTableRefreshDate-1.java" >}}

@@ -1,18 +1,19 @@
-﻿---
-title: Exportar comentarios mientras se guarda el archivo de Excel en HTML
+---
+title: Exportar Comentarios al Guardar Archivo Excel en HTML
 type: docs
 weight: 40
 url: /es/java/export-comments-while-saving-excel-file-to-html/
 ---
-## **Posibles escenarios de uso**
 
-Cuando guarda su archivo de Excel en HTML, los comentarios no se exportan. Sin embargo, Aspose.Cells proporciona esta característica usando el[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments)propiedad. si lo configuras**verdadero**entonces HTML también mostrará los comentarios presentes en su archivo de Excel.
+## **Escenarios de uso posibles**
 
-## **Exportar comentarios mientras se guarda un archivo de Excel en Html**
+Cuando guardas tu archivo de Excel en HTML, los comentarios no se exportan. Sin embargo, Aspose.Cells proporciona esta función utilizando la propiedad [**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments). Si la estableces como **verdadero**, entonces el HTML también mostrará los comentarios presentes en tu archivo de Excel.
 
-El siguiente código de ejemplo explica el uso de[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments) propiedad. La captura de pantalla muestra el efecto del código en el HTML cuando la propiedad se establece en**verdadero**. Por favor descarga el[ejemplo de archivo de Excel](50528270.xlsx)y el[generado HTML](50528269)para una referencia.
+## **Exportar comentarios al guardar el archivo de Excel en Html**
 
-![todo:imagen_alternativa_texto](export-comments-while-saving-excel-file-to-html_1.png)
+El siguiente código muestra el uso de la propiedad [**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments). La captura de pantalla muestra el efecto del código en el HTML cuando la propiedad se establece como **verdadero**. Descarga el [archivo de Excel de muestra](50528270.xlsx) y el [HTML generado](50528269) como referencia.
+
+![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 
 ## **Código de muestra**
 

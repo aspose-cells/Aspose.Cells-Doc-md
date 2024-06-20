@@ -1,54 +1,55 @@
-﻿---
-title: レポート パラメータの作成
+---
+title: レポートパラメータの作成
 type: docs
 weight: 10
 url: /ja/reportingservices/creating-report-parameters/
 ---
-Aspose.Cells.Report.Designer でレポート パラメータを作成するには:
 
-1. Microsoft エクセルを開きます。
-1. クリック**レポート パラメータ**Aspose.Cells.Report.Designer ツールバー。 (
+Aspose.Cells.Report.Designerでレポートパラメータを作成するには:
 
-![todo:画像_代替_文章](creating-report-parameters_1.png)
+1. Microsoft Excel を開きます。
+1. Aspose.Cells.Report.Designerツールバーの**レポートパラメータ**をクリックします。
+
+![todo:image_alt_text](creating-report-parameters_1.png)
 
 )
-ダイアログ ボックスでは、すべてのレポート パラメータが左側のパネルに一覧表示されます。
+ダイアログボックスには、すべてのレポートパラメータが左パネルにリストされています。 
 
-1. クリック**追加**. 
+1. **追加** をクリックします。 
 
-   **レポート パラメータ設定フォーム** 
+   **レポートパラメータ構成フォーム** 
 
-![todo:画像_代替_文章](creating-report-parameters_2.png)
-
-
+![todo:image_alt_text](creating-report-parameters_2.png)
 
 
-1. ダイアログ ボックスで、レポート パラメーター情報を入力します。
+
+
+1. ダイアログボックスに、レポートパラメータ情報を入力します。 
 
    **パラメータ情報の追加** 
 
-![todo:画像_代替_文章](creating-report-parameters_3.png)
+![todo:image_alt_text](creating-report-parameters_3.png)
 
 
 
-レポート パラメーターの有効な値は、データセットまたはユーザー定義値のグループから取得される場合があります。レポート パラメータには、ラベルと値の 2 つのデータ フィールドがあります。ラベル値はヌルにすることができます。
+レポートパラメータの有効な値は、データセットまたはユーザー定義値のグループから取得できます。レポートパラメータにはラベルと値の2つのデータフィールドがあります。ラベルの値はヌルになる可能性があります。 
 
-1. クリック**設定**レポート パラメータの値のグループを設定します。
-1. の値を追加します**ラベル**と**価値**田畑。
+1. レポートパラメータの値のグループを設定するには、**セットアップ** をクリックします。
+1. **ラベル** と **値** フィールドに値を追加します。 
 
-   **ラベルと価値の追加** 
+   **ラベルと値の追加** 
 
-![todo:画像_代替_文章](creating-report-parameters_4.png)
-
-
+![todo:image_alt_text](creating-report-parameters_4.png)
 
 
-1. クリック**追加**.
-パラメータの他の値を追加するには、繰り返します。
-1. クリック**近い**.
-1. クリック**セーブ**パラメータを保存します。
-1. 新しいレポート パラメータが左側のパネルに表示されます。
+
+
+1. **追加** をクリックします。
+   他のパラメータの値を追加するには、繰り返します。
+1. **Close** をクリックします。
+1. パラメータを保存するには、**保存** をクリックします。 
+1. 新しいレポートパラメータが左パネルにリストされます。 
 
    **新しいパラメータ** 
 
-![todo:画像_代替_文章](creating-report-parameters_5.png)
+![todo:image_alt_text](creating-report-parameters_5.png)

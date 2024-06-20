@@ -1,22 +1,23 @@
-﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.0.0
+---
+title: Cambiamenti nell API pubblica in Aspose.Cells 8.0.0
 type: docs
 weight: 10
 url: /it/net/public-api-changes-in-aspose-cells-8-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Questa pagina elenca le modifiche API pubbliche introdotte in Aspose.Cells 8.0.0. Include non solo metodi pubblici nuovi e obsoleti, ma anche una descrizione di eventuali modifiche nel comportamento dietro le quinte in Aspose.Cells che potrebbero influire sul codice esistente.
+Questa pagina elenca i cambiamenti nell'API pubblica introdotti in Aspose.Cells 8.0.0. Include non solo nuovi metodi pubblici e obsoleti, ma anche una descrizione di eventuali modifiche nel comportamento dietro le quinte in Aspose.Cells che potrebbero influenzare il codice esistente.
 
 {{% /alert %}} 
-## **Aggiunto MemorySetting a LoadOptions & WorkbookSettings**
-A partire dalla v8.0.0 di Aspose.Cells for .NET abbiamo fornito le opzioni di utilizzo della memoria per considerazioni sulle prestazioni. La proprietà MemorySetting è ora disponibile nelle classi LoadOptions e WorkbookSettings.
+## **Aggiunta MemorySetting a LoadOptions e WorkbookSettings**
+A partire dalla v8.0.0 di Aspose.Cells for .NET abbiamo fornito le opzioni di utilizzo della memoria per considerazioni sulle prestazioni. La proprietà MemorySetting è ora disponibile nelle classi LoadOptions & WorkbookSettings.
 ##### **Esempio**
 Dimostra come leggere un file Excel (di grandi dimensioni) in modalità ottimizzata.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize LoadOptions
 
@@ -32,11 +33,11 @@ Workbook book = new Workbook(myDir + "large.xlsx", options);
 
 {{< /highlight >}}
 
-Illustra come scrivere un set di dati di grandi dimensioni in un foglio di lavoro in modalità ottimizzata.
+Dimostra come scrivere un ampio dataset in un foglio di calcolo in modalità ottimizzata.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -54,17 +55,17 @@ book.Settings.MemorySetting = MemorySetting.MEMORY_PREFERENCE;
 
 {{% alert color="primary" %}} 
 
- Si prega di controllare l'articolo dettagliato su[Ottimizzazione della memoria mentre si lavora con file di grandi dimensioni](/cells/it/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
+Si prega di controllare l'articolo dettagliato su [Ottimizzazione della memoria durante il lavoro con file di grandi dimensioni](/cells/it/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
 
 {{% /alert %}}
-## **Le implementazioni di Row & Cell sono cambiate**
- Nelle versioni precedenti, gli oggetti Row e Cell venivano tenuti in memoria per rappresentare la riga e la cella corrispondenti in un foglio di lavoro. La stessa istanza è stata restituita ogni volta**RowCollection[indice int]** o**Cells[int riga, int colonna]** sono stati recuperati. Per considerazioni sulle prestazioni della memoria, solo le proprietà e i dati di Row e Cell verranno mantenuti nella memoria d'ora in avanti. Quindi, l'oggetto Row & Cell è diventato il wrapper delle suddette proprietà.
+## **Le implementazioni di Row e Cell sono cambiate**
+Nelle versioni precedenti, gli oggetti Row e Cell venivano mantenuti in memoria per rappresentare la riga e la cella corrispondenti in un foglio di lavoro. La stessa istanza veniva restituita ogni volta che veniva recuperato **RowCollection[int index]** o **Cells[int row, int column]**. Per considerazioni sulle prestazioni della memoria, ora verranno mantenute in memoria solo le proprietà e i dati di Row e Cell. Pertanto, l'oggetto Row e Cell è diventato l'incapsulatore delle suddette proprietà.
 ### **Esempio**
 Dimostra come confrontare gli oggetti Cell e Row da ora in poi.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //..
 
@@ -77,13 +78,13 @@ cell1.Equals(cell2);
 
 {{< /highlight >}}
 
-Poiché gli oggetti Row e Cell vengono istanziati in base all'invocazione, non verranno mantenuti e gestiti in memoria dal componente Cells. Pertanto, dopo alcune operazioni di inserimento e cancellazione, gli indici Riga e Colonna potrebbero non essere aggiornati o, peggio ancora, questi oggetti diventerebbero non validi.
+Poiché gli oggetti Row e Cell vengono istanziati in base all'invocazione, non saranno più mantenuti e gestiti in memoria dal componente Cells. Pertanto, dopo alcune operazioni di inserimento e cancellazione, gli indici di riga e colonna potrebbero non essere aggiornati o, ancor peggio, questi oggetti diventano non validi.
 ### **Esempio**
-Ad esempio, il seguente frammento di codice restituirà risultati non validi utilizzando 8.0.0 e versioni successive,
+Ad esempio, il seguente frammento di codice restituirà risultati non validi utilizzando la versione 8.0.0 e successiva.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Cell cell = cells["A2"];
 
@@ -97,11 +98,11 @@ Console.WriteLine(cell.Name + ":" + cell.Value);
 
 
 
-Con la nuova versione l'oggetto Cell non sarà più valido o farà riferimento ad A2 con un valore indesiderato. Per evitare tale situazione, ottenere nuovamente gli oggetti Row o Cell dalla raccolta di celle per recuperare il risultato corretto.
+Con la nuova versione, l'oggetto Cell diventerà non valido o farà riferimento a A2 con qualche valore indesiderato. Per evitare una situazione del genere, ottenere nuovamente gli oggetti Row o Cell dalla raccolta di celle per recuperare il risultato corretto.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Cell cell = cells["A2"];
 
@@ -119,18 +120,18 @@ Console.WriteLine(cell.Name + ":" + cell.Value);
 
 {{% alert color="primary" %}} 
 
-RowCollection non eredita più CollectionBase perché non è presente alcun oggetto Row nell'elenco interno.
+RowCollection non eredita più da CollectionBase perché non c'è più l'oggetto Row nella sua lista interna.
 
 {{% /alert %}}
-## **Cell.StringValue Comportamento modificato**
- Nelle versioni precedenti, modello speciale_è stato ignorato durante la formattazione dei valori delle celle, dove il carattere speciale * produceva sempre un carattere nel risultato formattato. Da questa versione, abbiamo cambiato la logica per gestire i caratteri speciali_ e* per rendere il risultato formattato uguale a quello dell'applicazione Excel. Ad esempio, il formato di cella personalizzato "_(\$* #,##0.00_)" utilizzato per rappresentare il valore 123 ha prodotto il risultato come "$ 123.00". Con le nuove versioni, Cell.StringValue conterrà il risultato come "$123.00" che è lo stesso comportamento dell'applicazione Excel durante la copia della cella al testo o esportare a CSV.
+## **Il comportamento di Cell.StringValue è cambiato**
+Nelle versioni precedenti, il modello speciale _ veniva ignorato durante la formattazione dei valori delle celle, mentre il carattere speciale * produceva sempre un carattere nel risultato formattato. Da questa versione, abbiamo cambiato la logica per gestire i caratteri speciali _ e * per rendere il risultato formattato uguale a quello dell'applicazione Excel. Ad esempio, il formato personalizzato della cella "_(\$* #,##0.00_)" usato per rappresentare il valore 123 produceva il risultato come "$ 123.00". Con le nuove versioni, Cell.StringValue conterrà il risultato come "$123.00" che è lo stesso comportamento mostrato dall'applicazione Excel durante il copia della cella in testo o l'esportazione in CSV.
 ## **Aggiunto CreatedTime a PdfSaveOptions**
-Ora gli utenti possono ottenere o impostare l'ora di creazione PDF durante il salvataggio del foglio di calcolo su PDF durante l'utilizzo della classe PdfSaveOptions.
-## **Aggiunto ShowFormulas al foglio di lavoro**
-D'ora in poi, gli utenti possono utilizzare la proprietà booleana ShowFormulas offerta da Worksheet per cambiare la visualizzazione dalla formula al valore di un determinato foglio di lavoro.
+Ora gli utenti possono ottenere o impostare l'ora di creazione del PDF durante il salvataggio del foglio di calcolo in PDF utilizzando la classe PdfSaveOptions.
+## **Aggiunto ShowFormulas a Worksheet**
+Da ora in poi, gli utenti possono utilizzare la proprietà booleana ShowFormulas offerta da Worksheet per passare dalla visualizzazione della formula al valore di un determinato foglio di lavoro.
 ## **Aggiunto Ooxml a FileFormatType**
-Una nuova costante Ooxml è stata aggiunta alla classe FileFormatType per rappresentare il file XML aperto di Office crittografato come XLSX, DOCX, PPTX e altro.
-## **FiltroColumnCollection obsoleto di AutoFilter**
-Con Aspose.Cells for Java, la proprietà FilterColumnCollection è stata contrassegnata come obsoleta. Si suggerisce invece di utilizzare la proprietà AuotFilter.FilterColumns.
+È stata aggiunta una nuova costante Ooxml alla classe FileFormatType per rappresentare il file open XML cifrato come XLSX, DOCX, PPTX e altro ancora.
+## **La raccolta di filtri delle colonne di AutoFilter è stata resa obsoleta**
+Con Aspose.Cells for Java, la proprietà FilterColumnCollection è stata contrassegnata come obsoleta. Si consiglia di utilizzare invece la proprietà AuotFilter.FilterColumns.
 ## **Sostituito SeriesCollection.SecondCatergoryData con SeriesCollection.SecondCategoryData**
-Abbiamo sostanzialmente corretto l'errore di battitura nel nome della proprietà per SeriesCollection.SecondCatergoryData. È ora possibile utilizzare la proprietà SeriesCollection.SecondCategoryData, mentre la proprietà originale SeriesCollection.SecondCatergoryData è stata contrassegnata come obsoleta.
+Abbiamo corretto essenzialmente l'errore di battitura nel nome della proprietà per SeriesCollection.SecondCatergoryData. Ora puoi utilizzare la proprietà SeriesCollection.SecondCategoryData in avanti, mentre la proprietà originale SeriesCollection.SecondCatergoryData è stata contrassegnata come obsoleta.

@@ -1,21 +1,24 @@
-﻿---
-title: Agregar hojas de trabajo
+---
+title: Agregar Hojas de Cálculo
 type: docs
 weight: 20
-url: /es/net/add-worksheets/
+url: /es/net/aspose-cells-gridweb/add-worksheet/
+keywords: GridWeb,add,worksheet,add GridWorksheet
+description: Este artículo presenta cómo agregar hojas de cálculo (GridWorksheet) en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Las hojas de trabajo son una parte integral de Aspose.Cells.GridWeb. Todos los datos se gestionan y almacenan en forma de hojas de cálculo. Aspose.Cells.GridWeb permite a los desarrolladores agregar una o más hojas de trabajo al control Aspose.Cells.GridWeb. Este tema muestra enfoques simples para agregar hojas de trabajo a Aspose.Cells.GridWeb.
+Las hojas de cálculo son una parte integral de Aspose.Cells.GridWeb. Todos los datos se gestionan y almacenan en forma de hojas de cálculo. Aspose.Cells.GridWeb permite a los desarrolladores agregar una o más hojas de cálculo al control Aspose.Cells.GridWeb. Este tema muestra enfoques simples para agregar hojas de cálculo a Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
-## **Agregar una hoja de trabajo**
-### **Sin especificar el nombre de la hoja**
-La forma más sencilla de agregar una hoja de trabajo a Aspose.Cells.GridWeb es llamar al método Add de la colección GridWorksheetCollection en el control GridWeb. Esto crea hojas de cálculo que usan nombres predeterminados (es decir, Hoja1, Hoja2, Hoja3, etc.) y las agrega al control GridWeb.
+## **Agregando una hoja de cálculo**
+### **Sin especificar nombre de hoja**
+La forma más sencilla de agregar una hoja de cálculo a Aspose.Cells.GridWeb es llamar al método Agregar de la colección GridWorksheetCollection en el control GridWeb. Esto crea hojas de cálculo que utilizan nombres predeterminados (es decir, Hoja1, Hoja2, Hoja3, etc.) y las agrega al control GridWeb.
 
-**Salida: se ha agregado una hoja de trabajo con un nombre predeterminado a GridWeb** 
+**Salida: se ha añadido una hoja de cálculo con nombre predeterminado a GridWeb** 
 
-![todo:imagen_alternativa_texto](add-worksheets_1.png)
+![todo:image_alt_text](add-worksheets_1.png)
 
 
 
@@ -23,15 +26,15 @@ La forma más sencilla de agregar una hoja de trabajo a Aspose.Cells.GridWeb es 
 
 {{% alert color="primary" %}} 
 
- El método Add devuelve el índice de la nueva hoja de trabajo que se puede usar para acceder a la instancia de esta hoja de trabajo. Para obtener más detalles sobre cómo acceder a las hojas de trabajo, lea[Acceder a hojas de trabajo](/cells/es/net/access-worksheets/).
+El método Agregar devuelve el índice de la nueva hoja de cálculo que se puede utilizar para acceder a la instancia de esta hoja de cálculo. Para obtener más detalles sobre cómo acceder a las hojas de cálculo, lee [Acceder a Hojas de Cálculo](/cells/es/net/aspose-cells-gridweb/access-worksheets/).
 
 {{% /alert %}} 
 ### **Con nombre de hoja especificado**
-Para agregar una hoja de cálculo con un nombre específico al control GridWeb en lugar de usar el esquema de nomenclatura predeterminado, llame a una versión sobrecargada del método Add que toma el SheetName especificado. Por ejemplo, el siguiente ejemplo agrega una hoja de cálculo denominada Factura.
+Para agregar una hoja de cálculo con un nombre específico al control GridWeb en lugar de usar el esquema de nombres predeterminado, llama a una versión sobrecargada del método Agregar que toma el nombre de hoja especificado. Por ejemplo, el siguiente ejemplo agrega una hoja de cálculo llamada 'Factura'.
 
-**Salida: se ha agregado una hoja de trabajo con un nombre específico a GridWeb** 
+**Salida: se ha añadido una hoja de cálculo con un nombre especificado a GridWeb** 
 
-![todo:imagen_alternativa_texto](add-worksheets_2.png)
+![todo:image_alt_text](add-worksheets_2.png)
 
 
 
@@ -39,6 +42,6 @@ Para agregar una hoja de cálculo con un nombre específico al control GridWeb e
 
 {{% alert color="primary" %}} 
 
-El método Add que acepta el nombre de la hoja de cálculo como una cadena devuelve una instancia de GridWorksheet.
+El método Agregar que acepta el nombre de la hoja de cálculo como cadena devuelve una instancia de GridWorksheet.
 
 {{% /alert %}}

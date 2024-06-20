@@ -1,17 +1,18 @@
-﻿---
-title: Insérer des liens hypertexte dans la feuille de calcul
+---
+title: Insérer des liens hypertexte dans une feuille de calcul
 type: docs
 weight: 20
 url: /fr/java/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Insérer des hyperliens dans la feuille de calcul**
-**Ajout d'un lien vers un Cell dans le même fichier**
 
-Il est possible d'ajouter des liens hypertexte aux cellules d'un même fichier Excel en appelant la méthode Add de la collection Hyperlink. La méthode Add fonctionne pour les liens hypertexte internes et externes.
+## **Aspose.Cells - Insérer des liens hypertexte dans une feuille de calcul**
+**Ajouter un lien vers une cellule dans le même fichier**
+
+Il est possible d'ajouter des liens hypertexte aux cellules dans le même fichier Excel en appelant la méthode Add de la collection Hyperlink. La méthode Add fonctionne à la fois pour les liens hypertexte internes et externes.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the first worksheet.
 
@@ -50,16 +51,16 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 
 **Ajouter un lien vers un fichier externe**
 
-Il est possible d'ajouter des liens hypertexte vers des fichiers Excel externes en appelant la méthode Add de la collection Hyperlinks. La méthode Add prend les paramètres suivants :
+Il est possible d'ajouter des hyperliens vers des fichiers Excel externes en appelant la méthode Add de la collection Hyperlinks. La méthode Add prend les paramètres suivants:
 
-- Cell nom, le nom de la cellule à laquelle le lien hypertexte sera ajouté.
+- Nom de la cellule, le nom de la cellule à laquelle le lien hypertexte sera ajouté.
 - Nombre de lignes, le nombre de lignes dans cette plage de liens hypertexte.
 - Nombre de colonnes, le nombre de colonnes dans cette plage de liens hypertexte.
 - URL, l'adresse de la cible, fichier Excel externe.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  cell = cells.get("A3");
 
@@ -74,10 +75,10 @@ hyperlinks = sheet.getHyperlinks();
 hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Insérer des hyperliens dans la feuille de calcul**
+## **Apache POI SS - HSSF XSSF - Insérer des liens hypertexte dans la feuille de calcul**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  CellStyle hlink_style = wb.createCellStyle();
 
@@ -158,8 +159,8 @@ cell.setHyperlink(link2);
 cell.setCellStyle(hlink_style);
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Télécharger l'exemple de code**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlien)
+## **Télécharger le code source d'exemple**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlink)
 

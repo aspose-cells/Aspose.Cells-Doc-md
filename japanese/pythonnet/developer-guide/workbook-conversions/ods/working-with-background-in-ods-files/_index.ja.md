@@ -1,43 +1,48 @@
 ---
-title: ODS ファイルの背景の操作
+title: ODSファイルでの背景の処理
 type: docs
 weight: 150
 url: /ja/python-net/working-with-background-in-ods-files/
-description: ODS Aspose.Cells for Python via .NET API のファイルで背景を操作する方法。
-keywords: Python work with Background in ODS Files, Read Background Information from ODS file Pyton via NET, Add Colored Background to ODS file using Python via NET, Python via NET Add Graphic Background to ODS file.
+description: Python via .NET APIを使用したODSファイルで背景を操作する方法。
+keywords: PythonでODSファイルで背景を操作する方法、ODSファイルから背景情報を読み取る方法、Python via NETを使用してODSファイルに色付き背景を追加する方法、Python via NETを使用してODSファイルにグラフィック背景を追加する方法。
 ---
-##  **ODS ファイルの背景**
 
-ODS ファイルのシートに背景を追加できます。背景には、色付き背景またはグラフィック背景を使用できます。ファイルが開いているときは背景は表示されませんが、ファイルが PDF として印刷される場合、生成された PDF に背景が表示されます。背景は印刷プレビュー ダイアログにも表示されます。
+## **ODSファイルでの背景**
 
-Aspose.Cells for Python via .NET は、背景情報を読み取り、ODS ファイルに背景を追加する機能を提供します。
+ODSファイルにシートに背景を追加することができます。背景は塗りつぶしの背景やグラフィック背景のいずれかです。この背景はファイルが開かれている場合は見えませんが、PDFとして印刷されると、PDFに背景が表示されます。背景は印刷プレビューダイアログにも表示されます。
 
-##  **ODS ファイルから背景情報を読み取る**
+Python via .NETでは、背景情報を読み取り、ODSファイルに背景を追加する機能が提供されています。
 
-Aspose.Cells for Python via .NET は、[**オッズページの背景**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)ODS ファイルの背景を管理するクラス。次のコードサンプルは、の使用法を示しています。[**オッズページの背景**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)クラスをロードして[ソース ODS](90112030.ods)ファイルを読み込んで背景情報を読み取ります。参考として、コードによって生成されたコンソール出力を参照してください。
+## **ODSファイルの背景を読み込む**
 
-###  **サンプルコード**
+Aspose.Cells for Python via .NETは、ODSファイルで背景を管理するための[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)クラスを提供します。[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)クラスを使用した以下のコードサンプルでは、[source ODS](90112030.ods)ファイルを読み込み、背景情報を読み取ります。参考のためにコードによって生成されたコンソール出力をご覧ください。
+
+### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ReadODSBackground-1.py" >}}
 
-###  **コンソール出力**
+### **コンソール出力**
 
-背景の種類: グラフィック
+{{< highlight java >}}
 
-バックグラウンドの位置: CenterCenter
+Background Type: Graphic
 
-##  **ODS ファイルに色付きの背景を追加**
+Backgorund Position: CenterCenter
 
-Aspose.Cells for Python via .NET は、[**オッズページの背景**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)ODS ファイルの背景を管理するクラス。次のコードサンプルは、の使用法を示しています。[**OdsPageBackground.color**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/color/)プロパティを使用して、ODS ファイルに色の背景を追加します。をご覧ください。[出力ODS](90112031.ods)参照用にコードによって生成されたファイル。
+{{< /highlight >}}
 
-###  **サンプルコード**
+## **ODSファイルに色付きの背景を追加する**
+
+Aspose.Cells for Python via .NETは、ODSファイルで背景を管理するための[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)クラスを提供します。[**OdsPageBackground.color**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/color/)プロパティを使用して、ODSファイルに色付き背景を追加する以下のコードサンプルをご覧ください。コードによって生成された[output ODS](90112031.ods)ファイルを参照してください。
+
+### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-SetODSColoredBackground-1.py" >}}
 
-##  **ODS ファイルにグラフィック背景を追加**
+## **ODSファイルにグラフィックの背景を追加する**
 
-Aspose.Cells for Python via .NET は、[**オッズページの背景**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)ODS ファイルの背景を管理するクラス。次のコードサンプルは、の使用法を示しています。[**OdsPageBackground.graphic_data**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/graphic_data/)プロパティを使用して、ODS ファイルにグラフィック背景を追加します。をご覧ください。[出力ODS](90112030.ods)参照用にコードによって生成されたファイル。
+Aspose.Cells for Python via .NETは、ODSファイルで背景を管理するための[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)クラスを提供します。[**OdsPageBackground.graphic_data**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/graphic_data/)プロパティを使用して、ODSファイルにグラフィック背景を追加する以下のコードサンプルをご覧ください。コードによって生成された[output ODS](90112030.ods)ファイルを参照してください。
 
-###  **サンプルコード**
+### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-SetODSGraphicBackground-1.py" >}}

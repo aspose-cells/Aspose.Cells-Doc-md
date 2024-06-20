@@ -1,17 +1,18 @@
-﻿---
-title: Hataları ve Boole Değerini Rusça veya Başka Bir Dilde Uygulama
+---
+title: Rusça veya başka bir dilde Hataları ve Boolean Değerleri Uygulayın
 type: docs
 weight: 30
 url: /tr/java/implement-errors-and-boolean-value-in-russian-or-any-other-language/
 ---
+
 ## **Olası Kullanım Senaryoları**
-Microsoft Excel'i Rusça Yerel Ayar veya Dilde veya başka bir Yerel Ayar veya Dilde kullanıyorsanız, o Yerel Ayar veya Dile göre Hatalar ve Boole değerleri görüntüler. Aspose.Cells'i kullanarak benzer bir davranış elde edebilirsiniz.[Workbook.getSettings().setGlobalizationSettings()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) yöntem veya özellik. Aşağıdaki yöntemleri geçersiz kılmanız gerekecek[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)sınıf.
+Microsoft Excel'i Rusça Locale veya Dil veya başka bir Locale veya Dil olarak kullanıyorsanız, Hataları ve Boolean değerlerini o Locale'a veya Dile göre görüntüler. Benzer davranışı Aspose.Cells [Workbook.getSettings().setGlobalizationSettings()](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) yöntemi veya özelliği kullanarak elde edebilirsiniz. [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) sınıfının aşağıdaki yöntemlerini geçersiz kılmanız gerekecektir.
 
 - [GlobalizationSettings.getErrorValueString()](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getErrorValueString\(java.lang.String\))
 - [GlobalizationSettings.getBooleanValueString()](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getBooleanValueString\(boolean\))
-## **Hataları ve Boole Değerini Rusça veya Başka Bir Dilde Uygulama**
- Aşağıdaki örnek kod, Hataların ve Boolean Değerinin Rusça veya Herhangi Bir Başka Dilde nasıl uygulanacağını gösterir. Lütfen bu kodda kullanılan Örnek Excel Dosyasını ve Çıktısı PDF'i kontrol edin. Ekran görüntüsü, arasındaki farkı gösterir.[Örnek Excel Dosyası](48496697.xlsx) ve[Çıkış PDF](48496696.pdf) referans için
+## **Rusça veya Başka Bir Dilde Hataları ve Boolean Değerleri Uygulayın**
+Aşağıdaki örnek kod, Hataları ve Boolean Değerlerini Rusça veya başka bir Dilde Uygulamanın nasıl olduğunu göstermektedir. Bu kodda kullanılan Örnek Excel Dosyasını ve Çıktı PDF'sini kontrol edebilirsiniz. Ekran görüntüsü, [Örnek Excel Dosyasını](48496697.xlsx) ve [Çıktı PDF'sini](48496696.pdf) referans için farkını göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
-## **Basit kod**
+![todo:image_alt_text](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-WorkbookSettings-ImplementErrorsAndBooleanValueInRussianOrAnyOtherLanguage.java" >}}

@@ -1,19 +1,20 @@
-﻿---
-title: Dilimleyiciyi Çıkarma
+---
+title: Dilimleyici Kaldırma
 type: docs
 weight: 30
 url: /tr/net/removing-slicer/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- Microsoft Excel'de dilimleyiciyi kaldırmak istiyorsanız, onu seçin ve*Silmek* buton. Benzer şekilde, programlı olarak Aspose.Cells API kullanarak kaldırmak isterseniz, lütfen[**Worksheet.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove)yöntem. Dilimleyiciyi çalışma sayfasından kaldıracaktır.
+Microsoft Excel'de dilimleyiciyi kaldırmak istiyorsanız, onu seçin ve *Sil* düğmesine basın. Benzer şekilde, Aspose.Cells API'sını kullanarak kaldırmak istiyorsanız lütfen [**Worksheet.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove) yöntemini kullanın. Bu, dilimleyiciyi çalışma sayfasından kaldıracaktır.
 
-## **Dilimleyiciyi Çıkarma**
+## **Süzgeci Kaldırma**
 
-Aşağıdaki örnek kod,[örnek excel dosyası](67338478.xlsx)mevcut bir dilimleyici içerir. Dilimleyicilere erişir ve ardından onu kaldırır. Son olarak, çalışma kitabını şu şekilde kaydeder:[çıktı excel dosyası](67338477.xlsx). Aşağıdaki ekran görüntüsü, örnek kodun yürütülmesinden sonra kaldırılacak olan dilimleyiciyi göstermektedir.
+Aşağıdaki örnek kod, mevcut bir süzgeç içeren [örnek Excel dosyasını](67338478.xlsx) yükler. Süzgeçlere erişir ve ardından kaldırır. Son olarak, çalışma kitabını [çıktı Excel dosyası](67338477.xlsx) olarak kaydeder. Aşağıdaki ekran görüntüsü, örnek kodun yürütülmesinden sonra kaldırılacak süzgeci gösterir.
 
-![yapılacaklar:resim_alternatif_metin](removing-slicer_1.png)
+![todo:image_alt_text](removing-slicer_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-RemovingSlicer.cs" >}}

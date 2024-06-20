@@ -1,36 +1,37 @@
-﻿---
-title: Sayfaları Etkinleştirme ve Çalışma Sayfasında Cell'i Etkinleştirme
+---
+title: Levhaları Etkinleştirme ve Çalışma Kitabındaki Bir Hücreyi Etkinleştirme
 type: docs
 weight: 5
 url: /tr/java/activating-sheets-and-activating-a-cell-in-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen, bir kullanıcı bir Microsoft Excel dosyasını Excel'de açtığında belirli bir çalışma sayfasının etkin olması ve görüntülenmesi gerekir. Benzer şekilde, belirli bir hücreyi etkinleştirmek ve kaydırma çubuklarını etkin hücreyi gösterecek şekilde ayarlamak isteyebilirsiniz. Aspose.Cells, aşağıda gösterildiği gibi tüm bu görevleri yapabilir.
+Bazen, bir kullanıcı Microsoft Excel dosyasını Excel'de açtığında belirli bir çalışma sayfasının etkin ve görüntülenmesini isteyebilirsiniz. Benzer şekilde, belirli bir hücreyi etkinleştirmek ve kaydırmacıları etkin hücreyi göstermek isteyebilirsiniz. Aspose.Cells bunların tümünü aşağıda gösterildiği gibi yapabilir.
 
--  Bir**etkin sayfa** üzerinde çalıştığınız bir sayfadır: sekmedeki etkin sayfanın adı varsayılan olarak kalındır.
--  Bir**aktif hücre** seçili bir hücredir, yazmaya başladığınızda verilerin girildiği hücredir. Aynı anda yalnızca bir hücre etkindir. Etkin hücre kalın bir kenarlıkla vurgulanır.
+- **Etkin bir sayfa**, üzerinde çalıştığınız bir sayfadır: sekmedeki etkin sayfanın adı varsayılan olarak kalın harflerle yazılır.
+- **Etkin bir hücre**, seçilen bir hücredir, veri girildiğinde verinin girilmeye başlandığı hücredir. Sadece bir hücre her seferinde etkin olabilir. Etkin hücre kalın bir kenarlıkla vurgulanır.
 
 {{% /alert %}}
 
-## **Sayfaları Etkinleştirme ve Cell'i Etkinleştirme**
+## **Levhaları Etkinleştirme ve Bir Hücreyi Etkinleştirme**
 
-Aspose.Cells, bir sayfa ve hücreyi etkinleştirmek için özel API çağrıları sağlar. Örneğin,[**WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#ActiveSheetIndex)özelliği, bir çalışma kitabındaki etkin sayfayı ayarlamak için kullanışlıdır. Benzer şekilde,[**Çalışma Sayfası.ActiveCell**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ActiveCell)özelliği, çalışma sayfasında etkin bir hücre ayarlamak ve almak için kullanılabilir.
+Aspose.Cells, bir sayfayı etkinleştirmek ve bir hücreyi etkinleştirmek için özel API çağrıları sağlar. Örneğin; [**WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#ActiveSheetIndex) özelliği bir çalışma kitabında etkin sayfayı ayarlamak için kullanışlıdır. Benzer şekilde, [**Worksheet.ActiveCell**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ActiveCell) özelliği bir çalışma sayfasında etkin bir hücreyi ayarlamak ve almak için kullanılabilir.
 
-Yatay veya dikey kaydırma çubuklarının, belirli verileri göstermek istediğiniz satır ve sütun dizini konumunda olduğundan emin olmak için,[**Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleRow)ve[**Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleColumn)özellikler.
+Yatay veya dikey kaydırmacıların belirli bir veri satır ve sütun endeksi konumunda olduğundan emin olmak için [**Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleRow) ve [**Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleColumn) özelliklerini kullanın.
 
-Aşağıdaki örnek, bir çalışma sayfasının nasıl etkinleştirileceğini ve içinde etkin bir hücrenin nasıl oluşturulacağını gösterir. Kod yürütülürken aşağıdaki çıktı oluşturulur. Kaydırma çubukları, 2. satırı ve 2. sütunu ilk görünür satır ve sütunları yapmak için kaydırılır.
+Aşağıdaki örnek, bir çalışma sayfasını etkinleştirmeyi ve içinde etkin bir hücre oluşturmayı gösterir. Kodu çalıştırdığınızda aşağıdaki çıktı oluşturulur. Kaydırmacılar, ikinci satırı ve ikinci sütunu ilk görünür satır ve sütun olarak ayarlamak için kaydırılmıştır.
 
-**B2 hücresini aktif hücre olarak ayarlama**
+**B2 hücresini etkin hücre olarak ayarlama**
 
-![yapılacaklar:resim_alternatif_metin](activating-sheets-and-activating-a-cell-in-worksheet_1.png)
+![todo:image_alt_text](activating-sheets-and-activating-a-cell-in-worksheet_1.png)
 
-## Excel'de etkin bir çalışma sayfası ayarlamak için Java kodu
+## Excel'de bir etkin çalışma sayfası ayarlamak için Java kodu
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ActivatingSheetsandActivatingCell-ActivatingSheetsandActivatingCell.java" >}}
 
 {{% alert color="primary" %}}
 
- İçinde**değerlendirme**mod, yani; geçerli bir lisans ayarlamadan, etkin çalışma sayfası her zaman değerlendirme filigranını içeren çalışma sayfası olacaktır. Bu davranış, yalnızca uygulamanın başlangıcında lisans ayarlanarak geçersiz kılınabilir.
+**Değerlendirme** modunda, yani; geçerli bir lisans ayarlanmadan, etkin çalışma sayfası her zaman değerlendirme filigranını içeren sayfa olacaktır. Bu davranış sadece uygulamanın başında lisans ayarlanarak geçersiz kılınabilir.
 
 {{% /alert %}}

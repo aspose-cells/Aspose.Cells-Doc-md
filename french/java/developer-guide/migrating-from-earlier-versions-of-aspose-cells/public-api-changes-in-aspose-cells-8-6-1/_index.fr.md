@@ -1,28 +1,29 @@
-﻿---
-title: Public API Changements dans Aspose.Cells 8.6.1
+---
+title: Changements d API public dans Aspose.Cells 8.6.1
 type: docs
 weight: 210
 url: /fr/java/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.Cells API de la version 8.6.0 à 8.6.1 qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement des méthodes publiques nouvelles et mises à jour, des classes ajoutées, mais également une description de tout changement de comportement en coulisse dans Aspose.Cells.
+Ce document décrit les changements apportés à l'API Aspose.Cells de la version 8.6.0 à la 8.6.1 qui peuvent intéresser les développeurs de modules/applications. Il inclut non seulement de nouvelles et des méthodes publiques mises à jour, des classes ajoutées, mais aussi une description de tout changement dans le comportement en arrière-plan d'Aspose.Cells.
 
 {{% /alert %}} 
-## **API ajoutées**
-### **Prise en charge du type de cible de lien HTML**
- Cette version de Aspose.Cells for Java API a exposé une énumération à savoir HtmlLinkTargetType avec une nouvelle propriété HtmlSaveOptions.LinkTargetType qui, ensemble, permet de[définir le type de cible pour les liens dans la feuille de calcul lors de la conversion au format HTML](/cells/fr/java/change-the-html-link-target-type/). Les valeurs possibles de l'énumération HtmlLinkTargetType sont les suivantes, où la valeur par défaut est SELF.
+## **APIs ajoutées**
+### **Support du type de cible de lien HTML**
+Cette version de l'API Aspose.Cells for Java a exposé une énumération nommée HtmlLinkTargetType ainsi qu'une nouvelle propriété HtmlSaveOptions.LinkTargetType qui permettent ensemble de [définir le type de cible pour les liens dans la feuille de calcul lors de la conversion au format HTML](/cells/fr/java/change-the-html-link-target-type/). Les valeurs possibles de l'énumération HtmlLinkTargetType sont les suivantes où la valeur par défaut est SELF.
 
-1. HtmlLinkTargetType.BLANK : ouvre le document/la page liés dans une nouvelle fenêtre ou un nouvel onglet.
-1. HtmlLinkTargetType.PARENT : Ouvre le document/la page liés dans le cadre parent.
-1. HtmlLinkTargetType.SELF : Ouvre le document/la page lié(e) dans le même cadre où le lien a été cliqué.
-1. HtmlLinkTargetType.TOP : Ouvre le document/la page lié(e) dans le corps entier de la fenêtre.
+1. HtmlLinkTargetType.BLANK : Ouvre le document/page lié dans une nouvelle fenêtre ou un nouvel onglet.
+1. HtmlLinkTargetType.PARENT : Ouvre le document/page lié dans le cadre parent.
+1. HtmlLinkTargetType.SELF : Ouvre le document/page lié dans le même cadre où le lien a été cliqué.
+1. HtmlLinkTargetType.TOP : Ouvre le document/page lié dans le corps complet de la fenêtre.
 
 Voici le scénario d'utilisation simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -43,13 +44,13 @@ workbook.save(outputFilePath, options);
 
 {{< /highlight >}}
 ### **Méthode VbaModuleCollection.remove ajoutée**
-Aspose.Cells for Java 8.6.1 a exposé une autre surcharge de la méthode VbaModuleCollection.remove qui peut désormais accepter une instance de Worksheet pour supprimer tous les modules VBA associés à la Worksheet spécifiée.
+Aspose.Cells for Java 8.6.1 a exposé une autre surcharge de la méthode VbaModuleCollection.remove qui peut maintenant accepter une instance de Worksheet pour supprimer tous les modules VBA associés à la feuille de calcul spécifiée.
 
 Voici le scénario d'utilisation simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -65,13 +66,13 @@ modules.remove(workbook.getWorksheets().get(0));
 
 {{< /highlight >}}
 ### **Méthode RangeCollection.add ajoutée**
-Aspose.Cells for Java 8.6.1 a exposé la méthode RangeCollection.Add qui peut être utilisée pour ajouter des objets Range à la collection de plages pour une feuille de calcul particulière.
+Aspose.Cells for Java 8.6.1 a exposé la méthode RangeCollection.Add qui peut être utilisée pour ajouter des objets Range à la collection de plages pour une feuille de calcul spécifique.
 
 Voici le scénario d'utilisation simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -91,13 +92,13 @@ ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
 ### **Méthode Cell.setCharacters ajoutée**
- La méthode Cell.setCharacters peut être utilisée pour[mettre à jour les parties du texte enrichi](/cells/fr/java/access-and-update-the-portions-of-rich-text-of-cell/) d'un objet Cell donné. La méthode Cell.getCharacters doit être utilisée pour accéder aux parties du texte, puis les modifications peuvent être effectuées à l'aide de la méthode Cell.setCharacters alors que la**obtenir** La méthode renvoie un tableau d'objets FontSetting qui peuvent être manipulés pour définir diverses propriétés nom de police, couleur de police, gras, etc. et**Positionner** peut être utilisée pour appliquer les modifications.
+La méthode Cell.setCharacters peut être utilisée pour [mettre à jour les portions du texte enrichi](/cells/fr/java/access-and-update-the-portions-of-rich-text-of-cell/) d'un objet Cell donné. La méthode Cell.getCharacters est utilisée pour accéder aux portions du texte, puis les modifications peuvent être apportées à l'aide de la méthode Cell.setCharacters tandis que la **méthode get** renvoie un tableau d'objets FontSetting qui peuvent être manipulés pour définir différentes propriétés telles que le nom de la police, la couleur de la police, la mise en gras, etc. et la **méthode set** peut être utilisée pour appliquer les modifications.
 
 Voici le scénario d'utilisation simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -113,7 +114,7 @@ Cell cell = worksheet.getCells().get("A1");
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.getCharacters();
+FontSetting[] settings = cell.getCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -125,13 +126,13 @@ cell.setCharacters(settings);
 
 {{< /highlight >}}
 ### **Propriété VbaProject.isSigned ajoutée**
- Aspose.Cells for Java 8.6.1 a exposé la propriété VbaProject.isSigned qui peut être utilisée pour[tester si un VbaProject dans un classeur est signé ou non](/cells/fr/java/check-if-vba-project-in-a-workbook-is-signed/)La propriété de type booléen renvoie true si le projet est signé.
+Aspose.Cells for Java 8.6.1 a exposé la propriété VbaProject.isSigned qui peut être utilisée pour [tester si un projet VbaProject dans un classeur est signé ou non](/cells/fr/java/check-if-vba-project-in-a-workbook-is-signed/). La propriété de type booléen renvoie true si le projet est signé.
 
 Voici le scénario d'utilisation simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -160,9 +161,9 @@ else
 }
 
 {{< /highlight >}}
-## **API modifiées**
+## **APIs modifiées**
 ### **Méthode Cell.getFormatConditions modifiée**
-Avec la version v8.6.1, le Aspose.Cells for Java API a modifié le type de retour de la méthode Cell.getFormatConditions qui renvoie désormais un tableau de type FormatConditionCollection.
-## **API obsolètes**
-### **Méthode Workbook.checkWriteProtectedPassword Obsolète**
-Avec la version v8.6.1, la méthode Workbook.checkWriteProtectedPassword a été marquée comme dépréciée. Il est conseillé d'utiliser la méthode WorkbookSettings.WriteProtection.validatePassword qui peut accepter une valeur String comme paramètre et renvoie Boolean si le mot de passe correspond au mot de passe prédéfini de la feuille de calcul.
+Avec la version 8.6.1, l'API Aspose.Cells for Java a modifié le type de retour de la méthode Cell.getFormatConditions qui renvoie désormais un tableau de type FormatConditionCollection.
+## **APIs obsolètes**
+### **Méthode Workbook.checkWriteProtectedPassword obsolète**
+Avec la version 8.6.1, la méthode Workbook.checkWriteProtectedPassword a été marquée comme obsolète. Il est conseillé d'utiliser la méthode WorkbookSettings.WriteProtection.validatePassword qui peut accepter une valeur de type String en paramètre et renvoie un booléen si le mot de passe correspond au mot de passe prédéfini de la feuille de calcul.

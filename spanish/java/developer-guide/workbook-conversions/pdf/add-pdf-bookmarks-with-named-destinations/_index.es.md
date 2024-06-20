@@ -1,18 +1,19 @@
-﻿---
-title: Agregar PDF Marcadores con destinos con nombre
+---
+title: Agregar marcadores PDF con Destinos Nominados
 type: docs
 weight: 20
 url: /es/java/add-pdf-bookmarks-with-named-destinations/
 ---
-## **Posibles escenarios de uso**
 
-Los destinos con nombre son tipos especiales de marcadores o enlaces en PDF que no dependen de las páginas PDF. Significa que, si se agregan o eliminan páginas de PDF, los marcadores pueden dejar de ser válidos, pero los destinos designados permanecerán intactos. Para crear un destino con nombre, configure el[**PdfBookmarkEntry.DestinationName**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfbookmarkentry#DestinationName)propiedad.
+## **Escenarios de uso posibles**
 
-## **Agregar PDF Marcadores con destinos con nombre**
+Los Destinos Nominados son un tipo especial de marcadores o enlaces en PDF que no dependen de las páginas PDF. Esto significa que si se añaden o eliminan páginas del PDF, los marcadores pueden volverse inválidos pero los destinos nominados permanecerán intactos. Para crear un Destino Nombrado, por favor establece la propiedad [**PdfBookmarkEntry.DestinationName**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfbookmarkentry#DestinationName).
 
-Consulte el siguiente código de ejemplo, su[archivo fuente de Excel](50528370.xlsx), y es[archivo de salida PDF](50528369.pdf). La captura de pantalla muestra los marcadores y los destinos con nombre dentro de la salida PDF. La captura de pantalla también describe cómo ver los destinos con nombre y que necesita la versión profesional de Acrobat Reader.
+## **Agregar Marcadores de PDF con Destinos Nombrados**
 
-![todo:imagen_alternativa_texto](add-pdf-bookmarks-with-named-destinations_1.png)
+Consulte el siguiente código de muestra, su [archivo Excel fuente](50528370.xlsx) y su [archivo PDF de salida](50528369.pdf). La captura de pantalla muestra los marcadores y destinos nombrados dentro del PDF de salida. La captura de pantalla también describe cómo ver los Destinos Nombrados y que se necesita la versión Profesional de Acrobat Reader.
+
+![todo:image_alt_text](add-pdf-bookmarks-with-named-destinations_1.png)
 
 ## **Código de muestra**
 

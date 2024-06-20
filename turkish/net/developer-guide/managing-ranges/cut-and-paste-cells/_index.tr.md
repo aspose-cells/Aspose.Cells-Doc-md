@@ -1,20 +1,21 @@
-﻿---
-title: Kesme ve Yapıştırma Aralığı
+---
+title: Aralığı Kırparak ve Yapıştırarak
 type: docs
 weight: 130
 url: /tr/net/cut-and-paste-cells/
 ---
-## **Kes Yapıştır Cells**
 
-Aspose.Cells, bir çalışma sayfasındaki hücreleri kesip yapıştırabilmenizi sağlar.[**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Toplamak. bu[**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells)aşağıdaki parametreleri kabul eder.
+## **Hücreleri Kırp ve Yapıştır**
 
-- [**Menzil**](https://reference.aspose.com/cells/net/aspose.cells/range)Kesilecek hücre aralığı.
-- Satır Dizini: Hücrelerin ekleneceği satırın dizini.
-- Sütun Dizini: Hücrelerin ekleneceği sütunun dizini.
+Aspose.Cells, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonunun [**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) yöntemi kullanarak çalışma sayfası içinde hücreleri kırparak ve yapıştırmanıza olanak tanır. [**InsertCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells), aşağıdaki parametreleri kabul eder.
+
+- [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range): Kesilecek hücrelerin aralığı.
+- Satır Dizini: Hücreleri eklemek için satırın dizini.
+- Sütun Dizini: Hücreleri eklemek için sütunun dizini.
 - [**ShiftType**](https://reference.aspose.com/cells/net/aspose.cells/shifttype): Sütunların kaydırma yönü.
 
-Aşağıdaki örnek, bir çalışma sayfasındaki hücrelerin nasıl kesilip yapıştırılacağını gösterir.
+Aşağıdaki örnek, çalışma sayfası üzerinde hücreleri kesip yapıştırmayı gösterir.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-CutAndPasteCells-1.cs" >}}

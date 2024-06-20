@@ -1,15 +1,16 @@
-﻿---
-title: Erstellen Sie eine neue Tabelle in xlsx4j
+---
+title: Neue Arbeitsmappe in xlsx4j erstellen
 type: docs
 weight: 30
 url: /de/java/create-new-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells – Neue Tabelle erstellen**
-Die Workbook-Klasse ist für die einfache Verwendung verfügbar.
+
+## **Aspose.Cells - Neue Arbeitsmappe erstellen**
+Die Workbook-Klasse steht für die einfache Verwendung zur Verfügung.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,14 +35,14 @@ cell.setValue("This is Aspose test of fonts!");
 workbook.save(dataDir + "newWorksheet_Aspose.xls");
 
 {{< /highlight >}}
-## **xlsx4j - Neue Tabelle erstellen**
-Das folgende Beispiel zeigt, wie eine neue Tabelle mit xlsx4j erstellt werden kann.
+## **xlsx4j - Neue Arbeitsmappe erstellen**
+Das folgende Beispiel zeigt, wie eine neue Arbeitsmappe unter Verwendung von xlsx4j erstellt werden kann.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "newWorksheet_Xlsx4j.xlsx";
 
@@ -114,7 +115,7 @@ private static Cell createCell(String content) {
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/createnewspreadsheet)

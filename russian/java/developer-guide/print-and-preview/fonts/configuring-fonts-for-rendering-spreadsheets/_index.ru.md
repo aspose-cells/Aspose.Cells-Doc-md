@@ -1,41 +1,42 @@
-﻿---
+---
 title: Настройка шрифтов для визуализации электронных таблиц
 type: docs
 weight: 10
 url: /ru/java/configuring-fonts-for-rendering-spreadsheets/
 ---
+
 ## **Возможные сценарии использования**
 
-API-интерфейсы Aspose.Cells позволяют отображать электронные таблицы в форматах изображений, а также преобразовывать их в форматы PDF и XPS. Чтобы максимизировать точность преобразования, необходимо, чтобы шрифты, используемые в электронной таблице, были доступны в каталоге шрифтов операционной системы по умолчанию. Если необходимые шрифты отсутствуют, API-интерфейсы Aspose.Cells попытаются заменить требуемые шрифты доступными.
+API Aspose.Cells предоставляет возможность визуализации электронных таблиц в форматах изображений, а также преобразования их в форматы PDF и XPS. Для максимизации точности преобразования необходимо, чтобы используемые в электронных таблицах шрифты были доступны в системной папке шрифтов операционной системы. В случае отсутствия необходимых шрифтов API Aspose.Cells будет пытаться заменить необходимые шрифты имеющимися.
 
 ## **Выбор шрифтов**
 
-Ниже показан процесс, которому Aspose.Cells API следуют за сценой.
+Ниже приведен процесс, который API Aspose.Cells следует за кулисами.
 
-1. API пытается найти шрифты в файловой системе, соответствующие точному имени шрифта, используемому в электронной таблице.
-1.  Если API не может найти шрифты с точно такими же именами, он пытается использовать шрифт по умолчанию, указанный в рабочей книге.[**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) имущество.
-1.  Если API не может найти шрифт, определенный в рабочей книге[**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) свойство, он пытается использовать шрифт, указанный в[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) или же[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) имущество.
-1.  Если API не может найти шрифт, определенный в[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) или же[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) свойство, он пытается использовать шрифт, указанный в[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) имущество.
-1.  Если API не может найти шрифт, определенный в[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) свойство, он пытается выбрать наиболее подходящие шрифты из всех доступных шрифтов.
-1. Наконец, если API не может найти шрифты в файловой системе, он отображает электронную таблицу с использованием Arial.
+1. API пытается найти шрифты на файловой системе, соответствующие точному имени шрифта, используемому в электронной таблице.
+1. Если API не может найти шрифты с точно таким же именем, он пытается использовать шрифт по умолчанию, указанный в свойстве [**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) книги.
+1. Если API не может найти шрифт, определенный в свойстве [**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) книги, он пытается использовать шрифт, указанный в свойствах [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) или [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont).
+1. Если API не может найти шрифт, определенный в свойствах [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) или [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont), он пытается использовать шрифт, указанный в свойстве [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName).
+1. Если API не может найти шрифт, определенный в свойстве [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName), он пытается выбрать наиболее подходящие шрифты из всех доступных шрифтов.
+1. Наконец, если API не может найти шрифты на файловой системе, он визуализирует электронную таблицу с использованием шрифта Arial.
 
 {{% alert color="primary" %}}
 
- API-интерфейсы Aspose.Cells всегда сканируют каталог шрифтов операционной системы по умолчанию, за одним исключением: когда аргументы JVM**-DAspose.Cells.FontDirExc="ВашКаталогШрифта"**установлены. В этом случае API-интерфейсы Aspose.Cells пропустят сканирование каталога шрифтов операционной системы по умолчанию и будут искать только путь, указанный в вышеупомянутых аргументах JVM.
+API Aspose.Cells всегда сканирует каталог шрифтов операционной системы по умолчанию за исключением случаев, когда установлены аргументы JVM **-DAspose.Cells.FontDirExc="YourFontDir"**. В этом случае API Aspose.Cells пропустит сканирование каталога шрифтов операционной системы по умолчанию и выполнит поиск только по пути, указанному в вышеупомянутых аргументах JVM.
 
 {{% /alert %}}
 
-## **Установить папки пользовательских шрифтов**
+## **Установка пользовательских каталогов шрифтов**
 
- Aspose.Cells API-интерфейсы выполняют поиск требуемых шрифтов в каталоге шрифтов операционной системы по умолчанию. Если требуемые шрифты недоступны в системном каталоге шрифтов, API-интерфейсы выполняют поиск в пользовательских (определяемых пользователем) каталогах.[**Конфигурации шрифтов**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs)class предоставил несколько способов установки пользовательских каталогов шрифтов, как описано ниже.
+API Aspose.Cells ищет каталог шрифтов операционной системы по умолчанию для необходимых шрифтов. В случае отсутствия необходимых шрифтов в каталоге шрифтов системы API выполняет поиск по пользовательским (заданным пользователем) каталогам. Класс [**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs) предоставляет несколько способов установки пользовательских каталогов шрифтов, описанных ниже.
 
-1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): Этот метод удобен, если необходимо установить только одну папку.
-1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): этот метод удобен, когда шрифты находятся в нескольких папках, и пользователь хочет установить все папки по отдельности, а не объединять все шрифты в одной папке.
-1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): этот механизм полезен, когда пользователь хочет загрузить шрифты из нескольких папок или одного файла шрифта или данных шрифта из массива байтов.
+1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): Этот метод полезен, если нужно установить только одну папку.
+1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): Этот метод полезен, когда шрифты находятся в нескольких папках, и пользователь хочет установить каждую папку отдельно, а не объединить все шрифты в одну папку.
+1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): Этот механизм полезен, когда пользователь хочет загружать шрифты из нескольких папок или одного файла шрифта или данных шрифта из массива байтов.
 
 {{% alert color="primary" %}}
 
- Обе[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) & [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean) ) методы принимают второй параметр логического типа. Прохождение**истинный**в качестве второго параметра направит API Aspose.Cells на поиск файлов шрифтов во вложенных папках.
+И [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)), и методы [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)) принимают логический второй параметр. Передача **true** вторым параметром направит API Aspose.Cells на поиск файлов шрифтов во вложенных папках.
 
 {{% /alert %}}
 
@@ -43,31 +44,31 @@ API-интерфейсы Aspose.Cells позволяют отображать э
 
 {{% alert color="primary" %}}
 
-Пожалуйста, используйте любой из вышеупомянутых методов при запуске приложения, то есть; перед вызовом любых других объектов Aspose.Cells API.
+Пожалуйста, используйте любой из вышеупомянутых методов в начале приложения, то есть перед вызовом любых других объектов API Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-Если для установки источников шрифта используется более одного из вышеупомянутых методов, вступят в силу только последние настройки.
+Если для установки источников шрифтов было использовано более одного из вышеупомянутых методов, будут применены только последние настройки.
 
 {{% /alert %}}
 
-## **Механизм замены шрифта**
+## **Механизм подстановки шрифтов**
 
-Aspose.Cells API-интерфейсы также предоставляют возможность указать замещающий шрифт для целей рендеринга. Этот механизм удобен, когда требуемый шрифт недоступен на машине, на которой должно выполняться преобразование. Пользователи могут предоставить список имен шрифтов в качестве альтернативы первоначально необходимому шрифту. Для этого API-интерфейсы Aspose.Cells предоставили метод FontConfigs.setFontSubstitutes, который принимает 2 параметра. Первый параметр имеет тип**Нить** , которое должно быть названием шрифта, который необходимо заменить. Второй параметр представляет собой массив типа**Нить**. Пользователи могут предоставить список имен шрифтов в качестве заменителей исходного шрифта (указанного в первом параметре).
+API Aspose.Cells также обеспечивает возможность указать запасной шрифт для целей рендеринга. Этот механизм полезен, когда необходимый шрифт недоступен на машине, где должно происходить преобразование. Пользователи могут предоставить список названий шрифтов в качестве альтернативы исходно требуемому шрифту. Для этого API Aspose.Cells предоставляют метод setFontSubstitutes, который принимает 2 параметра. Первый параметр имеет тип String, который должен быть именем шрифта, который требуется заменить. Второй параметр - массив типа String. Пользователи могут предоставить список названий шрифтов в качестве заменителей для оригинального шрифта (указанного в первом параметре).
 
 Вот простой сценарий использования.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Substituting the Arial font with Times New Roman & Calibri
 
-FontConfigs.setFontSubstitutes("Arial", new String[]{ "Times New Roman", "Calibri" });
+FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calibri" });
 
 {{< /highlight >}}
 
 ## **Сбор информации**
 
-В дополнение к вышеупомянутым методам API-интерфейсы Aspose.Cells также предоставляют средства для сбора информации о том, какие источники и замены были установлены.
+Кроме вышеупомянутых методов, API Aspose.Cells также предоставляют средства для сбора информации о том, какие источники и замены были установлены.
 
-1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources() ): Этот метод возвращает массив типа[**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource)содержащий список указанных источников шрифтов. В случае, если источники не были установлены,[**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources()) вернет пустой массив.
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String) ): этот метод принимает параметр типа**Нить** позволяет указать имя шрифта, для которого установлена замена. В случае, если для указанного имени шрифта не была установлена замена, то[**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) метод вернет null.
+1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--): Этот метод возвращает массив типа [**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource), содержащий список указанных источников шрифтов. В случае отсутствия установленных источников метод [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--) вернет пустой массив.
+1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)): Этот метод принимает параметр типа **String**, позволяя указать имя шрифта, для которого задано замещение. В случае, если для указанного имени шрифта замещение не было установлено, метод [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) вернет null.

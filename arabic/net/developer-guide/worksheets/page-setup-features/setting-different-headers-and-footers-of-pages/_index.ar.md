@@ -1,29 +1,30 @@
 ---
-title: تعيين رؤوس وتذييلات مختلفة لصفحات مختلفة
+title: ضبط رؤوس وأسافل مختلفة لصفحات مختلفة
 type: docs
 weight: 35
 url: /ar/net/setting-different-headers-and-footers-for-pages-to-Excel/
-description: توفر هذه المقالة نموذج التعليمات البرمجية الذي يوضح كيفية تعيين رؤوس وتذييلات مختلفة برمجيًا لإعدادات إعداد صفحة ورقة عمل Excel باستخدام مكتبة C# و .NET API. يمكنك تعيين الرؤوس والتذييلات للصفحة الأولى والصفحات الفردية والزوجية.
-keywords: set excel header footer first page c#, set excel header footer odd pages c#, set excel header footer even pages c#
+description: يقدم هذا المقال رمزًا عينيًا يُظهر كيفية ضبط رؤوس وأسافل مختلفة لإعدادات تخطيط الصفحة في ورقة Excel بشكل برمجي باستخدام مكتبة C# وواجهة برمجة التطبيقات .NET. يمكنك ضبط رؤوس وأسافل الصفحة الأولى والصفحات الزوجية والفردية.
+keywords: ضبط رأس وتسفل إكسل الصفحة الأولى c#، ضبط رأس وتسفل إكسل الصفحات الفردية c#، ضبط رأس وتسفل إكسل الصفحات الزوجية c#
 ---
+
 {{% alert color="primary" %}}
 
-يدعم MS Excel تعيين رؤوس وتذييلات مختلفة للصفحة الأولى والصفحات الفردية وحتى الصفحات منذ Excel 2007.
-Aspose.Cells يدعم نفس الميزة.
+تدعم MS Excel ضبط رؤوس وأسافل مختلفة للصفحة الأولى والصفحات الفردية والصفحات الزوجية منذ Excel 2007.
+يدعم Aspose.Cells نفس الميزة.
 
 {{% /alert %}}
 
-##  **وضع رؤوس وتذييلات مختلفة في MS Excel**
+## **ضبط رؤوس وأسافل مختلفة في MS Excel**
 
-**! [تعيين رؤوس وتذييلات مختلفة] (difpage.png)**
+**![ضبط رؤوس وأسافل مختلفة](difpage.png)**
 
-1. انقر فوق * تخطيط الصفحة> عناوين الطباعة> الرأس / التذييل **.
-1.  يفحص**مختلف الصفحات الفردية والزوجية** أو * صفحة تنوب مختلفة **.
-1. أدخل رؤوس وتذييلات مختلفة.
+1. انقر على **تخطيط الصفحة > عناوين الطباعة > رأس/تسفل**.
+1. تفقد **صفحات فردية وزوجية مختلفة** أو **صفحة أولى مختلفة**.
+1. أدخل رؤوس وأسافل مختلفة.
 
-##  **ضبط رؤوس وتذييلات مختلفة مع Aspose.Cells**
+## **ضبط رؤوس وأسافل مختلفة باستخدام Aspose.Cells**
 
-Aspose.Cells يتصرف مثل Excel.
-1.  يضبط الأعلام[PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) و[PageSetup.SHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 
-1. أدخل رؤوس وتذييلات مختلفة.
+تتصرف Aspose.Cells بنفس الطريقة كما تفعل Excel.
+1. يقوم بتعيين العلامات [PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) و [PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 
+1. أدخل رؤوس وأسافل مختلفة.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DiffHeaderFooter.cs" >}}

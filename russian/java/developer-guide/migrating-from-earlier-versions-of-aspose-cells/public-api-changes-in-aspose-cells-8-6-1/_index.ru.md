@@ -1,28 +1,29 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.6.1
+---
+title: Изменения в общедоступном API в Aspose.Cells 8.6.1
 type: docs
 weight: 210
 url: /ru/java/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.6.0 до 8.6.1, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы, добавленные классы, но и описание любых изменений поведения за кулисами в Aspose.Cells.
+Этот документ описывает изменения в Aspose.Cells API с версии 8.6.0 по 8.6.1, которые могут быть интересны модульным/приложенческим разработчикам. В нем содержится не только новые и обновленные открытые методы, добавленные классы, но также описание любых изменений в поведении за кадром в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Поддержка HTML Тип цели ссылки**
- В этом выпуске Aspose.Cells for Java API представлено перечисление, а именно HtmlLinkTargetType вместе с новым свойством HtmlSaveOptions.LinkTargetType, которое вместе позволяет[установить целевой тип для ссылок в электронной таблице при преобразовании в формат HTML](/cells/ru/java/change-the-html-link-target-type/). Ниже приведены возможные значения перечисления HtmlLinkTargetType, где значение по умолчанию — SELF.
+## **Добавленные API**
+### **Поддержка типа цели HTML-ссылки**
+В этой версии API Aspose.Cells for Java было представлено перечисление, а именно HtmlLinkTargetType, вместе с новым свойством HtmlSaveOptions.LinkTargetType, которые вместе позволяют [установить тип цели для ссылок в электронной таблице при конвертации в формат HTML](/cells/ru/java/change-the-html-link-target-type/). Возможные значения перечисления HtmlLinkTargetType следующие, где значение по умолчанию - SELF.
 
-1. HtmlLinkTargetType.BLANK: открывает связанный документ/страницу в новом окне или вкладке.
-1. HtmlLinkTargetType.PARENT: открывает связанный документ/страницу в родительском фрейме.
-1. HtmlLinkTargetType.SELF: открывает связанный документ/страницу в том же фрейме, где была нажата ссылка.
-1. HtmlLinkTargetType.TOP: открывает связанный документ/страницу во всем теле окна.
+1. HtmlLinkTargetType.BLANK: Открывает связанный документ/страницу в новом окне или вкладке.
+1. HtmlLinkTargetType.PARENT: Открывает связанный документ/страницу в родительском фрейме.
+1. HtmlLinkTargetType.SELF: Открывает связанный документ/страницу в том же фрейме, где была кликнута ссылка.
+1. HtmlLinkTargetType.TOP: Открывает связанный документ/страницу в полной области окна.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -43,13 +44,13 @@ workbook.save(outputFilePath, options);
 
 {{< /highlight >}}
 ### **Добавлен метод VbaModuleCollection.remove**
-Aspose.Cells for Java 8.6.1 представила другую перегрузку метода VbaModuleCollection.remove, который теперь может принимать экземпляр Worksheet для удаления всех модулей VBA, связанных с указанным Worksheet.
+Aspose.Cells for Java 8.6.1 представляет еще одну перегрузку метода VbaModuleCollection.remove, которая теперь может принимать экземпляр Worksheet для удаления всех модулей VBA, связанных с указанным Worksheet.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -65,13 +66,13 @@ modules.remove(workbook.getWorksheets().get(0));
 
 {{< /highlight >}}
 ### **Добавлен метод RangeCollection.add**
-Aspose.Cells for Java 8.6.1 предоставил метод RangeCollection.Add, который можно использовать для добавления объектов Range в коллекцию диапазонов для определенного рабочего листа.
+Aspose.Cells for Java 8.6.1 представил метод RangeCollection.Add, который может быть использован для добавления объектов Range в коллекцию диапазонов для конкретного Worksheet.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -91,13 +92,13 @@ ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
 ### **Добавлен метод Cell.setCharacters**
- Метод Cell.setCharacters можно использовать для[обновить части форматированного текста](/cells/ru/java/access-and-update-the-portions-of-rich-text-of-cell/) данного объекта Cell. Метод Cell.getCharacters должен использоваться для доступа к частям текста, а затем можно вносить поправки с помощью метода Cell.setCharacters, тогда как метод**получать** Метод возвращает массив объектов FontSetting, которыми можно манипулировать, чтобы установить различные свойства: имя шрифта, цвет шрифта, жирность и т. д.**установлен** можно использовать для применения изменений.
+Метод Cell.setCharacters может быть использован для [обновления частей форматированного текста](/cells/ru/java/access-and-update-the-portions-of-rich-text-of-cell/) заданного объекта Cell. Метод Cell.getCharacters должен быть использован для доступа к частям текста, после чего изменения можно внести с использованием метода Cell.setCharacters, в то время как метод **get** возвращает массив объектов FontSetting, которые могут быть изменены для установки различных свойств, таких как имя шрифта, цвет шрифта, жирность и т. д., и метод **set** может быть использован для применения изменений.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -113,7 +114,7 @@ Cell cell = worksheet.getCells().get("A1");
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.getCharacters();
+FontSetting[] settings = cell.getCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -125,13 +126,13 @@ cell.setCharacters(settings);
 
 {{< /highlight >}}
 ### **Добавлено свойство VbaProject.isSigned**
- Aspose.Cells for Java 8.6.1 предоставил свойство VbaProject.isSigned, которое можно использовать для[проверить, подписан ли VbaProject в рабочей книге или нет](/cells/ru/java/check-if-vba-project-in-a-workbook-is-signed/)Свойство логического типа возвращает true, если проект подписан.
+Aspose.Cells for Java 8.6.1 представил свойство VbaProject.isSigned, которое может быть использовано для [проверки, подписан ли проект VBA в книге Excel или нет](/cells/ru/java/check-if-vba-project-in-a-workbook-is-signed/). Свойство типа Boolean возвращает true, если проект подписан.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -161,8 +162,8 @@ else
 
 {{< /highlight >}}
 ## **Измененные API**
-### **Метод Cell.getFormatConditions изменен**
-В выпуске версии 8.6.1 в Aspose.Cells for Java API был изменен тип возвращаемого значения метода Cell.getFormatConditions, который теперь возвращает массив типа FormatConditionCollection.
+### **Изменен метод Cell.getFormatConditions**
+С выпуском v8.6.1 API Aspose.Cells for Java изменил возвращаемый тип метода Cell.getFormatConditions, теперь он возвращает массив типа FormatConditionCollection.
 ## **Устаревшие API**
-### **Метод Workbook.checkWriteProtectedPassword устарел**
-С выпуском версии 8.6.1 метод Workbook.checkWriteProtectedPassword был помечен как устаревший. Рекомендуется использовать метод WorkbookSettings.WriteProtection.validatePassword, который может принимать строковое значение в качестве параметра и возвращает логическое значение, если пароль соответствует предустановленному паролю электронной таблицы.
+### **Устаревший метод Workbook.checkWriteProtectedPassword**
+С выпуском v8.6.1 метод Workbook.checkWriteProtectedPassword был отмечен как устаревший. Рекомендуется использовать метод WorkbookSettings.WriteProtection.validatePassword, который может принимать строковое значение в качестве параметра и возвращает булево значение, если пароль соответствует предустановленному паролю таблицы.

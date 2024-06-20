@@ -1,21 +1,22 @@
 ---
-title: Salva ogni foglio di lavoro in un file PDF diverso
+title: Salva ciascun foglio di calcolo in un file PDF separato
 type: docs
 weight: 130
 url: /it/net/save-each-worksheet-to-a-different-pdf-file/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells supporta la conversione di file XLS (che contengono immagini, grafici, ecc.) in documenti PDF. Aspose.Cells for .NET può funzionare in modo indipendente per convertire un foglio di calcolo in PDF e non è necessario utilizzare Aspose.PDF for .NET per la conversione. La conversione non richiede al software di creare o utilizzare alcun file temporaneo poiché l'intero processo può essere eseguito in memoria.
+Aspose.Cells supporta la conversione dei file XLS (che contengono immagini, grafici, ecc.) in documenti PDF. Aspose.Cells for .NET può lavorare in modo indipendente per convertire un foglio di calcolo in PDF e non è necessario utilizzare Aspose.PDF per .NET per la conversione. La conversione non richiede al software di creare o utilizzare file temporanei in quanto l'intero processo può essere eseguito in memoria.
 
 {{% /alert %}} 
-##  **Salva ogni foglio di lavoro in un file PDF diverso**
- Se è necessario salvare ogni foglio di lavoro nel file Excel del modello per generare diversi file PDF, è possibile farlo facilmente. Puoi provare a impostare un indice del foglio su**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** opzione alla volta per eseguire il rendering a PDF.
+## **Salva ciascun foglio di calcolo in un file PDF separato**
+Se è necessario salvare ciascun foglio di lavoro nel file di modello Excel per generare file PDF diversi, è possibile farlo facilmente. È possibile provare a impostare un indice di foglio alla volta sull'opzione [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) per renderlo in PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SaveEachWorksheetToDifferentPDF-1.cs" >}}
 
 {{% alert color="primary" %}} 
 
- Se il tuo foglio di calcolo contiene formule, è meglio chiamare[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) appena prima di eseguire il rendering del foglio di calcolo nel formato PDF. In questo modo si assicurerà che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati in PDF.
+Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) proprio prima di rendere il foglio di calcolo in formato PDF. In questo modo si garantisce il ricalcolo dei valori dipendenti dalle formule e la visualizzazione dei valori corretti nel PDF.
 
 {{% /alert %}}

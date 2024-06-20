@@ -1,15 +1,16 @@
-﻿---
-title: xlsx4j でスプレッドシートを PDF に変換する
+---
+title: xlsx4j でのスプレッドシートの PDF への変換
 type: docs
 weight: 10
 url: /ja/java/convert-spreadsheet-to-pdf-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - XLS を PDF に変換**
-PDF ドキュメントは、組織、政府部門、および個人の間でドキュメントを交換するための標準形式として広く使用されています。ソフトウェア開発者は、Microsoft Excel ファイルを PDF ドキュメントに簡単に変換する方法を考案するように求められることがよくあります。 Aspose.Cells はこの機能をサポートしています。
+PDFドキュメントは組織間、政府セクター、個人間での文書交換の標準フォーマットとして広く使用されています。ソフトウェア開発者は、Microsoft Excelファイルを簡単にPDF文書に変換する方法を考案するよう求められることがよくあります。Aspose.Cellsはこの機能をサポートしています。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook(dataDir + "workbook.xls");
 
@@ -18,13 +19,13 @@ PDF ドキュメントは、組織、政府部門、および個人の間でド�
 workbook.save(dataDir + "AsposeConvert.pdf", SaveFormat.PDF);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/converter/converttoformats/AsposeConverter.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[Excel を PDF ファイルに変換する](/java/converting-excel-to-pdf-files).
+詳細については、[Excel ファイルを PDF に変換](/java/converting-excel-to-pdf-files) をご覧ください。
 
 {{% /alert %}}

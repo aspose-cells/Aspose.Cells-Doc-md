@@ -1,26 +1,27 @@
-﻿---
-title: الوصول إلى تسمية العرض الخاصة بكائن Ole المرتبط وتعديلها
+---
+title: الوصول إلى وتعديل التسمية العرضية لكائن Ole المرتبط
 type: docs
 weight: 100
 url: /ar/net/access-and-modify-the-display-label-of-the-linked-ole-object/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
- Microsoft يسمح لك Excel بتغيير تسمية العرض الخاصة بكائن Ole كما هو موضح في لقطة الشاشة التالية. يمكنك أيضًا الوصول إلى تسمية العرض الخاصة بكائن Ole أو تعديلها باستخدام واجهات برمجة التطبيقات Aspose.Cells بامتداد[**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label)خاصية.
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به: image_بديل_نص](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
+تسمح لك Microsoft Excel بتغيير تسمية عرض كائن Ole كما هو موضح في الصورة التالية. يمكنك أيضًا الوصول إلى أو تعديل تسمية عرض الكائن Ole باستخدام واجهات برمجة التطبيقات Aspose.Cells مع خاصية [**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label)
 
-## **الوصول إلى تسمية العرض الخاصة بكائن Ole المرتبط وتعديلها**
+![todo:image_alt_text](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 
-يرجى الاطلاع على نموذج التعليمات البرمجية التالي ، حيث يقوم بتحميل ملف[نموذج لملف Excel](64716810.xlsx)الذي يحتوي على كائن Ole. يصل الرمز إلى كائن Ole ويغير تسميته من نموذج APIs إلى Aspose APIs. يرجى الاطلاع على إخراج وحدة التحكم الموضح أدناه والذي يوضح تأثير نموذج التعليمات البرمجية على نموذج ملف Excel كمرجع.
+## **الوصول إلى وتعديل التسمية العرضية لكائن Ole المرتبط**
 
-## **عينة من الرموز**
+يرجى الاطلاع على كود العينة التالي، يقوم بتحميل [ملف الإكسل عينة](64716810.xlsx) الذي يحتوي على كائن Ole. يقوم الكود بالوصول إلى كائن Ole وتغيير تسميته من Sample APIs إلى Aspose APIs. الرجاء الاطلاع على إخراج وحدة التحكم المطبوع أدناه الذي يظهر تأثير كود العينة على ملف الإكسل العينة للإشارة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-AccessAndModifyLabelOfOleObject.cs" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Ole Object Label - Before: Sample APIs
 

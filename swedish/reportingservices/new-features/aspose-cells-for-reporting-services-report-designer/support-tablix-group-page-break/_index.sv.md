@@ -1,10 +1,11 @@
-﻿---
-title: Stöd tablix grupp sidbrytning
+---
+title: Stöd för tablixgruppsidbrott
 type: docs
 weight: 40
 url: /sv/reportingservices/support-tablix-group-page-break/
 ---
-Den ställer in gruppsidbrytning (mellan) och sidbrytning för tabellrapportobjekt. Standardvärdet är inställt på ingen sidbrytning.
+
+Den ställer in gruppsidbrott (mellan) och sidbrott för tabellrapportobjektet. Standardvärdet är inställt på inget sidbrott. 
 
 ![todo:image_alt_text](support-tablix-group-page-break_1.png)
 

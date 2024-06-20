@@ -1,16 +1,17 @@
-﻿---
-title: Verwalten von Seitenumbrüchen in Php
+---
+title: Seitenumbrüche in PHP verwalten
 type: docs
 weight: 20
 url: /de/java/managing-page-breaks-in-php/
 ---
-## **Aspose.Cells – Verwalten von Seitenumbrüchen**
+
+## **Aspose.Cells - Seitenumbrüche verwalten**
 ### **Seitenumbrüche hinzufügen**
- So fügen Sie Seitenumbrüche hinzu mit**Aspose.Cells Java for PHP** , Anruf**add_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+Um Seitenumbrüche mit **Aspose.Cells Java für PHP** hinzuzufügen, rufen Sie die Methode **add_page_breaks** des Moduls **pagebreaks** auf. Nachfolgend finden Sie ein Beispiel für den Code.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $worksheets = $workbook->getWorksheets();
 
@@ -29,12 +30,12 @@ $v_page_breaks->add("Y30");
 $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
-### **Löschen aller Seitenumbrüche**
- Um alle Seitenumbrüche zu löschen, verwenden Sie**Aspose.Cells Java for PHP** , Anruf**clear_all_page_breaks** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+### **Alle Seitenumbrüche löschen**
+Um alle Seitenumbrüche mit **Aspose.Cells Java für PHP** zu löschen, rufen Sie die Methode **clear_all_page_breaks** des Moduls **pagebreaks** auf. Nachfolgend finden Sie ein Beispiel für den Code.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $workbook->getWorksheets()->get(0)->getHorizontalPageBreaks()->clear();
 
@@ -45,12 +46,12 @@ $workbook->getWorksheets()->get(0)->getVerticalPageBreaks()->clear();
 $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
-### **Entfernen eines bestimmten Seitenumbruchs**
- So entfernen Sie einen bestimmten Seitenumbruch mit**Aspose.Cells Java for PHP** , Anruf**remove_page_break** Methode von**Seitenumbrüche** Modul. Unten sehen Sie ein Codebeispiel.
+### **Bestimmten Seitenumbruch entfernen**
+Um einen bestimmten Seitenumbruch mit **Aspose.Cells Java für PHP** zu entfernen, rufen Sie die Methode **remove_page_break** des Moduls **pagebreaks** auf. Nachfolgend finden Sie ein Beispiel für den Code.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $worksheets = $workbook->getWorksheets();
 
@@ -69,7 +70,7 @@ $v_page_breaks->removeAt(0);
 $workbook->save($dataDir . "Remove Page Break.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Seitenumbrüche verwalten (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+**Seitenumbrüche verwalten (Aspose.Cells)** von einer der unten genannten Plattformen für soziale Programmierung herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/ManagingPageBreaks.php)

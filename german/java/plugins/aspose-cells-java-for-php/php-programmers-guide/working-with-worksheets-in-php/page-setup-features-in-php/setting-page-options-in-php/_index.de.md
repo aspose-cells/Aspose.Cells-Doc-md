@@ -1,16 +1,17 @@
-﻿---
-title: Festlegen von Seitenoptionen in Php
+---
+title: Seiteneinstellungen in PHP festlegen
 type: docs
 weight: 10
 url: /de/java/setting-page-options-in-php/
 ---
-## **Aspose.Cells – Festlegen von Seitenoptionen**
+
+## **Aspose.Cells - Seitenoptionen einstellen**
 ### **Seitenausrichtung**
- So wenden Sie Seitenausrichtungseinstellungen an mit**Aspose.Cells Java for PHP** , Anruf**Seitenausrichtung** Methode von**Seiteneinrichtung** Modul.
+Um Seitenausrichtungseinstellungen mit **Aspose.Cells Java für PHP** anzuwenden, rufen Sie die Methode **page_orientation** des Moduls **pagesetup** auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function page_orientation($dataDir=null)
 
@@ -45,12 +46,12 @@ url: /de/java/setting-page-options-in-php/
 }
 
 {{< /highlight >}}
-### **Vergößerungsfaktor, Verkleinerungsfaktor**
- Skalierung anwenden mit**Aspose.Cells Java for PHP** , Anruf**Skalierung** Methode von**Seiteneinrichtung** Modul.
+### **Maßstab**
+Um Skalierung mit **Aspose.Cells Java für PHP** anzuwenden, rufen Sie die Methode **scaling** des Moduls **pagesetup** auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function scaling($dataDir=null)
 
@@ -84,7 +85,7 @@ url: /de/java/setting-page-options-in-php/
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Seitenoptionen einstellen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie die **Einstellungsoptionen für Seiten (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/PageSetupFeatures/SettingPageOptions.php)

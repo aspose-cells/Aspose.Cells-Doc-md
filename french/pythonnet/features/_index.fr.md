@@ -1,65 +1,66 @@
-﻿---
+---
 title: Caractéristiques
 type: docs
 weight: 5
 url: /fr/python-net/features/
-keywords: python, excel, api, feature
-description: Aspose.Cells for Python via .NET caractéristiques
+keywords: "python, excel, api, fonctionnalités"
+description: "Aspose.Cells pour Python via .NET fonctionnalités"
 ---
+
 {{% alert color="primary" %}} 
 
-Cette page résume les fonctionnalités Aspose.Cells for Python via .NET.
+Cette page résume les fonctionnalités d'Aspose.Cells pour Python via .NET
 
 {{% /alert %}} 
 ## **Formats de fichiers et conversions**
-- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF , JPG, PNG, BMP et SVG.
-## **Rendu et impression**
-- Convertir la feuille de calcul en images vectorielles (EMF)
-- Rendu des feuilles de calcul en images raster (Multipage TIFF, GIF)
-- Rendu des feuilles de calcul en images raster (PNG, JPEG, etc.)
-- Rendre la feuille de calcul au PDF avec une haute fidélité
-## **Fonctionnalités de contenu de feuille de calcul**
-- Copier ou déplacer des feuilles de calcul dans ou entre des classeurs
-- Insérez des images, créez des graphiques conventionnels et personnalisés et définissez un arrière-plan dégradé pour les graphiques à l'aide de API
-- Ajouter des commentaires aux cellules
-- Microsoft Thèmes et couleurs Excel 2007 et versions ultérieures
-- Créer des filtres automatiques
-- Mettre en œuvre des validations de données
-- Implémenter le tri des données
-- Rechercher et remplacer du texte
-- Fusionner/diviser Cells
-- Regrouper/dissocier des lignes et des colonnes
-- Créer des sauts de page personnalisés
-- Calculer des formules Excel complexes
-- Prise en charge de la mise en forme conditionnelle avancée prise en charge dans Microsoft Excel 2007 et versions ultérieures
-- Figer/libérer les volets
-- Insérer des hyperliens pour lier les données
-- Mettre en œuvre des marqueurs intelligents
-- Spécifier les paramètres des propriétés du document
-- Protéger/déprotéger les feuilles de calcul
-- Spécifiez les options de protection avancées introduites dans Excel XP et les versions ultérieures
-- Créer un objet de liste/Microsoft Tableaux Excel
+- XLS, SpreadsheetML (XLSX, XML), XLSB, XLSM, DOCX, PPTX, JSON, valeur séparée par des virgules (CSV), HTML, feuille de calcul OpenDocument (ODS), PDF, tabulation, texte brut (TXT) et formats d'image populaires incluant TIFF, JPG, PNG, BMP et SVG
+## **Rendu et Impression**
+- Rendre les feuilles de calcul en images vectorielles (EMF)
+- Rendre les feuilles de calcul en images matricielles (TIFF multipage, GIF)
+- Rendre les feuilles de calcul en images matricielles (PNG, JPEG, etc.)
+- Rendre la feuille de calcul en PDF avec une haute fidélité
+## **Fonctionnalités du contenu de feuille de calcul**
+- Copiez ou déplacez des feuilles de calcul au sein ou entre des classeurs
+- Insérez des images, créez des graphiques conventionnels et personnalisés et définissez un arrière-plan dégradé pour les graphiques à l'aide de l'API
+- Ajoutez des commentaires aux cellules
+- Thèmes et couleurs de Microsoft Excel 2007 et versions ultérieures
+- Créez des filtres automatiques
+- Mettez en œuvre des validations de données
+- Mettez en œuvre le tri des données
+- Recherchez et remplacez du texte
+- Fusionnez/divisez des cellules
+- Groupez/dégroupez des lignes et des colonnes
+- Créez des sauts de page personnalisés
+- Calculez des formules Excel complexes
+- Prise en charge des mises en forme conditionnelle avancées prises en charge dans Microsoft Excel 2007 et versions ultérieures
+- Gèle ou dégèle des volets
+- Insérez des hyperliens pour lier des données
+- Mettez en œuvre des marqueurs intelligents
+- Spécifiez les paramètres des propriétés du document
+- Protégez/déprotégez des feuilles de calcul
+- Spécifiez des options de protection avancées introduites dans Excel XP et versions ultérieures
+- Créez des objets de liste/tables Microsoft Excel
 - Créer des sous-totaux
-- Insérer des contrôles de formulaire et d'autres formes/objets de dessin
-- Créer des tableaux croisés dynamiques et des graphiques croisés dynamiques
-- Conserver ou supprimer le complément, VBA, les macros
+- Insérer des contrôles de formulaire et autres formes/objets de dessin
+- Créer des tableaux et graphiques croisés dynamiques
+- Préserver ou supprimer des compléments, VBA, macros
 - Manipuler des plages nommées
-- Ajoutez, conservez ou extrayez des objets OLE des feuilles de calcul.
-- Mettre en œuvre Microsoft Sparklines Excel
-- Crypter les fichiers
+- Ajouter, préserver ou extraire des objets OLE des feuilles de calcul.
+- Implémenter des mini-graphiques Microsoft Excel
+- Crypter des fichiers
 ## **Fonctionnalités de formatage de feuille de calcul**
-- Appliquer tous les caractères de mise en forme dans les cellules, y compris les polices, les couleurs, les effets, les bordures et l'ombrage
+- Appliquer toute la mise en forme des caractères dans les cellules, y compris les polices, couleurs, effets, bordures et ombrage
 - Appliquer tous les paramètres de format numérique (pris en charge dans Microsoft Excel) pour les cellules
 - Définir tous les types de paramètres d'alignement du texte
 - Appliquer différents types de paramètres de police pour les cellules
-- Appliquez différentes couleurs aux cellules, polices, quadrillages, objets graphiques, etc.
-- Appliquer différentes mises en forme de texte enrichi dans une seule cellule
+- Appliquer différentes couleurs aux cellules, polices, quadrillage, objets graphiques, etc.
+- Appliquer une mise en forme de texte enrichi différente dans une seule cellule
 - Appliquer différents paramètres de bordure sur les cellules
 - Appliquer différents motifs d'arrière-plan sur les cellules
-- Appliquer les paramètres de format sur une feuille de calcul, une ligne, une colonne ou une plage de cellules, etc.
+- Appliquer des paramètres de format sur une feuille de calcul, une ligne, une colonne ou une plage de cellules, etc.
 ## **Fonctionnalités de configuration de page**
-- Ajustez l'orientation de votre page, la mise à l'échelle, la taille du papier
+- Ajuster votre orientation de page, mise à l'échelle, taille de papier
 - Spécifiez vos marges et le centrage de la page
-- Créer ou modifier votre en-tête et/ou pied de page
-- Définissez la zone d'impression, imprimez les titres ou activez le quadrillage, etc.
+- Créez ou modifiez votre en-tête et/ou pied de page
+- Définissez la zone d'impression, les titres d'impression ou activez les lignes de quadrillage, etc.
 

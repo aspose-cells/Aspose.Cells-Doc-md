@@ -1,13 +1,14 @@
-﻿---
-title: Akıllı İşaretleyicilerde Verileri Gruplandırırken Görüntü İşaretleyicileri Kullanma
+---
+title: Akıllı İşaretçi Alanında Verileri Gruplandırırken Resim İşaretçileri Kullanma
 type: docs
 weight: 30
 url: /tr/net/using-image-markers-while-grouping-data-in-smart-markers/
 ---
-## **Akıllı İşaretleyicilerde Verileri Gruplandırırken Görüntü İşaretleyicileri Kullanma**
-Aşağıdaki örnek bir çalışma kitabı oluşturur ve ardından sırasıyla D2, E2 ve F2 hücrelerine aşağıdaki akıllı işaretçi etiketlerini ekler.
 
-{{< highlight "java" >}}
+## **Akıllı İşaretçi Alanında Verileri Gruplandırırken Resim İşaretçileri Kullanma**
+Aşağıdaki örnek bir çalışma kitabı oluşturur ve ardından sırasıyla D2, E2 ve F2 hücrelerine akıllı işaretçi etiketlerini ekler.
+
+{{< highlight java >}}
 
  &=Person.Name(group:normal,skip:1)
 
@@ -17,7 +18,7 @@ Aşağıdaki örnek bir çalışma kitabı oluşturur ve ardından sırasıyla D
 
 {{< /highlight >}}
 
- Ardından veri kaynağını verilerle doldurur ve[WorkbookDesigner.Process()](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/methods/process) akıllı işaretleyici etiketlerini işleme yöntemi. Kod, bu görüntüleri kullanır, yani[ay.png](5115492.png) ve[ay2.png](5115491.png) ancak herhangi bir resmi kullanabilirsiniz.
+Daha sonra veri kaynağını veri ile doldurur ve [WorkbookDesigner.Process()](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/methods/process) yöntemini çağırarak akıllı işaretçi etiketlerini işler. Kod, şu resimleri [moon.png](5115492.png) ve [moon2.png](5115491.png) kullanır ancak istediğiniz resmi kullanabilirsiniz.
 
 
 

@@ -1,26 +1,27 @@
 ---
-title: Ange hur strängen ska korsas i utgång PDF och bild
+title: Ange hur du ska korsa strängen i utdata PDF och bild
 type: docs
 weight: 120
 url: /sv/python-net/specify-how-to-cross-string-in-output-pdf-and-image/
-description: Lär dig hur du korsar strängen i utgång PDF och bild med Aspose.Cells for Python via .NET API.
-keywords: Python Cross String in output PDF and image
+description: Lär dig hur man korsar strängar i utdata PDF och bild med Aspose.Cells för Python via .NET API.
+keywords: Python Korsa strängar i utdata PDF och bild
 ---
-##  **Möjliga användningsscenarier**
 
-När en cell innehåller text eller sträng men den är större än cellens bredd, svämmar strängen över om nästa cell i nästa kolumn är null eller tom. När du sparar din Excel-fil i PDF/Image kan du kontrollera detta överflöde genom att ange korstypen med hjälp av[**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/)uppräkning. Den har följande värden
+## **Möjliga användningsscenario**
 
-- *TextCrossType.DEFAULT**: Visa text som MS Excel som beror på nästa cell. Om nästa cell är null kommer strängen att korsas eller trunkeras.
+När en cell innehåller text eller sträng men den är större än bredden på cellen, då överflödar strängen om nästa cell i nästa kolumn är tom eller tom. När du sparar din Excelfil till PDF/bild kan du styra det här flödet genom att specificera korsningsunikt med [**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/)-uppräkning. Det har följande värden
 
-- *TextCrossType.CROSS_KEEP**: Visa strängen som MS Excel som exporterar PDF/Bild
+- **TextCrossType.DEFAULT**: Visa text som MS Excel som beror på nästa cell. Om nästa cell är tom kommer strängen att korsa eller bli avkortad.
 
-- *TextCrossType.CROSS_OVERRIDE**: Visa all text genom att korsa andra celler och åsidosätta texten i korsade celler
+- **TextCrossType.CROSS_KEEP**: Visa strängen som MS Excel exporterar PDF/bild
 
-- *TextCrossType.STRICT_IN_CELL**: Visa endast strängen inom cellens bredd.
+- **TextCrossType.CROSS_OVERRIDE**: Visa all text genom att korsa andra celler och åsidosätta texten i korsade celler
 
-##  **Ange hur strängen ska korsas i utdata PDF/Bild med TextCrossType**
+- **TextCrossType.STRICT_IN_CELL**: Visa endast strängen inom cellens bredd.
 
-Följande exempelkod laddar exemplet i Excel-filen och sparar den i PDF/bildformat genom att ange olika[**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/)Exemplet på Excel-filen och utdatafilerna kan laddas ner från följande länkar:
+## **Ange hur du ska korsa strängen i utdata PDF/Bild med hjälp av TextCrossType**
+
+Följande exempelkod laddar den prov Excel-filen och sparar den i PDF/Bildformat genom att specificera olika [**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/). Provfilen och utdatafilerna kan laddas ner från följande länkar:
 
 [sampleCrossType.xlsx](81920905.xlsx)
 
@@ -28,6 +29,6 @@ Följande exempelkod laddar exemplet i Excel-filen och sparar den i PDF/bildform
 
 [outputCrossType.png](81920904.png)
 
-###  Exempelkod
+### Exempelkod
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUsingTextCrossType-1.py" >}}

@@ -1,34 +1,35 @@
 ---
-title: 指定したワークシートを PDF に保存
+title: 指定されたワークシートをPDFに保存する
 type: docs
 weight: 140
 url: /ja/net/save-specified-worksheets-to-pdf/
 ---
-デフォルトでは、Aspose.Cells すべて保存**見える**ワークブック内のワークシートを PDF ファイルに変換します。と**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)**オプションを使用すると、指定したワークシートを PDF ファイルに保存できます。たとえば、アクティブなワークシートを PDF に保存したり、すべてのワークシート (表示されているワークシートと非表示のワークシートの両方) を PDF に保存したり、カスタムの複数のワークシートを PDF に保存したりできます。
 
-##  **アクティブなワークシートを PDF に保存**
+デフォルトでは、Aspose.Cellsはブック内の**表示されている**すべてのワークシートをpdfファイルに保存します。[**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) オプションを使用すると、特定のワークシートをpdfファイルに保存できます。例えば、アクティブなワークシートをpdfに保存する、すべてのワークシート（表示されているワークシートと非表示のワークシートの両方）をpdfに保存する、複数のカスタムワークシートをpdfに保存することができます。
 
-アクティブシートのみを PDF にエクスポートしたい場合は、次のように渡すことでこれを実現できます。**[`SheetSet.Active`](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/active/)**に**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)**オプション。
+## **アクティブワークシートをPDFに保存する**
 
-シート `Sheet2` は、ソース ファイルのアクティブなシートです。[シートセットの例.xlsx](sheetset-example.xlsx).
+アクティブなシートのみをPDFにエクスポートする場合は、[**SheetSet.Active**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/active/)を[**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)オプションに渡すことでこれを実現できます。
+
+シート `Sheet2` はソースファイル [sheetset-example.xlsx](sheetset-example.xlsx) のアクティブなシートです。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ActiveSheetToPdf.cs" >}}
 
-##  **すべてのワークシートを PDF に保存**
+## **すべてのワークシートをPDFに保存**
 
-**[`SheetSet.Visible`](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/visible/)**ワークブック内で表示されているシートを示します。**[`SheetSet.All`](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/)**は、ワークブック内の表示シートと非表示/非表示シートの両方を含むすべてのシートを示します。すべてのシートを PDF にエクスポートしたい場合は、次のように渡すだけです。**[`SheetSet.All`](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/)**に**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)**オプション。
+[**SheetSet.Visible**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/visible/) はワークブック内で表示されるシートを示し、[**SheetSet.All**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/) はワークブック内のすべてのシート（表示されているシートと非表示/不可視のシートの両方）を示します。すべてのシートをPDFにエクスポートしたい場合は、[**SheetSet.All**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/) オプションに単に [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) を渡すことができます。
 
-ソースファイル[シートセットの例.xlsx](sheetset-example.xlsx)非表示シート `Sheet3` を含む 4 つのシートすべてが含まれています。
+ソースファイル [sheetset-example.xlsx](sheetset-example.xlsx) には、非表示シート `Sheet3` を含むすべての4つのシートが含まれています。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-AllSheetsToPdf.cs" >}}
 
-##  **指定したワークシートを PDF に保存**
-必要な/カスタムの複数のシートを PDF にエクスポートしたい場合は、複数のシート インデックスを**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)**オプション。
+## **指定されたワークシートをPDFに保存**
+希望の/カスタム複数のシートをPDFにエクスポートしたい場合は、複数のシートの索引を [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) オプションに渡すことでこれを実現できます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-MultiSheetsToPdf.cs" >}}
 
 {{% alert color="primary" %}} 
 
-スプレッドシートに数式が含まれている場合は、スプレッドシートを PDF 形式にレンダリングする直前に [`Workbook.CalculateFormula()`](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) を呼び出すことをお勧めします。そうすることで、式に依存する値が確実に再計算され、正しい値が PDF にレンダリングされます。
+スプレッドシートに数式が含まれている場合、PDF形式に変換する直前に [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) を呼び出すことが最善です。これにより、数式に依存する値が再計算され、PDFで正しい値がレンダリングされます。
 
 {{% /alert %}}

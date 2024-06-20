@@ -1,17 +1,20 @@
 ---
-title: Удалить сводную таблицу с листа
+title: Удалить сводную таблицу из листа
 type: docs
 weight: 60
 url: /ru/python-net/delete-pivot-table-from-a-worksheet/
-description: Python via .NET код для удаления сводной таблицы для листов Excel
-keywords: Python via .NET remove pivot table from worksheet, Python via .NET remove pivot table from excel, how to delete pivot table with Python via .NET, delete pivot table with Python via .NET, delete pivot table from excel with Python via .NET, Python via .NET delete pivot table, Python via .NET remove pivot table, remove pivot table, delete pivot table, how to delete pivot table
+description: Код Python via .NET для удаления сводной таблицы из электронных таблиц Excel
+keywords: Aspose.Cells для Python Excel, библиотека Excel Python, Python via .NET удалить сводную таблицу из электронной таблицы, Python via .NET удалить сводную таблицу из Excel, как удалить сводную таблицу с использованием Python via .NET, удалить сводную таблицу с использованием Python via .NET, удалить сводную таблицу из Excel с использованием Python via .NET, Python via .NET удалить сводную таблицу, Python via .NET удалить сводную таблицу, удалить сводную таблицу, удалить сводную таблицу, как удалить сводную таблицу
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for Python via .NET предоставляет функцию удаления или удаления сводной таблицы с рабочего листа. Вы можете удалить сводную таблицу, используя объект сводной таблицы или позицию сводной таблицы. Пожалуйста, используйте[**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) метод удаления сводной таблицы с использованием объекта сводной таблицы и[**Worksheet.pivot_tables.remove_at(index, Keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool)метод для удаления объекта сводной таблицы, используя его позицию внутри коллекции сводных таблиц.
+Aspose.Cells для Python via .NET предоставляет возможность удалить или удалить сводную таблицу из электронной таблицы. Вы можете удалить сводную таблицу, используя объект сводной таблицы или позицию сводной таблицы. Пожалуйста, используйте метод [**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) для удаления сводной таблицы с использованием объекта сводной таблицы и метод [**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool) для удаления объекта сводной таблицы по его позиции в коллекции сводных таблиц.
 
 {{% /alert %}}
 
- Следующий пример кода удаляет две сводные таблицы с листа. Сначала он удаляет сводную таблицу, используя[**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) метод, а затем удаляет сводную таблицу, используя[**Worksheet.pivot_tables.remove_at(index, Keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool) метод
+## **Как удалить сводную таблицу из электронной таблицы с использованием библиотеки Aspose.Cells для Excel Python**
+
+В следующем примере кода удаляются две сводные таблицы с листа. Сначала удаляется сводная таблица, используя метод [**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/), а затем удаляется сводная таблица, используя метод [**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.py" >}}

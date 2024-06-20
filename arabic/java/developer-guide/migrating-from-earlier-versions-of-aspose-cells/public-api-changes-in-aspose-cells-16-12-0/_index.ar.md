@@ -1,23 +1,24 @@
-﻿---
-title: عام API تغييرات في Aspose.Cells 16.12.0
+---
+title: التغييرات العامة في واجهة برمجة التطبيقات العامة في Aspose.Cells 16.12.0
 type: docs
 weight: 370
 url: /ar/java/public-api-changes-in-aspose-cells-16-12-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 16.11.0 إلى 16.12.0 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات لـ Aspose.Cells من الإصدار 16.11.0 إلى 16.12.0 التي قد تكون مهمة لمطوري الوحدات/التطبيقات. وتشمل ليس فقط الطرق العامة الجديدة والمحدثة، والفئات المضافة والمحذوفة وما إلى ذلك، ولكن أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **تصفية الكائنات في وقت التحميل**
-كشف Aspose.Cells 16.12.0 عن فئة LoadFilter مع خاصية LoadOptions.LoadFilter التي يمكنها معًا التحكم في نوع البيانات التي سيتم تحميلها أثناء تهيئة مثيل مصنف من ملف قالب.
+## **واجهات برمجة التطبيقات الجديدة**
+### **تصفية الكائنات أثناء وقت التحميل**
+أصبح Aspose.Cells 16.12.0 يكشف فئة LoadFilter جنبًا إلى جنب مع خاصية LoadOptions.LoadFilter التي يمكنها معًا التحكم في نوع البيانات المراد تحميلها أثناء تهيئة نسخة من Workbook من ملف قالب.
 
-فيما يلي سيناريو استخدام بسيط لتحميل خصائص المستند فقط من ملف قالب.
+إليك سيناريو استخدام بسيط لتحميل خصائص المستند فقط من ملف قالب.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions class
 
@@ -39,11 +40,11 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 
-المقتطف التالي يقوم بتحميل كل شيء من جدول بيانات موجود باستثناء الرسوم البيانية.
+الكود التالي يقوم بتحميل كل شيء من جدول بيانات موجود باستثناء الرسوم البيانية.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions class
 
@@ -65,11 +66,11 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 
-يؤدي اتباع التعليمات البرمجية إلى تحميل بيانات الخلية فقط (جنبًا إلى جنب مع الصيغ) والتنسيق من جدول بيانات موجود.
+الكود التالي يقوم بتحميل بيانات الخلية فقط (بالإضافة إلى الصيغ) والتنسيق من جدول بيانات موجود.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions class
 
@@ -90,14 +91,14 @@ options.setLoadFilter(filter);
 Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
-### **تمت إضافة تعداد FileFormatType.OTS**
-أضاف Aspose.Cells 16.12.0 إدخال OTS إلى تعداد FileFormatType لاكتشاف تنسيق ملفات OTS.
+### **تمت إضافة عنصر FileFormatType.OTS إلى التعداد**
+أصبح Aspose.Cells 16.12.0 يضيف مدخل OTS إلى تعداد FileFormatType من أجل كشف تنسيق ملفات OTS.
 
-المقتطف التالي يستخدم FileFormatType.OTS.
+الكود التالي يستخدم FileFormatType.OTS.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Detect the format of the file
 
@@ -117,19 +118,19 @@ if(fileFormatInfo.getFileFormatType() == FileFormatType.OTS);
 
 {{< /highlight >}}
 ### **تمت إضافة خاصية BuiltInDocumentPropertyCollection.ScaleCrop**
-قام Aspose.Cells 16.12.0 بإضافة خاصية ScaleCrop إلى فئة BuiltInDocumentPropertyCollection. يشير ScaleCrop إلى وضع عرض مصغر المستند. يتيح ضبط هذا العنصر على "صواب" قياس الصورة المصغرة للمستند حسب العرض بينما يتيح تعيينه على "خطأ" إمكانية اقتصاص الصورة المصغرة للمستند لإظهار القسم الذي يناسب العرض.
+أصبح Aspose.Cells 16.12.0 يضيف خاصية ScaleCrop إلى فئة BuiltInDocumentPropertyCollection. تُشير ScaleCrop إلى وضع عرض مصغر المستند. يمكن ضبط هذا العنصر على true لتمكين تحجيم مصغر المستند وفقًا للعرض، بينما يمكن ضبطه على false لتمكين قص مصغر المستند لعرض الجزء الذي يناسب العرض.
 ### **تمت إضافة خاصية BuiltInDocumentPropertyCollection.LinksUpToDate**
- قام Aspose.Cells 16.12.0 أيضًا بعرض خاصية LinksUpToDate لفئة BuiltInDocumentPropertyCollection. تشير الخاصية LinksUpToDate إلى ما إذا كانت الارتباطات التشعبية في مستند محدثة.
+أصبح Aspose.Cells 16.12.0 يكشف أيضًا خاصية LinksUpToDate لفئة BuiltInDocumentPropertyCollection. تُشير خاصية LinksUpToDate ما إذا كانت الروابط الفائقة في مستند محدّثة. 
 ### **تمت إضافة طريقة Workbook.exportXml**
-كشف Aspose.Cells 16.12.0 عن طريقة Workbook.exportXml التي تسمح بتخزين بيانات مخطط XML إلى مسار الملف المحدد. يقبل الأسلوب Workbook.exportXml معلمتين حيث يجب أن تكون المعلمة الأولى من سلسلة النوع اسم مخطط XML والمعلمة الثانية يجب أن تكون موقع مسار الملف لتخزين بيانات XML.
+أصبح Aspose.Cells 16.12.0 يكشف عن طريقة Workbook.exportXml التي تسمح بتخزين بيانات الخريطة XML في مسار ملف محدد. تقبل طريقة Workbook.exportXml معلمتين حيث يجب أن تكون المعلمة الأولى من النوع string اسم الخريطة XML ويجب أن يكون المعلمة الثانية مكان مسار الملف لتخزين بيانات XML.
 ### **تمت إضافة طريقة WorksheetCollection.createRange**
-أضاف Aspose.Cells 16.12.0 طريقة WorksheetCollection.createRange التي تسمح بإنشاء نطاق بناءً على العنوان (مرجع منطقة الخلية) وفهرس ورقة العمل.
+أصبح Aspose.Cells 16.12.0 يضيف طريقة WorksheetCollection.createRange التي تُسمح بإنشاء نطاق استنادًا إلى عنوان (مرجع المنطقة الخلية) وفهرس الورقة.
 
-يستخدم المقتطف التالي طريقة WorksheetCollection.createRange لإنشاء نطاق من الخلايا يمتد عبر A1 إلى A2 في ورقة العمل الأولى (الافتراضية).
+يستخدم الكود التالي طريقة WorksheetCollection.createRange لإنشاء مجموعة من الخلايا تمتد من A1 إلى A2 في الورقة العمل الأولى (الافتراضية).
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -146,29 +147,29 @@ WorksheetCollection sheets = book.getWorksheets();
 Range range = sheets.createRange("A1:A2", 0);
 
 {{< /highlight >}}
-## **واجهات برمجة التطبيقات التي عفا عليها الزمن**
-### **خاصية LoadOptions.LoadDataOptions التي عفا عليها الزمن**
+## **واجهات برمجة التطبيق القديمة**
+### **خاصية Obsoleted LoadOptions.LoadDataOptions**
 الرجاء استخدام خاصية LoadOptions.LoadFilter كبديل.
-### **خاصية LoadOptions.LoadDataFilterOptions التي عفا عليها الزمن**
-الرجاء استخدام خاصية LoadOptions.LoadFilter بدلاً من ذلك.
-### **خاصية LoadOptions.OnlyLoadDocumentProperties قديمة**
+### **خاصية Obsoleted LoadOptions.LoadDataFilterOptions**
+الرجاء استخدام خاصية LoadOptions.LoadFilter بدلاً منها.
+### **خاصية Obsoleted LoadOptions.OnlyLoadDocumentProperties**
 الرجاء استخدام خاصية LoadOptions.LoadFilter كبديل.
-### **خاصية LoadOptions.LoadDataAndFormatting قديمة**
-الرجاء استخدام خاصية LoadOptions.LoadFilter بدلاً من ذلك.
+### **خاصية Obsoleted LoadOptions.LoadDataAndFormatting**
+الرجاء استخدام خاصية LoadOptions.LoadFilter بدلاً منها.
 
 {{% alert color="primary" %}} 
 
-تمت مشاركة مقتطفات التعليمات البرمجية لجميع واجهات برمجة التطبيقات القديمة أعلاه.
+تم مشاركة مقاطع الشفرة لجميع واجهات برمجة التطبيقات المهجورة أعلاه.
 
 {{% /alert %}}
-## **واجهات برمجة التطبيقات المحذوفة**
-### **DataLabels المحذوفة. خاصية الدوران**
-الرجاء استخدام خاصية DataLabels.RotationAngle بدلاً من ذلك.
-### **عنوان محذوف. خاصية الدوران**
-يرجى استخدام خاصية Title.RotationAngle كبديل.
-### **تم حذف خاصية DataLabels.Background**
-يُنصح باستخدام الخاصية DataLabels.BackgroundMode بدلاً من ذلك.
-### **تم حذف خاصية DisplayUnitLabel.Rotation**
-يرجى التفكير في استخدام خاصية DisplayUnitLabel.RotationAngle لتحقيق نفس الهدف.
-### **طريقة Title.getCharacters المحذوفة**
-الرجاء استخدام طريقة Title.characters بدلاً من ذلك.
+## **حذف واجهات برمجة التطبيق**
+### **خاصية محذوفة DataLabels.Rotation**
+الرجاء استخدام خاصية DataLabels.RotationAngle بدلاً منها.
+### **خاصية محذوفة Title.Rotation**
+الرجاء استخدام خاصية Title.RotationAngle كبديل.
+### **خاصية محذوفة DataLabels.Background**
+من المستحسن استخدام خاصية DataLabels.BackgroundMode بدلاً منها.
+### **خاصية محذوفة DisplayUnitLabel.Rotation**
+يرجى النظر في استخدام خاصية DisplayUnitLabel.RotationAngle لتحقيق نفس الهدف.
+### **تم حذف الطريقة Title.getCharacters.**
+يرجى استخدام طريقة Title.characters بدلاً من ذلك.

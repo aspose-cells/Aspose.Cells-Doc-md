@@ -1,47 +1,48 @@
-﻿---
-title: Ürüne Genel Bakış
+---
+title: Ürün Genel Bakış
 type: docs
 weight: 10
 url: /tr/net/product-overview/
 ---
+
 {{% alert color="primary" %}} 
 
-![yapılacaklar:resim_alternatif_metin](product-overview_1.png)
+![todo:image_alt_text](product-overview_1.png)
 
 **Aspose.Cells for .NET belgelerine hoş geldiniz**
 
-Aspose.Cells for .NET, .NET uygulamalarının sunucuda Microsoft Excel'in yüklenmesini gerektirmeden Excel elektronik tabloları oluşturmasını ve yönetmesini sağlayan en esnek bileşen grubunu sağlar. Aspose.Cells for .NET ayrıca hiçbir özelliği için Office Interop kitaplıklarına güvenmez, bu nedenle tamamen bağımsız ve sağlam bir API kümesidir.
+Aspose.Cells for .NET, Microsoft Excel'in sunucuda yüklü olmadan .NET uygulamalarının Excel elektronik tablolarını oluşturmasına ve yönetmesine olanak tanıyan en esnek bileşen grubunu sağlar. Aspose.Cells for .NET, özelliklerinin hiçbiri için Office Interop kütüphanelerine güvenmediği için tamamen bağımsız ve güçlü bir dizi API'ye sahiptir.
 
-Aspose.Cells, tüm Excel elektronik tablo biçimleriyle ilgilenen önde gelen bileşenlerden biridir. Diğer satıcıların benzer ürünlerinin aksine, Aspose.Cells yalnızca elektronik tablo oluşturmayı ve diğer temel dosya biçimlendirme özelliklerini desteklemekle kalmaz, aynı zamanda bir dizi gelişmiş özelliği de destekler. Bu gelişmiş özellikler, geliştiricilerin elektronik tablo içeriklerini, hücre biçimlendirmesini, dosya korumasını vb. işlemesini çok daha kolay hale getirir. Aspose.Cells ayrıca farklı veri kaynaklarından çalışma sayfalarına veri aktarılmasına, ortak ve karmaşık Matematiksel, Tarih-Zaman, Mali, Metin formüllerinin eklenmesine izin verir, çizelgelerin, resimlerin, yorumların, çizim nesnelerinin ve kontrollerin işlenmesini destekler.
+Aspose.Cells, tüm Excel elektronik tablo formatlarıyla başa çıkan önde gelen bileşenlerden biridir. Diğer satıcıların benzer ürünlerinin aksine, Aspose.Cells yalnızca elektronik tablo oluşturma ve diğer temel dosya biçimlendirme özelliklerini desteklemekle kalmaz, aynı zamanda bir dizi gelişmiş özelliği de destekler. Bu gelişmiş özellikler, geliştiricilerin elektronik tablo içeriğini, hücre biçimlendirmesini, dosya korumasını vb. çok daha uygun bir şekilde manipüle etmelerini sağlar. Aspose.Cells ayrıca farklı veri kaynaklarından sayfalara veri aktarma, ortak ve karmaşık Matematik, Tarih Saat, Finansal, Metin formüllerini ekleme, grafiklerin, resimlerin, yorumların, çizim nesnelerinin ve kontrollerin manipülasyonunu destekler.
 
-Aspose.Cells for .NET, müşteriler için eksiksiz bir Grid çözümü sunar; aşağıdaki gibi iki GUI tabanlı .NET kontrolüne sahiptir:
+Aspose.Cells for .NET, müşteriler için tam bir Izgara çözümü sunar; aşağıdaki gibi iki GUI tabanlı .NET kontrolü vardır:
 
-- Masaüstü uygulamalarını destekleyen Aspose.Cells.GridDesktop
-- Aspose.Cells.Web uygulamalarını destekleyen GridWeb
+- Masaüstü uygulamaları destekleyen Aspose.Cells.GridDesktop
+- Web uygulamalarını destekleyen Aspose.Cells.GridWeb
 
-Bu kontrollerin her ikisi de neredeyse benzer özellikler sağlar, ancak yine de farklı platformlarda (Masaüstü ve Web). Geliştiriciler, Aspose.Cells Grid kontrollerini kullanarak Excel elektronik tablo formatlarından içe ve dışa aktarabilir. Microsoft Excel'e aşina olan her türlü kullanıcı, ızgaranın görünümünü ve hissini kontrol edebilir. Aspose.Cells, ızgaranın tasarımını ve düzenini kontrol etme, birden çok çalışma sayfasını yönetme, bir çalışma sayfasının hücrelerini, satırlarını ve sütunlarını yönetme, formül oluşturma ve hesaplama gibi zengin özellikler sunar.
+Bu kontrollerin her ikisi de neredeyse benzer özellik seti sağlar ancak farklı platformlarda (Masaüstü ve Web) bulunur. Aspose.Cells Grid kontrollerini kullanarak, geliştiriciler Excel elektronik tablo biçimlerine veri alıp veri çıkarabilir. Microsoft Excel'i bilen herhangi bir kullanıcı, ızgaranın görünümünü ve hissini kontrol edebilir. Aspose.Cells, ızgaranın tasarımını ve düzenini, çoklu çalışsayfaları yönetmeyi, çalışma sayfasının hücrelerini, satırlarını ve sütunlarını yönetmeyi, formüller oluşturmayı ve hesaplamayı vb. gibi zengin bir özellik seti sunar.
 
 {{% /alert %}} 
 ## **Ürün Açıklaması**
-Aspose.Cells for .NET (yönetilen C#'de yazılmıştır), C#, VB.NET ve J# vb. gibi .NET tarafından desteklenen dillerden herhangi biri ile kullanılmak üzere tasarlanmıştır. Ayrıca, kitaplık Klasik ASP, PHP vb. gibi diğer bazı çözümlerle de kullanılabilir. Aspose.Cells, geliştiricilerin farklı bileşenleri tarafından sunulan özellikleri daha iyi anlamaları için C# ve VB.NET'de yazılmış tam özellikli demolar ve çalışma örnekleri sağlar.
+Aspose.Cells for .NET (yönetilen C# ile yazılmış), C#, VB.NET ve J# gibi .NET destekli dillerle kullanılmak üzere tasarlanmıştır. Aspose.Cells, ASP.NET Web Uygulaması veya Windows Masaüstü Uygulaması olsun, her türlü uygulama ile kullanılabilir. Dahası, kütüphane klasik ASP, PHP vb. diğer bazı çözümlerle de kullanılabilir. Aspose.Cells, geliştiricilerin farklı bileşenlerinin sunduğu özellikleri daha iyi anlamaları için C# & VB.NET'te yazılmış tam özellikli demo ve çalışan örnekler sunar.
 
-Aspose.Cells API'ler, Excel dosyalarını akışlara kaydetme ve akışlardan açma, çıktıyı bir istemci tarayıcısına gönderme, DataTable, DataView veya Array'den veri içe ve dışa aktarma, grafikler ve Pivot Tablolar oluşturma, görüntüleri ve çizelgeleri içe aktarma, içe aktarma gibi birçok gelişmiş özellik sunar. bir tasarımcı elektronik tablosundan formül oluşturma, tasarımcı çizelgelerini resimlere dönüştürme ve sayfa kurulumunu yapılandırmanın yanı sıra yerel Microsoft Excel dosyaları oluşturma veya okuma gibi ortak özellikler.
+Aspose.Cells API'ları, akıştan Excel dosyalarının kaydedilmesini ve açılmasını, çıktının bir istemci tarayıcısına gönderilmesini, VeriTablosu, VeriGörünümü veya Dizi'den veri aktarımını, grafikler ve Özet Tabloları oluşturmayı, resimler ve grafikleri alma ve alma, tasarımcı elektronik tablodan formül alma, tasarımcı grafikleri resimlere dönüştürme ve sayfa düzenini yapılandırmayı ve yaratmayı sağlayan birçok gelişmiş özellik sunar.
 
-Aspose.Cells API'leri, CSV ve SpreadsheetML biçimleri için destek, mevcut bir çalışma sayfasının bir kopyasını (tüm içeriği, resimleri ve çizelgeleri olan) bir dosyaya ekleme, grafikler için gradyan arka planı ayarlama, yorumlar oluşturma, otomatik filtreler gibi bir dizi benzersiz özelliğe sahiptir. ve sayfa sonları, karmaşık formüller ayarlama, koşullu biçimlendirmeyi destekleme, Microsoft Excel XP veya üzeri sürümlerde sunulan koruma seçeneklerini destekleme, adlandırılmış aralıkları değiştirme, özel grafik API'i destekleme ve güçlü bir formül hesaplama motoru.
+Aspose.Cells API'ları, CSV ve SpreadsheetML biçimlerini destekleme, mevcut bir çalışsayfanın (tüm içerikler, resimler ve grafiklerle birlikte) bir kopyasını dosyaya ekleme, grafikler için gradyan arka plan ayarlama, yorumlar, otomatik filtreler ve sayfa kesmeleri oluşturma, karmaşık formülleri ayarlama, Microsoft Excel XP veya üstüne tanıtılan koruma seçeneklerini destekleme, adlandırılmış aralıkları manipüle etme, özel grafik API'sini destekleme ve güçlü formül hesaplama motoruna sahip olma gibi birçok benzersiz özellik sunar.
 
-Aspose.Cells Grid Suite, ister Windows ister Web uygulaması olsun, her türlü uygulama ile kullanılabilir. Geliştiriciler, ızgara denetimlerini Visual Studio'nun araç kutusundan Windows veya Web Formlarına kolayca sürükleyip bırakabilir. Aspose.Cells Grid Suite yalnızca elektronik tablo dosyalarının ve diğer veri kaynaklarının içe aktarılmasını desteklemekle kalmaz, aynı zamanda sıfırdan elektronik tablo içerikleri ve stilleri oluşturmak için bir dizi API sağlar. Bu özellikler, Aspose.Cells Grid Suite'i, geliştiricilerin elektronik tablo verilerini görüntülemek ve yönetmek için güçlü ve profesyonel uygulamalar oluşturması için son derece uygun hale getirir. Aspose.Cells Grid Suite ayrıca geliştiricilerin fazla çaba harcamadan ızgaraların görünümü ve davranışı üzerinde tam kontrol sahibi olmalarını sağlar ve en önemlisi, Aspose.Cells Grid Suite uygun maliyetlidir.
+Aspose.Cells Grid Suite, Windows veya Web uygulaması olması fark etmeksizin her türlü uygulamayla kullanılabilir. Geliştiriciler, Aspose.Cells Grid Suite'i Visual Studio'nun araç kutusundan sürükleyip bırakarak Windows veya Web Formlarına ızgara kontrollerini kolayca ekleyebilir. Aspose.Cells Grid Suite, sadece elektronik tablo dosyalarını ve diğer veri kaynaklarını içe aktarmakla kalmaz, aynı zamanda sıfırdan elektronik tablo içeriği ve stilleri oluşturmak için bir dizi API sağlar. Bu özellikler, geliştiricilerin elektronik tablo verilerini görüntüleme ve yönetme konusunda güçlü ve profesyonel uygulamalar oluşturmasını son derece uygun hale getirir. Aspose.Cells Grid Suite ayrıca geliştiricilere, ızgaraların görünümü ve davranışı üzerinde tam kontrol sağlar ve en önemlisi, Aspose.Cells Grid Suite maliyet etkin bir çözümdür.
 ## **Teknik Destek**
-Aspose tüm ürünleri için sınırsız ücretsiz teknik destek vermektedir. Destek, değerlendirme de dahil olmak üzere tüm kullanıcılar tarafından kullanılabilir.
+Aspose, tüm ürünleri için sınırsız ücretsiz teknik destek sunar. Destek, değerlendirmeler de dahil olmak üzere tüm kullanıcılara sunulmaktadır.
 
-Aspose.Cells ile ilgili yardıma ihtiyacınız varsa aşağıdakileri göz önünde bulundurun:
+Aspose.Cells ile ilgili yardıma ihtiyacınız varsa, aşağıdakileri dikkate alın:
 
-- Desteğin ana yolu,[Aspose.Forums](https://forum.aspose.com) . Sorunuzu şuraya yazın:[Aspose.Cells Forum](https://forum.aspose.com/c/cells/9) ve birkaç saat içinde cevap verilecektir.
-- Aspose telefonla teknik destek vermemektedir. Telefon desteği yalnızca satış ve satın alma soruları için kullanılabilir.
-- Forumlarda cevap beklerken lütfen saat dilimi farklılıklarını dikkate alınız.
+- Destek için ana yol [Aspose.Forums](https://forum.aspose.com) 'dur. Sorunuzu [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9) 'a gönderin ve birkaç saat içinde cevap alacaksınız.
+- Aspose telefon üzerinden teknik destek sunmamaktadır. Telefon desteği yalnızca satış ve satın alma soruları için mevcuttur.
+- Forumlarda cevap beklerken, zaman dilimi farklarını göz önünde bulundurun.
 
-Aspose.Cells ile ilgili bir sorununuz varsa, sorunun en verimli şekilde çözüldüğünden emin olmak için şu basit adımları izleyin:
+Aspose.Cells ile bir sorun yaşarsanız, sorunun en etkili şekilde çözülmesini sağlamak için aşağıdaki basit adımları izleyin:
 
--  Sorunu bildirmeden önce en son Aspose.Cells sürümünü kullandığınızdan emin olun, bkz.[Aspose.Cells for .NET İndirilenler (NuGet deposu)](https://www.nuget.org/packages/Aspose.Cells) En son sürüm hakkında bilgi edinmek için.
-- Sorunu bildirmeden önce forumlara, bu belgelere ve API Referansına bir göz atın; belki de sorunuz zaten cevaplanmıştır.
-- Bir sorunu bildirirken, lütfen orijinal belgeyi ve muhtemelen kodunuzun soruna neden olan bir parçasını ekleyin. Birden çok dosya eklemeniz gerekiyorsa, bunları bir dosyaya sıkıştırın. Ekli dosyalara yalnızca siz ve Aspose personeli erişebileceğinden, ileti dizisi gizliyken Aspose.Forums numaralı telefondan belgelerinizi eklemeniz güvenlidir.
-- Lütfen konu başına bir sorun bildirmeye çalışın. Başka bir sorununuz varsa, ayrı bir ileti dizisinde bildirin.
+- Sorunu bildirmeden önce en son Aspose.Cells sürümünü kullandığınızdan emin olun; en son sürüm hakkında bilgi almak için [Aspose.Cells for .NET İndirmeler (NuGet depoları)](https://www.nuget.org/packages/Aspose.Cells) sayfasına bakın.
+- Sorunu bildirmeden önce forumlarda, bu belgelerde ve API Referansında bir göz atın; belki sorunuz zaten cevaplandı.
+- Bir sorun bildirirken, lütfen soruna neden olan orijinal belgeyi ve mümkünse kodunuzun bir parçasını ekleyin. Birden fazla dosya eklemeniz gerekiyorsa, bunları tek bir dosyaya sıkıştırın. İpliği özel olduğunda belgelerinizi Aspose.Forums'a eklemek güvenlidir çünkü ekli dosyalara sadece siz ve Aspose çalışanları erişebilir.
+- Lütfen bir iplik başına bir sorun bildirmeye çalışın. Başka bir sorununuz varsa, ayrı bir iplikte bildirin.

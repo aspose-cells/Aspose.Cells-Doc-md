@@ -1,24 +1,27 @@
-﻿---
-title: Accedi ai fogli di lavoro
+---
+title: Accedi al Foglio di lavoro
 type: docs
 weight: 10
-url: /it/net/access-worksheets/
+url: /it/net/aspose-cells-gridweb/access-worksheet/
+keywords: GridWeb,GridWorksheetCollection,GridWorksheet 
+description: Questo articolo introduce come ottenere un foglio di lavoro (GridWorksheet) in GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Questo argomento illustra l'accesso ai fogli di lavoro nel controllo Aspose.Cells.GridWeb. Li chiameremo "fogli di lavoro Web" perché appartengono a Aspose.Cells.GridWeb e vengono utilizzati nelle applicazioni Web.
+Questo argomento discute l'accesso ai fogli di lavoro nel controllo Aspose.Cells.GridWeb. Ci riferiremo a essi come 'fogli di lavoro web' perché appartengono a Aspose.Cells.GridWeb e vengono utilizzati nelle applicazioni web.
 
 {{% /alert %}} 
 ## **Accesso a un foglio di lavoro**
-Tutti i fogli di lavoro contenuti in Aspose.Cells.GridWeb vengono archiviati nella GridWorksheetCollection del controllo GridWeb. Esistono due modi per accedere a un foglio di lavoro: dall'indice del foglio o dal nome del foglio.
-### **Utilizzo dell'indice dei fogli**
-Il frammento di codice seguente mostra come accedere a un foglio di lavoro Web specifico dalla GridWorksheetCollection del controllo GridWeb usando l'indice del foglio.
+Tutti i fogli di lavoro contenuti in Aspose.Cells.GridWeb sono memorizzati nella collezione GridWorksheetCollection del controllo GridWeb. Ci sono due modi per accedere a un foglio di lavoro: mediante l'indice del foglio o mediante il nome del foglio.
+### **Utilizzo dell'indice del foglio**
+Il frammento di codice sottostante mostra come accedere a un foglio di lavoro web specifico dalla GridWorksheetCollection del controllo GridWeb utilizzando l'indice del foglio.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AccessWorksheets.aspx-AccessWorksheetUsingIndex.cs" >}}
 ### **Utilizzo del nome del foglio**
-Il frammento di codice seguente mostra come accedere a un foglio di lavoro Web dalla raccolta GridWorksheetCollection del controllo GridWeb usando il nome del foglio.
+Il frammento di codice sottostante mostra come accedere a un foglio di lavoro web dalla collezione GridWorksheetCollection del controllo GridWeb utilizzando il nome del foglio.
 
 
 

@@ -1,18 +1,19 @@
-﻿---
-title: ワークブック内の VBA プロジェクトが署名されているかどうかを確認する
+---
+title: ブックのVBAプロジェクトが署名されているかどうかを確認
 type: docs
 weight: 40
 url: /ja/java/check-if-vba-project-in-a-workbook-is-signed/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel を使用して、VBA プロジェクトが署名されているかどうかを確認できます。**ツール > デジタル署名...**メニューコマンド。同様に、Aspose.Cells を使用してプログラムで確認できます。[**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned)方法。
+Microsoft Excelを使用して **ツール** > **デジタル署名...** メニューコマンドを使用してVBAプロジェクトが署名されているかどうかを確認できます。 同様に、Aspose.Cellsの [**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) メソッドを使用して、プログラムで確認できます。
 
 {{% /alert %}}
 
-## **ワークブック内の VBA プロジェクトが署名されているかどうかを確認する**
+## **WorkbookのVBAプロジェクトが署名されているかを確認する**
 
-次のコードは、ワークブックを読み込み、その VBA プロジェクトが次の方法で署名されているかどうかを確認します。[**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned)財産。物件が戻ってくる**真実**プロジェクトが署名されている場合、それ以外の場合は返されます**間違い**.
+以下のコードは、ワークブックをロードし、[**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned)プロパティを使用してそのVBAプロジェクトが署名されているかどうかをチェックします。プロパティはプロジェクトが署名されている場合は**true**を返し、それ以外の場合は**false**を返します。
 
 ## サンプルコード
 

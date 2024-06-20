@@ -1,27 +1,28 @@
-﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.4.0
+---
+title: Modifiche dell API pubblica in Aspose.Cells 8.4.0
 type: docs
 weight: 130
 url: /it/net/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.3.2 alla 8.4.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-0/) e[classi rimosse ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-0/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.3.2 alla 8.4.0 che potrebbero interessare agli sviluppatori di moduli/applicazioni. Include non solo nuovi e aggiornati metodi pubblici, classi aggiunte, ecc. e classi rimosse, ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Meccanismo per modificare il codice VBA/Macro nei fogli di calcolo**
- Al fine di fornire la funzionalità di[Manipolazione codice VBA/Macro](/cells/it/net/modifying-vba-or-macro-code-using-aspose-cells/), Aspose.Cells for .NET 8.4.0 ha esposto una serie di nuove classi e proprietà nello spazio dei nomi Aspose.Cells.Vba. Alcuni dei dettagli importanti di queste nuove classi sono i seguenti.
+Per fornire la funzionalità di Manipolazione del Codice VBA/Macro, il Aspose.Cells for .NET 8.4.0 ha esposto una serie di nuove classi e proprietà nello spazio dei nomi Aspose.Cells.Vba. Alcuni dei dettagli importanti di queste nuove classi sono i seguenti.
 
-- La classe VbaProject può essere utilizzata per recuperare il progetto VBA da un determinato foglio di calcolo.
-- La classe VbaModuleCollection rappresenta la raccolta di moduli VBA che fanno parte di un dato VbaProject.
-- La classe VbaModule rappresenta un singolo modulo di VbaModuleCollection.
+- La classe VbaProject può essere utilizzata per recuperare il progetto VBA da un dato foglio di calcolo.
+- La classe VbaModuleCollection rappresenta la raccolta di moduli VBA che fanno parte di un dato progetto VbaProject.
+- La classe VbaModule rappresenta un singolo modulo dalla VbaModuleCollection.
 
-Il seguente frammento di codice mostra come modificare dinamicamente i segmenti di codice VBA.
+Il seguente snippet di codice mostra come modificare dinamicamente i segmenti di codice VBA.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -56,17 +57,17 @@ workbook.Save("output.xlsm");
 {{< /highlight >}}
 
 
-### **Possibilità di rimuovere la tabella pivot**
-Aspose.Cells for .NET 8.4.0 ha esposto due metodi per PivotTableCollection per fornire la funzione di rimozione della tabella pivot da un determinato foglio di calcolo. I dettagli delle suddette modalità sono i seguenti.
+### **Possibilità di rimuovere una tabella pivot**
+Aspose.Cells for .NET 8.4.0 ha esposto due metodi per la PivotTableCollection per fornire la funzionalità di rimozione della tabella pivot da un dato foglio di calcolo. I dettagli dei suddetti metodi sono i seguenti.
 
-- Il metodo PivotTableCollection.Remove accetta un oggetto della tabella pivot e lo rimuove dalla raccolta.
-- Il metodo PivotTableCollection.RemoveAt accetta un valore intero basato su indice zero e rimuove la specifica tabella pivot dalla raccolta.
+- Il metodo PivotTableCollection.Remove accetta un oggetto PivotTable e lo rimuove dalla collezione.
+- Il metodo PivotTableCollection.RemoveAt accetta un valore intero basato su un indice zero e rimuove la particolare PivotTable dalla collezione.
 
-Il seguente frammento di codice mostra come rimuovere la tabella pivot utilizzando entrambi i metodi sopra menzionati.
+Il seguente snippet di codice mostra come rimuovere la tabella pivot utilizzando entrambi i metodi sopra menzionati.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -95,24 +96,24 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Supporto per diversi layout di tabelle pivot**
-Aspose.Cells for .NET 8.4.0 fornisce il supporto per diversi layout predefiniti per le tabelle pivot. Per fornire questa funzionalità, le API Aspose.Cells hanno esposto tre metodi per la classe PivotTable come descritto di seguito.
+### **Supporto per Layout di Tabelle Pivot Diversi**
+Aspose.Cells for .NET 8.4.0 fornisce il supporto per diversi layout predefiniti per le Tabelle Pivot. Per fornire questa funzionalità, le API Aspose.Cells hanno esposto tre metodi per la classe PivotTable come dettagliato di seguito.
 
-- Il metodo PivotTable.ShowInCompactForm esegue il rendering della tabella pivot in un layout compatto.
-- Il metodo PivotTable.ShowInOutlineForm esegue il rendering della tabella pivot nel layout Struttura.
-- Il metodo PivotTable.ShowInTabularForm esegue il rendering della tabella pivot in layout tabulare.
+- Il metodo PivotTable.ShowInCompactForm rende la Tabella Pivot nel layout Compatto.
+- Il metodo PivotTable.ShowInOutlineForm rende la Tabella Pivot nel layout ad Albero.
+- Il metodo PivotTable.ShowInTabularForm rende la Tabella Pivot nel layout Tabellare.
 
 {{% alert color="primary" %}} 
 
-È importante chiamare PivotTable.RefreshData e PivotTable.CalculateData dopo aver impostato uno dei layout sopra menzionati.
+È importante chiamare PivotTable.RefreshData & PivotTable.CalculateData dopo aver impostato uno qualsiasi dei layout sopra menzionati.
 
 {{% /alert %}} 
 
-Il codice di esempio seguente imposta layout diversi per una tabella pivot e archivia il risultato su disco.
+Il seguente codice di esempio imposta layout diversi per una tabella pivot e memorizza il risultato su disco.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -171,19 +172,19 @@ workbook.Save("TabularForm.xlsx");
 {{< /highlight >}}
 
 
-### **Classe TxtLoadStyleStrategy e proprietà TxtLoadOptions.LoadStyleStrategy aggiunto**
-Aspose.Cells for .NET 8.4.0 ha esposto la classe TxtLoadStyleStrategy e la proprietà TxtLoadOptions.LoadStyleStrategy per specificare la strategia per formattare i valori analizzati durante la conversione del valore stringa in numero o data/ora.
-### **Metodo DataBar.ToImage aggiunto**
-Con il rilascio della v8.4.0, il Aspose.Cells API ha fornito il metodo DataBar.ToImage per salvare i DataBar formattati in modo condizionale in formato immagine. Il metodo {DataBar.ToImage}} accetta due parametri come descritto di seguito.
+### **Classe TxtLoadStyleStrategy e Proprietà TxtLoadOptions.LoadStyleStrategy Aggiunta**
+Aspose.Cells for .NET 8.4.0 ha esposto la classe TxtLoadStyleStrategy e la proprietà TxtLoadOptions.LoadStyleStrategy per specificare la strategia di formattazione dei valori analizzati durante la conversione del valore stringa in numero o data.
+### **Aggiunto Metodo DataBar.ToImage**
+Con il rilascio di v8.4.0, l'API Aspose.Cells ha fornito il metodo DataBar.ToImage per salvare le DataBar formattate condizionalmente in formato immagine. Il metodo {DataBar.ToImage}} accetta due parametri come dettagliato di seguito.
 
 - Il primo parametro è di tipo Aspose.Cells.Cell su cui è stata applicata la formattazione condizionale.
-- Il secondo parametro è di tipo Aspose.Cells.Rendering.ImageOrPrintOptions per impostare diversi parametri dell'immagine risultante.
+- Il secondo parametro è di tipo Aspose.Cells.Rendering.ImageOrPrintOptions per impostare diverse impostazioni dell'immagine risultante.
 
-Il codice di esempio seguente illustra l'utilizzo del metodo DataBar.ToImage per eseguire il rendering di DataBar in formato immagine.
+Il seguente codice di esempio dimostra l'uso del metodo DataBar.ToImage per rendere la DataBar in formato immagine.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -213,7 +214,7 @@ opts.ImageFormat = ImageFormat.Png;
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.ToImage(cell, opts);
+byte[] imgBytes = dbar.ToImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -222,24 +223,24 @@ File.WriteAllBytes("databar.png", imgBytes);
 {{< /highlight >}}
 
 
-### **Proprietà Border.ThemeColor aggiunto**
-Aspose.Cells Le API consentono di estrarre i dati di formattazione relativi al tema dai fogli di calcolo. Con il rilascio di Aspose.Cells for .NET 8.4.0, API ha esposto la proprietà Border.ThemeColor che può essere utilizzata per recuperare gli attributi del colore del tema dei bordi Cell.
-### **Proprietà DrawObject.ImageBytes aggiunto**
-Aspose.Cells for .NET 8.4.0 ha esposto la proprietà DrawObject.ImageBytes per ottenere i dati dell'immagine da Chart o Shape.
-### **Proprietà HtmlSaveOptions.ExportBogusRowData aggiunta**
-Aspose.Cells for .NET 8.4.0 ha fornito la proprietà {HtmlSaveOptions.ExportBogusRowData}}. La proprietà del tipo booleano determina se API inietterà dati fasulli della riga inferiore durante l'esportazione del foglio di calcolo nel formato HTML.
+### **Aggiunta Proprietà Border.ThemeColor**
+Le API Aspose.Cells consentono di estrarre dati di formattazione correlati al tema dai fogli di calcolo. Con il rilascio di Aspose.Cells for .NET 8.4.0, l'API ha esposto la proprietà Border.ThemeColor che può essere utilizzata per recuperare gli attributi di colore del tema dei bordi delle celle.
+### **Aggiunta Proprietà DrawObject.ImageBytes**
+Aspose.Cells for .NET 8.4.0 ha esposto la proprietà DrawObject.ImageBytes per ottenere i dati dell'immagine da Grafico o Forma.
+### **Aggiunta Proprietà HtmlSaveOptions.ExportBogusRowData**
+Aspose.Cells for .NET 8.4.0 ha fornito la proprietà {HtmlSaveOptions.ExportBogusRowData}}. La proprietà di tipo Boolean determina se l'API inietterà dati di riga inferiore fasulli durante l'esportazione del foglio di calcolo in formato HTML.
 
 {{% alert color="primary" %}} 
 
-Il valore predefinito è vero.
+Il valore predefinito è true.
 
 {{% /alert %}} 
 
-Il seguente codice di esempio illustra l'utilizzo della suddetta proprietà.
+Il seguente codice di esempio illustra l'uso della proprietà sopra citata.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -260,8 +261,8 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Proprietà HtmlSaveOptions.CellCssPrefix aggiunta**
-La proprietà appena aggiunta HtmlSaveOptions.CellCssPrefix consente di impostare il prefisso per i file CSS durante l'esportazione dei fogli di calcolo nel formato HTML.
+### **Aggiunta Proprietà HtmlSaveOptions.CellCssPrefix**
+La nuova proprietà aggiunta HtmlSaveOptions.CellCssPrefix consente di impostare il prefisso per i file CSS durante l'esportazione dei fogli di calcolo in formato HTML.
 
 {{% alert color="primary" %}} 
 
@@ -269,7 +270,7 @@ Il valore predefinito è "" (stringa vuota).
 
 {{% /alert %}}
 ## **API obsolete**
-### **Metodi Cells.GetCellByIndex e Row.GetCellByIndex Obsoleti**
-Usare invece il metodo GetEnumerator per iterare tutte le celle.
-### **Proprietà DrawObject.Image Obsoleto**
-Usare invece la proprietà DrawObject.ImageBytes per ottenere i dati dell'immagine.
+### **Metodi Cells.GetCellByIndex & Row.GetCellByIndex obsoleti**
+Utilizzare il metodo GetEnumerator per iterare su tutte le celle invece.
+### **Proprietà Image obsoleta di DrawObject**
+Utilizzare la proprietà DrawObject.ImageBytes per ottenere i dati dell'immagine invece.

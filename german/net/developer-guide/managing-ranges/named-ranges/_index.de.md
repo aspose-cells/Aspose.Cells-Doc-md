@@ -1,31 +1,32 @@
-﻿---
-title: Erstellen Sie benannte Bereiche für Arbeitsmappen und Arbeitsblätter
-linktitle: Benannter Bereich
+---
+title: Arbeitsmappe und tabellenblattumfassende benannte Bereiche erstellen
+linktitle: Benannten Bereich
 type: docs
 weight: 40
 url: /de/net/create-workbook-and-worksheet-scoped-named-ranges/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel ermöglicht es Benutzern, benannte Bereiche mit zwei verschiedenen Bereichen zu definieren: Arbeitsmappe (auch bekannt als globaler Bereich) und Arbeitsblatt.
+Microsoft Excel ermöglicht es Benutzern, benannte Bereiche mit zwei verschiedenen Bereichen zu definieren: arbeitsmappe (auch als globaler Bereich bekannt) und tabellenblatt.
 
-- Auf benannte Bereiche mit einem Arbeitsmappenbereich kann von jedem Arbeitsblatt innerhalb dieser Arbeitsmappe aus zugegriffen werden, indem einfach der Name verwendet wird.
-- Auf benannte Bereiche im Arbeitsblattbereich wird mit der Referenz des jeweiligen Arbeitsblatts zugegriffen, in dem sie erstellt wurden.
+- Benannte Bereiche mit arbeitsmappenbereich können von jedem Arbeitsblatt innerhalb dieser Arbeitsmappe aus durch einfaches Verwenden ihres Namens aufgerufen werden.
+- Auf tabellenblattbeschränkte benannte Bereiche werden mithilfe des Verweises auf das bestimmte Arbeitsblatt, in dem sie erstellt wurden, aufgerufen.
 
-Aspose.Cells bietet die gleiche Funktionalität wie Microsoft Excel zum Hinzufügen von benannten Bereichen mit Arbeitsmappen- und Arbeitsblattbereich. Beim Erstellen eines benannten Bereichs im Bereich des Arbeitsblatts sollte die Arbeitsblattreferenz im benannten Bereich verwendet werden, um ihn als benannten Bereich im Bereich des Arbeitsblatts anzugeben.
+Aspose.Cells bietet dieselbe Funktionalität wie Microsoft Excel zum Hinzufügen von arbeitsmappe- und tabellenblattumfassenden benannten Bereichen. Beim Erstellen eines tabellenblattumfassenden benannten Bereichs sollte der Verweis auf das tabellenblatt im benannten Bereich verwendet werden, um ihn als tabellenblattumfassenden benannten Bereich zu kennzeichnen.
 
 {{% /alert %}} 
-## **Hinzufügen eines benannten Bereichs mit Arbeitsmappenbereich**
+## **Hinzufügen eines benannten Bereichs mit arbeitsmappenbereich**
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkbookScopedNamedRanges-AddWorkbookScopedNamedRange-1.cs" >}}
-## **Hinzufügen eines benannten Bereichs mit Arbeitsblattbereich**
+## **Hinzufügen eines benannten Bereichs mit tabellenblattbereich**
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkbookScopedNamedRanges-WorksheetNamedRange-1.cs" >}}
 
-## **Themen vorantreiben**
+## **Erweiterte Themen**
 - [Zugriff erstellen und benannte Bereiche kopieren](/cells/de/net/create-access-and-copy-named-ranges/)
 - [Benannte Bereiche formatieren und ändern](/cells/de/net/format-and-modify-named-ranges/)
-- [Holen Sie sich Reichweite mit externen Links](/cells/de/net/get-range-with-external-links/)
-- [Implementieren von nicht sequentiellen Bereichen](/cells/de/net/implementing-non-sequential-ranges/)
+- [Bereich mit externen Links abrufen](/cells/de/net/get-range-with-external-links/)
+- [Implementierung nicht aufeinanderfolgender Bereiche](/cells/de/net/implementing-non-sequential-ranges/)

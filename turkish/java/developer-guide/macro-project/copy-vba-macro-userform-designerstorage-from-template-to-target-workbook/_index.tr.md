@@ -1,26 +1,27 @@
-﻿---
-title: VBA Macro UserForm DesignerStorage'ı Şablondan Hedef Çalışma Kitabına Kopyalayın
+---
+title: Taslak ve Hedef Çalışbook Arasında VBA Makro Kullanıcı Formu Tasarımcı Depolama Alanını Kopyalama
 type: docs
 weight: 60
 url: /tr/java/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells, VBA projesini bir Excel dosyasından başka bir Excel dosyasına kopyalamanıza olanak tanır. VBA projesi, Belge, Prosedürel, Tasarımcı vb. gibi çeşitli modül türlerinden oluşur. Tüm modüller basit bir kodla kopyalanabilir ancak Tasarımcı modülü için, Tasarımcı Deposu adı verilen, erişilmesi veya kopyalanması gereken bazı ekstra veriler vardır. Aşağıdaki iki yöntem Tasarımcı Depolaması ile ilgilidir.
+Aspose.Cells, bir Excel dosyasından VBA projeyi başka bir Excel dosyasına kopyalamanıza olanak tanır. VBA projesi, belge, prosedürel, tasarımcı vb. çeşitli modüllerden oluşur. Tüm modüller basit bir kodla kopyalanabilir ancak Tasarımcı modül için erişilmesi veya kopyalanması gereken Tasarımcı Deposu adında ekstra veri bulunmaktadır. Aşağıdaki iki yöntem, Tasarımcı Deposu ile ilgilidir.
 
 - [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String))
 - [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[]))
 
-## **VBA Macro UserForm DesignerStorage'ı Şablondan Hedef Çalışma Kitabına Kopyalayın**
+## **Taslak ve Hedef Çalışbook Arasında VBA Makro Kullanıcı Formu Tasarımcı Depolama Alanını Kopyalama**
 
-Lütfen aşağıdaki örnek koda bakın. VBA projesini kopyalar.[şablon excel dosyası](50528367.xlsm)boş bir çalışma kitabına kaydeder ve[çıktı excel dosyası](50528366.xlsm). Şablon Excel dosyası içinde VBA projesini açarsanız, aşağıda gösterildiği gibi bir Kullanıcı Formu göreceksiniz. Kullanıcı Formu, Tasarımcı Depolama Alanından oluşur, bu nedenle kullanılarak kopyalanacaktır.[**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)) ve[**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[])) yöntemler.
+Lütfen aşağıdaki örnek kodu inceleyin. Bu kod, [şablon Excel dosyasından](50528367.xlsm) boş bir çalışma kitabına VBA projesini kopyalar ve onu [çıktı Excel dosyası](50528366.xlsm) olarak kaydeder. Şablon Excel dosyasındaki VBA projesini açarsanız aşağıda gösterilen gibi bir Kullanıcı Formu göreceksiniz. Kullanıcı Formu, Tasarımcı Deposu içerir, bu nedenle [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)) ve [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[])) yöntemleri kullanılarak kopyalanacaktır.
 
-![yapılacaklar:resim_alternatif_metin](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
+![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
 
-Aşağıdaki ekran görüntüsü, şablon Excel dosyasından kopyalanan çıktı Excel dosyasını ve içeriğini gösterir. Düğme 1'e tıkladığınızda, tıklandığında bir mesaj kutusu gösteren bir komut düğmesine sahip olan VBA Kullanıcı Formunu açar.
+Aşağıdaki ekran görüntüsü, sonuç Excel dosyasını ve şablon Excel dosyasından kopyalanan içeriği göstermekte. Button 1'e tıkladığınızda, VBA Kullanıcı Formu'nun açıldığını ve kendisi üzerinde bir komut düğmesinin tıklanması durumunda bir ileti kutusunun gösterildiğini göreceksiniz.
 
-![yapılacaklar:resim_alternatif_metin](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
+![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-WorkbookVBAProject-CopyVBAMacroUserFormDesignerStorageToWorkbook.java" >}}

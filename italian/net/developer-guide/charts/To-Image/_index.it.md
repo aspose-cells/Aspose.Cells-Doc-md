@@ -1,119 +1,120 @@
 ---
-title: Dal grafico all'immagine
-description: Scopri come utilizzare Aspose.Cells for .NET per convertire un grafico in un formato immagine, ad esempio JPEG o PNG. La nostra guida mostrerà come esportare un grafico da Microsoft Excel e salvarlo come immagine autonoma per ulteriore utilizzo e manipolazione.
-keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
-linktitle: Dal grafico all'immagine
+title: Grafico in Immagine
+description: Scopri come utilizzare Aspose.Cells for .NET per convertire un grafico in un formato di immagine, come JPEG o PNG. La nostra guida mostrerà come esportare un grafico da Microsoft Excel e salvarlo come immagine autonoma per ulteriori utilizzi e manipolazioni.
+keywords: Aspose.Cells for .NET, Grafico in Immagine, Microsoft Excel, Conversione di Immagini, Esportazione, Immagine Autonoma.
+linktitle: Grafico in Immagine
 type: docs
 weight: 46
 url: /it/net/chart-to-image/
 ---
-##  **Grafici di rendering**
 
- Aspose.Cells Le API supportano la conversione dei grafici Excel in formati di immagini senza richiedere strumenti o applicazioni aggiuntivi. Per fornire supporto per il rendering, il file[**Grafico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) la classe ha esposto[**Immaginare**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) metodi con una varietà di sovraccarichi per soddisfare al meglio i requisiti dell'applicazione.
+## **Rendering di grafici**
 
-###  **Rendering di grafici in immagini**
+Le API di Aspose.Cells supportano la conversione dei grafici di Excel in formati di immagine senza richiedere strumenti o applicazioni aggiuntive. Al fine di fornire supporto alla visualizzazione, la classe [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) ha esposto [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) metodi con una varietà di sovraccarichi per soddisfare al meglio i requisiti dell'applicazione.
 
- IL[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) Il metodo ha una serie di sovraccarichi per supportare il rendering semplice e avanzato. Se il requisito dell'applicazione è visualizzare il grafico nelle sue dimensioni predefinite, ti suggeriamo di utilizzare il file[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)metodo come segue.
+### **Rendering di grafici in immagini**
+
+Il metodo [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) ha una varietà di sovraccarichi per supportare sia il rendering semplice che avanzato. Se il requisito dell'applicazione è quello di visualizzare il grafico nelle sue dimensioni predefinite, ti suggeriamo di utilizzare il metodo [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) come segue.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
- È anche possibile eseguire il rendering dei grafici in immagini con impostazioni avanzate. Aspose.Cells Le API hanno esposto una versione di sovraccarico di[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) metodo che potrebbe accettare un'istanza di[**OpzioniImmagineOrStampa**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)consentendo al tempo stesso di specificare parametri quali risoluzione, modalità di smussamento, formato immagine e così via.
+È anche possibile renderizzare i grafici in immagini con impostazioni avanzate. Le API di Aspose.Cells hanno esposto una versione sovraccaricata del metodo [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) che potrebbe accettare un'istanza di [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), consentendo di specificare parametri come risoluzione, modalità di smussatura, formato dell'immagine e così via.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-##  **Tipi di grafici supportati per il rendering**
+## **Tipi di grafico supportati per il rendering**
 
- Esistono alcuni tipi di grafici che attualmente non sono supportati per il rendering. Tali tipi di grafici contengono**N** nel **Supportato** colonna della tabella sottostante.
+Ci sono alcuni tipi di grafico attualmente non supportati per il rendering. Tali tipi di grafico contengono **N** nella colonna **Supportato** della tabella sottostante.
 
-|**Tipo di grafico**|**Sottotipo di grafico**|**Supportato**|
+|**Tipo grafico**|**Sottotipo grafico**|**Supportato**|
 | :- | :- | :- |
-|**Colonna**|Colonna|*S**|
-| |Colonna in pila|*S**|
-| |Colonna100PercentImpilata|*S**|
-| |Colonna3DCraggruppata|*S**|
-| |Colonna3DStacked|*S**|
-| |Colonna3D100PercentImpilata|*S**|
-| |Colonna3D|*S**|
-|**Sbarra**|Sbarra|*S**|
-| |Bar Stacked|*S**|
-| |Bar100PercentImpilato|*S**|
-| |Bar3DClustered|*S**|
-| |Bar3DStacked|*S**|
-| |Bar3D100PercentImpilato|*S**|
-|**Linea**|Linea|*S**|
-| |LineStacked|*S**|
-| |Linea 100% in pila|*S**|
-| |LineaConMarcatoriDati|*S**|
-| |LineStackedWithDataMarkers|*S**|
-| |Line100PercentStackedWithDataMarkers|*S**|
-| |Linea3D|*S**|
-|**Torta**|Torta|*S**|
-| |Torta3D|*S**|
-| |PiePie|*S**|
-| |TortaEsplosa|*S**|
-| |Pie3DEsploso|*S**|
-| |PieBar|*S**|
-|**Dispersione**|Dispersione|*S**|
-| |ScatterConnectedByCurvesWithDataMarker|*S**|
-| |ScatterConnectedByCurvesWithoutDataMarker|*S**|
-| |ScatterConnectedByLinesWithDataMarker|*S**|
-| |ScatterConnectedByLinesWithoutDataMarker|*S**|
-|**La zona**|La zona|*S**|
-| |AreaStacked|*S**|
-| |Area100PercentImpilata|*S**|
-| |Area3D|*S**|
-| |Area3DStacked|*S**|
-| |Area3D100PercentImpilata|*S**|
-|**Ciambella**|Ciambella|*S**|
-| |Ciambellaesploso|*S**|
-|**Radar**|Radar|*S**|
-| |RadarConDataMarkers|*S**|
-| |Radarriempito|*S**|
-|**Superficie**|Superficie3D|N|
-| |SuperficieWireframe3D|N|
-| |Contornosuperficie|N|
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
 | |SurfaceContourWireframe|N|
-|**Bolla**|Bolla|*S**|
+|**Bubble**|Bubble|**Y**|
 | |Bubble3D|N|
-|**Azione**|StockHighLowChiudi|*S**|
-| |StockApriAltoBassoChiudi|*S**|
-| |StockVolumeHighLowChiudi|*S**|
-| |StockVolumeOpenHighLowClose|*S**|
-|**Cilindro**|Cilindro|*S**|
-| |Cilindro impilato|*S**|
-| |Cilindro100%impilato|*S**|
-| |Barra cilindrica|*S**|
-| |Barra cilindrica impilata|*S**|
-| |Barra cilindrica 100% impilata|*S**|
-| |Colonna cilindrica3D|*S**|
-|**Cono**|Cono|*S**|
-| |Cono Stacked|*S**|
-| |Cono100%impilato|*S**|
-| |ConicalBar|*S**|
-| |ConicalBarStacked|*S**|
-| |ConicalBar100PercentStacked|*S**|
-| |Colonna conica3D|*S**|
-|**Piramide**|Piramide|*S**|
-| |PyramidStacked|*S**|
-| |Piramide100%Impilato|*S**|
-| |PyramidBar|*S**|
-| |PyramidBarStacked|*S**|
-| |PyramidBar100PercentStacked|*S**|
-| |PiramideColonna3D|*S**|
-|**BoxBaffi**|BoxBaffi|Y|
-|**Imbuto**|Imbuto|*S**|
-|**Linea Pareto**|Linea Pareto|*S**|
-|**Sprazzo di sole**|Sprazzo di sole|*S**|
-|**Mappa ad albero**|Mappa ad albero|*S**|
-|**Cascata**|Cascata|*S**|
-|**Istogramma**|Istogramma|Y|
-|**Carta geografica**|Carta geografica|*N**|
+|**Stock**|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
+|**BoxWhisker**|BoxWhisker|Y|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-Nel caso in cui provi a eseguire il rendering dei tipi di grafico non supportati in immagine o PDF, potresti ritrovarti con immagini di dimensioni 0 o PDF vuoto.
+Nel caso in cui si tenti di rendere i tipi di grafico non supportati in immagine o PDF, si potrebbe ottenere immagini di dimensioni 0 o PDF vuoti.
 
 {{% /alert %}}
 
-##  **Argomenti avanzati**
+## **Argomenti avanzati**
 - [Converti grafico in PDF](/cells/it/net/chart-to-pdf/)

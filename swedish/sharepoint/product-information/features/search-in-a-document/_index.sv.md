@@ -1,28 +1,29 @@
-﻿---
-title: Sök i ett dokument
+---
+title: Sökning i ett dokument
 type: docs
 weight: 60
 url: /sv/sharepoint/search-in-a-document/
 ---
-Aspose.Cells for SharePoint stöder sökningar i dokument lagrade på SharePoint-webbplatser. Aspose.Cells för Share Point stöder följande inmatningsformat för att förhandsgranska dokument:
+
+Aspose.Cells for SharePoint stödjer sökningar i dokument som är lagrade i SharePoint-webbplatser. Aspose.Cells för Share Point stödjer följande ingångsformat för att förhandsgranska dokument:
 
 - XLS – Microsoft Excel 97 - 2003
 - XLSX – Office Open XML
 - XLSM, XLTX, XLTM – Office Open XML
 - XML - Microsoft Excel SpreadsheetML
 
-Så här söker du i ett dokument:
+För att söka i ett dokument:
 
-1. Välj ett dokument eller en mapp som du vill söka efter.
-1.  Högerklicka och välj**Sök i dokument med Aspose.Cells**. 
-1.  Ställ in sökkriterier.
- Sökresultaten visas.
+1. Välj ett dokument eller en mapp du vill söka i.
+1. Högerklicka och välj **Sök i dokument med Aspose.Cells**. 
+1. Ange sökkriterierna. 
+   Sökresultaten visas.
 
-**Alternativet Sök i dokument** 
+**Sök i dokumentalternativet** 
 
 ![todo:image_alt_text](search-in-a-document_1.png)
 
-**Ställ in sökkriterier** 
+**Ange sökkriterierna** 
 
 ![todo:image_alt_text](search-in-a-document_2.png)
 

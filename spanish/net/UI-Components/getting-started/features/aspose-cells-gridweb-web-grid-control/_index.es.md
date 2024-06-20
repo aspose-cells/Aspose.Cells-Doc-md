@@ -1,61 +1,64 @@
-﻿---
-title: Aspose.Cells.GridWeb - Control de cuadrícula web
+---
+title: Aspose.Cells.GridWeb  Control de cuadrícula web
 type: docs
 weight: 40
-url: /es/net/aspose-cells-gridweb-web-grid-control/
+url: /es/net/aspose-cells-gridweb/features/
+keywords: GridWeb,características,característica
+description: Este artículo presenta características para GridWeb .
 ---
+
 ## **Aspose.Cells.GridWeb – Control de cuadrícula web**
 ### **Funciones de importación/exportación**
-- Importar y exportar a hojas de cálculo de Excel.
-- Importe y exporte datos directamente desde y hacia objetos DataView o DataTable.
-### **Características de la hoja de trabajo**
-- Agregar/eliminar hojas de trabajo.
-- Admite la clasificación horizontal y vertical de los datos de la hoja de trabajo.
-- Admite la paginación de la hoja de trabajo.
-- Crea hojas de cálculo desde cero.
+- Importar desde y exportar a hojas de cálculo de Excel.
+- Importar y exportar datos directamente desde y hacia objetos DataView o DataTable.
+### **Características de la hoja de cálculo**
+- Agregar/eliminar hojas de cálculo.
+- Soporta tanto la clasificación horizontal como vertical de datos de hojas de cálculo.
+- Soporta paginación de hojas de cálculo.
+- Crear hojas de cálculo desde cero.
 ### **Funciones de fila y columna**
-- Agregue, inserte y elimine filas y columnas en una hoja de trabajo.
+- Agregar, insertar y eliminar filas y columnas en una hoja de cálculo.
 - Ocultar y mostrar filas y columnas.
 - Congelar y descongelar filas y columnas.
-- Personaliza los encabezados de filas y columnas.
-### **Cell Características**
-- Edite varias celdas en el lado del cliente con una sola publicación en el lado del servidor.
-- Admite configuraciones de formato de número, fecha y hora.
-- Admite configuraciones de formato personalizadas
-- Controla la alineación del texto.
-- Administrar fronteras.
-- Controla la configuración de la fuente.
-- Combinar o dividir celdas
+- Personalizar los encabezados de filas y columnas.
+### **Funciones de celda**
+- Editar múltiples celdas en el lado del cliente con un solo envío al lado del servidor.
+- Soporta ajustes de formato de número, fecha y hora.
+- Soporta ajustes de formato personalizados.
+- Controlar la alineación del texto.
+- Gestionar bordes.
+- Controlar los ajustes de fuente.
+- Fusionar o dividir celdas
 ### **Funciones de formato**
-- Cree aplicaciones de grillas interactivas basadas en la web que se vean y se sientan como aplicaciones de hojas de cálculo de escritorio.
-- Admite el formateo de celdas del lado del cliente.
+- Crear aplicaciones de cuadrícula interactivas basadas en web que se ven y se sienten como aplicaciones de hojas de cálculo de escritorio.
+- Admite formato de celda del lado del cliente.
 - Proporciona estilos visuales integrados y personalizables.
-### **Funciones de utilidad**
-- Admite validaciones de listas desplegables y expresiones regulares.
-- Añadir y eliminar comentarios.
+### **Características de utilidad**
+- Admite lista desplegable y validaciones de expresiones regulares.
+- Agregar y eliminar comentarios.
 - Insertar y eliminar imágenes.
 - Agregar y eliminar hipervínculos.
-- Navegación con teclado.
-### **Funciones avanzadas**
+- Navegación con el teclado.
+### **Funciones Avanzadas**
 - Admite la creación y el cálculo de fórmulas en páginas web.
-- Proporciona más de 80 funciones predefinidas relacionadas con matemáticas, texto y datos, fecha y hora y lógica.
-- Admite la creación de tablas dinámicas dinámicas.
-- Realice acciones bajo diferentes eventos de cuadrícula.
-- Utilice el control Aspose.Cells.GridWeb en modo sin sesión.
-- Envíe datos de cuadrícula con un solo clic.
+- Proporciona más de 80 funciones predefinidas relacionadas con matemáticas, texto y datos, fecha y hora, y lógica.
+- Admite la creación de tablas dinámicas.
+- Realizar acciones bajo diferentes eventos de cuadrícula.
+- Utilizar el control Aspose.Cells.GridWeb en modo sin sesión.
+- Enviar datos de la cuadrícula con un solo clic.
 ### **Navegadores compatibles**
 - Microsoft Internet Explorer
-- Mozilla Firefox
-- Ópera
-- Google cromo
-- Microsoft Borde
-### **Microsoft Compatible con Excel**
-- Microsoft excel 97
-- Microsoft excel 2000
+- Mozilla FireFox
+- Opera
+- Google Chrome
+- Microsoft Edge
+### **Compatible con Microsoft Excel**
+- Microsoft Excel 97
+- Microsoft Excel 2000
 - Microsoft Excel XP
-- Microsoft excel 2003
-- Microsoft excel 2007
-- Microsoft excel 2010
-- Microsoft excel 2013
-### **Plataformas compatibles**
-- ASP.NET Formularios web
+- Microsoft Excel 2003
+- Microsoft Excel 2007
+- Microsoft Excel 2010
+- Microsoft Excel 2013
+### **Plataformas Compatibles**
+- ASP.NET Web Forms

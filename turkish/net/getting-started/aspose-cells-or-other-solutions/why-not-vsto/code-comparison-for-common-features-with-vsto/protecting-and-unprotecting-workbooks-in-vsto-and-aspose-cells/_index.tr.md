@@ -1,16 +1,17 @@
-﻿---
-title: VSTO ve Aspose.Cells'de Çalışma Kitaplarını Koruma ve Korumayı Kaldırma
+---
+title: VSTO ve Aspose.Cells te Çalışma Kitaplarının Korunması ve Korumanın Kaldırılması
 type: docs
 weight: 200
 url: /tr/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/
 ---
-Mevcut bir Microsoft Excel dosyasını açmak için çalışma kitabını yapı ve Windows öznitelikleri ile koruyun ve dosyayı kaydedin.
 
-Aşağıda, bir çalışma kitabının nasıl korunacağını gösteren VSTO (C#) ve Aspose.Cells for .NET (C#) için paralel kod parçacıkları bulunmaktadır.
+Var olan bir Microsoft Excel dosyasını açın, çalışma kitabını yapı ve Windows özellikleriyle koruyun ve dosyayı kaydedin.
+
+VSTO (C#) ve Aspose.Cells for .NET (C#) için çalışma kitabını korumanın nasıl yapılacağını gösteren paralel kod parçacıkları aşağıda gösterilmektedir.
 ## **VSTO**
 **Çalışma Kitabını Koruma**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -52,9 +53,9 @@ excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
 {{< /highlight >}}
 
-**Korumayı Kaldırma Çalışma Kitabı**
+**Çalışma Kitabının Korumasını Kaldırma**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   //Unprotect the workbook specifying its password.
 
@@ -64,7 +65,7 @@ excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 ## **Aspose.Cells**
 **Çalışma Kitabını Koruma**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the template excel file path.
 
@@ -86,16 +87,16 @@ excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
 {{< /highlight >}}
 
-**Korumayı Kaldırma Çalışma Kitabı**
+**Çalışma Kitabının Korumasını Kaldırma**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 
   workbook.Unprotect("007");
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Protecting.and.Unprotecting.Workbooks.Aspose.Cells.zip)
-- [kaynak forge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\).zip/indir)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Protecting%20and%20Unprotecting%20Workbooks%20\(Aspose.Cells\).zip)

@@ -1,16 +1,17 @@
-﻿---
-title: Python での改ページの管理
+---
+title: Pythonでのページ区切りの管理
 type: docs
 weight: 20
 url: /ja/java/managing-page-breaks-in-python/
 ---
-## **Aspose.Cells - 改ページの管理**
-### **改ページの追加**
-を使用して改ページを追加するには**Aspose.Cells Ruby の場合は Java**、 電話**add_page_breaks**方法**改ページ**モジュール。以下にコード例を示します。
 
-**Python コード**
+## **Aspose.Cells - ページの区切りを管理する**
+### **ページブレークの追加**
+**Aspose.Cells Java for Ruby**を使用してページ区切りを追加するには、**pagebreaks**モジュールの**add_page_breaks**メソッドを呼び出します。以下にコード例があります。
 
-{{< highlight "python" >}}
+**Pythonコード**
+
+{{< highlight python >}}
 
  def add_page_breaks(self):
 
@@ -38,12 +39,12 @@ print "Add page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **すべての改ページのクリア**
-を使用してすべての改ページをクリアするには**Aspose.Cells Java for Python**、 電話**clear_all_page_breaks**方法**改ページ**モジュール。以下にコード例を示します。
+### **すべてのページの改ページをクリアする**
+**Aspose.Cells Java for Python**を使用してすべてのページ区切りを解除するには、**pagebreaks**モジュールの**clear_all_page_breaks**メソッドを呼び出します。以下にコード例を示します。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -66,12 +67,12 @@ print "Clear all page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **特定の改ページの削除**
-を使用して特定の改ページを削除するには**Aspose.Cells Java for Python**、 電話**remove_page_break**方法**改ページ**モジュール。以下にコード例を示します。
+### **特定の改ページを削除する**
+**Aspose.Cells Java for Python**を使用して特定のページ区切りを削除するには、**pagebreaks**モジュールの**remove_page_break**メソッドを呼び出します。以下にコード例を示します。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -101,7 +102,7 @@ print "Remove page break, please check the output file."
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**改ページの管理 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**Managing Page Breaks (Aspose.Cells)**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

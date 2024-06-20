@@ -1,17 +1,18 @@
-﻿---
-title: Copiar hojas de trabajo
+---
+title: Copiar Hojas de Cálculo
 type: docs
 weight: 60
 url: /es/net/copy-worksheets/
 ---
-## **Sugerencia de migración:**
-\1. Cree el objeto Libro de trabajo y obtenga la Hoja de trabajo.
-\2. Insertar texto en la hoja de trabajo.
-\3. Cree una nueva hoja de trabajo y cópiela en la hoja de trabajo anterior antes de hacerla.
+
+## **Consejo de Migración:**
+\1. Crear objeto Workbook y obtener hoja de cálculo.
+\2. Insertar texto en la hoja de cálculo.
+\3. Crear nueva hoja de cálculo y copiarla en la hoja de cálculo previamente creada.
 ### **VSTO**
-Error al renderizar macro 'código': valor no válido especificado para el parámetro lang
+Error al renderizar macro 'code': valor no válido especificado para el parámetro lang
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   private static string fileName ="CopyWorksheets.xlsx";
 

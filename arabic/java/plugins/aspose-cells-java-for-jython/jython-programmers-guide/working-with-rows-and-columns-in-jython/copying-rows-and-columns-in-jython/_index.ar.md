@@ -1,83 +1,84 @@
-﻿---
-title: نسخ الصفوف والأعمدة في جايثون
+---
+title: نسخ الصفوف والأعمدة في Jython
 type: docs
 weight: 30
 url: /ar/java/copying-rows-and-columns-in-jython/
 ---
+
 ## **Aspose.Cells - نسخ الصفوف والأعمدة**
- لإلحاق المستندات باستخدام**Aspose.Cells Java لـ Jython**. هنا يمكنك أن ترى رمز المثال.
+لإلحاق المستندات باستخدام **Aspose.Cells Java for Jython**. هنا يمكنك رؤية رمز المثال.
 
-**كود جايثون**
+**رمز Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- من إعدادات استيراد الخلايا غير المقصودة
+ from aspose-cells import Settings
 
-من com.aspose.cells import Workbook
+from com.aspose.cells import Workbook
 
-فئة RowsAndColumns:
+class RowsAndColumns:
 
- def__فيه__(الذات):
-
-
-
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns / RowsAndColumns'
+    def __init__(self):
 
 
 
- # نسخ الصفوف
-
- self.copy_rows ()
-
- # نسخ الأعمدة
-
- self.copy_columns ()
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
 
 
- def copy_rows (dataDir):
+        # Copying Rows
 
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns / RowsAndColumns /'
+        self.copy_rows()
 
- # إنشاء كائن مصنف من خلال مسار ملف Excel
+        # Copying Columns
 
- المصنف = المصنف (dataDir + 'Book1.xls')
-
- الوصول إلى ورقة العمل الأولى في ملف Excel
-
- ورقة العمل = workbook.getWorksheets (). get (0)
-
- # انسخ الصف الثاني بالبيانات والتنسيقات والصور والكائنات الرسومية
-
- # إلى الصف الثاني عشر في ورقة العمل.
-
- workheet.getCells (). copyRow (workheet.getCells ()، 1،11)
-
- # حفظ ملف Excel المعدل في تنسيق افتراضي (أي Excel 2003)
-
- workbook.save (dataDir + "Copy Rows.xls")
-
- طباعة "نسخ الصفوف بنجاح."
+        self.copy_columns()
 
 
 
- def copy_columns (dataDir):
+    def copy_rows(dataDir):
 
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns / RowsAndColumns /'
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'    
 
- # إنشاء كائن مصنف من خلال مسار ملف Excel
+        # Instantiating a Workbook object by excel file path
 
- المصنف = المصنف ()
+        workbook = Workbook(dataDir + 'Book1.xls')
 
- الوصول إلى ورقة العمل الأولى في ملف Excel
+        # Accessing the first worksheet in the Excel file
 
- ورقة العمل = workbook.getWorksheets (). get (0)
+        worksheet = workbook.getWorksheets().get(0)
 
- # ضع بعض البيانات في صفوف الرأس (A1: A4)
+        # Copy the second row with data, formattings, images and drawing objects
 
- أنا = 0
+        # to the 12th row in the worksheet.
 
- عندما أنا< 5:
+        worksheet.getCells().copyRow(worksheet.getCells(),1,11)
+
+        # Saving the modified Excel file in default (that is Excel 2003) format
+
+        workbook.save(dataDir + "Copy Rows.xls")
+
+        print "Copy Rows Successfully." 
+
+
+
+    def copy_columns(dataDir):
+
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'    
+
+        # Instantiating a Workbook object by excel file path
+
+        workbook = Workbook()
+
+        # Accessing the first worksheet in the Excel file
+
+        worksheet = workbook.getWorksheets().get(0)
+
+        # Put some data into header rows (A1:A4)
+
+        i = 0
+
+        while i < 5:
 
             worksheet.getCells().get(i, 0).setValue("Header Row #i")
 
@@ -128,7 +129,7 @@ if __name__ == '__main__':
     RowsAndColumns()
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إرفاق المستندات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **مستندات الإضافة (Aspose.Cells)** من أي من المواقع الاجتماعية للترميز الواردة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

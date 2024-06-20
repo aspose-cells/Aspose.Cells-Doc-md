@@ -1,25 +1,26 @@
-﻿---
-title: Benutzerdefinierte Segment- oder Sektorfarben im Kreisdiagramm
+---
+title: Benutzerdefinierte Slice oder Sektorenfarben in einem Tortendiagramm
 type: docs
 weight: 30
 url: /de/java/custom-slice-or-sector-colors-in-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-In diesem Artikel wird erläutert, wie Sie Kreisdiagrammsegmenten/Sektoren benutzerdefinierte Farben hinzufügen. Standardmäßig verwenden Tortendiagramme die Excel-Standardvorlage Microsoft. Um andere Farben zu verwenden, ist es möglich, die Farben im Diagramm neu zu definieren.
+Dieser Artikel erklärt, wie benutzerdefinierte Farben zu Tortendiagrammschnitten/Sektoren hinzugefügt werden können. Standardmäßig verwendet ein Tortendiagramm die Vorlage von Microsoft Excel. Um andere Farben zu verwenden, ist es möglich, die Farben im Diagramm neu zu definieren.
 
 {{% /alert %}}
 
-So legen Sie die benutzerdefinierte Farbe für die einzelnen Segmente oder Sektoren eines Tortendiagramms fest:
+Um die benutzerdefinierte Farbe für die einzelnen Slices oder Sektoren des Tortendiagramms festzulegen:
 
-1.  Greife auf ... zu[**Serie**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) Objekt[**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
-1.  Weisen Sie mit dem eine Farbe Ihrer Wahl zu[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor)Methode.
+1. Greifen Sie auf das [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)-Objekt's [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint) zu.
+1. Weisen Sie eine Farbe Ihrer Wahl mithilfe der Methode [**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor) zu.
 
-In diesem Artikel wird auch erklärt, wie Sie Folgendes einstellen:
+In diesem Artikel wird auch erläutert, wie:
 
 - Die Kategoriedaten eines Diagramms.
-- Ein mit einer Zelle verknüpfter Diagrammtitel.
-- Die Einstellungen für die Schriftart des Diagrammtitels.
+- Ein Diagrammtitel, der mit einer Zelle verknüpft ist.
+- Die Schriftarteinstellungen des Diagrammtitels.
 - Die Position der Legende.
 
 {{% alert color="primary" %}}
@@ -28,8 +29,8 @@ In diesem Artikel wird auch erklärt, wie Sie Folgendes einstellen:
 
 {{% /alert %}}
 
-**Benutzerdefinierte Slice-Farben im Kreisdiagramm**
+**Benutzerdefinierte Schnittfarben im Tortendiagramm**
 
-![todo: Bild_alt_Text](custom-slice-or-sector-colors-in-pie-chart_1.png)
+![todo:image_alt_text](custom-slice-or-sector-colors-in-pie-chart_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSliceOrSectorColorsPieChart-CustomSliceOrSectorColorsPieChart.java" >}}

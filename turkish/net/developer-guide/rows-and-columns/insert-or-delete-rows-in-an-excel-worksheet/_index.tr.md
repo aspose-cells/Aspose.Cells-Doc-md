@@ -1,21 +1,22 @@
-﻿---
-title: Excel Çalışma Sayfasına Satır Ekleme veya Silme
+---
+title: Bir Excel Çalışma Sayfasına Satır Ekle veya Sil
 type: docs
 weight: 20
 url: /tr/net/insert-or-delete-rows-in-an-excel-worksheet/
 description: Bu makale, Excel çalışma sayfasına satır eklemek ve silmek için C# kodunu sağlar.
-keywords: c# insert or delete rows in excel worksheet, c# insert or delete rows in excel, c# insert rows in excel, c# delete rows in excel, insert or delete rows in excel worksheet with c#, insert or delete rows in excel with c#, insert rows in excel with c#, delete rows in excel with c#
+keywords: c# excel çalışma sayfasında satır ekleme veya silme, c# excel de satır ekleme veya silme, c# excel de satır ekleme, c# excel de satır silme, C# ile excel çalışma sayfasında satır ekleme veya silme, C# ile excel de satır ekleme veya silme, C# ile excel de satır ekleme, C# ile excel de satır silme
 ---
+
 {{% alert color="primary" %}}
 
-Yeni bir çalışma sayfası oluştururken veya mevcut bir çalışma sayfasıyla çalışırken, verileri barındırmak için fazladan satır veya sütun eklemeniz gerekebilir. Diğer zamanlarda, çalışma sayfasında belirtilen konumlardaki satırları veya sütunları silmeniz gerekebilir.
+Yeni bir çalışma sayfası oluştururken veya mevcut bir çalışma sayfası üzerinde çalışırken, verileri karşılamak için ekstra satırlar veya sütunlar eklemeniz gerekebilir. Diğer zamanlarda, belirli pozisyonlardan satırları veya sütunları silmeniz gerekebilir.
 
 {{% /alert %}}
 
- Aspose.Cells, satır eklemek ve silmek için iki yöntem sunar:[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) ve[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index). Bu yöntemler performans için optimize edilmiştir ve işi çok hızlı bir şekilde yapar.
+Aspose.Cells, satırları eklemek ve silmek için iki yöntem sunar: [**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) ve [**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index). Bu yöntemler, performans için optimize edilmiştir ve işi çok hızlı bir şekilde yapar.
 
- Bir dizi satır eklemek veya çıkarmak için her zaman[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) ve[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index) yöntemleri kullanmak yerine[**Cells.InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) veya[**Sırayı sil**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterow)bir döngüdeki yöntemler.
+Birkaç satır eklemek veya kaldırmak amacıyla, her zaman döngüde [**Cells.InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) veya [**DeleteRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterow) yöntemlerini kullanmak yerine [**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) ve [**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index) yöntemlerini kullanmanızı öneririz.
 
-Aspose.Cells, Microsoft Excel'in yaptığı gibi çalışır. Satır veya sütun eklendiğinde, çalışma sayfası içeriği aşağı ve sağa kaydırılır. Satır veya sütunlar kaldırıldığında, çalışma sayfası içeriği yukarı veya sola kaydırılır. Diğer çalışma sayfalarındaki ve hücrelerdeki referanslar, satırlar eklendiğinde veya kaldırıldığında güncellenir.
+Aspose.Cells, Microsoft Excel'in çalışma şekliyle aynı şekilde çalışır. Satırlar veya sütunlar eklenirse, çalışma sayfası içeriği aşağıya ve sağa kaydırılır. Satırlar veya sütunlar kaldırıldığında, çalışma sayfası içeriği yukarı veya sola kaydırılır. Satırlar eklenip kaldırıldığında diğer çalışma sayfaları ve hücrelerdeki referanslar güncellenir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertDeleteRows-1.cs" >}}

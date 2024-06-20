@@ -1,28 +1,29 @@
-﻿---
-title: Conversion d'une feuille de calcul en fichier image par page
+---
+title: Conversion de la feuille de calcul en fichier image par page
 type: docs
 weight: 10
 url: /fr/net/converting-worksheet-to-image-file-by-page/
 ---
-{{< highlight "csharp" >}}
 
- Workbook book = new Workbook("Feuille à Image par Page.xls");
+{{< highlight csharp >}}
 
-Feuille de calcul = livre. Feuilles de travail [0] ;
+ Workbook book = new Workbook("Sheet to Image by Page.xls");
 
-Aspose.Cells.Rendering.ImageOrPrintOptions options = nouveau Aspose.Cells.Rendering.ImageOrPrintOptions();
+Worksheet sheet = book.Worksheets[0];
+
+Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 
 options.HorizontalResolution = 200;
 
 options.VerticalResolution = 200;
 
-options.ImageFormat = System.Drawing.Imaging.ImageFormat.Tiff ;
+options.ImageFormat = System.Drawing.Imaging.ImageFormat.Tiff;
 
-// Conversion Sheet2Image par page
+//Sheet2Image By Page conversion
 
-SheetRender sr = new SheetRender(feuille, options);
+SheetRender sr = new SheetRender(sheet, options);
 
- pour (int j = 0; j< sr.PageCount; j++)
+for (int j = 0; j < sr.PageCount; j++)
 
 {
 
@@ -34,6 +35,6 @@ SheetRender sr = new SheetRender(feuille, options);
 
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
-- [GithubGenericName](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.image.file.by.Page.Aspose.Cells.zip)
+## **Télécharger le code source d'exemple**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.image.file.by.Page.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Worksheet%20to%20image%20file%20by%20Page%20%28Aspose.Cells%29.zip)

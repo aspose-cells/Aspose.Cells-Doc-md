@@ -1,41 +1,42 @@
-﻿---
-title: Mappatura dei parametri della query ai parametri del report
+---
+title: Mappatura dei parametri di query ai parametri del report
 type: docs
 weight: 30
 url: /it/reportingservices/mapping-query-parameters-to-report-parameters/
 ---
-1. Apri Microsoft Excel.
-1.  Clic**Crea set di dati**sulla barra degli strumenti Aspose.Cells.Report.Designer (
 
-![cose da fare:immagine_alt_testo](mapping-query-parameters-to-report-parameters_1.png)
+1. Aprire Microsoft Excel.
+1. Fare clic su **Genera set di dati** sulla barra degli strumenti del Progettista di Aspose.Cells.Report (
+
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_1.png)
 
 ).
 
-1.  Seleziona un set di dati nel riquadro di sinistra, ad esempio**EmpSalesDetail**. 
+1. Selezionare un set di dati nel pannello di sinistra, ad esempio **DettaglioVenditeDipendenti**. 
 
    **Selezione di un set di dati** 
 
-![cose da fare:immagine_alt_testo](mapping-query-parameters-to-report-parameters_2.png)
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_2.png)
 
 
 
 
-1. Fare clic sulla scheda Parametri nel riquadro a destra per elencare i parametri del set di dati.
-1.  Clicca il**Parametro di report associato** colonna.
- Vengono elencati tutti i parametri del report creati in precedenza.
-1.  Seleziona un parametro.
+1. Fare clic sulla scheda Parametri nel pannello di destra per elencare i parametri del set di dati.
+1. Fare clic sulla colonna **Parametro del report vincolato**.
+   Vengono elencati tutti i parametri del report creati in anticipo. 
+1. Selezionare un parametro. 
 
-   **Parametri di mappatura** 
+   **Mappatura dei parametri** 
 
-![cose da fare:immagine_alt_testo](mapping-query-parameters-to-report-parameters_3.png)
-
-
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_3.png)
 
 
-1.  Ripetere per mappare tutti i parametri della query ai parametri del report.
 
-   **Mappatura completata** 
 
-![cose da fare:immagine_alt_testo](mapping-query-parameters-to-report-parameters_4.png)
+1. Ripetere per mappare tutti i parametri della query ai parametri del report. 
 
-1.  Clic**Chiudere**.
+   **Mappatura completa** 
+
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_4.png)
+
+1. Fare clic su **Chiudi**.

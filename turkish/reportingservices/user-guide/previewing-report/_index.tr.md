@@ -1,34 +1,35 @@
-﻿---
-title: Önizleme Raporu
+---
+title: Raporu Önizleme
 type: docs
 weight: 130
 url: /tr/reportingservices/previewing-report/
 ---
+
 {{% alert color="primary" %}} 
 
-Bir raporu önizlemek, bunun istediğiniz rapor olduğundan emin olmanıza yardımcı olur.
+Bir raporu önizlemek, istediğiniz raporun doğru olduğundan emin olmanıza yardımcı olur.
 
 {{% /alert %}} 
 
 Bir raporu önizlemek için:
 
-1.  Tıklamak**görüş** 
+1. **Görünüm**'e tıklayın 
 
-![yapılacaklar:resim_alternatif_metin](previewing-report_1.png)
+![todo:image_alt_text](previewing-report_1.png)
 
 Aspose.Cells.Report.Designer araç çubuğunda.
 
-1.  Rapor Sunucusunun URL'sini girin ve**Yenile** buton.
+1. Rapor Sunucusunun URL'sini girin ve **Yenile** düğmesine tıklayın.
 
-![yapılacaklar:resim_alternatif_metin](previewing-report_2.png)
-
-
+![todo:image_alt_text](previewing-report_2.png)
 
 
-1.  Bir rapor seçin ve tıklayın**Ön izleme** buton.
 
-![yapılacaklar:resim_alternatif_metin](previewing-report_3.png)
 
-1.  İletişim kutusunda rapor parametrelerini girin ve dışa aktarma dosyası formatını seçin. Tıkla**Tamam** raporu dışa aktarmak için düğmesine basın.
+1. Bir rapor seçin ve **Önizle** düğmesine tıklayın. 
 
-![yapılacaklar:resim_alternatif_metin](previewing-report_4.png)
+![todo:image_alt_text](previewing-report_3.png)
+
+1. Açılan iletişim kutusunda rapor parametrelerini girin ve dışa aktarma dosya biçimini seçin. Raporu dışa aktarmak için **Tamam** düğmesine tıklayın.
+
+![todo:image_alt_text](previewing-report_4.png)

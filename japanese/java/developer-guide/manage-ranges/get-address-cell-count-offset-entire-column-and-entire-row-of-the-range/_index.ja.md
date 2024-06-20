@@ -1,36 +1,37 @@
-﻿---
-title: Get Address Cell Count Offset 範囲の列全体と行全体
+---
+title: 範囲のアドレス、セル数、オフセット、全列、および全行を取得する
 type: docs
 weight: 250
 url: /ja/java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells は[**範囲**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)ユーザーが Excel Ranges を簡単に操作できるようにするさまざまなユーティリティ メソッドを持つオブジェクトです。この記事では、次のメソッドまたはプロパティの使用法について説明します。[**範囲**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)物体。
+## **可能な使用シナリオ**
 
-- **住所**
+Aspose.Cellsは、Excelの範囲を容易に扱うための様々なユーティリティメソッドを持つ[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)オブジェクトを提供します。この記事では、[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)オブジェクトの以下のメソッドまたはプロパティの使用例を示します。
+
+- **アドレス**
 
 範囲のアドレスを取得します。
 
-- **Cell カウント**
+- **セル数**
 
 範囲内のすべてのセル数を取得します。
 
 - **オフセット**
 
-オフセットで範囲を取得します。
+オフセットによって範囲を取得します。
 
-- **列全体**
+- **全列**
 
-指定した範囲を含む 1 つまたは複数の列全体を表す Range オブジェクトを取得します。
+指定された範囲を含む列全体を表すRangeオブジェクトを取得します。
 
-- **行全体**
+- **全行**
 
-指定した範囲を含む行全体を表す Range オブジェクトを取得します。
+指定された範囲を含む行全体を表すRangeオブジェクトを取得します。
 
-## **Get Address, Cell Count, Offset, 範囲の列全体と行全体**
+## **範囲のアドレス、セル数、オフセット、全列および全行を取得する**
 
-次のサンプル コードは、前述のメソッドとプロパティの使用法を説明しています。以下のコードのコンソール出力を参照してください。
+以下のサンプルコードは、上記で説明したメソッドとプロパティの使用方法を説明します。参考のために、以下に示すコードのコンソール出力をご覧ください。
 
 ## **サンプルコード**
 
@@ -38,7 +39,7 @@ Aspose.Cells は[**範囲**](https://reference.aspose.com/cells/java/com.aspose.
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Creating Range A1:B3
 

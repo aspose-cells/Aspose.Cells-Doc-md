@@ -1,37 +1,39 @@
 ---
-title: Insérer une trancheuse
-linktitle: Trancheuses
+title: Insérer un segmentateur
+linktitle: Segmentateurs
 type: docs
 weight: 170
 url: /fr/python-net/create-slicer/
-description: Gérez les slicers de fichiers Excel avec le Aspose.Cells.
+description: Gérer les segmentateurs des fichiers Excel avec Aspose.Cells.
+keywords: Aspose.Cells pour Python Excel, bibliothèque Python Excel, Python Créer un slicer sans Excel, Ajouter un slicer via Aspose.Cells pour Python, Insérer un slicer en utilisant Aspose.Cells pour Python.
 ---
-##  **Scénarios d'utilisation possibles**
 
-Un slicer est utilisé pour filtrer les données rapidement. Il peut être utilisé pour filtrer les données dans un tableau ou un tableau croisé dynamique. Microsoft Excel vous permet de créer un slicer en sélectionnant un tableau ou un tableau croisé dynamique, puis en cliquant sur *Insérer > Slicer*. Aspose.Cells for Python via .NET vous permet également de créer un slicer à l'aide du[**Feuille de calcul.slicers.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/add/#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField)méthode.
+## **Scénarios d'utilisation possibles**
 
-##  **Créer un slicer dans un tableau croisé dynamique**
+Un slicer est utilisé pour filtrer rapidement les données. Il peut être utilisé pour filtrer des données dans un tableau ou un tableau croisé dynamique. Microsoft Excel vous permet de créer un slicer en sélectionnant un tableau ou un tableau croisé dynamique, puis en cliquant sur *Insérer > Slicer*. Aspose.Cells pour Python via .NET vous permet également de créer un slicer en utilisant la méthode [**Worksheet.slicers.add()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercollection/add/#aspose.cells.pivot.PivotTable-int-int-aspose.cells.pivot.PivotField).
 
- Veuillez consulter l'exemple de code suivant. Il charge le[exemple de fichier Excel](67338470.xlsx) qui contient le tableau croisé dynamique. Il crée ensuite le slicer basé sur le premier champ pivot de base. Enfin, il enregistre le classeur dans[sortie XLSX](67338471.xlsx) et[sortie XLSB](67338472.xlsb) format. La capture d'écran suivante montre le slicer créé par Aspose.Cells dans le fichier Excel de sortie.
+## **Comment créer un slicer pour un tableau croisé dynamique en utilisant la bibliothèque Aspose.Cells pour Python Excel**
 
-![tâche : image_alt_text](create-slicer-to-a-pivot-table_1.png)
+Veuillez consulter le code d'exemple suivant. Il charge le [fichier Excel exemple](67338470.xlsx) qui contient le tableau croisé dynamique. Il crée ensuite le segmentateur en fonction du premier champ de base du tableau croisé dynamique. Enfin, il enregistre le classeur au format [XLSX de sortie](67338471.xlsx) et [XLSB de sortie](67338472.xlsb). La capture d'écran suivante montre le segmentateur créé par Aspose.Cells dans le fichier Excel de sortie.
 
-###  **Exemple de code**
+![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
+
+### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-CreateSlicerToPivotTable.py" >}}
 
-##  **Créer un slicer dans un tableau Excel**
+## **Comment créer un slicer pour un tableau Excel en utilisant la bibliothèque Aspose.Cells pour Python Excel**
 
- Veuillez consulter l'exemple de code suivant. Il charge le[exemple de fichier Excel](sampleCreateSlicerToExcelTable.xlsx) qui contient un tableau. Il crée ensuite le slicer basé sur la première colonne. Enfin, il enregistre le classeur dans[sortie XLSX](outputCreateSlicerToExcelTable.xlsx) format.
+Veuillez consulter le code d'exemple suivant. Il charge le [fichier Excel exemple](sampleCreateSlicerToExcelTable.xlsx) qui contient un tableau. Il crée ensuite le segmentateur en fonction de la première colonne. Enfin, il enregistre le classeur au format [XLSX de sortie](outputCreateSlicerToExcelTable.xlsx).
 
-###  **Exemple de code**
+### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.py" >}}
 
-##  **Sujets avancés**
-- [Modifier les propriétés du segment](/cells/fr/python-net/change-slicer-properties/)
-- [Dessinez Slicer lors du rendu d'Excel au PDF](/cells/fr/python-net/draw-slicer-while-rendering-excel-to-pdf/)
-- [Trancheur de formatage](/cells/fr/python-net/formatting-slicer/)
-- [Suppression du trancheur](/cells/fr/python-net/removing-slicer/)
-- [Trancheur de rendu](/cells/fr/python-net/rendering-slicer/)
-- [Mise à jour du trancheur](/cells/fr/python-net/updating-slicer/)
+## **Sujets avancés**
+- [Modifier les propriétés du segmentateur](/cells/fr/python-net/change-slicer-properties/)
+- [Dessiner un tronçonneur lors du rendu Excel en PDF](/cells/fr/python-net/draw-slicer-while-rendering-excel-to-pdf/)
+- [Formatage d'un tronçonneur](/cells/fr/python-net/formatting-slicer/)
+- [Suppression du tronçonneur](/cells/fr/python-net/removing-slicer/)
+- [Rendu du tronçonneur](/cells/fr/python-net/rendering-slicer/)
+- [Mise à jour du tronçonneur](/cells/fr/python-net/updating-slicer/)

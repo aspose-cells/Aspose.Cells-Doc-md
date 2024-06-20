@@ -1,14 +1,15 @@
-﻿---
+---
 title: Delimitatori
 type: docs
 weight: 20
 url: /it/reportingservices/delimiters/
 ---
-Aspose.Cells for Reporting Services supporta un delimitatore specificato durante il rendering del formato TXT o CSV. Due impostazioni controllano il delimitatore di campo in Aspose.Cells for Reporting Services.
 
-1.  Il parametro del delimitatore di campo in**rsreportserver.config** può controllare solo un'estensione per il rendering specificata.
+Aspose.Cells for Reporting Services supporta un delimitatore specificato durante la visualizzazione del formato TXT o CSV. Due impostazioni controllano il delimitatore di campo in Aspose.Cells for Reporting Services.
 
-{{< highlight "java" >}}
+1. Il parametro delimitatore del campo in **rsreportserver.config** può controllare solo un'estensione di rendering specificata. 
+
+{{< highlight java >}}
 
  <Extension Name="ACTXT" Type="Aspose.Cells.ReportingServices.TabDelimitedRenderer,Aspose.Cells.ReportingServices" >
 
@@ -64,9 +65,9 @@ Specified field delimiters configuration reference:
 
 
 
-1.  Il parametro del delimitatore di campo in**Aspose.Cells.ReportingServices.xml** può controllare tutte le estensioni per il rendering del tipo TXT.
+1. Il parametro delimitatore del campo in **Aspose.Cells.ReportingServices.xml** può controllare tutte le estensioni di rendering di tipo TXT. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 
 
@@ -87,4 +88,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- Il parametro del delimitatore di campo in**rsreportserver.config** ha la priorità sul parametro delimitatore di campo in**Aspose.Cells.ReportingServices.xml** . Quando il parametro delimitatore di campo in**rsreportserver.config** è nullo o il valore predefinito, il parametro del delimitatore di campo in**Aspose.Cells.ReportingServices.xml** viene usato.
+Il parametro delimitatore del campo in **rsreportserver.config** ha la priorità sul parametro delimitatore del campo in **Aspose.Cells.ReportingServices.xml**. Quando il parametro delimitatore del campo in **rsreportserver.config** è nullo o ha il valore predefinito, viene utilizzato il parametro delimitatore del campo in **Aspose.Cells.ReportingServices.xml**.

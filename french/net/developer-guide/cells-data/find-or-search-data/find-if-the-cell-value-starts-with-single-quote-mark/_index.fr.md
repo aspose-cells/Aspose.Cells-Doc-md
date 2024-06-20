@@ -1,17 +1,18 @@
 ---
-title: Rechercher si la valeur de la cellule commence par un guillemet simple
+title: Trouvez si la valeur de la cellule commence par un guillemet simple
 type: docs
 weight: 270
 url: /fr/net/find-if-the-cell-value-starts-with-single-quote-mark/
-description: Découvrez comment savoir si la valeur de la cellule commence par un guillemet simple jusqu'au Aspose.Cells for .NET API.
-keywords: Find cell value starts with a single quote mark, Search cell value starts with a single quote mark
+description: Apprenez comment trouver si la valeur de la cellule commence par un guillemet simple via l API Aspose.Cells for .NET.
+keywords: Trouver si la valeur de la cellule commence par un guillemet simple, Rechercher si la valeur de la cellule commence par un guillemet simple
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells fournit désormais le[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) propriété pour déterminer si la valeur de la cellule commence par un guillemet simple. Avant cette propriété, il n'y avait aucun moyen de faire la distinction entre des chaînes comme sample et 'sample etc.
+Aspose.Cells fournit maintenant la propriété [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) pour déterminer si la valeur de la cellule commence par un guillemet simple. Avant cette propriété, il n'y avait aucun moyen de distinguer entre les chaînes comme échantillon et 'échantillon etc.
 
 {{% /alert %}}
 
-L'exemple de code suivant explique que les chaînes telles que sample et 'sample ne peuvent pas être différenciées avec[**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue) propriété. Il faut donc utiliser[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)propriété de les distinguer.
+Le code d'exemple suivant explique que les chaînes comme échantillon et 'échantillon ne peuvent pas être différenciées avec la propriété [**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue). Nous devons donc utiliser la propriété [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) pour les distinguer.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindIfCellValueStartsWithSingleQuote-FindIfCellValueStartsWithSingleQuote.cs" >}}

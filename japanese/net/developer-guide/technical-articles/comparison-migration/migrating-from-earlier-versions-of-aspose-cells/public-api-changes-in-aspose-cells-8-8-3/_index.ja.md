@@ -1,17 +1,18 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.8.3
+---
+title: Aspose.Cells 8.8.3の公開API変更
 type: docs
 weight: 290
 url: /ja/net/public-api-changes-in-aspose-cells-8-8-3/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.8.2 から 8.8.3 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントには、Aspose.Cells APIの8.8.2から8.8.3への変更についての詳細が記載されており、モジュール/アプリケーション開発者に興味を持つものが含まれます。新しいおよび更新された公開メソッド、追加、削除されたクラスなどだけでなく、Aspose.Cellsの裏側の挙動の変更の説明も含まれます。
 
 {{% /alert %}} 
-## **追加された API**
-### **ActiveX コントロールのサポート**
-Aspose.Cells for .NET 8.8.3 は、ActiveX コントロールを ShapeCollection に追加できる AddActiveXControl メソッドを公開しました。前述のメソッドには、コントロールの種類、コントロールを配置する場所、およびコントロールのサイズを指定する 7 つのパラメーターが必要です。タイプは、ControlType 列挙を使用して次の可能な値で指定できます。
+## **APIの追加**
+### **ActiveXコントロールのサポート**
+Aspose.Cells for .NET 8.8.3では、ShapeCollectionにActiveXコントロールを追加するAddActiveXControlメソッドが公開されました. 上記のメソッドにはコントロールタイプ、コントロールの配置位置、コントロールのサイズを指定するために7つのパラメータが必要です. タイプはControlType列挙型を使用して指定し、以下の可能な値があります
 
 1. ControlType.CheckBox
 1. ControlType.ComboBox
@@ -28,15 +29,15 @@ Aspose.Cells for .NET 8.8.3 は、ActiveX コントロールを ShapeCollection 
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[ワークシートへの ActiveX コントロールの追加](/cells/ja/net/add-activex-controls-using-aspose-cells/).
+この機能の詳細については、[ワークシートにActiveXコントロールを追加](/cells/ja/net/add-activex-controls-using-aspose-cells/)の詳細な記事を参照してください
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -63,20 +64,20 @@ book.Save(dir + "output.xlsx", SaveFormat.Xlsx);
 {{< /highlight >}}
 
 
-### **LoadOptions.SetPaperSize メソッドを追加**
-Aspose.Cells for .NET 8.8.3 では、以下に示すように、新しく公開された LoadOptions.SetPaperSize メソッドを使用しながら、デフォルトのプリンターの設定からデフォルトの印刷用紙サイズを設定できます。前述のメソッドへの入力パラメータは、定義済みの用紙サイズを含む PaperSizeType 列挙からの値であることに注意してください。
+### **LoadOptions.SetPaperSizeメソッドの追加**
+Aspose.Cells for .NET 8.8.3では、新たに公開されたLoadOptions.SetPaperSizeメソッドを使用して、デフォルトのプリンター設定からデフォルトの印刷用紙サイズを設定できます。このメソッドへの入力パラメータは、事前定義された紙のサイズを含むPaperSizeType列挙型の値です
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[用紙サイズを指定してスプレッドシートを読み込む](/cells/ja/net/load-workbook-with-specified-printer-paper-size/).
+この機能の詳細については、[指定された用紙サイズでスプレッドシートを読み込む](/cells/ja/net/load-workbook-with-specified-printer-paper-size/)の詳細な記事を参照してください
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions
 
@@ -93,12 +94,12 @@ var book = new Workbook(dir + "input.xlsx", loadOptions);
 {{< /highlight >}}
 
 
-### **Cell.GetCharacters(flag) メソッドを追加**
-Aspose.Cells API では、Cell.GetCharacters メソッドを使用して、FontSetting 配列の形式で文字オブジェクトを取得できます。このリリースでは、Aspose.Cells for .NET API は、セルが ListObject の一部である場合にテーブル スタイルをセルに適用する必要があるかどうかを示すパラメーターとしてブール値を受け入れることができる Cell.GetCharacters のオーバーロードされたバージョンを公開しました。
+### **Cell.GetCharacters(flag)メソッドの追加**
+Aspose.Cells APIでは、Cell.GetCharactersメソッドを使用してFontSetting配列の形式で文字オブジェクトを取得することができます。このリリースでは、Aspose.Cells for .NET APIは、Booleanをパラメータとして受け入れるオーバーロードされたCell.GetCharactersのバージョンを公開しました。これにより、セルがListObjectの一部である場合に、セルにテーブルスタイルを適用するかどうかを指定できます。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load an existing spreadsheet
 
@@ -125,20 +126,20 @@ var characters = cell.GetCharacters(true);
 {{< /highlight >}}
 
 
-### **OleObject.AutoLoad プロパティを追加**
-Aspose.Cells for .NET 8.8.3 は、OleObject.AutoLoad プロパティを公開しました。これにより、基になるオブジェクトのコンテンツ/データが変更された場合に OleObject のイメージを更新できます。前述のプロパティを true に設定すると、Excel アプリケーションは結果のスプレッドシートが読み込まれるときに OleObject の画像を強制的に更新します。
+### **OleObject.AutoLoad プロパティが追加されました**
+Aspose.Cells for .NET 8.8.3では、OleObject.AutoLoadプロパティが公開されました。これにより、基礎となるオブジェクトの内容/データが変更された場合にOleObjectのイメージを更新することができます。上記のプロパティをtrueに設定すると、Excelアプリケーションは結果のスプレッドシートをロードする際にOleObjectのイメージを更新します
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[OleObject を自動的に更新する](/cells/ja/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
+この機能の詳細については、[自動的にOleObjectsを更新](/cells/ja/net/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/)の詳細な記事を参照してください
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load an existing spreadsheet
 
@@ -163,20 +164,20 @@ oleObject.AutoLoad = true;
 {{< /highlight >}}
 
 
-### **HTMLLoadOptions.SupportDivTag プロパティを追加**
-Aspose.Cells for .NET 8.8.3 は HTMLLoadOptions.SupportDivTag プロパティを公開しました。これにより、HTML オブジェクト モデルで HTML ファイル/スニペットをロードする際に、TD タグに埋め込まれた DIV タグを解析できます。ブール型のプロパティのデフォルト値は false です。
+### **HTMLLoadOptions.SupportDivTag プロパティが追加されました**
+Aspose.Cells for .NET 8.8.3では、HTMLLoadOptions.SupportDivTagプロパティが公開され、Aspose.CellsオブジェクトモデルにHTMLファイル/スニペットをロードする際にTDタグに埋め込まれたDIVタグを解析できます. ブール型プロパティの初期値はfalseです
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[HTML のロード中に内部 DIV タグをサポート](/cells/ja/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+この機能の詳細については、[HTMLを読み込む際に内部のDIVタグをサポート](/cells/ja/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/)の詳細な記事を参照してください
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Store the HTML snippet in a variable
 
@@ -275,20 +276,20 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 {{< /highlight >}}
 
 
-### **HtmlSaveOptions.ExportGridLines プロパティを追加**
-Aspose.Cells for .NET 8.8.3 は、スプレッドシートを HTML 形式にエクスポートする際にグリッド線をレンダリングできる HtmlSaveOptions.ExportGridLines プロパティを公開しました。ブール型のプロパティのデフォルト値は false ですが、true に設定すると、API は使用可能なデータ範囲のグリッド線を HTML 形式でレンダリングします。
+### **HtmlSaveOptions.ExportGridLines プロパティが追加されました**
+Aspose.Cells for .NET 8.8.3では、HtmlSaveOptions.ExportGridLinesプロパティが公開され、スプレッドシートをHTML形式でエクスポートする際にグリッド線をレンダリングすることができます. ブール型プロパティの初期値はfalseですが、trueに設定すると、APIは利用可能なデータ範囲のHTML形式でグリッド線をレンダリングします
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[グリッド線を HTML にレンダリング](/cells/ja/net/export-excel-to-html-with-gridlines/).
+この機能の詳細については、[Render Grid Lines to HTML](/cells/ja/net/export-excel-to-html-with-gridlines/)の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load existing spreadsheet
 
@@ -309,20 +310,20 @@ book.Save(dir + "output.html", options);
 {{< /highlight >}}
 
 
-### **ListObject.Comment プロパティを追加**
-Aspose.Cells API で、ListObject のインスタンスのコメントを取得および設定できるようになりました。前述の機能を提供するために、Aspose.Cells API は ListObject.Comment プロパティを公開しました。
+### **ListObject.Comment プロパティが追加されました**
+Aspose.Cells API では、ListObject のコメントを取得および設定することが可能となりました。前述の機能を提供するために、ListObject.Comment プロパティが公開されています。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[ListObjects へのコメントの追加](/cells/ja/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/).
+この機能の詳細については、[Adding Comments for ListObjects](/cells/ja/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook and load existing spreadsheet
 
@@ -347,16 +348,16 @@ book.Save(dir + "output.xlsx");
 {{< /highlight >}}
 
 
-### **GridWeb.SessionStorePath プロパティを追加**
-Aspose.Cells.GridWeb for .NET 8.8.3 は、Session Mode が ViewState の場合にセッション ストア パスを取得または設定できる SessionStorePath プロパティを公開しました。前述のプロパティは、現在の Web アプリケーションのベース ディレクトリへの相対パスを取得または設定します。
+### **GridWeb.SessionStorePath プロパティが追加されました**
+Aspose.Cells.GridWeb for .NET 8.8.3 は、ViewState モードの場合にセッションの保存パスを取得または設定する SessionStorePath プロパティを公開しました。前述のプロパティは、現在の Web アプリケーションの基本ディレクトリに対する相対パスを取得または設定できます。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[一時セッション ファイルのパスを指定する](/cells/ja/net/specify-the-path-where-gridweb-stores-temporary-session-files/).
+この機能の詳細については、[Specify Path for Temporary Session Files](/cells/ja/net/specify-the-path-where-gridweb-stores-temporary-session-files/)の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
-## **削除された API**
-### **Workbook.Decrypt メソッドを削除**
-上記のプロパティは、しばらく前に廃止されたとマークされました。このリリースでは、パブリック API から完全に削除されています。同じ目標を達成するには、WorkbookSettings.Password プロパティを null に設定することをお勧めします。
+以下はシンプルな使用シナリオです。
+## **API が削除されました**
+### **Workbook.Decrypt メソッドが削除されました**
+前述のプロパティは以前に廃止されていました。このリリースで完全に削除されました。同じ目的を達成するために、WorkbookSettings.Password プロパティを null に設定することをお勧めします。

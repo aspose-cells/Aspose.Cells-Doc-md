@@ -1,21 +1,22 @@
-﻿---
-title: قم بإدراج أو حذف صفوف في ورقة عمل Excel
+---
+title: إدراج أو حذف الصفوف في ورقة عمل Excel
 type: docs
 weight: 20
 url: /ar/net/insert-or-delete-rows-in-an-excel-worksheet/
-description: توفر هذه المقالة رمز C# لإدراج الصفوف وحذفها في ورقة عمل Excel
-keywords: c# insert or delete rows in excel worksheet, c# insert or delete rows in excel, c# insert rows in excel, c# delete rows in excel, insert or delete rows in excel worksheet with c#, insert or delete rows in excel with c#, insert rows in excel with c#, delete rows in excel with c#
+description: يوفر هذا المقال الرمز C# لإدراج وحذف الصفوف في ورقة عمل Excel
+keywords: c# إدراج أو حذف الصفوف في ورقة عمل الإكسل، c# إدراج أو حذف الصفوف في إكسل، c# إدراج الصفوف في إكسل، c# حذف الصفوف في إكسل، إدراج أو حذف الصفوف في ورقة العمل في إكسل باستخدام c#، إدراج أو حذف الصفوف في إكسل بواسطة c#، إدراج الصفوف في إكسل بواسطة c#، حذف الصفوف في إكسل بواسطة c#
 ---
+
 {{% alert color="primary" %}}
 
-عند إنشاء ورقة عمل جديدة ، أو العمل باستخدام ورقة عمل موجودة ، قد تحتاج إلى إضافة صفوف أو أعمدة إضافية لاستيعاب البيانات. في أوقات أخرى ، قد تحتاج إلى حذف صفوف أو أعمدة من مواضع محددة في ورقة العمل.
+عند إنشاء ورقة عمل جديدة أو العمل مع ورقة عمل موجودة، قد تحتاج في بعض الأوقات إلى إضافة صفوف أو أعمدة إضافية لاستيعاب البيانات. في أوقات أخرى، قد تحتاج إلى حذف صفوف أو أعمدة من مواقع محددة في ورقة العمل.
 
 {{% /alert %}}
 
- يوفر Aspose.Cells طريقتين لإدخال الصفوف وحذفها:[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) و[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index). تم تحسين هذه الأساليب للأداء والقيام بالمهمة بسرعة كبيرة.
+تقدم Aspose.Cells طريقتين لإدراج الصفوف وحذفها: [**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) و [**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index). تم تحسين هذه الطرق لتحقيق أداء ممتاز ولإنجاز المهمة بسرعة كبيرة جدًا.
 
- لإدراج عدد من الصفوف أو إزالتها ، نوصيك دائمًا باستخدام ملف[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) و[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index) طرق بدلاً من استخدام[**Cells.InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) أو[**احذف صف**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterow)طرق في حلقة.
+لإدراج أو إزالة عدد من الصفوف، نوصي دائمًا باستخدام ال[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) و ال[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index) بدلاً من استخدام ال[**Cells.InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) أو ال[**DeleteRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterow) في حلقة.
 
-يعمل Aspose.Cells بنفس طريقة عمل Microsoft Excel. عند إضافة صفوف أو أعمدة ، يتم إزاحة محتوى ورقة العمل لأسفل وإلى اليمين. عند إزالة الصفوف أو الأعمدة ، ينتقل محتوى ورقة العمل لأعلى أو لليسار. يتم تحديث أي مراجع في أوراق العمل والخلايا الأخرى عند إضافة صفوف أو إزالتها.
+تعمل Aspose.Cells بنفس الطريقة التي يعمل بها برنامج Microsoft Excel. عند إضافة صفوف أو أعمدة، يتم نقل محتوى ورقة العمل لأسفل ولليمين. وعند إزالة صفوف أو أعمدة، يتم نقل محتوى ورقة العمل لأعلى أو لليسار. يتم تحديث أي مراجع في ورقات العمل والخلايا الأخرى عند إضافة أو إزالة الصفوف.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertDeleteRows-1.cs" >}}

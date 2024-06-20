@@ -1,62 +1,63 @@
-﻿---
+---
 title: Aspose.Cells .NET for PHP
 type: docs
 weight: 40
 url: /ru/net/aspose-cells-net-for-php/
 ---
-## **Начиная**
 
-### **Вступление**
+## **Начало работы**
 
-### **Системные требования и поддерживаемые платформы**
+### **Введение**
 
-#### **Системные Требования**
+### **Требования к системе и поддерживаемые платформы**
 
-**Ниже приведены системные требования для использования Aspose.Cells .NET for PHP:**
+#### **Системные требования**
 
-- IIS с установленным PHP и PHP Manager.
-- Aspose.Total API.
-- Aspose.Cells DLL-файл Interop и файл tlb.
+**Ниже приведены системные требования для использования Aspose.Cells .NET для PHP:**
+
+- IIS с установленными PHP и PHP Manager.
+- Aspose.Total APIs.
+- Aspose.Cells интероп dll и tlb файл.
 
 #### **Поддерживаемые платформы**
 
 **Ниже приведены поддерживаемые платформы:**
 
 - PHP 5.3 или выше
-- Windows ОС
+- ОС Windows
 
-### **Скачать и настроить**
+### **Загрузка и настройка**
 
-#### **Скачать необходимые библиотеки**
+#### **Загрузить необходимые библиотеки**
 
-Загрузите необходимые библиотеки, указанные ниже. Они необходимы для выполнения примеров Aspose.Cells Java for PHP.
+Загрузите необходимые библиотеки, указанные ниже. Они необходимы для выполнения примеров Aspose.Cells Java для PHP.
 
-- [Загрузите файлы Aspose.Cells for .NET (DLL или MSI) из раздела загрузки](https://downloads.aspose.com/cells/net)
-- [Скачать Aspose.Cells for .NET интероп dll](https://downloads.aspose.com/cells/net)
+- [Загрузите файлы Aspose.Cells for .NET (DLL или MSI) из раздела загрузок](https://downloads.aspose.com/cells/net)
+- [Загрузите Aspose.Cells for .NET интероп dll](https://downloads.aspose.com/cells/net)
 
-Если вы загрузите версию MSI, вы найдете Aspose.Cells.dll в установленном месте, которое по умолчанию находится в папке C:\Program Files (x86)\Aspose\Aspose.Cells for .NET\Bin\net2.0.
-Однако, если вы загрузили версию DLL, вы можете извлечь ее, а затем скопировать Aspose.Cells.dll из папки .NET 2.0 в папку c:\temp для простоты использования.
-Аналогичным образом извлеките zip-файл взаимодействия и скопируйте Aspose.Inteop.dll в c:\temp.
+Если вы загрузили версию MSI, вы найдете Aspose.Cells.dll в установленном местоположении, которое по умолчанию находится в папке C:\Program Files (x86)\Aspose\Aspose.Cells for .NET\Bin\net2.0.
+Однако, если вы загрузили версию DLL, вы можете извлечь ее и затем скопировать Aspose.Cells.dll из папки .NET 2.0 в вашу папку c:\temp для удобства использования.
+Точно так же извлеките zip-файл интеропа и скопируйте Aspose.Inteop.dll в c:\temp
 
-#### **Загрузите примеры с сайтов социального кодирования**
+#### **Загрузить примеры из сайтов социального кодирования**
 
-Следующие выпуски работающих примеров доступны для загрузки на указанных ниже сайтах социального кодирования:
+Следующие версии выполняемых примеров доступны для загрузки на указанных ниже сайтах социального кодирования:
 
 -----
 
-##### **Гитхаб**
+##### **GitHub**
 
-- **Aspose.Cells .NET for PHP Примеры**
+- **Aspose.Cells .NET for PHP Examples**
 
   - [Aspose.Cells .NET for PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 
 #### **Как настроить исходный код на платформе Windows**
 
-Пожалуйста, следуйте этим простым шагам, чтобы открыть и расширить исходный код при использовании:
+Пожалуйста, следуйте этим простым шагам для открытия и расширения исходного кода при использовании:
 
 ##### **1. Зарегистрируйте файлы dll и interop.dll, например Aspose.Cells.dll и Aspose.Cells.Interop.dll.**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Register both dll and interop.dll files e.g. Aspose.Cells.dll and Aspose.Cells.Interop.dll.
 
@@ -74,26 +75,26 @@ C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.Inter
 
 ##### **2. Включите расширения COM и DOTNET в PHP.**
 
-В IIS откройте диспетчер PHP, а затем нажмите «Включить, чтобы отключить и расширение». Найти php_ком_dotnet.dll и убедитесь, что он включен.
+В IIS откройте PHP Manager и затем нажмите «Включить или отключить расширение». Найдите файл php_com_dotnet.dll и убедитесь, что он включен.
 
-##### **3. Настройте Aspose.Cells .NET for PHP Примеры**
+##### **3. Настройте примеры Aspose.Cells .NET для PHP**
 
-###### **Способ 1**
+###### **Метод 1**
 
- Клонировать примеры PHP из[гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
+Клонируйте примеры PHP из [github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 и выполните следующую команду
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  composer install
 
 {{< /highlight >}}
 
-###### **Способ 2**
+###### **Метод 2**
 
-В файле composer.json вашего PHP-проекта добавьте следующие строки
+В файл composer.json вашего PHP-проекта добавьте следующие строки
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  {
 
@@ -107,58 +108,58 @@ C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.Inter
 
 {{< /highlight >}}
 
-и запустите команду установки
+и выполните команду установки
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  composer install
 
 {{< /highlight >}}
 
- Читать о визите композитора<https://getcomposer.org/>
+To read about composer visit <https://getcomposer.org/>
 
-### **Поддержка, расширение и участие**
+### **Поддержка Расширение и Участие**
 
-#### **Поддерживать**
+#### **Поддержка**
 
-С самых первых дней Aspose мы знали, что просто предоставлять нашим клиентам хорошие продукты будет недостаточно. Нам также нужно было обеспечить хорошее обслуживание. Мы сами являемся разработчиками и понимаем, как это неприятно, когда техническая проблема или особенность программного обеспечения мешают вам делать то, что вам нужно. Мы здесь, чтобы решать проблемы, а не создавать их.
+С самых первых дней Aspose мы поняли, что просто предоставить нашим клиентам хорошие продукты недостаточно. Нам также необходимо предоставлять хорошее обслуживание. Мы сами являемся разработчиками и понимаем, насколько раздражающе, когда техническая проблема или особенность программного обеспечения мешает вам делать то, что вам необходимо. Мы здесь, чтобы решать проблемы, а не создавать их.
 
-Вот почему мы предлагаем бесплатную поддержку. Любой, кто использует наш продукт, независимо от того, купили ли они его или используют для ознакомления, заслуживает нашего полного внимания и уважения.
+Поэтому мы предлагаем бесплатную поддержку. Каждый, кто использует наш продукт, независимо от того, купил он их или использует оценку, заслуживает нашего внимания и уважения.
 
-Вы можете регистрировать любые проблемы или предложения, связанные с Aspose.Cells .NET for PHP, используя любую из следующих платформ:
+Вы можете сообщить о любых проблемах или предложениях, касающихся Aspose.Cells .NET для PHP, используя любую из следующих платформ:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
-#### **Расширяйте и вносите свой вклад**
+#### **Расширение и вклад**
 
-Aspose.Cells .NET for PHP имеет открытый исходный код, и его исходный код доступен на основных веб-сайтах социального кодирования, перечисленных ниже. Разработчикам рекомендуется загружать исходный код и вносить свой вклад, предлагая или добавляя новые функции или улучшая существующие, чтобы другие также могли извлечь из этого пользу.
+Aspose.Cells .NET для PHP - это открытый исходный код, и его исходный код доступен на основных веб-сайтах для разработчиков, перечисленных ниже. Разработчиков призывают загружать исходный код и вносить предложения или добавлять новые функции либо улучшать существующие, чтобы другие могли также извлечь пользу из этого.
 
 #### **Исходный код**
 
-Вы можете получить последний исходный код из одного из следующих мест
+Вы можете получить последний исходный код в одном из следующих мест
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 
-## **Образцы кода**
+## **Примеры кода**
 
-В этот раздел входят следующие темы
+В этом разделе содержатся следующие темы
 
-- [Руководство для программистов PHP](/cells/ru/net/php-programmers-guide/)
-  - [Работа с файлами в PHP.](/cells/ru/net/working-with-files-in-php/)
-    - [Особенности работы с файлами в PHP](/cells/ru/net/file-handling-features-in-php/)
+- [Руководство программиста PHP](/cells/ru/net/php-programmers-guide/)
+  - [Работа с файлами в PHP](/cells/ru/net/working-with-files-in-php/)
+    - [Работа с файлами в PHP](/cells/ru/net/file-handling-features-in-php/)
       - [Открытие файлов в PHP](/cells/ru/net/opening-files-in-php/)
       - [Сохранение файлов в PHP](/cells/ru/net/saving-files-in-php/)
-    - [Служебные функции в PHP](/cells/ru/net/utility-features-in-php/)
+    - [Вспомогательные функции в PHP](/cells/ru/net/utility-features-in-php/)
       - [Шифрование файлов в PHP](/cells/ru/net/encrypting-files-in-php/)
       - [Преобразование Excel в PDF в PHP](/cells/ru/net/excel-to-pdf-conversion-in-php/)
       - [Управление свойствами документа в PHP](/cells/ru/net/managing-document-properties-in-php/)
-      - [Преобразование рабочего листа в изображение в PHP](/cells/ru/net/worksheet-to-image-conversion-in-php/)
-  - [Работа с формулами в PHP.](/cells/ru/net/working-with-formulas-in-php/)
+      - [Преобразование таблицы в изображение в PHP](/cells/ru/net/worksheet-to-image-conversion-in-php/)
+  - [Работа с формулами в PHP](/cells/ru/net/working-with-formulas-in-php/)
     - [Вычисление формул в PHP](/cells/ru/net/calculating-formulas-in-php/)
-  - [Работа с листами в PHP](/cells/ru/net/working-with-worksheets-in-php/)
+  - [Работа с рабочими листами в PHP](/cells/ru/net/working-with-worksheets-in-php/)
     - [Функции управления в PHP](/cells/ru/net/management-features-in-php/)
       - [Управление рабочими листами в PHP](/cells/ru/net/managing-worksheets-in-php/)
-        - [Добавить рабочие листы в существующий файл Excel в PHP](/cells/ru/net/add-worksheets-to-existing-excel-file-in-php/)
-        - [Добавить рабочие листы в новый файл Excel в PHP](/cells/ru/net/add-worksheets-to-new-excel-file-in-php/)
-        - [Удаление рабочих листов с помощью индекса листа в PHP](/cells/ru/net/removing-worksheets-using-sheet-index-in-php/)
+        - [Добавление рабочих листов в существующий файл Excel в PHP](/cells/ru/net/add-worksheets-to-existing-excel-file-in-php/)
+        - [Добавление рабочих листов в новый файл Excel в PHP](/cells/ru/net/add-worksheets-to-new-excel-file-in-php/)
+        - [Удаление рабочих листов с использованием индекса листа в PHP](/cells/ru/net/removing-worksheets-using-sheet-index-in-php/)
         - [Удаление рабочих листов с использованием имени листа в PHP](/cells/ru/net/removing-worksheets-using-sheet-name-in-php/)

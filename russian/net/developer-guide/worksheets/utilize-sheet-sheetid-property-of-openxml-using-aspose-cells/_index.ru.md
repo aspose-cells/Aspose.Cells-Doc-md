@@ -1,28 +1,29 @@
 ---
-title: Используйте свойство Sheet.SheetId OpenXml, используя Aspose.Cells
+title: Использование свойства Sheet.SheetId из OpenXml с помощью Aspose.Cells
 type: docs
 weight: 200
 url: /ru/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
-description: В этой статье показано, как программно использовать свойство Sheet.SheetId OpenXml с использованием библиотеки Excel .NET API или C#.
-keywords: sheet id property of openxml c#, sheet id excel worksheet c#
+description: В этой статье показано, как использовать свойство Sheet.SheetId из OpenXml с помощью программного интерфейса Excel manipulation .NET API или C# Library.
+keywords: свойство идентификатора листа openxml c#, идентификатор листа листа excel c#
 ---
-##  **Возможные сценарии использования**
 
-*Лист.SheetId*имущество находится внутри*DocumentFormat.OpenXml.Spreadsheet* пространство имен и является частью OpenXml. Вы можете увидеть это свойство и его значение внутри*рабочая книга.xml* как показано на следующем снимке экрана. Aspose.Cells обеспечивает эквивалентное свойство как[**Рабочий лист.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid).
+## **Возможные сценарии использования**
 
-![дело:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
+Свойство *Sheet.SheetId* находится в пространстве имен *DocumentFormat.OpenXml.Spreadsheet* и является частью OpenXml. Вы можете увидеть это свойство и его значение внутри *workbook.xml*, как показано на следующем снимке экрана. Aspose.Cells предоставляет эквивалентное свойство как [**Worksheet.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid).
 
-##  **Используйте свойство Sheet.SheetId OpenXml, используя Aspose.Cells**
+![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
- Следующий пример кода загружает[образец файла Excel](51740716.xlsx) , считывает его идентификатор листа или вкладки, затем присваивает ему новый идентификатор вкладки и сохраняет его как[выходной файл Excel](51740717.xlsx). Также см. консольный вывод кода, приведенного ниже, для справки.
+## **Использование свойства Sheet.SheetId из OpenXml с помощью Aspose.Cells**
 
-##  **Образец кода**
+В следующем образце кода загружается [образцовый Excel-файл](51740716.xlsx), читается его идентификатор листа или вкладки, затем назначается новый идентификатор вкладки и сохраняется как [выходной файл Excel](51740717.xlsx). Также обратитесь к выводу консоли приведенного ниже кода для справки.
+
+## **Образец кода**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UtilizeSheet_SheetId_PropertyOfOpenXml.cs" >}}
 
-##  **Консольный вывод**
+## **Вывод в консоль**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet or Tab Id: 1297
 

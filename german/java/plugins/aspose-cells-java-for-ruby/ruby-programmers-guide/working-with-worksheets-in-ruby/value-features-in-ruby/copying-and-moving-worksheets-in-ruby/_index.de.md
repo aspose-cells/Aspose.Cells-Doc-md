@@ -1,16 +1,17 @@
-﻿---
-title: Kopieren und Verschieben von Arbeitsblättern in Ruby
+---
+title: Arbeitsblätter kopieren und verschieben in Ruby
 type: docs
 weight: 10
 url: /de/java/copying-and-moving-worksheets-in-ruby/
 ---
-## **Aspose.Cells – Kopieren und Verschieben von Arbeitsblättern**
+
+## **Aspose.Cells - Kopieren und Verschieben von Arbeitsblättern**
 ### **Arbeitsblätter innerhalb einer Arbeitsmappe kopieren**
- Arbeitsblatt kopieren mit**Aspose.Cells for Java in Rubin** , Anruf**copy_worksheet** Methode von**Arbeitsblätter kopieren** Modul. Unten sehen Sie ein Codebeispiel.
+Um ein Arbeitsblatt mit **Aspose.Cells for Java in Ruby** zu kopieren, rufen Sie die Methode **copy_worksheet** des Moduls **copyworksheets** auf. Im Folgenden finden Sie ein Codebeispiel.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_worksheet(workbook)
 
@@ -32,11 +33,11 @@ end 
 
 {{< /highlight >}}
 ### **Arbeitsblätter innerhalb einer Arbeitsmappe verschieben**
- Arbeitsblatt verschieben mit**Aspose.Cells for Java in Rubin** , Anruf**move_worksheet** Methode von**Arbeitsblätter kopieren** Modul. Unten sehen Sie ein Codebeispiel.
+Um ein Arbeitsblatt mit **Aspose.Cells for Java in Ruby** zu verschieben, rufen Sie die Methode **move_worksheet** des Moduls **copyworksheets** auf. Im Folgenden finden Sie ein Codebeispiel.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def move_worksheet(workbook)
 
@@ -57,7 +58,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Arbeitsblätter kopieren und verschieben (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Kopieren und Verschieben von Arbeitsblättern (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/copyworksheets.rb)

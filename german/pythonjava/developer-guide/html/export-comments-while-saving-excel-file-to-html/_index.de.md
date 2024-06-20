@@ -1,16 +1,17 @@
-﻿---
-title: Exportieren Sie Kommentare beim Speichern einer Excel-Datei unter HTML
+---
+title: Export von Kommentaren beim Speichern von Excel Datei in HTML
 type: docs
 weight: 60
 url: /de/python-java/export-comments-while-saving-excel-file-to/
 ---
-## **Exportieren Sie Kommentare beim Speichern einer Excel-Datei unter HTML**
-Wenn Excel in HTML konvertiert wird, werden Kommentare nicht exportiert. Aspose.Cells for Python via Java bietet die Funktion zum Exportieren von Kommentaren während der Konvertierung von Excel in HTML. Um dies zu erreichen, bietet die API die[HtmlSaveOptions.IsExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments)Eigentum. Festlegen des Werts von[HtmlSaveOptions.IsExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments) Eigentum zu**Wahr** exportiert Kommentare in die Ausgabe HTML.
 
-Der folgende Screenshot zeigt die vom Beispielcodeausschnitt generierte Ausgabedatei HTML.
+## **Kommentare beim Speichern einer Excel-Datei in HTML exportieren**
+Beim Konvertieren von Excel in HTML werden Kommentare nicht exportiert. Aspose.Cells für Python via Java bietet die Funktion zum Exportieren von Kommentaren während der Konvertierung von Excel in HTML. Hierfür stellt die API die Eigenschaft [HtmlSaveOptions.IsExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments) bereit. Durch Setzen des Werts der Eigenschaft [HtmlSaveOptions.IsExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments) auf **True** werden Kommentare in der Ausgabe-HTML exportiert.
 
-![todo: Bild_alt_Text](Export-Comments-while-Saving-Excel-file-to-Html.png)
+Der folgende Screenshot zeigt die Ausgabedatei HTML, die durch den Beispielcode-Schnipsel generiert wurde.
 
-Der folgende Beispielcode veranschaulicht das Exportieren von Kommentaren während der Konvertierung von Excel in HTML.
+![todo:image_alt_text](Export-Comments-while-Saving-Excel-file-to-Html.png)
+
+Der folgende Beispielcode demonstriert das Exportieren von Kommentaren während der Konvertierung von Excel in HTML.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-ExportCommentsWhileSavingExcelFileToHtml.py" >}}

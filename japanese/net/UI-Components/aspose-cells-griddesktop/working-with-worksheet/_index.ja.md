@@ -1,6 +1,8 @@
-﻿---
-title: ワークシートの操作
+---
+title: ワークシートでの作業
 type: docs
 weight: 40
-url: /ja/net/working-with-worksheet/
+url: /ja/net/aspose-cells-griddesktop/working-with-worksheet/
 ---
+
+

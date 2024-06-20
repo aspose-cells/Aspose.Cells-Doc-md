@@ -1,17 +1,20 @@
 ---
-title: Salva la tabella pivot nel file ODS
+title: Salva tabella pivot nel file ODS
 type: docs
 weight: 150
 url: /it/python-net/save-pivot-table-in-ods-file/
 description: Questo articolo mostra come salvare la tabella pivot nel file ODS con Aspose.Cells for Python via .NET.
-keywords: Save pivot table in ODS file
+keywords: Aspose.Cells for Python Excel, libreria Excel Python, Salva tabella pivot nel file ODS utilizzando la libreria Aspose.Cells for Python Excel.
 ---
- Aspose.Cells for Python via .NET offre la possibilità di salvare la tabella pivot nei file ODS. Per questo, basta convertire una cartella di lavoro con una tabella pivot esistente o creare una nuova tabella pivot e salvare il file nel formato ODS. Assicurati di chiamare[**Tabella pivot.calculate_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/calculate_data/#)prima di salvare per garantire che la tabella pivot venga renderizzata nel file di output ODS. Il seguente frammento di codice mostra il salvataggio della tabella pivot nel file ODS.
 
-##  Codice d'esempio
+## **Come salvare la tabella pivot nel file ODS**
+
+Aspose.Cells for Python via .NET fornisce la capacità di salvare la tabella pivot nei file ODS. Per questo, è sufficiente convertire un workbook con una tabella pivot esistente o crearne una nuova e salvare il file nel formato ODS. Assicurati di chiamare [**PivotTable.calculate_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/calculate_data/#) prima di salvare per garantire che la tabella pivot venga visualizzata nell'output del file ODS. Il seguente estratto di codice mostra come salvare la tabella pivot nel file ODS.
+
+## Codice di esempio
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableSaveInODS-1.py" >}}
 
-Il file di output generato dal codice precedente è allegato come riferimento.
+Il file di output generato dal codice precedente è allegato per il tuo riferimento.
 
-[Uscita ODS File](PivotTableSaveInODS_out.ods)
+[File ODS di output](PivotTableSaveInODS_out.ods)

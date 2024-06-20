@@ -1,13 +1,14 @@
-﻿---
-title: Travailler avec des polices
+---
+title: Travailler avec les polices
 type: docs
 weight: 30
 url: /fr/net/working-with-fonts/
 ---
-## **Aspose.Cells - Travailler avec des polices**
+
+## **Aspose.Cells - Travailler avec les polices**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -45,10 +46,10 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Utilisation des polices**
+## **NPOI - HSSF XSSF - Travailler avec les polices**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -91,13 +92,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Travailler avec des polices** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez le formulaire **Travailler avec les polices** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Fonctionnalités de formatage des données](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Pour plus de détails, visitez [Fonctionnalités de formatage des données](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

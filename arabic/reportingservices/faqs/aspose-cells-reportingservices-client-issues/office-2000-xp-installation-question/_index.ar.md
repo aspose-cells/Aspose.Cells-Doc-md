@@ -1,14 +1,15 @@
-﻿---
-title: سؤال تثبيت Office 2000 ، XP
+---
+title: سؤال تثبيت Office 2000، XP
 type: docs
 weight: 30
 url: /ar/reportingservices/office-2000-xp-installation-question/
 ---
-##### **وصف**
-عندما يقوم Microsoft Excel 2002 أو Microsoft Excel 2000 بتحميل Aspose.Cells.ReportingServices.Client الوظائف الإضافية ، ينتج عن Excel Microsoft خطأ أتمتة.
-##### **المحلول**
+
+##### **الوصف**
+عندما يقوم Microsoft Excel 2002 أو Microsoft Excel 2000 بتحميل إضافات Aspose.Cells.ReportingServices.Client، ينتج Microsoft Excel خطأ في التشغيل التلقائي.
+##### **الحل**
 {{% alert color="primary" %}} 
 
- ثَبَّتَ**lockbackRegKey.msi**. يعمل هذا على إصلاح مشكلة CLR على أجهزة Office الأقدم من Office 2003.
+قم بتثبيت **lockbackRegKey.msi**. يحل هذا مشكلة CLR على أجهزة Office الأقدم من Office 2003.
 
 {{% /alert %}}

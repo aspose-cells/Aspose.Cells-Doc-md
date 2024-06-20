@@ -1,19 +1,20 @@
 ---
-title: Çalışma Kitabında Adlandırılmış Aralık Oluşturma
+title: Bir İş Kitabında İsimlendirilmiş Aralık Oluşturma
 type: docs
 weight: 60
 url: /tr/cpp/create-named-range-in-a-workbook/
 ---
-##  **Olası Kullanım Senaryoları**
- Aspose.Cells, adlandırılmış bir aralığın oluşturulmasını destekler. Adlandırılmış bir aralık oluşturmanın farklı yolları vardır. En basit yollardan biri ilk önce oluşturmaktır.[Menzil](https://reference.aspose.com/cells/cpp/aspose.cells/range) nesneyi kullanın ve ardından kullanarak adını ayarlayın.[Range.SetName()](https://reference.aspose.com/cells/cpp/aspose.cells/range/setname) yöntem. Excel dosyanızdaki tüm adlandırılmış aralıkları Microsoft Excel aracılığıyla görebilirsiniz.*İsim Yöneticisi*arayüz.
-##  **Çalışma Kitabında Adlandırılmış Aralık Oluşturma**
- Aşağıdaki örnek kod, nasıl oluşturulacağını açıklamaktadır.*Adlandırılmış Aralık* Aspose.Cells aracılığıyla.*Adlandırılmış Aralık* oluşturulduğundan içeriden görülebilir.[Workbook.GetWorksheets().GetNames()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/getnames) Toplamak. Lütfen bkz[excel dosyasının çıktısını almak](23167006.xlsx) referans için kod tarafından oluşturulur.
-##  **Basit kod**
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CreateNamedRangeInWorkbook-new.cpp" >}}
-##  **Konsol Çıkışı**
- Aşağıdaki konsol çıktısı değerleri yazdırır:[Tam Metin Al](https://reference.aspose.com/cells/cpp/aspose.cells/name/getfulltext/) Ve[GetRefersTo](https://reference.aspose.com/cells/cpp/aspose.cells/name/getrefersto/) oluşturulan yöntemler*Adlandırılmış Aralık*yukarıdaki kodda.
 
-{{< highlight "java" >}}
+## **Olası Kullanım Senaryoları**
+Aspose.Cells bir adlandırılmış aralık oluşturmayı destekler. Bir adlandırılmış aralık oluşturmanın farklı yolları vardır. En basit yollardan biri önce bir [Range](https://reference.aspose.com/cells/cpp/aspose.cells/range) nesnesi oluşturmak ve ardından [Range.SetName()](https://reference.aspose.com/cells/cpp/aspose.cells/range/setname) yöntemini kullanarak adını belirtmektir. Adlandırılmış aralıkların tümünü Microsoft Excel *Ad Yöneticisi* arayüzü üzerinden excel dosyanızın içinde görebilirsiniz.
+## **Bir İş Kitabında Adlandırılmış Aralık Oluşturma**
+Aşağıdaki örnek kod, Aspose.Cells üzerinden bir *Adlandırılmış Aralık* oluşturmayı açıklar. Bir kez *Adlandırılmış Aralık* oluşturulduktan sonra, [Workbook.GetWorksheets().GetNames()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/getnames) koleksiyonunun içinde görünür. Lütfen kod tarafından oluşturulan [çıktı excel dosyasını](23167006.xlsx) bir referans için görün.
+## **Örnek Kod**
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-CreateNamedRangeInWorkbook-new.cpp" >}}
+## **Konsol Çıktısı**
+Aşağıdaki konsol çıktısı, yukarıdaki kodda oluşturulan *Adlandırılmış Aralık* nesnesinin [GetFullText](https://reference.aspose.com/cells/cpp/aspose.cells/name/getfulltext/) ve [GetRefersTo](https://reference.aspose.com/cells/cpp/aspose.cells/name/getrefersto/) yöntemlerinin değerlerini yazdırır.
+
+{{< highlight java >}}
 
  Full Text: MyNamedRange
 

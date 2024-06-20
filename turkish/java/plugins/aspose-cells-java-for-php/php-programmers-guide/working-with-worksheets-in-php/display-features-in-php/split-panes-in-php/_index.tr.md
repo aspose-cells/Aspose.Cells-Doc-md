@@ -1,15 +1,16 @@
-﻿---
-title: Php'de Bölme Bölmeleri
+---
+title: Php de Bölünmüş Paneller
 type: docs
 weight: 70
 url: /tr/java/split-panes-in-php/
 ---
-## **Aspose.Cells - Bölmeli Bölmeler**
- Kullanarak Bölmeleri Bölmek için**Aspose.Cells Java for PHP** , sadece çağırmak**Bölünmüş Paneller** modül.
 
-**PHP Kodu**
+## **Aspose.Cells - Bölünmüş Panolar**
+**Aspose.Cells Java for PHP** kullanarak Bölünmüş Panelleri ayarlamak için **SplitPanes** modülünü çağırın.
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
  $saveFormat = new SaveFormat();
 
@@ -33,6 +34,6 @@ $book->save($dataDir . "book.out.xls", $saveFormat->EXCEL_97_TO_2003);
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Bölünmüş Bölmeler (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+İndirin **Bölünmüş Panolar (Aspose.Cells)** any of the aşağıda bahsedilen sosyal kodlama sitelerinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/SplitPanes.php)

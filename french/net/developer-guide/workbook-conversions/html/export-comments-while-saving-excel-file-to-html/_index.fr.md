@@ -1,19 +1,20 @@
-﻿---
-title: Exporter les commentaires lors de l'enregistrement du fichier Excel au HTML
+---
+title: Exporter les commentaires lors de l enregistrement d un fichier Excel en HTML
 type: docs
 weight: 40
 url: /fr/net/export-comments-while-saving-excel-file-to/
 ---
+
 ## **Scénarios d'utilisation possibles**
 
-Lorsque vous enregistrez votre fichier Excel dans HTML, les commentaires ne sont pas exportés. Cependant, Aspose.Cells fournit cette fonctionnalité en utilisant le[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/) la propriété. Si vous le réglez**vrai**alors HTML affichera également les commentaires présents dans votre fichier Excel.
+Lorsque vous enregistrez votre fichier Excel en HTML, les commentaires ne sont pas exportés. Cependant, Aspose.Cells fournit cette fonctionnalité en utilisant la propriété [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/). Si vous la définissez sur **true**, alors le HTML affichera également les commentaires présents dans votre fichier Excel.
 
-## **Exporter les commentaires lors de l'enregistrement du fichier Excel au HTML**
+## **Exporter les commentaires lors de l'enregistrement d'un fichier Excel en HTML**
 
-L'exemple de code suivant explique l'utilisation de[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)la propriété. La capture d'écran montre l'effet du code sur le HTML lorsqu'il est défini sur**vrai** . Veuillez télécharger le[exemple de fichier Excel](50528260.xlsx) et le[généré HTML](5052826.txt) pour une référence.
+Le code d'exemple suivant explique l'utilisation de la propriété [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/). La capture d'écran montre l'effet du code sur le HTML lorsqu'il est défini sur **true**. Veuillez télécharger le [fichier Excel d'exemple](50528260.xlsx) et le [HTML généré](5052826.txt) pour référence.
 
-![tâche : image_autre_texte](export-comments-while-saving-excel-file-to-html_1.png)
+![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 
-## **Exemple de code**
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ExportCommentsWhileSavingExcelFileToHtml.cs" >}}

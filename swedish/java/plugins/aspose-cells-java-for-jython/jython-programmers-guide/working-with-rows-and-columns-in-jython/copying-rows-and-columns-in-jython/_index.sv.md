@@ -1,83 +1,84 @@
-﻿---
+---
 title: Kopiera rader och kolumner i Jython
 type: docs
 weight: 30
 url: /sv/java/copying-rows-and-columns-in-jython/
 ---
+
 ## **Aspose.Cells - Kopiera rader och kolumner**
- För att lägga till dokument med hjälp av**Aspose.Cells Java för Jython**. Här kan du se exempelkod.
+Att lägga till dokument med **Aspose.Cells Java för Jython**. Här kan du se exempelkod.
 
-**Jython Code**
+**Jython Kod**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- från aspose-celler importera inställningar
+ from aspose-cells import Settings
 
-från com.aspose.cells import arbetsbok
+from com.aspose.cells import Workbook
 
-klass RowsAndColumns:
+class RowsAndColumns:
 
- def__i det__(själv):
-
-
-
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
+    def __init__(self):
 
 
 
- # Kopiera rader
-
- self.copy_rows()
-
- # Kopiera kolumner
-
- self.copy_columns()
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
 
 
- def copy_rows(dataDir):
+        # Copying Rows
 
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'
+        self.copy_rows()
 
- # Instantiera ett arbetsboksobjekt med excel-filsökväg
+        # Copying Columns
 
- arbetsbok = Arbetsbok(dataDir + 'Book1.xls')
-
- Åtkomst till det första kalkylbladet i Excel-filen
-
- arbetsblad = workbook.getWorksheets().get(0)
-
- # Kopiera den andra raden med data, formatering, bilder och ritobjekt
-
- # till 12:e raden i arbetsbladet.
-
- workheet.getCells().copyRow(worksheet.getCells(),1,11)
-
- # Sparar den modifierade Excel-filen i standardformat (det vill säga Excel 2003).
-
- workbook.save(dataDir + "Copy Rows.xls")
-
- print "Kopiera rader framgångsrikt."
+        self.copy_columns()
 
 
 
- def copy_columns(dataDir):
+    def copy_rows(dataDir):
 
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'    
 
- # Instantiera ett arbetsboksobjekt med excel-filsökväg
+        # Instantiating a Workbook object by excel file path
 
- arbetsbok = Arbetsbok()
+        workbook = Workbook(dataDir + 'Book1.xls')
 
- Åtkomst till det första kalkylbladet i Excel-filen
+        # Accessing the first worksheet in the Excel file
 
- arbetsblad = workbook.getWorksheets().get(0)
+        worksheet = workbook.getWorksheets().get(0)
 
- # Lägg några data i rubrikrader (A1:A4)
+        # Copy the second row with data, formattings, images and drawing objects
 
- i = 0
+        # to the 12th row in the worksheet.
 
- medan jag< 5:
+        worksheet.getCells().copyRow(worksheet.getCells(),1,11)
+
+        # Saving the modified Excel file in default (that is Excel 2003) format
+
+        workbook.save(dataDir + "Copy Rows.xls")
+
+        print "Copy Rows Successfully." 
+
+
+
+    def copy_columns(dataDir):
+
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'    
+
+        # Instantiating a Workbook object by excel file path
+
+        workbook = Workbook()
+
+        # Accessing the first worksheet in the Excel file
+
+        worksheet = workbook.getWorksheets().get(0)
+
+        # Put some data into header rows (A1:A4)
+
+        i = 0
+
+        while i < 5:
 
             worksheet.getCells().get(i, 0).setValue("Header Row #i")
 
@@ -128,7 +129,7 @@ if __name__ == '__main__':
     RowsAndColumns()
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Bifoga dokument (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ned **Hämta dokument (Aspose.Cells)** från någon av de sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

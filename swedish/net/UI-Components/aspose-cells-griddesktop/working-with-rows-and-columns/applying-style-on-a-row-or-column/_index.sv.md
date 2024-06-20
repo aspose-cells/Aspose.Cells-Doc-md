@@ -1,42 +1,45 @@
-﻿---
-title: Tillämpa stil på en rad eller kolumn
+---
+title: Applicera stil på en rad eller kolumn
 type: docs
 weight: 50
-url: /sv/net/applying-style-on-a-row-or-column/
+url: /sv/net/aspose-cells-griddesktop/apply-style-on-a-row-or-column/
+keywords: GridDesktop, stil, rad, kolumn
+description: Denna artikel introducerar hur man applicerar stil på en rad eller kolumn i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-I det här ämnet kommer vi att diskutera hur du ändrar teckensnitt och teckensnittsfärg på rader och kolumner i ett kalkylblad. Detta är en grundläggande formateringsfunktion som erbjuds av Aspose.Cells.GridDesktop som ger utvecklare möjlighet att anpassa synen på sina kalkylblad för att göra dem mer presentabla.
+I det här ämnet kommer vi att diskutera hur man ändrar fonten och fontfärgen för rader och kolumner i en kalkylblad. Detta är en grundläggande formateringsfunktion som erbjuds av Aspose.Cells.GridDesktop och som ger utvecklare möjlighet att anpassa visningen av sina kalkylblad för att göra dem mer presentabla.
 
 {{% /alert %}} 
 ## **Applicera stil på en kolumn**
-För att tillämpa en anpassad stil på en kolumn med Aspose.Cells.GridDesktop, följ stegen nedan:
+För att tillämpa en anpassad stil på en kolumn med hjälp av Aspose.Cells.GridDesktop, följ följande steg:
 
--  Få åtkomst till alla önskade**Arbetsblad**
--  Tillgång a**Kolumn** på vilken vi vill tillämpa en**Stil**
--  Skaffa sig**Stil** av**Kolumn**
--  Uppsättning**Stil** egenskaper enligt dina anpassade behov
--  Slutligen, ställ in**Stil** av**Kolumn** med den uppdaterade
+- Kom åt något önskat **Kalkylblad**
+- Öppna en **Kolumn** på vilken vi vill applicera en **Stil**
+- Hämta **Stil** för **Kolumnen**
+- Ange **Stil**-egenskaper enligt dina anpassade behov
+- Slutligen, ange **Stilen** för **Kolumnen** med den uppdaterade
 
- Det finns många användbara egenskaper och metoder som erbjuds av**Stil** objekt som kan användas av utvecklare för att anpassa stilen efter deras krav.
+Det finns många användbara egenskaper och metoder som erbjuds av **Stil**-objektet som kan användas av utvecklare för att anpassa stilen enligt deras krav.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-ApplyingStyleOnRowColumn-AddingColumnStyle.cs" >}}
-## **Tillämpa stil på en rad**
-För att tillämpa en anpassad stil på en rad med Aspose.Cells.GridDesktop, följ stegen nedan:
+## **Applicera stil på en rad**
+För att tillämpa en anpassad stil på en rad med hjälp av Aspose.Cells.GridDesktop, följ följande steg:
 
--  Få åtkomst till alla önskade**Arbetsblad**
--  Tillgång a**Rad** på vilken vi vill tillämpa en**Stil**
--  Skaffa sig**Stil** av**Rad**
--  Uppsättning**Stil** egenskaper enligt dina anpassade behov
--  Slutligen, ställ in**Stil** av**Rad** med den uppdaterade
+- Kom åt något önskat **Kalkylblad**
+- Öppna en **Rad** på vilken vi vill applicera en **Stil**
+- Hämta **Stil** för **Radet**
+- Ange **Stil**-egenskaper enligt dina anpassade behov
+- Slutligen, ange **Stilen** för **Radet** med den uppdaterade
 
- Det finns många användbara egenskaper och metoder som erbjuds av**Stil** objekt som kan användas av utvecklare för att anpassa stilen efter deras krav.
+Det finns många användbara egenskaper och metoder som erbjuds av **Stil**-objektet som kan användas av utvecklare för att anpassa stilen enligt deras krav.
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Accessing the worksheet of the Grid that is currently active
 

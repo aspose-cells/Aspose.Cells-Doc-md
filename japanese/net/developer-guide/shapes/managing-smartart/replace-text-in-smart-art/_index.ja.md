@@ -1,14 +1,15 @@
-﻿---
-title: スマート アートのテキストを置き換える
+---
+title: スマートアート内のテキストの置換
 type: docs
 weight: 1200
 url: /ja/net/replace-text-in-smart-art/
 ---
-## **考えられる使用シナリオ**
 
-スマート アートは、ワークブックの主要なオブジェクトの 1 つです。多くの場合、スマート アートのテキストを更新する必要があります。 Aspose.Cells 設定により、この機能を提供します[**シェイプ.テキスト**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)財産。
+## **可能な使用シナリオ**
 
-サンプル ソース ファイルは、次のリンクからダウンロードできます。
+スマートアートはブック内の主要なオブジェクトの1つです。スマートアート内のテキストを更新する必要がある場合があります。Aspose.Cellsは、[**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)プロパティを設定することでこの機能を提供します。
+
+次のリンクからサンプルソースファイルをダウンロードできます:
 
 [SmartArt.xlsx](77496338.xlsx)
 

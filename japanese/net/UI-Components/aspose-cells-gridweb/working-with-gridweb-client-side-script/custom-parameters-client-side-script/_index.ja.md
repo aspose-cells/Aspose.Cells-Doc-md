@@ -1,47 +1,49 @@
-﻿---
-title: 初期化パラメータのカスタマイズ
+---
+title: 初期化パラメータをカスタマイズする
 type: docs
 weight: 10
 url: /ja/net/aspose-cells-gridweb/customize-parameters-in-client-side-script/
-description: Aspose.Cells.GridWeb クライアント側スクリプトで初期化パラメーターをカスタマイズする方法。
+keywords: GridWeb、カスタマイズ、初期化パラメータのカスタマイズ
+description: Aspose.Cells.GridWebのクライアント側スクリプトで初期化パラメータをカスタマイズする方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-開発者は、acwmain.js の Aspose.Cells.GridWeb コントロールに対して異なる動作を実行するために、異なる初期化パラメーター値を設定できます。
+開発者はacwmain.jsでAspose.Cells.GridWebコントロールの動作をカスタマイズするために、異なる初期化パラメータ値を設定できます。  
 
 {{% /alert %}} 
- 
-### **パラメーター**
- 
+
+### **パラメータ**
+
 |**パラメータ**|**説明**|
-|:- |:- |
-|needInitAlignmentAdjust|初期化時にセル コンテンツの垂直方向の配置を行うかどうか、配置作業を行うのに時間がかかります。ワークシートに大きなセルがある場合、パフォーマンスが低下します。ユーザーが垂直方向の配置を気にしない場合、彼はそれを次のように設定できます。 false、デフォルト値は true|
-|フォーカスインサイド|セル範囲内にフォーカスするかどうか。デフォルト値は true|
-|コピー_と_スタイル|スタイル付きでコピーするかどうか。デフォルト値は false で、セルの内容のみをコピーすることを意味します|
-|useESCAsLeave|esc を押したときのデフォルトの動作は、セルの編集操作のキャンセルとして機能します。この値を true に設定すると、以前の値に戻らずにセルを離れる短いキーとして扱われ、内部の編集方法も変更されます。編集方法を高速化するには、デフォルト値は false です|
-|すべての検証が必要|検証を行うときに、アクティブ シートのすべての検証を検証するかどうか (aspx コントロール ページで ForceValidation="True" を設定)。デフォルト値は false|
-|scrollToInvalidate|needValidateall が true に設定されている場合に、スクロールして最初の無効化セルを表示するかどうか。デフォルト値は true です。|
- 
- 
-コード例の出力を以下に示します。[サンプルエクセルファイル](valign.xlsx):
+| :- | :- |
+|needInitAlignmentAdjust| 初期化時にセルコンテンツの垂直配置を行うかどうか、大きなセルがある場合、パフォーマンスが低下する可能性があります。垂直配置に注意がない場合はfalseに設定できます。デフォルト値はtrueです。
+|focusinside| セルスパン内にフォーカスを当てるかどうか、デフォルト値はtrueです。
+|copy_with_style| スタイルをコピーするかどうか、デフォルト値はfalseで、セルコンテンツのみをコピーします。
+|useESCAsLeave| [esc]キーを押した時のデフォルト動作は、セルの編集操作をキャンセルすることです。この値をtrueに設定すると、以前の値に変更せずにセルを離れるためのショートキーとして扱います。
+|needValidateall| バリデーションを行う際にアクティブなワークシート上のすべてのバリデーションをバリデーションするかどうか、デフォルト値はfalseです。
+|scrollToInvalidate| needValidateallがtrueの場合、最初の無効なセルを表示してスクロールするかどうか、デフォルト値はtrueです。
+
+
+コード例の出力は以下のとおりです。[サンプルエクセルファイル](valign.xlsx)をご確認ください。
 
 **needInitAlignmentAdjust=true** 
 
-![todo:画像_代替_文章](align_true.png)
+![todo:image_alt_text](align_true.png)
 
 **needInitAlignmentAdjust=false** 
 
-![todo:画像_代替_文章](align_false.png)
+![todo:image_alt_text](align_false.png)
 
-**focusinside=真** 
-内部編集方法 -- テキストを入力すると、古いセルの値が保持されます
+**focusinside=true** 
+inside edit way -- テキストを入力する際、古いセルの値が保持されます。   
 
-![todo:画像_代替_文章](focus_inside_true.png)
+![todo:image_alt_text](focus_inside_true.png)
 
 **focusinside=false** 
-高速編集方法 -- テキストを入力すると、古いセルの値が上書きされます。古いセルの値に基づいて編集する場合は、セルをクリックします。
+fast edit way -- テキストを入力する際、古いセルの値が上書きされます。古いセル値を基に編集する場合は、セルをクリックできます。
 
-![todo:画像_代替_文章](focus_inside_false.png)
+![todo:image_alt_text](focus_inside_false.png)
 
- 
- 
+
+

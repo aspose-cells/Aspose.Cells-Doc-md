@@ -1,34 +1,35 @@
-﻿---
+---
 title: Karşılaştırmalar
 type: docs
 weight: 50
 url: /tr/reportingservices/comparisons/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells for Reporting Services ve benzeri diğer ürünler arasındaki fark aşağıda özetlenmiştir.
+Aspose.Cells for Reporting Services ve diğer benzer ürünler arasındaki fark aşağıda özetlenmiştir. 
 - **Özellik Karşılaştırması**
 
-|**Özellikleri** |**Aspose.Cells for Reporting Services** |**SA Ofisi Yazarı** |**Visual Studio + Microsoft Excel için Standart İşleyici** |
-|:- |:- |:- |:- |
-| Standart RDL raporları Microsoft Excel'e aktarılıyor.| Evet| Numara| Kısmen(1)|
-| Microsoft Excel'de Raporlar tasarlama ve sunma.| Evet| Evet| Numara|
-| Tasarım zamanında bir RDL dosyası oluşturuluyor.| Evet| Evet| Evet|
-| Raporları yayınlama ve önizleme.| Evet| Evet| Evet|
-| Veri kaynakları ve sorgular oluşturma.| Evet| Evet| Evet|
-| Yayınlama zamanında paylaşılan veri kaynağının rapor veri kaynağı olarak belirtilmesi.| Evet| Numara| Evet|
-| Özet Tablolar, etkileşimli grafikler, VBA ve makrolar.| Evet| Evet| Numara|
-| Rapor veri kaynağı olarak Raporlama Hizmetleri parametreleri.| Evet| Evet| Evet|
-| Rapor veri kaynağı olarak Raporlama Hizmetleri genel değişkenleri.| Evet| Evet| Evet|
-|Rapor veri kaynağı olarak Raporlama Hizmetleri formülleri.| Evet| Evet| Evet|
-| Tablonun satır gruplarını ve altbilgilerini tasarım zamanında belirtme.| Evet| Numara| Evet|
-| dinamik formüller| Evet (özel Akıllı İşaretleyiciler tarafından uygulanır).| Numara| Numara|
-| Rapor parametreleri yapılandırması.| Evet| Numara| Evet|
-| Çeşitli rapor öğelerini bir Excel çalışma kitabındaki belirlenmiş sayfalara aktarma.| Evet (tasarım zamanında belirtilir)| Evet (tasarım zamanında belirtilir)| Numara|
+|**Özellikler** |**Aspose.Cells for Reporting Services** |**SA OfficeWriter** |**Visual Studio + Microsoft Excel için Standart Rendesör** |
+| :- | :- | :- | :- |
+|Standart RDL raporlarını Microsoft Excel'e aktarma. |Evet |Hayır |Kısmen(1) |
+|Raporları Microsoft Excel'de tasarlama ve teslim etme. |Evet |Evet |Hayır |
+|Tasarım zamanında bir RDL dosyası oluşturma. |Evet |Evet |Evet |
+|Raporları yayınlama ve önizleme. |Evet |Evet |Evet |
+|Veri kaynakları ve sorgular oluşturma. |Evet |Evet |Evet |
+|Yayın zamanında paylaşılan veri kaynağını rapor veri kaynağı olarak belirtme. |Evet |Hayır |Evet |
+|Pivot Tabloları, etkileşimli grafikler, VBA ve makrolar. |Evet |Evet |Hayır |
+|Raporlama Hizmetleri parametreleri rapor veri kaynağı olarak. |Evet |Evet |Evet |
+|Raporlama Hizmetleri küresel değişkenleri rapor veri kaynağı olarak. |Evet |Evet |Evet |
+|Reporting Hizmetleri formülleri rapor veri kaynağı olarak. |Evet |Evet |Evet |
+|Tablonun tasarım zamanında satır gruplarını ve altbilgilerini belirtme. |Evet |Hayır |Evet |
+|Dinamik formüller |Evet (özel Akıllı İmler tarafından uygulanmış). |Hayır |Hayır |
+|Rapor parametreleri yapılandırma. |Evet |Hayır |Evet |
+|Excel elektronik tablo dosyasında belirlenen sayfalara çeşitli rapor öğelerinin aktarılması. |Evet (tasarım zamanında belirtilmiş) |Evet (tasarım zamanında belirtilmiş) |Hayır |
 - **Desteklenmeyen Özellikler**
-Aşağıdaki özellikler desteklenmez:
+Aşağıdaki özellikler desteklenmemektedir:
 
 -- Tablolardaki Alt Raporlar.
--- Tablolar içinde tablolar.
+-- Tabloların içindeki tablolar.
 
 {{% /alert %}}

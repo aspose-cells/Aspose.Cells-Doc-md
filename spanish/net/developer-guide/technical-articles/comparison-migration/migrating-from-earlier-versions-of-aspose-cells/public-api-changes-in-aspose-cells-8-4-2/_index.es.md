@@ -1,23 +1,24 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.4.2
+---
+title: Cambios en la API pública en Aspose.Cells 8.4.2
 type: docs
 weight: 150
 url: /es/net/public-api-changes-in-aspose-cells-8-4-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Este documento describe los cambios al Aspose.Cells API de la versión 8.4.1 a la 8.4.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados,[Clases añadidas, etc.](/cells/es/net/public-api-changes-in-aspose-cells-8-4-2/), pero también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.4.1 hasta 8.4.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, [clases agregadas, etc.](/cells/es/net/public-api-changes-in-aspose-cells-8-4-2/), sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Mecanismo de creación de gráficos mejorado**
-La clase Aspose.Cells.Charts.Chart ha expuesto el método SetChartDataRange para facilitar la tarea de creación de gráficos. El método SetChartDataRange acepta dos parámetros, donde el primer parámetro es de tipo cadena que especifica el área de la celda desde la que trazar la serie de datos. El segundo parámetro es de tipo booleano que especifica la orientación de la trama, es decir; si trazar la serie de datos del gráfico a partir de un rango de valores de celda por fila o por columnas.
+## **APIs Añadidas**
+### **Mecanismo mejorado de creación de gráficos**
+La clase Aspose.Cells.Charts.Chart ha expuesto el método SetChartDataRange para facilitar la tarea de creación de gráficos. El método SetChartDataRange acepta dos parámetros, donde el primer parámetro es de tipo cadena que especifica el área de celdas desde la que trazar la serie de datos. El segundo parámetro es de tipo booleano que especifica la orientación de la trama, es decir; si trazar la serie de datos del gráfico desde un rango de valores de celdas por filas o por columnas.
 
-El siguiente fragmento de código muestra cómo crear un gráfico de columnas con pocas líneas de código, suponiendo que los datos de la serie de gráficos del gráfico están presentes en la misma hoja de trabajo desde la celda A1 hasta la D4.
+El siguiente fragmento de código muestra cómo crear un gráfico de columnas con pocas líneas de código asumiendo que la serie de datos del gráfico está presente en la misma hoja de cálculo desde la celda A1 hasta D4.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Add a new chart of type Column to chart collection
 
@@ -34,14 +35,14 @@ chart.SetChartDataRange("A1:D4", true);
 {{< /highlight >}}
 
 
-### **Método VbaModuleCollection.Add Agregado**
-Aspose.Cells for .NET 8.4.2 ha expuesto el método VbaModuleCollection.Add para agregar un nuevo módulo VBA a la instancia de Workbook. El método VbaModuleCollection.Add acepta un parámetro de tipo Hoja de trabajo para agregar un módulo específico de la hoja de trabajo.
+### **Método VbaModuleCollection.Add añadido**
+Aspose.Cells for .NET La versión 8.4.2 ha expuesto el método VbaModuleCollection.Add para agregar un nuevo módulo VBA a la instancia de Workbook. El método VbaModuleCollection.Add acepta un parámetro de tipo hoja de cálculo para agregar un módulo específico de hoja de cálculo.
 
-El siguiente fragmento de código muestra cómo usar el método VbaModuleCollection.Add.
+El siguiente fragmento de código muestra cómo utilizar el método VbaModuleCollection.Add.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create new workbook
 
@@ -74,14 +75,14 @@ workbook.Save(output, SaveFormat.Xlsm);
 {{< /highlight >}}
 
 
-### **Método sobrecargado Cells.CopyColumns agregado**
-Aspose.Cells for .NET 8.4.2 ha expuesto una versión sobrecargada del método Cells.CopyColumns para repetir las columnas de origen en el destino. El método recientemente expuesto acepta 5 parámetros en total, donde los primeros 4 parámetros son los mismos que los del método común Cells.CopyColumns. Sin embargo, el último parámetro de tipo int especifica el número de columnas de destino en las que se deben repetir las columnas de origen.
+### **Método sobrecargado Cells.CopyColumns añadido**
+Aspose.Cells for .NET La versión 8.4.2 ha expuesto una versión sobrecargada del método Cells.CopyColumns para repetir las columnas fuente en el destino. El método recién expuesto acepta un total de 5 parámetros, donde los primeros 4 parámetros son iguales que el método común Cells.CopyColumns. Sin embargo, el último parámetro de tipo int especifica el número de columnas de destino en las que se deben repetir las columnas fuente.
 
-El siguiente fragmento de código muestra cómo usar el método Cells.CopyColumns recientemente expuesto.
+El siguiente fragmento de código muestra cómo utilizar el método Cells.CopyColumns recién expuesto.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -112,17 +113,17 @@ workbook.Save(output);
 {{< /highlight >}}
 
 
-### **Campos de enumeración PasteType.Default y PasteType.DefaultExceptBorders agregados**
-Con el lanzamiento de v8.4.2, Aspose.Cells API agregó 2 nuevos campos de enumeración para PasteType como se detalla a continuación.
+### **Se añadieron los campos de enumeración PasteType.Default & PasteType.DefaultExceptBorders**
+Con el lanzamiento de v8.4.2, la API Aspose.Cells ha agregado 2 nuevos campos de enumeración para PasteType como se detalla a continuación.
 
-- PasteType.Default: Funciona de manera similar a la función "Todos" de Excel para pegar rangos de celdas.
-- PasteType.DefaultExceptBorders: funciona de manera similar a la funcionalidad "Todo excepto los bordes" de Excel para pegar rangos de celdas.
+- PasteType.Default: Funciona de manera similar a la funcionalidad "Todo" de Excel para pegar rango de celdas.
+- PasteType.DefaultExceptBorders: Funciona de manera similar a la funcionalidad "Todo excepto bordes" de Excel para pegar rango de celdas.
 
-El siguiente código de ejemplo muestra el uso del campo PasteType.Default.
+El siguiente código de muestra demuestra el uso del campo PasteType.Default.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -154,6 +155,6 @@ workbook.Save(output);
 
 {{% alert color="primary" %}} 
 
-A partir del lanzamiento de Aspose.Cells for .NET 8.4.2, el archivo de enumeración PasteType.All se comporta de manera diferente en comparación con la funcionalidad "Todos" de Excel para pegar el rango de celdas. Ahora, PasteType.All también copia los anchos de columna en el rango de destino a diferencia de la funcionalidad "Todos" de Excel. Para imitar el comportamiento "Todos" de Excel, utilice PasteType.Default.
+A partir de la versión Aspose.Cells for .NET 8.4.2, el campo de enumeración PasteType.All se comporta de manera diferente en comparación con la funcionalidad "Todo" de Excel para pegar el rango de celdas. Ahora, el PasteType.All también copia los anchos de columna en el rango de destino, a diferencia de la funcionalidad "Todo" de Excel. Para imitar el comportamiento "Todo" de Excel, por favor use el PasteType.Default.
 
 {{% /alert %}}

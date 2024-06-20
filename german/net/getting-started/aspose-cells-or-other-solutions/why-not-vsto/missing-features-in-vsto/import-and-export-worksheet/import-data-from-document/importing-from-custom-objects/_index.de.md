@@ -1,12 +1,13 @@
-﻿---
-title: Importieren von benutzerdefinierten Objekten
+---
+title: Importieren aus benutzerdefinierten Objekten
 type: docs
 weight: 30
 url: /de/net/importing-from-custom-objects/
 ---
- Entwickler können mithilfe von Daten aus einer Sammlung von Objekten in ein Arbeitsblatt importieren**Benutzerdefinierte Objekte importieren**. Sie können der Methode eine Liste von Spalten/Eigenschaften zur Verfügung stellen, um die gewünschte Liste von Objekten anzuzeigen.
 
-{{< highlight "csharp" >}}
+Entwickler können Daten aus einer Sammlung von Objekten in ein Tabellenblatt importieren, indem sie **ImportCustomObjects** verwenden. Sie können der Methode eine Liste von Spalten/Eigenschaften bereitstellen, um Ihre gewünschte Liste von Objekten anzuzeigen.
+
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -36,7 +37,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 

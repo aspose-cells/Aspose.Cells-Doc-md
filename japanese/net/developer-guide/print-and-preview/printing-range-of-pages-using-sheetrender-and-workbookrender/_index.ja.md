@@ -1,18 +1,19 @@
-﻿---
-title: SheetRender と WorkbookRender を使用したページ範囲の印刷
+---
+title: SheetRenderとWorkbookRenderを使用してページの印刷範囲を印刷する
 type: docs
 weight: 250
 url: /ja/net/printing-range-of-pages-using-sheetrender-and-workbookrender/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel では、ワークブックまたはワークシートのページ範囲を印刷できます。次のスクリーンショットは、ページの範囲を指定するための Microsoft Excel インターフェイスを示しています。
+Microsoft Excelでは、ブックまたはワークシートのページの範囲を印刷できます。次のスクリーンショットは、ページの範囲を指定するMicrosoft Excelのインターフェースを示しています。
 
-Aspose.Cells は、この目的のために WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) および SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) メソッドを提供します。
+Aspose.Cellsでは、この目的のためにWorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)およびSheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)メソッドを提供しています。
 
 {{% /alert %}} 
-## **Microsoft 印刷するページ範囲を指定するための Excel インターフェイス**
-次のサンプル コードは、WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) および SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) メソッドの使用方法を示しています。ワークブックとワークシートの 2 ～ 5 ページを印刷します。
+## **Microsoft Excelのページ範囲を指定するインターフェース**
+次のサンプルコードは、WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)およびSheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)メソッドの使用法を示しています。このコードは、ブックおよびワークシートのページ2から5を印刷します。
 
 
 

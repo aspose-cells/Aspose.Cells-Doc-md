@@ -1,18 +1,19 @@
-﻿---
-title: ワークブックの読み込み中に定義された名前をフィルター処理する
+---
+title: ワークブックを読み込む際に定義名をフィルタリングする
 type: docs
 weight: 50
 url: /ja/java/filter-defined-names-while-loading-workbook/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells を使用すると、ワークブック内に存在する定義済みの名前をフィルター処理または削除できます。使ってください[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)定義された名前をロードして ~ を使用する[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)ワークブックのロード中にそれらを削除します。定義された名前を削除すると、ワークブック内の数式が壊れる可能性があることに注意してください。
+## **可能な使用シナリオ**
 
-## **ワークブックの読み込み中に定義された名前をフィルター処理する**
+Aspose.Cellsでは、ワークブック内に存在する定義名をフィルタリングまたは削除することができます。定義名をロードするには[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)を使用し、ワークブックをロードする際にそれらを削除するには~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)を使用してください。ただし、定義名を削除すると、ワークブック内の数式が壊れる可能性があります。
 
-次のサンプル コードは、[サンプル Excel ファイル](61767873.xlsx)定義された名前を含むセルC1に数式があります。*=SUM(MyName1, MyName2)*.以来、私たちは〜を使用しています[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)ワークブックの読み込み中に定義された名前を削除するには、セル C1 の数式[出力エクセルファイル](61767872.xlsx)壊れて、あなたが見る*#NAME?*代わりは。サンプル Excel ファイルに対するコードの効果を示す次のスクリーンショットを参照してください。
+## **ワークブックを読み込む際に定義名をフィルタリングする**
 
-![todo:画像_代替_文章](filter-defined-names-while-loading-workbook_1.png)
+次のサンプルコードは、定義名（MyName1、MyName2）を含むセルC1の数式を持つ[sample Excel file](61767873.xlsx)をロードします。 ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)を使用して定義名を削除するため、[output Excel file](61767872.xlsx)のセルC1の数式が壊れ、*#NAME?*が表示されます。 サンプルExcelファイルへのコードの影響を示すスクリーンショットは次のとおりです。
+
+![todo:image_alt_text](filter-defined-names-while-loading-workbook_1.png)
 
 ## **サンプルコード**
 

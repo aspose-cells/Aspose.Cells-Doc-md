@@ -1,26 +1,27 @@
-﻿---
-title: Déterminer si la forme est une forme artistique intelligente
+---
+title: Déterminer si la forme est une forme de l Art Smart
 type: docs
 weight: 70
 url: /fr/java/determine-if-shape-is-smart-art-shape/
 ---
+
 ## **Scénarios d'utilisation possibles**
 
-Les Smart Art Shapes sont des formes spéciales dans Microsoft Excel qui vous permettent de créer automatiquement des diagrammes complexes. Vous pouvez déterminer si la forme est une forme artistique intelligente ou une forme normale en utilisant[**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt)la propriété.
+Les formes SmartArt sont des formes spéciales dans Microsoft Excel qui vous permettent de créer automatiquement des diagrammes complexes. Vous pouvez déterminer si la forme est une forme SmartArt ou une forme normale en utilisant la propriété [**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt).
 
-## **Déterminer si la forme est une forme artistique intelligente**
+## **Déterminer si la forme est une forme de l'Art Smart**
 
-L'exemple de code suivant charge le[exemple de fichier Excel](55541805.xlsx)contenant une forme d'art intelligente, comme illustré dans cette capture d'écran. Il imprime ensuite la valeur de[**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt)propriété de la première forme. Veuillez consulter la sortie de la console de l'exemple de code ci-dessous.
+Le code d'exemple suivant charge le [fichier Excel d'exemple](55541805.xlsx) contenant une forme SmartArt comme le montre cette capture d'écran. Il imprime ensuite la valeur de la propriété [**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt) de la première forme. Veuillez consulter la sortie de la console du code d'exemple ci-dessous.
 
-![tâche : image_autre_texte](determine-if-shape-is-smart-art-shape_1.png)
+![todo:image_alt_text](determine-if-shape-is-smart-art-shape_1.png)
 
-## **Exemple de code**
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-DetermineIfShapeIsSmartArtShape.java" >}}
 
 ## **Sortie console**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: true
 

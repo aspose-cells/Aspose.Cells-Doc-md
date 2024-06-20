@@ -1,15 +1,16 @@
-﻿---
-title: Excel Dosyalarını PHP'de HTML'e Dönüştürme
+---
+title: PHP de Excel Dosyalarını HTML e Dönüştürme
 type: docs
 weight: 20
 url: /tr/java/converting-excel-files-to-html-in-php/
 ---
+
 ## **Aspose.Cells - Excel Dosyalarını HTML'e Dönüştürme**
-PHP'de Aspose.Cells for Java kullanarak Excel'i HTML'e dönüştürmek için çalışma sayfasını çağırmanız yeterlidir_ile_Dönüştürücü modülünün html() yöntemi.
+PHP'de Aspose.Cells for Java kullanarak Excel'i HTML'e dönüştürmek için, basitçe Dönüştürücü modülünün worksheet_to_html() metodunu çağırın.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $saveFormat = new SaveFormat();
 
@@ -21,6 +22,6 @@ $workbook->save($dataDir . "OutBook1.html", $saveFormat->HTML);
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Excel Dosyalarını HTML'e (Aspose.Cells) Dönüştürme**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+**Aspose.Cells ile Excel Dosyalarını HTML'e Dönüştürme**'yi aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingExcelFilesToHtml.php)

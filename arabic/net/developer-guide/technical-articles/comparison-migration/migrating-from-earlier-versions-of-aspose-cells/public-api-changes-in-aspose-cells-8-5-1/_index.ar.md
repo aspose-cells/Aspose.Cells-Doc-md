@@ -1,21 +1,22 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.5.1
+---
+title: تغييرات واجهة برمجة التطبيقات العامة في Aspose.Cells 8.5.1
 type: docs
 weight: 170
 url: /ar/net/public-api-changes-in-aspose-cells-8-5-1/
 ---
+
 {{% alert color="primary" %}} 
 
- توضح هذه الوثيقة التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.5.0 إلى 8.5.1 والتي قد تهم مطوري الوحدة النمطية / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/net/public-api-changes-in-aspose-cells-8-5-1/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.5.0 إلى 8.5.1 التي قد تكون مثيرة لاهتمام مطوري الوحدات / التطبيقات. يشمل ليس فقط الطرق العامة الجديدة والمحدثة، وإضافة الفئات، وما إلى ذلك، ولكن أيضاً وصفاً لأي تغييرات في السلوك وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **مصنف الطريقة**
-يطبق كائن المصنف الآن واجهة System.IDisposable التي تحتوي على طريقة واحدة للتخلص. يمكنك إما استدعاء طريقة Workbook.Dispose أو إنشاء كائن مصنف في بنية باستخدام لاستدعاء هذه الطريقة تلقائيًا.
+## **واجهات برمجة التطبيقات الجديدة**
+### **تمت إضافة طريقة Workbook.Dispose**
+أصبح ينفذ كائن Workbook الآن واجهة System.IDisposable التي تحتوي على طريقة Dispose واحدة. يمكنك إما استدعاء طريقة Workbook.Dispose مباشرة أو إنشاء كائن Workbook في هيكل Using لاستدعاء هذه الطريقة تلقائياً.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -38,23 +39,23 @@ using (Workbook book = new Workbook())
 {{< /highlight >}}
 
 
-### **الطريقة Cell.GetHeightOfValue مضافة**
- كشف Aspose.Cells for .NET 8.5.1 الطريقة Cell.GetHeightOfValue للحصول على ارتفاع قيمة الخلية. باستخدام هذه الطريقة ، يمكنك حساب ارتفاع قيمة الخلية ثم تعيين ارتفاع صف تلك الخلية على التوالي. تحقق من المقال المفصل على[كيفية حساب ارتفاع الخلية وعرضها](/cells/ar/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
-### **تمت إضافة جدول التعداد**
-كشف Aspose.Cells for .NET 8.5.1 التعداد Aspose.Cells.Tables.TableDataSourceType لاسترداد نوع مصدر البيانات من ListObject. تعداد TableDataSourceType كحقول التالية.
+### **أضيفت طريقة GetHeightOfValue في الخلية**
+قام Aspose.Cells for .NET 8.5.1 بتعريض الطريقة Cell.GetHeightOfValue للحصول على ارتفاع قيمة الخلية. من خلال استخدام هذه الطريقة يمكنك حساب ارتفاع قيمة الخلية ثم ضبط ارتفاع صف تلك الخلية على التوالي. تحقق من المقال المفصل على [كيفية حساب ارتفاع وعرض الخلية](/cells/ar/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+### **تمت إضافة تصنيف TableDataSourceType**
+قام Aspose.Cells for .NET 8.5.1 بتعريض تعداد Aspose.Cells.Tables.TableDataSourceType لاسترداد نوع مصدر البيانات لـ ListObject. تعداد TableDataSourceType كما يلي.
 
 1. TableDataSourceType.QueryTable
-1. TableDataSourceType
-1. TableDataSourceType. ورقة عمل
+1. TableDataSourceType.SharePoint
+1. TableDataSourceType.Worksheet
 1. TableDataSourceType.XML
 ### **تمت إضافة خاصية ListObject.DataSourceType**
-مع إصدار v8.5.1 ، كشف Aspose.Cells API عن خاصية ListObject.DataSourceType للقراءة فقط والتي يمكن استخدامها للكشف عن نوع مصدر البيانات الخاص بـ ListObject.
+مع إصدار v8.5.1، قامت واجهة برمجة التطبيقات Aspose.Cells بتعريض الخاصية القراءة فقط ListObject.DataSourceType التي يمكن استخدامها لاكتشاف نوع مصدر البيانات لكائن ListObject.
 
-هنا هو أبسط سيناريو استخدام.
+فيما يلي سيناريو الاستخدام الأبسط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("D:/book1.xlsx");
 

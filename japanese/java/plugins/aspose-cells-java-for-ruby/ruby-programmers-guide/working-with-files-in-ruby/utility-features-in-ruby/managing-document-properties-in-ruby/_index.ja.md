@@ -1,15 +1,16 @@
-﻿---
-title: Ruby でのドキュメント プロパティの管理
+---
+title: Rubyでドキュメントのプロパティを管理する
 type: docs
 weight: 90
 url: /ja/java/managing-document-properties-in-ruby/
 ---
-## **Aspose.Cells - ドキュメント プロパティへのアクセス**
-開発者は、**索引**また**名前**から特定のプロパティを取得するためのプロパティの**custom_properties**以下の例で示されているコレクション。
 
-**ルビーコード**
+## **Aspose.Cells - ドキュメントのプロパティにアクセスする**
+開発者は、以下の例に示すように、カスタムプロパティの**custom_properties**コレクションから特定のプロパティを取得するために、プロパティの**Index**または**Name**を利用できます。
 
-{{< highlight "ruby" >}}
+**Ruby Code**
+
+{{< highlight ruby >}}
 
  def get_properties()
 
@@ -36,12 +37,12 @@ url: /ja/java/managing-document-properties-in-ruby/
 end
 
 {{< /highlight >}}
-## **Aspose.Cells - カスタム プロパティの追加**
-Ruby の Aspose.Cells Java を使用してカスタム ドキュメント プロパティを追加するには、次のように呼び出します。**add_custom_property**の方法**書類**モジュール。
+## **Aspose.Cells - カスタムプロパティを追加する**
+RubyでAspose.Cells Javaを使用してカスタムドキュメントプロパティを追加するには、**Document**モジュールの**add_custom_property**メソッドを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_custom_property()
 
@@ -70,12 +71,12 @@ Ruby の Aspose.Cells Java を使用してカスタム ドキュメント プロ
 end   
 
 {{< /highlight >}}
-## **Aspose.Cells - カスタム プロパティの削除**
-Ruby の Aspose.Cells Java を使用してカスタム ドキュメント プロパティを削除するには、次のように呼び出します。**remove_custom_property**の方法**書類**モジュール。
+## **Aspose.Cells - カスタムプロパティを削除する**
+RubyでAspose.Cells Javaを使用してカスタムドキュメントプロパティを削除するには、**Document**モジュールの**remove_custom_property**メソッドを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_custom_property()
 
@@ -104,7 +105,7 @@ Ruby の Aspose.Cells Java を使用してカスタム ドキュメント プロ
 end   
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ドキュメント プロパティへのアクセス (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**Aspose.Cells**を使用してドキュメントのプロパティにアクセスするファイルをダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/document.rb)

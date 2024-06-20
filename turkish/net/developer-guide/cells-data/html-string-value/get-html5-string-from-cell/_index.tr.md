@@ -1,26 +1,27 @@
 ---
-title: Cell'den HTML5 dizesini alın
+title: Hücreden HTML5 dizesi al
 type: docs
 weight: 90
 url: /tr/net/get-html5-string-from-cell/
-description: Cell'den Aspose.Cells for .NET API'e kadar HTML5 dizesini nasıl alacağınızı öğrenin.
-keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
+description: Aspose.Cells for .NET API sı kullanarak Hücreden HTML5 dizesi almayı öğrenin.
+keywords: Hücreden HTML5 dizesi al, Hücreden HTML5 dizesi al, Hücrenin HTML5 dizesini yönet
 ---
-##  **Olası Kullanım Senaryoları**
 
-Aspose.Cells, hücrenin HTML dizesini kullanarak döndürür.[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) Boole parametresini kabul eden yöntem. Eğer geçersen**YANLIŞ** parametre olarak Normal HTML değerini döndürür, ancak geçerseniz**doğru** parametre olarak HTML5 dizesini döndürecektir.
+## **Olası Kullanım Senaryoları**
 
-##  **Cell'den HTML5 dizesini alın**
+Hücreden HTML5 dizesi al
 
-Aşağıdaki örnek kod, bir çalışma kitabı nesnesi oluşturur ve ilk çalışma sayfasının A1 hücresine bir miktar metin ekler. Daha sonra Normal HTML ve HTML5 dizesini A1 hücresinden alır.[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)yöntemini kullanır ve bunları konsola yazdırır.
+## **Hücreden HTML5 dizesi al**
 
-##  **Basit kod**
+Aşağıdaki örnek kod, bir çalışma kitabı nesnesi oluşturur ve ilk çalışsayısının A1 hücresine bazı metinler ekler. Ardından, A1 hücresinden Normal HTML ve HTML5 dizelerini [**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) yöntemini kullanarak alır ve bunları konsola yazdırır.
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-GetHTML5StringFromCell.cs" >}}
 
-##  **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Normal:
 

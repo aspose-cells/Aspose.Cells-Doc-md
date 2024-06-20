@@ -1,18 +1,19 @@
-﻿---
-title: Aktualisieren Sie die Tage, an denen der Verlauf der Revisionsprotokolle in der freigegebenen Arbeitsmappe beibehalten wird
+---
+title: Aktualisieren von Tagen unter Beibehaltung des Verlaufprotokolls in einer freigegebenen Arbeitsmappe
 type: docs
 weight: 80
 url: /de/net/update-days-preserving-history-of-revision-logs-in-shared-workbook/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Wenn Sie eine Arbeitsmappe freigeben, erhalten Sie eine Option mit der Aufschrift***Bewahren Sie den Änderungsverlauf für N Tage auf*** wie im folgenden Screenshot gezeigt. Sie können die Anzahl der Tage für die Aufbewahrung des Verlaufs mit Aspose.Cells mit aktualisieren[**WorksheetCollection.RevisionLogs.DaysPreservatingHistory**](https://reference.aspose.com/cells/net/aspose.cells.revisions/revisionlogcollection/properties/dayspreservinghistory)Eigentum.
+## **Mögliche Verwendungsszenarien**
 
-![todo: Bild_alt_Text](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
+Wenn Sie eine Arbeitsmappe freigeben, erhalten Sie eine Option ***Änderungsverlauf für N Tage beibehalten***, wie im folgenden Screenshot gezeigt. Sie können die Anzahl der Tage zur Aufbewahrung des Verlaufs unter Verwendung der Aspose.Cells mit der [**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/net/aspose.cells.revisions/revisionlogcollection/properties/dayspreservinghistory)-Eigenschaft aktualisieren.
 
-## **Aktualisieren Sie die Tage, an denen der Verlauf der Revisionsprotokolle in der freigegebenen Arbeitsmappe beibehalten wird**
+![todo:image_alt_text](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
 
- Der folgende Beispielcode erstellt eine leere Arbeitsmappe, gibt sie dann frei und aktualisiert die Überarbeitungsprotokolltage, die den Verlauf beibehalten, auf 7 Tage, was normalerweise 30 Tage sind. Bitte sehen Sie sich ... an[Excel-Datei ausgeben](60489773.xlsx) generiert durch den Code für eine Referenz.
+## **Aktualisieren von Tagen unter Beibehaltung des Verlaufprotokolls in einer freigegebenen Arbeitsmappe**
+
+Der folgende Beispielcode erstellt eine leere Arbeitsmappe, teilt sie dann und aktualisiert die Revisionsprotokolle, um den Verlauf 7 Tage lang zu speichern, was normalerweise 30 Tage beträgt. Bitte sehen Sie die [Ausgabedatei Excel](60489773.xlsx), die vom Code erstellt wurde, als Referenz an.
 
 ## **Beispielcode**
 

@@ -1,60 +1,61 @@
 ---
-title: دمج أوراق عمل متعددة في ورقة عمل واحدة
+title: دمج الأوراق العمل المتعددة في ورقة عمل واحدة
 type: docs
 weight: 70
 url: /ar/java/combine-multiple-worksheets-into-a-single-worksheet/
-description: قم بدمج أوراق عمل متعددة في ورقة عمل واحدة باستخدام الكود Java وAspose.Cells for Java API.
-keywords: combine multiple worksheets into one, combine multiple worksheets into one java, combine multiple worksheets into one with java, combine multiple worksheets into single worksheet with java, combine multiple worksheets into single worksheet java, java code to combine multiple worksheets into single worksheet, how to combine multiple worksheets into single worksheet with java, how to combine multiple worksheets into one with java, merge multiple worksheets into one with java, how to merge multiple worksheets into one java, how to merge multiple worksheets into one with java
+description: دمج أوراق العمل المتعددة في ورقة عمل واحدة باستخدام كود Java وAspose.Cells for Java API.
+keywords: دمج أوراق العمل المتعددة في ورقة عمل واحدة أحيانًا تكون بحاجة إلى دمج أوراق العمل المتعددة في ورقة عمل واحدة. يمكن تحقيق ذلك بسهولة باستخدام واجهة برمجة التطبيقات لـ Aspose.Cells. سيوضح لك هذا المقال مثال على الكود الذي يقوم بقراءة الدفتر النشط ويدمج بيانات جميع أوراق العمل النشطة في ورقة عمل واحدة داخل دفتر العمل الوجهة.
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان، تحتاج إلى دمج أوراق عمل متعددة في ورقة عمل واحدة. يمكن تحقيق ذلك بسهولة باستخدام Aspose.Cells API. ستعرض لك هذه المقالة مثالاً للتعليمات البرمجية التي تقرأ المصنف المصدر وتجمع بيانات كافة أوراق العمل المصدر في ورقة عمل واحدة داخل المصنف الوجهة.
+في بعض الأحيان، قد تحتاج إلى دمج أوراق العمل المتعددة في ورقة عمل واحدة. يمكن بسهولة تحقيق ذلك باستخدام واجهة برمجة التطبيقات Aspose.Cells. سيوضح لك هذا المقال مثالًا على الكود الذي يقوم بقراءة دفتر عمل المصدر ويدمج البيانات من جميع أوراق العمل المصدر في ورقة عمل واحدة داخل دفتر عمل الوجهة.
 
 {{% /alert %}}
 
-##  **كيفية الجمع بين أوراق العمل**
+## **كيفية دمج أوراق العمل**
 
- يستخدم النموذج أدناه[**نسخة النطاق ()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) لنسخ كافة أوراق العمل المصدر في ورقة واحدة داخل المصنف الوجهة.
+يستخدم النموذج أدناه الـ [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) لنسخ جميع صفحات العمل الأصلية إلى ورقة واحدة داخل دفتر عمل الوجهة.
 
-###  **المصنف المصدر**
+### **دفتر العمل المصدر**
 
-يمكنك استخدام أي مصنف المصدر. في هذا المثال، نستخدم المصنف المصدر الذي يحتوي على ثلاث أوراق عمل.
+يمكنك استخدام أي دفتر عمل مصدر. لهذا المثال، نحن نستخدم دفتر عمل مصدر يحتوي على ثلاثة أوراق عمل.
 
-**ورقة عمل 1**
+**ورقة العمل 1**
 
-![ما يجب القيام به:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_1.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_1.jpg)
 
-**ورقة عمل 2**
+**ورقة العمل 2**
 
-![ما يجب القيام به:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_2.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_2.jpg)
 
-**ورقة عمل 3**
+**ورقة العمل 3**
 
-![ما يجب القيام به:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_3.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_3.jpg)
 
-###  **مصنف الإخراج**
+### **دفتر العمل الناتج**
 
-يؤدي تشغيل التعليمات البرمجية التالية إلى توفير مصنف يحتوي على ورقة عمل واحدة تحتوي على بيانات جميع أوراق العمل الثلاث.
+توفير تعليمات البرمجة التالية يوفر دفتر عمل يحتوي على ورقة واحدة تحتوي على البيانات من كل من الأوراق الثلاثة.
 
-**تحتوي ورقة عمل الإخراج الآن على بيانات جميع أوراق العمل الثلاثة المصدر**
+**الورقة العمل الناتجة الآن تحتوي على البيانات من جميع الأوراق الثلاثة المصدرية**
 
-![ما يجب القيام به:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
 
-##  **قم بتنزيل مصنف المصدر ومصنف الإخراج**
+## **تحميل دفتر عمل مصدر ودفتر عمل الناتج**
 
-- [المصنف المصدر](5473078.xlsx)
-- [مصنف الإخراج](5473079.xlsx)
+- [دفتر العمل المصدر](5473078.xlsx)
+- [دفتر العمل الناتج](5473079.xlsx)
 
-###  **نموذج التعليمات البرمجية لدمج أوراق عمل متعددة في ورقة عمل واحدة**
+### **رمز عينة لدمج أوراق عمل متعددة في ورقة عمل واحدة**
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية دمج أوراق عمل متعددة في ورقة عمل واحدة.
+الكود المصدري التالي يظهر كيفية دمج عدة أوراق عمل في ورقة عمل واحدة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CombineMultipleWorksheets-CombineMultipleWorksheets.java" >}}
 
-##  **مصادر إضافية**
+## **موارد إضافية**
 
 {{% alert color="primary" %}}
 
- قد تجد[دمج مصنفات متعددة في مصنف واحد](/cells/ar/java/combine-multiple-workbooks-into-a-single-workbook/) مقالة مفيدة لمزيد من المعلومات.
+قد تجد المقالة [دمج ملفات عمل متعددة في دفتر عمل واحد](/cells/ar/java/combine-multiple-workbooks-into-a-single-workbook/) مفيدة للحصول على المزيد من المعلومات.
 
 {{% /alert %}}

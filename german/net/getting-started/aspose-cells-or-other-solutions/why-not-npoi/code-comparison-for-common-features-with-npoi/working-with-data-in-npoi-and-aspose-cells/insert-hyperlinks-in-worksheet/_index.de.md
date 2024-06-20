@@ -1,17 +1,18 @@
-﻿---
+---
 title: Hyperlinks in Arbeitsblatt einfügen
 type: docs
 weight: 20
 url: /de/net/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells – Hyperlinks in Arbeitsblatt einfügen**
-**Hinzufügen eines Links zu Cell in derselben Datei**
 
-Es ist möglich, Hyperlinks zu Zellen in derselben Excel-Datei hinzuzufügen, indem die Add-Methode der Hyperlink-Auflistung aufgerufen wird. Die Add-Methode funktioniert sowohl für interne als auch für externe Hyperlinks.
+## **Aspose.Cells - Hyperlinks in Arbeitsblatt einfügen**
+**Link zu einer Zelle in derselben Datei hinzufügen**
+
+Es ist möglich, Hyperlinks zu Zellen in derselben Excel-Datei hinzuzufügen, indem die Add-Methode der Hyperlink-Sammlung aufgerufen wird. Die Add-Methode funktioniert sowohl für interne als auch externe Hyperlinks.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -64,18 +65,18 @@ workbook.Save("test.xlsx");
 
 {{< /highlight >}}
 
-**Hinzufügen eines Links zu einer externen Datei**
+**Link zu einer externen Datei hinzufügen**
 
-Es ist möglich, Hyperlinks zu Zellen in derselben Excel-Datei hinzuzufügen, indem die Add-Methode der Hyperlink-Auflistung aufgerufen wird. Die Add-Methode funktioniert sowohl für interne als auch für externe Hyperlinks. Eine Version der überladenen Methode akzeptiert die folgenden Parameter:
+Es ist möglich, Hyperlinks zu Zellen in derselben Excel-Datei hinzuzufügen, indem die Add-Methode der Hyperlinks-Sammlung aufgerufen wird. Die Add-Methode funktioniert sowohl für interne als auch für externe Hyperlinks. Eine Version der überladenen Methode nimmt die folgenden Parameter an:
 
-- Cell Name, der Name der Zelle, zu der der Hyperlink hinzugefügt wird.
-- Zeilenanzahl, die Anzahl der Zeilen in diesem Hyperlinkbereich.
-- Anzahl der Spalten, die Anzahl der Spalten in diesem Hyperlinkbereich.
+- Zellenname, der Name der Zelle, zu der der Hyperlink hinzugefügt wird.
+- Anzahl der Zeilen, die Anzahl der Zeilen im Hyperlink-Bereich.
+- Anzahl der Spalten, die Anzahl der Spalten im Hyperlink-Bereich.
 - URL, die Adresse der Zielzelle.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -99,7 +100,7 @@ workbook.Save("C:\\book1.xls");
 ## **NPOI - HSSF XSSF - Hyperlinks in Arbeitsblatt einfügen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -192,13 +193,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Hyperlinks in Arbeitsblatt einfügen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Hyperlinks in Arbeitsblatt einfügen** von einer der unten genannten sozialen Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Hinzufügen von Hyperlinks zu Linkdaten](/cells/de/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
+Für weitere Details besuchen Sie [Hyperlinks zum Verknüpfen von Daten hinzufügen](/cells/de/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
 
 {{% /alert %}}

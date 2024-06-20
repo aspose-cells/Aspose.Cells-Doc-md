@@ -1,54 +1,55 @@
-﻿---
-title: Aspose.Cells の TrueType フォントの使用方法
+---
+title: Aspose.CellsがTrueTypeフォントを使用する方法
 type: docs
 weight: 10
 url: /ja/java/how-aspose-cells-uses-truetype-fonts/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells では、スプレッドシートを PDF、XPS および画像などの形式にレンダリングするときに TrueType フォントが必要です。
+Aspose.Cellsは、スプレッドシートをPDF、XPS、イメージなどの形式にレンダリングする際にTrueTypeフォントが必要です。
 
-Aspose.Cells がスプレッドシートをレンダリングするとき、スプレッドシートで使用されている TrueType フォントへのアクセスが必要です。これは、PDF、XPS、および画像生成中の通常の方法であり、変換されたドキュメントまたは画像がどのビューアーに対しても同一に見えるようにします。
+Aspose.Cellsがスプレッドシートをレンダリングする際、スプレッドシートで使用されているTrueTypeフォントにアクセスする必要があります。これは、PDF、XPS、イメージの生成中に一般的な取り組みであり、変換されたドキュメントやイメージがどのビューアにとっても同じように表示されることを保証します。
 
 {{% /alert %}}
 
 ## **フォントについて**
 
-### **フォントの可用性と代替**
+### **フォントの利用可能性と代替**
 
-スプレッドシートは、Arial、Times New Roman、Verdana などのさまざまなフォントを使用してフォーマットできます。 Aspose.Cells がスプレッドシートをレンダリングするとき、スプレッドシートで使用されているフォントを選択しようとします。ただし、正確なフォントが利用できない場合があるため、代わりに Aspose.Cells で類似のフォントを使用する必要があります。
+スプレッドシートはArial、Times New Roman、Verdanaなどさまざまなフォントを使用してフォーマットされる場合があります。Aspose.Cellsがスプレッドシートをレンダリングする際、スプレッドシートで使用されているフォントを選択しようとします。しかし、正確なフォントが利用できない場合もありますので、Aspose.Cellsは代わりの似たフォントを選択する必要があります。
 
-以下は、Aspose.Cells が舞台裏でたどるプロセスです。
+下記は、Aspose.Cellsが裏で行うプロセスです。
 
-1. Aspose.Cells は、スプレッドシートで使用されている正確なフォント名に一致するファイル システム上のフォントを見つけようとします。
-1. Aspose.Cells がまったく同じ名前のフォントを見つけられない場合、Workbook の DefaultStyle.Font プロパティで指定された既定のフォントを使用しようとします。
-1. Aspose.Cells は、ブックの DefaultStyle.Font プロパティで定義されたフォントを見つけられない場合、使用可能なすべてのフォントから最適なフォントを選択しようとします。
-1. 最後に、Aspose.Cells がファイル システムでフォントを見つけられない場合、Arial を使用してスプレッドシートをレンダリングします。
+1. Aspose.Cellsは、スプレッドシートで使用されている正確なフォント名と一致するフォントをファイルシステムで探そうとします。
+1. Aspose.Cellsが正確なフォント名のフォントを見つけられない場合、ワークブックのDefaultStyle.Fontプロパティで指定されたデフォルトフォントを使用しようとします。
+1. Aspose.CellsがワークブックのDefaultStyle.Fontプロパティで定義されたフォントを見つけられない場合、利用可能なすべてのフォントから最も適したフォントを選択しようとします。
+1. 最終的に、Aspose.Cellsがファイルシステムでフォントを見つけられない場合、スプレッドシートをArialでレンダリングします。
 
-### **Aspose.Cells がフォントを探す場所**
+### **Aspose.Cellsがフォントを探す場所**
 
-Aspose.Cells は、ファイル システムで TrueType フォントを自動的に見つけようとします。ほとんどの場合、Aspose.Cell のデフォルトの動作に頼って TrueType フォントを見つけることができますが、FontConfigs.setFontFolder ファクトリ メソッドを使用して TrueType フォントを含むフォルダーを指定する必要がある場合があります。
+Aspose.Cellsは自動的にファイルシステム上のTrueTypeフォントを見つけようとします。ほとんどの場合、Aspose.Cellsのデフォルト動作に依存できますが、TrueTypeフォントが含まれるフォルダをFontConfigs.setFontFolderファクトリメソッドを使用して明示的に指定する必要がある場合もあります。
 
 ### **典型的なフォント関連の問題と解決策**
 
-この表は、スプレッドシートを Aspose.Cells を使用して PDF にレンダリングするときに発生する可能性のある問題とその解決策の一部を示しています。
+典型的なフォント関連の問題と解決策
 
 {{% alert color="primary" %}}
 
-フォントをコピーするときは、ほとんどのフォントが著作権で保護されていることに注意してください。まず、フォントのライセンスを事前に見つけて、別のマシンに自由に転送できることを確認してください。
+フォントをコピーする際には、ほとんどのフォントが著作権があります。フォントのライセンスを事前に見つけ、他のマシンに自由に転送できることを確認してください。 
 
 {{% /alert %}}
 
-|**問題** |**理由** |**解決** |
-|:- |:- |:- |
-|レンダリングされたドキュメントのレイアウトとフォントは、元のドキュメントとは異なります。| TureType フォントがデフォルトで存在しない Linux または Mac OS で Aspose.Cells を使用しているため、Aspose.Cells はコンピューター上のフォントを見つけることができません。|Windows マシンから TrueType フォント ファイルをコピーするか、TrueType フォント パッケージをインストールします。 FontConfigs.setFontFolder ファクトリ メソッドを使用して、フォント ファイルの場所を指定します。|
+|**問題** |**理由** |**解決策** |
+| :- | :- | :- |
+|レンダリングされたドキュメントのレイアウトやフォントが元のものと異なる。 |Aspose.CellsをLinuxやMac OSで使用しており、デフォルトではTrueTypeフォントが存在しないため、Aspose.Cellsがコンピューター上のフォントを見つけられない。 |WindowsマシンからTrueTypeフォントファイルをコピーするか、TrueTypeフォントの場所を指定するためにFontConfigs.setFontFolderファクトリメソッドを使用してフォントファイルの場所を指定してください。|
 
 {{% alert color="primary" %}}
 
-の詳細記事をチェック
+詳細な記事は次の場所を確認してください
 
-- [Linux に TrueType フォントを配置する方法](/cells/ja/java/how-to-install-truetype-fonts-on-linux/).
-- [TrueType フォントの場所を指定する方法](/cells/ja/java/how-to-specify-truetype-fonts-location/).
-- [フォントの置換が発生したときに警告を表示する方法](/cells/ja/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
+- [LinuxにTrueTypeフォントを配置する方法](/cells/ja/java/how-to-install-truetype-fonts-on-linux/)
+- [TrueTypeフォントの場所を指定する方法](/cells/ja/java/how-to-specify-truetype-fonts-location/)
+- [フォントの代替が発生した際に警告を取得する方法](/cells/ja/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}

@@ -1,30 +1,31 @@
-﻿---
+---
 title: تجميع جداول البيانات
 type: docs
 weight: 10
 url: /ar/net/assemble-spreadsheets/
 ---
+
 يصف هذا القسم كيفية:
 
-قم بإنشاء ملف Excel جديد من البداية وأضف ورقة عمل إليه.
+إنشاء ملف Excel جديد من البداية وإضافة ورق العمل إليه.
 
-- أضف أوراق العمل إلى جداول بيانات المصمم.
+- إضافة أوراق العمل إلى جداول البيانات.
 - الوصول إلى أوراق العمل باستخدام اسم الورقة.
-- قم بإزالة ورقة عمل من ملف Excel باستخدام اسم الورقة الخاص بها.
-- قم بإزالة ورقة عمل من ملف Excel باستخدام فهرس الورقة الخاص بها.
-- يوفر Aspose.Cells فئة ، مصنف يمثل ملف Excel. تحتوي فئة المصنف على مجموعة أوراق عمل تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
+- إزالة ورقة عمل من ملف Excel باستخدام اسمها.
+- إزالة ورقة عمل من ملف Excel باستخدام فهرسها.
+- توفر Aspose.Cells فئة تُسمى Workbook التي تمثل ملف Excel. تحتوي فئة Workbook على مجموعة Worksheets التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
 
-يتم تمثيل ورقة العمل بواسطة فئة ورقة العمل. توفر فئة ورقة العمل نطاقًا واسعًا من الخصائص والأساليب لإدارة أوراق العمل.
-## **إضافة أوراق عمل إلى ملف Excel جديد**
-لإنشاء ملف Excel جديد برمجيًا:
+تمثل ورقة العمل بفئة Worksheet. توفر فئة Worksheet مجموعة واسعة من الخصائص والأساليب لإدارة ورقات العمل.
+## **إضافة ورقات العمل إلى ملف Excel جديد**
+لإنشاء ملف Excel جديد برمجياً:
 
-- قم بإنشاء كائن من فئة المصنف.
-- قم باستدعاء طريقة الإضافة لمجموعة أوراق العمل. تتم إضافة ورقة عمل فارغة إلى ملف Excel * تلقائيًا. يمكن الرجوع إليها عن طريق تمرير فهرس ورقة ورقة العمل الجديدة إلى مجموعة أوراق العمل.
-- الحصول على مرجع ورقة العمل.
-- أداء العمل على أوراق العمل.
-- احفظ ملف Excel الجديد بأوراق عمل جديدة عن طريق استدعاء طريقة Save لفئة المصنف.
+- إنشاء كائن من فئة Workbook.
+- استدعاء الطريقة Add من مجموعة Worksheets. يتم إضافة ورقة عمل فارغة إلى ملف Excel * تلقائياً. يمكن الإشارة إليها عن طريق تمرير فهرس الورقة الجديدة إلى مجموعة Worksheets.
+- الحصول على مرجع لورقة العمل.
+- أداء العمل على الأوراق العمل.
+- حفظ ملف Excel الجديد مع أوراق عمل جديدة عن طريق استدعاء طريقة Save من فئة Workbook.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -47,10 +48,10 @@ worksheet.Name = "My Worksheet";
 workbook.Save("Adding Worksheet.xls");
 
 {{< /highlight >}}
-## **إضافة أوراق عمل إلى جدول بيانات المصمم**
-عملية إضافة أوراق العمل إلى جدول بيانات المصمم مماثلة لعملية إضافة ورقة عمل جديدة ، باستثناء أن ملف Excel موجود بالفعل ، لذا يجب فتحه قبل إضافة أوراق العمل. يمكن فتح جدول بيانات المصمم بواسطة فئة المصنف.
+## **إضافة ورقات عمل إلى جدول التصميم**
+يكون عملية إضافة ورقات عمل إلى جدول التصميم نفسها كإضافة ورقة عمل جديدة، باستثناء أن ملف Excel موجود بالفعل وبالتالي يجب فتحه قبل إضافة الأوراق العمل. يمكن فتح جدول التصميم باستخدام فئة Workbook.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -83,10 +84,10 @@ workbook.Save("Designer Spreadsheet.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **الوصول إلى أوراق العمل باستخدام اسم الورقة**
-قم بالوصول إلى أي ورقة عمل أو احصل عليها عن طريق تحديد اسمها أو فهرسها.
+## **الوصول إلى الأوراق العمل باستخدام اسم الورقة**
+الوصول أو الحصول على أي ورقة عمل عن طريق تحديد اسمها أو فهرسها.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -103,10 +104,10 @@ Workbook workbook = new Workbook(fstream);
 Worksheet worksheet = workbook.Worksheets["Sheet1"];
 
 {{< /highlight >}}
-## **إزالة أوراق العمل باستخدام اسم الورقة**
-لإزالة أوراق العمل من ملف ، قم باستدعاء أسلوب RemoveAt الخاص بمجموعة أوراق العمل. قم بتمرير اسم الورقة إلى أسلوب RemoveAt لإزالة ورقة عمل معينة.
+## **إزالة الأوراق العمل باستخدام اسم الورقة**
+لإزالة الأوراق العمل من ملف، استدعاء طريقة RemoveAt لمجموعة Worksheets. قم بتمرير اسم الورقة إلى طريقة RemoveAt لإزالة ورقة عمل معينة.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -125,10 +126,10 @@ workbook.Worksheets.RemoveAt("Sheet3");
 workbook.Save("WorksHeet Operations.xls");
 
 {{< /highlight >}}
-## **إزالة أوراق العمل باستخدام فهرس الورقة**
-تعمل إزالة أوراق العمل حسب الاسم بشكل جيد عندما يكون اسم ورقة العمل معروفًا. إذا كنت لا تعرف اسم ورقة العمل ، فاستخدم إصدارًا محملاً بشكل زائد من أسلوب RemoveAt الذي يأخذ فهرس ورقة العمل بدلاً من اسم الورقة الخاص بها.
+## **إزالة الأوراق العمل باستخدام فهرس الورقة**
+يعمل إزالة الأوراق العمل باستخدام الاسم بشكل جيد عندما يكون اسم الورقة معروفاً. إذا لم تكن تعرف اسم الورقة العمل، استخدم نسخة معدلة من طريقة RemoveAt التي تأخذ فهرس ورقة العمل بدلاً من اسم الورقة.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //creating a file stream containing the Excel file to be opened
 
@@ -147,6 +148,6 @@ workbook.Worksheets.RemoveAt(1);
 workbook.Save("WorksHeet Operations.xls");
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **تحميل رمز عينة**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Assemble%20Worksheet%20%28Aspose.Cells%29.zip)

@@ -1,25 +1,28 @@
-﻿---
-title: Filtrera data
+---
+title: Filtrering av data
 type: docs
 weight: 100
-url: /sv/net/filtering-data/
+url: /sv/net/aspose-cells-griddesktop/filtering-data/
+keywords: GridDesktop, filtrera, filtrera data, AutoFilter, RowFilterr
+description: Den här artikeln introducerar hur du filtrerar data i arbetsbladet i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-**Aspose.Cells.GridDesktop** tillhandahåller Auto-Filter och Custom Data Filter-funktioner för användarna. Genom att använda dessa funktioner kan du hitta ett sätt att bara välja de objekt från kalkylbladet som du vill visa i en lista. Dessutom har du rätt att filtrera objekt i en lista enligt ett fastställt villkor. Du kan filtrera text, siffror eller datum med Auto-Filter / Custom Data Filter-funktionen.
+**Aspose.Cells.GridDesktop** erbjuder funktioner för Auto-Filter och Anpassad Datafiltrering för användarna. Med dessa funktioner kan du välja endast de objekt från arbetsbladet som du vill visa i en lista. Dessutom kan du filtrera objekt i en lista enligt en uppsatt kriterier. Du kan filtrera text, nummer eller datum med funktionen Auto-Filter / Anpassad Datafiltrering.
 
- Du kan använda**Aktivera AutoFilter** Boolean attribut för**RowFilterSettings** klass för att aktivera Auto-Filter-funktionen för GridDesktop-kontrollen. Det finns några andra egenskaper för klassen som du kan använda, t.ex**HeaderRow** , **StartRow** och**EndRow**för att ange rubrik, start- och slutradindex. De**Kriterier** egenskapen används för att ställa in de anpassade filtreringskriterierna. Klassen har också en metod som heter**Filterrader** för att få de filtrerade raderna baserat på de givna kriterierna.
+Du kan använda det booleska attributet **EnableAutoFilter** i klassen **RowFilterSettings** för att aktivera funktionen Auto-Filter för GridDesktop-kontrollen. Det finns några andra egenskaper hos klassen som du kan använda, t.ex **HeaderRow**, **StartRow** och **EndRow** för att ange rubrik, start- och slutradindex. Egenskapen **Criteria** används för att ange anpassade filtreringskriterier. Klassen har också en metod med namnet **FilterRows** för att få de filtrerade raderna baserat på de angivna kriterierna.
 
- Sökattributet "innehåller" (skiftlägeskänsligt) i RowFilter stöds också av GridDesktop. Du kan använda**Ignorera fall** egendom av**GridColumn** klass för att ange attributet skiftlägeskänslighet för ditt behov. Du kan också använda en egendom som heter**IsStartWithCriteria** av**GridColumn** klass för att indikera om RowFilter använder StartWith-kriterierna på en kolumn; standardvärdet för egenskapen är inställt på false.
+Attributet "contains" -typ sökattribut (skiftlägesoberoende) i RowFilter stöds också av GridDesktop. Du kan använda egenskapen **IgnoreCase** i klassen **GridColumn** för att ange skiftlägeskänslighetsattributet enligt ditt behov. Du kan också använda en egenskap med namnet **IsStartWithCriteria** i klassen **GridColumn** för att ange om RowFilter använder StartWith-kriteriet för en kolumn; standardvärdet för egenskapen är satt till false.
 
 {{% /alert %}} 
-## **Filtrera data**
-Vi implementerar både Auto-Filter och Custom Data Filter-funktioner i det här exemplet. Vi fyller i en datalista i GridDesktop, aktiverar Auto-Filter-funktionen och söker sedan efter filtrerade rader baserat på vissa kriterier.
+## **Filtrering av data**
+Vi implementerar både Auto-Filter och Anpassad Datafiltreringsfunktioner i det här exemplet. Vi fyller några datalistor i GridDesktop, aktiverar Auto-Filter-funktionen och söker sedan filtrerade rader baserat på vissa kriterier.
 ### **Auto-Filter**
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-FilteringData-AutoFilter.cs" >}}
-### **Anpassat datafilter**
+### **Anpassad dataskiktsfiltrering**
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-FilteringData-CustomFilter.cs" >}}

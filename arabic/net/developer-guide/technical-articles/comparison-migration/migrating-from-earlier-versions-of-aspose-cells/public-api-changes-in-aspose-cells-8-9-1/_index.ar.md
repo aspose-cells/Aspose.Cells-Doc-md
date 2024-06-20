@@ -1,36 +1,37 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.9.1
+---
+title: تغييرات واجهة برمجة التطبيقات العمومية في Aspose.Cells 8.9.1
 type: docs
 weight: 310
 url: /ar/net/public-api-changes-in-aspose-cells-8-9-1/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.9.0 إلى 8.9.1 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات التي طرأت على واجهة برمجة التطبيقات في Aspose.Cells من الإصدار 8.9.0 إلى 8.9.1 والتي قد تكون مثيرة لاهتمام مطوري الوحدات/التطبيقات. إنه يشتمل ليس فقط على الطرق العامة الجديدة والمحدثة، والفئات المضافة والمحذوفة الخ، ولكن أيضاً وصف لأي تغييرات في السلوك وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
+## **واجهات برمجة التطبيقات الجديدة**
 ### **مصادر الخطوط القابلة للتكوين**
-قام Aspose.Cells for .NET بعرض عدد من الفئات لتوفير الدعم لمصادر أطقم الطباعة القابلة للتكوين لتقديم جداول البيانات. فيما يلي قائمة بالفئات التي تمت إضافتها بالرقم Aspose.Cells for .NET 8.9.1.
+أصبحت Aspose.Cells for .NET تعرض عددًا من الصفوف لتوفير الدعم لمصادر الخطوط القابلة للتكوين لعرض الجداول الخاصة. وفيما يلي قائمة الصفوف التي تمت إضافتها مع Aspose.Cells for .NET 8.9.1.
 
-1. تحدد فئة FontConfigs إعدادات الخط.
-1. فئة FontSourceBase هي فئة أساسية مجردة للفئات التي تسمح للمستخدم بتحديد مصادر الخطوط المختلفة.
-1. تمثل فئة FileFontSource ملف خط TrueType الفردي المخزن في نظام الملفات.
-1. تمثل فئة FolderFontSource المجلد الذي يحتوي على ملفات خطوط TrueType.
-1. تمثل فئة MemoryFontSource ملف خط تروتايب الفردي المخزن في الذاكرة.
-1. يحدد تعداد FontSourceType نوع مصدر الخط.
+1. تحديد تهيئات الخطوط الفئة تحدد إعدادات الخطوط.
+1. فئة FontSourceBase هي فئة قاعدية مجردة للفئات التي تسمح للمستخدم بتحديد مصادر الخطوط المختلفة.
+1. تمثل فئة FileFontSource ملف الخط TrueType الفردي المخزن في نظام ملفات النظام.
+1. تمثل فئة FolderFontSource المجلد الذي يحتوي على ملفات خط TrueType.
+1. تمثل فئة MemoryFontSource ملف الخط TrueType الفردي المخزن في الذاكرة.
+1. تحدد تعداد عناصر نوع مصدر الخط من خلال تعداد FontSourceType.
 
-مع التغييرات المذكورة أعلاه في المكان ، فإن Aspose.Cells for .NET يسمح بتعيين الخطوط كما هو مفصل أدناه.
+بفضل التغييرات المذكورة أعلاه، يسمح Aspose.Cells for .NET بتحديد الخطوط كالتفاصيل أدناه.
 
-1. قم بتعيين مجلد خط مخصص واحد أثناء استخدام طريقة FontConfigs.SetFontFolder.
-1. قم بتعيين مجلد خط مخصص متعدد أثناء استخدام طريقة FontConfigs.SetFontFolders.
-1. قم بتعيين مصادر الخطوط من مجلد خط مخصص أو ملف خط مفرد أو بيانات خط من مصفوفة بايت أثناء استخدام طريقة FontConfigs.SetFontSources.
+1. ضبط مجلد خط مخصص واحد أثناء استخدام طريقة FontConfigs.SetFontFolder.
+1. ضبط عدة مجلدات خط مخصصة أثناء استخدام طريقة FontConfigs.SetFontFolders.
+1. ضبط مصادر الخط من مجلد خط مخصص، ملف خط واحد أو بيانات خط من مجموعة بايت أثناء استخدام طريقة FontConfigs.SetFontSources.
 
-فيما يلي سيناريو الاستخدام البسيط للطرق المذكورة أعلاه.
+فيما يلي سيناريو استخدام بسيط للطرق المذكورة أعلاه.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Defining string variables to store paths to font folders & font file
 
@@ -50,7 +51,7 @@ FontConfigs.SetFontFolder(fontFolder1, true);
 
 // Second parameter prohibits the API to search the subfolders for font files
 
-FontConfigs.SetFontFolders(new string[]{ fontFolder1, fontFolder2 }, false);
+FontConfigs.SetFontFolders(new string[] { fontFolder1, fontFolder2 }, false);
 
 // Defining FolderFontSource
 
@@ -66,58 +67,58 @@ MemoryFontSource sourceMemory = new MemoryFontSource(System.IO.File.ReadAllBytes
 
 //Setting font sources
 
-FontConfigs.SetFontSources(new FontSourceBase[]{ sourceFolder, sourceFile, sourceMemory});
+FontConfigs.SetFontSources(new FontSourceBase[] { sourceFolder, sourceFile, sourceMemory});
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
 
-تقبل كلتا الطريقتين FontConfigs.SetFontFolder & FontConfigs.SetFontFolders معلمة ثانية من النوع المنطقي. تمرير صحيح كمعامل ثان سيوجه Aspose.Cells APIs للبحث في المجلدات الفرعية عن ملفات الخطوط.
+كل من طرق FontConfigs.SetFontFolder وFontConfigs.SetFontFolders تقبل نوع باراميتر ثاني من نوع Boolean. تمرير true كباراميتر ثاني سيوجه واجهات برمجة التطبيقات لـ Aspose.Cells للبحث في المجلدات الفرعية عن ملفات الخطوط.
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET يسمح أيضًا بتوصيف استبدال الخط. هذه الآلية مفيدة عندما لا يكون الخط المطلوب متاحًا على الجهاز حيث يجب إجراء التحويل. يمكن للمستخدمين توفير قائمة بأسماء الخطوط كبديل للخط المطلوب في الأصل. من أجل تحقيق ذلك ، كشفت واجهات برمجة التطبيقات Aspose.Cells طريقة FontConfigs.SetFontSubstitutes التي تقبل معلمتين. المعلمة الأولى هي من نوع السلسلة ، والتي يجب أن تكون اسم الخط الذي يجب استبداله. المعلمة الثانية هي مصفوفة من نوع السلسلة. يمكن للمستخدمين توفير قائمة بأسماء الخطوط كبديل لاسم الخط الأصلي (المحدد في المعلمة الأولى).
+ كما يسمح Aspose.Cells for .NET أيضا بتكوين استبدال الخطوط. هذا الآلية مفيدة عندما لا يتوفر الخط المطلوب على الجهاز الذي سيتم فيه التحويل. يمكن للمستخدمين تقديم قائمة باسماء الخطوط بديلاً عن الخط المطلوب أصلا. ولتحقيق ذلك، قد قدمت واجهات برمجة التطبيقات لـ Aspose.Cells الطريقة FontConfigs.SetFontSubstitutes التي تقبل 2 معامل. الباراميتر الأول من نوع string، والذي يجب أن يكون اسم الخط الذي يجب استبداله. الباراميتر الثاني هو مصفوفة من نوع string. يمكن للمستخدمين تقديم قائمة باسماء الخطوط كاستبدال لاسم الخط الأصلي (المحدد في الباراميتر الأول).
 
 فيما يلي سيناريو استخدام بسيط لطريقة FontConfigs.SetFontSubstitutes.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Substituting the Arial font with Times New Roman & Calibri
 
-FontConfigs.SetFontSubstitutes("Arial", new string[]{ "Times New Roman", "Calibri" });
+FontConfigs.SetFontSubstitutes("Arial", new string[] { "Times New Roman", "Calibri" });
 
 {{< /highlight >}}
 
 
 
-يوفر Aspose.Cells for .NET أيضًا وسائل لجمع المعلومات حول المصادر والبدائل التي تم تعيينها.
+  توفر Aspose.Cells for .NET وسائل أيضاً لجمع المعلومات حول الخطوط والاستبدالات التي تم تعيينها.
 
-1. تقوم طريقة FontConfigs.GetFontSources بإرجاع مصفوفة من النوع FontSourceBase تحتوي على قائمة بمصادر الخطوط المحددة. في حالة عدم تعيين أي مصادر ، سيعيد التابع FontConfigs.GetFontSources مصفوفة فارغة.
-1. يقبل أسلوب FontConfigs.GetFontSubstitutes معلمة من نوع سلسلة تسمح بتحديد اسم الخط الذي تم تعيين بديل له. في حالة عدم تعيين أي استبدال لاسم الخط المحدد ، فإن طريقة FontConfigs.GetFontSubstitutes ستعيد فارغة.
+1. تقوم طريقة FontConfigs.GetFontSources بإرجاع مصفوفة من نوع FontSourceBase التي تحتوي على قائمة مصادر الخطوط المحددة. في حالة عدم تعيين مصادر، ستقوم طريقة FontConfigs.GetFontSources بإرجاع مصفوفة فارغة.
+1. تقبل طريقة FontConfigs.GetFontSubstitutes معاملا من نوع string الذي يسمح بتحديد اسم الخط الذي تم تعيين استبدال له. في حالة عدم تعيين استبدال لاسم الخط المحدد، ستقوم طريقة FontConfigs.GetFontSubstitutes بإرجاع قيمة null.
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول FontConfigs ، يرجى مراجعة المقال على[تكوين الخطوط لتقديم جداول البيانات](/cells/ar/net/configuring-fonts-for-rendering-spreadsheets/).
+لمزيد من التفاصيل حول FontConfigs، يرجى مراجعة المقالة حول [تكوين الخطوط لتقديم جداول بيانات الجداول](/cells/ar/net/configuring-fonts-for-rendering-spreadsheets/).
 
 {{% /alert %}} 
 ### **تمت إضافة واجهة IFilePathProvider وخاصية HtmlSaveOptions.FilePathProvider**
-Aspose.Cells for .NET 8.9.1 يسمح بالحصول على / تعيين IFilePathProvider لتصدير أوراق العمل لفصل ملفات HTML. تعد واجهات برمجة التطبيقات الجديدة هذه مفيدة في السيناريوهات حيث تشير الارتباطات التشعبية الموجودة في ورقة عمل واحدة إلى موقع في ورقة عمل أخرى ، حيث تكون متطلبات التطبيق هي عرض كل ورقة عمل لفصل ملف HTML. يسمح تنفيذ IFilePathProvider بالحفاظ على الارتباطات التشعبية المذكورة أعلاه سليمة بغض النظر عن حقيقة أنها تشير إلى موقع في ملف ناتج منفصل HTML.
+ يسمح Aspose.Cells for .NET 8.9.1 بالحصول/التعيين لـIFilePathProvider لتصدير أوراق عمل إلى ملفات HTML منفصلة. هذه واجهات برمجة التطبيقات الجديدة مفيدة في السيناريوهات حيث تشير الروابط الهيبرنق في صفحة عمل واحدة إلى موقع في صفحة عمل أخرى، حيث متطلبات التطبيق هي تقديم كل ورقة عمل إلى ملف HTML منفصل. تنفيذ IFilePathProvider يسمح بالاحتفاظ بالروابط الهيبرنق المذكورة سابقاً بغض النظر عن حقيقة أنها تشير إلى موقع في ملف HTML ناتج منفصل.
 
 فيما يلي سيناريو الاستخدام البسيط لخاصية HtmlSaveOptions.FilePathProvider.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- // تحميل جدول بيانات في مثيل مصنف
+ // Load a spreadsheet in an instance of Workbook
 
-var book = مصنف جديد (dir + "sample.xlsx") ؛
+var book = new Workbook(dir + "sample.xlsx");
 
-// احفظ كل ورقة عمل لفصل ملف HTML
+// Save each Worksheet to separate HTML file
 
- لـ (int i = 0 ؛ i< book.Worksheets.Count; i++)
+for (int i = 0; i < book.Worksheets.Count; i++)
 
 {
 
@@ -145,11 +146,11 @@ var book = مصنف جديد (dir + "sample.xlsx") ؛
 
 
 
-فيما يلي كيفية تنفيذ واجهة IFilePathProvider.
+إليك كيفية تنفيذ واجهة IFilePathProvider.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class FilePathProvider : IFilePathProvider
 
@@ -203,17 +204,17 @@ var book = مصنف جديد (dir + "sample.xlsx") ؛
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذا التحسين ، يرجى مراجعة المقالة الموجودة على[تنفيذ واجهة IFilePathProvider](/cells/ar/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
+لمزيد من التفاصيل حول هذا التحسين، يرجى مراجعة المقالة حول [تنفيذ واجهة IFilePathProvider](/cells/ar/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
 
 {{% /alert %}} 
-### **تمت إضافة خاصية CopyOptions.ReferToDestinationSheet & Overload لـ Cells.CopyRows Method**
-كشف Aspose.Cells for .NET API الخاصية CopyOptions من النوع المنطقي .ReferToDestinationSheet جنبًا إلى جنب مع التحميل الزائد للطريقة Cells.CopyRows لتسهيل عملية نسخ الصفوف عندما تحتوي الصفوف المراد نسخها أيضًا على مخطط ومصدر بياناته. يمكن للمطورين الاستفادة من واجهات برمجة التطبيقات الجديدة هذه لتوجيه مصدر بيانات المخطط إلى أوراق العمل المصدر أو الوجهة.
+### **تمت إضافة خاصية CopyOptions.ReferToDestinationSheet Property وOverload for Cells.CopyRows Method**
+ Aspose.Cells for .NET API قد قامت بتعريض خاصية نوع Boolean CopyOptions.ReferToDestinationSheet بالإضافة إلى إعادة تحميل Cells.CopyRows method من أجل تسهيل عملية نسخ الصفوف عندما تحتوي الصفوف المراد نسخها أيضاً على مخطط ومصدر بياناته. يمكن للمطورين الاستفادة من هذه واجهات برمجة التطبيقات الجديدة لتوجيه مصدر البيانات لمخطط إلى ورقة البيانات الأصلية أو الناتجة.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet in an instance of Workbook
 
@@ -245,17 +246,17 @@ book.Save(dir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة على[التحكم في مصدر بيانات المخطط أثناء نسخ الصفوف](/cells/ar/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
+لمزيد من التفاصيل حول هذه الميزة، يرجى مراجعة المقالة حول [السيطرة على مصدر البيانات لمخطط أثناء نسخ الصفوف](/cells/ar/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
 
 {{% /alert %}} 
-### **تمت إضافة CalculationOptions.Recursive Property**
-كشف Aspose.Cells for .NET 8.9.1 خيارات حساب النوع المنطقي. إعداد CalculationOptions.Recursive property إلى true وتمرير الكائن إلى Workbook.CalculateFormula يوجه Aspose.Cells APIs لحساب الخلايا التابعة بشكل متكرر عند حساب الخلايا التي تعتمد على الخلايا الأخرى.
+### **تمت إضافة خاصية CalculationOptions.Recursive.**
+Aspose.Cells for .NET 8.9.1 قد قامت بتعريض خاصية نوع Boolean CalculationOptions.Recursive. ضبط خاصية CalculationOptions.Recursive إلى true وتمرير الكائن إلى طريقة Workbook.CalculateFormula يوجه واجهات برمجة التطبيقات لـ Aspose.Cells لحساب الخلايا التابعة بشكل متكرر عند حساب الخلايا التي تعتمد على خلايا أخرى.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet in an instance of Workbook
 
@@ -275,13 +276,13 @@ book.CalculateFormula(options);
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة على[تحسين وقت الحساب](/cells/ar/net/decrease-the-calculation-time-of-cell-calculate-method/).
+لمزيد من التفاصيل حول هذه الميزة، يرجى مراجعة المقالة حول [تحسين وقت الحساب](/cells/ar/net/decrease-the-calculation-time-of-cell-calculate-method/).
 
 {{% /alert %}}
-## **واجهات برمجة التطبيقات التي عفا عليها الزمن**
-### **خاصية CellsHelper.FontDir التي عفا عليها الزمن**
-يُنصح باستخدام طريقة FontConfigs.SetFontFolder (سلسلة ، منطقية) مع المجلد العودي إلى false بدلاً من ذلك.
-### **خاصية CellsHelper.FontDirs التي عفا عليها الزمن**
-استخدم أسلوب FontConfigs.SetFontFolders (سلسلة [] ، منطقي) مع مجلد متكرر إلى خطأ بدلاً من ذلك.
-### **خاصية CellsHelper.FontFiles التي عفا عليها الزمن**
-استخدم طريقة FontConfigs.SetFontSources (FontSourceBase []) بدلاً من ذلك.
+## **واجهات برمجة التطبيق القديمة**
+### **خاصية CellsHelper.FontDir المهجورة**
+يُنصح باستخدام الطريقة FontConfigs.SetFontFolder(string, bool) مع تكرار المجلد غير صحيح بدلاً من ذلك.
+### **خاصية CellsHelper.FontDirs المهجورة**
+استخدام الطريقة FontConfigs.SetFontFolders(string[], bool) مع تكرار المجلد غير صحيح بدلاً من ذلك.
+### **الواجهات المهجورة خاصية CellsHelper.FontFiles**
+استخدام الطريقة FontConfigs.SetFontSources(FontSourceBase[]) بدلاً من ذلك.

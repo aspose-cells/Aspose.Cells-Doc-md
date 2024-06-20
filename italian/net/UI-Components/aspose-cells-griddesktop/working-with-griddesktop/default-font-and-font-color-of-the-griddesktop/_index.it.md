@@ -1,22 +1,25 @@
-﻿---
-title: Carattere predefinito e colore del carattere del GridDesktop
+---
+title: Il carattere predefinito e il colore del carattere della GridDesktop
 type: docs
 weight: 70
-url: /it/net/default-font-and-font-color-of-the-griddesktop/
+url: /it/net/aspose-cells-griddesktop/default-font-and-font-color-of-the-griddesktop/
+keywords: GridDesktop, carattere, colore
+description: Questo articolo introduce il carattere predefinito e il colore del carattere nella GridDesktop.
 ---
-## **Possibili scenari di utilizzo**
-A volte, vuoi cambiare il carattere predefinito e il colore del carattere di GridDesktop. Si prega di utilizzare le seguenti due proprietà per questo scopo. È possibile accedere a queste proprietà in fase di progettazione o in fase di runtime a seconda delle esigenze.
+
+## **Possibili Scenari di Utilizzo**
+A volte, si desidera modificare il carattere predefinito e il colore del carattere della GridDesktop. Si prega di utilizzare le seguenti due proprietà a tale scopo. È possibile accedere a queste proprietà durante il Design Time o durante l'esecuzione a seconda delle esigenze.
 
 - GridDesktop.DefaultCellFont
 - GridDesktop.DefaultCellFontColor
-## **Cambia il carattere predefinito e il colore del carattere in fase di progettazione**
-Lo screenshot seguente mostra come modificare il carattere predefinito e il colore del carattere di GridDesktop in fase di progettazione.
+## **Cambia il font predefinito e il colore del font in fase di progettazione**
+La seguente schermata mostra come cambiare il font predefinito e il colore del font di GridDesktop in fase di progettazione.
 
-![cose da fare:immagine_alt_testo](default-font-and-font-color-of-the-griddesktop_1.png)
-## **Cambia il carattere predefinito e il colore del carattere in fase di esecuzione**
-Il codice di esempio seguente spiega come modificare il carattere predefinito e il colore del carattere di GridDesktop in fase di esecuzione.
+![todo:image_alt_text](default-font-and-font-color-of-the-griddesktop_1.png)
+## **Cambia il font predefinito e il colore del font in esecuzione**
+Il seguente codice di esempio spiega come cambiare il font predefinito e il colore del font di GridDesktop in esecuzione.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Assign your desired Font object to DefaultCellFont property
 

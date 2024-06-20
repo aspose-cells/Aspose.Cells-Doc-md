@@ -1,18 +1,19 @@
-﻿---
-title: Calculer ou Recalculer dynamiquement des formules
+---
+title: Calculer ou recalculer les formules dynamiquement
 type: docs
 weight: 10
 url: /fr/net/calculate-or-recalculate-formulas-dynamically/
 ---
-**Calcul de la formule** moteur est intégré dans**Aspose.Cells**. Il peut non seulement recalculer la formule importée du fichier de concepteur, mais prend également en charge le calcul des résultats des formules ajoutées lors de l'exécution.
-## **Ajout de formules et calcul des résultats**
-Aspose.Cells prend en charge la plupart des formules ou fonctions qui font partie de Microsoft Excel. Les développeurs peuvent utiliser ces formules à l'aide de API ou de feuilles de calcul Designer. Aspose.Excel prend en charge un vaste ensemble de formules mathématiques, de chaîne, booléennes, de date/heure, statistiques, de base de données, de recherche et de référence.
 
-Utilisez la propriété Formula de la classe Cell pour ajouter une formule à une cellule. Lorsque vous appliquez une formule à une cellule, commencez toujours la chaîne par un signe égal (=) comme vous le faites lors de la création d'une formule dans Microsoft Excel. Utilisez une virgule (,) pour délimiter les paramètres de la fonction.
+Le moteur de **calcul de formule** est intégré dans **Aspose.Cells**. Il peut non seulement recalculer la formule importée à partir du fichier de conception mais prend également en charge le calcul des résultats des formules ajoutées à l'exécution.
+## **Ajout de formules et calcul de résultats**
+Aspose.Cells prend en charge la plupart des formules ou fonctions qui font partie de Microsoft Excel. Les développeurs peuvent utiliser ces formules à l'aide de l'API ou des feuilles de calcul du concepteur. Aspose.Excel prend en charge un vaste ensemble de formules mathématiques, de chaînes, logiques, de date/heure, statistiques, de base de données, de recherche et de référence.
 
- Pour calculer les résultats des formules, appelez la méthode CalculateFormula de la classe Excel qui traite toutes les formules intégrées dans un fichier Excel. Lis le[url : liste des fonctions prises en charge par la méthode CalculateFormula](/cells/fr/net/supported-formula-functions/).
+Utilisez la propriété de formule de la classe Cell pour ajouter une formule à une cellule. Lors de l'application d'une formule à une cellule, commencez toujours la chaîne par un signe égal (=) comme vous le faites lors de la création d'une formule dans Microsoft Excel. Utilisez une virgule (,) pour délimiter les paramètres de la fonction.
 
-{{< highlight "csharp" >}}
+Pour calculer les résultats des formules, appelez la méthode CalculateFormula de la classe Excel qui traite toutes les formules intégrées dans un fichier Excel. Lisez la [url: liste des fonctions prises en charge par la méthode CalculateFormula](/cells/fr/net/supported-formula-functions/).
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -55,15 +56,15 @@ string value = worksheet.Cells["A4"].Value.ToString();
 workbook.Save("Adding Formula.xls");
 
 {{< /highlight >}}
-## **Calculer des formules une seule fois**
-Lorsque l'utilisateur appelle Workbook.CalculateFormula() pour calculer les valeurs des formules à l'intérieur du modèle de classeur, Aspose.Cells crée une chaîne de calcul. Il augmente les performances lorsque les formules sont calculées pour la deuxième ou la troisième fois, etc.
-Cependant, si le modèle utilisateur contient de nombreuses formules diverses, le premier calcul de la formule peut consommer beaucoup de temps de traitement et de mémoire.
+## **Calcul des formules une seule fois**
+Lorsque l'utilisateur appelle Workbook.CalculateFormula() pour calculer les valeurs des formules à l'intérieur du modèle de classeur, Aspose.Cells crée une chaîne de calcul. Cela améliore les performances lorsque les formules sont calculées pour la deuxième ou troisième fois, etc.
+Cependant, si le modèle utilisateur contient de nombreuses formules diverses, la première fois du calcul de la formule peut consommer beaucoup de temps de traitement CPU et de mémoire.
 
 Aspose.Cells vous permet de désactiver la création d'une chaîne de calcul, ce qui est utile dans les scénarios où vous souhaitez calculer les formules de votre fichier une seule fois.
 
- Si vous cherchez à améliorer les performances des calculs de formule par Aspose.Cells et que vous ne souhaitez pas créer de chaîne de calcul de formule, veuillez définir**FormulaSettings.EnableCalculationChain** comme**faux** . Par défaut, il est défini comme**vrai**.
+Si vous cherchez à améliorer les performances des calculs de formules par Aspose.Cells et que vous ne voulez pas créer de chaîne de calcul de formule, veuillez définir **FormulaSettings.EnableCalculationChain** sur **false**. Par défaut, il est défini sur **true**.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -92,13 +93,13 @@ Console.WriteLine(DateTime.Now);
 workbook.Save(FileName);
 
 {{< /highlight >}}
-## **Calcul direct de la formule**
-Le moteur de calcul de formule est intégré dans Aspose.Cells. En outre, en recalculant la formule importée du fichier de concepteur, Aspose.Cells prend également en charge le calcul direct des résultats des formules.
-Parfois, vous devez calculer directement les résultats des formules sans les ajouter réellement dans une feuille de calcul. Les valeurs des cellules utilisées dans la formule existent déjà dans une feuille de calcul et tout ce dont vous avez besoin est de trouver le résultat de ces valeurs en fonction d'une formule Ms-Excel sans ajouter la formule dans une feuille de calcul.
+## **Calcul direct de formule**
+Le moteur de calcul de formule est intégré dans Aspose.Cells. En outre, en recalculant la formule importée à partir du fichier de conception, Aspose.Cells prend également en charge le calcul des résultats des formules directement.
+Parfois, vous devez calculer directement les résultats des formules sans les ajouter réellement dans une feuille de calcul. Les valeurs des cellules utilisées dans la formule existent déjà dans une feuille de calcul et tout ce dont vous avez besoin est de trouver le résultat de ces valeurs en fonction de certaines formules Ms-Excel sans ajouter la formule dans une feuille de calcul.
 
- Vous pouvez utiliser Aspose.Cells Formula Calculation Engine API ie**feuille de calcul. Calculer (formule de chaîne)**pour calculer les résultats de ces formules sans les ajouter réellement dans la feuille de calcul.
+Vous pouvez utiliser l'API de moteur de calcul de formules d'Aspose.Cells, c'est-à-dire **worksheet.Calculate(string formula)** pour calculer les résultats de telles formules sans les ajouter réellement dans la feuille de calcul.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook
 
@@ -139,6 +140,6 @@ Debug.WriteLine("Result of Sum(A1:A2): " + results.ToString());
 workbook.Save("Calulate Any Formulae.xls");
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **Télécharger le code source d'exemple**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip)

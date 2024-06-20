@@ -1,26 +1,29 @@
-﻿---
-title: Modification de la police et de la couleur d'une ligne ou d'une colonne
+---
+title: Changement de la police et de la couleur d une ligne ou colonne
 type: docs
 weight: 110
-url: /fr/net/changing-the-font-and-color-of-a-row-or-column/
+url: /fr/net/aspose-cells-griddesktop/change-the-font-and-color-of-a-row-or-column/
+keywords: GridDesktop, police, couleur
+description: Cet article explique comment changer la police et la couleur dans une ligne ou une colonne dans GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Dans cette rubrique, nous discuterons de la modification de la police et de la couleur de police des lignes et des colonnes d'une feuille de calcul. Il s'agit d'une fonction de formatage de base offerte par Aspose.Cells.GridDesktop qui permet aux développeurs de personnaliser l'affichage de leurs feuilles de calcul pour les rendre plus présentables.
+Dans ce sujet, nous discuterons du changement de la police et de la couleur de la police des lignes et des colonnes d'une feuille de calcul. Il s'agit d'un niveau de formatage de base offert par Aspose.Cells.GridDesktop qui permet aux développeurs de personnaliser la vue de leurs feuilles de calcul pour les rendre plus présentables.
 
 {{% /alert %}} 
-## **Changer la police et la couleur d'une colonne**
-Pour modifier la police et la couleur d'une colonne à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
+## **Changement de la police et de la couleur d'une colonne**
+Pour changer la police et la couleur d'une colonne à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
 
--  Accédez à tout**Feuille de travail**
--  Accéder à un**Colonne** dont la police et la couleur doivent être modifiées
--  Créer un personnalisé**Police de caractère**
--  Met le**Police de caractère** du**Colonne** au personnalisé
--  Enfin, réglez**Couleur de la police** du**Colonne** à tout désiré**Couleur**
+- Accédez à n'importe quelle **Worksheet** souhaitée
+- Accéder à une **Colonne** dont la police et la couleur doivent être changées
+- Créer une **police personnalisée**
+- Définir la **Police** de la **Colonne** sur celle personnalisée
+- Enfin, définir la **Couleur de la police** de la **Colonne** sur n'importe quelle **Couleur** souhaitée
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 
@@ -43,16 +46,16 @@ column.SetFont(font);
 column.SetFontColor(Color.Blue);
 
 {{< /highlight >}}
-## **Changer la police et la couleur d'une ligne**
--  Accédez à tout**Feuille de travail**
--  Accéder à un**Ligne** dont la police et la couleur doivent être modifiées
--  Créer un personnalisé**Police de caractère**
--  Met le**Police de caractère** du**Ligne** au personnalisé
--  Enfin, réglez**Couleur de la police** du**Ligne** à tout désiré**Couleur**
+## **Changement de la police et de la couleur d'une ligne**
+- Accédez à n'importe quelle **Worksheet** souhaitée
+- Accéder à une **ligne** dont la police et la couleur doivent être modifiées
+- Créer une **police personnalisée**
+- Définir la **police** de la **ligne** sur celle personnalisée
+- Enfin, définir la **couleur de la police** de la **ligne** sur n'importe quelle **couleur** souhaitée
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 

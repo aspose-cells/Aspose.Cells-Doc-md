@@ -1,30 +1,31 @@
 ---
-title: Birleştirilmiş Satırları Otomatik Sığdır Cells
+title: Bir çalışma kitabı nesnesi oluşturur ve birden fazla çalışma sayfası ekler. Her çalışma sayfasında farklı yöntemler kullanarak otomatik uyarlama işlemlerini gerçekleştirir. Ekran görüntüsü, örnek kodun çalıştırılmasından sonra elde edilen sonuçları gösterir.
 type: docs
 weight: 120
 url: /tr/net/autofit-rows-for-merged-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel, bir hücrenin yüksekliğini içeriğine göre otomatik olarak boyutlandırmanıza olanak tanıyan bir özellik sağlar. Bu özelliğe satırları otomatik sığdır adı verilir. Microsoft Excel, birleştirilmiş hücrelerde otomatik sığdırma işlemini yerel olarak ayarlamaz. Bazen bu özellik, satırları birleştirilmiş hücrelere de otomatik sığdırması gereken bir kullanıcı için hayati önem taşıyor.
+Microsoft Excel, bir hücrenin içeriğine göre otomatik olarak hücre yüksekliğini ayarlamak için bir özellik sağlar. Bu özellik otomatik satırı uyarlama adını taşır. Microsoft Excel, birleştirilmiş hücrelerde otomatik sığdırma işlemini varsayılan olarak ayarlamaz. Bazen özellik, birleştirilmiş hücreler üzerinde otomatik satır uyarlama işlemi gerçekten uygulamak isteyen bir kullanıcı için önemli hale gelir.
 
 {{% /alert %}}
 
-##  **Satırları otomatik sığdırmak için AutoFitMergedCellsType nasıl kullanılır?**
- Aspose.Cells bu özelliği şu şekilde destekler:[**AutoFitterOptions.AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype/)API. Bu API'i kullanarak, birleştirilmiş hücreler de dahil olmak üzere bir çalışma sayfasındaki satırları otomatik olarak sığdırmak mümkündür. Otomatik sığdırılan birleştirilmiş hücrelerin tüm olası türlerinin bir listesi:
+## **Birleştirilmiş Hücreler için Satırları Otomatik Olarak Ayarlama Yöntemi**
+Aspose.Cells, [**AutoFitterOptions.AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype/) API'si aracılığıyla bu özelliği destekler. Bu API'yi kullanarak, birleştirilmiş hücreler de dahil olmak üzere bir çalışma sayfasındaki satırları otomatik olarak uyarlama mümkün olmaktadır. İşte birleştirilmiş hücreleri otomatik olarak uyarlamanın tüm olası türlerinin bir listesi:
 
 - Hiçbiri
-- İlk satır
+- İlk Satır
 - Son Satır
-- Her çizgi
+- HerSatir
 
-##  **Birleştirilmiş Satırları Otomatik Sığdır Cells**
+## **Birleştirilmiş Hücreler için Satırları Otomatik Olarak Ayarlama**
 
-Lütfen aşağıdaki koda bakın, bir çalışma kitabı nesnesi oluşturur ve birden fazla çalışma sayfası ekler. Her çalışma sayfasında otomatik sığdırma işlemleri için farklı yöntemler kullanın. Ekran görüntüsü, örnek kodun yürütülmesinden sonraki sonuçları gösterir.
+Lütfen aşağıdaki kodu görün, bir çalışma kitabı nesnesi oluşturur ve birden fazla çalışma sayfası ekler. Her çalışma sayfasında otomatik uyarlama işlemleri için farklı yöntemler kullanır. Ekran görüntüsü, örnek kodun yürütülmesinden sonra sonuçları göstermektedir.
 
 <br>
 <img src="result.png" width=80% />
 
-##  **C# Örnek Kod**
+## **C# Örnek Kodu**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AutoFitRowsMergedCells-1.cs" >}}

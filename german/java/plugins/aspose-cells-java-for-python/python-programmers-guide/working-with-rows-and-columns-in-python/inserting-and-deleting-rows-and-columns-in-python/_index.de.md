@@ -1,23 +1,24 @@
-﻿---
+---
 title: Einfügen und Löschen von Zeilen und Spalten in Python
 type: docs
 weight: 60
 url: /de/java/inserting-and-deleting-rows-and-columns-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel pytho
-description: Verwenden Sie Python Excel API, um Excel-Tabellen in Python zu erstellen. Fügen Sie Zeilen aus XLSX oder XLS in Ihre Python-Anwendungen ohne MS Office ein oder löschen Sie sie.
+keywords: "Erstellen Sie XLSX in Python, erstellen Sie XLS in Python, XLS Python, XLSX Python, XLT Python, XLTX Python, Zeile einfügen Python, Spalte einfügen Python, Excel Python"
+description: Verwenden Sie Python Excel API, um Excel Tabellen in Python zu erstellen. Fügen Sie in Ihren Python Anwendungen Zeilen von XLSX oder XLS ein oder löschen Sie diese, ohne MS Office.
 ---
-## **Erstellen Sie Excel-Tabellen in Python – Verwalten von Zeilen/Spalten**
-### **Einfügen einer Zeile**
-Fügen Sie an einer beliebigen Stelle eine Zeile ein, indem Sie die Methode insertRows der Sammlung Cells aufrufen. Die insertRows-Methode verwendet den Index der Zeile, in die die neue Zeile eingefügt wird, als erstes Argument und die Anzahl der einzufügenden Zeilen als zweites Argument. Im Folgenden sind die Schritte:
 
-- Arbeitsmappe XLS oder XLSX laden
-- Greifen Sie auf das Arbeitsblatt zu
-- Zeile einfügen
-- Als Arbeitsmappe XLS oder XLSX speichern
+## **Erstellen von Excel-Tabellen in Python - Verwalten von Zeilen/Spalten**
+### **Einlegen einer Zeile**
+Fügen Sie eine Zeile an einer beliebigen Stelle ein, indem Sie die Methode insertRows der Cells-Sammlung aufrufen. Die Methode insertRows nimmt den Index der Zeile, an der die neue Zeile eingefügt wird, als ersten Argument und die Anzahl der einzufügenden Zeilen als zweites Argument. Folgende Schritte sind zu befolgen:
 
-**Python Code**
+- XLS- oder XLSX-Arbeitsmappe laden
+- Arbeitsblatt aufrufen
+- Die Zeile einfügen
+- Als XLS- oder XLSX-Arbeitsmappe speichern
 
-{{< highlight "python" >}}
+**Python-Code**
+
+{{< highlight python >}}
 
  def insert_row(self):
 
@@ -40,15 +41,15 @@ workbook.save(self.dataDir + "Insert Row.xls")
 print "Insert Row Successfully." 
 
 {{< /highlight >}}
-### **Mehrere Zeilen einfügen**
-Um mehrere Zeilen in das Arbeitsblatt einzufügen, rufen Sie die Methode insertRows der Sammlung Cells auf. Die Methode InsertRows akzeptiert zwei Parameter:
+### **Einfügen mehrerer Zeilen**
+Um mehrere Zeilen in das Arbeitsblatt einzufügen, rufen Sie die Methode insertRows der Cells-Sammlung auf. Die Methode insertRows nimmt zwei Parameter:
 
 - Zeilenindex, der Index der Zeile, ab der die neuen Zeilen eingefügt werden.
-- Anzahl der Zeilen, Gesamtzahl der Zeilen, die eingefügt werden müssen.
+- Anzahl der Zeilen, Gesamtanzahl der Zeilen, die eingefügt werden müssen.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_multiple_rows(self):
 
@@ -73,14 +74,14 @@ print "Insert Multiple Rows Successfully."
 
 {{< /highlight >}}
 ### **Löschen einer Zeile**
-Um eine Zeile an einer beliebigen Stelle zu löschen, rufen Sie die Methode deleteRows der Sammlung Cells auf. Die Methode DeleteRows akzeptiert zwei Parameter:
+Um eine Zeile an einer beliebigen Stelle zu löschen, rufen Sie die Methode deleteRows der Cells Sammlung auf. Die deleteRows Methode nimmt zwei Parameter:
 
-- Zeilenindex, der Index der Zeile, aus der die Zeilen gelöscht werden.
-- Anzahl der Zeilen, Gesamtzahl der Zeilen, die gelöscht werden müssen.
+- Zeilenindex, der Index der Zeile, ab der die Zeilen gelöscht werden.
+- Anzahl der Zeilen, Gesamtanzahl der Zeilen, die gelöscht werden müssen.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_row(self):
 
@@ -103,15 +104,15 @@ workbook.save(self.dataDir + "Delete Row.xls")
 print "Delete Row Successfully." 
 
 {{< /highlight >}}
-### **Löschen mehrerer Zeilen**
-Um mehrere Zeilen aus einem Arbeitsblatt zu löschen, rufen Sie die Methode deleteRows der Sammlung Cells auf. Die Methode DeleteRows akzeptiert zwei Parameter:
+### **Mehrere Zeilen löschen**
+Um mehrere Zeilen aus einem Arbeitsblatt zu löschen, rufen Sie die Methode deleteRows der Cells Sammlung auf. Die deleteRows Methode nimmt zwei Parameter:
 
-- Zeilenindex, der Index der Zeile, aus der die Zeilen gelöscht werden.
-- Anzahl der Zeilen, Gesamtzahl der Zeilen, die gelöscht werden müssen.
+- Zeilenindex, der Index der Zeile, ab der die Zeilen gelöscht werden.
+- Anzahl der Zeilen, Gesamtanzahl der Zeilen, die gelöscht werden müssen.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_multiple_rows(self):
 
@@ -136,14 +137,14 @@ print "Delete Multiple Rows Successfully."
 
 {{< /highlight >}}
 ### **Einfügen einer Spalte**
-Entwickler können auch an beliebiger Stelle eine Spalte in das Arbeitsblatt einfügen, indem sie die Methode insertColumns der Sammlung Cells aufrufen. Die insertColumns-Methode benötigt zwei Parameter:
+Entwickler können auch eine Spalte in das Arbeitsblatt an einer beliebigen Stelle einfügen, indem sie die insertColumns Methode der Cells Sammlung aufrufen. Die insertColumns Methode nimmt zwei Parameter:
 
-- Spaltenindex, der Index der Spalte, aus der die Spalte eingefügt wird
-- Anzahl der Spalten, Gesamtzahl der Spalten, die eingefügt werden müssen
+- Spaltenindex, der Index der Spalte, von der die Spalte eingefügt werden soll.
+- Anzahl der Spalten, Gesamtanzahl der Spalten, die eingefügt werden müssen.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_column(self):
 
@@ -168,15 +169,15 @@ print "Insert Column Successfully."
 
 {{< /highlight >}}
 ### **Löschen einer Spalte**
-Um eine Spalte an einer beliebigen Stelle aus dem Arbeitsblatt zu löschen, rufen Sie die Methode deleteColumns der Sammlung Cells auf. Die Methode deleteColumns akzeptiert die folgenden Parameter:
+Um eine Spalte aus dem Arbeitsblatt an einer beliebigen Stelle zu löschen, rufen Sie die Methode deleteColumns der Cells Sammlung auf. Die deleteColumns Methode nimmt die folgenden Parameter:
 
-- Spaltenindex, der Index der Spalte, aus der die Spalte gelöscht wird.
-- Anzahl der Spalten, Gesamtzahl der Spalten, die gelöscht werden müssen.
-- Zellen verschieben, boolescher Parameter, der angibt, ob die Zellen nach dem Löschen nach links verschoben werden sollen.
+- Spaltenindex, der Index der Spalte, von der die Spalte gelöscht werden soll.
+- Anzahl der Spalten, Gesamtanzahl der Spalten, die gelöscht werden müssen.
+- Zellen verschieben, Boolescher Parameter, um anzuzeigen, ob die Zellen nach dem Löschen nach links verschoben werden sollen.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_column(self):
 
@@ -200,7 +201,7 @@ print "Delete Column Successfully."
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Zeilen/Spalten verwalten (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+**Zeilen/Spalten verwalten (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

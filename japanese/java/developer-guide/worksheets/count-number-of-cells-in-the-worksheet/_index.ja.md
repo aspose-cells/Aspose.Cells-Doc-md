@@ -1,12 +1,13 @@
-﻿---
-title: ワークシート内のセルの数を数える
+---
+title: ワークシート内のセル数を数える
 type: docs
 weight: 120
 url: /ja/java/count-number-of-cells-in-the-worksheet/
 ---
-## **ワークシート内のセルの数を数える**
 
-を呼び出して、ワークシート内のセルの数を数えることができます。[**Cells.getCount**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count)（） また[**Cells.getCountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge)() 以下のコード例に示すプロパティ ゲッター。
+## **ワークシート内のセル数を数える**
+
+ワークシート内のセルの数をカウントするには、以下のコード例に示されているように、[**Cells.getCount**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count)()または[**Cells.getCountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge)()プロパティゲッターを呼び出すことができます。
 
 ## サンプルコード
 

@@ -1,17 +1,18 @@
-﻿---
-title: رأس وتذييلات
+---
+title: ترويسات وتذييلات
 type: docs
 weight: 60
 url: /ar/java/header-and-footers/
 ---
-## **Aspose.Cells - الراس والتذييلات**
-توفر فئة PageSetup طريقة setHeader لإضافة رأس و setFooter لإضافة تذييل إلى ورقة العمل. يستخدم البرنامج النصي كوسيطة لجميع الأساليب المذكورة أعلاه. يمثل البرنامج النصي الذي سيتم استخدامه للرأس أو التذييل.
 
-**رأس**
+## **Aspose.Cells - ترويسات وتذييلات**
+تقدم فئة PageSetup طريقة setHeader لإضافة ترويسة و setFooter لإضافة تذييل إلى ورقة عمل. يُستخدم البرنامج النصي كوسيط لجميع الطرق المذكورة أعلاه. يمثل النص البرنامج النصي الذي يجب استخدامه للترويسة أو التذييل.
+
+**الترويسة**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the PageSetup of the worksheet
 
@@ -33,11 +34,11 @@ pageSetup.setHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
 {{< /highlight >}}
 
-**تذييل**
+**التذييل**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Setting a string at the left footer and changing the font of the footer
 
@@ -49,7 +50,7 @@ pageSetup.setFooter(1, "&G");
 
 FileInputStream fis = new FileInputStream("data/footer.png");
 
-byte[]picData = new byte[fis.available()];
+byte[] picData = new byte[fis.available()];
 
 fis.read(picData);
 
@@ -62,12 +63,12 @@ fis.close();
 pageSetup.setFooter(2, "&Pof&N");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - الرأس والتذييلات**
-تتوفر فئة الرأس لضبط الرأس في جداول البيانات.
+## **Apache POI SS - HSSF XSSF - ترويسات وتذييلات**
+تتوفر فئة Header لتعديل الترويسة في جداول البيانات.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Header header = sheet.getHeader();
 
@@ -80,13 +81,13 @@ header.setRight(HSSFHeader.font("Stencil-Normal", "Italic") +
                 HSSFHeader.fontSize((short) 16) + "Right w/ Stencil-Normal Italic font and size 16");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / خلية / أمثلة / featurescomparison / أوراق عمل / headerandfooter)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/headerandfooter)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[تعيين الرؤوس والتذييلات](/java/setting-headers-and-footers).
+لمزيد من التفاصيل، قم بزيارة [إعداد عناوين وتذييلات](/java/setting-headers-and-footers).
 
 {{% /alert %}}

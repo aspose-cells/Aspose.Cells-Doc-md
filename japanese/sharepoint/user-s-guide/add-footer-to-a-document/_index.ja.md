@@ -1,21 +1,22 @@
-﻿---
-title: ドキュメントにフッターを追加する
+---
+title: 文書にフッターを追加する
 type: docs
 weight: 70
 url: /ja/sharepoint/add-footer-to-a-document/
 ---
-Excel ファイルにフッターを追加する場合は、ドキュメントの編集コントロール ブロック (ECB) で [Aspose.Cells でフッターを追加] オプションを選択してください。
 
-![todo:画像_代替_文章](add-footer-to-a-document_1.png)
+Excelファイルにフッターを追加する場合は、ドキュメントの編集コントロールブロック（ECB）で「Aspose.Cellsでフッターを追加」オプションを選択してください。
 
-次のオプションは、フッターの追加のセットアップ中に使用できます。
+![todo:image_alt_text](add-footer-to-a-document_1.png)
 
-![todo:画像_代替_文章](add-footer-to-a-document_2.png)
+フッター追加の設定中には次のオプションが利用可能です:
+
+![todo:image_alt_text](add-footer-to-a-document_2.png)
 
 **セクション**
 
-フッターの位置を追加: 左セクション、中央セクション、右セクション。
+フッター位置を追加: 左セクション、中央セクション、右セクション。
 
 **フッタースクリプト**
 
-フッターの書式設定スクリプトを表します。スクリプト コマンド: コマンド |説明| &P 現在のページ番号| &N ページ数|&D 現在の日付| &T 現在の時刻 &A シート名 &F パスなしのファイル名 &"<FontName>" フォント名、例: &"Arial" &"<FontName>, <FontStyle>" フォント名とフォント スタイル。例: &"Arial,Bold" &<FontSize>フォントサイズ。このコマンドの後にヘッダーに表示されるプレーンな数値が続く場合、フォントの高さとはスペース文字で区切られます。 &G イメージ スクリプト 例: "&Arial,Bold&8Footer Note"。
+It represents Footer formatting script. Script commands: Command | Description| &P Current page number| &N Page count|&D Current date| &T Current time &A Sheet name &F File name without path &"<FontName>" Font name, for example: &"Arial" &"<FontName>, <FontStyle>" Font name and font style, for example: &"Arial,Bold" &<FontSize> Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. &G Image script For example: "&Arial,Bold&8Footer Note".

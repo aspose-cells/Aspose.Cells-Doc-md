@@ -1,77 +1,78 @@
-﻿---
-title: Agregar nuevas hojas de trabajo al libro de trabajo y activar una hoja
+---
+title: Agregando nuevas hojas de cálculo a un libro y activando una hoja
 type: docs
 weight: 10
 url: /es/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Cuando se trabaja con un archivo de plantilla, a veces es necesario agregar hojas de trabajo adicionales al libro de trabajo para recopilar datos. Las nuevas celdas se llenarán con datos en posiciones y ubicaciones específicas en cada hoja de trabajo.
+Cuando se trabaja con un archivo de plantilla, a veces es necesario agregar hojas de cálculo adicionales al libro para recopilar datos. Las nuevas celdas se llenarán con datos en posiciones y ubicaciones especificadas en cada hoja de cálculo.
 
-Del mismo modo, es posible que necesite que una hoja de trabajo específica esté activa y se vea primero cuando se abre el archivo en Microsoft Excel. Una "hoja activa" es la hoja en la que está trabajando en un libro de trabajo. El nombre en la pestaña de la hoja activa está en negrita por defecto.
+Del mismo modo, es posible que necesites una hoja de cálculo específica para estar activa y ser la primera en visualizarse cuando se abra el archivo en Microsoft Excel. Una "hoja activa" es la hoja en la que estás trabajando en un libro de trabajo. El nombre en la pestaña de la hoja activa es negrita por defecto.
 
- Agregar hojas de trabajo y establecer qué hoja está activa son tareas comunes y simples que los desarrolladores deben saber cómo realizar. En este artículo, llevamos a cabo estas tareas utilizando[VSTO](/cells/es/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) y[Aspose.Cells for .NET](/cells/es/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
+Agregar hojas de cálculo y establecer cuál es la hoja activa son tareas comunes y simples que los desarrolladores necesitan saber cómo realizar. En este artículo, llevamos a cabo estas tareas usando [VSTO](/cells/es/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) y [Aspose.Cells for .NET](/cells/es/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
 
 {{% /alert %}} 
-## **Adición de hojas de cálculo y activación de una hoja**
-A los efectos de este consejo de migración:
+## **Agregar Hojas de Cálculo y Activar una Hoja**
+Para los propósitos de este consejo de migración:
 
-1. Agregue nuevas hojas de trabajo a un archivo de Excel Microsoft existente.
-1. Complete los datos en las celdas de cada nueva hoja de trabajo.
+1. Agregar nuevas hojas de cálculo a un archivo existente de Microsoft Excel.
+1. Llenar los datos en las celdas de cada nueva hoja de cálculo.
 1. Activar una hoja en el libro de trabajo.
-1. Guardar como archivo de Excel Microsoft.
+1. Guardar como archivo de Microsoft Excel.
 
-continuación, se encuentran fragmentos de código paralelo para VSTO (C#, VB) y Aspose.Cells for .NET (C#, VB), que muestran cómo lograr estas tareas.
+A continuación, se muestran fragmentos de código paralelos para VSTO (C#, VB) y Aspose.Cells for .NET (C#, VB), que muestran cómo lograr estas tareas.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-usando Microsoft.VisualStudio.Tools.Applications.Runtime;
+using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
-usando Excel = Microsoft.Office.Interop.Excel;
+using Excel = Microsoft.Office.Interop.Excel;
 
-usando Office = Microsoft.Office.Core;
+using Office = Microsoft.Office.Core;
 
-usando System.Reflection;
+using System.Reflection;
 
 .......
 
-//Crea una instancia del objeto Aplicación.
+//Instantiate the Application object.
 
-Excel.Aplicación excelApp = new Excel.ApplicationClass();
+Excel.Application excelApp = new Excel.ApplicationClass();
 
-//Especifique la ruta del archivo de Excel de la plantilla.
+//Specify the template excel file path.
 
 string myPath = @"d:\test\My_Book1.xls";
 
-//Abrir el archivo de Excel.
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Valor perdido, Valor perdido,
+Missing.Value, Missing.Value,
 
-Valor perdido, Valor perdido,
+Missing.Value, Missing.Value,
 
-Valor perdido, Valor perdido,
+Missing.Value, Missing.Value,
 
-Valor perdido, Valor perdido,
+Missing.Value, Missing.Value,
 
-Valor perdido, Valor perdido,
+Missing.Value, Missing.Value,
 
-Valor perdido, Valor perdido);
+Missing.Value, Missing.Value);
 
-//Declarar un objeto de hoja de trabajo.
+//Declare a Worksheet object.
 
-Excel.Hoja de trabajo nuevaHoja de trabajo;
+Excel.Worksheet newWorksheet;
 
-//Agregue 5 nuevas hojas de trabajo al libro de trabajo y complete algunos datos
+//Add 5 new worksheets to the workbook and fill some data
 
-//a las celdas.
+//into the cells.
 
- para (int i = 1; i< 6; i++)
+for (int i = 1; i < 6; i++)
 
 {
 
@@ -111,7 +112,7 @@ excelApp.Quit();
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -185,41 +186,41 @@ excelApp.Quit()
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-usando Aspose.Cells;
+using Aspose.Cells;
 
 .......
 
-//Crear una instancia de licencia y configurar el archivo de licencia
+//Instantiate an instance of license and set the license file
 
-//a traves de su camino
+//through its path
 
-Aspose.Cells.Licencia licencia = nuevo Aspose.Cells.Licencia();
+Aspose.Cells.License license = new Aspose.Cells.License();
 
-licencia.SetLicense("Aspose.Cells.lic");
+license.SetLicense("Aspose.Cells.lic");
 
-//Especifique la ruta del archivo de Excel de la plantilla.
+//Specify the template excel file path.
 
 string myPath =@"d:\test\My_Book1.xls";
 
-//Crear una instancia de un nuevo libro de trabajo.
+//Instantiate a new Workbook.
 
-//Abrir el archivo de Excel.
+//Open the excel file.
 
-Libro de trabajo libro de trabajo = nuevo libro de trabajo (myPath);
+Workbook workbook = new Workbook(myPath);
 
-//Declarar un objeto de hoja de trabajo.
+//Declare a Worksheet object.
 
-Hoja de trabajo nuevaHoja de trabajo;
+Worksheet newWorksheet;
 
-//Agregue 5 nuevas hojas de trabajo al libro de trabajo y complete algunos datos
+//Add 5 new worksheets to the workbook and fill some data
 
-//a las celdas.
+//into the cells.
 
- para (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -255,7 +256,7 @@ workbook.Save(@"d:\test\out_My_Book1.xls");
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

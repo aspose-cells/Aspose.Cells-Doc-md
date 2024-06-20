@@ -1,17 +1,18 @@
-﻿---
-title: Apache POI ve Aspose.Cells'de Sınırlarla Çalışma
+---
+title: Apache POI ve Aspose.Cells ile Kenarlıklarla Çalışma
 type: docs
 weight: 10
 url: /tr/java/working-with-borders-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Sınırlarla Çalışmak**
-Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)bu bir Microsoft Excel dosyasını temsil eder. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)sınıf. Worksheet sınıfı bir Cellscollection sağlar. Cells koleksiyonundaki her öğe, bir nesneyi temsil eder.[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)sınıf.
 
-Aspose.Cells, setStyle yöntemini sağlar.[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)hücrenin biçimlendirme stilini ayarlamak için kullanılan sınıf. Ayrıca, Stil nesnesi[stil](http://docs.aspose.com:8082/docs/display/cellsjava/Style)class kullanılır ve yazı tipi ayarlarını yapılandırmak için özellikler sağlar.
+## **Aspose.Cells - Kenarlıklarla Çalışma**
+Aspose.Cells, Microsoft Excel dosyasını temsil eden [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) adlı bir sınıf sağlar. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası, [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet) sınıfı tarafından temsil edilir. Worksheet sınıfı, bir Cells koleksiyonunu sağlar. Cells koleksiyonundaki her öğe, [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell) sınıfının bir nesnesini temsil eder.
+
+Aspose.Cells, [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell) sınıfındaki setStyle yöntemini bir hücrenin biçimlendirme stili olarak ayarlamak için kullanır. Ayrıca, [Style](http://docs.aspose.com:8082/docs/display/cellsjava/Style) sınıfının Style nesnesi kullanılır ve yazı tipi ayarlarını yapılandırmak için özellikler sağlar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Style the cell with borders all around.
 
@@ -30,12 +31,12 @@ style.setBorder(BorderType.TOP_BORDER, CellBorderType.MEDIUM_DASH_DOT, Color.get
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Sınırlarla Çalışmak**
-CellStyle sınıfı, Apache POI SS - HSSF ve XSSF kullanarak kenarlık ayarlarını yapmak için özellikler sağlar.
+## **Apache POI SS - HSSF XSSF - Kenarlıklarla Çalışma**
+CellStyle sınıfı, Apache POI SS - HSSF ve XSSF kullanılarak kenarlık ayarlarını belirleme özellikleri sağlar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Setting the line of the top border
 
@@ -60,11 +61,11 @@ cell.setStyle(style);
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/biçimlendirme/kenarlıklar)
+## **Örnek Kod İndir**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/borders)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Cells'e Kenarlık Ekleme](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Borders+to+Cells).
+Daha fazla ayrıntı için [Hücrelere Kenarlık Ekleme](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Borders+to+Cells) sayfasını ziyaret edin.
 
 {{% /alert %}}

@@ -1,15 +1,16 @@
-﻿---
-title: Convertir gráfico a imagen en Ruby
+---
+title: Convirtiendo gráfico a imagen en Ruby
 type: docs
 weight: 10
 url: /es/java/converting-chart-to-image-in-ruby/
 ---
-## **Aspose.Cells - Conversión de gráfico a imagen**
-Para convertir Gráfico a Imagen usando Aspose.Cells for Java en Ruby, simplemente invoque el módulo Convertidor.
 
-**código rubí**
+## **Aspose.Cells - Convirtiendo gráfico a imagen**
+Para convertir un gráfico a imagen usando Aspose.Cells for Java en Ruby, simplemente invoque el módulo Converter.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def chart_to_image()
 
@@ -142,7 +143,7 @@ Para convertir Gráfico a Imagen usando Aspose.Cells for Java en Ruby, simplemen
 end   
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Conversión de gráfico a imagen (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Convertir gráfico a imagen (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

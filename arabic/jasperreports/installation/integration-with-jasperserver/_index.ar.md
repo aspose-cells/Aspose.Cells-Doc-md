@@ -1,26 +1,27 @@
-﻿---
+---
 title: التكامل مع JasperServer
 type: docs
 weight: 30
 url: /ar/jasperreports/integration-with-jasperserver/
 ---
+
 {{% alert color="primary" %}} 
 
-لدمج Aspose.Cells for JasperReports مع JasperServer ، قم بتنفيذ الخطوات أدناه.
+لتكامل Aspose.Cells for JasperReports مع JasperServer، قم بأداء الخطوات التالية.
 
 {{% /alert %}} 
 
 {{% alert color="primary" %}} 
 
- في جميع الخطوات التالية<InstallDir> لتقف على دليل التثبيت JasperServer.
+In all of the following steps <InstallDir> stands for the JasperServer installation directory. 
 
 {{% /alert %}} 
 
-1. أضف خصائص المُصدِّر الجديدة التالية إلى ملف**<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ Flows \ viewReportBeans.xml** ملف.
+1. Add the following new exporter properties to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <bean id="reportACXlsExporter" class="com.aspose.cells.jasperreports.ACReportXlsExporter" parent="baseReportExporter">
 
@@ -48,11 +49,11 @@ url: /ar/jasperreports/integration-with-jasperserver/
 
 {{< /highlight >}}
 
-1.  حدد موقع ملف<util:map id=”exporterConfigMap> عنصر في**<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ Flows \ viewReportBeans.xml** ملف وإضافة الأسطر التالية:
+1. Locate the <util:map id=”exporterConfigMap> element in the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file and add the following lines: 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <util:map id="exporterConfigMap">
 
@@ -81,14 +82,14 @@ url: /ar/jasperreports/integration-with-jasperserver/
 
 
 
-1.  انسخ جميع الصور GIF من ملف**\ ليب** مجلد في**aspose.cells.jasperreports.zip** الى*<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ images* مجلد.
-1.  انسخ ال**aspose.cells.jasperreports.jar** ملف من**\ ليب** مجلد في**aspose.cells.jasperreports.zip** الى**<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ lib \.** مجلد.
-1.  أضف الأسطر التالية إلى ملف**<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ applicationContext.xml** ملف.
- (قد تحتوي هذه الوحدة على إعدادات تكوين مختلفة تهدف إلى تكوين التصدير. على سبيل المثال ، يمكنك استخدام ميزة تعيين خط JasperReports أو تحديد موقع ملف ترخيص Aspose.Cells for JasperReports.)
+1. Copy all GIF images from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the *<InstallDir>\apache-tomcat\webapps\jasperserver\images* folder.
+1. Copy the **aspose.cells.jasperreports.jar** file from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** folder.
+1. Add the following lines to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file.
+   (يمكن أن يحتوي هذا الشراب على إعدادات تكوين مختلفة تهدف إلى تكوين التصدير. على سبيل المثال، يمكنك استخدام ميزة تخطيط الخطوط في JasperReports أو تحديد موقع ملف ترخيص Aspose.Cells for JasperReports.) 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <bean id="excelACExportParameters" class="com.aspose.cells.jasperreports.ACXlsExportParametersBean"> <!-- Uncomment to apply a license. Check the license path.
 
@@ -105,11 +106,11 @@ url: /ar/jasperreports/integration-with-jasperserver/
 
 
 
-1. قم بتشغيل JasperServer وافتح أي تقرير لعرضه. إذا تم تنفيذ الخطوات السابقة بشكل صحيح ، فستتوفر رموز تنسيق إضافية.
+1. قم بتشغيل JasperServer وفتح أي تقرير لعرضه. إذا تم أداء الخطوات السابقة بشكل صحيح، فإن الرموز الصيغية الإضافية متاحة. 
 
-**تتوفر تنسيقات تصدير جديدة (على اليمين) بعد تثبيت Aspose.Cells for JasperReports على JasperServer** 
+**صيغ التصدير الجديدة المتاحة (على اليمين) بعد تثبيت Aspose.Cells for JasperReports على JasperServer** 
 
-![ما يجب القيام به: image_بديل_نص](integration-with-jasperserver_1.png)
+![todo:image_alt_text](integration-with-jasperserver_1.png)
 
 
 

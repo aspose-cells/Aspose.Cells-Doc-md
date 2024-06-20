@@ -1,20 +1,21 @@
-﻿---
+---
 title: تكوين الأداء
 type: docs
 weight: 20
 url: /ar/reportingservices/performance-configuration/
 ---
+
 {{% alert color="primary" %}} 
 
- يمكن للمستخدمين تحسين الأداء إلى حد معين. يمكنك تكوين بعض السمات والمعلمات في ملف**Aspose.Cells.ReportingServices.xml** ملف كما هو موضح أدناه.
+يمكن للمستخدمين تحسين الأداء إلى حد معين. يمكنك تكوين بعض السمات والمعلمات في ملف **Aspose.Cells.ReportingServices.xml** كما هو موضح أدناه.
 
 {{% /alert %}} 
-### **قسم الأداء**
-يعرض هذا قسم الأداء كما هو افتراضيًا.
+### **القسم الأداء**
+يظهر قسم الأداء كما هو افتراضيًا.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -35,12 +36,12 @@ url: /ar/reportingservices/performance-configuration/
 
 
 {{< /highlight >}}
-### **معايير الأداء**
--  LimitCellsNumberForMerged - القيمة الافتراضية للمعامل هي 1000000. يتم تعيين قيمة المعلمة بواسطة العميل ولا تتأثر بمبدِّل معلمة الأداء. يرجى الرجوع إلى التكوين التالي.
+### **معلمات الأداء**
+- LimitCellsNumberForMerged – القيمة الافتراضية للمعلمة هي 1000000. تتم ضبط قيمة المعلمة من قبل العميل ولا تتأثر بمفتاح المعلمة الأداء. يرجى الرجوع إلى التكوين التالي. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -48,15 +49,15 @@ url: /ar/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsAutoRowFit - يمكن أن يكون صوابًا أو خطأً:
- - عند ضبط معلمة الأداء على "إيقاف" ، تكون القيمة الافتراضية هي "خطأ".
- - عند ضبط معلمة الأداء على "تشغيل" ، تكون القيمة الافتراضية صحيحة.
- - عند تعيين معلمة الأداء على "تشغيل" ، يمكن لتقرير عنصر فرعي إعادة تعيين معلمة AutoRowFile للتقرير.
-يرجى الرجوع إلى التكوين التالي.
+- IsAutoRowFit – يمكن أن يكون إما صحيحًا أو خاطئًا: 
+  - عند تعيين معلمة الأداء على 'إيقاف'، القيمة الافتراضية هي خاطئة.
+  - عند تعيين معلمة الأداء على 'تشغيل'، القيمة الافتراضية هي صحيحة.
+  - عند تعيين معلمة الأداء على 'تشغيل'، يمكن لتقرير العنصر الفرعي إعادة ضبط معلمة AutoRowFile التقرير.
+    يرجى الإشارة إلى التكوين التالي. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -78,15 +79,15 @@ url: /ar/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsMerged - يمكن أن يكون صحيحًا أو خطأ:
- - عند ضبط معلمة الأداء على "إيقاف" ، تكون القيمة الافتراضية هي "خطأ".
- - عند ضبط معلمة الأداء على "تشغيل" ، تكون القيمة الافتراضية صحيحة.
- - عند تعيين معلمة الأداء على "تشغيل" ، يمكن لتقرير عنصر فرعي إعادة تعيين معلمة AutoRowFile للتقرير.
-يرجى الرجوع إلى التكوين التالي.
+- هل تم دمجه - يمكن أن يكون إما صحيحًا أو خاطئًا: 
+  - عند تعيين معلمة الأداء على 'إيقاف'، القيمة الافتراضية هي خاطئة.
+  - عند تعيين معلمة الأداء على 'تشغيل'، القيمة الافتراضية هي صحيحة.
+  - عند تعيين معلمة الأداء على 'تشغيل'، يمكن لتقرير العنصر الفرعي إعادة ضبط معلمة AutoRowFile التقرير.
+    يرجى الإشارة إلى التكوين التالي. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -108,15 +109,15 @@ url: /ar/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsSetStyle - يمكن أن يكون إما صوابًا أو خطأً:
- - عند ضبط معلمة الأداء على "إيقاف" ، تكون القيمة الافتراضية هي "خطأ".
- - عند ضبط معلمة الأداء على "تشغيل" ، تكون القيمة الافتراضية صحيحة.
- - عند تعيين معلمة الأداء على "تشغيل" ، يمكن لتقرير عنصر فرعي إعادة تعيين معلمة AutoRowFile للتقرير.
-يرجى الرجوع إلى التكوين التالي.
+- هل تم تعيين النمط - يمكن أن يكون إما صحيحًا أو خاطئًا: 
+  - عند تعيين معلمة الأداء على 'إيقاف'، القيمة الافتراضية هي خاطئة.
+  - عند تعيين معلمة الأداء على 'تشغيل'، القيمة الافتراضية هي صحيحة.
+  - عند تعيين معلمة الأداء على 'تشغيل'، يمكن لتقرير العنصر الفرعي إعادة ضبط معلمة AutoRowFile التقرير.
+    يرجى الإشارة إلى التكوين التالي. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -138,16 +139,16 @@ url: /ar/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
--  IsConditionalFormatting - يمكن أن يكون إما صحيحًا أو خطأ:
- - عند ضبط معلمة الأداء على "إيقاف" ، تكون القيمة الافتراضية هي "خطأ".
- - عند ضبط معلمة الأداء على "تشغيل" ، تكون القيمة الافتراضية صحيحة.
- - عند تعيين معلمة الأداء على "تشغيل" ، يمكن لتقرير العنصر الفرعي إعادة تعيين معلمة AutoRowFile لتقرير النقاط.
- - عند تعيين معلمة IsSetStyle على خطأ ، تكون قيمة معلمة الأداء غير صالحة.
-يرجى الرجوع إلى التكوين التالي.
+- هل التنسيق الشرطي - يمكن أن يكون إما صحيحًا أو خاطئًا: 
+  - عند تعيين معلمة الأداء على 'إيقاف'، القيمة الافتراضية هي خاطئة.
+  - عند تعيين معلمة الأداء على 'تشغيل'، القيمة الافتراضية هي صحيحة.
+  - عند تعيين معلمة الأداء على 'تشغيل'، يمكن لتقرير العنصر الفرعي إعادة ضبط معلمة AutoRowFile التقرير.
+  - عند تعيين معلمة IsSetStyle على القيمة خاطئة، فإن قيمة المعلمة الأداء غير صالحة.
+    يرجى الإشارة إلى التكوين التالي. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

@@ -1,92 +1,86 @@
-﻿---
-title: Вставка изображений и форм файлов Excel.
-linktitle: Формы
+---
+title: Вставка изображений и формы файлов Excel.
+linktitle: Фигуры
 type: docs
 weight: 140
 url: /ru/net/insert-shapes/
-description: Управляйте изображениями, объектами, формами в файлы Excel.
+description: Управляйте изображениями, объектами OLE, формами в файлы Excel.
 ---
+
 {{% alert color="primary" %}}
 
-Иногда вам нужно вставить некоторые необходимые фигуры на рабочий лист. Вам может понадобиться вставить одну и ту же фигуру в разные места на рабочем листе. Или вам нужно вставить фигуры в лист в пакетном режиме.
+Иногда вам нужно вставить необходимые формы в Лист книги Excel. Возможно, вам понадобится вставить ту же форму в разные позиции на листе. Или вам нужно пакетно вставить формы на Лист книги Excel.
 
- Не волнуйтесь![Aspose.Cells](https://products.aspose.com/cells/)поддерживает все эти операции.
+Не волнуйтесь! [Aspose.Cells](https://products.aspose.com/cells/) поддерживает все эти операции.
 
 {{% /alert %}}
 
-Формы в Excel в основном делятся на следующие типы:
-- **Картинки**
-- **ОлеОбъекты**
+Фигуры в Excel в основном разделяются на следующие типы:
+- **Изображения**
+- **OLE-объекты**
 - **Линии**
-- **прямоугольники**
-- **Основные формы**
-- **Блок-стрелки**
-- **Формы уравнения**
+- **Прямоугольники**
+- **Базовые формы**
+- **Блочные стрелки**
+- **Уравнения**
 - **Блок-схемы**
 - **Звезды и баннеры**
 - **Выноски**
 
- В этом руководящем документе будут выбраны одна или две формы каждого типа для создания образцов. С помощью этих примеров вы узнаете, как использовать[Aspose.Cells](https://products.aspose.com/cells/) чтобы вставить указанную фигуру на лист.
+В этом руководстве будет выбрано одна или две формы из каждого типа для создания образцов. Через эти примеры вы узнаете, как использовать [Aspose.Cells](https://products.aspose.com/cells/) для вставки указанной формы в таблицу.
 
-## **Добавление изображений на лист Excel в C#**
+## **Добавление изображений в лист Excel в C#**
 
-Добавлять изображения в электронную таблицу очень просто. Требуется всего несколько строк кода:
- Просто позвоните в[**Добавлять**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) метод[**Картинки**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) коллекция (инкапсулированная в[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) объект).[**Добавлять**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)метод принимает следующие параметры:
+Добавление изображений в электронную таблицу очень просто. Нужно лишь несколько строк кода:
+Просто вызовите метод [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) коллекции [**Pictures**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) (инкапсулированной в объекте [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)). Метод [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) принимает следующие параметры:
 
-- **Индекс верхней левой строки**, индекс верхней левой строки.
+- **Индекс верхнего левого ряда**, индекс верхнего левого ряда.
 - **Индекс верхнего левого столбца**, индекс верхнего левого столбца.
-- **Имя файла изображения**, имя файла изображения вместе с путем.
+- **Имя файла изображения**, имя файла изображения с полным путем.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-AddingPictures-1.cs" >}}
 
 
-## **Вставка объектов OLE в рабочий лист Excel по номеру C#**
+## **Вставка объектов OLE в лист Excel в C#**
 
-Aspose.Cells поддерживает добавление, извлечение и управление объектами OLE на листах. По этой причине Aspose.Cells имеет[**Олеобжектколлекшн**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) класс, используемый для добавления нового объекта OLE в список коллекций. Другой класс,[**ОлеОбъект**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), представляет объект OLE. В него входят несколько важных членов:
+Aspose.Cells поддерживает добавление, извлечение и манипулирование объектами OLE в листах Excel. По этой причине Aspose.Cells имеет класс [**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection), используемый для добавления нового объекта OLE в список коллекции. Еще один класс, [**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), представляет объект OLE. У него есть несколько важных членов:
 
-- [**Данные изображения**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)Свойство указывает данные изображения (значка) типа байтового массива. Изображение будет отображаться, чтобы показать объект OLE на листе.
-- [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)свойство указывает данные объекта в виде массива байтов. Эти данные будут показаны в соответствующей программе при двойном щелчке по значку объекта OLE.
+- Свойство [**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata) определяет изображение (иконку) в виде массива байтов. Изображение будет отображаться для показа объекта OLE в листе Excel.
+- Свойство [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata) определяет объектные данные в виде массива байтов. Эти данные будут показаны в связанной программе при двойном щелчке по иконке объекта OLE.
 
-В следующем примере показано, как добавить объект(ы) OLE на лист.
+Нижеприведенный пример показывает, как добавить объект(ы) OLE в лист Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
-## **Вставка строки в рабочий лист Excel в C#**
+## **Вставка линии на лист Excel в C#**
 
- Форма линии принадлежит**линии** категория.
+Форма линии относится к категории **линии**.
 
-***В Microsoft Excel (например, 2007):***
+***В Microsoft Excel (например, 2007 год):***
 
-- Выберите ячейку, в которую вы хотите вставить строку
-- Откройте меню «Вставка» и выберите «Фигуры».
-- Затем выберите строку из «Недавно использованных фигур» или «Линий».
+- Выберите ячейку, куда хотите вставить линию
+- Нажмите меню Вставка и выберите Фигуры.
+- Затем выберите линию из 'Недавно использованные формы' или 'Линии'
 
 ![](line.png)
 
-***Использование Aspose.Cells***
+***Используя Aspose.Cells***
 
-Вы можете использовать следующий метод, чтобы вставить строку на лист.
+Вы можете использовать следующий метод для вставки линии в таблицу.
 
 {{% alert color="primary" %}}
 
-[публичный LineShape AddLine(
- верхний левый ряд,
- инт топ,
- интервал верхний левый столбец,
- слева,
- внутренняя высота,
- ширина
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- Метод возвращает[Линейная форма](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) объект.
+Метод возвращает объект [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape).
 
 {{% /alert %}}
 
-В следующем примере показано, как вставить строку на лист.
+В следующем примере показано, как вставить линию на лист.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Line.cs" >}}
 
-Выполните приведенный выше код, вы получите следующие результаты:
+Выполните приведенный выше код, и вы получите следующие результаты:
 
 ![](line2.png)
 
@@ -94,40 +88,33 @@ Aspose.Cells поддерживает добавление, извлечение
 
 ## **Вставка стрелки линии в рабочий лист Excel в C#**
 
- Форма линейной стрелки принадлежит**Линии** категория. Это частный случай линии.
+Форма стрелочной линии относится к категории **Линии**. Это особый случай линии.
 
-***В Microsoft Excel (например, 2007):***
+***В Microsoft Excel (например, 2007 год):***
 
-- Выберите ячейку, в которую вы хотите вставить стрелку линии
-- Откройте меню «Вставка» и выберите «Фигуры».
-- Затем выберите стрелку линии из «Недавно использованных фигур» или «Линий».
+- Выберите ячейку, в которую хотите вставить стрелку.
+- Нажмите меню Вставка и выберите Фигуры.
+- Затем выберите стрелку из 'Недавно используемых форм' или 'Линий'.
 
 ![](line_arrow1.png)
 
-***Использование Aspose.Cells***
+***Используя Aspose.Cells***
 
-Вы можете использовать следующий метод, чтобы вставить стрелку линии на листе.
+Вы можете использовать следующий метод для вставки стрелки на лист.
 
 {{% alert color="primary" %}}
 
-[публичный LineShape AddLine(
- верхний левый ряд,
- инт топ,
- интервал верхний левый столбец,
- слева,
- внутренняя высота,
- ширина
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn,	int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- Метод возвращает[Линейная форма](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) объект.
+Метод возвращает объект [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape).
 
 {{% /alert %}}
 
-В следующем примере показано, как вставить стрелку линии на лист.
+В следующем примере показано, как вставить стрелку на лист.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-LineArrow.cs" >}}
 
-Выполните приведенный выше код, вы получите следующие результаты:
+Выполните приведенный выше код, и вы получите следующие результаты:
 
 ![](line_arrow2.png)
 
@@ -135,32 +122,25 @@ Aspose.Cells поддерживает добавление, извлечение
 
 ## **Вставка прямоугольника в рабочий лист Excel в C#**
 
- Форма прямоугольника относится к**прямоугольники** категория.
+Форма прямоугольника относится к категории **Прямоугольники**.
 
-***В Microsoft Excel (например, 2007):***
+***В Microsoft Excel (например, 2007 год):***
 
-- Выберите ячейку, в которую вы хотите вставить прямоугольник
-- Откройте меню «Вставка» и выберите «Фигуры».
-- Затем выберите прямоугольник из «Недавно использованных фигур» или «Прямоугольников».
+- Выберите ячейку, в которую хотите вставить прямоугольник.
+- Нажмите меню Вставка и выберите Фигуры.
+- Затем выберите прямоугольник из 'Недавно используемых фигур' или 'Прямоугольники'.
 
 ![](rectangle.png)
 
-***Использование Aspose.Cells***
+***Используя Aspose.Cells***
 
-Вы можете использовать следующий метод, чтобы вставить прямоугольник на лист.
+Вы можете использовать следующий метод для вставки прямоугольника на листе.
 
 {{% alert color="primary" %}}
 
-[общедоступный RectangleShape AddRectangle (
- верхний левый ряд,
- инт топ,
- интервал верхний левый столбец,
- слева,
- внутренняя высота,
- ширина
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
+[**public RectangleShape AddRectangle(int upperLeftRow,	int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
 
- Метод возвращает[ПрямоугольникФорма](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) объект.
+Метод возвращает объект [RectangleShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape).
 
 {{% /alert %}}
 
@@ -168,91 +148,75 @@ Aspose.Cells поддерживает добавление, извлечение
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Rectangle.cs" >}}
 
-Выполните приведенный выше код, вы получите следующие результаты:
+Выполните приведенный выше код, и вы получите следующие результаты:
 
 ![](rectangle2.png)
 
 
 
-## **Вставка куба в рабочий лист Excel в C#**
+## **Вставка куба на лист Excel в C#**
 
-Форма куба относится к**Основные формы** категория.
+Форма куба относится к категории **Базовые фигуры**.
 
-***В Microsoft Excel (например, 2007):***
+***В Microsoft Excel (например, 2007 год):***
 
-- Выберите ячейку, куда вы хотите вставить куб
-- Откройте меню «Вставка» и выберите «Фигуры».
--  Затем выберите куб из**Основные формы**
+- Выберите ячейку, в которую хотите вставить куб
+- Нажмите меню Вставка и выберите Фигуры.
+- Затем выберите Куб из **Базовые фигуры**
 
 ![](cube.png)
 
-***Использование Aspose.Cells***
+***Используя Aspose.Cells***
 
-Вы можете использовать следующий метод, чтобы вставить куб на лист.
+Вы можете использовать следующий метод для вставки куба на листе.
 
 {{% alert color="primary" %}}
 
-[общедоступная форма AddAutoShape (
- тип автофигуры,
- верхний левый ряд,
- инт топ,
- интервал верхний левый столбец,
- слева,
- внутренняя высота,
- ширина
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Метод возвращает[Форма](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) объект.
+Метод возвращает объект [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-В следующем примере показано, как вставить куб на рабочий лист.
+Пример ниже показывает, как вставить куб в лист Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Cube.cs" >}}
 
-Выполните приведенный выше код, вы получите следующие результаты:
+Выполните приведенный выше код, и вы получите следующие результаты:
 
 ![](cube2.png)
 
 
 
-## **Вставка четырехугольной стрелки выноски в рабочий лист Excel в C#**
+## **Вставка стрелочной подписи на лист Excel в C#**
 
- Форма четырехугольной стрелки выноски принадлежит**Блок-стрелки** категория.
+Форма стрелки квадратного выноса относится к категории **Блочные стрелки**.
 
-***В Microsoft Excel (например, 2007):***
+***В Microsoft Excel (например, 2007 год):***
 
-- Выберите ячейку, в которую вы хотите вставить четырехугольную стрелку выноски.
-- Откройте меню «Вставка» и выберите «Фигуры».
--  Затем выберите четырехугольную стрелку выноски из**Блок-стрелки**
+- Выберите ячейку, в которую хотите вставить стрелку квадратного выноса
+- Нажмите меню Вставка и выберите Фигуры.
+- Затем выберите стрелку квадратного выноса из категории **Блочные стрелки**
 
 ![](callout_quad_arrow.png)
 
-***Использование Aspose.Cells***
+***Используя Aspose.Cells***
 
-Вы можете использовать следующий метод, чтобы вставить четырехугольную стрелку выноски на лист.
+Вы можете использовать следующий метод для вставки стрелки квадратного выноса на лист Excel.
 
 {{% alert color="primary" %}}
 
-[общедоступная форма AddAutoShape (
- тип автофигуры,
- верхний левый ряд,
- инт топ,
- интервал верхний левый столбец,
- слева,
- внутренняя высота,
- ширина
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Метод возвращает[Форма](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) объект.
+Метод возвращает объект [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-В следующем примере показано, как вставить четырехугольную стрелку выноски на рабочий лист.
+Приведенный ниже пример показывает, как вставить стрелку квадратного выноса в лист Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.cs" >}}
 
-Выполните приведенный выше код, вы получите следующие результаты:
+Выполните приведенный выше код, и вы получите следующие результаты:
 
 ![](callout_quad_arrow2.png)
 
@@ -260,186 +224,154 @@ Aspose.Cells поддерживает добавление, извлечение
 
 ## **Вставка знака умножения в рабочий лист Excel в C#**
 
- Форма знака умножения принадлежит**Формы уравнения** категория.
+Форма знака умножения относится к категории **Формулы**.
 
-***В Microsoft Excel (например, 2007):***
+***В Microsoft Excel (например, 2007 год):***
 
-- Выберите ячейку, в которую вы хотите вставить знак умножения
-- Откройте меню «Вставка» и выберите «Фигуры».
--  Затем выберите знак умножения из**Формы уравнения**
+- Выберите ячейку, в которую хотите вставить знак умножения
+- Нажмите меню Вставка и выберите Фигуры.
+- Затем выберите знак умножения из **Фигуры уравнения**
 
 ![](multiplication_sign.png)
 
-***Использование Aspose.Cells***
+***Используя Aspose.Cells***
 
-Вы можете использовать следующий метод, чтобы вставить знак умножения на листе.
+Вы можете использовать следующий метод для вставки знака умножения в листе Excel.
 
 {{% alert color="primary" %}}
 
-[общедоступная форма AddAutoShape (
- тип автофигуры,
- верхний левый ряд,
- инт топ,
- интервал верхний левый столбец,
- слева,
- внутренняя высота,
- ширина
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Метод возвращает[Форма](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) объект.
+Метод возвращает объект [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-В следующем примере показано, как вставить знак умножения на лист.
+В следующем примере показано, как вставить знак умножения в лист Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.cs" >}}
 
-Выполните приведенный выше код, вы получите следующие результаты:
+Выполните приведенный выше код, и вы получите следующие результаты:
 
 ![](multiplication_sign2.png)
 
 
 
-## **Вставка мультидокумента в рабочий лист Excel в C#**
+## **Вставка мультидокумента на лист Excel в C#**
 
- Форма мультидокумента относится к**Блок-схемы** категория.
+Форма мультидокумента принадлежит к категории **Блок-схемы**.
 
-***В Microsoft Excel (например, 2007):***
+***В Microsoft Excel (например, 2007 год):***
 
-- Выберите ячейку, в которую вы хотите вставить мультидокумент
-- Откройте меню «Вставка» и выберите «Фигуры».
--  Затем выберите мультидокумент из**Блок-схемы**
+- Выберите ячейку, куда вы хотите вставить мультидокумент
+- Нажмите меню Вставка и выберите Фигуры.
+- Затем выберите мультидокумент из **Блок-схемы**
 
 ![](multidocument.png)
 
-***Использование Aspose.Cells***
+***Используя Aspose.Cells***
 
-Вы можете использовать следующий метод для вставки мультидокумента на лист.
+Вы можете использовать следующий метод для вставки мультидокумента в листе Excel.
 
 {{% alert color="primary" %}}
 
-[общедоступная форма AddAutoShape (
- тип автофигуры,
- верхний левый ряд,
- инт топ,
- интервал верхний левый столбец,
- слева,
- внутренняя высота,
- ширина
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Метод возвращает[Форма](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) объект.
+Метод возвращает объект [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-В следующем примере показано, как вставить несколько документов на лист.
+В следующем примере показано, как вставить мультидокумент в лист Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Multidocument.cs" >}}
 
-Выполните приведенный выше код, вы получите следующие результаты:
+Выполните приведенный выше код, и вы получите следующие результаты:
 
 ![](multidocument2.png)
 
 
 
-## **Вставка пятиконечной звезды в рабочий лист Excel в C#**
+## **Вставка пятиконечной звезды на лист Excel в C#**
 
- Форма пятиконечной звезды принадлежит**Звезды и баннеры** категория.
+Форма пятиконечной звезды относится к категории **Звезды и транспаранты**.
 
-***В Microsoft Excel (например, 2007):***
+***В Microsoft Excel (например, 2007 год):***
 
-- Выберите ячейку, в которую вы хотите вставить пятиконечную звезду.
-- Откройте меню «Вставка» и выберите «Фигуры».
--  Затем выберите пятиконечную звезду из**Звезды и баннеры**
+- Выберите ячейку, в которую хотите вставить пятиконечную звезду
+- Нажмите меню Вставка и выберите Фигуры.
+- Затем выберите пятиконечную звезду из **Звезды и транспаранты**
 
 ![](star_5_points.png)
 
-***Использование Aspose.Cells***
+***Используя Aspose.Cells***
 
-Вы можете использовать следующий метод, чтобы вставить пятиконечную звезду на лист.
+Вы можете использовать следующий метод для вставки пятиконечной звезды в лист.
 
 {{% alert color="primary" %}}
 
-[общедоступная форма AddAutoShape (
- тип автофигуры,
- верхний левый ряд,
- инт топ,
- интервал верхний левый столбец,
- слева,
- внутренняя высота,
- ширина
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Метод возвращает[Форма](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) объект.
+Метод возвращает объект [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-В следующем примере показано, как вставить пятиконечную звезду на лист.
+Следующий пример показывает, как вставить пятиконечную звезду на лист.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-FivePointedStar.cs" >}}
 
-Выполните приведенный выше код, вы получите следующие результаты:
+Выполните приведенный выше код, и вы получите следующие результаты:
 
 ![](star_5_points2.png)
 
 
 
-## **Вставка облака мысленных пузырей в рабочий лист Excel в C#**
+## **Вставка облачка мыслей в лист Excel с помощью C#**
 
- Форма облака мысленных пузырей принадлежит**Выноски** категория.
+Форма размышляющего облачка относится к категории **Выноски**.
 
-***В Microsoft Excel (например, 2007):***
+***В Microsoft Excel (например, 2007 год):***
 
-- Выберите ячейку, в которую вы хотите вставить облако мысленных пузырей.
-- Откройте меню «Вставка» и выберите «Фигуры».
--  Затем выберите облако мысленных пузырей из**Выноски**
+- Выберите ячейку, в которую хотите вставить размышляющее облачко
+- Нажмите меню Вставка и выберите Фигуры.
+- Затем выберите размышляющее облачко из **Выноски**
 
 ![](thought_bubble_cloud.png)
 
-***Использование Aspose.Cells***
+***Используя Aspose.Cells***
 
-Вы можете использовать следующий метод, чтобы вставить облако мысленных пузырей на лист.
+Вы можете использовать следующий метод для вставки облака с мыслями на листе.
 
 {{% alert color="primary" %}}
 
-[общедоступная форма AddAutoShape (
- тип автофигуры,
- верхний левый ряд,
- инт топ,
- интервал верхний левый столбец,
- слева,
- внутренняя высота,
- ширина
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Метод возвращает[Форма](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) объект.
+Метод возвращает объект [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape).
 
 {{% /alert %}}
 
-В следующем примере показано, как вставить облако мысленных пузырей на лист.
+В следующем примере показано, как вставить облако с мыслями на лист.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.cs" >}}
 
-Выполните приведенный выше код, вы получите следующие результаты:
+Выполните приведенный выше код, и вы получите следующие результаты:
 
 ![](thought_bubble_cloud2.png)
 
-## **Предварительные темы**
-- [Изменить значения настройки формы](/cells/ru/net/change-adjustment-values-of-the-shape/)
-- [Копировать фигуры между рабочими листами](/cells/ru/net/copy-shapes-between-worksheets/)
-- [Данные в непримитивной форме](/cells/ru/net/data-in-non-primitive-shape/)
-- [Нахождение абсолютного положения формы внутри рабочего листа](/cells/ru/net/finding-absolute-position-of-shape-inside-the-worksheet/)
-- [Получить точки соединения из формы](/cells/ru/net/get-connection-points-from-shape/)
-- [Управление элементами управления](/cells/ru/net/managing-controls/)
-- [Добавить значки на рабочий лист](/cells/ru/net/insert-svg-to-excel/)
-- [Управление OLE-объектами](/cells/ru/net/managing-ole-objects/)
+## **Продвинутые темы**
+- [Изменение значений коррекции формы](/cells/ru/net/change-adjustment-values-of-the-shape/)
+- [Копировать формы между рабочими листами](/cells/ru/net/copy-shapes-between-worksheets/)
+- [Данные в не-примитивной форме](/cells/ru/net/data-in-non-primitive-shape/)
+- [Поиск абсолютной позиции формы внутри рабочего листа](/cells/ru/net/finding-absolute-position-of-shape-inside-the-worksheet/)
+- [Получить точки соединения от формы](/cells/ru/net/get-connection-points-from-shape/)
+- [Управление элементами управлениями](/cells/ru/net/managing-controls/)
+- [Добавление значков на рабочий лист](/cells/ru/net/insert-svg-to-excel/)
+- [Управление объектами OLE](/cells/ru/net/managing-ole-objects/)
 - [Управление изображениями](/cells/ru/net/managing-pictures/)
-- [Управление смарт-артом](/cells/ru/net/managing-smartart/)
-- [Управление текстовым полем](/cells/ru/net/managing-textbox-of-excel/)
-- [Добавить водяной знак WordArt на рабочий лист](/cells/ru/net/add-wordart-watermark-to-worksheet/)
-- [Обновить значения связанных фигур](/cells/ru/net/refresh-values-of-linked-shapes/)
-- [Отправить фигуру спереди или сзади внутри рабочего листа](/cells/ru/net/send-shape-front-or-back-inside-the-worksheet/)
+- [Управление умным искусством](/cells/ru/net/managing-smartart/)
+- [Управление текстовыми полями](/cells/ru/net/managing-textbox-of-excel/)
+- [Добавление водяного знака WordArt на лист](/cells/ru/net/add-wordart-watermark-to-worksheet/)
+- [Обновить значения связанных форм](/cells/ru/net/refresh-values-of-linked-shapes/)
+- [Отправить форму вперед или назад внутри листа](/cells/ru/net/send-shape-front-or-back-inside-the-worksheet/)
 - [Управление параметрами формы](/cells/ru/net/managing-shape-options/)
-- [Управление параметрами текста фигуры](/cells/ru/net/managing-shape-text-options/)
-- [Веб-расширения — надстройки Office](/cells/ru/net/web-extensions-office-add-ins/)
+- [Управление параметрами текста формы](/cells/ru/net/managing-shape-text-options/)
+- [Веб-расширения - дополнения для Office](/cells/ru/net/web-extensions-office-add-ins/)
 

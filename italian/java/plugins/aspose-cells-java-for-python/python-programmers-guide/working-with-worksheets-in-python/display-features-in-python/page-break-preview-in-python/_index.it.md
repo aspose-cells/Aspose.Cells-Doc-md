@@ -1,29 +1,30 @@
-﻿---
-title: Anteprima interruzione di pagina in Python
+---
+title: Anteprima interruzioni di pagina in Python
 type: docs
 weight: 60
 url: /it/java/page-break-preview-in-python/
 ---
+
 ## **Aspose.Cells - Hello World**
- Per impostare il foglio di lavoro sull'anteprima dell'interruzione di pagina utilizzando**Aspose.Cells Java for Python** , semplicemente invocare**Anteprima interruzione di pagina** modulo.
+Per impostare il foglio di lavoro in anteprima interruzioni di pagina usando **Aspose.Cells Java per Python**, semplicemente invoca il modulo **PageBreakPreview**.
 
-**Python Cod**
+**Codice Python**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  workbook = self.Workbook(self.dataDir + "Book1.xls")
 
-# Adding a new worksheet to the Workbook object
+#Adding a new worksheet to the Workbook object
 
 worksheets = workbook.getWorksheets()
 
 worksheet = worksheets.get(0)
 
-# Displaying the worksheet in page break preview
+#Displaying the worksheet in page break preview
 
 worksheet.setPageBreakPreview(True)
 
-# Saving the modified Excel file in default format
+#Saving the modified Excel file in default format
 
 workbook.save(self.dataDir + "output.xls")
 
@@ -33,6 +34,6 @@ print "Page break preview is enabled for sheet 1, please check the output docume
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Anteprima interruzione di pagina (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Anteprima interruzioni di pagina (Aspose.Cells)** da uno dei siti di codifica sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

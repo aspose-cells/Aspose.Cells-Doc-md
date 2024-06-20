@@ -1,11 +1,12 @@
-﻿---
-title: Ottieni il testo dello specifico Cell
+---
+title: Ottieni il testo di una cella specifica
 type: docs
 weight: 130
 url: /it/net/get-text-of-specific-cell/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -45,7 +46,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the excel file path.
 

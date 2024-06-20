@@ -1,15 +1,16 @@
-﻿---
-title: Ruby'de Bölmeleri Dondur
+---
+title: Ruby de Panoları Sabitleme
 type: docs
 weight: 50
 url: /tr/java/freeze-panes-in-ruby/
 ---
-## **Aspose.Cells - Bölmeleri Dondur**
- Kullanarak Elektronik Tablo Belgesindeki Bölmeleri Dondurmak için**Yakut için Aspose.Cells Java** , sadece çağırmak**Donma bölmeleri** modül.
 
-**Yakut Kodu**
+## **Aspose.Cells - Panoları Sabitleme**
+Aspose.Cells Java for Ruby kullanarak elektronik tablo belgesinde panoları sabitlemek için **FreezePanes** modülünü basitçe çağırın.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -35,6 +36,6 @@ puts "Apply freeze panes settings, please check the output file."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Bölmeleri Dondur (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Aspose.Cells** ile Panoları Sabitleme'yi indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)

@@ -1,29 +1,31 @@
-﻿---
-title: CSV'i JSON'e dönüştür
+---
+title: CSV den JSON a Dönüştürme
 type: docs
 weight: 220
 url: /tr/net/convert-csv-to-json/
-description: Kullanımı kolay Aspose.Cells for .NET API'i kullanarak CSF dosyasını JSON'e dönüştürün.
-keywords: Convert, Convert CVS to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON CSharp, c# code to convert CSV to JSON
+description: Aspose.Cells, Aspose.Cells for .NET API sini kullanarak CSF dosyasını JSON a dönüştürmeyi sağlar.
+keywords: CSV den JSON a Dönüştürme
 ---
-## **CSV'i JSON'e dönüştür**
 
-Aspose.Cells, CSV'in JSON'e dönüştürülmesini destekler. Bunun için API şunları sağlar:**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**ve**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)** sınıflar. bu**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**class, aralığı JSON'e dışa aktarma seçeneklerini sağlar.**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**sınıf aşağıdaki özelliklere sahiptir.
+## **CSV'yi JSON'a dönüştür**
 
-- **[ExportAsString](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exortasstring)**: Bu, hücrelerin dize değerini JSON olarak dışa aktarır.
-- **[HasHeaderRow](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow)**: Bu, aralığın bir başlık satırı içerip içermediğini gösterir.
-- **[Girinti](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent)**: Girintiyi gösterir.
+Aspose.Cells, CSV'nin JSON'a dönüştürülmesini destekler. Bunun için API, [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) ve [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) sınıflarını sağlar. [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) sınıfı, JSON'a dönüştürmek için aralık ihracatı için seçenekler sağlar. [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) sınıfında aşağıdaki özellikler bulunmaktadır.
 
-bu**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**class ile ayarlanan dışa aktarma seçeneklerini kullanarak JSON'i dışa aktarır.**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**sınıf.
+- [**ExportAsString**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring): Bu, hücrelerin dize değerlerini JSON'a dışa aktarır.
+- [**HasHeaderRow**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow): Bu, aralığın başlık satırı içerip içermediğini belirtir.
+- [**Indent**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent): Sekme boşluğunu belirtir.
 
-Aşağıdaki kod örneği, kullanımını gösterir**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**ve**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)** yüklemek için sınıflar[kaynak CSV dosyası](104398879.csv)ve konsolda JSON çıktısını yazdırır.
+[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) sınıfı, [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) sınıfı ile belirlenen dışa aktarma seçeneklerini kullanarak JSON'u dışa aktarır.
 
-### **Basit kod**
+Aşağıdaki kod örneği, [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) ve [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) sınıflarını kullanarak [kaynak CSV dosyasını](104398879.csv) yükler ve konsolda JSON çıktısını yazdırır.
+
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertCsvToJson-1.cs" >}}
 
-### **Konsol Çıkışı**
-```json
+### **Konsol Çıktısı**
+{{< highlight java >}}
+
 [
 {
 "id": 1,
@@ -56,4 +58,5 @@ Aşağıdaki kod örneği, kullanımını gösterir**[ExportRangeToJsonOptions](
 "postalCode": 394221
 }
 ]
-```
+
+{{< /highlight >}}

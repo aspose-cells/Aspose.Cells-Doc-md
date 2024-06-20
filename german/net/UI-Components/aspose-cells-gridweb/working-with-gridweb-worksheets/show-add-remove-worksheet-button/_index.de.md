@@ -1,16 +1,19 @@
-﻿---
+---
 title: Schaltflächen zum Hinzufügen/Entfernen von Arbeitsblättern anzeigen
 type: docs
 weight: 150
-url: /de/net/show-add-remove-worksheet-button/
+url: /de/net/aspose-cells-gridweb/manage-worksheet-button/
+keywords: GridWeb, Schaltfläche, Arbeitsblatt erstellen, Arbeitsblatt entfernen
+description: Dieser Artikel zeigt, wie Sie die Option „ShowAddButton“ verwenden, um Schaltflächen zum Hinzufügen/Entfernen von Arbeitsblättern (GridWorksheet) in GridWeb hinzuzufügen/entfernen.
 ---
+
 {{% alert color="primary" %}}
 
-In diesem Thema wird das Anzeigen der Schaltflächen „Hinzufügen/Entfernen“ zum Hinzufügen/Entfernen von Arbeitsblättern im Aspose.Cells.GridWeb-Steuerelement erläutert.
+Dieses Thema beschäftigt sich mit dem Anzeigen der Hinzufügen/Entfernen-Schaltflächen, um Arbeitsblätter in der Aspose.Cells.GridWeb-Steuerung hinzuzufügen/zu entfernen.
 
 {{% /alert %}}
 
- Aspose.Cells GridWeb unterstützt jetzt das Hinzufügen und Entfernen von Blättern mithilfe von Schaltflächen in der Symbolleiste. Damit die Schaltflächen im Frontend sichtbar sind, müssen Sie festlegen**GridWeb1.ShowAddButton** zu**wahr**. Der folgende Codeausschnitt veranschaulicht das Hinzufügen von Schaltflächen zum Hinzufügen/Entfernen zur GridWeb-Symbolleiste.
+Aspose.Cells GridWeb unterstützt jetzt das Hinzufügen und Entfernen von Blättern durch Verwenden von Schaltflächen in der Symbolleiste. Damit die Schaltflächen auf der Benutzeroberfläche sichtbar sind, müssen Sie **GridWeb1.ShowAddButton** auf **true** setzen. Der folgende Codeausschnitt zeigt das Hinzufügen von Hinzufügen/Entfernen-Schaltflächen zur GridWeb-Symbolleiste.
 
 ## Beispielcode
 

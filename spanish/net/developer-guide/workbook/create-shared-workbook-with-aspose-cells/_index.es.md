@@ -1,20 +1,21 @@
-﻿---
-title: Crear libro de trabajo compartido con Aspose.Cells
+---
+title: Crear libro compartido con Aspose.Cells
 type: docs
 weight: 40
 url: /es/net/create-shared-workbook-with-aspose-cells/
 ---
-## **Posibles escenarios de uso**
 
-Microsoft Excel le permite compartir el libro de trabajo como se muestra en la siguiente captura de pantalla. Cuando comparte el libro de trabajo, más de un usuario puede editar el libro de trabajo en la red. Aspose.Cells le permite crear un libro de trabajo compartido con[**Workbook.Settings.Shared**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared)propiedad.
+## **Escenarios de uso posibles**
 
-![todo:imagen_alternativa_texto](create-shared-workbook-with-aspose-cells_1.png)
+Microsoft Excel le permite compartir el libro, como se muestra en la siguiente captura de pantalla. Cuando comparte el libro, más de un usuario puede editar el libro en la red. Aspose.Cells le permite crear un libro compartido con la propiedad [**Workbook.Settings.Shared**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared).
 
-## **Crear libro de trabajo compartido con Aspose.Cells**
+![todo:image_alt_text](create-shared-workbook-with-aspose-cells_1.png)
 
- El siguiente código de ejemplo crea un libro de trabajo compartido configurando[**Workbook.Settings.Shared**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared) propiedad como**verdadero** . cuando vas a abrir el[archivo de salida de Excel](55541786.xlsx) en Microsoft Excel, verás**Compartido**con el nombre del libro de trabajo de salida como se muestra en esta captura de pantalla.
+## **Crear libro compartido con Aspose.Cells**
 
-![todo:imagen_alternativa_texto](create-shared-workbook-with-aspose-cells_2.png)
+El siguiente código de muestra crea un libro de trabajo compartido estableciendo la propiedad [**Workbook.Settings.Shared**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared) como **verdadero**. Cuando abras el [archivo de Excel de salida](55541786.xlsx) en Microsoft Excel, verás **Compartido** con el nombre del libro de trabajo de salida como se muestra en esta captura de pantalla.
+
+![todo:image_alt_text](create-shared-workbook-with-aspose-cells_2.png)
 
 ## **Código de muestra**
 

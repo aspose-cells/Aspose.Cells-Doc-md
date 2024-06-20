@@ -1,21 +1,22 @@
-﻿---
-title: قم بتنفيذ تسميات Subtotal أو Grand Total بلغات أخرى
+---
+title: تنفيذ تسميات المجموع الفرعي أو الإجمالي الكلي بلغات أخرى
 type: docs
 weight: 50
 url: /ar/net/implement-subtotal-or-grand-total-labels-in-other-languages/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-في بعض الأحيان ، تريد إظهار الإجمالي الفرعي والتسميات الإجمالية الكلية بلغات غير الإنجليزية مثل الصينية واليابانية والعربية والهندية وما إلى ذلك. يسمح لك Aspose.Cells بالقيام بذلك باستخدام[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)فئة و[**المصنف. إعدادات العولمة**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) خاصية. يرجى الاطلاع على هذه المقالة حول كيفية الاستفادة من[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)صف دراسي
+## **سيناريوهات الاستخدام المحتملة**
 
-- [استخدام فئة GlobalizationSettings لملصقات المجموع الفرعي المخصص والتسميات الأخرى للمخطط الدائري](/cells/ar/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
+أحيانًا، ترغب في عرض تسميات إجمالي الفرعي والإجمالي الكلي بلغات غير إنجليزية مثل الصينية، واليابانية، والعربية، والهندية وما إلى ذلك. تُتيح Aspose.Cells لك القيام بذلك باستخدام فئة [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) والخاصية [**Workbook.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings). يُرجى مراجعة هذه المقالة حول كيفية الاستفادة من فئة [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings).
 
-## **قم بتنفيذ تسميات Subtotal أو Grand Total بلغات أخرى**
+- [استخدام فئة GlobalizationSettings لتحديد تسميات الإجمالي الفرعي المخصصة وتسمية أخرى لمخطط القطاع](/cells/ar/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج ملف اكسل](5115151.xlsx) وتنفذ أسماء المجموع الفرعي والمجموع الكلي في اللغة الصينية. رجاء تاكد من[إخراج ملف Excel](5115152.xlsx) تم إنشاؤها بواسطة هذا الرمز للرجوع اليها. نقوم أولاً بإنشاء فئة من[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)ثم استخدمه في الكود الخاص بنا.
+## **تنفيذ تسميات المجموع الفرعي أو الإجمالي الكلي بلغات أخرى**
+
+الشيفرة النموذجية التالية تحمل [ملف الإكسل النموذجي](5115151.xlsx) وتنفذ أسماء الإجمالي الفرعي والإجمالي الكلي باللغة الصينية. يُرجى التحقق من [الملف الإكسل الناتج](5115152.xlsx) الذي تم إنشاؤه بواسطة هذا الشيفرة للرجوع إليه. نقوم أولاً بإنشاء فئة [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) ثم نستخدمها في شيفرتنا.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-TotalsInOtherLanguages-GlobalizationSettings.cs" >}}
 
-استخدم الآن الفئة التي تم إنشاؤها أعلاه في الكود كما يلي:
+استخدم الفئة التي تم إنشاؤها أعلاه في الشيفرة كالتالي:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-TotalsInOtherLanguages-UsingGlobalizationSettings.cs" >}}

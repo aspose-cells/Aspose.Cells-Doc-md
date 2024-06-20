@@ -1,15 +1,16 @@
-﻿---
-title: PHP でシート インデックスを使用してワークシートを削除する
+---
+title: PHPでシートインデックスを使用してワークシートを削除
 type: docs
 weight: 30
 url: /ja/net/removing-worksheets-using-sheet-index-in-php/
 ---
-## **シート インデックスを使用したワークシートの削除**
-シート インデックスを使用したワークシートの削除
 
-**PHP コード**
+## **シートインデックスを使用してワークシートを削除**
+シートインデックスを使用してワークシートを削除
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -30,7 +31,7 @@ url: /ja/net/removing-worksheets-using-sheet-index-in-php/
         $ptr->Call($workbook,"Save",array($dataDir."/output.xls"));
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**シート インデックスを使用してワークシートを削除する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+**シートインデックスを使用してワークシートを削除（Aspose.Cells）**を以下のソーシャルコーディングサイトからダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetIndex.php)

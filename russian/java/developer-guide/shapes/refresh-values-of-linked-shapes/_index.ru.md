@@ -1,23 +1,24 @@
-﻿---
-title: Обновить значения связанных фигур
+---
+title: Обновить значения связанных форм
 type: docs
 weight: 3000
 url: /ru/java/refresh-values-of-linked-shapes/
 ---
+
 {{% alert color="primary" %}}
 
-Иногда у вас есть связанная фигура в вашем файле Excel, которая связана с некоторой ячейкой. В Excel Microsoft изменение значения связанной ячейки также меняет значение связанной фигуры. Это также отлично работает с Aspose.Cells, если вы хотите сохранить книгу в формате XLS или XLSX. Однако, если вы хотите сохранить свою книгу в формате PDF или HTML, вам придется позвонить[**Рабочий лист.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue()) для обновления значения связанной фигуры.
+Иногда в вашем файле Excel есть связанная форма, связанная с некоторой ячейкой. В Microsoft Excel изменение значения связанной ячейки также изменяет значение связанной формы. Это также работает хорошо с Aspose.Cells, если вы хотите сохранить ваш рабочий книгу в формате XLS или XLSX. Однако, если вы хотите сохранить вашу рабочую книгу в формате PDF или HTML, то вам нужно вызвать метод [**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection/#updateSelectedValue--), чтобы обновить значение связанной формы.
 
 {{% /alert %}}
 
 ## Пример
 
- На следующем снимке экрана показан исходный файл Excel, используемый в приведенном ниже примере кода. Он имеет связанный**Изображение 1** привязан к ячейке A1. Мы изменим значение ячейки A1 на Aspose.Cells, а затем позвоним[**Рабочий лист.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue() ) метод для обновления значения**Изображение 1** и сохраните его в формате PDF.
+На следующем скриншоте показан исходный файл Excel, используемый в примере кода ниже. В нем есть связанное **Изображение 1** связанное с ячейкой A1. Мы изменим значение ячейки A1 с помощью Aspose.Cells, а затем вызовем метод [**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection/#updateSelectedValue--) для обновления значения **Изображения 1** и сохранения его в формате PDF.
 
-![дело:изображение_альтернативный_текст](refresh-values-of-linked-shapes_1.png)
+![todo:image_alt_text](refresh-values-of-linked-shapes_1.png)
 
-Вы можете скачать[исходный файл Excel](5472956.xlsx) и[вывод PDF](5472955.pdf) по указанным ссылкам.
+Вы можете загрузить [исходный файл Excel](5472956.xlsx) и [выходной PDF](5472955.pdf) по указанным ссылкам.
 
-### Java код для обновления значений связанных фигур
+### Java-код для обновления значений связанных форм
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RefreshValuesOfLinkedShapes-RefreshValuesOfLinkedShapes.java" >}}

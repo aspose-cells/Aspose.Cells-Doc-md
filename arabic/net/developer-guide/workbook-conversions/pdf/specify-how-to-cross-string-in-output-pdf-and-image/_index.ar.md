@@ -1,24 +1,25 @@
-﻿---
-title: حدد كيفية عبور السلسلة في الإخراج PDF والصورة
+---
+title: تحديد كيفية عبور السلسلة في ملف PDF الناتج والصورة
 type: docs
 weight: 120
 url: /ar/net/specify-how-to-cross-string-in-output-pdf-and-image/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-عندما تحتوي الخلية على نص أو سلسلة ولكنها أكبر من عرض الخلية ، فإن السلسلة تتجاوز إذا كانت الخلية التالية في العمود التالي فارغة أو فارغة. عند حفظ ملف Excel في PDF / صورة ، يمكنك التحكم في هذا الفائض عن طريق تحديد النوع المتقاطع باستخدام[**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype)تعداد. لديها القيم التالية
+## **سيناريوهات الاستخدام المحتملة**
 
-- **TextCrossType افتراضي**: عرض نص مثل MS Excel الذي يعتمد على الخلية التالية. إذا كانت الخلية التالية خالية ، فستتقاطع السلسلة أو سيتم اقتطاعها.
+عندما تحتوي خلية على نص أو سلسلة نصية ولكنها أكبر من عرض الخلية، فإن السلسلة ستتجاوز إذا كانت الخلية التالية في العمود التالي فارغة أو تكون سلسلة فارغة. عند حفظ ملف Excel الخاص بك إلى PDF/صورة، يمكنك التحكم في هذا التجاوز عن طريق تحديد نوع التقاطع باستخدام تعداد [**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype). يحتوي على القيم التالية
 
-- **TextCrossType.CrossKeep**: اعرض السلسلة مثل تصدير MS Excel PDF / Image
+- **TextCrossType.Default**: عرض النص مثل MS Excel والذي يعتمد على الخلية التالية. إذا كانت الخلية التالية فارغة، سيتم عبور السلسلة أو سيتم قصها.
 
-- **TextCrossType.CrossOverride**: اعرض كل النص بعبور الخلايا الأخرى وتجاوز نص الخلايا المتقاطعة
+- **TextCrossType.CrossKeep**: عرض السلسلة مثل MS Excel عند تصديرها إلى PDF/صورة
 
-- **TextCrossType.StrictInCell**: اعرض السلسلة فقط في عرض الخلية.
+- **TextCrossType.CrossOverride**: عرض كل النص بعبور الخلايا الأخرى وتجاوز النص المتجاوز
 
-## **حدد كيفية عبور السلسلة في الإخراج PDF / صورة باستخدام TextCrossType**
+- **TextCrossType.StrictInCell**: عرض السلسلة فقط ضمن عرض الخلية.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل نموذج ملف Excel وحفظه بتنسيق PDF / صورة بتحديد مختلف[**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype). يمكن تنزيل نموذج ملف Excel وملفات الإخراج من الروابط التالية:
+## **تحديد كيفية عبور السلسلة في ملف PDF/صورة الناتج باستخدام TextCrossType**
+
+يحمل الكود النموذجي التالي ملف Excel النموذجي ويحفظه بتنسيق PDF/صورة عن طريق تحديد [**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype) مختلفة. يمكن تنزيل ملف Excel النموذجي والملفات الناتجة من الروابط التالية:
 
 [sampleCrossType.xlsx](81920905.xlsx)
 
@@ -26,6 +27,6 @@ url: /ar/net/specify-how-to-cross-string-in-output-pdf-and-image/
 
 [outputCrossType.png](81920904.png)
 
-### عينة من الرموز
+### مثال على الكود
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderUsingTextCrossType-1.cs" >}}

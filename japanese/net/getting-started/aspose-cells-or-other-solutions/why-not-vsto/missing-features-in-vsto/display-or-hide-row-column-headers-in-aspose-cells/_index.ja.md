@@ -1,38 +1,39 @@
-﻿---
-title: Aspose.Cells で行の列ヘッダーを表示または非表示にする
+---
+title: Aspose.Cellsで行列ヘッダーの表示または非表示を制御する
 type: docs
 weight: 60
 url: /ja/net/display-or-hide-row-column-headers-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Excel ファイル内のすべてのワークシートは、行と列に配置されたセルで構成されています。すべての行と列には、それらを識別し、個々のセルを識別するために使用される一意の値があります。たとえば、行には 1、2、3、4 などの番号が付けられ、列は A、B、C、D などのアルファベット順に並べられます。行と列の値はヘッダーに表示されます。開発者は、Aspose.Cells を使用して、これらの行と列のヘッダーの表示を制御できます。
+Excelファイルのすべてのワークシートは、行と列に配置されたセルで構成されています。すべての行と列には、それぞれ固有の値があり、それを使用して識別し、個々のセルを識別します。たとえば、行は1、2、3、4などと番号がつけられ、列はA、B、C、Dなどとアルファベット順に並べられます。行と列の値はヘッダーに表示されます。Aspose.Cellsを使用すると、開発者はこれらの行と列のヘッダーの表示を制御できます。
 
 {{% /alert %}}
 
-## **ワークシートの表示の制御**
+## **ワークシートの表示を制御する**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)、Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートにアクセスできるコレクション。
+Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイルの各ワークシートへのアクセスを可能にする[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。行ヘッダーと列ヘッダーの表示を制御するには、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス'[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)財産。[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)ブール型のプロパティです。つまり、格納できるのは**真実**また**間違い**価値。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスによって表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスは、ワークシートの管理に幅広いプロパティとメソッドを提供します。行と列のヘッダーの表示を制御するには、[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)プロパティを使用します。[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)はブール値のプロパティであり、**true**または**false**の値のみを格納できます。
 
-の使用方法を示す完全な例を以下に示します。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス'[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)ファイルの最初のワークシートの行ヘッダーと列ヘッダーを非表示にするプロパティ。
+以下に示す完全な例は、ファイルの最初のワークシートで行と列のヘッダーを非表示にする方法を示しています。
 
-スクリーンショットは、入力ファイルである Book1.xls を示しています。これには、Sheet1、Sheet2、Sheet3 の 3 つのワークシートが含まれています。各ワークシートには、行と列のヘッダーが表示されています。
+スクリーンショットはBook1.xls、入力ファイルを示しています。Sheet1、Sheet2、Sheet3の3つのワークシートが含まれています。それぞれのワークシートには、行と列のヘッダーが表示されています。
 
 **Book1.xls: 修正前のワークシート**
 
-![todo:画像_代替_文章](display-or-hide-row-column-headers-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-row-column-headers-in-aspose-cells_1.png)
 
-Book1.xls は、Workbook クラスの Open メソッドを呼び出して開かれ、最初のワークシートの行ヘッダーと列ヘッダーは非表示になります。変更されたファイルは、output.xls として保存されます。
+Book1.xlsはWorkbookクラスのOpenメソッドを呼び出すことで開かれ、最初のワークシートの行と列のヘッダーが非表示になります。変更されたファイルはoutput.xlsとして保存されます。
 
-**Output.xls: 修正後のワークシート** 
+**Output.xls: モディファイ後のワークシート** 
 
-![todo:画像_代替_文章](display-or-hide-row-column-headers-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-row-column-headers-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -62,7 +63,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Row%20Column%20Headers)
 
 ## **サンプルコードをダウンロード**

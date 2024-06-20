@@ -1,35 +1,36 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.3.2
+---
+title: Offentliga API ändringar i Aspose.Cells 8.3.2
 type: docs
 weight: 120
 url: /sv/net/public-api-changes-in-aspose-cells-8-3-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.3.1 till 8.3.2 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder,[lagt till klasser etc.](/cells/sv/net/public-api-changes-in-aspose-cells-8-3-2/) och[borttagna klasser osv.](/cells/sv/net/public-api-changes-in-aspose-cells-8-3-2/), men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringarna i Aspose.Cells API från version 8.3.1 till 8.3.2 som kan vara av intresse för modul/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, [tillagda klasser etc.](/cells/sv/net/public-api-changes-in-aspose-cells-8-3-2/) och [borttagna klasser etc.](/cells/sv/net/public-api-changes-in-aspose-cells-8-3-2/), utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
+## **Tillagda API:er**
 ### **Mekanism för att ställa in absolut position för PivotItem**
- För att tillhandahålla funktionen[PivotItems absoluta positionering](/cells/sv/net/specifying-the-absolute-position-of-the-pivot-item/)Aspose.Cells for .NET 8.3.2 har avslöjat en rad egenskaper och hjälpmetoder enligt listan nedan.
+För att tillhandahålla funktionen [PivotItem's Absolute Positioning](/cells/sv/net/specifying-the-absolute-position-of-the-pivot-item/), har Aspose.Cells for .NET 8.3.2 exponerat en serie egenskaper och hjälpmetoder som listas nedan.
 
-- Egenskapen PivotItem.Position kan användas för att ange positionsindex i alla PivotItems oavsett överordnad nod.
-- PivotItem.PositionInSameParentNode-egenskapen kan användas för att ange positionsindex i PivotItems under samma överordnade nod.
-- PivotItem.Move(int count, bool isSameParent)-metoden kan användas för att flytta objektet uppåt eller nedåt baserat på count-värdet, där count är antalet positioner för att flytta PivotItem uppåt eller nedåt. Om räknevärdet är mindre än noll, kommer objektet att flyttas uppåt, där som om räknevärdet är större än noll, kommer PivotItem att flyttas nedåt, boolesk typ isSameParent parametern anger om flyttoperationen måste utföras i samma överordnade nod eller inte.
+- Egenskapen PivotItem.Position kan användas för att specificera positionen index i alla PivotItems oavsett förälder.
+- Egenskapen PivotItem.PositionInSameParentNode kan användas för att specificera positionen index i PivotItems under samma föräldernod.
+- Metoden PivotItem.Move(int count, bool isSameParent) kan användas för att flytta objektet upp eller ner baserat på värdet av count, där count är antalet positioner att flytta PivotItem upp eller ner. Om count-värdet är mindre än noll kommer objektet att flyttas upp, medan om count-värdet är större än noll kommer PivotItem att flyttas ner. Den Booleska typen isSameParent specificerar om flyttoperationen ska utföras i samma föräldernod eller inte.
 
 {{% alert color="primary" %}} 
 
-Observera att det är nödvändigt att anropa metoderna PivotTable.RefreshData och PivotTable.CalculateData innan du använder metoderna PivotItem.Position, PivotItem.PositionInSameParentNode och PivotItem.Move(int count, bool isSameParent).
+Observera att det är nödvändigt att anropa metoderna PivotTable.RefreshData och PivotTable.CalculateData innan du använder egenskaperna PivotItem.Position, PivotItem.PositionInSameParentNode och PivotItem.Move(int count, bool isSameParent).
 
 {{% /alert %}} 
-### **Class SignatureLine tillagd**
-Aspose.Cells for .NET 8.3.2 ger stöd för signaturlinjen för att efterlikna MS Excels motsvarande funktion. Den här versionen av Aspose.Cells for .NET har exponerat klassen SignatureLine och egenskapen Picture.SignatureLine för detta ändamål.
+### **Klass SignatureLine tillagd**
+Aspose.Cells for .NET 8.3.2 ger stöd för Signature Line för att härma MS Excel:s motsvarande funktion. Denna version av Aspose.Cells for .NET har exponerat klassen SignatureLine och egenskapen Picture.SignatureLine för detta ändamål.
 
-Följande exempelkod lägger till en signaturrad med egenskapen Picture.SignatureLine till arbetsboken.
+Följande exempelkod lägger till en signaturlinje med hjälp av egenskapen Picture.SignatureLine till arbetsboken.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -60,14 +61,14 @@ pic.SignatureLine = s;
 {{< /highlight >}}
 
 
-### **Metoddiagram.HasAxis tillagd**
-Med lanseringen av v8.3.2 har Aspose.Cells API tillhandahållit metoden Chart.HasAxis(AxisType axisType, bool isPrimary) för att avgöra om diagrammet har en viss axel eller inte.
+### **Tillagd metod Chart.HasAxis**
+Med utgåvan av v8.3.2 har Aspose.Cells API tillhandahållit metoden Chart.HasAxis(AxisType axisType, bool isPrimary) för att avgöra om diagrammet har en särskild axel eller inte.
 
-Följande exempelkod visar användningen av metoden Chart.HasAxis för att avgöra om exempeldiagrammet har primär-, sekundär- och värdeaxel.
+Följande exempelkod visar användningen av metoden Chart.HasAxis för att avgöra om det angivna diagrammet har primär-, sekundär- och värdeaxel.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -102,12 +103,12 @@ Console.WriteLine("Has Secondary Value Axis: " + ret);
 {{< /highlight >}}
 
 
-### **Method WorkbookSettings.CheckWriteProtectedPassword har lagts till**
-Metod WorkbookSettings.CheckWriteProtectedPassword gör det möjligt för utvecklarna att kontrollera om ett givet lösenord för att ändra kalkylarket är korrekt eller inte.
+### **Tillagd metod WorkbookSettings.CheckWriteProtectedPassword**
+Metoden WorkbookSettings.CheckWriteProtectedPassword möjliggör för utvecklare att kontrollera om ett angivet lösenord för att ändra kalkylbladet är korrekt eller inte.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify password to open inside the load options
 
@@ -128,14 +129,14 @@ Console.WriteLine("Is 567 correct Password to modify: " + ret);
 {{< /highlight >}}
 
 
-### **Överbelastningsmetoder WorkbookRender.ToPrinter & SheetRender.ToPrinter har lagts till**
-Aspose.Cells for .NET 8.3.2 har tillhandahållit arbetsboken WorkbookRender.ToPrinter(sträng PrinterName, int PrintPageIndex, int PrintPageCount) och SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageIndex, int PrintPageCount) arbetsblad för att skriva ut arbetsboken respektive.
+### **Överbelastningsmetoder WorkbookRender.ToPrinter och SheetRender.ToPrinter tillagda**
+Aspose.Cells for .NET 8.3.2 har tillhandahållit metoderna WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) och SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) för att skriva ut sidområdet i arbetsbok och arbetsblad, respektive.
 
-Följande exempelkod illustrerar användningen av ovannämnda metoder för att skriva ut sidorna 2-5 i arbetsboken och arbetsbladet.
+Följande exempelkod illustrerar användningen av ovanstående metoder för att skriva ut sidorna 2-5 i arbetsboken och arbetsbladet.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -164,32 +165,32 @@ sr.ToPrinter(printerName, 1, 4);
 {{< /highlight >}}
 
 
-### **Metod Worksheet.RefreshPivotTables tillagda**
-Den nya metoden Worksheet.RefreshPivotTables gör det möjligt att uppdatera alla pivottabeller i ett visst kalkylblad i ett enda anrop.
+### **Tillagd metod Worksheet.RefreshPivotTables**
+Den nytt tillagda metoden Worksheet.RefreshPivotTables gör det möjligt att uppdatera alla pivot-tabeller i en given kalkylblad med ett enda anrop.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  worksheet.RefreshPivotTables();
 
 {{< /highlight >}}
 
 
-### **Metod Workbook.GetNamedStyle tillagd**
-Aspose.Cells for .NET API har avslöjat metoden Workbook.GetNamedStyle som accepterar strängen som parameter och hämtar Style-objektet baserat på parametern som skickas.
-### **Metod Cells.ImportTwoDimensionArray har lagts till**
-Aspose.Cells for .NET API har gjort det möjligt att importera tvådimensionella arrayer till kalkylbladsceller genom att exponera metoden Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions)-metoden Den nämnda metoden importerar en tvådimensionell array av data till ett kalkylblad med mer flexibla alternativ definierade i TxtLoadOptions.
-### **Egenskaper OnePagePerSheet, PageIndex & PageCount har lagts till**
-Aspose.Cells for .NET 8.3.2 har exponerat egenskaperna OnePagePerSheet, PageIndex och PageCount för klassen XpsSaveOptions. Användaren kan anpassa allt innehåll i ett kalkylblad på en enda sida av XPS med hjälp av egenskapen OnePagePerSheet och/eller hämta antalet sidor som ska skrivas ut med egenskapen PageCount. Egenskapen PageIndex hämtar/ställer in det 0-baserade indexet för den första sidan som ska sparas.
-### **Egenskaper NumberDecimalSeparator & NumberGroupSeparator tillagd**
-Aspose.Cells for .NET 8.3.2 har introducerat NumberDecimalSeparator & NumberGroupSeparator-egenskaper som kan hämta/ställa in de anpassade separatorer som används för att formatera och analysera de numeriska värdena i kalkylblad.
+### **Tillagd metod Workbook.GetNamedStyle**
+Aspose.Cells for .NET API har exponerat metoden Workbook.GetNamedStyle som accepterar en sträng som parameter och hämtar Style-objektet baserat på den passerade parametern.
+### **Tillagd metod Cells.ImportTwoDimensionArray**
+Aspose.Cells for .NET API har gjort det möjligt att importera tvådimensionella arrayer till kalkylbladsceller genom att exponera metoden Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). Sagda metod importerar en tvådimensionell array av data till ett arbetsblad med mer flexibla alternativ som definierats i TxtLoadOptions.
+### **Tillagd egenskaper OnePagePerSheet, PageIndex och PageCount**
+Aspose.Cells for .NET 8.3.2 har exponerat egenskaperna OnePagePerSheet, PageIndex och PageCount för klassen XpsSaveOptions. Användaren kan anpassa allt innehåll i ett kalkylark på en enda sida av XPS med hjälp av egenskapen OnePagePerSheet och/eller hämta antalet sidor som ska skrivas ut med egenskapen PageCount. Egenskapen PageIndex får/inställer den nollbaserade index för den första sidan som ska sparas.
+### **Tillagd egenskaper NumberDecimalSeparator och NumberGroupSeparator**
+Aspose.Cells for .NET 8.3.2 har introducerat egenskaperna NumberDecimalSeparator och NumberGroupSeparator som kan få/inställa anpassade separatorer som används för formatering och tolkning av numeriska värden i kalkylblad.
 
-Följande exempelkod illustrerar hur du anger anpassade avgränsare med Aspose.Cells API. Följande kod anger anpassade decimal- och gruppavgränsare som punkt respektive mellanslag.
+Följande exempelkod illustrerar hur man specificerar anpassade separatorer med Aspose.Cells API. Följande kod specificerar anpassade decimal- och grup separatorer som punkt och mellanslag.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook();
 
@@ -202,12 +203,12 @@ workbook.Settings.NumberGroupSeparator = ' ';
 {{< /highlight >}}
 
 
-### **Egenskapen PdfSaveOptions.IsFontSubstitutionCharGranularity har lagts till**
-Aspose.Cells for .NET 8.3.2 har avslöjat egenskapen PdfSaveOptions.IsFontSubstitutionCharGranularity för att lösa problemet där vissa Unicode-tecken inte kan visas med en specifik teckensnittsfamilj. När egenskapen PdfSaveOptions.IsFontSubstitutionCharGranularity är inställd på true ändras endast teckensnittet med ett specifikt tecken som inte är visningsbart till visningsbart teckensnitt och resten av ordet eller meningen ska förbli i det ursprungliga teckensnittet.
+### **Tillagd PdfSaveOptions.IsFontSubstitutionCharGranularity Egenskap**
+Aspose.Cells for .NET 8.3.2 har exponerat PdfSaveOptions.IsFontSubstitutionCharGranularity egenskapen för att komma över problemet där vissa Unicode-tecken inte kan visas med en specifik teckensnittsfamilj. När PdfSaveOptions.IsFontSubstitutionCharGranularity egenskapen är satt till true kommer endast teckensnittet för ett specifikt tecken som inte kan visas att ändras till ett visbart teckensnitt och resten av ordet eller meningen ska förbli i det ursprungliga teckensnittet.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Save to Pdf after setting PdfSaveOptions.IsFontSubstitutionCharGranularity to true
 
@@ -218,36 +219,36 @@ opts.IsFontSubstitutionCharGranularity = true;
 {{< /highlight >}}
 
 
-## **Borttagna API:er**
-### **Tog bort föråldrade metoder**
-Följande metoder har tagits bort från allmänheten API.
+## **Borttagen API:er**
+### **Borttagna föråldrade metoder**
+Följande metoder har tagits bort från den offentliga API:n.
 
-- Arbetsbok.Öppna & Arbetsbok.Spara metoder.
-- Workbook.SetOleSize-metoden.
-- Arbetsbok.LoadData-metod.
-- WorkbookDesigner.Open & WorkbookDesigner.Spara metoder.
-- Metoden WorksheetCollection.DeleteName.
-### **Borttagen föråldrade egenskaper**
-Följande fastigheter har tagits bort från allmänheten API.
+- Workbook.Open & Workbook.Save metoder.
+- Workbook.SetOleSize metod.
+- Workbook.LoadData metod.
+- WorkbookDesigner.Open & WorkbookDesigner.Save metoder.
+- WorksheetCollection.DeleteName metod.
+### **Borttagna föråldrade egenskaper**
+Följande egenskaper har tagits bort från den offentliga API:n.
 
-- Workbook.IsProtected-egenskap.
-- Arbetsbok.Språkegenskap.
-- Arbetsbok.Regionsegendom.
-- Egenskapen WorkbookSettings.ReCalcOnOpen.
-- WorkbookSettings.Language-egenskap.
-- WorkbookSettings.Encoding-egenskap.
-- Egenskapen WorkbookSettings.ConvertNumericData.
-- Egenskapen WorksheetCollection.HidePivotFieldList.
-- Egenskapen WorksheetCollection.EnableHTTPCompression.
-- WorksheetCollection.IsMinimized property.
-- Egenskapen WorksheetCollection.IsHidden.
-- Egenskapen WorksheetCollection.SheetTabBarWidth.
-- Egenskapen WorksheetCollection.WindowLeft.
-- Egenskapen WorksheetCollection.WindowLeftInch.
-- Egenskapen WorksheetCollection.WindowLeftCM.
-- Egenskapen WorksheetCollection.WindowTop.
-- Egenskapen WorksheetCollection.WindowTopInch.
-- Egenskapen WorksheetCollection.WindowTopCM.
+- Workbook.IsProtected egenskap.
+- Workbook.Language egenskap.
+- Workbook.Region egenskap.
+- WorkbookSettings.ReCalcOnOpen egenskap.
+- WorkbookSettings.Language egenskap.
+- WorkbookSettings.Encoding egenskap.
+- WorkbookSettings.ConvertNumericData egenskap.
+- WorksheetCollection.HidePivotFieldList egenskap.
+- WorksheetCollection.EnableHTTPCompression egenskap.
+- WorksheetCollection.IsMinimized egenskap.
+- WorksheetCollection.IsHidden egenskap.
+- WorksheetCollection.SheetTabBarWidth egenskap.
+- WorksheetCollection.WindowLeft egenskap.
+- WorksheetCollection.WindowLeftInch egenskap.
+- WorksheetCollection.WindowLeftCM egenskap.
+- WorksheetCollection.WindowTop egenskap.
+- WorksheetCollection.WindowTopInch egenskap.
+- WorksheetCollection.WindowTopCM egenskap.
 - Egenskapen WorksheetCollection.WindowWidth.
 - Egenskapen WorksheetCollection.WindowWidthInch.
 - Egenskapen WorksheetCollection.WindowWidthCM.
@@ -256,18 +257,18 @@ Följande fastigheter har tagits bort från allmänheten API.
 - Egenskapen WorksheetCollection.WindowHeightCM.
 - Egenskapen Worksheet.HPageBreaks.
 - Egenskapen Worksheet.VPageBreaks.
-- HtmlSaveOptions.DisplayHTMLCrossString-egenskap.
-- HtmlSaveOptions.ExportChartImageFormat-egenskapen.
+- Egenskapen HtmlSaveOptions.DisplayHTMLCrossString.
+- Egenskapen HtmlSaveOptions.ExportChartImageFormat.
 - Egenskapen SaveOptions.ExpCellNameToXLSX.
 - Egenskapen SaveOptions.DefaultFont.
 - Egenskapen SaveOptions.Compliance.
-- SaveOptions.PdfBookmark-egenskap.
+- Egenskapen SaveOptions.PdfBookmark.
 - Egenskapen SaveOptions.PdfImageCompression.
-- TxtSaveOptions.AlwaysQuoted egenskap.
-## **Föråldrade API:er**
-### **Egendomsarbetsbok.SaveOptions föråldrat**
-Ett objekt med SaveOptions måste skickas till Workbook.Save-metoden efter att ha ställt in korrekta SaveOptions-egenskaper.
-### **Fastighetsarbetsbok. Stilar & Klassstilsamling Föråldrad**
-Det rekommenderas att använda metoden Workbook.CreateStyle för att skapa och manipulera stil för Workbook-instanser istället för att skapa en Style med metoden StyleCollection.Add. Dessutom kan metoden Workbook.GetNamedStyle(sträng) användas för att få namngiven stil istället för StyleCollection[sträng].
-### **Metod PivotItem.Move(int count) Föråldrad**
-Med lanseringen av Aspose.Cells 8.3.2 har API introducerat ytterligare en överbelastning av metoden PivotItem.Move som accepterar heltalsparametern för count och boolean parameter för att flytta en PivotItem inom den överordnade noden.
+- Egenskapen TxtSaveOptions.AlwaysQuoted.
+## **Obsoletterade API:er**
+### **Obsoletterad Workbook.SaveOptions-egenskap**
+En instans av SaveOptions måste skickas till Workbook.Save-metoden efter att ha ställt in lämpliga SaveOptions-egenskaper.
+### **Obsoletterad Workbook.Styles Property & Class StyleCollection**
+Det rekommenderas att använda Workbook.CreateStyle-metoden för att skapa och manipulera stil för Workbook-instansen istället för att skapa en stil med StyleCollection.Add-metoden. Dessutom kan Workbook.GetNamedStyle(string)-metoden användas för att hämta namngiven stil istället för StyleCollection[string].
+### **Obsoletterad PivotItem.Move(int count) Method**
+Med utgivningen av Aspose.Cells 8.3.2 har API:n introducerat en annan överbelastning av PivotItem.Move-metoden som accepterar heltalsparametern för räkna och booleska parametern för att flytta en PivotItem inom föräldernoden.

@@ -1,17 +1,18 @@
-﻿---
+---
 title: Установить область печати
 type: docs
 weight: 30
 url: /ru/net/set-print-area/
 ---
-## **Aspose.Cells - Установить область печати**
-По умолчанию только область печати включает все области рабочего листа, содержащие данные. Разработчики могут установить определенную область печати рабочего листа.
 
-Чтобы выбрать конкретную область печати, используйте кнопку[Настройка страницы](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)свойство класса PrintArea. Назначьте этому свойству диапазон ячеек, определяющий область печати.
+## **Aspose.Cells - Установка области печати**
+По умолчанию область печати включает все области рабочего листа, содержащие данные. Разработчики могут определить конкретную область печати для рабочего листа.
+
+Чтобы выбрать определенную область печати, используйте свойство области печати класса [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). Присвойте этому свойству диапазон ячеек, определяющий область печати.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -60,12 +61,12 @@ pageSetup.PrintArea = "A1:F20";
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Установить область печати**
-Метод Workbook.setPrintArea доступен для установки свойств страницы области печати.
+## **NPOI - HSSF XSSF - Установка области печати**
+Метод Workbook.setPrintArea доступен для установки параметров страницы области печати.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -123,13 +124,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Установить область печати** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузить **Установка области печати** с любого из нижеуказанных сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Настройка параметров печати](/cells/ru/net/setting-print-options/).
+Для получения более подробной информации перейдите на [Настройка параметров печати](/cells/ru/net/setting-print-options/).
 
 {{% /alert %}}

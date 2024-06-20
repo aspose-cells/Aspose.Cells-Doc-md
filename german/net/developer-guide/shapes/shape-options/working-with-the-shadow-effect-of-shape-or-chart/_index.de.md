@@ -1,21 +1,22 @@
-﻿---
-title: Arbeiten mit dem Schatteneffekt von Formen oder Diagrammen
+---
+title: Arbeiten mit dem Schatten Effekt von Form oder Diagramm
 type: docs
 weight: 220
 url: /de/net/working-with-the-shadow-effect-of-shape-or-chart/
 ---
-## **Mögliche Nutzungsszenarien**
- Aspose.Cells bietet die[Shape.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect) Eigentum zusammen mit[Schatteneffekt](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect) Klasse, um mit dem Schatteneffekt von Formen oder Diagrammen zu arbeiten. Das[Schatteneffekt](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect)Klasse enthält die folgenden Eigenschaften, die eingestellt werden können, um je nach Anwendungsanforderungen unterschiedliche Ergebnisse zu erzielen.
+
+## **Mögliche Verwendungsszenarien**
+Aspose.Cells bietet die [Shape.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect)-​Eigenschaft zusammen mit der [ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect)-​Klasse zur Arbeit mit dem Schatteneffekt der Form oder des Diagramms. Die [ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect)-​Klasse enthält die folgenden Eigenschaften, die entsprechend den Anforderungen der Anwendung festgelegt werden können.
 
 - [Winkel](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/angle)
-- [Verwischen](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/blur)
+- [Unschärfe](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/blur)
 - [Farbe](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/color)
-- [Distanz](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/distance)
-- [PresetType](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype)
+- [Entfernung](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/distance)
+- [Voreinstellungstyp](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype)
 - [Größe](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/size)
 - [Transparenz](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/transparency)
-## **Arbeiten mit dem Schatteneffekt von Formen oder Diagrammen**
- Der folgende Beispielcode lädt die[Excel-Quelldatei](5115425.xlsx) und greift auf die erste Form im ersten Arbeitsblatt zu und legt die Untereigenschaften von fest[Shape.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect)-Eigenschaft und speichert dann die Arbeitsmappe in der[Excel-Datei ausgeben](5115411.xlsx).
+## **Arbeiten mit dem Schatten-Effekt von Form oder Diagramm**
+Der folgende Beispielcode lädt die [Quellexceldatei](5115425.xlsx) und greift auf die erste Form im ersten Arbeitsblatt zu und setzt die Unter­eigenschaften der [Shape.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect)-​Eigenschaft und speichert anschließend die Arbeitsmappe in der [Ausgabeexceldatei](5115411.xlsx).
 
 
 

@@ -1,15 +1,16 @@
-﻿---
-title: Conversión de archivos HTML a hojas de cálculo de Excel en Ruby
+---
+title: Convertir archivos HTML en hojas de cálculo de Excel en Ruby
 type: docs
 weight: 40
 url: /es/java/converting-html-files-to-excel-spreadsheets-in-ruby/
 ---
-## **Aspose.Cells - Conversión de archivos HTML a hojas de cálculo de Excel**
-Para convertir HTML a hoja de cálculo usando Aspose.Cells for Java en Ruby, simplemente invoque html_a_método excel() del módulo Converter.
 
-**código rubí**
+## **Aspose.Cells - Convertir archivos HTML en hojas de cálculo de Excel**
+Para convertir HTML a hoja de cálculo usando Aspose.Cells for Java en Ruby, simplemente invoque el método html_to_excel() del módulo del Convertidor.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def html_to_excel()
 
@@ -38,7 +39,7 @@ Para convertir HTML a hoja de cálculo usando Aspose.Cells for Java en Ruby, sim
 end
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Conversión de archivos HTML a hojas de cálculo de Excel (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Convertir archivos HTML a Hojas de cálculo de Excel (Aspose.Cells)** desde alguno de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

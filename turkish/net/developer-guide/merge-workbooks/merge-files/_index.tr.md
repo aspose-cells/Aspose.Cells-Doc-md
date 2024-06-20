@@ -1,20 +1,21 @@
-﻿---
-title: Dosyaları Birleştir
+---
+title: Dosyaları Birleştirme
 type: docs
 weight: 20
 url: /tr/net/merge-files/
 ---
+
 ## **Giriş**
 
- Aspose.Cells, dosyaları birleştirmek için farklı yollar sunar. Veriler, biçimlendirme ve formüller içeren basit dosyalar için,[**Workbook.Combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) yöntem birkaç çalışma kitabını birleştirmek için kullanılabilir ve[**Worksheet.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index)yöntem, çalışma sayfalarını yeni bir çalışma kitabına kopyalamak için kullanılabilir. Bu yöntemlerin kullanımı kolay ve etkilidir, ancak birleştirilecek çok sayıda dosyanız varsa, çok fazla sistem kaynağı tükettiklerini görebilirsiniz. Bunu önlemek için,[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)statik yöntem, birkaç dosyayı birleştirmenin daha verimli bir yolu.
+Aspose.Cells, dosyaları birleştirmek için farklı yöntemler sunar. Basit veri, biçimlendirme ve formüller içeren dosyalar için, [**Workbook.Combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) yöntemi kullanılarak birkaç çalışma kitabı birleştirilebilir ve [**Worksheet.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index) yöntemi kullanılarak çalışsayfalar yeni bir çalışma kitabına kopyalanabilir. Bu yöntemler kullanımı kolay ve etkilidir, ancak birçok dosyayı birleştirmeniz gerekiyorsa, sistem kaynaklarının büyük bir bölümünü aldıklarını fark edebilirsiniz. Bunu önlemek için, daha verimli bir şekilde birden fazla dosyayı birleştirmek için [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) statik yöntemini kullanın.
 
-## **Aspose.Cells Kullanarak Dosyaları Birleştirin**
+## **Aspose.Cells Kullanarak Dosyaları Birleştirme**
 
- Aşağıdaki örnek kod, büyük dosyaları kullanarak nasıl birleştirileceğini gösterir.[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)yöntem. Kitap1.xls ve Kitap2.xls olmak üzere iki basit ama büyük dosya gerektirir. Dosyalar yalnızca biçimlendirilmiş verileri ve formülleri içerir.
+Aşağıdaki örnek kod, [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) yöntemini kullanarak büyük dosyaları birleştirmenin nasıl yapılacağını göstermektedir. Basit ancak büyük verilere ve formüllere sahip Book1.xls ve Book2.xls adlı iki dosya alır.
 
 {{% alert color="primary" %}}
 
- bu[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) yöntem yalnızca verilerin, stillerin, biçimlendirmenin ve formüllerin birleştirilmesini destekler. Grafikler, resimler, yorumlar veya diğer nesneler gibi nesneler bu yöntem kullanılarak birleştirilemez. Ayrıca, işlem için geçici verileri depolamak için önbelleğe alınmış bir dosya kullanılır.
+Metod yalnızca veri, stiller, biçimlendirme ve formülleri birleştirmeyi destekler. Grafikler, resimler, yorumlar veya diğer nesneler gibi objeler, bu yöntemi kullanarak birleştirilmeyebilir. Ayrıca, işlem için geçici verileri saklamak için önbellek dosyası kullanılır.
 
 {{% /alert %}}
 

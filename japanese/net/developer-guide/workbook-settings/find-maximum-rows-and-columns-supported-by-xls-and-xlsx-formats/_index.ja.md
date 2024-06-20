@@ -1,16 +1,17 @@
-﻿---
-title: XLS および XLSX 形式でサポートされている行と列の最大数を見つける
+---
+title: XLSおよびXLSX形式がサポートする最大行数および列数を検索する
 type: docs
 weight: 20
 url: /ja/net/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
 ---
-## **考えられる使用シナリオ**
 
-Excel 形式でサポートされている行と列の数が異なります。たとえば、XLS は 65536 行と 256 列をサポートし、XLSX は 1048576 行と 16384 列をサポートします。特定の形式でサポートされている行と列の数を知りたい場合は、次を使用できます[**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow)と[**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)プロパティ。
+## **可能な使用シナリオ**
 
-## **XLS および XLSX 形式でサポートされている行と列の最大数を見つける**
+Excelフォーマットでサポートされる行数と列数が異なります。たとえば、XLSは65536行と256列をサポートし、XLSXは1048576行と16384列をサポートします。与えられたフォーマットでサポートされる行数と列数を知りたい場合は、[**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow)および[**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)プロパティを使用できます。
 
-次のサンプル コードでは、最初に XLS 形式で、次に XLSX 形式でブックを作成します。作成後、値を出力します[**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow)と[**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)プロパティ。以下のコードのコンソール出力を参照してください。
+## **XLSおよびXLSX形式がサポートする最大行数および列数を検索する**
+
+次のサンプルコードでは、まずXLS形式でブックを作成し、次にXLSX形式で作成します。作成後、[**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow)および[**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)プロパティの値を印刷します。以下に示すコードのコンソール出力を参照してください。
 
 ## **サンプルコード**
 
@@ -18,7 +19,7 @@ Excel 形式でサポートされている行と列の数が異なります。�
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Maximum Rows and Columns supported by XLS format.
 

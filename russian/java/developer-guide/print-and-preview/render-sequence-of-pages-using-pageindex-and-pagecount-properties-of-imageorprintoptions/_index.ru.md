@@ -1,20 +1,21 @@
-﻿---
-title: Визуализация последовательности страниц с использованием свойств PageIndex и PageCount в ImageOrPrintOptions
+---
+title: Отобразить последовательность страниц с использованием свойств PageIndex и PageCount класса ImageOrPrintOptions
 type: docs
 weight: 100
 url: /ru/java/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
 ---
+
 ## **Возможные сценарии использования**
 
-Вы можете преобразовать последовательность страниц вашего файла Excel в изображения, используя Aspose.Cells с[**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#PageIndex)и[**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#PageCount)характеристики. Эти свойства полезны, когда на вашем листе так много, например, тысячи страниц, но вы хотите отобразить только некоторые из них. Это не только сэкономит время обработки, но и уменьшит потребление памяти процессом рендеринга.
+Вы можете отображать последовательность страниц вашего файла Excel в формате изображений с помощью Aspose.Cells используя свойства [**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#PageIndex) и [**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#PageCount). Эти свойства полезны, когда в вашей таблице так много например тысячи страниц, но вы хотите отобразить только некоторые из них. Это не только сэкономит время обработки, но и снизит память, используемую процессом рендеринга.
 
-## **Визуализация последовательности страниц с использованием свойств PageIndex и PageCount в ImageOrPrintOptions**
+## **Отобразить последовательность страниц с использованием свойств PageIndex и PageCount класса ImageOrPrintOptions**
 
-Следующий пример кода загружает[образец файла Excel](55541812.xlsx)и отображает только страницы 4, 5, 6 и 7, используя[**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#PageIndex)и[**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#PageCount)характеристики. Вот отрендеренные страницы, сгенерированные кодом.
+В следующем образце кода загружается [образец Excel-файла](55541812.xlsx) и рендерятся только страницы 4, 5, 6 и 7 с использованием свойств [**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#PageIndex) и [**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#PageCount). Вот сгенерированные кодом отображенные страницы.
 
-|![дело:изображение_альтернативный_текст](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_1.png)|![дело:изображение_альтернативный_текст](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_2.png)|
-|:- |:- |
-|![дело:изображение_альтернативный_текст](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_3.png)|![дело:изображение_альтернативный_текст](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_4.png)|
+|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_1.png)|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_2.png)|
+| :- | :- |
+|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_3.png)|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_4.png)|
 
 ## **Образец кода**
 

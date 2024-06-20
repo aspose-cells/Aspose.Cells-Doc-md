@@ -1,27 +1,28 @@
-﻿---
-title: Создать новую книгу
+---
+title: Создание новой книги
 type: docs
 weight: 20
 url: /ru/net/create-new-workbook/
 ---
-## **Aspose.Cells - Создать новую книгу**
+
+## **Aspose.Cells - Создание новой книги**
 Класс Workbook доступен для простого использования
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
 workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many formats
 
 {{< /highlight >}}
-## **NPOI — HSSF XSSF — Создать новую книгу**
-Создайте новую книгу с помощью класса Workbook и сохраните с помощью FileOutputStream.
+## **NPOI - HSSF XSSF - Создание новой книги**
+Создание новой книги с использованием класса Workbook и сохранение с помощью FileOutputStream.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -38,7 +39,7 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Создать новую книгу** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузить **Создание новой книги** с любого из нижеуказанных сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)

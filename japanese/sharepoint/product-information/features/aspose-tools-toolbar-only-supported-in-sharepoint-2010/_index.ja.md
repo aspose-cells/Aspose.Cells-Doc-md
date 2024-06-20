@@ -1,17 +1,18 @@
-﻿---
-title: Aspose ツール ツールバー - SharePoint 2010 でのみサポート
+---
+title: Asposeツールバー  SharePoint 2010でのみサポートされています
 type: docs
 weight: 50
 url: /ja/sharepoint/aspose-tools-toolbar-only-supported-in-sharepoint-2010/
 ---
-Aspose.Cells for SharePoint は、いくつかの重要なオプションとコマンドを含むツールバーを提供します。
+
+Aspose.Cells for SharePointには、いくつかの貴重なオプションとコマンドが含まれるツールバーが提供されています:
 
 - Aspose.Cellsで変換
-- Aspose.Cells でドキュメントをプレビュー
-- Aspose.Cells でドキュメントを検索
-- Aspose.Cells で透かしを追加
-- フッターに Aspose.Cells を追加
+- Aspose.Cellsでドキュメントをプレビュー
+- Aspose.Cellsでドキュメント内を検索
+- Aspose.Cellsでウォーターマークを追加
+- Aspose.Cellsでフッターを追加
 
-**Aspose.Cells ツールバー**
+**Aspose.Cellsツールバー**
 
-![todo:画像_代替_文章](aspose-tools-toolbar-only-supported-in-sharepoint-2010_1.png)
+![todo:image_alt_text](aspose-tools-toolbar-only-supported-in-sharepoint-2010_1.png)

@@ -1,16 +1,17 @@
-﻿---
-title: Sınırlamalar ve API Farklar
+---
+title: Sınırlamalar ve API Farklılıkları
 type: docs
 weight: 10
 url: /tr/python-java/limitations-and-api-differences/
-keywords: python, excel, limitation, api, difference
-description: Aspose.Cells for Python via Java kısıtlamalar ve api farklılıkları
+keywords: "python, excel, sınırlama, api, farklılıklar"
+description: "Aspose.Cells for Python via Java sınırlamaları ve api farklılıkları."
 ---
-## **Kamu API Farklar**
-### **Örnek vermek**
+
+## **Genel API Farklılıkları**
+### **Örnek**
 **Aspose.Cells for Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  import com.aspose.cells.*;
 
@@ -34,7 +35,7 @@ public class Test1 {
 
 **Aspose.Cells for Python via Java**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  import jpype
 

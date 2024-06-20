@@ -1,9 +1,10 @@
-﻿---
+---
 title: Получить точки соединения из формы
 type: docs
 weight: 3500
 url: /ru/net/get-connection-points-from-shape/
 ---
-Aspose.Cells предоставляют широкие возможности для управления фигурами в электронной таблице. Иногда необходимо получить точки соединения фигуры для выравнивания или размещения фигур в соответствующем месте. Для этого необходимы все точки подключения. Следующий код можно использовать для получения списка точек соединения фигуры с помощью[Shape.ConnectionPoints](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/connectionpoints) имущество.
+
+Aspose.Cells предоставляет обширные возможности для управления формами в электронной таблице. Иногда требуется получить точки соединения формы для выравнивания или размещения форм в нужном месте. Для этой цели требуются все точки соединения. Следующий код может быть использован для получения списка точек соединения формы с использованием свойства [Shape.ConnectionPoints](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/connectionpoints).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-GetShapeConnectionPoints-1.cs" >}}

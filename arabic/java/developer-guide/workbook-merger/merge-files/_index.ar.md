@@ -1,20 +1,21 @@
-﻿---
+---
 title: دمج الملفات
 type: docs
 weight: 10
 url: /ar/java/merge-files/
 ---
+
 ## **مقدمة**
 
- يوفر Aspose.Cells طرقًا مختلفة لدمج الملفات. بالنسبة إلى الملفات البسيطة التي تحتوي على بيانات وتنسيقات وصيغ ، فإن ملف[**Workbook.combine ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook) لدمج عدة مصنفات ، و[**Worksheet.copy (**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) لنسخ أوراق العمل إلى مصنف جديد. هذه الطرق سهلة الاستخدام وفعالة ، ولكن إذا كان لديك الكثير من الملفات لدمجها ، فقد تجد أنها تتطلب الكثير من موارد النظام. لتجنب ذلك ، استخدم الطريقة الثابتة CellsHelper.mergeFiles ، وهي طريقة أكثر فاعلية لدمج عدة ملفات.
+يوفر Aspose.Cells طرقًا مختلفة لدمج الملفات. يمكن استخدام الـ [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) لدمج العديد من دفاتر العمل للملفات البسيطة بالبيانات والتنسيق والصيغ، ويمكن استخدام الـ [Worksheet.copy](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) لنسخ الصفحات العمل في دفتر عمل جديد. هذه الطرق سهلة الاستخدام وفعالة، ولكن إذا كان هناك الكثير من الملفات لدمجها، قد تجد أنها تستهلك الكثير من موارد النظام. لتجنب ذلك، استخدم الطريقة الثابتة CellsHelper.mergeFiles، وهي طريقة أكثر فاعلية لدمج العديد من الملفات.
 
 ## **دمج الملفات باستخدام Aspose.Cells**
 
-يوضح نموذج التعليمات البرمجية التالي كيفية دمج الملفات الكبيرة باستخدام أسلوب CellsHelper.mergeFiles. يتطلب الأمر ملفين بسيطين لكن كبيرين ، MyBook1.xls و MyBook2.xls. تحتوي الملفات على بيانات وصيغ منسقة فقط.
+الرمز المصدري التالي يوضح كيفية دمج الملفات الكبيرة باستخدام طريقة CellsHelper.mergeFiles. يأخذ الملفان الكبيران البسيطان، MyBook1.xls وMyBook2.xls، واللذان يحتويا على بيانات مُنسَقة وصُيغ فقط.
 
 {{% alert color="primary" %}}
 
-لا تدعم طريقة CellsHelper.mergeFiles سوى دمج البيانات والأنماط والتنسيق والصيغ. قد لا يتم دمج الكائنات مثل المخططات أو الصور أو التعليقات أو الكائنات الأخرى باستخدام هذه الطريقة. علاوة على ذلك ، يتم استخدام ملف مخبأ لتخزين البيانات المؤقتة للعملية.
+الطريقة CellsHelper.mergeFiles تدعم فقط دمج البيانات، الأنماط، التنسيق والصيغ. لم يتم ربط الكائنات مثل الرسوم البيانية، الصور، التعليقات أو أي كائنات أخرى باستخدام هذه الطريقة. علاوة على ذلك، يتم استخدام ملف مؤقت لتخزين البيانات المؤقتة للعملية.
 
 {{% /alert %}}
 

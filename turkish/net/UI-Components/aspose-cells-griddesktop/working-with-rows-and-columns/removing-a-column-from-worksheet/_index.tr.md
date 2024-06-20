@@ -1,19 +1,22 @@
-﻿---
-title: Çalışma Sayfasından Sütun Kaldırma
+---
+title: Çalışma Sayfasından Bir Sutun Kaldırma
 type: docs
 weight: 20
-url: /tr/net/removing-a-column-from-worksheet/
+url: /tr/net/aspose-cells-griddesktop/remove-a-column-from-worksheet/
+keywords: GridDesktop, kaldır, sütun, sil, sütun
+description: Bu makale, GridDesktop ta sütun kaldırmanın nasıl yapılacağını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu, çalışma sayfasından bir sütunu kaldırmak için en basit yaklaşımı açıklayan geliştiriciler için temel bir konudur. Aspose.Cells.GridDesktop ile çalışırken geliştiriciler tarafından rutin görevlerinde kullanılabilecek basit ama kullanışlı bir özellik gibi görünüyor.
+Bu, sadece çalışma sayfasından bir sütunu kaldırmanın en basit yaklaşımını tanımlayan geliştiriciler için temel bir konudur. Basit görünse de geliştiricilerin Aspose.Cells.GridDesktop ile çalışırken günlük görevlerinde kullanabilecekleri kullanışlı bir özelliktir.
 
 {{% /alert %}} 
-## **Çalışma Sayfasından Sütun Kaldırma**
-Çalışma sayfasından bir sütunu kaldırmak için lütfen aşağıdaki adımları izleyin:
+## **Çalışma Sayfasından Bir Sutun Kaldırma**
+Çalışma sayfasından bir sütun kaldırmak için lütfen aşağıdaki adımları izleyin:
 
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Kaldırmak**Kolon** dan**Çalışma kağıdı** kaldırılacak sütunun indeksini belirterek
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- Kaldırılacak sütunun dizinini belirterek **Çalışma Sayfasından Sütun**'u kaldırın
 
 
 

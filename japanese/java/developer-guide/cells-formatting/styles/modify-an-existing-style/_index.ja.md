@@ -1,57 +1,58 @@
-﻿---
-title: 既存のスタイルを変更する
+---
+title: 既存のスタイルを修正する
 type: docs
 weight: 50
 url: /ja/java/modify-an-existing-style/
-description: Microsoft Excel と Aspose.Cells for Java API で Excel のスタイルを変更する方法を学びます。
-keywords: modify an existing style excel, modify an existing style excel java, modify existing style excel, modify existing style excel java, change existing style in excel, change existing style in excel java, how to change style in excel, how to change style in excel with java, how to change style in excel with java, how to change style in excel using java, changing existing style in excel java, changing existing style in excel
+description: Microsoft ExcelおよびAspose.Cells for Java APIを使用してExcelでスタイルを変更する方法を学びます。
+keywords: Excelで既存のスタイルを変更する、Excelで既存のスタイルを変更するjava、Excelでスタイルを変更する、Excelでスタイルを変更するjava、Excelでスタイルを変更する、Excelでスタイルを変更するjava、Excelでスタイルを変更する、Excelでスタイルを変更するjava、Excelでスタイルを変更する、Excelでスタイルを変更するjava、Excelでスタイルを変更するjava、Excelで既存のスタイルを変更する、Excelで既存のスタイルを変更するjava、Excelでスタイルを変更する、Excelでスタイルを変更するjava、Excelでスタイルを変更する、JavaでExcelでスタイルを変更する、JavaでExcelでスタイルを変更する、JavaでExcelでスタイルを変更する、JavaでExcelでスタイルを変更する
 ---
+
 {{% alert color="primary" %}}
 
-同じ書式設定オプションをセルに適用するには、新しい書式設定スタイル オブジェクトを作成します。フォーマット スタイル オブジェクトは、フォント、フォント サイズ、インデント、数値、境界線、パターンなどのフォーマット特性の組み合わせであり、名前が付けられ、セットとして保存されます。適用すると、そのスタイルのすべての書式が適用されます。
+セルに同じ書式オプションを適用するには、新しい書式スタイルオブジェクトを作成してください。書式スタイルオブジェクトは、フォント、フォントサイズ、インデント、番号、ボーダー、パターンなどの書式の組み合わせであり、名前を付けて保存されたセットです。適用すると、そのスタイルのすべての書式が適用されます。
 
-また、既存のスタイルを使用してブックと共に保存し、それを使用して同じ属性で情報をフォーマットすることもできます。
+既存のスタイルを使用して、ブックと共に保存し、同じ属性で情報を書式設定することもできます。
 
-セルが明示的にフォーマットされていない場合、**普通**スタイル (ワークブックの既定のスタイル) が適用されます。 Microsoft Excel では、通常のスタイルに加えて、コンマ、通貨、パーセントなどのいくつかのスタイルが事前定義されています。
+セルが明示的にフォーマットされていない場合、**通常**スタイル(ワークブックのデフォルトスタイル)が適用されます。Microsoft Excelでは、通常スタイルに加えてComma、Currency、Percentなどのスタイルがいくつか事前に定義されています。
 
-Aspose.Cells では、これらのスタイルのいずれか、または目的の属性で定義したその他のスタイルを変更できます。
+Aspose.Cellsを使用すると、これらのスタイルのいずれか、または独自の属性で定義したスタイルを修正することができます。
 
 {{% /alert %}}
 
-## **Microsoft エクセルを使う**
+## **Microsoft Excel の使用**
 
-Microsoft Excel 97-2003 でスタイルを更新するには:
+Microsoft Excel 97-2003でスタイルを更新するには:
 
-1. 上で**フォーマット**メニュー、クリック**スタイル**.
-1. から変更するスタイルを選択します。**スタイル名**リスト。
-1. クリック**変更**.
-1. Format Cells ダイアログのタブを使用して、必要なスタイル オプションを選択します。
-1. クリック**わかった**.
-1. 下**スタイルが含まれています**で、必要なスタイル機能を指定します。
-1. クリック**わかった**をクリックしてスタイルを保存し、選択した範囲に適用します。
+1. **書式**メニューで **スタイル** をクリックします。
+1. **スタイル名** リストから変更したいスタイルを選択します。
+1. **変更** をクリックします。
+1. 「セルの書式設定」ダイアログのタブを使用して、望むスタイルオプションを選択します。
+1. **OK** をクリックします。
+1. **スタイルに含まれるもの** で、希望するスタイルの機能を指定します。
+1. **OK** をクリックしてスタイルを保存し、選択した範囲に適用します。
 
-## **Aspose.Cells を使用**
+## **Aspose.Cellsの使用**
 
-Aspose.Cells は[**スタイル更新**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()既存のスタイルを更新するためのメソッド。
+Aspose.Cellsは既存のスタイルを更新するための [**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--) メソッドを提供します。
 
-名前付きスタイルを変更するには、Aspose.Cells を使用して動的に作成されたか事前定義されたかにかかわらず、[**スタイル更新**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()) メソッドを使用して、セルまたは範囲に適用されたスタイルの変更を反映します。
+Aspose.Cellsを使用して動的に作成したスタイルまたは事前定義の名前付きスタイルを変更するには、[**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--) メソッドを呼び出して、セルや範囲に適用されたスタイルの変更を反映させます。
 
-の[**スタイル更新**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update() ) メソッドは次のように動作します**わかった**スタイル ダイアログのボタン: 既存のスタイルに変更を加えた後、呼び出して変更を実装します。セルの範囲に既にスタイルを適用している場合、スタイル属性を変更してメソッドを呼び出すと、それらのセルの書式設定が自動的に更新されます
+[**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--) メソッドは **OK** ボタンと同様の挙動を示します。既にセルの範囲にスタイルを適用しており、スタイルの属性を変更し、メソッドを呼び出すと、これらのセルの書式が自動的に更新されます。
 
 ### **スタイルの作成と変更**
 
-この例では、スタイル オブジェクトを作成し、それをセル範囲に適用して、スタイル オブジェクトを変更します。変更は、スタイルが適用されたセルと範囲に自動的に適用されます。
+この例では、スタイルオブジェクトを作成し、セルの範囲に適用し、スタイルオブジェクトを変更します。変更は自動的にセルと適用された範囲に適用されます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatingStyle-CreatingStyle.java" >}}
 
 ### **既存のスタイルの変更**
 
-この例では、Percent というスタイルが既に範囲に適用されている簡単なテンプレート Excel ファイルを使用します。例：
+この例では、範囲にすでに適用されているPercentという名前のスタイルが含まれる単純なテンプレートExcelファイルを使用します。具体的な手順は以下の通りです:
 
-1. スタイルを取得し、
-1. スタイル オブジェクトを作成し、
-1. スタイルの書式を変更します。
+1. スタイルを取得します。
+1. スタイルオブジェクトを作成します。
+1. スタイルフォーマットを変更します。
 
-変更は、スタイルが適用された範囲に自動的に適用されます。
+変更は自動的に適用された範囲に適用されます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ModifyExistingStyle-ModifyExistingStyle.java" >}}

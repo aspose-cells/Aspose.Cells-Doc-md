@@ -1,445 +1,377 @@
-﻿---
-title: Excel dosyalarının Resimlerini ve Şekillerini ekleyin.
-linktitle: şekiller
+---
+title: Excel dosyalarına Resimler ve Şekiller Ekleyin.
+linktitle: Şekiller
 type: docs
 weight: 140
 url: /tr/net/insert-shapes/
-description: Resimleri, oleobject'i, şekilleri Excel dosyalarına dönüştürün.
+description: Resimleri, oleobjectleri ve şekilleri Excel dosyalarına ekleyin.
 ---
+
 {{% alert color="primary" %}}
 
-Bazen çalışma sayfasına bazı gerekli şekilleri eklemeniz gerekir. Aynı şekli çalışma sayfasının farklı konumlarına eklemeniz gerekebilir. Veya çalışma sayfasına toplu olarak şekiller eklemeniz gerekebilir.
+Bazen çalışma sayfasına bazı gerekli şekiller eklemeniz gerekebilir. Aynı şekli çalışma sayfasının farklı konumlarına eklemeniz gerekebilir. Veya şekilleri toplu olarak çalışma sayfasına eklemeniz gerekebilir.
 
- Endişelenme![Aspose.Cells](https://products.aspose.com/cells/)tüm bu işlemleri destekler.
+Endişelenmeyin! [Aspose.Cells](https://products.aspose.com/cells/), tüm bu operasyonları destekler.
 
 {{% /alert %}}
 
-Excel'deki şekiller temel olarak aşağıdaki türlere ayrılır:
-- **resimler**
-- **Ole Nesneleri**
-- **çizgiler**
-- **dikdörtgenler**
-- **Basit şekiller**
+Bu rehber belgesi, örnek oluşturmak için her türden bir veya iki şekil seçecektir. Bu örnekler aracılığıyla, belirli şekli çalışma sayfasına eklemek için [Aspose.Cells](https://products.aspose.com/cells/) kullanmayı öğreneceksiniz.
+- **Resimler**
+- **OleObjects**
+- **Çizgiler**
+- **Dikdörtgenler**
+- **Temel Şekiller**
 - **Blok Okları**
 - **Denklem Şekilleri**
 - **Akış Şemaları**
-- **Yıldızlar ve Afişler**
-- **açıklamalar**
+- **Yıldızlar ve Pankartlar**
+- **Çağrılar**
 
- Bu kılavuz belge, numune yapmak için her türden bir veya iki şekil seçecektir. Bu örnekler aracılığıyla, nasıl kullanılacağını öğreneceksiniz.[Aspose.Cells](https://products.aspose.com/cells/) Belirtilen şekli çalışma sayfasına eklemek için.
+Bu rehber doküman, her türden bir veya iki şekil seçecek ve örnekler yapacaktır. Bu örnekler aracılığıyla, [Aspose.Cells](https://products.aspose.com/cells/) kullanarak belirtilen şekli çalışma tablosuna nasıl ekleyeceğinizi öğreneceksiniz.
 
-## **C#'de Excel Çalışma Sayfasına Resim Ekleme**
+## **C# ile Excel Çalışma Tablosuna Resim Ekleme**
 
-Bir e-tabloya resim eklemek çok kolaydır. Yalnızca birkaç satır kod alır:
- basitçe[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) yöntemi[**resimler**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) koleksiyon (kapsüllenmiş[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) nesne). bu[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)yöntem aşağıdaki parametreleri alır:
+Bir elektron mikroskobuna resim eklemek çok kolaydır. Sadece birkaç satır kod gerektirir:
+Basitçe, [**Pictures**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) noktasal nesnesinde kapsüllenmiş olan [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) nesnesinin [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) metodunu çağırın. [**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) metodu aşağıdaki parametreleri alır:
 
-- **Sol üst sıra dizini**, sol üst satırın dizini.
+- **Sol üst satır dizini**, sol üst sütunun dizini.
 - **Sol üst sütun dizini**, sol üst sütunun dizini.
-- **Resim dosyası adı**, resim dosyasının adı, yol ile tamamlayın.
+- **Resim dosya adı**, yol bilgisi ile birlikte resim dosyasının adı.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-AddingPictures-1.cs" >}}
 
 
-## **C#'de OLE Nesnelerini Excel Çalışma Sayfasına Ekleme**
+## **C# ile Excel Çalışma Tablosuna OLE Nesneleri Eklemek**
 
-Aspose.Cells, çalışma sayfalarına OLE nesneleri eklemeyi, ayıklamayı ve değiştirmeyi destekler. Bu nedenle Aspose.Cells,[**OleNesne Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) toplama listesine yeni bir OLE Nesnesi eklemek için kullanılan sınıf. Başka bir sınıf,[**Ole nesnesi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), bir OLE Nesnesini temsil eder. Bazı önemli üyeleri vardır:
+Aspose.Cells, çalışsayan elemanları çalışsayan eleman koleksiyon listesine eklemek için kullanılan [**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) sınıfını destekler, çünkü Aspose.Cells'in bir [**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject) nesnesi bulunmaktadır. [**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), bir çalışsayan elemanı temsil eder. Bazı önemli üyelere sahiptir:
 
--  bu[**Görüntü Verileri**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)özelliği, bayt dizisi türündeki görüntü (simge) verilerini belirtir. Görüntü, çalışma sayfasında OLE Nesnesini göstermek için görüntülenecektir.
--  bu[**Nesne Verileri**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)özelliği, nesne verilerini bir bayt dizisi biçiminde belirtir. OLE Object ikonuna çift tıkladığınızda bu veriler ilgili programda gösterilecektir.
+- [**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata) özelliği, ikon olarak gösterilecek görüntü (ikon) verisini bayt dizisi türünde belirtir. Görüntü, çalışsayan elemanı çalışsayan eleman levhasında göstermek için kullanılacaktır.
+- [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata) özelliği, bayt dizisi biçimindeki nesne verisini belirtir. Bu veri, çalışsayan eleman simgesine çift tıkladığınızda ilgili programda gösterilecektir.
 
-Aşağıdaki örnek, bir OLE Nesnesinin/Nesnelerinin bir çalışma sayfasına nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, çalışsayan elemanları çalışsayan eleman(lar)ı çalışsayan eleman yapıştırma.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
-## **C#'de Excel Çalışma Sayfasına Satır Ekleme**
+## **C# ile Excel Çalışma Tablosuna Çizgi Eklemek**
 
- Çizginin şekli şuna aittir:**çizgiler** kategori.
+Satırın şekli **çizgiler** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
 - Satırı eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
-- Ardından, 'Son Kullanılan Şekiller' veya 'Çizgiler' arasından satırı seçin.
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Ardından, 'Son Kullanılan Şekiller' veya 'Çizgiler'den satırı seçin
 
 ![](line.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
 Çalışma sayfasına bir satır eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[genel LineShape AddLine(
- int üstSolSatır,
- üst,
- int üstSol Sütun,
- int sola,
- yükseklik,
- int genişliği
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- Yöntem bir döndürür[Çizgi Şekli](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) nesne.
+Yöntem, bir [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına nasıl satır ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına satır eklemenin nasıl yapılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Line.cs" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](line2.png)
 
 
 
-## **C#'de Excel Çalışma Sayfasına bir çizgi oku ekleme**
+## **C# ile Excel Çalışma Kitabına Satır Oku Eklemek**
 
- Çizgi okunun şekli şuna aittir:**çizgiler** kategori. Çizginin özel bir halidir.
+Satırın oku şekli **Çizgiler** kategorisine aittir. Bu, bir satırın özel bir durumudur.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
-- Çizgi okunu eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
-- Ardından, 'Son Kullanılan Şekiller' veya 'Çizgiler'den çizgi okunu seçin
+- Ok satırını eklemek istediğiniz hücreyi seçin
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Ardından, 'Son Kullanılan Şekiller' veya 'Çizgiler'den ok satırını seçin
 
 ![](line_arrow1.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
-Çalışma sayfasına çizgi oku eklemek için aşağıdaki yöntemi kullanabilirsiniz.
+Çalışma sayfasına bir ok satırı eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[genel LineShape AddLine(
- int üstSolSatır,
- üst,
- int üstSol Sütun,
- int sola,
- yükseklik,
- int genişliği
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn,	int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- Yöntem bir döndürür[Çizgi Şekli](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) nesne.
+Yöntem, bir [LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına çizgi okunun nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına ok satırı eklemenin nasıl yapılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-LineArrow.cs" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](line_arrow2.png)
 
 
 
-## **C#'de Excel Çalışma Sayfasına Dikdörtgen Ekleme**
+## **C# ile Excel Çalışma Kitabına Dikdörtgen Eklemek**
 
- Dikdörtgenin şekli şuna aittir:**dikdörtgenler** kategori.
+Dikdörtgenin şekli **Dikdörtgenler** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
 - Dikdörtgeni eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
-- Ardından, "Son Kullanılan Şekiller" veya "Dikdörtgenler" arasından dikdörtgeni seçin.
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Ardından, 'Son Kullanılan Şekiller' veya 'Dikdörtgenler'den dikdörtgeni seçin
 
 ![](rectangle.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
 Çalışma sayfasına bir dikdörtgen eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[genel RectangleShape AddRectangle(
- int üstSolSatır,
- üst,
- int üstSol Sütun,
- int sola,
- yükseklik,
- int genişliği
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
+[**public RectangleShape AddRectangle(int upperLeftRow,	int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
 
- Yöntem bir döndürür[Dikdörtgen şekil](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) nesne.
+Yöntem, bir [RectangleShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına dikdörtgenin nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına dikdörtgen nasıl ekleyeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Rectangle.cs" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](rectangle2.png)
 
 
 
-## **C#'de Excel Çalışma Sayfasına Küp Ekleme**
+## **C# ile Excel Çalışma Kitabına Küp Eklemek**
 
-Küpün şekli şuna aittir:**Basit şekiller** kategori.
+Küpün şekli **Temel Şekiller** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
 - Küpü eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, Küpü seçin**Basit şekiller**
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Sonra, **Temel Şekiller**'den Küp'ü seçin
 
 ![](cube.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
 Çalışma sayfasına bir küp eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[genel Shape AddAutoShape(
- AutoShapeType türü,
- int üstSolSatır,
- üst,
- int üstSol Sütun,
- int sola,
- yükseklik,
- int genişliği
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesne.
+Yöntem, bir [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, küpün bir çalışma sayfasına nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına küp nasıl ekleyeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Cube.cs" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](cube2.png)
 
 
 
-## **C#'de Excel Çalışma Sayfasına belirtme çizgisi dörtlü ok ekleme**
+## **C# ile Excel Çalışma Sayfasına Çağrı Oku Ok İçin Ekleme**
 
- Belirtme çizgisi dörtlü okunun şekli şuna aittir:**Blok Okları** kategori.
+Çağrı oku dört ok şekli **Bloklı Oklar** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
-- Dörtlü oku belirtme çizgisi eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, belirtme çizgisi dörtlü okunu seçin.**Blok Okları**
+- Çağrı ok dört ok eklemek istediğiniz hücreyi seçin
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Sonra, **Bloklı Oklar**'dan çağrı ok dört ok'u seçin
 
 ![](callout_quad_arrow.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
-Çalışma sayfasına bir belirtme çizgisi dörtlü ok eklemek için aşağıdaki yöntemi kullanabilirsiniz.
+Çalışma sayfasına bir çağrı oku dört ok eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[genel Shape AddAutoShape(
- AutoShapeType türü,
- int üstSolSatır,
- üst,
- int üstSol Sütun,
- int sola,
- yükseklik,
- int genişliği
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesne.
+Yöntem, bir [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, belirtme çizgisi dörtlü okunun bir çalışma sayfasına nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına çağrı ok dört ok nasıl ekleyeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.cs" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](callout_quad_arrow2.png)
 
 
 
-## **C#'de Excel Çalışma Sayfasına çarpma işareti ekleme**
+## **C# ile Excel Çalışma Sayfasına Çarpı İşareti Ekleme**
 
- Çarpma işaretinin şekli şuna aittir:**Denklem Şekilleri** kategori.
+Çarpma işareti şekli **Denklem Şekilleri** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
-- Çarpma işaretini eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, çarpma işaretini seçin**Denklem Şekilleri**
+- Çarpma işareti eklemek istediğiniz hücreyi seçin
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Sonra, **Denklem Şekilleri**'nden çarpma işaretini seçin
 
 ![](multiplication_sign.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
-Çalışma sayfasına bir çarpma işareti eklemek için aşağıdaki yöntemi kullanabilirsiniz.
+Çarpma işaretini çalışma sayfasına eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[genel Shape AddAutoShape(
- AutoShapeType türü,
- int üstSolSatır,
- üst,
- int üstSol Sütun,
- int sola,
- yükseklik,
- int genişliği
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesne.
+Yöntem, bir [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına çarpma işaretinin nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına çarpma işareti eklemeyi göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.cs" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](multiplication_sign2.png)
 
 
 
-## **C#'de Excel Çalışma Sayfasına çoklu belge ekleme**
+## **C# ile Excel Çalışma Sayfasına Çoklu Belge Ekleme**
 
- Çoklu belgenin şekli şuna aittir:**Akış Şemaları** kategori.
+Çoklu belgenin şekli **FlowCharts** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
 - Çoklu belgeyi eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, çoklu belgeyi seçin**Akış Şemaları**
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Sonra, **FlowCharts**'den çoklu belgeyi seçin
 
 ![](multidocument.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
 Çalışma sayfasına çoklu belge eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[genel Shape AddAutoShape(
- AutoShapeType türü,
- int üstSolSatır,
- üst,
- int üstSol Sütun,
- int sola,
- yükseklik,
- int genişliği
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesne.
+Yöntem, bir [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, çoklu belgenin bir çalışma sayfasına nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına çoklu belge eklemeyi göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Multidocument.cs" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](multidocument2.png)
 
 
 
-## **C#'de Excel Çalışma Sayfasına Beş Köşeli Yıldız Ekleme**
+## **C# Dilinde Excel Çalışma Sayfasına Beşgen Yıldız Ekleme**
 
- Beş köşeli yıldızın şekli,**Yıldızlar ve Afişler** kategori.
+Beş köşeli yıldızın şekli **Yıldızlar ve Bayraklar** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
 - Beş köşeli yıldızı eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, beş köşeli yıldızı seçin.**Yıldızlar ve Afişler**
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Sonra, **Yıldızlar ve Bayraklar**'dan beş köşeli yıldızı seçin
 
 ![](star_5_points.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
-Çalışma sayfasına Beş Köşeli yıldız eklemek için aşağıdaki yöntemi kullanabilirsiniz.
+Çalışma sayfasına beş köşeli yıldız eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[genel Shape AddAutoShape(
- AutoShapeType türü,
- int üstSolSatır,
- üst,
- int üstSol Sütun,
- int sola,
- yükseklik,
- int genişliği
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesne.
+Yöntem, bir [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına Beş Köşeli yıldızın nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına beş köşeli yıldız eklemeyi göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-FivePointedStar.cs" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](star_5_points2.png)
 
 
 
-## **C#'de Excel Çalışma Sayfasına bir düşünce balonu bulutu ekleme**
+## **C# Dilinde Excel Çalışma Sayfasına Düşünce Balonu Bulutu Ekleme**
 
- Düşünce baloncuğu bulutunun şekli,**açıklamalar** kategori.
+Düşünce balonu bulutunun şekli **Çağrılar** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
-- Düşünce balonu bulutunu eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, düşünce balonu bulutunu seçin.**açıklamalar**
+- Düşünce balonu bulutu eklemek istediğiniz hücreyi seçin
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Daha sonra, **Araç Çubuğu**'ndan düşünce balonu bulutunu seçin
 
 ![](thought_bubble_cloud.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
-Çalışma sayfasına bir düşünce balonu bulutu eklemek için aşağıdaki yöntemi kullanabilirsiniz.
+Çalışma sayfasına düşünce balonu bulutu eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[genel Shape AddAutoShape(
- AutoShapeType türü,
- int üstSolSatır,
- üst,
- int üstSol Sütun,
- int sola,
- yükseklik,
- int genişliği
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesne.
+Yöntem, bir [Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına düşünce balonu bulutunun nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına düşünce balonu bulutu nasıl ekleyeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.cs" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](thought_bubble_cloud2.png)
 
-## **ileri konular**
-- [Şeklin Ayarlama Değerlerini Değiştirme](/cells/tr/net/change-adjustment-values-of-the-shape/)
+## **Gelişmiş Konular**
+- [Şekil Ayar Değerlerini Değiştirme](/cells/tr/net/change-adjustment-values-of-the-shape/)
 - [Çalışma Sayfaları Arasında Şekilleri Kopyalama](/cells/tr/net/copy-shapes-between-worksheets/)
-- [İlkel Olmayan Şekildeki Veriler](/cells/tr/net/data-in-non-primitive-shape/)
-- [Çalışma Sayfası İçinde Şeklin Mutlak Konumunu Bulma](/cells/tr/net/finding-absolute-position-of-shape-inside-the-worksheet/)
-- [Şekilden Bağlantı noktalarını alın](/cells/tr/net/get-connection-points-from-shape/)
-- [Kontrolleri Yönetme](/cells/tr/net/managing-controls/)
-- [Çalışma Sayfasına Simgeler Ekle](/cells/tr/net/insert-svg-to-excel/)
+- [İlkel Olmayan Şekildeki Veri](/cells/tr/net/data-in-non-primitive-shape/)
+- [Çalışma Sayfası İçindeki Şeklin Mutlak Konumunu Bulma](/cells/tr/net/finding-absolute-position-of-shape-inside-the-worksheet/)
+- [Şekilden Bağlantı Noktalarını Al](/cells/tr/net/get-connection-points-from-shape/)
+- [Denetimleri Yönetme](/cells/tr/net/managing-controls/)
+- [Çalışma Sayfasına Simgeler Ekleme](/cells/tr/net/insert-svg-to-excel/)
 - [OLE Nesnelerini Yönetme](/cells/tr/net/managing-ole-objects/)
 - [Resimleri Yönetme](/cells/tr/net/managing-pictures/)
-- [Akıllı Sanatı Yönet](/cells/tr/net/managing-smartart/)
-- [Metin Kutusunu Yönetme](/cells/tr/net/managing-textbox-of-excel/)
-- [Çalışma Sayfasına WordArt Filigranı Ekleme](/cells/tr/net/add-wordart-watermark-to-worksheet/)
-- [Bağlantılı Şekillerin Değerlerini Yenile](/cells/tr/net/refresh-values-of-linked-shapes/)
-- [Şekli Çalışma Sayfasının Önüne veya Arkasına Gönder](/cells/tr/net/send-shape-front-or-back-inside-the-worksheet/)
-- [Şekil Seçeneklerini Yönet](/cells/tr/net/managing-shape-options/)
-- [Şekil Metni Seçeneklerini Yönetin](/cells/tr/net/managing-shape-text-options/)
+- [Akıllı Sanatı Yönetme](/cells/tr/net/managing-smartart/)
+- [Metin Kutularını Yönetme](/cells/tr/net/managing-textbox-of-excel/)
+- [Çalışma Sayfasına WordArt Fili Ekleme](/cells/tr/net/add-wordart-watermark-to-worksheet/)
+- [Bağlantılı Şekillerin Değerlerini Yenileme](/cells/tr/net/refresh-values-of-linked-shapes/)
+- [Çalışma Sayfası İçinde Şekil Önüne veya Arkasına Gönderme](/cells/tr/net/send-shape-front-or-back-inside-the-worksheet/)
+- [Şekil Seçeneklerini Yönetme](/cells/tr/net/managing-shape-options/)
+- [Şekil Metin Seçeneklerini Yönetme](/cells/tr/net/managing-shape-text-options/)
 - [Web Uzantıları - Office Eklentileri](/cells/tr/net/web-extensions-office-add-ins/)
 

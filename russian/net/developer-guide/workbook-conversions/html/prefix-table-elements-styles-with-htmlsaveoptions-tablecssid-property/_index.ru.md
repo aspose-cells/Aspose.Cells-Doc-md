@@ -1,34 +1,35 @@
-﻿---
-title: Префикс стилей элементов таблицы со свойством HtmlSaveOptions.TableCssId
+---
+title: Префиксные стили элементов таблицы с помощью свойства HtmlSaveOptions.TableCssId
 type: docs
 weight: 110
 url: /ru/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/
 ---
+
 ## **Возможные сценарии использования**
 
-Aspose.Cells позволяет добавлять к стилям элементов таблицы префикс[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)имущество. Предположим, вы установили это свойство с некоторым значением, например**MyTest_TableCssId**, то вы найдете стили элементов таблицы, как показано ниже.
+Aspose.Cells позволяет префиксить стили элементов таблиц с помощью [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid). Предположим, вы установите это свойство с каким-либо значением, например **MyTest_TableCssId**, тогда вы увидите стили элементов таблиц, как показано ниже
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  table#MyTest_TableCssId
 
-# MyTest_TableCssId tr
+#MyTest_TableCssId tr
 
-# MyTest_TableCssId col
+#MyTest_TableCssId col
 
-# MyTest_TableCssId br
+#MyTest_TableCssId br
 
 etc.
 
 {{< /highlight >}}
 
- На следующем снимке экрана показан эффект от использования[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)свойство на выходе HTML.
+На следующем скриншоте показано влияние использования свойства [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) на выходной HTML.
 
-![дело:изображение_альтернативный_текст](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
+![todo:image_alt_text](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
-## **Префикс стилей элементов таблицы со свойством HtmlSaveOptions.TableCssId**
+## **Префиксные стили элементов таблицы с помощью свойства HtmlSaveOptions.TableCssId**
 
- В следующем примере кода показано, как использовать[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) имущество. Пожалуйста, проверьте[вывод HTML](60489790.zip) генерируется кодом для ссылки.
+Следующий образец кода демонстрирует, как использовать свойство [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid). Пожалуйста, проверьте [выходной HTML](60489790.zip), сгенерированный кодом, для справки.
 
 ## **Образец кода**
 

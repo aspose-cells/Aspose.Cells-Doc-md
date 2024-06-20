@@ -1,24 +1,25 @@
-﻿---
-title: Konvertera-JSON-till-Excel
+---
+title: Konvertera JSON till Excel
 type: docs
 weight: 300
 url: /sv/python-java/convert-json-to-excel/
-description: Lär dig hur du konverterar json till excel-fil med Aspose.Cells for Python via Java.
-keywords: Importing json without office 2013, office 2016, office 2019 and office 365.
+description: Lär dig hur du konverterar json till excelfil med Aspose.Cells för Python via Java.
+keywords: Importera JSON utan Office 2013, Office 2016, Office 2019 och Office 365.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via Java stöder konvertering av en Json-fil (JavaScript Object Notation) till Excel-arbetsbok.
+Aspose.Cells för Python via Java stöder konvertering av en Json (JavaScript Object Notation)-fil till Excel Workbook.
 
 {{% /alert %}}
 
 ## **Konvertera JSON till Excel-arbetsbok**
- Du behöver inte undra hur man konverterar JSON till Excel-fil, eftersom biblioteket Aspose.Cells for Python via Java har bästa beslutet. Aspose.Cells for Python via Java API ger stöd för att konvertera formatet JSON till kalkylblad. Du kan använda[**JsonLoadOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/JsonLoadOptions) klass för att ange ytterligare inställningar för import av JSON till arbetsbok.
+Inga behov av att undra över hur man konverterar JSON till Excelfil, eftersom Aspose.Cells för Python via Java-biblioteket har bästa beslutet. Aspose.Cells för Python via Java API ger stöd för att konvertera JSON-format till kalkylblad. Du kan använda [**JsonLoadOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/JsonLoadOptions)-klassen för att ange ytterligare inställningar för att importera JSON till Workbook.
 
-Följande kodexempel visar import av JSON till Excel Workbook. Se koden för att konvertera[källfilen](sample.json) till filen som genereras av koden för referens.
+Det följande kodexemplet visar import av JSON till Excel-arbetsbok. Se koden för att konvertera [källfilen](sample.json) till den fil som genereras av koden för referens.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Convert-JSON-to-Excel.py" >}}
 
- Följande kodexempel som använder klassen JsonLoadOptions för att ange ytterligare inställningar visar import av JSON till Excel Workbook. Se koden för att konvertera[källfilen](sample.json) till xlsx-filen som genereras av koden för referens.
+Följande kodexempel som använder klassen JsonLoadOptions för att ange ytterligare inställningar visar import av JSON till Excel-arbetsbok. Se koden för att konvertera [källfilen](sample.json) till den xlsx-fil som genereras av koden för referens.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Convert-JSON-to-Excel2.py" >}}

@@ -1,24 +1,25 @@
-﻿---
-title: ウォーターフォール チャートの作成
+---
+title: ウォーターフォールチャートの作成
 type: docs
 weight: 140
 url: /ja/java/creating-waterfall-chart/
-description: Java と Aspose.Cells for Java API を使用して、Excel でウォーターフォール グラフを作成します。
-keywords: java create waterfall chart in excel, java creating waterfall chart in excel, creating waterfall chart in excel with java, create waterfall chart in excel with java, create waterfall chart in excel java, create waterfall chart excel java, create waterfall chart in excel programmatically, how to create waterfall chart in excel with java
+description: JavaおよびAspose.Cells for Java APIを使用してExcelでウォーターフォールチャートを作成します。
+keywords: JavaでExcelでウォーターフォールチャートを作成する方法、ExcelでのJavaによるウォーターフォールチャートの作成、ExcelでのJavaによるウォーターフォールチャートの作成、JavaによるExcelでのウォーターフォールチャートの作成、ExcelでのJavaによるウォーターフォールチャートの作成、ExcelでのJavaによるウォーターフォールチャートの作成、Excelでプログラム的にウォーターフォールチャートを作成する方法、JavaでExcelでウォーターフォールチャートを作成する方法
 ---
+
 {{% alert color="primary" %}}
 
-ウォーターフォール チャートは、開始位置がどのように増減するかを示すために通常使用される特殊なタイプのチャートです。 Microsoft Excel には、縦棒グラフ、折れ線グラフ、円グラフ、横棒グラフ、レーダーなど、多数の事前定義されたグラフ タイプがありますが、ウォーターフォール グラフは基本的なグラフを超えており、既存のグラフ タイプを使用してほとんどカスタマイズせずに作成できます。
+ウォーターフォールチャートは、通常、出発位置が増加または減少する方法を示すために使用される特別なタイプのチャートです。Microsoft Excelには、カラム、折れ線、円、棒、レーダーなどの事前定義済みのチャートタイプが多数ありますが、ウォーターフォールチャートは基本的なグラフを超えたものであり、既存のチャートタイプを使用して少しのカスタマイズまたはより多くのカスタマイズで作成できます。
 
 {{% /alert %}}
 
-## ウォーターフォール チャートの作成
+## ウォーターフォールチャートの作成
 
-Aspose.Cells API を使用すると、折れ線グラフを使用してウォーターフォール グラフを作成できます。 API では、チャートを形成する最も重要なプロパティを設定することで、チャートの外観をカスタマイズしてウォーターフォールの形状にすることもできます。[**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) & [**Series.DownBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars)プロパティ。
+Aspose.Cells APIを使用すると、ラインチャートを利用してウォーターフォールチャートを作成することができます。このAPIはまた、チャートの外観をカスタマイズして、ウォーターフォールの形にすることができます。これは、チャートを形作るための最も重要なプロパティを設定することによって行われます。それは、[**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars)および[**Series.DownBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars)のプロパティです。
 
-以下のコード スニペットは、Aspose.Cells for Java API を使用してウォーターフォール チャートをゼロから作成する方法を示しています。
+以下のコードスニペットは、Aspose.Cells for Java APIを使用してゼロからウォーターフォールチャートを作成する方法を示しています。
 
-### Java ウォーターフォール チャートを作成するコード
+### ウォーターフォールチャートの作成のためのJavaコード
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateWaterfallChart-CreateWaterfallChart.java" >}}
 

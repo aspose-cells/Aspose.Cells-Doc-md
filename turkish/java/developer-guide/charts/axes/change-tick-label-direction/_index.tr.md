@@ -1,37 +1,38 @@
-﻿---
-title: Onay İşareti Yönünü Değiştir
+---
+title: Tick Etiketi Yönünü Değiştirme
 type: docs
 weight: 90
 url: /tr/java/change-tick-label-direction/
 ---
-## **Onay İşareti Yönünü Değiştir**
 
-Aspose.Cells, size grafik işareti etiket yönünü kullanarak değiştirme olanağı sağlar.[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) Emlak. bu[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType)mülkiyet kabul eder[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) numaralandırma değeri. bu[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)numaralandırma aşağıdaki üyeleri sağlar
+## **Tick Etiketi Yönünü Değiştirme**
 
-- [**YATAY**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
-- [**DİKEY**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**DÖNDÜR_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**DÖNDÜR_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
-- [**YIĞILMIŞ**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
+Aspose.Cells, grafik tick etiketi yönünü [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) özelliğini kullanarak değiştirme olanağı sağlar. [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) özelliği, [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) enum değerini kabul eder. [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) enum, aşağıdaki üyeleri sağlar
 
-Aşağıdaki görüntü, kaynak ve çıktı dosyalarını karşılaştırır
+- [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
+- [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
-### **Kaynak dosya resmi**
+Aşağıdaki görüntü kaynak ve çıktı dosyalarını karşılaştırır
 
-![yapılacaklar:resim_alternatif_metin](change-tick-label-direction_1.jpg)
+### **Kaynak dosya görüntüsü**
+
+![todo:image_alt_text](change-tick-label-direction_1.jpg)
 
 ### **Çıktı dosyası görüntüsü**
 
-![yapılacaklar:resim_alternatif_metin](change-tick-label-direction_2.jpg)
+![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
- Aşağıdaki kod parçacığı, onay etiketi yönünü şundan değiştirir:[**DÖNDÜR_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) ile[**YATAY**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+Aşağıdaki kod parçası, tick etiketi yönünü [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)'den [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL) 'e değiştirir.
 
-### **Basit kod**
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-ChangeTickLabelDirection-1.java" >}}
 
-Kaynak ve çıktı dosyaları aşağıdaki bağlantılardan indirilebilir.
+Kaynak ve çıktı dosyaları aşağıdaki linklerden indirilebilir.
 
-[Kaynak dosyası](SampleChangeTickLabelDirection.xlsx)
+[Kaynak Dosya](SampleChangeTickLabelDirection.xlsx)
 
-[Çıktı dosyası](outputChangeChartDataLableDirection.xlsx)
+[Çıktı Dosyası](outputChangeChartDataLableDirection.xlsx)

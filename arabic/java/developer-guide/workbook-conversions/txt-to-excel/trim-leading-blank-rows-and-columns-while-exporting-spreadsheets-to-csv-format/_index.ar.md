@@ -1,35 +1,36 @@
-﻿---
-title: تقليم الصفوف والأعمدة الفارغة البادئة أثناء تصدير جداول البيانات إلى تنسيق CSV
+---
+title: تقليم الصفوف والأعمدة الفارغة الرائدة أثناء تصدير الجداول الجدولية إلى تنسيق CSV
 type: docs
 weight: 50
 url: /ar/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-في بعض الأحيان ، يحتوي ملف Excel أو CSV على أعمدة أو صفوف فارغة بادئة. على سبيل المثال ، ضع في اعتبارك هذا الخط
+## **سيناريوهات الاستخدام المحتملة**
 
-{{< highlight "java" >}}
+في بعض الأحيان، يحتوي ملف Excel أو CSV الخاص بك على أعمدة أو صفوف فارغة رئيسية. على سبيل المثال، تأمل هذا السطر
+
+{{< highlight java >}}
 
  ,,,data1,data2
 
 {{< /highlight >}}
 
-هنا تكون الخلايا أو الأعمدة الثلاثة الأولى فارغة. عند فتح ملف CSV في Microsoft Excel ، يتجاهل Microsoft Excel هذه الصفوف والأعمدة الفارغة البادئة.
+هنا تكون الأعمدة الثلاثة الأولى فارغة. عند فتح مثل هذا الملف CSV في Microsoft Excel، فإن Microsoft Excel يتجاهل هذه الأعمدة الرئيسية والصفوف.
 
- بشكل افتراضي ، لا يتجاهل Aspose.Cells الأعمدة والصفوف الفارغة البادئة عند الحفظ ولكن إذا كنت تريد إزالتها تمامًا مثل Microsoft Excel ، فإن Aspose.Cells يوفر**[TxtSaveOptions.TrimLeadingBlankRowAndColumn] (https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** خاصية. يرجى ضبطه على**حقيقي**وبعد ذلك سيتم تجاهل جميع الصفوف والأعمدة الفارغة عند الحفظ.
+بشكل افتراضي، لا تقوم Aspose.Cells بتجاهل الأعمدة والصفوف الفارغة الرائدة عند الحفظ ولكن إذا كنت ترغب في إزالتها تمامًا كما يفعل Microsoft Excel، فإن Aspose.Cells توفر الخاصية  [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn). يرجى ضبطها على **true** ثم سيتم تجاهل كل الصفوف والأعمدة الفارغة الرائدة عند الحفظ.
 
 {{% alert color="primary" %}}
 
- قبل إصدار Aspose.Cells for .NET 20.4 ، كانت القيمة الافتراضية لـ**[TxtSaveOptions.TrimLeadingBlankRowAndColumn] (https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** كنت**خاطئة** . منذ الإصدار 20.4 ، القيمة الافتراضية لـ**[TxtSaveOptions.TrimLeadingBlankRowAndColumn] (https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** يكون**حقيقي.**
+قبل إصدار Aspose.Cells for .NET 20.4، كان القيمة الافتراضية للخاصية [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) هي **false**. منذ إصدار 20.4، أصبحت القيمة الافتراضية للخاصية [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) هي **true**.
 
 {{% /alert %}}
 
-## **تقليم الصفوف والأعمدة الفارغة البادئة أثناء تصدير جداول البيانات إلى تنسيق CSV**
+## **تقليص الصفوف والأعمدة الخالية أثناء تصدير جداول البيانات إلى تنسيق CSV**
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف Excel المصدر الذي يحتوي على عمودين فارغين بادئين. يقوم أولاً بحفظ ملف Excel بتنسيق CSV دون أي تغييرات ثم يتم تعيينه**[TxtSaveOptions.TrimLeadingBlankRowAndColumn] (https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** ملكية ل**حقيقي** ويحفظه مرة أخرى. تظهر لقطة الشاشة ملف[ملف اكسل المصدر](sampleTrimBlankColumns.xlsx), [ملف الإخراج CSV دون تقليم](outputWithoutTrimBlankColumns.csv)، و ال[ملف الإخراج CSV مع التشذيب](outputTrimBlankColumns.csv).
+يحمل الكود العيني العيني التالي ملف إكسيل المصدر الذي يحتوي على عمودين فارغين رئيسيين. يحفظ الملف الإكسيل أولاً في تنسيق CSV دون أي تغييرات ثم يضبط الخاصية [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) إلى **true** ويحفظه مرة أخرى. توضح اللقطة الشاشية ملف الفئران الأولي [ملف إكسيل المصدر](sampleTrimBlankColumns.xlsx)، [ملف CSV الناتج بدون قص الأعمدة الفارغة](outputWithoutTrimBlankColumns.csv) و ملف CSV الناتج مع القص](outputTrimBlankColumns.csv).
 
-![ما يجب القيام به: image_بديل_نص](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
+![todo:image_alt_text](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 
-## **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-TrimBlankRowsAndColsWhileExportingSpreadsheetsToCSVFormat-TrimBlankRowsAndColsWhileExportingSpreadsheetsToCSVForm.Java" >}}

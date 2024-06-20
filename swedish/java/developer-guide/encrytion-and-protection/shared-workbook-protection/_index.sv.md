@@ -1,19 +1,20 @@
-﻿---
-title: Lösenordsskydda eller avskydda den delade arbetsboken
-linktitle: Skydda eller avskydda delad arbetsbok
+---
+title: Lösenordsskydda eller upphäva skyddet för delad arbetsbok
+linktitle: Skydda eller häva skyddet för delad arbetsbok
 type: docs
 weight: 70
 url: /sv/java/password-protect-or-unprotect-the-shared-workbook/
 ---
-## **Möjliga användningsscenarier**
 
-Du kan skydda eller avskydda den delade arbetsboken med Microsoft Excel som visas i följande skärmdump. Aspose.Cells stöder också den här funktionen med[**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) och[**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)) metoder.
+## **Möjliga användningsscenario**
+
+Du kan skydda eller häva skyddet för den delade arbetsboken med Microsoft Excel som visas på följande skärmbild. Aspose.Cells stöder också denna funktion med metoderna [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) och [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)).
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
-## **Lösenordsskydda eller avskydda den delade arbetsboken**
+## **Lösenordsskydda eller upplåsa den delade arbetsboken**
 
-Följande exempelkod skapar en arbetsbok och skyddar den samtidigt som den aktiverar delning och sparar den som[utdata Excel-fil](55541800.xlsx). Skärmdumpen visar att när du försöker ta bort skyddet, uppmanar Microsoft Excel dig att ange lösenordet för att ta bort skyddet.
+Följande exempelkod skapar en arbetsbok och skyddar den samtidigt som den möjliggör delning och sparar den som [utdata Excelfil](55541800.xlsx). Skärmbilden visar att när du försöker häva skyddet, uppmanar Microsoft Excel dig att ange lösenordet för att häva skyddet.
 
 ![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)
 

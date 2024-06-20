@@ -1,22 +1,23 @@
-﻿---
-title: نسخ الأشكال بين أوراق العمل في Aspose.Cells
+---
+title: نسخ الأشكال بين الأوراق في Aspose.Cells
 type: docs
 weight: 30
 url: /ar/net/copy-shapes-between-worksheets-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-في بعض الأحيان ، تحتاج إلى نسخ عناصر في ورقة عمل ، على سبيل المثال الصور والمخططات والعناصر الرسومية الأخرى بين أوراق العمل. Aspose.Cells يدعم هذه الميزة. يمكن نسخ المخططات والصور والأشياء الأخرى بأعلى درجة من الدقة.
+في بعض الأحيان، تحتاج إلى نسخ العناصر في ورقة العمل، على سبيل المثال الصور، الرسوم البيانية وغيرها من الكائنات الرسمية، بين ورقات العمل. تدعم Aspose.Cells هذه الميزة. يمكن نسخ الرسوم البيانية، الصور والكائنات الأخرى بأعلى درجة من الدقة.
 
-تمنحك هذه المقالة فهمًا تفصيليًا حول كيفية نسخ الأشكال بين أوراق العمل. للتوضيح ، يقوم بإنشاء تطبيق وحدة تحكم في Visual Studio.Net ، ونسخ الصور والمخططات وغيرها من الكائنات الرسومية بين أوراق العمل باستخدام Aspose.Cells.
+يوفر هذا المقال فهمًا مفصلاً حول كيفية نسخ الأشكال بين ورقات العمل. على سبيل المثال، يقوم بإنشاء تطبيق وحدة التحكم في Visual Studio.Net، وينسخ الصور والرسوم البيانية وغيرها من الكائنات الرسمية بين ورقات العمل باستخدام Aspose.Cells.
 
 {{% /alert %}} 
 
-يوجد أدناه رمز نسخ مخطط من ورقة عمل إلى أخرى
+أدناه هو الكود لنسخ الرسم البياني من ورقة العمل إلى أخرى
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -44,8 +45,8 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 
-**ملحوظة:** لمزيد من التفاصيل حول نسخ أشكال متعددة تحتاج إلى زيارتها[هنا](/cells/ar/net/copy-shapes-between-worksheets/)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Copy%20Shapes%20between%20Worksheets)
-## **تحميل مثال الجري**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+**ملاحظة:** لمزيد من التفاصيل حول نسخ العديد من الأشكال، يجب عليك زيارة [هنا](/cells/ar/net/copy-shapes-between-worksheets/)
+## **تحميل رمز عينة**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Copy%20Shapes%20between%20Worksheets)
+## **تنزيل مثال التشغيل**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

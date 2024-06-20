@@ -1,16 +1,17 @@
-﻿---
-title: Отображение или скрытие заголовков столбцов строк в Ruby
+---
+title: Показать или скрыть заголовки строк и столбцов в Ruby
 type: docs
 weight: 20
 url: /ru/java/display-or-hide-row-column-headers-in-ruby/
 ---
-## **Aspose.Cells — Показать или скрыть заголовки столбцов строк**
+
+## **Aspose.Cells - Показать или скрыть заголовки строк и столбцов**
 ### **Скрытие заголовков строк/столбцов**
- Чтобы скрыть заголовки строк/столбцов с помощью**Aspose.Cells Java для рубина** , вызов**DisplayHideRowColumnHeaders** модуль.
+Чтобы скрыть заголовки строк/столбцов с использованием **Aspose.Cells Java для Ruby**, вызовите модуль **DisplayHideRowColumnHeaders**.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -38,18 +39,18 @@ puts "Headers of rows and columns are now hidden, please check the output file."
 
 {{< /highlight >}}
 ### **Отображение заголовков строк/столбцов**
-Сделайте заголовки строк и столбцов видимыми с помощью метода setRowColumnHeadersVisible(true) класса Worksheet.
+Сделать заголовки строк и столбцов видимыми, используя метод setRowColumnHeadersVisible(true) класса Worksheet.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the headers of rows and columns
 
 worksheet.setRowColumnHeadersVisible(true)
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Отображение или скрытие заголовков столбцов строк (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Показать или скрыть заголовки строк и столбцов (Aspose.Cells)** с любого из нижеприведенных социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhiderowcolumnheaders.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhiderowcolumnheaders.rb)

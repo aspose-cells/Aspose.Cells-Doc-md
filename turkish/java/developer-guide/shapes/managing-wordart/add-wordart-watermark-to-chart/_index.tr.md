@@ -1,31 +1,32 @@
-﻿---
-title: Grafiğe WordArt Filigranı Ekleme
+---
+title: Grafik e WordArt Filigran Ekle
 type: docs
 weight: 40
 url: /tr/java/add-wordart-watermark-to-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Elektronik tablolara özel metin efektleri eklemek için WordArt'ı kullanabilirsiniz. Örneğin, bir başlığı genişletin, metni süsleyin, metni önceden ayarlanmış bir şekle sığdırın veya etkilenen metni bir grafiğin çizim alanına filigran olarak uygulayın. WordArt, dekorasyon eklemek için elektronik tablolarınızda taşıyabileceğiniz veya konumlandırabileceğiniz bir nesne haline gelir.
+WordArt'ı elektronik tablolara özel metin efektleri eklemek için kullanabilirsiniz. Örneğin, başlığı uzatabilir, metni süsleyebilir, metni önceden belirlenmiş bir şekle sığdırabilir veya etkilenen metni bir grafik çizim alanına bir filigran olarak uygulayabilirsiniz. WordArt, elektronik tablolarınızda hareket ettirebileceğiniz veya konumlandırabileceğiniz bir nesne haline gelirken dekorasyon eklemek için.
 
-Aşağıdaki örnek, grafik çizim alanı için bir WordArt şeklinin filigran olarak nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir WordArt şeklinin grafik çizim alanı için bir filigran olarak nasıl ekleneceğini göstermektedir.
 
 {{% /alert %}}
 
-## Grafiğe WordArt Filigranı Ekleme
+## WordArt Filigranını Grafiğe Ekleme
 
-Aşağıdaki örnek, mevcut bir grafiğin çizim alanı için bir WordArt şeklinin filigran olarak nasıl ekleneceğini gösterir. Örnek, zaten grafiği içeren bir şablon Excel dosyası kullanır.
+Aşağıdaki örnek, mevcut bir grafik alanının filigranı için WordArt şekli eklemenin nasıl yapıldığını göstermektedir. Örnek, zaten bir grafik içeren bir şablon Excel dosyasını kullanmaktadır.
 
-### Kod yürütmeden önceki ve sonraki karşılaştırma resimleri
+### Kodun yürütülmesinden önce ve sonra karşılaştırma resimleri
 
-**giriş dosyası**
+**Giriş dosyası**
 
-![yapılacaklar:resim_alternatif_metin](add-wordart-watermark-to-chart_1.png)
+![todo:image_alt_text](add-wordart-watermark-to-chart_1.png)
 
-**çıktı dosyası**
+**Çıkış dosyası**
 
-![yapılacaklar:resim_alternatif_metin](add-wordart-watermark-to-chart_2.png)
+![todo:image_alt_text](add-wordart-watermark-to-chart_2.png)
 
-### Grafiklere WordArt Filigranı eklemek için Java kodu
+### Grafikler için WordArt Filigran Eklemek için Java kodu
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.java" >}}

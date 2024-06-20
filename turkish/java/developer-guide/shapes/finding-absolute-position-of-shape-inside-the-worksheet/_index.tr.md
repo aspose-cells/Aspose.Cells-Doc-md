@@ -1,28 +1,29 @@
 ---
-title: Çalışma Sayfası İçinde Şeklin Mutlak Konumunu Bulma
+title: Çalışma sayfasının içindeki Şeklin Mutlak Konumunu Bulma
 type: docs
 weight: 7000
 url: /tr/java/finding-absolute-position-of-shape-inside-the-worksheet/
-description: Aspose.Cells for Java API'leri aracılığıyla Çalışma Sayfasındaki Şeklin Mutlak Konumunu nasıl bulacağınızı öğrenin.
-keywords: How to Find Absolute Position of Shape in Java, Get Absolute Position of Shape using Java, Obtain Absolute Position of Shape inside the Worksheet via Java, Measure absolute position of Shape with Java.
+description: Aspose.Cells for Java API leri aracılığıyla Çalışma Sayfasının İçindeki Şeklin Mutlak Konumunu Bulmayı Nasıl Öğrenirsiniz.
+keywords: Java da Şeklin Mutlak Pozisyonunu Bulma, Java Kullanarak Şeklin Mutlak Pozisyonunu Alma, Çalışsaydaki Şeklin Mutlak Pozisyonunu Almak via Java, Java ile Şeklin mutlak pozisyonunu ölçme.
 ---
+
 {{% alert color="primary" %}}
 
- Bazen bir şeklin çalışma sayfasındaki mutlak konumunu bilmeniz gerekir. Aspose.Cells şunları sağlar[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) Ve[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) Bu amaç için özellikler. Bu özellikler, çalışma sayfasındaki bir şeklin mutlak konumunu piksel cinsinden döndürür.
+Excel'deki şekillerin çoğunlukla aşağıdaki türlerde olduğu kabul edilir:
 
 {{% /alert %}}
 
-##  **Shape.getLeftToCorner() ve Shape.getTopToCorner() özelliklerinin açıklaması**
+## **Şekil.getTopToCorner() ve {0} özelliklerinin açıklaması**
 
- Bu ekran görüntüsü, ne kadar mesafe olduğunu açıklıyor[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) Ve[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)özellikleri ölçer.
+Bu ekran görüntüsü, [**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) ve [**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) özelliklerinin hangi mesafeleri ölçtüğünü açıklar.
 
-**Mutlak konum nasıl ölçülür?**
+**Mutlak konumu nasıl ölçülür**
 
-![yapılacak şey:image_alt_text](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
+![todo:image_alt_text](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
 
-Aşağıdaki örnek kod, çalışma sayfasındaki ilk şeklin mutlak konumunu piksel cinsinden görüntüler. Kod, konsolda aşağıdaki çıktıyı görüntüler:
+Aşağıdaki örnek kod, bir çalışma sayfasındaki ilk şeklin mutlak konumunu pikseller cinsinden görüntüler. Kod, konsolda aşağıdaki çıktıyı görüntüler:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Absolute Position of this Shape is (320, 180)
 

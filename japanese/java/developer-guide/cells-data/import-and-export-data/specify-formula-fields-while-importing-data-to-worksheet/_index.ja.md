@@ -1,18 +1,19 @@
-﻿---
-title: データをワークシートにインポートする際の数式フィールドの指定
+---
+title: ワークシートへのデータインポート時に式フィールドを指定
 type: docs
 weight: 220
 url: /ja/java/specify-formula-fields-while-importing-data-to-worksheet/
 ---
-## **考えられる使用シナリオ**
 
-を使用してワークシートにデータをインポートするときに、数式フィールドを指定できます。[**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#IsFormulas)方法。このメソッドはブール配列を取り、値は**真実**フィールドが数式フィールドであることを意味します。たとえば、3 番目のフィールドが数式フィールドの場合、配列の 3 番目の値は次のようになります。**真実**.
+## **可能な使用シナリオ**
 
-## **データをワークシートにインポートする際の数式フィールドの指定**
+データをワークシートにインポートする際に、[**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#IsFormulas)メソッドを使用して式フィールドを指定できます。このメソッドは、値**true**がフィールドが式フィールドであることを意味するBoolean配列を受け取ります。たとえば、3番目のフィールドが式フィールドの場合、配列の3番目の値は**true**になります。
 
-データをワークシートにインポートする際に数式フィールドを指定する方法を説明する次のサンプル コードを参照してください。をご覧ください[出力エクセルファイル](61767850.xlsx)コードによって生成されたものと、出力 Excel ファイルに対するコードの効果を示すスクリーンショット。
+## **ワークシートにデータをインポートする際に式フィールドを指定する**
 
-![todo:画像_代替_文章](specify-formula-fields-while-importing-data-to-worksheet_1.png)
+次に、ワークシートにデータをインポートする際に式フィールドを指定する方法を説明したサンプルコードを参照してください。コードによって生成された[出力Excelファイル](61767850.xlsx)と、出力Excelファイルへのコードの影響を示すスクリーンショットを参照してください。
+
+![todo:image_alt_text](specify-formula-fields-while-importing-data-to-worksheet_1.png)
 
 ## **サンプルコード**
 

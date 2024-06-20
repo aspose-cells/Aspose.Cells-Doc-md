@@ -1,56 +1,57 @@
-﻿---
-title: ピボットテーブルを挿入
+---
+title: ピボットテーブルを挿入する
 linktitle: ピボットテーブル
 type: docs
 weight: 160
 url: /ja/net/create-pivot-table/
-description: Excel スプレッドシート ファイルのピボット テーブルを作成してフォーマットします。
+description: Excelスプレッドシートファイルのピボットテーブルを作成し、書式を設定する。
 ---
-## **ピボット テーブルの作成**
 
-Aspose.Cells を使用して、ピボット テーブルをプログラムでスプレッドシートに追加することができます。
+## **ピボットテーブルの作成**
 
-### **ピボット テーブル オブジェクト モデル**
+Aspose.Cellsを使用してプログラムでスプレッドシートにピボットテーブルを追加することができます。
 
-Aspose.Cells は、[**Aspose.Cells.Pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot)ピボット テーブルの作成と制御に使用される名前空間。これらのクラスは、作成および設定に使用されます[**ピボットテーブル**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)オブジェクト、ピボット テーブルのビルディング ブロック。オブジェクトは次のとおりです。
+### **ピボットテーブルオブジェクトモデル**
 
-- [**ピボットフィールド**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)のフィールドを表します[**ピボットテーブル**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable).
-- [**ピボットフィールド コレクション**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection)すべてのコレクションを表します[**ピボットフィールド**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)のオブジェクト[**ピボットテーブル**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable).
-- [**ピボットテーブル**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)ワークシート上のピボットテーブルを表します。
-- [**ピボットテーブル コレクション**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection)すべてのコレクションを表します[**ピボットテーブル**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)ワークシート上のオブジェクト。
+Aspose.Cellsには、ピボットテーブルを作成し制御するための[**Aspose.Cells.Pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot)名前空間内の特別なクラスがあります。これらのクラスは、ピボットテーブルの構成要素である[**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)オブジェクトを作成および設定するために使用されます。オブジェクトには以下のものがあります:
 
-### **Aspose.Cells を使用して簡単なピボット テーブルを作成する**
+- [**PivotField**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)は、[**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)のフィールドを表します。
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection)は、[**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)のすべての[**PivotField**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)オブジェクトのコレクションを表します。
+- [**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)は、ワークシート上のPivotTableを表します。
+- [**PivotTableCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection)は、ワークシート上のすべての[**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)オブジェクトのコレクションを表します。
 
-1. を使用してワークシートにデータを追加する[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)オブジェクトの[**プットバリュー**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)方法。
-このデータは、ピボット テーブルのデータ ソースとして使用されます。
-1. を呼び出して、ワークシートにピボット テーブルを追加します。[**ピボットテーブル**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection)コレクションの[**追加**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index)Worksheet オブジェクトにカプセル化されているメソッド。
-1. 新しい[**ピボットテーブル**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)からのオブジェクト[**ピボットテーブル**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection)ピボットテーブル インデックスを渡すことでコレクションを作成します。
-1. のいずれかを使用します。[**ピボットテーブル**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)オブジェクト (上記で説明) を使用してピボット テーブルを管理します。
+### **Aspose.Cellsを使用して簡単なピボットテーブルを作成する**
 
-サンプル コードを実行すると、ワークシートにピボット テーブルが追加されます。
+1. [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)オブジェクトの[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)メソッドを使用してワークシートにデータを追加します。
+   このデータは、ピボットテーブルのデータソースとして使用されます。
+1. ワークシートにピボットテーブルを追加するために、[**PivotTables**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection)コレクションの[**add**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index)メソッドを呼び出します。このメソッドはWorksheetオブジェクトでカプセル化されています。
+1. 新しい[**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)オブジェクトを[**PivotTables**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection)コレクションから取得します。このコレクションはPivotTableのインデックスを渡すことでアクセスできます。
+1. ピボットテーブルを管理するために、上記で説明した[**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)のいずれかを使用します。
+
+例のコードを実行すると、ワークシートにピボットテーブルが追加されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-CreatePivotTable-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-セルの範囲をデータ ソースとして割り当てる場合、範囲は左上から右下に移動する必要があります。たとえば、「A1:C3」は有効ですが、「C3:A1」は無効です。
+データソースとしてセル範囲を割り当てるときには、範囲は左上から右下に向かっている必要があります。例えば、「A1:C3」は有効ですが、「C3:A1」は無効です。
 
 {{% /alert %}}
 
-## **先行トピック**
-- [連結機能](/cells/ja/net/consolidation-function/)
-- [ピボット テーブルでのカスタム並べ替え](/cells/ja/net/custom-sorting-in-pivot-table/)
-- [ピボット テーブルのグローバリゼーション設定のカスタマイズ](/cells/ja/net/customize-globalization-settings-for-pivot-table/)
-- [ピボット テーブル リボンを無効にする](/cells/ja/net/disable-pivot-table-ribbons/)
-- [親ピボット テーブルのネストされたピボット テーブルまたは子ピボット テーブルを検索して更新する](/cells/ja/net/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/)
-- [ピボット テーブルの書式設定](/cells/ja/net/formatting-pivot-table/)
-- [ピボット テーブルの外部接続データ ソースを取得する](/cells/ja/net/get-external-connection-data-source-of-pivot-table/)
-- [ピボット テーブルの更新日を取得し、誰が情報を更新するか](/cells/ja/net/get-pivot-table-refresh-date-and-refresh-by-who-information/)
-- [ピボット テーブルでピボット フィールドをグループ化する](/cells/ja/net/group-pivot-fields-in-the-pivot-table/)
-- [Excel ファイルの読み込み中にピボット キャッシュ レコードを解析する](/cells/ja/net/parsing-pivot-cached-records-while-loading-excel-file/)
-- [ピボット テーブルとソース データ](/cells/ja/net/pivot-table-and-source-data/)
-- [ピボット テーブルのデータの非表示と並べ替え](/cells/ja/net/pivot-table-hide-and-sort-data/)
-- [計算項目を含むピボット テーブルの更新と計算](/cells/ja/net/refresh-and-calculate-pivot-table-having-calculated-items/)
-- [ピボットテーブルを ODS ファイルに保存](/cells/ja/net/save-pivot-table-in-ods-file/)
-- [レポート フィルター ページの表示オプション](/cells/ja/net/show-report-filter-pages-option/)
-- [ピボット テーブルでの DataField のデータ表示形式の操作](/cells/ja/net/working-with-data-display-formats-of-datafield-in-pivot-table/)
+## **高度なトピック**
+- [集約関数](/cells/ja/net/consolidation-function/)
+- [ピボットテーブルのカスタムソート](/cells/ja/net/custom-sorting-in-pivot-table/)
+- [ピボットテーブルのグローバリゼーション設定のカスタマイズ](/cells/ja/net/customize-globalization-settings-for-pivot-table/)
+- [ピボットテーブルリボンの無効化](/cells/ja/net/disable-pivot-table-ribbons/)
+- [親ピボットテーブルのネストされたピボットテーブルや子ピボットテーブルを見つけて更新する](/cells/ja/net/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/)
+- [ピボットテーブルの書式設定](/cells/ja/net/formatting-pivot-table/)
+- [ピボットテーブルの外部接続データソースの取得](/cells/ja/net/get-external-connection-data-source-of-pivot-table/)
+- [ピボットキャッシュレコードを解析してExcelファイルをロードする際の操作](/cells/ja/net/get-pivot-table-refresh-date-and-refresh-by-who-information/)
+- [ピボットテーブル内のPivot Fieldをグループ化](/cells/ja/net/group-pivot-fields-in-the-pivot-table/)
+- [Excelファイルをロードする際にPivotキャッシュレコードを解析する](/cells/ja/net/parsing-pivot-cached-records-while-loading-excel-file/)
+- [ピボットテーブルの非表示およびデータのソート](/cells/ja/net/pivot-table-and-source-data/)
+- [ピボットテーブルのデータを非表示にしたり並べ替えたり](/cells/ja/net/pivot-table-hide-and-sort-data/)
+- [計算項目を持つピボットテーブルを更新および計算する](/cells/ja/net/refresh-and-calculate-pivot-table-having-calculated-items/)
+- [レポートフィルタページオプションを表示](/cells/ja/net/save-pivot-table-in-ods-file/)
+- [レポートフィルターページのオプションを表示](/cells/ja/net/show-report-filter-pages-option/)
+- [行と列のフォーマット](/cells/ja/net/working-with-data-display-formats-of-datafield-in-pivot-table/)

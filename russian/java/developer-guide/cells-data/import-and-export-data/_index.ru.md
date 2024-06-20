@@ -1,106 +1,107 @@
-﻿---
+---
 title: Импорт и экспорт данных
 type: docs
 weight: 130
 url: /ru/java/import-and-export-data/
 ---
+
 {{% alert color="primary" %}}
 
-В этой статье обсуждаются некоторые методы импорта и экспорта данных, к которым у разработчиков есть доступ по номеру Aspose.Cells.
+В этой статье обсуждаются некоторые техники импорта и экспорта данных, к которым разработчики имеют доступ через Aspose.Cells.
 
 {{% /alert %}}
 
-## Импорт данных в рабочий лист
+## Импорт данных в лист
 
-Данные представляют мир таким, какой он есть. Чтобы разобраться в данных, мы анализируем их и понимаем мир. Данные превращаются в информацию.
+Данные представляют мир таким, каков он есть. Чтобы понять данные, мы анализируем их и приобретаем понимание мира. Данные превращаются в информацию.
 
-Существует много способов выполнения анализа: размещение данных в электронных таблицах и различные манипуляции с ними — один из распространенных методов. С помощью Aspose.Cells легко создавать электронные таблицы, которые берут данные из ряда внешних источников и подготавливают их для анализа.
+Существует много способов анализа: одним из распространенных методов является ввод данных в электронные таблицы и их манипулирование различными способами. С Aspose.Cells легко создавать электронные таблицы, которые берут данные из ряда внешних источников и готовят их к анализу.
 
-В этой статье обсуждаются некоторые методы импорта данных, к которым у разработчиков есть доступ по номеру Aspose.Cells.
+В этой статье обсуждаются некоторые техники импорта данных, к которым разработчики имеют доступ через Aspose.Cells.
 
-### Импорт данных с помощью Aspose.Cells
+### Импорт данных с использованием Aspose.Cells
 
-Когда вы открываете файл Excel с номером Aspose.Cells, все данные в файле импортируются автоматически. Aspose.Cells также может импортировать данные из других источников данных:
+При открытии файла Excel с помощью Aspose.Cells все данные в файле автоматически импортируются. Aspose.Cells также может импортировать данные из других источников данных:
 
-- [Множество](/cells/ru/java/import-and-export-data/).
+- [Массив](/cells/ru/java/import-and-export-data/).
 - [Список массивов](/cells/ru/java/import-and-export-data/).
 - [Набор результатов](/cells/ru/java/import-and-export-data/).
 - [JSON](/cells/ru/java/import-and-export-data/)
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) класс содержит коллекцию[**Рабочий листКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) который позволяет получить доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) класс предоставляет[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) коллекция.[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)collection предоставляет очень полезные методы для импорта данных из других источников данных. В этой статье объясняется, как можно использовать эти методы.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) содержит коллекцию [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets), которая позволяет получать доступ к каждому листу в файле Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) предоставляет коллекцию [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). Коллекция [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) предоставляет очень полезные методы для импорта данных из других источников данных. В этой статье объясняется, как можно использовать эти методы.
 
 #### Импорт из массива
 
- Чтобы импортировать данные в электронную таблицу из массива, вызовите метод importArray класса[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)коллекция. Существует много перегруженных версий метода importArray, но типичная перегрузка принимает следующие параметры:
+Для импорта данных в таблицу из массива вызовите метод importArray коллекции [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). Существует много перегруженных версий метода importArray, но типичная перегрузка принимает следующие параметры:
 
-- **Множество**, объект массива, из которого вы импортируете контент.
-- **Номер строки**номер строки первой ячейки, в которую будут импортированы данные.
-- **Номер столбца**, номер столбца первой ячейки, в которую будут импортированы данные.
+- **Массив**, объект массива, из которого вы импортируете содержимое.
+- **Номер строки**, номер строки первой ячейки, в которую будет импортировано содержимое.
+- **Номер столбца**, номер столбца первой ячейки, в которую будет импортировано содержимое.
 - **Вертикальный**, логическое значение, указывающее, следует ли импортировать данные вертикально или горизонтально.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArray-ImportingFromArray.java" >}}
 
 #### Импорт из многомерных массивов
 
- Чтобы импортировать данные в электронную таблицу из многомерных массивов, вызовите соответствующую перегрузку importArray класса[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)коллекция:
+Чтобы импортировать данные в таблицу из многомерных массивов, вызовите соответствующую перегрузку метода importArray коллекции [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromMultiDimensionalArray-ImportingFromMultiDimensionalArray.java" >}}
 
 #### Импорт из ArrayList
 
- Чтобы импортировать данные из*ArrayList* к рабочим листам, вызовите[**Импортмассивлист**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean) ) метод[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) коллекция.[**Импортмассивлист**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) принимает следующие параметры:
+Чтобы импортировать данные из *ArrayList* в листы, вызовите метод [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) коллекции [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). Метод [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) принимает следующие параметры:
 
-- **ArrayList** ,*ArrayList*объект, содержимое которого будет импортировано.
-- **Номер строки**, номер строки первой ячейки диапазона ячеек, содержимое которого будет импортировано.
+- **ArrayList**, объект *ArrayList*, содержимое которого будет импортировано.
+- **Номер строки**, номер строки первой ячейки диапазона ячеек, из которого будет импортировано содержимое.
 - **Номер столбца**, номер столбца первой ячейки, из которой будут импортированы данные.
-- **Вертикальный**— это логическое значение, указывающее, следует ли импортировать данные вертикально или горизонтально.
+- **Вертикальный**, логическое значение, указывающее, следует ли импортировать данные вертикально или горизонтально.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
 
 #### Импорт из пользовательских объектов в объединенную область
 
-Чтобы импортировать данные из коллекции объектов на рабочий лист, содержащий объединенные ячейки, используйте[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells)имущество. Если в шаблоне Excel есть объединенные ячейки, установите значение[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells)свойство истинно. Пройти[**ImportTableOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImportTableOptions)объект вместе со списком столбцов/свойств в метод для отображения желаемого списка объектов. В следующем примере кода показано использование[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells)свойство для импорта данных из настраиваемых объектов в объединенные ячейки. Пожалуйста, смотрите прикрепленный[исходный файл Excel](90112035.xlsx)файл и[вывод Excel](90112036.xlsx)файл для справки.
+Чтобы импортировать данные из коллекции объектов в лист, содержащий объединенные ячейки, используйте свойство [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells). Если в шаблоне Excel есть объединенные ячейки, установите значение свойства [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells) в true. Передайте объект [**ImportTableOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImportTableOptions) вместе со списком столбцов/свойств в метод для отображения выбранного списка объектов. В следующем примере кода демонстрируется использование свойства [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells) для импорта данных из пользовательских объектов в объединенные ячейки. См. прикрепленные файлы [исходного Excel](90112035.xlsx) и [результирующего Excel](90112036.xlsx) для справки.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
 
 #### Импорт данных из JSON
 
- Aspose.Cells предоставляет[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) класс обработки JSON.[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) класс имеет[**Импорт данных**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) метод импорта данных JSON. Aspose.Cells также предоставляет[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)класс, представляющий параметры макета JSON.[**Импорт данных**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) метод принимает[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) как параметр.[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) класс предоставляет следующие свойства.
+Aspose.Cells предоставляет класс [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) для обработки JSON. У класса [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) есть метод [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) для импорта данных JSON. Aspose.Cells также предоставляет класс [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions), представляющий опции макета JSON. Метод [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) принимает [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) в качестве параметра. Класс [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) предоставляет следующие свойства.
 
-- [**Массив как таблица**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): Указывает на то, что массив должен обрабатываться как таблица или нет.
-- [**КонвертироватьЧисловойОрДате**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): Получает или задает значение, указывающее, следует ли преобразовать строку в JSON в число или дату.
-- [**Формат даты**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#DateFormat): Получает и задает формат значения даты.
-- [**Игнораррайтитле**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle): указывает, следует ли игнорировать заголовок, если свойство объекта является массивом
-- [**ИгнорироватьНулл**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreNull): Указывает, следует ли игнорировать нулевое значение.
-- [**Игнореобжекттитле**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreObjectTitle): Указывает, следует ли игнорировать заголовок, если свойство объекта является объектом.
-- [**Формат номера**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#NumberFormat): Получает и задает формат числового значения.
-- [**НазваниеСтиль**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#TitleStyle): Получает и задает стиль заголовка.
+- [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): Указывает, должен ли массив обрабатываться как таблица или нет.
+- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): Получает или задает значение, указывающее, должна ли строка в JSON преобразовываться в числовую или дату.
+- [**DateFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#DateFormat): Получает и задает формат значения даты.
+- [**IgnoreArrayTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle): Указывает, следует ли игнорировать заголовок, если свойство объекта является массивом.
+- [**IgnoreNull**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreNull): Указывает, следует ли игнорировать значение null или нет.
+- [**IgnoreObjectTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreObjectTitle): Указывает, следует ли игнорировать заголовок, если свойство объекта является объектом.
+- [**NumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#NumberFormat): Получает и задает формат числового значения.
+- [**TitleStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#TitleStyle): Получает и задает стиль заголовка.
 
- Пример кода, приведенный ниже, демонстрирует использование[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) и[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) классы для импорта данных JSON.
+Приведенный ниже образец кода демонстрирует использование классов [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) и [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) для импорта данных из JSON.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportingFromJson-1.java" >}}
 
-## Экспорт данных из рабочего листа
+## Экспорт данных из листа
 
-Aspose.Cells не только позволяет своим пользователям импортировать данные в рабочие листы из внешних источников данных, но также позволяет им экспортировать данные рабочего листа в массив.
+Aspose.Cells позволяет пользователям не только импортировать данные в листы из внешних источников данных, но также экспортировать данные листа в массив.
 
 ### Экспорт данных с использованием Aspose.Cells - Экспорт данных в массив
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) класс содержит[**Рабочий листКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) который позволяет получить доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) класс предоставляет[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) коллекция.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) содержит [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets), позволяющий доступ к каждому листу в файле Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) предоставляет коллекцию [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
 
- Данные можно легко экспортировать в объект Array с помощью[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) учебный класс'[**экспортмассив**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) метод.
+Данные можно легко экспортировать в объект Array, используя метод [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) класса [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
 
-#### Столбцы, содержащие строго типизированные данные
+#### Столбцы, содержащие жестко определенные данные
 
- Электронные таблицы хранят данные в виде последовательности строк и столбцов. Использовать[**экспортмассив**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int) ) для экспорта данных из рабочего листа в массив.[**экспортмассив**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int) ) принимает следующие параметры для экспорта данных рабочего листа в виде*Множество* объект:
+Таблицы сохраняют данные в виде последовательности строк и столбцов. Используйте метод [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) для экспорта данных из листа в массив. Для экспорта данных листа в объект *Array* используются следующие параметры: [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int))
 
-- Номер строки, номер строки первой ячейки, из которой будут экспортированы данные.
-- Номер столбца, номер столбца первой ячейки, откуда будут экспортированы данные
+- Номер строки, номер первой ячейки, из которой будет экспортированы данные.
+- Номер столбца, номер первой ячейки, из которой будет экспортированы данные.
 - Количество строк, количество строк для экспорта.
 - Количество столбцов, количество столбцов для экспорта.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ExportingDataFromWorksheets-1.java" >}}
 
-## **Предварительные темы**
-- [Импорт данных из объекта ResultSet базы данных Microsoft на рабочий лист](/cells/ru/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
-- [Укажите поля формулы при импорте данных на лист](/cells/ru/java/specify-formula-fields-while-importing-data-to-worksheet/)
+## **Продвинутые темы**
+- [Импорт данных из объекта результирующего набора базы данных Microsoft Access в лист](/cells/ru/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
+- [Указание формульных полей при импорте данных в рабочий лист](/cells/ru/java/specify-formula-fields-while-importing-data-to-worksheet/)

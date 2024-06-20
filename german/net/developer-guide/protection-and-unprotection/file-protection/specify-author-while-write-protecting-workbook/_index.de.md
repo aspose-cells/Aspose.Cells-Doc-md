@@ -1,18 +1,19 @@
-﻿---
-title: Geben Sie beim Schreibschutz der Arbeitsmappe den Autor an
+---
+title: Autor beim Schreibschutz des Arbeitsmappenschreibens spezifizieren
 type: docs
 weight: 40
 url: /de/net/specify-author-while-write-protecting-workbook/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Sie können den Autorennamen angeben, während Sie Ihre Arbeitsmappe mit Aspose.Cells API schreibgeschützt machen. Bitte verwenden[**Arbeitsmappe.Einstellungen.Schreibschutz.Autor**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)Eigentum für diesen Zweck.
+## **Mögliche Verwendungsszenarien**
 
-## **Geben Sie beim Schreibschutz der Arbeitsmappe den Autor an**
+Sie können den Autorennamen beim Schreibschutz Ihrer Arbeitsmappe mithilfe der Aspose.Cells-API angeben. Verwenden Sie hierfür die [**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)-Eigenschaft.
 
-Der folgende Beispielcode erläutert die Verwendung von[**Arbeitsmappe.Einstellungen.Schreibschutz.Autor**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)Eigentum. Der Code erstellt eine leere Arbeitsmappe, schützt sie mit einem Kennwort, gibt den Namen des Autors an und speichert sie unter[Excel-Datei ausgeben](67338582.xlsx). Der folgende Screenshot veranschaulicht die Auswirkung des Beispielcodes auf die Excel-Ausgabedatei zu Referenzzwecken.
+## **Autor beim Schreibschutz des Arbeitsmappenschreibens spezifizieren**
 
-![todo: Bild_alt_Text](specify-author-while-write-protecting-workbook_1.png)
+Der folgende Beispiellcode erläutert die Verwendung der [**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)-Eigenschaft. Der Code erstellt eine leere Arbeitsmappe, schützt sie mit einem Passwort, gibt den Autorennamen an und speichert sie als [Ausgabedatei](67338582.xlsx). Der folgende Screenshot veranschaulicht die Auswirkungen des Codebeispiels auf die Ausgabedatei für Ihre Referenz.
+
+![todo:image_alt_text](specify-author-while-write-protecting-workbook_1.png)
 
 ## **Beispielcode**
 

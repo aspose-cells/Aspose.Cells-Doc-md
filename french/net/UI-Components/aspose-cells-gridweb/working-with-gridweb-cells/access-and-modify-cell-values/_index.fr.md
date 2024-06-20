@@ -1,25 +1,28 @@
-﻿---
-title: Accéder et modifier les valeurs Cell
+---
+title: Accéder et Modifier la Valeur de la Cellule
 type: docs
 weight: 20
-url: /fr/net/access-and-modify-cell-values/
+url: /fr/net/aspose-cells-gridweb/access-and-modify-cell-value/
+keywords: GridWeb,valeur de la cellule,modifier,valeur
+description: Cet article présente comment obtenir et modifier la valeur de la cellule dans GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-[Accéder à la feuille de travail Cells](/cells/fr/net/access-worksheet-cells/) discuté de l'accès aux cellules. Cette rubrique étend cette discussion pour montrer comment accéder aux valeurs de cellule et les modifier à l'aide de Aspose.Cells.GridWeb API.
+La section [Accéder aux cellules de feuille de calcul](/cells/fr/net/aspose-cells-gridweb/access-worksheet-cells/) traite de l'accès aux cellules. Ce sujet étend cette discussion pour montrer comment accéder et modifier les valeurs des cellules à l'aide de l'API Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
-## **Accéder et modifier la valeur d'un Cell**
-### **Valeurs de chaîne**
- Avant d'accéder et de modifier la valeur d'une cellule, vous devez savoir comment accéder aux cellules. Pour plus de détails sur les différentes approches d'accès aux cellules, reportez-vous à[Accéder à la feuille de travail Cells](/cells/fr/net/access-worksheet-cells/).
+## **Accès & Modification de la Valeur d'une Cellule**
+### **Valeurs de Chaîne**
+Avant d'accéder et de modifier la valeur d'une cellule, vous devez savoir comment accéder aux cellules. Pour obtenir des détails sur les différentes approches pour accéder aux cellules, consultez [Accéder aux cellules de feuille de calcul](/cells/fr/net/aspose-cells-gridweb/access-worksheet-cells/).
 
-Chaque cellule a une propriété nommée StringValue. Une fois qu'une cellule est accédée, les développeurs peuvent utiliser la propriété StringValue pour accéder à la valeur de chaîne des cellules. Pour modifier les valeurs des cellules, une méthode spéciale PutValue est fournie, qui peut être utilisée pour mettre à jour la valeur de chaîne de la cellule.
+Chaque cellule a une propriété nommée StringValue. Une fois qu'une cellule est accédée, les développeurs peuvent utiliser la propriété StringValue pour accéder à la valeur de la chaîne des cellules. Pour modifier les valeurs des cellules, une méthode spéciale PutValue est fournie, qui peut être utilisée pour mettre à jour la valeur de la chaîne de la cellule.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ModifyCells.aspx-AddCellStringValue.cs" >}}
-### **Tous les types de valeurs**
-La méthode PutValue d'un objet de cellule a 8 surcharges disponibles qui peuvent être utilisées pour modifier n'importe quel type de valeur (Boolean, int, double, DateTime et string) dans une cellule.
+### **Tous Types de Valeurs**
+La méthode PutValue d'un objet de cellule dispose de 8 surcharges disponibles qui peuvent être utilisées pour modifier tout type de valeur (booléen, entier, double, DateTime et chaîne) dans une cellule.
 
 
 
@@ -27,7 +30,7 @@ La méthode PutValue d'un objet de cellule a 8 surcharges disponibles qui peuven
 
 
 
-Il existe également une version surchargée de la méthode PutValue qui peut prendre n'importe quel type de valeur au format chaîne et la convertir automatiquement en un type de données approprié. Pour ce faire, transmettez la valeur booléenne true à un autre paramètre de la méthode PutValue, comme indiqué ci-dessous dans l'exemple.
+Il existe également une version surchargée de la méthode PutValue qui peut prendre n'importe quel type de valeur au format de chaîne et le convertir automatiquement en un type de données approprié. Pour ce faire, passez la valeur booléenne true à un autre paramètre de la méthode PutValue comme indiqué ci-dessous dans l'exemple.
 
 
 

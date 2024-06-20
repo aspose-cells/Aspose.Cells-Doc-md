@@ -1,118 +1,121 @@
-﻿---
+---
 title: Arbeiten mit Visual Studio
 type: docs
 weight: 20
-url: /de/net/working-with-visual-studio/
+url: /de/net/aspose-cells-gridweb/work-with-visual-studio/
+keywords: GridWeb,visualstudio
+description: Dieser Artikel zeigt, wie GridWeb in Visual Studio verwendet werden kann.
 ---
+
 {{% alert color="primary" %}} 
 
-In diesem Thema wird erläutert, wie Aspose.Cells.GridWeb in ASP.NET-Anwendungen mit Visual Studio.NET 2005 verwendet wird. Dieses Thema ist hilfreich für Entwickler auf Anfängerniveau, die mit Aspose.Cells.GridWeb arbeiten.
+In diesem Thema wird erklärt, wie Aspose.Cells.GridWeb in ASP.NET-Anwendungen unter Verwendung von Visual Studio.NET 2005 verwendet werden kann. Dieses Thema ist für Anfänger-Entwickler, die mit Aspose.Cells.GridWeb arbeiten, nützlich.
 
 {{% /alert %}} 
 ## **Arbeiten mit Aspose.Cells.GridWeb unter Verwendung von Visual Studio 2013**
-In diesem Thema wird gezeigt, wie Aspose.Cells.GridWeb verwendet wird, indem eine Beispielwebsite in Visual Studio 2013 erstellt wird. Der Prozess wurde in Schritte unterteilt.
+In diesem Thema wird gezeigt, wie Aspose.Cells.GridWeb durch die Erstellung einer Beispielwebsite in Visual Studio 2013 verwendet werden kann. Der Prozess wurde in Schritte unterteilt.
 ### **Schritt 1: Erstellen einer neuen Website**
 1. Öffnen Sie Visual Studio 2013.
-1.  Von dem**Datei** Menü, auswählen**Neues Menü** , dann**Webseite**. 
+1. Wählen Sie im **Datei**-Menü **Neues Menü** und dann **Website** aus. 
 
-![todo: Bild_alt_Text](working-with-visual-studio_1.png)
-
-
- Der Dialog Neue Website wird geöffnet.
-
-1.  Wählen**ASP.NET Website für Webformulare** aus von Visual Studio installierten Vorlagen.
-1.  Wählen Sie den HTTP-Modus für den Speicherort der Website.
-
-![todo: Bild_alt_Text](working-with-visual-studio_2.png)
+![todo:image_alt_text](working-with-visual-studio_1.png)
 
 
+Der Dialog Neues Website wird geöffnet. 
 
+1. Wählen Sie **ASP.NET-Webformularwebsite** aus den installierten Vorlagen von Visual Studio.
+1. Wählen Sie den HTTP-Modus für den Speicherort der Website aus. 
 
-1.  Geben Sie einen Speicherort an, an dem die Website-Dateien erstellt und gespeichert werden.
- 1. Klicken Sie auf**Durchsuche** im Dialogfeld Neue Website.
-
-![todo: Bild_alt_Text](working-with-visual-studio_3.png)
+![todo:image_alt_text](working-with-visual-studio_2.png)
 
 
 
- Das Dialogfeld „Speicherort auswählen“ wird angezeigt.
 
-1.  Drücke den**Lokaler IIS** Tab.
-Alle Ordner und Webanwendungen, die in Ihrem IIS-Stammordner gespeichert sind, werden angezeigt (z. B.: C:\Inetpub\wwwroot).
+1. Geben Sie einen Speicherort an, an dem die Website-Dateien erstellt und gespeichert werden. 
+   1. Klicken Sie im Dialogfeld Neues Website auf **Durchsuchen**. 
 
-![todo: Bild_alt_Text](working-with-visual-studio_4.png)
+![todo:image_alt_text](working-with-visual-studio_3.png)
+
+
+
+Das Dialogfeld Standort auswählen wird angezeigt. 
+
+1. Klicken Sie auf die Registerkarte **Lokales IIS**.
+   Alle Ordner und Webanwendungen, die in Ihrem IIS-Stammverzeichnis (z. B.: C:\Inetpub\wwwroot) gespeichert sind, werden angezeigt. 
+
+![todo:image_alt_text](working-with-visual-studio_4.png)
 
 
 
 
 1. Erstellen Sie nun eine neue Webanwendung in Ihrem lokalen IIS, in der die Website-Dateien gespeichert werden.
- Im Dialogfeld "Speicherort auswählen" können Sie Webanwendungen oder virtuelle Verzeichnisse in Ihrem lokalen IIS erstellen und löschen. Um eine Webanwendung zu erstellen, klicken Sie auf eine Schaltfläche, wie unten in der Abbildung gezeigt.
+   Der Dialogfeld 'Standort auswählen' ermöglicht das Erstellen und Löschen von Webanwendungen oder virtuellen Verzeichnissen in Ihrem lokalen IIS. Um eine Webanwendung zu erstellen, klicken Sie auf eine Schaltfläche, wie in der Abbildung unten gezeigt. 
 
-![todo: Bild_alt_Text](working-with-visual-studio_5.png)
-
-
-
- Eine neue Webanwendung mit dem Standardnamen WebSite wird erstellt.
-
-1. Benennen Sie die Webanwendung um. Wir haben es in GridWebOn2013 umbenannt.
-1.  Klicken**Offen**. 
-
-![todo: Bild_alt_Text](working-with-visual-studio_6.png)
+![todo:image_alt_text](working-with-visual-studio_5.png)
 
 
 
- Sie kehren zum Dialogfeld „Neue Website“ zurück. Der Pfad zum Standort der Website ist auf eingestellt<http://localhost/GridWebOn2013>. 
+Eine neue Webanwendung mit dem Standardnamen 'WebSite' wird erstellt. 
 
-1.  Klicken**OK** um Visual Studio eine Website erstellen zu lassen.
+1. Benennen Sie die Webanwendung um. Wir haben sie in 'GridWebOn2013' umbenannt.
+1. Klicken Sie auf **Öffnen**. 
 
-![todo: Bild_alt_Text](working-with-visual-studio_7.png)
-### **Schritt 2: Quell- und Designansichten einer Webseite überprüfen**
- Eine Standardwebsite wurde von Visual Studio 2013 erstellt. Sie enthält eine default.aspx-Webseite mit etwas Dummy-Text und Markup.
-
-**Quellansicht der Seite „default.aspx“.** 
-
-![todo: Bild_alt_Text](working-with-visual-studio_8.png)
+![todo:image_alt_text](working-with-visual-studio_6.png)
 
 
 
-Alle Webseiten (einschließlich ASP.NET) können in zwei Modi geöffnet werden. Eine davon ist die Quellansicht, mit der Entwickler auf den Quellcode zugreifen und ihn ändern können. Der zweite Modus ist die Entwurfsansicht, die zum Entwerfen von Webseiten im WYSIWYG-Stil verwendet werden kann. Der obige Screenshot zeigt eine Quellansicht der Webseite default.aspx. Um die Entwurfsansicht anzuzeigen, klicken Sie auf**Design**. 
+You return to the New Web Site dialog. The path of web site location is set to <http://localhost/GridWebOn2013>. 
 
-**Entwurfsansicht der Seite „default.aspx“.** 
+1. Klicken Sie auf **OK**, damit Visual Studio eine Website erstellt. 
 
-![todo: Bild_alt_Text](working-with-visual-studio_9.png)
+![todo:image_alt_text](working-with-visual-studio_7.png)
+### **Schritt 2: Quell- & Designansichten einer Webseite überprüfen**
+Ein Standard-Website wurde von Visual Studio 2013 erstellt. Sie enthält eine 'default.aspx'-Webseite mit etwas Dummy-Text und Markup. 
+
+**Quellansicht der 'default.aspx'-Seite** 
+
+![todo:image_alt_text](working-with-visual-studio_8.png)
+
+
+
+Alle Webseiten (einschließlich ASP.NET) können in zwei Modi geöffnet werden. Einer ist die Quellansicht, die es Entwicklern ermöglicht, auf den Quellcode zuzugreifen und diesen zu ändern. Der zweite Modus ist die Designansicht, die verwendet werden kann, um Webseiten auf eine WYSIWYG-Art zu entwerfen. Das obige Screenshot zeigt eine Quellansicht der 'default.aspx'-Webseite. Um die Designansicht anzuzeigen, klicken Sie auf **Design**. 
+
+**Designansicht der 'default.aspx'-Seite** 
+
+![todo:image_alt_text](working-with-visual-studio_9.png)
 
 
 
 
-Löschen Sie die von Visual Studio hinzugefügte Seite „Default.aspx“, und fügen Sie eine neue leere Seite „Default.aspx“ hinzu.
+Löschen Sie die von Visual Studio hinzugefügte 'Default.aspx'-Seite und fügen Sie eine neue leere 'Default.aspx'-Seite hinzu.
 
-![todo: Bild_alt_Text](working-with-visual-studio_10.png)
+![todo:image_alt_text](working-with-visual-studio_10.png)
 ### **Schritt 3: Hinzufügen von Aspose.Cells.GridWeb zur Webseite**
- Sie können das Steuerelement Aspose.Cells.GridWeb (oder GridWeb) einfach zu einer Webseite hinzufügen, indem Sie es aus der Toolbox ziehen.
+Sie können einfach die Aspose.Cells.GridWeb (oder GridWeb) Steuerelement zu einer Webseite hinzufügen, indem Sie es aus der Toolbox ziehen. 
 
-![todo: Bild_alt_Text](working-with-visual-studio_11.png)
+![todo:image_alt_text](working-with-visual-studio_11.png)
 
 
 
 
 {{% alert color="primary" %}} 
 
- Wenn Sie nicht wissen, wie Sie Aspose.Cells.GridWeb zur Toolbox hinzufügen, lesen Sie weiter[Integrieren Sie Aspose.Cells-Rastersteuerelemente in Visual Studio.NET](/cells/de/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/). 
+Wenn Sie nicht wissen, wie Sie Aspose.Cells.GridWeb zur Toolbox hinzufügen können, verweisen Sie auf [Integrieren von Aspose.Cells Grid Controls mit Visual Studio.NET](/cells/de/net/aspose-cells-gridweb/integrate-aspose-cells-grid-controls-with-visual-studio-net/). 
 
 {{% /alert %}} 
 
- Sobald das GridWeb-Steuerelement auf der Webseite abgelegt wurde, würde es wie folgt gerendert werden:
+Sobald das GridWeb-Steuerelement zur Webseite hinzugefügt wird, wird es so gerendert: 
 
-![todo: Bild_alt_Text](working-with-visual-studio_12.png)
+![todo:image_alt_text](working-with-visual-studio_12.png)
 
 
 
-### **Schritt 4: Ändern Sie das Tag <!DOCTYPE>**
-1.  Wechseln Sie zur Quellansicht und finden Sie Folgendes**<!DOCTYPE>** Tag im Quellcode:
+### **Step 4: Change the <!DOCTYPE> tag**
+1. Switch to source view and find the following **<!DOCTYPE>** tag in the source code: 
 
 **ASP.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -122,17 +125,17 @@ Löschen Sie die von Visual Studio hinzugefügte Seite „Default.aspx“, und f
 
 {{< /highlight >}}
 
-1.  Wählen Sie das vollständige Tag aus.
+1. Wählen Sie den kompletten Tag aus. 
 
-![todo: Bild_alt_Text](working-with-visual-studio_13.png)
-
-
+![todo:image_alt_text](working-with-visual-studio_13.png)
 
 
-1.  Behalten, ändern oder löschen Sie die<!DOCTYPE> Schild.
-1.  Oder ändern Sie die<!DOCTYPE> Tag mit folgendem:
 
-{{< highlight "csharp" >}}
+
+1. Retain, change or delete the <!DOCTYPE> tag.
+1. Or modify the <!DOCTYPE> tag with the following one: 
+
+{{< highlight csharp >}}
 
 
 
@@ -141,33 +144,33 @@ Löschen Sie die von Visual Studio hinzugefügte Seite „Default.aspx“, und f
 
 
 {{< /highlight >}}
-### **Schritt 5: Ändern der Größe von Aspose.Cells.GridWeb Control**
- Sie können die Breite und Höhe des GridWeb-Steuerelements ändern, nachdem Sie es auf die Website gezogen haben.
+### **Schritt 5: Ändern der Größe des Aspose.Cells.GridWeb-Steuerelements**
+Nachdem Sie das GridWeb-Steuerelement zur Website gezogen haben, können Sie die Breite und Höhe des GridWeb-Steuerelements ändern. 
 
- In der Entwurfsansicht können Sie die Breite und Höhe des GridWeb ändern.
+In der Designansicht können Sie die Breite und Höhe des GridWeb ändern. 
 
-![todo: Bild_alt_Text](working-with-visual-studio_14.png)
+![todo:image_alt_text](working-with-visual-studio_14.png)
 
 
 
 ### **Schritt 6: Konfigurieren der Eigenschaften von Aspose.Cells.GridWeb**
- Konfigurieren Sie die Aspose.Cells.GridWeb-Eigenschaften in WYSIWYG, indem Sie auf klicken**Eigenschaften** auf der rechten Seite der Visual Studio 2013-IDE.
- Ein Eigenschaftendialog wird angezeigt.
+Konfigurieren Sie die Eigenschaften des Aspose.Cells.GridWeb in WYSIWYG, indem Sie auf die Schaltfläche **Eigenschaften** auf der rechten Seite der Visual Studio 2013 IDE klicken. 
+Es wird ein Eigenschaften-Dialogfeld angezeigt. 
 
-![todo: Bild_alt_Text](working-with-visual-studio_15.png)
+![todo:image_alt_text](working-with-visual-studio_15.png)
 
 
 
-Der Eigenschaftenbereich ermöglicht es, das Aussehen und Verhalten von GridWeb und einige andere Eigenschaften zu konfigurieren, um das Verhalten von GridWeb zu steuern.
+Das Eigenschaftenfenster ermöglicht es, das Aussehen und Verhalten des GridWeb sowie einige andere Eigenschaften zu konfigurieren.
 ### **Schritt 7: Ausführen Ihrer ersten Website mit Aspose.Cells.GridWeb**
- Erstellen und betreiben Sie die Website.
+Bauen und starten Sie die Webseite. 
 
-1.  Führen Sie die Website direkt aus Visual Studio aus, indem Sie STRG+F5 drücken oder klicken**Starten Sie das Debuggen**. 
+1. Starten Sie die Webseite direkt aus Visual Studio, indem Sie Strg+F5 drücken oder auf **Debugging starten** klicken. 
 
-![todo: Bild_alt_Text](working-with-visual-studio_16.png)
+![todo:image_alt_text](working-with-visual-studio_16.png)
 
- Jetzt können Sie mit der GridWeb-Steuerung spielen.
+Nun können Sie mit der GridWeb-Steuerung spielen. 
 
-**GridWeb-Steuerelement in Aktion** 
+**GridWeb-Steuerung in Aktion** 
 
-![todo: Bild_alt_Text](working-with-visual-studio_17.png)
+![todo:image_alt_text](working-with-visual-studio_17.png)

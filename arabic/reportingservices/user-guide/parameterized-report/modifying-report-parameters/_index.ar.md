@@ -1,32 +1,33 @@
-﻿---
+---
 title: تعديل معلمات التقرير
 type: docs
 weight: 20
 url: /ar/reportingservices/modifying-report-parameters/
 ---
-لتعديل معلمة تقرير:
+
+لتعديل معلم التقرير: 
 
 1. افتح Microsoft Excel.
-1.  انقر**تقرير معلمة**على Aspose.Cells.Report.Designer شريط الأدوات (
+1. انقر على **معلمة التقرير** على شريط أدوات Aspose.Cells.Report.Designer
 
-![ما يجب القيام به: image_بديل_نص](modifying-report-parameters_1.png)
+![todo:image_alt_text](modifying-report-parameters_1.png)
 
 ).
 
-1.  حدد معلمة تقرير مدرجة في اللوحة اليمنى ، على سبيل المثال**تقرير شهر**.
-1.  انقر**يُعدِّل**. 
+1. حدد معلم التقرير المدرج في اللوحة اليسرى، على سبيل المثال **ReportMonth**.
+1. انقر على **تعديل**. 
 
-   **اختيار المعلمة** 
+   **اختيار معلمة** 
 
-![ما يجب القيام به: image_بديل_نص](modifying-report-parameters_2.png)
-
-
+![todo:image_alt_text](modifying-report-parameters_2.png)
 
 
-1.  تعديل معلومات معلمة التقرير.
+
+
+1. قم بتعديل معلومات معلم التقرير. 
 
    **تعديل المعلمة** 
 
-![ما يجب القيام به: image_بديل_نص](modifying-report-parameters_3.png)
+![todo:image_alt_text](modifying-report-parameters_3.png)
 
-1.  انقر**يحفظ**.
+1. انقر على **حفظ**.

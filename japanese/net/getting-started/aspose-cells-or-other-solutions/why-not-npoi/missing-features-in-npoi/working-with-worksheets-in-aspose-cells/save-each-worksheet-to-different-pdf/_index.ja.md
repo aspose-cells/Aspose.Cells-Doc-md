@@ -1,29 +1,30 @@
-﻿---
-title: 各ワークシートを別の PDF に保存
+---
+title: 各ワークシートを異なる PDF に保存
 type: docs
 weight: 10
 url: /ja/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - 各ワークシートを別の PDF に保存**
-Aspose.Cells は、XLS ファイル (画像、チャートなどを含む) を PDF ドキュメントに変換することをサポートします。 Aspose.Cells for .NET は独立してスプレッドシートを Pdf ドキュメントに変換することができ、変換に Aspose.Pdf for .NET を使用する必要がなくなりました。プロセス全体をメモリ内で実行できるため、変換では一時ファイルを作成/使用する必要はありません。
+
+## **Aspose.Cells - 各ワークシートを異なる PDF に保存**
+Aspose.Cells は、XLS ファイル（画像、グラフなどを含む）を PDF ドキュメントに変換することをサポートしています。Aspose.Cells for .NET は、単体でスプレッドシートを PDF ドキュメントに変換でき、変換にはもはや Aspose.Pdf for .NET を使用する必要はありません。変換には一時ファイルの作成/使用も必要ありません。なぜなら、全体のプロセスがメモリ内で行われるからです。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
-//新しいワークブックをインスタンス化し、Excel を開く
+ //Instantiate a new workbook and open the Excel
 
-//その場所からのファイル
+//File from its location
 
 Workbook workbook = new Workbook("../../data/test.xlsx");
 
-//ブック内のワークシートの数を取得します
+//Get the count of the worksheets in the workbook
 
 int sheetCount = workbook.Worksheets.Count;
 
-//最初のワークシートを除くすべてのシートを非表示にします
+//Make all sheets invisible except first worksheet
 
-for (int i = 1; i< workbook.Worksheets.Count; i++)
+for (int i = 1; i < workbook.Worksheets.Count; i++)
 
 {
 
@@ -54,13 +55,13 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**各ワークシートを別の PDF に保存**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから**各ワークシートを異なる PDF に保存**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[各ワークシートを別の PDF ファイルに保存する](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
+詳細については、[各ワークシートを別の PDF ファイルに保存](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/)をご覧ください。
 
 {{% /alert %}}

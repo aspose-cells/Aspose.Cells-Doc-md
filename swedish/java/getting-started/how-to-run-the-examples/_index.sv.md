@@ -1,17 +1,18 @@
-﻿---
+---
 title: Hur man kör exemplen
 type: docs
 weight: 100
 url: /sv/java/how-to-run-the-examples/
 ---
-## **Ladda ner från GitHub**
- Alla exempel på Aspose.Cells for Java finns på[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java) . Du kan antingen klona förvaret med din favorit GitHub-klient eller ladda ner ZIP-filen från[här](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
 
- Extrahera innehållet i ZIP-filen till valfri mapp på din dator. Alla exempel finns i**Exempel** mapp.
+## **Ladda ned från GitHub**
+Alla exempel av Aspose.Cells for Java är värdade på [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java). Du kan antingen klona repositoryt med din favorit-GitHub-klient eller ladda ner ZIP-filen från [här](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
 
- De**Resurser** mappen innehåller indatadokument eller filer som används i exemplen.
+Extrahera innehållet i ZIP-filen till valfri mapp på din dator. Alla exempel ligger i mappen **Exempel**.
 
-Du kan köra/köra dessa exempel med vilken IDE du vill, men för demonstrationsändamål använder vi**Förmörkelse** . Använd**Arkiv -> Importera** alternativet för att importera det valda exemplet och ange sökvägen.
+Mappen **Resurser** innehåller inmatningsdokument eller filer som används i exempelen.
+
+Du kan köra/köra dessa exempel med valfri IDE, men för demonstrationsändamål använder vi **Eclipse**. Använd alternativet **Fil -> Importera** för att importera exemplet du valt och ange sökvägen.
 
 Lägg till de nödvändiga jar-filerna (bibliotek) i projektet.
 
@@ -19,30 +20,30 @@ Varje exempel tillhandahålls som en separat körbar klass. Högerklicka på fil
 
 {{% alert color="primary" %}} 
 
- Exempel är i form av**Eclipse Project** . Öppna exemplen i Eclipse med hjälp av**Arkiv > Öppna projekt från filsystem...** menykommandot och följ stegen. Nu borde du kunna köra exemplen bra.
+Exemplen är i form av **Eclipse-projekt**. Öppna exempel i Eclipse med kommandot **Fil > Öppna projekt från filsystemet...** och följ stegen. Nu bör du kunna köra exemplen utan problem.
 
 {{% /alert %}} 
 ## **Kör exemplet**
-En gång öppnar du exemplen i Eclipse IDE och väljer sedan valfri .java-fil. Välj till exempel den här.
+När du väl har öppnat exemplen i Eclipse IDE, välj sedan valfri .java fil. Välj till exempel denna.
 
 TilePictureAsTextureInsideShape.java
 
-finns inuti
+hittas inuti
 
-Exempel>src>AsposeCellsExamples>DrawingObjects-katalogen
+Exempel>src>AsposeCellsExamples>DrawingObjects-mappen
 
-eller inuti förpackningen
+eller inuti paketet
 
-AsposeCellExamples.DrawingObjects
+AsposeCellsExamples.DrawingObjects
 
-och kör den.
+och kör det.
 ## **Skärmdump**
-Se följande skärmdump och dess markerade områden för mer hjälp.
+Se gärna följande skärmbild och dess markerade områden för mer hjälp.
 
 ![todo:image_alt_text](how-to-run-the-examples_1.png)
 
 ## **Bidra**
-Om du vill lägga till eller förbättra ett exempel uppmuntrar vi dig att bidra till projektet. Alla exempel och utställningsprojekt i det här arkivet är öppen källkod och kan fritt användas i dina egna applikationer.
+Om du vill lägga till eller förbättra ett exempel uppmuntrar vi dig att bidra till projektet. Alla exempel och showcase-projekt i detta repository är öppen källkod och kan fritt användas i dina egna applikationer.
 
-För att bidra kan du dela förvaret, redigera källkoden och skapa en pull-begäran. Vi kommer att granska ändringarna och inkludera dem i arkivet om det är användbart.
+För att bidra kan du forka lagringsplatsen, redigera källkoden och skapa en pull-begäran. Vi kommer att granska ändringarna och inkludera dem i lagringsplatsen om de anses vara hjälpsamma.
 

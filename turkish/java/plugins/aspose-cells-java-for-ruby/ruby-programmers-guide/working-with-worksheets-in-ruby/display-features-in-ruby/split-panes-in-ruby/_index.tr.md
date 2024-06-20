@@ -1,15 +1,16 @@
-﻿---
-title: Ruby'de Bölme Bölmeleri
+---
+title: Ruby de Bölünmüş Panolar
 type: docs
 weight: 80
 url: /tr/java/split-panes-in-ruby/
 ---
-## **Aspose.Cells - Bölmeli Bölmeler**
- Kullanarak Bölmeleri Bölmek için**Yakut için Aspose.Cells Java** , sadece çağırmak**Bölünmüş Paneller** modül.
 
-**Yakut Kodu**
+## **Aspose.Cells - Bölünmüş Panolar**
+Bölünmüş Pencereleri **Aspose.Cells Java for Ruby** kullanarak, **SplitPanes** modülünü basitçe çağırın.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -33,6 +34,6 @@ puts "Panes split successfully."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Bölünmüş Bölmeler (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+İndirin **Bölünmüş Panolar (Aspose.Cells)** any of the aşağıda bahsedilen sosyal kodlama sitelerinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/splitpanes.rb)

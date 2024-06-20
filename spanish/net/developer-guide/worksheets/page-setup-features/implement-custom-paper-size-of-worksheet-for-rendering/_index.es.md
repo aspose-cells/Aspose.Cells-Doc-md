@@ -1,23 +1,24 @@
 ---
-title: Implementar el tamaño de papel personalizado de la hoja de trabajo para la representación
+title: Implementar tamaño de papel personalizado de la hoja de cálculo para la representación
 type: docs
 weight: 70
 url: /es/net/implement-custom-paper-size-of-worksheet-for-rendering/
-description: Este artículo explica cómo usar el código de muestra de la biblioteca C# API o .NET para establecer el tamaño de papel personalizado de las hojas de trabajo deseadas al representar el archivo de Excel en el formato de archivo PDF mediante programación.
-keywords: set custom paper size while rendering excel to pdf c#
+description: Este artículo explica cómo utilizar el código de muestra de la API de C# o biblioteca .NET para establecer el tamaño de papel personalizado de las hojas de cálculo deseadas al convertir un archivo de Excel a formato de archivo PDF de forma programática.
+keywords: establecer tamaño de papel personalizado al renderizar excel a pdf c#
 ---
-##  **Posibles escenarios de uso**
 
-No hay una opción directa disponible para crear tamaños de papel personalizados en MS Excel, sin embargo, puede configurar el tamaño de papel personalizado de sus hojas de trabajo deseadas al representar el archivo de Excel en el formato de archivo PDF. Este documento explica cómo configurar un tamaño de papel personalizado de una hoja de cálculo utilizando las API Aspose.Cells.
+## **Escenarios de uso posibles**
 
-##  **Implementar el tamaño de papel personalizado de la hoja de trabajo para la representación**
+No hay una opción directa disponible para crear tamaños de papel personalizados en MS Excel, sin embargo, puede establecer el tamaño de papel personalizado de sus hojas de cálculo deseadas al renderizar el archivo de Excel al formato de archivo PDF. Este documento explica cómo establecer un tamaño de papel personalizado de una hoja de cálculo utilizando las APIs de Aspose.Cells.
 
- Aspose.Cells le permite implementar el tamaño de papel deseado de la hoja de trabajo. Puedes usar el[**Tamaño de papel personalizado**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/custompapersize) metodo de la[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) class para especificar un tamaño de página personalizado. El código de ejemplo siguiente ilustra cómo especificar un tamaño de papel personalizado para la primera hoja de cálculo del libro. Consulte también la[salida PDF](45056028.pdf)generado con el siguiente código para una referencia.
+## **Implementar Tamaño de Papel Personalizado de la Hoja de Cálculo para el Renderizado**
 
-##  **Captura de pantalla**
+Aspose.Cells le permite implementar el tamaño de papel deseado de la hoja de cálculo. Puede usar el método [**CustomPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/custompapersize) de la clase [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) para especificar un tamaño de página personalizado. El siguiente código de muestra ilustra cómo especificar un tamaño de papel personalizado para la primera hoja de trabajo en el libro. Consulte también el [PDF de salida](45056028.pdf) generado con el siguiente código como referencia.
 
-![todo:imagen_alt_texto](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+## **Captura de pantalla**
 
-##  **Código de muestra**
+![todo:image_alt_text](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+
+## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.cs" >}}

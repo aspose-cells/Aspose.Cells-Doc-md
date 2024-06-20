@@ -1,37 +1,38 @@
-﻿---
-title: Bildlaufleisten in Aspose.Cells anzeigen oder ausblenden
+---
+title: Scrollleisten in Aspose.Cells anzeigen oder ausblenden
 type: docs
 weight: 70
 url: /de/net/display-or-hide-scroll-bars-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Bildlaufleisten werden häufig verwendet, um durch den Inhalt einer Datei zu navigieren. Normalerweise gibt es zwei Arten von Bildlaufleisten:
+Scrollleisten werden verwendet, um durch die Inhalte einer Datei zu navigieren. Normalerweise gibt es zwei Arten von Scrollleisten:
 
-- Vertikale Bildlaufleisten
-- Horizontale Bildlaufleisten
+- Vertikale Scrollleisten
+- Horizontale Scrollleisten
 
-Microsoft Excel bietet auch horizontale und vertikale Bildlaufleisten, damit Benutzer durch Arbeitsblattinhalte blättern können. Mit Aspose.Cells können Entwickler die Sichtbarkeit beider Arten von Bildlaufleisten in Excel-Dateien steuern.
+Microsoft Excel bietet auch horizontale und vertikale Scrollleisten an, damit Benutzer durch die Inhalte des Arbeitsblatts scrollen können. Mit Aspose.Cells können Entwickler die Sichtbarkeit beider Arten von Scrollleisten in Excel-Dateien steuern.
 
 {{% /alert %}}
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)die eine Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten einer Excel-Datei. Um die Sichtbarkeit von Bildlaufleisten zu steuern, verwenden Sie die[**Arbeitsmappeneinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) Klasse'[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) und[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) Eigenschaften.[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) und[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) sind boolesche Eigenschaften, was bedeutet, dass diese Eigenschaften nur speichern können**wahr** oder**FALSCH** Werte.
+Aspose.Cells stellt eine Klasse, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bereit, die eine Excel-Datei darstellt. Die Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bietet eine breite Palette von Eigenschaften und Methoden zur Verwaltung einer Excel-Datei. Um die Sichtbarkeit von Scrollleisten zu steuern, verwenden Sie die Eigenschaften [**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) und [**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) der Klasse [**WorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings). [**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) und [**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) sind boolsche Eigenschaften, was bedeutet, dass diese Eigenschaften nur **true** oder **false** Werte speichern können.
 
-Unten ist ein vollständiger Code, der eine Excel-Datei, book1.xls, öffnet, beide Bildlaufleisten ausblendet und dann die geänderte Datei als output.xls speichert.
+Im Folgenden finden Sie einen vollständigen Code, der eine Excel-Datei öffnet, book1.xls versteckt beide Scrollleisten und speichert dann die geänderte Datei als output.xls ab.
 
-Der folgende Screenshot zeigt die Datei Book1.xls, die beide Bildlaufleisten enthält. Die geänderte Datei wird als output.xls-Datei gespeichert, die auch unten gezeigt wird.
+Das folgende Screenshot zeigt die Datei Book1.xls mit beiden Scrollleisten. Die geänderte Datei wird als output.xls Datei gespeichert, wie unten gezeigt.
 
 **Book1.xls: Excel-Datei vor jeder Änderung**
 
-![todo: Bild_alt_Text](display-or-hide-scroll-bars-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-scroll-bars-in-aspose-cells_1.png)
 
 **output.xls: Excel-Datei nach der Änderung**
 
-![todo: Bild_alt_Text](display-or-hide-scroll-bars-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-scroll-bars-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,7 +62,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Scroll%20Bars)
 

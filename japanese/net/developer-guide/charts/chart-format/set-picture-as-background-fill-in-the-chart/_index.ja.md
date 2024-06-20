@@ -1,19 +1,20 @@
 ---
-title: 画像を背景として設定する グラフに記入する
-description: Aspose.Cells for .NET を使用して、グラフの背景の塗りつぶしとして画像を設定する方法を学びます。このガイドでは、画像をインポートして配置し、サイズと色を調整し、書式設定オプションを適用してグラフの外観を向上させる方法を説明します。
-keywords: Aspose.Cells for .NET, charting, background fill, picture, import, positioning, size, color, formatting.
+title: チャートに背景として画像を設定する
+description: Aspose.Cells for .NETを使用して、チャートに背景として画像を設定する方法を学びます。画像をインポートして配置し、サイズや色を調整し、フォーマットオプションを適用してチャートの外観を向上させる方法を示すガイドです。
+keywords: Aspose.Cells for .NET、チャート作成、背景の設定、画像、インポート、配置、サイズ、色、フォーマット。
 type: docs
 weight: 30
 url: /ja/net/set-picture-as-background-fill-in-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells を使用すると、グラフのプロット領域、グラフ領域、凡例ボックスなどのさまざまなオブジェクトの塗りつぶし効果として、グラデーション、テクスチャ、パターン、または画像を設定できます。このドキュメントでは、チャートの背景に画像を追加する方法を説明します。
+Aspose.Cellsを使用すると、プロットエリア、チャートエリア、または凡例ボックスなどのさまざまなオブジェクトの塗りつぶし効果としてグラデーション、テクスチャ、パターン、または画像を設定することができます。このドキュメントでは、チャートの背景に画像を追加する方法を示しています。
 
 {{% /alert %}}
 
-これを達成するために、Aspose.Cells は[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata)財産。次のコードサンプルは、の使用法を示しています。[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata)プロパティを使用して、チャートの背景の塗りつぶしとして画像を設定します。
+これを実現するために、Aspose.Cellsは[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata)プロパティを提供しています。次のコードサンプルは、チャートの背景に画像を設定するために[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata)プロパティを使用する方法を示しています。
 
-##  C# 画像をチャートの背景塗りつぶしとして設定するコード
+## チャートで背景として画像を設定するC#コード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-SetPictureBackGroundFillChart-SetPictureBackGroundFillChart.cs" >}}

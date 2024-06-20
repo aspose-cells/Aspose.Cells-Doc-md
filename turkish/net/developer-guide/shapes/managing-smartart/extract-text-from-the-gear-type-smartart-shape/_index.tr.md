@@ -1,24 +1,25 @@
-﻿---
-title: Dişli Tipi SmartArt Şeklinden Metin Çıkarma
+---
+title: Dişli Türü Akıllı Sanat Şeklinden Metin Ayıklama
 type: docs
 weight: 500
 url: /tr/net/extract-text-from-the-gear-type-smartart-shape/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- Aspose.Cells, Gear Type Smart Art Shape'den metin çıkarabilir. Bunu yapmak için önce Smart Art Shape'i kullanarak Group Shape'e dönüştürmelisiniz.[**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) yöntem. Ardından, Grup Şeklini oluşturan tüm Bireysel Şekillerin dizisini kullanarak almalısınız.[**GroupShape.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes) yöntem. Son olarak, tüm Bireysel Şekilleri bir döngüde birer birer yineleyebilir ve metinlerini kullanarak ayıklayabilirsiniz.[**şekil.metin**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)Emlak.
+Aspose.Cells, Dişli Türü Akıllı Sanat Şeklinden metin çıkarabilir. Bunun için öncelikle [**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) yöntemini kullanarak Akıllı Sanat Şeklini Grup Şekline dönüştürmelisiniz. Ardından [**GroupShape.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes) yöntemini kullanarak Grup Şeklini oluşturan Tüm Bireysel Şekillerin dizisini almalısınız. Son olarak, tüm Bireysel Şekilleri bir döngü içinde tek tek dolaşabilir ve [**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) özelliğini kullanarak metinlerini çıkarabilirsiniz.
 
-## **Dişli Tipi SmartArt Şeklinden Metin Çıkarma**
+## **Dişli Türü Akıllı Sanat Şeklinden Metin Ayıklama**
 
- Aşağıdaki örnek kod,[örnek excel dosyası](67338483.xlsx) Gear Type Smart Art Shape'i içerir. Ardından, yukarıda tartışıldığı gibi metni tek tek şekillerinden çıkarır. Lütfen referans için aşağıda verilen kodun konsol çıktısına bakın.
+Aşağıdaki örnek kod, Dişli Türü Akıllı Sanat Şeklini içeren [örnek Excel dosyasını](67338483.xlsx) yükler. Daha sonra yukarıda tartışıldığı gibi, bireysel şekillerinden metin çıkarır. Lütfen aşağıdaki kodun konsol çıktısına bakınız.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-ExtractTextFromGearTypeSmartArtShape.cs" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Gear Type Shape Text: Nice
 

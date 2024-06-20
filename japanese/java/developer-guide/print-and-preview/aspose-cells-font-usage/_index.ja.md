@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Cells フォントの使用
 type: docs
 weight: 100

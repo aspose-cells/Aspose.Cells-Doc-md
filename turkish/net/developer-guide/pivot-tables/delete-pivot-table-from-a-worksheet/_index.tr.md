@@ -1,17 +1,18 @@
-﻿---
-title: Pivot Tabloyu Çalışma Sayfasından Silme
+---
+title: Bir Çalışma Sayfasından Pivot Tablosunu Sil
 type: docs
 weight: 60
 url: /tr/net/delete-pivot-table-from-a-worksheet/
-description: Excel Çalışma Sayfaları için PivotTable'ı kaldırmak için C# kodu
-keywords: c# remove pivot table from worksheet, c# remove pivot table from excel, how to delete pivot table with c#, delete pivot table with c#, delete pivot table from excel with c#, c# delete pivot table, c# remove pivot table, remove pivot table, delete pivot table, how to delete pivot table
+description: Excel Çalışma Sayfaları için PivotTablo nun kaldırılması için C# kodu
+keywords: c# çalışma sayfasından pivot tablosu kaldır, c# excel den pivot tablosu kaldır, c# ile pivot tablosu nasıl silinir, c# ile pivot tablosunu sil, excel den c# ile pivot tablosu silme, c# pivot tablosunu silme, c# pivot tablosu kaldırma, pivot tablosunu silme, pivot tablosunu silme
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells, Pivot Tabloyu bir Çalışma Sayfasından silmek veya kaldırmak için bir özellik sağlar. Pivot tablo nesnesini veya pivot tablo konumunu kullanarak pivot tabloyu silebilirsiniz. lütfen[**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) pivot tablo nesnesini kullanarak pivot tabloyu silme yöntemi ve[**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) pivot tablo koleksiyonu içindeki konumunu kullanarak pivot tablo nesnesini silme yöntemi.
+Aspose.Cells, bir Çalışma Sayfasından Pivot Tablosunu silme veya kaldırma özelliği sağlar. Pivot tablosu nesnesini veya pivot tablosu pozisyonunu kullanarak pivot tablosunu silebilirsiniz. Pivot tablosunu nesnesini kullanarak pivot tablosunu silmek için lütfen [**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) yöntemini ve pivot tablosu koleksiyonundaki pozisyonunu kullanarak pivot tablosunu silme yöntemi [**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) kullanın.
 
 {{% /alert %}}
 
- Aşağıdaki örnek kod, çalışma sayfasından iki pivot tabloyu siler. İlk önce pivot tabloyu kullanarak kaldırır[**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) yöntemini kullanır ve ardından pivot tabloyu kullanarak kaldırır[**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) yöntem
+Aşağıdaki örnek kod, çalışma sayfasından iki pivot tablosunu siler. İlk önce [**Worksheet.PivotTables.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/remove) yöntemini kullanarak pivot tablosunu kaldırır, ardından [**Worksheet.PivotTables.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/removeat) yöntemini kullanarak pivot tablosunu kaldırır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.cs" >}}

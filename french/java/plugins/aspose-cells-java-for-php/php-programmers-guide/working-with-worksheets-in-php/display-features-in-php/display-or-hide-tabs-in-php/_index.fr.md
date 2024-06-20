@@ -1,16 +1,17 @@
-﻿---
-title: Afficher ou masquer les onglets en PHP
+---
+title: Afficher ou masquer les onglets en Php
 type: docs
 weight: 30
 url: /fr/java/display-or-hide-tabs-in-php/
 ---
-## **Aspose.Cells - Afficher ou masquer les onglets**
-### **Masquer les onglets**
- Pour masquer les onglets à l'aide de**Aspose.Cells Java for PHP** , téléphoner à**afficher les onglets masqués** module.
+
+## **Aspose.Cells - Afficher ou Masquer les onglets**
+### **Masquage des onglets**
+Pour masquer les onglets en utilisant **Aspose.Cells Java pour PHP**, appelez le module **displayhidetabs**.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -25,7 +26,7 @@ $workbook->getSettings()->setShowTabs(false);
 $workbook->save($dataDir + "output.xls");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Masquer ou afficher ou masquer les onglets (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Masquer ou afficher ou masquer les onglets (Aspose.Cells)** sur l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)

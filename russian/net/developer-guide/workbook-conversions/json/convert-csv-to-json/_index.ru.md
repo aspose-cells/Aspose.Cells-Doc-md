@@ -1,29 +1,31 @@
-﻿---
-title: Преобразование CSV в JSON
+---
+title: Преобразовать CSV в JSON
 type: docs
 weight: 220
 url: /ru/net/convert-csv-to-json/
-description: Преобразуйте файл CSF в JSON, используя простой в использовании Aspose.Cells for .NET API.
-keywords: Convert, Convert CVS to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON CSharp, c# code to convert CSV to JSON
+description: Конвертировать файл CSF в JSON, используя простой в использовании API Aspose.Cells for .NET.
+keywords: Конвертировать, конвертировать CVS в JSON, CSV в JSON, CSV, JSON, Конвертировать CSV в JSON на CSharp, c# код для конвертации CSV в JSON
 ---
-## **Преобразование CSV в JSON**
 
-Aspose.Cells поддерживает преобразование CSV в JSON. Для этого API предоставляет**[ExportRangeToJsonOptions] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**и**[JsonUtility] (https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)** классы.**[ExportRangeToJsonOptions] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**класс предоставляет параметры для экспорта диапазона в JSON.**[ExportRangeToJsonOptions] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**класс имеет следующие свойства.
+## **Преобразовать CSV в JSON**
 
-- **[ExportAsString](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring)**: Это экспортирует строковое значение ячеек в JSON.
-- **[HasHeaderRow] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow)**: указывает, содержит ли диапазон строку заголовка.
-- **[Отступ](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent)**: указывает отступ.
+Aspose.Cells поддерживает преобразование CSV в JSON. Для этого API предоставляет классы [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) и [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility). Класс [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) предоставляет параметры экспорта диапазона в JSON. Класс [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) имеет следующие свойства.
 
-**[JsonUtility] (https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**класс экспортирует JSON, используя параметры экспорта, установленные с помощью**[ExportRangeToJsonOptions] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**учебный класс.
+- [**ExportAsString**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring): Это экспортирует строковое значение ячеек в JSON.
+- [**HasHeaderRow**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow): Это указывает, содержит ли диапазон заголовок строки.
+- [**Indent**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent): Указывает отступ.
 
-В следующем примере кода показано использование**[ExportRangeToJsonOptions] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**и**[JsonUtility] (https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)** классы для загрузки[исходный файл CSV](104398879.csv)и выводит в консоль вывод JSON.
+Класс [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) экспортирует JSON с использованием параметров экспорта, установленных с помощью класса [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions).
+
+Приведенный ниже образец кода демонстрирует использование классов [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) и [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) для загрузки [исходного файла CSV](104398879.csv) и печати JSON-вывода в консоль.
 
 ### **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertCsvToJson-1.cs" >}}
 
-### **Консольный вывод**
-```json
+### **Вывод в консоль**
+{{< highlight java >}}
+
 [
 {
 "id": 1,
@@ -56,4 +58,5 @@ Aspose.Cells поддерживает преобразование CSV в JSON. 
 "postalCode": 394221
 }
 ]
-```
+
+{{< /highlight >}}

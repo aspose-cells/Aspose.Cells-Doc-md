@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Cells Yazı Tipi Kullanımı
 type: docs
 weight: 100

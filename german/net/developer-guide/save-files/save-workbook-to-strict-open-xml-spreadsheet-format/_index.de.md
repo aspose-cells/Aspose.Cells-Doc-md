@@ -1,18 +1,19 @@
-﻿---
-title: Speichern Sie die Arbeitsmappe im strikt offenen XML-Tabellenformat
+---
+title: Arbeitsmappe im strengen Open XML Tabellenformat speichern
 type: docs
 weight: 150
 url: /de/net/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells ermöglicht Ihnen das Speichern der Arbeitsmappe in*Strikte offene XML-Tabelle*Format. Dafür stellt sie die**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)**Eigentum. Wenn Sie seinen Wert als festlegen**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)**, dann wird die Excel-Ausgabedatei im Strict Open XML Spreadsheet-Format gespeichert.
+## **Mögliche Verwendungsszenarien**
 
-## **Speichern Sie die Arbeitsmappe im strikt offenen XML-Tabellenformat**
+Aspose.Cells ermöglicht es Ihnen, die Arbeitsmappe im Format *Striktes Open XML-Spreadsheet* zu speichern. Hierfür wird die [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance) Eigenschaft bereitgestellt. Wenn Sie ihren Wert auf [**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance) setzen, wird die Ausgabe-Excel-Datei im Format *Striktes Open XML-Spreadsheet* gespeichert.
 
-Der folgende Beispielcode erstellt eine Arbeitsmappe und legt den Wert von fest**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)** Eigentum als**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)** und speichert es als[Excel-Datei ausgeben](67338272.xlsx) . Wenn Sie die Excel-Ausgabedatei in Microsoft Excel öffnen und das Dialogfeld Speichern unter... öffnen, sehen Sie ihr Format als*Strikte offene XML-Tabelle*wie in diesem Screenshot gezeigt.
+## **Arbeitsmappe im Strict Open XML-Tabellenkalkulationsformat speichern**
 
-![todo: Bild_alt_Text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
+Der folgende Beispielcode erstellt eine Arbeitsmappe und setzt den Wert der [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance) Eigenschaft auf [**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance) und speichert sie als [Ausgabe-Excel-Datei](67338272.xlsx). Wenn Sie die Ausgabe-Excel-Datei in Microsoft Excel öffnen und das Dialogfeld Speichern unter... öffnen, wird ihr Format als *Striktes Open-XML-Spreadsheet* angezeigt, wie in diesem Screenshot gezeigt.
+
+![todo:image_alt_text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 
 ## **Beispielcode**
 

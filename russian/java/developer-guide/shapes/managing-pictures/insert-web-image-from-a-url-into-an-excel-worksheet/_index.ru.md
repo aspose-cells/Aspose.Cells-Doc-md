@@ -1,12 +1,13 @@
-﻿---
-title: Вставьте веб-изображение из URL-адреса в рабочий лист Excel
+---
+title: Вставка веб изображения из URL в электронную таблицу Excel
 type: docs
 weight: 240
 url: /ru/java/insert-web-image-from-a-url-into-an-excel-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
- В этой статье показано, как можно вставить веб-изображение непосредственно в[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)Приведенный ниже фрагмент кода использует пространства имен java.net и java.io вместе с com.aspose.cells для достижения желаемого результата.
+Эта статья демонстрирует, как вставить веб-изображение непосредственно в [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Предоставленный ниже фрагмент кода использует пространства имен java.net & java.io вместе с com.aspose.cells для достижения желаемого результата.
 
 {{% /alert %}}
 

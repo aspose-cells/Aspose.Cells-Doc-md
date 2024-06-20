@@ -1,77 +1,78 @@
 ---
-title: Excel Dosyasının Satır ve Sütunlarını Ekleme ve Silme
-linktitle: Satır ve Sütun Ekleme ve Silme
+title: Excel dosyasının Satırları ve Sütunları Eklemek ve Silmek
+linktitle: Satırları ve Sütunları Eklemek ve Silmek
 type: docs
 weight: 70
 url: /tr/net/inserting-and-deleting-rows-and-columns/
-description: Bu makalede, Aspose.Cells for .NET API numaralı telefona göre satır ve sütunların nasıl ekleneceği ve silineceği gösterilmektedir.
-keywords: Aspose.Cells C# manage rows and columns, insert rows and columns, delete rows and columns
+description: Bu makale, Aspose.Cells for .NET API si ile satırları ve sütunları nasıl ekleyip sileceğinizi gösterir.
+keywords: Aspose.Cells C#, satırları ve sütunları yönetir, satırlar ve sütunlar ekler, satırlar ve sütunlar siler
 ---
-##  **giriiş**
 
-İster sıfırdan yeni bir çalışma sayfası oluşturun ister mevcut bir çalışma sayfası üzerinde çalışın, daha fazla veriyi barındırmak için fazladan satır veya sütun eklememiz gerekebilir. Bunun tersine, çalışma sayfasında belirtilen konumlardaki satırları veya sütunları da silmemiz gerekebilir.
+## **Giriş**
+
+Sıfırdan yeni bir çalışma sayfası oluştururken veya mevcut bir çalışma sayfası üzerinde çalışırken, daha fazla veri eklemek için ekstra satırlar veya sütunlar eklememiz gerekebilir. Tersine, çalışma sayfasının belirli pozisyonlarından satırları veya sütunları silebiliriz.
 Bu gereksinimleri karşılamak için Aspose.Cells, aşağıda tartışılan çok basit bir sınıf ve yöntem seti sağlar.
 
-###  **Satırları ve Sütunları Yönet**
+### **Satırları ve Sütunları Yönetmek**
 
-Aspose.Cells bir sınıf sağlıyor[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Microsoft Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**Çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)Bir Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon. Bir çalışma sayfası şu şekilde temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)çalışma sayfasındaki tüm hücreleri temsil eden koleksiyon.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişimi sağlayan bir [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) koleksiyonu içerir. Bir çalışma sayfası [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, çalışma sayfasındaki tüm hücreleri temsil eden bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu sağlar.
 
-[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)koleksiyon, bir çalışma sayfasındaki satırları ve sütunları yönetmeye yönelik çeşitli yöntemler sağlar. Bunlardan bazıları aşağıda tartışılmaktadır.
+[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu, bir çalışma sayfasındaki satırları ve sütunları yönetmek için birkaç yöntem sağlar. Bunlardan bazıları aşağıda tartışılmıştır.
 
 {{% alert color="primary" %}}
 
-Satır veya sütunlar eklendiğinde çalışma sayfasındaki içerik aşağı veya sağa kaydırılır; satırlar veya sütunlar kaldırıldığında içerik yukarı veya sola kaydırılır.
+Satırlar veya sütunlar eklenirse, çalışma sayfasındaki içerik aşağıya veya sağa kaydırılır ve satırlar veya sütunlar kaldırılırsa içerik yukarıya veya sola kaydırılır.
 
 {{% /alert %}}
 
 
-##  **Satır ve Sütun Ekle**
+## **Satırları ve Sütunları Eklemek**
 
-###  **Satır Nasıl Eklenir**
+### **Bir Satır Nasıl Eklenir**
 
- Çağırarak çalışma sayfasının herhangi bir yerine bir satır ekleyin.[**InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak.[**InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow)metodu yeni satırın ekleneceği satırın indeksini alır.
+Yeni bir satırı çalışma sayfasına herhangi bir konumda eklemek için [**InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) koleksiyonunun [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) yöntemini çağırarak yapılır. Yeni satırın ekleneceği satırın indeksini alan [**InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) yöntemi çağrılır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARow-1.cs" >}}
 
-###  **Birden Çok Satır Nasıl Eklenir**
+### **Birkaç Satır Nasıl Eklenir**
 
- Bir çalışma sayfasına birden çok satır eklemek için[**Satırları Ekle**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak.[**Satırları Ekle**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)yöntem iki parametre alır:
+Birden çok satırı çalışma sayfasına eklemek için [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) koleksiyonunun [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) yöntemini çağırın. [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) yöntemi iki parametre alır:
 
-- Satır dizini, yeni satırların ekleneceği satırın dizini.
+- Satır indeksi, yeni satırların ekleneceği satırın indeksi.
 - Satır sayısı, eklenmesi gereken toplam satır sayısı.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingMultipleRows-1.cs" >}}
 
-###  **Biçimlendirmeyle Satır Nasıl Eklenir**
+### **Biçimlendirme Seçenekleriyle Bir Satır Nasıl Eklenir**
 
-Biçimlendirme seçeneklerini içeren bir satır eklemek için[**Satırları Ekle**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)süren aşırı yük[**EkleSeçenekler**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) parametre olarak. Yı kur[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) mülkiyet[**EkleSeçenekler**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) ile sınıf[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Numaralandırma.[**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype)Numaralandırmanın aşağıda listelendiği gibi üç üyesi vardır.
+Biçimlendirme seçenekleriyle bir satır eklemek için, bir parametre olarak [**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) kullanan [**InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows) aşırı yüklemesini kullanın. [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) sınıfının [**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) özelliğini [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Sıralama ile ayarlayın. [**CopyFormatType**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Sıralama'nın aşağıda listelenen üç üyesi bulunmaktadır.
 
-- SameAsAbove: Satırı yukarıdaki satırla aynı şekilde biçimlendirir.
-- SameAsBelow: Satırı aşağıdaki satırla aynı şekilde biçimlendirir.
+- SameAsAbove: Satırı üstteki satır ile aynı şekilde biçimlendirir.
+- SameAsBelow: Satırı alttaki satır ile aynı şekilde biçimlendirir.
 - Temizle: Biçimlendirmeyi temizler.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingARowWithFormatting-1.cs" >}}
 
-###  **Sütun Nasıl Eklenir**
+### **Bir Sütun Nasıl Eklenir**
 
- Geliştiriciler ayrıca çalışma sayfasının herhangi bir yerindeki sütunu çağırarak da sütun ekleyebilirler.[**Sütun Ekle**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Toplamak.[**Sütun Ekle**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn)yöntem, yeni sütunun ekleneceği sütunun dizinini alır.
+Geliştiriciler, herhangi bir konumda çalışma sayfasına bir sütun ekleyebilirler, bunun için [**InsertColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) koleksiyonunun [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) yöntemini çağırarak yapılır. [**InsertColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcolumn) yöntemi çağrılır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-InsertingAColumn-1.cs" >}}
 
-##  **Satırları ve Sütunları Sil**
+## **Satırları ve Sütunları Silmek**
 
-###  **Birden Çok Satır Nasıl Silinir?**
+### **Birden Fazla Satır Nasıl Silinir**
 
- Bir çalışma sayfasından birden çok satırı silmek için,[**Satırları Sil**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak.[**Satırları Sil**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows)yöntem iki parametre alır:
+Çalışma sayfasından birden fazla satır silmek için, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonunun [**DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) yöntemini çağırın. [**DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows) yöntemi iki parametre alır:
 
-- Satır dizini, satırların silineceği satırın dizini.
-- Satır sayısı, silinmesi gereken toplam satır sayısı.
+- Satır endeksi, satırların silineceği başlangıç satırının endeksi.
+- satır sayısı, silinmesi gereken toplam satır sayısı
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingMultipleRows-1.cs" >}}
 
 
-###  **Sütun Nasıl Silinir?**
+### **Bir Sütunu Nasıl Silebilirsiniz**
 
- Çalışma sayfasında herhangi bir yerden bir sütunu silmek için[**Sütunu Sil**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak.[**Sütunu Sil**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn)yöntem silinecek sütunun dizinini alır.
+Herhangi bir konumda faaliyet sayfasından bir sütun silmek için, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonunun [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) yöntemini çağırın. [**DeleteColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deletecolumn) yöntemi silinecek sütunun endeksini alır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-InsertingAndDeleting-DeletingAColumn-1.cs" >}}

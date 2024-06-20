@@ -1,15 +1,16 @@
-﻿---
-title: Cifrado de archivos en PHP
+---
+title: Encriptando Archivos en PHP
 type: docs
 weight: 10
 url: /es/net/encrypting-files-in-php/
 ---
-## **Aspose.Cells - Cifrar archivos de Excel**
-Cifrar un archivo de Excel Microsoft
+
+## **Aspose.Cells - Encriptar Archivos de Excel**
+Encriptar un Archivo de Microsoft Excel
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -40,7 +41,7 @@ Cifrar un archivo de Excel Microsoft
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Cifrado de archivos (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Encriptando Archivos (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)

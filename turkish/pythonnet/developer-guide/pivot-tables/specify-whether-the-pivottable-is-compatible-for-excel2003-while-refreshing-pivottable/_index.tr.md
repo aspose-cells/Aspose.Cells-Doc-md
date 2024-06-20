@@ -1,19 +1,20 @@
 ---
-title: PivotTable'ı yenilerken PivotTable'ın Excel2003 ile uyumlu olup olmadığını belirtme
+title: PivotTable, PivotTable yeniden tazelenirken Excel2003 için uyumlu olup olmadığını belirtin
 type: docs
 weight: 80
 url: /tr/python-net/specify-whether-the-pivottable-is-compatible-for-excel2003-while-refreshing-pivottable/
-description: Bu makale, PivotTable'ı Aspose.Cells for Python via .NET ile yenilerken PivotTable'ın Excel2003 ile uyumlu olup olmadığının nasıl belirleneceğini gösterir.
-keywords: Specify whether the PivotTable is compatible for Excel2003 while refreshing PivotTable
+description: Bu makale, Aspose.Cells for Python via .NET ile PivotTablo yeniden tazeleme sırasında Excel2003 için uyumlu olup olmadığını belirtmeyi göstermektedir.
+keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, PivotTablo yeniden tazeleme sırasında Excel2003 için uyumlu olup olmadığını belirtin
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for Python via .NET şunları sağlar[**PivotTable.is_excel_2003_uyumlu**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible/) PivotTable'ı yenilerken PivotTable'ın Excel2003 ile uyumlu olup olmadığını belirtmek için kullanabileceğiniz özellik. Doğruysa, bir dizenin 255 karakterden küçük veya ona eşit olması gerekir; dolayısıyla dize 255 karakterden büyükse kesilecektir. *yanlış** ise, bir dize yukarıda belirtilen kısıtlamaya sahip olmayacaktır. Varsayılan değer *true**'dur.
+Aspose.Cells for Python via .NET, pivot tablosunu yeniden tazeleme sırasında Excel2003 için uyumlu olup olmadığını belirtmek için [**PivotTable.is_excel_2003_compatible**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible/) özelliğini sağlar. true ise, bir dize 255 karakterden az olmalıdır, bu nedenle dize 255 karakterden fazla ise kısaltılacaktır. **false**, bir dizenin yukarıda bahsedilen kısıtlamaya sahip olmayacaktır. Varsayılan değer **true**'dir.
 
 {{% /alert %}}
 
-##  **PivotTable'ı yenilerken PivotTable'ın Excel2003 ile uyumlu olup olmadığını belirtme**
+## **PivotTablo yeniden tazeleme sırasında Excel2003 için uyumlu olup olmadığını belirtme**
 
- Aşağıdaki örnek kod, kullanımını açıklamaktadır.[**PivotTable.is_excel_2003_uyumlu**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible/) mülk. Orijinal dize 383 karakter uzunluğundadır. Ama ne zaman[**PivotTable.is_excel_2003_uyumlu**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible/) özellik ayarlandı**doğru** ve pivot tablo yenilenir, pivot tablonun B5 hücresindeki veriler kesilir ve 255 karakter uzunluğunda olur. Ancak ne zaman[**PivotTable.is_excel_2003_uyumlu**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible/) özellik ayarlandı**YANLIŞ**ve pivot tablo yeniden yenilenir, pivot tablonun B5 hücresindeki veriler kesilmez ve 383 karakter uzunluğunda kalır. Bu özelliğin daha iyi anlaşılması için lütfen kodun içindeki yorumları okuyun.
+Aşağıdaki örnek kod, [**PivotTable.is_excel_2003_compatible**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible/) özelliğinin kullanımını açıklar. Orijinal dize 383 karakter uzunluğundadır. Fakat [**PivotTable.is_excel_2003_compatible**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible/) özelliği **true** olarak ayarlandığında ve pivot tablosu yeniden tazelendiğinde, pivot tablosunun B5 hücresinin verisi kısaltılır ve 255 karakter uzunluğuna gelir. Ancak [**PivotTable.is_excel_2003_compatible**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_excel_2003_compatible/) özelliği **false** olarak ayarlandığında ve pivot tablosu tekrar tazelendiğinde, pivot tablosunun B5 hücresinin verisi kısaltılmaz ve 383 karakter uzunluğunda kalır. Bu özelliğin daha iyi anlaşılması için kod içindeki yorumları okuyun lütfen.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SpecifyCompatibility-1.py" >}}

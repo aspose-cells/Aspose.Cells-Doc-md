@@ -1,15 +1,16 @@
-﻿---
+---
 title: Skapa diagram
 type: docs
 weight: 20
 url: /sv/net/create-charts/
 ---
+
 ## **Aspose.Cells - Skapa diagram**
-Det är möjligt att lägga till en mängd olika diagram till kalkylblad med Aspose.Cells. Aspose.Cells tillhandahåller många flexibla diagramobjekt.
+Det är möjligt att lägga till olika diagram i kalkylblad med Aspose.Cells. Aspose.Cells tillhandahåller många flexibla diagramobjekt.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -68,13 +69,13 @@ serieses.Add("A1:B3", true);
 workbook.Save("Chart_Aspose.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Skapa diagram** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Skapa diagram** från någon av nedanstående sociala kodningssidor:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Hur man skapar ett diagram](/cells/sv/net/create-charts/).
+För mer detaljer, besök [Hur man skapar ett diagram](/cells/sv/net/create-charts/).
 
 {{% /alert %}}

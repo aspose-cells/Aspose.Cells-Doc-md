@@ -1,16 +1,17 @@
-﻿---
-title: Étendre et contribuer à l'outil d'importation de mise à jour CRM
+---
+title: Étendre et contribuer à l outil d import de mise à jour CRM
 type: docs
 weight: 10
 url: /fr/net/extend-and-contribute-to-crm-update-import-tool/
 ---
-Vous pouvez télécharger le dernier code source sur :
+
+Vous pouvez télécharger le dernier code source sur :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Plugins.UpdateImportTool).
 
-Exporter des données du CRM vers Excel
+Exporter des données de CRM vers Excel
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
   SaveFileDialog fileDialog = new SaveFileDialog();
 
@@ -73,7 +74,7 @@ Exporter des données du CRM vers Excel
 
 Importer des données d'Excel vers CRM
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
   if (ctrl.CrmConnectionMgr != null && ctrl.CrmConnectionMgr.CrmSvc != null && ctrl.CrmConnectionMgr.CrmSvc.IsReady)
 

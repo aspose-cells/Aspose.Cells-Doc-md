@@ -1,65 +1,66 @@
-﻿---
+---
 title: Características
 type: docs
 weight: 5
 url: /es/python-net/features/
-keywords: python, excel, api, feature
-description: Aspose.Cells for Python via .NET características
+keywords: "python, excel, api, características"
+description: "Características de Aspose.Cells para Python via .NET"
 ---
+
 {{% alert color="primary" %}} 
 
-Esta página resume las características de Aspose.Cells for Python via .NET.
+Esta página resume las características de Aspose.Cells para Python via .NET.
 
 {{% /alert %}} 
-## **Formatos de archivo y conversiones**
-- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF , JPG, PNG, BMP y SVG.
+## **Formatos de Archivo y Conversiones**
+- XLS, SpreadsheetML (XLSX, XML), XLSB, XLSM, DOCX, PPTX, JSON, Valor Separado por Comas (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Delimitado por Tabulador, Texto sin Formato (TXT) y formatos de imagen populares, incluyendo TIFF, JPG, PNG, BMP y SVG.
 ## **Renderizado e Impresión**
-- Renderizar hoja de cálculo a imágenes vectoriales (EMF)
-- Renderizar hojas de trabajo a imágenes rasterizadas (Multipage TIFF, GIF)
-- Renderizar hojas de trabajo a imágenes rasterizadas (PNG, JPEG, etc.)
-- Renderizar hoja de cálculo al PDF con alta fidelidad
-## **Características del contenido de la hoja de cálculo**
-- Copie o mueva hojas de trabajo dentro o entre libros de trabajo
-- Inserte imágenes, cree gráficos convencionales y personalizados y establezca un fondo degradado para gráficos usando API
+- Renderizar hojas de cálculo a imágenes vectoriales (EMF)
+- Renderizar hojas de cálculo a imágenes raster (Multipágina TIFF, GIF)
+- Renderizar hojas de cálculo a imágenes raster (PNG, JPEG, etc.)
+- Renderizar hojas de cálculo a PDF con alta fidelidad
+## **Características del Contenido de la Hoja de Cálculo**
+- Copiar o mover hojas de cálculo dentro o entre libros de trabajo
+- Insertar imágenes, crear gráficos convencionales y personalizados y establecer un fondo degradado para los gráficos mediante API
 - Agregar comentarios a las celdas
-- Microsoft Excel 2007 y versiones posteriores temas y colores
+- Temas y colores de Microsoft Excel 2007 y versiones posteriores
 - Crear filtros automáticos
 - Implementar validaciones de datos
-- Implementar clasificación de datos
+- Implementar ordenación de datos
 - Buscar y reemplazar texto
-- Fusionar/dividir Cells
+- Combinar/dividir celdas
 - Agrupar/desagrupar filas y columnas
 - Crear saltos de página personalizados
-- Calcule fórmulas complejas de Excel
-- Admite formato condicional avanzado admitido en Microsoft Excel 2007 y versiones posteriores
+- Calcular fórmulas complejas de Excel
+- Soportar formato condicional avanzado compatible con Microsoft Excel 2007 y versiones posteriores
 - Congelar/descongelar paneles
 - Insertar hipervínculos para vincular datos
-- Implementar marcadores inteligentes
+- Implementar Marcadores Inteligentes
 - Especificar la configuración de propiedades del documento
-- Proteger/desproteger hojas de trabajo
-- Especifique las opciones de protección avanzada introducidas en Excel XP y versiones posteriores
-- Crear objeto de lista/Microsoft tablas de Excel
+- Proteger/desproteger hojas de cálculo
+- Especificar opciones avanzadas de protección introducidas en Excel XP y versiones posteriores
+- Crear objetos de lista/tablas de Microsoft Excel
 - Crear subtotales
 - Insertar controles de formulario y otras formas/objetos de dibujo
 - Crear tablas dinámicas y gráficos dinámicos
 - Conservar o eliminar complementos, VBA, macros
 - Manipular rangos con nombre
-- Agregue, conserve o extraiga objetos OLE de las hojas de cálculo.
-- Implementar Microsoft minigráficos de Excel
+- Agregar, conservar o extraer objetos OLE de las hojas de cálculo
+- Implementar minigráficos de Microsoft Excel
 - Cifrar archivos
-## **Funciones de formato de hoja de cálculo**
-- Aplique todos los formatos de caracteres en las celdas, incluidas las fuentes, los colores, los efectos, los bordes y el sombreado.
-- Aplique todas las configuraciones de formato de número (admitidas en Microsoft Excel) para las celdas
-- Establecer todos los tipos de ajustes de alineación de texto
+## **Funciones de formato de la hoja de cálculo**
+- Aplicar todo el formato de caracteres en las celdas, incluidas fuentes, colores, efectos, bordes y sombreado
+- Aplicar todas las configuraciones de formato de número (compatibles con Microsoft Excel) para las celdas
+- Establecer todos los tipos de configuraciones de alineación de texto
 - Aplicar diferentes tipos de configuraciones de fuente para las celdas
-- Aplique diferentes colores a celdas, fuentes, líneas de cuadrícula, objetos gráficos, etc.
+- Aplicar diferentes colores a celdas, fuentes, líneas de cuadrícula, objetos gráficos, etc.
 - Aplicar diferentes formatos de texto enriquecido en una sola celda
-- Aplicar diferentes configuraciones de borde en las celdas
-- Aplicar diferentes patrones de fondo en las celdas
-- Aplique la configuración de formato en una hoja de trabajo, fila, columna o rango de celdas, etc.
-## **Funciones de configuración de página**
-- Ajuste la orientación de su página, la escala, el tamaño del papel
-- Especifique sus márgenes y centrado de página
-- Crea o edita tu encabezado y/o pie de página
-- Configure el área de impresión, imprima títulos o active las líneas de cuadrícula, etc.
+- Aplicar diferentes configuraciones de borde en celdas
+- Aplicar diferentes patrones de fondo en celdas
+- Aplicar configuraciones de formato en una hoja de cálculo, fila, columna o un rango de celdas, etc.
+## **Características de Configuración de Página**
+- Ajustar la orientación de la página, escalado, tamaño del papel
+- Especificar los márgenes y el centrado de la página
+- Crear o editar el encabezado y/o pie de página
+- Establecer área de impresión, títulos de impresión o activar las líneas de cuadrícula, etc.
 

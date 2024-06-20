@@ -1,23 +1,24 @@
-﻿---
-title: Genel API Aspose.Cells 9.0.0'daki değişiklikler
+---
+title: Aspose.Cells 9.0.0 da Genel API Değişiklikleri
 type: docs
 weight: 340
 url: /tr/java/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 8.9.2 sürümünden 9.0.0 sürümüne Aspose.Cells API üzerindeki değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek şekilde Aspose.Cells API'sindeki 8.9.2 sürümünden 9.0.0 sürümüne kadar olan değişiklikleri açıklar. Yeni ve güncellenmiş genel yöntemlerin yanı sıra eklenen ve kaldırılan sınıflar vb. gibi konuları içerir, ayrıca Aspose.Cells'in arka planda olan herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Shape.TextOptions Özelliği Eklendi**
-Aspose.Cells for Java, bir Shape'in metinsel bölümlerinin görünümünü kontrol etmek için Shape sınıfı için TextOptions özelliğini kullanıma sundu.
+## **Eklenen API'lar**
+### **Eklenen Shape.TextOptions Özelliği**
+Aspose.Cells for Java, Shape sınıfı için metinsel kısımların görünümünü kontrol etmek için TextOptions özelliğini ortaya çıkarmıştır.
 
 İşte Shape.TextOptions özelliğinin basit kullanım senaryosu.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize an instance of Workbook
 
@@ -48,44 +49,44 @@ textbox.getTextOptions().setItalic(true);
 textbox.getTextOptions().setBold(true);
 
 {{< /highlight >}}
-### **ChartPoint.IsInSecondaryPlot Özelliği Eklendi**
-Aspose.Cells for Java, ChartPoint.IsInSecondaryPlot özelliğini ortaya çıkardı ve bu özellik, bir ChartPoint'in Pasta veya Çubuk grafiğinin ikincil çiziminde bulunup bulunmadığını algılamak için kullanılabilir.
+### **Eklenen ChartPoint.IsInSecondaryPlot Özelliği**
+Aspose.Cells for Java, ChartPoint.IsInSecondaryPlot özelliğini ortaya çıkarmıştır; bu, bir Pasta veya Bar grafiğinin ikincil çizgisinde bir ChartPoint'in olup olmadığını tespit etmek için kullanılabilir.
 
 İşte Shape.Line özelliğinin basit kullanım senaryosu.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Bir DataPoint bulmak, İkinci Çizimde bulunur](/cells/tr/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
+[Bir Veri Noktasının İkincil Grafiğinde Olup Olmadığını Bulma](/cells/tr/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)'daki detaylı makaleyi kontrol edin
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Pasta grafiği içeren mevcut bir e-tabloyu yükleyin
+ //Load an existing spreadsheet containing a Pie chart
 
-Çalışma kitabı kitabı = yeni Çalışma Kitabı(dir + "PieBar.xlsx");
+Workbook book = new Workbook(dir + "PieBar.xlsx");
 
-//Çalışma Sayfasını 0 dizinine yükleyin
+//Load the Worksheet at 0 index
 
-Çalışma sayfası sayfası = book.getWorksheets().get(0);
+Worksheet sheet = book.getWorksheets().get(0);
 
-//Koleksiyondan ilk grafiği yükle
+//Load the first chart from the collection
 
-Grafik grafiği = sayfa.getCharts().get(0);
+Chart chart = sheet.getCharts().get(0);
 
-//Özelliklerine erişmeden önce grafiği hesapla
+//Calculate the chart before accessing its properties
 
 chart.calculate();
 
-//Grafiğin ilk serisine erişim
+//Accessing chart's first series
 
-Seri dizi = chart.getNSeries().get(0);
+Series series = chart.getNSeries().get(0);
 
-//ChartPoint koleksiyonu üzerinde döngü
+//Loop over the ChartPoint collection
 
- for(int p = 0 ; p< series.getPoints().getCount(); p++)
+for(int p = 0 ; p < series.getPoints().getCount(); p++)
 
 {
 
@@ -100,20 +101,20 @@ Seri dizi = chart.getNSeries().get(0);
 }
 
 {{< /highlight >}}
-### **OleObject.ClassIdentifier özelliği eklendi**
-Aspose.Cells for Java 9.0.0, bir OleObject yüklemek için uygulama davranışını belirtmek üzere kullanılabilen OleObject.ClassIdentifier özelliğini kullanıma sundu. Örneğin, bir PPT dosyası bir elektronik tabloya 2 farklı görünümle gömülebilir, yani; sunum görünümü veya slayt görünümü, oysa her iki görünüm de farklı sınıf tanımlayıcı değerlerine sahiptir.
+### **Eklenen OleObject.ClassIdentifier özelliği**
+Aspose.Cells for Java 9.0.0, OleObject.ClassIdentifier özelliğini açığa çıkardı, bu özellikle OleObject'ın yüklenmesi için uygulama davranışını belirtmek için kullanılabilir. Örneğin, bir PPT dosyası, elektronik tabloya 2 farklı görünümle gömülebilir; sunum görünümü veya slayt görünümü, her iki görünümün de farklı sınıf tanımlayıcı değerleri vardır.
 
-OleObject.ClassIdentifier özelliğinin basit kullanım senaryosu aşağıdadır.
+OleObject.ClassIdentifier özelliğinin basit kullanım senaryosu aşağıdaki gibidir.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[OleObject.ClassIdentifier'ı kullanma](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+[OleObject.ClassIdentifier kullanımı](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/) hakkındaki detaylı makaleyi kontrol edin
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet containing a presentation as OleObject
 
@@ -129,13 +130,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 String progID = "";
 
@@ -145,7 +146,7 @@ String sourceFullName = "";
 
 Boolean isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 //Get the first worksheet from the collection
 
@@ -226,24 +227,24 @@ if (classId != null)
 }
 
 {{< /highlight >}}
-## **Eski API'ler**
-### **Eski Worksheet.setBackground Yöntemi**
+## **Eskimiş API'lar**
+### **Eskimiş Worksheet.setBackground Metodu**
 Lütfen bunun yerine Worksheet.BackgroundImage özelliğini kullanın.
-### **Eski LineShape.BeginArrowheadStyle & ArcShape.BeginArrowheadStyle Özellikler**
+### **Eskimiş LineShape.BeginArrowheadStyle & ArcShape.BeginArrowheadStyle Özellikleri**
 Lütfen alternatif olarak Shape.Line.BeginArrowheadStyle özelliğini kullanın.
-### **Eskimiş LineShape.EndArrowheadStyle & ArcShape.EndArrowheadStyle Özellikler**
+### **Eskimiş LineShape.EndArrowheadStyle & ArcShape.EndArrowheadStyle Özellikleri**
 Lütfen alternatif olarak Shape.Line.EndArrowheadStyle özelliğini kullanın.
-### **Eski LineShape.BeginArrowheadWidth & ArcShape.BeginArrowheadWidth Özellikler**
+### **Eskimiş LineShape.BeginArrowheadWidth & ArcShape.BeginArrowheadWidth Özellikleri**
 Lütfen alternatif olarak Shape.Line.BeginArrowheadWidth özelliğini kullanın.
-### **Eski LineShape.BeginArrowheadLength & ArcShape.BeginArrowheadLength Özellikler**
+### **Eskimiş LineShape.BeginArrowheadLength & ArcShape.BeginArrowheadLength Özellikleri**
 Lütfen bunun yerine Shape.Line.BeginArrowheadLength özelliğini kullanın.
-### **Eskimiş LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth Özellikler**
+### **Eskimiş LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth Özellikleri**
 Lütfen bunun yerine Shape.Line.EndArrowheadWidth özelliğini kullanın.
-### **Eski LineShape.EndArrowheadLength & ArcShape.EndArrowheadLength Özellikler**
+### **Eskimiş LineShape.EndArrowheadLength & ArcShape.EndArrowheadLength Özellikleri**
 Lütfen bunun yerine Shape.Line.EndArrowheadLength özelliğini kullanın.
-## **Silinmiş API'ler**
-### **Silinmiş Worksheet.copyConditionalFormatting Yöntemi**
-### **Silinmiş Workbook.checkWriteProtectedPassword Yöntemi**
-## **Yeniden adlandırılan API'ler**
-### **Workbook.removeDigitallySign Yöntemi yeniden adlandırıldı**
-Workbook.removeDigitalSign yöntemi, Workbook.removeDigitalSignature olarak yeniden adlandırıldı.
+## **Silinmiş API'lar**
+### **Silinmiş Worksheet.copyConditionalFormatting Metodu**
+### **Silinmiş Workbook.checkWriteProtectedPassword Metodu**
+## **Adı Değişen API'lar**
+### **Adı Değişen Workbook.removeDigitallySign Metodu**
+Workbook.removeDigitallySign metodu artık Workbook.removeDigitalSignature olarak adlandırılmıştır.

@@ -1,27 +1,28 @@
 ---
-title: 数式の計算方法
+title: 数式を計算する方法
 type: docs
 weight: 30
 url: /ja/cpp/ways-to-calculate-formulas/
 ---
-##  **導入**
-Aspose.Cells には数式計算エンジンが組み込まれています。デザイナー テンプレートからインポートされた数式を再計算できるだけでなく、実行時に追加された数式の結果の計算もサポートします。
-##  **数式の追加と結果の計算**
-Aspose.Cells は、Microsoft Excel の一部であるほとんどの数式または関数をサポートしています。 API を通じて、またはデザイナー スプレッドシートを使用して使用できます。 Aspose.Cells は、数学、文字列、ブール値、日付/時刻、統計、検索および参照の数式の膨大なセットをサポートしています。
 
-セルに数式を追加するには、Cell.SetFormula メソッドを使用します。セルに数式を適用するときは、Microsoft Excel で数式を作成する場合と同様に、必ず文字列を等号 (=) で始めてください。カンマ (,) を使用して関数パラメータを区切ります。
+## **紹介**
+Aspose.Cellsには埋め込み式計算エンジンがあります。デザイナーテンプレートからインポートされた数式を再計算するだけでなく、実行時に追加された数式の結果を計算することもできます。
+## **数式の追加と結果の計算**
+Aspose.Cellsは、Microsoft Excelの一部であるほとんどの数式または関数をサポートしています。これらはAPIまたはデザイナースプレッドシートを通じて使用できます。Aspose.Cellsは、数学、文字列、ブール値、日付/時刻、統計、検索、参照の大規模な数式セットをサポートしています。
 
-数式の結果を計算するには、Excel ファイルに埋め込まれているすべての数式を処理する Workbook.CalculateFormula() メソッドを呼び出します。数式を追加して結果を計算する次のサンプル コードを参照してください。をご確認ください。[Excelファイルを出力する](38109185.xlsx)このコードで生成されました。
+Cell.SetFormulaメソッドを使用して、セルに数式を追加します。セルに数式を適用する場合は、常にMicrosoft Excelで数式を作成するときと同様に、等号（=）で文字列を始めます。関数のパラメータを区切るには、コンマ（,）を使用します。
+
+数式の結果を計算するには、Workbook.CalculateFormula()メソッドを呼び出します。このメソッドはExcelファイルに埋め込まれたすべての数式を処理します。このコードで追加された数式とその結果を計算した[出力Excelファイル](38109185.xlsx)を参照してください。
 
 **サンプルコード**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-AddingFormulasAndCalculatingResults-new.cpp" >}}
-<!---## **Direct Calculation of Formula**
-Sometimes, you need to calculate formula results directly without adding them into a worksheet. The values of the cells used in the formula already exist in a worksheet and all you need is to find the result of those values based on some Microsoft Excel formula without adding the formula in a worksheet.
+<!---## **式の直接計算**
+時々、ワークシートに追加することなく、Microsoft Excelの数式に基づいてワークシート内にすでに存在するセルの値の結果を見つける必要があります。
 
-You can use Worksheet.CalculateFormula(String formula) method to calculate the results of such formulas without adding them to worksheet.
+ワークシート.CalculateFormula(String formula)メソッドを使用して、ワークシートに追加することなくそのような数式の結果を計算できます。
 
-The code below produces the following output.
+以下のコードは次の出力を生成します。
 
 {{< highlight java >}}
 
@@ -33,17 +34,17 @@ Result of Sum(A1:A2): 50
 
 {{< /highlight >}}
 
-**Sample Code**
+**サンプルコード**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-DirectCalculationOfFormula.cpp" >}}   --->
-##  **数式を一度だけ計算する**
-Workbook.CalculateFormula() を呼び出してワークブック テンプレート内の数式の値を計算すると、Aspose.Cells によって計算チェーンが作成されます。数式が 2 回目または 3 回目に計算されるときのパフォーマンスが向上します。
+## **一度だけ数式を計算する**
+Workbook.CalculateFormula()がワークブックテンプレート内の数式の値を計算すると、Aspose.Cellsは計算チェーンを作成します。数式を2回目や3回目に計算する際にパフォーマンスが向上します。
 
-ただし、テンプレートに多数の数式が含まれている場合、数式の初回計算時に大量の CPU 処理時間とメモリが消費される可能性があります。
+ただし、テンプレートに多数の数式が含まれている場合、最初に数式を計算するとCPU処理時間とメモリを多く消費する可能性があります。
 
-Aspose.Cells を使用すると、計算チェーンの作成をオフにできます。これは、数式を 1 回だけ計算したい場合に便利です。
+Aspose.Cellsでは、一度だけ数式を計算したいときに便利な計算チェーンの作成をオフにすることができます。
 
- false パラメータを指定して Workbook.GetISettings().SetCreateCalcChain() を呼び出してください。使用できます[提供されたエクセルファイル](38109186.xlsx)このコードをテストします。
+Workbook.GetISettings().SetCreateCalcChain()メソッドをfalseパラメータとともに呼び出してください。このコードをテストするためには、提供されたExcelファイル(38109186.xlsx)を使用できます。
 
 **サンプルコード**
 

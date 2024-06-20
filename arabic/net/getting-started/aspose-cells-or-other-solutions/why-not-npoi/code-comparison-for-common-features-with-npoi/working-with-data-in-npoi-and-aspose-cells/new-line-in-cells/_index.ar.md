@@ -1,17 +1,18 @@
-﻿---
-title: الخط الجديد في Cells
+---
+title: سطر جديد في الخلايا
 type: docs
 weight: 30
 url: /ar/net/new-line-in-cells/
 ---
-## **Aspose.Cells - الخط الجديد في Cells**
-للتأكد من إمكانية قراءة النص في الخلية ، يمكن تطبيق فواصل أسطر واضحة والتفاف النص. يحول التفاف النص سطرًا واحدًا إلى عدة سطور في خلية ، حيث يتم وضع فواصل الأسطر الصريحة في فواصل في المكان الذي تريده بالضبط.
 
-لالتفاف نص في خلية ، استخدم الخاصية Aspose.Cells.Style.IsTextWrapped.
+## **Aspose.Cells - سطر جديد في الخلايا**
+لضمان قراءة النص في خلية معينة يمكن تطبيق كسرات الأسطر الصريحة وتضمين النص. يحول تضمين النص سطرًا واحدًا إلى عدة أسطر داخل خلية، بينما تضع كسرات الأسطر الصريحة فواصل تمامًا حيث تريدها.
+
+لف النص في خلية معينة، استخدم خاصية Aspose.Cells.Style.IsTextWrapped.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -34,12 +35,12 @@ sheet.Cells[2, 2].SetStyle(style);
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - خط جديد في Cells**
-يجب أن يكون CellStyle.setWrapText صحيحًا للنص الملتف.
+## **NPOI - HSSF XSSF - سطر جديد في الخلايا**
+يجب أن يكون CellStyle.setWrapText true للنص الملفوف.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -66,13 +67,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**الخط الجديد في Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **سطر جديد في الخلايا** من أي من المواقع الرمزية الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[فواصل الأسطر وتغليف النص](/cells/ar/net/line-breaks-and-text-wrapping/).
+لمزيد من التفاصيل، قم بزيارة [كسر الأسطر والتفاف النص](/cells/ar/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}

@@ -1,11 +1,12 @@
-﻿---
-title: NPOI ve Aspose.Cells'de Biçimlendirme Özellikleriyle Çalışma
+---
+title: NPOI ve Aspose.Cells ile Biçimlendirme Özellikleri İle Çalışma
 type: docs
 weight: 20
 url: /tr/net/working-with-formatting-features-in-npoi-and-aspose-cells/
 ---
-Bu bölümde aşağıdaki konular yer almaktadır:
 
-- [Sınırlarla Çalışmak](/cells/tr/net/working-with-borders/)
-- [Renklerle Çalışmak](/cells/tr/net/working-with-colors/)
-- [Yazı Tipleriyle Çalışmak](/cells/tr/net/working-with-fonts/)
+Bu bölümde şu konular bulunmaktadır:
+
+- [Kenarları İle Çalışma](/cells/tr/net/working-with-borders/)
+- [Renkler İle Çalışma](/cells/tr/net/working-with-colors/)
+- [Yazı Tipleri İle Çalışma](/cells/tr/net/working-with-fonts/)

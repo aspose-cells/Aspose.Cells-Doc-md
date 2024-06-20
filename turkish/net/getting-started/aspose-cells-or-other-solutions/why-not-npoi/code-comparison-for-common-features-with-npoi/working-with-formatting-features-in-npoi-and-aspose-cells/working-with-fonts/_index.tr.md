@@ -1,13 +1,14 @@
-﻿---
-title: Yazı Tipleriyle Çalışmak
+---
+title: Yazı Tipleriyle Çalışma
 type: docs
 weight: 30
 url: /tr/net/working-with-fonts/
 ---
+
 ## **Aspose.Cells - Yazı Tipleriyle Çalışma**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -48,7 +49,7 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 ## **NPOI - HSSF XSSF - Yazı Tipleriyle Çalışma**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -92,12 +93,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Yazı Tipleriyle Çalışmak** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Yazı Tipleriyle Çalışma** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Veri Biçimlendirme Özellikleri](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Daha fazla bilgi için [Veri Biçimlendirme Özellikleri](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting)ne bakın.
 
 {{% /alert %}}

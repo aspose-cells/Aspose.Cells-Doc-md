@@ -1,19 +1,20 @@
-﻿---
-title: Excel dosyasını HTML'e Kaydederken Yorumları Dışa Aktar
+---
+title: Excel Dosyasını HTML ye Kaydederken Yorumları Dışa Aktar
 type: docs
 weight: 40
 url: /tr/net/export-comments-while-saving-excel-file-to/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Excel dosyanızı HTML'e kaydettiğinizde yorumlar dışa aktarılmaz. Ancak Aspose.Cells, bu özelliği[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/) Emlak. eğer ayarlarsan**doğru**ardından HTML, Excel dosyanızda bulunan yorumları da görüntüler.
+Excel dosyanızı HTML'e kaydettiğinizde, yorumlar dışa aktarılmaz. Bununla birlikte, Aspose.Cells bu özelliği [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/) özelliğini kullanarak sağlar. Eğer **true** olarak ayarlarsanız, HTML ayrıca Excel dosyanızda bulunan yorumları da gösterecektir.
 
-## **Excel dosyasını HTML'e Kaydederken Yorumları Dışa Aktar**
+## **Excel Dosyasını HTML'ye Kaydederken Yorumları Dışa Aktar**
 
-Aşağıdaki örnek kod, kullanımını açıklar[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)Emlak. Ekran görüntüsü, olarak ayarlandığında kodun HTML üzerindeki etkisini gösterir.**doğru** . Lütfen indirin[örnek excel dosyası](50528260.xlsx) ve[HTML oluşturuldu](5052826.txt) referans için
+Aşağıdaki örnek kod, [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/) özelliğinin kullanımını açıklar. Ekran görüntüsü, bu kodun **true** olarak ayarlandığında HTML üzerindeki etkisini göstermektedir. Referans için lütfen [örnek Excel dosyasını](50528260.xlsx) ve [oluşturulan HTML'i](5052826.txt) indirin.
 
-![yapılacaklar:resim_alternatif_metin](export-comments-while-saving-excel-file-to-html_1.png)
+![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ExportCommentsWhileSavingExcelFileToHtml.cs" >}}

@@ -1,18 +1,19 @@
-﻿---
-title: Uppdatera dagar som bevarar historik över revisionsloggar i delad arbetsbok
+---
+title: Uppdatera antal sparade historikrevisioner på delad arbetsbok
 type: docs
 weight: 90
 url: /sv/java/update-days-preserving-history-of-revision-logs-in-shared-workbook/
 ---
-## **Möjliga användningsscenarier**
 
-När du delar en arbetsbok får du ett alternativ som säger***Behåll ändringshistorik i N dagar***som visas i följande skärmdump. Du kan uppdatera antalet dagar för att bevara historik med Aspose.Cells med[**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/java/com.aspose.cells/revisionlogcollection#DaysPreservingHistory)fast egendom.
+## **Möjliga användningsscenario**
+
+När du delar en arbetsbok får du ett alternativ som säger ***Behåll ändringshistorik i N dagar*** som visas i följande skärmbild. Du kan uppdatera antalet dagar som historiken bevaras genom att använda Aspose.Cells med [**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/java/com.aspose.cells/revisionlogcollection#DaysPreservingHistory) egenskapen.
 
 ![todo:image_alt_text](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
 
-## **Uppdatera dagar som bevarar historik över revisionsloggar i delad arbetsbok**
+## **Uppdatera antal sparade historikrevisioner på delad arbetsbok**
 
-Följande exempelkod skapar en tom arbetsbok, delar den sedan och uppdaterar revisionsloggarnas dagar som bevarar historiken till 7 dagar, vilket normalt är 30 dagar. Vänligen se[utdata Excel-fil](60489784.xlsx)genereras av koden för en referens.
+Den följande provkoden skapar en tom arbetsbok, delar den sedan och uppdaterar revisionsloggarna att behålla historiken i 7 dagar, vilket normalt är 30 dagar. Se [utmatningen Excel-filen](60489784.xlsx) som genereras av koden för referens.
 
 ## **Exempelkod**
 

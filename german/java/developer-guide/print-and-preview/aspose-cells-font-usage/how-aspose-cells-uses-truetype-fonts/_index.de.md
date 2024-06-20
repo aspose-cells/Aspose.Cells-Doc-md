@@ -1,54 +1,55 @@
-﻿---
-title: Wie Aspose.Cells TrueType-Schriftarten verwendet
+---
+title: Wie Aspose.Cells TrueType Fonts verwendet
 type: docs
 weight: 10
 url: /de/java/how-aspose-cells-uses-truetype-fonts/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells erfordert TrueType-Schriftarten beim Rendern von Tabellenkalkulationen in Formate wie PDF, XPS und Bilder.
+Aspose.Cells erfordert TrueType-Schriften beim Rendern von Arbeitsmappen in Formaten wie PDF, XPS und Bildern.
 
-Wenn Aspose.Cells eine Tabellenkalkulation rendert, benötigt es Zugriff auf die TrueType-Schriftarten, die in der Tabellenkalkulation verwendet werden. Dies ist eine normale Vorgehensweise während der PDF, XPS und der Bilderzeugung und stellt sicher, dass das konvertierte Dokument oder Bild für jeden Betrachter identisch erscheint.
+Wenn Aspose.Cells eine Arbeitsmappe rendert, benötigt es Zugriff auf die im Arbeitsblatt verwendeten TrueType-Schriften. Dies ist eine normale Praxis bei der PDF-, XPS- und Bildgenerierung und stellt sicher, dass das konvertierte Dokument oder Bild für jeden Betrachter identisch erscheint.
 
 {{% /alert %}}
 
-## **Über Schriftarten**
+## **Über Schriften**
 
-### **Verfügbarkeit und Substitution von Schriftarten**
+### **Verfügbarkeit und Ersatz von Schriften**
 
-Eine Tabelle kann mit verschiedenen Schriftarten wie Arial, Times New Roman, Verdana und anderen formatiert werden. Wenn Aspose.Cells eine Tabelle rendert, versucht es, die Schriftarten auszuwählen, die in der Tabelle verwendet werden. Es gibt jedoch Situationen, in denen die genaue Schriftart möglicherweise nicht verfügbar ist, sodass Aspose.Cells stattdessen eine ähnliche Schriftart ersetzen muss.
+Eine Arbeitsmappe kann mit verschiedenen Schriften formatiert sein, wie Arial, Times New Roman, Verdana und andere. Wenn Aspose.Cells eine Arbeitsmappe rendert, versucht es, die in der Arbeitsmappe verwendeten Schriften auszuwählen. Es gibt jedoch Situationen, in denen die genaue Schriftart möglicherweise nicht verfügbar ist, und Aspose.Cells muss stattdessen eine ähnliche Schriftart verwenden.
 
-Unten ist der Prozess, den Aspose.Cells hinter den Kulissen verfolgt.
+Nachfolgend wird der Prozess beschrieben, den Aspose.Cells hinter den Kulissen befolgt.
 
-1. Aspose.Cells versucht, die Schriftarten im Dateisystem zu finden, die genau mit dem in der Tabelle verwendeten Schriftartnamen übereinstimmen.
-1. Wenn Aspose.Cells keine Schriftarten mit genau demselben Namen finden kann, versucht es, die Standardschriftart zu verwenden, die unter der DefaultStyle.Font-Eigenschaft der Arbeitsmappe angegeben ist.
-1. Wenn Aspose.Cells die unter der DefaultStyle.Font-Eigenschaft der Arbeitsmappe definierte Schriftart nicht finden kann, versucht es, die am besten geeigneten Schriftarten aus allen verfügbaren Schriftarten auszuwählen.
-1. Wenn schließlich Aspose.Cells keine Schriftarten im Dateisystem finden kann, wird die Tabelle mit Arial gerendert.
+1. Aspose.Cells versucht, die Schriften im Dateisystem zu finden, die mit dem im Arbeitsblatt verwendeten exakten Schriftnamen übereinstimmen.
+1. Wenn Aspose.Cells Schriften mit genau demselben Namen nicht finden kann, versucht es, die Standardschrift zu verwenden, die unter der Eigenschaft DefaultStyle.Font des Arbeitsblatts angegeben ist.
+1. Wenn Aspose.Cells die unter der Eigenschaft DefaultStyle.Font des Arbeitsblatts definierte Schriftart nicht finden kann, versucht es, die am besten geeigneten Schriften aus allen verfügbaren Schriften auszuwählen.
+1. Schließlich, wenn Aspose.Cells auf dem Dateisystem keine Schriften finden kann, rendert es die Tabellenkalkulation mit Arial.
 
-### **Wobei Aspose.Cells nach Schriftarten sucht**
+### **Wo Aspose.Cells nach Schriften sucht**
 
-Aspose.Cells versucht, TrueType-Schriftarten automatisch im Dateisystem zu finden. Meistens können Sie sich auf das Standardverhalten von Aspose.Cell verlassen, um TrueType-Schriftarten zu finden, aber manchmal müssen Sie möglicherweise Ordner angeben, die die TrueType-Schriftarten enthalten, indem Sie die Factory-Methode FontConfigs.setFontFolder verwenden.
+Aspose.Cells versucht, TrueType-Schriften automatisch auf dem Dateisystem zu finden. In den meisten Fällen können Sie sich auf das Standardverhalten von Aspose.Cells verlassen, um TrueType-Schriften zu finden, aber manchmal müssen Sie möglicherweise Ordner angeben, die die TrueType-Schriften enthalten, indem Sie die Methode FontConfigs.setFontFolder verwenden.
 
-### **Typische schriftbezogene Probleme und Lösungen**
+### **Typische Probleme mit Schriften und Lösungen**
 
-In dieser Tabelle sind einige der Probleme aufgelistet, die beim Rendern von Tabellenkalkulationen in PDF mit Aspose.Cells auftreten können, sowie deren Lösungen.
+In dieser Tabelle werden einige Probleme aufgeführt, die beim Rendern von Tabellenkalkulationen in PDFs mit Aspose.Cells auftreten können, und ihre Lösungen.
 
 {{% alert color="primary" %}}
 
- Denken Sie beim Kopieren von Schriftarten daran, dass die meisten Schriftarten urheberrechtlich geschützt sind. Suchen Sie zunächst die Lizenz einer Schriftart und überprüfen Sie, ob sie frei auf einen anderen Computer übertragen werden kann.
+Beachten Sie beim Kopieren von Schriften, dass die meisten Schriften urheberrechtlich geschützt sind. Suchen Sie zuerst die Lizenz einer Schriftart und prüfen Sie, ob sie frei auf einen anderen Computer übertragen werden kann. 
 
 {{% /alert %}}
 
 |**Problem** |**Grund** |**Lösung** |
-|:- |:- |:- |
-| Das Layout und die Schriftarten im gerenderten Dokument unterscheiden sich vom Original.| Sie verwenden Aspose.Cells unter Linux oder Mac OS, wo TureType-Schriftarten standardmäßig nicht vorhanden sind, sodass Aspose.Cells keine Schriftarten auf Ihrem Computer finden kann.|Kopieren Sie TrueType-Schriftartdateien von einem Windows-Rechner oder installieren Sie ein TrueType-Schriftartpaket. Verwenden Sie die Factory-Methode FontConfigs.setFontFolder, um den Speicherort der Schriftartdateien anzugeben.|
+| :- | :- | :- |
+|Das Layout und die Schriftarten im gerenderten Dokument unterscheiden sich vom Original. |Sie verwenden Aspose.Cells auf Linux oder Mac OS, wo TrueType-Schriftarten standardmäßig nicht vorhanden sind, daher kann Aspose.Cells keine Schriften auf Ihrem Computer finden. |Kopieren Sie TrueType-Schriftdateien von einem Windows-Computer oder installieren Sie ein TrueType-Schriftarten-Paket. Verwenden Sie die Methode FontConfigs.setFontFolder, um den Speicherort der Schriftdateien anzugeben.|
 
 {{% alert color="primary" %}}
 
-Überprüfen Sie die ausführlichen Artikel auf
+Überprüfen Sie die ausführlichen Artikel zu
 
-- [So platzieren Sie TrueType-Schriftarten unter Linux](/cells/de/java/how-to-install-truetype-fonts-on-linux/).
-- [So geben Sie den Speicherort für TrueType-Schriftarten an](/cells/de/java/how-to-specify-truetype-fonts-location/).
-- [So erhalten Sie Warnungen, wenn eine Schriftartersetzung auftritt](/cells/de/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
+- [Verwendung von TrueType-Schriften unter Linux](/cells/de/java/how-to-install-truetype-fonts-on-linux/).
+- [Angabe des Speicherorts von TrueType-Schriften](/cells/de/java/how-to-specify-truetype-fonts-location/).
+- [Wie Sie Warnungen erhalten, wenn eine Schriftarten-Substitution auftritt](/cells/de/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}

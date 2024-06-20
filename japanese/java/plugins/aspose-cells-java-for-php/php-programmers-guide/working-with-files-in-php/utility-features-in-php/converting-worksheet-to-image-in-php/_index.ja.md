@@ -1,15 +1,16 @@
-﻿---
-title: PHP でワークシートを画像に変換する
+---
+title: PHPでWorksheetを画像に変換
 type: docs
 weight: 50
 url: /ja/java/converting-worksheet-to-image-in-php/
 ---
-## **Aspose.Cells - ワークシートを画像に変換する**
-PHP で Aspose.Cells for Java を使用して Worksheet を Image に変換するには、単に Converter モジュールを呼び出します。
 
-**PHP コード**
+## **Aspose.Cells - Worksheet をイメージに変換する**
+PHPでAspose.Cells for Javaを使用してWorksheetを画像に変換するには、Converterモジュールを単純に呼び出します。
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
  $imageFormat = new ImageFormat();
 
@@ -44,7 +45,7 @@ for ($j = 0; $j < $sr->getPageCount(); $j++)
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートを画像に変換 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**Aspose.Cells**を使用してワークシートを画像に変換するファイルをダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

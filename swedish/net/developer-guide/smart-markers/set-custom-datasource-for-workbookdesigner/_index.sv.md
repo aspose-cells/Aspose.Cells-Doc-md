@@ -1,21 +1,22 @@
-﻿---
-title: Ställ in anpassad DataSource för WorkbookDesigner
+---
+title: Ställ in anpassad datakälla för WorkbookDesigner
 type: docs
 weight: 60
 url: /sv/net/set-custom-datasource-for-workbookdesigner/
 ---
-Aspose.Cells ger möjlighet att ställa in anpassad DataSource för WorkbookDesigner. API tillhandahåller en överbelastad metod[WorkbookDesigner.SetDataSource](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/setdatasource/methods/5)som tar namnet på källan som den första parametern och instansen av klassen som implementerar[ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable)som den andra parametern.
 
-Följande kodavsnitt visar användningen av[WorkbookDesigner.SetDataSource](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/setdatasource/methods/5)metod för att ställa in den anpassade datakällan.
+Aspose.Cells tillhandahåller möjligheten att ställa in anpassad datakälla för WorkbookDesigner. API:et erbjuder en överlagrad metod [WorkbookDesigner.SetDataSource](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/setdatasource/methods/5) som tar namnet på källan som första parameter och instansen av klassen som implementerar [ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable) som andra parameter. 
+
+Följande kodsnutt visar användningen av metoden [WorkbookDesigner.SetDataSource](https://reference.aspose.com/cells/net/aspose.cells.workbookdesigner/setdatasource/methods/5) för att ställa in den anpassade datakällan.
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ICellsDataTableDataSourceForWorkbookDesigner-1.cs" >}}
 
-Genomförandet av*CustomerDataSource*, *Kund*, och*Kundlista* klasser ges nedan
+Implementationen av klasserna *CustomerDataSource*, *Customer*, och *CustomerList* ges nedan
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ICellsDataTableDataSourceForWorkbookDesigner-2.cs" >}}
 
-Käll- och utdata Excel-filerna bifogas som referens.
+Käll- och utdataexcelfilerna är bilagda som referens.
 
-[Källfilen](95584319.xlsx)
+[Källfil](95584319.xlsx)
 
-[Utdatafil](95584320.xlsx)
+[Utmatningsfil](95584320.xlsx)

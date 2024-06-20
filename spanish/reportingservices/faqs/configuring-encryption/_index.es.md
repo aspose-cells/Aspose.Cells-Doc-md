@@ -1,26 +1,27 @@
-﻿---
-title: Configuración del cifrado
+---
+title: Configuración de encriptación
 type: docs
 weight: 40
 url: /es/reportingservices/configuring-encryption/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells for Reporting Services admite el cifrado y puede procesar archivos Microsoft de Excel cifrados.
+Aspose.Cells for Reporting Services admite encriptación y es posible que pueda renderizar archivos de Microsoft Excel encriptados. 
 
 {{% /alert %}} 
-### **Tipos de cifrado**
-Aspose.Cells for Reporting Services admite el cifrado al exportar archivos de Excel. Admite tres tipos de cifrado:
+### **Tipos de encriptación**
+Aspose.Cells for Reporting Services admite encriptación al exportar archivos de Excel. Admite tres tipos de encriptación:
 
 - XOR
-- CIFRADO DÉBIL
-- Microsoft Proveedor criptográfico fuerte
-### **Información de configuración**
- Hay información de configuración para el cifrado en el**Aspose.Cells.ReportingServices.xml** expediente. Cuando el valor de Cifrado se establece en "desactivado", Aspose.Cells.ReportingServices desactiva el cifrado.
+- ENCRIPCIÓN DÉBIL
+- Proveedor Criptográfico Fuerte de Microsoft
+### **Configuración de información**
+Existe información de configuración para encriptación en el archivo **Aspose.Cells.ReportingServices.xml**. Cuando el valor de Encriptación se establece en "off", Aspose.Cells.ReportingServices desactiva la encriptación.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="off">
 
@@ -40,24 +41,24 @@ Aspose.Cells for Reporting Services admite el cifrado al exportar archivos de Ex
 
 {{< /highlight >}}
 
-Cuando el cifrado está activado, Aspose.Cells.ReportingServices activa el cifrado.
+Cuando la encriptación se establece en "on", Aspose.Cells.ReportingServices activa la encriptación.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-Hay cuatro parámetros en la sección Cifrado: ReportName, Password, EncryptionType y KeyLength.
+Hay cuatro parámetros en la sección de Encriptación: NombreInforme, Contraseña, TipoEncriptación y LongitudClave.
 
-- ReportName: establece el informe que necesita la configuración de cifrado. Un informe utiliza la misma forma de cifrado cuando el parámetro está en blanco.
-- Contraseña: establece la contraseña. No se puede dejar en blanco.
-- EncryptionType: establece el tipo de cifrado. No se puede dejar en blanco.
--  KeyLength: establece la longitud de la clave. No se puede dejar en blanco.
+- NombreInforme: Establece el informe que necesita ajustes de encriptación. Un informe usa el mismo método de encriptación cuando el parámetro está en blanco.
+- Contraseña: Establece la contraseña. No puede dejarse en blanco.
+- TipoEncriptación: Establece el tipo de encriptación. No puede dejarse en blanco.
+- LongitudClave: Establece la longitud de la clave. No puede dejarse en blanco. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="on">
 

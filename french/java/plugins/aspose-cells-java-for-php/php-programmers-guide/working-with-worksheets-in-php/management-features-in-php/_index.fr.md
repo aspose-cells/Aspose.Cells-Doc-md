@@ -1,9 +1,10 @@
-﻿---
-title: Fonctionnalités de gestion en PHP
+---
+title: Fonctions de gestion en Php
 type: docs
 weight: 20
 url: /fr/java/management-features-in-php/
 ---
-**Cette section comprend les rubriques suivantes :**
 
-- [Gestion des feuilles de travail en PHP](/cells/fr/java/managing-worksheets-in-php/)
+**Cette section inclut les sujets suivants:**
+
+- [Gestion des feuilles de calcul en Php](/cells/fr/java/managing-worksheets-in-php/)

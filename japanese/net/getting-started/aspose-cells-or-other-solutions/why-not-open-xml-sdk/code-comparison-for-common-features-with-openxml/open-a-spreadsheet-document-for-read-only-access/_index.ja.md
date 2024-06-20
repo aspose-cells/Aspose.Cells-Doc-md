@@ -1,11 +1,12 @@
-﻿---
-title: 読み取り専用アクセスでスプレッドシート ドキュメントを開く
+---
+title: 読み取り専用アクセスでスプレッドシートドキュメントを開く
 type: docs
 weight: 100
 url: /ja/net/open-a-spreadsheet-document-for-read-only-access/
 ---
-## **OpenXML エクセル**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -39,7 +40,7 @@ using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Open(filepa
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 

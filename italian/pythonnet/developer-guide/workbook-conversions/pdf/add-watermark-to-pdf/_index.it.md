@@ -1,22 +1,23 @@
 ---
-title: Aggiungi filigrana a PDF
+title: Aggiungi Filigrana al PDF
 type: docs
 weight: 9
 url: /it/python-net/add-watermark-to-pdf/
-description: Scopri come aggiungere la filigrana al PDF con Aspose.Cells for Python via .NET API.
-keywords: Python add watermark to pdf, add watermark to pdf Pyton via NET, insert watermark to pdf
+description: Scopri come aggiungere una filigrana al pdf con Aspose.Cells per Python via .NET API.
+keywords: Aggiungi una filigrana al pdf con Python, aggiungi una filigrana al pdf con Python via NET, inserisci una filigrana al pdf
 ---
-Durante la conversione di un file Excel in PDF, potresti avere la necessità di aggiungere la filigrana al file PDF. I seguenti esempi mostrano come aggiungere filigrana di testo e immagine al pdf durante il rendering in pdf.
 
-##   **Aggiungi filigrana di testo a PDF**
+Durante la conversione del file Excel in PDF, potresti avere esigenze di aggiungere una filigrana al file PDF. Gli esempi seguenti mostrano come aggiungere una filigrana di testo e immagine al PDF durante il rendering in PDF.
 
- Puoi aggiungere facilmente una filigrana di testo al PDF specificando il testo e il carattere corrispondente. Inoltre, puoi impostare l'allineamento, l'offset, la rotazione, l'opacità, il primo piano/lo sfondo e il ridimensionamento della pagina[RenderingFiligrana](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
+##  **Aggiungi filigrana di testo al PDF**
+
+Puoi facilmente aggiungere una filigrana di testo al pdf specificando il testo e il relativo font. Inoltre, puoi impostare l'allineamento, lo spostamento, la rotazione, l'opacità, il primo piano/sfondo e la scala della pagina in [RenderingWatermark](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddTextWatermarkToPdf.py" >}}
 
-##  **Aggiungi la filigrana dell'immagine a PDF**
+## **Aggiungi filigrana di immagine al PDF**
 
-Puoi aggiungere una filigrana immagine al PDF semplicemente specificando i byte immagine di un'immagine. Inoltre, puoi impostare l'allineamento, l'offset, la rotazione, l'opacità, il primo piano/lo sfondo e il ridimensionamento della pagina[RenderingFiligrana](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
+Puoi aggiungere una filigrana di immagine al pdf semplicemente specificando i byte dell'immagine. Inoltre, puoi impostare l'allineamento, lo spostamento, la rotazione, l'opacità, il primo piano/sfondo e la scala della pagina in [RenderingWatermark](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddImageWatermarkToPdf.py" >}}
 

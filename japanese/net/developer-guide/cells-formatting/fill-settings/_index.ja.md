@@ -1,91 +1,92 @@
 ---
 title: 塗りつぶし設定
-description: Aspose.Cells は、スプレッドシート ファイルを操作するための .NET ライブラリです。セルの塗りつぶし設定をサポートしているため、ユーザーはセルの背景とスタイルをカスタマイズできます。この記事では、Aspose.Cellsライブラリを使ってセルの塗りつぶし設定を行う方法を紹介します。
-keywords: Aspose.Cells, Cells, Fill Settings, Background, Style
+description: Aspose.Cells は、スプレッドシートファイルを操作するための .NET ライブラリです。セルの塗りつぶし設定をサポートし、ユーザーがセルの背景とスタイルをカスタマイズできます。この記事では、Aspose.Cells ライブラリを使用してセルの塗りつぶし設定を行う方法について紹介します。
+keywords: Aspose.Cells、Cells、塗りつぶし設定、背景、スタイル
 type: docs
 weight: 50
 url: /ja/net/cells-fill-settings/
 ---
-##  **色と背景パターン**
 
-Microsoft Excelではセルの前景色（輪郭）と背景（塗りつぶし）の色や背景パターンを設定できます。
+## **色と背景パターン**
 
-Aspose.Cells もこれらの機能を柔軟にサポートします。このトピックでは、Aspose.Cells を使用してこれらの機能を使用する方法を学習します。
+Microsoft Excel では、セルの前景（輪郭）と背景（塗りつぶし）の色、および背景パターンを設定できます。
 
-###  **色と背景パターンを設定する**
+Aspose.Cells もこれらの機能を柔軟にサポートしています。このトピックでは、Aspose.Cells を使用してこれらの機能を使用する方法について学びます。
 
-Aspose.Cells はクラスを提供します。[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)これは Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートへのアクセスを許可するコレクション。ワークシートは次のように表されます。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスが提供するのは[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクション。の各項目[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクションはオブジェクトを表します[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラス。
+### **色と背景パターンの設定**
 
-の[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)持っています[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)そして[**スタイルの設定**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)セルの書式設定を取得および設定するために使用されるメソッド。の[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)このクラスは、セルの前景色と背景色を設定するためのプロパティを提供します。 Aspose.Cells は、[**背景の種類**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)以下に示す事前定義されたタイプの背景パターンのセットを含む列挙体。
+Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスできる[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスは[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクションを提供します。[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)コレクション内の各項目は[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラスのオブジェクトを表します。
+
+[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) には [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) および [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) メソッドがあり、セルの書式設定を取得および設定するために使用されます。[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) クラスには、セルの前景色と背景色を設定するためのプロパティがあります。 Aspose.Cells には、以下で示される一連の事前定義された背景パターンのタイプが含まれる [**BackgroundType**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype) 列挙型があります。
 
 |**背景パターン**|**説明**|
 | :- | :- |
-|斜めクロスハッチング|斜めのクロスハッチ パターンを表します|
-|斜めストライプ|斜めストライプ模様を表現|
-|グレー6|6.25%のグレーパターンを表します|
-|グレー12|12.5%のグレーパターンを表します|
-|グレー25|25% グレー パターンを表します|
-|グレー50|50% グレー パターンを表します|
-|グレー75|75% グレー パターンを表します|
-|水平ストライプ|横縞模様を表現|
-|なし|背景なしを表します|
-|逆斜めストライプ|逆斜めストライプ柄を表現|
-|固体|ベタパターンを表現します|
-|太い斜めのクロスハッチング|太い斜めのクロスハッチパターンを表現します|
-|薄い斜めの網目模様|細い斜めのクロスハッチ パターンを表現します|
-|細い斜めストライプ|細い斜めストライプ模様を表現|
-|薄い水平クロスハッチング|細い水平クロスハッチ パターンを表現します|
-|細い水平ストライプ|細い横縞模様を表現|
-|細い逆斜めストライプ|細い逆斜めストライプ柄を表現|
-|細い垂直ストライプ|細い縦縞模様を表現|
-|縦ストライプ|縦縞模様を表現|
+|DiagonalCrosshatch| 対角線のかすかな格子状のパターンを表します|
+|DiagonalStripe| 対角線のストライプパターンを表します|
+|Gray6| 6.25% グレーのパターンを表します|
+|Gray12| 12.5% グレーのパターンを表します|
+|Gray25| 25% グレーのパターンを表します|
+|Gray50| 50% グレーのパターンを表します|
+|Gray75| 75% グレーのパターンを表します|
+|HorizontalStripe|水平ストライプパターンを表します|
+|None|背景なしを表します|
+|ReverseDiagonalStripe|反対角ストライプパターンを表します|
+|Solid|ソリッドパターンを表します|
+|ThickDiagonalCrosshatch|太い斜めクロスハッチパターンを表します|
+|ThinDiagonalCrosshatch|細い斜めクロスハッチパターンを表します|
+|ThinDiagonalStripe|細い斜めストライプパターンを表します|
+|ThinHorizontalCrosshatch|細い水平クロスハッチパターンを表します|
+|ThinHorizontalStripe|細い水平ストライプパターンを表します|
+|ThinReverseDiagonalStripe|細い逆斜めストライプパターンを表します|
+|ThinVerticalStripe|細い垂直ストライプパターンを表します|
+|VerticalStripe|垂直ストライプパターンを表します|
 
-以下の例では、A1 セルの前景色が設定されていますが、A2 は前景色と背景色の両方を持ち、縦縞の背景パターンを持つように構成されています。
+以下の例では、A1セルの前景色が設定されていますが、A2は前景色と背景色の両方を垂直ストライプの背景パターンで構成するように設定されています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ColorsAndBackground-1.cs" >}}
 
-###  **知っておくべき重要なこと**
+### **重要なこと**
 
 {{% alert color="primary" %}}
 
-- セルの前景色または背景色を設定するには、[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**前景色**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)または[**背景色**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor)プロパティ。両方のプロパティは、次の場合にのみ有効になります。[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**パターン**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)プロパティが設定されています。
-- の[**前景色**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)プロパティはセルの陰影の色を設定します。
-の[**パターン**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)プロパティは、前景色または背景色に使用される背景パターンのタイプを指定します。 Aspose.Cells は列挙を提供します。[**背景の種類**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)。これには、事前定義されたタイプの背景パターンのセットが含まれています。
-- 選択した場合*BackgroundType.None*からの値[**背景の種類**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)列挙の場合、前景色は適用されません。
-同様に、を選択した場合、背景色は適用されません。*BackgroundType.None*または*BackgroundType.Solid*価値観。
-- セルのシェーディング/塗りつぶしの色を取得するときに、[**スタイル.パターン**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)は *BackgroundType.None*、[**Style.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) *Color.Empty* を返します。
+- セルの前景色または背景色を設定するには、[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) オブジェクトの [**ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) または [**BackgroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) プロパティを使用します。どちらのプロパティも、[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) オブジェクトの [**Pattern**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) プロパティが構成されている場合のみ効果があります。
+- [**ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) プロパティはセルのシェード色を設定します。
+  [**Pattern**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) プロパティは、前景色または背景色に使用される背景パターンの種類を指定します。Aspose.Cells は、一連の事前定義された背景パターンの種類を含む [**BackgroundType**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype) 列挙体を提供します。
+- [**BackgroundType**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype) 列挙体から *BackgroundType.None* 値を選択すると、前景色は適用されません。
+  同様に、*BackgroundType.None* または *BackgroundType.Solid* 値を選択すると、背景色は適用されません。
+- セルのシェード／塗りつぶし色を取得する場合、[**Style.Pattern**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) が *BackgroundType.None* であれば、[**Style.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) は *Color.Empty* を返します。
 
 {{% /alert %}}
 
-###  **グラデーション塗りつぶし効果の適用**
+### **グラデーション塗りつぶし効果の適用**
 
-希望のグラデーション塗りつぶし効果をセルに適用するには、[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトの[**SetTwoColorGradient**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient)それに応じた方法。
+セルに希望のグラデーション塗りつぶし効果を適用するには、[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) オブジェクトの [**SetTwoColorGradient**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient) メソッドを使用してください。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-ApplyingGradientFillEffects-1.cs" >}}
 
-##  **色とパレット**
+## **色とパレット**
 
-パレットとは、画像の作成に使用できる色の数です。プレゼンテーションで標準化されたパレットを使用すると、ユーザーは一貫した外観を作成できます。各 Microsoft Excel (97-2003) ファイルには、グラフ内のセル、フォント、グリッド線、グラフィック オブジェクト、塗りつぶし、線に適用できる 56 色のパレットがあります。
+パレットとは、画像を作成するために使用可能な色の数です。プレゼンテーションで標準化されたパレットを使用することで、ユーザーは一貫した外観を作成できます。各 Microsoft Excel (97-2003) ファイルには、セル、フォント、グリッド線、グラフィックオブジェクト、塗りつぶし、およびグラフの線に適用できる 56 色のパレットがあります。
 
-Aspose.Cells を使用すると、パレットの既存の色だけでなく、カスタム カラーも使用できます。カスタム カラーを使用する前に、まずパレットに追加します。
+Aspose.Cells を使用すると、パレットの既存の色だけでなく、カスタム色も使用できます。カスタム色を使用する前に、まずパレットに色を追加します。
 
-このトピックでは、カスタム カラーをパレットに追加する方法について説明します。
+このトピックでは、パレットにカスタム色を追加する方法について説明します。
 
-###  **カスタムカラーをパレットに追加する**
+### **パレットにカスタム色を追加**
 
-Aspose.Cells は Microsoft Excel の 56 カラー パレットをサポートします。パレットで定義されていないカスタム カラーを使用するには、そのカラーをパレットに追加します。
+Aspose.Cells は Microsoft Excel の 56 色のパレットをサポートしています。パレットに定義されていないカスタム色を使用するには、その色をパレットに追加します。
 
-Aspose.Cells はクラスを提供します。[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)、これは Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスが提供するのは[**パレットの変更**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette)このメソッドは次のパラメーターを受け取り、カスタム カラーを追加してパレットを変更します。
+Aspose.Cells は、Microsoft Excel ファイルを表す [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) クラスには、パレットを変更するための [**ChangePalette**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) メソッドがあり、カスタム色を追加するために次のパラメータを取ります:
 
 - カスタムカラー、追加するカスタムカラー。
-- インデックス。カスタム カラーで置き換えられるパレット内の色のインデックス。 0 ～ 55 の間である必要があります。
+カスタムカラーが置き換えるパレット内の色のインデックスです。0〜55の間である必要があります。
 
-以下の例では、カスタム カラー (Orchid) をフォントに適用する前にパレットに追加します。
+以下の例では、カスタムカラー（Orchid）をパレットに追加し、フォントに適用する前に追加します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ColorsAndPalette-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-パレットに保持できる色は 56 色のみです。カスタム カラーをパレットに追加すると、パレットが変更され、以前のカラーでフォーマットされたファイル内の要素が変更されます。したがって、パレットを変更するときは十分に注意してください。さらに、これは XLS (Excel 97 ～ 2003) ファイル形式のみの制限であり、XLSX またはその他の高度な MS Excel (2007/2010 または 2013) ファイル形式にはそのような制限はありません。
+パレットには56色しか保持できません。パレットにカスタムカラーを追加すると、パレットが変更され、前の色でフォーマットされたファイル内の要素が変更されます。したがって、パレットを変更する際は非常に注意してください。さらに、これはXLS（Excel 97-2003）ファイル形式の制限のみであり、XLSXまたはその他の高度なMS Excel（2007/2010または2013）ファイル形式ではこのような制限はありません。
 
 {{% /alert %}}

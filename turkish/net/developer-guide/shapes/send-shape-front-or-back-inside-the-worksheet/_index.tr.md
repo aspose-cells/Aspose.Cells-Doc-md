@@ -1,19 +1,20 @@
-﻿---
-title: Şekli Çalışma Sayfasının Önüne veya Arkasına Gönder
+---
+title: Çalışma sayfası içindeki Şekil Önüne veya Arkasına Gönderme
 type: docs
 weight: 3400
 url: /tr/net/send-shape-front-or-back-inside-the-worksheet/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- Aynı konumda birden çok şekil bulunduğunda, bunların nasıl görünür olacağına z-düzeni konumları tarafından karar verilir. Aspose.Cells sağlar[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/tofrontorback)şeklin z sırası konumunu değiştiren yöntem. Şekli arkaya göndermek istiyorsanız -1, -2, -3 gibi negatif bir sayı, öne göndermek istiyorsanız 1, 2, 3, gibi pozitif bir sayı kullanacaksınız. vb.
+Aynı konumda birden fazla şekil bulunduğunda, bu şekillerin görünür olup olmayacakları, z-sıra konumları tarafından belirlenir. Aspose.Cells, şeklin z-sıra konumunu değiştiren [**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/tofrontorback) yöntemini sunar. Şekli arkaya göndermek istiyorsanız -1, -2, -3 gibi negatif bir sayı kullanacak ve şekli öne göndermek istiyorsanız 1, 2, 3 gibi pozitif bir sayı kullanacaksınız.
 
-## **Şekli Çalışma Sayfasının Önüne veya Arkasına Gönder**
+## **Çalışma Sayfası İçinde Şekil Önüne veya Arkasına Gönderme**
 
- Aşağıdaki örnek kod, kullanımını açıklar[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/tofrontorback) yöntem. Lütfen bkz[örnek excel dosyası](50528330.xlsx) kodun içinde kullanılır ve[çıktı excel dosyası](50528331.xlsx) onun tarafından oluşturulur. Ekran görüntüsü, örnek Excel dosyasındaki kodun yürütme üzerindeki etkisini gösterir.
+Aşağıdaki örnek kod, [**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/tofrontorback) yönteminin kullanımını açıklar. Kod içinde kullanılan [örnek Excel dosyası](50528330.xlsx) ve kod tarafından oluşturulan [çıktı Excel dosyası](50528331.xlsx)'nın etkisini gösteren ekran görüntüsünü göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](send-shape-front-or-back-inside-the-worksheet_1.png)
+![todo:image_alt_text](send-shape-front-or-back-inside-the-worksheet_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-SendShapeFrontOrBackInWorksheet.cs" >}}

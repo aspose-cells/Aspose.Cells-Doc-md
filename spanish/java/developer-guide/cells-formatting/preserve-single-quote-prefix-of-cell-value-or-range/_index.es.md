@@ -1,28 +1,29 @@
-﻿---
-title: Conservar el prefijo de comillas simples del valor o rango Cell
+---
+title: Conservar el Prefijo de Comilla Simple del Valor de la Celda o del Rango
 type: docs
 weight: 1900
 url: /es/java/preserve-single-quote-prefix-of-cell-value-or-range/
 ---
-## **Posibles escenarios de uso**
 
-Cuando coloca algún valor dentro de la celda que tiene un apóstrofo inicial o una comilla simple, entonces Microsoft Excel lo oculta, pero cuando selecciona la celda, muestra el apóstrofe inicial o una comilla simple en una barra de fórmulas como se muestra en la siguiente captura de pantalla.
+## **Escenarios de uso posibles**
 
-![todo:imagen_alternativa_texto](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
+Cuando se agrega un valor dentro de la celda que tiene un apóstrofe inicial o una comilla simple, Microsoft Excel lo oculta, pero cuando se selecciona la celda, muestra el apóstrofe o comilla simple inicial en una barra de fórmulas como se muestra en la siguiente captura de pantalla.
 
-Aspose.Cells también oculta el apóstrofo inicial o la comilla simple como Microsoft Excel pero establece el[**Estilo.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) como**verdadero** para esa celda. Si establece un estilo vacío de la celda, entonces[**Estilo.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) se convierte**falso** de nuevo. Para hacer frente a este problema, Aspose.Cells proporciona[**Bandera de estilo.Prefijo de cotización**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) propiedad, cuando se establece**falso**, después[**Bandera de estilo.Prefijo de cotización**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)no se actualiza en absoluto y se conserva su valor anterior. Significa que si el valor antiguo de[**Estilo.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)la propiedad era**verdadero**, seguirá siendo verdadero y si el valor anterior era falso, seguirá siendo falso.
+![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-## **Conservar el prefijo de comillas simples del valor o rango Cell**
+Aspose.Cells también oculta el apóstrofe inicial o comilla simple como Microsoft Excel, pero establece el [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) como **true** para esa celda. Si estableces un estilo vacío en la celda, entonces [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) vuelve a ser **falso**. Para abordar este problema, Aspose.Cells proporciona una propiedad [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix), cuando se establece en **falso**, entonces no se actualiza [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) en absoluto y se conserva su valor anterior. Esto significa que si el valor anterior de la propiedad [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) era **true**, seguirá siendo verdadero y si el valor anterior era falso, seguirá siendo falso.
 
-El siguiente código de ejemplo explica el uso de[**Bandera de estilo.Prefijo de cotización**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)propiedad como se describió anteriormente. Lea los comentarios dentro del código y vea la salida de la consola del código que se proporciona a continuación para obtener más ayuda.
+## **Preservar el prefijo de comilla simple del valor de la celda o rango**
+
+El siguiente código de muestra explica el uso de la propiedad [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) como se mencionó anteriormente. Por favor, lee los comentarios dentro del código y observa la salida por consola del código que se muestra a continuación para obtener más ayuda.
 
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.java" >}}
 
-## **Salida de consola**
+## **Salida de la consola**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Quote Prefix of Cell A1: false
 

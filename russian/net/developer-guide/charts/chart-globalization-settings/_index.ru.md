@@ -1,42 +1,43 @@
 ---
-title:  Использование класса ChartGlobalizationSettings для установки другого языка для компонента диаграммы
-description: Узнайте, как использовать класс ChartGlobalizationSettings в Aspose.Cells for .NET, чтобы установить разные языки для компонентов диаграммы. Наше руководство поможет вам понять, как локализовать элементы диаграммы, метки и легенды на разных языках, что позволит вам представить данные в культурно приемлемом виде.
-keywords: Aspose.Cells for .NET, charting, chart globalization, languages, localization, ChartGlobalizationSettings, elements, labels, legends.
+title: Используя класс ChartGlobalizationSettings для установки другого языка для компонента диаграммы 
+description: Узнайте, как использовать класс ChartGlobalizationSettings в Aspose.Cells for .NET, чтобы устанавливать разные языки для компонентов диаграммы. Наше руководство поможет вам понять, как локализовать элементы диаграммы, метки и легенды на разных языках, что позволит вам представить данные в культурно адекватном виде.
+keywords: Aspose.Cells for .NET, построение диаграмм, глобализация диаграмм, языки, локализация, ChartGlobalizationSettings, элементы, метки, легенды.
 type: docs
 weight: 2200
 url: /ru/net/using-chartglobalizationsettings-class-to-set-different-language-for-chart-component/
 ---
-##  **Возможные сценарии использования**
 
- Aspose.Cells API раскрыли[**Настройки глобализации диаграммы**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/) класс, чтобы справиться со сценариями, когда пользователь желает установить для компонента диаграммы другой язык. пользовательские метки для промежуточных итогов в электронной таблице.
+## **Возможные сценарии использования**
 
-##  **Введение в класс ChartGlobalizationSettings**
+API Aspose.Cells представило класс [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/), чтобы работать с ситуациями, когда пользователь хочет установить компонент диаграммы на другом языке. настраиваемые метки для промежуточных итогов в электронной таблице. 
 
-[**Настройки глобализации диаграммы**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/)В настоящее время класс предлагает следующие 8 методов, которые можно переопределить в пользовательском классе для перевода, например, имени AxisTitle, имени AxisUnit, имени ChartTitle и т. д. на другой язык.
-1. [**GetAxisTitleName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxistitlename/): получает имя Title для оси.
-1. [**GetAxisUnitName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxisunitname/): получает имя устройства оси.
-1. [**GetChartTitleName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getcharttitlename/): получает имя заголовка диаграммы.
-1. [**GetLegendDecreaseName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename/): получает имя Decrease for Legend.
-1. [**GetLegendIncreaseName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegendincreasename/): получает имя увеличения для легенды.
-1. [**GetLegendTotalName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegendtotalname/): получает имя Total для Legend.
-1. [**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getothername/): получает имя метки «Другие» для диаграммы.
-1. [**Получить имя серии**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getseriesname/): получает имя серии в диаграмме.
+## **Введение в класс ChartGlobalizationSettings**
 
-###  **Индивидуальный языковой перевод**
-Здесь мы создадим каскадную диаграмму на основе следующих данных. Названия компонентов диаграммы будут отображаться на диаграмме на английском языке. Мы будем использовать пример на турецком языке, чтобы показать, как отображать заголовок диаграммы, имена увеличения/уменьшения легенды, общее имя и заголовок оси на турецком языке.
+Класс [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/) в настоящее время предлагает следующие 8 методов, которые могут быть переопределены в пользовательском классе для перевода, такие как название оси, название единицы оси, название диаграммы и т. д. на другой язык.
+1. [**GetAxisTitleName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxistitlename/): Получает название заголовка для оси.
+1. [**GetAxisUnitName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getaxisunitname/): Получает название единицы оси.
+1. [**GetChartTitleName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getcharttitlename/): Получает название заголовка диаграммы.
+1. [**GetLegendDecreaseName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegenddecreasename/): Получает название уменьшения для легенды.
+1. [**GetLegendIncreaseName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegendincreasename/): Получает название увеличения для легенды.
+1. [**GetLegendTotalName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getlegendtotalname/): Получает название итога для легенды.
+1. [**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getothername/): Получает название меток "Другие" для диаграммы.
+1. [**GetSeriesName**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/getseriesname/): Получает название серии в диаграмме.
 
-![задача: image_alt_text](sample.png)
+### **Пользовательский перевод языка**
+Здесь мы создадим водопадную диаграмму на основе следующих данных. Названия компонентов диаграммы будут отображаться на английском языке. Мы воспользуемся турецким примером, чтобы показать, как отображать заголовок диаграммы, наименования увеличения/уменьшения в легенде, общее наименование и заголовок оси на турецком языке.
 
-##  **Образец кода**
- Следующий пример кода загружает[образец файла Excel](waterfall.xlsx).
+![todo:image_alt_text](sample.png)
+
+## **Образец кода**
+В следующем образце кода загружается [образец файла Excel](waterfall.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chartglobalizationsettings.cs" >}}
 
-##  Вывод, сгенерированный примером кода
+## Вывод, созданный образцовым кодом
 
-Это консольный вывод приведенного выше примера кода.
+Это вывод консоли вышеуказанного образца кода.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Workbook chart title: Grafik Başlığı
 

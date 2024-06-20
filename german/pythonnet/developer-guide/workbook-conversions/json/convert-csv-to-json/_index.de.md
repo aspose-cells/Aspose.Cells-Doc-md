@@ -1,29 +1,31 @@
 ---
-title: Konvertieren Sie CSV in JSON
+title: Konvertieren von CSV in JSON
 type: docs
 weight: 220
 url: /de/python-net/convert-csv-to-json/
-description: Konvertieren Sie CSV in JSON, indem Sie Aspose.Cells for Python via .NET API verwenden.
-keywords: Convert CVS to JSON, Convert CSV to JSON in Python via NET, Python convert CSV to JSON, Save CSV to JSON
+description: Konvertieren Sie CSV in JSON, indem Sie die Aspose.Cells für die Python via .NET API verwenden.
+keywords: Konvertieren Sie CVS in JSON, konvertieren Sie CSV in JSON in Python via NET, Python konvertieren CSV in JSON, CSV in JSON speichern
 ---
-##  **Konvertieren Sie CSV in JSON**
 
-Aspose.Cells for Python via .NET unterstützt die Konvertierung von CSV in JSON. Dafür sorgt die API**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**Und**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)** Klassen. Der**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**Die Klasse bietet die Optionen zum Exportieren des Bereichs nach JSON. Die**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**Die Klasse hat die folgenden Eigenschaften.
+## **Konvertieren von CSV in JSON**
 
-- *[export_as_string](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string/)**: Dadurch wird der Zeichenfolgenwert der Zellen nach JSON exportiert.
-- *[has_header_row](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row/)**: Dies gibt an, ob der Bereich eine Kopfzeile enthält.
-- *[Einzug](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/indent/)**: Gibt den Einzug an.
+Aspose.Cells für Python via .NET unterstützt die Konvertierung von CSV in JSON. Dazu bietet die API die Klassen [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) und [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility). Die Klasse [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) bietet die Optionen für den Exportbereich nach JSON. Die Klasse [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) hat die folgenden Eigenschaften.
 
-Der**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)**Die Klasse exportiert JSON mithilfe der Exportoptionen, die mit festgelegt wurden**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**Klasse.
+- [**export_as_string**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string/): Exportiert den Zeichenfolgenwert der Zellen in JSON.
+- [**has_header_row**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row/): Gibt an, ob der Bereich eine Kopfzeile enthält.
+- [**indent**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/indent/): Gibt die Einrückung an.
 
-Das folgende Codebeispiel demonstriert die Verwendung von**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**Und**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)** Klassen zum Laden der[Quelldatei CSV](104398879.csv)und gibt die Ausgabe JSON in der Konsole aus.
+Die Klasse [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility) exportiert das JSON unter Verwendung der Exportoptionen, die mit der Klasse [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) festgelegt sind.
 
-###  **Beispielcode**
+Der folgende Beispielcode zeigt die Verwendung der [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)- und [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)-Klassen zum Laden der [Quell-CSV-Datei](104398879.csv) und gibt die JSON-Ausgabe in der Konsole aus.
+
+### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "LoadingSavingConvertingAndManaging-ConvertCsvToJson-1.py" >}}
 
-###  **Konsolenausgabe**
-```json
+### **Konsolenausgabe**
+{{< highlight java >}}
+
 [
 {
 "id": 1,
@@ -56,4 +58,5 @@ Das folgende Codebeispiel demonstriert die Verwendung von**[ExportRangeToJsonOpt
 "postalCode": 394221
 }
 ]
-```
+
+{{< /highlight >}}

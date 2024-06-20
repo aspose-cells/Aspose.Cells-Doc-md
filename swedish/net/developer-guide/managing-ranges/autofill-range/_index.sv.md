@@ -1,17 +1,18 @@
-﻿---
-title: Autofyll intervall av Excel-fil
-linktitle: Autofyll-intervall
+---
+title: Autofyllning av Excel filområde
+linktitle: Autofyllningsområde
 type: docs
 weight: 105
 url: /sv/net/autofill-ranges/
 ---
-## **Utför en autofyll i det angivna intervallet i Excel**
 
-I Excel, välj ett område, flytta musen till höger längst ned, dra "+" för att autofylla data.
+## **Utför en autofyllning i det angivna området i Excel**
 
-## **Autofyll intervall med Aspose.Cells**
+I Excel, Välj ett område, Flytta musen till nedre höger, dra "+" för att autofylla data.
 
-Följande exempel visar hur man gör Autofyll-operationen till Range, och här är exempelfilen som kan laddas ner för att testa den här funktionen:
+## **Autofyll områden med Aspose.Cells**
+
+Följande exempel visar hur man utför en autofyllningsoperation till intervallet, och här är den provfil som kan laddas ner för att testa den här funktionen:
 
 [range_autofill.xlsx](range_autofill.xlsx)
 

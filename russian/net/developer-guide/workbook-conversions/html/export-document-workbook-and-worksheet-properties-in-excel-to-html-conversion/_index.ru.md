@@ -1,18 +1,19 @@
-﻿---
-title: Экспорт рабочей книги документа и свойств рабочего листа в Excel в преобразование HTML
+---
+title: Экспорт свойств документа, книги и листа Excel в HTML
 type: docs
 weight: 50
 url: /ru/net/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/
 ---
+
 ## **Возможные сценарии использования**
 
-Когда файл Excel Microsoft экспортируется в HTML с использованием Microsoft Excel или Aspose.Cells, он также экспортирует различные типы свойств документа, рабочей книги и рабочего листа, как показано на следующем снимке экрана. Вы можете избежать экспорта этих свойств, установив[**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportdocumentproperties), [**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworkbookproperties)и[**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetproperties) как**ЛОЖЬ** . Значение этих свойств по умолчанию равно**истинный**. На следующем снимке экрана показано, как эти свойства выглядят в экспортированном HTML.
+Когда файл Microsoft Excel экспортируется в HTML с использованием Microsoft Excel или Aspose.Cells, он также экспортирует различные типы свойств документа, книги и листа, как показано на скриншоте ниже. Вы можете избежать экспорта этих свойств, установив [**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportdocumentproperties), [**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworkbookproperties) и [**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetproperties) как **false**. Значение по умолчанию для этих свойств **true**. Следующий скриншот показывает, как выглядят эти свойства в экспортированном HTML.
 
-![дело:изображение_альтернативный_текст](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
+![todo:image_alt_text](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
 
-## **Экспорт свойств документа, книги и листа в Excel в преобразование HTML**
+## **Экспорт свойств документа, книги и листа Excel в HTML**
 
- Следующий пример кода загружает[образец файла Excel](61767776.xlsx) и преобразует его в HTML и не экспортирует свойства документа, рабочей книги и рабочего листа в[вывод HTML](61767779.zip).
+Следующий образец кода загружает [образец Excel файла](61767776.xlsx) и преобразует его в HTML, не экспортируя свойства документа, книги и листа в [выходной HTML](61767779.zip).
 
 ## **Образец кода**
 

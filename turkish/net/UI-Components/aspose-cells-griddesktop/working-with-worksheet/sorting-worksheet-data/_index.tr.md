@@ -1,42 +1,45 @@
-﻿---
+---
 title: Çalışma Sayfası Verilerini Sıralama
 type: docs
 weight: 80
-url: /tr/net/sorting-worksheet-data/
+url: /tr/net/aspose-cells-griddesktop/sorting-worksheet-data/
+keywords: GridDesktop,sort,sorting,sort data,data sorting
+description: Bu makale, GridDesktop taki bir çalışma sayfasında veri sıralamanın nasıl yapılacağını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Sıralama, verileri işlerken çoğunlukla kullandığımız önemli bir rutin görevdir. Bu konumuzda, bir çalışma sayfasındaki verileri nasıl sıralayabileceğimizi basit bir örnek yardımıyla tartışacağız.
+Sıralama, veri işleme sırasında genellikle kullandığımız önemli bir rutin görevdir. Bu konuda, bir çalışma sayfasında verileri nasıl sıralayabileceğimizi basit bir örnek yardımıyla tartışacağız.
 
 {{% /alert %}} 
-## **Çalışma Sayfası Verilerini Sıralama**
-Aspose.Cells.GridDesktop'un API'ini kullanarak bir çalışma sayfasındaki verileri sıralamak için lütfen aşağıdaki adımları izleyin:
+## **Çalışma sayfasında verileri sıralamak için Aspose.Cells.GridDesktop API'sını kullanmak için lütfen aşağıdaki adımları izleyin:**
+- Önce **CellRange**'in genel bir nesnesini oluşturun, böylece sınıf kapsamında her yerden erişilebilir olabilir
 
--  Her şeyden önce global bir nesne oluşturun**Hücre Aralığı** böylece sınıfınızın kapsamındaki herhangi bir yerden erişilebilir
--  Şunun için bir olay işleyicisi oluşturun:**SeçilenHücre AralığıDeğiştirildi** olayı**IzgaraMasaüstü**. **SeçilenHücre AralığıDeğiştirildi** olay, bir kullanıcı tarafından seçilen bir hücre aralığı her değiştirildiğinde tetiklenir. Örneğin, bir kullanıcı hücreleri (sıralanacak verileri içeren) seçerse, seçim aralığı her değiştiğinde bu olay tetiklenir.
--  Olay işleyici sağlar**CellRangeEventArgs** hücre güncelleme aralığını (kullanıcı tarafından seçilen) ayrıca bir biçimde sağlayan argüman**Hücre Aralığı** nesne. Yani, bu olay işleyicide, bunu atayacağız**Hücre Aralığı** nesne (güncellenmiş hücre aralığını içeren) global**Hücre Aralığı**kodun diğer bölümlerinde de kullanılabilmesi için nesne. Hücre aralığını kaybetmediğimizden emin olmak için bir koşul içine olay işleyici kodu yazacağız.
-- Artık çalışma sayfası verilerini sıralamak için bazı kodlar yazabiliriz. Her şeyden önce, istediğiniz bir çalışma sayfasına erişin
--  Oluşturmak**Sıralama Aralığı** verileri sıralanacak olan hücrelerin aralığını tutacak nesne. İçinde**Sıralama Aralığı** yapıcı, çalışma sayfasını, başlangıç satırı ve sütun dizinlerini, sıralanacak satır ve sütun sayısını, sıralama yönünü (yukarıdan aşağıya veya soldan sağa gibi) vb. belirtebiliriz.
--  şimdi arayabiliriz**Çeşit** yöntemi**Sıralama Aralığı** veri sıralamasını gerçekleştirmek için nesne. İçinde**Çeşit** yönteminde, sıralanacak sütun veya satırın dizinini ve sıralama düzenini (bu olabilir**artan** veya**Azalan** gereksinimlerinize göre)
--  Sonunda arayabiliriz**Geçersiz kılmak** yöntemi**IzgaraMasaüstü** hücreleri yeniden çizmek için
+- **GridDesktop**'ın **SelectedCellRangeChanged** olayı için bir olay işleyici oluşturun. **SelectedCellRangeChanged** olayı, bir kullanıcının seçtiği hücre aralığı değiştiğinde her zaman tetiklenir. Örneğin, bir kullanıcı hücreleri (sıralanacak veriler içeren) seçerse, seçim aralığı her değiştiğinde bu olay tetiklenir.
+- **GridDesktop**'in **SelectedCellRangeChanged** olayı için olay işleyici oluşturun. **SelectedCellRangeChanged** olayı, bir kullanıcı tarafından seçilen hücre aralığı her değiştirildiğinde tetiklenir. Örneğin, bir kullanıcı (sıralanacak veriler içeren) hücreleri seçerse, her seferinde seçim aralığı değişirse, bu olay tetiklenir.
+- Olay işleyicisi, kullanıcı tarafından seçilen hücrelerin güncellenmiş aralığını **CellRange** nesnesi formunda sağlayan **CellRangeEventArgs** argümanını sağlar. Bu olay işleyicisinde, hücrelerin aralığını kaybetmemek için bu **CellRange** nesnesini, diğer kodların da kullanabileceği şekilde, global **CellRange** nesnesine atarız. Hücre aralığını kaybetmemiz gerektiğinden emin olmak için olay işleyici kodunu bir koşul içine yazacağız.
+- Şimdi çalışma sayfasına erişmek için bazı kodlar yazabiliriz
+- Sıralanacak verileri tutacak bir **SortRange** nesnesi oluşturun. **SortRange** oluşturucuda, sıralanacak çalışma sayfasını, başlangıç ​​satırı ve sütununun endekslerini, sıralanacak satır ve sütun sayısını, sıralamanın yönelimini (örneğin, yukarıdan aşağıya veya soldan sağa) vb. belirtebiliriz.
+- Şimdi **SortRange** nesnesinin **Sort** yöntemini çağırarak verilerin sıralamasını yapabiliriz. **Sort** yönteminde, sıralanacak sütun veya satırın endeksini ve sıralama düzenini (gereksinimlerinize göre **Artan** veya **Azalan** olabilir) belirtebiliriz
+- Son olarak, hücreleri yeniden çizmek için **GridDesktop**'ın **Invalidate** yöntemini çağırabiliriz.
 
-Aşağıda verilen örnekte, bir sütundaki verilerin nasıl sıralanacağını gösterdik.
+Aşağıdaki örnekte, bir sütunda veri sıralamanın nasıl yapılacağına dair bir örnek verilmiştir.
 
- Global bir CellRange nesnesi oluşturun ve**SeçilenHücre AralığıDeğiştirildi**GridDesktop olayı. Şimdi aşağıdaki gibi kodu yazın:
+Global bir **CellRange** nesnesi oluşturun ve **GridDesktop**'ın **SelectedCellRangeChanged** olayı için bir olay işleyicisi oluşturun. Şimdi aşağıdaki gibi kod yazın:
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-SortData-CheckingCellRange.cs" >}}
 
 
- Şimdi için metod yazıyoruz.**Artan Sıralama** . için bir düğme oluşturabilirsiniz.**Artan Sıralama** ve içine aşağıdaki kodu yazın**Tıklamak** Etkinlik.
+**Artan Sıralama** için yöntem yazın. Bir **Artan Sıralama** düğmesi oluşturabilir ve **Click** Olayı içine aşağıdaki gibi kod yazabilirsiniz.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-SortData-AscendingSort.cs" >}}
 
 
- Son olarak, elde etmek için bazı kodlar yazıyoruz.**Azalan Sıralama** işlevsellik. Oluşturmak**Azalan Sıralama** butonuna basın ve içine aşağıdaki kodu yazın.**Tıklamak** Etkinlik.
+Son olarak, **Azalan Sıralama** işlevselliğini elde etmek için bir **Azalan Sıralama** düğmesi oluşturun ve **Click** Olayı içine aşağıdaki gibi kod yazabilirsiniz.
 
 
 

@@ -1,16 +1,19 @@
-﻿---
+---
 title: GridWeb drucken
 type: docs
 weight: 90
-url: /de/net/print-gridweb/
+url: /de/net/aspose-cells-gridweb/print-gridweb/
+keywords: GridWeb, drucken
+description: Dieser Artikel stellt vor, wie man in GridWeb druckt.
 ---
+
 {{% alert color="primary" %}} 
 
-Es gibt Zeiten, in denen Entwickler den GridWeb-Inhalt von einer Webseite drucken müssen, ohne das Ergebnis als Microsoft-Excel-Tabellenkalkulationsdatei zu speichern. Das Aspose.Cells.GridWeb-Steuerelement unterstützt dieses Feature über eine clientseitige Funktion.
+Manchmal müssen Entwickler den Inhalt von GridWeb von einer Webseite aus drucken, ohne das Ergebnis als Microsoft Excel-Tabellendatei zu speichern. Das Aspose.Cells.GridWeb-Steuerelement unterstützt diese Funktion über die Client-seitige Funktion.
 
 {{% /alert %}} 
 ## **GridWeb drucken**
-Um den Inhalt zu drucken, hat Aspose.Cells.GridWeb for .NET die clientseitige GridWeb.Print-Funktion verfügbar gemacht, die wie unten gezeigt in einem JavaScript-Aufruf verwendet werden kann.
+Um den Inhalt zu drucken, hat das Aspose.Cells.GridWeb für .NET die Client-seitige Funktion GridWeb.Print freigelegt, die in einem JavaScript-Aufruf verwendet werden kann, wie unten dargestellt.
 
 
 
@@ -18,7 +21,7 @@ Um den Inhalt zu drucken, hat Aspose.Cells.GridWeb for .NET die clientseitige Gr
 
 
 
-Sobald die JavaScript-Funktion eingerichtet ist, kann sie bei jedem beliebigen Ereignis ausgelöst werden. Bitte überprüfen Sie das folgende ASP.NET-Snippet, das die oben definierte JavaScript-Funktion für ein Schaltflächenklickereignis verwendet.
+Sobald die JavaScript-Funktion eingerichtet ist, kann sie bei Bedarf ausgelöst werden. Bitte überprüfen Sie den folgenden ASP.NET-Schnipsel, der die oben definierte JavaScript-Funktion bei einem Klickereignis auf einer Schaltfläche verwendet.
 
 
 

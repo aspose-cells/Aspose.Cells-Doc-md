@@ -1,32 +1,34 @@
-﻿---
-title: Arbeitsmappenstruktur schützen und Schutz aufheben
+---
+title: Arbeitsmappenstruktur schützen und entschützen
 type: docs
 weight: 40
 url: /de/python-java/protect-and-unprotect-workbook-structure/
-description: Schützen und entschützen Sie die Arbeitsmappenstruktur von Excel-Dateien mit Python-Codes.
+description: Schützen und freigeben der Arbeitsmappenstruktur von Excel Dateien mit Python Codes.
 ---
+
+
 {{% alert color="primary" %}}
-Um zu verhindern, dass andere Benutzer ausgeblendete Arbeitsblätter anzeigen, Arbeitsblätter hinzufügen, verschieben, löschen oder ausblenden und Arbeitsblätter umbenennen, können Sie die Struktur Ihrer Excel-Arbeitsmappe mit einem Kennwort schützen.
-Aspose.Cells for Python unterstützt das Schützen und Aufheben des Schutzes der Arbeitsmappenstruktur von Excel-Dateien.
+Um zu verhindern, dass andere Benutzer versteckte Arbeitsblätter einsehen, Arbeitsblätter hinzufügen, verschieben, löschen oder ausblenden und Arbeitsblätter umbenennen, können Sie die Struktur Ihres Excel-Arbeitsblatts mit einem Kennwort schützen.
+Aspose.Cells for Python unterstützt das Schützen und Freigeben der Arbeitsmappenstruktur von Excel-Dateien.
 {{% /alert %}}
 
 
-## **Schützen und entschützen Sie die Arbeitsmappenstruktur in MS Excel**
+## **Schützen und entschützen der Arbeitsmappenstruktur in MS Excel**
 
-**![Arbeitsmappenstruktur schützen und Schutz aufheben](protect-and-unprotect-workbook-structure.png)**
+**![Arbeitsmappenstruktur schützen und entschützen](schuetzen-und-entschuetzen-arbeitsmappenstruktur.png)**
 
-1.  Klicken**Überprüfen > Arbeitsmappe schützen**.
-1.  Geben Sie ein Passwort ein**das Feld Passwort**.
-1.  Wählen**OK** , geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann aus**OK** aufs Neue.
+1. Klicken Sie auf **Überprüfen > Arbeitsmappe schützen**.
+1. Geben Sie ein Passwort in das **Passwortfeld** ein.
+1. Wählen Sie **OK**, geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann erneut **OK**.
 
 
-## **Arbeitsmappenstruktur mit Aspose.Cell for Python schützen**
-Sie benötigen nur die folgenden einfachen Codezeilen, um den Schutz der Arbeitsmappenstruktur von Excel-Dateien zu implementieren.
+## **Schützen Sie die Arbeitsmappenstruktur mit Aspose.Cell für Python**
+Es sind nur die folgenden einfachen Codezeilen erforderlich, um die Arbeitsmappenstruktur von Excel-Dateien zu schützen.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Protect-Workbook-Structure.py" >}}
 
-## **Schutz der Arbeitsmappenstruktur mit Aspose.Cell for Python aufheben**
-Das Aufheben des Schutzes der Arbeitsmappenstruktur ist mit Aspose.Cells API einfach.
+## **Arbeitsmappenstruktur schützen mit Aspose.Cell für Python aufheben**
+Die Entschützung der Arbeitsmappenstruktur ist mit der Aspose.Cells API einfach.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Unprotect-Workbook-Structure.py" >}}
 

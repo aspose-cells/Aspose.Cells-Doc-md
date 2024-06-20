@@ -1,23 +1,24 @@
-﻿---
+---
 title: Seiteneinrichtung
 type: docs
 weight: 80
 url: /de/reportingservices/page-setup/
 ---
-Die Konfiguration umfasst zwei Abschnitte und 8 Arten von Seiteneinrichtungseigenschaften. Zu diesen Eigenschaften gehören name, index, FitToPagesTall, FitToPagesWide, TopMargin, FooterMargin, HeaderMargin, BottomMargin, LeftMargin und RightMargin.
 
-- **Name** stellt den Berichtsnamen dar, stellt es den gesamten Bericht dar, wenn der Name leer ist.
-- **Index** stellt den Arbeitsblattindex der exportierten Excel-Datei dar.
-- **FitToPagesTall** stellt die Anzahl der Seiten dar, auf die das Arbeitsblatt beim Drucken skaliert wird.
-- **FitToPagesWide** stellt die Anzahl der Seiten dar, auf die das Arbeitsblatt beim Drucken skaliert wird.
-- **Fußzeilenrand** stellt den Abstand vom unteren Rand der Seite zur Fußzeile in der Einheit Zentimeter dar.
-- **Kopfzeilenrand** stellt den Abstand vom oberen Rand der Seite zur Kopfzeile in der Einheit Zentimeter dar.
-- **Linker Rand** stellt die Größe des linken Randes in Zentimetern dar.
-- **Rechter Rand** stellt die Größe des rechten Randes in Zentimetern dar.
-- **Oberer Rand** stellt die Größe des oberen Rands in der Einheit Zentimeter dar.
-- **Unterer Rand**stellt die Größe des unteren Randes in Zentimetern dar.
+Die Konfiguration umfasst zwei Abschnitte und 8 Arten von Seiteneinrichtungseigenschaften. Diese Eigenschaften umfassen Name, Index, FitToPagesTall, FitToPagesWide, TopMargin, FooterMargin, HeaderMargin, BottomMargin, LeftMargin und RightMargin.
 
-PageSetup-Konfigurationsbeispiel:
+- **name** repräsentiert den Berichtsnamen. Es repräsentiert den gesamten Bericht, wenn der Name leer ist.
+- **index** repräsentiert den Arbeitsblattindex der exportierten Excel-Datei.
+- **FitToPagesTall** repräsentiert die Anzahl der vertikalen Seiten, auf die das Arbeitsblatt skaliert wird, wenn es gedruckt wird.
+- **FitToPagesWide** repräsentiert die Anzahl der horizontalen Seiten, auf die das Arbeitsblatt skaliert wird, wenn es gedruckt wird.
+- **FooterMargin** repräsentiert den Abstand vom unteren Rand der Seite zum Fußzeilenbereich in Zentimetern.
+- **HeaderMargin** repräsentiert den Abstand vom oberen Rand der Seite zum Kopfbereich in Zentimetern.
+- **LeftMargin** repräsentiert die Größe des linken Seitenrandes in Zentimetern.
+- **RightMargin** repräsentiert die Größe des rechten Seitenrandes in Zentimetern.
+- **TopMargin** repräsentiert die Größe des oberen Seitenrandes in Zentimetern.
+- **BottomMargin** repräsentiert die Größe des unteren Seitenrandes in Zentimetern.
+
+Beispiel für die Konfiguration von Seiteneinrichtungen:
 
 {{code  lang="xml" }}
 <PageSetup>

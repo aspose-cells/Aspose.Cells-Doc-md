@@ -1,32 +1,33 @@
-﻿---
-title: Genera grafico elaborando marcatori intelligenti
+---
+title: Genera un grafico elaborando i marcatori intelligenti
 type: docs
 weight: 180
 url: /it/java/generate-chart-by-processing-smart-markers/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells Le API forniscono la classe WorkbookDesigner per lavorare con i marcatori intelligenti in cui la formattazione e le formule vengono inserite nei fogli di calcolo del designer e quindi elaborate rispetto a origini dati specificate per riempire i dati in base ai marcatori intelligenti. È anche possibile creare grafici Excel elaborando gli Smart Marker, che richiederanno i seguenti passaggi.
+Le API di Aspose.Cells forniscono la classe WorkbookDesigner per lavorare con Smart Markers dove la formattazione e le formule sono posizionate nei fogli del designer e poi elaborate contro le fonti di dati specificate per riempire i dati in base agli Smart Markers. È anche possibile creare grafici Excel elaborando Smart Markers, il che richiederà i seguenti passaggi.
 
 - Creazione del foglio di calcolo del designer
-- Elaborazione del foglio di calcolo del progettista rispetto all'origine dati specificata
-- Creazione di grafici basati su dati popolati
+- Elaborazione del foglio elettronico del designer contro la fonte di dati specificata
+- Creazione del grafico in base ai dati popolati
 
 {{% /alert %}} 
-## **Creazione del foglio di calcolo del progettista**
-Un foglio di calcolo per designer è un semplice file Excel creato con l'applicazione Excel Microsoft o le API Aspose.Cells contenente la formattazione visiva, le formule e gli indicatori intelligenti, in cui i contenuti devono essere popolati in fase di esecuzione.
+## **Creazione del foglio elettronico del designer**
+Un foglio elettronico del designer è un semplice file Excel creato con l'applicazione Microsoft Excel o le API di Aspose.Cells contenente la formattazione visuale, le formule e gli smart markers, dove i contenuti devono essere popolati al momento dell'esecuzione.
 
 {{% alert color="primary" %}} 
 
- Sono disponibili informazioni dettagliate sugli Smart Marker[qui](/cells/it/java/smart-markers/).
+Sono disponibili informazioni dettagliate sugli Smart Markers [qui](/cells/it/java/smart-markers/).
 
 {{% /alert %}} 
 
-Per semplicità, creeremo il foglio di calcolo del progettista utilizzando Aspose.Cells for Java API e successivamente lo elaboreremo rispetto a un'origine dati creata dinamicamente a scopo dimostrativo.
+Per semplicità, creeremo il foglio elettronico del designer utilizzando l'API Aspose.Cells for Java e in seguito lo elaboreremo contro una fonte di dati creata dinamicamente a scopo dimostrativo.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -58,37 +59,37 @@ cells.get("A5").putValue("&=$Year2015(horizontal)");
 
 {{< /highlight >}}
 
-Se si salva il foglio di lavoro risultante in questa fase, i dati nel foglio di lavoro appariranno come segue.
+Se si salva il foglio elettronico risultante a questo punto, i dati nel foglio di lavoro appariranno come segue.
 
-![cose da fare:immagine_alt_testo](generate-chart-by-processing-smart-markers_1.png)
-## **Elaborazione del foglio di calcolo del progettista**
- Per elaborare il foglio di calcolo del designer, dobbiamo disporre di un'origine dati che corrisponda agli indicatori intelligenti utilizzati nel foglio di calcolo del designer. Ad esempio, abbiamo creato una voce Smart Marker come**&=$Intestazioni(orizzontale)** che rappresenta la variabile per nome Headers mentre la chiave**(orizzontale)** suggerisce che i dati dovrebbero essere popolati orizzontalmente.
+![todo:image_alt_text](generate-chart-by-processing-smart-markers_1.png)
+## **Elaborazione del foglio elettronico del designer**
+Per elaborare il foglio elettronico del designer, è necessario disporre di una fonte di dati che corrisponda agli Smart Markers utilizzati nel foglio elettronico del designer. Ad esempio, abbiamo creato un'entry Smart Marker come **&=$Headers(horizontal)**, che rappresenta la variabile per nome Headers mentre la chiave **(horizontal)** suggerisce che i dati dovrebbero essere popolati in orizzontale.
 
-Per dimostrare questo caso d'uso, creeremo l'origine dati da zero e la elaboreremo rispetto al foglio di calcolo del designer creato nel passaggio precedente. Tuttavia, nello scenario in tempo reale, i dati potrebbero essere già disponibili per un'ulteriore elaborazione, pertanto è possibile ignorare la creazione dell'origine dati se i dati sono già disponibili.
+Per dimostrare questo caso d'uso, creeremo la fonte di dati da zero e la elaboreremo contro il foglio elettronico del designer creato nel passo precedente. Tuttavia, in uno scenario in tempo reale, i dati potrebbero già essere disponibili per ulteriore elaborazione e quindi è possibile saltare la creazione della fonte di dati se i dati sono già disponibili.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create string arrays which will serve as data sources to the smart markers
 
-String[]headers = new String[]{"", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9", "Item 10", "Item 11", "Item 12"};
+String[] headers = new String[]{"", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9", "Item 10", "Item 11", "Item 12"};
 
-String[]year2000 = new String[]{"2000", "310", "0", "110", "15", "20", "25", "30", "1222", "200", "421", "210", "133"};
+String[] year2000 = new String[]{"2000", "310", "0", "110", "15", "20", "25", "30", "1222", "200", "421", "210", "133"};
 
-String[]year2005 = new String[]{"2005", "508", "0", "170", "280", "190", "400", "105", "132", "303", "199", "120", "100"};
+String[] year2005 = new String[]{"2005", "508", "0", "170", "280", "190", "400", "105", "132", "303", "199", "120", "100"};
 
-String[]year2010 = new String[]{"2010", "0", "210", "230", "1420", "1530", "160", "170", "110", "199", "129", "120", "230"};
+String[] year2010 = new String[]{"2010", "0", "210", "230", "1420", "1530", "160", "170", "110", "199", "129", "120", "230"};
 
-String[]year2015 = new String[]{"2015", "2818", "320", "340", "260", "210", "310", "220", "0", "0", "0", "0", "122"};
+String[] year2015 = new String[]{"2015", "2818", "320", "340", "260", "210", "310", "220", "0", "0", "0", "0", "122"};
 
 {{< /highlight >}}
 
-L'elaborazione degli Smart Marker è abbastanza semplice come segue.
+L'elaborazione degli Smart Markers è piuttosto semplice come segue.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of WorkbookDesigner
 
@@ -116,17 +117,17 @@ designer.process();
 
 {{< /highlight >}}
 
-Se salvi il foglio di calcolo in questa fase, i dati appariranno come segue.
+Se si salva il foglio elettronico a questo punto, i dati appariranno come segue.
 
-![cose da fare:immagine_alt_testo](generate-chart-by-processing-smart-markers_2.png)
+![todo:image_alt_text](generate-chart-by-processing-smart-markers_2.png)
 
 {{% alert color="primary" %}} 
 
-Il frammento di codice precedente utilizza l'istanza esistente della classe Workbook creata nel primo passaggio. Se hai già il file del foglio di calcolo del progettista su disco o memoria, puoi creare un'istanza della classe Workbook caricando il foglio di calcolo del progettista esistente.
+Il frammento di codice sopra utilizza l'istanza esistente della classe Workbook creata nel primo passaggio. Se si dispone già del file di foglio di calcolo del designer su disco o in memoria, è possibile creare un'istanza della classe Workbook caricando il foglio di calcolo del designer esistente.
 
 {{% /alert %}} 
 ## **Creazione del grafico**
-Una volta che i dati sono a posto, tutto ciò che dobbiamo fare è creare un grafico basato sull'origine dati. Per semplificare l'esempio, utilizzeremo il metodo Chart.setChartDataRange in modo da non dover configurare ulteriormente il grafico.
+Una volta che i dati sono in posizione, tutto ciò che dobbiamo fare è creare un grafico basato sulla fonte di dati. Per mantenere l'esempio semplice, utilizzeremo il metodo Chart.setChartDataRange in modo da non dover configurare ulteriormente il grafico.
 
 
 
@@ -142,4 +143,4 @@ Una volta che i dati sono a posto, tutto ciò che dobbiamo fare è creare un gra
 
 Il grafico finale appare come segue.
 
-![cose da fare:immagine_alt_testo](generate-chart-by-processing-smart-markers_3.png)
+![todo:image_alt_text](generate-chart-by-processing-smart-markers_3.png)

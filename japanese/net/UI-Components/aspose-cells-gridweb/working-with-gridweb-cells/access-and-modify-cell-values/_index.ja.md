@@ -1,25 +1,28 @@
-﻿---
-title: Cell 値へのアクセスと変更
+---
+title: セルの値へのアクセスと変更
 type: docs
 weight: 20
-url: /ja/net/access-and-modify-cell-values/
+url: /ja/net/aspose-cells-gridweb/access-and-modify-cell-value/
+keywords: GridWeb、セルの値、変更、値
+description: この記事では、GridWebを使用してセルの値を取得および変更する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-[アクセス ワークシート Cells](/cells/ja/net/access-worksheet-cells/)セルへのアクセスについて説明しました。このトピックでは、その説明を拡張して、Aspose.Cells.GridWeb API を使用してセル値にアクセスして変更する方法を示します。
+[ワークシートセルへのアクセス](/cells/ja/net/aspose-cells-gridweb/access-worksheet-cells/)では、セルへのアクセスについて説明しています。このトピックでは、Aspose.Cells.GridWeb APIを使用してセルの値にアクセスおよび変更する方法を示します。
 
 {{% /alert %}} 
-## **Cell の値へのアクセスと変更**
-### **文字列値**
-セルの値にアクセスして変更する前に、セルへのアクセス方法を知っておく必要があります。セルにアクセスするためのさまざまなアプローチの詳細については、次を参照してください。[アクセス ワークシート Cells](/cells/ja/net/access-worksheet-cells/).
+## **セルの値のアクセスおよび変更**
+### **文字列の値**
+セルの値にアクセスし変更する前に、セルへのアクセス方法について知る必要があります。セルへのアクセス方法の詳細については、[ワークシートセルへのアクセス](/cells/ja/net/aspose-cells-gridweb/access-worksheet-cells/) を参照してください。
 
-各セルには、StringValue という名前のプロパティがあります。セルにアクセスすると、開発者は StringValue プロパティを使用してセルの文字列値にアクセスできます。セル値を変更するために、セルの文字列値を更新するために使用できる特別なメソッド PutValue が提供されています。
+各セルには、StringValueというプロパティがあります。セルにアクセスした後、開発者はStringValueプロパティを使用してセルの文字列値にアクセスできます。セルの値を変更するには、セルの文字列値を更新するための特別なPutValueメソッドが提供されており、これを使用してセルの文字列値を更新できます。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ModifyCells.aspx-AddCellStringValue.cs" >}}
-### **すべてのタイプの値**
-セルのオブジェクトの PutValue メソッドには、セル内の任意のタイプの値 (Boolean、int、double、DateTime、および string) を変更するために使用できる 8 つのオーバーロードがあります。
+### **すべての種類の値**
+セルのオブジェクトのPutValueメソッドには8つのオーバーロードがあり、セル内の任意のタイプの値（Boolean、int、double、DateTime、およびstring）を変更するために使用できます。
 
 
 
@@ -27,7 +30,7 @@ url: /ja/net/access-and-modify-cell-values/
 
 
 
-文字列形式の任意の種類の値を取得し、適切なデータ型に自動的に変換できる、PutValue メソッドのオーバーロードされたバージョンもあります。これを実現するには、以下の例に示すように、ブール値 true を PutValue メソッドの別のパラメーターに渡します。
+PutValueメソッドのオーバーロードバージョンもあり、任意のkind of valueを文字列形式で受け取り、自動的に適切なデータ型に変換できます。これを実現するには、PutValueメソッドの別のパラメーターにtrueというBoolean値を渡します。以下の例に示すように。
 
 
 

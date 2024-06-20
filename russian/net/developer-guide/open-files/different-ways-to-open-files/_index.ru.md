@@ -3,49 +3,50 @@ title: Различные способы открытия файлов
 type: docs
 weight: 10
 url: /ru/net/different-ways-to-open-files/
-description: В этой статье объясняется, как открыть файл Excel с помощью Aspose.Cells for .NET API.
-keywords: C# Open an Excel file without Excel, How do I open an Excel File.
+description: Эта статья объясняет, как открыть файл Excel с использованием Aspose.Cells for .NET API.
+keywords: C# Открыть файл Excel без Excel, как открыть файл Excel.
 ---
+
 {{% alert color="primary" %}}
 
-С Aspose.Cells легко открывать файлы, например, для получения данных, или использовать шаблон дизайнера для ускорения процесса разработки.
+С помощью Aspose.Cells просто открывать файлы, например, чтобы извлечь данные или использовать шаблон дизайнера для ускорения процесса разработки.
 
 {{% /alert %}}
 
-##  **Как открыть файл Excel по пути**
+## **Как открыть файл Excel через путь**
 
- Разработчики могут открыть файл Excel Microsoft, используя его путь к файлу на локальном компьютере, указав его в поле**[Рабочая книга](https://reference.aspose.com/cells/net/aspose.cells/workbook)**конструктор класса. Просто передайте путь в конструкторе как *строку*. Aspose.Cells автоматически определит тип формата файла.
+Разработчики могут открывать файл Microsoft Excel, используя его путь к файлу на локальном компьютере, указав его в конструкторе класса [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook). Просто передайте путь в конструктор как *строку*. Aspose.Cells автоматически определит тип формата файла.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughPath-1.cs" >}}
 
-##  **Как открыть файл Excel через поток**
+## **Как открыть файл Excel через поток**
 
- Открыть файл Excel как поток также просто. Для этого используйте перегруженную версию конструктора, который принимает*Транслировать*объект, содержащий файл.
+Также просто открыть файл Excel как поток. Для этого используйте перегруженную версию конструктора, принимающую объект *Stream*, который содержит файл.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughStream-1.cs" >}}
 
-##  **Как открыть файл только с данными**
+## **Как открыть файл только с данными**
 
- Чтобы открыть файл только с данными, используйте команду**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** и**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**классы, чтобы установить связанный атрибут и параметры классов для загружаемого файла шаблона.
+Чтобы открыть файл только с данными, используйте классы [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) и [**LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadfilter), чтобы установить соответствующий атрибут и параметры этих классов для загружаемого файла-шаблона.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilewithDataOnly-1.cs" >}}
 
-##  **Как загрузить только видимые листы**
+## **Как загрузить только видимые листы**
 
- Во время загрузки**[Рабочая книга](https://reference.aspose.com/cells/net/aspose.cells/workbook)**иногда вам могут понадобиться данные только на видимых листах книги. Aspose.Cells позволяет пропускать данные на невидимых листах при загрузке книги. Для этого создайте пользовательскую функцию, которая наследует**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**класс и передать его экземпляр**[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)**свойство.
+При загрузке [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) иногда вам может понадобиться только данные в видимых листах книги. Aspose.Cells позволяет пропустить данные в невидимых листах при загрузке книги. Для этого создайте пользовательскую функцию, которая наследует класс [**LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadfilter) и передайте его экземпляр в свойство [**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-LoadVisibleSheetsOnly-1.cs" >}}
 
-Вот реализация*Пользовательская загрузка*класс, указанный в приведенном выше фрагменте.
+Вот реализация класса *CustomnLoad*, на которую ссылается вышеуказанный фрагмент.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-LoadVisibleSheetsOnly-2.cs" >}}
 
 {{% alert color="primary" %}}
 
-Исключение будет выдано, если вы попытаетесь открыть файлы Excel или другие форматы файлов (например, PPT/PPTX, DOC/DOCX и т. д.) по номеру Aspose.Cells.
+Если вы попытаетесь открыть файлы формата Excel или другие файловые форматы Office (например, PPT/PPTX, DOC/DOCX и т. д.) с помощью Aspose.Cells, будет сгенерировано исключение.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- Есть хорошие шансы, что**[Рабочая книга](https://reference.aspose.com/cells/net/aspose.cells/workbook)**конструктор может выкинуть*System.OutOfMemoryException* при загрузке больших таблиц. Это исключение предполагает, что доступной памяти недостаточно для полной загрузки электронной таблицы в память, поэтому электронную таблицу необходимо загружать при включении настроек памяти.
+Существует вероятность того, что конструктор [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) может вызвать исключение *System.OutOfMemoryException* при загрузке больших таблиц. Это исключение говорит о том, что доступной памяти недостаточно для полной загрузки таблицы в память, поэтому для загрузки таблицы необходимо включить настройки памяти.
 
 {{% /alert %}}

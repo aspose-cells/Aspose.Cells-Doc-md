@@ -1,33 +1,34 @@
-﻿---
-title: Überprüfen Sie das zu ändernde Passwort mit Aspose.Cells
+---
+title: Passwort zum Ändern mit Aspose.Cells überprüfen
 type: docs
 weight: 2400
 url: /de/net/check-password-to-modify-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Manchmal müssen Sie überprüfen, ob das angegebene Passwort mit dem übereinstimmt**Zu änderndes Passwort** programmatisch. Aspose.Cells stellt die Methode WorkbookSettings.WriteProtection.ValidatePassword() bereit, mit der Sie überprüfen können, ob das angegebene zu ändernde Passwort korrekt ist oder nicht.
+Manchmal müssen Sie programmgesteuert überprüfen, ob das angegebene Passwort mit dem **Passwort zum Ändern** übereinstimmt. Aspose.Cells bietet die Methode WorkbookSettings.WriteProtection.ValidatePassword(), mit der Sie überprüfen können, ob das angegebene Passwort zum Ändern korrekt ist oder nicht.
 
 {{% /alert %}}
 
-## **Aktivieren Sie das zu ändernde Passwort in Microsoft Excel**
+## **Passwort zum Ändern in Microsoft Excel überprüfen**
 
- Sie können zuweisen**Passwort zum öffnen** und**Zu änderndes Passwort** beim Erstellen Ihrer Arbeitsmappen in Microsoft Excel. Bitte sehen Sie sich diesen Screenshot an, der die Schnittstelle Microsoft zeigt, die Excel bereitstellt, um diese Passwörter anzugeben.
+Sie können beim Erstellen Ihrer Arbeitsbücher in Microsoft Excel **Passwort zum Öffnen** und **Passwort zum Ändern** zuweisen. Bitte sehen Sie sich diesen Screenshot an, der die Benutzeroberfläche zeigt, die Microsoft Excel zum Angeben dieser Passwörter bereitstellt.
 
-|![todo: Bild_alt_Text](check-password-to-modify-using-aspose-cells_1.png)|
-|:- |
+|![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)|
+| :- |
 
-## **Überprüfen Sie das zu ändernde Passwort mit Aspose.Cells**
+## **Überprüfen Sie das Kennwort zur Änderung mit Aspose.Cells**
 
- Die folgenden Beispielcodes laden die[Quelle Excel](5112232.xlsx) Datei. Es hat ein Passwort zum Öffnen als 1234 und ein Passwort zum Ändern als 5678. Der Code prüft zuerst, ob 567 das richtige Passwort zum Ändern ist, und gibt falsch zurück, und dann prüft er, ob 5678 das zu ändernde Passwort ist, und es gibt wahr zurück.
+Die folgenden Beispielscodes laden die [Quell-Excel](5112232.xlsx)-Datei. Sie hat ein Passwort zum Öffnen als 1234 und ein Passwort zum Ändern als 5678. Der Code überprüft zunächst, ob 567 das richtige Passwort zum Ändern ist, und gibt false zurück, und dann überprüft er, ob 5678 das Passwort zum Ändern ist, und gibt true zurück.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckPasswordToModify-CheckPasswordToModifyUsingAsposeCells.cs" >}}
 
 ### **Konsolenausgabe**
 
- Hier ist die Konsolenausgabe des obigen Beispielcodes nach dem Laden der[Quelle Excel](5112232.xlsx) Datei.
+Hier ist die Konsolenausgabe des obigen Beispielscodes nach dem Laden der [Quell-Excel](5112232.xlsx)-Datei.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is 567 correct Password to modify: False
 

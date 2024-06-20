@@ -1,34 +1,35 @@
 ---
-title: Ottieni un elenco di caratteri utilizzati in un foglio di calcolo o in una cartella di lavoro
-description: Aspose.Cells è una libreria .NET per lavorare con file di fogli di calcolo. Supporta l'ottenimento di un elenco di caratteri utilizzati in un foglio di calcolo o in una cartella di lavoro, consentendo agli utenti di ottenere informazioni sui caratteri utilizzati in un documento. Questo articolo ti mostrerà come utilizzare la libreria Aspose.Cells per ottenere un elenco di caratteri.
-keywords: Aspose.Cells, Spreadsheet, Workbook, Font, List
+title: Ottieni un elenco di font utilizzati in un foglio di calcolo o in un workbook
+description: Aspose.Cells è una libreria .NET per lavorare con file di fogli di calcolo. Supporta l ottenimento di un elenco di font utilizzati in un foglio di calcolo o in un workbook, consentendo agli utenti di ottenere informazioni sul font utilizzato in un documento. Questo articolo ti mostrerà come utilizzare la libreria Aspose.Cells per ottenere un elenco di font.
+keywords: Aspose.Cells, Foglio di calcolo, Workbook, Font, Elenco
 type: docs
 weight: 20
 url: /it/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 ---
-##  **Possibili scenari di utilizzo**
 
-Spesso è necessario conoscere i caratteri utilizzati nella cartella di lavoro per scopi di rendering. Quando converti la cartella di lavoro in PDF o immagine, Aspose.Cells richiede che tutti i caratteri necessari siano installati sul tuo sistema o presenti nella *directory dei caratteri**. Se Aspose.Cells non riesce a trovare il carattere necessario, tenta di sostituirlo con un altro carattere adatto presente nel tuo sistema o nella directory dei caratteri e può sostituire il carattere attuale. Ciò non solo provoca la resa indesiderata di PDF o immagini, ma richiede anche tempo di elaborazione per trovare i caratteri adatti.
+## **Possibili Scenari di Utilizzo**
 
-Per gestire questi casi, dovresti sapere quali caratteri vengono utilizzati dalla tua cartella di lavoro, quindi installare tali caratteri sul tuo sistema in caso di ambiente Windows o inserirli nella directory dei caratteri in caso di ambiente Windows o Linux.
+È spesso necessario conoscere i font utilizzati nel tuo workbook per scopi di rendering. Quando converti il tuo workbook in PDF o immagine, allora Aspose.Cells richiede che tutti i font necessari siano installati sul tuo sistema o presenti nella tua **directory dei font**. Se Aspose.Cells non è in grado di trovare il font necessario, cerca di sostituirlo con qualche altro font adatto presente sul tuo sistema o nella tua directory dei font e può sostituire il tuo font effettivo. Questo non solo comporta il rendering indesiderato di PDF o immagini ma richiede anche tempo di elaborazione per trovare font adatti.
 
- Aspose.Cells fornisce il**[Workbook.GetFonts](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts)**metodo che restituisce l'elenco di tutti i caratteri utilizzati nella cartella di lavoro o nel foglio di calcolo.
+Per affrontare tali casi, dovresti sapere quali font vengono utilizzati nel tuo workbook, quindi installare quei font sul tuo sistema in caso di ambiente Windows o collocarli nella tua directory dei font in caso di ambiente Windows o Linux.
 
-##  **Ottieni un elenco di caratteri utilizzati in un foglio di calcolo o in una cartella di lavoro**
+Aspose.Cells fornisce il metodo [**Workbook.GetFonts**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getfonts) che restituisce l'elenco di tutti i font utilizzati nel tuo workbook o foglio di calcolo.
 
- Il seguente codice di esempio carica il file Excel di origine e recupera l'elenco dei caratteri utilizzati al suo interno. Ha un foglio di lavoro fittizio a cui sono stati aggiunti alcuni caratteri fittizi a scopo illustrativo. Quando il codice stampa tutti i caratteri all'interno della cartella di lavoro, stampa anche i caratteri fittizi. La seguente schermata mostra il[file Excel di esempio](25395211.xlsx) e come sono elencati i caratteri fittizi.
+## **Ottieni un elenco di font utilizzati in un foglio di calcolo o di lavoro**
 
-![cose da fare:immagine_alt_testo](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
+Il codice di esempio seguente carica il file excel di origine e recupera l'elenco di font utilizzati al suo interno. Ha un foglio di lavoro fittizio al quale sono stati aggiunti alcuni font fittizi a scopo illustrativo. Quando il codice stampa tutti i font all'interno del workbook, stampa anche quei font fittizi. La schermata seguente mostra il [file excel di esempio](25395211.xlsx) e come sono elencati i font fittizi.
 
-##  **Codice d'esempio**
+![todo:image_alt_text](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Fonts-GetListOfFontsUsedInSpreadsheetOrWorkbook.cs" >}}
 
-##  **Uscita della console**
+## **Output della console**
 
- Ecco l'output della console del codice di esempio precedente quando eseguito con il comando dato[file Excel di esempio](25395211.xlsx).
+Ecco l'output della console del codice di esempio sopra quando eseguito con il [file excel di esempio](25395211.xlsx) fornito.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Aspose.Cells.Font [ Calibri; 11; Regular; Color [Black] ]
 

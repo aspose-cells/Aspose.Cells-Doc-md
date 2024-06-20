@@ -1,29 +1,30 @@
-﻿---
+---
 title: إضافة تذييل إلى مستندات متعددة
 type: docs
 weight: 80
 url: /ar/sharepoint/add-footer-to-multiple-documents/
 ---
-إذا كنت تريد إضافة تذييل في ملفات Excel متعددة ، فالرجاء اختيار خيار "إضافة تذييل مع Aspose.Cells" في شريط الشريط.
 
-![ما يجب القيام به: image_بديل_نص](add-footer-to-multiple-documents_1.png)
+إذا كنت ترغب في إضافة تذييل في عدة ملفات Excel، يرجى اختيار خيار 'إضافة تذييل مع Aspose.Cells' في شريط الشريط.
 
-
-
-احصل على جميع ملفات Excel من مجلد مصدر البيانات وقم بإنشاء جدول قائمة الملفات.
-
- حدد الملف الذي يحتاج إلى إضافة تذييل ، انقر فوق**إضافة تذييل** زر لإضافة تذييل للملفات المحددة.
-
-![ما يجب القيام به: image_بديل_نص](add-footer-to-multiple-documents_2.png)
+![todo:image_alt_text](add-footer-to-multiple-documents_1.png)
 
 
 
-تتوفر الخيارات التالية أثناء إضافة إعداد التذييل:
+احصل على جميع ملفات Excel من مجلد مصدر البيانات وأنشئ جدول قائمة الملفات.
 
-**الجزء**
+اختيار ملف يحتاج إلى إضافة تذييل، انقر على زر **إضافة تذييل** لإضافة تذييل للملفات المحددة. 
 
-إضافة موضع التذييل: القسم الأيسر والقسم الأوسط والقسم الأيمن.
+![todo:image_alt_text](add-footer-to-multiple-documents_2.png)
+
+
+
+الخيارات التالية متاحة أثناء إعداد إضافة التذييل:
+
+**القسم**
+
+إضافة موضع تذييل: القسم الأيسر، القسم المركزي والقسم الأيمن.
 
 **نص التذييل**
 
-يمثل البرنامج النصي تنسيق التذييل. أوامر البرنامج النصي: الأمر | الوصف | & P رقم الصفحة الحالية | & N عدد الصفحات | & D التاريخ الحالي | & T الوقت الحالي & اسم الورقة & اسم الملف بدون مسار & "<FontName>"اسم الخط ، على سبيل المثال: &" Arial "&"<FontName>, <FontStyle>"اسم الخط ونمطه ، على سبيل المثال: &" Arial، Bold "&<FontSize>حجم الخط. إذا كان هذا الأمر متبوعًا برقم عادي ليتم طباعته في الرأس ، فسيتم فصله عن ارتفاع الخط بحرف مسافة. & G Image script على سبيل المثال: "& Arial، Bold & 8Footer Note".
+It represents Footer formatting script. Script commands: Command | Description| &P Current page number| &N Page count|&D Current date| &T Current time &A Sheet name &F File name without path &"<FontName>" Font name, for example: &"Arial" &"<FontName>, <FontStyle>" Font name and font style, for example: &"Arial,Bold" &<FontSize> Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. &G Image script For example: "&Arial,Bold&8Footer Note".

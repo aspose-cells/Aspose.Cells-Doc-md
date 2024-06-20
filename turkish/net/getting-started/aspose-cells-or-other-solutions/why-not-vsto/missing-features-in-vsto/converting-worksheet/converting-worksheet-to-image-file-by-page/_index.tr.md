@@ -1,28 +1,29 @@
-﻿---
-title: Çalışma Sayfasını Sayfaya Göre Görüntü Dosyasına Dönüştürme
+---
+title: Sayfa Başına Çalışsayısını Görüntü Dosyasına Dönüştürme
 type: docs
 weight: 10
 url: /tr/net/converting-worksheet-to-image-file-by-page/
 ---
-{{< highlight "csharp" >}}
 
- Çalışma kitabı kitabı = new Workbook("Sayfadan Görüntüye Sayfa.xls");
+{{< highlight csharp >}}
 
-Çalışma sayfası sayfası = kitap.Çalışma Sayfaları[0];
+ Workbook book = new Workbook("Sheet to Image by Page.xls");
 
-Aspose.Cells.Rendering.ImageOrPrintOptions seçenekleri = yeni Aspose.Cells.Rendering.ImageOrPrintOptions();
+Worksheet sheet = book.Worksheets[0];
 
-seçenekler.HorizontalResolution = 200;
+Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
+
+options.HorizontalResolution = 200;
 
 options.VerticalResolution = 200;
 
 options.ImageFormat = System.Drawing.Imaging.ImageFormat.Tiff;
 
-//Sheet2Image By Page dönüştürme
+//Sheet2Image By Page conversion
 
-SheetRender sr = yeni SheetRender(sayfa, seçenekler);
+SheetRender sr = new SheetRender(sheet, options);
 
- için (int j = 0; j< sr.PageCount; j++)
+for (int j = 0; j < sr.PageCount; j++)
 
 {
 
@@ -34,6 +35,6 @@ SheetRender sr = yeni SheetRender(sayfa, seçenekler);
 
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.image.file.by.Page.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Worksheet%20to%20image%20file%20by%20Page%20%28Aspose.Cells%29.zip)

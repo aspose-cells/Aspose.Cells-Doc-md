@@ -1,109 +1,112 @@
-﻿---
-title: Lista över funktioner som stöds
+---
+title: Lista över supporterade funktioner
 type: docs
 weight: 10
-url: /sv/net/list-of-supported-functions/
+url: /sv/net/aspose-cells-griddesktop/list-of-supported-functions/
+keywords: GridDesktop,functions,formula
+description: Den här artikeln introducerar de supporterade funktionerna i GridDesktop.
 ---
-## **Introduktion**
-Det finns många inbyggda funktioner som stöds av Aspose.Cells Grid Controls. Dessa funktioner tillhör följande kategorier:
 
-- **Matematiska funktioner** , tillhandahåller en enorm uppsättning funktioner som kan användas i många matematiska beräkningar
-- **Text- och datafunktioner** , tillhandahåller olika funktioner för att utföra olika typer av operationer på text och data
-- **Datum och tid funktioner** , ger några användbara funktioner relaterade till data och tid
-- **Logiska funktioner** , tillhandahåller en liten uppsättning logiska funktioner för att hantera vissa logiska operationer på data
+## **Introduktion**
+Det finns många inbyggda funktioner som stöds av Aspose.Cells.GridDesktop Control. Dessa funktioner tillhör följande kategorier:
+
+- **Matematiska funktioner**, ger en stor uppsättning funktioner som kan användas i talrika matematiska beräkningar
+- **Text- och datafunktioner**, ger olika funktioner för att utföra olika typer av operationer på text och data
+- **Datum- och tidsfunktioner**, ger några användbara funktioner relaterade till datum och tid
+- **Logiska funktioner**, ger en liten uppsättning logiska funktioner för att hantera logiska operationer på data
 ### **Matematiska funktioner**
-- TAK,COMBIN,COS,COSH,COUNTIF
-- GRADER
+- CEILING,COMBIN,COS,COSH,COUNTIF
+- DEGREES
 - EVEN,EXP
-- FAKTA, GOLV
+- FACT,FLOOR
 - INT
-- LN,LOGG,LOG10
+- LN,LOG,LOG10
 - MOD
-- UDDA
-- PI, POWER, PRODUKT
-- RADIANER, RAND, RUND, RUND NED, RUND UPP
-- TECKN, SYND, SINH
-- SQRT,SUM,SUMIF,SUMPRODUKT,SUMSQ,SUMX2MY2,SUMX2PY2,SUMXMY2
-- TAN, TANH, TRUNC
+- ODD
+- PI,POWER,PRODUCT
+- RADIANT, RAND, ROUND, ROUNDDOWN, ROUNDUP
+- SIGN,SIN,SINH
+- SQRT,SUM,SUMIF,SUMPRODUCT,SUMSQ,SUMX2MY2,SUMX2PY2,SUMXMY2
+- TAN,TANH,TRUNC
 ### **Text- och datafunktioner**
-- CHAR, CODE, CONCATENATE
+- CHAR,CODE,CONCATENATE
 - DOLLAR
-- EXAKT
-- HITTA, FAST
-- VÄNSTER, LÄNGA, LÄNDR
-- MITTEN
+- EXACT
+- FIND,FIXED
+- LEFT,LEN,LOWER
+- MID
 - MATCH
-- BYT, REPT, HÖGER
-- SÖK, ERSÄTT
-- T,TEXT, TRIM
-- ÖVRE
-- VÄRDE
-- SLÅ UPP
-- SÖK UPP
+- REPLACE,REPT,RIGHT
+- SEARCH,SUBSTITUTE
+- T,TEXT,TRIM
+- UPPER
+- VALUE
+- LOOKUP
+- VLOOKUP
 - WIDECHAR
-### **Datum och tid funktioner**
-- TIMME
-- MINUTT, MÅNAD
-- NU
-- ANDRA
-- TID, IDAG
-- VECKODAG
-- ÅR
+### **Datum- och tidsfunktioner**
+- HOUR
+- MINUTE,MONTH
+- NOW
+- SECOND
+- TIME,TODAY
+- WEEKDAY
+- YEAR
 ### **Logiska funktioner**
-- FALSK
-- OM
-- INTE
-- ELLER
-- SANN
+- FALSE
+- IF
+- NOT
+- OR
+- TRUE
 ### **Nya funktioner**
 - MIN
-- ROW (stöds i Aspose.Cells.Endast GridWeb)
-- ROW S (stöds i Aspose.Cells.Endast GridWeb)
-- KOLUMN (stöds i Aspose.Cells.Endast GridWeb)
-- KOLUMN S (stöds i Aspose.Cells.Endast GridWeb)
-- ADRESS (stöds i Aspose.Cells.Endast GridWeb)
+- ROW (Stöds endast i Aspose.Cells.GridWeb)
+- ROW S (Stöds endast i Aspose.Cells.GridWeb)
+- COLUMN (Stöds endast i Aspose.Cells.GridWeb)
+- COLUMN S (Stöds endast i Aspose.Cells.GridWeb)
+- ADRESS (Stöds endast i Aspose.Cells.GridWeb)
 - OFFSET
-- INDIREKT
+- INDIRECT
 - ISERR
 - ISNUMBER
-- RENA
+- CLEAN
 - RMB
-- DUBBEL FAKTA
+- FACTDOUBLE
 - GCD
 - LCM
 - MROUND
 - MULTINOMIAL
-- KVOT
-- MELLAN MELLAN
+- QUOTIENT
+- RANDBETWEEN
 - SERIESSUM
 - SQRTPI
-- DELSUMMA
-- RÄKNA
+- SUBTOTAL
+- COUNT
 - COUNTA
 - INDEX
 - CELL
 - MEDIAN
 - ERROR.TYPE
 - ISBLANK
-- FEL
-- ISLOGISKT
+- ISERROR
+- ISLOGICAL
 - ISNA
 - ISNONTEXT
 - ISTEXT
 - ISREF
 - N
 - NA
-- TYP
+- TYPE
 - COUNTBLANK
-- STOR
+- LARGE
 - MAXA
 - MINA
 - AVERAGEA
-- LÄGE
-- PERCENTIL
-- PROCENTRANK
-- RANG
-- VÄLJA
-- UPPSÖKNING
-- SMALL (Stöds i Aspose.Cells.Endast GridWeb)
+- MODE
+- PERCENTILE
+- PERCENTRANK
+- RANK
+- CHOOSE
+- HLOOKUP
+- SMÅ (Stöds endast i Aspose.Cells.GridWeb)
 

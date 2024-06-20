@@ -1,33 +1,34 @@
-﻿---
-title: Lägger till basinformation för tabell
+---
+title: Lägg till grundinformation för tabell
 type: docs
 weight: 20
 url: /sv/reportingservices/adding-base-information-for-table/
 ---
-Så här skapar du en ny tabell:
+
+För att skapa en ny tabell:
 
 1. Öppna Microsoft Excel.
-1.  Klick**Öppna Rapport** 
+1. Klicka på **Öppna rapport** 
 
 ![todo:image_alt_text](adding-base-information-for-table_1)
 
- `  `på verktygsfältet Aspose.Cells.Report.Designer för att öppna en RDL-rapportfil som innehåller de datakällor, datamängder och rapportparametrar som skapats i förväg. När filen väl har öppnats är all information tillgänglig för användning, till exempel listas dess datauppsättningar i den relevanta kombinationsrutan DataSet.
+`  `på verktygsfältet Aspose.Cells.Report.Designer för att öppna en RDL Rapportfil som innehåller de skapade datakällorna, dataseten och rapportparametrarna i förväg. När filen har öppnats framgångsrikt är all dess information tillgänglig för användning, till exempel listas dess dataset i den relevanta dataset-utmatningsrutan. 
 
 ![todo:image_alt_text](adding-base-information-for-table_2.png)
 
-1. Öppna ett Microsoft Excel-kalkylblad och designa tabellhuvudet enligt följande:
+1. Öppna ett Microsoft Excel-kalkylblad och utformar tabellhuvudet enligt följande: 
 
-   **Designa tabellhuvudet** 
+   **Utforma tabellhuvudet** 
 
 ![todo:image_alt_text](adding-base-information-for-table_3.png)
 
-1.  Välj en datauppsättning ”EmpSalesDetail” från relevant datauppsättningskombokontroll.
+1. Välj ett dataset ”EmpSalesDetail” från den relevanta dataset-utmatningsrutan. 
 
-   **Välja en datamängd** 
+   **Val av datauppsättning** 
 
 ![todo:image_alt_text](adding-base-information-for-table_4.png)
 
-1.  Alla fält i datasetet ”EmpSalesDetail” är listade i fältkombinationsrutan. Välj cellen under kolumnen OrderNumber Cell och välj sedan "SalesOrderNumber"-fältet från fältkombinationsrutan för att infoga en datamarkör i cellen.
+1. Alla fält i datasetet ”EmpSalesDetail” listas i fältrutan. Välj cellen under kolumnen för order nummer och välj sedan fältet ”SalesOrderNumber” från fältrutan för att infoga en datamarkör i cellen. 
 
    **Infoga ett fält** 
 
@@ -35,11 +36,11 @@ Så här skapar du en ny tabell:
 
 
 
-**Fältkoden visar var ett fält har infogats.** 
+**Fältkoden visar där ett fält har infogats.** 
 
 ![todo:image_alt_text](adding-base-information-for-table_6.png)
 
-1.  Upprepa steg 5 för att infoga ProdCat- och SubCat-fält.
+1. Upprepa steg 5 för att infoga fälten ProdCat och SubCat. 
 
    **Alla fält infogade** 
 

@@ -1,14 +1,15 @@
-﻿---
+---
 title: Convertir CSV, TSV et TXT en Excel
 type: docs
 weight: 50
 url: /fr/java/convert-csv-tsv-and-txt-to-excel/
 ---
+
 ## **Ouverture des fichiers CSV**
 
-Les fichiers de valeurs séparées par des virgules (CSV) contiennent des enregistrements dont les valeurs sont délimitées ou séparées par des virgules. Dans les fichiers CSV, les données sont stockées dans un format tabulaire dont les champs sont séparés par une virgule et entre guillemets. Si la valeur d'un champ contient un guillemet double, elle est échappée avec une paire de guillemets doubles. Vous pouvez également utiliser Microsoft Excel pour exporter vos données de feuille de calcul vers un fichier CSV.
+Les fichiers de valeurs séparées par des virgules (CSV) contiennent des enregistrements dont les valeurs sont délimitées ou séparées par des virgules. Dans les fichiers CSV, les données sont stockées dans un format tabulaire qui a des champs séparés par le caractère virgule et mis entre guillemets par le caractère double quote. Si la valeur d'un champ contient un double guillemet, elle est échappée avec une paire de double guillemets. Vous pouvez également utiliser Microsoft Excel pour exporter les données de votre feuille de calcul vers un fichier CSV.
 
-Pour ouvrir les fichiers CSV, utilisez le**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** classe et sélectionnez la**[CSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)** valeur, prédéfinie dans le**[ChargerFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**énumération.
+Pour ouvrir des fichiers CSV, utilisez la classe [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) et sélectionnez la valeur [**CSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV), prédéfinie dans l'énumération [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 ## **Exemple**
 
@@ -16,19 +17,19 @@ Pour ouvrir les fichiers CSV, utilisez le**[LoadOptions](https://reference.aspos
 
 ### **Ouverture des fichiers CSV et remplacement des caractères invalides**
 
-Dans Excel, lorsque le fichier CSV avec des caractères spéciaux est ouvert, les caractères sont automatiquement remplacés. La même chose est faite par Aspose.Cells API qui est démontré dans l'exemple de code ci-dessous.
+Dans Excel, lorsqu'un fichier CSV avec des caractères spéciaux est ouvert, les caractères sont automatiquement remplacés. Il en va de même pour l'API Aspose.Cells qui est démontrée dans l'exemple de code ci-dessous.
 
 #### **Exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesAndReplacingInvalidCharacters-1.java" >}}
 
-## **Ouverture de fichiers CSV à l'aide de l'analyseur préféré**
+## **Ouverture des fichiers CSV en utilisant un analyseur préféré**
 
-Il n'est pas toujours nécessaire d'utiliser les paramètres d'analyseur par défaut pour ouvrir les fichiers CSV. Parfois, l'importation du fichier CSV ne crée pas la sortie attendue, car le format de date n'est pas celui attendu ou les champs vides sont traités différemment. Dans ce but**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**est disponible pour fournir son propre analyseur préféré pour analyser différents types de données selon les besoins. L'exemple de code suivant illustre l'utilisation de l'analyseur préféré.
+Ce n'est pas toujours nécessaire d'utiliser les paramètres de l'analyseur par défaut pour ouvrir les fichiers CSV. Parfois, l'importation d'un fichier CSV ne crée pas la sortie attendue, comme le format de date n'est pas tel qu'attendu ou les champs vides sont gérés différemment. Dans ce but, [**TxtLoadOptions.PreferredParsers**](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers) est disponible pour fournir son propre analyseur préféré pour analyser différents types de données selon les besoins. Le code d'exemple suivant illustre l'utilisation de l'analyseur préféré.  
 
-Des exemples de fichiers source et de sortie peuvent être téléchargés à partir des liens suivants pour tester cette fonctionnalité.
+Le fichier source d'échantillon et les fichiers de sortie peuvent être téléchargés aux liens suivants pour tester cette fonctionnalité.
 
-[exemplePreferredParser.csv](samplePreferredParser.csv)
+[samplePreferredParser.csv](samplePreferredParser.csv)
 
 [outputsamplePreferredParser.xlsx](outputsamplePreferredParser.xlsx)
 
@@ -36,17 +37,17 @@ Des exemples de fichiers source et de sortie peuvent être téléchargés à par
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesWithPreferredParser-1.java" >}}
 
-### **Ouverture de fichiers TSV (délimités par des tabulations)**
+### **Ouverture des fichiers TSV (Séparé par des tabulations)**
 
-Les fichiers délimités par des tabulations contiennent des données de feuille de calcul mais sans aucune mise en forme. Les données sont organisées en lignes et en colonnes telles que des tableaux et des feuilles de calcul. En bref, un fichier délimité par des tabulations est un type spécial de fichier texte brut avec une tabulation entre chaque colonne du texte.
+Les fichiers tabulés contiennent des données de feuilles de calcul mais sans mise en forme. Les données sont disposées en lignes et colonnes comme des tableaux et des feuilles de calcul. Bref, un fichier tabulé est un type spécial de fichier texte simple avec une tabulation entre chaque colonne dans le texte.
 
-Pour ouvrir des fichiers délimités par des tabulations, les développeurs doivent utiliser le**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** classe et sélectionnez la**[TSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)** valeur, prédéfinie dans le**[ChargerFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**énumération.
+Pour ouvrir des fichiers tabulés, les développeurs doivent utiliser la classe [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) et sélectionner la valeur [**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV), prédéfinie dans l'énumération [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 ## **Exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningTabDelimitedFiles-OpeningTabDelimitedFiles.java" >}}
 
 ## **Sujets avancés**
-- [Charger ou importer le fichier CSV avec des formules](/cells/fr/java/load-or-import-csv-file-with-formulas/)
-- [Coupez les premières lignes et colonnes vides lors de l'exportation des feuilles de calcul au format CSV](/cells/fr/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+- [Charger ou importer un fichier CSV avec des formules](/cells/fr/java/load-or-import-csv-file-with-formulas/)
+- [Supprimer les lignes et colonnes vides en tête lors de l'exportation de feuilles de calcul au format CSV](/cells/fr/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 

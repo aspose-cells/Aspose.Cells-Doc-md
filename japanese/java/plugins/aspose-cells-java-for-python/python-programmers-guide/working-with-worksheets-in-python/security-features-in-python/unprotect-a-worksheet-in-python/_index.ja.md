@@ -1,19 +1,20 @@
-﻿---
-title: Python のワークシートの保護を解除する
+---
+title: Pythonでワークシートの保護を解除する
 type: docs
 weight: 20
 url: /ja/java/unprotect-a-worksheet-in-python/
 ---
+
 ## **Aspose.Cells - ワークシートの保護を解除する**
-を使用してワークシートを保護するには**Aspose.Cells Java for Python**、 電話**unprotect_worksheet**方法**保護**モジュール。
+**Aspose.Cells Java for Python**を使用してワークシートを保護解除するには、**protection**モジュールの**unprotect_worksheet**メソッドを呼び出します。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  filesFormatType = self.FileFormatType
 
-# Instantiating a Workbook object
+#Instantiating a Workbook object
 
 workbook = self.Workbook(self.dataDir + "Book1.xls")
 
@@ -23,7 +24,7 @@ worksheet = worksheets.get(0)
 
 protection = worksheet.getProtection()
 
-# The following 3 methods are only for Excel 2000 and earlier formats
+#The following 3 methods are only for Excel 2000 and earlier formats
 
 protection.setAllowEditingContent(False)
 
@@ -31,7 +32,7 @@ protection.setAllowEditingObject(False)
 
 protection.setAllowEditingScenario(False)
 
-# Unprotecting the worksheet
+#Unprotecting the worksheet
 
 worksheet.unprotect()
 
@@ -39,12 +40,12 @@ worksheet.unprotect()
 
 workbook.save(self.dataDir + "output.xls", filesFormatType.EXCEL_97_TO_2003)
 
-# Print Message
+#Print Message
 
 print "Worksheet unprotected successfully."
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートの保護を解除する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**ワークシートの保護を解除する（Aspose.Cells）**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

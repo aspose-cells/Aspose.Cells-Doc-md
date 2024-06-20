@@ -1,16 +1,17 @@
-﻿---
-title: كشف الدمج Cells باستخدام Aspose.Cells
+---
+title: الكشف عن الخلايا المدمجة باستخدام Aspose.Cells
 type: docs
 weight: 30
 url: /ar/java/detect-merged-cells-using-aspose-cells/
 ---
-## **Aspose.Cells - كشف مدمج Cells**
-في Microsoft Excel ، يمكن دمج عدة خلايا في خلية واحدة. يُستخدم هذا غالبًا لإنشاء جداول معقدة ، أو لإنشاء خلية تحتوي على عنوان يمتد على عدة أعمدة.
-Aspose.Cells يسمح لك بتعريف مساحات الخانات المدمجة في ورقة العمل. يمكنك إلغاء دمجهم أيضًا.
+
+## **Aspose.Cells - كشف الخلايا المدمجة**
+في Microsoft Excel، يمكن دمج العديد من الخلايا في خلية واحدة. ويتم ذلك غالبًا لإنشاء جداول معقدة، أو لإنشاء خلية تحتوي على عنوان يمتد عبر عدة أعمدة.
+تسمح Aspose.Cells لك بتحديد مناطق الخلايا المدمجة في ورقة العمل. يمكنك أيضًا فك دمجها.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the merged cells list to put it into the arraylist object
 
@@ -53,14 +54,14 @@ for(int i = al.size()-1 ; i > -1; i--)
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل رمز التشغيل**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDetectMergeCells.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDetectMergeCells.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[كشف Cells مدمج في ورقة عمل](/cells/ar/java/detect-merged-cells-in-a-worksheet).
+لمزيد من التفاصيل، قم بزيارة [كشف الخلايا المدمجة في ورقة عمل](/cells/ar/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}

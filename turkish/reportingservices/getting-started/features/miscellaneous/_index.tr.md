@@ -1,17 +1,18 @@
-﻿---
+---
 title: Çeşitli
 type: docs
 weight: 50
 url: /tr/reportingservices/miscellaneous/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services'in bazı etkili özellikleri aşağıda listelenmiştir.
+Aspose.Cells for Reporting Services'ün bazı etkili özellikleri aşağıda listelenmiştir
 
-- Aspose.Cells for Reporting Services, gruplandırılmış satırları ve alt bilgileri olan tabloları destekler. Satırların ve altbilgilerin gruplandırılması, diğer rapor öğeleri gibi tasarım sırasında ayarlanabilir.
-- Aspose.Cells for Reporting Services, rapor veri kaynakları olarak parametreleri ve genel değişkenleri destekler.
-- Kullanıcılar, veri kaynakları ve sorgular oluşturmak için Microsoft Sorgu'yu kullanabilir. Microsoft Sorgu, çoğu kullanıcının bilmesi ve aşina olması gereken, yaygın olarak kullanılan bir araçtır.
-- Aspose.Cells for Reporting Services, hem rapora özel veri kaynaklarını hem de önceden Rapor Sunucusunda oluşturulan paylaşılan veri kaynaklarını destekler. Ayrıca, rapor yayınlanırken rapora özel veri kaynaklarının tasarım aşamasında kullanılması ve paylaşılan veri kaynaklarının rapor veri kaynağı olarak belirtilmesi mümkündür.
-- Raporlama Hizmeti için Aspose.Cells, Microsoft Raporlama Hizmetleri ile sorunsuz bir şekilde entegre edilmiştir ve böylece kullanıcılar, Raporlama Hizmetlerinin rapor yönetimi, güvenlik ve teslimat seçeneklerinden tam olarak yararlanabilir.
+- Aspose.Cells for Reporting Services, gruplanmış satırlara ve altbilgilere sahip tabloları destekler. Satırların ve altbilgilerin gruplanması tasarım zamanında diğer rapor öğeleri gibi kurulabilir.
+- Aspose.Cells for Reporting Services, rapor veri kaynakları olarak parametreleri ve global değişkenleri destekler.
+- Kullanıcılar, veri kaynakları ve sorgular oluşturmak için Microsoft Sorgusu'nu kullanabilirler. Microsoft Sorgusu, çoğu kullanıcının aşina olması ve bilmesi gereken yaygın bir araçtır.
+- Aspose.Cells for Reporting Services, rapora özgü veri kaynakları ve önceden oluşturulmuş Rapor Sunucusu'ndaki paylaşılan veri kaynaklarını destekler. Dahası, tasarım zamanında rapora özgü veri kaynakları kullanmak ve raporu yayınlarken paylaşılan veri kaynaklarını rapor veri kaynakları olarak belirtmek mümkündür.
+- Aspose.Cells for Reporting Service, Microsoft Reporting Services ile sorunsuz bir şekilde entegre edilmiştir, bu sayede kullanıcılar Raporlama Hizmetlerinin rapor yönetimi, güvenliği ve iletim seçeneklerinden tam olarak faydalanabilirler.
 
 {{% /alert %}}

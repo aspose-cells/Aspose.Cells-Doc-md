@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Cells Использование шрифта
+---
+title: Использование шрифта Aspose.Cells
 type: docs
 weight: 100
 url: /ru/java/aspose-cells-font-usage/

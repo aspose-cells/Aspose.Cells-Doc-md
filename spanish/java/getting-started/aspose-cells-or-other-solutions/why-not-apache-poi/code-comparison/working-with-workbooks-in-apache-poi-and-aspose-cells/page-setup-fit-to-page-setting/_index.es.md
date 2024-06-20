@@ -1,15 +1,16 @@
-﻿---
-title: Configuración de página - Ajustar a configuración de página
+---
+title: Configuración de página  Ajuste a configuración de página
 type: docs
 weight: 30
 url: /es/java/page-setup-fit-to-page-setting/
 ---
-## **Aspose.Cells - Configurar página - Ajustar a configuración de página**
-Para ajustar el contenido de la hoja de trabajo a un número específico de páginas, use el[Configuración de página](/cells/es/java/page-setup-fit-to-page-setting/)métodos setFitToPagesTall y setFitToPagesWide de la clase. Estos métodos también se utilizan para escalar hojas de cálculo.
+
+## **Aspose.Cells - Configuración de página - Ajuste a configuración de página**
+Para adaptar el contenido de la hoja de cálculo a un número específico de páginas, utilice los métodos setFitToPagesTall y setFitToPagesWide de la clase [PageSetup](/cells/es/java/page-setup-fit-to-page-setting/). Estos métodos también se utilizan para ajustar las hojas de cálculo.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -36,12 +37,12 @@ pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF y XSSF - Configuración de página - Configuración de ajuste a página**
-Apache POI SS utiliza los métodos setFitHeight y setFitWidth para ajustar la configuración de la página.
+## **Apache POI SS - HSSF & XSSF - Configuración de página - Ajuste a configuración de página**
+Apache POI SS utiliza los métodos setFitHeight y setFitWidth para la configuración de ajuste a página.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();  //or new HSSFWorkbook();
 
@@ -56,13 +57,13 @@ ps.setFitHeight((short) 1);
 ps.setFitWidth((short) 1);
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/fittoonepage)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Configuración de opciones de página](http://www.aspose.com/docs/display/cellsjava/Setting+Page+Options).
+Para obtener más detalles, visita [Configuración de opciones de página](http://www.aspose.com/docs/display/cellsjava/Setting+Page+Options).
 
 {{% /alert %}}

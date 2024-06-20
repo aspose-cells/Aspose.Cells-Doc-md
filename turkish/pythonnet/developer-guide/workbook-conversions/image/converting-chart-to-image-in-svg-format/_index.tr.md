@@ -1,22 +1,23 @@
 ---
-title: Grafiği SVG Formatındaki Resme Dönüştürme
+title: SVG Formatında Görüntüye Grafik Dönüştürme
 type: docs
 weight: 240
 url: /tr/python-net/converting-chart-to-image-in-svg-format/
-description: Aspose.Cells for Python via .NET API kullanarak Grafiği SVG Formatında Resme Dönüştürme.
-keywords: Python Convert Chart to Image in SVG Format, Export Chart to Image in SVG Format in Python via NET, Python Save Chart to Image in SVG Format.
+description: Aspose.Cells for Python via .NET API sını kullanarak Grafiği SVG Biçiminde Görüntüye Dönüştürme.
+keywords: Python da Grafiği SVG Biçiminde Görüntüye Dönüştürme, Python da Grafiği SVG Biçiminde Görüntüye Dönüştürme, SVG Biçiminde Grafiği Görüntüye Dışa Aktarın Python via NET, Python da Grafiği Görüntüye Kaydetme SVG Biçiminde.
 ---
+
 {{% alert color="primary" %}} 
 
-Ölçeklenebilir Vektör Grafikleri (SVG), etkileşimi ve animasyonu da destekleyen, iki boyutlu grafiklere yönelik XML tabanlı bir vektör görüntü formatıdır. SVG spesifikasyonu, 1999'dan beri World Wide Web Konsorsiyumu (W3C) tarafından geliştirilen açık bir standarttır.
+Ölçeklenebilir Vektör Grafikleri (SVG), aynı zamanda etkileşimliliği ve animasyonu destekleyen iki boyutlu grafikler için XML tabanlı bir vektör görüntü formatıdır. SVG belirtmesi, 1999'dan beri World Wide Web Consortium (W3C) tarafından geliştirilen açık bir standarttır.
 
-SVG görseller ve davranışları XML metin dosyalarında tanımlanmıştır. Bu, bunların aranabileceği, dizine eklenebileceği, komut dosyası oluşturulabileceği ve sıkıştırılabileceği anlamına gelir. XML dosyaları olarak SVG görseller herhangi bir metin düzenleyiciyle oluşturulabilir ve düzenlenebilir, ancak daha çok çizim yazılımıyla oluşturulur.
+SVG görüntüleri ve davranışları, XML metin dosyalarında tanımlanır. Bu, aranabilir, dizine eklenir, betiklenir ve sıkıştırılabilir anlamına gelir. XML dosyaları olarak, SVG görüntüleri herhangi bir metin düzenleyici ile oluşturulabilir ve düzenlenebilir, ancak genellikle çizim yazılımı ile oluşturulur.
 
-Aspose.Cells for Python via .NET, grafiği BMP, JPEG, PNG, GIF, SVG vb. gibi çeşitli formatlardaki resimlere kaydedebilir. Bu makalede bir grafiğin SVG formatına nasıl kaydedileceği açıklanmaktadır.
+Aspose.Cells for Python via .NET, BMP, JPEG, PNG, GIF, SVG vb. gibi çeşitli biçimlerde grafikleri görüntü dosyasına kaydedebilir. Bu makale SVG biçimine bir grafiği nasıl kaydedeceğinizi açıklar.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kodda, bir grafiği SVG biçimindeki bir görüntüye dönüştürmek için Aspose.Cells for Python via .NET'in nasıl kullanılacağı açıklanmaktadır. Kod, kaynak Microsoft Excel dosyasını yükler ve ardından ilk çalışma sayfasında bulunan ilk grafiği SVG'e kaydeder.
+Aşağıdaki örnek kod, Aspose.Cells for Python via .NET'yi kullanarak bir grafiği SVG biçimine dönüştürmenin nasıl yapıldığını açıklar. Kod, kaynak Microsoft Excel dosyasını yükler ve ardından ilk çalışma sayfasında bulunan ilk grafiği SVG biçimine kaydeder.
 
 
 

@@ -1,16 +1,17 @@
-﻿---
+---
 title: Mostrar u ocultar barras de desplazamiento en Ruby
 type: docs
 weight: 30
 url: /es/java/display-or-hide-scroll-bars-in-ruby/
 ---
-## **Aspose.Cells - Mostrar u ocultar barras de desplazamiento**
-### **Ocultar barras de desplazamiento**
- Para ocultar las barras de desplazamiento usando**Aspose.Cells Java para rubí** , llamada**mostrar ocultar barras de desplazamiento** módulo.
 
-**código rubí**
+## **Aspose.Cells - Mostrar u Ocultar Barras de Desplazamiento**
+### **Ocultar Barras de Desplazamiento**
+Para ocultar las Barras de Desplazamiento utilizando **Aspose.Cells Java para Ruby**, llame al módulo **displayhidescrollbars**.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -33,12 +34,12 @@ workbook.save(data_dir + "output.xls")
 puts "Scroll Bars are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Haciendo visibles las barras de desplazamiento**
-Haga visibles las barras de desplazamiento configurando los métodos setVerticalScrollBarHidden() o setHorizontalScrollBarHidden() de la clase Workbook en verdadero.
+### **Hacer visibles las Barras de Desplazamiento**
+Hacer visibles las barras de desplazamiento configurando los métodos setVerticalScrollBarHidden() o setHorizontalScrollBarHidden() de la clase Workbook en true.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the vertical scroll bar of the Excel file
 
@@ -49,7 +50,7 @@ workbook.getSettings().setVScrollBarVisible(true)
 workbook.getSettings().setHScrollBarVisible(true)
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Mostrar u ocultar barras de desplazamiento (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Mostrar u Ocultar Barras de Desplazamiento (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidescrollbars.rb)

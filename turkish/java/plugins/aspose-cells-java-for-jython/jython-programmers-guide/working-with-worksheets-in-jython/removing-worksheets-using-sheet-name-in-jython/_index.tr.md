@@ -1,15 +1,16 @@
-﻿---
-title: Jython'da Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma
+---
+title: Jython kullanarak Çalışan Kodu İndirme ve Ekleme
 type: docs
 weight: 120
 url: /tr/java/removing-worksheets-using-sheet-name-in-jython/
 ---
-## **Aspose.Cells - Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma**
- Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
+
+## **Aspose.Cells - Çalışan Kodu İndirme ve Ekleme**
+**Aspose.Cells Java for Jython** ile belgeler eklemek için. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -56,6 +57,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belgeleri Ekleyin (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Append Documents (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/RemovingWorksheetsusingSheetName.py)

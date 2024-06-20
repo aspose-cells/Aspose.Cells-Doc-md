@@ -1,15 +1,16 @@
-﻿---
+---
 title: xlsx4j で小計を計算する
 type: docs
 weight: 10
 url: /ja/java/calculate-sub-totals-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - 小計の計算**
-スプレッドシートで繰り返される値の小計を自動的に作成できます。 Aspose.Cells は、小計をプログラムでスプレッドシートに追加するのに役立つ API 機能を提供します。
+スプレッドシート内の繰り返し値に自動的に小計を作成できます。Aspose.Cellsには、スプレッドシートに小計をプログラムで追加するのに役立つAPI機能が備わっています。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,20 +36,20 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[]{ 1 });
+cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 
 //Save the excel file
 
 workbook.save(dataDir + "AsposeTotal.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/calculatesubtotals/AsposeCalculateSubTotals.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[小計の作成](/cells/ja/java/creating-subtotals).
+詳細については、[小計の作成](/cells/ja/java/creating-subtotals) をご覧ください。
 
 {{% /alert %}}

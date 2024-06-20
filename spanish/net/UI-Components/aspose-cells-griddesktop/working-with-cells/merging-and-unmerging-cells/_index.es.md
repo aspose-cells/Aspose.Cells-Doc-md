@@ -1,35 +1,38 @@
-﻿---
-title: Fusionar y anular la fusión de Cells en GridDesktop
-linktitle: Fusión y desfusión Cells
+---
+title: Fusionar y Desfusionar Celdas en GridDesktop
+linktitle: Fusionar y Desfusionar Celdas
 type: docs
 weight: 90
-url: /es/net/merging-and-unmerging-cells-griddesktop/
+url: /es/net/aspose-cells-griddesktop/merge-and-unmerge-cells-griddesktop/
+keywords: GridDesktop, fusionar, desfusionar
+description: Este artículo presenta la fusión y desfusión en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-En este tema, discutiremos una función de utilidad de fusionar y desfusionar celdas de una hoja de trabajo. Esta función es útil en aquellos casos en los que necesitamos expandir algunas filas o columnas para mejorar la legibilidad de los datos.
+En este tema, discutiremos una función de utilidad para fusionar y desfusionar celdas de una hoja de cálculo. Esta función es útil en aquellos casos en los que necesitamos abarcar algunas filas o columnas para mejorar la legibilidad de los datos.
 
 {{% /alert %}} 
-## **Fusionando Cells**
-Para fusionar celdas en una sola celda grande, siga los pasos a continuación:
+## **Fusionar Celdas**
+Para fusionar celdas en una sola celda grande, siga los siguientes pasos:
 
--  Accede a cualquier deseado**Hoja de cálculo**
--  Crear un**Rango de Cells** ser fusionado
-- **Unir** el rango de celdas en una celda grande
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Cree un **Rango de Celdas** para fusionar
+- **Fusione** el rango de celdas en una celda grande
 
- Puedes usar**Unir** método de**Hoja de cálculo** para fusionar celdas. Sin embargo, se puede definir un rango de celdas usando**rango de celdas** objeto.
+Puede utilizar el método **Fusionar** de **Hoja de Cálculo** para fusionar celdas. Sin embargo, se puede definir un rango de celdas utilizando el objeto **CellRange**.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-MergingAndUnMergingCells-MergeCells.cs" >}}
-## **Separación Cells**
-Para separar una celda grande en muchas celdas, siga los pasos a continuación:
+## **Desfusionar Celdas**
+Para desfusionar una celda grande en muchas celdas, siga los siguientes pasos:
 
--  Accede a cualquier deseado**Hoja de cálculo**
-- Acceda a la celda fusionada que necesita ser desfusionada
-- **Separar** la celda grande en muchas celdas usando la ubicación de la celda combinada
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Acceda a la celda fusionada que necesita desfusionarse
+- **Desfusione** la celda grande en muchas celdas utilizando la ubicación de la celda fusionada
 
- Puedes usar**Separar** método de**Hoja de cálculo** para separar una celda usando su ubicación.
+Puede utilizar el método **Unmerge** de **Worksheet** para descombinar una celda usando su ubicación.
 
 
 
@@ -37,6 +40,6 @@ Para separar una celda grande en muchas celdas, siga los pasos a continuación:
 
 {{% alert color="primary" %}} 
 
-Cuando combina celdas en una sola celda, la configuración de formato de la celda superior izquierda (en el rango de celdas) se aplica en la celda combinada, pero cuando la celda no se combina, todas las celdas no combinadas mantienen su configuración de formato.
+Cuando combinas celdas en una sola celda, se aplican los ajustes de formato de la celda superior izquierda (en el rango de celdas) a la celda combinada, pero cuando se descombina la celda, todas las celdas descombinadas mantienen sus ajustes de formato.
 
 {{% /alert %}}

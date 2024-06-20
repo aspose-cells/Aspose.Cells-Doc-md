@@ -1,14 +1,15 @@
-﻿---
-title: Aspose.Cells を使用してテキストを列に変換します
+---
+title: Aspose.Cellsを使用したテキストを列に変換する
 type: docs
 weight: 70
 url: /ja/java/convert-text-to-columns-using-aspose-cells/
 ---
-## **考えられる使用シナリオ**
-Microsoft Excel を使用して、テキストを列に変換できます。この機能は、*データ ツール*下*データ*タブ。列の内容を複数の列に分割するには、Microsoft Excel がセルの内容を複数のセルに分割するためのコンマ (またはその他の文字) などの特定の区切り文字をデータに含める必要があります。 Aspose.Cells もこの機能を提供しています[TextToColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#textToColumns\(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions\)） 方法。
-## **Aspose.Cells を使用してテキストを列に変換します**
-次のサンプル コードは、[TextToColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#textToColumns\(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions\)） 方法。このコードは、まず、最初のワークシートの列 A に何人かの人の名前を追加します。姓と名はスペース文字で区切られています。次に、[TextToColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#textToColumns\(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions\) ) メソッドを列 A に適用し、出力 Excel ファイルとして保存します。開くと[出力エクセルファイル](25395230.xlsx)、このスクリーンショットに示すように、名は列 A にあり、姓は列 B にあることがわかります。
 
-![todo:画像_代替_文章](convert-text-to-columns-using-aspose-cells_1.png)
+## **可能な使用シナリオ**
+Microsoft Excelを使用してデータツールの*データ*タブの下から、テキストを列に変換することが可能です。1つのセルの内容を複数のセルに分割するには、Microsoft Excelがセルの内容を複数のセルに分割するために利用するカンマ（または任意の文字）などの特定のデリミタがデータに含まれている必要があります。Aspose.Cellsも[TextToColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#textToColumns\(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions\)) メソッドを介してこの機能を提供します。
+## **Aspose.Cellsを使用したテキストを列に変換する**
+以下のサンプルコードは、[TextToColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#textToColumns\(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions\)) メソッドの使用方法を説明しています。コードはまず、最初のワークシートの列Aにいくつかの人の名前を追加します。名前の頭と名字はスペースで区切られています。そして、[TextToColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#textToColumns\(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions\)) メソッドを列Aに適用し、出力エクセルファイルとして保存します。[出力されたエクセルファイル](25395230.xlsx)を開くと、名前が列Aに、姓が列Bに入っているのが確認できます。
+
+![todo:image_alt_text](convert-text-to-columns-using-aspose-cells_1.png)
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-ConvertTexttoCols-ConvertTexttoCols.java" >}}

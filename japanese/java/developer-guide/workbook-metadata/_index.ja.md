@@ -1,18 +1,19 @@
-﻿---
-title: WorkbookMetadata の使用
-linktitle: ワークブックのメタデータ
+---
+title: WorkbookMetadataの使用
+linktitle: ワークブックメタデータ
 type: docs
 weight: 390
 url: /ja/java/using-workbookmetadata/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells を使用すると、ワークブックの軽量バージョンをメモリに読み込んで、そのメタデータ情報を編集できます。をご利用ください[com.aspose.cells.WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata)ワークブックをロードするクラス。
+Aspose.Cellsでは、ワークブックの軽量バージョンをメモリに読み込んでメタデータ情報を編集することができます。[com.aspose.cells.WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata)クラスを使用してワークブックをロードしてください。
 
 {{% /alert %}} 
-## **WorkbookMetadata の使用**
-次のサンプル コードでは、[ワークブックのメタデータ](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata)ワークブックのカスタム ドキュメント プロパティを編集するためのクラス。を使用してワークブックを開くと、[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)クラスで、ドキュメントのプロパティを読み取ることができます。
+## **ワークブックメタデータを使用**
+[WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata)クラスを使用してワークブックのカスタムドキュメントプロパティを編集するサンプルコードを以下に示します。[Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)クラスを使用してワークブックを開くと、ドキュメントプロパティを読むことができます。
 
-を使ったサンプルコードはこちら[ワークブックのメタデータ](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata)クラス。
+[WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata)クラスを使用したサンプルコードを以下に示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingWorkbookMetadata-UsingWorkbookMetadata.java" >}}

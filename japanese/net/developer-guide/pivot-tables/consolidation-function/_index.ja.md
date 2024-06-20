@@ -1,14 +1,15 @@
-﻿---
-title: 連結機能
+---
+title: 統合機能
 type: docs
 weight: 20
 url: /ja/net/consolidation-function/
 ---
-## **連結機能**
 
-Aspose.Cells を使用して、ConsolidationFunction をピボット テーブルのデータ フィールド (または値フィールド) に適用できます。 Microsoft Excel では、値フィールドを右クリックして、**値フィールドの設定...**オプションを選択し、タブを選択します**値の集計基準**.そこから、Sum、Count、Average、Max、Min、Product、Distinct Count などの任意の ConsolidationFunction を選択できます。
+## **統合機能**
 
-Aspose.Cells提供[**連結機能**](https://reference.aspose.com/cells/net/aspose.cells/consolidationfunction)次の連結関数をサポートするための列挙。
+Aspose.Cellsを使用して、ピボットテーブルのデータフィールド（または値フィールド）に統合機能を適用できます。Microsoft Excelにおいては、値フィールドを右クリックし、 **「値フィールドの設定...」** を選択し、その後 **「値の集計方法」** タブを選択します。そこから、合計、カウント、平均、最大値、最小値、積、重複排除のような任意の統合機能を選択できます。
+
+Aspose.Cellsは、次の統合機能をサポートするための[**ConsolidationFunction**](https://reference.aspose.com/cells/net/aspose.cells/consolidationfunction)列挙型を提供します。
 
 - ConsolidationFunction.Average
 - ConsolidationFunction.Count
@@ -23,14 +24,14 @@ Aspose.Cells提供[**連結機能**](https://reference.aspose.com/cells/net/aspo
 - ConsolidationFunction.Var
 - ConsolidationFunction.Varp
 
-### **ConsolidationFunction をピボット テーブルのデータ フィールドに適用する**
+### **ピボットテーブルのデータフィールドに統合機能を適用する**
 
-次のコードが適用されます**平均**連結関数を最初のデータ フィールド (または値フィールド) に適用し、**DistinctCount** 2 番目のデータ フィールド (または値フィールド) への連結関数。
+次のコードは、最初のデータフィールド（または値フィールド）に **平均** の統合機能を適用し、2番目のデータフィールド（または値フィールド）に **重複排除** の統合機能を適用します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ConsolidationFunctions-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-DistinctCount 連結関数は、Microsoft Excel 2013 のみでサポートされています。
+重複排除の統合機能は、Microsoft Excel 2013でのみサポートされています。
 
 {{% /alert %}}

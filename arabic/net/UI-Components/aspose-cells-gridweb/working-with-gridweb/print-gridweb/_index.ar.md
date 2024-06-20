@@ -1,16 +1,19 @@
-﻿---
+---
 title: طباعة GridWeb
 type: docs
 weight: 90
-url: /ar/net/print-gridweb/
+url: /ar/net/aspose-cells-gridweb/print-gridweb/
+keywords: GridWeb,print
+description: يقدم هذا المقال كيفية الطباعة في GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-هناك أوقات يحتاج فيها المطورون إلى طباعة محتويات GridWeb من صفحة ويب دون حفظ النتيجة كملف جدول بيانات Excel Microsoft. يدعم عنصر التحكم Aspose.Cells.GridWeb هذه الميزة عبر وظيفة جانب العميل.
+هناك أوقات يحتاج فيها المطورون إلى طباعة محتويات GridWeb من صفحة ويب دون حفظ النتيجة كملف جدول بيانات Excel من مايكروسوفت. يدعم تحكم Aspose.Cells.GridWeb هذه الميزة من خلال وظيفة الجانب العميل.
 
 {{% /alert %}} 
 ## **طباعة GridWeb**
-لطباعة المحتويات ، كشف Aspose.Cells.GridWeb for .NET وظيفة جانب العميل GridWeb.Print التي يمكن استخدامها في استدعاء JavaScript كما هو موضح أدناه.
+لطباعة المحتويات، فقد قامت Aspose.Cells.GridWeb for .NET بتعريض وظيفة GridWeb.Print الجانب العميل والتي يمكن استخدامها في استدعاء JavaScript كما هو موضح أدناه.
 
 
 
@@ -18,7 +21,7 @@ url: /ar/net/print-gridweb/
 
 
 
-بمجرد تشغيل وظيفة JavaScript ، يمكن تشغيلها في أي حدث تختاره. يرجى التحقق من مقتطف ASP.NET التالي الذي يستخدم وظيفة JavaScript المحددة أعلاه في حدث النقر فوق الزر.
+بمجرد توفر وظيفة JavaScript، يمكن تنشيطها في أي حدث اختياري. يُرجى التحقق من قصاصة الكود ASP.NET التالية التي تستخدم الوظيفة JavaScript المعرفة أعلاه في حدث النقر فوق الزر.
 
 
 

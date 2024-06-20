@@ -1,30 +1,31 @@
-﻿---
-title: Buscar y reemplazar datos en un rango
+---
+title: Buscar y Reemplazar Datos en un Rango
 type: docs
 weight: 60
 url: /es/java/search-and-replace-data-in-a-range/
-description: Este artículo muestra cómo buscar y reemplazar datos en un rango en Excel usando el código Java.
-keywords: java search and replace data in excel, java search data in excel, java search and replace data in a range, java search data in a range, java searching data in a range, java searching data in range, java searching data in excel, java search data in range, search and replace data in excel with java, search and replace data in a range with java, search and replace data in range with java
+description: Este artículo muestra cómo buscar y reemplazar datos en un rango en Excel usando código Java.
+keywords: java buscar y reemplazar datos en excel, java buscar datos en excel, java buscar y reemplazar datos en un rango, java buscar datos en un rango, java búsqueda de datos en un rango, java búsqueda de datos en rango, java búsqueda de datos en excel, java buscar datos en un rango, buscar y reemplazar datos en excel con java, buscar y reemplazar datos en un rango con java, buscar y reemplazar datos en rango con java
 ---
+
 {{% alert color="primary" %}}
 
-A veces, necesita buscar y reemplazar datos específicos en un rango, ignorando cualquier valor de celda fuera del rango deseado. Aspose.Cells le permite limitar una búsqueda a un rango específico. Este artículo explica cómo.
+A veces, necesita buscar y reemplazar datos específicos en un rango, ignorando los valores de celda fuera del rango deseado. Aspose.Cells le permite limitar una búsqueda a un rango específico. Este artículo lo explica.
 
 {{% /alert %}}
 
-Aspose.Cells proporciona el[**BuscarOpciones.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) método para especificar un rango al buscar datos.
+Aspose.Cells proporciona el método [**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) para especificar un rango al buscar datos.
 
- Supongamos que desea buscar la cadena**"búsqueda"** y reemplazarlo con**"reemplazar"** en el rango**E3: H6**. En la captura de pantalla a continuación, la cadena "buscar" se puede ver en varias celdas, pero queremos reemplazarla solo en un rango determinado, aquí resaltado en amarillo.
+Supongamos que desea buscar la cadena **"search"** y reemplazarla con **"replace"** en el rango **E3:H6**. En la captura de pantalla a continuación, se puede ver la cadena "search" en varias celdas, pero queremos reemplazarla solo en un rango dado, aquí resaltado en amarillo.
 
-**Fichero de entrada**
+**Archivo de entrada**
 
-![todo:imagen_alternativa_texto](search-and-replace-data-in-a-range_1.png)
+![todo:image_alt_text](search-and-replace-data-in-a-range_1.png)
 
-Después de la ejecución del código, el archivo de salida se ve como el siguiente. Todas las cadenas de "búsqueda" dentro del rango han sido reemplazadas por "reemplazar".
+Después de la ejecución del código, el archivo de salida se ve así. Todas las cadenas "search" dentro del rango han sido reemplazadas por "replace".
 
-**Archivo de salida**
+Archivo de salida
 
-![todo:imagen_alternativa_texto](search-and-replace-data-in-a-range_2.png)
+![todo:image_alt_text](search-and-replace-data-in-a-range_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SearchReplaceDataInRange-SearchReplaceDataInRange.java" >}}
 

@@ -1,16 +1,17 @@
-﻿---
-title: Gestione delle interruzioni di pagina in Php
+---
+title: Gestione degli interruzioni di pagina in Php
 type: docs
 weight: 20
 url: /it/java/managing-page-breaks-in-php/
 ---
-## **Aspose.Cells - Gestione interruzioni di pagina**
-### **Aggiunta di interruzioni di pagina**
- Per aggiungere interruzioni di pagina utilizzando**Aspose.Cells Java for PHP** , chiamata**add_page_breaks** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
+
+## **Aspose.Cells - Gestisci interruzioni di pagina**
+### **Aggiunta dei salti di pagina**
+Per aggiungere interruzioni di pagina utilizzando **Aspose.Cells Java per PHP**, chiamare il metodo **add_page_breaks** del modulo **pagebreaks**. Di seguito puoi vedere un esempio di codice.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $worksheets = $workbook->getWorksheets();
 
@@ -30,11 +31,11 @@ $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
 ### **Cancellazione di tutte le interruzioni di pagina**
- Per cancellare tutte le interruzioni di pagina utilizzando**Aspose.Cells Java for PHP** , chiamata**cancella_tutte_le_interruzioni_di_pagina** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
+Per cancellare tutte le interruzioni di pagina utilizzando **Aspose.Cells Java per PHP**, chiamare il metodo **clear_all_page_breaks** del modulo **pagebreaks**. Di seguito puoi vedere un esempio di codice.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $workbook->getWorksheets()->get(0)->getHorizontalPageBreaks()->clear();
 
@@ -45,12 +46,12 @@ $workbook->getWorksheets()->get(0)->getVerticalPageBreaks()->clear();
 $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
-### **Rimozione di un'interruzione di pagina specifica**
- Per rimuovere un'interruzione di pagina specifica utilizzando**Aspose.Cells Java for PHP** , chiamata**remove_page_break** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
+### **Rimuovere interruzione di pagina specifica**
+Per rimuovere una specifica interruzione di pagina utilizzando **Aspose.Cells Java per PHP**, chiamare il metodo **remove_page_break** del modulo **pagebreaks**. Di seguito puoi vedere un esempio di codice.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $worksheets = $workbook->getWorksheets();
 
@@ -70,6 +71,6 @@ $workbook->save($dataDir . "Remove Page Break.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Gestione interruzioni di pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Gestione Interruzioni di Pagina (Aspose.Cells)** da uno dei siti di codice sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/ManagingPageBreaks.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/ManagingPageBreaks.php)

@@ -1,17 +1,18 @@
-﻿---
-title: Eliminar filas duplicadas en una hoja de trabajo
+---
+title: Eliminar filas duplicadas en una hoja de cálculo
 type: docs
 weight: 370
 url: /es/net/remove-duplicate-rows-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Eliminar filas duplicadas es una de las muchas funciones útiles de Microsoft Excel. Permite a los usuarios eliminar filas duplicadas en una hoja de trabajo, puede elegir qué columnas deben verificarse para obtener información duplicada.
+Eliminar filas duplicadas es una de las muchas funciones útiles de Microsoft Excel. Permite a los usuarios eliminar filas duplicadas en una hoja de cálculo, puedes escoger qué columnas deben ser revisadas en busca de información duplicada.
 
-Aspose.Cells proporciona el método Cells.RemoveDuplicates() para este propósito. También puede configurar startRow, startColumn, endRow, endColumn para seleccionar columnas.
+Aspose.Cells proporciona el método Cells.RemoveDuplicates() para este propósito. También puedes configurar startRow, startColumn, endRow, endColumn para seleccionar las columnas.
 
-Los siguientes son los archivos de muestra que se pueden descargar para probar esta función:
+A continuación se muestran los archivos de muestra que se pueden descargar para probar esta característica:
 
-[eliminadoduplicados.xlsx](removeduplicates.xlsx)
+[removeduplicates.xlsx](removeduplicates.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Remove-Duplicate-Rows-In-A-Worksheet.cs" >}}

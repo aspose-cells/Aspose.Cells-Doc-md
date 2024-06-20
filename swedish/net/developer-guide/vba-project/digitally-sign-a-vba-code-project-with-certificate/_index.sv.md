@@ -1,26 +1,27 @@
-﻿---
-title: Signera digitalt ett VBA-kodprojekt med certifikat
+---
+title: Signera digitalt ett VBA kodprojekt med certifikat
 type: docs
 weight: 110
 url: /sv/net/digitally-sign-a-vba-code-project-with-certificate/
 ---
+
 {{% alert color="primary" %}}
 
- Du kan digitalt signera ditt VBA-kodprojekt med Aspose.Cells med dess[**Workbook.VbaProject.Sign()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/methods/sign)metod. Följ dessa steg för att kontrollera om din excel-fil är digitalt signerad med ett certifikat.
+Du kan signera ditt VBA-kodprojekt digitalt med Aspose.Cells med dess [**Workbook.VbaProject.Sign()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/methods/sign) metod. Följ dessa steg för att kontrollera om din Excel-fil är signerad digitalt med ett certifikat.
 
--  Klick**Visual Basic** från**Utvecklare** fliken för att öppna**Visual Basic för applikationer IDE**
--  Klick**Verktyg** > **Digitala signaturer...** av**Visual Basic för applikationer IDE**
+- Klicka på **Visual Basic** från fliken **Utvecklare** för att öppna **Visual Basic for Applications IDE**
+- Klicka på **Verktyg** > **Digitala signaturer...**  i **Visual Basic for Applications IDE**
 
- och det kommer att visa**Digital signaturformulär** som visar om dokumentet är digitalt signerat med ett certifikat eller inte.
+och det kommer att visa **Digital Signature Form** och visa om dokumentet är signerat digitalt med ett certifikat eller inte.
 
 {{% /alert %}} 
 
-## **Signera digitalt ett VBA-kodprojekt med certifikat på C#**
+## **Signera digitalt ett VBA-kodprojekt med certifikat i C#**
 
- Följande exempelkod illustrerar hur du använder[**Workbook.VbaProject.Sign()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/methods/sign)metod. Här är in- och utdatafilerna för exempelkoden. Du kan använda valfri excel-fil och vilket certifikat som helst för att testa den här koden.
+Följande exempelkod illustrerar hur man använder [**Workbook.VbaProject.Sign()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/methods/sign) metoden. Här är indata- och utdatafilerna för exempelkoden. Du kan använda vilken excel-fil och vilket certifikat som helst för att testa denna kod.
 
-- [Excel-källfil](5115028.xlsm) används i exempelkoden.
-- [Exempel pfx-fil](5115039.pfx) för att skapa en digital signatur. Installera den på din dator för att köra den här koden. Dess lösenord är 1234.
-- [Utdata Excel-fil](5115029.xlsm) genereras av exempelkoden.
+- [Källa Excel-fil](5115028.xlsm) använd i exempelkoden.
+- [Exempel pfx-fil](5115039.pfx) för att skapa digital signatur. Installera den på din dator för att köra denna kod. Dess lösenord är 1234.
+- [Utdatat Excel-fil](5115029.xlsm) genererad av exempelkoden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-DigitallySignVbaProjectWithCertificate-1.cs" >}}

@@ -1,24 +1,27 @@
-﻿---
-title: Hinzufügen einer digitalen Signatur zu einer bereits signierten Excel-Datei
+---
+title: Fügen Sie eine digitale Signatur zu einer bereits signierten Excel Datei hinzu
 type: docs
 weight: 20
 url: /de/net/add-digital-signature-to-an-already-signed-excel-file/
+description: In diesem Artikel wird beschrieben, wie man mit C# Codes und Aspose.Cells für .NET eine digitale Signatur zu einer bereits signierten Excel Datei hinzufügt.
+keywords: Digitale Signatur zu einer bereits signierten Excel Datei hinzufügen, Wie man eine digitale Signatur zu einer bereits signierten Excel Datei hinzufügt.
 ---
-## **Mögliche Nutzungsszenarien**
 
- Aspose.Cells bietet die[**Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature)Methode, mit der Sie einer bereits signierten Excel-Datei eine digitale Signatur hinzufügen können.
+## **Mögliche Verwendungsszenarien**
+
+Aspose.Cells stellt die Methode [**Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature) bereit, die Sie nutzen können, um einer bereits signierten Excel-Datei eine digitale Signatur hinzuzufügen.
 
 {{% alert color="primary" %}}
 
-Bitte beachten Sie beim Hinzufügen einer digitalen Signatur zu einem bereits signierten Excel-Dokument, dass es gut funktioniert, wenn das Originaldokument ein Aspose.Cells-generiertes Dokument ist. Wenn das Originaldokument jedoch von anderen Engines (z. B. Microsoft Excel usw.) generiert wird, kann Aspose.Cells die Datei nach dem Laden und erneuten Speichern nicht beibehalten, wodurch die Originalsignatur ungültig wird.
+Bitte beachten Sie, dass beim Hinzufügen einer digitalen Signatur zu einem bereits signierten Excel-Dokument, wenn das Originaldokument von Aspose.Cells generiert wurde, dies gut funktioniert. Aber wenn das Originaldokument von anderen Engines generiert wurde (z. B. Microsoft Excel usw.), kann Aspose.Cells die Datei nach dem Laden und erneutem Speichern nicht gleich halten, was die ursprüngliche Signatur ungültig macht.
 
 {{% /alert %}}
 
-## **Hinzufügen einer digitalen Signatur zu einer bereits signierten Excel-Datei**
+## **Wie fügt man eine digitale Signatur zu einer bereits signierten Excel-Datei hinzu**
 
-Der folgende Beispielcode demonstriert die Verwendung von[**Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature) Methode zum Hinzufügen einer digitalen Signatur zu einer bereits signierten Excel-Datei. Bitte überprüfen Sie die[Beispiel-Excel-Datei](50528280.xlsx) in diesem Code verwendet. Diese Datei ist bereits digital signiert. Bitte überprüfen Sie die[Excel-Datei ausgeben](50528281.xlsx) vom Code generiert. Wir haben das genannte Demo-Zertifikat verwendet[AsposeDemo.pfx](50528279.pfx) in diesem Code, der ein Passwort hat**stellen**Der Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispiel-Excel-Datei nach der Ausführung.
+Der folgende Beispielcode zeigt, wie die Methode [**Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature) verwendet wird, um einer bereits signierten Excel-Datei eine digitale Signatur hinzuzufügen. Bitte überprüfen Sie die [Beispiel-Excel-Datei](50528280.xlsx), die in diesem Code verwendet wird. Diese Datei ist bereits digital signiert. Bitte überprüfen Sie die [Ausgabedatei Excel](50528281.xlsx), die vom Code generiert wurde. Für dieses Beispiel haben wir das Demo-Zertifikat mit dem Namen [AsposeDemo.pfx](50528279.pfx) verwendet, das ein Passwort **aspose** hat. Der Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispiel-Excel-Datei nach der Ausführung.
 
-![todo: Bild_alt_Text](add-digital-signature-to-an-already-signed-excel-file_1.png)
+![todo:image_alt_text](add-digital-signature-to-an-already-signed-excel-file_1.png)
 
 ## **Beispielcode**
 

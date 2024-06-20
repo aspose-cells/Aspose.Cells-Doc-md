@@ -1,16 +1,17 @@
-﻿---
+---
 title: Applicazione di una licenza
 type: docs
 weight: 40
 url: /it/java/applying-a-license/
 ---
+
 {{% alert color="primary" %}}
 
- Una volta che sei soddisfatto della tua valutazione di Aspose.Cells,[acquistare una licenza](https://purchase.aspose.com/buy) sul sito Aspose. Acquisisci familiarità con il diverso[tipi di licenza](https://purchase.aspose.com/policies/license-types/) offerto. In caso di domande, non esitare a farlo[contattare il team commerciale Aspose](https://about.aspose.com/contact).
+Una volta soddisfatti della valutazione di Aspose.Cells, [acquistare una licenza](https://purchase.aspose.com/buy) sul sito web di Aspose. Prenditi confidenza con i diversi [tipi di licenze](https://purchase.aspose.com/policies/license-types/) offerti. Se hai domande, non esitare a [contattare il team di vendita di Aspose](https://about.aspose.com/contact).
 
-Ogni licenza Aspose comporta un abbonamento di un anno per aggiornamenti gratuiti a eventuali nuove versioni o correzioni che escono durante questo periodo. Il supporto tecnico è gratuito e illimitato e viene fornito sia agli utenti con licenza che a quelli di valutazione.
+Ogni licenza Aspose prevede un abbonamento annuale per aggiornamenti gratuiti a qualsiasi nuova versione o correzioni che verranno rilasciate durante questo periodo. Il supporto tecnico è gratuito e illimitato e fornito sia agli utenti con licenza che di valutazione.
 
-La licenza è un file XML di testo semplice che contiene dettagli come il nome del prodotto, il numero di sviluppatori con licenza, la data di scadenza dell'abbonamento e così via. Il file è firmato digitalmente, quindi non modificarlo: anche l'aggiunta di un'ulteriore interruzione di riga nel file lo invaliderà.
+La licenza è un file XML in testo semplice che contiene dettagli come il nome del prodotto, il numero di sviluppatori con licenza, la data di scadenza dell'abbonamento e così via. Il file è firmato digitalmente, quindi non modificarlo: anche aggiungere una riga extra nel file lo renderà non valido.
 
 È necessario impostare una licenza prima di eseguire qualsiasi operazione con i documenti. Assicurati di farlo prima di creare un oggetto Document. È necessario impostare una licenza solo una volta per applicazione o processo.
 
@@ -18,15 +19,15 @@ La licenza è un file XML di testo semplice che contiene dettagli come il nome d
 
 ## **Caricamento del file di licenza**
 
- In Aspose.Cells for Android via Java, la licenza può essere[incorporata come risorsa](/cells/it/java/applying-a-license/#applying-a-license-from-an-embedded-resource)o caricato da un flusso:
+In Aspose.Cells per Android via Java, la licenza può essere [incorporata come risorsa](/cells/it/java/applying-a-license/#applying-a-license-from-an-embedded-resource) o caricata da uno stream:
 
-1.  Metti il file di licenza in qualsiasi posizione su**/mnt/sdcard/**.
-1. Crea un flusso che faccia riferimento a file.
-1. Passa il flusso (contenente il file di licenza) nel metodo SetLicense.
+1. Metti il file di licenza in qualsiasi posizione su **/mnt/sdcard/**.
+1. Crea uno stream che fa riferimento al file.
+1. Passa lo stream (contenente il file di licenza) al metodo SetLicense.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  String dataDir = Environment.getExternalStorageDirectory().getPath() + "/";
 
@@ -48,13 +49,13 @@ license.setLicense(fstream);
 
 Per accedere alla licenza come risorsa per nome da un file di pacchetto Android:
 
-1.  Aggiungi il file di licenza come risorsa a quello della tua applicazione**res/grezzo** cartella.
- Il file di licenza dovrebbe essere visibile nel file**res/grezzo** cartella.
+1. Aggiungi il file di licenza come risorsa alla cartella **res/raw** della tua applicazione.
+   Il file di licenza dovrebbe essere visibile nella cartella **res/raw**.
 1. Accedi/carica la licenza dalla risorsa con il seguente esempio di codice.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  License license = new License();
 

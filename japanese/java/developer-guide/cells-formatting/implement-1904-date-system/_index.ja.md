@@ -1,25 +1,26 @@
-﻿---
-title: 1904 年日付システムの実装
+---
+title: 1904年日付システムを実装する
 type: docs
 weight: 2000
 url: /ja/java/implement-1904-date-system/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel は、1900 日付システム (Windows に対して Excel に実装されている既定の日付システム) と 1904 日付システムの 2 つの日付システムをサポートしています。 1904 日付システムは、通常、Macintosh Excel ファイルとの互換性を提供するために使用され、Excel for Macintosh を使用している場合の既定のシステムです。 Aspose.Cells を使用して、Excel ファイルの 1904 年日付システムを設定できます。
+Microsoft Excelは1900年日付システム（Windows用Excelのデフォルトの日付システム）と1904年日付システムの2つをサポートしています。 1904年日付システムは通常、Macintosh Excelファイルとの互換性を提供するために使用され、Excel for Macintoshを使用している場合はデフォルトのシステムです。 Aspose.Cellsを使用してExcelファイルに1904年日付システムを設定できます。
 
 {{% /alert %}} 
 
-Microsoft Excel (たとえば、Microsoft Excel 2003) で 1904 日付システムを実装するには:
+Microsoft Excel（例えばMicrosoft Excel 2003）で1904年日付システムを実装するには:
 
-1. から**ツール**メニュー、選択**オプション**をクリックして、**計算**タブ。
-1. を選択**1904年日付システム**オプション。
-1. クリック**わかった**.
+1. **ツール**メニューから**オプション**を選択し、**計算**タブを選択します。
+1. **1904年日付システム**オプションを選択します。
+1. **OK** をクリックします。
 
-   **Microsoft Excelで1904日付システムを選択する** 
+   **Microsoft Excelで1904年日付システムを選択する** 
 
-![todo:画像_代替_文章](implement-1904-date-system_1.png)
+![todo:image_alt_text](implement-1904-date-system_1.png)
 
-Aspose.Cells API を使用してこれを実現する方法については、次のサンプル コードを参照してください。
+Aspose.CellsのAPIを使用してこの機能を実現するサンプルコードを以下に示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Implement1904DateSystem-Implement1904DateSystem.java" >}}

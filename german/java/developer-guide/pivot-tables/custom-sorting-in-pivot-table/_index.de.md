@@ -1,18 +1,19 @@
-﻿---
-title: Benutzerdefinierte Sortierung in der Pivot-Tabelle
+---
+title: Benutzerdefiniertes Sortieren in der Pivot Tabelle
 type: docs
 weight: 30
 url: /de/java/custom-sorting-in-pivot-table/
 ---
-## **Benutzerdefinierte Sortierung in der Pivot-Tabelle**
-Mit Aspose.Cells API können Sie Pivot-Tabellen nach Feldwerten sortieren. Das folgende Code-Snippet lädt die Beispiel-Excel-Datei und fügt drei Pivot-Tabellen hinzu. Die erste Pivot-Tabelle ist ohne benutzerdefinierte Sortierung, die zweite Pivot-Tabelle ist nach den Zeilenfeldwerten „Meeresfrüchte“ sortiert und die dritte Pivot-Tabelle ist nach den Spaltenfeldwerten „28.07.2000“ sortiert.
 
-Beispielquelldatei und Ausgabedateien können hier zum Testen des Beispielcodes heruntergeladen werden:
+## **Benutzerdefiniertes Sortieren in der Pivot-Tabelle**
+Mit der Aspose.Cells-API können Pivot-Tabellen nach Feldwerten sortiert werden. Der folgende Code-Schnipsel lädt die Beispieldatei und fügt drei Pivot-Tabellen hinzu. Die erste Pivot-Tabelle wird ohne benutzerdefinierte Sortierung erstellt, die zweite Pivot-Tabelle wird nach den Zeilenfeldwerten "Meeresfrüchte" sortiert und die dritte Pivot-Tabelle wird nach den Spaltenfeldwerten "28/07/2000" sortiert.
 
-[Excel-Quelldatei](SamplePivotSort.xlsx)
+Die Beispieldatei und die Ausgabedateien können von hier heruntergeladen werden, um den Beispielcode zu testen:
 
-[Excel-Datei ausgeben](95584328.xlsx)
+[Quelldatei Excel](SamplePivotSort.xlsx)
 
-[Ausgabe PDF Datei](95584329.pdf)
+[Ausgabedatei Excel](95584328.xlsx)
+
+[Ausgabedatei PDF](95584329.pdf)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}

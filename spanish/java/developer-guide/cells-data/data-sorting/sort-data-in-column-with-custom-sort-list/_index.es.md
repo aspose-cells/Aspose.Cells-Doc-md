@@ -1,18 +1,19 @@
-﻿---
-title: Ordenar datos en columna con lista de ordenación personalizada
+---
+title: Ordenar datos en una columna con lista de orden personalizado
 type: docs
 weight: 210
 url: /es/java/sort-data-in-column-with-custom-sort-list/
 ---
-## **Posibles escenarios de uso**
 
-Puede ordenar los datos en la columna usando una lista personalizada. Esto se puede hacer usando[DataSorter.AddKey (clave int, Orden de clasificación, Cadena customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) método. Sin embargo, este método solo funciona si los elementos de la lista personalizada no tienen comas dentro de ellos. Si tienen comas como "EE. UU., EE. UU.", "China, CN", etc., debe usar[DataSorter.AddKey (clave int, Orden de clasificación, Cadena customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) método. Aquí, el último parámetro no es String sino una matriz de cadenas.
+## **Escenarios de uso posibles**
 
-## **Ordenar datos en columna con lista de ordenación personalizada**
+Puede ordenar los datos en la columna utilizando una lista personalizada. Esto se puede hacer usando el método [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)). Sin embargo, este método solo funciona si los elementos en la lista personalizada no tienen comas en su interior. Si tienen comas como "USA, US", "China, CN", etc., entonces debe utilizar el método [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String) Aquí, el último parámetro no es un String, sino un Array de Strings.
 
-El siguiente código de ejemplo explica cómo usar el método DataSorter.AddKey(int key, SortOrder order, String[]customList) para ordenar datos con una lista de ordenación personalizada. Por favor vea el[ejemplo de archivo de Excel](50528359.xlsx)utilizado en este código y[archivo de salida de Excel](50528358.xlsx)generada por ella. La siguiente captura de pantalla muestra el efecto del código en el archivo de muestra de Excel durante la ejecución.
+## **Ordenar datos en una columna con lista de orden personalizado**
 
-![todo:imagen_alternativa_texto](sort-data-in-column-with-custom-sort-list_1.png)
+El siguiente código de ejemplo explica cómo utilizar el método DataSorter.AddKey(int key, SortOrder order, String[] customList) para ordenar datos con una lista de orden personalizado. Consulte el [archivo de Excel de ejemplo](50528359.xlsx) utilizado en este código y el [archivo de Excel de salida](50528358.xlsx) generado por él. La siguiente captura de pantalla muestra el efecto del código en el archivo de Excel de ejemplo al ejecutarlo.
+
+![todo:image_alt_text](sort-data-in-column-with-custom-sort-list_1.png)
 
 ## **Código de muestra**
 

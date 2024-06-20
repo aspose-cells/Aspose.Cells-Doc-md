@@ -1,38 +1,41 @@
-﻿---
+---
 title: Verwalten von Hyperlinks in einem Arbeitsblatt
 type: docs
 weight: 90
-url: /de/net/managing-hyperlinks-in-a-worksheet/
+url: /de/net/aspose-cells-griddesktop/manage-hyperlinks-in-a-worksheet/
+keywords: GridDesktop, Hyperlin, Hyperlink, Hyperlinks
+description: Dieser Artikel führt ein, wie mit Hyperlinks in GridDesktop gearbeitet wird.
 ---
+
 {{% alert color="primary" %}} 
 
-Mit Aspose.Cells.GridDesktop ist es auch möglich, Hyperlinks zu einfachen Werten hinzuzufügen, die in Zellen eines Arbeitsblatts gespeichert sind. Angenommen, Sie haben in einigen Zellen einige Werte, die Sie mit detaillierteren Informationen auf einer Webseite verknüpfen möchten. In diesem Fall wäre es wünschenswert, dieser Zelle einen Hyperlink hinzuzufügen, damit ein Benutzer, wenn er auf die Zelle klickt, zu dieser Webseite geleitet würde. In diesem Thema erklären wir, wie Entwickler Hyperlinks in ihren Arbeitsblättern hinzufügen und bearbeiten können.
+Mit Aspose.Cells.GridDesktop ist es auch möglich, Hyperlinks zu einfachen Werten in Zellen eines Arbeitsblatts hinzuzufügen. Angenommen, in einigen Zellen haben Sie Werte, die Sie mit ausführlicheren Informationen auf einer Webseite verknüpfen möchten. In diesem Fall wäre es wünschenswert, einen Hyperlink zu dieser Zelle hinzuzufügen, damit ein Benutzer, wenn er auf die Zelle klickt, zu dieser Webseite geleitet wird. In diesem Thema werden wir erläutern, wie Entwickler Hyperlinks in ihren Arbeitsblättern hinzufügen und manipulieren können.
 
 {{% /alert %}} 
 ## **Hinzufügen von Hyperlinks**
-Um mit Aspose.Cells.GridDesktop einen Hyperlink zu einer Zelle hinzuzufügen, führen Sie bitte die folgenden Schritte aus:
+Um einen Hyperlink zu einer Zelle mit Aspose.Cells.GridDesktop hinzuzufügen, befolgen Sie die folgenden Schritte:
 
--  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
--  Greifen Sie beliebig zu**Arbeitsblatt**
--  Greifen Sie auf eine gewünschte zu**Cell** in dem Arbeitsblatt, das verlinkt wird
-- Fügen Sie der zu verknüpfenden Zelle einen Wert hinzu
--  Addieren**Hyperlinks** zum Arbeitsblatt hinzufügen, indem Sie den Zellennamen angeben, auf den der Hyperlink angewendet werden soll
+- Fügen Sie das Steuerelement Aspose.Cells.GridDesktop zu Ihrem **Formular** hinzu
+- Greifen Sie auf jedes gewünschte **Arbeitsblatt** zu
+- Greifen Sie auf eine gewünschte **Zelle** im Arbeitsblatt zu, die als Hyperlink fungieren soll
+- Fügen Sie einen Wert zur Zelle hinzu, die als Hyperlink dienen soll
+- Fügen Sie einen **Hyperlink** zum Arbeitsblatt hinzu, indem Sie den Zellennamen angeben, auf den der Hyperlink angewendet werden soll
 
-**Hyperlinks** Sammlung im**Arbeitsblatt** Objekt stellt eine überladene bereit**Addieren** Methode. Entwickler können jede überladene Version von verwenden**Addieren** Methode nach ihren spezifischen Bedürfnissen.
+Die **Hyperlinks**-Sammlung des **Arbeitsblatt**-Objekts bietet eine überladene **Add**-Methode. Entwickler können eine beliebige überladene Version der **Add**-Methode gemäß ihren spezifischen Anforderungen verwenden.
 
- Der folgende Code fügt einen Hyperlink hinzu**B2** und**C3** Zellen des Arbeitsblatts.
+Der folgende Code fügt den Zellen **B2** und **C3** des Arbeitsblatts einen Hyperlink hinzu.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AddHyperlink.cs" >}}
 ## **Zugriff auf Hyperlinks**
-Sobald ein Hyperlink zu einer Zelle hinzugefügt wird, kann es auch erforderlich sein, zur Laufzeit auf den Hyperlink zuzugreifen und ihn zu ändern. Dazu können Entwickler einfach auf den Hyperlink von zugreifen**Hyperlinks** Sammlung der**Arbeitsblatt** durch Angabe der Zelle (unter Verwendung des Zellennamens oder ihrer Position in Form von Zeilen- und Spaltennummer), zu der der Hyperlink hinzugefügt wird. Sobald auf den Hyperlink zugegriffen wird, können Entwickler seine URL zur Laufzeit ändern.
+Nachdem ein Hyperlink zu einer Zelle hinzugefügt wurde, ist es möglicherweise auch erforderlich, den Hyperlink zur Laufzeit zu öffnen und zu ändern. Entwickler können einfach auf den Hyperlink aus der **Hyperlinks**-Sammlung des **Arbeitsblatts** zugreifen, indem sie die Zelle angeben (unter Verwendung des Zellnamens oder ihrer Position in Bezug auf Zeilen- und Spaltennummer), zu der der Hyperlink hinzugefügt wurde. Sobald der Hyperlink zugegriffen wird, können Entwickler dessen URL zur Laufzeit ändern.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AccessHyperlink.cs" >}}
-## **Entfernen von Hyperlinks**
- Um einen vorhandenen Hyperlink zu entfernen, können Entwickler einfach auf ein gewünschtes Arbeitsblatt zugreifen und dann**Entfernen** Hyperlink von der**Hyperlinks** Sammlung der**Arbeitsblatt** durch Angabe der mit Hyperlink versehenen Zelle (unter Verwendung ihres Namens oder ihrer Zeilen- und Spaltennummer).
+## **Hyperlinks entfernen**
+Um einen vorhandenen Hyperlink zu entfernen, können Entwickler einfach auf ein gewünschtes Arbeitsblatt zugreifen und dann den Hyperlink aus der **Hyperlinks**-Sammlung des **Arbeitsblatts** entfernen, indem sie die verlinkte Zelle angeben (unter Verwendung ihres Namens oder der Zeilen- und Spaltennummer).
 
 
 
@@ -40,6 +43,6 @@ Sobald ein Hyperlink zu einer Zelle hinzugefügt wird, kann es auch erforderlich
 
 {{% alert color="primary" %}} 
 
-Wenn Sie einer Zelle einen Hyperlink hinzufügen und die Hyperlink-URL in der Zelle anstelle eines Werts anzeigen möchten, fügen Sie der Zelle keinen Wert hinzu und fügen Sie einfach den Hyperlink zu dieser Zelle hinzu. Dadurch wird die Zelle mit einem Hyperlink versehen und die Hyperlink-URL wird auch in der Zelle als ihr Wert angezeigt.
+Wenn Sie einen Hyperlink zu einer Zelle hinzufügen und die Hyperlink-URL in der Zelle statt eines Werts anzeigen möchten, fügen Sie keinen Wert zur Zelle hinzu und fügen Sie einfach den Hyperlink zu dieser Zelle hinzu. Auf diese Weise wird die Zelle verlinkt und die Hyperlink-URL wird auch als Wert in der Zelle angezeigt.
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
-﻿---
-title: ارسم الجدول الزمني أثناء تحويل Excel إلى PDF
+---
+title: رسم الجدول الزمني أثناء تحويل إكسيل إلى PDF
 type: docs
 weight: 60
 url: /ar/net/draw-timeline-while-rendering-excel-to-pdf/
-description: إدارة الجداول الزمنية لملفات Excel مع Aspose.Cells.
-keywords: Rendering timeline to pdf without office 2013, office 2016, office 2019 and office 365
+description: إدارة جداول الزمن في ملفات Excel باستخدام Aspose.Cells.
+keywords: تحويل الجدول الزمني إلى PDF بدون Office 2013، Office 2016، Office 2019 وOffice 365
 ---
-## **ارسم الجدول الزمني أثناء تحويل Excel إلى PDF**
-إذا كان لديك ملف Excel تم تطبيق جدول زمني عليه وتريد تصدير ملف Excel إلى PDF باستخدام إعدادات الخط الزمني ، فإن Aspose.Cells يدعم هذا افتراضيًا الآن. يمكنك ببساطة تصدير ملف Excel مع الجدول الزمني إلى PDF ، وسيظهر PDF الذي تم إنشاؤه الجدول الزمني المطبق.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](input.xlsx) الذي يحتوي على جدول زمني موجود. ثم يحفظ المصنف باسم[ملف الإخراج PDF](out.pdf). تقارن لقطة الشاشة التالية بين ملف Excel المصدر وملف PDF الذي تم إنشاؤه.
+## **رسم الجدول الزمني أثناء تحويل Excel إلى PDF**
+إذا كان لديك ملف Excel يحتوي على جدول زمني مطبق عليه وترغب في تصدير Excel إلى PDF مع إعدادات الجدول الزمني، فإن Aspose.Cells الآن تدعم هذا افتراضيًا. يمكنك ببساطة تصدير ملف Excel مع الجدول الزمني إلى PDF، وسيظهر الPDF المولد الجدول الزمني المطبق.
+
+الكود النموذجي التالي يحمل [ملف Excel عيني](input.xlsx) الذي يحتوي على جدول زمني موجود. ثم يحفظ المصنف كـ [ملف PDF الناتج](out.pdf). اللقطة الشاشية التالية تقارن ملف Excel المصدر بالملف PDF المعدل.
 
 <img src="out.png" width="60%">
 
-## **عينة من الرموز**
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-DrawTimelinetoPdf.cs" >}}
 

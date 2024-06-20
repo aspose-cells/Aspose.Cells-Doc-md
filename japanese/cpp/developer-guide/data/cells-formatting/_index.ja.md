@@ -1,21 +1,22 @@
 ---
-title: Cells フォーマット中
+title: セルの書式設定
 type: docs
 weight: 50
 url: /ja/cpp/cells-formatting/
 ---
-##  **形式 Cell または Cells の範囲**
-セルまたはセル範囲の書式を設定する場合、Aspose.Cells は[スタイル](https://reference.aspose.com/cells/cpp/aspose.cells/style/)クラス。このクラスを使用して、セルまたはセル範囲のすべての書式設定を実行できます。 IStyle クラスを使用して実行できる書式設定に関連するいくつかのことは次のとおりです。
 
-- セルの塗りつぶし色を設定する
-- セルのテキストの折り返しを設定する
-- 上、左、下、右の境界線などのセルの境界線を設定します。
-- 文字色、文字サイズ、フォント名、取り消し線、太字、斜体、下線などを設定します。
-- テキストの水平方向または垂直方向の配置を右、左、上、下、中央などに設定します。
+## **セルまたはセル範囲の書式設定**
+セルまたはセル範囲の書式設定を行いたい場合、Aspose.Cellsは[Style](https://reference.aspose.com/cells/cpp/aspose.cells/style/)クラスを提供しています。このクラスを使用して、セルやセル範囲の書式設定をすべて行うことができます。IStyleクラスを使用して達成できる書式設定に関連するいくつかのことは以下の通りです
 
-単一セルのスタイルを設定したい場合は、次を使用してください。[Cell->SetStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/)メソッドを使用し、セル範囲のスタイルを設定したい場合は、を使用してください。[範囲 ->ApplyStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/range/applystyle/)方法。
-##  **サンプルコード**
-次のサンプル コードでは、ワークシートのセル C4 をさまざまな方法で書式設定します。スクリーンショットは、[Excelファイルを出力する](21266438.xlsx)参考のためにそれによって生成されました。
+- セルの塗りつぶしの色を設定する
+- セルのテキスト折り返しを設定する
+- セルの上部、左部、下部、右側の境界など、セルの境界線を設定する
+- フォントの色、サイズ、名前、取り消し線、太字、斜体、下線などを設定します。
+- テキストの水平または垂直配置を右、左、上、下、中央などに設定します。
+
+個々のセルのスタイルを設定する場合は、[Cell->SetStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/) メソッドを使用し、セルの範囲のスタイルを設定する場合は、[Range->ApplyStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/range/applystyle/) メソッドを使用してください。
+## **サンプルコード**
+以下のサンプルコードは、ワークシートのセルC4の書式をさまざまな方法で設定し、それによって生成された [出力エクセルファイル](21266438.xlsx) を参照してください。
 
 ![todo:image_alt_text](cells-formatting_1.png)
 

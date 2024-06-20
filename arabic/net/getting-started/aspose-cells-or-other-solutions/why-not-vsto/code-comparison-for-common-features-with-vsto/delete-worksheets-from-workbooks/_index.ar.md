@@ -1,12 +1,13 @@
-﻿---
-title: احذف أوراق العمل من المصنفات
+---
+title: حذف الصفحات العمل من الكتب
 type: docs
 weight: 100
 url: /ar/net/delete-worksheets-from-workbooks/
 ---
-يمكنك حذف أي ورقة عمل في مصنف. لحذف ورقة عمل ، استخدم عنصر مضيف ورقة العمل أو قم بالوصول إلى ورقة العمل باستخدام مجموعة أوراق المصنف.
+
+يمكنك حذف أي ورقة عمل في كتاب العمل. لحذف ورقة عمل، استخدم عنصر المضيف للورقة العمل أو ادخل إلى الورقة العمل باستخدام مجموعة الصفحات لكتاب العمل.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook= this.Application.Workbooks.Open(fileName);
 
@@ -14,7 +15,7 @@ url: /ar/net/delete-worksheets-from-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -24,4 +25,4 @@ url: /ar/net/delete-worksheets-from-workbooks/
 
 {{< /highlight >}}
 ## **تحميل**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)

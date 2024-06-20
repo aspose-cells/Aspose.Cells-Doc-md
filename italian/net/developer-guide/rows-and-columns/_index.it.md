@@ -1,77 +1,79 @@
 ---
-title: Formato righe e colonne
+title: Formattare righe e colonne
 linktitle: Righe e colonne
 type: docs
 weight: 100
 url: /it/net/adjusting-row-height-and-column-width/
-description: Aspose.Cells for .NET può supportare la modifica dell'altezza della riga o della larghezza della colonna, nonché applicare la formattazione su righe o colonne.
-keywords: Set row height and column width, Adjust row height and column width, change the row height or column width, format rows and columns, how to set row height and column width.
+description: Aspose.Cells for .NET può supportare il cambiamento dell altezza della riga o della larghezza della colonna, nonché l applicazione della formattazione alle righe o alle colonne.
+keywords: Imposta l altezza della riga e la larghezza della colonna, regola l altezza della riga e la larghezza della colonna, cambia l altezza della riga o la larghezza della colonna, formatta righe e colonne, come impostare l altezza della riga e la larghezza della colonna.
 ---
+
+
 {{% alert color="primary" %}}
 
-Quando lavori con fogli di calcolo e aggiungi dati a righe o colonne, potrebbe essere necessario modificare l'altezza delle righe o la larghezza delle colonne. A volte, applicare la formattazione su righe o colonne significa che l'altezza o la larghezza corrente devono essere modificate per mostrare i dati. Normalmente, gli utenti regolano l'altezza delle righe e la larghezza delle colonne in un ambiente WYSIWYG utilizzando Microsoft Excel. Ma con Aspose.Cells gli sviluppatori possono eseguire queste operazioni in fase di runtime.
+Quando si lavora con fogli e si aggiungono dati alle righe o alle colonne, potrebbe essere necessario modificare l'altezza delle righe o la larghezza delle colonne. A volte, l'applicazione della formattazione alle righe o alle colonne significa che l'altezza o la larghezza attuale deve cambiare per mostrare i dati. Normalmente, gli utenti regolano l'altezza delle righe e la larghezza delle colonne in un ambiente WYSIWYG utilizzando Microsoft Excel. Tuttavia, con Aspose.Cells gli sviluppatori possono eseguire queste operazioni a tempo di esecuzione.
 
 {{% /alert %}}
 
-##  **Lavorare con le righe**
+## **Lavorare con le righe**
 
-###  **Come regolare l'altezza della riga**
+### **Come regolare l'altezza della riga**
 
- Aspose.Cells fornisce una lezione,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Excel Microsoft. IL[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene a[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. IL[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)raccolta che rappresenta tutte le celle del foglio di lavoro.
+Aspose.Cells fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), che rappresenta un file di Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contiene un [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) che consente di accedere a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce una raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) che rappresenta tutte le celle nel foglio di lavoro.
 
- IL[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection fornisce diversi metodi per gestire righe o colonne in un foglio di lavoro. Alcuni di questi sono discussi di seguito in maggiore dettaglio.
+La raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) fornisce diversi metodi per gestire righe o colonne in un foglio di lavoro. Alcuni di questi sono discussi in seguito in maggior dettaglio.
 
-###  **Come impostare l'altezza di una riga**
+### **Come impostare l'altezza di una riga**
 
- È possibile impostare l'altezza di una singola riga chiamando il metodo[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione[**Imposta altezza riga**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) metodo. IL[**Imposta altezza riga**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight)Il metodo accetta i seguenti parametri come segue:
+È possibile impostare l'altezza di una singola riga chiamando il metodo [**SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) della raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Il metodo [**SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) prende i seguenti parametri come segue:
 
-- *Indice riga**, l'indice della riga di cui stai modificando l'altezza.
-- *Altezza riga**, l'altezza della riga da applicare alla riga.
+- **Indice di riga**, l'indice della riga a cui si sta modificando l'altezza.
+- **Altezza della riga**, l'altezza della riga da applicare alla riga.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingHeightOfRow-1.cs" >}}
 
-###  **Come impostare l'altezza di tutte le righe in un foglio di lavoro**
+### **Come impostare l'altezza di tutte le righe in un foglio di lavoro**
 
- Se gli sviluppatori devono impostare la stessa altezza di riga per tutte le righe nel foglio di lavoro, possono farlo utilizzando il file[**Altezza standard**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardheight) proprietà del[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collezione.
+Se gli sviluppatori hanno bisogno di impostare la stessa altezza della riga per tutte le righe nel foglio di lavoro, possono farlo utilizzando la proprietà [**StandardHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardheight) della raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells).
 
 **Esempio:**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingHeightAllRows-1.cs" >}}
 
-##  **Lavorare con le colonne**
+## **Lavorare con colonne**
 
-###  **Come impostare la larghezza di una colonna**
+### **Come impostare la larghezza di una colonna**
 
- Imposta la larghezza di una colonna chiamando il metodo[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione[**Imposta larghezza colonna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) metodo. IL[**Imposta larghezza colonna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth)Il metodo accetta i seguenti parametri:
+Imposta la larghezza di una colonna chiamando il metodo [**SetColumnWidth**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) della raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Il metodo [**SetColumnWidth**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) prende i seguenti parametri:
 
-- *Indice colonna**, l'indice della colonna di cui stai modificando la larghezza.
-- *Larghezza colonna**, la larghezza della colonna desiderata.
+- **Indice di colonna**, l'indice della colonna a cui si sta modificando la larghezza.
+- **Larghezza di colonna**, la larghezza desiderata della colonna.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingWidthOfColumn-1.cs" >}}
 
-###  **Come impostare la larghezza della colonna in pixel**
+### **Come impostare la larghezza della colonna in pixel**
 
-Imposta la larghezza di una colonna chiamando il metodo[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collezione[**Imposta larghezza colonna pixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)metodo. IL[**Imposta larghezza colonna pixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)Il metodo accetta i seguenti parametri:
+Imposta la larghezza di una colonna chiamando il metodo [**SetColumnWidthPixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel) della raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Il metodo [**SetColumnWidthPixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel) prende i seguenti parametri:
 
-- *Indice colonna**, l'indice della colonna di cui stai modificando la larghezza.
-- *Larghezza colonna**, la larghezza della colonna desiderata in pixel.
+- **Indice di colonna**, l'indice della colonna a cui si sta modificando la larghezza.
+- **Larghezza della colonna**, la larghezza della colonna desiderata in pixel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SetColumnWidthInPixels-1.cs" >}}
 
-###  **Come impostare la larghezza di tutte le colonne in un foglio di lavoro**
+### **Come impostare la larghezza di tutte le colonne in un foglio di lavoro**
 
- Per impostare la stessa larghezza di colonna per tutte le colonne del foglio di lavoro, utilizzare il comando[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collezione[**Larghezza standard**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardwidth)proprietà.
+Per impostare la stessa larghezza della colonna per tutte le colonne nel foglio di lavoro, utilizzare la proprietà [**StandardWidth**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardwidth) della raccolta [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingWidthOfAllColumns-1.cs" >}}
 
-##  **Argomenti avanzati**
-- [Adatta righe e colonne automaticamente](/cells/it/net/autofit-rows-and-columns/)
+## **Argomenti avanzati**
+- [Adatta automaticamente righe e colonne](/cells/it/net/autofit-rows-and-columns/)
 - [Converti testo in colonne utilizzando Aspose.Cells](/cells/it/net/convert-text-to-columns-using-aspose-cells/)
-- [Copia di righe e colonne](/cells/it/net/copying-rows-and-columns/)
+- [Copia righe e colonne](/cells/it/net/copying-rows-and-columns/)
 - [Elimina righe e colonne vuote in un foglio di lavoro](/cells/it/net/delete-blank-rows-and-columns-in-a-worksheet/)
-- [Raggruppamento e separazione di righe e colonne](/cells/it/net/grouping-and-ungrouping-rows-and-columns/)
-- [Nascondere e mostrare righe e colonne](/cells/it/net/hiding-and-showing-rows-and-columns/)
-- [Inserisci o elimina righe in un foglio di lavoro Excel](/cells/it/net/insert-or-delete-rows-in-an-excel-worksheet/)
-- [Inserimento ed eliminazione di righe e colonne di file Excel](/cells/it/net/inserting-and-deleting-rows-and-columns/)
-- [Rimuovi le righe duplicate in un foglio di lavoro](/cells/it/net/remove-duplicate-rows-in-a-worksheet/)
-- [Aggiorna i riferimenti in altri fogli di lavoro eliminando colonne e righe vuote in un foglio di lavoro](/cells/it/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
+- [Raggruppa e scollega righe e colonne](/cells/it/net/grouping-and-ungrouping-rows-and-columns/)
+- [Nascondi e mostra righe e colonne](/cells/it/net/hiding-and-showing-rows-and-columns/)
+- [Inserisci o elimina righe in un foglio di lavoro di Excel](/cells/it/net/insert-or-delete-rows-in-an-excel-worksheet/)
+- [Inserimento ed eliminazione di righe e colonne di un file di Excel](/cells/it/net/inserting-and-deleting-rows-and-columns/)
+- [Rimuovere righe duplicate in un foglio di lavoro](/cells/it/net/remove-duplicate-rows-in-a-worksheet/)
+- [Aggiorna i riferimenti in altri fogli di lavoro mentre elimini colonne e righe vuote in un foglio di lavoro](/cells/it/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)

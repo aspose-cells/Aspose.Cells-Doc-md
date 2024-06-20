@@ -1,6 +1,8 @@
-﻿---
-title: GridWeb の操作
+---
+title: GridWeb での作業
 type: docs
 weight: 20
-url: /ja/net/working-with-gridweb/
+url: /ja/net/aspose-cells-gridweb/working-with-gridweb/
 ---
+
+

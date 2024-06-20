@@ -1,15 +1,16 @@
-﻿---
-title: Beställ om ark i arbetsboken
+---
+title: Omarrangera ark inom arbetsbok
 type: docs
 weight: 50
 url: /sv/java/re-order-sheets-within-workbook/
 ---
-## **Aspose.Cells - Beställ om ark i arbetsboken**
-Aspose.Cells tillhandahåller en metod, Worksheet.moveTo(), som används för att flytta ett kalkylblad till en annan plats i samma kalkylblad.
+
+## **Aspose.Cells - Omarrangera ark inom arbetsbok**
+Aspose.Cells tillhandahåller en metod, Worksheet.moveTo(), som används för att flytta en arbetsblad till en annan plats i samma kalkylblad.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a new Workbook.
 
@@ -36,12 +37,12 @@ worksheet3.moveTo(2);
 workbook.save(dataDir + "AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Beställ om ark i arbetsboken**
+## **Apache POI SS - HSSF XSSF - Omarrangera ark inom arbetsbok**
 Apache POI tillhandahåller metoden Workbook.setSheetOrder() för att ställa in kalkylblad i önskad ordning.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/reordersheets)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Kopiera och flytta arbetsblad](/cells/sv/java/copying-and-moving-worksheets).
+För mer information, besök [Kopiera och flytta arbetsblad](/cells/sv/java/copying-and-moving-worksheets)
 
 {{% /alert %}}

@@ -1,16 +1,17 @@
-﻿---
-title: Adatta automaticamente righe e colonne in Ruby
+---
+title: Adattamento automatico delle righe e delle colonne in Ruby
 type: docs
 weight: 20
 url: /it/java/autofit-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Adatta automaticamente righe e colonne**
-### **Riga di adattamento automatico**
-L'approccio più diretto al ridimensionamento automatico della larghezza e dell'altezza di una riga consiste nel chiamare il metodo autoFitRow della classe Worksheet. Il metodo autoFitRow accetta un indice di riga (della riga da ridimensionare) come parametro.
 
-**Codice Rubino**
+## **Aspose.Cells - Adattamento automatico delle righe e delle colonne**
+### **Adatta automaticamente la riga**
+Il modo più diretto per dimensionare automaticamente la larghezza e l'altezza di una riga è chiamare il metodo autoFitRow della classe Worksheet. Il metodo autoFitRow prende come parametro l'indice della riga da ridimensionare.
 
-{{< highlight "ruby" >}}
+**Codice Ruby**
+
+{{< highlight ruby >}}
 
  def autofit_row()
 
@@ -45,12 +46,12 @@ L'approccio più diretto al ridimensionamento automatico della larghezza e dell'
     end
 
 {{< /highlight >}}
-### **Colonna Adatta automaticamente**
-Il modo più semplice per ridimensionare automaticamente la larghezza e l'altezza di una colonna consiste nel chiamare il metodo autoFitColumn della classe Worksheet. Il metodo autoFitColumn accetta l'indice di colonna (della colonna che sta per essere ridimensionata) come parametro.
+### **Adatta automaticamente la colonna**
+Il modo più semplice per dimensionare automaticamente la larghezza e l'altezza di una colonna è chiamare il metodo autoFitColumn della classe Worksheet. Il metodo autoFitColumn prendere l'indice della colonna da ridimensionare come parametro.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def autofit_column()
 
@@ -86,6 +87,6 @@ end
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Adatta automaticamente righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Adatta automaticamente righe e colonne (Aspose.Cells)** da uno dei seguenti siti di social coding:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

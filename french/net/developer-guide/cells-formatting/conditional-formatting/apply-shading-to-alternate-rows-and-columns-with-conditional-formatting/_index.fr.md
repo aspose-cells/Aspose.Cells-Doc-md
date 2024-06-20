@@ -1,34 +1,35 @@
 ---
-title: Appliquer un ombrage à des lignes et des colonnes alternatives avec une mise en forme conditionnelle
-description: Comment utiliser la bibliothèque Aspose.Cells dans C# pour appliquer des ombres de mise en forme conditionnelle pour alterner les lignes et les colonnes. En ajustant ces critères, vous avez plus de contrôle sur l’apparence et l’apparence des cellules.
-keywords: Aspose.Cells, Conditional Formatting, C#, Alternate Rows, Alternate Columns, Shadows
+title: Appliquer un ombrage aux lignes et colonnes alternées avec une mise en forme conditionnelle
+description: Comment utiliser la bibliothèque Aspose.Cells en C# pour appliquer des ombres en utilisant une mise en forme conditionnelle pour les lignes et colonnes alternées. En ajustant ces critères, vous avez plus de contrôle sur l apparence des cellules.
+keywords: Aspose.Cells, Mise en forme conditionnelle, C#, Lignes Alternées, Colonnes Alternées, Ombres
 type: docs
 weight: 30
 url: /fr/net/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells Les API fournissent les moyens d'ajouter et de manipuler des règles de formatage conditionnel pour le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)objet. Ces règles peuvent être adaptées de plusieurs manières pour obtenir le formatage souhaité en fonction de conditions ou de règles. Cet article démontrera l'utilisation des API Aspose.Cells for .NET pour appliquer un ombrage à des lignes et des colonnes alternées à l'aide de règles de mise en forme conditionnelle et des fonctions intégrées d'Excel.
+Les API Aspose.Cells offrent les moyens d'ajouter et de manipuler des règles de mise en forme conditionnelle pour l'objet [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Ces règles peuvent être adaptées de différentes manières pour obtenir la mise en forme souhaitée en fonction de conditions ou de règles. Cet article démontrera l'utilisation des API Aspose.Cells for .NET pour appliquer un ombrage aux lignes et colonnes alternées avec l'aide de règles de mise en forme conditionnelle et de fonctions intégrées à Excel.
 
 {{% /alert %}}
 
-Cet article utilise les fonctions intégrées d'Excel telles que ROW, COLUMN et MOD. Voici quelques détails de ces fonctions pour une meilleure compréhension de l'extrait de code fourni ci-dessus.
+Cet article utilise des fonctions intégrées à Excel telles que ROW, COLUMN & MOD. Voici quelques détails sur ces fonctions pour une meilleure compréhension de l'extrait de code fourni ci-après.
 
-- **ROW()** La fonction renvoie le numéro de ligne d'une référence de cellule. Si le paramètre de référence est omis, il suppose que la référence est l'adresse de cellule dans laquelle la fonction ROW a été saisie.
-- **COLUMN()**La fonction renvoie le numéro de colonne d’une référence de cellule. Si le paramètre de référence est omis, il suppose que la référence est l'adresse de cellule dans laquelle la fonction COLONNE a été saisie.
-- **MOD()** La fonction renvoie le reste après qu'un nombre est divisé par un diviseur, où le premier paramètre de la fonction est la valeur numérique dont vous souhaitez trouver le reste et le deuxième paramètre est le nombre utilisé pour diviser en paramètre numérique. Si le diviseur est 0, alors il renverra le #DIV/0 ! erreur.
+- La fonction **ROW()** renvoie le numéro de ligne d'une référence de cellule. Si le paramètre de référence est omis, il suppose que la référence est l'adresse de la cellule dans laquelle la fonction ROW a été saisie.
+- La fonction **COLUMN()** renvoie le numéro de colonne d'une référence de cellule. Si le paramètre de référence est omis, il suppose que la référence est l'adresse de la cellule dans laquelle la fonction COLUMN a été saisie.
+- La fonction **MOD()** retourne le reste après la division d'un nombre par un diviseur, où le premier paramètre de la fonction est la valeur numérique dont vous souhaitez trouver le reste et le deuxième paramètre est le nombre utilisé pour diviser le paramètre de nombre. Si le diviseur est 0, alors il retournera l'erreur #DIV/0!.
 
-Commençons par écrire du code pour atteindre cet objectif avec l'aide de Aspose.Cells for .NET API.
+Commençons à écrire du code pour accomplir cet objectif avec l'aide de l'API Aspose.Cells for .NET.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-ApplyShadingToAlternateRowsColumns-1.cs" >}}
 
-L'instantané suivant montre la feuille de calcul résultante chargée dans l'application Excel.
+La capture d'écran suivante montre la feuille de calcul résultante chargée dans l'application Excel.
 
-|![tâche : image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)|
+|![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)|
 | :- |
 
- Afin d'appliquer l'ombrage aux colonnes alternatives, il suffit de changer la formule**=MOD(LIGNE(),2)=0** comme *=MOD(COLUMN(),2)=0**, c'est-à-dire ; au lieu d'obtenir l'index de ligne, modifiez la formule pour récupérer l'index de colonne.
-La feuille de calcul résultante, dans ce cas, ressemblera à ceci.
+Pour appliquer l'ombrage aux colonnes alternatives, il vous suffit de changer la formule **=MOD(ROW(),2)=0** en **=MOD(COLUMN(),2)=0**, c'est-à-dire; au lieu d'obtenir l'index de ligne, modifier la formule pour récupérer l'index de colonne. 
+La feuille de calcul résultante, dans ce cas, ressemblera comme suit.
 
-|![tâche : image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)|
+|![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)|
 | :- |

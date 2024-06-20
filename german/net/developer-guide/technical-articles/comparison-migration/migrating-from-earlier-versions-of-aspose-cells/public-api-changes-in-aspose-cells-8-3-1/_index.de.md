@@ -1,27 +1,28 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.3.1
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.3.1
 type: docs
 weight: 110
 url: /de/net/public-api-changes-in-aspose-cells-8-3-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.3.0 zu 8.3.1, die für Modul-/Anwendungsentwickler von Interesse sein könnten.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 8.3.0 auf 8.3.1, die für Modul-/Anwendungs-Entwickler interessant sein könnten.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Eigenschaft DataLabels.ShowCellRange hinzugefügt**
- Die Eigenschaft ShowCellRange wurde der DataLabels-Klasse hinzugefügt, um die Funktionalität von Excel zum Formatieren der Datenbeschriftungen von Diagrammen zur Laufzeit nachzuahmen. Bitte beachten Sie, dass Excel diese Funktion durch die folgenden Schritte bereitstellt.
+## **Hinzugefügte APIs**
+### **Hinzugefügtes DataLabels.ShowCellRange-Eigenschaft**
+Die Eigenschaft ShowCellRange wurde der DataLabels-Klasse hinzugefügt, um die Funktionalität von Excel zur Formatierung von Diagrammdatenbeschriftungen zur Laufzeit nachzuahmen. Bitte beachten Sie, dass Excel diese Funktion über die folgenden Schritte bereitstellt. 
 
-1. Wählen Sie Datenetiketten der Serie und klicken Sie mit der rechten Maustaste, um das Popup-Menü zu öffnen.
-1.  Drücke den**Datenbeschriftungen formatieren...** und es wird sich zeigen**Beschriftungsoptionen**.
-1.  Aktivieren oder deaktivieren Sie das Kontrollkästchen**Etikett enthält - Wert von Cells**.
+1. Wählen Sie Datenetiketten der Serie aus und klicken Sie mit der rechten Maustaste, um das Popup-Menü zu öffnen.
+1. Klicken Sie auf **Datenetiketten formatieren...** und es wird **Beschriftungsoptionen** angezeigt.
+1. Aktivieren oder deaktivieren Sie das Kontrollkästchen **Beschriftung enthält – Wert aus Zellen**.
 
- Der folgende Beispielcode greift auf die Datenbeschriftungen der Diagrammreihe zu und legt dann die DataLabels.ShowCellRange-Methode auf „true“ fest, um die Funktion von Excel nachzuahmen**Etikett enthält - Wert von Cells**.
+Der unten stehende Beispielscode greift auf die Datenbeschriftungen der Diagrammreihe zu und setzt dann die Methode DataLabels.ShowCellRange auf true, um die Funktion von Excel **Etikett enthält - Wert aus Zellen** nachzuahmen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from the source Excel file
 
@@ -49,7 +50,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -80,16 +81,16 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Bitte überprüfen Sie den Artikel[Anzeige des Bereichs Cell als Datenbeschriftung](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) für mehr Informationen.
+Bitte lesen Sie den Artikel [Anzeigen des Zellenbereichs als Datenbeschriftungen](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) für weitere Informationen.
 
 {{% /alert %}} 
 
-### **Methoden Cell.GetTable & ListObject.PutCellValue hinzugefügt**
-Die Methoden Cell.GetTable & ListObject.PutCellValue wurden mit Aspose.Cells for .NET 8.3.1 hinzugefügt, um den Benutzern den Zugriff auf das ListObject von einer Zelle aus zu erleichtern und darin mithilfe der Zeilen- und Spaltenoffsets Werte hinzuzufügen. Der folgende Beispielcode lädt die Quelltabelle und fügt Werte in die Tabelle ein.
+### **Hinzugefügte Methoden Cell.GetTable & ListObject.PutCellValue**
+Die Methoden Cell.GetTable & ListObject.PutCellValue wurden mit Aspose.Cells for .NET 8.3.1 hinzugefügt, um den Benutzern den Zugriff auf das ListObject von einer Zelle aus und das Hinzufügen von Werten darin mithilfe der Zeilen- und Spaltenoffsets zu erleichtern. Der folgende Beispielscode lädt die Quellentabelle und fügt Werte in die Tabelle ein.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -124,7 +125,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook from source Excel file
 
@@ -159,18 +160,18 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Bitte überprüfen Sie den Artikel[Zugriff auf die Tabelle von Cell und Hinzufügen von Werten darin mithilfe von Zeilen- und Spalten-Offsets](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) für mehr Informationen.
+Bitte lesen Sie den Artikel [Zugriff auf Tabelle aus Zelle und Hinzufügen von Werten mithilfe von Zeilen- und Spaltenoffsets](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) für weitere Informationen.
 
 {{% /alert %}} 
 
-### **Eigenschaft OdsSaveOptions.IsStrictSchema11 Hinzugefügt**
-Die Eigenschaft IsStrictSchema11 wurde der OdsSaveOptions-Klasse hinzugefügt, damit die Entwickler die Tabelle in einem Format speichern können, das der ODF v1.2-Spezifikation entspricht. Der Standardwert der Eigenschaft IsStrictSchema11 ist false, d. h. ab Version 8.3.1 der Aspose.Cells-APIs werden die ODS-Dateien standardmäßig im ODF-Format Version 1.2 gespeichert.
+### **Hinzugefügte Eigenschaft OdsSaveOptions.IsStrictSchema11**
+Die Eigenschaft IsStrictSchema11 wurde der Klasse OdsSaveOptions hinzugefügt, um den Entwicklern das Speichern der Arbeitsmappe in einem Format gemäß der ODF v1.2-Spezifikation zu ermöglichen. Der Standardwert der Eigenschaft IsStrictSchema11 ist false, das bedeutet, dass ab Version 8.3.1 der Aspose.Cells-APIs die ODS-Dateien standardmäßig als ODF-Format Version 1.2 gespeichert werden.
 
-Das unten bereitgestellte Code-Snippet speichert die Datei ODS im ODF 1.2-Format.
+Der unten bereitgestellte Codeschnipsel speichert die ODS-Datei im ODF 1.2-Format.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 
@@ -203,7 +204,7 @@ workbook.Save("ODF1.1.ods", options);
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook 
 
@@ -235,23 +236,23 @@ m_workbook.Save("ODF1.1.ods", options)
 
 {{% alert color="primary" %}} 
 
- Bitte überprüfen Sie den Artikel[Speichern Sie die Datei ODS in den ODF 1.1- und 1.2-Spezifikationen](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) für mehr Informationen.
+Bitte lesen Sie den Artikel [Speichern von ODS-Dateien in den ODF 1.1- und 1.2-Spezifikationen](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) für weitere Informationen.
 
 {{% /alert %}} 
 
-### **Methode SparklineCollection.Add Hinzugefügt**
- Aspose.Cells APIs haben die SparklineCollection.Add(string dataRange, int row, int column)-Methode verfügbar gemacht, um den Datenbereich und den Speicherort der Sparkline-Gruppe anzugeben. Bitte beachten Sie, dass Excel die gleiche Funktion durch die folgenden Schritte bietet.
+### **Hinzugefügte SparklineCollection.Add-Methode**
+Aspose.Cells-APIs haben die Methode SparklineCollection.Add(string dataRange, int row, int column) freigegeben, um den Datenbereich und den Speicherort der Sparkline-Gruppe anzugeben. Bitte beachten Sie, dass Excel die gleiche Funktion durch folgende Schritte bereitstellt. 
 
-1. Wählen Sie die Zelle aus, die Ihre Sparkline enthält.
-1.  Wählen**Bearbeiten Sie Daten aus der Sparkline** Abschnitt innerhalb der**Design** Tab
-1.  Wählen**Standort und Daten der Gruppe bearbeiten**.
-1.  Angeben**Datenreichweite** & **Standort**.
+1. Wählen Sie die Zelle mit Ihrer Sparkline aus.
+1. Wählen Sie **Daten bearbeiten** im Bereich **Entwurf** aus.
+1. Wählen Sie **Gruppenposition & Daten bearbeiten** aus.
+1. Geben Sie den **Datenbereich** & **Ort** an.
 
- Der folgende Beispielcode lädt die Quelltabelle, greift auf die erste Sparkline-Gruppe zu und fügt neue Datenbereiche und Positionen für die Sparkline-Gruppe hinzu.
+Der folgende Beispielcode lädt die Quellentabelle, greift auf die erste Sparkline-Gruppe zu und fügt neue Datenbereiche und Positionen für die Sparkline-Gruppe hinzu. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -284,7 +285,7 @@ workbook.Save("output.xlsx");
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Create workbook from source Excel file
 
@@ -317,6 +318,6 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Bitte überprüfen Sie den Artikel[Kopieren Sie die Sparkline, indem Sie den Datenbereich und den Speicherort der Sparkline-Gruppe angeben](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) für mehr Informationen.
+Bitte lesen Sie den Artikel [Sparkline kopieren, indem der Datenbereich und der Speicherort der Sparkline-Gruppe angegeben werden](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) für weitere Informationen.
 
 {{% /alert %}}

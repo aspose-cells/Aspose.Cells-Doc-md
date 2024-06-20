@@ -1,191 +1,192 @@
 ---
-title: Définition des options de page
+title: Réglage des options de page
 type: docs
 weight: 10
 url: /fr/net/setting-page-options/
-description: Cet article fournit un exemple de code pour définir les options de page des feuilles de calcul Excel par programmation à l'aide de la bibliothèque C# API et .NET. Vous pourrez définir l'orientation de la page, le facteur d'échelle, les options FitToPages, la taille du papier, la qualité d'impression, le premier numéro de page.
-keywords: set excel page orientation c#, set excel scaling factor c#, set excel worksheets paper size c#
+description: Cet article fournit un code d exemple pour définir les options de page des feuilles de calcul Excel de manière programmatique à l aide de l API C# et de la bibliothèque .NET. Vous pourrez définir l orientation de la page, le facteur d échelle, les options FitToPages, la taille du papier, la qualité d impression, le numéro de la première page.
+keywords: définir l orientation de la page Excel c#, définir le facteur d échelle Excel c#, définir la taille du papier des feuilles de calcul Excel c#
 ---
+
 {{% alert color="primary" %}}
 
-Parfois, il est nécessaire de configurer les paramètres de mise en page pour les feuilles de calcul afin de contrôler l'impression. Ces paramètres de configuration de page offrent diverses options.
+Parfois, il est nécessaire de configurer les paramètres de mise en page des feuilles de calcul pour contrôler l'impression. Ces paramètres de mise en page offrent diverses options.
 
 {{% /alert %}}
 
-##  **Définition des options de page**
+## **Définition des options de page**
 
-Les options de configuration de page sont entièrement prises en charge dans Aspose.Cells. Cet article explique comment définir les options de page avec Aspose.Cells et montre des exemples de code pour la configuration :
+Les options de configuration de page sont entièrement prises en charge dans Aspose.Cells. Cet article explique comment définir les options de page avec Aspose.Cells et montre des exemples de code pour régler :
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
+Aspose.Cells fournit une classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contient une collection [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
 
- Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fournit la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) propriété utilisée pour définir les options de mise en page de la feuille de calcul. En fait, cela[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la propriété est un objet de la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe utilisée pour définir différentes options de mise en page pour une feuille de calcul imprimée. Le[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)La classe fournit diverses propriétés utilisées pour définir les options de mise en page. Certaines de ces propriétés sont décrites ci-dessous.
+La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fournit la propriété [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) qui est utilisée pour définir les options de configuration de page de la feuille de calcul. En fait, cette propriété [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) est un objet de la classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) utilisé pour définir différentes options de mise en page pour une feuille de calcul imprimée. La classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) fournit diverses propriétés utilisées pour définir des options de mise en page. Certaines de ces propriétés sont discutées ci-dessous.
 
-###  **Orientation des pages**
+### **Orientation de la page**
 
- L'orientation de la page peut être réglée sur portrait ou paysage à l'aide de la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) propriété. Le[**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) propriété accepte l'une des valeurs prédéfinies dans le[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)énumération ci-dessous.
+L'orientation de la page peut être définie en mode portrait ou paysage à l'aide de la propriété [**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) de la classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). La propriété [**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) accepte l'une des valeurs prédéfinies de l'énumération [**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype), répertoriées ci-dessous.
 
 |**Types d'orientation de page**|**Description**|
 | :- | :- |
-|Paysage|Orientation paysage|
+|Landscape|Orientation paysage|
 |Portrait|Orientation portrait|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
 
-###  **Facteur d'échelle**
+### **Facteur d'échelle**
 
- Il est possible de réduire ou d'agrandir la taille d'une feuille de calcul en ajustant le facteur d'échelle avec la[**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)propriété.
+Il est possible de réduire ou d'agrandir la taille d'une feuille de calcul en ajustant le facteur d'échelle avec la propriété [**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
-###  **Options FitToPages**
+### **Options FitToPages**
 
- Pour adapter le contenu de la feuille de calcul à un nombre de pages spécifique, utilisez la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) et[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)propriétés. Ces propriétés sont également utilisées pour mettre à l'échelle les feuilles de calcul.
+Pour ajuster le contenu de la feuille de calcul à un nombre spécifique de pages, utilisez les propriétés [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) et [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide) de la classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). Ces propriétés sont également utilisées pour mettre à l'échelle les feuilles de calcul.
 
 {{% alert color="primary" %}}
 
- Vous pouvez soit choisir le[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)/[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide) ou la[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom) propriété mais pas les deux à la fois.
+Vous pouvez choisir soit la propriété [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)/[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide) soit la propriété [**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom) mais pas les deux en même temps.
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-FitToPagesOptions-1.cs" >}}
 
-###  **Taille de papier**
+### **Taille du papier**
 
- Définissez le format de papier sur lequel les feuilles de calcul seront imprimées à l'aide du[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Taille de papier**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) propriété. Le[**Taille de papier**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) propriété accepte l'une des valeurs prédéfinies dans le[**Type de format de papier**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)énumération ci-dessous.
+Définissez la taille du papier sur laquelle les feuilles de calcul seront imprimées en utilisant la propriété [**PaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) de la classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). La propriété [**PaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) accepte l'une des valeurs prédéfinies de l'énumération [**PaperSizeType**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype), répertoriées ci-dessous.
 
-|**Types de format de papier**|**Description**|
+|**Types de taille de papier**|**Description**|
 | :- | :- |
-|PapierLettre|Lettre (8-1/2 po x 11 po)|
-|PapierLettrePetit|Lettre petit (8-1/2 po x 11 po)|
-|PapierTabloid|Tabloïd (11 po x 17 po)|
-|Livre de papier|Registre (17 po x 11 po)|
-|PapierLégal|Légal (8-1/2 po x 14 po)|
-|PaperStatement|Relevé (5-1/2 po x 8-1/2 po)|
-|PapierExécutif|Exécutif (7-1/4 po x 10-1/2 po)|
-|PapierA3|A3 (297 mm x 420 mm)|
-|PapierA4|A4 (210 mm x 297 mm)|
-|PapierA4Small|A4 Petit (210 mm x 297 mm)|
-|PapierA5|A5 (148 mm x 210 mm)|
-|PapierB4|JIS B4 (257 mm x 364 mm)|
-|PapierB5|JIS B5 (182 mm x 257 mm)|
-|PapierFolio|Folio (8-1/2 po x 13 po)|
+|PaperLetter|Letter (8-1/2 in. x 11 in.)|
+|PaperLetterSmall|Letter Small (8-1/2 in. x 11 in.)|
+|PaperTabloid|Tabloid (11 in. x 17 in.)|
+|PaperLedger|Ledger (17 in. x 11 in.)|
+|PaperLegal|Legal (8-1/2 in. x 14 in.)|
+|PaperStatement|Statement (5-1/2 in. x 8-1/2 in.)|
+|PaperExecutive|Executive (7-1/4 in. x 10-1/2 in.)|
+|PaperA3|A3 (297 mm x 420 mm)|
+|PaperA4|A4 (210 mm x 297 mm)|
+|PaperA4Small|A4 Small (210 mm x 297 mm)|
+|PaperA5|A5 (148 mm x 210 mm)|
+|PaperB4|JIS B4 (257 mm x 364 mm)|
+|PaperB5|JIS B5 (182 mm x 257 mm)|
+|PaperFolio|Folio (8-1/2 in. x 13 in.)|
 |PaperQuarto|Quarto (215 mm x 275 mm)|
-|Papier10x14|10 po x 14 po|
-|Papier11x17|11 po x 17 po|
-|PapierNote|Remarque (8-1/2 po x 11 po)|
-|PapierEnveloppe9|Enveloppe #9 (3-7/8 po x 8-7/8 po)|
-|PapierEnveloppe10|Enveloppe #10 (4-1/8 po x 9-1/2 po)|
-|PapierEnveloppe11|Enveloppe #11 (4-1/2 po x 10-3/8 po)|
-|PapierEnveloppe12|Enveloppe #12 (4-1/2 po x 11 po)|
-|PapierEnveloppe14|Enveloppe #14 (5 po x 11-1/2 po)|
-|Feuille de papier|Feuille de taille C|
-|PaperDSheet|Feuille de taille D|
-|Feuille de papier|Feuille de taille E|
-|PapierEnveloppeDL|Enveloppe DL (110 mm x 220 mm)|
-|PapierEnveloppeC5|Enveloppe C5 (162 mm x 229 mm)|
-|PapierEnveloppeC3|Enveloppe C3 (324 mm x 458 mm)|
-|PapierEnveloppeC4|Enveloppe C4 (229 mm x 324 mm)|
-|PapierEnveloppeC6|Enveloppe C6 (114 mm x 162 mm)|
-|PapierEnveloppeC65|Enveloppe C65 (114 mm x 229 mm)|
-|PapierEnveloppeB4|Enveloppe B4 (250 mm x 353 mm|
-|PapierEnveloppeB5|Enveloppe B5 (176 mm x 250 mm)|
-|PapierEnveloppeB6|Enveloppe B6 (176 mm x 125 mm)|
-|PapierEnveloppeItalie|Enveloppe Italie (110 mm x 230 mm)|
-|PapierEnveloppeMonarque|Enveloppe Monarch (3-7/8 po x 7-1/2 po)|
-|PapierEnveloppePersonnels|Enveloppe (3-5/8 po x 6-1/2 po)|
-|PapierFanfoldÉ.-U.|Pliage en accordéon standard américain (14-7/8 po x 11 po)|
-|PapierFanfoldStdAllemand|Pliage accordéon standard allemand (8-1/2 po x 12 po)|
-|PapierFanfoldLégalAllemand|Pliage accordéon légal allemand (8-1/2 po x 13 po)|
-|PapierISOB4|B4 (ISO) 250 × 353 mm|
-|PapierJaponaisCarte Postale|Carte postale japonaise (100 mm x 148 mm)|
-|Papier9x11|9 po x 11 po|
-|Papier10x11|10 po x 11 po|
-|Papier15x11|15 po x 11 po|
-|PapierEnveloppeInviter|Invitation d'enveloppe (220 mm x 220 mm)|
-|PapierLettreExtra|US Letter Extra 9 \ 275 x 12 po|
-|PaperLegalExtra|US Legal Extra 9 \ 275 x 15 po|
-|PapierTabloidExtra|Tabloïd américain Extra 11,69 x 18 po|
-|PapierA4Extra|A4 supplémentaire 9,27 x 12,69 pouces|
-|PapierLettreTransverse|Lettre transversale 8 \ 275 x 11 po|
-|PapierA4Transverse|A4 Transversal 210 x 297 mm|
-|PapierLettreExtraTransverse|Lettre Extra Transverse 9\275 x 12 po|
-|PapierSuperA|SuperA/SuperA/A4 227 × 356 mm|
-|PapierSuperB|SuperB/SuperB/A3 305 x 487 mm|
-|PapierLettrePlus|Lettre US Plus 8,5 x 12,69 pouces|
-|PapierA4Plus|A4 Plus 210 x 330 mm|
-|PapierA5Transverse|A5 Transversal 148 x 210 mm|
-|PapierJISB5Transverse|B5 (JIS) Transversal 182 x 257 mm|
-|PapierA3Extra|A3 Extra 322 x 445 mm|
-|PapierA5Extra|A5 Supplémentaire 174 x 235 mm|
-|PapierISOB5Extra|B5 (ISO) Supplémentaire 201 x 276 mm|
-|PapierA2|A2 420 × 594 mm|
-|PapierA3Transverse|A3 Transversal 297 x 420 mm|
-|PapierA3ExtraTransverse|A3 Extra Transversal 322 x 445 mm|
-|PapierJaponaisDoubleCarte Postale|Carte postale double japonaise 200 x 148 mm|
-|PapierA6|A6 105 × 148 mm|
-|papierjaponaisenveloppeKaku2|Enveloppe Japonaise Kaku #2|
-|PapierJaponaisEnveloppeKaku3|Enveloppe Japonaise Kaku #3|
-|PapierJaponaisEnveloppeChou3|Enveloppe japonaise Chou #3|
-|PapierJaponaisEnveloppeChou4|Enveloppe japonaise Chou #4|
-|PapierLettreTourné|11 pouces x 8,5 pouces|
-|PapierA3Rotated|420 mm x 297 mm|
-|PapierA4Tourné|297 mm x 210 mm|
-|PapierA5Rotated|210 mm x 148 mm|
-|PapierJISB4Rotated|B4 (JIS) Rotation 364 x 257 mm|
-|PapierJISB5Rotated|B5 (JIS) Rotation 257 x 182 mm|
-|PapierJaponaisCarte PostaleTourné|Carte postale japonaise tournée 148 x 100 mm|
-|PapierJaponaisDoubleCarte PostaleTourné|Double Carte Postale Japonaise Tournée 148 x 200 mm|
-|PapierA6Rotated|A6 Rotation 148 x 105 mm|
-|papierjaponaisenveloppeKaku2tourné|Enveloppe japonaise Kaku #2 tournée|
-|PapierJaponaisEnveloppeKaku3Rotated|Enveloppe japonaise Kaku #3 tournée|
-|PapierJaponaisEnveloppeChou3Tourné|Enveloppe japonaise Chou #3 tournée|
-|PapierJaponaisEnveloppeChou4Tourné|Enveloppe japonaise Chou #4 tournée|
-|PapierJISB6|B6 (JIS) 128 × 182 mm|
-|PapierJISB6Rotated|B6 (JIS) Rotation 182 x 128 mm|
-|Papier12x11|12 x 11 pouces|
-|papierjaponaisenveloppevous4|Enveloppe japonaise You #4|
-|PapierJaponaisEnveloppeYou4Rotated|Enveloppe japonaise vous # 4 pivotée|
-|PapierPRC16K|RPC 16K 146 x 215 mm|
-|PapierPRC32K|RPC 32K 97 x 151 mm|
-|PapierPRCBig32K|PRC 32K(Grand) 97 x 151 mm|
-|PapierPRCEnveloppe1|Enveloppe PRC #1 102 x 165 mm|
-|PapierPRCEnvelope2|Enveloppe PRC #2 102 x 176 mm|
-|PapierPRCEnveloppe3|Enveloppe PRC #3 125 x 176 mm|
-|PapierPRCEnveloppe4|Enveloppe PRC #4 110 x 208 mm|
-|PapierPRCEnveloppe5|Enveloppe PRC #5 110 x 220 mm|
-|PapierPRCEnveloppe6|Enveloppe PRC #6 120 x 230 mm|
-|PapierPRCEnveloppe7|Enveloppe PRC #7 160 x 230 mm|
-|PapierPRCEnveloppe8|Enveloppe PRC #8 120 x 309 mm|
-|PapierPRCEnveloppe9|Enveloppe PRC #9 229 x 324 mm|
-|PapierPRCEnveloppe10|Enveloppe PRC #10 324 x 458 mm|
-|PapierPRC16KRotation|RPC 16K pivoté|
-|PapierPRC32KRotation|RPC 32K pivoté|
-|PapierPRCBig32KRotated|PRC 32K (gros) tourné|
-|PapierPRCEnvelope1Rotated|Enveloppe PRC #1 Rotation 165 x 102 mm|
-|PapierPRCEnvelope2Rotated|Enveloppe PRC #2 Rotation 176 x 102 mm|
-|PapierPRCEnvelope3Rotated|Enveloppe PRC #3 Rotation 176 x 125 mm|
-|PapierPRCEnvelope4Rotated|Enveloppe PRC #4 Rotation 208 x 110 mm|
-|PapierPRCEnvelope5Rotated|Enveloppe PRC #5 Rotation 220 x 110 mm|
-|PapierPRCEnvelope6Rotated|Enveloppe PRC #6 Rotation 230 x 120 mm|
-|PapierPRCEnvelope7Rotated|Enveloppe PRC #7 Rotation 230 x 160 mm|
-|PapierPRCEnveloppe8Rotated|Enveloppe PRC #8 Rotation 309 x 120 mm|
-|PapierPRCEnveloppe9Rotated|Enveloppe PRC #9 avec rotation 324 x 229 mm|
-|PapierPRCEnvelope10Rotated|Enveloppe PRC #10 avec rotation 458 x 324 mm|
-|PapierB3|B3 habituel (13,9 x 19,7 pouces)|
-|PapierCarte D'Affaires|Carte de visite (90 mm x 55 mm)|
-|PapierThermique|Thermique (3 x 11 po)|
-|Coutume|Représente le format de papier personnalisé.|
+|Paper10x14|10 in. x 14 in.|
+|Paper11x17|11 in. x 17 in.|
+|PaperNote|Note (8-1/2 in. x 11 in.)|
+|PaperEnvelope9|Envelope #9 (3-7/8 in. x 8-7/8 in.)|
+|PaperEnvelope10|Envelope #10 (4-1/8 in. x 9-1/2 in.)|
+|PaperEnvelope11|Envelope #11 (4-1/2 in. x 10-3/8 in.)|
+|PaperEnvelope12|Envelope #12 (4-1/2 in. x 11 in.)|
+|PaperEnvelope14|Envelope #14 (5 in. x 11-1/2 in.)|
+|PaperCSheet|C size sheet|
+|PaperDSheet|D size sheet|
+|PaperESheet|E size sheet|
+|PaperEnvelopeDL|Envelope DL (110 mm x 220 mm)|
+|PaperEnvelopeC5|Envelope C5 (162 mm x 229 mm)|
+|PaperEnvelopeC3|Envelope C3 (324 mm x 458 mm)|
+|PaperEnvelopeC4|Envelope C4 (229 mm x 324 mm)|
+|PaperEnvelopeC6 |Envelope C6 (114 mm x 162 mm)|
+|PaperEnvelopeC65|Envelope C65 (114 mm x 229 mm)|
+|PaperEnvelopeB4|Envelope B4 (250 mm x 353 mm|
+|PaperEnvelopeB5|Envelope B5 (176 mm x 250 mm)|
+|PaperEnvelopeB6|Envelope B6 (176 mm x 125 mm)|
+|PaperEnvelopeItaly|Envelope Italy (110 mm x 230 mm)|
+|PaperEnvelopeMonarch|Envelope Monarch (3-7/8 in. x 7-1/2 in.)|
+|PaperEnvelopePersonal|Envelope (3-5/8 in. x 6-1/2 in.)|
+|PaperFanfoldUS|U.S. Standard Fanfold (14-7/8 in. x 11 in.)|
+|PaperFanfoldStdGerman|German Standard Fanfold (8-1/2 in. x 12 in.)|
+|PaperFanfoldLegalGerman|German Legal Fanfold (8-1/2 in. x 13 in.)|
+|PaperISOB4|B4 (ISO) 250 x 353 mm|
+|PaperJapanesePostcard|Japanese Postcard (100mm x 148mm)|
+|Paper9x11|9 in. x 11 in.|
+|Paper10x11|10 in. x 11 in.|
+|Paper15x11|15 in. x 11 in.|
+|PaperEnvelopeInvite|Envelope Invite(220mm x 220mm)|
+|PaperLetterExtra|US Letter Extra 9 \275 x 12 in|
+|PaperLegalExtra|US Legal Extra 9 \275 x 15 in|
+|PaperTabloidExtra|US Tabloid Extra 11.69 x 18 in|
+|PaperA4Extra|A4 Extra 9.27 x 12.69 in|
+|PaperLetterTransverse|Letter Transverse 8 \275 x 11 in|
+|PaperA4Transverse|A4 Transverse 210 x 297 mm|
+|PaperLetterExtraTransverse|Letter Extra Transverse 9\275 x 12 in|
+|PaperSuperA|SuperA/SuperA/A4 227 x 356 mm|
+|PaperSuperB|SuperB/SuperB/A3 305 x 487 mm|
+|PaperLetterPlus|US Letter Plus 8.5 x 12.69 in|
+|PaperA4Plus|A4 Plus 210 x 330 mm|
+|PaperA5Transverse|A5 Transverse 148 x 210 mm|
+|PaperJISB5Transverse|B5 (JIS) Transverse 182 x 257 mm|
+|PaperA3Extra|A3 Extra 322 x 445 mm|
+|PaperA5Extra|A5 Extra 174 x 235 mm|
+|PaperISOB5Extra|B5 (ISO) Extra 201 x 276 mm|
+|PaperA2|A2 420 x 594 mm|
+|PaperA3Transverse|A3 Transverse 297 x 420 mm|
+|PaperA3ExtraTransverse|A3 Extra Transverse 322 x 445 mm|
+|PaperJapaneseDoublePostcard|Japanese Double Postcard 200 x 148 mm|
+|PaperA6|A6 105 x 148 mm|
+|PaperJapaneseEnvelopeKaku2|Japanese Envelope Kaku #2|
+|PaperJapaneseEnvelopeKaku3|Japanese Envelope Kaku #3|
+|PaperJapaneseEnvelopeChou3|Japanese Envelope Chou #3|
+|PaperJapaneseEnvelopeChou4|Japanese Envelope Chou #4|
+|PaperLetterRotated|11in x 8.5in|
+|PaperA3Rotated|420mm x 297mm|
+|PaperA4Rotated|297mm x 210mm|
+|PaperA5Rotated|210mm x 148mm|
+|PaperJISB4Rotated|B4 (JIS) Rotated 364 x 257 mm|
+|PaperJISB5Rotated|B5 (JIS) Rotated 257 x 182 mm|
+|PaperJapanesePostcardRotated|Japanese Postcard Rotated 148 x 100 mm|
+|PaperJapaneseDoublePostcardRotated|Double Japanese Postcard Rotated 148 x 200 mm|
+|PaperA6Rotated|A6 Rotated 148 x 105 mm|
+|PaperJapaneseEnvelopeKaku2Rotated|Japanese Envelope Kaku #2 Rotated|
+|PaperJapaneseEnvelopeKaku3Rotated|Japanese Envelope Kaku #3 Rotated|
+|PaperJapaneseEnvelopeChou3Rotated|Japanese Envelope Chou #3 Rotated|
+|PaperJapaneseEnvelopeChou4Rotated|Japanese Envelope Chou #4 Rotated|
+|PaperJISB6|B6 (JIS) 128 x 182 mm|
+|PaperJISB6Rotated|B6 (JIS) Rotated 182 x 128 mm|
+|Paper12x11|12 x 11 in|
+|PaperJapaneseEnvelopeYou4|Japanese Envelope You #4|
+|PaperJapaneseEnvelopeYou4Rotated|Japanese Envelope You #4 Rotated|
+|PaperPRC16K|PRC 16K 146 x 215 mm|
+|PaperPRC32K|PRC 32K 97 x 151 mm|
+|PaperPRCBig32K|PRC 32K(Big) 97 x 151 mm|
+|PaperPRCEnvelope1|PRC Envelope #1 102 x 165 mm|
+|PaperPRCEnvelope2|PRC Envelope #2 102 x 176 mm|
+|PaperPRCEnvelope3|PRC Envelope #3 125 x 176 mm|
+|PaperPRCEnvelope4|PRC Envelope #4 110 x 208 mm|
+|PaperPRCEnvelope5|PRC Envelope #5 110 x 220 mm|
+|PaperPRCEnvelope6|PRC Envelope #6 120 x 230 mm|
+|PaperPRCEnvelope7|PRC Envelope #7 160 x 230 mm|
+|PaperPRCEnvelope8|PRC Envelope #8 120 x 309 mm|
+|PaperPRCEnvelope9|PRC Envelope #9 229 x 324 mm|
+|PaperPRCEnvelope10|PRC Envelope #10 324 x 458 mm|
+|PaperPRC16KRotated|PRC 16K Rotated|
+|PaperPRC32KRotated|PRC 32K Rotated|
+|PaperPRCBig32KRotated|PRC 32K(Big) Rotated|
+|PaperPRCEnvelope1Rotated|PRC Envelope #1 Rotated 165 x 102 mm|
+|PaperPRCEnvelope2Rotated|PRC Envelope #2 Rotated 176 x 102 mm|
+|PaperPRCEnvelope3Rotated|PRC Envelope #3 Rotated 176 x 125 mm|
+|PaperPRCEnvelope4Rotated|PRC Envelope #4 Rotated 208 x 110 mm|
+|PaperPRCEnvelope5Rotated|PRC Envelope #5 Rotated 220 x 110 mm|
+|PaperPRCEnvelope6Rotated|PRC Envelope #6 Rotated 230 x 120 mm|
+|PaperPRCEnvelope7Rotated|PRC Envelope #7 Rotated 230 x 160 mm|
+|PaperPRCEnvelope8Rotated|PRC Envelope #8 Rotated 309 x 120 mm|
+|PaperPRCEnvelope9Rotated|PRC Envelope #9 Rotated 324 x 229 mm|
+|PaperPRCEnvelope10Rotated|PRC Envelope #10 Rotated 458 x 324 mm|
+|PaperB3|usual B3(13.9 x 19.7 in)|
+|PaperBusinessCard|Business Card(90mm x 55 mm)|
+|PaperThermal|Thermal(3 x 11 in)|
+|Custom|Represents the custom paper size.|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ManagePaperSize-1.cs" >}}
 
-###  **Qualité d'impression**
+### **Qualité d'impression**
 
- Définissez la qualité d'impression des feuilles de calcul à imprimer avec le[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Qualité d'impression**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)propriété. L'unité de mesure de la qualité d'impression est le point par pouce (DPI).
+Définissez la qualité d'impression des feuilles à imprimer avec la propriété [**PrintQuality**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality) de la classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). L'unité de mesure de la qualité d'impression est le nombre de points par pouce (DPI).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
-###  **Numéro de la première page**
+### **Numéro de la première page**
 
- Commencez la numérotation des pages de la feuille de travail à l'aide de la[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**NuméroPremierPage**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) propriété. Le[**NuméroPremierPage**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)La propriété définit le numéro de page de la première page de la feuille de calcul et les pages suivantes sont numérotées dans l'ordre croissant.
+Commencez la numérotation des pages de feuille de calcul en utilisant la propriété [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) de la classe [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). La propriété [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) définit le numéro de la première page de la feuille de calcul et les pages suivantes sont numérotées dans l'ordre croissant.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}

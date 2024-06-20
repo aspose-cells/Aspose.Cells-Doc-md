@@ -1,23 +1,24 @@
-﻿---
+---
 title: Сортировка данных в электронных таблицах
 type: docs
 weight: 70
 url: /ru/java/sort-data-in-spreadsheets/
 ---
+
 ## **Aspose.Cells - Сортировка данных в электронных таблицах**
 {{% alert color="primary" %}} 
 
-Чтобы отсортировать данные в электронной таблице с помощью Aspose.Cells, просто вызовите метод DataSorter.sorter() после установки нескольких простых в настройке свойств области ячеек.
+Для сортировки данных в электронных таблицах с использованием Aspose.Cells просто вызовите метод DataSorter.sorter() после установки нескольких легко устанавливаемых свойств области ячеек.
 
-Код Java указан ниже.
+Приведен ниже Java-код.
 
 {{% /alert %}} 
 
-Сортировка данных с помощью Aspose.Cells
+Сортировка данных с использованием Aspose.Cells
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtain the DataSorter object in the workbook
 
@@ -64,13 +65,13 @@ ca.EndColumn = 2;
 sorter.sort(cells, ca);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/AsposeDataSort.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Сортировка данных](/java/sort-data) , или же[Сортировка данных](/cells/ru/java/data-sorting).
+Дополнительные сведения см. в разделе [Сортировка данных](/java/sort-data) или [Сортировка данных](/cells/ru/java/data-sorting)
 
 {{% /alert %}}

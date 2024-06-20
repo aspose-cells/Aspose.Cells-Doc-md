@@ -1,20 +1,23 @@
-﻿---
-title: Uso de sus propios iconos en lugar de los iconos predeterminados de GridWeb
+---
+title: Usar sus propios iconos en lugar de los iconos predeterminados de GridWeb
 type: docs
 weight: 10
-url: /es/net/using-your-own-icons-instead-of-the-gridweb-default-icons/
+url: /es/net/aspose-cells-gridweb/use-your-own-icons-instead-of-the-default-icons/
+keywords: GridWeb, icono, iconos
+description: Este artículo describe cómo usar iconos en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-A veces es posible que desee utilizar sus propios iconos (imágenes) en lugar de los iconos predeterminados del control Aspose.Cells.GridWeb. Este artículo explica cómo hacer esto.
+A veces, es posible que desee utilizar sus propios iconos (imágenes) en lugar de los iconos predeterminados del control Aspose.Cells.GridWeb. Este artículo explica cómo hacerlo.
 
 {{% /alert %}} 
 
-Los iconos predeterminados del control se encuentran en la ruta URL "/acw_cliente/". La ruta del archivo puede ser: "C:\Program Files\Aspose\Aspose.Cells for .NET\acw_client" de forma predeterminada. Encontrará archivos como submit.gif, save.gif, etc. en esa carpeta. Si desea reemplazar estas imágenes con las suyas, agregue una sección de configuración al archivo web.config de su aplicación web.
+Los iconos predeterminados del control se encuentran en la ruta URL "/acw_client/". La ruta del archivo por defecto puede ser: "C:\Program Files\Aspose\Aspose.Cells for .NET\acw_client". Encuentras archivos como submit.gif, save.gif, etc. en esa carpeta. Si deseas reemplazar estas imágenes con las tuyas, agrega una sección de configuración al archivo web.config de tu aplicación web.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <appSettings>
 
@@ -26,10 +29,10 @@ Los iconos predeterminados del control se encuentran en la ruta URL "/acw_client
 
 {{< /highlight >}}
 
-Es posible que haya notado que esta configuración solo afecta la ruta de las imágenes de control y no afecta la ruta de los scripts de cliente del control. Por ejemplo, si ejecuta su página con el control GridWeb y verifica el archivo fuente en el navegador, puede encontrar que el acw_ cliente_la propiedad de ruta del elemento DIV de la cuadrícula todavía dice: "/yourApp/webform1.aspx/". En algunos casos, es posible que deba redefinir la ruta del script del cliente. Para obligar al control a usar la ruta de la imagen redefinida como la ruta del script del cliente, agregue otra configuración en la sección de configuración de la aplicación
+Puede que hayas notado que esta configuración solo afecta la ruta de las imágenes del control y no afecta la ruta de los scripts de cliente del control. Por ejemplo, si ejecutas tu página con el control GridWeb y revisas el archivo fuente en el navegador, podrías encontrar que la propiedad de la ruta acw_client del elemento DIV del grid sigue diciendo: “/tuApp/webform1.aspx/”. En algunos casos, es posible que necesites redefinir la ruta del script de cliente. Para forzar al control a usar la ruta de imagen redefinida como la ruta del script de cliente, agrega otro ajuste de configuración en la sección appSettings.
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <add key="Aspose.Cells.GridWeb.force_script_path" value="true" />
 
@@ -39,6 +42,6 @@ Es posible que haya notado que esta configuración solo afecta la ruta de las im
 
 {{% alert color="primary" %}} 
 
-Esta configuración solo tendrá efecto con el control con licencia.
+Esta configuración solo tendrá efecto con el control licenciado.
 
 {{% /alert %}}

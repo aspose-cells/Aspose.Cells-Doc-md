@@ -3,16 +3,17 @@ title: إخفاء وإظهار الصفوف والأعمدة في PHP
 type: docs
 weight: 50
 url: /ar/java/hiding-and-showing-rows-and-columns-in-php/
-description: تعرف على كيفية إخفاء وإظهار الصفوف والأعمدة من خلال واجهات برمجة التطبيقات Aspose.Cells for PHP via Java.
-keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
+description: تعلم كيفية إخفاء وإظهار الصفوف والأعمدة من خلال Aspose.Cells لواجهات برمجة التطبيقات via Java لبرمجة PHP.
+keywords: كيفية إخفاء وإظهار الصفوف والأعمدة في PHP، إخفاء الصفوف أو الأعمدة باستخدام PHP، PHP إظهار الصفوف أو الأعمدة. 
 ---
-##  **Aspose.Cells for PHP - التحكم في رؤية الصفوف والأعمدة**
-###  **كيفية إخفاء الصفوف والأعمدة في PHP**
-يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء طريقتي HideRow وHideColumn للمجموعة Cells على التوالي. تأخذ كلتا الطريقتين فهرس الصف/العمود كمعلمة لإخفاء الصف أو العمود المحدد.
+
+## **Aspose.Cells للـ PHP - التحكم في رؤية الصفوف والأعمدة**
+### **كيفية إخفاء الصفوف والأعمدة في PHP**
+يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء طرق HideRow و HideColumn لمجموعة Cells على التوالي. تأخذ كلا الطريقتين فهرس الصف/العمود كمعلمة لإخفاء الصف أو العمود المعين.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function hide_rows_columns($dataDir)
 
@@ -45,15 +46,15 @@ keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns usi
 }
 
 {{< /highlight >}}
-###  **كيفية إظهار الصفوف والأعمدة باستخدام PHP**
-يمكن للمطورين إظهار أي صف أو عمود مخفي عن طريق استدعاء طريقتي UnhideRow وUnhideColumn للمجموعة Cells على التوالي. تأخذ كلتا الطريقتين معلمتين:
+### **كيفية عرض الصفوف والأعمدة باستخدام PHP**
+يمكن للمطورين إظهار أي صف أو عمود مخفي عن طريق استدعاء طرق UnhideRow و UnhideColumn لمجموعة Cells على التوالي. تأخذ كلا الطريقتين معلمين:
 
-- **فهرس عمود الصف**فهرس الصف أو العمود الذي يستخدم لإظهار الصف أو العمود المحدد.
-- **ارتفاع الصف أو عرض العمود**- ارتفاع الصف أو عرض العمود المخصص للصف أو العمود بعد عرضه.
+- **فهرس الصف أو العمود** - فهرس صف أو عمود يُستخدم لإظهار الصف أو العمود المعين.
+- **ارتفاع الصف أو عرض العمود** - ارتفاع الصف أو عرض العمود المعين بعد إظهاره.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function unhide_rows_columns($dataDir)
 
@@ -86,7 +87,7 @@ keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns usi
 }
 
 {{< /highlight >}}
-##  **تحميل كود التشغيل**
- تحميل**التحكم في رؤية الصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **التحكم في رؤية الصفوف والأعمدة (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

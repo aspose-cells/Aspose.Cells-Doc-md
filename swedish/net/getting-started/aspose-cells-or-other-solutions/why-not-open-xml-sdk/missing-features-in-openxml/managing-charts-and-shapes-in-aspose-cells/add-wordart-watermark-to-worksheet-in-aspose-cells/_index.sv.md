@@ -1,26 +1,27 @@
-﻿---
-title: Lägg till WordArt Watermark i kalkylbladet i Aspose.Cells
+---
+title: Lägg till WordArt vattenstämpel på arbetsblad i Aspose.Cells
 type: docs
 weight: 20
 url: /sv/net/add-wordart-watermark-to-worksheet-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Använd WordArt för att lägga till speciella texteffekter i kalkylblad. Till exempel, sträck ut en titel över filens överkant, dekorera text och få text att passa en förinställd form, eller använd text på ett Excel-ark som en bakgrundsvattenstämpel. WordArt blir ett objekt som du kan flytta eller placera i kalkylblad för att lägga till dekoration.
+ Använd WordArt för att lägga till speciella texteffekter till kalkylblad. Till exempel, sträck en rubrik överst på filen, dekorera text och få texten att passa en förinställd form eller applicera text på ett Excel-ark som en bakgrundsvattenstämpel. WordArt blir ett objekt som du kan flytta eller placera i kalkylblad för att lägga till dekoration.
 
 {{% /alert %}}
 
-Följande exempel visar hur du lägger till en WordArt-form för att ställa in en bakgrundsvattenstämpel för ett kalkylblad.
+Följande exempel visar hur man lägger till en WordArt-form för att ställa in en bakgrundsvattenstämpel för ett arbetsblad.
 
 Efter att ha kört koden innehåller utdatafilen en blekröd WordArt-vattenstämpel.
 
-**Utdatafilen** 
+**Utgångsfilen** 
 
 ![todo:image_alt_text](picture1.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -66,10 +67,10 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark)
 
-## **Ladda ner körningsexempel**
+## **Ladda ner exempel på körning**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

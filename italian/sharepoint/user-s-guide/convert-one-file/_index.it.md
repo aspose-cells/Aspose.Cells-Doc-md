@@ -1,34 +1,35 @@
-﻿---
+---
 title: Converti un file
 type: docs
 weight: 10
 url: /it/sharepoint/convert-one-file/
 ---
+
 {{% alert color="primary" %}} 
 
- Una delle attività più comuni per cui gli utenti utilizzano Aspose.Cells è la conversione di singoli file.
+Uno dei compiti più comuni per cui gli utenti utilizzano Aspose.Cells è la conversione di file singoli. 
 
 {{% /alert %}} 
-### **Conversione di singoli file**
- Per convertire un determinato documento in una raccolta documenti:
+### **Conversione File Individuali**
+Per convertire un documento specifico in una libreria di documenti: 
 
-1.  Selezionare**Converti con Aspose.Cells.SharePoint** nell'Edit Control Block (ECB) del documento.
+1. Selezionare **Converti con Aspose.Cells.SharePoint** nel blocco di controllo Modifica (ECB) del documento. 
 
-   **Selezionando la voce “Convert via Aspose.Cells” nell'ECB del documento** 
+   **Selezionare l'elemento “Converti tramite Aspose.Cells” nel ECB del documento** 
 
-![cose da fare:immagine_alt_testo](convert-one-file_1.png)
+![todo:image_alt_text](convert-one-file_1.png)
 
 
 
-Viene visualizzata la schermata delle impostazioni di conversione. Qui puoi perfezionare la conversione:
+Viene visualizzata la schermata delle impostazioni di conversione. Qui è possibile perfezionare la conversione:
 
-1.  Selezionare il formato del file di destinazione da**Convertire in** elenco.
-1.  Immettere il nome del file di output nel file**File di destinazione** campo.
- Per impostazione predefinita, Aspose.Cells for SharePoint precompila questo campo con il nome del file sorgente.
- L'estensione viene aggiunta automaticamente in base al formato selezionato.
-1.  Avvia la conversione facendo clic**Convertire**.
-(Oppure torna alla libreria, ignorando le impostazioni, facendo clic su**Annulla**.)
+1. Seleziona il formato del file di destinazione dall'elenco **Converti in**.
+1. Inserisci il nome del file di output nel campo **File di destinazione**.
+   Per impostazione predefinita, Aspose.Cells for SharePoint precompila questo campo con il nome del file di origine. 
+   L'estensione viene aggiunta automaticamente in base al formato selezionato.
+1. Avvia la conversione cliccando su **Converti**.
+   (Oppure torna alla libreria, eliminando le impostazioni, cliccando su **Annulla**.)
 
-**Schermata Impostazioni di conversione per la conversione di un file** 
+**Schermata Impostazioni di conversione per la conversione di un solo file** 
 
-![cose da fare:immagine_alt_testo](convert-one-file_2.png)
+![todo:image_alt_text](convert-one-file_2.png)

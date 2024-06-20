@@ -1,19 +1,20 @@
-﻿---
+---
 title: Tablo Sıralama Yapılandırması
 type: docs
 weight: 90
 url: /tr/reportingservices/table-sorting-configuration/
 ---
-Yapılandırma 5 tür özellik içerir. Bunlar arasında rapor adı, tablo adı, satır ofset değeri, sütun dizini ve sipariş türü bulunur.
 
-- **isim** rapor adını ve tablo adını temsil eder. ad boş bırakıldığında raporun tamamını temsil eder.
-- **değer** satır ofsetini temsil eder.
-- **dizin** tablodaki sütun konumunu temsil eder.
-- **Emir** sıralama düzeni türünü temsil eder.
+Yapılandırma 5 çeşit özelliği içerir. Bunlar rapor adı, tablo adı, satır ofset değeri, sütun dizini ve sıra tipidir.
+
+- **ad**, rapor adını ve tablo adını temsil eder. ad boş olduğunda tüm raporu temsil eder.
+- **değer**, satır ofsetini temsil eder.
+- **İndeks**, tablodaki sütun konumunu temsil eder.
+- **Sıra**, sıralama düzeni türünü temsil eder.
 
 TableSorted Yapılandırma Örneği:
 
-*<TabloSıralı>
+*<TableSorted>
 <Report name=”report name” >
 <Table name="table name">
 <RowOffset value="1"/>

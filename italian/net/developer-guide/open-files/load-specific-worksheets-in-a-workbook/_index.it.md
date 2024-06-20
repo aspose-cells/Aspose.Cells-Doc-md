@@ -1,12 +1,13 @@
-﻿---
-title: Carica fogli di lavoro specifici in una cartella di lavoro
+---
+title: Carica specifici fogli di lavoro in un libro di lavoro
 type: docs
 weight: 100
 url: /it/net/load-specific-worksheets-in-a-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Per impostazione predefinita, Aspose.Cells carica l'intero foglio di calcolo in memoria. È possibile caricare solo fogli specifici. Questo può migliorare le prestazioni e consumare meno memoria. Questo approccio è utile quando si lavora con una cartella di lavoro di grandi dimensioni composta da molti fogli di lavoro.
+Per impostazione predefinita, Aspose.Cells carica l'intero foglio di calcolo in memoria. È possibile caricare solo fogli specifici. Questo può migliorare le prestazioni e consumare meno memoria. Questo approccio è utile quando si lavora con un ampio libro di lavoro composto da molti fogli di lavoro.
 
 {{% /alert %}}
 

@@ -1,11 +1,12 @@
-﻿---
+---
 title: Desteklenen Yazı Tipi Biçimleri
 type: docs
 weight: 5
 url: /tr/net/supported-font-formats/
 ---
+
 |**Biçim**|**Açıklama**|
-|:- |:- |:- |:- |
-|**TTF**|TrueType Yazı Tipleri|
+| :- | :- | :- | :- |
+|**TTF**|TrueType Fontları|
 |**TTC**|TrueType Koleksiyonu|
-|**OTF**|OpenType Yazı Tipleri|
+|**OTF**|OpenType Fontları|

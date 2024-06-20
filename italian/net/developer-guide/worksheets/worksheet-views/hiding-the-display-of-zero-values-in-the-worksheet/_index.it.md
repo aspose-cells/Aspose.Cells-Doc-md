@@ -1,24 +1,25 @@
 ---
-title: Nascondere la visualizzazione dei valori zero nel foglio di lavoro
+title: Nascondere la Visualizzazione dei Valori Zero nel Foglio di Lavoro
 type: docs
 weight: 50
 url: /it/net/hiding-the-display-of-zero-values-in-the-worksheet/
-description: Questo articolo ti mostrerà un codice di esempio che spiega come nascondere a livello di codice i valori zero in un foglio di calcolo di Excel utilizzando la libreria C# o .NET API.
-keywords: hide zero values of excel worksheet in c#
+description: Questo articolo ti mostrerà il codice di esempio che spiega come nascondere in modo programmato i valori zero in un foglio di calcolo Excel utilizzando la libreria C# o l API .NET.
+keywords: nascondi i valori zero del foglio di calcolo di Excel in c#
 ---
+
 {{% alert color="primary" %}} 
 
-A volte, devi nascondere i valori zero in un foglio di calcolo. Potrebbe essere una preferenza personale o uno standard di formattazione.
+A volte è necessario nascondere i valori zero in un foglio di calcolo. Potrebbe essere una preferenza personale o uno standard di formattazione.
 
 {{% /alert %}} 
 
 Per nascondere i valori zero in un foglio di lavoro in Microsoft Excel (ad esempio Microsoft Excel 2003):
 
-1.  Dal**Utensili** menù, selezionare**Opzioni**, quindi selezionare **Visualizza** scheda.
-1.  Deseleziona il**Zero valori** opzione.
-1. Fai clic su *OK**.
+1. Dal menu **Strumenti**, selezionare **Opzioni**, e quindi selezionare la scheda **Visualizza**.
+1. Deselezionare l'opzione **Valori zero**.
+1. Fai clic su **OK**.
 
-Vedere il seguente codice di esempio che mostra come nascondere gli zeri utilizzando Aspose.Cells.
+Si prega di vedere il seguente codice di esempio che dimostra come nascondere gli zeri utilizzando Aspose.Cells.
 
 
 

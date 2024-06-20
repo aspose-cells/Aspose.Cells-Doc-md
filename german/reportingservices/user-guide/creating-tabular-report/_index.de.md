@@ -1,49 +1,50 @@
-﻿---
-title: Tabellenbericht erstellen
+---
+title: Tabellarischen Bericht erstellen
 type: docs
 weight: 70
 url: /de/reportingservices/creating-tabular-report/
 ---
+
 {{% alert color="primary" %}} 
 
-Eine Tabelle in einer Aspose.Cells-Berichtsvorlage besteht aus einer Kopfzeile, Tabellendatenzeilen, Zeilengruppen und Fußzeilen. Eine Beispieltabelle ist unten gezeigt.
+In einem Aspose.Cells-Berichtsvorlage besteht eine Tabelle aus einem Header, Tabellendatenzeilen, Zeilengruppen und Fußzeilen. Eine Beispieltabelle wird unten angezeigt.
 
-**Eine Beispieltabelle** 
+**Ein Beispiel für eine Tabelle** 
 
-![todo: Bild_alt_Text](creating-tabular-report_1.png)
-#### **Tabellenkopf**
-Der Tabellenkopf enthält normalerweise den Titel für jede Tabellenspalte und andere Textelemente wie statischen Text, Berichtsparameter, globale Berichtsvariablen und so weiter. Der Tabellenkopf ist optional. Wenn Sie eine Kopfzeile verwenden, sollte das Kopfzeilen-Tag links von der ersten Spalte der Tabellendaten platziert werden, um anzuzeigen, dass es sich bei der Zeile um eine Kopfzeile handelt.
+![todo:image_alt_text](creating-tabular-report_1.png)
+#### **Tabellenheader**
+Der Tabellenheader enthält normalerweise den Titel für jede Tabellenspalte und andere Textelemente wie statischen Text, Berichtsparameter, globale Berichtsvariablen usw. Der Tabellenheader ist optional. Wenn ein Header verwendet wird, sollte das Header-Tag links von der ersten Tabellenspalte platziert werden, um anzuzeigen, dass die Zeile ein Header ist.
 #### **Tabellendatenzeile**
-Eine Tabellendatenzeile ist eine Zeile von Zellen, die intelligente Markierungen enthalten. Eine Tabelle kann nur eine einzige Datenzeile enthalten.
+Eine Tabellendatenzeile ist eine Zeile von Zellen, die Smart-Marker enthalten. Eine Tabelle kann nur eine einzige Datenzeile enthalten.
 #### **Zeilengruppe**
-Die Zeilengruppe folgt dicht auf die Tabellendatenzeile und besteht aus zwei Teilen: Gruppen-Tag und Gruppendatenzeile.
+Die Zeilengruppe folgt unmittelbar nach der Tabellendatenzeile und besteht aus zwei Teilen: Gruppen-Tag und Gruppendatenzeile. 
 
-Das Gruppen-Tag sollte links von der ersten Tabellendatenspalte platziert werden, um anzugeben, dass die Zeile die Datenzeile der Zeilengruppe ist. Das Format des Gruppen-Tags ist ##group{GroupColumn}, zum Beispiel ##group{SalesOrderNumber}, wobei SalesOrderNumber einer der Spaltennamen des Datensatzes ist. Eine Tabelle kann nur eine Zeilengruppe enthalten, aber eine Zeilengruppe kann mehr als eine Gruppendatenzeile enthalten. Das Gruppen-Tag darf nur in der ersten Datenzeile platziert werden, wie im Beispiel oben gezeigt.
+Der Gruppen-Tag sollte links von der ersten Tabellendatenzeile platziert werden, um anzuzeigen, dass die Zeile die Datenzeile der Zeilengruppe ist. Das Format des Gruppen-Tags lautet ##group{GruppenSpalte}, beispielsweise ##group{SalesOrderNumber}, wobei SalesOrderNumber einer der Spaltennamen des Datensatzes ist. Eine Tabelle kann nur eine Zeilengruppe enthalten, aber eine Zeilengruppe kann mehr als eine Gruppendatenzeile enthalten. Der Gruppen-Tag darf nur in der ersten Datenzeile platziert werden, wie im obigen Beispiel gezeigt.
 
-Das Gruppen-Tag wird zum Zeitpunkt des Renderns aus der Excel-Ausgabedatei Microsoft entfernt. Zeilengruppen sind optional.
+Der Gruppen-Tag wird zur Renderzeit aus der Ausgabedatei von Microsoft Excel entfernt. Zeilengruppen sind optional.
 #### **Fußzeilen**
- Fußzeilen kommen nach der Zeilengruppe und bestehen aus drei Teilen: Fußzeilen-Tag, Fußzeilen-Datenzeile und Fußzeilen-Textbereich.
+Fußzeilen folgen nach der Zeilengruppe und bestehen aus drei Teilen: Fußzeichen, Fußdatenzeile und Fußtextbereich. 
 
-Das Fußzeilen-Tag sollte links von der ersten Spalte der Tabellendatenspalte platziert werden, die angibt, dass die Zeile die Fußzeile der Tabelle ist. Eine Tabelle kann mehr als eine Fußzeile enthalten und jede Fußzeile muss durch ein Fußzeilen-Tag gekennzeichnet sein.
+Das Fußzeichen sollte links von der ersten Spalte der Tabellendatenzeile platziert werden, um anzuzeigen, dass die Zeile die Tabellenfußzeile ist. Eine Tabelle kann mehrere Fußdatenzeilen enthalten, und jede Fußzeile muss mit einem Fußzeichen markiert sein. 
 
-Der Fußzeilentextbereich kann statischen Text, Berichtsparameter und globale Berichtsvariablen enthalten, wie im Beispiel oben gezeigt.
+Der Fußtextbereich kann statischen Text, Berichtsparameter und globale Berichtsvariablen enthalten, wie im obigen Beispiel gezeigt.
 
-Das Fußzeilen-Tag wird zum Zeitpunkt des Renderns aus der Excel-Ausgabedatei Microsoft entfernt. Fußzeilen sind optional.
+Das Fußzeichen wird zur Renderzeit aus der Ausgabedatei von Microsoft Excel entfernt. Fußzeilen sind optional.
 
-Die Ausgabe der Beispielvorlage ist unten dargestellt.
+Die Ausgabe der Beispielvorlage wird unten angezeigt.
 
-**Mustervorlage** 
+**Beispielvorlage** 
 
-![todo: Bild_alt_Text](creating-tabular-report_2.png)
+![todo:image_alt_text](creating-tabular-report_2.png)
 
 {{% /alert %}} 
-###### **Dieser Abschnitt umfasst die folgenden Themen:**
-- [Vorbereitung zum Erstellen eines Tabellenberichts](/cells/de/reportingservices/preparing-for-creating-table-report/)
-- [Hinzufügen von Basisinformationen für die Tabelle](/cells/de/reportingservices/adding-base-information-for-table/)
+###### **Dieser Abschnitt umfasst die folgenden Themen:** 
+- [Vorbereitung zur Erstellung eines Tabellenberichts](/cells/de/reportingservices/preparing-for-creating-table-report/)
+- [Hinzufügen von Basisinformationen für Tabelle](/cells/de/reportingservices/adding-base-information-for-table/)
 - [Hinzufügen von Reporting Services-Formeln](/cells/de/reportingservices/adding-reporting-services-formulas/)
-- [Tabellengruppe hinzufügen](/cells/de/reportingservices/adding-table-group/)
-- [Tabellenfußzeilen hinzufügen](/cells/de/reportingservices/adding-table-footers/)
+- [Hinzufügen von Tabellengruppe](/cells/de/reportingservices/adding-table-group/)
+- [Hinzufügen von Tabellenfußzeilen](/cells/de/reportingservices/adding-table-footers/)
 - [Hinzufügen von Berichtsparametern zum Bericht](/cells/de/reportingservices/adding-report-parameters-to-report/)
-- [Hinzufügen globaler Reporting Services-Variablen zum Bericht](/cells/de/reportingservices/adding-reporting-services-global-variables-to-report/)
-- [Berichtsattribute festlegen](/cells/de/reportingservices/setting-report-attributes/)
+- [Hinzufügen von Reporting Services-Globalvariablen zum Bericht](/cells/de/reportingservices/adding-reporting-services-global-variables-to-report/)
+- [Festlegen von Berichtsattributen](/cells/de/reportingservices/setting-report-attributes/)
 - [Ändern von Berichtsattributen](/cells/de/reportingservices/modifying-report-attributes/)

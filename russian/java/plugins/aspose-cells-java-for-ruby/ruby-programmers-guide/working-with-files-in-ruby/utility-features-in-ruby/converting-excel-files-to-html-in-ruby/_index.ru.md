@@ -1,15 +1,16 @@
-﻿---
-title: Преобразование файлов Excel в HTML в Ruby
+---
+title: Преобразование файлов Excel в HTML на Ruby
 type: docs
 weight: 20
 url: /ru/java/converting-excel-files-to-html-in-ruby/
 ---
+
 ## **Aspose.Cells - Преобразование файлов Excel в HTML**
-Чтобы преобразовать Excel в HTML, используя Aspose.Cells for Java в Ruby, просто вызовите рабочий лист_к_html() модуля Converter.
+Чтобы преобразовать Excel в HTML с использованием Aspose.Cells for Java на Ruby, просто вызовите метод worksheet_to_html() модуля Converter.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def worksheet_to_html(workbook)
 
@@ -28,7 +29,7 @@ url: /ru/java/converting-excel-files-to-html-in-ruby/
 end 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Преобразование файлов Excel в HTML (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Преобразование файлов Excel в HTML (Aspose.Cells)** с любого из перечисленных ниже социальных сайтов для программистов:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

@@ -1,23 +1,24 @@
-﻿---
-title: パブリック API Aspose.Cells 8.4.1 の変更点
+---
+title: Aspose.Cells 8.4.1の公開APIの変更
 type: docs
 weight: 150
 url: /ja/java/public-api-changes-in-aspose-cells-8-4-1/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.4.0 から 8.4.1 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/java/public-api-changes-in-aspose-cells-8-4-1/)と[削除されたクラスなど](/cells/ja/java/public-api-changes-in-aspose-cells-8-4-1/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
+このドキュメントは、Aspose.Cells APIのバージョン8.4.0から8.4.1への変更を記載し、モジュール/アプリケーション開発者に興味を持つ可能性があるものです。新しく追加された公開メソッド、[追加されたクラスなど](/cells/ja/java/public-api-changes-in-aspose-cells-8-4-1/)、[削除されたクラスなど](/cells/ja/java/public-api-changes-in-aspose-cells-8-4-1/)だけでなく、Aspose.Cellsの裏側の動作における変更の説明も含まれます。
 
 {{% /alert %}} 
-## **追加された API**
-### **データベース接続を変更するメカニズム**
-com.aspose.cells.ExternalConnection クラスには、スプレッドシートに格納されたデータベース接続の詳細を検査するために使用できるメソッドとプロパティが既に含まれていました。 ExternalConnection クラスに関連付けられたほとんどのプロパティは、Aspose.Cells for Java 8.4.1 のリリースまで読み取り専用でした。このリリースでは、API はデータベース接続設定の操作もサポートしています。
+## **APIの追加**
+### **データベース接続の変更メカニズム**
+com.aspose.cells.ExternalConnectionクラスには、すでにスプレッドシートに保存されているデータベース接続の詳細を調査するために使用できるメソッドとプロパティが含まれていました。ExternalConnectionクラスに関連する大部分のプロパティは、バージョンAspose.Cells for Java 8.4.1のリリースまで読み取り専用でした。このリリースにより、APIはデータベース接続設定を操作するサポートを提供しました。
 
-次のコード スニペットは、データベース接続設定を動的に変更する方法を示しています。
+次のコードスニペットは、データベース接続設定を動的に変更する方法を示しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -43,38 +44,38 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-{ExternalConnection}} クラスによって公開されるいくつかの最も重要なプロパティを次に示します。
+以下は、ExternalConnectionクラスによって公開されるいくつかの重要なプロパティです。
 
-|**プロパティ名** |**説明** |
-|:- |:- |
-|背景の更新|接続をバックグラウンドで (非同期に) リフレッシュできるかどうかを示します。<br>バックグラウンドで非同期に更新することを優先する接続の使用法である場合は true 。<br>フォアグラウンドで同期的に更新することを優先する接続の使用法である場合は false。|
-|接続説明|この接続のユーザーの説明を指定します|
-|接続 ID|この接続の一意の識別子を指定します。|
-|資格情報|接続を確立 (または再確立) するときに使用する認証方法を指定します。|
-|削除済み|関連するワークブック接続が削除されているかどうかを示します。真の場合<br>接続が削除されました。それ以外の場合は false。|
-|新しく追加されました|接続が初めて更新されていない場合は true。それ以外の場合は false。この<br>クエリが返される前にユーザーがファイルを保存すると、状態が発生する可能性があります。|
-|生き続ける|スプレッドシート アプリケーションが接続を維持するために努力する必要がある場合は True<br>開いた。 false の場合、アプリケーションは、<br>情報。|
-|名前|接続の名前を指定します。各接続には一意の名前が必要です。|
-| OdcFile|この接続元の外部接続ファイルへのフル パスを指定します。<br>作成した。データの更新中に接続が失敗し、reconnectionMethod=1 の場合、<br>その後、スプレッドシート アプリケーションは、外部接続ファイルからの情報を使用して再試行します。<br>ワークブック内に埋め込まれた接続オブジェクトの代わりに。|
-| OnlyUseConnectionFile|スプレッドシート アプリケーションが常に使用する必要があるかどうかを示します。<br> odcFile 属性で示される外部接続ファイル内の接続情報<br>接続が更新されたとき。 false の場合、スプレッドシート アプリケーション<br>reconnectionMethod 属性で示される手順に従う必要があります|
-|パラメーター|ODBC または Web クエリの ConnectionParameterCollection を取得します。|
-|再接続方法|reconnectionMethod タイプを指定します|
-|RefreshInternal|接続の自動リフレッシュ間の分数を指定します。|
-| RefreshOnLoad|ファイルを開くときにこの接続を更新する必要がある場合は True。それ以外の場合は false。|
-|データの保存|テーブルに入力するために接続を介してフェッチされた外部データを保存する場合は true<br>ワークブックで;それ以外の場合は false。|
-|パスワードを保存する|パスワードを接続文字列の一部として保存する場合は True。それ以外の場合は False。|
-|ソースファイル|外部データ ソースがファイルベースの場合に使用されます。そのようなデータへの接続時に<br>source が失敗すると、スプレッドシート アプリケーションはこのファイルに直接接続しようとします。多分<br>URI またはシステム固有のファイル パス表記で表されます。|
-|SSOId|中間サーバー間の認証に使用されるシングル サインオン (SSO) の識別子。<br>スプレッドシート ML サーバーと外部データ ソース。|
-|タイプ|データ ソースの種類を指定します。|
+|**プロパティ名**|**説明**|
+| :- | :- |
+|BackgroundRefresh |接続をバックグラウンドで更新できるかどうかを示します。<br>接続の優先使用方法がバックグラウンドで非同期に更新する場合はtrue。 <br>接続の優先使用方法が前景で同期的に更新する場合はfalse。
+|ConnectionDescription |この接続のユーザー説明を指定します。
+|ConnectionId |この接続の一意の識別子を指定します。
+|Credentials |接続を確立（または再確立）する際に使用する認証方法を指定します。
+|IsDeleted |関連するワークブックの接続が削除されたかどうかを示します。接続が削除されている場合はtrue。それ以外の場合はfalse。
+|IsNew |接続が最初にリフレッシュされていない場合はtrue。それ以外の場合はfalse。クエリの取得が完了する前にユーザーがファイルを保存すると、この状態が発生する可能性があります。
+|KeepAlive |スプレッドシートアプリケーションが接続を開いたままにするよう努める場合はtrue。falseの場合、情報を取得した後に接続を閉じる必要があります。
+|Name |接続の名前を指定します。各接続には固有の名前が必要です。
+|OdcFile |この接続が作成された外部接続ファイルへのフルパスを指定します。接続がデータをリフレッシュしようと試みる際に接続に失敗し、再接続方法が1の場合、スプレッドシートアプリケーションは代わりにワークブックに埋め込まれた接続オブジェクトの代わりに外部接続ファイルからの情報を使用して再試行します。
+|OnlyUseConnectionFile |スプレッドシートアプリケーションが接続をリフレッシュする際に、odcFile属性で示される外部接続ファイルの接続情報のみを常に使用するかどうかを示します。falseの場合、スプレッドシートアプリケーションはreconnectionMethod属性で示される手順に従う必要があります。
+|Parameters |ODBCまたはWebクエリのConnectionParameterCollectionを取得します。
+|ReConnectionMethod |再接続方法タイプを指定します。
+|RefreshInternal|接続を自動的にリフレッシュする間隔（分単位）を指定します。
+|RefreshOnLoad |ファイルを開く際にこの接続をリフレッシュする必要がある場合はtrue。それ以外の場合はfalse。
+|SaveData |表を埋めるために接続経由で取得された外部データをワークブックとともに保存する場合はtrue。それ以外の場合はfalse。
+|SavePassword |パスワードを接続文字列の一部として保存する場合はtrue。それ以外の場合はfalse。
+|SourceFile |外部データソースがファイルベースの場合に使用されます。このようなデータソースへの接続が失敗した場合、スプレッドシートアプリケーションはこのファイルに直接接続を試みます。URIまたはシステム固有のファイルパス表記で表すことができます。
+|SSOId|中間のスプレッドシートMLサーバーと外部データソースの間の認証に使用されるSingle Sign On（SSO）の識別子。
+|Type |データソースのタイプを指定します。
 
-### **DataLabels のテキストの部分文字列をフォーマットする機能**
-Aspose.Cells for Java 8.4.1 は DataLabels.characters メソッドを公開して、ChartPoints.DataLabels の部分文字列に対応する FontSetting クラスのインスタンスを取得します。次に、FontSetting クラスのインスタンスを使用して、DataLabels の部分文字列をさまざまなフォント設定と色でフォーマットできます。
+### **データラベルのテキストのサブストリングをフォーマットする機能**
+Aspose.Cells for Java 8.4.1では、DataLabels.charactersメソッドが公開され、ChartPoints.DataLabelsのサブストリングに対応するFontSettingクラスのインスタンスを取得できるようになりました。その後、FontSettingクラスのインスタンスを使用して、DataLabelsのサブストリングを異なるフォント設定や色でフォーマットすることができます。
 
-次のコード スニペットは、DataLabels.characters メソッドの使用方法を示しています。
+次のコードスニペットは、DataLabels.charactersメソッドの使用方法を示しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook from source Excel file
 
@@ -110,14 +111,14 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-### **スプレッドシートとチャートのエクスポートに必要な画像サイズを設定する機能**
-Aspose.Cells for Java 8.4.1 は、スプレッドシートとチャートを画像にエクスポートする際に、結果の画像の寸法を設定する ImageOrPrintOptions.setDesiredSize メソッドを公開しました。 ImageOrPrintOptions.setDesiredSize メソッドは、2 つの整数型パラメーターを受け入れます。1 つ目は目的の幅、2 つ目は目的の高さです。
+### **スプレッドシートおよびチャートのエクスポート時に所望の画像サイズを設定する機能**
+Aspose.Cells for Java 8.4.1では、ImageOrPrintOptions.setDesiredSizeメソッドが公開され、スプレッドシートやチャートを画像にエクスポートする際の出力画像の寸法を設定することができるようになりました。ImageOrPrintOptions.setDesiredSizeメソッドは、最初のパラメーターに所望の幅、2番目のパラメーターに所望の高さの整数型の値を受け入れます。
 
-次のコード スニペットは、ワークシートを PNG にエクスポートする際に目的のディメンションを設定する方法を示しています。
+次のコードスニペットは、ワークシートをPNGにエクスポートする際に所望の寸法を設定する方法を示しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  com.aspose.cells.Workbook workbook = new com.aspose.cells.Workbook(input);
 
@@ -147,22 +148,22 @@ renderer.toImage(0, "output.png");
 
 {{% alert color="primary" %}} 
 
-同じ方法でチャートを画像に変換することもできます。
+同じ方法は、チャートを画像に変換する際にも使用できます。 
 
 {{% /alert %}} 
 
-### **PDF へのコメントのレンダリング**
-v8.4.1 のリリースにより、Aspose.Cells API は、スプレッドシートを PDF 形式に変換する際のコメントのレンダリングを容易にするために、PageSetup.PrintComments プロパティと PrintCommentsType 列挙を提供しました。 PrintCommentsType 列挙には、次の定数があります。
+### **PDFへのコメントのレンダリング**
+v8.4.1のリリースにより、Aspose.Cells APIは、スプレッドシートをPDF形式に変換する際にコメントをレンダリングするためのPageSetup.PrintCommentsプロパティとPrintCommentsType列挙体を提供しました。PrintCommentsType列挙体には以下の定数があります。 
 
-- PrintCommentsType.PRINT_いいえ_コメント: コメントは表示されません。
-- PrintCommentsType.PRINT_の_PLACE: コメントは、配置された場所にレンダリングされます。
-- PrintCommentsType.PRINT_シート_END: コメントはワークシートの最後に表示されます。
+- PrintCommentsType.PRINT_NO_COMMENTS: コメントはレンダリングされません。
+- PrintCommentsType.PRINT_IN_PLACE: コメントは配置された場所でレンダリングされます。
+- PrintCommentsType.PRINT_SHEET_END: コメントはワークシートの末尾にレンダリングされます。
 
-次のサンプル コードは、PageSetup.PrintComments プロパティを使用して、可能なすべての PrintCommentsType 列挙値を使用してコメントを表示する方法を示しています。
+次のサンプルコードは、PageSetup.PrintCommentsプロパティを使用して、すべてのPrintCommentsType列挙体値を使用してコメントをレンダリングする方法を示しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of workbook
 
@@ -198,14 +199,14 @@ workbook.save("printsheetend.pdf");
 
 {{< /highlight >}}
 
-### **Workbook.isLicensed プロパティを追加**
-Aspose.Cells for Java 8.4.1 は Workbook.isLicensed を公開しました。これは、ライセンスが正常に読み込まれたかどうかを判断するのに非常に役立ちます。ライセンスを設定する前にこのプロパティにアクセスすると false が返され、その逆も同様ですが、ライセンスは有効である必要があります。
+### **Workbook.isLicensedプロパティが追加されました**
+Aspose.Cells for Java 8.4.1はWorkbook.isLicensedを公開しました。このプロパティは、ライセンスが正常にロードされたかどうかを判断するのに役立ちます。ライセンスを設定する前にこのプロパティにアクセスするとfalseを返し、その逆もまた然りです。ただし、ライセンスは有効である必要があります。
 
-次のサンプル コードは、Workbook.isLicensed プロパティの使用方法を示しています。
+以下のサンプルコードは、Workbook.isLicensedプロパティの使用方法を示しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object before setting a license
 
@@ -235,14 +236,14 @@ else
 
 {{< /highlight >}}
 
-### **ImageOrPrintOptions.SVGFitToViewPort プロパティを追加**
-Aspose.Cells for Java 8.4.1 は、スプレッドシートまたはチャートを SVG 形式にエクスポートする際に、SVG ファイル形式の viewBox 属性をオンにするために使用できる ImageOrPrintOptions クラスの SVGFitToViewPort プロパティを公開しました。このプロパティのデフォルト値は false であるため、前述のプロパティを設定せずに生成された SVG ファイルのベース XML には、viewBox 属性が含まれません。
+### **ImageOrPrintOptions.SVGFitToViewPortプロパティを追加しました**
+Aspose.Cells for Java 8.4.1では、ImageOrPrintOptionsクラスのSVGFitToViewPortプロパティを公開しました。これは、スプレッドシートやチャートをSVG形式にエクスポートする際にviewBox属性を有効にするために使用できます。このプロパティのデフォルト値はfalseです。したがって、上記のプロパティを設定せずに生成されたSVGファイルの基本XMLにはviewBox属性が含まれません。
 
-次のサンプル コードは、ImageOrPrintOptions.SVGFitToViewPort プロパティの使用方法を示しています。
+以下のサンプルコードは、ImageOrPrintOptions.SVGFitToViewPortプロパティの使用方法を示しています。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -271,6 +272,6 @@ com.aspose.cells.SheetRender renderer = new com.aspose.cells.SheetRender(workshe
 renderer.toImage(0, "output.svg");
 
 {{< /highlight >}}
-## **廃止された API**
-### **メソッド Workbook.validateFormula 廃止されました**
-Cell.Formula プロパティを使用して式を検証します。
+## **非推奨API**
+### **廃止されたWorkbook.validateFormulaメソッド**
+Cell.Formulaプロパティを使用して、式を検証します。

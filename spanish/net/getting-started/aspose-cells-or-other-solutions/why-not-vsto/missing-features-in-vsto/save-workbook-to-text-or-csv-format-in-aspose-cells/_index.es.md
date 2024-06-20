@@ -1,44 +1,45 @@
-﻿---
-title: Guardar libro de trabajo en texto o formato CSV en Aspose.Cells
+---
+title: Guardar libro de trabajo en formato de texto o CSV en Aspose.Cells
 type: docs
 weight: 110
 url: /es/net/save-workbook-to-text-or-csv-format-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-A veces, desea convertir o guardar un libro de trabajo con varias hojas de trabajo en formato de texto. Para formatos de texto (por ejemplo, TXT, TabDelim, CSV, etc.), de forma predeterminada, tanto Microsoft Excel como Aspose.Cells guardan solo el contenido de la hoja de trabajo activa.
+A veces, es posible que desee convertir o guardar un libro de trabajo con varias hojas de cálculo en formato de texto. Para formatos de texto (por ejemplo, TXT, TabDelim, CSV, etc.), tanto Microsoft Excel como Aspose.Cells guardan por defecto el contenido de la hoja de cálculo activa únicamente.
 
 {{% /alert %}} 
 
-El siguiente ejemplo de código explica cómo guardar un libro completo en formato de texto. Cargue el libro de origen, que podría ser cualquier archivo de hoja de cálculo de Excel u OpenOffice Microsoft (por ejemplo, XLS, XLSX, XLSM, XLSB, ODS, etc.) con cualquier número de hojas de trabajo.
+El siguiente ejemplo de código explica cómo guardar un libro de trabajo completo en formato de texto. Cargue el libro de trabajo fuente que podría ser cualquier archivo de hoja de cálculo de Microsoft Excel u OpenOffice (por ejemplo, XLS, XLSX, XLSM, XLSB, ODS, etc.) con cualquier número de hojas de trabajo.
 
-Cuando se ejecuta el código, convierte los datos de todas las hojas del libro de trabajo al formato TXT.
+Cuando el código se ejecuta, convierte los datos de todas las hojas en el libro de trabajo al formato TXT.
 
-Puede modificar el mismo ejemplo para guardar su archivo en CSV. De forma predeterminada, TxtSaveOptions.Separator es una coma, así que no especifique un separador si guarda en formato CSV.
+Puede modificar el mismo ejemplo para guardar su archivo en CSV. Por defecto, TxtSaveOptions.Separator es la coma, así que no especifique un separador al guardar en formato CSV.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- string filePath = "fuente.xlsx";
+ string filePath = "source.xlsx";
 
-// Cargue su libro de trabajo de origen
+//Load your source workbook
 
-Libro de trabajo libro de trabajo = nuevo libro de trabajo (filePath);
+Workbook workbook = new Workbook(filePath);
 
-//matriz de 0 bytes
+//0-byte array
 
-byte[]workbookData = nuevo byte[0];
+byte[] workbookData = new byte[0];
 
-//Opciones para guardar texto. Puedes usar cualquier tipo de separador
+//Text save options. You can use any type of separator
 
 TxtSaveOptions opts = new TxtSaveOptions();
 
-opciones.Separador = '\t';
+opts.Separator = '\t';
 
-// Copie cada dato de la hoja de trabajo en formato de texto dentro de la matriz de datos del libro de trabajo
+//Copy each worksheet data in text format inside workbook data array
 
- para (int idx = 0; idx< workbook.Worksheets.Count; idx++)
+for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 
 {
 
@@ -74,7 +75,7 @@ File.WriteAllBytes(filePath + ".out.txt", workbookData);
 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

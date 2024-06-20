@@ -1,26 +1,27 @@
-﻿---
+---
 title: Kapsamlı RDL Desteği
 type: docs
 weight: 20
 url: /tr/reportingservices/comprehensive-rdl-support/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services, RDL spesifikasyonunu tamamen destekler. Bu, mevcut RDL raporlarını kolayca bir Aspose çözümüne taşıyabileceğiniz anlamına gelir.
+Aspose.Cells for Reporting Services, RDL özelliklerini tamamen destekler. Bu, mevcut RDL raporlarını kolayca Aspose çözümüne geçirebileceğiniz anlamına gelir.
 
 {{% /alert %}} 
 **Desteklenen RDL Öğeleri**
- Aspose.Cells, aşağıdaki RDL öğelerini destekler:
+Aspose.Cells aşağıdaki RDL öğelerini destekler: 
 
-- Sayfa, üstbilgiler, altbilgiler
+- Sayfa, başlıklar, altbilgiler
 - Metin kutuları
-- Görüntüler
+- Görseller
 - Grafikler
 - Listeler
 - Tablolar
-- matrisler
-- stiller
+- Matrisler
+- Stiller
 - Dikdörtgenler, çizgiler
 - Alt raporlar
 - Tablix
-- Ölçer
+- Göstergeler

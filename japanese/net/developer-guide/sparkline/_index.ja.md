@@ -1,23 +1,24 @@
-﻿---
-title: スパークラインを挿入
+---
+title: スパークラインの挿入
 linktitle: スパークライン
 type: docs
 weight: 160
 url: /ja/net/creating-sparklines/
-description: Aspose.Cells を使用して Excel のスパークラインを作成します。
+description: Aspose.Cellsを使用してExcel用のスパークラインを作成する。
 ---
+
 ## **スパークラインを挿入する**
 {{% alert color="primary" %}} 
 
-スパークラインは、データを視覚的に表現するワークシート セル内の小さなグラフです。スパークラインを使用して、季節的な増減、景気循環など、一連の値の傾向を示したり、最大値と最小値を強調したりします。スパークラインをデータの近くに配置すると、最大の効果が得られます。スパークラインには、折れ線、列、積み上げの 3 種類があります。
+スパークラインは、ワークシートセル内の小さなチャートであり、データの視覚的表現を提供します。スパークラインを使用して、値の系列における傾向、季節ごとの増減、経済サイクル、最大値や最小値のハイライトなどを表示できます。最大の効果を得るために、データの近くにスパークラインを配置します。スパークラインには、ライン、カラム、スタックドの3つのタイプがあります。
 
 {{% /alert %}} 
 
-次のコード例を使用すると、Aspose.Cells でスパークラインを簡単に作成できます。
+Aspose.Cellsを使用してスパークラインを簡単に作成することができます。以下はその例です。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-InsertSparkline.cs" >}}
 
-## **先行トピック**
-- [スパークラインと設定 3D 形式の使用](/cells/ja/net/using-sparklines-and-settings-3d-format/)
+## **高度なトピック**
+- [スパークラインの使用と 3D フォーマットの設定](/cells/ja/net/using-sparklines-and-settings-3d-format/)

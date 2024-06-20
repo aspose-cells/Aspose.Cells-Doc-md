@@ -1,17 +1,18 @@
-﻿---
-title: Ställ in utskriftsområde
+---
+title: Ange utskriftsområde
 type: docs
 weight: 30
 url: /sv/net/set-print-area/
 ---
-## **Aspose.Cells - Ange utskriftsområde**
-Som standard innehåller endast utskriftsområdet alla delar av kalkylbladet som innehåller data. Utvecklare kan skapa ett specifikt utskriftsområde i kalkylbladet.
 
-För att välja ett specifikt utskriftsområde, använd[Utskriftsformat](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class' PrintArea-egenskap. Tilldela den här egenskapen ett cellområde som definierar utskriftsområdet.
+## **Aspose.Cells - Ange utskriftsområde**
+Som standard omfattar endast utskriftsområdet alla områden av arbetsboken som innehåller data. Utvecklare kan fastställa ett specifikt utskriftsområde för arbetsboken.
+
+För att välja ett specifikt utskriftsområde, använd [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)-klassens PrintArea-property. Tilldela en cellrad som definierar utskriftsområdet till denna egenskap.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -61,11 +62,11 @@ workbook.Save("test.xlsx");
 
 {{< /highlight >}}
 ## **NPOI - HSSF XSSF - Ange utskriftsområde**
-Workbook.setPrintArea-metoden är tillgänglig för att ställa in sidegenskaper för utskriftsområdet.
+Workbook.setPrintArea-metoden är tillgänglig för att ställa in sidans egenskaper för utskriftsområdet.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -123,13 +124,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Ställ in utskriftsområde** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Ange utskriftsområde** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Ställa in utskriftsalternativ](/cells/sv/net/setting-print-options/).
+För mer detaljer, besök [Inställning av utskriftsalternativ](/cells/sv/net/setting-print-options/).
 
 {{% /alert %}}

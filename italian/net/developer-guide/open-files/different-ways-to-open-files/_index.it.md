@@ -1,51 +1,52 @@
 ---
-title: Diversi modi per aprire i file
+title: Diverse modalità per aprire i file
 type: docs
 weight: 10
 url: /it/net/different-ways-to-open-files/
-description: Questo articolo spiega come aprire un file Excel utilizzando Aspose.Cells for .NET API.
-keywords: C# Open an Excel file without Excel, How do I open an Excel File.
+description: Questo articolo spiega come aprire un file excel utilizzando l API Aspose.Cells for .NET.
+keywords: Aprire un file Excel senza Excel in C#, Come posso aprire un file Excel.
 ---
+
 {{% alert color="primary" %}}
 
-Con Aspose.Cells è semplice aprire file, ad esempio, recuperare dati o utilizzare un modello di progettazione per accelerare il processo di sviluppo.
+Con Aspose.Cells è semplice aprire file, ad esempio, per recuperare dati o utilizzare un modello di designer per accelerare il processo di sviluppo.
 
 {{% /alert %}}
 
-##  **Come aprire un file Excel tramite un percorso**
+## **Come aprire un file Excel tramite un percorso**
 
- Gli sviluppatori possono aprire un file Excel Microsoft utilizzando il relativo percorso file sul computer locale specificandolo nel campo**[Cartella di lavoro](https://reference.aspose.com/cells/net/aspose.cells/workbook)**costruttore di classi. Passa semplicemente il percorso nel costruttore come *string*. Aspose.Cells rileverà automaticamente il tipo di formato del file.
+I programmatori possono aprire un file Microsoft Excel utilizzando il percorso del file sul computer locale specificandolo nel costruttore della classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook). Basta passare il percorso nel costruttore come *stringa*. Aspose.Cells rileverà automaticamente il tipo di formato del file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughPath-1.cs" >}}
 
-##  **Come aprire un file Excel tramite uno stream**
+## **Come aprire un file Excel tramite uno stream**
 
- È anche semplice aprire un file Excel come flusso. Per fare ciò, utilizzare una versione sovraccaricata del costruttore che accetta il file*Flusso*oggetto che contiene il file.
+È anche semplice aprire un file Excel come uno stream. Per farlo, utilizzare una versione sovraccaricata del costruttore che prende l'oggetto *Stream* che contiene il file.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughStream-1.cs" >}}
 
-##  **Come aprire un file solo con dati**
+## **Come aprire un file con solo dati**
 
- Per aprire un file contenente solo dati, utilizzare il file**[Opzioni di caricamento](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** E**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**classi per impostare l'attributo correlato e le opzioni delle classi per il file modello da caricare.
+Per aprire un file solo con i dati, utilizza le classi [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) e [**LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadfilter) per impostare l'attributo correlato e le opzioni delle classi per il file modello da caricare.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilewithDataOnly-1.cs" >}}
 
-##  **Come caricare solo i fogli visibili**
+## **Come caricare solo fogli visibili**
 
- Durante il caricamento di a**[Cartella di lavoro](https://reference.aspose.com/cells/net/aspose.cells/workbook)**a volte potresti aver bisogno solo dei dati nei fogli di lavoro visibili in una cartella di lavoro. Aspose.Cells ti consente di saltare i dati in fogli di lavoro invisibili durante il caricamento di una cartella di lavoro. Per fare ciò, crea una funzione personalizzata che erediti il file**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**class e passarne l'istanza a**[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)**proprietà.
+Mentre carichi un [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) a volte potresti aver bisogno solo dei dati nei fogli di lavoro visibili in un cartella di lavoro. Aspose.Cells ti permette di saltare i dati nei fogli di lavoro invisibili durante il caricamento di una cartella di lavoro. Per farlo, crea una funzione personalizzata che eredita la classe [**LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadfilter) e passa la sua istanza alla proprietà [**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-LoadVisibleSheetsOnly-1.cs" >}}
 
-Ecco l'implementazione del*Caricamento personalizzato*classe a cui si fa riferimento nello snippet sopra.
+Ecco l'implementazione della classe *CustomnLoad* menzionata nel frammento precedente.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-LoadVisibleSheetsOnly-2.cs" >}}
 
 {{% alert color="primary" %}}
 
-Verrà generata un'eccezione se si tenta di aprire file Excel non nativi o altri formati di file (ad esempio PPT/PPTX, DOC/DOCX, ecc.) tramite Aspose.Cells.
+Verrà generata un'eccezione se si tenta di aprire file Excel non nativi o altri formati di file (ad esempio PPT/PPTX, DOC/DOCX, ecc.) con Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- Ci sono buone probabilità che il**[Cartella di lavoro](https://reference.aspose.com/cells/net/aspose.cells/workbook)**il costruttore può lanciare*System.OutOfMemoryException* durante il caricamento di fogli di calcolo di grandi dimensioni. Questa eccezione suggerisce che la memoria disponibile non è sufficiente per caricare completamente il foglio di calcolo nella memoria, pertanto il foglio di calcolo deve essere caricato abilitando le Preferenze di memoria.
+È probabile che il costruttore [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) possa generare *System.OutOfMemoryException* durante il caricamento di fogli di calcolo di grandi dimensioni. Questa eccezione suggerisce che la memoria disponibile non è sufficiente per caricare completamente il foglio di calcolo in memoria quindi il foglio di calcolo deve essere caricato abilitando le Preferenze di memoria.
 
 {{% /alert %}}

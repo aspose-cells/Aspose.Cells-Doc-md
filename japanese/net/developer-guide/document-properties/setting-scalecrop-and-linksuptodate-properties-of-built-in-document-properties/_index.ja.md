@@ -1,23 +1,24 @@
-﻿---
-title: 組み込みドキュメント プロパティの ScaleCrop および LinksUpToDate プロパティの設定
+---
+title: ビルトインドキュメントプロパティのScaleCropおよびLinksUpToDateプロパティを設定する
 type: docs
 weight: 320
 url: /ja/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/
 ---
-## **考えられる使用シナリオ**
-[スケールクロップ](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop)と[LinksUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate)OpenXml 形式内で定義された 2 つの拡張組み込みドキュメント プロパティです。これらのプロパティの目的は次のとおりです。
-## **1) スケールクロップ**
-この要素は、ドキュメント サムネイルの表示モードを示します。この要素を**真実**ドキュメントのサムネイルを表示に合わせてスケーリングできるようにします。この要素を**間違い**ドキュメントのサムネイルのトリミングを有効にして、ディスプレイに収まるセクションのみを表示します。
 
-この要素の可能な値は、W3C XML スキーマのブール データ型によって定義されます。
+## **可能な使用シナリオ**
+[ScaleCrop](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) および[LinksUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate) は、OpenXml形式で定義された2つの拡張ビルトインドキュメントプロパティです。これらのプロパティの目的は以下のとおりです。
+## **1) ScaleCrop**
+この要素は、ドキュメントサムネイルの表示モードを示します。この要素を**TRUE**に設定すると、ドキュメントサムネイルを表示に合わせてスケーリングします。この要素を**FALSE**に設定すると、ドキュメントサムネイルを表示に合わせてクロップします。
+
+この要素の可能な値は、W3C XML Schema booleanデータ型で定義されています。
 ## **2) LinksUpToDate**
-この要素は、ドキュメント内のハイパーリンクが最新かどうかを示します。この要素を**真実**ハイパーリンクが更新されたことを示します。この要素を**間違い**ハイパーリンクが古くなっていることを示します。
+この要素は、ドキュメント内のハイパーリンクが最新であるかどうかを示します。この要素を**TRUE**に設定すると、ハイパーリンクが更新されていることを示します。この要素を**FALSE**に設定すると、ハイパーリンクが更新されていないことを示します。
 
-この要素の可能な値は、W3C XML スキーマのブール データ型によって定義されます。
-## **app.xml ファイル内のこれらのプロパティを示すスクリーンショット**
-![todo:画像_代替_文章](setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties_1.png)
-## **組み込みドキュメント プロパティの ScaleCrop および LinksUpToDate プロパティの設定**
-次のサンプル コードは、[スケールクロップ](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop)と[LinksUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate)ワークブックの拡張された組み込みドキュメント プロパティ。を確認してください[出力エクセルファイル](5115500.xlsx)上のスクリーンショットに示すように、このコードで生成された拡張子を .zip に変更してコンテンツを抽出し、app.xml を表示します。
+この要素の可能な値は、W3C XML Schema booleanデータ型で定義されています。
+## **これらのプロパティを示すスクリーンショット**
+![todo:image_alt_text](setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties_1.png)
+## **ビルトインドキュメントプロパティのScaleCropおよびLinksUpToDateプロパティを設定する**
+[ScaleCrop](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) および[LinksUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate) のビルトインドキュメントプロパティを設定するためのサンプルコードです。このコードで生成される出力Excelファイルを確認し、拡張子を .zip に変更し、内容を展開して上記のスクリーンショットに示されているように app.xml を表示してください。
 
 
 

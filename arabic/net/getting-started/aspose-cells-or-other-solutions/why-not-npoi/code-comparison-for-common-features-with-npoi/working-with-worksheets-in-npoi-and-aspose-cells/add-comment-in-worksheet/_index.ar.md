@@ -1,13 +1,14 @@
-﻿---
-title: أضف تعليقًا في ورقة العمل
+---
+title: إضافة تعليق في ورقة العمل
 type: docs
 weight: 10
 url: /ar/net/add-comment-in-worksheet/
 ---
-## **Aspose.Cells - أضف تعليق في ورقة العمل**
+
+## **Aspose.Cells - إضافة تعليق في ورقة العمل**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -47,10 +48,10 @@ workbook.Save("Output-AddingComment.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - أضف تعليقًا في ورقة العمل**
+## **NPOI - HSSF XSSF - إضافة تعليق في ورقة العمل**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -94,13 +95,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**أضف صورة في ورقة العمل** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **إضافة صورة في ورقة العمل** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Add.Comment.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Add.Comment.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+لمزيد من التفاصيل، قم بزيارة [العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

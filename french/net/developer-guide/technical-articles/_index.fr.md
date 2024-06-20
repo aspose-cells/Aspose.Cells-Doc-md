@@ -1,6 +1,7 @@
-﻿---
-title: Articles techniques
+---
+title: Articles Techniques
 type: docs
 weight: 2400
 url: /fr/net/technical-articles/
 ---
+

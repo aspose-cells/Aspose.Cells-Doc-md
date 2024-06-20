@@ -1,19 +1,22 @@
-﻿---
-title: ワークシートからの列の削除
+---
+title: ワークシートから列を削除する
 type: docs
 weight: 20
-url: /ja/net/removing-a-column-from-worksheet/
+url: /ja/net/aspose-cells-griddesktop/remove-a-column-from-worksheet/
+keywords: GridDesktop,列,削除,ワークシート
+description: この記事では、GridDesktopで列を削除する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-これは開発者向けの基本的なトピックであり、ワークシートから列を削除する最も簡単な方法について説明しています。シンプルに見えますが、開発者が Aspose.Cells.GridDesktop を操作しながらルーチン タスクで使用できる便利な機能です。
+これは開発者向けの基本的なトピックで、ワークシートから列を削除する最も簡単な方法を説明しています。シンプルですが、Aspose.Cells.GridDesktopでの日常的なタスクで開発者が使用できる便利な機能です。
 
 {{% /alert %}} 
-## **ワークシートからの列の削除**
-ワークシートから列を削除するには、次の手順に従ってください。
+## **ワークシートから列を削除する**
+ワークシートから列を削除するには、以下の手順に従ってください:
 
-- 任意のアクセス**ワークシート**
-- 削除する**桁**から**ワークシート**削除する列のインデックスを指定して
+- 任意の **Worksheet** にアクセスします
+- 削除したい列のインデックスを指定して**Worksheet**から**Column**を削除
 
 
 

@@ -1,16 +1,17 @@
-﻿---
-title: Estrai le immagini dai fogli di lavoro utilizzando ImageOrPrintOptions
+---
+title: Estrai immagini dai fogli di lavoro utilizzando ImageOrPrintOptions
 type: docs
 weight: 140
 url: /it/net/extract-images-from-worksheets-using-imageorprintoptions/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Gli utenti di Excel possono aggiungere immagini ai fogli di calcolo. Con Aspose.Cells, è possibile leggere immagini da file Excel Microsoft e salvarle su un'unità locale. Questo articolo mostra come.
+Gli utenti di Microsoft Excel possono aggiungere immagini ai fogli di lavoro. Con Aspose.Cells, è possibile leggere le immagini dai file di Microsoft Excel e salvarle su un disco locale. Questo articolo mostra come fare.
 
 {{% /alert %}} 
 
-Il codice di esempio seguente mostra come estrarre le immagini da un file Excel e salvarle.
+Il codice di esempio di seguito mostra come estrarre immagini da un file di Excel e salvarle.
 
 
 

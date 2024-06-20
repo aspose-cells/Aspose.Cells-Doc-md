@@ -1,20 +1,21 @@
-﻿---
+---
 title: Enregistrer Html avec StreamProvider
 type: docs
 weight: 80
 url: /fr/net/convert-excel-to-html-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-Lors de la conversion de fichiers Excel contenant des images et des formes en fichiers HTML, nous sommes souvent confrontés aux deux problèmes suivants :
-1. Où devons-nous enregistrer les images et les formes lors de l'enregistrement du fichier Excel dans le flux HTML.
-1. Remplacez le chemin par défaut par un chemin excepté.
+Lors de la conversion de fichiers Excel contenant des images et des formes en fichiers HTML, nous rencontrons souvent les deux problèmes suivants :
+1. Où devons-nous enregistrer les images et les formes lors de l'enregistrement du fichier Excel au flux HTML.
+1. Remplacer le chemin par défaut par le chemin attendu.
 
- Cet article explique comment mettre en œuvre[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) interface de réglage du[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) la propriété. En implémentant cette interface, vous pourrez enregistrer les ressources créées lors de la génération HTML dans vos emplacements ou flux de mémoire spécifiques.
+Cet article explique comment implémenter l'interface [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) pour définir la propriété [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider). En implémentant cette interface, vous pourrez enregistrer les ressources créées lors de la génération HTML dans des emplacements spécifiques ou des flux de mémoire.
 
 {{% /alert %}} 
 
- Ceci est le code principal montrant l'utilisation de[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)la propriété
+Voici le code principal montrant l'utilisation de la propriété [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)
 
 
 
@@ -22,7 +23,7 @@ Lors de la conversion de fichiers Excel contenant des images et des formes en fi
 
 
 
- Voici le code pour*ExportStreamProviderExportStreamProvider* classe qui implémente[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)interface utilisée dans le code ci-dessus.
+Voici le code de la classe *ExportStreamProvider* qui implémente l'interface [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) utilisée dans le code ci-dessus.
 
 
 

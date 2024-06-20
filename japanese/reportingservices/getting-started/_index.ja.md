@@ -1,41 +1,43 @@
-﻿---
-title: 入門
+---
+title: はじめに
 type: docs
 weight: 10
 url: /ja/reportingservices/getting-started/
 ---
-Aspose.Cells for Reporting Services で構成されています**二部**次のように：
+
+
+Aspose.Cells for Reporting Services は次の**2部**からなっています
 
 - ***Aspose.Cells.Report.Designer***
 
-&nbsp;&nbsp;&nbsp;&nbsp;これは、アドイン形式で MS Excel に統合されたレポート デザイナー ツールです。 Aspose.Cells.Report.Designer を使用すると、Visual Studio の代わりに MS Excel でレポート テンプレートを設計できます。次に、レポート テンプレートが Reporting Services RDL ファイルに埋め込まれ、レポート サーバーに発行できるようになります。ユーザーは、Aspose.Cells.Report.Designer でレポートをプレビューおよびエクスポートすることもできます。
+&nbsp;&nbsp;&nbsp;&nbsp;これはMS Excelに統合されたレポートデザイナーツールであり、Add-Ins…フォームで使用されます。Aspose.Cells.Report.Designerを使用すると、ユーザーはVisual Studioの代わりにMS Excelでレポートテンプレートを設計できます。このレポートテンプレートはReporting Services RDLファイルに埋め込まれ、Report Serverに公開できます。ユーザーはまた、Aspose.Cells.Report.Designerでレポートのプレビューやエクスポートも行えます。
 
-- ***Aspose.Cells.レンダラー for Reporting Services***
+- ***Aspose.Cells.Renderer for Reporting Services***
 
-&nbsp;&nbsp;&nbsp;&nbsp;Aspose.Cells.Renderer for Reporting Services は、実際には Microsoft Reporting Services Rendering Extension の実装です。 Visual Studio と Aspose.Cells.Report.Designer の両方で設計された RDL レポートをレンダリングできます。
+&nbsp;&nbsp;&nbsp;&nbsp;Reporting Services向けAspose.Cells.Rendererは実際にはMicrosoft Reporting Services Rendering Extensionの実装です。Visual StudioおよびAspose.Cells.Report.Designerで設計されたRDLレポートをレンダリングできます。
 
 
-**Aspose.Cells for Reporting Servicesの入手方法.** 
+**Aspose.Cells for Reporting Servicesを取得する方法** 
 
 - [ダウンロード]( https://downloads.aspose.com/cells/reportingservices/ )
 
-**インストール方法 Aspose.Cells for Reporting Services.**
+**Aspose.Cells for Reporting Servicesをインストールする方法**
 
-- [MSI インストール](/cells/ja/reportingservices/using-msi-installer/)
-- [マヌルのインストール](/cells/ja/reportingservices/using-dll-only/)
+- [MSIインストール](/cells/ja/reportingservices/using-msi-installer/)
+- [マニュアルインストール](/cells/ja/reportingservices/using-dll-only/)
 
 
-**Reproting Services の Aspose.Cells の機能は何ですか。**
+**Aspose.Cells for Reproting Servicesの機能は何ですか。**
 
-- [サポートされているファイル形式](/cells/ja/reportingservices/supported-file-formats/)
-- [複合マーカーのサポート](/cells/ja/reportingservices/composite-markers/)
+- [サポートされるファイルフォーマット](/cells/ja/reportingservices/supported-file-formats/)
+- [コンポジットマーカーのサポート](/cells/ja/reportingservices/composite-markers/)
 - [デジタル署名のサポート](/cells/ja/reportingservices/support-for-digital-signatures/)
-- [その他の機能](/cells/ja/reportingservices/features/).
+- [その他の機能](/cells/ja/reportingservices/features/)
 
-**このセクションには、その他の次のトピックが含まれています。**
+**このセクションには他の次のトピックが含まれています:**
 
-- [製品の概要](/cells/ja/reportingservices/product-overview/)
-- [エディションの種類](/cells/ja/reportingservices/edition-types/)
+- [製品概要](/cells/ja/reportingservices/product-overview/)
+- [エディションのタイプ](/cells/ja/reportingservices/edition-types/)
 - [比較](/cells/ja/reportingservices/comparisons/)
 - [ライセンス](/cells/ja/reportingservices/licensing/)
-- [評価する Aspose.Cells](/cells/ja/reportingservices/evaluate-aspose-cells/)
+- [Aspose.Cellsを評価する](/cells/ja/reportingservices/evaluate-aspose-cells/)

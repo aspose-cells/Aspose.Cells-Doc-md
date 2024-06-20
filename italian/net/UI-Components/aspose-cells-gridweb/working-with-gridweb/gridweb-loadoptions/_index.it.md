@@ -1,23 +1,25 @@
 ---
-title: LoadOptions per GridWeb
+title: Opzioni di caricamento per GridWeb
 type: docs
 weight: 90
-url: /it/net/aspose-cells-gridweb/loadoptions/
-keywords: loadoption,loadoptions,setting,
+url: /it/net/aspose-cells-gridweb/aspose-cells-gridweb/loadoptions/
+keywords: opzionedicaricamento, opzionedicaricamento, impostazione, carica, opzioni, opzione
+description: Questo articolo introduce come lavorare con le opzioni di caricamento in GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
 Ci sono alcune opzioni di caricamento che possiamo impostare prima di importare il file.
 
- possiamo usare[GridLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridloadoptions/)(per file generale) e[GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridtxtloadoptions/) (per file csv)
- 
+Possiamo usare [GridLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridloadoptions/) (per file generico) e [GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridtxtloadoptions/) (per file csv)	
+
 {{% /alert %}} 
-##  ** caricare con altra codifica**
-Per il file csv, è in realtà un file basato su testo, senza la codifica specifica descritta nel file in formato xlsx.
+## **carica con altro codificare**
+Per il file csv, è in realtà un file basato su testo, senza la codifica specifica descritta nel file di formato xlsx.
 
-Pertanto, gli utenti possono impostare una codifica dei caratteri specifica prima di caricare il file.
+Pertanto, gli utenti possono impostare la codifica dei caratteri specifica prima di caricare il file.
 
-ecco un esempio di codice da caricare con il cinese:
+Ecco un codice di esempio per caricare con il cinese:
 
 ```csharp
     GridTxtLoadOptions topt = new GridTxtLoadOptions();

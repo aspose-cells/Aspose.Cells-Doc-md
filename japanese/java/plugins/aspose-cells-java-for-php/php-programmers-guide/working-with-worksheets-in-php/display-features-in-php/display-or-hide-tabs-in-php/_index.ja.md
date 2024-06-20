@@ -1,16 +1,17 @@
-﻿---
-title: Php でタブを表示または非表示にする
+---
+title: PHPでタブを表示または非表示にする
 type: docs
 weight: 30
 url: /ja/java/display-or-hide-tabs-in-php/
 ---
+
 ## **Aspose.Cells - タブの表示または非表示**
 ### **タブを非表示にする**
-を使用してタブを非表示にするには**Aspose.Cells Java for PHP**、 電話**表示非表示タブ**モジュール。
+Aspose.Cells Java for PHPを使用してタブを非表示にするには、**displayhidetabs**モジュールを呼び出します。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -25,7 +26,7 @@ $workbook->getSettings()->setShowTabs(false);
 $workbook->save($dataDir + "output.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**タブを非表示または表示または非表示にする (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、Aspose.CellsのHide or Display or Hide Tabsをダウンロードする: 
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)

@@ -1,28 +1,29 @@
-﻿---
+---
 title: Skriv ut kalkylblad
 type: docs
 weight: 20
 url: /sv/net/print-spreadsheets/
 ---
-Inställningar för sidinställningar ger också flera utskriftsalternativ (även kallade arkalternativ) som låter användare styra sina utskrivna sidor med kalkylblad. Dessa utskriftsalternativ tillåter användare att:
 
-- Välj ett specifikt utskriftsområde i kalkylbladet
+Sidinställningar erbjuder också flera utskriftsalternativ (också kallade kalkylbladsoptioner) som låter användarna styra sina utskrivna kalkylbladssidor. Dessa utskriftsalternativ låter användarna:
+
+- Välja ett specifikt utskriftsområde för kalkylbladet
 - Skriv ut titlar
 - Skriv ut rutnät
-- Skriv ut rad-/kolumnrubriker
+- Skriv ut rad/kolumnrubriker
 - Uppnå utkastkvalitet
 - Skriv ut kommentarer
-- Skriv ut Cell Fel
+- Skriv ut cellfel
 - Definiera sidordning
-  **Ställa in utskrifts-/arkalternativ**
+  **Inställning av utskrift/kalkylbladsoptioner**
 
-Aspose.Cells stöder alla dessa utskriftsalternativ och utvecklare kan enkelt konfigurera dessa alternativ för sina önskade kalkylblad med hjälp av de olika egenskaperna som erbjuds av klassen PageSetup. Användningen av dessa egenskaper för klassen PageSetup diskuteras mer i detalj nedan.
-## **Ställ in utskriftsområde**
-Som standard väljs endast det utskriftsområdet som innehåller hela området av kalkylbladet, som innehåller data, men utvecklare kan också skapa ett specifikt utskriftsområde för kalkylbladet enligt deras önskemål.
+Aspose.Cells stöder alla dessa utskriftsalternativ och utvecklare kan enkelt konfigurera dessa alternativ för sina önskade kalkylblad med hjälp av de olika egenskaper som erbjuds av PageSetup-klassen. Användningen av dessa egenskaper i PageSetup-klassen diskuteras nedan mer i detalj.
+## **Ange utskriftsområde**
+Som standard är endast det utskriftsområde valt som omfattar hela området för kalkylbladet, som innehåller data men utvecklarna kan också skapa ett specifikt utskriftsområde för kalkylbladet enligt deras önskan.
 
- För att välja ett specifikt utskriftsområde kan utvecklare använda set**PrintArea** metod för**Utskriftsformat** klass. Du kan ange cellområdet för utskriftsområdet till denna metod som argument.
+För att välja ett specifikt utskriftsområde kan utvecklare använda **setPrintArea**-metoden i **PageSetup**-klassen. Du kan ange cellområdet för utskriftsområdet till den här metoden som argument.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -38,12 +39,12 @@ pageSetup.PrintArea = "A1:T35";
 
 
 {{< /highlight >}}
-## **Ställ in utskriftsrubriker**
- Aspose.Cells låter dig ange rad- och kolumnrubriker som du vill ska upprepas på alla sidor i ditt utskrivna kalkylblad. För att göra det kan utvecklare använda set**PrintTitleColumns** och**setPrintTitleRows** metoder för**Utskriftsformat** klass.
+## **Ställ in utskriftstitlar**
+Aspose.Cells låter dig ange rad- och kolumnrubriker som du vill ha upprepade på alla sidor av ditt utskrivna kalkylblad. För att göra detta kan utvecklare använda **setPrintTitleColumns** och **setPrintTitleRows**-metoderna i **PageSetup**-klassen.
 
-Raderna eller kolumnerna (som ska upprepas på alla sidor i det utskrivna kalkylbladet) definieras genom att skicka deras rad- eller kolumnnummer. Till exempel är rader definierade som \ $1: \ $2 och kolumner definieras som \ $A: \ $B.
+Raderna eller kolumnerna (som ska upprepas på alla sidor av det utskrivna kalkylarket) definieras genom att skicka deras rad- eller kolumnnummer. Till exempel definieras rader som \ $1: \ $2 och kolumner definieras som \ $A: \ $B.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -62,19 +63,19 @@ pageSetup.PrintTitleColumns = "$A:$B";
 pageSetup.PrintTitleRows = "$1:$2";
 
 {{< /highlight >}}
-## **Ställ in andra utskriftsalternativ**
-**Utskriftsformat** class tillhandahåller även flera andra metoder för att ställa in allmänna utskriftsalternativ enligt följande:
+## **Ange andra utskriftsalternativ**
+**PageSetup**-klassen tillhandahåller också flera andra metoder för att ställa in allmänna utskriftsalternativ enligt följande:
 
-- **setPrintGridlines metod** , skickas en boolesk parameter till denna metod som definierar om rutnät ska skrivas ut eller inte
-- **setPrintHeadings-metoden** skickas en boolesk parameter till denna metod som definierar om rad- och kolumnrubriker ska skrivas ut eller inte
-- **setBlackAndWhite-metoden** , skickas en boolesk parameter till denna metod som definierar om kalkylblad ska skrivas ut i svartvitt läge eller inte
-- **setPrintComments-metoden** , definierar om utskriftskommentarerna ska visas på kalkylbladet eller i slutet av kalkylbladet
-- **setPrintDraft-metoden** , skickas en boolesk parameter till denna metod som definierar om kalkylblad ska skrivas ut i utkastkvalitet eller inte
-- **setPrintErrors-metoden** , definierar om cellfel ska skrivas ut som visas, tomt, streck eller ej
+- **setPrintGridlines-metoden** , en boolesk parameter skickas till denna metod som definierar om rutnät ska skrivas ut eller inte
+- **setPrintHeadings-metoden** , en boolesk parameter skickas till denna metod som definierar om rad- och kolumnrubriker ska skrivas ut eller inte
+- **setBlackAndWhitemetoden** , en boolesk parameter skickas till denna metod som definierar om kalkylarket ska skrivas ut i svartvitt läge eller inte
+- **setPrintComments method** , definierar om du vill visa utskriftskommentarer på arbetsbladet eller i slutet av arbetsbladet
+- **setPrintDraft method** , en boolesk parameter skickas till denna metod som definierar om arbetsbladet ska skrivas ut i utkastkvalitet eller inte
+- **setPrintErrors method** , definierar om cellfel ska skrivas ut som visas, tomma, streck eller N/A
 
- Att använda set**Skriv ut Kommentarer** och ställ in**PrintErrors** metoder, Aspose.Cells tillhandahåller också två uppräkningar, PrintCommentsType och PrintErrorsType som innehåller fördefinierade värden som ska passeras en parameter för att ställa in PrintComments respektive set PrintErrors metoder.
+För att använda metoderna set **PrintComments** och set **PrintErrors** tillhandahåller även Aspose.Cells två uppräkningar, PrintCommentsType & PrintErrorsType som innehåller fördefinierade värden att skickas som parametrar till set PrintComments och set PrintErrors-metoderna respektive.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -109,14 +110,14 @@ pageSetup.PrintDraft = true;
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
 
 {{< /highlight >}}
-## **Ställ in sidordning**
-**Utskriftsformat**klass tillhandahåller set Order-metod som används för att beställa flera sidor i ditt kalkylblad som ska skrivas ut. Det finns två möjligheter att beställa sidorna enligt följande:
+## **Ange sidordning**
+**PageSetup** -klassen tillhandahåller en set Order-metod som används för att ordna flera sidor på ditt arbetsblad som ska skrivas ut. Det finns två möjligheter att ordna sidorna enligt följande:
 
-Ner och sedan över så kommer den att skriva ut alla sidor ner innan den skriver ut sidorna till höger
-Över och nedåt så kommer den att skriva ut sidor från vänster till höger innan du skriver ut sidorna nedan
-Aspose.Cells tillhandahåller en uppräkning, PrintOrderType som innehåller alla fördefinierade ordertyper som ska tilldelas till setPage Order-metoden.
+Ner sedan över så att den skriver ut alla sidor ner innan den skriver ut sidor till höger
+Över sedan ner så att den skriver ut sidor från vänster till höger innan den skriver ut sidor nedanför
+Aspose.Cells tillhandahåller en uppräkning, PrintOrderType som innehåller alla fördefinierade ordningstyper som ska tilldelas setPage Order-metoden.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -131,6 +132,6 @@ PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 pageSetup.Order = PrintOrderType.OverThenDown;
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Print%20Spreadsheet%20with%20Options%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Print%20Spreadsheet%20with%20Options%20%28Aspose.Cells%29.zip)

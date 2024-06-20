@@ -1,45 +1,46 @@
-﻿---
+---
 title: Convertir hoja de trabajo a imagen en Ruby
 type: docs
 weight: 60
 url: /es/java/converting-worksheet-to-image-in-ruby/
 ---
-## **Aspose.Cells - Conversión de hoja de trabajo en imagen**
-Para convertir una hoja de trabajo en una imagen usando Aspose.Cells for Java en Ruby, simplemente invoque el módulo Converter.
 
-**código rubí**
+## **Aspose.Cells - Convertir hoja de trabajo a imagen**
+Para convertir una hoja de trabajo a imagen usando Aspose.Cells for Java en Ruby, simplemente invoque el módulo Converter.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
 
- hoja de trabajo de definición_a_imagen (libro de trabajo)
+{{< highlight ruby >}}
 
-#Crear un objeto para ImageOptions
+ def worksheet_to_image(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').nuevo
+    #Create an object for ImageOptions
 
-
-
-# Establecer el tipo de imagen
-
-formato_imagen = Rjb::import('com.aspose.cells.ImageFormat')
-
-imagen_opciones.setImageFormat(imagen_formato.getPng())
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
 
 
-# Obtenga la primera hoja de trabajo.
+    # Set the image type
 
-hoja = libro de trabajo.getWorksheets().get(0)
+    image_format = Rjb::import('com.aspose.cells.ImageFormat')
 
-# Crear un objeto SheetRender para la hoja de destino
-
-sr = Rjb::import('com.aspose.cells.SheetRender').new(hoja, img_options)
+    img_options.setImageFormat(image_format.getPng())
 
 
 
-j = 0
+    # Get the first worksheet.
 
- mientras j< sr.getPageCount()
+    sheet = workbook.getWorksheets().get(0)
+
+    # Create a SheetRender object for the target sheet
+
+    sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+
+
+
+    j = 0
+
+    while j < sr.getPageCount()
 
         # Generate an image for the worksheet
 
@@ -54,7 +55,7 @@ j = 0
 end 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Conversión de hoja de trabajo en imagen (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Convertir hoja de trabajo a imagen (Aspose.Cells)** desde alguno de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

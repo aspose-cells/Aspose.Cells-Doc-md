@@ -1,100 +1,101 @@
-﻿---
-title: Özellikleri
+---
+title: Özellikler
 type: docs
 weight: 5
 url: /tr/nodejs-java/features/
-keywords: nodejs, excel, api, feature
-description: Aspose.Cells for Node.js via Java özellikler
+keywords: "nodejs, excel, api, features"
+description: "Aspose.Cells for Node.js via Java özellikleri."
 ---
-## **Aspose.Cells for Node.js via Java Özelliklere Genel Bakış**
-Bu bölüm, Aspose.Cells for Java ve Aspose.Cells for Node.js via Java arasındaki özelliklerin kullanılabilirliğinin karşılaştırmasını sağlar.
+
+## **Aspose.Cells for Node.js via Java Özellikleri Genel Bakış**
+Bu bölüm, Aspose.Cells for Java ve Aspose.Cells for Node.js via Java arasında özelliklerin uygunluğunu karşılaştıran bir karşılaştırma sunar.
 ### **Dosya Biçimleri ve Dönüşümler**
-Dünya çapında birçok müşteri, Aspose.Cells tarafından sağlanan kapsamlı belge içe ve dışa aktarma özelliklerine güveniyor.
+Aspose.Cells tarafından sağlanan kapsamlı belge içe/dışa aktarma özelliklerine dünya çapında birçok müşteri güvenmektedir.
 
 |**Özellik**|**Açıklama**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
-|:- |:- |:- |:- |
-|Yüksek Kaliteli Dönüşümler|Birkaç popüler belge formatı arasında hızlı ve güvenilir bir şekilde dönüştürün.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel Çalışma Kitabı (XLS)|Bulabileceğiniz en hızlı ve en eksiksiz XLS format uygulaması.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|SpreadsheetML (XLSX, XML)| Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'i destekler. Dahası,<br>bileşen, tüm önemli Excel 2007 ve sonraki sürümlerin dosya formatlarını destekler, örneğin XLSX, XLTX, XLSM, XLTM vb.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Virgülle Ayrılmış Değer (CSV)|Çeşitli uygulamalarla etkileşim için CSV biçiminin kapsamlı desteği.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|HTML olarak kaydet kullanılabilir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Açık Belge (ODS)|Aspose.Cells, belgeleri OpenDocument Elektronik Tablo (.ods) biçiminde yükleyebilir ve kaydedebilir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Adobe Taşınabilir Belge Biçimi (PDF)|Herhangi bir Elektronik Tabloyu yüksek doğrulukla PDF'e dönüştürün.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Sekmeyle Ayrılmış|Belgeleri sekmeyle ayrılmış dosya biçiminde yükleyin ve kaydedin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Düz Metin (TXT)|Düz metin biçiminde kaydederek metni kolayca çıkarın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Oluşturma ve Yazdırma**
-Aspose.Cells artık elektronik tablo sayfalarının aslına uygun olarak işlenmesini sağlıyor.
+| :- | :- | :- | :- |
+|Yüksek Kalite Dönüşümler|Hızlı ve güvenilir şekilde birkaç popüler belge formatı arasında dönüştürme.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel Çalışma Kitabı (XLS)|Bulabileceğiniz en hızlı ve en kapsamlı XLS formatı uygulaması.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)|Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'yi destekler. Ayrıca, bileşen tüm önemli Excel 2007 ve sonrası sürüm dosya formatlarını destekler, örneğin XLSX, XLTX, XLSM, XLTM vb.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Virgülle Ayrılmış Değer (CSV)|Çeşitli uygulamalarla etkileşim için CSV formatının kapsamlı desteği.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|HTML olarak kaydetme mevcuttur.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|OpenDocument (ODS)|Aspose.Cells, OpenDocument Çalışma Kitabı (.ods) formatında belgeleri yükleyip kaydedebilir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Adobe Taşınabilir Belge Biçimi (PDF)|Yüksek sadakatle herhangi bir Çalışma Sayfasını PDF'ye dönüştürme.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Sekmeyle Ayrılmış|Sekmeyle ayrılmış dosya formatında belgeleri yükleme ve kaydetme.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Düz Metin (TXT)|Basit metin formatında kaydederek metinleri kolayca çıkarma.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **Rendere Alma ve Yazdırma**
+Aspose.Cells artık elektronik tablo sayfalarının yüksek sadakatli şekilde görüntülenmesini sağlar.
 
-|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
-|:- |:- |:- |
-|Belgeyi Microsoft Excel®'e yüksek doğrulukla sayfalara yerleştirin (aynı Microsoft Excel®'in yapacağı gibi).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Çalışma sayfası sayfalarını raster görüntülere dönüştürün (PNG, JPEG, vb.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Çalışma sayfası sayfalarını raster görüntülere dönüştürün (Multipage TIFF, GIF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Elektronik tablo sayfalarını vektör görüntülere dönüştürün (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Görüntü çözünürlüğünü, kalitesini, sıkıştırmayı ve diğer seçenekleri belirtin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Java yazdırma altyapısını kullanarak elektronik tablo sayfalarını yazdırın.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Oluşturmadan veya yazdırmadan önce sayfa numaralarını ve diğer alanları güncelleyin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells için Node.js via Java**|
+| :- | :- | :- |
+|Belgeyi Microsoft Excel®'e yüksek sadakatle sayfalara yerleştir (tam olarak Microsoft Excel®'in yapacağı gibi).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Çalışma sayfasını raster görüntülere (PNG, JPEG, vd.) dönüştür.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Çalışma sayfasını raster görüntülere (Çok sayfalı TIFF, GIF) dönüştür.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Elektronik tablo sayfalarını vektör görüntülere (EMF) dönüştür.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Görüntü çözünürlüğünü, kalitesini, sıkıştırmasını ve diğer seçenekleri belirtme.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Java basılığını kullanarak elektronik tablo sayfalarını yazdırma.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Görüntülemeden veya yazdırmadan önce sayfa numaralarını ve diğer alanları güncelle.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Elektronik Tablo İçeriği Özellikleri**
-Aspose.Cells, yüklü elektronik tabloları programlı olarak oluşturmanıza, birleştirmenize, değiştirmenize, ayrıştırmanıza veya başka bir şekilde incelemenize izin veren 100'ün üzerinde genel sınıftan/arayüzden oluşan zengin bir nesne modeli sağlar. Bazı temel özellikler aşağıdaki tabloda verilmiştir.
+Aspose.Cells, size aşağıdaki tabloda verilen bazı önemli özellikleri içeren 100'den fazla genel sınıf/arayüzden oluşan zengin bir nesne modeli sunar.
 
-|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
-|:- |:- |:- |
-|Array, ArrayList, ResultSet vb.'den verileri içe/dışa aktarın.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Mevcut çalışma sayfasının bir kopyasını ekleyin (resimler, grafikler, diğer nesneler vb. dahil tüm içerikler)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Çalışma sayfalarını çalışma kitaplarının içinde veya arasında kopyalama veya taşıma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|resim ekle|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Grafikler oluşturun|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|API'i kullanarak grafikler için gradyan arka planı ayarlayın|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells için Node.js via Java**|
+| :- | :- | :- |
+|Diziden, ArrayList'ten, ResultSet vb. veri alma/veri aktarma|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Varolan çalışma sayfasının kopyasını ekle (resimler, grafikler, diğer nesneler vb. dahil tüm içeriklerle)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Çalışma kitapları içinde veya arasında çalışma sayfalarını kopyalama veya taşıma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Resimler ekleme|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Grafikler oluşturma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|API kullanarak grafikler için gradyan arka plan ayarlama|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Hücrelere yorum ekleme|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel 2007 ve sonraki sürümlerin temaları ve renkleri|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Otomatik filtreler oluştur|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Veri doğrulamalarını uygulama|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Veri sıralamayı uygulama|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Metni bul ve değiştir|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Birleştir/böl Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Satırları ve sütunları gruplandırma/grubu çözme|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Özel sayfa sonları oluşturun|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Satırları, sütunları ve sayfaları ekleyin/silin veya gizleyin|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Karmaşık Excel formüllerini hesaplayın|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel 2007 ve sonraki sürümlerde desteklenen gelişmiş koşullu biçimlendirme desteği|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Bölmeleri Dondur / Çöz|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Verileri bağlamak için köprüler ekleyin|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Akıllı İşaretleyicileri Uygulayın|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Belge özellikleri ayarlarını belirtin|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Çalışma sayfalarını koruma/korumayı kaldırma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Excel XP ve sonraki sürümlerde sunulan gelişmiş koruma seçeneklerini belirtin|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Liste nesnesi oluştur/Microsoft Excel tabloları|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ara toplamlar oluştur|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Form kontrollerini ve diğer çizim şekillerini/nesnelerini ekleyin|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Pivot tablolar ve pivot grafikler oluşturun|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel 2007 ve sonraki sürümlerde temalar ve renkler|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Otomatik filtreler oluşturma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Veri doğrulamaları uygulama/veri doğrulamaları oluşturma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Veri sıralama uygulama|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Metni bulma ve değiştirme|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Hücreleri birleştirme/ayırma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Satır ve sütunları gruplama/sınırsız hale getirme|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Özel sayfa sonuçlarını oluşturma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Satırları, sütunları ve çalışma sayfalarını ekle/sil veya gizle|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Karmaşık Excel formüllerini hesaplama|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel 2007 ve sonraki sürümlerde desteklenen gelişmiş koşullu biçimlendirme|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Pencereleri dondurma/çözme|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Verileri bağlamak için kısa yol eklemek|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Akıllı İşaretçileri uygulama|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Belge özellikleri ayarlarını belirtme|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Çalışma sayfalarını koruma/korumasız bırakma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Excel XP ve sonraki sürümlerde tanıtılan gelişmiş koruma seçeneklerini belirtme|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Liste nesnesi/Microsoft Excel tabloları oluşturma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Alt toplamlar oluşturma|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Form kontrolleri ve diğer çizim şekilleri/nesneleri ekleme|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Özet tabloları ve özet grafikleri oluşturun|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Eklenti, VBA, makroları koruyun veya kaldırın|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Adlandırılmış aralıkları işleyin|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Adlandırılmış aralıkları manipüle edin|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Özel grafikler oluşturun|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Elektronik tablolardan OLE nesneleri ekleyin, koruyun veya çıkarın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Mini grafikleri uygulama|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Dosyaları şifrele|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Elektronik Tablo Biçimlendirme Özellikleri**
-Aspose.Cells, tüm elektronik tablo öğelerinin biçimlendirme özelliklerine ayrıntılı programlı erişim sağlar.
+|Elecet li dosyalardan OLE nesneleri ekleyin, koruyun veya çıkarın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Kıvılcım çizgileri uygulayın|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Dosyaları şifreleyin|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **Çalışma Tablosu Biçimlendirme Özellikleri**
+Aspose.Cells, tüm elektronik tablo öğelerinin biçimlendirme özelliklerine ayrıntılı programlama erişimi sağlar.
 
-|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
-|:- |:- |:- |
-|Yazı tipleri, renkler, efektler, kenarlıklar ve gölgeleme dahil olmak üzere hücrelerdeki tüm karakterleri biçimlendirmeyi uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Hücreler için tüm sayı biçimi ayarlarını (Microsoft Excel'de desteklenir) uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Tüm metin hizalama ayarlarını yapın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Hücreler için farklı Yazı Tipi Ayarları uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Hücrelere, yazı tiplerine, kılavuz çizgilerine, grafik nesnelerine vb. farklı renkler uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Tek bir hücrede farklı zengin metin biçimlendirmesi uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Hücrelere farklı kenarlık ayarları uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Hücrelere farklı arka plan desenleri uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Biçim ayarlarını bir çalışma sayfasına, satıra, sütuna veya hücre aralığına vb. uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Sayfa Kurulumu Özellikleri**
-Çalışma sayfaları için sayfa yapısı seçeneklerini uygulamak için Aspose.Cells'i kullanabilirsiniz.
+|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells için Node.js via Java**|
+| :- | :- | :- |
+|Hücrelerde font, renk, efekt, kenarlık ve gölgelendirme dahil olmak üzere tüm karakter biçimlendirmesini uygula|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Hücreler için (Microsoft Excel'de desteklenen) tüm sayı formatı ayarlarını uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Tüm metin hizalama ayarlarını uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Hücreler için farklı yazı tipi ayarlarını uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Farklı renkleri hücrelere, yazı tiplerine, ızgaralara, grafik nesnelerine vb. uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Tek bir hücrede farklı zengin metin biçimlemelerini uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Hücrelere farklı kenarlık ayarlarını uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Hücrelere farklı arka plan desenlerini uygulayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Çalışma sayfası, satır, sütun veya hücre aralığı gibi Format ayarlarını uygula|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **Sayfa Ayarı Özellikleri**
+Aspose.Cells'i çalışma kitapları için sayfa ayarı seçeneklerini uygulamak için kullanabilirsiniz.
 
-|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
-|:- |:- |:- |
-|Sayfa yönünü, ölçeklemeyi, kağıt boyutunu ayarlayın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Kenar boşluklarınızı ve sayfa merkezlemenizi belirtin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Üstbilginizi ve/veya altbilginizi oluşturun veya düzenleyin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Yazdırma alanını ayarlayın, başlıkları yazdırın veya kılavuz çizgilerini vb. açın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Özellik**|**Aspose.Cells for Java**|**Aspose.Cells için Node.js via Java**|
+| :- | :- | :- |
+|Sayfa yönetimi, ölçekleme, kağıt boyutu gibi ayarları düzenleyin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Kenar boşluklarınızı ve sayfa ortalamasını belirtin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Başlık ve/veya altbilgi oluşturun veya düzenleyin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Baskı alanını, baskı başlıklarını belirleyin veya ızgaraları açın vb.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 

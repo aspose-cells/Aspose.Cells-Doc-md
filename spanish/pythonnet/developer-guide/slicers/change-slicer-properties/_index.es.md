@@ -1,17 +1,20 @@
 ---
-title: Cambiar propiedades de segmentación
+title: Cambiar propiedades del rebanador
 type: docs
 weight: 70
 url: /es/python-net/change-slicer-properties/
+description: Aprende cómo cambiar propiedades del rebanador con Aspose.Cells para Python via .NET.
+keywords: Aspose.Cells para Python Excel, biblioteca de Python Excel, Cambiar propiedades del rebanador sin Excel en Python, Modificar propiedades del rebanador en Python sin Excel, Cambiar propiedades del rebanador usando la biblioteca de Excel para Python de Aspose.Cells.
 ---
-##  **Posibles escenarios de uso**
 
-Puede haber situaciones en las que desee cambiar las propiedades de la segmentación, como la ubicación o la altura de la fila. Aspose.Cells for Python via .NET le ofrece la opción de actualizar estas propiedades.
+## **Escenarios de uso posibles**
 
-##  **Cambiar propiedades de segmentación**
+Puede haber situaciones en las que desees cambiar las propiedades del rebanador, como la ubicación o la altura de fila. Aspose.Cells para Python via .NET te brinda la opción de actualizar estas propiedades.
 
- Consulte el siguiente código de muestra. Se carga el[archivo de Excel de muestra](sampleCreateSlicerToExcelTable.xlsx)que contiene una tabla. Luego crea la segmentación de datos basada en la primera columna y cambia sus propiedades como alto de fila, ancho, es imprimible, título, etc. Guarda el libro como[salidaChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
+## **Cómo cambiar propiedades del rebanador usando la biblioteca de Excel de Aspose.Cells para Python**
 
-##  **Código de muestra**
+Por favor, consulta el siguiente código de ejemplo. Carga el [archivo de Excel de ejemplo](sampleCreateSlicerToExcelTable.xlsx) que contiene una tabla. Luego, crea el rebanador basado en la primera columna y cambia sus propiedades como altura de fila, ancho, es imprimible, título, etc. Guarda el libro de trabajo como [outputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
+
+## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-ChangeSlicerProperties-1.py" >}}

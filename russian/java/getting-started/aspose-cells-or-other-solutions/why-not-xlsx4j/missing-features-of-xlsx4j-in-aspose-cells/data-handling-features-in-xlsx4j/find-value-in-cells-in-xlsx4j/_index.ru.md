@@ -1,15 +1,16 @@
-﻿---
-title: Найти значение в Cells в xlsx4j
+---
+title: Найти значение в ячейках в xlsx4j
 type: docs
 weight: 30
 url: /ru/java/find-value-in-cells-in-xlsx4j/
 ---
-## **Aspose.Cells - Найти значение в Cells**
-В Microsoft Excel пользователи могут искать ячейки, содержащие определенные данные. Например, нажав**Редактировать**а потом**Находить**открывает диалоговое окно поиска. Пользователи вводят значение и нажимают**ХОРОШО**искать его. Excel выделяет совпадающие поля.
+
+## **Aspose.Cells - Найти Значение в Ячейках**
+В Microsoft Excel пользователи могут искать ячейки, содержащие определенные данные. Например, щелкнув **Правка** и затем **Поиск**, открывается диалоговое окно поиска. Пользователь вводит значение и щелкает **OK** для поиска. Excel выделяет соответствующие поля.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -38,13 +39,13 @@ Cell cell = cells.find("SH",null,findOptions);
 System.out.println("Name of the cell containing String: " + cell.getName());
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/findvalueincells/AsposeFindValueInCells.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/findvalueincells/AsposeFindValueInCells.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Поиск или поиск данных](/cells/ru/java/find-or-search-data).
+Дополнительные сведения см. по адресу [Поиск данных](/cells/ru/java/find-or-search-data).
 
 {{% /alert %}}

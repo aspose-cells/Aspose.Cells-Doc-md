@@ -1,97 +1,98 @@
-﻿---
-title: Начиная
+---
+title: Начало работы
 type: docs
 weight: 10
 url: /ru/java/aspose-cells-for-android-via-java-features/
 ---
-## **Aspose.Cells Обзор функций Android via Java**
-В этом разделе представлено сравнение доступности функций между Aspose.Cells for Java и Aspose.Cells for Android via Java.
-### **Форматы файлов и преобразования**
-Многие клиенты по всему миру полагаются на подробные функции импорта и экспорта документов, предоставляемые Aspose.Cells.
 
-|**Особенность**|**Описание**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |:- |
-|Качественные конверсии|Быстро и надежно конвертируйте между несколькими популярными форматами документов.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Книга Excel (XLS/XLSB)|Самая быстрая и наиболее полная реализация формата XLS/XLSB, которую вы можете найти.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|SpreadsheetML (XLSX, XML)| Aspose.Cells поддерживает OOXML, Flat OPC, а также Excel 2003 XML. Более того,<br>компонент поддерживает все основные форматы файлов Excel 2007 и более поздних версий, например XLSX, XLTX, XLSM, XLTM и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Значение, разделенное запятыми (CSV)|Всесторонняя поддержка формата CSV для взаимодействия с различными приложениями.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|Сохранить как HTML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|OpenDocument (ODS)|Aspose.Cells может загружать и сохранять документы в формате электронной таблицы OpenDocument (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Adobe Portable Document Format (PDF)|Преобразуйте любую электронную таблицу в PDF с высокой точностью.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Табуляция с разделителями|Загружайте и сохраняйте документы в формате файлов с разделителями табуляции.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Обычный текст (TXT)|Легко извлекайте текст, сохраняя его в текстовом формате.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Рендеринг и печать**
-Aspose.Cells теперь обеспечивает высокоточную визуализацию страниц электронных таблиц.
+## **Обзор функций Aspose.Cells Android via Java**
+Этот раздел предоставляет сравнение доступности функций между Aspose.Cells for Java и Aspose.Cells для Android via Java.
+### **Форматы файлов и конвертации**
+Многие клиенты по всему миру полагаются на тщательные функции импорта и экспорта документов, предоставляемые Aspose.Cells.
 
-|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
-|Разложите документ на страницы с высокой точностью до Microsoft Excel® (точно так же, как это сделает Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Преобразование страниц рабочего листа в растровые изображения (PNG, JPEG и т. д.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Преобразование страниц рабочего листа в растровые изображения (многостраничные TIFF, GIF).|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Преобразование страниц электронных таблиц в векторные изображения (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Функция**|**Описание**|**Aspose.Cells for Java**|**Aspose.Cells для Android via Java**|
+| :- | :- | :- | :- |
+|Высококачественные конвертации|Быстрые и надежные конвертации между несколькими популярными форматами документов.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Книга Microsoft Excel (XLS/XLSB)|Самая быстрая и полная реализация формата XLS/XLSB, которую вы можете найти.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)|Aspose.Cells поддерживает OOXML, Flat OPC, а также XML Excel 2003. Более того, <br>компонент поддерживает все основные форматы файлов Excel 2007 и более поздних версий, например XLSX, XLTX, XLSM, XLTM и др.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Значение, разделенное запятыми (CSV)|Комплексная поддержка формата CSV для взаимодействия с различными приложениями.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|Сохранение в HTML доступно.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|OpenDocument (ODS)|Aspose.Cells может загружать и сохранять документы в формате OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Формат переносимого документа Adobe (PDF)|Преобразуйте любую электронную таблицу в PDF с высокой точностью.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Табулированный|Загрузка и сохранение документов в формате файлов с табулированным разделением.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Простой текст (TXT)|Легко извлекайте текст, сохраняя в формате обычного текста.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **Визуализация и печать**
+Теперь Aspose.Cells обеспечивает высокую точность отображения страниц электронных таблиц.
+
+|**Функция**|**Aspose.Cells for Java**|**Aspose.Cells для Android via Java**|
+| :- | :- | :- |
+|Организация документа на страницы с высокой точностью, аналогичной Microsoft Excel® (точно так, как это делает Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Отображение страниц листа в растровые изображения (PNG, JPEG и др.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Отображение страниц листа в растровые изображения (Многостраничный TIFF, GIF).|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Отображение страниц электронных таблиц в векторные изображения (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Укажите разрешение изображения, качество, сжатие и другие параметры.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Печатайте страницы электронных таблиц, используя инфраструктуру печати Java.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Обновляйте номера страниц и другие поля перед визуализацией или печатью.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Особенности содержимого электронной таблицы**
-Aspose.Cells предоставляет богатую объектную модель, состоящую из более чем 100 общедоступных классов/интерфейсов, которые позволяют программно генерировать, комбинировать, изменять, анализировать или иным образом проверять загруженные электронные таблицы. Некоторые ключевые характеристики приведены в таблице ниже.
+|Печать страниц электронных таблиц с использованием печатной инфраструктуры Java.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Обновите номера страниц и другие поля перед рендерингом или печатью.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **Особенности содержимого электронных таблиц**
+Aspose.Cells предоставляет богатую объектную модель, состоящую из более чем 100 открытых классов/интерфейсов, позволяющих программно генерировать, объединять, модифицировать, разбирать или иным образом изучать загруженные электронные таблицы. Некоторые ключевые особенности приведены в таблице ниже.
 
-|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
-|Импорт/экспорт данных из Array, ArrayList, ResultSet и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Добавьте копию существующего рабочего листа (все содержимое, включая изображения, диаграммы, другие объекты и т. д.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Копировать или перемещать рабочие листы внутри или между книгами|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Вставка изображений|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Создание диаграмм|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Установите градиентный фон для диаграмм, используя API|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Добавляйте комментарии к ячейкам|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Темы и цвета Excel 2007 и более поздних версий|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Создание автофильтров|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Функция**|**Aspose.Cells for Java**|**Aspose.Cells для Android via Java**|
+| :- | :- | :- |
+|Импорт/экспорт данных из массива, ArrayList, ResultSet и т. Д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Добавить копию существующего листа (все содержимое, включая изображения, диаграммы, другие объекты и т. Д.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Копировать или перемещать листы внутри или между книгами|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Вставить изображения|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Создать диаграммы|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Установить градиентный фон для диаграмм с использованием API|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Добавить комментарии к ячейкам|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Темы и цвета Microsoft Excel 2007 и более поздних версий|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Создать автофильтры|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Реализовать проверку данных|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Реализовать сортировку данных|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Найти и заменить текст|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Слияние/разделение Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Поиск и замена текста|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Объединить/разделить ячейки|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Группировать/разгруппировать строки и столбцы|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Создание настраиваемых разрывов страниц|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Вставка/удаление или скрытие строк, столбцов и листов|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Вычислять сложные формулы Excel|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Поддержка расширенного условного форматирования, поддерживаемого в Microsoft Excel 2007 и более поздних версиях.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Заморозить/разморозить панели|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Вставьте гиперссылки, чтобы связать данные|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Внедрение интеллектуальных маркеров|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Укажите настройки свойств документа|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Защитить/снять защиту листов|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Укажите расширенные параметры защиты, представленные в Excel XP и более поздних версиях.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Создать объект списка/Microsoft Таблицы Excel|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Создать промежуточные итоги|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Вставка элементов управления формы и других фигур/объектов рисования|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Создать пользовательские разрывы страниц|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Вставить/удалить или скрыть строки, столбцы и листы|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Вычислить сложные формулы Excel|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Поддержка расширенного условного форматирования, поддерживаемого в Microsoft Excel 2007 и последующих версиях|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Замораживание/размораживание областей|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Вставка гиперссылок для связи данных|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Реализация умных маркеров|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Указание настроек свойств документа|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Защита/снятие защиты листов|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Указание расширенных опций защиты, введенных в Excel XP и последующих версиях|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Создание объекта списка/таблиц Excel|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Создание промежуточных итогов|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Вставка элементов управления формой и других графических фигур/объектов|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Создание сводных таблиц и сводных диаграмм|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Сохранить или удалить надстройку, VBA, макросы|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Сохранение или удаление дополнений, VBA, макросов|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Управление именованными диапазонами|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Создание пользовательских диаграмм|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Добавляйте, сохраняйте или извлекайте объекты OLE из электронных таблиц.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Реализовать спарклайны|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Шифровать файлы|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Возможности форматирования электронных таблиц**
-Aspose.Cells обеспечивает подробный программный доступ к свойствам форматирования всех элементов электронной таблицы.
+|Добавление, сохранение или извлечение OLE-объектов из электронных таблиц.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Реализация миниграфиков|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Шифрование файлов|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **Особенности форматирования электронных таблиц**
+Aspose.Cells обеспечивает подробный программный доступ к свойствам форматирования всех элементов электронных таблиц.
 
-|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
-|Примените все форматирование символов в ячейках, включая шрифты, цвета, эффекты, границы и затенение.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Примените все настройки числового формата (поддерживаемые в Microsoft Excel) для ячеек.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Установите все типы настроек выравнивания текста.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Применяйте различные типы настроек шрифта для ячеек.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Применяйте разные цвета к ячейкам, шрифтам, линиям сетки, графическим объектам и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Применяйте различное форматирование форматированного текста в одной ячейке.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Применение различных параметров границ к ячейкам.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Применяйте различные фоновые узоры к ячейкам.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Примените настройки формата к рабочему листу, строке, столбцу или диапазону ячеек и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Особенности настройки страницы**
-Вы можете использовать Aspose.Cells для реализации параметров настройки страницы для рабочих листов.
+|**Функция**|**Aspose.Cells for Java**|**Aspose.Cells для Android via Java**|
+| :- | :- | :- |
+|Применить все форматирование символов в ячейках, включая шрифты, цвета, эффекты, границы и заливку.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Применить все настройки формата чисел (поддерживаемые в Microsoft Excel) для ячеек.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Установить все типы настроек выравнивания текста.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Применить различные виды настроек шрифта для ячеек.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Применить различные цвета для ячеек, шрифтов, линий сетки, графических объектов и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Применить различное форматирование текста в одной ячейке.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Применить различные настройки границ на ячейках.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Применить различные фоновые узоры на ячейках.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Применить настройки формата на листе, строке, столбце или диапазоне ячеек и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **Функции настройки страницы**
+Вы можете использовать Aspose.Cells для реализации параметров настройки страниц для листов.
 
-|**Особенность**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
-|Отрегулируйте ориентацию страницы, масштабирование, размер бумаги.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Функция**|**Aspose.Cells for Java**|**Aspose.Cells для Android via Java**|
+| :- | :- | :- |
+|Настройте ориентацию страницы, масштабирование, размер бумаги.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Укажите поля и центрирование страницы.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Создайте или отредактируйте верхний и/или нижний колонтитулы.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Установите область печати, напечатайте заголовки или включите линии сетки и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Создать или отредактировать верхний и/или нижний колонтитул.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Установите область печати, названия печати или включите линии сетки и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 

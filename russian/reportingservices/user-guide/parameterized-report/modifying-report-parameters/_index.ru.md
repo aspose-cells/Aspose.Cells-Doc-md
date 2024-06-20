@@ -1,32 +1,33 @@
-﻿---
+---
 title: Изменение параметров отчета
 type: docs
 weight: 20
 url: /ru/reportingservices/modifying-report-parameters/
 ---
-Чтобы изменить параметр отчета:
+
+Чтобы изменить параметр отчета: 
 
 1. Откройте Microsoft Excel.
-1.  Нажмите**Параметр отчета**на панели инструментов Aspose.Cells.Отчет.Конструктор (
+1. Нажмите **Параметр отчета** на панели инструментов Aspose.Cells.Report.Designer (
 
-![дело:изображение_альтернативный_текст](modifying-report-parameters_1.png)
+![todo:image_alt_text](modifying-report-parameters_1.png)
 
 ).
 
-1.  Выберите параметр отчета, указанный на левой панели, например**ОтчетМесяц**.
-1.  Нажмите**Изменить**. 
+1. Выберите параметр отчета, перечисленный в левой панели, например **ReportMonth**.
+1. Нажмите **Изменить**. 
 
    **Выбор параметра** 
 
-![дело:изображение_альтернативный_текст](modifying-report-parameters_2.png)
+![todo:image_alt_text](modifying-report-parameters_2.png)
 
 
 
 
-1.  Измените информацию о параметрах отчета.
+1. Измените информацию о параметре отчета. 
 
    **Изменение параметра** 
 
-![дело:изображение_альтернативный_текст](modifying-report-parameters_3.png)
+![todo:image_alt_text](modifying-report-parameters_3.png)
 
-1.  Нажмите**Сохранять**.
+1. Нажмите **Сохранить**.

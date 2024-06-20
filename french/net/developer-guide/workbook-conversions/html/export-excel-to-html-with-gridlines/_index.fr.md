@@ -1,16 +1,17 @@
-﻿---
-title: Exporter Excel vers HTML avec GridLines
+---
+title: Exporter Excel en HTML avec les lignes de grille
 type: docs
 weight: 40
 url: /fr/net/export-excel-to-html-with-gridlines/
 ---
+
 {{% alert color="primary" %}} 
 
- Si vous souhaitez exporter votre fichier Excel dans HTML avec GridLines, veuillez utiliser le[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) propriété et définissez-la**vrai**.
+Si vous souhaitez exporter votre fichier Excel au format HTML avec des lignes de grille, veuillez utiliser la propriété [HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) et la définir sur **true**.
 
 {{% /alert %}} 
-## **Exporter Excel vers HTML avec GridLines**
-L'exemple de code suivant crée un classeur et remplit sa feuille de calcul avec certaines valeurs, puis l'enregistre au format HTML après avoir défini le[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) à**vrai**.
+## **Exporter Excel au format HTML avec des lignes de grille**
+Le code d'exemple suivant crée un classeur, remplit sa feuille de calcul avec des valeurs, puis le sauvegarde au format HTML après avoir défini la propriété [HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) sur **true**.
 
 
 

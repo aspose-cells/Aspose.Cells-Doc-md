@@ -1,39 +1,40 @@
 ---
-title: تغيير اتجاه علامة التجزئة
-description: تعرف على كيفية تغيير اتجاه علامات التجزئة في Aspose.Cells for .NET. سيساعدك دليلنا على فهم كيفية ضبط اتجاه علامات التجزئة على المحاور، بما في ذلك الاتجاهات الأفقية والرأسية والزاوية.
-keywords: Aspose.Cells for .NET, tick labels, direction, orientation, axes, horizontal, vertical, angled.
+title: تغيير اتجاه التسمية التلقائية
+description: تعلّم كيفية تغيير اتجاه تسميات العلامات المحورية في Aspose.Cells for .NET. سيساعدك دليلنا في فهم كيفية ضبط اتجاهات تسميات العلامات المحورية على المحاور، بما في ذلك التوجيه الأفقي والرأسي والمائل.
+keywords: Aspose.Cells for .NET, تسميات العلامات المحورية، اتجاه، توجيه، محاور، أفقي، رأسي، مائل.
 type: docs
 weight: 170
 url: /ar/net/change-tick-label-direction/
 ---
-##  **تغيير اتجاه علامة التجزئة**
 
-Aspose.Cells يوفر لك القدرة على تغيير اتجاه تسمية علامة الرسم البياني باستخدام[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) ملكية. ال[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype)الملكية تقبل[**نوع الرسم البيانيTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) قيمة التعداد. ال[**نوع الرسم البيانيTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)يوفر التعداد الأعضاء التالية أسماؤهم
+## **تغيير اتجاه التسمية التلقائية**
+
+توفر Aspose.Cells لك القدرة على تغيير اتجاه تسمية العلامة المحورية في الرسم البياني باستخدام الخاصية [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype). تقبل الخاصية [**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) قيمة تقديرية [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype). توفر التقديرية [**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) الأعضاء التالية
 
 - أفقي
-- رَأسِيّ
-- تدوير90
-- تدوير270
-- مرصوصة
+- رأسي
+- دوران 90
+- دوران 270
+- مكدس
 
-الصورة التالية تقارن بين ملفات المصدر والإخراج
+صورة تقارن بين الملف الأصلي وملف الإخراج
 
-###  **صورة الملف المصدر**
+### **صورة الملف الأصلي**
 
-![ما يجب القيام به:image_alt_text](change-tick-label-direction_1.jpg)
+![todo:image_alt_text](change-tick-label-direction_1.jpg)
 
-###  **صورة ملف الإخراج**
+### **صورة الملف الإخراج**
 
-![ما يجب القيام به:image_alt_text](change-tick-label-direction_2.jpg)
+![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
-يغير مقتطف الكود التالي اتجاه علامة التجزئة من Rotate90 إلى Horizontal.
+مقتطف الكود التالي يغير اتجاه تسمية العلامة المحورية من دوران 90 إلى أفقي.
 
-##  **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChangeTickLabelDirection-1.cs" >}}
 
 يمكن تحميل ملفات المصدر والإخراج من الروابط التالية.
 
-[مصدر الملف](105480221.xlsx)
+[ملف المصدر](105480221.xlsx)
 
-[ملف إلاخراج](105480223.xlsx)
+[ملف الإخراج](105480223.xlsx)

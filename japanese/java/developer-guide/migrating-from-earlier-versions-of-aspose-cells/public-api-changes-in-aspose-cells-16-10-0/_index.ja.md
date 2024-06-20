@@ -1,38 +1,39 @@
-﻿---
-title: パブリック API Aspose.Cells 16.10.0 の変更点
+---
+title: Aspose.Cells 16.10.0の公開APIの変更
 type: docs
 weight: 350
 url: /ja/java/public-api-changes-in-aspose-cells-16-10-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 9.0.0 から 16.10.0 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントは、モジュール/アプリケーション開発者に興味があるかもしれない、Aspose.Cells APIのバージョン9.0.0から16.10.0への変更点について説明しています。新しいおよび更新された公開メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cellsの裏側での挙動の変更の説明も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
+## **APIの追加**
 ### **反射効果のサポート**
-Aspose.Cells 16.10.0 は、Shape オブジェクトの反射効果を制御するために、Shape.Reflection プロパティとともに ReflectionEffect クラスを公開しました。 ReflectionEffect クラスには、次のプロパティがあります。
+Aspose.Cells 16.10.0では、Shapeオブジェクトの反射効果を制御するためにReflectionEffectクラスとShape.Reflectionプロパティが公開されました。ReflectionEffectクラスには以下のプロパティがあります。
 
-- ReflectionEffect.Blur: ぼかし半径をポイント単位で取得/設定します。
-- ReflectionEffect.Direction: シェイプ自体に対するアルファ グラディエント ランプの方向を取得/設定します。
-- ReflectionEffect.Distance: 反射の距離をポイント単位で取得/設定します。
-- ReflectionEffect.FadeDirection: 反射をオフセットする方向を取得または設定します。
-- ReflectionEffect.RotWithShape: 反射が形状と共に回転するかどうかを取得/設定します。
-- ReflectionEffect.Size: 終了アルファ値の終了位置 (アルファ グラディエント ランプに沿った) をパーセンテージ単位で取得/設定します。
-- ReflectionEffect.Transparency: 開始時の反射の透明度を 0.0 (不透明) から 1.0 (クリア) の値として取得/設定します。
-- ReflectionEffect.Type: プリセットの反射効果を取得/設定します。
+- ReflectionEffect.Blur: ポイント単位のぼかし半径を取得/設定します。
+- ReflectionEffect.Direction: 形状自体に対するアルファグラデーションランプの方向を取得/設定します。
+- ReflectionEffect.Distance: リフレクションの距離（ポイント単位）を取得/設定します。
+- ReflectionEffect.FadeDirection: リフレクションのオフセット方向を取得/設定します。
+- ReflectionEffect.RotWithShape: リフレクションを図形とともに回転させるかどうかを取得/設定します。
+- ReflectionEffect.Size: 終了アルファ値までの終了位置（アルファグラデーションランプに沿って）をパーセンテージ単位で取得/設定します。
+- ReflectionEffect.Transparency: 開始リフレクションの透明度を0.0（不透明）から1.0（透明）の値で取得/設定します。
+- ReflectionEffect.Type: プリセットのリフレクション効果を取得/設定します。
 
-Shape.Reflection プロパティの簡単な使用シナリオを次に示します。
+Shape.Reflection プロパティの簡単な使用シナリオを以下に示します。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[反射効果の操作](/cells/ja/java/working-with-the-reflection-effect-of-shape-or-chart/)
+[形状またはグラフのリフレクション効果の使用](/cells/ja/java/working-with-the-reflection-effect-of-shape-or-chart/)に関する詳細な記事をご確認ください。
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet containing a shape
 
@@ -67,28 +68,28 @@ reflection.setDistance(80);
 book.save("output.xlsx");
 
 {{< /highlight >}}
-### **影効果のサポート**
-Aspose.Cells 16.10.0 は、ShadowEffect クラスと共に Shape.ShadowEffect プロパティを公開しました。これにより、Shadow オブジェクトに影の効果を設定できます。 ShadowEffect クラスには次のプロパティがあります。
+### **シャドウ効果のサポート**
+Aspose.Cells 16.10.0 では、Shape.ShadowEffect プロパティが公開され、ShadowEffect クラスと共に、Shape オブジェクトにシャドウ効果を設定することが可能となりました。 ShadowEffect クラスには、以下のプロパティがあります。
 
-- ShadowEffect.Angle: 0 ～ 359.9 度の照明角度を取得/設定します。
-- ShadowEffect.Blur: 0 ～ 100 ポイントの範囲の影のぼかしを取得および設定します。
-- ShadowEffect.Color: 影の色を取得/設定します。
-- ShadowEffect.Distance: 影の距離を 0 ～ 200 ポイントの範囲で取得または設定します。
-- ShadowEffect.PresetType: シャドウのプリセット シャドウ タイプを取得/設定します。
-- ShadowEffect.Size: 影のサイズを 0 から 2.0 の範囲で取得/設定します。内側の影の場合は意味がありません。
-- ShadowEffect.Transparency: 影の透明度を 0.0 (不透明) から 1.0 (透明) の範囲で取得/設定します。
+- ShadowEffect.Angle: 0から359.9度までの照明角度を取得/設定します。
+- ShadowEffect.Blur: 0から100ポイントまでのシャドウのぼかしを取得および設定します。
+- ShadowEffect.Color: シャドウの色を取得/設定します。
+- ShadowEffect.Distance: 0から200ポイントまでのシャドウの距離を取得/設定します。
+- ShadowEffect.PresetType: シャドウのプリセットタイプを取得/設定します。
+- ShadowEffect.Size: 0 から 2.0 までのシャドウのサイズを取得/設定します。内部シャドウの場合は無意味です。
+- ShadowEffect.Transparency: 0.0（不透明）から 1.0（透明）の透明度を取得/設定します。
 
-前述のプロパティの簡単な使用シナリオを次に示します。
+上記のプロパティの簡単な使用シナリオを以下に示します。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[シャドウ効果の操作](/cells/ja/java/working-with-the-shadow-effect-of-shape-or-chart/)
+[形状またはグラフのシャドウ効果の使用](/cells/ja/java/working-with-the-shadow-effect-of-shape-or-chart/)に関する詳細な記事をご確認ください。
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet containing a shape
 
@@ -125,23 +126,23 @@ shadow.setDistance(80);
 book.save("output.xlsx");
 
 {{< /highlight >}}
-### **グロー効果のサポート**
-Aspose.Cells 16.10.0 では、Shape オブジェクトのグロー効果を設定できる GlowEffect クラスと共に Shape.Glow プロパティが公開されました。 GlowEffect クラスはグロー効果を指定します。グロー効果では、次のプロパティを使用して、オブジェクトのエッジの外側に色のぼやけたアウトラインが追加されます。
+### **グローエフェクトのサポート**
+Aspose.Cells 16.10.0 では、Shape.Glow プロパティが公開され、GlowEffect クラスと共に、Shape オブジェクトのグローエフェクトを設定できるようになりました。 GlowEffect クラスは、以下のプロパティを使用してグローエフェクトを指定します。
 
-- GlowEffect.Size: グローの半径をポイント単位で取得/設定します。
-- GlowEffect.Transparency: グロー効果の透明度を 0.0 (不透明) から 1.0 (透明) の範囲で取得/設定します。
+- GlowEffect.Size: グローの半径（ポイント単位）を取得/設定します。
+- GlowEffect.Transparency: 0.0（不透明）から 1.0（透明）の透明度を取得/設定します。
 
-Shape.Glow プロパティの簡単な使用シナリオを次に示します。
+Shape.Glow プロパティの簡単な使用シナリオを以下に示します。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[グロー効果の操作](/cells/ja/java/working-with-the-glow-effect-of-shape-or-chart/)
+[グローエフェクトの使用](/cells/ja/java/working-with-the-glow-effect-of-shape-or-chart/)に関する詳細な記事をご確認ください。
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet containing a shape
 
@@ -172,41 +173,41 @@ glow.setTransparency(0.5);
 book.save("output.xlsx");
 
 {{< /highlight >}}
-### **3D フォーマットのサポート**
-Aspose.Cells 16.10.0 は、Shape オブジェクトの 3D フォーマットを制御するために一緒に使用できる ThreeDFormat クラスと共に Shape.ThreeDFormat プロパティを公開しました。 ThreeDFormat クラスは、図形の 3 次元の書式設定を表し、次のプロパティがあります。
+### **3D形式のサポート**
+Aspose.Cells 16.10.0 では、Shape.ThreeDFormat プロパティが公開され、ThreeDFormat クラスと共に、Shape オブジェクトの3Dの書式設定を制御するために使用できます。 ThreeDFormat クラスは、以下のプロパティを持っています。
 
-- ThreeDFormat.BottomBevelHeight: 下部ベベルの高さ、または適用される形状の深さをポイント単位で取得/設定します。
-- ThreeDFormat.BottomBevelType: 下部ベベルのタイプ、またはそれが適用されるシェイプの深さをポイント単位で取得/設定します。
-- ThreeDFormat.BottomBevelWidth: 下部ベベルの幅、またはそれが適用される形状の深さをポイント単位で取得/設定します。
-- ThreeDFormat.ContourColor: 形状の輪郭の色を取得/設定します。
-- ThreeDFormat.ContourWidth: 形状の輪郭の幅をポイント単位で取得/設定します。
-- ThreeDFormat.ExtrusionColor: 形状の押し出し色を取得します。
-- ThreeDFormat.ExtrusionHeight: 形状に適用される押し出しの高さをポイント単位で取得/設定します。
-- ThreeDFormat.LightAngle: 押し出しライトの角度を取得/設定します。
+- ThreeDFormat.BottomBevelHeight: 下部面取りの高さまたは形状内に適用される距離をポイント単位で取得/設定します。
+- ThreeDFormat.BottomBevelType: 下部面取りのタイプまたは形状内に適用される距離をポイント単位で取得/設定します。
+- ThreeDFormat.BottomBevelWidth: 下部面取りの幅または形状内に適用される距離をポイント単位で取得/設定します。
+- ThreeDFormat.ContourColor: シェイプの輪郭色を取得/設定します。
+- ThreeDFormat.ContourWidth: シェイプ上の輪郭の幅をポイント単位で取得/設定します。
+- ThreeDFormat.ExtrusionColor: シェイプ上の突出色を取得します。
+- ThreeDFormat.ExtrusionHeight: シェイプに適用される突出の高さをポイント単位で取得/設定します。
+- ThreeDFormat.LightAngle: 突出光の角度を取得/設定します。
 - ThreeDFormat.Lighting: ライト リグのタイプを取得/設定します。
-- ThreeDFormat.LightingDirection: シーンに対するライト リグの方向を取得/設定します。
-- ThreeDFormat.Material: 照明プロパティと組み合わせて形状の最終的なルック アンド フィールを与えるプリセット マテリアルを表します。
-- ThreeDFormat.Perspective: ThreeDFormat オブジェクトを表示できる角度を取得/設定します。
-- ThreeDFormat.PresetCameraType: 押し出しプリセット カメラを取得/設定します。
-- ThreeDFormat.RotationX: X 軸を中心とした押し出された形状の回転を度単位で取得/設定します。
-- ThreeDFormat.RotationY: Y 軸を中心とした押し出された形状の回転を度単位で取得/設定します。
-- ThreeDFormat.RotationZ: Z 軸を中心とした押し出された形状の回転を度単位で取得/設定します。
-- ThreeDFormat.TopBevelHeight: 上部のベベルの高さ、または適用される形状の深さをポイント単位で取得/設定します。
-- ThreeDFormat.TopBevelType: 上部のベベルのタイプ、または適用されるシェイプの深さをポイント単位で取得/設定します。
-- ThreeDFormat.TopBevelWidth: 上部のベベルの幅、または適用される形状の深さをポイント単位で取得/設定します。
-- ThreeDFormat.Z: 3D 形状の地面からの距離を定義します。
+- ThreeDFormat.LightingDirection: シーンに対するライト リグの向きを取得/設定します。
+- ThreeDFormat.Material: シェイプの最終的な外観と感触を与えるために照明プロパティと組み合わされるプリセット素材を表します。
+- ThreeDFormat.Perspective: ThreeDFormat オブジェクトが表示できる角度を取得/設定します。
+- ThreeDFormat.PresetCameraType: 突出のプリセットカメラを取得/設定します。
+- ThreeDFormat.RotationX: X 軸を中心にした突出形状の回転を度単位で取得/設定します。
+- ThreeDFormat.RotationY: Y 軸を中心にした突出形状の回転を度単位で取得/設定します。
+- ThreeDFormat.RotationZ: Z 軸を中心にした突出形状の回転を度単位で取得/設定します。
+- ThreeDFormat.TopBevelHeight: 上面面取りの高さをポイント単位で取得/設定します。
+- ThreeDFormat.TopBevelType: 上面面取りのタイプをポイント単位で取得/設定します。
+- ThreeDFormat.TopBevelWidth: 上面面取りの幅をポイント単位で取得/設定します。
+- ThreeDFormat.Z: 3D シェイプの地面からの距離を定義します。
 
-以下は、Shape.ThreeDFormat プロパティの簡単な使用シナリオです。
+Shape.ThreeDFormat プロパティの単純な使用シナリオは次のとおりです。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[3D フォーマットの操作](/cells/ja/java/working-with-the-threedformat-of-shape-or-chart/)
+[3D フォーマットの使用](/cells/ja/java/working-with-the-threedformat-of-shape-or-chart/)に関する詳細な記事をチェックしてください。
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet containing a shape
 
@@ -237,20 +238,20 @@ threeD.setExtrusionHeight(30);
 book.save("output.xlsx");
 
 {{< /highlight >}}
-### **図形のテキストでのワードアート スタイルのサポート**
-Aspose.Cells 16.10.0 は、プリセットのワードアート スタイルを Shape オブジェクトのテキストに設定するために、FontSettingCollection.SetWordArtStyle および FontSetting.SetWordArtStyle メソッドを公開しました。
+### **Shape のテキストに WordArt スタイルのサポート**
+Aspose.Cells 16.10.0 では、Shape オブジェクトのテキストにプリセットの WordArt スタイルを設定するための FontSettingCollection.SetWordArtStyle および FontSetting.SetWordArtStyle メソッドが公開されています。
 
-前述の方法の簡単な使用シナリオを次に示します。
+上記のメソッドのシンプルな使用シナリオは次のとおりです。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[ワードアート スタイルの操作](https://docs.aspose.com/cells/java/set-preset-wordart-style-to-the-text-of-the-shape/)
+[WordArt スタイルの使用](https://docs.aspose.com/cells/java/set-preset-wordart-style-to-the-text-of-the-shape/)に関する詳細な記事をチェックしてください。
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -277,20 +278,20 @@ FontSetting fntSetting = (FontSetting)textBox.getCharacters().get(0);
 fntSetting.setWordArtStyle(PresetWordArtStyle.WORD_ART_STYLE_15);
 
 {{< /highlight >}}
-### **ワードアートの組み込みスタイルのサポート**
-Aspose.Cells 16.10.0 は、Excel 2007 以降のプリセット ワードアート オブジェクトの追加をサポートするために、PresetWordArtStyle 列挙と共に ShapeCollection.AddWordArt メソッドを公開しました。
+### **WordArt の組み込みスタイルのサポート**
+Aspose.Cells 16.10.0 では、Excel 2007 以降でのプリセット WordArt オブジェクトの追加のサポートを提供するために、ShapeCollection.AddWordArt メソッドと PresetWordArtStyle 列挙型を公開しています。
 
-ここでは、ShapeCollection.AddWordArt メソッドの簡単な使用シナリオを示します。
+ShapeCollection.AddWordArt メソッドの単純な使用シナリオは次のとおりです。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[組み込みのスタイルでワードアートを追加する](/cells/ja/java/add-word-art-text-with-built-in-styles/)
+[組み込みスタイルの WordArt の追加](/cells/ja/java/add-word-art-text-with-built-in-styles/)に関する詳細な記事をチェックしてください。
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -321,18 +322,18 @@ shapes.addWordArt(PresetWordArtStyle.WORD_ART_STYLE_5, "Aspose File Format APIs"
 book.save("output.xlsx");
 
 {{< /highlight >}}
-### **XmlMapCollection.Add メソッドを追加**
-Aspose.Cells は、スプレッドシートに Xml マップを追加できる XmlMapCollection.Add メソッドを公開しました。 XmlMapCollection.Add メソッドの簡単な使用シナリオを次に示します。
+### **XmlMapCollection.Add メソッドが追加されました**
+Aspose.Cells は、スプレッドシートに Xml マップを追加する XmlMapCollection.Add メソッドを公開しました。XmlMapCollection.Add メソッドの単純な使用シナリオは次のとおりです。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[XML マップをスプレッドシートに追加](/cells/ja/java/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
+[スプレッドシートに XML マップを追加](/cells/ja/java/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)に関する詳細な記事をチェックしてください。
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -343,18 +344,18 @@ Workbook book = new Workbook();
 book.getWorksheets().getXmlMaps().add("sample.xml");
 
 {{< /highlight >}}
-### **Cells.LinkToXmlMap メソッドを追加**
-Aspose.Cells は、セルを XML マップ要素にリンクするために Cells.LinkToXmlMap メソッドを公開しました。 Cells.LinkToXmlMap メソッドの簡単な使用シナリオを次に示します。
+### **Cells.LinkToXmlMap メソッドを追加しました**
+Aspose.Cells は、セルを XML マップ要素にリンクするために Cells.LinkToXmlMap メソッドを公開しました。Cells.LinkToXmlMap メソッドの簡単な使用シナリオは次のとおりです。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[Cells を XML マップ要素にリンク](/cells/ja/java/link-cells-to-xml-map-elements/)
+[セルを XML マップ要素にリンク](/cells/ja/java/link-cells-to-xml-map-elements/)する詳細な記事を確認してください
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a sample spreadsheet in an instance of Workbook
 
@@ -387,20 +388,20 @@ sheet.getCells().linkToXmlMap(map.getName(), 4, 4, "/root/row/FIELD7");
 sheet.getCells().linkToXmlMap(map.getName(), 5, 5, "/root/row/FIELD8");
 
 {{< /highlight >}}
-### **ListColumn.Formula プロパティを追加**
-Aspose.Cells 16.10.0 では、新たに挿入された行に式を自動的に伝達するために、ListColumn.Formula プロパティが公開されました。
+### **ListColumn.Formula プロパティを追加しました**
+Aspose.Cells 16.10.0 は、新しく挿入された行に自動的に式を伝達するために ListColumn.Formula プロパティを公開しました。
 
-ListColumn.Formula プロパティの簡単な使用シナリオを次に示します。
+ListColumn.Formula プロパティの簡単な使用シナリオは次のとおりです。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[リスト オブジェクトに数式を自動的に適用する](/cells/ja/java/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
+[テーブルまたはリスト オブジェクトに新しい行にデータを入力する際に自動的に式を伝達](/cells/ja/java/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)する詳細な記事を確認してください
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -426,7 +427,7 @@ listObject.setDisplayName("Table");
 
 //Set the formula of second column so that it could automatically propagate to new rows while entering data
 
-listObject.getListColumns().get(1).setFormula("=[Column A]+ 1");
+listObject.getListColumns().get(1).setFormula("=[Column A] + 1");
 
 //Save the result in XLSX format
 

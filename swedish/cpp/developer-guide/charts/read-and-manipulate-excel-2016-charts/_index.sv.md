@@ -1,25 +1,26 @@
 ---
-title: Läs och manipulera Excel 2016-diagram
+title: Läs och hantera Excel 2016 diagram
 type: docs
 weight: 20
 url: /sv/cpp/read-and-manipulate-excel-2016-charts/
 ---
-##  **Möjliga användningsscenarier**
-Aspose.Cells stöder läsning och manipulering av Microsoft Excel 2016-diagram som inte finns i Microsoft Excel 2013 eller tidigare versioner.
-##  **Läs och manipulera Excel 2016-diagram**
- Följande exempelkod laddar[exempel på Excel-fil](66519072.xlsx) som innehåller Excel 2016-diagram i det första kalkylbladet. Den läser alla diagram en efter en och ändrar sin titel enligt dess diagramtyp. Följande skärmdump visar exemplet på Excel-filen innan koden körs. Som du kan se är diagramtiteln densamma för alla diagram.
+
+## **Möjliga användningsscenario**
+Aspose.Cells stöder läsning och hantering av Microsoft Excel 2016-diagram som inte finns i Microsoft Excel 2013 eller äldre versioner.
+## **Läs och hantera Excel 2016-diagram**
+Följande kodexempel laddar den [exempel Excel-filen](66519072.xlsx) som innehåller Excel 2016-diagram i det första arbetsbladet. Den läser alla diagram en efter en och ändrar dess titel enligt dess diagramtyp. Följande skärmbild visar exempel på Excel-filen innan körning av koden. Som du kan se är diagramtiteln densamma för alla diagram.
 
 ![todo:image_alt_text](read-and-manipulate-excel-2016-charts_1.png)
 
- Följande skärmdump visar[utdata Excel-fil](66519073.xlsx) efter exekvering av kod. Som du kan se ändras diagramtiteln enligt dess diagramtyp.
+Följande skärmbild visar den [utdata Excel-filen](66519073.xlsx) efter körningen av koden. Som du kan se har diagramtiteln ändrats enligt dess diagramtyp.
 
 ![todo:image_alt_text](read-and-manipulate-excel-2016-charts_2.png)
-##  **Exempelkod**
+## **Exempelkod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-ReadAndManipulateExcel2016Charts-new.cpp" >}}
-##  **Konsolutgång**
-Här är konsolutgången för ovanstående exempelkod när den körs med den medföljande exemplet i Excel-filen.
+## **Konsoloutput**
+Här är konsolresultatet från det ovanstående kodexemplet när det körs med den medföljande exempel Excel-filen.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Waterfall
 

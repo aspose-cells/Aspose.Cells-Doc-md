@@ -1,23 +1,24 @@
-﻿---
-title: إرجاع نطاق من القيم باستخدام AbstractCalculationEngine
+---
+title: إرجاع مجموعة من القيم باستخدام محرك الحساب النموذجي
 type: docs
 weight: 275
 url: /ar/java/returning-a-range-of-values-using-abstractcalculationengine/
 ---
+
 {{% alert color="primary" %}}
 
- يوفر Aspose.Cells[**الخلاصةحساب المحرك**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) فئة تُستخدم لتنفيذ وظائف معرّفة من قبل المستخدم أو وظائف مخصصة لا يدعمها Microsoft Excel كوظائف مضمنة.
+توفر Aspose.Cells فئة [**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) التي تستخدم لتنفيذ وظائف مخصصة غير مدعومة من قبل Microsoft Excel كوظائف مدمجة.
 
- تشرح هذه المقالة كيفية إرجاع نطاق القيم من[**الخلاصةحساب المحرك**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine).
+سيشرح هذا المقال كيفية إرجاع مجموعة القيم من [**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine).
 
 {{% /alert %}}
 
- يوضح الكود التالي استخدام امتداد[**الخلاصةحساب المحرك**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)وإرجاع نطاق القيم عبر طريقته.
+يُظهر الكود التالي استخدام [**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) ويعيد مجموعة القيم عبر طريقته.
 
-إنشاء فئة مع وظيفة*احسبدالة مخصصة* . يمتد هذا الفصل[**الخلاصةحساب المحرك**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine).
+إنشاء فئة بوظيفة *CalculateCustomFunction*. تمتد هذه الفئة من [**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CustomFunctionStaticValue-CustomFunctionStaticValue.java" >}}
 
-الآن استخدم الوظيفة المذكورة أعلاه في برنامجك.
+الآن استخدم الوظيفة أعلاه في برنامجك.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ReturningRangeOfValues-1.java" >}}

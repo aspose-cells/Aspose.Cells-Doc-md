@@ -1,13 +1,14 @@
-﻿---
-title: macOS'ta libgdiplus nasıl kurulur
+---
+title: macOS ta libgdiplus Nasıl Kurulur
 type: docs
-description: Bu makalede, libgdiplus'ın Monterey 12.4 gibi macOS'ta nasıl kurulacağı açıklanmaktadır.
+description: "Bu makale, Monterey 12.4 gibi macOS ta libgdiplus ın nasıl kurulacağını açıklar."
 weight: 150
 url: /tr/net/how-to-install-libgdiplus-in-macos/
 ---
-## Homebrew'u macOS'a kurun
 
-Terminal'de aşağıdaki komutu çalıştırarak Homebrew'u macOS'ta kurabilirsiniz.
+macOS'ta Homebrew Nasıl Kurulur
+
+Terminal'de aşağıdaki komutu çalıştırarak macOS'ta Homebrew'u kurabilirsiniz.
 
 ```cs
 
@@ -15,9 +16,9 @@ Terminal'de aşağıdaki komutu çalıştırarak Homebrew'u macOS'ta kurabilirsi
 
 ```
 
-## macOS'ta libgdiplus'ı kurun
+macOS'ta libgdiplus Nasıl Kurulur
 
-Homebrew'u kurduktan sonra libgdiplus'ı macOS'a kurabilirsiniz:
+Homebrew'u kurduktan sonra, macOS'ta libgdiplus'u kurabilirsiniz:
 
 ```cs
 

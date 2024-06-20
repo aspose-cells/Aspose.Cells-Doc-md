@@ -1,22 +1,23 @@
-﻿---
+---
 title: コマンドバー
 type: docs
 weight: 10
 url: /ja/reportingservices/command-bars/
 ---
-次の表は、Aspose.Cells.Report.Designer アドインのツールバーのコマンド バー アイコンとツールを示しています。
 
-|**指示** |**画像** |**説明** |
-|:- |:- |:- |
-|ローカル レポートを開く|![todo:画像_代替_文章](command-bars_1.png)|ローカル PC から RDL ファイルを開き、ファイル コンテキストを読み込みます。|
-|リモートレポートを開く|![todo:画像_代替_文章](command-bars_2.png)|レポート サーバーから RDL ファイルを開き、ファイル コンテキストを読み込みます。|
-|レポートを保存|![todo:画像_代替_文章](command-bars_3.png)|設計レポートをローカルまたはサーバーに保存します。|
-|レポートを公開|![todo:画像_代替_文章](command-bars_4.png)|サーバーに RDL ファイルをアップロードします。|
-|レポートを見る|![todo:画像_代替_文章](command-bars_5.png)|サーバーからのレポートのプレビューを表示します。|
-| DataSet とデータ ソースの構築|![todo:画像_代替_文章](command-bars_6.png)|データセットとデータ ソースを構築します。|
-|レポート パラメータの変更|![todo:画像_代替_文章](command-bars_7.png)|レポート パラメータとクエリ パラメータの関係を変更します。|
-|数式を挿入|![todo:画像_代替_文章](command-bars_8.png)|数式エディタ ウィンドウから数式をセルに挿入します。|
-|属性を設定|![todo:画像_代替_文章](command-bars_9.png)|レポート属性の一部を設定します: レポート名、レポート範囲、グループ フィールド、順序フィールドなど。|
-|属性の変更|![todo:画像_代替_文章](command-bars_10.png)|レポート属性の一部を変更します: レポート名、レポート範囲、グループ フィールド、順序フィールドなど。|
-|フッターを設定|![todo:画像_代替_文章](command-bars_11.png)|セルに「##footer」を挿入します。|
+Aspose.Cells.Report.Designerアドインのツールバーのコマンドバーのアイコンとツールを次の表に示します。
+
+|**コマンド** |**イメージ** |**説明** |
+| :- | :- | :- |
+|Open Local Report |![todo:image_alt_text](command-bars_1.png)|Opens an RDL file from local PC and loads the file context. |
+|Open Remote Report |![todo:image_alt_text](command-bars_2.png)|Opens an RDL file from Report Server and loads the file context. |
+|Save Report |![todo:image_alt_text](command-bars_3.png)|Saves designing report locally or on the server. |
+|Publish Report |![todo:image_alt_text](command-bars_4.png)|Uploads the RDL file on the server. |
+|View Report |![todo:image_alt_text](command-bars_5.png)|Displays a preview of the report from the server. |
+|Build DataSet and Data Source |![todo:image_alt_text](command-bars_6.png)|Builds datasets and data sources. |
+|Modify Report Parameter |![todo:image_alt_text](command-bars_7.png)|Modifies report parameter and query parameter relation. |
+|Insert Formula |![todo:image_alt_text](command-bars_8.png)|Inserts formula into the cell through the formula editor windows |
+|Set Attribute |![todo:image_alt_text](command-bars_9.png)|Sets some of the report attributes: report name, report range, group fields, order fields and so on. |
+|Modify Attribute |![todo:image_alt_text](command-bars_10.png)|Modifies some of the report attributes: report name, report range, group fields, order fields and so on. |
+|Set Footer |![todo:image_alt_text](command-bars_11.png)|Inserts '##footer' into the cell. |
 

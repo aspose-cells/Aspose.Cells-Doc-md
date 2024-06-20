@@ -1,28 +1,29 @@
-﻿---
-title: Kaldırma Aspose.Cells for SharePoint
+---
+title: Aspose.Cells for SharePoint u kaldırmak
 type: docs
 weight: 50
 url: /tr/sharepoint/uninstalling-aspose-cells-for-sharepoint/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for SharePoint'i kaldırmak için kurulum programını çalıştırın. Aspose.Cells for SharePoint zaten yüklüyse, kurulum programı onu kaldırmanızı veya onarmanızı önerir.
+Aspose.Cells for SharePoint'u kaldırmak için kurulum programını çalıştırın. Eğer Aspose.Cells for SharePoint zaten yüklü ise, kurulum programı onu kaldırmanızı veya onarmayı teklif eder.
 
 {{% /alert %}} 
 ### **Kaldırma**
- Kaldırma sırasında, kurulum programı tüm site koleksiyonları için Aspose.Cells for SharePoint'i devre dışı bırakır ve çözümü sunucu çiftliğinden geri çeker.
+Kaldırma sırasında kurulum programı tüm site koleksiyonları için Aspose.Cells for SharePoint'u devre dışı bırakır ve sunucu çiftinden çözümü geri alır. 
 
-**Aspose.Cells kaldırılıyor** 
+**Aspose.Cells'in Kaldırılması** 
 
-![yapılacaklar:resim_alternatif_metin](uninstalling-aspose-cells-for-sharepoint_1.png)
+![todo:image_alt_text](uninstalling-aspose-cells-for-sharepoint_1.png)
 
 
 
 
 {{% alert color="primary" %}} 
 
- çalıştırdığını lütfen unutmayın.**Onarım**site tahsilatlarında Aspose.Cells for SharePoint seçeneği tekrar aktif olmuyor. Bunun yerine, özelliğin yeniden dağıtımdan sonra manuel olarak etkinleştirilmesi gerekir.**Onarım** seçenek.
+Lütfen **Onarım** seçeneğini çalıştırmanın, site koleksiyonlarında Aspose.Cells for SharePoint'u yeniden etkinleştirmediğine dikkat edin. Bunun yerine, **Onarım** seçeneği ile yeniden dağıtım yapıldıktan sonra, özellik manuel olarak etkinleştirilmelidir.
 
- kullanarak kaldırma**Kaldırmak** kurulum sırasında hedef web uygulamalarını ve site koleksiyonlarını seçmenize olanak tanıdığından, yeniden kurulum daha uygun olabilir.
+**Kaldır** seçeneği kullanarak kaldırmak ve ardından yeniden yüklemek, kurulum sırasında hedef web uygulamalarını ve site koleksiyonlarını seçmenizi sağlayarak daha uygun olabilir. 
 
 {{% /alert %}}

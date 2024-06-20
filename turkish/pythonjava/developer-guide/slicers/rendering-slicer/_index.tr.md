@@ -1,12 +1,13 @@
-﻿---
-title: İşleme Dilimleyici
+---
+title: Süzgeci Rendering Etme
 type: docs
 weight: 50
 url: /tr/python-java/rendering-slicer/
 ---
-## **İşleme Dilimleyici**
-Aspose.Cells for Python via Java, dilimleyici şeklinin oluşturulmasını destekler. Aşağıdaki kod parçacığı,[örnek excel dosyası](106364974.xlsx)bir dilimleyici içerir. Yalnızca dilimleyiciyi kaplayan yazdırma alanını ayarlayarak çalışma sayfasını bir görüntüye dönüştürür. Akan görüntü ise[çıktı görüntüsü](106364975.png)işlenen dilimleyiciyi gösterir. Gördüğünüz gibi, dilimleyici düzgün bir şekilde oluşturuldu ve örnek Excel dosyasındakiyle aynı görünüyor.
 
-![yapılacaklar:resim_alternatif_metin](outputRenderingSlicer.png)
-## **Basit kod**
+## **Süzgeci Rendering Etme**
+Aspose.Cells for Python via Java, dilimleyici şeklinin renderını destekler. Aşağıdaki kod parçası, bir dilimleyici içeren [örnek Excel dosyasını](106364974.xlsx) yükler. Yalnızca dilimleyiciyi kapsayan baskı alanını ayarlayarak çalışma sayfasını bir görüntüye dönüştürür. Dökülen görüntü, renderlenmiş dilimleyiciyi gösteren [çıktı görüntüsü](106364975.png)'dür. Görebileceğiniz gibi, dilimleyici doğru bir şekilde renderlendi, örnek Excel dosyasındaki gibi görünüyor.
+
+![todo:image_alt_text](outputRenderingSlicer.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Slicers-RenderingSlicer.py" >}}

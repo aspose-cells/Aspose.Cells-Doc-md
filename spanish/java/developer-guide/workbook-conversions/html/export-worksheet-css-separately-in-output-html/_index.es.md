@@ -1,26 +1,27 @@
-﻿---
-title: Exportar hoja de trabajo CSS por separado en la salida HTML
+---
+title: Exportar la hoja de estilos CSS por separado en el HTML de salida
 type: docs
 weight: 80
 url: /es/java/export-worksheet-css-separately-in-output-html/
 ---
-## **Posibles escenarios de uso**
 
-Aspose.Cells proporciona la función para exportar la hoja de trabajo CSS por separado cuando convierte su archivo de Excel a HTML. Utilice la propiedad HtmlSaveOptions.ExportWorksheetCSSSeparately para este propósito y configúrelo como verdadero mientras guarda el archivo de Excel en formato HTML.
+## **Escenarios de uso posibles**
 
-## **Exportar hoja de trabajo CSS por separado en la salida HTML**
+Aspose.Cells proporciona la función de exportar la hoja de cálculo CSS por separado cuando conviertes tu archivo de Excel a HTML. Por favor utiliza la propiedad ExportWorksheetCSSSeparately de HtmlSaveOptions para este propósito y establécela en true al guardar el archivo de Excel en formato HTML.
 
-El siguiente código de muestra crea un archivo de Excel, agrega texto en la celda B5 en color rojo y luego lo guarda en formato HTML usando la propiedad HtmlSaveOptions.ExportWorksheetCSSSeparately. Por favor vea el[salida HTML](60489780.zip)generado por el código para una referencia. Encontrará stylesheet.css dentro como resultado del código de muestra.
+## **Exportar la hoja de estilos CSS por separado en el HTML de salida**
+
+El siguiente código de muestra crea un archivo de Excel, agrega un texto en la celda B5 en color rojo y luego lo guarda en formato HTML usando la propiedad HtmlSaveOptions.ExportWorksheetCSSSeparately. Por favor vea el [HTML de salida](60489780.zip) generado por el código como referencia. Encontrará el archivo stylesheet.css dentro de él como resultado del código de muestra.
 
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportWorksheetCSSSeparatelyInOutputHTML.java" >}}
 
-## **Exportar libro de trabajo de una sola hoja a HTML**
+## **Exportar un libro de una sola hoja a HTML**
 
-Cuando un libro de trabajo con varias hojas se convierte a HTML con Aspose.Cells, se crea un archivo HTML junto con una carpeta que contiene CSS y varios archivos HTML. Cuando este archivo HTML se abre en el navegador, las pestañas son visibles. Se requiere el mismo comportamiento para un libro de trabajo con una sola hoja de trabajo cuando se convierte a HTML. Anteriormente no se creó una carpeta separada para libros de trabajo de una sola hoja y solo se creó el archivo HTML. Dicho archivo HTML no muestra la pestaña cuando se abre en el navegador. Excel crea la carpeta adecuada y HTML para hojas sueltas también y, por lo tanto, se implementa el mismo comportamiento usando Aspose.Cells. El archivo de muestra se puede descargar desde el siguiente enlace para usar en el código de muestra a continuación:
+Cuando un libro de trabajo con múltiples hojas se convierte a HTML usando Aspose.Cells, crea un archivo HTML junto con una carpeta que contiene CSS y varios archivos HTML. Cuando se abre este archivo HTML en un navegador, se muestran las pestañas. Se requiere el mismo comportamiento para un libro de trabajo con una sola hoja cuando se convierte a HTML. Anteriormente no se creaba una carpeta separada para libros de trabajo de una sola hoja y solo se creaba un archivo HTML. Este archivo HTML no muestra la pestaña cuando se abre en el navegador. Excel crea una carpeta y HTML adecuados también para hojas individuales y por lo tanto se implementa el mismo comportamiento con Aspose.Cells. Se puede descargar el archivo de muestra desde el siguiente enlace para usar en el código de muestra a continuación:
 
-[muestraSingleSheet.xlsx](79527948.xlsx)
+[sampleSingleSheet.xlsx](79527948.xlsx)
 
 ## **Código de muestra**
 

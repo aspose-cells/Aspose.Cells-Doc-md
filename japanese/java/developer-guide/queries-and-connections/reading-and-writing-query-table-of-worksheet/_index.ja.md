@@ -1,42 +1,44 @@
-﻿---
-title: ワークシートのクエリ テーブルの読み取りと書き込み
+---
+title: ワークシートのクエリテーブルの読み取りと書き込み
 type: docs
 weight: 560
 url: /ja/java/reading-and-writing-query-table-of-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells提供[Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables)を返すコレクション[クエリ テーブル コレクション](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection).特定のものを取得するには[クエリテーブル](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)、 使用[QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20\(int\) ) プロパティを呼び出して、QueryTable のインデックスを渡します。の[クエリテーブル](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)クラスには、QueryTable を調整するための次の 2 つのプロパティがあります。
+Aspose.Cellsは[Worksheet.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables)コレクションを提供し、[QueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection)を返します。特定の[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)を取得するには、[QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20\(int\))プロパティを使用し、QueryTableのインデックスを渡します。[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)クラスには、クエリテーブルを調整するための次の2つのプロパティがあります。
 
 - [QueryTable.getAdjustColumnWidth()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#AdjustColumnWidth)
 - [QueryTable.getPreserveFormatting()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)
 
-これらは両方ともブール値です。それらは、[データ] > [接続] > [プロパティ] を使用して Microsoft Excel で表示できます。
+これらは両方ともブール値です。Microsoft Excelでそれらを表示するには、[データ] > [接続] > [プロパティ]を選択します。
 
 {{% /alert %}} 
-## **ワークシートのクエリ テーブルの読み取りと書き込み**
-次のサンプル コードは、最初の[クエリテーブル](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)最初のワークシートの両方を印刷します。[クエリテーブル](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)プロパティ。次に、[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)に**真実**.
+## **ワークシートのクエリテーブルの読み取りと書き込み**
+次のサンプルコードは、最初の[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)を最初のワークシートから読み取り、その[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)の両方のプロパティを出力します。その後、[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)を**true**に設定します。
 
-次のスクリーンショットは、[ソースエクセルファイル](5472578.xlsx)コードとそのプロパティで使用され、[クエリテーブル](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)値。
+次のスクリーンショットは、コードで使用される[source excel file](5472578.xlsx)と、その[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)の両方の値を示しています。
 
-![todo:画像_代替_文章](reading-and-writing-query-table-of-worksheet_1.png)
+![todo:image_alt_text](reading-and-writing-query-table-of-worksheet_1.png)
 
-次のスクリーンショットは、[出力エクセルファイル](5472574.xlsx)コードとそのプロパティによって生成され、[クエリテーブル](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)値。ご覧のとおり、Preserved Formatting チェックボックスがオンになっています。
+次のスクリーンショットは、コードによって生成された[output excel file](5472574.xlsx)とその[QueryTable](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)の両方の値を示しています。Preserved Formattingのチェックがされていることがわかります。
 
-![todo:画像_代替_文章](reading-and-writing-query-table-of-worksheet_2.png)
+![todo:image_alt_text](reading-and-writing-query-table-of-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.java" >}}
 ## **コンソール出力**
-上記のサンプル コードのコンソール出力は次のとおりです。
+上記のサンプルコードのコンソール出力は次の通りです
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Adjust Column Width: true
 
 Preserve Formatting: false
 
 {{< /highlight >}}
-## **クエリ テーブルの結果範囲を取得する**
-Aspose.Cells は、アドレス、つまりクエリ テーブルのセルの結果範囲を読み取るオプションを提供します。次のコードは、クエリ テーブルの結果範囲のアドレスを読み取ることにより、この機能を示しています。サンプルファイルがダウンロードできます[ここ](QueryTXT.xlsx).
+
+## **クエリテーブル結果の範囲を取得**
+Aspose.Cellsは、クエリテーブルの結果範囲のアドレスを読み取るオプションを提供します。次のコードは、クエリテーブルの結果範囲のアドレスを読み取るこの機能を示しています。サンプルファイルは[こちら](QueryTXT.xlsx)からダウンロードできます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}

@@ -1,16 +1,17 @@
-﻿---
+---
 title: Konvertera diagram till bilder
 type: docs
 weight: 10
 url: /sv/net/convert-chart-to-images/
 ---
+
 ## **Aspose.Cells - Konvertera diagram till bilder**
 Diagram är visuellt tilltalande och gör det enkelt för användare att se jämförelser, mönster och trender i data.
-Metoden Chart class toImage konverterar diagrammet till en bildfil som kan sparas på disk eller stream.
+Metoden toImage i Chart-klassen konverterar diagrammet till en bildfil, som kan sparas på hårddisken eller i en ström.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -63,13 +64,13 @@ Chart chart = charts[chartIndex];
 chart.ToImage("AsposeChartImage.png", ImageFormat.Png);
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Konvertera diagram till bilder** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Konvertera diagram till bilder** från någon av nedanstående sociala kodningssidor:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Konvertera diagram till bild](/cells/sv/net/converting-chart-to-image-in-svg-format/).
+För mer detaljer, besök [Konvertera diagram till bild](/cells/sv/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}

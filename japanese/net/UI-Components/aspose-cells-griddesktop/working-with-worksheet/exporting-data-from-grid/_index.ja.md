@@ -1,37 +1,40 @@
-﻿---
-title: グリッドからのデータのエクスポート
+---
+title: Gridからデータをエクスポート
 type: docs
 weight: 60
-url: /ja/net/exporting-data-from-grid/
+url: /ja/net/aspose-cells-griddesktop/export-data-from-grid/
+keywords: GridDesktop,export,data,export data
+description: この記事では、GridDesktopでデータをエクスポートする方法を紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-前のトピックでは、DataTable の内容を Aspose.Cells.GridDesktop コントロールにインポートすることについて説明しましたが、意図的に Aspose.Cells.GridDesktop が逆のプロセスもサポートすることについては言及しませんでした。したがって、このトピックでは、Aspose.Cells.GridDesktop コントロール内のデータを DataTable にエクスポートする方法について説明します。
+前のトピックでは、Aspose.Cells.GridDesktopコントロールにDataTableのコンテンツをインポートすることについて説明しましたが、わざとAspose.Cells.GridDesktopが逆のプロセスもサポートしていることに触れませんでした。そのため、このトピックでは、Aspose.Cells.GridDesktopコントロール内のデータをDataTableにエクスポートすることについて説明します。
 
 {{% /alert %}} 
-## **グリッド コンテンツのエクスポート**
-### **特定の DataTable へのエクスポート**
-グリッドの内容を特定の DataTable オブジェクトにエクスポートするには、次の手順に従ってください: Aspose.Cells.GridDesktop コントロールを**形**.
+## **グリッドコンテンツのエクスポート**
+### **特定のDataTableにエクスポート**
+グリッドのコンテンツを特定のDataTableオブジェクトにエクスポートするには、以下の手順に従ってください:Aspose.Cells.GridDesktopコントロールを**Form**に追加します。
 
-- 必要に応じて特定の DataTable オブジェクトを作成します。
-- 選択したデータのエクスポート**ワークシート**指定した DataTable オブジェクトに。
+- 必要に応じて特定のDataTableオブジェクトを作成します。
+- 選択した**Worksheet**のデータを指定したDataTableオブジェクトにエクスポートします。
 
-以下の例では、内部に 4 つの列を持つ特定の DataTable オブジェクトを作成しました。最後に、ワークシート データ (69 行 4 列の最初のセルから開始) を、作成済みの DataTable オブジェクトにエクスポートしました。
+以下の例では、4つの列を持つ特定のDataTableオブジェクトを作成しました。最後に、作成済みのDataTableオブジェクトにワークシートデータ（最初のセルから始まり、69行と4列）をエクスポートしました。
 
-**例：**
+**例:**
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ExportDataToDataTable-ExportToSpecificDataTable.cs" >}}
-### **新しい DataTable へのエクスポート**
-場合によっては、開発者が独自の DataTable オブジェクトを作成することに関心がなく、ワークシート データを新しい DataTable オブジェクトにエクスポートするだけの単純な必要性がある場合があります。開発者にとっては、ワークシート データをエクスポートするのが最も簡単な方法です。
+### **新しいDataTableにエクスポート**
+開発者は自分自身のDataTableオブジェクトを作成することに興味がない場合があり、ワークシートデータを新しいDataTableオブジェクトにエクスポートするだけでよい場合があります。これは開発者にとっては最も迅速な方法です。
 
-以下の例では、ExportDataTable メソッドの使用法を説明するために別の方法を試しました。現在アクティブなワークシートの参照を取得し、そのアクティブなワークシートの完全なデータを新しい DataTable オブジェクトにエクスポートしました。現在、この DataTable オブジェクトは、開発者が望むあらゆる方法で使用できます。例として、開発者はこの DataTable オブジェクトを DataGrid にバインドしてデータを表示できます。
+以下の例では、ExportDataTableメソッドの使用方法を説明する別の方法を試みました。現在アクティブなワークシートの参照を取得し、そのアクティブなワークシートの完全なデータを新しいDataTableオブジェクトにエクスポートしました。このDataTableオブジェクトは、開発者が望むように使用できます。たとえば、このDataTableオブジェクトをDataGridにバインドしてデータを表示することができます。
 
-**例：**
+**例:**
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ExportDataToDataTable-ExportToNewDataTable.cs" >}}
 
 {{% alert color="primary" %}} 
 
-上記の場合、ワークシートからエクスポートされたデータを含む新しい DataTable オブジェクトを単に返す ExportDataTable メソッドのオーバーロードされたバージョンを使用します。
+上記のケースでは、ExportDataTableメソッドのオーバーロードバージョンを使用して、単純にワークシートからエクスポートされたデータを含む新しいDataTableオブジェクトを返します。
 
 {{% /alert %}}

@@ -1,24 +1,27 @@
-﻿---
-title: Aspose.Cells.GridJsの基本
+---
+title: Aspose.Cells.GridJsの基礎
 type: docs
 weight: 250
 url: /ja/net/aspose-cells-gridjs/basics/
+keywords: GridJs
+description: この記事では、GridJsのWebアプリケーションのセットアップの基本的な手順を紹介しています。
 ---
-## GridJの基礎
 
-Aspose.Cells.GridJs は .NET 標準ライブラリで、スプレッドシートをすばやく簡単に表示/編集する Web アプリケーションを開発できます。
+## GridJsの基礎
 
-Aspose.Cells.GridJs は、一般的なスプレッドシート (XLS、XLSX、XLSM、XLSB、CSV、SpreadsheetML、ODS) ファイル形式のインポートをサポートしています。
+Aspose.Cells.GridJsは、ユーザーが簡単かつ迅速にスプレッドシートを表示/編集するための.NET標準ライブラリです。 
 
-また、Excel ファイルを PDF、HTML などにエクスポートすることもできます。以下は、GridJs の Web アプリケーションを開発するための基本的なプロセスの手順です。
+Aspose.Cells.GridJsは、人気のあるスプレッドシート（XLS、XLSX、XLSM、XLSB、CSV、SpreadsheetML、ODS）ファイル形式のインポートをサポートしています。
 
-- GridCacheForStream を実装して、キャッシュ ストレージ用の独自のビジネス ロジックを記述します。
-- スプレッドシート ファイルから json を取得するコントローラー アクションを設定します。 GridJsWorkbook.ImportExcelFile および GridJsWorkbook.ExportToJson API を使用できます。GridJs はスプレッド ファイルを自動的にキャッシュに保存します。
-- 更新操作の json を取得するコントローラー アクションを設定します。GridJsWorkbook.UpdateCell API を使用できます。GridJs はキャッシュで更新操作を実行し、更新された json を返します。
-- スプレッドシートで画像/形状ファイルの URL を取得するコントローラー アクションを設定します。GridJs はキャッシュ内のすべての画像/形状を自動的に圧縮します。GridCacheForStream.GetFileUrl API を使用します。
-- キャッシュ内のファイルを取得するコントローラー アクションを設定します。これにより、画像/形状の zip ファイルまたはスプレッドシート ファイルをキャッシュ内に取得できます。これは GridCacheForStream.LoadStream API を使用します。
-- スプレッドシートをダウンロードするコントローラー アクションを設定します。GridJsWorkbook.SaveToCacheWithFileName API を使用できます。
+また、ExcelファイルをPDF、HTMLなどにエクスポートすることもできます。以下は、GridJsのWebアプリケーションを開発するための基本的な手順です。
 
-以下は、Aspose.Cells.GridJs の使用法を示す基本的なデモです: https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs
+- GridCacheForStreamを実装してキャッシュストレージのビジネスロジックを書きます。
+- スプレッドシートファイルからJSONを取得するためのコントローラーアクションを設定します。GridJsWorkbook.ImportExcelFileおよびGridJsWorkbook.ExportToJson APIを使用でき、GridJsは自動的にスプレッドファイルをキャッシュに格納します。
+- アップデート操作のためにJSONを取得するためのコントローラーアクションを設定します。GridJsWorkbook.UpdateCell APIを使用でき、GridJsはキャッシュでの更新操作を行い、更新されたJSONを返します。
+- スプレッドシート内の画像/シェイプファイルのURLを取得するためのコントローラーアクションを設定します。GridJsは自動的にキャッシュ内のすべての画像/シェイプをZIP形式で圧縮します。GridCacheForStream.GetFileUrl APIを使用します。
+- キャッシュ内のファイルを取得するためのコントローラーアクションを設定します。これにより、キャッシュ内の画像/シェイプのZIPファイルまたはスプレッドシートファイルを取得できます。GridCacheForStream.LoadStream APIを使用します。
+- スプレッドシートをダウンロードするためのコントローラーアクションを設定します。GridJsWorkbook.SaveToCacheWithFileName APIを使用できます。
 
-質問、要件、またはサポートが必要な場合は、次の Web サイトにフィードバックしてください https://forum.aspose.com/c/cells/9
+以下は、Aspose.Cells.GridJsの使用法を示した基本的なデモです: https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs 
+
+ご質問や要件、助けが必要な場合は、以下のウェブサイトにフィードバックしてください https://forum.aspose.com/c/cells/9

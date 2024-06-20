@@ -1,17 +1,18 @@
-﻿---
-title: 印刷範囲の設定
+---
+title: 印刷エリアを設定
 type: docs
 weight: 40
 url: /ja/java/set-print-area/
 ---
-## **Aspose.Cells - 印刷範囲の設定**
-デフォルトでは、データを含むワークシートのすべての領域が印刷領域に組み込まれます。開発者は、ワークシートの特定の印刷領域を設定できます。
 
-特定の印刷領域を選択するには、[ページ設定](/java/pagesetup)クラスの setPrintArea メソッド。印刷領域を定義するセル範囲をこのプロパティに割り当てます。
+## **Aspose.Cells - 印刷エリアを設定**
+デフォルトでは、印刷エリアにはデータを含むワークシートのすべてのエリアが含まれます。開発者はワークシートの特定の印刷エリアを設定できます。
+
+特定の印刷範囲を選択するには、[PageSetup](/java/pagesetup)クラスのsetPrintAreaメソッドを使用します。印刷範囲を定義するセル範囲をこのプロパティに割り当てます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -33,11 +34,11 @@ pageSetup.setPrintArea("A1:F20");
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - 印刷範囲の設定**
-Workbook.setPrintArea メソッドを使用して、印刷領域のページ プロパティを設定できます。
+Workbook.setPrintAreaメソッドを使用して印刷エリアのページプロパティを設定できます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.setPrintArea(
 );
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/setprintarea)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[印刷オプションの設定](/cells/ja/java/page-setup-features/#setting-print-options).
+詳細については、[印刷オプションの設定](/cells/ja/java/page-setup-features/#setting-print-options) をご覧ください。
 
 {{% /alert %}}

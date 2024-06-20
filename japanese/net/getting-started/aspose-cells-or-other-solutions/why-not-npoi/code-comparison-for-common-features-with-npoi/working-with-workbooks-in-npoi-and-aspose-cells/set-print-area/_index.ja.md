@@ -1,17 +1,18 @@
-﻿---
-title: 印刷範囲の設定
+---
+title: 印刷エリアを設定
 type: docs
 weight: 30
 url: /ja/net/set-print-area/
 ---
-## **Aspose.Cells - 印刷範囲の設定**
-デフォルトでは、データを含むワークシートのすべての領域が印刷領域に組み込まれます。開発者は、ワークシートの特定の印刷領域を設定できます。
 
-特定の印刷領域を選択するには、[ページ設定](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)クラスの PrintArea プロパティ。印刷領域を定義するセル範囲をこのプロパティに割り当てます。
+## **Aspose.Cells - 印刷エリアを設定**
+デフォルトでは、印刷エリアにはデータを含むワークシートのすべてのエリアが含まれます。開発者はワークシートの特定の印刷エリアを設定できます。
+
+特定の印刷エリアを選択するには、[PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)クラスのPrintAreaプロパティを使用します。このプロパティに、印刷エリアを定義するセル範囲を割り当ててください。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -60,12 +61,12 @@ pageSetup.PrintArea = "A1:F20";
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 印刷範囲の設定**
-Workbook.setPrintArea メソッドを使用して、印刷領域のページ プロパティを設定できます。
+## **NPOI - HSSF XSSF - 印刷エリアを設定**
+Workbook.setPrintAreaメソッドを使用して印刷エリアのページプロパティを設定できます。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -123,13 +124,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**印刷範囲の設定**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから、**印刷エリアを設定**をダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[印刷オプションの設定](/cells/ja/net/setting-print-options/).
+詳細については、[印刷オプションの設定](/cells/ja/net/setting-print-options/)をご覧ください。
 
 {{% /alert %}}

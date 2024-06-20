@@ -1,24 +1,25 @@
-﻿---
-title: Hitta frågetabeller och listobjekt relaterade till externa dataanslutningar
+---
+title: Hitta frågetabeller och lista objekt relaterade till externa dataanslutningar
 type: docs
 weight: 20
 url: /sv/net/find-query-tables-and-list-objects-related-to-external-data-connections/
 ---
+
 {{% alert color="primary" %}} 
 
-Ibland behöver du ta reda på frågetabeller och listobjekt relaterade till någon extern dataanslutning. Frågetabeller är relaterade till External Data Connection-objekt med anslutnings-ID, medan listobjekt är relaterade till en frågetabell.
+Ibland behöver du ta reda på frågetabeller och lista objekt relaterade till någon extern dataanslutning. Frågetabeller är relaterade till objekt för extern dataanslutning med anslutnings-ID, medan lista objekt är relaterade till en frågetabell.
 
 {{% /alert %}} 
-## **Hitta frågetabeller och listobjekt relaterade till externa dataanslutningar**
- Följande exempelkoder med[exempel på excel-fil](5115493.xlsm) förklara hur du hittar frågetabeller och listobjekt relaterade till extern dataanslutning.
+## **Hitta frågetabeller och lista objekt relaterade till externa dataanslutningar**
+Följande kodexemplar med [provexkelfil](5115493.xlsm) förklarar hur man hittar frågetabeller och lista objekt relaterade till extern dataanslutning.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-FindQueryTablesAndListObjectsOfExternalDataConnections.cs" >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-PrintTables.cs" >}}
 
- Följande är konsolutgången för att köra ovanstående exempelkoder med detta[exempel på excel-fil](5115493.xlsm).
+Det följande är konsolutdatan från att köra ovanstående kodexemplar med denna [provexkelfil](5115493.xlsm).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  connection: AAPL Connection
 

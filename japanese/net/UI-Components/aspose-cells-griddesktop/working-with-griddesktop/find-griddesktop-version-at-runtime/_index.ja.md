@@ -1,15 +1,18 @@
-﻿---
-title: 実行時に GridDesktop のバージョンを見つける
+---
+title: ランタイムでGridDesktopのバージョンを検索する
 type: docs
 weight: 60
-url: /ja/net/find-griddesktop-version-at-runtime/
+url: /ja/net/aspose-cells-griddesktop/find-griddesktop-version-at-runtime/
+keywords: GridDesktopのバージョン
+description: この記事では、GridDesktopでバージョンを取得する方法を紹介しています。
 ---
-## **考えられる使用シナリオ**
-実行時に GridDesktop のバージョンを見つけることが重要な場合があります。たとえば、正しいバージョンを使用していることを確認したり、アプリケーションをデバッグしていて、現在使用されている GridDesktop のバージョンを知りたいとします。 GridDesktop は、実行時に GridDesktop のバージョンを返す Aspose.Cells.GridDesktop.GridDesktop.GetVersion() メソッドを提供します。
-## **実行時に GridDesktop のバージョンを見つける**
-次のサンプル コードは、実行時に GridDesktop のバージョンを検出します。スクリーンショットは、参考のためにこのサンプル コードの実行結果を示しています。
 
-![todo:画像_代替_文章](find-griddesktop-version-at-runtime_1.png)
+## **可能な使用シナリオ**
+時々、ランタイムでGridDesktopのバージョンを見つけることが重要です。たとえば、正しいバージョンを使用していることを確認したい場合や、アプリケーションをデバッグして使用しているGridDesktopのバージョンを知りたい場合などです。GridDesktopは、GridDesktop.GetVersion()メソッドを提供しており、これはランタイムでのGridDesktopのバージョンを返します。 
+## **ランタイムでGridDesktopのバージョンを検索する**
+次のサンプルコードは、実行時にGridDesktopのバージョンを検索します。スクリーンショットは、このサンプルコードの実行結果を参照しています。
+
+![todo:image_alt_text](find-griddesktop-version-at-runtime_1.png)
 
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-WorkingWithGridDesktop-Form_FindGridDesktopVersionAtRunTime.cs" >}}

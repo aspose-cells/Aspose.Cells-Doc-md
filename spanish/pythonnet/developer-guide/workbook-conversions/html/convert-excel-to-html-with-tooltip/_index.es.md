@@ -1,20 +1,21 @@
 ---
-title: Convierta Excel a HTML con información sobre herramientas
+title: Convertir Excel a HTML con tooltip
 type: docs
 weight: 200
 url: /es/python-net/convert-excel-to-html-with-tooltip/
-description: Este tema le muestra cómo convertir Excel a HTML con información sobre herramientas usando Aspose.Cells for Python a través de NET.
-keywords: Python Convert Excel to HTML with tooltip, Convert Excel to HTML with tooltip Python via NET, Python via NET Excel to HTML with tooltip, Python Workbook to HTML with tooltip.
+description: Este tema le muestra cómo convertir Excel a HTML con información sobre herramientas usando Aspose.Cells para Python via NET.
+keywords: Python Convertir Excel a HTML con información sobre herramientas, Convertir Excel a HTML con información sobre herramientas Python via NET, Python via NET Excel a HTML con información sobre herramientas, Python Libro a HTML con información sobre herramientas.
 ---
-##  **Convierta Excel a HTML con información sobre herramientas**
 
-Puede haber casos en los que el texto esté cortado en el HTML generado y desee mostrar el texto completo como información sobre herramientas en el evento de desplazamiento. Aspose.Cells apoya esto proporcionando**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** propiedad. Configurando el**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** propiedad a**verdadero** agregará el texto completo como información sobre herramientas en el HTML generado.
+## **Convertir Excel a HTML con tooltip**
 
-La siguiente imagen muestra la información sobre herramientas en el archivo HTML generado.
+Puede haber casos en los que el texto se corte en el HTML generado y desees mostrar el texto completo como un tooltip en el evento de desplazamiento. Aspose.Cells admite esto mediante la propiedad [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/). Establecer la propiedad [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/) en **true** añadirá el texto completo como un tooltip en el HTML generado.
+
+La siguiente imagen muestra el tooltip en el archivo HTML generado.
 
 ![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
- El siguiente ejemplo de código carga el[archivo excel fuente](98107416.xlsx) y genera el[salida del archivo HTML](98107417.zip) con la información sobre herramientas.
+El siguiente ejemplo de código carga el [archivo de Excel fuente](98107416.xlsx) y genera el [archivo HTML de salida](98107417.zip) con el tooltip.
 
 Código de muestra
 

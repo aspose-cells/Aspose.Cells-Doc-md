@@ -4,10 +4,11 @@ type: docs
 weight: 20
 url: /ar/cpp/using-icustomfunction-feature/
 ---
-##  **عفا عليها الزمن**
-استخدم AbstractCalculationEngine بدلاً من ذلك.
 
-**تم استبدال هذه الفئة بـ AbstractCalculationEngine في الإصدار الجديد، لكن الوظيفة لا تزال قيد التحسين، لذا تابعونا.**
+## **مهجور**
+استخدم AbstractCalculationEngine بدلاً منه.
 
-**تشير إلى** [استخدام ميزة AbstractCalculationEngine](../using-abstractcalculationengine-feature/)
+**تم استبدال هذه الفئة بواجهة AbstractCalculationEngine في الإصدار الجديد، ولكن الوظيفة ما زالت قيد التحسين، لذا ترقبوا المزيد.**
+
+**انظر إلى** [استخدام ميزة AbstractCalculationEngine](../using-abstractcalculationengine-feature/)
 

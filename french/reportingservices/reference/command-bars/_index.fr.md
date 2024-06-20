@@ -1,22 +1,23 @@
-﻿---
-title: Barres de commandes
+---
+title: Barres de commande
 type: docs
 weight: 10
 url: /fr/reportingservices/command-bars/
 ---
-Le tableau suivant présente les icônes et les outils des barres de commandes de la barre d'outils du complément Aspose.Cells.Report.Designer.
+
+Le tableau suivant montre les icônes des barres de commande et les outils sur la barre d'outils de l'add-in Aspose.Cells.Report.Designer.
 
 |**Commande** |**Image** |**Description** |
-|:- |:- |:- |
-| Ouvrir le rapport local|![tâche : image_autre_texte](command-bars_1.png)| Ouvre un fichier RDL à partir d'un PC local et charge le contexte du fichier.|
-| Ouvrir le rapport à distance|![tâche : image_autre_texte](command-bars_2.png)| Ouvre un fichier RDL à partir de Report Server et charge le contexte du fichier.|
-| Enregistrer le rapport|![tâche : image_autre_texte](command-bars_3.png)| Enregistre la conception du rapport localement ou sur le serveur.|
-| Publier le rapport|![tâche : image_autre_texte](command-bars_4.png)| Télécharge le fichier RDL sur le serveur.|
-|Voir le rapport|![tâche : image_autre_texte](command-bars_5.png)| Affiche un aperçu du rapport à partir du serveur.|
-| Créer un ensemble de données et une source de données|![tâche : image_autre_texte](command-bars_6.png)| Construit des ensembles de données et des sources de données.|
-| Modifier le paramètre de rapport|![tâche : image_autre_texte](command-bars_7.png)| Modifie la relation entre le paramètre de rapport et le paramètre de requête.|
-| Insérer une formule|![tâche : image_autre_texte](command-bars_8.png)| Insère une formule dans la cellule via les fenêtres de l'éditeur de formule|
-| Définir l'attribut|![tâche : image_autre_texte](command-bars_9.png)| Définit certains des attributs du rapport : nom du rapport, plage du rapport, champs de groupe, champs d'ordre, etc.|
-| Modifier l'attribut|![tâche : image_autre_texte](command-bars_10.png)| Modifie certains des attributs du rapport : nom du rapport, plage du rapport, champs de groupe, champs d'ordre, etc.|
-| Définir le pied de page|![tâche : image_autre_texte](command-bars_11.png)| Insère '##footer' dans la cellule.|
+| :- | :- | :- |
+|Open Local Report |![todo:image_alt_text](command-bars_1.png)|Opens an RDL file from local PC and loads the file context. |
+|Open Remote Report |![todo:image_alt_text](command-bars_2.png)|Opens an RDL file from Report Server and loads the file context. |
+|Save Report |![todo:image_alt_text](command-bars_3.png)|Saves designing report locally or on the server. |
+|Publish Report |![todo:image_alt_text](command-bars_4.png)|Uploads the RDL file on the server. |
+|View Report |![todo:image_alt_text](command-bars_5.png)|Displays a preview of the report from the server. |
+|Build DataSet and Data Source |![todo:image_alt_text](command-bars_6.png)|Builds datasets and data sources. |
+|Modify Report Parameter |![todo:image_alt_text](command-bars_7.png)|Modifies report parameter and query parameter relation. |
+|Insert Formula |![todo:image_alt_text](command-bars_8.png)|Inserts formula into the cell through the formula editor windows |
+|Set Attribute |![todo:image_alt_text](command-bars_9.png)|Sets some of the report attributes: report name, report range, group fields, order fields and so on. |
+|Modify Attribute |![todo:image_alt_text](command-bars_10.png)|Modifies some of the report attributes: report name, report range, group fields, order fields and so on. |
+|Set Footer |![todo:image_alt_text](command-bars_11.png)|Inserts '##footer' into the cell. |
 

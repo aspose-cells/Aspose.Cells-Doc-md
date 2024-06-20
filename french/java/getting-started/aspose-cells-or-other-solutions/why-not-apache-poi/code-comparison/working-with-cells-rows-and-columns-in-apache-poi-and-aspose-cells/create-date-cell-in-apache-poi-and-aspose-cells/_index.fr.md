@@ -1,13 +1,14 @@
-﻿---
-title: Créer la date Cell dans Apache POI et Aspose.Cells
+---
+title: Créer une cellule de date dans Apache POI et Aspose.Cells
 type: docs
 weight: 90
 url: /fr/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Date de création Cell**
+
+## **Aspose.Cells - Créer une cellule de date**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,10 +35,10 @@ style.setCustom("d-mmm-yy");
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - Date de création Cell**
+## **Apache POI SS (HSSF + XSSF) - Créer une cellule de date**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -86,17 +87,17 @@ cell.setCellValue(Calendar.getInstance());
 cell.setCellStyle(cellStyle);
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger des exemples d'exécution pour**Créer la date Cell dans Aspose.Cells et Apache POI** à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Télécharger des exemples en cours d'exécution pour **Créer une cellule de date dans Aspose.Cells et Apache POI** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **Télécharger le code source**
- Télécharger le code source pour**Créer la date Cell dans Aspose.Cells et Apache POI** à partir de l'un des sites de codage social mentionnés ci-dessous :
+Télécharger le code source pour **Créer une cellule de date dans Aspose.Cells et Apache POI** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Ajout de données au Cells](/cells/fr/java/add-data-in-cells/).
+Pour plus de détails, visitez [Ajout de données aux cellules](/cells/fr/java/add-data-in-cells/).
 
 {{% /alert %}}

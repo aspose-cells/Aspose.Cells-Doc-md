@@ -1,19 +1,20 @@
-﻿---
+---
 title: 範囲の切り取りと貼り付け
 type: docs
 weight: 150
 url: /ja/java/cut-and-paste-cells/
 ---
-## **カットアンドペースト Cells**
 
-Aspose.Cells を使用すると、ワークシート内のセルをカット アンド ペーストできます。[**挿入カットセル**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) の方法[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクション。の[**挿入カットセル**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)は、次のパラメーターを受け入れます。
+## **セルの切り取りと貼り付け**
 
-- [**範囲**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)切り取るセルの範囲。
-- 行インデックス: セルを挿入する行のインデックス。
-- 列インデックス: セルを挿入する列のインデックス。
-- [**シフトタイプ**](https://reference.aspose.com/cells/java/com.aspose.cells/ShiftType)列のシフト方向。
+Aspose.Cellsを使用してワークシート内でセルの切り取りと貼り付けをする能力を提供します。[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクションの[**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int))メソッドを使用します。[**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int))は、次のパラメータを受け入れます。
 
-次の例は、ワークシート内のセルを切り取って貼り付ける方法を示しています。
+- [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range): 切り取るセルの範囲
+- 行インデックス: セルを挿入する行のインデックス
+- 列インデックス: セルを挿入する列のインデックス
+- [**ShiftType**](https://reference.aspose.com/cells/java/com.aspose.cells/ShiftType): 列のシフト方向
+
+次の例は、ワークシート内でセルを切り取り、貼り付ける方法を示しています。
 
 ## サンプルコード
 

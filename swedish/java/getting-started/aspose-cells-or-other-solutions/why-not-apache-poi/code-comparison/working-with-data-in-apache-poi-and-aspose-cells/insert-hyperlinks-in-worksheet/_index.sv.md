@@ -1,17 +1,18 @@
-﻿---
-title: Infoga hyperlänkar i arbetsbladet
+---
+title: Infoga Hyperlänkar i Arbeitsblad
 type: docs
 weight: 20
 url: /sv/java/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Infoga hyperlänkar i arbetsblad**
-**Lägga till en länk till en Cell i samma fil**
 
-Det är möjligt att lägga till hyperlänkar till celler i samma Excel-fil genom att anropa Hyperlänksamlingens Add-metod. Add-metoden fungerar för både interna och externa hyperlänkar.
+## **Aspose.Cells - Infoga Hyperlänkar i Arbeitsblad**
+**Lägga till en länk till en cell i samma fil**
+
+Det är möjligt att lägga till hyperlänkar i celler i samma Excel-fil genom att anropa Hyperlink-samlingens Add-metod. Add-metoden fungerar för både interna och externa hyperlänkar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the first worksheet.
 
@@ -50,16 +51,16 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 
 **Lägga till en länk till en extern fil**
 
-Det är möjligt att lägga till hyperlänkar till externa Excel-filer genom att anropa Hyperlänksamlingens Add-metod. Add-metoden tar följande parametrar:
+Det är möjligt att lägga till hyperlänkar till externa Excel-filer genom att anropa Hyperlinks-samlingens Add-metod. Add-metoden tar följande parametrar:
 
-- Cell namn, namnet på cellen som hyperlänken kommer att läggas till.
-- Antal rader, antalet rader i detta hyperlänksområde.
-- Antal kolumner, antalet kolumner i detta hyperlänkintervall.
+- Cellnamn, namnet på den cell som hyperlänken kommer att läggas till.
+- Antal rader, antalet rader i detta hyperrlänksområde.
+- Antal kolumner, antalet kolumner i detta hyperrlänksområde.
 - URL, adressen till målet, extern Excel-fil.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  cell = cells.get("A3");
 
@@ -74,10 +75,10 @@ hyperlinks = sheet.getHyperlinks();
 hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Infoga hyperlänkar i arbetsblad**
+## **Apache POI SS - HSSF XSSF - Infoga hyperlänkar i kalkylblad**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  CellStyle hlink_style = wb.createCellStyle();
 
@@ -158,8 +159,8 @@ cell.setHyperlink(link2);
 cell.setCellStyle(hlink_style);
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlink)
 

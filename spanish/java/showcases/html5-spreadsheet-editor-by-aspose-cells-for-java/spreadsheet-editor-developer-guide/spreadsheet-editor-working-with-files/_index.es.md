@@ -1,29 +1,30 @@
-﻿---
-title: Editor de hojas de cálculo - Trabajar con archivos
+---
+title: Editor de hojas de cálculo  Trabajando con archivos
 type: docs
 weight: 10
 url: /es/java/spreadsheet-editor-working-with-files/
 ---
-**Tabla de contenido**
 
-- [Archivos compatibles](#SpreadsheetEditor-WorkingwithFiles-SupportedFiles)
+**Tabla de contenidos**
+
+- [Archivos admitidos](#SpreadsheetEditor-WorkingwithFiles-SupportedFiles)
 - [Abrir archivos locales](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
 - [Abrir desde Dropbox](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
 - [Abrir desde URL](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
- - LoaderService.fromUrl
- - LoaderService.buildCellsCache
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
+  - LoaderService.fromUrl
+  - LoaderService.buildCellsCache
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
 - [Crear una nueva hoja de cálculo](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
- - LoaderService.fromBlank
- - buildCellsCache
- - buildColumnWidthCache
- - buildRowHeightCache
+  - LoaderService.fromBlank
+  - buildCellsCache
+  - buildColumnWidthCache
+  - buildRowHeightCache
 - [Exportar a varios formatos](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
-### **Archivos compatibles**
-HTML5 Spreadsheet Editor puede abrir archivos en los siguientes formatos:
+### **Archivos admitidos**
+El editor de hojas de cálculo HTML5 puede abrir archivos en los siguientes formatos:
 
 - Excel 1997-2003 XLS
 - Excel 2007-2013 XLSX
@@ -32,43 +33,43 @@ HTML5 Spreadsheet Editor puede abrir archivos en los siguientes formatos:
 - XLTX
 - SpreadsheetML
 - CVS
-- Abrir documento
+- OpenDocument
 ### **Abrir archivos locales**
-Para cargar un archivo desde la computadora local:
+Para cargar un archivo desde el equipo local:
 
-1.  Cambiar a**pestaña Archivo** en la parte superior.
-1.  Hacer clic**Abrir desde la computadora** para abrir el cuadro de diálogo Examinar.
+1. Cambie a la pestaña **Archivo** en la parte superior.
+1. Haga clic en **Abrir desde el equipo** para abrir el cuadro de diálogo de exploración.
 1. Vaya a la ubicación deseada del archivo.
 1. Haga clic en el archivo deseado para seleccionarlo.
-1.  Hacer clic**Abierto**.
+1. Haga clic en **Abrir**.
 
 El archivo se abrirá en el editor.
 
-![todo:imagen_alternativa_texto](bwyl3xi.png)
+![todo:image_alt_text](bwyl3xi.png)
 
 **¿Cómo funciona?**
 
-**Subir archivo**
+**Cargar archivo**
 
- El usuario selecciona un archivo de la computadora local que se carga desde el navegador web al servidor y es recibido por[Archivo PrimeFacesSubir](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) componente.
+El usuario selecciona un archivo desde el equipo local que se carga desde el navegador web al servidor y se recibe mediante el componente [PrimeFaces fileUpload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <p:fileUpload fileUploadListener="#\{workbook.onFileUpload\}" update=":ribbon :intro :sheet" />
 
 {{< /highlight >}}
 
-**Gestión del libro de trabajo**
+**Gestión de libros de trabajo**
 
- Tan pronto como el archivo se carga por completo, el método WorkbookService.onFileUpload entra en acción para manejar la situación. WorkbookService recibe eventos del navegador web y realiza un seguimiento del estado de todo el libro de trabajo. WorkbookService.onFileUpload pasa el control a LoaderService para cargar el libro en la memoria. como el***Subir archivo*** componente proporciona el archivo cargado como un[Flujo de entrada](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html), LoaderService lo carga mediante el método LoaderService.fromInputStream.
-
-
+Tan pronto como el archivo se carga por completo, el método WorkbookService.onFileUpload entra en acción para manejar la situación. WorkbookService recibe eventos desde el navegador web y lleva un seguimiento del estado de todo el libro de trabajo. El WorkbookService.onFileUpload pasa el control al LoaderService para cargar el libro de trabajo en la memoria. Como el componente ***fileUpload*** proporciona el archivo cargado como un [InputStream](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html), LoaderService lo carga mediante el método LoaderService.fromInputStream.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
  public void onFileUpload(FileUploadEvent e) {
 
@@ -86,7 +87,7 @@ El archivo se abrirá en el editor.
 
 **Carga y descarga**
 
- El método***LoaderService.fromInputStream*** lee el***Flujo de entrada*** proporcionado por fileUpload***componente*** crear instancia de***com.aspose.cells.Workbook***clase. Esta instancia se mantiene en la memoria siempre que el usuario siga viendo o editando la hoja de cálculo en el navegador web. Cuando el usuario sale del editor o cierra el navegador, las instancias no utilizadas se descargan automáticamente de la memoria para mantener limpio el servidor.
+El método ***LoaderService.fromInputStream*** lee el ***InputStream*** proporcionado por el ***componente*** fileUpload para crear una instancia de la clase ***com.aspose.cells.Workbook***. Esta instancia se mantiene en memoria mientras el usuario sigue viendo o editando la hoja de cálculo en el navegador web. Cuando el usuario abandona el editor o cierra el navegador, las instancias no utilizadas se descargan automáticamente de la memoria para mantener el servidor limpio.
 
 
 
@@ -94,7 +95,7 @@ El archivo se abrirá en el editor.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public String fromInputStream(InputStream s, String name) {
 
@@ -132,17 +133,17 @@ El archivo se abrirá en el editor.
 
 
 
-**almacenamiento en caché**
+**Caché**
 
-El almacenamiento en caché es muy importante para HTML5 Spreadsheet Editor. Hace que todo funcione sin problemas. CellsService mantiene en caché las filas, columnas, celdas y propiedades de todos los libros de trabajo cargados por el editor. Cuando LoaderService carga una hoja de cálculo por completo, la lee de arriba a abajo y llena el caché llamando a LoaderService.buildCellsCache, LoaderService.buildColumnWidthCache, LoaderService.buildRowHeightCache
-
-
+El caché es muy importante para el Editor de Hojas de Cálculo en HTML5. Hace que todo funcione de manera fluida. El CellsService mantiene en caché filas, columnas, celdas y propiedades de todas las hojas de cálculo cargadas por el editor. Cuando LoaderService carga una hoja de cálculo por completo, la lee de arriba abajo y llena la caché llamando a LoaderService.buildCellsCache, LoaderService.buildColumnWidthCache, LoaderService.buildRowHeightCache
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -210,7 +211,7 @@ El almacenamiento en caché es muy importante para HTML5 Spreadsheet Editor. Hac
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -236,7 +237,7 @@ El almacenamiento en caché es muy importante para HTML5 Spreadsheet Editor. Hac
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -266,51 +267,51 @@ El almacenamiento en caché es muy importante para HTML5 Spreadsheet Editor. Hac
 ### **Abrir desde Dropbox**
 Para abrir archivos desde Dropbox:
 
-1.  Cambiar a**pestaña Archivo** en la parte superior.
-1.  Hacer clic**Abrir desde Dropbox** para abrir el selector de archivos de Dropbox.
+1. Cambie a la pestaña **Archivo** en la parte superior.
+1. Haga clic en **Abrir desde Dropbox** para abrir el selector de archivos de Dropbox.
 1. Si aún no ha iniciado sesión, se le pedirá que inicie sesión en su cuenta de Dropbox.
-1. Navegue hasta el archivo deseado y haga clic para seleccionarlo.
-1.  Hacer clic**Escoger** en el fondo.
+1. Vaya al archivo deseado y haga clic para seleccionarlo.
+1. Haga clic en **Elegir** en la parte inferior.
 
 Su archivo seleccionado se abrirá desde Dropbox.
 
-![todo:imagen_alternativa_texto](1e2sfo0.png)
+![todo:image_alt_text](1e2sfo0.png)
 
 **¿Cómo funciona?**
 
- Él**Abrir desde Dropbox** usos del botón**Selector de JavaScript de Dropbox API** para abrir el cuadro de diálogo Selector de Dropbox. El Selector proporciona la URL del archivo seleccionado, que es capturado por la función de devolución de llamada y enviado de vuelta al servidor. El servidor crea una instancia de hoja de cálculo a partir de la URL, inicializa algunas cosas de limpieza y envía actualizaciones de DOM al navegador. El navegador procesa y actualiza el HTML y el usuario está listo para editar el documento cargado.
+El botón **Abrir desde Dropbox** utiliza la **API de Selector de Dropbox JavaScript** para abrir el diálogo de Selector de Dropbox. El Selector proporciona la URL del archivo seleccionado, que es capturada por la función de devolución de llamada y enviada de vuelta al servidor. El servidor crea una instancia de la hoja de cálculo desde la URL, inicializa algunas cosas de mantenimiento, y envía actualizaciones del DOM de vuelta al navegador. El navegador renderiza y actualiza el HTML, y el usuario está listo para editar el documento cargado.
 ### **Abrir desde URL**
- Los archivos se pueden abrir directamente desde las URL. Esto permite al usuario editar cualquier archivo disponible públicamente en Internet. Para abrir el archivo anexar**?url=ubicación** parámetro con el valor de su deseado**localización** mientras se carga el editor. Por ejemplo:
+Los archivos se pueden abrir directamente desde las URL. Esto permite al usuario editar cualquier archivo disponible públicamente en Internet. Para abrir el archivo, agregue el parámetro **?url=ubicación** con el valor de su **ubicación** deseada mientras carga el editor. Por ejemplo:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  http://editor.aspose.com/?url=http://example.com/Sample.xlsx
 
 {{< /highlight >}}
 
-![todo:imagen_alternativa_texto](exc9ckp.png)
+![todo:image_alt_text](exc9ckp.png)
 
 **¿Cómo funciona?**
 
-**Instanciar durante el inicio**
+**Inicializar durante el inicio**
 
- Cuándo**Vista de hoja de trabajo** El backend bean es instanciado por JSF el**PostConstrucción** método**en eso** se llama, que carga la hoja de cálculo mediante LoaderService.fromUrl.
+Cuando se instancie el bean **WorksheetView** en el backend por JSF, se llamará al método **PostConstruct** **init** que carga la hoja de cálculo utilizando LoaderService.fromUrl.
 
-**almacenamiento en caché**
+**Caché**
 
- El almacenamiento en caché se produce justo después de cargar la hoja de cálculo. Él**Servicio de cargador** llamadas**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y**LoaderService.buildRowHeightCache** uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y fluidas.
+La caché ocurre justo después de que se carga la hoja de cálculo. El **LoaderService** llama a **LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y **LoaderService.buildRowHeightCache** uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y suaves.
 
-**actualizaciones de DOM**
+**Actualizaciones en el DOM**
 
-Cuando la hoja de cálculo está lista en el lado del servidor, los componentes JSF se usan para generar un nuevo HTML y enviar actualizaciones de DOM al usuario que son procesadas por el navegador web.
-
-
+Cuando la hoja de cálculo está lista en el lado del servidor, se utilizan componentes JSF para generar HTML nuevo y enviar actualizaciones al DOM al usuario, las cuales son renderizadas por el navegador web.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      @PostConstruct
 
@@ -342,7 +343,7 @@ Cuando la hoja de cálculo está lista en el lado del servidor, los componentes 
 
 
 #### **LoaderService.fromUrl**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromUrl(String url) {
 
@@ -378,7 +379,7 @@ Cuando la hoja de cálculo está lista en el lado del servidor, los componentes 
 
 
 #### **LoaderService.buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -446,7 +447,7 @@ Cuando la hoja de cálculo está lista en el lado del servidor, los componentes 
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -472,7 +473,7 @@ Cuando la hoja de cálculo está lista en el lado del servidor, los componentes 
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -502,34 +503,34 @@ Cuando la hoja de cálculo está lista en el lado del servidor, los componentes 
 ### **Crear una nueva hoja de cálculo**
 Para crear una nueva hoja de cálculo vacía:
 
-1.  Cambiar a**pestaña Archivo**.
-1.  Haga clic en el**Nuevo** botón.
+1. Cambiar a la pestaña **Archivo**.
+1. Hacer clic en el botón **Nuevo**.
 
-El editor cerrará la hoja de cálculo abierta, si la hay, y abrirá una nueva.
+El editor cerrará la hoja de cálculo abierta, si la hubiera, y abrirá una nueva.
 
-![todo:imagen_alternativa_texto](lnydmmf.png)
+![todo:image_alt_text](lnydmmf.png)
 
 **¿Cómo funciona?**
 
-**Crear una instancia de un nuevo objeto**
+**Instanciar un nuevo objeto**
 
- Cuando el**Nuevo** el botón es presionado por el usuario,**WorksheetView.loadBlank** , que eventualmente llama**LoaderService.fromBlank**. LoaderService crea una nueva instancia de hoja de cálculo en blanco.
+Cuando el usuario hace clic en el botón **Nuevo**, **WorksheetView.loadBlank**, que eventualmente llama a **LoaderService.fromBlank**. LoaderService crea una nueva instancia de hoja de cálculo en blanco.
 
-**almacenamiento en caché**
+**Caché**
 
- El almacenamiento en caché se produce justo después de cargar la hoja de cálculo. Él**Servicio de cargador** llamadas**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y**LoaderService.buildRowHeightCache** uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y fluidas.
+La caché ocurre justo después de que se carga la hoja de cálculo. El **LoaderService** llama a **LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y **LoaderService.buildRowHeightCache** uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y suaves.
 
-**actualizaciones de DOM**
+**Actualizaciones en el DOM**
 
-Cuando la hoja de cálculo está lista en el lado del servidor, los componentes JSF se usan para generar un nuevo HTML y enviar actualizaciones de DOM al usuario que son procesadas por el navegador web.
-
-
+Cuando la hoja de cálculo está lista en el lado del servidor, se utilizan componentes JSF para generar HTML nuevo y enviar actualizaciones al DOM al usuario, las cuales son renderizadas por el navegador web.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public void loadBlank() {
 
@@ -543,7 +544,7 @@ Cuando la hoja de cálculo está lista en el lado del servidor, los componentes 
 
 
 #### **LoaderService.fromBlank**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromBlank() {
 
@@ -569,7 +570,7 @@ Cuando la hoja de cálculo está lista en el lado del servidor, los componentes 
 
 
 #### **buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -637,7 +638,7 @@ Cuando la hoja de cálculo está lista en el lado del servidor, los componentes 
 
 
 #### **buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -663,7 +664,7 @@ Cuando la hoja de cálculo está lista en el lado del servidor, los componentes 
 
 
 #### **buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -691,11 +692,11 @@ Cuando la hoja de cálculo está lista en el lado del servidor, los componentes 
 
 
 ### **Exportar a varios formatos**
-Después de editar archivos, el usuario querrá guardar los cambios. El editor permite al usuario exportar y descargar la hoja de cálculo modificada a la computadora local. Para exportar el archivo:
+Después de editar archivos, el usuario querrá guardar los cambios. El editor permite al usuario exportar y descargar la hoja de cálculo modificada en su computadora local. Para exportar el archivo:
 
-1.  Cambiar a**pestaña Archivo** en la parte superior.
-1.  Hacer clic**Exportar** como botón.
-1. Elija el formato que desee en el menú desplegable.
+1. Cambie a la pestaña **Archivo** en la parte superior.
+1. Haga clic en el botón **Exportar**.
+1. Elija el formato deseado en el menú desplegable.
 
 El archivo modificado se exportará para su descarga. Los siguientes formatos son compatibles para la exportación:
 
@@ -706,12 +707,12 @@ El archivo modificado se exportará para su descarga. Los siguientes formatos so
 - Excel XLTX
 - Excel XLTM
 - SpreadsheetML
-- Formato de documento portátil (PDF)
-- Hoja de cálculo OpenDocument (ODS)
+- Formato de Documentos Portátiles (PDF)
+- Hoja de Cálculo de OpenDocument (ODS)
 
 **¿Cómo funciona?**
 
- La hoja de cálculo abierta se convierte al formato especificado por el usuario usando**WorksheetView.getOutputFile**.
+La hoja de cálculo abierta se convierte al formato especificado por el usuario utilizando **WorksheetView.getOutputFile**.
 
 
 
@@ -719,7 +720,7 @@ El archivo modificado se exportará para su descarga. Los siguientes formatos so
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public StreamedContent getOutputFile(int saveFormat) {
 

@@ -1,54 +1,55 @@
-﻿---
-title: LightCells'i Kullanma API
+---
+title: LightCells API sını Kullanma
 type: docs
 weight: 80
 url: /tr/java/using-lightcells-api/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen, çalışma sayfasında çok sayıda veri veya içerik içeren büyük Microsoft Excel dosyalarını okumanız ve yazmanız gerekir. LightCells API, devasa Excel elektronik tabloları oluşturmak için kullanışlıdır: onunla, belleğe ihtiyacınız olur ve daha iyi performans ve verimlilik elde edersiniz.
+Bazen büyük veri kümesine sahip Microsoft Excel dosyalarını okuyup yazmanız gerekir. LightCells API, büyük Excel elektronik tabloları oluşturmak için kullanışlıdır: bu sayede hafıza ihtiyacı azalır ve daha iyi performans ve verimlilik elde edilir.
 
 {{% /alert %}}
 
-## **Olay Odaklı Mimari**
+## **Olay Temelli Mimarilik**
 
-Aspose.Cells, belleğe eksiksiz bir veri modeli bloğu oluşturmadan (Cell koleksiyonunu kullanarak vb.) temel olarak hücre verilerini tek tek işlemek için tasarlanmış LightCells API'i sağlar. Olay güdümlü modda çalışır.
+Aspose.Cells, özellikle bellekte bir veri modeli bloğu oluşturmadan hücre verilerini bir bir işlemek için tasarlanmış olan LightCells API'sını sağlar (Hücre koleksiyonu vb. kullanılmadan). Olay temelli modda çalışır.
 
-Çalışma kitaplarını kaydetmek için, kaydederken hücre içeriğini hücre hücre sağlayın ve bileşen bunu doğrudan çıktı dosyasına kaydeder.
+Çalışma kitaplarını kaydetmek için kaydederken hücre içeriğini hücre hücre sağlayın ve bileşen bunu doğrudan çıktı dosyasına kaydeder.
 
-Şablon dosyalarını okurken, bileşen her hücreyi ayrıştırır ve değerlerini birer birer sağlar.
+Şablon dosyalarını okurken bileşen her hücreyi ayrı ayrı ayrıştırır ve değerlerini tek tek sağlar.
 
-Her iki prosedürde de bir Cell nesnesi işlenir ve sonra atılır, Çalışma Kitabı nesnesi koleksiyonu tutmaz. Bu nedenle, bu modda, aksi takdirde çok fazla bellek kullanacak olan büyük bir veri kümesine sahip Microsoft Excel dosyasını içe ve dışa aktarırken bellek kaydedilir.
+Her iki süreçte de bir Cell nesnesi işlenir ve ardından atılır, Workbook nesnesi koleksiyonu tutmaz. Bu modda, dolayısıyla, çok miktarda bellek kullanan büyük veri kümesi barındıran Microsoft Excel dosyasının içe aktarımı ve dışa aktarımı sırasında bellek kaydedilir.
 
-LightCells API, XLSX ve XLS dosyaları için hücreleri aynı şekilde işlese de (aslında hafızadaki tüm hücreleri yüklemez, bir hücreyi işler ve sonra onu atar), XLSX dosyaları için hafızayı XLS dosyalarına göre daha etkili bir şekilde kaydeder. iki biçimin farklı veri modelleri ve yapıları.
+LightCells API, XLSX ve XLS dosyaları için hücreleri aynı şekilde işlemesine rağmen (bütün hücreleri belleğe yüklemez ama bir hücreyi işler ve ardından atar), XLSX dosyaları için XLS dosyalarına göre belleği daha etkili bir şekilde saklar çünkü iki formatın farklı veri modelleri ve yapıları vardır.
 
- Yine de,**XLS dosyaları için** , daha fazla bellek kazanmak için geliştiriciler, Kaydetme işlemi sırasında oluşturulan geçici verileri kaydetmek için geçici bir konum belirtebilir. yaygın olarak,**XLSX dosyasını kaydetmek için LightCells API kullanmak %50 veya daha fazla bellek tasarrufu sağlayabilir** ortak yolu kullanmaktansa,**XLS'i kaydetmek, yaklaşık %20-40 bellek tasarrufu sağlayabilir**.
+Ancak, **XLS dosyaları için**, geliştiriciler kayıt işlemi sırasında oluşturulan geçici veri için bir geçici konum belirtebilirler. Genellikle **LightCells API'nin kullanılması XLSX dosyası için% 50 veya daha fazla bellek tasarrufu sağlayabilirken**, **XLS için kullanılması% 20-40'a kadar bellek tasarrufu sağlayabilir**.
 
 ### **Büyük Excel Dosyaları Yazma**
 
-Aspose.Cells, programınızda uygulanması gereken LightCellsDataProvider adlı bir arabirim sağlar. Arayüz, büyük elektronik tablo dosyalarını hafif modda kaydetmek için Veri sağlayıcıyı temsil eder.
+Aspose.Cells, programınızda uygulanması gereken LightCellsDataProvider arabirimini sağlar. Bu arabirim, hafif modda büyük elektronik tablo dosyalarını kaydetme için veri sağlayıcısını temsil eder.
 
-Bir çalışma kitabını bu modda kaydederken, çalışma kitabındaki her çalışma sayfasını kaydederken startSheet(int) kontrol edilir. Bir sayfa için, startSheet(int) true ise, bu sayfanın satırlarının ve hücrelerinin tüm verilerinin ve özelliklerinin kaydedilmesi bu uygulama tarafından sağlanır. İlk olarak, kaydedilecek bir sonraki satır indeksini almak için nextRow() çağrılır. Geçerli bir satır dizini döndürülürse (satırların kaydedilmesi için satır dizini artan düzende olmalıdır), bu durumda, startRow(Row) ile özelliklerini ayarlamak üzere uygulama için bu satırı temsil eden bir Row nesnesi sağlanır.
+Bu modda bir çalışma kitabı kaydedilirken, her çalışma tablosu her okunduğunda startSheet(int) kontrol edilir. Bir sayfa için, eğer startSheet(int) true ise, bu sayfanın satırlarındaki hücrelerin veri ve özellikleri bu uygulama tarafından sağlanır. İlk olarak, bir sonraki satır endeksini kaydedilmek üzere çağrılır. Eğer geçerli bir satır endeksi dönerse (satır endeksi kaydedilecek satırların artan sırayla olması gerekir), bu satırı temsil eden bir Row nesnesi uygulamaya verilir ve özellikleri startRow(Row) ile ayarlaması beklenir.
 
-Bir satır için önce nextCell() kontrol edilir. Geçerli bir sütun dizini döndürülürse (bir satırdaki tüm hücrelerin kaydedilmesi için sütun dizini artan düzende olmalıdır), bu durumda verileri ve özellikleri startCell(Cell) ile ayarlamak için bu hücreyi temsil eden bir Cell nesnesi sağlanır. Bu hücrenin verileri ayarlandıktan sonra, bu hücre doğrudan oluşturulan elektronik tablo dosyasına kaydedilir ve bir sonraki hücre kontrol edilerek işlenir.
+Bir satır için, öncelikle nextCell() kontrol edilir. Eğer geçerli bir sütun endeksi dönerse (bir satırın tüm hücreleri sırasıyla kaydedilmek üzere artan sırada sütun endeksi olmalıdır), bu hücreyi temsil eden bir Cell nesnesi uygulamaya verilir ve veri ve özellikleri startCell(Cell) ile ayarlanması beklenir. Bu hücrenin verileri ayarlandıktan sonra bu hücre doğrudan oluşturulan elektronik tablo dosyasına kaydedilir ve bir sonraki hücre kontrol edilir ve işlenir.
 
-Aşağıdaki örnek, LightCells API'in nasıl çalıştığını gösterir.
+Aşağıdaki örnek, LightCells API'nin nasıl çalıştığını gösterir.
 
-Aşağıdaki program, verilerle dolu bir çalışma sayfasında 100.000 kayıt içeren devasa bir dosya oluşturur. Çalışma sayfasındaki belirli hücrelere bazı köprüler, dize değerleri, sayısal değerler ve ayrıca formüller ekledik. Ayrıca, bir dizi hücreyi de biçimlendirdik.
+Aşağıdaki program, çalışma sayfasında 100.000 kayıtlı devasa bir dosya oluşturur, veriyle doldurulur. Bazı hiperbağlantılar, dize değerleri, sayısal değerler ve belirli hücrelere formüller ekledik. Ayrıca, bazı hücre aralıklarını biçimlendirdik.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LightCellsDataProviderDemo-LightCellsDataProviderDemo.java" >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Demo-Demo.java" >}}
 
-## **Büyük Excel Dosyalarını Okuma**
+## **Büyük Excel Dosyaları Okuma**
 
-Aspose.Cells, programınızda uygulanması gereken LightCellsDataHandler adlı bir arabirim sağlar. Arayüz, büyük elektronik tablo dosyalarını hafif bir modda okumak için veri sağlayıcıyı temsil eder.
+Aspose.Cells, programınızda uygulanması gereken LightCellsDataHandler arabirimini sağlar. Bu arabirim, hafif modda büyük elektronik tablo dosyalarını okuma için veri sağlayıcısını temsil eder.
 
-Bu modda bir çalışma kitabı okurken, çalışma kitabındaki her çalışma sayfasını okurken startSheet() kontrol edilir. Bir sayfa için, startSheet() işlevi true değerini döndürürse, sayfanın satırlarındaki ve sütunlarındaki hücrelerin tüm verileri ve özellikleri kontrol edilir ve işlenir. Her satır için, işlenmesi gerekip gerekmediğini kontrol etmek için startRow() çağrılır. Bir satırın işlenmesi gerekiyorsa, önce satırın özellikleri okunur ve geliştiriciler processRow() ile özelliklerine erişebilir.
+Bu modda bir çalışma kitabı okunurken, her çalışma tablosu her okunduğunda startSheet() kontrol edilir. Bir sayfa için, eğer startSheet() true dönerse, bu sayfanın satırlarındaki hücrelerin veri ve özellikleri kontrol edilir ve işlenir. Her satır için, processRow() çalıştığı ve satırın hücreleri de işlenmesi gerekiyorsa, startCell() her hücre için kontrol edilir.
 
-Satırdaki hücrelerin de işlenmesi gerekiyorsa, processRow() işlevi true değerini döndürür ve satırdaki her mevcut hücrenin işlenmesi gerekip gerekmediğini kontrol etmek için startCell() işlevi çağrılır. Olursa, processCell() çağrılır.
+Hücrelerin de işlenmesi gerekiyorsa, processRow() true döner ve her satırdaki mevcut hücre için startCell() kontrol edilir. Eğer işlenmesi gerekiyorsa, processCell() çalıştırılır.
 
-Aşağıdaki örnek kod, bu işlemi göstermektedir. Program, milyonlarca kayıt içeren büyük bir dosyayı okur. Çalışma kitabındaki her sayfayı okumak biraz zaman alır. Örnek kod, dosyayı okur ve her çalışma sayfası için toplam hücre sayısını, dize sayısını ve formül sayısını alır.
+Aşağıdaki örnek kod bu süreci açıklar. Program, milyonlarca kaydı içeren büyük bir dosyayı okur. Kitaptaki her çalışma sayfasını okumak biraz zaman alır. Örnek kod, dosyayı okur ve her çalışma sayfası için toplam hücre sayısını, dize sayısını ve formül sayısını alır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LightCellsTest1-LightCellsTest1.java" >}}
 

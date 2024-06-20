@@ -1,27 +1,28 @@
-﻿---
-title: Metni Sığdırmak İçin Grafiğin Veri Etiketi Şeklini Yeniden Boyutlandır
+---
+title: Veri Etiket Şeklini Metne Sığacak Şekilde Yeniden Boyutlandır
 type: docs
 weight: 190
 url: /tr/java/resize-chart-s-data-label-shape-to-fit-text/
 ---
+
 {{% alert color="primary" %}}
 
- Excel uygulaması şunları sağlar:**Metni sığdırmak için şekli yeniden boyutlandırma** Metnin içine sığması için şeklin boyutunu artırmak amacıyla Chart'ın DataLabels seçeneği. Bu seçeneğe, grafikteki veri etiketlerinden herhangi biri seçilerek Excel arayüzünde erişilebilir. Sağ tıklayın ve seçin**Veri Etiketlerini Biçimlendir** Menü. Açık**Boyut ve Özellikler** sekme, genişlet**Hizalama** dahil olmak üzere ilgili özellikleri ortaya çıkarmak için**Metni düzeltmek için şekli yeniden boyutlandırın** seçenek.
+Excel uygulaması, Grafik Veri Etiketleri için **Metne Sığacak Şekilde Yeniden Boyutlandırma** seçeneği sağlar; şeklin büyüklüğünü metnin içine sığacak şekilde artırmak için. Bu seçenek, Excel arayüzünde grafiğin herhangi bir veri etiketini seçerek erişilebilir. Sağ tıklayın ve **Veri Etiketlerini Biçimlendir** menüsünü seçin. **Boyut ve Özellikler** sekmesinde, ilgili özellikleri açmak için **Hizalama**'yı genişletin ve bununla ilgili olarak **Metne Sığacak Şekilde Yeniden Boyutlandırmayı** seçeneğini içeren ilgili özellikleri ortaya çıkarın.
 
-![yapılacaklar:resim_alternatif_metin](resize-chart-s-data-label-shape-to-fit-text_1.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_1.png)
 
 {{% /alert %}}
 
-## **Metni Sığdırmak İçin Grafiğin Veri Etiketi Şeklini Yeniden Boyutlandır**
+## **Veri Etiket Şeklini Metne Sığacak Şekilde Yeniden Boyutlandır**
 
- Excel'in veri etiketi şekillerini metne uyacak şekilde yeniden boyutlandırma özelliğini taklit etmek için Aspose.Cells API'leri Boole tipini ortaya çıkardı[**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText)Emlak. Aşağıdaki kod parçası, basit kullanım senaryosunu gösterir.[**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText)Emlak.
+Excel'in metni sığacak şekilde veri etiketi şekillerini yeniden boyutlandırma özelliğini taklit etmek için, Aspose.Cells API'ları Boolean tipinde [**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText) özelliğini açığa çıkartmıştır. Aşağıdaki kod parçası, [**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText) özelliğinin basit kullanım senaryosunu göstermektedir.
 
-Grafik, kodu çalıştırmadan önce aşağıdaki gibi görünür.
+Kod çalıştırılmadan önce grafik şu şekilde görünecektir.
 
-![yapılacaklar:resim_alternatif_metin](resize-chart-s-data-label-shape-to-fit-text_2.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ResizeChartDataLabelShapeToFitText-ResizeChartDataLabelShapeToFitText.java" >}}
 
-Kodu çalıştırdıktan sonra grafik aşağıdaki gibi görünür.
+Kod çalıştırıldıktan sonra grafik şu şekilde görünecektir.
 
-![yapılacaklar:resim_alternatif_metin](resize-chart-s-data-label-shape-to-fit-text_3.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)

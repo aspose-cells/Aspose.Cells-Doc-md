@@ -1,17 +1,18 @@
-﻿---
+---
 title: Arbeitsblätter kopieren
 type: docs
 weight: 60
 url: /de/net/copy-worksheets/
 ---
-## **Migrationstipp:**
-\1. Workbook-Objekt erstellen und Worksheet abrufen.
-\2. Text in Arbeitsblatt einfügen.
-\3. Erstellen Sie ein neues Arbeitsblatt und kopieren Sie es in das zuvor erstellte Arbeitsblatt.
+
+## **Migrations-Tipp:**
+\1. Arbeitsmappenobjekt erstellen und Arbeitsblatt abrufen.
+\2. Text im Arbeitsblatt einfügen.
+\3. Neues Arbeitsblatt erstellen und es vorher erstelltem Arbeitsblatt kopieren.
 ### **VSTO**
-Fehler beim Rendern des Makros „Code“: Ungültiger Wert für Parameter lang angegeben
+Fehler beim Rendern des Makros 'code': Ungültiger Wert für den Parameter lang
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   private static string fileName ="CopyWorksheets.xlsx";
 
@@ -30,5 +31,5 @@ Fehler beim Rendern des Makros „Code“: Ungültiger Wert für Parameter lang 
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Download**
+## **Herunterladen**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)

@@ -1,22 +1,23 @@
-﻿---
+---
 title: نسخ الصفوف والأعمدة في Python
 type: docs
 weight: 30
 url: /ar/java/copying-rows-and-columns-in-python/
 ---
+
 ## **Aspose.Cells - نسخ الصفوف والأعمدة**
 ### **نسخ الصفوف**
-يوفر Aspose.Cells طريقة copyRow لفئة Cells. تنسخ هذه الطريقة جميع أنواع البيانات بما في ذلك الصيغ والقيم والتعليقات وتنسيقات الخلايا والخلايا المخفية والصور والكائنات الرسومية الأخرى من صف المصدر إلى صف الوجهة.
+توفر Aspose.Cells طريقة copyRow من فئة Cells. تقوم هذه الطريقة بنسخ جميع أنواع البيانات بما في ذلك الصيغ والقيم والتعليقات وتنسيقات الخلية والخلايا المخفية والصور وغيرها من الكائنات الرسومية الأخرى من الصف المصدر إلى الصف الوجهة.
 
 تأخذ طريقة copyRow المعلمات التالية:
 
-- الكائن المصدر Cells ،
-- فهرس صف المصدر و
-- فهرس صف الوجهة.
+- كائن الـCells المصدر،
+- فهرس الصف المصدر، و
+- فهرس الصف الوجهة.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def copy_rows(self):
 
@@ -42,35 +43,35 @@ print "Copy Rows Successfully."
 
 {{< /highlight >}}
 ### **نسخ الأعمدة**
-يوفر Aspose.Cells طريقة copyColumn لفئة Cells ، وتقوم هذه الطريقة بنسخ جميع أنواع البيانات ، بما في ذلك الصيغ - مع المراجع المحدثة - والقيم والتعليقات وتنسيقات الخلايا والخلايا المخفية والصور وكائنات الرسم الأخرى من العمود المصدر إلى العمود الوجهة.
+توفر Aspose.Cells طريقة copyColumn من فئة Cells، هذه الطريقة تقوم بنسخ جميع أنواع البيانات بما في ذلك الصيغ - بالمراجع المحدثة - والقيم والتعليقات وتنسيقات الخلية والخلايا المخفية والصور وغيرها من الكائنات الرسومية الأخرى من العمود المصدر إلى العمود الوجهة.
 
 تأخذ طريقة copyColumn المعلمات التالية:
 
-- الكائن المصدر Cells ،
-- فهرس عمود المصدر و
-- فهرس عمود الوجهة.
+- كائن الـCells المصدر،
+- فهرس العمود المصدر، و
+- فهرس العمود الوجهة.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
 
 
-def copy_columns (ذاتي):
+def copy_columns(self):
 
-\ # إنشاء كائن مصنف بواسطة مسار ملف Excel
+\# Instantiating a Workbook object by excel file path
 
-المصنف = self.Workbook ()
+workbook = self.Workbook()
 
-\ # الوصول إلى ورقة العمل الأولى في ملف Excel
+\# Accessing the first worksheet in the Excel file
 
-ورقة العمل = workbook.getWorksheets (). get (0)
+worksheet = workbook.getWorksheets().get(0)
 
-\ # ضع بعض البيانات في صفوف الرأس (A1: A4)
+\# Put some data into header rows (A1:A4)
 
-أنا = 0
+i = 0
 
- عندما أنا< 5:
+while i < 5:
 
 worksheet.getCells().get(i, 0).setValue("Header Row #i")
 
@@ -112,7 +113,7 @@ workbook.save(self.dataDir + "Copy Columns.xls")
 print "Copy Columns Successfully." 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**نسخ الصفوف والأعمدة (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **نسخ الصفوف والأعمدة (Aspose.Cells)** من أحد المواقع الاجتماعية التالية:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

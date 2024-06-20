@@ -1,18 +1,19 @@
-﻿---
-title: リビジョン XLSB を XLSM に変換
+---
+title: XLSBのリビジョンをXLSMに変換する
 type: docs
 weight: 290
 url: /ja/net/convert-revision-of-xlsb-to-xlsm/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells は、XLSB ファイルのリビジョンを XLSM ファイルに完全に変換できるようになりました。リビジョンはパス \xl\revisions 内にあります。 XLSB ファイル拡張子を ZIP に変更すると、それらを表示できます。 \xl\revisions パスには、.bin 拡張子で終わるファイルが含まれています。
+Aspose.Cellsでは、XLSBファイルのリビジョンを完全にXLSMファイルに変換する機能をサポートしています。リビジョンはパス\xl\revisions内にあります。XLSBファイルの拡張子をZIPに変更することで表示できます。\xl\revisionsパスには.bin拡張子で終わるファイルが含まれます。
 
-Aspose.Cells を使用して XLSB ファイルを XLSM ファイルに変換すると、これら 2 つのスクリーンショットに示すように、これらの .bin ファイルは .xml ファイルに正常に変換されます。
+Aspose.Cellsを使用してXLSBファイルをXLSMフォーマットに変換すると、これらの.binファイルが2つのスクリーンショットで示すように、.xmlファイルに正常に変換されます。
 
 {{% /alert %}} 
 
-次のコード サンプルは、Aspose.Cells を使用して XLSB ファイルを XLSM 形式に変換する方法を示しています。
+以下のコードサンプルでは、Aspose.Cellsを使用してXLSBファイルをXLSM形式に変換する方法を示しています。
 
 
 

@@ -1,7 +1,8 @@
-﻿---
-title: Tablo öğesini oluşturmak için Sıralama özelliği ekleyin
+---
+title: Tablo öğesi için Sıralama özelliği ekleme
 type: docs
 weight: 130
 url: /tr/reportingservices/add-sorting-feature-for-rendering-table-item/
 ---
-Aspose.Cells for Reporting Services, dışa aktarılan Excel dosyası için tablo öğesi verilerini, Aspose.Cells Raporlama Hizmetleri yapılandırma dosyasındaki tablo sıralama yapılandırması ekle aracılığıyla sıralar.
+
+Aspose.Cells for Reporting Services, Aspose.Cells Raporlama Hizmetleri yapılandırma dosyasına tablo sıralama yapılandırmasını ekleyerek dışa aktarılan Excel dosyası için tablo öğesi verilerini sıralar.

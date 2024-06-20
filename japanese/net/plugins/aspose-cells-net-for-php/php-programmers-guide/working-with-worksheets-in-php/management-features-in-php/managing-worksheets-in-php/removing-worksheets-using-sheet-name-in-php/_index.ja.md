@@ -1,15 +1,16 @@
-﻿---
-title: PHP でシート名を使用してワークシートを削除する
+---
+title: PHPでシート名を使用してワークシートを削除
 type: docs
 weight: 40
 url: /ja/net/removing-worksheets-using-sheet-name-in-php/
 ---
-## **シート名を使用してワークシートを削除する**
-シート名を使用してワークシートを削除する
 
-**PHP コード**
+## **シート名を使用してワークシートを削除**
+シート名を使用してワークシートを削除
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -32,7 +33,7 @@ url: /ja/net/removing-worksheets-using-sheet-name-in-php/
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**シート名を使用してワークシートを削除する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+**シート名を使用してワークシートを削除（Aspose.Cells）**を以下のソーシャルコーディングサイトからダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetName.php)

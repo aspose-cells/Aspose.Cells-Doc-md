@@ -1,22 +1,23 @@
-﻿---
-title: Hesap Tablosu Düzenleyicisi - İşlevlerle Çalışma
+---
+title: Elektronik Tablo Düzenleyici  Fonksiyonlarla Çalışma
 type: docs
 weight: 60
 url: /tr/java/spreadsheet-editor-working-with-functions/
 ---
+
 **İçindekiler**
 
-- [Formül çubuğu](#SpreadsheetEditor-WorkingwithFunctions-FormulaBar) 
- - saveFormulaBarContents
-- [Bir İşlev Ekle](#SpreadsheetEditor-WorkingwithFunctions-InsertaFunction)
-### **Formül çubuğu**
-Formül çubuğu, sayfa alanının üstündeki bir metin kutusudur. Geçerli hücrenin formülünü görüntüler ve kullanıcının düzenlemesine izin verir.
+- [Formül Çubuğu](#SpreadsheetEditor-WorkingwithFunctions-FormulaBar) 
+  - saveFormulaBarContents
+- [Bir Fonksiyon veya Formül Ekleme](#SpreadsheetEditor-WorkingwithFunctions-InsertaFunction)
+### **Formül Çubuğu**
+Formül çubuğu, sayfa alanının üstünde bulunan bir metin kutusudur. Mevcut hücrenin formülünü gösterir ve kullanıcıya düzenleme yapma imkanı tanır.
 
 **Nasıl çalışır?**
 
- Bir hücre seçildiğinde, formül çubuğu hücre ile senkronize edilir ve formül görüntülenir. Kullanıcının düzenleme yapmasına izin verilir. Kullanıcı düzenleyip enter tuşuna bastığında, JavaScript işlevi**saveFormulaBarContents** Idam edildi
+Bir hücre seçildiğinde formül çubuğu senkronize edilir ve formül gösterilir. Kullanıcı düzenleme izni verilir. Kullanıcı düzenleme yapar ve enter tuşuna basarsa, JavaScript fonksiyonu olan **saveFormulaBarContents** çalıştırılır.
 #### **saveFormulaBarContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  function saveFormulaBarContents() {
 
@@ -31,9 +32,9 @@ Formül çubuğu, sayfa alanının üstündeki bir metin kutusudur. Geçerli hü
 }
 
 {{< /highlight >}}
-### **Bir İşlev Ekle**
+### **Bir Fonksiyon veya Formül Ekleme**
 Bir işlev veya formül eklemek için:
 
-1. Seçmek için bir hücreye tıklayın.
-1.  Tıklamak**İşlev Ekle** üstteki düğme.
-1.  adresindeki talimatları izleyin.**İşlev Ekle** diyalog
+1. Bir hücreyi seçmek için tıklayın.
+1. Üst kısımdaki **Fonksiyon Ekle** düğmesine tıklayın.
+1. **Fonksiyon Ekle** iletişim kutusundaki talimatları izleyin.

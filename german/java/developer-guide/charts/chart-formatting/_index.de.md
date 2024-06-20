@@ -1,232 +1,233 @@
-﻿---
+---
 title: Diagrammformatierung
 type: docs
 weight: 20
 url: /de/java/chart-formatting/
 ---
-## **Darstellung des Diagramms einstellen**
 
- In[Diagrammtypen](/cells/de/java/chart-types/)gaben wir eine kurze Einführung in die Arten von Diagrammen und Diagrammobjekten, die von Aspose.Cells angeboten werden.
+## **Diagrammaussehen festlegen**
 
-In diesem Artikel besprechen wir, wie Sie das Erscheinungsbild von Diagrammen anpassen können, indem Sie eine Reihe verschiedener Eigenschaften festlegen:
+In den [Diagrammtypen](/cells/de/java/chart-types/) haben wir eine kurze Einführung in die Arten von Diagrammen und Diagrammobjekten von Aspose.Cells gegeben.
 
-- [Einstellen des Diagrammbereichs](/cells/de/java/chart-formatting/#setting-chart-area).
-- [Diagrammlinien setzen](/cells/de/java/chart-formatting/#setting-chart-lines).
+In diesem Artikel diskutieren wir, wie man das Aussehen von Diagrammen anpasst, indem man eine Reihe unterschiedlicher Eigenschaften setzt:
+
+- [Festlegen des Diagrammbereichs](/cells/de/java/chart-formatting/#setting-chart-area).
+- [Festlegen der Diagrammlinien](/cells/de/java/chart-formatting/#setting-chart-lines).
 - [Themen anwenden](/cells/de/java/chart-formatting/#applying-microsoft-excel-20072010-themes-to-charts).
-- [Titel für Diagramme und Achsen festlegen](/cells/de/java/chart-formatting/#setting-the-titles-of-charts-or-axes).
-- [Arbeiten mit Gitterlinien](/cells/de/java/chart-formatting/#setting-major-gridlines).
-- [Randeinfassungen für Rück- und Seitenwände setzen](/cells/de/java/chart-formatting/#setting-borders-for-back-and-side-walls).
+- [Titel für Diagramme und Achsen festlegen](/cells/de/java/chart-formatting/#titel-von-diagrammen-oder-achsen-festlegen).
+- [Arbeiten mit Gitterlinien](/cells/de/java/chart-formatting/#festlegen-der-hauptgitterlinien).
+- [Rahmen für Hinter- und Seitenwände festlegen](/cells/de/java/chart-formatting/#festlegen-von-rahmen-für-hinter-und-seitenwände).
 
 ### **Diagrammbereich einstellen**
 
-Es gibt verschiedene Arten von Bereichen in einem Diagramm und Aspose.Cells bietet die Flexibilität, das Erscheinungsbild jedes Bereichs zu ändern. Entwickler können verschiedene Formatierungseinstellungen auf einen Bereich anwenden, indem sie dessen Vordergrundfarbe, Hintergrundfarbe und Füllformat usw. ändern.
+Es gibt verschiedene Arten von Bereichen in einem Diagramm und Aspose.Cells bietet die Flexibilität, das Erscheinungsbild jedes Bereichs zu ändern. Entwickler können verschiedene Formatierungseinstellungen auf einen Bereich anwenden, indem sie die Vordergrundfarbe, Hintergrundfarbe und Füllformat usw. ändern.
 
-In dem unten angegebenen Beispiel haben wir verschiedene Formatierungseinstellungen auf verschiedene Arten von Bereichen eines Diagramms angewendet. Zu diesen Bereichen gehören:
+Im untenstehenden Beispiel haben wir verschiedene Formatierungseinstellungen auf verschiedene Arten von Bereichen eines Diagramms angewendet. Diese Bereiche umfassen:
 
-- Grundstücksfläche
+- Plot-Bereich
 - Diagrammbereich
-- [**SerieSammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) Bereich
-- Die Fläche eines einzelnen Punktes in einer[**SerieSammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
+- [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) Bereich
+- Der Bereich eines einzigen Punktes in einem [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
 
-Nach dem Ausführen des Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm hinzugefügt, wie unten gezeigt:
+Nach dem Ausführen des Beispielcodes wird ein Säulendiagramm wie unten gezeigt zum Arbeitsblatt hinzugefügt:
 
 **Ein Säulendiagramm mit gefüllten Bereichen** 
 
-![todo: Bild_alt_Text](chart-formatting_1.png)
+![todo:image_alt_text](chart-formatting_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartArea-SettingChartArea.java" >}}
 
-### **Diagrammlinien festlegen**
+### **Einstellen von Diagramm Linien**
 
- Entwickler können auch verschiedene Arten von Stilen auf die Linien oder Datenmarkierungen des anwenden[**SerieSammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)wie unten im Beispiel gezeigt. Durch Ausführen des Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm wie unten gezeigt hinzugefügt:
+Entwickler können auch verschiedene Stile auf die Linien oder Datenmarkierungen des [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) anwenden, wie im untenstehenden Beispiel gezeigt. Durch Ausführen des Beispielcodes wird ein Säulendiagramm wie unten gezeigt zum Arbeitsblatt hinzugefügt:
 
-**Säulendiagramm nach dem Anwenden von Linienstilen** 
+**Säulendiagramm nach Anwendung von Linienstilen** 
 
-![todo: Bild_alt_Text](chart-formatting_2.png)
+![todo:image_alt_text](chart-formatting_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartLines-SettingChartLines.java" >}}
 
-### **Anwenden von Microsoft Excel 2007/2010-Designs auf Diagramme**
+### **Anwendung von Microsoft Excel 2007/2010-Themen auf Diagramme**
 
-Entwickler können verschiedene Microsoft Excel-Designs und -Farben auf die anwenden[**SerieSammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)oder andere Diagrammobjekte, wie im Beispiel unten gezeigt.
+Entwickler können verschiedene Microsoft Excel-Themen und -Farben auf das [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) oder andere Diagrammobjekte anwenden, wie im folgenden Beispiel gezeigt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
-### **Festlegen der Titel von Diagrammen oder Achsen**
+### **Einstellen der Titel von Diagrammen oder Achsen**
 
-Sie können Microsoft Excel verwenden, um die Titel eines Diagramms und seine Achsen in einer WYSIWYG-Umgebung festzulegen, wie unten gezeigt.
+Sie können Microsoft Excel verwenden, um die Titel eines Diagramms und seiner Achsen in einer WYSIWYG-Umgebung festzulegen, wie unten gezeigt.
 
-**Festlegen von Titeln eines Diagramms und seiner Achsen mit Microsoft Excel** 
+**Titel eines Diagramms & seiner Achsen mit Microsoft Excel festlegen** 
 
-![todo: Bild_alt_Text](chart-formatting_3.png)
+![todo:image_alt_text](chart-formatting_3.png)
 
- Aspose.Cells ermöglicht es Entwicklern auch, die Titel eines Diagramms und seiner Achsen zur Laufzeit festzulegen. Alle Diagramme und ihre Achsen enthalten a[**Titel.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)Methode, die verwendet werden kann, um ihre Titel festzulegen, wie unten in einem Beispiel gezeigt. Nach dem Ausführen des Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm hinzugefügt, wie unten gezeigt:
+Aspose.Cells ermöglicht Entwicklern auch, die Titel eines Diagramms und seiner Achsen zur Laufzeit festzulegen. Alle Diagramme und ihre Achsen enthalten eine [**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)-Methode, die verwendet werden kann, um ihre Titel wie unten in einem Beispiel gezeigt festzulegen. Nach Ausführung des Beispielcodes wird ein Säulendiagramm wie unten auf dem Arbeitsblatt hinzugefügt:
 
-**Säulendiagramm nach dem Festlegen von Titeln** 
+**Säulendiagramm nach Festlegung der Titel** 
 
-![todo: Bild_alt_Text](chart-formatting_4.png)
+![todo:image_alt_text](chart-formatting_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingTitlesAxes-SettingTitlesAxes.java" >}}
 
-### **Festlegen von Hauptrasterlinien**
+### **Festlegen von Hauptgitterlinien**
 
-#### **Ausblenden wichtiger Gitternetzlinien**
+#### **Ausblenden von Haupt-Gitterlinien**
 
- Entwickler können die Sichtbarkeit wichtiger Gitternetzlinien mithilfe von steuern[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible) Methode der[**Linie**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)Objekt. Nach dem Ausblenden der Hauptgitterlinien sieht ein dem Arbeitsblatt hinzugefügtes Säulendiagramm wie folgt aus:
+Entwickler können die Sichtbarkeit der Hauptgitterlinien mithilfe der [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible)-Methode des [**Line**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)-Objekts steuern. Nach dem Verstecken der Hauptgitterlinien hat ein dem Arbeitsblatt hinzugefügtes Säulendiagramm das folgende Aussehen:
 
-**Ein Säulendiagramm mit ausgeblendeten Hauptgitterlinien** 
+**Ein Säulendiagramm mit versteckten Hauptgitterlinien** 
 
-![todo: Bild_alt_Text](chart-formatting_5.png)
+![todo:image_alt_text](chart-formatting_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-MajorGridlines-1.java" >}}
 
-#### **Ändern der Einstellungen für Hauptgitterlinien**
+#### **Ändern der Einstellungen für Haupt-Gitterlinien**
 
-Entwickler können nicht nur die Sichtbarkeit der Hauptgitterlinien steuern, sondern auch andere Eigenschaften, einschließlich ihrer Farbe usw. Nach dem Festlegen der Farbe der Hauptgitterlinien sieht ein dem Arbeitsblatt hinzugefügtes Säulendiagramm wie folgt aus:
+Entwickler können nicht nur die Sichtbarkeit der Hauptgitterlinien steuern, sondern auch andere Eigenschaften wie deren Farbe usw. festlegen. Nach Festlegen der Farbe der Hauptgitterlinien hat ein dem Arbeitsblatt hinzugefügtes Säulendiagramm das folgende Aussehen:
 
 **Säulendiagramm mit farbigen Hauptgitterlinien** 
 
-![todo: Bild_alt_Text](chart-formatting_6.png)
+![todo:image_alt_text](chart-formatting_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-ChangingMajorGridlines-1.java" >}}
 
-### **Rahmen für Rück- und Seitenwände festlegen**
+### **Festlegen von Rahmen für Rück- und Seitenwände**
 
- Seit der Veröffentlichung von Microsoft Excel 2007 sind die Wände eines 3D-Diagramms in zwei Teile geteilt: Seitenwand und Rückwand, also müssen wir zwei verwenden[**Wände**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) Objekte, um sie separat darzustellen, und Sie können auf sie zugreifen, indem Sie verwenden[**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) und[**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall).
+Seit der Veröffentlichung von Microsoft Excel 2007 wurden die Wände eines 3D-Diagramms in zwei Teile unterteilt: Seitenwand und Rückwand, sodass wir zwei [**Walls**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls)-Objekte verwenden müssen, um sie separat darzustellen, und Sie können darauf zugreifen, indem Sie [**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) und [**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall) verwenden.
 
-Das folgende Beispiel zeigt, wie Sie den Rand der Seitenwand mithilfe verschiedener Attribute festlegen.
+Das unten gezeigte Beispiel zeigt, wie der Rahmen der Seitenwand mithilfe verschiedener Attribute festgelegt wird.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-SettingBorders-1.java" >}}
 
-## **Ändern Sie die Position und Größe des Diagramms**
+## **Ändern der Diagrammposition und -größe**
 
- Manchmal möchten Sie die Position oder Größe des neuen oder vorhandenen Diagramms innerhalb des Arbeitsblatts ändern. Aspose.Cells bietet die[**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)Eigenschaft, dies zu erreichen. Sie können die Untereigenschaften verwenden, um die Größe des Diagramms mit neu zu ändern**Höhe** und**Breite** oder mit new neu positionieren** X** und**Y**-Koordinaten.
+Manchmal möchten Sie die Position oder Größe des neuen oder vorhandenen Diagramms innerhalb des Arbeitsblatts ändern. Aspose.Cells bietet die [**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)-Eigenschaft, um dies zu erreichen. Sie können ihre Unterattribute verwenden, um das Diagramm mit neuer **Höhe** und **Breite** neu zu skalieren oder mit neuen **X**- und **Y**-Koordinaten neu zu positionieren.
 
-### **Position und Größe des Diagramms ändern**
+### **Ändern von Position und Größe des Diagramms**
 
-Um die Position (X-, Y-Koordinaten) und die Größe (Höhe, Breite) des Diagramms zu ändern, verwenden Sie diese Eigenschaften:
+Um die Position (X,Y-Koordinaten) und Größe (Höhe, Breite) des Diagramms zu ändern, verwenden Sie diese Eigenschaften:
 
 1. [**Chart.getChartObject().get/setWidth()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Width)
 1. [**Chart.getChartObject().get/setHeight()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Height)
 1. [**Chart.getChartObject().get/setX()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#X)
 1. [**Chart.getChartObject().get/setY()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Y)
 
-Das folgende Beispiel erläutert die Verwendung der oben genannten Eigenschaften. Es lädt die vorhandene Arbeitsmappe, die ein Diagramm in ihrem ersten Arbeitsblatt enthält. Dann ändert es die Größe und Position des Diagramms und speichert die Arbeitsmappe.
+Das folgende Beispiel erläutert die Verwendung der obigen Eigenschaften. Es lädt die vorhandene Arbeitsmappe, die ein Diagramm in ihrem ersten Arbeitsblatt enthält. Dann ändert es die Größe und Position des Diagramms und speichert die Arbeitsmappe.
 
 Vor der Ausführung des Beispielcodes sieht die Quelldatei so aus:
 
 **Diagrammgröße und -position vor der Ausführung des Beispielcodes** 
 
-![todo: Bild_alt_Text](chart-formatting_7.png)
+![todo:image_alt_text](chart-formatting_7.png)
 
 Nach der Ausführung sieht die Ausgabedatei so aus:
 
-**Diagrammgröße und Position nach der Ausführung des Beispielcodes** 
+**Diagrammgröße und -position nach der Ausführung des Beispielcodes** 
 
-![todo: Bild_alt_Text](chart-formatting_8.png)
+![todo:image_alt_text](chart-formatting_8.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChangeChartPositionAndSize-ChangeChartPositionAndSize.java" >}}
 
-## **Bearbeiten von Designer-Diagrammen**
+## **Manipulation von Designer-Diagrammen**
 
-Es kann vorkommen, dass Sie die Diagramme in Ihren Designer-Vorlagendateien bearbeiten oder ändern müssen. Aspose.Cells unterstützt vollständig die Bearbeitung von Designer-Diagrammen mit ihren Inhalten und Elementen. Die Daten, Diagramminhalte, Hintergrundbilder und Formatierungen können genau beibehalten werden.
+Es gibt Momente, in denen Sie möglicherweise die Diagramme in Ihren Designer-Vorlagendateien manipulieren oder ändern müssen. Aspose.Cells unterstützt vollständig das Manipulieren von Designer-Diagrammen mit ihren Inhalten und Elementen. Die Daten, Diagramminhalte, Hintergrundbild und Formatierung können mit Genauigkeit beibehalten werden.
 
-### **Bearbeiten von Designer-Diagrammen in den Vorlagendateien**
+### **Manipulation von Designer-Diagrammen in den Vorlagendateien**
 
- Verwenden Sie zum Bearbeiten von Designerdiagrammen in einer Vorlagendatei alle diagrammbezogenen API-Aufrufe. Verwenden Sie zum Beispiel[**Arbeitsblatt.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts) -Eigenschaft, um die vorhandene Diagrammsammlung in der Vorlagendatei abzurufen.
+Verwenden Sie zum Manipulieren von Designer-Diagrammen in einer Vorlagendatei alle diagrammspezifischen API-Aufrufe. Verwenden Sie beispielsweise die [**Worksheet.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts)-Eigenschaft, um die vorhandene Diagrammsammlung in der Vorlagendatei zu erhalten.
 
 #### **Erstellen eines Diagramms**
 
-Das folgende Beispiel zeigt, wie Sie ein Kreisdiagramm erstellen. Wir werden dieses Diagramm später manipulieren. Die folgende Ausgabe wird vom Code generiert.
+Das folgende Beispiel zeigt, wie man ein Tortendiagramm erstellt. Später werden wir dieses Diagramm manipulieren. Die folgende Ausgabe wird vom Code generiert.
 
-**Das Eingabe-Kreisdiagramm** 
+**Das Eingabe-Tortendiagramm** 
 
-![todo: Bild_alt_Text](chart-formatting_9.png)
+![todo:image_alt_text](chart-formatting_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
 #### **Manipulation des Diagramms**
 
-Das folgende Beispiel zeigt, wie das vorhandene Diagramm bearbeitet wird. In diesem Beispiel ändern wir das oben erstellte Diagramm. Die folgende Ausgabe wird vom Code generiert. Beachten Sie, dass sich die Farbe des Diagrammtitels von Blau zu Schwarz geändert hat und „England 30000“ in „Vereinigtes Königreich, 30K“ geändert wurde.
+Das folgende Beispiel zeigt, wie man das vorhandene Diagramm manipuliert. In diesem Beispiel modifizieren wir das oben erstellte Diagramm. Die folgende Ausgabe wird vom Code generiert. Beachten Sie, dass die Farbe des Diagrammtitels von blau auf schwarz geändert wurde und 'England 30000' zu 'Vereinigtes Königreich, 30K' geändert wurde.
 
 **Das Tortendiagramm wurde geändert** 
 
-![todo: Bild_alt_Text](chart-formatting_10.png)
+![todo:image_alt_text](chart-formatting_10.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyPieChart-ModifyPieChart.java" >}}
 
-#### **Bearbeiten eines Liniendiagramms in der Designer-Vorlage**
+#### **Manipulation eines Liniendiagramms in der Designer-Vorlage**
 
-In diesem Beispiel bearbeiten wir ein Liniendiagramm. Wir werden dem bestehenden Diagramm einige Datenreihen hinzufügen und ihre Linienfarben ändern.
+In diesem Beispiel werden wir ein Liniendiagramm manipulieren. Wir werden einige Datenreihen zu dem vorhandenen Diagramm hinzufügen und deren Linienfarben ändern.
 
-Werfen Sie zunächst einen Blick auf das Designer-Liniendiagramm.
+Sehen Sie sich zunächst das Designer-Liniendiagramm an.
 
-**Das Eingabeliniendiagramm** 
+**Das Eingabe-Liniendiagramm** 
 
-![todo: Bild_alt_Text](chart-formatting_11.png)
+![todo:image_alt_text](chart-formatting_11.png)
 
- Nun manipulieren wir das Liniendiagramm (das in der**Liniendiagramm.xls** Datei) mit dem folgenden Code. Die folgende Ausgabe wird vom Code generiert.
+Nun manipulieren wir das Liniendiagramm (das in der Datei **linechart.xls** enthalten ist) mit dem folgenden Code. Die folgende Ausgabe wird vom Code generiert.
 
-**Das manipulierte Liniendiagramm** 
+**Die manipulierte Liniendiagramm** 
 
-![todo: Bild_alt_Text](chart-formatting_12.png)
+![todo:image_alt_text](chart-formatting_12.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyLineChart-ModifyLineChart.java" >}}
 
 ## **Verwendung von Sparklines**
 
-Microsoft Excel 2010 kann Informationen auf mehr Arten als je zuvor analysieren. Es ermöglicht Benutzern, wichtige Datentrends mit neuen Datenanalyse- und Visualisierungstools zu verfolgen und hervorzuheben. Sparklines sind Minidiagramme, die Sie in Zellen platzieren können, sodass Sie Daten und Diagramme in derselben Tabelle anzeigen können. Wenn Sparklines richtig eingesetzt werden, ist die Datenanalyse schneller und präziser. Sie bieten auch eine einfache Ansicht von Informationen und vermeiden überfüllte Arbeitsblätter mit vielen geschäftigen Diagrammen.
+Microsoft Excel 2010 kann Informationen auf vielfältige Weise analysieren. Es ermöglicht Benutzern, wichtige Datentrends mit neuen Datenanalyse- und Visualisierungstools nachzuverfolgen und hervorzuheben. Sparklines sind Mini-Diagramme, die Sie innerhalb von Zellen platzieren können, um Daten und Diagramme in derselben Tabelle anzuzeigen. Wenn Sparklines richtig verwendet werden, ist die Datenanalyse schneller und präziser. Sie bieten auch einen einfachen Überblick über Informationen, vermeiden überfüllte Arbeitsblätter mit vielen belebten Diagrammen.
 
-Aspose.Cells bietet ein API zum Bearbeiten von Sparklines in Tabellenkalkulationen.
+Aspose.Cells bietet eine API zur Manipulation von Sparklines in Tabellenkalkulationen.
 
 ### **Sparklines in Microsoft Excel**
 
-So fügen Sie Sparklines in Microsoft Excel 2010 ein:
+Um Sparklines in Microsoft Excel 2010 einzufügen:
 
-1. Wählen Sie die Zellen aus, in denen die Sparklines erscheinen sollen. Um sie einfacher anzuzeigen, wählen Sie Zellen neben den Daten aus.
-1.  Klicken**Einfügung** auf dem Band und wählen Sie dann**Säule** in dem**Sparklines** Gruppe.
+1. Wählen Sie die Zellen aus, in denen die Sparklines erscheinen sollen. Um sie leicht zu sehen, wählen Sie Zellen neben den Daten aus.
+1. Klicken Sie auf **Einfügen** im Menüband und wählen Sie dann **Spalte** in der Gruppe **Sparklines** aus.
 
-![todo: Bild_alt_Text](chart-formatting_13.png)
+![todo:image_alt_text](chart-formatting_13.png)
 
-1. Wählen Sie den Zellbereich im Arbeitsblatt aus, der die Quelldaten enthält, oder geben Sie ihn ein.
- Die Diagramme werden angezeigt.
+1. Wählen Sie den Bereich von Zellen im Arbeitsblatt aus, der die Datenquelle enthält.
+   Die Diagramme erscheinen.
 
-Sparklines helfen Ihnen beispielsweise dabei, Trends oder die Gewinn- oder Verlustbilanz einer Softball-Liga zu erkennen. Sparklines kann sogar die gesamte Saison jedes Teams in der Liga zusammenfassen.
+Sparklines helfen dabei, Trends zu erkennen, beispielsweise den Sieg oder die Niederlage eines Softball-Teams. Sparklines können sogar die gesamte Saison jedes Teams in der Liga zusammenfassen.
 
-![todo: Bild_alt_Text](chart-formatting_14.png)
+![todo:image_alt_text](chart-formatting_14.png)
 
-### **Sparklines mit Aspose.Cells**
+### **Sparklines mit Aspose.Cells verwenden**
 
-Entwickler können Sparklines (in der Vorlagendatei) mit dem von Aspose.Cells bereitgestellten API erstellen, löschen oder lesen. Durch Hinzufügen benutzerdefinierter Grafiken für einen bestimmten Datenbereich haben Entwickler die Freiheit, verschiedene Arten von winzigen Diagrammen zu ausgewählten Zellbereichen hinzuzufügen.
+Entwickler können mithilfe der bereitgestellten API von Aspose.Cells Sparklines in Tabellenkalkulationen erstellen, löschen oder lesen. Indem benutzerdefinierte Grafiken für einen bestimmten Datenbereich hinzugefügt werden, haben Entwickler die Möglichkeit, verschiedene Arten von Mini-Diagrammen in ausgewählten Zellbereichen hinzuzufügen.
 
-Das folgende Beispiel zeigt die Sparklines-Funktion. Das Beispiel zeigt, wie Sie:
+Das folgende Beispiel zeigt die Sparklines-Funktion. Das Beispiel zeigt, wie man:
 
-1. Öffnen Sie eine einfache Vorlagendatei.
+1. Eine einfache Vorlagendatei öffnen.
 1. Sparklines-Informationen für ein Arbeitsblatt lesen.
-1. Fügen Sie einem Zellbereich neue Sparklines für einen bestimmten Datenbereich hinzu.
+1. Neue Sparklines für einen bestimmten Datenbereich zu einem Zellbereich hinzufügen.
 1. Speichert die Excel-Datei auf der Festplatte.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-UsingSparklines-UsingSparklines.java" >}}
 
-## **Anwenden des 3D-Formats auf das Diagramm**
+## **Anwendung von 3D-Format auf Diagramm**
 
-Möglicherweise benötigen Sie 3D-Diagrammstile, damit Sie genau die Ergebnisse für Ihr Szenario erhalten. Aspose.Cells-APIs stellen die relevanten API bereit, um die Microsoft Excel 2007-3D-Formatierung anzuwenden, wie in diesem Artikel gezeigt.
+Es können 3D-Diagrammstile erforderlich sein, um genau die Ergebnisse für Ihr Szenario zu erhalten. Aspose.Cells APIs bieten die entsprechende API zur Anwendung von Microsoft Excel 2007 3D-Formatierung, wie in diesem Artikel gezeigt.
 
-### **Einstellen des 3D-Formats auf Diagramm**
+### **Einstellung 3D-Format für Diagramm**
 
-Nachfolgend finden Sie ein vollständiges Beispiel, um zu demonstrieren, wie Sie ein Diagramm erstellen und die Microsoft Excel 2007 3D-Formatierung anwenden. Nach dem Ausführen des obigen Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm (mit 3D-Effekten) hinzugefügt, wie unten gezeigt.
+Ein vollständiges Beispiel ist unten gegeben, um zu zeigen, wie man ein Diagramm erstellt und das 3D-Format von Microsoft Excel 2007 anwendet. Nach Ausführen des obigen Beispielcodes wird ein Säulendiagramm (mit 3D-Effekten) wie unten gezeigt zum Arbeitsblatt hinzugefügt.
 
 **Ein Säulendiagramm mit 3D-Formatierung**
 
-![todo: Bild_alt_Text](chart-formatting_15.png)
+![todo:image_alt_text](chart-formatting_15.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-Applying3DFormat-Applying3DFormat.java" >}}
 
 {{% alert color="primary" %}}
 
- Eine vollständige Liste der unterstützten 2D- und 3D-Diagramme finden Sie unter[Unterstützte Diagrammtypen für das Rendern](/cells/de/java/chart-rendering/#supported-chart-types-for-rendering).
+Für eine vollständige Liste der unterstützten 2D- und 3D-Diagramme siehe [Unterstützte Diagrammtypen für die Darstellung](/cells/de/java/chart-rendering/#supported-chart-types-for-rendering).
 
 {{% /alert %}}
 
-## **Themen vorantreiben**
-- [Bild als Hintergrund festlegen Füllen Sie das Diagramm aus](/cells/de/java/set-picture-as-background-fill-in-the-chart/)
+## **Erweiterte Themen**
+- [Bild als Hintergrundfüllung im Diagramm festlegen](/cells/de/java/set-picture-as-background-fill-in-the-chart/)

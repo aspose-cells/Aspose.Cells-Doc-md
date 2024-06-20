@@ -1,153 +1,154 @@
 ---
-title: Utilizzo degli indicatori intelligenti
+title: Utilizzo degli Smart Markers
 type: docs
 weight: 40
 url: /it/java/using-smart-markers/
 ---
-##  **introduzione**
+
+## **Introduzione**
 
 {{% alert color="primary" %}}
 
-**Marcatori intelligenti** vengono utilizzati per far sapere a Aspose.Cells quali informazioni inserire in un file Excel Microsoft[foglio di calcolo del progettista](/cells/it/java/what-is-a-designer-spreadsheet/). I marcatori intelligenti ti consentono di creare modelli che contengono solo informazioni e formattazioni rilevanti.
+**Gli smart marker** vengono utilizzati per far sapere ad Aspose.Cells quale informazione inserire in un [foglio di calcolo del designer](/cells/it/java/what-is-a-designer-spreadsheet/) di Microsoft Excel. Gli smart marker ti consentono di creare modelli che contengono solo informazioni rilevanti e formattazione.
 
 {{% /alert %}}
 
-##  **Foglio di calcolo del designer e pennarelli intelligenti**
+## **Foglio di calcolo di progettazione e Marcatori intelligenti**
 
-I fogli di calcolo di Designer sono file Excel standard che contengono formattazione visiva, formule e indicatori intelligenti. Possono contenere indicatori intelligenti che fanno riferimento a una o più origini dati, ad esempio informazioni da un progetto e informazioni per i contatti correlati. Gli indicatori intelligenti vengono scritti nelle celle in cui desideri informazioni.
+I fogli di calcolo del designer sono file Excel standard che contengono formattazione visiva, formule e smart marker. Possono contenere smart marker che fanno riferimento a una o più origini dati, come informazioni di un progetto e informazioni per contatti correlati. Gli smart marker vengono scritti nelle celle in cui desideri le informazioni.
 
-Tutti gli indicatori intelligenti iniziano con &=. Un esempio di indicatore di dati è &=Party.FullName. Se l'indicatore dati restituisce più di un elemento, ad esempio una riga completa, le righe successive vengono spostate automaticamente verso il basso per fare spazio alle nuove informazioni. Pertanto i totali parziali e i totali possono essere posizionati sulla riga immediatamente dopo l'indicatore dei dati per effettuare calcoli basati sui dati inseriti. Per effettuare calcoli sulle righe inserite, utilizzare[formule dinamiche](/cells/it/java/using-smart-markers/#dynamic-formulas).
+Tutti gli smart marker iniziano con &=. Un esempio di marcatore di dati è &=Party.FullName. Se il marcatore di dati produce più di un elemento, ad esempio una riga completa, le righe seguenti vengono spostate automaticamente per fare spazio alle nuove informazioni. Così i subtotali e i totali possono essere inseriti nella riga immediatamente dopo il marcatore di dati per effettuare calcoli basati sui dati inseriti. Per effettuare calcoli sulle righe inserite, utilizza le [formule dinamiche](/cells/it/java/using-smart-markers/#dynamic-formulas).
 
- I marcatori intelligenti sono costituiti da**fonte di dati** E**nome del campo** parti per la maggior parte delle informazioni. Informazioni speciali possono anche essere passate con variabili e array di variabili. Le variabili riempiono sempre solo una cella mentre gli array di variabili possono riempirne diverse. Utilizzare solo un indicatore di dati per cella. I marcatori intelligenti non utilizzati vengono rimossi.
+I marker smart consistono principalmente nelle parti **origine dei dati** e **nome del campo** per la maggior parte delle informazioni. Informazioni speciali possono anche essere passate con variabili e array di variabili. Le variabili riempiono sempre solo una cella, mentre gli array di variabili possono riempire diverse celle. Utilizzare solo un marker dati per cella. I marker smart non utilizzati vengono rimossi.
 
-Un marcatore intelligente può contenere anche parametri. I parametri consentono di modificare la modalità di presentazione delle informazioni. Vengono aggiunti alla fine dell'indicatore intelligente tra parentesi come elenco separato da virgole.
+Un marcatore intelligente può anche contenere parametri. I parametri ti consentono di modificare la disposizione delle informazioni. Vengono aggiunti alla fine del marcatore intelligente tra parentesi come elenco separato da virgole.
 
-###  **Opzioni marcatore intelligente**
+### **Opzioni del Marker Smart**
 
-&=Originedati.NomeCampo
-&=[Origine dati].[Nome campo]
+&=OrigineDati.NomeCampo
+&=[Origine Dati].[Nome Campo]
 &=$NomeVariabile
-&=$ArrayVariabile
-&==Formula dinamica
+&=$ArrayVariabili
+&==FormulaDinamica
 &=&=RipetiFormulaDinamica
 
-###  **Parametri**
+### **Parametri**
 
-Sono ammessi i seguenti parametri:
+Sono consentiti i seguenti parametri:
 
-- **non aggiungere** - Non aggiungere righe aggiuntive per adattare i dati.
-- **salta: n** - Salta n numero di righe per ogni riga di dati.
-- *ascendente:n o discendente:n - Ordina i dati negli indicatori intelligenti. Se n è 1, allora la colonna è la prima chiave del sorter. I dati vengono ordinati dopo l'elaborazione dell'origine dati. Ad esempio: &=Tabella1.Campo3(ascendente:1).
-- **orizzontale** - Scrivi i dati da sinistra a destra, anziché dall'alto verso il basso.
-- **numerico** - Converti il testo in numero, se possibile.
-- **spostare** - Sposta verso il basso o verso destra, creando righe o colonne aggiuntive per adattare i dati. Il parametro di spostamento funziona allo stesso modo di Microsoft Excel. Ad esempio in Microsoft Excel, quando selezioni un intervallo di celle, fai clic con il pulsante destro del mouse e seleziona**Inserire** e specificare**sposta le celle verso il basso**, **sposta le celle verso destra** e altre opzioni. In breve, il parametro di spostamento svolge la stessa funzione per i marcatori intelligenti verticali/normali (dall'alto verso il basso) o orizzontali (da sinistra a destra).
-- **fagiolo** - Indica che l'origine dati è un semplice POJO. Supportato solo nello Java API.
+- **noadd** - Non aggiungere righe aggiuntive per adattare i dati.
+- **skip:n** - Ignora n numero di righe per ogni riga di dati.
+- *ascendente:n o discendente:n - Ordina i dati negli smart marker. Se n è 1, allora la colonna è la prima chiave del sorter. I dati sono ordinati dopo il trattamento dell'origine dati. Ad esempio: &=Tabella1.Campo3(ascendente:1).
+- **orizzontale** - Scrivi i dati da sinistra a destra, invece che dall'alto verso il basso.
+- **numerico** - Converti il testo in numero se possibile.
+- **spostamento** - Sposta verso il basso o a destra, creando righe o colonne aggiuntive per adattare i dati. Il parametro di spostamento funziona allo stesso modo di Microsoft Excel. Ad esempio in Microsoft Excel, quando selezioni un intervallo di celle, fai clic con il pulsante destro del mouse e selezioni **Inserisci** e specifica **sposta le celle in basso**, **sposta le celle a destra** e altre opzioni. In breve, il parametro di spostamento svolge la stessa funzione per gli smart marker verticali/normale (dall'alto in basso) o orizzontali (da sinistra a destra).
+- **bean** - Indica che l'origine dati è un semplice POJO. Supportato solo nell'API Java.
 
-I parametri noadd e skip possono essere combinati per inserire dati su righe alternate. Poiché il modello viene elaborato dal basso verso l'alto, è necessario aggiungere noadd alla prima riga per evitare che vengano inserite righe aggiuntive prima della riga alternativa.
+I parametri noadd e skip possono essere combinati per inserire dati su righe alternate. Poiché il modello viene elaborato dall'alto verso il basso, dovresti aggiungere noadd sulla prima riga per evitare che siano inserite righe aggiuntive prima della riga alternata.
 
-Se disponi di più parametri, separali con una virgola, ma senza spazi: parametroA,parametroB,parametroC
+Se hai più parametri, separali con una virgola, ma senza spazi: parametroA,parametroB,parametroC
 
-Le schermate seguenti mostrano come inserire dati su ogni altra riga.
+Le seguenti schermate mostrano come inserire dati ogni altra riga
 
-![cose da fare:immagine_alt_testo](using-smart-markers_1.png)
+![todo:image_alt_text](using-smart-markers_1.png)
 
 **diventa...**
 
-![cose da fare:immagine_alt_testo](using-smart-markers_2.png)
+![todo:image_alt_text](using-smart-markers_2.png)
 
-###  **Formule dinamiche**
+### **Formule dinamiche**
 
-Le formule dinamiche consentono di inserire formule Excel nelle celle anche quando la formula fa riferimento a righe che verranno inserite durante il processo di esportazione. Le formule dinamiche possono ripetersi per ogni riga inserita o utilizzare solo la cella in cui è posizionato l'indicatore dati.
+Le formule dinamiche ti consentono di inserire formule Excel nelle celle anche quando la formula fa riferimento a righe che saranno inserite durante il processo di esportazione. Le formule dinamiche possono ripetersi per ogni riga inserita o utilizzare solo la cella in cui è posizionato il marcatore dei dati
 
 Le formule dinamiche consentono le seguenti opzioni aggiuntive:
 
-- r - Numero della riga corrente.
-- 2, -1 - Offset al numero di riga corrente.
+- r - Numero di riga attuale
+- 2, -1 - Offset al numero di riga attuale
 
-Di seguito viene illustrata una formula dinamica ripetuta e il foglio di lavoro Excel risultante.
+Il seguente illustra una formula dinamica ripetitiva e il foglio di calcolo di Excel risultante.
 
-![cose da fare:immagine_alt_testo](using-smart-markers_3.png)
+![todo:image_alt_text](using-smart-markers_3.png)
 
-**diventa…**
+**diventa...**
 
-![cose da fare:immagine_alt_testo](using-smart-markers_4.png)
+![todo:image_alt_text](using-smart-markers_4.png)
 
-Cell C1 contiene la formula =A1*B1, C2 contiene = A2*B2 e C3 = A3*B3.
+La cella C1 contiene la formula =A1*B1, C2 contiene = A2*B2 e C3 = A3*B3.
 
- È molto semplice elaborare i marcatori intelligenti. Il seguente codice di esempio mostra come utilizzare le formule dinamiche negli indicatori intelligenti. Carichiamo il[file modello](templateDynamicFormulas.xlsx) e creare dati di test, elaborare i marcatori per inserire i dati nelle celle rispetto al marcatore.
+È molto semplice elaborare i marcatore intelligenti. Il seguente esempio di codice mostra come utilizzare formule dinamiche nei marcatore intelligenti. Carichiamo il [file del modello](templateDynamicFormulas.xlsx) e creiamo dati di test, elaboriamo i marcatori per riempire i dati nelle celle contro il marcatore 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-DynamicFormulas-DynamicFormulas.java" >}}
 
-##  **Utilizzo di array di variabili**
+## **Utilizzo di Array Variabili**
 
-Il codice di esempio seguente mostra come utilizzare matrici di variabili negli indicatori intelligenti. Inseriamo dinamicamente un marcatore di matrice variabile nella cella A1 del primo foglio di lavoro della cartella di lavoro che contiene una stringa di valori che impostiamo per il marcatore, elaboriamo i marcatori per riempire i dati nelle celle contro il marcatore. Infine, salviamo il file Excel.
+Il seguente esempio di codice mostra come utilizzare matrici variabili negli Smart Marker. Inseriamo un marcatore di matrice variabile nella cella A1 del primo foglio di lavoro del libro dinamicamente che contiene una stringa di valori impostati per il marcatore, elaborare i marcatori per riempire i dati nelle celle contro il marcatore. Infine, salviamo il file Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingVariableArray-UsingVariableArray.java" >}}
 
-##  **Raggruppamento dei dati**
+## **Raggruppamento dei dati**
 
-In alcuni report Excel potrebbe essere necessario suddividere i dati in gruppi per facilitarne la lettura e l'analisi. Uno degli scopi principali della suddivisione dei dati in gruppi è eseguire calcoli (eseguire operazioni di riepilogo) su ciascun gruppo di record.
+In alcuni report Excel potrebbe essere necessario suddividere i dati in gruppi per renderli più facili da leggere e analizzare. Uno dei principali scopi per suddividere i dati in gruppi è eseguire calcoli (eseguire operazioni di riepilogo) su ciascun gruppo di record
 
-Aspose.Cells I marcatori intelligenti consentono di raggruppare i dati per set di campi e posizionare righe di riepilogo tra set di dati o gruppi di dati. Ad esempio, se si raggruppano i dati per Clienti.IDCliente, è possibile aggiungere un record di riepilogo ogni volta che il gruppo cambia.
+Gli smart markers di Aspose.Cells ti consentono di raggruppare i dati per campi impostati e inserire righe di riepilogo tra i gruppi di dati o set di dati. Ad esempio, se raggruppi i dati per Customers.customerID, puoi aggiungere un record di riepilogo ogni volta che cambia il gruppo.
 
-###  **Parametri**
+### **Parametri**
 
-Di seguito sono riportati alcuni parametri dei marcatori intelligenti utilizzati per raggruppare i dati.
+Di seguito alcuni parametri smart marker utilizzati per il raggruppamento dati.
 
-####  **gruppo:normale/unisci/ripeti**
+#### **group:normal/merge/repeat**
 
 Supportiamo tre tipi di gruppo tra cui puoi scegliere.
 
-- **normale** - Il valore del campo(i) raggruppato per non viene ripetuto per i record corrispondenti nella colonna; vengono invece stampati una volta per gruppo di dati.
-- **unire** - Lo stesso comportamento del parametro normale, tranne per il fatto che unisce le celle nel gruppo per campo/i per ciascun gruppo impostato.
-- **ripetere** - Il valore del gruppo per campo(i) viene ripetuto per i record corrispondenti.
+- **normale** - Il valore del campo di raggruppamento non viene ripetuto per i record corrispondenti nella colonna; invece vengono stampati una volta per gruppo di dati.
+- **unire** - Lo stesso comportamento del parametro normale, eccetto che unisce le celle nel campo di raggruppamento per ciascun insieme di gruppi.
+- **ripetere** - Il valore del campo di raggruppamento viene ripetuto per i record corrispondenti.
 
-Ad esempio: &=Clienti.IDCliente(gruppo:unisci)
+Ad esempio: &=Customers.CustomerID(gruppo:unire)
 
-####  **saltare**
+#### **skip**
 
 Salta un numero specifico di righe dopo ciascun gruppo.
 
-Ad esempio &=Dipendenti.IDDipendente(gruppo:normale,salta:1)
+Ad esempio &=Dipendenti.Matricola(group:normal,skip:1)
 
-####  **subtotaleN**
+#### **subtotalN**
 
-Esegue un'operazione di riepilogo per i dati di un campo specificato relativi a un raggruppamento per campo. La N rappresenta i numeri compresi tra 1 e 11 che specificano la funzione utilizzata durante il calcolo dei totali parziali all'interno di un elenco di dati. (1=MEDIA, 2=COUNT, 3=COUNTA, 4=MAX, 5=MIN,...9=SOMMA ecc.) Fare riferimento al riferimento al totale parziale nella guida di Excel Microsoft per ulteriori dettagli.
+Esegue un'operazione di riepilogo per un dato campo relativo a un campo di raggruppamento. La N rappresenta i numeri tra 1 e 11 che specificano la funzione utilizzata nel calcolo dei subtotali all'interno di un elenco di dati. (1=MEDIA, 2=CONTATORE, 3=CONT.VALORI, 4=MASSIMO, 5=MINIMO,...9=SOMMA ecc.) Consultare il riferimento Subtotali nell'aiuto di Microsoft Excel per ulteriori dettagli.
 
-Il formato in realtà afferma come:
-subtotaleN:Rif dove Rif si riferisce al gruppo per colonna.
+Il formato effettivo viene specificato come:
+subtotalN:Rif dove Rif si riferisce alla colonna di raggruppamento.
 
-Per esempio,
+Ad esempio,
 
--  &=Products.Units(subtotal9:Products.ProductID) specifica la funzione di riepilogo su**Unità** campo rispetto a**Codice prodotto** campo nel**Prodotti** tavolo.
--  &=Tabx.Col3(subtotal9:Tabx.Col1) specifica la funzione di riepilogo su**Col3** raggruppamento di campi per**Col1** nella tabella *Tabx**.
--  &=Table1.ColumnD(subtotal9:Table1.ColumnA&Table1.ColumnB) specifica la funzione di riepilogo su**ColonnaD** raggruppamento di campi per**ColonnaA** E**ColonnaB** nella tabella *Tabella1**.
+- &=Products.Units(subtotal9:Products.ProductID) specifica la funzione di riepilogo sul campo **Units** rispetto al campo **ProductID** nella tabella **Products**.
+- &=Tabx.Col3(subtotal9:Tabx.Col1) specifica la funzione di riepilogo sul campo **Col3** raggruppato per **Col1** nella tabella **Tabx**.
+- &=Tabella1.ColonnaD(subtotal9:Tabella1.ColonnaA&Tabella1.ColonnaB) specifica la funzione di riepilogo su **ColonnaD** raggruppata per **ColonnaA** e **ColonnaB** nella tabella **Tabella1**.
 
-##  **Utilizzo di oggetti nidificati**
+## **Utilizzo di Oggetti Annidati**
 
-Aspose.Cells supporta oggetti nidificati nei marcatori intelligenti, gli oggetti nidificati dovrebbero essere semplici.
+Aspose.Cells supporta oggetti nidificati negli smart marker, gli oggetti nidificati dovrebbero essere semplici.
 
-Usiamo un semplice file modello. Consulta il foglio di calcolo del designer che contiene alcuni marcatori intelligenti nidificati.
+Utilizziamo un file di modello semplice. Consultare il foglio di calcolo del designer che contiene alcuni marcatori intelligenti nidificati.
 
-**Il primo foglio di lavoro del file di progettazione che mostra i marcatori intelligenti nidificati.**
+**Il primo foglio di lavoro del file del designer che mostra marcatori intelligenti nidificati.**
 
-![cose da fare:immagine_alt_testo](using-smart-markers_5.png)
+![todo:image_alt_text](using-smart-markers_5.png)
 
-L'esempio che segue mostra come funziona. Eseguendo il codice seguente si ottiene l'output seguente.
+L'esempio che segue mostra come funziona questo. Eseguendo il codice qui sotto si ottiene il risultato qui sotto.
 
 **Il primo foglio di lavoro del file di output che mostra i dati risultanti.**
 
-![cose da fare:immagine_alt_testo](using-smart-markers_6.png)
+![todo:image_alt_text](using-smart-markers_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingNestedObjects-UsingNestedObjects.java" >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-Individual-Individual.java" >}}
 
-##  **Utilizzo dell'elenco generico come oggetto nidificato**
+## **Utilizzo di Lista Generica come Oggetto Annidato**
 
-Aspose.Cells ora supporta anche l'utilizzo di un elenco generico come oggetto nidificato. Controlla lo screenshot del file Excel di output generato con il seguente codice. Come puoi vedere nello screenshot, un oggetto Insegnante contiene più oggetti Studente nidificati.
+Aspose.Cells ora supporta anche l'uso di un elenco generico come un oggetto nidificato. Si prega di controllare la schermata del file excel di output generato con il codice seguente. Come si può vedere nella schermata, un oggetto Teacher contiene più oggetti studenti nidificati.
 
-![cose da fare:immagine_alt_testo](using-smart-markers_7.png)
+![todo:image_alt_text](using-smart-markers_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingGenericList-UsingGenericList.java" >}}
 
@@ -155,16 +156,16 @@ Aspose.Cells ora supporta anche l'utilizzo di un elenco generico come oggetto ni
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-Person-Person.java" >}}
 
-##  **Utilizzando la proprietà HTML degli Smart Markers**
+## **Utilizzo della proprietà HTML di Smart Markers**
 
-Il seguente codice di esempio spiega l'utilizzo della proprietà HTML degli Smart Marker. Quando verrà elaborato, verrà visualizzato "Mondo" in "Hello World" in grassetto a causa di HTML \<b> etichetta.
+The following sample code explains the use of the HTML property of the Smart Markers. When it will be processed, it will show "World" in "Hello World" as bold because of HTML \<b> tag.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingHTMLProperty-UsingHTMLProperty.java" >}}
 
-##  **Ricevere notifiche durante l'unione dei dati con gli indicatori intelligenti**
+## **Ottenere Notifiche durante la Fusione dei Dati con Smart Markers**
 
- A volte, potrebbe essere necessario ricevere notifiche sul riferimento di cella o sul particolare Smart Marker in fase di elaborazione prima del completamento. Ciò può essere ottenuto utilizzando il[**WorkbookDesigner.CallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#CallBack)proprietà e[**ISmartMarkerCallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)
+A volte può essere necessario ricevere le notifiche sul riferimento della cella o sul particolare Smart Marker in elaborazione prima del completamento. Questo può essere ottenuto utilizzando la proprietà [**WorkbookDesigner.CallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#CallBack) e [**ISmartMarkerCallBack**](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)
 
-Per il codice di esempio e la spiegazione dettagliata, vedere questo articolo.
+Per il codice di esempio e spiegazioni dettagliate, si prega di consultare questo articolo.
 
-- [Ricevere notifiche durante l'unione dei dati con gli indicatori intelligenti](/cells/it/java/getting-notifications-while-merging-data-with-smart-markers/)
+- [Ottenere Notifiche durante la Fusione dei Dati con Smart Markers](/cells/it/java/getting-notifications-while-merging-data-with-smart-markers/)

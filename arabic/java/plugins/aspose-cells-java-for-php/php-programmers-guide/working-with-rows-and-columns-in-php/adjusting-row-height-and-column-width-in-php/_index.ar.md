@@ -1,19 +1,20 @@
-﻿---
+---
 title: ضبط ارتفاع الصف وعرض العمود في PHP
 type: docs
 weight: 10
 url: /ar/java/adjusting-row-height-and-column-width-in-php/
 ---
+
 ## **Aspose.Cells - ضبط ارتفاع الصف وعرض العمود**
 ### **ضبط ارتفاع الصف**
-من الممكن ضبط ارتفاع صف واحد عن طريق استدعاء طريقة setRowHeight لمجموعة Cells. تأخذ طريقة setRowHeight المعلمات التالية:
+من الممكن تعيين ارتفاع صف واحد عن طريق استدعاء طريقة setRowHeight لمجموعة Cells. تأخذ طريقة setRowHeight المعلمات التالية:
 
-- **فهرس الصف**، فهرس الصف الذي تقوم بتغيير ارتفاعه.
-- **ارتفاع الصف**، ارتفاع الصف المراد تطبيقه على الصف.
+- **مؤشر الصف**, مؤشر الصف الذي كنت تغير ارتفاعه.
+- **ارتفاع الصف**, ارتفاع الصف المطبق على الصف.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_row_height($dataDir)
 
@@ -43,14 +44,14 @@ url: /ar/java/adjusting-row-height-and-column-width-in-php/
 
 {{< /highlight >}}
 ### **ضبط عرض العمود**
-قم بتعيين عرض العمود عن طريق استدعاء طريقة setColumnWidth للمجموعة Cells. تأخذ طريقة setColumnWidth المعلمات التالية:
+قم بتعيين عرض عمود عن طريق استدعاء طريقة setColumnWidth لمجموعة Cells. تأخذ طريقة setColumnWidth  المعلمات التالية:
 
-- **فهرس العمود**، هو فهرس العمود الذي تقوم بتغيير عرضه.
-- **عرض العمود**، عرض العمود المطلوب.
+- **فهرس العمود**, فهرس العمود الذي تريد تغيير عرضه.
+- **عرض العمود**, العرض المطلوب للعمود.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_column_width($dataDir)
 
@@ -79,7 +80,7 @@ url: /ar/java/adjusting-row-height-and-column-width-in-php/
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**ضبط ارتفاع الصف وعرض العمود (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **ضبط ارتفاع الصف وعرض العمود (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

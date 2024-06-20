@@ -1,15 +1,16 @@
-﻿---
-title: Conversione di file Excel in HTML in Ruby
+---
+title: Convertire file Excel in HTML in Ruby
 type: docs
 weight: 20
 url: /it/java/converting-excel-files-to-html-in-ruby/
 ---
-## **Aspose.Cells - Conversione di file Excel in HTML**
-Per convertire Excel in HTML utilizzando Aspose.Cells for Java in Ruby, è sufficiente richiamare il foglio di lavoro_a_html() del modulo Converter.
 
-**Codice Rubino**
+## **Aspose.Cells - Convertire file Excel in HTML**
+Per convertire Excel in HTML usando Aspose.Cells for Java in Ruby, basta invocare il metodo worksheet_to_html() del modulo Converter.
 
-{{< highlight "ruby" >}}
+**Codice Ruby**
+
+{{< highlight ruby >}}
 
  def worksheet_to_html(workbook)
 
@@ -29,6 +30,6 @@ end 
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Conversione di file Excel in HTML (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Convertire file Excel in HTML (Aspose.Cells)** da uno dei siti di codice sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

@@ -1,14 +1,15 @@
-﻿---
-title: Lägga till anonymt eller anpassat objekt i SmartMarkers
+---
+title: Lägg till Anonymt eller Anpassat objekt i SmartMarkers
 type: docs
 weight: 10
 url: /sv/net/adding-anonymous-or-custom-object-into-smartmarkers/
 ---
+
 {{% alert color="primary" %}} 
 
-Detta förklarar hur man importerar anonyma eller anpassade objekt till SmartMarkers.
+Detta förklarar hur man importerar anonyma eller anpassade objekt i SmartMarkers.
 
-Ibland måste du inkludera anpassade objekt som en datakälla till SmartMarkers. Aspose.Cells gör det möjligt att använda anpassade objekt som datakälla.
+Ibland behöver du inkludera anpassade objekt som en datakälla till SmartMarkers. Aspose.Cells gör det möjligt att använda anpassade objekt som datakälla.
 
 {{% /alert %}} 
 

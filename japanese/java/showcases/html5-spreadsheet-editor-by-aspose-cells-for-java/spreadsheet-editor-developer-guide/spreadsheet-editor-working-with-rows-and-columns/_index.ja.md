@@ -1,44 +1,45 @@
-﻿---
-title: スプレッドシート エディター - 行と列の操作
+---
+title: スプレッドシートエディター  行と列の操作
 type: docs
 weight: 30
 url: /ja/java/spreadsheet-editor-working-with-rows-and-columns/
 ---
+
 **目次**
 
 - [行を追加](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
- WorksheetView.addRowAbove
- - WorksheetView.addRowBelow
-- [列を追加する](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
- WorksheetView.addColumnBefore
- - WorksheetView.addColumnAfter
-- [行を削除する](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
- WorksheetView.deleteRow
-- [列を削除する](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
- - WorksheetView.deleteColumn
-- [列の幅と行の高さ](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
- WorksheetView.setCurrentRowHeight
- - WorksheetView.setCurrentColumnWidth
-- [Cell を挿入](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
- WorksheetView.addCellShiftRight
- - WorksheetView.addCellShiftDown
+  - WorksheetView.addRowAbove
+  - WorksheetView.addRowBelow
+- [列を追加](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
+  - WorksheetView.addColumnBefore
+  - WorksheetView.addColumnAfter
+- [行を削除](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
+  - WorksheetView.deleteRow
+- [列の削除](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
+  - WorksheetView.deleteColumn
+- [列幅と行の高さ](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
+  - WorksheetView.setCurrentRowHeight
+  - WorksheetView.setCurrentColumnWidth
+- [セルを挿入します](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
+  - WorksheetView.addCellShiftRight
+  - WorksheetView.addCellShiftDown
 ### **行を追加**
 新しい行を追加するには:
 
-1. 行を追加するセルをクリックします。
-1. 切り替える**フォーマットタブ**.
-1. クリック**上に行を追加**選択したセルの上に行を追加します。
-1. クリック**下に行を追加**選択したセルの下に行を追加します。
+1. 行を追加したいセルをクリックします。
+1. **フォーマットタブ** に切り替えます。
+1. 選択したセルの上に行を追加するには、**行を上に追加**をクリックします。
+1. 選択したセルの下に行を追加するには、**行を下に追加**をクリックします。
 
-エディターは、選択した場所に新しい行を追加します。
+エディターは選択した場所に新しい行を追加します。
 
-![todo:画像_代替_文章](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**使い方？**
+**動作仕様**
 
-の**上に行を追加**と**下に行を追加** JSF バックエンド Bean によって処理されます**ワークシート ビュー**.それぞれのメソッドのソース コードは次のとおりです。
+「**行を上に追加**」および「**行を下に追加**」はJSFバックエンドビーン**WorksheetView**によって処理されます。それぞれのメソッドのソースコードは以下の通りです。
 #### **WorksheetView.addRowAbove**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowAbove() {
 
@@ -63,7 +64,7 @@ url: /ja/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.addRowBelow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowBelow() {
 
@@ -96,23 +97,23 @@ url: /ja/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **列を追加する**
+### **列を追加**
 新しい列を追加するには:
 
-1. 列を追加するセルをクリックします。
-1. 切り替える**フォーマットタブ**.
-1. クリック**前に列を追加**選択したセルの前に列を追加します。
-1. クリック**後に列を追加**選択したセルの後に列を追加します。
+1. 列を追加したいセルをクリックします。
+1. **フォーマットタブ** に切り替えます。
+1. 選択したセルの前に列を追加するには**列を前に追加**をクリックします。
+1. 選択したセルの後に列を追加するには**列を後に追加**をクリックします。
 
-エディターは、選択した場所に新しい列を追加します。
+エディタは選択した場所に新しい列を追加します。
 
-![todo:画像_代替_文章](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**使い方？**
+**動作仕様**
 
-の**前に列を追加**と**後に列を追加** JSF バックエンド Bean によって処理されます**ワークシート ビュー**.それぞれのメソッドのソース コードは次のとおりです。
+「**列を前に追加**」および「**列を後に追加**」はJSFバックエンドビーン**WorksheetView**によって処理されます。それぞれのメソッドのソースコードは以下の通りです。
 #### **WorksheetView.addColumnBefore**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnBefore() {
 
@@ -137,7 +138,7 @@ url: /ja/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.addColumnAfter**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnAfter() {
 
@@ -162,22 +163,22 @@ url: /ja/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **行を削除する**
+### **行を削除**
 行を削除するには:
 
-1. 削除する行のセルをクリックします。
-1. 切り替える**フォーマットタブ**.
-1. クリック**行を削除**ボタン。
+1. 削除したい行のセルをクリックします。
+1. **フォーマットタブ** に切り替えます。
+1. **行を削除** ボタンをクリックします。
 
-エディターは、選択したセルを含む行を削除します。
+エディタは選択したセルを含む行を削除します。
 
-![todo:画像_代替_文章](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**使い方？**
+**動作仕様**
 
-の**行を削除**ボタンは JSF バックエンド Bean によって処理されます**ワークシート ビュー**メソッドを使用して**WorksheetView.deleteRow**:
+「**行を削除**」ボタンはJSFバックエンドビーン**WorksheetView**によって**WorksheetView.deleteRow**メソッドを使用して処理されます。
 #### **WorksheetView.deleteRow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteRow() {
 
@@ -202,22 +203,22 @@ url: /ja/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **列を削除する**
+### **列の削除**
 列を削除するには:
 
-1. 削除する列のセルをクリックします。
-1. 切り替える**フォーマットタブ**.
-1. クリック**列を削除**ボタン。
+1. 削除したい列のセルをクリックします。
+1. **フォーマットタブ** に切り替えます。
+1. **列を削除** ボタンをクリックします。
 
-エディターは、選択したセルを含む列を削除します。
+エディタは選択したセルを含む列を削除します。
 
-![todo:画像_代替_文章](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**使い方？**
+**動作仕様**
 
-の**列を削除**ボタンは JSF バックエンド Bean によって処理されます**ワークシート ビュー**メソッドを使用して**WorksheetView.deleteColumn**:
+「**列を削除**」ボタンはJSFバックエンドビーン**WorksheetView**によって**WorksheetView.deleteColumn**メソッドを使用して処理されます。
 #### **WorksheetView.deleteColumn**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteColumn() {
 
@@ -242,34 +243,34 @@ url: /ja/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **列の幅と行の高さ**
+### **列幅と行の高さ**
 列の幅を変更するには:
 
 1. 列内の任意のセルをクリックします。
-1. 切り替える**フォーマットタブ**.
-1. クリック**列幅**開くボタン**列幅**ダイアログ。
-1. ダイアログ ボックスに新しい値を入力します。
-1. クリック**近い**.
+1. **フォーマットタブ** に切り替えます。
+1. **列幅** ボタンをクリックして**列幅**ダイアログを開きます。
+ダイアログボックスに新しい値を入力します。
+1. **Close** をクリックします。
 
-エディターは列の幅を変更します。
+エディタは列の幅を変更します。
 
-**行の高さを変更するには？**
+**行の高さを変更する方法は?**
 
 行の高さを変更するには:
 
 1. 行内の任意のセルをクリックします。
-1. 切り替える**フォーマットタブ**.
-1. クリック**行の高さ**開くボタン**行の高さ**ダイアログ。
-1. ダイアログ ボックスに新しい値を入力します。
-1. クリック**近い**.
+1. **フォーマットタブ** に切り替えます。
+1. **行の高さ** ボタンをクリックして **行の高さ** ダイアログを開きます。
+ダイアログボックスに新しい値を入力します。
+1. **Close** をクリックします。
 
-エディターは行の高さを変更します。
+エディタは行の高さを変更します。
 
-**使い方？**
+**動作仕様**
 
-ユーザーが幅と高さの値を送信すると、これらの値はサーバー側で処理されます**setCurrentRowHeight**と**setCurrentColumnWidth** JSF バックエンド Bean のメソッド**ワークシート ビュー**.
+ユーザーが幅と高さの値を送信すると、これらの値はJSFバックエンドビーン **WorksheetView** の **setCurrentRowHeight** および **setCurrentColumnWidth** メソッドによってサーバーサイドで処理されます。
 #### **WorksheetView.setCurrentRowHeight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentRowHeight(int height) {
 
@@ -290,7 +291,7 @@ url: /ja/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.setCurrentColumnWidth**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentColumnWidth(int width) {
 
@@ -309,21 +310,21 @@ url: /ja/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **Cell を挿入**
+### **セルを挿入します**
 新しいセルを追加するには:
 
-1. 新規作成するセルをクリックします。
-1. 切り替える**挿入タブ**.
-1. クリック**Cell**ボタン。
-1. 選ぶ**シフト Cells 右**また**シフト Cells 下**ボタン。
+1. 新しいセルが欲しい位置をクリックします。
+1. **挿入タブ** に切り替えます。
+1. **セル** ボタンをクリックします。
+1. **セルを右にシフト** または **セルを下にシフト** ボタンを選択します。
 
-エディターは、選択した場所に新しいセルを追加します。隣接するセルは自動的に水平方向または垂直方向にシフトされ、新しいセル用のスペースが作成されます。
+エディタは選択した場所に新しいセルを追加します。隣接するセルは、新しいセルのスペースを作るために水平または垂直に自動的にシフトされます。
 
-**使い方？**
+**動作仕様**
 
-の**シフト Cells 右**と**シフト Cells 下** JSF バックエンド Bean によって処理されます**ワークシート ビュー**.それぞれのメソッドのソース コードは次のとおりです。
+**セルを右にシフト** および **セルを下にシフト** は、JSFバックエンドビーン **WorksheetView** によって処理されます。該当メソッドのソースコードは以下のとおりです:
 #### **WorksheetView.addCellShiftRight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftRight() {
 
@@ -348,7 +349,7 @@ url: /ja/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.addCellShiftDown**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftDown() {
 

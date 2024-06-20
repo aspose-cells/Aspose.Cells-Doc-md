@@ -1,18 +1,19 @@
-﻿---
-title: Ta bort Pivot Connection
+---
+title: Ta bort pivotkoppling
 type: docs
 weight: 30
 url: /sv/java/remove-pivot-connection/
-description: Lär dig hur du tar bort pivotkoppling med Aspose.Cells Java bibliotek.
-keywords: Remove pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Lär dig hur du tar bort pivotkoppling med Aspose.Cells Java biblioteket.
+keywords: Ta bort pivotkoppling utan Office 2013, Office 2016, Office 2019 och Office 365.
 ---
-## **Möjliga användningsscenarier**
 
-Om du vill ta bort slicer- och pivottabellen i Excel måste du högerklicka på slicer och välja "Rapportera anslutningar...". I alternativlistan kan du använda kryssrutan. På samma sätt, om du vill ta bort slicer- och pivottabellen med Aspose.Cells API programmatiskt, använd[**Slicer.removePivotConnection(pivottabell)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)) metod. Det kommer att ta isär slicer och pivottabell.
+## **Möjliga användningsscenario**
 
-## **Ta bort Slicer**
+Om du vill avassociera en slicer och en pivottabell i Excel, måste du högerklicka på slicern och välja "Rapportkopplingar...". I alternativlistan kan du använda kryssrutan. På liknande sätt om du vill avassociera en slicer och pivottabell med Aspose.Cells API programmatiskt, använd [**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable))-metoden. Den kommer att avassosciera slicern och pivottabellen.
 
-Följande exempelkod laddar[exempel på Excel-fil](remove-pivot-connection.xlsx)som innehåller en befintlig skivare. Den får åtkomst till skivorna och kopplar sedan bort skivan och pivottabellen. Slutligen sparar den arbetsboken som[utdata Excel-fil](remove-pivot-connection-out.xlsx). 
+## **Ta bort slicer**
+
+Följande provkod laddar in [provmappen](remove-pivot-connection.xlsx) som innehåller en befintlig slicer. Den går igenom slicerna och sedan avassocierar den slicern och pivottabellen. Slutligen sparar den arbetsboken som [output Excel-fil](remove-pivot-connection-out.xlsx). 
 
 
 ## **Exempelkod**

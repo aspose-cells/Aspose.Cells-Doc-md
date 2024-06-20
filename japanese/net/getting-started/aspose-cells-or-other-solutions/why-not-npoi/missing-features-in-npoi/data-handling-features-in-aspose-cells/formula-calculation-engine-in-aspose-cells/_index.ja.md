@@ -1,15 +1,16 @@
-﻿---
-title: Aspose.Cells の数式計算エンジン
+---
+title: Aspose.Cellsの数式計算エンジン
 type: docs
 weight: 30
 url: /ja/net/formula-calculation-engine-in-aspose-cells/
 ---
+
 ## **Aspose.Cells - 数式計算エンジン**
-数式計算エンジンは Aspose.Cells に組み込まれています。デザイナー スプレッドシート ファイルからインポートされた数式を再計算できるだけでなく、実行時に追加された数式の結果を計算することもサポートします。
+数式計算エンジンはAspose.Cellsに組み込まれています。設計用スプレッドシートファイルからインポートされた数式を再計算するだけでなく、ランタイムで追加された数式の結果を計算することもサポートしています。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -58,13 +59,13 @@ book.CalculateFormula();
 book.Save("AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**式計算エンジン**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**数式計算エンジン**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[式計算エンジン](/cells/ja/net/formula-calculation-engine/).
+詳細については、[数式計算エンジン](/cells/ja/net/formula-calculation-engine/)をご覧ください。
 
 {{% /alert %}}

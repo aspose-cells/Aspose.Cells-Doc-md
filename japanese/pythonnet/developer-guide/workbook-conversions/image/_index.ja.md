@@ -1,54 +1,56 @@
 ---
-title: Image
+title: 画像
 type: docs
 weight: 300
 url: /ja/python-net/convert-excel-to-image/
-description: Aspose.Cells for Python via .NET API を使用して、チャートを Image に変換します。
-keywords: Python Convert Chart to Image, Export Chart to Image in Python via NET, Python Save Chart to Image.
+description: Aspose.Cells for Python via .NET APIを使用して、チャートを画像に変換する。
+keywords: Pythonでチャートを画像に変換する、Python via NETでチャートを画像にエクスポートする、Pythonでチャートを保存する。
 ---
+
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET を使用すると、ワークブックからワークシートをエクスポートし、別の形式に変換できます。この記事では、ワークシートをさまざまな形式に変換する方法について説明します。
+Aspose.Cells for Python via .NETにより、ワークブックからワークシートをエクスポートして異なる形式に変換することができます。この記事では、ワークシートを異なる形式に変換する方法について説明します。
 
 {{% /alert %}}
 
-## ワークブックを TIFF に変換しています
+## ワークブックをTIFF形式に変換
 
-Excel ファイルには、複数のページを持つ複数のシートを含めることができます。[ワークブックレンダリング](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender)Excel を複数ページの TIFF に変換できます。また、TIFF の複数のオプションを制御できます。[圧縮](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/), [色深度](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_color_depth/)、 解決（[水平解像度](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/), [垂直解像度](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/)).
+Excelファイルには複数のシートと複数のページが含まれる場合があります。 [**WorkbookRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender)では、[Compression](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/)、[Color depth](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_color_depth/)、Resolution([Horizontal resolution](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/)、[Vertical resolution](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/)）など、TIFFのための複数のオプションを制御できます。
 
-次のコード スニペットは、Excel を複数ページのある TIFF に変換する方法を示しています。の[ソース Excel ファイル](workbook-to-tiff-with-mulitiple-pages.xlsx)そして[生成された TIFF 画像](workbook-to-tiff-with-mulitiple-pages.tiff)参考までに添付します。
+次のコードスニペットは、Excelを複数ページのTIFFに変換する方法を示しています。[元のExcelファイル](workbook-to-tiff-with-mulitiple-pages.xlsx)と[生成されたTIFF画像](workbook-to-tiff-with-mulitiple-pages.tiff)を参照できます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Workbook-To-Tiff-With-Mulitiple-Pages.py" >}}
 
-##  **ワークシートをImageに変換中**
+## **ワークシートをイメージに変換**
 
-ワークシートには、分析するデータが含まれています。たとえば、ワークシートにはパラメータ、合計、パーセンテージ、例外、計算を含めることができます。
+ワークシートには分析したいデータが含まれています。 例えば、ワークシートにはパラメータ、合計、パーセンテージ、例外、計算などが含まれることがあります。
 
-開発者は、ワークシートを画像として表示する必要がある場合があります。たとえば、アプリケーションまたは Web ページでワークシートの画像を使用する必要がある場合があります。 Microsoft Word 文書、PDF ファイル、PowerPoint プレゼンテーション、またはその他の文書タイプに画像を挿入することができます。簡単に言うと、ワークシートを画像としてレンダリングして、他の場所で使用できるようにしたいと考えます。
+開発者として、ワークシートを画像として表示する必要があるかもしれません。 たとえば、ワークシートの画像をアプリケーションやWebページで使用する必要があるかもしれません。 Microsoft Word文書、PDFファイル、PowerPointプレゼンテーション、またはその他のドキュメントタイプに画像を挿入したいかもしれません。 要するに、ワークシートを他の場所で使用できるように画像として描画したいのです。
 
-Aspose.Cells for Python via .NET は、Excel ワークシートの画像への変換をサポートしています。この機能を使用するには、**[aspose.cells.rendering](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/)**名前空間をプログラムまたはプロジェクトに追加します。これには、レンダリングと印刷のためのいくつかの貴重なクラスがあります。たとえば、 *[シートレンダリング](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/)**, *[画像または印刷オプション](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/)**, *[ワークブックレンダリング](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender/)**、 その他。
+Aspose.Cells for Python via .NETは、Excelワークシートを画像に変換することをサポートしています。この機能を使用するためには、プログラムまたはプロジェクトに[**aspose.cells.rendering**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/)名前空間をインポートする必要があります。[**SheetRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/)、[**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/)、[**WorkbookRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender/)など、レンダリングや印刷のための貴重なクラスがいくつかあります。
 
-の**[SheetRender](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/)**クラスは画像としてレンダリングするワークシートを表します。オーバーロードされたメソッドがあります。 *[to_image](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str)**、ワークシートをさまざまな属性またはオプションを持つ画像ファイルに変換できます。 System.Drawing.Bitmap オブジェクトを返し、画像ファイルをディスクまたはストリームに保存できます。いくつかの画像形式がサポートされています (例: BMP、PNG、GIF、JPG、JPEG、TIFF、EMF)。
+[**SheetRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/)クラスは画像としてレンダリングするワークシートを表します。[**to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str)というオーバーロードされたメソッドを使用して、異なる属性やオプションを持つ画像ファイルにワークシートを変換できます。それはSystem.Drawing.Bitmap オブジェクトを返し、画像ファイルをディスクやストリームに保存できます。BMP、PNG、GIF、JPG、JPEG、TIFF、EMFなど、いくつかの画像形式がサポートされています。
 
-次のコード スニペットは、Excel ファイル内のワークシートを画像ファイルに変換する方法を示しています。
+次のコードスニペットは、Excelファイルのワークシートを画像ファイルに変換する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheet-ConvertWorksheetToImageByPage-1.py" >}}
 
 {{% alert color="primary" %}}
 
-現在、ワークシートを画像に変換するための API は 3D バブル チャートをサポートしていません。
+現在、ワークシートを画像に変換するAPIは3Dバブルチャートをサポートしていません。
 
 {{% /alert %}}
 
-##  **ワークシートをSVGに変換中**
+## **ワークシートをSVGに変換**
 
-SVG はスケーラブル ベクター グラフィックスの略です。 SVG は、2 次元ベクトル グラフィックスの XML 標準に基づいた仕様です。これは、World Wide Web Consortium (W3C) によって 1999 年から開発が進められているオープン標準です。
+SVGはScalable Vector Graphicsの略です。 SVGは、二次元ベクトルグラフィックのためのXML標準に基づいた仕様です。 1999年以来、World Wide Web Consortium（W3C）によって開発されてきたオープンな標準です。
 
-Aspose.Cells for Python via .NET は、バージョン 7.1.0 以降、ワークシートを SVG 画像に変換できるようになりました。次のコード スニペットは、Excel ファイル内のワークシートを SVG 画像ファイルに変換する方法を示しています。
+Aspose.Cells for Python via .NETは、バージョン7.1.0からワークブック内のワークシートをSVG画像に変換できるようになりました。以下のコードスニペットは、Excelファイル内のワークシートをSVG画像ファイルに変換する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheet-ConvertWorksheetToSVG-1.py" >}}
 
-##  **アドバンストトピック**
-- [Excel グラフを Image に変換する](/cells/ja/python-net/convert-an-excel-chart-to-image/)
-- [グラフを SVG 形式の Image に変換する](/cells/ja/python-net/converting-chart-to-image-in-svg-format/)
-- [viewBox 属性を使用してチャートを SVG にエクスポート](/cells/ja/python-net/export-chart-to-svg-with-viewbox-attribute/)
+## **高度なトピック**
+- [Excelのチャートを画像に変換](/cells/ja/python-net/convert-an-excel-chart-to-image/)
+- [SVG形式でチャートを画像に変換](/cells/ja/python-net/converting-chart-to-image-in-svg-format/)
+- [viewBox属性を使用してチャートをSVGにエクスポート](/cells/ja/python-net/export-chart-to-svg-with-viewbox-attribute/)

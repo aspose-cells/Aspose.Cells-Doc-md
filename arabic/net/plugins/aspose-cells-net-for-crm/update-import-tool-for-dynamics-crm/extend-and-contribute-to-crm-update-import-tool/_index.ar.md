@@ -1,16 +1,17 @@
-﻿---
-title: قم بتوسيع أداة استيراد تحديث CRM والمساهمة فيها
+---
+title: توسيع والمساهمة في أداة تحديث استيراد نظام إدارة العلاقات مع العملاء
 type: docs
 weight: 10
 url: /ar/net/extend-and-contribute-to-crm-update-import-tool/
 ---
-يمكنك تنزيل أحدث كود مصدر على:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Plugins.UpdateImportTool).
+يمكنك تنزيل أحدث شفرة المصدر من:
 
-تصدير البيانات من CRM إلى Excel
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Plugins.UpdateImportTool).
 
-{{< highlight "cs" >}}
+تصدير البيانات من نظام إدارة العلاقات مع العملاء إلى Excel
+
+{{< highlight cs >}}
 
   SaveFileDialog fileDialog = new SaveFileDialog();
 
@@ -71,9 +72,9 @@ url: /ar/net/extend-and-contribute-to-crm-update-import-tool/
 
 {{< /highlight >}}
 
-استيراد البيانات من Excel إلى CRM
+استيراد البيانات من Excel إلى نظام إدارة العلاقات مع العملاء
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
   if (ctrl.CrmConnectionMgr != null && ctrl.CrmConnectionMgr.CrmSvc != null && ctrl.CrmConnectionMgr.CrmSvc.IsReady)
 

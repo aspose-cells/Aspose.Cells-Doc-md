@@ -1,27 +1,28 @@
-﻿---
-title: Genel API Aspose.Cells 8.3.0'daki değişiklikler
+---
+title: Aspose.Cells 8.3.0 da Genel API Değişiklikleri
 type: docs
 weight: 100
 url: /tr/net/public-api-changes-in-aspose-cells-8-3-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürüm 8.2.2'den 8.3.0'a modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır.
+Bu belge, modül/uygulama geliştiricilerin ilgisini çekebilecek Aspose.Cells API'sindeki 8.2.2'den 8.3.0'a yapılan değişiklikleri açıklar.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Özellik WorkbookSettings.AutoRecover Eklendi**
-Geliştiricilerin uygulamalarında elektronik tablolar için Otomatik Kurtarma seçeneğini belirlemesine olanak sağlamak amacıyla WorkbookSettings sınıfına yeni AutoRecover özelliği eklenmiştir.
+## **Eklenen API'lar**
+### **WorkbookSettings.AutoRecover Özelliği Eklendi**
+Yeni AutoRecover özelliği, uygulamalarındaki elektronik tablolar için Otomatik Kurtarma seçeneğini ayarlamak için WorkbookSettings sınıfına eklenmiştir.
 
 {{% alert color="primary" %}} 
 
- Lütfen makaleyi kontrol edin[Elektronik Tablo Otomatik Kurtarmayı Ayarlama](http://aspose.com/docs/display/cellsnet/How+to+set+AutoRecover+property+of+Workbook) daha fazla bilgi için.
+Daha fazla bilgi için lütfen [Elektronik Tablo Oto Kurtarma Ayarı](http://aspose.com/docs/display/cellsnet/How+to+set+AutoRecover+property+of+Workbook) makalesine bakın.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -32,12 +33,12 @@ settings.AutoRecover = true;
 {{< /highlight >}}
 
 
-### **Özellik WorkbookSettings.CrashSave Eklendi**
-WorkbookSettings sınıfına, uygulamanın çalışma kitabı dosyasını bir kilitlenmeden sonra en son kaydedip kaydetmediğini gösteren bir Boole türü özelliği CrashSave eklenmiştir.
+### **WorkbookSettings.CrashSave Özelliği Eklendi**
+WorkbookSettings sınıfına, uygulamanın son çökmesinden sonra elektronik tablo dosyasını kaydedip kaydetmediğini gösteren Boolean tipi bir CrashSave özelliği eklenmiştir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -48,12 +49,12 @@ Console.WriteLine(settings.CrashSave);
 {{< /highlight >}}
 
 
-### **Özellik WorkbookSettings.DataExtractLoad Eklendi**
-Geliştiricilerin son kurtarma ile ilgili bilgileri alabilmeleri için WorkbookSettings sınıfına DataExtractLoad özelliği eklendi. DataExtractLoad özelliği true değerini döndürürse, bu, elektronik tabloda veri kurtarmanın gerçekleştirildiğini gösterir.
+### **WorkbookSettings.DataExtractLoad Özelliği Eklendi**
+DataExtractLoad özelliği, geliştiricilere elektronik tabloya en son yapılan kurtarma hakkında bilgi alınmasını sağlamak için WorkbookSettings sınıfına eklenmiştir. DataExtractLoad özelliği true döndürürse, bu, elektronik tabloda veri kurtarımının gerçekleştirildiğini gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -64,12 +65,12 @@ Console.WriteLine(settings.DataExtractLoad);
 {{< /highlight >}}
 
 
-### **Özellik WorkbookSettings.RepairLoad Eklendi**
-RepairLoad özelliği, elektronik tablonun Excel uygulamasıyla son yüklemede onarılıp onarılmadığını gösterir.
+### **WorkbookSettings.RepairLoad Özelliği Eklendi**
+RepairLoad özelliği, elektronik tablonun Excel uygulamasıyla son yüklemede onarıldığını gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -80,12 +81,12 @@ Console.WriteLine(settings.RepairLoad);
 {{< /highlight >}}
 
 
-### **Özellik TxtLoadOptions.KeepExactFormat Eklendi**
-TxtLoadOptions sınıfına, dize/metin sayılara veya DateTime'a dönüştürüldüğünde hücre değeri için tam biçimlendirmenin korunması gerekip gerekmediğini gösteren KeepExactFormat özelliği eklendi. Bu özellik, MS Excel uygulamasının CSV dosyalarından DateTime veya sayısal değerleri yükleme davranışına uyması için eklenmiştir. MS Excel'in davranışını simüle etmek için, KeepExactFormat özelliğini false olarak ayarlayın, varsayılan değer ise true'dur, böylece hücre değeri CSV dosyasında dize olarak biçimlendirilecektir.
+### **TxtLoadOptions.KeepExactFormat Özelliği Eklendi**
+KeepExactFormat özelliği, metin/dizge sayıya veya TarihSaat'e dönüştürüldüğünde hücre değerinin tam biçiminin korunup korunmayacağını belirtir. Bu özellik, CSV dosyalarından TarihSaat veya sayısal değerleri yüklerken MS Excel programının davranışını eşleştirmek için eklenmiştir. MS Excel'in davranışını taklit etmek için KeepExactFormat özelliğini false olarak ayarlayın, varsayılan değer true olduğu için hücre değeri CSV dosyasındaki dize şeklinde biçimlendirilecektir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var options = new TxtLoadOptions();
 
@@ -96,12 +97,12 @@ var book = new Workbook("sample.csv", options);
 {{< /highlight >}}
 
 
-### **Özellik Shape.Id Eklendi**
-Belirli bir elektronik tablodaki her bir şekil nesnesini benzersiz şekilde tanımlamak için Shape sınıfına Id özelliği eklenmiştir. Bu yeni özellik, aşağıda gösterildiği gibi bir elektronik tablodaki Grafik nesnelerinin tanımlanmasına da yardımcı olur.
+### **Shape.Id Özelliği Eklendi**
+Shape sınıfına her bir şekil nesnesini benzersiz olarak tanımlamak için Id özelliği eklenmiştir. Bu yeni özellik ayrıca elektronik tabloda Grafik nesnelerini tanımlamada da yardımcı olur.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -118,12 +119,12 @@ foreach(Chart chart in book.Worksheets[0].Charts)
 {{< /highlight >}}
 
 
-### **Yöntem PlotArea.SetPositionAuto Eklendi**
-Grafiğin çizim alanını otomatik moda ayarlamaya yardımcı olan PlotArea sınıfına SetPositionAuto yöntemi eklendi.
+### **Eklendi - PlotArea.SetPositionAuto Metodu**
+SetPositionAuto metodu, Grafik bölgesinin otomatik moda ayarlanmasına yardımcı olan PlotArea sınıfına eklenmiştir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 

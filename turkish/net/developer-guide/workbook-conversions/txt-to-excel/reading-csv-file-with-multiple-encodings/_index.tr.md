@@ -1,36 +1,37 @@
-﻿---
-title: Birden Fazla Kodlama İçeren CSV Dosyasını Okuma
+---
+title: Birden Fazla Kodlama ile CSV Dosyasını Okuma
 type: docs
 weight: 200
 url: /tr/net/reading-csv-file-with-multiple-encodings/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen, CSV dosyanız birden çok Kodlama (Unicode, ANSI, UTF8, UTF7, vb.) içerir. Aspose.Cells, bu tür CSV dosyalarını yüklemenize ve bunları örneğin PDF veya XLSX gibi diğer biçimlere dönüştürmenize olanak tanır.
+Bazı durumlarda, CSV dosyanız birden fazla Kodlama (Unicode, ANSI, UTF8, UTF7, vb.) içerir. Aspose.Cells, bu tür CSV dosyalarını yüklemenize ve bunları diğer formatlara, örneğin PDF veya XSLX'ye dönüştürmenize izin verir.
 
 {{% /alert %}}
 
- Aspose.Cells şunları sağlar:[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) olarak ayarlamanız gereken özellik**doğru** CSV dosyanızı birden fazla kodlamayla düzgün şekilde yüklemek için.
+Aspose.Cells, CSV dosyanızı çoklu kodlamalarla doğru şekilde yüklemek için [**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) özelliğini **true** olarak ayarlamalısınız.
 
- Aşağıdaki ekran görüntüsü, iki satır içeren örnek bir CSV dosyasını göstermektedir. İlk satır içinde**ANSI** kodlama ve ikinci satır**Unicode** kodlama
+Aşağıdaki ekran görüntüsü, iki satır içeren örnek bir CSV dosyasını gösterir. İlk satır **ANSI** kodlamasındadır ve ikinci satır **Unicode** kodlamasındadır
 
 |**Giriş dosyası**|
-|:- |
-|![yapılacaklar:resim_alternatif_metin](reading-csv-file-with-multiple-encodings_1.png)|
+| :- |
+|![todo:image_alt_text](reading-csv-file-with-multiple-encodings_1.png)|
 
- Aşağıdaki ekran görüntüsü, ayarlanmadan yukarıdaki CSV dosyasından dönüştürülen XLSX dosyasını göstermektedir.[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) mülkiyet**doğru**. Gördüğünüz gibi, Unicode metni düzgün bir şekilde dönüştürülmedi.
+Yukarıdaki CSV dosyasından dönüştürülen XLSX dosyasını gösteren aşağıdaki ekran görüntüsü, [**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) özelliğinin **true** olarak ayarlanmaması durumunda Unicode metninin düzgün şekilde dönüştürülmediğini gösterir.
 
-|**Çıktı dosyası 1: çoklu kodlama için herhangi bir düzenleme yapılmadı**|
-|:- |
-|![yapılacaklar:resim_alternatif_metin](reading-csv-file-with-multiple-encodings_2.png)|
+|**Çıktı dosyası 1: çoklu kodlamalar için herhangi bir düzenleme yapılmamıştır**|
+| :- |
+|![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)|
 
- Aşağıdaki ekran görüntüsü, ayarlandıktan sonra yukarıdaki CSV dosyasından dönüştürülen XSLX dosyasını gösterir.[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) mülkiyet**doğru**. Gördüğünüz gibi, Unicode metni artık düzgün bir şekilde dönüştürüldü.
+Aşağıdaki ekran görüntüsü, [**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) özelliğinin **true** olarak ayarlandıktan sonra yukarıdaki CSV dosyasından dönüştürülen XSLX dosyasını gösterir. Bu ekran görüntüsünde, Unicode metninin düzgün şekilde dönüştürüldüğünü görebilirsiniz.
 
-|**Çıktı dosyası 2: IsMultiEncoded, true olarak ayarlandı**|
-|:- |
-|![yapılacaklar:resim_alternatif_metin](reading-csv-file-with-multiple-encodings_3.png)|
+|**Çıktı dosyası 2: IsMultiEncoded true olarak ayarlandı**|
+| :- |
+|![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)|
 
-Aşağıda, yukarıdaki CSV dosyasını düzgün bir şekilde XLSX biçimine dönüştüren örnek kod bulunmaktadır.
+Aşağıdaki örnek kod, yukarıdaki CSV dosyasını XLSX formatına uygun bir şekilde dönüştürür.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCSVMultipleEncodings-1.cs" >}}
 

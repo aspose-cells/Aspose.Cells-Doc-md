@@ -1,30 +1,31 @@
 ---
-title: Byt namn på dubbletter av kolumner automatiskt när du exporterar kalkylbladsdata
+title: Byt namn på dubbla kolumner automatiskt vid export av kalkylbladsdata
 type: docs
 weight: 250
 url: /sv/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/
-description: Lär dig hur du byter namn på dubbletter av kolumner automatiskt när du exporterar kalkylbladsdata via Aspose.Cells for .NET API.
-keywords: Rename duplicate columns while exporting worksheet data, Rename duplicate columns automatically while exporting  data to DataTable
+description: Lär dig hur man automatiskt byter namn på dubbla kolumner vid export av kalkylbladsdata genom API Aspose.Cells for .NET.
+keywords: Byt namn på dubbla kolumner vid export av kalkylbladsdata, Byt namn på dubbla kolumner automatiskt vid export till DataTable
 ---
-##  **Möjliga användningsscenarier**
 
- Ibland står användaren inför ett problem med dubbletter av kolumner när data exporteras från kalkylbladet till datatabellen. DataTable kan inte ha dubblettkolumner så dubblettkolumner måste bytas om innan du kan exportera kalkylbladsdata till datatabellen. Aspose.Cells kan byta namn på dubblettkolumnerna automatiskt i enlighet med strategi som specificerats av dig med[**ExportTableOptions.RenameStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/renamestrategy) fast egendom. Om du specificerar[**Byt namn på Strategi**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy) .Siffra, kommer kolumner att döpas om som kolumn1, kolumn2, kolumn3, etc. och om du anger[**Byt namn på Strategi**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Letter, då kommer kolumner att döpas om som kolumnA, kolumnB, kolumnC osv.
+## **Möjliga användningsscenario**
 
-##  **Byt namn på dubbletter av kolumner automatiskt när du exporterar kalkylbladsdata**
+Ibland stöter användare på problemet med dubbla kolumner vid export av data från kalkylblad till datatabell. DataTable kan inte ha dubbla kolumner, så dubbla kolumner måste döpas om innan du kan exportera kalkylbladsdata till datatabell. Aspose.Cells kan automatiskt döpa om dubbla kolumner enligt en av den specificerade strategin med egenskapen [**ExportTableOptions.RenameStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/renamestrategy).Om du specificerar [**RenameStrategy**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Digit kommer kolumnerna att döpas om som kolumn1, kolumn2, kolumn3, etc. och om du specificerar [**RenameStrategy**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Letter, kommer kolumnerna att döpas om som kolumnA, kolumnB, kolumnC, etc.
 
-Följande exempelkod lägger till en del data i de tre första kolumnerna i kalkylbladet men alla kolumner har samma namn, dvs *People*. Sedan exporterar den data från kalkylblad till datatabell genom att specificera[**Byt namn på Strategi**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Brevstrategi. Den skriver sedan ut kolumnnamnen för datatabellen genererad av Aspose.Cells. Följande skärmdump visar datatabellen med exporterade data i visualizern. Som du kan se har duplicerade kolumner bytt namn till PeopleA, PeopleB etc.
+## **Ändra namn automatiskt på dubbletter av kolumner vid export av kalkylbladsdata**
+
+Följande provkod lägger till lite data i de tre första kolumnerna i kalkylbladet men alla kolumner har samma namn, dvs. *Folk*. Sedan exporterar den datan från kalkylbladet till datatabell genom att ange [**RenameStrategy**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Letter strategin. Sedan skriver den ut kolumnnamnen i den datatabell som genererats av Aspose.Cells. Följande skärmbild visar datatabellen med exporterad data i visualiseraren. Som du kan se har dubbla kolumner bytt namn till FolkA, FolkB osv.
 
 ![todo:image_alt_text](rename-duplicate-columns-automatically-while-exporting-worksheet-data_1.png)
 
-##  **Exempelkod**
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-RenameDuplicateColumnsAutomaticallyWhileExportingWorksheetData.cs" >}}
 
-##  **Konsolutgång**
+## **Konsoloutput**
 
-Här är konsolutgången för ovanstående exempelkod som referens.
+Här är konsolens utmatning av ovanstående provkod som referens.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 People
 

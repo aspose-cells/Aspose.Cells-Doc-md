@@ -1,17 +1,18 @@
-﻿---
-title: Фильтровать проект VBA при загрузке книги
+---
+title: Фильтрация проекта VBA при загрузке книги
 type: docs
 weight: 140
 url: /ru/net/filter-vba-project-while-loading-a-workbook/
 ---
-## **Фильтровать проект VBA при загрузке книги Excel в C#**
 
-Некоторые файлы .xlsm/.xslb содержат очень большое количество макросов (или очень, очень длинные макросы). Aspose.Cells будет безоговорочно загружать эти (мета) данные при открытии таких книг. Вам может потребоваться контролировать это, хотя[**LoadDataFilterOptions**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) когда вам действительно нужно только извлечь имена листов для большого количества книг, пропуская таким образом такой ненужный контент. Этот фильтр обеспечивается введением новой опции,[**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions).
+## **Фильтрация проекта VBA при загрузке книги Excel на C#**
+
+Некоторые файлы .xlsm/.xslb имеют чрезвычайно большое количество макросов (или очень, очень длинные макросы). Aspose.Cells безусловно загрузит эти (мета) данные при открытии таких книг. Вам может потребоваться управлять этим через [**LoadDataFilterOptions**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions), когда вам действительно нужно только извлечь имена листов для большого числа книг, пропуская такое ненужное содержимое. Этот фильтр предоставляется путем введения новой опции, [**LoadDataFilterOptions.VBA**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions).
 
 ## **Образец кода**
 
-Следующий пример кода загружает книгу таким образом, что фильтруется только VBA. Образец файла для тестирования этой функции можно загрузить по следующей ссылке:
+Приведенный ниже образец кода загружает книгу так, чтобы было выполнено только фильтрование VBA. Образец файла для тестирования этой функции можно загрузить по следующей ссылке:
 
-[образецMacroEnabledWorkbook.xlsm](79527938.xlsm)
+[sampleMacroEnabledWorkbook.xlsm](79527938.xlsm)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilterVBAMacrosWhileLoadingWorkbook-1.cs" >}}

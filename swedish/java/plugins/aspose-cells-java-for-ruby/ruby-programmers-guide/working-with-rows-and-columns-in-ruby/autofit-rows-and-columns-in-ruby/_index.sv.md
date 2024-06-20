@@ -1,16 +1,17 @@
-﻿---
-title: Autopassa rader och kolumner i Ruby
+---
+title: Justera rader och kolumner automatiskt i Ruby
 type: docs
 weight: 20
 url: /sv/java/autofit-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Autopassa rader och kolumner**
-### **Autofit rad**
-Det enklaste sättet att automatiskt anpassa bredd och höjd på en rad är att anropa Worksheet-klassens autoFitRow-metod. AutoFitRow-metoden tar ett radindex (för raden som ska ändras storlek) som en parameter.
 
-**Ruby kod**
+## **Aspose.Cells - Justera rader och kolumner automatiskt**
+### **Automatiskt anpassa rad**
+Det mest raka sättet att automatiskt justera bredden och höjden på en rad är att anropa klassens 'Worksheet' 'autoFitRow'-metod.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  def autofit_row()
 
@@ -45,12 +46,12 @@ Det enklaste sättet att automatiskt anpassa bredd och höjd på en rad är att 
     end
 
 {{< /highlight >}}
-### **Autofit kolumn**
-Det enklaste sättet att automatiskt anpassa bredden och höjden på en kolumn är att anropa Worksheet-klassens autoFitColumn-metod. AutoFitColumn-metoden tar kolumnindex (för kolumnen som ska ändras storlek) som en parameter.
+### **Automatiskt anpassa kolumn**
+Det enklaste sättet att automatiskt justera bredden och höjden på en kolumn är att anropa klassens 'Worksheet' 'autoFitColumn'-metod.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def autofit_column()
 
@@ -85,7 +86,7 @@ Det enklaste sättet att automatiskt anpassa bredden och höjden på en kolumn �
 end
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Autopassa rader och kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Justera rader och kolumner automatiskt (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

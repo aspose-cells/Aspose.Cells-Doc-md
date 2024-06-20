@@ -1,15 +1,16 @@
-﻿---
-title: ورقة عمل غير محمية ببساطة في جايثون
+---
+title: إلغاء حماية ورقة العمل المحمية بشكل بسيط في Jython
 type: docs
 weight: 160
 url: /ar/java/unprotecting-simply-protected-worksheet-in-jython/
 ---
-## **Aspose.Cells - إلغاء حماية ورقة العمل المحمية ببساطة**
- لإلحاق المستندات باستخدام**Aspose.Cells Java لـ Jython**. هنا يمكنك أن ترى رمز المثال.
 
-**كود جايثون**
+## **Aspose.Cells - إلغاء حماية ورقة العمل المحمية بشكل بسيط**
+لإلحاق المستندات باستخدام **Aspose.Cells Java for Jython**. هنا يمكنك رؤية رمز المثال.
 
-{{< highlight "java" >}}
+**رمز Jython**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -65,7 +66,7 @@ if __name__ == '__main__':
     UnprotectingSimplyProtectedWorksheet()
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إرفاق المستندات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **مستندات الإضافة (Aspose.Cells)** من أي من المواقع الاجتماعية للترميز الواردة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/UnprotectingSimplyProtectedWorksheet.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/UnprotectingSimplyProtectedWorksheet.py)

@@ -1,26 +1,27 @@
 ---
 title: استخدام وظيفة FormulaText في Aspose.Cells
-description: تقدم هذه المقالة كيفية استخدام الدالة FormulaText في مكتبة Aspose.Cells لمعالجة الصيغ في Microsoft Excel. عن طريق تحميل ملف Excel موجود أو إنشاء ملف Excel جديد، يمكننا استخدام الطريقة التي يوفرها Aspose.Cells للحصول على نص الصيغة للخلية وتعيينها والحصول على النتيجة. وأخيرًا، نقوم بحفظ ملف Excel المعدل على القرص.
-keywords: Aspose.Cells, Excel, FormulaText functions
+description: يقدم هذا المقال كيفية استخدام وظيفة FormulaText في مكتبة Aspose.Cells لمعالجة الصيغ في Microsoft Excel. عن طريق تحميل ملف Excel الحالي أو إنشاء ملف Excel جديد ، يمكننا استخدام الطريقة المقدمة من Aspose.Cells للحصول على وتعيين نص الصيغة للخلية والحصول على النتيجة. في النهاية ، نقوم بحفظ ملف Excel المعدل على القرص.
+keywords: Aspose.Cells، Excel، وظائف FormulaText
 type: docs
 weight: 60
 url: /ar/net/using-formulatext-function-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-FormulaText هي إحدى وظائف Excel 2013 والإصدارات الأحدث. وهي غير مدعومة في الإصدارات السابقة مثل Excel 2010 أو 2007 وما إلى ذلك. وكما يوحي اسمها، فإنها تطبع نص الصيغة الموجودة في خلية معينة. ستوضح لك هذه المقالة كيفية الاستفادة من هذه الوظيفة باستخدام Aspose.Cells.
+وظيفة FormulaText هي وظيفة Excel 2013 والإصدارات اللاحقة. لا تدعم الإصدارات السابقة مثل Excel 2010 أو 2007 إلخ. كما يوحي اسمها ، فإنها تطبع النص الخاص بالصيغة الموجودة في الخلية المعطاة. سيوضح لك هذا المقال كيفية الاستفادة من هذه الوظيفة باستخدام Aspose.Cells.
 
 {{% /alert %}} 
 
-يُظهر نموذج التعليمات البرمجية التالي استخدام FormulaText مع Aspose.Cells. يقوم الرمز أولاً بكتابة صيغة في الخلية A1 ثم طباعة نص الصيغة باستخدام FormulaText في الخلية A2.
+يوضح الكود المصدري العيني التالي استخدام FormulaText مع Aspose.Cells. يكتب الكود أولاً صيغة في الخلية A1 ثم يطبع نص الصيغة باستخدام FormulaText في الخلية A2.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-UsingFormulaTextFunction-UsingFormulaTextFunction.cs" >}}
-##  **إخراج وحدة التحكم**
-هنا هو إخراج وحدة التحكم لنموذج التعليمات البرمجية أعلاه.
+## **مخرجات الوحدة**
+فيما يلي مخرجات وحدة الإدخال الخاصة بالكود المصدري أعلاه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  =SUM(B1:B10)
 

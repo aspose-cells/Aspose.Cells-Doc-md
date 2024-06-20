@@ -1,75 +1,76 @@
-﻿---
-title: Satırları ve Sütunları Otomatik Sığdır
+---
+title: Satır ve Sütunları Otomatik Uydur
 type: docs
 weight: 20
 url: /tr/java/autofit-rows-and-columns/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel, bir hücrenin genişliğini ve yüksekliğini içeriğine göre Otomatik Boyutlandırmak için iyi bir özellik sağlar. Bu özellik aynı zamanda Aspose.Cells kullanıcılarına, çalışma zamanında bir hücrenin boyutlarını otomatik boyutlandırma gücüyle de sunulmaktadır.
+Microsoft Excel, hücrenin içeriğine göre genişlik ve yüksekliği Otomatik Ayarlamak için iyi bir özellik sağlar. Bu özellik, Aspose.Cells kullanıcılarına da çalışma zamanında bir hücrenin boyutlarını otomatik olarak ayarlama olanağı sunuyor.
 
 {{% /alert %}} 
 ## **Otomatik Uydurma**
- Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[çalışma sayfaları](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
+Aspose.Cells, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) adında bir Microsoft Excel dosyasını temsil eden bir sınıf sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, Excel dosyasındaki her bir çalışma sayfasına erişim sağlayan [Worksheets](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) kolleksiyonuna sahiptir.
 
- Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class, bir çalışma sayfasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Bu makale,[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)satırları veya sütunları otomatik sığdırmak için sınıf.
-### **Satırı Otomatik Sığdır - Basit**
- Bir satırın genişliğini ve yüksekliğini otomatik olarak boyutlandırmak için en doğrudan yaklaşım,[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf'[Otomatik Sığdır](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\) ) yöntem. bu[Otomatik Sığdır](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\)) yöntemi, parametre olarak (yeniden boyutlandırılacak satırın) bir satır dizinini alır.
+Bir çalışma sayfası [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı, çalışma sayfasını yönetmek için geniş bir yelpazede özellikler ve yöntemler sağlar. Bu makale, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfını kullanarak satırları veya sütunları otomatik olarak uyarlama konusuna bakmaktadır.
+### **Satırı Otomatik Uydurma - Basit**
+Bir satırın genişlik ve yüksekliğini otomatik olarak ayarlamanın en basit yaklaşımı, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfının [autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\)) yöntemini çağırmaktır. [autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\)) yöntemi, bir parametre olarak bir satır dizini (yeniden boyutlandırılacak satırın dizini) alır.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsandColumns-AutoFitRowsandColumns.java" >}}
-### **Cells aralığında AutoFit Row**
- Bir satır birçok sütundan oluşur. Aspose.Cells, geliştiricilerin aşırı yüklenmiş bir sürümünü çağırarak satırdaki bir hücre aralığındaki içeriğe dayalı olarak bir satırı otomatik olarak sığdırmasına olanak tanır.[Otomatik Sığdır](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int,%20int,%20int\)) yöntem. Aşağıdaki parametreleri alır:
+### **Hücrelerin Aralığında Satırı Otomatik Uydur**
+Bir satır, birçok sütundan oluşur. Aspose.Cells, geliştiricilere bir satırın içindeki hücrelerin bir aralığındaki içeriğe bağlı olarak bir satırı otomatik olarak uyarlama olanağı sağlar. Bu, [autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int,%20int,%20int\)) yönteminin birden fazla parametre alan aşırı yüklenmiş bir sürümünü çağırarak gerçekleştirilir. Aşağıdaki parametreleri alır:
 
-- **Satır dizini**, otomatik sığdırılacak satırın dizini.
+- **Satır dizini**, otomatik olarak uyarlama yapılacak satırın dizini.
 - **İlk sütun dizini**, satırın ilk sütununun dizini.
 - **Son sütun dizini**, satırın son sütununun dizini.
 
- bu[Otomatik Sığdır](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int,%20int,%20int\)) yöntemi, satırdaki tüm sütunların içeriğini kontrol eder ve ardından satıra otomatik sığdırır.
+The [autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int,%20int,%20int\)) metodu, satırdaki tüm sütunların içeriğini kontrol eder ve ardından satırı otomatik olarak uygun hale getirir.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsinaRangeofCells-AutoFitRowsinaRangeofCells.java" >}}
-### **Otomatik Sığdırma Sütunu - Basit**
- Bir sütunun genişliğini ve yüksekliğini otomatik olarak boyutlandırmanın en kolay yolu,[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf'[Otomatik SığdırSütunu](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\) ) yöntem. bu[Otomatik SığdırSütunu](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\)yöntemi, sütun indeksini (yeniden boyutlandırılmak üzere olan sütunun) parametre olarak alır.
+### **Kolay Otomatik Uydurma**
+Bir sütunun genişlik ve yüksekliğini otomatik olarak ayarlamanın en kolay yolu, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfının [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\)) metodunu çağırmaktır. [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\)) metodu, genişletilecek sütunun sütun indeksini parametre olarak alır.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsandColumns-AutoFitRowsandColumns.java" >}}
-### **Cells Aralığında Otomatik Sığdırma Sütunu**
- Bir sütun birçok satırdan oluşur. Aşırı yüklenmiş bir sürümünü çağırarak, sütundaki bir hücre aralığındaki içeriğe dayalı olarak bir sütunu otomatik olarak sığdırmak mümkündür.[Otomatik SığdırSütunu](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) aşağıdaki parametreleri alan yöntem:
+### **Hücre Aralığındaki Otomatik Uydurma Sütunu**
+Bir sütun, birçok satırdan oluşur. [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) metodunun aşırı yüklenmiş bir versiyonunu çağırarak bir sütundaki hücre aralığındaki içeriğe göre bir sütunu otomatik olarak uydurmak mümkündür. Bu versiyon, aşağıdaki parametreleri alan bir [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) metodunu alır:
 
-- **Sütun dizini**, içeriği otomatik olarak sığdırılması gereken sütunun dizinini temsil eder
-- **İlk satır dizini**, sütunun ilk satırının dizinini temsil eder
-- **Son satır dizini**, sütunun son satırının dizinini temsil eder
+- **Sütun indeksi**, otomatik olarak uygun hale getirilmesi gereken sütunun indeksini temsil eder
+- **İlk satır indeksi**, sütunun ilk satırının indeksini temsil eder.
+- **Son satır indeksi**, sütunun son satırının indeksini temsil eder.
 
- bu[Otomatik SığdırSütunu](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) yöntemi, sütundaki tüm satırların içeriğini kontrol eder ve ardından sütunu otomatik olarak sığdırır.
+[autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) metodu, tüm sütundaki tüm satırların içeriğini kontrol eder ve ardından sütunu otomatik olarak uygun hale getirir.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitColumnsinaRangeofCells-AutoFitColumnsinaRangeofCells.java" >}}
-### **Birleştirilmiş Cells için Satırları Otomatik Sığdır**
-Aspose.Cells ile, kullanılarak birleştirilmiş hücreler için bile satırları otomatik sığdırmak mümkündür.[Otomatik Sığdırma Seçenekleri](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) API. [Otomatik Sığdırma Seçenekleri](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)sınıf sağlar[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType)satırları birleştirilmiş hücrelere otomatik sığdırmak için kullanılabilen özellik.[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType)kabul eder[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitMergedCellsType)aşağıdaki üyelere sahip numaralandırılabilir.
+### **Birleştirilmiş Hücreler için Satırları Otomatik Uydurma**
+Aspose.Cells ile [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) API'sını kullanarak birleştirilmiş hücreler için satırları otomatik olarak genişletebilirsiniz. [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) sınıfı, birleştirilmiş hücreler için satırları otomatik olarak genişletmek için kullanılabilecek bir [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType) özelliğini sağlar. [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType), aşağıdaki üyelere sahip olan bir [AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitMergedCellsType) numaralandırmayı kabul eder:
 
-- [YOK](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#NONE): Birleştirilmiş hücreleri yok sayın.
-- [İLK SATIR](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#FIRST_LINE): Yalnızca ilk satırın yüksekliğini genişletir.
-- [LAST_LINE](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#LAST_LINE): Yalnızca son satırın yüksekliğini genişletir.
-- [HER ÇİZGİ](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#EACH_LINE): Yalnızca her satırın yüksekliğini genişletir.
+- [YOK](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#NONE): Birleştirilmiş hücreleri yok sayar.
+- [İLK_SATIR](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#FIRST_LINE): Sadece ilk satırın yüksekliğini genişletir.
+- [SON_SATIR](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#LAST_LINE): Sadece son satırın yüksekliğini genişletir.
+- [HER_SATIR](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#EACH_LINE): Her satırın yüksekliğini genişletir.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-AutofitRowsforMergedCells-1.java" >}}
 
- Aşırı yüklenmiş sürümlerini de kullanabilirsiniz.[Otomatik SığdırSatırlar](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRows\(\)) & [Otomatik SığdırSütunlar](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumns\(\) ) bir satır/sütun aralığını ve örneğini kabul eden yöntemler[Otomatik Sığdırma Seçenekleri](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) seçilen satırları/sütunları istenen şekilde otomatik sığdırmak için[Otomatik Sığdırma Seçenekleri](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)buna göre.
+Seçilen satırları/sütunları ve istenen [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) ile otomatik olarak uygun hale getirmek için [autoFitRows](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRows\(\)) ve [autoFitColumns](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumns\(\)) metodlarının aşırı yüklenmiş versiyonlarını ve [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) örneğini kullanabilirsiniz.
 
-Söz konusu yöntemlerin imzaları aşağıdaki gibidir:
+Yukarıda bahsedilen metodların imzaları aşağıdaki gibidir:
 
-1.  autoFitRows(int startRow, int endRow,[Otomatik Sığdırma Seçenekleri](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)seçenekler)
-1.  autoFitColumns(int firstColumn, int lastColumn,[Otomatik Sığdırma Seçenekleri](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)seçenekler)
-## **Bilmeniz Önemli**
+1. autoFitRows(int startRow, int endRow, [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) options)
+1. autoFitColumns(int firstColumn, int lastColumn, [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) options)
+## **Bilinmesi Gerekenler**
 {{% alert color="primary" %}} 
 
- Bir hücre birleştirilirse, o zaman*Otomatik Sığdır* Microsoft Excel'deki ile aynı davranış olan yöntemler uygulanmaz. Ayrıca, bir hücredeki metin kaydırılırsa,[Otomatik SığdırSütunu](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\) ) yöntemi de uygulanmayacaktır. Bilmeniz gereken başka bir şey de,*Otomatik Sığdır*yöntemler zaman alıcıdır. Bu nedenle, uygulamanızın verimliliğini sağlamak için bu yöntemleri mümkün olduğunca nadiren çağırmalısınız.
+Bir hücre birleştirilmişse, *OtoUydur* metodları uygulanmaz, bu da Microsoft Excel'de olduğu gibi aynı davranıştır. Ayrıca, bir hücredeki metin kaydırılmışsa, [autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\)) metodu da uygulanmaz. Bir diğer bilmeniz gereken şey de *OtoUydur* metodlarının zaman alıcı olmasıdır. Bu nedenle, uygulamanızın verimliliğini sağlamak için bu metodları mümkün olduğunca nadir aramalısınız.
 
 {{% /alert %}}

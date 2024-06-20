@@ -1,16 +1,17 @@
-﻿---
-title: Mostrar u ocultar barras de desplazamiento en Php
+---
+title: Mostrar u Ocultar Barras de Desplazamiento en Php
 type: docs
 weight: 20
 url: /es/java/display-or-hide-scroll-bars-in-php/
 ---
-## **Aspose.Cells - Mostrar u ocultar barras de desplazamiento**
-### **Ocultar barras de desplazamiento**
- Para ocultar las barras de desplazamiento usando**Aspose.Cells Java for PHP** , llamada**mostrar ocultar barras de desplazamiento** módulo.
+
+## **Aspose.Cells - Mostrar u Ocultar Barras de Desplazamiento**
+### **Ocultar Barras de Desplazamiento**
+Para ocultar las barras de desplazamiento usando **Aspose.Cells Java para PHP**, llame al módulo **displayhidescrollbars**.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -29,7 +30,7 @@ $workbook->getSettings()->setHScrollBarVisible(false);
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Mostrar u ocultar barras de desplazamiento (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Mostrar u Ocultar Barras de Desplazamiento (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideScrollBars.php)

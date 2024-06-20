@@ -1,21 +1,22 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.8.2
+---
+title: تغييرات الواجهة البرمجية العامة في Aspose.Cells 8.8.2
 type: docs
 weight: 280
 url: /ar/net/public-api-changes-in-aspose-cells-8-8-2/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.8.1 إلى 8.8.2 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.8.1 إلى 8.8.2 التي قد تكون مثيرة لاهتمام مطوري الوحدات/التطبيقات. يتضمن ليس فقط الأساليب العامة الجديدة والمحدثة والصفوف المضافة والمحذوفة إلخ، ولكن أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **تحديث المراجع تلقائيًا أثناء حذف الصفوف والأعمدة الفارغة**
-كشف Aspose.Cells for .NET 8.8.2 الإصدارات المحملة بشكل زائد من Cells.DeleteBlankRows & Cells.DeleteBlankColumns طرق. يمكن للطرق الجديدة قبول مثيل لفئة DeleteOptions ويمكن استخدامها للتغلب على المواقف التي قد تنشأ بسبب المراجع المقطوعة في الصيغ وبيانات سلسلة المخطط وما إلى ذلك. تحتوي فئة DeleteOptions حاليًا على عضو واحد فقط ، وهي خاصية نوع منطقي بالاسم UpdateReference. إذا تم تعيين الخاصية المذكورة إلى true وتم تمرير مثيل الفئة DeleteOptions إلى Cells.DeleteBlankRows & Cells.DeleteBlankColumns ، فإن API سيعدل داخليًا مراجع الصيغة (إن وجدت) لاستيعاب التغييرات.
+## **واجهات برمجة التطبيقات الجديدة**
+### **تحديث المراجع تلقائيا أثناء حذف الصفوف والأعمدة الفارغة**
+في 8.8.2، قدمت Aspose.Cells for .NET الإصدارات المُكثَّفة لأساليب Cells.DeleteBlankRows و Cells.DeleteBlankColumns. يمكن استخدام الأساليب الجديدة للتغلب على المواقف التي قد تحدث بسبب التقارير المحطمة في الصيغ وبيانات سلاسل الرسوم البيانية وما إلى ذلك. يحتوي فئة DeleteOptions حاليًا على عضو واحد فقط، وهو خاصية من نوع بوليان بإسم UpdateReference. إذا تم تعيين خاصية المحدد لتكون صحيحة وتم تمرير نموذج DeleteOptions إلى أساليب Cells.DeleteBlankRows و Cells.DeleteBlankColumns، سيقوم الواجهة بضبط المراجع الصيغية داخليًا (إن وجد) لاستيعاب التغييرات.
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة التفصيلية على[حذف الصفوف والأعمدة الفارغة ذات المراجع المحدثة](/cells/ar/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/).
+لمزيد من التفاصيل حول هذه الميزة، يرجى مراجعة المقال المفصل حول [حذف الصفوف والأعمدة الفارغة مع المراجع المحدثة](/cells/ar/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/).
 
 {{% /alert %}} 
 
@@ -23,7 +24,7 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-8-2/
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook & load an existing spreadsheet
 

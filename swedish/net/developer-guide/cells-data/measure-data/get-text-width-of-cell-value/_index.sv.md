@@ -1,19 +1,20 @@
 ---
-title: Få textbredd på Cell-värde
+title: Få textbredd av cellvärde
 type: docs
 weight: 50
 url: /sv/net/get-text-width-of-cell-value/
-description: Lär dig hur du får textbredd på Cell-värde via Aspose.Cells for .NET API.
-keywords: Get Text Width of Cell Value, Obtain Text Width of Cell Value
+description: Lär dig hur man får textbredden av cellvärdet genom Aspose.Cells for .NET API.
+keywords: Få textbredd av cellvärde, Få textbredd av cellvärde
 ---
-##  **Få textbredd på Cell-värde**
 
- Ibland kan utvecklarna behöva beräkna bredden på cellens värde för att ordna data i någon layout. Aspose.Cells tillhandahåller[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/gettextwidth) metod som låter utvecklare få textbredden på cellens värde. Följande exempelkod illustrerar hur du använder[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/gettextwidth)för att komma åt textbredden för cellens värde.
+## **Få textens bredd av cellvärdet**
 
-Källfilen som används i följande kodavsnitt bifogas som referens.
+Ibland kan utvecklare behöva beräkna bredden på cellens värde för att arrangera data i någon layout. Aspose.Cells tillhandahåller metoden [**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/gettextwidth) som möjliggör för utvecklare att få textbredden av cellvärdet. Den följande exempelkoden illustrerar hur man använder [**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/gettextwidth) för att få tillgång till textbredden av cellvärdet.
 
-[Källfilen](96928090.xlsx)
+Källfilen som används i den följande kodsnutten bifogas för din referens.
 
-##  Exempelkod
+[Källfil](96928090.xlsx)
+
+## Exempelkod
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelper-GetTextWidth-1.cs" >}}

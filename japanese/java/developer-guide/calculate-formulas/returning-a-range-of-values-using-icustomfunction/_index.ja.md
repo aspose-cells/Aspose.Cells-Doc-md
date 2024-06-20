@@ -1,33 +1,34 @@
-﻿---
-title: ICustomFunction を使用して値の範囲を返す
+---
+title: ICustomFunctionを使用して値の範囲を返す
 type: docs
 weight: 270
 url: /ja/java/returning-a-range-of-values-using-icustomfunction/
 ---
+
 {{% alert color="primary" %}}
 
-の[**カスタム関数**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction)Aspose.Cells for Java 20.8 のリリース以降は非推奨です。をご利用ください[**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)クラス。の使用[**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)クラスについては以下の記事で説明しています。
+[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction)はAspose.Cells for Java 20.8のリリース以降非推奨となりました。代わりに[**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)クラスを使用してください。[**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)クラスの使用方法については、次の記事で説明しています。
 
-[AbstractCalculationEngine を使用して値の範囲を返す](/cells/ja/java/returning-a-range-of-values-using-abstractcalculationengine/).
+[AbstractCalculationEngineを使用して値の範囲を返す](/cells/ja/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Aspose.Cells提供[**カスタム関数**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction)Microsoft Excel で組み込み関数としてサポートされていないユーザー定義関数またはカスタム関数を実装するために使用されるインターフェイス。
+Aspose.Cellsは、Microsoft Excelの組み込み関数としてサポートされていないユーザー定義またはカスタム関数を実装するために使用される[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction)インターフェースを提供します。
 
-ほとんどの場合、[**カスタム関数**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction)インターフェイス メソッドでは、単一のセル値を返す必要があります。ただし、値の範囲を返す必要がある場合もあります。この記事では、値の範囲を返す方法について説明します[**カスタム関数**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction).
+[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction)インターフェースのメソッドを実装する場合、通常は単一のセル値を返す必要があります。ただし、場合によっては値の範囲を返す必要があります。この記事では、[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction)から値の範囲を返す方法について説明します。
 
 {{% /alert %}}
 
-## **ICustomFunction を使用して値の範囲を返す**
+## **ICustomFunctionを使用して値の範囲を返す**
 
-次のコードは実装します[**カスタム関数**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction)メソッドを介して値の範囲を返します。を確認してください[出力エクセルファイル](5472922.xlsx)と[pdf](5472925.pdf)参照用のコードで生成されます。
+次のコードは[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction)を実装し、そのメソッドを介して値の範囲を返します。コードで生成された[出力Excelファイル](5472922.xlsx)および[PDF](5472925.pdf)を参照してください。
 
-関数を持つクラスを作成する*CalculateCustomFunction*.このクラスは実装します[**カスタム関数**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction).
+関数*CalculateCustomFunction*を持つクラスを作成します。このクラスは[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction)を実装します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CustomFunctionStaticValue-CustomFunctionStaticValue.java" >}}
 
-上記の関数をプログラムで使用します。
+次に、上記の関数をプログラムに使用します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReturningRangeOfValues-ReturningRangeOfValues.java" >}}

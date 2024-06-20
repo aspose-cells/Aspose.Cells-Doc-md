@@ -1,4 +1,4 @@
-﻿---
+---
 title: الجداول
 type: docs
 weight: 160

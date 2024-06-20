@@ -1,20 +1,21 @@
-﻿---
-title: Seçili Raporun Grafik Öğelerini Excel Grafiklerine Dönüştür
+---
+title: Seçilen Raporun Grafik Öğelerini Excel Grafiklerine Dönüştürme
 type: docs
 weight: 20
 url: /tr/reportingservices/render-chart-items-of-selected-report-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Grafik öğelerini Microsoft Excel grafiklerine dönüştürmek için:
+Rapor öğelerini Microsoft Excel grafiğine dönüştürmek için:
 
-1. Aç**Aspose.Cells.ReportingServices.xml** dosya.
-1.  Yapılandırma parametrelerini değiştirin.**Aspose.Cells.ReportingServices.xml** dosya.
-1. İstediğiniz raporun yapılandırma bilgilerini ekleyin.
+1. **Aspose.Cells.ReportingServices.xml** dosyasını açın.
+1. **Aspose.Cells.ReportingServices.xml** dosyasının yapılandırma parametrelerini değiştirin.
+1. İstenen raporun yapılandırma bilgilerini ekleyin.
 
 Örneğin:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 
@@ -28,6 +29,6 @@ Grafik öğelerini Microsoft Excel grafiklerine dönüştürmek için:
 
 **Excel grafikleri Microsoft Excel'de düzenlenebilir** 
 
-![yapılacaklar:resim_alternatif_metin](render-chart-items-of-selected-report-to-excel-charts_1.png)
+![todo:image_alt_text](render-chart-items-of-selected-report-to-excel-charts_1.png)
 
 {{% /alert %}}

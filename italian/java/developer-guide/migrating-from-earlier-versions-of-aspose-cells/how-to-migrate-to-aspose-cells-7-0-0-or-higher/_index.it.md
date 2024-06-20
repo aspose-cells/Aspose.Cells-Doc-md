@@ -1,41 +1,44 @@
-﻿---
-title: Come migrare a Aspose.Cells 7.0.0 o versioni successive
+---
+title: Come migrare ad Aspose.Cells 7.0.0 o superiore
 type: docs
 weight: 10
 url: /it/java/how-to-migrate-to-aspose-cells-7-0-0-or-higher/
 ---
+
 {{% alert color="primary" %}}
 
-In questo articolo, abbiamo condiviso i notevoli cambiamenti nel API che sono stati effettuati in Aspose.Cells for Java 7.0.0 e versioni successive rispetto alle versioni precedenti di Aspose.Cells for Java. Questo articolo aiuterà gli utenti a migrare rapidamente dal vecchio API al nuovo API comprendendo le modifiche apportate e realizzandole nelle proprie applicazioni.
+In questo articolo sono state condivise le modifiche degne di nota nell'API che sono state apportate nella versione 7.0.0 e successive rispetto alle versioni predecessore di Aspose.Cells for Java. Questo articolo aiuterà gli utenti a migrare rapidamente dall'API vecchia alla nuova API comprendendo le modifiche apportate e applicandole alle proprie applicazioni.
 
 {{% /alert %}}
 
-## **Notevoli modifiche per gli utenti esistenti**
+## **Modifiche degne di nota per gli utenti esistenti**
 
-Dal rilascio di Aspose.Cells for Java v7.0.0, abbiamo apportato alcune importanti modifiche a API e abbiamo aggiunto tutte quelle funzionalità che sono presenti in Aspose.Cells for .NET fino ad oggi. Quindi, sia Aspose.Cells for Java che .NET saranno confrontabili ora in termini di funzionalità e persino in termini di nomi di metodi e proprietà.
+Dalla release di Aspose.Cells for Java v7.0.0, abbiamo apportato alcune modifiche importanti all'API e abbiamo aggiunto tutte quelle funzionalità presenti in Aspose.Cells for .NET fino a oggi. Quindi, sia Aspose.Cells for Java che .NET saranno confrontabili ora in termini di funzionalità e anche in termini di nomi dei metodi e delle proprietà.
 
-Simile all'approccio precedente, puoi semplicemente importare solo un'istruzione di importazione nella tua applicazione per recuperare tutte le classi, le interfacce, ecc.
+Come nell'approccio precedente, è possibile importare solo un'unica dichiarazione di importazione nella propria applicazione per recuperare tutte le classi, interfacce, ecc.
 
-[**Java**]{{< highlight "java" >}}
+[**Java**]
+
+{{< highlight java >}}
 
  import com.aspose.cells.*;
 
 {{< /highlight >}}
 
-Abbiamo rinominato alcuni set di API per pulire la struttura API in modo che corrisponda a Aspose.Cells for .NET. Ora abbiamo aggiunto alcune classi di raccolta e le abbiamo sostituite con classi di raccolta esistenti. La classe Like Worksheets è stata sostituita con**Raccolta di fogli di lavoro** . Allo stesso modo, la classe Shapes è stata sostituita con**Collezione Shape**. Tuttavia, la funzionalità delle classi non è stata influenzata, anzi migliorata.
+Abbiamo rinominato alcune API per pulire la struttura dell'API in modo da farla corrispondere a Aspose.Cells for .NET. Abbiamo ora aggiunto alcune classi di raccolta e le abbiamo sostituite con le classi di raccolta esistenti. Ad esempio, la classe Worksheets è stata sostituita con **WorksheetCollection**. Allo stesso modo, la classe Shapes è stata sostituita con **ShapeCollection**. Tuttavia, la funzionalità delle classi non è stata modificata, ma migliorata.
 
-Se desideri migrare al nuovo API, potrebbe essere necessario apportare le seguenti modifiche nella tua applicazione per far funzionare le cose da parte tua. L'elenco seguente contiene le modifiche apportate alle classi e anche ai rispettivi metodi.
+Se si desidera migrare alla nuova API, potrebbe essere necessario apportare le seguenti modifiche alla propria applicazione per far funzionare le cose sul proprio sistema. L'elenco seguente contiene le modifiche apportate alle classi e ai rispettivi metodi.
 
-## **Riepilogo delle modifiche allo API**
+## **Sommario delle modifiche nell'API**
 
-1) Raccolte nella versione 2.5.4 o precedente i cui nomi che terminano con 's' vengono rinominati. Nella versione 7.0.0 o successiva, le Raccolte sono denominate come:
-ad esempio, Shapes (vecchio) -> ShapeCollection (nuovo), fogli di lavoro (vecchio) -> WorksheetCollection (nuovo), ..., ecc.
+1) Le raccolte in v2.5.4 o precedenti il cui nome termina con 's' sono rinominate. In v7.0.0 o successive, le raccolte sono denominate come:
+ad esempio, Shapes (Vecchio) -> ShapeCollection (Nuovo), Worksheets (Vecchio) -> WorksheetCollection (Nuovo), ...,ecc.
 
-2) L'acquisizione dell'elemento dalla raccolta è stata modificata. Ad esempio, nella versione 2.5.4 o precedente lo facevamo come getXXX(int), nella versione 7.0.0 o successiva, ora lo facciamo come get(int):
+2) Ottenere l'elemento dalla raccolta è cambiato. Ad esempio, in v2.5.4 o precedenti usavamo getXXX(int), in v7.0.0 o superiore, ora lo facciamo come get(int):
 ad esempio, Worksheets.getSheet(int) (Vecchio) -> WorksheetCollection.get(int) (Nuovo), ...ecc.
 
-3) L'ottenimento della dimensione (numero di elementi) di una raccolta è cambiato. Nella v2.5.4 o precedente, lo facevamo con size(), nella v7.0.0 o successiva, ora lo facciamo con getCount():
-Worksheets.size() (vecchio) -> WorksheetCollection.getCount() (nuovo), ..., ecc.
+3) Ottenere la dimensione (conteggio degli elementi) di una raccolta è cambiato. In v2.5.4 o precedenti, lo facevamo con size(), in v7.0.0 o superiore, ora lo facciamo con getCount():
+Worksheets.size() (Vecchio) -> WorksheetCollection.getCount() (Nuovo), ...ecc.
 
-4) Metodi getter delle proprietà booleane nella versione 2.5.4 o precedente i cui nomi che iniziano con 'is' sono stati modificati. Nella v7.0.0 questi sono iniziati con "get":
-ad esempio, PageSetup.isBlackAndWhite() (Vecchio) -> PageSetup.getBlackAndWhite() (Nuovo), ...,ecc.
+4) I metodi getter delle proprietà booleane nella v2.5.4 o precedenti il cui nome inizia con 'is' sono stati modificati. In v7.0.0 questi inizieranno con "get":
+ad es., PageSetup.isBlackAndWhite() (Vecchio) -> PageSetup.getBlackAndWhite() (Nuovo), ...,ecc.

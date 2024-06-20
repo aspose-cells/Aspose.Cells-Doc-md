@@ -1,15 +1,16 @@
-﻿---
-title: Преобразование Excel в файлы PDF в PHP
+---
+title: Преобразование Excel в PDF файлы в PHP
 type: docs
 weight: 30
 url: /ru/java/converting-excel-to-pdf-files-in-php/
 ---
-## **Aspose.Cells - Преобразование Excel в файлы PDF**
-Чтобы преобразовать файл Excel в файл Pdf, используя Aspose.Cells for Java в PHP, просто вызовите excel_к_pdf() модуля Converter.
+
+## **Aspose.Cells - Преобразование Excel в PDF-файлы**
+Для преобразования Excel в PDF-файл с использованием Aspose.Cells for Java в PHP, просто вызовите метод excel_to_pdf() модуля Converter.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $saveFormat = new SaveFormat();
 
@@ -20,7 +21,7 @@ $workbook = new Workbook($dataDir . "Book1.xls");
 $workbook->save($dataDir . "OutBook1.pdf", $saveFormat->PDF);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Преобразование Excel в файлы PDF (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Преобразование Excel в PDF-файлы (Aspose.Cells)** с любого из перечисленных ниже социальных сайтов для программистов:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/Excel2PdfConversion.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/Excel2PdfConversion.php)

@@ -1,17 +1,18 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.8.3
+---
+title: Aspose.Cells 8.8.3の公開API変更
 type: docs
 weight: 300
 url: /ja/java/public-api-changes-in-aspose-cells-8-8-3/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.8.2 から 8.8.3 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントには、Aspose.Cells APIの8.8.2から8.8.3への変更についての詳細が記載されており、モジュール/アプリケーション開発者に興味を持つものが含まれます。新しいおよび更新された公開メソッド、追加、削除されたクラスなどだけでなく、Aspose.Cellsの裏側の挙動の変更の説明も含まれます。
 
 {{% /alert %}} 
-## **追加された API**
-### **ActiveX コントロールのサポート**
-Aspose.Cells for Java 8.8.3 は、ActiveX コントロールを ShapeCollection に追加できる addActiveXControl メソッドを公開しました。前述のメソッドには、コントロールの種類、コントロールを配置する場所、およびコントロールのサイズを指定する 7 つのパラメーターが必要です。タイプは、ControlType 列挙を使用して次の可能な値で指定できます。
+## **APIの追加**
+### **ActiveXコントロールのサポート**
+Aspose.Cells for Java 8.8.3では、addActiveXControlメソッドが公開され、ShapeCollectionにActiveXコントロールを追加することができるようになりました。前述のメソッドは、コントロールのタイプ、コントロールを配置する場所、コントロールのサイズを指定するために7つのパラメーターが必要です。タイプはControlType列挙型を使用して指定し、次の可能な値があります。
 
 1. ControlType.CHECK_BOX
 1. ControlType.COMBO_BOX
@@ -28,15 +29,15 @@ Aspose.Cells for Java 8.8.3 は、ActiveX コントロールを ShapeCollection 
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[ワークシートへの ActiveX コントロールの追加](/cells/ja/java/add-activex-controls-using-aspose-cells/).
+この機能の詳細については、[ワークシートにActiveXコントロールを追加](/cells/ja/java/add-activex-controls-using-aspose-cells/)の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -61,20 +62,20 @@ control.setLinkedCell("A1");
 book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **LoadOptions.setPaperSize メソッドを追加**
-Aspose.Cells for Java 8.8.3 では、以下に示すように、新しく公開された LoadOptions.setPaperSize メソッドを使用しながら、デフォルトのプリンターの設定からデフォルトの印刷用紙サイズを設定できます。前述のメソッドへの入力パラメータは、定義済みの用紙サイズを含む PaperSizeType 列挙からの値であることに注意してください。
+### **LoadOptions.setPaperSizeメソッドを追加しました**
+Aspose.Cells for Java 8.8.3では、新たに公開されたLoadOptions.setPaperSizeメソッドを使用して、デフォルトの印刷用紙サイズをデフォルトプリンタの設定から設定できるようになりました。このメソッドへの入力パラメーターは、事前定義された紙サイズを含むPaperSizeType列挙型の値です。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[用紙サイズを指定してスプレッドシートを読み込む](/cells/ja/java/load-workbook-with-specified-printer-paper-size/).
+この機能の詳細については、[指定された用紙サイズでスプレッドシートを読み込む](/cells/ja/java/load-workbook-with-specified-printer-paper-size/)の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions
 
@@ -89,12 +90,12 @@ loadOptions.setPaperSize(PaperSizeType.PAPER_A_4);
 Workbook book = new Workbook(dir + "input.xlsx", loadOptions);
 
 {{< /highlight >}}
-### **Cell.getCharacters(flag) メソッドを追加**
-Aspose.Cells API では、Cell.getCharacters メソッドを使用して、文字オブジェクトを FontSetting 配列の形式で取得できます。このリリースでは、Aspose.Cells for Java API は、セルが ListObject の一部である場合にテーブル スタイルをセルに適用する必要があるかどうかを示すパラメーターとしてブール値を受け入れることができる Cell.getCharacters のオーバーロードされたバージョンを公開しました。
+### **Cell.getCharacters(flag) メソッドを追加しました**
+Aspose.Cells APIを使用して、Cell.getCharactersメソッドを使用して、FontSetting配列の形式で文字オブジェクトを取得することができます。このリリースでは、Aspose.Cells for Java APIはCell.getCharactersのオーバーロードバージョンを公開し、セルがListObjectの一部である場合にテーブルスタイルを適用する必要があるかどうかを示すBooleanをパラメーターとして受け入れることができるようになりました。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -116,23 +117,23 @@ Cell cell = cells.get("A1");
 
 //Get all Characters objects from the cell
 
-FontSetting[]characters = cell.getCharacters(true);
+FontSetting[] characters = cell.getCharacters(true);
 
 {{< /highlight >}}
-### **OleObject.AutoLoad プロパティを追加**
-Aspose.Cells for Java 8.8.3 は、OleObject.AutoLoad プロパティを公開しました。これにより、基になるオブジェクトのコンテンツ/データが変更された場合に OleObject のイメージを更新できます。前述のプロパティを true に設定すると、Excel アプリケーションは結果のスプレッドシートが読み込まれるときに OleObject の画像を強制的に更新します。
+### **OleObject.AutoLoad プロパティが追加されました**
+Aspose.Cells for Java 8.8.3 では、OleObject.AutoLoad プロパティが公開され、基になるオブジェクトの内容/データが変更された場合に OleObject の画像を更新することが可能となりました。前述のプロパティが true に設定されると、Excel アプリケーションは結果のスプレッドシートが読み込まれる際に OleObject の画像を更新するよう強制します。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[OleObject を自動的に更新する](/cells/ja/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/).
+この機能の詳細については、[Automatically Refresh OleObjects](/cells/ja/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells/) の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -155,20 +156,20 @@ OleObject oleObject = oleObjects.get(0);
 oleObject.setAutoLoad(true);
 
 {{< /highlight >}}
-### **HTMLLoadOptions.SupportDivTag プロパティを追加**
-Aspose.Cells for Java 8.8.3 は HTMLLoadOptions.SupportDivTag プロパティを公開しました。これにより、HTML オブジェクト モデルで HTML ファイル/スニペットをロードする際に、TD タグに埋め込まれた DIV タグを解析できます。ブール型のプロパティのデフォルト値は false です。
+### **HTMLLoadOptions.SupportDivTag プロパティが追加されました**
+Aspose.Cells for Java 8.8.3 では、HTMLLoadOptions.SupportDivTag プロパティが公開され、Aspose.Cells オブジェクトモデルで HTML ファイル/スニペットを読み込む際に TD タグに埋め込まれた DIV タグを解析することが可能となりました。ブール型のプロパティはデフォルト値が false です。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[HTML のロード中に内部 DIV タグをサポート](/cells/ja/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+この機能の詳細については、[Support Inner DIV Tags while Loading HTML](/cells/ja/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/) の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Store the HTML snippet in a variable
 
@@ -251,20 +252,20 @@ Workbook book = new Workbook(stream, loadOptions);
 book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **HtmlSaveOptions.ExportGridLines プロパティを追加**
-Aspose.Cells for Java 8.8.3 は、スプレッドシートを HTML 形式にエクスポートする際にグリッド線をレンダリングできる HtmlSaveOptions.ExportGridLines プロパティを公開しました。ブール型のプロパティのデフォルト値は false ですが、true に設定すると、API は使用可能なデータ範囲のグリッド線を HTML 形式でレンダリングします。
+### **HtmlSaveOptions.ExportGridLines プロパティが追加されました**
+Aspose.Cells for Java 8.8.3 では、HtmlSaveOptions.ExportGridLines プロパティが公開され、スプレッドシートを HTML 形式にエクスポートする際にグリッドラインをレンダリングすることが可能となりました。ブール型のプロパティはデフォルト値が false ですが、true に設定すると API は利用可能なデータ範囲のために HTML 形式でグリッドラインをレンダリングします。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[グリッド線を HTML にレンダリング](/cells/ja/java/export-excel-to-html-with-gridlines/).
+この機能の詳細については、[Render Grid Lines to HTML](/cells/ja/java/export-excel-to-html-with-gridlines/) の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load existing spreadsheet
 
@@ -283,20 +284,20 @@ options.setExportGridLines(true);
 book.save(dir + "output.html", options);
 
 {{< /highlight >}}
-### **ListObject.Comment プロパティを追加**
-Aspose.Cells API で、ListObject のインスタンスのコメントを取得および設定できるようになりました。前述の機能を提供するために、Aspose.Cells API は ListObject.Comment プロパティを公開しました。
+### **ListObject.Comment プロパティが追加されました**
+Aspose.Cells API では、ListObject のコメントを取得および設定することが可能となりました。前述の機能を提供するために、ListObject.Comment プロパティが公開されています。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[ListObjects へのコメントの追加](/cells/ja/java/set-the-comment-of-table-or-list-object/).
+この機能の詳細については、[Adding Comments for ListObjects](/cells/ja/java/set-the-comment-of-table-or-list-object/) の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load existing spreadsheet
 
@@ -319,6 +320,6 @@ listObject.setComment("Comments");
 book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
-## **削除された API**
-### **Workbook.decrypt メソッドを削除**
-上記のプロパティは、しばらく前に廃止されたとマークされました。このリリースでは、パブリック API から完全に削除されています。同じ目標を達成するには、WorkbookSettings.Password プロパティを null に設定することをお勧めします。
+## **API が削除されました**
+### **Workbook.decrypt メソッドが削除されました**
+前述のプロパティは以前に廃止されていました。このリリースで完全に削除されました。同じ目的を達成するために、WorkbookSettings.Password プロパティを null に設定することをお勧めします。

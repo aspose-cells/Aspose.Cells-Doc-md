@@ -1,15 +1,16 @@
-﻿---
+---
 title: تحويل الرسم البياني إلى صورة في PHP
 type: docs
 weight: 10
 url: /ar/java/converting-chart-to-image-in-php/
 ---
-## **Aspose.Cells - تحويل المخطط إلى صورة**
-لتحويل المخطط إلى صورة باستخدام Aspose.Cells for Java في PHP ، ما عليك سوى استدعاء وحدة المحول.
+
+## **Aspose.Cells - تحويل الرسم البياني إلى صورة**
+لتحويل الرسم البياني إلى صورة باستخدام Aspose.Cells for Java في PHP، قم ببساطة باستدعاء وحدة المحول.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $chartType = new ChartType();
 
@@ -140,7 +141,7 @@ $chart->toImage($fs, $imgOpts);
 $fs->close();  
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**تحويل الرسم البياني إلى صورة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل تحويل الرسم البياني إلى صورة (Aspose.Cells) من أي من مواقع الكود الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ChartToImage.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ChartToImage.php)

@@ -1,28 +1,29 @@
-﻿---
-title: パブリック API Aspose.Cells 8.6.1 の変更点
+---
+title: Aspose.Cells 8.6.1 での Public API 変更
 type: docs
 weight: 210
 url: /ja/java/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.6.0 から 8.6.1 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加されたクラスだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントでは、Aspose.Cells API のバージョン 8.6.0 から 8.6.1 への変更点について説明しており、モジュール/アプリケーション開発者に興味を持たれるかもしれません。追加されたクラスなどだけでなく、Aspose.Cells の内部動作の変更についても説明しています。
 
 {{% /alert %}} 
-## **追加された API**
-### **HTML リンク ターゲット タイプのサポート**
-Aspose.Cells for Java API のこのリリースでは、HtmlLinkTargetType という列挙型が、新しいプロパティ HtmlSaveOptions.LinkTargetType とともに公開されました。[HTML 形式への変換中に、スプレッドシート内のリンクのターゲット タイプを設定します](/cells/ja/java/change-the-html-link-target-type/)HtmlLinkTargetType 列挙の可能な値は次のとおりです。デフォルト値は SELF です。
+## **APIの追加**
+### **HTML リンクターゲットタイプのサポート**
+このリリースの Aspose.Cells for Java API では、新しい列挙型である HtmlLinkTargetType と HtmlSaveOptions.LinkTargetType という新しいプロパティが公開され、スプレッドシートを HTML 形式に変換する際のリンクのターゲットタイプを[設定することができます](/cells/ja/java/change-the-html-link-target-type/)。HtmlLinkTargetType 列挙型の可能な値は、デフォルト値が SELF である次のようになります。
 
 1. HtmlLinkTargetType.BLANK: リンクされたドキュメント/ページを新しいウィンドウまたはタブで開きます。
 1. HtmlLinkTargetType.PARENT: リンクされたドキュメント/ページを親フレームで開きます。
-1. HtmlLinkTargetType.SELF: リンクがクリックされたのと同じフレームで、リンクされたドキュメント/ページを開きます。
-1. HtmlLinkTargetType.TOP: リンクされたドキュメント/ページをウィンドウ全体で開きます。
+1. HtmlLinkTargetType.SELF: リンクがクリックされたフレームでリンクされたドキュメント/ページを開きます。
+1. HtmlLinkTargetType.TOP: リンクされたドキュメント/ページをウィンドウの全体で開きます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -42,14 +43,14 @@ options.setLinkTargetType(HtmlLinkTargetType.BLANK);
 workbook.save(outputFilePath, options);
 
 {{< /highlight >}}
-### **メソッド VbaModuleCollection.remove が追加されました**
-Aspose.Cells for Java 8.6.1 は、VbaModuleCollection.remove メソッドの別のオーバーロードを公開しました。このメソッドは、Worksheet のインスタンスを受け入れて、指定された Worksheet に関連付けられたすべての VBA モジュールを削除できるようになりました。
+### **VbaModuleCollection.remove メソッドが追加されました**
+Aspose.Cells for Java 8.6.1 では、VbaModuleCollection.remove メソッドのオーバーロードが追加され、指定された Worksheet に関連付けられたすべての VBA モジュールを削除するために、Worksheet のインスタンスを受け入れることができるようになりました。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -64,14 +65,14 @@ VbaModuleCollection modules = workbook.getVbaProject().getModules();
 modules.remove(workbook.getWorksheets().get(0));
 
 {{< /highlight >}}
-### **メソッド RangeCollection.add が追加されました**
-Aspose.Cells for Java 8.6.1 は、Range オブジェクトを特定のワークシートの範囲のコレクションに追加するために使用できる RangeCollection.Add メソッドを公開しました。
+### **RangeCollection.add メソッドが追加されました**
+Aspose.Cells for Java 8.6.1 では、RangeCollection.Add メソッドが公開され、特定の Worksheet の範囲コレクションに Range オブジェクトを追加するために使用できます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -90,14 +91,14 @@ RangeCollection ranges = cells.getRanges();
 ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
-### **メソッド Cell.setCharacters を追加**
-Cell.setCharacters メソッドを使用して、[リッチ テキストの部分を更新する](/cells/ja/java/access-and-update-the-portions-of-rich-text-of-cell/)特定の Cell オブジェクトの。 Cell.getCharacters メソッドを使用してテキストの一部にアクセスし、Cell.setCharacters メソッドを使用して修正を行うことができますが、**得る**メソッドは、フォント名、フォントの色、太さなどのさまざまなプロパティを設定するために操作できる FontSetting オブジェクトの配列を返します。**セットする**メソッドを使用して変更を適用できます。
+### **Cell.setCharactersメソッドの追加**
+Cell.setCharactersメソッドは、指定されたCellオブジェクトのリッチテキストの一部を更新するために使用できます。Cell.getCharactersメソッドはテキストの部分にアクセスするために使用され、その後Cell.setCharactersメソッドを使用して変更を行うことができます。**get**メソッドは、フォント名、フォントカラー、太字などのさまざまなプロパティを設定するために操作できるFontSettingオブジェクトの配列を返します。**set**メソッドは、変更を適用するために使用できます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -113,7 +114,7 @@ Cell cell = worksheet.getCells().get("A1");
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.getCharacters();
+FontSetting[] settings = cell.getCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -124,14 +125,14 @@ settings[0].getFont().setName("Arial");
 cell.setCharacters(settings);
 
 {{< /highlight >}}
-### **プロパティ VbaProject.isSigned が追加されました**
-Aspose.Cells for Java 8.6.1 で使用できる VbaProject.isSigned プロパティが公開されました。[ワークブック内の VbaProject が署名されているかどうかをテストします](/cells/ja/java/check-if-vba-project-in-a-workbook-is-signed/).プロジェクトが署名されている場合、ブール型のプロパティは true を返します。
+### **VbaProject.isSignedプロパティの追加**
+Aspose.Cells for Java 8.6.1では、VbaProject.isSignedプロパティが公開されました。これを使用してWorkbook内のVbaProjectが署名されているかどうかをテストすることができます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -160,9 +161,9 @@ else
 }
 
 {{< /highlight >}}
-## **変更された API**
-### **メソッド Cell.getFormatConditions の変更**
-v8.6.1 のリリースにより、Aspose.Cells for Java API は Cell.getFormatConditions メソッドの戻り値の型を変更し、FormatConditionCollection 型の配列を返すようになりました。
-## **廃止された API**
-### **メソッド Workbook.checkWriteProtectedPassword 廃止されました**
-v8.6.1 のリリースにより、Workbook.checkWriteProtectedPassword メソッドは非推奨とマークされました。 WorkbookSettings.WriteProtection.validatePassword メソッドを使用することをお勧めします。このメソッドは、パラメーターとして文字列値を受け入れ、パスワードがスプレッドシートの事前設定パスワードと一致する場合はブール値を返します。
+## **APIの変更**
+### **Cell.getFormatConditionsメソッドの変更**
+v8.6.1のリリースに伴い、Aspose.Cells for Java APIはCell.getFormatConditionsメソッドの戻り値の型を変更し、現在はFormatConditionCollectionの配列を返します。
+## **非推奨API**
+### **Workbook.checkWriteProtectedPasswordメソッドの非推奨化**
+v8.6.1のリリースに伴い、Workbook.checkWriteProtectedPasswordメソッドは非推奨となりました。スプレッドシートの事前設定されたパスワードに一致する場合、WorkbookSettings.WriteProtection.validatePasswordメソッドを使用することが推奨されます。

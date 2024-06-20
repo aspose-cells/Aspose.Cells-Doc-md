@@ -1,17 +1,18 @@
-﻿---
-title: إزالة الأنماط غير المستخدمة داخل المصنف
+---
+title: إزالة الأنماط الغير مستخدمة في دفتر العمل
 type: docs
 weight: 340
 url: /ar/net/remove-unused-styles-inside-the-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-لا تشغل الأنماط غير المستخدمة في ملف Excel مساحة فحسب ، بل تتسبب أيضًا في حدوث مشكلات في الأداء أثناء التحويل إلى تنسيقات مختلفة مثل PDF ، HTML ، إلخ.[**المصنف .RemoveUnusedStyles ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles) لإزالة كافة الأنماط غير المستخدمة داخل المصنف.
+الأنماط غير المستخدمة في ملف الإكسل لا تأخذ مساحة فقط، بل تسبب أيضاً مشكلات في الأداء أثناء التحويل إلى تنسيقات مختلفة مثل PDF، HTML، إلخ. يوفر Aspose.Cells الـ [**Workbook.RemoveUnusedStyles()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles) لإزالة كل الأنماط غير المستخدمة داخل دفتر العمل.
 
 {{% /alert %}}
 
- يشرح الكود التالي استخدام[**المصنف .RemoveUnusedStyles ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles) . يقوم الكود بتحميل ملف[ملف إكسل](5115520.xlsx) والتي يمكنك تنزيلها من الرابط المقدم. يحتوي على نمط غير مستخدم اسمه**النمط**، ستتم إزالة هذا النمط وجميع الأنماط الأخرى غير المستخدمة بعد تنفيذ الكود.
+يشرح الكود التالي استخدام [**Workbook.RemoveUnusedStyles()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles). يقوم الكود بتحميل [ملف إكسل النموذج](5115520.xlsx) الذي يمكنك تنزيله من الرابط المقدم. يحتوي على نمط غير مستخدم يسمى **AsposeStyle**, سيتم إزالة هذا النمط وجميع الأنماط الأخرى غير المستخدمة بعد تنفيذ الكود.
 
-![ما يجب القيام به: image_بديل_نص](remove-unused-styles-inside-the-workbook_1.png)
+![todo:image_alt_text](remove-unused-styles-inside-the-workbook_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RemoveUnusedStyles-1.cs" >}}

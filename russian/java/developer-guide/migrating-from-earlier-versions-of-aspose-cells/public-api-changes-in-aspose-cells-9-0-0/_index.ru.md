@@ -1,23 +1,24 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 9.0.0
+---
+title: Изменения в общедоступном API в Aspose.Cells 9.0.0
 type: docs
 weight: 340
 url: /ru/java/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.9.2 до 9.0.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 8.9.2 по 9.0.0, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные открытые методы, добавленные и удаленные классы и т. д., но также описание любых изменений в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Добавлено свойство Shape.TextOptions**
-Aspose.Cells for Java предоставил свойство TextOptions для класса Shape, чтобы управлять внешним видом текстовых частей Shape.
+## **Добавленные API**
+### **Добавлено свойство Shape.TextOptions.**
+Aspose.Cells for Java добавило свойство TextOptions для класса Shape для управления внешним видом текстовых частей фигуры.
 
 Вот простой сценарий использования свойства Shape.TextOptions.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize an instance of Workbook
 
@@ -48,44 +49,44 @@ textbox.getTextOptions().setItalic(true);
 textbox.getTextOptions().setBold(true);
 
 {{< /highlight >}}
-### **Добавлено свойство ChartPoint.IsInSecondaryPlot**
-Aspose.Cells for Java предоставил свойство ChartPoint.IsInSecondaryPlot, которое можно использовать для определения того, находится ли ChartPoint на вторичном графике круговой или гистограммы.
+### **Добавлено свойство ChartPoint.IsInSecondaryPlot.**
+Aspose.Cells for Java добавило свойство ChartPoint.IsInSecondaryPlot, которое позволяет определить, находится ли объект ChartPoint на вторичном графике круговой или столбчатой диаграммы.
 
 Вот простой сценарий использования свойства Shape.Line.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Поиск DataPoint находится на втором графике](/cells/ru/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
+Проверьте подробную статью по [Обнаружению расположения точки данных на втором графике](/cells/ru/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Загрузить существующую электронную таблицу, содержащую круговую диаграмму
+ //Load an existing spreadsheet containing a Pie chart
 
-Книга рабочей книги = новая рабочая книга (каталог + "PieBar.xlsx");
+Workbook book = new Workbook(dir + "PieBar.xlsx");
 
-//Загрузить рабочий лист с индексом 0
+//Load the Worksheet at 0 index
 
-Рабочий лист = book.getWorksheets().get(0);
+Worksheet sheet = book.getWorksheets().get(0);
 
-//Загружаем первый график из коллекции
+//Load the first chart from the collection
 
-Диаграмма Диаграмма = лист.getCharts().get(0);
+Chart chart = sheet.getCharts().get(0);
 
-//Рассчитываем график перед доступом к его свойствам
+//Calculate the chart before accessing its properties
 
-диаграмма.вычислить();
+chart.calculate();
 
-//Доступ к первой серии графика
+//Accessing chart's first series
 
-Серии серий = chart.getNSeries().get(0);
+Series series = chart.getNSeries().get(0);
 
-//Перебираем коллекцию ChartPoint
+//Loop over the ChartPoint collection
 
- for(int p = 0 ; p< series.getPoints().getCount(); p++)
+for(int p = 0 ; p < series.getPoints().getCount(); p++)
 
 {
 
@@ -101,19 +102,19 @@ Aspose.Cells for Java предоставил свойство ChartPoint.IsInSec
 
 {{< /highlight >}}
 ### **Добавлено свойство OleObject.ClassIdentifier.**
-Aspose.Cells for Java 9.0.0 предоставило свойство OleObject.ClassIdentifier, которое можно использовать для указания поведения приложения при загрузке OleObject. Например, файл PPT может быть встроен в электронную таблицу с двумя разными представлениями, то есть; представление презентации или представление слайдов, тогда как оба представления имеют разные значения идентификатора класса.
+Aspose.Cells for Java 9.0.0 добавило свойство OleObject.ClassIdentifier, которое можно использовать для указания поведения при загрузке объекта OleObject. Например, файл PPT можно встроить в электронную таблицу с 2 разными видами, презентационным или отображением слайдов, при этом у обоих видов различные значения идентификатора класса.
 
 Ниже приведен простой сценарий использования свойства OleObject.ClassIdentifier.
 
 {{% alert color="primary" %}} 
 
- Ознакомьтесь с подробной статьей о[Использование OleObject.ClassIdentifier](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+Проверьте подробную статью по [Использованию OleObject.ClassIdentifier](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet containing a presentation as OleObject
 
@@ -129,13 +130,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 String progID = "";
 
@@ -145,7 +146,7 @@ String sourceFullName = "";
 
 Boolean isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 //Get the first worksheet from the collection
 
@@ -229,21 +230,21 @@ if (classId != null)
 ## **Устаревшие API**
 ### **Устаревший метод Worksheet.setBackground**
 Вместо этого используйте свойство Worksheet.BackgroundImage.
-### **Устаревшие свойства LineShape.BeginArrowheadStyle и ArcShape.BeginArrowheadStyle**
+### **Свойства LineShape.BeginArrowheadStyle и ArcShape.BeginArrowheadStyle устарели**
 В качестве альтернативы используйте свойство Shape.Line.BeginArrowheadStyle.
-### **Устаревшие свойства LineShape.EndArrowheadStyle и ArcShape.EndArrowheadStyle**
+### **Свойства LineShape.EndArrowheadStyle и ArcShape.EndArrowheadStyle устарели**
 В качестве альтернативы используйте свойство Shape.Line.EndArrowheadStyle.
-### **Устаревшие свойства LineShape.BeginArrowheadWidth и ArcShape.BeginArrowheadWidth**
+### **Свойства LineShape.BeginArrowheadWidth и ArcShape.BeginArrowheadWidth устарели**
 В качестве альтернативы используйте свойство Shape.Line.BeginArrowheadWidth.
-### **Устаревшие свойства LineShape.BeginArrowheadLength и ArcShape.BeginArrowheadLength**
-Вместо этого используйте свойство Shape.Line.BeginArrowheadLength.
-### **Устаревшие свойства LineShape.EndArrowheadWidth и ArcShape.EndArrowheadWidth**
-Вместо этого используйте свойство Shape.Line.EndArrowheadWidth.
-### **Устаревшие свойства LineShape.EndArrowheadLength и ArcShape.EndArrowheadLength**
-Вместо этого используйте свойство Shape.Line.EndArrowheadLength.
+### **Свойства LineShape.BeginArrowheadLength и ArcShape.BeginArrowheadLength устарели**
+Используйте свойство Shape.Line.BeginArrowheadLength вместо.
+### **Свойства LineShape.EndArrowheadWidth и ArcShape.EndArrowheadWidth устарели**
+Используйте свойство Shape.Line.EndArrowheadWidth вместо.
+### **Свойства LineShape.EndArrowheadLength и ArcShape.EndArrowheadLength устарели**
+Используйте свойство Shape.Line.EndArrowheadLength вместо.
 ## **Удаленные API**
-### **Удаленный метод Worksheet.copyConditionalFormatting**
-### **Удаленный метод Workbook.checkWriteProtectedPassword**
+### **Метод Worksheet.copyConditionalFormatting удален**
+### **Метод Workbook.checkWriteProtectedPassword удален**
 ## **Переименованные API**
-### **Метод Workbook.removeDigitallySign переименован.**
-Метод Workbook.removeDigitallySign был переименован в Workbook.removeDigitalSignature.
+### **Метод Workbook.removeDigitallySign переименован**
+Метод Workbook.removeDigitallySign переименован в Workbook.removeDigitalSignature.

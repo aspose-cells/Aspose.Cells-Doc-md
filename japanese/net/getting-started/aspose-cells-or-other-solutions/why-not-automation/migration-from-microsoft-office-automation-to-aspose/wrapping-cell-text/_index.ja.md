@@ -1,41 +1,42 @@
-﻿---
-title: ラッピング Cell テキスト
+---
+title: セルテキストの折り返し
 type: docs
 weight: 130
 url: /ja/net/wrapping-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-テキストを折り返すと、読みやすくなります。折り返されたテキストを含むセルは、テキストが他のセルの上に表示されないように、テキストに合わせて拡大されます。
+テキストを折り返すと、折り返されたテキストを持つセルが他のセルに表示されないようになり、読みやすくなります。
 
-Aspose.Cells for .NET を使用すると、開発者は、ユーザーが Microsoft Excel で実行できるほとんどのタスクをアプリケーションで実行できます (セル内のテキストの折り返しなど)。この記事では、VSTO と Aspose.Cells を使用してタスクを比較し、その方法を説明します。
+Aspose.Cells for .NETを使用すると、開発者はMicrosoft Excelでユーザーが実行できるほとんどのタスクをアプリケーションで実行できます。これにはセル内のテキストの折り返しなども含まれます。これは、VSTOおよびAspose.Cellsを使用して同じタスクを説明し、比較する記事です。Aspose.Cellsは効率的なコーディングに最適化されており、Microsoft Automationなしで動作します。
 
 {{% /alert %}}
 
-## **ラッピング Cell テキスト**
+## **セルのテキストの折り返し**
 
-2 つのセル (折り返されたテキストのあるセルとないセル) を持つワークシートを作成するには:
+折り返しテキストおよび折り返しのないテキストを含むワークシートを作成するには:
 
-1. ワークシートを設定します。
- 1. ワークブックを作成します。
- 1. 最初のワークシートにアクセスします。
-1. テキストを追加：
- 1. セル A1 にテキストを追加します。
- 1. 折り返されたテキストをセル A5 に追加します。
+1. ワークシートを設定します:
+   1. ワークブックを作成する。
+   1. 最初のワークシートにアクセスします。
+1. テキストを追加します:
+   1. セルA1にテキストを追加します。
+   1. セルA5に折り返しテキストを追加します。
 1. スプレッドシートを保存します。
 
-以下のコード サンプルは、これらの手順を実行する方法を示しています。[VSTO](/cells/ja/net/wrapping-cell-text/) C# または Visual Basic で。を使用して同じことを行う方法を示すコード サンプル[Aspose.Cells for .NET](/cells/ja/net/wrapping-cell-text/)、再び C# または Visual Basic を使用して、直後に続きます。
+以下のコード例では、[VSTO](/cells/ja/net/wrapping-cell-text/)を使用してこれらの手順を実行する方法と、[Aspose.Cells for .NET](/cells/ja/net/wrapping-cell-text/)を使用して同じことを行う方法を、直後にC#またはVisual Basicを使用して示しています。
 
-コードを実行すると、2 つのセルを含むスプレッドシートが作成されます。
+コードを実行すると、折り返されていないテキストを含むセルと折り返されたテキストを含むセルのあるスプレッドシートが作成されます。
 
-|<p>**VSTO で折り返しセル テキストを出力する** </p><p>![todo:画像_代替_文章](wrapping-cell-text_1.png)</p>|<p>**Aspose.Cells for .NET で折り返しセル テキストを出力する** </p><p>![todo:画像_代替_文章](wrapping-cell-text_2.png)</p>|
-|:- |:- |
+|<p>**Output wrapping cell text with VSTO** </p><p>![todo:image_alt_text](wrapping-cell-text_1.png)</p>|<p>**Output wrapping cell text with Aspose.Cells for .NET** </p><p>![todo:image_alt_text](wrapping-cell-text_2.png)</p>|
+| :- | :- |
 
-### **VSTO を使用した Cell テキストの折り返し**
+### **VSTOを使用してセルのテキストを折り返す**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -85,11 +86,11 @@ void WrappingCellText()
 
 {{< /highlight >}}
 
-### **Aspose.Cells for .NET を使用した Cell テキストの折り返し**
+### **Aspose.Cells for .NETを使用してセルのテキストを折り返す**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void WrappingCellText()
 

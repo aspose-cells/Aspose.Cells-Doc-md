@@ -1,15 +1,16 @@
-﻿---
+---
 title: Ajouter un filigrane Word Art au graphique
 type: docs
 weight: 10
 url: /fr/java/add-word-art-watermark-to-chart/
 ---
+
 ## **Aspose.Cells - Ajouter un filigrane Word Art au graphique**
-Vous pouvez utiliser WordArt pour ajouter des effets de texte spéciaux aux feuilles de calcul. Par exemple, étirez un titre, décorez du texte, adaptez le texte à une forme prédéfinie ou appliquez le texte affecté à la zone de traçage d'un graphique en tant que filigrane. Le WordArt devient un objet que vous pouvez déplacer ou positionner dans vos feuilles de calcul pour ajouter de la décoration.
+Vous pouvez utiliser WordArt pour ajouter des effets de texte spéciaux aux feuilles de calcul. Par exemple, étirer un titre, décorer du texte, ajuster un texte à une forme prédéfinie ou appliquer le texte affecté à la zone de traçage d'un graphique en tant que filigrane. Le WordArt devient un objet que vous pouvez déplacer ou positionner dans vos feuilles de calcul pour ajouter une décoration.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook.
 
@@ -44,14 +45,14 @@ wordart.setHasLine(false);
 workbook.save(dataDir + "AsposeChartWatermarked_Out.xls", SaveFormat.EXCEL_97_TO_2003);
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/charts/AddWordArtWatermarkToChart.java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Ajouter un filigrane WordArt au graphique](/cells/fr/java/add-wordart-watermark-to-chart).
+Pour plus de détails, visitez [Ajouter un filigrane WordArt au graphique](/cells/fr/java/add-wordart-watermark-to-chart).
 
 {{% /alert %}}

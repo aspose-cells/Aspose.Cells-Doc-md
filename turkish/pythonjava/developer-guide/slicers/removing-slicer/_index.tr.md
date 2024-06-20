@@ -1,14 +1,15 @@
-﻿---
-title: Dilimleyiciyi Çıkarma
+---
+title: Dilimleyici Kaldırma
 type: docs
 weight: 40
 url: /tr/python-java/removing-slicer/
 ---
-## **Dilimleyiciyi Çıkarma**
- Microsoft Excel'de dilimleyiciyi kaldırmak için dilimleyiciyi seçip düğmesine basmanız yeterlidir.*Silmek* buton. Aspose.Cells for Python via Java kullanarak kaydetmeyi gerçekleştirmek için Worksheet.getSlicers().remove() yöntemini kullanın. Dilimleyiciyi çalışma sayfasından kaldıracaktır.
 
-Aşağıdaki kod parçacığı,[örnek excel dosyası](106364970.xlsx)mevcut bir dilimleyici içerir. Dilimleyiciye erişir, onu kaldırır ve dilimleyiciyi kaydeder.[çıktı excel dosyası](106364971.xlsx). Aşağıdaki ekran görüntüsü, kaldırılacak olan dilimleyiciyi göstermektedir.
+## **Süzgeci Kaldırma**
+Microsoft Excel'de bir dilimleyiciyi kaldırmak için dilimleyiciyi seçip *Sil* düğmesine basmanız yeterlidir. Aspose.Cells for Python via Java kullanarak bunu yapmak için Worksheet.getSlicers().remove() yöntemini kullanın. Bu, çalışma sayfasından dilimleyiciyi kaldıracaktır. 
 
-![yapılacaklar:resim_alternatif_metin](Removing-Slicer-using-Aspose.Cells.png)
-## **Basit kod**
+Aşağıdaki kod parçası, mevcut bir dilimleyici içeren [örnek Excel dosyasını](106364970.xlsx) yükler. Dilimleyiciye erişir, onu kaldırır ve [çıktı Excel dosyası](106364971.xlsx) olarak kaydeder. Aşağıdaki ekran görüntüsü, kaldırılacak dilimleyiciyi gösterir.
+
+![todo:image_alt_text](Removing-Slicer-using-Aspose.Cells.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Slicers-RemovingSlicer.py" >}}

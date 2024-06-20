@@ -1,16 +1,17 @@
-﻿---
+---
 title: Formüllerde Dış Bağlantıları Ayarlama
 type: docs
 weight: 20
 url: /tr/net/set-external-links-in-formulas/
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen, örneğin bir hücre veya aralık değerini bunlara göre değerlendirmek için formüllere harici dosyalara bağlantılar eklemek gerekir. Aspose.Cells bu özelliği sağlar ve bu belge nasıl kullanılacağını açıklar.
+Bazı durumlarda, formüllerde dış dosyalara bağlantı eklemek gerekebilir, örneğin, bir hücre veya aralık değerini bunlarla karşılaştırmak için. Aspose.Cells bu özelliği sağlar, bu belge, bunu nasıl kullanacağınızı açıklar.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kod, harici dosyaların formüllere nasıl dahil edileceğini gösterir.
+Aşağıdaki örnek kod, formüllerde harici dosyaların nasıl dahil edileceğini gösterir.
 
 
 

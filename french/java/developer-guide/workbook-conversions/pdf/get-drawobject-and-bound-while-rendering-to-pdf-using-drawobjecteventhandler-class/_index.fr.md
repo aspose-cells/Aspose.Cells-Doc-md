@@ -1,36 +1,37 @@
-﻿---
-title: Obtenez DrawObject et Bound lors du rendu à PDF à l'aide de la classe DrawObjectEventHandler
+---
+title: Obtenez DrawObject et Bound lors du rendu au format PDF en utilisant la classe DrawObjectEventHandler
 type: docs
 weight: 60
 url: /fr/java/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/
 ---
+
 ## **Scénarios d'utilisation possibles**
 
-Aspose.Cells fournit une classe abstraite[**DrawObjectEventHandlerDrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) qui a un[**dessiner()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) méthode. L'utilisateur peut implémenter[**DrawObjectEventHandlerDrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)et utiliser le[**dessiner()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) méthode pour obtenir le[**DessinerObjet**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)et**Bondir**lors du rendu d'Excel en PDF ou Image. Voici une brève description des paramètres de[**dessiner()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) méthode.
+Aspose.Cells fournit une classe abstraite [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) qui possède une méthode [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)). L'utilisateur peut implémenter [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) et utiliser la méthode [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) pour obtenir [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) et **Bound** lors du rendu d'Excel en PDF ou en image. Voici une brève description des paramètres de la méthode [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)).
 
--  drawObject :[**DessinerObjet**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)sera initialisé et retourné lors du rendu
+- drawObject: [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) sera initialisé et retourné lors du rendu
 
-- x : à gauche de[**DessinerObjet**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- x: Gauche de [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-- y : Haut de[**DessinerObjet**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- y: Haut de [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-- largeur : Largeur de[**DessinerObjet**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- largeur: Largeur de [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-- hauteur : Hauteur de[**DessinerObjet**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- hauteur: Hauteur de [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-Si vous rendez le fichier Excel au PDF, vous pouvez utiliser[**DrawObjectEventHandlerDrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)classe avec[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler). De même, si vous convertissez un fichier Excel en image, vous pouvez utiliser[**DrawObjectEventHandlerDrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)classe avec[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DrawObjectEventHandler).
+Si vous générez un fichier Excel au format PDF, vous pouvez utiliser la classe [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) avec [**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler). De même, si vous générez un fichier Excel au format Image, vous pouvez utiliser la classe [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) avec [**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DrawObjectEventHandler).
 
-## **Obtenez DrawObject et Bound lors du rendu au format Pdf à l'aide de la classe DrawObjectEventHandler**
+## **Obtenez DrawObject et Bound lors du rendu au format Pdf en utilisant la classe DrawObjectEventHandler**
 
-Veuillez consulter l'exemple de code suivant. Il charge le[exemple de fichier Excel](64716843.xlsx)et l'enregistre sous[sortie PDF](64716842.pdf). Lors du rendu en PDF, il utilise[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler)propriété et capture le[**DessinerObjet**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) et**Bondir**de cellules et d'objets existants, par exemple des images, etc. Si le type drawObject est Cell, il imprime ses Bound et StringValue. Et si le type drawObject est Image, il imprime son Bound et Shape Name. Veuillez consulter la sortie de la console de l'exemple de code ci-dessous pour plus d'aide.
+Veuillez consulter le code d'exemple suivant. Il charge le [fichier Excel d'exemple](64716843.xlsx) et le sauvegarde en [PDF de sortie](64716842.pdf). Lors du rendu en PDF, il utilise la propriété [**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler) et capture le [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) et **Bound** des cellules et des objets existants, tels que les images, etc. Si le type de drawObject est Cell, il affiche son Bound et StringValue. Et si le type de drawObject est Image, il affiche son Bound et Nom de forme. Veuillez consulter la sortie de la console du code d'exemple ci-dessous pour plus d'aide.
 
-## **Exemple de code**
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-GetDrawObjectAndBoundUsingDrawObjectEventHandler.java" >}}
 
 ## **Sortie console**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 [X]: 153.60349 [Y]: 82.94118 [Width]: 103.203476 [Height]: 14.470589 [Cell Value]: This is sample text.
 

@@ -1,27 +1,28 @@
-﻿---
-title: パブリック API Aspose.Cells 8.4.0 の変更点
+---
+title: Aspose.Cells 8.4.0のパブリックAPI変更
 type: docs
 weight: 130
 url: /ja/net/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.3.2 から 8.4.0 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/net/public-api-changes-in-aspose-cells-8-4-0/)と[削除されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-4-0/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
+このドキュメントには、Aspose.Cellsのバージョン8.3.2から8.4.0へのAPIの変更が含まれており、モジュール/アプリケーション開発者に興味を持たれる可能性があるものです。[追加されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-4-0/)、[削除されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-4-0/)だけでなく、Aspose.Cellsの裏側での挙動の変更の説明も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **スプレッドシートの VBA/マクロ コードを変更するメカニズム**
-の機能を提供するために、[VBA/マクロコード操作](/cells/ja/net/modifying-vba-or-macro-code-using-aspose-cells/)、Aspose.Cells for .NET 8.4.0 は、Aspose.Cells.Vba 名前空間で一連の新しいクラスとプロパティを公開しました。これらの新しいクラスの重要な詳細のいくつかを以下に示します。
+## **APIの追加**
+### **スプレッドシート内のVBA/Macroコードを変更するメカニズム**
+VBA/Macro Code Manipulation機能を提供するために、Aspose.Cells for .NET 8.4.0ではAspose.Cells.Vbaネームスペースの新しいクラスとプロパティが公開されました。これらの新しいクラスの重要な詳細のいくつかは次のとおりです。
 
-- VbaProject クラスを使用して、特定のスプレッドシートから VBA プロジェクトを取得できます。
-- VbaModuleCollection クラスは、特定の VbaProject の一部である VBA モジュールのコレクションを表します。
-- VbaModule クラスは、VbaModuleCollection からの単一のモジュールを表します。
+- VbaProjectクラスは指定されたスプレッドシートからVBAプロジェクトを取得するために使用できます。
+- VbaModuleCollectionクラスは、指定されたVbaProjectの一部であるVBAモジュールのコレクションを表します。
+- VbaModuleクラスはVbaModuleCollectionから単一のモジュールを表します。
 
-次のコード スニペットは、VBA コード セグメントを動的に変更する方法を示しています。
+以下のコードスニペットは、VBAコードセグメントを動的に変更する方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -56,17 +57,17 @@ workbook.Save("output.xlsm");
 {{< /highlight >}}
 
 
-### **ピボット テーブルを削除する機能**
-Aspose.Cells for .NET 8.4.0 では、特定のスプレッドシートからピボット テーブルを削除する機能を提供する PivotTableCollection の 2 つのメソッドが公開されています。上記方法の詳細は以下の通りである。
+### **ピボットテーブルの削除機能**
+Aspose.Cells for .NET 8.4.0では、スプレッドシートからのピボットテーブルの削除機能を提供するために、PivotTableCollectionに2つのメソッドが公開されています。前述のメソッドの詳細は以下の通りです。
 
-- PivotTableCollection.Remove メソッドは、ピボットテーブルのオブジェクトを受け取り、コレクションから削除します。
-- PivotTableCollection.RemoveAt メソッドは、ゼロ インデックス ベースの整数値を受け入れ、特定のピボットテーブルをコレクションから削除します。
+- PivotTableCollection.RemoveメソッドはPivotTableのオブジェクトを受け入れ、それをコレクションから削除します。
+- PivotTableCollection.RemoveAtメソッドは、ゼロベースの整数値を受け入れ、特定のPivotTableをコレクションから削除します。
 
-次のコード スニペットは、上記の両方の方法を使用してピボットテーブルを削除する方法を示しています。
+以下のコードスニペットは、上記の両メソッドを使用してPivotTableを削除する方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -95,24 +96,24 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **さまざまなピボット テーブル レイアウトのサポート**
-Aspose.Cells for .NET 8.4.0 では、ピボット テーブルのさまざまな定義済みレイアウトがサポートされています。この機能を提供するために、Aspose.Cells API は PivotTable クラスの 3 つのメソッドを公開しました。詳しくは以下をご覧ください。
+### **異なるピボットテーブルレイアウトのサポート**
+Aspose.Cells for .NET 8.4.0は、ピボットテーブルの異なる定義済みレイアウトのサポートを提供します。この機能を提供するために、Aspose.CellsAPIはPivotTableクラス向けに以下の3つのメソッドを公開しています。
 
-- PivotTable.ShowInCompactForm メソッドは、ピボット テーブルをコンパクト レイアウトでレンダリングします。
-- PivotTable.ShowInOutlineForm メソッドは、ピボット テーブルをアウトライン レイアウトでレンダリングします。
-- PivotTable.ShowInTabularForm メソッドは、テーブル レイアウトでピボット テーブルをレンダリングします。
+- PivotTable.ShowInCompactFormメソッドは、ピボットテーブルをコンパクトレイアウトで表示します。
+- PivotTable.ShowInOutlineFormメソッドは、ピボットテーブルをアウトラインレイアウトで表示します。
+- PivotTable.ShowInTabularFormメソッドは、ピボットテーブルをタブレイアウトで表示します。
 
 {{% alert color="primary" %}} 
 
-上記のレイアウトのいずれかを設定した後、PivotTable.RefreshData と PivotTable.CalculateData を呼び出すことが重要です。
+上記のレイアウトのいずれかを設定した後は、PivotTable.RefreshDataおよびPivotTable.CalculateDataを呼び出すことが重要です。
 
 {{% /alert %}} 
 
-次のサンプル コードは、ピボット テーブルにさまざまなレイアウトを設定し、結果をディスクに保存します。
+以下のサンプルコードは、ピボットテーブルの異なるレイアウトを設定し、その結果をディスクに保存する方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -171,19 +172,19 @@ workbook.Save("TabularForm.xlsx");
 {{< /highlight >}}
 
 
-### **クラス TxtLoadStyleStrategy とプロパティ TxtLoadOptions.LoadStyleStrategy が追加されました**
-Aspose.Cells for .NET 8.4.0 は、文字列値を数値または日時に変換する際に解析された値をフォーマットする戦略を指定するために、TxtLoadStyleStrategy クラスと TxtLoadOptions.LoadStyleStrategy プロパティを公開しました。
-### **メソッド DataBar.ToImage が追加されました**
-v8.4.0 のリリースにより、Aspose.Cells API は、条件付きで書式設定された DataBar をイメージ形式で保存するための DataBar.ToImage メソッドを提供しました。 {DataBar.ToImage}} メソッドは、以下に詳述する 2 つのパラメーターを受け入れます。
+### **Class TxtLoadStyleStrategyおよびProperty TxtLoadOptions.LoadStyleStrategyの追加**
+Aspose.Cells for .NET 8.4.0では、TxtLoadStyleStrategyクラスとTxtLoadOptions.LoadStyleStrategyプロパティが公開され、文字列値を数値または日付時刻に変換する際の書式設定の戦略を指定するために使用されます。
+### **DataBar.ToImageメソッドの追加**
+v8.4.0のリリースに伴い、Aspose.CellsAPIは条件付き書式設定されたDataBarを画像形式で保存するためのDataBar.ToImageメソッドを提供しています。DataBar.ToImageメソッドは以下の2つのパラメータを受け入れます。
 
-- 最初のパラメーターは、条件付き書式が適用された Aspose.Cells.Cell 型です。
-- 2 番目のパラメーターは、結果のイメージのさまざまなパラメーターを設定するために、Aspose.Cells.Rendering.ImageOrPrintOptions 型です。
+- 最初のパラメータは、条件付き書式設定が適用されたAspose.Cells.Cell型です。
+- 2番目のパラメータは、結果として得られる画像の異なるパラメータを設定するためのAspose.Cells.Rendering.ImageOrPrintOptions型です。
 
-次のサンプル コードは、DataBar.ToImage メソッドを使用して DataBar をイメージ形式でレンダリングする方法を示しています。
+以下のサンプルコードは、DataBar.ToImageメソッドの使用方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -213,7 +214,7 @@ opts.ImageFormat = ImageFormat.Png;
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.ToImage(cell, opts);
+byte[] imgBytes = dbar.ToImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -222,24 +223,24 @@ File.WriteAllBytes("databar.png", imgBytes);
 {{< /highlight >}}
 
 
-### **プロパティ Border.ThemeColor が追加されました**
-Aspose.Cells API を使用すると、スプレッドシートからテーマ関連の書式設定データを抽出できます。 Aspose.Cells for .NET 8.4.0 のリリースにより、API は、Cell ボーダーのテーマ カラー属性を取得するために使用できる Border.ThemeColor プロパティを公開しました。
-### **プロパティ DrawObject.ImageBytes が追加されました**
-Aspose.Cells for .NET 8.4.0 では、Chart または Shape から画像データを取得する DrawObject.ImageBytes プロパティが公開されました。
-### **プロパティ HtmlSaveOptions.ExportBogusRowData が追加されました**
-Aspose.Cells for .NET 8.4.0 では {HtmlSaveOptions.ExportBogusRowData}} プロパティが提供されました。ブール型プロパティは、スプレッドシートを HTML 形式にエクスポートする際に、API が偽の最下行データを挿入するかどうかを決定します。
+### **Border.ThemeColorプロパティの追加**
+Aspose.CellsAPIには、スプレッドシートからテーマ関連の書式設定データを抽出することができます。Aspose.Cells for .NET 8.4.0のリリースに伴い、APIはCellボーダーのテーマカラー属性を取得するためにBorder.ThemeColorプロパティを公開しています。
+### **DrawObject.ImageBytesプロパティの追加**
+Aspose.Cells for .NET 8.4.0では、DrawObject.ImageBytesプロパティが公開され、ChartまたはShapeから画像データを取得できるようになりました。
+### **HtmlSaveOptions.ExportBogusRowDataプロパティの追加**
+Aspose.Cells for .NET 8.4.0では、HtmlSaveOptions.ExportBogusRowDataプロパティが提供されています。このBoolean型プロパティは、スプレッドシートをHTML形式にエクスポートする際に偽の最終行データを注入するかどうかを決定します。
 
 {{% alert color="primary" %}} 
 
-デフォルト値は true です。
+デフォルト値はtrueです。
 
 {{% /alert %}} 
 
-次のサンプル コードは、前述のプロパティの使用方法を示しています。
+以下のサンプルコードは、上記のプロパティの使用方法を説明しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -260,16 +261,16 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **プロパティ HtmlSaveOptions.CellCssPrefix が追加されました**
-新しく追加されたプロパティ HtmlSaveOptions.CellCssPrefix を使用すると、スプレッドシートを HTML 形式でエクスポートするときに、CSS ファイルのプレフィックスを設定できます。
+### **HtmlSaveOptions.CellCssPrefixプロパティの追加**
+新たに追加されたHtmlSaveOptions.CellCssPrefixプロパティは、スプレッドシートをHTML形式にエクスポートする際にCSSファイルの接頭辞を設定する機能を提供します。
 
 {{% alert color="primary" %}} 
 
-デフォルト値は "" (空の文字列) です。
+デフォルト値は「」（空の文字列）です。
 
 {{% /alert %}}
-## **廃止された API**
-### **メソッド Cells.GetCellByIndex & Row.GetCellByIndex は廃止されました**
-代わりに GetEnumerator メソッドを使用して、すべてのセルを反復処理します。
-### **プロパティ DrawObject.Image 廃止されました**
-代わりに、DrawObject.ImageBytes プロパティを使用して画像データを取得してください。
+## **非推奨のAPI**
+### **非推奨になった Cells.GetCellByIndex および Row.GetCellByIndex メソッド**
+すべてのセルを反復処理するには GetEnumerator メソッドを使用してください。
+### **DrawObject.Imageプロパティの廃止**
+画像データを取得するためにDrawObject.ImageBytesプロパティを使用してください。

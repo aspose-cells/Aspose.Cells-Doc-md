@@ -1,49 +1,50 @@
 ---
-title: ファイルを応答オブジェクトに保存する
+title: レスポンスオブジェクトへのファイルの保存
 type: docs
 weight: 50
 url: /ja/net/saving-file-to-response-object/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cellsによりファイル操作が可能になります。この記事では、ファイルを応答オブジェクトに保存するさまざまな方法について説明します。
+Aspose.Cellsを使用すると、ファイルを操作することができます。この記事では、ファイルをレスポンスオブジェクトに保存するさまざまな方法を説明します。
 
 {{% /alert %}}
 
-##  **ファイルを応答オブジェクトに保存する**
+## **レスポンスオブジェクトへのファイルの保存**
 
-ファイルを動的に生成し、クライアントのブラウザに直接送信することもできます。これを行うには、特別なオーバーロードされたバージョンの**[保存](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)**次のパラメータを受け入れるメソッド:
+ファイルを動的に生成し、それをクライアントブラウザに直接送信することも可能です。そのためには、次のパラメータを受け入れる[**Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)メソッドの特別なオーバーロードバージョンを使用します。
 
-- ASP.NET **[HttpResponse](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8)**物体。
+- ASP.NET [**HttpResponse**](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8)オブジェクト。
 - ファイル名。
-- *[コンテンツの配置](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**、出力ファイルのコンテンツ配置タイプ。
-- *[保存オプション](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**、ファイル形式のタイプ
+- [**ContentDisposition**](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)、出力ファイルのcontent-dispositionタイプ。
+- [**SaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)、ファイル形式の種類
 
-の**[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**列挙は、ブラウザに送信されるファイルが、ブラウザ内で直接開くオプション、または .xls/.xlsx または別の拡張子に関連付けられたアプリケーションで開くオプションを提供するかどうかを決定します。
+[**ContentDisposition**](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition) 列挙型は、ブラウザに送信されるファイルが、ブラウザ内で直接開くか、.xls/.xlsx または他の拡張子に関連付けられたアプリケーションで開くオプションを提供するかを決定します。
 
-列挙には、次の事前定義された保存タイプが含まれています。
+列挙型には、以下の事前定義された保存タイプが含まれています:
 
 |**タイプ**|**説明**|
 | :- | :- |
-|Attachment|スプレッドシートをブラウザに送信し、.xls/.xlsx またはその他の拡張子に関連付けられた添付ファイルとしてアプリケーションで開きます。|
-|Inline|ドキュメントをブラウザに送信し、スプレッドシートをディスクに保存するか、ブラウザ内で開くかを選択するオプションを表示します。|
+|アタッチメント|スプレッドシートをブラウザに送り、.xls/.xlsx や他の拡張子に関連付けられたアプリケーションで添付ファイルとして開きます|
+|インライン|ドキュメントをブラウザに送り、スプレッドシートをディスクに保存するかブラウザ内で開くオプションを表示します|
 
-###  **XLS ファイル**
+### **XLS ファイル**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-###  **XLSX ファイル**
+### **XLSX ファイル**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-###  **PDF ファイル**
+### **PDF ファイル**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 
-###  **ノート**
+### **注**
 
-.NET5や.Netstandardには含まれていないオブジェクト「System.Web.HttpResponse」のため、
-したがって、この関数は Aspose.Cells .NET5 および .Netstandard バージョンには存在しないため、次のコードを参照してファイルをストリームに保存し、ストリームに対して操作を行うことができます。
+NET5 および .Netstandard に含まれていないオブジェクト "System.Web.HttpResponse" により、
+この機能は Aspose.Cells .NET5 および .Netstandard バージョンに存在しないため、ファイルをストリームに保存し、ストリームに対して操作を行うために、以下のコードを参照してください。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 

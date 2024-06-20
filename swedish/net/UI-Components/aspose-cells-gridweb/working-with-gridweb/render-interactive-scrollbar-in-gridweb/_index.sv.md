@@ -1,13 +1,16 @@
-﻿---
+---
 title: Rendera interaktiv rullningslist i GridWeb
 type: docs
 weight: 170
-url: /sv/net/render-interactive-scrollbar-in-gridweb/
+url: /sv/net/aspose-cells-gridweb/render-interactive-scrollbar-in-gridweb/
+keywords: GridWeb, rullningslist
+description: Den här artikeln introducerar hur man arbetar med rullningslistan i GridWeb.
 ---
-## **Möjliga användningsscenarier**
- Aspose.Cells för GridWeb kan återge interaktiv rullningslistkontroll inuti GridWeb-kalkylbladet. Användaren kan interagera med rullningslisten som de gör i Microsoft Excel. För att skapa interaktiv rullningslist måste du lägga till länkarna för**jQuery** och**jQuery UI** bibliotek som visas nedan.
 
-{{< highlight "java" >}}
+## **Möjliga användningsscenario**
+Aspose.Cells för GridWeb kan rendera en interaktiv rullningslistkontroll inuti GridWeb-kalkylarket. Användaren kan interagera med rullningslisten på samma sätt som i Microsoft Excel. För att skapa en interaktiv rullningslist måste du lägga till länkar till **jQuery** och **jQuery UI**-bibliotek som visas nedan.
+
+{{< highlight java >}}
 
  <head runat="server">
 
@@ -21,7 +24,7 @@ url: /sv/net/render-interactive-scrollbar-in-gridweb/
 
 {{< /highlight >}}
 ## **Rendera interaktiv rullningslist i GridWeb**
- Följande exempelkod laddar[exempel på Excel-fil](61767764.xlsx)som innehåller rullningslisten som visas i följande skärmdump. De andra skärmdumparna visar hur GridWeb renderar interaktiv rullningslist och visar värdet på rullningslisten i cell B3. När du rullar rullningslisten visar värdet för cell B3 det resulterande värdet.
+Följande exempelkod laddar in [exempel på Excel-filen](61767764.xlsx) som innehåller rullningslisten enligt skärmbilderna. De andra skärmbilderna visar hur GridWeb renderar en interaktiv rullningslist och visar värdet på rullningslisten i cellen B3. När du rullar rullningslisten visas värdet på cell B3.
 
 ![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_1.png)
 
@@ -31,7 +34,7 @@ url: /sv/net/render-interactive-scrollbar-in-gridweb/
 
 ![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_4.png)
 ## **Exempelkod**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <%@ Page Language="C#" AutoEventWireup="true" CodeFile="TestGridWeb.aspx.cs" Inherits="TestGridWeb" %>
 

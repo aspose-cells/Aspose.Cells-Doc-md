@@ -1,20 +1,23 @@
-﻿---
-title: Utilisation de la fonction Afficher les formules de GridWeb
+---
+title: Utilisez la fonction Afficher les formules de GridWeb
 type: docs
 weight: 30
-url: /fr/net/using-show-formulas-feature-of-gridweb/
+url: /fr/net/aspose-cells-gridweb/use-show-formulas-feature/
+keywords: GridWeb, afficher les formules, formule
+description: Cet article décrit comment afficher les formules dans GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Parfois, vous devez trouver un moyen simple pour les cellules contenant des formules. Vous devez avoir une approche pour lire rapidement toutes les formules afin de vérifier les erreurs. Cela peut vous aider à suivre les données utilisées dans une formule.
+Parfois, vous devez trouver un moyen simple pour les cellules contenant des formules. Vous devez avoir une approche pour lire rapidement toutes les formules afin de vérifier les erreurs. Cela peut vous aider à retracer les données utilisées dans une formule.
 
-Aspose.Cells.GridWeb fournit la fonctionnalité appelée Afficher les formules dans Microsoft Excel.
+Aspose.Cells.GridWeb offre la fonctionnalité appelée Afficher les formules dans Microsoft Excel.
 
 {{% /alert %}} 
 ## **Utilisation de la fonction Afficher les formules**
-Il vous suffit d'utiliser un raccourci "CTRL + ~" pour afficher toutes les formules de la feuille de calcul.
+Vous avez juste besoin d'utiliser un raccourci "CTRL + ~" pour afficher toutes les formules dans la feuille de calcul.
 
-Par exemple, nous chargeons un fichier de modèle dans le GridWeb qui contient des formules dans la colonne C, voici le code que nous avons simplement utilisé pour charger le fichier.
+Par exemple, nous chargeons un fichier modèle dans le GridWeb qui contient des formules dans la colonne C, voici le code que nous avons simplement utilisé pour charger le fichier.
 
 
 
@@ -24,8 +27,8 @@ Par exemple, nous chargeons un fichier de modèle dans le GridWeb qui contient d
 
 Le fichier est chargé dans le GridWeb et nous pouvons voir une feuille avec toutes les valeurs dans l'image ci-dessous.
 
-![tâche : image_autre_texte](using-show-formulas-feature-of-gridweb_1.png)
+![todo:image_alt_text](using-show-formulas-feature-of-gridweb_1.png)
 
 Après avoir appuyé sur CTRL + ~, toutes les formules sont affichées.
 
-![tâche : image_autre_texte](using-show-formulas-feature-of-gridweb_2.png)
+![todo:image_alt_text](using-show-formulas-feature-of-gridweb_2.png)

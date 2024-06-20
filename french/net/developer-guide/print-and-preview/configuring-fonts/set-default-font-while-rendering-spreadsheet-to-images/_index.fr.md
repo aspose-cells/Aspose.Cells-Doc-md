@@ -1,27 +1,28 @@
-﻿---
-title: Définir la police par défaut lors du rendu de la feuille de calcul en images
+---
+title: Définir la police par défaut lors du rendu de feuilles de calcul en images
 type: docs
 weight: 360
 url: /fr/net/set-default-font-while-rendering-spreadsheet-to-images/
 ---
+
 {{% alert color="primary" %}}
 
- Veuillez utiliser le[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) propriété pour définir la police par défaut lors du rendu des feuilles de calcul en images. Cette propriété ne sera effective que lorsque la police par défaut du classeur ne pourra pas restituer vos caractères. La police par défaut spécifiée avec[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) La propriété est utilisée pour toutes les cellules qui ont des polices invalides ou inexistantes.
+Veuillez utiliser la propriété [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) pour définir la police par défaut lors du rendu des feuilles de calcul en images. Cette propriété ne sera efficace que lorsque la police par défaut du classeur ne pourra pas afficher vos caractères. La police par défaut spécifiée avec la propriété [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) est utilisée pour toutes les cellules qui ont des polices invalides ou inexistantes.
 
 {{% /alert %}}
 
-## Définir la police par défaut lors du rendu de la feuille de calcul en images
+## Définir la police par défaut lors du rendu de feuilles de calcul en images
 
-L'exemple de code suivant crée un classeur, ajoute du texte dans la cellule A4 de la première feuille de calcul et définit sa police sur une police non valide ou inexistante. Ensuite, il prend deux images de la feuille de calcul. La première image est prise en réglant le[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) propriété à*Courrier Nouveau* et la deuxième image est prise en réglant le[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) propriété à*Times New Roman*.
+Le code d'exemple suivant crée un classeur, ajoute du texte dans la cellule A4 de la première feuille de calcul, et définit sa police sur une police invalide ou inexistante. Ensuite, il prend deux images de la feuille de calcul. La première image est prise en définissant la propriété [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) sur *Courier New* et la deuxième image est prise en définissant la propriété [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) sur *Times New Roman*.
 
- Il s'agit de l'image de sortie après avoir défini le[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) propriété à*Courrier Nouveau*.
+Voici l'image de sortie après avoir défini la propriété [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) sur *Courier New*.
 
-![tâche : image_autre_texte](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
- Il s'agit de l'image de sortie après avoir défini le[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) propriété à*Times New Roman*.
+Voici l'image de sortie après avoir défini la propriété [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) sur *Times New Roman*.
 
-![tâche : image_autre_texte](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
-## Exemple de code
+## Code d'exemple
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetDefaultFontWhileRenderingSpreadsheet-1.cs" >}}

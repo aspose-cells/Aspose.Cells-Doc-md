@@ -1,16 +1,17 @@
-﻿---
-title: تصدير Excel إلى HTML باستخدام خطوط الشبكة
+---
+title: تصدير Excel إلى HTML مع خطوط الشبكة
 type: docs
 weight: 40
 url: /ar/net/export-excel-to-html-with-gridlines/
 ---
+
 {{% alert color="primary" %}} 
 
- إذا كنت ترغب في تصدير ملف Excel الخاص بك إلى HTML باستخدام خطوط الشبكة ، فالرجاء استخدام ملحق[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) الملكية وتعيينها**حقيقي**.
+إذا كنت ترغب في تصدير ملف Excel الخاص بك إلى HTML مع GridLines، فمن فضلك استخدم خاصية [HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) واضبطها **صحيحة**.
 
 {{% /alert %}} 
-## **تصدير Excel إلى HTML باستخدام خطوط الشبكة**
-ينشئ نموذج التعليمات البرمجية التالي مصنفًا ويملأ ورقة العمل الخاصة به ببعض القيم ثم يحفظها بتنسيق HTML بعد تعيين[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) إلى**حقيقي**.
+## **تصدير Excel إلى HTML مع خطوط الشبكة**
+يقوم الكود المعروض بإنشاء دفتر عمل وملئ ورقته ببعض القيم ثم يحفظه بتنسيق HTML بعد ضبط [HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) إلى **صحيحة**.
 
 
 

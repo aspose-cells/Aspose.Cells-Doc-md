@@ -1,11 +1,12 @@
-﻿---
-title: NPOI および Aspose.Cells のデータの操作
+---
+title: NPOIとAspose.Cellsでデータを操作する
 type: docs
 weight: 10
 url: /ja/net/working-with-data-in-npoi-and-aspose-cells/
 ---
-このセクションには、次のトピックがあります。
 
-- [Cell コンテンツの取得](/cells/ja/net/getting-cell-contents/)
-- [ワークシートにハイパーリンクを挿入](/cells/ja/net/insert-hyperlinks-in-worksheet/)
-- [改行 in Cells](/cells/ja/net/new-line-in-cells/)
+このセクションには、次のトピックが含まれます:
+
+- [セルの内容を取得する](/cells/ja/net/getting-cell-contents/)
+- [ワークシートにハイパーリンクを挿入する](/cells/ja/net/insert-hyperlinks-in-worksheet/)
+- [セル内で改行を挿入する](/cells/ja/net/new-line-in-cells/)

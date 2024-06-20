@@ -1,14 +1,15 @@
-﻿---
-title: نسخ أوراق العمل داخل مصنف
+---
+title: نسخ أوراق العمل داخل دفتر عمل
 type: docs
 weight: 20
 url: /ar/net/copy-worksheets-within-a-workbook/
 ---
-**Aspose.Cells** يوفر طريقة محملة فوق طاقتها ،**Aspose.Cells.WorksheetCollection.AddCopy ()**، يتم استخدامها لإضافة ورقة عمل إلى المجموعة ونسخ البيانات من ورقة عمل موجودة. إصدار واحد من الأسلوب يأخذ فهرس ورقة العمل المصدر كمعامل. الإصدار الآخر يأخذ اسم ورقة العمل المصدر كمعلمة.
 
-يوضح المثال التالي كيفية نسخ ورقة عمل موجودة داخل مصنف.
+**Aspose.Cells** يوفر طريقة زائدة، **Aspose.Cells.WorksheetCollection.AddCopy()** تُستخدم لإضافة ورقة عمل إلى المجموعة ونسخ البيانات من ورقة عمل موجودة. إحدى النسخ من الطريقة تأخذ فهرس الورقة المصدر كمعامل. النسخة الأخرى تأخذ اسم الورقة المصدر كمعامل.
 
-{{< highlight "csharp" >}}
+المثال التالي يظهر كيفية نسخ ورقة عمل موجودة داخل سجل العمل.
+
+{{< highlight csharp >}}
 
  //Create a new Workbook.
 
@@ -33,6 +34,6 @@ sheets.AddCopy("MySheet");
 wb.Save("Copy Worksheet.xls");
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **تحميل رمز عينة**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Worksheet%20%28Aspose.Cells%29.zip)

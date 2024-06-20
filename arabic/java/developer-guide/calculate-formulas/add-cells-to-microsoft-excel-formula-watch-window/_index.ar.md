@@ -1,19 +1,20 @@
-﻿---
-title: أضف Cells إلى Microsoft نافذة مشاهدة Excel Formula
+---
+title: إضافة الخلايا إلى نافذة مراقبة الصيغ في Microsoft Excel
 type: docs
 weight: 20
 url: /ar/java/add-cells-to-microsoft-excel-formula-watch-window/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-Microsoft Excel Watch Window هي أداة مفيدة لمشاهدة قيم الخلية وصيغها بسهولة في النافذة. يمكنك فتح ملف*مشاهدة النافذة*باستخدام Microsoft Excel بالضغط على*الصيغ> مشاهدة* *نافذة او شباك*. لديها*أضف مشاهدة*زر يمكن استخدامه لإضافة الخلايا للفحص. وبالمثل ، يمكنك استخدام ملفات[**Worksheet.getCellWatches (). add ()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int)) طريقة لإضافة خلايا إليها*مشاهدة النافذة*باستخدام Aspose.Cells API.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **أضف Cells إلى Microsoft نافذة مشاهدة Excel Formula**
+نافذة المراقبة في Microsoft Excel هي أداة مفيدة لمراقبة قيم الخلايا وصيغها بشكل ملائم في نافذة. يمكنك فتح *Watch Window* في Microsoft Excel عن طريق النقر على *Formulas > Watch* *Window*. يحتوي على زر *Add Watch* الذي يمكن استخدامه لإضافة الخلايا للتفتيش. بالمثل ، يمكنك استخدام الأسلوب [**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int)) لإضافة الخلايا إلى *Watch Window* باستخدام Aspose.Cells API.
 
- يعيّن نموذج التعليمات البرمجية التالي صيغة الخليتين C1 و E1 ويضيف كل منهما إليه*مشاهدة النافذة*. ثم يحفظ المصنف باسم[إخراج ملف Excel](67338509.xlsx). إذا قمت بفتح ملف Excel الناتج وعرض ملف*مشاهدة النافذة*، سترى كلا الخليتين كما هو موضح في لقطة الشاشة هذه.
+## **إضافة الخلايا إلى نافذة مراقبة صيغ Microsoft Excel**
 
-![ما يجب القيام به: image_بديل_نص](add-cells-to-microsoft-excel-formula-watch-window_1.png)
+الكود النموذجي التالي يحدد صيغة الخلايا C1 و E1 ويضيف كل منهما إلى *نافذة المراقبة*. ثم يقوم بحفظ دفتر العمل كـ [ملف Excel الناتج](67338509.xlsx). إذا فتحت ملف Excel الناتج وعرضت *نافذة المراقبة*, سترى كلا الخليتين كما هو موضح في هذا اللقطة.
 
-## **عينة من الرموز**
+![todo:image_alt_text](add-cells-to-microsoft-excel-formula-watch-window_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Formulas-AddCellsToMicrosoftExcelFormulaWatchWindow.java" >}}

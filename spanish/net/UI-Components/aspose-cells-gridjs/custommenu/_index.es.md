@@ -1,15 +1,16 @@
-﻿---
-title:  Menús contextuales personalizados para GridJs
+---
+title: Menús contextuales personalizados para GridJs  
 type: docs
 weight: 250
 url: /es/net/aspose-cells-gridjs/custommenu/
 description: Este artículo describe cómo configurar menús contextuales para GridJs.
-keywords: custom menu items, context menu
+keywords: GridJs, elementos de menú personalizados, menú contextual, personalizado, contexto, menú
 ---
+
 # Menús contextuales personalizados
-Tenemos algunos elementos de menú contextual integrados, por ejemplo, insertar/eliminar fila/columna, etc.
-Sin embargo, si el usuario desea personalizar los elementos del menú contextual.
-Admitimos establecer elementos del menú contextual en las opciones de carga.
+Tenemos algunos elementos de menú contextuales integrados, por ejemplo, insertar/eliminar fila/columna, etc.
+Sin embargo, si el usuario desea personalizar elementos del menú contextual.
+Soportamos configurar elementos del menú contextual en las opciones de carga.
 por ejemplo:
 ```javascript
         const onMyActionClick1 = (sheet) => {
@@ -34,15 +35,15 @@ por ejemplo:
             })
 ```
 
-Admitimos las siguientes API de JS para elementos de menú contextual personalizados en tiempo de ejecución
+Soportamos las siguientes APIs de JS para elementos del menú contextual personalizados en tiempo de ejecución
 
 
-- obtener elementos de menú contextual personalizados
+- obtener elementos del menú contextual personalizados
 ```javascript
 xs.sheet.getCustomContextMenuItems()
 ```
 
-- agregar elementos de menú contextual personalizados
+- agregar elementos del menú contextual personalizados
 ```javascript
 xs.sheet.addCustomContextMenuItems(itemsarray)
  // the parameter is:
@@ -50,7 +51,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'menu4','callback':(x)=>{console.log('hello4444');}},{'key':'key3','text':'menu3','callback':(x)=>{console.log('hello3333');}}]
 ```
 
-- eliminar elementos del menú contextual personalizado
+- eliminar elementos del menú contextual personalizados
 ```javascript
  xs.sheet.delCustomContextMenuItems(keysarray)()
  // the parameter is:
@@ -58,7 +59,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-- inserte un elemento de menú contextual personalizado en la posición especificada
+- insertar elemento personalizado en el menú contextual en la posición especificada
 ```javascript
 xs.sheet.insertCustomContextMenuItem(item,postion)
  // the parameter is:
@@ -67,7 +68,7 @@ xs.sheet.insertCustomContextMenuItem(item,postion)
  postion:the postion for the inserted item in the items array
 ```
 
-- actualizar el elemento del menú contextual personalizado con la tecla
+- actualizar elemento personalizado en el menú contextual por la clave
 ```javascript
 xs.sheet.updateCustomContextMenuItem(key,item)
  // the parameter is:
@@ -77,12 +78,12 @@ xs.sheet.updateCustomContextMenuItem(key,item)
 ```
 
 
-- obtener elementos de menú contextual personalizados para imagen/forma
+- obtener elementos personalizados del menú contextual para imagen/forma
 ```javascript
 xs.sheet.getImageContextMenuItems()
 ```
 
-- agregar elementos de menú contextual personalizados para imagen/forma
+- agregar elementos personalizados del menú contextual para imagen/forma
 ```javascript
 xs.sheet.addImageContextMenuItems(itemsarray)
  // the parameter is:
@@ -90,7 +91,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'img operation1','callback':(x)=>{console.log('operation1 on image');}},{'key':'key3','text':'img operation2','callback':(x)=>{console.log('operation2 on image');}}]
 ```
 
-- eliminar elementos de menú contextual personalizados para imagen/forma
+- eliminar elementos personalizados del menú contextual para imagen/forma
 ```javascript
  xs.sheet.delImageContextMenuItems(keysarray)()
  // the parameter is:
@@ -98,7 +99,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-Puede encontrar más en nuestra página de demostración de github https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+Puede encontrar más en nuestra página de demostración en GitHub https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
 
 
- 
+

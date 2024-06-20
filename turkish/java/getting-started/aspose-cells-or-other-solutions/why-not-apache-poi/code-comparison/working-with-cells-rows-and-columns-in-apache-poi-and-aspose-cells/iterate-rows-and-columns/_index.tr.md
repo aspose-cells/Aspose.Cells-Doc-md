@@ -1,34 +1,35 @@
 ---
-title: Satırları ve Sütunları Yinele
+title: Satır ve Sütunları İterele
 type: docs
 weight: 50
 url: /tr/java/iterate-rows-and-columns/
-description: Aspose.Cells for Java API'leri aracılığıyla Satırları ve Sütunları yinelemeyi öğrenin.
-keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
+description: Aspose.Cells for Java API leri aracılığıyla Satır ve Sütunları Nasıl İtereleme Öğrenin.
+keywords: Java da Satır ve Sütunları İtereleme, Java Kullanarak Satırları İtereleme, Java Sütunlarını İtereleme. 
 ---
-##  **Aspose.Cells for Java Kullanılarak Satır ve Sütunlar Nasıl Yinelenir?**
 
-Satırlar ve Sütunlar, satırlar ve sütunlar koleksiyonu kullanılarak yinelenebilir.
+## **Aspose.Cells for Java Kullanarak Satır ve Sütunları Nasıl İtereleme**
+
+Satır ve Sütunlar, satır ve sütun koleksiyonları kullanılarak iterelenebilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Maksimum Görüntüleme Aralığına Erişim
+ //Access the Maximum Display Range
 
-Aralık aralığı = çalışma sayfası.getCells().getMaxDisplayRange();
+Range range = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("Toplam Satır:" + satırlar);
+System.out.println("Total Rows:" + trows);
 
-System.out.println("Toplam Sütun:" + tcols);
+System.out.println("Total Cols:" + tcols);
 
-RowCollection satırları = hücreler.getRows();
+RowCollection rows = cells.getRows();
 
- for (int i = 0 ; ben< rows.getCount() ; i++)
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -46,13 +47,13 @@ RowCollection satırları = hücreler.getRows();
 
 {{< /highlight >}}
 
-##  **Apache POI SS - HSSF XSSF - Satırları ve Sütunları Yinele**
+## **Apache POI SS - HSSF XSSF - Satır ve Sütunları İtereleme**
 
-Satırlar ve Cells, Sayfada yinelenebilir. Örnek kod aşağıda belirtilmiştir:
+Satırlar ve Hücreler Sayfada İterelenebilir. Örnek kod aşağıda belirtilmiştir:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = WorkbookFactory.create(inStream);
 
@@ -74,11 +75,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-##  **Çalışan Kodu İndir**
+## **Çalışan Kodu İndir**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-##  **Örnek Kodu İndirin**
+## **Örnek Kod İndir**
 
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/Java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

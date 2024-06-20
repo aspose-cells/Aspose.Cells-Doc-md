@@ -1,112 +1,113 @@
-﻿---
-title: Umbraco Üyeleri Excel'e Aktar
+---
+title: Umbraco Üyeleri Excel e Aktar
 type: docs
 weight: 10
 url: /tr/net/umbraco-export-members-to-excel/
 ---
+
 ## **Giriş**
 
- Üyeleri Excel'e Aktar, üyeleri Umbraco CMS'nizden bir Excel'e ve OpenDocument Elektronik Tablosuna aktarmanıza izin veren bir Umbraco Eklentisidir.[Aspose.Cells](https://products.aspose.com/cells/net/) . adlı yeni bir düğüm**Üyeleri Excel'e Aktar**kurulumdan sonra Umbraco arka ucundaki Üyeler ağacının altında belirir ve burada dışa aktarılacak üyeleri kolayca seçebilir ve üyeleri seçilen çıktı belgesi biçiminde almak için çıktı biçimini alabilirsiniz.
+Üyeleri Excel'e Aktar, [Aspose.Cells](https://products.aspose.com/cells/net/) kullanarak Umbraco CMS'deki üyeleri Excel ve OpenDocument Yaprağına aktarmanıza olanak tanıyan bir Umbraco için bir Eklentidir. Kurulumdan sonra Umbraco arka ofisinde Üyeler ağacı altında **Üyeleri Excel'e Aktar** başlıklı yeni bir düğme belirir; buradan dilediğiniz üyeleri seçip çıkış formatını seçerek istenen doküman formatında üyeleri alabilirsiniz.
 
 ### **Modül Özellikleri**
 
-Eklentinin bu ilk sürümü aşağıdaki özelliklere sahiptir:
+Bu eklentinin ilk sürümü aşağıdaki özelliklere sahiptir:
 
-- Üyeleri Microsoft Excel Belgelerine (.xls, .xlsx ve .xlsb) dışa aktarın
-- Üyeleri Sekmeyle ayrılmış metin belgesine (.txt) dışa aktar
-- Üyeleri CSV (Virgülle ayrılmış) (*.csv) olarak dışa aktar
-- Üyeleri OpenDocument Elektronik Tablosuna (*.ods) aktarın
-- Dışa aktarmadan önce istenen çıktı formatını seçme seçeneği
-- Tüm veya seçili üyeleri seçili çıktı belgesi biçimine aktarma seçeneği.
-- .NET 2.0'dan itibaren tüm .NET sürümleriyle çalışır.
-- Dışa aktarılan belge, indirilmek üzere otomatik olarak tarayıcıya gönderilir
-- Seçilirse, dışa aktarılan belgenin bir kopyası daha sonra kullanılmak üzere sunucudaki App_Data/AsposeMemberExport klasörüne kaydedilir.
--  Çok çeşitli Umbraco sürümleriyle uyumlu**4.5**+ **Sürüm 6 ve 7 dahil.**
+- Üyeleri Microsoft Excel Belgelerine dışa aktarma (.xls, .xlsx ve .xlsb)
+- Üyeleri Sekme ile ayrılmış metin belgesine dışa aktarma (.txt)
+- Üyeleri CSV (Virgülle Ayrılmış) (*.csv) biçimine dışa aktarma
+- Üyeleri OpenDocument Elektronik Tablosuna dışa aktarma (*.ods)
+- Dışa aktarmadan önce istenen çıkış biçimini seçme seçeneği
+- Tüm veya seçilen üyeleri seçilen çıkış belge biçimine dışa aktarma seçeneği
+- .NET 2.0'dan başlayarak tüm .NET sürümleriyle çalışır.
+- Dışa aktarılan belge otomatik olarak tarayıcıya indirilir
+- Dışa aktarılan belgenin bir kopyası, ileride kullanılmak üzere sunucuda App_Data/AsposeMemberExport klasörüne kaydedilir.
+- **4.5**+ sürümü de dahil olmak üzere geniş bir Umbraco sürüm yelpazesiyle uyumludur.
 
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
 
-### **sistem gereksinimleri**
+### **Sistem Gereksinimleri**
 
-Bu modülü kurmak için aşağıdaki gereksinimleri karşılamanız gerekir:
+Bu modülü kurmak için aşağıdaki gereksinimlerin karşılanması gerekmektedir:
 
 - Umbraco 6.0 +
 
-Bu modülü Umbraco'nun diğer sürümlerine kurmak isterseniz lütfen bizimle iletişime geçmekten çekinmeyin.
+Bu modülü Umbraco'nun diğer sürümlerine kurmak istiyorsanız lütfen bize başvurun.
 
 ### **Desteklenen Platformlar**
 
-Modül, tüm sürümlerinde desteklenir
+Modül tüm sürümlerde desteklenir
 
 - ASP.NET 4.0 üzerinde çalışan Umbraco
 
-## **indiriliyor**
+## **İndirme**
 
-Üyeleri Excel'e Aktar Eklentisini aşağıdaki konumlardan birinden indirebilirsiniz.
+Export Members to Excel eklentisini aşağıdaki yerlerden birinden indirebilirsiniz
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Umbraco_Member_Export_To_Excel_1.0)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Umbraco_Member_Export_To_Excel_1.0)
 
-## **yükleme**
+## **Yüklemek**
 
-İndirdikten sonra, bu paketi Umbraco web sitenize yüklemek için lütfen şu adımları izleyin:
+İndirdikten sonra lütfen bu paketi Umbraco web sitenize yüklemek için aşağıdaki adımları izleyin:
 
-1.  Umbraco'da oturum açın**Geliştirici** bölüm, örneğin `http://www.myblog.com/umbraco/`
-1.  ağaçtan genişletin**Paketler** Klasör.
-1.  Buradan bir paketi kurmanın iki yolu vardır: seçin**Yerel paketi kurun** veya göz atın**Umbraco Paket Deposu.**
-1. eğer kurarsan**yerel paket**, paketi açmayın ama zip'i Umbraco'ya yükleyin.
-1. Ekrandaki yönergeleri takip edin.
+1. Örneğin, `http://www.myblog.com/umbraco/` adresine giriş yapın
+1. Ağaçtan **Paketler** klasörünü genişletin
+1. Buradan bir paket yüklemek için iki yol vardır: **Yerel paketi yükle**'yi seçin veya **Umbraco Paket Deposu'nu** göz atın
+1. **Yerel paket** kurarsanız, paketi açmayın, sadece zip'i Umbraco'ya yükleyin
+1. Ekrandaki talimatları izleyin
 
-**Not:** Yükleme sırasında 'Maksimum istek uzunluğu aşıldı' hatası alabilirsiniz. Umbraco web.config dosyanızdaki 'maxRequestLength' değerini güncelleyerek bu sorunu kolayca çözebilirsiniz.
+**Not:** Kurulum sırasında ‘Maximum request length exceeded’ hatası alabilirsiniz. Bu sorunu Umbraco web.config dosyanızdaki ‘maxRequestLength’ değerini güncelleyerek kolayca çözebilirsiniz.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
   <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" /> 
 
 {{< /highlight >}}
 
-## **kullanma**
+## **Kullanarak**
 
-Makroyu yükledikten sonra web sitenizde kullanmaya başlamak gerçekten çok basit:
+Makroyu kurduktan sonra web sitenizde kullanmaya başlamak gerçekten çok basittir:
 
-1. Umbraco'da oturum açtığınızdan emin olun**Geliştirici** bölüm, örneğin `http://www.myblog.com/umbraco/`
-1.  Tıklamak**Üyeler** ekranın sol alt kısmındaki bölümler listesinde.
-1.  Ağacın sonunda başlıklı bir düğüm göreceksiniz.**Üyeleri Excel'e Aktar** Excel'e Aktar eklentisini başlatmak için üzerine tıklayın.
-1. İstediğiniz çıktı belgesi biçimini seçin ve dışa aktarılacak Üyeler'i seçin. Dilerseniz tüm üyeleri dışa aktarın, üye seçiminden çıkın veya başlık satırındaki onay kutusunu tıklayın.
-1.  Tıklamak**İhracat** düğmesine basın ve dışa aktarılan dosyayı indirmeniz istenecektir.
+1. Umbraco **Developer** bölümüne giriş yaptığınızdan emin olun, örneğin `http://www.myblog.com/umbraco/`
+1. Ekranın sol altındaki bölümler listesinde **Üyeler**'e tıklayın.
+1. Ağacın sonunda, **Üyeleri Excel'e Aktar** başlıklı bir düğüm göreceksiniz, ona tıklayarak Excel'e Aktar eklentisini başlatın.
+1. İstenen çıktı belge biçimini seçin ve İhracat yapmak için Üyeleri seçin. Tüm üyeleri ihraç etmek istiyorsanız üye seçimini bırakın veya başlık satırındaki onay kutusuna tıklayın.
+1. Alt kısımdaki **İhracat** düğmesine tıklayın ve ihraç edilen dosyayı indirmeniz istenecektir.
 
-## **Video Demosu**
+## **Video Demo**
 
- lütfen kontrol edin[video](https://www.youtube.com/watch?v=6PxZFvjWr2Y) modülü çalışırken görmek için aşağıdaki
+Eylemdeki modülü görmek için lütfen [video](https://www.youtube.com/watch?v=6PxZFvjWr2Y)'yu kontrol edin.
 
-## **Destekleyin, Genişletin ve Katkıda Bulunun**
+## **Destek, Genişletme ve Katkıda Bulunma**
 
-### **Destek olmak**
+### **Destek**
 
-Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
+Aspose'un ilk günlerinden itibaren, müşterilerimize sadece iyi ürünler sunmanın yeterli olmayacağını biliyorduk. Ayrıca iyi bir hizmet sunmamız gerekiyordu. Kendi geliştiricileri olduğumuz için, teknik bir sorun veya yazılımdaki bir tuhaflık sizi yapmanız gereken şeyden alıkoyduğunda ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
-Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
+Bu nedenle ücretsiz destek sunuyoruz. Ürünlerimizi kullanan herkes, bunları satın almış olsun veya değerlendirme yapılıyor olsun, tam dikket ve saygıyı hak ediyor.
 
-Umbraco Modülleri için Aspose.Words .NET ile ilgili sorun ve önerilerinizi aşağıdaki platformlardan herhangi birini kullanarak kaydedebilirsiniz.
+Aspose.Words .NET için Umbraco Modülleri ile ilgili herhangi bir sorunu veya öneriyi aşağıdaki platformlardan herhangi biri kullanarak kaydedebilirsiniz
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 
-### **Genişletin ve Katkıda Bulunun**
+### **Genişletme ve Katkı Sağlama**
 
-Üyeleri Excel'e Aktar, açık kaynaklı bir Eklentidir ve kaynak kodu, aşağıda listelenen başlıca sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirmeleri ve işlevselliği kendi gereksinimlerine göre genişletmeleri önerilir.
+Üyeleri Excel'e Aktar, açık kaynaklı bir Eklentidir ve kaynak kodu aşağıda listelenen ana sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirip kendi gereksinimlerine göre işlevselliği genişletmeleri teşvik edilmektedir.
 
-#### **Kaynak kodu**
+#### **Kaynak Kodu**
 
-En son kaynak kodunu aşağıdaki konumlardan birinden alabilirsiniz.
+En son kaynak kodunu aşağıdaki konumlardan birinden edinebilirsiniz
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.UmbracoMemberExportToExcel)
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.UmbracoMemberExportToExcel)
 
-#### **Kaynak kodu nasıl yapılandırılır**
+#### **Kaynak kodunu yapılandırmak için**
 
-Kaynak kodunu açıp genişletmek için aşağıdakilerin kurulu olması gerekir.
+Aşağıdakileri açıp kaynak kodunu genişletmek için aşağıdakilere sahip olmanız gerekir
 
-- Visual Studio 2010 veya üzeri
+- Visual Studio 2010 veya daha yükseği
 
 Başlamak için lütfen bu basit adımları izleyin
 
-1. Kaynak kodunu indirin/Klonlayın.
-1.  Visual Studio 2010'u açın ve Seçin**Dosya** > **Açık Proje**
-1.  İndirdiğiniz ve açtığınız en son kaynak koduna göz atın**örneğin Aspose.UmbracoMemberExportToExcel.sln**
+1. Kaynak kodunu indirin/kopyalayın.
+1. Visual Studio 2010'u açın ve **Dosya** > **Proje Aç**'ı seçin
+1. İndirdiğiniz en son kaynak koduna göz atın ve **örneğin Aspose.UmbracoMemberExportToExcel.sln**'yi açın

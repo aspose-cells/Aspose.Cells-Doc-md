@@ -1,13 +1,14 @@
-﻿---
+---
 title: Ошибка автоматизации
 type: docs
 weight: 10
 url: /ru/reportingservices/automation-error/
 ---
-##### **Описание**
-Когда Microsoft Excel 2003 загружает надстройки Aspose.Cells.ReportingServices.Client, Microsoft Excel выдает ошибку автоматизации:
 
-![дело:изображение_альтернативный_текст](automation-error_1.png)
+##### **Описание**
+Когда Microsoft Excel 2003 загружает добавки Aspose.Cells.ReportingServices.Client, Microsoft Excel генерирует ошибку автоматизации: 
+
+![todo:image_alt_text](automation-error_1.png)
 ##### **Решение**
 {{% alert color="primary" %}} 
 

@@ -1,21 +1,22 @@
-﻿---
-title: قم بإنشاء مصنف مشترك باستخدام Aspose.Cells
+---
+title: إنشاء دفتر عمل مشترك باستخدام Aspose.Cells
 type: docs
 weight: 40
 url: /ar/net/create-shared-workbook-with-aspose-cells/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-Microsoft يسمح لك Excel بمشاركة المصنف كما هو موضح في لقطة الشاشة التالية. عند مشاركة المصنف ، يمكن لأكثر من مستخدم تحرير المصنف على الشبكة. يتيح لك Aspose.Cells تكوين مصنف مشترك باستخدام[**المصنف.الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared)خاصية.
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به: image_بديل_نص](create-shared-workbook-with-aspose-cells_1.png)
+يتيح Microsoft Excel لك مشاركة الدفتر كما هو موضح في لقطة الشاشة التالية. عند مشاركة الدفتر، يمكن لأكثر من مستخدم تحرير الدفتر على الشبكة. يمكنك باستخدام Aspose.Cells إنشاء دفتر عمل مشترك بخصائص [**Workbook.Settings.Shared**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared).
 
-## **قم بإنشاء مصنف مشترك باستخدام Aspose.Cells**
+![todo:image_alt_text](create-shared-workbook-with-aspose-cells_1.png)
 
- ينشئ نموذج التعليمات البرمجية التالي مصنفًا مشتركًا عن طريق الإعداد[**المصنف.الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared) الملكية مثل**حقيقي** . عندما تفتح ملف[إخراج ملف Excel](55541786.xlsx) في Microsoft Excel ، سترى**مشترك**باسم مصنف الإخراج كما هو موضح في لقطة الشاشة هذه.
+## **إنشاء دفتر عمل مشترك باستخدام Aspose.Cells**
 
-![ما يجب القيام به: image_بديل_نص](create-shared-workbook-with-aspose-cells_2.png)
+يقوم الكود العيني بإنشاء دفتر عمل مشترك عن طريق تعيين خاصية [**Workbook.Settings.Shared**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared) كـ **صحيحة**. عند فتحك لـ [ملف الإكسل الناتج](55541786.xlsx) في Microsoft Excel، سترى **مشترك** مع اسم دفتر العمل الناتج كما هو موضح في لقطة الشاشة.
 
-## **عينة من الرموز**
+![todo:image_alt_text](create-shared-workbook-with-aspose-cells_2.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-CreateSharedWorkbook.cs" >}}

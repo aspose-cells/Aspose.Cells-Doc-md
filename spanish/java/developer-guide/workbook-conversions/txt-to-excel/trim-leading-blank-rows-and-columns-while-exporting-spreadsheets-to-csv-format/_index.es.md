@@ -1,34 +1,35 @@
-﻿---
-title: Recorte las filas y columnas en blanco iniciales al exportar hojas de cálculo al formato CSV
+---
+title: Recortar Filas y Columnas en Blanco al exportar hojas de cálculo a formato CSV
 type: docs
 weight: 50
 url: /es/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
 ---
-## **Posibles escenarios de uso**
 
-A veces, su archivo de Excel o CSV tiene columnas o filas en blanco al principio. Por ejemplo, considere esta línea
+## **Escenarios de uso posibles**
 
-{{< highlight "java" >}}
+A veces, tu archivo de Excel o CSV tiene columnas o filas en blanco al principio. Por ejemplo, considera esta línea
+
+{{< highlight java >}}
 
  ,,,data1,data2
 
 {{< /highlight >}}
 
-Aquí las primeras tres celdas o columnas están en blanco. Cuando abre un archivo CSV de este tipo en Microsoft Excel, entonces Microsoft Excel descarta estas filas y columnas en blanco iniciales.
+Aquí las tres primeras celdas o columnas están en blanco. Cuando abres un archivo CSV en Microsoft Excel, Microsoft Excel descarta estas filas y columnas en blanco.
 
- De forma predeterminada, Aspose.Cells no descarta las columnas y filas en blanco iniciales al guardar, pero si desea eliminarlas como lo hace Microsoft Excel, entonces Aspose.Cells proporciona**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** propiedad. Por favor, configúralo en**verdadero**luego todas las filas y columnas en blanco principales se descartarán al guardar.
+De manera predeterminada, Aspose.Cells no descarta las columnas y filas en blanco al guardar, pero si quieres eliminarlas de la misma manera que lo hace Microsoft Excel, Aspose.Cells proporciona la propiedad [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn). Por favor, configúrala como **true** y entonces todas las filas y columnas en blanco serán descartadas al guardar.
 
 {{% alert color="primary" %}}
 
- Antes del lanzamiento de Aspose.Cells for .NET 20.4, el valor predeterminado de**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** fue**falso** . Desde la versión 20.4, el valor predeterminado de**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** es**verdadero.**
+Antes del lanzamiento de Aspose.Cells for .NET 20.4, el valor predeterminado de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) era **falso**. Desde el lanzamiento 20.4, el valor predeterminado de [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) es **verdadero.**
 
 {{% /alert %}}
 
-## **Recorte las filas y columnas en blanco iniciales al exportar hojas de cálculo al formato CSV**
+## **Recortar filas y columnas en blanco al exportar hojas de cálculo al formato CSV**
 
- El siguiente código de muestra carga el archivo fuente de Excel que tiene dos columnas en blanco iniciales. Primero guarda el archivo de Excel en formato CSV sin ningún cambio y luego establece**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** propiedad a**verdadero** y lo guarda de nuevo. La captura de pantalla muestra la[archivo fuente excel](sampleTrimBlankColumns.xlsx), [archivo de salida CSV sin recortar](outputWithoutTrimBlankColumns.csv), y el[archivo de salida CSV con recorte](outputTrimBlankColumns.csv).
+El siguiente código de muestra carga el archivo de Excel fuente que tiene dos columnas en blanco al principio. Primero guarda el archivo de Excel en formato CSV sin cambios y luego establece la propiedad [**TxtSaveOptions.TrimLeadingBlankRowAndColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn) a **true** y lo guarda nuevamente. La captura de pantalla muestra el [archivo de Excel fuente](sampleTrimBlankColumns.xlsx), el [archivo CSV de salida sin recortar](outputWithoutTrimBlankColumns.csv) y el [archivo CSV de salida con recorte](outputTrimBlankColumns.csv).
 
-![todo:imagen_alternativa_texto](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
+![todo:image_alt_text](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 
 ## **Código de muestra**
 

@@ -1,6 +1,8 @@
-﻿---
+---
 title: PHP Programcılar Kılavuzu
 type: docs
 weight: 10
 url: /tr/net/php-programmers-guide/
 ---
+
+

@@ -1,20 +1,21 @@
-﻿---
-title: Data i icke-primitiv form
+---
+title: data i icke primitiv form
 type: docs
 weight: 500
 url: /sv/java/data-in-non-primitive-shape/
 ---
+
 ## **Åtkomst till data av icke-primitiv form**
 
-Ibland behöver du komma åt data från en form som inte är inbyggd. Inbyggda former kallas primitiva former; de som inte är det kallas icke-primitiva. Du kan till exempel definiera dina egna former med hjälp av olika kurvanslutna linjer.
+Ibland behöver du få åtkomst till data från en form som inte är inbyggd. Inbyggda former kallas primitiva former; de som inte är det kallas icke-primitiva. Till exempel kan du definiera dina egna former med olika kurvanslutna linjer.
 
 ## **En icke-primitiv form**
 
- Aspose.Cells tilldelas icke-primitiva former typen[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . Du kan kontrollera deras typ med hjälp av[**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)metod.
+I Aspose.Cells är icke-primitiva former tilldelade typ [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE). Du kan kontrollera deras typ med hjälp av metoden [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType).
 
- Få åtkomst till formdata med hjälp av[**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)metod. Den returnerar alla anslutna banor som utgör den icke-primitiva formen. Dessa banor är av typen ShapePath som innehåller en lista över alla segment som i sin tur innehåller punkterna i varje segment.
+Få tillgång till formdata med hjälp av metoden [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths). Den returnerar alla anslutna banor som utgör den icke-primitiva formen. Dessa banor är av typen ShapePath som innehåller en lista över alla segment som i sin tur innehåller punkterna i varje segment.
 
-Följande kodavsnitt visar användningen av[**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)metod för att komma åt väginformation av icke-primitiv form.
+Följande kodsnutt visar användningen av metoden [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths) för att få tillgång till baninformation för icke-primitiv form.
 
 **Visar ett exempel på en icke-primitiv form** 
 

@@ -1,38 +1,39 @@
-﻿---
-title: Bir Çalışma Sayfasına Cell Yorum Ekleme ve Kaldırma
+---
+title: Çalışma Sayfasındaki Hücre Yorumlarını Eklemek ve Kaldırmak
 type: docs
 weight: 30
 url: /tr/net/inserting-and-removing-cell-comments-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Genel olarak, açıklamalar bir çalışma sayfasındaki hücrelere ek bilgi eklemek için kullanılır. Onları ara sıra kullanırız ve artık onlara ihtiyacımız kalmadığında sileriz. Belirli bir değeri belgelemeniz gerekiyorsa veya bir formülün ne yaptığını hatırlamanıza yardımcı olması için yorumlar kullanışlıdır. Fare işaretçisini yorumu olan bir hücrenin üzerine getirdiğinizde, yorum küçük bir kutuda açılır.
+Genellikle yorumlar, çalışsayfadaki hücrelere ek bilgi eklemek için kullanılır. Her zaman kullanırız ve artık ihtiyaç duymadığımızda silebiliriz. Yorumlar, belirli bir değeri belgelemek veya bir formülün ne yaptığını hatırlamak için faydalıdır. Bir yoruma sahip bir hücrenin üzerine fare işaretçisini götürdüğünüzde, yorum küçük bir kutuda ortaya çıkar.
 
-Bu makalede, VSTO ve Aspose.Cells for .NET kullanarak hücrelere nasıl yorum ekleneceğini ve kaldırılacağını karşılaştırıyoruz. Aspose.Cells for .NET, Office Automation'dan bağımsız olarak Microsoft Excel dosyalarıyla çalışır ve size elektronik tablo oluşturmak ve değiştirmek için güçlü araçlar sunar.
+Bu makalede, VSTO ve Aspose.Cells for .NET kullanarak hücrelere yorum eklemeyi ve kaldırmayı nasıl karşılaştırıyoruz. Aspose.Cells for .NET, Office Otomasyonundan bağımsız olarak Microsoft Excel dosyaları ile çalışır ve elektronik tablolar oluşturmak ve değiştirmek için güçlü araçlar sunar.
 
 {{% /alert %}}
 
-## **Yorum Ekleme ve Kaldırma Cells**
+## **Hücrelere Yorum Eklemek ve Kaldırmak**
 
 Hücrelere yorum eklemek için:
 
 1. Mevcut bir Excel dosyasını açın.
 1. Bir hücreye yorum ekleyin.
-1. Dosya 'yı kaydet.
+1. Dosyayı kaydedin.
 
-Yorumları kaldırmak için, yorumun kaldırılması dışında süreç benzerdir.
+Yorumları kaldırmak için, süreç benzerdir, tek fark yorumun kaldırılmasıdır.
 
- Aşağıdaki kod örnekleri, öncelikle nasıl yapılacağını gösterir.[yorum ekle](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) ve sonra nasıl[bir yorumu kaldır](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) VSTO veya Aspose.Cells for .NET ile.
+Aşağıdaki kod örnekleri öncelikle bir hücreye [yorum eklemeyi](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) ve ardından VSTO veya Aspose.Cells for .NET ile [yorumu kaldırmayı](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) nasıl gösterir.
 
-## **Yorum ekleme**
+## **Yorum Ekleme**
 
- Bu kod parçacıkları, önce bir hücreye nasıl yorum ekleneceğini gösterir.[VSTO](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) ve ardından[Aspose.Cells for .NET](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB).
+Bu kod parçaları, önce bir hücreye [VSTO ile](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) ve sonra [Aspose.Cells for .NET ile](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) bir yorum eklemeyi gösterir.
 
 ### **VSTO ile Yorum Ekleme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -94,7 +95,7 @@ excelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -134,13 +135,13 @@ workbook.Save(@"d:\test\Book1.xls");
 
 ## **Yorumları Kaldırma**
 
- Bir hücreden yorumu kaldırmak için aşağıdaki kod satırlarını kullanın.[VSTO](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) ve[Aspose.Cells](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) for .NET (C#, VB).
+Bir hücreden yorumu kaldırmak için [VSTO ile](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) ve .NET için [Aspose.Cells](/cells/tr/net/inserting-and-removing-cell-comments-in-a-worksheet/) (C#, VB) için aşağıdaki kod satırlarını kullanın.
 
 ### **VSTO ile Yorum Kaldırma**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 
@@ -150,11 +151,11 @@ rng1.Comment.Delete();    
 
 {{< /highlight >}}
 
-### **Aspose.Cells for .NET İle Yorum Kaldırma**
+### **Aspose.Cells for .NET ile Yorum Kaldırma**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 

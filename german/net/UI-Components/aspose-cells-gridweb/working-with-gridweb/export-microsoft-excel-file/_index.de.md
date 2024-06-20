@@ -1,31 +1,34 @@
-﻿---
-title: Microsoft Excel-Datei exportieren
+---
+title: Microsoft Excel Datei exportieren
 type: docs
 weight: 50
-url: /de/net/export-microsoft-excel-file/
+url: /de/net/aspose-cells-gridweb/export-microsoft-excel-file/
+keywords: GridWeb, exportieren
+description: Dieser Artikel erläutert, wie eine Datei in GridWeb exportiert werden kann.
 ---
+
 {{% alert color="primary" %}} 
 
-Es ist möglich, neue Microsoft Excel-Dateien zu erstellen oder vorhandene Microsoft Excel-Dateien auf Websites im GUI-Modus mit Aspose.Cells.GridWeb-Steuerelement zu bearbeiten. Die Dateien können dann in Excel-Dateien gespeichert werden. Aspose.Cells.GridWeb dient effektiv als Online-Tabellenkalkulationseditor. In diesem Thema wird beschrieben, wie Rasterinhalte in Excel-Dateien gespeichert werden.
+Es ist möglich, neue oder vorhandene Microsoft Excel-Dateien auf Websites im GUI-Modus mit der Aspose.Cells.GridWeb-Steuerung zu erstellen oder zu manipulieren. Die Dateien können dann als Excel-Dateien gespeichert werden. Aspose.Cells.GridWeb dient effektiv als Online-Tabellenkalkulationseditor. In diesem Thema wird beschrieben, wie Gitterinhalte in Excel-Dateien gespeichert werden können.
 
 {{% /alert %}} 
 ## **Excel-Dateien exportieren**
-### **Als Datei exportieren**
-So speichern Sie den Inhalt des Steuerelements Aspose.Cells.GridWeb als Excel-Datei:
+### **Exportieren als Datei**
+Um den Inhalt der Aspose.Cells.GridWeb-Steuerelement als Excel-Datei zu speichern:
 
-1. Fügen Sie Ihrem Webformular das Aspose.Cells.GridWeb-Steuerelement hinzu.
-1. Speichern Sie Ihre Arbeit als Excel-Datei unter einem angegebenen Pfad.
+1. Fügen Sie die Aspose.Cells.GridWeb-Steuerelement zu Ihrem Webformular hinzu.
+1. Speichern Sie Ihre Arbeit als Excel-Datei an einem bestimmten Pfad.
 1. Führen Sie die Anwendung aus.
 
 {{% alert color="primary" %}} 
 
- Wenn Sie nicht wissen, wie Sie das Aspose.Cells.GridWeb-Steuerelement zu Ihrem Webformular hinzufügen, sollten Sie sich auf beziehen[GridWeb zum Webformular hinzufügen](/cells/de/net/add-gridweb-to-web-form/)
+Wenn Sie nicht wissen, wie Sie das Aspose.Cells.GridWeb-Steuerelement zu Ihrem Webformular hinzufügen, sollten Sie sich auf [Add GridWeb to Web Form](/cells/de/net/aspose-cells-gridweb/add-gridweb-to-web-form/) beziehen
 
 {{% /alert %}} 
 
-Wenn das Aspose.Cells.GridWeb-Steuerelement zu einem Windows-Formular hinzugefügt wird, wird das Steuerelement automatisch instanziiert und mit einer Standardgröße zum Formular hinzugefügt. Sie müssen kein Aspose.Cells.GridWeb-Steuerelementobjekt erstellen, alles, was Sie tun müssen, ist, das Steuerelement per Drag & Drop zu ziehen und zu verwenden.
+Wenn das Aspose.Cells.GridWeb-Steuerelement zu einem Windows-Formular hinzugefügt wird, wird das Steuerelement automatisch instanziiert und mit einer standardmäßigen Größe dem Formular hinzugefügt. Sie müssen kein Aspose.Cells.GridWeb-Steuerelementobjekt erstellen, sondern müssen nur das Steuerelement per Drag & Drop hinzufügen und verwenden.
 
-Das folgende Codebeispiel veranschaulicht, wie Rasterinhalte in einer Excel-Datei gespeichert werden.
+Das untenstehende Codebeispiel zeigt, wie der Inhalte des Gitters in eine Excel-Datei gespeichert werden.
 
 
 
@@ -33,27 +36,27 @@ Das folgende Codebeispiel veranschaulicht, wie Rasterinhalte in einer Excel-Date
 
 {{% alert color="primary" %}} 
 
-Wenn Ihr Dateisystem NTFS ist, gewähren Sie Lese-/Schreibzugriff auf die Benutzerkonten ASPNET oder Jeder, oder Sie erhalten zur Laufzeit eine Zugriffsverweigerungsausnahme.
+Wenn Ihr Dateisystem NTFS ist, gewähren Sie Lese-/Schreibzugriff auf die Benutzerkonten ASPNET oder Jeder, ansonsten erhalten Sie zur Laufzeit eine Zugriffsverweigerungsausnahme.
 
 {{% /alert %}} 
 
-Das obige Code-Snippet kann auf verschiedene Weise verwendet werden. Eine gängige Methode besteht darin, eine Schaltfläche hinzuzufügen, die den Rasterinhalt in einer Excel-Datei speichert, wenn darauf geklickt wird. Aspose.Cells.GridWeb bietet einen einfacheren Ansatz für Aufgaben. Aspose.Cells.GridWeb hat ein Ereignis namens SaveCommand. Der obige Codeausschnitt kann dem Ereignishandler des SaveCommand-Ereignisses hinzugefügt werden, wodurch Benutzer ihre Arbeit speichern können, indem sie auf das integrierte Aspose.Cells.GridWeb klicken**Speichern** Knopf.
+Der obige Code-Schnipsel kann auf verschiedene Weisen verwendet werden. Eine übliche Methode besteht darin, eine Schaltfläche hinzuzufügen, die den Rasterinhalt beim Klicken in eine Excel-Datei speichert. Aspose.Cells.GridWeb bietet einen einfacheren Ansatz für diese Aufgabe. Aspose.Cells.GridWeb hat ein Ereignis namens Speichern-Befehl. Der obige Code-Schnipsel kann dem Ereignisbehandler des Speichern-Befehls hinzugefügt werden, was es Benutzern ermöglicht, ihre Arbeit durch Klicken auf die integrierte **Speichern**-Schaltfläche von Aspose.Cells.GridWeb zu speichern.
 
-**Das SaveCommand-Ereignis von GridWeb** 
+**Das Speichern-Befehlsereignis des GridWeb** 
 
-![todo: Bild_alt_Text](export-microsoft-excel-file_1.jpg)
+![todo:image_alt_text](export-microsoft-excel-file_1.jpg)
 
-**Grid-Inhalte in Excel speichern, indem Sie auf die integrierte Speichern-Schaltfläche von GridWeb klicken** 
+**Speichern des Rasterinhalts in Excel durch Klicken auf die integrierte Speichern-Schaltfläche von GridWeb** 
 
-![todo: Bild_alt_Text](export-microsoft-excel-file_2.png)
+![todo:image_alt_text](export-microsoft-excel-file_2.png)
 
 {{% alert color="primary" %}} 
 
- Wenn Sie in Visual Studio arbeiten, können Sie den Ereignishandler des SaveCommand-Ereignisses einfach erstellen, indem Sie auf das Ereignis in der Datei doppelklicken**Eigenschaften** Feld. Um mehr darüber zu erfahren, lesen Sie bitte[Arbeiten mit GridWeb-Ereignissen](/cells/de/net/working-with-gridweb-events/)
+Wenn Sie in Visual Studio arbeiten, können Sie den Ereignishandler des Speichern-Befehlsereignisses ganz einfach erstellen, indem Sie doppelt auf das Ereignis im **Eigenschaften**-Bereich klicken. Weitere Informationen hierzu finden Sie unter [Arbeiten mit GridWeb-Ereignissen](/cells/de/net/aspose-cells-gridweb/working-with-gridweb-events/)
 
 {{% /alert %}} 
-### **Als Stream exportieren**
-Es ist auch möglich, Grid-Inhalte in einem Stream (z. B. MemoryStream) zu speichern.
+### **Exportieren als Stream**
+Es ist auch möglich, den Rasterinhalt in einem Stream (z. B. MemoryStream) zu speichern.
 
 
 

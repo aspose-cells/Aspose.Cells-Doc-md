@@ -1,19 +1,20 @@
-﻿---
-title: حدد لغة ملف Excel باستخدام خصائص المستند المضمنة
+---
+title: تحديد لغة ملف إكسل باستخدام الخصائص المدمجة للمستند
 type: docs
 weight: 30
 url: /ar/java/specify-the-language-of-the-excel-file-using-builtin-document-properties/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك تغيير*لغة*من ملف Excel عن طريق النقر بزر الماوس الأيمن فوق الملف ثم تحديد*الخصائص> التفاصيل*ثم قم بتحرير ملف*لغة*مجال. الرجاء استخدام[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)لتغييره برمجيًا باستخدام واجهات برمجة تطبيقات Aspose.Cells.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **حدد لغة ملف Excel باستخدام خصائص المستند المضمنة**
+يمكنك تغيير *اللغة* لملف Excel عن طريق النقر بزر الماوس الأيمن على الملف ومن ثم اختيار *الخصائص > التفاصيل* ومن ثم تحرير حقل *اللغة*. يُرجى استخدام [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language) خصائص لتغييره بشكل برمجي باستخدام واجهات برمجة تطبيقات Aspose.Cells.
 
-نموذج التعليمات البرمجية التالي بإنشاء مصنف وتغيير خاصية المستند المضمنة المسمى*لغة*. الرجاء مراجعة[إخراج ملف Excel](outputSpecifyLanguageOfExcelFile.xlsx)التي تم إنشاؤها بواسطة الكود ولقطة الشاشة التي تعرض ملف*لغة*المجال[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)خاصية.
+## **تحديد لغة ملف إكسل باستخدام الخصائص المدمجة للمستند**
 
-![ما يجب القيام به: image_بديل_نص](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+الرمز النموذجي التالي يُنشئ سجل العمل ويُغير خاصية المستند المدمجة المسماة *اللغة*. يرجى الاطلاع على [ملف إكسيل الناتج] (outputSpecifyLanguageOfExcelFile.xlsx) الذي تم إنشاؤه بواسطة الرمز واللقطة التي تُظهر *حقل اللغة* المعدل من خاصية [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language).
 
-## **عينة من الرموز**
+![todo:image_alt_text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.java" >}}

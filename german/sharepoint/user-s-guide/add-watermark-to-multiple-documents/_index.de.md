@@ -1,19 +1,20 @@
-﻿---
+---
 title: Wasserzeichen zu mehreren Dokumenten hinzufügen
 type: docs
 weight: 90
 url: /de/sharepoint/add-watermark-to-multiple-documents/
 ---
-Wenn Sie Wasserzeichen in mehreren Excel-Dateien hinzufügen möchten, wählen Sie bitte die Option „Wasserzeichen mit Aspose.Cells hinzufügen“ in der Multifunktionsleiste.
 
-![todo: Bild_alt_Text](add-watermark-to-multiple-documents_1.png)
+Wenn Sie Wasserzeichen zu mehreren Excel-Dateien hinzufügen möchten, wählen Sie bitte die Option „Wasserzeichen hinzufügen mit Aspose.Cells“ in der Menüleiste.
 
-Holen Sie sich alle Excel-Dateien aus dem Datenquellenordner und erstellen Sie eine Dateilistentabelle.
+![todo:image_alt_text](add-watermark-to-multiple-documents_1.png)
 
- Wählen Sie die Datei aus, die das Wasserzeichen hinzufügen soll, klicken Sie auf**Wasserzeichen hinzufügen** Schaltfläche zum Hinzufügen von Wasserzeichen für die ausgewählten Dateien.
+Holen Sie alle Excel-Dateien aus dem Datenquellordner und erstellen Sie eine Dateilisten-Tabelle.
 
-![todo: Bild_alt_Text](add-watermark-to-multiple-documents_2.png)
+Wählen Sie die Datei aus, der ein Wasserzeichen hinzugefügt werden soll, und klicken Sie auf die Schaltfläche **Wasserzeichen hinzufügen**, um das Wasserzeichen für die ausgewählten Dateien hinzuzufügen.
 
-Die folgenden Optionen sind während der Einrichtung zum Hinzufügen von Wasserzeichen verfügbar:
+![todo:image_alt_text](add-watermark-to-multiple-documents_2.png)
 
-**Wasserzeichendatei (Bilddatei):**
+Die folgenden Optionen stehen während der Einrichtung des Wasserzeichens zur Verfügung:
+
+**Wasserzeichen-Datei (Bilddatei):**

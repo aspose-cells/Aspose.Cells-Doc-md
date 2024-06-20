@@ -1,16 +1,17 @@
-﻿---
-title: Ocultar y mostrar filas y columnas en Ruby
+---
+title: Ocultar y Mostrar Filas y Columnas en Ruby
 type: docs
 weight: 50
 url: /es/java/hiding-and-showing-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Control de la visibilidad de filas y columnas**
-### **Ocultar filas y columnas**
-Los desarrolladores pueden ocultar una fila o columna llamando a los métodos HideRow y HideColumn de la colección Cells respectivamente. Ambos métodos toman el índice de fila/columna como parámetro para ocultar la fila o columna específica.
 
-**código rubí**
+## **Aspose.Cells - Controlar la Visibilidad de Filas y Columnas**
+### **Ocultar Filas y Columnas**
+Los desarrolladores pueden ocultar una fila o columna llamando a los métodos HideRow y HideColumn respectivamente de la colección Cells. Ambos métodos toman el índice de la fila/columna como parámetro para ocultar la fila o columna específica.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def hide_rows_columns()
 
@@ -43,15 +44,15 @@ Los desarrolladores pueden ocultar una fila o columna llamando a los métodos Hi
 end
 
 {{< /highlight >}}
-### **Mostrar filas y columnas**
-Los desarrolladores pueden mostrar cualquier fila o columna oculta llamando a los métodos UnhideRow y UnhideColumn de la colección Cells respectivamente. Ambos métodos toman dos parámetros:
+### **Mostrar Filas y Columnas**
+Los desarrolladores pueden mostrar cualquier fila o columna oculta llamando a los métodos UnhideRow y UnhideColumn respectivamente de la colección Cells. Ambos métodos toman dos parámetros:
 
-- **Índice de fila o columna**- el índice de una fila o columna que se utiliza para mostrar la fila o columna específica.
-- **Alto de fila o ancho de columna**- el alto de fila o el ancho de columna asignado a la fila o columna después de mostrarse.
+- **Índice de fila o columna** - el índice de una fila o columna que se utiliza para mostrar la fila o columna específica.
+- **Altura de fila o ancho de columna** - la altura de fila o ancho de columna asignado a la fila o columna después de que se muestra.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def unhide_rows_columns()
 
@@ -84,7 +85,7 @@ Los desarrolladores pueden mostrar cualquier fila o columna oculta llamando a lo
 end
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Control de la visibilidad de filas y columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Controlar la Visibilidad de Filas y Columnas (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

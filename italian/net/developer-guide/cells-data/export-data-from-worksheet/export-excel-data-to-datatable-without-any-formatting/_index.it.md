@@ -1,34 +1,35 @@
 ---
-title: Esporta dati Excel in DataTable senza alcuna formattazione
+title: Esportare i dati di Excel in DataTable senza alcun formato
 type: docs
 weight: 280
 url: /it/net/export-excel-data-to-datatable-without-any-formatting/
-description: Scopri come esportare dati Excel in DataTable senza alcuna formattazione tramite Aspose.Cells for .NET API.
-keywords: Export Excel Data to DataTable without any Formatting, Specify Cell Value Format Strategy, Add Format Strategy When Exporting Data to DataTable. 
+description: Scopri come esportare i dati di Excel in DataTable senza alcun formato tramite l API Aspose.Cells for .NET.
+keywords: Esportare i dati di Excel in DataTable senza alcun formato, Specificare la strategia del formato del valore della cella, Aggiungere una strategia del formato durante l esportazione dei dati in DataTable. 
 ---
+
 {{% alert color="primary" %}}
 
- volte gli utenti desiderano esportare dati Excel in una tabella dati senza alcuna formattazione. Ad esempio, se una cella ha un valore 0,012345 ed è formattata in modo da visualizzare due cifre decimali, quando l'utente esporterà i dati Excel in una tabella dati, verrà esportata come 0,01 e non come 0,012345. Per far fronte a questo problema ha provveduto lo Aspose.Cells[**ExportTableOptions.FormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/formatstrategy) proprietà che può assumere uno di questi tre valori
+A volte gli utenti desiderano esportare i dati di Excel in una tabella senza alcun formato. Ad esempio, se alcune celle hanno un valore di 0.012345 e sono formattate per mostrare due posizioni decimali, allora quando l'utente esporterà i dati di Excel in una tabella, verranno esportati come 0.01 e non come 0.012345. Per affrontare questo problema, Aspose.Cells ha fornito la proprietà [**ExportTableOptions.FormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/formatstrategy) che può assumere uno di questi tre valori
 
 - CellValueFormatStrategy.CellStyle
 - CellValueFormatStrategy.DisplayStyle
 - CellValueFormatStrategy.None
 
- Se lo imposterai su[**CellValueFormatStrategy.None**](https://reference.aspose.com/cells/net/aspose.cells/cellvalueformatstrategy), quindi esporterà i dati senza alcuna formattazione.
+Se lo imposti su [**CellValueFormatStrategy.None**](https://reference.aspose.com/cells/net/aspose.cells/cellvalueformatstrategy), allora esporterà i dati senza alcuna formattazione.
 
 {{% /alert %}}
 
-##  Codice d'esempio
+## Codice di esempio
 
- L'esempio seguente spiega l'uso di[**ExportTableOptions.FormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/formatstrategy)proprietà per esportare dati Excel con e senza alcuna formattazione.
+Il seguente esempio spiega l'uso della proprietà [**ExportTableOptions.FormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/formatstrategy) per esportare i dati di Excel con e senza formattazione.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ExportExcelDataToDataTableWithoutFormatting-ExportExcelDataToDataTableWithoutFormatting.cs" >}}
 
-##  **Uscita della console**
+## **Output della console**
 
-Di seguito è riportato l'output di debug della console del codice di esempio riportato sopra
+Di seguito è riportato l'output di debug della console del codice di esempio precedente
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Cell String Value: 0.01
 

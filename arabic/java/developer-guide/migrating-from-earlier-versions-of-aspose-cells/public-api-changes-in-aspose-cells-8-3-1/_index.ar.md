@@ -1,27 +1,28 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.3.1
+---
+title: تغييرات الواجهة البرمجية العامة في Aspose.Cells 8.3.1
 type: docs
 weight: 120
 url: /ar/java/public-api-changes-in-aspose-cells-8-3-1/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.3.0 إلى 8.3.1 والتي قد تهم مطوري الوحدة / التطبيق.
+يصف هذا المستند التغييرات التي تم إجراؤها على واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.3.0 إلى 8.3.1 التي قد تكون مثيرة للاهتمام لمطوري الوحدات/التطبيقات.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
+## **واجهات برمجة التطبيقات الجديدة**
 ### **تمت إضافة خاصية DataLabels.ShowCellRange**
-تمت إضافة أداة الإدخال / الضبط للخاصية ShowCellRange إلى فئة DataLabels لتقليد وظيفة Excel الخاصة بتنسيق تسميات بيانات المخطط في وقت التشغيل. يرجى ملاحظة أن Excel يوفر هذه الميزة من خلال الخطوات التالية.
+تمت إضافة getter/setter للخاصية ShowCellRange إلى فئة DataLabels من أجل تقليد وظيفة تنسيق تسميات البيانات في الرسوم البيانية في الوقت الفعلي. يرجى ملاحظة أن Excel يوفر هذه الميزة من خلال الخطوات التالية. 
 
-1. حدد تسميات البيانات للسلسلة وانقر بزر الماوس الأيمن لفتح القائمة المنبثقة.
-1.  انقر على**تنسيق تسميات البيانات ...** وسوف تظهر**خيارات التسمية**.
-1.  حدد خانة الاختيار أو ألغِ تحديدها**يحتوي الملصق على - القيمة من Cells**.
+1. حدد تسميات البيانات للسلسلة ثم انقر بزر الماوس الأيمن لفتح القائمة المنبثقة.
+1. انقر **تنسيق تسميات البيانات...** وستظهر **خيارات التسمية**.
+1. حدد أو ألغِ تحديد خانة الاختيار **التسمية تحتوي على - القيمة من الخلايا**.
 
- يصل نموذج التعليمات البرمجية أدناه إلى تسميات البيانات الخاصة بسلسلة التخطيطات ثم قم بتعيين طريقة DataLabels.setShowCellRange () إلى true لتقليد ميزة Excel الخاصة بـ**يحتوي الملصق على - القيمة من Cells**.
+يقوم الكود النموذجي أدناه بالوصول إلى تسميات البيانات في سلسلة الرسم البياني ثم يقوم بتعيين طريقة DataLabels.setShowCellRange() على true لتقليد ميزة Excel **التسمية تحتوي على - القيمة من الخلايا**.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from the source spreadsheet containing an existing chart
 
@@ -49,16 +50,16 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال[عرض Cell المدى كعناوين بيانات](/cells/ar/java/showing-cell-range-as-the-data-labels/) للمزيد من المعلومات.
+يرجى التحقق من المقالة [عرض مجال الخلية كعلامات البيانات](/cells/ar/java/showing-cell-range-as-the-data-labels/) للمزيد من المعلومات.
 
 {{% /alert %}} 
 
-### **تمت إضافة الطرق Cell.getTable & ListObject.putCellValue**
-تمت إضافة الطريقتين Cell.getTable & ListObject.putCellValue مع Aspose.Cells for Java 8.3.1 لتسهيل وصول المستخدمين إلى ListObject من خلية وإضافة قيم بداخلها باستخدام إزاحة الصف والعمود. يقوم نموذج التعليمات البرمجية التالي بتحميل جدول البيانات المصدر ، وإضافة القيم داخل الجدول.
+### **تمت إضافة طرق Cell.getTable & ListObject.putCellValue.**
+تمت إضافة الطرق Cell.getTable & ListObject.putCellValue مع Aspose.Cells for Java 8.3.1 لتسهيل وصول المستخدمين إلى ListObject من الخلية وإضافة القيم داخلها باستخدام تعويضات الصف والعمود. يحمل الكود المعروض أدناه الجدول في جدول بيانات المصدر ويضيف قيم داخل الجدول.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -92,18 +93,18 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال[الوصول إلى الجدول من Cell وإضافة القيم بداخله باستخدام إزاحة الصف والعمود](/cells/ar/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/) للمزيد من المعلومات.
+يرجى التحقق من المقالة [الوصول إلى الجدول من الخلية وإضافة القيم داخلها باستخدام تأويل الصف والعمود](/cells/ar/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/) للمزيد من المعلومات.
 
 {{% /alert %}} 
 
-### **طرق OdsSaveOptions.isStrictSchema11 & OdsSaveOptions.setStrictSchema11 مضاف**
-تمت إضافة الطرق هي StrictSchema11 & setStrictSchema11 إلى فئة OdsSaveOptions للسماح للمطورين بحفظ جدول البيانات بتنسيق يتوافق مع مواصفات ODF v1.2. القيمة الافتراضية لخاصية setStrictSchema11 هي false ، وهذا يعني أنه من الإصدار 8.3.1 من Aspose.Cells APIs ، سيتم حفظ ملفات ODS بتنسيق ODF الإصدار 1.2 افتراضيًا.
+### **تمت إضافة طرق OdsSaveOptions.isStrictSchema11 & OdsSaveOptions.setStrictSchema11.**
+تمت إضافة الطرق isStrictSchema11 & setStrictSchema11 إلى فئة OdsSaveOptions من أجل السماح للمطورين بحفظ جدول البيانات بالتنسيق المتوافق مع مواصفات ODF v1.2. القيمة الافتراضية لخاصية setStrictSchema11 هي false، وهذا يعني أنه اعتبارا من الإصدار 8.3.1 من واجهات برمجة التطبيقات الخاصة بـ Aspose.Cells، سيتم حفظ ملفات ODS كتنسيق ODF إصدار 1.2 بشكل افتراضي.
 
-يحفظ مقتطف الكود أدناه الملف ODS بتنسيق ODF 1.2.
+الكود المقدم أدناه يحفظ ملف ODS بتنسيق ODF 1.2.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 
@@ -135,23 +136,23 @@ workbook.save("ODF1.1.ods", options);
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال[احفظ ملف ODS في مواصفات ODF 1.1 و 1.2](/cells/ar/java/save-ods-file-in-odf-1-1-and-1-2-specifications/) للمزيد من المعلومات.
+يرجى التحقق من المقالة [حفظ ملف ODS بمواصفات ODF 1.1 و 1.2](/cells/ar/java/save-ods-file-in-odf-1-1-and-1-2-specifications/) للمزيد من المعلومات.
 
 {{% /alert %}} 
 
-### **طريقة SparklineCollection.add المضافة**
- كشفت واجهات برمجة التطبيقات Aspose.Cells طريقة SparklineCollection.add (String dataRange ، int row ، int column) لتحديد نطاق البيانات وموقع مجموعة Sparkline. يرجى ملاحظة أن Excel يوفر نفس الميزة من خلال الخطوات التالية.
+### **تمت إضافة طريقة SparklineCollection.add.**
+تمتك عروض واجهات برمجة التطبيقات لـ Aspose.Cells إضافة طريقة SparklineCollection.add(String dataRange, int row, int column) لتحديد مجال البيانات والموقع لمجموعة بيانات Sparkline. يرجى ملاحظة أن ميزة مماثلة متوفرة في Excel من خلال الخطوات التالية. 
 
-1. حدد الخلية التي تحتوي على خط المؤشر الخاص بك.
-1.  يختار**تحرير البيانات من خط المؤشر** قسم داخل**تصميم** التبويب
-1.  أختر**تحرير موقع المجموعة والبيانات**.
-1.  حدد**نطاق البيانات** & **موقع**.
+1. حدد الخلية التي تحتوي على بيانات الرسم البياني.
+1. حدد **تحرير البيانات من قسم الرسم البياني** داخل علامة التبويب **تصميم**
+1. اختر **تحرير موقع المجموعة والبيانات**.
+1. حدد **نطاق البيانات** و**الموقع**.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل جدول البيانات المصدر ، والوصول إلى أول مجموعة خط مؤشر وإضافة نطاقات بيانات ومواقع جديدة لمجموعة خط المؤشر.
+الكود المعروض أدناه يحمل جدول البيانات المصدر، ويصل إلى أول مجموعة البيانات الرسمية ويضيف نطاقات بيانات جديدة ومواقع لمجموعة البيانات الرسمية. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -183,6 +184,6 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
- يرجى مراجعة المقال[انسخ Sparkline عن طريق تحديد نطاق البيانات وموقع مجموعة Sparkline](/cells/ar/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/) للمزيد من المعلومات.
+يرجى التحقق من المقالة [نسخ مخططات البيانات عن طريق تحديد نطاق البيانات وموقع مجموعة البيانات الرسمية](/cells/ar/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/) للمزيد من المعلومات.
 
 {{% /alert %}}

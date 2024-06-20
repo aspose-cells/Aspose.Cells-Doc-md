@@ -1,23 +1,24 @@
-﻿---
-title: 埋め込み OLE オブジェクトのクラス識別子を取得または設定します
+---
+title: 埋め込みOLEオブジェクトのクラス識別子を取得または設定する
 type: docs
 weight: 920
 url: /ja/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/
 ---
-## **考えられる使用シナリオ**
-Aspose.Cells は[OleObject.ClassIdentifier](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#ClassIdentifier)埋め込まれた ole オブジェクトのクラス識別子を取得または設定するために使用できるプロパティ。 Ole Object Class Identifiers は、実際には GUID、つまり Globally Unique Identifiers です。 GUID は常に 16 バイト長であるため、クラス識別子も 16 バイト長です。それらは多くの場合、Windows レジストリ内にあり、クライアント アプリケーション内のさまざまな埋め込みリソースを含む埋め込み ole オブジェクトを開く方法に関する情報をホスト アプリケーションに提供します。
-## **埋め込み OLE オブジェクトのクラス識別子を取得または設定します**
-次のスクリーンショットは、Ole オブジェクト クラス識別子、つまり、[サンプルエクセルファイル](5473378.xls)埋め込まれた PowerPoint ole オブジェクトを含みます。
 
-![todo:画像_代替_文章](get-or-set-the-class-identifier-of-the-embedded-ole-object_1.png)
+## **可能な使用シナリオ**
+Aspose.Cellsは、埋め込みOLEオブジェクトのクラス識別子を取得または設定するために使用できる[OleObject.ClassIdentifier](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#ClassIdentifier)プロパティを提供します。OLEオブジェクトのクラス識別子は実際にはGUID（グローバルユニーク識別子）です。 GUIDは常に16バイトの長さであり、そのためクラス識別子も16バイトの長さです。 これらはWindowsレジストリ内によく見られ、クライアントアプリケーション内のさまざまな埋め込まれたリソースを含む埋め込みOLEオブジェクトの開き方についてホストアプリケーションに情報を提供します。
+## **埋め込まれたOLEオブジェクトのクラス識別子を取得または設定する**
+次のスクリーンショットは、埋め込まれたPowerPointのOLEオブジェクトを含む[sample excel file](5473378.xls)から読み取られた、つまりGUIDであるOLEオブジェクトのクラス識別子を示しています。
+
+![todo:image_alt_text](get-or-set-the-class-identifier-of-the-embedded-ole-object_1.png)
 ## **サンプルコード**
-で実行した次のサンプル コードを参照してください。[サンプルエクセルファイル](5473378.xls)およびそのコンソール出力を出力します*クラス識別子*Ole オブジェクト、つまり GUID の。印刷された GUID は、スクリーンショット内に示されているものとまったく同じです。
+次のサンプルコードは、[サンプルエクセルファイル](5473378.xls)を使用して実行され、OLEオブジェクトの*クラス識別子*を出力するコンソール出力を示しています。表示されるGUIDは、スクリーンショット内に表示されるものとまったく同じです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetSettheClassIdentifier-GetSettheClassIdentifier.java" >}}
 ## **コンソール出力**
-これは、上記のサンプル コードを次のコマンドで実行したときのコンソール出力です。[サンプルエクセルファイル](5473378.xls).
+これは[サンプルエクセルファイル](5473378.xls)を使用して実行した上記サンプルコードのコンソール出力です。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 

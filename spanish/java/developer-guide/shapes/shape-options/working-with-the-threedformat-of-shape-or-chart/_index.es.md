@@ -1,16 +1,17 @@
-﻿---
-title: Trabajar con el ThreeDFormat de Shape o Chart
+---
+title: Trabajar con el Formato ThreeD de la Forma o Gráfico
 type: docs
 weight: 970
 url: /es/java/working-with-the-threedformat-of-shape-or-chart/
 ---
-## **Posibles escenarios de uso**
- Aspose.Cells proporciona el[Forma.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat)propiedad para trabajar con el formato 3-D de forma o gráfico. Contiene diferentes subpropiedades que puede configurar para lograr diferentes resultados según sus requisitos.
 
-La siguiente captura de pantalla muestra la interfaz de Excel Microsoft para configurar el formato 3D de la forma.
+## **Escenarios de uso posibles**
+Aspose.Cells proporciona la propiedad [Shape.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat) para trabajar con el Formato 3D de la figura o gráfico. Contiene diferentes subpropiedades que puede establecer para lograr diferentes resultados según sus requisitos.
 
-![todo:imagen_alternativa_texto](working-with-the-threedformat-of-shape-or-chart_1.png)
-## **Trabajar con el ThreeDFormat de Shape o Chart**
- El siguiente código de ejemplo carga el[archivo fuente excel](5472522.xlsx) y accede a la primera forma en la primera hoja de trabajo y establece las subpropiedades de[Forma.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat)propiedad y luego guarda el libro en el[archivo de salida de Excel](5472521.xlsx).
+La siguiente captura de pantalla muestra la interfaz de Microsoft Excel para configurar el formato 3D de la forma.
+
+![todo:image_alt_text](working-with-the-threedformat-of-shape-or-chart_1.png)
+## **Trabajar con el Formato ThreeD de la Forma o Gráfico**
+El siguiente código de muestra carga el [archivo de Excel de origen](5472522.xlsx) y accede a la primera forma en la primera hoja de trabajo para configurar las subpropiedades de la propiedad [Shape.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat) y luego guarda el libro de trabajo en el [archivo de Excel de salida](5472521.xlsx).
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithThreeDFormat-WorkingWithThreeDFormat.java" >}}

@@ -1,12 +1,13 @@
-﻿---
-title: Tablix グループの改ページをサポート
+---
+title: タブリックスグループ改ページをサポート
 type: docs
 weight: 40
 url: /ja/reportingservices/support-tablix-group-page-break/
 ---
-グループ改ページ（Between）とテーブル レポート アイテムの改ページを設定します。デフォルト値は改ページなしに設定されています。
 
-![todo:画像_代替_文章](support-tablix-group-page-break_1.png)
+テーブルレポートアイテムのグループページ区切り（間）とページ区切りを設定します。デフォルト値はページ分割なしに設定されています。 
+
+![todo:image_alt_text](support-tablix-group-page-break_1.png)
 
 
 

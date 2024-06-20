@@ -1,18 +1,19 @@
 ---
-title: إخفاء وإظهار الصفوف والأعمدة في Python
+title: إخفاء وعرض الصفوف والأعمدة في Python
 type: docs
 weight: 50
 url: /ar/java/hiding-and-showing-rows-and-columns-in-python/
-description: تعرف على كيفية إخفاء وإظهار الصفوف والأعمدة من خلال Aspose.Cells for Python عبر Java API.
-keywords: How to Hide and Show Rows and Columns in Python Via Java, Hide Rows and Columns using Python Via Java, Python Via Java Show Rows and Columns. 
+description: تعلّم كيفية إخفاء وعرض الصفوف والأعمدة من خلال واجهة برمجة تطبيقات Aspose.Cells لـ Python عبر API جافا.
+keywords: كيفية إخفاء وعرض الصفوف والأعمدة في Python عبر Java، إخفاء الصفوف والأعمدة باستخدام Python عبر Java، Python عبر Java عرض الصفوف والأعمدة. 
 ---
-##  **Aspose.Cells - التحكم في رؤية الصفوف والأعمدة**
-###  **كيفية إخفاء الصفوف والأعمدة**
-يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء طريقتي HideRow وHideColumn للمجموعة Cells على التوالي. تأخذ كلتا الطريقتين فهرس الصف/العمود كمعلمة لإخفاء الصف أو العمود المحدد.
 
-**كود روبي**
+## **Aspose.Cells - التحكم في رؤية الصفوف والأعمدة**
+### **كيفية إخفاء الصفوف والأعمدة**
+يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء طرق HideRow و HideColumn لمجموعة Cells على التوالي. تأخذ كلا الطريقتين فهرس الصف/العمود كمعلمة لإخفاء الصف أو العمود المعين.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  def hide_rows_columns(self):
 
@@ -41,15 +42,15 @@ workbook.save(self.dataDir + "Hide Rows And Columns.xls")
 print "Hide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-###  **كيفية إظهار الصفوف والأعمدة**
-يمكن للمطورين إظهار أي صف أو عمود مخفي عن طريق استدعاء طريقتي UnhideRow وUnhideColumn للمجموعة Cells على التوالي. تأخذ كلتا الطريقتين معلمتين:
+### **كيفية إظهار الصفوف والأعمدة**
+يمكن للمطورين إظهار أي صف أو عمود مخفي عن طريق استدعاء طرق UnhideRow و UnhideColumn لمجموعة Cells على التوالي. تأخذ كلا الطريقتين معلمين:
 
-- **فهرس عمود الصف**فهرس الصف أو العمود الذي يستخدم لإظهار الصف أو العمود المحدد.
-- **ارتفاع الصف أو عرض العمود**- ارتفاع الصف أو عرض العمود المخصص للصف أو العمود بعد عرضه.
+- **فهرس الصف أو العمود** - فهرس صف أو عمود يُستخدم لإظهار الصف أو العمود المعين.
+- **ارتفاع الصف أو عرض العمود** - ارتفاع الصف أو عرض العمود المعين بعد إظهاره.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def unhide_rows_columns(self):
 
@@ -78,7 +79,7 @@ workbook.save(self.dataDir + "Unhide Rows And Columns.xls")
 print "Unhide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-##  **تحميل كود التشغيل**
- تحميل**التحكم في رؤية الصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **التحكم في رؤية الصفوف والأعمدة (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

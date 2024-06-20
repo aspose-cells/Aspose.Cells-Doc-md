@@ -1,70 +1,71 @@
 ---
-title: Excel のテーマと色
+title: Excelのテーマと色
 type: docs
 weight: 100
 url: /ja/net/excel-themes-and-colors/
-description: C# Aspose.Cells for .NET API で Excel カラー スキームを使用するコード
-keywords: C# to Create and Apply Color Schemes, c# programmatically Create a Custom Color Scheme, programmatically how to Apply a Custom Color Scheme, c# how to Use Color Scheme in excel
+description: Excel Color Scheme with Aspose.Cells for .NET APIの使用のためのC#コード
+keywords: C#での色のスキームの作成と適用、プログラム的にカスタムカラースキームの作成、プログラム的にカスタムカラースキームの適用方法、Excelでのカラースキームの使用方法
 ---
-##  **Excelでカラースキームを適用および作成する方法**
-ドキュメント テーマを使用すると、Excel ドキュメントの色、フォント、グラフィック書式設定効果を簡単に調整し、迅速に更新できます。
-テーマは、ワークブックで使用される名前付きスタイル、グラフィック効果、その他のオブジェクトを使用して統一された外観を提供します。たとえば、Accent1 スタイルは、Office テーマと Apex テーマでは見た目が異なります。多くの場合、ドキュメントのテーマを適用してから、希望どおりに修正します。
 
-###  **Excelでカラースキームを適用する方法**
-1. Excel を開き、Excel リボンの [ページ レイアウト] タブに移動します。
-1. 「テーマ」セクションの「色」ボタンをクリックします。
+## **Excelでのカラースキームの適用と作成方法**
+ドキュメントテーマを使用すると、Excelドキュメントの色、フォント、グラフィックの書式効果を簡単に調整し、迅速に更新できます。 
+テーマは名前付きスタイル、グラフィカル効果、ブックの他のオブジェクトを使用して統一された外観を提供します。たとえば、OfficeテーマとApexテーマでは、Accent1スタイルは異なる外観になります。よくあるのは、ドキュメントテーマを適用してから、必要に応じて修正することです。
+
+### **Excelでのカラースキームの適用方法**
+1. Excelを開き、「ページレイアウト」タブに移動します。
+1. 「テーマ」セクションの「カラー」ボタンをクリックします。
 <br>
 <img src="color.png" width=70% />
-1. 要件に一致するカラー パレットを選択するか、スキームの上にマウスを置くとライブ プレビューが表示されます。
+1. 要件に合ったカラーパレットを選択するか、スキームにマウスを重ねてライブプレビューを表示します。
 
-###  **Excel でカスタム カラー スキームを作成する方法**
-独自のカラーセットを作成して、ドキュメントに新鮮でユニークな外観を与えたり、組織のブランド基準に準拠したりすることができます。
+### **Excelでのカスタムカラースキームの作成方法**
+ドキュメントに新鮮で独自の外観を与えるために独自のカラーセットを作成するか、組織のブランド規準に準拠します。
 
-1. Excel を開き、Excel リボンの [ページ レイアウト] タブに移動します。
-1. 「テーマ」セクションの「色」ボタンをクリックします。
-1. 「色のカスタマイズ...」ボタンをクリックします。
+1. Excelを開き、「ページレイアウト」タブに移動します。
+1. 「テーマ」セクションの「カラー」ボタンをクリックします。
+1. 「カスタムカラーのカスタマイズ...」ボタンをクリックします。
 <br>
 <img src="color2.png" width=70% />
 
-1. [新しいテーマの色の作成] ダイアログ ボックスで、要素の横にある色のドロップダウンをクリックして、各要素の色を選択できます。パレットから色を選択することも、「その他の色」オプションを使用してカスタム色を定義することもできます。
+1. 「新しいテーマの色の作成」ダイアログボックスで、各要素の色を選択できます。
 <br>
 <img src="color3.png" width=70% />
-1. 必要な色をすべて選択した後、「名前」フィールドにカスタム カラー スキームの名前を入力します。
+1. 必要な色をすべて選択した後、「名前」フィールドにカスタムカラースキームの名前を入力します。
 
-1. [保存] ボタンをクリックして、カスタム カラー スキームを保存します。カスタムの配色は、今後使用できるように [色] ドロップダウン メニューで利用できるようになります。
+1. 「保存」ボタンをクリックしてカスタムカラースキームを保存します。カスタムカラースキームは今後の使用のために「カラー」ドロップダウンメニューで利用可能になります。
 
-##  **Aspose.Cells で配色を作成して適用する方法**
-Aspose.Cells は、テーマと色をカスタマイズする機能を提供します。
+## **Aspose.Cellsでのカラースキームの作成と適用方法**
+Aspose.Cellsにはテーマと色をカスタマイズする機能が提供されています。
 
-###  **Aspose.Cells でカスタム カラー テーマを作成する方法**
-ファイル内でテーマの色が使用されている場合、各セルを個別に変更する必要はなく、テーマ内の色を変更するだけで済みます。
+### **Aspose.Cellsでのカスタムカラーテーマの作成方法**
+ファイルでテーマカラーが使用されている場合、各セルを個々に変更する必要はありません。テーマの色を修正するだけで済みます。
 
-次の例は、希望の色のカスタム テーマを適用する方法を示しています。 Microsoft Excel 2007 で手動で作成したサンプル テンプレート ファイルを使用します。
+使用例では、希望の色でカスタムテーマを適用する方法が示されています。Microsoft Excel 2007 で手動で作成されたサンプルテンプレートファイルを使用します。
 
-次の例では、テンプレート XLSX ファイルをロードし、さまざまなテーマ カラー タイプの色を定義し、カスタム カラーを適用して、Excel ファイルを保存します。
+使用例では、テンプレートXLSXファイルを読み込み、さまざまなテーマカラータイプの色を定義し、カスタムカラーを適用してExcelファイルを保存します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-CustomizeThemes-1.cs" >}}
 
-###  **Aspose.Cells でテーマカラーを適用する方法**
+### **Aspose.Cells でテーマカラーを適用する方法**
 
-次の例では、(ブックの) デフォルトのテーマの色の種類に基づいてセルの前景色とフォントの色を適用します。また、Excel ファイルをディスクに保存します。
+使用例では、セルの前景色とフォント色を、ブックのデフォルトテーマの色タイプに基づいて適用します。また、Excelファイルをディスクに保存します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-UtilizeThemeColors-1.cs" >}}
 
-###  **Aspose.Cells でテーマカラーを取得および設定する方法**
-以下に、テーマの色を実装するいくつかのメソッドとプロパティを示します。
+### **Aspose.Cells でテーマカラーを取得および設定する方法**
+ テーマカラーを実装するいくつかのメソッドとプロパティが以下に示されています。
 
-- [**Style.ForegroundThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundthemecolor): 前景色を設定するために使用されます。
-- [**Style.BackgroundThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundthemecolor)：背景色の設定に使用します。
-- [**フォント.テーマの色**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/themecolor)：文字の色を設定します。
-- [**Workbook.GetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getthemecolor): テーマカラーを取得するために使用されます。
-- [**Workbook.SetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/setthemecolor)：テーマカラーを設定します。
+- [**Style.ForegroundThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundthemecolor)：前景色を設定するために使用されます。
+- [**Style.BackgroundThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundthemecolor)：背景色を設定するために使用されます。
+- [**Font.ThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/themecolor)：フォントの色を設定するために使用されます。
+- [**Workbook.GetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getthemecolor)：テーマカラーを取得するために使用されます。
+- [**Workbook.SetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/setthemecolor)：テーマカラーを設定するために使用されます。
 
-次の例は、テーマの色を取得および設定する方法を示しています。
+使用例では、テーマカラーを取得および設定する方法が示されています。
 
-次の例では、テンプレート XLSX ファイルを使用し、さまざまなテーマ カラー タイプの色を取得し、色を変更して、Microsoft Excel ファイルを保存します。
+使用例では、テンプレートXLSXファイルを使用して、さまざまなテーマカラータイプの色を取得し、色を変更し、Microsoft Excelファイルを保存します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
 
-##  **アドバンストトピック**
+## **高度なトピック**
 - [Excelファイルからテーマデータを抽出](/cells/ja/net/extract-theme-data-from-excel-file/)

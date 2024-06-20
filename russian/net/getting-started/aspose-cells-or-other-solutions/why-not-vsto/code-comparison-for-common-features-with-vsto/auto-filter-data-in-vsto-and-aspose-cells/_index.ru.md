@@ -1,21 +1,22 @@
-﻿---
-title: Данные автофильтра в VSTO и Aspose.Cells
+---
+title: Автофильтр данных в VSTO и Aspose.Cells
 type: docs
 weight: 50
 url: /ru/net/auto-filter-data-in-vsto-and-aspose-cells/
 ---
-Чтобы применить автофильтрацию к столбцу:
 
-1. Создайте рабочую книгу.
-1. Получите рабочий лист.
-1. Добавьте образцы данных.
-1. Применить автофильтр.
-1. Автоматически подбирайте столбцы, чтобы сделать дисплей привлекательным.
-1. Сохраните таблицу.
+Чтобы применить авто-фильтрацию к столбцу:
 
-Примеры кода в этой статье показывают, как выполнить эти действия с помощью VSTO либо с C#, либо с помощью Apose.Cells, опять же с C#.
-## **ВСТО**
-{{< highlight "csharp" >}}
+1. Создать книгу.
+1. Получить лист.
+1. Добавить образец данных.
+1. Применить авто-фильтр.
+1. Автоматически подогнать столбцы, чтобы сделать отображение привлекательным.
+1. Сохраните электронную таблицу.
+
+В приведенных примерах кода показано, как выполнить эти шаги с использованием VSTO с помощью C# или с использованием Apose.Cells, также с использованием C#.
+## **VSTO**
+{{< highlight csharp >}}
 
  Excel.Application ExcelApp = Application;
 
@@ -29,27 +30,27 @@ Excel.Worksheet sheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Add data into A1 and B1 Cells as headers.
 
-sheet.Cells[1, 1]= "Product ID";
+sheet.Cells[1, 1] = "Product ID";
 
-sheet.Cells[1, 2]= "Product Name";
+sheet.Cells[1, 2] = "Product Name";
 
 //Add data into details cells.
 
-sheet.Cells[2, 1]= 1;
+sheet.Cells[2, 1] = 1;
 
-sheet.Cells[3, 1]= 2;
+sheet.Cells[3, 1] = 2;
 
-sheet.Cells[4, 1]= 3;
+sheet.Cells[4, 1] = 3;
 
-sheet.Cells[5, 1]= 4;
+sheet.Cells[5, 1] = 4;
 
-sheet.Cells[2, 2]= "Apples";
+sheet.Cells[2, 2] = "Apples";
 
-sheet.Cells[3, 2]= "Bananas";
+sheet.Cells[3, 2] = "Bananas";
 
-sheet.Cells[4, 2]= "Grapes";
+sheet.Cells[4, 2] = "Grapes";
 
-sheet.Cells[5, 2]= "Oranges";
+sheet.Cells[5, 2] = "Oranges";
 
 //Enable Auto-filter.
 
@@ -73,7 +74,7 @@ objBook.SaveCopyAs("vsto_autofilter.xlsx");
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -121,7 +122,7 @@ objBook.Save("aspose-cells_autofilter.xlsx");
 
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Auto.Filter.Data.Aspose.Cells.zip)
-- [Источникфорж](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Auto%20Filter%20Data%20\(Aspose.Cells\).zip/скачать)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Auto%20Filter%20Data%20\(Aspose.Cells\).zip)
+## **Загрузить образец кода**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Auto.Filter.Data.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Auto%20Filter%20Data%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Auto%20Filter%20Data%20\(Aspose.Cells\).zip)

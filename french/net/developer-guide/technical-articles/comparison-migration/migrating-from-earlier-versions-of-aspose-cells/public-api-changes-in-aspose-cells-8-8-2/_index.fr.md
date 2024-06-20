@@ -1,21 +1,22 @@
-﻿---
-title: Public API Changements dans Aspose.Cells 8.8.2
+---
+title: Changements d API publics dans Aspose.Cells 8.8.2
 type: docs
 weight: 280
 url: /fr/net/public-api-changes-in-aspose-cells-8-8-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.Cells API de la version 8.8.1 à 8.8.2 qui peuvent intéresser les développeurs de modules/applications. Il inclut non seulement les méthodes publiques nouvelles et mises à jour, les classes ajoutées et supprimées, etc., mais également une description de tout changement de comportement dans les coulisses de Aspose.Cells.
+Ce document décrit les changements de l'API Aspose.Cells de la version 8.8.1 à la 8.8.2 qui peuvent être d'intérêt pour les développeurs de modules/applications. Il comprend non seulement les nouvelles méthodes publiques et mises à jour, les classes ajoutées et supprimées, etc., mais aussi une description de tout changement dans le comportement en coulisses dans Aspose.Cells.
 
 {{% /alert %}} 
-## **API ajoutées**
-### **Mettre à jour automatiquement les références lors de la suppression de lignes et de colonnes vides**
-Aspose.Cells for .NET 8.8.2 a exposé les versions surchargées des méthodes Cells.DeleteBlankRows & Cells.DeleteBlankColumns. Les nouvelles méthodes peuvent accepter une instance de la classe DeleteOptions et peuvent être utilisées pour surmonter les situations qui pourraient survenir en raison des références brisées dans les formules, les données des séries de graphiques, etc. La classe DeleteOptions n'a actuellement qu'un seul membre, une propriété de type booléen nommée UpdateReference. Si ladite propriété est définie sur true et que l'instance de la classe DeleteOptions est transmise aux méthodes Cells.DeleteBlankRows & Cells.DeleteBlankColumns, le API ajustera en interne les références de formule (le cas échéant) pour s'adapter aux modifications.
+## **APIs ajoutées**
+### **Mise à jour automatique des références lors de la suppression des lignes et colonnes vides**
+Aspose.Cells for .NET 8.8.2 a exposé les versions surchargées des méthodes Cells.DeleteBlankRows & Cells.DeleteBlankColumns. Les nouvelles méthodes peuvent accepter une instance de la classe DeleteOptions et peuvent être utilisées pour surmonter les situations qui pourraient survenir en raison des références brisées dans les formules, les données de séries de graphiques, etc. La classe DeleteOptions a actuellement un seul membre, une propriété de type Boolean nommée UpdateReference. Si ladite propriété est définie sur true et que l'instance de la classe DeleteOptions est passée aux méthodes Cells.DeleteBlankRows & Cells.DeleteBlankColumns, l'API ajustera automatiquement les références des formules (le cas échéant) pour accommoder les changements.
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails sur cette fonctionnalité, veuillez consulter l'article détaillé sur[Suppression de lignes et de colonnes vides avec des références mises à jour](/cells/fr/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/).
+Pour plus de détails sur cette fonction, veuillez consulter l'article détaillé sur [Suppression des lignes et colonnes vides avec des références mises à jour](/cells/fr/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/).
 
 {{% /alert %}} 
 
@@ -23,7 +24,7 @@ Voici le scénario d'utilisation simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook & load an existing spreadsheet
 

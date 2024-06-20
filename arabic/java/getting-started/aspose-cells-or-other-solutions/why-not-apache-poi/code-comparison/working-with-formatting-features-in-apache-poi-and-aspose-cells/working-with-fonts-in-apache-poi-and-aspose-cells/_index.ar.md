@@ -1,15 +1,16 @@
-﻿---
+---
 title: العمل مع الخطوط في Apache POI و Aspose.Cells
 type: docs
 weight: 30
 url: /ar/java/working-with-fonts-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - التعامل مع الخطوط**
-Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)يمثل ملف Excel Microsoft. تحتوي فئة المصنف على مجموعة أوراق العمل التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)صف دراسي. توفر فئة ورقة العمل مجموعة Cells. يمثل كل عنصر في مجموعة Cells عنصرًا من عناصر[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)صف دراسي.
+
+## **Aspose.Cells - العمل مع الخطوط**
+توفر Aspose.Cells فئة [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) تمثل ملف Excel من Microsoft. تحتوي فئة Workbook على مجموعة من الورقات تتيح الوصول إلى كل ورقة في ملف Excel. تُمثل الورقة بواسطة فئة [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet). تقدم فئة Worksheet مجموعة من الخلايا. يُمثل كل عنصر في مجموعة الخلايا كائنًا من فئة [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell).
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Adding some value to cell
 
@@ -41,11 +42,11 @@ cell.setStyle(style);
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - العمل مع الخطوط**
-يوفر Apache POI SS فئة الخط لضبط إعدادات الخط المتنوعة.
+توفر Apache POI SS فئة Font لتحديد مختلف إعدادات الخطوط.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Create a new font and alter it.
 
@@ -74,13 +75,13 @@ cell.setCellValue("This is a test of fonts");
 cell.setCellStyle(style);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / cells / أمثلة / featurescomparison / formatting / Fonts)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/fonts)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[التعامل مع إعدادات الخط](http://docs.aspose.com:8082/docs/display/cellsjava/Dealing+with+Font+Settings).
+لمزيد من التفاصيل، قم بزيارة [التعامل مع إعدادات الخط](http://docs.aspose.com:8082/docs/display/cellsjava/Dealing+with+Font+Settings).
 
 {{% /alert %}}

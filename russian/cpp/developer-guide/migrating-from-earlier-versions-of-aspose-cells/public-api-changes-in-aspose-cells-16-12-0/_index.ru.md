@@ -1,23 +1,24 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 16.12.0
+---
+title: Изменения в общедоступном API в Aspose.Cells 16.12.0
 type: docs
 weight: 10
 url: /ru/cpp/public-api-changes-in-aspose-cells-16-12-0/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 16.11.0 до 16.12.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells от версии 16.11.0 до 16.12.0, которые могут быть интересны разработчикам модулей/приложений. В нем представлены не только новые и обновленные общедоступные методы, добавленные и удаленные классы и т. д., но также описание любых изменений в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
+## **Добавленные API**
 ### **Поддержка сводных таблиц**
-Второй выпуск Aspose.Cells for C++ поддерживает создание сводных таблиц и управление ими. Aspose.Cells for C++ предоставляет класс IPivotTable, который представляет объект сводной таблицы, тогда как IPivotTableCollection представляет коллекцию сводных таблиц. Доступ к IPivotTableCollection можно получить через объект IWorksheet, а новую сводную таблицу можно добавить в коллекцию с помощью метода IPivotTableCollection.Add.
+Вторая версия Aspose.Cells for C++ поддерживает создание и манипулирование сводными таблицами. Aspose.Cells for C++ предоставляет класс IPivotTable, который представляет объект сводной таблицы, в то время как IPivotTableCollection представляет коллекцию сводных таблиц. Класс IPivotTableCollection можно получить через объект IWorksheet, и новая сводная таблица может быть добавлена в коллекцию, используя метод IPivotTableCollection.Add.
 
- Следующий фрагмент кода демонстрирует, как просто использовать Aspose.Cells for C++ API для[создавать сводные таблицы с нуля](/cells/ru/cpp/create-pivot-table/).
+Ниже приведен фрагмент кода, демонстрирующий простоту использования Aspose.Cells for C++ API для [создания сводных таблиц с нуля](/cells/ru/cpp/create-pivot-table/).
 
-**С++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -85,13 +86,13 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 
-Помимо создания новых сводных таблиц, API-интерфейсы Aspose.Cells for C++ также поддерживают управление существующими сводными таблицами. В настоящее время API поддерживает изменение данных в исходном диапазоне сводной таблицы, а затем их обновление. После того как сводная таблица будет обработана по желанию, лучше всего использовать методы IPivotTable.RefreshData и IPivotTable.CalculateData для обновления сводной таблицы в соответствии с обновленным источником данных.
+Помимо создания новых сводных таблиц, API Aspose.Cells for C++ также поддерживает манипулирование существующими сводными таблицами. В настоящее время API поддерживает изменение данных в исходном диапазоне сводной таблицы, а затем обновление. После того, как сводная таблица была изменена по желанию, лучше всего использовать методы IPivotTable.RefreshData и IPivotTable.CalculateData для обновления сводной таблицы по обновленному источнику данных.
 
-Следующий фрагмент кода использует Aspose.Cells for C++ API для[управлять существующей сводной таблицей](/cells/ru/cpp/manipulate-pivot-table/).
+Ниже приведен фрагмент кода, использующий API Aspose.Cells for C++ для [манипулирования существующей сводной таблицей](/cells/ru/cpp/manipulate-pivot-table/).
 
-**С++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -133,7 +134,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Поддержка правил условного форматирования**
- Aspose.Cells for C++ теперь предоставляет возможность добавлять правила условного форматирования на лист, предоставляя класс IFormatCondition. Вышеупомянутый класс дополнительно предоставляет следующие методы для[применять правила условного форматирования](/cells/ru/cpp/apply-conditional-formatting-in-worksheet/) в соответствии с требованиями приложения.
+Теперь Aspose.Cells for C++ предоставляет возможность добавлять правила условного форматирования на лист, путем предоставления класса IFormatCondition. Указанный класс также предоставляет следующие методы для [применения правил условного форматирования](/cells/ru/cpp/apply-conditional-formatting-in-worksheet/) в соответствии с требованиями приложения.
 
 - IFormatCondition.GetIAboveAverage
 - IFormatCondition.GetIColorScale
@@ -141,11 +142,11 @@ wb->Save(outputPath);
 - IFormatCondition.GetIIconSet
 - IFormatCondition.GetITop10
 
-В следующем примере кода показано, как добавить правило условного форматирования типа Cell Значение в ячейки A1 и B2.
+Приведенный ниже образец кода показывает, как добавить правило условного форматирования типа Значение ячейки на ячейки A1 и B2.
 
-**С++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an empty workbook
 
@@ -191,11 +192,11 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Поддержка гиперссылок**
- Aspose.Cells for C++ теперь поддерживает[добавление гиперссылок в ячейки рабочего листа](/cells/ru/cpp/add-hyperlinks-to-the-cells/)Чтобы обеспечить эту функцию, Aspose.Cells for C++ 16.12.0 предоставил класс IHyperlinkCollection, который доступен через объект IWorksheet, тогда как гиперссылка может быть добавлена в коллекцию при использовании метода IHyperlinkCollection.Add, как показано ниже.
+Теперь Aspose.Cells for C++ поддерживает [добавление гиперссылок в ячейки листа](/cells/ru/cpp/add-hyperlinks-to-the-cells/). Чтобы предоставить эту функцию, Aspose.Cells for C++ версии 16.12.0 предоставил класс IHyperlinkCollection, который доступен через объект IWorksheet, в то время как гиперссылка может быть добавлена в коллекцию, используя метод IHyperlinkCollection.Add, как показано ниже.
 
-**С++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a new workbook
 
@@ -225,18 +226,18 @@ wb->Save(dirPath->Append(new String("output.xlsx")), SaveFormat_Xlsx);
 
 {{< /highlight >}}
 ### **Поддержка свойств документа**
-Приложение Excel поддерживает 2 типа свойств документа, перечисленных ниже.
+Приложение Excel поддерживает 2 типа документных свойств, перечисленных ниже.
 
-- Системные (встроенные) свойства. Встроенные свойства содержат общую информацию о документе, такую как название документа, имя автора, статистику документа и т. д.
-- Пользовательские (настраиваемые) свойства: настраиваемые свойства, определенные конечным пользователем в виде пары "имя-значение".
+- Oпределенные системой (встроенные) свойства: Встроенные свойства содержат общую информацию о документе, такую как название документа, имя автора, статистику документа и т. д.
+- Пользовательские (пользовательские) свойства: Пользовательские свойства, определенные конечным пользователем в виде пары имени и значения.
 
- Aspose.Cells for C++ опоры[управление обоими типами свойств документа, встроенными и пользовательскими](/cells/ru/cpp/managing-document-properties/)Aspose.Cells' Класс IWorkbook представляет файл Excel. Чтобы получить доступ к встроенным свойствам документа, используйте IWorkbook.GetBuiltInDocumentProperties, тогда как доступ к пользовательским свойствам документа можно получить с помощью метода IWorkbook.GetCustomDocumentProperties.
+Aspose.Cells for C++ поддерживает [управление обоими типами документных свойств, встроенными и пользовательскими](/cells/ru/cpp/managing-document-properties/). Класс IWorkbook Aspose.Cells представляет файл Excel. Для доступа к встроенным документным свойствам используйте IWorkbook.GetBuiltInDocumentProperties, в то время как пользовательские документные свойства могут быть получены с использованием метода IWorkbook.GetCustomDocumentProperties.
 
-Следующий пример кода загружает существующий образец электронной таблицы и считывает встроенные свойства документа, такие как заголовок, тема и настраиваемое свойство, по имени MyCustom1.
+Следующий образец кода загружает существующую образцовую электронную таблицу и считывает встроенные свойства документа, такие как Название, Тема и пользовательское свойство с именем Мой_пользовательский_1.
 
-**С++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -285,14 +286,14 @@ wb->GetICustomDocumentProperties()->AddIDocumentProperty(strCustomPropName, strC
 wb->Save(outputPath);
 
 {{< /highlight >}}
-### **Поддержка объектов списка.**
- Таблица Excel представляет собой матрицу ячеек, содержащую любое количество строк и столбцов, тогда как та же таблица называется объектом списка в API Aspose.Cells for C++. Пространство имен Aspose::Cells::Tables содержит все необходимые классы, которые имеют дело с операциями, связанными с объектами списка. Наиболее заслуживают упоминания классы IListObject и IListObjectCollection, которые позволяют[создавать и форматировать объекты списка](/cells/ru/cpp/create-and-format-table/) и так далее.
+### **Поддержка объектов ListObjects**
+Таблица Excel представляет собой матрицу ячеек, содержащую любое количество строк и столбцов, в то время как та же таблица называется Объектом списка в Aspose.Cells for C++ API. Пространство имен Aspose::Cells::Tables содержит все необходимые классы, которые работают с операциями, связанными с Объектами списка. Самые важные классы - это IListObject и IListObjectCollection, которые позволяют [создавать и форматировать Объекты списка](/cells/ru/cpp/create-and-format-table/) и так далее.
 
-Следующий пример кода загружает образец файла электронной таблицы, а затем создает объект списка (таблицу) в диапазоне A1:H10, а затем использует его различные методы для отображения промежуточного итога.
+Следующий образец кода загружает файл образца электронной таблицы, затем создает объект списка (таблицу) в диапазоне A1:H10, затем использует различные методы для отображения итоговой суммы.
 
-**С++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -336,13 +337,13 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Поддержка группировки строк и столбцов**
- Aspose.Cells for C++ API можно использовать для группировки строк и столбцов при использовании класса ICells, который в основном представляет собой набор всех ячеек на данном листе. Класс ICells предлагает методы GroupRows и GroupColumns для[группировать строки и столбцы](/cells/ru/cpp/group-rows-and-columns-of-worksheet/) соответственно.
+API Aspose.Cells for C++ можно использовать для группировки строк и столбцов при использовании класса ICells, который в основном представляет собой коллекцию всех ячеек в заданном листе. Класс ICells предлагает методы GroupRows и GroupColumns для [группировки строк и столбцов](/cells/ru/cpp/group-rows-and-columns-of-worksheet/) соответственно.
 
-Следующий фрагмент кода демонстрирует простой сценарий использования обоих вышеупомянутых методов.
+Приведенный ниже фрагмент кода демонстрирует простой сценарий использования обоих упомянутых методов.
 
-**С++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an empty workbook
 
@@ -422,13 +423,13 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Поддержка тем**
-Aspose.Cells for C++ API-интерфейсы теперь поддерживают использование и управление темами, предлагаемыми приложением Excel.
+API Aspose.Cells for C++ теперь поддерживает использование и манипулирование темами, предлагаемыми приложением Excel.
 #### **Возможность применения пользовательских цветов темы**
- Следующий фрагмент пытается[создать новую тему с пользовательскими цветами](/cells/ru/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/) для трудовой книжки.
+В следующем фрагменте показано, как [создать новую тему с пользовательскими цветами](/cells/ru/cpp/apply-custom-theme-colors-of-the-workbook/) для книги.
 
-**С++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook
 
@@ -495,12 +496,12 @@ wb->CustomTheme(new String("AnyTheme"), clrs);
 wb->Save(outputPath);
 
 {{< /highlight >}}
-#### **Поддержка управления цветами темы**
- В следующем примере кода показано, как[читать и изменять цвета темы книги](/cells/ru/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). Пример кода загружает существующую электронную таблицу, считывает цвета ее темы, т. е. Accent1-Accent6, и изменяет цвета перед сохранением электронной таблицы.
+#### **Поддержка изменения тем цветов**
+В следующем образце кода показано, как [читать и изменять цвета темы книги](/cells/ru/cpp/apply-custom-theme-colors-of-the-workbook/). Образец кода загружает существующую электронную таблицу, читает ее цвета темы, т.е. Accent1-Accent6, и изменяет цвета перед сохранением электронной таблицы.
 
-**С++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -561,12 +562,12 @@ printf("Accent6: %x\r\n", (clr_Accent6->ToArgb())&0xffffff);
 wb->Save(outputPath);
 
 {{< /highlight >}}
-#### **Возможность копировать темы между книгами**
- В следующем примере кода показано, как[скопировать тему из одной книги в другую](/cells/ru/cpp/copy-theme-from-one-workbook-to-another/), что может быть полезно при применении встроенных или пользовательских тем к нескольким электронным таблицам.
+#### **Возможность копирования тем между книгами**
+В следующем образце кода показано, как [скопировать тему из одной книги в другую](/cells/ru/cpp/copy-theme-from-one-workbook-to-another/), что может быть полезно при применении встроенных или пользовательских тем для нескольких электронных таблиц.
 
-**С++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Read excel file that has Damask theme applied on it
 
@@ -586,53 +587,53 @@ wb->Save(outputPath, SaveFormat_Xlsx);
 
 {{< /highlight >}}
 ## **Переименованные API**
-С выпуском Aspose.Cells for C++ 16.12.0 мы переименовали несколько методов, чтобы сохранить унифицированные интерфейсы. Список всех переименованных API выглядит следующим образом.
-#### **Метод ICell::SetStyle переименован в ICell::SetIStyle.**
-#### **Метод ICell::SetCharacters переименован в ICell::SetIFontSettings.**
-#### **Метод ICellsColor::SetThemeColor переименован в ICellsColor::SetIThemeColor.**
-#### **Метод ICells::SetStyle переименован в ICells::SetIStyle.**
-#### **Метод ICellsHelper::GetDPI_i переименован в ICellsHelper::GetDPI.**
-#### **Метод ICellsHelper::SetDPI_i переименован в ICellsHelper::SetDPI.**
-#### **Метод ICellsHelper::GetVersion_i переименован в ICellsHelper::GetVersion.**
-#### **Метод ICellsHelper::IsProtectedByRMS_i переименован в ICellsHelper::IsProtectedByRMS.**
-#### **Метод ICellsHelper::IsProtectedByRMS_i переименован в ICellsHelper::IsProtectedByRMS.**
-#### **Метод ICellsHelper::CellNameToIndex_i переименован в ICellsHelper::CellNameToIndex.**
-#### **Метод ICellsHelper::CellIndexToName_i переименован в ICellsHelper::CellIndexToName.**
-#### **Метод ICellsHelper::ColumnIndexToName_i переименован в ICellsHelper::ColumnIndexToName.**
-#### **Метод ICellsHelper::ColumnNameToIndex_i переименован в ICellsHelper::ColumnNameToIndex.**
-#### **Метод ICellsHelper::RowIndexToName_i переименован в ICellsHelper::RowIndexToName.**
-#### **Метод ICellsHelper::RowNameToIndex_i переименован в ICellsHelper::RowNameToIndex.**
-#### **Метод ICellsHelper::ConvertR1C1FormulaToA1_i переименован в ICellsHelper::ConvertR1C1FormulaToA1.**
-#### **Метод ICellsHelper::ConvertA1FormulaToR1C1_i переименован в ICellsHelper::ConvertA1FormulaToR1C1.**
-#### **Метод ICellsHelper::GetDateTimeFromDouble_i переименован в ICellsHelper::GetDateTimeFromDouble.**
-#### **Метод ICellsHelper::GetDoubleFromDateTime_i переименован в ICellsHelper::GetDoubleFromDateTime.**
-#### **Метод ICellsHelper::DetectLoadFormat_i переименован в ICellsHelper::DetectLoadFormat.**
-#### **Метод ICellsHelper::DetectFileFormat_i переименован в ICellsHelper::DetectFileFormat.**
-#### **Метод ICellsHelper::GetFontDir_i переименован в ICellsHelper::GetFontDir.**
-#### **Метод ICellsHelper::SetFontDir_i переименован в ICellsHelper::SetFontDir.**
-#### **Метод ICellsHelper::GetFontDirs_i переименован в ICellsHelper::GetFontDirs.**
-#### **Метод ICellsHelper::SetFontDirs_i переименован в ICellsHelper::SetFontDirs.**
-#### **Метод ICellsHelper::GetFontFiles_i переименован в ICellsHelper::GetFontFiles.**
-#### **Метод ICellsHelper::SetFontFiles_i переименован в ICellsHelper::SetFontFiles.**
-#### **Метод ICellsHelper::GetStartupPath_i переименован в ICellsHelper::GetStartupPath.**
-#### **Метод ICellsHelper::SetStartupPath_i переименован в ICellsHelper::SetStartupPath.**
-#### **Метод ICellsHelper::GetAltStartPath_i переименован в ICellsHelper::GetAltStartPath.**
-#### **Метод ICellsHelper::SetAltStartPath_i переименован в ICellsHelper::SetAltStartPath.**
-#### **Метод ICellsHelper::GetLibraryPath_i переименован в ICellsHelper::GetLibraryPath.**
-#### **Метод ICellsHelper::SetLibraryPath_i переименован в ICellsHelper::SetLibraryPath.**
-#### **Метод ICellsHelper::GetUsedColors_i переименован в ICellsHelper::GetUsedColors.**
-#### **Метод ICellsHelper::AddAddInFunction_i переименован в ICellsHelper::AddAddInFunction.**
-#### **Метод ICellsHelper::MergeFiles_i переименован в ICellsHelper::MergeFiles.**
-#### **Метод IColumnCollection::GetByIndex_i переименован в IColumnCollection::GetIColumn.**
-#### **Метод IFileFormatUtil::DetectFileFormat_i переименован в IFileFormatUtil::DetectFileFormat.**
-#### **Метод IFileFormatUtil::ExtensionToSaveFormat_i переименован в IFileFormatUtil::ExtensionToSaveFormat.**
-#### **Метод IFileFormatUtil::IsTemplateFormat_i переименован в IFileFormatUtil::IsTemplateFormat.**
-#### **Метод IFileFormatUtil::LoadFormatToExtension_i переименован в IFileFormatUtil::LoadFormatToExtension.**
-#### **Метод IFileFormatUtil::LoadFormatToSaveFormat_i переименован в IFileFormatUtil::LoadFormatToSaveFormat.**
-#### **Метод IFileFormatUtil::SaveFormatToExtension_i переименован в IFileFormatUtil::SaveFormatToExtension.**
-#### **Метод IFileFormatUtil::SaveFormatToLoadFormat_i переименован в IFileFormatUtil::SaveFormatToLoadFormat.**
-#### **Метод IRange::SetStyle переименован в IRange::SetIStyle.**
-#### **Метод IFindOptions::SetRange переименован в IFindOptions::SetIRange.**
-#### **Метод ILoadOptions::SetLoadDataOptions переименован в ILoadOptions::SetLoadDataOptions.**
-#### **Метод IWorkbook::SetSettings переименован в IWorkbook::SetISettings.**
-#### **Метод IWorkbook::SetDefaultStyle переименован в IWorkbook::SetDefaultIStyle.**
+С выпуском Aspose.Cells for C++ 16.12.0 мы переименовали несколько методов, чтобы сохранить единообразие интерфейсов. Список всех переименованных API приведен ниже.
+#### **Переименован метод ICell::SetStyle в ICell::SetIStyle**
+#### **Переименован метод ICell::SetCharacters в ICell::SetIFontSettings**
+#### **Переименован метод ICellsColor::SetThemeColor в ICellsColor::SetIThemeColor**
+#### **Переименован метод ICells::SetStyle в ICells::SetIStyle**
+#### **Переименован метод ICellsHelper::GetDPI_i в ICellsHelper::GetDPI**
+#### **Переименован метод ICellsHelper::SetDPI_i в ICellsHelper::SetDPI**
+#### **Переименован метод ICellsHelper::GetVersion_i в ICellsHelper::GetVersion**
+#### **Переименован метод ICellsHelper::IsProtectedByRMS_i в ICellsHelper::IsProtectedByRMS**
+#### **Переименован метод ICellsHelper::IsProtectedByRMS_i в ICellsHelper::IsProtectedByRMS**
+#### **Переименован метод ICellsHelper::CellNameToIndex_i в ICellsHelper::CellNameToIndex**
+#### **Переименован метод ICellsHelper::CellIndexToName_i в ICellsHelper::CellIndexToName**
+#### **Переименован метод ICellsHelper::ColumnIndexToName_i в ICellsHelper::ColumnIndexToName**
+#### **Переименован метод ICellsHelper::ColumnNameToIndex_i в ICellsHelper::ColumnNameToIndex**
+#### **Переименован метод ICellsHelper::RowIndexToName_i в ICellsHelper::RowIndexToName**
+#### **Переименован метод ICellsHelper::RowNameToIndex_i в ICellsHelper::RowNameToIndex**
+#### **Переименован метод ICellsHelper::ConvertR1C1FormulaToA1_i в ICellsHelper::ConvertR1C1FormulaToA1**
+#### **Переименован метод ICellsHelper::ConvertA1FormulaToR1C1_i в ICellsHelper::ConvertA1FormulaToR1C1**
+#### **Переименован метод ICellsHelper::GetDateTimeFromDouble_i в ICellsHelper::GetDateTimeFromDouble**
+#### **Переименован метод ICellsHelper::GetDoubleFromDateTime_i в ICellsHelper::GetDoubleFromDateTime**
+#### **Переименован метод ICellsHelper::DetectLoadFormat_i в ICellsHelper::DetectLoadFormat**
+#### **Переименован метод ICellsHelper::DetectFileFormat_i в ICellsHelper::DetectFileFormat**
+#### **Переименован метод ICellsHelper::GetFontDir_i в ICellsHelper::GetFontDir**
+#### **Переименован метод ICellsHelper::SetFontDir_i в ICellsHelper::SetFontDir**
+#### **Переименован метод ICellsHelper::GetFontDirs_i в ICellsHelper::GetFontDirs**
+#### **Переименован метод ICellsHelper::SetFontDirs_i в ICellsHelper::SetFontDirs**
+#### **Переименован метод ICellsHelper::GetFontFiles_i в ICellsHelper::GetFontFiles**
+#### **Переименован метод ICellsHelper::SetFontFiles_i в ICellsHelper::SetFontFiles**
+#### **Переименован метод ICellsHelper::GetStartupPath_i в ICellsHelper::GetStartupPath**
+#### **Переименованный метод ICellsHelper::SetStartupPath_i в ICellsHelper::SetStartupPath**
+#### **Переименованный метод ICellsHelper::GetAltStartPath_i в ICellsHelper::GetAltStartPath**
+#### **Переименованный метод ICellsHelper::SetAltStartPath_i в ICellsHelper::SetAltStartPath**
+#### **Переименованный метод ICellsHelper::GetLibraryPath_i в ICellsHelper::GetLibraryPath**
+#### **Переименованный метод ICellsHelper::SetLibraryPath_i в ICellsHelper::SetLibraryPath**
+#### **Переименованный метод ICellsHelper::GetUsedColors_i в ICellsHelper::GetUsedColors**
+#### **Переименованный метод ICellsHelper::AddAddInFunction_i в ICellsHelper::AddAddInFunction**
+#### **Переименованный метод ICellsHelper::MergeFiles_i в ICellsHelper::MergeFiles**
+#### **Переименованный метод IColumnCollection::GetByIndex_i в IColumnCollection::GetIColumn**
+#### **Переименованный метод IFileFormatUtil::DetectFileFormat_i в IFileFormatUtil::DetectFileFormat**
+#### **Переименованный метод IFileFormatUtil::ExtensionToSaveFormat_i в IFileFormatUtil::ExtensionToSaveFormat**
+#### **Переименованный метод IFileFormatUtil::IsTemplateFormat_i в IFileFormatUtil::IsTemplateFormat**
+#### **Переименованный метод IFileFormatUtil::LoadFormatToExtension_i в IFileFormatUtil::LoadFormatToExtension**
+#### **Переименованный метод IFileFormatUtil::LoadFormatToSaveFormat_i в IFileFormatUtil::LoadFormatToSaveFormat**
+#### **Переименованный метод IFileFormatUtil::SaveFormatToExtension_i в IFileFormatUtil::SaveFormatToExtension**
+#### **Переименованный метод IFileFormatUtil::SaveFormatToLoadFormat_i в IFileFormatUtil::SaveFormatToLoadFormat**
+#### **Переименованный метод IRange::SetStyle в IRange::SetIStyle**
+#### **Переименованный метод IFindOptions::SetRange в IFindOptions::SetIRange**
+#### **Переименованный метод ILoadOptions::SetLoadDataOptions в ILoadOptions::SetILoadDataOptions**
+#### **Переименованный метод IWorkbook::SetSettings в IWorkbook::SetISettings**
+#### **Переименован метод IWorkbook::SetDefaultStyle в IWorkbook::SetDefaultIStyle**

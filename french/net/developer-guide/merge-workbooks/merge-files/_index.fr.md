@@ -1,20 +1,21 @@
-﻿---
+---
 title: Fusionner des fichiers
 type: docs
 weight: 20
 url: /fr/net/merge-files/
 ---
+
 ## **Introduction**
 
- Aspose.Cells fournit différentes manières de fusionner des fichiers. Pour les fichiers simples contenant des données, une mise en forme et des formules, le[**Classeur. Combiner ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) méthode peut être utilisée pour combiner plusieurs classeurs, et la[**Feuille de travail.Copier()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index)peut être utilisée pour copier des feuilles de calcul dans un nouveau classeur. Ces méthodes sont faciles à utiliser et efficaces, mais si vous avez beaucoup de fichiers à fusionner, vous constaterez peut-être qu'elles consomment beaucoup de ressources système. Pour éviter cela, utilisez le[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)méthode statique, un moyen plus efficace de fusionner plusieurs fichiers.
+Aspose.Cells propose différentes façons de fusionner des fichiers. Pour des fichiers simples avec des données, des mises en forme et des formules, la méthode [**Workbook.Combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) peut être utilisée pour combiner plusieurs classeurs, et la méthode [**Worksheet.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index) peut être utilisée pour copier des feuilles de calcul dans un nouveau classeur. Ces méthodes sont simples à utiliser et efficaces, mais si vous avez beaucoup de fichiers à fusionner, vous pourriez constater qu'elles consomment beaucoup de ressources système. Pour éviter cela, utilisez la méthode statique [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles), une façon plus efficace de fusionner plusieurs fichiers.
 
-## **Fusionner des fichiers à l'aide de Aspose.Cells**
+## **Fusionner des fichiers à l'aide d'Aspose.Cells**
 
- L'exemple de code suivant illustre comment fusionner des fichiers volumineux à l'aide de[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)méthode. Il faut deux fichiers simples mais volumineux, Book1.xls et Book2.xls. Les fichiers contiennent uniquement des données formatées et des formules.
+Le code d'exemple suivant illustre comment fusionner des fichiers volumineux en utilisant la méthode [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles). Il prend deux fichiers simples mais volumineux, Book1.xls et Book2.xls. Les fichiers ne contiennent que des données mises en forme et des formules.
 
 {{% alert color="primary" %}}
 
- Le[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) prend uniquement en charge la fusion de données, de styles, de mise en forme et de formules. Les objets tels que les graphiques, les images, les commentaires ou d'autres objets peuvent ne pas être fusionnés à l'aide de cette méthode. De plus, un fichier en cache est utilisé pour stocker des données temporaires pour le processus.
+La méthode [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) prend uniquement en charge la fusion de données, de styles, de mises en forme et de formules. Des objets comme les graphiques, les images, les commentaires ou autres objets pourraient ne pas être fusionnés en utilisant cette méthode. De plus, un fichier mis en cache est utilisé pour stocker des données temporaires pour le processus.
 
 {{% /alert %}}
 

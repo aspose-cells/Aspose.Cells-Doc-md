@@ -1,17 +1,18 @@
-﻿---
-title: Ställ in utskriftsrubriker
+---
+title: Ange utskriftstitlar
 type: docs
 weight: 10
 url: /sv/java/set-print-titles/
 ---
-## **Aspose.Cells - Ställ in trycktitlar**
-Aspose.Cells låter dig ange rad- och kolumnrubriker som ska upprepas på alla sidor i ett utskrivet kalkylblad. För att göra det, använd[Utskriftsformat](/java/pagesetup)class'setPrintTitleColumns och setPrintTitleRows egenskaper.
 
-Raderna eller kolumnerna som kommer att upprepas definieras genom att skicka deras rad- eller kolumnnummer. Till exempel definieras rader som $1:$2 och kolumner definieras som $A:$B.
+## **Aspose.Cells - Ange utskriftstitlar**
+Aspose.Cells låter dig ange rad- och kolumnrubriker som ska upprepas på alla sidor av ett utskrivet arbetsblad. Använd klassen PageSetup' egenskaper 'setPrintTitleColumns' och 'setPrintTitleRows' för att göra detta.
+
+Rader eller kolumner som kommer att upprepas definieras genom att ange deras rad- eller kolumnnummer. Till exempel definieras rader som $1:$2 och kolumner definieras som $A:$B.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the PageSetup of the worksheet
 
@@ -26,14 +27,14 @@ pageSetup.setPrintTitleColumns("$A:$B");
 pageSetup.setPrintTitleRows("$1:$2");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/print/AsposePrintTitles.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Ställa in utskriftsalternativ](/cells/sv/java/page-setup-features/#setting-print-options).
+För mer information, besök [Ange utskriftsalternativ](/cells/sv/java/sida-setup-funktioner/#setting-print-options).
 
 {{% /alert %}}

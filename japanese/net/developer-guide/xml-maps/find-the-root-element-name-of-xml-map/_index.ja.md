@@ -1,24 +1,25 @@
-﻿---
-title: XML マップのルート要素名を見つける
+---
+title: XML Mapのルート要素名を検索する
 type: docs
 weight: 30
 url: /ja/net/find-the-root-element-name-of-xml-map/
 ---
-## **考えられる使用シナリオ**
 
-あなたは見つけることができます*Xml マップのルート要素名*Aspose.Cells を使用[**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname)財産。次のスクリーンショットは、Microsoft Excel の XML マップのルート要素名を示しています。
+## **可能な使用シナリオ**
 
-![todo:画像_代替_文章](find-the-root-element-name-of-xml-map_1.png)
+Microsoft ExcelでXMLマップの*ルート要素名*を[**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname)プロパティを使用して検索できます。
+
+![todo:image_alt_text](find-the-root-element-name-of-xml-map_1.png)
 
 ## **サンプルコード**
 
-次のサンプル コードは、[サンプル Excel ファイル](55541789.xlsx)最初の XML マップにアクセスし、そのマップを出力します。[**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname)財産。以下に示すサンプル コードのコンソール出力を参照してください。
+次のサンプルコードは、[sample Excel file](55541789.xlsx)を読み込み、最初のXMLマップにアクセスし、その[**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname)プロパティを出力します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-XmlMaps-FindRootElementNameOfXmlMap.cs" >}}
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Root Element Name Of Xml Map: MiscData
 

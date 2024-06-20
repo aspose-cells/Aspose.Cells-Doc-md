@@ -1,34 +1,35 @@
-﻿---
-title: 円グラフを作成する
+---
+title: 円グラフを作成します
 type: docs
 weight: 110
 url: /ja/net/create-a-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-グラフはデータをわかりやすく表示します。 Microsoft Excel を使用しているユーザーは、さまざまなグラフを作成してカスタマイズできます。 Aspose.Cells for .NET で作業する開発者は、同じ機能を利用できます。
+チャートはデータを分かりやすく表示します。Microsoft Excelを使用するユーザーはさまざまなチャートを作成してカスタマイズできます。同じ機能は、Aspose.Cells for .NETを使用する開発者にも利用可能です。
 
 {{% /alert %}}
 
-## **円グラフの作成**
+## **円グラフを作成する**
 
-この記事では、Office オートメーションと VSTO を使用して円グラフを作成する方法と、Aspose.Cells for .NET を使用して円グラフを作成する方法を比較します。円グラフを作成する手順は次のとおりです。
+この記事では、オフィス自動化とVSTOを使用して円グラフを作成する方法をAspose.Cells for .NETを使用する方法と比較します。円グラフを作成する手順は次のとおりです：
 
-1. ワークブックとワークシートの作成。
-1. サンプルデータの追加。
-1. productsChart の参照。
-1. 円グラフを追加し、データ範囲とグラフ タイトルを定義します。
-1. スプレッドシートを保存しています。
+1. ワークブックとワークシートを作成する。
+1. サンプルデータを追加する。
+1. productsChart を参照する。
+1. パイチャートを追加し、データ範囲とチャートのタイトルを定義する。
+1. スプレッドシートを保存する。
 
-この記事のコード サンプルは、円グラフを追加する方法を示しています。[VSTO](/cells/ja/net/create-a-pie-chart/) 、C# または Visual Basic を使用して作成する場合と比較して[Aspose.Cells](/cells/ja/net/create-a-pie-chart/)、再び C# または Visual Basic を使用します。
+この記事のコードサンプルは、[VSTO](/cells/ja/net/create-a-pie-chart/)を使用してC#またはVisual Basicを使用して円グラフを追加する方法と、[Aspose.Cells](/cells/ja/net/create-a-pie-chart/)を使用してC#またはVisual Basicを使用して円グラフを作成する方法を示しています。
 
-### **VSTO で円グラフを作成する**
+### **VSTOで円グラフを作成する**
 
-次のコード サンプルは、VSTO を使用して円グラフをスプレッドシートに追加する方法を示しています。
+次に示すコードサンプルでは、VSTOを使用してスプレッドシートに円グラフを追加する方法を説明します。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void PieChart()
 
@@ -98,17 +99,17 @@ url: /ja/net/create-a-pie-chart/
 
 {{< /highlight >}}
 
-**VSTO で作成された円グラフ** 
+**VSTOで作成された円グラフ** 
 
-![todo:画像_代替_文章](create-a-pie-chart_1.png)
+![todo:image_alt_text](create-a-pie-chart_1.png)
 
-### **Aspose.Cells for .NET で円グラフを作成する**
+### **Aspose.Cells for .NETで円グラフを作成する**
 
-次のコード サンプルは、Aspose.Cells を使用して円グラフをスプレッドシートに追加する方法を示しています。
+次に示すコードサンプルでは、Aspose.Cellsを使用してスプレッドシートに円グラフを追加する方法を説明します。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void PieChart()
 
@@ -178,6 +179,6 @@ url: /ja/net/create-a-pie-chart/
 
 {{< /highlight >}}
 
-**Aspose.Cells for .NET で作成された円グラフ** 
+**Aspose.Cells for .NETで作成された円グラフ** 
 
-![todo:画像_代替_文章](create-a-pie-chart_2.png)
+![todo:image_alt_text](create-a-pie-chart_2.png)

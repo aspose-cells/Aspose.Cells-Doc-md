@@ -1,16 +1,17 @@
-﻿---
-title: Ruby'de Sekmeleri Görüntüleme veya Gizleme
+---
+title: Ruby  ile Sekmeleri Göster veya Gizle
 type: docs
 weight: 40
 url: /tr/java/display-or-hide-tabs-in-ruby/
 ---
-## **Aspose.Cells - Sekmeleri Görüntüle veya Gizle**
+
+## **Aspose.Cells - Sekmeleri Göster veya Gizle**
 ### **Sekmeleri Gizleme**
- kullanarak sekmeleri gizlemek için**Yakut için Aspose.Cells Java** , Arama**sekmeleri göster** modül.
+Aspose.Cells Java for Ruby ile sekmeleri gizlemek için **displayhidetabs** modülünü çağırın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -29,12 +30,12 @@ workbook.save(data_dir + "output.xls")
 puts "Tabs are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Sekmeleri Görünür Hale Getirmek**
-Workbook sınıfının setSheetTabBarHidden(false) yöntemiyle sekmeleri görünür yapın.
+### **Sekmeleri Görünür Yapma**
+workbook sınıfının setSheetTabBarHidden(false) metodunu kullanarak sekmeleri görünür yapın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the tabs of the Excel file
 
@@ -42,6 +43,6 @@ workbook.getSettings().setSowTabs(true)
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Sekmeleri Gizle veya Görüntüle veya Gizle (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Aspose.Cells** ile Sekmeleri Gizle veya Göster'i indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidetabs.rb)

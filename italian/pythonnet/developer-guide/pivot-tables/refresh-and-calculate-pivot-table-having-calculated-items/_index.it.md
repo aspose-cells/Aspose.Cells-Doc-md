@@ -1,19 +1,20 @@
 ---
-title: Aggiorna e calcola la tabella pivot con gli elementi calcolati
+title: Aggiorna e calcola la tabella pivot con elementi calcolati
 type: docs
 weight: 40
 url: /it/python-net/refresh-and-calculate-pivot-table-having-calculated-items/
-description: Questo articolo mostra come aggiornare e calcolare la tabella pivot avendo elementi calcolati con Aspose.Cells for Python via .NET.
-keywords: Refresh and Calculate Pivot Table with Calculated Items
+description: Questo articolo mostra come Aggiornare e Calcolare una Tabella Pivot con Elementi Calcolati con Aspose.Cells per Python via .NET.
+keywords: Aspose.Cells per Python Excel, libreria Python di Excel, Aggiornare e Calcolare la tabella pivot con elementi calcolati
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for Python via .NET ora supporta l'aggiornamento e il calcolo della tabella pivot con elementi calcolati. Si prega di utilizzare il[**Tabella pivot.refresh_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/refresh_data/#) E[**Tabella pivot.calculate_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/calculate_data/#) come al solito per eseguire questa funzione.
+Aspose.Cells per Python via .NET supporta ora l'aggiornamento e il calcolo di una tabella pivot con elementi calcolati. Si prega di utilizzare i [**PivotTable.refresh_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/refresh_data/#) e [**PivotTable.calculate_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/calculate_data/#) come di consueto per eseguire questa funzione.
 
 {{% /alert %}}
 
-##  **Aggiorna e calcola la tabella pivot con gli elementi calcolati**
+## **Aggiornare e calcolare la tabella pivot con elementi calcolati**
 
- Il codice di esempio seguente carica il file[file Excel di origine](5115238.xlsx)che contiene una tabella pivot con tre elementi calcolati come "add", "div", "div2". Per prima cosa modifichiamo il valore della cella D2 in 20, quindi aggiorniamo e calcoliamo la tabella pivot utilizzando le API Aspose.Cells for Python via .NET e salviamo la cartella di lavoro nel formato PDF. I risultati in[uscita PDF](5115229.pdf) mostra che Aspose.Cells for Python via .NET ha aggiornato e calcolato la tabella pivot avendo calcolato gli elementi correttamente. Puoi verificarlo utilizzando Microsoft Excel inserendo manualmente il valore 20 nella cella D2 e quindi aggiornando la tabella pivot tramite il tasto di scelta rapida Alt+F5 o facendo clic sul pulsante Aggiorna tabella pivot.
+Il seguente codice di esempio carica il [file excel di origine](5115238.xlsx) che contiene una tabella pivot con tre elementi calcolati come "add", "div", "div2". Cambiamo prima il valore della cella D2 a 20 e poi aggiorniamo e calcoliamo la tabella pivot utilizzando le API di Aspose.Cells per Python via .NET e salviamo il foglio di lavoro in formato PDF. I risultati nel [PDF di output](5115229.pdf) mostrano che Aspose.Cells per Python via .NET ha aggiornato e calcolato con successo la tabella pivot con elementi calcolati. Puoi verificarlo usando Microsoft Excel inserendo manualmente il valore 20 nella cella D2 e poi aggiornando la tabella pivot tramite la scorciatoia Alt+F5 o cliccando sul pulsante Aggiorna tabella pivot.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTable-RefreshAndCalculateItems-1.py" >}}

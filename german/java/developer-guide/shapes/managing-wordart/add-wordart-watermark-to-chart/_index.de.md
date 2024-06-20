@@ -1,30 +1,31 @@
-﻿---
-title: WordArt-Wasserzeichen zum Diagramm hinzufügen
+---
+title: Fügen Sie WordArt Wasserzeichen zum Diagramm hinzu
 type: docs
 weight: 40
 url: /de/java/add-wordart-watermark-to-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Sie können WordArt verwenden, um Tabellenkalkulationen spezielle Texteffekte hinzuzufügen. Strecken Sie beispielsweise einen Titel, dekorieren Sie Text, passen Sie den Text an eine voreingestellte Form an oder wenden Sie den betroffenen Text als Wasserzeichen auf den Plotbereich eines Diagramms an. Das WordArt wird zu einem Objekt, das Sie verschieben oder in Ihren Tabellenkalkulationen positionieren können, um Dekoration hinzuzufügen.
+Sie können WordArt verwenden, um spezielle Texteffekte für Tabellenkalkulationen hinzuzufügen. Zum Beispiel einen Titel strecken, Text dekorieren, den Text in eine voreingestellte Form passen lassen oder den betroffenen Text auf den Diagrammbereich eines Diagramms als Wasserzeichen anwenden. Das WordArt wird zu einem Objekt, das Sie in Ihren Tabellenkalkulationen bewegen oder positionieren können, um Dekorationen hinzuzufügen.
 
-Das folgende Beispiel zeigt, wie Sie eine WordArt-Form als Wasserzeichen für den Diagrammplotbereich hinzufügen.
+Das folgende Beispiel zeigt, wie Sie eine WordArt-Form als Wasserzeichen für den Diagrammbereich hinzufügen.
 
 {{% /alert %}}
 
-## WordArt-Wasserzeichen zum Diagramm hinzufügen
+## Hinzufügen von WordArt-Wasserzeichen zum Diagramm
 
-Das folgende Beispiel zeigt, wie Sie eine WordArt-Form als Wasserzeichen für den Zeichnungsbereich eines vorhandenen Diagramms hinzufügen. Das Beispiel verwendet eine Excel-Vorlagendatei, die das Diagramm bereits enthält.
+Das folgende Beispiel zeigt, wie Sie eine WordArt-Form als Wasserzeichen für den vorhandenen Diagrammbereich hinzufügen. Das Beispiel verwendet eine Vorlagen-Excel-Datei, die bereits das Diagramm enthält.
 
-### Vergleichsbilder für vor und nach der Codeausführung
+### Vergleichsbilder vor und nach der Codeausführung
 
 **Die Eingabedatei**
 
-![todo: Bild_alt_Text](add-wordart-watermark-to-chart_1.png)
+![todo:image_alt_text](add-wordart-watermark-to-chart_1.png)
 
 **Die Ausgabedatei**
 
-![todo: Bild_alt_Text](add-wordart-watermark-to-chart_2.png)
+![todo:image_alt_text](add-wordart-watermark-to-chart_2.png)
 
 ### Java-Code zum Hinzufügen von WordArt-Wasserzeichen zu Diagrammen
 

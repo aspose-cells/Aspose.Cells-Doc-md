@@ -1,22 +1,23 @@
-﻿---
-title: Legende von Excel-Diagrammen verwalten
+---
+title: Legende von Excel Diagrammen verwalten
 linktitle: Legende
 type: docs
 weight: 50
 url: /de/java/chart-legend/
 ---
+
 ## **Legendenoptionen**
- Aspose.Cells ermöglicht auch die Verwaltung der Diagrammlegende zur Laufzeit，mit[Legende](https://reference.aspose.com/cells/java/com.aspose.cells/Legend) Objekt, Legende konnte verschoben, aktualisiert und formatiert werden.
+Aspose.Cells ermöglicht es auch, die Legende des Diagramms zur Laufzeit zu verwalten, mit dem [Legende](https://reference.aspose.com/cells/java/com.aspose.cells/Legend)-Objekt, die Legende kann verschoben, aktualisiert und formatiert werden.
 
-|![todo: Bild_alt_Text](chart_legend.png)|
+|![todo:image_alt_text](chart_legend.png)|
 
-## **Legen Sie die Legende des Diagramms fest**
- Es ist einfach, die Legende des Diagramms mit Aspose.Cells zu verwalten[Legende](https://reference.aspose.com/cells/java/com.aspose.cells/Legend).
+## **Festlegen der Legende des Diagramms**
+Es ist einfach, die Legende des Diagramms mit Aspose.Cells [Legend](https://reference.aspose.com/cells/java/com.aspose.cells/Legend) zu verwalten.
 
-Das folgende Code-Snippet zeigt, wie Legenden verwaltet werden:
+Der folgende Codeausschnitt zeigt, wie die Legende verwaltet wird:
 
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "chart_legend.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "chart_legend.java" >}}
 
-## **Themen vorantreiben**
-- [Setzen Sie den Text der Eintragsfüllung der Diagrammlegende mit Aspose.Cells auf „Keine“.](/cells/de/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+## **Erweiterte Themen**
+- [Setzen Sie den Text des Fülls des Diagrammlegendeneintrags auf keinen mithilfe von Aspose.Cells](/cells/de/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)

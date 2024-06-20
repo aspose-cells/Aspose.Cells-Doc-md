@@ -1,13 +1,14 @@
-﻿---
-title: Sostituisci il tag con il testo in una casella di testo all'interno del foglio di lavoro
+---
+title: Sostituisci il tag con il testo in una casella di testo all interno del foglio di lavoro
 type: docs
 weight: 1100
 url: /it/net/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
 ---
-## **Possibili scenari di utilizzo**
-Le caselle di testo possono avere tag che possono essere sostituiti con del testo in fase di esecuzione per configurarli in base ai requisiti. I tag possono essere alcune etichette racchiuse tra parentesi angolari '<' and '>. Possono esserci più tag all'interno di una singola casella di testo.
-## **Codice d'esempio**
-Il seguente codice di esempio sostituisce i tag TAG_1 e TAG_2 con del testo dice 'ys' e '1'. Il file di esempio per il test sotto il codice può essere scaricato dal seguente link:
+
+## **Possibili Scenari di Utilizzo**
+Text boxes can have tags which can be replaced with some text at run time to configure them according to the requirement. Tags can be some labels enclosed in angle brackets '<' and '>'. There can be multiple tags within a single textbox.
+## **Codice di Esempio**
+Il codice di esempio seguente sostituisce i tag TAG_1 e TAG_2 con del testo come 'ys' e '1'. È possibile scaricare il file di esempio per testare il codice dal seguente link:
 
 [sampleReplaceTagWithText.xlsx](79527942.xlsx)
 

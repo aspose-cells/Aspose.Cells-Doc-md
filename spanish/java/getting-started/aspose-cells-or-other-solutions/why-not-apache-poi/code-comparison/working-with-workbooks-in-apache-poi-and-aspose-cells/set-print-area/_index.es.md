@@ -1,17 +1,18 @@
-﻿---
-title: Establecer área de impresión
+---
+title: Establecer Área de Impresión
 type: docs
 weight: 40
 url: /es/java/set-print-area/
 ---
-## **Aspose.Cells - Establecer área de impresión**
-De manera predeterminada, solo el área de impresión incorpora todas las áreas de la hoja de cálculo que contienen datos. Los desarrolladores pueden establecer un área de impresión específica de la hoja de trabajo.
 
-Para seleccionar un área de impresión específica, use el[Configuración de página](/java/pagesetup)método setPrintArea de la clase. Asigne un rango de celdas que defina el área de impresión a esta propiedad.
+## **Aspose.Cells - Establecer Área de Impresión**
+De forma predeterminada, solo el área de impresión incorpora todas las áreas de la hoja de trabajo que contienen datos. Los desarrolladores pueden establecer un área de impresión específica de la hoja de trabajo.
+
+Para seleccionar un área de impresión específica, utilice el método setPrintArea de la clase [PageSetup](/java/pagesetup). Asigne un rango de celdas que defina el área de impresión a esta propiedad.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -37,7 +38,7 @@ El método Workbook.setPrintArea está disponible para establecer las propiedade
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.setPrintArea(
 );
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/setprintarea)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Configuración de las opciones de impresión](/cells/es/java/page-setup-features/#setting-print-options).
+Para más detalles, visita [Configuración de opciones de impresión](/cells/es/java/page-setup-features/#setting-print-options).
 
 {{% /alert %}}

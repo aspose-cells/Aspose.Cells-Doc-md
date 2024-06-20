@@ -1,24 +1,26 @@
-﻿---
-title: دمج Aspose.Cells شبكة التحكم مع Visual Studio.NET
+---
+title: دمج عناصر تحكم Aspose.Cells Grid مع Visual Studio.NET
 type: docs
 weight: 10
 url: /ar/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/
+description: يصف هذا المقال كيفية استخدام GridWeb و GridDesktop controls في Visual Studio .NET.
+keywords:  GridWeb,GridDesktop,visual studio,control,integrate
 ---
+
 {{% alert color="primary" %}} 
 
- يمكن لمطوري Visual Studio.NET سحب عناصر التحكم بسهولة من ملف**صندوق الأدوات** على Windows أو نموذج ويب. يمكن تنزيل مجموعة الشبكة Aspose.Cells باستخدام مثبت MSI ، أو كمجموعة من حزم DLL. تشرح هذه المقالة ما يجب فعله للتأكد من إمكانية استخدام عناصر تحكم Aspose.Cells.Grid في Visual Studio.NET عند تثبيتها باستخدام مكتبات DLL بدلاً من المثبت.
+يمكن لمطوري Visual Studio.NET سحب الضوابط بسهولة من **الصندوق الأدوات** إلى النموذج الويبي أو النموذج النافذة. يمكن تنزيل مجموعة Aspose.Cells Grid بمثبت MSI ، أو كحزمة من مكتبات الDLL. يشرح هذا المقال ما يجب القيام به للتأكد من أن يمكن استخدام ضوابط Aspose.Cells.Grid في Visual Studio.NET عند استخدامها باستخدام مكتبات الDLL بدلاً من المثبت.
 
 {{% /alert %}} 
-## **دمج Aspose.Cells شبكة التحكم مع Visual Studio.NET**
-لدمج عناصر تحكم الشبكة Aspose.Cells مع Visual Studio.NET:
+## ** Integrate Aspose.Cells Grid Controls with Visual Studio.NET**
+لدمج ضوابط Aspose.Cells Grid مع Visual Studio.NET:
 
-1. افتح صندوق الأدوات.
-1. حدد علامة التبويب عام (أو أي علامة تبويب أخرى تريد إضافة عناصر تحكم إليها).
-1. انقر بزر الماوس الأيمن فوق علامة التبويب عام.
-1.  في Visual Studio.NET 2003: حدد**إضافة / إزالة العناصر** من القائمة.
-1. في Visual Studio.NET 2005 ، حدد**اختر العناصر** من القائمة. سيظهر مربع حوار Customize Toolbox (هذه العملية هي نفسها إلى حد ما بالنسبة لأحدث VS.NET IDEs (على سبيل المثال VS.NET 2013/2015 أو أحدث)).
-1.  انقر**تصفح** وحدد موقع ملفات Aspose.Cells.GridDesktop.dll و Aspose.Cells.GridWeb.dll.
-1.  حدد مكتبات DLL ثم انقر فوق "موافق"**فتح**. سيحتوي مربع حوار Customize Toolbox الآن على عناصر تحكم من Aspose.Cells Grid Suite. سيتم تمييز عناصر التحكم المضافة حديثًا بواسطة مربع الحوار.
-1.  انقر**نعم** لإضافة عناصر التحكم إلى Visual Studio.NET Toolbox الخاص بك.
+1. افتح الصندوق الأدوات.
+1. حدد علامة التبويب العامة (أو أي علامة تبويب أخرى ترغب في إضافة الضوابط إليها).
+1. انقر بزر الماوس الأيمن على علامة التبويب العامة.
+1. في Visual Studio.NET ، حدد **اختيار العناصر** من القائمة. سيظهر مربع حوار تخصيص الصندوق الأدوات (هذه العملية متشابهة إلى حد ما للإصدارات الأحدث من VS.NET (مثل VS.NET 2013/2015 أو الأحدث)).
+1. انقر على **تصفح** وابحث عن ملفات Aspose.Cells.GridDesktop.dll و Aspose.Cells.GridWeb.dll.
+1. حدد ملفات الDLL ثم انقر على **فتح**. سيحتوي مربع حوار تخصيص الصندوق الأدوات الآن على ضوابط من مجموعة Aspose.Cells Grid. ستظهر الضوابط الجديدة المضافة باللون المؤشر بواسطة المربع الحوار.
+1. انقر على **موافق** لإضافة الضوابط إلى صندوق الأدوات في Visual Studio.NET الخاص بك.
 
- سيتم إضافة عناصر تحكم الشبكة Aspose.Cells إلى Toolbox's**عام** التبويب. فقط عنصر التحكم GridWeb غير نشط. هذا لأننا نعمل على تطبيق Windows Forms. يتوفر GridWeb فقط عندما تعمل على نماذج الويب بينما يمكن استخدام GridDesktop مع نماذج Windows فقط.
+سيتم إضافة ضوابط Aspose.Cells Grid إلى علامة التبويب **العامة** في صندوق الأدوات. الضوابط الـ GridWeb غير نشطة فقط. هذا لأننا نعمل على تطبيق نماذج ويندوز. يتوفر GridWeb فقط عند العمل على نماذج الويب في حين يمكن استخدام GridDesktop مع نماذج ويندوز فقط.

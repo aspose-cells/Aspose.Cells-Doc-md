@@ -1,10 +1,11 @@
-﻿---
-title: 画像の解像度、品質、圧縮、その他のオプションを指定する
+---
+title: 画像の解像度、品質、圧縮およびその他のオプションの指定
 type: docs
 weight: 30
 url: /ja/net/specify-image-resolution-quality-compression-and-other-options/
 ---
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -79,6 +80,6 @@ options.OnePagePerSheet = true;
 chart.ToImage(FileName, options);
 
 {{< /highlight >}}
-## **サンプルコードをダウンロード
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Chart%20to%20Image%20with%20Image%20Options%20%28Aspose.Cells%29.zip)
+## **サンプルコードのダウンロード
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Chart%20to%20Image%20with%20Image%20Options%20%28Aspose.Cells%29.zip)

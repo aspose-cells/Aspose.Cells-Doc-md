@@ -1,29 +1,30 @@
-﻿---
-title: Visualizza elenchi puntati impostando il valore Cell utilizzando HTML
+---
+title: Mostra Elenco puntato impostando il Valore della Cella utilizzando HTML
 type: docs
 weight: 120
 url: /it/java/display-bullets-by-setting-cell-value-using/
-description: Scopri come aggiungere punti elenco a Excel Cells utilizzando HTML e Aspose.Cells for Java API.
-keywords: add bullets in excel, add bullets in excel java, display bullets in excel, display bullets in excel java, add bullets in excel with html, add bullets in excel with html java, display bullets in excel with html, display bullets in excel with html java, display bullets in excel using html, add bullets in excel using html
+description: Scopri come aggiungere elenchi puntati alle celle di Excel utilizzando l HTML e l API Aspose.Cells for Java.
+keywords: aggiungere elenchi puntati in excel, aggiungere elenchi puntati in excel java, visualizzare elenchi puntati in excel, visualizzare elenchi puntati in excel java, aggiungere elenchi puntati in excel con html, aggiungere elenchi puntati in excel con html java, visualizzare elenchi puntati in excel con html, visualizzare elenchi puntati in excel con html java, visualizzare elenchi puntati in excel utilizzando html, aggiungere elenchi puntati in excel utilizzando html
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells ora supporta la visualizzazione di elenchi puntati con il codice HTML. Questo articolo spiegherà come visualizzare i punti elenco impostando il valore della cella utilizzando HTML. Useremo[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) proprietà per impostare il valore della cella con il nostro HTML.
+Aspose.Cells supporta ora la visualizzazione di elenchi puntati con codice HTML. Questo articolo spiegherà come visualizzare elenchi puntati impostando il valore della cella utilizzando HTML. Utilizzeremo la proprietà [**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) per impostare il valore della cella con il nostro HTML.
 
 {{% /alert %}}
 
-## **Visualizza elenchi puntati impostando il valore Cell utilizzando HTML**
+## **Visualizza pallini impostando il valore della cella utilizzando HTML**
 
-Il codice seguente utilizza il codice HTML per impostare il valore della cella. Una volta, eseguirai questo codice, otterrai l'output come mostrato nell'immagine qui sotto.
+Il codice seguente utilizza il codice HTML per impostare il valore della cella. Una volta eseguito questo codice, otterrai l'output mostrato nell'immagine sottostante.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisplayBullets-DisplayBullets.java" >}}
 
-## **Produzione**
+## **Output**
 
 Lo screenshot seguente mostra l'output del codice di esempio precedente.
 
-![cose da fare:immagine_alt_testo](display-bullets-by-setting-cell-value-using-html_1.png)
+![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)
 
-## articoli Correlati
+## Articoli correlati
 
-- [Aggiunta di HTML Rich Text all'interno di Cell](/cells/it/java/adding-html-rich-text-inside-the-cell/)
+- [Aggiunta di testo ricco in formato HTML all'interno della cella](/cells/it/java/adding-html-rich-text-inside-the-cell/)

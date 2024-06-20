@@ -1,38 +1,39 @@
-﻿---
-title: Rotierender Cell Text
+---
+title: Drehen des Zelltexts
 type: docs
 weight: 100
 url: /de/net/rotating-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-Manchmal ist eine Spaltenüberschrift viel breiter als die Daten in den Zellen darunter. Dies kann zu unnötigen Leerzeichen auf der Seite führen. Eine Lösung besteht darin, den Text vertikal zu drehen, damit er weniger horizontalen Platz einnimmt. In Microsoft Excel ist das Drehen von Text einfach. Glücklicherweise ist es auch möglich, Text programmgesteuert zu drehen, sodass Entwickler Beschriftungen in den Tabellenkalkulationen drehen können, die sie in ihren Anwendungen erstellen.
+Manchmal ist eine Spaltenüberschrift viel breiter als die Daten in den darunterliegenden Zellen. Dies kann unnötigen Platz auf der Seite verursachen. Eine Lösung besteht darin, den Text vertikal zu drehen, damit er weniger horizontalen Platz einnimmt. In Microsoft Excel ist das Drehen von Text leicht. Zum Glück ist es auch möglich, Text programmgesteuert zu drehen, sodass Entwickler Label in den Tabellenkalkulationen, die sie in ihren Anwendungen erstellen, drehen können.
 
- In diesem Artikel wird beschrieben, wie Sie Text in Zellen drehen können[Aspose.Cells for .NET](/cells/de/net/rotating-cell-text/) im Vergleich dazu, dasselbe mit zu tun[VSTO](/cells/de/net/rotating-cell-text/).
+Dieser Artikel beschäftigt sich damit, wie man Text in Zellen mit [Aspose.Cells for .NET](/cells/de/net/rotating-cell-text/) im Vergleich dazu macht mit [VSTO](/cells/de/net/rotating-cell-text/).
 
 {{% /alert %}}
 
-## **Rotierender Text in Cells**
+## **Text in Zellen drehen**
 
-Führen Sie die folgenden Schritte aus, um Text in einer Zelle auf einem Arbeitsblatt zu drehen:
+Um Text in einer Zelle auf einem Arbeitsblatt zu drehen, befolgen Sie die folgenden Schritte:
 
-1. Erstellen Sie eine Arbeitsmappe und erhalten Sie ein Arbeitsblatt.
-1. Beispieltext hinzufügen.
-1. Text formatieren: drehen, Hintergrundfarbe hinzufügen.
-1. Speicher die Datei.
+1. Erstellen Sie eine Arbeitsmappe und rufen Sie ein Arbeitsblatt ab.
+1. Fügen Sie Beispieldaten hinzu.
+1. Formatieren Sie den Text: drehen, Hintergrundfarbe hinzufügen.
+1. Speichern Sie die Datei.
 
- Die folgenden Codebeispiele zeigen, wie diese Schritte zuerst in ausgeführt werden[VSTO](/cells/de/net/rotating-cell-text/) , verwenden Sie entweder C# oder Visual Basic und dann in[Aspose.Cells](/cells/de/net/rotating-cell-text/), wiederum entweder mit C# oder Visual Basic.
+Die folgenden Codesamples zeigen, wie diese Schritte zuerst in [VSTO](/cells/de/net/rotating-cell-text/) mithilfe von C# oder Visual Basic und dann in [Aspose.Cells](/cells/de/net/rotating-cell-text/) erneut mithilfe von C# oder Visual Basic durchgeführt werden.
 
-Die Codebeispiele in diesem Artikel ergeben die unten gezeigte Ausgabe.
+Die in diesem Artikel gezeigten Codebeispiele ergeben die unten gezeigte Ausgabe.
 **Eine Zelle mit gedrehtem Text.**
 
-![todo: Bild_alt_Text](rotating-cell-text_1.png)
+![todo:image_alt_text](rotating-cell-text_1.png)
 
-### **Rotieren von Text mit VSTO**
+### **Text mit VSTO drehen**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -56,7 +57,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -90,14 +91,14 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-#### **Rotierender Text mit Aspose.Cells for .NET**
+#### **Text mit Aspose.Cells for .NET drehen**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
- 
+
  Workbook objworkbook = new Workbook();
 
 // Get the First sheet.

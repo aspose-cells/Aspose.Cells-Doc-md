@@ -1,14 +1,15 @@
-﻿---
-title: تصدير المخطط إلى SVG مع سمة viewBox
+---
+title: تصدير الرسم البياني إلى SVG مع خاصية viewBox
 type: docs
 weight: 190
 url: /ar/java/export-chart-to-svg-with-viewbox-attribute/
 ---
- بشكل افتراضي ، عندما يتم تصدير المخطط إلى تنسيق SVG ، فإن ملف**viewBox** السمة غير مدرجة في XML الخاص بها. ومع ذلك ، يوفر Aspose.Cells[**ImageOrPrintOptions.setSVGFitToViewPort ()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort) الخاصية التي عند التعيين على**حقيقي** يقوم بتصدير المخطط إلى SVG بسمة viewBox.
 
- إذا قمت بفتح SVG الرسم البياني في المفكرة ، فستجد ملف**viewBox**سمة مشابهة لهذا.
+بشكل افتراضي، عند تصدير الرسم البياني إلى تنسيق SVG، فإن سمة viewBox لا تكون مُدرجة في XML. ومع ذلك، توفر Aspose.Cells خاصية [**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort) التي عند ضبطها على **true** يتم تصدير الرسم البياني إلى SVG مع سمة viewBox.
 
-{{< highlight "java" >}}
+إذا فتحت ملف SVG الخاص بالرسم البياني في المفكرة، فستجد سمة viewBox مماثلة لهذه.
+
+{{< highlight java >}}
 
  <svg xmlns="http://www.w3.org/2000/svg"
 
@@ -20,11 +21,11 @@ url: /ar/java/export-chart-to-svg-with-viewbox-attribute/
 
 {{< /highlight >}}
 
-## مقتطف الرمز
+## مقتطف الكود
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportCharttoSVG-ExportCharttoSVG.java" >}}
 
 ## مقالات ذات صلة
 
-- [عرض المخطط](/cells/ar/java/chart-rendering/)
-- [تصدير ورقة العمل أو الرسم البياني إلى صورة مع العرض والارتفاع المطلوبين](/cells/ar/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+- [عرض الرسم البياني](/cells/ar/java/chart-rendering/)
+- [تصدير ورقة العمل أو الرسم البياني إلى صورة بعرض وارتفاع مطلوبين](/cells/ar/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)

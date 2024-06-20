@@ -1,125 +1,126 @@
-﻿---
+---
 title: ページ設定機能
 type: docs
 weight: 40
 url: /ja/java/page-setup-features/
 ---
-場合によっては、印刷を制御するためにワークシートのページ設定を構成する必要があります。これらのページ設定の設定には、さまざまなオプションがあります。
 
-**ページ オプション** 
+時々、印刷を制御するためにワークシートのページ設定設定を構成する必要があります。これらのページ設定設定にはさまざまなオプションが用意されています。
 
-![todo:画像_代替_文章](page-setup-features_1.png)
+ページオプション 
 
-ページ設定オプションは、Aspose.Cells で完全にサポートされています。この記事では、Aspose.Cells でページ オプションを設定する方法について説明します。
+![todo:image_alt_text](page-setup-features_1.png)
 
-## **ページ オプションの設定**
+Aspose.Cellsではページ設定オプションを完全にサポートしています。本記事では、Aspose.Cellsを使用してページオプションを設定する方法について説明します。
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)、Microsoft Excel ファイルを表します。 Workbook クラスには、Excel ファイル内の各ワークシートへのアクセスを可能にする Worksheets コレクションが含まれています。ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。
+## **ページオプションの設定**
 
-Worksheet クラスは、ページ設定オプションを設定するために使用される PageSetup プロパティを提供します。実際、PageSetup プロパティは、印刷されるワークシートのページ レイアウト オプションを設定できるようにする PageSetup クラスのオブジェクトです。 PageSetup クラスは、ページ設定オプションを設定するために使用されるさまざまなプロパティを提供します。これらのプロパティのいくつかを以下で説明します。
+Aspose.Cellsでは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスが提供されています。WorkbookクラスにはWorksheetsコレクションが含まれており、Excelファイル内の各ワークシートにアクセスできます。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスによって表されます。
+
+WorksheetクラスにはPageSetupプロパティがあり、印刷されるワークシートのページ設定オプションを設定するために使用されます。実際、PageSetupプロパティはPageSetupクラスのオブジェクトであり、印刷されるワークシートのページレイアウトオプションを設定することが可能です。PageSetupクラスにはページ設定オプションを設定するために使用されるさまざまなプロパティがあります。これらのプロパティのうちいくつかについて以下で説明します。
 
 ### **ページの向き**
 
-ページの向きは、[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラス'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation)方法。の[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation)メソッドは[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)パラメータとしての列挙。のメンバー[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)以下に列挙します。
+ページの向きは[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスの[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation)メソッドを使用して縦または横に設定できます。[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation)メソッドは[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)列挙型をパラメータとして受け取ります。[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)列挙型のメンバーは以下にリストされています。
 
 |**ページの向きの種類**|**説明**|
-|:- |:- |
-|[**風景**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#LANDSCAPE)|横向き|
-|[**ポートレート**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#PORTRAIT)|縦向き|
+| :- | :- |
+|[**LANDSCAPE**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#LANDSCAPE)|横向きのページレイアウト|
+|[**PORTRAIT**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#PORTRAIT)|縦向きのページレイアウト|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageOrientation-PageOrientation.java" >}}
 
-### **スケーリング係数**
+### **拡大/縮小率**
 
-倍率を調整して、ワークシートのサイズを縮小または拡大することができます。[**setZoom**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Zoom)の方法[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラス。
+ワークシートのサイズを縮小または拡大することが可能です。その際には、[**setZoom**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Zoom)クラスの[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)メソッドを使用します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ScalingFactor-ScalingFactor.java" >}}
 
-### **FitToPages オプション**
+### **ページに合わせるオプション**
 
-ワークシートの内容を特定のページ数に合わせるには、[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラス'[**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall)と[**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)メソッド。これらのメソッドは、ワークシートのスケーリングにも使用されます。
+ワークシートの内容を特定のページ数に合わせるには、[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスの[**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall)および[**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)メソッドを使用します。これらのメソッドはワークシートをスケーリングするためにも使用されます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FitToPagesOptions-FitToPagesOptions.java" >}}
 
 ### **用紙サイズ**
 
-を使用して、ワークシートが印刷される用紙サイズを設定します。[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラス'[**用紙サイズ**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize)財産。 PaperSize プロパティは、[**用紙サイズの種類**](https://reference.aspose.com/cells/java/com.aspose.cells/PaperSizeType)以下に列挙します。
+ワークシートの用紙サイズを設定するには、[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスの[**PaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize)プロパティを使用します。PaperSizeプロパティは、以下にリストされている[**PaperSizeType**](https://reference.aspose.com/cells/java/com.aspose.cells/PaperSizeType)列挙型の定義済みの値の一つを受け入れます。
 
 |**用紙サイズの種類**|**説明**|
-|:- |:- |
-|紙10x14|10インチ×14インチ。|
-|紙11x17|11インチ×17インチ。|
-|論文A3|A3（297mm×420mm）|
-|用紙A4|A4（210mm×297mm）|
-|紙A4小|A4小（210mm×297mm）|
-|論文A5|A5（148mm×210mm）|
-|論文B3|B3（13.9×19.7インチ）|
-|紙B4|B4（250mm×354mm）|
-|紙B5|B5（182mm×257mm）|
-|紙ビジネスカード|名刺（90mm×55mm）|
-|紙Cシート|Cサイズシート|
-|紙Dシート|Dサイズシート|
-|紙封筒10|封筒 #10 (4-1/8 インチ x 9-1/2 インチ)|
-|紙封筒11|封筒 #11 (4-1/2 インチ x 10-3/8 インチ)|
-|紙封筒12|封筒 #12 (4-1/2 インチ x 11 インチ)|
-|紙封筒14|封筒 #14 (5 インチ x 11-1/2 インチ)|
-|紙封筒9|封筒 #9 (3-7/8 インチ x 8-7/8 インチ)|
-|紙封筒B4|封筒 B4 (250mm x 353mm)|
-|紙封筒B5|封筒 B5 (176mm x 250mm)|
-|紙封筒B6|封筒B6（176mm×125mm）|
-|紙封筒C3|封筒 C3 (324 mm x 458 mm)|
-|紙封筒C4|封筒 C4 (229mm x 324mm)|
-|紙封筒C5|封筒 C5 (162 mm x 229 mm)|
-|紙封筒C6|封筒 C6 (114 mm x 162 mm)|
-|紙封筒C65|封筒 C65 (114mm x 229mm)|
-|紙封筒DL|封筒 DL (110mm x 220mm)|
-|紙封筒イタリア|封筒 イタリア (110 mm x 230 mm)|
-|紙封筒モナーク|封筒モナーク (3-7/8 インチ x 7-1/2 インチ)|
-|紙封筒個人|封筒 (3-5/8 インチ x 6-1/2 インチ)|
-|紙Eシート|Eサイズシート|
-|ペーパーエグゼクティブ|エグゼクティブ (7-1/2 インチ x 10-1/2 インチ)|
-|PaperFanfoldLegalドイツ語|ドイツ リーガル ファンフォールド (8-1/2 インチ x 13 インチ)|
-|PaperFanfoldStdGerman|ドイツ標準折り紙 (8-1/2 インチ x 12 インチ)|
-|PaperFanfoldUS|米国標準の連続紙 (14-7/8 インチ x 11 インチ)|
-|ペーパーフォリオ|フォリオ (8-1/2 インチ x 13 インチ)|
-|ペーパーレジャー|元帳 (17 インチ x 11 インチ)|
-|紙法務|リーガル (8-1/2 インチ x 14 インチ)|
-|紙の手紙|レター (8-1/2 インチ x 11 インチ)|
-|紙手紙小|レター小 (8-1/2 インチ x 11 インチ)|
-|ペーパーノート|メモ (8-1/2 インチ x 11 インチ)|
-|ペーパークォート|四つ折り（215mm×275mm）|
-|論文声明|ステートメント (5-1/2 インチ x 8-1/2 インチ)|
-|紙タブロイド|タブロイド (11 インチ x 17 インチ)|
+| :- | :- |
+|Paper10x14|10 in. x 14 in.|
+|Paper11x17|11 in. x 17 in.|
+|PaperA3|A3 (297 mm x 420 mm)|
+|PaperA4|A4 (210 mm x 297 mm)|
+|PaperA4Small|A4 Small (210 mm x 297 mm)|
+|PaperA5|A5 (148 mm x 210 mm)|
+|PaperB3|B3 (13.9 x 19.7 inches)|
+|PaperB4|B4 (250 mm x 354 mm)|
+|PaperB5|B5 (182 mm x 257 mm)|
+|PaperBusinessCard|Business Card (90 mm x 55 mm)|
+|PaperCSheet|C size sheet|
+|PaperDSheet|D size sheet|
+|PaperEnvelope10|Envelope #10 (4-1/8 in. x 9-1/2 in.)|
+|PaperEnvelope11|Envelope #11 (4-1/2 in. x 10-3/8 in.)|
+|PaperEnvelope12|Envelope #12 (4-1/2 in. x 11 in.)|
+|PaperEnvelope14|Envelope #14 (5 in. x 11-1/2 in.)|
+|PaperEnvelope9|Envelope #9 (3-7/8 in. x 8-7/8 in.)|
+|PaperEnvelopeB4|Envelope B4 (250 mm x 353 mm)|
+|PaperEnvelopeB5|Envelope B5 (176 mm x 250 mm)|
+|PaperEnvelopeB6|Envelope B6 (176 mm x 125 mm)|
+|PaperEnvelopeC3|Envelope C3 (324 mm x 458 mm)|
+|PaperEnvelopeC4|Envelope C4 (229 mm x 324 mm)|
+|PaperEnvelopeC5|Envelope C5 (162 mm x 229 mm)|
+|PaperEnvelopeC6|Envelope C6 (114 mm x 162 mm)|
+|PaperEnvelopeC65|Envelope C65 (114 mm x 229 mm)|
+|PaperEnvelopeDL|Envelope DL (110 mm x 220 mm)|
+|PaperEnvelopeItaly|Envelope Italy (110 mm x 230 mm)|
+|PaperEnvelopeMonarch|Envelope Monarch (3-7/8 in. x 7-1/2 in.)|
+|PaperEnvelopePersonal|Envelope (3-5/8 in. x 6-1/2 in.)|
+|PaperESheet|E size sheet|
+|PaperExecutive|Executive (7-1/2 in. x 10-1/2 in.)|
+|PaperFanfoldLegalGerman|German Legal Fanfold (8-1/2 in. x 13 in.)|
+|PaperFanfoldStdGerman|German Standard Fanfold (8-1/2 in. x 12 in.)|
+|PaperFanfoldUS|U.S. Standard Fanfold (14-7/8 in. x 11 in.)|
+|PaperFolio|Folio (8-1/2 in. x 13 in.)|
+|PaperLedger|Ledger (17 in. x 11 in.)|
+|PaperLegal|Legal (8-1/2 in. x 14 in.)|
+|PaperLetter|Letter (8-1/2 in. x 11 in.)|
+|PaperLetterSmall|Letter Small (8-1/2 in. x 11 in.)|
+|PaperNote|Note (8-1/2 in. x 11 in.)|
+|PaperQuarto|Quarto (215 mm x 275 mm)|
+|PaperStatement|Statement (5-1/2 in. x 8-1/2 in.)|
+|PaperTabloid|Tabloid (11 in. x 17 in.)|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ManagePaperSize-ManagePaperSize.java" >}}
 
 ### **印刷品質**
 
-で印刷するワークシートの印刷品質を設定します。[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラス'[**setPrintQuality**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintQuality)方法。印刷品質の測定単位は、1 インチあたりのドット数 (DPI) です。
+印刷されるワークシートの印刷品質を[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスの[**setPrintQuality**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintQuality)メソッドで設定します。印刷品質の計測単位は、インチあたりのドット(DPI)です。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintQuality-SetPrintQuality.java" >}}
 
 ### **最初のページ番号**
 
-を使用して、ワークシート ページの番号付けを開始します。[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラス'[**setFirstPageNumber**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FirstPageNumber)方法。 setFirstPageNumber メソッドは、最初のワークシート ページのページ番号を設定し、以降のページは昇順で番号付けされます。
+ワークシートページの番号付けを始めるには、[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスの[**setFirstPageNumber**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FirstPageNumber)メソッドを使用します。setFirstPageNumberメソッドは最初のワークシートページのページ番号を設定し、次のページは昇順に番号が付けられます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetFirstPageNumber-SetFirstPageNumber.java" >}}
 
 ## **マージンの設定**
 
-Aspose.Cells は Microsoft Excel のページ設定オプションを完全にサポートします。開発者は、印刷プロセスを制御するためにワークシートのページ設定を構成する必要がある場合があります。このトピックでは、Aspose.Cells を使用してページの余白を構成する方法について説明します。
+Aspose.CellsはMicrosoft Excelのページ設定オプションを完全にサポートしています。開発者は印刷プロセスを制御するためにワークシートのページ設定設定を構成する必要があります。このトピックでは、Aspose.Cellsを使用してページ余白を設定する方法について説明します。
 
-**Microsoft Excel のページ余白**
+Microsoft Excelのページ余白
 
-![todo:画像_代替_文章](page-setup-features_2.png)
+![todo:image_alt_text](page-setup-features_2.png)
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)Microsoft Excel ファイルを表します。 Workbook クラスには、Excel ファイル内の各ワークシートへのアクセスを可能にする Worksheets コレクションが含まれています。ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。
+Aspose.CellsではMicrosoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスが提供されています。WorkbookクラスにはExcelファイル内の各ワークシートにアクセスするためのWorksheetsコレクションが含まれています。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスによって表されます。
 
- Worksheet クラスは、ページ設定オプションを設定するために使用される PageSetup プロパティを提供します。 PageSetup 属性は、[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)印刷されたワークシートにさまざまなページ レイアウト オプションを設定できるようにするクラス。 PageSetup クラスは、ページ設定オプションの設定に使用されるさまざまなプロパティとメソッドを提供します。
+WorksheetクラスにはPageSetupプロパティがあり、印刷されるワークシートのページ設定オプションを設定するために使用されます。 PageSetup属性は、印刷されるワークシートの異なるページレイアウトオプションを設定することが可能にする[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスのオブジェクトです。PageSetupクラスには、ページ設定オプションを設定するために使用されるさまざまなプロパティとメソッドがあります。
 
 ### **ページ余白**
 
-ページの余白 (上下左右) を設定する[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスのメンバー。ページ余白を指定するために使用されるいくつかの方法を以下に示します。
+ページの余白を指定するために、[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスのメンバーを使用します。ページ余白を指定するために使用されるいくつかのメソッドが以下に示されています。
 
 - [**setLeftMargin(int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#LeftMargin)
 - [**setRightMargin(int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#RightMargin)
@@ -130,173 +131,173 @@ Aspose.Cells はクラスを提供し、[**ワークブック**](https://referen
 
 ### **ページの中央に配置**
 
-ページの水平方向と垂直方向の中央に何かを配置することができます。の[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスには、この目的のためのメンバーがあります。[**setCenterHorizontally**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally)と[**setCenterVertically**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
+何かをページの水平方向と垂直方向に中央配置することが可能です。[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスにはそれを目的としたメンバーがあります：[**setCenterHorizontally**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) と [**setCenterVertically**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-CenterOnPage-CenterOnPage.java" >}}
 
-### **ヘッダーとフッターの余白**
+### **ヘッダーとフッタのマージン**
 
-でヘッダーとフッターの余白を設定する[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)などのメンバー[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin)と[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) のメンバー（例：[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) と [**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin)）を使用して、ヘッダーとフッタのマージンを設定します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 
-## **ヘッダーとフッターの設定**
+## **ヘッダーとフッタの設定**
 
-ヘッダーとフッターは、ページの上マージンの上または下マージンの下にあるテキストと画像のセクションです。ワークシートにヘッダーとフッターを追加することもできます。ヘッダーとフッターを使用して、ページ番号、著者名、ドキュメントのタイトル、日付と時刻など、あらゆる種類の有用な情報を表示できます。ヘッダーとフッターも [ページ設定] ダイアログを使用して管理されます。
+ヘッダーとフッタはページの上部マージンの上または下部マージンの下にあるテキストや画像のセクションです。ワークシートにもヘッダーやフッタを追加することが可能です。ヘッダー＆フッタは、ページ番号、作成者名、ドキュメントタイトル、または日付と時刻などの有用な情報を表示するために使用できます。ヘッダー＆フッタは、ページ設定ダイアログを使って管理されます。
 
 **ページ設定ダイアログ** 
 
-![todo:画像_代替_文章](page-setup-features_3.png)
+![todo:image_alt_text](page-setup-features_3.png)
 
-Aspose.Cells では、実行時にヘッダーとフッターをワークシートに追加できますが、ヘッダーとフッターは印刷用に事前に設計されたファイルに手動で設定することをお勧めします。 Microsoft Excel を GUI ツールとして使用すると、ヘッダーとフッターを簡単に設定して開発時間を短縮できます。 Aspose.Cells は、ファイルをインポートして、これらの設定を予約できます。
+Aspose.Cells により、ワークシートにランタイムでヘッダーやフッタを追加することが可能ですが、印刷用にヘッダーとフッタを事前に設定されたファイルに手動で設定することが推奨されています。開発時間の短縮のために、Microsoft Excel を GUI ツールとして使用して簡単にヘッダーやフッタを設定することができます。Aspose.Cells はこの設定をインポートし、予約します。
 
-実行時にヘッダーとフッターを追加するために、Aspose.Cells はフォーマットを制御する特別なクラスといくつかのスクリプト コマンドを提供します。
+ヘッダーやフッタをランタイムで追加するために、Aspose.Cells では特別なクラスと一部のスクリプトコマンドが提供されます。
 
-### **スクリプト コマンド**
+### **スクリプトコマンド**
 
-スクリプト コマンドは、Aspose.Cells が提供する特別なコマンドで、開発者がヘッダーとフッターをフォーマットできるようにします。
+スクリプトコマンドは、Aspose.Cells が提供する特別なコマンドであり、開発者がヘッダーやフッタのフォーマットを制御することを可能にします。
 
-|**スクリプト コマンド**|**説明**|
-|:- |:- |
-|&P|現在のページ番号。|
-|&G|絵。|
-|&N|総ページ数。|
-|&D|現在の日付。|
-|&T|現在の時刻。|
-|&A|ワークシートの名前。|
-|&F|パスなしのファイル名。|
-|&"\<FontName>"|フォント名。例: &"Arial"|
-|&"\<FontName>, \<FontStyle>"|スタイルのあるフォント名。例: &"Arial,Bold"|
-|&\<FontSize>|フォントサイズを表します。例: 「&14abc」。ただし、このコマンドの後にヘッダーに印刷されるプレーンな数字が続く場合、これはフォント サイズからスペース文字で区切られる必要があります。例: 「&14 123」。|
+|**スクリプトコマンド**|**説明**|
+| :- | :- |
+|&P|現在のページ番号。
+|&G|画像。
+|&N|合計ページ数。
+|&D|現在の日付。
+|&T|現在時刻。
+|&A|ワークシートの名前。
+|&F|パスを除いたファイル名。
+|&"\<FontName>"|フォント名。たとえば: &"Arial"
+|&"\<FontName>, \<FontStyle>"|スタイル付きのフォント名。たとえば: &"Arial,Bold"
+フォントサイズを表します。例: “&14abc”。ただし、このコマンドの後にヘッダーに印刷する通常の数値が続く場合は、フォントサイズからスペース文字で区切られる必要があります。例: “&14 123”。
 
-### **ヘッダーとフッターを設定する**
+### **ヘッダーやフッタの設定**
 
-の[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスはメソッドを提供します[**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String) ヘッダーを追加し、[**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) ワークシートにフッターを追加します。スクリプトは、上記のすべてのメソッドの引数として使用されます。ヘッダーまたはフッターに使用されるスクリプトを表します。このスクリプトには、ヘッダーまたはフッターをフォーマットするためのスクリプト コマンドが含まれています。
+[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) クラスにはワークシートにヘッダーを追加するためのメソッド [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) とフッタを追加するための [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) が提供されます。上記の全てのメソッドに対する引数としてスクリプトが使用されます。これは、ヘッダーやフッタを書式設定するためのスクリプトです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
-### **グラフィックをヘッダーまたはフッターに挿入する**
+### **ヘッダーやフッタにグラフィックを挿入**
 
-の[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスにはメソッドがあります[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]) ） と[**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) ワークシートのヘッダーとフッターに画像を追加します。これらのメソッドは、次の 2 つのパラメーターを取ります。
+[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) クラスには、ワークシートのヘッダーやフッタに画像を追加するための [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) と [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) のメソッドがあります。これらのメソッドには2つのパラメータが必要です：
 
-- **セクション**、画像が配置されるヘッダーまたはフッターのセクション。左、中央、右の 3 つのセクションがあり、それぞれ数値 0、1、2 で表されます。
-- **ファイル入力ストリーム**、グラフィックデータ。バイナリ データは、バイト配列のバッファーに書き込む必要があります。
+- **セクション**：画像を配置するヘッダーまたはフッタのセクション。0、1、2 の数値で表される左、中央、右の3つのセクションがあります。
+- **ファイル入力ストリーム**：グラフィカルデータ。バイナリデータはバイト配列のバッファに書き込まれるべきです。
 
-コードを実行してファイルを開いた後、Microsoft Excel でワークシートのヘッダーを確認します。
+コードを実行し、ファイルを開いたら、Microsoft Excel のワークシートのヘッダをチェックしてください：
 
-1. 上で**ファイル**メニュー、選択**ページ設定**.
-1.  [ページ設定] ダイアログで、**ヘッダー/フッター**タブ。
+1. **ファイル** メニューから **ページ設定** を選択します。
+1. ページ設定ダイアログで、**ヘッダー/フッター**タブを選択します。
 
-**ヘッダー/フッターへのグラフィックの挿入** 
+**ヘッダー/フッターにグラフィックを挿入する** 
 
-![todo:画像_代替_文章](page-setup-features_4.png)
+![todo:image_alt_text](page-setup-features_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertImageInHeaderFooter-InsertImageInHeaderFooter.java" >}}
 
-### **最初のページ ヘッダーのみにグラフィックを挿入する**
+### **最初のページヘッダーにグラフィックを挿入する**
 
-の[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスには他にも便利なメソッドがあります。たとえば、[**セットピクチャー**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String))、ワークシートの最初のページのヘッダー/フッターに画像を追加します。最初のページは特別なページです。会社のロゴなど、特別な情報を表示したいのが一般的です。
+[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスにはほかにも便利なメソッドがあり、たとえば[**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[]))、[**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String))、[**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String))です。ワークシートの最初のページヘッダー/フッターに図を追加するためのものです。最初のページは特別なページです：特別な情報を表示させたいということが一般的です。たとえば、会社のロゴなどです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
 ## **印刷オプションの設定**
 
-Microsoft Excel のページ設定には、ユーザーがワークシート ページの印刷方法を制御できるいくつかの印刷オプション (シート オプションとも呼ばれます) が用意されています。これらの印刷オプションにより、ユーザーは次のことができます。
+Microsoft Excelのページ設定は、ワークシートのページの印刷方法を制御するいくつかの印刷オプション（シートオプションとも呼ばれます）を提供しています。これらの印刷オプションにより、次のことが可能です。
 
-- ワークシート上の特定の印刷領域を選択します。
-- タイトルを印刷します。
-- グリッド線を印刷します。
+- ワークシート上の特定の印刷範囲を選択する。
+- タイトルを印刷する。
+- グリッド線を印刷する。
 - 行と列の見出しを印刷する
-- ドラフト品質を実現します。
-- コメントを印刷します。
-- セル エラーを出力します。
-- ページの順序を定義します。
+- 下書き品質を実現する。
+- コメントを印刷する。
+- セルエラーを印刷する。
+- ページ順序を定義する。
 
-これらの印刷オプションのすべてを以下に示します。
+これらの印刷オプションは以下に示されています。
 
-**印刷 (シート) オプション** 
+**印刷（シート）オプション** 
 
-![todo:画像_代替_文章](page-setup-features_5.png)
+![todo:image_alt_text](page-setup-features_5.png)
 
-### **印刷オプションとシート オプションの設定**
+### **印刷オプションおよびシートオプションの設定**
 
-spose.Cells は、Microsoft Excel によって提供されるすべての印刷オプションをサポートし、開発者は、によって提供されるプロパティを使用して、ワークシートのこれらのオプションを簡単に構成できます。[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラス。これらのプロパティがどのように使用されるかについては、以下で詳しく説明します。
+spose.CellsはMicrosoft Excelが提供するすべての印刷オプションをサポートし、開発者は[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスが提供するプロパティを使用してワークシートの印刷オプションを簡単に設定できます。これらのプロパティの使用方法については以下でさらに詳しく説明します。
 
 ### **印刷範囲の設定**
 
-デフォルトでは、データを含むワークシートのすべての領域が印刷領域に組み込まれます。開発者は、ワークシートの特定の印刷領域を設定できます。
+デフォルトでは、印刷エリアにはデータを含むワークシートのすべてのエリアが含まれます。開発者はワークシートの特定の印刷エリアを設定できます。
 
-特定の印刷領域を選択するには、[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラス'[**setPrintArea**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea)財産。印刷領域を定義するセル範囲をこのプロパティに割り当てます。
+特定の印刷エリアを選択するには、[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスの[**setPrintArea**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea)プロパティを使用します。このプロパティに印刷エリアを定義するセル範囲を割り当てます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintArea-SetPrintArea.java" >}}
 
-### **印刷タイトルの設定**
+### **印刷タイトルを設定する**
 
-Aspose.Cells を使用すると、印刷されたワークシートのすべてのページで行ヘッダーと列ヘッダーを繰り返すように指定できます。これを行うには、[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラス'[**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns)と[**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows)プロパティ。
+Aspose.Cellsでは、印刷されるワークシートのすべてのページで行見出しと列見出しを繰り返すことができます。これを行うには、[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスの[**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns)および[**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows)プロパティを使用します。
 
-繰り返される行または列は、行番号または列番号を渡すことによって定義されます。たとえば、行は $1:$2 として定義され、列は $A:$B として定義されます。
+繰り返す行または列は、その行番号または列番号を渡すことで定義されます。たとえば、行は$1:$2と定義され、列は$A:$Bと定義されます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintTitle-SetPrintTitle.java" >}}
 
 ### **その他の印刷オプションの設定**
 
-の[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスには、次のような一般的な印刷オプションを設定するためのその他のプロパティもいくつか用意されています。
+[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスは、次の一般的な印刷オプションを設定するためのいくつかの他のプロパティも提供します。
 
-- [**setPrintGridlines**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintGridlines)は、グリッド線を印刷するかどうかを定義するブール型のプロパティです。
-- [*setPrintHeadings*](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintHeadings)行と列の見出しを印刷するかどうかを定義するブール型のプロパティです。
-- [**setBlackAndWhite**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#BlackAndWhite)は、ワークシートを白黒モードで印刷するかどうかを定義するブール型のプロパティです。
-- [**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments)、ワークシートまたはワークシートの最後に印刷コメントを表示するかどうかを定義します。
-- [**setPrintDraft**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintDraft)は、ワークシートを下書き品質で印刷するかどうかを定義するブール型のプロパティです。
-- [**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors)は、セル エラーを表示、空白、ダッシュ、または N/A として出力するかどうかを定義します。
+- [**setPrintGridlines**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintGridlines)、グリッド線を印刷するかどうかを定義するブールプロパティ。
+- [*setPrintHeadings*](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintHeadings)、行見出しと列見出しを印刷するかどうかを定義するブールプロパティ。
+- [**setBlackAndWhite**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#BlackAndWhite)、ワークシートを白黒モードで印刷するかどうかを定義するブールプロパティ。
+- [**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments)、ワークシートの印刷コメントを表示するか、ワークシートの末尾に表示するかを定義する。
+- [**setPrintDraft**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintDraft)、ワークシートを下書き品質で印刷するかどうかを定義するブールプロパティ。
+- [**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors)、セルのエラーを表示、空白、ダッシュ、N/A いずれで印刷するかを定義します。
 
-を設定するには[**印刷コメント**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments)と[**印刷エラー**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors)プロパティ、Aspose.Cells は 2 つの列挙も提供します。[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType)と[**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType)に割り当てられる定義済みの値が含まれています。[**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments)と[**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors)プロパティ。
+Aspose.Cells は、[**PrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) および [**PrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) プロパティを設定するために、[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) および [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) という 2 つの列挙体も提供しており、それぞれ [**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) および [**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) プロパティに割り当てるための事前定義値が含まれています。
 
-の定義済みの値[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType)列挙については後述します。
+[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) 列挙体の事前定義値については、以下に説明します。
 
-|**印刷コメントの種類**|**説明**|
-|:- |:- |
-|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|ワークシートに表示されているコメントを印刷するように指定します。|
-|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|コメントを印刷しないように指定します。|
-|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|ワークシートの最後にコメントを印刷するように指定します。|
+|**コメント印刷タイプ**|**説明**|
+| :- | :- |
+|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|ワークシート上に表示されているコメントを印刷することを指定します。
+|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|コメントを印刷しないことを指定します。
+|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|ワークシートの末尾にコメントを印刷することを指定します。
 
-の定義済みの値[**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType)列挙については後述します。
+[**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) 列挙体の事前定義値については以下に説明します。
 
-|**印刷エラーの種類**|**説明**|
-|:- |:- |
-|[*PRINT_ERRORS_BLANK*](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|エラーを出力しないように指定します。|
-|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|エラーを「--」として出力するように指定します。|
-|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|エラーを表示どおりに印刷するように指定します。|
-|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|エラーを「#N/A」として出力するように指定します。|
+|**エラー印刷タイプ**|**説明**|
+| :- | :- |
+|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|エラーを印刷しないことを指定します。
+|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|エラーを "--" として印刷することを指定します。
+|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|表示されているようにエラーを印刷することを指定します。
+|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|エラーを "#N/A" として印刷することを指定します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-OtherPrintOptions-OtherPrintOptions.java" >}}
 
-### **ページの順序を設定する**
+### **ページ順の設定**
 
-の[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)クラスが提供する[**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order)ワークシートの複数ページの印刷を注文するために使用されるプロパティ。ページを次のように並べ替えるには、次の 2 つの方法があります。
+[**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) クラスは、ワークシートの複数のページを印刷する際に使用される [**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) プロパティを提供します。以下のような 2 つの順序の可能性があります：
 
-- **ダウン・アンド・オーバー**右側のページを印刷する前に、すべてのページを下に印刷します。
-- **オーバー・アンド・ダウン**下のページを印刷する前に、ページを左から右に印刷します。
+- **下に続いて右** は、右側よりも下側のページを印刷します。
+- **右に続いて下** は、下側よりも右側のページを印刷します。
 
- Aspose.Cells は列挙を提供し、[**PrintOrderType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType)に割り当てられるすべての事前定義された注文タイプを含む[**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order)方法。
+Aspose.Cells は、[**PrintOrderType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType) という列挙体を提供しており、それを [**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) メソッドに割り当てるためのすべての事前定義の順序タイプが含まれています。
 
-の定義済みの値[**PrintOrderType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType)列挙については後述します。
+[**PrintOrderType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType) 列挙体の事前定義値については以下に説明します。
 
-|**印刷注文の種類**|**説明**|
-|:- |:- |
-|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|印刷してから重ねます。|
-|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|重ねてから下に印刷します。|
+|**印刷順序タイプ**|**説明**|
+| :- | :- |
+|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|下に、次に右に印刷します。
+|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|右に、次に下に印刷します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPageOrder-SetPageOrder.java" >}}
 
-## **Excel ファイルのワークシートの既存の PrinterSettings を削除する**
+## **Excelファイルのワークシートの既存のPrinterSettingsを削除する**
 
-このトピックに関連するこの記事を参照してください。
+このトピックに関連する記事をご覧ください。
 
-## **先行トピック**
-- [ページ設定倍率の計算](/cells/ja/java/calculate-page-setup-scaling-factor/)
-- [ページ設定の設定をソース ワークシートからコピー先ワークシートにコピーする](/cells/ja/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/)
+## **高度なトピック**
+- [ページ設定スケーリングファクターを計算します](/cells/ja/java/calculate-page-setup-scaling-factor/)
+- [ソースワークシートからページ設定を宛先ワークシートにコピー](/cells/ja/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/)
 - [ワークシートの用紙サイズが自動かどうかを判断する](/cells/ja/java/determine-if-paper-size-of-worksheet-is-automatic/)
-- [ワークシートの PageSetup から用紙の幅と高さを取得する](/cells/ja/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
-- [レンダリング用ワークシートのカスタム用紙サイズの実装](/cells/ja/java/implement-custom-paper-size-of-worksheet-for-rendering/)
-- [ページ設定と印刷オプション](/cells/ja/java/page-setup-and-printing-options/)
-- [Excel ファイルのワークシートの既存の PrinterSettings を削除する](/cells/ja/java/remove-existing-printersettings-of-worksheets-in-excel-file/)
+- [ワークシートのページ設定から用紙の幅と高さを取得する](/cells/ja/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
+- [レンダリングのためのワークシートのカスタム用紙サイズを実装する](/cells/ja/java/implement-custom-paper-size-of-worksheet-for-rendering/)
+- [ページ設定および印刷オプション](/cells/ja/java/page-setup-and-printing-options/)
+- [Excelファイルのワークシートの既存のPrinterSettingsを削除する](/cells/ja/java/remove-existing-printersettings-of-worksheets-in-excel-file/)

@@ -1,28 +1,29 @@
-﻿---
-title: XLSB veya XLS dosyasının Harici Bağlantısını Okuma ve Yazma
+---
+title: XLSB veya XLS dosyasının Dış Bağlantısını Okuma ve Yazma
 type: docs
 weight: 80
 url: /tr/java/read-and-write-external-connection-of-xlsb-or-xls-file/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells zaten XLSX dosyasının harici bağlantısını okuma ve yazma özelliğini destekliyor, ancak şimdi bu özelliği XLSB ve XLS dosyası için de destekliyor. Ancak, kod her iki biçim türü için de aynıdır.
+Aspose.Cells zaten XLSX dosyasının dış bağlantısını okuma ve yazma işlemini destekliyor ancak şimdi, bu özelliği XLSB ve XLS dosyası için de destekliyor. Kod her iki biçim için aynıdır.
 
-## **XLSB/XLS dosyasının Harici Bağlantısını Okuma ve Yazma**
+## **XLSB/XLS Dosyasının Dış Bağlantısını Okuma ve Yazma**
 
-Aşağıdaki örnek kod, örnek XLSB(XLS de yüklenebilir) dosyasını yükler ve aslında bir Microsoft Access DB Bağlantısı olan ilk Harici Bağlantısını okur. Daha sonra değiştirir[**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)özelliği ve XLSB çıktı dosyası olarak kaydeder. Ekran görüntüsü, kodun etkisini gösterir.[örnek XLSB dosyası](51740743.xlsb)ve[çıktı XLSB dosyası](51740742.xlsb)infazından sonra. Lütfen referans için aşağıda verilen örnek kodun konsol çıktısına da bakın.
+Aşağıdaki örnek kod, örnek XLSB(XLS de yüklenebilir) dosyasını yükler ve ilk Dış Bağlantısını okur, ki bu aslında bir Microsoft Access DB Bağlantısıdır. Daha sonra [**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name) özelliğinin etkisini göstermek için çıktı XLSB dosyası olarak kaydeder. Ekran görüntüsü, kodun [sample XLSB dosyası](51740743.xlsb) ve [çıktı XLSB dosyası](51740742.xlsb) üzerindeki etkisini göstermektedir. Ayrıca aşağıda verilen örnek kodun konsol çıktısını da inceleyin.
 
-![yapılacaklar:resim_alternatif_metin](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
+![todo:image_alt_text](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
-Aşağıdaki kod, uygun uzantıya sahip dosyaları yükleyip kaydederek hem XLSB hem de XLS için çalışacaktır.
+Aşağıdaki kod, uygun uzantı ile dosyaları yükleyerek ve kaydederek hem XLSB hem de XLS için çalışacaktır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.java" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Connection Name: Cust
 

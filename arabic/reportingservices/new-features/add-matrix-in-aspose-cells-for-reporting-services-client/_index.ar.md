@@ -1,17 +1,18 @@
-﻿---
-title: أضف مصفوفة في Aspose.Cells for Reporting Services عميل
+---
+title: إضافة مصفوفة في عميل Aspose.Cells for Reporting Services
 type: docs
 weight: 80
 url: /ar/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/
 ---
+
 {{% alert color="primary" %}} 
 
- قمنا بدمج الدعم لإنشاء عنصر تقرير مصفوفة في تقرير. يتضمن سياق المصفوفة الزاوية وتجميعات الأعمدة وتجميعات الصفوف وصفوف المصفوفة. قم بتعيين سمات تقرير المصفوفة التي تتضمن الاسم والنطاق وما إلى ذلك من خلال**تعيين السمة** زر في Aspose.Cells 'شريط الأوامر في Excel.
+لقد دمجنا الدعم لإنشاء بند تقرير المصفوفة في تقرير. يتضمن سياق المصفوفة الزاوية وتجميعات الأعمدة وتجميعات الصفوف وصفوف المصفوفة. قم بتعيين سمات تقرير المصفوفة التي تتضمن الاسم والنطاق وما إلى ذلك من خلال زر **تعيين السمة** في شريط الأوامر لـ Aspose.Cells في Excel.
 
-على سبيل المثال ، في لقطة الشاشة أدناه ، يكون نطاق المصفوفة هو E9: G11.
+على سبيل المثال، في اللقطة أدناه، النطاق المصفوفي هو E9:G11.
 
-**عنصر تقرير مصفوفة** 
+**بند تقرير المصفوفة** 
 
-![ما يجب القيام به: image_بديل_نص](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
+![todo:image_alt_text](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
 
 {{% /alert %}}

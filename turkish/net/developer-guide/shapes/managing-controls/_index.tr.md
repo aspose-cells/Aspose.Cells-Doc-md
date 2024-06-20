@@ -1,382 +1,383 @@
-﻿---
+---
 title: Kontrolleri Yönetme
 type: docs
 weight: 150
 url: /tr/net/managing-controls/
 ---
+
 ## **Giriş**
 
-Geliştiriciler, metin kutuları, onay kutuları, radyo düğmeleri, açılan kutular, etiketler, düğmeler, çizgiler, dikdörtgenler, yaylar, ovaller, döndürücüler, kaydırma çubukları, grup kutuları vb. gibi farklı çizim nesneleri ekleyebilir. tüm çizim nesneleri. Ancak, henüz desteklenmeyen birkaç çizim nesnesi veya şekli vardır. Bu çizim nesnelerini Microsoft Excel kullanarak bir tasarımcı elektronik tablosunda oluşturun ve ardından tasarımcı elektronik tablosunu Aspose.Cells'e aktarın. Aspose.Cells, bu çizim nesnelerini bir tasarımcı elektronik tablosundan yüklemenize ve oluşturulmuş bir dosyaya yazmanıza olanak tanır.
+Geliştiriciler metin kutuları, onay kutuları, radyo düğmeleri, açılır kutular, etiketler, düğmeler, çizgiler, dikdörtgenler, yarıçapları, ovaları, kaydırma çubuklarını, grup kutularını vb. gibi farklı çizim nesneleri ekleyebilir. Aspose.Cells, tüm çizim nesnelerini içeren Aspose.Cells.Drawing ad alanını sağlar. Ancak henüz desteklenmeyen bazı çizim nesneleri veya şekiller vardır. Bu çizim nesnelerini Microsoft Excel kullanarak bir tasarımcı çalışma sayfasında oluşturun ve ardından tasarımcı çalışma sayfasını Aspose.Cells'e aktarın. Aspose.Cells, bir tasarımcı çalışma sayfasından bu çizim nesnelerini yüklemenize ve bunları oluşturulan bir dosyaya yazmanıza olanak tanır.
 
-## **Çalışma Sayfasına Metin Kutusu Denetimi Ekleme**
+## **Bir Çalışma Sayfasına Metin Kutusu Denetimi Ekleme**
 
- Bir rapordaki önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya en çok satış yapılan coğrafi bölgeyi vb. belirtmek için metin ekleyin. Aspose.Cells,[**Metin Kutusu Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection) sınıf, koleksiyona yeni bir metin kutusu eklemek için kullanılır. Başka bir sınıf var,[**Metin kutusu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox)tüm ayar türlerini tanımlamak için kullanılan bir metin kutusunu temsil eder. Bazı önemli üyeleri vardır:
+Raporda önemli bilgileri vurgulamanın bir yolu metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya en yüksek satışı olan coğrafi bölgeyi belirtmek için metin ekleyebilirsiniz. Aspose.Cells, yeni bir metin kutusu eklemek için kullanılan [**TextBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection) sınıfını sağlar. Tüm türde ayarları tanımlamak için kullanılan başka bir sınıf olan [**TextBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox) vardır. Önemli üyeleri vardır:
 
--  bu[**Metin Çerçevesi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textframe) özellik bir döndürür[**MsoTextÇerçevesi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msotextframe) metin kutusunun içeriğini ayarlamak için kullanılan nesne.
--  bu[**Atama**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) özellik yerleşim tipini belirtir.
--  bu[**Yazı tipi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font) özelliği yazı tipi özniteliklerini belirtir.
--  bu[**Köprü Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink) yöntem, metin kutusu için bir köprü ekler.
--  bu[**Doldurma Biçimi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) özellik bir döndürür[**MsoFillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msofillformat) metin kutusu için dolgu formatını ayarlamak için kullanılan nesne.
--  bu[**Çizgi Biçimi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) özellik döndürür[**MsoLineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msolineformat) genellikle metin kutusu satırının stilini ve ağırlığını belirlemek için kullanılan nesne.
--  bu[**Metin**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) özelliği, metin kutusu için giriş metnini belirtir.
+- [**TextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textframe) özelliği, metin kutusunun içeriğini ayarlamak için kullanılan bir [**MsoTextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msotextframe) nesnesi döndürür.
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) özelliği yerleştirme türünü belirtir.
+- [**Font**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font) özelliği yazı tipi özelliklerini belirtir.
+- [**AddHyperlink**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink) methodu, metin kutusu için bir bağlantıyı ekler.
+- [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) özelliği, metin kutusunun dolgu biçimini ayarlamak için kullanılan bir [**MsoFillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msofillformat) nesnesini döndürür.
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) özelliği, metin kutusu çizgisi için stil ve kalınlık genellikle kullanılan bir [**MsoLineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msolineformat) nesnesi döndürür.
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) özelliği giriş metnini belirtir.
 
-Aşağıdaki örnek, çalışma kitabının ilk çalışma sayfasında iki metin kutusu oluşturur. İlk metin kutusu, farklı biçim ayarlarıyla iyi bir şekilde döşenmiştir. İkincisi basit bir tanesidir.
+Aşağıdaki örnek, çalışma kitabının ilk çalışma sayfasında iki metin kutusu oluşturur. İlk metin kutusu farklı biçim ayarlarıyla donatılmıştır. İkincisi ise basit bir tanedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingTextBoxControl-1.cs" >}}
 
-## **Tasarımcı Elektronik Tablolarında Metin Kutusu Kontrollerini Değiştirme**
+## **Tasarımcı Elektronik Tablolarda Metin Kutusu Denetimlerini Manipüle Etme**
 
- Aspose.Cells ayrıca tasarımcı çalışma sayfalarındaki metin kutularına erişmenizi ve bunları değiştirmenizi sağlar. Kullan[**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes) sayfadaki metin kutuları koleksiyonunu alma özelliği.
+Aspose.Cells, ayrıca tasarımcı elektronik tablolardaki metin kutularına erişmenizi ve bunları manipüle etmenizi sağlar. Levhada metin kutuları koleksiyonunu almak için [**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes) özelliğini kullanın.
 
-Aşağıdaki örnek, yukarıdaki örnekte oluşturduğumuz Microsoft Excel dosyasını kullanır. İki metin kutusunun metin dizelerini alır ve dosyayı kaydetmek için ikinci metin kutusunun metnini değiştirir.
+Aşağıdaki örnek yukarıdaki örnekte oluşturduğumuz Microsoft Excel dosyasını kullanır. İki metin kutusunun metin dizelerini alır ve ikinci metin kutusunun metnini değiştirerek dosyayı kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-ManipulatingTextBoxControls-1.cs" >}}
 
-## **Çalışma Sayfasına Onay Kutusu Denetimi Ekleme**
+## **Bir Çalışma Sayfasına Onay Kutusu Denetimi Ekleme**
 
-Bir kullanıcıya doğru veya yanlış gibi iki seçenek arasında seçim yapması için bir yol sağlamak istiyorsanız, onay kutuları kullanışlıdır; Evet veya Hayır. Aspose.Cells, çalışma sayfalarında onay kutularını kullanmanıza izin verir. Örneğin, belirli bir satın almayı açıklayabileceğiniz ya da açıklamayabileceğiniz bir finansal projeksiyon çalışma sayfası geliştirmiş olabilirsiniz. Bu durumda, çalışma sayfasının en üstüne bir onay kutusu yerleştirmek isteyebilirsiniz. Daha sonra bu onay kutusunun durumunu başka bir hücreye bağlayabilirsiniz, böylece onay kutusu seçilirse hücrenin değeri True olur; seçili değilse hücrenin değeri False olur.
+Onay kutuları, bir kullanıcının doğru veya yanlış gibi iki seçenek arasında seçim yapmasına olanak tanımak istiyorsanız kullanışlıdır. Örneğin, belirli bir edinimi hesaba katıp katmayacağını belirtmek istediğiniz bir finansal projeksiyon çalışma sayfası geliştirdiniz. Bu durumda, çalışma sayfasının üst kısmına bir onay kutusu yerleştirmek isteyebilirsiniz. Daha sonra bu onay kutusunun durumunu başka bir hücreye bağlayabilirsiniz; böylece onay kutusu seçiliyken, hücrenin değeri True olur; seçilmediğinde, hücrenin değeri False olur.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
 Çalışma sayfanıza bir onay kutusu denetimi yerleştirmek için şu adımları izleyin:
 
 1. Formlar araç çubuğunun görüntülendiğinden emin olun.
-1.  Tıkla**Onay Kutusu** Formlar araç çubuğundaki aracı.
-1. Çalışma sayfası alanınızda, onay kutusunu ve onay kutusunun yanındaki etiketi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
-1. Onay kutusu yerleştirildikten sonra, fare imlecini etiket alanına getirin ve etiketi değiştirin.
-1.  İçinde**Cell Bağlantı**alanında, bu onay kutusunun bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**Tamam**.
+1. Formlar araç çubuğunda **Onay Kutusu** aracını tıklayın.
+1. Çalışma sayfanızda, onay kutusunu ve onay kutusunun yanındaki etiketi içerecek dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
+1. Onay kutusu yerleştirildikten sonra fare imleci etiket alanına kaydırın ve etiketi değiştirin.
+1. **Hücre Bağlantısı** alanında, bu onay kutusunun bağlanması gereken hücrenin adresini belirtin.
+1. **Tamam**'ı tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- Aspose.Cells şunları sağlar:[**Onay Kutusu Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkboxcollection) koleksiyona yeni bir onay kutusu eklemek için kullanılan sınıf. Başka bir sınıf var,[**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox), bir onay kutusunu temsil eder. Bazı önemli üyeleri vardır:
+Aspose.Cells, yeni bir onay kutusu eklemek için kullanılan [**CheckBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkboxcollection) sınıfını sağlar. İşte onay kutusunu temsil eden başka bir sınıf olan [**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox). Önemli bazı üyelere sahiptir:
 
--  bu[**Bağlantılı Hücre**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) özelliği, onay kutusuna bağlı bir hücreyi belirtir.
--  bu[**Metin**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) özelliği, onay kutusuyla ilişkili metin dizesini belirtir. Onay kutusunun etiketidir.
--  bu[**Değer**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox/properties/value) özellik, onay kutusunun işaretlenip işaretlenmediğini belirtir.
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) özelliği, onay kutusuna bağlı olan bir hücreyi belirtir.
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) özelliği, onay kutusu ile ilişkilendirilmiş metin dizisini belirtir. Bu, onay kutusunun etiketidir.
+- [**Value**](https://reference.aspose.com/cells/net/aspose.cells.drawing/checkbox/properties/value) özelliği, onay kutusunun işaretli olup olmadığını belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına bir onay kutusunun nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına onay kutusu eklemenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingCheckBoxControl-1.cs" >}}
 
 ## **Çalışma Sayfasına Radyo Düğmesi Denetimi Ekleme**
 
-Bir radyo düğmesi veya bir seçenek düğmesi, yuvarlak bir kutudan yapılmış bir kontroldür. Kullanıcı yuvarlak kutuyu seçerek kararını verir. Bir radyo düğmesine, her zaman olmasa da genellikle başkaları eşlik eder. Bu tür radyo düğmeleri bir grup olarak görünür ve davranır. Kullanıcı bunlardan sadece birini seçerek hangi butonun geçerli olduğuna karar verir. Kullanıcı bir düğmeyi tıkladığında, doldurulur. Gruptaki bir düğme seçildiğinde, aynı grubun düğmeleri boştur.
+Radyo düğmesi veya seçenek düğmesi, yuvarlak bir kutudan oluşan bir denetimdir. Kullanıcı, yuvarlak kutuyu seçerek kararını verir. Radyo düğmesi genellikle, diğerleri ile birlikte olacak şekilde, eğer her zaman değilse eşlik eder. Bu tür radyo düğmeleri grup olarak görünür ve davranır. Kullanıcı, sadece birini seçerek hangi düğmenin geçerli olduğuna karar verir. Kullanıcı bir düğmeye tıkladığında doldurulur. Grubun içindeki bir düğme seçildiğinde, aynı gruba ait düğmeler boş olur.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
 Çalışma sayfanıza bir Radyo Düğmesi denetimi yerleştirmek için şu adımları izleyin:
 
-1.  Emin ol**Formlar** araç çubuğu görüntülenir.
-1.  Tıkla**Seçenek tuşu** alet.
-1. Çalışma sayfasında, seçenek düğmesini ve seçenek düğmesinin yanındaki etiketi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
-1. Radyo düğmesi çalışma sayfasına yerleştirildikten sonra, fare imlecini etiket alanına getirin ve etiketi değiştirin.
-1.  İçinde**Cell Bağlantı** alanında, bu radyo düğmesinin bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**Tamam**.
+1. **Formlar** araç çubuğunun görüntülendiğinden emin olun.
+1. **Seçenek Düğmesi** aracına tıklayın.
+1. Çalışma sayfasında, seçenek düğmesini ve yanındaki etiketi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
+1. Radyo düğmesi çalışma sayfasına yerleştirildikten sonra, fare imleci etiket bölgesine hareket ettirin ve etiketi değiştirin.
+1. **Hücre Bağlantısı** alanında, bu radyo düğmesinin bağlanması gereken hücrenin adresini belirtin.
+1. **Tamam**'a tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
-[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**RadyoDüğmesi Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addradiobutton) , bir çalışma sayfasına bir radyo düğmesi denetimi eklemek için kullanılır. Yöntem bir döndürür[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) nesne. Sınıf[**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) bir seçenek düğmesini temsil eder. Bazı önemli üyeleri vardır:
+[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıfı, bir çalışma sayfasına bir radyo düğmesi denetimi eklemek için kullanılan [**AddRadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addradiobutton) adında bir yöntem sağlar. Yöntem bir [**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) nesnesi döndürür. [**Aspose.Cells.Drawing.RadioButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton) sınıfı, bir seçenek düğmesini temsil eder. Önemli bazı üyelere sahiptir:
 
--  bu[**Bağlantılı Hücre**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) özelliği, radyo düğmesine bağlı bir hücreyi belirtir.
--  bu[**Metin**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)özelliği, radyo düğmesiyle ilişkili metin dizesini belirtir. Radyo düğmesinin etiketidir.
--  bu[**kontrol edildi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton/properties/ischecked) özellik, radyo düğmesinin işaretlenip işaretlenmediğini belirtir.
--  bu[**Doldurma Biçimi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) özelliği, radyo düğmesinin doldurma biçimini belirtir.
--  bu[**Çizgi Biçimi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) özelliği, seçenek düğmesinin çizgi biçimi stillerini belirtir.
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) özelliği, radyo düğmesine bağlı olan bir hücreyi belirtir.
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) özelliği, radyo düğmesi ile ilişkilendirilmiş metin dizisini belirtir. Bu, radyo düğmesinin etiketidir.
+- [**IsChecked**](https://reference.aspose.com/cells/net/aspose.cells.drawing/radiobutton/properties/ischecked) özelliği, radyo düğmesinin işaretli olup olmadığını belirtir.
+- [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) özelliği, seçenek düğmesinin doldurma biçimini belirtir.
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) özelliği, seçenek düğmesinin çizgi biçimi stillerini belirtir.
 
-Aşağıdaki örnek, bir çalışma sayfasına radyo düğmelerinin nasıl ekleneceğini gösterir. Örnek, yaş gruplarını temsil eden üç radyo düğmesi ekler.
+Aşağıdaki örnek, bir çalışma sayfasına radyo düğmeleri eklemenin nasıl yapıldığını göstermektedir. Örnek, yaş gruplarını temsil eden üç radyo düğmesi ekler.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingRadioButtonControl-1.cs" >}}
 
-## **Çalışma Sayfasına Birleşik Giriş Kutusu Denetimi Ekleme**
+## **Çalışma Sayfasına Kombinasyon Kutusu Denetimi Ekleme**
 
-Veri girişini kolaylaştırmak veya girişleri tanımladığınız belirli öğelerle sınırlamak için, çalışma sayfasının herhangi bir yerindeki hücrelerden derlenen geçerli girişlerin açılır listesini veya birleşik giriş kutusunu oluşturabilirsiniz. Bir hücre için açılır liste oluşturduğunuzda, o hücrenin yanında bir ok görüntülenir. Bu hücreye bilgi girmek için oku tıklatın ve ardından istediğiniz girişi tıklatın.
+Veri girişini kolaylaştırmak veya tanımladığınız belirli öğelerle girişleri sınırlamak için, işte çalışma sayfanızda başka yerlerdeki hücrelerden derlenen geçerli girişlerin bir combo kutusu veya açılır liste oluşturabilirsiniz. Bir hücre için bir açılır liste oluşturduğunuzda, o hücrenin yanında bir ok gösterilir. O hücredeki bilgiyi girmek için ok'a tıklayın ve ardından istediğiniz girişi tıklayın.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-Çalışma sayfanıza birleşik giriş kutusu denetimi yerleştirmek için şu adımları izleyin:
+Çalışma sayfanıza bir kombinasyon kutusu denetimi yerleştirmek için şu adımları izleyin:
 
-1.  Emin ol**Formlar** araç çubuğu görüntülenir.
-1.  Tıkla**Açılan kutu** alet.
-1. Çalışma sayfası alanınızda, birleşik giriş kutusunu tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
-1.  Birleşik giriş kutusu çalışma sayfasına yerleştirildikten sonra, kontrolü sağ tıklatarak**Biçim Kontrolü** ve giriş aralığını belirtin.
-1.  İçinde**Cell Bağlantı** alanında, bu açılan kutunun bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**Tamam**.
+1. **Formlar** araç çubuğunun görüntülendiğinden emin olun.
+1. **Kombo Kutusu** aracını tıklayın.
+1. Çalışma sayfanızda, kombo kutusunu içerecek dikdörtgeni tanımlamak için tıklayıp sürükleyin.
+1. Kombo kutusu çalışma sayfasına yerleştirildikten sonra, denetimi sağ tıklayarak **Format Kontrolü** tıklayın ve girdi aralığını belirtin.
+1. **Hücre Bağlantısı** alanında, bu kombo kutusunun bağlanacağı hücrenin adresini belirtin.
+1. **Tamam**'ı tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**ComboBox Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcombobox) , bir çalışma sayfasına birleşik giriş kutusu denetimi eklemek için kullanılır. Yöntem bir döndürür[**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) nesne. Sınıf[**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) açılan kutuyu temsil eder. Bazı önemli üyeleri vardır:
+[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıfı, çalışma sayfasına kombo kutu denetimi eklemek için kullanılan [**AddComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcombobox) adında bir yöntem sağlar. Yöntem bir [**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) nesnesi döndürür. [**Aspose.Cells.Drawing.ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) sınıfı bir kombo kutusunu temsil eder. Önemli bazı üyeleri vardır:
 
--  bu[**Bağlantılı Hücre**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) özelliği, birleşik giriş kutusuna bağlı bir hücreyi belirtir.
--  bu[**Giriş aralığı**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange) özelliği, açılan kutuyu doldurmak için kullanılan çalışma sayfası hücre aralığını belirtir.
--  bu[**DropDownLines**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/dropdownlines) özelliği, birleşik giriş kutusunun açılır bölümünde görüntülenen liste satırlarının sayısını belirtir.
--  bu[**Gölge**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/shadow) özelliği, birleşik giriş kutusunun 3B gölgelendirmeye sahip olup olmadığını gösterir.
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) özelliği kombo kutusuna bağlı olan bir hücreyi belirtir.
+- [**InputRange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange) özelliği, kombo kutusunu doldurmak için kullanılan çalışma sayfası aralığını belirtir.
+- [**DropDownLines**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/dropdownlines) özelliği, bir kombo kutusunun açılır kısmında görüntülenen liste satırlarının sayısını belirtir.
+- [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox/properties/shadow) özelliği, kombo kutusunun 3B gölgelendirmeye sahip olup olmadığını belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına birleşik giriş kutusunun nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, çalışma sayfasına bir kombo kutusu eklemenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingComboBoxControl-1.cs" >}}
 
-## **Çalışma Sayfasına Etiket Denetimi Ekleme**
+## **Etiket Denetimi Ekleme**
 
- Etiketler, kullanıcılara elektronik tablonun içeriği hakkında bilgi vermenin bir yoludur. Aspose.Cells, bir çalışma sayfasına etiket eklemeyi ve düzenlemeyi mümkün kılar. bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**Etiket Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabel) , çalışma sayfasına bir etiket denetimi eklemek için kullanılır. Yöntem bir döndürür[**Etiket**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) nesne. Sınıf[**Etiket**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) çalışma sayfasındaki bir etiketi temsil eder. Bazı önemli üyeleri vardır:
+Etiketler, kullanıcılara bir elektronik tablonun içeriği hakkında bilgi vermenin bir yolu olarak kullanılır. Aspose.Cells, çalışma sayfasına etiket eklemeyi ve bunları manipüle etmeyi mümkün kılar. [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıfı, çalışma sayfasına etiket denetimi eklemek için kullanılan [**AddLabel**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabel) adında bir yöntem sağlar. Yöntem bir [**Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) nesnesi döndürür. [**Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) sınıfı, çalışma sayfasında bir etiketi temsil eder. Önemli bazı üyeleri vardır:
 
--  bu[**Metin**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) yöntem, bir etiketin başlık dizesini belirtir.
--  bu[**Atama**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) yöntemi belirtir[**Yerleşim Türü**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), etiketin çalışma sayfasındaki hücrelere eklenme şekli.
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) yöntemi, bir etiketin açıklama dizgisini belirtir.
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) yöntemi, etiketin çalışma sayfasındaki hücrelere bağlanma şeklini belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına nasıl etiket ekleneceğini gösterir.
+Aşağıdaki örnek, çalışma sayfasına bir etiket eklemenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingLabelControl-1.cs" >}}
 
-## **Bir Çalışma Sayfasına Liste Kutusu Denetimi Ekleme**
+## **Liste Kutusu Denetimi Ekleme**
 
-Liste kutusu denetimi, tekli veya çoklu öğe seçimine izin veren bir liste denetimi oluşturur.
+Bir liste kutusu denetimi, tek ya da çoklu öğe seçimine izin veren bir liste denetimi oluşturur.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-Çalışma sayfasına bir liste kutusu denetimi yerleştirmek için:
+Bir liste kutusu denetimini çalışma sayfasına yerleştirmek için:
 
-1.  Emin ol**Formlar** araç çubuğu görüntülenir.
-1.  Tıkla**Liste kutusu** alet.
-1. Çalışma sayfası alanınızda, liste kutusunu tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
-1.  Liste kutusu çalışma sayfasına yerleştirildikten sonra, kontrole sağ tıklayın.**Biçim Kontrolü** ve giriş aralığını belirtin.
-1.  İçinde**Cell Bağlantı**alanında, bu liste kutusunun bağlanması gereken hücrenin adresini belirtin ve seçim tipi (Tek, Çoklu, Genişlet) özniteliğini ayarlayın.
-1.  Tıklamak**Tamam**.
+1. **Formlar** araç çubuğunun görüntülendiğinden emin olun.
+1. **Liste Kutusu** aracını tıklayın.
+1. Çalışma sayfanızda, liste kutusunu içerecek dikdörtgeni tanımlamak için tıklayıp sürükleyin.
+1. Liste kutusu çalışma sayfasına yerleştirildikten sonra, denetimi sağ tıklayarak **Format Kontrolü** tıklayın ve girdi aralığını belirtin.
+1. **Hücre Bağlantısı** alanında, bu liste kutusunun bağlanacağı hücrenin adresini belirtin ve seçim tipi (Tekli, Çoklu, Genişlet) özniteliğini belirtin.
+1. **Tamam**'a tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**Liste Kutusu Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlistbox) , bir çalışma sayfasına bir liste kutusu denetimi eklemek için kullanılır. Yöntem bir döndürür[**Aspose.Cells.Drawing.ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox) nesne. Sınıf[**Liste kutusu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox) bir liste kutusunu temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıfı, çalışma sayfasına liste kutusu denetimi eklemek için kullanılan [**AddListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlistbox) adında bir yöntem sağlar. Yöntem bir [**Aspose.Cells.Drawing.ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox) nesnesi döndürür. [**ListBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox) sınıfı bir liste kutusunu temsil eder. Önemli bazı üyeleri vardır:
 
--  bu[**Bağlantılı Hücre**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) yöntem, liste kutusuna bağlı bir hücreyi belirtir.
--  bu[**Giriş aralığı**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange) yöntem, liste kutusunu doldurmak için kullanılan çalışma sayfası hücre aralığını belirtir.
--  bu[**Seçim Türü**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/selectiontype)method, liste kutusunun seçim kipini belirtir.
--  bu[**Gölge**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/shadow) yöntemi, liste kutusunun 3B gölgelendirmeye sahip olup olmadığını gösterir.
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) method, bir liste kutusuna bağlı olan hücreyi belirtir.
+- [**InputRange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/inputrange) method, liste kutusunu doldurmak için kullanılan çalışma sayfası hücre aralığını belirtir.
+- [**SelectionType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/selectiontype) method, liste kutusunun seçim kipini belirtir.
+- [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/listbox/properties/shadow) methodı, liste kutusunun 3D gölgelemeye sahip olup olmadığını gösterir.
 
-Aşağıdaki örnek, çalışma sayfasına bir liste kutusunun nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, çalışma sayfasına liste kutusu nasıl eklenir gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingListBoxControl-1.cs" >}}
 
-## **Bir Çalışma Sayfasına Düğme Denetimi Ekleme**
+## **Bir Çalışma Sayfasına Düğme Kontrolü Ekleme**
 
-Düğmeler, bazı eylemleri gerçekleştirmek için kullanışlıdır. Bazen, bir web sayfasını açmak için düğmeye bir VBA Makrosu atamak veya bir köprü atamak yararlı olabilir.
+Düğmeler bazı işlemleri gerçekleştirmek için kullanışlıdır. Bazen düğmeye VBA Makrosu atamak veya bir web sayfasını açmak için bir bağlantı atamak faydalı olabilir.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-Çalışma sayfanıza bir düğme denetimi yerleştirmek için:
+Bir düğme kontrolünü çalışma sayfanıza yerleştirmek için:
 
-1.  Emin ol**Formlar** araç çubuğu görüntülenir.
-1.  Tıkla**Buton** alet.
-1. Çalışma sayfası alanınızda, düğmeyi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
-1.  Liste kutusu çalışma sayfasına yerleştirildikten sonra, kontrole sağ tıklayın ve seçin.**Biçim Kontrolü**, ardından bir VBA Makrosu ve yazı tipi, hizalama, boyut, kenar boşluğu vb. ile ilgili öznitelikleri belirtin.
-1.  Tıklamak**Tamam**.
+1. **Formlar** araç çubuğunun görüntülendiğinden emin olun.
+1. **Düğme** aracını tıklayın.
+1. Çalışma sayfanızdaki alanda, düğmeyi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
+1. Liste kutusu çalışma sayfasına yerleştirildikten sonra, denetim üzerinde sağ tıklayın ve sonra **Denetim Biçimi'ni** seçin, ardından VBA Makrosunu ve ilgili yazı tipi, hizalama, boyut, kenar boşluğu vb. özellikleri belirtin.
+1. **Tamam**'ı tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**EkleDüğmesi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addbutton) , çalışma sayfasına bir düğme denetimi eklemek için kullanılır. Yöntem bir döndürür[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button) nesne. Sınıf[**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button) bir düğmeyi temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıfı, çalışma sayfasına bir düğme kontrolü eklemek için kullanılan [**AddButton**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addbutton) adında bir yöntem sağlar. Yöntem bir [**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button) nesnesi döndürür. [**Aspose.Cells.Drawing.Button**](https://reference.aspose.com/cells/net/aspose.cells.drawing/button) sınıfı bir düğmeyi temsil eder. Bazı önemli üyelere sahiptir:
 
--  bu[**Metin**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) özellik, düğmenin başlığını belirtir.
--  bu[**Yazı tipi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font) özelliği, düğme denetiminin etiketi için yazı tipi niteliklerini belirtir.
--  bu[**Atama**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) özelliği belirtir[**Yerleşim Türü**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), düğmenin çalışma sayfasındaki hücrelere eklenme şekli.
--  bu[**Köprü Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink) özelliği, düğme denetimi için bir köprü ekler. Düğmeye tıklandığında ilgili URL'ye gidilecektir.
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) özelliği, düğmenin başlığını belirtir.
+- [**Font**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/font) özelliği, düğme denetiminin etiketi için yazı tipi özniteliklerini belirtir.
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) özelliği, [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), düğmenin çalışma sayfasındaki hücrelere nasıl bağlandığını belirtir.
+- [**AddHyperlink**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/addhyperlink) özelliği, düğme denetimi için bir bağlantı ekler. Düğmeye tıklamak ilgili URL'ye gid will navigate to related URL.
 
-Aşağıdaki örnek, çalışma sayfasına nasıl düğme ekleneceğini gösterir.
+Aşağıdaki örnek, çalışma sayfasına bir düğme eklemenin nasıl yapılacağını gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingButtonControl-1.cs" >}}
 
-## **Çalışma Sayfasına Hat Kontrolü Ekleme**
+## **Çalışma Sayfasına Satır Kontrolü Ekleme**
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-1.  Üzerinde**Çizim** araç çubuğu, tıklayın**Otomatik Şekiller** , odaklan**çizgiler**ve istediğiniz çizgi stilini seçin.
-1. Çizgiyi çizmek için sürükleyin.
-1. Aşağıdakilerden birini veya her ikisini yapın:
- 1. Çizgiyi başlangıç noktasından 15 derecelik açılarla çizmek üzere sınırlamak için sürüklerken SHIFT tuşunu basılı tutun.
- 1. Çizgiyi ilk bitiş noktasından zıt yönlerde uzatmak için sürüklerken CTRL tuşunu basılı tutun.
+1. **Çizim** araç çubuğunda, **Şekiller**'e tıklayın, ardından **Satırlar**'a gelin ve istediğiniz çizgi stiline tıklayın.
+1. Çizmek için sürükleyin.
+1. Aşağıdakilerden birini veya her ikisinden birini yapın:
+   1. Çizginin başlangıç noktasından 15 derece açılarla çizilmesini sınırlamak için, sürüklerken **SHIFT** tuşunu basılı tutun.
+   1. İlk uç noktasından zıt yönlere doğru çizgiyi uzatmak için, sürüklerken **CTRL** tuşunu basılı tutun.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**Ek Satır**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline) , çalışma sayfasına bir çizgi şekli eklemek için kullanılır. Yöntem bir döndürür[**Çizgi Şekli**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) nesne. Sınıf[**Çizgi Şekli**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) bir çizgiyi temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıfı, çalışma sayfasına bir çizgi şekli eklemek için kullanılan [**AddLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline) adında bir yöntem sağlar. Yöntem bir [**LineShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) nesne döndürür. [**LineShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) sınıfı bir çizgiyi temsil eder. Bazı önemli üyelere sahiptir:
 
--  bu[**Çizgi Biçimi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) method bir satırın biçimini belirtir.
--  bu[**Atama**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) yöntemi belirtir[**Yerleşim Türü**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype)çizginin çalışma sayfasındaki hücrelere eklenme şekli.
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) yöntemi bir satırın formatını belirtir.
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) yöntemi, satırın hücrelere bağlandığı [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype) biçimini belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına nasıl satır ekleneceğini gösterir. Farklı stillerde üç çizgi oluşturur.
+Aşağıdaki örnek, çalışma sayfasına satır eklemenin nasıl yapıldığını gösterir. Farklı stillerde üç satır oluşturur.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingLineControl-1.cs" >}}
 
-### **Bir Çizgiye Ok Başı Ekleme**
+### **Bir ok başlığı eklemek**
 
-Aspose.Cells ayrıca ok çizgileri çizmenize de olanak tanır. Bir satıra ok ucu eklemek ve satırı biçimlendirmek mümkündür. Örneğin, çizginin rengini değiştirebilir veya çizginin ağırlığını ve stilini belirleyebilirsiniz.
+Aspose.Cells, oklu satırlar çizmenize de olanak tanır. Bir satıra bir ok başlığı eklemek ve satırın biçimlendirilmesi mümkündür. Örneğin, satırın rengini değiştirebilir veya satırın ağırlığını ve stilini belirtebilirsiniz.
 
-Aşağıdaki örnek, bir satıra ok ucunun nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir satıra bir ok başlığı eklemenin nasıl yapıldığını gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddinganArrowHead-1.cs" >}}
 
-## **Çalışma Sayfasına Dikdörtgen Denetimi Ekleme**
+## **Çalışma Sayfasına Dikdörtgen Kontrolü Ekleme**
 
-Aspose.Cells, çalışma sayfalarınıza dikdörtgen şekiller çizmenizi sağlar. Dikdörtgen, kare vb. oluşturabilirsiniz. Ayrıca kontrolün dolgu rengini ve kenar çizgisi rengini biçimlendirmenize izin verilir. Örneğin dikdörtgenin rengini değiştirebilir, gölgelendirme rengini ayarlayabilir, dikdörtgenin ağırlığını ve stilini ihtiyacınıza göre belirleyebilirsiniz.
+Aspose.Cells, çalışma sayfalarınızda dikdörtgen şekilleri çizmenize olanak tanır. Bir dikdörtgen, kare vb. oluşturabilirsiniz. Ayrıca kontrolün doldurma rengini, sınır çizgisi rengini biçimlendirmenize izin verilir. Örneğin, dikdörtgenin rengini değiştirebilir, gölgelendirme rengini ayarlayabilir veya dikdörtgenin ağırlığını ve stilini belirleyebilirsiniz.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-1.  Üzerinde**Çizim** araç çubuğu, tıklayın**Dikdörtgen**.
-1. Dikdörtgeni çizmek için sürükleyin.
-1. Aşağıdakilerden birini veya her ikisini yapın:
- 1. Dikdörtgeni başlangıç noktasından kare çizmeye zorlamak için sürüklerken SHIFT tuşunu basılı tutun.
- 1. Merkez noktadan bir dikdörtgen çizmek için sürüklerken CTRL tuşunu basılı tutun.
+1. **Çizim** araç çubuğunda, **Dikdörtgen**'e tıklayın.
+1. Dikdörtgen çizmek için sürükleyin.
+1. Aşağıdakilerden birini veya her ikisinden birini yapın:
+   1. Dikdörtgeni başlangıç noktasından karesel çizmeyi kısıtlamak için sürükleme sırasında SHIFT tuşunu basılı tutun.
+   1. Dikdörtgeni merkez noktasından çizmek için sürükleme sırasında CTRL tuşunu basılı tutun.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**Dikdörtgen Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle) , çalışma sayfasına bir dikdörtgen şekli eklemek için kullanılır. Yöntem döndürür[**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) nesne. Sınıf[**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) bir dikdörtgeni temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıfı, çalışma sayfasına bir dikdörtgen şekli eklemek için kullanılan [**AddRectangle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle) adında bir yöntem sağlar. Yöntem bir [**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) nesnesi döndürür. [**Aspose.Cells.Drawing.RectangleShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) sınıfı bir dikdörtgeni temsil eder. Bazı önemli üyelere sahiptir:
 
--  bu[**Çizgi Biçimi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) özelliği, bir dikdörtgenin çizgi biçimi özniteliklerini belirtir.
--  bu[**Atama**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) özelliği belirtir[**Yerleşim Türü**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), dikdörtgenin çalışma sayfasındaki hücrelere eklenme şekli.
--  bu[**Doldurma Biçimi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) özelliği, bir dikdörtgenin dolgu biçimi stillerini belirtir.
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) özelliği bir dikdörtgenin satır formatı özelliklerini belirtir.
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) özelliği, dikdörtgenin çalışma sayfasındaki hücrelere bağlandığı [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype) biçimini belirtir.
+- [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) özelliği bir dikdörtgenin doldurma biçimi stillerini belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına bir dikdörtgenin nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir dikdörtgenin çalışma sayfasına nasıl eklendiğini gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingRectangleControl-1.cs" >}}
 
 ## **Çalışma Sayfasına Yay Kontrolü Ekleme**
 
-Aspose.Cells, çalışma sayfalarınıza yay şekilleri çizmenizi sağlar. Basit ve dolgun yaylar oluşturabilirsiniz. Kontrolün dolgu rengini ve kenar çizgisi rengini biçimlendirmenize izin verilir. Örneğin, yayın rengini belirleyebilir / değiştirebilir, gölgeleme rengini ayarlayabilir, şeklin ağırlığını ve stilini ihtiyacınıza göre belirleyebilirsiniz.
+Aspose.Cells, çalışma sayfalarında yay şekilleri çizmenize olanak tanır. Basit ve dolu yaylar oluşturabilirsiniz. Kontrolün doldurma rengini ve sınır çizgisi rengini biçimlendirmenize izin verilir. Örneğin, yayın rengini belirleyebilir, gölgelendirme rengini ayarlayabilir veya şeklin ağırlığını ve stilini belirleyebilirsiniz.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-1.  Üzerinde**Çizim** araç çubuğu, tıklayın**ark** içinde**Otomatik Şekiller**.
-1. Yayı çizmek için sürükleyin.
+1. **Çizim** araç çubuğunda, **Otomatik Şekiller** içinde **Yay**'e tıklayın.
+1. Yay çizmek için sürükleyin.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**EklemeArc**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addarc) , bir çalışma sayfasına bir yay şekli eklemek için kullanılır. Yöntem bir döndürür[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) nesne. Sınıf[**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) bir yayı temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıfı, çalışma sayfasına bir yay şekli eklemek için kullanılan [**AddArc**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addarc) adında bir yöntem sağlar. Yöntem bir [**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) nesnesi döndürür. [**Aspose.Cells.Drawing.ArcShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/arcshape) sınıfı bir yayı temsil eder. Bazı önemli üyelere sahiptir:
 
--  bu[**Çizgi Biçimi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) özelliği, bir yay şeklinin çizgi formatı niteliklerini belirtir.
--  bu[**Atama**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) özelliği belirtir[**Yerleşim Türü**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), yayın çalışma sayfasındaki hücrelere iliştirilme şekli.
--  bu[**Doldurma Biçimi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)özelliği, şeklin dolgu biçimi stillerini belirtir.
--  bu[**AltSağSatır**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) özelliği, sağ alt köşe satır dizinini belirtir.
--  bu[**AltSağSütun**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) özelliği, sağ alt köşedeki sütun dizinini belirtir.
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) özelliği bir yayın satır formatı özelliklerini belirtir.
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) özelliği, yayın çalışma sayfasındaki hücrelere bağlandığı [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype) biçimini belirtir.
+- [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) özelliği şeklin doldurma biçimi stillerini belirtir.
+- [**LowerRightRow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) özelliği sağ alt köşe satır indisini belirtir.
+- [**LowerRightColumn**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) özelliği sağ alt köşe sütun indisini belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına yay şekillerinin nasıl ekleneceğini gösterir. Örnek iki yay şekli oluşturur: biri dolu, diğeri basit.
+Aşağıdaki örnek, çalışma sayfasına yay şekilleri eklemenin nasıl yapıldığını göstermektedir. Örnek iki yay şekli oluşturur: biri doldurulmuş ve diğeri basit.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingArcControl-1.cs" >}}
 
-## **Çalışma Sayfasına Oval Kontrol Ekleme**
+## **Çalışma Sayfasına Oval Kontrolü Ekleme**
 
-Aspose.Cells, çalışma sayfalarında oval şekiller çizmenizi sağlar. Basit ve doldurulmuş oval şekiller oluşturun ve kontrolün dolgu rengini ve kenar çizgisi rengini biçimlendirin. Örneğin ovalin rengini belirleyebilir / değiştirebilir, gölgeleme rengini ayarlayabilir, şeklin ağırlığını ve stilini belirleyebilirsiniz.
+Aspose.Cells, çalışma sayfalarında oval şekilleri çizmenize olanak tanır. Basit ve dolu oval şekiller oluşturun ve kontrolün doldurma rengini ve kenar çizgisi rengini biçimlendirin. Örneğin, ovalin rengini belirleyebilir, gölgelendirme rengini ayarlayabilir, şeklin ağırlığını ve stilini belirleyebilirsiniz.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
--  Üzerinde*Çizim* araç çubuğu, tıklayın*Oval*.
+- *Çizim* araç çubuğunda, *Oval* a tıklayın.
 - Oval çizmek için sürükleyin.
 - Aşağıdakilerden birini veya her ikisini yapın:
-- Ovali başlangıç noktasından bir daire çizmeye zorlamak için sürüklerken SHIFT tuşunu basılı tutun.
-- Bir merkez noktadan oval çizmek için sürüklerken CTRL tuşunu basılı tutun.
+- Ovalin başlangıç noktasından bir daire çizmek için sürükleme işlemini yaparken SHIFT tuşunu basılı tutun.
+- Bir ovalı merkez noktasından çizmek için sürükleme işlemi yaparken CTRL tuşunu basılı tutun.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**Oval Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addoval) , çalışma sayfasına oval bir şekil eklemek için kullanılır. Yöntem bir döndürür[**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval) nesne. Sınıf[**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval) oval bir şekli temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıfı, çalışma sayfasına oval bir şekil eklemek için kullanılan [**AddOval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addoval) adında bir yöntem sağlar. Yöntem, bir [**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval) nesnesi döndürür. [**Aspose.Cells.Drawing.Oval**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oval) sınıfı bir oval şekli temsil eder. Bazı önemli üyelere sahiptir:
 
--  bu[**Çizgi Biçimi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) özelliği, bir oval şeklin çizgi formatı niteliklerini belirtir.
--  bu[**Atama**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) özelliği belirtir[**Yerleşim Türü**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), ovalin çalışma sayfasındaki hücrelere bağlanma biçimi.
--  bu[**Doldurma Biçimi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat)özelliği, şeklin dolgu biçimi stillerini belirtir.
--  bu[**AltSağSatır**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) özelliği, sağ alt köşe satır dizinini belirtir.
--  bu[**AltSağSütun**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) özelliği, sağ alt köşedeki sütun dizinini belirtir.
+- [**LineFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lineformat) özelliği bir oval şeklin çizgi biçimi özniteliklerini belirtir.
+- [**Placement**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) özelliği, ovalin çalışma sayfasındaki hücrelere bağlandığı [**PlacementType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype) şeklini belirtir.
+- [**FillFormat**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fillformat) özelliği şeklin doldurma biçimi stillerini belirtir.
+- [**LowerRightRow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightrow) özelliği sağ alt köşe satır indisini belirtir.
+- [**LowerRightColumn**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lowerrightcolumn) özelliği sağ alt köşe sütun indisini belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına oval şekillerin nasıl ekleneceğini gösterir. Örnek iki oval şekil oluşturur: biri dolu oval, diğeri basit bir dairedir.
+Aşağıdaki örnek, çalışma sayfasına oval şekiller eklemenin nasıl yapıldığını göstermektedir. Örnek iki oval şekli oluşturur: biri doldurulmuş oval diğeri basit daire.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingOvalControl-1.cs" >}}
 
-## **Çalışma Sayfasına Döndürücü Denetimi Ekleme**
+## **Çalışma Sayfasına Spinner Kontrolü Ekleme**
 
- Döndürme kutusu, metin kutusundaki değeri artımlı olarak değiştirmek için tıkladığınız yukarı ve aşağı oklardan oluşan bir düğmeye (döndürme düğmesi adı verilir) iliştirilmiş bir metin kutusudur. Döndürme kutularını kullanarak, finansal modelinizdeki girdi değişikliklerinin model çıktılarını nasıl değiştireceğini görebilirsiniz. Belirli bir giriş hücresine bir döndürme düğmesi ekleyebilirsiniz. Döndür düğmesinde yukarı veya aşağı oku tıklattığınızda, hedeflenen giriş hücresindeki tamsayı değeri artar veya azalır.*Aspose.Cells* çalışma sayfalarınızda iplikçiler oluşturmanıza olanak tanır.
+Bir spin kutusu, bir yukarı ok ve aşağı ok içeren bir düğmeye (spin düğmesi denir) bağlı bir metin kutusudur. Finansal modelinizde girdilerin değişiminin model çıktılarını nasıl değiştireceğini görebilirsiniz. Bir spin kutusunu belirli bir girdi hücresine bağlayabilirsiniz. Spin düğmesine tıkladığınızda, hedef girdi hücresindeki tam sayı değeri artar veya azalır. *Aspose.Cells*, çalışma sayfalarınızda spinner'lar oluşturmanıza olanak tanır.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-Çalışma sayfanıza bir döndürme kutusu denetimi yerleştirmek için:
+Çalışma sayfanıza bir spin kutusu kontrolü yerleştirmek için:
 
--  Emin ol*Formlar* araç çubuğu görüntülenir.
--  Tıkla*Döndürücü* alet.
-- Çalışma sayfası alanınızda, döndürücüyü tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
--  Döndürücü çalışma sayfasına yerleştirildikten sonra, kontrolü sağ tıklayın ve tıklayın.*Biçim Kontrolü* ve maksimum, minimum ve artımlı değerleri belirtin.
--  İçinde*Cell Bağlantı* alanında, bu döndürme kutusunun bağlanması gereken hücrenin adresini belirtin.
--  Tıklamak*Tamam*.
+- *Formlar* araç çubuğunun görüntülendiğinden emin olun.
+- *Spinner* aracına tıklayın.
+- Çalışma sayfanızdaki alanda, spinner'ı tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
+- Spinner çalışma sayfasına yerleştirildiğinde, kontrolün üzerine sağ tıklayın ve *Kontrolü Biçimlendir* i tıklayın ve maksimum, minimum ve artış değerlerini belirtin.
+- *Bağlantı Hücresi* alanında, bu spin kutusunun bağlanması gereken hücrenin adresini belirtin.
+- *Tamam* a tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**EkleSpinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addspinner) bir çalışma sayfasına bir döndürme kutusu denetimi eklemek için kullanılır. Yöntem bir döndürür[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner) nesne. Sınıf[**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner) bir döndürme kutusunu temsil eder. Bazı önemli üyeleri vardır:
+Sınıf [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection), bir çalışma sayfasına bir spin kutu denetimini eklemek için kullanılan [**AddSpinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addspinner) adında bir yöntem sağlar. Yöntem bir [**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner) nesnesi döndürür. [**Aspose.Cells.Drawing.Spinner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner) sınıfı bir spin kutusunu temsil eder. Bazı önemli üyeleri vardır:
 
--  bu[**Bağlantılı Hücre**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) özelliği, döndürme kutusuna bağlı bir hücreyi belirtir.
--  bu[**maks.**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/max) özelliği, döndürme kutusu aralığı için maksimum değeri belirtir.
--  bu[**dak.**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/min) özelliği, döndürme kutusu aralığı için minimum değeri belirtir.
--  bu[**ArtımlıDeğişim**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/incrementalchange) özelliği, bir döndürücünün bir satır kaydırmayla artırıldığı değer miktarını belirtir.
--  bu[**Gölge**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/shadow) özelliği, döndürme kutusunun 3B gölgelendirmeye sahip olup olmadığını gösterir.
--  bu[**Mevcut değer**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/currentvalue) özelliği, döndürme kutusunun geçerli değerini belirtir.
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) özelliği, spin kutusuyla bağlantılı bir hücreyi belirtir.
+- [**Max**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/max) özelliği, spin kutusu aralığı için maksimum değeri belirtir.
+- [**Min**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/min) özelliği, spin kutusu aralığı için minimum değeri belirtir.
+- [**IncrementalChange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/incrementalchange) özelliği, bir kaydırıcının bir satır kaydırılacak değer miktarını belirtir.
+- [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/shadow) özelliği, spin kutusunun 3B gölgeli olup olmadığını belirtir.
+- [**CurrentValue**](https://reference.aspose.com/cells/net/aspose.cells.drawing/spinner/properties/currentvalue) özelliği, spin kutusunun geçerli değerini belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına bir döndürme kutusunun nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, çalışma sayfasına bir spin kutusu eklemenin nasıl yapıldığını gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingSpinnerControl-1.cs" >}}
 
-## **Çalışma Sayfasına Kaydırma Çubuğu Denetimi Ekleme**
+## **Bir Çalışma Sayfasına Kaydırma Çubuğu Denetimi Ekleme**
 
-Döndürme kutusu denetimine benzer şekilde çalışma sayfasındaki verileri seçmeye yardımcı olmak için bir kaydırma çubuğu denetimi kullanılır. Denetimi bir çalışma sayfasına ekleyerek ve onu bir hücreye bağlayarak, denetimin geçerli konumu için sayısal bir değer döndürmek mümkündür.
+Bir kaydırma çubuğu denetimi, bir çalışma sayfasında bir spin kutu denetimiyle benzer şekilde veri seçmeye yardımcı olmak için kullanılır. Denetimi bir çalışma sayfasına ekleyerek ve bir hücreye bağlayarak, denetimin mevcut konumunun sayısal bir değerini döndürmek mümkün olur.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-- Excel 2003 ve önceki sürümlerde kaydırma çubuğu eklemek için*Kaydırma çubuğu* üzerindeki düğme*Formlar* araç çubuğu ve ardından B2:B6 hücrelerini kaplayan ve yüksekliği sütunun genişliğinin dörtte biri kadar olan bir kaydırma çubuğu oluşturun.
--  Excel 2007'de kaydırma çubuğu eklemek için*Geliştirici* sekme, tıklayın*Sokmak* ve ardından tıklayın*Kaydırma çubuğu* Form Kontrolleri bölümünde.
--  Kaydırma çubuğuna sağ tıklayın ve ardından*Biçim Kontrolü*.
--  Aşağıdaki bilgileri yazın ve tıklayın*Tamam*:
- - İçinde*Mevcut değer* kutu, tip 1.
- - İçinde*En az değer* kutusuna 1 yazın. Bu değer, kaydırma çubuğunun üst kısmını listedeki ilk öğeyle sınırlar.
- - İçinde*Maksimum değer* kutusuna 20 yazın. Bu sayı, listedeki maksimum giriş sayısını belirtir.
- - İçinde*artımlı değişiklik* kutusuna 1 yazın. Bu değer, kaydırma çubuğu kontrolünün geçerli değeri kaç sayı artıracağını kontrol eder.
- - İçinde*sayfa değişikliği* kutusuna 5 yazın. Bu giriş, kaydırma kutusunun her iki tarafındaki kaydırma çubuğunun içini tıklatırsanız geçerli değerin ne kadar artırılacağını kontrol eder.
- G1 hücresine bir sayı değeri koymak için (listede hangi öğenin seçili olduğuna bağlı olarak), hücreye G1 yazın.*Cell bağlantı* Kutu.
-- Kaydırma çubuğunun seçili olmaması için herhangi bir hücreye tıklayın.
+- Excel 2003 ve daha önceki sürümlerde bir kaydırma çubuğu eklemek için, *Formlar* araç çubuğunda *Kaydırma Çubuğu* düğmesine tıklayın, ardından B2:B6 hücrelerini kaplayan ve sütunun genişliğinin yaklaşık dörtte biri uzunluğunda bir kaydırma çubuğu oluşturun.
+- Excel 2007'de bir kaydırma çubuğu eklemek için *Geliştirici* sekmesine, ardından *Ekle* düğmesine ve ardından Form Kontrolleri bölümünde *Kaydırma Çubuğu*na tıklayın.
+- Kaydırma çubuğuna sağ tıklayın ve ardından *Biçimlendirme Denetimi*ne tıklayın.
+- Aşağıdaki bilgileri girin ve *Tamam* 'a tıklayın:
+  - *Mevcut değer* kutusuna 1 yazın.
+  - *Minimum değer* kutusuna 1 yazın. Bu değer, listedeki ilk öğenin üstünü kaydırma çubuğuna kısıtlar.
+  - *Maksimum değer* kutusuna 20 yazın. Bu sayı, listedeki maksimum giriş sayısını belirtir.
+  - *Artış değişikliği* kutusuna 1 yazın. Bu değer, kaydırma çubuğu denetimi mevcut değeri kaç sayı arttırırı belirler.
+  - *Sayfa değişikliği* kutusuna 5 yazın. Bu giriş, kaydırma çubuğunda kaydırma kutusunun her iki tarafına tıklandığında mevcut değerin ne kadar artacağını kontrol eder.
+  - Listenin seçilen öğesine bağlı olarak G1 hücresine bir sayı değeri koymak için, *Hücre bağlantısı* kutusuna G1 yazın.
+- Kaydırma çubuğu seçilmediğinde herhangi bir hücreye tıklayın.
 
-Kaydırma çubuğundaki yukarı veya aşağı kontrolünü tıklattığınızda, G1 hücresi, kaydırma çubuğunun geçerli değeri artı veya eksi kaydırma çubuğunun artımlı değişimini gösteren bir sayıya güncellenir.
+Kaydırma çubuğundaki yukarı veya aşağı kontrolüne tıkladığınızda, G1 hücresi, kaydırma çubuğunun artı veya eksi kaydırma çubuğu değişikliğinin mevcut değerini gösteren bir sayıya güncellenir.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**Kaydırma Çubuğu Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addscrollbar) , çalışma sayfasına bir kaydırma çubuğu denetimi eklemek için kullanılır. Yöntem bir döndürür[**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar) nesne. Sınıf[**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar) kaydırma çubuğunu temsil eder. Bazı önemli üyeleri vardır:
+Sınıf [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection), bir çalışma sayfasına bir kaydırma çubuğu denetimini eklemek için kullanılan [**AddScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addscrollbar) adında bir yöntem sağlar. Yöntem bir [**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar) nesnesi döndürür. [**Aspose.Cells.Drawing.ScrollBar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar) sınıfı bir kaydırma çubuğunu temsil eder. Bazı önemli üyeleri vardır:
 
--  bu[**Bağlantılı Hücre**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) özelliği, kaydırma çubuğuna bağlı bir hücreyi belirtir.
--  bu[**maks.**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/max) özelliği, kaydırma çubuğu aralığı için maksimum değeri belirtir.
--  bu[**dak.**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/min) özelliği, kaydırma çubuğu aralığı için minimum değeri belirtir.
--  bu[**ArtımlıDeğişim**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/incrementalchange) özelliği, bir kaydırma çubuğunun bir satır kaydırmaya artırıldığı değer miktarını belirtir.
--  bu[**Gölge**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/shadow) özelliği, kaydırma çubuğunun 3B gölgelendirmeye sahip olup olmadığını gösterir.
--  bu[**Mevcut değer**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/currentvalue) özelliği, kaydırma çubuğunun geçerli değerini belirtir.
--  bu[**Sayfa Değişikliği**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/pagechange)özelliği, kaydırma kutusunun her iki tarafındaki kaydırma çubuğunun içini tıklatırsanız geçerli değerin ne kadar artırılacağını belirtir.
+- [**LinkedCell**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/linkedcell) özelliği, kaydırma çubuğuyla bağlantılı bir hücreyi belirtir.
+- [**Max**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/max) özelliği, kaydırma çubuğu aralığı için maksimum değeri belirtir.
+- [**Min**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/min) özelliği, kaydırma çubuğu aralığı için minimum değeri belirtir.
+- [**IncrementalChange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/incrementalchange) özelliği, bir kaydırmanın bir satır kaydırılacak değer miktarını belirtir.
+- [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/shadow) özelliği, bir kaydırma çubuğunun 3B gölgeli olup olmadığını belirtir.
+- [**CurrentValue**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/currentvalue) özelliği, kaydırma çubuğunun mevcut değerini belirtir.
+- [**PageChange**](https://reference.aspose.com/cells/net/aspose.cells.drawing/scrollbar/properties/pagechange) özelliği, kaydırma çubuğunun her iki yanına da tıklarsanız mevcut değerin ne kadar artırılacağını belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına nasıl kaydırma çubuğu ekleneceğini gösterir.
+Aşağıdaki örnek, çalışma sayfasına bir kaydırma çubuğu nasıl ekleyeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingScrollBarControl-1.cs" >}}
 
-## **Bir Çalışma Sayfasındaki Grup Kontrollerine GroupBox Kontrolü Ekleme**
+## **Çalışma Sayfasındaki Grup Kontrollerine GroupBox Kontrolü Ekleme**
 
-Bazen belirli bir gruba ait olan radyo düğmelerini veya diğer kontrolleri uygulamanız gerekir, bir grup kutusu veya dikdörtgen kontrol ekleyerek uygulayabilirsiniz. Bu iki nesneden herhangi biri, grubun sınırlayıcısı olarak işlev görür. Bu şekillerden birini ekledikten sonra, iki veya daha fazla radyo düğmesi veya başka grup nesneleri ekleyebilirsiniz.
+Bazen belirli bir gruba ait radyo düğmeleri veya diğer kontrolleri uygulamanız gerekebilir, bunu grup kutusu veya dikdörtgen kontrolünü dahil ederek uygulayabilirsiniz. Bu iki nesneden herhangi biri grup sınırlandırıcısı olarak hizmet eder. Bu şekillerden birini ekledikten sonra, ardından iki veya daha fazla radyo düğmesi veya diğer grup nesnelerini ekleyebilirsiniz.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-Çalışma sayfanıza bir grup kutusu denetimi yerleştirmek ve içine denetimler yerleştirmek için:
+Çalışma sayfanıza bir grup kutu kontrolü eklemek ve içine kontroller yerleştirmek için:
 
--  Bir formu başlatmak için ana menüde simgesine tıklayın.*görüş* , bunu takiben*araç çubukları* ve*Formlar*.
--  Üzerinde*Formlar* araç çubuğunda*Grup Kutusu* ve çalışma sayfasına bir dikdörtgen çizin.
+- Bir form başlatmak için ana menüde *Görünüm*ü, ardından *Araç Çubukları* ve *Formlar*ı tıklayın.
+- *Formlar* araç çubuğunda, *Grup Kutu*nu tıklayın ve çalışma sayfasında bir dikdörtgen çizin.
 - Kutu için bir başlık dizesi yazın.
--  Üzerinde*Formlar* araç çubuğu, tıklayın*Seçenek tuşu* ve içine tıklayın*Grup Kutusu* başlık dizesinin hemen altında.
--  itibaren*Formlar* araç çubuğunda tekrar tıklayın*Seçenek tuşu* ve içine tıklayın*Grup Kutusu*ilk radyo düğmesinin altında.
--  üzerinde bir kez daha*Formlar* araç çubuğu, tıklayın*Seçenek tuşu* ve içine tıklayın*Grup Kutusu* önceki radyo düğmesinin altında.
+- *Formlar* araç çubuğunda, *Seçenek Düğmesi*ne tıklayın ve başlık dizesinin hemen altına *Grup Kutusu*na tıklayın.
+- *Formlar* araç çubuğunda tekrar *Seçenek Düğmesi*ne tıklayın ve önceki radyo düğmesinin altında *Grup Kutusu*na tıklayın.
+- *Formlar* araç çubuğunda tekrar *Seçenek Düğmesi*ne tıklayın ve önceki radyo düğmesinin altında *Grup Kutusu*na tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**Grup Kutusu Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addgroupbox) , çalışma sayfasına bir grup kutusu denetimi eklemek için kullanılır. Yöntem bir döndürür[**Aspose.Cells.Drawing.GroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox) nesne. Ayrıca,[**Grup**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/group) yöntemi[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf şekilleri gruplandırır,[**Şekil**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) parametre olarak dizi ve bir döndürür[**Grup Şekli**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape) nesne. Sınıf[**Aspose.Cells.Drawing.GroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox) bir grup kutusunu temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıfı, çalışma sayfasına bir grup kutu kontrolü eklemek için kullanılan [**AddGroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addgroupbox) adında bir yöntem sağlar. Yöntem bir [**Aspose.Cells.Drawing.GroupBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox) nesnesi döndürür. Ayrıca, [**Group**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/group) yöntemi, şekilleri gruplar, bu, bir [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) dizisi alır ve bir [**Shape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) nesnesi döndürür. [**GroupShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape) sınıfı bir grup kutusunu temsil eder. Önemli bazı üyelere sahiptir:
 
--  bu[**Metin**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) özelliği, grup kutusunun başlık dizesini belirtir.
--  bu[**Gölge**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox/properties/shadow) özelliği, grup kutusunun 3B gölgelendirmeye sahip olup olmadığını gösterir.
+- [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) özelliği grup kutusunun başlık dizesini belirtir.
+- [**Shadow**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupbox/properties/shadow) özelliği grup kutusunun 3B gölgeleme olup olmadığını belirtir.
 
-Aşağıdaki örnek, bir grup kutusunun nasıl ekleneceğini ve çalışma sayfasındaki denetimlerin nasıl gruplanacağını gösterir.
+Aşağıdaki örnek, çalışma sayfasına bir grup kutu eklemeyi ve kontrolleri gruplamayı gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingGroupBoxControl-1.cs" >}}
 
-## **ileri konular**
-- [Aspose.Cells'i kullanarak ActiveX Denetimleri ekleyin](/cells/tr/net/add-activex-controls-using-aspose-cells/)
-- [ActiveX Denetimini Kaldır](/cells/tr/net/remove-activex-control/)
-- [ActiveX ComboBox Denetimini Güncelle](/cells/tr/net/update-activex-combobox-control/)
+## **Gelişmiş Konular**
+- [Aspose.Cells Kullanarak ActiveX Kontrolleri Ekleme](/cells/tr/net/add-activex-controls-using-aspose-cells/)
+- [ActiveX Kontrolü Kaldırma](/cells/tr/net/remove-activex-control/)
+- [ActiveX ComboBox Kontrolünü Güncelleme](/cells/tr/net/update-activex-combobox-control/)

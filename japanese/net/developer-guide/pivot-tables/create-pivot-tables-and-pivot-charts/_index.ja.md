@@ -1,59 +1,60 @@
-﻿---
-title: ピボット テーブルとピボット チャートを作成する
+---
+title: ピボットテーブルとピボットチャートの作成
 type: docs
 weight: 20
 url: /ja/net/create-pivot-tables-and-pivot-charts/
 ---
+
 {{% alert color="primary" %}}
 
-ピボット テーブルは、レコードのインタラクティブな要約です。たとえば、ワークシートのリストに何百もの請求書エントリがあるとします。ピボット テーブルは、顧客、製品、または日付ごとに請求書を合計できます。 Microsoft Excel では、ボタンを新しい位置にドラッグすることで、ピボット テーブル内の情報をすばやく再配置できます。
+ピボットテーブルは、レコードのインタラクティブな集計です。たとえば、ワークシートのリストには数百の請求書エントリがあります。ピボットテーブルは、顧客、製品、または日付別に請求書を合計することができます。Microsoft Excelを使用すると、ピボットテーブル内の情報をボタンをドラッグするだけで素早く再配置することが可能です。
 
-ピボット チャートは、ピボット テーブル内のデータをインタラクティブにグラフィカルに表現したものです。ピボット グラフは、Excel 2000 で導入されました。ピボット テーブルを使用すると、小計と合計が自動的に作成されるため、データをさらに理解しやすくなります。
+ピボットチャートは、ピボットテーブルのデータのインタラクティブなグラフィカルな表現です。ピボットチャートはExcel 2000で導入されました。ピボットテーブルが自動的に小計と合計を作成するため、ピボットチャートを使用することでデータを理解することがさらに容易になります。
 
- Aspose.Cells サポート[ピボットテーブル](/cells/ja/net/create-pivot-tables-and-pivot-charts/)と[ピボット チャート](/cells/ja/net/create-pivot-tables-and-pivot-charts/).
+Aspose.Cellsは[pivot tables](/cells/ja/net/create-pivot-tables-and-pivot-charts/)と[pivot charts](/cells/ja/net/create-pivot-tables-and-pivot-charts/)をサポートしています。
 
 {{% /alert %}}
 
-## **ピボット テーブルとグラフの追加**
+## **ピボットテーブルとチャートの追加**
 
-Aspose.Cells は、ピボット テーブルの作成に使用されるクラスの特別なセットを提供します。これらのクラスは、PivotTable オブジェクトの基本的な構成要素として機能する PivotTable オブジェクトを作成および設定するために使用されます。
+Aspose.Cellsは、ピボットテーブルを作成するために使用される特別なクラスセットを提供しています。これらのクラスは、PivotTableオブジェクトを作成し、設定するために使用されます。これらのオブジェクトはPivotTableオブジェクトの基本的な構成要素として機能します:
 
-- ピボット テーブル レポートのフィールドである PivotField。
-- ピボット テーブル内のすべての PivotField オブジェクトのコレクションである PivotFields。
-- ピボットテーブル、ワークシート上のピボットテーブル レポート。
-- ワークシート上のすべての PivotTable オブジェクトのコレクションである PivotTables。
+- PivotField、ピボットテーブルレポート内のフィールド。
+- PivotFields、ピボットテーブル内のすべてのPivotFieldオブジェクトのコレクション。
+- PivotTable、ワークシート上のPivotTableレポート。
+- PivotTables、ワークシート上のすべてのPivotTableオブジェクトのコレクション。
 
-### **利用準備中 Aspose.Cells**
+### **Aspose.Cellsの使用準備**
 
-1. Aspose.Cells をダウンロードしてインストールします。
-   1. [ダウンロード Aspose.Cells](https://downloads.aspose.com/cells/net).
- 1. 開発用コンピューターにインストールします。
-全て[Aspose](http://www.aspose.com/)コンポーネントがインストールされると、評価モードで動作します。評価モードには時間制限がなく、生成されたドキュメントに透かしを挿入するだけです。コンポーネントを最大限に活用するには、有効なライセンスが必要です。
+1. Aspose.Cellsをダウンロードしてインストールします。
+   1. [Aspose.Cellsをダウンロード](https://downloads.aspose.com/cells/net)します。 
+   1. 開発コンピュータにインストールします。
+      すべての[Aspose](http://www.aspose.com/)コンポーネントはインストールされると評価モードで動作します。評価モードには時間制限はなく、生成されたドキュメントにウォーターマークが注入されるのみです。コンポーネントをフル機能で使用するには、有効なライセンスが必要です。
 1. プロジェクトを作成します。
- 1. Visual Studio.Net を起動します。
- 1. 新しいコンソール アプリケーションを作成します。
+   1. Visual Studio.Net を起動します。
+   1. 新しいコンソールアプリケーションを作成します。
 1. 参照を追加します。
- Aspose.Cells コンポーネントへの参照をプロジェクトに追加します。例: ...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
+   Aspose.Cellsコンポーネントをプロジェクトに参照として追加します。たとえば...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
 
-### **ピボット テーブルの追加**
+### **ピボットテーブルの追加**
 
-Aspose.Cells を使用してピボット テーブルを作成するには:
+Aspose.Cellsを使用してピボットテーブルを作成するには:
 
-1. Cell オブジェクトの PutValue/setValue メソッドを使用して、ワークシートのセルにデータを追加します。また、既にデータが入力されているテンプレート ファイルも使用します。データは、ピボット テーブルのデータ ソースとして使用されます。
-1. PivotTables コレクションの add メソッド (Worksheet オブジェクトにカプセル化されている) を呼び出して、ワークシートにピボット テーブルを追加します。
-1. インデックスを渡して、PivotTables コレクションから新しい PivotTable オブジェクトにアクセスします。 # PivotTable オブジェクトにカプセル化されたピボット テーブル オブジェクトのいずれかを使用して、テーブルを管理します。
+1. CellオブジェクトのPutValue/setValueメソッドを使用してワークシートセルにデータを追加します。また、データがすでに入力されたテンプレートファイルを使用することもできます。これらのデータはピボットテーブルのデータソースとして使用されます。
+1. PivotTablesコレクションのaddメソッド（Worksheetオブジェクトにカプセル化されています）を呼び出すことによって、ワークシートにピボットテーブルを追加します。
+1. ピボットテーブルの新しいPivotTableオブジェクトにアクセスするには、そのインデックスを渡してPivotTablesコレクションからアクセスします。#PivotTableオブジェクトにカプセル化されているピボットテーブルオブジェクトを使用して、テーブルを管理します。
 
-コード例を以下に示します。
+以下にコード例を示します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotTable-1.cs" >}}
 
-### **ピボット チャートの追加**
+### **ピボットチャートの追加**
 
-Aspose.Cells を使用してピボットグラフを作成するには:
+Aspose.Cellsを使用してPivotChartを作成するには:
 
-1. グラフを追加します。
-1. チャートの PivotSource を設定して、スプレッドシート内の既存のピボット テーブルを参照します。
-1. その他の属性を設定します。
+1. チャートを追加します。
+1. グラフのPivotSourceを、スプレッドシート内の既存のピボットテーブルを指すように設定します。
+1. 他の属性を設定します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotChart-1.cs" >}}
 

@@ -1,42 +1,43 @@
-﻿---
-title:  Importera XML till Excel-arbetsbok
-linktitle: XML-kartor
+---
+title: Importera XML till Excel arbetsbok 
+linktitle: XML mappar
 type: docs
 weight: 210
 url: /sv/net/import-xml-map-inside-a-workbook-using-aspose-cells/
-description: Importera data från en XML-datafil till Microsoft Excel.
+description: Importera data från XML datafiler till Microsoft Excel.
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells låter dig importera XML-kartan inuti arbetsboken med hjälp av[**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) metod. Du kan importera XML-karta med hjälp av Microsoft Excel med följande steg
+Aspose.Cells gör att du kan importera XML-kartan i arbetskanten med hjälp av metoden [**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index). Du kan importera XML-karta med hjälp av Microsoft Excel med följande steg
 
--  Välj**Utvecklare** flik
--  Klick**Importera** i XML-sektionen och följ de nödvändiga stegen.
+- Välj **Utvecklare**-fliken
+- Klicka på **Importera** i XML-avsnittet och följ de nödvändiga stegen.
 
- Du måste ange dina XML-data för att slutföra importen. Här är en[exempel på XML-data](5115037.txt) som du kan använda för att testa.
+Du måste tillhandahålla dina XML-data för att slutföra importen. Här är ett [prov-XML-data](5115037.txt) som du kan använda för testning.
 
 {{% /alert %}}
 
 ## **Importera XML-karta med Microsoft Excel**
 
-Följande skärmdump visar hur man importerar XML-karta med Microsoft Excel.
+Följande skärmbild visar hur man importerar XML-karta med Microsoft Excel.
 
 |![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
-|:- |
+| :- |
 
 ## **Importera XML-karta med Aspose.Cells**
 
-Följande exempelkod visar hur du använder[**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) . Det genererar[output excel-fil](5115036.xlsx) som visas i denna skärmdump.
+Följande kodexempel visar hur man använder [**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index). Det genererar den [utdataexcel-filen](5115036.xlsx) som visas i den här skärmbilden.
 
 |![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
-|:- |
+| :- |
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ImportXmlData-ImportXmlDataIntoWorkbook.cs" >}}
 
-## **Förhandsämnen**
-- [Lägg till XML-karta i arbetsboken med metoden XmlMapCollection.Add](/cells/sv/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
-- [Exportera XML-data länkad till XML-karta i arbetsboken](/cells/sv/net/export-xml-data-linked-to-xml-map-inside-the-workbook/)
-- [Hitta rotelementets namn för XML-karta](/cells/sv/net/find-the-root-element-name-of-xml-map/)
-- [Länka Cells till XML Map Elements](/cells/sv/net/link-cells-to-xml-map-elements/)
-- [Fråga Cell Områden mappade till XML Map Path med metoden Worksheet.XmlMapQuery](/cells/sv/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
+## **Fortsatta ämnen**
+- [Lägg till XML-karta i arbetsboken med XmlMapCollection.Add-metoden](/cells/sv/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
+- [Exportera XML-data som är länkad till XML-karta inuti arbetsboken](/cells/sv/net/export-xml-data-linked-to-xml-map-inside-the-workbook/)
+- [Hitta rotresursnamnet på XML-kartan](/cells/sv/net/find-the-root-element-name-of-xml-map/)
+- [Länka celler till XML-kartelement](/cells/sv/net/link-cells-to-xml-map-elements/)
+- [Fråga cellområden kopplade till XML-kartvärdering med hjälp av Worksheet.XmlMapQuery-metoden](/cells/sv/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 

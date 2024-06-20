@@ -1,14 +1,15 @@
-﻿---
-title: Получить проверку Cell в файлах ODS
+---
+title: Получить проверку ячейки в файлах ODS
 type: docs
 weight: 190
 url: /ru/java/get-cell-validation-in-ods-files/
 ---
-## **Получить проверку Cell в файлах ODS**
 
-С помощью Aspose.Cells вы можете применить проверку к ячейке в файлах ODS. Для этого API предоставляет[**Получитьпроверку**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) метод[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)учебный класс.
+## **Получить проверку ячейки в файлах ODS**
 
-В следующем примере кода показано использование[**Получитьпроверку**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) путем загрузки[источник ODS](SampleBook1.ods)файл и чтение проверки ячейки A9.
+С помощью Aspose.Cells вы можете получить проверку, примененную к ячейке в файлах ODS. Для этого API предоставляет метод [**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) класса [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell).
+
+Следующий образец кода демонстрирует использование метода [**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) путем загрузки файла [исходного ODS](SampleBook1.ods) и чтения проверки ячейки A9.
 
 ### **Образец кода**
 

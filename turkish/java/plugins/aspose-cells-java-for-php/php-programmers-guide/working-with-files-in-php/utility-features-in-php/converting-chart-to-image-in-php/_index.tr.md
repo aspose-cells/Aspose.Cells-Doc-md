@@ -1,15 +1,16 @@
-﻿---
-title: PHP'de Grafiği Görüntüye Dönüştürme
+---
+title: PHP de Grafikleri Görüntüye Dönüştürme
 type: docs
 weight: 10
 url: /tr/java/converting-chart-to-image-in-php/
 ---
-## **Aspose.Cells - Grafiği Resme Dönüştürme**
-PHP'de Aspose.Cells for Java kullanarak Grafiği Görüntüye dönüştürmek için Dönüştürücü modülünü çağırmanız yeterlidir.
 
-**PHP Kodu**
+## **Aspose.Cells - Grafikleri Resme Dönüştürme**
+PHP'de Grafikleri Görüntüye dönüştürmek için Aspose.Cells for Java'yi kullanmak için, basitçe Dönüştürücü modülünü çağırın.
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
  $chartType = new ChartType();
 
@@ -141,6 +142,6 @@ $fs->close();  
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Grafiği Resme Dönüştürme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+**Aspose.Cells ile Grafikleri Resme Dönüştürme**'yi aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ChartToImage.php)

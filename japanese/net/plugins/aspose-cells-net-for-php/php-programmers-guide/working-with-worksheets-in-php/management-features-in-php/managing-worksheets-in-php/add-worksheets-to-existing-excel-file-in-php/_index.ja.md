@@ -1,16 +1,17 @@
-﻿---
-title: PHP で既存の Excel ファイルにワークシートを追加する
+---
+title: PHP で既存の Excel ファイルにワークシートを追加
 type: docs
 weight: 10
 url: /ja/net/add-worksheets-to-existing-excel-file-in-php/
 ---
-ワークシートを既存の Excel ファイルに追加する
 
-ワークシートを既存の Excel ファイルに追加する
+既存の Excel ファイルにワークシートを追加
 
-**PHP コード**
+既存の Excel ファイルにワークシートを追加
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -37,7 +38,7 @@ url: /ja/net/add-worksheets-to-existing-excel-file-in-php/
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートを既存の Excel ファイルに追加する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+**既存のExcelファイルにワークシートを追加（Aspose.Cells）**を以下のソーシャルコーディングサイトからダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddWorksheetsToExistingExcelFile.php)

@@ -1,24 +1,25 @@
-﻿---
-title: Ablaufverfolgung von Präzedenzfällen und Abhängigkeiten in xlsx4j
+---
+title: Tracing Precedents and Dependents in xlsx4j
 type: docs
 weight: 70
 url: /de/java/tracing-precedents-and-dependents-in-xlsx4j/
 ---
-## **Aspose.Cells - Rückverfolgung von Präzedenzfällen und Angehörigen**
-Komplexe Finanzarbeitsblätter, insbesondere solche, die gemeinsam entwickelt wurden, können die peinlichsten Fehler verbergen. Das Überprüfen von Formeln auf Genauigkeit und das Auffinden der Fehlerquelle kann schwierig sein, wenn die Formel Vorgängerzellen und abhängige Zellen verwendet.
 
-- **Vorhergehende Zellen**sind Zellen, auf die durch eine Formel in einem anderen Cell verwiesen wird. Wenn beispielsweise Zelle D10 die Formel =B5 enthält, ist Zelle B5 ein Präzedenzfall für Zelle D10.
-- **Abhängige Zellen**Formeln enthalten, die auf andere Zellen verweisen. Wenn beispielsweise Zelle D10 die Formel =B5 enthält, ist Zelle D10 von Zelle B5 abhängig.
+## **Aspose.Cells - Nachverfolgung von Vorgängern und Abhängigen**
+Komplexe Finanzarbeitsblätter, insbesondere solche, die in Zusammenarbeit entwickelt wurden, können die peinlichsten Fehler verbergen. Formeln auf ihre Genauigkeit zu überprüfen und die Fehlerquelle zu finden, kann schwierig sein, wenn die Formel Vorgänger- und Abhängigenzellen verwendet.
 
-Um die Tabellenkalkulation leicht lesbar zu machen, möchten Sie möglicherweise deutlich zeigen, welche Zellen in einer Tabellenkalkulation in einer Formel verwendet werden. Ebenso möchten Sie möglicherweise die abhängigen Zellen anderer Zellen extrahieren.
+- **Vorgängerzellen** sind Zellen, auf die in einer anderen Zelle eine Formel verweist. Wenn beispielsweise die Zelle D10 die Formel =B5 enthält, ist die Zelle B5 ein Vorgänger der Zelle D10.
+- **Abhängige Zellen** enthalten Formeln, die sich auf andere Zellen beziehen. Wenn beispielsweise die Zelle D10 die Formel =B5 enthält, ist die Zelle D10 eine Abhängige der Zelle B5.
 
-Aspose.Cells ermöglicht es Ihnen, Zellen zu verfolgen und herauszufinden, welche verknüpft sind.
+Um die Tabelle übersichtlicher zu gestalten, möchten Sie möglicherweise klar zeigen, welche Zellen in einer Tabelle in einer Formel verwendet werden. Ebenso möchten Sie die abhängigen Zellen anderer Zellen extrahieren.
 
-Präzedenzfälle verfolgen
+Aspose.Cells ermöglicht es Ihnen, die Zellen zu verfolgen und herauszufinden, welche verknüpft sind.
+
+Vorgänger verfolgen
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -84,21 +85,21 @@ if(ret != null)
 
 {{< /highlight >}}
 
-Abhängigkeiten verfolgen
+Abhängige verfolgen
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- // Holen Sie sich die A1-Zelle
+ //Get the A1 cell
 
-Cell c = Zellen. get ("A5");
+Cell c = cells.get("A5");
 
-// Holen Sie sich alle abhängigen Zellen der A5-Zelle
+//Get the all the Dependents of A5 cell
 
-Cell[]abhängige = c.getDependents(true);
+Cell[] dependents = c.getDependents(true);
 
-für (int i = 0; i< dependents.length; i++)
+for (int i = 0; i< dependents.length; i++)
 
 {
 
@@ -107,13 +108,13 @@ für (int i = 0; i< dependents.length; i++)
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/tracingprecedentsanddependents/AsposeTracingPrecedentsAndDependents.java)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Rückverfolgung von Präzedenzfällen und Angehörigen](/java/tracing-precedents-and-dependents).
+Für weitere Details besuchen Sie [Vorgängerzellen und Abhängige](/java/tracing-precedents-and-dependents).
 
 {{% /alert %}}

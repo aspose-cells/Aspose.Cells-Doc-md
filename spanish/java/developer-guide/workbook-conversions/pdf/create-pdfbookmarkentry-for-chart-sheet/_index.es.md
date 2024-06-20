@@ -1,25 +1,26 @@
-﻿---
-title: Crear PdfBookmarkEntry para hoja de gráfico
+---
+title: Crear PdfBookmarkEntry para la hoja de gráficos
 type: docs
 weight: 50
 url: /es/java/create-pdfbookmarkentry-for-chart-sheet/
 ---
-## **Posibles escenarios de uso**
 
-Anteriormente, Aspose.Cells crearía[**PdfMarcadorEntrada**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) para una hoja normal. Pero ahora Aspose.Cells también puede crear[**PdfMarcadorEntrada**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) para la hoja de gráfico. Dado que la hoja de gráfico no tiene ninguna otra celda excepto la celda A1, creará[**PdfMarcadorEntrada**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry)solo para la celda A1.
+## **Escenarios de uso posibles**
 
-## **Crear PdfBookmarkEntry para hoja de gráfico**
+Anteriormente, Aspose.Cells crearía [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) para una hoja normal. Pero ahora Aspose.Cells también puede crear [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) para una hoja de gráficos. Dado que la hoja de gráficos no tiene ninguna otra celda excepto la celda A1, creará [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) solo para la celda A1.
 
-El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](61767772.xlsx)que tiene cuatro hojas. Dos de ellas son hojas normales y las otras dos son hojas de gráficos. Crea cuatro entradas de marcador de la siguiente manera
+## **Crear entrada de marcador de PDF para hoja de gráfico**
 
-- Marcador-I
-- Marcador-II-Gráfico1
-- Marcador-III
-- Marcador-IV-Gráfico2
+El siguiente código de ejemplo carga el [archivo de Excel de muestra](61767772.xlsx) que tiene cuatro hojas. Dos de ellas son hojas normales y las otras dos son hojas de gráficos. Crea cuatro entradas de marcadores como sigue:
 
-La siguiente captura de pantalla muestra la[salida PDF](61767771.pdf)generado por el código de muestra para una referencia.
+- Marca de libro-I
+- Marca de libro-II-Gráfico1
+- Marca de libro-III
+- Marca de libro-IV-Gráfico2
 
-![todo:imagen_alternativa_texto](create-pdfbookmarkentry-for-chart-sheet_1.png)
+La siguiente captura de pantalla muestra el [PDF de salida](61767771.pdf) generado por el código de ejemplo como referencia.
+
+![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 
 ## **Código de muestra**
 

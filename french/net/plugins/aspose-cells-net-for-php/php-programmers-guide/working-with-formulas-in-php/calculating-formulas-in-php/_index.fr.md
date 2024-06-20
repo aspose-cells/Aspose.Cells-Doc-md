@@ -1,15 +1,16 @@
-﻿---
-title: Calculer des formules en PHP
+---
+title: Calcul des formules en PHP
 type: docs
 weight: 10
 url: /fr/net/calculating-formulas-in-php/
 ---
-## **Formules de calcul**
-Formules de calcul
+
+## **Calcul des formules**
+Calcul des formules
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -64,7 +65,7 @@ Formules de calcul
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Formules de calcul (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Télécharger **Calcul des formules (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingwithFormulas/CalculatingFormulas.php)

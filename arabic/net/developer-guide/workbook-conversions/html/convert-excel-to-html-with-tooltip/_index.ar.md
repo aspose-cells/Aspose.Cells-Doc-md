@@ -1,19 +1,20 @@
-﻿---
-title: قم بتحويل Excel إلى HTML باستخدام تلميح الأداة
+---
+title: تحويل Excel إلى HTML مع تلميح سريع
 type: docs
 weight: 200
 url: /ar/net/convert-excel-to-html-with-tooltip/
 ---
-## **قم بتحويل Excel إلى HTML باستخدام تلميح الأداة**
 
-قد تكون هناك حالات يتم فيها قطع النص في HTML الذي تم إنشاؤه وتريد عرض النص الكامل كتلميح أداة في حدث التمرير. Aspose.Cells يدعم هذا من خلال توفير**[HtmlSaveOptions.AddTooltipText] (https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** خاصية. وضع**[HtmlSaveOptions.AddTooltipText] (https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** ملكية ل**حقيقي** سيضيف النص الكامل كتلميح أداة في HTML الذي تم إنشاؤه.
+## **تحويل Excel إلى HTML مع تلميحة**
 
-توضح الصورة التالية تلميح الأداة في ملف HTML الذي تم إنشاؤه.
+قد تكون هناك حالات حيث يتم قص النص في HTML المولد وترغب في عرض كامل النص كتلميح عند حدوث حدث تحويم. Aspose.Cells تدعم ذلك من خلال توفير الخاصية [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext). ضبط الخاصية [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext) على **true** سيضيف النص الكامل كتلميح في HTML المولد.
 
-![ما يجب القيام به: image_بديل_نص](convert-excel-to-html-with-tooltip_1.jpg)
+تُظهر الصورة التالية التلميح السريع في ملف HTML المولد.
 
- نموذج التعليمات البرمجية التالي بتحميل[ملف اكسل المصدر](98107416.xlsx) ويولد ال[ملف الإخراج HTML](98107417.zip) مع تلميح الأداة.
+![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
-عينة من الرموز
+يستعرض الكود العينة التالي ملف الExcel المصدر ويولد [ملف HTML الناتج](98107417.zip) مع التلميح السريع.
+
+الكود المثالي
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToHtmlWithTooltip-1.cs" >}}

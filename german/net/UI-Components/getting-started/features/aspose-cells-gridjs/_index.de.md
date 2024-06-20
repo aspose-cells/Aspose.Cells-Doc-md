@@ -1,62 +1,65 @@
-﻿---
-title: Aspose.Cells.GridJs
+---
+title: Aspose.Cells.GridJs Funktionen
 type: docs
 weight: 40
-url: /de/net/aspose-cells-gridjs-features/
+url: /de/net/aspose-cells-gridjs/features/
+keywords: GridJs, Funktionen, Feature
+description: Dieser Artikel stellt Funktionen für GridJs vor.
 ---
+
 ## **Aspose.Cells.GridJs**
 ### **Import-/Exportfunktionen**
-- Import aus und Export in Excel-Tabellen.
+- Importieren aus und exportieren in Excel-Tabellen.
 
 ### **Arbeitsblattfunktionen**
-- Arbeitsblätter hinzufügen/entfernen/umbenennen.
+- Tabellen hinzufügen/entfernen/umbenennen.
 
 
 ### **Zeilen- und Spaltenfunktionen**
 - Hinzufügen, Einfügen und Entfernen von Zeilen und Spalten in einem Arbeitsblatt.
-- Zeilen und Spalten ein- und ausblenden.
-- Einfrieren und Auftauen von Zeilen und Spalten.
- 
-### **Cell Eigenschaften**
+- Zeilen und Spalten ausblenden und einblenden.
+- Zeilen und Spalten fixieren und lösen.
+
+### **Zellenfunktionen**
 - Bearbeiten Sie mehrere Zellen.
-- Unterstützt Zahlen-, Datums-, Währungs- und Zeitformateinstellungen.
-- Unterstützt benutzerdefinierte Formateinstellungen.
+- Unterstützt Einstellungen für Nummern, Datum, Währung und Zeitformate.
+- Unterstützt benutzerdefinierte Formatierungseinstellungen.
 - Unterstützt Hintergrundfarbeinstellungen.
-- Unterstützt das automatische Ausfüllen.
-- Steuern Sie die Textausrichtung.
+- Unterstützt Autofill.
+- Steuern der Textausrichtung.
 - Steuern Sie den Textumbruch.
 - Grenzen verwalten.
-- Steuern Sie die Schriftarteinstellungen.
-- Zellen verbinden oder teilen
+- Steuern Sie die Schriftarteneinstellungen.
+- Zellen zusammenführen oder aufteilen
 ### **Formatierungsfunktionen**
-- Erstellen Sie webbasierte interaktive Grid-Anwendungen, die wie Desktop-Tabellenkalkulationsanwendungen aussehen und sich anfühlen.
-- Unterstützt die Zellenformatierung.
+- Erstellen von webbasierten interaktiven Rasteranwendungen, die sich anfühlen und aussehen wie Desktop-Tabellenkalkulationsanwendungen.
+- Unterstützt Zellformatierung.
 
-### **Utility-Funktionen**
-- Unterstützt Dropdown-Listen-Validierungen.
+### **Dienstprogrammfunktionen**
+- Unterstützt Dropdown-Listeneingaben.
 - Kommentare hinzufügen/entfernen/suchen.
-- Drehen/Größe ändern/Bilder/Formen verschieben.
+- Bilder/Formen drehen/vergrößern/verschieben.
 
 - Tastaturnavigation.
 ### **Erweiterte Funktionen**
 - Unterstützt das Erstellen und Berechnen von Formeln auf Webseiten.
-- Bietet über 80 vordefinierte Funktionen in Bezug auf Mathematik, Text und Daten, Datum und Uhrzeit sowie Logik.
+- Bietet über 80 vordefinierte Funktionen für Mathematik, Text und Daten, Datum und Uhrzeit sowie Logik.
 
 ### **Unterstützte Browser**
 - Microsoft Internet Explorer
-- Mozilla Firefox
-- Oper
-- Google Chrom
-- Microsoft Kante
-### **Microsoft Excel wird unterstützt**
-- MicrosoftExcel 97
-- MicrosoftExcel 2000
+- Mozilla FireFox
+- Opera
+- Google Chrome
+- Microsoft Edge
+### **Unterstützte Microsoft Excel**
+- Microsoft Excel 97
+- Microsoft Excel 2000
 - Microsoft Excel XP
-- MicrosoftExcel 2003
-- MicrosoftExcel 2007
-- MicrosoftExcel 2010
-- MicrosoftExcel 2013
+- Microsoft Excel 2003
+- Microsoft Excel 2007
+- Microsoft Excel 2010
+- Microsoft Excel 2013
 ### **Unterstützte Plattformen**
-- ASP.NET Kern
+- ASP.NET core
 
 

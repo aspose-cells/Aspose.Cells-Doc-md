@@ -1,39 +1,42 @@
-﻿---
-title: Kopieren Sie GridWeb-Zeilen und -Spalten
+---
+title: Kopieren von GridWeb Zeilen und Spalten
 type: docs
 weight: 80
-url: /de/net/copy-gridweb-rows-and-columns/
+url: /de/net/aspose-cells-gridweb/copy-gridweb-rows-and-columns/
+keywords: GridWeb, kopieren
+description: Dieser Artikel zeigt, wie Zeilen und Spalten in GridWeb kopiert werden.
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells. Die GridWeb-Komponente bietet die Möglichkeit, Zeilen und Spalten zu kopieren, während die GridCells-Klasse verwendet wird. Dieser Artikel demonstriert die Verwendung von APIs, die von Aspose.Cells.GridWeb bereitgestellt werden, um Zeilen und Spalten auf der GridWeb-Schnittstelle zu kopieren.
+Das Aspose.Cells.GridWeb-Komponente bietet die Möglichkeit, Zeilen & Spalten zu kopieren, während die Klasse GridCells verwendet wird. Dieser Artikel demonstriert die Verwendung der von Aspose.Cells.GridWeb bereitgestellten APIs zum Kopieren von Zeilen & Spalten auf der GridWeb-Benutzeroberfläche. 
 
-Die Methoden GridCells.CopyRow, GridCells.CopyColumn, GridCells.CopyRows und GridCells.CopyColumns kopieren den Inhalt, das Styling und die Formeln aus der Quellzeile und -spalte zum Ziel.
+Die Methoden GridCells.CopyRow, GridCells.CopyColumn, GridCells.CopyRows & GridCells.CopyColumns kopieren den Inhalt, das Styling & die Formeln von der Quellzeile & Spalte zum Ziel.
 
 {{% /alert %}} 
-## **Kopieren von Zeilen und Spalten**
- Wenn Sie mit der Komponente Aspose.Cells.GridWeb noch nicht vertraut sind, empfehlen wir Ihnen dringend, diese zu überprüfen[Einführung in Aspose.Cells.GridWeb](https://docs.aspose.com/cells/net/browsers-capabilities/) und ausführlicher Artikel auf[So fügen Sie die Komponente Aspose.Cells.GridWeb in einer WebForms-Anwendung hinzu](https://docs.aspose.com/cells/net/add-gridweb-to-web-form/).
-### **Einzelne Zeile kopieren**
-Um das Beispiel einfach zu halten, verwendet der Artikel eine vorhandene Tabelle mit einer Zeile und einer einfachen Formel, die alle Werte in der Zeile summiert. So wird die Tabelle in der Aspose.Cells.GridWeb-Oberfläche angezeigt, bevor die Zeile kopiert wird.
+## **Kopieren von Zeilen & Spalten**
+Wenn Sie noch nicht mit dem Aspose.Cells.GridWeb-Komponente vertraut sind, empfehlen wir Ihnen, den [Einführung in Aspose.Cells.GridWeb](https://docs.aspose.com/cells/net/aspose-cells-gridweb/browsers-capabilities/) und den ausführlichen Artikel zum [Hinzufügen der Aspose.Cells.GridWeb-Komponente in einer WebForms-Anwendung](https://docs.aspose.com/cells/net/aspose-cells-gridweb/add-gridweb-to-web-form/) zu lesen.
+### **Kopieren einer einzelnen Zeile**
+Um das Beispiel einfach zu halten, verwendet der Artikel eine vorhandene Tabelle mit einer Zeile und einer einfachen Formel, die alle Werte in der Zeile summiert. So wird die Tabelle in der Aspose.Cells.GridWeb-Oberfläche vor dem Kopieren der Zeile angezeigt.
 
-![todo: Bild_alt_Text](copy-gridweb-rows-and-columns_1.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_1.png)
 
-Das Code-Snippet ist einfach, wie unten gezeigt. Es greift auf das GridCells-Objekt der aktiven Arbeitsblattreihenfolge zu, um eine Kopie der ersten Zeile in die nachfolgende Zeile zu erstellen.
+Der den Code block ist wie folgt. Es greift auf das GridCells-Objekt des aktiven Tabellenblatts zu, um eine Kopie der ersten Zeile in die nachfolgende Zeile zu machen.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-CopyRowsColumns.aspx-CopyRow.cs" >}}
 
 
-So sieht Aspose.Cells.GridWeb nach dem Kopieren von Zeilen aus.
+So sieht die Aspose.Cells.GridWeb nach dem Kopieren der Zeile aus.
 
-![todo: Bild_alt_Text](copy-gridweb-rows-and-columns_2.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_2.png)
 ### **Einzelne Spalte kopieren**
-Das folgende Beispiel verwendet eine vorhandene Tabelle mit einer Spalte und einer einfachen Formel, die alle Werte in der Spalte summiert. So wird die Tabelle in der Aspose.Cells.GridWeb-Oberfläche angezeigt, bevor die Spalte kopiert wird.
+Das folgende Beispiel verwendet eine vorhandene Tabelle mit einer Spalte und einer einfachen Formel, die alle Werte in der Spalte summiert. So wird die Tabelle in der Aspose.Cells.GridWeb-Oberfläche vor dem Kopieren der Spalte angezeigt.
 
-![todo: Bild_alt_Text](copy-gridweb-rows-and-columns_3.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_3.png)
 
-Ähnlich wie im obigen Beispiel greift der folgende Codeausschnitt auf das GridCells-Objekt der aktiven Arbeitsblattreihenfolge zu, um eine Kopie der ersten Spalte in die nachfolgende Spalte zu erstellen.
+Ähnlich wie im obigen Beispiel greift der folgende Code auf das GridCells-Objekt des aktiven Tabellenblatts zu, um eine Kopie der ersten Spalte in die nachfolgende Spalte zu machen.
 
 
 
@@ -41,17 +44,17 @@ Das folgende Beispiel verwendet eine vorhandene Tabelle mit einer Spalte und ein
 
 
 
-So sieht Aspose.Cells.GridWeb nach dem Kopieren von Spalten aus.
+So sieht die Aspose.Cells.GridWeb nach dem Kopieren der Spalte aus.
 
-![todo: Bild_alt_Text](copy-gridweb-rows-and-columns_4.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_4.png)
 
 {{% alert color="primary" %}} 
 
-Sie können die Methoden GridCells.CopyRow und GridCells.CopyColumn in einer Schleife verwenden, um die Quellzeile und -spalte jeweils in mehrere Zeilen und Spalten zu kopieren.
+Sie können die GridCells.CopyRow & GridCells.CopyColumn-Methoden in einer Schleife verwenden, um die Quellzeile & Spalte jeweils auf mehrere Zeilen & Spalten zu kopieren.
 
 {{% /alert %}} 
-### **Kopieren mehrerer Zeilen**
-Es ist auch möglich, mehrere Zeilen an ein neues Ziel zu kopieren, während die GridCells.CopyRows-Methode verwendet wird, die einen zusätzlichen Parameter vom Typ Integer akzeptiert, um die Anzahl der zu kopierenden Quellzeilen anzugeben.
+### **Mehrere Zeilen kopieren**
+Es ist auch möglich, mehrere Zeilen zu einem neuen Ziel zu kopieren, während die GridCells.CopyRows-Methode verwendet wird, die einen zusätzlichen Parameter vom Typ Integer benötigt, um die Anzahl der zu kopierenden Quellzeilen anzugeben.
 
 
 
@@ -59,13 +62,13 @@ Es ist auch möglich, mehrere Zeilen an ein neues Ziel zu kopieren, während die
 
 
 
-So sieht Aspose.Cells.GridWeb vor und nach dem Kopieren von Zeilen aus.
+So sieht Aspose.Cells.GridWeb vor & nach dem Kopieren von Spalten aus.
 
-![todo: Bild_alt_Text](copy-gridweb-rows-and-columns_5.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_5.png)
 
-![todo: Bild_alt_Text](copy-gridweb-rows-and-columns_6.png)
-### **Kopieren mehrerer Spalten**
-Die GridCells-Klasse stellt auch die CopyColumns-Methode bereit, die einen zusätzlichen Parameter vom Typ Integer akzeptiert, um die Anzahl der zu kopierenden Quellspalten anzugeben.
+![todo:image_alt_text](copy-gridweb-rows-and-columns_6.png)
+### **Mehrere Spalten kopieren**
+Die Klasse GridCells bietet auch die CopyColumns-Methode, die einen zusätzlichen Parameter vom Typ Integer benötigt, um die Anzahl der zu kopierenden Quellspalten anzugeben.
 
 
 
@@ -73,8 +76,8 @@ Die GridCells-Klasse stellt auch die CopyColumns-Methode bereit, die einen zusä
 
 
 
-So sieht Aspose.Cells.GridWeb vor und nach dem Kopieren von Zeilen aus.
+So sieht Aspose.Cells.GridWeb vor & nach dem Kopieren von Spalten aus.
 
-![todo: Bild_alt_Text](copy-gridweb-rows-and-columns_7.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_7.png)
 
-![todo: Bild_alt_Text](copy-gridweb-rows-and-columns_8.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_8.png)

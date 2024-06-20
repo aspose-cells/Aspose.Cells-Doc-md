@@ -1,14 +1,15 @@
-﻿---
+---
 title: Establezca el ancho de columna en una unidad escalable como em o porcentaje
 type: docs
 weight: 130
 url: /es/java/set-column-width-to-scalable-unit-like-em-or-percent/
 ---
-Generar un archivo HTML desde una hoja de cálculo es muy común. El tamaño de las columnas se define en "pt" que funciona en muchos casos. Sin embargo, puede haber un caso en el que este tamaño fijo no sea necesario. Por ejemplo, si el ancho del panel del contenedor es de 600 px, donde se muestra esta página HTML. En este caso, puede obtener una barra de desplazamiento horizontal si el ancho de la tabla generada es mayor. Se requirió que este tamaño fijo se cambiara a una unidad escalable como em o porcentaje para obtener una mejor presentación. Se puede usar el siguiente código de muestra donde[**HtmlSaveOptions.WidthScalable**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#WidthScalable) se establece en**verdadero** para crear un ancho escalable.
 
-El archivo fuente de muestra y los archivos de salida se pueden descargar desde los siguientes enlaces:
+Generar un archivo HTML desde una hoja de cálculo es muy común. El tamaño de las columnas está definido en "pt" que funciona en muchos casos. Sin embargo, puede darse el caso de que este tamaño fijo no sea necesario. Por ejemplo, si el ancho del panel contenedor es de 600px donde se muestra esta página HTML. En este caso, puede aparecer una barra de desplazamiento horizontal si el ancho de la tabla generada es mayor. Se requería que este tamaño fijo se cambiara a una unidad escalable como em o porcentaje para obtener una mejor presentación. El siguiente código de ejemplo puede utilizarse donde [**HtmlSaveOptions.WidthScalable**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#WidthScalable) está configurado como **true** para crear un ancho escalable.
 
-[muestraParaColumnasEscalables.xlsx](74776596.xlsx)
+Se pueden descargar archivos fuente de muestra y archivos de salida desde los siguientes enlaces:
+
+[sampleForScalableColumns.xlsx](74776596.xlsx)
 
 [outsampleForScalableColumns.zip](74776597.zip)
 

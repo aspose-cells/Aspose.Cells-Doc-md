@@ -1,60 +1,61 @@
-﻿---
-title: Mettre à jour l'outil d'importation pour Dynamics CRM
+---
+title: Mettre à jour l outil d importation pour Dynamics CRM
 type: docs
 weight: 10
 url: /fr/net/update-import-tool-for-dynamics-crm/
 ---
+
 **Résumé du contenu**
 
 - [Introduction](#UpdateImportToolforDynamicsCRM-Introduction)
-- [Configuration système requise et plates-formes prises en charge](#UpdateImportToolforDynamicsCRM-SystemRequirementsandSupportedPlatforms) 
+- [Configuration requise et plateformes prises en charge](#UpdateImportToolforDynamicsCRM-SystemRequirementsandSupportedPlatforms) 
   - [Configuration requise](#UpdateImportToolforDynamicsCRM-SystemRequirements)
-  - [Plates-formes prises en charge](#UpdateImportToolforDynamicsCRM-SupportedPlatforms)
+  - [Plateformes prises en charge](#UpdateImportToolforDynamicsCRM-SupportedPlatforms)
 - [Téléchargement](#UpdateImportToolforDynamicsCRM-Downloading)
 - [Installation ou désinstallation](#UpdateImportToolforDynamicsCRM-InstallingorUninstalling) 
-  - [Demande de licence](#UpdateImportToolforDynamicsCRM-ApplyingLicense)
+  - [Application de licence](#UpdateImportToolforDynamicsCRM-ApplyingLicense)
 - [En utilisant](#UpdateImportToolforDynamicsCRM-Using)
 - [Soutien](#UpdateImportToolforDynamicsCRM-Support)
-- [Prolonger et contribuer](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
+- [Élargir et contribuer](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
 ## **Introduction**
-L'outil d'importation de mise à jour Aspose est un module complémentaire open source à utiliser dans Microsoft Dynamic CRM. Ce module complémentaire est capable de mettre à jour et/ou d'exporter automatiquement les données du CRM vers des feuilles de calcul Aspose.Cells. Nous n'avons rien à faire manuellement et installons ce module complémentaire et rendons notre travail plus facile et plus rapide.
+L'outil d'importation de mise à jour Aspose est un module complémentaire open source à utiliser dans Microsoft Dynamic CRM. Ce module est capable de mettre automatiquement à jour et/ou d'exporter des données du CRM vers des feuilles de calcul Aspose.Cells. Nous n'avons pas besoin de faire quoi que ce soit manuellement et d'installer ce module complémentaire pour faciliter et accélérer notre travail.
 
-Ce module complémentaire fournit des fonctionnalités permettant de mettre à jour et/ou d'exporter automatiquement depuis CRM. Un clic importera/exportera l'enregistrement vers/depuis CRM.
+Ce module complémentaire offre la fonctionnalité de mettre automatiquement à jour et/ou d'exporter à partir du CRM. Un clic permettra d'importer/exporter l'enregistrement vers/depuis le CRM.
 
-Les principales caractéristiques de cet addon sont :
+Les principales fonctionnalités de ce module complémentaire sont :
 
-- Établissez la connexion au CRM souhaité.
-- Autoriser l'utilisateur à sélectionner l'entité et les champs souhaités.
-- Obtenir l'enregistrement de l'affichage CRM dans la grille.
-- Exportez l'enregistrement vers la feuille de calcul Aspose.Cells.
-- Obtenez l'enregistrement de Aspose.Cells Affichage de la feuille de calcul dans la grille.
-- Exportez l'enregistrement de la grille vers le CRM.
-## **Configuration système requise et plates-formes prises en charge**
+- Établir la connexion au CRM désiré.
+- Permettre à l'utilisateur de sélectionner l'entité et les champs désirés.
+- Obtenir l'enregistrement du CRM affiché dans la grille.
+- Exporter l'enregistrement vers la feuille de calcul Aspose.Cells.
+- Obtenir l'enregistrement de la feuille de calcul Aspose.Cells affiché dans la grille.
+- Exporter l'enregistrement de la grille vers le CRM.
+## **Configuration requise et plateformes prises en charge**
 ### **Configuration requise**
-Pour installer et utiliser Aspose .Net Update Import Tool pour Microsoft Dynamics CRM, vous devez avoir installé l'une des versions suivantes de CRM
+Pour installer et utiliser l'outil d'importation de mises à jour Aspose .Net pour Microsoft Dynamics CRM, vous devez avoir l'une des versions de CRM suivantes installée
 
 - Microsoft Dynamics CRM 2013.
 - Microsoft Dynamics CRM 2015.
-- Microsoft Dynamics CRM en ligne.
+- Microsoft Dynamics CRM Online.
 
 N'hésitez pas à nous contacter si vous rencontrez des problèmes lors de l'installation ou de l'utilisation de ce module complémentaire.
-### **Plates-formes prises en charge**
-Cet addon fonctionnera avec toutes les versions de Microsoft Dynamics CRM :
+### **Plateformes prises en charge**
+Ce module complémentaire fonctionnera avec toutes les versions de Microsoft Dynamics CRM :
 
 - Microsoft Dynamics CRM 2013.
 - Microsoft Dynamics CRM 2015.
-- Microsoft Dynamics CRM en ligne.
+- Microsoft Dynamics CRM Online.
 ## **Téléchargement**
-Vous pouvez télécharger Aspose .NET Document Generator for CRM à partir de l'un des emplacements suivants :
+Vous pouvez télécharger Aspose .NET Document Generator pour CRM à partir d'un des emplacements suivants:
 
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETUpdateExportTool)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETUpdateExportTool)
 ## **Installation ou désinstallation**
-Il s'agit d'un outil développé sur mesure et ne nécessite aucune installation ou désinstallation.
-Il vous suffit de télécharger l'outil et de l'extraire sur votre disque, et il est prêt à l'emploi.
-### **Demande de licence**
-Ajoutez le code suivant dans le formulaire en indiquant le chemin d'accès au fichier de licence :
+C'est un outil développé sur mesure et ne nécessite aucune installation ou désinstallation.
+Vous devez simplement télécharger l'outil et l'extraire sur votre disque, et il est prêt à l'emploi.
+### **Application de licence**
+Ajoutez le code suivant dans le formulaire en fournissant le chemin vers le fichier de licence :
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
   if (LicenseFilePath != "" && File.Exists(LicenseFilePath))
 
@@ -68,13 +69,13 @@ Ajoutez le code suivant dans le formulaire en indiquant le chemin d'accès au fi
 
 {{< /highlight >}}
 ## **En utilisant**
- Configurez et utilisez facilement l'outil d'importation de mise à jour Aspose .NET pour Dynamics CRM en suivant les instructions[ici](/cells/fr/net/using-and-configuring-crm-update-import-tool/).
+Configurez facilement et utilisez l'outil de mise à jour Aspose .NET pour Dynamics CRM en suivant les instructions [ici](/cells/fr/net/using-and-configuring-crm-update-import-tool/).
 ## **Soutien**
-Nous offrons une assistance gratuite. Toute personne qui utilise notre produit, qu'elle l'ait acheté ou utilise une évaluation, mérite toute notre attention et notre respect.
+Nous offrons un support gratuit. Toute personne qui utilise notre produit, qu'elle l'ait acheté ou qu'elle l'utilise en évaluation, mérite toute notre attention et notre respect.
 
-Vous pouvez consigner tous les problèmes ou suggestions liés à l'outil d'importation de mise à jour Aspose .Net à l'aide de l'une des plates-formes suivantes :
+Vous pouvez signaler tout problème ou suggestion lié à l'outil de mise à jour Aspose .Net via l'une des plateformes suivantes :
 
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/wiki/Aspose-.NET-Update-Import-Tool)
-## **Prolonger et contribuer**
-Ce module complémentaire est Open source. Le scénario que nous avons créé et résolu le problème peut différer de l'utilisateur final. Vous pouvez télécharger le dernier code source et le mettre à jour en fonction des besoins de votre entreprise.
- Veuillez trouver le dernier code source et l'exemple de code[ici](/cells/fr/net/extend-and-contribute-to-crm-update-import-tool/).
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/wiki/Aspose-.NET-Update-Import-Tool)
+## **Élargir et contribuer**
+Cet addon est open source. Le scénario que nous avons créé et résolu peut différer de l'utilisateur final. Vous pouvez télécharger le dernier code source et le mettre à jour selon vos besoins commerciaux.
+Veuillez trouver le dernier code source et exemple de code [ici](/cells/fr/net/extend-and-contribute-to-crm-update-import-tool/).

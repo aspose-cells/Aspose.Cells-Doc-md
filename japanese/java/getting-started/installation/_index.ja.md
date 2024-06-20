@@ -1,16 +1,17 @@
 ---
-title: Installation
+title: インストール
 type: docs
 weight: 20
 url: /ja/java/installation/
 ---
-##  **Maven リポジトリから Aspose.Cells for Java をインストールする**
 
-Aspose はすべての Java API をホストします[Maven リポジトリ](https://releases.aspose.com/java/repo/)。簡単に使用できます[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/)シンプルな構成で Maven プロジェクトに直接追加できます。
+## **MavenリポジトリからAspose.Cells for Javaをインストールする**
 
-まず、以下のように Maven pom.xml で Aspose Maven リポジトリの構成/場所を指定する必要があります。
+AsposeはすべてのJava APIを[Mavenリポジトリ](https://releases.aspose.com/java/repo/)でホストしています。シンプルな設定で[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/)をMavenプロジェクトで直接使用できます。
 
-{{< highlight "java" >}}
+まず、Mavenのpom.xmlでAspose Mavenリポジトリの設定/場所を次のように指定する必要があります:
+
+{{< highlight java >}}
 
  <repositories>
 
@@ -28,8 +29,8 @@ Aspose はすべての Java API をホストします[Maven リポジトリ](htt
 
 {{< /highlight >}}
 
-Gradle の build.gradle スクリプトは次のようになります。
-{{< highlight "java" >}}
+Gradleでは、build.gradleスクリプトで次のように設定します:
+{{< highlight java >}}
 //Add Aspose maven repository
 repositories {
     mavenCentral()
@@ -39,9 +40,9 @@ repositories {
 }
 {{< /highlight >}}
 
-次に、pom.xml で Aspose.Cells for Java API 依存関係を次のように定義します (これには、メインの jar ファイル、Java Docs、その他のライブラリなど、すべてが含まれます)。
+次に、pom.xmlでAspose.Cells for Java APIの依存関係を次のように定義します（これにより、メインのjarファイル、Javaドキュメント、およびその他のライブラリが含まれます）:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      <dependencies>
 
@@ -51,7 +52,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.2</version>
+            <version>24.6</version>
 
         </dependency>
 
@@ -61,7 +62,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.2</version>
+            <version>24.6</version>
 
             <classifier>javadoc</classifier>
 
@@ -91,10 +92,18 @@ repositories {
 
 {{< /highlight >}}
 
-おめでとう！ Maven プロジェクトで Aspose.Cells for Java Maven 依存関係が正常に定義されました。
+おめでとうございます！MavenプロジェクトでAspose.Cells for Javaの依存関係を正常に定義しました。
 
-##  **サポート**
+## **WebP 画像の読み込み**
 
-迅速な技術サポートを受けるには、以下を確認してください
+WebP は現代の画像形式です。高いビジュアル品質を維持しながら、より小さなファイルサイズを実現するように設計されています。
 
-[Aspose.Cells - フォーラム](https://forum.aspose.com/c/cells/9)
+現在、Microsoft Excel では、WebP 画像を直接挿入することは許可されていません。ただし、一部のサードパーティのライブラリによって、Excel ソースファイルに直接 WebP 画像が挿入されるケースもあります。
+
+一般に、Aspose.Cells for Java は、Java の ImageIO を使用してラスター画像を読み込みますが、現在の JDK 自体は WebP 画像を読み込むサポートがありません。Java の ImageIO には、WebP 画像を読み込むための追加プラグインや拡張機能(例: [imageio-webp プラグイン](https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-webp))が必要です。
+
+## **サポート**
+
+迅速な技術サポートを受けるために、以下を確認してください
+
+[Aspose.Cells - Forums](https://forum.aspose.com/c/cells/9)

@@ -1,18 +1,19 @@
-﻿---
-title: Excel ファイルの読み込み中に警告を受け取る
+---
+title: Excelファイルの読み込み時に警告を取得する
 type: docs
 weight: 110
 url: /ja/net/get-warnings-while-loading-excel-file/
 ---
-## **考えられる使用シナリオ**
 
-ときどき、ユーザーがワークブックを読み込もうとすることがあります。ワークブックは多少壊れていますが、読み込めます。このような場合、Aspose.Cells はワークブックの読み込み中に警告をスローします。これらの警告は、実装することでキャッチできます。**[IWarningCallback](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback)**インターフェイスと設定**[LoadOptions.WarningCallback](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/warningcallback)**財産。
+## **可能な使用シナリオ**
 
-## **Excel ファイルの読み込み中に警告を受け取る**
+ユーザーがロード可能なデータがあるが不正なワークブックを読み込もうとすることがあります。このような場合、Aspose.Cellsはワークブックを読み込む際に警告を発行します。これらの警告を[**IWarningCallback**](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback)インターフェースを実装して[**LoadOptions.WarningCallback**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/warningcallback)プロパティを設定することでキャッチすることができます。
 
-次のサンプル コードは、Excel ファイルの読み込み中に警告を取得する方法を説明しています。コードは[サンプルエクセルファイル](sampleDuplicateDefinedName.xlsx)投げる**[DuplicateDefinedName](https://reference.aspose.com/cells/net/aspose.cells/warningtype)**ロード時の警告。この警告は、**[IWarningCallback.Warning()](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback/methods/warning)**コンソールに警告メッセージを出力するメソッド。次に、コードはワークブックを次のように保存します。[出力エクセルファイル](outputDuplicateDefinedName.xlsx)Microsoft Excel でサンプルの Excel ファイルを開くと、このスクリーンショットに示すように、この警告も表示されます。さらに理解を深めるために、以下に示すコードのコンソール出力も確認してください。
+## **Excelファイルの読み込み中に警告を受け取る**
 
-![todo:画像_代替_文章](get-warnings-while-loading-excel-file_1.png)
+Excelファイルを読み込みながら警告を取得する方法について以下のサンプルコードを説明します。このコードは、[サンプルエクセルファイル](sampleDuplicateDefinedName.xlsx)をロードし、ロード中に[**DuplicateDefinedName**](https://reference.aspose.com/cells/net/aspose.cells/warningtype)警告を発生させます。この警告は[**IWarningCallback.Warning()**](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback/methods/warning)メソッドでキャッチされ、コンソールに警告メッセージが出力されます。その後、ワークブックを[出力エクセルファイル](outputDuplicateDefinedName.xlsx)として保存します。サンプルエクセルファイルをMicrosoft Excelで開くと、このような警告が表示されます。理解を深めるために以下のコンソール出力もチェックしてください。
+
+![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
 ## **サンプルコード**
 
@@ -20,9 +21,9 @@ url: /ja/net/get-warnings-while-loading-excel-file/
 
 ## **コンソール出力**
 
-上記のコードを提供されたコマンドで実行したときのコンソール出力は次のとおりです。[サンプルエクセルファイル](sampleDuplicateDefinedName.xlsx).
+提供された[サンプルエクセルファイル](sampleDuplicateDefinedName.xlsx)を使用して上記のコードを実行した際のコンソール出力は次のとおりです。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Introduction!$D$16:$D$17
 

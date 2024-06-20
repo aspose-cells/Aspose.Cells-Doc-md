@@ -1,31 +1,34 @@
-﻿---
-title: Aspose.Cells for Java - Avbrottsbart bibliotek
+---
+title: Aspose.Cells for Java  Avbrytbar bibliotek
 type: docs
 weight: 1090
 url: /sv/java/aspose-cells-for-java-interruptible-library/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java stöder för att avbryta laddnings-/sparprocessen när du arbetar med stora Excel-filer. Ibland vill du göra biblioteken/komponenterna avbrottsbara. Detta skulle säkerligen förbättra effektiviteten och tillförlitligheten för dina tjänster/processer. Du kan på ett tillförlitligt sätt ge upp en konvertering halvvägs när du upptäcker att det tar för lång tid. Det skulle spara CPU-användning, RAM etc. Det betyder att du inte behöver ta drastiska steg som att döda hela servern bara för att avbryta konverteringen.
+Aspose.Cells for Java stöder avbrytning av laddnings/sparningsprocessen vid arbete med stora Excelfiler. Ibland vill du göra biblioteken/komponenterna avbrytbara. Detta skulle säkerligen förbättra effektiviteten och tillförlitligheten av dina tjänster/processer. Du kan pålitligt avbryta en konvertering mitt i processen när du upptäcker att det tar för lång tid. Det skulle spara CPU-användning, RAM osv. Det betyder att du inte behöver ta drastiska åtgärder som att döda hela servern bara för att avbryta konverteringen. 
 {{% /alert %}}
 
 ## **Exempel:**
 
- Följande program visar hur man avbryter sparprocessen med**InterruptMonitor.interrupt()** metod.
+Följande program visar hur du avbryter sparprocessen med hjälp av **InterruptMonitor.interrupt()**-metoden.
 
-[**Java**]{{< highlight "java" >}}
+[**Java**]
 
- //Skapa en ny arbetsbok
+{{< highlight java >}}
+
+ //Create a new Workbook  
 
 final Workbook wb = new Workbook();
 
-// Skaffa arbetsbladen
+// Get the Worksheets
 
 WorksheetCollection wss = wb.getWorksheets();
 
-// Kör en slinga för att fylla arkceller med data
+// Run a loop to fill sheet cells with data
 
- för (int i = 0; i< 50; i++) {
+for (int i = 0; i < 50; i++) {
 
     Worksheet sheet = wss.get(wss.add());
 

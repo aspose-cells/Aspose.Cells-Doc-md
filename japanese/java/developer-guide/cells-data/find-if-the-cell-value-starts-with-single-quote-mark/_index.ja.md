@@ -1,16 +1,17 @@
-﻿---
-title: セル値が一重引用符で始まるかどうかを確認します
+---
+title: セルの値がシングルクォートマークで始まるかどうかを検索
 type: docs
 weight: 610
 url: /ja/java/find-if-the-cell-value-starts-with-single-quote-mark/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells が提供するようになりました[Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)プロパティを使用して、セル値が一重引用符で始まるかどうかを確認します。このプロパティの前は、sample と 'sample などの文字列を区別する方法がありませんでした。
+Aspose.Cells は現在、セルの値が単一引用符マークで始まるかどうかを確認するための[Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) プロパティを提供しています。このプロパティ以前は、例えば sample と 'sample といった文字列を区別する方法がありませんでした。
 
 {{% /alert %}} 
-## **セル値が一重引用符で始まるかどうかを確認します**
-次のサンプル コードは、sample や 'sample のような文字列は、[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue)財産。したがって、使用する必要があります[Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)それらを区別するプロパティ。
+## **セルの値がシングルクォートマークで始まるかどうかを検索**
+次のサンプルコードは、[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) プロパティでは sample と 'sample を区別できないことを説明しています。そのため、それらを区別するには [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) プロパティを使用する必要があります。
 
 
 

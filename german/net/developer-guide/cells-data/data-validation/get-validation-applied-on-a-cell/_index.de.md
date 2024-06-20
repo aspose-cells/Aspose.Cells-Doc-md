@@ -1,25 +1,26 @@
-﻿---
-title: Lassen Sie sich die Validierung auf Cell anwenden
+---
+title: Angewendete Validierung auf einer Zelle erhalten.
 type: docs
 weight: 200
 url: /de/net/get-validation-applied-on-a-cell/
-description: Dieser Artikel zeigt, wie Sie die Validierung auf eine Cell mit C# anwenden
-keywords: apply cell validation in excel with c#, apply validation on a cell in excel with c#, apply validation in excel with c#, cell validation in excel with c#, c# apply cell validation in excel, c# apply validation on a cell in excel, c# cell validation in excel, c# cell validation
+description: Dieser Artikel zeigt, wie man Validierung auf einer Zelle mit C# anwendet
+keywords: Wenden Sie die Zellenvalidierung in Excel mit C# an, wenden Sie die Validierung auf eine Zelle in Excel mit C# an, wenden Sie die Validierung in Excel mit C# an, Zellenvalidierung in Excel mit C#, C# wenden Sie die Zellenvalidierung in Excel an, C# wenden Sie die Validierung auf eine Zelle in Excel an, C# Zellenvalidierung in Excel, C# Zellenvalidierung
 ---
+
 {{% alert color="primary" %}}
 
-Sie können Aspose.Cells verwenden, um die Validierung auf eine Zelle anzuwenden. Aspose.Cells bietet die[**Cell.GetValidation()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) Methode zu diesem Zweck. Wenn auf die Zelle keine Validierung angewendet wird, wird null zurückgegeben.
+Sie können Aspose.Cells verwenden, um die auf eine Zelle angewendete Validierung zu erhalten. Aspose.Cells bietet die [**Cell.GetValidation()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) Methode für diesen Zweck. Wenn keine Validierung auf die Zelle angewendet wird, gibt sie null zurück.
 
- Ebenso können Sie verwenden[**Worksheet.Validations.GetValidationInCell**](https://reference.aspose.com/cells/net/aspose.cells/validationcollection/methods/getvalidationincell) Methode zum Erfassen der Validierung, die auf eine Zelle angewendet wird, indem ihre Zeilen- und Spaltenindizes bereitgestellt werden.
+Ebenso können Sie die [**Worksheet.Validations.GetValidationInCell**](https://reference.aspose.com/cells/net/aspose.cells/validationcollection/methods/getvalidationincell) Methode verwenden, um die auf eine Zelle angewendete Validierung durch Angabe ihrer Zeilen- und Spaltenindizes zu erhalten.
 
 {{% /alert %}}
 
-## C#-Code, um die Validierung auf Cell anzuwenden
+## C#-Code, um die auf eine Zelle angewendete Validierung zu erhalten
 
-Das folgende Codebeispiel zeigt Ihnen, wie Sie die Validierung auf eine Zelle anwenden lassen.
+Im folgenden Beispielcode sehen Sie, wie Sie die auf eine Zelle angewendete Validierung erhalten können.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-GetValidationAppliedOnCell-GetValidationAppliedOnCell.cs" >}}
 
-## Zum Thema passende Artikel
+## Verwandte Artikel
 
-- [Datenvalidierung](/cells/de/net/data-validation/)
+- [Datenüberprüfung](/cells/de/net/data-validation/)

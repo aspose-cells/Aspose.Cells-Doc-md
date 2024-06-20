@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mappe XML
 type: docs
 weight: 210

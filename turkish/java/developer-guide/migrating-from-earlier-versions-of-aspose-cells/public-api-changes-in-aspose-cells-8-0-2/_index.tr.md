@@ -1,20 +1,21 @@
-﻿---
-title: Genel API Aspose.Cells 8.0.2'deki değişiklikler
+---
+title: Aspose.Cells 8.0.2 de Kamu API Değişiklikleri
 type: docs
 weight: 40
 url: /tr/java/public-api-changes-in-aspose-cells-8-0-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.0.1'den 8.0.2'ye modül/uygulama geliştiricilerinin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranışlardaki değişikliklerin açıklamasını da içerir.
+Bu belge, Aspose.Cells API'sındaki 8.0.1 sürümünden 8.0.2'ye kadar olan değişiklikleri açıklar, modül/uygulama geliştiricilerin ilgisini çekebilecek. Sadece yeni ve güncellenmiş kamusal yöntemleri değil, aynı zamanda Aspose.Cells'in arka plandaki davranışında herhangi bir değişikliği de içerir.
 
 {{% /alert %}} 
 ## **Shape Sınıfına TextDirection Özelliği Eklendi**
-Shape sınıfı, Shape nesnesi için metin akışının yönünü almak veya ayarlamak için kullanılabilen TextDirection özelliğine sahiptir. TextDirection özelliği, aşağıda gösterildiği gibi bir elektronik tablodaki yorumlar için istenen metin yönünü ayarlamak için de kullanılabilir.
+Shape sınıfı, Shape nesnesinin metin akışının yönünü almak veya ayarlamak için kullanılabilecek TextDirection özelliğini açığa çıkardı. TextDirection özelliği, elektronik tablolardaki yorumlar için istenen metin yönünü ayarlamak için de kullanılabilir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -51,12 +52,12 @@ comment.setNote("This is my Comment Text. This is test");
 book.save(myDir + "output.xlsx");
 
 {{< /highlight >}}
-## **HTMLLoadOptions Sınıfına ConvertFormulasData Özelliği eklendi**
-Geliştiricilerin HTML dosyalarından Excel formüllerini yüklemelerini kolaylaştırmak için HTMLLoadOptions Sınıfına ConvertFormulasData özelliği eklenmiştir. Boolean ConvertFormulasData özelliği, dize değeri '=' karakteriyle başladığında dizenin bir formüle dönüştürülüp dönüştürülmeyeceğini belirtir.
+## **HTMLLoadOptions Sınıfına ConvertFormulasData Özelliği Eklendi**
+ConvertFormulasData özelliği, HTMLLoadOptions Sınıfına eklenmiş, geliştiricilerin HTML dosyalarından Excel formüllerini yüklemesini kolaylaştırmak için. Boolean ConvertFormulasData özelliği, dize değerinin '=' karakteri ile başlayıp başlamadığını dönüştürüp dönüştürmeyeceğini belirtir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of HTMLLoadOptions
 
@@ -76,10 +77,10 @@ Workbook workbook = new Workbook(myDir + "spreadsheet.html", loadOptions);
 
 {{% alert color="primary" %}} 
 
-ConvertFormulasData özelliğinin varsayılan değeri yanlıştır.
+ConvertFormulasData özelliğinin varsayılan değeri false'tur
 
 {{% /alert %}}
-## **HtmlSaveOptions Sınıfına ImageOptions Özelliği eklendi**
- HtmlSaveOptions Sınıfına ImageOptions özelliği eklendi. ImageOptions özelliğinin gösterilmesi, geliştiricilerin e-tabloları dışa aktarırken HTML'e katıştırılmış resimler için tercihleri belirlemesine olanak sağlamıştır.
-## **Eski HtmlSaveOptions.ExportChartImageFormat Özellik**
-HtmlSaveOptions.ExportChartImageFormat, Aspose.Cells for .NET 8.0.2'den başlayarak geçersiz olarak işaretlendi. Elektronik tabloları HTML formatına dışa aktarırken resim formatı ayarları yerine HtmlSaveOptions.ImageOptions kullanılması tavsiye edilir.
+## **HtmlSaveOptions Sınıfına ImageOptions Özelliği Eklendi**
+ImageOptions özelliği, HtmlSaveOptions Sınıfına eklenmiş. ImageOptions özelliğine erişmek, geliştiricilerin elektronik tabloları HTML olarak dışa aktarırken gömülü olan resimler için tercihleri belirlemesine olanak tanımıştır. 
+## **HtmlSaveOptions.ExportChartImageFormat Özelliği Kaldırıldı**
+HtmlSaveOptions.ExportChartImageFormat, Aspose.Cells for .NET 8.0.2'den itibaren geçersiz kılınmıştır. Elektronik tabloları HTML biçimine dışa aktarırken resim biçim ayarları için HtmlSaveOptions.ImageOptions yerine kullanılması önerilir.

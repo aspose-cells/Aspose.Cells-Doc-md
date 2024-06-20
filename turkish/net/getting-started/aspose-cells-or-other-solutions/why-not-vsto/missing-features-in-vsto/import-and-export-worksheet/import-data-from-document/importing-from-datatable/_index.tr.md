@@ -1,15 +1,16 @@
-﻿---
-title: DataTable'dan içe aktarma
+---
+title: DataTable dan Alma
 type: docs
 weight: 40
 url: /tr/net/importing-from-datatable/
 ---
- Geliştiriciler, bir**Veri tablosu** arayarak çalışma sayfalarına**ImportDataTable** Cells koleksiyonunun yöntemi. Programın aşırı yüklenmiş birçok versiyonu vardır.**ImportDataTable** yöntem ancak tipik bir aşırı yükleme aşağıdaki parametreleri alır:**Veri tablosu** , temsil etmek**Veri tablosu** içeriğinin içe aktarılması gereken nesne
 
-- **Alan Adı Gösteriliyor mu?**, DataTable sütunlarının adlarının çalışma sayfasına ilk satır olarak alınıp alınmayacağını belirtir.
-- **Başlangıç Cell** DataTable içeriğinin içe aktarılacağı başlangıç hücresinin adını (yani "A1") temsil eder.
+Geliştiriciler, Hücreler koleksiyonunun **ImportDataTable** yöntemini çağırarak **DataTable**'den veri alabilirler. **ImportDataTable** yönteminin çok sayıda aşırı yüklenmiş sürümü olsa da, tipik bir aşırı yüklemenin aşağıdaki parametreleri alır: **DataTable** , içeriği alınması gereken **DataTable** nesnesini temsil eder
 
-{{< highlight "csharp" >}}
+- **Alan Adı Gösterilsin Mi**, DataTable sütunlarının çalışma sayfasına ilk satır olarak alınıp alınmayacağını belirtir
+- **Başlangıç Hücresi** , DataTable içeriğinin nereden alınacağını temsil eden başlangıç hücresinin adını (örn. "A1") temsil eder
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -41,11 +42,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -57,11 +58,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 
@@ -78,6 +79,6 @@ worksheet.Cells.ImportDataTable(dataTable, true, "A1");
 workbook.Save("Import From Data Table.xls");
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Import.to.Worksheet.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)

@@ -1,34 +1,35 @@
 ---
-title: 安全な PDF ドキュメント
+title: セキュアなPDFドキュメント
 type: docs
 weight: 120
 url: /ja/python-net/secure-pdf-documents/
-description: スプレッドシートを Aspose.Cells for Python via .NET API で PDF に保存するときに、PDF セキュリティ オプションを渡す方法について説明します。
-keywords: Python write security options to pdf, encrypt PDF document 
+description: Aspose.Cells for Python via .NET APIを使用して、スプレッドシートをPDFに保存する際にPDFセキュリティオプションを渡す方法について学んでください。
+keywords: PythonでPDFにセキュリティオプションを書き込み、PDFドキュメントを暗号化する 
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、開発者は暗号化された PDF ファイルを操作する必要があります。例えば：
+開発者は、暗号化されたPDFファイルと作業する必要がある場合があります。
 
-- 所有者パスワードとユーザーパスワードを使用してドキュメントを保護し、誰でも開くことができないようにします。
-- ドキュメントを開いた後、ドキュメントに対する制限またはアクセス許可を設定します。たとえば、ドキュメントのコンテンツを印刷または抽出できるかどうかを制限します。
+- ドキュメントをオーナーパスワードとユーザーパスワードでセキュリティ保護して、誰もがそれを開けなくする。
+- ドキュメントを開いた後にドキュメントに制限や権限を設定します。例: ドキュメントの内容を印刷または抽出できるかどうかを制限します。
 
-この記事では、スプレッドシートを PDF に保存するときに PDF セキュリティ オプションを渡す方法について説明します。
+この記事では、スプレッドシートをPDFに保存する際にPDFセキュリティオプションを渡す方法について説明します。
 
 {{% /alert %}}
 
- Aspose.Cells for Python via .NET が提供します[**PDFセキュリティオプション**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/)セキュリティ関連の作業に使用します。 PDF に保存するときに、所有者パスワードとユーザー パスワードを設定できます。暗号化された PDF ドキュメントを開いて表示するには、所有者パスワードまたはユーザー パスワードが必要です。
+Aspose.Cells for Python via .NETは[**PdfSecurityOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/)を提供します。セキュリティでの作業に役立ちます。PDFに保存する際にオーナーパスワードとユーザーパスワードを設定できます。暗号化されたPDF文書を表示するためには、オーナーパスワードまたはユーザーパスワードが必要になります。
 
-- ユーザー パスワードには null または空の文字列を指定できます。この場合、PDF ドキュメントを開くときにユーザーにパスワードは要求されません。
-- 正しい所有者パスワードを使用して PDF ドキュメントを開くと、ドキュメントへのフル アクセス (アクセス制限が指定されていない) が許可されます。
-- 正しいユーザー パスワードを使用して PDF 文書を開くと (またはユーザー パスワードを持たない文書を開くと)、指定されたアクセス許可に従って制限付きアクセスが許可されます。
+- ユーザーパスワードはnullまたは空の文字列にすることができます。この場合、ユーザーがPDFドキュメントを開く際にパスワードが要求されません。
+- 正しい所有者パスワードでPDFドキュメントを開くと、ドキュメントへのフルアクセス（指定されたアクセス制限なし）が可能です。
+- 正しいユーザーパスワードでPDFドキュメントを開く（またはユーザーパスワードのないドキュメントを開く）と、指定された権限に応じて限定されたアクセスが可能です。
 
-以下のサンプル コードでは、Aspose.Cells for Python via .NET を使用して PDF を保護する方法を説明します。
+以下のサンプルコードでは、Aspose.Cells for Python via .NETを使用してPDFをセキュリティで保護する方法が説明されています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-Articles-SecurePDFDocuments-1.py" >}}
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、次のように呼び出すのが最善です。[**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)これにより、式に依存する値が再計算され、正しい値が PDF にレンダリングされるようになります。
+スプレッドシートに数式が含まれている場合、スプレッドシートをPDFにレンダリングする直前に[**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)を呼び出すことが最善です。これにより、数式に依存した値が再計算され、正しい値がPDFに表示されます。
 
 {{% /alert %}}

@@ -1,134 +1,143 @@
-﻿---
-title: Commentaires filetés
+---
+title: Commentaires en fil
 type: docs
 weight: 140
 url: /fr/net/threaded-comments/
 ---
-## **Commentaires filetés**
 
-MS Excel 365 fournit une fonctionnalité pour ajouter des commentaires filetés. Ces commentaires fonctionnent comme des conversations et peuvent être utilisés pour des discussions. Les commentaires sont désormais accompagnés d'une boîte de réponse qui permet des conversations en fil de discussion. Les anciens commentaires sont appelés Notes dans Excel 365. La capture d'écran ci-dessous montre comment les commentaires thématiques sont affichés lorsqu'ils sont ouverts dans Excel.
+## **Commentaires en fil**
 
-![tâche : image_autre_texte](threaded-comments_1.jpg)
+MS Excel 365 offre la possibilité d'ajouter des commentaires en fil. Ces commentaires fonctionnent comme des conversations et peuvent être utilisés pour des discussions. Les commentaires sont maintenant dotés d'une boîte de réponse qui permet des conversations en fil. Les anciens commentaires sont appelés Notes dans Excel 365. La capture d'écran ci-dessous montre comment les commentaires en fil sont affichés lorsqu'ils sont ouverts dans Excel.
 
-Les commentaires filetés sont affichés comme ceci dans les anciennes versions d'Excel. Les images suivantes ont été prises en ouvrant le fichier d'exemple dans Excel 2016.
+![todo:image_alt_text](threaded-comments_1.jpg)
 
-![tâche : image_autre_texte](threaded-comments_2.jpg)
+Les commentaires en fil sont affichés comme ceci dans les anciennes versions d'Excel. Les images suivantes ont été prises en ouvrant le fichier d'exemple dans Excel 2016.
 
-![tâche : image_autre_texte](threaded-comments_3.jpg)
+![todo:image_alt_text](threaded-comments_2.jpg)
 
-Aspose.Cells fournit également la fonctionnalité de gestion des commentaires filetés.
+![todo:image_alt_text](threaded-comments_3.jpg)
 
-## **Ajouter des commentaires filetés**
+Aspose.Cells fournit également la fonctionnalité pour gérer les commentaires en fil.
 
-### **Ajouter un commentaire fileté avec Excel**
+## **Ajouter des commentaires en fil**
 
-Pour ajouter des commentaires filetés dans Excel 365, procédez comme suit.
+### **Ajouter un commentaire en fil avec Excel**
+
+Pour ajouter des commentaires enfilés dans Excel 365, suivez les étapes suivantes.
 
 - Méthode 1
- - Clique le**Passer en revue** Languette
- - Clique le**Nouveau commentaire** bouton
- - Cela ouvrira une boîte de dialogue pour entrer des commentaires dans la cellule active.
-  - ![tâche : image_autre_texte](threaded-comments_4.jpg)
+  - Cliquez sur l'onglet **Révision**
+  - Cliquez sur le bouton **Nouveau commentaire**
+  - Cela ouvrira une boîte de dialogue pour saisir des commentaires dans la cellule active.
+  - ![todo:image_alt_text](threaded-comments_4.jpg)
 - Méthode 2
- - Faites un clic droit sur la cellule où vous souhaitez insérer le commentaire.
- - Clique le**Nouveau commentaire** option.
- - Cela ouvrira une boîte de dialogue pour entrer des commentaires dans la cellule active.
-  - ![tâche : image_autre_texte](threaded-comments_5)
+  - Cliquez avec le bouton droit sur la cellule où vous souhaitez insérer le commentaire.
+  - Cliquez sur l'option **Nouveau commentaire**
+  - Cela ouvrira une boîte de dialogue pour saisir des commentaires dans la cellule active.
+  - ![todo:image_alt_text](threaded-comments_5)
 
-### **Ajouter un commentaire fileté en utilisant Aspose.Cells**
+### **Ajouter un commentaire enfilé à l'aide d'Aspose.Cells**
 
-Aspose.Cells fournit[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) méthode pour ajouter des commentaires thématiques.[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)La méthode accepte les trois paramètres suivants.
+Aspose.Cells fournit la méthode [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) pour ajouter des commentaires enfilés. La méthode [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) accepte les trois paramètres suivants.
 
-- Cell Nom : Le nom de la cellule où le commentaire sera inséré.
-- Texte du commentaire : le texte du commentaire.
-- [**ThreadedCommentAuteur**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthor): L'auteur du commentaire
+- Nom de la cellule : Le nom de la cellule où le commentaire sera inséré.
+- Texte du commentaire : Le texte du commentaire.
+- [**ThreadedCommentAuthor**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthor) : L'auteur du commentaire
 
-L'exemple de code suivant illustre l'utilisation de[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)méthode pour ajouter un commentaire fileté à la cellule A1. Veuillez consulter le[fichier Excel de sortie](89849859.xlsx) généré par le code pour référence.
+L'exemple de code suivant démontre l'utilisation de la méthode [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) pour ajouter un commentaire enfilé à la cellule A1. Veuillez consulter le fichier Excel de sortie (89849859.xlsx) généré par le code pour référence.
 
-#### **Exemple de code**
+#### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-AddThreadedComments-1.cs" >}}
 
-## **Lire les commentaires filetés**
+## **Lire les Commentaires enfilés**
 
-### **Lire les commentaires filetés avec Excel**
+### **Lire des commentaires enfilés avec Excel**
 
-Pour lire les commentaires filetés dans Excel, passez simplement votre souris sur la cellule contenant les commentaires pour afficher les commentaires. La vue des commentaires ressemblera à la vue de l'image suivante.
+Pour lire des commentaires enfilés dans Excel, survolez simplement la cellule contenant les commentaires pour les afficher. La vue des commentaires ressemblera à la vue dans l'image suivante.
 
-![tâche : image_autre_texte](threaded-comments_1.jpg)
+![todo:image_alt_text](threaded-comments_1.jpg)
 
-### **Lire les commentaires filetés en utilisant Aspose.Cells**
+### **Lire des commentaires enfilés à l'aide d'Aspose.Cells**
 
-Aspose.Cells fournit[**Commentaires.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)méthode pour récupérer les commentaires filetés pour la colonne spécifiée.[**Commentaires.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)La méthode accepte le nom de la colonne comme paramètre et renvoie le[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Vous pouvez itérer sur le[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)pour voir les commentaires.
+Aspose.Cells fournit la méthode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) pour récupérer les commentaires en fil pour la colonne spécifiée. La méthode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) accepte le nom de colonne en tant que paramètre et retourne le [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Vous pouvez itérer sur le [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) pour afficher les commentaires.
 
-L'exemple suivant illustre la lecture des commentaires de la colonne A1 en chargeant le[exemple de fichier Excel](89849861.xlsx). Veuillez consulter la sortie de la console générée par le code pour référence.
+L'exemple suivant démontre la lecture des commentaires de la colonne A1 en chargeant le [Fichier Excel d'exemple](89849861.xlsx). Veuillez consulter la sortie de la console générée par le code pour référence.
 
-#### **Exemple de code**
+#### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-ReadThreadedComments-1.cs" >}}
 
 #### **Sortie console**
 
-Commentaire : testez le commentaire fileté
+{{< highlight csharp >}}
 
-Auteur : Aspose
+Comment: Test Threaded Comment
 
-### **Lire l'heure de création des commentaires filetés**
+Author: Aspose Test
 
-Aspose.Cells fournit[**Commentaires.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)méthode pour récupérer les commentaires filetés pour la colonne spécifiée.[**Commentaires.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)La méthode accepte le nom de la colonne comme paramètre et renvoie le[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Vous pouvez itérer sur le[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) et utiliser le[**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime) la propriété.
+{{< /highlight >}}
 
-L'exemple suivant illustre la lecture de l'heure de création des commentaires thématiques en chargeant le[exemple de fichier Excel](89849861.xlsx). Veuillez consulter la sortie de la console générée par le code pour référence.
+### **Lire l'heure de création des commentaires en fil**
 
-#### **Exemple de code**
+Aspose.Cells fournit la méthode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) pour récupérer les commentaires en fil pour la colonne spécifiée. La méthode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) accepte le nom de colonne en tant que paramètre et retourne le [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Vous pouvez itérer sur le [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) et utiliser la propriété [**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime).
+
+L'exemple suivant démontre la lecture de l'heure de création des commentaires en fil en chargeant le [Fichier Excel d'exemple](89849861.xlsx). Veuillez consulter la sortie de la console générée par le code pour référence.
+
+#### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-ReadThreadedCommentCreatedTime-1.cs" >}}
 
 #### **Sortie console**
 
-Commentaire : testez le commentaire fileté
+{{< highlight csharp >}}
 
-Auteur : Aspose
+Comment: Test Threaded Comment
 
-Heure de création : 15/05/2019 12:46:23
+Author: Aspose Test
 
-## **Modifier les commentaires liés**
+Created Time: 5/15/2019 12:46:23 PM
 
-### **Modifier le commentaire fileté avec Excel**
+{{< /highlight >}}
 
- Pour modifier un commentaire fileté dans Excel, cliquez sur le**Éditer** lien sur le commentaire comme indiqué dans l'image suivante.
+## **Modifier les commentaires en fil**
 
-![tâche : image_autre_texte](threaded-comments_7.jpg)
+### **Modifier le commentaire en fil avec Excel**
 
-### **Modifier le commentaire fileté en utilisant Aspose.Cells**
+Pour modifier un commentaire en fil dans Excel, cliquez sur le lien **Modifier** sur le commentaire comme indiqué dans l'image suivante.
 
-Aspose.Cells fournit[**Commentaires.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) méthode pour récupérer les commentaires filetés pour la colonne spécifiée.[**Commentaires.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)La méthode accepte le nom de la colonne comme paramètre et renvoie le[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Vous pouvez mettre à jour le commentaire requis dans le[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)et enregistrez le classeur.
+![todo:image_alt_text](threaded-comments_7.jpg)
 
-L'exemple suivant illustre la modification du premier commentaire fileté dans la colonne A1 en chargeant le[exemple de fichier Excel](89849861.xlsx). Veuillez consulter le[fichier Excel de sortie](89849862.xlsx)généré par le code affichant le commentaire mis à jour pour référence.
+### **Modifier le commentaire en fil en utilisant Aspose.Cells**
 
-#### **Exemple de code**
+Aspose.Cells fournit la méthode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) pour récupérer les commentaires en fil pour la colonne spécifiée. La méthode [**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1) accepte le nom de colonne en tant que paramètre et retourne le [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Vous pouvez mettre à jour le commentaire requis dans le [**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) et enregistrer le classeur.
+
+L'exemple suivant démontre l'édition du premier commentaire en fil dans la colonne A1 en chargeant le [Fichier Excel d'exemple](89849861.xlsx). Veuillez consulter le [fichier Excel de sortie](89849862.xlsx) généré par le code montrant le commentaire mis à jour pour référence.
+
+#### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-EditThreadedComments-1.cs" >}}
 
-## **Supprimer les commentaires filetés**
+## **Supprimer les commentaires en filigrane**
 
-### **Supprimer les commentaires filetés avec Excel**
+### **Supprimer les commentaires en filigrane avec Excel**
 
- Pour supprimer les commentaires filetés dans Excel, faites un clic droit sur la cellule contenant les commentaires et cliquez sur le**Supprimer le commentaire** comme indiqué dans l'image suivante.
+Pour supprimer les commentaires en filigrane dans Excel, cliquez avec le bouton droit sur la cellule contenant les commentaires et cliquez sur l'option **Supprimer le commentaire** comme indiqué dans l'image suivante.
 
-![tâche : image_autre_texte](threaded-comments_8.jpg)
+![todo:image_alt_text](threaded-comments_8.jpg)
 
-### **Supprimer les commentaires filetés en utilisant Aspose.Cells**
+### **Supprimer les commentaires en filigrane à l'aide de Aspose.Cells**
 
-Aspose.Cells fournit[**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)méthode pour supprimer les commentaires de la colonne spécifiée.[**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)La méthode accepte le nom de la colonne en tant que paramètre supprime les commentaires de cette colonne.
+Aspose.Cells fournit la méthode [**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index) pour supprimer les commentaires de la colonne spécifiée. La méthode [**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index) accepte le nom de la colonne en paramètre pour supprimer les commentaires dans cette colonne.
 
-L'exemple suivant illustre la suppression de commentaires dans la colonne A1 en chargeant le[exemple de fichier Excel](89849861.xlsx). Veuillez consulter le[fichier Excel de sortie](89849864.xlsx)généré par le code pour référence.
+L'exemple suivant montre comment supprimer les commentaires dans la colonne A1 en chargeant le [fichier Excel d'exemple](89849861.xlsx). Veuillez consulter le [fichier Excel de sortie](89849864.xlsx) généré par le code pour référence.
 
-#### **Exemple de code**
+#### **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-RemoveThreadedComments-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Veuillez noter qu'en supprimant le commentaire avec Aspose.Cells, l'auteur n'est pas supprimé automatiquement. Si vous devez également supprimer l'auteur, veuillez utiliser la méthode RemoveAt de[**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) classe comme indiqué dans l'exemple ci-dessus.
+Veuillez noter qu'en supprimant le commentaire avec Aspose.Cells, l'auteur n'est pas automatiquement supprimé. Si vous devez également supprimer l'auteur, veuillez utiliser la méthode RemoveAt de la classe [**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection) comme indiqué dans l'exemple ci-dessus.
 
 {{% /alert %}}

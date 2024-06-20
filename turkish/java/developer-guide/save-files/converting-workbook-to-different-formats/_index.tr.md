@@ -1,190 +1,191 @@
-﻿---
+---
 title: Çalışma Kitabını Farklı Biçimlere Dönüştürme
 type: docs
 weight: 20
 url: /tr/java/converting-workbook-to-different-formats/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, birçok biçim arasında dönüştürmeyi destekler. Teknik olarak dönüştürme, bir çalışma kitabını bir dosya biçiminde yüklemek ve onu başka bir dosya biçiminde kaydetmek anlamına gelir.
+Aspose.Cells, birçok biçim arasında dönüşümü destekler. Teknik olarak, dönüştürme, bir elektronik tabloyu bir dosya biçiminde yüklemek ve başka bir biçimde kaydetmek anlamına gelir.
 
 {{% /alert %}}
 
-## **Excel'i XPS'e dönüştürme**
+## **Excel'i XPS'e Dönüştürme**
 
-XPS belge formatı, bir belgenin düzenini ve her sayfanın görsel görünümünü tanımlayan yapılandırılmış XML işaretlemesinin yanı sıra belgeleri dağıtmak, arşivlemek, işlemek, işlemek ve yazdırmak için işleme kurallarından oluşur.
+XPS belge biçimi, her bir sayfanın düzenini ve görsel görünümünü tanımlayan yapılandırılmış XML işaretleme ve dağıtma, arşivleme, işleme ve belgelerin yazdırılması için görüntüleme kurallarını içerir.
 
-XPS için işaretleme dili, XAML'nin bir alt kümesidir ve Windows Presentation Foundation (WPF) ilkellerini işaretlemek için XAML kullanarak belgelerdeki vektör grafik öğelerini birleştirmesine olanak tanır. Kullanılan öğeler, yollar ve diğer geometrik ilkel öğeler açısından açıklanmıştır.
+XPS için işaretleme dili, XAML'nin bir alt kümesidir ve bunun sayesinde belgelerde vektör grafik öğeleri kullanmasına izin verir. XAML'i kullanarak Windows Sunum Vakfı (WPF) primitiflerini işaretlemek için kullanılır. Kullanılan öğeler, yollar ve diğer geometrik primitifler açısından tanımlanmıştır.
 
-Bir XPS dosyası aslında, belgeyi oluşturan dosyaları içeren Açık Paketleme Kurallarını kullanan bir Unicoded ZIP arşividir. Bunlar, her sayfa için bir XML biçimlendirme dosyası, metin, gömülü yazı tipleri, raster görüntüler, 2B vektör grafikleri ve ayrıca dijital haklar yönetimi bilgilerini içerir. Bir XPS dosyasının içeriği, dosyayı ZIP dosyalarını destekleyen bir uygulamada açarak incelenebilir.
+Bir XPS dosyası aslında, belgeyi oluşturan dosyaları içeren Open Packaging Konvansiyonlarını kullanan Unicoded bir ZIP arşividir. Bunlar, her sayfa için bir XML işaretleme dosyası, metin, gömülü yazı tipleri, radye görüntüler, 2B vektör grafikleri ve dijital hak yönetimi bilgilerini içerir. Bir XPS dosyasının içeriği, ZIP dosyalarını destekleyen bir uygulamada açılarak kolayca incelenebilir.
 
-Aspose.Cells 6.0.0'dan, Microsoft Excel tp XPS dönüştürmesi desteklenmektedir.
+Aspose.Cells 6.0.0'dan itibaren Microsoft Excel tp XPS dönüştürme desteklenmektedir.
 
-### **Tek Çalışma Sayfasını XPS'e dönüştürme**
+### **Tek bir Çalışma Sayfasını XPS'e Dönüştürme**
 
-Aşağıdaki örnek, bir Excel dosyasındaki tek bir çalışma sayfasının XPS'e nasıl dönüştürüleceğini gösterir.
+Aşağıdaki örnek, bir Excel dosyasındaki tek bir çalışma sayfasını XPS'e dönüştürmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingsingleWorksheetToXPS-ConvertingsingleWorksheetToXPS.java" >}}
 
-### **Tüm Çalışma Kitabını XPS'e Aktar**
+### **Bütün Çalışma Kitabını XPS'e Dışa Aktarma**
 
-Aşağıdaki örnek, tüm çalışma kitabının XPS biçimine nasıl dönüştürüleceğini gösterir.
+Aşağıdaki örnek, bütün çalışma kitabını XPS formatına nasıl dönüştüreceğinizi göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ExportWholeWorkbookToXPS-ExportWholeWorkbookToXPS.java" >}}
 
-### **Hızlı Excel'den XPS'e Dönüştürme**
+### **Hızlı Excel'den XPS'e Dönüşüm**
 
-Aşağıdaki örnek, Excel dosyasını doğrudan XPS biçimine dönüştürmenin basit bir yolunu gösterir.
+Aşağıdaki örnek, Excel dosyasını doğrudan XPS formatına nasıl dönüştüreceğinizi göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-QuickExcelToXPSConversion-QuickExcelToXPSConversion.java" >}}
 
-## **Excel'i MHTML Dosyalarına Dönüştürme**
+## **Excel'den MHTML Dosyalarına Dönüştürme**
 
-[MHTML](https://en.wikipedia.org/wiki/MHTML) normal HTML'i harici kaynaklarla birleştirir; yani, genellikle benzer resimler, animasyonlar, ses vb. ile tek bir dosyada bağlantılı içerik. .mht dosya uzantılı e-postalar için kullanılırlar.
+[**MHTML**](https://en.wikipedia.org/wiki/MHTML), genellikle resimler, animasyonlar, sesler vb. gibi içeriğin normal HTML'yi dış kaynaklarla birleştirdiği, yani genellikle bağlantılı olan bir dosyadır. Bunlar .mht dosya uzantısına sahip e-postalar için kullanılır.
 
 {{% alert color="primary" %}}
 
-Aspose.Cells, MHTML dosyalarının okunmasını ve yazılmasını destekler.
+Aspose.Cells, MHTML dosyalarını okuma ve yazma desteği sağlamaktadır.
 
 {{% /alert %}}
 
-Bir e-tabloyu MHTML'e dönüştürmek, aşağıda gösterildiği gibi hızlı bir işlemdir.
+Bir elektronik tabloyu MHTML'e dönüştürmek hızlı bir işlem olup aşağıda gösterilmiştir.
 
-Aşağıdaki kod örneği, bir çalışma kitabının MHTML dosyası olarak nasıl kaydedileceğini gösterir.
+Aşağıdaki kod örneği, bir çalışma kitabını MHTML dosyası olarak kaydetmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingToMHTMLFiles-ConvertingToMHTMLFiles.java" >}}
 
 ## **Excel Dosyalarını HTML'e Dönüştürme**
 
- Aspose.Cells API'leri, elektronik tabloların HTML biçiminde dışa aktarılması için destek sağlar. Aspose.Cells bu amaçla**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**geliştiricilerin HTML çıktısının çeşitli yönlerini kontrol etmesine izin veren sınıf.
+Aspose.Cells API'leri, elektronik tabloları HTML formatına dışa aktarma desteği sağlar. Bu amaçla Aspose.Cells, geliştiricilere çıktı HTML'sinin several yönlerini kontrol etmelerine izin veren [**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions) sınıfını kullanır.
 
-Aşağıdaki kod, nasıl kullanılacağını gösterir**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**ek parametreler belirtmeden Microsoft Excel dosyalarını HTML biçimine dışa aktarmak için sınıf.
+Aşağıdaki kod, ek parametre belirtmeden Microsoft Excel dosyalarını HTML formatına dışa aktarmak için [**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions) sınıfını nasıl kullandığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingToHTMLFiles-ConvertingToHTMLFiles.java" >}}
 
 {{% alert color="primary" %}}
 
- Geçerek aynı sonuçları elde edebilirsiniz.**[SaveFormat.HTML](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)** için**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))** yöntem.
+Aynı sonuçları elde edebilirsiniz, [**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML) ve [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntemine geçirerek.
 
 {{% /alert %}}
 
 ### **HTML için Görüntü Tercihlerini Ayarlama**
 
- 8.0.2'den başlayarak, Aspose.Cells ortaya çıktı**[ImageOptions](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)**için**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**geliştiricilerin e-tabloları HTML biçiminde kaydederken görüntü tercihlerini belirlemesine olanak tanıyan sınıf.
+8.0.2'den itibaren, Aspose.Cells, elektronik tabloları HTML formatına kaydederken görüntü tercihlerini belirlemek için [**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions) sınıfı için [**ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions) sunmuştur. 
 
 Uygulanabilecek görüntü ayarları şunlardır:
 
-- **[ImageType](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType)**: Görüntü türünü alır veya ayarlar. Grafikler dahil tüm şekillerin HTML çıktısında görüntü olarak işlendiğini lütfen unutmayın.
-- **[Kalite](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality)**: ImageFormat Jpeg olarak belirtildiğinde, görüntülerin kalitesini 0 ile 100 arasında alır veya ayarlar.
-- **[Dikey Çözünürlük](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution)**: Görüntünün dikey çözünürlüğünü inç başına nokta cinsinden alır veya ayarlar.
-- **[Yatay Çözünürlük](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution)**: Görüntünün yatay çözünürlüğünü inç başına nokta cinsinden alır veya ayarlar.
-- **[TiffCompression](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression)**ImageFormat Tiff olarak belirtildiğinde görüntülerin sıkıştırma türünü alır veya ayarlar.
-- **[Şeffaf](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent)**: ImageFormat Png olarak belirtildiğinde görüntünün arka planının saydam olup olmayacağını belirtir.
+- [**ImageType**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType): Görüntü türünü alır veya ayarlar. Lütfen unutmayın, tüm şekiller, grafikler de dahil olmak üzere, çıktı HTML'de resim olarak render olur.
+- [**Quality**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality): Jpeg olarak ImageFormat belirtildiğinde, resimlerin kalitesini 0 ila 100 arasında alır veya ayarlar.
+- [**VerticalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution): Görüntünün inç başına noktada dikey çözünürlüğünü alır veya ayarlar.
+- [**HorizontalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution): Görüntünün inç başına noktada yatay çözünürlüğünü alır veya ayarlar.
+- [**TiffCompression**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression): ImageFormat olarak Tiff belirtildiğinde, görüntülerin sıkıştırma türünü alır veya ayarlar.
+- [**Transparent**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent): ImageFormat olarak Png belirtildiğinde bir görüntünün arka planının şeffaf olup olmadığını gösterir.
 
- Aşağıdaki kod nasıl kullanılacağını gösterir**[HtmlSaveOptions.ImageOptions](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)** farklı tercihler belirlemek için.
+Aşağıdaki kod, farklı tercihleri belirtmek için [**HtmlSaveOptions.ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions) kullanımını gösterir.
 
-|**Dışa aktarmadan önce e-tablo görünümü**|**HTML dışa aktarmadan sonra görüntüle**|
-|:- |:- |
-|![Dışa aktarmadan önce e-tablo görünümü](converting-workbook-to-different-formats_1.png)|![HTML dışa aktarmadan sonra görüntüle](converting-workbook-to-different-formats_2.png)|
+|**Dışa aktarma öncesi elektronik tablo görünümü**|**Dışa aktarma sonrası HTML görünümü**|
+| :- | :- |
+|![Dışa aktarma öncesi elektronik tablo görünümü](converting-workbook-to-different-formats_1.png)|![Dışa aktarma sonrası HTML görünümü](converting-workbook-to-different-formats_2.png)|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SettingImagePrefrencesforHTML-SettingImagePrefrencesforHTML.java" >}}
 
-## **Excel'i PDF Dosyalarına Dönüştürme**
+## **Excel Dosyalarını PDF'ye Dönüştürme**
 
-PDF belgeleri, kuruluşlar, devlet sektörleri ve bireyler arasında belge alışverişinde standart bir format olarak yaygın şekilde kullanılmaktadır. Yazılım geliştiricilerinden genellikle Microsoft Excel dosyalarını kolayca PDF belgelerine dönüştürmenin bir yolunu bulmaları istenir. Aspose.Cells bu özellikleri destekler. Bu makale nasıl olduğunu gösterir.
+PDF belgeleri, kuruluşlar, devlet sektörleri ve bireyler arasında belgelerin değiş tokuşunun standart biçimi olarak geniş çapta kullanılmaktadır. Yazılım geliştiricileri genellikle Microsoft Excel dosyalarını PDF belgelerine kolayca dönüştürmek için bir yol bulmaları istenir. Aspose.Cells bu özellikleri destekler. Bu makale, bunun nasıl yapıldığını göstermektedir.
 
-### **Excel'i PDF'e dönüştürme**
+### **Excel'i PDF'ye Dönüştürme**
 
-Microsoft Excel'den PDF'e dönüştürme, Aspose.Cells for Java 2.3.0 ile tanıtıldı. Bu sürümden, Aspose.Cells şunları yapabilir:[elektronik tabloları doğrudan PDF'e dönüştürün](#direct-conversion) (dahil olmak üzere[PDF/A](#saving-excel-spreadsheets-to-pdfa-complied-files) ), başka bir ürün olmadan. Aspose.Cells'in eski sürümlerine sahip elektronik tabloları dönüştürmek için,[dönüştürme için Aspose.PDF'i kullanın](#conversion-with-asposepdf-asposecells-prior-to-230).
+Microsoft Excel'den PDF dönüşümü Aspose.Cells for Java 2.3.0 ile tanıtıldı. Bu sürümden itibaren Aspose.Cells, başka bir ürün olmadan elektronik tabloları doğrudan PDF'e dönüştürebilir (PDF/A dahil). Daha eski Aspose.Cells sürümleriyle elektronik tabloları dönüştürmek için [Aspose.PDF'yi kullanabilirsiniz](#conversion-with-asposepdf-asposecells-prior-to-230).
 
- Aspose.Cell, elektronik tabloları yüksek derecede doğruluk ve doğrulukla PDF'e dönüştürür. Ancak, birkaç tane var[sınırlamalar](/cells/tr/java/converting-workbook-to-different-formats/#conversion-attributes), bu makalenin sonunda listelenmiştir.
+Aspose.Cell, elektronik tabloları PDF'ye yüksek bir doğruluk ve sadakat derecesiyle dönüştürür. Bununla birlikte, bu makalenin sonunda listelenen birkaç [kısıtlama](/cells/tr/java/converting-workbook-to-different-formats/#conversion-attributes) vardır.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java, API ve Sürüm Numarası ile ilgili bilgileri doğrudan çıktı belgelerine yazar. Örneğin, Belge PDF'e işlendiğinde, Aspose.Cells for Java doldurulur**Uygulama** 'Aspose.Cells' değerine sahip alan ve**PDF Yapımcı** değeri olan alan, örneğin 'Aspose.Cells for Java v17.9'.
+Aspose.Cells for Java, API ve Sürüm Numarası hakkında bilgiyi çıkış belgelerine doğrudan yazar. Örneğin, PDF'ye belgeyi renderlarken, Aspose.Cells for Java **Uygulama** alanını 'Aspose.Cells' değeriyle doldurur ve **PDF Üretici** alanını, örneğin 'Aspose.Cells for Java v17.9' değeriyle doldurur.
 
-Lütfen Aspose.Cells for Java'e bu bilgileri çıktı Belgelerinden değiştirme veya kaldırma talimatı veremeyeceğinizi unutmayın.
+Lütfen unutmayın ki Aspose.Cells for Java'ye çıkış Belgerinden bu bilgileri değiştirmesini veya kaldırmasını talimat veremezsiniz.
 
 {{% /alert %}}
 
 #### **Doğrudan Dönüşüm**
 
-kullanarak bir Excel dosyasını doğrudan PDF'e kaydedin.**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))** yöntemi sağlamak ve**[SaveFormat.PDF](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)**arayüz üyesi Bunun gibi doğrudan dönüştürme, en verimli dönüştürme yöntemidir. Verileri veya biçimlendirmeyi kaybetmez, ancak PDF çıktısının giriş Excel dosyası gibi görünmesini sağlar.
+Bir Excel dosyasını en verimli dönüşüm yöntemi olarak doğrudan PDF'ye [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yoluyla kaydedin ve [**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF) arayüz üyesini sağlayın. Doğrudan dönüşüm, veri veya biçimlendirmeyi kaybetmez, ancak çıktı PDF'sinin girdi Excel dosyasına benzer bir görünüme sahip olmasını sağlar.
 
- PDF'e kaydederken güvenlik seçeneklerini belirtmek için şunu kullanın:**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)**.
+PDF'ye kaydederken güvenlik seçeneklerini belirtmek için [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) kullanın.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-Excel2PDFConversion-Excel2PDFConversion.java" >}}
 
 #### **Gelişmiş Dönüşüm**
 
-kullanmayı da tercih edebilirsiniz.**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** dönüşüm için farklı öznitelikler ayarlamak için sınıf. Farklı özelliklerin ayarlanması**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** class, sonuçta ortaya çıkan PDF dosyası için Yazdırma, Yazı Tipi, Güvenlik ve Sıkıştırma ayarları üzerinde denetim sağlar. En dikkate değer özellik,**[Uygunluk](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance)**Excel dosyalarını PDF/A uyumlu PDF dosyalarına kaydetmenizi sağlar.
+Dönüşüm için farklı özellikler belirlemek için [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) sınıfını kullanmayı tercih edebilirsiniz. [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) sınıfının farklı özelliklerini ayarlamak, sonuç PDF dosyası için Baskı, Yazı tipi, Güvenlik ve Sıkıştırma ayarları üzerinde kontrol sağlar. En dikkat çekici özellik Excel dosyalarını PDF/A uyumlu PDF dosyalarına kaydetmenizi sağlayan [**Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance) özelliğidir.
 
-##### **Excel Elektronik Tablolarını PDF/A Uyumlu Dosyalarına Kaydetme**
+##### **Excel Elektronik Tablolarını PDF/A Uyumlu Dosyalara Kaydetme**
 
-Aşağıda sağlanan kod parçacığı,**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** Excel dosyalarını PDF/A uyumlu PDF biçiminde kaydetmek için sınıf.
+Aşağıdaki kod örneği, Excel dosyalarını PDF/A uyumlu PDF formatına kaydetmek için [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) sınıfının kullanımını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AdvancedConversiontoPdf-AdvancedConversiontoPdf.java" >}}
 
-#### **Aspose.Pdf ile dönüştürme: Aspose.Cells 2.3.0 öncesi**
+#### **Aspose.Pdf ile Dönüşüm: Aspose.Cells 2.3.0 Öncesi**
 
- 2.3.0 sürümünden önceki Aspose.Cells sürümleri için aşağıdaki gibi bir bileşen kullanmanız gerekir[Aspose.PDF for Java](/pdf/java/)elektronik tabloları PDF dosyalarına dönüştürmek için. Aspose.Cells ve Aspose.PDF, bir elektronik tabloyu bir ara adım aracılığıyla PDF'e dönüştürmek için birlikte çalışır.
+2.3.0 sürümünden önceki Aspose.Cells sürümleri için elektronik tabloları PDF dosyalarına dönüştürmek için [Aspose.PDF için Java](/pdf/java/) gibi bir bileşen kullanmanız gerekir. Aspose.Cells ve Aspose.PDF, bir elektronik tabloyu PDF'ye dönüştürmek için ara bir adım üzerinden birlikte çalışır.
 
-Elektronik tabloları Aspose.Cells ve Aspose.PDF ile PDF'e dönüştürmek için:
+Aspose.Cells ve Aspose.PDF ile elektronik tabloları PDF'ye dönüştürmek için:
 
-1.  nesnesinin örneğini oluşturun**[Çalışma Kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**boş kurucusunu çağırarak sınıf.
-1. Aspose.Cells API'i kullanarak elektronik tablo üzerinde istediğiniz işi yapın.
-1. Ara**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))**elektronik tabloyu kaydetme yöntemi:
- 1. Dosya biçimini XML olarak ayarlayın.
- 1. FileFormatType arabiriminden Aspose_Pdf'yi (önceden tanımlanmış bir değer) seçin. Bu, kaydetme yöntemini, Aspose.PDF for Java'in bir PDF belgesi oluşturabilmesi için Aspose.PDF Şeması ile uyumlu XML biçiminde bir elektronik tablo oluşturmaya yönlendirir.
-1. XML dosyası oluşturulduğunda, aspose.pdf paketinde Pdf sınıfından bir nesne oluşturun.
-1. Pdf sınıfının bindXML yöntemini çağırın ve çıktı XML dosyasının adını iletin.
-1. PDF belgesini oluşturmak için Pdf sınıfının kaydetme yöntemini çağırın.
+1. Boş kurucuyu çağırarak [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) sınıfının nesnesini örnekleyin.
+1. Aspose.Cells API'sini kullanarak elektronik tabloda istediğiniz çalışmayı yapın.
+1. Elektronik tabloyu kaydetmek için [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) yöntemini çağırın:
+   1. Dosya biçimini XML olarak ayarlayın.
+   1. FileFormatType arayüzünden önceden tanımlanmış bir değer olan Aspose_Pdf'yi seçin. Bu, kaydetme yöntemini Aspose.PDF Şeması ile uyumlu XML formunda bir elektronik tablo üretmeye yönlendirir, böylece Aspose.PDF for Java sonrasında bir PDF belgesi oluşturabilir.
+1. XML dosyası oluşturulduğunda, aspose.pdf paketindeki Pdf sınıfının bir örneğini oluşturun.
+1. Pdf sınıfının bindXML yöntemini çağırın ve çıkış XML dosyasının adını geçirin.
+1. Pdf sınıfının save yöntemini çağırarak PDF belgesi oluşturun.
 
-Yukarıdaki adımlar aşağıda bir örnekte uygulanmaktadır.
+Yukarıdaki adımlar, aşağıda bir örnekte uygulanmıştır.
 
 {{% alert color="primary" %}}
 
-E-tablonuz formüller içeriyorsa, aramak en iyisidir**[Workbook.calculateFormula](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())** yöntemi, elektronik tabloyu PDF biçimine dönüştürmeden hemen önce. Bunu yapmak, formüle bağlı değerlerin yeniden hesaplanmasını ve PDF'de doğru değerlerin oluşturulmasını sağlar.
+Elektronik tablonuzda formüller bulunuyorsa, en iyi şekilde [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) yöntemini elektronik tabloyu PDF biçimine dönüştürmeden hemen önce çağırmanız önerilir. Böylece formül bağımlı değerler yeniden hesaplanır ve doğru değerler PDF'de render edilir.
 
 {{% /alert %}}
 
-#### **Dönüşüm Nitelikleri**
+#### **Dönüşüm Özellikleri**
 
-Her sürümde Aspose.Cells'in dönüşümünü ve diğer özelliklerini iyileştirmek için çok çalışıyoruz. Excel'den PDF'e dönüştürmenin birkaç sınırlaması vardır. Elektronik tabloda belirtilen bazı biçim ayarları kaybolabilir ve tüm çizim nesneleri desteklenmez.
+Her sürümle dönüşüm ve Aspose.Cells'ın diğer yönlerini iyileştirmek için çaba gösteriyoruz. Excel'den PDF'ye dönüşümün bazı kısıtlamaları vardır. Elektronik tabloda belirtilen bazı biçim ayarları kaybolabilir ve tüm çizim nesneleri desteklenmez.
 
-Aşağıdaki tablo, Aspose.Cells kullanılarak PDF'e dışa aktarılırken tamamen veya kısmen desteklenen tüm özellikleri listeler. Bu tablo nihai değildir ve tüm elektronik tablo özniteliklerini kapsamaz. Ayrıca, dönüştürme için desteklenmeyen veya kısmen desteklenen özellikleri de tanımlayabilir.
+Aşağıdaki tablo, Aspose.Cells kullanılarak PDF'ye dönüşüm yapılırken tamamen veya kısmen desteklenen tüm özellikleri listeler. Bu tablo nihai değildir ve tüm elektronik tablo özelliklerini kapsamaz. Ayrıca, dönüşüm için desteklenmeyen veya kısmen desteklenen özellikleri de belirleyebilir.
 
 {{% alert color="primary" %}}
 
-|**Belge Öğesi**|**Bağlanmak**|**ağ destekli**|**notlar**|
-|:- |:- |:- |:- |
-|Hizalama||Evet||
-|Döndürme||Kısmen|Yalnızca 90 ve -90'ı destekler.|
-|Arka plan ayarları||Evet||
-|Sınır|Renk|Evet||
-|Sınır|Çizgi stili|Evet||
-|Sınır|Hat genişliği|Evet||
-|Cell veri||Evet||
-|Yorumlar||Numara||
-|Koşullu biçimlendirme||Evet||
-|Döküman özellikleri||Evet||
-|Çizim Nesneleri||Evet||
-|Yazı tipi|Boy|Evet||
-|Yazı tipi|Renk|Evet||
-|Yazı tipi|stil|Evet||
-|Yazı tipi|Altını çizmek|Evet||
-|Yazı tipi|Etkileri|Kısmen|Yalnızca üstü çizili efekti desteklenir|
-|Görüntüler||Evet||
-|köprü||Evet||
-|Grafikler||Evet||
-|Birleştirilmiş Cells||Evet||
-|Sayfa sonu||Evet||
-|Sayfa ayarı|Üstbilgi Altbilgi|Evet||
-|Sayfa ayarı|kenar boşlukları|Evet||
-|Sayfa ayarı|Sayfa yönlendirmesi|Evet||
-|Sayfa ayarı|Sayfa boyutu|Evet||
-|Sayfa ayarı|Alanı yazdır|Evet||
-|Sayfa ayarı|Başlıkları Yazdır|Evet||
-|Sayfa ayarı|ölçekleme|Evet||
-|Satır Yüksekliği/Sütun Genişliği||Evet||
+|**Döküman Elemanı**|**Özellik**|**Desteklenir**|**Notlar**|
+| :- | :- | :- | :- |
+|Hizalama| |Evet| |
+|Döndürme| |Kısmen|Sadece 90 ve -90 desteklenir.|
+|Arka plan Ayarları| |Evet| |
+|Kenarlık|Renk|Evet| |
+|Kenarlık|Çizgi stili|Evet| |
+|Kenarlık|Çizgi genişliği|Evet| |
+|Hücre Verisi| |Evet| |
+|Yorumlar| |Hayır| |
+|Koşullu Biçimlendirme| |Evet| |
+|Döküman Özellikleri| |Evet| |
+|Çizim Nesneleri| |Evet| |
+|Yazı Tipi|Boyut|Evet| |
+|Yazı Tipi|Rengi|Evet| |
+|Yazı Tipi|Stili|Evet| |
+|Yazı Tipi|Altı çizili|Evet| |
+|Yazı Tipi|Efektleri|Kısmen|Sadece üstü çizili efekti desteklenir|
+|Resimler| |Evet| |
+|Hyperlink| |Evet| |
+|Grafikler| |Evet| |
+|Birleştirilmiş Hücreler| |Evet| |
+|Sayfa Sonu| |Evet| |
+|Sayfa Ayarı|Üstbilgi/Altbilgi|Evet| |
+|Sayfa Ayarı|Kenar Boşlukları|Evet| |
+|Sayfa Ayarı|Sayfa Yönü|Evet| |
+|Sayfa Ayarı|Sayfa Boyutu|Evet| |
+|Sayfa Ayarı|Yazdırma Alanı|Evet| |
+|Sayfa Ayarı|Yazdırma Başlıkları|Evet| |
+|Sayfa Ayarı|Ölçekleme|Evet| |
+|Satır Yüksekliği/Sütun Genişliği| |Evet| |
 {{% /alert %}}

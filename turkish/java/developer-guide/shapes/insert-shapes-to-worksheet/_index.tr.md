@@ -1,94 +1,96 @@
-﻿---
-title: Aspose.Cells'de Çalışma Sayfasına Şekiller Ekleyin
+---
+title: Aspose.Cells te Çalışma Sayfasına Şekiller Ekleyin
 type: docs
 weight: 5
 url: /tr/java/insert-shapes-to-worksheet-in-aspose-cells/
 ---
+
+
 {{% alert color="primary" %}}
 
-Bazen çalışma sayfasına bazı gerekli şekilleri eklemeniz gerekir. Aynı şekli çalışma sayfasının farklı konumlarına eklemeniz gerekebilir. Veya çalışma sayfasına toplu olarak şekiller eklemeniz gerekebilir.
+Bazen çalışma sayfasına bazı gerekli şekiller eklemeniz gerekebilir. Aynı şekli çalışma sayfasının farklı konumlarına eklemeniz gerekebilir. Veya şekilleri toplu olarak çalışma sayfasına eklemeniz gerekebilir.
 
- Endişelenme![Aspose.Cells](https://products.aspose.com/cells/)tüm bu işlemleri destekler.
+Endişelenmeyin! [Aspose.Cells](https://products.aspose.com/cells/), tüm bu operasyonları destekler.
 
 {{% /alert %}}
 
-Excel'deki şekiller temel olarak aşağıdaki türlere ayrılır:
-- **çizgiler**
-- **dikdörtgenler**
-- **Basit şekiller**
+Bu rehber belgesi, örnek oluşturmak için her türden bir veya iki şekil seçecektir. Bu örnekler aracılığıyla, belirli şekli çalışma sayfasına eklemek için [Aspose.Cells](https://products.aspose.com/cells/) kullanmayı öğreneceksiniz.
+- **Çizgiler**
+- **Dikdörtgenler**
+- **Temel Şekiller**
 - **Blok Okları**
 - **Denklem Şekilleri**
 - **Akış Şemaları**
-- **Yıldızlar ve Afişler**
-- **açıklamalar**
+- **Yıldızlar ve Pankartlar**
+- **Çağrılar**
 
- Bu kılavuz belge, numune yapmak için her türden bir veya iki şekil seçecektir. Bu örnekler aracılığıyla, nasıl kullanılacağını öğreneceksiniz.[Aspose.Cells](https://products.aspose.com/cells/) Belirtilen şekli çalışma sayfasına eklemek için.
+Bu rehber doküman, her türden bir veya iki şekil seçecek ve örnekler yapacaktır. Bu örnekler aracılığıyla, [Aspose.Cells](https://products.aspose.com/cells/) kullanarak belirtilen şekli çalışma tablosuna nasıl ekleyeceğinizi öğreneceksiniz.
 
 
 
 ## **Çalışma Sayfasına Satır Ekleme**
 
- Çizginin şekli şuna aittir:**çizgiler** kategori.
+Satırın şekli **çizgiler** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
 - Satırı eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
-- Ardından, 'Son Kullanılan Şekiller' veya 'Çizgiler' arasından satırı seçin.
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Ardından, 'Son Kullanılan Şekiller' veya 'Çizgiler'den satırı seçin
 
 ![](line.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
 Çalışma sayfasına bir satır eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[public Shape addShape(int tipi, int üstSolSatır, int üst, int üstSolSütun, int sol, int yükseklik, int genişlik)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesne.
+Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına nasıl satır ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına satır eklemenin nasıl yapılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Line.java" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](line2.png)
 
 
 
-## **Çalışma Sayfasına çizgi oku ekleme**
+## **Çalışma Sayfasına Satır Oku Eklemek**
 
- Çizgi okunun şekli şuna aittir:**çizgiler** kategori. Çizginin özel bir halidir.
+Satırın oku şekli **Çizgiler** kategorisine aittir. Bu, bir satırın özel bir durumudur.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
-- Çizgi okunu eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
-- Ardından, 'Son Kullanılan Şekiller' veya 'Çizgiler'den çizgi okunu seçin
+- Ok satırını eklemek istediğiniz hücreyi seçin
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Ardından, 'Son Kullanılan Şekiller' veya 'Çizgiler'den ok satırını seçin
 
 ![](line_arrow1.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
-Çalışma sayfasına çizgi oku eklemek için aşağıdaki yöntemi kullanabilirsiniz.
+Çalışma sayfasına bir ok satırı eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[public Shape addShape(int tipi, int üstSolSatır, int üst, int üstSolSütun, int sol, int yükseklik, int genişlik)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesne.
+Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına çizgi okunun nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına ok satırı eklemenin nasıl yapılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-LineArrow.java" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](line_arrow2.png)
 
@@ -96,236 +98,236 @@ Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
 
 ## **Çalışma Sayfasına Dikdörtgen Ekleme**
 
- Dikdörtgenin şekli şuna aittir:**dikdörtgenler** kategori.
+Dikdörtgenin şekli **Dikdörtgenler** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
 - Dikdörtgeni eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
-- Ardından, "Son Kullanılan Şekiller" veya "Dikdörtgenler" arasından dikdörtgeni seçin.
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Ardından, 'Son Kullanılan Şekiller' veya 'Dikdörtgenler'den dikdörtgeni seçin
 
 ![](rectangle.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
 Çalışma sayfasına bir dikdörtgen eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[public Shape addShape(int tipi, int üstSolSatır, int üst, int üstSolSütun, int sol, int yükseklik, int genişlik)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesne.
+Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına dikdörtgenin nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına dikdörtgen nasıl ekleyeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Rectangle.java" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](rectangle2.png)
 
 
 
-## **Çalışma Sayfasına Küp Ekleme**
+## **Çarpan bir Küp Eklemek**
 
-Küpün şekli şuna aittir:**Basit şekiller** kategori.
+Küpün şekli **Temel Şekiller** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
 - Küpü eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, Küpü seçin**Basit şekiller**
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Sonra, **Temel Şekiller**'den Küp'ü seçin
 
 ![](cube.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
 Çalışma sayfasına bir küp eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int tipi, int üstSolSatır, int üst, int üstSolSütun, int sol, int yükseklik, int genişlik)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesne.
+Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, küpün bir çalışma sayfasına nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına küp nasıl ekleyeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Cube.java" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](cube2.png)
 
 
 
-## **Çalışma Sayfasına belirtme çizgisi dörtlü ok ekleme**
+## **Çağrı oku dört oklu bir ok ekleniyor**
 
- Belirtme çizgisi dörtlü okunun şekli şuna aittir:**Blok Okları** kategori.
+Çağrı oku dört ok şekli **Bloklı Oklar** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
-- Dörtlü oku belirtme çizgisi eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, belirtme çizgisi dörtlü okunu seçin.**Blok Okları**
+- Çağrı ok dört ok eklemek istediğiniz hücreyi seçin
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Sonra, **Bloklı Oklar**'dan çağrı ok dört ok'u seçin
 
 ![](callout_quad_arrow.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
-Çalışma sayfasına bir belirtme çizgisi dörtlü ok eklemek için aşağıdaki yöntemi kullanabilirsiniz.
+Çalışma sayfasına bir çağrı oku dört ok eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int tipi, int üstSolSatır, int üst, int üstSolSütun, int sol, int yükseklik, int genişlik)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesne.
+Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, belirtme çizgisi dörtlü okunun bir çalışma sayfasına nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına çağrı ok dört ok nasıl ekleyeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.java" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](callout_quad_arrow2.png)
 
 
 
-## **Çalışma Sayfasına çarpma işareti ekleme**
+## **Çarpma işareti ekleniyor**
 
- Çarpma işaretinin şekli şuna aittir:**Denklem Şekilleri** kategori.
+Çarpma işareti şekli **Denklem Şekilleri** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
-- Çarpma işaretini eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, çarpma işaretini seçin**Denklem Şekilleri**
+- Çarpma işareti eklemek istediğiniz hücreyi seçin
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Sonra, **Denklem Şekilleri**'nden çarpma işaretini seçin
 
 ![](multiplication_sign.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
-Çalışma sayfasına bir çarpma işareti eklemek için aşağıdaki yöntemi kullanabilirsiniz.
+Çarpma işaretini çalışma sayfasına eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int tipi, int üstSolSatır, int üst, int üstSolSütun, int sol, int yükseklik, int genişlik)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesne.
+Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına çarpma işaretinin nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına çarpma işareti eklemeyi göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.java" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](multiplication_sign2.png)
 
 
 
-## **Çalışma Sayfasına çoklu belge ekleme**
+## **Çoklu belgeyi Çalışma Sayfasına Ekleme**
 
- Çoklu belgenin şekli şuna aittir:**Akış Şemaları** kategori.
+Çoklu belgenin şekli **FlowCharts** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
 - Çoklu belgeyi eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, çoklu belgeyi seçin**Akış Şemaları**
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Sonra, **FlowCharts**'den çoklu belgeyi seçin
 
 ![](multidocument.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
 Çalışma sayfasına çoklu belge eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int tipi, int üstSolSatır, int üst, int üstSolSütun, int sol, int yükseklik, int genişlik)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesne.
+Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, çoklu belgenin bir çalışma sayfasına nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına çoklu belge eklemeyi göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Multidocument.java" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](multidocument2.png)
 
 
 
-## **Çalışma Sayfasına Beş Köşeli Yıldız Ekleme**
+## **Beş köşeli yıldızı Çalışma Sayfasına Ekleme**
 
- Beş köşeli yıldızın şekli,**Yıldızlar ve Afişler** kategori.
+Beş köşeli yıldızın şekli **Yıldızlar ve Bayraklar** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
 - Beş köşeli yıldızı eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, beş köşeli yıldızı seçin.**Yıldızlar ve Afişler**
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Sonra, **Yıldızlar ve Bayraklar**'dan beş köşeli yıldızı seçin
 
 ![](star_5_points.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
-Çalışma sayfasına Beş Köşeli yıldız eklemek için aşağıdaki yöntemi kullanabilirsiniz.
+Çalışma sayfasına beş köşeli yıldız eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int tipi, int üstSolSatır, int üst, int üstSolSütun, int sol, int yükseklik, int genişlik)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesne.
+Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına Beş Köşeli yıldızın nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına beş köşeli yıldız eklemeyi göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-FivePointedStar.java" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](star_5_points2.png)
 
 
 
-## **Çalışma Sayfasına bir düşünce balonu bulutu ekleme**
+## **Düşünce balonu bulutunu Çalışma Sayfasına Ekleme**
 
- Düşünce baloncuğu bulutunun şekli,**açıklamalar** kategori.
+Düşünce balonu bulutunun şekli **Çağrılar** kategorisine aittir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
-- Düşünce balonu bulutunu eklemek istediğiniz hücreyi seçin
-- Ekle menüsünü tıklayın ve Şekiller'i tıklayın.
--  Ardından, düşünce balonu bulutunu seçin.**açıklamalar**
+- Düşünce balonu bulutu eklemek istediğiniz hücreyi seçin
+- Insert menüsünü tıklayın ve Şekiller'e tıklayın.
+- Daha sonra, **Araç Çubuğu**'ndan düşünce balonu bulutunu seçin
 
 ![](thought_bubble_cloud.png)
 
-***Aspose.Cells'i kullanma***
+***Aspose.Cells Kullanarak***
 
-Çalışma sayfasına bir düşünce balonu bulutu eklemek için aşağıdaki yöntemi kullanabilirsiniz.
+Çalışma sayfasına düşünce balonu bulutu eklemek için aşağıdaki yöntemi kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-[public Shape addAutoShape(int tipi, int üstSolSatır, int üst, int üstSolSütun, int sol, int yükseklik, int genişlik)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
+[**public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- Yöntem bir döndürür[Şekil](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesne.
+Bu yöntem bir [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) nesnesi döndürür.
 
 {{% /alert %}}
 
-Aşağıdaki örnek, bir çalışma sayfasına düşünce balonu bulutunun nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir çalışma sayfasına düşünce balonu bulutu nasıl ekleyeceğinizi gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.java" >}}
 
-Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
+Yukarıdaki kodu çalıştırın, aşağıdaki sonuçları elde edersiniz:
 
 ![](thought_bubble_cloud2.png)

@@ -1,15 +1,16 @@
-﻿---
-title: Grafik Oluştur
+---
+title: Grafik Oluşturma
 type: docs
 weight: 20
 url: /tr/net/create-charts/
 ---
-## **Aspose.Cells - Grafik Oluştur**
+
+## **Aspose.Cells - Grafik Oluşturma**
 Aspose.Cells ile elektronik tablolara çeşitli grafikler eklemek mümkündür. Aspose.Cells birçok esnek grafik nesnesi sağlar.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -69,12 +70,12 @@ workbook.Save("Chart_Aspose.xls");
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Grafik Oluştur** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Grafiği Oluşturma** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Grafik Nasıl Oluşturulur](/cells/tr/net/create-charts/).
+Daha fazla bilgi için [Nasıl Grafik Oluşturulur](/cells/tr/net/create-charts/) sayfasını ziyaret edin.
 
 {{% /alert %}}

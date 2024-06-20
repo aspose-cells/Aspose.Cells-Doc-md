@@ -1,18 +1,19 @@
-﻿---
+---
 title: Slicer entfernen
 type: docs
 weight: 30
 url: /de/net/removing-slicer/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Wenn Sie den Slicer in Microsoft Excel entfernen möchten, wählen Sie ihn einfach aus und drücken Sie die*Löschen* Knopf. Wenn Sie es mit Aspose.Cells API programmgesteuert entfernen möchten, verwenden Sie bitte die[**Worksheet.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove)Methode. Der Slicer wird aus dem Arbeitsblatt entfernt.
+## **Mögliche Verwendungsszenarien**
+
+Wenn Sie den Slicer in Microsoft Excel entfernen möchten, wählen Sie ihn einfach aus und drücken Sie die *Löschen*-Taste. Ebenso, wenn Sie ihn programmgesteuert mithilfe der Methode [**Worksheet.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove) entfernen möchten, wird der Slicer aus dem Arbeitsblatt entfernt.
 
 ## **Slicer entfernen**
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](67338478.xlsx)die einen vorhandenen Slicer enthält. Es greift auf die Slicer zu und entfernt es dann. Schließlich speichert es die Arbeitsmappe als[Excel-Datei ausgeben](67338477.xlsx). Der folgende Screenshot zeigt den Slicer, der nach der Ausführung des Beispielcodes entfernt wird.
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](67338478.xlsx), die einen vorhandenen Slicer enthält. Es greift auf die Slicer zu und entfernt ihn dann. Schließlich speichert er die Arbeitsmappe als [Ausgabe-Excel-Datei](67338477.xlsx). Der folgende Screenshot zeigt den Slicer, der nach der Ausführung des Beispielcodes entfernt wird.
 
-![todo: Bild_alt_Text](removing-slicer_1.png)
+![todo:image_alt_text](removing-slicer_1.png)
 
 ## **Beispielcode**
 

@@ -1,13 +1,16 @@
-﻿---
-title: GridWeb でインタラクティブ スクロールバーをレンダリングする
+---
+title: GridWeb でインタラクティブなスクロールバーをレンダリング
 type: docs
 weight: 170
-url: /ja/net/render-interactive-scrollbar-in-gridweb/
+url: /ja/net/aspose-cells-gridweb/render-interactive-scrollbar-in-gridweb/
+keywords: GridWeb,scrollbar
+description: この記事では、GridWeb でスクロールバーを操作する方法を紹介します。
 ---
-## **考えられる使用シナリオ**
-GridWeb の Aspose.Cells は、GridWeb ワークシート内でインタラクティブなスクロール バー コントロールをレンダリングできます。ユーザーは、Microsoft Excel と同じようにスクロール バーを操作できます。インタラクティブなスクロール バーを作成するには、次のリンクを追加する必要があります。**jQuery**と**jQuery UI**以下に示すようなライブラリ。
 
-{{< highlight "java" >}}
+## **可能な使用シナリオ**
+Aspose.Cells for GridWeb は、GridWeb ワークシート内にインタラクティブなスクロールバーコントロールをレンダリングすることができます。ユーザーは、Microsoft Excel で行うのと同様にスクロールバーと対話できます。インタラクティブなスクロールバーを作成するためには、以下に示すように **jQuery** と **jQuery UI** ライブラリのリンクを追加する必要があります。
+
+{{< highlight java >}}
 
  <head runat="server">
 
@@ -20,18 +23,18 @@ GridWeb の Aspose.Cells は、GridWeb ワークシート内でインタラク�
 </head>
 
 {{< /highlight >}}
-## **GridWeb でインタラクティブ スクロールバーをレンダリングする**
-次のサンプル コードは、[サンプル Excel ファイル](61767764.xlsx)次のスクリーンショットに示すように、スクロール バーが含まれています。他のスクリーンショットは、GridWeb が対話型スクロール バーをレンダリングし、スクロール バーの値をセル B3 に表示する方法を示しています。スクロール バーをスクロールするたびに、セル B3 の値に結果の値が表示されます。
+## **GridWeb でインタラクティブなスクロールバーをレンダリング**
+次のサンプルコードは、スクロールバーを含む[サンプルのExcelファイル](61767764.xlsx)を読み込みます。その後のスクリーンショットでは、GridWeb がインタラクティブなスクロールバーをレンダリングし、セル B3 のスクロールバーの値を表示する様子を確認できます。スクロールバーをスクロールするたびに、セル B3 の値が変わります。
 
-![todo:画像_代替_文章](render-interactive-scrollbar-in-gridweb_1.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_1.png)
 
-![todo:画像_代替_文章](render-interactive-scrollbar-in-gridweb_2.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_2.png)
 
-![todo:画像_代替_文章](render-interactive-scrollbar-in-gridweb_3.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_3.png)
 
-![todo:画像_代替_文章](render-interactive-scrollbar-in-gridweb_4.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_4.png)
 ## **サンプルコード**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <%@ Page Language="C#" AutoEventWireup="true" CodeFile="TestGridWeb.aspx.cs" Inherits="TestGridWeb" %>
 

@@ -1,52 +1,53 @@
-﻿---
-title: パブリック API Aspose.Cells 8.8.1 の変更点
+---
+title: Aspose.Cells 8.8.1でのパブリックAPIの変更
 type: docs
 weight: 270
 url: /ja/net/public-api-changes-in-aspose-cells-8-8-1/
 ---
-{{% alert color="primary" %}} 
-
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.8.0 から 8.8.1 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
-
-{{% /alert %}} 
-## **追加された API**
-### **ロードするデータをフィルタリングする**
-Aspose.Cells for .NET 8.8.1 は、LoadOptions.LoadDataFilterOptions プロパティと共に LoadDataFilterOptions 列挙を公開しました。これを使用して、テンプレート ファイルからワークブックを作成するときにロードするデータ型を指定できます。ロードされたデータをフィルタリングすると、特に LightCells API を使用する場合に、特別な目的でパフォーマンスを向上させることができます。
-
-LoadDataFilterOptions 列挙体は、次の選択肢を提供します。
-
-1. スプレッドシートからすべてをロードします。
-1. スプレッドシートから何もロードしない場合は None。
-1. CellBlank は、値が空白のセルを読み込みます。
-1. CellBool は、値が Boolean であるセルを読み込みます。
-1. CellData は、値、数式、書式設定を含むセル データを読み込みます。
-1. CellError は、値がエラーであるセルを読み込みます。
-1. CellNumeric は、値が数値 (日付と時刻を含む) であるセルを読み込みます。
-1. CellString は、値がテキスト/文字列であるセルをロードします。
-1. CellValue は、セル値 (すべての型) のみを読み込みます。
-1. Chart はチャートのみを読み込みます。
-1. ConditionalFormatting は、条件付き書式ルールのみを読み込みます。
-1. DataValidation は、データ検証ルールのみを読み込みます。
-1. DocumentProperties は、ドキュメント プロパティのみを読み込みます。
-1. Formula は、定義された名前を含む式をロードします。
-1. MergedArea は、結合されたセルのみを読み込みます。
-1. PivotTable は、ピボット テーブルを読み込みます。
-1. 設定は、ワークブックとワークシートの設定のみを読み込みます。
-1. Shape は形状のみを読み込みます。
-1. スタイルは、セルの書式設定を読み込みます。
-1. テーブルは、Excel テーブル/リスト オブジェクトを読み込みます。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[ロードするデータのフィルタリング](/cells/ja/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/).
+このドキュメントは、バージョン8.8.0から8.8.1へのAspose.Cells APIの変更についてで、モジュール/アプリケーション開発者に関心があるかもしれないものです。
+
+{{% /alert %}} 
+## **APIの追加**
+### **ロードするデータをフィルタリング**
+Aspose.Cells for .NET 8.8.1では、テンプレートファイルからワークブックを構築する際にロードされるべきデータ型を指定するためにLoadDataFilterOptions列挙型とLoadOptions.LoadDataFilterOptionsプロパティを公開しました。ロードされたデータをフィルタリングすることで、特にLightCells APIを使用する場合など、特別な目的のパフォーマンスを向上させることができます。
+
+LoadDataFilterOptions 列挙型は以下の選択肢を提供します。
+
+1. スプレッドシートからすべてをロードするためのAll。
+1. スプレッドシートから何もロードしないためのNone。
+1. 値が空白のセルをロードするためのCellBlank。
+1. ブール値のセルをロードするためのCellBool。
+1. 値、数式、書式を含むセルデータをロードするためのCellData。
+1. エラー値のセルをロードするためのCellError。
+1. 数値（日付や時間を含む）のセルをロードするためのCellNumeric。
+1. テキスト/文字列のセルをロードするためのCellString。
+1. CellValueはセルの値のみをロードします（すべてのタイプ）。
+1. Chartはグラフのみをロードします。
+1. ConditionalFormattingは条件付き書式をロードします。
+1. DataValidationはデータの検証規則のみをロードします。
+1. DocumentPropertiesは文書のプロパティのみをロードします。
+1. Formulaは定義名を含む数式をロードします。
+1. MergedAreaはマージされたセルのみをロードします。
+1. PivotTableはピボットテーブルのみをロードします。
+1. Settingsはブックおよびシートの設定のみをロードします。
+1. Shapeは図形のみをロードします。
+1. Styleはセルの書式のみをロードします。
+1. TableはExcelテーブル/リストオブジェクトのみをロードします。
+
+{{% alert color="primary" %}} 
+
+この機能の詳細については、[テンプレートファイルからワークブックをロードするときのデータのフィルタリング](/cells/ja/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/)の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions & initialize it with type of template to be loaded
 
@@ -63,14 +64,14 @@ var book = new Workbook(filePath, options);
 {{< /highlight >}}
 
 
-### **チャートをPDFに直接変換**
-Aspose.Cells API は、Chart.ToPdf メソッドを使用して PDF にグラフをレンダリングする機能を既に提供しています。このリリースでは、API は、Stream のインスタンスを受け入れることができる、前述のメソッドの別のオーバーロードされたバージョンを公開し、ユーザーがチャートの PDF を MemoryStream のインスタンスに保存できるようにしました。
+### **チャートを直接 PDF に変換**
+Aspose.CellsのAPIはすでにChart.ToPdfメソッドを使用してグラフをPDFにレンダリングする機能を提供しています。このリリースでは、APIはそのメソッドの別のオーバーロードバージョンを公開し、Streamのインスタンスを受け入れ、ユーザーがチャートのPDFをMemoryStreamのインスタンスに保存できるようにしました。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet with a chart
 
@@ -98,11 +99,11 @@ using (MemoryStream stream = new MemoryStream())
 
 
 ### **WorkbookSettings.PaperSize プロパティを追加**
-Aspose.Cells for .NET 8.8.1 は、スプレッドシート全体のデフォルトの印刷用紙サイズを設定するために WorkbookSettings.PaperSize プロパティを公開しました。 WorkbookSettings.PaperSize プロパティは、最も広く使用されている印刷用紙の種類の定義済みサイズを含む PaperSizeType 列挙からの値を受け入れます。
+Aspose.Cells for .NET 8.8.1では、WorkbookSettings.PaperSizeプロパティが公開され、スプレッドシート全体のデフォルトの印刷用紙サイズを設定するために使用されます。WorkbookSettings.PaperSizeプロパティは、PaperSizeType列挙型の値を受け入れることができ、最も一般的に使用される印刷用紙タイプの事前定義されたサイズが含まれています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -122,37 +123,37 @@ settings.PaperSize = PaperSizeType.PaperA4;
 
 
 ### **Shape.TextBody プロパティを追加**
-Aspose.Cells for .NET API のこのリリースでは、シェイプ内のテキストの側面を操作するために、Shape.TextBody が公開されています。次のスニペットは、前述のプロパティを使用して、TextBox 内のテキストの影の効果を設定します。
+このAspose.Cells for .NET APIのリリースでは、Shape.TextBodyが公開され、図形内のテキストの側面を操作するために使用されます。次のスニペットでは、このプロパティを使用してテキストボックス内のテキストの影響を設定しています。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[テキストの影効果を設定する](/cells/ja/net/setting-shadow-of-text-effects-of-shape-or-textbox/).
+この機能の詳細については、[テキストの影響の設定](/cells/ja/net/setting-shadow-of-text-effects-of-shape-or-textbox/)の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-// Workbook のインスタンスを作成します
+ //Create an instance of Workbook
 
 var book = new Workbook();
 
-//ワークブックの最初のワークシートにアクセス
+//Access first worksheet of the Workbook
 
-var シート = book.Worksheets[0];
+var sheet = book.Worksheets[0];
 
-//ShapeCollection に TextBox を追加します
+//Add a TextBox to the ShapeCollection
 
 var textBox = sheet.Shapes.AddTextBox(2, 0, 2, 0, 100, 400);
 
-// TextBox のテキストを設定します
+//Set the text of the TextBox
 
-textBox.Text = "このテキストには次の設定があります。\n\nテキスト効果 > 影 > オフセット下";
+textBox.Text = "This text has the following settings.\n\nText Effects > Shadow > Offset Bottom";
 
-//テキストの影効果を設定
+//Set shadow effect for text
 
-for (int i = 0; i< textBox.TextBody.Count; i++)
+for (int i = 0; i < textBox.TextBody.Count; i++)
 
 {
 
@@ -163,22 +164,22 @@ for (int i = 0; i< textBox.TextBody.Count; i++)
 {{< /highlight >}}
 
 
-### **Worksheet.CalculateFormula(string formula, CalculationOptions opts) メソッドを追加**
-Aspose.Cells for .NET 8.8.1 では、CalculateFormula メソッドの別のオーバーロードが公開されており、カスタム オプションを使用して特定の数式を直接計算する機能が提供されています。
+### **Worksheet.CalculateFormula(string formula, CalculationOptions opts)メソッドを追加**
+Aspose.Cells for .NET 8.8.1では、CalculateFormulaメソッドの別のオーバーロードが公開され、カスタムオプションを使用して指定された数式を直接計算する機能が提供されます。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[カスタム関数の直接計算](/cells/ja/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/).
+この機能の詳細については、[カスタム関数の直接計算](/cells/ja/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)の詳細な記事を参照してください。
 
 {{% /alert %}} 
-### **GridCell.CreateValidation メソッドを追加**
-Aspose.Cells.GridWeb は、GridCell.CreateValidation メソッドを使用して、検証ルールを単一のセルに直接追加する機能を提供しました。上記のメソッドには 2 つのパラメーターが必要です。最初のパラメーターは検証タイプを決定する GridValidationType 型で、2 番目のパラメーター (isRequied) は Boolean 型です。
+### **GridCell.CreateValidationメソッドを追加**
+Aspose.Cells.GridWebは、GridCell.CreateValidationメソッドを使用して単一セルに検証規則を直接追加する機能を提供しています。このメソッドには2つのパラメータが必要です。最初のパラメータはGridValidationTypeの型で、検証のタイプを決定し、2番目のパラメータ（isRequied）はブール型です。
 
 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Access first worksheet
 
@@ -207,8 +208,8 @@ val.ShowInput = true;
 {{< /highlight >}}
 
 
-### **GridCell.RemoveValidation メソッドを追加**
-Aspose.Cells.GridWeb は、GridCell.RemoveValidation メソッドを使用して、GridCell からデータ検証ルールを削除する機能も提供しています。
-## **廃止された API**
-### **廃止された Shape.TextFrame プロパティ**
-代わりに Shape.TextBody.TextAlignment プロパティを使用することをお勧めします。
+### **GridCell.RemoveValidationメソッドを追加**
+Aspose.Cells.GridWebは、GridCell.RemoveValidationメソッドを使用して、GridCellからデータ検証規則を削除する機能を提供しています。
+## **非推奨API**
+### **廃止されたShape.TextFrameプロパティ**
+Shape.TextBody.TextAlignmentプロパティを使用することをお勧めします。

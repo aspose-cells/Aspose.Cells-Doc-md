@@ -1,26 +1,27 @@
-﻿---
-title: パブリック API Aspose.Cells 16.11.0 の変更点
+---
+title: Aspose.Cells 16.11.0 での Public API 変更
 type: docs
 weight: 350
 url: /ja/net/public-api-changes-in-aspose-cells-16-11-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 16.10.0 から 16.11.0 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントでは、モジュール/アプリケーション開発者に関連がある可能性のある Aspose.Cells API のバージョン 16.10.0 から 16.11.0 への変更について説明しています。新しいおよび更新された public メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の内部の挙動の変更についても説明しています。
 
 {{% /alert %}} 
-## **追加された API**
+## **APIの追加**
 ### **グローバリゼーション設定のサポート**
-Aspose.Cells 16.11.0 は、WorkbookSettings.GlobalizationSettings プロパティと共に GlobalizationSettings クラスを公開し、Aspose.Cells API で小計にカスタム ラベルを使用するように強制しました。 GlobalizationSettings クラスには次のメソッドがあり、カスタム実装でオーバーライドしてラベルに目的の名前を付けることができます**合計** & **総計**.
+Aspose.Cells 16.11.0 は、Subtotals にカスタム ラベルを使用するように Aspose.Cells API を強制するために GlobalizationSettings クラスと WorkbookSettings.GlobalizationSettings プロパティを公開しました。GlobalizationSettings クラスには、カスタム実装で望ましい名前を指定するためにオーバーライドできる次のメソッドがあります **Total** と **Grand Total**。
 
-- GlobalizationSettings.GetTotalName: 関数の完全な名前を取得します。
-- GlobalizationSettings.GetGrandTotalName: 関数の総計名を取得します。
+- GlobalizationSettings.GetTotalName：関数の合計名を取得します。
+- GlobalizationSettings.GetGrandTotalName：関数のグランド合計名を取得します。
 
-以下は、GlobalizationSettings クラスを拡張し、前述のメソッドをオーバーライドして統合関数 Average のカスタム ラベルを返す単純なカスタム クラスです。
+GlobalizationSettings クラスを拡張し、前述のメソッドをオーバーライドしてコンソリデーション関数 Average のカスタム ラベルを返す単純なカスタムクラスは次のとおりです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomSettings : GlobalizationSettings
 
@@ -72,11 +73,11 @@ Aspose.Cells 16.11.0 は、WorkbookSettings.GlobalizationSettings プロパテ�
 
 
 
-次のスニペットは、既存のスプレッドシートを読み込み、ワークシートで既に使用可能なデータにタイプ Average の小計を追加します。 CustomSettings クラスとその GetTotalName および GetGrandTotalName メソッドは、小計をワークシートに追加するときに呼び出されます。
+次のスニペットは、Pieチャートの「その他」のラベルの名前を取得する便利なGlobalizationSettings.GetOtherNameメソッドの使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Loads an existing spreadsheet containing some data
 
@@ -96,7 +97,7 @@ Worksheet sheet = book.Worksheets[0];
 
 // Adds SubTotal of type Average to the worksheet
 
-sheet.Cells.Subtotal(CellArea.CreateCellArea("A2", "B9"), 0, ConsolidationFunction.Average, new int[]{ 0,1 });
+sheet.Cells.Subtotal(CellArea.CreateCellArea("A2", "B9"), 0, ConsolidationFunction.Average, new int[] { 0,1 });
 
 // Calculates Formulas
 
@@ -114,11 +115,11 @@ book.Save(dir + "output.xlsx");
 
 
 
-GlobalizationSettings クラスは、円グラフの「その他」ラベルの名前を取得するのに役立つ GetOtherName メソッドも提供します。これは、GlobalizationSettings.GetOtherName メソッドの簡単な使用シナリオです。
+次のスニペットは、上記で作成したCustomSettingsクラスを使用して、ピースプレッドシートをロードし、チャートを画像にレンダリングするシナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomSettings : GlobalizationSettings
 
@@ -162,11 +163,11 @@ GlobalizationSettings クラスは、円グラフの「その他」ラベルの�
 
 
 
-次のスニペットは、円グラフを含む既存のスプレッドシートを読み込み、上で作成した CustomSettings クラスを利用しながら、グラフを画像にレンダリングします。
+次のコード片は、Pie チャートを含む既存のスプレッドシートを読み込み、上記で作成した CustomSettings クラスを利用しながらチャートを画像にレンダリングします。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Loads an existing spreadsheet containing a pie chart
 
@@ -197,14 +198,14 @@ chart.ToImage(dir + "output.png", new ImageOrPrintOptions());
 {{< /highlight >}}
 
 
-### **CellsFactory クラスを追加**
-Aspose.Cells 16.11.0 は、現在 1 つのメソッドを持つ CellsFactory クラスを公開しました。スタイルを作成します。 CellsFactory.CreateStyle メソッドを使用して、ブック スタイルのプールに追加せずに Style クラスのインスタンスを作成できます。
+### **CellsFactory クラスを追加しました**
+Aspose.Cells 16.11.0では、CellsFactoryクラスが公開され、現在はCreateStyleという1つのメソッドがあります。CellsFactory.CreateStyleメソッドを使用して、ワークブックスタイルのプールに追加することなくStyleクラスのインスタンスを作成できます。
 
-CellsFactory.CreateStyle メソッドの簡単な使用シナリオを次に示します。
+CellsFactory.CreateStyleメソッドの単純な使用シナリオは以下の通りです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initializes the CellsFactory class
 
@@ -217,22 +218,22 @@ Style style = factory.CreateStyle();
 {{< /highlight >}}
 
 
-### **Workbook.AbsolutePath プロパティを追加**
-Aspose.Cells 16.11.0 では、workbook.xml ファイルに格納されているブックの絶対パスを取得または設定できる Workbook.AbsolutePath プロパティが公開されました。このプロパティは、外部リンクのみを更新する場合に役立ちます。
-### **GridHyperlinkCollection.GetHyperlink メソッドを追加**
-Aspose.Cells.GridWeb 16.11.0 は、GridHyperlinkCollection クラスに GetHyperlink メソッドを公開しました。これにより、インスタンス GridCell または行の列インデックスに対応する整数のペアを渡すことによって、GridHyperlink のインスタンスを取得できます。
+### **Workbook.AbsolutePath プロパティを追加しました**
+Aspose.Cells 16.11.0 は、workbook.xml ファイルに保存された絶対ワークブック パスを取得または設定するための Workbook.AbsolutePath プロパティを公開しました。このプロパティは、外部リンクの更新時に便利です。
+### **Aspose.Cells.GridWeb 16.11.0では、GridHyperlinkCollectionクラスにGetHyperlinkメソッドが公開されました。**
+GridHyperlinkCollectionクラスのGetHyperlinkメソッドの使用シナリオの簡単な例です。
 
 {{% alert color="primary" %}} 
 
-指定されたセルにハイパーリンクが見つからない場合、GetHyperlink メソッドは null を返します。
+指定されたセルにハイパーリンクが見つからない場合、GetHyperlinkメソッドはnullを返します。
 
 {{% /alert %}} 
 
-GetHyperlink メソッドの簡単な使用シナリオを次に示します。
+GetHyperlinkメソッドの単純な使用シナリオは以下の通りです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Gets the active worksheet from the collection
 
@@ -251,17 +252,17 @@ GridHyperlink link = links.GetHyperlink(sheet.Cells["A1"]);
 link = links.GetHyperlink(0, 3);
 
 {{< /highlight >}}
-## **廃止された API**
-### **廃止されたスタイル コンストラクター**
-代わりに、cellsFactory.CreateStyle メソッドを使用してください。
-## **削除された API**
-### **Cell.GetConditionalStyle メソッドを削除**
-代わりに Cell.GetConditionalFormattingResult メソッドを使用してください。
-### **Cells.MaxDataRowInColumn(int column) メソッドを削除**
-代わりに Cells.GetLastDataRow(int) メソッドを使用してください。
-### **削除された PageSetup.Draft プロパティ**
-代わりに PageSetup.PrintDraft プロパティを使用することをお勧めします。
-### **AutoFilter.FilterColumnCollection プロパティの削除**
-同じ目標を達成するために AutoFilter.FilterColumns プロパティの使用を検討してください。
-### **削除された TickLabels.Rotation プロパティ**
-代わりに TickLabels.RotationAngle プロパティを使用してください。
+## **非推奨API**
+### **廃止された Style コンストラクタ**
+代わりに、cellsFactory.CreateStyleメソッドを使用してください。
+## **削除されたAPI**
+### **Deleted Cell.GetConditionalStyle Method**
+代わりに、Cell.GetConditionalFormattingResultメソッドを使用してください。
+### **削除されたCells.MaxDataRowInColumn(int column) Method**
+代わりに、Cells.GetLastDataRow(int)メソッドを使用してください。
+### **PageSetup.Draft プロパティが削除されました**
+代わりに PageSetup.PrintDraft プロパティを使用することをお勧めします
+### **AutoFilter.FilterColumnCollection プロパティが削除されました**
+同じ目標を達成するためには AutoFilter.FilterColumns プロパティを考慮してください
+### **TickLabels.Rotation プロパティが削除されました**
+代わりに TickLabels.RotationAngle プロパティを使用してください

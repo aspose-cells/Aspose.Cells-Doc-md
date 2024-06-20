@@ -1,28 +1,29 @@
 ---
-title: إنشاء PdfBookmarkEntry لورقة الرسم البياني
+title: إنشاء إدخال PdfBookmarkEntry لورقة الرسم البياني
 type: docs
 weight: 50
 url: /ar/python-net/create-pdfbookmarkentry-for-chart-sheet/
-description: تعرف على كيفية إنشاء PdfBookmarkEntry لورقة الرسم البياني باستخدام Aspose.Cells for Python via .NET API.
-keywords: Python Create PdfBookmarkEntry for Chart Sheet, Add PdfBookmarkEntry for Chart Sheet using Python, Python Insert PdfBookmarkEntry for Chart Sheet, PdfBookmarkEntry for Chart Sheet in Python
+description: تعلم كيفية إنشاء إدخال PdfBookmarkEntry لورقة الرسم البياني باستخدام Aspose.Cells for Python via .NET API.
+keywords: إنشاء إدخال PdfBookmarkEntry لورقة الرسم البياني باستخدام Python، إضافة إدخال PdfBookmarkEntry لورقة الرسم البياني باستخدام Python، إدراج إدخال PdfBookmarkEntry لورقة الرسم البياني بواسطة Python، PdfBookmarkEntry لورقة الرسم البياني في Python
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-في وقت سابق، Aspose.Cells for Python via .NET من شأنه أن ينشئ[**PDFBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) لورقة عادية. لكن الآن Aspose.Cells for Python via .NET يمكن أيضًا إنشاء[**PDFBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) لورقة الرسم البياني. نظرًا لأن ورقة المخطط لا تحتوي على أي خلية أخرى باستثناء الخلية A1، فسيتم إنشاؤها[**PDFBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) للخلية A1 فقط.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **إنشاء PdfBookmarkEntry لورقة الرسم البياني**
+في السابق، كان من الممكن لـ Aspose.Cells for Python via .NET إنشاء [**PdfBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) لورقة عادية. ولكن الآن، يمكن لـ Aspose.Cells for Python via .NET أيضًا إنشاء [**PdfBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) لورقة الرسم البياني. نظرًا لأن لورقة الرسم البياني ليس لديها أي خلية أخرى سوى الخلية A1، فسيقوم بإنشاء [**PdfBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) للخلية A1 فقط.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[عينة من ملف إكسل](61767756.xlsx) الذي يحتوي على أربع أوراق. اثنان منهم عبارة عن أوراق عادية والاثنان الآخران عبارة عن أوراق مخططات. يقوم بإنشاء أربعة إدخالات إشارة مرجعية على النحو التالي
+## **إنشاء PdfBookmarkEntry لورقة الرسم البياني**
 
-- المرجعية-I
-- المرجعية-II-Chart1
-- المرجعية-III
-- المرجعية-IV-Chart2
+يقوم الكود النموذجي التالي بتحميل [ملف Excel عينة](61767756.xlsx) الذي يحتوي على أربع صفحات. اثنتان منها عادية والأخرتان صفحات رسم بياني. ويقوم بإنشاء أربعة إدخالات للإشارة كما يلي
 
- تظهر لقطة الشاشة التالية[الإخراج PDF](61767757.pdf) تم إنشاؤها بواسطة نموذج التعليمات البرمجية كمرجع.
+- إشارة-I
+- إشارة-II-Chart1
+- إشارة-III
+- إشارة-IV-Chart2
 
-![ما يجب القيام به:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
+تظهر الصورة الملتقطة التالية [PDF المولد](61767757.pdf) بواسطة الكود النموذجي للإشارة.
 
-##  **عينة من الرموز**
+![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-CreatePdfBookmarkEntryForChartSheet.py" >}}

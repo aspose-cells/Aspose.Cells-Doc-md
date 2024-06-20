@@ -1,21 +1,22 @@
-﻿---
-title: Automatische Filterdaten in VSTO und Aspose.Cells
+---
+title: Daten in VSTO und Aspose.Cells automatisch filtern
 type: docs
 weight: 50
 url: /de/net/auto-filter-data-in-vsto-and-aspose-cells/
 ---
-So wenden Sie die automatische Filterung auf eine Spalte an:
 
-1. Erstellen Sie eine Arbeitsmappe.
+Um eine automatische Filterung auf eine Spalte anzuwenden:
+
+1. Ein Arbeitsbuch erstellen.
 1. Holen Sie sich ein Arbeitsblatt.
-1. Beispieldaten hinzufügen.
-1. Autofilter anwenden.
-1. Spalten automatisch anpassen, um die Anzeige ansprechend zu gestalten.
+1. Fügen Sie Beispieldaten hinzu.
+1. Wenden Sie den Autofilter an.
+1. Spalten anpassen, um die Anzeige attraktiv zu gestalten.
 1. Speichern Sie die Tabelle.
 
-Die Codebeispiele in diesem Artikel zeigen, wie Sie diese Schritte mit VSTO entweder mit C# oder mit Apose.Cells, wiederum mit C#, ausführen.
+Die Code-Beispiele in diesem Artikel zeigen, wie diese Schritte mit VSTO entweder in C# oder mit Apose.Cells, ebenfalls in C#, ausgeführt werden können.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Excel.Application ExcelApp = Application;
 
@@ -29,27 +30,27 @@ Excel.Worksheet sheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Add data into A1 and B1 Cells as headers.
 
-sheet.Cells[1, 1]= "Product ID";
+sheet.Cells[1, 1] = "Product ID";
 
-sheet.Cells[1, 2]= "Product Name";
+sheet.Cells[1, 2] = "Product Name";
 
 //Add data into details cells.
 
-sheet.Cells[2, 1]= 1;
+sheet.Cells[2, 1] = 1;
 
-sheet.Cells[3, 1]= 2;
+sheet.Cells[3, 1] = 2;
 
-sheet.Cells[4, 1]= 3;
+sheet.Cells[4, 1] = 3;
 
-sheet.Cells[5, 1]= 4;
+sheet.Cells[5, 1] = 4;
 
-sheet.Cells[2, 2]= "Apples";
+sheet.Cells[2, 2] = "Apples";
 
-sheet.Cells[3, 2]= "Bananas";
+sheet.Cells[3, 2] = "Bananas";
 
-sheet.Cells[4, 2]= "Grapes";
+sheet.Cells[4, 2] = "Grapes";
 
-sheet.Cells[5, 2]= "Oranges";
+sheet.Cells[5, 2] = "Oranges";
 
 //Enable Auto-filter.
 
@@ -73,7 +74,7 @@ objBook.SaveCopyAs("vsto_autofilter.xlsx");
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -122,6 +123,6 @@ objBook.Save("aspose-cells_autofilter.xlsx");
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Auto.Filter.Data.Aspose.Cells.zip)
-- [Quellenschmiede](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Auto%20Filter%20Data%20\(Aspose.Cells\).zip/herunterladen)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Auto%20Filter%20Data%20\(Aspose.Cells\).Postleitzahl)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Auto.Filter.Data.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Auto%20Filter%20Data%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Auto%20Filter%20Data%20\(Aspose.Cells\).zip)

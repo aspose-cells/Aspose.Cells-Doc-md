@@ -1,16 +1,17 @@
-﻿---
-title: Скрыть или показать рабочий лист в Ruby
+---
+title: Скрыть или показать лист в Ruby
 type: docs
 weight: 60
 url: /ru/java/hide-or-unhide-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells - Скрыть или показать рабочий лист**
-### **Скрытие рабочего листа**
- Чтобы скрыть рабочий лист, используя Aspose.Cells Java для Ruby, вызовите**скрыть рабочий лист** модуль.
 
-**Рубиновый код**
+## **Aspose.Cells - Скрыть или показать лист**
+### **Скрыть лист**
+Чтобы скрыть лист с помощью Aspose.Cells Java для Ruby, вызовите модуль **hideunhideworksheet**.
 
-{{< highlight "ruby" >}}
+**Код на Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -35,19 +36,19 @@ workbook.save(data_dir + "output.xls")
 puts "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
-### **Отображение рабочего листа**
-Разработчики могут сделать рабочий лист видимым, установив*установитьвидимый(* *истинный* *)*метод**Рабочий лист**учебный класс.
+### **Показать лист**
+Разработчики могут сделать лист видимым, установив метод *setVisible(* *true* *)* класса **Worksheet**.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the worksheet of the Excel file
 
 worksheet.setVisible(true)
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Скрыть или показать рабочий лист (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **Показать или скрыть лист (Aspose.Cells)** с любого из нижеуказанных сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/hideunhideworksheet.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/hideunhideworksheet.rb)

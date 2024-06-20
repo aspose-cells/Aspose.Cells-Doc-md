@@ -1,19 +1,20 @@
-﻿---
-title: عرض تسلسل الصفحات باستخدام خصائص PageIndex و PageCount الخاصة بخيارات ImageOrPrintOptions
+---
+title: تحرير تسلسل صفحات باستخدام خصائص PageIndex وPageCount لخيارات الصورة أو الطباعة
 type: docs
 weight: 10
 url: /ar/python-java/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
 ---
-## **عرض تسلسل الصفحات باستخدام خصائص PageIndex و PageCount الخاصة بخيارات ImageOrPrintOptions**
-يمكنك عرض تسلسل من صفحات ملف Excel للصور باستخدام Aspose.Cells مع[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex) و[ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount) الخصائص. تكون هذه الخصائص مفيدة عندما يكون هناك العديد من الصفحات على سبيل المثال في ورقة العمل الخاصة بك ولكنك تريد عرض بعضها فقط. لن يؤدي ذلك إلى توفير وقت المعالجة فحسب ، بل سيوفر أيضًا استهلاك الذاكرة لعملية العرض.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل نموذج ملف Excel ويعرض الصفحات 4 و 5 و 6 و 7 فقط باستخدام ملف[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex)و[ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount) الخصائص. فيما يلي صور الصفحات المعروضة التي تم إنشاؤها بواسطة نموذج التعليمات البرمجية.
+## **تقديم تسلسل من الصفحات باستخدام خصائص PageIndex وPageCount لخيارات الصورة أو الطباعة**
+يمكنك عرض تسلسل من الصفحات الخاصة بملف Excel الخاص بك كصور باستخدام Aspose.Cells مع صفات [ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex) و [ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount). هذه الخصائص مفيدة عند وجود العديد من الصفحات وفقًا لسبب ما، على سبيل المثال آلاف الصفحات في ورقة العمل الخاصة بك ولكنك ترغب في عرض بعضها فقط. سيوفر ذلك ليس فقط وقت المعالجة ولكن سيقلل أيضًا من استهلاك الذاكرة لعملية العرض.
 
-|![ما يجب القيام به: image_بديل_نص](outputImage-4.png)|![ما يجب القيام به: image_بديل_نص](outputImage-5.png)|
-|:- |:- |
-|![ما يجب القيام به: image_بديل_نص](outputImage-6.png)|![ما يجب القيام به: image_بديل_نص](outputImage-7.png)|
+الكود المعروض أدناه يقوم بتحميل ملف Excel عيني ويقوم بعرض الصفحات 4 و 5 و 6 و 7 فقط باستخدام صفات [ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex) و [ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount). وفيما يلي الصور المولدة من الصفحات المعروضة بواسطة الكود العيني.
+
+|![todo:image_alt_text](outputImage-4.png)|![todo:image_alt_text](outputImage-5.png)|
+| :- | :- |
+|![todo:image_alt_text](outputImage-6.png)|![todo:image_alt_text](outputImage-7.png)|
 
 
 
-## **عينة من الرموز**
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Rendering-RenderLimitedNoOfSequentialPages.py" >}}

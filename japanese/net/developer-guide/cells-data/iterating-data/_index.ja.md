@@ -1,84 +1,85 @@
 ---
-title: 列挙子の使用方法と使用場所
-linktitle: データの反復処理
+title: 列挙子の使用方法と場所
+linktitle: データの反復
 type: docs
 weight: 55
 url: /ja/net/how-and-where-to-use-enumerators/
-description: 列挙子の使用方法と使用場所については、Aspose.Cells for .NET API を通じて学習してください。
-keywords: How to use Enumerators, Cells Enumerator, Rows Enumerator, Columns Enumerator
+description: Aspose.Cells for .NET APIを利用した列挙子の使用方法と場所について学ぶ
+keywords: 列挙子の使用方法、セル列挙子、行列挙子、列列挙子
 ---
+
 {{% alert color="primary" %}}
 
-列挙子は、コンテナーまたはコレクションを横断する機能を提供するオブジェクトです。列挙子は、コレクション内のデータを読み取るために使用できますが、基礎となるコレクションを変更するために使用することはできません。一方、IEnumerable は、IEnumerator インターフェイスを返す 1 つのメソッド GetEnumerator を定義するインターフェイスです。これにより、次への読み取り専用アクセスが可能になります。コレクション。
+列挙子は、コンテナやコレクションをトラバースする能力を提供するオブジェクトです。列挙子はコレクション内のデータを読むために使用できますが、基礎となるコレクションを変更することはできません。一方、IEnumerableは、GetEnumeratorメソッドを定義するインターフェースであり、これにより読み取り専用アクセスが可能なICollectionインターフェースが返されます。
 
-Aspose.Cells API には多数の列挙子が用意されていますが、この記事では主に以下の 3 つのタイプについて説明します。
+Aspose.CellsのAPIはたくさんの列挙子を提供していますが、この記事では主に以下にリストされている3つのタイプについて説明しています。
 
-1. Cells 列挙者
+1. セル列挙子
 1. 行列挙子
 1. 列列挙子
 
 {{% /alert %}}
 
-##  **列挙子の使用方法**
+## **列挙子の使用方法**
 
-###  **Cells 列挙者**
+### **セル列挙子**
 
-Cells Enumerator にアクセスするにはさまざまな方法があり、アプリケーションの要件に基づいてこれらの方法のいずれかを使用できます。以下は、セル列挙子を返すメソッドです。
+セル列挙子へのアクセス方法にはさまざまな方法があり、アプリケーションの要件に基づいてこれらのメソッドのいずれかを使用できます。セル列挙子を返すメソッドは次のとおりです。
 
 1. [**Cells.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getenumerator)
 1. [**Row.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/getenumerator)
 1. [**Range.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/getenumerator)
 
-上記のメソッドはすべて、初期化されたセルのコレクションを走査できる列挙子を返します。
+上記のすべての方法は、初期化されたセルコレクションをトラバースする列挙子を返します。
 
 {{% alert color="primary" %}}
 
-セルを走査している間、コレクションを変更しないでください (新しい Cell がインスタンス化されるか、既存の Cell が削除される操作)。そうしないと、列挙子がすべてのセルを正しく走査できない可能性があります (一部の要素が繰り返し走査されたり、スキップされたりする可能性があります)。
+セルをトラバースする際には、コレクションを修正してはいけません（新しいセルを作成する操作や既存のセルを削除する操作）。そうしない場合、列挙子はすべてのセルを正しくトラバースできなくなる可能性があります（一部の要素が繰り返しトラバースされたり、スキップされたりすることがあります）。
 
 {{% /alert %}}
 
-次のコード例は、Cells コレクションの IEnumerator インターフェイスの実装を示しています。
+以下のコード例は、CellsコレクションのIEnumeratorインターフェースの実装を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-CellsEnumerator.cs" >}}
 
-###  **行列挙子**
+### **行列挙子**
 
-行列挙子には、[**RowCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection/methods/getenumerator)方法。次のコード例は、IEnumerator インターフェイスの実装を示しています。[**行コレクション**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection).
+[**RowCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection/methods/getenumerator)メソッドを使用しながら行列挙子にアクセスできます。次のコード例は、[**RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection)のIEnumeratorインターフェースの実装を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-RowEnumerator.cs" >}}
 
-###  **列列挙子**
+### **列列挙子**
 
-列列挙子には、[**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection)方法。次のコード例は、IEnumerator インターフェイスの実装を示しています。[**コラムコレクション**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
+列の列挙子は、[**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection)メソッドを使用している間にアクセスできます。次のコード例では、[**ColumnCollection**](https://reference.aspose.com/cells/net/aspose.cells/columncollection)のIEnumeratorインターフェイスの実装を示します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-ColumnEnumerator.cs" >}}
 
-##  **列挙子を使用する場所**
+## **列挙子の使用場所**
 
-列挙子を使用する利点について説明するために、リアルタイムの例を見てみましょう。
+列挙子の利点を議論するために、実際の例を使って説明しましょう。
 
 **シナリオ**
 
-アプリケーションの要件は、指定されたセル内のすべてのセルを走査することです。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)彼らの価値観を読み取るために。この目標を実現するにはいくつかの方法が考えられます。以下にいくつかを示します。
+アプリケーションの要件は、与えられた[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)内のすべてのセルを走査してその値を読み取ることです。この目標を実装するための方法はいくつかあります。いくつかを以下で示します。
 
-###  **表示範囲の使用**
+### **表示範囲を使用する**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingDisplayRange.cs" >}}
 
-###  **MaxDataRow と MaxDataColumn の使用**
+### **MaxDataRowおよびMaxDataColumnを使用する**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingMaxDataRowAndMaxDataColumn.cs" >}}
 
-ご覧のとおり、上記のアプローチは両方とも、多かれ少なかれ同様のロジックを使用しています。コレクション内のすべてのセルをループしてセル値を読み取ります。これは、以下で説明するように、さまざまな理由で問題となる可能性があります。
+上記のアプローチのそれぞれがほとんど同じロジックを使用していることがわかります。つまり、コレクション内のすべてのセルをループしてセルの値を読み取ります。これにはいくつかの理由で問題が生じる可能性があります。
 
-1. などの API[**マックスロウ**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxrow), [**MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow), [**MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxcolumn), [**MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) & [**最大表示範囲**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)対応する統計を収集するには余分な時間が必要です。データ行列 (行 x 列) が大きい場合、これらの API を使用するとパフォーマンスが低下する可能性があります。
-1. ほとんどの場合、特定の範囲内のすべてのセルがインスタンス化されるわけではありません。このような状況では、行列内のすべてのセルをチェックすることは、初期化されたセルのみをチェックする場合に比べてあまり効率的ではありません。
-1. ループ内のセルに Cells 行、列としてアクセスすると、範囲内のすべてのセル オブジェクトがインスタンス化され、最終的に OutOfMemoryException が発生する可能性があります。
+1. [**MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxrow)、[**MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow)、[**MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxcolumn)、および[**MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) などのAPIは、対応する統計情報を収集するための追加時間を必要とします。データ行列（行×列）が大きい場合、これらのAPIを使用するとパフォーマンスにペナルティが課される場合があります。
+1. ほとんどの場合、指定された範囲内のすべてのセルがインスタンス化されていません。そのような状況では、行列内のすべてのセルを確認することは、初期化されたセルのみを確認する場合と比べて効率的ではありません。
+1. Cells row、columnとしてセルにアクセスすることは、範囲内のすべてのセルオブジェクトをインスタンス化することになり、最終的にOutOfMemoryExceptionを引き起こす可能性があります。
 
-##  **結論**
+## **結論**
 
-上記の事実に基づいて、列挙子を使用する必要がある考えられるシナリオは次のとおりです。
+上記の事実に基づいて、列挙子を使用すべき可能なシナリオが以下に示されています。
 
-1. セル コレクションへの読み取り専用アクセスが必要です。つまり、必要なのはセルを検査することだけです。
-1. 多数のセルを通過する必要があります。
-1. 初期化されたセル/行/列のみが走査されます。
+1. セルコレクションの読み取り専用アクセスが必要な場合、つまり、セルの確認のみが必要な場合。
+1. 多数のセルを走査する必要がある場合。
+1. 初期化されたセル/行/列のみを走査する必要がある場合。

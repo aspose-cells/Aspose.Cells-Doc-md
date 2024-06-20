@@ -1,28 +1,29 @@
 ---
-title: تحويل Pandas DataFrame إلى Excel
+title: تحويل DataFrame لـ Pandas إلى Excel
 type: docs
 weight: 30
 url: /ar/python-net/convert-pandas-dataframe-to-excel/
-description: تحويل الباندا إلى Excel باستخدام Aspose.Cells for Python via .NET API.
-keywords: Python Convert Pandas DataFrame to Excel, Import Pandas DataFrame to Excel in Python via NET, Python Convert Pandas DataFrame to xlsx, Load for import Pandas DataFrame to Excel.
+description: تحويل Pandas إلى Excel باستخدام واجهة برمجة تطبيقات Aspose.Cells لـ Python via .NET.
+keywords: تحويل إطار البيانات Pandas إلى Excel بواسطة Python، استيراد إطار بيانات Pandas إلى Excel في Python via NET، تحويل إطار بيانات Pandas إلى xlsx بواسطة Python، تحميل لاستيراد إطار بيانات Pandas إلى Excel.
 ---
+
 {{% alert color="primary" %}}
 
-باستخدام Aspose.Cells for Python via .NET API، يمكنك تحويل pandas DataFrame إلى Excel وOpenOffice وPdf وJson والعديد من التنسيقات المختلفة.
+باستخدام واجهة برمجة تطبيقات Aspose.Cells لـ Python via .NET ، يمكنك تحويل DataFrame لـ pandas إلى Excel ، OpenOffice ، Pdf ، Json والعديد من التنسيقات المختلفة.
 
 {{% /alert %}}
 
-##  **تحويل Pandas DataFrame إلى Excel عبر بيانات json**
-فيما يلي مثال لمقتطف التعليمات البرمجية لتوضيح كيفية استيراد البيانات من pandas DataFrame إلى ملف Excel باستخدام Aspose.Cells for Python via .NET:
-1. إنشاء نموذج بيانات DataFrame الباندا.
-1. استخدم مكتبة الباندا لتحويل بيانات DataFrame إلى بيانات JSON.
-1. استيراد بيانات JSON باستخدام Aspose.Cells for Python via .NET.
+## **تحويل DataFrame لـ Pandas إلى Excel عن طريق بيانات json**
+إليك مثال لتجريب الشفرة لتوضيح كيفية استيراد البيانات من إطار بيانات pandas إلى ملف Excel باستخدام Aspose.Cells لـ Python via .NET:
+1. إنشاء بيانات عينة لإطار البيانات باستخدام pandas.
+1. استخدام مكتبة pandas لتحويل بيانات إطار البيانات إلى بيانات JSON.
+1. استيراد بيانات JSON باستخدام Aspose.Cells لـ Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-by-json.py" >}}
 
-##  **تحويل Pandas DataFrame إلى Excel مباشرة**
-فيما يلي مثال لمقتطف التعليمات البرمجية لتوضيح كيفية استيراد البيانات من pandas DataFrame إلى ملف Excel باستخدام Aspose.Cells for Python via .NET:
-1. إنشاء نموذج بيانات DataFrame الباندا.
-1. اجتياز DataFrame واستيراد البيانات باستخدام Aspose.Cells for Python via .NET.
+## **تحويل إطار بيانات Pandas إلى Excel مباشرة**
+إليك مثال لتجريب الشفرة لتوضيح كيفية استيراد البيانات من إطار بيانات pandas إلى ملف Excel باستخدام Aspose.Cells لـ Python via .NET:
+1. إنشاء بيانات عينة لإطار البيانات باستخدام pandas.
+1. عبور إطار البيانات واستيراد البيانات باستخدام Aspose.Cells لـ Python via .NET.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-import-pandas-data-directly.py" >}}

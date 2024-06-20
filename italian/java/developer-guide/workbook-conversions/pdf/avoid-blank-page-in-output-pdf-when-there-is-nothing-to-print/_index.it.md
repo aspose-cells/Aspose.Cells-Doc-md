@@ -1,24 +1,25 @@
-﻿---
-title: Evitare pagine vuote nell'output PDF quando non c'è niente da stampare
+---
+title: Evitare Pagina Vuota nel PDF di Output quando non c è Nulla da Stampare
 type: docs
 weight: 30
 url: /it/java/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
 ---
-## **Possibili scenari di utilizzo**
 
-Quando il file Excel è vuoto e l'utente lo salva in PDF utilizzando Aspose.Cells, esegue il rendering di una pagina vuota nell'output PDF. A volte, questo comportamento predefinito è indesiderato. Aspose.Cells fornisce il[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) proprietà per affrontare questo problema. Se lo imposterai come**falso**, poi[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)si verificherà ogni volta che non c'è niente da stampare nell'output PDF.
+## **Possibili Scenari di Utilizzo**
 
-## **Evitare pagine vuote nell'output PDF quando non c'è niente da stampare**
+Quando il file Excel è vuoto e l'utente lo salva in PDF utilizzando Aspose.Cells, viene visualizzata una pagina vuota nel PDF di output. A volte, questo comportamento predefinito non è desiderato. Aspose.Cells fornisce la proprietà [**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) per gestire questo problema. Se la si imposta su **false**, allora si verificherà [**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException) quando non c'è nulla da stampare nel PDF di output.
 
-Il seguente codice di esempio crea una cartella di lavoro vuota e quindi la salva come output PDF dopo aver impostato il[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) proprietà come**falso**. Poiché non c'è nulla da stampare nell'output PDF, il[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)avviene come mostrato di seguito.
+## **Evitare Pagina Vuota nel PDF di Output quando non c'è Nulla da Stampare**
 
-## **Codice d'esempio**
+Il seguente codice di esempio crea un foglio di calcolo vuoto e lo salva come PDF di output dopo aver impostato la proprietà [**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) come **false**. Poiché non c'è nulla da stampare nel PDF di output, si verifica l'[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException) come mostrato di seguito.
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint.java" >}}
 
 ## **Eccezione**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Exception in thread "main" com.aspose.cells.CellsException: There is nothing to output/print.
 

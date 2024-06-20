@@ -1,26 +1,27 @@
-﻿---
-title: استخدم خاصية Sheet.SheetId الخاصة بـ OpenXml باستخدام Aspose.Cells
+---
+title: استخدام خاصية Sheet.SheetId في OpenXml باستخدام Aspose.Cells
 type: docs
 weight: 80
 url: /ar/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-*ورقة*تم العثور على الممتلكات داخل*DocumentFormat.OpenXml.Spreadsheet*مساحة الاسم وجزء من OpenXml. تستطيع أن ترى هذه الخاصية وقيمتها في الداخل*مصنف. xml*كما هو موضح في الصورة التالية. يوفر Aspose.Cells الخاصية المكافئة كـ[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TabId).
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به: image_بديل_نص](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
+خاصية *Sheet.SheetId* موجودة داخل فضاء العمل *DocumentFormat.OpenXml.Spreadsheet* وتعتبر جزءًا من OpenXml. يمكنك رؤية هذه الخاصية وقيمتها داخل *workbook.xml* كما هو موضح في اللقطة الشاشية التالية. يوفر Aspose.Cells الخاصية المعادلة كـ [**Worksheet.TabId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TabId).
 
-## **استخدم خاصية Sheet.SheetId الخاصة بـ OpenXml باستخدام Aspose.Cells**
+![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](51740740.xlsx)، يقرأ جدول البيانات أو معرف علامة التبويب الخاص به ، ثم يقوم بتعيين معرف علامة تبويب جديد له وحفظه باسم[إخراج ملف Excel](51740739.xlsx). يرجى أيضًا الاطلاع على إخراج وحدة التحكم للرمز الوارد أدناه كمرجع.
+## **الاستفادة من خاصية Sheet.SheetId في الشكل المفتوحXML باستخدام Aspose.Cells**
 
-## **عينة من الرموز**
+يقوم الرمز العيني التالي بتحميل [ملف Excel عيني](51740740.xlsx) ، يقرأ تعريفها أو معرف تسلسلي، ثم يعين له معرف تسلسلي جديد ويحفظه كـ [ملف Excel الناتج](51740739.xlsx). يرجى أيضاً رؤية ناتج وحدة التحكم للكود أدناه للإشارة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-UtilizeSheet_SheetId_PropertyOfOpenXml.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet or Tab Id: 1297
 

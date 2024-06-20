@@ -1,16 +1,17 @@
-﻿---
-title: Ange betydande siffror som ska lagras i Excel-fil
+---
+title: Specificera betydande siffror som ska lagras i Excel fil
 type: docs
 weight: 20
 url: /sv/java/specifying-significant-digits-to-be-stored-in-excel-file/
 ---
-## **Möjliga användningsscenarier**
 
-Som standard lagrar Aspose.Cells 17 signifikanta siffror med dubbla värden i kalkylblad till skillnad från Excel-applikationen som endast lagrar 15 signifikanta siffror. Du kan ändra standardbeteendet för Aspose.Cells för det här fallet, det vill säga; du kan ändra antalet signifikanta siffror från 17 till 15 medan du använder[**CellsHelper.Significant Digits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)fast egendom.
+## **Möjliga användningsscenario**
 
-## **Ange betydande siffror som ska lagras i Excel-fil**
+Som standard lagrar Aspose.Cells 17 betydande siffror i dubbla värden i kalkylblad jämfört med Excel-applikationen som endast lagrar 15 betydande siffror. Du kan ändra beteendet för detta fall, dvs. du kan ändra antalet betydande siffror från 17 till 15 medan du använder [**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits) egenskap.
 
- Följande exempelkod tvingar Aspose.Cells att använda 15 signifikanta siffror samtidigt som dubbla värden lagras i excel-filen. Vänligen kontrollera[output excel-fil](23166982.xlsx) . Ändra dess tillägg till .zip och packa upp det och du kommer att se att endast 15 signifikanta siffror lagras i excel-filen. Följande skärmdump förklarar effekten av[**CellsHelper.Significant Digits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)egenskap på utdata excel-filen.
+## **Specificera betydande siffror som ska lagras i Excel-fil**
+
+Följande exempelkod tvingar Aspose.Cells att använda 15 betydande siffror medan man lagrar dubbla värden i Excel-filen. Ändra dess förlängning till .zip och packa upp den så ser du, endast 15 betydande siffror lagras i Excel-filen. Följande skärmbild förklarar effekten av [**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits) egenskapen på utmatningsfilen i Excel.
 
 ![todo:image_alt_text](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
 

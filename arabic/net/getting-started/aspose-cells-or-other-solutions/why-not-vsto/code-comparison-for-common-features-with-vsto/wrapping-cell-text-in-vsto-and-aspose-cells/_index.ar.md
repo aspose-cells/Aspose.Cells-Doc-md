@@ -1,33 +1,34 @@
-﻿---
-title: التفاف النص Cell في VSTO و Aspose.Cells
+---
+title: لف النص في الخلية في VSTO و Aspose.Cells
 type: docs
 weight: 250
 url: /ar/net/wrapping-cell-text-in-vsto-and-aspose-cells/
 ---
-لإنشاء ورقة عمل تحتوي على خليتين ، إحداهما بنص ملفوف والأخرى بدون:
 
-1.  قم بإعداد ورقة العمل:
- 1. إنشاء مصنف.
- 1. قم بالوصول إلى ورقة العمل الأولى.
-1.  أضف نصًا:
- 1. أضف نصًا إلى الخلية A1.
- 1. أضف نصًا ملفوفًا إلى الخلية A5.
-1. احفظ جدول البيانات.
- توضح عينات الكود أدناه كيفية تنفيذ هذه الخطوات باستخدام VSTO مع إما C#. نماذج التعليمات البرمجية التي توضح كيفية القيام بنفس الشيء باستخدام Aspose.Cells for .NET ، ومرة أخرى باستخدام C# اتبعها مباشرة بعد ذلك.
+لإنشاء ورقة عمل بها خليتان، إحداها تحتوي على نص ملفوف والأخرى بدون:
 
-ينتج عن تشغيل الكود جدول بيانات يحتوي على خليتين ، إحداهما تحتوي على نص لم يتم تغليفه ، والأخرى تحتوي على:
+1. إعداد الورقة العمل: 
+   1. إنشاء دفتر عمل.
+   1. الوصول إلى الورقة العمل الأولى.
+1. إضافة نص: 
+   1. إضافة نص إلى الخلية A1.
+   1. إضافة نص ملفوف إلى الخلية A5.
+1. حفظ جدول البيانات.
+   الأمثلة أدناه تظهر كيفية أداء هذه الخطوات باستخدام VSTO مع C#. تلي الأمثلة التوضيحية لكيفية القيام بنفس الشيء باستخدام Aspose.Cells for .NET، مرة أخرى باستخدام C# على الفور.
+
+تشغيل الشيفرات ينتج في جدول بيانات به خليتان، إحداها تحتوي على نص غير ملفوف، والأخرى تحتوي على:
 
 ## **الإخراج باستخدام VSTO Excel**
 
-![ما يجب القيام به: image_بديل_نص](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-## **الإخراج باستخدام Aspose.Cells for .NET**
+## **الناتج باستخدام Aspose.Cells for .NET**
 
-![ما يجب القيام به: image_بديل_نص](picture2.png)
+![todo:image_alt_text](picture2.png)
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Access vsto application
 
@@ -71,7 +72,7 @@ app.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void WrappingCellText()
 
@@ -115,8 +116,8 @@ app.Quit();
 
 {{< /highlight >}}
 
-## **تنزيل نموذج التعليمات البرمجية**
+## **تحميل رمز عينة**
 
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
-- [سورس فورج](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip / تنزيل)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).أَزِيز)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip)

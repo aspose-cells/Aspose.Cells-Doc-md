@@ -1,43 +1,48 @@
-﻿---
-title: "Extensiones web: complementos de Office"
+---
+title: Extensiones Web  Complementos de Office
 type: docs
 weight: 130
 url: /es/net/web-extensions-office-add-ins/
 ---
-Las extensiones web amplían las aplicaciones de Office e interactúan con el contenido de los documentos de Office. Web Extensions agrega funcionalidad adicional al cliente de Office para mejorar la experiencia del usuario y la productividad.
 
-Aspose.Cells también ofrece la posibilidad de trabajar con Web Extensions.
+Las extensiones web extienden las aplicaciones de Office e interactúan con el contenido en los documentos de Office. Las extensiones web añaden funcionalidad adicional al cliente de Office para mejorar la experiencia del usuario y la productividad.
 
-## **Agregar extensión web**
+Aspose.Cells también proporciona la capacidad de trabajar con extensiones web.
 
- Puede agregar extensiones web (complementos de Office) en Excel haciendo clic en el**Insertar** pestaña y luego haciendo clic en el**Almacenar**/**Obtener complementos** Enlace. En el cuadro Complementos, busque el complemento que desee y agréguelo.
+## **Agregar Extensión Web**
 
-Aspose.Cells también proporciona la función para agregar Web Extensions usando el[**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) y[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) clases El siguiente ejemplo de código demuestra el uso de[**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) y[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane)clases para agregar una extensión web al archivo de Excel. Por favor vea el[archivo de salida de Excel](89849869.xlsx)generado por el código como referencia.
+Puedes agregar extensiones web (complementos de Office) en Excel haciendo clic en la pestaña **Insertar** y luego en el enlace **Tienda**/**Obtener complementos**. En el cuadro de complementos, busca el complemento que desees y añádelo.
+
+Aspose.Cells también proporciona la función de agregar extensiones web mediante las clases [**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) y [**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane). El siguiente código de ejemplo demuestra el uso de las clases [**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) y [**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) para agregar una extensión web al archivo de Excel. Consulta el [archivo de Excel de salida](89849869.xlsx) generado por el código para más detalles.
 
 ### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AddWebExtension-1.cs" >}}
 
-## **Acceder a la información de la extensión web**
+## **Acceder a la Información de la Extensión Web**
 
- Aspose.Cells brinda la posibilidad de acceder a la información de Web Extensions en un archivo de Excel. El siguiente ejemplo de código demuestra cómo acceder a la información de la extensión web cargando el[ejemplo de archivo de Excel](89849870.xlsx). Consulte la salida de la consola generada por el código como referencia.
+Aspose.Cells proporciona la capacidad de acceder a la información de las extensiones web en un archivo de Excel. El siguiente código de ejemplo demuestra cómo acceder a la información de la extensión web cargando el [archivo de Excel de ejemplo](89849870.xlsx). Consulta la salida de la consola generada por el código para más detalles.
 
 ### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AccessWebExtensionInformation-1.cs" >}}
 
-### **Salida de consola**
+### **Salida de la consola**
 
-Ancho: 350
+{{< highlight java >}}
 
-EsVisible: Verdadero
+Width: 350
 
-Está bloqueado: falso
+IsVisible: True
 
-DockState: derecho
+IsLocked: False
 
-Nombre de la tienda: es-ES
+DockState: right
 
-Tipo de tienda: OMEX
+StoreName: en-US
+
+StoreType: OMEX
 
 WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
+
+{{< /highlight >}}

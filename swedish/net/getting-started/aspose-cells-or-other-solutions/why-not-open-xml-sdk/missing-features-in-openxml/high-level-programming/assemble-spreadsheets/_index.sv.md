@@ -1,30 +1,31 @@
-﻿---
-title: Sätt ihop kalkylblad
+---
+title: Montera kalkylblad
 type: docs
 weight: 10
 url: /sv/net/assemble-spreadsheets/
 ---
-Det här avsnittet beskriver hur du:
 
-Skapa en ny Excel-fil från början och lägg till ett kalkylblad till den.
+Denna avsnitt beskriver hur du:
 
-- Lägg till kalkylblad till designerkalkylblad.
-- Få åtkomst till kalkylblad med bladets namn.
-- Ta bort ett kalkylblad från en Excel-fil med dess arknamn.
-- Ta bort ett kalkylblad från en Excel-fil med hjälp av dess arkindex.
-- Aspose.Cells tillhandahåller en klass, arbetsbok som representerar en Excel-fil. Klassen Workbook innehåller en kalkylbladssamling som gör det möjligt att komma åt varje kalkylblad i Excel-filen.
+Skapa en ny Excel-fil från grunden och lägg till kalkylblad i den.
 
-Ett kalkylblad representeras av klassen Worksheet. Klassen Worksheet tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad.
-## **Lägga till kalkylblad till en ny Excel-fil**
-Så här skapar du en ny Excel-fil programmatiskt:
+- Lägg till kalkylblad i designerkalkylblad.
+- Få åtkomst till kalkylblad med hjälp av kalkylbladets namn.
+- Ta bort ett kalkylblad från en Excel-fil med hjälp av dess kalkylbladsnamn.
+- Ta bort ett kalkylblad från en Excel-fil med hjälp av dess kalkylbladsindex.
+- Aspose.Cells tillhandahåller en klass, Workbook, som representerar en Excel-fil. Workbook-klassen innehåller en Worksheets-samling som möjliggör åtkomst till varje kalkylblad i Excel-filen.
 
-- Skapa ett objekt av klassen Workbook.
-- Anropa Lägg till metoden i samlingen arbetsblad. Ett tomt kalkylblad läggs automatiskt till i Excel-filen *. Det kan refereras till genom att skicka arkindexet för det nya kalkylbladet till kalkylbladssamlingen.
-- Skaffa en kalkylbladsreferens.
-- Utför arbete på arbetsbladen.
-- Spara den nya Excel-filen med nya kalkylblad genom att anropa Workbook-klassens Spara-metod.
+Ett kalkylblad representeras av Worksheet-klassen. Worksheet-klassen erbjuder ett brett utbud av egenskaper och metoder för att hantera kalkylblad.
+## **Lägga till kalkylblad i en ny Excelfil**
+För att skapa en ny Excel-fil programmatiskt:
 
-{{< highlight "csharp" >}}
+- Skapa en instans av Workbook-klassen.
+- Anropa Add-metoden i Worksheets-samlingen. Ett tomt kalkylblad läggs automatiskt till Excel-filen. Det kan refereras genom att skicka kalkylbladets index till Worksheets-samlingen.
+- Hämta en kalkylbladsreferens.
+- Utför arbete på kalkylbladen.
+- Spara den nya Excel-filen med nya kalkylblad genom att skicka Använd metoden för klassen Workbook.
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -47,10 +48,10 @@ worksheet.Name = "My Worksheet";
 workbook.Save("Adding Worksheet.xls");
 
 {{< /highlight >}}
-## **Lägga till kalkylblad till ett designerkalkylblad**
-Processen att lägga till kalkylblad till ett designerkalkylblad är densamma som att lägga till ett nytt kalkylblad, förutom att Excel-filen redan finns så bör öppnas innan kalkylblad läggs till. Ett designerkalkylblad kan öppnas av klassen Workbook.
+## **Lägga till kalkylblad i ett designerkalkylblad**
+Processen att lägga till kalkylblad i ett designerkalkylblad är densamma som att lägga till ett nytt kalkylblad, förutom att Excel-filen redan finns så den måste öppnas innan kalkylbladen läggs till. Ett designerkalkylblad kan öppnas med hjälp av Workbook-klassen.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -83,10 +84,10 @@ workbook.Save("Designer Spreadsheet.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Få åtkomst till kalkylblad med hjälp av arbetsbladsnamn**
-Få åtkomst till eller få ett kalkylblad genom att ange dess namn eller index.
+## **Tillgång till kalkylblad med hjälp av kalkylbladsnamn**
+Få åtkomst till eller hämta vilket kalkylblad som helst genom att ange dess namn eller index.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -103,10 +104,10 @@ Workbook workbook = new Workbook(fstream);
 Worksheet worksheet = workbook.Worksheets["Sheet1"];
 
 {{< /highlight >}}
-## **Ta bort kalkylblad med Sheet Name**
-För att ta bort kalkylblad från en fil, anropa kalkylbladssamlingens RemoveAt-metoden. Skicka arknamnet till metoden RemoveAt för att ta bort ett specifikt kalkylblad.
+## **Ta bort kalkylblad med hjälp av kalkylbladsnamn**
+För att ta bort kalkylblad från en fil, anropa RemoveAt-metoden i Worksheets-samlingen. Skicka kalkylbladets namn till RemoveAt-metoden för att ta bort ett specifikt kalkylblad.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -125,10 +126,10 @@ workbook.Worksheets.RemoveAt("Sheet3");
 workbook.Save("WorksHeet Operations.xls");
 
 {{< /highlight >}}
-## **Ta bort kalkylblad med Sheet Index**
-Att ta bort kalkylblad efter namn fungerar bra när namnet på kalkylbladet är känt. Om du inte känner till kalkylbladets namn, använd en överbelastad version av RemoveAt-metoden som tar kalkylbladets arkindex istället för dess arknamn.
+## **Ta bort kalkylblad med hjälp av kalkylbladsindex**
+Att ta bort kalkylblad med namn fungerar bra när kalkylbladets namn är känt. Om du inte vet kalkylbladets namn, använd en överlagrad version av RemoveAt-metoden som tar kalkylbladets index istället för dess namn.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //creating a file stream containing the Excel file to be opened
 
@@ -147,6 +148,6 @@ workbook.Worksheets.RemoveAt(1);
 workbook.Save("WorksHeet Operations.xls");
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Assemble%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Assemble%20Worksheet%20%28Aspose.Cells%29.zip)

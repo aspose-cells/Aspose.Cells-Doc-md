@@ -1,21 +1,22 @@
-﻿---
-title: Настройка высоты строки и ширины столбца в Python
+---
+title: Регулировка высоты строки и ширины столбца в Python
 type: docs
 weight: 10
 url: /ru/java/adjusting-row-height-and-column-width-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel pytho
-description: Используйте Python Excel API для создания файлов Excel в Python. Отрегулируйте высоту строки и ширину столбца в XLSX или XLS в приложениях Python без MS Office.
+keywords: "создать XLSX в Python, создать XLS в Python, XLS python, XLSX python, высота строки python, ширина столбца python, Excel python"
+description: Используйте Python Excel API для создания файлов Excel в Python. Настройте высоту строки и ширину столбца в XLSX или XLS в ваших приложениях на Python без MS Office.
 ---
-## **Электронные таблицы Excel в Python — Настройка высоты строки и ширины столбца**
-### **Настройка высоты строки**
+
+## **Электронные таблицы Excel в Python - Настройка высоты строки и ширины столбца**
+### **Установка высоты строки**
 С помощью Aspose.Cells можно установить высоту одной строки в Python, вызвав метод setRowHeight коллекции Cells. Метод setRowHeight принимает следующие параметры:
 
-- **Индекс строки**, индекс строки, высоту которой вы меняете.
+- **Индекс строки**, индекс строки, высоту которой вы изменяете.
 - **Высота строки**, высота строки, применяемая к строке.
 
-**Python Код**
+**Код Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_row_height(self):
 
@@ -40,15 +41,15 @@ workbook.save(self.dataDir + "Set Row Height.xls")
 print "Set Row Height Successfully." 
 
 {{< /highlight >}}
-### **Настройка ширины столбца**
+### **Установка ширины столбца**
 Установите ширину столбца, вызвав метод setColumnWidth коллекции Cells. Метод setColumnWidth принимает следующие параметры:
 
-- **Индекс столбца**, индекс столбца, ширину которого вы меняете.
-- **Ширина колонки**, желаемая ширина столбца.
+- **Индекс колонки**, индекс колонки, ширину которой вы изменяете.
+- **Ширина колонки**, желаемая ширина колонки.
 
-**Python Код**
+**Код Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_column_width(self):
 
@@ -73,7 +74,7 @@ workbook.save(self.dataDir + "Set Column Width.xls")
 print "Set Column Width Successfully." 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Настройка высоты строки и ширины столбца (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Настройка высоты строки и ширины столбца (Aspose.Cells)** с любого из перечисленных ниже сайтов социальной разработки:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

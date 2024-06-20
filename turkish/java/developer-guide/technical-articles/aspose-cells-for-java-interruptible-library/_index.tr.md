@@ -1,31 +1,34 @@
-﻿---
-title: Aspose.Cells for Java - Kesilebilir Kitaplık
+---
+title: Aspose.Cells for Java  Kesintili Kütüphane
 type: docs
 weight: 1090
 url: /tr/java/aspose-cells-for-java-interruptible-library/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java, büyük Excel dosyalarıyla çalışırken yükleme/kaydetme işleminin kesilmesini destekler. Bazen kitaplıkları/bileşenleri kesintiye uğratılabilir yapmak istersiniz. Bu kesinlikle hizmetlerinizin/süreçlerinizin verimliliğini ve güvenilirliğini artıracaktır. Çok uzun sürdüğünü fark ettiğinizde, bir dönüşümden kısmen vazgeçebilirsiniz. Bu, CPU kullanımından, RAM'den vs.
+Aspose.Cells for Java, büyük Excel dosyalarıyla çalışırken yükleme/kaydetme sürecini kesintiye uğratmayı destekler. Bazen, kütüphaneleri/bileşenleri kesintiye uğratmak istersiniz. Bu kesinlikle hizmetlerinizin/süreçlerinizin verimliliğini ve güvenilirliğini artıracaktır. Uzun sürdüğünü fark ettiğinizde dönüşümün bir noktasında güvenle vazgeçebilirsiniz. Bu, CPU kullanımını, RAM'i vb. kaydeder. Bu, dönüşümü iptal etmek için tüm sunucuyu öldürme gibi drastik adımlar atmamanız anlamına gelir. 
 {{% /alert %}}
 
-## **Örnek vermek:**
+## **Örnek:**
 
- Aşağıdaki program, kullanarak kaydetme işleminin nasıl kesileceğini gösterir.**InterruptMonitor.interrupt()** yöntem.
+Aşağıdaki program, **InterruptMonitor.interrupt()** yöntemini kullanarak kaydetme sürecini kesintiye uğratmayı nasıl gösterir.
 
-[**Java**]{{< highlight "java" >}}
+[**Java**]
 
- //Yeni bir Çalışma Kitabı oluştur
+{{< highlight java >}}
 
-son Çalışma Kitabı wb = yeni Çalışma Kitabı();
+ //Create a new Workbook  
 
-// Çalışma Sayfalarını Alın
+final Workbook wb = new Workbook();
+
+// Get the Worksheets
 
 WorksheetCollection wss = wb.getWorksheets();
 
-// Sayfa hücrelerini verilerle doldurmak için bir döngü çalıştırın
+// Run a loop to fill sheet cells with data
 
- için (int ben = 0; ben< 50; i++) {
+for (int i = 0; i < 50; i++) {
 
     Worksheet sheet = wss.get(wss.add());
 

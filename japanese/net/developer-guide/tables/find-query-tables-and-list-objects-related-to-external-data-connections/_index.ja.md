@@ -1,24 +1,25 @@
-﻿---
-title: 外部データ接続に関連するクエリ テーブルとリスト オブジェクトを検索する
+---
+title: 外部データ接続に関連するクエリテーブルとリストオブジェクトを見つける
 type: docs
 weight: 20
 url: /ja/net/find-query-tables-and-list-objects-related-to-external-data-connections/
 ---
+
 {{% alert color="primary" %}} 
 
-外部データ接続に関連するクエリ テーブルとリスト オブジェクトを見つける必要がある場合があります。クエリ テーブルは接続 ID を持つ外部データ接続オブジェクトに関連付けられ、リスト オブジェクトはクエリ テーブルに関連付けられます。
+時々、外部データ接続に関連するクエリテーブルとリストオブジェクトを見つける必要があります。 クエリテーブルは、接続IDを持つ外部データ接続オブジェクトと関連しており、リストオブジェクトはクエリテーブルに関連しています。
 
 {{% /alert %}} 
-## **外部データ接続に関連するクエリ テーブルとリスト オブジェクトを検索する**
-以下のサンプルコードは[サンプルエクセルファイル](5115493.xlsm)外部データ接続に関連するクエリ テーブルとリスト オブジェクトを検索する方法を説明します。
+## **外部データ接続に関連するクエリテーブルとリストオブジェクトを見つける**
+[サンプルエクセルファイル](5115493.xlsm)を使用して、外部データ接続に関連するクエリテーブルとリストオブジェクトを見つける方法について説明する以下のサンプルコードを参照してください。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-FindQueryTablesAndListObjectsOfExternalDataConnections.cs" >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-PrintTables.cs" >}}
 
-以下は、これを使用して上記のサンプル コードを実行した場合のコンソール出力です。[サンプルエクセルファイル](5115493.xlsm).
+上記のサンプルコードをこの[サンプルエクセルファイル](5115493.xlsm)で実行した場合のコンソール出力は次のとおりです。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  connection: AAPL Connection
 

@@ -1,25 +1,26 @@
-﻿---
-title: نقل مدى Cells في ورقة عمل
+---
+title: نقل مجموعة من الخلايا في ورقة العمل
 type: docs
 weight: 370
 url: /ar/net/move-range-of-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-توضح هذه المقالة كيفية نقل نطاق من الخلايا في ورقة عمل.
+يوضح هذا المقال كيفية نقل مجموعة من الخلايا في ورقة العمل.
 
 {{% /alert %}} 
-## **نقل مدى Cells في ورقة عمل**
-يستخدم رمز المثال ملف قالب لتوضيح المهمة.
+## **نقل مجموعة من الخلايا في ورقة العمل**
+يستخدم الشفرة المثالية ملف قالب لتوضيح المهمة.
 
 **ملف الإدخال** 
 
-![ما يجب القيام به: image_بديل_نص](move-range-of-cells-in-a-worksheet_1.png)
+![todo:image_alt_text](move-range-of-cells-in-a-worksheet_1.png)
 
-الرجاء مراجعة الملف التالي الذي تم إنشاؤه بنطاق A1: B5 تم نقله إلى C1: D5.
+يرجى الاطلاع على الملف الناتج التالي بالنطاق A1:B5 المحرك إلى C1:D5.
 
-**ملف الإخراج** 
+ملف الإخراج 
 
-![ما يجب القيام به: image_بديل_نص](move-range-of-cells-in-a-worksheet_2.png)
+![todo:image_alt_text](move-range-of-cells-in-a-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Move-Range.cs" >}}

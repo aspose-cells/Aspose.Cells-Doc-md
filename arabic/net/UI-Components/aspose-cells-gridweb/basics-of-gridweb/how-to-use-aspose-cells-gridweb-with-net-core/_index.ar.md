@@ -1,41 +1,44 @@
-﻿---
+---
 title: كيفية استخدام Aspose.Cells.GridWeb مع .NET Core
 type: docs
 weight: 40
-url: /ar/net/how-to-use-aspose-cells-gridweb-with-net-core/
+url: /ar/net/aspose-cells-gridweb/how-to-use-aspose-cells-gridweb-with-net-core/
+keywords: GridWeb,dotnetcore
+description: يقدم هذا المقال كيفية استخدام GridWeb في تطبيق ويب .net core
 ---
+
 {{% alert color="primary" %}} 
 
 يشرح هذا الموضوع كيفية استخدام Aspose.Cells.GridWeb مع تطبيقات .NET Core باستخدام Visual Studio.NET 2019. هذا الموضوع مفيد للمطورين على مستوى المبتدئين الذين يعملون مع Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
-## **استخدم Aspose.Cells.GridWeb مع .NET Core**
-يوضح هذا الموضوع كيفية استخدام Aspose.Cells.GridWeb من خلال إنشاء نموذج لموقع ويب في Visual Studio 2019. وقد تم تقسيم العملية إلى خطوات.
-### **الخطوة الأولى: إنشاء مشروع جديد**
-1. افتح Visual Studio 2019.
-1.  من**ملف** القائمة ، حدد**جديد** ، ومن بعد**مشروع**.
- يتم فتح مربع حوار إنشاء مشروع جديد.
-1.  يختار**ASP.NET تطبيق الويب الأساسي** من Visual Studio تثبيت قوالب المشروع وانقر فوق**التالي**.
+## **استخدام Aspose.Cells.GridWeb مع .NET Core**
+يوضح هذا الموضوع كيفية استخدام Aspose.Cells.GridWeb عن طريق إنشاء موقع ويب عيني في Visual Studio 2019. تم تقسيم العملية إلى خطوات.
+### **الخطوة 1: إنشاء مشروع جديد**
+1. قم بفتح برنامج Visual Studio 2019.
+1. من قائمة **ملف**, حدد **جديد**, ثم **مشروع**.
+   يتم فتح مربع حوار إنشاء مشروع جديد.
+1. حدد **ASP.NET Core Web Application** من قوالب المشاريع المثبتة في برنامج Visual Studio وانقر **التالي**.
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_1.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_1.jpg)
 
-1.  حدد موقعًا حيث موقع واسم المشروع وانقر**خلق**.
+1. حدد الموقع واسم المشروع ثم انقر **إنشاء**.
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_2.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_2.jpg)
 
-1.  حدد ملف**تطبيق الويب (Model-View-Controller)** وتأكد من ذلك**ASP .NET Core 2.1.2 تحديث** تم الإختيار.
+1. حدد قالب **Web Application (Model-View-Controller)** وتأكد من تحديد **ASP .NET Core 2.1**. 
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_3.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_3.jpg)
 
-1.  انقر**خلق**.
+1. انقر **إنشاء**.
 ### **الخطوة 2: فحص العرض الأولي**
-يؤدي تشغيل المشروع الذي تم إنشاؤه حديثًا إلى إظهار القالب الافتراضي في المتصفح كما هو موضح في الصورة أدناه.
+تشغيل المشروع الذي تم إنشاؤه مؤخرًا يعرض النموذج الافتراضي في المتصفح كما هو موضح في الصورة أدناه.
 
 
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_4.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_4.jpg)
 ### **الخطوة 3: إضافة Aspose.Cells.GridWeb**
-1. أضف الحزم Nuget التالية إلى المشروع
+1. أضف حزم Nuget التالية إلى المشروع.
 
 <PackageReference Include="Microsoft.AspNetCore.App" />
 <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
@@ -43,57 +46,57 @@ url: /ar/net/how-to-use-aspose-cells-gridweb-with-net-core/
 <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
 <PackageReference Include="System.Text.Encoding.CodePages" Version="4.7.0" />
 
-1. إضافة Aspose.Cells.GridWeb Package
+1. أضف حزمة Aspose.Cells.GridWeb
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_5.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_5.jpg)
 
-1. أضف ما يلي إلى ملف ** _ ViewImports.cshtml ** في مجلد Views.
+1. أضف الكود التالي إلى ملف **_ViewImports.cshtml** في مجلدات العرض.
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-ViewImports.cs" >}}
 
-سيبدو الملف هكذا بعد التعديلات
+سيبدو الملف بهذا الشكل بعد التعديلات
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_6.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_6.jpg)
 
-1. ضع الكود التالي في طريقة فهرس HomeController's.
+1. ضع الكود التالي في طريقة Index في ملف HomeController.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-HomeController.cs" >}}
 
 {{% alert color="primary" %}} 
 
-تذكر أن تقوم بتحديث SessionStorePath ومسار ImportExcelFile.
+تذكر تحديث مسار SessionStorePath ومسار ImportExcelFile.
 
 {{% /alert %}} 
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_7.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_7.jpg)
 
-1.  أضف التعليمات البرمجية التالية في ملف**Index.cshtml** ملف في عرض> الدليل الرئيسي.
+1. أضف الكود التالي في ملف **Index.cshtml** في مجلد العرض > الرئيسي.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-IndexView.cs" >}}
 
-سيبدو الملف هكذا بعد التغيير.
+سيبدو الملف بهذا الشكل بعد التغيير.
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_8.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_8.jpg)
 
-1. إضافة دعم الجلسة و GridScheduedService في ملف Startup.cs
- 1. قم بإضافة مقتطف الشفرة التالي في طريقة ConfigureServices.
+1. أضف دعم الجلسة و GridScheduedService في ملف Startup.cs
+   1. أضف كود المقتطف التالي في طريقة الـ ConfigureService.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-Startup1.cs" >}}
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_9.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_9.jpg)
 
-1. أضف مقتطف الشفرة التالي في طريقة التكوين.
+1. أضف قطعة الكود التالية في طريقة التكوين.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-Startup2.cs" >}}
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_10.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_10.jpg)
 
-1. ضع أحدث acw_client في الدليل: ** wwwroot / js ** {{% alert color="primary" %}} {{% /alert %}}
-1.  يضيف**AcwController**في وحدات التحكم للتعامل مع خريطة مسار ACW التي يمكن أن توفر جميع العمليات الافتراضية لإجراء التحرير العام.
+1. ضع أحدث acw_client في الدليل: **wwwroot/js** {{% alert color="primary" %}}   {{% /alert %}}
+1. أضف **AcwController** في المتحكمات للتعامل مع خريطة مسار الـ acw التي يمكن أن توفر جميع العمليات الافتراضية لإجراءات تحرير عامة.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-AcwController.cs" >}}
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_11.jpg)
-### **الخطوة 4: اختبر التطبيق**
-سيؤدي تشغيل التطبيق إلى إخراج مشابه لما هو موضح في الصورة أدناه.
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_11.jpg)
+### **الخطوة 4: اختبار التطبيق**
+تشغيل التطبيق سيكون المخرج مشابهًا لما هو موضح في الصورة أدناه.
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-aspose-cells-gridweb-with-net-core_12.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_12.jpg)

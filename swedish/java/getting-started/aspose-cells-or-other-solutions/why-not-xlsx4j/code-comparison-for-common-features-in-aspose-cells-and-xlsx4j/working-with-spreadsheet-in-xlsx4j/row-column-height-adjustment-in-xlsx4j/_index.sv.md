@@ -1,23 +1,24 @@
-﻿---
-title: Justering av radkolumnhöjd i xlsx4j
+---
+title: Justering av rad och kolumnhöjd i xlsx4j
 type: docs
 weight: 50
 url: /sv/java/row-column-height-adjustment-in-xlsx4j/
 ---
-## **Aspose.Cells - Justering av radkolumnhöjd**
-Det är möjligt att ställa in höjden på en enda rad genom att anropa Cells-samlingens setRowHeight-metod. Metoden setRowHeight tar följande parametrar:
 
-- **Radindex**, indexet för raden som du ändrar höjden på.
+## **Aspose.Cells - Justering av rad- och kolumnhöjd**
+Det är möjligt att ange höjden på en enskild rad genom att anropa Cells kollektionens setRowHeight-metod. Metoden setRowHeight tar följande parametrar:
+
+- **Radindex**, index för den rad vars höjd du ändrar.
 - **Radhöjd**, radhöjden som ska tillämpas på raden.
 
-Ställ in bredden på en kolumn genom att anropa Cells-samlingens setColumnWidth-metod. Metoden setColumnWidth tar följande parametrar:
+Ange bredden på en kolumn genom att anropa samlingen 'cells' 'setColumnWidth' -metoden.
 
-- **Kolumnindex**, indexet för kolumnen som du ändrar bredden på.
+- **Kolumnindex**, index för den kolumn vars bredd du ändrar.
 - **Kolumnbredd**, önskad kolumnbredd.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cells.setRowHeight(1, 40);
 cells.setColumnWidth(1, 17.5);
 
 {{< /highlight >}}
-## **xlsx4j - Justering av radkolumnhöjd**
-Row.setHt används för att ställa in anpassad höjd för rader med xlsx4j. setCustomHeight ska ställas in på TRUE.
+## **xlsx4j - Justering av rad- och kolumnhöjd**
+Row.setHt används för att ställa in anpassad höjd för rader med hjälp av xlsx4j. setCustomHeight ska ställas in på TRUE.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SpreadsheetMLPackage pkg = SpreadsheetMLPackage.createPackage();
 
@@ -88,13 +89,13 @@ row.getC().add(cell2);
 sheetData.getRow().add(row);
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Justera radhöjd och kolumnbredd](/java/adjusting-row-height-and-volumn-width).
+För mer detaljer, besök [Justera radhöjd och kolumnbredd](/java/adjusting-row-height-and-volumn-width).
 
 {{% /alert %}}

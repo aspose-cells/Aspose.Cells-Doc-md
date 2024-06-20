@@ -1,11 +1,12 @@
-﻿---
-title: Çalışma Sayfası Cell'de Dizeyi Görüntüle
+---
+title: Çalışsayfa Hücresinde Dize Göster
 type: docs
 weight: 110
 url: /tr/net/display-string-in-worksheet-cell/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -17,7 +18,7 @@ url: /tr/net/display-string-in-worksheet-cell/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -30,5 +31,5 @@ url: /tr/net/display-string-in-worksheet-cell/
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **İndirmek**
+## **İndir**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DisplayStringInCell.Aspose.Cells.zip)

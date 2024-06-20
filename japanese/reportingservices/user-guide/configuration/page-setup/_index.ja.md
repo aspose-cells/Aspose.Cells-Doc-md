@@ -1,23 +1,24 @@
-﻿---
+---
 title: ページ設定
 type: docs
 weight: 80
 url: /ja/reportingservices/page-setup/
 ---
-構成には、2 つのセクションと 8 種類のページ設定プロパティが含まれます。これらのプロパティには、name、index、FitToPagesTall、FitToPagesWide、TopMargin、FooterMargin、HeaderMargin、BottomMargin、LeftMargin、および RightMargin が含まれます。
 
-- **名前**はレポート名を表し、名前が空白の場合はレポート全体を表します。
-- **索引**エクスポートされた Excel ファイルのワークシート インデックスを表します。
-- **FitToPagesTall**印刷時にワークシートが拡大縮小される高さのページ数を表します。
-- **FitToPagesWide**印刷時にワークシートが拡大縮小されるページ幅を表します。
-- **フッターマージン**ページの下部からフッターまでの距離をセンチメートル単位で表します。
-- **ヘッダーマージン**ページの上部からヘッダーまでの距離をセンチメートル単位で表します。
-- **左余白**左マージンのサイズをセンチメートル単位で表します。
-- **右余白**右余白のサイズをセンチメートル単位で表します。
-- **トップマージン**上余白のサイズをセンチメートル単位で表します。
-- **下余白**下余白のサイズをセンチメートル単位で表します。
+構成には2つのセクションと8種類のページ設定プロパティが含まれています。これらのプロパティには、名前、インデックス、FitToPagesTall、FitToPagesWide、TopMargin、FooterMargin、HeaderMargin、BottomMargin、LeftMargin、RightMarginが含まれています。
 
-PageSetup 構成例:
+- **name**はレポート名を表し、空白の場合はレポート全体を表します。
+- **index**はエクスポートされたExcelファイルのワークシートのインデックスを表します。
+- **FitToPagesTall**は印刷時にワークシートがスケーリングされる縦のページ数を表します。
+- **FitToPagesWide**は印刷時にワークシートがスケーリングされる横のページ数を表します。
+- **FooterMargin**はページの下部からフッターまでの距離をセンチメートル単位で表します。
+- **HeaderMargin**はページの上部からヘッダーまでの距離をセンチメートル単位で表します。
+- **LeftMargin**は左余白のサイズをセンチメートル単位で表します。
+- **RightMargin**は右余白のサイズをセンチメートル単位で表します。
+- **TopMargin**は上部余白のサイズをセンチメートル単位で表します。
+- **BottomMargin**は下部余白のサイズをセンチメートル単位で表します。
+
+ページ設定の構成例
 
 {{code  lang="xml" }}
 <PageSetup>

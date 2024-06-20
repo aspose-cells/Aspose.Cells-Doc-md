@@ -1,21 +1,24 @@
-﻿---
-title: Aggiungi fogli di lavoro
+---
+title: Aggiungere Fogli di Lavoro
 type: docs
 weight: 20
-url: /it/net/add-worksheets/
+url: /it/net/aspose-cells-gridweb/add-worksheet/
+keywords: GridWeb,add,worksheet,add GridWorksheet
+description: Questo articolo introduce come aggiungere un foglio di lavoro (GridWorksheet) in GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-fogli di lavoro sono parte integrante di Aspose.Cells.GridWeb. Tutti i dati vengono gestiti e archiviati sotto forma di fogli di lavoro. Aspose.Cells.GridWeb consente agli sviluppatori di aggiungere uno o più fogli di lavoro al controllo Aspose.Cells.GridWeb. Questo argomento illustra approcci semplici per l'aggiunta di fogli di lavoro a Aspose.Cells.GridWeb.
+I fogli di lavoro sono una parte integrante di Aspose.Cells.GridWeb. Tutti i dati sono gestiti e memorizzati sotto forma di fogli di lavoro. Aspose.Cells.GridWeb consente agli sviluppatori di aggiungere uno o più fogli di lavoro al controllo Aspose.Cells.GridWeb. Questo argomento mostra approcci semplici per aggiungere fogli di lavoro ad Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
-## **Aggiunta di un foglio di lavoro**
+## **Aggiunta di un Foglio di Lavoro**
 ### **Senza specificare il nome del foglio**
-Il modo più semplice per aggiungere un foglio di lavoro a Aspose.Cells.GridWeb consiste nel chiamare il metodo Add della raccolta GridWorksheetCollection nel controllo GridWeb. Questo crea fogli di lavoro che utilizzano nomi predefiniti (ovvero Foglio1, Foglio2, Foglio3 e così via) e li aggiunge al controllo GridWeb.
+Il modo più semplice per aggiungere un foglio di lavoro ad Aspose.Cells.GridWeb è chiamare il metodo Aggiungi della collezione GridWorksheetCollection nel controllo GridWeb. Ciò crea fogli di lavoro che utilizzano nomi predefiniti (come Foglio1, Foglio2, Foglio3 e così via) e li aggiunge al controllo GridWeb.
 
-**Output: un foglio di lavoro con nome predefinito è stato aggiunto a GridWeb** 
+**Output: è stato aggiunto un foglio di lavoro con un nome predefinito a GridWeb** 
 
-![cose da fare:immagine_alt_testo](add-worksheets_1.png)
+![todo:image_alt_text](add-worksheets_1.png)
 
 
 
@@ -23,15 +26,15 @@ Il modo più semplice per aggiungere un foglio di lavoro a Aspose.Cells.GridWeb 
 
 {{% alert color="primary" %}} 
 
- Il metodo Add restituisce l'indice del nuovo foglio di lavoro che può essere utilizzato per accedere all'istanza di questo foglio di lavoro. Per maggiori dettagli su come accedere ai fogli di lavoro, leggi[Accedi ai fogli di lavoro](/cells/it/net/access-worksheets/).
+Il metodo Aggiungi restituisce l'indice del nuovo foglio di lavoro che può essere utilizzato per accedere all'istanza di questo foglio di lavoro. Per ulteriori dettagli su come accedere ai fogli di lavoro, leggere [Accesso ai Fogli di Lavoro](/cells/it/net/aspose-cells-gridweb/access-worksheets/).
 
 {{% /alert %}} 
-### **Con il nome del foglio specificato**
-Per aggiungere un foglio di lavoro con un nome specifico al controllo GridWeb invece di usare lo schema di denominazione predefinito, chiamare una versione di overload del metodo Add che accetta il SheetName specificato. Ad esempio, l'esempio seguente aggiunge un foglio di lavoro denominato Invoice.
+### **Con nome del foglio specificato**
+Per aggiungere un foglio di lavoro con un nome specifico al controllo GridWeb anziché utilizzare lo schema di denominazione predefinito, chiamare una versione sovraccaricata del metodo Aggiungi che prende il nome del Foglio specificato. Ad esempio, l'esempio sottostante aggiunge un foglio di lavoro chiamato Fattura.
 
-**Output: un foglio di lavoro con un nome specificato è stato aggiunto a GridWeb** 
+**Output: è stato aggiunto un foglio di lavoro con un nome specificato a GridWeb** 
 
-![cose da fare:immagine_alt_testo](add-worksheets_2.png)
+![todo:image_alt_text](add-worksheets_2.png)
 
 
 
@@ -39,6 +42,6 @@ Per aggiungere un foglio di lavoro con un nome specifico al controllo GridWeb in
 
 {{% alert color="primary" %}} 
 
-Il metodo Add che accetta il nome del foglio di lavoro come stringa restituisce un'istanza di GridWorksheet.
+Il metodo Aggiungi che accetta il nome del foglio di lavoro come stringa restituisce un'istanza di GridWorksheet.
 
 {{% /alert %}}

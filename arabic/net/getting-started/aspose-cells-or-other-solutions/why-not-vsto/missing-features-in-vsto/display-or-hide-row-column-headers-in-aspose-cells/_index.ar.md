@@ -1,38 +1,39 @@
-﻿---
-title: عرض أو إخفاء رؤوس أعمدة الصفوف في Aspose.Cells
+---
+title: عرض أو إخفاء رؤوس الصف والعمود في Aspose.Cells
 type: docs
 weight: 60
 url: /ar/net/display-or-hide-row-column-headers-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-تتكون جميع أوراق العمل في ملف Excel من خلايا مرتبة في صفوف وأعمدة. تحتوي جميع الصفوف والأعمدة على قيم فريدة تُستخدم لتعريفها ولتعريف الخلايا الفردية. على سبيل المثال ، يتم ترقيم الصفوف - 1 ، 2 ، 3 ، 4 ، وما إلى ذلك - ويتم ترتيب الأعمدة أبجديًا - A ، B ، C ، D ، إلخ. يتم عرض قيم الصفوف والأعمدة في الرؤوس. باستخدام Aspose.Cells ، يمكن للمطورين التحكم في رؤية رؤوس الصفوف والأعمدة هذه.
+جميع ورقات العمل في ملف Excel مكونة من خلايا مرتبة في صفوف وأعمدة. جميع الصفوف والأعمدة لها قيم فريدة يتم استخدامها لتحديدها، وتحديد الخلايا الفردية. على سبيل المثال، يتم ترقيم الصفوف – 1، 2، 3، 4، إلخ – وترتيب الأعمدة ترتيباً أبجديا – A، B، C، D، إلخ. تعرض القيم الصف والعمود في الرؤوس. باستخدام Aspose.Cells، يمكن للمطورين التحكم في رؤوس الصف والعمود هؤلاء.
 
 {{% /alert %}}
 
-## **التحكم في رؤية أوراق العمل**
+## **التحكم في رؤية ورقات العمل**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
+توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، التي تمثل ملف Excel لشركة Microsoft. تحتوي فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
 
- يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) توفر class مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل. للتحكم في رؤية رؤوس الصفوف والأعمدة ، استخدم ملحق[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي'[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) خاصية.[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) هي خاصية منطقية ، مما يعني أنه يمكنها فقط تخزين ملف**حقيقي** أو**خاطئة** القيمة.
+يتم تمثيل ورقة العمل بواسطة فئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر فئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة واسعة من الخصائص والأساليب لإدارة ورقات العمل. للتحكم في رؤوس الصف والعمود، استخدم خاصية [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) لفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) هي خاصية منطقية، مما يعني أنه يمكن تخزين قيمة **صحيح** أو **خطأ** فقط.
 
- ويرد أدناه مثال كامل يوضح كيفية استخدام ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي'[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) الخاصية لإخفاء رؤوس الصفوف والأعمدة في ورقة العمل الأولى في ملف.
+يتم تقديم مثال كامل أدناه يوضح كيفية استخدام خاصية [**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) لفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) لإخفاء رؤوس الصف والعمود على ورقة العمل الأولى في ملف.
 
-تظهر لقطة الشاشة Book1.xls ، ملف الإدخال. يحتوي على ثلاث أوراق عمل: الورقة 1 والورقة 2 والورقة 3. تعرض كل ورقة عمل رؤوس الصفوف والأعمدة.
+يظهر لقطة الشاشة ملف Book1.xls، الملف الداخلي. يحتوي على ثلاث ورقات عمل: ورقة1، ورقة2 وورقة3. تعرض كل ورقة عمل رؤوس الصف والعمود.
 
-**Book1.xls: ورقة عمل قبل التعديل**
+**Book1.xls: ورقة العمل قبل التعديل**
 
-![ما يجب القيام به: image_بديل_نص](display-or-hide-row-column-headers-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-row-column-headers-in-aspose-cells_1.png)
 
-يتم فتح Book1.xls عن طريق استدعاء الأسلوب Open لفئة المصنفات ويتم إخفاء رؤوس الصفوف والأعمدة في ورقة العمل الأولى. يتم حفظ الملف المعدل كملف output.xls.
+يتم فتح ملف Book1.xls عن طريق استدعاء طريقة Open لفئة Workbook ويتم إخفاء رؤوس الصف والعمود على ورقة العمل الأولى. تم حفظ الملف المعدل بشكل مخرج.xls.
 
-**Output.xls: ورقة عمل بعد التعديل** 
+**output.xls: ورقة العمل بعد التعديل** 
 
-![ما يجب القيام به: image_بديل_نص](display-or-hide-row-column-headers-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-row-column-headers-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -62,8 +63,8 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Row%20Column%20Headers)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Row%20Column%20Headers)
 
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

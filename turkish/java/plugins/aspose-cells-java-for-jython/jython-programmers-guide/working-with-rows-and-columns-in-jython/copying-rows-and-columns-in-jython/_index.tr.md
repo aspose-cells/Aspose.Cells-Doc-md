@@ -1,83 +1,84 @@
-﻿---
-title: Jython'da Satırları ve Sütunları Kopyalamak
+---
+title: Jython da Satırları ve Sütunları Kopyalama
 type: docs
 weight: 30
 url: /tr/java/copying-rows-and-columns-in-jython/
 ---
-## **Aspose.Cells - Satırları ve Sütunları Kopyalama**
- Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
+
+## **Aspose.Cells - Satır ve Sütunları Kopyalama**
+**Aspose.Cells Java for Jython** ile belgeler eklemek için. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- aspose-cells'ten içe aktarma Ayarları
+ from aspose-cells import Settings
 
-com.aspose.cells'ten içe aktarma Çalışma Kitabı
+from com.aspose.cells import Workbook
 
-sınıf RowsAndColumns:
+class RowsAndColumns:
 
- kesin__içinde__(kendisi):
-
-
-
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
+    def __init__(self):
 
 
 
- # Satırları Kopyalama
-
- self.copy_rows()
-
- # Sütunları Kopyalama
-
- self.kopya_sütunları()
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
 
 
- def copy_rows(dataDir):
+        # Copying Rows
 
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'
+        self.copy_rows()
 
- # Bir Çalışma Kitabı nesnesini excel dosya yoluna göre başlatma
+        # Copying Columns
 
- çalışma kitabı = Çalışma Kitabı(dataDir + 'Book1.xls')
-
- Excel dosyasındaki ilk çalışma sayfasına erişim
-
- çalışma sayfası = çalışma kitabı.getWorksheets().get(0)
-
- # Veriler, biçimlendirmeler, resimler ve çizim nesneleri ile ikinci satırı kopyalayın
-
- # çalışma sayfasındaki 12. satıra.
-
- worksheet.getCells().copyRow(worksheet.getCells(),1,11)
-
- # Değiştirilen Excel dosyasını varsayılan (yani Excel 2003) biçiminde kaydetme
-
- workbook.save(dataDir + "Rows.xls'yi Kopyala")
-
- "Satırları Başarıyla Kopyala" yazdırın.
+        self.copy_columns()
 
 
 
- def kopya_sütunları(dataDir):
+    def copy_rows(dataDir):
 
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'    
 
- # Bir Çalışma Kitabı nesnesini excel dosya yoluna göre başlatma
+        # Instantiating a Workbook object by excel file path
 
- çalışma kitabı = Çalışma kitabı()
+        workbook = Workbook(dataDir + 'Book1.xls')
 
- Excel dosyasındaki ilk çalışma sayfasına erişim
+        # Accessing the first worksheet in the Excel file
 
- çalışma sayfası = çalışma kitabı.getWorksheets().get(0)
+        worksheet = workbook.getWorksheets().get(0)
 
- # Başlık satırlarına bazı veriler koyun (A1:A4)
+        # Copy the second row with data, formattings, images and drawing objects
 
- ben = 0
+        # to the 12th row in the worksheet.
 
- ben iken< 5:
+        worksheet.getCells().copyRow(worksheet.getCells(),1,11)
+
+        # Saving the modified Excel file in default (that is Excel 2003) format
+
+        workbook.save(dataDir + "Copy Rows.xls")
+
+        print "Copy Rows Successfully." 
+
+
+
+    def copy_columns(dataDir):
+
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'    
+
+        # Instantiating a Workbook object by excel file path
+
+        workbook = Workbook()
+
+        # Accessing the first worksheet in the Excel file
+
+        worksheet = workbook.getWorksheets().get(0)
+
+        # Put some data into header rows (A1:A4)
+
+        i = 0
+
+        while i < 5:
 
             worksheet.getCells().get(i, 0).setValue("Header Row #i")
 
@@ -129,6 +130,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belgeleri Ekleyin (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Append Documents (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

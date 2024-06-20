@@ -1,77 +1,78 @@
-﻿---
-title: إضافة أوراق عمل جديدة إلى المصنف وتفعيل ورقة
+---
+title: إضافة أوراق بيانات جديدة إلى دفتر العمل وتنشيط ورقة
 type: docs
 weight: 10
 url: /ar/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 ---
+
 {{% alert color="primary" %}} 
 
-عند العمل باستخدام ملف قالب ، في بعض الأحيان ، هناك حاجة لإضافة أوراق عمل إضافية إلى المصنف لجمع البيانات. سيتم ملء الخلايا الجديدة ببيانات في مواقع ومواقع محددة في كل ورقة عمل.
+عند العمل مع ملف قالب، يكون في بعض الأحيان هناك حاجة لإضافة أوراق بيانات إضافية إلى دفتر العمل لجمع البيانات. سيتم ملء الخلايا الجديدة بالبيانات في المواقع والمواقع المحددة في كل ورقة بيانات.
 
-وبالمثل ، قد تحتاج إلى ورقة عمل معينة لتكون نشطة ويتم عرضها أولاً عند فتح الملف في Microsoft Excel. "الورقة النشطة" هي الورقة التي تعمل عليها في مصنف. يكون الاسم الموجود في علامة تبويب الورقة النشطة غامقًا بشكل افتراضي.
+بالمثل، قد تحتاج إلى ورقة بيانات معينة لتكون نشطة ومعروضة أولاً عند فتح الملف في Microsoft Excel. "الورقة النشطة" هي الورقة التي تعمل عليها في دفتر العمل. يتم تظليل اسم الورقة النشطة بشكل عريض افتراضيًا على العلامة التبويبية.
 
- تعد إضافة أوراق العمل وتعيين الورقة النشطة من المهام الشائعة والبسيطة التي يحتاج المطورون إلى معرفة كيفية تنفيذها. في هذه المقالة ، نقوم بتنفيذ هذه المهام باستخدام[VSTO](/cells/ar/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) و[Aspose.Cells for .NET](/cells/ar/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
+إضافة الأوراق وتحديد الورقة النشطة هي مهام شائعة وبسيطة يحتاج المطورون إلى معرفتها كيفية القيام بها. في هذا المقال، نقوم بأداء هذه المهام باستخدام [VSTO](/cells/ar/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) و [Aspose.Cells for .NET](/cells/ar/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
 
 {{% /alert %}} 
-## **إضافة أوراق العمل وتفعيل ورقة**
-لأغراض إرشادات الترحيل هذه:
+## **إضافة ورقات بيانات وتنشيط ورقة**
+لأغراض هذه النصيحة بشأن الترحيل:
 
-1. قم بإضافة أوراق عمل جديدة إلى ملف Excel Microsoft موجود.
-1. املأ البيانات في خلايا كل ورقة عمل جديدة.
-1. تنشيط ورقة في المصنف.
-1. حفظ كملف Microsoft Excel.
+1. إضافة صفحات عمل جديدة إلى ملف Microsoft Excel الحالي.
+2. ملء البيانات في خلايا كل صفحة عمل جديدة.
+3. تنشيط ورقة في دفتر العمل.
+4. حفظ كملف Microsoft Excel.
 
-فيما يلي مقتطفات التعليمات البرمجية المتوازية لـ VSTO (C# ، VB) و Aspose.Cells for .NET (C# ، VB) ، والتي توضح كيفية تحقيق هذه المهام.
+أدناه، توجد مقاطع كود متوازية لـ VSTO (C#، VB) و Aspose.Cells for .NET (C#، VB)، تُظهر كيفية تحقيق هذه المهام.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-باستخدام Microsoft.VisualStudio.Tools.Applications.Runtime ؛
+using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
-باستخدام Excel = Microsoft.Office.Interop.Excel ؛
+using Excel = Microsoft.Office.Interop.Excel;
 
-باستخدام Office = Microsoft.Office.Core ؛
+using Office = Microsoft.Office.Core;
 
-باستخدام System.Reflection.
+using System.Reflection;
 
 .......
 
-// إنشاء كائن التطبيق.
+//Instantiate the Application object.
 
-Excel.Application excelApp = new Excel.ApplicationClass () ؛
+Excel.Application excelApp = new Excel.ApplicationClass();
 
-// حدد مسار ملف Excel للقالب.
+//Specify the template excel file path.
 
-سلسلة myPath = @ "d: \ test \ My_Book1.xls"؛
+string myPath = @"d:\test\My_Book1.xls";
 
-// افتح ملف Excel.
+//Open the excel file.
 
-excelApp.Workbooks.Open (myPath، Missing.Value، Missing.Value،
+excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-مفقودة ، قيمة ، مفقودة ، قيمة ،
+Missing.Value, Missing.Value,
 
-مفقودة ، قيمة ، مفقودة ، قيمة ،
+Missing.Value, Missing.Value,
 
-مفقودة ، قيمة ، مفقودة ، قيمة ،
+Missing.Value, Missing.Value,
 
-مفقودة ، قيمة ، مفقودة ، قيمة ،
+Missing.Value, Missing.Value,
 
-مفقودة ، قيمة ، مفقودة ، قيمة ،
+Missing.Value, Missing.Value,
 
-مفقودة .Value، Missing.Value) ؛
+Missing.Value, Missing.Value);
 
-// قم بتعريف كائن ورقة عمل.
+//Declare a Worksheet object.
 
-Excel.Worksheet newWorksheet ؛
+Excel.Worksheet newWorksheet;
 
-// أضف 5 أوراق عمل جديدة إلى المصنف واملأ بعض البيانات
+//Add 5 new worksheets to the workbook and fill some data
 
-// في الخلايا.
+//into the cells.
 
- لـ (int i = 1 ؛ i< 6; i++)
+for (int i = 1; i < 6; i++)
 
 {
 
@@ -111,7 +112,7 @@ excelApp.Quit();
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -185,41 +186,41 @@ excelApp.Quit()
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-باستخدام Aspose.Cells ؛
+using Aspose.Cells;
 
 .......
 
-// إنشاء مثيل ترخيص وتعيين ملف الترخيص
+//Instantiate an instance of license and set the license file
 
-// من خلال طريقها
+//through its path
 
-Aspose.Cells. رخصة الترخيص = Aspose.Cells.License جديد () ؛
+Aspose.Cells.License license = new Aspose.Cells.License();
 
-License.SetLicense ("Aspose.Cells.lic") ؛
+license.SetLicense("Aspose.Cells.lic");
 
-// حدد مسار ملف Excel للقالب.
+//Specify the template excel file path.
 
-سلسلة myPath = @ "d: \ test \ My_Book1.xls"؛
+string myPath =@"d:\test\My_Book1.xls";
 
-// إنشاء مصنف جديد.
+//Instantiate a new Workbook.
 
-// افتح ملف Excel.
+//Open the excel file.
 
-مصنف المصنف = مصنف جديد (myPath) ؛
+Workbook workbook = new Workbook(myPath);
 
-// قم بتعريف كائن ورقة عمل.
+//Declare a Worksheet object.
 
-ورقة عمل جديدة
+Worksheet newWorksheet;
 
-// أضف 5 أوراق عمل جديدة إلى المصنف واملأ بعض البيانات
+//Add 5 new worksheets to the workbook and fill some data
 
-// في الخلايا.
+//into the cells.
 
- لـ (int i = 0 ؛ i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -255,7 +256,7 @@ workbook.Save(@"d:\test\out_My_Book1.xls");
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

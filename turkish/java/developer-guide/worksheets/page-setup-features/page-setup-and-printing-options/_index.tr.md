@@ -1,92 +1,93 @@
-﻿---
-title: Sayfa Yapısı ve Yazdırma Seçenekleri
+---
+title: Sayfa Düzeni ve Yazdırma Seçenekleri
 type: docs
 weight: 10
 url: /tr/java/page-setup-and-printing-options/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen, geliştiricilerin yazdırma sürecini kontrol etmek için sayfa düzenini ve yazdırma ayarlarını yapılandırması gerekir. Sayfa yapısı ve yazdırma ayarları, çeşitli seçenekler sunar ve Aspose.Cells'de tamamen desteklenir.
+Bazı durumlarda, geliştiriciler yazdırma sürecini kontrol etmek için sayfa düzeni ve yazdırma ayarlarını yapılandırmak isteyebilir. Sayfa düzeni ve yazdırma ayarları çeşitli seçenekler sunar ve Aspose.Cells tarafından tamamen desteklenir.
 
-Bu makale, Aspose.Cells API kullanarak birkaç basit kod satırıyla bir konsol uygulamasının nasıl oluşturulacağını ve sayfa düzeni ve yazdırma seçeneklerinin bir çalışma sayfasına nasıl uygulanacağını gösterir.
+Bu makale, Aspose.Cells API'sini kullanarak birkaç basit kod satırı ile bir konsol uygulaması oluşturmayı ve çalışma sayfasına sayfa ayarı ve yazdırma seçeneklerini uygulamanın nasıl gösterdiğini gösterir.
 
 {{% /alert %}}
 
-## **Sayfa ve Yazdırma Ayarları ile Çalışma**
+## **Sayfa ve Yazdırma Ayarları İle Çalışma**
 
-Bu örnek için, Microsoft Excel'de bir çalışma kitabı oluşturduk ve sayfa düzenini ve yazdırma seçeneklerini ayarlamak için Aspose.Cells'i kullandık.
+Bu örnekte, Microsoft Excel'de bir çalışma kitabı oluşturduk ve Aspose.Cells kullanarak sayfa düzeni ve yazdırma seçeneklerini ayarladık.
 
-### **Sayfa Yapısı Seçeneklerini Ayarlama**
+### **Sayfa Ayarı Seçeneklerini Ayarlama**
 
-Önce Microsoft Excel'de basit bir çalışma sayfası oluşturun. Ardından ona sayfa yapısı seçeneklerini uygulayın. Kodu çalıştırmak, aşağıdaki ekran görüntüsündeki gibi Sayfa Yapısı seçeneklerini değiştirir.
+Öncelikle Microsoft Excel'de basit bir çalışma sayfası oluşturun. Sonra ona sayfa düzeni seçenekleri uygulayın. Kodu yürüttüğünüzde, aşağıdaki ekran görüntüsünde görülen gibi Sayfa Düzeni seçeneklerini değiştirir.
 
-**Çıktı dosyası** 
+**Çıkış dosyası** 
 
-![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_1.png)
+![todo:image_alt_text](page-setup-and-printing-options_1.png)
 
-1. Microsoft Excel'de bazı verilerle bir çalışma sayfası oluşturun:
- 1. Microsoft Excel'de yeni bir çalışma kitabı açın.
- 1. Biraz veri ekleyin.
- Aşağıda dosyanın bir ekran görüntüsü var.
+1. Microsoft Excel'de bazı veriler içeren bir çalışma sayfası oluşturun:
+   1. Microsoft Excel'de yeni bir çalışma kitabı açın.
+   1. Bazı veriler ekleyin.
+      Aşağıda dosyanın ekran görüntüsü bulunmaktadır.
 
       **Giriş dosyası**
 
-![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_2.png)
+![todo:image_alt_text](page-setup-and-printing-options_2.png)
 
-1. Sayfa kurulum seçeneklerini ayarlayın:
- Dosyaya sayfa yapısı seçeneklerini uygulayın. Yeni seçenekler uygulanmadan önce, varsayılan seçeneklerin ekran görüntüsü aşağıdadır.
+1. Sayfa düzeni seçeneklerini ayarlayın:
+   Ayarları dosyaya uygulayın. Yeni ayarların uygulanmadan önceki varsayılan seçeneklerin ekran görüntüsü aşağıda verilmiştir.
 
-   **Varsayılan sayfa kurulum seçenekleri**
+   **Varsayılan sayfa ayarı seçenekleri**
 
-![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_3.png)
+![todo:image_alt_text](page-setup-and-printing-options_3.png)
 
-1. Aspose.Cells'i indirin ve yükleyin:
-   1. [İndirmek](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
- 1. Geliştirme bilgisayarınızda sıkıştırılmış dosyayı açın.
- Herşey[Aspose](http://www.aspose.com/) bileşenler kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun zaman sınırı yoktur ve yalnızca üretilen belgelere filigran ekler.
+1. Aspose.Cells'i indirin ve kurun:
+   1. [İndir](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
+   1. Geliştirme bilgisayarınızda zip dosyasını açın.
+      Tüm [Aspose](http://www.aspose.com/) bileşenleri yüklendiğinde değerlendirme modunda çalışır. Değerlendirme modunun bir zaman limiti yoktur ve yalnızca üretilen belgelere filigran enjekte eder.
 1. Bir proje oluşturun.
-Eclipse gibi bir Java düzenleyici kullanarak bir proje oluşturun veya bir metin düzenleyici kullanarak basit bir program oluşturun.
+   Örneğin Eclipse gibi bir Java düzenleyici kullanarak bir proje oluşturun veya bir metin düzenleyici kullanarak basit bir program oluşturun.
 1. Bir sınıf yolu ekleyin.
-1. Aspose.Cells.jar ve dom4j_1.6.1.jar'ı Aspose.Cells.zip'ten çıkarın.
- 1. Eclipse'de projenin sınıf yolunu ayarlayın:
- 1. Eclipse'de projenizi seçin ve ardından tıklayın**Proje** bunu takiben**Özellikler**.
- 1. Seçin**Java Derleme Yolu** iletişim kutusunun solunda.
- 1. Kitaplıklar sekmesini seçin, tıklayın**JAR ekle** veya**Harici JAR'lar Ekle** Aspose.Cells.jar ve dom4j_1.6.1.jar'ı seçip derleme yollarına eklemek için.
- Veya çalışma zamanında Windows'de bir DOS komut isteminde ayarlayabilirsiniz:
+   1. Aspose.Cells.jar ve dom4j_1.6.1.jar dosyalarını Aspose.Cells.zip'ten çıkartın.
+   1. Eclipse'te proje classpath'ini ayarlayın:
+   Eclipse'te projenizi seçin ve ardından **Proje** ve ardından **Özellikler**'i tıklayın.
+   1. Diyaloğun solundaki **Java Build Path**'i seçin.
+   1. Kütüphaneler sekmesini seçin, **Add JARs** veya **Add External JARs**'ı tıklayarak Aspose.Cells.jar ve dom4j_1.6.1.jar'ı seçin ve build yollarına ekleyin.
+      Ya da bunu Windows'ta bir DOS komut isteminden çalışma zamanında da ayarlayabilirsiniz:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  javac \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName
 
 {{< /highlight >}}
 
 1. API'leri çağıran uygulamayı yazın:
- Bu örnekte bileşen tarafından kullanılan kod aşağıdadır.
+   Bu örnekte bileşen tarafından kullanılan kod aşağıdadır:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPageSetupOptions-SettingPageSetupOptions.java" >}}
 
 ### **Yazdırma seçeneklerini ayarlama**
 
-Sayfa yapısı ayarları ayrıca, kullanıcıların çalışma sayfası sayfalarının nasıl yazdırılacağını denetlemesine olanak tanıyan çeşitli yazdırma seçenekleri (sayfa seçenekleri olarak da adlandırılır) sağlar. Kullanıcıların şunları yapmasına izin verir:
+Sayfa ayarı ayarları ayrıca kullanıcıların çalışma sayfalarının nasıl yazdırılacağını kontrol etmelerine olanak tanıyan birkaç yazdırma seçeneği (aynı zamanda sayfa seçenekleri de denir) sağlar. Kullanıcılara şunları yapma olanağı tanırlar:
 
-- Bir çalışma sayfasının belirli bir yazdırma alanını seçin.
+- Bir çalışma sayfasının belirli bir baskı alanını seçin.
 - Başlıkları yazdırın.
-- Kılavuz çizgilerini yazdırın.
+- Izgaraları yazdırın.
 - Satır/sütun başlıklarını yazdırın.
 - Taslak kalitesine ulaşın.
 - Yorumları yazdırın.
-- Yazdırma hücresi hataları.
+- Hücre hatalarını yazdırın.
 - Sayfa sıralamasını tanımlayın.
 
-Aşağıdaki örnek, yukarıdaki örnekte oluşturulan dosyaya (PageSetup.xls) yazdırma seçeneklerini uygular. Aşağıdaki ekran görüntüsü, yeni seçenekler uygulanmadan önceki varsayılan yazdırma seçeneklerini gösterir.
+Aşağıdaki örnek yeni seçeneklerin uygulandığı dosyaya (Yukarıdaki örnekte oluşturulan PageSetup.xls) yazdırma seçeneklerini uygular. Aşağıdaki ekran görüntüsü, yeni seçenekler uygulanmadan önceki varsayılan yazdırma seçeneklerini gösterir.
 **Giriş belgesi**
 
-![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_4.png)
+![todo:image_alt_text](page-setup-and-printing-options_4.png)
 
 Kodun çalıştırılması yazdırma seçeneklerini değiştirir.
-**Çıktı dosyası**
+**Çıkış dosyası**
 
-![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_5.png)
+![todo:image_alt_text](page-setup-and-printing-options_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPrintoptions-SettingPrintoptions.java" >}}
 
@@ -94,8 +95,8 @@ Kodun çalıştırılması yazdırma seçeneklerini değiştirir.
 
 {{% alert color="primary" %}}
 
-Bu makale, Aspose.Cells'i kullanarak sayfa düzeni ve sayfa yazdırma seçeneklerinin nasıl ayarlanacağını gösterir. Umarız size biraz bilgi verir ve bu seçenekleri kendi senaryolarınızda kullanabilirsiniz.
+Bu makale, Aspose.Cells kullanarak sayfa kurulumu ve sayfa yazdırma seçeneklerini ayarlamanın nasıl yapıldığını göstermektedir. Umarım size bazı fikirler verir ve bu seçenekleri kendi senaryolarınızda kullanabilirsiniz.
 
- Aspose.Cells, yıllarca süren araştırma, tasarım ve dikkatli ayarlamadan yararlanır. Soru, görüş ve önerilerinizi memnuniyetle karşılıyoruz.[Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Hızlı yanıt garantisi veriyoruz.
+Aspose.Cells, yılların araştırma, tasarım ve dikkatli ayarlama çalışmalarının bir sonucu olarak faydalanmaktadır. [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9) adresinden sorularınızı, yorumlarınızı ve önerilerinizi içtenlikle bekliyoruz. Hızlı bir yanıt garantisi vermekteyiz.
 
 {{% /alert %}}

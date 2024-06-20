@@ -1,34 +1,35 @@
-﻿---
-title: Pasta Grafiği Oluşturun
+---
+title: Bir Pasta Grafiği Oluşturun
 type: docs
 weight: 110
 url: /tr/net/create-a-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Grafikler, verileri anlaşılması kolay bir şekilde sunar. Microsoft Excel ile çalışan kullanıcılar, bir dizi farklı grafik oluşturabilir ve bunları özelleştirebilir. Aspose.Cells for .NET ile çalışan geliştiriciler için de aynı özellikler mevcuttur.
+Grafikler veriyi anlaşılır bir şekilde sunar. Microsoft Excel ile çalışan kullanıcılar çeşitli grafikler oluşturabilir ve bunları özelleştirebilir. Aynı özellikler, Aspose.Cells for .NET ile çalışan geliştiriciler için de mevcuttur.
 
 {{% /alert %}}
 
 ## **Pasta Grafiği Oluşturma**
 
-Bu makale, Office Automation ve VSTO kullanarak pasta grafiğin nasıl oluşturulacağını Aspose.Cells for .NET kullanarak karşılaştırır. Pasta grafiği oluşturmaya yönelik adımlar şunlardır:
+Bu makale, Ofis Otomasyonu ve VSTO kullanarak bir pasta grafiği oluşturmanın Aspose.Cells for .NET kullanımıyla nasıl karşılaştırıldığını inceler. Pasta grafiği oluşturma adımları şunlardır:
 
-1. Çalışma kitabı ve çalışma sayfası oluşturma.
-1. Örnek veri ekleme.
-1. Başvurulan ürünler Tablosu.
-1. Pasta grafik ekleme, veri aralığını ve grafik başlığını tanımlama.
-1. E-tablo kaydediliyor.
+1. Bir çalışma kitabı ve çalışma sayfası oluşturma.
+1. Örnek veri eklemek.
+1. ÜrünlerGrafik'e referans vermek.
+1. Pasta grafiği eklemek, veri aralığını tanımlamak ve grafik başlığını eklemek.
+1. Elektronik tabloyu kaydetmek.
 
- Bu makaledeki kod örnekleri, bir pasta grafiğin nasıl ekleneceğini gösterir.[VSTO](/cells/tr/net/create-a-pie-chart/) , C# veya Visual Basic kullanarak, ile bir tane oluşturmaya kıyasla[Aspose.Cells](/cells/tr/net/create-a-pie-chart/), yine C# veya Visual Basic kullanarak.
+Bu makaledeki kod örnekleri, bir pasta grafiği eklemenin, [VSTO](/cells/tr/net/create-a-pie-chart/) kullanarak C# veya Visual Basic veya [Aspose.Cells](/cells/tr/net/create-a-pie-chart/) kullanarak C# veya Visual Basic ile nasıl yaratılacağını göstermektedir.
 
 ### **VSTO ile Pasta Grafiği Oluşturma**
 
-Aşağıdaki kod örnekleri, VSTO kullanarak bir elektronik tabloya pasta grafiğin nasıl ekleneceğini gösterir.
+Aşağıdaki kod örnekleri, VSTO kullanarak bir elektronik tabloya bir pasta grafiği eklemenin nasıl yapılacağını göstermektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void PieChart()
 
@@ -98,17 +99,17 @@ Aşağıdaki kod örnekleri, VSTO kullanarak bir elektronik tabloya pasta grafi�
 
 {{< /highlight >}}
 
-**VSTO ile oluşturulmuş bir pasta grafiği** 
+**VSTO ile oluşturulan bir pasta grafiği** 
 
-![yapılacaklar:resim_alternatif_metin](create-a-pie-chart_1.png)
+![todo:image_alt_text](create-a-pie-chart_1.png)
 
-### **Aspose.Cells for .NET ile Pasta Grafik Oluşturma**
+### **Aspose.Cells for .NET ile Pasta Grafiği Oluşturma**
 
-Aşağıdaki kod örnekleri, Aspose.Cells kullanarak bir elektronik tabloya pasta grafiğin nasıl ekleneceğini gösterir.
+Aşağıdaki kod örnekleri, Aspose.Cells kullanarak bir elektronik tabloya bir pasta grafiği eklemenin nasıl yapılacağını göstermektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void PieChart()
 
@@ -178,6 +179,6 @@ Aşağıdaki kod örnekleri, Aspose.Cells kullanarak bir elektronik tabloya past
 
 {{< /highlight >}}
 
-**Aspose.Cells for .NET ile oluşturulan pasta grafik** 
+**Aspose.Cells for .NET ile oluşturulan bir pasta grafiği** 
 
-![yapılacaklar:resim_alternatif_metin](create-a-pie-chart_2.png)
+![todo:image_alt_text](create-a-pie-chart_2.png)

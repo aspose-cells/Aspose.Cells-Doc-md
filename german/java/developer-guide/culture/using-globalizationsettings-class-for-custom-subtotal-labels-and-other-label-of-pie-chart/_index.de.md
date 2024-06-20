@@ -1,26 +1,27 @@
-﻿---
-title: Verwenden der GlobalizationSettings-Klasse für benutzerdefinierte Zwischensummenbeschriftungen und andere Beschriftungen von Kreisdiagrammen
+---
+title: Verwendung der GlobalizationSettings Klasse für benutzerdefinierte Teilergebnisbezeichnungen und andere Beschriftungen des Kuchendiagramms
 type: docs
 weight: 50
 url: /de/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/
 ---
-## **Mögliche Nutzungsszenarien**
- Aspose.Cells APIs haben die ausgesetzt[Globalisierungseinstellungen](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) Klasse, um mit den Szenarien fertig zu werden, in denen der Benutzer benutzerdefinierte Beschriftungen für Zwischensummen in einer Tabelle verwenden möchte. Außerdem die[Globalisierungseinstellungen](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) Klasse kann auch verwendet werden, um die zu ändern**Andere** Bezeichnung für das Kreisdiagramm beim Rendern des Arbeitsblatts oder Diagramms.
-## **Einführung in die GlobalizationSettings-Klasse**
- Das[Globalisierungseinstellungen](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) Die Klasse bietet derzeit die folgenden 3 Methoden, die in einer benutzerdefinierten Klasse überschrieben werden können, um gewünschte Beschriftungen für die Zwischensummen zu erhalten oder benutzerdefinierten Text für die zu rendern**Andere** Beschriftung eines Tortendiagramms.
 
-1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)): Ruft den Gesamtnamen der Funktion ab.
-1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): Ruft den Gesamtsummennamen der Funktion ab.
-1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): Ruft den Namen von „Anderen“ Beschriftungen für Kreisdiagramme ab.
+## **Mögliche Verwendungsszenarien**
+Aspose.Cells APIs haben die Klasse [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) freigelegt, um mit Szenarien umzugehen, in denen der Benutzer benutzerdefinierte Beschriftungen für Zwischensummen in einer Tabellenkalkulation verwenden möchte. Außerdem kann die Klasse [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) auch verwendet werden, um die **Andere**-Beschriftung für das Kreisdiagramm zu ändern, während das Arbeitsblatt oder das Diagramm gerendert wird.
+## **Einführung in die GlobalizationSettings-Klasse**
+Die [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) Klasse bietet derzeit die folgenden 3 Methoden, die in einer benutzerdefinierten Klasse überschrieben werden können, um gewünschte Beschriftungen für die Zwischensummen zu erhalten oder benutzerdefinierten Text für die **Andere**-Beschriftung eines Kreisdiagramms zu rendern.
+
+1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)): Ruft den Gesamtnamen der Funktion ab.
+1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): Ruft den Gesamtsummen-Namen der Funktion ab.
+1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): Ruft den Namen der "Andere"-Beschriftungen für Kreisdiagramme ab.
 ### **Benutzerdefinierte Beschriftungen für Zwischensummen**
- Das[Globalisierungseinstellungen](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)-Klasse kann zum Anpassen der Zwischensummenbeschriftungen verwendet werden, indem die Klasse überschrieben wird[GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) Methoden wie oben gezeigt.
+Die [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) Klasse kann verwendet werden, um die Zwischensummen-Beschriftungen anzupassen, indem die Methoden [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) überschrieben werden, wie im Folgenden dargestellt.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSettings-CustomSettings.java" >}}
 
 
- Um benutzerdefinierte Labels einzufügen, ist es erforderlich, die zuzuweisen[WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) Eigenschaft zu einer Instanz der*Benutzerdefinierte Einstellungen*oben definierte Klasse, bevor Sie die Zwischensummen zum Arbeitsblatt hinzufügen.
+Um benutzerdefinierte Beschriftungen einzufügen, muss die Eigenschaft [WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) einem Exemplar der oben definierten *CustomSettings*-Klasse vor dem Hinzufügen der Zwischensummen auf dem Arbeitsblatt zugewiesen werden.
 
 
 
@@ -28,24 +29,24 @@ url: /de/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 
 {{% alert color="primary" %}} 
 
- Das[Globalisierungseinstellungen](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)Klasse funktioniert nur zum Hinzufügen neuer Zwischensummen. Wenn eine Tabelle bereits Zwischensummen enthält, können ihre Bezeichnungen nicht geändert werden.
+Die [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) Klasse funktioniert nur bei Hinzufügen neuer Zwischensummen. Wenn eine Tabellenkalkulation bereits Zwischensummen enthält, können ihre Beschriftungen nicht geändert werden.
 
 {{% /alert %}} 
-### **Benutzerdefinierter Text für andere Beschriftungen des Kreisdiagramms**
- Das[Globalisierungseinstellungen](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) Klasse bietet die[getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\) )-Methode, die nützlich ist, um der Bezeichnung „Andere“ von Kreisdiagrammen einen benutzerdefinierten Wert zuzuweisen. Der folgende Codeausschnitt definiert eine benutzerdefinierte Klasse und überschreibt die[getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\))-Methode, um eine benutzerdefinierte Bezeichnung basierend auf der für JVM festgelegten Standardsprache abzurufen.
+### **Benutzerdefinierter Text für Andere Beschriftung im Kreisdiagramm**
+Die [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) Klasse bietet die Methode [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)), die nützlich ist, um der "Andere"-Beschriftung von Kreisdiagrammen einen benutzerdefinierten Wert zu geben. Der folgende Code definiert eine benutzerdefinierte Klasse und überschreibt die Methode [getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)), um basierend auf der für JVM festgelegten Standardsprache eine benutzerdefinierte Beschriftung zu erhalten.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSettings-CustomSettings.java" >}}
 
 
- Das folgende Snippet lädt eine vorhandene Tabelle, die ein Kreisdiagramm enthält, und rendert das Diagramm in ein Bild, während es verwendet wird*Benutzerdefinierte Einstellungen*oben erstellte Klasse.
+Der folgende Code lädt eine vorhandene Tabellenkalkulation mit einem Kreisdiagramm und rendert das Diagramm zu einem Bild, während die erstellte *CustomSettings*-Klasse verwendet wird.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomTextforOtherLabelofPieChart-CustomTextforOtherLabelofPieChart.java" >}}
 
 
-Nachfolgend sehen Sie das resultierende Bild, wenn das Gebietsschema des Computers auf Frankreich eingestellt ist. Wie Sie sehen können, wurde das Label „Other“ in „Autre“ übersetzt, wie in definiert*Benutzerdefinierte Einstellungen*Klasse.
+Das folgende Bild zeigt das Ergebnis, wenn die Regionaleinstellung des Rechners auf Frankreich gesetzt ist. Wie Sie sehen können, wurde das Label "Other" gemäß der Definition in der Klasse *CustomSettings* in "Autre" übersetzt.
 
-![todo: Bild_alt_Text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+![todo:image_alt_text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)

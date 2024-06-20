@@ -1,15 +1,16 @@
-﻿---
-title: Добавить рабочие листы в новый файл Excel в PHP
+---
+title: Добавить листы в новый файл Excel в PHP
 type: docs
 weight: 20
 url: /ru/net/add-worksheets-to-new-excel-file-in-php/
 ---
-## **Добавить рабочие листы в новый файл Excel**
-Добавить рабочие листы в новый файл Excel
+
+## **Добавить листы в новый файл Excel**
+Добавить листы в новый файл Excel
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -36,7 +37,7 @@ url: /ru/net/add-worksheets-to-new-excel-file-in-php/
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Добавить рабочие листы в новый файл Excel (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **Добавить листы в новый файл Excel (Aspose.Cells)** с любого из нижеперечисленных сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddingWorksheetsToNewExcelFile.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddingWorksheetsToNewExcelFile.php)

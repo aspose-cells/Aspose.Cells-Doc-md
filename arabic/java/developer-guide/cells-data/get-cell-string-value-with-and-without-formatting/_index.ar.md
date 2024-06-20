@@ -1,26 +1,27 @@
-﻿---
-title: احصل على Cell String Value with وبدون التنسيق
+---
+title: الحصول على قيمة سلسلة الخلية مع أو بدون تنسيق
 type: docs
 weight: 230
 url: /ar/java/get-cell-string-value-with-and-without-formatting/
 ---
+
 {{% alert color="primary" %}} 
 
- يوفر Aspose.Cells طريقة[Cell.getStringValue ()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\) والتي يمكن استخدامها للحصول على قيمة سلسلة الخلية مع أو بدون أي تنسيق. افترض أن لديك خلية بقيمة 0.012345 وقمت بتنسيقها لعرض منزلتين عشريتين فقط. سيتم عرضه بعد ذلك على أنه 0.01 في Excel. يمكنك استرداد قيم السلسلة مثل 0.01 و 0.012345 باستخدام امتداد[Cell.getStringValue ()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\) ) طريقة. فإنه يأخذ[CellValueFormatStrategy](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueFormatStrategy)تعداد كمعامل يحتوي على القيم التالية
+توفر Aspose.Cells طريقة [Cell.getStringValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\)) الذي يمكن استخدامه للحصول على قيمة السلسلة للخلية مع أو بدون أي تنسيق. فترة ، لديك خلية بقيمة 0.012345 وقمت بتنسيقها لعرض رقمين عشريين فقط. ستعرض بعد ذلك كما 0.01 في Excel. يمكنك استرداد القيم النصية سواء كـ 0.01 وكما 0.012345 باستخدام الطريقة [Cell.getStringValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\)) الأسلوب. يأخذ [CellValueFormatStrategy](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueFormatStrategy) تعتمد على القيم التالية كمعلمة.
 
 - [CellValueFormatStrategy.CELL_STYLE](https://reference.aspose.com/cells/java/com.aspose.cells/cellvalueformatstrategy#CELL_STYLE)
 - [CellValueFormatStrategy.DISPLAY_STYLE](https://reference.aspose.com/cells/java/com.aspose.cells/cellvalueformatstrategy#DISPLAY_STYLE)
 - [CellValueFormatStrategy.NONE](https://reference.aspose.com/cells/java/com.aspose.cells/cellvalueformatstrategy#NONE)
 
 {{% /alert %}} 
-## **احصل على Cell String Value with وبدون التنسيق**
- يشرح نموذج التعليمات البرمجية التالي استخدام[Cell.getStringValue ()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\)) طريقة.
+## **الحصول على قيمة سلسلة الخلية بتنسيق وبدون تنسيق**
+يشرح الكود النموذجي التالي استخدام الطريقة [Cell.getStringValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\))
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetCellStringValue-GetCellStringValue.java" >}}
-## **إخراج وحدة التحكم**
-يوجد أدناه إخراج وحدة التحكم لعينة التعليمات البرمجية أعلاه.
+## **مخرجات الوحدة**
+فيما يلي إخراج وحدة التحكم للرمز العيني أعلاه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0.01
 

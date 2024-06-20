@@ -1,15 +1,16 @@
-﻿---
-title: Çalışma Kitaplarının Kaydırma Çubuklarını Görüntüleme ve Gizleme
+---
+title: Çalışma Kitaplarının Kaydırma Çubuklarını Göster ve Gizle
 type: docs
 weight: 40
 url: /tr/java/display-and-hide-scrollbars-of-workbooks/
 ---
-## **Aspose.Cells - Çalışma Kitaplarının Kaydırma Çubuklarını Görüntüle ve Gizle**
- Aspose.Cells bir sınıf sağlar,**Çalışma kitabı** Bu bir Excel dosyasını temsil eder.**Çalışma kitabı** class, bir Excel dosyasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Ancak, Excel dosyasındaki kaydırma çubuklarının görünürlüğünü kontrol etmek için geliştiriciler**setVScrollBarGörünür** & **setHScrollBarGörünür** yöntemleri**Çalışma kitabı** sınıf.
+
+## **Aspose.Cells - İş Kitaplarının Kaydırma Çubuklarını Göster ve Gizle**
+Aspose.Cells bir Excel dosyasını temsil eden **Workbook** sınıfını sağlar. **Workbook** sınıfı, Excel dosyasını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Ancak, Excel dosyasındaki kaydırma çubuklarının görünürlüğünü kontrol etmek için geliştiriciler, **Workbook** sınıfının **setVScrollBarVisible** ve **setHScrollBarVisible** yöntemlerini kullanabilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -46,5 +47,5 @@ workbook.save(dataDir + "AsposeDisplaySrollbars.xls");
 ## **Çalışan Kodu İndir**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideScrollbars.java)

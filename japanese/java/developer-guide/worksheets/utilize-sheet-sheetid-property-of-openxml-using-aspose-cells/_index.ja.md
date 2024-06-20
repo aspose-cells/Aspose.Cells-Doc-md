@@ -1,18 +1,19 @@
-﻿---
-title: Aspose.Cells を使用して OpenXml の Sheet.SheetId プロパティを利用する
+---
+title: Aspose.Cellsを使用したOpenXmlのSheet.SheetIdプロパティを利用する
 type: docs
 weight: 80
 url: /ja/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 ---
-## **考えられる使用シナリオ**
 
-*シート.シート ID*プロパティは*DocumentFormat.OpenXml.Spreadsheet*名前空間であり、OpenXml の一部です。このプロパティとその値を内部で確認できます*workbook.xml*次のスクリーンショットに示すように。 Aspose.Cells は、同等のプロパティを次のように提供します。[**Worksheet.TabId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TabId).
+## **可能な使用シナリオ**
 
-![todo:画像_代替_文章](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
+*Sheet.SheetId* プロパティは、*DocumentFormat.OpenXml.Spreadsheet* ネームスペース内に見つかり、OpenXmlの一部です。このプロパティとその値は、以下のスクリーンショットに示すように、*workbook.xml* 内で見ることができます。Aspose.Cellsでは、同等のプロパティとして [**Worksheet.TabId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TabId) を提供します。
 
-## **Aspose.Cells を使用して OpenXml の Sheet.SheetId プロパティを利用する**
+![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
-次のサンプル コードは、[サンプル Excel ファイル](51740740.xlsx)、シートまたはタブ ID を読み取り、新しいタブ ID を割り当てて、[出力エクセルファイル](51740739.xlsx).以下のコードのコンソール出力も参照してください。
+## **Aspose.Cellsを使用したOpenXmlのSheet.SheetIdプロパティを利用する**
+
+以下のサンプルコードは、[サンプルExcelファイル](51740740.xlsx) を読み込み、そのシートまたはタブIDを読み取り、新しいタブIDを割り当てて、[出力Excelファイル](51740739.xlsx) として保存します。下記のコードのコンソール出力も参照してください。
 
 ## **サンプルコード**
 
@@ -20,7 +21,7 @@ url: /ja/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet or Tab Id: 1297
 

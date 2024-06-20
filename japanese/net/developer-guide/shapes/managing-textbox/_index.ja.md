@@ -1,4 +1,4 @@
-﻿---
+---
 title: テキストボックスの管理
 type: docs
 weight: 50

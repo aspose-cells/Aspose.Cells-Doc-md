@@ -1,16 +1,17 @@
-﻿---
-title: Php でワークシートを非表示または再表示する
+---
+title: Phpでワークシートを非表示または表示
 type: docs
 weight: 50
 url: /ja/java/hide-or-unhide-a-worksheet-in-php/
 ---
-## **Aspose.Cells - ワークシートを非表示または再表示する**
+
+## **Aspose.Cells - ワークシートを非表示または表示する**
 ### **ワークシートを非表示にする**
-Aspose.Cells Java for PHP を使用してワークシートを非表示にするには、次のように呼び出します。**hideunhideワークシート**モジュール。
+Aspose.Cells Java for PHPを使用してワークシートを非表示にするには、**hideunhideworksheet**モジュールを呼び出してください。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -32,7 +33,7 @@ $workbook->save($dataDir . "output.xls");
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートを非表示または再表示する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、Aspose.Cellsのワークシートの非表示または表示をダウンロードする
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/HideUnhideWorksheet.php)

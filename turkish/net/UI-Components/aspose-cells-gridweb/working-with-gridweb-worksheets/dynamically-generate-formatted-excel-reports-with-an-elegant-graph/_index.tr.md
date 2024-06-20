@@ -1,54 +1,57 @@
-﻿---
-title: Zarif Bir Grafikle Dinamik Olarak Biçimlendirilmiş Excel Raporları Oluşturun
+---
+title: Bir Zarif Grafikle Dinamik Olarak Biçimlendirilmiş Excel Raporları Oluşturma
 type: docs
 weight: 130
-url: /tr/net/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+url: /tr/net/aspose-cells-gridweb/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+keywords: GridWeb, rapor oluştur, rapor
+description: Bu makale, GridWeb de rapor oluşturmanın nasıl yapıldığını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, bazı veri kaynaklarından verileri kontrol gibi muhteşem bir ızgaraya nasıl çıkarabileceğimiz, içine bir grafik yapıştırabileceğimiz ve analiz, karşılaştırmalar ve yazdırma yapmak için grafikli raporu MS Excel'e nasıl aktarabileceğimiz konusunda gerekli bilgileri sağlamak için tasarlanmıştır.
+Bu belge, işletme raporu oluşturmak için gereken bilgileri sağlama amacını taşımaktadır. Muhteşem bir grid benzeri kontrol üzerinden veri çıkartmanın, içine bir grafik yapıştırmanın ve analiz, karşılaştırma ve yazdırma yapmak için MS Excel'e grafik ile raporu dışa aktarmanın nasıl yapıldığını anlatır.
 
 {{% /alert %}} 
-## **genel bakış**
-Birlikte iyi çalışabilecek parçaların veya nesnelerin bir kombinasyonu olan Raporlama ve Sunumları gerektiren belirli web senaryoları vardır. Makale, WYSIWYG tarzında dinamik olarak şık excel raporları tasarlamanın ve oluşturmanın ne kadar kolay olduğunu açıklıyor. Verilere zengin ve çekici format uygulamanıza ve MS Excel gibi formül sonuçlarını hesaplamanıza izin veren gerçek ortamı sağlayan Aspose.Cells.GridWeb kontrolüne bir XML dosyasından (diğer veri kaynaklarından da yararlanabilirsiniz) veri aktarır. Ayrıca, Çalışma Sayfası kaynak verilerine dayalı olarak gelişmiş bir grafik oluşturur.[Aspose.Cells](https://products.aspose.com/cells/) bileşenini kullanır ve grafik görüntüsünü Satış Raporuna yapıştırır. Son olarak, grafik ekli excel raporu Aspose.Cells bileşeni kullanılarak diske kaydedilir.
+## **Genel Bakış**
+Hem Raporlama hem de Sunumlar gerektiren belirli web senaryoları bulunmaktadır, iyi bir şekilde birlikte çalışabilen parça veya nesne kombinasyonu. Makale, WYSIWYG şekilde şık excel raporları oluşturmanın ne kadar kolay olduğunu açıklar. Aspose.Cells.GridWeb kontrolüne XML dosyasından (Diğer veri kaynaklarını da kullanabilirsiniz) veri dışa aktarır ve size, verilere zengin ve çekici bir biçim uygulamanıza ve MS Excel gibi formül sonuçlarını hesaplamanıza izin veren gerçek bir ortam sunar. Ayrıca [Aspose.Cells](https://products.aspose.com/cells/) bileşenini kullanarak Çalışma Sayfası kaynağı verilere dayalı sofistike bir grafik oluşturur ve Satış Raporuna grafik görüntüsünü yapıştırır. Son olarak, grafikli excel raporu Aspose.Cells bileşenini kullanarak diske kaydedilir.
 
-Bu makale, bu tür işlevsellik için kaynak kodunu ve tam özellikli demo projesini içerir.
+Bu makale, bu tür işlevselliğin kaynak kodunu ve tam özellikli demo projesini içermektedir.
 
-Kullanıcıların, bir iş raporunun nasıl oluşturulacağına ilişkin ayrıntılı bir kavrayışa sahip olarak, tablonun bir çalışma sayfasına veri girmesine ve satır ve sütunlardaki hücrelere biraz biçimlendirme uygulamasına, verileri kaydetmeden önce verilerin kaynak aralığına dayalı bir grafiği gömmesine olanak tanır. diske excel raporu.
+Bu, kullanıcılara bir iş raporu oluşturmak için iş sayfasına veri girmenin, satır ve sütunlardaki hücrelere bazı biçimlendirme uygulamanın, kaynak veri aralığına dayalı bir grafik gömmenin ve excel raporunu diske kaydetmeden önce çeşitli adımları ayrıntılı bir şekilde sunar.
 ## **Aspose Bileşenleri**
- üç tane kullanıyorum[Aspose](http://www.aspose.com/) Görevi kolaylıkla gerçekleştirmek için bileşenleri.[Aspose](http://www.aspose.com/) , .NET ve Java Component Publisher, zengin özelliklere sahip çeşitli bileşenler sağlar.[Aspose](http://www.aspose.com/) .NET ve Java bileşenlerinden oluşan harika bir seri sunar. Dünya çapında binlerce müşterinin güvendiği ürünler, DOC, RTF, WordML dahil olmak üzere çeşitli biçimlerdeki belgeleri programlı olarak açmaya, değiştirmeye, oluşturmaya, kaydetmeye, birleştirmeye, dönüştürmeye vb. izin veren Dosya Biçimi Bileşenleri, Raporlama Ürünleri, Görsel Bileşenler ve Yardımcı Program Bileşenlerini içerir. HTML, PDF, XLS, SpreadsheetML, Sekmeyle Ayrılmış, CSV, PPT, SWF, EMF,WMF, MPX, MPD ve diğer formatlar.
+Bu görevi kolayca yerine getirmek için üç adet [Aspose](http://www.aspose.com/)'un bileşenini kullanıyorum. [Aspose](http://www.aspose.com/), .NET ve Java Bileşen Yayıncısı, özellik dolu çeşitli bileşenler sunar. [Aspose](http://www.aspose.com/), bir dizi etkileyici özelliklere sahip olan .NET ve Java bileşenleri sunar. Küresel müşteriler tarafından güvenilen ve binlerce müşteri tarafından kullanılan bu ürünler, belge biçim bileşenlerini, raporlama ürünlerini, görsel bileşenleri ve yardımcı öğeleri içerir ve belgeleri açma, değiştirme, oluşturma, kaydetme, birleştirme, dönüştürme vb. işlemleri programlı olarak yapmanızı sağlar.
 
-Bu macerada kullanılmış olan bu bileşenlerden üçünü size tanıtmak için bu fırsatı değerlendireceğim.
-## **Aspose.Cells Izgara Kontrolleri**
- Aspose.Cells Şebeke Kontrolleri, toplam şebeke çözümüdür. Aspose.Cells Izgara Kontrolleri, iki farklı GUI .NET bileşeni (Aspose.Cells.GridDesktop ve Aspose.Cells.GridWeb) ile paketlenmiş olarak gelir: biri masaüstü uygulamalarını, diğeri web uygulamalarını desteklemek için. Her iki platformda da uygulamayı bir çırpıda yapmak için her iki sürüm de eşit şekilde eşleştirilir. Aspose.Cells.GridWeb, Excel elektronik tablolarından içeri ve dışarı aktarma yeteneği sağlar. Böylece Excel'e aşina olan herkes (hatta son kullanıcılar) bir ızgaranın görünümünü ve hissini tasarlayabilir. Aspose.Cells.GridWeb ayrıca, geliştiricilere ızgaralarının görünümü, hissi ve davranışı üzerinde tam kontrol sağlayan, kullanımı kolay, zengin özelliklere sahip bir API sunar. Ürün ve özellikleri hakkında daha fazla bilgi edinmek ve bir programcı kılavuzu için lütfen Özellikler Listesinin özetini, Aspose.Cells.GridWeb Belgelerini ve çevrimiçi özellikleri kontrol edin.[Demolar](https://aspose.github.io/)
+Bu görevde kullanılan bu bileşenlerden üç tanesini tanıtmak için bu fırsatı kullanmak isterim.
+## **Aspose.Cells Grid Kontrolleri**
+Aspose.Cells Grid Kontrolleri, toplam bir grid çözümüdür. Aspose.Cells Grid Kontrolleri, masaüstü uygulamaları (Aspose.Cells.GridDesktop ve Aspose.Cells.GridWeb) için iki farklı GUI .NET bileşeniyle birlikte gelir: biri masaüstü uygulamaları desteklemek için diğeri web uygulamaları desteklemek içindir. Her iki versiyon da platforma göre uygulamayı kolaylaştırmak amacıyla eşit derecede uyumludur. Aspose.Cells.GridWeb, Excel elektronik tablolarına aktarma ve aktarma işlevselliği sunar. Bu nedenle Excel'e aşina olan herkes (hatta son kullanıcılar) bir gridin görünümünü tasarlayabilir. Aspose.Cells.GridWeb ayrıca gelişmiş özellikli bir API sunar, bu da geliştiricilere gridlerinin görünümü, hissi ve davranışı üzerinde tam kontrole sahip olmalarını sağlar. Ürün hakkında daha fazla bilgi, özellikleri ve bir programcı kılavuzu için lütfen Özellikler Listesi Özeti, Aspose.Cells.GridWeb Belgeleri ve çevrim içi olan özellikli [Demo'ları](https://aspose.github.io/) kontrol edin
 ## **Aspose.Cells**
-**Aspose.Cells**istemci veya sunucu tarafında kurulacak Microsoft Excel'i kullanmadan Excel elektronik tablolarını okumanızı ve yazmanızı sağlayan bir Excel elektronik tablo raporlama bileşenidir.**Aspose.Cells** verilerin temel dışa aktarımından çok daha fazlasını sunan, zengin özelliklere sahip bir bileşendir. İle birlikte**Aspose.Cells** geliştiriciler verileri dışa aktarabilir, elektronik tabloları her ayrıntıda ve her düzeyde biçimlendirebilir, görüntüleri içe aktarabilir, çizelgeleri içe aktarabilir, grafikler oluşturabilir, çizelgeleri değiştirebilir, Excel verilerini aktarabilir, XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/) entegre) ve çok daha fazlası.**Aspose.Cells** kullanımı kolay, zengin özelliklere sahip bir**API** programcılar için. Çok geniş bir özellik listesine sahiptir. Ürün, özellikleri ve programcı kılavuzu hakkında daha fazla bilgi edinmek için lütfen özetini kontrol edin.**Özellikler Listesi**, **Aspose.Cells Dokümantasyon** ve çevrimiçi özellikli Demolar. Yapabilirsin[indirmek](https://downloads.aspose.com/cells) ücretsiz değerlendirme sürümü.
-## **Arayüzü Tasarlamak**
+**Aspose.Cells**, Microsoft Excel'in kurulu olmasına gerek duyulmadan Excel elektronik tablolarını okuma ve yazma imkanı sunan bir Excel elektronik tablo raporlama bileşenidir. **Aspose.Cells**, verilerin temel dışa aktarımını aşan temel veri dışa aktarımının yanı sıra çok daha fazlasını sunan özellikli bir bileşendir. **Aspose.Cells** ile geliştiriciler, veri dışa aktarımı yaparken, elektronik tabloları her ayrıntıda ve her düzeyde biçimlendirebilirler, görüntüler, grafikleri içe aktarabilir, grafikler oluşturabilir, grafikleri değiştirebilir, Excel verilerini aktarabilir, XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/) entegre) ve çok daha fazlası gibi çeşitli formatlarda kaydedebilirler. **Aspose.Cells**, programcılar için kullanması kolay, özellikli bir **API** sunar. Bu, büyük bir özellik listesine sahiptir. Ürün hakkında daha fazla bilgi, özellikleri ve bir programcı kılavuzu için lütfen Özellikler Listesi Özeti, Aspose.Cells Belgeleri ve çevrim içi olan özellikli Demo'ları kontrol edin. Ücretsiz olarak [indirmek](https://downloads.aspose.com/cells)' için değerlendirme sürümünü indirebilirsiniz.
+## **Arayüz Tasarımı**
 Visual Studio.Net'te yeni bir Asp.Net web uygulaması oluşturmaya başlıyoruz.
 
- ben**Referans ekle**önce projeye ieAspose.Cells.GridWeb.dll, Aspose.Chart.dll ve Aspose.Cells.dll olmak üzere üç bileşene. Sayfaya biraz kontrol yerleştiriyorum ve özelliklerini, yani bir açılır liste, bir komut düğmesi ve bir etiket ayarlıyorum. sonra yerim**Aspose.Cells.GridWeb****kontrol**(**GridWeb**) araç kutusundan ekleyin, çünkü üç bileşene referanslar eklendikten sonra**GridWeb**kontrol araç kutusunda belirir. Diğer iki bileşen (**Aspose.Chart**ve**Aspose.Cells**) yalnızca kitaplıklardır, yalnızca projeye başvurulur.
+İlk olarak, projeye Aspose.Cells.GridWeb.dll, Aspose.Chart.dll ve Aspose.Cells.dll üç bileşenine **Referans Ekle**. Ardından sayfaya bazı kontroller ekleyip özelliklerini ayarlarım, yani bir açılır liste, bir komut düğmesi ve bir etiket. Ardından, **GridWeb**'i (Aspose.Cells.GridWeb kontrolü) araç kutusundan sayfaya yerleştiririm, çünkü üç bileşene referans ekledikten sonra, **GridWeb** kontrolü araç kutusunda görünür hale gelmiştir. Diğer iki bileşen (Aspose.Chart ve Aspose.Cells) sadece kütüphanelerdir, sadece projeye referans alır.
 
-Ayrıca "file" ve "images" olmak üzere iki klasör oluşturuyorum, bu klasörlere sırasıyla "Products.xml" ve "chart.gif"i ekliyorum. Xml dosyası, verilerin doldurulması için çıkarılacağı bir veri kaynak dosyasıdır.**GridWeb**çalışma kağıdı. Resim dosyası, üzerine yerleştirilen özel bir düğme için bir resim sağlayacaktır.**GridWeb**kontrol.
+"file" ve "images" adında iki klasör oluşturur, bunlara sırasıyla "Products.xml" ve "chart.gif" eklerim. XML dosyası, verilerin **GridWeb** çalışsayfasını doldurmak için çıkarılacağı veri kaynağı dosyasıdır. Resim dosyası, **GridWeb** kontrolüne yerleştirilen özel bir düğme için bir resim sağlayacak.
 
-Şimdi, özel bir komut düğmesi oluşturuyorum. Ben sadece sağ tıklayın**GridWeb**kontrol edin ve "Özel Komut Düğmeleri..." seçeneğini tıklayın.
+Şimdi özel bir komut düğmesi oluşturuyorum. Sadece **GridWeb** kontrolüne sağ tıklayıp "Özel Komut Düğmeleri..." seçeneğini tıklarım.
 
-Özel Komut Düğmesi düzenleyicisini etkinleştirir, düzenleyici araç ipucu eklenmiş özel komut görüntü düğmeleri oluşturmanıza olanak tanır. Komut (Ad) ->"btnChart", ImageUrl -> resim dosyasının yolunu ("chart.gif") vermek ve ToolTip -> araç ipucu vermek gibi düğmenin bazı özellikleri için değerleri belirtiyorum.
+Bu, Özel Komut Düğme düzenleyicisini etkinleştirecek, düzenleyici size araç ipucu eklenmiş özel komut resim düğmeleri oluşturmanıza olanak tanır. Düğme için bazı özellik değerlerini belirtirim, örn. Komut (Ad) -> "btnChart", ImageUrl -> resim dosyasının yolu ("chart.gif") ve Araç İpucu -> araç ipucu ver.
 
-Böylece, aşağıdaki ekran görüntüsünde görebileceğiniz gibi (kırmızı renkle çevrelenmiş) özel komut düğmesi eklenir.
+Bu şekilde özel komut düğmesi eklenir (kırmızı renkle çevrili olarak) aşağıdaki ekran görüntüsünde görüldüğü gibi.
 
-|![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
-|:- |
+|![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
+| :- |
 
 
-Son olarak, etiket ve komut düğmesi için bazı Font nitelikleri (kalın) ayarladım. Son görünümü elde etmek için kontrollerin boyutunu da ayarlıyorum.
+Son olarak, etiket ve komut düğmesi için bazı yazı tipi özniteliklerini (kalın) ayarlarım. Ayrıca, kontrol boyutlarını ayarlayarak nihai görünümü elde ederim.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
 ## **Bir XML Dosyasından Veri Alma**
-Projede kullanılan XML dosya yapısı aşağıdadır.
-### **XML Dosya Yapısı**
-**xml**
+Projede kullanılan XML dosyası yapısı aşağıdaki gibidir.
+### **XML Dosyası Yapısı**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?xml version="1.0" standalone="yes"?>
 
@@ -76,7 +79,7 @@ Projede kullanılan XML dosya yapısı aşağıdadır.
 
 {{< /highlight >}}
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -160,7 +163,7 @@ if (!IsPostBack)
 
 //This method is used to filter distinct values from CategoryName field in the datatable.
 
-private object[]GetDistinctValues(DataTable dtable, string colName)
+private object[] GetDistinctValues(DataTable dtable, string colName)
 
 {
 
@@ -193,12 +196,12 @@ private object[]GetDistinctValues(DataTable dtable, string colName)
 }
 
 {{< /highlight >}}
-## **Aspose.Cells.GridWeb kontrolünün Çalışma Sayfasını Veri ile doldurma**
-Bazı API kullanıyorum**GridWeb**bir çalışma sayfasını kaynak XML dosyasındaki verilerle doldurma denetimi. Komut düğmesinin ("Raporu Göster" etiketli) tıklama olay işleyicisine kod yazıyorum. Veri raporu, açılır listeden seçilen öğeye göre filtrelenir.
+## **Aspose.Cells.GridWeb kontrolünün çalışsayfasını kaynaktan alınan veri ile doldurma**
+**GridWeb** kontrolünün API'sinden kaynak XML dosyasından çalışsayfayı veri ile doldurmak için bir dizi API kullanırım. Veri raporu, açılır listeden seçilen öğeye göre filtrelenir.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Clears datasheets of the GridWeb control.
 
@@ -231,86 +234,86 @@ dv.RowFilter = "CategoryName ='" + DropDownList1.SelectedItem.Text + "'";
 GridWeb1.WebWorksheets.ImportDataView(dv, null, null,"Products",3,0);
 
 {{< /highlight >}}
-## **Cells'de Verileri Biçimlendirme**
-Bir çalışma sayfasındaki farklı bilgi türleri arasında ayrım yapmak, çalışma sayfanızdaki verilerin en iyi şekilde görüntülenmesi ve bir çalışma sayfasının taranmasını kolaylaştırmak için çalışma sayfasını biçimlendirirsiniz. A**Biçim**bir stili temsil eder ve yazı tipleri ve yazı tipi boyutları, sayı biçimleri, hücre sınırları, düz arka plan rengiyle hücre gölgelendirmesi veya belirli bir renk deseni, hücrelerde girinti, hizalama ve metin yönü gibi bir dizi özellik olarak tanımlanır.
+## **Hücrelerde Veri Biçimlendirme**
+Çalışsayfada farklı bilgi tiplerini ayırt etmek, verinin optimal bir şekilde görüntülenmesi ve çalışsayfanın taranmasının daha kolay olması için çalışsayfayı biçimlendirirsiniz. **Format**, yazı tipi boyutları, sayı biçimleri, hücre sınırları, hücre renklendirmeleri, hiza, içerik ve metin yönlendirmesi gibi özelliklerden oluşan bir stil olarak tanımlanır.
 
-Yukarıya birkaç kod satırı daha birleştiriyorum. Raporun başlığını / alt başlığını yerleştiriyorum, başlık, alt başlık ve detay hücrelerine bazı biçimlendirmeler yapıyorum. Ayrıca iki alana da sayı biçimlendirmesi uyguluyorum (para birimi sayı biçimini UnitPrice ve Sale alanlarına ayarla) ve satırların ve sütunların yüksekliğini/genişliğini şunu kullanarak ayarlıyorum:**Aspose.Cells.GridWeb**API.
+Yukarıda bahsedilen kod parçalarına ek olarak, raporun başlık/alt başlığını yerleştirir, başlık, alt başlık ve detay hücrelerini biçimlendiririm. Ayrıca, iki alana (Birim Fiyat ve Satış alanlarına) sayı biçimlendirme uygular ve **Aspose.Cells.GridWeb**API'sini kullanarak satır ve sütunların yüksekliğini/genişliğini ayarlarım.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Sayfada başlık hücresini (A1) oluşturun ve biçimlendirmeleri uygulayın.
+ //Create the title cell (A1) in the sheet and apply formattings.
 
-//Aşağıdaki satırlar hücreye bir dizi değeri girer, belirtin
+//The following lines input a string value to the cell, specify
 
-//yazı tipi boyutu, yatay ve dikey hizalama ayarlarını belirtin, ayarlayın
+//font size, specify horizontal and vertical align settings, set
 
-//ön plan ve arka plan renkleri ve hücreleri birleştirme (A1:E2).
+//foreground and background colors and merge cells (A1:E2).
 
-WebWorksheet sayfası = GridWeb1.WebWorksheets[0];
+WebWorksheet sheet = GridWeb1.WebWorksheets[0];
 
-sheet.Cells["A1"].PutValue("Kategoriye Göre Ürün Satışları");
+sheet.Cells["A1"].PutValue("Product Sales By Category");
 
 sheet.Cells["A1"].Style.Font.Size = new FontUnit("20pt");
 
-sayfa.Cells["A1"].Style.HorizontalAlign = HorizontalAlign.Center;
+sheet.Cells["A1"].Style.HorizontalAlign = HorizontalAlign.Center;
 
-sayfa.Cells["A1"].Style.VerticalAlign = VerticalAlign.Middle;
+sheet.Cells["A1"].Style.VerticalAlign = VerticalAlign.Middle;
 
-sayfa.Cells["A1"].Style.BackColor = Color.SkyBlue;
+sheet.Cells["A1"].Style.BackColor = Color.SkyBlue;
 
-sayfa.Cells["A1"].Style.ForeColor = Color.Blue;
+sheet.Cells["A1"].Style.ForeColor = Color.Blue;
 
-sayfa.Cells.Merge(0, 0, 2, 5);
+sheet.Cells.Merge(0, 0, 2, 5);
 
-//Sayfada altyazı hücresini (A3) oluşturun ve formatları uygulayın.
+//Create the subtitle cell (A3) in the sheet and apply formattings.
 
-//Aşağıdaki satırlar hücreye bir dizi değeri girer, belirtin
+//The following lines input a string value to the cell, specify
 
-//yazı tipi boyutunu niteliklerle birlikte belirtin, yatay ve dikey hizalamayı belirtin
+//font size with attributes, specify horizontal and vertical align
 
-// ayarlar, ön plan ve arka plan renklerini ayarlayın ve hücreleri birleştirin
+//settings, set foreground and background colors and merge cells
 
 //(A3:E3).
 
-sayfa.Cells["A3"].PutValue(DropDownList1.SelectedItem.Text);
+sheet.Cells["A3"].PutValue(DropDownList1.SelectedItem.Text);
 
 sheet.Cells["A3"].Style.Font.Size = new FontUnit("13pt");
 
-sayfa.Cells["A3"].Style.Font.Bold = true;
+sheet.Cells["A3"].Style.Font.Bold = true;
 
-sayfa.Cells["A3"].Style.Font.Italic = true;
+sheet.Cells["A3"].Style.Font.Italic = true;
 
-sayfa.Cells["A3"].Style.HorizontalAlign = HorizontalAlign.Left;
+sheet.Cells["A3"].Style.HorizontalAlign = HorizontalAlign.Left;
 
-sayfa.Cells["A3"].Style.VerticalAlign = VerticalAlign.Middle;
+sheet.Cells["A3"].Style.VerticalAlign = VerticalAlign.Middle;
 
-sayfa.Cells["A3"].Style.BackColor = Color.SeaGreen;
+sheet.Cells["A3"].Style.BackColor = Color.SeaGreen;
 
-sayfa.Cells["A3"].Style.ForeColor = Color.Yellow;
+sheet.Cells["A3"].Style.ForeColor = Color.Yellow;
 
-sayfa.Cells.Merge(2, 0, 1, 5);
+sheet.Cells.Merge(2, 0, 1, 5);
 
-//Son satır ve sütun (veri içeren) indekslerini alın.
+//Obtain the last row and column (which contain data) indexes.
 
-int toplam satır = sayfa.Cells.MaxRow +1;
+int totalrow = sheet.Cells.MaxRow +1;
 
-int totalcol = sayfa.Cells.MaxColumn;
+int totalcol = sheet.Cells.MaxColumn;
 
-//Cells koleksiyon sayfasını alın
+//Get the sheet Cells collections
 
-WebCells hücreleri = sayfa.Cells;
+WebCells cells = sheet.Cells;
 
-//Cell nesnesini tanımlayın.
+//Define the Cell object.
 
-WebCell hücresi;
+WebCell cell;
 
-//Sayfadaki veriler arasında dolaşın ve iki alanı şununla biçimlendirin:
+//Loop through the data in the sheet and format two fields with
 
-//Para birimi numarası stili.
+//Currency number style.
 
-için (int ben = 4;i<=totalrow;i++)
+for (int i = 4;i<=totalrow;i++)
 
 {
 
@@ -363,14 +366,14 @@ cells.SetColumnWidth(4, new Unit("50pt"));
 
 
 {{< /highlight >}}
-## **Formatlanmış Raporun (.XLS Dosyası) Grafik ile Aspose.Cells bileşeni kullanılarak üretilmesi**
-Şimdi, biçimlendirilmiş raporu grafikle diske kaydetmek için bazı kodlar yazacağım. kullanıyorum**GridWeb** 's**Kayıt etmek**düğme,**GridWeb** 's**Komutu Kaydet**Kaydet düğmesine tıkladığınızda olay tetiklenir, bu yüzden ben hallederim. Burada, kullanıyorum**Aspose.Cells**biçimlendirilmiş raporu MS Excel'e dışa aktarmak, grafik oluşturmak ve bunu çıktı excel dosyasına gömmek için bileşen. Grafik görüntüsünü eklemedim (tarafından oluşturulan**Aspose.Chart**bileşeni) bunun yerine API'i kullanarak benzer grafiği oluşturun.**Aspose.Cells**böylece ihtiyacınıza göre grafiği MS Excel'de düzenleyebilirsiniz.
+## **Aspose.Cells bileşenini kullanarak Grafikli Biçimlendirilmiş Rapor (.XLS Dosyası) Oluşturma**
+Şimdi, grafikli biçimlendirilmiş raporu diske kaydetmek için bazı kodlar yazarım. **GridWeb** 'in **Kaydet** düğmesini kullanırım, **GridWeb** 'in **KaydetKomutu** olayı, Kaydet düğmesine tıkladığınızda tetiklenir, bu nedenle ben bunu ele alırım. Burada, biçimlendirilmiş raporu MS Excel'e dışa aktarmak, grafik oluşturmak ve grafikleri çıktı excel dosyasına yerleştirmek için **Aspose.Cells** bileşenini kullanırım. **Aspose.Chart** bileşeni tarafından oluşturulan grafik resmini (resim) yerine, MS Excel'de grafikliyi oluşturmak için **Aspose.Cells** API'sini kullanırım.
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //This GridWeb control event is fired when you click on the "Save" button
 
@@ -531,55 +534,55 @@ chartIndex = sheet.Charts.Add(Aspose.Cells.ChartType.Pie,maxrow,0,maxrow+28,5);
 
 
 {{< /highlight >}}
-## **Uygulamayı Çalıştırma**
-Şimdi uygulamayı çalıştırıyorum. Açılır liste, farklı kategorilerle doldurulur.
+## **Uygulamanın Çalıştırılması**
+Şimdi uygulamayı çalıştırıyorum. Açılır liste farklı kategorilerle doldurulmuş durumda.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
 
-Satış raporunu göstermek istediğim kategoriyi seçip "Raporu Göster" butonuna tıklıyorum.
+Satış raporunu göstermek istediğim bir kategori seçer ve "Raporu Göster" düğmesine tıklarım.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
 
-Böylece, rapor**GridWeb**Seçilen kategoriye göre. Rapor, koda (daha önce yazılmış) göre varsayılan olarak biçimlendirilir.
+Bu şekilde, seçilen kategoriye göre **GridWeb** tablosuna rapor eklenir. Rapor, varsayılan olarak yazılan kodlara göre biçimlendirilir.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
 
-Verileri bazı hücrelere WYSIWYG biçiminde biçimlendirmek istiyorsanız, bunu oldukça kolay bir şekilde yapabilirsiniz.**Aspose.Cells.GridWeb**sağlar**Biçim Cells**editör, istediğiniz hücreleri seçin ve sağ tıklayın, "Biçim Cell..." seçeneğini tıklayın.
+Eğer hücrelere WYSIWYG (ne görürsen onu alırsın) biçimde veri biçimlendirmek isterseniz, bunu oldukça kolayca yapabilirsiniz. **Aspose.Cells.GridWeb**, **Hücre Biçimlendirme** düzenleyicisini sağlar, istediğiniz hücreleri seçip üzerine sağ tıklayarak "Hücre Biçimlendirme..." seçeneğini tıklarsınız.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
 
-Biçim Cell iletişim kutusu gösterilir.
+Hücre Biçimlendirme iletişim kutusu gösterilir.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
 
-Bazı Font niteliklerini belirtiyorum ve Tamam'ı tıklıyorum.
+Belirli bir yazı tipi özelliği belirtirim ve Tamam'a tıklarım.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
 
-Ve sonucu alın.
+Ve sonucu alırım.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
 
-Hücre biçimlendirmesinin yanı sıra hücre değerlerinizi de düzenleyebilirsiniz. İstediğiniz hücreye/hücrelere çift tıklayın ve değeri düzenleyin.
+Hücre biçimlendirmenin yanı sıra, hücre değerlerinizi de düzenleyebilirsiniz. İstenen hücreye çift tıklar ve değeri düzenlerim.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
 
-Düzenleme sonucunu göndermek ve tüm formülü yeniden hesaplamak için, raporu güncellemek için ilgili düğmeyi (kırmızı renkle çevrili) tıklıyorum.
+Düzenleme sonucunu göndermek ve tüm formülü yeniden hesaplamak için ilişkili düğmeye tıklarım (kırmızı renkle çevrili).
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
 
-Şimdi grafiği oluşturup kontrole yapıştıracağım. Veri aralığına dayalı pasta grafiği oluşturmak için özel komut düğmesini (kırmızı renkle çevrelenmiş) tıklıyorum.
+Şimdi grafiği oluşturup kontrolüne yapıştırırım. Veri aralığına dayanarak pasta grafiğini oluşturmak için özel komut düğmesine tıklarım (kırmızı renkle çevrili).
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
 
-Son olarak, bu veri raporunu grafikle birlikte MS Excel'e aktaracağım. tıklıyorum**Kayıt etmek**düğmesi (kırmızı renkle çevrelenmiş). tıklayarak**Kayıt etmek**düğme görüntülenecek**Dosya indirme**iletişim kutusu**Açık**ortaya çıkan raporu (grafikli excel dosyası çıktısı) MS Excel'e veya diske kaydedin.
+Son olarak, bu veri raporunu grafikle birlikte MS Excel'e dışa aktarırım. **Kaydet** düğmesine tıklarım (kırmızı renkle çevrili). **Kaydet** düğmesine tıkladığınızda, **Dosya İndirme** iletişim kutusu görüntülenir, çıktı excel dosyası ile MS Excel'de açabilir veya diske kaydedebilirsiniz.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
 
-Aç düğmesine tıkladığımda (Dosya İndirme iletişim kutusu), grafikli excel raporu MS Excel'e aktarılıyor. Raporun üst kısmı gösterilir.
+Açtığım düğmeye tıkladığımda (Dosya İndirme iletişim kutusu), excel raporunun üst kısmı gösterilir.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
 
 Excel raporunun alt kısmı gösterilir.
 
-![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)

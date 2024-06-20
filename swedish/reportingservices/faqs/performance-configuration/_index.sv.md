@@ -1,20 +1,21 @@
-﻿---
+---
 title: Prestandakonfiguration
 type: docs
 weight: 20
 url: /sv/reportingservices/performance-configuration/
 ---
+
 {{% alert color="primary" %}} 
 
- Användare kan optimera prestanda till viss del. Du kan konfigurera vissa attribut och parametrar i**Aspose.Cells.ReportingServices.xml** fil enligt beskrivningen nedan.
+Användare kan optimera prestandan till en viss del. Du kan konfigurera vissa attribut och parametrar i filen **Aspose.Cells.ReportingServices.xml** enligt beskrivningen nedan.
 
 {{% /alert %}} 
-### **Prestanda avsnitt**
-Detta visar avsnittet Prestanda som det är som standard.
+### **Prestandaavsnitt**
+Detta visar prestandaavsnittet som det är som standard.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -36,11 +37,11 @@ Detta visar avsnittet Prestanda som det är som standard.
 
 {{< /highlight >}}
 ### **Prestandaparametrar**
--  LimitCellsNumberForMerged – Standardvärdet för parametern är 1000000. Parametervärdet ställs in av klienten och påverkas inte av prestandaparameterns switch. Se följande konfiguration.
+- LimitCellsNumberForMerged – Standardvärdet för parametern är 1000000. Parametervärdet ställs in av klienten och påverkas inte av prestandaparameterns växel. Se följande konfiguration. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -48,15 +49,15 @@ Detta visar avsnittet Prestanda som det är som standard.
 
 {{< /highlight >}}
 
--  IsAutoRowFit – Kan vara antingen sant eller falskt:
- - När parametern Performance är inställd på 'av' är standardvärdet falskt.
- - När parametern Performance är inställd på 'on' är standardvärdet sant.
- - När parametern Prestanda är inställd på "på", kan en delelementsrapport återställa rapportens AutoRowFile-parameter.
-Se följande konfiguration.
+- IsAutoRowFit – Kan vara antingen sant eller falskt: 
+  - När prestandaparametern är inställd på 'av' är standardvärdet falskt.
+  - När prestandaparametern är inställd på 'på', är standardvärdet sant.
+  - När prestandaparametern är inställd på 'på' kan en underenhet i rapporten återställa rapportens AutoRowFile-paramater.
+    Vänligen hänvisa till följande konfiguration. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -78,15 +79,15 @@ Se följande konfiguration.
 
 {{< /highlight >}}
 
--  IsMerged – Kan vara antingen sant eller falskt:
- - När parametern Performance är inställd på 'av' är standardvärdet falskt.
- - När parametern Performance är inställd på 'on' är standardvärdet sant.
- - När parametern Prestanda är inställd på "på", kan en delelementsrapport återställa rapportens AutoRowFile-parameter.
-Se följande konfiguration.
+- IsMerged – Kan vara antingen sant eller falskt: 
+  - När prestandaparametern är inställd på 'av' är standardvärdet falskt.
+  - När prestandaparametern är inställd på 'på', är standardvärdet sant.
+  - När prestandaparametern är inställd på 'på' kan en underenhet i rapporten återställa rapportens AutoRowFile-paramater.
+    Vänligen hänvisa till följande konfiguration. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -108,15 +109,15 @@ Se följande konfiguration.
 
 {{< /highlight >}}
 
--  IsSetStyle – Kan vara antingen sant eller falskt:
- - När parametern Performance är inställd på 'av' är standardvärdet falskt.
- - När parametern Performance är inställd på 'on' är standardvärdet sant.
- - När parametern Prestanda är inställd på "på", kan en delelementsrapport återställa rapportens AutoRowFile-parameter.
-Se följande konfiguration.
+- IsSetStyle – Kan vara antingen sant eller falskt: 
+  - När prestandaparametern är inställd på 'av' är standardvärdet falskt.
+  - När prestandaparametern är inställd på 'på', är standardvärdet sant.
+  - När prestandaparametern är inställd på 'på' kan en underenhet i rapporten återställa rapportens AutoRowFile-paramater.
+    Vänligen hänvisa till följande konfiguration. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -138,16 +139,16 @@ Se följande konfiguration.
 
 {{< /highlight >}}
 
--  IsConditionalFormatting – Kan vara antingen sant eller falskt:
- - När parametern Performance är inställd på 'av' är standardvärdet falskt.
- - När parametern Performance är inställd på 'on' är standardvärdet sant.
- - När parametern Prestanda är inställd på "på", kan underelementrapporten återställa punktrapportens AutoRowFile-parameter.
- - När parametern IsSetStyle är inställd på false är värdet på parametern Performance ogiltigt.
-Se följande konfiguration.
+- IsConditionalFormatting – Kan vara antingen sant eller falskt: 
+  - När prestandaparametern är inställd på 'av' är standardvärdet falskt.
+  - När prestandaparametern är inställd på 'på', är standardvärdet sant.
+  - När prestandaparametern är inställd på 'på', kan delrapporten återställa punktrapportens AutoRowFile-parametrar.
+  - När IsSetStyle-parametern är inställd på false är värdet för prestandaparametern ogiltigt.
+    Vänligen hänvisa till följande konfiguration. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

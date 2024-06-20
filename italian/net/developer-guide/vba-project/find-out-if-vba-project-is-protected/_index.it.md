@@ -1,24 +1,25 @@
-﻿---
-title: Scopri se il progetto VBA è protetto
+---
+title: Scopri se il progetto VBA è Protetto
 type: docs
 weight: 20
 url: /it/net/find-out-if-vba-project-is-protected/
 ---
-## **Scopri se il progetto VBA è protetto in C#**
 
- Puoi scoprire se il progetto VBA (Visual Basic Applications) del tuo file Excel è protetto o meno con Aspose.Cells utilizzando[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected)proprietà.
+## **Scoprire se il progetto VBA è protetto in C#**
 
-## **Codice d'esempio**
+Puoi verificare se il progetto VBA (Visual Basic Applications) del tuo file Excel è protetto o meno con Aspose.Cells utilizzando la proprietà [**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected).
 
-Il seguente codice di esempio crea una cartella di lavoro e quindi controlla se il relativo progetto VBA è protetto o meno. Quindi protegge il progetto VBA e controlla nuovamente se il suo progetto VBA è protetto o meno. Si prega di vedere l'output della sua console per un riferimento. Prima della protezione,[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) ritorna**falso** ma dopo la protezione, ritorna**VERO**.
+## **Codice di Esempio**
+
+Il seguente codice di esempio crea un workbook e quindi verifica se il suo progetto VBA è protetto o meno. Poi protegge il progetto VBA e controlla di nuovo se il suo progetto VBA è protetto o meno. Si prega di consultare l'output della console per un riferimento. Prima della protezione, [**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) restituisce **false** ma dopo la protezione restituisce **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-FindoutifVBAProjectisProtected.cs" >}}
 
-## **Uscita console**
+## **Output della console**
 
-Questo è l'output della console del codice di esempio precedente come riferimento.
+Questo è l'output della console del codice di esempio sopra per un riferimento.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 IsProtected - Before Protecting VBA Project: False
 

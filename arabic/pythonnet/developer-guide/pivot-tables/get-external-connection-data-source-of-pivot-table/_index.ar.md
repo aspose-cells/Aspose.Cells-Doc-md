@@ -1,19 +1,20 @@
 ---
-title: احصل على مصدر بيانات الاتصال الخارجي للجدول المحوري
+title: الحصول على مصدر بيانات الاتصال الخارجي لجدول الدوران
 type: docs
 weight: 150
 url: /ar/python-net/get-external-connection-data-source-of-pivot-table/
-description: كيفية الحصول على مصدر بيانات الاتصال الخارجي لـ Pivot Table مع Aspose.Cells for Python via .NET.
-keywords: Get External Connection Data Source of Pivot Table.
+description: كيفية الحصول على مصدر بيانات الاتصال الخارجي لجدول محوري باستخدام Aspose.Cells for Python via .NET.
+keywords: Aspose.Cells لمكتبة Python Excel، Excel Python library، الحصول على مصدر بيانات الاتصال الخارجي لجدول محوري باستخدام Aspose.Cells لمكتبة Python Excel.
 ---
-##  **احصل على مصدر بيانات الاتصال الخارجي للجدول المحوري**
 
-Aspose.Cells for Python via .NET يوفر إمكانية الحصول على مصدر بيانات الاتصال الخارجي للجدول المحوري. لهذا، يوفر API[**External_connection_data_source**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/) ملكية[**جدول محوري**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/) فصل. ال[**External_connection_data_source**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/)تقوم الخاصية بإرجاع[**اتصال خارجي**](https://reference.aspose.com/cells/python-net/aspose.cells.externalconnections/externalconnection/) هدف. يوضح مقتطف التعليمات البرمجية التالي استخدام[**PivotTable.external_connection_data_source**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/) الخاصية للحصول على مصدر بيانات الاتصال الخارجي للجدول المحوري.
+## **كيفية الحصول على مصدر بيانات الاتصال الخارجي لجدول محوري**
 
-##  عينة من الرموز
+توفر Aspose.Cells for Python via .NET القدرة على الحصول على مصدر بيانات الاتصال الخارجي لجدول محوري. لهذا الغرض، توفر واجهة برمجة التطبيقات الخاصة بالبرمجة النهائية الخاصة بالواجهة البرمجية [**external_connection_data_source**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/) لفئة [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/). تُرجع خاصية [**external_connection_data_source**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/) الكائن [**ExternalConnection**](https://reference.aspose.com/cells/python-net/aspose.cells.externalconnections/externalconnection/). توضح مقطع الشفرة البرمجية التالي استخدام الخاصية [**PivotTable.external_connection_data_source**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/) للحصول على مصدر بيانات الاتصال الخارجي لجدول المحور.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableGetExternalConnectionDataSource-1.py" >}}
 
-تم إرفاق الملف المصدر المستخدم في مقتطف الشفرة كمرجع.
+الملف المصدر المستخدم في مقتطف الشفرة مرفق للرجوع إليه.
 
-[مصدر الملف](104398862.xlsx)
+[ملف المصدر](104398862.xlsx)

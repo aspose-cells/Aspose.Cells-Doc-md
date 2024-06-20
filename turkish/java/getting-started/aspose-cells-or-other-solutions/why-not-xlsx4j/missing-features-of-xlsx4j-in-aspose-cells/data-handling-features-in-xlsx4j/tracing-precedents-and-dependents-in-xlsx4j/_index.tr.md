@@ -1,24 +1,25 @@
-﻿---
-title: xlsx4j'de Emsalleri ve Bağımlıları İzleme
+---
+title: xlsx4j de Öncüllerin ve Bağımlıların İzlenmesi
 type: docs
 weight: 70
 url: /tr/java/tracing-precedents-and-dependents-in-xlsx4j/
 ---
-## **Aspose.Cells - Emsallerin ve Bağımlıların İzlenmesi**
-Karmaşık finansal çalışma sayfaları, özellikle işbirliği içinde geliştirilenler, en utanç verici hataları gizleyebilir. Formüllerin doğruluğunu kontrol etmek ve bir hatanın kaynağını bulmak, formül emsal hücreler ve bağımlı hücreler kullandığında zor olabilir.
 
-- **emsal hücreler**başka bir Cell'deki bir formülle başvurulan hücrelerdir. Örneğin, D10 hücresi =B5 formülünü içeriyorsa, B5 hücresi D10 hücresinin emsalidir.
-- **Bağımlı hücreler**diğer hücrelere başvuran formüller içerir. Örneğin, D10 hücresi =B5 formülünü içeriyorsa, D10 hücresi B5 hücresinin bağımlısıdır.
+## **Aspose.Cells - Öncüllerin ve Bağımlıların İzlenmesi**
+Özellikle ortak geliştirilen karmaşık finansal çalışma tabloları, en utanç verici hataları saklayabilir. Formüllerin doğruluğunu kontrol etmek ve bir hatanın kaynağını bulmak, öncü hücreler ve bağımlı hücreleri kullanan formülün olduğu durumlarda zor olabilir.
 
-Elektronik tablonun okunmasını kolaylaştırmak için, formülde elektronik tablodaki hangi hücrelerin kullanıldığını açıkça göstermek isteyebilirsiniz. Benzer şekilde, diğer hücrelerin bağımlı hücrelerini çıkarmak isteyebilirsiniz.
+- **Öncü hücreler**, başka bir hücredeki formül tarafından atıfta bulunulan hücrelerdir. Örneğin, D10 hücresi =B5 formülünü içeriyorsa, B5 hücresi D10 hücresinin öncüsüdür.
+- **Bağımlı hücreler**, diğer hücrelere atıfta bulunan formüller içerir. Örneğin, D10 hücresi =B5 formülünü içeriyorsa, D10 hücresi B5 hücresinin bağımlısıdır.
 
-Aspose.Cells, hücreleri izlemenizi ve hangilerinin bağlantılı olduğunu bulmanızı sağlar.
+Elektronik tabloyu okunabilir hale getirmek için belki de bir formülde kullanılan hangi hücreleri açıkça göstermek istersiniz. Benzer şekilde, diğer hücrelerin bağımlı hücrelerini çıkarmak isteyebilirsiniz.
 
-Emsallerin İzini Sürmek
+Aspose.Cells, hücreleri izlemenize ve hangi hücrelerin bağlı olduğunu bulmanıza olanak tanır.
+
+Öncüleri İzleme
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -88,17 +89,17 @@ Bağımlıları İzleme
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //A1 hücresini al
+ //Get the A1 cell
 
-Cell c = cell.get("A5");
+Cell c = cells.get("A5");
 
-// A5 hücresinin tüm Bağımlılarını al
+//Get the all the Dependents of A5 cell
 
-Cell[]bağımlılar = c.getDependents(true);
+Cell[] dependents = c.getDependents(true);
 
-için (int ben = 0; ben< dependents.length; i++)
+for (int i = 0; i< dependents.length; i++)
 
 {
 
@@ -109,11 +110,11 @@ için (int ben = 0; ben< dependents.length; i++)
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/tracingprecedentsanddependents/AsposeTracingPrecedentsAndDependents.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Emsallerin ve Bağımlıların İzlenmesi](/java/tracing-precedents-and-dependents).
+Daha fazla bilgi için [Öncüleri ve Bağımlıları İzleme](/java/öncüleri-ve-bağımlıları-izleme) adresini ziyaret edin.
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
 ---
-title: إنشاء أو معالجة أو إزالة السيناريوهات من أوراق العمل
+title: إنشاء، تلاعب أو إزالة السيناريوهات من الأوراق العمل
 linktitle: إدارة السيناريوهات
 type: docs
 weight: 190
 url: /ar/net/create-manipulate-or-remove-scenarios-from-worksheets/
-description: في هذه المقالة ، ستتعلم كيفية إنشاء السيناريوهات أو معالجتها أو إزالتها من أوراق عمل Excel برمجيًا باستخدام C# Library مع .NET API.
-keywords: create scenario worksheet c#, remove scenario excel worksheet c#, manipulate scenario worksheet c#
+description: في هذا المقال، ستتعلم كيفية إنشاء، التلاعب أو إزالة السيناريوهات من أوراق العمل في إكسل برمجياً باستخدام مكتبة C# مع واجهة برمجة التطبيقات .NET.
+keywords: إنشاء سيناريو الورقة العمل سي#، إزالة سيناريو إكسل لورقة العمل سي#، التلاعب بسيناريو الورقة العمل سي#
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، تحتاج إلى إنشاء سيناريوهات أو معالجتها أو حذفها في جداول البيانات. السيناريو يسمى "ماذا لو؟" نموذج يتضمن خلايا إدخال متغيرة مرتبطة بصيغة واحدة أو أكثر. قبل إنشاء سيناريو ، صمم ورقة العمل بحيث تحتوي على صيغة واحدة على الأقل تعتمد على الخلايا التي يمكن إدراج قيم مختلفة فيها. يوضح المثال التالي كيفية إنشاء سيناريوهات وإزالتها من ورقة عمل في مصنف عبر Aspose.Cells APIs.
+في بعض الأحيان، قد تحتاج إلى إنشاء، التلاعب أو حذف السيناريوهات في جداول البيانات. السيناريو هو نموذج 'ماذا لو؟' يتضمن خلايا إدخال متغيرة مرتبطة بواحد أو أكثر من الصيغ. قبل إنشاء سيناريو، صمم الورقة العمل بحيث تحتوي على صيغة واحدة على الأقل تعتمد على الخلايا التي يمكن إدراج قيم مختلفة فيها. يظهر المثال التالي كيفية إنشاء وإزالة السيناريوهات من ورقة عمل في مصنف باستخدام واجهات Aspose.Cells.
 
 {{% /alert %}}
 
-يوفر Aspose.Cells بعض الفئات المفيدة ، على سبيل المثال ،[**مجموعة سيناريو**](https://reference.aspose.com/cells/net/aspose.cells/scenariocollection), [**سيناريو**](https://reference.aspose.com/cells/net/aspose.cells/scenario), [**السيناريو InputCellCollection**](https://reference.aspose.com/cells/net/aspose.cells/scenarioinputcellcollection) ، و[**سيناريو InputCell**](https://reference.aspose.com/cells/net/aspose.cells/scenarioinputcell) الطبقات. كما يوفر[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/scenarios)ملكية. يفتح نموذج التعليمة البرمجية أدناه ملف XLSX Excel يحتوي على بعض السيناريوهات ويزيل سيناريو موجود. كما يضيف سيناريو جديدًا إلى ورقة العمل قبل حفظ ملف Excel. يستخدم المثال ملف قالب بسيط للغاية يحتوي على سيناريو.
+توفر Aspose.Cells بعض الفصول المفيدة، على سبيل المثال، [**ScenarioCollection**](https://reference.aspose.com/cells/net/aspose.cells/scenariocollection)، [**Scenario**](https://reference.aspose.com/cells/net/aspose.cells/scenario)، [**ScenarioInputCellCollection**](https://reference.aspose.com/cells/net/aspose.cells/scenarioinputcellcollection)، و [**ScenarioInputCell**](https://reference.aspose.com/cells/net/aspose.cells/scenarioinputcell). كما توفر الخاصية [**Worksheet.Scenarios**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/scenarios). يفتح الكود المصدري العينة أدناه ملف إكسل XLSX الذي يحتوي على بعض السيناريوهات ويزيل السيناريو الحالي. كما يضيف سيناريوًا جديدًا إلى الورقة العمل قبل حفظ ملف إكسل. يستخدم المثال ملف قالب بسيط جدًا يحتوي على سيناريو.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreateManipulateRemoveScenarios-1.cs" >}}

@@ -1,17 +1,20 @@
-﻿---
-title: Mostrar botones para Agregar/Eliminar hojas de trabajo
+---
+title: Mostrar botones para Agregar/Quitar Hojas
 type: docs
 weight: 150
-url: /es/net/show-add-remove-worksheet-button/
+url: /es/net/aspose-cells-gridweb/manage-worksheet-button/
+keywords: GridWeb, botón, crear botón de hoja, quitar botón de hoja
+description: Este artículo presenta cómo trabajar con la opción ShowAddButton para agregar/quitar botones para agregar/quitar hojas de cálculo (GridWorksheet) en GridWeb.
 ---
+
 {{% alert color="primary" %}}
 
-Este tema trata sobre cómo mostrar los botones Agregar o quitar para Agregar o quitar hojas de trabajo en el control Aspose.Cells.GridWeb.
+Este tema discute la visualización de los botones para agregar/quitar hojas de cálculo en el control Aspose.Cells.GridWeb.
 
 {{% /alert %}}
 
- Aspose.Cells GridWeb ahora admite agregar y eliminar hojas mediante el uso de botones en la barra de herramientas. Para que los botones sean visibles en la interfaz, debe configurar**GridWeb1.ShowAddButton** a**verdadero**. El siguiente fragmento de código muestra cómo agregar botones Agregar o quitar a la barra de herramientas de GridWeb.
+Ahora Aspose.Cells GridWeb admite agregar y quitar hojas de cálculo mediante botones en la barra de herramientas. Para que los botones sean visibles en el frontend, es necesario establecer **GridWeb1.ShowAddButton** a **true**. El siguiente fragmento de código demuestra cómo agregar botones de agregar/quitar a la barra de herramientas de GridWeb.
 
-## Código de muestra
+## Código de Muestra
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples.GridWeb-CSharp-Worksheets-ShowAddButton.aspx-ShowAddButton-1.cs" >}}

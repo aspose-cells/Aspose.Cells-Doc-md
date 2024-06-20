@@ -1,22 +1,23 @@
-﻿---
-title: Trova tabelle di query e oggetti elenco relativi a connessioni dati esterne
+---
+title: Trova Tabelle di Query e Oggetti Elenco relativi a Connessioni Dati Esterne
 type: docs
 weight: 20
 url: /it/java/find-query-tables-and-list-objects-related-to-external-data-connections/
 ---
-## **Trova tabelle di query e oggetti elenco relativi a connessioni dati esterne**
 
-A volte, è necessario scoprire le tabelle di query e gli oggetti elenco relativi ad alcune connessioni dati esterne. Le tabelle di query sono correlate all'oggetto connessione dati esterna con ID connessione, mentre gli oggetti elenco sono correlati a una tabella di query.
+## **Trova query tabelle e oggetti elenco relativi alle connessioni esterne dei dati**
 
- Il seguente codice di esempio spiega come trovare le tabelle di query e gli oggetti elenco correlati alla connessione dati esterna. Il codice utilizza il[file excel di esempio](5472550.xlsm) che puoi scaricare dal link fornito. Puoi anche vedere l'output di questo codice di esempio in fondo a questo articolo.
+A volte è necessario scoprire le Tabelle di Query e gli Oggetti Elenco relativi a alcune Connessioni Dati Esterne. Le Tabelle di Query sono correlate all'oggetto Connessione Dati Esterne con Id Connessione, mentre gli Oggetti Elenco sono correlati a una Tabella di Query.
+
+Il codice di esempio seguente spiega come trovare le Tabelle di Query e gli Oggetti Elenco correlati a una Connessione Dati Esterna. Il codice utilizza il [file di lavoro di esempio](5472550.xlsm) che puoi scaricare dal link fornito. Puoi anche vedere l'output di questo codice di esempio in fondo a questo articolo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-FindReferenceCellsFromExternalConnection-FindReferenceCellsFromExternalConnection.java" >}}
 
-## **Uscita console**
+## **Output della console**
 
- Ecco l'output della console del codice di esempio precedente che utilizza this[file excel di esempio](5472550.xlsm).
+Ecco l'output della console del codice di esempio sopra utilizzando questo [file di lavoro di esempio](5472550.xlsm).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 connection: AAPL Connection
 

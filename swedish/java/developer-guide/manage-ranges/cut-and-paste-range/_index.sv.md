@@ -1,19 +1,20 @@
-﻿---
-title: Klipp ut och klistra intervall
+---
+title: Skär och klistra in intervall
 type: docs
 weight: 150
 url: /sv/java/cut-and-paste-cells/
 ---
-## **Klipp ut och klistra Cells**
 
-Aspose.Cells ger dig möjligheten att klippa ut och klistra in celler i ett kalkylblad genom att använda[**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) metod för[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)samling. De[**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) accepterar följande parametrar.
+## **Klipp och klistra celler**
 
-- [**Räckvidd**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)Området av celler som ska skäras.
-- Radindex: Indexet för raden för att infoga celler.
-- Kolumnindex: Indexet för kolumnen för att infoga celler.
-- [**ShiftType**](https://reference.aspose.com/cells/java/com.aspose.cells/ShiftType): Kolumnernas förskjutningsriktning.
+Aspose.Cells ger dig möjlighet att klippa ut och klistra in celler i en arbetsbok genom att använda samlingen [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)s [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int))-metod. [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) accepterar följande parametrar.
 
-Följande exempel visar hur du klipper ut och klistrar in celler i ett kalkylblad.
+- [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range): Området med celler som ska klippas.
+- Radindex: Index för raden att infoga celler.
+- Kolumnindex: Index för kolumnen att infoga celler.
+- [**ShiftType**](https://reference.aspose.com/cells/java/com.aspose.cells/ShiftType): Kolumnernas förflyttningsriktning.
+
+Följande exempel visar hur du klipper och klistrar celler inom en arbetsbok.
 
 ## Exempelkod
 

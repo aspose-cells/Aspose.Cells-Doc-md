@@ -1,15 +1,16 @@
-﻿---
-title: xlsx4j'de Grafikler Oluşturun
+---
+title: xlsx4j de Grafik Oluşturma
 type: docs
 weight: 20
 url: /tr/java/create-charts-in-xlsx4j/
 ---
-## **Aspose.Cells - Grafik Oluştur**
+
+## **Aspose.Cells - Grafik Oluşturma**
 Aspose.Cells ile elektronik tablolara çeşitli grafikler eklemek mümkündür. Aspose.Cells birçok esnek grafik nesnesi sağlar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -70,5 +71,5 @@ workbook.save(dataDir + "Chart_Aspose.xls");
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/charts/createcharts/AsposeCreateCharts.java)

@@ -1,84 +1,85 @@
 ---
-title: Comment et où utiliser les enquêteurs
+title: Comment et où utiliser les énumérateurs
 linktitle: Itérer les données
 type: docs
 weight: 55
 url: /fr/net/how-and-where-to-use-enumerators/
-description: Découvrez comment et où utiliser les enquêteurs via le Aspose.Cells for .NET API.
-keywords: How to use Enumerators, Cells Enumerator, Rows Enumerator, Columns Enumerator
+description: Apprenez comment et où utiliser des énumérateurs via l API Aspose.Cells for .NET.
+keywords: Comment utiliser des énumérateurs, énumérateur de cellules, énumérateur de lignes, énumérateur de colonnes
 ---
+
 {{% alert color="primary" %}}
 
-Un énumérateur est un objet qui offre la possibilité de parcourir un conteneur ou une collection. Les énumérateurs peuvent être utilisés pour lire les données de la collection, mais ils ne peuvent pas être utilisés pour modifier la collection sous-jacente, alors que IEnumerable est une interface qui définit une méthode GetEnumerator qui renvoie une interface IEnumerator, ce qui, à son tour, permet un accès en lecture seule à une collection.
+Un énumérateur est un objet qui fournit la capacité de parcourir un conteneur ou une collection. Les énumérateurs peuvent être utilisés pour lire les données dans la collection, mais ils ne peuvent pas être utilisés pour modifier la collection sous-jacente, tandis que IEnumerable est une interface qui définit une méthode GetEnumerator qui renvoie une interface IEnumerator, ce qui permet un accès en lecture seule à une collection.
 
-Les API Aspose.Cells fournissent un certain nombre d'énumérateurs. Cependant, cet article traite principalement des trois types répertoriés ci-dessous.
+Les API Aspose.Cells fournissent une multitude d'énumérateurs, cependant, cet article traite principalement des trois types énumérés ci-dessous.
 
-1. Cells Recenseur
+1. Énumérateur de cellules
 1. Énumérateur de lignes
 1. Énumérateur de colonnes
 
 {{% /alert %}}
 
-##  **Comment utiliser les enquêteurs**
+## **Comment utiliser des énumérateurs**
 
-###  **Cells Recenseur**
+### **Énumérateur de cellules**
 
-Il existe différentes manières d'accéder à l'énumérateur Cells, et on peut utiliser n'importe laquelle de ces méthodes en fonction des exigences de l'application. Voici les méthodes qui renvoient l’énumérateur de cellules.
+Il existe diverses façons d'accéder à l'énumérateur de cellules, et l'on peut utiliser l'une de ces méthodes en fonction des besoins de l'application. Voici les méthodes qui renvoient l'énumérateur de cellules.
 
 1. [**Cells.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getenumerator)
 1. [**Row.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/getenumerator)
 1. [**Range.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/getenumerator)
 
-Toutes les méthodes mentionnées ci-dessus renvoient l'énumérateur qui permet de parcourir la collection de cellules initialisées.
+Toutes les méthodes mentionnées ci-dessus renvoient l'énumérateur qui permet de parcourir la collection de cellules qui ont été initialisées.
 
 {{% alert color="primary" %}}
 
-Lors du parcours des cellules, la collection ne doit pas être modifiée (opérations qui entraîneront l'instanciation d'un nouveau Cell ou la suppression d'un Cell existant). Sinon, l'enquêteur risque de ne pas être en mesure de parcourir toutes les cellules correctement (certains éléments peuvent être parcourus de manière répétée ou ignorés).
+En parcourant les cellules, la collection ne doit pas être modifiée (des opérations qui entraîneront l'instanciation d'une nouvelle cellule ou la suppression d'une cellule existante). Sinon, l'énumérateur risque de ne pas pouvoir parcourir toutes les cellules correctement (certains éléments peuvent être parcourus de manière répétitive ou sautés).
 
 {{% /alert %}}
 
-L'exemple de code suivant illustre l'implémentation de l'interface IEnumerator pour une collection Cells.
+L'exemple de code suivant montre l'implémentation de l'interface IEnumerator pour une collection de cellules.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-CellsEnumerator.cs" >}}
 
-###  **Énumérateur de lignes**
+### **Itérateur de lignes**
 
- L'énumérateur de lignes est accessible en utilisant le[**RowCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection/methods/getenumerator) méthode. L'exemple de code suivant illustre l'implémentation de l'interface IEnumerator pour[**Collection de lignes**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection).
+L'itérateur de lignes peut être accédé lors de l'utilisation de la méthode [**RowCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection/methods/getenumerator). L'exemple de code suivant montre l'implémentation de l'interface IEnumerator pour [**RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-RowEnumerator.cs" >}}
 
-###  **Énumérateur de colonnes**
+### **Itérateur de colonnes**
 
- L'énumérateur de colonnes est accessible en utilisant le[**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection) méthode. L'exemple de code suivant illustre l'implémentation de l'interface IEnumerator pour[**Collection de colonnes**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
+L'itérateur de colonnes peut être accédé lors de l'utilisation de la méthode [**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection). L'exemple de code suivant montre l'implémentation de l'interface IEnumerator pour [**ColumnCollection**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-ColumnEnumerator.cs" >}}
 
-##  **Où utiliser les enquêteurs**
+## **Où utiliser les énumérateurs**
 
-Afin de discuter des avantages de l’utilisation d’enquêteurs, prenons un exemple en temps réel.
+Afin de discuter des avantages de l'utilisation des énumérateurs, prenons un exemple en temps réel.
 
 **Scénario**
 
- Une exigence de l'application est de parcourir toutes les cellules d'un champ donné.[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)pour lire leurs valeurs. Il pourrait y avoir plusieurs façons de mettre en œuvre cet objectif. Quelques-uns sont illustrés ci-dessous.
+Une exigence de l'application est de parcourir toutes les cellules dans un [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) donné pour lire leurs valeurs. Il pourrait y avoir plusieurs façons de mettre en œuvre cet objectif. Quelques exemples sont indiqués ci-dessous.
 
-###  **Utilisation de la plage d'affichage**
+### **Utilisation de la plage d'affichage**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingDisplayRange.cs" >}}
 
-###  **Utilisation de MaxDataRow et MaxDataColumn**
+### **Utilisation de MaxDataRow & MaxDataColumn**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-UsingMaxDataRowAndMaxDataColumn.cs" >}}
 
-Comme vous pouvez le constater, les deux approches mentionnées ci-dessus utilisent une logique plus ou moins similaire, c'est-à-dire : bouclez sur toutes les cellules de la collection pour lire les valeurs des cellules. Cela pourrait être problématique pour un certain nombre de raisons, comme indiqué ci-dessous.
+Comme vous pouvez le constater, les deux approches ci-dessus utilisent plus ou moins une logique similaire, c'est-à-dire parcourir toutes les cellules de la collection pour lire les valeurs des cellules. Cela pourrait poser problème pour un certain nombre de raisons, comme discuté ci-dessous.
 
-1.  Des API telles que[**MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxrow), [**MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow), [**ColonneMax**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxcolumn), [**Colonne de données maximale**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) & [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)nécessitent plus de temps pour rassembler les statistiques correspondantes. Dans le cas où la matrice de données (lignes x colonnes) est volumineuse, l'utilisation de ces API pourrait imposer une pénalité de performances.
-1. Dans la plupart des cas, toutes les cellules d’une plage donnée ne sont pas instanciées. Dans de telles situations, vérifier chaque cellule de la matrice n’est pas aussi efficace que vérifier uniquement les cellules initialisées.
-1. L'accès à une cellule dans une boucle en tant que ligne et colonne Cells entraînera l'instanciation de tous les objets de cellule d'une plage, ce qui peut éventuellement provoquer une exception OutOfMemoryException.
+1. Les API telles que [**MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxrow), [**MaxDataRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatarow), [**MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxcolumn), [**MaxDataColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdatacolumn) & [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) nécessitent du temps supplémentaire pour rassembler les statistiques correspondantes. Dans le cas où la matrice de données (lignes x colonnes) est grande, l'utilisation de ces API pourrait entraîner une pénalité de performance.
+1. Dans la plupart des cas, toutes les cellules dans une plage donnée ne sont pas instanciées. Dans de telles situations, vérifier chaque cellule dans la matrice n'est pas aussi efficace que de vérifier uniquement les cellules initialisées.
+1. Accéder à une cellule dans une boucle en tant que Cells row, column entraînera l'instanciation de tous les objets de cellules dans une plage, ce qui pourrait finalement entraîner une OutOfMemoryException.
 
-##  **Conclusion**
+## **Conclusion**
 
-Sur la base des faits mentionnés ci-dessus, voici les scénarios possibles dans lesquels les enquêteurs devraient être utilisés.
+Sur la base des faits mentionnés ci-dessus, voici les scénarios possibles où les énumérateurs doivent être utilisés.
 
-1. Un accès en lecture seule à la collection de cellules est requis, c'est-à-dire ; l'exigence est d'inspecter uniquement les cellules.
-1. Un grand nombre de cellules sont à parcourir.
-1. Seules les cellules/lignes/colonnes initialisées à parcourir.
+1. Un accès en lecture seule de la collection de cellules est requis, c'est-à-dire; la nécessité est uniquement d'inspecter les cellules.
+1. Un grand nombre de cellules doit être parcouru.
+1. Seules les cellules/rangées/colonnes initialisées doivent être parcourues.

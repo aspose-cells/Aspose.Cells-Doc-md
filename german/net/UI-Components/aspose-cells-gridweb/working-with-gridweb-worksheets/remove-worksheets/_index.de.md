@@ -1,23 +1,26 @@
-﻿---
+---
 title: Arbeitsblätter entfernen
 type: docs
 weight: 30
-url: /de/net/remove-worksheets/
+url: /de/net/aspose-cells-gridweb/remove-worksheets/
+keywords: GridWeb, entfernen, GridWorksheet entfernen, Arbeitsblatt entfernen
+description: Dieser Artikel zeigt, wie ein Arbeitsblatt (GridWorksheet) in GridWeb entfernt wird.
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Thema enthält Informationen zum Entfernen von Arbeitsblättern aus Microsoft Excel-Dateien mithilfe von Aspose.Cells.GridWeb API. Es ist möglich, ein Arbeitsblatt entweder durch Angabe seines Blattindex oder -namens zu entfernen.
+In diesem Thema wird beschrieben, wie Arbeitsblätter aus Microsoft Excel-Dateien mithilfe der Aspose.Cells.GridWeb-API entfernt werden können. Es ist möglich, ein Arbeitsblatt entweder durch Angabe seines Blattindex oder seines Namens zu entfernen.
 
 {{% /alert %}} 
-## **Entfernen eines Arbeitsblatts**
-### **Blattindex verwenden**
-Der folgende Code zeigt, wie ein Arbeitsblatt entfernt wird, indem sein Blattindex in der RemoveAt-Methode der GridWorksheetCollection angegeben wird.
+## **Arbeitsblatt entfernen**
+### **Verwenden des Blattindex**
+Der folgende Code zeigt, wie ein Arbeitsblatt entfernt wird, indem sein Blattindex im RemoveAt-Verfahren der GridWorksheetCollection angegeben wird.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-RemoveWorksheets.aspx-RemoveWorksheetUsingIndex.cs" >}}
-### **Blattname verwenden**
-Der folgende Code zeigt, wie ein Arbeitsblatt entfernt wird, indem sein Blattname in der RemoveAt-Methode der GridWorksheetCollection angegeben wird.
+### **Verwendung des Blattnamens**
+Der folgende Code zeigt, wie ein Arbeitsblatt entfernt wird, indem sein Blattname im RemoveAt-Verfahren der GridWorksheetCollection angegeben wird.
 
 
 
@@ -25,6 +28,6 @@ Der folgende Code zeigt, wie ein Arbeitsblatt entfernt wird, indem sein Blattnam
 
 {{% alert color="primary" %}} 
 
-Es ist auch möglich, ein Arbeitsblatt anhand seiner Referenz oder Instanz zu entfernen. Verwenden Sie dazu die Remove-Methode der GridWorksheetCollection. Dieser Ansatz wird häufig verwendet.
+Es ist auch möglich, ein Arbeitsblatt unter Verwendung seines Verweises oder der Instanz zu entfernen. Verwenden Sie dazu die Remove-Methode der GridWorksheetCollection. Dieser Ansatz wird häufig verwendet.
 
 {{% /alert %}}

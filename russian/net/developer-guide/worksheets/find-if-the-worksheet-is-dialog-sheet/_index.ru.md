@@ -1,30 +1,31 @@
 ---
-title: Найдите, является ли рабочий лист диалоговым листом
+title: Проверить, является ли рабочий лист диалоговым листом
 type: docs
 weight: 90
 url: /ru/net/find-if-the-worksheet-is-dialog-sheet/
-description: Диалоговый лист — это старый формат листа. В этой статье приведены инструкции и пример кода для программного определения того, является ли рабочий лист Excel диалоговым листом с использованием библиотеки C# API или .NET.
-keywords: find excel worksheet dialog type c#, worksheet dialog c#
+description: Диалоговый лист  это старый формат листа. В этой статье представлены инструкции и образец кода для определения программным образом, является ли лист Excel диалоговым с использованием C# API или библиотеки .NET.
+keywords: обнаружить тип диалогового листа Excel c#, диалоговый лист c#
 ---
-##  **Возможные сценарии использования**
 
-Диалоговый лист — это старый формат листа, который содержит диалоговое окно. Такой лист может быть вставлен более старой версией Microsoft Excel, например 2003 года, как показано на этом снимке экрана. Его также можно вставить с помощью VBA в более новых версиях, например Microsoft Excel 2016.
+## **Возможные сценарии использования**
 
-![дело:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
+Диалоговый лист - это старый формат листа, который содержит диалоговое окно. Такой лист мог быть вставлен в старой версии Microsoft Excel, например, в 2003 году, как показано на этом скриншоте. Его также можно вставить с помощью VBA в новых версиях, например, Microsoft Excel 2016.
 
-Вы можете определить, является ли лист диалоговым листом или другим типом листа с[**Рабочий лист.Тип**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)свойство, предоставленное Aspose.Cells. Если оно возвращает значение перечисления[**Тип Листа.Диалог**](https://reference.aspose.com/cells/net/aspose.cells/sheettype), значит, вы имеете дело с диалоговым листом.
+![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-##  **Найдите, является ли рабочий лист диалоговым листом**
+Вы можете определить, является ли лист диалоговым листом или каким-либо другим типом листа с помощью свойства [**Worksheet.Type**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type), предоставленного Aspose.Cells. Если он возвращает значение перечисления [**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype), то это означает, что вы имеете дело с диалоговым листом.
 
- Следующий пример кода загружает[образец файла Excel](64716820.xlsx) который содержит диалоговый лист. Он проверяет[**Рабочий лист.Тип**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type)свойство сравнивает его с[**Тип Листа.Диалог**](https://reference.aspose.com/cells/net/aspose.cells/sheettype) а затем печатает сообщение. Дополнительные сведения см. в выводе на консоль примера кода, приведенного ниже.
+## **Определить, является ли рабочий лист диалоговым листом**
 
-##  **Образец кода**
+В следующем примере кода загружается [образец файла Excel](64716820.xlsx), который содержит диалоговый лист. Он проверяет свойство [**Worksheet.Type**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/type), сравнивает его с [**SheetType.Dialog**](https://reference.aspose.com/cells/net/aspose.cells/sheettype), и затем выводит сообщение. Пожалуйста, обратитесь к выводу консоли приведенного ниже примера кода для получения дополнительной помощи.
+
+## **Образец кода**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-FindIfWorksheetIsDialogSheet.cs" >}}
 
-##  **Консольный вывод**
+## **Вывод в консоль**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Worksheet is a Dialog Sheet.
 

@@ -1,27 +1,28 @@
 ---
-title: データ ポイントが円グラフまたは円グラフの 2 番目の円または棒にあるかどうかを確認する
-description: Aspose.Cells for .NET を使用して、円グラフまたは円グラフの 2 番目の円または棒にデータ ポイントがあるかどうかを確認する方法を説明します。このガイドでは、複合グラフ上の 2 番目の円または棒を特定してアクセスし、データを効果的に分析および操作できるようにする方法を説明します。
-keywords: Aspose.Cells for .NET, Pie of Pie Chart, Bar of Pie Chart, Secondary Pie, Secondary Bar, Data Analysis, Data Manipulation.
+title: パイオブパイチャートまたはバーオブパイチャートでデータポイントが第2パイまたは棒にあるかどうかを見つける
+description: Aspose.Cells for .NETを使用して、データポイントを2番目のパイや棒の中に含むかどうかを見つける方法を学びます。ガイドでは、複合チャートの2次パイや棒を特定してアクセスし、データを効果的に分析および操作する方法を示します。
+keywords: Aspose.Cells for .NET、パイオブパイチャート、バーオブパイチャート、セカンダリーパイ、セカンダリーバー、データ解析、データ操作。
 type: docs
 weight: 180
 url: /ja/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/
 ---
-##  **考えられる使用シナリオ**
-系列のデータ ポイントが 2 番目の円にあるかどうかを確認できます。*パイ・オブ・パイ*チャートまたはバーで*バー・オブ・パイ*Aspose.Cells を使用したチャート。[ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)プロパティを使用して決定します。
 
-ダウンロードしてください[サンプルエクセルファイル](5115193.xlsx)次のサンプル コードで使用されているので、そのコンソール出力を確認してください。開けると、[サンプルエクセルファイル](5115193.xlsx) 10 未満のすべてのデータ ポイントがバーの内側にあることがわかります。*バー・オブ・パイ*コンソール出力にも表示されるグラフ。
-##  **データ ポイントが円グラフまたは円グラフの 2 番目の円または棒にあるかどうかを確認する**
-次のサンプル コードは、データ ポイントが 2 番目の円または棒にあるかどうかを確認する方法を示しています。*パイ・オブ・パイ*または*バー・オブ・パイ*チャート。
+## **可能な使用シナリオ**
+Aspose.Cellsを使用して、*パイオブパイ* チャートの2番目のパイやバーオブ *バーオブパイ* チャートのデータポイントを見つけることができます。[ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)プロパティを使用して、それを判断してください。
+
+以下のサンプルコードで作成されたコンソール出力を参照してください。サンプルコードで使用される[サンプルエクセルファイル](5115193.xlsx) を開くと、10未満のすべてのデータポイントが *バーオブパイ* チャートの内部にあることが、コンソール出力にも示されています。
+## **パイオブパイチャートまたはバーオブパイチャートでデータポイントが第2パイまたは棒にあるかどうかを見つける**
+以下のサンプルコードは、*Pie of Pie*または*Bar of Pie*チャートでデータポイントが第2パイまたは棒にあるかどうかを見つける方法を示しています。
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindDataPointsInPieBar-FindDataPointsInPieBar.cs" >}}
-##  **コンソール出力**
-上記のサンプル コードを実行した後に生成される次のコンソール出力を参照してください。[サンプルエクセルファイル](5115193.xlsx) 。もし[IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)*false** の場合、データ ポイントは円グラフの内側にあり、*true** の場合、データ ポイントは棒グラフの内側にあります。
+## **コンソール出力**
+[5115193.xlsx](https://example.com) を使用した上記のサンプルコードを実行した後に生成されたコンソール出力を参照してください。 [IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)が **false** の場合、データポイントはパイの内部にあり、**true** の場合、データポイントはバーの内部にあります。
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Value: 15
 

@@ -1,5 +1,5 @@
-﻿---
-title: Schriftarten
+---
+title: Schriften
 type: docs
 weight: 110
 url: /de/java/fonts/

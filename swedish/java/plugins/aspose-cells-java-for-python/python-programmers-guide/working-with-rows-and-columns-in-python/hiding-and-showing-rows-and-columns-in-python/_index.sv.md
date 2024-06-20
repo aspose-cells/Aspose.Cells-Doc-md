@@ -3,16 +3,17 @@ title: Dölja och visa rader och kolumner i Python
 type: docs
 weight: 50
 url: /sv/java/hiding-and-showing-rows-and-columns-in-python/
-description: Lär dig hur du döljer och visar rader och kolumner via Aspose.Cells for Python Via Java API.
-keywords: How to Hide and Show Rows and Columns in Python Via Java, Hide Rows and Columns using Python Via Java, Python Via Java Show Rows and Columns. 
+description: Lär dig hur man döljer och visar rader och kolumner via Aspose.Cells för Python via Java API.
+keywords: Hur man döljer och visar rader och kolumner i Python via Java, Dölj rader och kolumner med hjälp av Python via Java, Python via Java Visa rader och kolumner. 
 ---
-##  **Aspose.Cells - Kontrollera synligheten för rader och kolumner**
-###  **Hur man döljer rader och kolumner**
-Utvecklare kan dölja en rad eller kolumn genom att anropa metoderna HideRow och HideColumn i samlingen Cells. Båda metoderna tar rad/kolumnindex som en parameter för att dölja den specifika raden eller kolumnen.
 
-**Ruby kod**
+## **Aspose.Cells - Kontrollera synligheten av rader & kolumner**
+### **Hur man döljer rader och kolumner**
+Utvecklare kan dölja en rad eller kolumn genom att anropa HideRow och HideColumn metoderna i Cells-kollektionen respektive. Båda metoderna tar rad/kolumnindexet som parameter för att dölja den specifika raden eller kolumnen.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  def hide_rows_columns(self):
 
@@ -41,15 +42,15 @@ workbook.save(self.dataDir + "Hide Rows And Columns.xls")
 print "Hide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-###  **Hur man visar rader och kolumner**
-Utvecklare kan visa alla dolda rader eller kolumner genom att anropa metoderna UnhideRow och UnhideColumn i samlingen Cells. Båda metoderna tar två parametrar:
+### **Hur man visar rader och kolumner**
+Utvecklare kan återvisa dolda rader eller kolumner genom att anropa UnhideRow och UnhideColumn metoderna i Cells-kollektionen respektive. Båda metoderna tar två parametrar:
 
-- **Rowor kolumnindex**indexet för en rad eller kolumn som används för att visa den specifika raden eller kolumnen.
-- **Radhöjd eller kolumnbredd**- radhöjden eller kolumnbredden som tilldelats raden eller kolumnen efter att den har visats.
+- **Rad- eller kolumnindex** - index för en rad eller kolumn som används för att visa den specifika raden eller kolumnen.
+- **Radhöjd eller kolumnbredd** - radhöjd eller kolumnbredd tilldelad till raden eller kolumnen efter att den visas.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def unhide_rows_columns(self):
 
@@ -78,7 +79,7 @@ workbook.save(self.dataDir + "Unhide Rows And Columns.xls")
 print "Unhide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-##  **Ladda ner Running Code**
- Ladda ner**Kontrollera synligheten för rader och kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Kontrollera synligheten av rader & kolumner (Aspose.Cells)** från någon av nedanstående sociala kodningssidor:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

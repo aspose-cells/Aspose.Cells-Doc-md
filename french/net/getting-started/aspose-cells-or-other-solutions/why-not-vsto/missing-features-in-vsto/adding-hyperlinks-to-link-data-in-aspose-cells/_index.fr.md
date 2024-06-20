@@ -1,41 +1,42 @@
-﻿---
-title: Ajout d'hyperliens aux données de lien dans Aspose.Cells
+---
+title: Ajout de liens hypertexte pour lier les données dans Aspose.Cells
 type: docs
 weight: 10
 url: /fr/net/adding-hyperlinks-to-link-data-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Un lien hypertexte permet de créer un lien entre deux entités. Tout le monde connaît l'utilisation des hyperliens, en particulier sur les sites Web.
+Un lien hypertexte est utilisé pour créer un lien entre deux entités. Tout le monde est familier avec l'utilisation des liens hypertexte, en particulier sur les sites Internet.
 
-En utilisant Aspose.Cells, les développeurs peuvent créer différents types d'hyperliens dans les fichiers Excel Microsoft. Cette rubrique explique quels types d'hyperliens sont pris en charge par Aspose.Cells et comment ils peuvent être utilisés dans nos fichiers Excel.
+En utilisant Aspose.Cells, les développeurs peuvent créer différents types de liens hypertexte dans les fichiers Microsoft Excel. Ce sujet explique quels types de liens hypertexte sont pris en charge par Aspose.Cells et comment ils peuvent être utilisés dans nos fichiers Excel.
 
 {{% /alert %}}
 
-## **Ajout d'hyperliens**
+## **Ajout de liens hypertexte**
 
-Trois types d'hyperliens peuvent être ajoutés à une cellule à l'aide du Aspose.Cells :
+Trois types de liens hypertexte peuvent être ajoutés à une cellule à l'aide d'Aspose.Cells :
 
-- [Ajouter un lien à une URL](#adding-link-to-a-url).
-- [Ajouter un lien vers une autre cellule dans le même fichier](#adding-a-link-to-a-cell-in-the-same-file).
-- [Ajouter un lien vers un fichier externe](#adding-a-link-to-an-external-file).
+- [Ajout de lien vers une URL](#adding-link-to-a-url).
+- [Ajout d'un lien vers une autre cellule dans le même fichier](#adding-a-link-to-a-cell-in-the-same-file).
+- [Ajout d'un lien vers un fichier externe](#adding-a-link-to-an-external-file).
 
- Aspose.Cells permet aux développeurs d'ajouter des liens hypertexte vers des fichiers Excel en utilisant le API ou[feuilles de calcul de concepteur](/cells/fr/net/what-is-a-designer-spreadsheet/)(feuilles de calcul où les hyperliens sont créés manuellement et Aspose.Cells est utilisé pour les importer dans d'autres feuilles de calcul).
+Aspose.Cells permet aux développeurs d'ajouter des hyperliens aux fichiers Excel soit en utilisant l'API, soit en [feuilles de calcul de concepteur](/cells/fr/net/what-is-a-designer-spreadsheet/) (feuilles de calcul où les hyperliens sont créés manuellement et Aspose.Cells est utilisé pour les importer dans d'autres feuilles de calcul).
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La classe fournit différentes méthodes pour ajouter différents liens hypertexte aux fichiers Excel.
+Aspose.Cells fournit une classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contient une [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) offre différentes méthodes pour ajouter différents hyperliens aux fichiers Excel.
 
-### **Ajouter un lien à une URL**
+### **Ajout de lien vers une URL**
 
- Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe contient un[**Hyperliens**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) le recueil. Chaque élément de la collection Hyperlinks représente un lien hypertexte. Ajoutez des liens hypertexte aux URL en appelant la méthode Add de la collection Hyperlinks. La méthode Add prend les paramètres suivants :
+La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) contient une collection [**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks). Chaque élément dans la collection Hyperliens représente un hyperlien. Ajoutez des hyperliens vers des URL en appelant la méthode Add de la collection Hyperliens. La méthode Add prend les paramètres suivants :
 
-- Cell nom, le nom de la cellule à laquelle le lien hypertexte sera ajouté.
+- Nom de la cellule, le nom de la cellule à laquelle le lien hypertexte sera ajouté.
 - Nombre de lignes, le nombre de lignes dans cette plage de liens hypertexte.
-- Nombre de colonnes, le nombre de colonnes dans cette plage de liens hypertexte
+- Nombre de colonnes, le nombre de colonnes dans cette plage d'hyperliens
 - URL, l'adresse URL.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -59,18 +60,18 @@ workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
 
-### **Ajout d'un lien vers un Cell dans le même fichier**
+### **Ajouter un lien vers une cellule dans le même fichier**
 
-Il est possible d'ajouter des liens hypertexte aux cellules d'un même fichier Excel en appelant la méthode Add de la collection Hyperlink. La méthode Add fonctionne pour les liens hypertexte internes et externes. Une version de la méthode surchargée prend les paramètres suivants :
+Il est possible d'ajouter des hyperliens aux cellules dans le même fichier Excel en appelant la méthode Add de la collection Hyperlink. La méthode Add fonctionne à la fois pour les hyperliens internes et externes. Une version de la méthode surchargée prend les paramètres suivants :
 
-- Cell nom, le nom de la cellule à laquelle le lien hypertexte sera ajouté.
+- Nom de la cellule, le nom de la cellule à laquelle le lien hypertexte sera ajouté.
 - Nombre de lignes, le nombre de lignes dans cette plage de liens hypertexte.
 - Nombre de colonnes, le nombre de colonnes dans cette plage de liens hypertexte.
 - URL, l'adresse de la cellule cible.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -94,16 +95,16 @@ workbook.Save("C:\\book1.xls");
 
 ### **Ajouter un lien vers un fichier externe**
 
-Il est possible d'ajouter des liens hypertexte vers des fichiers Excel externes en appelant la méthode Add de la collection Hyperlinks. La méthode Add prend les paramètres suivants :
+Il est possible d'ajouter des hyperliens vers des fichiers Excel externes en appelant la méthode Add de la collection Hyperlinks. La méthode Add prend les paramètres suivants:
 
-- Cell nom, le nom de la cellule à laquelle le lien hypertexte sera ajouté.
+- Nom de la cellule, le nom de la cellule à laquelle le lien hypertexte sera ajouté.
 - Nombre de lignes, le nombre de lignes dans cette plage de liens hypertexte.
 - Nombre de colonnes, le nombre de colonnes dans cette plage de liens hypertexte.
 - URL, l'adresse de la cible, fichier Excel externe.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -129,10 +130,10 @@ workbook.Save("C:\\book2.xls");
 
 {{< /highlight >}}
 
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Adding%20Hyperlinks%20to%20Link%20Data)
 
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

@@ -1,22 +1,23 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.0.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.0.0
 type: docs
 weight: 20
 url: /de/java/public-api-changes-in-aspose-cells-8-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Diese Seite listet öffentliche API-Änderungen auf, die in Aspose.Cells 8.0.0 eingeführt wurden. Es enthält nicht nur neue und veraltete öffentliche Methoden, sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells, die sich auf den vorhandenen Code auswirken können.
+Diese Seite listet öffentliche API-Änderungen auf, die in Aspose.Cells 8.0.0 eingeführt wurden. Es umfasst nicht nur neue und veraltete öffentliche Methoden, sondern auch eine Beschreibung von Änderungen im Verhalten im Hintergrund von Aspose.Cells, die den vorhandenen Code beeinflussen können.
 
 {{% /alert %}} 
 ## **MemorySetting zu LoadOptions & WorkbookSettings hinzugefügt**
-Ab v8.0.0 von Aspose.Cells for Java haben wir die Speichernutzungsoptionen aus Leistungsgründen bereitgestellt. Die Eigenschaft „MemorySetting“ ist jetzt in den Klassen „LoadOptions“ und „WorkbookSettings“ verfügbar.
+Ab v8.0.0 von Aspose.Cells for Java haben wir Speichernutzungsoptionen aus Leistungsgründen bereitgestellt. Die MemorySetting-Eigenschaft ist nun in den Klassen LoadOptions & WorkbookSettings verfügbar.
 ### **Beispiel**
-Demonstriert, wie eine Excel-Datei (mit großer Größe) im optimierten Modus gelesen wird.
+Zeigt, wie eine Excel-Datei (mit großer Größe) im optimierten Modus gelesen wird.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize LoadOptions
 
@@ -32,11 +33,11 @@ Workbook book = new Workbook(myDir + "large.xlsx", options);
 
 {{< /highlight >}}
 
-Veranschaulicht, wie ein großes Dataset im optimierten Modus in ein Arbeitsblatt geschrieben wird.
+Zeigt, wie ein großes Dataset im optimierten Modus in ein Arbeitsblatt geschrieben wird.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -54,17 +55,17 @@ book.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 
 {{% alert color="primary" %}} 
 
- Bitte lesen Sie den ausführlichen Artikel auf[Optimieren des Arbeitsspeichers beim Arbeiten mit großen Dateien](/cells/de/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)s.
+Bitte überprüfen Sie den ausführlichen Artikel zu [Optimizing Memory while Working with Large File](/cells/de/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
 
 {{% /alert %}}
-## **Implementierungen von Zeile & Cell wurden geändert**
- In früheren Versionen wurden Row- und Cell-Objekte im Arbeitsspeicher gehalten, um entsprechende Zeilen und Zellen in einem Arbeitsblatt darzustellen. Es wurde immer dieselbe Instanz zurückgegeben**RowCollection[int index]** oder**Cells[int-Zeile, int-Spalte]** wurden abgerufen. Aus Gründen der Speicherleistung werden ab sofort nur noch die Eigenschaften und Daten von Row und Cell im Speicher gehalten. Daher wurde das Objekt Row & Cell zum Wrapper der oben genannten Eigenschaften.
+## **Implementierungen von Zeile & Zelle wurden geändert**
+In früheren Versionen wurden Zeilen- und Zellenobjekte im Speicher gehalten, um die entsprechende Zeile und Zelle in einem Arbeitsblatt darzustellen. Die gleiche Instanz wurde zurückgegeben, wann immer **RowCollection[int index]** oder **Cells[int row, int column]** abgerufen wurde. Aus Gründen der Speicherleistung werden jetzt nur noch Eigenschaften und Daten von Zeile und Zelle im Speicher behalten. Daher sind das Zeilen- und Zellenobjekt nun die Wrapper für die genannten Eigenschaften.
 ### **Beispiel**
-Demonstriert, wie von nun an die Objekte Cell und Row verglichen werden.
+Zeigt, wie man die Zellen- und Zeilenobjekte von jetzt an vergleicht.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //..
 
@@ -77,13 +78,13 @@ cell1.equals(cell2);
 
 {{< /highlight >}}
 
-Da die Row- und Cell-Objekte gemäß dem Aufruf instanziiert werden, werden sie nicht von der Cells-Komponente im Arbeitsspeicher gehalten und verwaltet. Daher werden nach einigen Einfüge- und Löschvorgängen die Zeilen- und Spaltenindizes möglicherweise nicht aktualisiert oder noch schlimmer, diese Objekte werden ungültig.
+Da die Zeilen- und Zellenobjekte je nach Aufruf instanziiert werden, werden sie nicht vom Zellenkomponenten im Speicher behalten und verwaltet. Daher können nach einigen Einfüge- und Löschvorgängen die Zeilen- und Spaltenindizes nicht aktualisiert werden oder diese Objekte werden ungültig.
 ### **Beispiel**
-Beispielsweise gibt das folgende Code-Snippet mit 8.0.0 und höher ungültige Ergebnisse zurück.
+Beispielsweise gibt der folgende Codeausschnitt ab Version 8.0.0 und höher ungültige Ergebnisse zurück,
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Cell cell = cells.get("A2");
 
@@ -95,11 +96,11 @@ System.out.println(cell.getName() + ":" + cell.getValue());
 
 {{< /highlight >}}
 
-Mit der neuen Version wird das Objekt Cell ungültig oder verweist mit einem unerwünschten Wert auf A2. Um eine solche Situation zu vermeiden, rufen Sie die Row- oder Cell-Objekte erneut aus der Cells-Sammlung ab, um das korrekte Ergebnis abzurufen.
+Mit der neuen Version wird das Zellenobjekt ungültig oder verweist auf A2 mit einem unerwünschten Wert. Um eine solche Situation zu vermeiden, holen Sie die Zeilen- oder Zellenobjekte erneut aus der Zellensammlung, um das korrekte Ergebnis zu erhalten.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Cell cell = cells.get("A2");
 
@@ -117,18 +118,18 @@ System.out.println(cell.getName() + ":" + cell.getValue());
 
 {{% alert color="primary" %}} 
 
-RowCollection erbt CollectionBase nicht mehr, da es kein Row-Objekt in seiner inneren Liste gibt.
+RowCollection erbt nicht mehr von CollectionBase, da es kein Zeilenobjekt in seiner internen Liste gibt.
 
 {{% /alert %}}
 ## **Cell.StringValue-Verhalten geändert**
- In früheren Versionen spezielles Muster_wurde beim Formatieren von Zellenwerten ignoriert, wobei das Sonderzeichen * immer ein Zeichen im formatierten Ergebnis erzeugte. Ab dieser Version haben wir die Logik geändert, um Sonderzeichen zu behandeln_ und* um das formatierte Ergebnis gleich wie bei der Excel-Anwendung zu machen. Das benutzerdefinierte Zellenformat „_(\$* #,##0.00_)" verwendet, um den Wert 123 darzustellen, erzeugte das Ergebnis als "$ 123,00". In neuen Versionen enthält Cell.StringValue das Ergebnis als "$ 123,00", was das gleiche Verhalten ist, das die Excel-Anwendung beim Kopieren der Zelle zeigt per SMS oder Export an CSV.
-## **CreatedTime zu PdfSaveOptions hinzugefügt**
-Jetzt können Benutzer die Erstellungszeit PDF abrufen oder festlegen, während sie die Tabelle unter Verwendung der PdfSaveOptions-Klasse auf PDF speichern.
-## **ShowFormulas zum Arbeitsblatt hinzugefügt**
-Von nun an können Benutzer die von Worksheet angebotene boolesche Eigenschaft ShowFormulas verwenden, um die Ansicht zwischen Formel und Wert eines bestimmten Arbeitsblatts umzuschalten.
+In früheren Versionen wurde das spezielle Muster _ beim Formatieren von Zellenwerten ignoriert, während das Sonderzeichen * immer ein Zeichen in das formatierte Ergebnis einfügte. Ab dieser Version haben wir die Logik zur Behandlung der Sonderzeichen _ und * geändert, um das formatierte Ergebnis identisch mit der Excel-Anwendung zu gestalten. Beispielsweise wurde das benutzerdefinierte Zellenformat "_(\$* #,##0.00_)" verwendet, um den Wert 123 darzustellen und produzierte das Ergebnis "$ 123.00". Mit neuen Versionen enthält Cell.StringValue das Ergebnis als "$123.00", was dem Verhalten der Excel-Anwendung entspricht, wenn die Zelle zum Kopieren in Text oder zum Exportieren in CSV verwendet wird.
+## **Erstellungszeit zu PdfSaveOptions hinzugefügt**
+Nutzer können nun die Erstellungszeit von PDF beim Speichern des Tabellenblatts in PDF mithilfe der Klasse PdfSaveOptions festlegen oder abrufen.
+## **ShowFormulas zu Arbeitsblatt hinzugefügt**
+Nutzer können ab sofort die boolesche Eigenschaft ShowFormulas des Arbeitsblatts verwenden, um die Ansicht zwischen Formel und Wert eines bestimmten Arbeitsblatts zu wechseln.
 ## **Ooxml zu FileFormatType hinzugefügt**
-Der FileFormatType-Klasse wurde eine neue Konstante Ooxml hinzugefügt, um die verschlüsselte Office Open XML-Datei darzustellen, z. B. XLSX, DOCX, PPTX und mehr.
-## **Veraltete FilterColumnCollection von AutoFilter**
-Mit Aspose.Cells for Java wurde die Methode getFilterColumnCollection als veraltet markiert. Es wird empfohlen, stattdessen die Methode AuotFilter.getFilterColumns zu verwenden.
-## **SeriesCollection.SecondCatergoryData durch SeriesCollection.SecondCategoryData ersetzt**
-Wir haben den Tippfehler im Methodennamen für SeriesCollection.getSecondCatergoryData grundsätzlich korrigiert. Sie können die Methode SeriesCollection.getSecondCategoryData jetzt weiter verwenden, während die ursprüngliche Methode SeriesCollection.getSecondCatergoryData als veraltet markiert wurde.
+Eine neue Konstante Ooxml wurde der Klasse FileFormatType hinzugefügt, um die verschlüsselten Office Open XML-Dateien wie XLSX, DOCX, PPTX und mehr zu repräsentieren.
+## **FilterColumnCollection von AutoFilter veraltet**
+Mit Aspose.Cells for Java wurde die Methode getFilterColumnCollection als veraltet markiert. Es wird empfohlen stattdessen die Methode AuotFilter.getFilterColumns zu verwenden.
+## **Ersetzte SeriesCollection.SecondCatergoryData durch SeriesCollection.SecondCategoryData**
+Wir haben den Tippfehler im Methodennamen SeriesCollection.getSecondCatergoryData korrigiert. Sie können nun die Methode SeriesCollection.getSecondCategoryData verwenden, während die ursprüngliche Methode SeriesCollection.getSecondCatergoryData als veraltet markiert wurde.

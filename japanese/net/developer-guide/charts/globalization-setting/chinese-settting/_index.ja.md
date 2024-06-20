@@ -1,29 +1,30 @@
 ---
-title: 中国地域のチャートを画像に変換
-description: Aspose.Cells の使用方法を学習します。 for .NET は、チャートの中国語構成を設定します。このガイドでは、フォント、サイズ、テキストの方向などを含む、中国語の文字と形式をサポートするようにグラフを構成する方法を説明します。
-keywords: Aspose.Cells for .NET, Charts, Chinese Configuration, Fonts, Font Size, Text Direction, Support.
-linktitle: 中国地域の設定
+title: 中国地域のチャートをイメージに変換する
+description: Aspose.Cells for .NETを使用して、中国構成のチャートを作成する方法を学習してください。当ガイドでは、フォント、サイズ、テキストの方向など、中国文字と書式をサポートするためのチャートの構成方法を実証します。
+keywords: Aspose.Cells for .NET、チャート、中国構成、フォント、フォントサイズ、テキストの方向、サポート。
+linktitle: 中国地域を設定する
 type: docs
 weight: 9
 url: /ja/net/convert-chart-to-image-for-chinese-region/
 alias: [/net/set-chinese-configuration-for-chart/]
 ---
+
 {{% alert color="primary" %}}
 
-このトピックでは、グラフに中国地域を設定する方法を説明します。
+このトピックでは、チャートの中国地域を設定する方法を示します。
 
 {{% /alert %}}
 
-##  **継承クラスを定義します**
+## **継承クラスを定義する**
 
-最初のステップとして、以下を継承するクラス「Chart ChineseSettings」を定義する必要があります。[**チャートグローバリゼーション設定**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
-次に、関連する関数を書き直すことで、グラフ要素のテキストを独自の言語で設定できます。
+最初のステップとして、「[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/)」から継承するクラス"ChartChineseSetttings"を定義する必要があります。 
+その後、関連する関数を書き換えることで、チャート要素のテキストを独自の言語で設定できます。
 コード例:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChartChineseSetttings.cs" >}}
 
-##  **チャートの中国語設定を構成する**
+## **チャートの中国語設定を構成する**
 
-このステップでは、前のステップで定義したクラス「Chart ChineseSettings」を使用します。
+このステップでは、前のステップで定義した"ChartChineseSetttings"クラスを使用します。
 コード例:
 
 ```
@@ -33,20 +34,20 @@ alias: [/net/set-chinese-configuration-for-chart/]
 	chart0.ToImage("Output.png");
 ```
 
-出力画像で効果を確認できます。グラフ内の要素は設定に従ってレンダリングされます。
+その後、出力イメージで効果を確認できます。チャートの要素は、設定に従ってレンダリングされます。
 
-##  **結論**
+## **結論**
 
-この例では、グラフに中国地域を設定しない場合、次のグラフ要素は英語などのデフォルト言語で表示される可能性があります。
-上記の操作の後、中国地域を含む出力チャート画像を取得できます。
+この例では、チャートに日本語の地域を設定しない場合、次のチャート要素はデフォルトの言語（英語など）でレンダリングされる場合があります。
+上記の操作を行った後、日本語の地域を設定した出力チャート画像を取得できます。
 
-|**サポートされている要素**|**この例の値**|**英語環境のデフォルト値**|
+|**サポートされる要素**|**この例の値**|**英語環境のデフォルト値**|
 | :- | :- | :- |
-|軸タイトル名|坐标轴标题|軸タイトル|
-|軸ユニット名|百,千...|何百、何千...|
-|チャートのタイトル名|图表标题|チャートのタイトル|
-|レジェンド増加名|增加|増加|
-|凡例の名前の減少|减少|減少|
-|凡例の合計名|汇总|合計|
-|ほかの名前|其他|他の|
-|シリーズ名|系列|シリーズ|
+| 軸タイトル名 | 坐標軸タイトル | 軸タイトル |
+|軸単位名|百,千...|Hundreds, Thousands...|
+| チャートタイトル名 | グラフタイトル | Chart Title |
+| 凡例の増加名 | 増加 | Increase |
+| 凡例の減少名 | 減少 | Decrease |
+| 凡例の合計名 | 汇总 | Total |
+| その他の名前 | その他 | Other |
+| 系列名 | 系列 | Series |

@@ -1,32 +1,37 @@
-﻿---
+---
 title: Работа с фоном в файлах ODS
 type: docs
 weight: 170
 url: /ru/java/working-with-background-in-ods-files/
 ---
+
 ## **Фон в файлах ODS**
 
-Фон можно добавить к листам в файлах ODS. Фон может быть цветным или графическим. Фон не виден, когда файл открыт, но если файл напечатан как PDF, фон виден в сгенерированном PDF. Фон также виден в диалоговом окне предварительного просмотра печати.
+Фон может быть добавлен на листы в файлах ODS. Фон может быть цветным или графическим. Фон не виден при открытии файла, но если файл распечатывается в формате PDF, фон виден в созданном PDF. Фон также виден в диалоговом окне предварительного просмотра перед печатью.
 
 Aspose.Cells предоставляет возможность читать фоновую информацию и добавлять фон в файлы ODS.
 
-## **Чтение справочной информации из файла OSD**
+## **Чтение информации о фоне из файла OSD**
 
-Aspose.Cells обеспечивает[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)класс для управления фоном в файлах ODS. В следующем примере кода показано использование[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)класс, загрузив[источник ODS](GraphicBackground.ods)файл и чтение справочной информации. Для справки см. вывод консоли, сгенерированный кодом.
+Aspose.Cells предоставляет класс [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground) для управления фоном в файлах ODS. В следующем примере кода демонстрируется использование класса [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground), загрузка файла [source ODS] (GraphicBackground.ods) и чтение информации о фоне. Пожалуйста, обратитесь к выходным данным консоли, сгенерированным кодом, для справки.
 
 ### **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-ReadODSBackground-1.java" >}}
 
-### **Консольный вывод**
+### **Вывод в консоль**
 
-Тип фона: ГРАФИЧЕСКИЙ
+{{< highlight java >}}
 
-Фоновая позиция: CENTER_CENTER
+Background Type: GRAPHIC
+
+Backgorund Position: CENTER_CENTER
+
+{{< /highlight >}}
 
 ## **Добавить цветной фон в файл ODS**
 
-Aspose.Cells обеспечивает[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)класс для управления фоном в файлах ODS. В следующем примере кода показано использование[**ODSPageBackground.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#Color)для добавления цветного фона к файлу ODS. Пожалуйста, смотрите[вывод ODS](ColoredBackground.ods)файл, сгенерированный кодом для справки.
+Aspose.Cells предоставляет класс [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground) для управления фоном в файлах ODS. В следующем примере кода демонстрируется использование свойства [**ODSPageBackground.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#Color) для добавления цветного фона в файл ODS. Пожалуйста, обратитесь к файлу [output ODS] (ColoredBackground.ods), сгенерированному кодом, для справки.
 
 ### **Образец кода**
 
@@ -34,7 +39,7 @@ Aspose.Cells обеспечивает[**ODSPageBackground**](https://reference.a
 
 ## **Добавить графический фон в файл ODS**
 
-Aspose.Cells обеспечивает[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)класс для управления фоном в файлах ODS. В следующем примере кода показано использование[**ODSPageBackground.GraphicData**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#GraphicData)для добавления графического фона к файлу ODS. Пожалуйста, смотрите[вывод ODS](GraphicBackground.ods)файл, сгенерированный кодом для справки.
+Aspose.Cells предоставляет класс [**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground) для управления фоном в файлах ODS. В следующем примере кода демонстрируется использование свойства [**ODSPageBackground.GraphicData**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#GraphicData) для добавления графического фона в файл ODS. Пожалуйста, обратитесь к файлу [output ODS] (GraphicBackground.ods), сгенерированному кодом, для справки.
 
 ### **Образец кода**
 

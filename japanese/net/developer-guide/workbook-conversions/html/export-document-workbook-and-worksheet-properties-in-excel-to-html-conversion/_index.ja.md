@@ -1,18 +1,19 @@
-﻿---
-title: Excel のドキュメント ワークブックとワークシートのプロパティを HTML 変換にエクスポートする
+---
+title: Excelのドキュメント、ワークブック、ワークシートのプロパティをHTMLにエクスポートする
 type: docs
 weight: 50
 url: /ja/net/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/
 ---
-## **考えられる使用シナリオ**
 
-Microsoft Excel または Aspose.Cells を使用して Microsoft Excel ファイルを HTML にエクスポートすると、次のスクリーンショットに示すように、さまざまな種類のドキュメント、ワークブック、およびワークシート プロパティもエクスポートされます。を設定することで、これらのプロパティのエクスポートを回避できます。[**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportdocumentproperties), [**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworkbookproperties)と[**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetproperties)なので**間違い**.これらのプロパティのデフォルト値は**真実**.次のスクリーンショットは、エクスポートされた HTML でこれらのプロパティがどのように見えるかを示しています。
+## **可能な使用シナリオ**
 
-![todo:画像_代替_文章](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
+Microsoft ExcelファイルがMicrosoft ExcelまたはAspose.Cellsを使用してHTMLにエクスポートされると、次のスクリーンショットに示すように、Document、Workbook、Worksheetなどのさまざまなタイプのプロパティもエクスポートされます。 [**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportdocumentproperties)、[**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworkbookproperties)、[**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportworksheetproperties) を**false**に設定することでこれらのプロパティのエクスポートを回避できます。これらのプロパティのデフォルト値は**true**です。次のスクリーンショットは、エクスポートされたHTML内のこれらのプロパティの見た目を示しています。
 
-## **Excel のドキュメント、ワークブック、およびワークシートのプロパティを HTML 変換にエクスポートする**
+![todo:image_alt_text](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
 
-次のサンプル コードは、[サンプル Excel ファイル](61767776.xlsx)HTML に変換し、ドキュメント、ワークブック、およびワークシートのプロパティをエクスポートしません。[出力 HTML](61767779.zip).
+## **Excelのドキュメント、ワークブック、ワークシートのプロパティをHTMLにエクスポートする**
+
+次のサンプルコードは[サンプルExcelファイル](61767776.xlsx)をロードし、[output HTML](61767779.zip)内でDocument、Workbook、Worksheetプロパティをエクスポートしません。
 
 ## **サンプルコード**
 

@@ -1,27 +1,28 @@
 ---
-title: Encuentre si los puntos de datos están en el segundo pastel o barra en un gráfico circular o de barras
-description: Aprenda a utilizar Aspose.Cells for .NET para determinar si los puntos de datos están en el segundo pastel o barra de un gráfico circular o de barras. Nuestra guía demostrará cómo identificar y acceder a la barra o pastel secundario en un gráfico compuesto, lo que le permitirá analizar y manipular los datos de manera efectiva.
-keywords: Aspose.Cells for .NET, Pie of Pie Chart, Bar of Pie Chart, Secondary Pie, Secondary Bar, Data Analysis, Data Manipulation.
+title: Encuentre si los Puntos de Datos están en el Segundo Círculo o Barra en un Gráfico de Círculo de Círculos o Barra de Círculos
+description: Aprenda cómo usar Aspose.Cells for .NET para averiguar si los puntos de datos están en el segundo círculo o barra en un gráfico de círculo de círculos o barra de círculos. Nuestra guía demostrará cómo identificar y acceder al segundo círculo o barra en un gráfico compuesto, lo que le permitirá analizar y manipular los datos de manera efectiva.
+keywords: Aspose.Cells for .NET, Gráfico de Círculo de Círculos, Gráfico de Barra de Círculos, Círculo Secundario, Barra Secundaria, Análisis de Datos, Manipulación de Datos.
 type: docs
 weight: 180
 url: /es/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/
 ---
-##  **Posibles escenarios de uso**
- Puede averiguar si los puntos de datos de la serie están en el segundo pastel en*pastel de pastel* gráfico o en la barra de*barra de pastel* gráfico utilizando Aspose.Cells. Utilice el[ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)propiedad para determinarlo.
 
- Por favor descargue el[archivo de excel de muestra](5115193.xlsx)utilizado en el siguiente código de muestra y vea su salida de consola. Si abres el[archivo de excel de muestra](5115193.xlsx) , encontrará que todos los puntos de datos que son menores de 10 están dentro de la barra de*barra de pastel*gráfico como también se muestra en la salida de la consola.
-##  **Encuentre si los puntos de datos están en el segundo pastel o barra en un gráfico circular o de barras**
- El siguiente código de muestra muestra cómo encontrar si los puntos de datos están en el segundo pastel o barra en un*pastel de pastel* o*barra de pastel*cuadro.
+## **Escenarios de uso posibles**
+Puede averiguar si los puntos de datos de la serie están en el segundo círculo en el gráfico de Círculo de Círculos o en la barra del gráfico de Barra de Círculos utilizando Aspose.Cells. Utilice la propiedad [ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) para determinarlo.
+
+Descargue el [archivo excel de ejemplo](5115193.xlsx) utilizado en el siguiente código de ejemplo y vea su salida en consola. Si abre el [archivo excel de ejemplo](5115193.xlsx), encontrará que todos los puntos de datos que son menores a 10 están dentro de la barra del Gráfico de Barra de Círculos como también se muestra en la salida de consola.
+## **Encontrar si los Puntos de Datos están en el Segundo Pastel o Barra en un Gráfico de Pastel de Pastel o de Barra de Pastel**
+El siguiente código de ejemplo muestra cómo averiguar si los puntos de datos están en el segundo círculo o barra en un gráfico de Círculo de Círculos o Barra de Círculos.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindDataPointsInPieBar-FindDataPointsInPieBar.cs" >}}
-##  **Salida de consola**
- Consulte el siguiente resultado de consola generado después de la ejecución del código de muestra anterior con el[archivo de excel de muestra](5115193.xlsx) . Si[Está en la parcela secundaria](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)es *falso**, el punto de datos está dentro del pastel o si es *verdadero**, entonces el punto de datos está dentro de la barra.
+## **Salida de la consola**
+Consulte la siguiente salida en consola generada después de la ejecución del código de ejemplo anterior con el [archivo excel de ejemplo](5115193.xlsx). Si [IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) es **false**, el punto de datos está dentro del Círculo o si es **true**, entonces el punto de datos está dentro de la Barra.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Value: 15
 

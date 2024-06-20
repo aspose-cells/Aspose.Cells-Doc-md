@@ -1,19 +1,20 @@
-﻿---
+---
 title: Rapor Tasarımına Yüksek Sadakat
 type: docs
 weight: 30
 url: /tr/jasperreports/high-fidelity-to-the-report-design/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for JasperReports raporları, yerleşik dışa aktarıcılar tarafından dışa aktarılan raporlarla aynı görünen Microsoft Excel elektronik tabloları olarak dışa aktarır.[Jasper Raporları](https://community.jaspersoft.com/project/jasperreports-library).
+Aspose.Cells for JasperReports, [JasperReports](https://community.jaspersoft.com/project/jasperreports-library)'ın yerleşik dışa aktarıcıları tarafından aktarılan raporlarla aynı görünüme sahip Microsoft Excel elektronik tabloları olarak raporları dışa aktarır.
 
-**Aspose.Cells for JasperReports kullanılarak dışa aktarılan örnek bir XLS raporu** 
+**Aspose.Cells for JasperReports Kullanılarak İhracat Edilmiş Örnek Bir XLS Raporu** 
 
-![yapılacaklar:resim_alternatif_metin](high-fidelity-to-the-report-design_1.png)
+![todo:image_alt_text](high-fidelity-to-the-report-design_1.png)
 
-**Yerleşik [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) dışa aktarıcılar kullanılarak dışa aktarılan örnek bir XLS raporu**
+**Yerleşik [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) dışa aktarıcıları kullanılarak dışa aktarılan örnek bir XLS rapor**
 
-![yapılacaklar:resim_alternatif_metin](high-fidelity-to-the-report-design_2.png)
+![todo:image_alt_text](high-fidelity-to-the-report-design_2.png)
 
 {{% /alert %}}

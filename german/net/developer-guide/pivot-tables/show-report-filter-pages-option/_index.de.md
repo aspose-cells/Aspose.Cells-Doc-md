@@ -1,19 +1,20 @@
-﻿---
-title: Option Berichtsfilterseiten anzeigen
+---
+title: Option für Berichtsfilterseiten anzeigen
 type: docs
 weight: 110
 url: /de/net/show-report-filter-pages-option/
 ---
-## **Option Berichtsfilterseiten anzeigen**
-Excel unterstützt das Erstellen von Pivot-Tabellen, das Hinzufügen von Berichtsfiltern und das Aktivieren der Option „Berichtsfilterseiten anzeigen“. Aspose.Cells unterstützt diese Funktion auch, um die Option „Berichtsfilterseiten anzeigen“ in der erstellten Pivot-Tabelle zu aktivieren. Im Folgenden sehen Sie den Bildschirm mit der Option „Berichtsfilterseiten anzeigen“ in Excel.
 
-![todo: Bild_alt_Text](show-report-filter-pages-option_1.png)
+## **Option für Berichtsfilterseiten anzeigen**
+Excel unterstützt das Erstellen von Pivot-Tabellen, das Hinzufügen von Berichtsfiltern und das Aktivieren der Option "Berichtsfilterseiten anzeigen". Aspose.Cells unterstützt auch diese Funktion, um die Option "Berichtsfilterseiten anzeigen" in der erstellten Pivot-Tabelle zu aktivieren. Hier sehen Sie die Anzeige der Option "Berichtsfilterseiten anzeigen" in Excel.
 
-Beispielquelldatei und Ausgabedateien können hier zum Testen des Beispielcodes heruntergeladen werden:
+![todo:image_alt_text](show-report-filter-pages-option_1.png)
 
-` `[Excel-Quelldatei](81920786.xlsx) 
+Die Beispieldatei und die Ausgabedateien können von hier heruntergeladen werden, um den Beispielcode zu testen:
 
-[Excel-Datei ausgeben](81920787.xlsx)
+[Quelldatei Excel](81920786.xlsx) 
+
+[Ausgabedatei Excel](81920787.xlsx)
 
 
 

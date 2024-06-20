@@ -1,26 +1,27 @@
-﻿---
+---
 title: Configurazione della crittografia
 type: docs
 weight: 40
 url: /it/reportingservices/configuring-encryption/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells for Reporting Services supporta la crittografia ed è possibile eseguire il rendering di file Excel Microsoft crittografati.
+Aspose.Cells for Reporting Services supporta la crittografia e è possibile rendere crittografati i file di Microsoft Excel. 
 
 {{% /alert %}} 
 ### **Tipi di crittografia**
-Aspose.Cells for Reporting Services supporta la crittografia durante l'esportazione di file Excel. Supporta tre tipi di crittografia:
+Aspose.Cells for Reporting Services supporta la crittografia durante l'esportazione dei file Excel. Supporta tre tipi di crittografia:
 
 - XOR
 - CRITTOGRAFIA DEBOLE
-- Microsoft Forte provider crittografico
-### **Informazioni sulla configurazione**
- Sono presenti informazioni di configurazione per la crittografia nel file**Aspose.Cells.ReportingServices.xml** file. Quando il valore di Encryption è impostato su "off", Aspose.Cells.ReportingServices disattiva la crittografia.
+- Provider crittografico Microsoft Strong
+### **Configurazione delle informazioni**
+Nel file **Aspose.Cells.ReportingServices.xml** sono presenti informazioni di configurazione per la crittografia. Quando il valore della crittografia è impostato su "off", Aspose.Cells.ReportingServices disattiva la crittografia.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="off">
 
@@ -40,24 +41,24 @@ Aspose.Cells for Reporting Services supporta la crittografia durante l'esportazi
 
 {{< /highlight >}}
 
-Quando Encryption è impostato su "on", Aspose.Cells.ReportingServices attiva la crittografia.
+Quando la crittografia è impostata su "on", Aspose.Cells.ReportingServices attiva la crittografia.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-Ci sono quattro parametri nella sezione Encryption: ReportName, Password, EncryptionType e KeyLength.
+Nella sezione Crittografia ci sono quattro parametri: NomeReport, Password, TipoCrittografia e LunghezzaChiave.
 
-- ReportName: imposta il report che necessita delle impostazioni di crittografia. Un report utilizza lo stesso metodo di crittografia quando il parametro è vuoto.
-- Password: imposta la password. Non può essere lasciato vuoto.
-- EncryptionType – Imposta il tipo di crittografia. Non può essere lasciato vuoto.
--  KeyLength – Imposta la lunghezza della chiave. Non può essere lasciato vuoto.
+- NomeReport – Imposta il report che necessita delle impostazioni di crittografia. Un report utilizza lo stesso tipo di crittografia quando il parametro è vuoto.
+- Password – Imposta la password. Non può essere lasciata vuota.
+- TipoCrittografia – Imposta il tipo di crittografia. Non può essere lasciato vuoto.
+- LunghezzaChiave – Imposta la lunghezza della chiave. Non può essere lasciata vuota. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="on">
 

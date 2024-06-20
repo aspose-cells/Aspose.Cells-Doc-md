@@ -1,28 +1,29 @@
-﻿---
-title: Bir Çalışma Sayfasında Cells Birleştirin veya Birleştirin
+---
+title: Çalışma Sayfasında Hücreleri Birleştirme veya Ayırma
 type: docs
 weight: 40
 url: /tr/net/merge-or-unmerge-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Çalışma sayfalarıyla çalışırken, genellikle çalışma sayfanızın üst kısmına yayılan tek bir hücrede bir başlık / başlık oluşturmanız gerekir. Bir fatura oluşturuyor olabilirsiniz ve toplam veya özet değerler için daha az sütun isteyebilirsiniz. İki veya daha fazla hücreden bir hücre yapmak istediğinizde hücreleri birleştirirsiniz. Görevi bağımsız olarak VSTO ve Aspose.Cells for .NET kullanarak gerçekleştiriyoruz.
+Çalışma sayfaları ile çalışırken, genellikle çalışma sayfanızın üst kısmını kaplayan tek bir hücrede bir başlık / başlık oluşturmanız gerekebilir. Fatura oluşturuyor olabilirsiniz ve toplam veya özet değerler için daha az sütun isteyebilirsiniz. İki veya daha fazla hücreden bir hücre yapmak istediğinizde hücreleri birleştirirsiniz. Bu görevi VSTO ve Aspose.Cells for .NET kullanarak bağımsız olarak gerçekleştiririz.
 
 {{% /alert %}}
 
 ## **Açıklama**
 
-Mevcut bir excel dosyasını açın, çalışma kitabındaki ilk çalışma sayfasındaki bazı hücreleri birleştirin ve excel dosyasını kaydedin.
+Var olan bir excel dosyasını aç, çalışma kitabındaki ilk sayfadaki bazı hücreleri birleştir ve excel dosyasını kaydet.
 
-## **Birleştirme Cells**
+## **Hücreleri Birleştirme**
 
-Aşağıda, VSTO (C#, VB) ve Aspose.Cells for .NET (C#, VB) için paralel kod parçacıkları bulunmaktadır.
+Aşağıdakiler VSTO (C#, VB) ve Aspose.Cells for .NET (C#, VB) için paralel kod parçacıklarıdır.
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -86,7 +87,7 @@ excelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -122,15 +123,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **Cells'i ayırma**
+## **Hücreleri Ayırmak**
 
-Hücreleri ayırmak için VSTO (C#, VB) ve Aspose.Cells for .NET (C#, VB) için aşağıdaki kod satırlarını kullanın.
+Hücre(ler)i ayırmak için VSTO (C#, VB) ve Aspose.Cells for .NET (C#, VB) için aşağıdaki kod satırlarını kullanın.
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 
@@ -148,7 +149,7 @@ rng1.UnMerge();     
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 

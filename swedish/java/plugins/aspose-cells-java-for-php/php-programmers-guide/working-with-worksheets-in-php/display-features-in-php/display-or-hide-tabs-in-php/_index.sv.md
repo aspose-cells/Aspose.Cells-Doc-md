@@ -1,16 +1,17 @@
-﻿---
-title: Visa eller dölj flikar i Php
+---
+title: Visa eller dölj flikar i PHP
 type: docs
 weight: 30
 url: /sv/java/display-or-hide-tabs-in-php/
 ---
+
 ## **Aspose.Cells - Visa eller dölj flikar**
-### **Döljer flikar**
- För att dölja flikar med**Aspose.Cells Java for PHP** , ringa upp**visagömflikar** modul.
+### **Gömma flikar**
+För att dölja flikar med **Aspose.Cells Java for PHP**, anropa **displayhidetabs**-modulen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -25,7 +26,7 @@ $workbook->getSettings()->setShowTabs(false);
 $workbook->save($dataDir + "output.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Dölj eller visa eller dölj flikar (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Dölj eller visa flikar (Aspose.Cells)** från någon av sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)

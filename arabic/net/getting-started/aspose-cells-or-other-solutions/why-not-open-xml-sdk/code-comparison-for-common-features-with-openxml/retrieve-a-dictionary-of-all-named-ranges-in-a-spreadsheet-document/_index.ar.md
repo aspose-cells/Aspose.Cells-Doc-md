@@ -1,11 +1,12 @@
-﻿---
-title: استرجع قاموسًا لجميع النطاقات المسماة في مستند جدول بيانات
+---
+title: استرجاع مجموعة معلمات جميع النطاقات المسماة في مستند جدول بيانات
 type: docs
 weight: 120
 url: /ar/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/
 ---
-## **برنامج OpenXML Excel**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -59,7 +60,7 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -108,7 +109,7 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 }
 
 {{< /highlight >}}
-## **تنزيل مثال رمز التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-## **عينة من الرموز**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Retrieve%20a%20dictionary%20of%20all%20named%20ranges)
+## **تنزيل مثال عملي لرمز**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+## **الكود المثالي**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Retrieve%20a%20dictionary%20of%20all%20named%20ranges)

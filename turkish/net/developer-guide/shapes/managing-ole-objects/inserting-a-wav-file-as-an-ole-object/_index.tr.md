@@ -1,12 +1,13 @@
-﻿---
-title: WAV dosyasını Ole Nesnesi olarak ekleme
+---
+title: Ole Nesnesi Olarak Bir WAV Dosyası Eklemek
 type: docs
 weight: 70
 url: /tr/net/inserting-a-wav-file-as-an-ole-object/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells, excel çalışma sayfalarına farklı türde OLE nesneleri ekleme işlevi sağlar. Aşağıdaki kod örneklerinde, Aspose.Cells tarafından sağlanan basit API'leri kullanarak bir wav dosyasını OLE nesnesi olarak nasıl ekleyeceğinizi göreceğiz.
+Aspose.Cells, excel çalışma sayfalarına farklı türlerde OLE nesneleri eklemek için işlevsellik sağlar. Aşağıdaki kod örneklerinde, Aspose.Cells tarafından sağlanan basit API'ları kullanarak bir WAV dosyasını Ole nesnesi olarak nasıl ekleyeceğimizi göreceğiz. 
 
 {{% /alert %}} 
 

@@ -1,25 +1,26 @@
-﻿---
-title: Mostrar viñetas configurando Cell Valor usando HTML
+---
+title: Mostrar Viñetas al Establecer el Valor de la Celda usando HTML
 type: docs
 weight: 130
 url: /es/net/display-bullets-by-setting-cell-value-using/
-description: Agregue viñetas a Excel Cells usando HTML y el fácil de usar Aspose.Cells for .NET API.
-keywords: add bullets in excel, add bullets in excel c#, display bullets in excel, display bullets in excel c#, add bullets in excel with html, add bullets in excel with html c#, display bullets in excel with html, display bullets in excel with html c#, display bullets in excel using html, add bullets in excel using html
+description: Agregar viñetas a las celdas de Excel usando HTML y la fácil de usar API Aspose.Cells for .NET.
+keywords: agregar viñetas en excel, agregar viñetas en excel c#, mostrar viñetas en excel, mostrar viñetas en excel c#, agregar viñetas en excel con html, agregar viñetas en excel con html c#, mostrar viñetas en excel con html, mostrar viñetas en excel con html c#, mostrar viñetas en excel usando html, agregar viñetas en excel usando html
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells admite viñetas con el código HTML. Este artículo explicará cómo mostrar viñetas configurando el valor de la celda usando HTML. Usaremos[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) propiedad para establecer el valor de la celda con nuestro HTML.
+Aspose.Cells es compatible con la visualización de viñetas con código HTML. Este artículo explicará cómo mostrar viñetas configurando el valor de la celda usando HTML. Usaremos la propiedad [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) para establecer el valor de la celda con nuestro HTML.
 
 {{% /alert %}}
 
-## Código C# para mostrar viñetas configurando el valor Cell usando HTML
+## Código C# para mostrar viñetas configurando el valor de celda usando HTML
 
-El siguiente código usa el código HTML para establecer el valor de la celda. Una vez que ejecute este código, obtendrá el resultado como se muestra en la imagen a continuación.
+El siguiente código utiliza código HTML para establecer el valor de la celda. Una vez que ejecutes este código, obtendrás la salida como se muestra en la imagen a continuación.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-DisplayBulletsInCellUsingHtml-DisplayBulletsInCellUsingHtml.cs" >}}
 
-## Salida generada por el código de muestra
+Resultado generado por el código de ejemplo
 
-La siguiente captura de pantalla muestra el resultado del código de ejemplo anterior.
+La siguiente captura de pantalla muestra la salida del código de muestra anterior.
 
-![todo:imagen_alternativa_texto](display-bullets-by-setting-cell-value-using-html_1.png)
+![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)

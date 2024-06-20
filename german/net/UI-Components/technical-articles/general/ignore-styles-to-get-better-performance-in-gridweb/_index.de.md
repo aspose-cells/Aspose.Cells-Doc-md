@@ -1,33 +1,34 @@
-﻿---
-title: Ignorieren Sie Stile, um eine bessere Leistung in GridWeb zu erzielen
+---
+title: Ignorieren von Stilen für bessere Leistung in GridWeb
 type: docs
 weight: 1060
 url: /de/net/aspose-cells-gridweb/ignorestylewithnodata
-description: In diesem Artikel wird beschrieben, wie IgnoreStyleWithNoData verwendet wird, um eine bessere Leistung für die Aspose.Cells.GridWeb-Bibliothek zu erzielen.
-keywords: performance
+description: Dieser Artikel beschreibt, wie die IgnoreStyleWithNoData Eigenschaft verwendet wird, um eine bessere Leistung in GridWeb zu erzielen.
+keywords: GridWeb,performance
 ---
-## **Mögliche Nutzungsszenarien**
- Bitte verwende[GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata)-Eigenschaft, um weniger benötigte Zeilen/Spalten aus der Arbeitsmappe zu laden.
- 
+
+## **Mögliche Verwendungsszenarien**
+Bitte verwenden Sie die Eigenschaft [GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata), um weniger erforderliche Zeilen/Spalten aus der Arbeitsmappe zu laden.
+
 ## **Bessere Leistung beim Laden der Arbeitsmappe**
- Bitte überprüfen Sie die[Excel-Beispieldatei](largerowswithstyle.xlsx) 
+Bitte überprüfen Sie die [Beispiel-Excel-Datei](largerowswithstyle.xlsx) 
 
-Wenn gesetzt IgnoreStyleWithNoData = true;
+Wenn IgnoreStyleWithNoData = true festgelegt ist;
 
-Wie Sie sehen können, werden Zeilen (bis 15) und Spalten (bis L) angezeigt. Die letzten fortlaufenden Zeilen und Spalten werden nicht ohne Daten in Zellen angezeigt. Daher ist die Ladezeit kürzer.
+Wie Sie sehen können, werden Zeilen (bis 15) und Spalten (bis L) angezeigt. Die letzten durchgehenden Zeilen und Spalten ohne Daten in den Zellen werden nicht angezeigt. Die Ladezeit wird somit verkürzt.
 
-![Arbeitsmappe mit Stil ignorieren](ignorestyletrue.png)
+![Arbeitsmappe mit ignorierten Stilen](ignorestyletrue.png)
 
 
-Wenn gesetzt IgnoreStyleWithNoData = false;(der Standardwert ist false)
+Wenn IgnoreStyleWithNoData = false festgelegt ist (der Standardwert ist false);
 
-Wie Sie sehen können, zeigt es viel mehr Zeilen (bis 500) und Spalten (bis CZ)
+Wie Sie sehen können, werden viel mehr Zeilen (bis 500) und Spalten (bis CZ) angezeigt
 
-Von Zeile 16 bis Zeile 500 haben einige der Zellen den Rahmenstil festgelegt, die Zellen enthalten jedoch keine Daten.
+Von Zeile 16 bis Zeile 500 haben einige Zellen den Rahmenstil erhalten, enthalten jedoch keine Daten.
 
-Von Spalte M bis Spalte CZ haben einige der Zellen den Randstil festgelegt, die Zellen enthalten jedoch keine Daten.
+Von Spalte M bis Spalte CZ wurden einige Zellen mit dem Randstil versehen, jedoch enthalten die Zellen keine Daten.
 
-![Arbeitsmappe ohne Stil zu ignorieren](ignorestylefalse.png)
- 
- 
- 
+![Arbeitsmappe ohne ignorierten Stil](ignorestylefalse.png)
+
+
+

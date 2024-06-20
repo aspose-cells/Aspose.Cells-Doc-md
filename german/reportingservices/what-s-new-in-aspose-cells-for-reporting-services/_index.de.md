@@ -1,36 +1,37 @@
-﻿---
+---
 title: Was ist neu in Aspose.Cells for Reporting Services
 type: docs
-description: Aspose.Cells for Reporting Services erweitert und verbessert sich täglich. Auf dieser Seite können Sie sich über die großen und interessantesten Funktionen des Produkts informieren
+description: Aspose.Cells for Reporting Services wird täglich erweitert und verbessert. Auf dieser Seite können Sie die umfangreichsten und interessantesten Funktionen des Produkts kennenlernen.
 weight: 5
 url: /de/reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 ---
-Diese Seite beschreibt die interessantesten neuen Aspose.Cells for Reporting Services Funktionen, die in den letzten Versionen eingeführt wurden.
+
+Diese Seite beschreibt die interessantesten neuen Funktionen von Aspose.Cells for Reporting Services, die in den letzten Versionen eingeführt wurden.
 
 ## Aspose.Cells for Reporting Services  22.10
 
-* Beheben Sie ein paar Fehler.
-* Unterstützung zum Rendern des Zahlenformats.
+* Einige Fehler beheben.
+* Unterstützung zur Darstellung von Zahlenformaten.
 
 ## Aspose.Cells for Reporting Services  22.9
 
-* Unterstützung für das Rendern des Formats SXC.
+* Unterstützung zur Darstellung von SXC-Format.
 
 ## Aspose.Cells for Reporting Services  22.8
 
-* Unterstützung für das Rendern des Formats XLTX.
+* Unterstützung zur Darstellung von XLTX-Format.
 
 ## Aspose.Cells for Reporting Services  22.7
 
-* Unterstützung zum Rendern des XML-Formats.
+* Unterstützung zur Darstellung von XML-Format.
 
 ## Aspose.Cells for Reporting Services  22.6
 
-* Verbesserung beim Rendern von HTML.
+* Verbesserung der Darstellung von HTML.
 
 ## Aspose.Cells for Reporting Services  22.5
 
- * Verbesserung beim Rendern von XPS und Tiff.
+* Verbesserung der Darstellung von XPS und Tiff.	
 
 ## Aspose.Cells for Reporting Services  22.4
 
@@ -38,8 +39,8 @@ Diese Seite beschreibt die interessantesten neuen Aspose.Cells for Reporting Ser
 
 ## Aspose.Cells for Reporting Services  22.3
 
-* Unterstützung zum Rendern des docx-Formats.
-* Verbessern Sie den Text-Renderer.
+* Unterstützung zum Rendern des DOCX-Formats.
+* Verbessern des Text-Renderers.
 
 ## Aspose.Cells for Reporting Services  22.2
 
@@ -47,4 +48,4 @@ Diese Seite beschreibt die interessantesten neuen Aspose.Cells for Reporting Ser
 
 ## Aspose.Cells for Reporting Services  22.1
 
-* Unterstützung für das Rendern des JSON-Formats.
+* Unterstützung zum Rendern des JSON-Formats.

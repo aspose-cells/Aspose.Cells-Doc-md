@@ -1,48 +1,49 @@
-﻿---
-title: Enregistrer le classeur au format texte ou CSV à l'aide de Aspose.Cells
+---
+title: Enregistrer le classeur au format texte ou CSV à l aide d Aspose.Cells
 type: docs
 weight: 80
 url: /fr/net/save-workbook-to-text-or-csv-format-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Parfois, vous souhaitez convertir ou enregistrer un classeur avec plusieurs feuilles de calcul au format texte. Pour les formats de texte (par exemple TXT, TabDelim, CSV etc.), par défaut, Microsoft Excel et Aspose.Cells enregistrent uniquement le contenu de la feuille de calcul active.
+Parfois, vous voulez convertir ou enregistrer un classeur avec plusieurs feuilles de calcul au format texte. Pour les formats texte (par exemple TXT, TabDelim, CSV, etc.), à la fois Microsoft Excel et Aspose.Cells enregistrent par défaut le contenu de la feuille de calcul active uniquement.
 
 {{% /alert %}} 
 
-L'exemple de code suivant explique comment enregistrer un classeur entier au format texte. Chargez le classeur source qui peut être n'importe quel fichier de feuille de calcul Excel ou OpenOffice Microsoft (donc XLS, XLSX, XLSM, XLSB, ODS, etc.) avec n'importe quel nombre de feuilles de calcul.
+L'exemple de code suivant explique comment enregistrer un classeur entier au format texte. Chargez le classeur source qui peut être n'importe quel fichier de feuille de calcul Microsoft Excel ou OpenOffice (donc XLS, XLSX, XLSM, XLSB, ODS, etc.) avec n'importe quel nombre de feuilles de calcul
 
 Lorsque le code est exécuté, il convertit les données de toutes les feuilles du classeur au format TXT.
 
-Vous pouvez modifier le même exemple pour enregistrer votre fichier au format CSV. Par défaut, TxtSaveOptions.Separator est une virgule, ne spécifiez donc pas de séparateur si vous enregistrez au format CSV.
+Vous pouvez modifier le même exemple pour enregistrer votre fichier au format CSV. Par défaut, TxtSaveOptions.Separator est une virgule, donc ne spécifiez pas de séparateur lors de l'enregistrement au format CSV.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-chaîne FilePath = @"..\..\..\Sample Files\" ;
+ string FilePath = @"..\..\..\Sample Files\";
 
-string FileName = FilePath + "Enregistrer le classeur au format texte ou CSV Format.xlsx" ;
+string FileName = FilePath + "Save Workbook to Text or CSV Format.xlsx";
 
-string destFileName = FilePath + "Enregistrer le classeur au format texte ou CSV Format.txt" ;
+string destFileName = FilePath + "Save Workbook to Text or CSV Format.txt";
 
-// Chargez votre classeur source
+//Load your source workbook
 
-Classeur classeur = nouveau classeur(NomFichier);
+Workbook workbook = new Workbook(FileName);
 
-// tableau de 0 octet
+//0-byte array
 
-octet[]workbookData = nouvel octet[0] ;
+byte[] workbookData = new byte[0];
 
-//Options d'enregistrement de texte. Vous pouvez utiliser n'importe quel type de séparateur
+//Text save options. You can use any type of separator
 
 TxtSaveOptions opts = new TxtSaveOptions();
 
 opts.Separator = '\t';
 
-// Copiez chaque donnée de feuille de calcul au format texte dans le tableau de données du classeur
+//Copy each worksheet data in text format inside workbook data array
 
- pour (int idx = 0; idx< workbook.Worksheets.Count; idx++)
+for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 
 {
 
@@ -77,8 +78,8 @@ opts.Separator = '\t';
 File.WriteAllBytes(destFileName, workbookData);
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
+## **Télécharger le code source d'exemple**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
 
-## **Télécharger l'exemple d'exécution**
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **Télécharger un exemple en cours d'exécution**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

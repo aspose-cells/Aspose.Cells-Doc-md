@@ -1,21 +1,22 @@
-﻿---
-title: Genel API Aspose.Cells 8.5.1'deki değişiklikler
+---
+title: Aspose.Cells 8.5.1 de Genel API Değişiklikleri
 type: docs
 weight: 180
 url: /tr/java/public-api-changes-in-aspose-cells-8-5-1/
 ---
+
 {{% alert color="primary" %}} 
 
- Bu belge, Aspose.Cells API sürümünde 8.5.0'dan 8.5.1'e modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-5-1/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
+Bu belge, sürüm 8.5.0'dan 8.5.1'e Aspose.Cells API'sindeki değişiklikleri modül / uygulama geliştiricilerinin ilgisini çekebilecek değişiklikleri açıklar. Bu, yeni ve güncellenmiş genel yöntemlerinin yanı sıra [eklenen sınıflara vs.](/cells/tr/java/public-api-changes-in-aspose-cells-8-5-1/) aynı zamanda Aspose.Cells'in arka plandaki davranışındaki herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Yöntem Workbook.Dispose Eklendi**
-Aspose.Cells for Java 8.5.1, Workbook nesnesinin yönetilmeyen kaynaklarını serbest bırakmak için Workbook.dispose yöntemini kullanıma sundu. Atma modeli yalnızca dosya ve yönlendirme tanıtıcıları, kayıt tanıtıcıları, bekleme tutamaçları veya yönetilmeyen bellek bloklarına yönelik işaretçiler gibi yönetilmeyen kaynaklara erişen nesneler için kullanılır. Bunun nedeni, çöp toplayıcının kullanılmayan yönetilen nesneleri geri alma konusunda çok verimli olmasına karşın yönetilmeyen nesneleri geri alamamasıdır.
+## **Eklenen API'lar**
+### **Eklendi Workbook.Dispose Yöntemi**
+Aspose.Cells for Java 8.5.1, Workbook.dispose yöntemini, Workbook nesnesinin yönetilmeyen kaynaklarını serbest bırakmak için açıklamıştır. Atık toplayıcısı, kullanılmayan yönetilen nesneleri kurtarma konusunda çok etkilidir, ancak yönetilmeyen nesneleri kurtaramaz.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -26,23 +27,23 @@ Workbook book = new Workbook();
 book.dispose();
 
 {{< /highlight >}}
-### **Yöntem Cell.getHeightOfValue Eklendi**
- Aspose.Cells for Java 8.5.1, hücre değerinin yüksekliğini elde etmek için Cell.getHeightOfValue yöntemini kullanıma sundu. Bu yöntemi kullanarak hücre değerinin yüksekliğini hesaplayabilir ve ardından sırasıyla o hücrenin satır yüksekliğini ayarlayabilirsiniz. Ayrıntılı makaleyi kontrol edin[hücre yüksekliği ve genişliği nasıl hesaplanır](/cells/tr/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+### **Eklendi Cell.getHeightOfValue Yöntemi**
+Aspose.Cells for Java 8.5.1, Cell.getHeightOfValue yöntemini hücre değerinin yüksekliğini almak için açıklamıştır. Bu yöntemi kullanarak hücre değerinin yüksekliğini hesaplayabilir ve ardından hücrenin satır yüksekliğini buna göre ayarlayabilirsiniz.
 ### **Numaralandırma TableDataSourceType Eklendi**
-Aspose.Cells for Java 8.5.1, bir ListObject veri kaynağı türünü almak için com.aspose.cells.TableDataSourceType numaralandırmasını kullanıma sundu. Aşağıdaki alanlar olarak TableDataSourceType numaralandırması.
+Aspose.Cells for Java 8.5.1, bir ListObject'in veri kaynağı türünü almak için enumeration com.aspose.cells.TableDataSourceType numaralandırmasını açıklamıştır. TableDataSourceType numaralandırması aşağıdaki alanlara sahiptir. 
 
 1. TableDataSourceType.QUERY_TABLE
 1. TableDataSourceType.SHARE_POINT
 1. TableDataSourceType.WORKSHEET
 1. TableDataSourceType.XML
-### **Özellik ListObject.DataSourceType Eklendi**
-v8.5.1 sürümüyle birlikte Aspose.Cells API, bir ListObject veri kaynağı türünü algılamak için kullanılabilecek salt okunur ListObject.DataSourceType özelliğini kullanıma sunmuştur.
+### **Eklendi ListObject.DataSourceType Özelliği**
+v8.5.1 sürümüyle birlikte, Aspose.Cells API'si, bir ListObject'in veri kaynağı türünü algılamak için salt okunur ListObject.DataSourceType özelliğini açıklamıştır.
 
 İşte en basit kullanım senaryosu.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("D:/book1.xlsx");
 

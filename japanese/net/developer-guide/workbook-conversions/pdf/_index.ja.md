@@ -4,143 +4,146 @@ type: docs
 weight: 220
 url: /ja/net/convert-excel-to-pdf/
 ---
-{{% alert color="primary" %}}
-
-Aspose.Cells は、Excel ワークブックから PDF への変換をサポートしています。この例では、Excel ワークブックから PDF への完全な変換を確認します。
-
-{{% /alert %}}
-
-##  **Excel ワークブックを PDF に変換する**
-
-PDF ファイルは、組織、政府部門、個人の間で文書を交換するために広く使用されています。これは標準のドキュメント形式であり、ソフトウェア開発者はよく Microsoft Excel ファイルを PDF ドキュメントに変換する方法を見つけるように求められます。
-
-Aspose.Cells は、Excel ファイルから PDF への変換をサポートし、変換時に高い視覚的忠実度を維持します。
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET は、API とバージョン番号に関する情報を出力ドキュメントに直接書き込みます。たとえば、Document を PDF にレンダリングすると、Aspose.Cells for .NET が設定されます。**PDF プロデューサー**値を含むフィールド (例: 「Aspose.Cells v23.2」)。
-
-出力ドキュメント内のこの情報は、次の方法で変更できることに注意してください。**[PdfSaveOptions.Producer](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/Producer/)**財産。
+Aspose.CellsはExcelワークブックをPDFに変換することをサポートしています。この例では、Excelワークブックを完全にPDFに変換する方法を示します。
 
 {{% /alert %}}
 
-###  **直接変換**
+## **ExcelワークブックをPDFに変換する**
 
- Aspose.Cells for .NET は、他のソフトウェアから独立してスプレッドシートから PDF への変換をサポートします。次のコマンドを使用して Excel ファイルを PDF に保存するだけです。**[ワークブック](https://reference.aspose.com/cells/net/aspose.cells/workbook)**クラス'**[保存](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**方法。の**[保存](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**メソッドが提供するのは、**[SaveFormat.Pdf](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**ネイティブ Excel ファイルを PDF 形式に変換する列挙メンバー。
+PDFファイルは、組織、政府部門、個人間で文書を交換するために広く使用されています。これは標準のドキュメント形式であり、ソフトウェア開発者はしばしばMicrosoft ExcelファイルをPDFドキュメントに変換する方法を見つけるよう求められます。
 
-Excel スプレッドシートを PDF 形式に直接変換するには、以下の手順に従ってください。
+Aspose.Cellsは、ExcelファイルをPDFに変換する機能をサポートし、変換時に高い視覚的忠実度を維持します。
 
-1. のオブジェクトをインスタンス化します。**[ワークブック](https://reference.aspose.com/cells/net/aspose.cells/workbook)**空のコンストラクターを呼び出してクラスを作成します。
-1. 既存のテンプレート ファイルを開いて読み込むことも、ワークブックを最初から作成する場合はこの手順をスキップすることもできます。
-1. Aspose.Cells' API を使用して、スプレッドシート上で作業 (データの入力、書式設定の適用、数式の設定、画像やその他の描画オブジェクトの挿入など) を実行します。
-1. スプレッドシートのコードが完成したら、**[ワークブック](https://reference.aspose.com/cells/net/aspose.cells/workbook)**クラス'**[保存](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**スプレッドシートを保存するメソッド。
+{{% alert color="primary" %}}
 
-ファイル形式は PDF である必要があるので、選択します。*Pdf* (事前定義された値)**[保存形式](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**列挙して最終的な PDF ドキュメントを生成します。
+Aspose.Cells for .NETは出力ドキュメントにAPIおよびバージョン番号に関する情報を直接書き込みます。たとえば、[Aspose.Cells v23.2]などの値で**PDF Producer**フィールドを埋めます。
+
+出力ドキュメントでこの情報を変更することができることに注意してください。
+
+{{% /alert %}}
+
+### **直接変換**
+
+Aspose.Cells for .NETは他のソフトウェアに依存せずにスプレッドシートからPDFへの変換をサポートしています。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスの[**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)メソッドを使用してExcelファイルをPDFに保存します。[**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)メソッドは、ネイティブのExcelファイルをPDF形式に変換する[**SaveFormat.Pdf**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)列挙型メンバーを提供します。
+
+以下の手順に従って、Excelスプレッドシートを直接PDF形式に変換します:
+
+1. 空のコンストラクタを呼び出して[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスのオブジェクトをインスタンス化します。
+1. 既存のテンプレートファイルを開いたり読み込んだりするか、ワークブックをゼロから作成している場合は、この手順をスキップします。
+1. Aspose.CellsのAPIを使用して、スプレッドシート上で作業を行います（入力データ、書式設定の適用、数式の設定、画像の挿入など）。
+1. スプレッドシートのコードが完了したら、[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスの[**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)メソッドを呼び出してスプレッドシートを保存します。
+
+ファイル形式はPDFである必要がありますので、[**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)列挙型から*Pdf*（事前に定義された値）を選択して最終的なPDFドキュメントを生成します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-XlstoPDFDirectConversation-1.cs" >}}
 
-###  **高度な変換**
+### **高度な変換**
 
-を使用することもできます。**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**変換用のさまざまな属性を設定するクラス。のさまざまなプロパティを設定する**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**クラスを使用すると、出力 PDF の印刷、フォント、セキュリティ、圧縮設定を制御できます。最も重要なプロパティは次のとおりです。**[コンプライアンス](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**これにより、Excel ファイルを PDF/A 準拠の PDF ファイルに保存できるようになります。
+異なる属性を設定するために[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)クラスを使用したり、出力PDFの印刷、フォント、セキュリティ、圧縮設定を制御するために[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)クラスの異なるプロパティを設定することもできます。 
 
-####  **ワークブックを PDF/A コンパイル済みファイルに保存**
+[**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)は最も重要なプロパティで、PDFの標準遵守レベルを設定できます。現在はPDF 1.4、PDF 1.5、PDF 1.6、PDF 1.7、PDF/A-1a、PDF/A-1b、PDF/A-2a、PDF/A-2b、PDF/A-2u、PDF/A-3a、PDF/A-2ab、PDF/A-3u形式に保存できます。PDF/A形式では、出力ファイルのサイズが通常のPDFファイルよりも大きくなります。
 
-以下に提供されるコード スニペットは、**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**Excel ファイルを PDF/A 準拠の PDF 形式で保存するクラス。
+#### **PDF/A準拠ファイルへのワークブックの保存**
+
+以下のコードスニペットは、[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) クラスを使用してExcelファイルをPDF/A準拠のPDF形式に保存する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AdvancedConversiontoPdf-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-ご注意ください。**[コンプライアンス](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**プロパティは Aspose.Cells for .NET 5.3.0 のリリースで追加されました。
+[**Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance) プロパティはリリースAspose.Cells for .NET 5.3.0で追加されましたのでご注意ください。
 
 {{% /alert %}}
 
-####  **PDF 作成時刻を設定します**
+#### **PDF作成時間の設定**
 
-とともに**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**クラスでは、PDF の作成時間を取得または設定できます。次のコードは、の使用法を示しています。**[PdfSaveOptions.CreatedTime](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/createdtime)**プロパティを使用して、PDF ファイルの作成時間を設定します。
+[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) クラスを使用すると、PDF作成時刻を取得または設定することができます。次のコードは、[**PdfSaveOptions.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/createdtime) プロパティを使用してPDFファイルの作成時刻を設定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetPDFCreationTime-1.cs" >}}
 
-####  **ContentCopyForAccessibility オプションを設定する**
+#### **ContentCopyForAccessibilityオプションの設定**
 
-とともに**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**クラスでは、PDF を取得または設定できます**[AccessibilityExtractContent](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent)**変換された PDF のコンテンツ アクセスを制御するオプション。
+[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) クラスを使用すると、変換されたPDFのコンテンツアクセスを制御するためのPDF [**AccessibilityExtractContent**](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/properties/accessibilityextractcontent) オプションを取得または設定できます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SetContentCopyForAccessibility-1.cs" >}}
 
-####  **カスタム プロパティを PDF にエクスポート**
+#### **PDFへのカスタムプロパティのエクスポート**
 
-とともに**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**クラスを使用すると、ソース ワークブックのカスタム プロパティを PDF にエクスポートできます。**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport)**列挙子は、プロパティをエクスポートする方法を指定するために提供されます。これらのプロパティは、次の図に示すように、「ファイル」をクリックしてから「プロパティ」オプションをクリックすることで、Adobe Acrobat Reader で確認できます。テンプレートファイル「sourceWithCustProps.xlsx」がダウンロード可能[ここ](sourceWithCustProps.xlsx)テストと出力用に PDF ファイル「outSourceWithCustProps」が利用可能です[ここ](outSourceWithCustProps.pdf)分析用に。
+[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) クラスを使用すると、元のワークブック内のカスタムプロパティをPDFにエクスポートすることができます。プロパティのエクスポート方法を指定するために [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfcustompropertiesexport) 列挙型が提供されています。これらのプロパティは、次の画像に示すように、Adobe Acrobat Readerで[ファイル]をクリックして[プロパティ]オプションをクリックすることで観察することができます。テンプレートファイル "sourceWithCustProps.xlsx" は[こちら](sourceWithCustProps.xlsx)からダウンロードでき、解析用の出力PDFファイル "outSourceWithCustProps" は[こちら](outSourceWithCustProps.pdf)で利用できます。
 
 ![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ExportCustomPropertiesToPdf-1.cs" >}}
 
-###  **変換属性**
+### **変換属性**
 
-新しいリリースごとに変換機能の強化に取り組んでいます。 Aspose.Cell の Excel から PDF への変換には、まだいくつかの制限があります。 PDF 形式に変換する場合、MapChart はサポートされません。また、一部の描画オブジェクトは適切にサポートされていません。
+新しいリリースごとに変換機能を強化しています。Aspose.CellのExcelからPDFへの変換にはまだいくつかの制限があります。MapChartはPDF形式への変換時にサポートされていません。また、一部の図形オブジェクトには十分なサポートがありません。
 
-次の表には、Aspose.Cells を使用して PDF にエクスポートするときに完全または部分的にサポートされるすべての機能がリストされています。この表は最終的なものではなく、すべてのスプレッドシート属性を網羅しているわけではありませんが、PDF への変換でサポートされない、または部分的にサポートされている機能を示しています。 。
+以下の表は、Aspose.Cellsを使用してPDFにエクスポートする際に完全または部分的にサポートされているすべての機能をリストしています。この表は最終的なものではなく、すべてのスプレッドシート属性を網羅していませんが、PDFへの変換にはサポートされていないまたは部分的にサポートされている機能を特定しています。
 
-|**文書要素**|**属性**|**サポートされています**|**ノート**|
+|**ドキュメント要素**|**属性**|**サポート**|**注釈**|
 | :- | :- | :- | :- |
-|位置合わせ| |はい| |
-|背景設定| |はい| |
-|国境|色|はい| |
-|国境|線のスタイル|はい| |
-|国境|線幅|はい| |
-|Cell データ| |はい| |
-|コメント| |はい| |
-|条件付き書式| |はい| |
-|ドキュメントのプロパティ| |はい| |
-|描画オブジェクト| |部分的に|描画オブジェクトの影と 3D 効果は十分にサポートされていません。ワードアートとスマートアートは部分的にサポートされています。|
-|フォント|サイズ|はい| |
-|フォント|色|はい| |
-|フォント|スタイル|はい| |
-|フォント|下線|はい| |
+|配置| |はい| |
+|背景設定| |はい| |
+|ボーダー|色|はい| |
+|ボーダー|線のスタイル|はい| |
+|ボーダー|線の幅|はい| |
+|セルデータ| |はい| |
+|コメント| |はい| |
+|条件付き書式| |はい| |
+|ドキュメントプロパティ| |はい| |
+|図形オブジェクト| |部分的|図形オブジェクトの影や3D効果には十分なサポートがありません。WordArtとSmartArtは部分的にサポートされています。|
+|フォント|サイズ|はい| |
+|フォント|色|はい| |
+|フォント|スタイル|はい| |
+|フォント|下線|はい| |
 |フォント|効果|はい||
-|画像| |はい| |
-|ハイパーリンク| |はい| |
-|チャート| |部分的に|マップチャートはサポートされていません。|
-|合併済み Cells| |はい| |
-|改ページ| |はい| |
-|ページ設定|ヘッダー/フッター|はい| |
-|ページ設定|余白|はい| |
-|ページ設定|ページの向き|はい| |
-|ページ設定|ページサイズ|はい| |
-|ページ設定|印刷領域|はい| |
-|ページ設定|タイトルを印刷する|はい| |
-|ページ設定|スケーリング|はい| |
-|行の高さ/列の幅| |はい| |
-|RTL (右から左へ) 言語| |はい| |
+|画像| |はい| |
+|ハイパーリンク| |はい| |
+|チャート|  |部分的に| MapChartはサポートされていません。|
+|セルの結合|  |はい|  |
+|改ページ|  |はい|  |
+|ページ設定|ヘッダー/フッター|はい|  |
+|ページ設定|余白|はい|  |
+|ページ設定|ページの向き|はい|  |
+|ページ設定|ページサイズ|はい|  |
+|ページ設定|印刷範囲|はい|  |
+|ページ設定|印刷タイトル|はい|  |
+|ページ設定|拡大/縮小|はい|  |
+|行の高さ/列の幅|  |はい|  |
+|右から左への言語|  |はい|  |
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、次のように呼び出すのが最善です。**[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)**スプレッドシートを PDF 形式にレンダリングする直前。そうすることで、式に依存する値が再計算され、PDF に正しい値が表示されるようになります。
+スプレッドシートに数式が含まれている場合、スプレッドシートをPDF形式に変換する直前に[**Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)を呼び出すことをお勧めします。これにより、数式に依存する値が再計算され、PDFに正しい値が表示されます。
 
 {{% /alert %}}
 
-##  **アドバンストトピック**
-- [PDF ブックマークを追加](/cells/ja/net/add-pdf-bookmarks/)
-- [名前付き宛先を含む PDF ブックマークを追加する](/cells/ja/net/add-pdf-bookmarks-with-named-destinations/)
-- [印刷するものが何もない場合の出力 PDF の空白ページを回避する](/cells/ja/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
-- [PDF に保存するときに、特定の Unicode 文字のみのフォントを変更します。](/cells/ja/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)
-- [PDF へのレンダリング中の MS Excel ワークブックでの外部リソースの読み込みを制御する](/cells/ja/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+## **高度なトピック**
+- [PDFブックマークを追加](/cells/ja/net/add-pdf-bookmarks/)
+- [名前付き目次でPDFブックマークを追加する](/cells/ja/net/add-pdf-bookmarks-with-named-destinations/)
+- [出力PDFの空白ページを回避する](/cells/ja/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
+- [PDFへの変換時に特定のUnicode文字のフォントを変更する](/cells/ja/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/)
+- [PDFに変換する際のMS Excelブックの外部リソースの読み込みを制御する](/cells/ja/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [XLSXファイルをPDF形式に変換](/cells/ja/net/convert-xlsx-file-to-pdf-format/)
-- [Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換します](/cells/ja/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
-- [画像またはグラフを含む XLS ファイルを PDF に変換します](/cells/ja/net/convert-xls-file-with-images-or-charts-to-pdf/)
-- [グラフ シートの PdfBookmarkEntry を作成する](/cells/ja/net/create-pdfbookmarkentry-for-chart-sheet/)
-- [ワークシートのすべての列を 1 つの PDF ページに収める](/cells/ja/net/fit-all-worksheet-columns-on-single-pdf-page/)
-- [DrawObjectEventHandler クラスを使用して PDF にレンダリング中に DrawObject と Bound を取得します](/cells/ja/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/)
-- [Excel ファイルのレンダリング中にフォント置換に関する警告が表示される](/cells/ja/net/get-warnings-for-font-substitution-while-rendering-excel-file/)
-- [Excel を PDF にレンダリングする際のエラーを無視する](/cells/ja/net/ignore-errors-while-rendering-excel-to-pdf/)
-- [生成されるページ数を制限する - Excel から PDF への変換](/cells/ja/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/)
-- [PDF に保存中にコメントを印刷](/cells/ja/net/print-comments-while-saving-to-pdf/)
-- [Excel を PDF に変換するときに Office アドインをレンダリングする](/cells/ja/net/render-office-add-ins-while-converting-excel-to-pdf/)
-- [Excel ワークシートごとに 1 つの PDF ページをレンダリング - Excel から PDF への変換](/cells/ja/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/)
-- [出力 PDF の Unicode 補助文字を Aspose.Cells でレンダリングします](/cells/ja/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/)
-- [追加された画像のリサンプリング - Excel から PDF への変換](/cells/ja/net/resampling-added-images-excel-to-pdf-conversion/)
-- [各ワークシートを別の PDF ファイルに保存](/cells/ja/net/save-each-worksheet-to-a-different-pdf-file/)
-- [標準または最小サイズで Excel を PDF に保存します](/cells/ja/net/save-excel-into-pdf-with-standard-or-minimum-size/)
-- [指定したワークシートを PDF に保存](/cells/ja/net/save-specified-worksheets-to-pdf/)
-- [安全な PDF ドキュメント](/cells/ja/net/secure-pdf-documents/)
-- [出力PDFと画像の文字列を交差させる方法を指定します](/cells/ja/net/specify-how-to-cross-string-in-output-pdf-and-image/)
+- [PDFA-1aに準拠したExcelファイルをPDF形式に変換する](/cells/ja/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [画像やチャートを含むXLSファイルをPDFに変換](/cells/ja/net/convert-xls-file-with-images-or-charts-to-pdf/)
+- [チャートシートの PdfBookmarkEntry を作成](/cells/ja/net/create-pdfbookmarkentry-for-chart-sheet/)
+- [1つのPDFページでワークシートのすべての列を表示する](/cells/ja/net/fit-all-worksheet-columns-on-single-pdf-page/)
+- [DrawObjectEventHandlerクラスを使用してPDFへのレンダリング中にDrawObjectとバインドを取得](/cells/ja/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/)
+- [Excelファイルを変換する際のフォントの置換に関する警告を取得](/cells/ja/net/get-warnings-for-font-substitution-while-rendering-excel-file/)
+- [Excel を PDF にレンダリングする際のエラーを無視](/cells/ja/net/ignore-errors-while-rendering-excel-to-pdf/)
+- [生成されるページ数を制限する - ExcelからPDFへの変換](/cells/ja/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/)
+- [PDFへ保存する際にコメントを印刷する](/cells/ja/net/print-comments-while-saving-to-pdf/)
+- [ExcelをPDFに変換する際のOffice Add-Insのレンダリング](/cells/ja/net/render-office-add-ins-while-converting-excel-to-pdf/)
+- [Excelのワークシートごとに1つのPDFページをレンダリング - ExcelからPDFへの変換](/cells/ja/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/)
+- [Aspose.Cellsによる出力PDFでUnicode補助文字をレンダリングする](/cells/ja/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/)
+- [追加された画像のリサンプリング - ExcelからPDFへの変換](/cells/ja/net/resampling-added-images-excel-to-pdf-conversion/)
+- [異なるPDFファイルごとに各ワークシートを保存](/cells/ja/net/save-each-worksheet-to-a-different-pdf-file/)
+- [標準または最小サイズでExcelをPDFに保存](/cells/ja/net/save-excel-into-pdf-with-standard-or-minimum-size/)
+- [指定されたワークシートをPDFに保存](/cells/ja/net/save-specified-worksheets-to-pdf/)
+- [PDFドキュメントをセキュアにする](/cells/ja/net/secure-pdf-documents/)
+- [出力PDFおよび画像内の文字列の交差方法を指定](/cells/ja/net/specify-how-to-cross-string-in-output-pdf-and-image/)

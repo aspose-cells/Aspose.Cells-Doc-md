@@ -1,22 +1,23 @@
-﻿---
-title: Llenar un archivo .jasper con compatibilidad con gráficos editables
+---
+title: Llenando un archivo .jasper con soporte de gráficos editables
 type: docs
 weight: 10
 url: /es/jasperreports/filling-a-jasper-file-with-editable-chart-support/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells for JasperReports requiere que se complete un archivo .jasper en un objeto .jrprint o JasperPrint antes de poder exportarlo a un archivo XLS. No se necesita ninguna modificación para el archivo .jrxml en absoluto. El procedimiento de llenado almacena representaciones internas de gráficos en el objeto JasperPrint que luego se utiliza para generar gráficos editables.
+Aspose.Cells for JasperReports requiere que se llene un archivo .jasper con un archivo .jrprint o un objeto JasperPrint antes de exportarlo a un archivo XLS. No se necesita ninguna modificación en el archivo .jrxml en absoluto. El procedimiento de llenado almacena representaciones internas de gráficos en el objeto JasperPrint que luego se utiliza para generar gráficos editables. 
 
 {{% /alert %}} 
 
-Lea la documentación de JasperReports para obtener una descripción detallada de cómo completar un informe.
+Por favor, lea la documentación de JasperReports para obtener una descripción detallada de cómo llenar un informe.
 
-Aquí hay un ejemplo:
+Aquí tienes un ejemplo:
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  JasperPrint jasperPrint = JasperFillManager.fillReport(jasperFileName, parameters, getConnection());
 

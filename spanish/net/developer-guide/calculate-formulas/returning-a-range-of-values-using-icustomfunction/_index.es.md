@@ -1,33 +1,34 @@
 ---
-title: Devolver un rango de valores usando ICustomFunction
-description: Este artículo describe cómo utilizar la biblioteca Aspose.Cells para devolver un rango de valores con ICustomFunction en Microsoft Excel. Al cargar un archivo de Excel existente o crear un nuevo archivo de Excel, podemos usar los métodos proporcionados por Aspose.Cells para obtener un rango de valores y devolver el resultado. Finalmente, guardamos el archivo Excel modificado en el disco.
-keywords: Aspose.Cells, Excel, ICustomFunction, returns a series of values
+title: Retorno de un rango de valores usando ICustomFunction
+description: Este artículo describe cómo usar la biblioteca Aspose.Cells para devolver un rango de valores con ICustomFunction en Microsoft Excel. Al cargar un archivo de Excel existente o crear un nuevo archivo de Excel, podemos usar los métodos proporcionados por Aspose.Cells para obtener un rango de valores y devolver el resultado. Finalmente, guardamos el archivo de Excel modificado en el disco.
+keywords: Aspose.Cells, Excel, ICustomFunction, devuelve una serie de valores
 type: docs
 weight: 50
 url: /es/net/returning-a-range-of-values-using-icustomfunction/
 ---
+
 {{% alert color="primary" %}}
 
- El[**Función personalizada**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) está en desuso desde el lanzamiento de Aspose.Cells for Java 20.8. Por favor use el[**ResumenCálculoMotor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) clase. El uso de la[**ResumenCálculoMotor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) La clase se describe en el siguiente artículo.
+El [**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) está obsoleto desde el lanzamiento de Aspose.Cells for Java 20.8. Por favor, utiliza la clase [**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine). El uso de la clase [**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) se describe en el siguiente artículo.
 
-[Devolver un rango de valores usando AbstractCalculationEngine](/cells/es/net/returning-a-range-of-values-using-abstractcalculationengine/).
+[Retorno de un rango de valores usando AbstractCalculationEngine](/cells/es/net/returning-a-range-of-values-using-abstractcalculationengine/).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
- Aspose.Cells proporciona[**Función personalizada**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)interfaz que se utiliza para implementar funciones personalizadas o definidas por el usuario que no son compatibles con Microsoft Excel como funciones integradas.
+Aspose.Cells proporciona la interfaz [**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) que se utiliza para implementar funciones personalizadas definidas por el usuario que no son compatibles con las funciones integradas de Microsoft Excel.
 
- Principalmente cuando implementas el[**Función personalizada**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) método de interfaz, debe devolver un valor de celda única. Pero a veces es necesario devolver un rango de valores. Este artículo explicará cómo devolver el rango de valores de[**Función personalizada**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
+Mayormente, cuando se implementa el método de la interfaz [**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction), es necesario devolver un valor de celda única. Pero a veces, es necesario devolver un rango de valores. Este artículo explicará cómo devolver el rango de valores desde [**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 
 {{% /alert %}}
 
- El siguiente código implementa[**Función personalizada**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)y devuelve el rango de valores a través de su método.
+El siguiente código implementa [**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) y devuelve el rango de valores a través de su método.
 
-Crea una clase con una función *CalculateCustomFunction*. Esta clase implementa[**Función personalizada**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
+Crear una clase con una función *CalculateCustomFunction*. Esta clase implementa [**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-CustomFunctionStaticValue.cs" >}}
 
-Ahora use la función anterior en su programa
+Ahora utiliza la función anterior en tu programa
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-1.cs" >}}

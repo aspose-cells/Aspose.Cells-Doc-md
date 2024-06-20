@@ -1,20 +1,21 @@
 ---
-title: PDF'e Filigran Ekleyin
+title: PDF ye Filigran Ekleme
 type: docs
 weight: 9
 url: /tr/net/add-watermark-to-pdf/
 ---
-Excel dosyasını pdf'ye dönüştürürken pdf dosyasına filigran ekleme gereksinimleriniz olabilir. Aşağıdaki örnekler, pdf'ye dönüştürürken pdf'ye nasıl metin ve resim filigranı ekleneceğini gösterir.
 
-##   **PDF'e metin filigranı ekleyin**
+Excel dosyasını PDF'e dönüştürürken, PDF dosyasına filigran eklemek gibi gereksinimleriniz olabilir. Aşağıdaki örnekler, PDF dosyasına metin ve görüntü filigranı eklemenin nasıl yapıldığını gösterir.
 
- Metni ve karşılık gelen yazı tipini belirterek pdf'ye kolayca metin filigranı ekleyebilirsiniz. Ayrıca hizalama, ofset, döndürme, opaklık, ön plan/arka plan ayarlayabilir ve sayfaya göre ölçeklendirebilirsiniz.[OluşturmaFiligran](https://reference.aspose.com/cells/net/aspose.cells.rendering/renderingwatermark/).
+## **Metin filigranı PDF'ye ekleme**
+
+Metin filigranını PDF'ye kolayca ekleyebilirsiniz, metni ve ilgili yazı tipini belirleyerek. Ayrıca, hizalama, ofset, döndürme, opaklık, ön/arka plan ve sayfaya ölçek gibi özellikleri [RenderingWatermark](https://reference.aspose.com/cells/net/aspose.cells.rendering/renderingwatermark/) içinde ayarlayabilirsiniz.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-AddTextWatermarkToPdf.cs" >}}
 
-##  **PDF'e görüntü filigranı ekleyin**
+## **Görüntü filigranı PDF'ye ekleme**
 
- Bir görüntünün görüntü baytlarını belirterek pdf'ye görüntü filigranı ekleyebilirsiniz. Ayrıca hizalama, ofset, döndürme, opaklık, ön plan/arka plan ayarlayabilir ve sayfaya göre ölçeklendirebilirsiniz.[OluşturmaFiligran](https://reference.aspose.com/cells/net/aspose.cells.rendering/renderingwatermark/).
+Görüntü filigranını PDF'ye sadece görüntünün baytlarını belirleyerek ekleyebilirsiniz. Ayrıca, hizalama, ofset, döndürme, opaklık, ön/arka plan ve sayfaya ölçek gibi özellikleri [RenderingWatermark](https://reference.aspose.com/cells/net/aspose.cells.rendering/renderingwatermark/) içinde ayarlayabilirsiniz.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-AddImageWatermarkToPdf.cs" >}}
 

@@ -1,10 +1,10 @@
 ---
-title: 重新采样添加的图像-将Excel转换为PDF
+title: 重新采样添加的图像 将Excel转换为PDF
 type: docs
 weight: 150
 url: /zh/python-net/resample-added-images-excel-to-pdf-conversion/
 description: 学习如何使用Aspose.Cells for Python via .NET API在将Excel转换为PDF时对添加的图像进行重新采样。
-keywords: Python重新采样添加的图像-将Excel转换为PDF
+keywords: Python重新采样添加的图像 将Excel转换为PDF
 ---
 
 {{% alert color="primary" %}}

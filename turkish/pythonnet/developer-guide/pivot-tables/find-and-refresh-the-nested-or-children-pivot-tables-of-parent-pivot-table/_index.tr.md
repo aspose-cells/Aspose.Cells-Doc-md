@@ -1,21 +1,22 @@
 ---
-title: Ana Pivot Tablonun Yuvalanmış veya Alt Pivot Tablolarını Bulma ve Yenileme
+title: Ana Pivot Tablosunun İçindeki Yerleşik veya Çocuk Pivot Tablolarını Bul ve Yenile
 type: docs
 weight: 60
 url: /tr/python-net/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/
-description: Aspose.Cells for Python via .NET ile ana Pivot Tablonun yuvalanmış veya alt Pivot Tabloları nasıl bulunur ve yenilenir.
-keywords: Find and Refresh the Nested or Children Pivot Tables of Parent Pivot Table.
+description: Ebeveyn Pivota Tablosunun gömülü veya alt Pivota Tablolarını bulma ve yenileme Aspose.Cells for Python via .NET ile nasıl yapılır.
+keywords: Python Excel Kütüphanesi Aspose.Cells, Ana Özet Tablosunun İçerisindeki veya Alt Tablolarını Bulma ve Yenileme
 ---
-##  **Olası Kullanım Senaryoları**
 
-Bazen bir pivot tablo, veri kaynağı olarak başka bir pivot tabloyu kullanır; bu nedenle buna alt pivot tablo veya iç içe geçmiş pivot tablo adı verilir. Bir ana pivot tablonun alt pivot tablolarını aşağıdakileri kullanarak bulabilirsiniz:[**PivotTable.get_children()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/get_children/#)yöntem.
+## **Olası Kullanım Senaryoları**
 
-##  **Ana Pivot Tablonun Yuvalanmış veya Alt Pivot Tablolarını Bulma ve Yenileme**
+Bazı durumlarda, bir pivot tablosu diğer bir pivot tablosunu veri kaynağı olarak kullandığı için buna çocuk pivot tablosu veya yerleşik pivot tablosu denir. [**PivotTable.get_children()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/get_children/#) yöntemi kullanarak bir ana pivot tablosunun çocuk pivot tablolarını bulabilirsiniz.
 
- Aşağıdaki örnek kod,[örnek Excel dosyası](61767747.xlsx) üç pivot tablo içerir. Alttaki iki pivot tablo, bu ekran görüntüsünde gösterildiği gibi yukarıdaki pivot tablonun çocuklarıdır. Kod, aşağıdakileri kullanarak çocuk pivot tablosunu bulur:[**PivotTable.get_children()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/get_children/#)yöntemini kullanır ve ardından bunları birer birer yeniler.
+## **Ana Özet Tablosunun İçerisindeki veya Alt Tablolarını Bulma ve Yenileme**
 
-![yapılacak şey:image_alt_text](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
+Aşağıdaki örnek kod, üç pivot tablosunu içeren [örnek Excel dosyasını](61767747.xlsx) yükler. Alt iki pivot tablosu yukarıdaki pivot tablosunun alt pivot tablolarıdır ve bu ekran görüntüsünde gösterildiği gibi. Kod, [**PivotTable.get_children()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/get_children/#) yöntemini kullanarak alt pivot tablosunu bulur ve ardından birer birer yeniler.
 
-##  **Basit kod**
+![todo:image_alt_text](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.py" >}}

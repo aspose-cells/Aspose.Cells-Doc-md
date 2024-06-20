@@ -1,34 +1,35 @@
 ---
-title: Iterar filas y columnas
+title: Iterar Filas y Columnas
 type: docs
 weight: 50
 url: /es/java/iterate-rows-and-columns/
-description: Aprenda a iterar filas y columnas a través de las API Aspose.Cells for Java.
-keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
+description: Aprende cómo iterar Filas y Columnas a través de las Aspose.Cells for Java API.
+keywords: Cómo Iterar Filas y Columnas en Java, Iterar Filas usando Java, Java Iterar Columnas. 
 ---
-##  **Cómo iterar filas y columnas usando Aspose.Cells for Java**
 
-Las filas y columnas se pueden iterar utilizando la colección de filas y columnas.
+## **Cómo Iterar Filas y Columnas Usando Aspose.Cells for Java**
+
+Las Filas y Columnas se pueden iterar usando la colección de filas y columnas.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Acceder al rango máximo de visualización
+ //Access the Maximum Display Range
 
-Rango rango = hoja de trabajo.getCells().getMaxDisplayRange();
+Range range = worksheet.getCells().getMaxDisplayRange();
 
-int tcols = rango.getColumnCount();
+int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("Total de filas:" + trows);
+System.out.println("Total Rows:" + trows);
 
-System.out.println("Colos totales:" + tcols);
+System.out.println("Total Cols:" + tcols);
 
-Filas de RowCollection = cell.getRows();
+RowCollection rows = cells.getRows();
 
- para (int i = 0 ; i< rows.getCount() ; i++)
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -46,13 +47,13 @@ Filas de RowCollection = cell.getRows();
 
 {{< /highlight >}}
 
-##  **Apache POI SS - HSSF XSSF - Iterar filas y columnas**
+## **Apache POI SS - HSSF XSSF -Iterar Filas y Columnas**
 
-Las filas y Cells se pueden iterar en la Hoja. El código de muestra se menciona a continuación:
+Se pueden iterar Filas y Celdas en la Hoja. El código de muestra se menciona a continuación:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = WorkbookFactory.create(inStream);
 
@@ -74,11 +75,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-##  **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-##  **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

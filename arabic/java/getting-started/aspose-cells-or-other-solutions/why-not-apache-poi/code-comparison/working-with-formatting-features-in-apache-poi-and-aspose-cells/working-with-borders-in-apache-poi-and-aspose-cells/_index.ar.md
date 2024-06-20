@@ -1,17 +1,18 @@
-﻿---
-title: العمل مع الحدود في Apache POI و Aspose.Cells
+---
+title: العمل مع الحدود في أباتشي بوي وأسبوز.سيلس
 type: docs
 weight: 10
 url: /ar/java/working-with-borders-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - العمل مع الحدود**
-Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)يمثل ملف Excel Microsoft. تحتوي فئة المصنف على مجموعة أوراق العمل التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)صف دراسي. توفر فئة ورقة العمل مجموعة الخلايا. يمثل كل عنصر في مجموعة Cells عنصرًا من عناصر[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)صف دراسي.
 
-يوفر Aspose.Cells طريقة setStyle في ملف[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)فئة تستخدم لتعيين نمط تنسيق الخلية. أيضًا ، فإن كائن Style لـ[أسلوب](http://docs.aspose.com:8082/docs/display/cellsjava/Style)يتم استخدام class وتوفر خصائص لتكوين إعدادات الخط.
+## **أسبوز.سيلس - العمل مع الحدود**
+توفر Aspose.Cells فئة، [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) التي تمثل ملف Microsoft Excel. تحتوي الفئة Workbook على مجموعة WorksheetCollection التي تسمح بالوصول لكل ورقة عمل في ملف Excel. تُمثل ورقة العمل بواسطة فئة [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet). توفر فئة الورقة العمل Cellscollection. يمثل كل عنصر في مجموعة Cells كائنًا من الفئة [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell).
+
+توفر Aspose.Cells الطريقة setStyle في الفئة [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell) المستخدمة لتعيين نمط تنسيق الخلية. أيضا، يتم استخدام كائن Style من الفئة [Style](http://docs.aspose.com:8082/docs/display/cellsjava/Style) ويوفر خصائص لضبط إعدادات الخط.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Style the cell with borders all around.
 
@@ -30,12 +31,12 @@ style.setBorder(BorderType.TOP_BORDER, CellBorderType.MEDIUM_DASH_DOT, Color.get
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - العمل مع الحدود**
-توفر فئة CellStyle ميزات لضبط إعدادات الحدود باستخدام Apache POI SS - HSSF و XSSF.
+## **أباتشي بوي إس إس - إتش إس إس إف - العمل مع الحدود**
+توفر فئة CellStyle ميزات لتعيين إعدادات الحدود باستخدام أباتشي بوي إس إس - إتش إس إس إف.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Setting the line of the top border
 
@@ -58,13 +59,13 @@ style.setBorder(BorderType.RIGHT_BORDER,CellBorderType.THICK,Color.getBlack());
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / cells / أمثلة / featurescomparison / formatting / border)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/borders)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إضافة الحدود إلى Cells](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Borders+to+Cells).
+لمزيد من التفاصيل، قم بزيارة [إضافة حدود للخلايا](http://docs.aspose.com:8082/docs/display/cellsjava/Adding+Borders+to+Cells).
 
 {{% /alert %}}

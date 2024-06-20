@@ -1,20 +1,21 @@
-﻿---
-title: احتواء تلقائي للأعمدة والصفوف أثناء تحميل HTML في المصنف
+---
+title: تناسب تلقائي للأعمدة والصفوف أثناء تحميل HTML في مصنف
 type: docs
 weight: 120
 url: /ar/net/autofit-columns-and-rows-while-loading-html-in-workbook/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك احتواء الأعمدة والصفوف تلقائيًا أثناء تحميل ملف HTML داخل كائن المصنف. يرجى ضبط**[HtmlLoadOptions.AutoFitColsAndRows] (https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)** ملكية ل**حقيقي**لهذا الغرض.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **احتواء تلقائي للأعمدة والصفوف أثناء تحميل HTML في المصنف**
+يمكنك تلائم الأعمدة والصفوف أثناء تحميل ملف HTML داخل كائن المفكرة. يرجى ضبط الخاصية [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows) إلى **true** لهذا الغرض.
 
- يقوم نموذج التعليمات البرمجية التالي أولاً بتحميل العينة HTML في Workbook دون أي خيارات تحميل وحفظه بتنسيق XLSX. ثم يقوم بتحميل العينة HTML مرة أخرى في المصنف ولكن هذه المرة ، يقوم بتحميل HTML بعد تعيين**[HtmlLoadOptions.AutoFitColsAndRows] (https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)** ملكية ل**حقيقي**ويحفظه بتنسيق XLSX. يرجى تنزيل كل من ملفات إكسل الناتجة مثل[إخراج ملف Excel بدون AutoFitColsAndRows](outputWithout_AutoFitColsAndRows.xlsx) و[إخراج ملف Excel مع AutoFitColsAndRows](outputWith_AutoFitColsAndRows.xlsx) . تُظهر لقطة الشاشة التالية تأثير**[HtmlLoadOptions.AutoFitColsAndRows] (https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)**الخاصية على كلا ملفات إكسل الإخراج.
+## **تلائم الأعمدة والصفوف تلقائيًا أثناء تحميل HTML في دفتر العمل**
 
-![ما يجب القيام به: image_بديل_نص](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+الكود النموذجي التالي يقوم أولاً بتحميل HTML النموذجي في Workbook بدون أي خيارات تحميل وحفظه في تنسيق XLSX. ثم يقوم مرة أخرى بتحميل HTML النموذجي في Workbook ولكن هذه المرة، يقوم بتحميل الـ HTML بعد ضبط الخاصية [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows) على **true** وحفظه في تنسيق XLSX. يرجى تنزيل كل من ملفات الإكسيل الناتجة، أي [ملف الإكسيل الناتج بدون تناسب الأعمدة والصفوف](outputWithout_AutoFitColsAndRows.xlsx) و [ملف الإكسيل الناتج مع تناسب الأعمدة والصفوف](outputWith_AutoFitColsAndRows.xlsx). اللقطة الشاشية التالية توضح تأثير الخاصية [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows) على كل من ملفات الإكسيل الناتجة.
 
-## **عينة من الرموز**
+![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-AutoFitColumnsandRowsWhileLoadingHTMLInWorkbook-1.cs" >}}
 

@@ -1,15 +1,16 @@
-﻿---
-title: Fornire il percorso del file del foglio di lavoro esportato HTML tramite l'interfaccia IFilePathProvider
+---
+title: Fornire il percorso del file HTML del foglio esportato tramite l interfaccia IFilePathProvider
 type: docs
 weight: 870
 url: /it/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
-## **Possibili scenari di utilizzo**
- Supponiamo di avere un file excel con fogli multipli e di voler esportare ogni foglio in un singolo file HTML. Se uno dei tuoi fogli ha collegamenti ad altri fogli, tali collegamenti verranno interrotti nel HTML esportato. Per affrontare questo problema, Aspose.Cells fornisce[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)interfaccia che puoi implementare per correggere i collegamenti interrotti.
-## **Fornire il percorso del file del foglio di lavoro esportato HTML tramite l'interfaccia IFilePathProvider**
- Si prega di scaricare il[file excel di esempio](5473417.zip) utilizzato nel codice seguente e nei suoi file HTML esportati. Tutti questi file sono all'interno del file*temp* directory. Dovresti estrarlo su*C:* guidare. Allora diventerà*C:\Temp* directory. Quindi aprirai il file*Foglio1.html* file nel browser e fare clic sui due collegamenti al suo interno. Questi collegamenti si riferiscono a questi due fogli di lavoro HTML esportati che si trovano all'interno del file*C:\Temp\Altri fogli*directory.
 
-{{< highlight "java" >}}
+## **Possibili Scenari di Utilizzo**
+Supponiamo di avere un file Excel con più fogli e si desidera esportare ciascun foglio in un file HTML individuale. Se alcuni dei fogli hanno collegamenti ad altri fogli, allora quei collegamenti saranno interrotti nell'HTML esportato. Per affrontare questo problema, Aspose.Cells fornisce l'interfaccia [IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider) che è possibile implementare per correggere i collegamenti interrotti.
+## **Fornire il percorso del file HTML del foglio di lavoro esportato tramite l'interfaccia IFilePathProvider**
+Si prega di scaricare il [file Excel di esempio](5473417.zip) utilizzato nel codice seguente e i relativi file HTML esportati. Tutti questi file si trovano nella cartella *Temp*. Si consiglia di estrarli sull'unità *C:*. Quindi diventerà la cartella *C:\Temp*. Successivamente si aprirà il file *Sheet1.html* nel browser e si cliccheranno i due collegamenti al suo interno. Questi collegamenti si riferiscono ai due fogli HTML esportati che si trovano nella cartella *C:\Temp\AltriFogli*.
+
+{{< highlight java >}}
 
  file:///C:/Temp/OtherSheets/Sheet2.html#RANGE!A1
 
@@ -17,27 +18,27 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 {{< /highlight >}}
 
-Lo screenshot seguente mostra come il file*C:\Temp\Foglio1.html*e i suoi collegamenti sembrano
+Lo screenshot seguente mostra come appaiono il *C:\Temp\Sheet1.html* e i relativi collegamenti
 
-![cose da fare:immagine_alt_testo](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
+![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
- Lo screenshot seguente mostra la fonte HTML. Come puoi vedere che i collegamenti ora fanno riferimento a*C:\Temp\Altri fogli* directory. Ciò è stato ottenuto utilizzando il[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)interfaccia.
+Lo screenshot seguente mostra la sorgente HTML. Come si può vedere, i collegamenti adesso si riferiscono alla cartella *C:\Temp\AltriFogli*. Ciò è stato ottenuto utilizzando l'interfaccia [IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider).
 
-![cose da fare:immagine_alt_testo](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
-## **Codice d'esempio**
- notare che*C:\Temp* directory è solo a scopo illustrativo. Puoi utilizzare qualsiasi directory di tua scelta e posizione[file excel di esempio](5473414.xlsx) lì dentro ed eseguire il codice di esempio fornito. Quindi creerà*AltroFogli* sottodirectory all'interno della tua directory ed esporta il secondo e il terzo foglio di lavoro HTML al suo interno. Si prega di modificare il*dirPath*variabile all'interno del codice fornito e riferirlo alla directory di tua scelta prima dell'esecuzione.
+![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
+## **Codice di Esempio**
+Si noti che la cartella *C:\Temp* è solo a scopo illustrativo. È possibile utilizzare qualsiasi cartella a scelta e posizionare il [file Excel di esempio](5473414.xlsx) al suo interno ed eseguire il codice di esempio fornito. Si creerà quindi una sub-cartella *AltriFogli* all'interno della propria cartella e verranno esportati il secondo e il terzo foglio HTML al suo interno. Si prega di modificare la variabile *dirPath* all'interno del codice fornito e far riferimento alla propria cartella di scelta prima dell'esecuzione.
 
 {{% alert color="primary" %}} 
 
-Il codice di esempio funzionerà solo quando imposterai la licenza Aspose.Cells. Se proverai a eseguire il codice senza impostare la licenza, andrà in un ciclo infinito. Pertanto, abbiamo aggiunto un controllo per stampare un messaggio e interrompere l'esecuzione quando la licenza non è impostata. Puoi acquistare una licenza o richiedere una licenza temporanea di 30 giorni dal team Aspose.Purchase.
+Il codice di esempio funzionerà solo se verrà impostata la licenza di Aspose.Cells. Se si cercherà di eseguire il codice senza impostare la licenza, entrerà in un loop infinito. Di conseguenza, è stato aggiunto un controllo per stampare un messaggio e interrompere l'esecuzione quando la licenza non è impostata. È possibile acquistare una licenza oppure richiederne una temporanea di 30 giorni al team di vendite di Aspose.
 
 {{% /alert %}} 
 
- Si prega di vedere che commentare queste righe all'interno del codice interromperà i collegamenti*Foglio1.html* e*Foglio2.html* o*Foglio3.html*non si aprirà quando i loro collegamenti verranno cliccati all'interno del*Foglio1.html*
+Si prega di notare che commentare queste righe all'interno del codice causerà la rottura dei collegamenti in *Sheet1.html* e *Sheet2.html* o *Sheet3.html* non verranno aperti quando si cliccheranno i relativi collegamenti all'interno di *Sheet1.html*
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //If you will comment this line, then hyperlinks will be broken
 
@@ -47,7 +48,7 @@ options.setFilePathProvider(new FilePathProvider());
 
 
 
- Ecco il codice di esempio completo che puoi eseguire con il file fornito[file excel di esempio](5473414.xlsx).
+Qui è riportato il codice completo di esempio che è possibile eseguire con il [file Excel di esempio](5473414.xlsx) fornito.
 
 
 

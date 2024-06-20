@@ -1,15 +1,18 @@
-﻿---
-title: ورقة عمل ملزمة لمجموعة DataSet في وقت التشغيل باستخدام GridWeb
+---
+title: ربط الورقة العمل بمجموعة بيانات أثناء التشغيل باستخدام GridWeb
 type: docs
 weight: 70
-url: /ar/net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
+url: /ar/net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
+keywords: GridWeb,bind,DataSet
+description: تقدم هذه المقالة مقدمة حول كيفية ربط ورقة العمل بمجموعة بيانات في GridWeb.
 ---
-## **سيناريوهات الاستخدام الممكنة**
-Aspose.Cells.GridWeb يوفر API سهلًا يمكن استخدامه لربط DataSet بورقة العمل ديناميكيًا.
-## **ربط ورقة عمل إلى DataSet**
-يشرح نموذج التعليمات البرمجية التالي كيفية ربط ورقة عمل إلى DataSet في وقت التشغيل.
-## **عينة من الرموز**
-{{< highlight "java" >}}
+
+## **سيناريوهات الاستخدام المحتملة**
+Aspose.Cells.GridWeb يوفر واجهة برمجة تطبيقات سهلة يمكن استخدامها لربط مجموعة بيانات بشكل ديناميكي بورقة العمل.
+## **ربط ورقة العمل بمجموعة بيانات**
+الكود النموذجي التالي يشرح كيفية ربط ورقة عمل بمجموعة بيانات أثناء التشغيل.
+## **الكود المثالي**
+{{< highlight java >}}
 
  // Implementing Page_Load event handler
 
@@ -80,7 +83,7 @@ public partial class GridBind : System.Web.UI.Page
 }
 
 {{< /highlight >}}
-## **لقطة شاشة الإخراج**
-تُظهر لقطة الشاشة التالية GridWeb بعد تنفيذ نموذج التعليمات البرمجية أعلاه.
+## **لقطة الشاشة الناتجة**
+اللقطة الشاشة التالية تظهر GridWeb بعد تنفيذ الكود النموذجي أعلاه.
 
-![ما يجب القيام به: image_بديل_نص](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

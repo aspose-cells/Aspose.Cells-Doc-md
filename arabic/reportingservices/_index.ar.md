@@ -1,23 +1,26 @@
-﻿---
+---
 title: Aspose.Cells for Reporting Services
 type: docs
 weight: 80
 url: /ar/reportingservices/
 is_root: true
 ---
-![ما يجب القيام به: image_بديل_نص](home_1)
 
-**مرحبا بكم في Aspose.Cells for Reporting Services**
 
-Aspose.Cells for Reporting Services هو حل للمطورين الذين يحتاجون إلى تسليم Microsoft تقارير Excel في Reporting Services. يضيف ميزات مرنة وسهلة الاستخدام لخدمات التقارير من خلال أداة Aspose.Cells.Report.Designer. يمكن لـ API أداء جميع المهام المتعلقة بتطوير التقارير في Reporting Services مثل إعداد مصادر البيانات وإنشاء الاستعلامات وتصميم التقارير ونشر التقارير على Report Server. منذ Aspose.Cells.Report.Designer يستخدم Microsoft Excel كقالب تقرير ، يمكن للمستخدمين الاستفادة من الميزات القوية المتوفرة في Microsoft Excel.
 
-## **Aspose.Cells for Reporting Services الموارد**
-فيما يلي روابط لبعض الموارد المفيدة التي قد تحتاجها لإنجاز مهامك.
+![todo:image_alt_text](home_1)
 
-- [Aspose.Cells for Reporting Services التوثيق عبر الإنترنت](/cells/ar/reportingservices/)
-- [Aspose.Cells for Reporting Services الميزات](/cells/ar/reportingservices/features/)
-- [Aspose.Cells for Reporting Services ملاحظات الإصدار](https://releases.aspose.com/cells/reportingservices/release-notes/)
-- [Aspose.Cells for Reporting Services صفحة المنتج](https://products.aspose.com/cells/reporting-services/)
+**مرحبًا بك في Aspose.Cells for Reporting Services**
+
+ Aspose.Cells for Reporting Services هو حلاً للمطورين الذين يحتاجون إلى تقديم تقارير Microsoft Excel في خدمات الإبلاغ. يضيف ميزات مرنة وسهلة الاستخدام لخدمات الإبلاغ من خلال أداة Aspose.Cells.Report.Designer. يمكن للواجهة البرمجية القيام بجميع المهام المتعلقة بتطوير التقارير في خدمات الإبلاغ مثل إعداد مصادر البيانات وإنشاء الاستعلامات وتصميم التقارير ونشر التقارير على خادم التقارير. نظرًا لأن Aspose.Cells.Report.Designer يستخدم Microsoft Excel كقالب تقرير ، يمكن للمستخدمين الاستفادة من الميزات القوية المتاحة في Microsoft Excel.
+
+## **موارد Aspose.Cells for Reporting Services**
+ما يلي هي الروابط إلى بعض الموارد المفيدة التي قد تحتاجها لإنجاز مهامك.
+
+- [المستندات عبر الإنترنت لـ Aspose.Cells for Reporting Services](/cells/ar/reportingservices/)
+- [ميزات Aspose.Cells for Reporting Services](/cells/ar/reportingservices/features/)
+- [ملاحظات الإصدار Aspose.Cells for Reporting Services](https://releases.aspose.com/cells/reportingservices/release-notes/)
+- [صفحة المنتج Aspose.Cells for Reporting Services](https://products.aspose.com/cells/reporting-services/)
 - [تحميل Aspose.Cells for Reporting Services](https://downloads.aspose.com/cells/reportingservices)
-- [Aspose.Cells for Reporting Services منتدى الدعم المجاني](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells for Reporting Services مكتب مساعدة الدعم المدفوع](https://helpdesk.aspose.com/)
+- [منتدى الدعم المجاني Aspose.Cells for Reporting Services](https://forum.aspose.com/c/cells/9)
+- [مكتب المساعدة المدفوع Aspose.Cells for Reporting Services](https://helpdesk.aspose.com/)

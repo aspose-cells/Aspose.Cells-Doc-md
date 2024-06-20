@@ -1,29 +1,30 @@
-﻿---
-title: Genel API Aspose.Cells 8.8.2'deki değişiklikler
+---
+title: Aspose.Cells 8.8.2 de Genel API Değişiklikleri
 type: docs
 weight: 280
 url: /tr/net/public-api-changes-in-aspose-cells-8-8-2/
 ---
-{{% alert color="primary" %}} 
-
-Bu belge, Aspose.Cells API sürümünde 8.8.1'den 8.8.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
-
-{{% /alert %}} 
-## **Eklenen API'ler**
-### **Boş Satırları ve Sütunları Silerken Referansları Otomatik Olarak Güncelleyin**
-Aspose.Cells for .NET 8.8.2, Cells.DeleteBlankRows & Cells.DeleteBlankColumns yöntemlerinin aşırı yüklenmiş sürümlerini ortaya çıkardı. Yeni yöntemler, DeleteOptions sınıfının bir örneğini kabul edebilir ve formüllerde, grafik serisi verilerinde vb. bozuk referanslardan kaynaklanabilecek durumların üstesinden gelmek için kullanılabilir. DeleteOptions sınıfının şu anda yalnızca bir üyesi var, UpdateReference adında bir Boole türü özelliği. Söz konusu özellik true olarak ayarlanırsa ve DeleteOptions sınıfı örneği Cells.DeleteBlankRows & Cells.DeleteBlankColumns yöntemlerine geçirilirse, API, değişiklikleri karşılamak için (varsa) formül başvurularını dahili olarak ayarlar.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Güncellenmiş Referanslarla Boş Satırları ve Sütunları Silme](/cells/tr/net/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/).
+Bu belge, modül/uygulama geliştiricileri için Aspose.Cells API'sinde 8.8.1'den 8.8.2'ye yapılan değişiklikleri açıklar. Yeni ve güncellenmiş genel yöntemler, eklenen ve kaldırılan sınıflar vb. yanı sıra Aspose.Cells arkasındaki davranışlardaki değişikliklerin açıklamasını içerir.
+
+{{% /alert %}} 
+## **Eklenen API'lar**
+### **Boş Satır ve Sütunları Silerken Referansları Otomatik Olarak Güncelleme**
+Aspose.Cells for .NET 8.8.2, Cells.DeleteBlankRows ve Cells.DeleteBlankColumns yöntemlerinin aşırı yüklenmiş sürümlerini ortaya çıkardı. Yeni yöntemler, DeleteOptions sınıfının bir örneğini kabul edebilir ve formüllerdeki bozuk referanslar nedeniyle ortaya çıkabilecek durumların üstesinden gelmek için kullanılabilir. DeleteOptions sınıfının şu anda sadece bir üyesi bulunmaktadır, UpdateReference adında Boolean tipinde bir özelliktir. Söz konusu özellik true olarak ayarlandığında ve DeleteOptions sınıfının örneği Cells.DeleteBlankRows ve Cells.DeleteBlankColumns yöntemlerine geçirildiğinde, API içsel olarak formül referanslarını (varsa) değişiklikleri yansıtacak şekilde ayarlayacaktır.
+
+{{% alert color="primary" %}} 
+
+Bu özellikle ilgili daha fazla bilgi için lütfen [Güncellenmiş Referanslarda Boş Sütun ve Satırların Silinmesi](/cells/tr/net/update-references-in-diğer-çalışma-kitaplarında-silinmiş-satırlar-ve-sütunları-silinirken-güncellenmiş-referanslar/) başlıklı ayrıntılı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook & load an existing spreadsheet
 

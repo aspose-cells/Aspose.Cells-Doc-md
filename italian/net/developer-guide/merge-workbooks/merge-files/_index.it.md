@@ -1,20 +1,21 @@
-﻿---
-title: Unisci file
+---
+title: Unire file
 type: docs
 weight: 20
 url: /it/net/merge-files/
 ---
-## **introduzione**
 
- Aspose.Cells offre diversi modi per unire i file. Per file semplici con dati, formattazione e formule, il file[**Cartella di lavoro.Combina()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) metodo può essere utilizzato per combinare più cartelle di lavoro e il file[**Foglio di lavoro.Copia()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index)metodo può essere utilizzato per copiare i fogli di lavoro in una nuova cartella di lavoro. Questi metodi sono facili da usare ed efficaci, ma se hai molti file da unire, potresti scoprire che richiedono molte risorse di sistema. Per evitare ciò, utilizzare il[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)metodo statico, un modo più efficiente per unire più file.
+## **Introduzione**
 
-## **Unisci file utilizzando Aspose.Cells**
+Aspose.Cells fornisce diverse modalità per unire i file. Per file semplici con dati, formattazione e formule, può essere utilizzato il metodo [**Workbook.Combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) per combinare diversi diari di lavoro e il metodo [**Worksheet.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index) per copiare i fogli di lavoro in un nuovo diario di lavoro. Questi metodi sono facili da usare ed efficaci, ma se hai molti file da unire, potresti scoprire che richiedono molte risorse di sistema. Per evitare ciò, utilizza il metodo statico [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles), un modo più efficiente per unire diversi file.
 
- Il codice di esempio seguente illustra come unire file di grandi dimensioni utilizzando l'estensione[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)metodo. Richiede due file semplici ma di grandi dimensioni, Book1.xls e Book2.xls. I file contengono solo dati formattati e formule.
+## **Unire file utilizzando Aspose.Cells**
+
+Il seguente esempio di codice illustra come unire file di grandi dimensioni utilizzando il metodo [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles). Prende due file semplici ma di grandi dimensioni, Book1.xls e Book2.xls. I file contengono solo dati formattati e formule.
 
 {{% alert color="primary" %}}
 
- Il[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) Il metodo supporta solo l'unione di dati, stili, formattazione e formule. Oggetti come grafici, immagini, commenti o altri oggetti potrebbero non essere uniti utilizzando questo metodo. Inoltre, un file memorizzato nella cache viene utilizzato per archiviare dati temporanei per il processo.
+Il metodo [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) supporta solo la combinazione di dati, stili, formattazioni e formule. Gli oggetti come grafici, immagini, commenti o altri oggetti potrebbero non essere uniti utilizzando questo metodo. Inoltre, viene utilizzato un file memorizzato nella cache per memorizzare i dati temporanei per il processo.
 
 {{% /alert %}}
 

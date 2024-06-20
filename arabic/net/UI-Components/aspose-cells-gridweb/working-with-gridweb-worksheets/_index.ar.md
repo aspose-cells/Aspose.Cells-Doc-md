@@ -1,6 +1,8 @@
-﻿---
-title: العمل مع أوراق عمل GridWeb
+---
+title: العمل مع ورق العمل GridWeb
 type: docs
 weight: 40
-url: /ar/net/working-with-gridweb-worksheets/
+url: /ar/net/aspose-cells-gridweb/working-with-gridweb-worksheets/
 ---
+
+

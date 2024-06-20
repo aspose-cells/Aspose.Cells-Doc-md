@@ -1,24 +1,27 @@
-﻿---
-title: Aplicar estilo en una fila o columna
+---
+title: Aplicar estilo a una fila o columna
 type: docs
 weight: 50
-url: /es/net/applying-style-on-a-row-or-column/
+url: /es/net/aspose-cells-griddesktop/apply-style-on-a-row-or-column/
+keywords: GridDesktop, estilo, fila, columna
+description: Este artículo presenta cómo aplicar estilo en una fila o columna en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-En este tema, hablaremos sobre cómo cambiar la fuente y el color de la fuente de las filas y columnas de una hoja de trabajo. Este es un nivel básico de función de formato que ofrece Aspose.Cells.GridDesktop que permite a los desarrolladores personalizar la vista de sus hojas de trabajo para hacerlas más presentables.
+En este tema, discutiremos sobre cómo cambiar la fuente y el color de la fuente de filas y columnas de una hoja de cálculo. Esta es una función básica de formato ofrecida por Aspose.Cells.GridDesktop que permite a los desarrolladores personalizar la vista de sus hojas de cálculo para hacerlas más presentables.
 
 {{% /alert %}} 
 ## **Aplicar estilo en una columna**
 Para aplicar un estilo personalizado en una columna usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
 
--  Accede a cualquier deseado**Hoja de cálculo**
--  Accede a un**Columna** sobre el que queremos aplicar un**Estilo**
--  Conseguir**Estilo** del**Columna**
--  Colocar**Estilo** propiedades de acuerdo a sus necesidades personalizadas
--  Finalmente, establezca**Estilo** del**Columna** con el actualizado
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Acceda a una **Columna** en la que queremos aplicar un **Estilo**
+- Obtenga el **Estilo** de la **Columna**
+- Establecer las propiedades del **Estilo** según sus necesidades personalizadas
+- Finalmente, establezca el **Estilo** de la **Columna** con el actualizado
 
- Hay muchas propiedades y métodos útiles ofrecidos por**Estilo** objeto que pueden usar los desarrolladores para personalizar el estilo de acuerdo con sus requisitos.
+Existen muchas propiedades y métodos útiles ofrecidos por el objeto **Estilo** que pueden ser utilizados por los desarrolladores para personalizar el estilo según sus requisitos.
 
 
 
@@ -26,17 +29,17 @@ Para aplicar un estilo personalizado en una columna usando Aspose.Cells.GridDesk
 ## **Aplicar estilo en una fila**
 Para aplicar un estilo personalizado en una fila usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
 
--  Accede a cualquier deseado**Hoja de cálculo**
--  Accede a un**Fila** sobre el que queremos aplicar un**Estilo**
--  Conseguir**Estilo** del**Fila**
--  Colocar**Estilo** propiedades de acuerdo a sus necesidades personalizadas
--  Finalmente, establezca**Estilo** del**Fila** con el actualizado
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Acceda a una **Fila** en la que queremos aplicar un **Estilo**
+- Obtenga el **Estilo** de la **Fila**
+- Establecer las propiedades del **Estilo** según sus necesidades personalizadas
+- Finalmente, establezca el **Estilo** de la **Fila** con el actualizado
 
- Hay muchas propiedades y métodos útiles ofrecidos por**Estilo** objeto que pueden usar los desarrolladores para personalizar el estilo de acuerdo con sus requisitos.
+Existen muchas propiedades y métodos útiles ofrecidos por el objeto **Estilo** que pueden ser utilizados por los desarrolladores para personalizar el estilo según sus requisitos.
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Accessing the worksheet of the Grid that is currently active
 

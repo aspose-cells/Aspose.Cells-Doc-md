@@ -1,12 +1,13 @@
-﻿---
-title: Kesinlikle Yazılmamış Veriler İçeren Sütunlar
+---
+title: Güçlü Olmayan Türde Veri İçeren Sütunlar
 type: docs
 weight: 10
 url: /tr/net/columns-containing-non-strongly-typed-data/
 ---
- Bir çalışma sayfasının sütunlarındaki tüm değerler kesin olarak yazılmamışsa (bu, bir sütundaki değerlerin farklı veri türlerine sahip olabileceği anlamına gelir), o zaman çalışma sayfasının içeriğini çağırarak dışarı aktarabiliriz.**ExportDataTableAsString** Cells sınıfının yöntemi.**ExportDataTableAsString** yöntemi ile aynı parametre kümesini alır.**ExportDataTable** çalışma sayfası verilerini dışa aktarma yöntemi**Veri tablosu** nesne.
 
-{{< highlight "csharp" >}}
+Bir çalışma sayfasının sütunlarının tüm değerleri güçlü bir şekilde türde değilse (bu, bir sütundaki değerlerin farklı veri tiplerine sahip olabileceği anlamına gelir) o zaman **Cells** sınıfının **ExportDataTableAsString** yöntemini çağırarak çalışma sayfası içeriğini dışa aktarabiliriz. **ExportDataTableAsString** yöntemi, çalışma sayfasındaki verileri **DataTable** nesnesi olarak dışa aktarmak için **ExportDataTable** yönteminin aldığı parametre setini alır
+
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -36,13 +37,13 @@ fstream.Close();
 
 {{< /highlight >}}
 
-Ekran görüntüleri aşağıdadır:
+Aşağıdaki ekran görüntüleri bulunmaktadır:
 
-![yapılacaklar:resim_alternatif_metin](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-![yapılacaklar:resim_alternatif_metin](picture2.png)
+![todo:image_alt_text](picture2.png)
 
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

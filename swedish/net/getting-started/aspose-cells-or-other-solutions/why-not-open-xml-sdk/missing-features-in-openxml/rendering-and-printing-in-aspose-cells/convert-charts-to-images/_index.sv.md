@@ -1,12 +1,13 @@
-﻿---
+---
 title: Konvertera diagram till bilder
 type: docs
 weight: 10
 url: /sv/net/convert-charts-to-images/
 ---
-**Diagram**är visuellt tilltalande och gör det enkelt för användare att se jämförelser, mönster och trender i data. I stället för att behöva analysera flera kolumner med kalkylbladsnummer kan du till exempel se om försäljningen sjunker eller stiger under kvartalsperioder eller hur den faktiska försäljningen jämförs med den beräknade försäljningen. Ibland måste du presentera diagrammet i dina applikationer eller webbsidor. Du kan behöva infoga den i ett Word-dokument, en PDF-fil, en Power Point-presentation eller i något annat scenario. Du vill helt enkelt att diagrammet ska renderas som en bild, så att du enkelt kan klistra in det i dina applikationer. En bild är värt besväret. Under arbetets gång måste man ofta presentera statistisk och grafisk information på ett lättförståeligt och lättskött sätt. Du kan prova Office Automation men Office Automation har sina egna nackdelar. Det finns flera orsaker och frågor inblandade: T.ex. Säkerhet, Stabilitet, Skalbarhet/Hastighet, Pris, Funktioner etc. Kort sagt, det finns många anledningar, där den främsta är att Microsoft själva starkt rekommenderar Office-automation från mjukvarulösningar: Överväganden för Server-side Automation of Office. Det finns ett annat alternativ som du kan använda för att konvertera ett Excel-diagram till en bild med hjälp av**Aspose.Cells**.
+
+**Diagrammen** är visuellt tilltalande och gör det enkelt för användare att se jämförelser, mönster och trender i data. Till exempel, istället för att behöva analysera flera kolumner med arbetsbladsnummer, kan du med en snabb blick se om försäljningen faller eller stiger över kvartalsperioder, eller hur de faktiska försäljningarna jämförs med de projicerade försäljningarna. Ibland behöver du presentera diagrammet i dina program eller webbsidor. Du kanske behöver infoga det i ett Word-dokument, en PDF-fil, en PowerPoint-presentation eller i något annat scenario. Helt enkelt vill du att diagrammet ska rendering som en bild, så att du enkelt kan klistra in det i dina applikationer. En bild är värd tusen ord. Ofta måste man presentera statistisk och grafisk information på ett enkelt och lättförståeligt sätt. Du kanske försöker med Office Automation men Office Automation har sina egna nackdelar. Det finns flera skäl och problem involverade: t.ex. säkerhet, stabilitet, skalbarhet/hastighet, pris, funktioner etc. Kort sagt, det finns många skäl, med det främsta att Microsoft själva starkt avråder från Office Automation från programvarulösningar: Överväganden för serverbaserad automation av Office. Det finns ett annat alternativ som du kan använda för att konvertera ett Excel-diagram till en bild med hjälp av **Aspose.Cells**.
 ## **Konvertera diagram till EMF**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -65,7 +66,7 @@ chart.ToImage(MyDir + "Chart to EMF Image.Emf", System.Drawing.Imaging.ImageForm
 
 {{< /highlight >}}
 ## **Konvertera diagram till BMP**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -123,7 +124,7 @@ chart.ToImage(MyDir + "Chart to BMP Image.Bmp", System.Drawing.Imaging.ImageForm
 
 {{< /highlight >}}
 ## **Konvertera diagram till JPEG**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -182,7 +183,7 @@ chart.ToImage(MyDir + "Chart to JPEG Image.Jpeg", System.Drawing.Imaging.ImageFo
 
 {{< /highlight >}}
 ## **Konvertera diagram till PNG**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -241,7 +242,7 @@ chart.ToImage(MyDir + "Chart to PNG Image.Png", System.Drawing.Imaging.ImageForm
 
 {{< /highlight >}}
 ## **Konvertera diagram till TIFF**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -299,8 +300,8 @@ chart.ToImage(MyDir + "Chart to Tiff Image.Tiff", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Konvertera diagram till MultiPage TIFF**
-{{< highlight "csharp" >}}
+## **Konvertera diagram till flersidigt TIFF**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -371,6 +372,6 @@ options.OnePagePerSheet = true;
 chart.ToImage(MyDir + "Chart to Tiff Image.tiff", options);
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Converting%20Chart%20to%20Image%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Converting%20Chart%20to%20Image%20%28Aspose.Cells%29.zip)

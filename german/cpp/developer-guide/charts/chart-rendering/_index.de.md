@@ -4,11 +4,12 @@ type: docs
 weight: 30
 url: /de/cpp/chart-rendering/
 ---
-##  **Diagramme erstellen**
 
-Aspose.Cells APIs unterstützen die Erstellung einer Vielzahl von Excel-Diagrammen, wie im Thema beschrieben[Erstellen und Anpassen von Excel-Diagrammen](/cells/de/cpp/creating-and-customizing-charts/). Um die Verwendung von Aspose.Cells-APIs zum Rendern der Diagramme im Bild- und PDF-Format zu demonstrieren, erstellen wir ein Diagramm vom Typ „Säule“ gemäß dem folgenden Snippet.
+## **Erstellen von Diagrammen**
 
-{{< highlight "cpp" >}}
+Aspose.Cells-APIs unterstützen die Erstellung verschiedener Excel-Diagramme, wie unter dem Thema [Erstellen & Anpassen von Excel-Diagrammen](/cells/de/cpp/creating-and-customizing-charts/) detailliert beschrieben. Um die Verwendung der Aspose.Cells-APIs zur Darstellung der Diagramme in Bild- und PDF-Format zu demonstrieren, erstellen wir ein Diagramm vom Typ Säule gemäß folgendem Codeausschnitt.
+
+{{< highlight cpp >}}
 
 Aspose::Cells::Startup();
 
@@ -52,15 +53,15 @@ Aspose::Cells::Cleanup();
 
 {{< /highlight >}}
 
-##  **Rendering-Diagramme**
+## **Diagramme darstellen**
 
-Aspose.Cells APIs unterstützen die Konvertierung von Excel-Diagrammen in Bilder und PDF Formate, ohne dass zusätzliche Tools oder Anwendungen erforderlich sind. Um die Rendering-Unterstützung bereitzustellen, hat die Chart-Klasse ToImage- und ToPdf-Methoden mit einer Vielzahl von Überladungen bereitgestellt, um den Anwendungsanforderungen optimal gerecht zu werden.
+Aspose.Cells-APIs unterstützen die Umwandlung der Excel-Diagramme in Bilder und PDF-Formate, ohne zusätzliche Tools oder Anwendungen zu benötigen. Um die Darstellung zu ermöglichen, hat die Klasse Chart die Methoden ToImage und ToPdf mit einer Vielzahl von Überladungen zur bestmöglichen Anpassung an die Anwendungsanforderungen bereitgestellt.
 
-###  **Rendern von Diagrammen in Bilder**
+### **Grafiken in Bilder umwandeln**
 
-Die Chart.toImage-Methode verfügt über eine Vielzahl von Überladungen, um sowohl einfaches als auch erweitertes Rendering zu unterstützen. Wenn die Anwendungsanforderung darin besteht, das Diagramm in seinen Standardabmessungen darzustellen, empfehlen wir Ihnen, die Chart.toImage-Methode wie folgt zu verwenden.
+Die Methode Chart.toImage bietet eine Vielzahl von Überladungen zur Unterstützung sowohl einfacher als auch erweiterter Darstellungen. Wenn die Anwendungsanforderung darin besteht, das Diagramm in seinen Standardabmessungen anzuzeigen, empfehlen wir die Verwendung der Methode Chart.toImage wie folgt.
 
-{{< highlight "cpp" >}}
+{{< highlight cpp >}}
 
 // Path of output image file
 U16String outputChartImage = outDir + u"out1image.png";
@@ -70,11 +71,11 @@ chart.ToImage(outputChartImage, ImageType::Png);
 
 {{< /highlight >}}
 
-###  **Rendering-Diagramm bis PDF**
+### **Diagramm in PDF umwandeln**
 
-Um das Diagramm im PDF-Format zu rendern, haben die Aspose.Cells-APIs die Chart.ToPdf-Methode mit der Möglichkeit bereitgestellt, das resultierende PDF im Datenträgerpfad oder Stream zu speichern.
+Um das Diagramm im PDF-Format darzustellen, haben die Aspose.Cells-APIs die Methode Chart.ToPdf mit der Möglichkeit bereitgestellt, das entstandene PDF auf einem Datenträgerpfad oder Stream zu speichern.
 
-{{< highlight "cpp" >}}
+{{< highlight cpp >}}
 
 // Path of output pdf file
 U16String outputPdfFile = outDir + u"out1pdf.pdf";
@@ -84,96 +85,96 @@ chart.ToPdf(outputPdfFile);
 
 {{< /highlight >}}
 
-##  **Unterstützte Diagrammtypen für das Rendering**
+## **Unterstützte Diagrammtypen für die Darstellung**
 
-Es gibt einige Diagrammtypen, deren Darstellung derzeit nicht unterstützt wird. Solche Diagrammtypen enthalten**N** in der Kategorie **Unterstützt**Spalte der folgenden Tabelle.
+Es gibt einige Diagrammtypen, die derzeit nicht für die Darstellung unterstützt werden. Solche Diagrammtypen enthalten in der Spalte **Unterstützt** in der untenstehenden Tabelle ein **N**.
 
-|**Diagramm Typ**|**Untertyp des Diagramms**|**Unterstützt**|
+|**Diagrammtyp**|**Diagramm-Subtyp**|**Unterstützt**|
 | :- | :- | :- |
-|**Spalte**|Spalte|*J**|
-| |ColumnStacked|*J**|
-| |Column100PercentStacked|*J**|
-| |Column3DClustered|*J**|
-| |Column3DStacked|*J**|
-| |Column3D100PercentStacked|*J**|
-| |Column3D|*J**|
-|**Bar**|Bar|*J**|
-| |BarStacked|*J**|
-| |Bar100PercentStacked|*J**|
-| |Bar3DClustered|*J**|
-| |Bar3DStacked|*J**|
-| |Bar3D100PercentStacked|*J**|
-|**Linie**|Linie|*J**|
-| |LineStacked|*J**|
-| |Line100PercentStacked|*J**|
-| |LineWithDataMarkers|*J**|
-| |LineStackedWithDataMarkers|*J**|
-| |Line100PercentStackedWithDataMarkers|*J**|
-| |Line3D|*J**|
-|**Kuchen**|Kuchen|*J**|
-| |Pie3D|*J**|
-| |PiePie|*J**|
-| |PieExploded|*J**|
-| |Pie3DEExploded|*J**|
-| |PieBar|*J**|
-|**Streuen**|Streuen|*J**|
-| |ScatterConnectedByCurvesWithDataMarker|*J**|
-| |ScatterConnectedByCurvesWithoutDataMarker|*J**|
-| |ScatterConnectedByLinesWithDataMarker|*J**|
-| |ScatterConnectedByLinesWithoutDataMarker|*J**|
-|**Bereich**|Bereich|*J**|
-| |BereichGestapelt|*J**|
-| |Fläche100PercentStacked|*J**|
-| |Area3D|*J**|
-| |Area3DStacked|*J**|
-| |Area3D100PercentStacked|*J**|
-|**Krapfen**|Krapfen|*J**|
-| |DonutExplodiert|*J**|
-|**Radar**|Radar|*J**|
-| |RadarWithDataMarkers|*J**|
-| |Radargefüllt|*J**|
-|**Oberfläche**|Surface3D|N|
-| |OberflächeWireframe3D|N|
-| |Oberflächenkontur|N|
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
 | |SurfaceContourWireframe|N|
-|**Blase**|Blase|*J**|
+|**Bubble**|Bubble|**Y**|
 | |Bubble3D|N|
-|Aktie|StockHighLowClose|*J**|
-| |StockOpenHighLowClose|*J**|
-| |StockVolumeHighLowClose|*J**|
-| |StockVolumeOpenHighLowClose|*J**|
-|**Zylinder**|Zylinder|*J**|
-| |Zylindergestapelt|*J**|
-| |Zylinder100PercentStacked|*J**|
-| |Zylindrischer Balken|*J**|
-| |CylindricalBarStacked|*J**|
-| |CylindricalBar100PercentStacked|*J**|
-| |Zylindrische Spalte3D|*J**|
-|**Kegel**|Kegel|*J**|
-| |Kegelgestapelt|*J**|
-| |Cone100PercentStacked|*J**|
-| |ConicalBar|*J**|
-| |ConicalBarStacked|*J**|
-| |ConicalBar100PercentStacked|*J**|
-| |ConicalColumn3D|*J**|
-|**Pyramide**|Pyramide|*J**|
-| |PyramidStacked|*J**|
-| |Pyramid100PercentStacked|*J**|
-| |PyramidBar|*J**|
-| |PyramidBarStacked|*J**|
-| |PyramidBar100PercentStacked|*J**|
-| |PyramidColumn3D|*J**|
+|Stock|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
 |**BoxWhisker**|BoxWhisker|Y|
-|**Trichter**|Trichter|*J**|
-|**ParetoLinie**|ParetoLinie|*J**|
-|**Sonnendurchbruch**|Sonnendurchbruch|*J**|
-|**Baumkarte**|Baumkarte|*J**|
-|**Wasserfall**|Wasserfall|*J**|
-|**Histogramm**|Histogramm|Y|
-|**Karte**|Karte|*N**|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-Wenn Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF zu rendern, erhalten Sie möglicherweise Bilder der Größe 0 oder leere PDF.
+Wenn Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF darzustellen, erhalten Sie möglicherweise Bilder mit der Größe 0 oder leere PDFs.
 
 {{% /alert %}}

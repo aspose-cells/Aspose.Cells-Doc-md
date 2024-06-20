@@ -1,34 +1,35 @@
-﻿---
-title: Raggruppamento dati in Aspose.Cells
+---
+title: Raggruppamento dei dati in Aspose.Cells
 type: docs
 weight: 10
 url: /it/net/grouping-data-in-aspose-cells/
 ---
-In alcuni report di Excel potrebbe essere necessario suddividere i dati in gruppi per facilitarne la lettura e l'analisi. Uno degli scopi principali per suddividere i dati in gruppi è eseguire calcoli (eseguire operazioni di riepilogo) su ogni gruppo di record.
 
-I marcatori intelligenti Aspose.Cells consentono di raggruppare i dati per campo/i e posizionare righe di riepilogo tra set di dati o gruppi di dati. Ad esempio, se si raggruppano i dati per Customers.CustomerID, è possibile aggiungere un record di riepilogo ogni volta che il gruppo cambia.
+In alcuni report Excel potrebbe essere necessario suddividere i dati in gruppi per renderli più facili da leggere e analizzare. Uno dei principali scopi per suddividere i dati in gruppi è eseguire calcoli (eseguire operazioni di riepilogo) su ciascun gruppo di record
 
-frammenti di codice di esempio che seguono mostrano come raggruppare i dati in un report di Excel utilizzando marcatori intelligenti.
+I marcatori intelligenti di Aspose.Cells ti permettono di raggruppare i tuoi dati per campo(i) e inserire righe di riepilogo tra i set di dati o gruppi di dati. Ad esempio, se raggruppi i dati per Customer.CustomerID, puoi aggiungere un record di riepilogo ogni volta che cambia il gruppo.
+
+Gli esempi di codice che seguono mostrano come raggruppare i dati in un report Excel utilizzando i marcatori intelligenti.
 ## **Parametri**
-Di seguito sono riportati alcuni dei parametri degli indicatori intelligenti utilizzati per raggruppare i dati.
-**gruppo:normale/unisci/ripeti**
+Di seguito sono riportati alcuni dei parametri di smart marker utilizzati per raggruppare i dati.
+**group:normal/merge/repeat**
 
 Supportiamo tre tipi di gruppo tra cui puoi scegliere.
 
-- normale - Il valore del gruppo per campo/i non viene ripetuto per i record corrispondenti nella colonna; vengono invece stampati una volta per gruppo di dati.
-- merge - Lo stesso comportamento del parametro normale, tranne per il fatto che unisce le celle nel campo/i raggruppa per ogni gruppo.
-- ripetizione - Il valore del gruppo per campo/i viene ripetuto per i record corrispondenti.
+- normale - Il valore del campo/i di raggruppamento non viene ripetuto per i record corrispondenti nella colonna; invece viene stampato una volta per ogni gruppo di dati.
+- unisci - Lo stesso comportamento del parametro normale, eccetto che unisce le celle nel campo/i di raggruppamento per ogni set di gruppo.
+- ripeti - Il valore del campo/i di raggruppamento viene ripetuto per i record corrispondenti.
 
-Se hai più parametri, separali con una virgola, ma senza spazio: parametroA,parametroB,parametroC
+Se hai più parametri, separali con virgole, ma senza spazi: parametroA, parametroB, parametroC
 ### **Esempio**
-Questo esempio mostra alcuni dei parametri di raggruppamento in azione. Utilizza il database Northwind.mdb Microsoft Access ed estrae i dati dalla tabella denominata "Dettagli ordine". Creiamo un file designer chiamato SmartMarker_Designer.xls in Microsoft Excel e inseriamo marcatori intelligenti in varie celle nei fogli di lavoro. I marcatori vengono elaborati per riempire i fogli di lavoro. I dati vengono inseriti e organizzati da un campo di gruppo.
+Questo esempio mostra alcuni dei parametri di raggruppamento in azione. Utilizza il database Microsoft Access Northwind.mdb ed estrae i dati dalla tabella chiamata "Dettagli ordine". Creiamo un file designer chiamato SmartMarker_Designer.xls in Microsoft Excel e inseriamo smart marker in varie celle nei fogli di lavoro. I marker vengono elaborati per riempire i fogli di lavoro. I dati sono collocati e organizzati da un campo di raggruppamento.
 
-Il file designer ha due fogli di lavoro. Nel primo inseriamo marcatori intelligenti con parametri di raggruppamento come mostrato nello screenshot qui sotto. Vengono posizionati tre marcatori intelligenti (con parametri di raggruppamento):
-&=Dettagli ordine.ID ordine(gruppo:unione,salta:1),
-&=Dettagli ordine.Quantità(subtotale9:Dettagli ordine.ID ordine) e
-&=Order Details.UnitPrice(subtotal9:Order Details.OrderID) vanno rispettivamente in A5, B5 e C5.
+Il file designer ha due fogli di lavoro. Nel primo mettiamo smart marker con parametri di raggruppamento come mostrato nello screenshot qui sotto. Sono collocati tre smart marker (con parametri di raggruppamento):
+&=Order Details.OrderID(group:merge,skip:1),
+&=Dettagli dell'ordine.Quantità(subtotale9:Dettagli dell'ordine.IDOrdine), e
+&= I dettagli dell' ordine. Prezzo unitario (subtotal9: ID ordine) vanno rispettivamente in A5, B5 e C5.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a connection object, specify the provider info and set the data source.
 

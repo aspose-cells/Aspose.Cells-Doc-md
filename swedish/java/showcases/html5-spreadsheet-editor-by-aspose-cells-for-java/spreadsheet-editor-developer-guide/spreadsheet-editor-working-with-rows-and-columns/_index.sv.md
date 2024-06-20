@@ -1,44 +1,45 @@
-﻿---
-title: Kalkylarksredigerare - Arbeta med rader och kolumner
+---
+title: Kalkyleringsredigerare  Arbeta med rader och kolumner
 type: docs
 weight: 30
 url: /sv/java/spreadsheet-editor-working-with-rows-and-columns/
 ---
-**Innehållsförteckning**
+
+Innehållsförteckning
 
 - [Lägg till en rad](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
- - WorksheetView.addRowAbove
- - WorksheetView.addRowBelow
+  - WorksheetView.addRowAbove
+  - WorksheetView.addRowBelow
 - [Lägg till en kolumn](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
- - WorksheetView.addColumnBefore
- - WorksheetView.addColumnAfter
+  - WorksheetView.addColumnBefore
+  - WorksheetView.addColumnAfter
 - [Ta bort en rad](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
- - WorksheetView.deleteRow
+  - WorksheetView.deleteRow
 - [Ta bort en kolumn](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
- - WorksheetView.deleteColumn
+  - WorksheetView.deleteColumn
 - [Kolumnbredd och radhöjd](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
- - WorksheetView.setCurrentRowHeight
- - WorksheetView.setCurrentColumnWidth
-- [Sätt in ett Cell](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
- - WorksheetView.addCellShiftRight
- - WorksheetView.addCellShiftDown
+  - WorksheetView.setCurrentRowHeight
+  - WorksheetView.setCurrentColumnWidth
+- [Infoga en cell](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
+  - WorksheetView.addCellShiftRight
+  - WorksheetView.addCellShiftDown
 ### **Lägg till en rad**
-Så här lägger du till en ny rad:
+För att lägga till en ny rad:
 
 1. Klicka på en cell där du vill lägga till en rad.
-1.  Byta till**Fliken Format**.
-1.  Klick**Lägg till rad ovan** för att lägga till en rad ovanför den markerade cellen.
-1.  Klick**Lägg till rad nedan** för att lägga till en rad under den markerade cellen.
+1. Byt till **Formatflik**.
+1. Klicka på **Lägg till rad ovanför** för att lägga till en rad ovanför den markerade cellen.
+1. Klicka på **Lägg till rad nedanför** för att lägga till en rad under den markerade cellen.
 
-Redaktören lägger till en ny rad på den valda platsen.
+Redigeraren kommer att lägga till en ny rad på den markerade platsen.
 
 ![todo:image_alt_text](jjsornm.png)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- De**Lägg till rad ovan** och**Lägg till rad nedan** hanteras av JSF backend bean**Arbetsbladsvy**. Källkoden för respektive metoder är följande:
+**Lägg till rad ovanför** och **Lägg till rad nedanför** hanteras av JSF backend bean **WorksheetView**. Källkoden för respektive metod är följande:
 #### **WorksheetView.addRowAbove**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowAbove() {
 
@@ -63,7 +64,7 @@ Redaktören lägger till en ny rad på den valda platsen.
 {{< /highlight >}}
 
 #### **WorksheetView.addRowBelow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowBelow() {
 
@@ -97,22 +98,22 @@ Redaktören lägger till en ny rad på den valda platsen.
 
 {{< /highlight >}}
 ### **Lägg till en kolumn**
-Så här lägger du till en ny kolumn:
+För att lägga till en ny kolumn:
 
 1. Klicka på en cell där du vill lägga till en kolumn.
-1.  Byta till**Fliken Format**.
-1.  Klick**Lägg till kolumn före**för att lägga till en kolumn före den markerade cellen.
-1.  Klick**Lägg till kolumn efter** för att lägga till en kolumn efter den markerade cellen.
+1. Byt till **Formatflik**.
+1. Klicka på **Lägg till kolumn före** för att lägga till en kolumn före den markerade cellen.
+1. Klicka på **Lägg till kolumn efter** för att lägga till en kolumn efter den markerade cellen.
 
-Redaktören lägger till en ny kolumn på den valda platsen.
+Redigeraren kommer att lägga till en ny kolumn på den markerade platsen.
 
 ![todo:image_alt_text](jjsornm.png)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- De**Lägg till kolumn före** och**Lägg till kolumn efter** hanteras av JSF backend bean**Arbetsbladsvy**. Källkoden för respektive metoder är följande:
+**Lägg till kolumn före** and **Lägg till kolumn efter** hanteras av JSF backend bean **WorksheetView**. Källkoden för respektive metod är följande:
 #### **WorksheetView.addColumnBefore**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnBefore() {
 
@@ -137,7 +138,7 @@ Redaktören lägger till en ny kolumn på den valda platsen.
 {{< /highlight >}}
 
 #### **WorksheetView.addColumnAfter**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnAfter() {
 
@@ -163,21 +164,21 @@ Redaktören lägger till en ny kolumn på den valda platsen.
 
 {{< /highlight >}}
 ### **Ta bort en rad**
-Så här tar du bort en rad:
+För att ta bort en rad:
 
-1. Klicka på en cell i raden du vill ta bort.
-1.  Byta till**Fliken Format**.
-1.  Klick**Ta bort rad** knapp.
+1. Klicka på en cell i den rad du vill ta bort.
+1. Byt till **Formatflik**.
+1. Klicka på **Ta bort rad** knappen.
 
-Redaktören tar bort raden som innehåller den markerade cellen.
+Editorn kommer att ta bort raden som inkluderar den valda cellen.
 
 ![todo:image_alt_text](jjsornm.png)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- De**Ta bort rad** knappen hanteras av JSF backend bean**Arbetsbladsvy** använder metoden**WorksheetView.deleteRow**:
+Knappen **Delete Row** hanteras av JSF backend bean **WorksheetView** med metoden **WorksheetView.deleteRow**:
 #### **WorksheetView.deleteRow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteRow() {
 
@@ -203,21 +204,21 @@ Redaktören tar bort raden som innehåller den markerade cellen.
 
 {{< /highlight >}}
 ### **Ta bort en kolumn**
-Så här tar du bort en kolumn:
+För att ta bort en kolumn:
 
 1. Klicka på en cell i kolumnen du vill ta bort.
-1.  Byta till**Fliken Format**.
-1.  Klick**Ta bort kolumn** knapp.
+1. Byt till **Formatflik**.
+1. Klicka på **Ta bort kolumn** knappen.
 
-Redaktören tar bort kolumnen som innehåller den markerade cellen.
+Editorn kommer att ta bort kolumnen som inkluderar den valda cellen.
 
 ![todo:image_alt_text](jjsornm.png)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- De**Ta bort kolumn** knappen hanteras av JSF backend bean**Arbetsbladsvy** använder metoden**WorksheetView.deleteColumn**:
+Knappen **Delete Column** hanteras av JSF backend bean **WorksheetView** med metoden **WorksheetView.deleteColumn**:
 #### **WorksheetView.deleteColumn**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteColumn() {
 
@@ -243,33 +244,33 @@ Redaktören tar bort kolumnen som innehåller den markerade cellen.
 
 {{< /highlight >}}
 ### **Kolumnbredd och radhöjd**
-Så här ändrar du bredden på en kolumn:
+För att ändra bredd på en kolumn:
 
 1. Klicka på valfri cell i kolumnen.
-1.  Byta till**Fliken Format**.
-1.  Klick**Kolumnbredd** knappen för att öppna**Kolumnbredd** dialog.
-1. Ange ett nytt värde i dialogrutan.
-1.  Klick**Stänga**.
+1. Byt till **Formatflik**.
+1. Klicka på **Kolumnbredd** knappen för att öppna dialogrutan **Kolumnbredd**.
+1. Mata in ett nytt värde i dialogrutan.
+1. Klicka på **Stäng**.
 
-Redaktören ändrar spaltens bredd.
+Editorn kommer att ändra bredden på kolumnen.
 
-**Hur ändrar man radhöjd?**
+**Hur ändrar man radhöjden?**
 
-Så här ändrar du höjden på en rad:
+För att ändra höjden på en rad:
 
-1. Klicka på valfri cell inuti raden.
-1.  Byta till**Fliken Format**.
-1.  Klick**Radhöjd** knappen för att öppna**Radhöjd** dialog.
-1. Ange ett nytt värde i dialogrutan.
-1.  Klick**Stänga**.
+1. Klicka på valfri cell i raden.
+1. Byt till **Formatflik**.
+1. Klicka på **Radhöjd** knappen för att öppna dialogrutan **Radhöjd**.
+1. Mata in ett nytt värde i dialogrutan.
+1. Klicka på **Stäng**.
 
-Redaktören kommer att ändra höjden på raden.
+Redaktören kommer att ändra radens höjd.
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- När användaren skickar in värdet för bredd och höjd, hanteras dessa värden på serversidan av**setCurrentRowHeight** och**setCurrentColumnWidth** metoder för JSF backend bean**Arbetsbladsvy**.
+När användaren skickar värdet på bredd och höjd, hanteras dessa värden på serverns sida av metoderna **setCurrentRowHeight** och **setCurrentColumnWidth** av JSF backend bean **WorksheetView**.
 #### **WorksheetView.setCurrentRowHeight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentRowHeight(int height) {
 
@@ -290,7 +291,7 @@ Redaktören kommer att ändra höjden på raden.
 {{< /highlight >}}
 
 #### **WorksheetView.setCurrentColumnWidth**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentColumnWidth(int width) {
 
@@ -309,21 +310,21 @@ Redaktören kommer att ändra höjden på raden.
     }
 
 {{< /highlight >}}
-### **Sätt in ett Cell**
-Så här lägger du till en ny cell:
+### **Infoga en cell**
+För att lägga till en ny cell:
 
-1. Klicka på en cell där du vill ny.
-1.  Byta till**Infoga flik**.
-1.  Klick**Cell** knapp.
-1.  Välja**Skift Cells Höger** eller**Skift Cells Ner** knapp.
+1. Klicka på en cell där du vill ha ny.
+1. Byt till fliken **Infoga**.
+1. Klicka på knappen **Cell**.
+1. Välj knappen **Förskjut celler höger** eller **Förskjut celler ned**.
 
-Redaktören lägger till en ny cell på den valda platsen. De intilliggande cellerna kommer automatiskt att flyttas antingen horisontellt eller vertikalt för att skapa utrymme för den nya.
+Redaktören kommer att lägga till en ny cell på den valda platsen. De intilliggande cellerna kommer att automatiskt förflyttas antingen horisontellt eller vertikalt för att skapa plats för den nya.
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- De**Skift Cells Höger** och**Skift Cells Ner** hanteras av JSF backend bean**Arbetsbladsvy**. Källkoden för respektive metoder är följande:
+Förskjutning av celler höger och Förskjutning av celler ned hanteras av JSF backend bean **WorksheetView**. Källkoden för de respektive metoderna är följande:
 #### **WorksheetView.addCellShiftRight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftRight() {
 
@@ -348,7 +349,7 @@ Redaktören lägger till en ny cell på den valda platsen. De intilliggande cell
 {{< /highlight >}}
 
 #### **WorksheetView.addCellShiftDown**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftDown() {
 

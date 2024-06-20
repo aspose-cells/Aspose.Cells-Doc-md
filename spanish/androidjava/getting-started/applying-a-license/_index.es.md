@@ -1,32 +1,33 @@
-﻿---
+---
 title: Aplicar una licencia
 type: docs
 weight: 40
 url: /es/java/applying-a-license/
 ---
+
 {{% alert color="primary" %}}
 
- Una vez que esté satisfecho con su evaluación de Aspose.Cells,[comprar una licencia](https://purchase.aspose.com/buy) en el sitio web Aspose. Familiarícese con los diferentes[tipos de licencia](https://purchase.aspose.com/policies/license-types/) Ofrecido. Si tiene alguna pregunta, no dude en[póngase en contacto con el equipo de ventas Aspose](https://about.aspose.com/contact).
+Una vez que esté satisfecho con su evaluación de Aspose.Cells, [adquiera una licencia](https://purchase.aspose.com/buy) en el sitio web de Aspose. Familiarícese con los diferentes [tipos de licencias](https://purchase.aspose.com/policies/license-types/) que se ofrecen. Si tiene alguna pregunta, no dude en [contactar al equipo de ventas de Aspose](https://about.aspose.com/contact).
 
-Cada licencia Aspose incluye una suscripción de un año para actualizaciones gratuitas a cualquier nueva versión o corrección que surja durante este tiempo. El soporte técnico es gratuito e ilimitado y se proporciona tanto a usuarios con licencia como a usuarios de evaluación.
+Cada licencia de Aspose lleva una suscripción de un año para actualizaciones gratuitas a cualquier nueva versión o correcciones que salgan durante este tiempo. El soporte técnico es gratuito e ilimitado y se proporciona tanto a usuarios con licencia como de evaluación.
 
-La licencia es un archivo XML de texto sin formato que contiene detalles como el nombre del producto, la cantidad de desarrolladores con licencia, la fecha de vencimiento de la suscripción, etc. El archivo está firmado digitalmente, así que no lo modifique: incluso agregar un salto de línea adicional en el archivo lo invalidará.
+La licencia es un archivo XML de texto plano que contiene detalles como el nombre del producto, el número de desarrolladores con licencia, la fecha de vencimiento de la suscripción, etc. El archivo está firmado digitalmente, así que no modifique el archivo: incluso agregar un salto de línea adicional lo invalidará.
 
-Debe configurar una licencia antes de realizar cualquier operación con documentos. Asegúrese de hacer esto antes de crear un objeto Documento. Solo debe establecer una licencia una vez por aplicación o proceso.
+Debe establecer una licencia antes de realizar cualquier operación con documentos. Asegúrese de hacer esto antes de crear un objeto Document. Solo se requiere establecer una licencia una vez por aplicación o proceso.
 
 {{% /alert %}}
 
 ## **Cargando el archivo de licencia**
 
- En Aspose.Cells for Android via Java, la licencia puede ser[incrustado como un recurso](/cells/es/java/applying-a-license/#applying-a-license-from-an-embedded-resource), o cargado desde una secuencia:
+En Aspose.Cells para Android via Java, la licencia puede ser [incrustada como un recurso](/cells/es/java/applying-a-license/#applying-a-license-from-an-embedded-resource), o cargada desde un flujo:
 
-1.  Coloque el archivo de licencia en cualquier ubicación en**/mnt/tarjeta sd/**.
-1. Cree una secuencia que haga referencia al archivo.
-1. Pase la transmisión (que contiene el archivo de licencia) al método SetLicense.
+1. Coloque el archivo de licencia en cualquier ubicación en **/mnt/sdcard/**.
+1. Cree un flujo que haga referencia al archivo.
+1. Pase el flujo (que contiene el archivo de licencia) al método SetLicense.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  String dataDir = Environment.getExternalStorageDirectory().getPath() + "/";
 
@@ -44,17 +45,17 @@ license.setLicense(fstream);
 
 {{< /highlight >}}
 
-### **Aplicación de una licencia desde un recurso integrado**
+### **Aplicando una licencia desde un recurso incrustado**
 
 Para acceder a la licencia como un recurso por nombre desde un archivo de paquete de Android:
 
-1.  Agregue el archivo de licencia como un recurso a su aplicación**res/crudo** carpeta.
- El archivo de licencia debe estar visible en el**res/crudo** carpeta.
-1. Acceda o cargue la licencia desde el recurso con el siguiente ejemplo de código.
+1. Agregue el archivo de licencia como un recurso a la carpeta **res/raw** de su aplicación.
+   El archivo de licencia debe ser visible en la carpeta **res/raw**.
+1. Acceda/cargue la licencia desde el recurso con el siguiente ejemplo de código.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  License license = new License();
 

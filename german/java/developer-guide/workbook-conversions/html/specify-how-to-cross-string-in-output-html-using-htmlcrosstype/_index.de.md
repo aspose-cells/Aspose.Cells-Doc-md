@@ -1,28 +1,29 @@
-﻿---
-title: Geben Sie an, wie die Zeichenfolge in Ausgabe HTML mit HtmlCrossType gekreuzt werden soll
+---
+title: Geben Sie an, wie Zeichenkette in der Ausgabe HTML mit HtmlCrossType geschnitten werden soll
 type: docs
 weight: 140
 url: /de/java/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn die Zelle Text oder eine Zeichenfolge enthält, aber größer als die Breite der Zelle ist, läuft die Zeichenfolge über, wenn die nächste Zelle in der nächsten Spalte null oder leer ist. Wenn Sie Ihre Excel-Datei in HTML speichern, können Sie diesen Überlauf kontrollieren, indem Sie den Kreuztyp mit angeben[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)Aufzählung. Es hat die folgenden Werte
+## **Mögliche Verwendungsszenarien**
 
-- [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): Anzeige wie MS Excel, die von der nächsten Zelle abhängt. Wenn die nächste Zelle null ist, kreuzt sich die Zeichenfolge oder sie wird abgeschnitten.
+Wenn die Zelle Text oder eine Zeichenkette enthält, die jedoch breiter ist als die Breite der Zelle, dann wird die Zeichenfolge überlaufen, wenn die nächste Zelle in der nächsten Spalte leer oder null ist. Beim Speichern Ihrer Excel-Datei in HTML können Sie diese Überlaufkontrolle angeben, indem Sie den Kreuztyp mit der [**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)-Aufzählung angeben. Es hat die folgenden Werte
 
-- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT): Zeigen Sie die Zeichenfolge wie MS Excel beim Exportieren von HTML an.
+- [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): Anzeige wie in MS Excel, abhängig von der nächsten Zelle. Wenn die nächste Zelle null ist, wird die Zeichenkette überquert oder es wird abgeschnitten.
 
-- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS) : Zeigen Sie HTML Querzeichenfolge an, die Leistung beim Erstellen großer HTML-Dateien ist mehr als zehnmal schneller als beim Festlegen des Werts auf[**URSPRÜNGLICH**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) oder[**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL).
+- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT): Anzeige der Zeichenfolge wie bei MS Excel-Exportierung in HTML.
 
-- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): Zeigen Sie HTML Querzeichenfolge an und blenden Sie die rechte Zeichenfolge aus, wenn sich die Texte überschneiden.
+- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): Zeigen Sie HTML-Cross-String an, die Leistung bei der Erstellung großer HTML-Dateien ist mehr als zehnmal schneller als beim Wert [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) oder [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL) einstellen.
 
-- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL)Die Zeichenfolge wird nur innerhalb der Breite der Zelle angezeigt.
+- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): Zeigen Sie HTML-Cross-String an und verbergen Sie den rechten String, wenn sich die Texte überlappen.
 
-## **Geben Sie an, wie die Zeichenfolge in Ausgabe HTML mit HtmlCrossType gekreuzt werden soll**
+- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL): Zeigen Sie nur den String innerhalb der Breite der Zelle an.
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](51740747.xlsx)und speichert es im Format HTML, indem Sie different angeben[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType). Bitte laden Sie die herunter[Ausgang HTML](51740745.zip) Dateien, die mit diesem Code generiert wurden. Die Beispiel-Excel-Datei enthält das rot umrandete Bild, wie in diesem Screenshot gezeigt, der die Wirkung von zeigt[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)Werte am Ausgang HTML.
+## **Geben Sie an, wie die Zeichenfolge im Ausgabe-HTML mit HtmlCrossType gekreuzt wird.**
 
-![todo: Bild_alt_Text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](51740747.xlsx) und speichert sie im HTML-Format, indem verschiedene [**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType) angegeben werden. Laden Sie bitte die generierten [Ausgabe-HTML-Dateien](51740745.zip) mit diesem Code herunter. Die Beispiel-Excel-Datei enthält das mit roter Farbe umrandete Bild, wie in diesem Screenshot gezeigt, der die Wirkung der [**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)-Werte auf das Ausgabe-HTML zeigt.
+
+![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 
 ## **Beispielcode**
 

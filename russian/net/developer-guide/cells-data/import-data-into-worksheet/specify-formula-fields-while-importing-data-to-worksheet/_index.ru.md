@@ -1,21 +1,22 @@
 ---
-title: Укажите поля формулы при импорте данных на лист
+title: Указание формульных полей при импорте данных в рабочий лист
 type: docs
 weight: 300
 url: /ru/net/specify-formula-fields-while-importing-data-to-worksheet/
-description: Узнайте, как указать поля формул при импорте данных в лист с помощью Aspose.Cells for .NET API.
-keywords: Specify formula fields while importing data to Worksheet, Set formula fields when adding data to Worksheet
+description: Узнайте, как указать формульные поля при импорте данных в рабочий лист через Aspose.Cells for .NET API.
+keywords: Укажите формульные поля при импорте данных в рабочий лист, Установите формульные поля при добавлении данных в рабочий лист
 ---
-##  **Возможные сценарии использования**
 
-Вы можете указать поля формулы при импорте данных на лист с помощью[**ImportTableOptions.IsFormulas**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/isformulas) . Это свойство принимает логический массив, значение которого**истинный**означает, что поле является полем формулы. Например, если третье поле является полем формулы, то третье значение в массиве будет *true**.
+## **Возможные сценарии использования**
 
-##  **Укажите поля формулы при импорте данных на лист**
+Вы можете указать формульные поля при импорте данных в свой рабочий лист, используя [**ImportTableOptions.IsFormulas**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/isformulas). Это свойство принимает булевый массив, где значение **True** означает, что поле является формульным. Например, если третье поле является формульным полем, то третье значение в массиве будет **True**.
 
- См. следующий пример кода, который объясняет, как указать поле формулы при импорте данных на лист. Пожалуйста, ознакомьтесь с[выходной файл Excel](61767838.xlsx)сгенерированный кодом, и снимок экрана, показывающий влияние кода на выходной файл Excel.
+## **Указание формульных полей при импорте данных в рабочий лист**
 
-![задача: image_alt_text](specify-formula-fields-while-importing-data-to-worksheet_1.png)
+Пожалуйста, ознакомьтесь с последующим образцом кода, который объясняет, как указать формульное поле при импорте данных в рабочий лист. Пожалуйста, ознакомьтесь с [выходным файлом Excel](61767838.xlsx), сгенерированным кодом, и скриншотом, показывающим эффект кода на выходной файл Excel.
 
-##  **Образец кода**
+![todo:image_alt_text](specify-formula-fields-while-importing-data-to-worksheet_1.png)
+
+## **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.cs" >}}

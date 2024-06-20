@@ -1,24 +1,25 @@
 ---
-title: Прочтите значения ячеек GridWeb на стороне клиента.
+title: Чтение значений ячеек GridWeb на стороне клиента
 type: docs
 weight: 10
 url: /ru/java/read-the-values-of-the-gridweb-cells-on-client-side/
 ---
-##  **Возможные сценарии использования**
-Вы можете прочитать значения ячеек GridWeb в скрипте на стороне клиента, используя метод Gridwebinstance.getCellsArray(). Как только вы его вызовете, он вернет массив всех ячеек активного листа. Затем вы можете использовать следующие методы для получения значения и другой информации из ячеек.
 
-- Gridwebinstance.getCellName()
-- Gridwebinstance.getCellValueByCell()
-- Gridwebinstance.getCellRow()
-- Gridwebinstance.getCellColumn()
-##  **Прочтите значения ячеек GridWeb на стороне клиента.**
-Следующий пример кода извлекает все ячейки, а затем печатает их имя, значение, строку и столбец. Вы можете увидеть его консольный вывод внизу этой статьи. На следующем снимке экрана показан вывод примера кода на консоль Google Chrome.
-##  **Скриншот**
-![задача: image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+## **Возможные сценарии использования**
+Вы можете читать значения ячеек GridWeb на стороне клиента с помощью метода gridwebinstance.getCellsArray(). После вызова этого метода он вернет массив всех ячеек на активном листе. Затем можно использовать следующие методы для извлечения значения и другой информации из ячеек.
+
+- gridwebinstance.getCellName()
+- gridwebinstance.getCellValueByCell()
+- gridwebinstance.getCellRow()
+- gridwebinstance.getCellColumn()
+## **Чтение значений ячеек GridWeb на стороне клиента**
+В следующем образце кода извлекаются все ячейки, а затем печатаются их имя, значение, строка и столбец. Вы можете увидеть вывод в консоли внизу этой статьи. На следующем скриншоте показан вывод в консоли образца кода в Google Chrome.
+## **Снимок экрана**
+![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
 
-##  **Образец кода**
-{{< highlight "java" >}}
+## **Образец кода**
+{{< highlight java >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
 
@@ -125,10 +126,10 @@ out.print(gridweb.getHTMLBody());
 </html>
 
 {{< /highlight >}}
-##  **Консольный вывод**
-Это консольный вывод приведенного выше примера кода.
+## **Вывод в консоль**
+Это вывод консоли вышеуказанного образца кода.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0:A1,value is:This ,row:0,col:0
 

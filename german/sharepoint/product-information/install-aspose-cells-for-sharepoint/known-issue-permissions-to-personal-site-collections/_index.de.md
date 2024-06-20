@@ -1,32 +1,33 @@
-﻿---
-title: Bekanntes Problem – Berechtigungen für persönliche Websitesammlungen
+---
+title: Bekanntes Problem  Berechtigungen für persönliche Website Sammlungen
 type: docs
 weight: 40
 url: /de/sharepoint/known-issue-permissions-to-personal-site-collections/
 ---
+
 {{% alert color="primary" %}} 
 
-SharePoint gewährt Portaladministratoren standardmäßig keine vollständigen Berechtigungen zum Verwalten persönlicher Websites. Aus diesem Grund kann die Aktivierung und Deaktivierung einer persönlichen Websitesammlung fehlschlagen, wenn sie von Portaladministratoren durchgeführt wird. Dies umfasst die Aktivierung und Deaktivierung während des Setups.
+SharePoint gewährt standardmäßig keine vollen Berechtigungen zur Verwaltung von persönlichen Websites an Portaladministratoren. Deshalb kann die Aktivierung und Deaktivierung einer persönlichen Website-Sammlung durch Portaladministratoren fehlschlagen. Dies umfasst die Aktivierung und Deaktivierung während der Einrichtung.
 
 {{% /alert %}} 
-### **Erteilen von Berechtigungen für persönliche Websites**
-Wenn dieses Problem während der Installation auftritt, wird eine UnauthorizedAccessException bei Microsoft.SharePoint.SPFeature.Activate() im SharePoint-Ablaufverfolgungsprotokoll protokolliert. Wenn die Deaktivierung im Rahmen der Deinstallation fehlschlägt, wird auf dem letzten Setup-Bildschirm eine UnauthorizedAccessException für die fehlgeschlagene(n) Deaktivierung(en) angezeigt.
+### **Berechtigung für persönliche Websites gewähren**
+Wenn dieses Problem während der Installation auftritt, wird eine UnauthorizedAccessException bei Microsoft.SharePoint.SPFeature.Activate() im SharePoint-Traceprotokoll protokolliert. Wenn die Deaktivierung als Teil der Deinstallation fehlschlägt, wird eine UnauthorizedAccessException auf dem letzten Einrichtungsbildschirm für die fehlgeschlagenen Deaktivierungen angezeigt.
 
-Um dieses Problem zu vermeiden, erteilen Sie Portaladministratoren die Berechtigung zum Verwalten der MySite-Webanwendung:
+Um dieses Problem zu verhindern, gewähren Sie Portaladministratoren die Berechtigung zur Verwaltung der MySite-Webanwendung:
 
-1.  Gehe zu**SharePoint-Zentraladministration**und wählen Sie die aus**Bewerbungsmanagement** Tab.
-1.  Wählen**Richtlinie für Webanwendung** unter dem**Anwendungssicherheit** Gruppe.
-1.  Stellen Sie sicher, dass Sie die richtige Webanwendung für Ihre „Meine Website“ im auswählen**Internetanwendung** Liste rechts.
-1.  Wählen**Benutzer hinzufügen** oben links.
-1.  Wählen**Alle Zonen** standardmäßig auf der**Benutzer hinzufügen** Bildschirm und klicken Sie auf**Nächste**.
-1. Fügen Sie die entsprechenden Benutzer oder Active Directory-Gruppen hinzu, die Sie über Ihre Webanwendung „Meine Website“ steuern möchten.
-1.  Wählen Sie die Kontrollebene aus.
+1. Gehen Sie zu **SharePoint-Centraladministration** und wählen Sie den **Anwendungsverwaltung**-Tab aus.
+1. Wählen Sie **Richtlinie für Webanwendung** in der Gruppe **Anwendungssicherheit** aus.
+1. Stellen Sie sicher, dass Sie die richtige Webanwendung für Ihre „Meine Website“ in der Liste **Webanwendung** rechts auswählen.
+1. Wählen Sie **Benutzer hinzufügen** oben links aus.
+1. Wählen Sie standardmäßig **Alle Zonen** auf dem Bildschirm **Benutzer hinzufügen** aus und klicken Sie auf **Weiter**.
+1. Fügen Sie den entsprechenden Benutzer bzw. die aktive Verzeichnisgruppe hinzu, die die Kontrolle über Ihre „Meine Website“-Webanwendung haben soll.
+1. Wählen Sie das Kontrollniveau aus. 
 
-   **Hinzufügen von Benutzern und Einstellen der Kontrollebene** 
+   **Benutzer hinzufügen und Kontrollniveau einstellen** 
 
-![todo: Bild_alt_Text](known-issue-permissions-to-personal-site-collections_1.png)
-
-
+![todo:image_alt_text](known-issue-permissions-to-personal-site-collections_1.png)
 
 
-1.  Klicken**Fertig**.
+
+
+1. Klicken Sie auf **Fertig stellen**.

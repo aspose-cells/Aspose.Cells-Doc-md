@@ -1,18 +1,19 @@
 ---
-title: Begränsa antalet genererade sidor - Excel till PDF konvertering
+title: Begränsa antalet genererade sidor  Excel till PDF konvertering
 type: docs
 weight: 180
 url: /sv/python-net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
-description: Lär dig hur du begränsar antalet sidor som genereras när du renderar Excel till PDF med Aspose.Cells for Python via .NET API.
-keywords: Python Limit the Number of Pages Generated while Rendering Excel to PDF, Limit the Number of Pages Generated while saving Excel to PDF using Python, Python Set the Number of Pages Generated while converting Excel to PDF, Control the Number of Pages Generated for Excel to PDF in python
+description: Lär dig hur du begränsar antalet sidor som genereras vid rendering av Excel till PDF med Aspose.Cells för Python via .NET API.
+keywords: Python Begränsa antalet sidor som genereras vid rendering av Excel till PDF, Begränsa antalet sidor som genereras vid sparande av Excel till PDF med Python, Python Ange antalet sidor som genereras vid konvertering av Excel till PDF, Kontrollera antalet sidor som genereras för Excel till PDF i Python
 ---
+
 {{% alert color="primary" %}}
 
-Ibland vill du skriva ut ett antal sidor till en utdatafil PDF. Aspose.Cells for Python via .NET har möjlighet att sätta en gräns för hur många sidor som genereras när ett Excel-kalkylblad konverteras till filformatet PDF.
+Ibland vill du skriva ut en rad sidor till en utdata-PDF-fil. Aspose.Cells för Python via .NET har möjlighet att sätta en gräns för hur många sidor som genereras när du konverterar ett Excelfil till PDF-filen.
 
 {{% /alert %}}
 
-##  **Begränsning av antalet genererade sidor**
+## **Begränsning av antalet genererade sidor**
 
 Följande exempel visar hur man renderar en rad sidor (3 och 4) i en Microsoft Excel-fil till PDF.
 
@@ -20,6 +21,6 @@ Följande exempel visar hur man renderar en rad sidor (3 och 4) i en Microsoft E
 
 {{% alert color="primary" %}}
 
- Om kalkylbladet innehåller formler är det bäst att ringa[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) metod precis innan den renderas till PDF. Att göra säkerställer att formelberoende värden beräknas om och att de korrekta värdena återges i utdatafilen.
+Om kalkylarket innehåller formler är det bäst att anropa [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) metoden precis innan det renderas till PDF. Att göra detta säkerställer att formelberoende värden omräknas, och de korrekta värdena renderas i utdatafilen.
 
 {{% /alert %}}

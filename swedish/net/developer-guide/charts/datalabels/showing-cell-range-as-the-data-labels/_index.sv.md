@@ -1,25 +1,26 @@
 ---
-title: Visar Cell intervall som dataetiketter
-description: Lär dig hur du visar ett intervall av celler som dataetiketter i diagram med Aspose.Cells for .NET. Vår guide visar hur du länkar etiketterna till din datakälla och formaterar dem för att ge korrekt och meningsfull information i dina diagram.
-keywords: Aspose.Cells for .NET, charting, data labels, cell range, data source, formatting, accuracy, meaningful information.
+title: Visar cellområdet som datamärken
+description: Lär dig hur du visar ett cellområde som datamärken i diagram med hjälp av Aspose.Cells for .NET. Vår guide kommer att demonstrera hur du länkar märkena till din datakälla och formaterar dem för att tillhandahålla korrekt och meningsfull information i dina diagram.
+keywords: Aspose.Cells for .NET, diagram, datamärken, cellområde, datakälla, formatering, noggrannhet, meningsfull information.
 type: docs
 weight: 130
 url: /sv/net/showing-cell-range-as-the-data-labels/
 ---
+
 {{% alert color="primary" %}}
 
-I Microsoft Excel 2013 kan du visa ett cellintervall för dataetiketter. Aspose.Cells stöder den här funktionen.
+I Microsoft Excel 2013 kan du visa ett cellområde för datamärken. Aspose.Cells stödjer denna funktion.
 
 {{% /alert %}}
 
-##  **Kryssa i rutan för att visa Cell intervall som dataetiketter**
+## **Kryssrutan för att visa cellområde som datamärken**
 
-Så här visar du cellintervallet som dataetiketter i Microsoft Excel:
+Att visa cellområdet som datamärken i Microsoft Excel:
 
-1. Välj seriedataetiketterna och högerklicka för att öppna snabbmenyn.
-1. Välj *Formatera dataetiketter**. Etikettalternativ visas.
-1. Välj eller avmarkera alternativet *Etikett innehåller - värde från Cells**.
+1. Välj seriens datamärken och högerklicka för att öppna snabbmenyn.
+1. Välj **Formatera datamärken**. Etikettalternativ visas.
+1. Välj eller avmarkera alternativet **Etiketten innehåller - Värde från celler**.
 
- Exempelkoden nedan ger åtkomst till en diagramseries dataetiketter och ställer in[**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) egendom till**Sann** för att välja**Etikett innehåller - Värde från Cells** alternativ.
+Exempelkoden nedan använder ett diagramseriedatamärken och ställer in [**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange)-egenskapen till **true** för att välja alternativet **Etikett innehåller - Värde från celler**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ShowCellRangeAsDataLabels-ShowCellRangeAsDataLabels.cs" >}}

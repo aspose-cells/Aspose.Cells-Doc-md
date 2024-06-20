@@ -1,30 +1,33 @@
-﻿---
-title: Leggere i valori delle celle GridWeb sul lato client
+---
+title: Leggere i valori delle celle di GridWeb sul lato client
 type: docs
 weight: 30
-url: /it/net/read-the-values-of-the-gridweb-cells-on-client-side/
+url: /it/net/aspose-cells-gridweb/read-the-values-of-the-gridweb-cells-on-client-side/
+keywords: GridWeb, cella, valore della cella
+description: Questo articolo illustra come ottenere il valore della cella in GridWeb.
 ---
-## **Possibili scenari di utilizzo**
-È possibile leggere i valori delle celle GridWeb sullo script lato client utilizzando il metodo gridwebinstance.getCellsArray(). Una volta, lo chiamerai, restituirà l'array di tutte le celle nel foglio di lavoro attivo. È quindi possibile utilizzare i seguenti metodi per recuperare il valore e altre informazioni delle celle.
+
+## **Possibili Scenari di Utilizzo**
+È possibile leggere i valori delle celle di GridWeb lato client utilizzando il metodo gridwebinstance.getCellsArray(). Una volta chiamato, restituirà l'array di tutte le celle nel foglio di lavoro attivo. È quindi possibile utilizzare i seguenti metodi per recuperare il valore e altre informazioni delle celle.
 
 - gridwebinstance.getCellName()
 - gridwebinstance.getCellValueByCell()
 - gridwebinstance.getCellRow()
 - gridwebinstance.getCellColumn()
-## **Leggere i valori delle celle GridWeb sul lato client**
-Il codice di esempio seguente recupera tutte le celle e ne stampa il nome, il valore, la riga e la colonna. Puoi vedere l'output della sua console in fondo a questo articolo. Lo screenshot seguente mostra l'output della console del codice di esempio su Google Chrome.
-## **Immagine dello schermo**
-![cose da fare:immagine_alt_testo](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
-## **Codice d'esempio**
+## **Leggi i valori delle celle di GridWeb sul lato client**
+Il seguente codice di esempio recupera tutte le celle e stampa il loro nome, valore, riga e colonna. Puoi vedere il suo output sulla console in fondo a questo articolo. La seguente schermata mostra l'output della console del codice di esempio su Google Chrome.
+## **Screenshot**
+![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCellsClientSide.aspx" >}}
 
-Si prega di chiamare la funzione JavaScript ReadGridWebCells() come mostrato nel codice di esempio precedente in questo modo.
+Si prega di chiamare la funzione JavaScript ReadGridWebCells() come mostrato nel codice di esempio sopra.
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCells.aspx" >}}
-## **Uscita console**
-Questo è l'output della console del codice di esempio precedente.
+## **Output della console**
+Questo è l'output console del codice di esempio precedente.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0:A1,value is:0 ,row:0,col:0
 

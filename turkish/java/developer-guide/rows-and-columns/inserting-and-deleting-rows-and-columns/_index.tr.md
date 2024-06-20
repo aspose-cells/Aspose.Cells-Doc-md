@@ -1,71 +1,72 @@
 ---
-title: Satır ve Sütun Ekleme ve Silme
+title: Satırları ve Sütunları Eklemek ve Silmek
 type: docs
 weight: 60
 url: /tr/java/inserting-and-deleting-rows-and-columns/
-description: Aspose.Cells for Java API'leri aracılığıyla Satırları ve Sütunları nasıl ekleyeceğinizi ve sileceğinizi öğrenin.
-keywords: How to Insert and Delete Rows and Columns in Java, Insert Rows and Columns using Java, Java Delete Rows and Columns, Insert Rows or Columns with Java, Delete Rows or Columns via Java.
+description: Aspose.Cells for Java API si aracılığıyla Satır ve Sütun Ekleme ve Silmeyi Öğrenin.
+keywords: Satır ve Sütunları Java da Nasıl Ekleyebilir ve Silebilirsiniz, Java da Satır ve Sütun Ekleme, Java da Satır ve Sütun Silme, Java da Satır veya Sütunları Ekleme, Java da Satır ve Sütunları Silme via Java.
 ---
-##  **giriiş**
-İster sıfırdan yeni bir çalışma sayfası oluşturun ister mevcut bir çalışma sayfası üzerinde çalışın, daha fazla veriyi barındırmak için fazladan satır veya sütun eklememiz gerekebilir. Bunun tersine, çalışma sayfasında belirtilen konumlardaki satırları veya sütunları da silmemiz gerekebilir.
+
+## **Giriş**
+Sıfırdan yeni bir çalışma sayfası oluştururken veya mevcut bir çalışma sayfası üzerinde çalışırken, daha fazla veri eklemek için ekstra satırlar veya sütunlar eklememiz gerekebilir. Tersine, çalışma sayfasının belirli pozisyonlarından satırları veya sütunları silebiliriz.
 
 Bu gereksinimleri karşılamak için Aspose.Cells, aşağıda tartışılan çok basit bir sınıf ve yöntem seti sağlar.
-##  **Satırları/Sütunları Yönetme**
- Aspose.Cells şunları sağlar:[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Microsoft Excel dosyasını temsil eden sınıf.[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) Bu, bir Excel dosyasındaki her çalışma sayfasına erişime izin verir. Bir çalışma sayfası şu şekilde temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf.[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf sağlar[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)çalışma sayfasındaki tüm hücreleri temsil eden koleksiyon.
+## **Satır/Sütun Yönetimi**
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her bir çalışma sayfasına erişime izin veren bir [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) içerir. Bir çalışma sayfası, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıfı, çalışma sayfasındaki tüm hücreleri temsil eden bir [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) koleksiyonu sağlar.
 
-[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)koleksiyon, bir çalışma sayfasındaki satırları ve sütunları yönetmek için çeşitli yöntemler sağlar. Bunlardan bazıları aşağıda tartışılmaktadır.
+[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) koleksiyonu, bir çalışma sayfasındaki satırları ve sütunları yönetmek için birkaç yöntem sağlar. Bunlardan bazıları aşağıda açıklanmıştır.
 
 {{% alert color="primary" %}} 
 
-Satır veya sütunlar eklendiğinde çalışma sayfasındaki içerik aşağı veya sağa kaydırılır, ancak satırlar veya sütunlar kaldırıldığında içerik yukarı veya sola kaydırılır.
+Satırlar veya sütunlar eklenirse, çalışma sayfasındaki içerik aşağı veya sağa kayar, ancak satırlar veya sütunlar kaldırılırsa, içerik yukarı veya sola kayar.
 
 {{% /alert %}} 
-##  **Satır Nasıl Eklenir**
- arayarak herhangi bir konuma satır ekleyin.[satırları ekle](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\) ) yöntemi[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Toplamak.[satırları ekle](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) yöntemi, ilk argüman olarak yeni satırın ekleneceği satırın indeksini, ikinci argüman olarak eklenecek satır sayısını alır.
+## **Bir Satır Nasıl Eklenir**
+[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) yöntemini çağırarak herhangi bir konuma bir satır ekleyin. [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) yöntemi, yeni satırın ekleneceği satırın endeksini ilk argüman olarak alır ve eklenecek satır sayısını ikinci argüman olarak alır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingARow-InsertingARow.java" >}}
-##  **Birden Çok Satır Nasıl Eklenir**
- Çalışma sayfasına birden çok satır eklemek için[satırları ekle](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\) ) yöntemi[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Toplamak.[satırları ekle](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) yöntemi iki parametre alır:
+## **Birkaç Satır Nasıl Eklenir**
+Çalışma sayfasına birden çok satır eklemek için, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) yöntemini çağırın. [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int\)) yöntemi iki parametre alır:
 
-- Satır dizini: Yeni satırların ekleneceği satırın dizini.
-- Satır Sayısı: Eklenmesi gereken toplam satır sayısı.
+- Satır endeksi: Yeni satırların ekleneceği satırın endeksi.
+- Satır sayısı: Silinmesi gereken toplam satır sayısı.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingMultipleRows-InsertingMultipleRows.java" >}}
-##  **Biçimlendirmeyle Satır Nasıl Eklenir**
-Biçimlendirme seçeneklerini içeren bir satır eklemek için[satırları ekle](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)aşırı yük[EkleSeçenekler](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)parametre olarak. Yı kur[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType)mülkiyet[EkleSeçenekler](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)ile sınıf[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)Numaralandırma.[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)Numaralandırmanın aşağıda listelendiği gibi üç üyesi vardır.
+## **Biçimlendirme Seçenekleriyle Bir Satır Nasıl Eklenir**
+Biçimlendirme seçenekleriyle bir satır eklemek için, [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) olarak parametre alan [insertRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)) aşırı yüklemesini kullanın. [InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions) sınıfının [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType) özelliğini [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) Numaralandırmasıyla ayarlayın. [CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType) Numaralandırması aşağıda listelenmiş üç üyeye sahiptir.
 
-- [SAME_AS_ABOVE](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE): Satırı yukarıdaki satırla aynı şekilde biçimlendirir.
-- [SAME_AS_BELOW](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): Satırı aşağıdaki satırla aynı şekilde biçimlendirir.
-- [CLEAR](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): Biçimlendirmeyi temizler.
+- [ŞUNUN AYNI](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE): Satırı yukarıdaki satıra benzer şekilde biçimlendirir.
+- [AŞAĞIDAKİYLE AYNI](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW):  Satırı alttaki satıra benzer şekilde biçimlendirir.
+- [TEMİZLE](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): Biçimlendirmeyi temizler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-InsertingARowWithFormatting-1.java" >}}
-##  **Satır Nasıl Silinir?**
- Herhangi bir konumdaki bir satırı silmek için[Satırları sil](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\) ) yöntemi[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Toplamak.[Satırları sil](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) yöntemi iki parametre alır:
+## **Bir Satır Nasıl Silinir**
+Herhangi bir konumda bir satırı silmek için, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) yöntemini çağırın. [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) yöntemi iki parametre alır:
 
-- Satır dizini: Satırların silineceği satırın dizini.
+- Satır endeksi: Silinecek satırların endeksi.
 - Satır sayısı: Silinmesi gereken toplam satır sayısı.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteARow-DeleteARow.java" >}}
-##  **Birden Çok Satır Nasıl Silinir?**
- Bir çalışma sayfasından birden çok satırı silmek için,[Satırları sil](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\) ) yöntemi[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Toplamak.[Satırları sil](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) yöntemi iki parametre alır:
+## **Birden Fazla Satır Nasıl Silinir**
+Çalışma sayfasından birden çok satırı silmek için, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) yöntemini çağırın. [deleteRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteRows\(int,%20int\)) yöntemi iki parametre alır:
 
-- Satır dizini: Satırların silineceği satırın dizini.
+- Satır endeksi: Silinecek satırların endeksi.
 - Satır sayısı: Silinmesi gereken toplam satır sayısı.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteMultipleRows-DeleteMultipleRows.java" >}}
-##  **Bir veya Birden Çok Sütun Nasıl Eklenir?**
- Geliştiriciler ayrıca çalışma sayfasının herhangi bir yerindeki sütunu çağırarak da sütun ekleyebilirler.[sütunları ekle](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\) ) yöntemi[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)Toplamak.[sütunları ekle](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)) yöntemi iki parametre alır:
+## **Bir veya Birden Fazla Sütunun Nasıl Eklenir**
+Geliştiriciler, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)) yöntemini çağırarak çalışma sayfasına herhangi bir konuma bir sütun da ekleyebilir. [insertColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertColumns\(int,%20int\)) yöntemi iki parametre alır:
 
-- Sütun dizini, sütunun ekleneceği sütunun dizini
-- Sütun sayısı, eklenmesi gereken toplam sütun sayısı
+- Sütun endeksi, sütunun ekleneceği sütunun endeksi
+- Sütun sayısı, eklenmek istenen toplam sütun sayısı
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingAColumn-InsertingAColumn.java" >}}
-##  **Sütun Nasıl Silinir?**
- Çalışma sayfasında herhangi bir yerden bir sütunu silmek için[Sütunları sil](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\) ) yöntemi[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) Toplamak.[Sütunları sil](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)) yöntemi aşağıdaki parametreleri alır:
+## **Bir Sütunu Nasıl Silebilirsiniz**
+Herhangi bir konumda çalışma sayfasından bir sütunu silmek için, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) koleksiyonunun [deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)) yöntemini çağırın. [deleteColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteColumns\(int,%20int,%20boolean\)) yöntemi aşağıdaki parametreleri alır:
 
-- Sütun dizini: Sütunun silineceği sütunun dizini.
+- Sütun endeksi: Sütunun silineceği sütunun endeksi.
 - Sütun sayısı: Silinmesi gereken toplam sütun sayısı.
-- Referansı Güncelle: Diğer çalışma sayfalarındaki referansların güncellenip güncellenmeyeceğini belirten Boolean parametresi.
+- Referans Güncelleme: Başka çalışma sayfalarındaki referansları güncellemek için bir Boolean parametresi.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-DeleteAColumn-DeleteAColumn.java" >}}
 

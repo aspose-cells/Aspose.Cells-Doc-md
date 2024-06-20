@@ -1,21 +1,22 @@
-﻿---
-title: Belgeye Alt Bilgi Ekleme
+---
+title: Belgeye bir alt bilgi ekleme
 type: docs
 weight: 70
 url: /tr/sharepoint/add-footer-to-a-document/
 ---
-Bir Excel dosyasına altbilgi eklemek istiyorsanız, lütfen belgenin Düzenleme Kontrol Bloğunda (ECB) “Aspose.Cells ile Altbilgi Ekle” seçeneğini seçin.
 
-![yapılacaklar:resim_alternatif_metin](add-footer-to-a-document_1.png)
+Eğer bir Excel dosyasına footer eklemek istiyorsanız, lütfen belgenin Düzen Kontrol Bloğu (ECB)'ndaki 'Aspose.Cells ile Footer Ekle' seçeneğini seçin.
 
-Altbilgi ekleme kurulumu sırasında aşağıdaki seçenekler mevcuttur:
+![todo:image_alt_text](add-footer-to-a-document_1.png)
 
-![yapılacaklar:resim_alternatif_metin](add-footer-to-a-document_2.png)
+Düzeltme ayarları sırasında aşağıdaki seçenekler mevcuttur:
+
+![todo:image_alt_text](add-footer-to-a-document_2.png)
 
 **Bölüm**
 
-Altbilgi konumu ekle: Sol Bölüm, Orta Bölüm, Sağ Bölüm.
+Footer konumu ekle: Sol Bölüm, Orta Bölüm, Sağ Bölüm.
 
-**Altbilgi Komut Dosyası**
+**Footer Kodu**
 
-Altbilgi biçimlendirme betiğini temsil eder. Komut dosyası komutları: Komut | Açıklama| &P Geçerli sayfa numarası| &N Sayfa sayısı|&D Geçerli tarih| &T Geçerli saat &A Sayfa adı &F Yolsuz dosya adı &"<FontName>" Yazı tipi adı, örneğin: &"Arial" &"<FontName>, <FontStyle>" Yazı tipi adı ve yazı tipi stili, örneğin: &"Arial,Bold" &<FontSize>Yazı Boyutu. Bu komutun ardından başlıkta yazdırılacak düz bir sayı gelirse, yazı tipi yüksekliğinden bir boşluk karakteri ile ayrılır. &G Resim komut dosyası Örneğin: "&Arial,Bold&8Footer Note".
+It represents Footer formatting script. Script commands: Command | Description| &P Current page number| &N Page count|&D Current date| &T Current time &A Sheet name &F File name without path &"<FontName>" Font name, for example: &"Arial" &"<FontName>, <FontStyle>" Font name and font style, for example: &"Arial,Bold" &<FontSize> Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. &G Image script For example: "&Arial,Bold&8Footer Note".

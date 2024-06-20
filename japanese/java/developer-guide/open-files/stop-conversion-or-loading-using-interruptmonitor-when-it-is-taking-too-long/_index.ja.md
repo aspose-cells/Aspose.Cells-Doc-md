@@ -1,18 +1,19 @@
-﻿---
-title: 時間がかかりすぎる場合は、InterruptMonitor を使用して変換またはロードを停止します
+---
+title: 時間がかかりすぎる場合はInterruptMonitorを使用して変換または読み込みを停止してください
 type: docs
 weight: 100
 url: /ja/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells を使用すると、PDF、HTML などのさまざまな形式へのワークブックの変換を停止できます。[**割り込みモニター**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)時間がかかりすぎる場合はオブジェクト。多くの場合、変換プロセスは CPU とメモリの両方を集中的に使用するため、リソースが限られている場合に停止すると便利な場合がよくあります。使用できます[**割り込みモニター**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)変換を停止するためと、巨大なワークブックのロードを停止するための両方です。使ってください[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor)変換を停止するプロパティと[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor)巨大なワークブックをロードするためのプロパティ。
+## **可能な使用シナリオ**
 
-## **時間がかかりすぎる場合は、InterruptMonitor を使用して変換またはロードを停止します**
+Aspose.Cellsを使用すると、リソースが限られている場合に変換プロセスを中止したり、大きなワークブックの読み込みを中止したりすることができます。変換プロセスはCPUおよびメモリを多く使用し、リソースが限られている場合に中止することは役立ちます。中断するためには[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)オブジェクトを使用し、大きなワークブックの読み込みを停止するためにも[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)を使用することができます。変換を停止する場合は[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor)プロパティ、大きなワークブックの読み込みを中止する場合は[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor)プロパティを使用してください。
 
-次のサンプル コードは、[**割り込みモニター**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)物体。このコードは、非常に大きな Excel ファイルを PDF に変換します。数秒かかります (つまり、*30秒以上*）これらのコード行のために変換する必要があります。
+## **時間がかかりすぎる場合はInterruptMonitorを使用して変換または読み込みを停止してください**
 
-{{< highlight "java" >}}
+以下のサンプルコードでは、[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)オブジェクトの使用方法について説明しています。コードは非常に大きなExcelファイルをPDFに変換します。これはコードの行のために時間がかかります（つまり*30秒以上*）。
+
+{{< highlight java >}}
 
 //Access cell AB1000000 and add some text inside it.
 
@@ -22,9 +23,9 @@ cell.putValue("This is text.");
 
 {{< /highlight >}}
 
-ご覧のとおり**AB1000000**XLSX ファイルのかなり遠いセルです。しかし*WaitForWhileAndThenInterrupt()*メソッドは 10 秒後に変換を中断し、プログラムは終了/終了します。サンプルコードを実行するには、次のコードを使用してください。
+AB1000000はXLSXファイルの相当するセルで、*WaitForWhileAndThenInterrupt()*メソッドは10秒後に変換を中断し、プログラムを終了/終了します。以下のコードを使用して、サンプルコードを実行してください。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 new StopConversionOrLoadingUsingInterruptMonitor().testRun();
 

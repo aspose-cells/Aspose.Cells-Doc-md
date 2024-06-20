@@ -1,15 +1,16 @@
-﻿---
-title: Importerar från DataTable
+---
+title: Importera från DataTable
 type: docs
 weight: 40
 url: /sv/net/importing-from-datatable/
 ---
- Utvecklare kan importera data från en**Datatabell** till sina arbetsblad genom att ringa**ImportDataTable** metoden för samlingen Cells. Det finns många överbelastade versioner av**ImportDataTable** metod men en typisk överbelastning tar följande parametrar:**Datatabell** , representerar**Datatabell** objekt vars innehåll behöver importeras
 
-- **Visas fältnamnet**, anger att om namnen på kolumnerna i DataTable ska importeras till kalkylbladet som en första rad eller inte
-- **Starta Cell** representerar namnet på startcellen (dvs. "A1") varifrån innehållet i datatabellen ska importeras
+Utvecklare kan importera data från en **DataTable** till sina kalkylblad genom att anropa metoden **ImportDataTable** i Cells-samlingen. Det finns många överbelastade versioner av metoden **ImportDataTable** men en typisk överbelastning tar följande parametrar:**DataTable** , representerar **DataTable** objektet vars innehåll behöver importeras
 
-{{< highlight "csharp" >}}
+- **Visas fältnamn**, specificerar om namnen på DataTables kolumner ska importeras till kalkylbladet som en första rad eller inte
+- **Startcell** , representerar namnet på startcellen (dvs. "A1") från vilken datans innehåll ska importeras
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -41,11 +42,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -57,11 +58,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 
@@ -78,6 +79,6 @@ worksheet.Cells.ImportDataTable(dataTable, true, "A1");
 workbook.Save("Import From Data Table.xls");
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Import.to.Worksheet.Aspose.Cells.zip)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)

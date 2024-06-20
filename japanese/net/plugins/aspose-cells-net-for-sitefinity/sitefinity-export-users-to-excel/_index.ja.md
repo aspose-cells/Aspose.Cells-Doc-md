@@ -1,109 +1,110 @@
-﻿---
-title: Sitefinity ユーザーを Excel にエクスポート
+---
+title: Sitefinity Export Users to Excel
 type: docs
 weight: 20
 url: /ja/net/sitefinity-export-users-to-excel/
 ---
-**目次のまとめ**
 
-- [序章](#SitefinityExportUserstoExcel-Introduction)
-- [システム要件とサポートされるプラットフォーム](#SitefinityExportUserstoExcel-SystemRequirementsandSupportedPlatforms) 
-  - [システム要求](#SitefinityExportUserstoExcel-SystemRequirements)
+**内容の要約**
+
+- [紹介](#SitefinityExportUserstoExcel-Introduction)
+- [システム要件およびサポートされるプラットフォーム](#SitefinityExportUserstoExcel-SystemRequirementsandSupportedPlatforms) 
+  - [システム要件](#SitefinityExportUserstoExcel-SystemRequirements)
   - [サポートされているプラットフォーム](#SitefinityExportUserstoExcel-SupportedPlatforms)
 - [ソースコード](#SitefinityExportUserstoExcel-SourceCode) 
   - [ソースコードの構成方法](#SitefinityExportUserstoExcel-Howtoconfigurethesourcecode)
 - [インストールと使用法](#SitefinityExportUserstoExcel-InstallationandUsage) 
-  - [ダウンロード中](#SitefinityExportUserstoExcel-Downloading)
+  - [ダウンロード](#SitefinityExportUserstoExcel-Downloading)
   - [インストール](#SitefinityExportUserstoExcel-Installing)
-- [使用およびビデオデモ](#SitefinityExportUserstoExcel-UsingandVideoDemo) 
-  - [使用する](#SitefinityExportUserstoExcel-Using)
+- [使用とビデオデモ](#SitefinityExportUserstoExcel-UsingandVideoDemo) 
+  - [を使用する](#SitefinityExportUserstoExcel-Using)
   - [ビデオデモ](#SitefinityExportUserstoExcel-VideoDemo)
 - [サポート](#SitefinityExportUserstoExcel-Support)
-- [拡張して貢献する](#SitefinityExportUserstoExcel-ExtendandContribute)
-## **序章**
-Aspose .NET ユーザーを Excel にエクスポートして SiteFinity モジュールを作成すると、開発者は SiteFinity ユーザーを Microsoft Excel または OpenOffice スプレッドシートにエクスポートできます。このモジュールは、Aspose.Cells によって提供される強力なスプレッドシート作成機能を示しています。
+- [拡張と貢献](#SitefinityExportUserstoExcel-ExtendandContribute)
+## **紹介**
+Aspose .NET Export Users to Excel for SiteFinity Module は開発者が SiteFinity ユーザーを Microsoft Excel や OpenOffice Spreadsheet にエクスポートできるようにするもので、Aspose.Cells が提供する強力なスプレッドシート作成機能をデモンストレーションしています。
 
-## **システム要件とサポートされるプラットフォーム**
-### **システム要求**
-Sitefinity アドオン用に Aspose.Cells .NET をセットアップするには、次の要件を満たす必要があります。
+## **システム要件およびサポートされるプラットフォーム**
+### **システム要件**
+Aspose.Cells .NET for Sitefinity アドオンをセットアップするには、以下の要件を満たす必要があります:
 
-- ASP.NET 4.0 で実行されている Sitefinity CMS
+- ASP.NET 4.0 上で動作する Sitefinity CMS
 
-この Sitefinity アドオンの設定に問題がある場合は、お気軽にお問い合わせください。
+この Sitefinity アドオンをセットアップする際に問題が発生した場合は、お気軽にお問い合わせください。
 ### **サポートされているプラットフォーム**
-アドオンは、のすべてのバージョンでサポートされています
+このアドオンはすべてのバージョンでサポートされています
 
-- ASP.NET 4.0 で実行されている Sitefinity CMS
+- ASP.NET 4.0 上で動作する Sitefinity CMS
 ## **ソースコード**
-最新のソース コードは、次のいずれかの場所から入手できます。
+最新のソースコードを以下の場所から取得できます
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity)
 ### **ソースコードの構成方法**
-ソースコードを開いて拡張するには、以下をインストールする必要があります
+以下のアイテムがインストールされている必要があります
 
-- Visual Studio 2010 以降
+- Visual Studio 2010 またはそれ以降
 
-開始するには、次の簡単な手順に従ってください
+開始するための簡単なステップに従ってください
 
 1. ソースコードをダウンロード/クローンします。
-1. Visual Studio 2010 を開き、選択します**ファイル** > **プロジェクトを開く**
-1. ダウンロードした最新のソース コードを参照し、**.sln**ファイル。
+1. Visual Studio 2010を開き、**ファイル** > **プロジェクトを開く** を選択してください
+1. ダウンロードした最新のソースコードに移動し、 **.sln** ファイルを開きます。
 ## **インストールと使用法**
-### **ダウンロード中**
-Aspose .NET Content Exporter for Sitefinity モジュールは、次のいずれかの場所からダウンロードできます。
+### **ダウンロード**
+Aspose .NET Content Exporter for Sitefinity モジュールを以下の場所からダウンロードできます
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
 ### **インストール**
-ダウンロードしたら、次の手順に従ってアドオンを Sitefinity Web サイトにインストールしてください。
+ダウンロードしたら、以下の手順に従って Add-on を Sitefinity ウェブサイトにインストールしてください:
 
-**ステップ 1: ファイルを Sitefinity インストールにコピーする**
+**ステップ 1: ファイルを Sitefinity インストールにコピー**
 
-ダウンロードしたZIPファイルを解凍してください。以下を実行するには、FTP またはサーバー上の Sitefinity インストール フォルダーへの直接アクセスが必要です。
+ダウンロードした ZIP ファイルを解凍してください。次の作業を実行するには、サーバー上の Sitefinity インストールフォルダに FTP または直接アクセスする必要があります:
 
-1.  Aspose.Cells.dll と Aspose.SiteFinity.ExportUsersToExcel.dll を**置き場**Sitefinity インストールのフォルダー。
-1. コピー**アドオン** Sitefinity インストールのルートにあるフォルダ**置き場**フォルダがあります。
+1. Aspose.Cells.dll と Aspose.SiteFinity.ExportUsersToExcel.dll を Sitefinity インストールの **bin** フォルダにコピーします。
+1. **bin** フォルダがある場所に、**Addons** フォルダをコピーします。
 
-**ステップ 2: Aspose Sitefinity コンテンツ エクスポート アドオンを Sitefinity に登録する**
+**ステップ 2: Sitefinity で Aspose Sitefinity Content Export アドオンを登録**
 
-1. ' を使用して Sitefinity CMS にログインします。**管理者** ' アカウント。ログインページには次の方法でアクセスできます<http://www.mywebsite.com/sitefinity>
-1. クリック**管理**その後**設定**.
-[基本設定] ページが表示されます。
-1. クリック**高度**リンク。
- [設定] ページが表示されます。
-1. 左ペインで、**ツールボックス**に続く**ツールボックス**、 それから**ページコントロール**, **セクション**と**コンテンツ ツールボックス セクション**、 それから**ツール。**
-1. クリック**新しく作る**.
-ウィジェット登録フォームが表示されます。
-1. フォーム フィールドに次のように入力します。
- 1. 確認する**有効**が選択されます。
- 1. ~/Addons/Aspose.SiteFinity.ExportUsersToExcel/AsposeExportUsersToExcel.ascx を追加します。
+1. Log into your Sitefinity CMS with an ‘**Administrator**’ account. The login page can be reached by <http://www.mywebsite.com/sitefinity>
+1. **管理** をクリックして、**設定** を選択します。
+   基本設定ページが表示されます。
+1. **高度な** リンクをクリックします。
+   設定ページが表示されます。
+1. 左側のペインで、**ツールボックス**の後に**ツールボックス**、 **ページコントロール**、**セクション** 、**コンテンツツールボックスセクション**、**ツール** の順にクリックします。
+1. **新規作成** をクリックします。
+   ウィジェット登録フォームが表示されます。
+1. 次のようにフォームフィールドを入力します: 
+   1. **有効** が選択されていることを確認します。
+   1. **~/Addons/Aspose.SiteFinity.ExportUsersToExcel/AsposeExportUsersToExcel.ascx** を追加します。
 
- 1. ` `**CLR タイプまたは仮想パスを制御する**分野。
- 1.追加**名前**, **題名**と**説明**次のように：
- Aspose.SiteFinity.ExportUsersToExcel
- Aspose SiteFinity ユーザーを Excel にエクスポート
-SiteFinity ユーザーを Excel にエクスポートする
-1. 他のすべてのフィールドはそのままにしておくことができます。
-1. 終了したら、**変更内容を保存**.
-ウィジェットはツールボックスに登録され、Sitefinity で使用できます。
-## **使用およびビデオデモ**
-### **使用する**
-Aspose Sitefinity Export Users to Excel アドオンをインストールして構成したら、Web サイトで簡単に使用を開始できます。開始するには、次の簡単な手順に従ってください。
+   1. **コントロールCLRタイプまたは仮想パス** フィールドに ` ` を入力します。
+   1. 次のように **名前**、**タイトル**、**説明** を追加します:
+      Aspose.SiteFinity.ExportUsersToExcel
+      Aspose Export SiteFinity Users to Excel
+      SiteFinityユーザーをExcelにエクスポート
+   1. 他のすべてのフィールドはそのままにしておくことができます。
+1. 終了したら、**変更を保存** をクリックします。
+   ウィジェットがツールボックスに登録され、Sitefinityで使用できます。
+## **使用とビデオデモ**
+### **を使用する**
+Aspose Sitefinity Export Users to Excelアドオンをインストールして構成した後、ウェブサイトで使用を開始するのは本当に簡単です。次の簡単な手順に従ってください:
 
-1. 管理者レベルのアカウントで Sitefinity にログインしていることを確認してください。
-1. Export アドオンを追加するページに移動します。ページが編集モードで開かれていることを確認します。
-1. から**ウィジェットをドラッグ**右側のメニューで、[Aspose ユーザーを Excel にエクスポート] を選択し、所定の位置にドラッグします。
+1. サイトフィニティに管理者レベルのアカウントでログインしていることを確認します。
+1. エクスポートアドオンを追加したいページに移動します。ページが編集モードで開かれていることを確認します。
+1. 右側の**ウィジェットをドラッグ**メニューからAspose Export Users to Excelを選択し、位置にドラッグします。
 
 
-Aspose Sitefinity エクスポート ユーザーを Excel に正常に追加しました。
+Aspose Sitefinity Export Users to Excelを正常に追加しました。
 ### **ビデオデモ**
-チェックしてください[ビデオ](https://www.youtube.com/watch?v=O1524u-Pom4)モジュールの動作を確認するには、以下を参照してください。
+このモジュールを実際に動作する[ビデオ](https://www.youtube.com/watch?v=O1524u-Pom4)をご覧ください。
 ## **サポート**
-Aspose の最初の日から、私たちはお客様に良い製品を提供するだけでは十分ではないことを知っていました。また、優れたサービスを提供する必要もありました。私たち自身も開発者であり、技術的な問題やソフトウェアの異常によって必要な作業ができなくなると、どれほどイライラするかを理解しています。問題を作成するのではなく、問題を解決するためにここにいます。
+Asposeが立ち上がって最初の日から、良い製品だけを提供するだけでは不十分だと分かっていました。良いサービスも提供する必要がありました。私たち自身も開発者であり、技術的な問題やソフトウェアの不具合が必要なことを妨げるときにどれだけイライラするか理解しています。私たちは問題を解決するためにここにいて、それを作り出すためではありません。
 
-そのため、無料サポートを提供しています。私たちの製品を購入したか、評価を使用しているかにかかわらず、私たちの製品を使用するすべての人は、私たちの十分な注意と尊敬に値します.
+そのため、無料サポートを提供しています。製品を購入したか、評価を使用しているかに関わらず、私たちの製品を使用するすべての人にフルの注意と尊敬を提供する価値があります。
 
-次のプラットフォームのいずれかを使用して、Sitefinity モジュールの Aspose.Cells .NET に関連する問題または提案を記録できます。
+Aspose.Cells .NET for Sitefinityモジュールに関連する問題や提案を次のプラットフォームのいずれかを使用してログに記録できます
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-## **拡張して貢献する**
-Aspose Sitefinity ウィジェット/モジュールはオープン ソースであり、そのソース コードは、以下に示す主要なソーシャル コーディング Web サイトで入手できます。開発者は、ソース コードをダウンロードし、独自の要件に従って機能を拡張することをお勧めします。
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+## **拡張と貢献**
+Aspose Sitefinityウィジェット/モジュールはオープンソースであり、そのソースコードは以下の主要なソーシャルコーディングウェブサイトで利用可能です。開発者はソースコードをダウンロードして、機能を自分の要件に応じて拡張することが推奨されています。

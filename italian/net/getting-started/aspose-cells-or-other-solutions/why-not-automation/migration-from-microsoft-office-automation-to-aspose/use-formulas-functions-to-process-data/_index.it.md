@@ -1,12 +1,13 @@
-﻿---
-title: Utilizzare le funzioni delle formule per elaborare i dati
+---
+title: Utilizzare le Funzioni delle Formule per Elaborare i Dati
 type: docs
 weight: 140
 url: /it/net/use-formulas-functions-to-process-data/
 ---
+
 {{% alert color="primary" %}}
 
- Questo suggerimento tecnico illustrerà come utilizzare formule/funzioni per elaborare i dati**VSTO** e**Aspose.Cells for .NET** tramite codice.
+Questo suggerimento tecnico illustrerà come è possibile utilizzare formule/funzioni per elaborare i dati con **VSTO** e **Aspose.Cells for .NET** tramite codice. 
 
 {{% /alert %}}
 
@@ -17,7 +18,7 @@ url: /it/net/use-formulas-functions-to-process-data/
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -89,7 +90,7 @@ void AddingCellFormula()
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void AddingCellFormula()
 
@@ -147,16 +148,16 @@ void AddingCellFormula()
 
 {{< /highlight >}}
 
-## **Produzione**
+## **Output**
 
 ### **1) VSTO**
 
-![cose da fare:immagine_alt_testo](use-formulas-functions-to-process-data_1.png)
+![todo:image_alt_text](use-formulas-functions-to-process-data_1.png)
 
 **Figura 1:** Output utilizzando formule con VSTO
 
 ### **2) Aspose.Cells for .NET**
 
-![cose da fare:immagine_alt_testo](use-formulas-functions-to-process-data_2.png)
+![todo:image_alt_text](use-formulas-functions-to-process-data_2.png)
 
 **Figura 2:** Output utilizzando formule con Aspose.Cells for .NET

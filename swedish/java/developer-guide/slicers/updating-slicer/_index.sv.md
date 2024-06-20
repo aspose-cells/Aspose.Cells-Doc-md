@@ -1,13 +1,14 @@
-﻿---
-title: Uppdaterar Slicer
+---
+title: Uppdatera slicer
 type: docs
 weight: 50
 url: /sv/java/updating-slicer/
 ---
-## **Möjliga användningsscenarier**
-Om du vill uppdatera slicer i Microsoft Excel, välj eller avmarkera dess objekt, den kommer sedan att uppdatera slicer-tabellen eller pivottabellen i enlighet med detta. Snälla använd[Slicer.SlicerCache.SlicerCacheItems](https://reference.aspose.com/cells/java/com.aspose.cells/slicercache#SlicerCacheItems)för att välja eller avmarkera skivningsobjekt med Aspose.Cells och sedan ringa[Slicer.refresh()](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#refresh\(\)) metod för att uppdatera skivningstabellen eller pivottabellen.
-## **Uppdaterar Slicer**
-Följande exempelkod laddar[exempel på Excel-fil](67338506.xlsx)som innehåller en befintlig skivare. Det avmarkerar det andra och tredje objektet i skivaren och uppdaterar skivaren. Den sparar sedan arbetsboken som[utdata Excel-fil](67338505.xlsx). Följande skärmdump visar effekten av exempelkoden på exemplet i Excel-filen. Som du kan se på skärmdumpen har även pivottabellen uppdaterats genom att uppdatera skivaren med utvalda föremål.
+
+## **Möjliga användningsscenario**
+Om du vill uppdatera slicern i Microsoft Excel, välj eller avmarkera dess objekt, då kommer slicertabellen eller pivottabellen att uppdateras. Använd [Slicer.SlicerCache.SlicerCacheItems](https://reference.aspose.com/cells/java/com.aspose.cells/slicercache#SlicerCacheItems) för att välja eller avmarkera slicerobjekt med Aspose.Cells och ring sedan [Slicer.refresh()](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#refresh\(\)) metoden för att uppdatera slicertabellen eller pivottabellen. 
+## **Uppdatera slicer**
+Följande provkod laddar in [provmappen](67338506.xlsx) som innehåller en befintlig slicer. Den avmarkerar den 2:a och 3:e objekten i slicern och uppdaterar slicern. Den sparar sedan arbetsboken som [output Excel-fil](67338505.xlsx). Skärmbilden visar effekten av provkoden på den prov Excel-filen. Som du kan se på skärmbilden har uppdateringen av slicern med valda objekt också uppdaterat pivottabellen i enlighet med det valda.
 
 ![todo:image_alt_text](updating-slicer_1.png)
 ## **Exempelkod**

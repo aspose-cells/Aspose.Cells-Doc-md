@@ -1,16 +1,17 @@
-﻿---
-title: Php'de Sayfa Seçeneklerini Ayarlama
+---
+title: Php de Sayfa Seçeneklerini Ayarlama
 type: docs
 weight: 10
 url: /tr/java/setting-page-options-in-php/
 ---
-## **Aspose.Cells - Ayar Sayfası Seçenekleri**
-### **Sayfa yönlendirmesi**
- kullanarak sayfa yönü ayarlarını uygulamak için**Aspose.Cells Java for PHP** , Arama**Sayfa yönlendirmesi** yöntemi**sayfa ayarı** modül.
 
-**PHP Kodu**
+## **Aspose.Cells - Sayfa Seçeneklerini Ayarlama**
+### **Sayfa Yönlendirmesi**
+**Aspose.Cells Java for PHP** kullanarak sayfa yönlendirme ayarlarını uygulamak için **pagesetup** modülünün **page_orientation** yöntemini çağırın.
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
  public static function page_orientation($dataDir=null)
 
@@ -45,12 +46,12 @@ url: /tr/java/setting-page-options-in-php/
 }
 
 {{< /highlight >}}
-### **Ölçekleme faktörü**
- kullanarak ölçekleme uygulamak için**Aspose.Cells Java for PHP** , Arama**ölçekleme** yöntemi**sayfa ayarı** modül.
+### **Ölçekleme Faktörü**
+**Aspose.Cells Java for PHP** kullanarak ölçeklendirme uygulamak için **pagesetup** modülünün **scaling** yöntemini çağırın.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function scaling($dataDir=null)
 
@@ -85,6 +86,6 @@ url: /tr/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Ayar Sayfası Seçenekleri (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Sayfa Seçeneklerini Ayarlama (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/PageSetupFeatures/SettingPageOptions.php)

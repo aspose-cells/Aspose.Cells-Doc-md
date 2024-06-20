@@ -1,7 +1,8 @@
-﻿---
-title: Stöd för delade datamängder
+---
+title: Stöd för delade dataset
 type: docs
 weight: 10
 url: /sv/reportingservices/support-shared-datasets/
 ---
-Aspose.Cells for Reporting Services stöder SSRS 2008R2 delade datauppsättningar. När Aspose.Cells Report Designer öppnar en rapportdefinitionsfil som inkluderar delade datauppsättningar, kan den automatiskt få datauppsättningsinformation som inkluderar fält från rapportservern.
+
+Aspose.Cells for Reporting Services stödjer delade dataset för SSRS 2008R2. När Aspose.Cells Rapport Designer öppnar en rapportdefinieringsfil som inkluderar delade dataset kan den automatiskt hämta datasetinformation som inkluderar fälten från rapportservern.

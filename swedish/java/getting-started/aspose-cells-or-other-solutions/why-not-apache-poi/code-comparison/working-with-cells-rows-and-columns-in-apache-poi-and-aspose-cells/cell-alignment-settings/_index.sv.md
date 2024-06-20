@@ -1,21 +1,22 @@
-﻿---
-title: Cell Justeringsinställningar
+---
+title: Celljusteringsinställningar
 type: docs
 weight: 20
 url: /sv/java/cell-alignment-settings/
 ---
-## **Aspose.Cells - Cell Justeringsinställningar**
-Aspose.Cells tillhandahåller en klass, arbetsbok, som representerar en Excel-fil. Klassen Workbook innehåller en WorksheetCollection som ger åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen Worksheet.
 
-Klassen Worksheet tillhandahåller en Cells-samling. Varje föremål i samlingen Cells representerar ett föremål i klassen Cell.
+## **Aspose.Cells - Celljusteringsinställningar**
+Aspose.Cells tillhandahåller en klass, Workbook, som representerar en Excel-fil. Klassen Workbook innehåller en WorksheetCollection som tillåter åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen Worksheet.
 
-Aspose.Cells tillhandahåller setStyle-metoden i klassen Cell som används för en cells formatering. Klassen Style ger användbara egenskaper för att konfigurera teckensnittsinställningar.
+Worksheet-klassen tillhandahåller en Cells-samling. Varje objekt i Cells-samlingen representerar en Cell-klass.
 
-Välj valfri textjusteringstyp med hjälp av uppräkningen TextAlignmentType.
+Aspose.Cells tillhandahåller metoden setStyle i Cell-klassen som används för cellformatering. Style-klassen tillhandahåller användbara egenskaper för att konfigurera teckensnittsinställningar.
+
+Välj vilken som helst textjusteringstyp med hjälp av TextAlignmentType-enumet.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -48,14 +49,14 @@ style.setHorizontalAlignment(TextAlignmentType.CENTER);
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF & XSSF - Cell Justeringsinställningar**
-HSSFCellStyle tillhandahåller stilen för justering i celler med Apache POI API.
+## **Apache POI SS - HSSF & XSSF - Celljusteringsinställningar**
+HSSFCellStyle tillhandahåller stil för justering i celler med hjälp av Apache POI API.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws IOException
+ public static void main(String[] args) throws IOException
 
 {
 
@@ -126,13 +127,13 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/cellalignment)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Konfigurera justeringsinställningar](/cells/sv/java/data-formatting/).
+För mer information, besök [Konfigurera justeringsinställningar](/cells/sv/java/data-formatting/).
 
 {{% /alert %}}

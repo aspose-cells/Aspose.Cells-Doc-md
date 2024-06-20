@@ -1,20 +1,23 @@
-﻿---
-title: GridWeb'in Formülleri Göster Özelliğini Kullanma
+---
+title: GridWeb in Formülleri Göster özelliğini Kullan
 type: docs
 weight: 30
-url: /tr/net/using-show-formulas-feature-of-gridweb/
+url: /tr/net/aspose-cells-gridweb/use-show-formulas-feature/
+keywords: GridWeb, formülleri göster, formül
+description: Bu makale, GridWeb de formülleri nasıl göstereceğinizi açıklar.
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen formül içeren hücreler için kolay bir yol bulmanız gerekir. Hataları kontrol etmek için tüm formülleri hızlı bir şekilde okumak için bir yaklaşımınız olması gerekir. Bu, bir formülde kullanılan verileri izlemenize yardımcı olabilir.
+Bazı durumlarda, formüller içeren hücreler için kolay bir yol bulmanız gerekebilir. Hataları kontrol etmek için tüm formüllere hızlıca göz atacak bir yaklaşımınız olmalıdır. Bu, bir formülde kullanılan verileri izlemenize yardımcı olabilir.
 
-Aspose.Cells.GridWeb, Microsoft Excel'de Formülleri Göster adlı özelliği sağlar.
+Aspose.Cells.GridWeb, Microsoft Excel'de Formülleri Göster olarak adlandırılan bir özellik sunar.
 
 {{% /alert %}} 
 ## **Formülleri Göster Özelliğini Kullanma**
-Çalışma sayfasındaki tüm formülleri görüntülemek için "CTRL + ~" kısayolunu kullanmanız yeterlidir.
+Tüm formülleri çalışma sayfasında görüntülemek için kısayol olan "CTRL + ~" tuşlarına basmanız yeterlidir.
 
-Örneğin, C sütununda formüller bulunan GridWeb'e bir şablon dosyası yüklüyoruz, işte dosyayı yüklemek için basitçe kullandığımız kod.
+Örneğin, formülleri C sütununda içeren bir şablon dosyasını GridWeb'e yükleriz, aşağıdaki kodu yüklemek için kullandık.
 
 
 
@@ -22,10 +25,10 @@ Aspose.Cells.GridWeb, Microsoft Excel'de Formülleri Göster adlı özelliği sa
 
 
 
-Dosya GridWeb'e yüklenir ve aşağıdaki resimde tüm değerleri içeren bir sayfa görebiliriz.
+Dosya GridWeb'e yüklenir ve aşağıdaki resimde tüm değerlerin bulunduğu bir sayfa görebiliriz.
 
-![yapılacaklar:resim_alternatif_metin](using-show-formulas-feature-of-gridweb_1.png)
+![todo:image_alt_text](using-show-formulas-feature-of-gridweb_1.png)
 
 CTRL + ~ tuşlarına bastıktan sonra tüm formüller görüntülenir.
 
-![yapılacaklar:resim_alternatif_metin](using-show-formulas-feature-of-gridweb_2.png)
+![todo:image_alt_text](using-show-formulas-feature-of-gridweb_2.png)

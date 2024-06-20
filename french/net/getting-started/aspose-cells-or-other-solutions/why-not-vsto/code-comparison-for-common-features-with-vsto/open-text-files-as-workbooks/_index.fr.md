@@ -1,12 +1,13 @@
-﻿---
+---
 title: Ouvrir des fichiers texte en tant que classeurs
 type: docs
 weight: 180
 url: /fr/net/open-text-files-as-workbooks/
 ---
-Vous trouverez ci-dessous un exemple de code de comparaison pour ouvrir un fichier texte en tant que classeurs :
+
+Ci-dessous se trouvent des exemples de code comparatif pour ouvrir des fichiers texte en tant que classeurs :
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
      this.Application.Workbooks.OpenText(@"OpenTextFilesAsWorkbooks.txt",
 
@@ -22,7 +23,7 @@ Vous trouverez ci-dessous un exemple de code de comparaison pour ouvrir un fichi
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
     private static string fileName = "OpenTextFilesAsWorkbooks.xlsx";
 
@@ -37,5 +38,5 @@ Vous trouverez ci-dessous un exemple de code de comparaison pour ouvrir un fichi
    newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Télécharger**
+##**Télécharger**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

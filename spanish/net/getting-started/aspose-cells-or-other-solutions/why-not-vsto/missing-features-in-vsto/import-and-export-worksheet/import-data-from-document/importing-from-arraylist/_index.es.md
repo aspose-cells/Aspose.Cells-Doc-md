@@ -1,16 +1,17 @@
-﻿---
-title: Importando desde ArrayList
+---
+title: Importar desde ArrayList
 type: docs
 weight: 20
 url: /es/net/importing-from-arraylist/
 ---
- Los desarrolladores pueden importar datos de un ArrayList a sus hojas de trabajo llamando al**Importar ArrayList** método de la colección Cells. El método ImportArray toma los siguientes parámetros:**Lista de arreglo** , representa el objeto ArrayList cuyo contenido necesita importar
+
+Los desarrolladores pueden importar datos desde un ArrayList a sus hojas de cálculo llamando al método **ImportArrayList** de la colección Cells. El método ImportArrayList toma los siguientes parámetros: **ArrayList**, representa el objeto ArrayList cuyo contenido necesita ser importado
 
 - Número de fila, representa el número de fila de la primera celda donde se importarán los datos
 - Número de columna, representa el número de columna de la primera celda donde se importarán los datos
-- Es Vertical , un valor booleano que especifica importar datos vertical u horizontalmente
+- Es Vertical, un valor booleano que especifica si importar los datos vertical u horizontalmente
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 

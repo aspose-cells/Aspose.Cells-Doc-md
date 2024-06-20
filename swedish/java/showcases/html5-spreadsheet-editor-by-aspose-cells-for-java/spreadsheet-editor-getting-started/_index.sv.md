@@ -1,102 +1,103 @@
-﻿---
-title: Kalkylarksredigerare Komma igång
+---
+title: Komma igång med kalkylbladsredigeraren
 type: docs
 weight: 10
 url: /sv/java/spreadsheet-editor-getting-started/
 ---
-**Innehållsförteckning**
+
+Innehållsförteckning
 
 - [Introduktion](#SpreadsheetEditorGettingStarted-Introduction)
 - [Systemkrav](#SpreadsheetEditorGettingStarted-SystemRequirements)
-- [Ladda ner och installation](#SpreadsheetEditorGettingStarted-DownloadandInstallation)
-- [Stöd](#SpreadsheetEditorGettingStarted-Support)
+- [Hämta och installation](#SpreadsheetEditorGettingStarted-DownloadandInstallation)
+- [Support](#SpreadsheetEditorGettingStarted-Support)
 - [Bidra](#SpreadsheetEditorGettingStarted-Contribute)
 - [Licens](#SpreadsheetEditorGettingStarted-License)
 ### **Introduktion**
-Html5 Spreadsheet Editor är en webbapplikation som kan visa och redigera kalkylarksdokument i en webbläsare. Den stöder Excel, SpreadsheetML, CVS, OpenDocument och många andra format som stöds av Microsoft Excel. Alla grundläggande funktioner inklusive cellredigering, formatering, formelredigering, rad- och kolumnhantering etc. stöds.
+Html5 Spreadsheet Editor är en webbapplikation som kan visa och redigera kalkylbladsdokument i en webbläsare. Den stöder Excel, SpreadsheetML, CVS, OpenDocument och många andra format som stöds av Microsoft Excel. Alla grundläggande funktioner inklusive cellredigering, formatering, formelredigering, rad- och kolumnhantering osv. stöds.
 
 ![todo:image_alt_text](aowcrc1.png)
 
- HTML5 Spreadsheet Editor använder många funktioner i[Aspose.Cells for Java](https://products.aspose.com/cells/java/) och visar hur du använder dem för att skapa, manipulera och rendera ett kalkylblad i din Java-applikation.
+HTML5 Spreadsheet Editor använder många funktioner i [Aspose.Cells for Java](https://products.aspose.com/cells/java/) och visar hur man använder dem för att skapa, manipulera och rendera ett kalkylblad i din Java-applikation.
 
 **Funktioner**
 
-- Arbeta med filer
- - Format som stöds
- - Öppna lokala filer
- - Öppna från Dropbox
- - Öppna från URL
- - Skapa ett nytt kalkylblad
- - Exportera till olika format
--  Arbeta med Sheets
- - Lägg till och ta bort ark
- - Byt namn på ark
- - Växla mellan ark
--  Arbeta med rader och kolumner
- - Lägg till en rad
- - Lägg till en kolumn
- - Ta bort en rad
- - Ta bort en kolumn
- - Kolumnbredd och radhöjd
--  Arbetar med Cells
- - Välja en cell
- - Redigera en cell
- - Redigera formel
- - Cell uppriktning
- - Rensa Cell
- - Lägg till en cell
- - Ta bort en cell
--  Arbeta med textformatering
- - Fet, kursivt, understruket
- - Typsnittsstil och storlek
- - Rensa formatering
+- Arbeta med filer 
+  - Stödda format
+  - Öppna lokala filer
+  - Öppna från Dropbox
+  - Öppna från URL
+  - Skapa ett nytt kalkylblad
+  - Exportera till olika format
+- Arbeta med ark 
+  - Lägga till och ta bort ark
+  - Byta namn på ark
+  - Växla mellan ark
+- Arbeta med rader och kolumner 
+  - Lägga till en rad
+  - Lägga till en kolumn
+  - Ta bort en rad
+  - Ta bort en kolumn
+  - Kolumnbredd och radhöjd
+- Arbeta med celler 
+  - Välja en cell
+  - Redigera en cell
+  - Redigera formel
+  - Cellausriktning
+  - Rensa cell
+  - Lägga till en cell
+  - Ta bort en cell
+- Arbeta med textformatering 
+  - Fet, kursiv, understrykning
+  - Teckensnittsstil och storlek
+  - Rensa formatering
 ### **Systemkrav**
 **Programvarukrav**
 
-- CDI-stödd Java applikationsserver
+- CDI-stödd Java-applikationsserver
 - [Aspose.Cells for Java](https://products.aspose.com/cells/java/)
 - [JavaServer Faces 2.0](https://javaee.github.io/javaserverfaces-spec/)
 - [Primefaces 5.1](https://www.primefaces.org/)
 
-**Hårdvarukrav**
+**Maskinvarukrav**
 
-Hårdvarukraven varierar beroende på vilken applikationsserver Java vi väljer för att distribuera HTML5 Spreadsheet Editor och antalet kalkylblad vi öppnar samtidigt. Följande är en uppskattning som kommer att hjälpa till att initialt ställa in miljön.
+Maskinvarukraven varierar beroende på den Java-applikationsserver vi väljer att distribuera HTML5 Spreadsheet Editor och antalet kalkylblad vi öppnar samtidigt. Följande är en uppskattning som kommer att hjälpa till att initialt konfigurera miljön.
 
 - 2 GHz CPU
 - 2 GB RAM
 - 500 MB disk
-### **Ladda ner och installation**
- HTML5 Spreadsheet Editor är en Java EE-applikation och kan distribueras till vilken Java-applikationsserverwebbprofil som helst med CDI-stöd. Den har testats med[Glasfisk](https://javaee.github.io/glassfish/).
+### **Hämta och installation**
+HTML5 Spreadsheet Editor är en Java EE-applikation och kan distribueras till vilken Java-applikationsserver webbprofil som helst med CDI-stöd. Den har testats med [Glassfish](https://javaee.github.io/glassfish/).
 
 **Källkod**
 
- Projektkällan finns tillgänglig på[Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/). Vi underhåller även Git-speglar på följande webbplatser:
+Projektkällan finns tillgänglig på [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/). Vi underhåller även Git-speglingar på följande platser:
 
-- [Bit hink](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
-- [Google Kod](https://code.google.com/archive/p/html5-spreadsheet-editor/)
+- [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
+- [Google Code](https://code.google.com/archive/p/html5-spreadsheet-editor/)
 - [SourceForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
-Använd ett av följande kommandon för att ladda ner källkoden via kommandoraden:
+Använd en av följande kommandon för att hämta källkoden via kommandoraden:
 
 **Github**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone https://github.com/aspose-cells/Aspose.Cells-for-Java.git
 
 {{< /highlight >}}
 
-**Bit hink**
+**Bitbucket**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java.git
 
 {{< /highlight >}}
 
-**Google Kod**
+**Google Code**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone https://code.google.com/p/html5-spreadsheet-editor/
 
@@ -104,90 +105,90 @@ Använd ett av följande kommandon för att ladda ner källkoden via kommandorad
 
 **SourceForge**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone git://git.code.sf.net/p/html5-spreadsheet-editor/code html5-spreadsheet-editor-code
 
 {{< /highlight >}}
 
-**Bygg med Maven**
+**Bygga med Maven**
 
-Projektuppbyggnadsprocessen hanteras med Maven. Så du kan förbereda en WAR-fil från kommandoraden utan någon IDE. Använd följande kommando för att generera en WAR för distribution. Dokumentationen för motsvarande applikationsserver hjälper dig att distribuera den genererade WAR och dess beroenden.
+Projektbyggprocessen hanteras med Maven. Så du kan förbereda en WAR-fil från kommandoraden utan någon IDE. Använd följande kommando för att generera en WAR för distribution. Dokumentationen för motsvarande applikationsserver kommer att hjälpa dig med hur du distribuerar den genererade WAR-filen och dess beroenden.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  mvn clean install
 
 {{< /highlight >}}
 
-**Använder NetBeans**
+**Använda NetBeans**
 
- Det är väldigt enkelt att hantera projektet med hjälp av[NetBeans IDE](https://netbeans.apache.org/). NetBeans är en av de populära IDE:erna bland Java-utvecklare och sponsras av Oracle.
+Det är mycket enkelt att hantera projektet med [NetBeans IDE](https://netbeans.apache.org/). NetBeans är en av de populära IDE:erna bland Java-utvecklare och sponsras av Oracle.
 
-- Ladda ner projektets källkod.
+- Hämta projektkällkoden.
 - Öppna projektet i NetBeans IDE.
--  Klick***Springa*** knappen i verktygsfältet.
--  Välj***Glasfisk*** server som applikationsserver.
+- Klicka på ***Kör***-knappen på verktygsfältet.
+- Välj ***Glassfish***-server som applikationsserver.
 
-**Använder Eclipse**
+**Använda Eclipse**
 
-[Eclipse IDE](http://www.eclipse.org/ide/) ger officiell integration för att importera Maven projekt som kallas[M2Eclipse](http://www.eclipse.org/m2e/):
+[Eclipse IDE](http://www.eclipse.org/ide/) erbjuder officiell integration för att importera Maven-projekt som kallas [M2Eclipse](http://www.eclipse.org/m2e/):
 
-1. Installera M2Eclipse i din Eclipse IDE. Installationsproceduren beskrivs på deras hemsida.
-1. Ladda ner projektets källkod.
-1. Öppna***Importera*** dialogrutan från Arkiv-menyn.
-1.  Välj***Maven Projekt*** från importdialogrutan.
-1.  Klick***Nästa***.
-1.  Klick***Bläddra*** för att välja platsen för källkoden.
-1.  Välj***pom.xml*** från listan nedan.
-1.  Klick***Avsluta***.
+1. Installera M2Eclipse i din Eclipse IDE. installationsproceduren beskrivs på deras webbplats.
+1. Hämta projektkällkoden.
+1. Öppna ***Importera***-dialogrutan från Arkiv-menyn.
+1. Välj ***Maven-projekt*** från importdialogrutan.
+1. Klicka på ***Nästa***.
+1. Klicka på ***Bläddra*** för att välja platsen för källkoden.
+1. Välj ***pom.xml*** från listan nedan.
+1. Klicka på ***Avsluta***.
 
 Eclipse IDE bör importera och ladda projektet.
-### **Stöd**
-**Buggrapport**
+### **Support**
+**Felrapport**
 
- För att skicka en felrapport, skapa ett nytt problem på[Github projektsida](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) och applicera etiketten***insekt***.
+För att skicka in en felrapport, skapa en ny fråga på [GitHubs projektsida](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) och lägg till etiketten ***fel***.
 
-**Funktionsbegäran**
+**Funktionsförfrågan**
 
- Vi uppskattar mycket din feedback och de funktioner du efterfrågar. För att begära en ny funktion eller förbättring av befintliga, skapa ett nytt nummer på[Github projektsida](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) och applicera etiketten***förbättring***.
+Vi uppskattar mycket dina åsikter och de funktioner du begär. För att begära en ny funktion eller förbättring i en befintlig, skapa en ny fråga på [GitHubs projektsida](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) och lägg till etiketten ***förbättring***.
 
-**Frågor och hjälp**
+**Frågor och Hjälp**
 
- Du kan ställa alla typer av frågor relaterade till HTML5 Spreadsheet Editor med hjälp av[Github problem](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) . Skapa bara ett nytt nummer och tillämpa***fråga*** märka.
+Du kan ställa alla typer av frågor relaterade till HTML5 Spreadsheet Editor med [GitHubs fråga](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues). Skapa bara en ny fråga och lägg till etiketten ***fråga***.
 
 **Aspose.Cells for Java Forum**
 
- Aspose produktforum ger full support för både test- och betalkunder. Experter sitter 24/7 för att ge hjälp och svara på frågor. Besök[produktforum här](https://forum.aspose.com/c/cells/9).
+Aspose-produktforum ger fullt stöd för både test- och betalande kunder. Experter sitter 24/7 för att ge hjälp och svara på frågor. Besök [produkforum här](https://forum.aspose.com/c/cells/9).
 
 **Aspose Bloggar**
 
- Kontakta oss och håll dig uppdaterad med de senaste nyheterna om våra produkter och erbjudanden. Prenumerera på[vår blogg här](http://blog.aspose.com).
+Ta kontakt med oss och håll dig uppdaterad med de senaste nyheterna om våra produkter och erbjudanden. Prenumerera på [vår blogg här](http://blog.aspose.com).
 ### **Bidra**
 [](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java)
 
-[!\[todo:image_alt_text\]](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_Kalkylblad_Redaktör_förbi_Aspose.Cells_för_Java)
+[!\[todo:image_alt_text\](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java)
 
 
-HTML5 Spreadsheet Editor är ett projekt med öppen källkod som ger maximala möjligheter för alla att bidra till projektet.
+HTML5 Spreadsheet Editor är ett öppet projekt som tillåter maximala alternativ för alla att bidra till projektet.
 
 **Källkod**
 
- Projektkällan finns tillgänglig på[Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java). Vi underhåller även Git-speglar på följande webbplatser:
+Projektkällkoden finns tillgänglig på [Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java). Vi håller också Git-speglar på följande platser:
 
-- [Bit hink](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
+- [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
 - [SourceForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
-**Dra förfrågningar**
+**Pull-förfrågningar**
 
- För att bidra med källkod till projektet skickar du bara en pull-förfrågan via Github. Läs mer information i Githubs artikel om[Skapa en pull-begäran](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+Om du vill bidra med källkod till projektet, skicka bara en pull-förfrågan via Github. Läs mer information i GitHubs artikel om [Skapa en pull-förfrågan](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 ### **Licens**
 **MIT-licens**
 
- Vi använder en av de mest liberala licenserna för öppen källkod för minimiskulder på bidragsgivare. HTML5 Spreadsheet Editor släpps under[MIT-licens](https://opensource.org/licenses/mit-license.php).
+Vi använder en av de mest liberala öppna källkodstillstånden för minsta ansvar för bidragsgivare. HTML5 Spreadsheet Editor släpps under [MIT-licensen](https://opensource.org/licenses/mit-license.php).
 
-**Aspose Licens**
+**Aspose-licens**
 
- Produkten fungerar utan Aspose licens,[med begränsningar](/cells/sv/java/licensing/) . För att ta bort begränsningar kan du skaffa en[gratis tillfällig licens](https://purchase.aspose.com/temporary-license) eller[köpa full licens](https://purchase.aspose.com/buy).
+Produkten fungerar utan Aspose-licens, [med begränsningar](/cells/sv/java/licensing/). För att ta bort begränsningar kan du skaffa en [gratis tillfällig licens](https://purchase.aspose.com/temporary-license) eller [köpa full licens](https://purchase.aspose.com/buy).
 
- Som standard kommer redigeraren att försöka ladda**Aspose.Total.Java.lic** fil från**src/main/resources/com/aspose/spreadsheeteditor** katalog. Kopiera bara licensfilen till den här katalogen. Standardbeteendet kan ändras genom att redigera**AsposeLicens** klass.
+Som standard kommer editorn att försöka ladda filen **Aspose.Total.Java.lic** från katalogen **src/main/resources/com/aspose/spreadsheeteditor**. Kopiera bara licensfilen till denna katalog. Det standardbeteendet kan ändras genom att redigera klassen **AsposeLicense**.

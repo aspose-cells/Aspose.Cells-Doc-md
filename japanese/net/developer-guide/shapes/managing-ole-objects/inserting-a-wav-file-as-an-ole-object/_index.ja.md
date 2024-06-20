@@ -1,12 +1,13 @@
-﻿---
-title: WAV ファイルを Ole オブジェクトとして挿入する
+---
+title: OLEオブジェクトとしてWAVファイルを挿入
 type: docs
 weight: 70
 url: /ja/net/inserting-a-wav-file-as-an-ole-object/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells は、さまざまな種類の OLE オブジェクトを Excel ワークシートに追加する機能を提供します。次のコード例では、Aspose.Cells が提供する単純な API を使用して、wav ファイルを OLE オブジェクトとして追加する方法を示します。
+Aspose.Cellsは、エクセルワークシートにさまざまなタイプのOLEオブジェクトを追加する機能を提供します。Aspose.Cellsが提供するシンプルなAPIを使用して、wavファイルをOLEオブジェクトとして追加する方法について、以下のコード例で見ていきます。 
 
 {{% /alert %}} 
 

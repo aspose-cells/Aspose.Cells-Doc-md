@@ -1,4 +1,4 @@
-﻿---
+---
 title: Giriş
 type: docs
 weight: 5

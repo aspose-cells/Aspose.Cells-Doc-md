@@ -1,41 +1,42 @@
-﻿---
-title: Hämta Cell Innehåll
+---
+title: Fånga Cellinnehåll
 type: docs
 weight: 10
 url: /sv/java/getting-cell-contents/
 ---
-## **Aspose.Cells - Få Cell Innehåll**
-Metoden Cells.get() är tillgänglig för att komma åt celler.
+
+## **Aspose.Cells - Fånga Cellinnehåll**
+Cells.get() metoden finns tillgänglig för att komma åt celler.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Åtkomst till det första kalkylbladet i Excel-filen
+ //Accessing the first worksheet in the Excel file
 
-Arbetsblad arbetsblad = workbook.getWorksheets().get(0);
+Worksheet worksheet = workbook.getWorksheets().get(0);
 
-Cells celler = kalkylblad.getCells();
+Cells cells = worksheet.getCells();
 
-//Åtkomst till det maximala visningsintervallet
+//Access the Maximum Display Range
 
-Range range = workheet.getCells().getMaxDisplayRange();
+Range range = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("Totalt antal rader:" + trows);
+System.out.println("Total Rows:" + trows);
 
-System.out.println("Totalt kol:" + tcols);
+System.out.println("Total Cols:" + tcols);
 
-// Access värde på Cell B4
+// Access value of Cell B4
 
 //=====================================================
 
 System.out.println(cells.get("B4").getValue());
 
-Cell cell = cells.get(3,1); //Access värde på Cell B4
+Cell cell = cells.get(3,1); //Access value of Cell B4
 
 System.out.println(cell.getValue());
 
@@ -43,7 +44,7 @@ System.out.println(cell.getValue());
 
 RowCollection rows = cells.getRows();
 
- för (int i = 0 ; i< rows.getCount() ; i++)
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -64,12 +65,12 @@ RowCollection rows = cells.getRows();
 }
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Få Cell Innehåll**
-Apache POI tillhandahåller klassen Cell för åtkomst till olika egenskaper hos celler.
+## **Apache POI SS - HSSF XSSF - Hämta cellinnehåll**
+Apache POI tillhandahåller Cell-klassen för att komma åt olika egenskaper hos celler.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sheet sheet1 = wb.getSheetAt(0);
 
@@ -128,13 +129,13 @@ for (Row row : sheet1) {
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/gettingcellcontent)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Datahanteringsfunktioner med Aspose.Cells](/cells/sv/java/data-handling-features-using-aspose-cells/)
+För mer information, besök [Datahanteringsfunktioner med Aspose.Cells](/cells/sv/java/data-handling-features-using-aspose-cells/)
 
 {{% /alert %}}

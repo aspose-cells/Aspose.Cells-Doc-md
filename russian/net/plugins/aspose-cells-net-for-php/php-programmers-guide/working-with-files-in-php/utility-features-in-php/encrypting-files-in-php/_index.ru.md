@@ -1,15 +1,16 @@
-﻿---
+---
 title: Шифрование файлов в PHP
 type: docs
 weight: 10
 url: /ru/net/encrypting-files-in-php/
 ---
+
 ## **Aspose.Cells - Шифрование файлов Excel**
-Шифрование файла Excel Microsoft
+Шифрование файла Microsoft Excel
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -40,7 +41,7 @@ url: /ru/net/encrypting-files-in-php/
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Шифрование файлов (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать ** Шифрование файлов (Aspose.Cells) ** из любого из перечисленных ниже сайтов социального кодинга:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)

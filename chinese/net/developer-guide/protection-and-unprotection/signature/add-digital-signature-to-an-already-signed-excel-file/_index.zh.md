@@ -3,6 +3,8 @@ title: 向已签名的Excel文件添加数字签名
 type: docs
 weight: 20
 url: /zh/net/add-digital-signature-to-an-already-signed-excel-file/
+description: 本文介绍了如何使用Aspose.Cells for .Net的C#代码向已经签名的Excel文件添加数字签名。
+keywords: 向已经签名的Excel文件添加数字签名，如何向已经签名的Excel文件添加数字签名。
 ---
 
 ## **可能的使用场景**
@@ -15,7 +17,7 @@ Aspose.Cells 提供了一个方法，您可以使用它向已经签名的Excel�
 
 {{% /alert %}}
 
-## **对已签名的 Excel 文件添加数字签名**
+## **如何向已经签名的Excel文件添加数字签名**
 
 以下示例代码演示了如何使用 [**Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature) 方法向已签名的Excel文件添加数字签名。请查看此代码中使用的 [示例Excel文件](50528280.xlsx)。该文件已经数字签名。请查看代码生成的 [输出Excel文件](50528281.xlsx)。这里我们使用了一个名为 [AsposeDemo.pfx](50528279.pfx) 的演示证书，密码为 **aspose**。屏幕截图展示了示例代码对示例Excel文件执行后的效果。
 

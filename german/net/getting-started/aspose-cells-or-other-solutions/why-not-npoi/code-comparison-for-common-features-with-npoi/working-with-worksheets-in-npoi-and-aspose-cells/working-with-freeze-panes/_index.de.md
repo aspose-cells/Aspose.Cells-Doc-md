@@ -1,13 +1,14 @@
-﻿---
-title: Arbeiten mit Freeze Panes
+---
+title: Arbeiten mit Fixierfenstern
 type: docs
 weight: 100
 url: /de/net/working-with-freeze-panes/
 ---
-## **Aspose.Cells – Arbeiten mit Fixierfenstern**
+
+## **Aspose.Cells - Arbeiten mit Fixierfenstern**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -26,13 +27,13 @@ workbook.Save("output-FreezeFile-Aspose.Cells.xls");
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[FreezePanes-Methode](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
+Für weitere Details besuchen Sie [FreezePanes-Methode](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
 
 {{% /alert %}} 
-## **NPOI - HSSF XSSF - Arbeiten mit Freeze Panes**
+## **NPOI - HSSF XSSF - Arbeiten mit Fixierfenstern**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -62,13 +63,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Arbeiten mit Freeze Panes** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Arbeiten mit Fixierfenstern** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Arbeiten mit Arbeitsblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Für weitere Details besuchen Sie [Arbeiten mit Tabellenblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

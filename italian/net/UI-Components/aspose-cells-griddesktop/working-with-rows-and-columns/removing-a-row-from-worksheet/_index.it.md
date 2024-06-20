@@ -1,21 +1,24 @@
-﻿---
+---
 title: Rimozione di una riga dal foglio di lavoro
 type: docs
 weight: 40
-url: /it/net/removing-a-row-from-worksheet/
+url: /it/net/aspose-cells-griddesktop/remove-a-row-from-worksheet/
+keywords: GridDesktop, rimuovi, riga
+description: Questo articolo introduce come rimuovere una riga in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Questo è un altro argomento di base per gli sviluppatori per spiegare un approccio di base per rimuovere una riga dal foglio di lavoro. È una funzionalità semplice e pratica che può essere utilizzata dagli sviluppatori mentre lavorano con Aspose.Cells.GridDesktop.
+Questo è un altro argomento di base per gli sviluppatori che spiega un approccio di base per rimuovere una riga dal foglio di lavoro. Si tratta di una funzionalità semplice e utile che può essere utilizzata dagli sviluppatori durante il lavoro con Aspose.Cells.GridDesktop.
 
 {{% /alert %}} 
 
-Per rimuovere una riga dal foglio di lavoro, procedi nel seguente modo:
+Per rimuovere una riga dal foglio di lavoro, seguire i passaggi seguenti:
 
--  Accedi a qualsiasi desiderato**Foglio di lavoro**
--  Rimuovere**Riga** dal**Foglio di lavoro** specificando l'indice della riga da rimuovere
+- Accedere a qualsiasi **Foglio di lavoro** desiderato
+- Rimuovere la **Riga** dal **Worksheet** specificando l'indice della riga da rimuovere
 
-L'esempio di codice seguente mostra come rimuovere una riga dal foglio di lavoro.
+Il codice di esempio seguente mostra come rimuovere una riga dal foglio di lavoro.
 
 
 

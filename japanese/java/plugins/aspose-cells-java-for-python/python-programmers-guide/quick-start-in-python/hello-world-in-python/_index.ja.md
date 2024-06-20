@@ -1,15 +1,16 @@
-﻿---
-title: PythonのHello World
+---
+title: Python でのHello World
 type: docs
 weight: 10
 url: /ja/java/hello-world-in-python/
 ---
+
 ## **Aspose.Cells - Hello World**
-Hello World Python で Aspose.Cells Java を使用するには、単純に Document クラスの HelloWorld() メソッドを呼び出し、最後に追加する 2 番目のドキュメントを指定します。
+Aspose.Cells Javaを使用したPythonでのHello World、単純にDocumentクラスのHelloWorld()メソッドを呼び出し、末尾に追加する第2のドキュメントを指定します。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  workbook = self.Workbook()
 
@@ -26,7 +27,7 @@ workbook.save(self.dataDir + "HelloWorld.xls" , file_format_type.EXCEL_97_TO_200
 print "Document has been saved, please check the output file.";
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**Hello World (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから**Hello World (Aspose.Cells)**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

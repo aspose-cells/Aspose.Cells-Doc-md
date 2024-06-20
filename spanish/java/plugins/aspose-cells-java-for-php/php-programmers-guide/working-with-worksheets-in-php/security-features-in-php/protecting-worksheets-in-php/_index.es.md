@@ -1,15 +1,16 @@
-﻿---
-title: Proteger hojas de trabajo en Php
+---
+title: Proteger hojas de cálculo en Php
 type: docs
 weight: 10
 url: /es/java/protecting-worksheets-in-php/
 ---
-## **Aspose.Cells - Hojas de trabajo de protección**
- Para proteger la hoja de trabajo usando**Aspose.Cells Java for PHP** , llamada**proteger_hoja de trabajo** método de**proteccion** módulo.
+
+## **Aspose.Cells - Protección de hojas de cálculo**
+Para proteger la hoja de cálculo usando **Aspose.Cells Java para PHP**, llame al método **protect_worksheet** del módulo **protection**.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -40,7 +41,7 @@ $protection->setPassword("1234");
 $excel->save($dataDir . "output.xls");  
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Hojas de trabajo de protección (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Protección de hojas de cálculo (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/ProtectingWorksheet.php)

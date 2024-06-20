@@ -1,12 +1,13 @@
-﻿---
-title: Konvertieren Sie Diagramme in Bilder
+---
+title: Diagramme in Bilder umwandeln
 type: docs
 weight: 10
 url: /de/net/convert-charts-to-images/
 ---
-**Diagramme**sind optisch ansprechend und machen es Benutzern leicht, Vergleiche, Muster und Trends in Daten zu erkennen. Anstatt beispielsweise mehrere Spalten mit Arbeitsblattzahlen zu analysieren, können Sie auf einen Blick sehen, ob der Umsatz über Quartalsperioden hinweg sinkt oder steigt, oder wie der tatsächliche Umsatz im Vergleich zum prognostizierten Umsatz abschneidet. Manchmal müssen Sie das Diagramm präsentieren in Ihren Anwendungen oder Webseiten. Möglicherweise müssen Sie es in ein Word-Dokument, eine PDF-Datei, eine Power Point-Präsentation oder in ein anderes Szenario einfügen. Sie möchten einfach, dass das Diagramm als Bild gerendert wird, damit Sie es problemlos in Ihre Anwendungen einfügen können. Ein Bild lohnt sich. Häufig muss man im Laufe der Arbeit statistische und grafische Informationen auf leicht verständliche und pflegeleichte Weise darstellen. Sie könnten es mit Office Automation versuchen, aber Office Automation hat seine eigenen Nachteile. Es gibt mehrere Gründe und Probleme: zB Sicherheit, Stabilität, Skalierbarkeit/Geschwindigkeit, Preis, Funktionen usw. Kurz gesagt, es gibt viele Gründe, wobei der wichtigste darin besteht, dass Microsoft selbst dringend gegen Office-Automatisierung von Softwarelösungen empfiehlt: Überlegungen zu serverseitige Automatisierung von Office. Es gibt eine weitere Option, mit der Sie ein Excel-Diagramm in ein Bild konvertieren können**Aspose.Cells**.
-## **Konvertieren von Diagramm zu EMF**
-{{< highlight "csharp" >}}
+
+**Diagramme** sind optisch ansprechend und erleichtern es Benutzern, Vergleiche, Muster und Trends in Daten zu erkennen. Anstatt mehrere Spalten mit Arbeitsblattzahlen analysieren zu müssen, können Sie auf einen Blick erkennen, ob die Umsätze über Quartale hinweg fallen oder steigen oder wie sich die tatsächlichen Umsätze mit den prognostizierten Umsätzen vergleichen. Manchmal müssen Sie das Diagramm in Ihren Anwendungen oder Webseiten präsentieren. Sie möchten es möglicherweise in ein Word-Dokument, eine PDF-Datei, eine Powerpoint-Präsentation oder in einem anderen Szenario einfügen. Sie möchten das Diagramm einfach als Bild darstellen, um es problemlos in Ihre Anwendungen einfügen zu können. Ein Bild sagt mehr als tausend Worte. Häufig muss man im beruflichen Alltag statistische und grafische Informationen auf verständliche und leicht zu handhabende Weise präsentieren. Sie könnten versuchen, die Büroautomatisierung zu verwenden, aber die Büroautomatisierung hat ihre eigenen Nachteile. Es gibt mehrere Gründe und Probleme, z. B. Sicherheit, Stabilität, Skalierbarkeit/Geschwindigkeit, Preis, Funktionen usw. Kurz gesagt, es gibt viele Gründe, wobei der Hauptgrund darin besteht, dass Microsoft selbst dringend von der Büroautomatisierung von Softwarelösungen abrät: Überlegungen zur serverseitigen Automatisierung von Office. Es gibt eine andere Option, die Sie verwenden können, um ein Excel-Diagramm in ein Bild umzuwandeln, und zwar mit Hilfe von **Aspose.Cells**.
+## **Konvertierung von Diagramm in EMF**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -64,8 +65,8 @@ chart.ToImage(MyDir + "Chart to EMF Image.Emf", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **Konvertieren von Diagramm zu BMP**
-{{< highlight "csharp" >}}
+## **Konvertierung von Diagramm in BMP**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -122,8 +123,8 @@ chart.NSeries.Add("A1:B3", true);
 chart.ToImage(MyDir + "Chart to BMP Image.Bmp", System.Drawing.Imaging.ImageFormat.Bmp);
 
 {{< /highlight >}}
-## **Umrechnungstabelle in JPEG**
-{{< highlight "csharp" >}}
+## **Konvertierung von Diagramm in JPEG**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -181,8 +182,8 @@ chart.ToImage(MyDir + "Chart to JPEG Image.Jpeg", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Umrechnungstabelle in PNG**
-{{< highlight "csharp" >}}
+## **Konvertierung von Diagramm in PNG**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -240,8 +241,8 @@ chart.ToImage(MyDir + "Chart to PNG Image.Png", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **Konvertieren von Diagramm zu TIFF**
-{{< highlight "csharp" >}}
+## **Konvertierung von Diagramm in TIFF**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -299,8 +300,8 @@ chart.ToImage(MyDir + "Chart to Tiff Image.Tiff", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Diagramm in MultiPage konvertieren TIFF**
-{{< highlight "csharp" >}}
+## **Konvertierung von Diagramm in Multipage-TIFF**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -372,5 +373,5 @@ chart.ToImage(MyDir + "Chart to Tiff Image.tiff", options);
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Converting%20Chart%20to%20Image%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Converting%20Chart%20to%20Image%20%28Aspose.Cells%29.zip)

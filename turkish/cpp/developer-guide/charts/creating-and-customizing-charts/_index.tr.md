@@ -4,34 +4,35 @@ type: docs
 weight: 10
 url: /tr/cpp/creating-and-customizing-charts/
 ---
-##  **Olası Kullanım Senaryoları**
 
-Grafik, bilgilerin görsel bir gösterimidir. Aspose.Cells, geliştiricilerin tıpkı Microsoft Excel'in yaptığı gibi grafiklerdeki bilgileri görselleştirmesine olanak tanır. Bilgilerin grafikler halinde sunulması karar vericilere hızlı ve zamanında karar verme konusunda her zaman yardımcı olur. Ham sayılar yerine grafiklerle verilerdeki karşılaştırmaları, kalıpları ve eğilimleri hızlı bir şekilde görmek daha kolaydır. Bir elektronik tablodaki verilere dayanarak çalışma zamanında grafikler oluşturmak, Aspose.Cells'in kullanışlı özelliklerinden biridir. Aspose.Cells, hem Standart hem de Özelleştirilmiş grafiklerin oluşturulmasını destekler. Aşağıda, Aspose.Cells API'i kullanarak bazı yaygın MS-Excel grafik türlerinin nasıl oluşturulacağına ilişkin örnek dosyalar içeren birkaç örnek göstereceğiz.
+## **Olası Kullanım Senaryoları**
 
-##  **Piramit Grafiği**
+Bir grafik, bilgilerin görsel bir şekilde gösterimidir. Aspose.Cells geliştiricilere, Microsoft Excel'in yaptığı gibi bilgileri grafiklerde görselleştirmeyi sağlar. Bilgilerin grafiklerde sunulması, karar vericilerin hızlı ve zamanında kararlar almasına yardımcı olur. Grafikler aracılığıyla verilerdeki karşılaştırmalar, desenler ve trendler hızlı bir şekilde görülebilir. Aspose.Cells'ın faydalı bir özelliği, elektronik tablodaki verilere dayalı olarak çalışma zamanında grafikler oluşturmaktır. Aspose.Cells, Hem Standart Hem de Özelleştirilmiş grafikler oluşturmayı destekler. Aşağıda, Aspose.Cells API'sini kullanarak yaygın MS-Excel grafik tiplerini oluşturmak için birkaç örnek dosya ile bazı örnekleri göstereceğiz.
 
- Örnek kod çalıştırıldığında çalışma sayfasına bir piramit grafiği eklenir. Lütfen bkz[Excel dosyasının çıktısı](66519068.xlsx) aşağıdaki örnek koddan.
+## **Piramit Grafiği**
+
+Örnek kod çalıştırıldığında, bir piramit grafik çalışma sayfasına eklenir. Lütfen aşağıdaki örnek kodun [çıktı Excel dosyasını](66519068.xlsx) inceleyin.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_PyramidChart-new.cpp" >}}
 
-##  **Çizgi grafik**
+## **Çizgi Grafiği**
 
-Yukarıdaki örnekte, yalnızca[**Grafik tipi**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttype/)ile**'ChartType::Çizgi'**çizgi grafiği oluşturur. Kaynağın tamamı aşağıda verilmiştir. kod yürütüldüğünde çalışma sayfasına bir çizgi grafik eklenir. Lütfen bkz[Excel dosyasının çıktısı](66519069.xlsx) aşağıdaki örnek koddan.
+Yukarıdaki örnekte, sadece [**ChartType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttype/)'yu **`ChartType::Line`**'a değiştirerek bir çizgi grafiği oluşturulur. Tam kaynak aşağıda sağlanmıştır. Kod çalıştırıldığında, bir çizgi grafiği çalışma sayfasına eklenir. Lütfen aşağıdaki örnek kodun [çıktı Excel dosyasını](66519069.xlsx) inceleyin.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_LineChart-new.cpp" >}}
 
-##  **Kabarcık Grafiği**
+## **Kabarcık Grafiği**
 
-Kabarcık grafiği oluşturmak için[**Grafik tipi**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttype/) olarak ayarlanması gerekiyor**'ChartType_Bubble'** ve birkaç ekstra özellik gibi[**Kabarcık Boyutlarını Ayarla**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/setbubblesizes/) & [**SetXValues**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/setxvalues/) buna göre ayarlamak gerekiyor. Aşağıdaki kodu çalıştırdıktan sonra çalışma sayfasına bir kabarcık grafiği eklenir. Lütfen bkz[Excel dosyasının çıktısı](66519070.xlsx) aşağıdaki örnek koddan.
+Baloncuk grafik oluşturmak için, [**ChartType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttype/) **`ChartType_Bubble`** olarak ayarlanmalı ve [**SetBubbleSizes**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/setbubblesizes/) & [**SetXValues**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/setxvalues/) gibi ekstra özellikler uygun şekilde ayarlanmalıdır. Aşağıdaki kodu çalıştırdığınızda, bir baloncuk grafik çalışma sayfasına eklenir. Lütfen aşağıdaki örnek kodun [çıktı Excel dosyasını](66519070.xlsx) inceleyin.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_BubbleChart-new.cpp" >}}
 
-##  **Özel Grafikler Oluşturma**
+## **Özel Grafikler Oluşturma**
 
-Şu ana kadar grafikleri tartışırken, kendi standart biçimlendirme ayarlarına sahip standart grafiklere baktık. Yalnızca veri kaynağını tanımlıyoruz, birkaç özelliği ayarlıyoruz ve grafik varsayılan format ayarlarıyla oluşturuluyor. Ancak Aspose.Cells API'leri, geliştiricilerin kendi format ayarlarıyla grafikler oluşturmasına olanak tanıyan özel grafikler oluşturmayı da destekler. Geliştiriciler çalışma zamanında Aspose.Cells'i kullanarak özel grafikler oluşturabilir.
+Şimdiye kadar, grafikleri tartışırken, kendi standart biçim ayarlarına sahip standart grafiklere bakmıştık. Yalnızca veri kaynağını tanımlarız, birkaç özellik ayarları yaparız ve grafik, varsayılan biçim ayarlarıyla oluşturulur. Ancak Aspose.Cells API'leri, geliştiricilere kendi biçim ayarları ile grafik oluşturmayı destekler. Geliştiriciler, Aspose.Cells'ı kullanarak çalışma zamanında özel grafikler oluşturabilir.
 
-Bir grafik bir veri serisinden oluşur. Özel bir grafik oluştururken geliştiriciler, farklı veri serileri için farklı türde grafikler kullanma özgürlüğüne sahiptir.
+Bir grafik, bir veri serisinden oluşur. Özel bir grafik oluştururken, geliştiriciler farklı veri serileri için farklı grafik türlerini kullanmada özgürlüğe sahiptir.
 
- Aşağıdaki örnek kod, özel grafiklerin nasıl oluşturulacağını gösterir. Bu örnekte ilk veri serisi için sütun grafiği, ikinci seri için ise çizgi grafiği kullanacağız. Sonuç olarak, çalışma sayfasına çizgi grafikle birleştirilmiş bir sütun grafiği ekliyoruz. Lütfen bkz[Excel dosyasının çıktısı](66519071.xlsx) aşağıdaki örnek koddan.
+Aşağıdaki örnek kod, özel grafikler oluşturmayı nasıl gösterir. Bu örnekte, ilk veri serisi için bir sütun grafiği ve ikinci serisi için bir çizgi grafiği kullanacağız. Sonuç olarak, bir çalışma sayfasına sütun grafiği ve çizgi grafiği eklenir. Lütfen aşağıdaki örnek kodun [çıktı Excel dosyasını](66519071.xlsx) inceleyin.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}

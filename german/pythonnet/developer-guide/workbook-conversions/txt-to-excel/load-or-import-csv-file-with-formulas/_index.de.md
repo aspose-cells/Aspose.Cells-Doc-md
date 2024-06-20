@@ -1,20 +1,21 @@
 ---
-title: Laden oder importieren Sie die Datei CSV mit Formeln
+title: Laden oder Importieren von CSV Dateien mit Formeln
 type: docs
 weight: 350
 url: /de/python-net/load-or-import-csv-file-with-formulas/
-description: Laden oder importieren Sie die Datei CSV mit Formeln mithilfe von Aspose.Cells for Python via .NET API.
-keywords: Python Load or Import CSV file with Formulas, Convert CSV with Formulas to Excel in Python via NET, Python convert CSV with Formulas to xlsx, Load CSV with Formulas to Excel file.
+description: Laden oder Importieren von CSV Dateien mit Formeln unter Verwendung der Aspose.Cells für Python via .NET API.
+keywords: Python Laden oder Importieren von CSV Dateien mit Formeln, Konvertieren von CSV mit Formeln in Excel in Python via NET, Python Konvertieren von CSV mit Formeln in xlsx, Laden von CSV mit Formeln in Excel Datei.
 ---
+
 {{% alert color="primary" %}} 
 
- Die Datei CSV enthält hauptsächlich Textdaten und keine Formeln. Allerdings kommt es manchmal vor, dass CSV-Dateien auch Formeln enthalten. Solche CSV-Dateien sollten durch Festlegen von geladen werden[TxtLoadOptions.has_formula](https://reference.aspose.com/cells/python-net/aspose.cells/txtloadoptions/has_formula/) als *wahr**. Sobald diese Eigenschaft auf *true** gesetzt ist, behandelt Aspose.Cells Formeln nicht mehr als einfachen Text. Sie werden als Formel behandelt und von der Formelberechnungsmaschine Aspose.Cells wie gewohnt verarbeitet.
+CSV-Datei enthält hauptsächlich textuelle Daten und keine Formeln. Manchmal kommt es jedoch vor, dass CSV-Dateien auch Formeln enthalten. Solche CSV-Dateien sollten geladen werden, indem die [TxtLoadOptions.has_formula](https://reference.aspose.com/cells/python-net/aspose.cells/txtloadoptions/has_formula/) auf **true** festgelegt wird. Sobald diese Eigenschaft auf **true** festgelegt ist, wird Aspose.Cells die Formel nicht als einfachen Text behandeln. Sie werden als Formel behandelt und der Formelberechnungsmotor von Aspose.Cells wird sie wie gewohnt verarbeiten.
 
 {{% /alert %}} 
 
- Der folgende Code veranschaulicht, wie Sie eine CSV-Datei mit Formeln laden und importieren können. Sie können jede CSV-Datei verwenden. Zur Veranschaulichung verwenden wir die[einfache CSV-Datei](5115034.csv)welches diese Daten enthält. Wie Sie sehen, enthält es eine Formel.
+Der folgende Code zeigt, wie Sie eine CSV-Datei mit Formeln laden und importieren können. Sie können jede CSV-Datei verwenden. Zu Veranschaulichungszwecken verwenden wir die [einfache CSV-Datei](5115034.csv), die diese Daten enthält. Wie Sie sehen, enthält sie eine Formel.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  300,500,=Sum(A1:B1)
 
@@ -24,7 +25,7 @@ keywords: Python Load or Import CSV file with Formulas, Convert CSV with Formula
 
 
 
- Der Code lädt zunächst die Datei CSV und importiert sie dann erneut in Zelle D4. Schließlich wird das Arbeitsmappenobjekt im XSLX-Format gespeichert. Der[Ausgabedatei XLSX](5115052.xlsx) sieht aus wie das. Wie Sie sehen, enthalten die Zellen C3 und F4 die Formel und das Ergebnis 800.
+Der Code lädt zunächst die CSV-Datei, importiert sie dann erneut in die Zelle D4. Schließlich speichert er das Arbeitsmap-Objekt im XSLX-Format. Die [Ausgabe-XLSX-Datei](5115052.xlsx) sieht so aus. Wie Sie sehen, enthalten die Zelle C3 und F4 eine Formel und ihr Ergebnis 800.
 
 |![todo:image_alt_text](load-or-import-csv-file-with-formulas_1.png)|
 | :- |

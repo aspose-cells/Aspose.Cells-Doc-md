@@ -1,19 +1,20 @@
-﻿---
-title: Verileri Çalışma Sayfasına Aktarırken Formül Alanlarını Belirtin
+---
+title: Çalışma Sayfasına Veri İçeri Aktarırken Formül Alanları Belirt
 type: docs
 weight: 220
 url: /tr/java/specify-formula-fields-while-importing-data-to-worksheet/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- kullanarak çalışma sayfanıza veri aktardığınızda formül alanlarını belirleyebilirsiniz.[**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#IsFormulas) yöntem. Bu yöntem, değerin bulunduğu Boolean dizisini alır.**doğru**alanın bir formül alanı olduğu anlamına gelir. Örneğin, üçüncü alan bir formül alanıysa dizideki üçüncü değer şu olacaktır:**doğru**.
+[**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#IsFormulas) yöntemini kullanarak çalışma sayfanıza veri içeri aktarırken formül alanlarını belirleyebilirsiniz. Bu metod, **true** değeri olan Boolean dizisini alır, **true** olan değer alanın bir formül alanı olduğunu belirtir. Örneğin, üçüncü alan bir formül alanı ise, dizideki üçüncü değer **true** olacaktır.
 
-## **Verileri Çalışma Sayfasına Aktarırken Formül Alanlarını Belirtin**
+## **Çalışma Sayfasına Veri İçeri Aktarırken Formül Alanlarını Belirt**
 
- Lütfen verileri bir çalışma sayfasına alırken formül alanının nasıl belirtileceğini açıklayan aşağıdaki örnek koda bakın. Lütfen bkz[çıktı excel dosyası](61767850.xlsx) kod tarafından oluşturulan ve kodun çıktı Excel dosyası üzerindeki etkisini gösteren ekran görüntüsü.
+Lütfen, çalışma sayfasına veri içeri aktarırken formül alanını belirtme işlemini açıklayan aşağıdaki örnek kodu inceleyin. Lütfen kod tarafından oluşturulan [çıktı Excel dosyasını](61767850.xlsx) ve çıktı Excel dosyası üzerinde kodun etkisini gösteren ekran görüntüsünü inceleyin.
 
-![yapılacaklar:resim_alternatif_metin](specify-formula-fields-while-importing-data-to-worksheet_1.png)
+![todo:image_alt_text](specify-formula-fields-while-importing-data-to-worksheet_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.java" >}}

@@ -1,110 +1,111 @@
-﻿---
-title: ExcelへのUmbracoデータベースデータエクスポーター
+---
+title: Umbraco データベースデータエクスポーターを Excel にエクスポート
 type: docs
 weight: 20
 url: /ja/net/umbraco-database-data-exporter-to-excel/
 ---
-## **序章**
-Aspose .NET Umbraco モジュール用の Excel へのデータベース データ エクスポーターを使用すると、ユーザーは、ローカルまたはリモートのデータベース テーブル、ビュー、およびカスタム クエリから Microsoft Excel または OpenOffice スプレッドシートにデータを直接エクスポートできます。このモジュールは、Aspose.Cells が提供する強力なスプレッドシート作成機能を示しています。モジュールのこの初期バージョンには、次の優れた機能が強化されており、エクスポート プロセスがシンプルで使いやすくなっています。
-### **モジュールの機能**
-このアドオンの初期バージョンには、次の機能があります。
 
-- ローカル MS SQL Server データベースへの接続を許可する
-- リモート MS SQL Server データベースへの接続を許可する
-- 接続されたデータベースからすべてのテーブルを作成します
-- 接続されたデータベースからすべてのビューを取り込みます
-- カスタムクエリの書き込みを許可
-- コンテンツの長さに合わせて列を自動調整します。
-- Excel セルで 32k を超える文字列をスキップできるようにする (LoadOptions)
-- ヘッダー列の書式を太字として適用する
-- データ ソース (テーブル、ビュー、カスタム クエリ) としての使用を許可する
-- データを Microsoft Excel ドキュメント (.xls、.xlsx、および .xlsb) にエクスポート
-- データをタブ区切りのテキスト ドキュメント (*.txt) にエクスポート
-- データを CSV (カンマ区切り) にエクスポート (*.csv)
-- データを OpenDocument スプレッドシート (*.od) にエクスポート
-- エクスポートする前に、目的の出力形式を選択するオプション。
-- エクスポートされたドキュメントは、ダウンロードのためにブラウザに自動的に送信されます。
+## **紹介**
+Aspose .NET Database Data Exporter to Excel for Umbraco Moduleは、ユーザーがローカルまたはリモートのデータベーステーブル、ビュー、およびカスタムクエリからデータをMicrosoft ExcelまたはOpenOfficeスプレッドシートに直接エクスポートできるようにします。このモジュールは、Aspose.Cellsが提供する強力なスプレッドシート作成機能をデモンストレーションしています。この初期バージョンのモジュールには、エクスポートプロセスをシンプルで使いやすくする以下のクールな機能が搭載されています。
+### **モジュールの機能**
+このアドオンの最初のバージョンには、次の機能があります:
+
+- ローカルMS SQL Serverデータベースに接続を許可
+- リモートMS SQL Serverデータベースに接続を許可
+- 接続したデータベースからすべてのテーブルをポップアップ
+- 接続したデータベースからすべてのビューをポップアップ
+- カスタムクエリの記述を許可
+- コンテンツの長さに合わせて列の幅を自動調整
+- エクセルセル内の32kを超える文字列をスキップすることを許可（LoadOptions）
+- ヘッダーカラムの書式を太字テキストに適用
+- データソースとして使用を許可（テーブル、ビュー、カスタムクエリ）
+- マイクロソフトエクセルドキュメント（.xls、.xlsx、.xlsb）へのデータのエクスポートを許可
+- タブ区切りテキストドキュメント（*.txt）へのデータのエクスポートを許可
+- CSV（カンマ区切り）（*.csv）へのデータのエクスポートを許可
+- OpenDocumentスプレッドシート（*.ods）へのデータのエクスポートを許可
+- エクスポート前に出力形式を選択するオプションを提供
+- エクスポートされたドキュメントは自動的にブラウザに送信されてダウンロードされます 
 
 .
 
-![todo:画像_代替_文章](umbraco-database-data-exporter-to-excel_1)
-## **システム要件とサポートされるプラットフォーム**
-### **システム要求**
-Aspose .NET Database Data Exporter を Umbraco モジュール用の Excel にセットアップするには、次の要件を満たす必要があります。
+![todo:image_alt_text](umbraco-database-data-exporter-to-excel_1)
+## **システム要件およびサポートされるプラットフォーム**
+### **システム要件**
+Aspose .NET Database Data Exporter to Excel for Umbracoモジュールを設定するには、次の要件を満たしている必要があります:
 
-- Umbraco 6.2.5 & Umbraco 6 バージョン
-- MS SQL Server を使用する Umbraco
-- Microsoft .Net フレームワーク 4.0
+- Umbraco 6.2.5およびUmbraco 6バージョン
+- MS SQL Serverを搭載したUmbraco
+- Microsoft .Net Framework 4.0
 
-**ノート：** Umbraco 7 以降は、このリリースではサポートされていません。フィードバックをお待ちしており、次のバージョンで Umbraco 7 のサポートを追加します。
+**注意:** このリリースではUmbraco 7およびそれ以上のバージョンはサポートされていません。次のバージョンでUmbraco 7のサポートを追加するためのフィードバックをお待ちしております。
 ### **サポートされているプラットフォーム**
-このモジュールは、のすべてのバージョンでサポートされています。
+このモジュールはすべてのバージョンでサポートされています
 
-- ASP.NET 4.0 で実行されている Umbraco 6.0
-## **ダウンロード中**
-Aspose .NET Cells Database Data Exporter to Excel for Umbraco モジュールは、次のいずれかの場所からダウンロードできます。
+- ASP.NET 4.0で動作しているUmbraco 6.0
+## **ダウンロード**
+Aspose .NET Cells Database Data Exporter to Excel for Umbracoモジュールは、次のいずれかの場所からダウンロードできます
 
-- [アンブラコ プロジェクト](https://goo.gl/BPrWm2)
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsUmbracoDatatoExcel)
+- [Umbracoプロジェクト](https://goo.gl/BPrWm2)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsUmbracoDatatoExcel)
 ## **インストール**
-ダウンロードしたら、次の手順に従って、このパッケージを Umbraco Web サイトにインストールしてください。
+ダウンロードしたら、次の手順に従ってこのパッケージをUmbracoウェブサイトにインストールしてください:
 
-1. アンブラコにログインする**デベロッパー**セクション、たとえば `http://www.myblog.com/umbraco`
-1. ツリーから、**パッケージ**フォルダ。
-1. ここから、パッケージをインストールする方法は 2 つあります。**ローカル パッケージをインストールする**または閲覧する**Umbraco パッケージ リポジトリ。**
-1. インストールすれば**ローカル パッケージ**、パッケージを解凍せずに、zip を Umbraco にロードします。
+1. たとえば以下のURLに移動してUmbracoの**Developer**セクションにログインします: `http://www.myblog.com/umbraco`
+1. ツリーから**パッケージ**フォルダーを展開します。
+1. ここからパッケージをインストールする方法は2つあります: **Install local package**を選択するか、**Umbraco Package Respository**を閲覧します。
+1. **ローカルパッケージをインストール**を選択する場合は、パッケージを解凍せずにzipをUmbracoに読み込んでください。
 1. 画面の指示に従います。
 
-**ノート：**インストール時に「リクエストの最大長を超えました」というエラーが表示される場合があります。この問題は、Umbraco web.config ファイルの「maxRequestLength」値を更新することで簡単に修正できます。
+**注意:** インストール中に「最大リクエスト長が超過しました」というエラーが発生することがあります。Umbraco web.config ファイルの 'maxRequestLength' 値を更新することで簡単にこの問題を解決できます。
 <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" />
-## **使用する**
-Aspose .NET Database Data Exporter to Excel for Umbraco モジュールをインストールすると、Web サイトで簡単に使用できるようになります。開始するには、次の簡単な手順に従ってください
+## **を使用する**
+Aspose .NETデータベースデータエクスポータをExcel for Umbracoモジュールをインストールしたら、ウェブサイトでそれを使用するのはとても簡単です。以下のシンプルなステップに従って始めることができます。
 
-1. Umbraco にログインしていることを確認します。**デベロッパー**セクション、たとえば `http://www.myblog.com/umbraco/`
-1. クリック**設定**画面の左下にあるセクションのリストにあります。
-1. 拡大する**テンプレート**ノードをクリックして、追加するテンプレート (Textpage など) を選択します。
-1. 選択したテンプレートで、追加するボタンをエクスポートする位置を選択します。通常、ページの右上またはページの下部に追加することができます。
-1. クリック**マクロを挿入**上のリボンに。
-1. から**マクロを選択**(Aspose .NET Database Data Exporter to Excel for Umbraco)、最近インストールされた Aspose .NET Database Data Exporter to Excel for Umbraco マクロを選択し、**わかった**.
+1. たとえば`http://www.myblog.com/umbraco/` のような、Umbracoの**Developer**セクションにログインしていることを確認します。
+1. 画面下部のセクションリストで**Settings**をクリックします。
+1. **Templates**ノードを展開し、たとえばTextpageのように追加したいテンプレートを選択します。
+1. 選択したテンプレート内でエクスポートボタンを追加したい位置を選択します。通常、ページの右上やページの下部などに追加したい場合があります。
+1. 上部リボンで**Insert Macro**をクリックします。
+1. **Choose a macro**（Aspose .NETデータベースデータエクスポータをExcel for Umbraco）から、最近インストールしたAspose .NETデータベースデータエクスポータをExcel for Umbracoのマクロを選択し、**OK**をクリックします。
 
-詳細については、以下のスクリーンショットを確認してください。
+詳細については、以下のスクリーンショットをご確認ください。 
 
-![todo:画像_代替_文章](umbraco-database-data-exporter-to-excel_2)
+![todo:image_alt_text](umbraco-database-data-exporter-to-excel_2)
 
-Aspose .NET Database Data Exporter to Excel モジュールがページに正常に追加されました。
+Aspose .NETデータベースデータエクスポータをExcelモジュールをページに追加することができました。
 
-![todo:画像_代替_文章](umbraco-database-data-exporter-to-excel_1)
+![todo:image_alt_text](umbraco-database-data-exporter-to-excel_1)
 
-1. 事前設定された MS SQL Server 接続文字列を入力または使用します
-1. Selected データ ソース タイプ (テーブル、ビュー、カスタム クエリ)
-1. データ ソースの選択または入力 (テーブル、ビュー、カスタム クエリ)
-1. エクスポートの種類を選択
-1. [データのエクスポート] をクリックします
-1. 目的のファイルが自動的にダウンロードされます。
+1. MS SQL Server Connection Stringを入力するか、事前に入力されたものを使用します。
+1. データソースタイプ（Table、View、Custom Query）を選択します。
+1. データソース（Table、View、Custom Query）を選択または入力します。
+1. エクスポートタイプを選択します。
+1. データをエクスポートします。
+1. 希望のファイルが自動的にダウンロードされます。
 ## **ビデオデモ**
-チェックしてください[ビデオ](https://www.youtube.com/watch?v=MkfKyeLTauE)モジュールの動作を確認するには、以下を参照してください。
+モジュールの動作を確認するために、下記の[ビデオ](https://www.youtube.com/watch?v=MkfKyeLTauE)をご覧ください。
 ## **サポート、拡張、貢献**
 ### **サポート**
-Aspose の最初の日から、私たちはお客様に良い製品を提供するだけでは十分ではないことを知っていました。また、優れたサービスを提供する必要もありました。私たち自身も開発者であり、技術的な問題やソフトウェアの異常によって必要な作業ができなくなると、どれほどイライラするかを理解しています。問題を作成するのではなく、問題を解決するためにここにいます。
+Asposeが立ち上がって最初の日から、良い製品だけを提供するだけでは不十分だと分かっていました。良いサービスも提供する必要がありました。私たち自身も開発者であり、技術的な問題やソフトウェアの不具合が必要なことを妨げるときにどれだけイライラするか理解しています。私たちは問題を解決するためにここにいて、それを作り出すためではありません。
 
-そのため、無料サポートを提供しています。私たちの製品を購入したか、評価を使用しているかにかかわらず、私たちの製品を使用するすべての人は、私たちの十分な注意と尊敬に値します.
+そのため、無料サポートを提供しています。製品を購入したか、評価を使用しているかに関わらず、私たちの製品を使用するすべての人にフルの注意と尊敬を提供する価値があります。
 
-次のプラットフォームのいずれかを使用して、Umbraco モジュールの Aspose.Words .NET に関連する問題または提案を記録できます。
+Aspose.Words .NET for Umbraco Modules に関連する問題や提案をログに記録できます。以下のプラットフォームのいずれかを使用してください
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-### **拡張して貢献する**
-メンバーを Excel にエクスポートは、オープン ソースのアドオンであり、そのソース コードは、以下に示す主要なソーシャル コーディング Web サイトで入手できます。開発者は、ソース コードをダウンロードし、独自の要件に従って機能を拡張することをお勧めします。
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+### **拡張と貢献**
+Export Members to Excel はオープンソースのアドオンで、そのソースコードは以下の主要なソーシャルコーディングウェブサイトで利用できます。開発者はソースコードをダウンロードして、自分の要件に応じて機能を拡張することができます。
 #### **ソースコード**
-最新のソース コードは、次のいずれかの場所から入手できます。
+最新のソースコードを以下の場所から取得できます
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.DatabaseDataExportertoExcel)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.DatabaseDataExportertoExcel)
 #### **ソースコードの構成方法**
-ソースコードを開いて拡張するには、以下をインストールする必要があります
+以下のアイテムがインストールされている必要があります
 
-- Visual Studio 2010 以降
+- Visual Studio 2010 またはそれ以降
 
-開始するには、次の簡単な手順に従ってください
+開始するための簡単なステップに従ってください
 
 1. ソースコードをダウンロード/クローンします。
-1. Visual Studio 2010 を開き、選択します**ファイル** > **プロジェクトを開く**
-1. ダウンロードして開いた最新のソースコードを参照します**例: Aspose.DatabaseDataExportertoExcel.sln**
+1. Visual Studio 2010を開き、**ファイル** > **プロジェクトを開く** を選択してください
+1. ダウンロードした最新のソースコードに移動し、**e.g Aspose.DatabaseDataExportertoExcel.sln**を開きます。

@@ -1,157 +1,160 @@
-﻿---
-title: Formato Cells
+---
+title: Formato Cella
 type: docs
 weight: 40
-url: /it/net/format-grid-cells/
+url: /it/net/aspose-cells-gridweb/format-grid-cell/
+keywords: GridWeb, formato, stile
+description: Questo articolo introduce come impostare o applicare lo stile format per una cella (GridCell) in GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
 Questo argomento fornisce una discussione dettagliata su come formattare le celle.
 
-Copre la formattazione delle celle in modalità GUI utilizzando la finestra di dialogo Stile del controllo Aspose.Cells.GridWeb. Mostra anche come formattare le celle a livello di codice. Vengono discusse diverse impostazioni di formato come carattere, bordo e formato numerico, illustrate con esempi.
+Si tratta della formattazione delle celle in modalità GUI utilizzando il controllo Aspose.Cells.GridWeb's Style dialog. Mostra anche come formattare le celle programmatticamente. Diverse impostazioni di formato come carattere, bordo e formato numerico sono discusse, illustrate con esempi.
 
 {{% /alert %}} 
-## **Formattazione Cells Utilizzo della finestra di dialogo Stile**
- Cells può essere formattato[programmaticamente](/cells/it/net/format-cells/)ma il modo più semplice per formattare le celle nel controllo Aspose.Cells.GridWeb in modo WYSIWYG è utilizzare la finestra di dialogo Stile.
+## **Formattazione Celle Utilizzando il Dialogo di Stile**
+Le celle possono essere formattate [programmaticamente](/cells/it/net/aspose-cells-gridweb/format-cells/) ma il modo più semplice per formattare le celle nel controllo Aspose.Cells.GridWeb in modo WYSIWYG, è utilizzare il dialogo di stile.
 
-Per utilizzare la finestra di dialogo Stile:
- Seleziona un intervallo di celle, quindi fai clic con il pulsante destro del mouse e seleziona**Formato Cell**. 
+Per utilizzare il dialogo di stile:
+Selezionare un intervallo di celle, quindi fare clic con il pulsante destro del mouse e selezionare **Formato Cella**. 
 
-**Selezionando il formato Cell** 
+**Selezionare Formato Cella** 
 
-![cose da fare:immagine_alt_testo](format-cells_1.png)
+![todo:image_alt_text](format-cells_1.png)
 
 
 
- Viene visualizzata la finestra di dialogo Stile.
+Viene visualizzato il dialogo di stile. 
 
-**La finestra di dialogo Stile viene utilizzata per formattare le celle** 
+**Il dialogo di stile viene utilizzato per formattare le celle** 
 
-![cose da fare:immagine_alt_testo](format-cells_2.png)
+![todo:image_alt_text](format-cells_2.png)
 
-La finestra di dialogo Stile consente agli utenti di formattare le celle personalizzando le impostazioni del carattere e del bordo.
-### **Personalizzazione delle impostazioni dei caratteri**
-È possibile personalizzare le seguenti impostazioni dei caratteri utilizzando la finestra di dialogo Stile:
+La finestra di dialogo Stile consente agli utenti di formattare le celle personalizzando i settaggi del carattere e del bordo.
+### **Personalizzazione delle Impostazioni del Carattere**
+Puoi personalizzare le seguenti impostazioni del carattere utilizzando la finestra di dialogo Stile:
 
-- Nome carattere, selezionare il carattere desiderato dall'elenco.
-- Stile del carattere, applica uno stile del carattere come grassetto, corsivo ecc.
-- Dimensione carattere, selezionare una dimensione del carattere in punti.
-- Sottolineare, sottolineare il testo.
-- Barrato, applica un effetto barrato al testo.
-- Allineamento orizzontale, selezionare l'allineamento orizzontale.
-- Allineamento verticale, selezionare l'allineamento verticale.
-- Colore carattere, seleziona un colore per il carattere.
+- Nome del carattere, seleziona un carattere desiderato dalla lista.
+- Stile del carattere, applica uno stile come grassetto, corsivo, ecc.
+- Dimensione del carattere, seleziona una dimensione del carattere in punti.
+- Sottolineatura, sottolinea il testo.
+- Barrato, applica un effetto di barrato al testo.
+- Allineamento orizzontale, seleziona l'allineamento orizzontale.
+- Allineamento verticale, seleziona l'allineamento verticale.
+- Colore del carattere, seleziona un colore del carattere.
 - Sfondo, seleziona un colore per lo sfondo.
 
-È possibile controllare le impostazioni dei caratteri selezionati in una piccola area di anteprima.
+Puoi controllare le impostazioni del carattere selezionate in un'area di anteprima ridotta.
 
-**Impostazioni dei caratteri personalizzate** 
+**Impostazioni del carattere personalizzate** 
 
-![cose da fare:immagine_alt_testo](format-cells_3.png)
-### **Personalizzazione delle impostazioni del bordo**
-Il controllo consente inoltre agli utenti di tracciare un bordo attorno alle celle personalizzando le impostazioni del bordo nella finestra di dialogo Stile.
+![todo:image_alt_text](format-cells_3.png)
+### **Personalizzazione delle Impostazioni del Bordo**
+Il controllo consente anche agli utenti di disegnare un bordo intorno alle celle personalizzando le impostazioni del bordo nella finestra di dialogo Stile.
 
 Per visualizzare le opzioni relative ai bordi:
- Clic**frontiere** nella finestra di dialogo Stile.
- Vengono visualizzate le opzioni relative al bordo.
+Clicca su **Bordi** nella finestra di dialogo Stile.
+Le opzioni relative ai bordi vengono visualizzate. 
 
-**Opzioni del bordo nella finestra di dialogo dello stile** 
+**Opzioni del bordo nella finestra di dialogo di stile** 
 
-![cose da fare:immagine_alt_testo](format-cells_4.png)
+![todo:image_alt_text](format-cells_4.png)
 
-Le seguenti opzioni di bordo possono essere selezionate dalla finestra di dialogo Stile:
+È possibile selezionare le seguenti opzioni di bordo dalla finestra di dialogo Stile:
 
-- Stile della linea del bordo, seleziona lo stile del bordo come solido, tratteggiato ecc.
-- Larghezza della linea del bordo, selezionare la larghezza del bordo in pixel.
-- Colore della linea del bordo, selezionare il colore della linea.
-- Linee di confine, selezionare la numerazione e il posizionamento delle linee di confine.
+- Stile linea di bordo, seleziona lo stile del bordo come solido, tratteggiato, ecc.
+- Larghezza della linea di bordo, seleziona la larghezza del bordo in pixel.
+- Colore linea di bordo, seleziona il colore della linea.
+- Linee di bordo, seleziona la numerazione e il posizionamento delle linee di bordo.
 
-**Impostazioni del bordo personalizzate** 
+**Impostazioni bordo personalizzate** 
 
-![cose da fare:immagine_alt_testo](format-cells_5.png)
-### **Applicazione delle impostazioni**
- Clic**OK** nella finestra di dialogo Stile per applicare le modifiche.
+![todo:image_alt_text](format-cells_5.png)
+### **Applicare le impostazioni**
+Fare clic su **OK** nella finestra di dialogo Stile per applicare le modifiche.
 
-**Impostazioni di carattere e bordo applicate** 
+**Impostazioni carattere e bordo applicate** 
 
-![cose da fare:immagine_alt_testo](format-cells_6.png)
+![todo:image_alt_text](format-cells_6.png)
 
 
-## **Formattazione Cells Utilizzo di API**
-Cells può anche essere formattato a livello di codice con Aspose.Cells.GridWeb API. Ogni cella ha una proprietà Style, che rappresenta un oggetto GridTableItemStyle. Utilizzare la proprietà Style per personalizzare le impostazioni del carattere e del bordo.
+## **Formattazione delle celle tramite API**
+Le celle possono anche essere formattate programmaticamente con l'API Aspose.Cells.GridWeb. Ogni cella ha una proprietà Style, che rappresenta un oggetto GridTableItemStyle. Utilizza la proprietà Style per personalizzare le impostazioni del carattere e del bordo.
 ### **Impostazione carattere**
-Per personalizzare le impostazioni dei caratteri a livello di programmazione:
+Per personalizzare le impostazioni del carattere programmaticamente:
 
-1. Aggiungere il controllo Aspose.Cells.GridWeb a un Web Form.
+1. Aggiungi il controllo Aspose.Cells.GridWeb a un modulo Web.
 1. Accedi a un foglio di lavoro.
 1. Accedi alla cella che stai formattando.
-1. Accedi allo stile della cella.
-1. Imposta la dimensione del carattere in punti.
-1. Imposta lo stile del carattere.
-1. Imposta i colori di primo piano e di sfondo.
-1. Imposta l'allineamento orizzontale e verticale.
-1. Reimposta lo stile sulla cella.
+2. Accedi allo stile della cella.
+3. Imposta la dimensione del carattere in punti.
+4. Imposta lo stile del carattere.
+5. Imposta i colori di primo piano e sfondo.
+6. Imposta l'allineamento orizzontale e verticale.
+7. Riporta lo stile alla cella.
 
-**Output: impostazioni dei caratteri personalizzate mostrate in A1** 
+**Output: impostazioni del carattere personalizzato mostrate in A1** 
 
-![cose da fare:immagine_alt_testo](format-cells_7.png)
+![todo:image_alt_text](format-cells_7.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyFontStyles.cs" >}}
-### **Impostazione dei confini**
+### **Impostazione dei bordi**
 I bordi possono essere applicati a singole celle o a un intervallo.
-#### **Singolo Cell**
+#### **Singola Cellula**
 Per impostare i bordi di una singola cella:
 
-1. Aggiungere il controllo Aspose.Cells.GridWeb a un Web Form.
+1. Aggiungi il controllo Aspose.Cells.GridWeb a un modulo Web.
 1. Accedi a un foglio di lavoro.
-1. Accedi alla cella che stai per formattare.
-1. Accedi all'oggetto Style della cella.
-1. Imposta lo stile del bordo.
-1. Imposta la larghezza del bordo in pixel.
-1. Imposta il colore del bordo.
-1. Imposta lo stile sulla cella.
+1. Accedere alla cella che si sta per formattare.
+1. Accedere all'oggetto stile della cella.
+1. Impostare lo stile del bordo.
+1. Impostare la larghezza del bordo in pixel.
+1. Impostare il colore del bordo.
+1. Impostare lo stile alla cella.
 
-**Impostazioni del bordo personalizzate su una singola cella** 
+**Impostazioni personalizzate dei bordi su una singola cella** 
 
-![cose da fare:immagine_alt_testo](format-cells_8.png)
+![todo:image_alt_text](format-cells_8.png)
 
 {{% alert color="primary" %}} 
 
-È possibile impostare stili diversi per ogni linea di bordo con le proprietà Style.TopBorderStyle, Style.BottomBorderStyle, Style.LeftBorderStyle, Style.RightBorderStyle della cella.
+È possibile impostare stili diversi per ciascuna linea di confine con le proprietà Style.TopBorderStyle, Style.BottomBorderStyle, Style.LeftBorderStyle, Style.RightBorderStyle della cella.
 
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyBorderStyles.cs" >}}
-#### **Gamma di Cells**
+#### **Intervallo di celle**
 Per impostare i bordi su un intervallo di celle:
 
-1. Aggiungere il controllo Aspose.Cells.GridWeb al modulo Web
-1. Accedi a un foglio di lavoro desiderato
-1. Crea un'istanza di un oggetto della classe WebBorderStyle
-1. Imposta lo stile del bordo su solido o tratteggiato ecc.
-1. Imposta la larghezza del bordo in pixel
+1. Aggiungi il controllo Aspose.Cells.GridWeb al tuo modulo Web
+1. Accedere a un foglio di lavoro desiderato
+1. Istanziare un oggetto della classe WebBorderStyle
+1. Impostare lo stile del bordo come Solido o Tratteggiato eccetera.
+1. Impostare la larghezza del bordo in pixel
 1. Imposta il colore del bordo
-1. Applica le impostazioni del bordo memorizzate nell'oggetto WebBorderStyle a un intervallo di celle specificato
+1. Applica le impostazioni del bordo memorizzate nell'oggetto WebBorderStyle a un intervallo specifico di celle
 
 **Un intervallo di celle con impostazioni del bordo personalizzate** 
 
-![cose da fare:immagine_alt_testo](format-cells_9.png)
+![todo:image_alt_text](format-cells_9.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyRangeBorderStyles.cs" >}}
-### **Impostazione dei formati numerici**
- Aspose.Cells.GridWeb supporta l'impostazione dei formati numerici. Ci sono 59 formati numerici incorporati. Per vederli, fare riferimento a questo[elenco dei formati numerici supportati](/cells/it/net/list-of-supported-number-formats/).
+### **Impostare i formati numerici**
+Aspose.Cells.GridWeb supporta l'impostazione dei formati numerici. Ci sono 59 formati numerici incorporati. Per visualizzarli, consulta questa [lista dei formati numerici supportati](/cells/it/net/aspose-cells-gridweb/list-of-supported-number-formats/).
 
-Tutti i formati numerici incorporati si trovano nell'enumerazione NumberType. Per utilizzare un formato numerico predefinito, impostare il metodo NumberType utilizzando SetNumberType dell'oggetto di una cella su un formato numerico dall'enumerazione NumberType.
+Tutti i formati numerici incorporati sono nell'enumerazione NumberType. Per utilizzare un formato numerico incorporato, imposta il NumberType utilizzando il metodo SetNumberType di un oggetto cella su un formato numerico dall'enumerazione NumberType.
 
-Per impostare un formato numerico personalizzato utilizzare il metodo SetCustom della cella.
+Per impostare un formato numerico personalizzato utilizza il metodo SetCustom della cella.
 
-**Impostazioni del formato numerico applicate a B1 e B2** 
+**Impostazioni del formato numerico applicate su B1 e B2** 
 
-![cose da fare:immagine_alt_testo](format-cells_10.png)
+![todo:image_alt_text](format-cells_10.png)
 
 
 

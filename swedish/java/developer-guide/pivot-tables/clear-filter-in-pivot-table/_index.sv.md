@@ -1,26 +1,27 @@
 ---
-title: Rensa filter i pivottabellen
+title: Rensa filter i pivot tabell
 type: docs
 weight: 130
 url: /sv/java/clear-filter-in-pivot-table/
-description: Hur man rensar pivotfiltret från det specifika pivotfältet i pivottabellen med Aspose.Cells.
-keywords: Clear PivotFilter in pivot table.
+description: Hur man rensar PivotFilter från en specifik PivotField i pivot tabellen med Aspose.Cells.
+keywords: Rensa PivotFilter i pivot tabell.
 ---
-##  **Möjliga användningsscenarier**
- När du skapar en pivottabell med känd data och vill filtrera pivottabellen måste du lära dig och använda filter. Det kan hjälpa dig att filtrera bort den information du vill ha effektivt. Genom att använda Aspose.Cells API kan du använda filter på fältvärden i pivottabeller.
 
-##  **Rensa filter i pivottabell i Excel**
-Rensa filter i pivottabell i Excel, följ dessa steg:
+## **Möjliga användningsscenario**
+När du skapar en pivot-tabell med känd data och vill filtrera pivot-tabellen, måste du lära dig och använda filter. Det kan hjälpa dig att effektivt filtrera ut de data du vill ha. Genom att använda Aspose.Cells API kan du operaera filter på fältvärden i Pivot-tabeller. 
 
-1.  Välj den pivottabell som du vill rensa filtret till.
-2. Klicka på rullgardinsmenyn för filtret du vill rensa i pivottabellen.
+## **Rensa filter i pivot-tabell i Excel**
+Rensa filter i pivot-tabell i Excel, följ dessa steg:
+
+1. Välj den pivot-tabell du vill rensa filtret på. 
+2. Klicka på nedåtpilen för filtret som du vill rensa i pivot-tabellen.
 3. Välj "Rensa filter" från rullgardinsmenyn.
 <img src="1.png" width=80% />
-4. Om du vill rensa alla filter från pivottabellen kan du också klicka på knappen "Rensa filter" på fliken Pivottabellanalys på menyfliksområdet i Excel.
+4. Om du vill rensa alla filter från pivottabellen kan du också klicka på knappen "Rensa filter" på fliken PivotTable Analyze i Excel-ribbon.
 <img src="2.png" width=80% />
 
-##  **Rensa filter i pivottabellen**
- Se följande exempelkod. Den ställer in data och skapar en pivottabell baserat på den. Lägg sedan till ett filter i pivottabellens radfält. Slutligen sparar den arbetsboken[utgång XLSX](out_add.xlsx) formatera. Efter exekvering av exempelkoden läggs en pivottabell med top10-filter till i kalkylbladet. Efter att ha lagt till ett filter, när vi behöver ofiltrerad data, kan vi rensa filtret på ett specifikt pivotfält. Efter exekvering av koden för att rensa filtret kommer filtret på det specifika pivotfältet att rensas. Vänligen kontrollera[utgång XLSX](out_delete.xlsx).
+## **Rensa filter i Pivot-tabellen**
+Vänligen se följande exempelkod. Det ställer in datat och skapar en PivotTabell baserad på det. Lägg sedan till ett filter på radfältet i Pivot-tabellen. Slutligen sparar den arbetsboken i formatet [output XLSX](out_add.xlsx). Efter att ha utfört exempelkoden har en pivot-tabell med top10-filter lagts till i kalkylarket. Efter att ha lagt till ett filter, när vi behöver oberikatat data kan vi rensa filtret på ett specifikt pivoton. Efter att ha utfört koden för att rensa filtret, kommer filtret på det specifika pivotelementet rensas. Var vänlig och kolla [output XLSX](out_delete.xlsx).
 
-##  **Exempelkod**
+## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "PivotTables-Clear-filter-in-PivotTable.java" >}}

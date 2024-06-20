@@ -1,57 +1,58 @@
-﻿---
-title: Ändra en befintlig stil
+---
+title: Modifiera en befintlig stil
 type: docs
 weight: 50
 url: /sv/java/modify-an-existing-style/
-description: Lär dig hur du ändrar stilar i Excel med Microsoft Excel och med Aspose.Cells for Java API.
-keywords: modify an existing style excel, modify an existing style excel java, modify existing style excel, modify existing style excel java, change existing style in excel, change existing style in excel java, how to change style in excel, how to change style in excel with java, how to change style in excel with java, how to change style in excel using java, changing existing style in excel java, changing existing style in excel
+description: Lär dig hur man ändrar stilar i Excel med Microsoft Excel och med Aspose.Cells for Java API.
+keywords: ändra en befintlig stil i excel, ändra en befintlig stil i excel java, ändra befintlig stil i excel, ändra befintlig stil i excel java, ändra befintlig stil i excel, ändra befintlig stil i excel java, hur man ändrar stil i excel, hur man ändrar stil i excel med java, hur man ändrar stil i excel med java, hur man ändrar stil i excel med java, ändra befintlig stil i excel java, ändra befintlig stil i excel
 ---
+
 {{% alert color="primary" %}}
 
-Om du vill använda samma formateringsalternativ på celler skapar du ett nytt formateringsobjekt. Ett formateringsstilsobjekt är en kombination av formateringsegenskaper, såsom teckensnitt, teckenstorlek, indrag, nummer, ram, mönster, etc., namngivna och lagrade som en uppsättning. När den tillämpas tillämpas all formatering i den stilen.
+För att tillämpa samma formateringsalternativ på celler, skapa ett nytt formateringsstilobjekt. Ett formateringsstilobjekt är en kombination av formateringsegenskaper, såsom teckensnitt, teckenstorlek, indrag, nummer, kant, mönster etc., namngiven och lagrad som en uppsättning. När den tillämpas, tillämpas all formatering i den stilen.
 
 Du kan också använda en befintlig stil, spara den med arbetsboken och använda den för att formatera information med samma attribut.
 
- När celler inte är explicit formaterade,**Vanligt** stil (arbetsbokens standardstil) tillämpas. Microsoft Excel fördefinierar flera stilar utöver stilen Normal, inklusive komma, valuta och procent.
+När celler inte är explicit formaterade, tillämpas den **Normal** stilen (arbetsbokens standardstil). Microsoft Excel fördefinierar flera stilar förutom Normal-stilen, inklusive Komma, Valuta och Procent.
 
-Aspose.Cells tillåter modifiering av någon av dessa stilar eller någon annan stil som du definierar med dina önskade attribut.
+Aspose.Cells tillåter att modifiera någon av dessa stilar eller någon annan stil som du definierar med önskade attribut.
 
 {{% /alert %}}
 
-## **Använder Microsoft Excel**
+## **Använda Microsoft Excel**
 
-Så här uppdaterar du en stil i Microsoft Excel 97-2003:
+För att uppdatera en stil i Microsoft Excel 97-2003:
 
-1.  På**Formatera** menyn, klicka**Stil**.
-1.  Välj den stil du vill ändra från**Stilnamn** lista.
-1.  Klick**Ändra**.
-1. Välj de stilalternativ du vill använda med flikarna i dialogrutan Format Cells.
-1.  Klick**OK**.
-1.  Under**Stil inkluderar**, ange de stilegenskaper du vill ha.
-1.  Klick**OK** för att spara stilen och tillämpa den på det valda intervallet.
+1. På **Format**-menyn, klicka på **Stil**.
+1. Välj den stil du vill modifiera från listan över **Stilnamn**.
+1. Klicka på **Ändra**.
+1. Välj de stilalternativ du vill använda med flikarna i dialogrutan Formatcells.
+1. Klicka på **OK**.
+1. Under **Stilen innehåller**, ange stilfunktionerna du vill använda.
+1. Klicka på **OK** för att spara stilen och tillämpa den på det valda området.
 
-## **Använder Aspose.Cells**
+## **Använda Aspose.Cells**
 
- Aspose.Cells tillhandahåller[**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()) metod för att uppdatera en befintlig stil.
+Aspose.Cells tillhandahåller [**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--) metoden för att uppdatera en befintlig stil.
 
- För att ändra en namngiven stil, oavsett om den är skapad dynamiskt med Aspose.Cells eller fördefinierad, ring[**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()) metod för att återspegla alla ändringar i stil som tillämpas på en cell eller ett område.
+För att ändra en namngiven stil, antingen skapad dynamiskt med hjälp av Aspose.Cells eller fördefinierad, anropar du [**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--)-metoden för att återspegla eventuella ändringar i stilen som tillämpas på en cell eller ett område.
 
- De[**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update() )-metoden beter sig som**OK** knapp i dialogrutan Stil: efter att ha gjort ändringar i en befintlig stil, ring för att implementera ändringen. Om du redan har tillämpat en stil på ett cellintervall, ändra stilattributen och anropa metoden, uppdateras formateringen av dessa celler automatiskt
+[**Style.update**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update--)-metoden fungerar som knappen **OK** i Stil-dialogrutan: efter att ha gjort ändringar i en befintlig stil, anropa för att implementera ändringen. Om du redan har tillämpat en stil på ett cellområde, ändra stilattributen och anropa metoden, uppdateras formateringen av dessa celler automatiskt
 
-### **Skapa och ändra en stil**
+### **Skapa och modifiera en stil**
 
-Det här exemplet skapar ett stilobjekt, tillämpar det på ett cellintervall och modifierar stilobjektet. Ändringarna tillämpas automatiskt på cellen och det område som stilen tillämpades på.
+Detta exempel skapar en stilobjekt, tillämpar den på ett cellområde och modifierar stilobjektet. Ändringarna tillämpas automatiskt på cellen och området som stilen tillämpades på.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatingStyle-CreatingStyle.java" >}}
 
-### **Ändra en befintlig stil**
+### **Modifiera en befintlig stil**
 
-Det här exemplet använder en enkel mall i Excel-fil där en stil som heter Procent redan har tillämpats på ett intervall. Exemplet:
+Detta exempel använder en enkel mall Excel-fil där en stil som heter Procent redan har tillämpats på en omfattning. Exemplet:
 
-1. får stilen,
-1. skapar ett stilobjekt och
-1. ändrar stilformateringen.
+1. hämtar stilen,
+1. skapar en stilobjekt och
+1. modifierar stilformatering.
 
-Ändringarna tillämpas automatiskt på det område som stilen tillämpades på.
+Modifieringarna tillämpas automatiskt på området där stilen applicerades.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ModifyExistingStyle-ModifyExistingStyle.java" >}}

@@ -1,52 +1,55 @@
-﻿---
-title: Arbeitsblattdaten sortieren
+---
+title: Daten auf dem Arbeitsblatt sortieren
 type: docs
 weight: 80
-url: /de/net/sort-worksheet-data/
+url: /de/net/aspose-cells-gridweb/sort-worksheet-data/
+keywords: GridWeb,sortieren
+description: Dieser Artikel stellt vor, wie Daten in GridWeb sortiert werden.
 ---
+
 {{% alert color="primary" %}} 
 
-Das Sortieren ist ein sehr wertvolles Feature, wenn es um die Datenverarbeitung geht. Unsortierte Daten sind für Benutzer bei der Suche nach bestimmten Informationen mühsam. Aspose.Cells.GridWeb unterstützt leistungsstarke Sortierfunktionen. In diesem Thema wird das Sortieren von Daten mit Aspose.Cells.GridWeb API erläutert.
+Das Sortieren ist ein sehr wertvolles Feature, wenn es um die Datenverarbeitung geht. Unsortierte Daten sind für Benutzer eine Qual bei der Suche nach bestimmten Informationen. Aspose.Cells.GridWeb unterstützt leistungsstarke Sortierfunktionen. Dieses Thema behandelt das Sortieren von Daten mithilfe der Aspose.Cells.GridWeb-API.
 
 {{% /alert %}} 
 ## **Daten sortieren**
-Aspose.Cells.GridWeb ermöglicht es Entwicklern, Daten horizontal und vertikal zu sortieren, sodass Entwickler Daten von oben nach unten oder von links nach rechts sortieren können.
+Aspose.Cells.GridWeb ermöglicht Entwicklern, Daten horizontal und vertikal zu sortieren, sodass Daten von oben nach unten oder von links nach rechts sortiert werden können.
 ### **Von oben nach unten**
-So sortieren Sie Daten von oben nach unten:
+Um Daten von oben nach unten zu sortieren:
 
-1. Fügen Sie Ihrem Webformular das Steuerelement Aspose.Cells.GridWeb hinzu.
+1. Fügen Sie die Aspose.Cells.GridWeb-Steuerung Ihrem Webformular hinzu.
 1. Greifen Sie auf das Arbeitsblatt zu, das Sie sortieren möchten.
-1. Sortieren Sie den Datenbereich in beliebiger Reihenfolge (aufsteigend oder absteigend). Achten Sie darauf, die Ausrichtung von oben nach unten auszuwählen.
+1. Sortieren Sie den Datenbereich in beliebiger Reihenfolge (aufsteigend oder absteigend). Wählen Sie dabei die Orientierung von oben nach unten aus.
 
-Das folgende Beispiel sortiert Daten in vier Spalten eines Arbeitsblatts in absteigender Reihenfolge. Nur zwanzig Zeilen der vier Spalten sind von oben nach unten sortiert.
+Das folgende Beispiel sortiert Daten in vier Spalten eines Arbeitsblatts in absteigender Reihenfolge. Die vier Spalten enthalten nur zwanzig Zeilen sortierter Daten in der Ausrichtung von oben nach unten.
 
-Vor dem Anwenden des Codes enthält das Arbeitsblatt ungeordnete Daten.
+Vor der Anwendung des Codes enthält das Arbeitsblatt ungeordnete Daten.
 
-![todo: Bild_alt_Text](sort-worksheet-data_1.png)
+![todo:image_alt_text](sort-worksheet-data_1.png)
 
-Nach Ausführung des Codes werden die Daten aufsteigend sortiert.
+Nach Ausführung des Codes sind die Daten in aufsteigender Reihenfolge sortiert.
 
-![todo: Bild_alt_Text](sort-worksheet-data_2.png)
+![todo:image_alt_text](sort-worksheet-data_2.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-SortData.aspx-SortTopToBottom.cs" >}}
 ### **Von links nach rechts**
-So sortieren Sie Daten von links nach rechts:
+Um Daten von links nach rechts zu sortieren:
 
-1. Fügen Sie Ihrem Webformular das Steuerelement Aspose.Cells.GridWeb hinzu.
+1. Fügen Sie die Aspose.Cells.GridWeb-Steuerung Ihrem Webformular hinzu.
 1. Greifen Sie auf das Arbeitsblatt zu, das Sie sortieren möchten.
-1. Sortieren Sie den Datenbereich in beliebiger Reihenfolge (aufsteigend oder absteigend). Achten Sie darauf, von links nach rechts auszuwählen.
+1. Sortieren Sie den Datenbereich in beliebiger Reihenfolge (aufsteigend oder absteigend). Stellen Sie sicher, dass Sie von links nach rechts auswählen.
 
-Das folgende Beispiel sortiert Daten in vier Zeilen in aufsteigender Reihenfolge. Nur vier Zeilen mit sieben Spalten werden von links nach rechts sortiert.
+Das folgende Beispiel sortiert Daten in vier Zeilen in aufsteigender Reihenfolge. Es werden nur vier Zeilen von sieben Spalten von links nach rechts sortiert.
 
-Vor dem Anwenden des Codes enthält das Arbeitsblatt ungeordnete Daten.
+Vor der Anwendung des Codes enthält das Arbeitsblatt ungeordnete Daten.
 
-![todo: Bild_alt_Text](sort-worksheet-data_3.png)
+![todo:image_alt_text](sort-worksheet-data_3.png)
 
-Nach Ausführung des Codes werden die Daten in aufsteigender Reihenfolge sortiert.
+Nach Ausführen des Codes werden die Daten in aufsteigender Reihenfolge sortiert.
 
-![todo: Bild_alt_Text](sort-worksheet-data_4.png)
+![todo:image_alt_text](sort-worksheet-data_4.png)
 
 
 
@@ -54,6 +57,6 @@ Nach Ausführung des Codes werden die Daten in aufsteigender Reihenfolge sortier
 
 {{% alert color="primary" %}} 
 
-WICHTIG: Die obigen Beispiele demonstrieren das Sortieren von Daten anhand einer Spalte (von oben nach unten) oder einer Zeile (von links nach rechts). Aspose.Cells. GridWeb kann Daten auch nach mehr als einer Spalte oder Zeile sortieren. Übergeben Sie dazu ein Array von Spalten- oder Zeilenindizes an die Sort-Methode. Hybrid-Datentyp-Sortierung wird ebenfalls unterstützt.
+WICHTIG: Die obigen Beispiele zeigen das Sortieren von Daten basierend auf einer Spalte (von oben nach unten) oder einer Zeile (von links nach rechts). Aspose.Cells.GridWeb kann auch Daten gemäß mehr als einer Spalte oder Zeile sortieren. Geben Sie dazu ein Array von Spalten- oder Zeilenindizes an die Sort-Methode weiter. Die Sortierung von Hybriddatentypen wird ebenfalls unterstützt.
 
 {{% /alert %}}

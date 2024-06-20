@@ -1,13 +1,14 @@
-﻿---
+---
 title: Arbeitsblätter neu anordnen
 type: docs
 weight: 70
 url: /de/net/reorder-worksheets/
 ---
-## **Aspose.Cells – Arbeitsblätter neu anordnen**
+
+## **Aspose.Cells - Arbeitsblätter neu anordnen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook.
 
@@ -37,7 +38,7 @@ workbook.Save("../../data/AsposeMoveSheet.xls");
 ## **NPOI - HSSF XSSF - Arbeitsblätter neu anordnen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -60,13 +61,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Arbeitsblätter neu anordnen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Arbeitsblätter neu anordnen** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/ReOrder.WorkSheets.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Arbeiten mit Arbeitsblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Für weitere Details besuchen Sie [Arbeiten mit Tabellenblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

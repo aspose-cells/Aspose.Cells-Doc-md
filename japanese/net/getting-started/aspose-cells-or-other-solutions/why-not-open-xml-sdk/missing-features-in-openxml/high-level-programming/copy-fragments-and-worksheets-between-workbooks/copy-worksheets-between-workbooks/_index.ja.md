@@ -1,30 +1,31 @@
-﻿---
-title: ワークブック間でワークシートをコピーする
+---
+title: ブック間またはブック内でワークシートをコピー
 type: docs
 weight: 10
 url: /ja/net/copy-worksheets-between-workbooks/
 ---
-Aspose.Cells は、ソース ワークシートからワークブック内またはワークブック間でデータとフォーマットを別のワークシートにコピーするために使用される Aspose.Cells.Worksheet.Copy() メソッドを提供します。このメソッドは、ソース ワークシート オブジェクトをパラメーターとして受け取ります。
 
-次の例は、あるブックから別のブックにワークシートをコピーする方法を示しています。
+Aspose.Cellsは、ソースのワークシートから別のワークシートにデータと書式をコピーするために使用されるAspose.Cells.Worksheet.Copy()メソッドを提供します。メソッドはソースワークシートオブジェクトをパラメータとして取ります。
 
-{{< highlight "csharp" >}}
+次の例は、ワークブックから別のワークブックにワークシートをコピーする方法を示しています。
 
-string FilePath = @"..\..\..\Sample Files\";
+{{< highlight csharp >}}
 
-string FileName = FilePath + "Workbook.xlsx 間でシートをコピー";
+ string FilePath = @"..\..\..\Sample Files\";
 
-// 新しいワークブックを作成します。
+string FileName = FilePath + "Copy Sheet between Workbook.xlsx";
 
-ワークブック excelWorkbook0 = 新しいワークブック();
+//Create a new Workbook.
 
-//ブックの最初のワークシートを取得します。
+Workbook excelWorkbook0 = new Workbook();
 
-ワークシート ws0 = ExcelWorkbook0.Worksheets[0];
+//Get the first worksheet in the book.
 
-//ヘッダー行にデータを挿入 (A1:A4)
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-for (int i = 0; i< 5; i++)
+//Put some data into header rows (A1:A4)
+
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -76,23 +77,23 @@ excelWorkbook1.Save(FileName);
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
-次の例は、あるブックから別のブックにワークシートをコピーする方法を示しています。
+次の例は、ワークブックから別のワークブックにワークシートをコピーする方法を示しています。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- // 新しいワークブックを作成します。
+ //Create a new Workbook.
 
-ワークブック excelWorkbook0 = 新しいワークブック();
+Workbook excelWorkbook0 = new Workbook();
 
-//ブックの最初のワークシートを取得します。
+//Get the first worksheet in the book.
 
-ワークシート ws0 = ExcelWorkbook0.Worksheets[0];
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-//ヘッダー行にデータを挿入 (A1:A4)
+//Put some data into header rows (A1:A4)
 
-for (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -145,5 +146,5 @@ excelWorkbook1.Save("copyworksheet.xls");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)

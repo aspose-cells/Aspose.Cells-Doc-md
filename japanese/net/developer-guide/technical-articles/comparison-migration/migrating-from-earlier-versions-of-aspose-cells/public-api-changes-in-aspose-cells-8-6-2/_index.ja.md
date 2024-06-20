@@ -1,21 +1,22 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.6.2
+---
+title: Aspose.Cells 8.6.2の公開API変更
 type: docs
 weight: 210
 url: /ja/net/public-api-changes-in-aspose-cells-8-6-2/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.6.1 から 8.6.2 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加されたクラスだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントでは、Aspose.Cells APIの8.6.1から8.6.2への変更について記載されています。これはモジュール/アプリケーション開発者に関心がある可能性のある新しいおよび更新された公開メソッド、追加されたクラスだけでなく、Aspose.Cellsの内部の動作に関する変更の説明も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **スマートマーカーによるコールバックのサポート**
- Aspose.Cells for .NET API のこのリリースでは、WorkbookDesigner.CallBack プロパティと ISmartMarkerCallBack インターフェイスが公開されました。[処理中のセル参照および/またはスマート マーカーに関する通知を取得する](/cells/ja/net/getting-notifications-while-merging-data-with-smart-markers/).次のコードは、 ISmartMarkerCallBack インターフェイスを使用して WorkbookDesigner.Process メソッドのコールバックを処理する新しいクラスを定義する方法を示しています。
+## **APIの追加**
+### **Smart Markersのコールバックのサポート**
+このリリースのAspose.Cells for .NET APIは、WorkbookDesigner.CallBackプロパティとISmartMarkerCallBackインタフェースを公開し、セルの参照やスマートマーカーの処理に関する通知を取得できるようにします。次のコード例は、ISmartMarkerCallBackインタフェースを使用して、新しいクラスを定義し、WorkbookDesigner.Processメソッドのコールバックを処理する方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class SmartMarkerCallBack : ISmartMarkerCallBack
 
@@ -47,11 +48,11 @@ url: /ja/net/public-api-changes-in-aspose-cells-8-6-2/
 
 
 
-プロセスの残りの部分には、スマート マーカーを含むデザイナー スプレッドシートを WorkbookDesigner でロードし、データ ソースを設定して処理することが含まれます。ただし、通知を有効にするには、以下に示すように WorkbookDesigner.Process メソッドを呼び出す前に WorkbookDesigner.CallBack プロパティを設定する必要があります。
+プロセスの残りの部分には、WorkbookDesigner を使用してスマートマーカーを含むデザイナースプレッドシートをロードし、データソースを設定して処理するという操作が含まれます。ただし、通知を有効にするためには、WorkbookDesigner.Process メソッドを呼び出す前に WorkbookDesigner.CallBack プロパティを設定する必要があります。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loading the designer spreadsheet in an instance of Workbook
 
@@ -76,14 +77,14 @@ designer.Process(false);
 {{< /highlight >}}
 
 
-### **メソッド Chart.ToPdf が追加されました**
-Aspose.Cells for .NET 8.6.2 は Chart.ToPdf メソッドを公開しました。[チャート シェイプを PDF 形式に直接レンダリングする](/cells/ja/net/convert-an-excel-chart-to-image/).上記のメソッドは現在、文字列型のパラメータをファイル パスの場所として受け入れ、結果のファイルをディスクに保存します。
+### **Chart.ToPdf メソッドを追加**
+Aspose.Cells for .NET 8.6.2ではChart.ToPdfメソッドが公開され、[Chart形式を直接PDF形式に変換する](/cells/ja/net/convert-an-excel-chart-to-image/)ことができます。このメソッドは現在、結果のファイルをディスク上に保存するためのファイルパスの文字列型のパラメータを受け入れます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet containing charts
 
@@ -104,14 +105,14 @@ chart.ToPdf(outputFilePath);
 {{< /highlight >}}
 
 
-### **メソッド Workbook.RemoveUnusedStyles が追加されました**
-Aspose.Cells for .NET 8.6.2 は Workbook.RemoveUnusedStyles メソッドを公開しました。[スタイルのプールからすべての未使用の Style オブジェクトを削除します](/cells/ja/net/remove-unused-styles-inside-the-workbook/).
+### **Workbook.RemoveUnusedStyles メソッドを追加**
+Aspose.Cells for .NET 8.6.2ではWorkbook.RemoveUnusedStylesメソッドが公開され、[使用されていないスタイルオブジェクトをワークブック内から削除する](/cells/ja/net/remove-unused-styles-inside-the-workbook/)ことができます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet
 
@@ -124,14 +125,14 @@ workbook.RemoveUnusedStyles();
 {{< /highlight >}}
 
 
-### **プロパティ Cells.スタイルが追加されました**
-Cells.Style プロパティを使用して、デフォルト スタイルを表すワークシートのスタイルにアクセスできます。
+### **Cells.Styleプロパティの追加**
+Cells.Styleプロパティは、デフォルトのスタイルを示すワークシートのスタイルにアクセスするために使用できます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -144,8 +145,8 @@ Style style = book.Worksheets[0].Cells.Style;
 {{< /highlight >}}
 
 
-### **GridWeb に追加されたイベント**
-Aspose.Cells.GridWeb for .NET 8.6.2 では、次の 2 つの新しいイベントが公開されました。
+### **GridWebのためのイベントの追加**
+Aspose.Cells.GridWeb for .NET 8.6.2 で次の 2 つの新しいイベントを公開しました。
 
-1. AjaxCallFinished: コントロールの AJAX 更新が完了したときに発生します。 (EnableAJAX は true に設定されます)。
-1. CellModifiedOnAjax: AJAX 呼び出しでセルが変更されたときに発生します。
+1. AjaxCallFinished: コントロールの AJAX 更新が完了したときに発生します。（EnableAJAX は true に設定されている必要があります）。
+1. CellModifiedOnAjax: セルがAJAX呼び出しで変更されたときに発生します。

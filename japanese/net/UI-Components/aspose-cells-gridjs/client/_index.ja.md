@@ -1,16 +1,18 @@
 ---
-title: GridJs クライアント側の操作
+title: GridJsクライアントサイドでの作業
 type: docs
 weight: 250
 url: /ja/net/aspose-cells-gridjs/client/
-keywords: custom,logo,setting,api
+keywords: GridJs、カスタム、ロゴ、設定、API
+description: この記事では、GridJsのクライアント側のJavaScript APIまたは機能を紹介しています。
 ---
-# GridJs クライアント側の操作
-GridJsクライアントをベースに開発しました。[x-スプレッドシート](https://github.com/myliang/x-spreadsheet).
 
-## 主な手順は次のとおりです。
+# GridJsクライアントサイドでの作業
+[x-spreadsheet](https://github.com/myliang/x-spreadsheet)をベースにしたGridJsクライアントを開発しました。
 
-- x_spreadsheet インスタンスを作成する
+## 主な手順は次のとおりです：
+
+- x_spreadsheetインスタンスの作成
 ```javascript
 xs = x_spreadsheet(id, options)
     // the parameters are:
@@ -43,8 +45,8 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
-    
-- jsonデータでロードする
+
+- JSONデータでロード
 ```javascript
 xs.loadData(data)
 // the parameters is:
@@ -63,7 +65,7 @@ xs.setActiveSheet(id)
 	sheetname: the sheet id 
 ```
 
-- アクティブセルを設定する
+- アクティブセルを設定
 ```javascript
 xs.setActiveCell(row,col);
 // the parameters are:
@@ -71,7 +73,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- サーバー側アクションの形状/画像操作の情報を設定します
+- サーバーサイドアクションのための形状/画像操作の情報を設定
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -90,18 +92,18 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
-- サーバー側アクションのダウンロード操作に関する情報を設定します
+- サーバーサイドアクションのためのダウンロード操作の情報を設定
 ```javascript
 xs.setFileDownloadInfo(downloadActionUrl);
 // the parameters are:
 	downloadActionUrl: the get download file action URL in the server side controller
-	 
+
     for example: 
             const fileDownloadUrl = "/GridJs2/Download";
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- サーバー側アクションの OLE オブジェクト操作の情報を設定します
+- サーバーサイドアクションのためのOLEオブジェクト操作の情報を設定
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -110,35 +112,47 @@ xs.setOleDownloadInfo(oleActionUrl);
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
 ```
-  
 
-_
-## その他の便利な API
-- ビューをレンダリングする
+
+___
+## その他の便利なAPI
+- ビューをレンダリング
 ```javascript
 xs.reRender()
 ```
 
-- アクティブシートIDを取得する
+- アクティブなシートのIDを取得
 ```javascript
 xs.getActiveSheet()
 ```
 
-- ズームレベルを設定する
+- ズームレベルを設定
 ```javascript
 xs.setZoomLevel(zoom)
 // the parameters is:
 	zoom:the zoom level ,can be number ,for example 0.5 for zoom out, or 2 for zoom in
 ```
 
-- ファイル名の設定
+- ファイル名を設定 
 ```javascript
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
 ```
 
-- GridJ のウィンドウ キー イベントを有効にするかどうか
+- メール送信機能のためのコールバック関数
+```javascript
+xs.setEmailSendCallFunction(callback)
+// the parameters is:
+	callback: the callback function to handle email sending, receives a mailObj parameter
+		callback: function(mailObj) {
+			// mailObj properties:
+			// mailObj.receiver: the email address of the receiver, e.g., 'example@gmail.com'
+			// mailObj.type: the format of the file to be sent, can be 'html', 'xlsx', or 'pdf'
+		}
+```
+
+- GridJsのウィンドウキーイベントを有効にするかどうか
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -146,13 +160,13 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
-- ウィンドウ キー イベントやウィンドウ サイズ変更イベントなど、GridJ にアタッチされているすべてのイベントのバインドを解除します。
+- ウィンドウリサイズイベントやウィンドウキーイベントなど、GridJsにアタッチされたすべてのイベントを解除します。
 ```javascript
 xs.destroy()
 ```
 
 
-- 画像/形状の可視フィルタを設定します
+- 画像/形状の可視フィルタを設定
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
@@ -168,12 +182,12 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
-- 選択された画像/形状を取得します。何も選択されていない場合は null が返されます
+- 選択された画像/形状を取得し、何も選択されていない場合はnullを返します
 ```javascript
 xs.sheet.selector.getObj()
 ```
 
-- 画像/形状の選択可能状態を設定します
+- 画像/形状の選択可能状態を設定 
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -181,21 +195,21 @@ shape.setControlable(isenable)
       isenable: when set to true,the image or shape can be selectable and movable/resizeable
 ```
 
-- セルオブジェクトを取得する
+- セルオブジェクトを取得
 ```javascript
 xs.sheet.data.getCell(ri,ci)
     // the parameters are:
 	ri:row index 
 	ci:column index
 ```
-- セルのスタイルを取得する
+- セルスタイルを取得
 ```javascript
 xs.sheet.data.getCellStyle(ri,ci)
     // the parameters are:
 	ri:row index 
 	ci:column index
 ```
-- セル値を設定する
+- セル値を設定
 ```javascript
 xs.sheet.data.setCellText(ri,ci,value,state)
     // the parameters are:
@@ -205,17 +219,17 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	state: input | finished ,if finished ,it will do update action to servside
 ```
 
-- 選択したセル範囲を取得/設定します
+- 選択されたセル範囲の取得/設定
 ```javascript
 xs.sheet.data.selector.range
 ```
-- 選択したセルまたはセル領域のセル値を設定します。
+- 選択されたセルまたはセル領域のセル値を設定します
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
-- 選択したセルまたはセル領域のスタイルを設定します。
+- 選択されたセルまたはセル領域のスタイルを設定します
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
@@ -223,22 +237,22 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
-- 選択したセル領域を結合します
+- 選択されたセル領域を結合します
 ```javascript
 xs.sheet.data.merge()
 ```
 
-- 選択したセル領域の結合を解除します
+- 選択されたセル領域の結合を解除します
 ```javascript
 xs.sheet.data.unmerge()
 ```
-- 選択したセルを削除します
+- 選択されたセルを削除します  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
-- フリーズペインを設定する
+- 固定ペインを設定します
 ```javascript
 xs.sheet.data.setFreeze(ri,ci)
     // the parameters are:
@@ -246,14 +260,14 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
-- 選択したセルに行または列を挿入します
+- 選択されたセルで行または列を挿入します  
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
 	type: row | column
 	n:the row or column number
 ```
-- 選択したセルの行または列を削除します
+- 選択されたセルで行または列を削除します  
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
@@ -267,7 +281,7 @@ xs.sheet.data.setColWidth(ci,width)
 	ci:column index
 	width:the width for the column
 ```
-- 列の幅を設定する
+- 列の幅を設定します
 ```javascript
 xs.sheet.data.setColsWidth(sci,eci,width)
     // the parameters are:
@@ -283,7 +297,7 @@ xs.sheet.data.setAllColsWidth(width)
 	width:the width for the columns
 ```
 
-- 列の幅を取得する
+- 列の幅を取得します 
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
     // the parameters are:
@@ -298,7 +312,7 @@ xs.sheet.data.setRowHeight(ri,height)
 	ri:row index
 	height:the height for the row
 ```
-- 行の高さを設定する
+- 行の高さを設定します
 ```javascript
 xs.sheet.data.setRowsHeight(sri,eri,height)
     // the parameters are:
@@ -307,7 +321,7 @@ xs.sheet.data.setRowsHeight(sri,eri,height)
 	height:the height for the rows
 ```
 
-- すべての行の高さを設定する
+- すべての行の高さを設定します
 ```javascript
 xs.sheet.data.setAllRowsHeight(height)
     // the parameters are:
@@ -315,7 +329,7 @@ xs.sheet.data.setAllRowsHeight(height)
 ```
 
 
-- 行の高さを取得する
+- 行の高さを取得します 
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
     // the parameters are:
@@ -323,7 +337,7 @@ xs.sheet.data.rows.sumHeight(min,max)
 	max:the end row index,not include
 ```
 
-- 表示方向を取得/設定します
+- 表示方向の取得/設定をします
 ```javascript
 xs.sheet.data.displayRight2Left
 ```
@@ -354,7 +368,7 @@ xs.sheet.data.displayRight2Left
 
 ## カスタマイズ
 
-- ホームアイコンとリンクを設定する
+- ホームアイコンとリンクを設定します
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -363,21 +377,56 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 	for example ,the below code will set the new logo and with link to google.com
 	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
 ```
-- メニューバーを表示する
+- メニューバーを表示します
 ```javascript
 xs.sheet.menubar.show()
 ```
 
-- メニューバーを隠す
+- メニューバーを非表示にします
 ```javascript
 xs.sheet.menubar.hide()
 ```
 
 
-詳細については、ここで例を確認できます
+## テキストボックスオブジェクト用のAPI
+TextBoxはTypeプロパティが"TextBox"である特別な種類のシェイプです
+たとえば: 以下のコードは、どの形状がテキストボックスであるかを示します
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+
+- テキストボックスオブジェクトの背景色を変更する
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+- 視覚的なアクティブ効果を得るために、自動で背景色とテキスト色を変更する
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+- テキストボックスオブジェクトのテキストコンテンツを非表示/表示します
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
+
+詳細情報については、こちらの例を確認してください
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 
 
- 
- 
+
+

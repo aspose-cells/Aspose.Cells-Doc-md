@@ -1,15 +1,16 @@
-﻿---
+---
 title: Gestione delle proprietà del documento in PHP
 type: docs
 weight: 30
 url: /it/net/managing-document-properties-in-php/
 ---
-## **Aspose.Cells - Gestione Proprietà Documento**
-Gestione delle proprietà del documento del file Excel Microsoft
+
+## **Aspose.Cells - Gestión de propiedades del documento**
+Gestione delle proprietà del documento di un file Microsoft Excel
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -79,6 +80,6 @@ Gestione delle proprietà del documento del file Excel Microsoft
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Gestione delle proprietà del documento (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Gestione delle proprietà del documento (Aspose.Cells)** da uno qualsiasi dei siti di social coding menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

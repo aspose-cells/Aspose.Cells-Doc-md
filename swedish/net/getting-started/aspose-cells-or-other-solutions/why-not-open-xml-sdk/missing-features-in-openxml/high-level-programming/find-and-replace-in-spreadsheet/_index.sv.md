@@ -1,14 +1,15 @@
-﻿---
-title: Hitta och ersätt i kalkylblad
+---
+title: Hitta och Ersätt i Kalkylark
 type: docs
 weight: 30
 url: /sv/net/find-and-replace-in-spreadsheet/
 ---
+
 ![todo:image_alt_text](Find_and_Replace.png)
 
-När vi klickar på sökknappen är följande koden:
+När vi klickar på hitta-knappen följer följande kod:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "")
 
@@ -54,9 +55,9 @@ När vi klickar på sökknappen är följande koden:
 
 {{< /highlight >}}
 
-Genom att klicka på knappen Ersätt exekveras följande kod:
+Genom att klicka på Ersätt-knappen utförs följande kod:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "" && TXBX_Replace.Text!="")
 
@@ -108,7 +109,7 @@ Genom att klicka på knappen Ersätt exekveras följande kod:
 
 {{< /highlight >}}
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)

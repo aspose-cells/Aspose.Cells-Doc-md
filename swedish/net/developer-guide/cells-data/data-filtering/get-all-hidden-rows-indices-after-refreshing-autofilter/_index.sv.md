@@ -1,26 +1,27 @@
 ---
-title: Få alla dolda rader efter att ha uppdaterat autofiltret
+title: Få alla dolda radindex efter att autofiltreringen har uppdaterats
 type: docs
 weight: 320
 url: /sv/net/get-all-hidden-rows-indices-after-refreshing-autofilter/
-description: Lär dig hur du får alla dolda radindex efter att ha uppdaterat AutoFilter genom att använda Aspose.Cells for .NET API.
-keywords: Get All Hidden Rows Indices after Refreshing AutoFilter, Obtain All Hidden Rows Indices after Refreshing AutoFilter, Retrieve All Hidden Rows Indices after Refreshing AutoFilter
+description: Lär dig hur man får alla dolda radindex efter att ha uppdaterat automatiskt filter med hjälp av API et Aspose.Cells for .NET.
+keywords: Hämta alla dolda radindex efter att ha uppdaterat automatiskt filter, Hämta alla dolda radindex efter att ha uppdaterat automatiskt filter, Visa alla dolda radindex efter att ha uppdaterat automatiskt filter
 ---
-##  **Möjliga användningsscenarier**
 
-När du använder autofiltret på kalkylbladsceller döljs några av raderna automatiskt. Men det kan vara så att några av raderna redan är dolda manuellt av Excel-slutanvändare och de är inte dolda av ett autofilter. Det gör därför svårt att veta vilka av raderna som döljs av autofiltret och vilka av dem som döljs manuellt av Excel-slutanvändare. Aspose.Cells hanterar detta problem med hjälp av int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metod. Denna metod returnerar radindexen för alla rader som är dolda av autofiltret och inte manuellt av Excel-slutanvändaren.
+## **Möjliga användningsscenario**
 
-##  **Få alla dolda rader efter att ha uppdaterat autofiltret**
+När du tillämpar automatiskt filter på kalkylbladsceller, göms vissa rader automatiskt. Men det kan vara så att vissa rader redan är gömda manuellt av Excel-användaren och de göms inte av ett automatiskt filter. Det gör det därför svårt att veta vilka rader som göms av automatiskt filter och vilka som göms manuellt av Excel-användaren. Aspose.Cells hanterar detta problem med int[] [**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1) metoden. Denna metod returnerar radindex för alla rader som göms av automatiskt filter och inte manuellt av Excel-användaren.
 
- Se följande exempelkod som laddar[exempel på Excel-fil](64716909.xlsx) som innehåller några av raderna som döljs manuellt av Excel-slutanvändare. Koden tillämpar autofiltret och uppdaterar det med int[][**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1)metod som returnerar radindexen för alla dolda rader av autofiltret. Den skriver sedan ut indexen för de dolda raderna på konsolen tillsammans med cellnamn och värden.
+## **Hämta alla dolda radindex efter uppdatering av autofilter**
 
-##  **Exempelkod**
+Se följande exempelkod som läser in [exempel på Excel-fil](64716909.xlsx) som innehåller några av de rader som göms manuellt av Excel-användaren. Koden tillämpar automatiskt filter och uppdaterar det med hjälp av int[] [**AutoFilter.Refresh(bool hideRows)**](https://reference.aspose.com/cells/net/aspose.cells.autofilter/refresh/methods/1) metoden som returnerar radindex för alla gömda rader av automatiskt filter. Det skriver sedan ut indexen för de gömda raderna i konsolen tillsammans med cellnamn och värden.
+
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.cs" >}}
 
-##  **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Printing Rows Indices, Cell Names and Values Hidden By AutoFilter.
 

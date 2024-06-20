@@ -1,11 +1,12 @@
-﻿---
-title: 列見出しを取得する
+---
+title: 列の見出しを取得
 type: docs
 weight: 40
 url: /ja/net/get-a-column-heading/
 ---
-## **OpenXML エクセル**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -131,7 +132,7 @@ return uint.Parse(match.Value);
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -172,5 +173,5 @@ private static string GetColumnHeading(string docName, string worksheetName, str
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [ソースフォージ](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20a%20column%20heading%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20a%20column%20heading%20\(Aspose.Cells\)。ジップ）
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20a%20column%20heading%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20a%20column%20heading%20\(Aspose.Cells\).zip)

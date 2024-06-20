@@ -1,17 +1,18 @@
 ---
-title: Redigera hyperlänkar till arbetsblad
+title: Redigera hyperlänkar i arbetsblad
 type: docs
 weight: 330
 url: /sv/net/editing-hyperlinks-of-worksheet/
-description: Lär dig hur du redigerar hyperlänkar i arbetsblad genom Aspose.Cells for .NET API.
-keywords: Edit Hyperlinks, Edit Hyperlinks of Worksheet, Edit hyperlink of Cell, Access all the hyperlinks of the worksheet
+description: Lär dig hur du redigerar hyperlänkar i kalkylblad genom Aspose.Cells for .NET API.
+keywords: Redigera hyperlänkar, Redigera hyperlänkar i kalkylblad, Redigera hyperlänk i cell, Få åtkomst till alla hyperlänkar i kalkylbladet
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells låter dig komma åt alla hyperlänkar i kalkylbladet med hjälp av[**Arbetsblad.Hyperlänkar**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) samling. Du kan komma åt varje hyperlänk från den här samlingen en efter en och redigera dess egenskaper.
+Aspose.Cells möjliggör att du får åtkomst till alla hyperlänkar i kalkylbladet med hjälp av [**Worksheet.Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks)-samlingen. Du kan få åtkomst till varje hyperlänk från denna samling en efter en och redigera dess egenskaper.
 
 {{% /alert %}}
 
- Följande exempelkod ger åtkomst till alla hyperlänkar i kalkylbladet och ändrar deras[**Hyperlink.Address**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address)egendom till webbplatsen Aspose.
+Följande exempelkod får åtkomst till alla hyperlänkar i arbetsbladet och ändrar deras [**Hyperlink.Address**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address)-egenskap till Aspose webbplats.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.cs" >}}

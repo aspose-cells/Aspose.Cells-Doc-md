@@ -1,5 +1,5 @@
 ---
-title: 使用 **WebQuery** 类型的外部数据连接
+title: 使用  WebQuery  类型的外部数据连接
 type: docs
 weight: 30
 url: /zh/net/working-with-external-data-connection-of-type-webquery/

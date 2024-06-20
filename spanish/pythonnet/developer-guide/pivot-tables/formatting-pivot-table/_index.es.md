@@ -1,66 +1,67 @@
 ---
-title: Formato de tabla dinámica
+title: Dar formato a la tabla dinámica
 type: docs
 weight: 10
-url: /es/net/formatting-pivot-table/
-description: Cómo formatear una tabla dinámica con Aspose.Cells for Python via .NET.
-keywords: Format pivot table.
+url: /es/python-net/formatting-pivot-table/
+description: Cómo formatear la tabla dinámica con Aspose.Cells for Python via .NET.
+keywords: Formato de tabla dinámica
 ---
-##  **Apariencia de la tabla dinámica**
 
-Cómo crear una tabla dinámica explica cómo crear una tabla dinámica simple. Este artículo describe cómo personalizar la apariencia de una tabla dinámica estableciendo varias propiedades:
+## **Apariencia de la tabla dinámica**
+
+Cómo crear una tabla dinámica explica cómo crear una tabla dinámica simple. Este artículo describe cómo personalizar la apariencia de una tabla dinámica estableciendo diversas propiedades:
 
 - Opciones de formato de tabla dinámica
-- Opciones de formato de campos dinámicos
-- Opciones de formato de campo de datos
+- Opciones de formato de campos de tabla dinámica
+- Opciones de formato de campos de datos
 
-###  **Configuración de opciones de formato de tabla dinámica**
+### **Cómo establecer opciones de formato de tabla dinámica**
 
- El[**Tabla dinámica**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/)La clase controla la tabla dinámica general y se puede formatear de varias maneras.
+La clase [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/) controla la tabla dinámica general y se puede formatear de varias maneras.
 
-####  **Configuración del tipo de formato automático**
+#### **Cómo establecer el tipo de autoformato**
 
-Microsoft Excel ofrece varios formatos de informes preestablecidos diferentes. Aspose.Cells for Python via .NET también admiten estas opciones de formato. Para acceder a ellos:
+Microsoft Excel ofrece una serie de formatos de informe preestablecidos diferentes. Aspose.Cells for Python via .NET también admite estas opciones de formato. Para acceder a ellos:
 
-1.  Colocar[**Tabla dinámica.is_auto_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_auto_format/)a *verdadero**.
-1.  Asigne una opción de formato desde el[**Tipo de formato automático de tabla dinámica**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottableautoformattype/)enumeración.
+1. Establezca [**PivotTable.is_auto_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_auto_format/) en **verdadero**.
+1. Asignar una opción de formato de la enumeración [**PivotTableAutoFormatType**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottableautoformattype/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingAutoFormat-1.py" >}}
 
-####  **Configuración de opciones de formato**
+#### **Cómo establecer opciones de formato**
 
-El siguiente ejemplo de código muestra cómo formatear la tabla dinámica para mostrar los totales generales de filas y columnas, y cómo configurar el orden de los campos del informe. También muestra cómo configurar una cadena de cliente para valores nulos.
+El ejemplo de código a continuación muestra cómo dar formato a la tabla dinámica para mostrar totales generales para filas y columnas, y cómo establecer el orden de los campos del informe. También muestra cómo establecer una cadena personalizada para los valores nulos.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingFormatOptions-1.py" >}}
 
-####  **Formatear la apariencia manualmente**
+#### **Dar formato manualmente al aspecto visual**
 
-Para formatear manualmente el aspecto del informe de la tabla dinámica, en lugar de utilizar formatos de informe preestablecidos, utilice el[**Tabla dinámica.format_all(estilo)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) y[**Tabla dinámica.formato (fila, columna, estilo)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/)métodos. Cree un objeto de estilo para el formato que desee, por ejemplo:
+Para formatear cómo se ve el informe de tabla dinámica manualmente, en lugar de usar formatos de informe preestablecidos, use los métodos [**PivotTable.format_all(style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) y [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/). Cree un objeto de estilo para su formato deseado, por ejemplo:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-FormattingLook-1.py" >}}
 
-###  **Configuración de opciones de formato de campo dinámico**
+### **Cómo establecer opciones de formato de campo de tabla dinámica**
 
- El[**Campo dinámico**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/)La clase representa un campo en una tabla dinámica y se puede formatear de varias maneras. El siguiente ejemplo de código muestra cómo:
+La clase [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/) representa un campo en una tabla dinámica y se puede formatear de varias formas. El ejemplo de código a continuación muestra cómo:
 
-- Accede a los campos de fila.
-- Configuración de subtotales.
-- Configuración de clasificación automática.
-- Configuración de presentación automática.
+- Acceder a los campos de fila.
+- Establecer subtotales.
+- Establecer orden automático.
+- Establecer autover.
 
-####  **Configuración del formato de campos de fila/columna/página**
+#### **Cómo establecer el formato de campos de fila/columna/página.**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingPageFieldFormat-1.py" >}}
 
-###  **Configuración del formato de los campos de datos**
+### **Cómo establecer el formato de campos de datos.**
 
-El siguiente código de ejemplo muestra cómo configurar formatos de visualización y formato numérico para campos de datos.
+El ejemplo de código a continuación muestra cómo establecer formatos de visualización y formato numérico para los campos de datos.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingDataFieldFormat-1.py" >}}
 
-###  **Borrar campos dinámicos**
+### **Cómo limpiar los campos de filtro.**
 
- El[**Colección de campos dinámicos**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/) tiene un método llamado[**clear()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#)que le permite borrar campos dinámicos. Úselo cuando desee borrar todos los campos dinámicos en las áreas, por ejemplo, página, columna, fila o datos.
-El siguiente código de ejemplo muestra cómo borrar todos los campos dinámicos en un área de datos.
+La clase [**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/) tiene un método llamado [**clear()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#) que te permite borrar campos de tabla dinámica. Úsalo cuando quieras borrar todos los campos de tabla dinámica en las áreas, por ejemplo, página, columna, fila o datos.
+El ejemplo de código a continuación muestra cómo borrar todos los campos de tabla dinámica en un área de datos.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}

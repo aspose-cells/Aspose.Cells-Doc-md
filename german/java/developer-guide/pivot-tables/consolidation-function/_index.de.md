@@ -1,44 +1,45 @@
-﻿---
+---
 title: Konsolidierungsfunktion
 type: docs
 weight: 20
 url: /de/java/consolidation-function/
-description: ConsolidationFunction auf Datenfelder der Pivot-Tabelle anwenden.
+description: Konsolidierungsfunktion auf Datenfelder der Pivot Tabelle anwenden
 ---
+
 ## **Konsolidierungsfunktion**
 
- Aspose.Cells kann verwendet werden, um ConsolidationFunction auf Datenfelder (oder Wertfelder) der Pivot-Tabelle anzuwenden. In Microsoft Excel können Sie mit der rechten Maustaste auf das Wertefeld klicken und dann auswählen**Wertfeldeinstellungen...** Option und wählen Sie dann die Registerkarte aus**Werte zusammenfassen nach**. Von dort aus können Sie eine beliebige Konsolidierungsfunktion Ihrer Wahl auswählen, z. B. Summe, Anzahl, Durchschnitt, Max, Min, Produkt, Distinct Count usw.
+Mit Aspose.Cells kann die Konsolidierungsfunktion auf Datenfelder (oder Wertefelder) der Pivot-Tabelle angewendet werden. In Microsoft Excel können Sie mit der rechten Maustaste auf das Wertefeld klicken und dann die Option **Wertfeldeinstellungen...** auswählen, und dann den Tab **Werte zusammenfassen nach** auswählen. Von dort aus können Sie eine Konsolidierungsfunktion Ihrer Wahl wie Summe, Anzahl, Durchschnitt, Maximum, Minimum, Produkt, Eindeutige Anzahl usw. auswählen.
 
- Aspose.Cells bietet[**Konsolidierungsfunktion**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) Enumeration zur Unterstützung der folgenden Konsolidierungsfunktionen.
+Aspose.Cells bietet die Aufzählung [**ConsolidationFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction), um die folgenden Konsolidierungsfunktionen zu unterstützen.
 
-- Konsolidierungsfunktion.SUM
-- Konsolidierungsfunktion.COUNT
-- Konsolidierungsfunktion.AVERAGE
-- Konsolidierungsfunktion.MAX
-- Konsolidierungsfunktion.MIN
-- Konsolidierungsfunktion.PRODUKT
-- Konsolidierungsfunktion.COUNT_NUMS
-- Konsolidierungsfunktion.STD_DEV
-- Konsolidierungsfunktion.STD_DEVP
-- Konsolidierungsfunktion.VAR
-- Konsolidierungsfunktion.VARP
-- Konsolidierungsfunktion.DISTINCT_COUNT
+- ConsolidationFunction.SUM
+- ConsolidationFunction.COUNT
+- ConsolidationFunction.AVERAGE
+- ConsolidationFunction.MAX
+- ConsolidationFunction.MIN
+- ConsolidationFunction.PRODUCT
+- ConsolidationFunction.COUNT_NUMS
+- ConsolidationFunction.STD_DEV
+- ConsolidationFunction.STD_DEVP
+- ConsolidationFunction.VAR
+- ConsolidationFunction.VARP
+- ConsolidationFunction.DISTINCT_COUNT
 
-### **ConsolidationFunction auf Datenfelder der Pivot-Tabelle anwenden**
+### **Anwendung von ConsolidationFunction auf Datenfelder des Pivot-Tabellen**
 
- Es gilt der folgende Code**DURCHSCHNITT** Konsolidierungsfunktion zum ersten Datenfeld (oder Wertfeld) und**STD_DEV** Konsolidierungsfunktion auf das zweite Datenfeld (oder Wertefeld).
+Der folgende Code wendet die Konsolidierungsfunktion **AVERAGE** auf das erste Datenfeld (oder Wertfeld) und die Konsolidierungsfunktion **STD_DEV** auf das zweite Datenfeld (oder Wertfeld) an.
 
-Beispielquelldatei und Ausgabedateien können hier zum Testen des Beispielcodes heruntergeladen werden:
+Die Beispieldatei und die Ausgabedateien können von hier heruntergeladen werden, um den Beispielcode zu testen:
 
-[Excel-Quelldatei](source.xlsx)
+[Quelldatei Excel](source.xlsx)
 
-[Excel-Datei ausgeben](output.xlsx)
+[Ausgabedatei Excel](output.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-ConsolidationFunction.java" >}}
 
 {{% alert color="primary" %}}
 
-Die DistinctCount-Konsolidierungsfunktion wird nur von Microsoft Excel 2013 unterstützt.
+Die Konsolidierungsfunktion DistinctCount wird nur von Microsoft Excel 2013 unterstützt.
 
 {{% /alert %}}
 

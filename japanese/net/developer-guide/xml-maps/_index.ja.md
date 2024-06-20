@@ -1,42 +1,43 @@
-﻿---
-title:  XML を Excel ブックにインポートする
-linktitle: XML マップ
+---
+title: ExcelワークブックへのXMLのインポート 
+linktitle: XMLマップ
 type: docs
 weight: 210
 url: /ja/net/import-xml-map-inside-a-workbook-using-aspose-cells/
-description: XML データ ファイルから Microsoft Excel にデータをインポートします。
+description: XMLデータファイルからデータをMicrosoft Excelにインポートする
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells を使用すると、ワークブック内に XML マップをインポートできます。[**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index)方法。次の手順で、Microsoft Excel を使用して XML マップをインポートできます。
+Aspose.Cellsでは、ワークブック内でXMLマップをインポートするための[**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index)メソッドが利用可能です。以下の手順でMicrosoft ExcelでXMLマップをインポートすることができます。
 
-- 選択する**デベロッパー**タブ
-- クリック**輸入**XML セクションで、必要な手順に従います。
+- **開発**タブを選択
+- XMLセクションで**インポート**をクリックし、必要な手順に従います。
 
-インポートを完了するには、XML データを提供する必要があります。がここにあります[サンプル XML データ](5115037.txt)テストに使用できます。
+インポートを完了するためにXMLデータを提供する必要があります。テストに使用できる[サンプルXMLデータ](5115037.txt)を以下に示します。
 
 {{% /alert %}}
 
-## **Microsoft Excel を使用して XML マップをインポートする**
+## **Microsoft Excelを使用してXML Mapをインポート**
 
-次のスクリーンショットは、Microsoft Excel を使用して XML マップをインポートする方法を示しています。
+以下のスクリーンショットは、Microsoft Excelを使用してXML Mapをインポートする方法を示しています。
 
-|![todo:画像_代替_文章](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
-|:- |
+|![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
+| :- |
 
-## **Aspose.Cells を使用して XML マップをインポートする**
+## **Aspose.Cellsを使用してXML Mapをインポートする**
 
-次のサンプル コードは、[**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) .それは、[出力エクセルファイル](5115036.xlsx)このスクリーンショットに示すように。
+次のサンプルコードは、[**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index)の使用法を示しています。このスクリーンショットに示すように、[出力Excelファイル](5115036.xlsx)が生成されます。
 
-|![todo:画像_代替_文章](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
-|:- |
+|![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
+| :- |
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ImportXmlData-ImportXmlDataIntoWorkbook.cs" >}}
 
-## **先行トピック**
-- [XmlMapCollection.Add メソッドを使用して、ワークブック内に XML マップを追加します。](/cells/ja/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
-- [ワークブック内の XML マップにリンクされた XML データのエクスポート](/cells/ja/net/export-xml-data-linked-to-xml-map-inside-the-workbook/)
-- [XML マップのルート要素名を見つける](/cells/ja/net/find-the-root-element-name-of-xml-map/)
-- [Cells を XML マップ要素にリンク](/cells/ja/net/link-cells-to-xml-map-elements/)
-- [Worksheet.XmlMapQuery メソッドを使用して XML マップ パスにマップされた Cell エリアをクエリします。](/cells/ja/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
+## **高度なトピック**
+- [XmlMapCollection.Addメソッドを使用してワークブックにXML Mapを追加する](/cells/ja/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
+- [ブック内のXMLマップにリンクされたXMLデータをエクスポート](/cells/ja/net/export-xml-data-linked-to-xml-map-inside-the-workbook/)
+- [XMLマップのルート要素名を検出する](/cells/ja/net/find-the-root-element-name-of-xml-map/)
+- [セルをXMLマップ要素にリンクする](/cells/ja/net/link-cells-to-xml-map-elements/)
+- [ワークシート.XmlMapQueryメソッドを使用して、XMLマップパスにマップされたセルエリアをクエリします。](/cells/ja/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method/)
 

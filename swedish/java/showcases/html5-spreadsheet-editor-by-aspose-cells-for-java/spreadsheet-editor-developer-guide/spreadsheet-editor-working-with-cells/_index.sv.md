@@ -1,28 +1,29 @@
-﻿---
-title: Kalkylarksredigerare - Arbeta med Cells
+---
+title: Kalkylbladsredigerare  Arbeta med celler
 type: docs
 weight: 40
 url: /sv/java/spreadsheet-editor-working-with-cells/
 ---
-**Innehållsförteckning**
 
-- [Välj en Cell](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
- - Cell valåteruppringning
-- [Ta bort ett Cell](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
- - WorksheetView.removeCellShiftUp
- - WorksheetView.removeCellShiftLeft
-- [Rensa en Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- WorksheetView.clearCurrentCellFormatting
- - WorksheetView.clearCurrentCellContents
- - WorksheetView.clearCurrentCell
-### **Välj en Cell**
-Använd muspekaren för att peka på en cell. Klicka på en cell för att markera den. Den markerade cellen är markerad med en fet rektangel.
+Innehållsförteckning
 
-**Hur det fungerar?**
+- [Välja en cell](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
+  - Cellvalsanrop
+- [Ta bort en cell](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
+  - WorksheetView.removeCellShiftUp
+  - WorksheetView.removeCellShiftLeft
+- [Rensa en cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
+  - WorksheetView.clearCurrentCellFormatting
+  - WorksheetView.clearCurrentCellContents
+  - WorksheetView.clearCurrentCell
+### **Välja en cell**
+Använd muspekaren för att peka på en cell. Klicka på en cell för att välja den. Den valda cellen markeras med en fet rektangel.
 
-När användaren klickar på en cell hanteras händelsen av JavaScript-återuppringningsfunktionen som är kopplad till Primefaces-komponenten.
-#### **Cell val återuppringning**
-{{< highlight "java" >}}
+**Hur fungerar det?**
+
+När användaren klickar på en cell hanteras händelsen av JavaScripts återuppringningsfunktion som är knuten till Primefaces-komponenten.
+#### **Cellvalsanrop**
+{{< highlight java >}}
 
                      var columnId = $(this).find('.ui-cell-editor-input input').attr('data-columnid');
 
@@ -91,21 +92,21 @@ När användaren klickar på en cell hanteras händelsen av JavaScript-återuppr
                     $this.selectedCell = this;
 
 {{< /highlight >}}
-### **Ta bort ett Cell**
-Så här tar du bort en cell:
+### **Ta bort en cell**
+För att ta bort en cell:
 
 1. Klicka på en cell du vill ta bort.
-1.  Byta till**Fliken Format**.
-1.  Klick**Radera Cell** knapp.
-1.  Välja**Skift Cells Upp** eller**Skift Cells Vänster** knapp.
+1. Byt till **Formatflik**.
+1. Klicka på **Ta bort cell** knappen.
+1. Välj **Skifta celler upp** eller **Skifta celler vänster** knappen.
 
-Redaktören tar bort den markerade cellen. De intilliggande cellerna kommer automatiskt att flyttas antingen horisontellt eller vertikalt för att justera utrymmet.
+Redigeraren kommer att ta bort den valda cellen. De intilliggande cellerna kommer automatiskt att flyttas antingen horisontellt eller vertikalt för att anpassa utrymmet.
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- De**Skift Cells Upp** och**Skift Cells Vänster** hanteras av JSF backend bean**Arbetsbladsvy**. Källkoden för respektive metoder är följande:
+**Skifta celler upp** och **Skifta celler vänster** hanteras av JSF backend bean **WorksheetView**. Källkoden för respektive metoder är följande:
 #### **WorksheetView.removeCellShiftUp**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftUp() {
 
@@ -124,7 +125,7 @@ Redaktören tar bort den markerade cellen. De intilliggande cellerna kommer auto
 {{< /highlight >}}
 
 #### **WorksheetView.removeCellShiftLeft**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftLeft() {
 
@@ -141,21 +142,21 @@ Redaktören tar bort den markerade cellen. De intilliggande cellerna kommer auto
     }
 
 {{< /highlight >}}
-### **Rensa en Cell**
-Så här rensar du en cell:
+### **Rensa en cell**
+För att rensa en cell:
 
 1. Klicka på en cell du vill rensa.
-1.  Byta till**Fliken Format**.
-1.  Klick**Rensa Cell** knapp.
-1.  Välja**Format**, **Innehåll** eller**Både** alternativ.
+1. Byt till **Formatflik**.
+1. Klicka på **Rensa cell** knappen.
+1. Välj **Format**, **Innehåll** eller **Båda** alternativet.
 
-Redaktören rensar den markerade cellen.
+Redigeraren kommer att rensa den valda cellen.
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- De**Format**, **Innehåll** och**Både** hanteras av JSF backend bean**Arbetsbladsvy**. Källkoden för respektive metoder är följande:
+**Format**, **Innehåll** och **Båda** hanteras av JSF backend bean **WorksheetView**. Källkoden för respektive metoder är följande:
 #### **WorksheetView.clearCurrentCellFormatting**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellFormatting() {
 
@@ -176,7 +177,7 @@ Redaktören rensar den markerade cellen.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCellContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellContents() {
 
@@ -197,7 +198,7 @@ Redaktören rensar den markerade cellen.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCell**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCell() {
 

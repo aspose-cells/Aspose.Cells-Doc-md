@@ -1,20 +1,21 @@
-﻿---
-title: ActiveX ComboBox コントロールの更新
+---
+title: ActiveX ComboBoxコントロールを更新
 type: docs
 weight: 170
 url: /ja/net/update-activex-combobox-control/
 ---
-## **考えられる使用シナリオ**
-Aspose.Cells を使用して、ActiveX ComboBox コントロールの値を読み書きできます。次の方法で ActiveX コントロールにアクセスしてください。[Shape.ActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol)プロパティとそのタイプを介して確認します[ActiveXControl.Type](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/properties/type)プロパティ、それは返す必要があります[ControlType.ComboBox](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype)値を入力し、それを型キャストします[ComboBoxActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol)オブジェクトを取得し、そのさまざまなプロパティを読み取りまたは変更します。
 
-をダウンロードしてください[サンプルエクセルファイル](5115124.xlsx)次のサンプル コードで使用されます。
-## **ActiveX ComboBox コントロールの更新**
-次のスクリーンショットは、サンプル コードの効果を示しています。[サンプルエクセルファイル](5115124.xlsx).ご覧のとおり、ActiveX ComboBox の値が「これはコンボ ボックス コントロールです」に更新されました。
+## **可能な使用シナリオ**
+Aspose.Cellsを使用してActiveX ComboBoxコントロールの値を読み取ったり書き込んだりすることができます。[Shape.ActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol)プロパティを介してActiveXコントロールにアクセスし、[ActiveXControl.Type](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/properties/type)プロパティでそのタイプをチェックし、[ControlType.ComboBox](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype)の値を返し、その後[ComboBoxActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol)オブジェクトにキャストして、さまざまなプロパティを読み取ったり変更したりします。
 
-|![todo:画像_代替_文章](update-activex-combobox-control_1.png)|
-|:- |
+以下のサンプルコードで使用される[サンプルExcelファイル](5115124.xlsx)をダウンロードしてください。
+## **ActiveX ComboBoxコントロールを更新**
+以下のスクリーンショットは、[サンプルExcelファイル](5115124.xlsx)に対するサンプルコードの効果を示しています。見るとおり、ActiveX ComboBoxの値が"これはコンボボックスコントロールです"に更新されています。
+
+|![todo:image_alt_text](update-activex-combobox-control_1.png)|
+| :- |
 ## **サンプルコード**
-次のサンプル コードは、内部にある ActiveX ComboBox コントロールの値を更新します。[サンプルエクセルファイル](5115124.xlsx).
+次のサンプルコードでは、[サンプルExcelファイル](5115124.xlsx)内のActiveX ComboBoxコントロールの値を更新します。
 
 
 

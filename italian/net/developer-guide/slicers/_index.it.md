@@ -1,37 +1,38 @@
-﻿---
-title: Inserisci l'affettatrice
-linktitle: Affettatrici
+---
+title: Inserire lo slicer
+linktitle: Slicer
 type: docs
 weight: 170
 url: /it/net/create-slicer/
-description: Gestisci affettatrici di file Excel con Aspose.Cells.
+description: Gestisci gli slicer dei file Excel con Aspose.Cells.
 ---
-## **Possibili scenari di utilizzo**
 
- Un'affettatrice viene utilizzata per filtrare rapidamente i dati. Può essere utilizzato per filtrare i dati sia in una tabella che in una tabella pivot. Microsoft Excel consente di creare un'affettatrice selezionando una tabella o una tabella pivot e quindi facendo clic sull'icona*Inserisci > Affettatrice*. Aspose.Cells permette anche di creare affettatrici utilizzando il[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index)metodo.
+## **Possibili Scenari di Utilizzo**
 
-## **Crea Slicer in una tabella pivot**
+Uno slicer viene utilizzato per filtrare rapidamente i dati. Può essere utilizzato per filtrare i dati sia in una tabella che in una tabella pivot. Microsoft Excel ti consente di creare uno slicer selezionando una tabella o una tabella pivot e quindi facendo clic su *Inserisci > Slicer*. Aspose.Cells ti consente anche di creare uno slicer utilizzando il metodo [**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index).
 
- Vedere il seguente codice di esempio. Carica il[esempio di file Excel](67338470.xlsx) che contiene la tabella pivot. Quindi crea l'affettatrice in base al primo campo pivot di base. Infine, salva la cartella di lavoro in[uscita XLSX](67338471.xlsx) e[uscita XLSB](67338472.xlsb) formato. Lo screenshot seguente mostra l'affettatrice creata da Aspose.Cells nel file Excel di output.
+## **Creare un selettore per una tabella pivot**
 
-![cose da fare:immagine_alt_testo](create-slicer-to-a-pivot-table_1.png)
+Si prega di vedere il seguente codice di esempio. Carica il [file Excel di esempio](67338470.xlsx) che contiene la tabella pivot. Crea quindi lo slicer in base al primo campo pivot di base. Infine, salva il libro di lavoro nel formato [XLSX di output](67338471.xlsx) e [XLSB di output](67338472.xlsb). Nella seguente schermata viene mostrato lo slicer creato da Aspose.Cells nel file Excel di output.
 
-### **Codice d'esempio**
+![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
+
+### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-CreateSlicerToPivotTable.cs" >}}
 
-## **Crea affettatrice in tabella Excel**
+## **Creare un selettore per tabella di Excel**
 
- Vedere il seguente codice di esempio. Carica il[esempio di file Excel](sampleCreateSlicerToExcelTable.xlsx) che contiene una tabella. Quindi crea l'affettatrice in base alla prima colonna. Infine, salva la cartella di lavoro in[uscita XLSX](outputCreateSlicerToExcelTable.xlsx) formato.
+Si prega di vedere il seguente codice di esempio. Carica il [file Excel di esempio](sampleCreateSlicerToExcelTable.xlsx) che contiene una tabella. Crea quindi lo slicer in base alla prima colonna. Infine, salva il libro di lavoro nel formato [XLSX di output](outputCreateSlicerToExcelTable.xlsx).
 
-### **Codice d'esempio**
+### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.cs" >}}
 
 ## **Argomenti avanzati**
-- [Modifica proprietà affettatrice](/cells/it/net/change-slicer-properties/)
-- [Disegna Slicer durante il rendering di Excel a PDF](/cells/it/net/draw-slicer-while-rendering-excel-to-pdf/)
-- [Affettatrice di formattazione](/cells/it/net/formatting-slicer/)
-- [Rimozione dell'affettatrice](/cells/it/net/removing-slicer/)
-- [Affettatrice di rendering](/cells/it/net/rendering-slicer/)
-- [Aggiornamento affettatrice](/cells/it/net/updating-slicer/)
+- [Modifica le proprietà dello slicer](/cells/it/net/change-slicer-properties/)
+- [Disegna lo slicer durante il rendering di Excel in PDF](/cells/it/net/draw-slicer-while-rendering-excel-to-pdf/)
+- [Formattazione del selettore](/cells/it/net/formatting-slicer/)
+- [Rimozione dello slicer](/cells/it/net/removing-slicer/)
+- [Rendering dello slicer](/cells/it/net/rendering-slicer/)
+- [Aggiornamento dello slicer](/cells/it/net/updating-slicer/)

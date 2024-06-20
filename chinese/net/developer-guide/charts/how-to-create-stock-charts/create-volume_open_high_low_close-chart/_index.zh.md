@@ -1,7 +1,7 @@
 ---
-title: 创建成交量-开盘-最高-最低-收盘(VOHLC)股票图表
+title: 创建成交量 开盘 最高 最低 收盘(VOHLC)股票图表
 description: 学习如何使用 Aspose.Cells for .NET 创建包含成交量、开盘价、最高价、最低价和收盘价的股票图表。我们的指南将演示如何将股票市场数据绘制到图表上，包括成交量、开盘价、最高价、最低价和收盘价，以便进行更好的分析和可视化。
-keywords: Aspose.Cells for .NET, 成交量-开盘价-最高价-最低价-收盘价股票图表, 股票市场数据, 分析, 可视化。
+keywords: Aspose.Cells for .NET, 成交量 开盘价 最高价 最低价 收盘价股票图表, 股票市场数据, 分析, 可视化。
 type: docs
 weight: 184
 url: /zh/net/create-volume-open-high-low-close-stock-chart/

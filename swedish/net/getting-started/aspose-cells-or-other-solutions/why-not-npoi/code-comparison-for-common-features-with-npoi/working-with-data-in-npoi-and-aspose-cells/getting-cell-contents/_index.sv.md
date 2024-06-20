@@ -1,29 +1,30 @@
-﻿---
-title: Hämta Cell Innehåll
+---
+title: Fånga Cellinnehåll
 type: docs
 weight: 10
 url: /sv/net/getting-cell-contents/
 ---
-## **Aspose.Cells - Få Cell Innehåll**
-Metoden Cells[0] eller Cells[name] är tillgänglig för att komma åt celler.
+
+## **Aspose.Cells - Fånga Cellinnehåll**
+Cells[0] eller Cells[namn] metoden finns tillgänglig för att komma åt celler.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- Arbetsbok arbetsbok = ny arbetsbok("../../data/test.xlsx");
+ Workbook workbook = new Workbook("../../data/test.xlsx");
 
-Arbetsblad sheet1 = workbook.Worksheets[0];
+Worksheet sheet1 = workbook.Worksheets[0];
 
-Cells celler = ark1.Cells;
+Cells cells = sheet1.Cells;
 
-Områdesområde = ark1.Cells.MaxDisplayRange;
+Range range = sheet1.Cells.MaxDisplayRange;
 
 int tcols = range.ColumnCount;
 
 int trows = range.RowCount;
 
- för (int i = 0 ; i< trows; i++)
+for (int i = 0 ; i < trows; i++)
 
 {
 
@@ -44,18 +45,18 @@ int trows = range.RowCount;
 }
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Få Cell Innehåll**
-NPOI tillhandahåller klassen Cell för åtkomst till olika egenskaper hos celler.
+## **NPOI - HSSF XSSF - Fånga Cellinnehåll**
+NPOI tillhandahåller Cell klassen för att få åtkomst till olika egenskaper hos celler.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook("../../data/test.xlsx");
 
-ISark ark1 = wb.GetSheetAt(0);
+ISheet sheet1 = wb.GetSheetAt(0);
 
- för (int index = 0; index<= sheet1.LastRowNum; index++)
+for (int index = 0; index <= sheet1.LastRowNum; index++)
 
 {
 
@@ -114,13 +115,13 @@ ISark ark1 = wb.GetSheetAt(0);
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Hämta Cell Innehåll** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Hämta **Fånga Cellinnehåll** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Getting.Cell.Contents.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Datahanteringsfunktioner](/cells/sv/net/data-handling-features-in-aspose-cells/).
+För mer detaljer, besök [Datahanteringsfunktioner](/cells/sv/net/data-handling-features-in-aspose-cells/).
 
 {{% /alert %}}

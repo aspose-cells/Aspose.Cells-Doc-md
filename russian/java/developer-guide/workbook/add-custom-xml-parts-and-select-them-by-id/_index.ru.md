@@ -1,24 +1,25 @@
-﻿---
-title: Добавьте пользовательские части XML и выберите их по идентификатору
+---
+title: Добавление пользовательских XML частей и выбор их по идентификатору
 type: docs
 weight: 10
 url: /ru/java/add-custom-xml-parts-and-select-them-by-id/
 ---
+
 ## **Возможные сценарии использования**
 
-Пользовательские части XML — это данные XML, которые хранятся в документах Excel Microsoft и используются приложениями, которые с ними работают. На данный момент нет прямого способа добавить их с помощью пользовательского интерфейса Excel Microsoft. Однако вы можете добавить их программно различными способами, например, используя*ВСТО*, с использованием*Aspose.Cells*и т.д. Пожалуйста, используйте[**Книга.getCustomXmlParts().Добавить()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#add(java.lang.Object)), если вы хотите добавить пользовательскую часть XML, используя Aspose.Cells API. Вы также можете установить его идентификатор, используя[**CustomXmlPart.ID**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpart#ID)имущество. Точно так же, если вы хотите выбрать Custom XML Part by ID, вы можете использовать[**Рабочая книга.getCustomXmlParts().selectByID()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#selectByID(java.lang.String)) метод.
+Пользовательские XML-части - это XML-данные, которые хранятся в документах Microsoft Excel и используются приложениями, которые работают с ними. На данный момент нет прямого способа добавления их с помощью пользовательского интерфейса Microsoft Excel. Однако вы можете добавить их программным способом различными способами, например, с помощью *VSTO*, с использованием *Aspose.Cells* и т. д. Если вы хотите добавить пользовательскую XML-часть с использованием API Aspose.Cells, используйте метод [**Workbook.getCustomXmlParts().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#add(java.lang.Object)). Вы также можете установить его ID с помощью свойства [**CustomXmlPart.ID**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpart#ID). Аналогично, если вы хотите выбрать пользовательскую XML-часть по ID, вы можете использовать метод [**Workbook.getCustomXmlParts().selectByID()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#selectByID(java.lang.String)).
 
-## **Добавьте пользовательские части XML и выберите их по идентификатору**
+## **Добавление пользовательских XML-частей и выбор их по идентификатору**
 
-В следующем примере кода сначала добавляются четыре настраиваемые части XML с помощью[**Книга.getCustomXmlParts().Добавить()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#add(java.lang.Object)) метод. Затем он устанавливает их идентификаторы, используя[**CustomXmlPart.ID**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpart#ID)имущество. Наконец, он находит или выбирает одну из добавленных пользовательских XML-частей, используя[**Рабочая книга.getCustomXmlParts().selectByID()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#selectByID(java.lang.String)) метод. Также см. консольный вывод кода, приведенного ниже, для справки.
+Нижеприведенный образец кода сначала добавляет четыре пользоватские XML-части с использованием метода [**Workbook.getCustomXmlParts().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#add(java.lang.Object)). Затем устанавливает их ID с использованием свойства [**CustomXmlPart.ID**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpart#ID). Наконец, он находит или выбирает одну из добавленных пользоватских XML-частей с использованием метода [**Workbook.getCustomXmlParts().selectByID()**](https://reference.aspose.com/cells/java/com.aspose.cells/customxmlpartcollection#selectByID(java.lang.String)). Пожалуйста, также посмотрите консольный вывод ниже приведенного кода для справки.
 
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Workbook-AddCustomXMLPartsAndSelectThemByID.java" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Found: CustomXmlPart ID Sport
 

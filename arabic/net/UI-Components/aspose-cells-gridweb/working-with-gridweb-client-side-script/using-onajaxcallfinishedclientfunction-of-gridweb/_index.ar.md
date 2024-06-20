@@ -1,19 +1,22 @@
-﻿---
-title: استخدام وظيفة OnAjaxCallFinishedClient في GridWeb
+---
+title: استخدام OnAjaxCallFinishedClientFunction من GridWeb
 type: docs
 weight: 20
-url: /ar/net/using-onajaxcallfinishedclientfunction-of-gridweb/
+url: /ar/net/aspose-cells-gridweb/using-onajaxcallfinishedclientfunction-of-gridweb/
+keywords: GridWeb,ajacall,onajaxcallfinishedclientfunction,OnAjaxCallFinishedClientFunction 
+description: يقدم هذا المقال كيفية العمل مع OnAjaxCallFinishedClientFunction في GridWeb.
 ---
-## **سيناريوهات الاستخدام الممكنة**
-OnAjaxCallFinishedClientFunction هي وظيفة من جانب العميل تسمى عندما ينسخ المستخدم بعض البيانات إلى ورقة عمل GridWeb. هذه الوظيفة مفيدة عندما يتم تحديث الجزء الأكبر من الخلايا وتريد تتبع تلك الخلايا المحدثة من جانب العميل (على سبيل المثال في متصفحات الويب مثل FireFox و Google Chrome وما إلى ذلك).
-## **استخدام وظيفة OnAjaxCallFinishedClient في GridWeb**
-يوضح نموذج التعليمات البرمجية التالي كيفية الاستفادة من وظيفة العميل OnAjaxCallFinishedClientFunction. تُظهر لقطات الشاشة إخراج وحدة التحكم في Google Chrome و FireFox عند تنفيذ الكود. بمجرد تنفيذ التعليمات البرمجية ، يرجى نسخ / لصق بعض البيانات التي تمتد عبر خلايا متعددة داخل ورقة عمل GridWeb ثم التحقق من وحدة تحكم متصفح الويب كما هو موضح في لقطات الشاشة.
-## **Google إخراج وحدة تحكم كروم**
-![ما يجب القيام به: image_بديل_نص](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-## **إخراج وحدة تحكم FireFox**
-![ما يجب القيام به: image_بديل_نص](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
-## **عينة من الرموز**
-{{< highlight "java" >}}
+
+## **سيناريوهات الاستخدام المحتملة**
+OnAjaxCallFinishedClientFunction هو وظيفة جانب العميل يتم استدعاؤها عندما يقوم المستخدم بنسخ بعض البيانات إلى ورقة عمل GridWeb. تكون هذه الوظيفة مفيدة عندما يتم تحديث الخلايا بكميات كبيرة وترغب في تتبع تلك الخلايا المحدثة في الجانب العميل (على سبيل المثال في متصفحات الويب مثل FireFox و Google Chrome وما إلى ذلك).
+## **استخدام OnAjaxCallFinishedClientFunction من GridWeb**
+الرمز البرمجي المعروض أدناه يشرح كيفية الاستفادة من وظيفة العميل OnAjaxCallFinishedClientFunction. تظهر اللقطات الشاشة لمخرجات الكونسول في Google Chrome و FireFox عند تنفيذ الكود. بمجرد تنفيذ الكود ، يرجى نسخ / لصق بعض البيانات تمتد عبر عدة خلايا داخل ورقة العمل GridWeb ثم التحقق من كونسول متصفح الويب كما هو موضح في اللقطات.
+## **مخرجات كونسول Google Chrome**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
+## **مخرجات كونسول FireFox**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
+## **الكود المثالي**
+{{< highlight java >}}
 
  //-------------------------------------------------------
 

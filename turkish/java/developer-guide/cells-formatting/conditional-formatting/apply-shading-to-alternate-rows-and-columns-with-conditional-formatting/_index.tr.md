@@ -1,32 +1,33 @@
-﻿---
-title: Koşullu Biçimlendirme ile Alternatif Satırlara ve Sütunlara Gölgelendirme Uygulayın
+---
+title: Koşullu Biçimlendirme ile Sıradaki Satır ve Sütunlara Gölge Uygula
 type: docs
 weight: 10
 url: /tr/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells API'ler, koşullu biçimlendirme kurallarını eklemek ve değiştirmek için araçlar sağlar.[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) nesne. Bu kurallar, koşullara veya kurallara dayalı olarak istenen biçimlendirmeyi elde etmek için çeşitli şekillerde uyarlanabilir. Bu makale, koşullu biçimlendirme kuralları ve Excel'in yerleşik işlevleri yardımıyla alternatif satırlara ve sütunlara gölgeleme uygulamak için Aspose.Cells for Java API'in kullanımını gösterecektir.
+Aspose.Cells API'leri, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) nesnesi için koşullu biçimlendirme kurallarını eklemek ve değiştirmek için olanak sağlar. Bu kurallar, koşullar veya kurallara dayalı olarak istenen biçimlendirmeyi elde etmek için çeşitli şekillerde uyarlanabilir. Bu makale, koşullu biçimlendirme kuralları ve Excel'in yerleşik işlevlerinin yardımıyla sıradaki satır ve sütunlara gölge uygulama Aspose.Cells for Java API'nin kullanımını gösterecektir.
 
 {{% /alert %}} 
-## **Koşullu Biçimlendirmeyi Kullanarak Alternatif Satırlara ve Sütunlara Gölgelendirme Uygulayın**
-Bu makale, Excel'in SATIR, SÜTUN ve MOD gibi yerleşik işlevlerinden yararlanmaktadır. İleride sağlanan kod parçacığının daha iyi anlaşılması için bu işlevlerin küçük ayrıntılarını burada bulabilirsiniz.
+## **Koşullu Biçimlendirme Kullanarak Sıradaki Sütunlara Gölge Uygula**
+Bu makale, ROW, COLUMN ve MOD gibi Excel'in yerleşik işlevlerinden yararlanmaktadır. İşte bu işlevler hakkında daha fazla anlayış sağlamak için sağlanan kod parçacığının daha iyi anlaşılmasına yönelik küçük ayrıntılar.
 
-- **SIRA()** işlev, bir hücre başvurusunun satır numarasını döndürür. Başvuru atlanırsa, başvurunun SATIR işlevinin girildiği hücre adresi olduğunu varsayar.
-- **KOLON()**işlev, bir hücre başvurusunun sütun numarasını döndürür. Başvuru atlanırsa, başvurunun COLUMN işlevinin girildiği hücre adresi olduğu varsayılır.
-- **MOD()** işlev, bir sayı bir bölenle bölündükten sonra kalanı döndürür; burada işlevin ilk parametresi, kalanını bulmak istediğiniz sayısal değerdir ve ikinci parametre, sayı parametresine bölmek için kullanılan sayıdır. Bölen 0 ise, o zaman #SAYI/0'ı döndürür! hata.
+- **ROW()** işlevi, bir hücre referansının satır numarasını döndürür. Referans belirtilmemişse, ROW işlevinin girildiği hücre adresini varsayarsınız.
+- **COLUMN()** işlevi, bir hücre referansının sütun numarasını döndürür. Referans belirtilmemişse, COLUMN işlevinin girildiği hücre adresini varsayarsınız.
+- **MOD()** işlevi, bir sayının bir bölen tarafından bölündükten sonra kalanı döndürür. İşlevin ilk parametresi, kalanını bulmak istediğiniz sayısal değeri, ikinci parametre ise bu sayısal değeri bölmek için kullanılan parametreyi temsil eder. Bölen 0 ise, #DIV/0! hatası döndürür.
 
-Aspose.Cells for Java API yardımıyla hedefe ulaşmak için bazı kodlar yazmaya başlayalım.
+Aspose.Cells for Java API'sinin yardımıyla hedefe ulaşmak için kod yazmaya başlayalım.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyShadingToAlternateRowsAndColumns-ApplyShadingToAlternateRowsAndColumns.java" >}}
 
 
 
-Aşağıdaki anlık görüntü, Excel uygulamasında yüklenen sonuç elektronik tablosunu gösterir.
+Aşağıdaki görüntü, Excel uygulamasında yüklenen sonuç elektronik tabloyu göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)
+![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)
 
- Gölgelendirmeyi alternatif sütunlara uygulamak için tek yapmanız gereken formülü değiştirmek.**=MOD(SATIR(),2)=0** olarak**=MOD(SÜTUN(),2)=0** , yani; satır dizinini almak yerine, sütun dizinini almak için formülü değiştirin.
-Ortaya çıkan elektronik tablo, bu durumda, aşağıdaki görüntü gibi görünecektir.
+Sıralı sütunlara gölge uygulamak için yapmanız gereken tek şey, **=MOD(ROW(),2)=0** formülünü **=MOD(COLUMN(),2)=0** olarak değiştirmektir; yani, satır dizinini almak yerine formülü sütun dizinine değiştirin. 
+Bu durumda, elde edilen elektronik tablo aşağıdaki resimdeki gibi görünecektir.
 
-![yapılacaklar:resim_alternatif_metin](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)

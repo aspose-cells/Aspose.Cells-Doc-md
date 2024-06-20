@@ -1,38 +1,39 @@
-﻿---
+---
 title: Establecer imagen de fondo de una hoja de cálculo
 type: docs
 weight: 90
 url: /es/net/set-background-picture-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Las imágenes de fondo se ubican detrás del texto y las líneas en una hoja de cálculo. Se utilizan para proporcionar información sobre un libro de trabajo, por ejemplo, cuando se utilizan como marcas de agua de estado, pero también pueden agregar la marca de la empresa o la decoración. Microsoft Excel permite a los usuarios agregar imágenes de fondo manualmente.
+Las imágenes de fondo se colocan detrás del texto y las líneas en una hoja de cálculo. Se utilizan para proporcionar información sobre un libro de trabajo, por ejemplo, cuando se utilizan como marcas de agua de estado, pero también pueden agregar marca corporativa o decoración. Microsoft Excel permite a los usuarios agregar imágenes de fondo manualmente.
 
-Los desarrolladores también pueden agregar imágenes de fondo a través de sus aplicaciones, usando Aspose.Cells for .NET o VSTO. Este artículo compara los dos enfoques.
+Los desarrolladores también pueden agregar imágenes de fondo a través de sus aplicaciones, utilizando ya sea Aspose.Cells for .NET o VSTO. Este artículo compara los dos enfoques.
 
 {{% /alert %}}
 
-## **Establecer una imagen de fondo en una hoja de trabajo**
+## **Establecer una imagen de fondo en una hoja de cálculo**
 
 Para aplicar una imagen de fondo a una hoja de cálculo:
 
-1. Cree un libro de trabajo y acceda a la hoja a la que desea aplicar una imagen de fondo.
+1. Crear un libro y acceder a la hoja a la que quiere aplicar una imagen de fondo.
 1. Aplicar la imagen de fondo.
-1. Guarde el libro de trabajo.
+1. Guardar el libro.
 
- Los ejemplos de código que siguen muestran cómo hacer esto primero con[VSTO](/cells/es/net/set-background-picture-of-a-worksheet/) , usando C# o Visual Basic, y luego con[Aspose.Cells for .NET](/cells/es/net/set-background-picture-of-a-worksheet/), nuevamente usando C# o Visual Basic.
+Los ejemplos de código que siguen muestran cómo hacer esto primero con [VSTO](/cells/es/net/set-background-picture-of-a-worksheet/), utilizando ya sea C# o Visual Basic, y luego con [Aspose.Cells for .NET](/cells/es/net/set-background-picture-of-a-worksheet/), nuevamente utilizando ya sea C# o Visual Basic.
 
-Los ejemplos de código de este artículo crean una hoja de trabajo con una imagen de fondo repetida, como la de la captura de pantalla a continuación.
+Los ejemplos de código en este artículo crean una hoja de cálculo con una imagen de fondo repetida, como la que se muestra a continuación.
 
-**Se ha establecido un fondo para la hoja de trabajo.**
+**Se ha establecido un fondo para la hoja de cálculo.**
 
-![todo:imagen_alternativa_texto](set-background-picture-of-a-worksheet_1.png)
+![todo:image_alt_text](set-background-picture-of-a-worksheet_1.png)
 
 ### **Configuración de imágenes de fondo con VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -80,7 +81,7 @@ ExcelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -108,7 +109,7 @@ FileStream fs = File.OpenRead(ImageUrl);
 
 //Define a byte array.
 
-byte[]imageData = new Byte[fs.Length];
+byte[] imageData = new Byte[fs.Length];
 
 //Obtain the picture into the array of bytes from streams.
 

@@ -1,12 +1,13 @@
-﻿---
-title: Importation à partir d'objets personnalisés
+---
+title: Importation à partir d objets personnalisés
 type: docs
 weight: 30
 url: /fr/net/importing-from-custom-objects/
 ---
- Les développeurs peuvent importer des données d'une collection d'objets vers une feuille de calcul à l'aide de**ImportCustomObjects**. Vous pouvez fournir une liste de colonnes/propriétés à la méthode pour afficher la liste d'objets souhaitée.
 
-{{< highlight "csharp" >}}
+Les développeurs peuvent importer des données d'une collection d'objets vers une feuille de calcul en utilisant **ImportCustomObjects**. Vous pouvez fournir une liste de colonnes/propriétés à la méthode pour afficher votre liste d'objets souhaitée.
+
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -36,7 +37,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 

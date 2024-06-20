@@ -1,43 +1,44 @@
-﻿---
-title: Come eseguire gli esempi
+---
+title: Come Eseguire gli Esempi
 type: docs
 weight: 140
 url: /it/net/how-to-run-the-examples/
 ---
-## **Requisiti software**
+
+## **Requisiti Software**
 Assicurati di soddisfare i seguenti requisiti prima di scaricare ed eseguire gli esempi.
 
 1. Visual Studio 2015 o versioni successive
-1. NuGet Gestore pacchetti installato in Visual Studio. Per lo più è già installato in Visual Studio 2015. Per i dettagli su come installare il gestore pacchetti NuGet, controllare:[Installazione degli strumenti client NuGet](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools)
-1.  Vai su Strumenti->Opzioni->NuGet Gestore pacchetti->Origini pacchetti e assicurati che l'opzione**nuget.org** è controllato
-1.  Il progetto di esempio utilizza la funzionalità di ripristino automatico dei pacchetti NuGet, pertanto è necessario disporre di una connessione Internet attiva. Se non si dispone di una connessione Internet attiva sulla macchina in cui devono essere eseguiti gli esempi, controllare[Installazione](/cells/it/net/installation-and-deployment/) e aggiungere manualmente il riferimento a Aspose.Cells.dll nel progetto di esempio.
+1. Gestore pacchetti NuGet installato in Visual Studio. È già installato principalmente in Visual Studio 2015. Per dettagli su come installare il gestore pacchetti NuGet, controlla: [Installazione degli strumenti client NuGet](https://docs.microsoft.com/it-it/nuget/install-nuget-client-tools)
+1. Vai su Strumenti->Opzioni->Gestione pacchetti NuGet->Sorgenti pacchetto e assicurati che l'opzione **nuget.org** sia selezionata
+1. L'esempio del progetto utilizza la funzionalità di Ripristino automatico del pacchetto NuGet, quindi dovresti avere una connessione internet attiva. Se non hai una connessione internet attiva sulla macchina in cui devono essere eseguiti gli esempi, controlla [Installazione](/cells/it/net/installation-and-deployment/) e aggiungi manualmente un riferimento a Aspose.Cells.dll nel progetto di esempio.
 ## **Scarica da GitHub**
-Tutti gli esempi di Aspose.Cells for .NET sono ospitati su[Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
-## **Aspose.Cells Esempi**
--  Puoi clonare il repository utilizzando il tuo client GitHub preferito o scaricare il file ZIP da[qui](https://github.com/aspose-cells/Aspose.Cells-for-.NET/archive/master.zip).
--  Estrai il contenuto del file ZIP in qualsiasi cartella sul tuo computer. Tutti gli esempi si trovano in**Esempi** cartella.
-- Esiste un file di soluzione di Visual Studio per C# Esempi, ad es**Aspose.Cells.Examples.CSharp.sln**.
-- Il progetto viene creato e gestito in Visual Studio 2015.
-- Apri il file della soluzione in Visual Studio e compila il progetto.
--  Al primo avvio, le dipendenze verranno scaricate automaticamente tramite NuGet. È inoltre possibile scaricare le DLL separatamente da[qui](https://downloads.aspose.com/cells/net).
-- **Dati** folder nella cartella principale di**Esempi**contiene i file di input utilizzati dagli esempi di CSharp. E' obbligatorio scaricare il**Dati** cartella insieme al progetto di esempio.
--  Aprire**RunExamples.cs**, tutti gli esempi sono chiamati da qui.
-- Rimuovere il commento dagli esempi che si desidera eseguire dall'interno del progetto.
-## **Aspose.Cells.GridDesktop Esempi**
--  Aspose.Cells. Sono inclusi anche esempi di GridDesktop[Aspose.CellsGitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET) repository e sarà disponibile come parte del file ZIP scaricabile da[qui](https://github.com/aspose-cells/Aspose.Cells-for-.NET/archive/master.zip).
--  Tutti gli esempi si trovano in**Esempi_GridDesktop**cartella.
-- Simile agli esempi Aspose.Cells, il nome del file della soluzione degli esempi di GridWeb è**Aspose.Cells.GridDesktop.Examples.CSharp.sln**.
-- Apri il file della soluzione in Visual Studio e compila il progetto.
-- Tutte le dipendenze sono incluse come parte del progetto di esempio. Puoi anche scaricare le DLL separatamente da[qui](https://downloads.aspose.com/cells/net).
-- **Dati** folder nella cartella principale di**Esempi_GridDesktop** contiene i file di input utilizzati dagli esempi. E' obbligatorio scaricare il**Dati** cartella insieme al progetto di esempio.
+Tutti gli esempi di Aspose.Cells for .NET sono ospitati su [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
+## **Esempi di Aspose.Cells**
+- Puoi clonare il repository usando il tuo client GitHub preferito o scaricare il file ZIP da [qui](https://github.com/aspose-cells/Aspose.Cells-for-.NET/archive/master.zip).
+- Estrai il contenuto del file ZIP in una qualsiasi cartella sul tuo computer. Tutti gli esempi si trovano nella cartella **Esempi**.
+- C'è un file di soluzione di Visual Studio per gli esempi di C# cioè **Aspose.Cells.Examples.CSharp.sln**.
+- Il progetto è creato e mantenuto in Visual Studio 2015.
+- Apri il file di soluzione in Visual Studio e compila il progetto.
+- Al primo avvio, le dipendenze saranno scaricate automaticamente tramite NuGet. Puoi scaricare anche i file DLL separatamente da [qui](https://downloads.aspose.com/cells/net).
+- La cartella **Dati** nella cartella radice di **Esempi** contiene i file di input utilizzati dagli esempi in CSharp. È obbligatorio scaricare la cartella **Dati** insieme al progetto degli esempi.
+- Apri **RunExamples.cs**, tutti gli esempi sono chiamati da qui.
+- Rimuovere il commento dagli esempi che si desidera eseguire all'interno del progetto.
+## **Esempi di Aspose.Cells.GridDesktop**
+- Gli esempi di Aspose.Cells.GridDesktop sono inclusi anche nel repository [Aspose.Cells GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET) e saranno disponibili come parte del file ZIP scaricabile da [qui](https://github.com/aspose-cells/Aspose.Cells-for-.NET/archive/master.zip).
+- Tutti gli esempi sono situati nella cartella **Examples_GridDesktop**.
+- Similmente agli esempi di Aspose.Cells, il nome del file della soluzione degli esempi GridWeb è **Aspose.Cells.GridDesktop.Examples.CSharp.sln**.
+- Apri il file di soluzione in Visual Studio e compila il progetto.
+- Tutte le dipendenze sono incluse come parte del progetto degli esempi. Puoi scaricare anche i file DLL separatamente da [qui](https://downloads.aspose.com/cells/net).
+- La cartella **Data** nella cartella radice di **Examples_GridDesktop** contiene file di input usati dagli esempi. È obbligatorio scaricare la cartella **Data** insieme al progetto degli esempi.
 - Apri ed esegui il progetto.
 - Fare clic sull'esempio nel menu che si desidera eseguire all'interno del modulo.
-## **Aspose.Cells.GridWeb Esempi**
-- Aspose.Cells. Sono inclusi anche esempi di GridWeb[Aspose.CellsGitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET)repository e sarà disponibile come parte del file ZIP scaricabile da[qui](https://github.com/aspose-cells/Aspose.Cells-for-.NET/archive/master.zip).
-- Tutti gli esempi si trovano in**Esempi_GridWeb**cartella.
-- Simile agli esempi Aspose.Cells, il nome del file della soluzione degli esempi di GridWeb è**Aspose.Cells.GridWeb.Examples.CSharp.sln**.
-- Apri il file della soluzione in Visual Studio e compila il progetto.
-- Tutte le dipendenze sono incluse come parte dei progetti di esempio. Puoi anche scaricare le DLL separatamente da[qui](https://downloads.aspose.com/cells/net).
-- **Dati**folder nella cartella principale di**Esempi_GridWeb**contiene i file di input utilizzati dagli esempi. E' obbligatorio scaricare il**Dati**cartella insieme al progetto di esempio.
-- Apri e corri**Esempi.aspx**nel progetto esempi.
-- Fare clic sull'esempio nel browser che si desidera eseguire dall'interno del progetto.
+## **Esempi Aspose.Cells.GridWeb**
+- Gli esempi Aspose.Cells.GridWeb sono inclusi anche nel repository [Aspose.Cells GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET) e saranno disponibili come parte del file ZIP scaricabile da [qui](https://github.com/aspose-cells/Aspose.Cells-for-.NET/archive/master.zip).
+- Tutti gli esempi si trovano nella cartella **Examples_GridWeb**.
+- Similmente agli esempi Aspose.Cells, il nome del file di soluzione degli esempi di GridWeb è **Aspose.Cells.GridWeb.Examples.CSharp.sln**.
+- Apri il file di soluzione in Visual Studio e compila il progetto.
+- Tutte le dipendenze sono incluse come parte dei progetti degli esempi. È inoltre possibile scaricare i DLL separatamente da [qui](https://downloads.aspose.com/cells/net).
+- La cartella **Data** nella cartella radice di **Examples_GridWeb** contiene file di input usati dagli esempi. È obbligatorio scaricare la cartella **Data** insieme al progetto degli esempi.
+- Aprire ed eseguire **Examples.aspx** nel progetto degli esempi.
+- Fare clic sull'esempio nel browser che si desidera eseguire all'interno del progetto.

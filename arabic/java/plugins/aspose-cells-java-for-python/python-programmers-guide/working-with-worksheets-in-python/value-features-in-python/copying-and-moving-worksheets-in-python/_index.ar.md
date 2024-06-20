@@ -1,16 +1,17 @@
-﻿---
-title: نسخ ونقل أوراق العمل في Python
+---
+title: نسخ ونقل الصفحات في Python
 type: docs
 weight: 10
 url: /ar/java/copying-and-moving-worksheets-in-python/
 ---
-## **Aspose.Cells - نسخ أوراق العمل ونقلها**
-### **نسخ أوراق العمل داخل مصنف**
- لنسخ ورقة العمل باستخدام**Aspose.Cells for Java في روبي** ، مكالمة**نسخة_ورقة عمل** طريقة**أوراق العمل** وحدة. أدناه يمكنك مشاهدة مثال رمز.
 
-**Python كود**
+## **Aspose.Cells - نسخ ونقل أوراق العمل**
+### **نسخ أوراق العمل داخل دفتر عمل**
+لنسخ ورقة العمل باستخدام **Aspose.Cells for Java في روبي**، اتصل بطريقة **copy_worksheet** في وحدة **copyworksheets**. فيما يلي مثال على الكود.
 
-{{< highlight "java" >}}
+**كود Python**
+
+{{< highlight java >}}
 
  def copy_worksheet(self):  
 
@@ -62,7 +63,7 @@ workbook.save(self.dataDir + "Move_Worksheet.xls")
 print "Move worksheet, please check the output file."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**نسخ أوراق العمل ونقلها (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **نسخ ونقل أوراق العمل (Aspose.Cells)** من أي من مواقع التعديل الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

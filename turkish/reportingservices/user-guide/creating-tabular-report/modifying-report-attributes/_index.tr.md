@@ -1,34 +1,35 @@
-﻿---
-title: Rapor Niteliklerini Değiştirme
+---
+title: Rapor Özniteliklerini Değiştirme
 type: docs
 weight: 90
 url: /tr/reportingservices/modifying-report-attributes/
 ---
-Bir raporun niteliklerini değiştirmek için:
 
-1.  Tıklamak**Niteliği Değiştir**Aspose.Cells.Report.Designer araç çubuğunda (
+Bir raporun özniteliklerini değiştirmek için:
 
-![yapılacaklar:resim_alternatif_metin](modifying-report-attributes_1.png)
+1. Aspose.Cells.Report.Designer araç çubuğunda **Öznitelikleri Değiştir**'i tıklayın (
+
+![todo:image_alt_text](modifying-report-attributes_1.png)
 
 ).
-Mevcut raporlar sol panelde listelenir.
+Kullanılabilir raporlar sol panelde listelenir. 
 
-1.  Bir rapor seçin ve tıklayın**Değiştir**. 
+1. Bir rapor seçin ve **Değiştir**'i tıklayın. 
 
    **Bir rapor seçme** 
 
-![yapılacaklar:resim_alternatif_metin](modifying-report-attributes_2.png)
+![todo:image_alt_text](modifying-report-attributes_2.png)
 
 
 
 
-1.  Rapor özniteliklerini değiştirin.
+1. Rapor özniteliklerini değiştirin. 
 
-   **Nitelikleri değiştirme** 
+   **Öznitelikleri değiştirme** 
 
-![yapılacaklar:resim_alternatif_metin](modifying-report-attributes_3.png)
-
-
+![todo:image_alt_text](modifying-report-attributes_3.png)
 
 
-1.  Tıklamak**İşlemek** bitirmek için.
+
+
+1. Bitirmek için **Onayla**'yı tıklayın.

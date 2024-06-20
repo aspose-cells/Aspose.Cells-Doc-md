@@ -1,30 +1,31 @@
-﻿---
-title: Freigegebene Formel einstellen
+---
+title: Einstellung gemeinsamer Formel
 type: docs
 weight: 10
 url: /de/net/setting-shared-formula/
 ---
+
 {{% alert color="primary" %}}
 
-Wenn Sie eine Funktion im Arbeitsblatt hinzufügen möchten, die einige Berechnungen durchführt. In diesem Artikel wird erläutert, wie Sie diese Aufgabe mit Aspose.Cells ausführen.
+Wenn Sie eine Funktion im Arbeitsblatt hinzufügen möchten, die einige Berechnungen durchführt, erläutert dieser Artikel, wie Sie diese Aufgabe mit Aspose.Cells erreichen können.
 
 {{% /alert %}}
 
-## Gemeinsame Formel mit Aspose.Cells einstellen
+## Gemeinsame Formel mit Aspose.Cells festlegen
 
-Angenommen, Sie haben ein Arbeitsblatt, das mit Daten im Format gefüllt ist, das wie das folgende Beispielarbeitsblatt aussieht.
+Angenommen, Sie haben ein Arbeitsblatt mit Daten im Format, das wie das folgende Beispieldatenblatt aussieht.
 
 |**Eingabedatei mit einer Spalte oder Daten**|
-|:- |
-|![todo: Bild_alt_Text](setting-shared-formula_1.png)|
+| :- |
+|![todo:image_alt_text](setting-shared-formula_1.png)|
 
- Sie möchten eine Funktion in B2 hinzufügen, die die Mehrwertsteuer für die erste Datenzeile berechnet. Die Steuer ist**9%** Die Formel zur Berechnung der Umsatzsteuer lautet:**"=A2*0,09"**. Dieser Artikel erklärt, wie man diese Formel mit Aspose.Cells anwendet.
+Sie möchten eine Funktion in B2 hinzufügen, die die Umsatzsteuer für die erste Datensatzreihe berechnet. Die Steuer beträgt **9%**. Die Formel zur Berechnung der Umsatzsteuer lautet: **"=A2*0,09"**. In diesem Artikel wird erläutert, wie diese Formel mit Aspose.Cells angewendet wird.
 
- Aspose.Cells lässt Sie eine Formel mit angeben[**Cell.Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula)Eigentum. Es gibt zwei Optionen zum Hinzufügen von Formeln zu den anderen Zellen (B3, B4, B5 usw.) in der Spalte.
+Mit Aspose.Cells können Sie eine Formel mit der Eigenschaft [**Cell.Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula) angeben. Es gibt zwei Optionen, um Formeln zu den anderen Zellen (B3, B4, B5 usw.) in der Spalte hinzuzufügen.
 
-Machen Sie entweder das, was Sie für die erste Zelle getan haben, indem Sie effektiv die Formel für jede Zelle festlegen und die Zellreferenz entsprechend aktualisieren (A3*0,09, A4*0,09, A5*0,09 usw.). Dazu müssen die Zellbezüge für jede Zeile aktualisiert werden. Es erfordert auch Aspose.Cells, um jede Formel einzeln zu analysieren, was bei großen Tabellenkalkulationen und komplexen Formeln zeitaufwändig sein kann. Es fügt auch zusätzliche Codezeilen hinzu, obwohl Schleifen sie etwas reduzieren können.
+Entweder tun Sie das, was Sie für die erste Zelle getan haben, und setzen die Formel für jede Zelle ein, wobei der Zellbezug entsprechend aktualisiert wird (A3*0.09, A4*0.09, A5*0.09 usw.). Dies erfordert, dass die Zellbezüge für jede Zeile aktualisiert werden. Es erfordert auch, dass Aspose.Cells jede Formel einzeln analysiert, was bei großen Tabellenkalkulationen und komplexen Formeln zeitaufwändig sein kann. Es fügt auch zusätzliche Zeilen von Codes hinzu, obwohl Schleifen diese etwas reduzieren können.
 
- Ein anderer Ansatz ist die Verwendung von a**gemeinsame Formel** Bei einer freigegebenen Formel werden die Formeln automatisch für die Zellbezüge in jeder Zeile aktualisiert, sodass die Steuer ordnungsgemäß berechnet wird. Das[**Cell.SetSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setsharedformula/index)Methode ist effizienter als die erste Methode.
+Ein anderer Ansatz ist die Verwendung einer **gemeinsamen Formel**. Mit einer gemeinsamen Formel werden die Formeln automatisch für die Zellbezüge in jeder Zeile aktualisiert, sodass die Steuer ordnungsgemäß berechnet wird. Die Methode [**Cell.SetSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setsharedformula/index) ist effizienter als die erste Methode.
 
 Das folgende Beispiel zeigt, wie es verwendet wird.
 

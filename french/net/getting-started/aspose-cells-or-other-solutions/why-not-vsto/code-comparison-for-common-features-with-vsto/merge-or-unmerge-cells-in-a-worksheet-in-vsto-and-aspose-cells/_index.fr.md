@@ -1,15 +1,16 @@
-﻿---
-title: Fusionner ou UnMerge Cells dans une feuille de calcul dans VSTO et Aspose.Cells
+---
+title: Fusionner ou séparer des cellules dans une feuille de calcul dans VSTO et Aspose.Cells
 type: docs
 weight: 170
 url: /fr/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Ouvrez un fichier Excel existant, fusionnez certaines cellules dans la première feuille de calcul du classeur et enregistrez le fichier Excel.
-## **Fusion Cells**
-### **VSTO**
-Voici les extraits de code parallèles pour VSTO (C#) et Aspose.Cells for .NET (C#).
 
-{{< highlight "csharp" >}}
+Ouvrir un fichier Excel existant, fusionner certaines cellules dans la première feuille de calcul du classeur et enregistrer le fichier Excel.
+## **Fusion de cellules**
+### **VSTO**
+Voici les extraits de code parallèles pour VSTO (C #) et Aspose.Cells for .NET (C #).
+
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -55,7 +56,7 @@ Voici les extraits de code parallèles pour VSTO (C#) et Aspose.Cells for .NET (
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -82,10 +83,10 @@ Voici les extraits de code parallèles pour VSTO (C#) et Aspose.Cells for .NET (
   workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **Défusionner Cells**
-Pour dissocier la ou les cellules, utilisez les lignes de code suivantes pour VSTO (C#) et Aspose.Cells for .NET (C#).
+## **Séparation de cellules**
+Pour désélectionner la ou les cellules, utilisez les lignes de code suivantes pour VSTO (C #) et Aspose.Cells for .NET (C #).
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //UnMerge the cell.
 
@@ -93,7 +94,7 @@ Pour dissocier la ou les cellules, utilisez les lignes de code suivantes pour VS
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Cells rng = workbook.Worksheets[0].Cells;
 
@@ -102,7 +103,7 @@ Pour dissocier la ou les cellules, utilisez les lignes de code suivantes pour VS
   rng.UnMerge(0, 0, 1, 3);
 
 {{< /highlight >}}
-## **Télécharger l'exemple de code**
-- [GithubGenericName](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Merge.or.UnMerge.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/télécharger)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).Zip *: français)
+## **Télécharger le code source d'exemple**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Merge.or.UnMerge.Cells.in.a.Worksheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

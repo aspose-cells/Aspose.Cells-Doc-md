@@ -1,14 +1,15 @@
-﻿---
-title: Extrahera temadata från Excel-fil
+---
+title: Extrahera temadata från Excel fil
 type: docs
 weight: 110
 url: /sv/java/extract-theme-data-from-excel-file/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells låter användarna extrahera temarelaterade data från en Excel-fil. Till exempel kan du extrahera Temanamn som tillämpas på arbetsbok och Temafärg som tillämpas på cellen eller cellens kanter, etc.
+Aspose.Cells tillåter användarna att extrahera temarelaterade data från en Excelfil. Till exempel kan du extrahera temanamnet som tillämpats på arbetsboken och temafärgen som tillämpats på cellen eller cellernas ramar, osv.
 
-Du kan tillämpa tema på din arbetsbok med Microsoft Excel via kommandot Sidlayout > Teman.
+Du kan tillämpa tema på din arbetsbok med hjälp av Microsoft Excel via sidlayout > Teman-kommando.
 
 {{% /alert %}}
 
@@ -16,11 +17,11 @@ Du kan tillämpa tema på din arbetsbok med Microsoft Excel via kommandot Sidlay
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExtractThemeData-ExtractThemeData.java" >}}
 
-## **Provutgång**
+## **Exempelutdata**
 
-Här är ett exempel på konsolutdata av ovanstående kod.
+Här är en exempelkonsoloutput av ovanstående kod.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Civic
 

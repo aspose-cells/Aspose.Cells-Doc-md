@@ -1,28 +1,29 @@
-﻿---
-title: Agregar iconos a la hoja de trabajo
-linktitle: Gestión de iconos
+---
+title: Agregar iconos a la hoja de cálculo
+linktitle: Gestionar iconos
 type: docs
 weight: 15
 url: /es/java/insert-svg-to-excel/
 ---
-## Agregar iconos a la hoja de trabajo en Aspose.Cells
 
- Si necesitas usar[Aspose.Cells](https://products.aspose.com/cells/) para agregar 'iconos' en un archivo de Excel, entonces este documento puede proporcionarle algo de ayuda.
+## Agregar iconos a la hoja de cálculo en Aspose.Cells
+
+Si necesita usar [Aspose.Cells](https://products.aspose.com/cells/) para agregar 'iconos' en un archivo de Excel, este documento puede ofrecerle ayuda.
 
 La interfaz de Excel correspondiente a la operación de insertar icono es la siguiente:
 
 ![](1.png)
 
-- Seleccione la posición del icono que se insertará en la hoja de trabajo
--  Click izquierdo*Insertar*->*Iconos*
-- En la ventana que se abre, seleccione el icono en el rectángulo rojo en la figura de arriba
--  Click izquierdo*Insertar*, se insertará en el archivo de Excel.
+- Seleccione la posición del icono a insertar en la hoja de cálculo
+- Haga clic izquierdo *Insertar*->*Iconos*
+- En la ventana que se abre, seleccione el icono en el rectángulo rojo en la figura anterior
+- Haga clic izquierdo *Insertar*, se insertará en el archivo de Excel.
 
 El efecto es el siguiente:
 
 ![](2.png)
 
- Aquí hemos preparado*Código de muestra* para ayudarte a insertar íconos usando[Aspose.Cells](https://products.aspose.com/cells/) .También es necesario[archivo de muestra](sample.xlsx) y un icono[archivo de recursos](icon.zip) .Utilizamos la interfaz de Excel para insertar un icono con el mismo efecto de visualización que el[archivo de recursos](icon.zip) en el[archivo de muestra](sample.xlsx).
+Aquí, hemos preparado *código de muestra* para ayudarlo a insertar iconos usando [Aspose.Cells](https://products.aspose.com/cells/). También hay un [archivo de muestra](sample.xlsx) necesario y un archivo de recursos de iconos (icon.zip). Usamos la interfaz de Excel para insertar un icono con el mismo efecto de visualización que el [archivo de recursos](icon.zip) en el [archivo de muestra](sample.xlsx).
 
 ### Java
 

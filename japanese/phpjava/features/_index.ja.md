@@ -1,100 +1,101 @@
-﻿---
-title: 特徴
+---
+title: 機能
 type: docs
 weight: 5
 url: /ja/php-java/features/
-keywords: php, excel, api, feature
-description: Aspose.Cells for PHP via Java 特徴
+keywords: "php, excel, api, features"
+description: 「Aspose.Cells for PHP via Javaの機能」
 ---
-## **Aspose.Cells for PHP via Java 機能概要**
-このセクションでは、Aspose.Cells for Java と Aspose.Cells for PHP via Java の機能の可用性を比較します。
+
+## **Aspose.Cells for PHP via Java機能概要**
+このセクションでは、Aspose.Cells for JavaとAspose.Cells for PHP via Javaの機能の利用可能性についての比較を提供します。
 ### **ファイル形式と変換**
-世界中の多くのお客様が、Aspose.Cells が提供する完全なドキュメントのインポートおよびエクスポート機能に依存しています。
+Aspose.Cellsが提供する文書のインポートおよびエクスポート機能に多くの世界中の顧客が依存しています。
 
 |**特徴**|**説明**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
-|:- |:- |:- |:- |
-|高品質のコンバージョン|迅速かつ確実に、いくつかの一般的なドキュメント形式間で変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft エクセルワークブック (XLS)|あなたが見つけることができる最速かつ最も完全な XLS フォーマットの実装。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|SpreadsheetML (XLSX、XML)| Aspose.Cells は、OOXML、Flat OPC、および Excel 2003 XML をサポートしています。さらに、<br>このコンポーネントは、すべての主要な Excel 2007 以降のバージョンのファイル形式 (XLSX、XLTX、XLSM、XLTM など) をサポートしています。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|カンマ区切り値 (CSV)|さまざまなアプリケーションと対話するための CSV 形式の包括的なサポート。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|HTMLとして保存できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|オープンドキュメント (ODS)|Aspose.Cells は、ドキュメントを OpenDocument スプレッドシート (.ods) 形式で読み込んで保存できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Adobe Portable Document Format (PDF)|スプレッドシートを忠実度の高い PDF に変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|タブ区切り|ドキュメントをタブ区切りファイル形式で読み込んで保存します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|平文 (TXT)|プレーンテキスト形式で保存することにより、テキストを簡単に抽出できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+| :- | :- | :- | :- |
+|高品質の変換|いくつかの一般的な文書形式間で迅速かつ信頼性の高い変換を行います。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excelブック（XLS）|最速かつ最も完全なXLS形式実装が取得できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML（XLSX、XML）|Aspose.CellsはOOXML、Flat OPC、およびExcel 2003 XMLをサポートしています。さらに、コンポーネントはすべての主要なExcel 2007以降のバージョンのファイル形式（XLSX、XLTX、XLSM、XLTMなど）をサポートしています。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|カンマ区切り値（CSV）|さまざまなアプリケーションとやり取りするためのCSV形式の包括的なサポート。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|HTMLとして保存することができます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|OpenDocument（ODS）|Aspose.CellsはOpenDocument Spreadsheet（.ods）形式でドキュメントをロードおよび保存できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Adobe Portable Document Format（PDF）|高い忠実度で任意のスプレッドシートをPDFに変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|タブ区切り|タブ区切りファイル形式でドキュメントをロードおよび保存します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|プレーンテキスト（TXT）|プレーンテキスト形式で保存して簡単にテキストを抽出します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **レンダリングと印刷**
-Aspose.Cells は、スプレッドシート ページの忠実度の高いレンダリングを提供するようになりました。
+Aspose.Cellsは現在、スプレッドシートページの高品質なレンダリングを提供しています。
 
-|**特徴**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
-|:- |:- |:- |
-|ドキュメントを Microsoft Excel® に忠実にページにレイアウトします (Microsoft Excel® とまったく同じように)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ワークシート ページをラスター イメージ (PNG、JPEG など) にレンダリングします。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ワークシート ページをラスター イメージにレンダリングします (マルチページ TIFF、GIF)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|スプレッドシート ページをベクター イメージにレンダリングします (EMF)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|画像の解像度、品質、圧縮、およびその他のオプションを指定します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Java 印刷インフラストラクチャを使用してスプレッドシート ページを印刷します。|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|レンダリングまたは印刷する前に、ページ番号およびその他のフィールドを更新します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
+| :- | :- | :- |
+|Microsoft Excel®と同じく高品質なページレイアウトで文書をページに配置します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ワークシートページをラスター画像（PNG、JPEGなど）にレンダリングします。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ワークシートページをラスター画像（マルチページTIFF、GIF）にレンダリングします。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|スプレッドシートページをベクター画像（EMF）にレンダリングします。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|画像の解像度、品質、圧縮などのオプションを指定します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Java印刷インフラストラクチャを使用してスプレッドシートページを印刷します。|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|レンダリングまたは印刷前にページ番号および他のフィールドを更新します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **スプレッドシートのコンテンツ機能**
-Aspose.Cells は、100 を超えるパブリック クラス/インターフェイスで構成されるリッチ オブジェクト モデルを提供します。これにより、ロードされたスプレッドシートをプログラムで生成、結合、変更、解析、または調査することができます。主な機能の一部を下の表に示します。
+Aspose.Cellsは、100以上の公開クラス/インタフェースから構成される豊富なオブジェクトモデルを提供し、プログラムによってスプレッドシートを生成、結合、変更、解析、またはそれ以外の方法で読み込んだスプレッドシートを調べることができます。一部の主な機能は、以下の表で示されています。
 
-|**特徴**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
-|:- |:- |:- |
-|Array、ArrayList、ResultSet などからデータをインポート/エクスポートします。|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|既存のワークシートのコピーを追加します (画像、チャート、その他のオブジェクトなどを含むすべての内容)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ワークブック内またはワークブック間でワークシートをコピーまたは移動する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|画像を挿入|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|グラフを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|API を使用してグラフのグラデーション背景を設定する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|セルにコメントを追加する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel 2007 以降のバージョンのテーマと色|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|自動フィルターを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|データ検証を実装する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|データの並べ替えを実装する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|テキストの検索と置換|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|合流・分割 Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|行と列のグループ化/グループ解除|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|カスタム改ページを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|行、列、およびシートの挿入/削除または非表示|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|複雑な Excel 数式を計算する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel 2007 以降のバージョンでサポートされている高度な条件付き書式をサポートします|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ペインのフリーズ/フリーズ解除|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ハイパーリンクを挿入してデータをリンクする|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|スマート マーカーの実装|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ドキュメントのプロパティ設定を指定する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
+| :- | :- | :- |
+|配列、ArrayList、ResultSetなどからのデータのインポート/エクスポート|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|既存のワークシートのコピーを追加（画像、チャート、その他のオブジェクトを含む）|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ワークブック内またはワークブック間でのワークシートのコピーまたは移動|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|画像の挿入|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|チャートの作成|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|APIを使用したチャートのグラデーション背景の設定|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|セルにコメントを追加|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel 2007以降のテーマと色|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|自動フィルターの作成|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|データの検証の実装|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|データの並べ替えの実装|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|テキストの検索および置換|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|セルの結合/分割|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|行と列のグループ化/グループ化の解除|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|カスタムページブレークの作成|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|行、列、シートの挿入/削除または非表示|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|複雑なExcel式の計算|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel 2007以降でサポートされている高度な条件付き書式設定のサポート|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|固定/固定解除ペイン|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|データをリンクさせるためのハイパーリンクの挿入|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|スマートマーカーの実装|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ドキュメントのプロパティ設定の指定|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |ワークシートの保護/保護解除|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Excel XP 以降のバージョンで導入された高度な保護オプションを指定する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|リスト オブジェクトの作成/Microsoft Excel テーブル|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Excel XP以降で導入された高度な保護オプションの指定|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|リストオブジェクト/Microsoft Excelテーブルの作成|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |小計の作成|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|フォーム コントロールおよびその他の描画図形/オブジェクトを挿入する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ピボット テーブルとピボット グラフを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|フォームコントロールおよびその他の描画形状/オブジェクトの挿入|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ピボットテーブルとピボットチャートを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |アドイン、VBA、マクロを保持または削除する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |名前付き範囲を操作する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|カスタム グラフを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|スプレッドシートから OLE オブジェクトを追加、保存、または抽出します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|カスタムチャートを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|スプレッドシートからOLEオブジェクトを追加、保持、または抽出する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |スパークラインを実装する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |ファイルを暗号化する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **スプレッドシートの書式設定機能**
-Aspose.Cells は、すべてのスプレッドシート要素の書式設定プロパティへの詳細なプログラム アクセスを提供します。
+Aspose.Cellsはすべてのスプレッドシート要素の書式設定プロパティに詳細なプログラムアクセスを提供します。
 
-|**特徴**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
-|:- |:- |:- |
-|フォント、色、効果、境界線、陰影など、すべての文字書式をセルに適用します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|セルにすべての数値形式設定 (Microsoft Excel でサポート) を適用します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|すべてのタイプのテキスト配置設定を設定します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|セルにさまざまな種類のフォント設定を適用します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|セル、フォント、グリッド線、グラフィック オブジェクトなどにさまざまな色を適用します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|1 つのセルにさまざまなリッチ テキスト形式を適用します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|セルに異なる境界設定を適用します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|セルにさまざまな背景パターンを適用します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ワークシート、行、列、セル範囲などに書式設定を適用します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **PageSetup 機能**
-Aspose.Cells を使用して、ワークシートのページ設定オプションを実装できます。
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
+| :- | :- | :- |
+|セル内のフォント、色、効果、罫線、および網掛けを含むすべての文字の書式を適用する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|セルに対してMicrosoft Excelでサポートされているすべての数値書式設定を適用する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|セル内のすべてのテキスト配置設定を設定する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|セルに異なる種類のフォント設定を適用する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|セル、フォント、罫線、グラフィックオブジェクトなどに異なる色を適用する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|1つのセル内に異なるリッチテキスト書式を適用する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|セルに異なる罫線設定を適用する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|セルに異なる背景パターンを適用する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ワークシート、行、列、またはセル範囲などにフォーマット設定を適用する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **ページ設定機能**
+Aspose.Cellsを使用して、ワークシートのページ設定オプションを実装することができます。
 
-|**特徴**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
-|:- |:- |:- |
-|ページの向き、スケーリング、用紙サイズを調整します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|余白とページの中央揃えを指定します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ヘッダーやフッターを作成または編集します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|印刷範囲の設定、タイトルの印刷、グリッド線のオンなど。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|**Feature**|**Aspose.Cells for Java**|**Aspose.Cells for PHP via Java**|
+| :- | :- | :- |
+|ページの方向、スケーリング、用紙サイズを調整する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|余白およびページ中央揃えを指定する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ヘッダーおよび/またはフッターを作成または編集する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|印刷範囲、印刷タイトルを設定する、または罫線を表示するなど|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 

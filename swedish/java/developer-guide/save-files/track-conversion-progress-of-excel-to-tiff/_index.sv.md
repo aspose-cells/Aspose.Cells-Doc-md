@@ -1,16 +1,17 @@
-﻿---
-title: Spåra konverteringsförlopp för Excel till TIFF
+---
+title: Följ konverteringsframstegen från Excel till TIFF
 type: docs
 weight: 140
 url: /sv/java/track-conversion-progress-of-excel-to-tiff/
 ---
-## **Möjliga användningsscenarier**
 
-Ibland kan det ta lite tid att konvertera stora Excel-filer. Under denna tid kanske du vill visa dokumentkonverteringsförloppet istället för bara en laddningsskärm för att förbättra användbarheten av din applikation. Aspose.Cells stöder konverteringsprocess för spårning av dokument genom att tillhandahålla**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**gränssnitt. De**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**gränssnitt ger**[PageStartSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs))**och**[PageEndSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs))** metoder som du kan implementera i din anpassade klass. Du kan också kontrollera vilka sidor som renderas som visas i*TestTiffPageSavingCallback*anpassad klass.
+## **Möjliga användningsscenario**
 
-## **Spåra konverteringsförlopp för Excel till TIFF**
+Ibland kan konvertering av stora Excel-filer ta lite tid. Under denna tid kanske du vill visa dokumentkonverteringsframstegen istället för bara en laddningsskärm för att förbättra användbarheten i din applikation. Aspose.Cells stöder spårning av dokumentkonverteringsprocess genom att tillhandahålla gränssnittet [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). Gränssnittet [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) tillhandahåller metoderna [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) och [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) som du kan implementera i din anpassade klass. Du kan även kontrollera vilka sidor som renderas som visas i den anpassade klassen *TestTiffPageSavingCallback*.
 
-Följande kodexempel laddar[source excel-fil](sampleUseWorkbookRenderForImageConversion.xlsx) och skriver ut dess konverteringsförlopp i konsolen med hjälp av*TestTiffPageSavingCallback*anpassad klass som implementerar**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**gränssnitt. Den genererade utdatafilen bifogas för din referens.
+## **Spåra konverteringsframsteg för Excel till TIFF**
+
+Följande kodprov laddar [käll-excel-filen](sampleUseWorkbookRenderForImageConversion.xlsx) och skriver ut dess konverteringsframsteg i konsolen med hjälp av den anpassade klassen *TestTiffPageSavingCallback* som implementerar gränssnittet [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). Den genererade utdatafilen bifogas för din referens.
 
 [Utdatafil](DocumentConversionProgressForTiff_out.tiff)
 
@@ -18,27 +19,30 @@ Följande kodexempel laddar[source excel-fil](sampleUseWorkbookRenderForImageCon
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgressForTiff-1.java" >}}
 
-Följande är koden för*TestTiffPageSavingCallback*anpassad klass.
+Följande är koden för den anpassade klassen *TestTiffPageSavingCallback*.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgressForTiff-2.java" >}}
 
-## **Konsolutgång**
+## **Konsoloutput**
 
-Börja spara sidindex 0 av sidorna 10</br>
-Avsluta att spara sidindex 0 av sidorna 10</br>
-Börja spara sidindex 1 av sidorna 10</br>
-Avsluta att spara sidindex 1 av sidorna 10</br>
-Börja spara sidindex 2 av sidorna 10</br>
-Avsluta att spara sidindex 2 av sidorna 10</br>
-Börja spara sidindex 3 av sidorna 10</br>
-Avsluta att spara sidindex 3 av sidorna 10</br>
-Börja spara sidindex 4 av sidorna 10</br>
-Avsluta att spara sidindex 4 av sidorna 10</br>
-Börja spara sidindex 5 av sidorna 10</br>
-Avsluta att spara sidindex 5 av sidorna 10</br>
-Börja spara sidindex 6 av sidorna 10</br>
-Avsluta att spara sidindex 6 av sidorna 10</br>
-Börja spara sidindex 7 av sidorna 10</br>
-Avsluta att spara sidindex 7 av sidorna 10</br>
-Börja spara sidindex 8 av sidorna 10</br>
-Avsluta att spara sidindex 8 av sidorna 10
+{{< highlight java >}}
+Start saving page index 0 of pages 10</br>
+End saving page index 0 of pages 10</br>
+Start saving page index 1 of pages 10</br>
+End saving page index 1 of pages 10</br>
+Start saving page index 2 of pages 10</br>
+End saving page index 2 of pages 10</br>
+Start saving page index 3 of pages 10</br>
+End saving page index 3 of pages 10</br>
+Start saving page index 4 of pages 10</br>
+End saving page index 4 of pages 10</br>
+Start saving page index 5 of pages 10</br>
+End saving page index 5 of pages 10</br>
+Start saving page index 6 of pages 10</br>
+End saving page index 6 of pages 10</br>
+Start saving page index 7 of pages 10</br>
+End saving page index 7 of pages 10</br>
+Start saving page index 8 of pages 10</br>
+End saving page index 8 of pages 10
+
+{{< /highlight >}}

@@ -1,22 +1,23 @@
 ---
-title: Добавить водяной знак на номер PDF
+title: Добавление водяного знака в PDF
 type: docs
 weight: 9
 url: /ru/python-net/add-watermark-to-pdf/
-description: Узнайте, как добавить водяной знак в PDF с помощью Aspose.Cells for Python via .NET API.
-keywords: Python add watermark to pdf, add watermark to pdf Pyton via NET, insert watermark to pdf
+description: Узнайте, как добавить водяной знак к PDF с помощью Aspose.Cells для Python via .NET API.
+keywords: Python добавить водяной знак для PDF, добавить водяной знак для PDF в Python via NET, вставить водяной знак для PDF
 ---
-При преобразовании файла Excel в PDF вам может потребоваться добавить водяной знак в файл PDF. В следующих примерах показано, как добавить текстовый и графический водяной знак в PDF во время рендеринга в PDF.
 
-##   **Добавьте текстовый водяной знак на номер PDF.**
+При преобразовании файла Excel в PDF у вас могут возникнуть требования добавления водяного знака в файл PDF. В следующих примерах показано, как добавлять текстовый и изображения водяной знак в PDF при преобразовании в PDF.
 
- Вы можете легко добавить текстовый водяной знак в PDF, указав текст и соответствующий шрифт. Кроме того, вы можете установить выравнивание, смещение, поворот, непрозрачность, передний план/фон и масштаб страницы в[РендерингВодяной Знак](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
+##  **Добавить текстовый водяной знак в PDF**
+
+Вы можете легко добавить текстовой водяной знак к PDF, указав текст и соответствующий шрифт. Также вы можете установить выравнивание, смещение, вращение, непрозрачность, передний/задний план и масштаб для страницы в [RenderingWatermark](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddTextWatermarkToPdf.py" >}}
 
-##  **Добавьте водяной знак изображения к номеру PDF.**
+## **Добавить изображение водяного знака в PDF**
 
-Вы можете добавить водяной знак изображения в PDF, просто указав байты изображения. Кроме того, вы можете установить выравнивание, смещение, поворот, непрозрачность, передний план/фон и масштаб страницы в[РендерингВодяной Знак](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
+Вы можете добавить изображение водяного знака к PDF, просто указав байты изображения. Также вы можете установить выравнивание, смещение, вращение, непрозрачность, передний/задний план и масштаб для страницы в [RenderingWatermark](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/renderingwatermark/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddImageWatermarkToPdf.py" >}}
 

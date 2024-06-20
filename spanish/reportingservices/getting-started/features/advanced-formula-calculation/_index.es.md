@@ -1,22 +1,23 @@
-﻿---
+---
 title: Cálculo avanzado de fórmulas
 type: docs
 weight: 40
 url: /es/reportingservices/advanced-formula-calculation/
 ---
+
 {{% alert color="primary" %}} 
 
- Hay dos tipos de fórmulas:
+Existen dos tipos de fórmulas: 
 
 1. Fórmulas de Reporting Services y
-1. la fórmula dinámica de Excel Microsoft proporcionada por Aspose.Cells para los servicios de informes.
+1. la fórmula dinámica de Microsoft Excel proporcionada por Aspose.Cells para los servicios de Reporting.
 
-Usar fórmulas de Reporting Services en Aspose.Cells.Report.Designer es lo mismo que aplicar fórmulas en Visual Studio. Puede establecer fórmulas de Reporting Services en función de los valores de las celdas en una plantilla de informe. Las fórmulas se calculan y los resultados del cálculo se vuelven a llenar en las celdas en el momento de la representación.
+El uso de fórmulas de Reporting Services en Aspose.Cells.Report.Designer es similar a aplicar fórmulas en Visual Studio. Puede establecer fórmulas de Reporting Services basadas en los valores de celdas en una plantilla de informe. Las fórmulas se calculan y los resultados del cálculo se completan en las celdas en el momento del procesamiento.
 
-Microsoft Las fórmulas dinámicas de Excel no se calculan, sino que se convierten en fórmulas reales de Microsoft Excel siguiendo ciertas reglas y regulaciones antes de volver a llenar las celdas en el momento de la representación.
+Las fórmulas dinámicas de Microsoft Excel no se calculan, sino que se convierten en fórmulas reales de Microsoft Excel siguiendo ciertas reglas y regulaciones antes de completarse en las celdas en el momento del procesamiento.
 
 {{% /alert %}} 
-- **Salida de fórmula**
-**Un informe de muestra que contiene fórmulas (calculadas) se exporta usando Aspose.Cells for Reporting Services** 
+- **Salida de Fórmula**
+**Un informe de muestra que contiene fórmulas (calculadas) se exporta utilizando Aspose.Cells for Reporting Services** 
 
-![todo:imagen_alternativa_texto](advanced-formula-calculation_1.png)
+![todo:image_alt_text](advanced-formula-calculation_1.png)

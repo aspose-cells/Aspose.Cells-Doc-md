@@ -1,21 +1,22 @@
 ---
-title: تحديث القطاعة
+title: تحديث المقسم
 type: docs
 weight: 50
 url: /ar/net/updating-slicer/
-description: توضح هذه المقالة كيفية تحديث الجداول المحورية المرتبطة عن طريق تحديث أداة التقطيع بواسطة Aspose.Cells for .NET API.
-keywords: Aspose.Cells C# Update slicer, C# how to change the slicer, how to adjust the slicer in C#, how to select or unselect he slicer items.
+description: يوضح هذا المقال كيفية تحديث الجداول المحورية المرتبطة عن طريق تحديث العارض باستخدام واجهة برمجة التطبيقات Aspose.Cells for .NET لAspose.Cells.
+keywords: تحديث العارض في لغة C# لAspose.Cells، كيفية تغيير العارض في C#، كيفية ضبط العارض في C#، كيفية تحديد أو إلغاء تحديد عناصر العارض.
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-إذا كنت ترغب في تحديث أداة التقطيع في برنامج Excel Microsoft، فحدد عناصرها أو قم بإلغاء تحديدها، وسيتم بعد ذلك تحديث جدول التقطيع أو الجدول المحوري وفقًا لذلك. الرجاء استخدام[**Slicer.SlicerCache.SlicerCacheItems**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercache/properties/slicercacheitems)لتحديد أو إلغاء تحديد عناصر التقطيع باستخدام الرقم Aspose.Cells ثم الاتصال[**القطاعة.تحديث ()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/methods/refresh)طريقة لتحديث جدول التقطيع أو الجدول المحوري.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **كيفية تحديث القطاعة**
+إذا كنت ترغب في تحديث العارض في مايكروسوفت أكسل وتحديد أو إلغاء تحديد عناصره، بعد ذلك سيتم تحديث جدول العارض أو الجدول المحوري وفقًا لذلك. يرجى استخدام [**Slicer.SlicerCache.SlicerCacheItems**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercache/properties/slicercacheitems) لتحديد أو إلغاء تحديد عناصر العارض بواسطة Aspose.Cells ومن ثم استدعاء [**Slicer.Refresh()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/methods/refresh) لتحديث جدول العارض أو الجدول المحوري.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[عينة من ملف إكسل](67338475.xlsx) الذي يحتوي على أداة تقطيع موجودة. يقوم بإلغاء تحديد العنصرين الثاني والثالث من مقسم طريقة العرض ويحدث مقسم طريقة العرض. ثم يقوم بحفظ المصنف باسم[إخراج ملف إكسل](67338476.xlsx)توضح لقطة الشاشة التالية تأثير نموذج التعليمات البرمجية على نموذج ملف Excel. كما ترون في لقطة الشاشة، فإن تحديث مقسم طريقة العرض بالعناصر المحددة أدى أيضًا إلى تحديث الجدول المحوري وفقًا لذلك.
+## **كيفية تحديث العارض**
 
-![ما يجب القيام به:image_alt_text](updating-slicer_1.png)
+يحمل الكود العيني التالي الملف اكسل العيني الذي يحتوي على عارض موجود. يلغي تحديد العناصر الثانية والثالثة من العارض ويحدث العارض. ثم يحفظ الدفتر كملف أكسل بإسم ملف الأكسل العيني الناتج. تظهر الصورة العينية التالية تأثير الكود العيني على ملف الأكسل العيني العيني. كما ترون في الصورة العينية، تم تحديث العارض بالعناصر المحددة وكذلك تم تحديث الجدول المحوري وفقًا لذلك.
 
-##  **عينة من الرموز**
+![todo:image_alt_text](updating-slicer_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-UpdatingSlicer.cs" >}}

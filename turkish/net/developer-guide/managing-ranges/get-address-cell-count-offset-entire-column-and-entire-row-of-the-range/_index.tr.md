@@ -1,37 +1,38 @@
-﻿---
-title: Al Adresi Cell Sayı Aralığının Tüm Sütununu ve Tüm Satırını Uzaklaştır
+---
+title: Aralığın Adres Hücre Sayısı Ofset Tüm Sütun ve Tüm Sıra Sayısını Al
 type: docs
 weight: 330
 url: /tr/net/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
 ---
+
 ## **Olası Kullanım Senaryoları**
-Aspose.Cells, kullanıcının Excel Aralıkları ile kolayca çalışmasını kolaylaştıran çeşitli yardımcı yöntemlere sahip Aralık nesnesini sağlar. Bu makale, Range nesnesinin aşağıdaki yöntemlerinin veya özelliklerinin kullanımını göstermektedir.
+Aspose.Cells, Excel Aralıklarıyla kolayca çalışmayı sağlayan çeşitli yardımcı yöntemlere sahip Range nesnesini sağlar. Bu makale, Range nesnesinin aşağıdaki yöntemlerini veya özelliklerini kullanımını açıklar.
 
 - **Adres**
 
 Aralığın adresini alır.
 
-- **Cell Kont**
+- **Hücre Sayısı**
 
 Aralıktaki tüm hücre sayısını alır.
 
-- **Telafi etmek**
+- **Ofset**
 
-Uzaklığa göre menzil alır.
+Ofset ile aralığı alır.
 
 - **Tüm Sütun**
 
 Belirtilen aralığı içeren tüm sütunu (veya sütunları) temsil eden bir Range nesnesi alır.
 
-- **Tüm satır**
+- **Tüm Satır**
 
 Belirtilen aralığı içeren tüm satırı (veya satırları) temsil eden bir Range nesnesi alır.
-## **Al Adresi, Cell Sayı, Ofset, Tüm Sütun ve Aralığın Tüm Satırı**
-Aşağıdaki örnek kod, yukarıda açıklanan yöntemlerin ve özelliklerin kullanımını açıklar. Lütfen referans için aşağıda verilen kodun konsol çıktısına bakın.
-## ` `**Basit kod**
+## **Aralığın Adresini, Hücre Sayısını, Kaydırmayı, Tüm Sütunu ve Tüm Satırı Al**
+Aşağıda verilen örnek kod, yukarıda tartışılan yöntemlerin ve özelliklerin kullanımını açıklar. Referans için aşağıdaki kodun konsol çıktısını inceleyin.
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.cs" >}}
-## **Konsol Çıkışı**
-{{< highlight "java" >}}
+## **Konsol Çıktısı**
+{{< highlight java >}}
 
  Creating Range A1:B3
 

@@ -1,30 +1,31 @@
 ---
-title: عرض أحرف Unicode التكميلية في الإخراج PDF بواسطة Aspose.Cells for Python via .NET
+title: إنشاء الأحرف اليونيكود الإضافية في PDF الناتج من خلال Aspose.Cells لـ Python via .NET
 type: docs
 weight: 350
 url: /ar/python-net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
-description: تعرف على كيفية عرض أحرف Unicode التكميلية أثناء تحويل Excel إلى PDF مع Aspose.Cells for Python via .NET API.
-keywords: Python Render Unicode Supplementary characters while saving file to PDF, Print Unicode Supplementary characters while saving Excel to PDF using Python, Python Show Unicode Supplementary characters when converting Excel to PDF, Output Unicode Supplementary characters for excel to pdf
+description: تعلم كيفية إنشاء الأحرف اليونيكود الإضافية أثناء تحويل Excel إلى PDF باستخدام واجهة برمجة تطبيقات Aspose.Cells لـ Python via .NET.
+keywords: إنشاء الأحرف اليونيكود الإضافية باستخدام Python أثناء حفظ الملف إلى PDF، طباعة الأحرف اليونيكود الإضافية أثناء حفظ Excel إلى PDF باستخدام Python، إظهار الأحرف اليونيكود الإضافية عند تحويل Excel إلى PDF بواسطة Python, الإخراج الأحرف اليونيكود الإضافية من إكسل إلى PDF 
 ---
+
 {{% alert color="primary" %}}
 
-يبلغ طول أحرف Unicode العادية 2 بايت بينما يبلغ طول أحرف Unicode التكميلية 4 بايت. Aspose.Cells for Python via .NET يدعم الآن عرض أحرف Unicode ذات 4 بايت.
+تتألف الأحرف العادية يونيكود من 2 بايت بينما تتألف الأحرف اليونيكود الإضافية من 4 بايت. Aspose.Cells لـ Python via .NET الآن يدعم عرض هذه الأحرف اليونيكود الإضافية من 4 بايت.
 
-في Unicode Character Standard، الأحرف التكميلية هي الأحرف المخصصة لنقاط التعليمات البرمجية من U+10000 إلى U+10FFFF. بمعنى آخر، هذه هي أحرف Unicode الأكبر من U+FFFF.
+في معيار الحروف اليونيكود، الحروف الأعلى هي الحروف التي تم تخصيص نقاط الرموز لها من U+10000 إلى U+10FFFF. وبمعنى آخر، هذه هي الحروف اليونيكود التي تكون أكبر من U+FFFF.
 
-- في UTF-8 يبلغ طول هذه الأحرف 4 بايت.
-- في UTF-16، تتطلب هذه الأحرف بديلين (وحدات 16 بت).
+- في UTF-8 طول كل من هذه الحروف هو 4 بايت.
+- في UTF-16، هذه الحروف تتطلب 2 حروف دعائية (وحدات بت بطول 16).
 
 {{% /alert %}}
 
-##  عرض أحرف Unicode التكميلية في الإخراج PDF بواسطة Aspose.Cells for Python via .NET
+## إظهار أحرف اليونيكود الإضافية في ال PDF الناتج من خلال Aspose.Cells لـ Python via .NET
 
- توضح لقطة الشاشة التالية كيف تم عرض Aspose.Cells for Python via .NET[ملف اكسيل المصدر](5115563.xlsx) داخل ال[الإخراج PDF](5115564.pdf). كما ترون، تم عرض جميع أحرف Unicode التكميلية الثلاثة تمامًا كما حدث بواسطة Microsoft Excel.
+اللقطة الشاشة التالية تُظهر كيف أن Aspose.Cells لـ Python via .NET عرض ال [ملف إكسل المصدر](5115563.xlsx) إلى [PDF الناتج](5115564.pdf). كما ترى جميع الأحرف اليونيكود الإضافية الثلاثة تم عرضها بالطريقة نفسها كما فعلته مايكروسوفت إكسل.
 
-![ما يجب القيام به:image_alt_text](output.png)
+![todo:image_alt_text](output.png)
 
-##  عينة من الرموز
+## كود عينة
 
-يمكنك استخدام نموذج التعليمات البرمجية هذا للتحويل[ملف اكسيل المصدر](5115563.xlsx) داخل[الإخراج PDF](5115564.pdf).
+يمكنك استخدام هذا الكود العيني لتحويل [ملف Excel المصدر](5115563.xlsx) إلى [PDF الناتج](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUnicodeInOutput.py" >}}

@@ -1,22 +1,22 @@
-﻿---
-title: Agregar línea de firma a la hoja de trabajo
+---
+title: Agregar línea de firma al documento de Excel
 type: docs
 weight: 200
 url: /es/net/add-signature-line/
+description: Este artículo describe cómo agregar una línea de firma a la hoja de cálculo utilizando códigos C# con Aspose.Cells para .Net.
+keywords: Agregar una línea de firma a la hoja de cálculo, Cómo agregar una línea de firma a la hoja de cálculo, Cómo agregar una línea de firma a la hoja de cálculo, Cómo agregar la línea de firma de la hoja de cálculo.
 ---
-## **Posibles escenarios de uso**
 
-{{% alert color="primary" %}}
+## **Introducción**
 
- Aspose.Cells proporciona el[**Imagen.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) propiedad para agregar la línea de firma de la hoja de cálculo.
+Aspose.Cells proporciona la propiedad [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) para agregar la línea de firma al documento de Excel.
 
-{{% /alert %}}
 
-## **Agregar línea de firma a la hoja de trabajo**
+## **Cómo agregar una línea de firma a la hoja de cálculo**
 
- El siguiente código de ejemplo demostró cómo hacer uso de[**Imagen.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)propiedad para agregar la línea de firma de la hoja de cálculo. La captura de pantalla muestra el efecto del código de muestra en el archivo de Excel de muestra después de la ejecución.
+El siguiente código de muestra demuestra cómo usar la propiedad [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) para agregar la línea de firma al documento de Excel. La captura de pantalla muestra el efecto del código de muestra en el archivo de Excel de muestra después de la ejecución.
 
-![todo:imagen_alternativa_texto](add-signature-line.png)
+![todo:image_alt_text](add-signature-line.png)
 
 ## **Código de muestra**
 

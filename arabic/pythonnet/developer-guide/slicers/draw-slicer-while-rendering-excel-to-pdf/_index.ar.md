@@ -1,14 +1,17 @@
 ---
-title: ارسم القطاعة أثناء تقديم Excel إلى PDF
+title: رسم المنقي أثناء تحويل Excel إلى PDF
 type: docs
 weight: 60
 url: /ar/python-net/draw-slicer-while-rendering-excel-to-pdf/
+description: تعلم كيفية رسم المفصل أثناء تقديم Excel إلى PDF باستخدام Aspose.Cells for Python via .NET.
+keywords: Aspose.Cells for Python Excel، مكتبة Excel Python، رسم المفصل أثناء تقديم Excel إلى PDF بدون Excel، برمجة رسم المفصل أثناء تقديم Excel إلى PDF بدون Excel باستخدام Aspose.Cells for Python مكتبة excel.
 ---
-##  **ارسم القطاعة أثناء تقديم Excel إلى PDF**
-إذا كان لديك ملف Excel تم تطبيق أداة تقطيع عليه وتريد تصدير ملف Excel إلى PDF باستخدام إعدادات أداة تقطيع البيانات، فإن Aspose.Cells for Python via .NET يدعم الآن هذا بشكل افتراضي. ما عليك سوى تصدير ملف Excel باستخدام أداة التقطيع إلى PDF، وسيُظهر الرقم PDF الذي تم إنشاؤه أداة التقطيع المطبقة.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[عينة من ملف إكسل](94044165.xlsx) الذي يحتوي على أداة تقطيع موجودة. ثم يقوم بحفظ المصنف باسم[ملف الإخراج PDF](94044166.pdf). تقارن لقطة الشاشة التالية ملف Excel المصدر والملف PDF الذي تم إنشاؤه.
+## **كيفية رسم المفصل أثناء تقديم Excel إلى PDF باستخدام مكتبة Aspose.Cells for Python Excel**
+إذا كان لديك ملف Excel تم تطبيق مفصل عليه وترغب في تصدير Excel إلى PDF مع إعدادات المفصل، تدعم الآن Aspose.Cells for Python via .NET هذا افتراضيًا. كل ما عليك فعله هو تصدير ملف Excel مع المفصل إلى PDF، سيعرض PDF المولد المفصل المطبق.
 
-![ما يجب القيام به:image_alt_text](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
-##  **عينة من الرموز**
+الكود العيني
+
+![todo:image_alt_text](draw-slicer-while-rendering-excel-to-pdf_1.jpg)
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Examples-CSharp-Slicers-ExportSlicerToPDF-1.py" >}}

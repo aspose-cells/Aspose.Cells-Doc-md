@@ -1,12 +1,13 @@
-﻿---
+---
 title: Ladda specifika arbetsblad i en arbetsbok
 type: docs
 weight: 230
 url: /sv/java/load-specific-worksheets-in-a-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Som standard laddar Aspose.Cells hela kalkylarket i minnet. Det är möjligt att endast ladda specifika ark. Detta kan förbättra prestanda och förbruka mindre minne. Detta tillvägagångssätt är användbart när du arbetar med en stor arbetsbok som innehåller flera kalkylblad.
+Som standard laddar Aspose.Cells hela kalkylarket i minnet. Det är möjligt att endast ladda specifika kalkylblad. Detta kan förbättra prestanda och använda mindre minne. Den här metoden är användbar när du arbetar med en stor arbetsbok som innehåller flera arbetsblad.
 
 {{% /alert %}}
 

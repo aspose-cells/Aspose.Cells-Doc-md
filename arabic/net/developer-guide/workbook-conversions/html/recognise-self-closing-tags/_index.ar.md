@@ -1,15 +1,16 @@
-﻿---
-title: التعرف على علامات الإغلاق الذاتي
+---
+title: التعرف على العلامات الفارغة الذاتيًا
 type: docs
 weight: 120
 url: /ar/net/recognise-self-closing-tags/
 ---
-يمكن أن يحتوي HTML على مجموعة متنوعة من تنسيق العلامات للعلامات الفارغة مثل \<td>\</td> أو \<td/>. يدعم Aspose.Cells هذين التنسيقين الآن بينما كان يدعم سابقًا \<td>\</td> مثل العلامات. يمكن اختبار هذه الميزة عن طريق تحويل نموذج ملف HTML المرفق إلى ملف Excel. يمكن تنزيل نموذج ملف HTML وملف Excel الناتج من الروابط التالية للاختبار.
+
+HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td/>. Aspose.Cells supports both these formats now whereas earlier it was supporting only \<td>\</td> like tags. This feature can be tested by converting the attached sample HTML file to Excel file. The sample HTML file and output Excel file can be downloaded from the following links for testing.
 
 [sampleSelfClosingTags.html](sampleSelfClosingTags)
 
 [outsampleSelfClosingTags.xlsx](73990156.xlsx)
 
-## **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-RecognizeSelfClosingTags-1.cs" >}}

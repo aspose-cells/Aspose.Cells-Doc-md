@@ -1,16 +1,17 @@
-﻿---
-title: احتواء تلقائي للصفوف والأعمدة في PHP
+---
+title: تناسب الصفوف والأعمدة تلقائيًا في PHP
 type: docs
 weight: 20
 url: /ar/java/autofit-rows-and-columns-in-php/
 ---
-## **Aspose.Cells - احتواء تلقائي للصفوف والأعمدة**
-### **صف احتواء تلقائي**
-الطريقة الأكثر مباشرة لتغيير حجم عرض الصف وارتفاعه تلقائيًا هي استدعاء طريقة autoFitRow لفئة ورقة العمل. تأخذ طريقة autoFitRow فهرس صف (للصف المراد تغيير حجمه) كمعامل.
+
+## **Aspose.Cells - تناسب الصفوف والأعمدة**
+### **تناسب تلقائي للصف**
+أبسط نهج لتغيير حجم العرض والارتفاع للصف هو استدعاء طريقة autoFitRow من فئة Worksheet. تأخذ طريقة autoFitRow مؤشر الصف (الذي سيتم تغيير حجمه) كمعلمة.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_row($dataDir)
 
@@ -43,12 +44,12 @@ url: /ar/java/autofit-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-### **عمود الاحتواء التلقائي**
-أسهل طريقة لتغيير حجم عرض العمود وارتفاعه تلقائيًا هي استدعاء طريقة autoFitColumn لفئة ورقة العمل. تأخذ طريقة autoFitColumn فهرس العمود (الخاص بالعمود على وشك تغيير حجمه) كمعامل.
+### **تكبير العرض تلقائيًا**
+أسهل طريقة لتغيير حجم العرض والارتفاع للعمود هي استدعاء طريقة autoFitColumn من فئة Worksheet. تأخذ طريقة autoFitColumn الفهرس العمود (الذي سيتم تغيير حجمه) كمعلمة.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_column($dataDir)
 
@@ -81,7 +82,7 @@ url: /ar/java/autofit-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**احتواء تلقائي للصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل ** تكبير الصفوف والأعمدة (Aspose.Cells) ** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

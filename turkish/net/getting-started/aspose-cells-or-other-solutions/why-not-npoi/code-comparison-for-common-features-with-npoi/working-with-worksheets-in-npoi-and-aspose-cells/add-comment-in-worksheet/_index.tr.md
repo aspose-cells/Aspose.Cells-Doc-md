@@ -1,13 +1,14 @@
-﻿---
+---
 title: Çalışma Sayfasına Yorum Ekle
 type: docs
 weight: 10
 url: /tr/net/add-comment-in-worksheet/
 ---
+
 ## **Aspose.Cells - Çalışma Sayfasına Yorum Ekle**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -50,7 +51,7 @@ workbook.Save("Output-AddingComment.xls");
 ## **NPOI - HSSF XSSF - Çalışma Sayfasına Yorum Ekle**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -95,12 +96,12 @@ file.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfasına Resim Ekle** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Herhangi bir sosyal kodlama sitesinden **Çalışma Sayfasına Resim Ekle** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Add.Comment.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarıyla Çalışmak](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Daha fazla ayrıntı için [Çalışma Sayfaları İle Çalışma](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/) ziyaret edin.
 
 {{% /alert %}}

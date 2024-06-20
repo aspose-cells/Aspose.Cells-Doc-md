@@ -1,16 +1,17 @@
 ---
-title: Imposta il commento della tabella o dell'oggetto elenco all'interno del foglio di lavoro
+title: Imposta il Commento dell oggetto Tabella o Lista all interno del Foglio di Lavoro
 type: docs
 weight: 20
 url: /it/cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
- Imposta il commento dell'oggetto tabella o elenco all'interno del foglio di lavoro utilizzando il comando[ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/) metodo. Il commento sarà visibile all'interno del file xl/tables/tableName.xml.
+Si prega di impostare il commento della Tabella o Lista all'interno del foglio di lavoro utilizzando il metodo [ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/). Il commento verrà visualizzato all'interno del file xl/tables/tableName.xml.
 
 {{% /alert %}} 
-##  **Imposta il commento della tabella o dell'oggetto elenco all'interno del foglio di lavoro**
-Il seguente codice di esempio carica il file Excel di origine e imposta il commento della prima tabella o oggetto elenco all'interno del foglio di lavoro.
+## **Imposta il commento della tabella o dell'oggetto lista all'interno del foglio di lavoro**
+Il codice di esempio seguente carica il file excel di origine e imposta il commento della prima tabella o lista all'interno del foglio di lavoro.
 
 
 

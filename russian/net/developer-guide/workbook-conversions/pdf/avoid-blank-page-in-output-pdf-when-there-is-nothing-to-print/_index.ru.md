@@ -1,16 +1,17 @@
-﻿---
-title: Избегайте пустой страницы в выводе PDF, когда нечего печатать
+---
+title: Избегание пустой страницы в выходном PDF, когда нет ничего для печати
 type: docs
 weight: 30
 url: /ru/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
 ---
+
 ## **Возможные сценарии использования**
 
-Когда файл Excel пуст и пользователь сохраняет его в PDF, используя Aspose.Cells, он отображает пустую страницу в выводе PDF. Иногда такое поведение по умолчанию нежелательно. Aspose.Cells обеспечивает[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint) имущества для решения этой проблемы. Если вы установите его как**ЛОЖЬ**, тогда[**CellsException**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception)будет происходить всякий раз, когда в выводе PDF нечего печатать.
+Когда файл Excel пустой, а пользователь сохраняет его в PDF, используя Aspose.Cells, в выходном PDF создается пустая страница. Иногда это поведение по умолчанию нежелательно. Aspose.Cells предоставляет свойство [**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint) для решения этой проблемы. Если вы установите его как **false**, то [**CellsException**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception) возникнет в случае отсутствия чего-либо для печати в выходном PDF.
 
-## **Избегайте пустой страницы в выводе PDF, когда нечего печатать**
+## **Избегание пустой страницы в выходном PDF, когда нет ничего для печати**
 
-Следующий пример кода создает пустую книгу, а затем сохраняет ее как PDF после установки[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint) собственность как**ЛОЖЬ**. Поскольку в выводе PDF нечего печатать,[**CellsException**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception)происходит, как показано ниже.
+Приведенный ниже образец кода создает пустую книгу и затем сохраняет ее в формате PDF после установки свойства [**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint) в **false**. Поскольку в выходном PDF нет ничего для печати, [**CellsException**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception) присутствует вот так.
 
 ## **Образец кода**
 
@@ -18,7 +19,7 @@ url: /ru/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
 
 ## **Исключение**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Aspose.Cells.CellsException was unhandled
 

@@ -1,35 +1,36 @@
-﻿---
-title: أنماط عناصر الجدول البادئة مع الخاصية HtmlSaveOptions.TableCssId
+---
+title: بادئة أنماط عناصر الجدول مع خاصية HtmlSaveOptions.TableCssId
 type: docs
 weight: 110
 url: /ar/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-Aspose.Cells يسمح لك ببدء أنماط عناصر الجدول بـ[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)خاصية. لنفترض أنك قمت بتعيين هذه الخاصية ببعض القيمة مثل**MyTest_TableCssId**، ثم ستجد أنماط عناصر الجدول كما هو موضح أدناه
+## **سيناريوهات الاستخدام المحتملة**
 
-{{< highlight "java" >}}
+يتيح Aspose.Cells لك بادئة أنماط عناصر الجدول باستخدام مكان خاصية [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid). فرضًا، إذا قمت بتعيين هذه الخاصية باسم مثل **MyTest_TableCssId**، ستجد أنماط عناصر الجدول كما هو موضح أدناه
+
+{{< highlight java >}}
 
  table#MyTest_TableCssId
 
-# MyTest_TableCssId tr
+#MyTest_TableCssId tr
 
-# MyTest_TableCssId col
+#MyTest_TableCssId col
 
-# MyTest_TableCssId br
+#MyTest_TableCssId br
 
 etc.
 
 {{< /highlight >}}
 
- تُظهر لقطة الشاشة التالية تأثير استخدام[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)خاصية الإخراج HTML.
+اللقطة الشاشية التالية تظهر تأثير استخدام خاصية [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) على الإخراج الخاص بـ HTML.
 
-![ما يجب القيام به: image_بديل_نص](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
+![todo:image_alt_text](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
-## **أنماط عناصر الجدول البادئة مع الخاصية HtmlSaveOptions.TableCssId**
+## **بادئة أنماط عناصر الجدول باستخدام خاصية HtmlSaveOptions.TableCssId**
 
- يوضح نموذج التعليمات البرمجية التالي كيفية الاستفادة من[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) خاصية. رجاء تاكد من[الإخراج HTML](60489790.zip) تم إنشاؤها بواسطة رمز كمرجع.
+يوضح الكود العينة التالي كيفية الاستفادة من خاصية [**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid). يرجى التحقق من [إخراج HTML](60489790.zip) الذي تم توليده بواسطة الكود للرجوع إليه.
 
-## **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.cs" >}}

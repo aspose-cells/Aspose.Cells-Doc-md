@@ -1,47 +1,48 @@
-﻿---
-title: Kalkylarksredigerare - Komponenter
+---
+title: Kalkylbladsredigerare  Komponenter
 type: docs
 weight: 50
 url: /sv/java/spreadsheet-editor-components/
 ---
-**Innehållsförteckning**
+
+Innehållsförteckning
 
 - [Index.html](#SpreadsheetEditor-Components-Index.html)
-- [Arbetsbladsvy](#SpreadsheetEditor-Components-WorksheetView)
-- [WorkbookService](#SpreadsheetEditor-Components-WorkbookService)
+- [Kalkylbladsvisning](#SpreadsheetEditor-Components-WorksheetView)
+- [Arbetsbokstjänst](#SpreadsheetEditor-Components-WorkbookService)
 - [LoaderService](#SpreadsheetEditor-Components-LoaderService)
 - [CellsService](#SpreadsheetEditor-Components-CellsService)
 
-HTML5 Spreadsheet Editor är byggd av ett fåtal komponenter som går samman för att göra hela systemet. Här beskriver vi var och ens syfte och roll.
+HTML5 kalkylbladsredigerare är byggd från några komponenter som samverkar för att skapa det kompletta systemet. Här beskriver vi syftet och rollen för varje komponent.
 ### **Index.html**
-Det är en JSF-sida som beskriver redaktörens användargränssnitt och huvudslutpunkten för vår applikation. All interaktion som utförs mellan webbläsare och server utförs via denna slutpunkt.
+Det är en JSF-sida som beskriver gränssnittet för redigeraren och huvudändpunkten för vår applikation. All interaktion som utförs mellan webbläsare och server utförs genom denna ändpunkt.
 
-Förutom att definiera användargränssnittet, bifogas alla backend-tjänster här med JSF-teknik. När användaren interagerar med UI-händelserna och data skickas fram och tillbaka mellan tjänster och användare för att slutföra våra uppgifter, t.ex. exportera kalkylblad.
+Förutom att definiera gränssnittet är alla bakre tjänster bundna här med hjälp av JSF-tekniker. När användaren interagerar med gränssnittet skickas händelser och data fram och tillbaka mellan tjänster och användare för att slutföra våra uppgifter t.ex. exportera kalkylblad.
 
 Den har två huvudsakliga intresseområden.
 
-**Band**
+Ribbon
 
-Området med flikar i verktygsfältet ovanpå kallas band, tekniskt sett. Den innehåller knappar, rullgardinsmenyer, radiomenyer, textrutor och några dolda fält som används för att utföra många operationer på kalkylarket. Dessa knappar när de klickas skicka kommandon till servern och uppdatera arket därefter.
+Det flikade verktygsfältet högst upp kallas tekniskt sett ribbon. Det innehåller knappar, rullgardinsmenyer, radiomenyer, textrutor och några dolda fält som används för att utföra många operationer på kalkylbladet. Dessa knappar skickar kommandon till servern när de klickas och uppdaterar arket därefter.
 
-**Ark**
+Sheet
 
-Arket är raderna och kolumnerna. När celler klickas uppdateras menyfliksområdet utan att skicka förfrågningar till servern eftersom all data som behövs av menyfliksområdet är kopplad till varje cell. Menyfliksområdet håller också koll på den valda cellen, raden och kolumnen när användaren navigerar genom arket.
+Arket består av rader och kolumner. När celler klickas uppdateras ribbon därefter utan att skicka förfrågningar till servern eftersom all data som behövs av ribbon är bifogad till varje cell. Ribbon håller också koll på vald cell, rad och kolumn när användaren navigerar genom arket.
 
-Varje cell har sin egen inline-editor som blir synlig när en cell är i redigeringsläge.
-### **Arbetsbladsvy**
-Det är en JSF-backend-böna med vyer som ansvarar för att hantera det dynamiska innehållet i användargränssnittet som beskrivs i index.html. Den har händelsehanterare för Ajax-förfrågningar som utlöses när användaren interagerar med användargränssnittet.
-### **WorkbookService**
-WorkbookService är en JSF-backend-böna med vyer. Den fungerar som en tjänstekomponent och får kalkylarket laddat och urladdat med hjälp av andra tjänster. Den har följande slutpunkter:
+Varje cell har sin egen inbyggda redigerare som blir synlig när en cell är i redigeringsläge.
+### **Kalkylbladsvisning**
+Det är en visningsomfattande JSF-bakre bön ansvarig för att hantera de dynamiska innehållet i gränssnittet som beskrivs i index.html. Den har händelsehanterare för Ajax-begäranden som utlöses när användaren interagerar med gränssnittet.
+### **Arbetsbokstjänst**
+Arbetsbokstjänsten är en visningsomfattande JSF-bakre bön. Den fungerar som en tjänstekomponent och laddar och lossar kalkylblad med hjälp av andra tjänster. Den har följande ändpunkter:
 
-**i det**
+**init**
 
- De**i det** är**PostConstruct** metod som exekveras direkt efter att objektskapandet har slutförts av Java Application Server. Det kollar efter**url** parameter i begäran parametrar kartlägger och laddar motsvarande kalkylblad från given plats, om möjligt.
+Init är en PostConstruct-metod som utförs direkt efter att objektskapandet är slutfört av Java Application Server. Den kontrollerar om url-parametern finns i begärande parametrar och laddar det motsvarande kalkylarket från den angivna platsen, om möjligt.
 
-**förstöra**
+**destroy**
 
-Det är ansvarigt att sanera alla förvärvade resurser när de inte längre behövs.
+Den ansvarar för att rensa upp alla förvärvade resurser när de inte längre behövs.
 ### **LoaderService**
-Det skapar instanser av kalkylblad och sparar dem i minnet så länge de behövs.
+Den skapar instanser av kalkylblad och behåller dem i minnet så länge de behövs.
 ### **CellsService**
- De**CellsService** hanterar cache för rader, kolumner, celler, formatering och struktur för kalkylblad.
+CellsService hanterar cache av rader, kolumner, celler, formatering och struktur av kalkylblad.

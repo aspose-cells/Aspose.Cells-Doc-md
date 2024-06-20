@@ -1,107 +1,108 @@
-﻿---
-title: Aspose.Cells Eigenschaften
+---
+title: Aspose.Cells Funktionen
 type: docs
 weight: 30
 url: /de/java/aspose-cells-features/
-description: Fassen Sie die Funktionen von Aspose.Cells for Java zusammen und stellen Sie Links zu detaillierten Funktionsbeschreibungen bereit.
+description: Fassen Sie Aspose.Cells for Java Funktionen zusammen und geben Sie Links zu ausführlichen Funktionsbeschreibungen an.
 ---
+
 {{% alert color="primary" %}} 
 
-Die folgenden Tabellen fassen die Funktionen von Aspose.Cells for Java zusammen und enthalten Links zu detaillierten Funktionsbeschreibungen.
+Die Tabellen unten fassen Aspose.Cells for Java Funktionen zusammen und geben Links zu ausführlichen Funktionsbeschreibungen an.
 
 {{% /alert %}} 
 ## **Unterstützte Plattformen**
-Das Produkt Aspose.Cells for Java deckt die meisten gängigen Entwicklungsumgebungen und Bereitstellungsplattformen ab, die Java unterstützen.
+Aspose.Cells for Java Produkt deckt die meisten beliebten Entwicklungsumgebungen und Bereitstellungsplattformen ab, die Java unterstützen.
 
-|**Besonderheit**|**Beschreibung**|
-|:- |:- |
-|[Java](/cells/de/java/installation/)|Aspose.Cells for Java ist für 1.6 und spätere Versionen verfügbar und läuft überall dort, wo Java installiert ist.|
+|**Funktion**|**Beschreibung**|
+| :- | :- |
+|[Java](/cells/de/java/installation/)|Aspose.Cells for Java ist für Versionen 1.6 und höher verfügbar und wird überall dort ausgeführt, wo Java installiert ist.|
 ## **Dateiformate und Konvertierungen**
-Viele Kunden weltweit verlassen sich auf die umfassenden Funktionen zum Importieren und Exportieren von Dokumenten, die von Aspose.Cells for Java bereitgestellt werden.
+Viele Kunden weltweit verlassen sich auf die gründlichen Funktionen für den Dokumentenimport und -export, die Aspose.Cells for Java bietet.
 
-|**Besonderheit**|**Beschreibung**|**Aspose.Cells for Java**|
-|:- |:- |:- |
-|Hochwertige Konvertierungen|Konvertieren Sie schnell und zuverlässig zwischen mehreren gängigen Dokumentformaten.|Ja|
-|Microsoft Excel-Arbeitsmappe (XLS)|Die schnellste und vollständigste Implementierung des XLS-Formats, die Sie finden können.|Ja|
-|SpreadsheetML (XLSX, XML)| Aspose.Cells unterstützt OOXML, Flat OPC und auch Excel 2003 XML. Darüber hinaus,<br>Die Komponente unterstützt alle wichtigen Dateiformate von Excel 2007 und späteren Versionen, z.|Ja|
-|Kommagetrennter Wert (CSV)|Umfassende Unterstützung des CSV-Formats zur Interaktion mit einer Vielzahl von Anwendungen.|Ja|
-|HTML|Speichern unter HTML ist verfügbar.|Ja|
+|**Funktion**|**Beschreibung**|**Aspose.Cells for Java**|
+| :- | :- | :- |
+|Hochwertige Konvertierungen|Schnell und zuverlässig zwischen mehreren gängigen Dokumentenformaten konvertieren.|Ja|
+|Microsoft Excel-Arbeitsmappe (XLS)|Die schnellste und vollständigste XLS-Formatimplementierung, die Sie finden können.|Ja|
+|SpreadsheetML (XLSX, XML)|Aspose.Cells unterstützt OOXML, Flat OPC und auch Excel 2003 XML. Darüber hinaus unterstützt die Komponente alle gängigen Excel 2007 und spätere Versionen von Dateiformaten wie z.B. XLSX, XLTX, XLSM, XLTM, XLSB usw.|Ja|
+|Komma-getrennte Werte (CSV)|Umfassende Unterstützung des CSV-Formats zur Interaktion mit verschiedenen Anwendungen.|Ja|
+|HTML|Speichern als HTML ist verfügbar.|Ja|
 |OpenDocument (ODS)|Aspose.Cells kann Dokumente im Format OpenDocument Spreadsheet (.ods) laden und speichern.|Ja|
-|Adobe Portable Document Format (PDF)|Konvertieren Sie jede Tabelle mit hoher Wiedergabetreue in PDF.|Ja|
-|Tabulatorgetrennt|Laden und speichern Sie Dokumente im tabulatorgetrennten Dateiformat.|Ja|
-|Klartext (TXT)|Extrahieren Sie Text ganz einfach, indem Sie ihn im Nur-Text-Format speichern.|Ja|
+|Adobe Portable Document Format (PDF)|Konvertieren Sie jede Tabellenkalkulation in PDF mit hoher Genauigkeit.|Ja|
+|Tabstoppgetrennte|Dokumente im tabstoppgetrennten Dateiformat laden und speichern.|Ja|
+|Einfacher Text (TXT)|Extrahieren Sie Text einfach, indem Sie ihn im einfachen Textformat speichern.|Ja|
 ## **Rendern und Drucken**
-Aspose.Cells for Java bietet jetzt High-Fidelity-Rendering von Tabellenkalkulationsseiten.
+Aspose.Cells for Java bietet jetzt eine hochwertige Rendering von Tabellenkalkulationsseiten.
 
-|**Besonderheit**|**Aspose.Cells for Java**|
-|:- |:- |
-|Gestalten Sie das Dokument in Seiten mit hoher Wiedergabetreue zu Microsoft Excel® (genau wie Microsoft Excel® das tun würde).|Ja|
-|Rendern Sie Arbeitsblattseiten in Rasterbilder (PNG, JPEG, BMP usw.).|Ja|
-|Rendern Sie Tabellenkalkulationsseiten in Vektorgrafiken (EMF).|Ja|
-|Geben Sie Bildauflösung, Qualität, Komprimierung und andere Optionen an.|Ja|
-|Drucken Sie Tabellenkalkulationen mit der Druckinfrastruktur Java. Die Komponente verfügt über eine integrierte Druckmethode zum Drucken<br>Arbeitsblätter wie in der Druckvorschau Microsoft von Excel dargestellt.|Ja|
+|**Funktion**|**Aspose.Cells for Java**|
+| :- | :- |
+|Dokument in Seiten mit hoher Genauigkeit zu Microsoft Excel® (genau wie Microsoft Excel® das tun würde) layouten.|Ja|
+|Arbeitsblattseiten als Rasterbilder (PNG, JPEG, BMP usw.) rendern.|Ja|
+|Tabellenkalkulationsseiten als Vektorbilder (EMF) rendern.|Ja|
+|Bildauflösung, Qualität, Komprimierung und andere Optionen festlegen.|Ja|
+|Arbeitsblätter mithilfe der Java-Druckinfrastruktur drucken. Die Komponente verfügt über eine integrierte Druckmethode zum Drucken von Arbeitsblättern, wie sie in der Druckvorschau von Microsoft Excel dargestellt werden.|Ja|
 |Aktualisieren Sie Seitenzahlen und andere Felder vor dem Rendern oder Drucken.|Ja|
-## **Inhaltsfunktionen für Tabellenkalkulationen**
-Aspose.Cells for Java bietet ein reichhaltiges Objektmodell, das aus über 100 öffentlichen Klassen/Schnittstellen besteht, mit denen Sie geladene Tabellenkalkulationen programmgesteuert generieren, kombinieren, ändern, analysieren oder anderweitig untersuchen können. Einige Hauptmerkmale sind in der folgenden Tabelle aufgeführt.
+## **Tabelleninhalt Funktionen**
+Aspose.Cells for Java bietet ein umfangreiches Objektmodell, das aus über 100 öffentlichen Klassen/Interfaces besteht und es Ihnen ermöglicht, geladene Tabellenkalkulationen programmgesteuert zu generieren, zu kombinieren, zu modifizieren, zu analysieren oder anderweitig zu untersuchen. Einige wichtige Funktionen sind in der unten stehenden Tabelle aufgeführt.
 
-|**Besonderheit**|**Aspose.Cells for Java**|
-|:- |:- |
-|Import/Export von Daten aus einem Array, ArrayList, ResultSet usw.|Ja|
-|Fügen Sie eine Kopie des vorhandenen Arbeitsblatts hinzu (alle Inhalte einschließlich Bilder, Diagramme, andere Objekte usw.)|Ja|
-|Kopieren oder verschieben Sie Arbeitsblätter innerhalb oder zwischen Arbeitsmappen|Ja|
+|**Funktion**|**Aspose.Cells for Java**|
+| :- | :- |
+|Importieren/Exportieren von Daten aus einem Array, ArrayList, ResultSet usw.|Ja|
+|Fügen Sie eine Kopie eines vorhandenen Arbeitsblatts hinzu (alle Inhalte einschließlich Bilder, Diagramme, andere Objekte usw.)|Ja|
+|Arbeitsblätter innerhalb oder zwischen Arbeitsmappen kopieren oder verschieben|Ja|
 |Bilder einfügen|Ja|
-|Erstellen Sie Diagramme|Ja|
-|Legen Sie mit API einen Verlaufshintergrund für Diagramme fest|Ja|
+|Diagramme erstellen|Ja|
+|Gradientenhintergrund für Diagramme mit API einstellen|Ja|
 |Kommentare zu Zellen hinzufügen|Ja|
-|Microsoft Designs und Farben für Excel 2007 und spätere Versionen|Ja|
-|Erstellen Sie Autofilter|Ja|
-|Implementieren Sie Datenvalidierungen|Ja|
-|Datensortierung implementieren|Ja|
+|Microsoft Excel 2007 und spätere Versionen Themen und Farben|Ja|
+|Automatische Filter erstellen|Ja|
+|Datenvalidierungen implementieren|Ja|
+|Daten sortieren implementieren|Ja|
 |Text suchen und ersetzen|Ja|
-|Cells zusammenführen/aufteilen|Ja|
-|Zeilen und Spalten gruppieren/Gruppierung aufheben|Ja|
-|Erstellen Sie benutzerdefinierte Seitenumbrüche|Ja|
+|Zellen zusammenführen/teilen|Ja|
+|Zeilen und Spalten gruppieren/entgruppieren|Ja|
+|Benutzerdefinierte Seitenumbrüche erstellen|Ja|
 |Zeilen, Spalten und Blätter einfügen/löschen oder ausblenden|Ja|
-|Berechnen Sie komplexe Excel-Formeln|Ja|
-|Unterstützt die erweiterte bedingte Formatierung, die in Microsoft Excel 2007 und späteren Versionen unterstützt wird|Ja|
-|Bereiche einfrieren/auftauen|Ja|
-|Fügen Sie Hyperlinks ein, um Daten zu verknüpfen|Ja|
-|Implementieren Sie intelligente Markierungen|Ja|
-|Geben Sie Einstellungen für Dokumenteigenschaften an|Ja|
-|Arbeitsblätter schützen/Schutz aufheben|Ja|
-|Geben Sie erweiterte Schutzoptionen an, die in Excel XP und späteren Versionen eingeführt wurden|Ja|
-|Listenobjekt/Microsoft Excel-Tabellen erstellen|Ja|
-|Zwischensummen bilden|Ja|
-|Fügen Sie Formularsteuerelemente und andere Zeichnungsformen/-objekte ein|Ja|
-|Erstellen Sie Pivot-Tabellen und Pivot-Diagramme|Ja|
-|Beibehalten oder Entfernen von Add-Ins, VBA und Makros|Ja|
+|Komplexe Excel-Formeln berechnen|Ja|
+|Unterstützung für erweiterte bedingte Formatierung in Microsoft Excel 2007 und später|Ja|
+|Fenster fixieren/entfixieren|Ja|
+|Hyperlinks einfügen, um Daten zu verknüpfen|Ja|
+|Smart Marker implementieren|Ja|
+|Dokumenteigenschaften festlegen|Ja|
+|Arbeitsblätter schützen/entschützen|Ja|
+|Geben Sie erweiterte Schutzoptionen ein, die in Excel XP und späteren Versionen eingeführt wurden.|Ja|
+|Liste erstellen Objekt/Microsoft Excel-Tabellen|Ja|
+|Untersummen erstellen|Ja|
+|Formularsteuerelemente und andere Zeichenformen/Objekte einfügen|Ja|
+|Pivot-Tabellen und Pivot-Charts erstellen|Ja|
+|Add-In, VBA, Makros erhalten oder entfernen|Ja|
 |Benannte Bereiche manipulieren|Ja|
-|Erstellen Sie benutzerdefinierte Diagramme|Ja|
-|Hinzufügen, Beibehalten oder Extrahieren von OLE-Objekten aus den Tabellenkalkulationen.|Ja|
-|Implementieren Sie Sparklines|Ja|
+|Benutzerdefinierte Diagramme erstellen|Ja|
+|OLE-Objekte zu den Tabellenkalkulationen hinzufügen, erhalten oder extrahieren.|Ja|
+|Sparklines implementieren|Ja|
 |Dateien verschlüsseln|Ja|
-## **Formatierungsfunktionen für Tabellenkalkulationen**
-Aspose.Cells for Java bietet detaillierten programmgesteuerten Zugriff auf die Formatierungseigenschaften aller Tabellenkalkulationselemente.
+## **Tabellenkalkulation-Formatierungsfunktionen**
+Aspose.Cells for Java bietet detaillierten programmatischen Zugriff auf Formatierungseigenschaften aller Tabellenelemente.
 
-|**Besonderheit**|**Aspose.Cells for Java**|
-|:- |:- |
-|Wenden Sie alle Zeichenformatierungen in den Zellen an, einschließlich Schriftarten, Farben, Effekte, Rahmen und Schattierungen.|Ja|
-|Wenden Sie alle Zahlenformateinstellungen (unterstützt in Microsoft Excel) für die Zellen an.|Ja|
-|Legen Sie alle Arten von Textausrichtungseinstellungen fest.|Ja|
-|Wenden Sie verschiedene Arten von Schriftarteinstellungen für die Zellen an.|Ja|
-|Wenden Sie verschiedene Farben auf Zellen, Schriftarten, Gitterlinien, Grafikobjekte usw. an.|Ja|
-|Wenden Sie verschiedene Rich-Text-Formatierungen in einer einzelnen Zelle an.|Ja|
-|Wenden Sie verschiedene Randeinstellungen auf Zellen an.|Ja|
+|**Funktion**|**Aspose.Cells for Java**|
+| :- | :- |
+|Alle Zeichenformatierungen in den Zellen anwenden, einschließlich Schriftarten, Farben, Effekte, Rahmen und Schattierungen.|Ja|
+|Alle Zahlformatierungseinstellungen (unterstützt in Microsoft Excel) für die Zellen anwenden.|Ja|
+|Alle Arten von Textausrichtungseinstellungen festlegen.|Ja|
+|Verschiedene Arten von Schrifteinstellungen für die Zellen anwenden.|Ja|
+|Verschiedene Farben auf Zellen, Schriftarten, Gitterlinien, Grafikobjekten usw. anwenden.|Ja|
+|Verschiedene Rich Text-Formatierungen in einer einzigen Zelle anwenden.|Ja|
+|Verschiedene Rahmen einstellungen auf Zellen anwenden.|Ja|
 |Wenden Sie verschiedene Hintergrundmuster auf Zellen an.|Ja|
-|Wenden Sie Formateinstellungen auf ein Arbeitsblatt, eine Zeile, eine Spalte oder einen Zellbereich usw. an.|Ja|
-## **PageSetup-Funktionen**
+|Wenden Sie Formatierungseinstellungen auf ein Arbeitsblatt, eine Zeile, eine Spalte oder einen Zellenbereich usw. an.|Ja|
+## **Seiteneinrichtungs-Funktionen**
 Sie können Aspose.Cells for Java verwenden, um Seiteneinrichtungsoptionen für Arbeitsblätter zu implementieren.
 
-|**Besonderheit**|**Aspose.Cells for Java**|
-|:- |:- |
-|Passen Sie Ihre Seitenausrichtung, Skalierung und Papiergröße an.|Ja|
-|Geben Sie Ihre Ränder und Seitenzentrierung an.|Ja|
-|Erstellen oder bearbeiten Sie Ihre Kopf- und/oder Fußzeile.|Ja|
-|Legen Sie den Druckbereich fest, drucken Sie Titel oder aktivieren Sie Gitterlinien usw.|Ja|
+|**Funktion**|**Aspose.Cells for Java**|
+| :- | :- |
+|Passen Sie Ihre Seitenorientierung, Skalierung, Papiergröße an.|Ja|
+|Legen Sie Ihre Ränder und Seitenmittigungen fest.|Ja|
+|Erstellen oder bearbeiten Sie Ihren Kopf- und/oder Fußzeilentext.|Ja|
+|Legen Sie den Druckbereich fest, drucken Sie Titel oder schalten Sie Gitterlinien ein usw.|Ja|
 
 

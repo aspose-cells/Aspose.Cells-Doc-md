@@ -1,34 +1,35 @@
-﻿---
-title: Aspose.Cells のデータのグループ化
+---
+title: Aspose.Cellsでのデータのグルーピング
 type: docs
 weight: 10
 url: /ja/net/grouping-data-in-aspose-cells/
 ---
-一部の Excel レポートでは、読みやすく分析しやすくするために、データをグループに分割する必要がある場合があります。データをグループに分割する主な目的の 1 つは、レコードの各グループに対して計算を実行する (集計操作を実行する) ことです。
 
-Aspose.Cells スマート マーカーを使用すると、フィールドごとにデータをグループ化し、データ セットまたはデータ グループの間に集計行を配置できます。たとえば、Customers.CustomerID でデータをグループ化すると、グループが変更されるたびに集計レコードを追加できます。
+Excelの報告書では、データをグループ化して読みやすくし、分析しやすくする必要があることがあります。データをグループに分割する主な目的の1つは、各レコードのグループごとに計算（集計演算）を実行することです。
 
-次のサンプル コード スニペットは、スマート マーカーを使用して Excel レポートのデータをグループ化する方法を示しています。
-## **パラメーター**
-以下は、データのグループ化に使用されるスマート マーカー パラメーターの一部です。
-**グループ:ノーマル/マージ/リピート**
+Aspose.Cellsのスマートマーカーを使用すると、フィールドごとにデータをグループ化し、データセットまたはデータグループ間に要約行を配置できます。 たとえば、Customers.CustomerIDごとにデータをグループ化する場合、グループが変更されるたびに要約レコードを追加できます。
 
-選択できる 3 種類のグループをサポートしています。
+次のコードスニペットの例は、スマートマーカーを使用してExcelレポートでデータをグループ化する方法を示しています。
+## **パラメータ**
+次に、データのグループ化に使用されるスマートマーカーパラメータをいくつか紹介します。
+**group:normal/merge/repeat**
 
-- 通常 - フィールド値によるグループ化は、列内の対応するレコードに対して繰り返されません。代わりに、データ グループごとに 1 回出力されます。
-- merge - 通常のパラメーターと同じ動作ですが、各グループ セットのフィールドごとにグループ内のセルを結合します。
-- 繰り返し - フィールド値によるグループ化は、対応するレコードに対して繰り返されます。
+選択できる3種類のグループをサポートしています。
 
-複数のパラメーターがある場合は、スペースを入れずにコンマで区切ります: parameterA、parameterB、parameterC
+- 通常 - グループ化フィールドの値は、対応するレコードの列に対して繰り返されず、代わりにデータグループごとに一度だけ印刷されます。
+- マージ - 通常パラメータと同じ動作ですが、各グループセットのグループ化フィールドをセルにマージします。
+- 繰り返し - グループ化フィールドの値は、対応するレコードに対して繰り返されます。
+
+複数のパラメータを持つ場合は、コンマで区切りますが、スペースは入れません：parameterA,parameterB,parameterC。
 ### **例**
-この例は、実際のグループ化パラメーターの一部を示しています。 Northwind.mdb Microsoft Access データベースを使用し、"Order Details" という名前のテーブルからデータを抽出します。 Microsoft Excel で SmartMarker_Designer.xls というデザイナー ファイルを作成し、ワークシートのさまざまなセルにスマート マーカーを配置します。マーカーは、ワークシートを埋めるために処理されます。データは、グループ フィールドごとに配置および編成されます。
+この例では、グルーピングパラメータのいくつかを実演しています。Microsoft AccessデータベースのNorthwind.mdbを使用し、「Order Details」という名前のテーブルからデータを抽出します。Microsoft ExcelでSmartMarker_Designer.xlsという名前の設計ファイルを作成し、ワークシートのさまざまなセルにスマートマーカーを配置します。マーカーはワークシートを埋めるように処理されます。データはグループフィールドによって配置および整理されます。
 
-デザイナー ファイルには 2 つのワークシートがあります。最初に、下のスクリーンショットに示すように、グループ化パラメーターを使用してスマート マーカーを配置します。 3 つのスマート マーカー (グループ化パラメーター付き) が配置されます。
+設計ファイルには2つのワークシートがあります。1番目のワークシートには、以下のスクリーンショットに示すように、グルーピングパラメータを持つスマートマーカーを配置します。3つのスマートマーカー（グルーピングパラメータを持つ）が配置されます：
 &=Order Details.OrderID(group:merge,skip:1),
-&=Order Details.Quantity(subtotal9:Order Details.OrderID)、および
-&=Order Details.UnitPrice(subtotal9:Order Details.OrderID) はそれぞれ A5、B5、C5 に入ります。
+&=Order Details.Quantity(subtotal9:Order Details.OrderID)及び
+&=Order Details.UnitPrice(subtotal9:Order Details.OrderID)は、それぞれA5、B5、C5に配置されます。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a connection object, specify the provider info and set the data source.
 
@@ -84,4 +85,4 @@ wd.Workbook.Save("outSmartMarker_Designer.xls");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Grouping%20Data%20OLE%20DB%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Grouping%20Data%20OLE%20DB%20%28Aspose.Cells%29.zip)

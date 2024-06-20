@@ -1,33 +1,34 @@
-﻿---
-title: Lägg till gränser till Cells i ett kalkylblad i VSTO och Aspose.Cells
+---
+title: Lägg till ramar i celler i ett kalkylblad i VSTO och Aspose.Cells
 type: docs
 weight: 10
 url: /sv/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-För att lägga till kanter till celler i ett kalkylblad, gör följande:
 
-1.  Konfigurera arbetsbladet:
- 1. Instantiera ett applikationsobjekt (endast VSTO)
- 1. Lägg till en arbetsbok
- 1. Skaffa det första arket
- 1. Lägg till text i cellerna som du ska lägga till kanter till
-1.  Lägg till kanter:
- 1. Definiera ett intervall
- 1. Använd en kantstil på intervallet
- 1. Upprepa för varje område och varje kantstil du vill ställa in. Detta exempel gäller hårlinjer, tunna, medelstora och tjocka linjer
-1.  Avsluta:
- 1. Anpassa kolumnen som cellerna är i automatiskt för att passa texten snyggt
- 1. Spara dokumentet
+För att lägga till ramar i celler i ett kalkylblad, följ följande steg:
 
-Dessa steg visas i koden nedan. De första kodexemplen visar hur man implementerar dem med VSTO med antingen C# eller Visual Basic. Efter VSTO-exemplen finns exempel som visar hur man utför samma steg med Aspose.Cells for .NET, återigen med antingen C# eller Visual Basic. Aspose.Cells-kodexemplen är mycket kortare eftersom Aspose.Cells är optimerad för effektiv kodning.
+1. Ställ in kalkylbladet: 
+   1. Skapa en Application-objekt (endast VSTO)
+   1. Lägg till en arbetsbok
+   1. Hämta det första arket
+   1. Lägg till text i cellerna som du kommer att lägga till ramar
+1. Lägg till ramar: 
+   1. Definiera en omfattning
+   1. Applicera en ramstil på omfånget
+   1. Upprepa för varje omfång och varje ramstil du vill ställa in. Detta exempel tillämpar hårlinjer, tunna, medeltjocka och tjocka linjer
+1. Avsluta: 
+   1. Justera kolumnen som cellerna är i för att passa texten snyggt
+   1. Spara dokumentet
 
-Koden genererar en Excel-fil med ett antal celler på det första arket, var och en med olika ramar:
+Dessa steg visas i koden nedan. De första kodexemplen visar hur du implementerar dem med hjälp av VSTO med antingen C# eller Visual Basic. Efter VSTO-exemplen följer exempel som visar hur du utför samma steg med användning av Aspose.Cells for .NET, igen med antingen C# eller Visual Basic. Aspose.Cells-kodexemplen är mycket kortare eftersom Aspose.Cells är optimerat för effektiv kodning.
+
+Koden genererar en Excelfil med ett antal celler på det första arket, var och en med en annan ram:
 
 ![todo:image_alt_text](picture1.png)
 
-Cells med gränser applicerade.
+Celler med applicerade ramar.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -43,13 +44,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -145,7 +146,7 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -209,7 +210,7 @@ objBook.Save("ApplyBorders.xls");
 
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Borders.to.Cells.in.a.Worksheet.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).blixtlås)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Borders%20to%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

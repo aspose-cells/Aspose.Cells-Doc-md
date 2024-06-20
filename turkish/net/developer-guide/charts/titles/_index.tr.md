@@ -1,34 +1,35 @@
 ---
 title: Excel Grafiklerinin Başlıklarını Yönetme
-description: Microsoft Excel'de grafik ve eksen başlıklarını eklemek ve biçimlendirmek için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Kılavuzumuz, daha iyi veri temsili ve netlik için farklı başlık türlerinin nasıl ayarlanacağını, görünümlerinin nasıl ayarlanacağını ve eksen başlıklarının nasıl değiştirileceğini gösterecektir.
-keywords: Aspose.Cells for .NET, Chart Titles, Axis Titles, Microsoft Excel, Data Representation, Appearance.
+description: Microsoft Excel de Aspose.Cells for .NET kullanarak grafik ve eksen başlıklarını nasıl ekleyip biçimlendireceğinizi öğrenin. Rehberimiz, farklı tipte başlıkları ayarlamanızı, görünümlerini ayarlamanızı ve veri temsili ve netlik için eksen başlıklarını değiştirmenizi gösterecektir.
+keywords: Aspose.Cells for .NET, Grafik Başlıkları, Eksen Başlıkları, Microsoft Excel, Veri Temsili, Görünüm.
 linktitle: Başlıklar
 type: docs
 weight: 50
 url: /tr/net/chart-and-axis-titles/
 ---
+
 {{% alert color="primary" %}}
 
-Excel grafiklerinde 2 tür başlık vardır:
-1.  Grafik başlığı
+Excel grafiklerinde 2 türde başlık bulunur:
+1. Grafik Başlığı 
 1. Eksen Başlıkları
 
 
 
 {{% /alert %}}
 
-##  **Başlık Seçenekleri**
- Aspose.Cells ayrıca çalışma zamanında grafik başlıklarının yönetilmesine de olanak tanır.[Başlık](https://reference.aspose.com/cells/net/aspose.cells.charts/title/) başlıklar için metni, yazı tipini ve dolgu biçimini değiştirebilirsiniz.
+## **Başlık Seçenekleri**
+Aspose.Cells ayrıca, grafiğin başlıklarını çalışma zamanında yönetmenize olanak tanır. [Title](https://reference.aspose.com/cells/net/aspose.cells.charts/title/) nesnesi ile metin, yazı tipi ve doldurma biçimini başlıklar için değiştirebilirsiniz.
 
-|![yapılacak şey:image_alt_text](chart_title.png)|
+|![todo:image_alt_text](chart_title.png)|
 
-##  **Grafiklerin veya Eksenlerin Başlıklarını Ayarlama**
- WYSIWYG ortamında bir grafiğin başlıklarını ve eksenlerini ayarlamak için Microsoft Excel'i kullanabilirsiniz. Aspose.Cells ayrıca geliştiricilerin çalışma zamanında bir grafiğin başlıklarını ve eksenlerini ayarlamasına da olanak tanır. Tüm grafikler ve eksenleri bir[Başlık](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title)Aşağıda bir örnekte gösterildiği gibi başlıklarını ayarlamak için kullanılabilecek özellik.
+## **Grafiğin veya Eksenlerin Başlıklarını Ayarlama**
+Microsoft Excel'ı kullanarak Bir bakma yerim var ve eksenlerin başlıklarını NIsabetsiz Bir Ortamda AYARLAYABİLİRSİNİZ. Aspose.Cells ayrıca geliştiricilere grafiğin ve eksenlerinin başlıklarını çalışma zamanında ayarlamaları için olanak sağlar. Tüm grafikler ve eksenleri, aşağıdaki örnekte gösterildiği gibi başlıklarını ayarlamak için kullanılabilecek bir [Title](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title) özelliğine sahiptir.
 
-Aşağıdaki kod parçacığı, grafik ve eksenlere başlıkların nasıl ayarlanacağını gösterir.
+Aşağıdaki kod parçacığı, grafikler ve eksenlerin başlıklarını nasıl ayarlayacağını göstermektedir.
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingTitlesAxes-1.cs" >}}
 
-##  **İleri konular**
-- [ODS Dosyasından Grafik Alt Yazısını Okuyun](/cells/tr/net/read-chart-subtitle-from-ods-file/)
+## **Gelişmiş Konular**
+- [ODS Dosyasından Grafik Alt Başlığını Okuma](/cells/tr/net/read-chart-subtitle-from-ods-file/)

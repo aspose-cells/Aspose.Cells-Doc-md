@@ -1,27 +1,28 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.2.2
+---
+title: Aspose.Cells 8.2.2でのパブリックAPIの変更
 type: docs
 weight: 90
 url: /ja/net/public-api-changes-in-aspose-cells-8-2-2/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.2.1 から 8.2.2 への Aspose.Cells API への変更について説明します。
+このドキュメントでは、Aspose.Cellsのバージョン8.2.1から8.2.2へのAPIの変更について説明しており、モジュール/アプリケーション開発者に興味を持たれる可能性があります。
 
 {{% /alert %}} 
-## **追加された API**
-### **プロパティ BuiltInDocumentPropertyCollection.Version が追加されました**
-開発者が特定のスプレッドシートを作成したアプリケーションのバージョンを取得できるようにするために、新しいプロパティ Version が BuiltInDocumentPropertyCollection クラスに追加されました。
+## **APIの追加**
+### **BuiltInDocumentPropertyCollection.Versionプロパティを追加しました**
+アプリケーションが作成したスプレッドシートのバージョンを取得するために、BuiltInDocumentPropertyCollectionクラスに新しいVersionプロパティが追加されました。
 
 {{% alert color="primary" %}} 
 
-詳細記事をご確認ください[スプレッドシートを作成したアプリケーションのバージョンを取得する](/cells/ja/net/get-the-version-number-of-the-application-that-created-the-excel-document/)詳細については。
+詳細については、[スプレッドシートを作成したアプリケーションのバージョンを取得](/cells/ja/net/get-the-version-number-of-the-application-that-created-the-excel-document/)の記事をご確認ください。
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -32,18 +33,18 @@ Console.WriteLine(properties.Version);
 {{< /highlight >}}
 
 
-### **Property Chart.Worksheet が追加されました**
-Aspose.Cells 8.2.2 がリリースされる前は、Worksheet が保持する Chart オブジェクトから Worksheet のインスタンスを取得することはできませんでした。 Aspose.Cells 8.2.2 は Chart.Worksheet プロパティを提供することでこのギャップを埋めました。
+### **Chart.Worksheet プロパティを追加しました**
+Aspose.Cells 8.2.2のリリース前に、Chartオブジェクトが保持するワークシートからインスタンスを取得することはできませんでした。Aspose.Cells 8.2.2では、Chart.Worksheetプロパティが提供され、このギャップを埋めました。
 
 {{% alert color="primary" %}} 
 
-詳細記事をご確認ください[チャートのワークシートを取得](/cells/ja/net/get-worksheet-of-the-chart/)詳細については。
+詳細については、[チャートのワークシートを取得](/cells/ja/net/get-worksheet-of-the-chart/)の記事をご確認ください。
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var workbook = new Workbook("sample.xlsx");
 

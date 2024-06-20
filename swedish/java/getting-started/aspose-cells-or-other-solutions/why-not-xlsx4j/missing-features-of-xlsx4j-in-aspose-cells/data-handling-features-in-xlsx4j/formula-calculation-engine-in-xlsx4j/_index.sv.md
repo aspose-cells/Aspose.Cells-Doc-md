@@ -1,15 +1,16 @@
-﻿---
+---
 title: Formelberäkningsmotor i xlsx4j
 type: docs
 weight: 40
 url: /sv/java/formula-calculation-engine-in-xlsx4j/
 ---
-## **Aspose.Cells - Formelberäkningsmotor**
-Formelberäkningsmotorn är inbäddad i Aspose.Cells. Den kan inte bara räkna om formeln som importerats från en designerkalkylarksfil utan stöder även beräkning av resultaten av formler som läggs till under körning.
+
+## **Aspose.Cells - Formelberäkningsmotorn**
+Formelberäkningsmotorn är inbäddad i Aspose.Cells. Den kan inte bara omberäkna formeln som importerats från en designerkalkylbladsfil utan också stödjer att beräkna resultatet av formler som läggs till vid körning.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -58,13 +59,13 @@ book.calculateFormula();
 book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/formulacalculationengine/AsposeFormulaCalculationEngine.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Formelberäkningsmotor](/cells/sv/java/formula-calculation-engine-in-aspose-cells).
+För mer detaljer, besök [Formelberäkningsmotor](/cells/sv/java/formelberakningsmotor-i-aspose-cells).
 
 {{% /alert %}}

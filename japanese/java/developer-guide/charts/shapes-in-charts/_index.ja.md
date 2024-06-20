@@ -1,101 +1,102 @@
-﻿---
-title: チャートのコントロール
-linktitle: チャート内の形状
+---
+title: チャート内のコントロール
+linktitle: チャート内の図形
 type: docs
 weight: 60
 url: /ja/java/controls-in-charts/
 ---
+
 {{% alert color="primary" %}}
 
-ラベル、テキスト ボックス、画像などの描画オブジェクトをグラフに挿入する必要がある場合があります。 Aspose.Cells は、実行時にチャートにコントロールを追加できます。
+時には、ラベル、テキストボックス、画像などの描画オブジェクトをチャートに挿入する必要があります。Aspose.Cellsはランタイムでチャートにコントロールを追加できます。
 
 {{% /alert %}}
 
-## **チャートへのラベル コントロールの追加**
+## **チャートにラベルコントロールを追加**
 
-ラベルは、スプレッドシートのコンテンツに関する情報をユーザーに提供する手段を提供します。 Aspose.Cells を使用すると、チャートにもラベルを追加して操作できます。
+ラベルは、スプレッドシートのコンテンツに関する情報をユーザーに提供する手段を提供します。Aspose.Cellsを使用して、チャートにラベルを追加および操作できます。
 
-の[**シェイプコレクション**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection)クラスは、という名前のメソッドを提供します[**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int))、チャートにラベル コントロールを追加するために使用されます。以下は、メソッドに使用されるパラメーターのリストです。
+クラス [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) は、ラベルコントロールをチャートに追加するための [**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)) メソッドを提供します。以下は、メソッドに使用されるパラメータのリストです:
 
-- **上**– グラフ領域の 1/4000 単位での左上隅からのラベルの垂直オフセット。
-- **左**– グラフ領域の 1/4000 単位での左上隅からのラベルの垂直オフセット。
-- **身長**– グラフ エリアの 1/4000 単位のラベルの高さ。
-- **幅** – グラフ エリアの 1/4000 単位のラベルの幅。
+- **top** - ラベルの上部左隅からの垂直オフセット、チャートエリアの1/4000単位。
+- **left** - ラベルの上部左隅からの水平オフセット、チャートエリアの1/4000単位。
+- **height** - ラベルの高さ、チャートエリアの1/4000単位。
+- **width** – ラベルの幅（チャート領域の1/4000単位）。
 
-メソッドは、[**ラベル**](https://reference.aspose.com/cells/java/com.aspose.cells/Label)クラス、ここで[**ラベル**](https://reference.aspose.com/cells/java/com.aspose.cells/Label)クラスはチャートのラベルを表します。以下に詳述するように、いくつかの重要なメンバーがあります。
+メソッドは、ラベルのチャート内の重要なメンバーを詳細に示す [**Label**](https://reference.aspose.com/cells/java/com.aspose.cells/Label) クラスのオブジェクトを返します。以下は、その重要なメンバーのいくつかです:
 
-- [**文章**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Text)プロパティは、ラベルのキャプション文字列を指定します。
-- [**塗りつぶし**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Fill)プロパティは、塗りつぶしの色属性を指定します。
+- [**Text**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Text) プロパティはラベルのキャプション文字列を指定します。
+- [**Fill**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Fill) プロパティは塗りつぶしの色の属性を指定します。
 
-次の例は、チャートにラベルを追加する方法を示しています。この例では、チャートを含むデザイナー ファイルを使用します。このファイルを使用して、チャートにラベルを挿入します。
+次の例は、チャートにラベルを追加する方法を示しています。この例では、チャートが含まれるデザイナーファイルを使用します。このファイルを使用して、チャートにラベルを挿入します。
 
-以下は、デザイナー ファイルのスクリーンショットです。
+以下は、デザイナーファイルのスクリーンショットです。
 
 **デザイナーチャート**
 
-![todo:画像_代替_文章](controls-in-charts_1.png)
+![todo:image_alt_text](controls-in-charts_1.png)
 
-以下は、チャートにラベルを追加するための元のコードです。コードを実行すると、次の出力が生成されます。
+チャートにラベルを追加するための元のコードは以下のとおりです。コードを実行すると、次の出力が生成されます。
 
 **チャートにラベルが追加されます**
 
-![todo:画像_代替_文章](controls-in-charts_2.png)
+![todo:image_alt_text](controls-in-charts_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingLabelControl-AddingLabelControl.java" >}}
 
-## **TextBox コントロールをチャートに追加する**
+## **チャートにテキストボックスコントロールを追加**
 
-レポートで重要な情報を強調する 1 つの方法は、テキスト ボックスを使用することです。たとえば、テキストを入力して会社名を強調表示したり、売上高が最も多い地域を示したりします。の[**シェイプコレクション**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection)クラスは、という名前のメソッドを提供します[**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)) を使用して、テキスト ボックス コントロールをグラフに追加します。以下は、メソッドに使用されるパラメーター リストです。
+レポートで重要な情報を強調表示する一つの方法は、テキストボックスを使用することです。たとえば、企業名を表示したり、最高の売上地域を示したりするためにテキストを入力します。 [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) クラス には [**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)) という名前のメソッドがあり、これを使用してチャートにテキストボックスコントロールを追加します。以下は、このメソッドに使用されるパラメータのリストです：
 
-- **上** – グラフ領域の 1/4000 単位での左上隅からのテキスト ボックスの垂直オフセット。
-- **左** – グラフ領域の 1/4000 単位での左上隅からのテキスト ボックスの垂直オフセット。
-- **身長**– テキスト ボックスの高さ (グラフ領域の 1/4000 単位)。
-- **幅** – テキスト ボックスの幅 (グラフ領域の 1/4000 単位)。
+- **top** - テキストボックスの上部左隅からの垂直オフセット、チャートエリアの1/4000単位。
+- **left** – チャートエリアの左上隅からのテキストボックスの垂直オフセット（1/4000ユニット）。
+- **height** – テキストボックスの高さ、チャートエリアの1/4000単位で指定します。
+- **width** – テキストボックスの幅、チャートエリアの1/4000単位で指定します。
 
-メソッドは、[**テキストボックス**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox)クラス[**テキストボックス**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox)クラスはチャート内のテキスト ボックスを表します。
+メソッドは、[**TextBox**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox)クラスのオブジェクトを返します。[**TextBox**](https://reference.aspose.com/cells/java/com.aspose.cells/TextBox)クラスは、チャート内のテキストボックスを表します。
 
-次の例は、テキスト ボックスをグラフに追加する方法を示しています。この例では、チャートを含む以前のデザイナー ファイルを使用します。このファイルを使用して、テキスト ボックスをチャートに挿入し、チャート タイトルを表示します。
+次の例は、チャートにテキストボックスを追加する方法を示しています。この例では、前のデザイナーファイルを使用しています。このファイルを使用して、チャートにテキストボックスを挿入してチャートのタイトルを表示します。
 
-以下は、チャートにテキスト ボックスを追加するための元のコードです。コードを実行すると、次の出力が生成されます。
+以下は、チャートにテキストボックスを追加するための元のコードです。コードを実行すると、以下の出力が生成されます。
 
-**グラフにテキスト ボックスが追加されます**
+**チャートにテキストボックスが追加されています**
 
-![todo:画像_代替_文章](controls-in-charts_3.png)
+![todo:image_alt_text](controls-in-charts_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingTextBoxControl-AddingTextBoxControl.java" >}}
 
 ## **チャートに画像を追加する**
 
-Aspose.Cells を使用すると、画像をグラフに挿入できます。たとえば、図を追加して図やその内容を強調したり意味を持たせたり、ブランド イメージ ファイルを挿入したりします。
+Aspose.Cellsを使用すると、チャートに画像を挿入することができます。たとえば、チャートやその内容を強調したり、意味を追加するために画像を追加したり、ブランドのイメージファイルを挿入することができます。
 
-の[**シェイプコレクション**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection)クラスは、という名前のメソッドを提供します[**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)) を使用して、画像オブジェクトをチャートに追加します。以下は、メソッドに使用されるパラメーター リストです。
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) クラスは、画像オブジェクトをチャートに追加するために使用される[**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int))メソッドを提供します。以下は、メソッドに使用されるパラメータのリストです。
 
-- **上**– グラフ領域の 1/4000 単位での左上隅からのピクチャの垂直オフセット。
-- **左**– グラフ領域の 1/4000 単位での左上隅からのピクチャの垂直オフセット。
-- **ストリーム**– 画像データを含むストリーム オブジェクト。
-- **幅スケール**– 画像幅のスケール、パーセント値。
-- **高さスケール**– 画像の高さのスケール、パーセント値。
+- **top** – 画像の上部左隅からの垂直オフセット、チャートエリアの1/4000単位で指定します。
+- **left** – 画像の上部左隅からの水平オフセット、チャートエリアの1/4000単位で指定します。
+- **stream** – 画像データを含むストリームオブジェクト。
+- **widthScale** – 画像幅のスケール、パーセンテージ値。
+- **heightScale** – 画像の高さのスケール、パーセンテージ値。
 
-メソッドは、[**写真**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)クラス[**写真**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)クラスは、チャート内の画像オブジェクトを表します。
+メソッドは、[**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)クラスのオブジェクトを返します。[**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)クラスは、チャート内の画像オブジェクトを表します。
 
-次の例は、グラフに画像を追加する方法を示しています。この例では、チャートを含む以前のデザイナー ファイルを使用しています。このファイルを使用して、画像をチャートに挿入します。
+以下の例は、チャートに画像を追加する方法を示しています。この例では、前のデザイナーファイルを使用して、チャート内に画像を挿入しています。
 
-以下は、チャートに画像を追加するための元のコードです。コードを実行すると、次の出力が生成されます
+以下は、チャートに画像を追加するための元のコードです。コードを実行すると、以下の出力が生成されます。
 
-**グラフに画像が挿入されます**
+**画像がチャートに挿入されます**
 
-![todo:画像_代替_文章](controls-in-charts_4.png)
+![todo:image_alt_text](controls-in-charts_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-AddingPictureToChart-AddingPictureToChart.java" >}}
 
 ## **チャートにチェックボックスを追加する**
 
-Aspose.Cells を使用すると、チャート シートにチェックボックスを挿入できます。[**MsoDrawingType**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoDrawingType)列挙。次の例は、グラフ シートにチェックボックスを追加する方法を示しています。
+Aspose.Cellsを使用して、チャートシートにチェックボックスを挿入できます。次の例では、チャートシートにチェックボックスを追加する方法を示しています。
 
-次の図は、出力ファイルにチェックボックスがあるグラフ シートを示しています。
+次の画像は、出力ファイルに含まれるチャートシートにチェックボックスが表示されています。
 
-![todo:画像_代替_文章](controls-in-charts_5.jpg)
+![todo:image_alt_text](controls-in-charts_5.jpg)
 
-の[出力ファイル](InsertCheckboxInChartSheet_out.xlsx)参照用に、次のコード スニペットによって生成されたコードを添付します。
+以下のコードスニペットによって生成された[出力ファイル](InsertCheckboxInChartSheet_out.xlsx)を参照のために添付します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}

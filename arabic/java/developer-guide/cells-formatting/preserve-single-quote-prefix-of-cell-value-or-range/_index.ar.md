@@ -1,28 +1,29 @@
-﻿---
-title: احتفظ ببادئة اقتباس فردية بقيمة Cell أو نطاق
+---
+title: الحفاظ على بادئة الاقتباس الفردي لقيمة الخلية أو النطاق
 type: docs
 weight: 1900
 url: /ar/java/preserve-single-quote-prefix-of-cell-value-or-range/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-عندما تضع بعض القيمة داخل الخلية التي تحتوي على فاصلة عليا أو علامة اقتباس مفردة ، فإن Microsoft يقوم Excel بإخفائها ، ولكن عند تحديد الخلية ، فإنها تعرض الفاصلة العليا أو علامة الاقتباس الفردية في شريط الصيغة كما هو موضح في لقطة الشاشة التالية.
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به: image_بديل_نص](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
+عندما تضع قيمة ما داخل الخلية التي تحتوي على رمز تأشيرة أو علامة اقتباس أحادية في البداية، يخفي Microsoft Excel ذلك، ولكن عند تحديد الخلية، يعرض الرمز التأشيري أو الاقتباس الأحادي في شريط الصيغة كما هو مبين في لقطة الشاشة التالية.
 
-يخفي Aspose.Cells أيضًا الفاصلة العليا أو الاقتباس الفردي مثل Microsoft Excel ولكنه يحدد[**النمط**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) مثل**حقيقي** لتلك الخلية. إذا قمت بتعيين نمط فارغ للخلية ، فحينئذٍ[**النمط**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) يصبح**خاطئة** تكرارا. من أجل التعامل مع هذه المشكلة ، يوفر Aspose.Cells[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) الملكية ، عندما يتم تعيينها**خاطئة**، ومن بعد[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)لم يتم تحديثه على الإطلاق ويتم الاحتفاظ بقيمته القديمة. هذا يعني إذا كانت القيمة القديمة[**النمط**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)كانت الممتلكات**حقيقي**، سيبقى صحيحًا وإذا كانت القيمة القديمة خاطئة ، فستظل خاطئة.
+![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-## **احتفظ ببادئة اقتباس فردية بقيمة Cell أو نطاق**
+تخفي Aspose.Cells أيضًا العلامة اقتباس رئيسية أو علامة اقتباس واحدة مثل Microsoft Excel ولكنها تعين الـ [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) كـ **صحيحة** لتلك الخلية. إذا قمت بتعيين نمط فارغ للخلية، فإن [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) تصبح **false** مرة أخرى. من أجل التعامل مع هذه المشكلة، توفر Aspose.Cells خاصية [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)، عندما يتم تعيين **false**، فإن [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) لا يُحدث على الإطلاق ويتم الاحتفاظ بقيمته القديمة. يعني إذا كانت القيمة القديمة لخاصية [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) كانت **صحيحة**، فستظل صحيحة وإذا كانت القيمة القديمة كانت خاطئة، فستظل خاطئة.
 
-يشرح نموذج التعليمات البرمجية التالي استخدام[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)الخاصية كما هو موضح سابقًا. يرجى قراءة التعليقات الموجودة داخل الكود والاطلاع على إخراج وحدة التحكم للرمز الوارد أدناه للحصول على مزيد من المساعدة.
+## **الحفاظ على بادئة اقتباس واحدة لقيمة الخلية أو النطاق**
 
-## **عينة من الرموز**
+يشرح الكود النموذجي التالي استخدام الخاصية [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) كما هو موضح سابقًا. يُرجى قراءة التعليقات داخل الكود ورؤية الإخراج الموجود في وحدة التحكم للكود المعطى أدناه للحصول على مزيد من المساعدة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Quote Prefix of Cell A1: false
 

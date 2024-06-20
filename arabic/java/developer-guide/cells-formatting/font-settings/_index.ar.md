@@ -1,103 +1,104 @@
-﻿---
+---
 title: التعامل مع إعدادات الخط
 linktitle: إعدادات الخط
 type: docs
 weight: 20
 url: /ar/java/dealing-with-font-settings/
 ---
+
 {{% alert color="primary" %}} 
 
-يمكن التحكم في شكل النص وأسلوبه من خلال تغيير إعدادات الخط. قد تتضمن إعدادات الخط هذه الاسم والنمط والحجم واللون والتأثيرات الأخرى للخطوط كما هو موضح أدناه في الشكل:
+يمكن التحكم في مظهر وشعور النص عن طريق تغيير إعدادات الخط الخاصة به. تشمل هذه الإعدادات قد يكون اسمها ونمطها وحجمها ولونها وتأثيرات أخرى للخطوط كما هو موضح أدناه في الشكل:
 
 **إعدادات الخط في Microsoft Excel** 
 
-![ما يجب القيام به: image_بديل_نص](dealing-with-font-settings_1.png)
+![todo:image_alt_text](dealing-with-font-settings_1.png)
 
-تمامًا مثل Microsoft Excel ، يدعم Aspose.Cells أيضًا تكوين إعدادات الخط للخلايا.
+تدعم Aspose.Cells أيضًا مثل Microsoft Excel تكوين إعدادات الخط للخلايا.
 
 {{% /alert %}} 
 ## **تكوين إعدادات الخط**
- Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) يمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) فئة تحتوي على[ورقة العمل](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)صف دراسي. ال[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة توفر أ[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) مجموعة. كل عنصر في[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) تمثل المجموعة كائنًا من[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)صف دراسي.
+توفر Aspose.Cells صنفًا، [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) الذي يمثل ملف Microsoft Excel. يحتوي صنف [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) على [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) الذي يسمح بالوصول إلى كل ورقة عمل في ملف Excel. تُمثّل ورقة العمل باستخدام صنف [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). يوفر صنف [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells). كل عنصر في مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) يمثل كائن من صنف [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell).
 
- يوفر Aspose.Cells ملف[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) صف دراسي'[مجموعة](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\) ) الطريقة المستخدمة لتعيين تنسيق الخلية. أيضا ، موضوع[أسلوب](https://reference.aspose.com/cells/java/com.aspose.cells/Style)توفر فئة خصائص لتكوين إعدادات الخط.
+توفر Aspose.Cells صنف [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) الخاص بطريقة [setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) التي تستخدم لتعيين تنسيق الخلية. كما يوفر كائن صنف [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style) خصائص لتكوين إعدادات الخط.
 
 يوضح هذا المقال كيفية:
 
 - [تطبيق خط معين على النص.](/cells/ar/java/dealing-with-font-settings/)
-- [تعيين النص إلى غامق](/cells/ar/java/dealing-with-font-settings/).
-- [اضبط حجم الخط](/cells/ar/java/dealing-with-font-settings/).
-- [اضبط لون الخط](/cells/ar/java/dealing-with-font-settings/).
+- [تعيين النص إلى الخط العريض](/cells/ar/java/dealing-with-font-settings/).
+- [تعيين حجم الخط](/cells/ar/java/dealing-with-font-settings/).
+- [تعيين لون الخط](/cells/ar/java/dealing-with-font-settings/).
 - [تسطير النص](/cells/ar/java/dealing-with-font-settings/).
-- [نص مشطوب](/cells/ar/java/dealing-with-font-settings/).
-- [تعيين النص إلى منخفض](/cells/ar/java/dealing-with-font-settings/).
-- [تعيين النص إلى نص مرتفع](/cells/ar/java/dealing-with-font-settings/).
+- [إلغاء خط النص](/cells/ar/java/dealing-with-font-settings/).
+- [تعيين النص إلى الفرعي](/cells/ar/java/dealing-with-font-settings/).
+- [تعيين النص إلى السوبر](/cells/ar/java/dealing-with-font-settings/).
 ### **تعيين اسم الخط**
- تطبيق خط معين على النص في الخلايا باستخدام[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[اسم مجموعة](https://reference.aspose.com/cells/java/com.aspose.cells/font#Name)خاصية.
+تطبيق خط معين على النص في الخلايا باستخدام [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) الخاصية [setName](https://reference.aspose.com/cells/java/com.aspose.cells/font#Name) كائن.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontName-SettingFontName.java" >}}
-### **تعيين نمط الخط إلى غامق**
- قم بتعيين النص إلى غامق عن طريق تعيين[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[setBold](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsBold) ملكية ل**حقيقي**.
+### **تعيين نمط الخط إلى عريض**
+تعيين النص إلى الخط العريض عن طريق تعيين [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) الخاصية [setBold](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsBold) كائن إلى **true**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SettingFontStyle-1.java" >}}
-### **ضبط حجم الخط**
- اضبط حجم الخط باستخدام ملف[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[ضبط الحجم](https://reference.aspose.com/cells/java/com.aspose.cells/font#Size)خاصية.
+### **تعيين حجم الخط**
+تعيين حجم الخط باستخدام [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) الخاصية [setSize](https://reference.aspose.com/cells/java/com.aspose.cells/font#Size) كائن.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontSize-SetFontSize.java" >}}
 ### **تعيين نوع تسطير الخط**
- تسطير النص بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[وضع السطر](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) خاصية. يوفر Aspose.Cells أنواعًا مختلفة من تسطير الخط المعرفة مسبقًا في تنسيق[FontUnderlineType](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType)تعداد.
+تسطير النص باستخدام [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font) الخاصية [setUnderline](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) كائن. تقدم Aspose.Cells أنواع تسطير الخط المحددة مسبقًا في تعداد الـ [FontUnderlineType](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType).
 
-|**أنواع تسطير الخط**|**وصف**|
-|:- |:- |
-|[لا أحد](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#NONE)|بدون تسطير|
-|[غير متزوج](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|تسطير واحد|
-|[مزدوج](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)|تسطير مزدوج|
-|[محاسبة](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)|تسطير محاسبة واحد|
-|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE_ACCOUNTING)|تسطير مزدوج المحاسبة|
-|[اندفاع](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH)|تسطير متقطع|
-|[اندفاع_نقطة_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_DOT_HEAVY)|تسطير ثخين - نقطة - نقطة|
-|[اندفاع_نقطة_ثقيل](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_HEAVY)|تسطير نقطي سميك|
-|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED_HEAVY)|تسطير متقطع سميك|
-|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG)|تسطير متقطع طويل|
-|[اندفاع_طويل_ثقيل](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)|تسطير متقطع سميك طويل|
-|[نقطة شرطة](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DASH)|تسطير شرطة نقطة|
-|[نقطة_نقطة_اندفاع](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DOT_DASH)|تسطير شرطة نقطية|
-|[منقط](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)|تسطير منقط|
-|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED_HEAVY)|تسطير منقط سميك|
-|[ثقيل](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#HEAVY)|تسطير سميك|
-|[لوح](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|تسطير الموجة|
-|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|تسطير موجة مزدوجة|
-|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|تسطير مموج كثيف|
-|` `[كلمات](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|تسطير الأحرف بدون مسافة فقط|
+|**أنواع تسطير الخط**|**الوصف**|
+| :- | :- |
+|[NONE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#NONE)|بدون تسطير|
+|[SINGLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|تسطير أحادي|
+|[DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)|خط مزدوج تحته|
+|[ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)|خط أحادي تحته للمحاسبة|
+|[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE_ACCOUNTING)|خط مزدوج للمحاسبة تحته|
+|[DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH)|تحته مشطوف|
+|[DASH_DOT_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_DOT_HEAVY)|تحته خط متقطع سميك نقطة نقطة|
+|[DASH_DOT_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_HEAVY)|تحته خط متقطع سميك نقطة|
+|[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED_HEAVY)|تحته خط متقطع سميك|
+|[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG)|تحته خط طويل متقطع|
+|[DASH_LONG_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)|تحته خط طويل سميك متقطع|
+|[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DASH)|شَر{شَرشَرِ} Dash-Dot Underline|
+|[DOT_DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DOT_DASH)|شَر{شَرشَرِ} Dash-Dot-Dot Underline|
+|[DOTTED](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)|شَر{شَرشَرِ} Dotted Underline|
+|[DOTTED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED_HEAVY)|شَر{شَرشَرِ} Thick Dotted Underline|
+|[HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#HEAVY)|شَر{شَرشَرِ} Thick Underline|
+|[WAVE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|شَر{شَرشَرِ} Wave Underline|
+|[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|شَر{شَرشَرِ} Double Wave Underline|
+|[WAVY_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|شَر{شَرشَرِ} Heavy Wave Underline|
+|[WORDS](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|تحت الخط Underline Non-Space Characters Only|
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontUnderlineType-SettingFontUnderlineType.java" >}}
 
 
 
-### **ضبط لون الخط**
- اضبط لون الخط بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[مجموعة](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color) خاصية. حدد أي لون من ملف[اللون](https://reference.aspose.com/cells/java/com.aspose.cells/Color) تعداد وتعيين اللون المحدد إلى[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[مجموعة](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color).
+### **تعيين لون الخط**
+اضبط لون الخط باستخدام [كائن الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) و [خاصية setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color). اختر أي لون من تعداد [اللون](https://reference.aspose.com/cells/java/com.aspose.cells/Color) وقم بتعيين اللون المحدد ل[كائن الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) باستخدام [خاصية setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontColor-SetFontColor.java" >}}
 
 
 
-### **ضبط تأثير الشطب على النص**
- نص مشطوب بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[setStrikeout](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsStrikeout)خاصية.
+### **ضبط تأثير اليتيمة على النص**
+يمكنك تطبيق اليتيمة على النص باستخدام خاصية [setStrikeout](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsStrikeout) في كائن [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingStrikeOutEffect-SettingStrikeOutEffect.java" >}}
 
 
 
-### **إعداد منخفض**
- جعل النص مرتفعًا باستخدام[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[تعيين](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)خاصية.
+### **ضبط النص الفرعي**
+قم بجعل النص فوق السطر باستخدام خاصية [setSubscript](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript) في كائن [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSubscript-SetSubscript.java" >}}
 
 
 
-### **إعداد مرتفع**
- تطبيق نص مرتفع على النص بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[تعيين](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript)خاصية.
+### **ضبط النص العلوي**
+قم بتطبيق النص العلوي على النص باستخدام خاصية [setSuperscript](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) في كائن [Font](https://reference.aspose.com/cells/java/com.aspose.cells/Font).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSuperscript-SetSuperscript.java" >}}
 
-## **موضوعات مسبقة**
-- [تطبيق تأثيرات الكتابة المرتفعة والمنخفضة على الخطوط](/cells/ar/java/apply-superscript-and-subscript-effects-on-fonts/)
-- [احصل على قائمة الخطوط المستخدمة في جدول بيانات أو مصنف](/cells/ar/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+## **مواضيع متقدمة**
+- [تطبيق تأثيرات الرمز العلوي والرمز السفلي على الخطوط](/cells/ar/java/apply-superscript-and-subscript-effects-on-fonts/)
+- [الحصول على قائمة الخطوط المستخدمة في جدول بيانات أو كتاب عمل](/cells/ar/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)

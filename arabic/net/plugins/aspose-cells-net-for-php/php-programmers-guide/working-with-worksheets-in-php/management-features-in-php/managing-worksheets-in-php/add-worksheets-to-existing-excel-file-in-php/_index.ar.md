@@ -1,16 +1,17 @@
-﻿---
-title: أضف أوراق العمل إلى ملف Excel الموجود في PHP
+---
+title: إضافة أوراق العمل إلى ملف إكسل موجود باستخدام البي إتش بي
 type: docs
 weight: 10
 url: /ar/net/add-worksheets-to-existing-excel-file-in-php/
 ---
-أضف أوراق العمل إلى ملف Excel الموجود
 
-أضف أوراق العمل إلى ملف Excel الموجود
+إضافة أوراق العمل إلى ملف إكسل موجود
+
+إضافة أوراق العمل إلى ملف إكسل موجود
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -37,7 +38,7 @@ url: /ar/net/add-worksheets-to-existing-excel-file-in-php/
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إضافة أوراق العمل إلى ملف Excel الموجود (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **إضافة أوراق العمل إلى ملف إكسل موجود (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddWorksheetsToExistingExcelFile.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddWorksheetsToExistingExcelFile.php)

@@ -1,26 +1,27 @@
-﻿---
-title: Diagramm nach SVG mit viewBox-Attribut exportieren
+---
+title: Diagramm als SVG mit viewBox Attribut exportieren
 type: docs
 weight: 280
 url: /de/net/export-chart-to-svg-with-viewbox-attribute/
 ---
+
 {{% alert color="primary" %}}
 
- Wenn das Diagramm in das Format SVG exportiert wird, wird standardmäßig die**viewBox** -Attribut ist nicht in seinem XML enthalten. Allerdings bietet Aspose.Cells[**ImageOrPrintOptions.SVGFitToViewPort**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/svgfittoviewport) Eigenschaft, die, wenn festgelegt auf**wahr** Exportiert das Diagramm nach SVG mit dem viewBox-Attribut.
+Standardmäßig ist das **viewBox**-Attribut beim Export des Diagramms ins SVG-Format nicht in seinem XML enthalten. Allerdings bietet Aspose.Cells [**ImageOrPrintOptions.SVGFitToViewPort**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/svgfittoviewport) Eigenschaft, die beim Einstellen auf **true** das Diagramm ins SVG mit viewBox-Attribut exportiert.
 
 {{% /alert %}}
 
-## Diagramm nach SVG mit viewBox-Attribut exportieren
+## Diagramm als SVG mit viewBox-Attribut Exportieren
 
-Der folgende Beispielcode exportiert das Diagramm mit dem viewBox-Attribut in das Format SVG.
+Der folgende Beispielcode exportiert das Diagramm im SVG-Format mit dem viewBox-Attribut.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-ExportChartToSvgWithViewBox-ExportChartToSvgWithViewBox.cs" >}}
 
 {{% alert color="primary" %}}
 
- Wenn Sie die SVG des Diagramms im Notizblock öffnen, finden Sie die**viewBox**ähnliches Attribut.
+Wenn Sie das SVG des Diagramms in Notepad öffnen, finden Sie das **viewBox**-Attribut ähnlich wie dieses.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <svg xmlns="http://www.w3.org/2000/svg"
 

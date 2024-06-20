@@ -1,11 +1,12 @@
-﻿---
-title: Soporte para gráficos editables
+---
+title: Soporte para Gráficos Editables
 type: docs
 weight: 60
 url: /es/reportingservices/support-for-editable-charts/
 ---
-###### **Esta sección incluye los siguientes temas:**
-- [Representar todos los elementos del gráfico de informe en gráficos de Excel](/cells/es/reportingservices/render-all-report-chart-items-to-excel-charts/)
-- [Representar elementos de gráfico del informe seleccionado en gráficos de Excel](/cells/es/reportingservices/render-chart-items-of-selected-report-to-excel-charts/)
-- [Representar elementos de gráficos seleccionados en gráficos de Excel](/cells/es/reportingservices/render-selected-chart-items-to-excel-charts/)
-- [Tipos de gráficos que no coinciden](/cells/es/reportingservices/mismatch-chart-types/)
+
+###### **Esta sección incluye los siguientes temas:** 
+- [Renderizar Todos los Elementos del Gráfico del Informe a Gráficos de Excel](/cells/es/reportingservices/render-all-report-chart-items-to-excel-charts/)
+- [Renderizar Elementos del Gráfico del Informe Seleccionado a Gráficos de Excel](/cells/es/reportingservices/render-chart-items-of-selected-report-to-excel-charts/)
+- [Renderizar Elementos del Gráfico Seleccionados a Gráficos de Excel](/cells/es/reportingservices/render-selected-chart-items-to-excel-charts/)
+- [Tipos de Gráfico No Coincidentes](/cells/es/reportingservices/mismatch-chart-types/)

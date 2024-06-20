@@ -1,24 +1,25 @@
-﻿---
-title: Exportieren Sie den Bereich von Cells in einem Arbeitsblatt in ein Bild
+---
+title: Bereich von Zellen in einem Arbeitsblatt in ein Bild exportieren
 type: docs
 weight: 60
 url: /de/net/export-range-of-cells-in-a-worksheet-to-image/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Sie können mit Aspose.Cells ein Bild eines Arbeitsblatts erstellen. Manchmal müssen Sie jedoch nur einen Bereich von Zellen in einem Arbeitsblatt in ein Bild exportieren. Dieser Artikel erklärt, wie Sie dies erreichen.
+## **Mögliche Verwendungsszenarien**
 
-## **Exportieren Sie den Bereich von Cells in einem Arbeitsblatt in ein Bild**
+Sie können ein Bild eines Arbeitsblatts mit Aspose.Cells erstellen. Manchmal müssen Sie jedoch nur einen Bereich von Zellen in einem Arbeitsblatt in ein Bild exportieren. Dieser Artikel erläutert, wie dies erreicht werden kann.
 
- Um ein Bild eines Bereichs aufzunehmen, stellen Sie den Druckbereich auf den gewünschten Bereich und dann alle Ränder auf 0 ein. Auch einstellen[**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet) zu**wahr** . Der folgende Code nimmt ein Bild des Bereichs D8:G16 auf. Unten ist ein Screenshot der[Beispiel-Excel-Datei](47153160.xlsx) im Code verwendet. Sie können den Code mit jeder Excel-Datei ausprobieren.
+## **Bereich von Zellen in einem Arbeitsblatt in ein Bild exportieren**
 
-## **Screenshot der Beispiel-Excel-Datei und ihres exportierten Bildes**
+Um ein Bild eines Bereichs zu erstellen, setzen Sie den Druckbereich auf den gewünschten Bereich und setzen dann alle Ränder auf 0. setzen Sie außerdem [**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet) auf **true**. Der folgende Code erstellt ein Bild des Bereichs D8:G16. Unten ist ein Screenshot der [Beispiel-Excel-Datei](47153160.xlsx) zu sehen, die im Code verwendet wird. Sie können den Code mit jeder Excel-Datei ausprobieren.
 
-**![todo:image_alt_text](exportieren-des-zellenbereichs-in-einem-arbeitsblatt-nach-image_1.png)**
+## **Screenshot der Beispiels-Excel-Datei und des exportierten Bilds**
 
-Das Ausführen des Codes erstellt nur ein Bild des Bereichs D8:G16.
+**![todo:image_alt_text](export-range-of-cells-in-a-worksheet-to-image_1.png)**
 
-**![todo:image_alt_text](Ausgabe-Bild.png)**
+Die Ausführung des Codes erstellt lediglich ein Bild des Bereichs D8:G16.
+
+**![todo:image_alt_text](Output-Image.png)**
 
 ## **Beispielcode**
 

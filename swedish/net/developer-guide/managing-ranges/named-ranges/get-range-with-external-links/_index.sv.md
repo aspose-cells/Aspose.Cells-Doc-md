@@ -1,23 +1,24 @@
-﻿---
-title: Få räckvidd med externa länkar
+---
+title: Hämta intervall med externa länkar
 type: docs
 weight: 120
 url: /sv/net/get-range-with-external-links/
 ---
-## **Få räckvidd med externa länkar**
 
-Många gånger får Excel-filer tillgång till data från andra Excel-filer med hjälp av externa länkar. Aspose.Cells ger möjlighet att hämta dessa externa länkar genom att använda[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)metod. De[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)metod returnerar en array av typ[**Refererat område**](https://reference.aspose.com/cells/net/aspose.cells/referredarea). De[**Refererat område**](https://reference.aspose.com/cells/net/aspose.cells/referredarea) klass ger en[**ExternalFileName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename)egenskap som returnerar namnet på den externa filen. De[**Refererat område**](https://reference.aspose.com/cells/net/aspose.cells/referredarea)klass avslöjar följande medlemmar.
+## **Hämta intervall med externa länkar**
 
-- [**Slutkolumn**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endcolumn): Slutkolumnen för området
-- [**EndRow**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endrow): Områdets sista rad
-- [**ExternalFileName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename): Hämta det externa filnamnet om detta är en extern referens
-- [**IsArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isarea): Indikerar om detta är ett område
-- [**IsExternalLink**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isexternallink): Indikerar om detta är en extern länk
-- [**SheetName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/sheetname): Indikerar i vilket blad denna referens finns
-- [**Startkolumn**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startcolumn): Startkolumnen för området
-- [**StartRow**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startrow): Områdets startrad
+Många gånger får Excel-filer åtkomst till data från andra Excelfiler via externa länkar. Aspose.Cells ger möjlighet att hämta dessa externa länkar genom användning av metoden [**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas). Metoden [**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas) returnerar en matris av typen [**ReferredArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea). Klassen [**ReferredArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea) tillhandahåller en [**ExternalFileName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename)-egenskap som returnerar namnet på den externa filen. Klassen [**ReferredArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea) exponerar följande medlemmar.
 
- Exempelkoden nedan visar användningen av[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)metod för att få Ranges med externa länkar.
+- [**EndColumn**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endcolumn): Slutkolumnen för området
+- [**EndRow**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endrow): Slutraden för området
+- [**ExternalFileName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename): Hämta det externa filnamnet om det är en extern referens
+- [**IsArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isarea): Anger om det här är ett område
+- [**IsExternalLink**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isexternallink): Anger om det här är en extern länk
+- [**SheetName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/sheetname): Anger vilket blad denna referens är i
+- [**StartColumn**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startcolumn): Startkolumnen för området
+- [**StartRow**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startrow): Startraden för området
+
+Det givna kodexemplet nedan demonstrerar användningen av [**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas) metod för att hämta intervall med externa länkar.
 
 ## **Exempelkod**
 

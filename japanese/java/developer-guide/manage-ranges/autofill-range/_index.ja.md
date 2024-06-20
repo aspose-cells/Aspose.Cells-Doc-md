@@ -1,17 +1,18 @@
-﻿---
-title: Excelファイルのオートフィル範囲
-linktitle: オートフィル範囲
+---
+title: Excel ファイルの AutoFill 範囲
+linktitle: AutoFill 範囲
 type: docs
 weight: 10
 url: /ja/java/autofill-ranges/
 ---
-## **Excel で指定した範囲にオートフィルを実行する**
 
-Excel では、範囲を選択し、マウスを右下に移動し、「+」をドラッグしてデータを自動入力します。
+## **指定した範囲で Excel で自動入力を実行します**
 
-## **範囲を Aspose.Cells で自動入力**
+Excel では、範囲を選択し、マウスを右下に移動し、「+」をドラッグしてデータを自動入力することができます。
 
-次の例は、Range に対して AutoFill 操作を行う方法を示しています。この機能をテストするためにダウンロードできるサンプル ファイルは次のとおりです。
+## **Aspose.Cells で範囲を自動入力する**
+
+次の例は、Range に AutoFill 操作を行う方法を示しており、この機能をテストするためにダウンロードできるサンプルファイルがこちらにあります:
 
 [range_autofill.xlsx](range_autofill.xlsx)
 

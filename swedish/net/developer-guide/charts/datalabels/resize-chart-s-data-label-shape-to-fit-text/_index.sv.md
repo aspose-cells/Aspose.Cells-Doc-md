@@ -1,23 +1,24 @@
 ---
-title: Ändra storlek på diagrammets dataetikettsform för att passa text
-description: Lär dig hur du ändrar storleken på dataetikettens form i ett diagram för att passa texten i Aspose.Cells for .NET. Vår guide visar dig hur du justerar storleken och formen på etikettbehållaren för att säkerställa att texten visas korrekt utan trunkering eller överlappning.
-keywords: Aspose.Cells for .NET, charting, data labels, shape resizing, text fitting, truncation, overlapping.
+title: Ändra diagrammets datamärkenes form för att passa texten
+description: Lär dig hur du ändrar datamärkens form i ett diagram för att passa texten i Aspose.Cells for .NET. Vår guide kommer att visa dig hur du justerar storleken och formen på märkesbehållaren för att säkerställa att texten visas korrekt utan någon avhuggning eller överlappning.
+keywords: Aspose.Cells for .NET, diagram, datamärken, form förändring, textanpassning, avhuggning, överlappning.
 type: docs
 weight: 220
 url: /sv/net/resize-chart-s-data-label-shape-to-fit-text/
 ---
+
 {{% alert color="primary" %}}
 
- Excel-applikationen tillhandahåller**Ändra storlek på form för att passa text** alternativet för diagrammets dataetiketter för att öka storleken på formen så att texten passar inuti den.
+Excel-programmet tillhandahåller alternativet **Ändra form för att passa text** för diagrammets datamärken för att öka storleken på formen så att texten passar inuti den.
 
 {{% /alert %}}
 
-##  **Hur man ändrar storleken på diagrammets dataetikettform för att passa text i Microsoft Excel**
+## **Hur man ändrar diagrammets mikroform för att passa texten i Microsoft Excel**
 
-Det här alternativet kan nås i Excel-gränssnittet genom att välja någon av dataetiketterna i diagrammet. Högerklicka och välj**Formatera dataetiketter** meny. På**Storlek & egenskaper** flik, expandera**Inriktning** för att avslöja de relaterade egenskaperna inklusive**Ändra storlek på form för att fixa text** alternativ.
+Detta alternativ kan nås på Excel-gränssnittet genom att välja något av datamärkena på diagrammet. Högerklicka och välj menyn **Formatera datamärken**. På fliken **Storlek och egenskaper**, expandera **Justering** för att avslöja de relaterade egenskaperna inklusive alternativet **Ändra form för att passa text**.
 
-##  **Hur man ändrar storlek på diagrammets dataetikettsform för att passa text med Aspose.Cells for .NET**
+## **Hur man ändrar diagrammets datamärkes form för att passa texten med hjälp av Aspose.Cells for .NET**
 
-För att efterlikna Excels funktion att ändra storlek på dataetikettformer för att passa texten, har API:erna Aspose.Cells avslöjat den booleska typen[**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext) fast egendom. Följande kodbit visar det enkla användningsscenariot för[**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext)fast egendom.
+För att efterlikna Excels funktion att ändra datamärkesformen för att passa texten har Aspose.Cells API: er exponerat egenskapen av booleskt typ [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext). Följande kod visar det enkla användningsscenario av [**DataLabels.IsResizeShapeToFitText**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/properties/isresizeshapetofittext).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ResizeChartDataLabelToFit-1.cs" >}}

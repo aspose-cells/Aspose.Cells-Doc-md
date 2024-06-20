@@ -1,24 +1,25 @@
-﻿---
-title: xlsx4j での前例と依存関係のトレース
+---
+title: xlsx4j での Precedents および Dependents のトレース
 type: docs
 weight: 70
 url: /ja/java/tracing-precedents-and-dependents-in-xlsx4j/
 ---
-## **Aspose.Cells - 前例と扶養家族の追跡**
-複雑な財務ワークシート、特に共同で開発されたものは、最も厄介なエラーを隠すことができます。数式が参照元セルと従属セルを使用している場合、数式の正確性をチェックし、エラーの原因を見つけることが難しい場合があります。
 
-- **先行細胞**別の Cell の数式によって参照されるセルです。たとえば、セル D10 に数式 =B5 が含まれている場合、セル B5 はセル D10 の参照元です。
-- **依存セル**他のセルを参照する数式が含まれています。たとえば、セル D10 に数式 =B5 が含まれている場合、セル D10 はセル B5 の依存セルです。
+## **Aspose.Cells - Precedents および Dependents のトレース**
+特に共同で開発された複雑な財務ワークシートは、最も恥ずかしいエラーを隠すことがあります。式の正確さをチェックし、エラーの原因を特定することは、先行セルおよび従属セルを使用する式をチェックする際に困難になるかもしれません。
 
-スプレッドシートを読みやすくするために、スプレッドシートのどのセルが数式で使用されているかを明確に示したい場合があります。同様に、他のセルの依存セルを抽出することもできます。
+- **Precedent cells** とは、他のセルの数式で参照されるセルのことです。例えば、セル D10 が数式 =B5 を含んでいる場合、セル B5 はセル D10 の先行要素です。
+- **Dependent cells** とは、他のセルを参照する数式を含んでいるセルのことです。例えば、セル D10 が数式 =B5 を含んでいる場合、セル D10 はセル B5 の依存要素です。
 
-Aspose.Cells を使用すると、セルをトレースして、リンクされているセルを見つけることができます。
+スプレッドシートをわかりやすくするために、スプレッドシートに含まれるセルが式で使用されているかを明確に表示することがあります。同様に、他のセルの従属セルを抽出することがあります。
 
-前例をたどる
+Aspose.Cells を使用すると、セルをトレースしてリンクされているセルを特定することができます。
+
+先行をトレース
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -84,19 +85,19 @@ if(ret != null)
 
 {{< /highlight >}}
 
-依存関係のトレース
+従属をトレース
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //A1セルを取得
+ //Get the A1 cell
 
-Cell c = セル.get("A5");
+Cell c = cells.get("A5");
 
-//A5 セルのすべての依存関係を取得します
+//Get the all the Dependents of A5 cell
 
-Cell[]依存 = c.getDependents(真);
+Cell[] dependents = c.getDependents(true);
 
 for (int i = 0; i< dependents.length; i++)
 
@@ -107,13 +108,13 @@ for (int i = 0; i< dependents.length; i++)
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/tracingprecedentsanddependents/AsposeTracingPrecedentsAndDependents.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[前例と依存関係のトレース](/java/tracing-precedents-and-dependents).
+詳細については、[Precedents および Dependents のトレース](/java/tracing-precedents-and-dependents) をご覧ください。
 
 {{% /alert %}}

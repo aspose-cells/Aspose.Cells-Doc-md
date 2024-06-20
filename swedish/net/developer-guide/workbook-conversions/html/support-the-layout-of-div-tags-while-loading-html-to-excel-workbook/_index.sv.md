@@ -1,16 +1,17 @@
-﻿---
-title: Stöd layouten för DIV-taggar när du laddar HTML till Excel-arbetsboken
+---
+title: Stöd för layout av DIV taggar vid laddning av HTML till Excelsekvens
 type: docs
 weight: 50
 url: /sv/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
 ---
+
 {{% alert color="primary" %}} 
 
-Normalt ignoreras layouten för div-taggar när HTML läses in i ett Excel-arbetsboksobjekt. Men om du vill att layouten för div-taggar inte ska ignoreras, ställ in[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) egendom till**Sann** . Standardvärdet för den här egenskapen är**falsk**.
+Normalt ignoreras layouten av div-taggar när HTML laddas in i en excel arbetsbok. Om du vill att layouten av div-taggar inte ska ignoreras, ställ då in egenskapen [HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) till **true**. Standardvärdet för denna egenskap är **false**.
 
 {{% /alert %}} 
 
- Följande exempelkod illustrerar användningen av[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) fast egendom. Vänligen ladda ner[Aspose Logotyp](5115218.png) används inuti ingången HTML och[output excel-fil](5115220.xlsx) genereras av koden.
+Följande provkod illustrerar användningen av [HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) egenskapen. Vänligen ladda ner [Aspose Logotyp](5115218.png) som används i inmatnings-HTML:n och [utmatnings-excelfilen](5115220.xlsx) som genereras av koden.
 
 
 

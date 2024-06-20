@@ -1,15 +1,16 @@
-﻿---
-title: Convertir hoja de trabajo a imagen en PHP
+---
+title: Convertir hoja de cálculo a imagen en PHP
 type: docs
 weight: 50
 url: /es/java/converting-worksheet-to-image-in-php/
 ---
-## **Aspose.Cells - Conversión de hoja de trabajo en imagen**
-Para convertir una hoja de trabajo en una imagen usando Aspose.Cells for Java en PHP, simplemente invoque el módulo Converter.
+
+## **Aspose.Cells - Convertir hoja de trabajo a imagen**
+Para convertir hoja de cálculo a imagen usando Aspose.Cells for Java en PHP, simplemente invoque el módulo Converter.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $imageFormat = new ImageFormat();
 
@@ -44,7 +45,7 @@ for ($j = 0; $j < $sr->getPageCount(); $j++)
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Conversión de hoja de trabajo en imagen (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Convertir hoja de trabajo a imagen (Aspose.Cells)** desde alguno de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

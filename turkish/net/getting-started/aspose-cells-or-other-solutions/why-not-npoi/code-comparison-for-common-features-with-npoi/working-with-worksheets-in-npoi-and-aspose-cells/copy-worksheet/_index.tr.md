@@ -1,13 +1,14 @@
-﻿---
+---
 title: Çalışma Sayfasını Kopyala
 type: docs
 weight: 40
 url: /tr/net/copy-worksheet/
 ---
+
 ## **Aspose.Cells - Çalışma Sayfasını Kopyala**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook by excel file path
 
@@ -28,7 +29,7 @@ wb.Save("../../data/workbook.xlsx");
 ## **NPOI - HSSF XSSF - Çalışma Sayfasını Kopyala**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -47,12 +48,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfasını Kopyala** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Herhangi bir sosyal kodlama sitesinden **Çalışma Sayfasını Kopyala** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Copy.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarıyla Çalışmak](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Daha fazla ayrıntı için [Çalışma Sayfaları İle Çalışma](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/) ziyaret edin.
 
 {{% /alert %}}

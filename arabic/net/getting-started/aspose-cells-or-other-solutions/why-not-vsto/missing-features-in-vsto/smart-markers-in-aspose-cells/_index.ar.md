@@ -1,10 +1,11 @@
-﻿---
-title: العلامات الذكية في Aspose.Cells
+---
+title: علامات ذكية في Aspose.Cells
 type: docs
 weight: 120
 url: /ar/net/smart-markers-in-aspose-cells/
 ---
-يحتوي هذا القسم على المواضيع التالية:
+
+تحتوي هذه القسم على المواضيع التالية:
 
 - [تجميع البيانات](/cells/ar/net/grouping-data/)
 - [علامات الصورة](/cells/ar/net/image-markers/)

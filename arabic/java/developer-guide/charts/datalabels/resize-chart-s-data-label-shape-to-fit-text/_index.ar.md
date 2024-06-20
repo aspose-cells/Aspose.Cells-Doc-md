@@ -1,27 +1,28 @@
-﻿---
-title: تغيير حجم شكل تسمية البيانات للمخطط لاحتواء النص
+---
+title: تغيير شكل تسمية بيانات الرسم البياني لتناسب النص
 type: docs
 weight: 190
 url: /ar/java/resize-chart-s-data-label-shape-to-fit-text/
 ---
+
 {{% alert color="primary" %}}
 
- يوفر تطبيق Excel ملف**تغيير حجم الشكل لاحتواء النص** خيار لـ DataLabels في المخطط من أجل زيادة حجم الشكل بحيث يتلاءم النص داخله. يمكن الوصول إلى هذا الخيار على واجهة Excel عن طريق تحديد أي من تسميات البيانات على الرسم البياني. انقر بزر الماوس الأيمن واختر**تنسيق DataLabels** قائمة. تشغيل**الحجم والخصائص** علامة التبويب ، قم بتوسيع**التوافق** للكشف عن الخصائص ذات الصلة بما في ذلك**تغيير حجم الشكل لإصلاح النص** اختيار.
+يوفر تطبيق إكسل خيار **تغيير شكل لتناسب النص** لتسميات البيانات في الرسوم البيانية لزيادة حجم الشكل بحيث يتناسب النص بداخله. يمكن الوصول إلى هذا الخيار على واجهة إكسل عن طريق تحديد أي من تسميات البيانات على الرسم البياني. انقر بزر الماوس الأيمن وحدد منيو **تنسيق تسميات البيانات**. على شريط **الحجم والخصائص**, قم بتوسيع **المحاذاة** لإظهار الخصائص ذات الصلة بما في ذلك خيار **تغيير شكل لتناسب النص**.
 
-![ما يجب القيام به: image_بديل_نص](resize-chart-s-data-label-shape-to-fit-text_1.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_1.png)
 
 {{% /alert %}}
 
-## **تغيير حجم شكل تسمية البيانات للمخطط لاحتواء النص**
+## **تغيير شكل تسمية بيانات الرسم البياني لتناسب النص**
 
- لتقليد ميزة Excel في تغيير حجم أشكال ملصقات البيانات لتناسب النص ، كشفت واجهات برمجة التطبيقات Aspose.Cells النوع المنطقي[**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText)خاصية. يوضح الجزء التالي من التعليمات البرمجية سيناريو الاستخدام البسيط لـ[**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText)خاصية.
+لتقليد ميزة إكسل لتغيير شكل تسميات بيانات لتناسب النص، قد قامت واجهات برمجة تطبيقات Aspose.Cells بتعريض خاصية النوع بوليان [**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText). يظهر الشيفرة التالية السناريو البسيط لاستخدام الخاصية [**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText).
 
-يبدو المخطط على النحو التالي قبل تنفيذ الكود.
+يظهر الرسم البياني كما يلي قبل تنفيذ الشيفرة.
 
-![ما يجب القيام به: image_بديل_نص](resize-chart-s-data-label-shape-to-fit-text_2.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ResizeChartDataLabelShapeToFitText-ResizeChartDataLabelShapeToFitText.java" >}}
 
-يبدو المخطط على النحو التالي بعد تنفيذ الكود.
+يظهر الرسم البياني كما يلي بعد تنفيذ الشيفرة.
 
-![ما يجب القيام به: image_بديل_نص](resize-chart-s-data-label-shape-to-fit-text_3.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)

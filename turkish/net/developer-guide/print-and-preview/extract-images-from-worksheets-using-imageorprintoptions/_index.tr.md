@@ -1,16 +1,17 @@
-﻿---
-title: ImageOrPrintOptions kullanarak Çalışma Sayfalarından Görüntüleri Çıkarın
+---
+title: ImageOrPrintOptions kullanarak Çalışma Sayfalarından Görüntüleri Çıkarma
 type: docs
 weight: 140
 url: /tr/net/extract-images-from-worksheets-using-imageorprintoptions/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel kullanıcıları elektronik tablolara resim ekleyebilir. Aspose.Cells ile Microsoft Excel dosyalarından görüntüleri okumak ve bunları yerel bir sürücüye kaydetmek mümkündür. Bu makale nasıl olduğunu gösterir.
+Microsoft Excel kullanıcıları resimleri çalışma sayfalarına ekleyebilirler. Aspose.Cells ile Microsoft Excel dosyalarından resimleri okuyup bunları yerel bir sürücüye kaydetmek mümkündür. Bu makalede bunun nasıl yapılacağı gösterilmektedir.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kod, görüntülerin bir Excel dosyasından nasıl çıkarılacağını ve kaydedileceğini gösterir.
+Aşağıdaki örnek kod, Excel dosyasından resimleri çıkarmayı ve kaydetmeyi gösterir.
 
 
 

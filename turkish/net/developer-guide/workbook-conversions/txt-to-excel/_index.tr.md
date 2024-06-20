@@ -1,33 +1,34 @@
-﻿---
-title: CSV, TSV ve TXT'i Excel'e dönüştürün
+---
+title: CSV, TSV ve Txt yi Excel e dönüştür
 type: docs
 weight: 30
 url: /tr/net/convert-csv-tsv-and-txt-to-excel/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells kullanarak CSV dosyasını Excel , OpenOffice, Pdf, Json ve birçok farklı formata dönüştürebilirsiniz.
+Aspose.Cells ile CSV dosyasını Excel'e dönüştürebilirsiniz, OpenOffice, Pdf, Json ve birçok farklı formata
 
 {{% /alert %}}
 
 
 ## **CSV Dosyalarını Açma**
 
-Virgülle Ayrılmış Değerler (CSV) dosyaları, değerlerin virgülle ayrıldığı kayıtları içerir. Veriler, her sütunun virgül karakteriyle ayrıldığı ve çift tırnak karakteriyle alıntılandığı bir tablo olarak saklanır. Bir alan değeri bir çift tırnak karakteri içeriyorsa, bir çift çift tırnak karakteri ile çıkış yapılır. Elektronik tablo verilerini CSV'e aktarmak için Microsoft Excel'i de kullanabilirsiniz.
+Virgülle Ayrılmış Değerler (CSV) dosyaları, değerlerin virgülle ayrıldığı kayıtları içerir. Veri, her sütunun virgül karakteriyle ayrıldığı ve çift tırnak karakteriyle alıntılanmış bir tablo olarak saklanır. Bir alan değeri çift tırnak karakteri içeriyorsa, çift tırnak karakteriyle kaçış yapılır. Elektronik tablo verilerini CSV'ye aktarmak için Microsoft Excel'i de kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFiles-1.cs" >}}
 
-## **CSV dosyalarının açılması ve geçersiz karakterlerin değiştirilmesi**
+## **CSV Dosyalarını Açma ve Geçersiz Karakterleri Değiştirme**
 
-Excel'de özel karakterler içeren CSV dosyası açıldığında karakterler otomatik olarak değiştirilir. Aynısı, aşağıda verilen kod örneğinde gösterilen Aspose.Cells API tarafından yapılır.
+Excel'de, özel karakter içeren CSV dosyası açıldığında karakterler otomatik olarak değiştirilir. Aynı işlem, kod örneğinde gösterildiği gibi Aspose.Cells API tarafından da yapılır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesAndReplacingInvalidCharacters-1.cs" >}}
 
-## **Tercih edilen ayrıştırıcıyı kullanma**
+## **Tercih Edilen Ayrıştırıcıyı Kullanma**
 
-Bu, CSV dosyalarını açmak için varsayılan ayrıştırıcı ayarlarını kullanmak için her zaman gerekli değildir. Bazen CSV dosyasının içe aktarılması beklenen çıktıyı oluşturmaz, örneğin tarih biçimi beklendiği gibi değildir veya boş alanlar farklı şekilde işlenir. Bu amaç için**TxtLoadOptions.PreferredParsers**gereksinime göre farklı veri türlerini ayrıştırmak için kendi tercih edilen ayrıştırıcıyı sağlamak için kullanılabilir. Aşağıdaki örnek kod, tercih edilen ayrıştırıcının kullanımını gösterir.
+CSV dosyalarını açarken varsayılan ayrıştırıcı ayarlarını kullanmak her zaman gerekli değildir. Bazı durumlarda CSV dosyasını içe aktarma, tarih formatının beklenildiği gibi olmaması veya boş alanların farklı şekilde işlenmesi gibi beklenen çıktıyı oluşturmaz. Bu amaçla **TxtLoadOptions.PreferredParsers** her veri türünü isteğe göre ayrıştırmak için mevcuttur. Aşağıdaki örnek kod, tercih edilen ayrıştırıcıyı kullanımını göstermektedir.  
 
-Bu özelliği test etmek için örnek kaynak dosya ve çıktı dosyaları aşağıdaki bağlantılardan indirilebilir.
+Bu özelliği test etmek için örnek kaynak dosya ve çıktı dosyalarını aşağıdaki bağlantılardan indirebilirsiniz.
 
 [samplePreferredParser.csv](samplePreferredParser.csv)
 
@@ -35,26 +36,26 @@ Bu özelliği test etmek için örnek kaynak dosya ve çıktı dosyaları aşağ
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesWithPreferredParser-1.cs" >}}
 
-### **Metin Dosyalarını Özel Ayırıcıyla Açma**
+### **Özel Ayraçlı Metin Dosyalarını Açma**
 
-Metin dosyaları, elektronik tablo verilerini biçimlendirmeden tutmak için kullanılır. Dosya, bazı özelleştirilmiş sınırlayıcılara sahip olabilen bir tür düz metin dosyasıdır.
+Metin dosyaları biçimlendirme olmadan elektronik tablo verilerini tutmak için kullanılır. Dosya, özelleştirilmiş ayraçlar içerebilen bir tür düz metin dosyasıdır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningTextFilewithCustomSeparator-1.cs" >}}
 
 ### **Sekmeyle Ayrılmış Dosyaları Açma**
 
-Sekmeyle ayrılmış (Metin) dosyası, elektronik tablo verilerini içerir, ancak herhangi bir biçimlendirme içermez. Veriler, tablolarda ve elektronik tablolarda olduğu gibi satırlar ve sütunlar halinde düzenlenir. Temel olarak, sekmeyle ayrılmış bir dosya, her sütun arasında bir sekme bulunan özel bir tür düz metin dosyasıdır.
+Sekmeyle Ayrılmış (Metin) dosyası biçimlendirme olmadan elektronik tablo verileri içerir. Veri, tablolar ve elektronik tablolar gibi satırlar ve sütunlar halinde düzenlenir. Temelde, sekmeyle ayrılmış dosya, her sütun arasında bir sekme olan bir tür düz metin dosyasıdır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningTabDelimitedFiles-1.cs" >}}
 
 ### **Sekmeyle Ayrılmış Değerler (TSV) Dosyalarını Açma**
 
-Sekmeyle ayrılmış değerler (TSV) dosyası, herhangi bir biçimlendirme olmadan elektronik tablo verileri içerir. Tablolarda ve elektronik tablolarda olduğu gibi verilerin satırlar ve sütunlar halinde düzenlendiği Sekmeyle Ayrılmış dosya ile aynıdır.
+Sekmeyle ayrılmış değerler (TSV) dosyası biçimlendirme olmadan elektronik tablo verileri içerir. Veri, tablolar ve elektronik tablolar gibi satırlar ve sütunlar halinde düzenlenir. Veri, tablo ve elektronik tablo gibi satırlar ve sütunlar halinde düzenlenir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningTSVFiles-1.cs" >}}
 
 
-## **ileri konular**
-- [CSV dosyasını Formüllerle Yükleyin veya İçe Aktarın](/cells/tr/net/load-or-import-csv-file-with-formulas/)
-- [Birden Fazla Kodlama İçeren CSV Dosyasını Okuma](/cells/tr/net/reading-csv-file-with-multiple-encodings/)
+## **Gelişmiş Konular**
+- [Formülleri Yükle veya İçe Aktar CSV Dosyası](/cells/tr/net/load-or-import-csv-file-with-formulas/)
+- [Çeşitli Kodlamalarla CSV Dosyası Okuma](/cells/tr/net/reading-csv-file-with-multiple-encodings/)
 

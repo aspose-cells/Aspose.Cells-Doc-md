@@ -1,15 +1,16 @@
-﻿---
-title: محرك حساب الصيغة Aspose.Cells
+---
+title: محرك حساب الصيغ في Aspose.Cells
 type: docs
 weight: 30
 url: /ar/net/formula-calculation-engine-in-aspose-cells/
 ---
-## **Aspose.Cells - محرك حساب الصيغة**
-تم تضمين محرك حساب الصيغة في Aspose.Cells. لا يمكنه فقط إعادة حساب الصيغة المستوردة من ملف جدول بيانات مصمم ولكنه يدعم أيضًا حساب نتائج الصيغ المضافة في وقت التشغيل.
+
+## **أسبوز.خلايا - محرك حساب الصيغ**
+يتم تضمين محرك حساب الصيغ في Aspose.Cells. يمكنه القيام ليس فقط بإعادة حساب الصيغة المستوردة من ملف ورقة بيانات المصمم ولكنه أيضًا يدعم حساب نتائج الصيغ الجديدة في وقت التشغيل.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -58,13 +59,13 @@ book.CalculateFormula();
 book.Save("AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**محرك حساب الصيغة** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **محرك حساب الصيغ** من أي من مواقع التشفير الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[محرك حساب الصيغة](/cells/ar/net/formula-calculation-engine/).
+لمزيد من التفاصيل، قم بزيارة [محرك حساب الصيغ](/cells/ar/net/formula-calculation-engine/).
 
 {{% /alert %}}

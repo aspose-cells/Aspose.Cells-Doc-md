@@ -1,26 +1,29 @@
-﻿---
-title: GridWeb ダブルクリック イベントの操作
+---
+title: GridWeb ダブルクリックイベントの動作
 type: docs
 weight: 80
-url: /ja/net/working-with-gridweb-double-click-events/
+url: /ja/net/aspose-cells-gridweb/gridweb-double-click-event/
+keywords: GridWeb,ダブルクリック,クリックイベント,イベント
+description: この記事では、GridWeb でのダブルクリックイベントの使用方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb には、次の 3 種類のダブルクリック イベントが含まれています。
+Aspose.Cells.GridWeb には、3種類のダブルクリックイベントが含まれています:
 
-- CellDoubleClick は、セルがダブルクリックされたときに発生します。
-- ColumnDoubleClick は、列ヘッダーがダブルクリックされたときに発生します。
-- RowDoubleClick、行ヘッダーがダブルクリックされたときに発生します。
+- CellDoubleClick: セルがダブルクリックされたときに発生します。
+- ColumnDoubleClick: 列ヘッダがダブルクリックされたときに発生します。
+- RowDoubleClick: 行ヘッダがダブルクリックされたときに発生します。
 
-このトピックでは、Aspose.Cells.GridWeb でダブルクリック イベントを有効にする方法について説明します。また、これらのイベントのイベント ハンドラーの作成についても説明します。
+このトピックでは、Aspose.Cells.GridWeb でのダブルクリックイベントの有効化と、これらのイベントのためのイベントハンドラの作成について説明します。
 
 {{% /alert %}} 
-## **ダブルクリック イベントの有効化**
-GridWeb コントロールの EnableDoubleClickEvent プロパティを true に設定することにより、すべてのタイプのダブルクリック イベントをクライアント側で有効にすることができます。
+## **ダブルクリックイベントの有効化**
+すべての種類のダブルクリックイベントをクライアント側で有効にするには、GridWeb コントロールの EnableDoubleClickEvent プロパティを true に設定します。
 
 {{% alert color="primary" %}} 
 
-デフォルトでは、EnableDoubleClickEvent プロパティは false に設定されています。これは、デフォルトではダブルクリック イベントが有効になっていないことを意味します。このようなイベントを実装するには、まず機能を有効にします。
+デフォルトでは、EnableDoubleClickEvent プロパティは false に設定されています。 これは、ダブルクリックイベントがデフォルトで有効になっていないことを意味します。 このようなイベントを実装するには、まずこの機能を有効にする必要があります。
 
 {{% /alert %}} 
 
@@ -28,27 +31,27 @@ GridWeb コントロールの EnableDoubleClickEvent プロパティを true に
 
 
 
-ダブルクリック イベントを有効にすると、任意のダブルクリック イベントのイベント ハンドラーを作成できます。これらのイベント ハンドラーは、特定のダブルクリック イベントが発生したときに特定のタスクを実行します。
-## **ダブルクリック イベントの処理**
-Visual Studio でイベント ハンドラーを作成するには:
+ダブルクリックイベントが有効になると、任意のダブルクリックイベントのためのイベントハンドラを作成できます。 これらのイベントハンドラは、特定のダブルクリックイベントが発生したときに特定のタスクを実行します。
+## **ダブルクリックイベントの処理**
+Visual Studio でイベントハンドラを作成するには:
 
-1. でイベントをダブルクリックします。**イベント**プロパティ ペインに一覧表示されます。
+1. プロパティペインの **イベント** リストでイベントをダブルクリックします。
 
-この例では、さまざまなダブルクリック イベントのイベント ハンドラーを実装しました。
-### **ダブルクリック Cell**
-CellDoubleClick イベントのイベント ハンドラーは、ダブルクリックされたセルの完全な情報を提供する CellEventArgs 型の引数を提供します。
+この例では、さまざまなダブルクリックイベントのためのイベントハンドラを実装しました。
+### **セルのダブルクリック**
+CellDoubleClick イベントのイベントハンドラは、CellEventArgs タイプの引数を提供します。 これにより、ダブルクリックされたセルの完全な情報が提供されます。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-HandleDoubleClickEvents.aspx-CellDoubleClickEvent.cs" >}}
-### **列ヘッダーをダブルクリック**
-ColumnDoubleClick イベントのイベント ハンドラーは、ダブルクリックされたヘッダーの列のインデックス番号とその他の情報を提供する RowColumnEventArgs 型の引数を提供します。
+### **列ヘッダのダブルクリック**
+ColumnDoubleClick イベントのイベントハンドラは、ColumnDoubleClick イベントのイベントハンドラは、RowColumnEventArgs タイプの引数を提供し、ダブルクリックされたヘッダの列のインデックス番号などの情報が提供されます。
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-HandleDoubleClickEvents.aspx-ColumnDoubleClickEvent.cs" >}}
-### **行ヘッダーをダブルクリック**
-RowDoubleClick イベントのイベント ハンドラーは、ダブルクリックされたヘッダーの行のインデックス番号とその他の関連情報を提供する RowColumnEventArgs 型の引数を提供します。
+### **行ヘッダのダブルクリック**
+RowDoubleClick イベントのイベントハンドラは、RowColumnEventArgs タイプの引数を提供し、ダブルクリックされたヘッダの行のインデックス番号などの情報が提供されます。
 
 
 

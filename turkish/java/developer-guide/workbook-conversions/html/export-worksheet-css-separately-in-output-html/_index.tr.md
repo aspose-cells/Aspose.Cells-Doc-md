@@ -1,27 +1,28 @@
-﻿---
-title: Çalışma Sayfası CSS'sini Çıktı HTML'de Ayrı Olarak Dışa Aktar
+---
+title: Çıktı HTML sindeki Sayfa CSS sini Ayrı Ayrı Dışa Aktarma
 type: docs
 weight: 80
 url: /tr/java/export-worksheet-css-separately-in-output-html/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells, Excel dosyanızı HTML'e dönüştürdüğünüzde çalışma sayfası CSS'sini ayrı olarak dışa aktarma özelliği sağlar. Lütfen bu amaçla HtmlSaveOptions.ExportWorksheetCSSSeparately özelliğini kullanın ve Excel dosyasını HTML biçiminde kaydederken bunu doğru olarak ayarlayın.
+Aspose.Cells, Excel dosyanızı HTML'e dönüştürürken çalışsayfa CSS'sini ayrıca dışa aktarma özelliği sağlar. Bu amaçla lütfen HtmlSaveOptions.ExportWorksheetCSSSeparately özelliğini kullanın ve Excel dosyasını HTML biçimine kaydederken bunu **true** olarak ayarlayın.
 
-## **Çalışma Sayfası CSS'sini Çıktı HTML'de Ayrı Olarak Dışa Aktar**
+## **Çıktı HTML'sindeki Sayfa CSS'sini Ayrı Ayrı Dışa Aktarma**
 
-Aşağıdaki örnek kod bir Excel dosyası oluşturur, B5 hücresine Kırmızı renkte bir miktar metin ekler ve ardından HtmlSaveOptions.ExportWorksheetCSSSeparately özelliğini kullanarak HTML biçiminde kaydeder. Lütfen bkz[çıkış HTML](60489780.zip)referans için kod tarafından oluşturulur. İçinde örnek kodun bir sonucu olarak stylesheet.css dosyasını bulacaksınız.
+Aşağıdaki örnek kod, bir Excel dosyası oluşturur, B5 hücresine Kırmızı renkte bazı metin ekler ve ardından HtmlSaveOptions.ExportWorksheetCSSSeparately özelliğini kullanarak HTML biçiminde kaydeder. Lütfen örnek kodun sonucu olarak [oluşturulan çıktı HTML](60489780.zip) dosyasında bunu referans için bulunabilir; içerisinde stylesheet.css bulacaksınız.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportWorksheetCSSSeparatelyInOutputHTML.java" >}}
 
-## **Tek sayfalık çalışma kitabını HTML'e aktar**
+## **Tek Çalışsayı İş Kitabını HTML'ye Dışa Aktarma**
 
-Birden çok sayfası olan bir çalışma kitabı Aspose.Cells kullanılarak HTML'e dönüştürüldüğünde, CSS ve birden çok HTML dosyası içeren bir klasörle birlikte bir HTML dosyası oluşturur. Bu HTML dosyası tarayıcıda açıldığında sekmeler görünür. Tek çalışma sayfalı bir çalışma kitabı HTML'e dönüştürüldüğünde aynı davranış gerekir. Daha önce tek sayfalık çalışma kitapları için ayrı bir klasör oluşturulmuyordu ve yalnızca HTML dosyası oluşturuluyordu. Böyle bir HTML dosyası, tarayıcıda açıldığında sekme göstermez. Excel, tek sayfalar için de uygun klasör ve HTML oluşturur ve dolayısıyla aynı davranış Aspose.Cells kullanılarak uygulanır. Aşağıdaki örnek kodda kullanmak için örnek dosya aşağıdaki bağlantıdan indirilebilir:
+Birkaç sayfalı bir çalışma kitabı, Aspose.Cells kullanılarak HTML'ye dönüştürüldüğünde, bir HTML dosyası ve CSS ve birden çok HTML dosyası içeren bir klasör oluşturur. Bu HTML dosyası tarayıcıda açıldığında sekmeler görünür. Tek çalışma sayfası olan bir çalışma kitabı HTML'ye dönüştürüldüğünde de aynı davranış gereklidir. Daha önce tek sayfalı çalışma kitapları için ayrı bir klasör oluşturulmuyordu ve yalnızca HTML dosyası oluşturuluyordu. Bu tür HTML dosyası tarayıcıda açıldığında sekme görüntülemezdi. Excel ayrıca tek sayfalar için doğru klasör ve HTML oluşturur ve bu nedenle aynı davranış, Aspose.Cells kullanılarak uygulanır. Örnek dosyayı aşağıdaki bağlantıdan indirebilir ve aşağıdaki örnek kod kullanılarak kullanmak için kullanabilirsiniz:
 
 [sampleSingleSheet.xlsx](79527948.xlsx)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-SetSingleSheetTabNameInHtml-1.java" >}}

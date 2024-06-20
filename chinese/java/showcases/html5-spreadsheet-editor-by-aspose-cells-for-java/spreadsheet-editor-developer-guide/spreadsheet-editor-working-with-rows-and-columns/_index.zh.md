@@ -1,5 +1,5 @@
 ---
-title: 电子表格编辑器-处理行和列
+title: 电子表格编辑器 处理行和列
 type: docs
 weight: 30
 url: /zh/java/spreadsheet-editor-working-with-rows-and-columns/

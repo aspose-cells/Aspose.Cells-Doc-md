@@ -1,19 +1,20 @@
-﻿---
-title: xlsx4jでピボットテーブルを作成する
+---
+title: xlsx4j でのピボットテーブルの作成
 type: docs
 weight: 20
 url: /ja/java/create-pivot-table-in-xlsx4j/
 ---
-## **Aspose.Cells - ピボット テーブルの作成**
-Aspose.Cells を使用してピボット テーブルを作成するには:
 
-1. Cell オブジェクトの PutValue/setValue メソッドを使用して、ワークシートのセルにデータを追加します。また、既にデータが入力されているテンプレート ファイルも使用します。データは、ピボット テーブルのデータ ソースとして使用されます。
-1. PivotTables コレクションの add メソッド (Worksheet オブジェクトにカプセル化されている) を呼び出して、ワークシートにピボット テーブルを追加します。
-1. インデックスを渡して、PivotTables コレクションから新しい PivotTable オブジェクトにアクセスします。 # PivotTable オブジェクトにカプセル化されたピボット テーブル オブジェクトのいずれかを使用して、テーブルを管理します。
+## **Aspose.Cells - ピボットテーブルの作成**
+Aspose.Cellsを使用してピボットテーブルを作成するには:
+
+1. Cell オブジェクトの PutValue/setValue メソッドを使用して、ワークシートのセルにデータを追加します。また、データがすでに入ったテンプレートファイルを使用します。このデータがピボットテーブルのデータソースとして使用されます。
+1. Worksheet オブジェクトにカプセル化された PivotTables コレクションの add メソッドを呼び出すことで、ワークシートにピボットテーブルを追加します。
+1. PivotTables コレクション内のインデックスを渡すことで、新しい PivotTable オブジェクトにアクセスします。# PivotTable オブジェクトにカプセル化されたピボットテーブルオブジェクトのいずれかを使用して、テーブルを管理します。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -157,13 +158,13 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/tables/createpivottable/AsposeCreatePivotTable.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ピボット テーブルとピボット チャートを作成する](/cells/ja/java/create-pivot-tables-and-pivot-charts).
+詳細については、[ピボットテーブルおよびピボットチャートの作成](/cells/ja/java/create-pivot-tables-and-pivot-charts) をご覧ください。
 
 {{% /alert %}}

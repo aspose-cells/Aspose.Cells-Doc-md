@@ -1,44 +1,39 @@
-﻿---
+---
 title: Gestión de imágenes
 type: docs
 weight: 10
 url: /es/java/managing-pictures/
 ---
-{{% alert color="primary" %}}
 
-Aspose.Cells permite a los desarrolladores agregar imágenes a hojas de cálculo en tiempo de ejecución. Además, el posicionamiento de estas imágenes se puede controlar en tiempo de ejecución, lo cual se analiza con más detalle en las próximas secciones.
+Aspose.Cells permite a los desarrolladores agregar imágenes a las hojas de cálculo en tiempo de ejecución. Además, la posición de estas imágenes se puede controlar en tiempo de ejecución, lo cual se discute con más detalle en las siguientes secciones.
 
-Aspose.Cells for Java solo admite formatos de imagen: BMP, JPEG, PNG, GIF.
+Este artículo explica cómo agregar imágenes e insertar una imagen que muestre el contenido de ciertas celdas.
 
-Los índices utilizados en los ejemplos comienzan desde 0.
+## **Añadir imágenes**
 
-{{% /alert %}}
+Agregar imágenes a una hoja de cálculo es muy fácil. Solo toma unas pocas líneas de código.
 
-## **Adición de imágenes**
+Simplemente llame al método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) de la colección [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) (encapsulada en el objeto [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)). El método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) toma los siguientes parámetros:
 
-Agregar imágenes a una hoja de cálculo es muy fácil. Solo se necesitan unas pocas líneas de código.
-
- Simplemente llame al[**agregar**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String) ) método de la[**Fotos**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) colección (encapsulada en el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) objeto). Él[**agregar**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) método toma los siguientes parámetros:
-
-- **Índice de la fila superior izquierda**, el índice de la fila superior izquierda.
-- **Índice de la columna superior izquierda**, el índice de la columna superior izquierda.
+- **Índice de fila superior izquierda**, el índice de la fila superior izquierda.
+- **Índice de columna superior izquierda**, el índice de la columna superior izquierda.
 - **Nombre del archivo de imagen**, el nombre del archivo de imagen, completo con la ruta.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-AddingPictures-1.java" >}}
 
-## **Posicionamiento de Imágenes**
+## **Posicionamiento de imágenes**
 
-Las imágenes se pueden colocar usando Aspose.Cells de la siguiente manera:
+Las imágenes se pueden posicionar usando Aspose.Cells de la siguiente manera:
 
 - [Posicionamiento absoluto](/cells/es/java/managing-pictures/#absolute-positioning).
 
 ### **Posicionamiento absoluto**
 
- Los desarrolladores pueden posicionar las imágenes absolutamente usando el[**establecerUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) y[**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) métodos de la[**Fotografía**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)objeto.
+Los desarrolladores pueden posicionar las imágenes de forma absoluta utilizando los métodos [**setUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) y [**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) del objeto [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-PositioningPictures-AbsolutePositioning-1.java" >}}
 
 ## **Temas avanzados**
 - [Insertar una imagen vinculada desde una dirección web](/cells/es/java/insert-a-linked-picture-from-web-address/)
-- [Insertar una imagen basada en la referencia Cell](/cells/es/java/insert-a-picture-based-on-cell-reference/)
+- [Insertar una imagen basada en una referencia de celda](/cells/es/java/insert-a-picture-based-on-cell-reference/)
 - [Insertar imagen web desde una URL en una hoja de cálculo de Excel](/cells/es/java/insert-web-image-from-a-url-into-an-excel-worksheet/)

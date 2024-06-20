@@ -1,16 +1,17 @@
-﻿---
-title: 名前付き範囲の作成
+---
+title: 名前付き範囲を作成する
 type: docs
 weight: 70
 url: /ja/net/creating-a-named-range/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET を使用すると、開発者は、ユーザーがアプリケーションを介して Microsoft Excel で実行できるほとんどのタスクを実行できます。この記事では、名前付き範囲をプログラムで適用する方法について説明します。
+Aspose.Cells for .NETを使用すると、開発者はアプリケーションを通じてMicrosoft Excelでユーザーが行うことのほとんどを実行することができます。この記事では、名前付き範囲をプログラムで適用する方法について説明します。
 
-名前付き範囲は、Excel スプレッドシートのセルまたはセル範囲に名前を割り当てることができる Excel の機能です。その後、数式で名前を使用して、セル (または範囲) を参照できます。範囲に適切な名前を付けると、数式が理解しやすくなります。
+名前付き範囲は、Excelのスプレッドシートでセルや範囲に名前を割り当てる機能です。これにより、数式でセル（または範囲）を参照するためにその名前を使用できます。分かりやすい名前付き範囲を使用すると、数式が理解しやすくなります。
 
-名前付き範囲はそのスコープ内で一意である必要があるため、ワークシート内の複数の範囲に同じ名前を使用しないでください。わかりやすい範囲名は、これを回避するのに役立ちます。たとえば、OrderSubTotal は SubTotal よりも説明的であり、シート上で重複する可能性も低くなります。
+名前付き範囲はそのスコープ内で一意である必要がありますので、ワークシート内で複数の範囲に同じ名前を使わないでください。説明的な範囲名を使用することでこれを避けることができます。例えば、OrderSubTotalはSubTotalよりも記述的であり、またシート上で重複する可能性が低くなります。
 
 {{% /alert %}}
 
@@ -18,22 +19,22 @@ Aspose.Cells for .NET を使用すると、開発者は、ユーザーがアプ�
 
 名前付き範囲を作成するには:
 
-1. ワークシートを設定します。
- 1. Application オブジェクトをインスタンス化します。
- (VSTO のみ。)
- 1. ワークブックを追加します。
- 1. 最初のシートを取得します。
-1. 名前付き範囲を作成します。
- 1. 範囲を定義します。
- 1. 範囲に名前を付けます。
+1. ワークシートを設定します:
+   1. アプリケーションオブジェクトをインスタンス化します。
+      （VSTOの場合に限る。）
+   1. ワークブックを追加する
+   1. 最初のシートを取得する
+1. 名前付き範囲を作成する:
+   1. 範囲を定義する
+   1. 範囲に名前を付ける
 1. ファイルを保存します。
 
-以下のコード例は、これらの手順を使用して実行する方法を示しています。[VSTO](/cells/ja/net/creating-a-named-range/) C# または Visual Basic で。以下のコード例は、[Aspose.Cells for .NET](/cells/ja/net/creating-a-named-range/)、再び C# または Visual Basic を使用します。
-### **VSTO で名前付き範囲を作成する**
+以下のコード例は、[VSTO](/cells/ja/net/creating-a-named-range/)を使用してこれらの手順を実行する方法をC#またはVisual Basicで示しています。次に、同じことを[C#またはVisual Basic](/cells/ja/net/creating-a-named-range/)を使用して[Aspose.Cells for .NET](/cells/ja/net/creating-a-named-range/)で行う方法を示すコード例が続きます。
+### **VSTOを使用した名前付き範囲の作成**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -93,36 +94,36 @@ xl.Quit();
 
 {{< /highlight >}}
 
-### **Aspose.Cells for .NET で名前付き範囲を作成する**
+### **Aspose.Cells for .NETを使用した名前付き範囲の作成**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-Aspose.Cells を使用。
+using Aspose.Cells;
 
 .......
 
 
-// Workbook オブジェクトのインスタンス化
+//Instantiating a Workbook object
 
-ワークブック ワークブック = 新しいワークブック();
+Workbook workbook = new Workbook();
 
-//Excel ファイルの最初のワークシートにアクセスする
+//Accessing the first worksheet in the Excel file
 
-ワークシート worksheet = workbook.Worksheets[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-// 名前付き範囲の作成
+//Creating a named range
 
-範囲 range = worksheet.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//名前付き範囲の名前を設定
+//Setting the name of the named range
 
 range.Name = "Test_Range";
 
- for (int 行 = 0; 行< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 

@@ -1,16 +1,17 @@
-﻿---
-title: Mostrar u ocultar líneas de cuadrícula en Php
+---
+title: Mostrar u Ocultar Rejillas en Php
 type: docs
 weight: 10
 url: /es/java/display-or-hide-gridlines-in-php/
 ---
+
 ## **Aspose.Cells - Mostrar u ocultar líneas de cuadrícula**
 ### **Ocultar líneas de cuadrícula**
- Para ocultar la hoja de trabajo usando**Aspose.Cells Java for PHP** , llamada**mostrar ocultar líneas de cuadrícula** módulo.
+Para ocultar la hoja de trabajo usando **Aspose.Cells Java para PHP**, llame al módulo **displayhidegridlines**.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ $workbook->save($dataDir . "output.xls");
 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Mostrar u ocultar líneas de cuadrícula (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Mostrar u ocultar líneas de cuadrícula (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideGridlines.php)

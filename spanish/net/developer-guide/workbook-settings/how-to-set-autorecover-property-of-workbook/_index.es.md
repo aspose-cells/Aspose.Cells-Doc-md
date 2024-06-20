@@ -1,28 +1,29 @@
-﻿---
-title: Cómo configurar la propiedad Autorrecuperación de Workbook
+---
+title: Cómo establecer la propiedad AutoRecover del Libro de trabajo
 type: docs
 weight: 220
 url: /es/net/how-to-set-autorecover-property-of-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Puede usar Aspose.Cells para establecer la propiedad Autorrecuperación del libro de trabajo. El valor predeterminado de esta propiedad es**verdadero** . cuando lo configuras**falso** en un libro de trabajo, Microsoft Excel deshabilita la Autorrecuperación (Autoguardado) en ese archivo de Excel.
+Puedes utilizar Aspose.Cells para establecer la propiedad AutoRecover del libro de trabajo. El valor predeterminado de esta propiedad es **verdadero**. Cuando la estableces en **falso** en un libro de trabajo, Microsoft Excel deshabilita la recuperación automática (guardado automático) en ese archivo de Excel.
 
- Aspose.Cells proporciona[**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) propiedad para habilitar o deshabilitar esta opción.
+Aspose.Cells proporciona la propiedad [**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) para activar o desactivar esta opción.
 
 {{% /alert %}}
 
- El siguiente código explica cómo usar[**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) propiedad del libro de trabajo. El código primero lee el valor predeterminado de esta propiedad que es**verdadero** , entonces lo establece como**falso** y guarda el libro de trabajo. Luego lee el libro de trabajo nuevamente y lee el valor de esta propiedad que es**falso** en este momento.
+El siguiente código explica cómo usar la propiedad [**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) del libro de trabajo. El código primero lee el valor predeterminado de esta propiedad, que es **verdadero**, luego lo establece en **falso** y guarda el libro. Luego lee nuevamente el libro y lee el valor de esta propiedad, que es **falso** en este momento.
 
-## C# código para establecer la propiedad Autorrecuperación de Workbook
+## Código C# para establecer la propiedad AutoRecover del Libro de Trabajo
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-SetAutoRecovery-SetAutoRecovery.cs" >}}
 
-## **Producción**
+## **Salida**
 
-Aquí está la salida de la consola del código de muestra anterior.
+Aquí está la salida en consola del código de muestra anterior.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 AutoRecover: True
 

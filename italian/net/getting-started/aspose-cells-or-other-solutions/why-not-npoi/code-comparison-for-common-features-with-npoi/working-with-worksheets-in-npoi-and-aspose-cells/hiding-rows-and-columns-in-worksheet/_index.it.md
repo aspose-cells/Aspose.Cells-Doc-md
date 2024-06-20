@@ -1,13 +1,14 @@
-﻿---
-title: Nascondere righe e colonne nel foglio di lavoro
+---
+title: Nascondi righe e colonne nel foglio di lavoro
 type: docs
 weight: 60
 url: /it/net/hiding-rows-and-columns-in-worksheet/
 ---
-## **Aspose.Cells - Nascondere righe e colonne nel foglio di lavoro**
+
+## **Aspose.Cells - Nascondi righe e colonne nel foglio di lavoro**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook();
 
@@ -34,10 +35,10 @@ worksheet.Cells.HideColumn(0);
 workbook.Save("Output-HideRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Nascondere righe e colonne nel foglio di lavoro**
+## **NPOI - HSSF XSSF - Nascondi righe e colonne nel foglio di lavoro**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -64,12 +65,12 @@ file.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Nascondere righe e colonne nel foglio di lavoro** formare uno dei siti di social coding sotto indicati:
+Scarica **Nascondi righe e colonne nel foglio di lavoro** da uno dei siti di social coding menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Hiding.Rows.and.Columns.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Hiding.Rows.and.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Lavorare con i fogli di lavoro](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Per ulteriori dettagli, visita [Working with Worksheets](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

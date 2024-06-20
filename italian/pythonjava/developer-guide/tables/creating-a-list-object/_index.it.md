@@ -1,50 +1,51 @@
-﻿---
-title: Creazione di un oggetto elenco
+---
+title: Creazione di un oggetto lista
 type: docs
 weight: 20
 url: /it/python-java/creating-a-list-object/
 ---
-L'uso dei fogli di lavoro rende facile lavorare con diversi tipi di elenchi, ad esempio. elenchi telefonici, elenchi di attività. ecc. Aspose.Cells supporta la creazione e la gestione di elenchi.
+
+L'uso dei fogli di lavoro rende facile lavorare con diversi tipi di elenchi, ad esempio elenchi telefonici, elenchi delle attività, ecc. Aspose.Cells supporta la creazione e la gestione degli elenchi.
 
 ## **Vantaggi di un oggetto elenco**
 
-Ci sono alcuni vantaggi quando si converte un elenco di dati in un vero oggetto elenco:
+Ci sono diversi vantaggi quando si converte un elenco di dati in un vero oggetto lista:
 
-- Nuove righe e colonne vengono incluse automaticamente.
-- È possibile aggiungere facilmente una riga totale in fondo all'elenco per visualizzare SUM, AVERAGE, COUNT, ecc.
-- Le colonne aggiunte a destra vengono incorporate automaticamente nell'oggetto List.
+- Nuove righe e colonne vengono automaticamente incluse.
+- Una riga di totale in fondo al tuo elenco può essere facilmente aggiunta per visualizzare SOMMA, MEDIA, CONTEGGIO, ecc.
+- Le colonne aggiunte a destra vengono automaticamente incorporate nell'oggetto Elenco.
 - I grafici basati su righe e colonne verranno espansi automaticamente.
-- Gli intervalli denominati assegnati a righe e colonne verranno espansi automaticamente.
-- L'elenco è protetto dall'eliminazione accidentale di righe e colonne.
+- I nomi definiti assegnati a righe e colonne verranno espansi automaticamente.
+- L'elenco è protetto dalla cancellazione accidentale di righe e colonne.
 
 ## **Creazione di un oggetto elenco utilizzando Microsoft Excel**
 
-**Selezione dell'intervallo di dati per la creazione di un oggetto elenco** 
+**Selezione dell'intervallo di dati per la creazione di un oggetto lista** 
 
-![cose da fare:immagine_alt_testo](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-Viene visualizzata la finestra di dialogo Crea elenco.
+Questo visualizza il dialogo Crea elenco.
 
-**Finestra di dialogo Crea elenco** 
+**Dialogo Crea elenco** 
 
-![cose da fare:immagine_alt_testo](picture2.png)
+![todo:image_alt_text](picture2.png)
 
-Implementando l'oggetto List e specificando Total Row (Select**Dati**, poi**Elenco**seguito da**Riga totale**).
+Implementazione dell'oggetto Lista e specifica Riga totale (Seleziona **Dati**, quindi **Elenco**, seguito da **Riga totale**).
 
-**Creazione di un oggetto Elenco** 
+**Creazione di un oggetto Lista** 
 
-![cose da fare:immagine_alt_testo](picture3.png)
+![todo:image_alt_text](picture3.png)
 
-## **Creazione di un oggetto elenco utilizzando Aspose.Cells API**
+## **Creazione di un oggetto Lista utilizzando l'API Aspose.Cells**
 
-Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/python/asposecells.api/Workbook)la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel.
+Aspose.Cells fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), che rappresenta un file Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook) contiene una raccolta [**Worksheets**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) che consente di accedere a ciascun foglio di calcolo in un file Excel.
 
-Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)fornisce un'ampia gamma di proprietà e metodi per la gestione di un foglio di lavoro. Per creare un[**ElencoOggetto**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)in un foglio di lavoro, usa[**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)proprietà della collezione del[**Foglio di lavoro**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)classe. A testa[**ElencoOggetto**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)è, infatti, un oggetto del[**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)classe, che fornisce inoltre il[**Inserisci**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) per aggiungere un oggetto List e specificare un intervallo di celle per l'elenco.
+Un foglio di calcolo è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) fornisce una vasta gamma di proprietà e metodi per la gestione di un foglio di calcolo. Per creare un [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) in un foglio di calcolo, utilizzare la proprietà di raccolta di [**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects) della classe [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet). Ogni [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) è, infatti, un oggetto della classe [**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection), che fornisce ulteriormente il metodo [**add**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) per aggiungere un oggetto Lista e specificare un intervallo di celle per l'elenco.
 
-In base all'intervallo di celle specificato, l'oggetto List viene creato nel foglio di lavoro da Aspose.Cells. Utilizzare gli attributi (ad esempio, ShowTotals, ListColumns e così via) del[**ElencoOggetto**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)class per controllare l'elenco.
+In base all'intervallo specificato delle celle, l'oggetto Elenco viene creato nel foglio di calcolo da Aspose.Cells. Utilizzare gli attributi (ad esempio, Mostra totali, Colonnes dell'elenco, ecc.) della classe [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) per controllare l'elenco.
 
-Nell'esempio fornito di seguito, abbiamo creato lo stesso[**ElencoOggetto**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)utilizzando Aspose.Cells for Python via Java API come abbiamo creato utilizzando Microsoft Excel nella sezione precedente.
+Nell'esempio riportato di seguito, abbiamo creato lo stesso [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) utilizzando Aspose.Cells per l'API Python via Java come abbiamo creato utilizzando Microsoft Excel nella sezione precedente.
 
-## Codice sorgente
+## Codice Sorgente
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Tables-CreatingListObject.py" >}}

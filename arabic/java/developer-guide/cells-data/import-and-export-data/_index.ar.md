@@ -1,106 +1,107 @@
-﻿---
+---
 title: استيراد وتصدير البيانات
 type: docs
 weight: 130
 url: /ar/java/import-and-export-data/
 ---
+
 {{% alert color="primary" %}}
 
-تتناول هذه المقالة بعض تقنيات استيراد وتصدير البيانات التي يمكن للمطورين الوصول إليها من خلال Aspose.Cells.
+يناقش هذا المقال بعض تقنيات استيراد البيانات وتصديرها التي يمتلك المطورون الوصول إليها من خلال Aspose.Cells.
 
 {{% /alert %}}
 
 ## استيراد البيانات إلى ورقة العمل
 
-البيانات تمثل العالم كما هو. لفهم البيانات ، نقوم بتحليلها وفهم العالم. تتحول البيانات إلى معلومات.
+تمثل البيانات العالم كما هي. لفهم البيانات، نقوم بتحليلها وكسب فهم للعالم. تتحول البيانات إلى معلومات.
 
-هناك العديد من الطرق لإجراء التحليل: يعد وضع البيانات في جداول البيانات ومعالجتها بطرق مختلفة إحدى الطرق الشائعة. مع Aspose.Cells ، من السهل إنشاء جداول بيانات تأخذ البيانات من مجموعة من المصادر الخارجية وتجهزها للتحليل.
+هناك العديد من الطرق لإجراء التحليل: وضع البيانات في جداول البيانات وتلاعب بها بطرق مختلفة هي طريقة شائعة. مع Aspose.Cells، من السهل إنشاء جداول بيانات تأخذ البيانات من مجموعة متنوعة من المصادر الخارجية وتعدّها للتحليل.
 
-تتناول هذه المقالة بعض تقنيات استيراد البيانات التي يمكن للمطورين الوصول إليها من خلال Aspose.Cells.
+يناقش هذا المقال بعض تقنيات استيراد البيانات التي يحصل عليها المطورون من خلال Aspose.Cells.
 
 ### استيراد البيانات باستخدام Aspose.Cells
 
-عند فتح ملف Excel باستخدام Aspose.Cells ، يتم استيراد كافة البيانات الموجودة في الملف تلقائيًا. يمكن Aspose.Cells أيضًا استيراد البيانات من مصادر البيانات الأخرى:
+عند فتح ملف Excel باستخدام Aspose.Cells، يتم استيراد جميع البيانات في الملف تلقائياً. يمكن أيضاً لـ Aspose.Cells استيراد البيانات من مصادر بيانات أخرى:
 
-- [مجموعة مصفوفة](/cells/ar/java/import-and-export-data/).
-- [قائمة الصفيف](/cells/ar/java/import-and-export-data/).
+- [مصفوفة](/cells/ar/java/import-and-export-data/).
+- [قائمة الصفائف](/cells/ar/java/import-and-export-data/).
 - [مجموعة النتائج](/cells/ar/java/import-and-export-data/).
 - [JSON](/cells/ar/java/import-and-export-data/)
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على المجموعة[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) مما يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة توفر أ[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) مجموعة.[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)يوفر التجميع طرقًا مفيدة للغاية لاستيراد البيانات من مصادر البيانات الأخرى. تشرح هذه المقالة كيف يمكن استخدام هذه الطرق.
+توفر Aspose.Cells فئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) التي تمثل ملف Excel من مايكروسوفت. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) على مجموعة [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) التي تسمح بالوصول إلى كل صفحة عمل في ملف Excel. يتم تمثيل صفحة العمل بواسطة الفئة [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). توفر مجموعة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) طرقا مفيدة جدا لاستيراد البيانات من مصادر بيانات أخرى. يشرح هذا المقال كيفية استخدام هذه الطرق.
 
-#### الاستيراد من Array
+#### الاستيراد من صفيف
 
- لاستيراد البيانات إلى جدول بيانات من مصفوفة ، قم باستدعاء طريقة importArray الخاصة بامتداد[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)مجموعة. هناك العديد من الإصدارات المحملة بشكل زائد من طريقة importArray ولكن الحمل الزائد النموذجي يأخذ المعلمات التالية:
+لتوريد البيانات إلى جدول بيانات من صفيف، ادعوا طريقة importArray في مجموعة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). هناك العديد من الإصدارات المحملة ضعفيا لطريقة importArray ولكن الإصدار النموذجي يأخذ المعلمات التالية:
 
-- **مجموعة مصفوفة**، كائن المصفوفة الذي تقوم باستيراد المحتوى منه.
-- **رقم الصف**، رقم صف الخلية الأولى التي سيتم استيراد البيانات إليها.
-- **رقم العمود**، رقم عمود الخلية الأولى التي سيتم استيراد البيانات إليها.
-- **عمودي**، قيمة منطقية تحدد ما إذا كان سيتم استيراد البيانات رأسيًا أو أفقيًا.
+- مصفوفة، الكائن مصفوفة الذي تقوم باستيراد المحتوى منه.
+- رقم الصف، رقم الصف الذي سيتم استيراد البيانات إليه.
+- رقم العمود، رقم العمود الذي سيتم استيراد البيانات إليه.
+- هَلْ رأسيّ، قيمة بولية تحدد ما إذا كنت ستقوم استيراد البيانات عموديًا أو أفقيًا.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArray-ImportingFromArray.java" >}}
 
-#### الاستيراد من المصفوفات متعددة الأبعاد
+#### الاستيراد من صفائف متعددة الأبعاد
 
- لاستيراد البيانات إلى جدول بيانات من مصفوفات متعددة الأبعاد ، قم باستدعاء importArray ذي الصلة الزائد من ملف[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)مجموعة:
+لتوريد البيانات إلى جدول بيانات من صفائف متعددة الأبعاد، ادعوا طريقة importArray المحملة ضعفيا ذات الصلة في مجموعة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells):
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromMultiDimensionalArray-ImportingFromMultiDimensionalArray.java" >}}
 
 #### الاستيراد من ArrayList
 
- لاستيراد البيانات من ملف*ArrayList* لأوراق العمل ، اتصل بـ[**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean) ) طريقة ال[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) مجموعة. ال[**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) تأخذ الطريقة المعلمات التالية:
+لإدخال البيانات من *ArrayList* إلى أوراق العمل ، يتم استدعاء الأسلوب [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) في مجموعة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). يستغرق الأسلوب [**ImportArrayList**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean)) التالية المعلمات التالية:
 
-- **ArrayList** ، ال*ArrayList*الكائن الذي سيتم استيراد محتوياته.
-- **رقم الصف**، رقم صف الخلية الأولى في نطاق الخلايا الذي سيتم استيراد المحتويات منه.
-- **رقم العمود**، رقم عمود الخلية الأولى التي سيتم استيراد البيانات منها.
-- **عمودي**، هي قيمة منطقية تحدد ما إذا كان سيتم استيراد البيانات عموديًا أو أفقيًا.
+- **الجمعية**, *ArrayList* الذي سيتم توريد محتوياته.
+- **رقم الصف**, رقم الصف الأول لنطاق الخلية من الذي سيتم توريد المحتويات.
+- **رقم العمود**, رقم العمود الأول من الذي سيتم توريد البيانات.
+- **هل هو عمودي**, قيمة بوليانية تحدد ما إذا كان من المناسب توريد البيانات عموديًا أم أفقيًا.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
 
-#### الاستيراد من كائنات مخصصة إلى منطقة مدمجة
+#### الاستيراد من الكائنات المخصصة إلى منطقة مدمجة
 
-لاستيراد بيانات من مجموعة كائنات إلى ورقة عمل تحتوي على خلايا مدمجة ، استخدم[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells)خاصية. إذا كان قالب Excel يحتوي على خلايا مدمجة ، فقم بتعيين قيمة[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells)الملكية على صواب. مرر ال[**خيارات ImportTable**](https://reference.aspose.com/cells/java/com.aspose.cells/ImportTableOptions)كائن مع قائمة الأعمدة / الخصائص لطريقة عرض قائمة الكائنات التي تريدها. يوضح نموذج التعليمات البرمجية التالي استخدام[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells)لاستيراد البيانات من الكائنات المخصصة إلى الخلايا المدمجة. يرجى الاطلاع على المرفق[مصدر Excel](90112035.xlsx)ملف و[الإخراج إكسل](90112036.xlsx)ملف كمرجع.
+لتوريد البيانات من مجموعة من الكائنات إلى صفحة عمل تحتوي على خلايا مدمجة، استخدم خاصية [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells). إذا كان لديك القالب الخاص بإكسل به خلايا مدمجة، ضبط قيمة الخاصية [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells) على صحيح. قم بتمرير كائن [**ImportTableOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImportTableOptions) مع قائمة الأعمدة/الخصائص إلى الطريقة لعرض القائمة المطلوبة من الكائنات الخاصة بك. يُظهر الكود البرمجي التالي استخدام الخاصية [**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#CheckMergedCells) لتوريد البيانات من الكائنات المخصصة إلى الخلايا المدمجة. يُرجى الاطلاع على الملف الإكسل المرفق [المصدر](90112035.xlsx) والملف [إكسل الناتج](90112036.xlsx) للإحالة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
 
 #### استيراد البيانات من JSON
 
- يوفر Aspose.Cells أ[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) فئة المعالجة JSON.[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) الصف لديه[**بيانات الاستيراد**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) طريقة استيراد بيانات JSON. يوفر Aspose.Cells أيضًا أ[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)فئة تمثل خيارات تخطيط JSON. ال[**بيانات الاستيراد**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) طريقة تقبل[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) كمعامل. ال[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) فئة توفر الخصائص التالية.
+توفر Aspose.Cells فئة [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) لمعالجة JSON. تحتوي فئة [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) على طريقة [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) لاستيراد البيانات ال JSON. كما توفر Aspose.Cells فئة [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) التي تمثل خيارات تخطيط JSON. الطريقة [**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions)) تقبل [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) كمعلمة. توفر الفئة [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) الخصائص التالية.
 
-- [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): يجب معالجة الإشارات في المصفوفة كجدول أم لا.
-- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): الحصول على أو تحديد قيمة تشير إلى ما إذا كان سيتم تحويل السلسلة في JSON إلى رقم أو تاريخ.
-- [**صيغة التاريخ**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#DateFormat): الحصول على تنسيق قيمة التاريخ وتعيينه.
-- [**IgnoreArrayTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle): يشير إلى ما إذا كان سيتم تجاهل العنوان إذا كانت خاصية الكائن عبارة عن مصفوفة
-- [**تجاهل**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreNull): يشير إلى ما إذا كان يجب تجاهل القيمة الخالية أم لا.
-- [**IgnoreObjectTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreObjectTitle): يشير إلى ما إذا كان سيتم تجاهل العنوان إذا كانت خاصية الكائن هي كائن.
-- [**رقم**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#NumberFormat): الحصول على تنسيق القيمة الرقمية وتعيينه.
-- [**العنوان**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#TitleStyle): الحصول على نمط العنوان وتحديده.
+- [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): يشير ما إذا كان يجب معالجة الصف في مصفوفة كجدول أم لا.
+- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): يحصل أو يعين قيمة تشير إلى ما إذا كان يجب تحويل السلسلة في JSON إلى رقم أو تاريخ أم لا.
+- [**DateFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#DateFormat): يحصل ويضبط تنسيق قيمة التاريخ.
+- [**IgnoreArrayTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle): يدل ما إذا كان يتجاهل العنوان في حال كان خصائص الكائن هي مصفوفة.
+- [**IgnoreNull**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreNull): يشير ما إذا كان يجب تجاهل قيمة الـ Null أم لا.
+- [**IgnoreObjectTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreObjectTitle): يشير ما إذا كان يجب تجاهل العنوان في حال كانت خصائص الكائن هي كائن.
+- [**NumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#NumberFormat): يحصل ويضبط تنسيق القيمة الرقمية.
+- [**TitleStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#TitleStyle): يحصل ويضبط نمط العنوان.
 
- يوضح نموذج التعليمة البرمجية أدناه استخدام ملحق[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) و[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) فئات لاستيراد JSON البيانات.
+يلضح الكود النموذجي المعطى أدناه استخدام فئتي [**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) و [**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) لاستيراد بيانات JSON.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportingFromJson-1.java" >}}
 
-## تصدير البيانات من ورقة العمل
+## تصدير بيانات من ورق العمل
 
-لا يتيح Aspose.Cells لمستخدميه استيراد البيانات إلى أوراق العمل من مصادر البيانات الخارجية فحسب ، بل يسمح لهم أيضًا بتصدير بيانات ورقة العمل إلى مصفوفة.
+تتيح Aspose.Cells لمستخدميها ليس فقط استيراد البيانات إلى أوراق العمل من مصادر بيانات خارجية ولكنها تسمح أيضًا لهم بتصدير بيانات ورق العمل إلى مصفوفة.
 
-### تصدير البيانات باستخدام Aspose.Cells - تصدير البيانات إلى المصفوفة
+### تصدير البيانات باستخدام Aspose.Cells - تصدير البيانات إلى مصفوفة
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة توفر أ[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) مجموعة.
+توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)، التي تمثل ملف Microsoft Excel. تحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) على [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) يسمح بالوصول إلى كل ورق عمل في ملف Excel. يُمثل ورق العمل بواسطة الفئة [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
 
- يمكن بسهولة تصدير البيانات إلى كائن Array باستخدام امتداد[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) صف دراسي'[**تصدير**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) طريقة.
+يمكن تصدير البيانات بسهولة إلى كائن مصفوفة باستخدام طريقة [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) لـ فئة [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells).
 
-#### الأعمدة التي تحتوي على بيانات مكتوبة بقوة
+#### الأعمدة الحاوية على بيانات مكتوبة بنوعية محددة
 
- تخزن جداول البيانات البيانات كتسلسل من الصفوف والأعمدة. استخدم ال[**تصدير**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int) ) لتصدير البيانات من ورقة عمل إلى مصفوفة.[**تصدير**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int) ) يأخذ المعلمات التالية لتصدير بيانات ورقة العمل كملف*مجموعة مصفوفة* موضوع:
+تخزن جداول البيانات بيانات كسلسلة من الصفوف والأعمدة. استخدم الطريقة [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) لتصدير البيانات من ورقة عمل إلى مصفوفة. يأخذ [**exportArray**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#exportArray(int,%20int,%20int,%20int)) المعلمات التالية لتصدير بيانات ورقة العمل ككائن *مصفوفة*:
 
-- رقم الصف ، رقم صف الخلية الأولى التي سيتم تصدير البيانات منها.
-- رقم العمود ، رقم العمود للخلية الأولى التي سيتم تصدير البيانات منها
-- عدد الصفوف ، عدد الصفوف المراد تصديرها.
-- عدد الأعمدة ، عدد الأعمدة المراد تصديرها.
+- رقم الصف، رقم الصف الأول الذي سيتم تصدير البيانات منه.
+- رقم العمود، رقم العمود الأول حيث سيتم تصدير البيانات منه.
+- عدد الصفوف، عدد الصفوف المراد تصديرها.
+- عدد الأعمدة، عدد الأعمدة المراد تصديرها.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ExportingDataFromWorksheets-1.java" >}}
 
-## **موضوعات مسبقة**
-- [استيراد البيانات من Microsoft Access Database ResultSet Object إلى ورقة العمل](/cells/ar/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
-- [حدد حقول الصيغة أثناء استيراد البيانات إلى ورقة العمل](/cells/ar/java/specify-formula-fields-while-importing-data-to-worksheet/)
+## **مواضيع متقدمة**
+- [استيراد البيانات من كائن نتائج قاعدة بيانات Microsoft Access إلى ورقة العمل](/cells/ar/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
+- [تحديد حقول الصيغة أثناء استيراد البيانات إلى الورقة العمل](/cells/ar/java/specify-formula-fields-while-importing-data-to-worksheet/)

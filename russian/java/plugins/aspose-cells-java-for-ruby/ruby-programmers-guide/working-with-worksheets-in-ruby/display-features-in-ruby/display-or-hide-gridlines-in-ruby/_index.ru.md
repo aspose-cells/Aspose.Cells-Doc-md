@@ -1,16 +1,17 @@
-﻿---
+---
 title: Отображение или скрытие линий сетки в Ruby
 type: docs
 weight: 10
 url: /ru/java/display-or-hide-gridlines-in-ruby/
 ---
-## **Aspose.Cells — Показать или скрыть линии сетки**
+
+## **Aspose.Cells - Отображение или скрытие линий сетки**
 ### **Скрытие линий сетки**
- Чтобы скрыть рабочий лист, используя**Aspose.Cells Java для рубина** , вызов**displayhidegridlines** модуль.
+Чтобы скрыть лист с помощью **Aspose.Cells Java для Ruby**, вызовите модуль **displayhidegridlines**.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -37,19 +38,19 @@ workbook.save(data_dir + "output.xls")
 puts "Gridlines are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Делаем линии сетки видимыми**
-Чтобы сделать линии сетки видимыми, используйте метод setGridlinesVisible(true) класса Worksheet.
+### **Отображение линий сетки**
+Чтобы сделать видимыми сетки, используйте метод setGridlinesVisible(true) класса Worksheet.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the gridlines of the worksheet
 
 worksheet.setGridlinesVisible(true)
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Показать или скрыть линии сетки (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Показать или скрыть сетку (Aspose.Cells)** с любого из нижеприведенных социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)

@@ -1,22 +1,23 @@
-﻿---
-title: Använda och konfigurera CRM Update Import Tool
+---
+title: Användning och konfigurering av CRM uppdateringsimportverktyg
 type: docs
 weight: 20
 url: /sv/net/using-and-configuring-crm-update-import-tool/
 ---
-Nedan följer skärmdumpstegen vi måste följa för att använda verktyget:
+
+Nedan är stegskärmsbilder som vi behöver följa för att använda verktyget:
 
 ![todo:image_alt_text](using-and-configuring-crm-update-import-tool_1)
 
--  För att skapa en anslutning med CRM, klicka på Logga in på CRM och lägg till din CRM-organisationsinformation
+- För att skapa en anslutning till CRM, klicka på Logga in på CRM och lägg till din organisationsinformation för CRM 
 
 ![todo:image_alt_text](using-and-configuring-crm-update-import-tool_2)
 
--  När anslutningen är upprättad, välj Entitet och välj listan med önskade attribut.
+- När anslutningen har etablerats, välj Entitet och välj önskade attributlista. 
 
 ![todo:image_alt_text](using-and-configuring-crm-update-import-tool_3)
 
-- **Få från CRM:** Klicka här för att visa data från CRM i Grid
-- **Exportera till Excel:** Klicka här för att exportera data från CRM till Excel-fil genom att tillhandahålla filen.
-- **Hämta från Excel:** Klicka här och välj en källfil för Excel, så visas data från Excel-filen i rutnätet.
-- **Exportera till CRM:** Klicka här och välj en Excel-källfil så importerar den data från Excel tillbaka i CRM i den valda enheten. (Kom ihåg att kolumnnamnen i Excel-filen ska matcha schemanamnet i CRM)
+- **Hämta från CRM:** Klicka här för att visa data från CRM i rutan
+- **Exportera till Excel:** Klicka här för att exportera data från CRM till Excelfil genom att ange filen.
+- **Hämta från Excel:** Klicka här och välj en käll-Excelfil, och den kommer att visa data från Excelfilen i rutan.
+- **Exportera till CRM:** Klicka här och välj en käll-Excelfil, och den kommer att importera datan från Excel tillbaka till CRM i den valda Entiteten. (Notera att kolumnnamnen i Excelfilen ska matcha schemanamnet i CRM)

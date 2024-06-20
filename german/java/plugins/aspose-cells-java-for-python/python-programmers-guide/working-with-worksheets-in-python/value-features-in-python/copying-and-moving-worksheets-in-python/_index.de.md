@@ -1,16 +1,17 @@
-﻿---
-title: Kopieren und Verschieben von Arbeitsblättern in Python
+---
+title: Arbeitsblätter in Python kopieren und verschieben
 type: docs
 weight: 10
 url: /de/java/copying-and-moving-worksheets-in-python/
 ---
-## **Aspose.Cells – Kopieren und Verschieben von Arbeitsblättern**
+
+## **Aspose.Cells - Kopieren und Verschieben von Arbeitsblättern**
 ### **Arbeitsblätter innerhalb einer Arbeitsmappe kopieren**
- Arbeitsblatt kopieren mit**Aspose.Cells for Java in Rubin** , Anruf**copy_worksheet** Methode von**Arbeitsblätter kopieren** Modul. Unten sehen Sie ein Codebeispiel.
+Um ein Arbeitsblatt mit **Aspose.Cells for Java in Ruby** zu kopieren, rufen Sie die Methode **copy_worksheet** des Moduls **copyworksheets** auf. Im Folgenden finden Sie ein Codebeispiel.
 
-**Python Code**
+**Python-Code**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def copy_worksheet(self):  
 
@@ -62,7 +63,7 @@ workbook.save(self.dataDir + "Move_Worksheet.xls")
 print "Move worksheet, please check the output file."
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Arbeitsblätter kopieren und verschieben (Aspose.Cells)** von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Kopieren und Verschieben von Arbeitsblättern (Aspose.Cells)** von einer der unten genannten sozialen Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

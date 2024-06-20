@@ -1,29 +1,30 @@
-﻿---
-title: محرر جداول البيانات - العمل مع الملفات
+---
+title: محرر الجداول  العمل مع الملفات
 type: docs
 weight: 10
 url: /ar/java/spreadsheet-editor-working-with-files/
 ---
-**جدول المحتويات**
+
+جدول المحتويات
 
 - [الملفات المدعومة](#SpreadsheetEditor-WorkingwithFiles-SupportedFiles)
-- [افتح الملفات المحلية](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
-- [افتح من Dropbox](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
-- [افتح من URL](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
- - LoaderService.fromUrl
- - LoaderService.buildCellsCache
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
-- [قم بإنشاء جدول بيانات جديد](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
- - LoaderService.fromBlank
- - buildCellsCache
- - buildColumnWidthCache
- - buildRowHeightCache
+- [فتح ملفات محلية](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
+- [فتح من Dropbox](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
+- [فتح من عنوان URL](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
+  - LoaderService.fromUrl
+  - LoaderService.buildCellsCache
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
+- [إنشاء جدول بيانات جديد](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
+  - LoaderService.fromBlank
+  - buildCellsCache
+  - buildColumnWidthCache
+  - buildRowHeightCache
 - [تصدير إلى تنسيقات مختلفة](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
 ### **الملفات المدعومة**
-يمكن لـ HTML5 Spreadsheet Editor فتح الملفات بالتنسيقات التالية:
+يمكن لمحرر جدول البيانات HTML5 فتح الملفات بالتنسيقات التالية:
 
 - Excel 1997-2003 XLS
 - Excel 2007-2013 XLSX
@@ -33,42 +34,42 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 - SpreadsheetML
 - CVS
 - OpenDocument
-### **افتح الملفات المحلية**
-لتحميل ملف من جهاز كمبيوتر محلي:
+### **فتح ملفات محلية**
+لتحميل ملف من جهاز الكمبيوتر المحلي:
 
-1.  التبديل إلى**تبويب الملف** على القمة.
-1.  انقر**افتح من الكمبيوتر** لفتح مربع الحوار "استعراض".
-1. انتقل إلى موقع الملف المطلوب.
-1. انقر فوق الملف المطلوب لتحديده.
-1.  انقر**فتح**.
+1. التبديل إلى **علامة الملف** في الأعلى.
+1. انقر فوق **فتح من الكمبيوتر** لفتح حوار التصفح.
+1. انتقل إلى المكان المرغوب فيه للملف.
+1. انقر على الملف المطلوب لتحديده.
+1. انقر فوق **فتح**.
 
 سيتم فتح الملف في المحرر.
 
-![ما يجب القيام به: image_بديل_نص](bwyl3xi.png)
+![todo:image_alt_text](bwyl3xi.png)
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
 **تحميل الملف**
 
- يقوم المستخدم بتحديد ملف من جهاز كمبيوتر محلي يتم تحميله من متصفح الويب إلى الخادم واستلامه بواسطة[ملف PrimeFaces](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) عنصر.
+يختار المستخدم ملفًا من جهاز الكمبيوتر المحلي والذي يتم تحميله من متصفح الويب إلى الخادم ويتم استقباله بواسطة [عنصر PrimeFaces fileUpload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <p:fileUpload fileUploadListener="#\{workbook.onFileUpload\}" update=":ribbon :intro :sheet" />
 
 {{< /highlight >}}
 
-**إدارة المصنف**
+**إدارة الورقة العمل**
 
- بمجرد تحميل الملف بالكامل ، تدخل طريقة WorkbookService.onFileUpload للتعامل مع الموقف. تتلقى WorkbookService الأحداث من مستعرض الويب وتتابع حالة المصنف بالكامل. WorkbookService.onFileUpload تمرير عنصر التحكم إلى LoaderService لتحميل المصنف في الذاكرة. مثل***تحميل الملف*** يوفر المكون الملف الذي تم تحميله كملف[تيار الإدخال](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html)، تقوم LoaderService بتحميله باستخدام طريقة LoaderService.fromInputStream.
-
-
+بمجرد إكتمال تحميل الملف تمامًا، تقوم طريقة WorkbookService.onFileUpload بالدخول في التأثير للتعامل مع الوضع. يستقبل WorkbookService الأحداث من متصفح الويب ويتتبع حالة الورقة العمل بأكملها. تقوم طريقة WorkbookService.onFileUpload بتمرير التحكم إلى LoaderService لتحميل الورقة العمل في الذاكرة. نظرًا لأن عنصر fileUpload يوفر الملف المحمل كـ [InputStream](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html)، يقوم LoaderService بتحميله باستخدام طريقة LoaderService.fromInputStream.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
  public void onFileUpload(FileUploadEvent e) {
 
@@ -86,7 +87,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 **التحميل والتفريغ**
 
- طريقة***LoaderService.fromInputStream*** يقرأ***تيار الإدخال*** مقدمة من fileUpload***عنصر*** إنشاء مثيل***com.aspose.cells.Workbook***صف دراسي. يتم الاحتفاظ بهذا المثيل في الذاكرة طالما استمر المستخدم في عرض جدول البيانات أو تحريره في متصفح الويب. عندما يترك المستخدم المحرر أو يغلق المتصفح ، يتم إلغاء تحميل المثيلات غير المستخدمة تلقائيًا من الذاكرة للحفاظ على الخادم نظيفًا.
+تقوم الطريقة ***LoaderService.fromInputStream*** بقراءة ***InputStream*** المقدم من عنصر fileUpload ***component*** وإنشاء مثال من فئة ***com.aspose.cells.Workbook***. يُحتفظ بهذا المثال في الذاكرة طالما يُحتفظ المستخدم بعرض أو تحرير جدول البيانات في متصفح الويب. عندما يغادر المستخدم المحرر أو يُغلق المتصفح، يتم تفريغ النسخ غير المستخدمة تلقائيًا من الذاكرة للحفاظ على نظافة الخادم.
 
 
 
@@ -94,7 +95,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public String fromInputStream(InputStream s, String name) {
 
@@ -134,7 +135,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 **التخزين المؤقت**
 
-التخزين المؤقت مهم جدًا لمحرر جداول بيانات HTML5. يجعل كل شيء يعمل بسلاسة. تحتفظ CellsService بصفوف وأعمدة وخلايا وخصائص ذاكرة التخزين المؤقت لجميع المصنفات التي تم تحميلها بواسطة المحرر. عندما يقوم LoaderService بتحميل جدول بيانات بالكامل ، فإنه يقرأه من أعلى إلى أسفل ويملأ ذاكرة التخزين المؤقت عن طريق استدعاء LoaderService.buildCellsCache، LoaderService.buildColumnWidthCache، LoaderService.buildRowHeightCache
+التخزين المؤقت مهم جدًا لمحرر جدول البيانات HTML5. يجعل كل شيء يعمل بسلاسة. يحتفظ CellsService بتخزين صفوف، أعمدة، خلايا وخصائص جميع أوراق العمل المحملة عن طريق المحرر. عندما يحمل LoaderService جدول بيانات بالكامل، يقرأه من الأعلى إلى الأسفل ويملأ التخزين المؤقت عن طريق استدعاء طرق LoaderService.buildCellsCache, LoaderService.buildColumnWidthCache, LoaderService.buildRowHeightCache
 
 
 
@@ -142,7 +143,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -210,7 +211,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -236,7 +237,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -263,46 +264,46 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 
-### **افتح من Dropbox**
+### **فتح من Dropbox**
 لفتح الملفات من Dropbox:
 
-1.  التبديل إلى**تبويب الملف** على القمة.
-1.  انقر**افتح من Dropbox** لفتح منتقي ملف Dropbox.
-1. إذا لم تكن قد سجلت الدخول بالفعل ، فسيتطلب منك تسجيل الدخول إلى حساب Dropbox الخاص بك.
-1. انتقل إلى الملف المطلوب وانقر لتحديده.
-1.  انقر**أختر** في الأسفل.
+1. التبديل إلى **علامة الملف** في الأعلى.
+1. انقر على **فتح من Dropbox** لفتح مُمْتَزِؚل Dropbox.
+1. إذا لم تكن قد قمت بتسجيل الدخول بالفعل، سيتطلب منك تسجيل الدخول إلى حساب Dropbox الخاص بك.
+1. قم بالانتقال إلى الملف المرغوب وانقر لتحديده.
+1. انقر على **اختيار** في الأسفل.
 
-سيتم فتح الملف الذي اخترته من Dropbox.
+سيتم فتح الملف المحدد من Dropbox.
 
-![ما يجب القيام به: image_بديل_نص](1e2sfo0.png)
+![todo:image_alt_text](1e2sfo0.png)
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
- ال**افتح من Dropbox** يستخدم زر**منتقي جافا سكريبت دروب بوكس API** لفتح مربع حوار منتقي Dropbox. يوفر المنتقي عنوان URL للملف المحدد ، والذي يتم التقاطه بواسطة وظيفة رد الاتصال وإرساله مرة أخرى إلى الخادم. يقوم الخادم بإنشاء مثيل لجدول بيانات من عنوان URL ، وتهيئة بعض عناصر التدبير المنزلي ، وإرسال تحديثات DOM مرة أخرى إلى المتصفح. يقوم المستعرض بعرض وتحديث HTML ويكون المستخدم جاهزًا لتحرير المستند الذي تم تحميله.
-### **افتح من URL**
- يمكن فتح الملفات مباشرة من عناوين المواقع. هذا يسمح للمستخدم بتحرير أي ملف متاح للجمهور على الإنترنت. لفتح ملف الإلحاق**؟ url = الموقع** المعلمة مع القيمة التي تريدها**موقعك** أثناء تحميل المحرر. على سبيل المثال:
+يستخدم زر **الفتح من Dropbox** واجهة برمجة التطبيقات الخاصة بـ **Dropbox Chooser** لفتح حوار اختيار Dropbox. يوفر الفاعل URL للملف المحدد، الذي يتم التقاطه بواسطة وظيفة الرد وإرسالها إلى الخادم. ينشئ الخادم مثيلًا من الجدول الخلايا من URL، ويبدأ في بعض الأمور الروتينية، ويعيد تحديث دوم إلى المتصفح. يقوم المتصفح بإظهار وتحديث HTML ويصبح المستخدم جاهزًا لتحرير المستند المحمل.
+### **فتح من عنوان URL**
+يمكن فتح الملفات مباشرة من عناوين الويب. يتيح هذا للمستخدم تحرير أي ملف متوفر للعامة على الإنترنت. لفتح الملف، أضف المعلم **?url=الموقع** مع قيمة **الموقع** المرغوبة الخاصة بك أثناء تحميل المحرر. على سبيل المثال:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  http://editor.aspose.com/?url=http://example.com/Sample.xlsx
 
 {{< /highlight >}}
 
-![ما يجب القيام به: image_بديل_نص](exc9ckp.png)
+![todo:image_alt_text](exc9ckp.png)
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
-**إنشاء مثيل أثناء بدء التشغيل**
+**التثبيت خلال بدء التشغيل**
 
- متي**WorksheetView** يتم إنشاء مثيل فول الواجهة الخلفية بواسطة JSF the**PostConstruct** طريقة**فيه** يسمى الذي يقوم بتحميل جدول البيانات باستخدام LoaderService.fromUrl.
+عندما يتم إنشاء كائن **WorksheetView** من خلال خرج جافاسكريبت للواجهة الأمامية، يتم استدعاء الطريقة **PostConstruct** **init** التي تحمل الجدول باستخدام LoaderService.fromUrl.
 
 **التخزين المؤقت**
 
- يحدث التخزين المؤقت مباشرة بعد تحميل جدول البيانات. ال**خدمة لودر** المكالمات**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** و**LoaderService.buildRowHeightCache** واحدًا تلو الآخر لتخزين محتوى جدول البيانات مؤقتًا والحفاظ على سرعة وسلاسة جميع العمليات.
+يحدث التخزين المؤقت مباشرة بعد تحميل جدول البيانات. يقوم **LoaderService** بدعوة **LoaderService.buildCellsCache**، **LoaderService.buildColumnWidthCache**، و **LoaderService.buildRowHeightCache** بشكل تتابع لتخزين محتوى جدول البيانات والاحتفاظ بكل العمليات سريعة وسلسة.
 
 **تحديثات DOM**
 
-عندما يكون جدول البيانات جاهزًا على جانب الخادم ، يتم استخدام مكونات JSF لإنشاء HTML جديد وإرسال تحديثات DOM إلى المستخدم والتي يتم تقديمها بواسطة متصفح الويب.
+بمجرد أن يكون جدول البيانات جاهزًا من الناحية الخادم، يتم استخدام مكونات JSF لإنشاء HTML جديد وإرسال تحديثات DOM إلى المستخدم التي يتم عرضها من قبل متصفح الويب.
 
 
 
@@ -310,7 +311,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      @PostConstruct
 
@@ -342,7 +343,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.fromUrl**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromUrl(String url) {
 
@@ -378,7 +379,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -446,7 +447,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -472,7 +473,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -499,29 +500,29 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 
-### **قم بإنشاء جدول بيانات جديد**
-لإنشاء جدول بيانات فارغ جديد:
+### **إنشاء جدول بيانات جديد**
+لإنشاء جدول بيانات جديد فارغ:
 
-1.  التبديل إلى**تبويب الملف**.
-1.  انقر على**جديد** زر.
+1. التبديل إلى **علامة الملف**.
+1. انقر فوق زر **جديد**.
 
-سيغلق المحرر جدول البيانات المفتوح ، إن وجد ، وسيفتح جدولًا جديدًا.
+سيتم إغلاق المحرر لجدول البيانات المفتوح، إن وجد، وسيتم فتح واحد جديد.
 
-![ما يجب القيام به: image_بديل_نص](lnydmmf.png)
+![todo:image_alt_text](lnydmmf.png)
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
-**إنشاء كائن جديد**
+**قم بإنشاء كائن جديد**
 
- عندما**جديد** تم النقر فوق الزر من قبل المستخدم ،**WorksheetView.loadBlank** ، والذي يستدعي في النهاية**LoaderService.fromBlank**. يقوم LoaderService بإنشاء مثيل جديد لجدول بيانات فارغ.
+عندما ينقر المستخدم على زر **جديد**، سيتم استدعاء **WorksheetView.loadBlank**، الذي في النهاية يدعو **LoaderService.fromBlank**. يقوم LoaderService بإنشاء نسخة جديدة من جدول البيانات الفارغ.
 
 **التخزين المؤقت**
 
- يحدث التخزين المؤقت مباشرة بعد تحميل جدول البيانات. ال**خدمة لودر** المكالمات**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** و**LoaderService.buildRowHeightCache** واحدًا تلو الآخر لتخزين محتوى جدول البيانات مؤقتًا والحفاظ على سرعة وسلاسة جميع العمليات.
+يحدث التخزين المؤقت مباشرة بعد تحميل جدول البيانات. يقوم **LoaderService** بدعوة **LoaderService.buildCellsCache**، **LoaderService.buildColumnWidthCache**، و **LoaderService.buildRowHeightCache** بشكل تتابع لتخزين محتوى جدول البيانات والاحتفاظ بكل العمليات سريعة وسلسة.
 
 **تحديثات DOM**
 
-عندما يكون جدول البيانات جاهزًا على جانب الخادم ، يتم استخدام مكونات JSF لإنشاء HTML جديد وإرسال تحديثات DOM إلى المستخدم والتي يتم تقديمها بواسطة متصفح الويب.
+بمجرد أن يكون جدول البيانات جاهزًا من الناحية الخادم، يتم استخدام مكونات JSF لإنشاء HTML جديد وإرسال تحديثات DOM إلى المستخدم التي يتم عرضها من قبل متصفح الويب.
 
 
 
@@ -529,7 +530,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void loadBlank() {
 
@@ -543,7 +544,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 #### **LoaderService.fromBlank**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromBlank() {
 
@@ -569,7 +570,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 #### **buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -637,7 +638,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 #### **buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -663,7 +664,7 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 #### **buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -691,13 +692,13 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 
 
 ### **تصدير إلى تنسيقات مختلفة**
-بعد تحرير الملفات ، سيرغب المستخدم في حفظ التغييرات. يسمح المحرر للمستخدم بتصدير وتنزيل جدول البيانات المعدل إلى الكمبيوتر المحلي. لتصدير الملف:
+بعد تحرير الملفات، سيود المستخدم حفظ التغييرات. يسمح المحرر للمستخدم بتصدير وتنزيل جدول البيانات المعدل إلى جهاز الكمبيوتر المحلي. لتصدير الملف:
 
-1.  التبديل إلى**تبويب الملف** على القمة.
-1.  انقر**يصدّر** كزر.
-1. اختر التنسيق الذي تريده من القائمة المنسدلة.
+1. التبديل إلى **علامة الملف** في الأعلى.
+1. انقر على زر **تصدير**.
+1. اختر التنسيق المطلوب من القائمة المنسدلة.
 
-سيتم تصدير الملف المعدل للتحميل. التنسيقات التالية مدعومة للتصدير:
+سيتم تصدير الملف المعدل للتنزيل. يتم دعم الصيغ التالية للتصدير:
 
 - Excel 2007-2013 XLSX
 - Excel 1997-2003 XLS
@@ -706,20 +707,20 @@ url: /ar/java/spreadsheet-editor-working-with-files/
 - Excel XLTX
 - Excel XLTM
 - SpreadsheetML
-- تنسيق المستندات المحمولة (PDF)
-- جدول بيانات OpenDocument (ODS)
+- ملف تنسيق محمول (PDF)
+- جدول بيانات مفتوح (ODS)
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
- يتم تحويل جدول البيانات المفتوح إلى تنسيق محدد بواسطة المستخدم**WorksheetView.getOutputFile**.
-
-
+يتم تحويل جدول البيانات المفتوح إلى الشكل المحدد من قبل المستخدم باستخدام **WorksheetView.getOutputFile**.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public StreamedContent getOutputFile(int saveFormat) {
 

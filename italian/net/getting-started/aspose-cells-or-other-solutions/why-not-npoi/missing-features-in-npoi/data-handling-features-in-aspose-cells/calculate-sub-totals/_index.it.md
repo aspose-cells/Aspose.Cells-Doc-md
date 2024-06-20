@@ -1,15 +1,16 @@
-﻿---
-title: Calcola sub totali
+---
+title: Calcolare i subtotali
 type: docs
 weight: 10
 url: /it/net/calculate-sub-totals/
 ---
-## **Aspose.Cells - Calcola sub totali**
-Puoi creare automaticamente subtotali per qualsiasi valore ripetuto in un foglio di calcolo. Aspose.Cells fornisce API funzionalità che consentono di aggiungere subtotali ai fogli di calcolo in modo programmatico.
+
+## **Aspose.Cells - Calcolare i subtotali**
+Puoi creare automaticamente subtotale per qualsiasi valore ripetuto in un foglio di calcolo. Aspose.Cells fornisce funzionalità API che ti aiutano ad aggiungere subtotali ai fogli di calcolo in modo programmato.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -35,7 +36,7 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[]{ 1 });
+cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
 
 //Save the excel file
 
@@ -43,12 +44,12 @@ workbook.Save("AsposeTotal.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Calcola sub totali** formare uno dei siti di social coding sotto indicati:
+Scarica **Calcolare i subtotali** da uno dei siti di codice sociale di seguito menzionati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Creazione di subtotali](/cells/it/net/creating-subtotals/).
+Per ulteriori dettagli, visita [Creating Subtotals](/cells/it/net/creating-subtotals/).
 
 {{% /alert %}}

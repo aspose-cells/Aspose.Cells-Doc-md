@@ -1,24 +1,25 @@
-﻿---
-title: Appliquer des effets d'exposant et d'indice sur les polices
+---
+title: Appliquer des effets de exposant et d indice sur les polices
 type: docs
 weight: 30
 url: /fr/java/apply-superscript-and-subscript-effects-on-fonts/
-description: Comment appliquer un effet d'exposant et d'indice au texte dans Excel avec Java. Cet article fournit le code Java pour y parvenir avec l'utilisation de Aspose.Cells for Java API.
-keywords: excel superscript java, excel subscript java, excel superscript and subscript java, insert subscript and superscript in excel java, add subscript and superscript in excel java, add superscript and subscript excel java, add superscript excel java, add subscript excel java
+description: Comment appliquer l effet exposant et l effet indice au texte dans Excel avec Java. Cet article fournit le code Java pour y parvenir avec l utilisation de l API Aspose.Cells for Java.
+keywords: exposant excel java, indice excel java, exposant et indice excel java, insérer un indice et un exposant dans excel java, ajouter un indice et un exposant dans excel java, ajouter un exposant et un indice dans excel java, ajouter un exposant excel java, ajouter un indice excel java
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells fournit la fonctionnalité permettant d'appliquer des effets d'exposant (texte au-dessus de la ligne de base) et d'indice (texte en dessous de la ligne de base) au texte.
+Aspose.Cells offre la fonctionnalité d'appliquer les effets d'exposant (texte au-dessus de la ligne de base) et d'indice (texte en dessous de la ligne de base) au texte.
 
 {{% /alert %}}
 
-## **Travailler avec l'exposant et l'indice**
+## **Travailler avec l'effet d'exposant et d'indice**
 
- Appliquez l'effet exposant à l'aide de la[**Police de caractère**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[**setExposant**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) la propriété. Pour appliquer l'indice, utilisez le[**Police de caractère**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[**setIndice**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)méthode.
+Appliquez l'effet exposant à l'aide de la propriété [**setSuperscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) de l'objet [**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font). Pour appliquer l'indice, utilisez la méthode [**setSubscript**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript) de l'objet [**Font**](https://reference.aspose.com/cells/java/com.aspose.cells/Font).
 
-Les exemples de code suivants montrent comment appliquer un exposant et un indice au texte.
+Les exemples de code suivants montrent comment appliquer l'exposant et l'indice au texte.
 
-### **Appliquer un exposant**
+### **Application de l'exposant**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingSuperscript-ApplyingSuperscript.java" >}}
 

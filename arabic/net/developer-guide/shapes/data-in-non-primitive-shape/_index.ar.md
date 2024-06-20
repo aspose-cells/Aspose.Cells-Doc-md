@@ -1,21 +1,22 @@
-﻿---
-title: البيانات في شكل غير بدائي
+---
+title: البيانات في شكل غير الذي يتميز ببساطة
 type: docs
 weight: 300
 url: /ar/net/data-in-non-primitive-shape/
 ---
-## **الوصول إلى البيانات ذات الشكل غير البدائي**
 
-في بعض الأحيان ، تحتاج إلى الوصول إلى البيانات من شكل غير مضمن. تسمى الأشكال المضمنة الأشكال البدائية ؛ تلك التي لا تسمى غير بدائية. على سبيل المثال ، يمكنك تحديد الأشكال الخاصة بك باستخدام خطوط مختلفة متصلة منحنى.
+## **الوصول إلى بيانات الشكل غير الذي يتميز ببساطة**
 
-## **شكل غير بدائي**
+في بعض الأحيان، تحتاج إلى الوصول إلى البيانات من شكل ليس مدمجًا. يطلق على الأشكال المدمجة ، الأشكال الأساسية ، ويطلق على الأشكال التي ليست كذلك ، الأشكال غير الأساسية. على سبيل المثال، يمكنك تحديد أشكالك الخاصة باستخدام خطوط متصلة مختلفة.
 
-في Aspose.Cells ، يتم تخصيص النوع للأشكال غير البدائية[**نوع تلقائي. ليس بدائي**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . يمكنك التحقق من نوعها باستخدام ملف[**الشكل. نوع تلقائي**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)خاصية.
+## **الشكل غير الأساسي**
 
- قم بالوصول إلى بيانات الشكل باستخدام ملف[**الشكل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)خاصية. تقوم بإرجاع جميع المسارات المتصلة التي تشكل الشكل غير البدائي. هذه المسارات من النوع[**ShapePath**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)يحتوي على قائمة بجميع الأجزاء التي تحتوي بدورها على النقاط في كل جزء.
+في Aspose.Cells، يتم تعيين الأشكال غير الأساسية نوع [**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype). يمكنك التحقق من نوعها باستخدام الخاصية [**Shape.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype).
 
-|**يعرض مثالاً لشكل غير بدائي**|
-|:- |
-|![ما يجب القيام به: image_بديل_نص](data-in-non-primitive-shape_1.jpg)|
+الوصول إلى بيانات الشكل باستخدام الخاصية [**Shape.Paths**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths). تُعيد جميع المسارات المتصلة التي تشكل الشكل غير الأساسي. هذه المسارات تكون من نوع [**ShapePath**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath) التي تحمل قائمة بجميع القطاعات التي بدورها تحتوي على النقاط في كل قطاع.
+
+|**يظهر مثالًا على شكل غير أساسي**|
+| :- |
+|![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-AccessNonPrimitiveShape-1.cs" >}}

@@ -1,44 +1,46 @@
-﻿---
+---
 title: Filtrer les objets lors du chargement du classeur dans GridDesktop
 type: docs
 weight: 1060
 url: /fr/net/aspose-cells-griddesktop/loading-filter
-description: Cet article décrit comment utiliser le filtre de chargement pour la bibliothèque Aspose.Cells.GridDesktop.
+description: Cet article décrit comment utiliser le filtre de chargement dans GridDesktop.
+keywords: GridDesktop,loading,loading filter,filter
 ---
-## **Scénarios d'utilisation possibles**
- Veuillez utiliser[GridDesktop.LoadDataFilterGridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)propriété lors du filtrage des données du classeur.
 
- Le[GridLoadDataFilterOptionsGridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)énumération a les valeurs suivantes.
-- Tout
-- Paramètres du livre
-- CelluleVide
-- CellBool
-- CellData
-- CellErreur
-- CellNumérique
-- CellString
-- ValeurCellule
-- Graphique
-- Mise en forme conditionnelle
-- La validation des données
-- NomsDéfinis
+## **Scénarios d'utilisation possibles**
+Veuillez utiliser la propriété [GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter) lors du filtrage des données du classeur.
+
+L'énumération [GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions) a les valeurs suivantes.
+- Tous
+- Paramètres du classeur
+- Cellule vide
+- Cellule booléenne
+- Données de la cellule
+- Erreur de la cellule
+- Numérique de la cellule
+- Chaîne de la cellule
+- Valeur de la cellule
+- Chart
+- Formatage conditionnel
+- Validation des données
+- Noms définis
 - Propriétés du document
 - Formule
-- Hyperliens
-- Zone fusionnée
+- Liens hypertexte
+- Zone de fusion
 - Tableau croisé dynamique
-- Réglages
-- Façonner
-- SheetData
-- SheetSettings
+- Paramètres
+- Forme
+- Données de feuille
+- Paramètres de feuille
 - Structure
 - Style
-- Table
+- Tableau
 - VBA
 - XmlMap
 ## **Filtrer les données lors du chargement du classeur**
- L'exemple de code suivant montre comment filtrer le dessin à partir du classeur. S'il vous plaît, vérifiez le[exemple de fichier excel](5472489.xlsx) . Comme vous pouvez le voir, tous les graphiques/formes/images ont été filtrés du classeur.
+Le code d'exemple suivant illustre comment filtrer le dessin du classeur. Veuillez vérifier le [fichier Excel d'exemple](5472489.xlsx). Comme vous pouvez le voir, tous les graphiques/formes/images ont été filtrés hors du classeur.
 ![classeur sans image](nodrawing.png)
-### **Exemple de code**
+### **Code d'exemple**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "LoadingFilter.cs" >}}
- 
+

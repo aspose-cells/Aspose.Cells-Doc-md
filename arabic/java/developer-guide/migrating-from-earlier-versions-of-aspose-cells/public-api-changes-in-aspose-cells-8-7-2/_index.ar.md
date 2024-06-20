@@ -1,31 +1,32 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.7.2
+---
+title: التغييرات العامة في واجهة برمجة التطبيقات في Aspose.Cells 8.7.2
 type: docs
 weight: 260
 url: /ar/java/public-api-changes-in-aspose-cells-8-7-2/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.7.1 إلى 8.7.2 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات في Aspose.Cells من الإصدار 8.7.1 إلى الإصدار 8.7.2 والتي قد تكون مثيرة لاهتمام مطوري الوحدات / التطبيقات. إنه يتضمن ليس فقط الأساليب العامة الجديدة والمحدثة، والصفوف المضافة والمزالة وما إلى ذلك، ولكن أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **تمديد محرك الحساب الافتراضي**
-تتميز واجهات برمجة التطبيقات Aspose.Cells بمحرك حساب قوي يمكنه حساب جميع وظائف Excel Microsoft تقريبًا. علاوة على ذلك ، تسمح واجهات برمجة التطبيقات Aspose.Cells الآن بتوسيع محرك الحساب الافتراضي لتلبية متطلبات الحساب المخصصة لأي تطبيق.
+## **واجهات برمجة التطبيقات الجديدة**
+### **تم توسيع محرك الحساب الافتراضي**
+الواجهات البرمجية في Aspose.Cells لديها محرك حساب قوي يمكنه حساب ما يقرب من جميع وظائف Microsoft Excel. علاوة على ذلك، تسمح واجهات برمجة التطبيقات في Aspose.Cells الآن بتوسيع محرك الحساب الافتراضي لتلبية متطلبات الحساب المخصصة لأي تطبيق.
 
-تمت إضافة واجهات برمجة التطبيقات التالية بإصدار Aspose.Cells for Java 8.7.2.
+تمت إضافة الواجهات البرمجية التالية مع إصدار Aspose.Cells for Java 8.7.2.
 
-1. الملخصالحساب فئة المحرك
-1. فئة بيانات الحساب
-1. CalculationOptions.CustomEngine Property
+1. فئة AbstractCalculationEngine
+1. فئة CalculationData
+1. خاصية CalculationOptions.CustomEngine
 
 {{% alert color="primary" %}} 
 
-تسمح واجهات برمجة التطبيقات المذكورة أعلاه بتنفيذ محرك حساب مخصص لجميع الوظائف (بما في ذلك وظائف Excel الأصلية) بمزيد من المرونة.
+الواجهات البرمجية المذكورة أعلاه تسمح بتنفيذ محرك الحساب المخصص لجميع الوظائف (بما في ذلك الوظائف الأصلية في Excel) بمزيد من المرونة.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة التفصيلية على[تنفيذ محرك الحساب المخصص](/cells/ar/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+للحصول على مزيد من التفاصيل حول هذه الميزة، يرجى مراجعة المقال المفصل على [تنفيذ محرك الحساب المخصص](/cells/ar/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}} 
 
@@ -33,7 +34,7 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-7-2/
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomEngine extends AbstractCalculationEngine
 
@@ -60,20 +61,20 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-7-2/
 }
 
 {{< /highlight >}}
-### **تمت إضافة مفهرس زائد التحميل لـ TextBoxCollection**
-كشف Aspose.Cells for Java 8.7.2 المفهرس الزائد لفئة TextBoxCollection للوصول إلى مثيل TextBox باستخدام اسمه String.
+### **تمت إضافة مؤشر محمل لـ TextBoxCollection**
+قدمت Aspose.Cells for Java 8.7.2 المؤشر المتكرر لفئة TextBoxCollection من أجل الوصول إلى مثيل من مربع النص باستخدام اسمه كنص.
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة التفصيلية على[الوصول إلى TextBox عبر اسمه](/cells/ar/java/access-the-text-box-by-the-name/)
+للحصول على مزيد من التفاصيل حول هذه الميزة، يرجى مراجعة المقال المفصل على [الوصول إلى TextBox عبر اسمه](/cells/ar/java/access-the-text-box-by-the-name/)
 
 {{% /alert %}} 
 
- يبدو سيناريو الاستخدام البسيط على النحو التالي.
+سيناريو الاستخدام البسيط يبدو كما يلي. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 

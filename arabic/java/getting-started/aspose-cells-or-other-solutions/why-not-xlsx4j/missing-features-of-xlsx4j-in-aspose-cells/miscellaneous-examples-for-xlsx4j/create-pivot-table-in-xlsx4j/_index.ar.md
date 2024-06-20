@@ -1,19 +1,20 @@
-﻿---
+---
 title: إنشاء جدول محوري في xlsx4j
 type: docs
 weight: 20
 url: /ar/java/create-pivot-table-in-xlsx4j/
 ---
-## **Aspose.Cells - تكوين جدول محوري**
+
+## **Aspose.Cells - إنشاء جدول محوري**
 لإنشاء جدول محوري باستخدام Aspose.Cells:
 
-1. أضف بعض البيانات إلى خلايا ورقة العمل باستخدام أسلوب PutValue / setValue الخاص بالكائن Cell. يمكنك أيضًا استخدام ملف قالب مملوء بالفعل بالبيانات. سيتم استخدام البيانات كمصدر بيانات للجدول المحوري.
-1. أضف جدولاً محوريًا إلى ورقة العمل عن طريق استدعاء طريقة إضافة مجموعة PivotTables (مغلفة في كائن ورقة العمل).
-1. قم بالوصول إلى كائن PivotTable الجديد من مجموعة PivotTables بتمرير الفهرس الخاص به. # استخدم أيًا من كائنات الجدول المحوري المغلفة في كائن PivotTable لإدارة الجدول.
+1. أضف بعض البيانات إلى خلايا ورقة العمل باستخدام طريقة PutValue/setValue لكائن Cell. يمكنك أيضًا استخدام ملف قالب مملوء بالفعل بالبيانات. ستستخدم البيانات كمصدر بيانات جدول الدوران.
+1. أضف جدول دوران إلى ورقة العمل عن طريق استدعاء طريقة add في مجموعة PivotTables (المغلفة في كائن Worksheet).
+1. استخدم كائن PivotTable الجديد من مجموعة PivotTables عن طريق تمرير مؤشرها. استخدم أيًا من كائنات جدول الدوران المغلقة في كائن PivotTable لإدارة الجدول.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -157,13 +158,13 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/tables/createpivottable/AsposeCreatePivotTable.java)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/tables/createpivottable/AsposeCreatePivotTable.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إنشاء جداول محورية ومخططات محورية](/cells/ar/java/create-pivot-tables-and-pivot-charts).
+للمزيد من التفاصيل، قم بزيارة [إنشاء جداول ورسوم بيانية للدوران](/cells/ar/java/create-pivot-tables-and-pivot-charts).
 
 {{% /alert %}}

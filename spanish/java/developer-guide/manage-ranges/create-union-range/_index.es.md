@@ -1,13 +1,14 @@
-﻿---
+---
 title: Crear rango de unión
 type: docs
 weight: 270
 url: /es/java/create-union-range/
 ---
-## **Crear rango de unión**
-Aspose.Cells ofrece la posibilidad de crear Union Range utilizando el[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) método. Él[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) El método acepta dos parámetros, la dirección para crear el rango de unión y el índice de la hoja de trabajo. Él[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) método devuelve un[UnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/UnionRange)objeto.
 
-El siguiente fragmento de código demuestra la creación de un rango de unión utilizando el[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) método. El archivo de salida generado por el código se adjunta como referencia.
+## **Crear rango de unión**
+Aspose.Cells proporciona la capacidad de crear un rango de unión utilizando el método [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)). El método [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) acepta dos parámetros, la dirección para crear el rango de unión y el índice de la hoja de cálculo. El método [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) devuelve un objeto [UnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/UnionRange).
+
+El siguiente fragmento de código demuestra la creación de un Rango de Unión mediante el método [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)). Se adjunta el archivo de salida generado por el código para referencia.
 
 - [Archivo de salida](CreateUnionRange_out.xlsx)
 

@@ -1,16 +1,17 @@
-﻿---
-title: Formatera Slicer
+---
+title: Formatering av Slicer
 type: docs
 weight: 20
 url: /sv/net/formatting-slicer/
 ---
-## **Möjliga användningsscenarier**
 
-Du kan formatera skivaren i Microsoft Excel genom att ställa in dess antal kolumner eller genom att ställa in dess stil etc. Aspose.Cells låter dig också göra detta med hjälp av[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)och[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)egenskaper.
+## **Möjliga användningsscenario**
 
-## **Formatera Slicer**
+Du kan formatera slicern i Microsoft Excel genom att ställa in dess antal kolumner eller genom att ställa in dess stil osv. Aspose.Cells tillåter också detta med hjälp av [**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns) och [**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype) egenskaperna.
 
-Se följande kod, den laddar[exempel på Excel-fil](67338473.xlsx)som innehåller en skivare. Den kommer åt skivaren och ställer in dess antal kolumner och stiltyp och sparar den som[utdata Excel-fil](67338474.xlsx). Skärmdumpen visar hur slicern ser ut efter exekveringen av exempelkoden.
+## **Formatera skärva**
+
+Se följande kod, den laddar in [exempel Excel-filen](67338473.xlsx) som innehåller en slicer. Den kommer åt slicern och ställer in dess antal kolumner och stiltyp och sparar den som [utmatnings Excel-filen](67338474.xlsx). Skärmdumpen visar hur slicern ser ut efter exekveringen.
 
 ![todo:image_alt_text](formatting-slicer_1.png)
 

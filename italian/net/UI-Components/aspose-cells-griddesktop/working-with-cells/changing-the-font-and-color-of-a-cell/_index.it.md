@@ -1,22 +1,25 @@
-﻿---
-title: Modifica del carattere e del colore di un Cell
+---
+title: Cambiare il Font e il Colore di una Cella
 type: docs
 weight: 40
-url: /it/net/changing-the-font-and-color-of-a-cell/
+url: /it/net/aspose-cells-griddesktop/change-the-font-and-color-of-a-cell/
+keywords: GridDesktop,font,color,change font,change color
+description: Questo articolo introduce come aggiornare il font e il colore nella cella nel Foglio di Lavoro in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-In questo argomento, discuteremo della modifica del carattere e del colore del carattere di una cella. Questa funzione fornisce agli sviluppatori un controllo più approfondito dei fogli di lavoro. Utilizzando questa funzione, gli sviluppatori possono personalizzare il carattere e il colore di qualsiasi cella desiderata.
+In questo argomento, discuteremo del cambiamento del font e del colore del font di una cella in GridDesktop. Questa funzionalità fornisce un maggiore controllo in profondità dei fogli di lavoro agli sviluppatori. Utilizzando questa funzionalità, gli sviluppatori possono personalizzare il font e il colore di qualsiasi cella desiderata.
 
 {{% /alert %}} 
-## **Modifica del carattere e del colore di un Cell**
-Per modificare il carattere e il colore di una cella utilizzando Aspose.Cells.GridDesktop, procedi nel seguente modo:
+## **Cambiare il Font & Colore di una Cella**
+Per cambiare il font e il colore di una cella utilizzando Aspose.Cells.GridDesktop, si prega di seguire i passaggi seguenti:
 
--  Accedi a qualsiasi desiderato**Foglio di lavoro**
--  Accedi a**Cell** il cui carattere e colore devono essere modificati
--  Crea un file personalizzato**Font**
--  Impostare il**Font** del**Cell** a quello personalizzato
--  Finalmente, set**Colore del carattere** del**Cell** a qualsiasi desiderato**Colore**
+- Accedere a qualsiasi **Foglio di lavoro** desiderato
+- Accedere a una **Cella** di cui si desidera cambiare il font e il colore
+- Creare un **Font** personalizzato
+- Impostare il **Font** della **Cella** a quello personalizzato
+- Infine, impostare il **Colore del Font** della **Cella** a qualsiasi **Colore** desiderato
 
 
 
@@ -24,6 +27,6 @@ Per modificare il carattere e il colore di una cella utilizzando Aspose.Cells.Gr
 
 {{% alert color="primary" %}} 
 
- Se hai solo bisogno di ottenere informazioni sul carattere o sul colore del carattere della cella, puoi anche utilizzare**OttieniFont** e**OttieniFontColor** metodi della cellula
+Se è necessario solo ottenere informazioni sul font o sul colore del font della cella, è possibile utilizzare anche i metodi **GetFont** e **GetFontColor** della cella.
 
 {{% /alert %}}

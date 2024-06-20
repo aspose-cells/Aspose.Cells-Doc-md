@@ -1,13 +1,14 @@
-﻿---
+---
 title: Kopiera arbetsblad
 type: docs
 weight: 40
 url: /sv/net/copy-worksheet/
 ---
+
 ## **Aspose.Cells - Kopiera arbetsblad**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook by excel file path
 
@@ -28,7 +29,7 @@ wb.Save("../../data/workbook.xlsx");
 ## **NPOI - HSSF XSSF - Kopiera arbetsblad**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -46,13 +47,13 @@ sw.Close();
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Kopiera arbetsblad** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Kopiera arbetsblad** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Copy.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Arbeta med arbetsblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+För mer information, besök [Arbeta med kalkylblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

@@ -1,54 +1,56 @@
 ---
-title: Image
+title: صورة
 type: docs
 weight: 300
 url: /ar/python-net/convert-excel-to-image/
-description: تحويل الرسم البياني إلى Image باستخدام Aspose.Cells for Python via .NET API.
-keywords: Python Convert Chart to Image, Export Chart to Image in Python via NET, Python Save Chart to Image.
+description: تحويل الرسم البياني إلى صورة باستخدام واجهة برمجة التطبيقات Aspose.Cells for Python via .NET.
+keywords: تحويل الرسم البياني إلى صورة باستخدام Python، تصدير الرسم البياني إلى صورة في Python via NET، حفظ الرسم البياني إلى صورة في Python.
 ---
+
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET يتيح لك تصدير ورقة عمل من المصنف وتحويلها إلى تنسيقات مختلفة. يشرح هذا المقال كيفية تحويل ورقة العمل إلى تنسيقات مختلفة.
+تسمح Aspose.Cells for Python via .NET لك بتصدير ورق العمل من المصنف وتحويله إلى تنسيقات مختلفة. يشرح هذا المقال كيفية تحويل ورق العمل إلى تنسيقات مختلفة.
 
 {{% /alert %}}
 
-##  تحويل المصنف إلى TIFF
+## تحويل دفتر العمل إلى TIFF
 
- يمكن أن يحتوي ملف Excel على أوراق متعددة تحتوي على صفحات متعددة.[WorkbookRender](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender) يسمح لك بتحويل Excel إلى TIFF بصفحات متعددة. كما يمكنك التحكم في خيارات متعددة للرقم TIFF مثل[ضغط](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/), [عمق اللون](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_color_depth/)، دقة([القرار الأفقي](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/), [القرار العمودي](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/)).
+يمكن أن يحتوي ملف Excel على عدة صفحات مع عدة صفحات. [**WorkbookRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender) تتيح لك تحويل Excel إلى TIFF مع عدة صفحات. كما يمكنك التحكم في العديد من الخيارات لـ TIFF ، مثل [الضغط](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_compression/) ، [عمق الألوان](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/tiff_color_depth/) ، الدقة ([الدقة الأفقية](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/horizontal_resolution/) ، [الدقة العمودية](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/vertical_resolution/)).
 
- يوضح مقتطف التعليمات البرمجية التالي كيفية تحويل Excel إلى TIFF بصفحات متعددة. ال[ملف اكسيل المصدر](workbook-to-tiff-with-mulitiple-pages.xlsx) و[تم إنشاء صورة TIFF](workbook-to-tiff-with-mulitiple-pages.tiff) يتم إرفاقها للرجوع إليها.
+يوضح مقتطف الكود التالي كيفية تحويل Excel إلى TIFF مع عدة صفحات. المرفقات تشمل [ملف الإكسل المصدر](workbook-to-tiff-with-mulitiple-pages.xlsx) و [صورة TIFF المولدة](workbook-to-tiff-with-mulitiple-pages.tiff) للرجوع اليها.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Workbook-To-Tiff-With-Mulitiple-Pages.py" >}}
 
-##  **تحويل ورقة العمل إلى Image**
+## **تحويل ورقة عمل إلى صورة**
 
-تحتوي أوراق العمل على البيانات التي تريد تحليلها. على سبيل المثال، يمكن أن تحتوي ورقة العمل على معلمات وإجماليات ونسب مئوية واستثناءات وحسابات.
+تحتوي الأوراق العمل على البيانات التي ترغب في تحليلها. على سبيل المثال، يمكن أن تحتوي ورقة العمل على معلمات وإجماليات ونسب واستثناءات وحسابات.
 
-كمطور، قد تحتاج إلى تقديم أوراق العمل كصور. على سبيل المثال، قد تحتاج إلى استخدام صورة ورقة عمل في تطبيق أو صفحة ويب. قد ترغب في إدراج صورة في مستند Word Microsoft أو ملف PDF أو عرض تقديمي PowerPoint أو أي نوع آخر من المستندات. ببساطة، أنت تريد عرض ورقة العمل كصورة بحيث يمكنك استخدامها في مكان آخر.
+كمطور، قد تحتاج إلى عرض الأوراق العمل كصور. على سبيل المثال، قد تحتاج إلى استخدام صورة لورقة عمل في تطبيق أو صفحة ويب. قد ترغب في إدراج صورة في مستند Microsoft Word أو ملف PDF أو عرض PowerPoint أو نوع مستند آخر. ببساطة، ترغب في عرض ورقة عمل كصورة حتى تتمكن من استخدامها في مكان آخر.
 
-Aspose.Cells for Python via .NET يدعم تحويل أوراق عمل Excel إلى صور. لاستخدام هذه الميزة، تحتاج إلى استيراد ملف**[aspose.cells.rendering](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/)**مساحة الاسم لبرنامجك أو مشروعك. وله عدة فئات قيمة للعرض والطباعة، على سبيل المثال *[SheetRender](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/)**, *[خيارات الصورة أو الطباعة](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/)**, *[WorkbookRender](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender/)**، و اخرين.
+تدعم Aspose.Cells for Python via .NET تحويل ورقات عمل Excel إلى صور. لاستخدام هذه الميزة ، تحتاج إلى استيراد مساحة الاسم [**aspose.cells.rendering**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/) إلى برنامجك أو مشروعك. لديها عدة فئات قيمة للتقديم والطباعة ، على سبيل المثال [**SheetRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/) ، [**ImageOrPrintOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/imageorprintoptions/) ، [**WorkbookRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/workbookrender/) ، وغيرها.
 
- ال**[SheetRender](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/)**يمثل الفصل ورقة عمل لعرضها كصور. لديها طريقة مثقلة، *[to_image](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str)**، يمكنه تحويل ورقة العمل إلى ملف (ملفات) صورة بسمات أو خيارات مختلفة. تقوم بإرجاع كائن System.Drawing.Bitmap ويمكنك حفظ ملف صورة على القرص أو الدفق. يتم دعم العديد من صيغ الصور، على سبيل المثال BMP، PNG، GIF، JPG، JPEG، TIFF، EMF.
+تمثل الفئة [**SheetRender**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/) ورقة عمل يتم تحويلها إلى صور. تحتوي على طريقة محملة، [**to_image**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/sheetrender/to_image/#int-str) التي يمكن تحويل ورقة عمل إلى ملف صورة (صور) بخصائص أو خيارات مختلفة. تقوم بإرجاع كائن System.Drawing.Bitmap ويمكنك حفظ ملف صورة إلى القرص أو التسلسل. تدعم عدة تنسيقات صور، على سبيل المثال BMP، PNG، GIF، JPG، JPEG، TIFF، EMF.
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية تحويل ورقة عمل في ملف Excel إلى ملف صورة.
+يوضح مقتطف الكود التالي كيفية تحويل ورقة عمل في ملف Excel إلى ملف صورة.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheet-ConvertWorksheetToImageByPage-1.py" >}}
 
 {{% alert color="primary" %}}
 
-في الوقت الحاضر، API لتحويل أوراق العمل إلى صور لا يدعم المخططات الفقاعية ثلاثية الأبعاد.
+حاليًا، لا يدعم الواجهة البرمجية لتحويل ورقة عمل إلى صور دعم مخططات الفقاعات ثلاثية الأبعاد.
 
 {{% /alert %}}
 
-##  **تحويل ورقة العمل إلى SVG**
+## **تحويل ورقة عمل إلى SVG**
 
-SVG يرمز إلى رسومات المتجهات القابلة للتطوير. SVG هي مواصفات تعتمد على معايير XML للرسومات المتجهة ثنائية الأبعاد. وهو معيار مفتوح قيد التطوير بواسطة اتحاد شبكة الويب العالمية (W3C) منذ عام 1999.
+تعني SVG Scalable Vector Graphics. SVG هو مواصفة تعتمد على معايير XML للرسومات الناقلة ثنائية الأبعاد. إنها معيار مفتوح تحت تطوير من قبل الجمعية العالمية للويب (W3C) منذ عام 1999.
 
-Aspose.Cells for Python via .NET تمكن من تحويل أوراق العمل إلى صورة SVG منذ الإصدار 7.1.0. يوضح مقتطف التعليمات البرمجية التالي كيفية تحويل ورقة عمل في ملف Excel إلى ملف صورة SVG.
+Aspose.Cells for Python via .NET كان قادرًا على تحويل أوراق عمل إلى صور SVG منذ الإصدار 7.1.0. يُظهر مقتطف الكود التالي كيفية تحويل ورقة عمل في ملف Excel إلى ملف صورة SVG.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheet-ConvertWorksheetToSVG-1.py" >}}
 
-##  **مواضيع متقدمة**
-- [تحويل مخطط Excel إلى Image](/cells/ar/python-net/convert-an-excel-chart-to-image/)
-- [تحويل المخطط إلى Image بتنسيق SVG](/cells/ar/python-net/converting-chart-to-image-in-svg-format/)
-- [تصدير الرسم البياني إلى SVG مع سمة viewBox](/cells/ar/python-net/export-chart-to-svg-with-viewbox-attribute/)
+## **مواضيع متقدمة**
+- [تحويل مخطط Excel إلى صورة](/cells/ar/python-net/convert-an-excel-chart-to-image/)
+- [تحويل مخطط إلى صورة بتنسيق SVG](/cells/ar/python-net/converting-chart-to-image-in-svg-format/)
+- [تصدير مخطط إلى SVG باستخدام سمة viewBox](/cells/ar/python-net/export-chart-to-svg-with-viewbox-attribute/)

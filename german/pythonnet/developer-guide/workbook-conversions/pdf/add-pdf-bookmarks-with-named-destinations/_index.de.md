@@ -1,21 +1,22 @@
 ---
-title: Fügen Sie PDF-Lesezeichen mit benannten Zielen hinzu
+title: PDF Lesezeichen mit benannten Zielen hinzufügen
 type: docs
 weight: 20
 url: /de/python-net/add-pdf-bookmarks-with-named-destinations/
-description: Erfahren Sie, wie Sie PDF-Lesezeichen mit benannten Zielen mit Aspose.Cells for Python via .NET API hinzufügen.
-keywords: Python Add PDF Bookmarks with Named Destinations
+description: Lernen Sie, wie Sie mit Aspose.Cells für Python via .NET API PDF Lesezeichen mit benannten Zielen hinzufügen
+keywords: Python fügt PDF Lesezeichen mit benannten Zielen hinzu
 ---
-##  **Mögliche Nutzungsszenarien**
 
-Benannte Ziele sind spezielle Arten von Lesezeichen oder Links in PDF, die nicht von PDF-Seiten abhängen. Das heißt, wenn Seiten zu PDF hinzugefügt oder gelöscht werden, werden Lesezeichen möglicherweise ungültig, benannte Ziele bleiben jedoch erhalten. Um ein benanntes Ziel zu erstellen, legen Sie bitte fest[**PdfBookmarkEntry.destination_name**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name/)Eigentum.
+## **Mögliche Verwendungsszenarien**
 
-##  **Fügen Sie PDF-Lesezeichen mit benannten Zielen hinzu**
+Benannte Ziele sind spezielle Arten von Lesezeichen oder Links in PDF, die nicht von PDF-Seiten abhängen. Das bedeutet, dass Lesezeichen ungültig werden können, wenn Seiten im PDF hinzugefügt oder gelöscht werden, benannte Ziele jedoch intakt bleiben. Für die Erstellung eines benannten Ziels setzen Sie bitte die [**PdfBookmarkEntry.destination_name**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/destination_name/)-Eigenschaft.
 
- Bitte sehen Sie sich den folgenden Beispielcode an:[Quell-Excel-Datei](50528348.xlsx) , und sein[Ausgabedatei PDF](50528349.pdf). Der Screenshot zeigt die Lesezeichen und benannten Ziele in der Ausgabe PDF. Der Screenshot beschreibt außerdem, wie benannte Ziele angezeigt werden und dass Sie eine professionelle Version von Acrobat Reader benötigen.
+## **PDF-Lesezeichen mit benannten Zielen hinzufügen**
+
+Bitte sehen Sie sich den folgenden Beispielcode, die Quelldatei Excel (50528348.xlsx) und die Ausgabedatei PDF (50528349.pdf) an. Der Screenshot zeigt die Lesezeichen und benannten Ziele in der Ausgabedatei PDF. Der Screenshot beschreibt auch, wie benannte Ziele angezeigt werden können und dass Sie die professionelle Version von Acrobat Reader benötigen.
 
 ![todo:image_alt_text](add-pdf-bookmarks-with-named-destinations_1.png)
 
-##  **Beispielcode**
+## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AddPDFBookmarksWithNamedDestinations.py" >}}

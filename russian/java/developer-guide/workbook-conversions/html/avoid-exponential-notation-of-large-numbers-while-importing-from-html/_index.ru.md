@@ -1,16 +1,17 @@
-﻿---
-title: Избегайте экспоненциального представления больших чисел при импорте из HTML.
+---
+title: Избегайте экспоненциальной нотации больших чисел при импорте из HTML
 type: docs
 weight: 600
 url: /ru/java/avoid-exponential-notation-of-large-numbers-while-importing-from/
 ---
+
 {{% alert color="primary" %}} 
 
-Иногда ваш HTML содержит числа, такие как 1234567890123456, которые длиннее 15 цифр, и когда вы импортируете свой файл HTML в файл excel, эти числа преобразуются в экспоненциальное представление, например 1.23457E+15. Если вы хотите, чтобы ваше число было импортировано как есть, а не преобразовано в экспоненциальную запись, используйте[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision) свойство и установить его**истинный** при загрузке вашего HTML.
+Иногда ваш HTML содержит числа, такие как 1234567890123456, которые длиннее 15 цифр, и при импорте вашего HTML в файл Excel эти числа преобразуются в экспоненциальную нотацию, например 1.23457E+15. Если вы хотите, чтобы ваше число импортировалось в исходном виде, а не преобразовывалось в экспоненциальную нотацию, то используйте свойство [HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision) и установите его в значение **true** при загрузке вашего HTML.
 
 {{% /alert %}} 
-## **Избегайте экспоненциального представления больших чисел при импорте из HTML.**
- В следующем примере кода объясняется использование[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision)имущество. Он импортирует число как есть, не преобразовывая его в экспоненциальное представление.
+## **Избегайте экспоненциальной нотации больших чисел при импорте из HTML**
+Приведенный ниже образец кода поясняет использование свойства [HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision). Он будет импортировать число в исходном виде, без преобразования его в экспоненциальную нотацию.
 
 
 

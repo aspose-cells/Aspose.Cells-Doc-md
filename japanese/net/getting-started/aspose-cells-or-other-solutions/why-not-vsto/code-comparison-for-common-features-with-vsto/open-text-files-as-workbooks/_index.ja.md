@@ -1,12 +1,13 @@
-﻿---
-title: テキスト ファイルをワークブックとして開く
+---
+title: テキストファイルをワークブックとして開く
 type: docs
 weight: 180
 url: /ja/net/open-text-files-as-workbooks/
 ---
-以下は、テキストファイルをワークブックとして開くための比較コードの例です。
+
+以下は、テキストファイルをワークブックとして開く比較コード例です：
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
      this.Application.Workbooks.OpenText(@"OpenTextFilesAsWorkbooks.txt",
 
@@ -22,7 +23,7 @@ url: /ja/net/open-text-files-as-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
     private static string fileName = "OpenTextFilesAsWorkbooks.xlsx";
 
@@ -37,5 +38,5 @@ url: /ja/net/open-text-files-as-workbooks/
    newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **ダウンロード**
+##**ダウンロード**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

@@ -1,18 +1,19 @@
-﻿---
-title: Форматирование слайсера
+---
+title: Форматирование фильтра
 type: docs
 weight: 20
 url: /ru/net/formatting-slicer/
 ---
+
 ## **Возможные сценарии использования**
 
-Вы можете отформатировать слайсер в Microsoft Excel, установив количество столбцов или установив его стиль и т. д. Aspose.Cells также позволяет вам сделать это с помощью[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)и[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)характеристики.
+Вы можете форматировать срезку в Microsoft Excel, задавая количество столбцов или устанавливая стиль и т.д. Aspose.Cells также позволяет вам делать это, используя свойства [**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns) и [**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype).
 
-## **Форматирование слайсера**
+## **Форматирование фильтра**
 
-Пожалуйста, посмотрите следующий код, он загружает[образец файла Excel](67338473.xlsx)который содержит слайсер. Он обращается к слайсеру, устанавливает количество столбцов и тип стиля и сохраняет его как[выходной файл Excel](67338474.xlsx). На скриншоте показано, как выглядит слайсер после выполнения примера кода.
+Пожалуйста, ознакомьтесь с следующим кодом. Он загружает [образец файла Excel](67338473.xlsx), содержащий срезку. Он получает доступ к срезке, задает количество столбцов и тип стиля, а затем сохраняет его как [файл Excel вывода](67338474.xlsx). На скриншоте показано, как выглядит срезка после выполнения образца кода.
 
-![дело:изображение_альтернативный_текст](formatting-slicer_1.png)
+![todo:image_alt_text](formatting-slicer_1.png)
 
 ## **Образец кода**
 

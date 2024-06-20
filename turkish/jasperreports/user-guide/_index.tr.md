@@ -1,9 +1,10 @@
-﻿---
-title: Kullanici rehberi
+---
+title: Kullanıcı Kılavuzu
 type: docs
 weight: 40
 url: /tr/jasperreports/user-guide/
 ---
-###### **Bu bölüm aşağıdaki konuları içerir:**
-- [Bir .jasper Dosyasını Düzenlenebilir Grafik Desteğiyle Doldurma](/cells/tr/jasperreports/filling-a-jasper-file-with-editable-chart-support/)
-- [.jrprint Dosyalarını XLS Biçimlerine Dışa Aktarma](/cells/tr/jasperreports/exporting-jrprint-files-to-xls-formats/)
+
+###### **Bu bölüm şu konuları içerir:** 
+- [Düzenlenir Grafik Desteğine Sahip .jasper Dosyasının Doldurulması ](/cells/tr/jasperreports/filling-a-jasper-file-with-editable-chart-support/)
+- [.jrprint Dosyalarının XLS Formatlarına Aktarılması](/cells/tr/jasperreports/exporting-jrprint-files-to-xls-formats/)

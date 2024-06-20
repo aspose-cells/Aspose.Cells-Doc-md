@@ -1,24 +1,25 @@
-﻿---
-title: 出力 HTML でワークシート CSS を個別にエクスポートする
+---
+title: 出力HTMLでワークシートのCSSを別々にエクスポートする
 type: docs
 weight: 80
 url: /ja/java/export-worksheet-css-separately-in-output-html/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells は、Excel ファイルを HTML に変換するときに、ワークシート CSS を個別にエクスポートする機能を提供します。この目的のために HtmlSaveOptions.ExportWorksheetCSSSeparately プロパティを使用し、Excel ファイルを HTML 形式で保存するときに true に設定してください。
+## **可能な使用シナリオ**
 
-## **出力 HTML でワークシート CSS を個別にエクスポートする**
+Aspose.Cellsでは、ExcelファイルをHTMLに変換する際にワークシートのCSSを別々にエクスポートする機能を提供しています。この目的で、[HtmlSaveOptions.ExportWorksheetCSSSeparately](true)プロパティを使用してください。
 
-次のサンプル コードでは、Excel ファイルを作成し、セル B5 にテキストを赤色で追加してから、HtmlSaveOptions.ExportWorksheetCSSSeparately プロパティを使用して HTML 形式で保存します。をご覧ください[出力 HTML](60489780.zip)参照用のコードによって生成されます。サンプル コードの結果として、その中に stylesheet.css があります。
+## **出力HTMLでワークシートのCSSを別々にエクスポートする**
+
+次のサンプルコードは、Excelファイルを作成し、セルB5に赤色のテキストを追加し、[HtmlSaveOptions.ExportWorksheetCSSSeparately](true)プロパティを使用してHTML形式で保存します。参照用のコードで生成された[output HTML](60489780.zip)には結果としてstylesheet.cssが含まれています。
 
 ## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportWorksheetCSSSeparatelyInOutputHTML.java" >}}
 
-## **シングル シート ワークブックを HTML にエクスポートする**
+## **単一のシートのワークブックをHTMLにエクスポートする**
 
-複数のシートを含むワークブックを Aspose.Cells を使用して HTML に変換すると、CSS と複数の HTML ファイルを含むフォルダーと共に HTML ファイルが作成されます。この HTML ファイルをブラウザで開くと、タブが表示されます。 HTML に変換される場合、単一のワークシートを含むワークブックにも同じ動作が必要です。 以前は、単一シートのワークブック用に別のフォルダーが作成されず、HTML ファイルのみが作成されました。このような HTML ファイルは、ブラウザで開いたときにタブが表示されません。 Excel は適切なフォルダーと単一シートの HTML も作成するため、Aspose.Cells を使用して同じ動作が実装されます。サンプル ファイルは、以下のサンプル コードで使用するために次のリンクからダウンロードできます。
+Aspose.Cellsを使用して複数のシートを持つワークブックをHTMLに変換すると、HTMLファイルとCSSおよび複数のHTMLファイルを含むフォルダが作成されます。このHTMLファイルをブラウザで開くと、タブが表示されます。ワークブックが1つのワークシートでHTMLに変換された場合も同様の動作が必要です。以前は、1枚のシートのワークブックには別個のフォルダが作成されず、HTMLファイルのみが作成されていました。このようなHTMLファイルは、ブラウザで開かれるとタブが表示されませんでした。Excelは1つのシートに適切なフォルダとHTMLを作成し、そのためAspose.Cellsを使用して同じ動作を実装します。サンプルファイルは以下のリンクからダウンロードして、以下のサンプルコードで使用できます。
 
 [sampleSingleSheet.xlsx](79527948.xlsx)
 

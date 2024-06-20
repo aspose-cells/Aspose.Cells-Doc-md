@@ -1,49 +1,50 @@
 ---
-title: Enregistrement du fichier dans l'objet de réponse
+title: Enregistrement du fichier dans l objet de réponse
 type: docs
 weight: 50
 url: /fr/net/saving-file-to-response-object/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells permet de manipuler des fichiers. Cet article explique les différentes façons dont les fichiers peuvent être enregistrés dans un objet de réponse.
+Aspose.Cells permet de manipuler des fichiers. Cet article explique les différentes façons de sauvegarder des fichiers dans un objet de réponse.
 
 {{% /alert %}}
 
-##  **Enregistrement du fichier dans l'objet de réponse**
+## **Enregistrer le fichier dans l'objet Response**
 
-Il est également possible de générer dynamiquement un fichier et de l'envoyer directement à un navigateur client. Pour ce faire, utilisez une version spéciale surchargée du**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)**méthode qui accepte les paramètres suivants :
+Il est également possible de générer un fichier dynamiquement et de l'envoyer directement vers un navigateur client. Pour ce faire, utilisez une version surchargée spéciale de la méthode [**Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5) qui accepte les paramètres suivants:
 
-- ASP.NET **[HttpResponse](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8)**objet.
-- Nom de fichier.
-- *[ContenuDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**, le type de disposition de contenu du fichier de sortie.
-- *[Options d'enregistrement](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**, le type de format de fichier
+- L'objet [**HttpResponse**](https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse?view=netframework-4.8) ASP.NET.
+- Nom du fichier.
+- [**ContentDisposition**](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition), le type de disposition de contenu du fichier de sortie.
+- [**SaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/saveoptions), le type de format de fichier.
 
- Le**[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**L'énumération détermine si le fichier envoyé au navigateur offre la possibilité de s'ouvrir seul directement dans le navigateur ou dans une application associée à .xls/.xlsx ou à une autre extension.
+L'énumération [**ContentDisposition**](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition) détermine si le fichier envoyé au navigateur fournit l'option de s'ouvrir directement dans le navigateur ou dans une application associée à .xls/.xlsx ou une autre extension.
 
-L'énumération contient les types de sauvegarde prédéfinis suivants :
+L'énumération contient les types de sauvegarde prédéfinis suivants :
 
-|**Taper**|**Description**|
+|**Type**|**Description**|
 | :- | :- |
-|Attachment|Envoie la feuille de calcul au navigateur et s'ouvre dans une application en tant que pièce jointe associée à .xls/.xlsx ou à d'autres extensions|
-|Inline|Envoie le document au navigateur et présente une option pour enregistrer la feuille de calcul sur le disque ou l'ouvrir dans le navigateur|
+|Pièce jointe|Envoie la feuille de calcul au navigateur et l'ouvre dans une application en tant que pièce jointe associée à .xls/.xlsx ou autres extensions.|
+|Incorporée|Envoie le document au navigateur et offre la possibilité de sauvegarder la feuille de calcul sur le disque ou l'ouvrir dans le navigateur.|
 
-###  **XLS Fichiers**
+### **Fichiers XLS**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-###  **XLSX Fichiers**
+### **Fichiers XLSX**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-###  **PDF Fichiers**
+### **Fichiers PDF**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 
-###  **Note**
+### **Remarque**
 
 En raison de l'objet "System.Web.HttpResponse" qui n'est pas inclus dans .NET5 et .Netstandard,
-Donc, cette fonction n'existe pas dans les versions Aspose.Cells .NET5 et .Netstandard, vous pouvez vous référer au code suivant pour enregistrer le fichier dans le flux, puis effectuer l'opération dans le flux.
+Cette fonction n'existe donc pas dans la version Aspose.Cells .NET5 et .Netstandard, vous pouvez vous référer au code suivant pour sauvegarder le fichier dans le flux, puis effectuer l'opération sur le flux.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 

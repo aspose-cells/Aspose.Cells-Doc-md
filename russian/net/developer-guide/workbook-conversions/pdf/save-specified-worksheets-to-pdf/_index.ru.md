@@ -1,34 +1,35 @@
 ---
-title: Сохранить указанные рабочие листы в PDF
+title: Сохранить указанные листы в формат PDF
 type: docs
 weight: 140
 url: /ru/net/save-specified-worksheets-to-pdf/
 ---
- По умолчанию Aspose.Cells сохранить все**видимый** рабочие листы в рабочей книге в файл PDF. С**[`PdfSaveOptions.SheetSet`] (https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** вариант, вы можете сохранить указанные рабочие листы в файл PDF. например, вы можете сохранить активный рабочий лист в pdf, сохранить все рабочие листы (как видимые, так и скрытые рабочие листы) в pdf, сохранить несколько пользовательских рабочих листов в pdf.
 
-##  **Сохранить активный рабочий лист в PDF**
+По умолчанию Aspose.Cells сохраняет все **видимые** листы в книге в файл PDF. С [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) опцией можно сохранить указанные листы в файл PDF. Например, вы можете сохранить активный лист в PDF, сохранить все листы (как видимые, так и скрытые) в PDF, сохранить произвольные несколько листов в PDF.
 
- Если вы хотите экспортировать только активный лист в pdf, вы можете добиться этого, передав**[`SheetSet.Active`] (https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/active/)** к**[`PdfSaveOptions.SheetSet`] (https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** вариант.
+## **Сохранить активный лист в формат PDF**
 
- Лист `Sheet2` является активным листом исходного файла.[подшивка-example.xlsx](sheetset-example.xlsx).
+Если вы хотите экспортировать только активный лист в PDF, вы можете сделать это, передав [**SheetSet.Active**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/active/) в [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) опцию.
+
+Лист `Sheet2` является активным листом исходного файла [sheetset-example.xlsx](sheetset-example.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ActiveSheetToPdf.cs" >}}
 
-##  **Сохранить все рабочие листы в PDF**
+## **Сохранить все листы в формат PDF**
 
-**[`SheetSet.Visible`] (https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/visible/)** указывает на видимые листы в книге и**[`SheetSet.All`] (https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/)** указывает все листы, включая как видимые листы, так и скрытые/невидимые листы в книге. Если вы хотите экспортировать все листы в pdf, вы можете просто передать**[`SheetSet.All`] (https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/)** к**[`PdfSaveOptions.SheetSet`] (https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** вариант.
+[**SheetSet.Visible**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/visible/) указывает видимые листы в книге, а [**SheetSet.All**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/) указывает все листы, включая как видимые, так и скрытые/невидимые в книге. Если вы хотите экспортировать все листы в PDF, вы можете просто передать  [**SheetSet.All**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/) в [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) опцию.
 
- Исходный файл[подшивка-example.xlsx](sheetset-example.xlsx) содержит все четыре листа со скрытым листом `Sheet3`.
+Исходный файл [sheetset-example.xlsx](sheetset-example.xlsx) содержит все четыре листа с скрытым листом `Sheet3`.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-AllSheetsToPdf.cs" >}}
 
-##  **Сохранить указанные рабочие листы в PDF**
- Если вы хотите экспортировать желаемые / настраиваемые несколько листов в pdf, вы можете добиться этого, передав индексы нескольких листов в**[`PdfSaveOptions.SheetSet`] (https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** вариант.
+## **Сохранить указанные листы в формат PDF**
+Если вы хотите экспортировать желаемые/произвольные несколько листов в PDF, вы можете сделать это, передав несколько индексов листов в [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/) опцию.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-MultiSheetsToPdf.cs" >}}
 
 {{% alert color="primary" %}} 
 
-Если ваша электронная таблица содержит формулы, лучше позвонить по номеру [`Workbook.CalculateFormula()`](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) непосредственно перед преобразованием электронной таблицы в формат PDF. Это обеспечит пересчет значений, зависящих от формулы, и отображение правильных значений в файле PDF.
+Если ваш электронный таблицы содержит формулы, лучше всего вызвать [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) прямо перед преобразованием таблицы в формат PDF. Таким образом будет гарантирован пересчет значений, зависящих от формул, и в PDF файл будут выведены правильные значения.
 
 {{% /alert %}}

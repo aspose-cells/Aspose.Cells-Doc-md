@@ -1,29 +1,31 @@
-﻿---
+---
 title: Aspose.Cells for Python via .NET
 type: docs
 weight: 110
 url: /fr/python-net/
 is_root: true
-description: Aspose.Cells for Python prend en charge les formats de fichier de feuille de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que votre entreprise utilise au quotidien. Il permet également d'exporter des fichiers Excel® vers PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et formats d'image populaires, notamment TIFF, JPG, PNG, BMP et SVG.
+description: Aspose.Cells pour Python prend en charge les formats de fichiers de feuille de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) utilisés par votre entreprise au quotidien. Il permet également d exporter des fichiers Excel® vers PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et des formats d image populaires, notamment TIFF, JPG, PNG, BMP et SVG.
+keywords: Aspose.Cells pour Python via .NET crée, répare, modifie, analyse, fusionne, convertit JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG et d autres formats.
 ---
+
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for Python via .NET Logo du produit](home_1.png)**
+**![Aspose.Cells pour Python via .NET Logo du produit](home_1.png)**
 
-**Bienvenue au Aspose.Cells for Python via .NET**
+**Bienvenue dans Aspose.Cells pour Python via .NET**
 
-Aspose.Cells for Python via .NET permet à vos applications d'effectuer une large gamme de tâches de traitement de feuille de calcul. Aspose.Cells for Python via .NET prend en charge les formats de fichier de feuille de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que votre entreprise utilise au quotidien. Il permet également d'exporter des fichiers Excel® vers PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et formats d'image populaires, notamment TIFF, JPG, PNG, BMP et SVG.
+Aspose.Cells pour Python via .NET permet à vos applications d'effectuer une vaste gamme de tâches de traitement de feuilles de calcul. Aspose.Cells pour Python via .NET prend en charge les formats de fichiers de feuilles de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) utilisés dans votre entreprise au quotidien. Il permet également d'exporter des fichiers Excel® en PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et les formats d'image populaires, y compris TIFF, JPG, PNG, BMP et SVG.
 
 {{% /alert %}}
 
-## **Aspose.Cells for Python via .NET Ressources**
+## **Ressources Aspose.Cells pour Python via .NET**
 
-Vous trouverez ci-dessous des liens vers des ressources utiles dont vous pourriez avoir besoin pour accomplir vos tâches.
+Voici les liens vers certaines ressources utiles dont vous pourriez avoir besoin pour accomplir vos tâches.
 
-- [Aspose.Cells for .NET Documentation en ligne](/cells/fr/net/)(Aspose.Cells for Python via .NET est très similaire à Aspose.Cells for .NET. Vous pouvez donc utiliser la même documentation)
-- [Aspose.Cells for Python via .NET Caractéristiques](/cells/fr/python-net/features/)
-- [Aspose.Cells for Python via .NET Notes de mise à jour](https://releases.aspose.com/fr/cells/python-net/release-notes/)
-- [Aspose.Cells for Python via .NET Page produit](https://products.aspose.com/cells/python-net/)
-- [Télécharger Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
-- [Aspose.Cells for Python via .NET Forum d'assistance gratuit](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells for Python via .NET Service d'assistance payant](https://helpdesk.aspose.com/)
+- [Documentation en ligne Aspose.Cells for .NET](/cells/fr/net/) (Aspose.Cells pour Python via .NET est très similaire à Aspose.Cells for .NET. Vous pouvez donc utiliser la même documentation)
+- [Fonctionnalités Aspose.Cells pour Python via .NET](/cells/fr/python-net/features/)
+- [Notes de version Aspose.Cells pour Python via .NET](https://releases.aspose.com/cells/python-net/release-notes/)
+- [Page produit Aspose.Cells pour Python via .NET](https://products.aspose.com/cells/python-net/)
+- [Télécharger Aspose.Cells pour Python via .NET](https://downloads.aspose.com/cells/python-net)
+- [Forum de support gratuit Aspose.Cells pour Python via .NET](https://forum.aspose.com/c/cells/9)
+- [Centre d'aide au support payant Aspose.Cells pour Python via .NET](https://helpdesk.aspose.com/)

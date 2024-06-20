@@ -1,14 +1,15 @@
-﻿---
-title: Установите тип формы меток данных диаграммы
+---
+title: Установка формы меток данных диаграммы
 type: docs
 weight: 70
 url: /ru/java/set-the-shape-type-of-data-labels-of-chart/
 ---
+
 ## **Возможные сценарии использования**
 
-Вы можете изменить тип формы меток данных диаграммы с помощью[**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)имущество. Он принимает значение[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)перечисление и соответствующим образом изменяет тип формы меток данных. Некоторые его значения
+Вы можете изменить тип формы меток данных диаграммы, используя свойство [**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType). Оно принимает значение перечисления [**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType) и соответственно изменяет тип формы меток данных. Некоторые из его значений:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 DataLabelShapeType.BENT_LINE_CALLOUT
 
@@ -24,11 +25,11 @@ etc.
 
 {{< /highlight >}}
 
-## **Установите тип формы меток данных диаграммы**
+## **Установка типа формы меток данных диаграммы**
 
-Следующий пример кода изменяет тип формы меток данных диаграммы на[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Пожалуйста, смотрите[образец файла Excel](60489794.xlsx)используется в этом коде и[выходной файл Excel](60489793.xlsx)порожденный им. На снимке экрана показано влияние кода на пример файла Excel.
+Следующий образец кода изменяет тип формы меток данных диаграммы на [**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Пожалуйста, посмотрите [образец файл Excel](60489794.xlsx), используемый в этом коде, и [файл Excel вывода](60489793.xlsx), сгенерированный им. На скриншоте показан эффект кода на образце файла Excel.
 
-![дело:изображение_альтернативный_текст](set-the-shape-type-of-data-labels-of-chart_1.png)
+![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 
 ## **Образец кода**
 

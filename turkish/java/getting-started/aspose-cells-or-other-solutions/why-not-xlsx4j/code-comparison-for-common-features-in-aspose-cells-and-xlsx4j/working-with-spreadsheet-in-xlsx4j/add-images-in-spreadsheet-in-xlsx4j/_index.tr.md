@@ -1,15 +1,16 @@
-﻿---
-title: xlsx4j'de E-tabloya Resim Ekleme
+---
+title: xlsx4j de Elektronik Tablo Üzerine Resim Ekleme
 type: docs
 weight: 20
 url: /tr/java/add-images-in-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Elektronik Tabloya Resim Ekleme**
-Resim sınıfı, Çalışma Sayfasındaki Görsellerle ilgilenmek için kullanılabilir
+
+## **Aspose.Cells - Elektronik Tablo Üzerine Resim Ekleme**
+Resim sınıfı, Elektronik Tablo'da Resimlerle işlem yapmak için kullanılabilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -26,14 +27,14 @@ int pictureIndex = sheet.getPictures().add(5,5, dataDir + "greentick.png");
 Picture picture = sheet.getPictures().get(pictureIndex);
 
 {{< /highlight >}}
-## **xlsx4j - Elektronik Tabloya Resim Ekle**
-Çalışma Sayfası'ndaki Görüntülerle ilgilenmek için çizim sınıfı mevcuttur
+## **xlsx4j - Elektronik Tablo Üzerine Resim Ekleme**
+Çizim sınıfı, Elektronik Tablo'da Resimlerle işlem yapmak için kullanılabilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "AddImage-Xlsx4j.xlsx";
 
@@ -408,11 +409,11 @@ public static CTDrawing buildDrawingPartContentFromXmlString(String imageRelID) 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addimage)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Resim Köprüleri Ekle](/java/add-image-hyperlinks).
+Daha fazla ayrıntı için [Resim Hipervez Ekleme](/java/add-image-hyperlinks) sayfasını ziyaret edin.
 
 {{% /alert %}}

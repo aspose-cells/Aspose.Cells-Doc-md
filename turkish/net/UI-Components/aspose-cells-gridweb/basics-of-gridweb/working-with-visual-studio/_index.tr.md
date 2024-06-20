@@ -1,118 +1,121 @@
-﻿---
-title: Visual Studio ile Çalışmak
+---
+title: Visual Studio ile Çalışma
 type: docs
 weight: 20
-url: /tr/net/working-with-visual-studio/
+url: /tr/net/aspose-cells-gridweb/work-with-visual-studio/
+keywords: GridWeb,visualstudio
+description: Bu makale, GridWeb i visual stüdyoda nasıl kullanılacağını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konuda, Visual Studio.NET 2005 kullanılarak ASP.NET uygulamalarında Aspose.Cells.GridWeb'in nasıl kullanılacağı açıklanmaktadır. Bu konu, Aspose.Cells.GridWeb ile çalışan başlangıç düzeyindeki geliştiriciler için yararlıdır.
+Bu konu, ASP.Net uygulamalarında Visual Studio.NET 2005 kullanılarak Aspose.Cells.GridWeb'in nasıl kullanılacağını açıklar. Bu konu, Aspose.Cells.GridWeb ile çalışan başlangıç düzeyindeki geliştiriciler için faydalıdır.
 
 {{% /alert %}} 
-## **Visual Studio 2013'ü Kullanarak Aspose.Cells.GridWeb ile Çalışma**
-Bu konu, Visual Studio 2013'te örnek bir web sitesi yaparak Aspose.Cells.GridWeb'in nasıl kullanılacağını gösterir. İşlem, adımlara ayrılmıştır.
-### **1. Adım: Yeni Web Sitesi Oluşturma**
+## **Visual Studio 2013 Kullanarak Aspose.Cells.GridWeb ile Çalışma**
+Bu konu, Visual Studio 2013'te bir örnek web sitesi oluşturarak Aspose.Cells.GridWeb'i nasıl kullanacağını gösterir. İşlem adımlara bölünmüştür.
+### **Adım 1: Yeni Web Sitesi Oluşturma**
 1. Visual Studio 2013'ü açın.
-1.  itibaren**Dosya** menü, seç**Yeni Menü** , o zamanlar**İnternet sitesi**. 
+1. **Dosya** menüsünden **Yeni** menüsünü seçin, ardından **Web Sitesi**'ni seçin. 
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_1.png)
-
-
- Yeni Web Sitesi iletişim kutusu açılır.
-
-1.  Seçme**ASP.NET Web Formları Sitesi** Visual Studio yüklü şablonlardan.
-1.  Web sitesinin konumu için HTTP modunu seçin.
-
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_2.png)
+![todo:image_alt_text](working-with-visual-studio_1.png)
 
 
+Yeni Web Sitesi iletişim kutusu açılır. 
 
+1. Visual Studio yüklü şablonlardan **ASP.NET Web Forms Sitesi**'ni seçin.
+1. Web sitesi konumu için HTTP modunu seçin. 
 
-1.  Web sitesi dosyalarının oluşturulacağı ve depolanacağı konumu belirtin.
- 1. tıklayın**Araştır** Yeni Web Sitesi iletişim kutusunda.
-
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_3.png)
-
-
-
- Konum Seç iletişim kutusu görüntülenir.
-
-1.  Tıkla**Yerel IIS** sekme.
-IIS kök klasörünüzde saklanan tüm klasörler ve web uygulamaları görüntülenir (örneğin: C:\Inetpub\wwwroot).
-
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_4.png)
+![todo:image_alt_text](working-with-visual-studio_2.png)
 
 
 
 
-1. Şimdi yerel IIS'nizde web sitesi dosyalarının depolanacağı yeni bir web uygulaması oluşturun.
- Konum Seç iletişim kutusu, yerel IIS'nizde web uygulamaları veya sanal dizinler oluşturmanıza ve silmenize olanak tanır. Bir web uygulaması oluşturmak için aşağıdaki şekilde gösterildiği gibi bir düğmeyi tıklayın.
+1. Web sitesi dosyalarının oluşturulacağı ve depolanacağı bir konum belirtin. 
+   1. Yeni Web Sitesi iletişim kutusunda **Gözat**'a tıklayın. 
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_5.png)
-
-
-
- WebSite varsayılan adıyla yeni bir web uygulaması oluşturulur.
-
-1. Web uygulamasını yeniden adlandırın. Adını GridWebOn2013 olarak değiştirdik.
-1.  Tıklamak**Açık**. 
-
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_6.png)
+![todo:image_alt_text](working-with-visual-studio_3.png)
 
 
 
- Yeni Web Sitesi iletişim kutusuna dönersiniz. Web sitesi konumunun yolu şu şekilde ayarlanmıştır:<http://localhost/GridWebOn2013>. 
+Konum Seç iletişim kutusu görüntülenir. 
 
-1.  Tıklamak**Tamam** Visual Studio'nun bir web sitesi oluşturmasına izin vermek için.
+1. **Yerel IIS** sekmesine tıklayın.
+   IIS kök klasöründe depolanan tüm klasörler ve web uygulamaları görüntülenir (örneğin: C:\Inetpub\wwwroot). 
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_7.png)
-### **2. Adım: Bir Web Sayfasının Kaynak ve Tasarım Görünümlerini Kontrol Etme**
- Varsayılan bir web sitesi, Visual Studio 2013 tarafından oluşturulmuş olacaktır. Bu, bazı sahte metin ve işaretlemeler içeren bir default.aspx web sayfası içerir.
+![todo:image_alt_text](working-with-visual-studio_4.png)
+
+
+
+
+1. Şimdi, web sitesi dosyalarının depolanacağı yerel IIS'de yeni bir web uygulaması oluşturun.
+   Konum Seçme iletişim kutusu, yerel IIS'de web uygulamaları veya sanal dizinler oluşturmanıza veya silmenize izin verir. Bir web uygulaması oluşturmak için, aşağıdaki şekilde gösterildiği gibi bir düğmeye tıklayın. 
+
+![todo:image_alt_text](working-with-visual-studio_5.png)
+
+
+
+Varsayılan adı WebSite olan yeni bir web uygulaması oluşturulur. 
+
+1. Web uygulamasının adını değiştirin. Biz ona GridWebOn2013 olarak yeniden adlandırdık.
+1. **Aç**'a tıklayın. 
+
+![todo:image_alt_text](working-with-visual-studio_6.png)
+
+
+
+You return to the New Web Site dialog. The path of web site location is set to <http://localhost/GridWebOn2013>. 
+
+1. Visual Studio'nun bir web sitesi oluşturmasına izin vermek için **Tamam**'a tıklayın. 
+
+![todo:image_alt_text](working-with-visual-studio_7.png)
+### **Adım 2: Bir Web Sayfasının Kaynak ve Tasarım Görünümlerini Kontrol Etme**
+Visual Studio 2013 tarafından varsayılan bir web sitesi oluşturulmuş olacak. Bazı sahte metin ve işaretleme içeren default.aspx web sayfasını içerir. 
 
 **default.aspx sayfasının kaynak görünümü** 
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_8.png)
+![todo:image_alt_text](working-with-visual-studio_8.png)
 
 
 
-Tüm web sayfaları (ASP.NET dahil) iki modda açılabilir. Biri, geliştiricilerin kaynak koduna erişmesine ve değiştirmesine izin veren kaynak görünümüdür. İkinci mod, web sayfalarını WYSIWYG tarzında tasarlamak için kullanılabilen tasarım görünümüdür. Yukarıdaki ekran görüntüsü default.aspx web sayfasının kaynak görünümünü göstermektedir. Tasarım görünümünü görüntülemek için tıklayın**Tasarım**. 
+Tüm web sayfaları (ASP.NET dahil) iki modda açılabilir. Birincisi geliştiricilere kaynak koduna erişme ve değiştirme imkanı veren kaynak görünümdür. İkinci mod ise WYSIWYG şekilde web sayfalarını tasarlamak için kullanılan tasarım görünümüdür. Yukarıdaki ekran görüntüsü, default.aspx web sayfasının kaynak görünümünü gösterir. Tasarım görünümünü görmek için **Tasarım**'a tıklayın. 
 
 **default.aspx sayfasının tasarım görünümü** 
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_9.png)
+![todo:image_alt_text](working-with-visual-studio_9.png)
 
 
 
 
-Visual Studio tarafından eklenen Default.aspx sayfasını silin ve yeni bir boş Default.aspx sayfası ekleyin.
+Visual Studio tarafından eklenen Default.aspx sayfasını silin ve yeni boş bir Default.aspx sayfası ekleyin.
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_10.png)
-### **3. Adım: Aspose.Cells.GridWeb'i Web Sayfasına Ekleme**
- Aspose.Cells.GridWeb (veya GridWeb) kontrolünü araç kutusundan sürükleyerek bir web sayfasına ekleyebilirsiniz.
+![todo:image_alt_text](working-with-visual-studio_10.png)
+### **Adım 3: Bir Web Sayfasına Aspose.Cells.GridWeb Eklemek**
+Aspose.Cells.GridWeb (veya GridWeb) denetimini, araç kutusundan sürükleyerek bir web sayfasına kolayca ekleyebilirsiniz. 
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_11.png)
+![todo:image_alt_text](working-with-visual-studio_11.png)
 
 
 
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb'i araç kutusuna nasıl ekleyeceğinizi bilmiyorsanız, bkz.[Aspose.Cells Izgara Denetimlerini Visual Studio.NET ile entegre edin](/cells/tr/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/). 
+Aspose.Cells.GridWeb'i araç kutusuna nasıl ekleyeceğiniz hakkında bilginiz yoksa, [Visual Studio.NET ile Aspose.Cells Grid Kontrollerini Entegre Etmek](/cells/tr/net/aspose-cells-gridweb/integrate-aspose-cells-grid-controls-with-visual-studio-net/) sayfasına bakın. 
 
 {{% /alert %}} 
 
- GridWeb kontrolü web sayfasına bırakıldığında, şöyle görünür:
+GridWeb denetimi bir web sayfasına sürüklenirse şöyle görünecektir: 
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_12.png)
+![todo:image_alt_text](working-with-visual-studio_12.png)
 
 
 
-### **4. Adım: <!DOCTYPE> etiketini değiştirin**
-1.  Kaynak görünüme geçin ve aşağıdakileri bulun**<!BELGE TÜRÜ>** kaynak kodundaki etiket:
+### **Step 4: Change the <!DOCTYPE> tag**
+1. Switch to source view and find the following **<!DOCTYPE>** tag in the source code: 
 
 **ASP.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -122,17 +125,17 @@ Visual Studio tarafından eklenen Default.aspx sayfasını silin ve yeni bir bo�
 
 {{< /highlight >}}
 
-1.  Tam etiketi seçin.
+1. Tüm etiketi seçin. 
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_13.png)
-
-
+![todo:image_alt_text](working-with-visual-studio_13.png)
 
 
-1.  Saklayın, değiştirin veya silin<!DOCTYPE> etiket.
-1.  Veya değiştir<!DOCTYPE> aşağıdaki ile etiketleyin:
 
-{{< highlight "csharp" >}}
+
+1. Retain, change or delete the <!DOCTYPE> tag.
+1. Or modify the <!DOCTYPE> tag with the following one: 
+
+{{< highlight csharp >}}
 
 
 
@@ -141,33 +144,33 @@ Visual Studio tarafından eklenen Default.aspx sayfasını silin ve yeni bir bo�
 
 
 {{< /highlight >}}
-### **5. Adım: Aspose.Cells.GridWeb Denetimini Yeniden Boyutlandırma**
- Web sitesine sürükledikten sonra GridWeb kontrolünün genişliğini ve yüksekliğini değiştirebilirsiniz.
+### **Adım 5: Aspose.Cells.GridWeb Denetimini Yeniden Boyutlandırma**
+GridWeb denetimini web sitesine sürükledikten sonra genişlik ve yüksekliğini değiştirebilirsiniz. 
 
- Tasarım görünümünde, GridWeb'in genişliğini ve yüksekliğini yeniden boyutlandırabilirsiniz.
+Tasarım görünümünde, GridWeb'in genişliğini ve yüksekliğini yeniden boyutlandırabilirsiniz. 
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_14.png)
-
-
-
-### **Adım 6: Aspose.Cells.GridWeb'in Özelliklerini Yapılandırma**
- Aspose.Cells.GridWeb özelliklerini WYSIWYG'de aşağıdakilere tıklayarak yapılandırın:**Özellikler** Visual Studio 2013 IDE'nin sağ tarafındaki düğme.
- Bir Özellikler iletişim kutusu görüntülenir.
-
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_15.png)
+![todo:image_alt_text](working-with-visual-studio_14.png)
 
 
 
-Özellikler bölmesi, GridWeb'in görünüşünü ve hissini ve GridWeb'in davranışını kontrol etmek için diğer bazı özellikleri yapılandırmayı mümkün kılar.
-### **7. Adım: Aspose.Cells.GridWeb İçeren İlk Web Sitenizi Çalıştırma**
- Web sitesini oluşturun ve çalıştırın.
+### **Adım 6: Aspose.Cells.GridWeb Özelliklerini Yapılandırma**
+Aspose.Cells.GridWeb özelliklerini Visual Studio 2013 IDE'nin sağ tarafındaki **Özellikler** düğmesine tıklayarak WYSIWYG şekilde yapılandırın. 
+Bir Özellikler iletişim kutusu görüntülenir. 
 
-1.  Ctrl+F5 tuşlarına basarak veya tıklayarak web sitesini doğrudan Visual Studio'dan çalıştırın.**Hata Ayıklamayı Başlat**. 
+![todo:image_alt_text](working-with-visual-studio_15.png)
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_16.png)
 
- Artık GridWeb kontrolü ile oynamaya başlayabilirsiniz.
 
-**Eylemde GridWeb kontrolü** 
+Özellikler paneli, GridWeb'in görünümünü yapılandırmanızı ve diğer bazı özellikleri kontrol etmenizi sağlar.
+### **Adım 7: İçinde Aspose.Cells.GridWeb Bulunan İlk Web Sitesini Çalıştırma**
+Web sitesini derleyin ve çalıştırın. 
 
-![yapılacaklar:resim_alternatif_metin](working-with-visual-studio_17.png)
+1. Ctrl+F5'e basarak veya **Hata Ayıklamayı Başlat**'a tıklayarak web sitesini doğrudan Visual Studio'dan çalıştırın. 
+
+![todo:image_alt_text](working-with-visual-studio_16.png)
+
+Şimdi GridWeb denetimiyle oynamaya başlayabilirsiniz. 
+
+**Aksiyon Halindeki GridWeb denetimi** 
+
+![todo:image_alt_text](working-with-visual-studio_17.png)

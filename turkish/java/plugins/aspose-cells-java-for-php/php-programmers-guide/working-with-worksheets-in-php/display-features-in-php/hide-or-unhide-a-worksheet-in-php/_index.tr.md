@@ -1,16 +1,17 @@
-﻿---
-title: Php'de Bir Çalışma Sayfasını Gizle veya Göster
+---
+title: Php de Çalışma Sayfasını Gizle veya Göster
 type: docs
 weight: 50
 url: /tr/java/hide-or-unhide-a-worksheet-in-php/
 ---
-## **Aspose.Cells - Bir Çalışma Sayfasını Gizle veya Göster**
-### **Bir Çalışma Sayfasını Gizleme**
- Aspose.Cells Java for PHP'i kullanarak çalışma sayfasını gizlemek için arayın**çalışma sayfasını gizle** modül.
 
-**PHP Kodu**
+## **Aspose.Cells - Bir Çalışsayı Gizle veya Göster**
+### **Bir Çalışsayıyı Gizleme**
+Aspose.Cells Java for PHP kullanarak çalışma sayfasını gizlemek için **hideunhideworksheet** modülünü çağırın.
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -33,6 +34,6 @@ $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Bir Çalışma Sayfasını Gizle veya Göster (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Aspose.Cells** ile Bir Çalışsayıyı Gizle veya Göster'i indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/HideUnhideWorksheet.php)

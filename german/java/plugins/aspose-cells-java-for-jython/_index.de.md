@@ -1,72 +1,73 @@
-﻿---
-title: Aspose.Cells Java für Jython
+---
+title: Aspose.Cells Java for Jython
 type: docs
 weight: 70
 url: /de/java/aspose-cells-java-for-jython/
 ---
+
 ## **Einführung**
 
-### **Was ist Jyton?**
+### **Was ist Jython?**
 
-Jython ist eine Java-Implementierung von Python, die Ausdruckskraft mit Klarheit verbindet. Jython ist sowohl für die kommerzielle als auch für die nicht-kommerzielle Nutzung frei verfügbar und wird mit Quellcode verteilt. Jython ist komplementär zu Java und eignet sich besonders für folgende Aufgaben:
+Jython ist eine Java-Implementierung von Python, die Ausdruckskraft mit Klarheit kombiniert. Jython ist frei für kommerzielle und nicht-kommerzielle Nutzung und wird mit dem Quellcode verteilt. Jython ergänzt Java und eignet sich besonders für die folgenden Aufgaben:
 
-- **Eingebettete Skripterstellung** - Java Programmierer können die Jython-Bibliotheken zu ihrem System hinzufügen, damit Endbenutzer einfache oder komplizierte Skripte schreiben können, die der Anwendung Funktionalität hinzufügen.
-- **Interaktives Experimentieren** - Jython bietet einen interaktiven Interpreter, der zur Interaktion mit Java-Paketen oder mit laufenden Java-Anwendungen verwendet werden kann. Dies ermöglicht Programmierern, jedes Java-System mit Jython zu experimentieren und zu debuggen.
-- **Schnelle Anwendungsentwicklung** Python-Programme sind in der Regel 2-10 Mal kürzer als das entsprechende Java-Programm. Dies führt direkt zu einer erhöhten Programmiererproduktivität. Die nahtlose Interaktion zwischen Python und Java ermöglicht es Entwicklern, die beiden Sprachen sowohl während der Entwicklung als auch beim Versand von Produkten frei zu mischen.
+- **Eingebettetes Skripting** - Java-Programmierer können die Jython-Bibliotheken zu ihrem System hinzufügen, um Endbenutzern das Schreiben einfacher oder komplizierter Skripte zu ermöglichen, die der Anwendung Funktionalität hinzufügen.
+- **Interaktive Experimente** - Jython bietet einen interaktiven Interpreter, der zur Interaktion mit Java-Paketen oder zur Interaktion mit laufenden Java-Anwendungen verwendet werden kann. Dies ermöglicht es Programmierern, jedes Java-System mithilfe von Jython zu experimentieren und zu debuggen.
+- **Schnelle Anwendungsentwicklung** - Python-Programme sind typischerweise 2-10-mal kürzer als das entsprechende Java-Programm. Dies führt direkt zu einer erhöhten Produktivität der Programmierer. Die nahtlose Interaktion zwischen Python und Java ermöglicht Entwicklern, beide Sprachen sowohl während der Entwicklung als auch beim Versand von Produkten frei zu mischen.
 
 ### **Aspose.Cells for Java**
 
-Aspose.Cells for Java ist eine erweiterte Klassenbibliothek for Java, mit der Sie eine große Auswahl an Dokumentenverarbeitungsaufgaben direkt in Ihrem Java ausführen können
+Aspose.Cells for Java ist eine fortgeschrittene Klassenbibliothek für Java, die es Ihnen ermöglicht, eine große Bandbreite von Dokumentenverarbeitungsaufgaben direkt in Ihrem Java durchzuführen
 Anwendungen.
 
-Aspose.Cells for Java unterstützt die Verarbeitung von Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF und allen Bildformaten. Mit Aspose.Cells geht das
-Erstellen, ändern und konvertieren Sie Dokumente ohne Microsoft Cells.
+Aspose.Cells for Java unterstützt die Verarbeitung von Zellen (DOC, DOCX, OOXML, RTF), HTML, OpenDocument, PDF, EPUB, XPS, SWF und alle Bildformate. Mit Aspose.Cells können Sie
+Dokumente generieren, ändern und konvertieren, ohne Microsoft Cells zu verwenden.
 
-### **Aspose.Cells Java für Jython**
+### **Aspose.Cells Java for Jython**
 
-Aspose.Cells Java für Jython ist ein Projekt, das die Verwendungsbeispiele Aspose.Cells for Java API in Jython demonstriert / bereitstellt.
+Aspose.Cells Java für Jython ist ein Projekt, das Aspose.Cells for Java API-Verwendungsbeispiele in Jython demonstriert/bereitstellt.
 
 ## **Systemanforderungen und unterstützte Plattformen**
 
-### **System Anforderungen**
+### **Systemanforderungen**
 
-**Im Folgenden sind die Systemanforderungen für die Verwendung von Aspose.Cells Java für Jython aufgeführt:**
+- Jython 2.7.0
 
 - Java 1.5 oder höher installiert
-- Komponente Aspose.Cells heruntergeladen
+- Aspose.Cells-Komponente heruntergeladen
 - Jython 2.7.0
 
 ### **Unterstützte Plattformen**
 
-**Im Folgenden sind die unterstützten Plattformen aufgeführt:**
+**Folgende Plattformen werden unterstützt:**
 
 - Aspose.Cells 15.4 und höher.
-- Java IDE (Eclipse, NetBeans ...)
+- Java-IDE (Eclipse, NetBeans...)
 
-## **Installation und Verwendung herunterladen**
+## **Herunterladen der Installation und Nutzung**
 
-### **wird heruntergeladen**
+### **Herunterladen**
 
-**Laden Sie Beispiele von Social-Coding-Websites herunter**
+**Beispielsdownloads von Social-Coding-Websites**
 
-Die folgenden Versionen von Laufbeispielen stehen auf allen unten genannten Social-Coding-Sites zum Download zur Verfügung:
+Die folgenden Versionen von laufenden Beispielen sind zum Download auf allen unten genannten Social-Coding-Sites verfügbar:
 
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Jython-v1.0.0)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Jython-v1.0.0)
 
-**Laden Sie die Komponente Aspose.Cells for Java herunter**
+**Download Aspose.Cells for Java-Komponente**
 
 - [Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 
-### **Installieren**
+### **Installation**
 
-- Platzieren Sie die heruntergeladene JAR-Datei Aspose.Cells for Java im Verzeichnis „lib“.
-- Ersetzen Sie „your-lib“ durch den heruntergeladenen JAR-Dateinamen in der Datei _*init*_.py.
+- Platziere die heruntergeladene Aspose.Cells for Java-JAR-Datei im "lib"-Verzeichnis.
+- Ersetze "your-lib" durch den heruntergeladenen JAR-Dateinamen in der _*init*_.py-Datei.
 
-### **Verwenden**
+### **Verwendung**
 
-Sie können ein HelloWorld-Dokument mit folgendem Beispielcode erstellen:
+Du kannst das HelloWorld-Dokument mit folgendem Beispielcode erstellen:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells  import Settings
 
@@ -114,24 +115,24 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 
-## **Unterstützen, erweitern und beitragen**
+## **Unterstützung, Erweitern und Beitrag leisten**
 
 ### **Unterstützung**
 
-Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
+Von den allerersten Tagen von Aspose an wussten wir, dass es nicht ausreichen würde, unseren Kunden einfach gute Produkte anzubieten. Wir mussten auch guten Service liefern. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Eigenart der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht sie zu schaffen.
 
-Aus diesem Grund bieten wir kostenlosen Support an. Jeder, der unser Produkt verwendet, ob er es gekauft hat oder eine Bewertung verwendet, verdient unsere volle Aufmerksamkeit und unseren Respekt.
+Deshalb bieten wir kostenlosen Support an. Jeder, der unsere Produkte verwendet, egal ob sie sie gekauft haben oder eine Evaluierung durchführen, verdient unsere volle Aufmerksamkeit und Respekt.
 
-Sie können alle Probleme oder Vorschläge im Zusammenhang mit Aspose.Cells Java für Jython über eine der folgenden Plattformen protokollieren:
+Du kannst jegliche Probleme oder Vorschläge im Zusammenhang mit Aspose.Cells Java für Jython über eine der folgenden Plattformen melden:
 
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
-### **Erweitern und beitragen**
+### **Ausweiten und Beitrag leisten**
 
-Aspose.Cells Java für Jython ist Open Source und sein Quellcode ist auf den unten aufgeführten wichtigen Social-Coding-Websites verfügbar. Entwickler werden ermutigt, den Quellcode herunterzuladen und einen Beitrag zu leisten, indem sie neue Funktionen vorschlagen oder hinzufügen oder die vorhandenen verbessern, damit auch andere davon profitieren können.
+Aspose.Cells Java für Jython ist Open Source und der Quellcode ist auf den unten aufgeführten großen sozialen Coding-Websites verfügbar. Entwickler sind dazu ermutigt, den Quellcode herunterzuladen und durch Vorschläge oder das Hinzufügen neuer Funktionen oder die Verbesserung bestehender dazu beizutragen, damit auch andere davon profitieren können.
 
 ### **Quellcode**
 
-Den neuesten Quellcode erhalten Sie von einer der folgenden Stellen
+Sie können den neuesten Quellcode von einem der folgenden Standorte erhalten
 
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Jython-v1.0.0)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Jython-v1.0.0)

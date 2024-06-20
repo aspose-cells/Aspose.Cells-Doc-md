@@ -1,23 +1,24 @@
-﻿---
-title: Regola il livello di compressione della cartella di lavoro
+---
+title: Regola il livello di compressione del workbook
 type: docs
 weight: 130
 url: /it/java/adjust-workbook-compression-level/
 ---
-## **Regola il livello di compressione della cartella di lavoro**
 
-Gli sviluppatori possono regolare il livello di compressione della cartella di lavoro quando lavorano con cartelle di lavoro più grandi. Gli sviluppatori possono dare la priorità a file di dimensioni inferiori rispetto al tempo di elaborazione o viceversa. Aspose.Cells fornisce**[OoxmlCompressionType](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)**enumerazione che è possibile utilizzare per impostare il livello di compressione della cartella di lavoro. Il**[OoxmlCompressionType](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)** enumerazione fornisce i seguenti membri.
+## **Regola il livello di compressione del workbook**
 
-- **[LEVEL_1](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_1)**: la compressione più veloce ma meno efficace.
-- **[LEVEL_2](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_2)**: Un po' più lento, ma migliore, del livello 1.
-- **[LEVEL_3](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_3)**Un po' più lento, ma migliore, del livello 2.
-- **[LEVEL_4](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_4)**: Un po' più lento, ma migliore, del livello 3.
-- **[LEVEL_5](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_5)**: Un po' più lento del livello 4, ma con una migliore compressione.
-- **[LEVEL_6](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_6)**: Un buon equilibrio tra velocità ed efficienza di compressione.
-- **[LEVEL_7](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_7)**: Compressione abbastanza buona!
-- **[LEVEL_8](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_8)**: Migliore compressione rispetto a Level7!
-- **[LEVEL_9](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_9)**La compressione "migliore", dove migliore significa la massima riduzione delle dimensioni del flusso di dati di input. Questa è anche la compressione più lenta.
+Gli sviluppatori possono regolare il livello di compressione del workbook quando lavorano con workbook più grandi. Gli sviluppatori possono dare priorità alle dimensioni dei file più piccole rispetto al tempo di elaborazione o viceversa. Aspose.Cells fornisce l'enumerazione [**OoxmlCompressionType**](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType) che puoi utilizzare per impostare il livello di compressione del workbook. L'enumerazione [**OoxmlCompressionType**](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType) fornisce i seguenti membri.
 
-Il seguente frammento di codice illustra l'uso di**[OoxmlCompressionType](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)** enumerazione e confronta il tempo di conversione per**[LEVEL_1](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_1)**, **[LEVEL_6](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_6)** , e**[LEVEL_9](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_9)**. Puoi anche confrontare le dimensioni dei file generati.
+- [**LEVEL_1**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_1): La compressione più veloce ma meno efficace.
+- [**LEVEL_2**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_2): Un po' più lenta ma migliore del livello 1.
+- [**LEVEL_3**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_3): Un po' più lenta ma migliore del livello 2.
+- [**LEVEL_4**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_4): Un po' più lenta ma migliore del livello 3.
+- [**LEVEL_5**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_5): Un po' più lenta del livello 4, ma con una migliore compressione.
+- [**LEVEL_6**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_6): Un buon equilibrio tra velocità ed efficienza di compressione.
+- [**LEVEL_7**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_7): Buona compressione!
+- [**LEVEL_8**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_8): Migliore compressione rispetto al livello 7!
+- [**LEVEL_9**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_9): La compressione "migliore", dove migliore significa la maggiore riduzione delle dimensioni del flusso di dati in ingresso. Questa è anche la compressione più lenta.
+
+Il seguente frammento di codice dimostra l'uso dell'enumerazione [**OoxmlCompressionType**](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType) e confronta il tempo di conversione per [**LEVEL_1**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_1), [**LEVEL_6**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_6) e [**LEVEL_9**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_9). È inoltre possibile confrontare le dimensioni dei file generati.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AdjustCompressionLevel-1.java" >}}

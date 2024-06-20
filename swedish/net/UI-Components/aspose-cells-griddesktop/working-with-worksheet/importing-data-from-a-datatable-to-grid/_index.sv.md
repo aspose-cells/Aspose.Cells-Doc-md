@@ -1,26 +1,29 @@
-﻿---
-title: Importera data från en datatabell till rutnät
+---
+title: Importera data från en DataTable till Rutnätet
 type: docs
 weight: 50
-url: /sv/net/importing-data-from-a-datatable-to-grid/
+url: /sv/net/aspose-cells-griddesktop/import-data-from-a-datatable-to-grid/
+keywords: GridDesktop, import, data, datatable
+description: Den här artikeln introducerar hur man importerar data i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Sedan släppet av ramverket .NET har Microsoft varit ett utmärkt sätt att lagra data i offlineläge i form av ett DataTable-objekt. För att förstå utvecklarnas behov stöder Aspose.Cells.GridDesktop också import av data från en datatabell. Det här ämnet diskuterar hur man gör detta.
+Sedan utgivningen av .NET Framework har Microsoft gett ett utmärkt sätt att lagra data i offlineläge i form av ett DataTable-objekt. Förstående utvecklares behov stöder även Aspose.Cells.GridDesktop import av data från en datatabell. Detta ämne diskuterar hur man gör detta.
 
 {{% /alert %}} 
 ## **Exempel**
-Så här importerar du innehållet i en datatabell med Aspose.Cells.GridDesktop-kontroll:
+För att importera innehållet i en datatabell med hjälp av Aspose.Cells.GridDesktop-kontrollen:
 
-1. Lägg till Aspose.Cells.GridDesktop-kontroll i ett formulär.
-1. Skapa ett DataTable-objekt som innehåller data som ska importeras.
-1. Få referensen till ett önskat arbetsblad.
-1. Importera datatabellens innehåll till kalkylbladet.
-1. Ställ in kolumnrubrikerna i kalkylbladet enligt kolumnnamnen i datatabellen.
-1. Ställ in bredden på kolumnerna, om så önskas/
+1. Lägg till Aspose.Cells.GridDesktop-kontrollen på en form.
+1. Skapa ett DataTable-objekt som innehåller datan som ska importeras.
+1. Hämta en referens till ett önskat arbetsblad.
+1. Importera datatabellens innehåll till arbetsbladet.
+1. Ställ in arbetsbladets kolumnrubriker enligt kolumnnamnen i datatabellen.
+1. Ställ in bredden på kolumnerna, om så önskas.
 1. Visa arbetsbladet.
 
-I exemplet nedan har vi skapat ett DataTable-objekt och fyllt det med en del data hämtade från en databastabell med namnet Products. Slutligen har vi importerat data från det DataTable-objektet till ett önskat kalkylblad med Aspose.Cells.GridDesktop.
+I det givna exemplet nedan har vi skapat ett DataTable-objekt och fyllt det med viss data hämtad från en databastabell som heter Produkter. Slutligen har vi importerat data från det DataTable-objektet till ett önskat arbetsblad med hjälp av Aspose.Cells.GridDesktop.
 
 
 

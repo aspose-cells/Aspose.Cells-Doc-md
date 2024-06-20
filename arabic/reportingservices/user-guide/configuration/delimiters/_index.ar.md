@@ -1,14 +1,15 @@
-﻿---
-title: المحددات
+---
+title: فواصل
 type: docs
 weight: 20
 url: /ar/reportingservices/delimiters/
 ---
-Aspose.Cells for Reporting Services يدعم المحدد المحدد عند تحويل تنسيق TXT أو CSV. يتحكم إعدادان في محدد المجال في Aspose.Cells for Reporting Services.
 
-1.  معلمة محدد الحقل في**rsreportserver.config** يمكن فقط التحكم في امتداد العرض المحدد.
+يدعم Aspose.Cells for Reporting Services فاصلاً محددًا عند تقديم شكل TXT أو CSV. تتحكم إعداداتان في فاصل الحقل في Aspose.Cells for Reporting Services.
 
-{{< highlight "java" >}}
+1. لا يمكن لمعلمة فاصل الحقل في **rsreportserver.config** التحكم في توسيع التقرير المحدد فقط. 
+
+{{< highlight java >}}
 
  <Extension Name="ACTXT" Type="Aspose.Cells.ReportingServices.TabDelimitedRenderer,Aspose.Cells.ReportingServices" >
 
@@ -64,9 +65,9 @@ Specified field delimiters configuration reference:
 
 
 
-1.  معلمة محدد الحقل في**Aspose.Cells.ReportingServices.xml** يمكن التحكم في جميع امتدادات تجسيد نوع TXT.
+1. يمكن لمعلمة فاصل الحقل في **Aspose.Cells.ReportingServices.xml** التحكم في جميع توسيعات تقرير نوع TXT. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 
 
@@ -87,4 +88,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- معلمة محدد الحقل في**rsreportserver.config** له الأولوية على معلمة محدد الحقل في**Aspose.Cells.ReportingServices.xml** . عندما تكون معلمة محدد الحقل في**rsreportserver.config** هي القيمة الخالية أو القيمة الافتراضية ، فإن معلمة محدد الحقل في**Aspose.Cells.ReportingServices.xml** يستخدم.
+تأخذ معلمة فاصل الحقل في **rsreportserver.config** الأولوية على معلمة فاصل الحقل في **Aspose.Cells.ReportingServices.xml**. عندما تكون معلمة فاصل الحقل في **rsreportserver.config** فارغة أو تحتوي على القيمة الافتراضية، يتم استخدام معلمة فاصل الحقل في **Aspose.Cells.ReportingServices.xml**.

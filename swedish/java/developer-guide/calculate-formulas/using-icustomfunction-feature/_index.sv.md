@@ -1,35 +1,36 @@
 ---
-title: Använder ICustomFunction-funktionen
+title: Använda funktionen ICustomFunction
 type: docs
 weight: 890
 url: /sv/java/using-icustomfunction-feature/
 ---
+
 {{% alert color="primary" %}} 
 
-Den här artikeln ger en detaljerad förståelse för hur du använder ICustomFunction-funktionen för att implementera anpassade funktioner med Aspose.Cells API:er.
+Den här artikeln ger en detaljerad förståelse för hur man använder ICustomFunction-funktionen för att implementera anpassade funktioner med Aspose.Cells API:er.
 
-ICustomFunction-gränssnittet gör det möjligt att lägga till anpassade formelberäkningsfunktioner för att utöka Aspose.Cells' kärnberäkningsmotor för att uppfylla vissa krav. Den här funktionen är användbar för att definiera anpassade (användardefinierade) funktioner i en mallfil eller i kod där den anpassade funktionen kan implementeras och utvärderas med Aspose.Cells API:er som vilken annan standard Microsoft Excel-funktion som helst.
+ICustomFunction-gränssnittet tillåter att lägga till anpassade formelberäkningsfunktioner för att utöka Aspose.Cells kärnberäkningsmotor för att uppfylla vissa krav. Denna funktion är användbar för att definiera anpassade (användardefinierade) funktioner i en mallfil eller i kod där den anpassade funktionen kan implementeras och utvärderas med Aspose.Cells API:er som vilken annan standardfunktion som helst i Microsoft Excel.
 
- Observera att detta gränssnitt har ersatts av[AbstractCalculation Engine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) och kommer att tas bort i framtiden. Några tekniska artiklar/exempel om nya API:[här](/cells/sv/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) och[här](/cells/sv/java/returning-a-range-of-values-using-abstractcalculationengine/)
+Observera, detta gränssnitt har ersatts av [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) och kommer att tas bort i framtiden. Vissa tekniska artiklar/provexempel om den nya API:en: [här](/cells/sv/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) och [här](/cells/sv/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Om du är ny med Aspose.Cells for Java API:er, kontrollera[detta](https://docs.aspose.com/cells/java/installation/) artikel för att veta hur du kan förvärva och referera till Aspose.Cells for Java i ditt projekt.
+Om du är ny till Aspose.Cells for Java API:erna, vänligen kolla [den här](https://docs.aspose.com/cells/java/installation/) artikeln för att veta hur du kan skaffa och referera till Aspose.Cells for Java i ditt projekt.
 
 {{% /alert %}} 
-##  **Skapa och utvärdera en användardefinierad funktion**
- Den här artikeln visar implementeringen av ICustomFunction-gränssnittet för att skriva en anpassad funktion och använda den i kalkylarket för att få resultaten. Vi kommer att definiera en anpassad funktion efter namn**MyFunc** som accepterar 2 parametrar med följande detaljer.
+## **Skapa och utvärdera en användardefinierad funktion**
+Den här artikeln demonstrerar implementeringen av ICustomFunction-gränssnittet för att skriva en anpassad funktion och använda den i kalkylarket för att få resultaten. Vi kommer att definiera en anpassad funktion vid namn **MyFunc** som kommer att acceptera 2 parametrar med följande detaljer.
 
-- Den första parametern hänvisar till en enskild cell
-- Den andra parametern hänvisar till ett cellintervall
+- Första parametern hänvisar till en enda cell
+- Andra parametern hänvisar till en rad av celler
 
-Den anpassade funktionen kommer att lägga till alla värden från cellområdet som anges som 2:a parametern och dividera resultatet med värdet i den 1:a parametern.
+Den anpassade funktionen kommer att lägga till alla värden från cellområdet som anges som 2: a parameter och dela resultatet med värdet i den första parametern.
 
-Så här har vi implementerat calculateCustomFunction-metoden.
+Här är hur vi har implementerat metoden calculateCustomFunction.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomFunction implements ICustomFunction
 
@@ -93,11 +94,11 @@ Så här har vi implementerat calculateCustomFunction-metoden.
 
 {{< /highlight >}}
 
-Så här använder du den nydefinierade funktionen i ett kalkylblad
+Här är hur du använder den nyligen definierade funktionen i ett kalkylblad
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Open the workbook
 
@@ -148,12 +149,12 @@ worksheet.getCells().get("A1").putValue(worksheet.getCells().get("A1").getValue(
 workbook.save(dir + "UsingICustomFunction.xls");
 
 {{< /highlight >}}
-##  **Översikt**
-Aspose.Cells API:erna placerar bara ReferredArea-objektet i "paramsList" när motsvarande parameter är en referens eller dess beräknade resultat är referens. Om du behöver själva referensen kan du använda ReferredArea direkt. Om du behöver få värdet på en enskild cell från referensen som motsvarar formelns position, kan du använda metoden ReferredArea.getValue(rowOffset, int colOffset). Om du behöver en cellvärdesarray för hela området kan du använda metoden ReferredArea.getValues.
+## **Översikt**
+Aspose.Cells API: er lägger bara ReferredArea-objektet i "paramsList" när motsvarande parameter är en referens eller dess beräknade resultat är en referens. Om du behöver referensen själv kan du använda ReferredArea direkt. Om du behöver hämta värdet av en enskild cell från referensen som motsvarar formelns position kan du använda metoden ReferredArea.getValue(rowOffset, colOffset). Om du behöver cellvärden för hela området kan du använda metoden ReferredArea.getValues.
 
-Eftersom Aspose.Cells API:erna ger ReferredArea i "paramsList", kommer ReferredAreaCollection i "contextObjects" inte att behövas längre (i gamla versioner kunde den inte alltid ge en-till-en-karta till parametrarna för den anpassade funktionen) därför har tagits bort från "contextObjects".
+Eftersom Aspose.Cells API: er ger ReferredArea i "paramsList", kommer ReferredAreaCollection i "contextObjects" inte längre att behövas (i äldre versioner kunde den inte ge en-ett-karts till anpassade funktioners parametrar alltid) därför har den tagits bort från "contextObjects".
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public Object calculateCustomFunction(String functionName, ArrayList paramsList, ArrayList contextObjects)
 

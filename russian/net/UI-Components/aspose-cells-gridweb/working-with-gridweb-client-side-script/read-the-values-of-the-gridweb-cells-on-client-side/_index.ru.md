@@ -1,30 +1,33 @@
-﻿---
+---
 title: Чтение значений ячеек GridWeb на стороне клиента
 type: docs
 weight: 30
-url: /ru/net/read-the-values-of-the-gridweb-cells-on-client-side/
+url: /ru/net/aspose-cells-gridweb/read-the-values-of-the-gridweb-cells-on-client-side/
+keywords: GridWeb, ячейка, значение ячейки
+description: В этой статье рассматривается, как получить значение ячейки в GridWeb.
 ---
+
 ## **Возможные сценарии использования**
-Вы можете прочитать значения ячеек GridWeb в скрипте на стороне клиента, используя метод gridwebinstance.getCellsArray(). Как только вы его вызовете, он вернет массив всех ячеек на активном листе. Затем вы можете использовать следующие методы для получения значения и другой информации о ячейках.
+Вы можете считывать значения ячеек GridWeb на стороне клиента с использованием метода gridwebinstance.getCellsArray(). После вызова этого метода он вернет массив всех ячеек в активном листе. Затем вы можете использовать следующие методы для извлечения значения и другой информации о ячейках.
 
 - gridwebinstance.getCellName()
 - gridwebinstance.getCellValueByCell()
 - gridwebinstance.getCellRow()
 - gridwebinstance.getCellColumn()
 ## **Чтение значений ячеек GridWeb на стороне клиента**
-Следующий пример кода извлекает все ячейки, а затем печатает их имя, значение, строку и столбец. Вы можете увидеть его консольный вывод внизу этой статьи. На следующем снимке экрана показан вывод примера кода в консоли Google Chrome.
-## **Скриншот**
-![дело:изображение_альтернативный_текст](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+В следующем образце кода извлекаются все ячейки, а затем печатаются их имя, значение, строка и столбец. Вы можете увидеть вывод в консоли внизу этой статьи. На следующем скриншоте показан вывод в консоли образца кода в Google Chrome.
+## **Снимок экрана**
+![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCellsClientSide.aspx" >}}
 
-Пожалуйста, вызовите функцию JavaScript ReadGridWebCells(), как показано в приведенном выше примере кода.
+Пожалуйста, вызовите функцию JavaScript ReadGridWebCells() как показано в приведенном выше образце кода.
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCells.aspx" >}}
-## **Консольный вывод**
-Это консольный вывод приведенного выше примера кода.
+## **Вывод в консоль**
+Это вывод консоли вышеуказанного образца кода.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0:A1,value is:0 ,row:0,col:0
 

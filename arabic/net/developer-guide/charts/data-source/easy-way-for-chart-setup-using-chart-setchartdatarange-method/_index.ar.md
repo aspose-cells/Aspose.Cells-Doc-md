@@ -1,17 +1,18 @@
 ---
 title: طريقة سهلة لإعداد المخطط باستخدام طريقة Chart.SetChartDataRange
-description: تعرف على كيفية إعداد المخططات بسهولة باستخدام طريقة Chart.SetChartDataRange في Aspose.Cells for .NET. سيوضح لك دليلنا كيفية تحديد نطاق البيانات لمخططك، مما يسمح لك بإنشاء مخططات احترافية ودقيقة بأقل جهد.
+description: تعلم كيفية إعداد المخططات بسهولة باستخدام طريقة Chart.SetChartDataRange في Aspose.Cells for .NET. سيعرض لك دليلنا كيفية تحديد نطاق البيانات الخاص بمخططك، مما يتيح لك إنشاء مخططات احترافية ودقيقة بأقل جهد.
 keywrods: Aspose.Cells for .NET, charting, SetChartDataRange method, data range, professional, accurate, charts.
 type: docs
 weight: 190
 url: /ar/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells يوفر الآن[**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) طريقة لإعداد الرسم البياني بسهولة. باستخدام هذه الطريقة، لن تحتاج الآن إلى إضافة بيانات محور السلسلة والفئة بشكل منفصل.
+توفر Aspose.Cells الآن الطريقة [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) لإعداد المخطط بسهولة. باستخدام هذه الطريقة، لن تحتاج الآن إلى إضافة سلاسل البيانات وبيان المحور الفئة بشكل منفصل.
 
 {{% /alert %}}
 
- يشرح نموذج التعليمات البرمجية التالي الاستخدام[**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange)طريقة لإعداد الرسم البياني بسهولة.
+يشرح الكود النموذجي التالي استخدام [**Chart.SetChartDataRange()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/setchartdatarange) بشكل دقيق لإعداد المخطط بسهولة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChartSetupUsingSetChartDataRange-EasyWayToChartSetupUsingSetChartDataRange.cs" >}}

@@ -1,25 +1,28 @@
-﻿---
-title: Ürüne Genel Bakış
+---
+title: Ürün Genel Bakış
 type: docs
 weight: 9
 url: /tr/reportingservices/product-overview/
 ---
-![yapılacaklar:resim_alternatif_metin](product-overview_1.png)
-**Aspose.Cells for Reporting Services Dokümantasyona hoş geldiniz!**
-Aspose.Cells, geliştiricilerin Microsoft Excel'e güvenmeden Excel elektronik tablolarını okuma, yazma ve değiştirme becerisini kendi uygulamalarına yerleştirmelerine olanak tanıyan ödüllü bir elektronik tablo bileşenidir.
 
 
-**Ürüne Genel Bakış**
-Aspose.Cells for Reporting Services, Raporlama Servislerinde Microsoft Excel raporlarını teslim etmesi gereken geliştiriciler için bir çözümdür. Aspose.Cells.Report.Designer aracı aracılığıyla Raporlama Servislerine esnek ve kullanıcı dostu özellikler ekler. Raporlama Hizmetlerinde raporların geliştirilmesi ile ilgili veri kaynaklarının ayarlanması, sorguların oluşturulması, raporların tasarlanması ve Rapor Sunucusunda yayınlanması gibi tüm görevler gerçekleştirilebilir. Aspose.Cells.Report.Designer, rapor şablonu olarak Microsoft Excel'i kullandığından, kullanıcılar Microsoft Excel'de bulunan güçlü özelliklerden yararlanabilir.
 
-Aspose.Cells for Reporting Services bileşenini kullanarak rapor tasarlamanın iki yolu vardır. Boş bir Microsoft Excel şablonuyla başlayın ve ardından veri kaynaklarının ayarlanmasından raporların Rapor Sunucusu'na yayınlanmasına kadar görevleri tamamlayın. Veya veritabanı sorgularının kullanıma hazır olduğu mevcut bir RDL Raporu ile başlayın. Bu rotayı izleyen kullanıcıların yalnızca rapor tasarımına odaklanması gerekir. Bu yol, rapor tasarımını sorgu oluşturma işleminden ayırmak isteyen kullanıcılar için kullanışlıdır. İkincisi nispeten karmaşıktır ve veritabanı ve SQL becerileri olan kullanıcılar tarafından yapılmalıdır.
+![todo:image_alt_text](product-overview_1.png)
+**Aspose.Cells for Reporting Services Belgelerine Hoş Geldiniz!**
+Aspose.Cells, geliştiricilere kendi uygulamalarında Microsoft Excel'e bağlı kalmadan Excel elektronik tablolarını okuma, yazma ve manipüle etme yeteneği eklemelerine izin veren ödüllü bir elektronik tablo bileşenidir.
 
-**Aspose.Cells for Reporting Services kullanılarak oluşturulmuş örnek bir rapor** 
 
-![yapılacaklar:resim_alternatif_metin](product-overview_2.png)
+**Ürün Genel Bakışı**
+Aspose.Cells for Reporting Services, Raporlama Hizmetlerinde Microsoft Excel raporları sunmak isteyen geliştiriciler için bir çözümdür. Aspose.Cells.Report.Designer aracılığıyla Raporlama Hizmetlerine esnek ve kullanıcı dostu özellikler ekler. Raporlama Hizmetlerinde rapor geliştirmeye ilişkin tüm görevler - veri kaynaklarını kurma, sorgular oluşturma, rapor tasarlama ve raporları Rapor Sunucusuna yayınlama gibi - gerçekleştirilebilir. Aspose.Cells.Report.Designer, Microsoft Excel'i bir rapor şablonu olarak kullandığından, kullanıcılar Microsoft Excel'de bulunan güçlü özelliklerden faydalanabilir.
 
-Aspose.Cells for Reporting Services iki parçadan oluşmaktadır.
+Aspose.Cells for Reporting Services bileşenini kullanarak raporları tasarlamanın iki yolu bulunmaktadır. Boş bir Microsoft Excel şablonu kullanarak başlayarak veri kaynaklarını kurmaktan Rapor Sunucusuna rapor yayınlamaya kadar olan görevleri tamamlayabilirsiniz. Veya mevcut bir RDL Raporu ile başlayabilir ve veritabanı sorgularını kullanılabilir hale getirebilirsiniz. Bu yöntem kullanıcıların yalnızca rapor tasarımına odaklanması için yararlıdır. İkincisi, kullanıcıların sorgu oluşturma görevini rapor tasarımından ayırmak isteyen ve bu görev oldukça karmaşık olan kullanıcılara yöneliktir.
+
+**Aspose.Cells for Reporting Services ile oluşturulmuş bir örnek rapor** 
+
+![todo:image_alt_text](product-overview_2.png)
+
+Aspose.Cells for Reporting Services, iki bölümden oluşmaktadır.
 - **Aspose.Cells.Report.Designer**
-Bu, Eklentiler formunda Microsoft Excel ile entegre edilmiş bir rapor tasarlama aracıdır. Aspose.Cells.Report.Designer ile kullanıcılar, Visual Studio yerine Microsoft Excel'de bir rapor şablonu tasarlayabilir. Rapor şablonu daha sonra bir Reporting Services RDL dosyasına gömülür ve Report Server'da yayınlanabilir. Kullanıcılar ayrıca raporu Aspose.Cells.Report.Designer'da önizleyebilir ve dışa aktarabilir.
-- **Aspose.Cells.İşleyici for Reporting Services**
-Aspose.Cells.Renderer for Reporting Services, Microsoft'in Raporlama Hizmetleri İşleme Uzantısının bir uygulamasıdır. Hem Visual Studio hem de Aspose.Cells.Report.Designer tarafından tasarlanan RDL raporlarını işleyebilir.
+Bu, Microsoft Excel'e Entegre Add-Ins formunda bir rapor tasarımcı aracıdır. Aspose.Cells.Report.Designer ile kullanıcılar Microsoft Excel'e rapor şablonu tasarlayabilir ve sonra bu rapor şablonunu Rapor Sunucusuna gönderilebilen bir RDL dosyasına gömebilir. Kullanıcılar ayrıca raporu Aspose.Cells.Report.Designer'da önizleyebilir ve dışa aktarabilirler.
+- **Aspose.Cells.Renderer for Reporting Services**
+Raporlama Hizmetleri için Aspose.Cells.Renderer, Microsoft'un Raporlama Hizmetleri Renderleme Uzantısının bir uygulamasıdır. Hem Visual Studio hem de Aspose.Cells.Report.Designer ile tasarlanan RDL raporlarını oluşturabilir.

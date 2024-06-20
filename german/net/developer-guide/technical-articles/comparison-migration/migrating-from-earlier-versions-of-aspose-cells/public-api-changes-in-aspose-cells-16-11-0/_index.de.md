@@ -1,26 +1,27 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 16.11.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 16.11.0
 type: docs
 weight: 350
 url: /de/net/public-api-changes-in-aspose-cells-16-11-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 16.10.0 zu 16.11.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells API von Version 16.10.0 auf 16.11.0, die für Modul-/Anwendungsentwickler von Interesse sein können. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte & entfernte Klassen usw., sondern auch eine Beschreibung von Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
+## **Hinzugefügte APIs**
 ### **Unterstützung für Globalisierungseinstellungen**
-Aspose.Cells 16.11.0 hat die GlobalizationSettings-Klasse zusammen mit der WorkbookSettings.GlobalizationSettings-Eigenschaft verfügbar gemacht, um die Aspose.Cells-APIs zur Verwendung benutzerdefinierter Bezeichnungen für Zwischensummen zu erzwingen. Die GlobalizationSettings-Klasse verfügt über die folgenden Methoden, die in der benutzerdefinierten Implementierung überschrieben werden können, um den Beschriftungen die gewünschten Namen zu geben**Gesamt** & **Gesamtsumme**.
+Aspose.Cells 16.11.0 hat die GlobalizationSettings-Klasse zusammen mit der WorkbookSettings.GlobalizationSettings Eigenschaft freigegeben, um die Aspose.Cells APIs zu zwingen, benutzerdefinierte Bezeichnungen für Zwischensummen zu verwenden. Die GlobalizationSettings-Klasse verfügt über die folgenden Methoden, die in der benutzerdefinierten Implementierung überschrieben werden können, um gewünschte Namen für die Bezeichnungen **Gesamt** & **Gesamtsumme** zu liefern.
 
 - GlobalizationSettings.GetTotalName: Ruft den Gesamtnamen der Funktion ab.
-- GlobalizationSettings.GetGrandTotalName: Ruft den Gesamtsummennamen der Funktion ab.
+- GlobalizationSettings.GetGrandTotalName: Ruft den Gesamtnamen der Funktion ab.
 
-Hier ist eine einfache benutzerdefinierte Klasse, die die GlobalizationSettings-Klasse erweitert und ihre oben genannten Methoden überschreibt, um benutzerdefinierte Bezeichnungen für die Konsolidierungsfunktion Average zurückzugeben.
+Hier ist eine einfache benutzerdefinierte Klasse, die die GlobalizationSettings-Klasse erweitert und ihre oben genannten Methoden überschreibt, um benutzerdefinierte Bezeichnungen für die Konsolidierungsfunktion Durchschnitt zurückzugeben.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomSettings : GlobalizationSettings
 
@@ -72,11 +73,11 @@ Hier ist eine einfache benutzerdefinierte Klasse, die die GlobalizationSettings-
 
 
 
-Das folgende Snippet lädt ein vorhandenes Arbeitsblatt und fügt die Zwischensumme des Typs „Durchschnitt“ zu Daten hinzu, die bereits im Arbeitsblatt verfügbar sind. Die CustomSettings-Klasse und ihre GetTotalName- und GetGrandTotalName-Methoden werden zum Zeitpunkt des Hinzufügens von Subtotal zum Arbeitsblatt aufgerufen.
+Der folgende Ausschnitt lädt eine vorhandene Tabellenkalkulation und fügt das Zwischenergebnis des Typs Durchschnitt zu den bereits in dem Arbeitsblatt vorhandenen Daten hinzu. Die CustomSettings-Klasse und ihre Methoden GetTotalName & GetGrandTotalName werden zur Zeit der Hinzufügung des Zwischenergebnisses zum Arbeitsblatt aufgerufen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Loads an existing spreadsheet containing some data
 
@@ -96,7 +97,7 @@ Worksheet sheet = book.Worksheets[0];
 
 // Adds SubTotal of type Average to the worksheet
 
-sheet.Cells.Subtotal(CellArea.CreateCellArea("A2", "B9"), 0, ConsolidationFunction.Average, new int[]{ 0,1 });
+sheet.Cells.Subtotal(CellArea.CreateCellArea("A2", "B9"), 0, ConsolidationFunction.Average, new int[] { 0,1 });
 
 // Calculates Formulas
 
@@ -114,11 +115,11 @@ book.Save(dir + "output.xlsx");
 
 
 
-Die GlobalizationSettings-Klasse bietet auch die GetOtherName-Methode, die nützlich ist, um den Namen von „Anderen“-Beschriftungen für Kreisdiagramme abzurufen. Hier ist ein einfaches Verwendungsszenario der Methode GlobalizationSettings.GetOtherName.
+Die GlobalizationSettings-Klasse bietet auch die Methode GetOtherName, die nützlich ist, um die Bezeichnung "Andere" für Tortendiagramme zu erhalten. Hier ist ein einfaches Anwendungsbeispiel der Methode GlobalizationSettings.GetOtherName.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomSettings : GlobalizationSettings
 
@@ -162,11 +163,11 @@ Die GlobalizationSettings-Klasse bietet auch die GetOtherName-Methode, die nütz
 
 
 
-Der folgende Codeausschnitt lädt eine vorhandene Tabelle mit einem Kreisdiagramm und rendert das Diagramm in ein Bild, während die oben erstellte CustomSettings-Klasse verwendet wird.
+Der folgende Ausschnitt lädt eine vorhandene Tabelle mit einem Kreisdiagramm und rendert das Diagramm als Bild, während die zuvor erstellte CustomSettings-Klasse genutzt wird.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Loads an existing spreadsheet containing a pie chart
 
@@ -197,14 +198,14 @@ chart.ToImage(dir + "output.png", new ImageOrPrintOptions());
 {{< /highlight >}}
 
 
-### **CellsFactory-Klasse hinzugefügt**
-Aspose.Cells 16.11.0 hat die CellsFactory-Klasse verfügbar gemacht, die derzeit eine Methode hat, das heißt; CreateStyle. Die CellsFactory.CreateStyle-Methode kann verwendet werden, um eine Instanz der Style-Klasse zu erstellen, ohne sie dem Pool von Arbeitsmappenstilen hinzuzufügen.
+### **Hinzugefügte CellsFactory-Klasse**
+Aspose.Cells 16.11.0 hat die Klasse CellsFactory freigelegt, die derzeit eine Methode, nämlich CreateStyle, enthält. Die Methode CellsFactory.CreateStyle kann verwendet werden, um eine Instanz der Klasse Style zu erstellen, ohne sie dem Pool der Arbeitsmappenstile hinzuzufügen.
 
-Hier ist ein einfaches Anwendungsszenario der CellsFactory.CreateStyle-Methode.
+Hier ist ein einfaches Anwendungsszenario der Methode CellsFactory.CreateStyle.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initializes the CellsFactory class
 
@@ -217,22 +218,22 @@ Style style = factory.CreateStyle();
 {{< /highlight >}}
 
 
-### **Workbook.AbsolutePath-Eigenschaft hinzugefügt**
-Aspose.Cells 16.11.0 hat die Workbook.AbsolutePath-Eigenschaft verfügbar gemacht, die es ermöglicht, den absoluten Arbeitsmappenpfad abzurufen oder festzulegen, der in der Datei workbook.xml gespeichert ist. Diese Eigenschaft ist nur beim Aktualisieren der externen Links nützlich.
-### **GridHyperlinkCollection.GetHyperlink-Methode hinzugefügt**
-Aspose.Cells.GridWeb 16.11.0 hat die GetHyperlink-Methode für die GridHyperlinkCollection-Klasse verfügbar gemacht, die es ermöglicht, die Instanz von GridHyperlink abzurufen, indem entweder eine Instanz GridCell oder ein Paar Ganzzahlen übergeben wird, die den Zeilenspaltenindizes entsprechen.
+### **Hinzugefügtes Workbook.AbsolutePath-Eigenschaft**
+Aspose.Cells 16.11.0 hat die Workbook.AbsolutePath-Eigenschaft freigelegt, die es ermöglicht, den absoluten Pfad des Arbeitsmappeninhalts zu erhalten oder festzulegen, der in der workbook.xml-Datei gespeichert ist. Diese Eigenschaft ist nützlich, wenn nur die externen Verknüpfungen aktualisiert werden.
+### **Methode GridHyperlinkCollection.GetHyperlink hinzugefügt**
+Aspose.Cells.GridWeb 16.11.0 hat die Methode GetHyperlink für die Klasse GridHyperlinkCollection freigelegt, die es ermöglicht, die Instanz von GridHyperlink zu erhalten, indem entweder eine Instanz von GridCell oder ein Paar von Ganzzahlen übergeben wird, die den Zeilen- und Spaltenindizes entsprechen.
 
 {{% alert color="primary" %}} 
 
-Falls in der angegebenen Zelle kein Hyperlink gefunden wurde, gibt die GetHyperlink-Methode null zurück.
+Wenn auf der angegebenen Zelle kein Hyperlink gefunden wurde, gibt die Methode GetHyperlink null zurück.
 
 {{% /alert %}} 
 
-Hier ist ein einfaches Anwendungsszenario der GetHyperlink-Methode.
+Hier ist ein einfaches Anwendungsszenario der Methode GetHyperlink.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Gets the active worksheet from the collection
 
@@ -252,16 +253,16 @@ link = links.GetHyperlink(0, 3);
 
 {{< /highlight >}}
 ## **Veraltete APIs**
-### **Veralteter Stilkonstruktor**
-Bitte verwenden Sie alternativ die Methode cellsFactory.CreateStyle.
+### **Veralteter Style-Konstruktor**
+Bitte verwenden Sie die Methode cellsFactory.CreateStyle als Alternative.
 ## **Gelöschte APIs**
-### **Cell.GetConditionalStyle-Methode gelöscht**
+### **Gelöschte Cell.GetConditionalStyle-Methode**
 Bitte verwenden Sie stattdessen die Methode Cell.GetConditionalFormattingResult.
-### **Methode Cells.MaxDataRowInColumn(int column) gelöscht**
-Bitte verwenden Sie alternativ die Methode Cells.GetLastDataRow(int).
-### **PageSetup.Draft-Eigenschaft gelöscht**
-Es wird empfohlen, stattdessen die Eigenschaft PageSetup.PrintDraft zu verwenden.
+### **Gelöschte Cells.MaxDataRowInColumn(int column)-Methode**
+Bitte verwenden Sie die Methode Cells.GetLastDataRow(int) als Alternative.
+### **Gelöschte PageSetup.Draft-Eigenschaft**
+Es wird empfohlen, die PageSetup.PrintDraft-Eigenschaft stattdessen zu verwenden.
 ### **Gelöschte AutoFilter.FilterColumnCollection-Eigenschaft**
-Bitte erwägen Sie die Verwendung der AutoFilter.FilterColumns-Eigenschaft, um dasselbe Ziel zu erreichen.
+Bitte verwenden Sie die AutoFilter.FilterColumns-Eigenschaft, um dasselbe Ziel zu erreichen.
 ### **Gelöschte TickLabels.Rotation-Eigenschaft**
-Bitte verwenden Sie stattdessen die Eigenschaft TickLabels.RotationAngle.
+Bitte verwenden Sie stattdessen die TickLabels.RotationAngle-Eigenschaft.

@@ -1,62 +1,63 @@
-﻿---
-title: Präzedenzfälle und Abhängigkeiten
+---
+title: Vorgänger und Abhängige
 type: docs
 weight: 230
 url: /de/net/precedents-and-dependents/
 ---
+
 {{% alert color="primary" %}} 
 
-Komplexe Finanzarbeitsblätter, insbesondere solche, die gemeinsam entwickelt wurden, können die peinlichsten Fehler verbergen. Das Überprüfen von Formeln auf Genauigkeit und das Auffinden der Fehlerquelle kann schwierig sein, wenn die Formel Vorgängerzellen und abhängige Zellen verwendet.
+Komplexe Finanzarbeitsblätter, insbesondere solche, die in Zusammenarbeit entwickelt wurden, können die peinlichsten Fehler verbergen. Formeln auf ihre Genauigkeit zu überprüfen und die Fehlerquelle zu finden, kann schwierig sein, wenn die Formel Vorgänger- und Abhängigenzellen verwendet.
 
 {{% /alert %}} 
 ## **Einführung**
-- **Vorhergehende Zellen** sind Zellen, auf die durch eine Formel in einem anderen Cell verwiesen wird. Wenn beispielsweise Zelle D10 die Formel =B5 enthält, ist Zelle B5 ein Präzedenzfall für Zelle D10.
-- **Abhängige Zellen** Formeln enthalten, die auf andere Zellen verweisen. Wenn beispielsweise Zelle D10 die Formel =B5 enthält, ist Zelle D10 von Zelle B5 abhängig.
+- **Vorgängerzellen** sind Zellen, auf die in einer anderen Zelle eine Formel verweist. Wenn beispielsweise Zelle D10 die Formel =B5 enthält, dann ist die Zelle B5 ein Vorgänger von Zelle D10.
+- **Abhängige Zellen** enthalten Formeln, die auf andere Zellen verweisen. Wenn beispielsweise die Zelle D10 die Formel =B5 enthält, ist die Zelle D10 von der Zelle B5 abhängig.
 
-Um die Tabellenkalkulation leicht lesbar zu machen, möchten Sie möglicherweise deutlich zeigen, welche Zellen in einer Tabellenkalkulation in einer Formel verwendet werden. Ebenso möchten Sie möglicherweise die abhängigen Zellen anderer Zellen extrahieren.
+Um die Tabelle übersichtlicher zu gestalten, möchten Sie möglicherweise klar zeigen, welche Zellen in einer Tabelle in einer Formel verwendet werden. Ebenso möchten Sie die abhängigen Zellen anderer Zellen extrahieren.
 
-Aspose.Cells ermöglicht es Ihnen, Zellen zu verfolgen und herauszufinden, welche verknüpft sind.
-## **Ablaufverfolgung Präzedenzfall und abhängiger Cells: Microsoft Excel**
-Formeln können sich aufgrund von Änderungen ändern, die von einem Kunden vorgenommen wurden. Wenn beispielsweise Zelle C1 von C3 und C4 abhängig ist, die eine Formel enthalten, und C1 geändert wird (so dass die Formel überschrieben wird), müssen C3 und C4 oder andere Zellen geändert werden, um die Tabelle basierend auf Geschäftsregeln auszugleichen.
+Aspose.Cells ermöglicht es Ihnen, die Zellen zu verfolgen und herauszufinden, welche verknüpft sind.
+## **Vorgänger- und Abhängige Zellen verfolgen: Microsoft Excel**
+Formeln können sich ändern, basierend auf Änderungen, die von einem Kunden vorgenommen wurden. Wenn beispielsweise die Zelle C1 von C3 und C4 abhängt, die eine Formel enthalten, und C1 geändert wird (d. h. die Formel überschrieben wird), müssen C3 und C4 oder andere Zellen entsprechend den Geschäftsregeln angepasst werden, um die Tabelle auszugleichen.
 
-Angenommen, C1 enthält die Formel "=(B1*22)/(M2*N32)". Ich möchte die Zellen finden, von denen C1 abhängt, also die vorangegangenen Zellen B1, M2 und N32.
+Ebenso angenommen, C1 enthält die Formel "=(B1*22)/(M2*N32)". Ich möchte die Zellen finden, von denen C1 abhängt, d. h. die vorhergehenden Zellen B1, M2 und N32.
 
-Möglicherweise müssen Sie die Abhängigkeit einer bestimmten Zelle von anderen Zellen nachverfolgen. Wenn Geschäftsregeln in Formeln eingebettet sind, möchten wir die Abhängigkeit herausfinden und einige Regeln darauf basierend ausführen. Wenn der Wert einer bestimmten Zelle geändert wird, welche Zellen im Arbeitsblatt sind von dieser Änderung betroffen?
+Sie müssen möglicherweise die Abhängigkeit einer bestimmten Zelle zu anderen Zellen verfolgen. Wenn Geschäftsregeln in Formeln eingebettet sind, möchten wir die Abhängigkeit herausfinden und einige Regeln entsprechend ausführen. Ebenso, wenn der Wert einer bestimmten Zelle geändert wird, welche Zellen im Arbeitsblatt sind von dieser Änderung betroffen?
 
-Microsoft Excel ermöglicht es Benutzern, Präzedenzfälle und Abhängige zu verfolgen.
+Microsoft Excel ermöglicht es Benutzern, Vorgänger und Abhängige zu verfolgen.
 
-1.  Auf der**Symbolleiste anzeigen** , wählen**Formel Auditing**. Das Dialogfeld "Formelüberwachung" wird angezeigt.
-1. Präzedenzfälle verfolgen:
-1. Wählen Sie die Zelle aus, die die Formel enthält, für die Sie vorangegangene Zellen suchen möchten.
- 1. Um einen Verfolgungspfeil zu jeder Zelle anzuzeigen, die direkt Daten für die aktive Zelle bereitstellt, klicken Sie auf**Präzedenzfälle verfolgen** auf der**Formel Auditing** Symbolleiste.
-1. Verfolgen Sie Formeln, die auf eine bestimmte Zelle verweisen (abhängige Zellen)
- 1. Wählen Sie die Zelle aus, für die Sie die abhängigen Zellen identifizieren möchten.
- 1. Um einen Verfolgungspfeil zu jeder Zelle anzuzeigen, die von der aktiven Zelle abhängig ist, klicken Sie in der Symbolleiste „Formelprüfung“ auf Abhängigkeiten verfolgen.
-## **Verfolgung von Präzedenzfällen und abhängigen Cells: Aspose.Cells**
-### **Präzedenzfälle verfolgen**
-Aspose.Cells macht es einfach, Präzedenzzellen zu erhalten. Es kann nicht nur Zellen abrufen, die Daten für einfache Formelpräzedenzfälle bereitstellen, sondern auch Zellen finden, die Daten für komplexe Formelpräzedenzfälle mit benannten Bereichen bereitstellen.
+1. Auf der **Ansichts-Symbolleiste** wählen Sie **Formelüberwachung** aus. Der Dialog zur Formelüberwachung wird angezeigt.
+1. Vorgänger verfolgen:
+   1. Wählen Sie die Zelle aus, die die Formel enthält, für die Sie Vorgängerzellen finden möchten.
+   1. Um an jede Zelle einen Tracer-Pfeil anzuzeigen, die direkt Daten an die aktive Zelle bereitstellt, klicken Sie auf **Vorgänger verfolgen** auf der **Formelüberwachungs**-Symbolleiste.
+1. Formeln verfolgen, die auf eine bestimmte Zelle verweisen (Abhängige)
+   1. Wählen Sie die Zelle aus, für die Sie die abhängigen Zellen identifizieren möchten.
+   1. Um an jede Zelle, die von der aktiven Zelle abhängig ist, einen Tracer-Pfeil anzuzeigen, klicken Sie auf **Abhängige verfolgen** auf der **Formelüberwachungs**-Symbolleiste.
+## **Vorgänger- und Abhängige Zellen verfolgen: Aspose.Cells**
+### **Vorgänger verfolgen**
+Aspose.Cells erleichtert das Abrufen von Vorgängerzellen. Es kann nicht nur Zellen abrufen, die Daten zu einfachen Formelvorgängern bereitstellen, sondern auch Zellen finden, die Daten zu komplexen Formelvorgängern mit benannten Bereichen bereitstellen.
 
-Im folgenden Beispiel wird eine Excel-Vorlagendatei, Book1.xls, verwendet. Die Tabelle enthält Daten und Formeln auf dem ersten Arbeitsblatt.
+Im folgenden Beispiel wird eine Vorlagen-Excel-Datei, Book1.xls, verwendet. Das Arbeitsblatt enthält Daten und Formeln.
 
- Aspose.Cells bietet die[Cell](https://reference.aspose.com/cells/net/aspose.cells/cell) Klasse'[GetPrecedents](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedents) Methode, die verwendet wird, um die Präzedenzfälle einer Zelle zu verfolgen. Es gibt a zurück[ReferredAreaCollection](https://reference.aspose.com/cells/net/aspose.cells/referredareacollection)Wie Sie oben sehen können, enthält Zelle B7 in Book1.xls eine Formel „=SUMME(A1:A3)“. Die Zellen A1:A3 sind also die Vorgängerzellen von Zelle B7. Das folgende Beispiel demonstriert das Tracing-Precedence-Feature unter Verwendung der Vorlagendatei Book1.xls.
+Aspose.Cells bietet die [Cell](https://reference.aspose.com/cells/net/aspose.cells/cell) -Methode [GetPrecedents](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedents) zum Nachverfolgen von Vorgängerzellen. Sie gibt eine [ReferredAreaCollection](https://reference.aspose.com/cells/net/aspose.cells/referredareacollection) zurück. Wie in Book1.xls zu sehen ist, enthält die Zelle B7 die Formel "=SUM(A1:A3)". Daher sind die Zellen A1:A3 die Vorgängerzellen der Zelle B7. Das folgende Beispiel zeigt die Nachverfolgung von Vorgängern unter Verwendung der Vorlagendatei Book1.xls.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingPrecedents-1.cs" >}}
-### **Abhängigkeiten verfolgen**
-Mit Aspose.Cells können Sie abhängige Zellen in Tabellenkalkulationen abrufen. Aspose.Cells kann nicht nur Zellen abrufen, die Daten zu einer einfachen Formel liefern, sondern auch Zellen finden, die Daten zu komplexen Formelabhängigen mit benannten Bereichen liefern.
+### **Abhängige verfolgen**
+Aspose.Cells ermöglicht es Ihnen, abhängige Zellen in Tabellenkalkulationen zu erhalten. Aspose.Cells kann nicht nur Zellen abrufen, die Daten zu einer einfachen Formel bereitstellen, sondern auch Zellen finden, die Daten für komplexe Formeln mit benannten Bereichen bereitstellen.
 
- Aspose.Cells bietet die[Cell](https://reference.aspose.com/cells/net/aspose.cells/cell) Klasse'[GetDependents](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getdependents)Methode zur Verfolgung der abhängigen Zellen einer Zelle. Beispielsweise gibt es in Book1.xlsx Formeln: „=A1+20“ und „=A1+30“ in den B2- bzw. C2-Zellen. Das folgende Beispiel zeigt, wie die abhängigen Elemente für die A1-Zelle mithilfe der Vorlagendatei Book1.xlsx nachverfolgt werden.
+Aspose.Cells bietet die [Cell](https://reference.aspose.com/cells/net/aspose.cells/cell) -Methode [GetDependents](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getdependents) zum Nachverfolgen von abhängigen Zellen an. Zum Beispiel gibt es in Book1.xlsx die Formeln: "=A1+20" und "=A1+30" in den Zellen B2 und C2. Das folgende Beispiel zeigt, wie die Abhängigkeiten für die Zelle A1 unter Verwendung der Vorlagendatei Book1.xlsx nachverfolgt werden.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingDependents-1.cs" >}}
-### **Verfolgen von Präzedenzfällen und abhängigen Zellen gemäß der Berechnungskette**
-Die obigen APIs zur Verfolgung von Präzedenzfällen und abhängigen Personen entsprechen dem Formelausdruck selbst. Sie bieten dem Benutzer einfach eine bequeme Möglichkeit, Abhängigkeiten für einige Formeln zu verfolgen. Wenn die Arbeitsmappe eine große Anzahl von Formeln enthält und der Benutzer Präzedenzfälle und abhängige Elemente für jede Zelle nachverfolgen muss, führt dies zu einer schlechten Leistung. Für eine solche Situation sollte der Benutzer die Verwendung in Betracht ziehen[GetPrecedentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedentsincalculation/) und[GetDependentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getdependentsincalculation/) Methoden. Diese beiden Methoden verfolgen Abhängigkeiten gemäß der Berechnungskette. Um sie zu verwenden, müssen Sie also zunächst die Berechnungskette aktivieren[Workbook.Settings.FormulaSettings.EnableCalculationChain](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/enablecalculationchain/) . Dann sollten Sie die vollständige Berechnung für die Arbeitsmappe durchführen[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1). Danach können Sie Präzedenzfälle oder abhängige Zellen für alle benötigten Zellen verfolgen.
+### **Nachverfolgung von Vorgänger- und abhängigen Zellen gemäß der Berechnungskette**
+Die oben genannten APIs zur Nachverfolgung von Vorgängern und Abhängigen richten sich nach dem Formelausdruck selbst. Sie bieten lediglich eine bequeme Möglichkeit für den Benutzer, Abhängigkeiten für einige Formeln zu verfolgen. Wenn es viele Formeln in der Arbeitsmappe gibt und der Benutzer für jede Zelle Vorgänger und Abhängige verfolgen muss, wird die Leistung beeinträchtigt. In solchen Situationen sollten Benutzer in Betracht ziehen, die Methoden [GetPrecedentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getprecedentsincalculation/) und [GetDependentsInCalculation](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getdependentsincalculation/) zu verwenden. Diese beiden Methoden verfolgen Abhängigkeiten gemäß der Berechnungskette. Um sie zu verwenden, müssen Sie zuerst die Berechnungskette mit [Workbook.Settings.FormulaSettings.EnableCalculationChain](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/enablecalculationchain/) aktivieren. Dann sollten Sie eine vollständige Berechnung für die Arbeitsmappe mit [Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells.workbook/calculateformula/methods/1) durchführen. Danach können Sie Vorgänger oder Abhängige für all die Zellen nachverfolgen, die Sie benötigen.
 
-Bei einigen Formeln können sich die resultierenden Präzedenzfälle für GetPrecedents und GetPrecedentsInCalculation unterscheiden, und die resultierenden abhängigen Elemente können für GetDependents und GetDependentsInCalculation unterschiedlich sein. Wenn die Formel von Zelle A1 beispielsweise „=IF(TRUE,B2,C3)“ lautet, stellt GetPrecedents B2 und C3 als Präzedenzfall von A1 bereit. Dementsprechend haben B2 und C3 bei der Überprüfung durch GetDependents beide das abhängige A1. Für die Berechnung dieser Formel ist jedoch offensichtlich, dass nur B2 das berechnete Ergebnis beeinflussen kann. Daher stellt GetPrecedentsInCalculation C3 nicht für A1 bereit, und GetDependentsInCalculation stellt A1 nicht für C3 bereit. Manchmal müssen Benutzer nur die Abhängigkeiten verfolgen, die sich tatsächlich auf das berechnete Ergebnis von Formeln auf der Grundlage aktueller Daten der Arbeitsmappe auswirken, dann müssen sie auch GetDependentsInCalculation/GetPrecedentsInCalculation anstelle von GetDependents/GetPrecedents verwenden.
+Für einige Formeln können die resultierenden Vorgänger bei GetPrecedents und GetPrecedentsInCalculation unterschiedlich sein, und die resultierenden Abhängigen bei GetDependents und GetDependentsInCalculation können unterschiedlich sein. Wenn z.B. die Formel von Zelle A1 "=IF(TRUE,B2,C3)" ist, liefert GetPrecedents B2 und C3 als Vorgänger von A1. Demnach haben sowohl B2 als auch C3 die abhängige Zelle A1 bei der Überprüfung durch GetDependents. Für die Berechnung dieser Formel ist jedoch offensichtlich, dass nur B2 das berechnete Ergebnis beeinflussen kann. Daher gibt GetPrecedentsInCalculation A1 nicht für C3 zurück, und GetDependentsInCalculation gibt C3 nicht für A1 zurück. Manchmal hat der Benutzer möglicherweise nur die Anforderung, die interdependencies zu verfolgen, die tatsächlich das berechnete Ergebnis der Formeln basierend auf den aktuellen Daten der Arbeitsmappe beeinflussen, dann sollten sie auch GetDependentsInCalculation/GetPrecedentsInCalculation anstelle von GetDependents/GetPrecedents verwenden.
 
-Das folgende Beispiel zeigt, wie die Präzedenzfälle und abhängigen Elemente gemäß der Berechnungskette für Zellen verfolgt werden:
+Das folgende Beispiel zeigt, wie Sie die Präzedenzfälle und Dependenzen gemäß der Berechnungskette für Zellen verfolgen können:
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-TracingDependenciesInCalculation.cs" >}}

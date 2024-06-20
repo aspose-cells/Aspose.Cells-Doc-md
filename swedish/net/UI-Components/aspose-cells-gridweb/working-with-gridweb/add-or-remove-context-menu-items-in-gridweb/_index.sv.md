@@ -1,16 +1,19 @@
-﻿---
-title: Lägg till eller ta bort kontextmenyobjekt i GridWeb
+---
+title: Lägg till eller ta bort element i kontextmenyn i GridWeb
 type: docs
 weight: 130
-url: /sv/net/add-or-remove-context-menu-items-in-gridweb/
+url: /sv/net/aspose-cells-gridweb/add-or-remove-context-menu-items-in-gridweb/
+keywords: GridWeb, kontextmeny, meny
+description: I den här artikeln beskrivs hur man lägger till eller tar bort element i kontextmenyn i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Du kan lägga till snabbmenyobjekt med ASP.NET-uppmärkning eller med .NET-koden. Du kan också ta bort snabbmenyalternativ med koden .NET. Använd metoderna GridWeb.CustomCommandButtons.Add() och GridWeb.CustomCommandButtons.Remove() eller RemoveAt() för dessa ändamål.
+Du kan lägga till element i kontextmenyn med ASP.NET-markering eller med .NET-kod. Du kan också ta bort element från kontextmenyn med .NET-kod. Använd GridWeb.CustomCommandButtons.Add() och GridWeb.CustomCommandButtons.Remove() eller RemoveAt() metoder för detta ändamål.
 
 {{% /alert %}} 
-## **Lägg till kontextmenyobjekt med ASP.NET Markup**
-Följande ASP.NET-markering lägger till ett snabbmenyalternativ i GridWeb.
+## **Lägg till element i kontextmenyn med hjälp av ASP.NET-markeringen**
+Följande ASP.NET-markering lägger till element i kontextmenyn i GridWeb.
 
 
 
@@ -18,7 +21,7 @@ Följande ASP.NET-markering lägger till ett snabbmenyalternativ i GridWeb.
 
 
 
-Här är den fullständiga ASP.NET-markeringen som skapar en GridWeb med ovanstående snabbmeny. Observera attributet OnCustomCommand="GridWeb1_CustomCommand". Det är händelsehanterarens namn som kommer att anropas när ditt snabbmenyalternativ klickas.
+Här är den kompletta ASP.NET-markeringen som skapar en GridWeb med ovanstående kontextmeny. Observera attributet OnCustomCommand="GridWeb1_CustomCommand". Det är händelsehanterarnamnet som kommer att kallas när ditt kontextmenyobjekt klickas.
 
 
 
@@ -26,28 +29,28 @@ Här är den fullständiga ASP.NET-markeringen som skapar en GridWeb med ovanst�
 
 
 
-Så här ser snabbmenyobjektet ut efter att ha lagts till med ovanstående ASP.NET-markering.
+Så här ser kontextmenyn ut efter att den har lagts till med ovanstående ASP.NET-markering.
 
 ![todo:image_alt_text](add-or-remove-context-menu-items-in-gridweb_1.png)
 
-Detta är händelsehanterarens kod som exekveras när du klickar på snabbmenyalternativet. Koden kontrollerar först kommandonamnet, om det matchar vårt kommando lägger den till en text i cell A1 i det aktiva GridWeb-kalkylbladet och ställer in den första kolumnbredden till 40 enheter för att göra texten synlig.
+Detta är händelsehanterarkoden som körs när kontextmenyn klickas. Koden kontrollerar först kommandonamnet, om det matchar vårt kommando lägger den till en text i cell A1 på aktiv GridWeb-arbetsblad och ställer in den första kolumnens bredd till 40 enheter så att texten blir synlig.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-InitContextMenuItem.aspx-HandleContextMenuItemCommand.cs" >}}
 
 
-Så här ser GridWeb ut när du klickar på snabbmenyn.
+Så här ser GridWeb ut när du klickar på kontextmenyn.
 
 ![todo:image_alt_text](add-or-remove-context-menu-items-in-gridweb_2.png)
-## **Lägg till kontextmenyobjekt i Aspose.Cells.GridWeb med hjälp av kod**
-Den här koden visar hur man lägger till ett snabbmenyobjekt i en GridWeb med hjälp av kod.
+## **Lägg till element i kontextmenyn i Aspose.Cells.GridWeb med hjälp av kod**
+Den här koden visar hur du lägger till element i kontextmenyn inne i en GridWeb med hjälp av kod.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-AddRemoveContextMenuItem.aspx-AddContextMenuItem.cs" >}}
-## **Ta bort kontextmenyobjekt i Aspose.Cells.GridWeb med hjälp av kod**
-Den här koden visar hur man tar bort ett snabbmenyobjekt med metoderna CustomCommandButtons.Remove() och CustomCommandButtons.RemoveAt().
+## **Ta bort element från kontextmenyn i Aspose.Cells.GridWeb med hjälp av kod**
+Den här koden visar hur du tar bort element från kontextmenyn med hjälp av CustomCommandButtons.Remove() och CustomCommandButtons.RemoveAt() metoder.
 
 
 

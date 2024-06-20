@@ -1,16 +1,17 @@
-﻿---
+---
 title: Bilder aus Arbeitsblättern extrahieren
 type: docs
 weight: 240
 url: /de/java/extract-images-from-worksheets/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel-Benutzer können Tabellenkalkulationen Bilder hinzufügen. Mit Aspose.Cells ist es möglich, Bilder aus Microsoft Excel-Dateien zu lesen und auf einem lokalen Laufwerk zu speichern. Dieser Artikel zeigt, wie Sie dies mit Aspose.Cells for Java API erreichen.
+Benutzer von Microsoft Excel können Bilder zu Arbeitsmappen hinzufügen. Mit Aspose.Cells ist es möglich, Bilder aus Microsoft Excel-Dateien zu lesen und auf einem lokalen Laufwerk zu speichern. Dieser Artikel zeigt, wie dies mit der Aspose.Cells for Java API erreicht werden kann.
 
 {{% /alert %}} 
 
-Der folgende Beispielcode zeigt, wie Bilder aus einer Excel-Datei extrahiert und gespeichert werden.
+Der nachstehende Beispielscode zeigt, wie Bilder aus einer Excel-Datei extrahiert und gespeichert werden können.
 
 
 

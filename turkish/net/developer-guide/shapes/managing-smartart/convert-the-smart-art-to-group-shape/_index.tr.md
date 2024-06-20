@@ -1,26 +1,27 @@
-﻿---
-title: Akıllı Sanatı Grup Şekline Dönüştürün
+---
+title: Akıllı Sanatı Grup Şekline Dönüştür
 type: docs
 weight: 200
 url: /tr/net/convert-the-smart-art-to-group-shape/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Smart Art Shape'i kullanarak Grup Shape'e dönüştürebilirsiniz.[**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart)yöntem. Akıllı sanat şeklini bir grup şekli gibi işlemenizi sağlayacaktır. Sonuç olarak, grup şeklinin ayrı parçalarına veya şekillerine erişebileceksiniz.
+Grup Şeklini Kullanarak Akıllı Sanat Şeklini Grup Şekline Dönüştürebilirsiniz. Bu yöntemle akıllı sanat şeklini bir grup şekli gibi işleyebilirsiniz. Sonuç olarak, grup şeklinin bireysel parçalarına veya şekillerine erişebileceksiniz.
 
-## **Akıllı Sanatı Grup Şekline Dönüştürün**
+## **Akıllı Sanatı Grup Şekline Dönüştür**
 
-Aşağıdaki örnek kod,[örnek excel dosyası](55541793.xlsx)bu ekran görüntüsünde gösterildiği gibi bir akıllı sanat şekli içeren. Daha sonra akıllı resim şeklini grup şekline dönüştürür ve Shape.IsGroup özelliğini yazdırır. Lütfen aşağıda verilen örnek kodun konsol çıktısına bakın.
+Aşağıdaki örnek kod, bu ekran görüntüsünde gösterilen akıllı sanat şeklini içeren [örnek Excel dosyasını](55541793.xlsx) yükler. Ardından akıllı sanat şeklini grup şekline dönüştürür ve Shape.IsGroup özelliğini yazdırır. Lütfen aşağıdaki örnek kodun konsol çıktısına bakınız.
 
-![yapılacaklar:resim_alternatif_metin](convert-the-smart-art-to-group-shape_1.png)
+![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ConvertSmartArtToGroupShape.cs" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: True
 

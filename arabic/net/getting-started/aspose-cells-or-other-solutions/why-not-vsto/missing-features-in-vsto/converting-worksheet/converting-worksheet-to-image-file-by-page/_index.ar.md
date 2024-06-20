@@ -1,28 +1,29 @@
-﻿---
-title: تحويل ورقة العمل إلى ملف صورة حسب الصفحة
+---
+title: تحويل ورقة عمل إلى ملف صورة حسب الصفحة
 type: docs
 weight: 10
 url: /ar/net/converting-worksheet-to-image-file-by-page/
 ---
-{{< highlight "csharp" >}}
 
- كتاب المصنف = مصنف جديد ("ورقة إلى صورة بواسطة Page.xls") ؛
+{{< highlight csharp >}}
 
-ورقة العمل = book.Worksheets [0] ؛
+ Workbook book = new Workbook("Sheet to Image by Page.xls");
 
-Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions ()؛
+Worksheet sheet = book.Worksheets[0];
 
-خيارات أفقية الدقة = 200 ؛
+Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 
-options.VerticalResolution = 200 ؛
+options.HorizontalResolution = 200;
 
-options.ImageFormat = System.Drawing.Imaging.ImageFormat.Tiff ؛
+options.VerticalResolution = 200;
 
-// Sheet2Image حسب تحويل الصفحة
+options.ImageFormat = System.Drawing.Imaging.ImageFormat.Tiff;
 
-SheetRender sr = new SheetRender (ورقة ، خيارات) ؛
+//Sheet2Image By Page conversion
 
- لـ (int j = 0 ؛ j< sr.PageCount; j++)
+SheetRender sr = new SheetRender(sheet, options);
+
+for (int j = 0; j < sr.PageCount; j++)
 
 {
 
@@ -34,6 +35,6 @@ SheetRender sr = new SheetRender (ورقة ، خيارات) ؛
 
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.image.file.by.Page.Aspose.Cells.zip)
+## **تحميل رمز عينة**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.image.file.by.Page.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Worksheet%20to%20image%20file%20by%20Page%20%28Aspose.Cells%29.zip)

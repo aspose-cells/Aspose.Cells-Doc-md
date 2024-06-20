@@ -1,11 +1,12 @@
-﻿---
+---
 title: Получить значения ячеек
 type: docs
 weight: 130
 url: /ru/net/retrieve-the-values-of-cells/
 ---
-## **Пакет SDK для OpenXML**
-{{< highlight "csharp" >}}
+
+## **OpenXML SDK**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -175,7 +176,7 @@ return value;
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -220,7 +221,7 @@ public static string GetCellValue(string fileName,
 }
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [Источникфорж](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Retrieve%20the%20values%20of%20cells%20\(Aspose.Cells\).zip/скачать)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Retrieve%20the%20values%20of%20cells%20\(Aspose.Cells\).zip)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Retrieve%20the%20values%20of%20cells%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Retrieve%20the%20values%20of%20cells%20\(Aspose.Cells\).zip)

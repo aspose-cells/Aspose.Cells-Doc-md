@@ -1,15 +1,16 @@
-﻿---
-title: Заморозить панели в Php
+---
+title: Фиксация панелей в Php
 type: docs
 weight: 40
 url: /ru/java/freeze-panes-in-php/
 ---
-## **Aspose.Cells - Замораживание панелей**
- Чтобы заморозить области в табличном документе с помощью**Aspose.Cells Java for PHP** , просто вызовите**Замерзшие оконные стекла** модуль.
+
+## **Aspose.Cells - Заморозить области**
+Чтобы заморозить панели в документе электронной таблицы с помощью **Aspose.Cells Java для PHP**, просто вызовите модуль **FreezePanes**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -30,7 +31,7 @@ $worksheet->freezePanes(3,2,3,2);
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Стоп-кадр (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Заморозить области (Aspose.Cells)** с любого из указанных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)

@@ -1,48 +1,49 @@
-﻿---
-title: Finden Sie Zellen mit einem bestimmten Stil
+---
+title: Zellen mit bestimmten Stil finden
 type: docs
 weight: 80
 url: /de/java/find-cells-with-specific-style/
-description: Dieser Artikel zeigt, wie Sie Zellen mit einem bestimmten Stil mit MS Excel und Aspose.Cells for Java API finden.
-keywords: find cells with specific style, find cells with specific style excel, find cells with specific style excel java, search cells with specific style, search cells with specific style excel, search cells with specific style excel java, how to find cells with specific style, how to find cells with specific style excel, how to find cells with specific style excel java
+description: Dieser Artikel zeigt, wie man Zellen mit einem bestimmten Stil unter Verwendung von MS Excel und Aspose.Cells for Java API finden kann.
+keywords: Zellen mit bestimmtem Stil finden, Zellen mit bestimmtem Stil in Excel finden, Zellen mit bestimmtem Stil in Excel Java finden, Zellen mit bestimmtem Stil suchen, in Excel nach Zellen mit bestimmtem Stil suchen, in Excel mit bestimmtem Stil in Excel Java suchen, wie man Zellen mit bestimmtem Stil findet, wie man Zellen mit bestimmtem Stil in Excel findet, wie man Zellen mit bestimmtem Stil in Excel Java findet
 ---
+
 {{% alert color="primary" %}}
 
-Manchmal müssen Sie die Zellen mit einem bestimmten Stil finden. Dieser Artikel zeigt, wie Sie dies erreichen, indem Sie Microsoft Excel sowie Aspose.Cells for Java API verwenden.
+Manchmal müssen Sie die Zellen mit einem bestimmten Stil finden. Dieser Artikel zeigt, wie Sie dies unter Verwendung von Microsoft Excel sowie der Aspose.Cells for Java API erreichen können.
 
 {{% /alert %}}
 
-## Mit Microsoft Excel
+## Verwendung von Microsoft Excel
 
-Dies sind die Schritte, die zum Suchen von Zellen mit bestimmten Stilen in MS Excel erforderlich sind.
+Dies sind die Schritte, die erforderlich sind, um Zellen mit bestimmten Stilen in MS Excel zu suchen.
 
-1.  Wählen**Suchen & auswählen** in dem**Startseite**.
-1.  Wählen**Finden**.
-1.  Klicken**Optionen**wenn erweiterte Optionen nicht sichtbar sind.
-1.  Wählen**Wählen Sie das Format aus Cell...** von dem**Format** Dropdown-Liste.
-1. Wählen Sie die Zelle mit dem Stil aus, den Sie durchsuchen möchten.
-1.  Klicken**Finde alle** , um alle Zellen mit ähnlichem Stil wie die ausgewählte Zelle zu finden.
+1. Wählen Sie **Suchen & Auswählen** im **Start-Tab** aus.
+1. Wählen Sie **Suchen** aus.
+1. Klicken Sie auf **Optionen**, wenn erweiterte Optionen nicht sichtbar sind.
+1. Wählen Sie **Format aus Zelle übernehmen...** aus dem **Format**-Dropdown.
+1. Wählen Sie die Zelle mit dem gewünschten Stil zum Suchen aus.
+1. Klicken Sie auf **Alle finden**, um alle Zellen mit einem ähnlichen Stil wie Ihre ausgewählte Zelle zu finden.
 
-## Mit Aspose.Cells for Java
+## Verwendung von Aspose.Cells for Java
 
- Aspose.Cells for Java bietet die Funktion, Zellen in Arbeitsblättern mit einem bestimmten Stil zu finden. Dafür sorgt die API[**FindOptions.setStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#Style) Eigentum.
+Aspose.Cells for Java bietet die Funktion, Zellen im Arbeitsblatt mit einem bestimmten Stil zu finden. Hierfür stellt die API die Eigenschaft [**FindOptions.setStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#Style) bereit.
 
 ### Beispielcode
 
- Das folgende Code-Snippet findet alle Zellen, die denselben Stil wie cell haben**A1** und ändert den Text in diesen Zellen. Bitte sehen Sie sich den Screenshot der Quell- und Ausgabedateien an, um die Ausgabe des Beispielcodes zu analysieren.
+Der folgende Codeausschnitt findet alle Zellen, die denselben Stil wie die Zelle **A1** haben, und ändert den Text in diesen Zellen. Bitte beachten Sie das Screenshot der Quell- und Ausgabedateien, um das Ergebnis des Beispielscodes zu analysieren.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindCellsWithSpecificStyle-FindCellsWithSpecificStyle.java" >}}
 
-Nach der Ausführung des Codes haben alle Zellen, die denselben Stil wie Zelle A1 haben, einen Text "Gefunden".
+Nach der Ausführung des Codes werden alle Zellen, die denselben Stil wie die Zelle A1 haben, den Text "Gefunden" enthalten.
 
-### Screenshots
+### Bildschirmfotos
 
-![todo: Bild_alt_Text](find-cells-with-specific-style_1.png)
+![todo:image_alt_text](find-cells-with-specific-style_1.png)
 
-**Figur:** Quelldatei mit Zellen mit Stilen
+**Abbildung:** Quelldatei mit Zellen, die Stile haben
 
- Hier ist die Ausgabedatei, die durch den folgenden Code generiert wird. Sie können alle Zellen sehen, die denselben Stil wie Zelle haben**A1** hat einen Text "Gefunden"
+Dies ist die Ausgabedatei, die durch den folgenden Code generiert wurde. Sie können alle Zellen sehen, die den gleichen Stil wie die Zelle **A1** haben, haben einen Text "Gefunden".
 
-![todo: Bild_alt_Text](find-cells-with-specific-style_2.png)
+![todo:image_alt_text](find-cells-with-specific-style_2.png)
 
-**Figur:**Ausgabedatei mit gefundenen Zellen nach Suche nach**A1** Stil
+**Abbildung:** Ausgabedatei mit gefundenen Zellen nach der Suche nach dem Stil **A1**

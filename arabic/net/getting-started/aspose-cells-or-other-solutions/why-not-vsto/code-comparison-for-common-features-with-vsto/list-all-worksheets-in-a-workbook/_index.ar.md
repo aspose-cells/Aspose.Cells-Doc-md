@@ -1,11 +1,12 @@
-﻿---
-title: سرد جميع أوراق العمل في مصنف
+---
+title: قائمة جميع ورق العمل في عمل
 type: docs
 weight: 160
 url: /ar/net/list-all-worksheets-in-a-workbook/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  	Excel.Application excelApp = Application;
 
@@ -55,9 +56,9 @@ private void ListSheets(Microsoft.Office.Interop.Excel.Workbook workbook)
 
 {{< /highlight >}}
 ## **Aspose**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- static void Main(string[]args)
+ static void Main(string[] args)
 
 {
 
@@ -90,7 +91,7 @@ private static void ListSheets(Workbook workbook)
 }
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/List.All.Worksheets.in.a.Workbook.Aspose.Cells.zip)
-- [سورس فورج](https://sourceforge.net/p/asposevsto/wiki/Home/)
+## **تحميل رمز عينة**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/List.All.Worksheets.in.a.Workbook.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/List%20All%20Worksheets%20in%20a%20Workbook)

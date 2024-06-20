@@ -1,16 +1,17 @@
-﻿---
-title: Exportera kommentarer medan du sparar Excel-fil till HTML
+---
+title: Exportera kommentarer vid sparande av Excel fil till HTML
 type: docs
 weight: 40
 url: /sv/net/export-comments-while-saving-excel-file-to/
 ---
-## **Möjliga användningsscenarier**
 
-När du sparar din Excel-fil i HTML exporteras inte kommentarer. Aspose.Cells tillhandahåller dock denna funktion med hjälp av[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/) fast egendom. Om du ställer in det**Sann**då kommer HTML också att visa kommentarer som finns i din Excel-fil.
+## **Möjliga användningsscenario**
 
-## **Exportera kommentarer medan du sparar Excel-fil till HTML**
+När du sparar din Excel-fil till HTML exporteras inte kommentarer. Men Aspose.Cells tillhandahåller denna funktion med hjälp av [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/) egenskapen. Om du ställer in den till **true**, kommer HTML också att visa kommentarer som finns i din Excel-fil.
 
-Följande exempelkod förklarar användningen av[**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)fast egendom. Skärmdumpen visar effekten av koden på HTML när den är inställd på**Sann** . Vänligen ladda ner[exempel på Excel-fil](50528260.xlsx) och den[genererad HTML](5052826.txt) för en referens.
+## **Exportera kommentarer vid sparande av Excel-fil till HTML**
+
+Följande exempelkod förklarar användningen av egenskapen [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/). Skärmbilden visar effekten av koden på HTML när den är inställd på **true**. Var god ladda ner [exempel Excel-filen](50528260.xlsx) och [genererad HTML](5052826.txt) för referens.
 
 ![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 

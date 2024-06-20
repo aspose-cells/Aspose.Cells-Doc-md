@@ -1,26 +1,27 @@
-﻿---
-title: Public API Changements dans Aspose.Cells 16.11.0
+---
+title: Changements d API public dans Aspose.Cells 16.11.0
 type: docs
 weight: 360
 url: /fr/java/public-api-changes-in-aspose-cells-16-11-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.Cells API de la version 16.10.0 à 16.11.0 qui peuvent intéresser les développeurs de modules/applications. Il inclut non seulement les méthodes publiques nouvelles et mises à jour, les classes ajoutées et supprimées, etc., mais également une description de tout changement de comportement dans les coulisses de Aspose.Cells.
+Ce document décrit les modifications apportées à l'API Aspose.Cells de la version 16.10.0 à la version 16.11.0 qui peuvent intéresser les développeurs de modules/applications. Il inclut non seulement les nouvelles méthodes publiques et mises à jour, les classes ajoutées et supprimées, etc., mais aussi une description de tout changement dans le comportement en coulisses dans Aspose.Cells.
 
 {{% /alert %}} 
-## **API ajoutées**
+## **APIs ajoutées**
 ### **Prise en charge des paramètres de globalisation**
-Aspose.Cells 16.11.0 a exposé la classe GlobalizationSettings avec la propriété WorkbookSettings.GlobalizationSettings afin de forcer les API Aspose.Cells à utiliser des étiquettes personnalisées pour les sous-totaux. La classe GlobalizationSettings a les méthodes suivantes qui peuvent être remplacées dans l'implémentation personnalisée pour donner les noms souhaités aux étiquettes**Total** & **Total**.
+Aspose.Cells 16.11.0 a exposé la classe GlobalizationSettings ainsi que la propriété WorkbookSettings.GlobalizationSettings afin d'obliger les API Aspose.Cells à utiliser des libellés personnalisés pour les sous-totaux. La classe GlobalizationSettings possède les méthodes suivantes qui peuvent être remplacées dans l'implémentation personnalisée pour donner des noms désirés aux libellés **Total** & **Total général**.
 
-- GlobalizationSettings.getTotalName : obtient le nom total de la fonction.
-- GlobalizationSettings.getGrandTotalName : obtient le nom du total général de la fonction.
+- GlobalizationSettings.getTotalName : Obtient le nom total de la fonction.
+- GlobalizationSettings.getGrandTotalName : Obtient le nom total général de la fonction.
 
-Voici une classe personnalisée simple qui étend la classe GlobalizationSettings et remplace ses méthodes susmentionnées pour renvoyer des étiquettes personnalisées pour la fonction de consolidation Moyenne.
+Voici une simple classe personnalisée qui étend la classe GlobalizationSettings et remplace ses méthodes susmentionnées pour renvoyer des libellés personnalisés pour la fonction de consolidation Average.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomSettings extends GlobalizationSettings
 
@@ -72,11 +73,11 @@ Voici une classe personnalisée simple qui étend la classe GlobalizationSetting
 
 {{< /highlight >}}
 
-L'extrait de code suivant charge une feuille de calcul existante et ajoute le sous-total de type Moyenne aux données déjà disponibles dans la feuille de calcul. La classe CustomSettings et ses méthodes getTotalName & getGrandTotalName seront appelées au moment de l'ajout de Subtotal à la feuille de calcul.
+L'extrait suivant charge une feuille de calcul existante et ajoute le sous-total de type Moyenne sur les données déjà disponibles dans la feuille de calcul. La classe CustomSettings et ses méthodes getTotalName & getGrandTotalName seront appelées lors de l'ajout du sous-total à la feuille de calcul.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing some data
 
@@ -96,7 +97,7 @@ Worksheet sheet = book.getWorksheets().get(0);
 
 //Adds SubTotal of type Average to the worksheet
 
-sheet.getCells().subtotal(CellArea.createCellArea("A2", "B9"), 0, ConsolidationFunction.AVERAGE, new int[]{ 0,1 });
+sheet.getCells().subtotal(CellArea.createCellArea("A2", "B9"), 0, ConsolidationFunction.AVERAGE, new int[] { 0,1 });
 
 //Calculates Formulas
 
@@ -112,11 +113,11 @@ book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
 
-La classe GlobalizationSettings propose également la méthode getOtherName qui est utile pour obtenir le nom des étiquettes "Autre" pour les camemberts. Voici un scénario d'utilisation simple de la méthode GlobalizationSettings.getOtherName.
+La classe GlobalizationSettings offre également la méthode getOtherName qui est utile pour obtenir le nom des libellés "Autres" pour les diagrammes circulaires. Voici un scénario d'utilisation simple de la méthode GlobalizationSettings.getOtherName.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomSettings extends GlobalizationSettings
 
@@ -160,11 +161,11 @@ La classe GlobalizationSettings propose également la méthode getOtherName qui 
 
 {{< /highlight >}}
 
-L'extrait de code suivant charge une feuille de calcul existante contenant un graphique à secteurs et affiche le graphique en image tout en utilisant la classe CustomSettings créée ci-dessus.
+L'extrait suivant charge une feuille de calcul existante contenant un diagramme circulaire, et rend le diagramme en image en utilisant la classe CustomSettings créée ci-dessus.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing a pie chart
 
@@ -194,13 +195,13 @@ chart.toImage(dir + "output.png", new ImageOrPrintOptions());
 
 {{< /highlight >}}
 ### **Classe CellsFactory ajoutée**
-Aspose.Cells 16.11.0 a exposé la classe CellsFactory qui a actuellement une méthode, c'est-à-dire ; créerStyle. La méthode CellsFactory.createStyle peut être utilisée pour créer une instance de la classe Style sans l'ajouter au pool de styles de classeur.
+Aspose.Cells 16.11.0 a exposé la classe CellsFactory qui possède actuellement une méthode, c'est-à-dire, createStyle. La méthode CellsFactory.createStyle peut être utilisée pour créer une instance de la classe Style sans l'ajouter au pool des styles du classeur.
 
 Voici un scénario d'utilisation simple de la méthode CellsFactory.createStyle.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initializes the CellsFactory class
 
@@ -211,14 +212,14 @@ CellsFactory factory = new CellsFactory();
 Style style = factory.createStyle();
 
 {{< /highlight >}}
-### **Ajout de la propriété Workbook.AbsolutePath**
-Aspose.Cells 16.11.0 a exposé la propriété Workbook.AbsolutePath permettant d'obtenir ou de définir le chemin absolu du classeur stocké dans le fichier workbook.xml. Cette propriété est utile lors de la mise à jour des liens externes uniquement.
-### **Ajout de la méthode GridHyperlinkCollection.getHyperlink**
-Aspose.Cells.GridWeb 16.11.0 a exposé la méthode getHyperlink à la classe GridHyperlinkCollection qui permet d'obtenir l'instance de GridHyperlink en transmettant une instance GridCell ou une paire d'entiers correspondant aux indices de colonne de ligne.
+### **Propriété Workbook.AbsolutePath ajoutée**
+Aspose.Cells 16.11.0 a exposé la propriété Workbook.AbsolutePath qui permet d'obtenir ou de définir le chemin absolu du classeur stocké dans le fichier workbook.xml. Cette propriété est utile lors de la mise à jour des liens externes uniquement.
+### **Méthode GridHyperlinkCollection.getHyperlink ajoutée**
+Aspose.Cells.GridWeb 16.11.0 a exposé la méthode getHyperlink à la classe GridHyperlinkCollection qui permet d'obtenir l'instance de GridHyperlink en passant soit une instance de GridCell soit une paire d'entiers correspondant aux indices de ligne et de colonne.
 
 {{% alert color="primary" %}} 
 
-Si aucun lien hypertexte n'a été trouvé sur la cellule spécifiée, la méthode getHyperlink renverra null.
+Au cas où aucun hyperlien n'a été trouvé sur la cellule spécifiée, la méthode getHyperlink renverrait null.
 
 {{% /alert %}} 
 
@@ -226,7 +227,7 @@ Voici un scénario d'utilisation simple de la méthode getHyperlink.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Gets the active worksheet from the collection
 
@@ -245,16 +246,16 @@ GridHyperlink link = links.getHyperlink(sheet.getCells().get("A1"));
 link = links.getHyperlink(0, 3);
 
 {{< /highlight >}}
-## **API obsolètes**
+## **APIs obsolètes**
 ### **Constructeur de style obsolète**
 Veuillez utiliser la méthode cellsFactory.createStyle comme alternative.
-## **API supprimées**
+## **APIs supprimées**
 ### **Méthode Cell.getConditionalStyle supprimée**
 Veuillez utiliser la méthode Cell.getConditionalFormattingResult à la place.
 ### **Méthode Cells.getMaxDataRowInColumn(int column) supprimée**
 Veuillez utiliser la méthode Cells.getLastDataRow(int) comme alternative.
 ### **Propriété PageSetup.Draft supprimée**
-Il est conseillé d'utiliser à la place la propriété PageSetup.PrintDraft.
+Il est conseillé d'utiliser la propriété PageSetup.PrintDraft à la place.
 ### **Propriété AutoFilter.FilterColumnCollection supprimée**
 Veuillez envisager d'utiliser la propriété AutoFilter.FilterColumns pour atteindre le même objectif.
 ### **Propriété TickLabels.Rotation supprimée**

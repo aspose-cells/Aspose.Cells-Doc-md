@@ -1,20 +1,21 @@
 ---
-title: ツールチップを使用して Excel を HTML に変換
+title: ツールチップ付きでExcelをHTMLに変換する
 type: docs
 weight: 200
 url: /ja/python-net/convert-excel-to-html-with-tooltip/
-description: このトピックでは、Aspose.Cells for Python via NET を使用して Excel をツールチップ付き HTML に変換する方法を示します。
-keywords: Python Convert Excel to HTML with tooltip, Convert Excel to HTML with tooltip Python via NET, Python via NET Excel to HTML with tooltip, Python Workbook to HTML with tooltip.
+description: Aspose.Cells for Python via NETを使用して、ツールチップ付きでExcelをHTMLに変換する方法を示しています。
+keywords: Pythonツールチップ付きでExcelをHTMLに変換、Python via NET Excelツールチップ付きHTMLに変換、Pythonワークブックをツールチップ付きHTMLに変換。
 ---
-##  **ツールチップを使用して Excel を HTML に変換**
 
-生成された HTML ではテキストが切り取られており、ホバー イベントのツールチップとして完全なテキストを表示したい場合があります。 Aspose.Cells は以下を提供することでこれをサポートしています。**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)**財産。の設定**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)**財産を**真実**生成された HTML に完全なテキストがツールチップとして追加されます。
+## **ツールチップ付きでExcelをHTMLに変換する**
 
-次の画像は、生成された HTML ファイル内のツールチップを示しています。
+生成されたHTMLでテキストが切り捨てられる場合があるかもしれません。ホバーイベントで完全なテキストをツールチップとして表示したい場合。Aspose.Cells はこれをサポートしており、[**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/) プロパティを提供しています。[**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/) プロパティをtrueに設定すると、生成されたHTMLに完全なテキストがツールチップとして追加されます。
+
+次の画像は、生成されたHTMLファイル内のツールチップを示しています。
 
 ![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
-次のコード サンプルは、[ソースエクセルファイル](98107416.xlsx)そして、[出力HTMLファイル](98107417.zip)ツールチップを使用して。
+次のコードサンプルは、[ソースのExcelファイル](98107416.xlsx)を読み込んで、ツールチップを含む[出力のHTMLファイル](98107417.zip)を生成します。
 
 サンプルコード
 

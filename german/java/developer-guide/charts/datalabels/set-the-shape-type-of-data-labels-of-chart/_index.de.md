@@ -1,14 +1,15 @@
-﻿---
+---
 title: Legen Sie den Formtyp der Datenbeschriftungen des Diagramms fest
 type: docs
 weight: 70
 url: /de/java/set-the-shape-type-of-data-labels-of-chart/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Sie können den Formtyp der Datenbeschriftungen des Diagramms mit ändern[**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)Eigentum. Es nimmt den Wert von an[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)Aufzählung und ändert den Formtyp von Datenbeschriftungen entsprechend. Einige seiner Werte sind
+## **Mögliche Verwendungsszenarien**
 
-{{< highlight "java" >}}
+Sie können den Formtyp der Datenbeschriftungen des Diagramms mithilfe der Eigenschaft [**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType) ändern. Sie nimmt den Wert der Aufzählung [**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType) an und ändert entsprechend den Formtyp der Datenbeschriftungen. Einige ihrer Werte sind
+
+{{< highlight java >}}
 
 DataLabelShapeType.BENT_LINE_CALLOUT
 
@@ -24,11 +25,11 @@ etc.
 
 {{< /highlight >}}
 
-## **Legen Sie den Formtyp der Datenbeschriftungen des Diagramms fest**
+## **Festlegen des Formtyps von Datenbeschriftungen des Diagramms**
 
-Der folgende Beispielcode ändert den Shape-Typ von Datenbeschriftungen des Diagramms in[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Bitte sehen Sie sich ... an[Beispiel-Excel-Datei](60489794.xlsx)in diesem Code verwendet und die[Excel-Datei ausgeben](60489793.xlsx)dadurch erzeugt. Der Screenshot zeigt die Auswirkung des Codes auf die Beispiel-Excel-Datei.
+Der folgende Beispielcode ändert den Formtyp der Datenbeschriftungen des Diagramms in [**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Bitte beachten Sie die [Beispieldatei von Excel](60489794.xlsx), die in diesem Code verwendet wird, und die [ausgegebene Excel-Datei](60489793.xlsx). Der Screenshot zeigt die Auswirkung des Codes auf die Beispieldatei von Excel.
 
-![todo: Bild_alt_Text](set-the-shape-type-of-data-labels-of-chart_1.png)
+![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 
 ## **Beispielcode**
 

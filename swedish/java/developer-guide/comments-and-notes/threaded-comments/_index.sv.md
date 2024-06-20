@@ -1,15 +1,16 @@
-﻿---
+---
 title: Trådade kommentarer
 type: docs
 weight: 140
 url: /sv/java/threaded-comments/
 ---
-# **Trådade kommentarer**
-MS Excel 365 har en funktion för att lägga till trådade kommentarer. Dessa kommentarer fungerar som konversationer och kan användas för diskussioner. Kommentarerna kommer nu med en svarsruta som tillåter trådade konversationer. De gamla kommentarerna heter Notes i Excel 365. Skärmdumpen nedan visar hur trådade kommentarer visas när de öppnas i Excel.
+
+# **Trådade Kommentarer**
+MS Excel 365 ger en funktion för att lägga till trådade kommentarer. Dessa kommentarer fungerar som konversationer och kan användas för diskussioner. Kommentarerna levereras nu med en svarsruta som möjliggör trådade konversationer. De gamla kommentarerna kallas anteckningar i Excel 365. Skärmavbildningen nedan visar hur trådade kommentarer visas när de öppnas i Excel.
 
 ![todo:image_alt_text](threaded-comments_1.jpg)
 
-Trådade kommentarer visas så här i äldre versioner av Excel. Följande bilder har tagits genom att öppna exempelfilen i Excel 2016.
+Trådade kommentarer visas så här i äldre versioner av Excel. Följande bilder har tagits genom att öppna provfilen i Excel 2016.
 
 ![todo:image_alt_text](threaded-comments_2.jpg)
 
@@ -19,83 +20,95 @@ Trådade kommentarer visas så här i äldre versioner av Excel. Följande bilde
 
 
 
-Aspose.Cells tillhandahåller också funktionen för att hantera trådade kommentarer.
+Aspose.Cells tillhandahåller också funktionen att hantera trådade kommentarer. 
 ## **Lägg till trådade kommentarer**
 ### **Lägg till trådad kommentar med Excel**
-För att lägga till trådade kommentarer i Excel 365, följ följande steg.
+För att lägga till trådade kommentarer i Excel 365 följer du följande steg.
 
 - Metod 1
- - Klicka på**Recension**Flik
- - Klicka på**Ny kommentar**knapp
- - Detta öppnar en dialog för att skriva kommentarer i den aktiva cellen.
+  - Klicka på fliken **Granska**
+  - Klicka på knappen **Ny kommentar**
+  - Detta kommer att öppna en dialogruta för att ange kommentarer i den aktiva cellen.
   - ![todo:image_alt_text](threaded-comments_4.jpg)
 - Metod 2
- - Högerklicka på cellen där du vill infoga kommentaren.
- - Klicka på**Ny kommentar**alternativ.
- - Detta öppnar en dialog för att skriva kommentarer i den aktiva cellen.
+  - Högerklicka på den cell där du vill infoga kommentaren.
+  - Klicka på **Ny kommentar** alternativet.
+  - Detta kommer att öppna en dialogruta för att ange kommentarer i den aktiva cellen.
   - ![todo:image_alt_text](threaded-comments_5)
-### **Lägg till trådad kommentar med Aspose.Cells**
-Aspose.Cells tillhandahåller[Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) metod för att lägga till trådade kommentarer[Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) metod accepterar följande tre parametrar.
+### **Lägg till trådad kommentar med hjälp av Aspose.Cells**
+Aspose.Cells tillhandahåller [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) metoden för att lägga till trådade kommentarer. Metoden [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) accepterar följande tre parametrar.
 
-- Cell Namn: Namnet på cellen där kommentaren kommer att infogas.
-- Kommentarstext: Texten i kommentaren.
-- [Trådad kommentar Författare](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentAuthor): Författaren till kommentaren
+- Cell namn: Namnet på cellen där kommentaren ska infogas.
+- Kommentartext: Kommentarens innehåll.
+- [ThreadedCommentAuthor](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentAuthor): Författaren till kommentaren
 
-Följande kodexempel visar användningen av[Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) metod för att lägga till trådad kommentar till cell A1. Vänligen se[utdata Excel-fil](AddThreadedComments_out.xlsx)genereras av koden för referens.
+Följande kodexempel visar användningen av [Comments.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) metoden för att lägga till trådad kommentar till cell A1. Vänligen se den [utdata Excel-fil](AddThreadedComments_out.xlsx) genererad av koden för referens.
 #### **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddThreadedComments-1.java" >}}
 ## **Läs trådade kommentarer**
 ### **Läs trådade kommentarer med Excel**
-För att läsa trådade kommentarer i Excel, håll helt enkelt muspekaren över cellen som innehåller kommentarerna för att se kommentarerna. Kommentarsvyn kommer att se ut som vyn i följande bild.
+För att läsa trådade kommentarer i Excel, svep helt enkelt musen över cellen som innehåller kommentarerna för att visa kommentarerna. Kommentarerna kommer att se ut som i följande bild.
 
 ![todo:image_alt_text](threaded-comments_1.jpg)
 ### **Läs trådade kommentarer med Aspose.Cells**
-Aspose.Cells tillhandahåller[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) metod för att hämta trådade kommentarer för den angivna kolumnen.[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\))-metoden accepterar kolumnnamnet som en parameter och returnerar[ThreadedComment Collection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Du kan iterera över[ThreadedComment Collection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)för att se kommentarerna.
+Aspose.Cells tillhandahåller [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) metoden för att hämta trådade kommentarer för den angivna kolumnen. [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) metoden accepterar kolumnnamnet som en parameter och returnerar [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Du kan iterera över [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) för att visa kommentarerna.
 
-Följande exempel visar att du läser kommentarer från kolumn A1 genom att ladda[exempel på Excel-fil](ThreadedCommentsSample.xlsx). Se konsolutgången som genereras av koden för referens.
+Följande exempel demonstrerar läsning av kommentarer från kolumn A1 genom att ladda den [prov Excel-fil](ThreadedCommentsSample.xlsx). Vänligen se konsolens utdata genererad av koden för referens.
 #### **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ReadThreadedComments-1.java" >}}
-#### **Konsolutgång**
-Kommentar: Testtrådad kommentar
+#### **Konsoloutput**
 
-Författare: Aspose Test
-### **Läs Skapade tid för trådade kommentarer**
-Aspose.Cells tillhandahåller[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) metod för att hämta trådade kommentarer för den angivna kolumnen.[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\))-metoden accepterar kolumnnamnet som en parameter och returnerar[ThreadedComment Collection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Du kan iterera över[ThreadedComment Collection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)och använda[ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime)fast egendom.
+{{< highlight java >}}
 
-Följande exempel visar att du läser den skapade tiden för trådade kommentarer genom att ladda[exempel på Excel-fil](ThreadedCommentsSample.xlsx). Se konsolutgången som genereras av koden för referens.
+Comment: Test Threaded Comment
+
+Author: Aspose Test
+
+{{< /highlight >}}
+
+### **Läs skapad tid för trådade kommentarer**
+Aspose.Cells tillhandahåller [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) metoden för att hämta trådade kommentarer för den angivna kolumnen. [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) metoden accepterar kolumnnamnet som en parameter och returnerar [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Du kan iterera över [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) och använda [ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime) egenskapen.
+
+Följande exempel demonstrerar läsning av skapad tid för trådade kommentarer genom att ladda den [prov Excel-fil](ThreadedCommentsSample.xlsx). Vänligen se konsolens utdata genererad av koden för referens.
 #### **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ReadThreadedCommentCreatedTime-1.java" >}}
-#### **Konsolutgång**
-Kommentar: Testtrådad kommentar
+#### **Konsoloutput**
 
-Författare: Aspose Test
+{{< highlight java >}}
 
-Skapat tid: 2019-05-15T12:46:23
+Comment: Test Threaded Comment
+
+Author: Aspose Test
+
+Created Time: 2019-05-15T12:46:23
+
+{{< /highlight >}}
+
 ## **Redigera trådade kommentarer**
 ### **Redigera trådad kommentar med Excel**
-För att redigera en trådad kommentar i Excel, klicka på**Redigera**länk på kommentaren som visas i följande bild.
+För att redigera en trådad kommentar i Excel, klicka på **Redigera** länken på kommentaren enligt följande bild.
 
 ![todo:image_alt_text](threaded-comments_7.jpg)
-### **Redigera trådad kommentar med Aspose.Cells**
-Aspose.Cells tillhandahåller[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) metod för att hämta trådade kommentarer för den angivna kolumnen.[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\))-metoden accepterar kolumnnamnet som en parameter och returnerar[ThreadedComment Collection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Du kan uppdatera den önskade kommentaren i[ThreadedComment Collection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)och spara arbetsboken.
+### **Redigera trådad kommentar med hjälp av Aspose.Cells**
+Aspose.Cells tillhandahåller [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) metoden för att hämta trådade kommentarer för den angivna kolumnen. [Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) metoden accepterar kolumnnamnet som en parameter och returnerar [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Du kan uppdatera den önskade kommentaren i [ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection) och spara kalkylarket.
 
-Följande exempel visar redigering av den första trådade kommentaren i kolumn A1 genom att ladda[exempel på Excel-fil](ThreadedCommentsSample.xlsx). Vänligen se[utdata Excel-fil](EditThreadedComments.xlsx)genereras av koden som visar den uppdaterade kommentaren som referens.
+Följande exempel demonstrerar redigering av den första trådade kommentaren i kolumn A1 genom att ladda den [prov Excel-fil](ThreadedCommentsSample.xlsx). Vänligen se den [utdata Excel-fil](EditThreadedComments.xlsx) genererad av koden som visar den uppdaterade kommentaren för referens.
 #### **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "EditThreadedComments-1.java" >}}
 ## **Ta bort trådade kommentarer**
 ### **Ta bort trådade kommentarer med Excel**
-För att ta bort trådade kommentarer i Excel, högerklicka på cellen som innehåller kommentarerna och klicka på**Ta bort kommentar**alternativ som visas i följande bild.
+För att ta bort trådade kommentarer i Excel, högerklicka på cellen som innehåller kommentarerna och klicka på **Radera kommentar** alternativet enligt följande bild.
 
 ![todo:image_alt_text](threaded-comments_8.jpg)
-### **Ta bort trådade kommentarer med Aspose.Cells**
-Aspose.Cells tillhandahåller[Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) metod för att ta bort kommentarer för den angivna kolumnen.[Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) metod accepterar kolumnnamnet eftersom en parameter tar bort kommentarerna i den kolumnen.
+### **Ta bort trådade kommentarer med hjälp av Aspose.Cells**
+Aspose.Cells tillhandahåller [Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) metoden för att ta bort kommentarer för den angivna kolumnen. [Comments.RemoveAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) metoden accepterar kolumnnamnet som en parameter och tar bort kommentarerna i den kolumnen. 
 
-Följande exempel visar hur du tar bort kommentarer i kolumn A1 genom att ladda[exempel på Excel-fil](ThreadedCommentsSample.xlsx). Vänligen se[utdata Excel-fil](ThreadedCommentsSample_Out.xlsx)genereras av koden för referens.
+Följande exempel demonstrerar borttagning av kommentarer i kolumn A1 genom att ladda den [prov Excel-fil](ThreadedCommentsSample.xlsx). Vänligen se den [utdata Excel-fil](ThreadedCommentsSample_Out.xlsx) genererad av koden för referens.
 #### **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "RemoveThreadedComments-1.java" >}}
 
 {{% alert color="primary" %}} 
 
- Observera att genom att ta bort kommentar med Aspose.Cells tas författaren inte bort automatiskt. Om du också behöver ta bort författaren, använd[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)metod som visas i exemplet ovan.
+Observera att genom att ta bort kommentar med Aspose.Cells, tas författaren inte bort automatiskt. Om du behöver ta bort författaren också, använd gärna [ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)) metoden enligt exemplet ovan.
 
 {{% /alert %}}

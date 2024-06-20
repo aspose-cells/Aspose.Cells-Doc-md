@@ -1,14 +1,15 @@
-﻿---
-title: Çalışma Kitabı içindeki XML Haritasına bağlı XML Verilerini Dışa Aktarma
+---
+title: Çalışma Kitabının İçine Bağlı XML Haritasından XML Verilerini Dışa Aktar
 type: docs
 weight: 20
 url: /tr/java/export-xml-data-linked-to-xml-map-inside-the-workbook/
 ---
-## Çalışma Kitabı içindeki XML Haritasına bağlı XML Verilerini Dışa Aktarma
 
- Lütfen Workbook.exportXml() yöntemini, çalışma kitabınızın içindeki XML Haritalarınıza bağlı XML verilerini dışa aktarmak için kullanın. Aşağıdaki örnek kod, çalışma kitabından tüm XML Eşlemelerinin Xml verilerini birer birer dışarı aktarır. lütfen kontrol ediniz[örnek excel dosyası](5472486.xlsx) Bu kodda kullanılan ve[ilk XML Haritasının dışa aktarılan XML verileri](5472487.xml).
+## Çalışma Kitabının İçine Bağlı XML Haritasından XML Verilerini Dışa Aktar
 
-## Java kodu, çalışma kitabının içindeki XML Haritasına bağlı XML verilerini dışa aktarmak için
+Lütfen, Workbook.exportXml() yöntemini kullanarak çalışma kitabınızın içine bağlı XML Haritalarına bağlı XML verilerini dışa aktarmak için örnek kodu inceleyin. Aşağıdaki örnek kod, çalışma kitabındaki tüm XML Haritaların XML verilerini birer birer dışa aktarmaktadır. Lütfen, bu kodda kullanılan [örnek excel dosyasını](5472486.xlsx) ve [birinci XML Haritasının dışa aktarılmış XML verilerini](5472487.xml) inceleyin.
+
+## Çalışma Kitabının İçine Bağlı XML Haritasından XML Verilerini Dışa Aktarmak İçin Java Kodu
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportXmlDataOfXmlMap-ExportXmlDataOfXmlMap.java" >}}
 

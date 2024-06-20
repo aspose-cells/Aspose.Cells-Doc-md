@@ -1,52 +1,53 @@
-﻿---
-title: Aggiunta di un gruppo di tabelle
+---
+title: Aggiunta gruppo tabella
 type: docs
 weight: 40
 url: /it/reportingservices/adding-table-group/
 ---
-Per aggiungere un gruppo di tabelle, procedi nel seguente modo:
+
+Per aggiungere un gruppo tabella, segui i passaggi seguenti:
 
 
 
-1) Selezionare la cella del tag di gruppo che si trova a sinistra della prima colonna della colonna dei dati della tabella, sotto la riga dei dati della tabella, come mostrato di seguito.
+1) Seleziona la cella del tag del gruppo che si trova a sinistra della prima colonna della colonna dei dati della tabella, sotto la riga dei dati della tabella, come mostrato di seguito.
 
-![cose da fare:immagine_alt_testo](adding-table-group_1.png)
-
-
+![todo:image_alt_text](adding-table-group_1.png)
 
 
 
 
 
- 2) Selezionare "SalesOrderNumber" nel file**Imposta gruppo** casella combinata per impostare il campo del gruppo.
+
+
+2) Selezionare ”SalesOrderNumber” nella casella combinata **Imposta Gruppo** per impostare il campo del gruppo.
 
 
 
-![cose da fare:immagine_alt_testo](adding-table-group_2.png)
+![todo:image_alt_text](adding-table-group_2.png)
 
 
 
-Il risultato è mostrato nel seguito.
+Il risultato è mostrato di seguito.
 
 
 
-![cose da fare:immagine_alt_testo](adding-table-group_3.png)
+![todo:image_alt_text](adding-table-group_3.png)
 
 
 
-3) Aggiungere la riga dei dati del gruppo secondo le istruzioni sopra descritte. La riga dei dati di gruppo può contenere testo statico, indicatori di dati, formule di Reporting Service e così via. Nell'esempio viene aggiunta una riga di gruppo che contiene una cella di testo statico unita e una cella Formula di Reporting Services, come illustrato di seguito.
+3) Aggiungere la riga dei dati del gruppo secondo le istruzioni descritte sopra. La riga dei dati del gruppo può contenere testo statico, segnaposto dei dati, formule di Reporting Service e così via. Nell'esempio, aggiungiamo una riga del gruppo che contiene una cella di testo statico unito e una cella di formula del Reporting Services, come mostrato di seguito.
 
 
 
-![cose da fare:immagine_alt_testo](adding-table-group_4.png)
+![todo:image_alt_text](adding-table-group_4.png)
 
 
 
-4) In una tabella è consentita più di una riga di dati di gruppo. Possiamo aggiungere nuovamente una riga di dati di gruppo, come mostrato di seguito.
+4) È consentito avere più di una riga di dati del gruppo in una tabella. Possiamo aggiungere nuovamente una riga di dati del gruppo, come mostrato di seguito.
 
 
 
-![cose da fare:immagine_alt_testo](adding-table-group_5.png)
+![todo:image_alt_text](adding-table-group_5.png)
 
 
 

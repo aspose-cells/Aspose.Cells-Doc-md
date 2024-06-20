@@ -1,16 +1,17 @@
-﻿---
+---
 title: تحويل الرسم البياني إلى صور
 type: docs
 weight: 10
 url: /ar/net/convert-chart-to-images/
 ---
+
 ## **Aspose.Cells - تحويل الرسم البياني إلى صور**
 الرسوم البيانية جذابة بصريًا وتجعل من السهل على المستخدمين رؤية المقارنات والأنماط والاتجاهات في البيانات.
-تقوم طريقة الرسم البياني toImage بتحويل الرسم البياني إلى ملف صورة يمكن حفظه على القرص أو التدفق.
+تقوم طريقة toImage في فئة Chart بتحويل الرسم البياني إلى ملف صورة يمكن حفظه على القرص أو تيار.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -63,13 +64,13 @@ Chart chart = charts[chartIndex];
 chart.ToImage("AsposeChartImage.png", ImageFormat.Png);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**تحويل الرسم البياني إلى صور** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **تحويل الرسومات البيانية إلى صور** من أيّ من المواقع الرمزية الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[تحويل الرسم البياني إلى صورة](/cells/ar/net/converting-chart-to-image-in-svg-format/).
+لمزيد من التفاصيل، قم بزيارة [تحويل الرسم البياني إلى صورة](/cells/ar/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}

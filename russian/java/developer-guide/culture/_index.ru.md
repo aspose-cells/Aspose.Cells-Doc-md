@@ -1,6 +1,6 @@
-﻿---
-title: Культура
+---
+title: Глобализация и Локализация
 type: docs
 weight: 2000
-url: /ru/java/language/
+url: /ru/java/globalization-and-localization/
 ---

@@ -1,18 +1,19 @@
-﻿---
+---
 title: Skapa och spara nya arbetsböcker
 type: docs
 weight: 70
 url: /sv/net/create-and-save-new-workbooks/
 ---
-## **Migreringstips:**
-\1. Skapa arbetsboksobjekt
-\2. Hämta aktuellt arbetsblad.
-\3. Infoga lite text i valfri cell.
-\4. Spara arbetsboken.
-### **VSTO**
-Nedan är kodexempel för VSTO
 
-{{< highlight "csharp" >}}
+## **Migrationsråd:**
+1. Skapa Workbook-objekt
+2. Hämta aktuellt kalkylblad.
+3. Infoga någon text i valfri cell.
+4. Spara arbetsboken.
+### **VSTO**
+Nedan är kodexemplet för VSTO
+
+{{< highlight csharp >}}
 
   Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
 
@@ -26,9 +27,9 @@ Nedan är kodexempel för VSTO
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-Nedan är kodexempel för Aspose.Cells
+Nedan är kodexemplet för Aspose.Cells
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook newWorkbook = new Workbook();
 
@@ -41,5 +42,5 @@ Nedan är kodexempel för Aspose.Cells
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Ladda ner**
+## **Nerladdning**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)

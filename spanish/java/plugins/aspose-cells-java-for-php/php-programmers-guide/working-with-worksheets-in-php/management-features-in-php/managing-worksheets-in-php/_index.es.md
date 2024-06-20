@@ -1,16 +1,17 @@
-﻿---
-title: Manejo de hojas de trabajo en Php
+---
+title: Gestión de hojas de cálculo en Php
 type: docs
 weight: 10
 url: /es/java/managing-worksheets-in-php/
 ---
-## **Aspose.Cells - Gestión de hojas de trabajo**
-### **Agregar hojas de trabajo a un nuevo archivo de Excel**
- Para agregar una hoja de trabajo a un nuevo archivo de Excel usando**Aspose.Cells Java for PHP** , simplemente llama**añadir_hoja de trabajo** método de**Gestión de hojas de trabajo** módulo.
+
+## **Aspose.Cells - Gestionar Hojas de Cálculo**
+### **Añadir hojas de cálculo a un nuevo archivo de Excel**
+Para agregar una hoja de cálculo a un nuevo archivo de Excel usando **Aspose.Cells Java para PHP**, simplemente llame al método **add_worksheet** del módulo **MangingWorksheets**.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object
 
@@ -33,12 +34,12 @@ $worksheet->setName("My Worksheet");
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-### **Eliminación de hojas de trabajo usando el nombre de la hoja**
- Para eliminar la hoja de trabajo por nombre de hoja usando**Aspose.Cells Java for PHP** , simplemente llama**remove_worksheet_by_name** método de**Gestión de hojas de trabajo** módulo.
+### **Eliminar hojas de cálculo utilizando el nombre de la hoja**
+Para eliminar una hoja de cálculo por nombre de hoja utilizando **Aspose.Cells Java para PHP**, simplemente llame al método **remove_worksheet_by_name** del módulo **MangingWorksheets**.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,12 +62,12 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-### **Eliminación de hojas de cálculo mediante el índice de hojas**
- Para eliminar hoja de trabajo por índice de hoja usando**Aspose.Cells Java for PHP** , simplemente llama**remove_worksheet_by_index** método de**Gestión de hojas de trabajo** módulo.
+### **Eliminar hojas de cálculo utilizando el índice de la hoja**
+Para eliminar una hoja de cálculo por índice de hoja utilizando **Aspose.Cells Java para PHP**, simplemente llame al método **remove_worksheet_by_index** del módulo **MangingWorksheets**.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -89,7 +90,7 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Gestión de hojas de trabajo (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Gestión de Hojas de Cálculo (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

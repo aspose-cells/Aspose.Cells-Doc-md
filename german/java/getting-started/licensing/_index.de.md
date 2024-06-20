@@ -1,29 +1,30 @@
 ---
-title: Licensing
+title: Lizenzierung
 type: docs
 weight: 50
 url: /de/java/licensing/
-description: Aspose.Cells für JAVA bietet verschiedene Kaufpläne oder eine kostenlose Testversion und eine 30-tägige temporäre Lizenz zur Evaluierung unter Verwendung von Licensing und Abonnementrichtlinien in Java.
-keywords: Java Apply License from Disk or Stream. Java Set License from Disk or Stream. Apply License in Aspose.Cells for Java.
+description: Aspose.Cells für JAVA bietet verschiedene Pläne zum Kauf oder bietet eine kostenlose Testversion und eine 30 tägige vorübergehende Lizenz zur Evaluation unter Verwendung von Lizenzierungs und Abonnementrichtlinien in Java.
+keywords: Lizenz in Java von Diskette oder Stream anwenden. Lizenz in Java von Diskette oder Stream setzen. Lizenz in Aspose.Cells for Java anwenden.
 ---
-##  **So beantragen Sie eine Lizenz in der Komponente Aspose.Cells**
 
-Die Lizenz ist eine reine XML-Textdatei, die Details wie den Produktnamen, die Anzahl der Entwickler, an die sie lizenziert ist, das Ablaufdatum des Abonnements usw. enthält. Die Datei ist digital signiert. Ändern Sie sie daher nicht. Selbst das versehentliche Einfügen eines zusätzlichen Zeilenumbruchs in die Datei macht sie ungültig.
+## **Wie man eine Lizenz in Aspose.Cells-Komponente anwendet**
 
-Sie müssen vor der Verwendung von Aspose.Cells eine Lizenz festlegen, wenn Sie die Testeinschränkungen vermeiden möchten. Sie müssen nur einmal pro Anwendung oder Prozess eine Lizenz festlegen.
+Die Lizenz ist eine einfache Text-XML-Datei, die Details wie den Produktnamen, die Anzahl der lizenzierten Entwickler, das Ablaufdatum des Abonnements usw. enthält. Die Datei ist digital signiert, also ändern Sie die Datei nicht; selbst das versehentliche Hinzufügen eines zusätzlichen Zeilenumbruchs in die Datei macht sie ungültig.
 
-Die Lizenz kann aus einem Stream oder einer Datei an den folgenden Orten geladen werden:
+Sie müssen eine Lizenz setzen, bevor Sie Aspose.Cells verwenden, wenn Sie dessen Evaluierungsbeschränkungen vermeiden möchten. Sie müssen die Lizenz nur einmal pro Anwendung oder Prozess setzen.
 
-1. Expliziter Pfad.
-1. Der Ordner, der die Datei Aspose.Cells.jar enthält.
+Die Lizenz kann von einem Stream oder einer Datei an den folgenden Speicherorten geladen werden:
 
- Benutzen Sie die[License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream))-Methode zum Lizenzieren der Komponente. Der einfachste Weg, eine Lizenz festzulegen, besteht häufig darin, die Lizenzdatei im selben Ordner wie Aspose.Cells.jar abzulegen und nur den Dateinamen ohne Pfad anzugeben, wie im folgenden Beispiel gezeigt:
+1. Ausdrücklicher Pfad.
+1. Der Ordner, der die Aspose.Cells.jar enthält.
 
-###  **So wenden Sie eine Lizenz von der Festplatte an**
+Verwenden Sie die Methode [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)), um die Komponente zu lizenzieren. Oft ist es am einfachsten, die Lizenzdatei in denselben Ordner wie Aspose.Cells.jar zu platzieren und nur den Dateinamen ohne Pfad anzugeben, wie im folgenden Beispiel gezeigt:
 
- In diesem Beispiel**Aspose.Cells**wird versuchen, die Lizenzdatei in dem Ordner zu finden, der die JARs Ihrer Anwendung enthält.
+### **Wie man eine Lizenz von der Diskette anwendet**
 
-{{< highlight "csharp" >}}
+In diesem Beispiel wird **Aspose.Cells** versuchen, die Lizenzdatei im Ordner zu finden, der die JARs Ihrer Anwendung enthält.
+
+{{< highlight csharp >}}
 
 com.aspose.cells.License license = new com.aspose.cells.License();
 
@@ -31,11 +32,11 @@ license.setLicense("Aspose.Cells.Java.lic");
 
 {{< /highlight >}}
 
-###  **So beantragen Sie eine Lizenz aus Stream**
+### **Wie man eine Lizenz von einem Stream anwendet**
 
-Initialisiert eine Lizenz aus einem Stream.
+Initialisiert eine Lizenz von einem Stream.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 com.aspose.cells.License license = new com.aspose.cells.License();
 
@@ -43,11 +44,11 @@ license.setLicense(new java.io.FileInputStream("Aspose.Cells.Java.lic"));
 
 {{< /highlight >}}
 
-###  **So beantragen Sie eine Lizenz in Aspose.Cells.GridWeb**
+### **Wie man eine Lizenz im Aspose.Cells.GridWeb anwendet**
 
-Es wird empfohlen, den Lizenzcode an einer Stelle in Ihrer Webanwendung zu platzieren, an der er zuerst verarbeitet werden soll.
+Es wird empfohlen, den Lizenzierungscode an einem Ort in Ihrer Webanwendung zu platzieren, an dem er zuerst verarbeitet wird.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate an instance of license and set the license file through its path
 
@@ -57,13 +58,13 @@ lic.setLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-##  **So wenden Sie eine gemessene Lizenz an**
+## **Wie man eine abgemessene Lizenz anwendet**
 
-Aspose.Cells ermöglicht Entwicklern die Anwendung eines gemessenen Schlüssels. Es handelt sich um einen neuen Lizenzierungsmechanismus. Der neue Lizenzierungsmechanismus wird zusammen mit der bestehenden Lizenzierungsmethode verwendet. Kunden, die eine Abrechnung auf Basis der Nutzung der API-Funktionen wünschen, können die getaktete Lizenzierung nutzen. Weitere Einzelheiten finden Sie unter[Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered)Abschnitt.
+Aspose.Cells ermöglicht Entwicklern die Verwendung eines abgemessenen Schlüssels. Es handelt sich um einen neuen Lizenzierungsmechanismus. Der neue Lizenzierungsmechanismus wird zusammen mit der bestehenden Lizenzierungsmethode verwendet. Kunden, die nach der Nutzung der API-Funktionen abgerechnet werden möchten, können die abgemessene Lizenzierung verwenden. Weitere Details finden Sie im Abschnitt [FAQ zur abgemessenen Lizenzierung](https://purchase.aspose.com/faqs/licensing/metered).
 
-Eine neue Klasse[Dosiert](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)wurde eingeführt, um einen dosierten Schlüssel anzuwenden. Im Folgenden finden Sie einen Beispielcode, der zeigt, wie ein gemessener öffentlicher und privater Schlüssel festgelegt wird.
+Es wurde eine neue Klasse [Metered](https://reference.aspose.com/cells/java/com.aspose.cells/Metered) eingeführt, um einen lizenzierten Schlüssel anzuwenden. Im Folgenden finden Sie den Beispielcode, der zeigt, wie ein lizenzierter öffentlicher und privater Schlüssel festgelegt wird.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 //Set metered public and private keys
 

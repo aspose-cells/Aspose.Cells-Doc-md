@@ -1,28 +1,29 @@
-﻿---
-title: Abrufen von SQL-Verbindungsdaten
+---
+title: SQL Verbindungsdaten abrufen
 type: docs
 weight: 20
 url: /de/java/retrieving-sql-connection-data/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells kann Ihnen beim Abrufen von SQL-Verbindungsdaten helfen. Dazu gehören alle Daten, die für eine Verbindung zum SQL-Server erforderlich sind, z. B.**Server-URL**, **Nutzername**, **Tabellenname**, **vollständige SQL-Abfrage**, **Abfragetyp**, **Standort des Tisches** , und**Name des benannten Bereichs** mit ihr verbundenen.
+Mit Aspose.Cells können Sie SQL-Verbindungsdaten abrufen. Dies umfasst alle benötigten Daten, um eine Verbindung zum SQL-Server herzustellen, z. B. **Server-URL**, **Benutzername**, **Tabellenname**, **vollständige SQL-Abfrage**, **Abfragetyp**, **Speicherort der Tabelle** und **Name des benannten Bereichs**, der damit verbunden ist.
 
 {{% /alert %}} 
 
-Stellen Sie in Microsoft Excel eine Verbindung zu einer Datenbank her, indem Sie:
+In Microsoft Excel eine Datenbankverbindung herstellen, indem Sie:
 
-1.  Klicken Sie auf die**Daten** Menü und Auswahl**Aus anderen Quellen** gefolgt von**Von SQL-Server**.
-1.  Wählen Sie dann aus**Daten** gefolgt von**Verbindungen**.
-1. Verwenden Sie den Verbindungsassistenten, um eine Verbindung zur Datenbank herzustellen und eine Datenbankabfrage zu erstellen.
+1. Zum **Daten**-Menü gehen und **Aus anderen Quellen** gefolgt von **Vom SQL Server** auswählen.
+1. Dann **Daten** gefolgt von **Verbindungen** auswählen.
+1. Verwenden Sie den Verbindungs-Assistenten, um eine Verbindung zur Datenbank herzustellen und eine Datenbankabfrage zu erstellen.
 
-**Anzeigen der SQL-Verbindungsoption in Microsoft Excel** 
+**Anzeige der SQL-Verbindungsoption in Microsoft Excel** 
 
-![todo: Bild_alt_Text](retrieving-sql-connection-data_1.png)
+![todo:image_alt_text](retrieving-sql-connection-data_1.png)
 
-Aspose.Cells stellt die Methode Workbook.getDataConnections() zum Abrufen externer Verbindungen bereit. Es gibt eine Sammlung von ExternalConnection-Objekten in der Arbeitsmappe zurück.
+Aspose.Cells bietet die Methode Workbook.getDataConnections() zur Abfrage externer Verbindungen. Sie gibt eine Sammlung von ExternalConnection-Objekten in der Arbeitsmappe zurück.
 
-Wenn das ExternalConnection-Objekt SQL-Verbindungsdaten enthält, kann es in ein DBConnection-Objekt umgewandelt werden, dessen Eigenschaften zum Abrufen von Datenbankbefehl, Befehlstyp, Verbindungsbeschreibung, Verbindungsinformationen, Anmeldeinformationen usw. verwendet werden.
+Wenn das ExternalConnection-Objekt SQL-Verbindungsdaten enthält, kann es in ein DBConnection-Objekt umgewandelt werden, dessen Eigenschaften verwendet werden, um Datenbankbefehl, Befehlstyp, Verbindungsbeschreibung, Verbindungsinformationen usw. abzurufen.
 
 
 

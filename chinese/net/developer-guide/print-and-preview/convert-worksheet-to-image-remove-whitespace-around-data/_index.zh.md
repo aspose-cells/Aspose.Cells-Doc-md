@@ -1,5 +1,5 @@
 ---
-title: 将工作表转换为图像 - 删除数据周围的空白
+title: 将工作表转换为图像  删除数据周围的空白
 type: docs
 weight: 40
 url: /zh/net/convert-worksheet-to-image-remove-whitespace-around-data/

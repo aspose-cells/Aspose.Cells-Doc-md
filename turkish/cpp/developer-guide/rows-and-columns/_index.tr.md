@@ -1,6 +1,8 @@
-﻿---
-title: Satırlar ve Sütunlar
+---
+title: Satır ve Sütunlar
 type: docs
 weight: 20
 url: /tr/cpp/rows-and-columns/
 ---
+
+

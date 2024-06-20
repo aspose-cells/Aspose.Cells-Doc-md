@@ -1,25 +1,26 @@
-﻿---
-title: Control de exportación de Visual Studio GridView a Excel
+---
+title: Control de exportación de GridView a Excel de Visual Studio
 type: docs
 weight: 10
 url: /es/net/visual-studio-export-gridview-to-excel-control/
 ---
+
 ## **Introducción**
- Export GridView To Excel Control es un control de servidor ASP.NET que permite exportar contenidos de GridView a Microsoft hojas de cálculo de Excel u OpenOffice usando[Aspose.Cells](https://products.aspose.com/cells/net/) . agrega**Exportar a Excel** en la parte superior del control GridView. Al hacer clic en el botón, se exporta dinámicamente el contenido del control GridView a una hoja de cálculo Microsoft Excel u OpenOffice y luego se descarga automáticamente el archivo exportado a la ubicación del disco seleccionada por el usuario en solo un par de segundos.
+El control de exportación de GridView a Excel es un control de servidor ASP.NET que permite exportar el contenido de GridView a hojas de cálculo de Microsoft Excel u OpenOffice utilizando [Aspose.Cells](https://products.aspose.com/cells/net/). Añade un botón **Exportar a Excel** en la parte superior del control GridView. Al hacer clic en el botón, exporta dinámicamente el contenido del control GridView a una hoja de cálculo de Microsoft Excel u OpenOffice y luego descarga automáticamente el archivo exportado en la ubicación del disco seleccionada por el usuario en solo un par de segundos.
 ### **Características del módulo**
 Esta versión inicial del control proporciona las siguientes características:
 
-- Obtenga una copia sin conexión de su contenido GridView en línea favorito para editar, compartir e imprimir.
-- Se hereda del control GridView ASP.NET predeterminado y, por lo tanto, tiene todas sus funciones y propiedades.
-- Exporte GridView a Xlsx, Xlsb, Xls, Txt, Csv, Ods.
-- Funciona con todas las versiones .NET a partir de .NET 2.0.
-- Posibilidad de personalizar/localizar el texto del botón Exportar.
-- Aplique la apariencia de su propio tema en el botón Exportar usando css.
+- Obtener una copia sin conexión de tu contenido favorito de GridView en línea para editar, compartir e imprimir.
+- Heredadas del control GridView predeterminado de ASP.NET y, por lo tanto, tienen todas sus características y propiedades.
+- Exportar GridView a Xlsx, Xlsb, Xls, Txt, Csv, Ods.
+- Funciona con todas las versiones de .NET a partir de .NET 2.0.
+- Capacidad para personalizar/localizar el texto del botón de exportación.
+- Aplicar el aspecto y la sensación de su propio tema al botón de exportación usando css.
 - Opción para agregar un encabezado personalizado en la parte superior del documento exportado
 - Opción para guardar cada documento exportado en el servidor en una ruta de disco configurable
-- Opción para exportar la página actual o todas las páginas cuando la paginación está habilitada
+- Opción para exportar la página actual o todas las páginas cuando está habilitada la paginación
 
-![todo:imagen_alternativa_texto](visual-studio-export-gridview-to-excel-control_1.png)
+![todo:image_alt_text](visual-studio-export-gridview-to-excel-control_1.png)
 
 Este control le permite exportar GridView en los siguientes formatos de archivo diferentes.
 
@@ -28,100 +29,100 @@ Este control le permite exportar GridView en los siguientes formatos de archivo 
 1. Exportar GridView a Xlsb
 1. Exportar GridView a Xls
 1. Exportar GridView a Txt
-1. Exportar GridView a CSV
+1. Exportar GridView a Csv
 1. Exportar GridView a Ods
 ## **Requisitos del sistema y plataformas compatibles**
 ### **Requisitos del sistema**
-Exportar GridView a Excel Control para Visual Studio se puede usar en cualquier sistema que tenga instalado IIS y .NET framework 2.0 o superior.
+El control Export GridView To Excel para Visual Studio se puede utilizar en cualquier sistema que tenga instalado IIS y .NET framework 2.0 o superior.
 ### **Plataformas compatibles**
-Exportar GridView a Excel Control para Visual Studio es compatible con todas las versiones de ASP.NET que se ejecutan en .NET framework 2.0 o superior. Puede usar cualquiera de las siguientes versiones de Visual Studio para usar este control en sus aplicaciones ASP.NET
+Export GridView To Excel Control for Visual Studio es compatible con todas las versiones de ASP.NET que se ejecutan en .NET framework 2.0 o superior. Puede utilizar cualquiera de las siguientes versiones de Visual Studio para usar este control en sus aplicaciones ASP.NET
 
-- estudio visual 2005
-- estudio visual 2008
-- estudio visual 2010
-- estudio visual 2012
-- estudio visual 2013
+- Visual Studio 2005
+- Visual Studio 2008
+- Visual Studio 2010
+- Visual Studio 2012
+- Visual Studio 2013
 ## **Descargando**
-Puede descargar Export GridView To Excel Control desde una de las siguientes ubicaciones
+Puede descargar el Control Exportar GridView a Excel desde una de las siguientes ubicaciones
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Export_GridView_Excel)
-## **Instalando**
-Es muy simple y fácil de instalar Export GridView To Excel Control, siga estos sencillos pasos
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/Export_GridView_Excel)
+## **Instalación**
+Es muy simple y fácil de instalar el Control Exportar GridView a Excel, por favor siga estos simples pasos
 ### **Para Visual Studio 2010, 2012 y 2013**
 1. Extraiga el archivo zip descargado
 1. Haga doble clic en el archivo VSIX Aspose.Excel.GridViewExport.vsix
-1. Aparecerá un cuadro de diálogo que le mostrará las versiones de Visual Studio disponibles y compatibles instaladas en su máquina
-1. Seleccione aquellos a los que desea agregar el control Exportar GridView a Excel.
+1. Aparecerá un diálogo que le mostrará las versiones de Visual Studio disponibles y soportadas instaladas en su máquina
+1. Seleccione aquellas en las cuales desea agregar el Control Exportar GridView a Excel.
 1. Haga clic en Instalar
 
-Obtendrá un cuadro de diálogo de éxito una vez que se complete la instalación.
+Recibirá un diálogo de éxito una vez la instalación haya sido completada.
 
-**Nota:** Asegúrese de reiniciar Visual Studio para que los cambios surtan efecto.
-### **Para las ediciones Visual Studio 2005, 2008 y Express**
-Siga estos pasos para integrar Export GridView To Excel Control en Visual Studio para arrastrar y soltar fácilmente como otros controles ASP.NET
+**Nota:** Por favor asegúrese de reiniciar Visual Studio para que los cambios tengan efecto.
+### **Para Visual Studio 2005, 2008 y ediciones Express**
+Por favor siga estos pasos para integrar el Control Exportar GridView a Excel en Visual Studio para fácil arrastrar y soltar como otros controles de ASP.NET
 
 1. Extraiga el archivo zip descargado
-1. Asegúrese de ejecutar Visual Studio como administrador
+1. Asegúrate de ejecutar Visual Studio como administrador
 
-En el menú Herramientas, haga clic en Elegir elementos del cuadro de herramientas.
+En el menú Herramientas, haz clic en Elegir elementos del cuadro de herramientas
 
-1.  Haga clic en Examinar.
- Aparece el cuadro de diálogo Abrir.
-1. Busque la carpeta extraída y seleccione Aspose.Excel.GridViewExport.dll
-1. Haga clic en Aceptar.
+1. Haz clic en Examinar 
+   Aparece el cuadro de diálogo Abrir
+1. Navega hasta la carpeta extraída y selecciona Aspose.Excel.GridViewExport.dll
+1. Haz clic en Aceptar
 
-Cuando abre un control aspx o ascx en el cuadro de herramientas del lado izquierdo, verá ExportGridViewToWord en la pestaña General
+Cuando abras un control aspx o ascx en el cuadro de herramientas del lado izquierdo, verás ExportGridViewToWord bajo la pestaña General
 
-![todo:imagen_alternativa_texto](visual-studio-export-gridview-to-excel-control_2.png)
+![todo:image_alt_text](visual-studio-export-gridview-to-excel-control_2.png)
 ## **Usando**
-Una vez instalado, es muy fácil empezar a utilizar este control en tus aplicaciones ASP.NET
+Una vez instalado, es muy fácil empezar a usar este control en tus aplicaciones ASP.NET
 
-|**Para .NET marco 4.0 y superior** |**Para .NET framework 2.0 y superior** |** |
-|:- |:- |:- |
-| Para las aplicaciones que se ejecutan en .NET framework 4.0 y superior en Visual Studio 2010 y superior, debería ver**Exportar vista de cuadrícula a Excel**controlar en**Aspose** Pestaña en la barra de herramientas como se muestra a continuación. Simplemente puede arrastrar y soltar este control en su página ASP.NET, control o página maestra como cualquier otro control .NET y comenzar.|Para usar este control en aplicaciones que se ejecutan en .NET 2.0 en cualquier versión de Visual Studio, asegúrese de haber agregado ExportGridViewToExcel a su caja de herramientas según las instrucciones en ﻿[8.1.2.1 Descarga e instalación]() bajo encabezamiento**Para las ediciones Visual Studio 2005, 2008 y Express** <br> Debería ver**Exportar vista de cuadrícula a Excel**controlar en**General** Pestaña en la barra de herramientas como se muestra a continuación. Simplemente puede arrastrar y soltar este control en su página ASP.NET, control o página maestra como cualquier otro control .NET y comenzar.||
-|<p>![todo:imagen_alternativa_texto](picture2.png)</p><p></p>|<p>![todo:imagen_alternativa_texto](picture3.png)</p><p></p>||
-### **Adición manual del control ExportGridViewToExcel**
-Si tiene algún problema al usar los métodos anteriores que usan Visual Studio Toolbox, puede agregar manualmente este control a su aplicación ASP.NET que se ejecuta en cualquier marco .NET superior a 2.0
+|**Para el marco de .NET 4.0 y superior** |**Para el marco de .NET 2.0 y superior** |** |
+| :- | :- | :- |
+|Para aplicaciones en ejecución en .NET framework 4.0 y superior en Visual Studio 2010 y superior, deberías ver el control **ExportGridViewToExcel** en la pestaña **Aspose** en la barra de herramientas como se muestra a continuación. Simplemente arrastra y suelta este control en tu página ASP.NET, control o página maestra igual que cualquier otro control .NET para empezar. |Para usar este control en aplicaciones en ejecución en .NET 2.0 en cualquier versión de Visual Studio, asegúrate de haber añadido ExportGridViewToExcel a tu cuadro de herramientas según las instrucciones en [8.1.2.1 Descarga e Instalación]() bajo el apartado **Para Visual Studio 2005, 2008 y ediciones Express** <br>Deberías ver el control **ExportGridViewToExcel** en la pestaña **General** en la barra de herramientas como se muestra a continuación. Simplemente arrastra y suelta este control en tu página ASP.NET, control o página maestra igual que cualquier otro control .NET para empezar. | |
+|<p>![todo:image_alt_text](picture2.png)</p><p></p>|<p>![todo:image_alt_text](picture3.png)</p><p></p>| |
+### **Añadir manualmente el control ExportGridViewToExcel**
+Si tienes problemas con los métodos anteriores que utilizan el Cuadro de herramientas de Visual Studio, puedes añadir manualmente este control a tu aplicación ASP.NET en ejecución en cualquier marco de .NET superior a 2.0
 
-1. Si está utilizando Visual Studio, asegúrese de ejecutarlo como administrador
-1.  Añadir referencia a**Aspose.Excel.GridViewExport.dll**disponible en el paquete de descarga extraído en su proyecto ASP.NET o aplicación web. Asegúrese de que su aplicación web/Visual Studio tenga acceso completo a esta carpeta; de lo contrario, podría obtener una excepción de Acceso denegado.
-1.  Agregue esta línea a la parte superior de la página, control o MasterPage
+1. Si estás usando Visual Studio, asegúrate de ejecutarlo como administrador
+1. Añade referencia a **Aspose.Excel.GridViewExport.dll** disponible en el paquete de descarga extraído en tu proyecto ASP.NET o aplicación web. Asegúrate de que tu aplicación web/Visual Studio tenga acceso completo a esta carpeta, de lo contrario podrías recibir una excepción de acceso denegado.
+1. Añade esta línea en la parte superior de la página, control o página maestra 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <%@ Register assembly="Aspose.Excel.GridViewExport" namespace="Aspose.Excel.GridViewExport" tagprefix="aspose" %>
 
 {{< /highlight >}}
 
-1.  Agregue lo siguiente a un lugar en su página ASP.NET, control o página maestra donde desea que se agregue el control
+1. Añade lo siguiente en el lugar de tu página ASP.NET, control o página maestra donde deseas añadir el control 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <aspose:ExportGridViewToExcel ID="ExportGridViewToExcel1" runat="server"></aspose:ExportGridViewToExcel>
 
 {{< /highlight >}}
-### **preguntas frecuentes**
-Preguntas y problemas comunes que puede enfrentar al usar este Control
+### **Preguntas Frecuentes**
+Preguntas comunes y problemas que podrías enfrentar al usar este Control
 
-|**#** |**Pregunta** |**Responder** |
-|:- |:- |:- |
-|1 | No puedo ver el control ExportGridViewToExcel en Toolbox|<p>**Visual Studio 2010 y superior** </p><p>1. Asegúrese de haber instalado este control utilizando el archivo de extensión VSIX que se encuentra en el paquete descargado. Para verificar vaya a Herramientas -> Extensión y Actualizaciones. Debajo de Instalado, debería ver 'Aspose Exportar Exportar GridView a Excel Control'. Si no lo ve, intente volver a instalarlo</p><p>2. Asegúrese de que su aplicación web se esté ejecutando en .NET framework 4.0 o superior, para versiones anteriores de .NET framework, consulte el método alternativo anterior.<br>   **Versiones anteriores de Visual Studio**</p><p>3. Asegúrese de haber agregado manualmente este control a su Caja de herramientas según las instrucciones anteriores.</p>|
-|2 | Recibo el error "Acceso denegado" al ejecutar la aplicación|<p>1. Si tiene este problema en producción, asegúrese de copiar tanto Aspose.Excel.dll como Aspose.Excel.GridViewExport.dll en su carpeta bin.</p><p>2. Si está utilizando Visual Studio, asegúrese de ejecutarlo como administrador incluso si ya ha iniciado sesión como administrador.</p>|
-### **Aspose .NET Exportar GridView a propiedades de control de Excel**
-Las siguientes propiedades están expuestas para configurar y usar funciones geniales proporcionadas por este control
+|**#** |**Pregunta** |**Respuesta** |
+| :- | :- | :- |
+|1 |No puedo ver el control ExportGridViewToExcel en el Toolbox |<p>**Visual Studio 2010 y posterior** </p><p>1. Asegúrese de haber instalado este control utilizando el archivo de extensión VSIX que se encuentra en el paquete descargado. Para verificar, vaya a Herramientas -> Extensión y Actualizaciones. Debe ver 'Aspose Export Export GridView To Excel Control' bajo Instalado. Si no lo ve, intente reinstalarlo</p><p>2. Asegúrese de que su aplicación web se esté ejecutando en .NET Framework 4.0 o superior; para versiones más antiguas del .NET Framework, revise el método alternativo mencionado anteriormente. <br>   **Versiones antiguas de Visual Studio**</p><p>3. Asegúrese de haber agregado manualmente este control a su Toolbox según las instrucciones anteriores.</p>|
+|2 |Recibo el error 'Acceso denegado' al ejecutar la aplicación |<p>1. Si experimenta este problema en producción, asegúrese de copiar tanto Aspose.Excel.dll como Aspose.Excel.GridViewExport.dll en su carpeta bin.</p><p>2. Si está utilizando Visual Studio, asegúrese de ejecutarlo como administrador, incluso si ya ha iniciado sesión como administrador.</p>|
+### **Propiedades del Control Aspose .NET Export GridView To Excel**
+Las siguientes propiedades se exponen para configurar y utilizar las características proporcionadas por este control
 
-|**Nombre de la propiedad** |**Escribe** |**Ejemplo/Valores posibles** |**Descripción** |
-|:- |:- |:- |:- |
-| ExportButtonText| cadena| Exportar a Excel| Puede usar esta propiedad para anular el texto predeterminado existente|
-|ExportButtonCssClassExportButtonCssClass| cadena| btn btn-primario| Clase Css que se aplica al div externo del botón de exportación. Para aplicar css en el botón, puede usar la entrada .yourClass|
-| ExportFileHeadingExportFileHeading| cadena|<h4>Informe de ejemplo de exportación de GridView</h4> | Puede usar etiquetas html para agregar estilo a su encabezado|
-| Formato de salida de exportación| enumeración| Xlsx, Xlsb, Xls, Txt, Csv, Ods| Formato de salida del documento exportado. Los formatos admitidos son Xlsx, Xlsb, Xls, Txt, Csv, Ods|
-| ExportOutputPathOnServerExportOutputPathOnServer| cadena| C:<br> temperatura| Salida local Ruta del disco en el servidor donde se guarda automáticamente una copia de la exportación. La aplicación debe tener acceso de escritura a esta ruta.|
-| ExportDataSource| objeto| allRowsDataTable|Establece el objeto del que este control de enlace de datos recupera su lista de elementos de datos. El objeto debe tener todos los datos que necesitan ser exportados. Esta propiedad se usa además de la propiedad DataSource normal y es útil cuando la paginación personalizada está habilitada y la página actual solo obtiene filas para mostrarlas en la pantalla.|
-| LicenseFilePath| cadena|| Ruta local en el servidor al archivo de licencia. Por ejemplo C:<br> inetpub<br> Aspose.Cells.lic|
-A continuación se muestra un ejemplo del control Exportar GridView a Excel con todas las propiedades utilizadas.
+|**Nombre de la propiedad** |**Tipo** |**Ejemplo/Valores posibles** |**Descripción** |
+| :- | :- | :- | :- |
+|ExportButtonText |string |Exportar a Excel |Puede usar esta propiedad para anular el texto predeterminado existente |
+|ExportButtonCssClass |string |btn btn-primary |Clase CSS que se aplica al div externo del botón de exportación. Para aplicar CSS al botón, puede usar .tuClase input |
+|ExportFileHeading |string |<h4>Ejemplo de Reporte de Exportación de GridView</h4> |Puede usar etiquetas HTML para agregar estilo a su encabezado |
+|ExportOutputFormat |enum |Xlsx, Xlsb, Xls, Txt, Csv, Ods |Formato de salida del documento exportado. Los formatos admitidos son Xlsx, Xlsb, Xls, Txt, Csv, Ods |
+|ExportOutputPathOnServer |string |c: <br>temp |Ruta de disco de salida local en el servidor donde se guarda automáticamente una copia de la exportación. La aplicación debe tener acceso de escritura a esta ruta. |
+|ExportDataSource |objeto |allRowsDataTable |Establece el objeto del cual este control de enlace de datos obtiene su lista de elementos de datos. El objeto debe contener todos los datos que deben exportarse. Esta propiedad se utiliza además de la propiedad DataSource normal y es útil cuando se habilita el paginado personalizado y la página actual solo obtiene las filas que se van a mostrar en la pantalla. |
+|LicenseFilePath |string | |Ruta local en el servidor al archivo de licencia. Por ejemplo, c: <br>inetpub <br>Aspose.Cells.lic |
+Se muestra un ejemplo del control Exportar GridView a Excel con todas las propiedades utilizadas a continuación
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <aspose:ExportGridViewToExcel Width="800px" ID="ExportGridViewToExcel1" ExportButtonText="Export to Excel"
 
@@ -139,36 +140,36 @@ A continuación se muestra un ejemplo del control Exportar GridView a Excel con 
 
 
 {{< /highlight >}}
-## **Vídeo de demostración**
- por favor, compruebe[el video](https://www.youtube.com/watch?v=_fSq_3TP1oM) a continuación para ver el módulo en acción.
-## **Apoyar, Extender y Contribuir**
+## **Demostración en Video**
+Por favor, consulte [el video](https://www.youtube.com/watch?v=_fSq_3TP1oM) a continuación para ver el módulo en acción.
+## **Soporte, Ampliación y Contribución**
 ### **Soporte**
-Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
+Desde los primeros días de Aspose, supimos que simplemente proporcionar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que resulta cuando un problema técnico o una peculiaridad en el software le impide hacer lo que necesita. Estamos aquí para resolver problemas, no para crearlos.
 
-Es por eso que ofrecemos soporte gratuito. Cualquiera que use nuestro producto, ya sea que lo haya comprado o esté usando una evaluación, merece toda nuestra atención y respeto.
+Es por eso que ofrecemos soporte gratuito. Cualquier persona que use nuestro producto, ya sea que los haya comprado o esté usando una evaluación, merece nuestra completa atención y respeto.
 
-Puede registrar cualquier problema o sugerencia relacionada con este control utilizando cualquiera de las siguientes plataformas
+Puede registrar cualquier problema o sugerencia relacionado con este control utilizando cualquiera de las siguientes plataformas
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-### **Extender y contribuir**
-Aspose .NET Exportar GridView a Excel Control para Visual Studio es de código abierto y su código fuente está disponible en los principales sitios web de codificación social que se enumeran a continuación. Se anima a los desarrolladores a descargar el código fuente y ampliar la funcionalidad según sus propios requisitos.
-#### **Código fuente**
-Puede obtener el código fuente más reciente de una de las siguientes ubicaciones
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+### **Ampliar y Contribuir**
+Aspose .NET Export GridView To Excel Control for Visual Studio es de código abierto y su código fuente está disponible en los principales sitios web de codificación social que se enumeran a continuación. Se anima a los desarrolladores a descargar el código fuente y extender la funcionalidad según sus propios requisitos.
+#### **Código Fuente**
+Puede obtener el último código fuente en una de las siguientes ubicaciones
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins)
 #### **Cómo configurar el código fuente**
-Necesita tener instalado lo siguiente para abrir y extender el código fuente
+Debe tener instalado lo siguiente para abrir y extender el código fuente
 
-- estudio visual 2010
+- Visual Studio 2010
 
-Siga estos sencillos pasos para empezar
+Siga estos simples pasos para comenzar
 
-1. Descarga/clona el código fuente.
-1.  Abra Visual Studio 2010 y elija**Archivo** > **Proyecto abierto**
-1.  Busque el código fuente más reciente que haya descargado y abierto**Aspose.Excel.GridViewExport.sln**
-#### **Descripción general del código fuente**
-Hay tres proyectos en la solución.
+1. Descargar/Clonar el código fuente.
+1. Abra Visual Studio 2010 y elija **Archivo** > **Abrir Proyecto**
+1. Navegue hasta el código fuente más reciente que haya descargado y abra **Aspose.Excel.GridViewExport.sln**
+#### **Resumen del código fuente**
+Hay tres proyectos en la solución
 
-- Aspose.Excel.GridViewExport: contiene el paquete VSIX y el control del servidor for .NET 4.0.
-- Aspose.Excel.GridViewExport_Punto net_2.0 - Control GridView extendido for .NET 2.0
-- Aspose.Excel.GridViewExport.Website: proyecto web para probar el control GridView exportable de Excel
+- Aspose.Excel.GridViewExport - Contiene paquete VSIX y control de servidor para .NET 4.0.
+- Aspose.Excel.GridViewExport_DotNet_2.0 - Control GridView extendido para .NET 2.0
+- Aspose.Excel.GridViewExport.Website - Proyecto web para probar el control GridView exportable a Excel

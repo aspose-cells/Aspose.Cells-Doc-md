@@ -1,16 +1,17 @@
-﻿---
-title: Обновить элемент формулы Power Query
+---
+title: Обновление элемента формулы Power Query
 type: docs
 weight: 120
 url: /ru/net/update-power-query-formula-item/
 ---
+
 ## **Сценарий использования**
 
- Могут быть случаи, когда файлы источника данных перемещаются, а файл Excel не может найти файл. В таких случаях Aspose.Cells API предоставляет возможность обновить элемент формулы Power Query с помощью[*PowerQueryFormulaItem*](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem) класс для обновления местоположения исходного файла.
+Могут возникнуть случаи, когда файлы источника данных перемещаются, и электронный файл не может найти файл. В таких случаях API Aspose.Cells предоставляет возможность обновления элемента формулы Power Query с использованием класса PowerQueryFormulaItem для обновления местоположения исходного файла.
 
 ## **Обновление элемента формулы Power Query**
 
- Aspose.Cells API позволяет обновлять элементы формулы Power Query. В следующем фрагменте кода показано обновление местоположения файла источника данных в файле Excel с помощью[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)имущество. Исходный и выходной файлы прилагаются для ознакомления.
+API Aspose.Cells предоставляет возможность обновления элементов формулы Power Query. В следующем фрагменте кода демонстрируется обновление местоположения файла источника данных в электронном файле с использованием свойства [**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value). Исходный и выходной файлы прикреплены для вашего справочника.
 
 - [Исходный файл 1](106364953.xlsx)
 - [Исходный файл 2](106364954.xlsx)

@@ -1,43 +1,44 @@
 ---
-title: Çalışma Sayfasını Farklı Görüntü Formatlarına Dönüştürme
+title: Farklı Görüntü Biçimlerine Çalışsayı Dönüştürme
 type: docs
 weight: 90
 url: /tr/cpp/converting-worksheet-to-different-image-formats/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells, bir çalışma kitabından bir çalışma sayfasını dışa aktarmanıza ve onu farklı görüntü formatlarına dönüştürmenize olanak tanır. Bu makalede, bir çalışma sayfasının farklı görüntü biçimlerine nasıl dönüştürüleceği açıklanmaktadır.
+Aspose.Cells, bir çalışma kitabındaki bir çalışma sayfasını dışa aktarmanıza ve farklı görüntü biçimlerine dönüştürmenize olanak tanır. Bu makale, bir çalışma sayfasını farklı görüntü biçimlerine nasıl dönüştüreceğinizi açıklar.
 
 {{% /alert %}} 
-##  **Çalışma Sayfasını Resme Dönüştürme**
-Çalışma sayfaları analiz etmek istediğiniz verileri içerir. Örneğin bir çalışma sayfası parametreler, toplamlar, yüzdeler, istisnalar ve hesaplamalar içerebilir.
+## **Çalışsayıyı Görüntüye Dönüştürme**
+Çalışma sayfaları analiz etmek istediğiniz verileri içerebilir. Örneğin, bir çalışma sayfası parametreleri, toplamları, yüzdeleri, istisnaları ve hesaplamaları içerebilir.
 
-Bir geliştirici olarak çalışma sayfalarını resim olarak sunmanız gerekebilir. Örneğin, bir uygulamada veya web sayfasında bir çalışma sayfasının resmini kullanmanız gerekebilir. Microsoft Word belgesine, PDF dosyasına, PowerPoint sunumuna veya başka bir belge türüne resim eklemek isteyebilirsiniz. Basitçe söylemek gerekirse, başka bir yerde kullanabilmeniz için bir çalışma sayfasının resim olarak işlenmesini istiyorsunuz.
+Bir geliştirici olarak, çalışma sayfalarını görüntü olarak sunmanız gerekebilir. Örneğin, bir çalışma sayfasının bir görüntüsünü bir uygulamada veya web sayfasında kullanmanız gerekebilir. Bir çalışma sayfasını bir Microsoft Word belgesine, bir PDF dosyasına, bir PowerPoint sunumuna veya başka bir belge türüne eklemek isteyebilirsiniz. Basitçe söylemek gerekirse, bir çalışma sayfasını bir görüntü olarak oluşturmak istiyorsunuz ki başka bir yerde kullanabilesiniz.
 
-Aspose.Cells, Excel çalışma sayfalarının resimlere dönüştürülmesini destekler. Bu özelliği kullanmak için içe aktarmanız gerekir.[Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/)programınızın veya projenizin ad alanı. Oluşturma ve yazdırma için çeşitli değerli sınıflara sahiptir; örneğin,[Sayfa İşleme](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [Görüntü Veya Yazdırma Seçenekleri](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/)ve diğerleri.
+Aspose.Cells, Excel çalışma sayfalarını görüntülere dönüştürmeyi destekler. Bu özelliği kullanabilmek için programınıza veya projenize [Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/) ad alanını içe aktarmanız gerekir. Render ve yazdırma için birkaç değerli sınıf içerir, örneğin [SheetRender](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [ImageOrPrintOptions](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/) ve diğerleri.
 
-`Aspose.Cells.Rendering.ISheetRender` sınıfı, resim olarak işlenecek bir çalışma sayfasını temsil eder. Aşırı yüklenmiş bir yöntemi vardır,[Hayal etmek](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/)bir çalışma sayfasını farklı niteliklere veya seçeneklere sahip görüntü dosyalarına dönüştürebilir. Çeşitli görüntü formatları desteklenir; örneğin, BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.
+`Aspose.Cells.Rendering.ISheetRender` sınıfı, bir çalışma sayfasını görüntü olarak oluşturacak. Değişik özelliklere veya seçeneklere sahip bir çalışma sayfasını farklı görüntü dosyalarına dönüştürebilen bir [ToImage](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/) metoduna sahiptir. Çeşitli görüntü biçimleri desteklenir, örneğin BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.
 
-Aşağıdaki kod parçacığı, Excel dosyasındaki bir çalışma sayfasının görüntü dosyasına nasıl dönüştürüleceğini gösterir.
-###  **PNG Biçimi**
- Lütfen aşağıdaki örnek koda bakın;[örnek Excel dosyası](67338402.xlsx) , ve[çıktı PNG Görüntüler](67338401.zip).
+Aşağıdaki kod örneği, bir Excel dosyasındaki bir çalışma sayfasını bir görüntü dosyasına dönüştürmenin nasıl yapıldığını gösterir.
+### **PNG Biçimi**
+Lütfen, örnek kodunu, [örnek Excel dosyasını](67338402.xlsx) ve [çıktı PNG Görüntülerini](67338401.zip) inceleyin.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG-new.cpp" >}}
 
-###  **TIFF Biçimi**
- Lütfen aşağıdaki örnek koda bakın;[örnek Excel dosyası](67338402.xlsx) , ve[çıkış TIFF Görüntü](67338419.zip).
+### **TIFF Biçimi**
+Lütfen, örnek kodunu, [örnek Excel dosyasını](67338402.xlsx) ve [çıktı TIFF Görüntüsünü](67338419.zip) inceleyin.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF-new.cpp" >}}
 
-##  **Çalışma Sayfasını SVG'e Dönüştürme**
-SVG, Ölçeklenebilir Vektör Grafikleri anlamına gelir. SVG, iki boyutlu vektör grafiklerine yönelik XML standartlarını temel alan bir spesifikasyondur. World Wide Web Konsorsiyumu (W3C) tarafından 1999 yılından bu yana geliştirilmekte olan açık bir standarttır.
+## **Çalışma Sayfasını SVG'ye Dönüştürme**
+SVG, Ölçeklenebilir Vektör Grafikleri anlamına gelir. SVG, iki boyutlu vektör grafikleri için XML standartlarına dayanan bir spesifikasyondur. 1999'dan beri World Wide Web Consortium (W3C) tarafından geliştirilen açık bir standarttır.
 
-Aspose.Cells for C++, 18.5.0 sürümünden bu yana çalışma sayfalarını SVG resmine dönüştürebiliyor.
+Aspose.Cells for C++ sürümünden itibaren, çalışma sayfalarını SVG görüntüye dönüştürebilmektedir.
 
-Bu özelliği kullanmak için `Aspose.Cells.Rendering` ad alanını programınıza veya projenize aktarın. Oluşturma ve yazdırma için birkaç değerli sınıfa sahiptir; örneğin `ISheetRender`, `IImageOrPrintOptions` ve diğerleri.
+Bu özelliği kullanabilmek için programınıza veya projenize `Aspose.Cells.Rendering` ad alanını içe aktarmanız gerekir. Render ve yazdırma için birkaç değerli sınıf içerir, örneğin `ISheetRender`, `IImageOrPrintOptions`, ve diğerleri.
 
-`Aspose.Cells.Rendering.IImageOrPrintOptions` sınıfı, çalışma sayfasının SVG formatında kaydedileceğini belirtir. Aşağıdaki kod parçacığı, Excel dosyasındaki bir çalışma sayfasının SVG görüntü dosyasına nasıl dönüştürüleceğini gösterir
+`Aspose.Cells.Rendering.IImageOrPrintOptions` sınıfı, çalışma sayfasının SVG biçiminde kaydedileceğini belirtir. Aşağıdaki kod parçası, bir Excel dosyasındaki bir çalışma sayfasını SVG bir görüntü dosyasına dönüştürmeyi gösterir.
 
- Lütfen aşağıdaki örnek koda bakın;[örnek Excel dosyası](67338402.xlsx) , ve[çıktı SVG Görüntüler](67338403.zip).
+Lütfen, örnek kodunu, [örnek Excel dosyasını](67338402.xlsx) ve [çıktı SVG Görüntülerini](67338403.zip) inceleyin.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG-new.cpp" >}}

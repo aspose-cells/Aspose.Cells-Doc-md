@@ -1,40 +1,41 @@
-﻿---
-title: قراءة CSV ملف ذو ترميزات متعددة
+---
+title: قراءة ملف CSV بترميزات متعددة
 type: docs
 weight: 140
 url: /ar/java/reading-csv-file-with-multiple-encodings/
 ---
+
 {{% alert color="primary" %}} 
 
-في وقت ما ، يحتوي ملف CSV الخاص بك على ترميزات متعددة (Unicode ، ANSI ، UTF8 ، UTF7 ، إلخ). يسمح لك Aspose.Cells بتحميل مثل هذه الملفات CSV وتحويلها إلى تنسيقات أخرى ، على سبيل المثال PDF أو XLSX.
+أحيانًا، يحتوي ملف الـ CSV الخاص بك على ترميزات متعددة (يونيكود، ANSI، UTF8، UTF7 إلخ). Aspose.Cells تسمح لك بتحميل مثل هذه الملفات الـ CSV وتحويلها إلى صيغ أخرى، على سبيل المثال PDF أو XLSX.
 
 {{% /alert %}} 
 
- يوفر Aspose.Cells طريقة TxtLoadOptions.setMultiEncoded () ، والتي تحتاج إلى ضبطها على**حقيقي** لتحميل ملف CSV الخاص بك مع ترميزات متعددة بشكل صحيح.
+توفر Aspose.Cells طريقة TxtLoadOptions.setMultiEncoded()، التي تحتاج إلى تعيينها إلى **true** لتحميل ملف الـ CSV الخاص بك بترميزات متعددة بشكل صحيح.
 
- تُظهر لقطة الشاشة التالية نموذج ملف CSV يحتوي على سطرين. السطر الأول في**ANSI** الترميز والسطر الثاني في**يونيكود** التشفير
+تُظهر اللقطة الشاشية التالية ملف CSV عينة يحتوي على سطرين. السطر الأول بترميز **ANSI** والسطر الثاني بترميز **يونيكود**
 
-**ملف الإدخال** 
+**الملف الداخلي** 
 
-![ما يجب القيام به: image_بديل_نص](reading-csv-file-with-multiple-encodings_1.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_1.png)
 
-تُظهر لقطة الشاشة التالية الملف XLSX الذي تم تحويله من ملف CSV أعلاه دون ضبط طريقة TxtLoadOptions.setMultiEncoded () على القيمة true. كما ترى ، لم يتم تحويل نص Unicode بشكل صحيح.
+تُظهر اللقطة الشاشية التالية ملف XLSX تم تحويله من ملف CSV أعلاه دون تعيين طريقة TxtLoadOptions.setMultiEncoded() إلى قيمة صحيحة. كما تلاحظ، لم يتم تحويل النص اليونيكود بشكل صحيح.
 
-**ملف الإخراج 1: لم يتم إجراء أي تكييف للترميز المتعدد** 
+**الملف الناتج 1: لم يتم إجراء أي تكيف للترميز المتعدد** 
 
-![ما يجب القيام به: image_بديل_نص](reading-csv-file-with-multiple-encodings_2.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)
 
-تُظهر لقطة الشاشة التالية ملف XSLX المحول من ملف CSV أعلاه بعد ضبط طريقة TxtLoadOptions.setMultiEncoded () على القيمة true. كما ترى ، يتم الآن تحويل نص Unicode بشكل صحيح.
+تُظهر اللقطة الشاشية التالية ملف XSLX تم تحويله من ملف CSV أعلاه بعد تعيين طريقة TxtLoadOptions.setMultiEncoded() إلى قيمة صحيحة. كما تلاحظ، تم تحويل النص اليونيكود بشكل صحيح الآن.
 
-**ملف الإخراج 2: تم تعيين IsMultiEncoded على true** 
+**الملف الناتج 2: IsMultiEncoded تم تعيين قيمتها إلى true** 
 
-![ما يجب القيام به: image_بديل_نص](reading-csv-file-with-multiple-encodings_3.png)
+![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)
 
-يوجد أدناه نموذج الكود الذي يحول الملف CSV أعلاه إلى تنسيق XLSX بشكل صحيح.
+أدناه الكود النموذجي الذي يحول ملف CSV أعلاه إلى صيغة XLSX بشكل صحيح.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  String filePath = "F:\\Downloads\\MutliEncoded.csv";
 

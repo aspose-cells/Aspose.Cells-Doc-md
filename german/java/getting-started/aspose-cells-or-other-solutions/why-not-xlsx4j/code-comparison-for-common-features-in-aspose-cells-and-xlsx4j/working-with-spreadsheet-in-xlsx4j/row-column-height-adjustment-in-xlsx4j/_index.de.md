@@ -1,23 +1,24 @@
-﻿---
-title: Zeilen-Spalten-Höhenanpassung in xlsx4j
+---
+title: Zeilen Spaltenhöhenanpassung in xlsx4j
 type: docs
 weight: 50
 url: /de/java/row-column-height-adjustment-in-xlsx4j/
 ---
-## **Aspose.Cells - Zeilen-Spalten-Höhenanpassung**
-Es ist möglich, die Höhe einer einzelnen Zeile festzulegen, indem die Methode setRowHeight der Sammlung Cells aufgerufen wird. Die setRowHeight-Methode übernimmt die folgenden Parameter:
 
-- **Zeilenindex**, der Index der Zeile, deren Höhe Sie ändern.
-- **Zeilenhöhe**, die Zeilenhöhe, die auf die Zeile angewendet werden soll.
+## **Aspose.Cells - Zeilen-Spaltenhöhenanpassung**
+Es ist möglich, die Höhe einer einzelnen Zeile durch Aufrufen der Methode setRowHeight der Sammlung Cells einzustellen. Die Methode setRowHeight nimmt die folgenden Parameter an:
 
-Legen Sie die Breite einer Spalte fest, indem Sie die Methode setColumnWidth der Sammlung Cells aufrufen. Die setColumnWidth-Methode übernimmt die folgenden Parameter:
+- **Zeilenindex**, der Index der Zeile, deren Höhe geändert wird.
+- **Zeilenhöhe**, die auf die Zeile anzuwendende Zeilenhöhe.
 
-- **Spaltenindex**, der Index der Spalte, deren Breite Sie ändern.
+Rufen Sie die Breite einer Spalte durch Aufrufen der Methode setColumnWidth der Sammlung Cells ein. Die Methode setColumnWidth nimmt die folgenden Parameter an:
+
+- **Spaltenindex**, der Index der Spalte, deren Breite geändert wird.
 - **Spaltenbreite**, die gewünschte Spaltenbreite.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cells.setRowHeight(1, 40);
 cells.setColumnWidth(1, 17.5);
 
 {{< /highlight >}}
-## **xlsx4j - Zeilen-Spalten-Höhenanpassung**
-Row.setHt wird verwendet, um eine benutzerdefinierte Höhe für Zeilen mit xlsx4j festzulegen. setCustomHeight sollte auf TRUE gesetzt werden.
+## **xlsx4j - Zeilen-Spaltenhöhenanpassung**
+Row.setHt wird verwendet, um die benutzerdefinierte Höhe für Zeilen unter Verwendung von xlsx4j festzulegen. setCustomHeight sollte auf TRUE gesetzt werden.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SpreadsheetMLPackage pkg = SpreadsheetMLPackage.createPackage();
 
@@ -88,13 +89,13 @@ row.getC().add(cell2);
 sheetData.getRow().add(row);
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Zeilenhöhe und Spaltenbreite anpassen](/java/adjusting-row-height-and-volumn-width).
+Besuchen Sie für weitere Informationen [Anpassung der Zeilenhöhe und Spaltenbreite](/java/adjusting-row-height-and-volumn-width).
 
 {{% /alert %}}

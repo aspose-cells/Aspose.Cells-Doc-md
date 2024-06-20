@@ -1,17 +1,18 @@
-﻿---
-title: Sidhuvud och sidfötter
+---
+title: Rubrik och sidfot
 type: docs
 weight: 60
 url: /sv/java/header-and-footers/
 ---
-## **Aspose.Cells - Sidhuvud och sidfötter**
-Klassen PageSetup tillhandahåller metoden setHeader för att lägga till en sidhuvud och setFooter för att lägga till en sidfot i ett kalkylblad. Skriptet används som argument för alla ovan nämnda metoder. Det representerar skriptet som ska användas för sidhuvud eller sidfot.
+
+## **Aspose.Cells - Rubrik och sidfot**
+Klassen PageSetup tillhandahåller metoden setHeader för att lägga till en header och setFooter för att lägga till en sidfot i ett arbetsblad. Skriptet används som ett argument för alla ovan nämnda metoder. Det representerar skriptet som ska användas för header eller footer.
 
 **Rubrik**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the PageSetup of the worksheet
 
@@ -37,7 +38,7 @@ pageSetup.setHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Setting a string at the left footer and changing the font of the footer
 
@@ -49,7 +50,7 @@ pageSetup.setFooter(1, "&G");
 
 FileInputStream fis = new FileInputStream("data/footer.png");
 
-byte[]picData = new byte[fis.available()];
+byte[] picData = new byte[fis.available()];
 
 fis.read(picData);
 
@@ -62,12 +63,12 @@ fis.close();
 pageSetup.setFooter(2, "&Pof&N");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Sidhuvud och sidfötter**
-Rubrikklass är tillgänglig för att justera rubrik i kalkylblad.
+## **Apache POI SS - HSSF XSSF - Rubrik och sidfot**
+Rubrik-klassen finns tillgänglig för att justera rubriken i kalkylblad.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Header header = sheet.getHeader();
 
@@ -80,13 +81,13 @@ header.setRight(HSSFHeader.font("Stencil-Normal", "Italic") +
                 HSSFHeader.fontSize((short) 16) + "Right w/ Stencil-Normal Italic font and size 16");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/headerandfooter)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Ställa in sidhuvuden och sidfötter](/java/setting-headers-and-footers).
+För mer information, besök [Inställning av rubriker och sidfötter](/java/setting-headers-and-footers)
 
 {{% /alert %}}

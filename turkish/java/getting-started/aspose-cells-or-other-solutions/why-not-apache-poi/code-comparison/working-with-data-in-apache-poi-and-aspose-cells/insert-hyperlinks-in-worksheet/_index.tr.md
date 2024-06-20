@@ -1,17 +1,18 @@
-﻿---
-title: Çalışma Sayfasına Köprü Ekleme
+---
+title: Çalışma Sayfasında Bağlantı Ekleme
 type: docs
 weight: 20
 url: /tr/java/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Çalışma Sayfasına Köprüler Ekle**
-**Aynı Dosyada Cell'e Bağlantı Ekleme**
 
-Hyperlink koleksiyonunun Add yöntemini çağırarak aynı Excel dosyasındaki hücrelere köprü eklemek mümkündür. Add yöntemi hem iç hem de dış köprüler için çalışır.
+## **Aspose.Cells - Çalışma Sayfasında Bağlantı Ekleme**
+**Aynı Dosyada Bir Hücreye Bağlantı Ekleme**
+
+Bir hücreye hem iç hem de dış bağlantılar eklemek için, Hyperlink koleksiyonunun Add yöntemini çağırmak mümkündür. Add yöntemi, iç ve dış bağlantılar için çalışır.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the first worksheet.
 
@@ -48,18 +49,18 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 
 {{< /highlight >}}
 
-**Harici Dosyaya Bağlantı Ekleme**
+**Harici Bir Dosyaya Bağlantı Ekleme**
 
-Hyperlinks koleksiyonunun Add yöntemini çağırarak harici Excel dosyalarına köprüler eklemek mümkündür. Add yöntemi aşağıdaki parametreleri alır:
+Harici Excel dosyalarına bağlantılar eklemek mümkündür. Bu, Hyperlink koleksiyonunun Add yöntemi çağrılarak yapılabilir. Add yöntemi aşağıdaki parametreleri alır:
 
-- Cell adı, köprünün ekleneceği hücrenin adı.
-- Satır sayısı, bu köprü aralığındaki satır sayısı.
-- Sütun sayısı, bu köprü aralığındaki sütun sayısı.
-- URL, hedefin adresi, harici Excel dosyası.
+- Hücre adı, bağlantı eklenecek hücrenin adı.
+- Satır sayısı, bu hyperlink aralığındaki satır sayısı.
+- Sütun sayısı, bu hyperlink aralığındaki sütun sayısı.
+- URL, hedef harici Excel dosyasının adresi.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  cell = cells.get("A3");
 
@@ -74,10 +75,10 @@ hyperlinks = sheet.getHyperlinks();
 hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Çalışma Sayfasına Köprüler Ekle**
+## **Apache POI SS - HSSF XSSF - Çalışma Sayfasına Bağlantı Ekleme**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  CellStyle hlink_style = wb.createCellStyle();
 
@@ -160,6 +161,6 @@ cell.setCellStyle(hlink_style);
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlink)
 

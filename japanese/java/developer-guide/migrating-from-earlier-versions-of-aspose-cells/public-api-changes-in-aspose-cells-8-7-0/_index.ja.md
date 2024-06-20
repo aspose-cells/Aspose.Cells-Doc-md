@@ -1,26 +1,27 @@
-﻿---
-title: パブリック API Aspose.Cells 8.7.0 の変更点
+---
+title: Aspose.Cells 8.7.0の公開API変更
 type: docs
 weight: 240
 url: /ja/java/public-api-changes-in-aspose-cells-8-7-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.6.3 から 8.7.0 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントは、Aspose.Cells APIの8.6.3から8.7.0への変更について記載しており、モジュール／アプリケーション開発者に関心がある可能性のある変更を説明しています。新しいおよび更新された公開メソッド、追加および削除されたクラスなどに加えて、Aspose.Cellsの裏側の挙動に変更がある場合も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **PDF 最適化のサポート**
-Aspose.Cells API は、スプレッドシートを PDF に変換する機能を既に提供しています。[結果の PDF サイズを最適化する](/cells/ja/java/save-excel-into-pdf-with-standard-or-minimum-size/)同じように。 Aspose.Cells for Java 8.7.0 では、スプレッドシートを PDF 形式にエクスポートする際に、ユーザーが目的の最適化アルゴリズムを簡単に選択できるように、PdfOptimizationType 列挙とともに PdfSaveOptions.OptimizationType プロパティが公開されています。以下に詳述するように、PdfSaveOptions.OptimizationType プロパティには 2 つの可能な値があります。
+## **APIの追加**
+### **PDF最適化のサポート**
+Aspose.Cells APIは既にスプレッドシートをPDFに変換する機能を提供しています。このAPIのこのリリースでは、結果となるPDFサイズを[最適化](/cells/ja/java/save-excel-into-pdf-with-standard-or-minimum-size/)することができます。Aspose.Cells for Java 8.7.0では、PdfSaveOptions.OptimizationTypeプロパティとPdfOptimizationType列挙型が公開され、スプレッドシートをPDF形式にエクスポートする際に希望の最適化アルゴリズムを選択するための機能をユーザーに提供します。PdfSaveOptions.OptimizationTypeプロパティには以下の2つの可能な値があります。 
 
-1. PdfOptimizationType.MINIMUM_SIZE: 結果のファイル サイズに対して品質が低下します。
-1. PdfOptimizationType.STANDARD: 品質が損なわれないため、結果のファイル サイズが大きくなります。
+1. PdfOptimizationType.MINIMUM_SIZE: 結果ファイルサイズのために品質が犠牲になります。
+1. PdfOptimizationType.STANDARD: 品質は犠牲にされず、結果ファイルサイズは大きくなります。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of PdfSaveOptions
 
@@ -41,14 +42,14 @@ Workbook book = new Workbook(inFilePath);
 book.save(outFilePath, pdfSaveOptions);
 
 {{< /highlight >}}
-### **デジタル署名された VBA プロジェクトの検出**
-新しく公開された VbaProject.isSigned プロパティは、[ワークブック内の VBA プロジェクトがデジタル署名されているかどうかを検出する](/cells/ja/java/check-if-vba-code-is-signed/)VbaProject.isSigned プロパティはブール型で、VBA プロジェクトがデジタル署名されている場合は true を返し、その逆の場合も同様です。
+### **デジタルに署名されたVBAプロジェクトの検出**
+新しく公開されたVbaProject.isSignedプロパティを使用して、ワークブック内のVBAプロジェクトが[デジタルに署名されているかどうかを検出](/cells/ja/java/check-if-vba-code-is-signed/)することができます。VbaProject.isSignedプロパティはBoolean型で、VBAプロジェクトがデジタルに署名されている場合はtrueを返し、それ以外の場合はfalseを返します。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -77,14 +78,14 @@ else
 }
 
 {{< /highlight >}}
-### **メソッド Protection.verifyPassword が追加されました**
-Aspose.Cells API は、文字列のインスタンスとしてパスワードを指定できるようにする verifyPassword メソッドを導入することにより、Protection クラスを強化しました。[ワークシートを保護するために同じパスワードが使用されているかどうかを確認します](/cells/ja/java/verify-password-used-to-protect-the-worksheet/)Protection.verifyPassword メソッドは、指定されたパスワードが指定されたワークシートを保護するために使用されるパスワードと一致する場合は true を返し、指定されたパスワードが一致しない場合は false を返します。次のコードは、Protection.isProtectedWithPassword フィールドと組み合わせて Protection.verifyPassword メソッドを使用して、パスワード保護を検出し、パスワードを検証します。
+### **Protection.verifyPasswordメソッドの追加**
+Aspose.Cells APIは、Protectionクラスを改良し、[指定したパスワードを使用してワークシートを保護したかどうかを検証](/cells/ja/java/verify-password-used-to-protect-the-worksheet/)するためのverifyPasswordメソッドを導入しました。Protection.verifyPasswordメソッドは、指定したパスワードが指定されたワークシートを保護するために使用されたパスワードと一致する場合はtrueを返し、一致しない場合はfalseを返します。次のコードはProtection.verifyPasswordメソッドをProtection.isProtectedWithPasswordフィールドと組み合わせて使用してパスワード保護を検出し、パスワードを検証します。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load a spreadsheet
 
@@ -121,14 +122,14 @@ if (sheet.getProtection().isProtectedWithPassword())
 }
 
 {{< /highlight >}}
-### **プロパティ Protection.isProtectedWithPassword が追加されました**
-Aspose.Cells for Java のこのリリースでは、次の場合に役立つ Protection.isProtectedWithPassword フィールドも公開されています。[ワークシートがパスワードで保護されているかどうかを検出する](/cells/ja/java/detect-if-worksheet-is-password-protected/).
+### **Added Protection.isProtectedWithPassword Property**
+Aspose.Cells for Java のこのリリースでは、Protection.isProtectedWithPassword フィールドが公開されました。これは [Worksheet がパスワードで保護されているかどうかを検出する際に役立ちます](/cells/ja/java/detect-if-worksheet-is-password-protected/)。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -161,14 +162,14 @@ else
 }
 
 {{< /highlight >}}
-### **プロパティ ColorScale.Is3ColorScale が追加されました**
-Aspose.Cells for Java 8.7.0 では、ColorScale.Is3ColorScale プロパティが公開されました。[色スケールの条件付き書式を作成する](/cells/ja/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/).上記のプロパティはブール型で、デフォルト値は true です。これは、条件付き書式がデフォルトで 3 色スケールになることを意味します。ただし、ColorScale.Is3ColorScale プロパティを false に切り替えると、2 色スケールの条件付き書式が生成されます。
+### **Added ColorScale.Is3ColorScale Property**
+Aspose.Cells for Java の 8.7.0 では、ColorScale.Is3ColorScale プロパティが公開されました。これは [2 色尺度の条件付き書式を追加すること](/cells/ja/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/) に使用できます。このプロパティは、既定値が true の Boolean 型であり、これは条件付き書式がデフォルトで 3 色スケールになることを意味します。ただし、ColorScale.Is3ColorScale プロパティを false に切り替えると、2 色尺度の条件付き書式が生成されます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -211,14 +212,14 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 //Set other necessary properties
 
 {{< /highlight >}}
-### **プロパティ TxtLoadOptions.HasFormula が追加されました**
-Aspose.Cells for Java 8.7.0 は[区切られたプレーンデータを含むCSV/TXTファイルをロードしながら、式を識別して解析します](/cells/ja/java/load-or-import-csv-file-with-formulas/).新しく公開された TxtLoadOptions.HasFormula プロパティを true に設定すると、API が入力区切りファイルから数式を解析し、追加の処理を必要とせずに関連するセルに設定するように指示されます。
+### **Added TxtLoadOptions.HasFormula Property**
+Aspose.Cells for Java の 8.7.0 では、入力区切りファイルから数式を識別および解析するサポートが提供されました。新しく公開された TxtLoadOptions.HasFormula プロパティは、true に設定すると、API に入力区切りファイルから数式を解析し、関連するセルに設定するよう指示します。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of TxtLoadOptions
 
@@ -245,14 +246,14 @@ book.calculateFormula();
 book.save(outFilePath);
 
 {{< /highlight >}}
-### **プロパティ DataLabels.ResizeShapeToFitText が追加されました**
-Aspose.Cells for Java 8.7.0 が公開したもう 1 つの便利な機能は、DataLabels.ResizeShapeToFitText プロパティです。[テキストに合わせて図形のサイズを変更する](/cells/ja/java/resize-chart-s-data-label-shape-to-fit-text/)グラフのデータ ラベル用の Excel アプリケーションの機能。
+### **Added DataLabels.ResizeShapeToFitText Property**
+Aspose.Cells for Java の 8.7.0 で公開された便利な機能の1つは、DataLabels.ResizeShapeToFitText プロパティです。これにより、Excel アプリケーションのグラフのデータラベルの[テキストに合わせて形状を調整](/cells/ja/java/resize-chart-s-data-label-shape-to-fit-text/)することができます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook containing the Chart
 
@@ -279,6 +280,6 @@ labels.setResizeShapeToFitText(true);
 chart.calculate();
 
 {{< /highlight >}}
-## **削除された API**
-### **プロパティ Workbook.SaveOptions が削除されました**
-Workbook.SaveOptions プロパティは、しばらく前に廃止されました。このリリースでは、パブリック API から完全に削除されたため、代わりに Workbook.save(Stream, SaveOptions) または Workbook.save(string, SaveOptions) メソッドを使用することをお勧めします。
+## **API が削除されました**
+### **Removed Workbook.SaveOptions Property**
+Workbook.SaveOptions プロパティは以前から非推奨とされていました。このリリースで、これは公開 API から完全に削除されたため、代替として Workbook.save(Stream, SaveOptions) または Workbook.save(string, SaveOptions) メソッドを使用することが推奨されています。

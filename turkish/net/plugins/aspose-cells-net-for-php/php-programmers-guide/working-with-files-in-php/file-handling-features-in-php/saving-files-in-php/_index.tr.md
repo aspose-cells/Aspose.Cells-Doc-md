@@ -1,16 +1,17 @@
-﻿---
-title: PHP'de Dosyaları Kaydetmek
+---
+title: PHP de Dosya Kaydetme
 type: docs
 weight: 20
 url: /tr/net/saving-files-in-php/
 ---
-## **Aspose.Cells - Excel Dosyalarını Kaydet**
-### **Yoldan Açma**
-Microsoft Excel dosyasını dosyanın yoluna başvurarak kaydetme
 
-**PHP Kodu**
+## **Aspose.Cells - Excel Dosyalarını Kaydetme**
+### **Yoluyla Açma**
+Bir Microsoft Excel dosyasını dosyanın yolunu referans alarak kaydetme
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -32,6 +33,6 @@ Microsoft Excel dosyasını dosyanın yoluna başvurarak kaydetme
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Dosyaları Kaydetme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir aşağıda belirtilen sosyal kodlama sitesinden **Dosyaları Kaydetme (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

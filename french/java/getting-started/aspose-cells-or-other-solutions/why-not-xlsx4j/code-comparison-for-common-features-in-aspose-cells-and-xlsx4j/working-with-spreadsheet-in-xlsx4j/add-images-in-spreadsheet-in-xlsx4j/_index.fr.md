@@ -1,15 +1,16 @@
-﻿---
-title: Ajouter des images dans une feuille de calcul en xlsx4j
+---
+title: Ajouter des images dans la feuille de calcul dans xlsx4j
 type: docs
 weight: 20
 url: /fr/java/add-images-in-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Ajouter des images dans une feuille de calcul**
-La classe d'images est disponible pour traiter les images dans la feuille de calcul
+
+## **Aspose.Cells - Ajouter des images dans la feuille de calcul**
+La classe Image est disponible pour gérer les images dans la feuille de calcul
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -26,14 +27,14 @@ int pictureIndex = sheet.getPictures().add(5,5, dataDir + "greentick.png");
 Picture picture = sheet.getPictures().get(pictureIndex);
 
 {{< /highlight >}}
-## **xlsx4j - Ajouter des images dans une feuille de calcul**
-La classe de dessin est disponible pour traiter les images dans la feuille de calcul
+## **xlsx4j - Ajouter des images dans la feuille de calcul**
+La classe Drawing est disponible pour gérer les images dans la feuille de calcul
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "AddImage-Xlsx4j.xlsx";
 
@@ -406,13 +407,13 @@ public static CTDrawing buildDrawingPartContentFromXmlString(String imageRelID) 
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addimage)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Ajouter des hyperliens d'image](/java/add-image-hyperlinks).
+Pour plus de détails, visitez [Ajouter des hyperliens d'image](/java/add-image-hyperlinks).
 
 {{% /alert %}}

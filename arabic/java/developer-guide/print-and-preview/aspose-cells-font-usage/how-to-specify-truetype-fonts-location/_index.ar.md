@@ -1,63 +1,64 @@
-﻿---
-title: كيفية تحديد موقع خطوط TrueType
+---
+title: كيفية تحديد موقع الخطوط TrueType
 type: docs
 weight: 30
 url: /ar/java/how-to-specify-truetype-fonts-location/
 ---
+
 {{% alert color="primary" %}}
 
-توضح هذه المقالة:
+يصف هذا المقال:
 
-1. [حيث يبحث Aspose.Cells API عن خطوط TrueType](/cells/ar/java/how-to-specify-truetype-fonts-location/#where-asposecells-looks-for-truetype-fonts-on-windows).
-1. [كيفية تحديد مجلدات خطوط TrueType بشكل صريح لـ Aspose.Cells API](/cells/ar/java/how-to-specify-truetype-fonts-location/#how-to-explicitly-specify-a-font-folder).
-1. [كيفية تقييد Aspose.Cells API لاستخدام موقع واحد فقط لخطوط TrueType](/cells/ar/java/how-to-specify-truetype-fonts-location/#how-to-restrict-the-asposecells-to-use-only-one-font-folder).
+1. [حيث تبحث واجهة برمجة تطبيقات Aspose.Cells عن خطوط TrueType](/cells/ar/java/how-to-specify-truetype-fonts-location/#where-asposecells-looks-for-truetype-fonts-on-windows).
+1. [كيفية تحديد مجلدات خطوط TrueType بشكل صريح لواجهة برمجة تطبيقات Aspose.Cells](/cells/ar/java/how-to-specify-truetype-fonts-location/#how-to-explicitly-specify-a-font-folder).
+1. [كيفية قيد استخدام واجهة برمجة تطبيقات Aspose.Cells لاستخدام موقع واحد فقط لخطوط TrueType](/cells/ar/java/how-to-specify-truetype-fonts-location/#how-to-restrict-the-asposecells-to-use-only-one-font-folder).
 
 {{% /alert %}}
 
 ## **العمل مع الخطوط**
 
-### **حيث يبحث Aspose.Cells عن خطوط TrueType على Windows**
+### **حيث تبحث واجهة برمجة تطبيقات Aspose.Cells عن خطوط TrueType على نظام ويندوز**
 
- Aspose.Cells يبحث عن الخطوط في**Windows \ الخطوط** مجلد. يعمل هذا الإعداد الافتراضي في معظم الأوقات ، لذا حدد مجلدات الخطوط الخاصة بك فقط إذا كنت تريد ذلك حقًا.
+تبحث واجهة برمجة تطبيقات Aspose.Cells عن الخطوط في مجلد **Windows\Fonts** بشكل افتراضي. يعمل هذا الإعداد الافتراضي في معظم الأحيان، لذا يُنصح فقط بتحديد مجلدات الخطوط الخاصة إذا كنت في حاجة حقيقية إلى ذلك.
 
-### **حيث يبحث Aspose.Cells عن خطوط TrueType على نظام Linux**
+### **حيث تبحث واجهة برمجة تطبيقات Aspose.Cells عن خطوط TrueType على نظام لينكس**
 
-بشكل افتراضي ، يبحث Aspose.Cells API عن الخطوط في كل المواقع التالية ، على الرغم من أن توزيعات Linux المختلفة تخزن الخطوط في مجلدات مختلفة.
+بشكل افتراضي، تبحث واجهة برمجة تطبيقات Aspose.Cells عن الخطوط في جميع المواقع التالية، على الرغم من أن توزيعات لينكس المختلفة تخزن الخطوط في مجلدات مختلفة.
 
-1. / usr / share / الخطوط
-1. / usr / local / share / الخطوط
+1. /usr/share/fonts
+1. /usr/local/share/fonts
 
 {{% alert color="primary" %}}
 
- سيعمل هذا السلوك الافتراضي مع معظم توزيعات Linux ، ولكن ليس مضمونًا أنه يعمل طوال الوقت. قد تحتاج إلى تحديد موقع خطوط TrueType بشكل صريح.
+سيعمل هذا السلوك الافتراضي لمعظم توزيعات لينكس، ولكن لا يضمن العمل في كل الأوقات. قد تحتاج إلى تحديد موقع خطوط TrueType بشكل صريح. 
 
 {{% /alert %}}
 
-### **كيفية تحديد مجلد الخطوط بشكل صريح**
+### **كيفية تحديد مجلد خطوط بشكل صريح**
 
-كشفت واجهات برمجة التطبيقات Aspose.Cells عن العديد من طرق المصنع لفئة FontConfigs لتحديد الخطوط أو مجلدات الخطوط كما هو موضح أدناه.
+قد قامت واجهة برمجة تطبيقات Aspose.Cells بتعريض الكثير من أساليب المصنع لفئة FontConfigs لتحديد الخطوط أو مجلدات الخطوط كما هو موضح أدناه.
 
-1. تقبل طريقة setFontFolder المعلمة الأولى من النوع String مع الموقع إلى دليل الخطوط بينما المعلمة الثانية من النوع Boolean هي توجيه Aspose.Cells APis للبحث في المجلدات بشكل متكرر عن ملفات الخطوط.
-1. يقبل التابع setFontFolders مصفوفة من النوع String لذا يمكنك تحديد العديد من دلائل الخطوط باستخدام هذا الأسلوب. يمكنك أيضًا توجيه Aspose.Cells APis للبحث في المجلدات بشكل متكرر عن طريق تحديد true كمعامل ثانٍ.
-1. يقبل الأسلوب setFontSources مصفوفة من نوع FontSourceBase لتتمكن من تحديد قائمة بمواقع الخطوط الفردية.
+1. تقبل طريقة setFontFolder المعلمة الأولى من النوع String بموقع مجلد الخطوط، في حين أن المعلمة الثانية من النوع Boolean هي لتوجيه واجهة برمجة تطبيقات Aspose.Cells للبحث في المجلدات بشكل متكرر عن ملفات الخطوط.
+1. تقبل طريقة setFontFolders مصفوفة من النوع String حتى يُمكنك تحديد العديد من مجلدات الخطوط باستخدام هذا النهج. يُمكنك أيضًا توجيه واجهة برمجة تطبيقات Aspose.Cells للبحث في المجلدات بشكل متكرر عن طريق تحديد true كمعلمة ثانوية.
+1. تقبل طريقة setFontSources مصفوفة من النوع FontSourceBase لتحديد قائمة مواقع الخطوط الفردية.
 
 {{% alert color="primary" %}}
 
-عند تحديد مجلد الخطوط باستخدام أي من الطرق المذكورة أعلاه ، نوصي بتعيين موقع الخط في بداية التطبيق وإلا فقد تتلقى نتائج سيئة التنسيق.
+عند تحديد مجلد الخطوط باستخدام أي من الطرق المذكورة أعلاه، نوصي بتعيين موقع الخط في بداية التطبيق، وإلا فقد تتلقى نتائج غير مهيئة بشكل جيد.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-لا يضمن ضبط مجلد الخطوط باستخدام أي من الطرق المذكورة أعلاه أن Aspose.Cells API لن يبحث عن الخطوط في المواقع الافتراضية مثل مجلد خطوط النظام.
+تحديد مجلد الخطوط باستخدام أي من الطرق المذكورة أعلاه لا يضمن أن واجهة برمجة تطبيقات Aspose.Cells لن تبحث عن الخطوط في المواقع الافتراضية مثل مجلد الخطوط في النظام.
 
 {{% /alert %}}
 
-### **كيفية تقييد Aspose.Cells لاستخدام مجلد خط واحد فقط**
+### **كيفية قيد استخدام واجهة برمجة تطبيقات Aspose.Cells لاستخدام مجلد خط واحد فقط**
 
- بدءًا من Aspose.Cells for Java 8.1.0 ، قم بتعيين وسيطات JVM على أنها**-DAspose.Cells.FontDirExc = "YourFontDir**سيضمن أن Aspose.Cells API سيستخدم فقط موقع الخطوط كما هو محدد.
+ابتداءً من الإصدار 8.1.0 Aspose.Cells for Java، سيضمن تحديد معطيات JVM على النحو التالي **-DAspose.Cells.FontDirExc="YourFontDir** أن واجهة برمجة تطبيقات Aspose.Cells ستستخدم فقط موقع الخطوط كما هو محدد.
 
-قم بتعيين الوسائط المحددة باستخدام طريقة System.setProperty كما هو موضح أدناه.
+قم بتعيين الوسائط المحددة باستخدام طريقة setProperty في System كما هو موضح أدناه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 System.setProperty("Aspose.Cells.FontDirExc", "FontDirSet");
 
@@ -67,8 +68,8 @@ System.setProperty("Aspose.Cells.FontDirExc", "FontDirSet");
 
 يرجى ملاحظة ما يلي:
 
-- يجب أن يكون البيان أعلاه في بداية طلبك.
-- لا يتطلب استخدام الأسلوب أعلاه تعيين دليل الخطوط باستخدام أي من طرق FontConfigs التي تمت مناقشتها أعلاه.
-- يجب أن تكون السلسلة "FontDirSet" هي المسار الكامل للمجلد الذي يحتوي على الخطوط المطلوبة.
+- يجب أن تكون البيانات أعلاه في بداية تطبيقك.
+- استخدام الطريقة أعلاه لا يتطلب ضبط مجلد الخط باستخدام أي من طرق FontConfigs المناقشة أعلاه.
+- يجب أن يكون سلسلة "FontDirSet" هي المسار الكامل إلى المجلد الذي يحتوي على الخطوط المطلوبة.
 
 {{% /alert %}}

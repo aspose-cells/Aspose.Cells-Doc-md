@@ -1,28 +1,29 @@
-﻿---
-title: Unicode Tamamlayıcı karakterleri PDF çıktısında Aspose.Cells ile işleyin
+---
+title: Aspose.Cells ile çıktı PDF de Unicode Ek Sayısal karakterlerin oluşturulması
 type: docs
 weight: 350
 url: /tr/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Normal Unicode karakterleri 2 bayt uzunluğundayken Unicode Ek karakterleri 4 bayt uzunluğundadır. Aspose.Cells artık bu 4 baytlık Unicode karakterlerin oluşturulmasını desteklemektedir.
+Normal Unicode karakterleri 2 bayt uzunluğunda iken Unicode Ek Sayısal karakterleri 4 bayt uzunluğundadır. Aspose.Cells şimdi bu 4 bayt Unicode karakterlerin oluşturulmasını destekliyor.
 
-Unicode Karakter Standardında, Tamamlayıcı Karakterler, U+10000'den U+10FFFF'ye kadar kod noktaları atanan karakterlerdir. Başka bir deyişle, bunlar U+FFFF'den büyük Unicode karakterlerdir.
+Unicode Karakter Standartında, Ek Sayısal Karakterler U+10000'den U+10FFFF'e kadar olan kod noktalarına atanmış karakterlerdir. Diğer bir deyişle, bunlar U+FFFF'den büyük Unicode karakterlerdir.
 
 - UTF-8'de bu karakterlerin her biri 4 bayt uzunluğundadır.
-- UTF-16'da bu karakterler 2 vekil (16 bitlik birimler) gerektirir.
+- UTF-16'da bu karakterler 2 takyeyi (16 bit birimler) gerektirir.
 
 {{% /alert %}}
 
-## Unicode Tamamlayıcı karakterleri PDF çıktısında Aspose.Cells ile işleyin
+## Aspose.Cells ile çıktı PDF'de Unicode Ek Sayısal karakterlerin oluşturulması
 
- Aşağıdaki ekran görüntüsü, Aspose.Cells'in[kaynak excel dosyası](5115563.xlsx) içine[çıkış PDF](5115564.pdf). Gördüğünüz gibi, üç Unicode Ek karakteri de Microsoft Excel tarafından yapılanla tamamen aynı hale getirildi.
+Aşağıdaki ekran görüntüsü, Aspose.Cells'ın [kaynak excel dosyasını](5115563.xlsx) [çıktı PDF'ye](5115564.pdf) nasıl dönüştürdüğünü göstermektedir. Görebileceğiniz gibi, tüm üç Unicode Ek Sayısal karakter Microsoft Excel tarafından yapılan gibi tam olarak oluşturulmuştur.
 
-![yapılacaklar:resim_alternatif_metin](output.png)
+![todo:image_alt_text](output.png)
 
-## Basit kod
+## Örnek Kod
 
- Dönüştürmek için bu örnek kodu kullanabilirsiniz.[kaynak excel dosyası](5115563.xlsx) içine[çıkış PDF](5115564.pdf).
+[Kaynak excel dosyasını](5115563.xlsx) [çıktı PDF'ye](5115564.pdf) dönüştürmek için bu örnek kodu kullanabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}

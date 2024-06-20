@@ -1,14 +1,15 @@
-﻿---
-title: Ersetzen Sie Text in Smart Art
+---
+title: Ersetzen Sie Text in SmartArt
 type: docs
 weight: 140
 url: /de/java/replace-text-in-smart-art/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Intelligente Kunst ist eines der Hauptobjekte in einer Arbeitsmappe. Oft muss der Text in Smart Art aktualisiert werden. Aspose.Cells stellen diese Funktion per Einstellung zur Verfügung[**Form.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text) Eigentum.
+## **Mögliche Verwendungsszenarien**
 
-Die Beispielquelldatei kann unter folgendem Link heruntergeladen werden:
+SmartArt ist eines der Hauptobjekte in einer Arbeitsmappe. Oft besteht die Notwendigkeit, den Text in SmartArt zu aktualisieren. Aspose.Cells bieten diese Funktion durch Setzen der Eigenschaft [**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text).
+
+Die Beispielquelle kann von folgendem Link heruntergeladen werden:
 
 [SmartArt.xlsx](77987848.xlsx)
 

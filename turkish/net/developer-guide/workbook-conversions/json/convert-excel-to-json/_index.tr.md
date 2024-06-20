@@ -1,26 +1,27 @@
-﻿---
-title: Excel'i JSON'e Dönüştür
+---
+title: Excel i JSON a Dönüştür
 type: docs
 weight: 300
 url: /tr/net/convert-excel-to-json/
-description: Aspose.Cells ile excel dosyasını json'a nasıl dönüştüreceğinizi öğrenin.
-keywords: Exporting Workbook to json without office 2013, office 2016, office 2019 and office 365
+description: Aspose.Cells ile excel dosyasını JSON a dönüştürmenin nasıl yapılacağını öğrenin.
+keywords: Ofis 2013, ofis 2016, ofis 2019 ve ofis 365 olmadan çalışma kitabını json olarak dışa aktarma
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, bir Çalışma Kitabının Json(JavaScript Object Notation) dosyasına dönüştürülmesini destekler.
+Aspose.Cells, bir Workbook'ü Json (JavaScript Object Notation) dosyasına dönüştürmeyi destekler.
 
 {{% /alert %}}
 
-## **Excel Çalışma Kitabını JSON'e Dönüştür**
+## **Excel Çalışma Kitabını JSON'a Dönüştür**
 
-Apose.Cells for .NET kitaplığı en iyi kararı verdiğinden, Excel Çalışma Kitabının JSON'e nasıl dönüştürüleceğini merak etmenize gerek yok. Aspose.Cells API, elektronik tabloların JSON biçimine dönüştürülmesi için destek sağlar. Çalışma kitabını JSON'e aktarmak için[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) ikinci parametre olarak[**Çalışma Kitabı.Kaydet**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) yöntem. Ayrıca kullanabilirsiniz[**JsonSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) çalışma sayfasını JSON'e dışa aktarmak için ek ayarlar belirtmek üzere sınıf.
+Excel Workbook'ü JSON'a dönüştürmenin nasıl yapılacağını merak etmenize gerek yok, çünkü Apose.Cells for .NET kütüphanesi en iyi kararı sunar. Aspose.Cells API'si, elektronik tabloları JSON formatına dönüştürmeyi destekler. Workbook'ü JSON'a aktarmak için, [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) metodunun ikinci parametresi olarak [**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)'i geçirin. Ayrıca, çalışma sayfasını JSON'a aktarmak için ek ayarları belirtmek için [**JsonSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) sınıfını da kullanabilirsiniz.
 
- Aşağıdaki kod örneği, Excel Çalışma Kitabının Json'a aktarılmasını gösterir. Lütfen dönüştürülecek koda bakın[Kaynak dosyası](sample.xlsx) referans için kod tarafından oluşturulan Json dosyasına.
+Aşağıdaki kod örneği, Excel Workbook'ünü Json olarak dışa aktarmanın bir örneğini göstermektedir. Referans için kodu görmek için [kaynak dosyayı](sample.xlsx) kodla üretilen Json dosyası ile birlikte inceleyin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON-New.cs" >}}
 
- Ek ayarlar belirtmek için JsonSaveOptions sınıfını kullanan aşağıdaki kod örneği, Excel Çalışma Kitabının Json'a dışa aktarılmasını gösterir. Lütfen dönüştürülecek koda bakın[Kaynak dosyası](sample.xlsx) referans için kod tarafından oluşturulan Json dosyasına.
+Aşağıdaki kod örneği, ek ayarları belirtmek için JsonSaveOptions sınıfını kullanan Excel Workbook'ünü Json olarak dışa aktarmanın bir örneğini göstermektedir. Referans için kodu görmek için [kaynak dosyayı](sample.xlsx) kodla üretilen Json dosyası ile birlikte inceleyin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON-New2.cs" >}}
 

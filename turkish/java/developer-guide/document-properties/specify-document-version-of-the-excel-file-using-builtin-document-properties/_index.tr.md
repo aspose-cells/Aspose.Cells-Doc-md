@@ -1,19 +1,20 @@
-﻿---
-title: Yerleşik Belge Özelliklerini Kullanarak Excel Dosyasının Belge Sürümünü Belirtin
+---
+title: Aspose.Cells ile Yerleşik Belge Özelliklerini Kullanarak Excel Dosyasının Belge Sürümünü Belirtme
 type: docs
 weight: 20
 url: /tr/java/specify-document-version-of-the-excel-file-using-builtin-document-properties/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-değiştirebilirsiniz*Versiyon numarası*Dosyayı sağ tıklatarak ve ardından seçerek Excel dosyasının*Özellikler > Ayrıntılar*ve ardından düzenleme*Versiyon numarası*tarla. Lütfen kullan[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)Aspose.Cells API'leri kullanarak programlı olarak değiştirmek için özellik.
+Excel dosyasının *Sürüm numarasını* değiştirebilirsiniz sağ tıklayarak ve ardından *Özellikler > Ayrıntılar* seçeneğini belirleyerek ve ardından *Sürüm numarası* alanını düzenleyerek. Lütfen Aspose.Cells API'larını kullanarak bunu programlı olarak değiştirmek için [**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion) özelliğini kullanın.
 
-## **Yerleşik Belge Özelliklerini Kullanarak Excel Dosyasının Belge Sürümünü Belirtin**
+## **Aspose.Cells kullanarak Excel Dosyasının Belge Sürümünü Belirtme**
 
-Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve aşağıdakileri içeren yerleşik belge özelliklerini değiştirir:*Başlık*, *Yazarlar* ve*Versiyon numarası*. Lütfen bkz[çıktı excel dosyası](64716836.xlsx)değiştirileni gösteren kod ve ekran görüntüsü tarafından oluşturulur*Versiyon numarası*tarafından[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)Emlak.
+Aşağıdaki örnek kod, çalışma kitabı oluşturur ve içeren yerleşik belge özelliklerini, *Başlık*, *Yazarlar* ve *Sürüm numarası*'nı değiştirir. Lütfen kod tarafından oluşturulan [çıktı Excel dosyasını](64716836.xlsx) inceleyin ve [**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion) özelliği ile değiştirilen *Sürüm numarasını* gösteren ekran görüntüsünü görün.
 
-![yapılacaklar:resim_alternatif_metin](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
+![todo:image_alt_text](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "LoadingSavingConvertingAndManaging-SpecifyDocumentVersionOfExcelFile.java" >}}

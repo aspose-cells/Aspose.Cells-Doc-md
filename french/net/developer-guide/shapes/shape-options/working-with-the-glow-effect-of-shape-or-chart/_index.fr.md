@@ -1,17 +1,18 @@
-﻿---
-title: Utilisation de l'effet lumineux de la forme ou du graphique
+---
+title: Travailler avec l effet de lueur de la forme ou du graphique
 type: docs
 weight: 240
 url: /fr/net/working-with-the-glow-effect-of-shape-or-chart/
 ---
-## **Scénarios d'utilisation possibles**
- Aspose.Cells fournit le[Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) propriété avec[Effet Lueur](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) classe pour travailler avec l'effet de lueur de la forme ou du graphique. Le[Effet Lueur](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)La classe contient les propriétés suivantes qui peuvent être définies pour obtenir différents résultats selon les exigences de l'application.
 
-- [GlowEffect.Taille](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/size)
-- [GlowEffet.Transparence](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)
+## **Scénarios d'utilisation possibles**
+Aspose.Cells fournit la propriété [Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) ainsi que la classe [GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) pour travailler avec l'effet de lueur de la forme ou du graphique. La classe [GlowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) contient les propriétés suivantes qui peuvent être définies pour atteindre différents résultats selon les besoins de l'application.
+
+- [GlowEffect.Size](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/size)
+- [GlowEffect.Transparency](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)
 - [GlowEffect.Color](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)
-## **Utilisation de l'effet lumineux de la forme ou du graphique**
- L'exemple de code suivant charge le[fichier excel source](5115407.xlsx) et accède à la première forme dans la première feuille de calcul et définit les sous-propriétés de[Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) propriété, puis enregistre le classeur dans[fichier excel de sortie](5115414.xlsx).
+## **Travailler avec l'effet de lueur de la forme ou du graphique**
+Le code d'exemple suivant charge le [fichier Excel source](5115407.xlsx) et accède à la première forme dans la première feuille de calcul, puis définit les sous-propriétés de la propriété [Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) avant d'enregistrer le classeur dans un [fichier Excel de sortie](5115414.xlsx).
 
 
 

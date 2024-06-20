@@ -1,14 +1,15 @@
-﻿---
-title: Yeni satırlara veri girerken Formülü Tablo veya Liste Nesnesinde otomatik olarak yay
-linktitle: Tablo Formülünü ayarlar
+---
+title: Yeni satırlara veri girilirken Tablo veya List Objesinde Formülü otomatik olarak çoğaltın
+linktitle: Tablo Formülünü Ayarlar
 type: docs
 weight: 260
 url: /tr/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/
 ---
+
 ## **Olası Kullanım Senaryoları**
- Bazen, Tablonuzdaki veya Liste Nesnenizdeki bir formülün, yeni veriler girerken otomatik olarak yeni satırlara yayılmasını istersiniz. Bu, Microsoft Excel'in varsayılan davranışıdır. Aspose.Cells ile aynı şeyi elde etmek için lütfen[ListColumn.Formula](https://reference.aspose.com/cells/net/aspose.cells.tables/listcolumn/properties/formula)Emlak.
-## **Yeni satırlara veri girerken Formülü Tablo veya Liste Nesnesinde otomatik olarak yay**
-Aşağıdaki örnek kod, yeni veriler gireceğiniz zaman B sütunundaki formül otomatik olarak yeni satırlara yayılacak şekilde bir Tablo veya Liste Nesnesi oluşturur. lütfen kontrol ediniz[çıktı excel dosyası](5115469.xlsx) bu kod ile oluşturulmuştur. A3 hücresine herhangi bir sayı girerseniz, B2 hücresindeki formülün otomatik olarak B3 hücresine yayıldığını göreceksiniz.
+Bazen, yeni veri girilirken Tablo veya List Objesindeki formülün otomatik olarak yeni satırlara yayılmasını istersiniz. Bu, Microsoft Excel'in varsayılan davranışıdır. Aspose.Cells ile aynı şeyi başarmak için lütfen [ListColumn.Formula](https://reference.aspose.com/cells/net/aspose.cells.tables/listcolumn/properties/formula) özelliğini kullanın.
+## **Yeni satırlara veri girilirken Tablo veya List Objesinde Formülü otomatik olarak çoğaltın**
+Aşağıdaki örnek kod, yeni veri girdiğinizde sütun B'deki formülün otomatik olarak yeni satırlara yayılacak şekilde bir Tablo veya List Objesi oluşturur. Lütfen bu kodla oluşturulan [çıktı excel dosyasını](5115469.xlsx) kontrol edin. A3 hücresine herhangi bir sayı girerseniz, B2 hücresindeki formülün otomatik olarak B3 hücresine yayıldığını göreceksiniz.
 
 
 

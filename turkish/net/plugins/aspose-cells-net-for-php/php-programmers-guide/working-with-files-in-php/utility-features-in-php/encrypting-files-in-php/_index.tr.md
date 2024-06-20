@@ -1,15 +1,16 @@
-﻿---
-title: PHP'de Dosyaları Şifrelemek
+---
+title: PHP de Dosyaları Şifreleme
 type: docs
 weight: 10
 url: /tr/net/encrypting-files-in-php/
 ---
-## **Aspose.Cells - Excel Dosyalarını Şifrele**
-Microsoft Excel Dosyasını Şifreleme
 
-**PHP Kodu**
+## **Aspose.Cells - Excel Dosyalarını Şifreleme**
+Bir Microsoft Excel Dosyasını Şifreleme
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -41,6 +42,6 @@ Microsoft Excel Dosyasını Şifreleme
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Dosyaları Şifreleme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir aşağıda belirtilen sosyal kodlama sitesinden **Dosyaları Şifreleme (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)

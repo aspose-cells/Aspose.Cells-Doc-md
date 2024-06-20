@@ -1,24 +1,26 @@
-﻿---
-title: Integrieren Sie Aspose.Cells-Rastersteuerelemente in Visual Studio.NET
+---
+title: Integrieren Sie Aspose.Cells Grid Controls mit Visual Studio.NET
 type: docs
 weight: 10
 url: /de/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/
+description: In diesem Artikel wird beschrieben, wie die GridWeb und GridDesktop Steuerungen in Visual Studio .NET verwendet werden können.
+keywords:  GridWeb,GridDesktop,visual studio,control,integrate
 ---
+
 {{% alert color="primary" %}} 
 
- Visual Studio.NET-Entwickler können Steuerelemente einfach aus der ziehen**Werkzeugkasten** auf ein Windows oder Webformular. Aspose.Cells Die Grid-Suite kann mit einem MSI-Installationsprogramm oder als Satz von DLL-Paketen heruntergeladen werden. In diesem Artikel wird erläutert, was zu tun ist, um sicherzustellen, dass Aspose.Cells.Grid-Steuerelemente in Visual Studio.NET verwendet werden können, wenn es mithilfe der DLLs anstelle des Installationsprogramms installiert wird.
+Visual Studio.NET-Entwickler können Steuerelemente einfach aus der Toolbox auf ein Windows- oder Webformular ziehen. Das Aspose.Cells Grid Suite kann mit einem MSI-Installationsprogramm oder als Paket von DLLs heruntergeladen werden. Dieser Artikel erläutert, wie sichergestellt werden kann, dass Aspose.Cells.Grid-Steuerungen in Visual Studio.NET verwendet werden können, wenn diese mithilfe der DLLs anstelle des Installationsprogramms installiert wurden.
 
 {{% /alert %}} 
-## **Integrieren Sie Aspose.Cells-Rastersteuerelemente in Visual Studio.NET**
-So integrieren Sie Aspose.Cells Grid-Steuerelemente in Visual Studio.NET:
+## **Integrieren Sie Aspose.Cells Grid Controls mit Visual Studio.NET**
+Um Aspose.Cells Grid-Steuerungen mit Visual Studio.NET zu integrieren:
 
-1. Öffnen Sie die Werkzeugkiste.
-1. Wählen Sie die Registerkarte Allgemein (oder eine andere Registerkarte, der Sie Steuerelemente hinzufügen möchten).
-1. Klicken Sie mit der rechten Maustaste auf die Registerkarte Allgemein.
-1.  In Visual Studio.NET 2003: Auswählen**Elemente hinzufügen/entfernen** aus dem Menü.
-1. Wählen Sie in Visual Studio.NET 2005 aus**Wählen Sie Artikel** aus dem Menü. Das Dialogfeld Customize Toolbox wird angezeigt (Dieser Prozess ist mehr oder weniger derselbe für neuere VS.NET-IDEs (z. B. VS.NET 2013/2015 oder höher)).
-1.  Klicken**Durchsuche** und suchen Sie die Dateien Aspose.Cells.GridDesktop.dll und Aspose.Cells.GridWeb.dll.
-1.  Wählen Sie die DLLs aus und klicken Sie dann auf**Offen**. Das Dialogfeld Customize Toolbox enthält jetzt Steuerelemente aus Aspose.Cells Grid Suite. Die neu hinzugefügten Steuerelemente werden im Dialogfeld hervorgehoben.
-1.  Klicken**OK** um die Steuerelemente zu Ihrer Visual Studio.NET-Toolbox hinzuzufügen.
+1. Öffnen Sie die Toolbox.
+1. Wählen Sie den Allgemein-Tab (oder einen anderen Tab aus, zu dem Sie Steuerelemente hinzufügen möchten).
+1. Klicken Sie mit der rechten Maustaste auf den Allgemein-Tab.
+1. Wählen Sie auf Visual Studio.NET **Choose Items** aus dem Menü aus. Der Dialog für die Toolbox anpassen wird angezeigt (Dieser Vorgang ist für neuere VS.NET-IDEs (z. B. VS.NET 2013/2015 oder später) mehr oder weniger der gleiche).
+1. Klicken Sie auf **Durchsuchen** und suchen Sie die Dateien Aspose.Cells.GridDesktop.dll und Aspose.Cells.GridWeb.dll.
+1. Wählen Sie die DLLs aus und klicken Sie dann auf **Öffnen**. Der Dialog für die Toolbox anpassen enthält jetzt Steuerelemente aus der Aspose.Cells Grid Suite. Die neu hinzugefügten Steuerelemente werden durch den Dialog hervorgehoben.
+1. Klicken Sie auf **OK**, um die Steuerelemente Ihrer Visual Studio.NET-Toolbox hinzuzufügen.
 
- die Aspose.Cells Grid Controls wurden der Toolbox hinzugefügt**Allgemein** Tab. Nur das GridWeb-Steuerelement ist nicht aktiv. Dies liegt daran, dass wir an einer Windows Forms-Anwendung arbeiten. GridWeb ist nur verfügbar, wenn Sie an Webformularen arbeiten, während GridDesktop nur mit Windows-Formularen verwendet werden kann.
+Die Aspose.Cells Grid-Steuerungen wurden dem **Allgemein**-Tab der Toolbox hinzugefügt. Nur das GridWeb-Steuerelement ist nicht aktiv. Dies liegt daran, dass wir an einer Windows Forms-Anwendung arbeiten. GridWeb ist nur verfügbar, wenn Sie an Webformularen arbeiten, während GridDesktop nur mit Windows Forms verwendet werden kann.

@@ -1,42 +1,43 @@
-﻿---
-title: Integrazione con Microsoft Report Viewer in modalità locale
+---
+title: Integrazione con il visualizzatore di report di Microsoft in modalità locale
 type: docs
 weight: 30
 url: /it/reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Report Viewer è un potente controllo .NET che consente di utilizzare i report RDL e RDLC nelle applicazioni WinForms e ASP.NET. Consente agli utenti di visualizzare ed esportare report in diversi formati. Il controllo è incluso con Microsoft Visual Studio 2005 e 2008 ed è disponibile anche come download gratuito da Microsoft.
+Microsoft Report Viewer è un potente controllo .NET che consente l'utilizzo di report RDL e RDLC nelle applicazioni WinForms e ASP.NET. Consente agli utenti di visualizzare ed esportare report in diversi formati. Il controllo è incluso in Microsoft Visual Studio 2005 e 2008, ed è anche disponibile come download gratuito da Microsoft.
 
-Visualizzatore report può generare report in modo indipendente utilizzando un motore integrato (noto come "modalità locale") oppure può visualizzare report generati su un server di report di SQL Server Reporting Services Microsoft ("modalità remota"):
+Report Viewer può generare report indipendentemente utilizzando un motore integrato (noto come 'modalità locale'), oppure può visualizzare report generati su un server di report di Microsoft SQL Server Reporting Services ('modalità remota'):
 
-- In modalità remota, Report Viewer può esportare report in tutti i formati installati sul Report Server a cui è connesso. Pertanto, per esportare i report in più formati Excel Microsoft è sufficiente installare Aspose.Cells for Reporting Services sul server.
-- In modalità locale, tuttavia, Visualizzatore report non si connette a un server di report e l'elenco dei formati di esportazione è limitato solo a pochi formati incorporati.
+- In modalità remota, Report Viewer può esportare report in tutti i formati installati sul Server di report a cui è collegato. Pertanto, per esportare report in più formati di Microsoft Excel è sufficiente installare sulel server il Aspose.Cells for Reporting Services.
+- Tuttavia, in modalità locale, Report Viewer non si collega a un server di report e l'elenco dei formati di esportazione è limitato a pochi formati integrati.
 
-Installando Aspose.Cells for Reporting Services su un computer di sviluppo e seguendo i passaggi seguenti, è possibile esportare in più formati Excel Microsoft da Report Viewer lavorando in modalità locale.
+Installando il Aspose.Cells for Reporting Services su una macchina di sviluppo e seguendo i passaggi seguenti, è possibile esportare in più formati di Microsoft Excel da Report Viewer che lavora in modalità locale. 
 
 {{% /alert %}} 
 ### **Lavorare con Aspose.Cells in modalità locale**
-1.  Riferimento**Aspose.Cells.ReportingServices.dll** nel progetto:
- 1. Apri il progetto in Visual Studio.
- 1. Fare clic con il pulsante destro del mouse su**Riferimenti** cartella e selezionare**Aggiungi riferimento**.
- 1. Selezionare il**Navigare** scheda e passare al seguente assieme:
-      <InstallDir>/ReportView/Aspose.Cells.ReportingServices.dll
- (dove<InstallDir> è la directory in cui hai installato o decompresso Aspose.Cells for Reporting Services.
+1. Fare riferimento a **Aspose.Cells.ReportingServices.dll** nel progetto: 
+   1. Aprire il progetto in Visual Studio.
+   1. Fare clic con il pulsante destro del mouse sulla cartella **Riferimenti** e selezionare **Aggiungi riferimento**.
+   1. Selezionare la scheda **Sfoglia** e cercare l'assembly seguente:
+      <InstallDir>/ ReportView/Aspose.Cells.ReportingServices.dll
+      (where <InstallDir> is the directory where you installed or unpacked Aspose.Cells for Reporting Services. 
 
       **Aggiunta di un riferimento a Aspose.Cells.ReportingServices.dll a un progetto** 
 
-![cose da fare:immagine_alt_testo](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
+![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
 
 
 
 
-1. Copia e incolla il seguente metodo AddExtension nel progetto.
- Questo metodo aggiunge l'estensione per il rendering specificata all'elenco delle estensioni supportate in Visualizzatore report Microsoft utilizzando la riflessione privata.
+1. Copiare e incollare il seguente metodo AddExtension nel progetto.
+   Questo metodo aggiunge l'estensione di rendering specificata all'elenco delle estensioni supportate in Microsoft Report Viewer utilizzando la riflessione privata. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -141,9 +142,9 @@ extensions.Add(instance);
 
 
 
-**V.B. .NET**
+**VB .NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -245,14 +246,14 @@ End Sub
 
 {{< /highlight >}}
 
-1.  Richiamare il metodo AddExtension dal codice.
- È possibile chiamare AddExtension (mostrato nel passaggio precedente) ogni volta che è necessario aggiungere i formati di esportazione Aspose.Cells for Reporting Services a un'istanza di controllo Visualizzatore report. Prendi in considerazione la possibilità di chiamare dal modulo_Carica o Pagina_Carica il gestore eventi di un'applicazione WinForms o ASP .NET.
- - È possibile aggiungere tutti o solo alcuni formati di esportazione Aspose.Cells for Reporting Services. È possibile specificare qualsiasi nome visualizzato per i formati da visualizzare in Report Viewer.
- Per aggiungere i formati di esportazione Aspose.Cells for Reporting Services al Visualizzatore report Microsoft in modalità locale, utilizzare il seguente codice:
+1. Invochi il metodo AddExtension dal codice. 
+   - Puoi chiamare AddExtension (mostrato nel passaggio precedente) ogni volta che hai bisogno di aggiungere formati di esportazione Aspose.Cells for Reporting Services a un'istanza di controllo Report Viewer. Considera di chiamarlo dall'handle dell'evento Form_Load o Page_Load di un'applicazione WinForms o ASP .NET.
+   - Puoi aggiungere tutti o solo alcuni formati di esportazione Aspose.Cells for Reporting Services. Puoi specificare qualsiasi nome di visualizzazione per i formati da visualizzare in Report Viewer.
+     Per aggiungere formati di esportazione Aspose.Cells for Reporting Services a Microsoft Report Viewer in modalità locale, utilizza il seguente codice: 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -270,9 +271,9 @@ End Sub
 
 {{< /highlight >}}
 
-**V.B. .NET**
+**VB .NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
               AddExtension(reportViewer1, "Xls - Xls via Aspose.Cells",    GetType (Aspose.Cells.ReportingServices.XlsRenderer));
 
@@ -288,12 +289,12 @@ End Sub
 
 {{< /highlight >}}
 
-1.  Prova i nuovi formati di esportazione.
- 1. Esegui la tua applicazione.
- Dovresti notare una serie di nuovi formati di esportazione disponibili in**Esportare** menu nel Visualizzatore rapporti.
- 1. Selezionare uno dei formati ed eseguire l'esportazione.
- 1. Verificare che il documento sia stato creato nel modo previsto.
+1. Testare i nuovi formati di esportazione. 
+   1. Esegui la tua applicazione.
+      Dovresti notare una serie di nuovi formati di esportazione disponibili nel menu **Esporta** in Report Viewer. 
+   1. Seleziona uno dei formati e esegui l'esportazione.
+   1. Verifica che il documento sia creato nel modo previsto.
 
-**I nuovi formati di esportazione vengono visualizzati nel Visualizzatore report in esecuzione in modalità locale** 
+**Nuovi formati di esportazione appaiono in Report Viewer in modalità locale** 
 
-![cose da fare:immagine_alt_testo](integrate-with-microsoft-report-viewer-in-local-mode_2.png)
+![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_2.png)

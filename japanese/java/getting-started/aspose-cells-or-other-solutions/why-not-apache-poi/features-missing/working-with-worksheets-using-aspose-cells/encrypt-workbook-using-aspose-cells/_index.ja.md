@@ -1,15 +1,16 @@
-﻿---
-title: Aspose.Cells を使用してワークブックを暗号化する
+---
+title: Aspose.Cells を使用してワークブックを暗号化
 type: docs
 weight: 60
 url: /ja/java/encrypt-workbook-using-aspose-cells/
 ---
+
 ## **Aspose.Cells - ワークブックの暗号化**
-次の例は、Aspose.Cells API を使用して Excel ファイルを暗号化/パスワード保護する方法を示しています。
+以下の例は、Aspose.Cells API を使用して Excel ファイルを暗号化 / パスワードで保護する方法を示しています。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -32,7 +33,7 @@ workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128)
 workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
@@ -40,6 +41,6 @@ workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[Excel ファイルの暗号化](/cells/ja/java/encrypting-excel-files/).
+[Excel ファイルの暗号化](/cells/ja/java/encrypting-excel-files/)の詳細については、こちらをご覧ください。
 
 {{% /alert %}}

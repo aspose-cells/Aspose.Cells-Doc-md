@@ -1,29 +1,30 @@
 ---
-title: Licensing
+title: Lisanslama
 type: docs
 weight: 50
 url: /tr/java/licensing/
-description: JAVA için Aspose.Cells, farklı satın alma planları sağlar veya Licensing'i ve Java'deki Abonelik politikalarını kullanarak değerlendirme için Ücretsiz Deneme ve 30 günlük Geçici Lisans sunar.
-keywords: Java Apply License from Disk or Stream. Java Set License from Disk or Stream. Apply License in Aspose.Cells for Java.
+description: Aspose.Cells for JAVA, Java da Lisanslama ve Abonelik politikalarını kullanarak satın alma için farklı planlar sunar veya Değerlendirme için Ücretsiz Deneme ve 30 günlük Geçici Lisans sunar.
+keywords: Java Diskten veya Akıştan Lisans Uygula. Java Diskten veya Akıştan Lisans Belirle. Aspose.Cells for Java de Lisans Uygulama.
 ---
-##  **Aspose.Cells Bileşeninde Lisans Nasıl Başvurulur**
 
-Lisans, ürün adı, lisanslandığı geliştirici sayısı, aboneliğin sona erme tarihi vb. ayrıntıları içeren düz metinli bir XML dosyasıdır. Dosya dijital olarak imzalanmıştır; dolayısıyla dosyayı değiştirmeyin; dosyaya yanlışlıkla fazladan bir satır sonu eklenmesi bile dosyayı geçersiz kılacaktır.
+## **Aspose.Cells Bileşeninde Lisans Nasıl Uygulanır**
 
-Değerlendirme sınırlamalarından kaçınmak istiyorsanız Aspose.Cells'i kullanmadan önce bir lisans ayarlamanız gerekir. Her uygulama veya işlem için yalnızca bir kez lisans ayarlamanız gerekir.
+Lisans, ürün adı, lisanslanan geliştiricilerin sayısı, abonelik bitiş tarihi gibi detayları içeren düz metin XML dosyasıdır. Dosya dijital olarak imzalanmıştır, bu nedenle dosyayı değiştirmeyin; hatta dosyaya yanlışlıkla ek bir satır aralığı eklemek bile geçersiz kılacaktır.
 
-Lisans aşağıdaki konumlardaki bir akıştan veya dosyadan yüklenebilir:
+Aspose.Cells kullanmadan önce lisansı ayarlamanız gerekmektedir. Bir uygulama veya işlem başına yalnızca bir kez lisans ayarlamanız gerekmektedir.
+
+Lisans bir akıştan veya dosyadan aşağıdaki konumlardan yüklenebilir:
 
 1. Açık yol.
-1. Aspose.Cells.jar dosyasını içeren klasör.
+1. Aspose.Cells.jar içeren klasör.
 
- Kullan[Lisans.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)bileşeni lisanslama yöntemi. Genellikle lisans ayarlamanın en kolay yolu, lisans dosyasını Aspose.Cells.jar ile aynı klasöre koymak ve aşağıdaki örnekte gösterildiği gibi yol olmadan yalnızca dosya adını belirtmektir:
+Bileşimi lisanslamak için [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) yöntemini kullanın. Genellikle lisansı ayarlamanın en kolay yolu, lisans dosyasını Aspose.Cells.jar ile aynı klasöre koymak ve sadece dosya adını belirtmektir, örnek aşağıda gösterildiği gibi:
 
-###  **Diskten Lisans Nasıl Başvurulur**
+### **Dandan Uygulaması**
 
- Bu örnekte**Aspose.Cells** Uygulamanızın JAR'larını içeren klasördeki lisans dosyasını bulmaya çalışacaktır.
+Bu örnekte **Aspose.Cells**, uygulamanın JAR'larını içeren klasörde lisans dosyasını bulmaya çalışacaktır.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 com.aspose.cells.License license = new com.aspose.cells.License();
 
@@ -31,11 +32,11 @@ license.setLicense("Aspose.Cells.Java.lic");
 
 {{< /highlight >}}
 
-###  **Akıştan Lisans Nasıl Başvurulur**
+### **Akıştan Lisans Uygulama**
 
-Bir akıştan bir lisans başlatır.
+Bir akıştan lisansı başlatır.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 com.aspose.cells.License license = new com.aspose.cells.License();
 
@@ -43,11 +44,11 @@ license.setLicense(new java.io.FileInputStream("Aspose.Cells.Java.lic"));
 
 {{< /highlight >}}
 
-###  **Aspose.Cells.GridWeb'de Lisans Nasıl Başvurulur**
+### **Aspose.Cells.GridWeb'de Lisans Uygulama**
 
-Lisans kodunu web uygulamanızda ilk işleneceği yere koymanız tavsiye edilir.
+Lisanslama kodunu web uygulamanızın en öncelikli işleyeceği bir yere koymak önerilir.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate an instance of license and set the license file through its path
 
@@ -57,13 +58,13 @@ lic.setLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-##  **Ölçülü Lisans Nasıl Başvurulur**
+## **Saatlik Lisansın Uygulanması**
 
-Aspose.Cells, geliştiricilerin ölçülü anahtar uygulamasına olanak tanır. Yeni bir lisanslama mekanizmasıdır. Yeni lisanslama mekanizması mevcut lisanslama yöntemiyle birlikte kullanılacaktır. API özelliğinin kullanımına göre faturalandırılmak isteyen müşterilerimiz, ölçülü lisanslamayı kullanabilirler. Daha fazla ayrıntı için lütfen bkz.[Ölçülü Licensing SSS](https://purchase.aspose.com/faqs/licensing/metered)bölüm.
+Aspose.Cells, geliştiricilere saatlik anahtar uygulama imkanı tanır. Bu yeni bir lisanslama mekanizmasıdır. Yeni lisanslama mekanizması, mevcut lisanslama yöntemi ile birlikte kullanılacaktır. API özelliklerinin kullanımına göre faturalandırılmak isteyen müşteriler, saatlik lisanslamayı kullanabilir. Daha fazla bilgi için lütfen [Saatlik Lisanslama SSY](https://purchase.aspose.com/faqs/licensing/metered) bölümüne başvurun.
 
-Yeni bir sınıf[Ölçülü](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)ölçülü anahtarı uygulamak için tanıtıldı. Ölçülü genel ve özel anahtarın nasıl ayarlanacağını gösteren örnek kod aşağıda verilmiştir.
+Metrik genel ve özel anahtarları ayarlamayı gösteren örnek kod şu şekildedir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 //Set metered public and private keys
 

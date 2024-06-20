@@ -1,109 +1,112 @@
-﻿---
+---
 title: قائمة الوظائف المدعومة
 type: docs
 weight: 10
-url: /ar/net/list-of-supported-functions/
+url: /ar/net/aspose-cells-griddesktop/list-of-supported-functions/
+keywords: GridDesktop,functions,formula
+description: يقدم هذا المقال الوظائف المدعومة في GridDesktop.
 ---
-## **مقدمة**
-هناك الكثير من الوظائف المضمنة التي تدعمها Aspose.Cells Grid Controls. هذه الوظائف تنتمي إلى الفئات التالية:
 
-- **وظائف الرياضيات** ، يوفر مجموعة ضخمة من الوظائف التي يمكن استخدامها في العديد من العمليات الحسابية
-- **وظائف النص والبيانات** ، يوفر وظائف مختلفة لأداء أنواع مختلفة من العمليات على النص والبيانات
-- **وظائف التاريخ والوقت** ، يوفر بعض الوظائف المفيدة المتعلقة بالبيانات والوقت
-- **وظائف منطقية** ، يوفر مجموعة صغيرة من الوظائف المنطقية للتعامل مع بعض العمليات المنطقية على البيانات
+## **مقدمة**
+هناك العديد من الوظائف الجاهزة المدعومة بواسطة تحكم Aspose.Cells.GridDesktop. تنتمي هذه الوظائف إلى الفئات التالية:
+
+- **وظائف الرياضيات** ، توفر مجموعة ضخمة من الوظائف التي يمكن استخدامها في العديد من الحسابات الرياضية
+- **وظائف النص والبيانات** ، توفر وظائف مختلفة لأداء أنواع مختلفة من العمليات على النص والبيانات
+- **وظائف التاريخ والوقت** ، توفر بعض الوظائف المفيدة المتعلقة بالتاريخ والوقت
+- **وظائف المنطق** ، توفر مجموعة صغيرة من وظائف المنطق للتعامل مع بعض العمليات المنطقية على البيانات
 ### **وظائف الرياضيات**
-- السقف ، الجمع ، COS ، COSH ، COUNTIF
-- درجات
-- حتى ، EXP
-- حقيقة ، فلور
-- ذكاء
-- LN ، LOG ، LOG10
-- عصري
-- الفردية
-- PI ، الطاقة ، المنتج
+- CEILING,COMBIN,COS,COSH,COUNTIF
+- DEGREES
+- EVEN,EXP
+- FACT,FLOOR
+- INT
+- LN,LOG,LOG10
+- MOD
+- ODD
+- PI,POWER,PRODUCT
 - RADIANS، RAND، ROUND، ROUNDDOWN، ROUNDUP
-- توقيع ، الخطيئة ، سين
-- SQRT ، SUM ، SUMIF ، SUMPRODUCT ، SUMSQ ، SUMX2MY2 ، SUMX2PY2 ، SUMXMY2
-- تان ، تان ، ترانك
+- SIGN,SIN,SINH
+- SQRT,SUM,SUMIF,SUMPRODUCT,SUMSQ,SUMX2MY2,SUMX2PY2,SUMXMY2
+- TAN,TANH,TRUNC
 ### **وظائف النص والبيانات**
-- شار ، كود ، متصل
-- دولار
-- بالضبط
-- البحث ، ثابت
-- يسار ، لين ، أقل
-- منتصف
-- تطابق
-- استبدال ، REPT ، يمين
-- البحث والاستبدال
-- T ، TEXT ، TRIM
-- أعلى
-- القيمة
-- ابحث عن
+- CHAR,CODE,CONCATENATE
+- DOLLAR
+- EXACT
+- FIND,FIXED
+- LEFT,LEN,LOWER
+- MID
+- MATCH
+- REPLACE,REPT,RIGHT
+- SEARCH,SUBSTITUTE
+- T,TEXT,TRIM
+- UPPER
+- VALUE
+- LOOKUP
 - VLOOKUP
 - WIDECHAR
 ### **وظائف التاريخ والوقت**
-- ساعة
-- دقيقة ، شهر
-- الآن
-- ثانيا
-- الوقت اليوم
+- HOUR
+- MINUTE,MONTH
+- NOW
+- SECOND
+- TIME,TODAY
 - WEEKDAY
-- عام
+- YEAR
 ### **وظائف منطقية**
-- خاطئة
-- إذا
-- ليس
-- أو
-- صحيح
+- FALSE
+- IF
+- NOT
+- OR
+- TRUE
 ### **وظائف جديدة**
-- دقيقة
-- ROW (مدعوم في Aspose.Cells.GridWeb فقط)
-- ROW S (مدعوم في Aspose.Cells.GridWeb فقط)
-- COLUMN (مدعوم في Aspose.Cells.GridWeb فقط)
-- COLUMN S (مدعوم في Aspose.Cells.GridWeb فقط)
-- العنوان (مدعوم في Aspose.Cells.GridWeb فقط)
-- عوض
-- غير مباشر
+- MIN
+- صف (مدعوم في Aspose.Cells.GridWeb فقط)
+- صف S (مدعوم في Aspose.Cells.GridWeb فقط)
+- عمود (مدعوم في Aspose.Cells.GridWeb فقط)
+- عمود S (مدعوم في Aspose.Cells.GridWeb فقط)
+- عنوان (مدعوم في Aspose.Cells.GridWeb فقط)
+- OFFSET
+- INDIRECT
 - ISERR
-- هو رقم
-- ينظف
-- يوان
-- حقيقة
+- ISNUMBER
+- CLEAN
+- الريال الصيني
+- FACTDOUBLE
 - GCD
 - LCM
 - MROUND
-- متعددة
-- حاصل القسمة
-- راندبيتوين
-- سيروم
+- MULTINOMIAL
+- QUOTIENT
+- RANDBETWEEN
+- SERIESSUM
 - SQRTPI
-- المجموع الفرعي
-- عدد
-- كونتا
-- فهرس
-- زنزانة
-- الوسيط
-- نوع الخطأ
+- SUBTOTAL
+- COUNT
+- COUNTA
+- INDEX
+- CELL
+- MEDIAN
+- ERROR.TYPE
 - ISBLANK
 - ISERROR
-- إسلامي
+- ISLOGICAL
 - ISNA
 - ISNONTEXT
 - ISTEXT
 - ISREF
-- ن
-- غير متوفر
-- اكتب
-- كونتبلانك
-- كبير
-- ماكسا
-- مينا
-- متوسط
-- الوضع
-- النسبة المئوية
-- بيرسينترانك
-- مرتبة
-- أختر
-- هلوكوب
-- SMALL (مدعوم في Aspose.Cells.GridWeb فقط)
+- N
+- NA
+- TYPE
+- COUNTBLANK
+- LARGE
+- MAXA
+- MINA
+- AVERAGEA
+- MODE
+- PERCENTILE
+- PERCENTRANK
+- RANK
+- CHOOSE
+- HLOOKUP
+- صغير (مدعوم في Aspose.Cells.GridWeb فقط)
 

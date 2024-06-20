@@ -1,29 +1,30 @@
-﻿---
-title: Cell İçindekileri Alma
+---
+title: Hücre İçeriğini Alma
 type: docs
 weight: 10
 url: /tr/net/getting-cell-contents/
 ---
-## **Aspose.Cells - Cell İçeriğini Alma**
-Hücrelere erişmek için Cells[0]veya Cells[name]yöntemi kullanılabilir.
+
+## **Aspose.Cells - Hücre İçeriğini Alma**
+Hücreler[0] veya Hücreler[ad] yöntemi hücrelere erişmek için kullanılabilir.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- Çalışma kitabı çalışma kitabı = new Workbook("../../data/test.xlsx");
+ Workbook workbook = new Workbook("../../data/test.xlsx");
 
-Çalışma sayfası sayfası1 = çalışma kitabı.Çalışma sayfaları[0];
+Worksheet sheet1 = workbook.Worksheets[0];
 
-Cells hücre = sayfa1.Cells;
+Cells cells = sheet1.Cells;
 
-Aralık aralığı = sayfa1.Cells.MaxDisplayRange;
+Range range = sheet1.Cells.MaxDisplayRange;
 
-int tcols = aralık.ColumnCount;
+int tcols = range.ColumnCount;
 
-int trows = aralık.RowCount;
+int trows = range.RowCount;
 
- için (int ben = 0 ; ben< trows; i++)
+for (int i = 0 ; i < trows; i++)
 
 {
 
@@ -44,18 +45,18 @@ int trows = aralık.RowCount;
 }
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Cell İçeriğini Alma**
-NPOI, hücrelerin çeşitli özelliklerine erişmek için Cell sınıfını sağlar.
+## **NPOI - HSSF XSSF - Hücre İçeriğini Alma**
+NPOI, hücrelerin çeşitli özelliklerine erişmek için Hücre sınıfını sağlar.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook("../../data/test.xlsx");
 
-ISheet sayfası1 = wb.GetSheetAt(0);
+ISheet sheet1 = wb.GetSheetAt(0);
 
- için (int dizin = 0; dizin<= sheet1.LastRowNum; index++)
+for (int index = 0; index <= sheet1.LastRowNum; index++)
 
 {
 
@@ -115,12 +116,12 @@ ISheet sayfası1 = wb.GetSheetAt(0);
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Cell İçindekileri Alma** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıdaki sosyal kodlama sitelerinden herhangi birinden **Hücre İçeriğini Alma** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Getting.Cell.Contents.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Veri İşleme Özellikleri](/cells/tr/net/data-handling-features-in-aspose-cells/).
+Daha fazla bilgi için [Veri İşleme Özellikleri](/cells/tr/net/data-handling-features-in-aspose-cells/) sayfasını ziyaret edin.
 
 {{% /alert %}}

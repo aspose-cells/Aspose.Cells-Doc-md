@@ -1,49 +1,50 @@
-﻿---
-title: レポートへの Reporting Services グローバル変数の追加
+---
+title: 報告書サービスグローバル変数の追加
 type: docs
 weight: 70
 url: /ja/reportingservices/adding-reporting-services-global-variables-to-report/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells' レポート テンプレートは、Reporting Services のグローバル変数マーカーを含むセルのデータ ソースとして、Reporting Services のグローバル変数をサポートします。
+Aspose.Cellsのレポートテンプレートは、報告書サービスのグローバル変数を報告書サービスグローバル変数マーカーを含むセルのデータソースとしてサポートしています。 
 
-[Aspose.Cells テンプレートとスマートマーカー](/cells/ja/reportingservices/aspose-cells-template-and-smart-markers/) Reporting Services のグローバル変数マーカーがどのように機能するかについて説明します。グローバル変数は通常、テーブルのヘッダーまたはフッターのテキスト領域に配置されます。
+[Aspose.CellsテンプレートとSmart Markers](/cells/ja/reportingservices/aspose-cells-template-and-smart-markers/) では、報告書サービスグローバル変数マーカーの動作について説明しています。グローバル変数は通常、テーブルヘッダーまたはフッターのテキスト領域に配置されます。
 
 {{% /alert %}} 
 
-グローバル変数をレポートに追加するには:
+レポートにグローバル変数を追加するには：
 
-1. セルを選択します。
+1. セルを選択します。 
 
-   **選択したセル** 
+   **選択されたセル** 
 
-![todo:画像_代替_文章](adding-reporting-services-global-variables-to-report_1.png)
-
-
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_1.png)
 
 
-1. クリック**数式を挿入**Aspose.Cells.Report.Designer ツールバー (
 
-![todo:画像_代替_文章](adding-reporting-services-global-variables-to-report_2.png)
+
+1. Aspose.Cells.Report.Designerツールバーで[挿入]式をクリックします(
+
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_2.png)
 
 ).
 
-1. 選択する**グローバル**左側のパネルにあります。
-すべてのグローバル変数が右側にリストされています。
-1. 選択する**レポート名**し、ダブルクリックします。
-式は**編集**上部のボックス。
+1. 左パネルで**Globals**を選択します。
+   すべてのグローバル変数が右側にリストされます。 
+1. **ReportName**を選択し、ダブルクリックします。
+   式が上部の**編集**ボックスに表示されます。 
 
-   **グローバル変数の選択** 
+   **グローバル変数を選択する** 
 
-![todo:画像_代替_文章](adding-reporting-services-global-variables-to-report_3.png)
-
-
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_3.png)
 
 
-1. クリック**わかった**終わる。
-セルにグローバル変数マーカーが含まれるようになりました。
+
+
+1. 終了するには**OK**をクリックします。
+   セルには今、グローバル変数のマーカーが含まれています。 
 
    **セル内のグローバル変数マーカー** 
 
-![todo:画像_代替_文章](adding-reporting-services-global-variables-to-report_4.png)
+![todo:image_alt_text](adding-reporting-services-global-variables-to-report_4.png)

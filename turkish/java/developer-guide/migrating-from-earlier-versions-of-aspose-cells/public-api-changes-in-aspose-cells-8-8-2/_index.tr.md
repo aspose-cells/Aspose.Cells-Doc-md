@@ -1,29 +1,30 @@
-﻿---
-title: Genel API Aspose.Cells 8.8.2'deki değişiklikler
+---
+title: Aspose.Cells 8.8.2 de Genel API Değişiklikleri
 type: docs
 weight: 290
 url: /tr/java/public-api-changes-in-aspose-cells-8-8-2/
 ---
-{{% alert color="primary" %}} 
-
-Bu belge, Aspose.Cells API sürümünde 8.8.1'den 8.8.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
-
-{{% /alert %}} 
-## **Eklenen API'ler**
-### **Boş Satırları ve Sütunları Silerken Referansları Otomatik Olarak Güncelle**
- Aspose.Cells for Java 8.8.2, Cells.deleteBlankRows & Cells.deleteBlankColumns yöntemlerinin aşırı yüklenmiş sürümlerini ortaya çıkardı. Yeni yöntemler, DeleteOptions sınıfının bir örneğini kabul edebilir ve formüllerde, grafik serisi verilerinde vb. bozuk referanslardan kaynaklanabilecek durumların üstesinden gelmek için kullanılabilir. DeleteOptions sınıfının şu anda yalnızca bir üyesi var, UpdateReference adında bir Boole türü özelliği. Söz konusu özellik true olarak ayarlanırsa ve DeleteOptions sınıfı örneği Cells.deleteBlankRows & Cells.deleteBlankColumns yöntemlerine geçirilirse, API, değişiklikleri karşılamak için (varsa) formül başvurularını dahili olarak ayarlar.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Güncellenmiş Referanslarla Boş Satırları ve Sütunları Silme](/cells/tr/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/).
+Bu belge, modül/uygulama geliştiricileri için Aspose.Cells API'sinde 8.8.1'den 8.8.2'ye yapılan değişiklikleri açıklar. Yeni ve güncellenmiş genel yöntemler, eklenen ve kaldırılan sınıflar vb. yanı sıra Aspose.Cells arkasındaki davranışlardaki değişikliklerin açıklamasını içerir.
+
+{{% /alert %}} 
+## **Eklenen API'lar**
+### **Boş Satır ve Sutunları Silerken Referansları Otomatik Güncelle**
+Aspose.Cells for Java 8.8.2, Cells.deleteBlankRows & Cells.deleteBlankColumns yöntemlerinin aşırı yüklenmiş versiyonlarını ortaya çıkardı. Yeni yöntemler, DeleteOptions sınıfının bir örneğini kabul edebilir ve formüllerde, grafik serisi verilerinde vb. oluşabilecek durumları aşmak için kullanılabilir. DeleteOptions sınıfının şu anda yalnızca bir üyesi, UpdateReference adlı Boolean türünde bir özelliktir. Söz konusu özellik true olarak ayarlandığında ve DeleteOptions sınıfının Cells.deleteBlankRows & Cells.deleteBlankColumns yöntemlerine iletilen örnek, API içsel olarak formül referanslarını (varsa) ayarlayacaktır. 
+
+{{% alert color="primary" %}} 
+
+Bu özellikle ilgili daha fazla bilgi için lütfen [Güncellenmiş Referanslar İle Boş Satır ve Sutunları Silme](/cells/tr/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/) başlıklı detaylı makaleyi inceleyin.
 
 {{% /alert %}} 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook & load an existing spreadsheet
 

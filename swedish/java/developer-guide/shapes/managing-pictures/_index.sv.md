@@ -1,44 +1,39 @@
-﻿---
+---
 title: Hantera bilder
 type: docs
 weight: 10
 url: /sv/java/managing-pictures/
 ---
-{{% alert color="primary" %}}
 
-Aspose.Cells tillåter utvecklare att lägga till bilder i kalkylblad under körning. Dessutom kan placeringen av dessa bilder styras under körning, vilket diskuteras mer i detalj i de kommande avsnitten.
+Aspose.Cells tillåter utvecklare att lägga till bilder i kalkylbladet under körtiden. Dessutom kan placeringen av dessa bilder styras under körtiden, vilket diskuteras mer utförligt i de kommande avsnitten.
 
-Aspose.Cells for Java stöder endast bildformat: BMP, JPEG, PNG, GIF.
-
-Index som används i exempel börjar från 0.
-
-{{% /alert %}}
+Den här artikeln förklarar hur man lägger till bilder och hur man infogar en bild som visar innehållet i vissa celler.
 
 ## **Lägga till bilder**
 
-Det är väldigt enkelt att lägga till bilder i ett kalkylblad. Det tar bara några rader kod.
+Att lägga till bilder i ett kalkylblad är väldigt enkelt. Det kräver bara några rader kod.
 
- Ring helt enkelt[**Lägg till**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String) ) metod för[**Bilder**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) samling (inkapslad i[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) objekt). De[**Lägg till**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) metod tar följande parametrar:
+Ring enkelt [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))-metoden för [**Pictures**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection)-samlingen (inkapslad i [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)-objektet). [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))-metoden tar följande parametrar:
 
-- **Övre vänstra radens index**, indexet för den övre vänstra raden.
+- **Övre vänstra radindex**, indexet för den övre vänstra raden.
 - **Övre vänstra kolumnindex**, indexet för den övre vänstra kolumnen.
-- **Bildfilens namn**, namnet på bildfilen, komplett med sökväg.
+- **Bildfilnamn**, namnet på bildfilen, komplett med sökväg.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-AddingPictures-1.java" >}}
 
-## **Placering av bilder**
+## **Positionering av bilder**
 
-Bilder kan placeras med Aspose.Cells enligt följande:
+Bilder kan positioneras med hjälp av Aspose.Cells enligt följande:
 
 - [Absolut positionering](/cells/sv/java/managing-pictures/#absolute-positioning).
 
 ### **Absolut positionering**
 
- Utvecklare kan placera bilderna absolut genom att använda[**setUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) och[**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) metoder för[**Bild**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)objekt.
+Utvecklare kan placera bilderna absolut genom att använda [**setUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX)- och [**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY)-metoderna för [**Picture**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)-objektet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-PositioningPictures-AbsolutePositioning-1.java" >}}
 
-## **Förhandsämnen**
-- [Infoga en länkad bild från webbadress](/cells/sv/java/insert-a-linked-picture-from-web-address/)
-- [Infoga en bild baserat på Cell Referens](/cells/sv/java/insert-a-picture-based-on-cell-reference/)
-- [Infoga webbbild från en URL i ett Excel-kalkylblad](/cells/sv/java/insert-web-image-from-a-url-into-an-excel-worksheet/)
+## **Fortsatta ämnen**
+- [Infoga en Länkbild från Webbadress](/cells/sv/java/insert-a-linked-picture-from-web-address/)
+- [Infoga en bild baserad på cellreferens](/cells/sv/java/insert-a-picture-based-on-cell-reference/)
+- [Infoga webb bild från en URL in i en Excel-kalkylblad](/cells/sv/java/insert-web-image-from-a-url-into-an-excel-worksheet/)

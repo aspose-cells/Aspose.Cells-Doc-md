@@ -1,29 +1,30 @@
-﻿---
-title: Obtener Cell Contenido
+---
+title: Obteniendo Contenidos de Celda
 type: docs
 weight: 10
 url: /es/net/getting-cell-contents/
 ---
-## **Aspose.Cells - Obtener Cell Contenido**
-El método Cells[0]o Cells[nombre] está disponible para acceder a las celdas.
+
+## **Aspose.Cells - Obteniendo Contenidos de Celda**
+El método Cells[0] o Cells[name] está disponible para acceder a las celdas.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook("../../data/test.xlsx");
 
-Hoja de trabajo hoja1 = libro de trabajo.Hojas de trabajo[0];
+Worksheet sheet1 = workbook.Worksheets[0];
 
-Cells celdas = hoja 1.Cells;
+Cells cells = sheet1.Cells;
 
-Rango rango = hoja1.Cells.MaxDisplayRange;
+Range range = sheet1.Cells.MaxDisplayRange;
 
 int tcols = range.ColumnCount;
 
 int trows = range.RowCount;
 
- para (int i = 0 ; i< trows; i++)
+for (int i = 0 ; i < trows; i++)
 
 {
 
@@ -44,18 +45,18 @@ int trows = range.RowCount;
 }
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Obtener Cell Contenido**
+## **NPOI - HSSF XSSF - Obteniendo el contenido de la celda**
 NPOI proporciona la clase Cell para acceder a varias propiedades de las celdas.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook("../../data/test.xlsx");
 
-ISheet hoja1 = wb.GetSheetAt(0);
+ISheet sheet1 = wb.GetSheetAt(0);
 
- para (índice int = 0; índice<= sheet1.LastRowNum; index++)
+for (int index = 0; index <= sheet1.LastRowNum; index++)
 
 {
 
@@ -114,13 +115,13 @@ ISheet hoja1 = wb.GetSheetAt(0);
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Obtener Cell Contenido** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Obteniendo el contenido de la celda** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Getting.Cell.Contents.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Funciones de manejo de datos](/cells/es/net/data-handling-features-in-aspose-cells/).
+Para más detalles, visite [Funciones de manejo de datos](/cells/es/net/data-handling-features-in-aspose-cells/).
 
 {{% /alert %}}

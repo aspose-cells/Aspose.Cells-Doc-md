@@ -1,20 +1,21 @@
-﻿---
-title: Arbeiten mit dem Leuchteffekt von Formen oder Diagrammen
+---
+title: Arbeiten mit dem Leuchteffekt von Shape oder Diagramm
 type: docs
 weight: 960
 url: /de/java/working-with-the-glow-effect-of-shape-or-chart/
 ---
-## **Mögliche Nutzungsszenarien**
-Aspose.Cells stellt die Shape.Glow-Eigenschaft bereit, um mit dem Leuchteffekt von Formen oder Diagrammen zu arbeiten. Es enthält die folgenden Untereigenschaften, die Sie einstellen können, um je nach Ihren Anforderungen unterschiedliche Ergebnisse zu erzielen.
+
+## **Mögliche Verwendungsszenarien**
+Aspose.Cells bietet die Shape.Glow-Eigenschaft, um mit dem Leuchteffekt von Form oder Diagramm zu arbeiten. Es enthält die folgenden Unter-Eigenschaften, die Sie einstellen können, um verschiedene Ergebnisse entsprechend Ihren Anforderungen zu erzielen.
 
 - GlowEffect.Size
 - GlowEffect.Transparency
 
-Der folgende Screenshot zeigt die Excel-Oberfläche Microsoft zum Einstellen des Leuchteffekts der Form.
+Die folgende Screenshots zeigt die Benutzeroberfläche von Microsoft Excel zur Einstellung des Leuchteffekts von Form.
 
-![todo: Bild_alt_Text](working-with-the-glow-effect-of-shape-or-chart_1.png)
-## **Arbeiten mit dem Leuchteffekt von Formen oder Diagrammen**
- Der folgende Beispielcode lädt die[Excel-Quelldatei](5472520.xlsx)und greift auf die erste Form im ersten Arbeitsblatt zu und legt die untergeordneten Eigenschaften der Shape.Glow-Eigenschaft fest und speichert dann die Arbeitsmappe[Excel-Datei ausgeben](5472527.xlsx).
+![todo:image_alt_text](working-with-the-glow-effect-of-shape-or-chart_1.png)
+## **Arbeiten mit dem Leuchteffekt von Form oder Diagramm**
+Der folgende Beispielcode lädt die [Quelldatei von Excel](5472520.xlsx) und greift auf die erste Form im ersten Arbeitsblatt zu, und stellt dann die Unter-Eigenschaften der Shape.Glow-Eigenschaft ein und speichert anschließend die Arbeitsmappe in der [Ausgabedatei von Excel](5472527.xlsx).
 ## **Beispielcode**
 
 

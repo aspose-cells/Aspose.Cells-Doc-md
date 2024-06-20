@@ -1,45 +1,46 @@
-﻿---
-title: Konvertera arbetsblad till bild i Ruby
+---
+title: Konvertering av kalkylblad till bild i Ruby
 type: docs
 weight: 60
 url: /sv/java/converting-worksheet-to-image-in-ruby/
 ---
-## **Aspose.Cells - Konvertera arbetsblad till bild**
-För att konvertera kalkylblad till bild med Aspose.Cells for Java i Ruby, anropa omvandlarmodulen.
 
-**Ruby kod**
+## **Aspose.Cells - Konvertering av kalkylblad till bild**
+För att konvertera kalkylblad till bild med Aspose.Cells for Java i Ruby, helt enkelt anropa Converter modulen.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
 
- def arbetsblad_till_bild (arbetsbok)
+{{< highlight ruby >}}
 
-#Skapa ett objekt för ImageOptions
+ def worksheet_to_image(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
+    #Create an object for ImageOptions
 
-
-
-# Ställ in bildtyp
-
-image_format = Rjb::import('com.aspose.cells.ImageFormat')
-
-img_options.setImageFormat(image_format.getPng())
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
 
 
-# Skaffa det första arbetsbladet.
+    # Set the image type
 
-ark = workbook.getWorksheets().get(0)
+    image_format = Rjb::import('com.aspose.cells.ImageFormat')
 
-# Skapa ett SheetRender-objekt för målarket
-
-sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+    img_options.setImageFormat(image_format.getPng())
 
 
 
-j = 0
+    # Get the first worksheet.
 
- medan j< sr.getPageCount()
+    sheet = workbook.getWorksheets().get(0)
+
+    # Create a SheetRender object for the target sheet
+
+    sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+
+
+
+    j = 0
+
+    while j < sr.getPageCount()
 
         # Generate an image for the worksheet
 
@@ -54,7 +55,7 @@ j = 0
 end 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Konvertera kalkylblad till bild (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ned **Konvertera kalkylblad till bild (Aspose.Cells)** från någon av nedanstående sociala kodningssajter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

@@ -1,24 +1,25 @@
-﻿---
-title: Metin Kutusuna Ada Göre Erişin
+---
+title: Ada Göre Metin Kutusuna Eriş
 type: docs
 weight: 230
 url: /tr/net/access-the-text-box-by-the-name/
 ---
-## Metin Kutusuna Ada Göre Erişin
 
- Daha önce, metin kutularına dizinden erişilirdi.[**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)koleksiyonu, ancak artık bu koleksiyondan metin kutusuna ada göre de erişebilirsiniz. Bu, adını zaten biliyorsanız, metin kutunuza erişmenin kolay ve hızlı bir yoludur.
+## Ada Göre Metin Kutusuna Eriş
 
-Aşağıdaki örnek kod önce bir metin kutusu oluşturur ve ona biraz metin ve ad atar. Ardından sonraki satırlarda aynı text box'a ismi ile ulaşıp yazısını yazdırıyoruz.
+Önceden, metin kutularına [**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes) koleksiyonundan dizine göre erişiliyordu, ancak şimdi aynı koleksiyondan ada göre metin kutusuna da erişebilirsiniz. Bu, metin kutusuna zaten adını biliyorsanız uygun ve hızlı bir erişim sağlar.
 
-### Metin kutusuna ada göre erişmek için C# kodu
+Aşağıdaki örnek kod öncelikle bir metin kutusu oluşturur ve ona bazı metin ve ad atar. Ardından aynı metin kutusuna adıyla erişir ve metnini yazdırır.
+
+### Ada ile metin kutusuna erişen C# kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AccessTextBoxName-AccessTextBoxName.cs" >}}
 
 ### Örnek kod tarafından oluşturulan konsol çıktısı
 
-İşte yukarıdaki örnek kodun konsol çıktısı.
+Yukarıdaki örnek kodun konsol çıktısı burada gösterilmektedir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 This is MyTextBox
 

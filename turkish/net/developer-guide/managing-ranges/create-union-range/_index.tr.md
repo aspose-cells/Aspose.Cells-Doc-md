@@ -1,16 +1,17 @@
-﻿---
-title: Birlik Aralığı Oluştur
+---
+title: Birleşik Aralık Oluştur
 type: docs
 weight: 360
 url: /tr/net/create-union-range/
 ---
-## **Birlik Aralığı Oluştur**
- Aspose.Cells, Union Range'i kullanarak Union Range oluşturma yeteneği sağlar.[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange)yöntem. bu[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange)yöntem, birleşim aralığını oluşturmak için adres ve çalışma sayfasının dizini olmak üzere iki parametreyi kabul eder. bu[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) yöntem bir döndürür[Birlik Aralığı](https://reference.aspose.com/cells/net/aspose.cells/unionrange) nesne.
 
-Aşağıdaki kod parçacığı, kullanarak bir Birlik Aralığı oluşturmayı gösterir.[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange)yöntem. Kod tarafından oluşturulan çıktı dosyası referans için eklenmiştir.
+## **Birleşik Aralık Oluştur**
+Aspose.Cells, [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) yöntemini kullanarak Birleşik Aralık oluşturma yeteneği sağlar. [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) yöntemi, birleşik aralığı oluşturmak için adresi ve çalışma sayfasının dizinini kabul eder. [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) yöntemi, bir [UnionRange](https://reference.aspose.com/cells/net/aspose.cells/unionrange) nesnesi döndürür.
 
-- [Çıktı dosyası](106364952.xlsx)
+Aşağıdaki kod örneği, [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) yöntemini kullanarak Birleşik Aralık oluşturmayı gösterir. Kod tarafından oluşturulan çıktı dosyası referans için eklenmiştir.
+
+- [Çıktı Dosyası](106364952.xlsx)
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-UpdatePowerQueryFormulaItem-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CreateUnionRange.cs" >}}

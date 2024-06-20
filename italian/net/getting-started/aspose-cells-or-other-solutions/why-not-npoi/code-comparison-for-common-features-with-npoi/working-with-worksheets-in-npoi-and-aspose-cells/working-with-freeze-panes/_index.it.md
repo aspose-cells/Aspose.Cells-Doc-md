@@ -1,13 +1,14 @@
-﻿---
-title: Lavorare con Blocca riquadri
+---
+title: Lavorare con i riquadri congelati
 type: docs
 weight: 100
 url: /it/net/working-with-freeze-panes/
 ---
-## **Aspose.Cells - Lavorare con Blocca riquadri**
+
+## **Aspose.Cells - Lavorare con i riquadri congelati**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -26,13 +27,13 @@ workbook.Save("output-FreezeFile-Aspose.Cells.xls");
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Metodo FreezePanes](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
+Per ulteriori dettagli, visita [FreezePanes Method](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
 
 {{% /alert %}} 
-## **NPOI - HSSF XSSF - Lavorare con Blocca riquadri**
+## **NPOI - HSSF XSSF - Lavorare con i riquadri congelati**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -63,12 +64,12 @@ file.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Lavorare con Blocca riquadri** formare uno dei siti di social coding sotto indicati:
+Scarica **Lavorare con i riquadri congelati** da uno dei siti di codice sociale di seguito menzionati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Lavorare con i fogli di lavoro](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Per ulteriori dettagli, visita [Working with Worksheets](/cells/it/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

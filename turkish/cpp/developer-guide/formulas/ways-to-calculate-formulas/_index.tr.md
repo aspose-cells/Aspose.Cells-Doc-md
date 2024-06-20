@@ -1,27 +1,28 @@
 ---
-title: Formülleri Hesaplamanın Yolları
+title: Formüller Hesaplama Yolları
 type: docs
 weight: 30
 url: /tr/cpp/ways-to-calculate-formulas/
 ---
-##  **giriiş**
-Aspose.Cells yerleşik bir formül hesaplama motoruna sahiptir. Yalnızca tasarımcı şablonlarından içe aktarılan formülleri yeniden hesaplamakla kalmaz, aynı zamanda çalışma zamanında eklenen formüllerin sonuçlarının hesaplanmasını da destekler.
-##  **Formül Ekleme ve Sonuçları Hesaplama**
-Aspose.Cells, Microsoft Excel'in parçası olan formüllerin veya işlevlerin çoğunu destekler. API numaralı telefondan veya tasarımcı e-tabloları kullanılarak kullanılabilirler. Aspose.Cells çok sayıda matematik, dize, boole, tarih/saat, istatistiksel, arama ve referans formüllerini destekler.
 
-Hücreye formül eklemek için Cell.SetFormula yöntemini kullanın. Bir hücreye formül uygularken, Microsoft Excel'de formül oluştururken yaptığınız gibi dizeye her zaman eşittir işaretiyle (=) başlayın. İşlev parametrelerini sınırlamak için virgül (,) kullanın.
+## **Giriş**
+Aspose.Cells, gömülü bir formül hesaplama motoruna sahiptir. Sadece tasarımcı şablonlarından alınan formülleri yeniden hesaplamakla kalmaz, aynı zamanda çalışma zamanında eklenen formüllerin sonuçlarını hesaplama konusunda da destek sağlar.
+## **Formüller Ekleyin ve Sonuçlarını Hesaplayın**
+Aspose.Cells, Microsoft Excel'in bir parçası olan çoğu formül veya işlevi destekler. Bunlar API aracılığıyla veya tasarımcı elektronik tabloları kullanarak kullanılabilir. Aspose.Cells, matematiksel, dize, mantıksal, tarih/saat, istatistiksel, arama ve başvuru formüllerinin geniş bir kümesini destekler.
 
-Formüllerin sonuçlarını hesaplamak için, bir Excel dosyasına katıştırılmış tüm formülleri işleyen Workbook.CalculateFormula() yöntemini çağırın. Lütfen formülü ekleyen ve sonuçlarını hesaplayan aşağıdaki örnek koda bakın. lütfen kontrol ediniz[excel dosyasının çıktısını almak](38109185.xlsx) bu kodla oluşturuldu.
+Bir hücreye formül eklemek için Cell.SetFormula yöntemini kullanın. Bir hücreye formül uygularken, formülü her zaman bir eşitlik işareti (=) ile başlatın, Microsoft Excel'de formül oluştururken yaptığınız gibi. Bir virgül (,) kullanarak işlev parametrelerini ayırın.
 
-**Basit kod**
+Formüllerin sonuçlarını hesaplamak için Workbook.CalculateFormula() yöntemini çağırın, bu yöntem bir Excel dosyasına gömülü tüm formülleri işler. Lütfen bu kod ile oluşturulan [çıktı excel dosyasını](38109185.xlsx) kontrol edin.
+
+**Örnek Kod**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-AddingFormulasAndCalculatingResults-new.cpp" >}}
-<!---## **Direct Calculation of Formula**
-Sometimes, you need to calculate formula results directly without adding them into a worksheet. The values of the cells used in the formula already exist in a worksheet and all you need is to find the result of those values based on some Microsoft Excel formula without adding the formula in a worksheet.
+<!---## **Doğrudan Formül Hesaplama**
+Bazen, bir elektronik tabloya formül eklemadan, formülde kullanılan hücre değerlerinin sonuçlarını, Microsoft Excel formülüne dayalı olarak bulmanız gerekebilir. Formülde kullanılan hücrelerin değerleri zaten bir elektronik tabloda mevcutsa ve ihtiyacınız olan tek şey bir elektronik tabloya formül eklemek değilse, Aspose.Cells'in formül hesaplama motoru API'lerini kullanarak bu tür formüllerin sonuçlarını {0} için {1} hesaplayabilirsiniz.
 
-You can use Worksheet.CalculateFormula(String formula) method to calculate the results of such formulas without adding them to worksheet.
+Hücre.CalculateFormula(String formula) yöntemini kullanarak, elektronik tablolara formül eklemeksizin bu tür formüllerin sonuçlarını hesaplayabilirsiniz.
 
-The code below produces the following output.
+Aşağıdaki kod aşağıdaki çıktıyı üretir.
 
 {{< highlight java >}}
 
@@ -33,18 +34,18 @@ Result of Sum(A1:A2): 50
 
 {{< /highlight >}}
 
-**Sample Code**
+**Örnek Kod**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-DirectCalculationOfFormula.cpp" >}}   --->
-##  **Formüllerin Yalnızca Bir Kez Hesaplanması**
-Bir çalışma kitabı şablonundaki formüllerin değerlerini hesaplamak için Workbook.CalculateFormula() çağrıldığında, Aspose.Cells bir hesaplama zinciri oluşturur. Formüllerin ikinci veya üçüncü kez hesaplanması performansı artırır.
+## **Formülleri Yalnızca Bir Kez Hesaplayın**
+Workbook.CalculateFormula() çağrıldığında, Aspose.Cells, bir hesaplama zinciri oluşturur. Bu, formüller ikinci veya üçüncü kez hesaplandığında performansı artırır.
 
-Bununla birlikte, şablon çok sayıda formül içeriyorsa, formülün ilk kez hesaplanması, çok fazla CPU işlem süresi ve belleği tüketebilir.
+Ancak, eğer şablon çok sayıda formül içeriyorsa, formülün ilk kez hesaplanması, çok miktarda CPU işlem zamanı ve bellek tüketebilir.
 
-Aspose.Cells, formülleri yalnızca bir kez hesaplamak istediğinizde yararlı olan bir hesaplama zinciri oluşturmayı kapatmanıza olanak tanır.
+Aspose.Cells, formüllerin yalnızca bir kez hesaplanmak istendiğinde yararlı olan bir hesaplama zinciri oluşturmayı kapatmanıza olanak tanır.
 
- Lütfen false parametresiyle Workbook.GetISettings().SetCreateCalcChain() öğesini çağırın. Şunu kullanabilirsiniz:[sağlanan excel dosyası](38109186.xlsx) Bu kodu test etmek için.
+Lütfen Workbook.GetISettings().SetCreateCalcChain() yöntemini false parametre ile çağırın. Bu kodu test etmek için [sunulan excel dosyasını](38109186.xlsx) kullanabilirsiniz.
 
-**Basit kod**
+**Örnek Kod**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-CalculatingFormulasOnceOnly-new.cpp" >}}

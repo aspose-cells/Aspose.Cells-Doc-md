@@ -1,13 +1,14 @@
-﻿---
-title: Riconosci i tag a chiusura automatica
+---
+title: Riconoscere i tag autochiusi
 type: docs
 weight: 50
 url: /it/python-java/recognize-self-closing-tags/
 ---
-HTML può avere una varietà di tag formattati per tag vuoti come \<td>\</td> o \<td/>. Aspose.Cells supporta entrambi questi formati. Questa funzione può essere testata convertendo il file di esempio HTML allegato in un file Excel. Il file di esempio HTML e i file di output possono essere scaricati dai seguenti collegamenti per il test.
 
-[File sorgente](sampleSelfClosingTags.zip)
+HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td/>. Aspose.Cells supports both these formats. This feature can be tested by converting the attached sample HTML file to Excel file. The sample HTML file and output files can be downloaded from the following links for testing.
 
-[File di uscita](106365184.xlsx)
+[File di origine](sampleSelfClosingTags.zip)
+
+[File di output](106365184.xlsx)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-RecognizeSelfClosingTags.py" >}}

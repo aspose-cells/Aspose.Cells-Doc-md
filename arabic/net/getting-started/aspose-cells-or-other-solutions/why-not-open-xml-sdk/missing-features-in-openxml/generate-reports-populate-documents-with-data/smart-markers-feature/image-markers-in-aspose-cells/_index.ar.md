@@ -1,23 +1,24 @@
-﻿---
-title: علامات الصورة في Aspose.Cells
+---
+title: علامات الصور في Aspose.Cells
 type: docs
 weight: 20
 url: /ar/net/image-markers-in-aspose-cells/
 ---
-تدعم العلامات الذكية Aspose.Cells علامات الصور أيضًا. يوضح لك هذا القسم كيفية إدراج الصور باستخدام العلامات الذكية.
-## **معلمات الصورة**
+
+تدعم علامات Aspose.Cells الذكية أيضًا علامات الصور. توفر هذه القسم لك كيفية إدراج الصور باستخدام العلامات الذكية.
+## **معلمات الصور**
 معلمات العلامة الذكية لإدارة الصور.
 
-- **الصورة: FitToCell** - احتواء الصورة تلقائيًا مع ارتفاع صف الخلية وعرض العمود.
-- **الصورة: ScaleN** - مقياس الارتفاع والعرض إلى نسبة N.
-- **الصورة: العرض: Nin & Height: Nin** - جعل الصورة بارتفاع N بوصة وعرض N بوصة. يمكنك أيضا
- حدد المناصب اليسرى والعليا (بالنقاط).
+- **الصورة: تناسب الخلية** - تكييف الصورة تلقائيًا مع ارتفاع الصف وعرض العمود.
+- **الصورة: مقياس N** - تغيير حجم الارتفاع والعرض إلى N في المئة.
+- **الصورة: العرض: ن في والارتفاع: ن** - عرض الصورة بارتفاع يساوي N بوصة وعرض يساوي N بوصة. يمكنك أيضًا تحديد الوضعية اليسرى والعلوية (في النقاط).
+  يمكنك أيضًا تحديد مواضع اليسار والأعلى (بالنقاط).
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the image data.
 
-byte[]imageData = File.ReadAllBytes("Thumbnail.jpg");
+byte[] imageData = File.ReadAllBytes("Thumbnail.jpg");
 
 //Create a datatable.
 
@@ -35,7 +36,7 @@ dc.DataType = typeof(object);
 
 DataRow row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -45,7 +46,7 @@ imageData = File.ReadAllBytes("Desert.jpg");
 
 row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -70,5 +71,5 @@ designer.Process();
 designer.Workbook.Save("out_ImageSmartBook.xls");
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
+## **تحميل رمز عينة**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)

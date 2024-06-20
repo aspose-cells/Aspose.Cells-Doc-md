@@ -1,18 +1,19 @@
 ---
-title: Ein- und Ausblenden von Zeilen und Spalten in PHP
+title: Zeilen und Spalten in PHP ausblenden und anzeigen
 type: docs
 weight: 50
 url: /de/java/hiding-and-showing-rows-and-columns-in-php/
-description: Erfahren Sie, wie Sie Zeilen und Spalten über die APIs Aspose.Cells for PHP via Java ein- und ausblenden.
-keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
+description: Erfahren Sie, wie Sie Zeilen und Spalten über die Aspose.Cells for PHP via Java APIs ausblenden und anzeigen können.
+keywords: Wie man Zeilen und Spalten in PHP ausblendet und anzeigt, Zeilen oder Spalten in PHP ausblenden, PHP Zeilen oder Spalten anzeigen. 
 ---
-##  **Aspose.Cells for PHP – Steuern der Sichtbarkeit von Zeilen und Spalten**
-###  **So verbergen Sie Zeilen und Spalten in PHP**
-Entwickler können eine Zeile oder Spalte ausblenden, indem sie die Methoden HideRow bzw. HideColumn der Sammlung Cells aufrufen. Beide Methoden verwenden den Zeilen-/Spaltenindex als Parameter, um die spezifische Zeile oder Spalte auszublenden.
+
+## **Aspose.Cells for PHP - Steuern der Sichtbarkeit von Zeilen & Spalten**
+### **Wie man in PHP Zeilen und Spalten ausblendet**
+Entwickler können eine Zeile oder Spalte verbergen, indem sie die Methoden HideRow und HideColumn der Cells-Sammlung aufrufen. Beide Methoden nehmen den Zeilen-/Spaltenindex als Parameter, um die spezifische Zeile oder Spalte zu verbergen.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function hide_rows_columns($dataDir)
 
@@ -45,15 +46,15 @@ Entwickler können eine Zeile oder Spalte ausblenden, indem sie die Methoden Hid
 }
 
 {{< /highlight >}}
-###  **So zeigen Sie Zeilen und Spalten mit PHP an**
-Entwickler können jede ausgeblendete Zeile oder Spalte einblenden, indem sie die Methoden UnhideRow bzw. UnhideColumn der Sammlung Cells aufrufen. Beide Methoden benötigen zwei Parameter:
+### **Wie man in PHP Zeilen und Spalten anzeigt**
+Entwickler können eine versteckte Zeile oder Spalte wieder anzeigen, indem sie die Methoden UnhideRow und UnhideColumn der Cells-Sammlung aufrufen. Beide Methoden nehmen zwei Parameter:
 
-- **Zeilen- oder Spaltenindex**– der Index einer Zeile oder Spalte, der zur Anzeige der jeweiligen Zeile oder Spalte verwendet wird.
-- **Zeilenhöhe oder Spaltenbreite**– die Zeilenhöhe oder Spaltenbreite, die der Zeile oder Spalte nach der Anzeige zugewiesen wird.
+- **Zeilen- oder Spaltenindex** - der Index einer Zeile oder Spalte, der verwendet wird, um die spezifische Zeile oder Spalte anzuzeigen.
+- **Zeilenhöhe oder Spaltenbreite** - die Zeilenhöhe oder Spaltenbreite, die der Zeile oder Spalte nach dem Anzeigen zugewiesen wird.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function unhide_rows_columns($dataDir)
 
@@ -86,7 +87,7 @@ Entwickler können jede ausgeblendete Zeile oder Spalte einblenden, indem sie di
 }
 
 {{< /highlight >}}
-##  **Laden Sie Running Code herunter**
- Herunterladen**Steuern der Sichtbarkeit von Zeilen und Spalten (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie die Steuerung der Sichtbarkeit von Zeilen & Spalten (Aspose.Cells) von einer der unten genannten Social-Coding-Sites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

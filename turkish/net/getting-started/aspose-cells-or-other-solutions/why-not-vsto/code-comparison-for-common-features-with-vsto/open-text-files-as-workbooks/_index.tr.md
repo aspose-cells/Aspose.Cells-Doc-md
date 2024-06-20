@@ -1,12 +1,13 @@
-﻿---
-title: Metin Dosyalarını Çalışma Kitabı Olarak Açın
+---
+title: Metin Dosyalarını Çalışma Kitabı Olarak Açma
 type: docs
 weight: 180
 url: /tr/net/open-text-files-as-workbooks/
 ---
-Metin dosyasını Çalışma Kitapları olarak açmak için karşılaştırma kodu örneği aşağıdadır:
+
+Aşağıdaki, metin dosyasını çalışma kitabı olarak açma için karşılaştırmalı kod örneğidir:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
      this.Application.Workbooks.OpenText(@"OpenTextFilesAsWorkbooks.txt",
 
@@ -22,7 +23,7 @@ Metin dosyasını Çalışma Kitapları olarak açmak için karşılaştırma ko
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
     private static string fileName = "OpenTextFilesAsWorkbooks.xlsx";
 
@@ -37,5 +38,5 @@ Metin dosyasını Çalışma Kitapları olarak açmak için karşılaştırma ko
    newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **İndirmek**
+##**İndir**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

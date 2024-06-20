@@ -1,18 +1,19 @@
-﻿---
-title: Agregar conexión de pivote
+---
+title: Agregar conexión de tabla dinámica
 type: docs
 weight: 30
 url: /es/java/add-pivot-connection/
-description: Aprenda a agregar una conexión pivote con la biblioteca Aspose.Cells Java.
-keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Aprenda cómo agregar conexión de tabla dinámica con la biblioteca Aspose.Cells Java.
+keywords: Agregar conexión de tabla dinámica sin office 2013, office 2016, office 2019 y office 365.
 ---
-## **Posibles escenarios de uso**
 
- Si desea asociar la segmentación y la tabla dinámica en Excel, debe hacer clic con el botón derecho en la segmentación y seleccionar el elemento "Informar conexiones...". En la lista de opciones, puede operar en la casilla de verificación. Del mismo modo, si desea asociar la segmentación y la tabla dinámica utilizando Aspose.Cells Java API mediante programación, utilice el[**Slicer.addPivotConnection (pivote de tabla dinámica)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/) método. Asociará la segmentación y la tabla dinámica.
+## **Escenarios de uso posibles**
 
-## **Asociar segmentación de datos y tabla dinámica**
+Si desea asociar un filtro y una tabla dinámica en Excel, debe hacer clic con el botón derecho en el filtro y seleccionar el elemento "Conexiones de informe...". En la lista de opciones, puede operar en la casilla de verificación. Del mismo modo, si desea asociar un filtro y una tabla dinámica utilizando la API de Aspose.Cells Java de forma programática, utilice el método [**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/). Asociará el filtro y la tabla dinámica.
 
-El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](add-pivot-connection.xlsx)que contiene una segmentación existente. Accede a Slicer y luego asocia Slicer y PivotTable. Finalmente, guarda el libro de trabajo como[archivo de salida de Excel](add-pivot-connection-out.xlsx). 
+## **Asociar filtro y tabla dinámica**
+
+El siguiente código de ejemplo carga el [archivo de Excel de ejemplo](add-pivot-connection.xlsx) que contiene un rebanador existente. Accede al Rebanador y luego asocia el Rebanador y la Tabla dinámica. Finalmente, guarda el libro de trabajo como [archivo de Excel de salida](add-pivot-connection-out.xlsx). 
 
 
 ## **Código de muestra**

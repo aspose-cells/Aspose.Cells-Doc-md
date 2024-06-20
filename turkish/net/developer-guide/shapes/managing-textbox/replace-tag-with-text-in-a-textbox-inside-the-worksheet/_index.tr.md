@@ -1,13 +1,14 @@
-﻿---
-title: Etiketi, Çalışma Sayfası içindeki bir metin kutusundaki metinle değiştirin
+---
+title: Çalışsayıdaki bir metin kutusundaki etiketi bir metinle değiştirin.
 type: docs
 weight: 1100
 url: /tr/net/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
 ---
+
 ## **Olası Kullanım Senaryoları**
-Metin kutuları, gereksinime göre yapılandırmak için çalışma zamanında bazı metinlerle değiştirilebilen etiketlere sahip olabilir. Etiketler, köşeli parantez içine alınmış bazı etiketler olabilir '<' and '>. Tek bir metin kutusu içinde birden çok etiket olabilir.
-## **Basit kod**
-Aşağıdaki örnek kod, TAG etiketlerinin yerini alır_1 ve ETİKET_2 bazı metinlerle birlikte 'ys' ve '1' deyin. Aşağıdaki kodu test etmek için örnek dosya aşağıdaki bağlantıdan indirilebilir:
+Text boxes can have tags which can be replaced with some text at run time to configure them according to the requirement. Tags can be some labels enclosed in angle brackets '<' and '>'. There can be multiple tags within a single textbox.
+## **Örnek Kod**
+Aşağıdaki örnek kod TAG_1 ve TAG_2 etiketlerini 'ys' ve '1' olarak değiştirir. Aşağıdaki bağlantıdan bu kod için test amaçlı örnek dosya indirilebilir:
 
 [sampleReplaceTagWithText.xlsx](79527942.xlsx)
 

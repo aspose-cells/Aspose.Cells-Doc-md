@@ -1,16 +1,17 @@
-﻿---
+---
 title: Автоподбор строк и столбцов в Ruby
 type: docs
 weight: 20
 url: /ru/java/autofit-rows-and-columns-in-ruby/
 ---
+
 ## **Aspose.Cells - Автоподбор строк и столбцов**
 ### **Автоподбор строки**
-Самый простой подход к автоматическому изменению ширины и высоты строки — вызвать метод autoFitRow класса Worksheet. Метод autoFitRow принимает в качестве параметра индекс строки (строки, размер которой нужно изменить).
+Самым простым способом автоматического изменения ширины и высоты строки является вызов метода autoFitRow класса Worksheet. Метод autoFitRow принимает индекс строки (столбец для изменения размера) в качестве параметра.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def autofit_row()
 
@@ -46,11 +47,11 @@ url: /ru/java/autofit-rows-and-columns-in-ruby/
 
 {{< /highlight >}}
 ### **Автоподбор столбца**
-Самый простой способ автоматически изменить ширину и высоту столбца — вызвать метод autoFitColumn класса Worksheet. Метод autoFitColumn принимает в качестве параметра индекс столбца (столбца, размер которого должен быть изменен).
+Самым простым способом автоматического изменения ширины и высоты столбца является вызов метода autoFitColumn класса Worksheet. Метод autoFitColumn принимает индекс столбца (столбец, который требуется изменить) в качестве параметра.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def autofit_column()
 
@@ -85,7 +86,7 @@ url: /ru/java/autofit-rows-and-columns-in-ruby/
 end
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Автоподбор строк и столбцов (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Автоподбор строк и столбцов (Aspose.Cells)** с любого из перечисленных ниже сайтов социальной разработки:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

@@ -1,17 +1,18 @@
-﻿---
-title: Удалить пустые строки и столбцы на листе
+---
+title: Удаление пустых строк и столбцов в листе
 type: docs
 weight: 360
 url: /ru/java/delete-blank-rows-and-columns-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Можно удалить все пустые строки и столбцы с рабочего листа. Это полезно, например, при создании файла PDF из файла Excel Microsoft, когда вы хотите преобразовать только строки и столбцы, содержащие данные.
+Можно удалить все пустые строки и столбцы на листе. Это полезно, например, при генерации файла PDF из файла Microsoft Excel, если нужно конвертировать только строки и столбцы, содержащие данные.
 
 Используйте следующие методы Aspose.Cells для удаления пустых строк и столбцов:
 
-1.  Чтобы удалить пустые строки, используйте[Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows\(\)) метод.
-1.  Чтобы удалить пустые столбцы, используйте[Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns\(\)) метод.
+1. Чтобы удалить пустые строки, используйте метод [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows\(\)).
+1. Чтобы удалить пустые столбцы, используйте метод [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns\(\)).
 
 {{% /alert %}} 
 ## **Удаление пустых строк**

@@ -1,23 +1,24 @@
-﻿---
-title: إظهار الفاصلة العليا في الخلايا
+---
+title: إظهار علامة الفتح في الخلايا
 type: docs
 weight: 70
 url: /ar/net/show-leading-apostrophe-in-cells/
 ---
- في Microsoft Excel ، يتم إخفاء الفاصلة العليا في قيمة الخلية. يوفر Aspose.Cells خاصية لعرض الفاصلة العليا بشكل افتراضي. لهذا ، يوفر API[المصنف.الإعدادات](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) خاصية. تشير هذه الخاصية إلى ما إذا كان سيتم تعيين ملف[اقتباس](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)الخاصية عند إدخال قيمة سلسلة تبدأ بعلامة اقتباس واحدة للخلية. وضع[المصنف.الإعدادات](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) ملكية ل**خاطئة**سيعرض الفاصلة العليا في ملف Excel الناتج.
 
-تُظهر لقطة الشاشة التالية ملف Excel الناتج مع الفاصلة العليا المرئية.
+في Microsoft Excel، تكون علامة الفتح الأولى في قيمة الخلية مخفية. توفر Aspose.Cells ميزة عرض علامة الفتح افتراضيًا. لهذا الغرض، يوفر الواجهة البرمجية الخاصية [Workbook.Settings.QuotePrefixToStyle](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle). تشير هذه الخاصية ما إذا كان تعيين الخاصية [QuotePrefix](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) عند إدخال قيمة السلسلة التي تبدأ بعلامة اقتباس واحدة إلى الخلية. تعيين الخاصية [Workbook.Settings.QuotePrefixToStyle](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) إلى **false** سيعرض علامة الفتح الأولى في ملف الإكسل الناتج.
 
-![ما يجب القيام به: image_بديل_نص](show-leading-apostrophe-in-cells_1.jpg)
+الصورة الملتقطة التالية تُظهر ملف إكسل الناتج مع علامة الفتح المرئية.
 
-يوضح مقتطف الكود التالي هذا عن طريق إضافة البيانات باستخدام Smart Markers في ملف Excel المصدر. يتم إرفاق ملفات إكسل المصدر والمخرجات كمرجع.
+![todo:image_alt_text](show-leading-apostrophe-in-cells_1.jpg)
 
-[مصدر الملف](98107425.xlsx)
+الكود المقتطف التالي يظهر هذا عن طريق إضافة البيانات بواسطة العلامات الذكية في ملف إكسل المصدر. يتم إرفاق ملفات إكسل المصدر والإخراج للرجوع إليها.
 
-[ملف إلاخراج](98107426.xlsx)
-## **عينة من الرموز**
+[ملف المصدر](98107425.xlsx)
+
+[ملف الإخراج](98107426.xlsx)
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-1.cs" >}}
 
-تنفيذ*DataObject*يتم إعطاء فئة أدناه
+يتم تقديم تنفيذ فئة *DataObject* تحت:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AllowLeadingApostrophe-2.cs" >}}

@@ -1,19 +1,20 @@
-﻿---
+---
 title: Вырезать и вставить диапазоны
 type: docs
 weight: 150
 url: /ru/java/cut-and-paste-cells/
 ---
-## **Вырезать и вставить Cells**
 
-Aspose.Cells предоставляет вам возможность вырезать и вставлять ячейки на листе с помощью[**вставкаCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) метод[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)коллекция.[**вставкаCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) принимает следующие параметры.
+## **Вырезать и вставить ячейки**
 
-- [**Спектр**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)Диапазон ячеек, которые нужно вырезать.
-- Индекс строки: индекс строки для вставки ячеек.
-- Индекс столбца: индекс столбца для вставки ячеек.
+Aspose.Cells предоставляет возможность вырезать и вставить ячейки в рабочем листе, используя метод коллекции [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)). Метод [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) принимает следующие параметры.
+
+- [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range): Диапазон ячеек для вырезания.
+- Индекс строки: Индекс строки для вставки ячеек.
+- Индекс столбца: Индекс столбца для вставки ячеек.
 - [**ShiftType**](https://reference.aspose.com/cells/java/com.aspose.cells/ShiftType): Направление сдвига столбцов.
 
-В следующем примере показано, как вырезать и вставлять ячейки на листе.
+В следующем примере показано, как вырезать и вставить ячейки в пределах рабочего листа.
 
 ## Образец кода
 

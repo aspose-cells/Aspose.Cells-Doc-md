@@ -1,77 +1,78 @@
-﻿---
-title: Hinzufügen neuer Arbeitsblätter zur Arbeitsmappe und Aktivieren eines Blatts
+---
+title: Hinzufügen neuer Arbeitsblätter zu der Arbeitsmappe und Aktivieren eines Blatts
 type: docs
 weight: 10
 url: /de/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Beim Arbeiten mit einer Vorlagendatei müssen manchmal zusätzliche Arbeitsblätter zur Arbeitsmappe hinzugefügt werden, um Daten zu sammeln. Die neuen Zellen werden an bestimmten Positionen und Positionen in jedem Arbeitsblatt mit Daten gefüllt.
+Beim Arbeiten mit einer Vorlagendatei besteht manchmal die Notwendigkeit, zusätzliche Arbeitsblätter in die Arbeitsmappe aufzunehmen, um Daten zu erfassen. Die neuen Zellen werden an spezifischen Positionen und Orten in jedem Arbeitsblatt mit Daten gefüllt.
 
-Ebenso muss möglicherweise ein bestimmtes Arbeitsblatt aktiv sein und zuerst angezeigt werden, wenn die Datei in Microsoft Excel geöffnet wird. Ein "aktives Blatt" ist das Blatt, an dem Sie in einer Arbeitsmappe arbeiten. Der Name auf der Registerkarte des aktiven Blatts ist standardmäßig fett.
+Ähnlich kann es erforderlich sein, ein bestimmtes Arbeitsblatt aktiv und als erstes sichtbar zu haben, wenn die Datei in Microsoft Excel geöffnet wird. Ein „aktives Blatt“ ist das Blatt, an dem Sie in einer Arbeitsmappe arbeiten. Der Name auf dem Register des aktiven Blatts ist standardmäßig fett gedruckt.
 
- Das Hinzufügen von Arbeitsblättern und das Festlegen, welches Blatt aktiv ist, sind häufige und einfache Aufgaben, die Entwickler wissen müssen, wie sie auszuführen sind. In diesem Artikel führen wir diese Aufgaben mit aus[VSTO](/cells/de/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) und[Aspose.Cells for .NET](/cells/de/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
+Das Hinzufügen von Arbeitsblättern und das Festlegen, welches Blatt aktiv ist, sind häufige und einfache Aufgaben, die Entwickler beherrschen sollten. In diesem Artikel führen wir diese Aufgaben mithilfe von [VSTO](/cells/de/net/neue-arbeitsblaetter-zu-arbeitsmappe-hinzufuegen-und-ein-blatt-aktivieren/) und [Aspose.Cells for .NET](/cells/de/net/neue-arbeitsblaetter-zu-arbeitsmappe-hinzufuegen-und-ein-blatt-aktivieren/) durch.
 
 {{% /alert %}} 
-## **Arbeitsblätter hinzufügen und ein Blatt aktivieren**
-Für die Zwecke dieses Migrationstipps:
+## **Hinzufügen von Arbeitsblättern und Aktivieren eines Blatts**
+Für diesen Migrationshinweis:
 
-1. Fügen Sie neue Arbeitsblätter zu einer bestehenden Microsoft Excel-Datei hinzu.
+1. Fügen Sie neuen Arbeitsblätter zu einer vorhandenen Microsoft Excel-Datei hinzu.
 1. Füllen Sie Daten in die Zellen jedes neuen Arbeitsblatts ein.
-1. Aktivieren Sie ein Blatt in der Arbeitsmappe.
-1. Als Microsoft Excel-Datei speichern.
+1. Aktivieren Sie ein Blatt im Arbeitsbuch.
+1. Speichern Sie die Datei als Microsoft Excel-Datei.
 
-Nachfolgend finden Sie parallele Codeausschnitte für VSTO (C#, VB) und Aspose.Cells for .NET (C#, VB), die zeigen, wie diese Aufgaben ausgeführt werden.
+Nachfolgend finden Sie parallele Codeausschnitte für VSTO (C#, VB) und Aspose.Cells for .NET (C#, VB), die zeigen, wie diese Aufgaben ausgeführt werden können.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-mit Microsoft.VisualStudio.Tools.Applications.Runtime;
+using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
-mit Excel = Microsoft.Office.Interop.Excel;
+using Excel = Microsoft.Office.Interop.Excel;
 
-mit Office = Microsoft.Office.Core;
+using Office = Microsoft.Office.Core;
 
-mit System.Reflection;
+using System.Reflection;
 
 .......
 
-//Anwendungsobjekt instanziieren.
+//Instantiate the Application object.
 
 Excel.Application excelApp = new Excel.ApplicationClass();
 
-//Geben Sie den Excel-Dateipfad der Vorlage an.
+//Specify the template excel file path.
 
 string myPath = @"d:\test\My_Book1.xls";
 
-//Excel-Datei öffnen.
+//Open the excel file.
 
-excelApp.Workbooks.Open(myPath, Fehlender.Wert, Fehlender.Wert,
+excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert,
+Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert,
+Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert,
+Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert,
+Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert,
+Missing.Value, Missing.Value,
 
-Fehlender.Wert, Fehlender.Wert);
+Missing.Value, Missing.Value);
 
-//Ein Worksheet-Objekt deklarieren.
+//Declare a Worksheet object.
 
 Excel.Worksheet newWorksheet;
 
-// Fügen Sie der Arbeitsmappe 5 neue Arbeitsblätter hinzu und füllen Sie einige Daten aus
+//Add 5 new worksheets to the workbook and fill some data
 
-//in die Zellen.
+//into the cells.
 
- für (int i = 1; i< 6; i++)
+for (int i = 1; i < 6; i++)
 
 {
 
@@ -111,7 +112,7 @@ excelApp.Quit();
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -185,41 +186,41 @@ excelApp.Quit()
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-mit Aspose.Cells;
+using Aspose.Cells;
 
 .......
 
-//Instanziieren Sie eine Lizenzinstanz und legen Sie die Lizenzdatei fest
+//Instantiate an instance of license and set the license file
 
-//durch seinen Weg
+//through its path
 
-Aspose.Cells.License Lizenz = neu Aspose.Cells.License();
+Aspose.Cells.License license = new Aspose.Cells.License();
 
-lizenz.SetLicense("Aspose.Cells.lic");
+license.SetLicense("Aspose.Cells.lic");
 
-//Geben Sie den Excel-Dateipfad der Vorlage an.
+//Specify the template excel file path.
 
 string myPath =@"d:\test\My_Book1.xls";
 
-// Instanziiere eine neue Arbeitsmappe.
+//Instantiate a new Workbook.
 
-//Excel-Datei öffnen.
+//Open the excel file.
 
-Arbeitsmappe Arbeitsmappe = neue Arbeitsmappe (myPath);
+Workbook workbook = new Workbook(myPath);
 
-//Ein Worksheet-Objekt deklarieren.
+//Declare a Worksheet object.
 
-Arbeitsblatt neuesArbeitsblatt;
+Worksheet newWorksheet;
 
-// Fügen Sie der Arbeitsmappe 5 neue Arbeitsblätter hinzu und füllen Sie einige Daten aus
+//Add 5 new worksheets to the workbook and fill some data
 
-//in die Zellen.
+//into the cells.
 
- für (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -255,7 +256,7 @@ workbook.Save(@"d:\test\out_My_Book1.xls");
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

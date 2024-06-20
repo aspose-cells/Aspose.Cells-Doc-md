@@ -1,15 +1,16 @@
-﻿---
-title: Slå samman Cells
+---
+title: Sammanfoga celler
 type: docs
 weight: 60
 url: /sv/java/merge-cells/
 ---
-## **Aspose.Cells - Sammanfoga Cells**
-Klassen Cells har några användbara metoder för uppgiften. Till exempel slår sammanslagningsmetoden samman cellerna till en enda cell inom ett specificerat cellintervall.
+
+## **Aspose.Cells - Sammanfoga celler**
+Cells-klassen har några användbara metoder för uppgiften. Till exempel sammanfogar merge-metoden cellerna till en enda cell inom ett angivet intervall av celler.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a Workbook.
 
@@ -36,12 +37,12 @@ worksheet.getCells().get(5,2).setValue("This is a test of merging");
 wbk.save(dataDir + "merge_Aspose.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Merge Cells**
-Sheet.addMergedRegion kan användas för att slå samman Cells.
+## **Apache POI SS - HSSF XSSF - Sammanfoga celler**
+Sheet.addMergedRegion kan användas för att sammanfoga celler.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -66,13 +67,13 @@ sheet.addMergedRegion(new CellRangeAddress(
 ));
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/mergecells)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Sammanfogning och upplösning (delning) Cells](/cells/sv/java/merging-and-unmerging-cells).
+För mer information, besök [Sammanfoga och dela upp (splittra) celler](/cells/sv/java/merging-and-unmerging-cells).
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
-﻿---
-title: Base di conoscenza dell'editor di fogli di calcolo
+---
+title: Base di Conoscenza dell Editor di Fogli di Calcolo
 type: docs
 weight: 30
 url: /it/java/spreadsheet-editor-knowledge-base/
 ---
-## **Incorpora l'editor di fogli di calcolo HTML5 ovunque**
 
-HTML5 Spreadsheet Editor può essere incorporato in qualsiasi sito Web, blog e forum per condividere fogli di calcolo su Internet. Può essere incorporato come editor autonomo oppure è possibile caricarlo con un file di foglio di calcolo.
+## **Incorpora l'Editor di Fogli di Calcolo HTML5 ovunque**
+
+L'Editor di Fogli di Calcolo HTML5 può essere incorporato in qualsiasi sito web, blog e forum per condividere fogli di calcolo su Internet. Può essere incorporato come editor autonomo o puoi caricarlo con un file di foglio di calcolo.
 
 **Incorpora come editor autonomo**
 
-Per incorporare come editor autonomo, utilizzare il tag IFRAME HTML da aggiungere al sito web. Per esempio:
+Per incorporare come editor autonomo, utilizzare il tag HTML IFRAME da aggiungere al sito web. Per esempio:
 
-{{< highlight "html" >}}
+{{< highlight html >}}
 
  <iframe src="http://spreadsheet-editor.aspose.com/" width="800" height="600">
 
@@ -24,9 +25,9 @@ Per incorporare come editor autonomo, utilizzare il tag IFRAME HTML da aggiunger
 
 **Incorpora con un foglio di calcolo**
 
- Per caricare un foglio di calcolo in un editor incorporato**URL** parametro. Per esempio:
+Per caricare un foglio di calcolo in un editor incorporato **url** parametro. Per esempio:
 
-{{< highlight "html" >}}
+{{< highlight html >}}
 
  <iframe src="http://spreadsheet-editor.aspose.com/?url=http://example.com/Sample.xlsx" width="800" height="600">
 

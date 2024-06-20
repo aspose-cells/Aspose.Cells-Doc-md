@@ -1,15 +1,16 @@
-﻿---
-title: انسخ ارتفاعات الصفوف من نطاق المصدر إلى نطاق الوجهة
+---
+title: نسخ ارتفاعات الصف من النطاق المصدر إلى النطاق الوجهة
 type: docs
 weight: 250
 url: /ar/java/copy-row-heights-of-source-range-to-destination-range/
 ---
+
 {{% alert color="primary" %}} 
 
- في وقت ما يحتاج المستخدم إلى نسخ ارتفاعات الصفوف من نطاق المصدر إلى نطاق الوجهة. يوفر Aspose.Cells[لصق النوع. ROW_HEIGHTS](https://reference.aspose.com/cells/java/com.aspose.cells/pastetype#ROW_HEIGHTS) تعداد لهذا الغرض. عندما تقوم بتعيين[PasteOptions.setPasteType ()](https://reference.aspose.com/cells/java/com.aspose.cells/pasteoptions#PasteType) الملكية مع[لصق النوع. ROW_HEIGHTS](https://reference.aspose.com/cells/java/com.aspose.cells/pastetype#ROW_HEIGHTS) تعداد ثم سيتم نسخ ارتفاعات جميع الصفوف داخل نطاق المصدر إلى النطاق الوجهة.
+في بعض الأحيان يحتاج المستخدم إلى نسخ ارتفاعات الصف من النطاق المصدر إلى النطاق الوجهة. توفر Aspose.Cells مؤشر [PasteType.ROW_HEIGHTS](https://reference.aspose.com/cells/java/com.aspose.cells/pastetype#ROW_HEIGHTS) لهذا الغرض. عندما تقوم بتعيين [PasteOptions.setPasteType()](https://reference.aspose.com/cells/java/com.aspose.cells/pasteoptions#PasteType) بخصائص [PasteType.ROW_HEIGHTS](https://reference.aspose.com/cells/java/com.aspose.cells/pastetype#ROW_HEIGHTS)، سيتم نسخ ارتفاعات كل الصفوف داخل النطاق المصدر إلى النطاق الوجهة.
 
 {{% /alert %}} 
-## **انسخ ارتفاعات الصفوف من نطاق المصدر إلى نطاق الوجهة**
- يوضح نموذج التعليمات البرمجية التالي كيفية الاستخدام[لصق النوع. ROW_HEIGHTS](https://reference.aspose.com/cells/java/com.aspose.cells/pastetype#ROW_HEIGHTS)تعداد لنسخ ارتفاعات الصفوف من نطاق المصدر إلى نطاق الوجهة. بمجرد فتح ملف Excel الناتج الذي تم إنشاؤه بواسطة هذا الرمز في Microsoft Excel ، سترى أن ارتفاعات صف نطاق الوجهة هي نفسها تمامًا ارتفاعات صف نطاق المصدر.
+## **نسخ أطوال الصفوف من النطاق المصدر إلى النطاق الهدف**
+يشرح الكود العيني التالي كيفية استخدام مؤشر [PasteType.ROW_HEIGHTS](https://reference.aspose.com/cells/java/com.aspose.cells/pastetype#ROW_HEIGHTS) لنسخ ارتفاعات الصف من النطاق المصدر إلى النطاق الوجهة. عند فتح ملف إكسل المخرج الذي تم إنشاؤه بواسطة هذا الكود في Microsoft Excel، ستلاحظ أن ارتفاعات الصفوف في النطاق الوجهة تطابق تمامًا ارتفاعات الصفوف في النطاق المصدر.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyRowHeights-CopyRowHeights.java" >}}

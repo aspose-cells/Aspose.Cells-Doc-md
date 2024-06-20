@@ -1,15 +1,16 @@
-﻿---
+---
 title: Предварительный просмотр разрыва страницы в Php
 type: docs
 weight: 60
 url: /ru/java/page-break-preview-in-php/
 ---
+
 ## **Aspose.Cells - Предварительный просмотр разрыва страницы**
- Чтобы настроить рабочий лист для предварительного просмотра разрыва страницы, используя**Aspose.Cells Java for PHP** , просто вызовите**PageBreakПредварительный просмотр** модуль.
+Чтобы установить лист на предварительный просмотр разрыва страницы с помощью **Aspose.Cells Java для PHP**, просто вызовите модуль **PageBreakPreview**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -30,7 +31,7 @@ $worksheet->setPageBreakPreview(true);
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Предварительный просмотр разрыва страницы (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **Предварительный просмотр разрыва страницы (Aspose.Cells)** с любого из нижеуказанных сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/PageBreakPreview.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/PageBreakPreview.php)

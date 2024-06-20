@@ -1,18 +1,19 @@
-﻿---
-title: Exportera dokumentarbetsbok och kalkylbladsegenskaper i Excel till HTML konvertering
+---
+title: Exportera dokumentarbetsbok och arbetsbladsegenskaper i Excel till HTML omvandling
 type: docs
 weight: 50
 url: /sv/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/
 ---
-## **Möjliga användningsscenarier**
 
-När Microsoft Excel-fil exporteras till HTML med Microsoft Excel eller Aspose.Cells, exporterar den också olika typer av dokument-, arbetsbok- och kalkylbladsegenskaper som visas i följande skärmdump. Du kan undvika att exportera dessa egenskaper genom att ställa in[**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportDocumentProperties), [**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportWorkbookProperties)och[**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportWorksheetProperties)som**falsk**. Standardvärdet för dessa egenskaper är**Sann**. Följande skärmdump visar hur dessa egenskaper ser ut i exporterade HTML.
+## **Möjliga användningsscenario**
+
+När Microsoft Excel-fil exporteras till HTML med hjälp av Microsoft Excel eller Aspose.Cells, exporteras också olika typer av dokument-, arbetsboks- och arbetsbladsegenskaper enligt följande skärmbild. Du kan undvika att exportera dessa egenskaper genom att ställa in [**HtmlSaveOptions.ExportDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportDocumentProperties), [**HtmlSaveOptions.ExportWorkbookProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportWorkbookProperties) och [**HtmlSaveOptions.ExportWorksheetProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportWorksheetProperties) som **falska**. Standardvärdet för dessa egenskaper är **sant**. Följande skärmbild visar hur dessa egenskaper ser ut i den exporterade HTML-filen.
 
 ![todo:image_alt_text](export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion_1.png)
 
-## **Exportera dokument, arbetsbok och kalkylbladsegenskaper i Excel till HTML konvertering**
+## **Exportera dokument-, arbetsboks- och arbetsbladsegenskaper i Excel till HTML-omvandling**
 
-Följande exempelkod laddar[exempel på Excel-fil](61767784.xlsx)och konverterar den till HTML och exporterar inte egenskaperna Dokument, Arbetsbok och Arbetsblad i[utgång HTML](61767783.zip).
+Följande provkod laddar [provexelfilen](61767784.xlsx) och konverterar den till HTML och exporterar inte dokument-, arbetsboks- och arbetsbladsegenskaper i [utdata-HTML](61767783.zip).
 
 ## **Exempelkod**
 

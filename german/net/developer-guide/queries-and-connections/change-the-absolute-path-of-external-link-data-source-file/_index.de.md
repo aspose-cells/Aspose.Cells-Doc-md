@@ -1,20 +1,21 @@
-﻿---
-title: Ändern Sie den absoluten Pfad der externen Link-Datenquelldatei
+---
+title: Ändern des absoluten Pfads der externen Link Datenquellendatei
 type: docs
 weight: 290
 url: /de/net/change-the-absolute-path-of-external-link-data-source-file/
 ---
-## Mögliche Nutzungsszenarien
 
- Wenn Sie den absoluten Pfad der Datenquellendatei des externen Links ändern möchten, verwenden Sie bitte die[**Arbeitsmappe.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)Eigentum. Anfänglich wird diese Eigenschaft auf den Pfad gesetzt, aus dem die Excel-Datei geladen wurde. Sie können es jedoch auf eine leere Zeichenfolge oder auf einen lokalen Ordnerpfad oder einen Remote-Netzwerkpfad festlegen. Immer wenn Sie diese Eigenschaft ändern, wird auch der Pfad der externen Link-Datenquelldatei geändert.
+## Mögliche Anwendungsszenarien
 
-## Ändern Sie den absoluten Pfad der externen Link-Datenquelldatei
+Wenn Sie den absoluten Pfad der externen Verknüpfungsdatenquelle ändern möchten, verwenden Sie bitte die [**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)-Eigenschaft. Diese Eigenschaft wird ursprünglich auf den Pfad eingestellt, von dem aus die Excel-Datei geladen wurde. Sie können sie jedoch auf einen leeren String setzen oder auf einen lokalen Ordnerpfad oder Netzwerkpfad. Wenn Sie diese Eigenschaft ändern, wird auch der Pfad der externen Verknüpfungsdatenquelle geändert.
 
- Der folgende Beispielcode lädt die[Excel-Beispieldatei](5115146.xlsx) die einen externen Link enthält. Es druckt zuerst die externe Link-Datenquelle, die den entfernten Pfad druckt. Dann entfernt es den Remote-Pfad und druckt erneut, dieses Mal druckt es die externe Link-Datenquelle mit dem lokalen Pfad. Dann ändert sich das[**Arbeitsmappe.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)-Eigenschaft in einen lokalen und einen Remote-Pfad und druckt die Datenquelle des externen Links erneut, und die Änderungen werden in der Konsolenausgabe widergespiegelt.
+## Ändern Sie den absoluten Pfad der externen Verknüpfungsdatenquelle
 
-Hier ist die Konsolen- oder Debug-Ausgabe nach der Ausführung des obigen Beispielcodes mit der[Excel-Beispieldatei](5115146.xlsx).
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](5115146.xlsx), die eine externe Verknüpfung enthält. Zuerst wird die externe Verknüpfungsdatenquelle gedruckt, die den entfernten Pfad angibt. Dann wird der entfernte Pfad entfernt und erneut gedruckt, dieses Mal wird die externe Verknüpfungsdatenquelle mit dem lokalen Pfad gedruckt. Dann wird die [**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)-Eigenschaft auf einen lokalen und entfernten Pfad geändert und die externe Verknüpfungsdatenquelle erneut gedruckt, und die Änderungen werden in der Konsolenausgabe widergespiegelt.
 
-{{< highlight "java" >}}
+Hier ist die Konsolen- oder Debug-Ausgabe nach der Ausführung des obigen Beispielcodes mit der [Beispiel-Excel-Datei](5115146.xlsx).
+
+{{< highlight java >}}
 
 External Link Data Source: http:\\ws874dmErit\WebFiles\Files\300\ExternalAccounts.xlsx
 

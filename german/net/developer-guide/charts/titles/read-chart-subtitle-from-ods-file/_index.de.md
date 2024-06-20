@@ -1,22 +1,23 @@
 ---
-title: Lesen Sie den Untertitel des Diagramms aus der Datei ODS
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET den Diagrammuntertitel aus einer OpenDocument Spreadsheet-Datei (ODS) lesen. Unser Leitfaden zeigt, wie Sie den Untertitel eines Diagramms extrahieren und darauf zugreifen, um ihn weiter zu analysieren oder anzuzeigen.
-keywords: Aspose.Cells for .NET, Read Chart Subtitle, OpenDocument Spreadsheet, ODS File, Chart Extraction, Data Analysis.
+title: Lese Diagramm Untertitel aus ODS Datei
+description: Erfahren Sie, wie Sie Aspose.Cells for .NET verwenden, um den Diagramm Untertitel aus einer OpenDocument Spreadsheet (ODS) Datei zu lesen. Unser Leitfaden wird zeigen, wie man den Untertitel eines Diagramms extrahiert und darauf zugreift, um ihn weiter zu analysieren oder anzuzeigen.
+keywords: Aspose.Cells for .NET, Diagramm Untertitel lesen, OpenDocument Spreadsheet, ODS Datei, Diagrammauswertung, Datenanalyse.
 type: docs
 weight: 160
 url: /de/net/read-chart-subtitle-from-ods-file/
 ---
-##  **Lesen Sie den Untertitel des Diagramms aus der Datei ODS**
 
-Aspose.Cells bietet Ihnen die Möglichkeit, Diagrammuntertitel in ODS-Dateien mithilfe von zu lesen[**Diagramm.Untertitel**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) Eigentum. Der folgende Beispielcode lädt die[Beispieldatei ODS](89620481.ods) und liest den Diagrammuntertitel mit[**Diagramm.Untertitel**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) Eigenschaft und druckt sie im Konsolenfenster aus. Als Referenz sehen Sie sich bitte die Konsolenausgabe des unten angegebenen Codes an.
+## **Diagramm-Untertitel aus ODS-Datei lesen**
 
-##  **Beispielcode**
+Aspose.Cells bietet Ihnen die Möglichkeit, Diagramm-Untertitel in ODS-Dateien mit der Eigenschaft [**Chart.SubTitle**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) zu lesen. Im folgenden Beispielcode wird die [Beispiel ODS-Datei](89620481.ods) geladen, der Diagramm-Untertitel mit der Eigenschaft [**Chart.SubTitle**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) gelesen und im Konsolenfenster ausgegeben. Bitte beachten Sie die Konsolenausgabe des untenstehenden Codes als Referenz.
+
+## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-GetChartSubTitleForODSFile-1.cs" >}}
 
-##  **Konsolenausgabe**
+## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Chart Subtitle: Sample Chart Subtitle
 

@@ -1,15 +1,16 @@
-﻿---
-title: Agregar imágenes en la hoja de trabajo
+---
+title: Agregar imágenes en la hoja de cálculo
 type: docs
 weight: 20
 url: /es/java/add-images-in-worksheet/
 ---
-## **Aspose.Cells - Agregar imágenes en la hoja de trabajo**
-La clase de imagen está disponible para tratar con imágenes en la hoja de trabajo
+
+## **Aspose.Cells - Agregar imágenes en la hoja de cálculo**
+La clase Picture está disponible para manejar imágenes en la hoja de trabajo
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the first worksheet
 
@@ -42,17 +43,17 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - Agregar imágenes en la hoja de trabajo**
-La clase de imagen está disponible para tratar con imágenes en la hoja de trabajo
+La clase Picture está disponible para manejar imágenes en la hoja de trabajo
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //add picture data to this workbook.
 
 InputStream is = new FileInputStream(dataDir + "aspose.jpg");
 
-byte[]bytes = IOUtils.toByteArray(is);
+byte[] bytes = IOUtils.toByteArray(is);
 
 int pictureIdx = wb.addPicture(bytes, Workbook.PICTURE_TYPE_JPEG);
 
@@ -87,13 +88,13 @@ Picture pict = drawing.createPicture(anchor, pictureIdx);
 pict.resize();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/addimages)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Agregar hipervínculos de imagen](/java/add-image-hyperlinks).
+Para más detalles, visita [Agregar Hipervínculos de Imagen](/java/add-image-hyperlinks).
 
 {{% /alert %}}

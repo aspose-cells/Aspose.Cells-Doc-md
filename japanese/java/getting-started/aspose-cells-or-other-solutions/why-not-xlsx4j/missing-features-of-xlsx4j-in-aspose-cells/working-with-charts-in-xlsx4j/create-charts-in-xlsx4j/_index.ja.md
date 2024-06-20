@@ -1,15 +1,16 @@
-﻿---
+---
 title: xlsx4j でチャートを作成する
 type: docs
 weight: 20
 url: /ja/java/create-charts-in-xlsx4j/
 ---
-## **Aspose.Cells - チャートの作成**
-Aspose.Cells を使用して、さまざまなチャートをスプレッドシートに追加することができます。Aspose.Cells は、多くの柔軟なチャート オブジェクトを提供します。
+
+## **Aspose.Cells - チャートを作成**
+Aspose.Cells を使用してスプレッドシートにさまざまな種類のグラフを追加することができます。Aspose.Cells には多くの柔軟なグラフオブジェクトが提供されています。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -68,7 +69,7 @@ serieses.add("A1:B3", true);
 workbook.save(dataDir + "Chart_Aspose.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/charts/createcharts/AsposeCreateCharts.java)

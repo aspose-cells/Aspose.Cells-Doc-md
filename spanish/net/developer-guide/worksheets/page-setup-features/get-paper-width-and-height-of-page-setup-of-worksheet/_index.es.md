@@ -1,28 +1,29 @@
 ---
-title: Obtenga el ancho y el alto del papel de la configuración de página de la hoja de trabajo
+title: Obtener el ancho y alto del papel del Diseño de página de la hoja de cálculo
 type: docs
 weight: 50
 url: /es/net/get-paper-width-and-height-of-page-setup-of-worksheet/
-description: Descubrirá en este artículo cómo obtener el ancho y la altura del papel de la configuración de página de la hoja de cálculo de Excel usando el código C# mediante programación con .NET API o Biblioteca.
-keywords: excel page setup paper width c#, excel page setup paper height c#
+description: Descubrirás en este artículo cómo obtener el Ancho de papel y la Altura de papel del Diseño de página de la hoja de cálculo de Excel utilizando código C# de forma programática con la API o biblioteca .NET.
+keywords: ancho de papel de la configuración de página de excel c#, altura de papel de la configuración de página de excel c#
 ---
-##  **Posibles escenarios de uso**
 
-A veces, necesita saber el ancho y el alto del tamaño del papel tal como se configuró en la configuración de página de la hoja de trabajo. Por favor use el[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)y[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)propiedades para este fin.
+## **Escenarios de uso posibles**
 
-##  **Obtenga el ancho y el alto del papel de la configuración de página de la hoja de trabajo**
+A veces, es necesario conocer el ancho y alto del tamaño de papel tal como se ha establecido en la configuración de página de la hoja de cálculo. Por favor, utiliza las propiedades [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) y [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) para este propósito.
 
- El siguiente código de ejemplo explica el uso de[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) y[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) propiedades. Primero cambia el tamaño del papel a*A2*y luego encuentra el ancho y la altura del papel, luego lo cambia a*A3*, *A4*, *Carta*encuentra el ancho y la altura del papel respectivamente.
+## **Obtener el ancho y alto del papel del diseño de página de la hoja de cálculo**
 
-###  **Código de muestra**
+El siguiente código de muestra explica el uso de las propiedades [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) y [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight). Primero cambia el tamaño de papel a *A2* y luego encuentra el ancho y alto del papel, luego lo cambia a *A3*, *A4*, *Carta* y encuentra respectivamente el ancho y alto del papel.
+
+### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-GetPageDimensions.cs" >}}
 
-###  **Salida de consola**
+### **Salida de la consola**
 
-Aquí está la salida de la consola del código de muestra anterior.
+Aquí está la salida en consola del código de muestra anterior.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 PaperA2: 16.54x23.39
 

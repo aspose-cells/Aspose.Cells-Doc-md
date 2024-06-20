@@ -1,24 +1,25 @@
 ---
-title: İstemci Tarafındaki GridWeb hücrelerinin değerlerini okuyun
+title: GridWeb hücrelerinin değerlerini Client Side da okuyun
 type: docs
 weight: 10
 url: /tr/java/read-the-values-of-the-gridweb-cells-on-client-side/
 ---
-##  **Olası Kullanım Senaryoları**
-GridWeb hücrelerinin değerlerini, gridwebinstance.getCellsArray() yöntemini kullanarak istemci tarafındaki komut dosyasında okuyabilirsiniz. Bir kez onu çağırdığınızda, aktif çalışma sayfasındaki tüm hücrelerin dizisini döndürecektir. Daha sonra hücrelerin değerini ve diğer bilgilerini almak için aşağıdaki yöntemleri kullanabilirsiniz.
+
+## **Olası Kullanım Senaryoları**
+GridWeb hücrelerinin değerlerini client side script kullanarak gridwebinstance.getCellsArray() yöntemini kullanarak okuyabilirsiniz. Bu yöntemi çağırdığınızda, etkin çalışma sayfasındaki tüm hücrelerin dizisini döndürecektir. Ardından, hücrelerin değeri ve diğer bilgilerini almak için aşağıdaki yöntemleri kullanabilirsiniz.
 
 - gridwebinstance.getCellName()
 - gridwebinstance.getCellValueByCell()
 - gridwebinstance.getCellRow()
 - gridwebinstance.getCellColumn()
-##  **İstemci Tarafındaki GridWeb hücrelerinin değerlerini okuyun**
-Aşağıdaki örnek kod tüm hücreleri alır ve ardından adlarını, değerlerini, satırlarını ve sütunlarını yazdırır. Konsol çıktısını bu makalenin alt kısmında görebilirsiniz. Aşağıdaki ekran görüntüsü Google Chrome'daki örnek kodun konsol çıktısını göstermektedir.
-##  **Ekran görüntüsü**
-![yapılacak şey:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+## **GridWeb hücrelerinin değerlerini Client Side'da okuyun**
+Aşağıdaki örnek kod tüm hücreleri alır ve ardından adlarını, değerlerini, satır ve sütunlarını yazdırır. Örnek kodun Google Chrome'da konsol çıktısını bu makalenin alt kısmında görebilirsiniz. Aşağıdaki ekran görüntüsü örnek kodunun Google Chrome'da konsol çıktısını göstermektedir.
+## **Ekran Görüntüsü**
+![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
 
-##  **Basit kod**
-{{< highlight "java" >}}
+## **Örnek Kod**
+{{< highlight java >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
 
@@ -125,10 +126,10 @@ out.print(gridweb.getHTMLBody());
 </html>
 
 {{< /highlight >}}
-##  **Konsol Çıkışı**
-Bu yukarıdaki örnek kodun konsol çıktısıdır.
+## **Konsol Çıktısı**
+Yukarıdaki örnek kodun konsol çıktısı budur.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0:A1,value is:This ,row:0,col:0
 

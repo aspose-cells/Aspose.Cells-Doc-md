@@ -1,27 +1,28 @@
-﻿---
-title: Skapa vattenfallsdiagram
+---
+title: Skapar vattenfallstabell
 type: docs
 weight: 140
 url: /sv/java/creating-waterfall-chart/
-description: Skapa vattenfallsdiagram i Excel med Java och Aspose.Cells for Java API.
-keywords: java create waterfall chart in excel, java creating waterfall chart in excel, creating waterfall chart in excel with java, create waterfall chart in excel with java, create waterfall chart in excel java, create waterfall chart excel java, create waterfall chart in excel programmatically, how to create waterfall chart in excel with java
+description: Skapa vattenfallstabeller i Excel med Java och Aspose.Cells for Java API.
+keywords: java skapa vattenfallstabell i excel, java skapar vattenfallstabell i excel, skapar vattenfallstabell i excel med java, skapa vattenfallstabell i excel med java, skapa vattenfallstabell i excel java, skapa vattenfallstabell excel java, skapa vattenfallstabell i excel programmatiskt, hur man skapar vattenfallstabell i excel med java
 ---
+
 {{% alert color="primary" %}}
 
-Ett vattenfallsdiagram är en speciell typ av sjökort som normalt används för att visa hur startpositionen antingen ökar eller minskar. Microsoft Excel har många fördefinierade diagramtyper, inklusive kolumn, linje, cirkel, stapel, radar, etc. men vattenfallsdiagrammet är bortom de grundläggande graferna och kan skapas med hjälp av befintliga diagramtyper med lite eller mer anpassning.
+En vattenfallstabell är en speciell typ av diagram som normalt används för att visa hur den startpositionen antingen ökar eller minskar. Microsoft Excel har många fördefinierade diagramtyper, inklusive stapel, linje, cirkel, stapeldiagram, radardiagram osv. men vattenfallstabellen går bortom de grundläggande graferna och kan skapas med de befintliga diagramtyperna med lite eller mer anpassning.
 
 {{% /alert %}}
 
-## Skapa ett vattenfallsdiagram
+## Skapar en vattenfallstabell
 
- Aspose.Cells API: er gör det möjligt att skapa ett vattenfallsdiagram med hjälp av linjediagram. API gör det också möjligt att anpassa diagrammets utseende för att ge det formen av vattenfallet genom att ställa in de viktigaste egenskaperna för att forma sjökortet, det vill säga;[**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) & [**Series.DownBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars)egenskaper.
+Aspose.Cells API:er tillåter att skapa en vattenfallstabell med hjälp av linjediagram. API:et tillåter också att anpassa diagrammets utseende för att ge det formen av ett vattenfall genom att ställa in de viktigaste egenskaperna för att forma diagrammet, det vill säga; [**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) och [**Series.DownBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars) egenskaper.
 
-Nedan medföljande kodavsnitt visar användningen av Aspose.Cells for Java API för att skapa ett vattenfallsdiagram från grunden.
+Nedanstående kodsnutt visar hur man använder Aspose.Cells for Java API för att skapa en vattenfallstabell från grunden.
 
-### Java kod för att skapa vattenfallsdiagram
+### Java-kod för att skapa vattenfallstabell
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateWaterfallChart-CreateWaterfallChart.java" >}}
 
-## relaterade artiklar
+## Relaterade artiklar
 
 - [Skapa och anpassa diagram](/cells/sv/java/creating-and-customizing-charts/)

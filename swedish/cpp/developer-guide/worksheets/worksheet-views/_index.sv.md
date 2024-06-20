@@ -1,67 +1,68 @@
 ---
-title: Arbetsbladsvyer
+title: Arbetsboks vy
 type: docs
 weight: 40
 url: /sv/cpp/worksheet-views/
 ---
-##  **Förhandsvisning av sidbrytning**
-Alla kalkylblad kan visas i två lägen:
+
+## **Sidbrytning Förhandsgranskning**
+Alla arbetsblad kan visas i två lägen:
 
 - Normal vy.
-- Förhandsgranskning av sidbrytning.
+- Sidbrytningsvy.
 
-Normalvyn är standardvyn för ett kalkylblad. Förhandsgranskning av sidbrytning är en redigeringsvy som visar ett kalkylblad när det skrivs ut. Förhandsgranskning av sidbrytningar visar vilken data som kommer att finnas på varje sida så att du kan justera utskriftsområdet och sidbrytningarna. Genom att använda Aspose.Cells kan utvecklare aktivera normala visnings- eller sidbrytningslägen.
-###  **Styra visningslägen**
- Aspose.Cells tillhandahåller en klass[Arbetsbok](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) klass innehåller en[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)samling som ger åtkomst till varje kalkylblad i en Excel-fil.
+Normal visning är ett kalkylblads standardvisning. Sidbrytningsgranskning är en redigeringsvisning som visar ett kalkylblad som det kommer att skrivas ut. Sidbrytningsgranskning visar vilka data som kommer att placeras på varje sida så att du kan justera utskriftsområdet och sidbrytningarna. Med Aspose.Cells kan utvecklare aktivera normal visning eller sidbrytningsgranskningsläge.
+### **Styra vynlägen**
+Aspose.Cells tillhandahåller en klass [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) som representerar en Microsoft Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) innehåller en samling [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) som tillåter åtkomst till varje kalkylblad i en Excel-fil.
 
-Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)klass. De[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) klass tillhandahåller ett brett utbud av metoder för att hantera kalkylblad. För att aktivera normala eller sidbrytningsförhandsvisningslägen, använd[SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/) metod för[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) klass.[IsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/ispagebreakpreview/) returnerar ett boolvärde, vilket betyder att det bara kan lagra ett**Sann** eller**falsk** värde.
-####  **Aktiverar normal vy**
-Ställ in ett kalkylblad till normal vy genom att ställa in[SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/)metod för[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)klass till *falskt**.
-####  **Aktiverar förhandsgranskning av sidbrytning**
-Ställ in valfritt kalkylblad till förhandsvisning av sidbrytning genom att ställa in[SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/)metod för[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)klass till *sant**. Om du gör det ändras kalkylbladet från normal vy till förhandsvisning av sidbrytning.
+Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) tillhandahåller ett brett utbud av metoder för att hantera kalkylblad. För att aktivera normal eller sidbrytningsgranskningslägen, använd metoden [SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/) av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). [IsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/ispagebreakpreview/) returnerar ett bool-värde, vilket innebär att det endast kan lagra ett **true** eller **false**-värde.
+#### **Aktivera normal vy**
+Ange ett kalkylblad till normal visning genom att ange metoden [SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/) av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) till **false**.
+#### **Aktivera sidbrytningsvy**
+Ange valfritt kalkylblad till sidbrytningsgranskning genom att ange metoden [SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/) av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) till **true**. På så sätt växlar kalkylarket från normal visning till sidbrytningsgranskningsläge.
 
-Ett komplett exempel ges nedan som visar hur man använder[SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/)metod för att aktivera förhandsgranskningsläge för sidbrytning för det första kalkylbladet i en Excel-fil.
+Ett komplett exempel ges nedan som visar hur man använder metoden [SetIsPageBreakPreview](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setispagebreakpreview/) för att aktivera sidbrytningsgranskningsläge för det första kalkylbladet i en Excel-fil.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-EnablingPageBreakPreview-new.cpp" >}}
-##  **Zoomfaktor**
-###  **Använder Microsoft Excel**
-Microsoft Excel tillhandahåller en funktion som låter användare ställa in ett kalkylblads zoom- eller skalningsfaktor. Den här funktionen hjälper användare att se kalkylbladets innehåll i mindre eller större vyer. Användare kan ställa in zoomfaktorn till valfritt värde.
-###  **Aspose.Cells & Zoomfaktor**
- Aspose.Cells tillåter också utvecklare att ställa in kalkylbladets zoomfaktor. Aspose.Cells tillhandahåller en klass[Arbetsbok](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) klass innehåller en[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)samling som ger åtkomst till varje kalkylblad i en Excel-fil.
+## **Zoomfaktor**
+### **Använda Microsoft Excel**
+Microsoft Excel har en funktion som låter användare sätta en arbetsblads zoom- eller skalfaktor. Denna funktion hjälper användare att se arbetsbladsinnehållet i mindre eller större visningar. Användare kan sätta zoom-faktorn till vilket värde som helst.
+### **Aspose.Cells och Zoom Faktor**
+Aspose.Cells tillåter också utvecklare att ange kalkylbladets zoomfaktor. Aspose.Cells tillhandahåller en klass [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) som representerar en Microsoft Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) innehåller en [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) samling som tillåter åtkomst till varje kalkylblad i en Excel-fil.
 
-Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) klass. De[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)klass tillhandahåller ett brett utbud av metoder för att hantera kalkylblad. För att ställa in ett kalkylblads zoomfaktor, använd[Ställ inZoom](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setzoom/) metod för[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) klass. Zoomfaktorn ställs in genom att tilldela ett numeriskt värde (heltal).[Ställ inZoom](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setzoom/)metod.
+Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) tillhandahåller ett brett utbud av metoder för att hantera kalkylblad. För att ange en kalkylblads zoomfaktor, använd  metoden [SetZoom](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setzoom/) av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Zoomfaktorn anges genom att tilldela ett numeriskt (heltal) värde till metoden [SetZoom](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setzoom/).
 
-Ett komplett exempel ges nedan som visar hur man använder[Ställ inZoom](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setzoom/)metod för att ställa in zoomfaktorn för det första kalkylbladet i Excel-filen.
+Ett komplett exempel ges nedan som visar hur man använder metoden [SetZoom](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/setzoom/) för att ange zoomfaktorn för det första kalkylbladet i Excel-filen.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-ZoomFactor-new.cpp" >}}
-##  **Frys rutor**
-###  **Använder Microsoft Excel**
-Frys rutor är en funktion som tillhandahålls av Microsoft Excel. Frysa rutor låter dig välja data som ska förbli synliga när du rullar i ett kalkylblad.
-###  **Aspose.Cells & Frys rutor**
- Aspose.Cells tillåter också utvecklare att tillämpa frysrutor på kalkylblad under körning. Aspose.Cells tillhandahåller en klass[Arbetsbok](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) klass innehåller en[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)samling som ger åtkomst till varje kalkylblad i en Excel-fil.
+## **Frys Fönsterpaneler**
+### **Använda Microsoft Excel**
+Frysa rutor är en funktion som tillhandahålls av Microsoft Excel. Att frysa rutor gör att man kan välja data som ska förbli synlig när man rullar i ett arbetsblad.
+### **Aspose.Cells och Frysa rutor**
+Aspose.Cells tillåter även utvecklare att tillämpa fryspunkter på kalkylblad vid körning. Aspose.Cells tillhandahåller en klass [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) som representerar en Microsoft Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) innehåller en [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) samling som tillåter åtkomst till varje kalkylblad i en Excel-fil.
 
-Ett arbetsblad representeras av[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) klass. De[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/)klass tillhandahåller ett brett utbud av metoder för att hantera kalkylblad. För att konfigurera frysrutor, ring[FreezePanes](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/freezepanes/)metod för[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) klass. De[FreezePanes](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/freezepanes/)metoden tar följande parametrar:
+Ett kalkylblad representeras av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) tillhandahåller ett brett utbud av metoder för att hantera kalkylblad. För att konfigurera fryspunkter, anropa metoden [FreezePanes](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/freezepanes/) av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). [FreezePanes](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/freezepanes/) metoden tar följande parametrar:
 
-- *Rad**, radindexet för cellen som frysningen startar från.
-- *Kolumn**, kolumnindex för cellen som frysningen startar från.
-- *Frysta rader**, antalet synliga rader i den övre rutan.
-- *Frysta kolumner**, antalet synliga kolumner i den vänstra rutan
+- **Rad**, radindexet för cellen som frysen ska starta från.
+- **Kolumn**, kolumnindexet för cellen som frysen ska starta från.
+- **Frusna rader**, antalet synliga rader i toppfönstret.
+- **Frusna kolumner**, antalet synliga kolumner i vänstra fönstret.
 
- Ett komplett exempel ges nedan som visar hur man använder[FreezePanes](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/freezepanes/)metod för att frysa rader och kolumner (med början från C4, representerade av 4:e raden och 3:e kolumnen, där raderna och kolumnerna börjar från 0-indexet) i det första kalkylbladet i Excel-filen.
+Ett komplett exempel ges nedan som visar hur man använder metoden [FreezePanes](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/freezepanes/) för att frysa rader och kolumner (från C4, representerad av 4:e raden och 3:e kolumnen, där raderna och kolumnerna börjar från index 0) i det första kalkylbladet i Excel-filen.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-FreezePanes-new.cpp" >}}
-##  **Delade rutor**
-Om du behöver dela skärmen för att få två olika vyer i samma kalkylblad, dela rutor. Microsoft Excel erbjuder en mycket praktisk funktion som låter dig visa mer än en kopia av ditt kalkylblad och för att du ska kunna rulla igenom varje ruta i ditt kalkylblad oberoende av varandra: delade paneler.
+## **Dela rutor**
+Om du behöver dela skärmen för att få två olika vyer i samma arbetsblad, dela rutor. Microsoft Excel erbjuder en mycket praktisk funktion som gör att du kan se mer än en kopia av ditt arbetsblad och för dig att kunna bläddra igenom varje ruta av ditt arbetsblad oberoende av varandra: dela rutor.
 
-Rutorna fungerar samtidigt. Om du gör en ändring i den ena, visas ändringen samtidigt i den andra. Aspose.Cells tillhandahåller funktionen för delade rutor för användarna.
-###  **Applicera och ta bort delade rutor**
-####  **Dela rutor**
- Aspose.Cells tillhandahåller en klass[Arbetsbok](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)klass tillhandahåller ett brett utbud av metoder för att hantera en Excel-fil. För att implementera delade vyer, använd[Dela](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/split/) metod för[Arbetsblad](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) klass. För att ta bort de delade rutorna, använd[Ta bort Split](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/removesplit/)metod.
+Fönstren fungerar samtidigt. Om du gör en förändring i ett, visas förändringen samtidigt i den andra. Aspose.Cells tillhandahåller split panes-funktionen för användarna.
+### **Sätta på och Ta bort Delade paneler**
+#### **Dela Fönster**
+Aspose.Cells tillhandahåller en klass [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) som representerar en Microsoft Excel-fil. Klassen [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) tillhandahåller ett brett utbud av metoder för att hantera en Excel-fil. För att implementera splitvyer, använd metoden [Split](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/split/) av klassen [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). För att ta bort splitfönstren, använd metoden [RemoveSplit](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/removesplit/).
 
-I exemplet använder vi en enkel mallfil som laddas, sedan tillämpas funktionen för delade paneler på en cell i det första kalkylbladet. Den uppdaterade filen sparas.
+I exemplet använder vi en enkel mallfil som laddas, sedan används inställningar för att dela rutor på en cell i det första arbetsbladet. Den uppdaterade filen sparas.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-SplitPanes-new.cpp" >}}
-####  **Ta bort rutor**
- Ta bort delade rutor med hjälp av[Ta bort Split](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/removesplit/)metod.
+#### **Ta bort rutor**
+Ta bort splitfönster med hjälp av [mRemoveSplit](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/removesplit/) metoden.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Worksheets-WorksheetViews-RemovingPanes-new.cpp" >}}

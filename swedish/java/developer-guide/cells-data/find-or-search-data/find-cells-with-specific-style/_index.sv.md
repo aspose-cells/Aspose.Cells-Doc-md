@@ -1,48 +1,49 @@
-﻿---
+---
 title: Hitta celler med specifik stil
 type: docs
 weight: 80
 url: /sv/java/find-cells-with-specific-style/
-description: Den här artikeln visar hur du hittar celler med specifik stil med MS Excel och Aspose.Cells for Java API.
-keywords: find cells with specific style, find cells with specific style excel, find cells with specific style excel java, search cells with specific style, search cells with specific style excel, search cells with specific style excel java, how to find cells with specific style, how to find cells with specific style excel, how to find cells with specific style excel java
+description: Denna artikel demonstrerar hur man hittar celler med specifik stil med hjälp av MS Excel och Aspose.Cells for Java SDK.
+keywords: hitta celler med specifik stil, hitta celler med specifik stil excel, hitta celler med specifik stil excel java, sök celler med specifik stil, sök celler med specifik stil excel, sök celler med specifik stil excel java, hur man hittar celler med specifik stil, hur man hittar celler med specifik stil excel, hur man hittar celler med specifik stil excel java
 ---
+
 {{% alert color="primary" %}}
 
-Ibland måste du hitta cellerna med någon speciell stil. Den här artikeln visar hur du uppnår detta genom att använda Microsoft Excel samt Aspose.Cells for Java API.
+Ibland behöver du hitta celler med en viss stil. Denna artikel demonstrerar hur du kan åstadkomma detta med hjälp av Microsoft Excel samt Aspose.Cells for Java SDK.
 
 {{% /alert %}}
 
-## Använder Microsoft Excel
+## Använda Microsoft Excel
 
-Det här är stegen som krävs för att söka i celler med specifika stilar i MS Excel.
+Dessa är stegen som krävs för att söka celler med specifika stilar i MS Excel.
 
-1.  Välj**Hitta och välj** i**Fliken Hem**.
-1.  Välj**Hitta**.
-1.  Klick**alternativ**om avancerade alternativ inte är synliga.
-1.  Välj**Välj format från Cell...** från**Formatera** falla ner.
-1. Markera cellen med stilen som du vill söka efter.
-1.  Klick**Hitta alla** för att hitta alla celler med stil som liknar din valda cell.
+1. Välj **Sök & Markera** i **Startfliken**.
+1. Välj **Hitta**.
+1. Klicka på **Alternativ** om avancerade alternativ inte är synliga.
+1. Välj **Välj format från cell...** från rullgardinsmenyn **Format**.
+1. Välj cellen med den stil som du vill söka efter.
+1. Klicka på **Hitta alla** för att hitta alla celler med stil liknande din valda cell.
 
-## Använder Aspose.Cells for Java
+## Använda Aspose.Cells for Java
 
- Aspose.Cells for Java tillhandahåller funktionen för att hitta celler i kalkylblad med någon specifik stil. För detta tillhandahåller API[**FindOptions.setStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#Style) fast egendom.
+Aspose.Cells for Java tillhandahåller funktionen att hitta celler i arbetsblad med en viss stil. För detta tillhandahåller API:et egenskapen [**FindOptions.setStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#Style).
 
 ### Exempelkod
 
- Följande kodavsnitt hittar alla celler som har samma stil som cellen**A1** och ändrar texten i dessa celler. Se skärmdumpen av käll- och utdatafilerna för att analysera utdata från exempelkoden.
+Följande kodsnutt hittar alla celler som har samma stil som cellen **A1** och ändrar texten i dessa celler. Se gärna skärmbilden av käll- och utdatafilerna för att analysera utdata av exempelkoden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindCellsWithSpecificStyle-FindCellsWithSpecificStyle.java" >}}
 
-Efter exekvering av kod kommer alla celler som har samma stil som cell A1 att ha texten "Found".
+Efter att koden har utförts kommer alla celler som har samma stil som cell A1 att ha texten "Hittad".
 
-### Skärmdumpar
+### Skärmbilder
 
 ![todo:image_alt_text](find-cells-with-specific-style_1.png)
 
 **Figur:** Källfil med celler som har stilar
 
- Här är utdatafilen som genereras av följande kod. Du kan se alla celler som har samma stil som cellen**A1** har texten "Found"
+Här är utdatafilen som genererats av följande kod. Du kan se att alla celler som har samma stil som cellen **A1** har texten "Hittad"
 
 ![todo:image_alt_text](find-cells-with-specific-style_2.png)
 
-**Figur:**Utdatafil med hittade celler efter sökning efter**A1** stil
+**Figur:** Utdatafil med hittade celler efter sökning med stil **A1**

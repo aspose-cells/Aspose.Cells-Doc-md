@@ -1,19 +1,20 @@
-﻿---
-title: Yerleşik Belge Özelliklerini Kullanarak Excel Dosyasının Dilini Belirtin
+---
+title: Dahili Belge Özelliklerini Kullanarak Excel Dosyasının Dilini Belirtme
 type: docs
 weight: 30
 url: /tr/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Excel dosyasının dilini, dosyayı sağ tıklatıp Özellikler > Ayrıntılar'ı seçip Dil alanını düzenleyerek değiştirebilirsiniz. Lütfen kullan[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)Aspose.Cells API'leri kullanarak programlı olarak değiştirmek için özellik.
+Excel dosyasının dilini değiştirebilirsiniz dosyaya sağ tıklayıp ardından Özellikler > Ayrıntılar'ı seçerek Dil alanını düzenleyin. Lütfen, Bunun programatik olarak değişmesi için Aspose.Cells API'leri kullanarak [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language) özelliğini kullanın.
 
-## **Yerleşik Belge Özelliklerini Kullanarak Excel Dosyasının Dilini Belirtin**
+## **Dahili Belge Özelliklerini Kullanarak Excel Dosyasının Dilini Belirtme**
 
- Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve Dil adlı yerleşik belge özelliğini değiştirir. Lütfen bkz[çıktı excel dosyası](64716891.xlsx) değiştirilen Dil alanını gösteren kod ve ekran görüntüsü tarafından oluşturulur.[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)Emlak.
+Aşağıdaki örnek kod bir çalışma kitabı oluşturur ve Dil adı verilen yerleşik belge özelliğini değiştirir. Lütfen, [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language) özelliği ile değiştirilen Dil alanını gösteren kod tarafından oluşturulan [çıktı Excel dosyasını](64716891.xlsx) ve ekran görüntüsünü inceleyin.
 
-![yapılacaklar:resim_alternatif_metin](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+![todo:image_alt_text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DocumentProperties-SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.cs" >}}

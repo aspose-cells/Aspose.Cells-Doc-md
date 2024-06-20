@@ -1,23 +1,24 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 9.0.0
+---
+title: تغييرات API العامة في Aspose.Cells 9.0.0
 type: docs
 weight: 330
 url: /ar/net/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.9.2 إلى 9.0.0 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.9.2 إلى 9.0.0 التي قد تثير اهتمام مطوري الوحدات/التطبيقات. وتشمل ليس فقط الطرق العامة الجديدة والمحدثة، والفئات المضافة والمحذوفة وما إلى ذلك، ولكن أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **تمت إضافة خاصية Shape.TextOptions**
-كشف Aspose.Cells for .NET خاصية TextOptions لفئة الشكل للتحكم في مظهر الأجزاء النصية للشكل.
+## **واجهات برمجة التطبيقات الجديدة**
+### **خاصية TextOptions الجديدة**
+Aspose.Cells for .NET قد عرضت خاصية TextOptions لفئة Shape للتحكم في مظهر الأجزاء النصية لشكل.
 
-فيما يلي سيناريو الاستخدام البسيط لخاصية Shape.TextOptions.
+فيما يلي سيناريو استخدام بسيط لخاصية TextOptions للشكل.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize an instance of Workbook
 
@@ -48,20 +49,20 @@ textbox.TextOptions.IsItalic = true;
 {{< /highlight >}}
 
 
-### **تمت إضافة خاصية LoadOptions.CultureInfo**
-كشف Aspose.Cells for .NET 9.0.0 خاصية LoadOptions.CultureInfo التي تسمح بحقن مثيل CultureInfo في وقت تحميل مستند في مثيل Workbook.
+### **تمت إضافة خاصية LoadOptions.CultureInfo.**
+Aspose.Cells for .NET 9.0.0 قد عرضت خاصية LoadOptions.CultureInfo التي تسمح بحقن مثيل من CultureInfo أثناء تحميل مستند في مثيل من Workbook.
 
-فيما يلي سيناريو الاستخدام البسيط للخصائص المذكورة أعلاه.
+فيما يلي سيناريو استخدام بسيط للخصائص المذكورة.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[تحميل جدول بيانات بمعلومات ثقافية محددة](/cells/ar/net/load-the-workbook-with-specific-system-culture-info/).
+تحقق من المقال المفصل حول [تحميل جدول بيانات بثقافة معينة](/cells/ar/net/load-the-workbook-with-specific-system-culture-info/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of CultureInfo and populate its properties
 
@@ -87,19 +88,19 @@ var book = new Workbook(dir + "input.html", options);
 
 
 ### **تمت إضافة خاصية ChartPoint.IsInSecondaryPlot**
-كشف Aspose.Cells for .NET خاصية ChartPoint.IsInSecondaryPlot التي يمكن استخدامها لاكتشاف ما إذا كانت ChartPoint موجودة في مخطط ثانوي لمخطط دائري أو شريطي.
+Aspose.Cells for .NET قد عرضت خاصية ChartPoint.IsInSecondaryPlot التي يمكن استخدامها لاكتشاف ما إذا كان ChartPoint يقع على مؤامرة ثانوية لرسم بياني دائري أو شريطي.
 
 فيما يلي سيناريو استخدام بسيط لخاصية Shape.Line.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[العثور على DataPoint يكمن في قطعة الأرض الثانية](/cells/ar/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
+تحقق من المقال المفصل حول [العثور على نقطة بيانات تقع في المؤامرة الثانية](/cells/ar/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load an existing spreadsheet containing a Pie chart
 
@@ -137,19 +138,19 @@ foreach (ChartPoint point in series.Points)
 
 
 ### **تمت إضافة خاصية OleObject.ClassIdentifier**
-كشف Aspose.Cells for .NET 9.0.0 خاصية OleObject.ClassIdentifier التي يمكن استخدامها لتحديد سلوك التطبيق لتحميل OleObject. على سبيل المثال ، يمكن تضمين ملف PPT في جدول بيانات بطريقتين مختلفتين ، أي ؛ عرض العرض التقديمي أو عرض الشرائح ، في حين أن كلا العرضين لهما قيم معرف فئة مختلفة.
+Aspose.Cells for .NET 9.0.0 قد عرضت خاصية OleObject.ClassIdentifier التي يمكن استخدامها لتحديد سلوك التطبيق لتحميل كائن OleObject. على سبيل المثال، يمكن تضمين ملف PPT في جدول بيانات بعرضين مختلفين، ألا وهما؛ عرض العرض أو عرض الشريحة، حيث يحتوي كلا العرضين على قيم معرف الصف الدراسي مختلفة.
 
-فيما يلي سيناريو الاستخدام البسيط لخاصية OleObject.ClassIdentifier.
+فيما يلي سيناريو استخدام بسيط لخاصية OleObject.ClassIdentifier.
 
 {{% alert color="primary" %}} 
 
- تحقق من المقال المفصل على[استخدام OleObject.ClassIdentifier](/cells/ar/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/).
+تحقق من المقال المفصل حول [استخدام OleObject.ClassIdentifier](/cells/ar/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a spreadsheet containing a presentation as OleObject
 
@@ -165,13 +166,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 string progID = "";
 
@@ -181,7 +182,7 @@ string sourceFullName = "";
 
 bool isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 // Get the first worksheet from the collection
 
@@ -266,24 +267,24 @@ if (classId != null)
 book.Save(dir  + "output.xls");
 
 {{< /highlight >}}
-## **واجهات برمجة التطبيقات التي عفا عليها الزمن**
-### **ورقة عمل قديمة**
-الرجاء استخدام الخاصية Worksheet.BackgroundImage بدلاً من ذلك.
-### **LineShape.Begin ArrowheadStyle و ArcShape.BeginArrowheadStyle Properties**
-الرجاء استخدام خاصية Shape.Line.BeginArrowheadStyle كبديل.
-### **LineShape.EndArrowheadStyle و ArcShape.End ArrowheadStyle Properties**
-الرجاء استخدام خاصية Shape.Line.EndArrowheadStyle كبديل.
-### **LineShape.egin.ArrowheadWidth & ArcShape.BeginArrowheadWidth Properties**
-الرجاء استخدام خاصية Shape.Line.BeginArrowheadWidth كبديل.
-### **خط متقادم الشكل ، بداية السهم ، الطول والشكل المقوس. بداية السهم ، خصائص الطول**
-الرجاء استخدام خاصية Shape.Line.BeginArrowheadLength بدلاً من ذلك.
-### **LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth خصائص**
-الرجاء استخدام خاصية Shape.Line.EndArrowheadWidth بدلاً من ذلك.
-### **خط متقادم الشكل.رأس السهمالطول والشكل القوسي. نهاية السهم**
-الرجاء استخدام خاصية Shape.Line.EndArrowheadLength بدلاً من ذلك.
-## **واجهات برمجة التطبيقات المحذوفة**
-### **طريقة تنسيق ورقة العمل المحذوفة**
-### **المصنف المحذوف. طريقة CheckWriteProtectedPassword**
-## **إعادة تسمية واجهات برمجة التطبيقات**
-### **إعادة تسمية المصنف. طريقة RemoveDigitallySign**
+## **واجهات برمجة التطبيق القديمة**
+### **واجهة برمجة تطبيقات قد قدمت طريقة Obsoleted Worksheet.SetBackground**
+يرجى استخدام خاصية Worksheet.BackgroundImage بدلاً منها.
+### **تم إهمال خصائص LineShape.BeginArrowheadStyle و ArcShape.BeginArrowheadStyle**
+يرجى استخدام خاصية Shape.Line.BeginArrowheadStyle كبديل.
+### **تم إهمال خصائص LineShape.EndArrowheadStyle و ArcShape.EndArrowheadStyle**
+يرجى استخدام خاصية Shape.Line.EndArrowheadStyle كبديل.
+### **تم إهمال خصائص LineShape.BeginArrowheadWidth و ArcShape.BeginArrowheadWidth**
+يرجى استخدام خاصية Shape.Line.BeginArrowheadWidth كبديل.
+### **تم الاستغناء عن خصائص Obsoleted LineShape.BeginArrowheadLength و ArcShape.BeginArrowheadLength**
+يرجى استخدام خاصية Shape.Line.BeginArrowheadLength بدلاً من ذلك.
+### **تم الاستغناء عن خصائص Obsoleted LineShape.EndArrowheadWidth و ArcShape.EndArrowheadWidth**
+يرجى استخدام خاصية Shape.Line.EndArrowheadWidth بدلاً من ذلك.
+### **تم الاستغناء عن خصائص Obsoleted LineShape.EndArrowheadLength و ArcShape.EndArrowheadLength**
+يرجى استخدام خاصية Shape.Line.EndArrowheadLength بدلاً من ذلك.
+## **حذف واجهات برمجة التطبيق**
+### **طرق النسخ المحذوفة للورقة العمل**
+### **طريقة Workbook.CheckWriteProtectedPassword المحذوفة**
+## **تغيير أسماء الواجهات البرمجية**
+### **طريقة Workbook.RemoveDigitallySign تمت إعادة تسميتها إلى Workbook.RemoveDigitalSignature.**
 تمت إعادة تسمية طريقة Workbook.RemoveDigitallySign إلى Workbook.RemoveDigitalSignature.

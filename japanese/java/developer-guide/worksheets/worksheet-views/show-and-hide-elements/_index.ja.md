@@ -1,217 +1,218 @@
-﻿---
+---
 title: 要素の表示と非表示
 type: docs
 weight: 60
 url: /ja/java/show-and-hide-elements/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells を使用すると、ワークシート、行、列、タブ、スクロールバー、グリッド線、
+Aspose.Cellsを使用すると、ワークブックの要素（ワークシート、行、列、タブ、スクロールバー、グリッド線など）の表示および非表示を制御することができます。
 
 {{% /alert %}}
 
 ## **ワークシートの表示と非表示**
 
-Excel ファイルには、1 つまたは複数のワークシートを含めることができます。 Excel ファイルを作成するときはいつでも、作業している Excel ファイルにワークシートを追加します。 Excel ファイル内の各ワークシートは、独自のデータや書式設定などを持つことにより、他のワークシートから独立しています。開発者は、自分の興味のために Excel ファイルでいくつかのワークシートを非表示にし、他のワークシートを表示する必要がある場合があります。それで、**Aspose.Cells**開発者は、Excel ファイル内のワークシートの表示を制御できます。
+Excelファイルには1つ以上のワークシートが含まれることがあります。Excelファイルを作成するときには、作業するExcelファイルにワークシートを追加します。Excelファイル内の各ワークシートは、独自のデータや書式設定などを持つため、他のワークシートから独立しています。開発者は時々、Excelファイル内で特定のワークシートを非表示にし、他のワークシートを表示したい場合があります。そのため、Aspose.Cellsは開発者がExcelファイル内のワークシートの表示を制御することを可能にします。
 
-**ワークシートの可視性の制御:**
+**ワークシートの表示を制御する:**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)これは Excel ファイルを表します。[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには[**ワークシート コレクション**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)これにより、Excel ファイル内の各ワークシートにアクセスできます。
+Aspose.Cellsは、Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスするための[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)が含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。ただし、ワークシートの可視性を制御するために、開発者は[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible)の方法[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスには、ワークシートを管理するための様々なプロパティやメソッドがあります。ただし、ワークシートの表示の制御には、[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible)メソッドを使用することができます。
 
 ### **ワークシートを表示する**
 
-開発者は、渡すことでワークシートを表示できます**真実**へのパラメータとして[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible)の方法[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。
+開発者は、[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible)メソッドに**true**をパラメータとして渡すことで、ワークシートを表示することができます。
 
 ### **ワークシートを非表示にする**
 
-開発者は、渡すことでワークシートを非表示にできます**間違い**へのパラメータとして[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible)の方法[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。
+開発者は、[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible)メソッドに**false**をパラメータとして渡すことで、ワークシートを非表示にすることができます。
 
-**例：**
+**例:**
 
-の使用を示す完全な例を以下に示します。[**setVisible(偽)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible)方法[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスを使用して、Excel ファイルの最初のワークシートを非表示にします。
+以下は、[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの[**setVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible)メソッドを使用してExcelファイルの最初のワークシートを非表示にする方法を示す完全な例です。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-display-HideUnhideWorksheet-1.java" >}}
 
-**ワークシート - 変更前:**
+**ワークシート - 修改前:**
 
-下のスクリーンショットでは、それを見ることができます**Book1.xls**ファイルには 3 つのワークシートが含まれています。**シート1** , **シート 2**と**シート3** .
+下のスクリーンショットでは、**Book1.xls** ファイルには **Sheet1**、 **Sheet2**、 **Sheet3** の3つのワークシートが含まれていることがわかります。
 
-![todo:画像_代替_文章](show-and-hide-elements_1.png)
+![todo:image_alt_text](show-and-hide-elements_1.png)
 
-**形：**変更前のワークシート ビュー
+**図: ** どのような変更も加わる前のワークシートビュー
 
-**ワークシート - サンプル コードの実行後:**
+**ワークシート - 例のコードを実行後:**
 
-**Book1.xls**ファイルは、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスの最初のワークシート**Book1.xls**ファイルが非表示になります。変更されたファイルは次のように保存されます。**出力.xls**ファイルの図を以下に示します。
+**Book1.xls** ファイルは **[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)** クラスを使用して開かれ、その後 **Book1.xls** ファイルの最初のワークシートが非表示にされます。変更したファイルは **output.xls** ファイルとして保存され、その視覚的なビューが以下に示されています：
 
-![todo:画像_代替_文章](show-and-hide-elements_2.png)
+![todo:image_alt_text](show-and-hide-elements_2.png)
 
-**形：**変更後のワークシート ビュー
+**図: ** 変更後のワークシートビュー
 
-**VisibilityType の設定**
+**VisibilityTypeの設定**
 
-特別な方法でワークシートを非表示にすることもできます。この機能はワークシートを非表示にすることができるので、再度表示するには、[**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN)のパラメータ値として[**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)コード内のメソッド (ここで注意してください。ユーザーは、メニュー オプションを使用して直接 MS Excel でオブジェクトを表示することはできません)。ユーザーも使用できます[**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)ワークシートが VeryHidden としてマークされているかどうかを確認するメソッド。
+ユーザーはワークシートを特別な方法で非表示にすることもできます。この機能を使用することで、ワークシートを非表示にし、MS Excelのメニューオプションを使用して直接表示する唯一の方法が、コード内で[**setVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)メソッドのパラメータ値として[**VisibilityType.VERY_HIDDEN**](https://reference.aspose.com/cells/java/com.aspose.cells/visibilitytype#VERY_HIDDEN)を指定することです（ここで注意する必要がありますが、ユーザーはオブジェクトをMS Excelで直接表示することはできません）。ユーザーはまた、[**getVisibilityType**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VisibilityType)メソッドを使用して、ワークシートがVeryHiddenとしてマークされているかどうかを確認することもできます。
 
 ## **タブの表示または非表示**
 
-Microsoft Excel ファイルの下部をよく見ると、多数のコントロールが表示されます。これらには以下が含まれます：
+Microsoft Excelの下部をよく見ると、いくつかのコントロールが表示されます。これには次のものが含まれます:
 
-- シート タブ。
-- タブスクロールボタン。
+- シートタブ。
+- タブのスクロールボタン。
 
-シート タブは、Excel ファイル内のワークシートを表します。任意のタブをクリックして、そのワークシートに切り替えます。ワークブック内のワークシートが多いほど、シート タブが多くなります。 Excel ファイルに十分な数のワークシートがある場合は、それらをナビゲートするためのボタンが必要です。そのため、Microsoft Excel には、シート タブをスクロールするためのタブ スクロール ボタンが用意されています。
+シートタブはExcelファイル内のワークシートを表します。任意のタブをクリックするとそのワークシートに切り替えることができます。ワークブック内にワークシートが多いほど、シートタブも多く表示されます。Excelファイルに多くのワークシートが含まれている場合は、それらをナビゲートするためのボタンが必要になります。そのため、Microsoft Excelはシートタブのスクロールボタンを提供しています。
 
-**シート タブとタブ スクロール ボタン**
+**シートのタブとタブのスクロールボタン**
 
-![todo:画像_代替_文章](show-and-hide-elements_3.png)
+![todo:image_alt_text](show-and-hide-elements_3.png)
 
-Aspose.Cells を使用すると、開発者は Excel ファイルのシート タブとタブ スクロール ボタンの表示を制御できます。
+Aspose.Cellsを使用すると、開発者はExcelファイル内のシートタブとタブのスクロールボタンの表示を制御できます。
 
-**タブの可視性の制御:**
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)、Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには、Excel ファイルを管理するためのさまざまなプロパティとメソッドが用意されています。
+**タブの表示を制御する:**
+Aspose.Cells は、Microsoft Excel ファイルを表す [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスは、Excelファイルの管理に広範なプロパティやメソッドを提供します。
 
 ### **タブを非表示にする**
 
-を設定して、Excel ファイルのタブを非表示にします。[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラス'[**getSettings().setShowTabs(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs)方法。
+Excelファイルのタブを [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスの [**getSettings().setShowTabs(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) メソッドを設定して非表示にします。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
 
 ### **タブを表示する**
 
-タブを表示するには[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラス'[**getSettings().setShowTabs(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs)方法。
+[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスの [**getSettings().setShowTabs(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) メソッドを使用してタブを表示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayTab-1.java" >}}
 
 **完全なコード例:**
 
-以下は、Excel ファイル (book1.xls) を開き、そのタブを非表示にして、変更したファイルを output.xls として保存する完全な例です。
+以下は、Excelファイル（book1.xls）を開き、そのタブを非表示にして変更したファイルをoutput.xlsとして保存する完全な例です。
 
-下の図では、Book1.xls ファイルにタブが含まれていることがわかります。以下の output.xls ファイルのスクリーンショットからわかるように、サンプル コードを実行すると、タブが非表示になります。
+Book1.xlsファイルにタブが含まれていることが以下の図からわかります。例のコードが実行された後、タブが非表示になっていることがoutput.xlsファイルのスクリーンショットから確認できます。
 
-**book1.xls: 変更前の Excel ファイル**
+**book1.xls: 修正前のExcelファイル**
 
-![todo:画像_代替_文章](show-and-hide-elements_4.png)
+![todo:image_alt_text](show-and-hide-elements_4.png)
 
-**output.xls：修正後のExcelファイル**
+**output.xls: 修正後のExcelファイル**
 
-![todo:画像_代替_文章](show-and-hide-elements_5.png)
+![todo:image_alt_text](show-and-hide-elements_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
 
-## **行と列の表示と非表示**
+## **行や列の表示と非表示**
 
-Excel ファイル内のすべてのワークシートは、行と列に配置されたセルで構成されています。すべての行と列には、それらを識別し、個々のセルを識別するために使用される一意の値があります。たとえば、行には 1、2、3、4 などの番号が付けられ、列は A、B、C、D などのアルファベット順に並べられます。行と列の値はヘッダーに表示されます。開発者は、Aspose.Cells を使用して、これらの行と列のヘッダーの表示を制御できます。
+Excelファイルのすべてのワークシートは、行と列に配置されたセルで構成されています。すべての行と列には、それぞれ固有の値があり、それを使用して識別し、個々のセルを識別します。たとえば、行は1、2、3、4などと番号がつけられ、列はA、B、C、Dなどとアルファベット順に並べられます。行と列の値はヘッダーに表示されます。Aspose.Cellsを使用すると、開発者はこれらの行と列のヘッダーの表示を制御できます。
 
-**ワークシートの可視性の制御:**
+**ワークシートの表示を制御する:**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)、Microsoft Excel ファイルを表します。 Workbook クラスには、Excel ファイル内の各ワークシートへのアクセスを可能にする WorksheetCollection が含まれています。
+Aspose.Cells は、Microsoft Excel ファイルを表す [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスを提供します。Workbook クラスには、Excelファイル内の各ワークシートにアクセスできる WorksheetCollection が含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。 Worksheet クラスは、ワークシートを管理するための幅広いプロパティとメソッドを提供します。行ヘッダーと列ヘッダーの表示を制御するには、Worksheet クラスの[**setRowColumnHeadersVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible)方法。
+ワークシートは [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスによって表されます。Worksheet クラスは、ワークシートを管理するための広範なプロパティやメソッドを提供します。行と列のヘッダーの表示を制御するには、Worksheet クラスの [**setRowColumnHeadersVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) メソッドを使用します。
 
-### **行/列ヘッダーの非表示**
+### **行/列ヘッダーを非表示にする**
 
-を使用して行と列のヘッダーを非表示にします。[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス'[**setRowColumnHeadersVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible)方法。
+[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスの [**setRowColumnHeadersVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) メソッドを使用して行や列のヘッダーを非表示にします。
 
 ### **行/列ヘッダーを表示する**
 
-を使用して、行と列のヘッダーを表示します。[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス'[**setRowColumnHeadersVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible)方法。
+[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) クラスの [**setRowColumnHeadersVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) メソッドを使用して行や列のヘッダーを表示します。
 
-の使用方法を示す完全な例を以下に示します。[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス'[**setRowColumnHeadersVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) Excel ファイルの最初のワークシートの行ヘッダーと列ヘッダーを非表示にするメソッド。
+以下に、Excelファイルの最初のワークシートの行や列のヘッダーを非表示にする方法を示す完全な例が示されています。
 
-以下のスクリーンショットは、Book1.xls に Sheet1、Sheet2、Sheet3 の 3 つのワークシートが含まれていることを示しています。各ワークシートには、行と列のヘッダーが表示されています。
+以下のスクリーンショットでは、Book1.xls に Sheet1、Sheet2、Sheet3 の3つのワークシートが含まれていることが示されています。それぞれのワークシートは行や列のヘッダーが表示されています。
 
 **Book1.xls: 修正前のワークシート**
 
-![todo:画像_代替_文章](show-and-hide-elements_6.png)
+![todo:image_alt_text](show-and-hide-elements_6.png)
 
-Book1.xls は、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class' であり、最初のワークシートの行と列のヘッダーは非表示になっています。変更されたファイルは、output.xls として保存されます。
+Book1.xls を [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスを使用して開き、最初のワークシートの行や列のヘッダーを非表示にしました。修正されたファイルは output.xls として保存されています。
 
-**変更後のワークシート ビュー**
+**修正後のワークシートビュー**
 
-![todo:画像_代替_文章](show-and-hide-elements_7.png)
+![todo:image_alt_text](show-and-hide-elements_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideUnhideWorksheet-1.java" >}}
 
-## **スクロール バーの表示と非表示**
+## **スクロールバーの表示と非表示**
 
-スクロール バーは、ファイルの内容をナビゲートするためによく使用されます。通常、スクロール バーには次の 2 種類があります。
+スクロールバーは、ファイルの内容を移動するために非常によく使用されます。通常、次の2種類のスクロールバーがあります。
 
-- 垂直スクロール バー
-- 水平スクロール バー
+- 垂直スクロールバー
+- 水平スクロールバー
 
-Microsoft Excel には、ユーザーがワークシートの内容をスクロールできるように、水平および垂直のスクロール バーも用意されています。 Aspose.Cells を使用すると、開発者は Excel ファイルで両方のタイプのスクロール バーの表示を制御できます。
+Microsoft Excelは、ユーザーがワークシートの内容をスクロールできるように、水平および垂直のスクロールバーを提供しています。Aspose.Cellsを使用すると、Excelファイルの両方のタイプのスクロールバーの表示/非表示を制御することができます。
 
-**スクロール バーの表示を制御する:**
+**スクロールバーの表示を制御する:**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)これは Excel ファイルを表します。[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには、Excel ファイルを管理するためのさまざまなプロパティとメソッドが用意されています。ただし、Excel ファイルのスクロール バーの表示を制御するために、開発者は[**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) & [**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible)のメソッド[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラス。
+Aspose.CellsはExcelファイルを表すクラス、[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)を提供しています。[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスは、Excelファイルを管理するための幅広いプロパティとメソッドを提供しています。ただし、Excelファイル内のスクロールバーの表示を制御するには、開発者は[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスの[**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible)および[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible)メソッドを使用することができます。
 
-### **スクロール バーを非表示にする**
+### **スクロールバーを非表示にする**
 
-を設定してスクロール バーを非表示にします。[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラス'[**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible)また[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible)方法**間違い**.
+[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスの[**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible)または[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible)メソッドを**false**に設定することで、スクロールバーを非表示にします。
 
-### **スクロール バーを表示する**
+### **スクロールバーを表示する**
 
-Workbook クラスを設定して、スクロール バーを表示します。[**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible)また[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible)方法**真実**.
+[**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible)クラスの[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible)メソッドを**true**に設定することで、スクロールバーを表示する。
 
 **完全なコード例:**
 
-以下は、Excel ファイル book1.xls を開き、両方のスクロール バーを非表示にしてから、変更したファイルを output.xls として保存する完全なコードです。
+以下は、Excelファイルであるbook1.xlsを開き、両方のスクロールバーを非表示にし、変更されたファイルをoutput.xlsとして保存する完全なコードです。
 
-以下のスクリーンショットは、両方のスクロール バーを含む Book1.xls ファイルを示しています。変更されたファイルは output.xls ファイルとして保存されます。これも以下に示します。
+下のスクリーンショットは、スクロールバーが含まれているBook1.xlsファイルを示しています。変更されたファイルはoutput.xlsファイルとして保存され、下にも表示されています。
 
-**Book1.xls: 変更前の Excel ファイル**
+**Book1.xls: 修正前のExcelファイル**
 
-![todo:画像_代替_文章](show-and-hide-elements_8.png)
+![todo:image_alt_text](show-and-hide-elements_8.png)
 
-**output.xls：修正後のExcelファイル**
+**output.xls: 修正後のExcelファイル**
 
-![todo:画像_代替_文章](show-and-hide-elements_9.png)
+![todo:image_alt_text](show-and-hide-elements_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-display-DisplayHideScrollBars-1.java" >}}
 
 ## **グリッド線の表示と非表示**
 
-すべての Microsoft Excel ワークシートには、既定でグリッド線があります。セルの輪郭を描くのに役立ち、特定のセルにデータを簡単に入力できます。グリッド線を使用すると、ワークシートをセルのコレクションとして表示でき、各セルを簡単に識別できます。
+すべてのMicrosoft Excelワークシートには、デフォルトでグリッド線があります。これにより、セルを区切ることができ、特定のセルにデータを入力しやすくなります。グリッド線により、ワークシートをセルの集合として表示し、各セルを簡単に識別できます。
 
-Aspose.Cells では、グリッド線の表示を制御することもできます。
+Aspose.Cellsを使用すると、グリッド線の表示を制御することができます。
 
-### **グリッド線の可視性の制御**
+### **グリッド線の表示を制御する**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには[**ワークシート コレクション**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)ファイル内の各ワークシートにアクセスできます。
+Aspose.CellsはMicrosoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスを提供しています。[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには、ファイル内の各ワークシートにアクセスできる[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)が含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。グリッド線の可視性を制御するには、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス'[**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible)方法。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスには、ワークシートを管理するための幅広いプロパティとメソッドが含まれています。グリッド線の表示を制御するには、[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの[**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible)メソッドを使用します。
 
 #### **グリッド線を表示する**
 
-グリッド線を表示するには、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス'[**setGridlinesVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible)方法。
+グリッド線を表示するには、[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの[**setGridlinesVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible)メソッドを使用します。
 
 #### **グリッド線を非表示にする**
 
-を使用してグリッド線を非表示にします[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス'[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible)方法。
+グリッド線を[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible)メソッドを使用して非表示にします。
 
 {{% alert color="primary" %}}
 
-グリッド線はシート全体に適用されます。ワークシートのセクションでグリッド線を「非表示」にするには、次を使用します[境界線の書式設定](/cells/ja/java/create-table-by-using-border-lines-for-a-range/)シートの配色に溶け込む色に境界線を設定します。
+グリッド線はワークシート全体に適用されます。ワークシートのセクションでグリッド線を非表示にするには、[border formatting](/cells/ja/java/create-table-by-using-border-lines-for-a-range/)を使用して、そのボーダーをシートのカラースキームに溶け込む色に設定します。
 
 {{% /alert %}}
 
 **例: 特定のワークシートでグリッド線を非表示にする**
 
-以下の例は、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス'[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) Excel ファイルの最初のワークシートのグリッド線を非表示にするメソッド。
+以下の例は、Excelファイルの最初のワークシートのグリッド線を非表示にするための[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible)メソッドの使用方法を示しています。
 
-以下のスクリーンショットは、Book1.xls ファイルに Sheet1、Sheet2、Sheet3 の 3 つのワークシートが含まれていることを示しています。これらのワークシートにはすべてグリッド線があります。
+下のスクリーンショットは、Book1.xlsファイルがSheet1、Sheet2、Sheet3の3つのワークシートを含むことを示しています。これらのすべてのワークシートにはグリッド線があります。
 
-**変更前のワークシート ビュー**
+**修正前のワークシートビュー**
 
-![todo:画像_代替_文章](show-and-hide-elements_10.png)
+![todo:image_alt_text](show-and-hide-elements_10.png)
 
-Book1.xls ファイルは、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスを選択すると、最初のワークシートのグリッド線が非表示になります。変更されたファイルは、output.xls ファイルとして保存されます。
+Book1.xlsファイルは[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスを使用して開かれ、その後、最初のワークシートのグリッド線が非表示にされます。変更したファイルはoutput.xlsファイルとして保存されます。
 
-**変更後のワークシート ビュー**
+**修正後のワークシートビュー**
 
-![todo:画像_代替_文章](show-and-hide-elements_11.png)
+![todo:image_alt_text](show-and-hide-elements_11.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayHideGridlines-DisplayHideGridlines.java" >}}
 
@@ -219,7 +220,7 @@ Book1.xls ファイルは、[**ワークブック**](https://reference.aspose.co
 
 {{% alert color="primary" %}}
 
-- [ページ設定機能](/cells/ja/java/page-setup-features/).
-- [セルに罫線を追加して表を作成する](/cells/ja/java/create-table-by-using-border-lines-for-a-range/).
+- [ページ設定機能](/cells/ja/java/page-setup-features/)
+- [セルに境界線を追加してテーブルを作成する](/cells/ja/java/create-table-by-using-border-lines-for-a-range/)
 
 {{% /alert %}}

@@ -1,30 +1,31 @@
-﻿---
-title: Configuración de fórmula compartida en Aspose.Cells
+---
+title: Establecer Fórmula Compartida en Aspose.Cells
 type: docs
 weight: 110
 url: /es/net/setting-shared-formula-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Suponga que tiene una hoja de trabajo llena de datos.
+Supongamos que tienes una hoja de cálculo llena de datos.
 
- Desea agregar una función en B2 que calculará el impuesto a las ventas para la primera fila de datos. el impuesto es**9%** La fórmula que calcula el impuesto sobre las ventas es:**"=A2*0.09"**. Este artículo explica cómo aplicar esta fórmula con Aspose.Cells.
+Quieres agregar una función en B2 que calculará el impuesto sobre las ventas para la primera fila de datos. El impuesto es del **9%**. La fórmula que calcula el impuesto sobre las ventas es: **"=A2*0.09"**. Este artículo explica cómo aplicar esta fórmula con Aspose.Cells.
 
 {{% /alert %}} 
 
-Aspose.Cells le permite especificar una fórmula utilizando la propiedad Cell.Formula.
+Aspose.Cells te permite especificar una fórmula usando la propiedad Cell.Formula.
 
-Hay dos opciones para agregar fórmulas a las otras celdas (B3, B4, B5, etc.) en la columna.
+Hay dos opciones para agregar fórmulas a las otras celdas (B3, B4, B5, y así sucesivamente) en la columna.
 
-Haga lo que hizo para la primera celda, configurando efectivamente la fórmula para cada celda, actualizando la referencia de celda en consecuencia (A3*0,09, A4*0,09, A5*0,09, etc.). Esto requiere que se actualicen las referencias de celda para cada fila. También requiere Aspose.Cells para analizar cada fórmula individualmente, lo que puede llevar mucho tiempo para hojas de cálculo grandes y fórmulas complejas. También agrega líneas adicionales de códigos, aunque los bucles pueden reducirlos un poco.
+O haz lo que hiciste para la primera celda, configurando efectivamente la fórmula para cada celda, actualizando la referencia de la celda en consecuencia (A3*0.09, A4*0.09, A5*0.09 y así sucesivamente). Esto requiere que se actualicen las referencias de celda para cada fila. También requiere que Aspose.Cells analice cada fórmula individualmente, lo que puede ser consumidor de tiempo para hojas de cálculo grandes y fórmulas complejas. También agrega líneas de código adicionales, aunque los bucles pueden reducirlas en cierta medida.
 
- Otro enfoque es utilizar un**fórmula compartida**. Con una fórmula compartida, las fórmulas se actualizan automáticamente para las referencias de celda en cada fila para que el impuesto se calcule correctamente. El método Cell.SetSharedFormula es más eficiente que el primer método.
+Otro enfoque es usar una **fórmula compartida**. Con una fórmula compartida, las fórmulas se actualizan automáticamente para las referencias de celda en cada fila para que el impuesto se calcule correctamente. El método Cell.SetSharedFormula es más eficiente que el primer método.
 
 El siguiente ejemplo demuestra cómo usarlo.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -47,7 +48,7 @@ cells["B2"].SetSharedFormula("=A2*0.09", 13, 1);
 workbook.Save(FileName, SaveFormat.Xlsx);
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Setting%20Shared%20Formula)
-## **Descargar ejemplo de ejecución**
+## **Descargar Ejemplo en Ejecución**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

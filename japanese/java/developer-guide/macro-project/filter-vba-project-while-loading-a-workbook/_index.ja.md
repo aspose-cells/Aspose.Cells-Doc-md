@@ -1,22 +1,23 @@
-﻿---
-title: ワークブックの読み込み中に VBA プロジェクトをフィルター処理する
+---
+title: ワークブックを読み込む際にVBAプロジェクトをフィルタリングする
 type: docs
 weight: 70
 url: /ja/java/filter-vba-project-while-loading-a-workbook/
 ---
-## **考えられる使用シナリオ**
-一部の .xlsm/.xslb ファイルには、非常に大量のマクロ (または非常に長いマクロ) が含まれています。 Aspose.Cells は、そのようなワークブックを開くときに、この (メタ) データを無条件に読み込みます。多数のワークブックのシート名のみを抽出する必要があるため、そのような不要なコンテンツをスキップする必要がある場合は、LoadDataFilterOptions を使用してこれを制御する必要がある場合があります。このフィルタは、新しいオプション LoadDataFilterOptions.VBA の導入によって提供されます。
+
+## **可能な使用シナリオ**
+.xlsm/.xslbファイルには非常に大量のマクロ（または非常に長いマクロ）が含まれている場合があります。 Aspose.Cellsはそのようなワークブックを開くときに、この（メタ）データを無条件に読み込みます。大量のワークブックからシート名のみを抽出する必要がある場合には、LoadDataFilterOptionsを使用してこれを制御する必要があります。このフィルタは、新しいオプションLoadDataFilterOptions.VBAを導入することで提供されています。
 ## **サンプルコード**
-次のサンプル コードは、VBA のみがフィルター処理されるようにブックを読み込みます。この機能をテストするためのサンプル ファイルは、次のリンクからダウンロードできます。
+次のサンプルコードでは、VBAのみがフィルタリングされるようにワークブックを読み込みます。この機能をテストするためのサンプルファイルは、次のリンクからダウンロードできます。
 
 [sampleMacroEnabledWorkbook.xlsm](79527951.xlsm)
 
-// ロード オプションを設定します。VBA はロードしません。
+// ロードオプションを設定し、VBAを読み込まない
 LoadOptions loadOptions = new LoadOptions(LoadFormat.AUTO);
 loadOptions.setLoadFilter(new LoadFilter(LoadDataFilterOptions.ALL & ~LoadDataFilterOptions.VBA));
 
-// 読み込みオプションを使用して、サンプルの Excel ファイルからワークブック オブジェクトを作成します
+// ロードオプションを使用してサンプルのExcelファイルからワークブックオブジェクトを作成する
 Workbook book = new Workbook(srcDir + "sampleMacroEnabledWorkbook.xlsm", loadOptions);
 
-// 出力を pdf 形式で保存します
+// 出力をPDF形式で保存
 book.save(outDir + "OutputSampleMacroEnabledWorkbook.xlsm", SaveFormat.XLSM);

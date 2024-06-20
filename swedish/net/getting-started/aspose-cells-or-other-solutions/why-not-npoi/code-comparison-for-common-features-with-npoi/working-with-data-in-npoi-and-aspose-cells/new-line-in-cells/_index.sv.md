@@ -1,17 +1,18 @@
-﻿---
-title: Ny linje på Cells
+---
+title: Ny rad i celler
 type: docs
 weight: 30
 url: /sv/net/new-line-in-cells/
 ---
-## **Aspose.Cells - Ny linje i Cells**
-För att säkerställa att text i en cell kan läsas kan explicita radbrytningar och textbrytning tillämpas. Textbrytning förvandlar en rad till flera i en cell, vilka explicita radbrytningar sätts i brytningar precis där du vill ha dem.
 
-Om du vill radbryta text i en cell använder du egenskapen Aspose.Cells.Style.IsTextWrapped.
+## **Aspose.Cells - Ny rad i celler**
+För att säkerställa att texten i en cell kan läsas, kan explicita radbrytningar och textomslag appliceras. Textomslag gör att en rad blir flera i en cell, medan explicita radbrytningar sätts in precis där du vill ha dem.
+
+För att vira text i en cell, använd Aspose.Cells.Style.IsTextWrapped egenskapen.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -34,12 +35,12 @@ sheet.Cells[2, 2].SetStyle(style);
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Ny linje i Cells**
-CellStyle.setWrapText ska vara sant för radbruten text.
+## **NPOI - HSSF XSSF - Ny rad i celler**
+CellStyle.setWrapText bör vara sann för vikta text.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -66,13 +67,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Ny linje på Cells** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Hämta **Ny rad i celler** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Radbrytningar och textbrytning](/cells/sv/net/line-breaks-and-text-wrapping/).
+För mer detaljer, besök [Radbrytningar och Textmärkning](/cells/sv/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}

@@ -1,43 +1,44 @@
-﻿---
-title: Componente Canvas Report Ohal
+---
+title: Componente Canvas del Rapporto Ohal
 type: docs
 weight: 30
 url: /it/net/ohal-report-canvas-component/
 ---
+
 {{% alert color="primary" %}}
 
-[Denuncia PDF](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
+[Report PDF](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
 
-**Uso di Aspose.Cells nel componente Report Canvas**
+**Uso di Aspose.Cells nel Componente Canvas del Rapporto**
 
-Robert Chivers, 17 marzo 2008
+Robert Chilvers, 17 marzo 2008
 
 {{% /alert %}}
 
 ## **Sfondo del prodotto**
 
-Il componente Report Canvas consente all'utente di creare report visivi basati su un set di dati precaricato. L'utente può aggiungere diversi componenti alla propria tela, tra cui immagini, caselle di testo, grafici e tabelle, quindi specifica i dati e come devono essere aggregati. L'utente può quindi riorganizzare e ridimensionare gli oggetti per adattarli alla pagina. L'utente può specificare le tavolozze dei colori e salvare i modelli per un uso futuro. Aspose.Cells viene utilizzato per esportare tutti gli oggetti sulla tela in Excel con i dati corretti. Il componente è scritto con VB.Net in Visual Studio 2008.
+Il Componente Canvas del Rapporto consente all'utente di creare rapporti visuali basati su un set di dati pre-caricato. L'utente può aggiungere diversi componenti alla propria canvas, tra cui immagini, caselle di testo, grafici e tabelle, specificando quindi i dati e come devono essere aggregati. L'utente può quindi riorganizzare e ridimensionare gli oggetti per adattarli alla propria pagina. L'utente può specificare palette di colori e salvare modelli per un uso futuro. Aspose.Cells viene utilizzato per esportare tutti gli oggetti sulla canvas su Excel con i dati corretti. Il componente è scritto con VB.Net in Visual Studio 2008.
 
 ## **Scenario dei requisiti**
 
-Abbiamo selezionato Aspose.Cells per le sue capacità di esportazione di Excel Microsoft quasi complete. La cosa più importante per noi è la possibilità di esportare grafici e tabelle, specialmente in Microsoft Excel 2007, che mancavano in altri componenti di terze parti.
+Abbiamo selezionato Aspose.Cells per le sue capacità di esportazione quasi complete di Microsoft Excel. È importante per noi la capacità di esportare grafici e tabelle, specialmente in Microsoft Excel 2007, cosa che mancava in altri componenti di terze parti.
 
 ## **Implementazione della soluzione**
 
-Ogni oggetto nell'area di disegno del report ha una funzione a cui viene passata un'istanza del foglio di lavoro Aspose.Cells e si aggiunge al foglio di lavoro. Quando l'utente richiede un'esportazione, la cartella di lavoro e i fogli di lavoro vengono inizializzati e ogni oggetto nell'area di disegno del report ha questa funzione chiamata.
+Ogni oggetto sulla canvas del rapporto ha una funzione a cui viene passata un'istanza del foglio di calcolo di Aspose.Cells e aggiunge se stesso al foglio di calcolo. Quando l'utente richiede un'esportazione, il libro di lavoro e i fogli di lavoro vengono inizializzati e a ciascun oggetto sulla canvas del rapporto viene chiamata questa funzione.
 
-## **Benefici**
+## **Vantaggi**
 
-Aspose.Cells ci ha permesso di creare la cartella di lavoro di Excel in modo completamente indipendente da Excel e quindi di salvare la cartella di lavoro nel formato selezionato dall'utente. Ciò ha consentito di risparmiare ore di debug dell'interazione durante l'utilizzo dell'interoperabilità di Excel e l'implementazione di routine diverse per il salvataggio in diverse versioni di Excel.
+Aspose.Cells ci ha permesso di costruire il libro di lavoro su Excel in modo del tutto indipendente da Excel e poi salvare il libro di lavoro nel formato selezionato dall'utente. Ciò ha risparmiato ore di debug dell'interazione quando si utilizza l'Excel interop e l'implementazione di diverse routine per il salvataggio in versioni diverse di Excel.
 
-## **Implementazione futura**
+## **Implementazione Futura**
 
-È probabile che utilizzeremo Aspose.Cells per tutto il caricamento e il salvataggio dei file Excel. Ciò includerà il caricamento dei modelli di dati e l'esportazione dei risultati.
+Abbiamo intenzione di utilizzare Aspose.Cells per tutti il caricamento e il salvataggio dei file di Excel. Ciò includerà il caricamento di modelli di dati e l'esportazione dei risultati.
 
-## **Conclusione**
+## **Conclusioni**
 
 {{% alert color="primary" %}}
 
-Finora non abbiamo avuto problemi con l'utilizzo dei componenti Aspose.Cells e il componente dovrebbe farci risparmiare tempo di sviluppo sia a breve che a lungo termine. Le domande di supporto e vendita hanno ricevuto una risposta rapida e utile.
+Finora non abbiamo avuto problemi nell'utilizzo dei componenti Aspose.Cells e il componente dovrebbe risparmiarci tempo di sviluppo sia a breve che a lungo termine. Le richieste di supporto e vendita sono state risposte prontamente e in modo utile.
 
 {{% /alert %}}

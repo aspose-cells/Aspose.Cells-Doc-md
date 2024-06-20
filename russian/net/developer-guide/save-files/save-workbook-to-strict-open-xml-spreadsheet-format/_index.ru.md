@@ -1,18 +1,19 @@
-﻿---
-title: Сохранить книгу в строгом формате электронной таблицы Open XML
+---
+title: Сохранить книгу в формате строгой открытой электронной таблицы XML
 type: docs
 weight: 150
 url: /ru/net/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
+
 ## **Возможные сценарии использования**
 
-Aspose.Cells позволяет сохранить книгу в*Строгая электронная таблица Open XML*формат. С этой целью он обеспечивает**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)**имущество. Если вы установите его значение как**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)**, то выходной файл Excel будет сохранен в формате электронной таблицы Strict Open XML.
+Aspose.Cells позволяет сохранить книгу в формате *Strict Open XML Spreadsheet*. Для этого предоставляется свойство [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance). Если установить его значение как [**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance), то выходной файл Excel будет сохранен в формате Strict Open XML Spreadsheet.
 
-## **Сохранить книгу в строгом формате электронной таблицы Open XML**
+## **Сохранить книгу в формате Strict Open XML Spreadsheet**
 
-В следующем примере кода создается рабочая книга и задается значение**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)** собственность как**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)** и сохраняет его как[выходной файл Excel](67338272.xlsx) . Если вы откроете выходной файл Excel в Microsoft Excel и откроете диалоговое окно «Сохранить как...», вы увидите его формат как*Строгая электронная таблица Open XML*как показано на этом снимке экрана.
+В следующем образце кода создается книга и устанавливается значение свойства [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance) как [**OoxmlCompliance.Iso29500_2008_Strict**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance) и сохраняется в [выходной Excel-файл](67338272.xlsx). Если вы откроете выходной Excel-файл в Microsoft Excel и откроете диалоговое окно Сохранить как..., то увидите его формат как *Strict Open XML Spreadsheet*, как показано на этом скриншоте.
 
-![дело:изображение_альтернативный_текст](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
+![todo:image_alt_text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 
 ## **Образец кода**
 

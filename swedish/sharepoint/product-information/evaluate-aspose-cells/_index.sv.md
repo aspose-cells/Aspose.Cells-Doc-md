@@ -1,23 +1,24 @@
-﻿---
-title: Värdera Aspose.Cells
+---
+title: Evaluera Aspose.Cells
 type: docs
 weight: 60
 url: /sv/sharepoint/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Utvärderingsversionen av Aspose.Cells for SharePoint har ingen tidsbegränsning och gratis teknisk support är också tillgänglig för utvärderingsanvändare.
+Ett utvärderingsversion av Aspose.Cells for SharePoint har ingen tidsbegränsning och gratis teknisk support är tillgänglig även för utvärderingsanvändare.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- Nedladdningen för både utvärdering och fullständiga versioner av Aspose.Cells for SharePoint är densamma. Ladda bara ner Aspose.Cells for SharePoint från[nedladdningssida](https://downloads.aspose.com/cells/sharepoint) och[installera den](/cells/sv/sharepoint/install-aspose-cells-for-sharepoint/). Aspose.Cells fungerar som standard i utvärderingsläge.
+Nedladdningen för både utvärderings- och fulla versioner av Aspose.Cells for SharePoint är densamma. Ladda helt enkelt ner Aspose.Cells for SharePoint från [nedladdningssidan](https://downloads.aspose.com/cells/sharepoint) och [installera det](/cells/sv/sharepoint/install-aspose-cells-for-sharepoint/). Aspose.Cells fungerar som standard i utvärderingsläge.
 
 {{% /alert %}}
 
-### **Begränsningar för utvärderingsversion**
+### **Begränsningar för utvärderingsversionen**
 
-Utvärderingsläget lägger till en utvärderingsvarning i alla exporterade dokument. När du har köpt en licens, helt enkelt[installera licensen](/cells/sv/sharepoint/installing-aspose-cells-for-sharepoint-license/) och det kommer att fungera i licensierat läge.
+Utvärderingläge lägger till en utvärderingsvarning i alla exporterade dokument. När du har köpt en licens, helt enkelt [installera licensen](/cells/sv/sharepoint/installing-aspose-cells-for-sharepoint-license/) och den kommer att fungera i licensierat läge.
 
-**I utvärderingsläge injicerar Aspose.Cells for SharePoint en utvärderingsvarning** 
+**I utvärderingsläget injiceras en utvärderingsvarning av Aspose.Cells for SharePoint** 
 
 ![todo:image_alt_text](evaluate-aspose-cells_1.png)

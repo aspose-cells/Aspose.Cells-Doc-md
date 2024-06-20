@@ -1,14 +1,15 @@
-﻿---
-title: Sınırlayıcılar
+---
+title: Sınır İşaretleyicileri
 type: docs
 weight: 20
 url: /tr/reportingservices/delimiters/
 ---
-Aspose.Cells for Reporting Services, TXT veya CSV biçimini işlerken belirli bir sınırlayıcıyı destekler. Aspose.Cells for Reporting Services'de alan sınırlayıcıyı iki ayar kontrol eder.
 
-1.  Alan sınırlayıcı parametresi**rsreportserver.config** yalnızca belirli bir işleme uzantısını kontrol edebilir.
+Aspose.Cells for Reporting Services, TXT veya CSV biçiminde render edilirken belirli bir sınırlayıcıyı destekler. Aspose.Cells for Reporting Services'te iki ayar Aspose.Cells for Reporting Services alanında sınırlayıcıyı denetler.
 
-{{< highlight "java" >}}
+1. **rsreportserver.config**'deki alan sınırlayıcı parametresi yalnızca belirli bir render uzantısını denetleyebilir. 
+
+{{< highlight java >}}
 
  <Extension Name="ACTXT" Type="Aspose.Cells.ReportingServices.TabDelimitedRenderer,Aspose.Cells.ReportingServices" >
 
@@ -64,9 +65,9 @@ Specified field delimiters configuration reference:
 
 
 
-1.  Alan sınırlayıcı parametresi**Aspose.Cells.ReportingServices.xml** tüm TXT tipi işleme uzantılarını kontrol edebilir.
+1. **Aspose.Cells.ReportingServices.xml** içindeki alan sınırlayıcı parametresi tüm TXT tipi render uzantılarını denetleyebilir. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 
 
@@ -87,4 +88,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- Alan sınırlayıcı parametresi**rsreportserver.config** alan sınırlayıcı parametresine göre önceliklidir**Aspose.Cells.ReportingServices.xml** . Alan sınırlayıcı parametresi**rsreportserver.config** boş veya varsayılan değer, alan sınırlayıcı parametresi**Aspose.Cells.ReportingServices.xml** kullanıldı.
+**rsreportserver.config** içindeki alan sınırlayıcı parametresi, **Aspose.Cells.ReportingServices.xml** içindeki alan sınırlayıcı parametresinden önceliklidir. **rsreportserver.config** içindeki alan sınırlayıcı parametresi null veya varsayılan değerse, **Aspose.Cells.ReportingServices.xml** içindeki alan sınırlayıcı parametresi kullanılır.

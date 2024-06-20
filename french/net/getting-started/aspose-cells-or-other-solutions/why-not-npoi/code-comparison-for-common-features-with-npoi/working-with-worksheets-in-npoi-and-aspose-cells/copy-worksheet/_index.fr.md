@@ -1,13 +1,14 @@
-﻿---
+---
 title: Copier la feuille de calcul
 type: docs
 weight: 40
 url: /fr/net/copy-worksheet/
 ---
-## **Aspose.Cells - Copier la feuille de travail**
+
+## **Aspose.Cells - Copier la feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook by excel file path
 
@@ -25,10 +26,10 @@ wb.Save("../../data/workbook.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Feuille de travail de copie**
+## **NPOI - HSSF XSSF - Copier la feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -46,13 +47,13 @@ sw.Close();
 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Copier la feuille de calcul** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Télécharger le formulaire **Copier la feuille de calcul** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Copy.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Travailler avec des feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

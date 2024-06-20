@@ -1,20 +1,21 @@
-﻿---
-title: シェイプ内のテクスチャとして画像を並べて表示
+---
+title: シェイプ内のテクスチャとして画像をタイル状に配置
 type: docs
 weight: 1700
 url: /ja/net/tile-picture-as-a-texture-inside-the-shape/
 ---
-## **考えられる使用シナリオ**
 
-画像が小さく、品質を損なうことなく形状の表面全体をカバーできない場合は、並べて表示するオプションがあります。タイリングは、小さな画像をタイルのように繰り返すことで、形状の表面を小さな画像で埋めます。
+## **可能な使用シナリオ**
 
-## **シェイプ内のテクスチャとして画像を並べて表示**
+画像が小さく、品質を失うことなく形状の全体の表面をカバーしない場合、タイリングするオプションがあります。タイリングは、タイルであるかのように小さな画像で形状の表面を埋めるものです。
 
-シェイプ サーフェスを画像で塗りつぶし、[**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/net/aspose.cells.drawing/texturefill/properties/istiling)プロパティとその設定**真実**.次のサンプル コードを参照してください。[サンプル Excel ファイル](46465050.xlsx)参照用のスクリーンショットと同様に。
+## **画像を形状の内部にテクスチャとしてタイル状にする**
+
+形状表面を画像で塗りつぶしてタイルにする場合は、[**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/net/aspose.cells.drawing/texturefill/properties/istiling) プロパティを使用して **true** に設定します。参照用のサンプルコード、[サンプルエクセルファイル](46465050.xlsx)、スクリーンショットをご覧ください。
 
 ## **スクリーンショット**
 
-![todo:画像_代替_文章](tile-picture-as-a-texture-inside-the-shape_1.png)
+![todo:image_alt_text](tile-picture-as-a-texture-inside-the-shape_1.png)
 
 ## **サンプルコード**
 

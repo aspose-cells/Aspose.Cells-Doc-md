@@ -1,9 +1,10 @@
-﻿---
+---
 title: Avancerade skyddsinställningar sedan Excel XP i Aspose.Cells
 type: docs
 weight: 20
 url: /sv/net/advanced-protection-settings-since-excel-xp-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
 - Ta bort rader eller kolumner.
@@ -11,7 +12,7 @@ url: /sv/net/advanced-protection-settings-since-excel-xp-in-aspose-cells/
 - Formatera celler, rader eller kolumner.
 - Infoga rader, kolumner eller hyperlänkar.
 - Välj låsta eller olåsta celler.
-- Använd pivottabeller och mycket mer.
+- Använd pivottabeller och mycket annat.
 
 Aspose.Cells stöder alla avancerade skyddsinställningar som erbjuds av Excel XP eller senare versioner.
 
@@ -19,30 +20,30 @@ Aspose.Cells stöder alla avancerade skyddsinställningar som erbjuds av Excel X
 
 ## **Avancerade skyddsinställningar med Excel XP och senare versioner**
 
-Så här visar du skyddsinställningarna i Excel XP:
+För att visa de tillgängliga skyddsinställningarna i Excel XP:
 
-1.  Från**Verktyg** menyn, välj**Skydd** följd av**Skydda ark**.
- En dialogruta visas.
+1. Från **Verktyg**-menyn väljer du **Skydd** följt av **Skydda blad**.
+   En dialogruta visas.
 
    **Dialog för att visa skyddsalternativ i Excel XP**
 
 ![todo:image_alt_text](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
 
-1. Tillåt eller begränsa kalkylbladsfunktioner eller använd ett lösenord.
+1. Tillåt eller begränsa arbetsbladsfunktioner eller tillämpa ett lösenord.
 
-### **Avancerade skyddsinställningar med Aspose.Cells**
+### **Avancerade skyddsinställningar med hjälp av Aspose.Cells**
 
-Aspose.Cells stöder alla avancerade skyddsinställningar.
+Aspose.Cells stödjer alla avancerade skyddsinställningar.
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-klassen innehåller en [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-kollektion som möjliggör åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-klassen.
 
- De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger[**Skydd**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)egenskap som används för att tillämpa dessa avancerade skyddsinställningar. De[**Skydd**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) egendom är i själva verket ett föremål för[**Skydd**](https://reference.aspose.com/cells/net/aspose.cells/protection) klass som kapslar in flera booleska egenskaper för att inaktivera eller aktivera begränsningar.
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-klassen ger egenskapen [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) som används för att tillämpa dessa avancerade skyddsinställningar. Egenskapen [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) är faktiskt ett objekt av [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/protection)-klassen som kapslar in flera booleska egenskaper för att inaktivera eller aktivera restriktioner.
 
-Nedan finns ett litet exempel på applikation. Den öppnar en Excel-fil och använder de flesta av de avancerade skyddsinställningarna som stöds av Excel XP och senare versioner.
+Nedan finns en liten exempelapplikation. Den öppnar en Excel-fil och använder de flesta av de avancerade skyddsinställningarna som stöds av Excel XP och senare versioner.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -128,8 +129,8 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Advanced%20Protection%20Settings)
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

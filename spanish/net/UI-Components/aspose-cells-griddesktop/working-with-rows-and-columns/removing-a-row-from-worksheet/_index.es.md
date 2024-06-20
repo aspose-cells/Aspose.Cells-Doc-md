@@ -1,21 +1,24 @@
-﻿---
-title: Eliminar una fila de la hoja de trabajo
+---
+title: Eliminación de una fila de la Hoja de cálculo
 type: docs
 weight: 40
-url: /es/net/removing-a-row-from-worksheet/
+url: /es/net/aspose-cells-griddesktop/remove-a-row-from-worksheet/
+keywords: GridDesktop, eliminar, fila
+description: Este artículo introduce cómo eliminar una fila en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Este es otro tema básico para que los desarrolladores expliquen un enfoque básico para eliminar una fila de la hoja de cálculo. Es una característica simple y práctica que pueden usar los desarrolladores mientras trabajan con Aspose.Cells.GridDesktop.
+Este es otro tema básico para los desarrolladores que explica un enfoque básico para eliminar una fila de la hoja de cálculo. Es una función sencilla y útil que puede ser utilizada por los desarrolladores al trabajar con Aspose.Cells.GridDesktop.
 
 {{% /alert %}} 
 
-Para eliminar una fila de la hoja de trabajo, siga los pasos a continuación:
+Para eliminar una fila de la hoja de cálculo, siga los pasos a continuación:
 
--  Accede a cualquier deseado**Hoja de cálculo**
--  Eliminar**Fila** desde el**Hoja de cálculo** especificando el índice de la fila que se eliminará
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Elimine una **Fila** de la **Hoja de cálculo** especificando el índice de la fila a eliminar
 
-El ejemplo de código a continuación le muestra cómo eliminar una fila de la hoja de trabajo.
+El siguiente ejemplo de código le muestra cómo eliminar una fila de una hoja de cálculo.
 
 
 

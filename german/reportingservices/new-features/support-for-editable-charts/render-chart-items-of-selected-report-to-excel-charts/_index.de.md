@@ -1,20 +1,21 @@
-﻿---
-title: Rendern Sie Diagrammelemente des ausgewählten Berichts in Excel-Diagramme
+---
+title: Diagrammelemente des ausgewählten Berichts als Excel Diagramme rendern
 type: docs
 weight: 20
 url: /de/reportingservices/render-chart-items-of-selected-report-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-So rendern Sie Diagrammelemente in Microsoft-Excel-Diagramme:
+Um Diagrammelemente als Microsoft Excel-Diagramme zu rendern:
 
-1. Öffne das**Aspose.Cells.ReportingServices.xml** Datei.
-1.  Ändern Sie die Konfigurationsparameter in der**Aspose.Cells.ReportingServices.xml** Datei.
-1. Fügen Sie die Konfigurationsinformationen Ihres gewünschten Berichts hinzu.
+1. Öffnen Sie die Datei **Aspose.Cells.ReportingServices.xml**.
+1. Ändern Sie die Konfigurationsparameter in der Datei **Aspose.Cells.ReportingServices.xml**.
+1. Fügen Sie die Konfigurationsinformationen des gewünschten Berichts hinzu.
 
 Zum Beispiel:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 
@@ -28,6 +29,6 @@ Zum Beispiel:
 
 **Excel-Diagramme können in Microsoft Excel bearbeitet werden** 
 
-![todo: Bild_alt_Text](render-chart-items-of-selected-report-to-excel-charts_1.png)
+![todo:image_alt_text](render-chart-items-of-selected-report-to-excel-charts_1.png)
 
 {{% /alert %}}

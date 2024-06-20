@@ -1,20 +1,21 @@
-﻿---
+---
 title: .jrprint Dosyalarını XLS Biçimlerine Dışa Aktarma
 type: docs
 weight: 20
 url: /tr/jasperreports/exporting-jrprint-files-to-xls-formats/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells for JasperReports, raporları XLS dosyalarına dışa aktarmak için ACXlsExporter adlı bir sınıf sağlar. Giriş olarak bir .jrprint dosyası veya bir JasperPrint nesnesi alır ve bunu bir XLS dosyasına verir.
+Aspose.Cells for JasperReports, raporları XLS dosyalarına dışa aktarmak için ACXlsExporter adında bir sınıf sağlar. .jrprint dosyası veya bir JasperPrint nesnesi alır ve bunu bir XLS dosyasına dışa aktarır. 
 
 {{% /alert %}} 
 
-Aşağıdaki kod parçacığı, jasperPrint nesnesinin bir dosya yoluna, örneğin destFile'a nasıl aktarılacağını gösterir.
+Aşağıdaki kod örneği, jasperPrint nesnesini örneğin destFile'a nasıl dışa aktaracağını gösterir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  import com.aspose.cells.jasperreports. ACXlsExporter;
 

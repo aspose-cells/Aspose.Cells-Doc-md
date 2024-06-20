@@ -1,10 +1,11 @@
-﻿---
-title: Guida per programmatori Jython
+---
+title: Guida dei programmatori Jython
 type: docs
 weight: 20
 url: /it/java/jython-programmers-guide/
 ---
-**Questa sezione include i seguenti argomenti:**
+
+**Questa sezione include gli argomenti seguenti:**
 
 - [Avvio rapido in Jython](/cells/it/java/quick-start-in-jython/)
 - [Lavorare con i file in Jython](/cells/it/java/working-with-files-in-jython/)

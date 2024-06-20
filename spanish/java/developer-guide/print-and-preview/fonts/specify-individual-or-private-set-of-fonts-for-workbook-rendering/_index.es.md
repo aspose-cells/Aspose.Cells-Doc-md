@@ -1,18 +1,19 @@
-﻿---
-title: Especifique un conjunto de fuentes individual o privado para la representación del libro de trabajo
+---
+title: Especificar un Conjunto Individual o Privado de Fuentes para la Representación del Libro
 type: docs
 weight: 40
 url: /es/java/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 ---
-## **Posibles escenarios de uso**
 
-Por lo general, usted especifica el directorio de fuentes o la lista de fuentes para todos los libros de trabajo, pero a veces tiene que especificar un conjunto de fuentes individual o privado para sus libros de trabajo. Aspose.Cells proporciona[**Configuraciones de fuentes individuales**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)class que se puede usar para especificar el conjunto de fuentes individual o privado para su libro de trabajo.
+## **Escenarios de uso posibles**
 
-## **Especifique un conjunto de fuentes individual o privado para la representación del libro de trabajo**
+Generalmente, especifica el directorio de fuentes o la lista de fuentes para todos los libros de trabajo, pero a veces, tiene que especificar un conjunto individual o privado de fuentes para sus libros de trabajo. Aspose.Cells proporciona la clase [**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs) que se puede utilizar para especificar el conjunto individual o privado de fuentes para su libro de trabajo.
 
-El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](67338304.xlsx)con su conjunto individual o privado de fuentes que se especifican mediante el[**Configuraciones de fuentes individuales**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)clase. Por favor vea el[fuente de muestra](67338302.zip)utilizado dentro del código, así como el[salida PDF](67338303.pdf)generada por ella. La siguiente captura de pantalla muestra cómo se ve la salida PDF si la fuente se encuentra correctamente.
+## **Especificar un Conjunto Individual o Privado de Fuentes para la Representación del Libro**
 
-![todo:imagen_alternativa_texto](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
+El siguiente código de ejemplo carga el [archivo de Excel de muestra](67338304.xlsx) con su conjunto individual o privado de fuentes que se especifican usando la clase [**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs). Consulte la [fuente de muestra](67338302.zip) utilizada dentro del código, así como el [PDF de salida](67338303.pdf) generado por él. La captura de pantalla siguiente muestra cómo se ve el PDF de salida si se encuentra la fuente correctamente.
+
+![todo:image_alt_text](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
 
 ## **Código de muestra**
 

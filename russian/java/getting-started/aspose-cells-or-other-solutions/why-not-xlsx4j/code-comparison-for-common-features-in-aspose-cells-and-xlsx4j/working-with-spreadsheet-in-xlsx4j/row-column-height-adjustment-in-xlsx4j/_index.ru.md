@@ -1,23 +1,24 @@
-﻿---
-title: Регулировка высоты столбца строки в xlsx4j
+---
+title: Корректировка высоты строки и столбца в xlsx4j
 type: docs
 weight: 50
 url: /ru/java/row-column-height-adjustment-in-xlsx4j/
 ---
-## **Aspose.Cells - Регулировка высоты столбца строки**
-Можно установить высоту одной строки, вызвав метод setRowHeight коллекции Cells. Метод setRowHeight принимает следующие параметры:
 
-- **Индекс строки**, индекс строки, высоту которой вы меняете.
+## **Aspose.Cells - Корректировка высоты строки и столбца**
+Вы можете установить высоту отдельной строки, вызвав метод setRowHeight коллекции Cells. Метод setRowHeight принимает следующие параметры:
+
+- **Индекс строки**, индекс строки, высоту которой вы изменяете.
 - **Высота строки**, высота строки, применяемая к строке.
 
 Установите ширину столбца, вызвав метод setColumnWidth коллекции Cells. Метод setColumnWidth принимает следующие параметры:
 
-- **Индекс столбца**, индекс столбца, ширину которого вы меняете.
-- **Ширина колонки**, желаемая ширина столбца.
+- **Индекс колонки**, индекс колонки, ширину которой вы изменяете.
+- **Ширина колонки**, желаемая ширина колонки.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cells.setRowHeight(1, 40);
 cells.setColumnWidth(1, 17.5);
 
 {{< /highlight >}}
-## **xlsx4j — регулировка высоты столбца строки**
-Row.setHt используется для установки нестандартной высоты строк с помощью xlsx4j. setCustomHeight должно быть установлено в TRUE.
+## **xlsx4j - Корректировка высоты строки и столбца**
+Row.setHt используется для установки пользовательской высоты строк в xlsx4j. setCustomHeight должно быть установлено в TRUE.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SpreadsheetMLPackage pkg = SpreadsheetMLPackage.createPackage();
 
@@ -88,13 +89,13 @@ row.getC().add(cell2);
 sheetData.getRow().add(row);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Настройка высоты строки и ширины столбца](/java/adjusting-row-height-and-volumn-width).
+Дополнительные сведения см. по адресу [Настройка высоты строки и ширины столбца](/java/adjusting-row-height-and-volumn-width).
 
 {{% /alert %}}

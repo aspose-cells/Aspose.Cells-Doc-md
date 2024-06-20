@@ -1,20 +1,21 @@
-﻿---
-title: Büyük Elektronik Tabloları Yüklerken java.lang.OutOfMemoryError Hatasını Düzeltme
+---
+title: Java da Büyük Elektronik Tabloları Yüklerken java.lang.OutOfMemoryError ı Nasıl Düzeltebilirim
 type: docs
 weight: 20
 url: /tr/java/how-to-fix-the-java-lang-outofmemoryerror-while-loading-large-spreadsheets/
 ---
+
 {{% alert color="primary" %}} 
 
- Çalışma Kitabı oluşturucusunun büyük elektronik tabloları yüklerken java.lang.OutOfMemoryError hatası vermesi oldukça olasıdır. Bu istisna, kullanılabilir belleğin elektronik tabloyu belleğe tamamen yüklemek için yetersiz olduğunu, bu nedenle elektronik tablonun etkinleştirilirken yüklenmesi gerektiğini gösterir.[Bellek Tercihleri](/cells/tr/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
+Çalışma kitabı yapıcı büyük elektronik tabloları yüklerken java.lang.OutOfMemoryError hatası atabilir. Bu istisna, mevcut belleğin elektronik tabloyu tamamen belleğe yüklemek için yetersiz olduğunu önerir, bu nedenle elektronik tablo [Bellek Tercihleri](/cells/tr/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/) etkinleştirilerek yüklenmelidir.
 
 {{% /alert %}} 
-## **Büyük e-tablo yüklenirken java.lang.OutOfMemoryError nasıl düzeltilir?**
-Aspose.Cells API'ler, elektronik tabloları yüklerken ve işlerken bellek tüketimini optimize etmek için Bellek Tercihleri sağlar. Bu seçenekler, aşağıda gösterildiği gibi, Workbook nesnesinde büyük veri kümeleri içeren büyük elektronik tabloların verimli bir şekilde yüklenmesine de yardımcı olur.
+## **Büyük elektronik tabloları yüklerken java.lang.OutOfMemoryError hatasını nasıl çözebilirim**
+Aspose.Cells API'ları, elektronik tabloların yüklenmesi ve işlenmesi sırasında bellek tüketimini optimize etmek için Bellek Tercihleri sağlar. Bu seçenekler ayrıca, Workbook nesnesindeki dev veri setlerine sahip büyük elektronik tabloların etkili bir şekilde yüklenmesine yardımcı olur. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the LoadOptions
 

@@ -1,16 +1,17 @@
-﻿---
-title: Agregar conjunto de iconos condicionales con el texto Cell
+---
+title: Agregar un conjunto de iconos condicionales con el texto de la celda
 type: docs
 weight: 160
 url: /es/net/add-conditional-icons-set-with-the-cell-text/
 ---
+
 {{% alert color="primary" %}} 
 
-A veces, desea agregar íconos condicionales junto al texto en una celda para que los datos sean más significativos para los lectores. Desea utilizar algunos de los tipos de iconos de formato condicional pero sin aplicar formato condicional a las celdas. Aspose.Cells admite la función.
+A veces, deseas agregar iconos condicionales junto al texto en una celda para hacer que los datos sean más significativos para los lectores. Quieres usar algunos de los tipos de iconos de formato condicional pero sin aplicar formato condicional a las celdas. Aspose.Cells admite esta función.
 
 {{% /alert %}} 
 
-El siguiente ejemplo de código muestra cómo agregar iconos condicionales establecidos con el texto Cell.
+La siguiente muestra de código muestra cómo agregar un conjunto de iconos condicionales con el texto de la celda.
 
 
 

@@ -1,46 +1,47 @@
 ---
-title: Präzedenzfälle und Abhängige
+title: Vorgänger und Abhängige
 type: docs
 weight: 100
 url: /de/cpp/precedents-and-dependents/
 ---
+
 {{% alert color="primary" %}} 
 
-Komplexe Finanzarbeitsblätter, insbesondere solche, die gemeinsam entwickelt wurden, können die peinlichsten Fehler verbergen. Es kann schwierig sein, Formeln auf ihre Richtigkeit zu überprüfen und die Fehlerquelle zu finden, wenn die Formel Vorgängerzellen und abhängige Zellen verwendet.
+Komplexe Finanzarbeitsblätter, insbesondere solche, die in Zusammenarbeit entwickelt wurden, können die peinlichsten Fehler verbergen. Formeln auf ihre Genauigkeit zu überprüfen und die Fehlerquelle zu finden, kann schwierig sein, wenn die Formel Vorgänger- und Abhängigenzellen verwendet.
 
 {{% /alert %}} 
-##  **Einführung**
-- **Präzedenzfälle** sind Zellen, auf die eine Formel in einer anderen Zelle verweist. Wenn beispielsweise Zelle D10 die Formel =B5 enthält, ist Zelle B5 ein Präzedenzfall für Zelle D10.
-- **Abhängige Zellen** enthalten Formeln, die auf andere Zellen verweisen. Wenn Zelle D10 beispielsweise die Formel =B5 enthält, ist Zelle D10 von Zelle B5 abhängig.
+## **Einführung**
+- **Vorgängerzellen** sind Zellen, auf die in einer Formel in einer anderen Zelle verwiesen wird. Wenn z. B. Zelle D10 die Formel =B5 enthält, ist Zelle B5 ein Vorgänger von Zelle D10.
+- **Abhängige Zellen** enthalten Formeln, die auf andere Zellen verweisen. Wenn beispielsweise die Zelle D10 die Formel =B5 enthält, ist die Zelle D10 von der Zelle B5 abhängig.
 
-Damit die Tabelle leichter lesbar ist, möchten Sie möglicherweise deutlich zeigen, welche Zellen in einer Tabelle in einer Formel verwendet werden. Ebenso möchten Sie möglicherweise die abhängigen Zellen anderer Zellen extrahieren.
+Um die Tabelle übersichtlicher zu gestalten, möchten Sie möglicherweise klar zeigen, welche Zellen in einer Tabelle in einer Formel verwendet werden. Ebenso möchten Sie die abhängigen Zellen anderer Zellen extrahieren.
 
-Mit Aspose.Cells können Sie Zellen verfolgen und herausfinden, welche verknüpft sind.
-##  **Verfolgung von Präzedenzfällen und Abhängigkeiten Cells: Microsoft Excel**
-Formeln können sich aufgrund von Änderungen eines Kunden ändern. Wenn beispielsweise Zelle C1 von C3 und C4 abhängig ist, die eine Formel enthalten, und C1 geändert wird (so dass die Formel überschrieben wird), müssen C3 und C4 oder andere Zellen geändert werden, um die Tabelle basierend auf Geschäftsregeln auszugleichen.
+Aspose.Cells ermöglicht es Ihnen, die Zellen zu verfolgen und herauszufinden, welche verknüpft sind.
+## **Vorgänger- und Abhängige Zellen verfolgen: Microsoft Excel**
+Formeln können sich ändern, basierend auf Änderungen, die von einem Kunden vorgenommen wurden. Wenn beispielsweise die Zelle C1 von C3 und C4 abhängt, die eine Formel enthalten, und C1 geändert wird (d. h. die Formel überschrieben wird), müssen C3 und C4 oder andere Zellen entsprechend den Geschäftsregeln angepasst werden, um die Tabelle auszugleichen.
 
-Angenommen, C1 enthält die Formel „=(B1*22)/(M2*N32)“. Ich möchte die Zellen finden, von denen C1 abhängt, also die Vorgängerzellen B1, M2 und N32.
+Ebenso angenommen, C1 enthält die Formel "=(B1*22)/(M2*N32)". Ich möchte die Zellen finden, von denen C1 abhängt, d. h. die vorhergehenden Zellen B1, M2 und N32.
 
-Möglicherweise müssen Sie die Abhängigkeit einer bestimmten Zelle von anderen Zellen nachverfolgen. Wenn Geschäftsregeln in Formeln eingebettet sind, möchten wir die Abhängigkeit herausfinden und darauf basierend einige Regeln ausführen. Wenn der Wert einer bestimmten Zelle geändert wird, welche Zellen im Arbeitsblatt sind dann von dieser Änderung betroffen?
+Sie müssen möglicherweise die Abhängigkeit einer bestimmten Zelle zu anderen Zellen verfolgen. Wenn Geschäftsregeln in Formeln eingebettet sind, möchten wir die Abhängigkeit herausfinden und einige Regeln entsprechend ausführen. Ebenso, wenn der Wert einer bestimmten Zelle geändert wird, welche Zellen im Arbeitsblatt sind von dieser Änderung betroffen?
 
-Microsoft Mit Excel können Benutzer Präzedenzfälle und Verwandte nachverfolgen.
+Microsoft Excel ermöglicht es Benutzern, Vorgänger und Abhängige zu verfolgen.
 
-1.  Auf der**Symbolleiste anzeigen**, wählen Sie **Formelprüfung**
-1. Präzedenzfälle verfolgen:
- 1. Wählen Sie die Zelle aus, die die Formel enthält, für die Sie Vorgängerzellen suchen möchten.
- 1. Um einen Markierungspfeil zu jeder Zelle anzuzeigen, der Daten direkt an die aktive Zelle liefert, klicken Sie auf**Präzedenzfälle verfolgen** auf der**Formelprüfung** Symbolleiste.
-1. Verfolgungsformeln, die auf eine bestimmte Zelle verweisen (abhängige Zellen)
- 1. Wählen Sie die Zelle aus, für die Sie die abhängigen Zellen identifizieren möchten.
-1. Um einen Markierungspfeil zu jeder von der aktiven Zelle abhängigen Zelle anzuzeigen, klicken Sie in der Symbolleiste „Formelprüfung“ auf „Abhängige Elemente verfolgen“.
-##  **Suche nach Präzedenzfall und abhängigem Cells: Aspose.Cells**
-###  **Präzedenzfälle aufspüren**
-Aspose.Cells erleichtert den Zugriff auf Vorgängerzellen. Es kann nicht nur Zellen abrufen, die Daten für Präzedenzfälle einfacher Formeln bereitstellen, sondern auch Zellen finden, die Daten für Präzedenzfälle komplexer Formeln mit benannten Bereichen bereitstellen.
+1. Wählen Sie auf der **Ansichtsleiste** **Formelüberwachung** aus
+1. Vorgänger verfolgen:
+   1. Wählen Sie die Zelle aus, die die Formel enthält, für die Sie Vorgängerzellen finden möchten.
+   1. Um an jede Zelle einen Tracer-Pfeil anzuzeigen, die direkt Daten an die aktive Zelle bereitstellt, klicken Sie auf **Vorgänger verfolgen** auf der **Formelüberwachungs**-Symbolleiste.
+1. Formeln verfolgen, die auf eine bestimmte Zelle verweisen (Abhängige)
+   1. Wählen Sie die Zelle aus, für die Sie die abhängigen Zellen identifizieren möchten.
+   1. Um an jede Zelle, die von der aktiven Zelle abhängig ist, einen Tracer-Pfeil anzuzeigen, klicken Sie auf **Abhängige verfolgen** auf der **Formelüberwachungs**-Symbolleiste.
+## **Vorgänger- und Abhängige Zellen verfolgen: Aspose.Cells**
+### **Vorgänger verfolgen**
+Aspose.Cells erleichtert das Abrufen von Vorgängerzellen. Es kann nicht nur Zellen abrufen, die Daten zu einfachen Formelvorgängern bereitstellen, sondern auch Zellen finden, die Daten zu komplexen Formelvorgängern mit benannten Bereichen bereitstellen.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-TracingPrecedents-new.cpp" >}}
-###  **Aufspüren von Angehörigen**
-Mit Aspose.Cells können Sie abhängige Zellen in Tabellenkalkulationen abrufen. Aspose.Cells kann nicht nur Zellen abrufen, die Daten zu einer einfachen Formel bereitstellen, sondern auch Zellen finden, die Daten zu komplexen Formelabhängigen mit benannten Bereichen bereitstellen.
+### **Abhängige verfolgen**
+Aspose.Cells ermöglicht es Ihnen, abhängige Zellen in Tabellenkalkulationen zu erhalten. Aspose.Cells kann nicht nur Zellen abrufen, die Daten zu einer einfachen Formelabhängigkeit bereitstellen, sondern auch Zellen finden, die Daten zu komplexen Formelabhängigen mit benannten Bereichen bereitstellen.
 
 
 

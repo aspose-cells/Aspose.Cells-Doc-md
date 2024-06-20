@@ -1,33 +1,34 @@
-﻿---
-title: Speichern Sie jedes Arbeitsblatt mit Aspose.Cells unter einem anderen PDF
+---
+title: Jedes Arbeitsblatt separat als PDF speichern mit Aspose.Cells
 type: docs
 weight: 80
 url: /de/java/save-each-worksheet-to-different-pdf-using-aspose-cells/
 ---
-## **Aspose.Cells - Speichern Sie jedes Arbeitsblatt unter einem anderen PDF**
-Aspose.Cells unterstützt die Konvertierung von XLS-Dateien (die Bilder, Diagramme usw. enthalten) in PDF-Dokumente. Aspose.Cells for Java kann unabhängig arbeiten, um eine Tabelle in ein PDF-Dokument zu konvertieren, und Sie müssen Aspose.Pdf for Java nicht mehr für die Konvertierung verwenden. Für die Konvertierung müssen keine temporären Dateien erstellt / verwendet werden, da der gesamte Vorgang im Speicher durchgeführt werden kann.
+
+## **Aspose.Cells - Jedes Arbeitsblatt als separate PDF speichern**
+Aspose.Cells unterstützt die Konvertierung von XLS-Dateien (die Bilder, Diagramme usw. enthalten) in PDF-Dokumente. Aspose.Cells for Java kann unabhängig arbeiten, um eine Arbeitsmappe in ein PDF-Dokument zu konvertieren, und Sie müssen nicht mehr Aspose.Pdf for Java für die Konvertierung verwenden. Der Vorgang erfordert auch nicht das Erstellen/Verwenden von temporären Dateien, da der gesamte Prozess im Speicher ausgeführt werden kann.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Pfad der Excel-Datei abrufen
+ //Get the Excel file path
 
 String filePath = dataDir + "workbook.xlsx";
 
-//Instanziieren Sie eine neue Arbeitsmappe und öffnen Sie Excel
+//Instantiate a new workbook and open the Excel
 
-//Datei von ihrem Speicherort
+//File from its location
 
-Arbeitsmappe Arbeitsmappe = neue Arbeitsmappe (Dateipfad);
+Workbook workbook = new Workbook(filePath);
 
-//Ermittle die Anzahl der Arbeitsblätter in der Arbeitsmappe
+//Get the count of the worksheets in the workbook
 
 int sheetCount = workbook.getWorksheets().getCount();
 
-// Alle Blätter außer dem ersten Arbeitsblatt unsichtbar machen
+//Make all sheets invisible except first worksheet
 
- für (int i = 1; i< workbook.getWorksheets().getCount(); i++)
+for (int i = 1; i < workbook.getWorksheets().getCount(); i++)
 
 {
 
@@ -58,12 +59,12 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/SaveEachWorksheetToDifferentPDF.java)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Speichern Sie jedes Arbeitsblatt in einer anderen PDF-Datei](/cells/de/java/save-each-worksheet-to-a-different-pdf-file).
+Für weitere Details besuchen Sie [Jedes Arbeitsblatt in eine separate PDF-Datei speichern](/cells/de/java/save-each-worksheet-to-a-different-pdf-file).
 
 {{% /alert %}}

@@ -1,15 +1,16 @@
-﻿---
-title: ワークブックのスクロールバーの表示と非表示
+---
+title: ワークブックのスクロールバーの表示および非表示
 type: docs
 weight: 40
 url: /ja/java/display-and-hide-scrollbars-of-workbooks/
 ---
-## **Aspose.Cells - ワークブックのスクロールバーの表示と非表示**
-Aspose.Cells はクラスを提供し、**ワークブック**これは Excel ファイルを表します。**ワークブック**クラスには、Excel ファイルを管理するためのさまざまなプロパティとメソッドが用意されています。ただし、Excel ファイルのスクロール バーの表示を制御するために、開発者は**setVScrollBarVisible** & **setHScrollBarVisible**のメソッド**ワークブック**クラス。
+
+## **Aspose.Cells - ワークブックのスクロールバーの表示および非表示**
+Aspose.Cellsでは、Excelファイルを表す **Workbook** クラスが提供されています。 **Workbook** クラスには、Excelファイルを管理するためのさまざまなプロパティとメソッドが提供されています。ただし、Excelファイル内のスクロールバーの表示を制御するには、 **Workbook** クラスの **setVScrollBarVisible** および **setHScrollBarVisible** メソッドを使用することができます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -43,7 +44,7 @@ workbook.save(dataDir + "AsposeDisplaySrollbars.xls");
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**

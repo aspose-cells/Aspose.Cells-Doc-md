@@ -1,13 +1,14 @@
-﻿---
-title: Trabajar con fuentes
+---
+title: Trabajando con Fuentes
 type: docs
 weight: 30
 url: /es/net/working-with-fonts/
 ---
-## **Aspose.Cells - Trabajar con fuentes**
+
+## **Aspose.Cells - Trabajando con fuentes**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -45,10 +46,10 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Trabajar con fuentes**
+## **NPOI - HSSF XSSF - Trabajando con fuentes**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -91,13 +92,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Trabajar con fuentes** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Trabajando con fuentes** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Funciones de formato de datos](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Para más detalles, visita [Características de Formato de Datos](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

@@ -1,17 +1,18 @@
-﻿---
-title: Yazdırma Alanını Ayarla
+---
+title: Baskı Alanı Ayarla
 type: docs
 weight: 40
 url: /tr/java/set-print-area/
 ---
-## **Aspose.Cells - Yazdırma Alanını Ayarla**
-Varsayılan olarak, yalnızca yazdırma alanı, çalışma sayfasının veri içeren tüm alanlarını içerir. Geliştiriciler, çalışma sayfasının belirli bir yazdırma alanını oluşturabilir.
 
-Belirli bir yazdırma alanı seçmek için[Sayfa ayarı](/java/pagesetup)sınıfın setPrintArea yöntemi. Bu özelliğe yazdırma alanını tanımlayan bir hücre aralığı atayın.
+## **Aspose.Cells - Baskı Alanı Ayarla**
+Varsayılan olarak, sadece veri içeren çalışma sayfasının tüm alanlarını içeren baskı alanı oluşturulur. Geliştiriciler, çalışma sayfasının belirli bir baskı alanını belirleyebilirler.
+
+Belirli bir baskı alanını seçmek için, [PageSetup](/java/pagesetup) sınıfının setPrintArea metodunu kullanın. Bu özelliği belirleyen baskı alanını tanımlayan bir hücre aralığını atayın.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -32,12 +33,12 @@ PageSetup pageSetup = sheet.getPageSetup();
 pageSetup.setPrintArea("A1:F20");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Yazdırma Alanını Ayarla**
-Yazdırma alanının sayfa özelliklerini ayarlamak için Workbook.setPrintArea yöntemi kullanılabilir.
+## **Apache POI SS - HSSF XSSF - Baskı Alanı Ayarla**
+Workbook.setPrintArea yöntemi, baskı alanının sayfa özelliklerini ayarlamak için kullanılabilir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -66,11 +67,11 @@ wb.setPrintArea(
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/setprintarea)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Yazdırma Seçeneklerini Ayarlama](/cells/tr/java/page-setup-features/#setting-print-options).
+Daha fazla bilgi için [Yazdırma Seçeneklerini Ayarlama](/cells/tr/java/page-setup-features/#setting-print-options) sayfasını ziyaret edin.
 
 {{% /alert %}}

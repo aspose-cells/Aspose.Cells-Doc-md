@@ -1,45 +1,46 @@
 ---
-title: Kopf- oder Fußzeilen abrufen
+title: Header oder Footer erhalten
 type: docs
 weight: 30
 url: /de/net/get-headers-or-footers/
-description: In diesem Artikel wird erläutert, wie Sie mithilfe der Bibliothek C#, API oder .NET programmgesteuert Kopf- und Fußzeilen aus Excel- oder OpenOffice-Dateien abrufen.
+description: Dieser Artikel erklärt, wie Sie über die C# API oder die .NET Bibliothek programmgesteuert Header und Fußzeilen aus Excel oder OpenOffice Dateien erhalten.
 ---
+
 {{% alert color="primary" %}}
 
- Kopf- und Fußzeilen werden nur in der Seitenlayoutansicht, der Druckvorschau und auf gedruckten Seiten angezeigt.
+Header und Fußzeilen werden nur in der Seitenlayoutansicht, der Druckvorschau und auf gedruckten Seiten angezeigt. 
 
- Sie können auch das Dialogfeld „Seite einrichten“ verwenden, wenn Sie Kopf- oder Fußzeilen für mehr als ein Arbeitsblatt gleichzeitig anzeigen möchten.
+Sie können auch das Dialogfeld Seitenlayout verwenden, wenn Sie Header oder Footer für mehr als ein Arbeitsblatt gleichzeitig anzeigen möchten. 
 
-Bei anderen Blatttypen wie Diagrammblättern oder Diagrammen können Sie Kopf- und Fußzeilen nur über das Dialogfeld „Seite einrichten“ einfügen.
+Für andere Blatttypen wie Diagrammblätter oder Diagramme können Header und Fußzeilen nur über das Dialogfeld Seitenlayout eingefügt werden.
 
 {{% /alert %}}
 
-##  **Kopf- und Fußzeilen in MS Excel abrufen**
-1. Klicken Sie auf das Arbeitsblatt, in dem Sie Kopf- oder Fußzeilen anzeigen oder ändern möchten.
-2. Klicken Sie auf der Registerkarte „Ansicht“ in der Gruppe „Arbeitsmappenansichten“ auf „Seitenlayout“.
-Excel zeigt das Arbeitsblatt in der Seitenlayoutansicht an.
-3. Um eine Kopf- oder Fußzeile anzuzeigen oder zu bearbeiten, klicken Sie oben oder unten auf der Arbeitsblattseite (unter Kopfzeile oder über Fußzeile) auf das linke, mittlere oder rechte Textfeld für die Kopf- oder Fußzeile.
+## **Header und Fußzeilen in MS Excel erhalten**
+1. Klicken Sie auf das Arbeitsblatt, auf dem Sie Header oder Footer anzeigen bzw. ändern möchten.
+2. Klicken Sie in der Gruppe Workbook-Ansichten auf der Registerkarte Ansicht auf Seitenlayout.
+  Excel zeigt das Arbeitsblatt in der Seitenlayoutansicht an.
+3. Klicken Sie zum Anzeigen oder Bearbeiten eines Headers oder Footers auf die linke, mittlere oder rechte Kopf- oder Fußzeile am oberen oder unteren Rand der Arbeitsblattseite (unter Kopfzeile oder über Fußzeile).
 
 
-##  **Kopf- und Fußzeilen mit Aspose.Cells für .Net abrufen**
- Mit[**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) Und[**Arbeitsblatt.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/) Mit diesen Methoden können .NET-Entwickler einfach Kopf- oder Fußzeilen aus der Datei abrufen.
+## **Header und Fußzeilen mit Aspose.Cells für .Net erhalten**
+Mit den Methoden [**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) und [**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/) kann ein .Net-Entwickler ganz einfach Header oder Footer aus der Datei erhalten.
 
 1. Arbeitsmappe erstellen, um die Datei zu öffnen.
-2. Ruft das Arbeitsblatt ab, in das Sie Kopf- oder Fußzeilen einfügen möchten.
-3. Ruft die Kopf- oder Fußzeile mit einer bestimmten Abschnitts-ID ab.
+2. Holen Sie sich das Arbeitsblatt, von dem aus Sie Header oder Footer erhalten möchten.
+3. Erhält Header oder Footer mit spezifischer Abschnitts-ID.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Gets-Header-Footer.cs" >}}
 
-##  **Kopf- und Fußzeilen in Befehlsliste analysieren**
-Der Kopf- oder Fußzeilentext kann spezielle Befehle enthalten, beispielsweise einen Platzhalter für die Seitenzahl, das aktuelle Datum oder Textformatierungsattribute.
+## **Kopf- und Fußzeilen zu Befehlsliste parsen**
+Der Header- oder Fußzeilentext kann spezielle Befehle enthalten, zum Beispiel einen Platzhalter für die Seitenzahl, das aktuelle Datum oder Textformatierungseigenschaften.
 
-Sonderbefehle werden durch einen einzelnen Buchstaben mit einem führenden Und-Zeichen („&“) dargestellt.
+Spezielle Befehle werden durch einen einzelnen Buchstaben mit einem vorangestellten Kaufmannsund ("&") dargestellt.
 
-Die Kopf- und Fußzeilenzeichenfolgen werden mithilfe der ABNF-Grammatik erstellt. Ohne Betrachter ist es nicht leicht zu verstehen.
+Die Header- und Fußzeichenketten werden mithilfe der ABNF-Grammatik konstruiert. Ohne Betrachter ist es nicht einfach zu verstehen.
 
- Aspose.Cells für .Net bietet[**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/)Methode zum Parsen von Kopf- und Fußzeilen als Befehlsliste.
+Aspose.Cells für .Net stellt die Methode [**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/) bereit, um Kopf- und Fußzeilen als Befehlsliste zu parsen.
 
-Die folgenden Codes zeigen, wie Kopf- oder Fußzeilen als Befehlsliste analysiert und Befehle verarbeitet werden:
+Der folgende Code zeigt, wie der Kopf oder der Fuß als Befehlsliste geparst und Befehle verarbeitet werden:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Parses-Header-Footer.cs" >}}

@@ -1,42 +1,43 @@
-﻿---
-title: ローカル モードで Microsoft Report Viewer と統合する
+---
+title: Microsoft Report Viewer との統合（ローカルモードで）
 type: docs
 weight: 30
 url: /ja/reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Report Viewer は、RDL および RDLC レポートを WinForms および ASP.NET アプリケーションで使用できる強力な .NET コントロールです。これにより、ユーザーはレポートを表示してさまざまな形式にエクスポートできます。コントロールは Microsoft Visual Studio 2005 および 2008 に含まれており、Microsoft から無料でダウンロードすることもできます。
+Microsoft Report Viewer は強力な .NET コントロールで、RDL および RDLC レポートを WinForms および ASP.NET アプリケーションで使用し、異なる形式にエクスポートすることができます。このコントロールは Microsoft Visual Studio 2005 および 2008 に含まれており、Microsoft から無料でダウンロードすることもできます。
 
-レポート ビューアーは、組み込みエンジン (「ローカル モード」と呼ばれる) を使用して個別にレポートを生成したり、Microsoft SQL Server Reporting Services レポート サーバー (「リモート モード」) で生成されたレポートを表示したりできます。
+レポートビューアは、組み込みのエンジン（「ローカルモード」としても知られる）を使用して独立してレポートを生成できるか、Microsoft SQL Server Reporting Servicesレポートサーバー（「リモートモード」としても知られる）で生成されたレポートを表示できます。
 
-- リモート モードでは、Report Viewer は、接続先の Report Server にインストールされているすべての形式にレポートをエクスポートできます。したがって、レポートをより多くの Microsoft Excel 形式にエクスポートするには、サーバーに Aspose.Cells for Reporting Services をインストールするだけで済みます。
-- ただし、ローカル モードでは、Report Viewer は Report Server に接続せず、エクスポート形式のリストはいくつかの組み込み形式に限定されます。
+- リモートモードでは、レポートビューアは接続されているReport Serverにインストールされているすべての形式にレポートをエクスポートできます。したがって、より多くのMicrosoft Excel形式にレポートをエクスポートするには、サーバーにAspose.Cells for Reporting Servicesをインストールするだけで済みます。
+- しかし、ローカルモードでは、レポートビューアはReport Serverに接続せず、エクスポート形式のリストはわずかな組み込み形式のみに制限されます。
 
-Aspose.Cells for Reporting Services を開発マシンにインストールし、以下の手順に従うと、ローカル モードで動作している Report Viewer からより多くの Microsoft Excel 形式にエクスポートできます。
+開発マシンにAspose.Cells for Reporting Servicesをインストールし、以下の手順に従うことで、ローカルモードで動作するレポートビューアからより多くのMicrosoft Excel形式にエクスポートできます。 
 
 {{% /alert %}} 
-### **ローカル モードで Aspose.Cells を操作する**
-1. リファレンス**Aspose.Cells.ReportingServices.dll**プロジェクトで：
- 1. Visual Studio でプロジェクトを開きます。
- 1. 右クリック**参考文献**フォルダと選択**参照を追加**.
-1.**ブラウズ**タブを開き、次のアセンブリを参照します。
+### **ローカルモードでAspose.Cellsと連携する**
+1. プロジェクトで **Aspose.Cells.ReportingServices.dll** を参照します。 
+   1. Visual Studioでプロジェクトを開きます。
+   1. **参照** フォルダを右クリックし、 **参照の追加** を選択します。
+   1. **ブラウズ** タブを選択し、次のアセンブリに移動します。
       <InstallDir>/ ReportView/Aspose.Cells.ReportingServices.dll
- （どこ<InstallDir> Aspose.Cells for Reporting Services をインストールまたは解凍したディレクトリです。
+      (where <InstallDir> is the directory where you installed or unpacked Aspose.Cells for Reporting Services. 
 
-      **Aspose.Cells.ReportingServices.dll への参照をプロジェクトに追加する** 
+      **プロジェクトにAspose.Cells.ReportingServices.dllへの参照を追加する** 
 
-![todo:画像_代替_文章](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
-
-
+![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
 
 
-1. 次の AddExtension メソッドをコピーしてプロジェクトに貼り付けます。
-このメソッドは、プライベート リフレクションを使用して、指定された表示拡張機能を Microsoft Report Viewer のサポートされている拡張機能のリストに追加します。
+
+
+1. 次のAddExtensionメソッドをプロジェクトにコピーして貼り付けます。
+   このメソッドは、プライベートリフレクションを使用してMicrosoft Report Viewerでのサポートされるエクステンションのリストに指定されたレンダリングエクステンションを追加します。 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -143,7 +144,7 @@ extensions.Add(instance);
 
 **VB .NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -245,14 +246,14 @@ End Sub
 
 {{< /highlight >}}
 
-1. コードから AddExtension メソッドを呼び出します。
- Aspose.Cells for Reporting Services エクスポート形式を Report Viewer コントロール インスタンスに追加する必要があるときはいつでも、AddExtension (前の手順で示した) を呼び出すことができます。 Form からの呼び出しを検討する_ロードまたはページ_WinForms または ASP .NET アプリケーションのイベント ハンドラーを読み込みます。
- - すべてまたは一部のエクスポート Aspose.Cells for Reporting Services エクスポート形式を追加できます。レポート ビューアーに表示される形式の表示名を指定できます。
-ローカル モードで Aspose.Cells for Reporting Services エクスポート形式を Microsoft Report Viewer に追加するには、次のコードを使用します。
+1. コードからAddExtensionメソッドを呼び出します。 
+   - [前の手順](/cells/ja/cpp/report-viewer-control-instance/)で示されているAddExtensionを呼び出して、Aspose.Cells for Reporting Servicesのエクスポート形式をReport Viewerコントロールインスタンスに追加できます。WinFormsまたはASP .NETアプリケーションのForm_LoadまたはPage_Loadイベントハンドラから呼び出すことを検討してください。
+   - Aspose.Cells for Reporting Servicesのエクスポート形式をReport Viewerコントロールインスタンスに追加する必要がある場合は、必要なときにAddExtensionを呼び出すことができます。Report Viewerに表示される形式の表示名を指定できます。
+     Report ViewerでローカルモードでAspose.Cells for Reporting Servicesのエクスポート形式を追加するには、次のコードを使用します。 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -272,7 +273,7 @@ End Sub
 
 **VB .NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
               AddExtension(reportViewer1, "Xls - Xls via Aspose.Cells",    GetType (Aspose.Cells.ReportingServices.XlsRenderer));
 
@@ -288,12 +289,12 @@ End Sub
 
 {{< /highlight >}}
 
-1. 新しいエクスポート形式をテストします。
- 1. アプリケーションを実行します。
-で使用できる新しいエクスポート形式がいくつかあることに気付くはずです。**輸出**レポート ビューアーのメニュー。
- 1. いずれかの形式を選択し、エクスポートを実行します。
- 1. ドキュメントが期待どおりに作成されていることを確認します。
+1. 新しいエクスポート形式をテストします。 
+   1. アプリケーションを実行します。
+      Report Viewerの **エクスポート** メニューで利用可能な新しいエクスポート形式の数が増えていることに気づくはずです。 
+   1. 形式の1つを選択してエクスポートを実行します。
+   1. 期待通りにドキュメントが作成されたかを確認します。
 
-**ローカル モードで実行されているレポート ビューアに新しいエクスポート形式が表示されます** 
+Report Viewerのローカルモードで新しいエクスポート形式が表示されます 
 
-![todo:画像_代替_文章](integrate-with-microsoft-report-viewer-in-local-mode_2.png)
+![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_2.png)

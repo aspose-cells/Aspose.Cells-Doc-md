@@ -1,42 +1,43 @@
-﻿---
+---
 title: Использование Aspose.Cells for Java с ColdFusion
 type: docs
 weight: 40
 url: /ru/java/using-aspose-cells-for-java-with-coldfusion/
 ---
+
 {{% alert color="primary" %}}
 
-В этой статье представлена основная информация и фрагменты кода, которые разработчикам ColdFusion необходимо использовать Aspose.Cells for Java в приложении ColdFusion.
+В этой статье приведена основная информация и сегмент кода, который разработчики ColdFusion должны использовать Aspose.Cells for Java в своем приложении ColdFusion.
 
-В этой статье показано, как создать простую веб-страницу с помощью ColdFusion и использовать Aspose.Cells for Java для создания простого файла Excel.
+Эта статья показывает, как создать простую веб-страницу с использованием ColdFusion и использовать Aspose.Cells for Java для создания простого файла Excel.
 
 {{% /alert %}}
 
-## **Aspose.Cells: Настоящий продукт**
+## **Aspose.Cells: Реальный продукт**
 
-С Aspose.Cells разработчики могут экспортировать данные, форматировать электронные таблицы во всех деталях и на каждом уровне, импортировать изображения, импортировать диаграммы, создавать диаграммы, управлять диаграммами, передавать данные Excel Microsoft, сохранять в различных форматах, включая XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) комплексные) и многое другое.
+С помощью Aspose.Cells разработчики могут экспортировать данные, форматировать электронные таблицы в каждой детали и на каждом уровне, импортировать изображения, импортировать диаграммы, создавать диаграммы, манипулировать диаграммами, передавать данные Microsoft Excel, сохранять их в различных форматах, включая XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML (встроенный [Aspose.Pdf](https://products.aspose.com/pdf/java/)) и многое другое.
 
- Чтобы узнать больше об информации о продукте, функциях и руководстве программиста, обратитесь к документации Aspose.Cells и онлайн-предложениям.[демо](https://github.com/aspose-cells/Aspose.Cells-for-Java) . Ты можешь[скачать](https://downloads.aspose.com/cells/java) и оценить его бесплатно.
+Чтобы узнать больше информации о продукте, его функциях и руководстве разработчика, обратитесь к документации Aspose.Cells и интерактивным [демонстрациям](https://github.com/aspose-cells/Aspose.Cells-for-Java) в Интернете. Вы можете [скачать](https://downloads.aspose.com/cells/java) и оценить его бесплатно.
 
-### **Предпосылки**
+### **Предварительные требования**
 
 Чтобы использовать Aspose.Cells for Java в приложениях ColdFusion, скопируйте файл Aspose.Cells.jar в папку {InstallationFolder\\}\wwwroot\WEB-INF\lib.
 
-Не забудьте перезапустить сервер приложений ColdFusion после помещения новых JAR-файлов в папку lib.
+Не забудьте перезапустить сервер приложений ColdFusion после добавления новых JAR-файлов в папку lib.
 
 ### **Использование Aspose.Cells for Java и ColdFusion для создания файла Excel**
 
-Ниже мы создаем простое приложение, которое создает пустой файл Excel Microsoft, вставляет некоторый контент и сохраняет его как файл XLS.
+Ниже мы создаем простое приложение, которое генерирует пустой файл Microsoft Excel, вставляет некоторое содержимое и сохраняет его в качестве файла XLS.
 
-Ниже приведен фактический код (ColdFusion и Aspose.Cells for Java). После выполнения кода создается файл Excel output.xls.
+Ниже приведен фактический код (ColdFusion & Aspose.Cells for Java). После выполнения кода будет создан файл Excel с именем output.xls.
 
-**Сгенерированный файл output.xls**
+**Созданный output.xls**
 
-![дело:изображение_альтернативный_текст](using-aspose-cells-for-java-with-coldfusion_1.png)
+![todo:image_alt_text](using-aspose-cells-for-java-with-coldfusion_1.png)
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <html>
 
@@ -66,14 +67,14 @@ url: /ru/java/using-aspose-cells-for-java-with-coldfusion/
 
 {{< /highlight >}}
 
-## **Резюме**
+## **Сводка**
 
 {{% alert color="primary" %}}
 
 В этой статье объясняется, как использовать Aspose.Cells for Java с ColdFusion.
 
-Aspose.Cells предлагает большую гибкость и обеспечивает выдающуюся скорость, эффективность и надежность. Aspose.Cells стал результатом многолетних исследований, проектирования и тщательной настройки.
+Aspose.Cells предлагает большую гибкость, высокую скорость, эффективность и надежность. Aspose.Cells долгое время использовалась в исследованиях, дизайне и тщательной настройке.
 
- Мы приветствуем вопросы, комментарии и предложения в[Aspose.Cells Форум](https://forum.aspose.com/c/cells/9).
+Мы приветствуем запросы, комментарии и предложения в [Форуме Aspose.Cells](https://forum.aspose.com/c/cells/9).
 
 {{% /alert %}}

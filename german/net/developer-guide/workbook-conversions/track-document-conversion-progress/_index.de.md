@@ -1,42 +1,47 @@
-﻿---
-title: Verfolgen Sie den Fortschritt der Dokumentenkonvertierung
+---
+title: Fortschritt der Dokumentkonvertierung verfolgen
 type: docs
 weight: 970
 url: /de/net/track-document-conversion-progress/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Manchmal kann das Konvertieren großer Excel-Dateien einige Zeit dauern. Während dieser Zeit möchten Sie möglicherweise den Fortschritt der Dokumentkonvertierung statt nur eines Ladebildschirms anzeigen, um die Benutzerfreundlichkeit Ihrer Anwendung zu verbessern. Aspose.Cells unterstützt die Verfolgung des Dokumentenkonvertierungsprozesses durch Bereitstellung der**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)** Schnittstelle. Das**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**Schnittstelle bietet**[PageStartSaving](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pagestartsaving)**und**[PageEndSaving](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pageendsaving)**Methoden, die Sie in Ihrer benutzerdefinierten Klasse implementieren können. Sie können auch steuern, welche Seiten gerendert werden, wie im T*estPageSavingCallback*benutzerdefinierte Klasse.
+## **Mögliche Verwendungsszenarien**
 
-## **Verfolgen Sie den Fortschritt der Dokumentenkonvertierung**
+Manchmal kann die Konvertierung großer Excel-Dateien einige Zeit in Anspruch nehmen. In dieser Zeit möchten Sie möglicherweise den Dokumentkonvertierungsfortschritt anzeigen, anstatt nur einen Ladefortschrittsbildschirm, um die Benutzerfreundlichkeit Ihrer Anwendung zu verbessern. Aspose.Cells unterstützt die Verfolgung des Dokumentkonvertierungsprozesses durch Bereitstellung des [**IPageSavingCallback**](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)-Interfaces. Das [**IPageSavingCallback**](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)-Interface bietet die [**PageStartSaving**](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pagestartsaving)- und [**PageEndSaving**](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pageendsaving)-Methoden, die Sie in Ihrer eigenen Klasse implementieren können. Sie können auch steuern, welche Seiten gerendert werden, wie im benutzerdefinierten TestPageSavingCallback-Klasse demonstriert.
 
- Das folgende Codebeispiel lädt die[Excel-Quelldatei](94896151.xlsx) und druckt seinen Konvertierungsfortschritt in der Konsole mithilfe von*TestPageSavingCallback* benutzerdefinierte Klasse, die die implementiert**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**Schnittstelle.
+## **Fortschritt der Dokumentkonvertierung nachverfolgen**
+
+Der folgende Codeausschnitt lädt die [Quell-Excel-Datei](94896151.xlsx) und druckt ihren Konvertierungsfortschritt in der Konsole mithilfe der benutzerdefinierten Klasse *TestPageSavingCallback*, die das [**IPageSavingCallback**](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)-Interface implementiert.
 
 ## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-DocumentConversionProgress-1.cs" >}}
 
-Das Folgende ist der Code für die*TestPageSavingCallback*benutzerdefinierte Klasse.
+Der folgende Code ist für die benutzerdefinierte Klasse *TestPageSavingCallback*.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-DocumentConversionProgress-2.cs" >}}
 
 ## **Konsolenausgabe**
 
-Beginnen Sie mit dem Speichern des Seitenindex 0 der Seiten 11</br>
-Beenden Sie das Speichern des Seitenindex 0 der Seiten 11</br>
-Beginnen Sie mit dem Speichern von Seitenindex 1 von Seite 11</br>
-Beenden Sie das Speichern des Seitenindex 1 der Seite 11</br>
-Beginnen Sie mit dem Speichern von Seitenindex 2 von Seite 11</br>
-Beenden Sie das Speichern des Seitenindex 2 der Seite 11</br>
-Beginnen Sie mit dem Speichern von Seitenindex 3 von Seite 11</br>
-Beenden Sie das Speichern des Seitenindex 3 der Seite 11</br>
-Beginnen Sie mit dem Speichern von Seitenindex 4 von Seite 11</br>
-Beenden Sie das Speichern von Seitenindex 4 von Seite 11</br>
-Beginnen Sie mit dem Speichern von Seitenindex 5 von Seite 11</br>
-Beenden Sie das Speichern des Seitenindex 5 der Seite 11</br>
-Beginnen Sie mit dem Speichern von Seitenindex 6 von Seite 11</br>
-Beenden Sie das Speichern des Seitenindex 6 der Seite 11</br>
-Beginnen Sie mit dem Speichern von Seitenindex 7 von Seite 11</br>
-Beenden Sie das Speichern des Seitenindex 7 von Seite 11</br>
-Beginnen Sie mit dem Speichern von Seitenindex 8 der Seiten 11</br>
-Beenden Sie das Speichern des Seitenindex 8 der Seite 11
+{{< highlight java >}}
+
+Start saving page index 0 of pages 11</br>
+End saving page index 0 of pages 11</br>
+Start saving page index 1 of pages 11</br>
+End saving page index 1 of pages 11</br>
+Start saving page index 2 of pages 11</br>
+End saving page index 2 of pages 11</br>
+Start saving page index 3 of pages 11</br>
+End saving page index 3 of pages 11</br>
+Start saving page index 4 of pages 11</br>
+End saving page index 4 of pages 11</br>
+Start saving page index 5 of pages 11</br>
+End saving page index 5 of pages 11</br>
+Start saving page index 6 of pages 11</br>
+End saving page index 6 of pages 11</br>
+Start saving page index 7 of pages 11</br>
+End saving page index 7 of pages 11</br>
+Start saving page index 8 of pages 11</br>
+End saving page index 8 of pages 11
+
+{{< /highlight >}}

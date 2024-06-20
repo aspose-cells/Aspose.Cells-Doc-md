@@ -1,6 +1,6 @@
-﻿---
-title: Культура
+---
+title: Глобализация и Локализация
 type: docs
 weight: 235
-url: /ru/net/language/
+url: /ru/net/globalization-and-localization/
 ---

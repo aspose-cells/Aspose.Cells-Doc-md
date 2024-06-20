@@ -1,16 +1,17 @@
-﻿---
-title: Python'de Sayfa Seçeneklerini Ayarlama
+---
+title: Python da Sayfa Seçeneklerini Ayarlama
 type: docs
 weight: 10
 url: /tr/java/setting-page-options-in-python/
 ---
-## **Aspose.Cells - Ayar Sayfası Seçenekleri**
-### **Sayfa yönlendirmesi**
- kullanarak sayfa yönü ayarlarını uygulamak için**Yakut için Aspose.Cells Java** , Arama**Sayfa yönlendirmesi** yöntemi**sayfa ayarı** modül.
 
-**Python Kod**
+## **Aspose.Cells - Sayfa Seçeneklerini Ayarlama**
+### **Sayfa Yönlendirmesi**
+**Aspose.Cells Java için Ruby** kullanarak sayfa yönlendirme ayarlarını uygulamak için **pagesetup** modülünün **page_orientation** yöntemini çağırın.
 
-{{< highlight "java" >}}
+**Python Kodu**
+
+{{< highlight java >}}
 
  def page_orientation(self):
 
@@ -42,12 +43,12 @@ print "Set page orientation, please check the output file."
 
 
 {{< /highlight >}}
-### **Ölçekleme faktörü**
- kullanarak ölçekleme uygulamak için**Aspose.Cells Java for Python** , Arama**ölçekleme** yöntemi**sayfa ayarı** modül.
+### **Ölçekleme Faktörü**
+**Aspose.Cells Java for Python** kullanarak ölçeklendirme uygulamak için **pagesetup** modülündeki **scaling** yöntemini çağırın.
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def scaling(self):        
 
@@ -77,6 +78,6 @@ print "Set scaling, please check the output file."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Ayar Sayfası Seçenekleri (Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Sayfa Seçeneklerini Ayarlama (Aspose.Cells)**'i indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -1,12 +1,13 @@
-﻿---
+---
 title: Unterstützung mehrerer Formate
 type: docs
 weight: 10
 url: /de/sharepoint/multiple-format-support/
 ---
+
 {{% alert color="primary" %}}
 
-Mit Aspose.Cells for SharePoint können Sie Dokumente zwischen vielen gängigen Office-Dokumentformaten aus einer SharePoint-Dokumentbibliothek konvertieren. Die meisten Konvertierungen werden mit hoher Wiedergabetreue und Präzision durchgeführt.
+Mit Aspose.Cells for SharePoint können Sie Dokumente zwischen vielen gängigen Office-Dokumentformaten aus einer SharePoint-Dokumentenbibliothek konvertieren. Die meisten Konvertierungen werden mit hoher Genauigkeit und Präzision durchgeführt.
 
 {{% /alert %}}
 
@@ -17,31 +18,31 @@ Aspose.Cells for SharePoint unterstützt die folgenden Eingabeformate:
 - XLS – Microsoft Excel 97~2003
 - XLSX – Office Open XML
 - XLSM, XLTX, XLTM – Office Open XML
-- CSV – Arbeitsblattdokument für kommagetrennte Werte
+- CSV – Durch Kommas getrennte Werte Arbeitsblattdokument
 - ODS – OpenDocument
 - XML – Microsoft Excel SpreadsheetML
 
- Um Dokumente zu generieren, setzt Aspose.Cells for SharePoint auf eine eingebaute Version von[Aspose.Cells for .NET](https://products.aspose.com/cells/net/)die marktführende Komponente zur Tabellenkalkulation von Aspose. Microsoft Excel wird nicht zum Generieren von Dokumenten verwendet.
+Zur Generierung von Dokumenten verlässt sich Aspose.Cells for SharePoint auf eine eingebaute Version von [Aspose.Cells for .NET](https://products.aspose.com/cells/net/), dem marktführenden Tabellenkalkulationsverarbeitungskomponenten von Aspose. Microsoft Excel wird nicht zur Generierung von Dokumenten verwendet.
 
 ## **Unterstützte Ausgabeformate**
 
-Die vollständige Liste der von Aspose.Cells for SharePoint unterstützten Ausgabeformate lautet:
+Die vollständige Liste der von Aspose.Cells for SharePoint unterstützten Ausgabeformate ist:
 
-- PDF – Adobe Portable Document
+- PDF - Adobe Portable Document
 - XLS – Microsoft Excel 97 - 2003
 - XLSX – Office Open XML
-- XLSM – Office Open XML für Makros aktiviert
-- TXT – Klartext
+- XLSM – Office Open XML for macros enabled
+- TXT – Plain Text
 - XML – Microsoft Excel SpreadsheetML
 - ODS – OpenDocument
-- CSV – Kommagetrennte Werte
-- XLSB – Microsoft Excel-Binärdatei 2007
-- MHTML – Mehrzweck-Internet-Mail-Erweiterung HTML
-- XPS – XML-Papierspezifikation
-- TIFF – Markiertes Bilddateiformat
-- SVG – Skalierbare Vektorgrafiken
-- DIF – Zeichnungsaustauschformat
+- CSV – Comma Separated Values
+- XLSB – Microsoft Excel Binary 2007
+- MHTML – Multipurpose Internet Mail Extension HTML
+- XPS – XML Paper Specification
+- TIFF – Tagged Image File Format
+- SVG – Scalable Vector Graphics
+- DIF – Drawing Interchange Format
 
-**Die für eine Datei verfügbaren unterstützten Konvertierungsformate werden aufgelistet** 
+**Die unterstützten Konvertierungsformate für eine Datei sind verfügbar** 
 
-![todo: Bild_alt_Text](multiple-format-support_1.png)
+![todo:image_alt_text](multiple-format-support_1.png)

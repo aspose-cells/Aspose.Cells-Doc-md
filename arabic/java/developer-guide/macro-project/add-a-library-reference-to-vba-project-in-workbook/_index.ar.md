@@ -1,23 +1,24 @@
 ---
-title: إضافة مرجع مكتبة لمشروع VBA في المصنف
+title: أضف مرجعًا إلى مشروع VBA في سجل العمل
 type: docs
 weight: 10
 url: /ar/java/add-a-library-reference-to-vba-project-in-workbook/
-description: تعرف على كيفية إضافة مرجع مكتبة لمشروع VBA في المصنف من خلال Aspose.Cells for Java API.
-keywords: How to Add a library reference to VBA project in workbook in Java, Insert a library reference to VBA project in workbook using Java, Java Set library reference to VBA project in workbook. 
+description: تعلم كيفية إضافة اشارة مرجعية لمكتبة VBA إلى مشروع العمل من خلال API Aspose.Cells for Java.
+keywords: كيفية إضافة اشارة مرجعية لمكتبة VBA إلى مشروع العمل في جافا، إدراج إشارة مرجعية لمكتبة VBA إلى مشروع العمل باستخدام جافا، تعيين اشارة مرجعية لمكتبة VBA إلى مشروع العمل باستخدام جافا. 
 ---
+
 {{% alert color="primary" %}}
 
- في Microsoft Excel، يمكنك إضافة مرجع مكتبة إلى مشروع VBA بالنقر فوق الزر**الأدوات > المراجع...** يدويا. سيتم فتح مربع الحوار التالي الذي سيساعدك على الاختيار من المراجع الموجودة أو تصفح مكتبتك بنفسك.
+في برنامج Microsoft Excel، يمكنك إضافة إشارة مرجعية لمكتبة VBA إلى مشروع VBA عن طريق النقر فوق ** أدوات > مراجع... ** يدويا. سيفتح صندوق الحوار التالي الذي سيساعدك في اختيار المراجع الموجودة أو تصفح المكتبة بنفسك.
 
-![ما يجب القيام به:image_alt_text](add-a-library-reference-to-vba-project-in-workbook_1.png)
+![todo:image_alt_text](add-a-library-reference-to-vba-project-in-workbook_1.png)
 
-لكن في بعض الأحيان، تحتاج إلى إضافة أو تسجيل مرجع المكتبة لمشروع VBA من خلال التعليمات البرمجية. يمكنك القيام بذلك باستخدام Aspose.Cells[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)) طريقة.
+ولكن في بعض الأحيان، تحتاج إلى إضافة أو تسجيل مرجع المكتبة إلى المشروع VBA من خلال الشفرة. يمكنك القيام بذلك باستخدام طريقة Aspose.Cells [**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)).
 
 {{% /alert %}}
 
-##  **كيفية إضافة مرجع مكتبة لمشروع VBA في المصنف**
+## **كيفية إضافة اشارة مرجعية لمكتبة VBA إلى مشروع العمل**
 
- يقوم نموذج التعليمات البرمجية التالي بإضافة أو تسجيل مرجعين للمكتبة إلى مشروع VBA الخاص بالمصنف باستخدام[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)) طريقة.
+الشيفرة الزمنية العينية التالية تضيف أو تسجل اثنين من مراجع المكتبات إلى مشروع VBA لسجل العمل باستخدام طريقة [**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddLibraryReference-AddLibraryReference.java" >}}

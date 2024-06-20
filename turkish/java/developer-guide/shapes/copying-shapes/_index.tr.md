@@ -1,129 +1,130 @@
-﻿---
-title: Çalışma Sayfaları Arasında Şekilleri Kopyalama
+---
+title: Çalışsayfalar Arasında Şekiller Kopyalama
 type: docs
 weight: 250
 url: /tr/java/copy-shapes-between-worksheets/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen, ihtiyacınıza göre farklı resimleri, çizelgeleri ve diğer çizim nesnelerini farklı çalışma sayfalarına kopyalamanız gerekir. Aspose.Cells, çalışma sayfaları arasında şekillerin kopyalanmasını destekler. Grafikler, resimler ve diğer nesneler en yüksek hassasiyetle kopyalanır.
+Bazen, farklı resimleri, grafikleri ve diğer çizim nesnelerini gereksiniminize göre farklı çalışma sayfalarına kopyalamanız gerekebilir. Aspose.Cells, çalışma sayfaları arasında şekil kopyalamayı destekler. Grafikler, resimler ve diğer nesneler en yüksek hassasiyetle kopyalanır.
 
-Office Otomasyonu'nu deneyebilirsiniz, ancak bunun kendi dezavantajları vardır. İlgili birkaç neden ve sorun vardır: örneğin güvenlik, kararlılık, ölçeklenebilirlik, hız, fiyat ve özellikler. Kısacası, pek çok neden var ve bunlardan en önemlisi Microsoft'in yazılım çözümlerinden Office otomasyonuna karşı şiddetle tavsiye etmesi.
+Ofis Otomasyonunu deneyebilirsiniz ancak bunun kendi dezavantajları vardır. Güvenlik, istikrar, ölçeklenebilirlik, hız, fiyat ve özellikler gibi birçok neden ve sorun bulunmaktadır. Kısacası, Microsoft kendisi, ofis otomasyonuna karşı yazılım çözümlerinden şiddetle kaçınmanızı önerir.
 
-Bu yazımızda Aspose.Cells kullanarak birkaç ve en basit kod satırı ile bir konsol uygulaması oluşturuyoruz, bir çalışma kitabının çalışma sayfaları arasında resim, çizelge ve diğer çizim nesnelerinin kopyalanmasını gerçekleştiriyoruz.
+Bu makalede, Aspose.Cells kullanarak bir çalışma kitabının çalışma sayfaları arasında resimler, grafikler ve diğer çizim nesnelerinin kopyalanmasını yapmak için birkaç ve en basit kod satırı kullanarak bir konsol uygulaması oluşturuyoruz.
 
-Bu belge, geliştiricilere şekillerin (resimler, grafikler, kontroller ve diğer çizim nesneleri) çalışma sayfaları arasında nasıl kopyalanacağı konusunda ayrıntılı bir anlayış sağlamak için tasarlanmıştır.
+Bu belge, geliştiricilere, çalışma sayfaları arasında şekillerin (resimler, grafikler, denetimler ve diğer çizim nesneleri) nasıl kopyalanacağı hakkında detaylı bir anlayış sağlamak için tasarlanmıştır.
 
 {{% /alert %}}
 
-## **Şekilleri Kopyalama**
+## **Şekillerin Kopyalanması**
 
-Bu makalede, aşağıdakilerin nasıl yapılacağı açıklanmaktadır:
+Bu makalede şunları açıklar:
 
-- [Resmi bir çalışma sayfasından diğerine kopyalama](/cells/tr/java/copy-shapes-between-worksheets/#copying-a-picture-from-one-worksheet-to-another).
-- [Grafiği bir çalışma sayfasından diğerine kopyalama](/cells/tr/java/copy-shapes-between-worksheets/#task-2-copying-a-chart-from-one-worksheet-to-another).
-- [Denetimleri ve diğer çizim nesnelerini bir çalışma sayfasından diğerine kopyalama](/cells/tr/java/copy-shapes-between-worksheets/#task-3-copying-controls-and-other-drawing-objects-from-one-worksheet-to-another).
+- [Bir çalışma sayfasından diğerine bir resmi kopyalama](/cells/tr/java/copy-shapes-between-worksheets/#bir-çalışma-sayfasından-diğerine-bir-resmin-kopyalanması).
+- [Bir çalışma sayfasından diğerine bir grafik kopyalama](/cells/tr/java/copy-shapes-between-worksheets/#görev-2-bir-çalışma-sayfasından-diğerine-bir-grafik-kopyalanması).
+- [Bir çalışma sayfasından diğerine denetimler ve diğer çizim nesnelerini kopyalama](/cells/tr/java/copy-shapes-between-worksheets/#görev-3-denetimler-ve-diğer-çizim-nesnelerini-bir-çalışma-sayfasından-diğerine-kopyalama).
 
-### **Bir Çalışma Sayfasından Bir Resmi Diğerine Kopyalama**
+### **Bir Resmi Bir Çalışsayfasından Başka Birine Kopyalama**
 
-#### **1. Adım: Microsoft Excel'de resim ve grafik içeren bir çalışma kitabı oluşturma**
+#### **Adım 1: Resim ve Grafik ile Microsoft Excel'de bir çalışma kitabı oluşturma**
 
 1. Microsoft Excel'de yeni bir çalışma kitabı oluşturuldu.
-1. İlk çalışma sayfasına bir resim ve ikinci çalışma sayfasına bir grafik ekleyin.
+1. Birinci çalışma sayfasına bir resim ve ikinci çalışma sayfasına bir grafik eklendi.
 
- Aşağıdaki ekran görüntüleri, Microsoft Excel'de oluşturulan iki şablon çalışma sayfasını göstermektedir.
+   Aşağıdaki ekran görüntüleri, Microsoft Excel'de oluşturulan iki şablon çalışma sayfasını göstermektedir.
 
-   **Grafik içeren çalışma sayfası “Grafik”**
+   **Grafik** adlı çalışma sayfası ile
 
-![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_1.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_1.png)
 
-**Resimli “Resim” çalışma sayfası**
+**Resim** adlı çalışma sayfası ile
 
-![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_2.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_2.png)
 
-Şimdi, “Resim” adlı çalışma sayfasındaki resmi, son çalışma sayfası olan “Sonuç” a kopyalayın.
+Şimdi, “Resim” adlı çalışma sayfasındaki resmi son çalışma sayfası olan “Sonuç”a kopyalayın.
 
-#### **2. Adım: Aspose.Cells.Zip dosyasını indirin**
+#### **Adım 2: Aspose.Cells.Zip'i İndirme**
 
-1. [İndir Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
-1. Geliştirme bilgisayarınızda açın.
+1. [Aspose.Cells for Java'yi indirin](https://downloads.aspose.com/cells/java).
+1. Geliştirme bilgisayarınızda zip dosyasını açın.
 
- Herşey[Aspose](http://www.aspose.com/) bileşenler kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun zaman sınırı yoktur ve yalnızca üretilen belgelere filigran ekler.
+   Tüm [Aspose](http://www.aspose.com/) bileşenleri yüklendiğinde değerlendirme modunda çalışır. Değerlendirme modunun bir zaman limiti yoktur ve yalnızca üretilen belgelere filigran enjekte eder.
 
-#### **3. Adım: Bir Proje Oluşturun**
+#### **Adım 3: Bir Proje Oluşturma**
 
-Eclipse gibi bir Java düzenleyici kullanarak bir proje oluşturabilir veya bir NotePad kullanarak basit bir program oluşturabilirsiniz.
+Bir Java düzenleyici kullanarak bir proje oluşturabilirsiniz, örneğin Eclipse veya bir Not Defteri kullanarak basit bir program oluşturabilirsiniz.
 
-#### **4. Adım: Sınıf Yolu Ekleyin**
+#### **Adım 4: Sınıf Yolu Eklemek**
 
-Eclipse kullanarak bir Sınıf Yolu ayarlamak için lütfen aşağıdaki adımları gerçekleştirin:
+Eclipse'te Class Path ayarlamak için lütfen aşağıdaki adımları izleyin:
 
-1. Aspose.Cells.jar ve dom4j_1.6.1.jar'ı Aspose.Cells.zip'ten çıkarın.
-1. Eclipse'de projenin sınıf yolunu ayarlayın:
-1. Eclipse'de projenizi seçin ve ardından Proje-Özellikler menülerine tıklayın.
-1. Açılır pencerenin sol tarafındaki "Java Derleme Yolu"nu seçin, ardından "Kütüphaneler" sekmesini seçin, "JAR'ları Ekle" veya "Harici JAR'ları Ekle"ye tıklayarak Aspose.Cells.jar ve dom4j_1.6.1.jar'ı seçin ve bunları derlemeye ekleyin yollar.
-1. Aspose'in bileşenlerinin API'lerini çağırmak için uygulama yazın.
+1. Aspose.Cells.jar ve dom4j_1.6.1.jar dosyalarını Aspose.Cells.zip'ten çıkartın.
+1. Eclipse'te proje classpath'ini ayarlayın:
+1. Eclipse'te projeyi seçin ve ardından menülerden Proje-Özellikler'e tıklayın.
+1. Açılan pencerenin sol tarafında "Java Build Path"'i seçin, ardından "Libraries" sekmesini seçin, "Add JARs" veya "Add External JARs"'ı tıklayarak Aspose.Cells.jar ve dom4j_1.6.1.jar'ı seçin ve build yoluna ekleyin.
+1. Aspose'un bileşenlerinin API'lerini çağırmak için uygulama yazın.
 
-Veya Windows'deki DOS isteminde çalışma zamanında ayarlayabilirsiniz. Örneğin:
+Veya Windows'ta DOS komut isteminde çalışma zamanında ayarlayabilirsiniz. Örneğin:
 
-javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar; Sınıf adı
+javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar; ClassName
 
-#### **Adım 5: Bir resmi bir çalışma sayfasından diğerine kopyalama**
+#### **Adım 5: Bir çalışma sayfasından diğerine resim kopyalama**
 
-Görevi gerçekleştirmek için kod aşağıdadır. “Resim” adlı çalışma sayfasındaki bir resmi “Sonuç” çalışma sayfasına kopyalar.
+Aşağıdaki kod, görevi başarmak için kullanılır. Bu, "Picture" adlı çalışma sayfasından resmi çalışma sayfasına "Sonuç" kopyalar.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyPicturefromOneWorksheetToAnother-CopyPicturefromOneWorksheetToAnother.java" >}}
 
 #### **Sonuç Görev 1:**
 
-Yukarıdaki kodu çalıştırdıktan sonra, “Resim” çalışma sayfasındaki resim artık son çalışma sayfası olan “Sonuç”a kopyalanmıştır.
+Yukarıdaki kodu çalıştırdıktan sonra, resim "Picture" çalışma sayfasından artık en son çalışma sayfasına "Sonuç" kopyalanmıştır.
 
-**Kopyalanan resim ile çalışma sayfası “Sonuç”**
+**Kopyalanan resimli "Sonuç" çalışma sayfası**
 
-![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_3.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_3.png)
 
-### **Görev 2: Grafiği Bir Çalışma Sayfasından Diğerine Kopyalama**
+### **Görev 2: Bir çalışma sayfasından diğerine grafik kopyalama**
 
-#### **1. Adım: Grafiği bir çalışma sayfasından diğerine kopyalama**
+#### **Adım 1: Bir çalışma sayfasından diğerine bir grafik kopyalayın**
 
-Görevi gerçekleştirmek için bileşen tarafından kullanılan gerçek kod aşağıdadır.
+Aşağıdaki kod, görevi başarmak için kullanılır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyChartFromOneWorksheetToAnother-CopyChartFromOneWorksheetToAnother.java" >}}
 
 #### **Sonuç Görev 2**
 
-Yukarıdaki kodu çalıştırdıktan sonra, "Grafik" çalışma sayfasındaki grafik "Sonuç" çalışma sayfasına kopyalanır. Lütfen ortaya çıkan çalışma sayfasının aşağıdaki anlık görüntüsüne bakın.
+Yukarıdaki kodu çalıştırdıktan sonra, "Chart" çalışma sayfasından grafik "Sonuç" çalışma sayfasına kopyalanmıştır. Lütfen oluşan çalışma sayfasının aşağıdaki ekran görüntüsüne bakın.
 
-**Kopyalanan resim ve çizelge ile “Sonuç” çalışma sayfası**
+**Kopyalanan resimli ve grafikli "Sonuç" çalışma sayfası**
 
-![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_4.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_4.png)
 
-### **Görev 3: Kontrolleri ve Diğer Çizim Nesnelerini Bir Çalışma Sayfasından Diğerine Kopyalama**
+### **Görev 3: Bir çalışma sayfasından diğerine denetimler ve diğer çizim nesnelerini kopyalama**
 
-**Metin kutusu ve oval içeren çalışma sayfası “Kontrol”**
+**Metin kutusu ve oval bulunan "Control" çalışma sayfası**
 
-![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_5.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_5.png)
 
-Lütfen istediğiniz sonuçları elde etmek için gerçekleştirmeniz gereken aşağıdaki basit adımlara bakın.
+İstenen sonuçları elde etmek için yapmanız gereken basit adımları aşağıda bulabilirsiniz.
 
-#### **1. Adım: Bir çalışma sayfasını çalışma kitapları arasında kopyalama**
+#### **Adım 1: Çalışma kitapları arasında bir çalışma sayfası kopyalama**
 
-Görevi gerçekleştirmek için bileşen tarafından kullanılan kod aşağıdadır.
+Görevi başarmak için bileşen tarafından kullanılan kod aşağıdaki gibidir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyWorksheetBetweenWorkbooks-CopyWorksheetBetweenWorkbooks.java" >}}
 
 #### **Sonuç Görev 3**
 
-Yukarıdaki kodu çalıştırdıktan sonra, "Kontrol" çalışma sayfasındaki kontroller şimdi "Sonuç" çalışma sayfasına kopyalanır. Lütfen aşağıdaki "Sonuç" anlık görüntüsüne bakın.
+Yukarıdaki kodu çalıştırdıktan sonra, "Control" çalışma sayfasındaki kontroller artık "Sonuç" çalışma sayfasına kopyalanmıştır. Lütfen "Sonuç" çalışma sayfasının aşağıdaki ekran görüntüsüne bakın.
 
-**Kopyalanan metin kutusu ve oval ile çalışma sayfası "Sonuç"**
+**Kopyalanan metin kutusu ve oval olan "Sonuç" çalışma sayfası**
 
-![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_6.png)
+![todo:image_alt_text](copy-shapes-between-worksheets_6.png)
 
-## **Çözüm**
+## **Sonuç**
 
-Bu makale, Aspose.Cells'i kullanarak resimler, çizelgeler ve diğer çizim nesneleri gibi farklı şekillerin nasıl kopyalanacağını göstermiştir. Umarız size biraz fikir verir ve bu seçenekleri farklı senaryolarınıza göre kullanabilirsiniz.
+Bu makale, Aspose.Cells kullanarak resimler, grafikler ve diğer çizim nesneleri gibi farklı şekillerin kopyalanacağını göstermiştir. Umarım size bir bakış açısı kazandırır ve farklı senaryolarınıza göre bu seçenekleri kullanabilirsiniz.
 
-Aspose.Cells, çözümler için diğerlerinden daha fazla esneklik sunabilir ve belirli iş uygulaması gereksinimlerini karşılamak için olağanüstü hız, verimlilik ve güvenilirlik sağlar. Sonuçlar, Aspose.Cells'in yıllarca süren araştırma, tasarım ve dikkatli ayarlamadan yararlandığını gösteriyor.
+Aspose.Cells, özel iş uygulama gereksinimlerini karşılamak için olağanüstü hız, verimlilik ve güvenilirlik sunar. Sonuçlar, Aspose.Cells'ın yıllar süren araştırma, tasarım ve dikkatli ayarlardan yararlandığını göstermektedir.
 
- Soru, görüş ve önerilerinizi içtenlikle karşılıyoruz.[Aspose.Cells Forum](https://forum.aspose.com/c/cells/9).
+Sorularınızı, yorumlarınızı ve önerilerinizi [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9)'da bekliyoruz.

@@ -1,83 +1,84 @@
-﻿---
-title: Jython での行と列のコピー
+---
+title: Jythonで行と列をコピーする
 type: docs
 weight: 30
 url: /ja/java/copying-rows-and-columns-in-jython/
 ---
+
 ## **Aspose.Cells - 行と列のコピー**
-を使用してドキュメントを追加するには**Aspose.Cells Jython の場合は Java**.ここでサンプルコードを見ることができます。
+**Aspose.Cells Java for Jython**を使用してドキュメントを追加します。ここでは例を示します。
 
-**Jython コード**
+**Jythonコード**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
-from aspose-cells import 設定
+ from aspose-cells import Settings
 
-com.aspose.cells インポート ワークブックから
+from com.aspose.cells import Workbook
 
-クラス RowsAndColumns:
+class RowsAndColumns:
 
-デフォルト__初期化__（自己）：
-
-
-
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
+    def __init__(self):
 
 
 
- # 行のコピー
-
-self.copy_rows()
-
- # 列のコピー
-
-self.copy_columns()
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
 
 
- def copy_rows (dataDir):
+        # Copying Rows
 
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'
+        self.copy_rows()
 
- # Excel ファイル パスによる Workbook オブジェクトのインスタンス化
+        # Copying Columns
 
-ワークブック = ワークブック (dataDir + 'Book1.xls')
-
- Excel ファイルの最初のワークシートにアクセスする
-
-ワークシート = workbook.getWorksheets().get(0)
-
- # データ、フォーマット、画像、および描画オブジェクトを含む 2 行目をコピーします
-
- ワークシートの 12 行目に。
-
- worksheet.getCells().copyRow(worksheet.getCells(),1,11)
-
- # 変更した Excel ファイルをデフォルト (Excel 2003) 形式で保存
-
-workbook.save(dataDir + "Copy Rows.xls")
-
- print "行のコピーに成功しました。"
+        self.copy_columns()
 
 
 
- def copy_columns (dataDir):
+    def copy_rows(dataDir):
 
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'    
 
- # Excel ファイル パスによる Workbook オブジェクトのインスタンス化
+        # Instantiating a Workbook object by excel file path
 
-ワークブック = ワークブック()
+        workbook = Workbook(dataDir + 'Book1.xls')
 
- Excel ファイルの最初のワークシートにアクセスする
+        # Accessing the first worksheet in the Excel file
 
-ワークシート = workbook.getWorksheets().get(0)
+        worksheet = workbook.getWorksheets().get(0)
 
- # データをヘッダー行に入れる (A1:A4)
+        # Copy the second row with data, formattings, images and drawing objects
 
-私は= 0
+        # to the 12th row in the worksheet.
 
-私がいる間< 5:
+        worksheet.getCells().copyRow(worksheet.getCells(),1,11)
+
+        # Saving the modified Excel file in default (that is Excel 2003) format
+
+        workbook.save(dataDir + "Copy Rows.xls")
+
+        print "Copy Rows Successfully." 
+
+
+
+    def copy_columns(dataDir):
+
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'    
+
+        # Instantiating a Workbook object by excel file path
+
+        workbook = Workbook()
+
+        # Accessing the first worksheet in the Excel file
+
+        worksheet = workbook.getWorksheets().get(0)
+
+        # Put some data into header rows (A1:A4)
+
+        i = 0
+
+        while i < 5:
 
             worksheet.getCells().get(i, 0).setValue("Header Row #i")
 
@@ -128,7 +129,7 @@ if __name__ == '__main__':
     RowsAndColumns()
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**添付書類 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に示すいずれかのソーシャルコーディングサイトから**Aspose.Cellsのドキュメントを追加する**をダウンロード:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

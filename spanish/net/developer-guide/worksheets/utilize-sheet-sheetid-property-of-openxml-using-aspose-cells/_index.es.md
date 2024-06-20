@@ -3,26 +3,27 @@ title: Utilice la propiedad Sheet.SheetId de OpenXml usando Aspose.Cells
 type: docs
 weight: 200
 url: /es/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
-description: Este artículo muestra cómo utilizar la propiedad Sheet.SheetId de OpenXml mediante la manipulación de Excel .NET API o C# Biblioteca mediante programación.
-keywords: sheet id property of openxml c#, sheet id excel worksheet c#
+description: Este artículo muestra cómo utilizar la propiedad Sheet.SheetId de OpenXml utilizando la manipulación de Excel a través de la API .NET o la biblioteca C# de forma programática.
+keywords: propiedad de id de hoja de openxml c#, hoja de cálculo id de hoja c#
 ---
-##  **Posibles escenarios de uso**
 
-*Hoja.HojaId*la propiedad se encuentra dentro de la*DocumentFormat.OpenXml.Hoja de cálculo* espacio de nombres y es parte de OpenXml. Puedes ver esta propiedad y su valor dentro*libro.xml* como se muestra en la siguiente captura de pantalla. Aspose.Cells proporciona la propiedad equivalente como[**Hoja de trabajo.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid).
+## **Escenarios de uso posibles**
 
-![todo:imagen_alt_texto](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
+La propiedad *Sheet.SheetId* se encuentra dentro del espacio de nombres *DocumentFormat.OpenXml.Spreadsheet* y forma parte de OpenXml. Puede ver esta propiedad y su valor dentro de *workbook.xml* como se muestra en la captura de pantalla siguiente. Aspose.Cells proporciona la propiedad equivalente como [**Worksheet.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid).
 
-##  **Utilice la propiedad Sheet.SheetId de OpenXml usando Aspose.Cells**
+![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
- El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](51740716.xlsx) , lee su Id. de hoja o pestaña, luego le asigna una nueva Id. de pestaña y la guarda como[archivo de salida de Excel](51740717.xlsx). Consulte también la salida de la consola del código que se proporciona a continuación para obtener una referencia.
+## **Utilizar la propiedad SheetId de OpenXml usando Aspose.Cells**
 
-##  **Código de muestra**
+El siguiente código de ejemplo carga el [archivo de Excel de ejemplo](51740716.xlsx), lee su Id de hoja o pestaña, luego le asigna un nuevo Id de pestaña y lo guarda como [archivo de Excel de salida](51740717.xlsx). También consulte la salida de consola del código que se muestra a continuación como referencia.
+
+## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UtilizeSheet_SheetId_PropertyOfOpenXml.cs" >}}
 
-##  **Salida de consola**
+## **Salida de la consola**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet or Tab Id: 1297
 

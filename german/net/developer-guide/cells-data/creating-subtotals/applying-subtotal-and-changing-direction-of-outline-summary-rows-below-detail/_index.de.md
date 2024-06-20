@@ -1,43 +1,44 @@
 ---
-title: Anwenden einer Zwischensumme und Ändern der Richtung der Gliederungszusammenfassungszeilen unter „Detail“.
+title: Anwendung von Zwischensumme und Änderung der Richtung der Zusammenfassungszeilen unterhalb der Details
 type: docs
 weight: 100
 url: /de/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail/
-description: Erfahren Sie, wie Sie mithilfe von Aspose.Cells for .NET API Zwischensummen anwenden und die Richtung der Gliederungszusammenfassungszeilen unter Details ändern.
-keywords: Apply subtotal, Add subtotal, change direction of outline summary Rows below Detail, change direction of outline summary Columns to right of Detail, Create subtotal and change direction of outline summary Rows below Detail
+description: Erfahren Sie, wie Sie Zwischensumme anwenden und die Richtung der Zusammenfassungszeilen unterhalb des Details mithilfe der Aspose.Cells for .NET API ändern.
+keywords: Zwischensumme anwenden, Zwischensumme hinzufügen, Richtung der Zusammenfassungszeilen unterhalb des Details ändern, Richtung der Zusammenfassungszeilen rechts neben dem Detail ändern, Zwischensumme erstellen und Richtung der Zusammenfassungszeilen unterhalb des Details ändern
 ---
+
 {{% alert color="primary" %}}
 
-In diesem Artikel wird erläutert, wie Sie eine Zwischensumme auf Daten anwenden und die Richtung der Gliederungszusammenfassungszeilen unter „Details“ ändern.
+In diesem Artikel wird erläutert, wie Sie eine Zwischensumme auf Daten anwenden und die Richtung der Zusammenfassungszeilen unterhalb des Details ändern können.
 
- Sie können die Zwischensumme mithilfe von auf Daten anwenden[**Arbeitsblatt.Cells.Subtotal()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) Methode. Es werden die folgenden Parameter benötigt.
+Sie können eine Zwischensumme für Daten mithilfe der [**Worksheet.Cells.Subtotal()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) Methode anwenden. Es nimmt die folgenden Parameter an.
 
-- **Zellbereich** – Der Bereich, auf den die Zwischensumme angewendet werden soll
-- **Gruppiere nach** – Das Feld, nach dem gruppiert werden soll, als nullbasierter ganzzahliger Offset
-- **Funktion** - Die Zwischensummenfunktion.
-- **Gesamtliste**– Ein Array nullbasierter Feldoffsets, das die Felder angibt, zu denen die Zwischensummen hinzugefügt werden.
-- **Ersetzen** – Gibt an, ob die aktuellen Zwischensummen ersetzt werden
-- **Seitenumbrüche** – Gibt an, ob ein Seitenumbruch zwischen Gruppen hinzugefügt werden soll
-- **ZusammenfassungBelowData** – Gibt an, ob unter den Daten eine Zusammenfassung hinzugefügt werden soll.
+- **CellArea** - Der Bereich, auf den die Zwischensumme angewendet werden soll
+- **GroupBy** - Das Feld, nach dem gruppiert werden soll, als nullbasierter Ganzzahlenoffset
+- **Funktion** - Die Zwischensummenfunktion
+- **TotalList** - Ein Array von nullbasierten Feldoffsets, die die Felder angeben, zu denen die Zwischensummen hinzugefügt werden
+- **Ersetzen** - Gibt an, ob die aktuellen Zwischensummen ersetzt werden sollen
+- **Seitenumbrüche** - Gibt an, ob zwischen den Gruppen ein Seitenumbruch hinzugefügt werden soll
+- **Zusammenfassung unterhalb der Daten** - Gibt an, ob eine Zusammenfassung unterhalb der Daten hinzugefügt werden soll
 
- Außerdem können Sie die Richtung der Kontur steuern**Zusammenfassungszeilen unten im Detail** wie im folgenden Screenshot gezeigt, mit der Eigenschaft Worksheet.Outline.SummaryRowBelow. Sie können diese Einstellung in Microsoft Excel mit öffnen**Daten > Gliederung > Einstellungen**
+Außerdem können Sie die Richtung der Zusammenfassungszeilen unterhalb des Details wie im folgenden Screenshot gezeigt steuern, indem Sie die Worksheet.Outline.SummaryRowBelow-Eigenschaft verwenden. Sie können diese Einstellung in Microsoft Excel unter **Daten > Gliederung > Einstellungen** öffnen
 
 ![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
 
 {{% /alert %}}
 
-##  Bilder von Quell- und Ausgabedateien
+## Bilder von Quell- und Ausgabedateien
 
-Der folgende Screenshot zeigt die im folgenden Beispielcode verwendete Excel-Quelldatei, die einige Daten in den Spalten A und B enthält.
+Der folgende Screenshot zeigt die verwendete Excel-Quelldatei im untenstehenden Beispielcode, die einige Daten in den Spalten A und B enthält.
 
 ![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_2.png)
 
-Der folgende Screenshot zeigt die vom Beispielcode generierte Excel-Ausgabedatei. Wie Sie sehen können, wurde die Zwischensumme auf den Bereich A2:B11 angewendet und die Richtung der Gliederung ist die Zusammenfassungszeile unter dem Detail.
+Der folgende Screenshot zeigt die von dem Beispielcode generierte Ausgabedatei in Excel. Wie Sie sehen können, wurde eine Zwischensumme für den Bereich A2:B11 angewendet und die Richtung der Zusammenfassung ist unterhalb der Detailinformationen.
 
 ![todo:image_alt_text](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
 
-## C#-Code zum Anwenden der Zwischensumme und Ändern der Richtung der Gliederungszusammenfassungszeilen
+## C#-Code zum Anwenden der Zwischensumme und Ändern der Richtung der Zusammenfassungszeilen
 
-Hier ist der Beispielcode, um die oben gezeigte Ausgabe zu erzielen.
+Hier ist der Beispielcode, um das oben gezeigte Ergebnis zu erzielen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ApplyingSubtotalChangeSummaryDirection-1.cs" >}}

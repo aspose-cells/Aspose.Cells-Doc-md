@@ -1,15 +1,16 @@
-﻿---
+---
 title: Ordenar datos en hojas de cálculo
 type: docs
 weight: 70
 url: /es/java/sort-data-in-spreadsheets/
 ---
+
 ## **Aspose.Cells - Ordenar datos en hojas de cálculo**
 {{% alert color="primary" %}} 
 
-Para ordenar los datos en la hoja de cálculo usando Aspose.Cells, simplemente invoque el método DataSorter.sorter() después de configurar algunas propiedades fáciles de configurar del área de la celda.
+Para ordenar datos en una hoja de cálculo utilizando Aspose.Cells, simplemente invoque el método DataSorter.sorter() después de establecer algunas propiedades fáciles de configurar del área de celdas.
 
-El código Java se menciona a continuación.
+Se menciona el código de Java a continuación.
 
 {{% /alert %}} 
 
@@ -17,7 +18,7 @@ Ordenar datos usando Aspose.Cells
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtain the DataSorter object in the workbook
 
@@ -64,13 +65,13 @@ ca.EndColumn = 2;
 sorter.sort(cells, ca);
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Ordenar datos](/java/sort-data) , o[Clasificación de datos](/cells/es/java/data-sorting).
+Para más detalles, visita [Ordenar Datos](/java/sort-data), o [Ordenar Datos](/cells/es/java/data-sorting).
 
 {{% /alert %}}

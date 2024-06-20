@@ -1,23 +1,24 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.6.0
+---
+title: تغييرات الواجهة البرمجية العامة في Aspose.Cells 8.6.0
 type: docs
 weight: 200
 url: /ar/java/public-api-changes-in-aspose-cells-8-6-0/
 ---
+
 {{% alert color="primary" %}} 
 
- يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.5.2 إلى 8.6.0 والتي قد تهم مطوري الوحدة النمطية / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/java/public-api-changes-in-aspose-cells-8-6-0/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
+يصف هذا الوثيقة التغييرات في واجهة برمجة Aspose.Cells من الإصدار 8.5.2 إلى 8.6.0 التي قد تهم مطوري الوحدات / التطبيقات. إنها تشمل ليس فقط الطرق العامة الجديدة والمحدثة، [الفئات المضافة إلخ](/cells/ar/java/public-api-changes-in-aspose-cells-8-6-0/)، ولكن أيضا وصف لأي تغييرات في السلوك في أسفل الستائر في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم معالجة البيانات الوصفية بدون إنشاء كائن من المصنف**
-كشف هذا الإصدار Aspose.Cells for Java API عن فئتين جديدتين هما WorkbookMetadata & MetadataOptions جنبًا إلى جنب مع MetadataType للتعداد الجديد الذي يسمح الآن بمعالجة خصائص المستند (بيانات التعريف) دون إنشاء مثيل لـ Workbook. فئة WorkbookMetadata خفيفة الوزن وتوفر آلية سهلة الاستخدام وفعالة للغاية[قراءة وكتابة وتحديث خصائص المستند دون التأثير على الأداء العام](/cells/ar/java/using-workbookmetadata/). 
+## **واجهات برمجة التطبيقات الجديدة**
+### **دعم لعملية تعديل البيانات الوصفية بدون إنشاء كائن من المصنف**
+قامت هذه الإصدارة من Aspose.Cells for Java بعرض فئتين جديدتين هما WorkbookMetadata و MetadataOptions جنبًا إلى جنب مع تعداد جديد MetadataType الذي يسمح الآن بتعديل خصائص المستند (البيانات الوصفية) بدون إنشاء مثيل للورقة العمل. فئة WorkbookMetadata خفيفة الوزن وتوفر آلية سهلة الاستخدام وفعالة لـ [قراءة وكتابة وتحديث خصائص المستند دون التأثير على الأداء العام](/cells/ar/java/using-workbookmetadata/). 
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Open Workbook metadata while specifying the appropriate MetadataType
 
@@ -34,14 +35,14 @@ metaWorkbook.getCustomDocumentProperties().add("test", "test");
 metaWorkbook.save(filePath);
 
 {{< /highlight >}}
-### **تمت إضافة الخاصية HtmlSaveOptions.ExportFrameScriptsAndProperties**
-كشف Aspose.Cells for Java 8.6.0 خاصية HtmlSaveOptions.ExportFrameScriptsAndProperties التي يمكن استخدامها للتأثير على إنشاء نصوص إضافية أثناء تحويل جداول البيانات إلى تنسيق HTML. باستخدام الإعدادات الافتراضية ، تقوم واجهات برمجة تطبيقات Aspose.Cells بتصدير جدول البيانات بتنسيق HTML حيث يقوم تطبيق Excel بالتصدير ، أي ؛ الناتج HTML يحتوي على الإطارات والتعليقات الشرطية التي تكتشف نوع المتصفح وتضبط التخطيط وفقًا لذلك. القيمة الافتراضية لخاصية HtmlSaveOptions.ExportFrameScriptsAndProperties صحيحة ، وهذا يعني ؛ يتم التصدير وفقًا لمعايير Excel. إذا تم تعيين الخاصية على "خطأ" ، فلن يقوم API بذلك[إنشاء البرامج النصية المتعلقة بالإطارات والتعليقات الشرطية](/cells/ar/java/disable-exporting-frame-scripts-and-document-properties/). في هذه الحالة ، يمكن عرض HTML الناتج بشكل صحيح في أي متصفح ، ومع ذلك ، لا يمكن استيراده مرة أخرى باستخدام واجهات برمجة تطبيقات Aspose.Cells.
+### **تمت إضافة خاصية HtmlSaveOptions.ExportFrameScriptsAndProperties**
+قامت الإصدارة 8.6.0 من Aspose.Cells for Java بعرض خاصية HtmlSaveOptions.ExportFrameScriptsAndProperties التي يمكن استخدامها للتأثير على إنشاء السكريبتات الإضافية أثناء تحويل الجداول الجدولية إلى تنسيق HTML. مع الإعدادات الافتراضية، تقوم واجهات برمجة Aspose.Cells بتصدير الجداول الجدولية بتنسيق HTML كما يفعل تطبيق Excel في التصدير، أي; يحتوي HTML الناتج على الإطارات والتعليقات الشرطية، التي تكتشف نوع المتصفح وتضبط التخطيط وفقًا لذلك. القيمة الافتراضية لخاصية HtmlSaveOptions.ExportFrameScriptsAndProperties هي true، وهذا يعني؛ يتم التصدير وفقًا لمعايير Excel. إذا تم ضبط الخاصية على false، فإن الواجهة البرمجية لن تقوم [بتوليد السكربتات المتعلقة بالإطارات وتعليقات المستند](/cells/ar/java/disable-exporting-frame-scripts-and-document-properties/). في هذه الحالة، يمكن عرض HTML الناتج بشكل صحيح في أي متصفح، ومع ذلك، لا يمكن استيراده مرة أخرى باستخدام واجهات برمجة Aspose.Cells.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the spreadsheet
 
@@ -58,14 +59,14 @@ options.setExportFrameScriptsAndProperties(false);
 book.save("output.html", options)
 
 {{< /highlight >}}
-### **شكل الخاصية تمت إضافة اسم ماركو**
-كشف Aspose.Cells for Java 8.6.0 خاصية Shape.MarcoName التي يمكن استخدامها[قم بتعيين وحدة نمطية لـ VBA إلى عنصر تحكم النموذج](/cells/ar/java/assign-macro-code-to-form-control/) مثل هذا الزر من أجل توفير التفاعل. الخاصية هي من نوع سلسلة لذلك يمكنها قبول اسم الوحدة وتخصيصها لعنصر التحكم.
+### **تمت إضافة خاصية Shape.MarcoName**
+قامت الإصدارة 8.6.0 من Aspose.Cells for Java بعرض خاصية Shape.MarcoName التي يمكن استخدامها لـ [تعيين وحدة VBA لتحكم النموذج](/cells/ar/java/assign-macro-code-to-form-control/) مثل زر من أجل توفير التفاعل. الخاصية من نوع سلسلة لذلك يمكنها قبول اسم الوحدة وتعيينه للتحكم.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a new Workbook object
 
@@ -114,5 +115,5 @@ button.setMacroName(module.getName() + ".ShowMessage" );
 workbook.save("output.xlsm");
 
 {{< /highlight >}}
-### **تمت إضافة الخاصية OoxmlSaveOptions.UpdateZoom**
-مع إصدار v8.6.0 ، كشف API Aspose.Cells for Java API خاصية OoxmlSaveOptions.UpdateZoom التي يمكن استخدامها لتحديث PageSetup.Zoom إذا PageSetup.FitToPagesWide و / أو PageSetup.FitToPages تم استخدام خصائص ورقة العمل للتحكم.
+### **تمت إضافة خاصية OoxmlSaveOptions.UpdateZoom**
+مع الإصدار 8.6.0، قامت واجهات برمجة Aspose.Cells for Java بعرض خاصية OoxmlSaveOptions.UpdateZoom التي يمكن استخدامها لتحديث PageSetup.Zoom إذا كانت خصائص PageSetup.FitToPagesWide و / أو PageSetup.FitToPagesTall قد تم استخدامها للتحكم في تحجيم ورقة العمل.

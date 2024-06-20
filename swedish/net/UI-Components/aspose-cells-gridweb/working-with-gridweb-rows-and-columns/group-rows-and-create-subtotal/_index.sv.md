@@ -1,39 +1,42 @@
-﻿---
+---
 title: Gruppera rader och skapa delsumma
 type: docs
 weight: 70
-url: /sv/net/group-rows-and-create-subtotal/
+url: /sv/net/aspose-cells-gridweb/group-rows-and-create-subtotal/
+keywords: GridWeb,subtotal,group,ungroup
+description: Denna artikel introducerar hur man grupperar/ogrupperar rader/kolumner och hur man arbetar med delsummor i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb kan skapa en disposition för dina data. Detta låter dig visa och dölja detaljnivåer genom att klicka på kontursymbolerna "+" och "-" för att endast visa de rader som ger sammanfattningar eller rubriker för avsnitt i ett kalkylblad. Du kan använda symbolerna för att se detaljer under en enskild sammanfattning eller rubrik.
+Aspose.Cells.GridWeb kan skapa en översikt för dina data. Detta låter dig visa och dölja detaljnivåer genom att klicka på översiktsymbolerna "+" och "-" för att endast visa de rader som ger sammanfattningar eller rubriker för avsnitt i en arbetsbok. Du kan använda symbolerna för att se detaljer under en individuell sammanfattning eller rubrik.
 
-När du grupperar rader är det viktigt att endast välja de detaljrader som utgör gruppen. Inkludera inte den relaterade sammanfattningsraden. Till exempel, om rad 6 innehåller summor för data i rad 3 till 5, välj endast rad 3 till 5 för att definiera gruppen. Kontrollen Aspose.Cells.GridWeb visar**visa detaljer** (+) och**dölja detaljer** (-) symboler bredvid radrubrikerna som anger grupperna i kalkylbladet.
+Vid gruppering av rader är det viktigt att bara välja detaljrader som utgör gruppen. Inkludera inte relaterad sammanfattningsrad. Till exempel, om rad 6 innehåller totala data i rad 3 till 5, välj endast rad 3 till 5 för att definiera gruppen. Aspose.Cells.GridWeb-reglaget visar **visa detaljer** (+) och **dölj detaljer** (-) symboler bredvid radrubrikerna som anger grupperna i arbetsboken.
 
-Aspose.Cells.GridWeb låter dig också skapa delsummor baserat på vilket datafält som helst. En delsumma är inte nödvändigtvis en summa: Det kan vara ett medelvärde, antal, minimum, maximum eller annan statistisk beräkning.
+Aspose.Cells.GridWeb tillåter också att du skapar delsummer baserat på vilket som helst datafält. En delsumma är inte nödvändigtvis en summa: det kan vara en genomsnitt, räkning, minimum, maximum eller annan statistisk beräkning.
 
-Det här ämnet diskuterar gruppering av rader och skapa delsummor med hjälp av Aspose.Cells.GridWeb API. Utvecklare kan gruppera rader med valfri kapslingsnivå och enkelt skapa delsummor.
+Detta ämne diskuterar gruppering av rader och skapande av delsummor med Aspose.Cells.GridWeb API. Utvecklare kan gruppera rader med vilken nivå av inbäddning som helst och skapa delsummor enkelt.
 
 {{% /alert %}} 
-## **Gruppera rader**
-Så här grupperar du ett specifikt antal rader:
+## **Gruppering av rader**
+För att gruppera ett visst antal rader:
 
-1. Lägg till Aspose.Cells.GridWeb-kontrollen till ett webbformulär.
-1. Få tillgång till ett arbetsblad.
-1. Välj önskat antal celler i rader.
-1. Gruppera raderna.
+1. Lägg till Aspose.Cells.GridWeb-kontrollen i en webbformulär.
+2. Hämta ett arbetsblad.
+3. Välj det önskade antalet celler i rader.
+4. Gruppera raderna.
 
-När raderna är grupperade visas en expandera/komprimera-knapp överst på radernas sammanfattningsrad. Du kan ändra riktningsinställningen. Egenskapen WebWorksheet.IsSummaryRowBelow är en boolesk egenskap. Ställ in den på false (standard) och sammanfattningsraden kommer att vara ovanför detaljraderna. Ställ in den på sant så kommer sammanfattningsraden att vara under detaljraderna. Klicka på knappen expandera/komprimera för att expandera eller komprimera grupperade rader.
+När raderna är grupperade, visas en expandera/kollapsa-knapp i toppen av radernas sammanfattningsrad. Du kan ändra riktninginställningen. Egenskapen WebWorksheet.IsSummaryRowBelow är en Boolean-egenskap. Ställ in den på falskt (standard) så visas sammanfattningenraden ovanför detaljraderna. Ställ in den på sant så visas sammanfattningenraden nedanför detaljraderna. Klicka på expandera/kollapsa-knappen för att expandera eller kollapsa grupperade rader.
 
-Följande exempel grupperar raderna från 2:a raden till 10:e raden.
+Följande exempel grupperar raderna från 2: a raden till 10: e raden.
 
-**Gruppera rader** 
+**Gruppering av rader** 
 
 ![todo:image_alt_text](group-rows-and-create-subtotal_1.png)
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -44,16 +47,16 @@ GridWorksheet sheet = GridWeb1.WorkSheets[GridWeb1.ActiveSheetIndex];
 sheet.Cells.GroupRows(1, 9);
 
 {{< /highlight >}}
-### **Häckande grupperade rader**
-Du kan skapa organisationsnivåer samtidigt som du grupperar en uppsättning rader. Du kan gruppera rader bland de grupperade raderna. Följande exempel visar kapslade grupperade rader.
+### **Inbäddning av grupperade rader**
+Du kan skapa organisationens nivåer medan du grupperar en uppsättning rader. Du kan gruppera rader bland grupperade rader. Följande exempel visar inbäddning av grupperade rader.
 
-**Gruppera rader** 
+**Gruppering av rader** 
 
 ![todo:image_alt_text](group-rows-and-create-subtotal_2.png)
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -68,21 +71,21 @@ sheet.Cells.GroupRows(1, 9);
 sheet.Cells.GroupRows(4, 6);
 
 {{< /highlight >}}
-### **Intern process: Hur fungerar kontrollen?**
-Varje rad på arket har ett konturnummer. Standardvärdet för konturnumret är noll. Varje gång du grupperar raderna, ökas dispositionsnumret med 1. Du kan få dispositionsnumret genom att anropa metoden GridWorksheet.Cells.GetRowOutlineLevel().
-## **Dela upp rader**
-Aspose.Cells.GridWeb låter dig dela upp grupperade rader.
+### **Intern process: Hur fungerar kontrolen?**
+Varje rad i arket har ett översiktsnummer. Standardvärdet för översiktsnumret är noll. Varje gång du grupperar raderna ökar översiktsnumret med 1. Du kan hämta översiktsnumret genom att ringa GridWorksheet.Cells.GetRowOutlineLevel () -metoden.
+## **Ogruppering av rader**
+Aspose.Cells.GridWeb tillåter dig att koppla bort grupperade rader.
 
-Så här avgrupperar du ett visst antal rader:
+För att koppla bort ett visst antal rader:
 
-1. Välj ett antal celler i raderna i kalkylbladet för att avgruppera.
-1. Dela upp raderna.
+1. Välj ett antal celler i raderna i arbetsbladet att koppla bort.
+2. Koppla bort raderna.
 
-Följande exempel delar upp raderna från 2:a raden till 10:e raden.
+Följande exempel kopplar bort raderna från 2: a raden till 10: e raden.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -96,15 +99,15 @@ sheet.Cells.UngroupRows(1, 9); 
 
 {{% alert color="primary" %}} 
 
-När du anropar metoden GridWorksheet.Cells.UngroupRows() sätts konturnummer för grupperade rader till noll.
+När du ringer GridWorksheet.Cells.UngroupRows () -metoden sätts grupperade raders översiktsnummer till noll.
 
 {{% /alert %}} 
-## **Skapar delsumma**
-Kontrollens delsummafunktion kan gruppera raderna i arket med en specificerad kolumn och beräkna sammanfattningen av kolumnerna. Aspose.Cells.GridWeb kan automatiskt beräkna delsumma för en lista. När du implementerar delsummor, skisserar kontrollen listan så att du kan visa och dölja detaljraderna för varje delsumma. Innan du lägger till delsummor, sortera på fältet du vill lägga till delsummor på. För att skapa delsummor, använd valfri version av den överbelastade metoden WebWorksheet.CreateSubtotal.
+## **Skapande av delsummer**
+Kontrolens delsumma-funktion kan gruppera raderna i arket med en angiven kolumn och beräkna sammanfattningen av kolumnerna. Aspose.Cells.GridWeb kan automatiskt beräkna delsummovektor för en lista. När du genomför delsummor sammanfattar kontrolen listan så att du kan visa och dölja detaljraderna för varje delsumma. Innan du lägger till delsummer sortera på fältet du vill summera på. För att skapa delsummer, använd en version av överbelastad WebWorksheet.CreateSubtotal-metoden.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public void CreateSubtotal
 
@@ -118,51 +121,51 @@ Kontrollens delsummafunktion kan gruppera raderna i arket med en specificerad ko
 
            SubtotalFunction subtotalFunction,
 
-           int[]subtotalColumnIndexList
+           int[] subtotalColumnIndexList
 
 );
 
 {{< /highlight >}}
 ### **Parameterlista**
 
-|**Nej.**|**Parameternamn**|**Beskrivning**|
-|:- |:- |:- |
-|1|columnNameRowIndex|Radindexet för kolumnnamnsraden.|
-|2|datarader|Antalet datarader.|
-|3|groupByColumnIndex|Kolumnindexet för den kolumn som ska grupperas.|
-|4|subtotalFunktion|Uppräkning av subtotalfunktionstyp.|
-|5|subtotalColumnIndexList|Kolumnindexen som ska subtotaleras.|
-### **Sammanfattningsfunktionslista**
+|**Nr.**|**Parameternamn**|**Beskrivning**|
+| :- | :- | :- |
+|1|columnNameRowIndex|Radens index för kolumnnamnet.|
+|2|dataRows|Antalet datarader.|
+|3|groupByColumnIndex|Kolumnens index som ska grupperas.|
+|4|subtotalFunction|Summafunktionstypenumräkning.|
+|5|subtotalColumnIndexList|Kolumnindexen för att summeras.|
+### **Sammanfattningsfunktioner Lista**
 Det finns flera typer av sammanfattningsfunktioner som stöds av {[SubtotalFunction}}-uppräkningen:
 
-|**Nej.**|**Funktionsnamn**|**Beskrivning**|
-|:- |:- |:- |
-|1|MEDEL|Beräknar medelvärdet av värdena.|
-|2|RÄKNA|Räknar de numeriska värdena i cellerna.|
-|3|COUNTA|Räknar icke-numeriska data i cellerna.|
+|**Nr.**|**Funktionsnamn**|**Beskrivning**|
+| :- | :- | :- |
+|1|AVERAGE|Beräknar medelvärdet av värdena.|
+|2|COUNT|Räknar de numeriska värdena i cellerna.|
+|3|COUNTA|Räknar de icke-numeriska datavärdena i cellerna.|
 |4|MAX|Beräknar det största värdet.|
 |5|MIN|Beräknar det minsta värdet.|
-|6|PRODUKT|Beräknar produkten av värdena.|
-|7|BELOPP|Beräknar summan av värdena.|
-Följande exempel genererar delsummorna som beräknar de icke-numeriska värdena grupperade efter den andra kolumnen i kalkylbladet.
+|6|PRODUCT|Beräknar produkten av värdena.|
+|7|SUM|Beräknar summan av värdena.|
+Följande exempel genererar sammanfattningarna som beräknar de icke-numeriska värdena grupperade efter den andra kolumnen i arbetsbladet.
 
-**Delsummor** 
+**Sammanfattningar** 
 
 ![todo:image_alt_text](group-rows-and-create-subtotal_3.png)
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- sheet.CreateSubtotal(0, sheet.Cells.MaxRow, 1, SubtotalFunction.COUNTA, new int[]{ 1, 2, 3, 4, 5 });
+ sheet.CreateSubtotal(0, sheet.Cells.MaxRow, 1, SubtotalFunction.COUNTA, new int[] { 1, 2, 3, 4, 5 });
 
 {{< /highlight >}}
-## **Tar bort delsumma**
-För att ta bort en delsumma, använd metoden WebWorksheet.RemoveSubtotal. Följande exempel tar bort delsummorna.
+## **Ta bort delsumma**
+För att ta bort en delsumma använder du metoden WebWorksheet.RemoveSubtotal. Följande exempel tar bort delsummeringarna.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -173,19 +176,19 @@ GridWorksheet sheet = GridWeb1.WorkSheets[GridWeb1.ActiveSheetIndex];
 sheet.RemoveSubtotal();
 
 {{< /highlight >}}
-## **Om funktionen SUBTOTAL**
-GridWeb-kontrollen använder formelfunktionen SUBTOTAL för att beräkna delsumman.
+## **Om SUBTOTAL-funktionen**
+GridWeb-kontrollen använder sig av formlafunktionen SUBTOTAL för att beräkna delsumman.
 
-Syntax: SUBTOTAL(funktionsnummer, ref1, ref2, ...)
+Syntax: SUBTOTAL(funktion_num, ref1, ref2, ...)
 
-function_num är ett tal som anger typen av funktion som används vid beräkning av delsumman.
+funktion_num är ett nummer som anger typen av funktion som används vid beräkning av delsumman.
 
-|**1**|**MEDEL**|
-|:- |:- |
-|2|RÄKNA|
+|**1**|**MEDELVÄRDE**|
+| :- | :- |
+|2|COUNT|
 |3|COUNTA|
 |4|MAX|
 |5|MIN|
-|6|PRODUKT|
-|7|BELOPP|
-ref1, ref2, är de områden som ska subtotalas. Om ref1, ref2, ... innehåller andra subtotalfunktioner ignoreras de refererade cellerna för att undvika dubbletter av beräkningar.
+|6|PRODUCT|
+|7|SUM|
+ref1, ref2 är områden som ska summeras. Om ref1, ref2 etc. innehåller andra delsummeringsfunktioner, ignoreras de refererade cellerna för att undvika dubbelberäkning.

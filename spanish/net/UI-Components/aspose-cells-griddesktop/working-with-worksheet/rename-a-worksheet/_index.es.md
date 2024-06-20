@@ -1,22 +1,25 @@
-﻿---
-title: Cambiar el nombre de una hoja de trabajo
+---
+title: Renombrar una Hoja de Cálculo
 type: docs
 weight: 40
-url: /es/net/rename-a-worksheet/
+url: /es/net/aspose-cells-griddesktop/rename-a-worksheet/
+keywords: GridDesktop,renombrar,hoja de cálculo
+description: Este artículo presenta cómo renombrar una hoja de cálculo en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Este tema trata sobre cómo cambiar el nombre de una hoja de cálculo mediante Aspose.Cells.GridDesktop.
+Este tema discute cómo cambiar el nombre de una hoja de cálculo usando Aspose.Cells.GridDesktop.
 
 {{% /alert %}} 
 ## **Ejemplo**
-Cambiar el nombre de una hoja de trabajo es una tarea simple que puede ser muy útil. Por ejemplo, si desea etiquetar hojas de trabajo para que sea obvio lo que contiene cada una. Por ejemplo, un modelo puede tener 12 hojas de cálculo, cada una con un nombre por mes, para contener información de gastos.
+Cambiar el nombre de una hoja de cálculo es una tarea simple que puede ser muy útil. Por ejemplo, si desea etiquetar las hojas de cálculo para que sea obvio lo que contiene cada una. Por ejemplo, un modelo podría tener 12 hojas de cálculo, cada una nombrada por mes, para contener información de gastos.
 
-Para cambiar el nombre de una hoja de trabajo usando el control Aspose.Cells.GridDesktop:
+Para renombrar una hoja de cálculo usando el control Aspose.Cells.GridDesktop:
 
-1. Agregue un control Aspose.Cells.GridDesktop a un formulario.
-1. Obtenga la referencia de una hoja de trabajo deseada.
-1. Establezca el nombre de la hoja de trabajo utilizando su referencia.
+1. Agregar un control Aspose.Cells.GridDesktop a un formulario.
+1. Obtener la referencia de una hoja de cálculo deseada.
+1. Establecer el nombre de la hoja de cálculo usando su referencia.
 
 
 
@@ -24,6 +27,6 @@ Para cambiar el nombre de una hoja de trabajo usando el control Aspose.Cells.Gri
 
 {{% alert color="primary" %}} 
 
- Antes de cambiar el nombre de la hoja de trabajo, se requiere acceder a la referencia de esa hoja de trabajo. Hay muchas formas de acceder a la referencia de una hoja de cálculo. Para obtener más información sobre esas formas, consulte[Acceder a las hojas de trabajo](/cells/es/net/accessing-worksheet/).
+Antes de cambiar el nombre de la hoja de cálculo, es necesario acceder a la referencia de esa hoja de cálculo. Hay muchas formas de acceder a una referencia de hoja de cálculo. Para aprender sobre esas formas, consulte [Acceso a Hojas de Cálculo](/cells/es/net/aspose-cells-griddesktop/accessing-worksheet/).
 
 {{% /alert %}}

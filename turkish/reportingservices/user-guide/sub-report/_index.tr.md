@@ -1,24 +1,25 @@
-﻿---
+---
 title: Alt Rapor
 type: docs
 weight: 90
 url: /tr/reportingservices/sub-report/
 ---
+
 {{% alert color="primary" %}} 
 
-Bir alt rapor, bir tablo öğesine gömülebilir. Biçim şöyledir: &=subreport{ReportName=raporunuzun adı; parametre1 adı = parametre1 değeri; parametre2 adı = parametre2 değeri; ...}
+Bir alt rapor bir tablo öğesine yerleştirilebilir. Format şudur: &=subreport{ReportName=Rapor adınız; parametre1 adı = parametre1 değeri; parametre2 adı = parametre2 değeri; ...}
 
-**Rapor tanımındaki bir alt rapor** 
+**Bir rapor tanımındaki bir alt rapor** 
 
-![yapılacaklar:resim_alternatif_metin](sub-report_1.png)
+![todo:image_alt_text](sub-report_1.png)
 
-Örnekte alt raporun adı “Satış Siparişi Detayı”dır. SalesOrderNumber adında bir parametresi vardır. Parametrenin değeri EmpSalesDetail.SalesOrderNumber şeklindedir.
-### **Alt Raporlarla İlgili Kısıtlamalar**
+Örnekte, alt raporun adı “Satış Siparişi Detay”dır. Bir parametre vardır, SalesOrderNumber. Parametrenin değeri EmpSalesDetail.SalesOrderNumber'dir.
+### **Alt Raporlar üzerindeki Kısıtlamalar**
 1. Alt rapor Aspose.Cells.ReportingServices Designer ile tasarlanmalıdır.
-1. Alt rapor, yalnızca tablo grubu satırına gömülebilir ve grup satırı, alt rapor dışında herhangi bir öğe içeremez. Tablo ayrıntı satırlarına veya alt bilgi satırlarına bir alt raporun yerleştirilmesine izin verilmez.
-1. Şu anda birden fazla düzeyi iç içe yerleştirme desteklenmemektedir. Alt rapor, katıştırılmış bir rapor içeremez.
+1. Alt rapor yalnızca tablo grup satırına gömülebilir ve grup satırı alt rapor dışında herhangi bir öğe içeremez. Alt raporun tablo detay satırlarına veya altbilgi satırlarına gömülmesine izin verilmez.
+1. Şu anda, birden fazla seviyede iç içe geçme desteklenmemektedir. Alt rapor gömülü bir rapor içeremez.
 
 {{% /alert %}} 
-###### **Bu bölüm aşağıdaki konuları içerir:**
+###### **Bu bölüm şu konuları içerir:** 
 - [Tablo Öğesi Oluşturma](/cells/tr/reportingservices/creating-table-item/)
-- [Alt Rapor Öğesi Ekle](/cells/tr/reportingservices/add-sub-report-item/)
+- [Alt Rapor Öğesi Ekleme](/cells/tr/reportingservices/add-sub-report-item/)

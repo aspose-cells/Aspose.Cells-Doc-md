@@ -1,44 +1,45 @@
-﻿---
-title: Verschlüsseln von Excel-Dateien in Aspose.Cells
+---
+title: Verschlüsselung von Excel Dateien in Aspose.Cells
 type: docs
 weight: 90
 url: /de/net/encrypting-excel-files-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel (97 - 2007) ermöglicht es Ihnen, Ihre Tabellenkalkulationen zu verschlüsseln und mit einem Kennwort zu schützen. Es verwendet Algorithmen, die von einem Kryptografiedienstanbieter oder CSP bereitgestellt werden, eine Reihe von Kryptografiealgorithmen mit unterschiedlichen Eigenschaften. Der Standard-CSP ist „Office 97/2000-kompatibel“ oder „Schwache Verschlüsselung (XOR)“. Es ist wichtig, die richtige Länge des Verschlüsselungsschlüssels zu wählen. Einige CSPs unterstützen nicht mehr als 40 oder 56 Bit. Das gilt als schwache Verschlüsselung. Für eine starke Verschlüsselung ist eine Mindestschlüssellänge von 128 Bit erforderlich. Microsoft Windows enthält CSPs, die ebenfalls starke Verschlüsselungstypen anbieten, beispielsweise den 'Microsoft Strong Cryptographic Provider'. Um Ihnen eine Vorstellung zu geben: Banken verwenden eine 128-Bit-Verschlüsselung, um die Verbindung mit ihren Internet-Banking-Systemen zu verschlüsseln.
+Microsoft Excel (97 - 2007) ermöglicht es Ihnen, Ihre Tabellenkalkulationen zu verschlüsseln und mit einem Passwort zu schützen. Dabei verwendet es von einem kryptografischen Dienstanbieter bereitgestellte Algorithmen - eine Reihe kryptografischer Algorithmen mit unterschiedlichen Eigenschaften. Der Standard-Kryptodienstanbieter ist 'Office 97/2000-kompatibel' oder 'Schwache Verschlüsselung (XOR)'. Es ist wichtig, die geeignete Verschlüsselungsschlüssellänge zu wählen. Einige Kryptodienstanbieter unterstützen nicht mehr als 40 oder 56 Bits. Das gilt als schwache Verschlüsselung. Für starke Verschlüsselung ist eine Mindestschlüssellänge von 128 Bits erforderlich. Microsoft Windows enthält auch Kryptodienstanbieter, die starke Verschlüsselungstypen unterstützen, z.B. der 'Microsoft Strong Cryptographic Provider'. Zur Veranschaulichung: 128-Bit-Verschlüsselung ist das, was Banken zur Verschlüsselung der Verbindung mit ihren Internet-Banking-Systemen verwenden.
 
-Mit Aspose.Cells können Sie Microsoft Excel-Dateien mit Ihrem gewünschten Verschlüsselungstyp verschlüsseln und mit einem Kennwort schützen.
+Mit Aspose.Cells können Sie Microsoft Excel-Dateien mit dem gewünschten Verschlüsselungstyp verschlüsseln und mit einem Passwort schützen.
 
 {{% /alert %}} 
-## **Mit Microsoft Excel**
-So legen Sie die Dateiverschlüsselungseinstellungen in Microsoft Excel fest (hier Microsoft Excel 2003):
+## **Verwendung von Microsoft Excel**
+Um die Dateiverschlüsselungseinstellungen in Microsoft Excel festzulegen (hier Microsoft Excel 2003):
 
-1.  Von dem**Werkzeug** Menü, auswählen**Optionen**.
- Ein Dialogfeld wird angezeigt.
-1.  Wähle aus**Sicherheit** Tab.
-1.  Geben Sie ein Passwort ein und klicken Sie auf**Fortschrittlich** 
-   **Dialogfeld „Optionen“.** 
+1. Wählen Sie im **Extras**-Menü die Option **Optionen** aus.
+   Ein Dialogfeld wird angezeigt.
+1. Wählen Sie den Tab **Sicherheit** aus.
+1. Geben Sie ein Passwort ein und klicken Sie auf **Erweitert** 
+   **Dialogfeld Optionen** 
 
-![todo: Bild_alt_Text](encrypting-excel-files-in-aspose-cells_1.png)
-
-
+![todo:image_alt_text](encrypting-excel-files-in-aspose-cells_1.png)
 
 
-1.  Wählen Sie den Verschlüsselungstyp und bestätigen Sie das Passwort.
 
-   **Dialogfeld „Verschlüsselungstyp“.** 
 
-![todo: Bild_alt_Text](encrypting-excel-files-in-aspose-cells_2.png)
+1. Wählen Sie den Verschlüsselungstyp aus und bestätigen Sie das Passwort. 
+
+   **Dialogfeld Verschlüsselungstyp** 
+
+![todo:image_alt_text](encrypting-excel-files-in-aspose-cells_2.png)
 
 
 
 ## **Verschlüsselung mit Aspose.Cells**
-Das folgende Beispiel zeigt, wie eine Excel-Datei mit Aspose.Cells API verschlüsselt und mit einem Kennwort geschützt wird.
+Das folgende Beispiel zeigt, wie Sie mit dem Aspose.Cells-API eine Excel-Datei verschlüsseln und kennwortgeschützt machen können.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a Workbook object.
 
@@ -65,7 +66,7 @@ workbook.Save("encryptedBook1.xls");
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Encrypting%20Excel%20Files)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1))

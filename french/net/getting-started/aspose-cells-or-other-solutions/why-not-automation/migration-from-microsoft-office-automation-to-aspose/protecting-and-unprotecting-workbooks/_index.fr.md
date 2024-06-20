@@ -1,28 +1,29 @@
-﻿---
+---
 title: Protéger et déprotéger des classeurs
 type: docs
 weight: 20
 url: /fr/net/protecting-and-unprotecting-workbooks/
 ---
+
 {{% alert color="primary" %}} 
 
-Pour empêcher quelqu'un de modifier, déplacer ou supprimer accidentellement ou délibérément des feuilles de calcul, vous pouvez protéger les éléments du classeur avec ou sans mot de passe. Pour protéger la structure d'un classeur afin que les feuilles de calcul du classeur ne puissent pas être déplacées, supprimées, masquées, affichées ou renommées, et que de nouvelles feuilles de calcul ne puissent pas être insérées, spécifiez le ProtectionType comme Structure.
+Pour empêcher quelqu'un de modifier, déplacer ou supprimer accidentellement ou délibérément des feuilles de calcul, vous pouvez protéger les éléments du classeur avec ou sans mot de passe. Pour protéger la structure d'un classeur afin que les feuilles de calcul du classeur ne puissent pas être déplacées, supprimées, masquées, affichées, renommées et que de nouvelles feuilles de calcul ne puissent pas être insérées, spécifiez le ProtectionType comme Structure.
 
- Pour protéger Windows afin qu'ils aient la même taille et la même position chaque fois que le classeur est ouvert, spécifiez le ProtectionType comme Windows. Dans cet article, nous montrons comment[protéger](/cells/fr/net/protecting-and-unprotecting-workbooks/) et[déprotéger](/cells/fr/net/protecting-and-unprotecting-workbooks/) classeurs utilisant VSTO et Aspose.Cells for .NET pour vous permettre de comparer les deux méthodes.
+Pour protéger les fenêtres afin qu'elles aient la même taille et position chaque fois que le classeur est ouvert, spécifiez le ProtectionType comme Windows. Dans cet article, nous vous montrons comment [protéger](/cells/fr/net/protecting-and-unprotecting-workbooks/) et [déprotéger](/cells/fr/net/protecting-and-unprotecting-workbooks/) des classeurs en utilisant VSTO et Aspose.Cells for .NET pour que vous puissiez comparer les deux méthodes.
 
-Aspose.Cells fonctionne indépendamment de Microsoft Office Automation et est développé pour être facile à utiliser et produire un code soigné.
+Aspose.Cells fonctionne indépendamment de l'automatisation de Microsoft Office et est conçu pour être facile à utiliser et à produire un code propre.
 
-La protection d'un classeur n'empêche pas les utilisateurs de modifier les cellules. Pour protéger les données, vous devez protéger les feuilles de calcul.
+Protéger un classeur n'empêche pas les utilisateurs de modifier des cellules. Pour protéger les données, vous devez protéger les feuilles de calcul.
 
 {{% /alert %}} 
 ## **Protéger un classeur**
-Pour ouvrir un fichier Excel Microsoft existant, protégez le classeur avec la structure et les attributs Windows et enregistrez le fichier.
+Pour ouvrir un fichier Microsoft Excel existant, protéger le classeur avec des attributs de structure et de fenêtres, puis enregistrer le fichier.
 
-Vous trouverez ci-dessous des extraits de code parallèles pour VSTO (C#, VB) et Aspose.Cells for .NET (C#, VB) qui montrent comment protéger un classeur.
+Voici des extraits de code parallèles pour VSTO (C#, VB) et Aspose.Cells for .NET (C#, VB) qui montrent comment protéger un classeur.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -80,7 +81,7 @@ excelApp.Quit();
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -110,12 +111,12 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 
 {{< /highlight >}}
-## **Déprotéger un classeur**
+## **Déprotection d'un classeur**
 Pour déprotéger un classeur, utilisez les lignes de code suivantes pour VSTO (C#, VB) et Aspose.Cells for .NET (C#, VB).
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 
@@ -129,7 +130,7 @@ excelApp.ActiveWorkbook.Unprotect("007");
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 

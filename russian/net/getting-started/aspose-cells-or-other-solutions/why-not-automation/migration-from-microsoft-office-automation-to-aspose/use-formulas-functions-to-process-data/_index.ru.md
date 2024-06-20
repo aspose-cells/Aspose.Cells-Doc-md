@@ -1,23 +1,24 @@
-﻿---
-title: Используйте функции формул для обработки данных
+---
+title: Использование функций формул для обработки данных
 type: docs
 weight: 140
 url: /ru/net/use-formulas-functions-to-process-data/
 ---
+
 {{% alert color="primary" %}}
 
- Этот технический совет проиллюстрирует, как вы можете использовать формулы/функции для обработки данных с**ВСТО** и**Aspose.Cells for .NET** через код.
+Этот технический совет покажет, как можно использовать формулы/функции для обработки данных с **VSTO** и **Aspose.Cells for .NET** с помощью кода. 
 
 {{% /alert %}}
 
 
 
 
-## **1) ВСТО**
+## **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -89,7 +90,7 @@ void AddingCellFormula()
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void AddingCellFormula()
 
@@ -149,14 +150,14 @@ void AddingCellFormula()
 
 ## **Вывод**
 
-### **1) ВСТО**
+### **1) VSTO**
 
-![дело:изображение_альтернативный_текст](use-formulas-functions-to-process-data_1.png)
+![todo:image_alt_text](use-formulas-functions-to-process-data_1.png)
 
-**Фигура 1:** Вывод по формулам с VSTO
+**Рисунок 1:** Вывод с использованием формул с VSTO
 
 ### **2) Aspose.Cells for .NET**
 
-![дело:изображение_альтернативный_текст](use-formulas-functions-to-process-data_2.png)
+![todo:image_alt_text](use-formulas-functions-to-process-data_2.png)
 
-**Фигура 2:** Вывод с использованием формул с Aspose.Cells for .NET
+**Рисунок 2:** Вывод с использованием формул с Aspose.Cells for .NET

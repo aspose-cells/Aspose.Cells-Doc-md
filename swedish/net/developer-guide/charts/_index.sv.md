@@ -1,195 +1,196 @@
 ---
 title: Skapa och hantera diagram
-description: Lär dig hur du använder Aspose.Cells for .NET för att skapa diagram i Microsoft Excel. Vår guide kommer att visa de olika typerna av diagram som kan skapas, samt hur man anpassar deras utseende och formatering.
-keywords: Aspose.Cells for .NET, Chart Creation, Microsoft Excel, Chart Types, Customization, Appearance, Formatting.
+description: Lär dig hur man använder Aspose.Cells for .NET för att skapa diagram i Microsoft Excel. Vår guide kommer att visa de olika typer av diagram som kan skapas, samt hur man anpassar deras utseende och formatering.
+keywords: Aspose.Cells for .NET, Skapande av diagram, Microsoft Excel, Diagramtyper, Anpassning, Utseende, Formatering.
 linktitle: Diagram
 type: docs
 weight: 130
 url: /sv/net/creating-charts/
-description: Skapa ett diagram i CSharp för Excel och ODS-filer.
-keywords: create a chart, make a graph 
+description: Skapa ett diagram i CSharp för Excel och ODS filer.
+keywords: skapa ett diagram, göra en graf 
 ---
+
 {{% alert color="primary" %}}
 
-Det är möjligt att lägga till en mängd olika diagram till kalkylblad med Aspose.Cells. Aspose.Cells tillhandahåller många flexibla diagramobjekt. Det här ämnet diskuterar Aspose.Cells' diagramobjekt.
+Det är möjligt att lägga till en mängd olika diagram i kalkylblad med Aspose.Cells. Aspose.Cells tillhandahåller många flexibla diagramobjekt. Det här ämnet diskuterar Aspose.Cells diagramobjekt.
 
 {{% /alert %}}
 
-##  **Skapa diagram**
+## **Skapa diagram**
 
-###  **Skapa helt enkelt ett diagram**
-Det är enkelt att skapa ett diagram med Aspose.Cells med följande exempelkoder:
+### **Enkelt skapa ett diagram**
+Det är enkelt att skapa ett diagram med Aspose.Cells med följande exempelkod:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateColumnChart-1.cs" >}}
 
-###  **Saker att veta för att skapa ett diagram**
+### **Saker att veta för att skapa ett diagram**
 
-Innan du skapar diagram är det viktigt att förstå några grundläggande begrepp som är användbara när du skapar diagram med Aspose.Cells.
+Innan du skapar diagram är det viktigt att förstå några grundläggande begrepp som är till hjälp när du skapar diagram med Aspose.Cells.
 
-####  **Kartlägga objekt**
+#### **Diagramobjekt**
 
- Aspose.Cells tillhandahåller en speciell uppsättning klasser i[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts)namnutrymme som används för att skapa diagram som stöds av Aspose.Cells. Dessa klasser används för att skapa *diagramobjekt**, som fungerar som diagrambyggstenar. Kartobjekten listas nedan:
+Aspose.Cells tillhandahåller en särskild uppsättning klasser i [**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts)-rymden som används för att skapa de diagram som stöds av Aspose.Cells. Dessa klasser används för att skapa **diagramobjekt**, som fungerar som diagramets byggstenar. Diagramobjekten listas nedan:
 
-- Serier, en enda dataserie i ett diagram.
-- Axis, ett diagrams axel.
-- Diagram, ett enda Excel-diagram.
-- ChartArea, diagramområdet i kalkylbladet.
+- Serie, en enda dataserie i ett diagram.
+- Axeln, ett diagramaxel.
+- Diagram, ett enskilt Excel-diagram.
+- Diagramområde, diagramområdet i arbetsbladet.
 - ChartDataTable, en diagramdatatabell.
-- ChartFrame, ramobjektet i ett diagram.
-- ChartPoint, en enda punkt i en serie i ett diagram.
-- ChartPointCollection, en samling som innehåller alla poäng i en serie.
-- Diagram, en samling diagramobjekt.
+- ChartFrame, objektet ram i ett diagram.
+- ChartPoint, enstaka punkt i en serie i ett diagram.
+- ChartPointCollection, en samling som innehåller alla punkter i en serie.
+- Charts, en samling av diagramobjekt.
 - DataLabels, en samling av alla DataLabel-objekt för den angivna serien.
-- FillFormat, fyllningsformat för en form.
-- Golv, golvet i ett 3D-diagram.
-- Legend, sjökortslegenden.
-- Linje, diagramlinjen.
+- FillFormat, fyllnadsformat för en form.
+- Floor, golvet i ett 3D-diagram.
+- Legend, diagrammets legend.
+- Line, diagramlinjen.
 - SeriesCollection, en samling av serieobjekt.
-- TickLabels, bockmarkeringsetiketterna som är associerade med bockmärken på en diagramaxel.
-- Titel, titeln på ett diagram eller en axel.
-- Trendlinje, en trendlinje i ett diagram.
+- TickLabels, de tickmarkeringsetiketter som är associerade med tickmarkeringar på en diagramaxel.
+- Title, diagram- eller axeltiteln.
+- Trendline, en trendlinje i ett diagram.
 - TrendlineCollection, en samling av alla Trendline-objekt för den angivna dataserien.
-- Väggar, väggarna i ett 3D-diagram.
+- Walls, väggarna i ett 3D-diagram.
 
-####  **Använda diagramobjekt**
+#### **Användning av diagramobjekt**
 
 Som nämnts ovan är alla diagramobjekt instanser av sina respektive klasser och tillhandahåller specifika egenskaper och metoder för att utföra specifika uppgifter. Använd diagramobjekt för att skapa diagram.
 
- Lägg till vilken typ av diagram som helst i ett kalkylblad med hjälp av[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) samling. Varje objekt i[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) samlingen representerar en[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objekt. A[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)objekt kapslar in alla andra diagramobjekt som krävs för att anpassa diagrammets utseende. Nästa avsnitt visar hur du använder några grundläggande diagramobjekt för att skapa ett enkelt diagram.
+Lägg till vilken typ av diagram som helst i ett kalkylblad genom att använda [**Charts**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)-samlingen. Varje objekt i [**Charts**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)-samlingen representerar ett [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)-objekt. Ett [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)-objekt inkluderar alla andra diagramobjekt som krävs för att anpassa diagrammets utseende. Nästa avsnitt visar hur du använder några grundläggande diagramobjekt för att skapa ett enkelt diagram.
 
-###  **Skapa diagram med Aspose.Cells**
+### **Skapa diagram med Aspose.Cells**
 
 **Steg:**
 
-1. Lägg till några data till kalkylbladsceller med[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) föremål[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)metod.
- Detta kommer att användas som datakälla för diagrammet.
-1.  Lägg till ett diagram i kalkylbladet genom att anropa[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) samlingens[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) metod, inkapslad i[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)objekt.
-1.  Ange typen av diagram med[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)uppräkning.
- Till exempel använder exemplet nedan[**ChartType.Pyramid**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)värde som diagramtyp.
-1.  Få tillgång till det nya[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objekt från[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)samling genom att passera dess index.
-1.  Använd något av kartobjekten som är inkapslade i[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)objekt för att hantera diagrammet.
- I exemplet nedan används[**Seriekollektion**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)diagramobjekt för att ange diagrammets datakälla.
+1. Lägg till lite data i kalkylbladsceller med [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) objektets [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) metod.
+   Detta kommer att användas som datakälla för diagrammet.
+1. Lägg till ett diagram i kalkylbladet genom att anropa [**Add**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add)-metoden för [**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)-samlingen, innesluten i [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-objektet.
+1. Ange diagramtypen med [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) uppräkningen.
+   Till exempel, exemplet nedan använder värdet [**ChartType.Pyramid**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) som diagramtyp.
+1. Få tillgång till det nya [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objektet från [**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) samlingen genom att skicka dess index.
+1. Använd något av de diagramobjekt som är kapslade i [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objekt för att hantera diagrammet.
+   Exemplet nedan använder [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) diagramobjektet för att ange diagrammets datakälla.
 
-När du lägger till källdata till diagrammet kan datakällan vara ett cellintervall (som "A1:C3") eller en sekvens av icke-sammanhängande celler (som "A1, A3, A5"), eller en sekvens av värden (som "1,2,3").
+När du lägger till källdata till diagrammet kan datakällan vara en rad celler (t.ex. "A1:C3"), eller en följd av icke-sammanhängande celler (t.ex. "A1, A3, A5"), eller en följd av värden (t.ex. "1,2,3").
 
-Dessa allmänna steg låter dig skapa vilken typ av diagram som helst. Använd olika diagramobjekt för att skapa olika diagram.
+Dessa allmänna steg gör det möjligt för dig att skapa vilken typ av diagram som helst. Använd olika diagramobjekt för att skapa olika diagram.
 
-Det är möjligt att skapa många olika typer av sjökort med Aspose.Cells. Alla standarddiagram som stöds av Aspose.Cells är fördefinierade i en uppräkning med namnet[**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype).
+Det är möjligt att skapa många olika typer av diagram med Aspose.Cells. Alla standarddiagram som stöds av Aspose.Cells är fördefinierade i en uppräkning som heter [**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype).
 
-De fördefinierade diagramtyperna är:
+Fördefinierade diagramtyper är:
 
 |**Diagramtyper**|**Beskrivning**|
 | :- | :- |
-|Kolumn|Representerar klustrade kolumndiagram|
-|KolumnStackad|Representerar staplade kolumndiagram|
-|Kolumn100ProcentStackad|Representerar 100 % staplat kolumndiagram|
-|Kolumn3DClustrerad|Representerar 3D-klustrade kolumndiagram|
-|Kolumn3DStackad|Representerar 3D staplade kolumndiagram|
-|Kolumn3D100PercentStacked|Representerar 3D 100 % staplade kolumndiagram|
-|Kolumn 3D|Representerar 3D-kolumndiagram|
-|Bar|Representerar klustrade stapeldiagram|
-|BarStacked|Representerar staplade stapeldiagram|
-|Bar100PercentStacked|Representerar 100 % staplat stapeldiagram|
-|Bar3DClustered|Representerar 3D-klustrade stapeldiagram|
-|Bar3DStacked|Representerar 3D staplade stapeldiagram|
-|Bar3D100PercentStacked|Representerar 3D 100 % staplat stapeldiagram|
-|Linje|Representerar linjediagram|
-|LineStacked|Representerar staplade linjediagram|
-|Line100PercentStacked|Representerar 100 % staplade linjediagram|
+|Column|Representerar diagram över klustringsskikt|
+|ColumnStacked|Representerar det staplade kolumnl-diagrammet|
+|Column100PercentStacked|Representerar 100% staplat kolumnl-diagram|
+|Column3DClustered|Representerar 3D-staplade kolumnl-diagram|
+|Column3DStacked|Representerar 3D-staplade kolumnl-diagram|
+|Column3D100PercentStacked|Representerar 3D 100% staplat kolumnl-diagram|
+|Column3D|Representerar 3D-kolumnl-diagram|
+|Bar|Representerar det staplade stapeldiagrammet|
+|BarStacked|Representerar det staplade stapeldiagrammet|
+|Bar100PercentStacked|Representerar 100% staplat stapeldiagram|
+|Bar3DClustered|Representerar 3D-staplade stapeldiagram|
+|Bar3DStacked|Representerar 3D-staplade stapeldiagram|
+|Bar3D100PercentStacked|Representerar 3D 100% staplat stapeldiagram|
+|Line|Representerar linjediagram|
+|LineStacked|Representerar staplat linjediagram|
+|Line100PercentStacked|Representerar 100% staplat linjediagram|
 |LineWithDataMarkers|Representerar linjediagram med datamarkörer|
-|LineStackedWithDataMarkers|Representerar staplade linjediagram med datamarkörer|
-|Line100PercentStackedWithDataMarkers|Representerar 100 % staplade linjediagram med datamarkörer|
-|Line3D|Representerar 3D-linjediagram|
-|Paj|Representerar cirkeldiagram|
-|Pie3D|Representerar 3D-cirkeldiagram|
-|PiePie|Representerar cirkeldiagram|
-|PieExploderade|Representerar exploderat cirkeldiagram|
-|Pie3DE exploderade|Representerar 3D-exploderat cirkeldiagram|
-|PieBar|Representerar Bar of Pie Chart|
-|Sprida ut|Representerar spridningsdiagram|
-|ScatterConnectedByCurvesWithDataMarker|Representerar spridningsdiagram kopplade av kurvor, med datamarkörer|
-|ScatterConnectedByCurvesWithoutDataMarker|Representerar spridningsdiagram kopplade av kurvor, utan datamarkörer|
+|LineStackedWithDataMarkers|Representerar staplat linjediagram med datamarkörer|
+|Line100PercentStackedWithDataMarkers|Representerar 100% staplat linjediagram med datamarkörer|
+|Line3D|Representerar 3D linjediagram|
+|Pie|Representerar cirkeldiagram|
+|Pie3D|Representerar 3D cirkeldiagram|
+|PiePie|Representerar kaka av kaka-diagram|
+|PieExploded|Representerar Exploderad Cirkeldiagram|
+|Pie3DExploded|Representerar 3D Exploderad Cirkeldiagram|
+|PieBar|Representerar stapel av cirkeldiagram|
+|Scatter|Representerar spridningsdiagram|
+|ScatterConnectedByCurvesWithDataMarker|Representerar spridningsdiagram anslutna med kurvor, med datamarkörer|
+|ScatterConnectedByCurvesWithoutDataMarker|Representerar spridningsdiagram anslutna med kurvor, utan datamarkörer|
 |ScatterConnectedByLinesWithDataMarker|Representerar spridningsdiagram anslutna med linjer, med datamarkörer|
 |ScatterConnectedByLinesWithoutDataMarker|Representerar spridningsdiagram anslutna med linjer, utan datamarkörer|
-|Område|Representerar områdesdiagram|
-|AreaStacked|Representerar staplade ytdiagram|
-|Area100PercentStacked|Representerar 100 % staplade ytdiagram|
-|Area3D|Representerar 3D-områdesdiagram|
-|Area3DStacked|Representerar 3D Stacked Area Chart|
-|Area3D100PercentStacked|Representerar 3D 100 % staplade ytdiagram|
-|Munk|Representerar munkdiagram|
-|Doughnut Exploderade|Representerar Exploded Donut Chart|
+|Area|Representerar områdesdiagrammet|
+|AreaStacked|Representerar staplade områdesdiagrammet|
+|Area100PercentStacked|Representerar 100% staplade områdesdiagrammet|
+|Area3D|Representerar 3D områdesdiagrammet|
+|Area3DStacked|Representerar 3D staplade områdesdiagrammet|
+|Area3D100PercentStacked|Representerar 3D 100% staplade områdesdiagrammet|
+|Doughnut|Representerar doughnut diagrammet|
+|DoughnutExploded|Representerar Exploderat doughnut diagram|
 |Radar|Representerar radardiagram|
-|RadarWithDataMarkers|Representerar radardiagram med datamarkörer|
-|Radarfylld|Representerar fyllt radardiagram|
-|Surface3D|Representerar 3D-ytdiagram|
-|SurfaceWireframe3D|Representerar Wireframe 3D Ytdiagram|
-|Ytkontur|Representerar konturdiagram|
-|SurfaceContourWireframe|Representerar Wireframe Contour Chart|
-|Bubbla|Representerar bubbeldiagram|
-|Bubble3D|Representerar 3D Bubble Chart|
+|RadarWithDataMarkers|Representerar Radar-diagram med datamarkörer|
+|RadarFilled|Representerar fyllt radardiagram|
+|Surface3D|Representerar 3D ytdiagram|
+|SurfaceWireframe3D|Representerar Wireframe 3D-yt-diagram|
+|SurfaceContour|Representerar konturdiagram|
+|SurfaceContourWireframe|Representerar wireframe konturdiagram|
+|Bubble|Representerar boll diagrammet|
+|Bubble3D|Representerar 3D boll diagrammet|
 |Cylinder|Representerar cylinderdiagram|
-|CylinderStacked|Representerar diagram över staplade cylindrar|
-|Cylinder100PercentStacked|Representerar 100 % staplade cylinderdiagram|
-|Cylinderical Bar|Representerar cylindriskt stapeldiagram.|
-|CylindericalBarStacked|Representerar staplade cylindriska stapeldiagram|
-|CylindericalBar100PercentStacked|Representerar 100 % staplade cylindriska stapeldiagram|
-|CylindericalColumn3D|Representerar 3D Cylindrical Column Chart|
-|Kon|Representerar kondiagram|
-|ConeStacked|Representerar Stacked Cone Chart|
-|Cone100PercentStacked|Representerar 100 % staplade kondiagram|
-|ConicalBar|Representerar koniskt stapeldiagram|
-|ConicalBarStacked|Representerar staplade koniska stapeldiagram|
-|ConicalBar100PercentStacked|Representerar 100 % staplade koniska stapeldiagram|
-|Konisk kolumn3D|Representerar 3D koniskt kolumndiagram|
-|Pyramid|Representerar pyramiddiagram|
-|PyramidStackad|Representerar staplade pyramiddiagram|
-|Pyramid100ProcentStacked|Representerar 100 % staplade pyramiddiagram|
-|PyramidBar|Representerar pyramidstapeldiagram|
-|PyramidBarStacked|Representerar staplad pyramidstapeldiagram|
-|PyramidBar100PercentStacked|Representerar 100 % staplad pyramidstapeldiagram|
-|PyramidColumn3D|Representerar 3D Pyramid Column Chart|
+|CylinderStacked|Representerar staplade cylinderdiagram|
+|Cylinder100PercentStacked|Representerar 100% staplade cylinderdiagram|
+|CylindericalBar|Representerar Cylindrisk stapeldiagram|
+|CylindericalBarStacked|Representerar Stapeldiagram med cylindriska staplar|
+|CylindericalBar100PercentStacked|Representerar 100% stapeldiagram med cylindriska staplar|
+|CylindericalColumn3D|Representerar 3D cylindrisk stapeldiagram|
+|Cone|Representerar Konediagram|
+|ConeStacked|Representerar Staplad Konediagram|
+|Cone100PercentStacked|Representerar 100% Staplad Konediagram|
+|ConicalBar|Representerar Konisk Stapeldiagram|
+|ConicalBarStacked|Representerar Staplad Konisk stapeldiagram|
+|ConicalBar100PercentStacked|Representerar 100% Staplad Konisk Stapeldiagram|
+|ConicalColumn3D|Representerar 3D Konisk Kolumn Diagram|
+|Pyramid|Representerar Pyramid Diagram|
+|PyramidStacked|Representerar Staplad Pyramiddiagram|
+|Pyramid100PercentStacked|Representerar 100% Staplad Pyramiddiagram|
+|PyramidBar|Representerar Pyramid stapeldiagram|
+|PyramidBarStacked|Representerar Staplad Pyramid Stapeldiagram|
+|PyramidBar100PercentStacked|Representerar 100% Staplad Pyramid Stapeldiagram|
+|PyramidColumn3D|Representerar 3D Pyramid Kolumn Diagram|
 {{% alert color="primary" %}}
 
-När du tilldelar ett cellintervall som datakälla kan du bara ställa in intervallet från övre vänster till nedre höger. Till exempel är "A1:C3" giltigt medan "C3:A1" är ogiltigt.
+När du tilldelar en cellintervall som datakälla kan du bara ställa in intervallet från övre vänstra till nedre högra. Till exempel är "A1:C3" giltigt medan "C3:A1" är ogiltigt.
 
 {{% /alert %}}
 
-####  **Pyramiddiagram**
+#### **Pyramiddiagram**
 
-När exempelkoden exekveras läggs ett pyramiddiagram till i kalkylbladet.
+När exempelkoden körs läggs ett pyramiddiagram till kalkylarket.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreatePyramidChart-1.cs" >}}
 
-####  **Linjediagram**
+#### **Linjediagram**
 
- I exemplet ovan ändrar du helt enkelt[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) till*Linje*skapar ett linjediagram. Den fullständiga källan finns nedan. när koden exekveras läggs ett linjediagram till i kalkylbladet.
+I det ovanstående exemplet skapar enkelt att ändra [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) till *Line* ett linjediagram. Hela källan är förutsatt nedan. när koden körs, läggs ett linjediagram till kalkylarket.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
 
-####  **Bubbeldiagram**
+#### **Bubbel-diagram**
 
- För att skapa ett bubbeldiagram,[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) måste ställas in på[**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)och några extra egenskaper som BubbleSizes, Values & XValues måste ställas in därefter. När följande kod körs läggs ett bubbeldiagram till i kalkylbladet.
+För att skapa ett bubbeldiagram, måste [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) inställas på [**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) och några extra egenskaper såsom BubbleSizes, värden & X-värden bör ställas in. Genom att utföra följande kod läggs ett bubbel-diagram till kalkylarket.
 
-####  **Linje med datamarkördiagram**
+#### **Linje med Datum Markör Diagram**
 
- För att skapa en linje med datamarkeringsdiagrammet,[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)måste ställas in på*ChartType.LineWithDataMarkers*och några extra egenskaper som bakgrundsområde, seriemarkörer, värden och XValues måste ställas in därefter. När följande kod körs läggs en rad med datamarkörsdiagrammet till i kalkylbladet.
+För att skapa ett linjediagram med datamarkör, [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) uppsättas till *ChartType.LineWithDataMarkers* och några extra egenskaper såsom bakgrundsområde, Seriemarkör, värden & X-värden bör ställas in. Genom att utföra följande kod läggs ett linjediagram med datamarkör till kalkylarket.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
 
-##  **Förhandsämnen**
-- [Läs och manipulera Excel 2016-diagram](/cells/sv/net/read-and-manipulate-excel-2016-charts/)
-- [Hantera axlar i Excel-diagram](/cells/sv/net/chart-axes/)
-- [Ställa in diagrammets utseende](/cells/sv/net/setting-chart-appearance/)
+## **Fortsatta ämnen**
+- [Läs och hantera Excel 2016-diagram](/cells/sv/net/read-and-manipulate-excel-2016-charts/)
+- [Hantera axlarna för Excel-diagram](/cells/sv/net/chart-axes/)
+- [Ställa in diagramens utseende](/cells/sv/net/setting-chart-appearance/)
 - [Diagramtyper](/cells/sv/net/chart-types/)
 - [Anpassa diagram](/cells/sv/net/customizing-charts/)
-- [Ställ in datakälla för diagrammet](/cells/sv/net/data-formatting-in-charts/)
-- [Hantera dataetiketter för Excel-diagram](/cells/sv/net/insert-datalabels-to-chart/)
-- [Generera diagram genom att bearbeta smarta markörer](/cells/sv/net/generate-chart-by-processing-smart-markers/)
-- [Hämta kalkylblad för diagrammet](/cells/sv/net/get-worksheet-of-the-chart/)
-- [Hantera Legend of Excel-diagram](/cells/sv/net/chart-legend/)
-- [Manipulera positionsstorlek och designerdiagram](/cells/sv/net/manipulate-position-size-and-designer-chart/)
+- [Ställ in datamängd för diagrammet](/cells/sv/net/data-formatting-in-charts/)
+- [Hantera Dataetiketter för Excel-diagram](/cells/sv/net/insert-datalabels-to-chart/)
+- [Generera diagram genom att bearbeta Smarta Markörer](/cells/sv/net/generate-chart-by-processing-smart-markers/)
+- [Hämta kalkylarket för diagrammet](/cells/sv/net/get-worksheet-of-the-chart/)
+- [Hantera legenden för Excel-diagram](/cells/sv/net/chart-legend/)
+- [Manipulera Position Size och Designer-diagram](/cells/sv/net/manipulate-position-size-and-designer-chart/)
 - [Skapa cirkeldiagram med ledarlinjer](/cells/sv/net/creating-pie-chart-with-leader-lines/)
 - [Former i diagram](/cells/sv/net/controls-in-charts/)
-- [Hantera titlar på Excel-diagram](/cells/sv/net/chart-and-axis-titles/)
+- [Hantera titlar för Excel-diagram](/cells/sv/net/chart-and-axis-titles/)
 - [Diagramrendering](/cells/sv/net/chart-rendering/)
-- [Få ekvationstext för diagramtrendlinje](/cells/sv/net/get-equation-text-of-chart-trendline/)
+- [Få ekvationstext av diagramtrendlinje](/cells/sv/net/get-equation-text-of-chart-trendline/)

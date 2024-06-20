@@ -1,34 +1,35 @@
 ---
-title: Guardar hojas de trabajo especificadas en PDF
+title: Guardar Hojas de Cálculo Especificadas en PDF
 type: docs
 weight: 140
 url: /es/net/save-specified-worksheets-to-pdf/
 ---
- Por defecto, Aspose.Cells guarda todo**visible** hojas de trabajo en un libro de trabajo a archivo pdf. Con**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** opción, puede guardar hojas de trabajo específicas en un archivo pdf. por ejemplo, puede guardar la hoja de trabajo activa en pdf, guardar todas las hojas de trabajo (hojas de trabajo visibles y ocultas) en pdf, guardar varias hojas de trabajo personalizadas en pdf.
 
-##  **Guardar hoja de trabajo activa en PDF**
+Por defecto, Aspose.Cells guarda todas las hojas de cálculo **visibles** en un libro de trabajo en un archivo pdf. Con la opción [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/), puede guardar las hojas de cálculo especificadas en un archivo pdf. por ejemplo, puede guardar la hoja de cálculo activa en pdf, guardar todas las hojas de cálculo (tanto visibles como ocultas) en pdf, guardar múltiples hojas de cálculo personalizadas en pdf.
 
- Si solo desea exportar la hoja activa a pdf, puede lograrlo pasando**[`SheetSet.Active`](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/active/)** a**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** opción.
+## **Guardar Hoja de Cálculo Activa en PDF**
 
- La hoja `Sheet2` es la hoja activa del archivo fuente[sheetset-example.xlsx](sheetset-example.xlsx).
+Si desea exportar solo la hoja activa a PDF, puede lograrlo pasando [**SheetSet.Active**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/active/) a la opción [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/).
+
+La hoja 'Sheet2' es la hoja activa del archivo fuente [ejemplo-de-conjunto-de-hojas.xlsx](ejemplo-de-conjunto-de-hojas.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-ActiveSheetToPdf.cs" >}}
 
-##  **Guardar todas las hojas de trabajo en PDF**
+## **Guardar todas las hojas en PDF**
 
-**[`SheetSet.Visible`](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/visible/)** indica hojas visibles en un libro de trabajo, y**[`SheetSet.All`](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/)** indica todas las hojas, incluidas las hojas visibles y las hojas ocultas/invisibles en un libro de trabajo. Si desea exportar todas las hojas a pdf, simplemente puede pasar**[`SheetSet.All`](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/)** a**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** opción.
+[**SheetSet.Visible**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/visible/) indica las hojas visibles en un libro de trabajo, y [**SheetSet.All**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/) indica todas las hojas, incluidas las hojas visibles y las ocultas/invisibles, en un libro de trabajo. Si desea exportar todas las hojas a PDF, simplemente pase [**SheetSet.All**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetset/all/) a la opción [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/).
 
- el archivo fuente[sheetset-example.xlsx](sheetset-example.xlsx) contiene las cuatro hojas con la hoja oculta `Sheet3`.
+El archivo fuente [ejemplo-de-conjunto-de-hojas.xlsx](ejemplo-de-conjunto-de-hojas.xlsx) contiene las cuatro hojas con la hoja oculta 'Sheet3'.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-AllSheetsToPdf.cs" >}}
 
-##  **Guardar hojas de trabajo especificadas en PDF**
- Si desea exportar hojas múltiples deseadas/personalizadas a pdf, puede lograrlo pasando índices de hojas múltiples a**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/)** opción.
+## **Guardar hojas de cálculo especificadas en PDF**
+Si desea exportar múltiples hojas deseadas/personalizadas a PDF, puede lograrlo pasando múltiples índices de hojas a la opción [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/net/aspose.cells/paginatedsaveoptions/sheetset/).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-MultiSheetsToPdf.cs" >}}
 
 {{% alert color="primary" %}} 
 
-Si su hoja de cálculo contiene fórmulas, es mejor llamar al [`Workbook.CalculateFormula()`](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) justo antes de convertir la hoja de cálculo al formato PDF. Si lo hace, se asegurará de que los valores dependientes de la fórmula se vuelvan a calcular y los valores correctos se representen en el PDF.
+Si su hoja de cálculo contiene fórmulas, es mejor llamar a [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) justo antes de renderizar la hoja de cálculo en formato PDF. Al hacerlo, se asegurará de que los valores dependientes de las fórmulas se recalculen y los valores correctos se muestren en el PDF.
 
 {{% /alert %}}

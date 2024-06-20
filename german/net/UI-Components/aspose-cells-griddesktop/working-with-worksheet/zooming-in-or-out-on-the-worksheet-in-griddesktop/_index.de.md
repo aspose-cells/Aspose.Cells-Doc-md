@@ -1,33 +1,36 @@
-﻿---
-title: Vergrößern oder Verkleinern des Arbeitsblatts in GridDesktop
+---
+title: Hinein oder Hinauszoomen auf dem Arbeitsblatt in GridDesktop
 type: docs
 weight: 160
-url: /de/net/zooming-in-or-out-on-the-worksheet-in-griddesktop/
+url: /de/net/aspose-cells-griddesktop/zoom-in-or-out-on-the-worksheet-in-griddesktop/
+keywords: GridDesktop, zoomen, hineinzoomen, hinauszoomen
+description: Dieser Artikel zeigt, wie man in GridDesktop hineinzoomen oder hinauszoomen kann.
 ---
+
 {{% alert color="primary" %}} 
 
-Wenn Sie mit Ihren Daten arbeiten, möchten Sie möglicherweise manchmal den Inhalt auf dem Bildschirm vergrößern, ohne die Schriftgröße tatsächlich zu ändern. Möglicherweise haben Sie Ihren Text beispielsweise so formatiert, dass er eine kleine Schriftart verwendet. (Dies ist oft notwendig, um alle Informationen auf einem Ausdruck zu erhalten.) Beim Arbeiten im Arbeitsblatt ist die Schrift jedoch aufgrund der geringen Größe schwer lesbar.
+Manchmal möchten Sie beim Arbeiten mit Ihren Daten die Inhalte auf dem Bildschirm vergrößern, ohne die Schriftgröße tatsächlich zu ändern. Sie haben möglicherweise Ihren Text formatiert, damit er eine kleine Schriftart verwendet. (Das ist oft notwendig, um alle Ihre Informationen auf einem Ausdruck zu platzieren.) Beim Arbeiten im Arbeitsblatt ist die Schrift aber schwer lesbar, weil sie so klein ist.
 
-In Microsoft Excel steht ein Zoom-Schieberegler zum schnellen und einfachen Vergrößern und Verkleinern von Dokumenten zur Verfügung. Der Zoom-Schieberegler befindet sich normalerweise in der unteren rechten Ecke des Softwarefensters.
+In Microsoft Excel ist ein Zoomregler zum schnellen und einfachen Vergrößern und Verkleinern von Dokumenten verfügbar. Der Zoomregler befindet sich normalerweise in der unteren rechten Ecke des Softwarefensters.
 
-Aspose.Cells ermöglicht es Entwicklern auch, den Zoomfaktor des Arbeitsblatts festzulegen, sodass der Inhalt gemäß Ihrem gewünschten Prozentwert angezeigt werden sollte.
+Aspose.Cells ermöglicht es Entwicklern auch, den Zoomfaktor des Arbeitsblatts festzulegen, sodass die Inhalte gemäß des gewünschten Prozentwerts erscheinen sollen.
 
 {{% /alert %}} 
-## **Vergrößern oder verkleinern mit Aspose.Cells.GridDesktop**
-Aspose.Cells stellt die Klasse Aspose.Cells.GridDesktop.Worksheet bereit, die eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern aufweist. Um den Zoomfaktor eines Arbeitsblatts festzulegen, verwenden Sie die Zoom-Eigenschaft der Worksheet-Klasse. Der Zoomfaktor wird festgelegt, indem der Zoom-Eigenschaft ein numerischer (ganzzahliger) Wert zugewiesen wird.
+## **Ein- oder Auszoomen mit Aspose.Cells.GridDesktop**
+Aspose.Cells bietet die Aspose.Cells.GridDesktop.Worksheet-Klasse, die eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern enthält. Verwenden Sie die Zoom-Eigenschaft der Worksheet-Klasse, um den Zoomfaktor eines Arbeitsblatts festzulegen. Der Zoomfaktor wird durch die Zuweisung eines numerischen (ganzzahligen) Werts an die Zoom-Eigenschaft festgelegt.
 
-Wir erstellen einen MS Excel-ähnlichen Zoom-Schieberegler mit TrackBar (.NET)-Steuerung. In einem WinForm-Projekt platzieren wir das Aspose.Cells.GridDesktop-Steuerelement aus der Toolbox im Formular und geben einige Eigenschaften an, um seinen Namen, seine Größe oder andere Aspekte entsprechend festzulegen. Jetzt platzieren wir das TrackBar-Steuerelement @ untere rechte Ecke unter dem GridDesktop-Steuerelement. Außerdem platzieren wir ein Label-Steuerelement, das den Prozentwert anzeigt, den Sie über das Handle des TrackBar-Steuerelements angeben. Wir fügen relative Codezeilen in das Scroll-Ereignis von TrackBar ein, sodass GridDesktop beim Scrollen des Trackbar-Steuerelements hinein- oder herauszoomen sollte, um die darin enthaltenen Daten/Inhalte anzuzeigen.
+Wir erstellen einen MS Excel-ähnlichen Zoomregler unter Verwendung des TrackBar (.NET)-Steuerelements. In einem WinForm-Projekt platzieren wir das Aspose.Cells.GridDesktop-Steuerelement aus der Toolbox auf dem Formular und geben einige Eigenschaften an, um seinen Namen, seine Größe oder andere Aspekte entsprechend festzulegen. Nun platzieren wir das TrackBar-Steuerelement in der unteren rechten Ecke unterhalb des GridDesktop-Steuerelements und fügen auch ein Label-Steuerelement hinzu, das den prozentualen Wert anzeigen soll, den Sie über das TrackBar-Steuerelement festlegen. Wir fügen relative Codezeilen im Scroll-Ereignis des TrackBar hinzu, sodass beim Scrollen des TrackBar-Steuerelements der GridDesktop herein- oder herauszoomen sollte, um die Daten/Inhalte darin anzuzeigen.
 
-Nachfolgend finden Sie ein vollständiges Beispiel, das zeigt, wie Sie die Zoom-Eigenschaft verwenden, um den Zoomfaktor des aktiven Arbeitsblatts von GridDesktop festzulegen. Wir importieren zunächst eine Excel-Vorlagendatei in GridDesktop.
+Im folgenden Beispiel wird gezeigt, wie man die Zoom-Eigenschaft verwendet, um den Zoomfaktor des aktiven Arbeitsblatts von GridDesktop festzulegen. Zuerst importieren wir eine Vorlagen-Excel-Datei in GridDesktop.
 
-Schreiben Sie den folgenden Code in das Load-Ereignis des Formulars, um die Excel-Vorlagendatei in GridDesktop und den Trackbar-Wert festzulegen.
+Schreiben Sie den untenstehenden Code im Load-Ereignis des Formulars, um die Vorlagen-Excel-Datei in GridDesktop und den Trackbar-Wert festzulegen.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ZoomingInOut-LoadEvent.cs" >}}
 
 
-Kopieren Sie nun den folgenden Code in das Track-Scroll-Ereignis und führen Sie die Anwendung aus. Sie werden feststellen, dass das Bewegen der Spurleiste die Zoom-Eigenschaft des Arbeitsblatts ändert.
+Kopieren Sie nun den untenstehenden Code in das Scroll-Ereignis des Tracks und führen Sie die Anwendung aus. Sie werden feststellen, dass sich beim Verschieben des Trackbar der Zoomwert des Arbeitsblatts ändert.
 
 
 

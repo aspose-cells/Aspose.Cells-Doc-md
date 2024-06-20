@@ -1,20 +1,21 @@
-﻿---
+---
 title: Spara HTML med StreamProvider
 type: docs
 weight: 80
 url: /sv/net/convert-excel-to-html-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-När vi konverterar Excel-filer som innehåller bilder och former till html-filer, möter vi följande två problem:
-1. Var ska vi spara bilderna och formerna när vi sparar excel-fil till html-ström.
-1. Ersätt standardsökvägen med undantagen sökväg.
+När du konverterar excelfiler som innehåller bilder och former till html-filer stöter vi ofta på följande två problem:
+1. Var ska vi spara bilderna och formerna när vi sparar excelfilen till HTML-ström.
+1. Ersätt standardvägen med förväntad väg.
 
- Den här artikeln förklarar hur du implementerar[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) gränssnitt för att ställa in[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) fast egendom. Genom att implementera detta gränssnitt kommer du att kunna spara de skapade resurserna under HTML-genereringen till dina specifika platser eller minnesströmmar.
+I den här artikeln förklaras hur man implementerar gränssnittet [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) för att ställa in egenskapen [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider). Genom att implementera detta gränssnitt kan du spara de skapade resurserna under HTML-generering till dina specifika platser eller minnesströmmar.
 
 {{% /alert %}} 
 
- Detta är huvudkoden som visar användningen av[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)fast egendom
+Detta är huvudkoden som visar användningen av egenskapen [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider).
 
 
 
@@ -22,7 +23,7 @@ När vi konverterar Excel-filer som innehåller bilder och former till html-file
 
 
 
- Här är koden för*ExportStreamProvider* klass som genomför[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)gränssnitt som används i ovanstående kod.
+Här är koden för klassen *ExportStreamProvider* som implementerar gränssnittet [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) som används i ovanstående kod.
 
 
 

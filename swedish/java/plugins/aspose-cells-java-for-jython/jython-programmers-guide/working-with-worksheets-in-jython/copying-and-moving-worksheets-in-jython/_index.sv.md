@@ -1,15 +1,16 @@
-﻿---
-title: Kopiera och flytta arbetsblad i Jython
+---
+title: Kopiera och flytta kalkylblad i Jython
 type: docs
 weight: 20
 url: /sv/java/copying-and-moving-worksheets-in-jython/
 ---
-## **Aspose.Cells - Kopiera och flytta arbetsblad**
- För att lägga till dokument med hjälp av**Aspose.Cells Java för Jython**. Här kan du se exempelkod.
 
-**Jython Code**
+## **Aspose.Cells - Kopiera och flytta kalkylblad**
+Att lägga till dokument med **Aspose.Cells Java för Jython**. Här kan du se exempelkod.
 
-{{< highlight "java" >}}
+**Jython Kod**
+
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -97,7 +98,7 @@ if __name__ == '__main__':
     CopyingAndMovingWorksheets()
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Bifoga dokument (Aspose.Cells)** från någon av nedan nämnda sociala kodningar
+## **Ladda ned körbar kod**
+Ladda ner **Append Documents (Aspose.Cells)** från någon av nedan angivna sociala kodsajter: 
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)

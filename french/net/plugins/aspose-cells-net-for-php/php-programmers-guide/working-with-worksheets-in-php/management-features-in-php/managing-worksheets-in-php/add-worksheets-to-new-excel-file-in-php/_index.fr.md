@@ -1,15 +1,16 @@
-﻿---
-title: Ajouter des feuilles de calcul au nouveau fichier Excel en PHP
+---
+title: Ajouter des feuilles de calcul à un nouveau fichier Excel en PHP
 type: docs
 weight: 20
 url: /fr/net/add-worksheets-to-new-excel-file-in-php/
 ---
-## **Ajouter des feuilles de calcul au nouveau fichier Excel**
-Ajouter des feuilles de calcul au nouveau fichier Excel
+
+## **Ajouter des feuilles de calcul à un nouveau fichier Excel**
+Ajouter des feuilles de calcul à un nouveau fichier Excel
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -36,7 +37,7 @@ Ajouter des feuilles de calcul au nouveau fichier Excel
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Ajouter des feuilles de calcul au nouveau fichier Excel (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Ajouter des feuilles de calcul à un nouveau fichier Excel (Aspose.Cells)** de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddingWorksheetsToNewExcelFile.php)

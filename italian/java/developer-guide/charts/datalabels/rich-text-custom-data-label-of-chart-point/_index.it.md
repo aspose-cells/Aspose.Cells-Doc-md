@@ -1,21 +1,22 @@
-﻿---
-title: Etichetta dati personalizzata Rich Text del punto del grafico
+---
+title: Etichetta dati personalizzata in ricco testo di un punto del grafico
 type: docs
 weight: 150
 url: /it/java/rich-text-custom-data-label-of-chart-point/
 ---
+
 {{% alert color="primary" %}}
 
- È possibile utilizzare Aspose.Cells per creare un'etichetta dati personalizzata RTF del punto del grafico. Aspose.Cells fornisce il[**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters(int,%20int) ) metodo per restituire il[**Impostazione carattere**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting)oggetto che può essere utilizzato per impostare le proprietà del carattere del testo come colore, grassetto, ecc.
+Puoi utilizzare Aspose.Cells per creare un'etichetta dati personalizzata con testo ricco del punto del grafico. Aspose.Cells fornisce il metodo [**DataLabels.characters()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#characters(int,%20int)) per restituire l'oggetto [**FontSetting**](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) che può essere utilizzato per impostare le proprietà del carattere del testo come il colore, la grassetto, ecc.
 
 {{% /alert %}}
 
-## **Etichetta dati personalizzata Rich Text del punto del grafico**
+## **Etichetta dati personalizzata in formato testo ricco del punto del grafico**
 
-Il codice seguente accede al primo punto del grafico della prima serie, ne imposta il testo e quindi imposta il carattere dei primi 10 caratteri impostando color su rosso e grassetto su true.
+Il seguente codice accede al primo punto del grafico della prima serie, imposta il suo testo e quindi imposta il carattere dei primi 10 caratteri impostandone il colore su rosso e il grassetto su vero.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RichTextCustomData-RichTextCustomData.java" >}}
 
-## articoli Correlati
+## Articoli correlati
 
-- [Impostare il tipo di forma delle etichette dati del grafico](/cells/it/java/set-the-shape-type-of-data-labels-of-chart/)
+- [Imposta il tipo di forma delle etichette dati del grafico](/cells/it/java/set-the-shape-type-of-data-labels-of-chart/)

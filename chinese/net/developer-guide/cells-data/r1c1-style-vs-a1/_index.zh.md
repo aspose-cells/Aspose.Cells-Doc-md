@@ -7,11 +7,9 @@ description: 使用Aspose.Cells for Python via .NET API来切换R1C1参考样式
 keywords: R1C1参照样式 与 A1样式，R1C1参照样式，如何在R1C1参照样式和A1参照样式之间切换，A1参照样式。
 ---
 
-{{% alert color="primary" %}}
+## **介绍**
 
 在Excel中，R1C1和A1是用于标识工作表中的单元格的两种不同参考样式。请注意，选择A1和R1C1是在很大程度上是个人偏好的问题。大多数用户更熟悉A1样式，但在某些情况下，特别是在处理公式和计算时，R1C1样式可能更有用。
-
-{{% /alert %}}
 
 ## **A1参考样式**
 

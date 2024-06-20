@@ -1,15 +1,16 @@
-﻿---
-title: Ocultar Mostrar hoja de trabajo en Jython
+---
+title: Ocultar o mostrar hoja de trabajo en Jython
 type: docs
 weight: 70
 url: /es/java/hide-unhide-worksheet-in-jython/
 ---
-## **Aspose.Cells - Ocultar Mostrar hoja de trabajo**
- Para anexar documentos usando**Aspose.Cells Java para Jython**. Aquí puedes ver el código de ejemplo.
+
+## **Aspose.Cells - Ocultar o mostrar hoja de trabajo**
+Para agregar documentos usando **Aspose.Cells Java for Jython**. Aquí puedes ver código de ejemplo.
 
 **Código Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -51,7 +52,7 @@ if __name__ == '__main__':
     HideUnhideWorksheet()
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Adjuntar Documentos (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Agregar documentos (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/HideUnhideWorksheet.py)

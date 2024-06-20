@@ -1,17 +1,18 @@
-﻿---
-title: Deshabilitar la exportación de secuencias de comandos de fotogramas y propiedades de documentos
+---
+title: Desactivar la Exportación de Scripts de Marco y Propiedades del Documento
 type: docs
 weight: 410
 url: /es/java/disable-exporting-frame-scripts-and-document-properties/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells exporta secuencias de comandos de marcos y propiedades de documentos mientras convierte un libro de trabajo en HTML. La versión 8.6.0 de Aspose.Cells for Java presenta una opción que le permite deshabilitar opcionalmente la exportación de secuencias de comandos de marcos y propiedades de documentos. Por favor use el[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) propiedad para deshabilitar la exportación.
+Aspose.Cells exporta scripts de marco y propiedades del documento al convertir un libro de trabajo en HTML. La versión 8.6.0 de Aspose.Cells for Java introduce una opción que le permite desactivar opcionalmente la exportación de scripts de marco y propiedades del documento. Utilice la propiedad [HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) para deshabilitar la exportación.
 
 {{% /alert %}} 
-## **Deshabilitar la exportación de secuencias de comandos de fotogramas y propiedades de documentos**
-El siguiente código de ejemplo le permite deshabilitar la exportación de secuencias de comandos de marcos y propiedades de documentos. Una vez que convierta un libro de trabajo en HTML, el archivo de salida no contendrá ningún script de marco ni propiedades del documento.
+## **Desactivar la exportación de scripts de marco y propiedades del documento**
+El siguiente código de muestra te permite desactivar la exportación de scripts de marco y propiedades del documento. Una vez que conviertas un libro de trabajo a HTML, el archivo de salida no contendrá ningún script de marco ni propiedades del documento.
 
-Aquí hay un código de muestra.
+Aquí hay un código de ejemplo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisableExporting-DisableExporting.java" >}}

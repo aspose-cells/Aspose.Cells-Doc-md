@@ -1,17 +1,18 @@
-﻿---
+---
 title: Obtenir des informations sur la feuille de calcul
 type: docs
 weight: 50
 url: /fr/net/get-worksheet-information/
 ---
+
 ## **OpenXML Excel**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- chaîne FilePath = @"..\..\..\..\Sample Files\" ;
+ string FilePath = @"..\..\..\..\Sample Files\";
 
-string FileName = FilePath + "Obtenir les informations de la feuille de calcul.xlsx" ;
+string FileName = FilePath + "Get worksheet information.xlsx";
 
-GetSheetInfo(NomFichier);
+GetSheetInfo(FileName);
 
 Console.ReadKey();
 
@@ -19,8 +20,82 @@ Console.ReadKey();
 
 public static void GetSheetInfo(string fileName)
 
-{  // Ouvrir le fichier en lecture seule.  en utilisant (SpreadsheetDocument mySpreadsheet = SpreadsheetDocument.Open(fileName, false))  {  S sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets; _x00 feuille, afficher les informations de la feuille.  foreach (E feuille dans feuilles)  {  foreach (A attr in sheet.GetAttributes())  {  Console.WriteLine("{0} : {1}" , att.localname, att.value); _ x000d_ }  }  }   {{< /highlight >}} ## ** Aspose.Cells ** _ x000d_ 07612348 Files\";  chaîne FileName = FilePath + "Obtenir les informations de la feuille de calcul.xlsx";  GetSheetInfo(FileName);  Console.ReadKey();  }
+{
 
-vide statique privé GetSheetInfo (chaîne fileName)
+// Open file as read-only.
 
-{  //Instanciation d'un objet Workbook  Workbook workbook = new Workbook(fileName);  //Parcourir toutes les feuilles du classeur  foreach (Worksheet Sheet in workbook.Worksheets)  { //x000d_ { Index de Sheet  Console.WriteLine("Sheet Name : {0}", Sheet.Name);  Console.WriteLine("Sheet Index : {0}", Sheet.Index);  //Parcourir tous les Properties  foreach (propriété personnalisée dans la feuille.CustomProperties)   {  console.writeline ("{0}: {1}", propriété.name, propriété.value); _ #x_x_x_x_x_x'x'xte **Télécharger un exemple de code** - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1) - [Sourceforge](https://sourceforge .net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20worksheet%20information%20\(Aspose.Cells \).zip/download) - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20worksheet%20information%20\(Aspose.Cells\).zip)
+using (SpreadsheetDocument mySpreadsheet = SpreadsheetDocument.Open(fileName, false))
+
+{
+
+    S sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets;
+
+    // For each sheet, display the sheet information.
+
+    foreach (E sheet in sheets)
+
+    {
+
+        foreach (A attr in sheet.GetAttributes())
+
+        {
+
+            Console.WriteLine("{0}: {1}", attr.LocalName, attr.Value);
+
+        }
+
+    }
+
+}
+
+{{< /highlight >}}
+## **Aspose.Cells**
+{{< highlight csharp >}}
+
+ string FilePath = @"..\..\..\..\Sample Files\";
+
+string FileName = FilePath + "Get worksheet information.xlsx";
+
+GetSheetInfo(FileName);
+
+Console.ReadKey();
+
+}
+
+private static void GetSheetInfo(string fileName)
+
+{
+
+//Instantiating a Workbook object
+
+Workbook workbook = new Workbook(fileName);
+
+//Loop through all Sheets in the workbook
+
+foreach (Worksheet Sheet in workbook.Worksheets)
+
+{
+
+    //Get Name and Index of Sheet
+
+    Console.WriteLine("Sheet Name: {0}", Sheet.Name);
+
+    Console.WriteLine("Sheet Index: {0}", Sheet.Index);
+
+    //Loop through all custom properties
+
+    foreach (CustomProperty Property in Sheet.CustomProperties)
+
+    {
+
+        Console.WriteLine("{0}: {1}", Property.Name, Property.Value);
+
+    }
+
+}
+
+{{< /highlight >}}
+## **Télécharger le code source d'exemple**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20worksheet%20information%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20worksheet%20information%20\(Aspose.Cells\).zip)

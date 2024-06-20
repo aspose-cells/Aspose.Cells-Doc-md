@@ -1,41 +1,42 @@
-﻿---
-title: Aspose.Cells Apache POI SS - HSSF ve XSSF'de eksik özellikler
+---
+title: Apache POI SS  HSSF ve XSSF te Bulunmayan Aspose.Cells Özellikleri
 type: docs
 weight: 20
 url: /tr/java/aspose-cells-features-missing-in-apache-poi-ss-hssf-and-xssf/
 ---
-Bu bölüm, yalnızca Aspose.Cells'de bulunan ve Apache POI SS - HSSF ve XSSF API'de olmayan özellikleri gösterir.
 
-Apache POI SS'den Aspose.Cells'e geçmek isteyen geliştiriciler için çok faydalıdır.
+Bu bölüm, sadece Aspose.Cells'te bulunan ve Apache POI SS - HSSF ve XSSF API'sinde bulunmayan özellikleri gösterir.
 
-Bu, Apache POI SS ile karşılaştırıldığında Aspose.Cells'in aşağıdaki bol özelliklerini içerir:
+Apache POI SS'ten Aspose.Cells'e geçmek isteyen geliştiriciler için çok yardımcıdır.
 
-- [Aspose.Cells kullanan Veri İşleme Özellikleri](/cells/tr/java/data-handling-features-using-aspose-cells/)
-  - [Aspose.Cells'i kullanarak Cells'de Değer Bulun](/cells/tr/java/find-value-in-cells-using-aspose-cells/)
-  - [Aspose.Cells'i kullanarak Alt Toplamları hesaplayın](/cells/tr/java/calculate-sub-totals-using-aspose-cells/)
-  - [Aspose.Cells kullanarak Çalışma Sayfalarına Veri Aktarın](/cells/tr/java/import-data-to-worksheets-using-aspose-cells/)
-  - [Çalışma Sayfalarından Verileri Dışa Aktarma](/cells/tr/java/export-data-from-worksheets/)
-  - [Aspose.Cells'de Formül Hesaplama Motoru](/cells/tr/java/formula-calculation-engine-in-aspose-cells/)
-  - [Aspose.Cells kullanarak Emsalleri ve Bağımlıları İzleme](/cells/tr/java/tracing-precedents-and-dependents-using-aspose-cells/)
-  - [Elektronik Tablolardaki Verileri Sıralama](/cells/tr/java/sort-data-in-spreadsheets/)
-- [Aspose.Cells kullanarak Çalışma Sayfalarıyla Çalışma](/cells/tr/java/working-with-worksheets-using-aspose-cells/)
-  - [Aspose.Cells'i kullanarak Çalışma Sayfasına Word Art Filigranı ekleyin](/cells/tr/java/add-word-art-watermark-to-worksheet-using-aspose-cells/)
-  - [Aspose.Cells'i kullanarak Çalışma Kitabını HTML'e dönüştürün](/cells/tr/java/convert-workbook-to-html-using-aspose-cells/)
-  - [Aspose.Cells kullanarak Birleştirilmiş Cells'i algıla](/cells/tr/java/detect-merged-cells-using-aspose-cells/)
-  - [Çalışma Kitaplarının Kaydırma Çubuklarını Görüntüleme ve Gizleme](/cells/tr/java/display-and-hide-scrollbars-of-workbooks/)
-  - [Aspose.Cells'i kullanarak Çalışma Kitabının Sekmelerini Görüntüleme ve Gizleme](/cells/tr/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
-  - [Çalışma Kitabını Aspose.Cells kullanarak şifrele](/cells/tr/java/encrypt-workbook-using-aspose-cells/)
-  - [Birden Fazla Kodlama İçeren CSV Dosyasını Okuyun](/cells/tr/java/read-csv-file-with-multiple-encodings/)
-  - [Aspose.Cells'i kullanarak Her Çalışma Sayfasını Farklı PDF'e Kaydet](/cells/tr/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
-  - [Aspose.Cells'de Çalışma Sayfası Sekme Rengini Ayarla](/cells/tr/java/set-worksheet-tab-color-in-aspose-cells/)
-- [Aspose.Cells'de Grafiklerle Çalışma](/cells/tr/java/working-with-charts-in-aspose-cells/)
-  - [Grafiğe Word Art Filigranı Ekleyin](/cells/tr/java/add-word-art-watermark-to-chart/)
-  - [Grafik Konumunu ve Boyutunu Değiştirin](/cells/tr/java/change-chart-position-and-size/)
-  - [Aspose.Cells'i kullanarak Grafiği Görüntülere Dönüştür](/cells/tr/java/convert-chart-to-images-using-aspose-cells/)
-  - [Aspose.Cells'i kullanarak Pivot Grafikler oluşturun](/cells/tr/java/create-pivot-charts-using-aspose-cells/)
-- [Aspose.Cells'in Muhtelif Örnekleri](/cells/tr/java/miscellaneous-examples-of-aspose-cells/)
-  - [Baskı Başlıklarını Ayarla](/cells/tr/java/set-print-titles/)
-  - [Aspose.Cells kullanarak Çalışma Kitaplarını Yazdırma](/cells/tr/java/printing-workbooks-using-aspose-cells/)
-  - [Aspose.Cells'i kullanarak Elektronik Tabloyu PDF'e dönüştürün](/cells/tr/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
+Bu, Aspose.Cells'in Apache POI SS'ye kıyasla sahip olduğu aşağıdaki zengin özellikleri içerir:
 
-**Not:** Daha pek çok örnek yakında kullanıma sunulacaktır.
+- [Aspose.Cells'i Kullanarak Veri İşleme Özellikleri](/cells/tr/java/data-handling-features-using-aspose-cells/)
+  - [Aspose.Cells Kullanarak Hücrede Değer Bulma](/cells/tr/java/find-value-in-cells-using-aspose-cells/)
+  - [Aspose.Cells Kullanarak Alt Toplamları Hesaplama](/cells/tr/java/calculate-sub-totals-using-aspose-cells/)
+  - [Aspose.Cells ile Çalışma Sayfalarına Veri İçe Aktarma](/cells/tr/java/import-data-to-worksheets-using-aspose-cells/)
+  - [Çalışma Sayfalarından Veri Dışa Aktarma](/cells/tr/java/export-data-from-worksheets/)
+  - [Aspose.Cells'te Formül Hesaplama Motoru](/cells/tr/java/formula-calculation-engine-in-aspose-cells/)
+  - [Aspose.Cells Kullanarak Bağımlılıkları ve Öncülerini Takip Etme](/cells/tr/java/tracing-precedents-and-dependents-using-aspose-cells/)
+  - [Hesap Tablolarında Veri Sıralama](/cells/tr/java/sort-data-in-spreadsheets/)
+- [Aspose.Cells ile Çalışma Sayfaları](/cells/tr/java/working-with-worksheets-using-aspose-cells/)
+  - [Aspose.Cells Kullanarak Çalışma Sayfasına Word Art Filigran Ekleme](/cells/tr/java/add-word-art-watermark-to-worksheet-using-aspose-cells/)
+  - [Aspose.Cells Kullanarak Çalışma Kitabını HTML'ye Dönüştürme](/cells/tr/java/convert-workbook-to-html-using-aspose-cells/)
+  - [Aspose.Cells Kullanarak Birleştirilmiş Hücreleri Algılama](/cells/tr/java/detect-merged-cells-using-aspose-cells/)
+  - [Çalışma Kitaplarının Kaydırma Çubuklarını Gösterme ve Gizleme](/cells/tr/java/display-and-hide-scrollbars-of-workbooks/)
+  - [Aspose.Cells Kullanarak Çalışma Kitabının Sekmelerini Gösterme ve Gizleme](/cells/tr/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
+  - [Aspose.Cells Kullanarak Çalışma Kitabını Şifreleme](/cells/tr/java/encrypt-workbook-using-aspose-cells/)
+  - [Birden Fazla Kodlamayla CSV Dosyası Okuma](/cells/tr/java/read-csv-file-with-multiple-encodings/)
+  - [Aspose.Cells Kullanarak Her Çalışma Sayfasını Farklı PDF'ye Kaydetme](/cells/tr/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+  - [Aspose.Cells'te Çalışma Sayfası Sekmesi Rengini Ayarla](/cells/tr/java/set-worksheet-tab-color-in-aspose-cells/)
+- [Aspose.Cells'te Grafiklerle Çalışma](/cells/tr/java/working-with-charts-in-aspose-cells/)
+  - [Grafik Üzerine Word Art Filigran Ekleme](/cells/tr/java/add-word-art-watermark-to-chart/)
+  - [Grafik Konumunu ve Boyutunu Değiştirme](/cells/tr/java/change-chart-position-and-size/)
+  - [Aspose.Cells Kullanarak Grafikleri Görüntüye Dönüştürme](/cells/tr/java/convert-chart-to-images-using-aspose-cells/)
+  - [Aspose.Cells Kullanarak Özet Grafikleri Oluşturma](/cells/tr/java/create-pivot-charts-using-aspose-cells/)
+- [Aspose.Cells'te Çeşitli Örnekler](/cells/tr/java/miscellaneous-examples-of-aspose-cells/)
+  - [Başlıkları Yazdırma](/cells/tr/java/set-print-titles/)
+  - [Aspose.Cells Kullanarak Çalışma Kitaplarını Yazdırma](/cells/tr/java/printing-workbooks-using-aspose-cells/)
+  - [Aspose.Cells Kullanarak Elektronik Tabloyu PDF'ye Dönüştürme](/cells/tr/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
+
+**Not:** Daha birçok örnek yakında mevcut olacak.

@@ -1,17 +1,20 @@
 ---
-title: Eliminar tabla dinámica de una hoja de trabajo
+title: Eliminar la tabla dinámica de una hoja de cálculo
 type: docs
 weight: 60
 url: /es/python-net/delete-pivot-table-from-a-worksheet/
-description: Python via .NET código para eliminar tabla dinámica para hojas de cálculo de Excel
-keywords: Python via .NET remove pivot table from worksheet, Python via .NET remove pivot table from excel, how to delete pivot table with Python via .NET, delete pivot table with Python via .NET, delete pivot table from excel with Python via .NET, Python via .NET delete pivot table, Python via .NET remove pivot table, remove pivot table, delete pivot table, how to delete pivot table
+description: Código Python via .NET para quitar PivotTable para hojas de Excel
+keywords: Aspose.Cells for Python Excel, biblioteca de Python de Excel, Python via .NET eliminar tabla dinámica de la hoja de cálculo, Python via .NET eliminar tabla dinámica de Excel, cómo eliminar tabla dinámica con Python via .NET, eliminar tabla dinámica con Python via .NET, eliminar tabla dinámica de Excel con Python via .NET, Python via .NET eliminar tabla dinámica, Python via .NET quitar tabla dinámica, quitar tabla dinámica, eliminar tabla dinámica, cómo eliminar tabla dinámica
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for Python via .NET proporciona una función para eliminar o eliminar la tabla dinámica de una hoja de trabajo. Puede eliminar la tabla dinámica utilizando el objeto de la tabla dinámica o la posición de la tabla dinámica. Por favor use el[**Hoja de trabajo.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) método para eliminar la tabla dinámica usando el objeto de tabla dinámica y[**Hoja de trabajo.pivot_tables.remove_at(índice, mantener_datos)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool)Método para eliminar el objeto de la tabla dinámica utilizando su posición dentro de la colección de la tabla dinámica.
+Aspose.Cells for Python via .NET proporciona una función para eliminar o quitar la Tabla Dinámica de una Hoja de Cálculo. Puede eliminar la tabla dinámica usando el objeto de tabla dinámica o la posición de la tabla dinámica. Por favor, use el método [**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) para eliminar la tabla dinámica usando el objeto de tabla dinámica y el método [**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool) para eliminar el objeto de tabla dinámica usando su posición dentro de la colección de tablas dinámicas.
 
 {{% /alert %}}
 
- El siguiente código de muestra elimina dos tablas dinámicas de la hoja de trabajo. Primero elimina la tabla dinámica usando[**Hoja de trabajo.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) método y luego elimina la tabla dinámica usando[**Hoja de trabajo.pivot_tables.remove_at(índice, mantener_datos)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool) método
+## **Cómo Eliminar la Tabla Dinámica de la Hoja de Cálculo Usando la Biblioteca Aspose.Cells for Python de Excel**
+
+El siguiente código de muestra elimina dos tablas dinámicas de la hoja de cálculo. Primero elimina la tabla dinámica usando el método [**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/) y luego elimina la tabla dinámica usando el método [**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.py" >}}

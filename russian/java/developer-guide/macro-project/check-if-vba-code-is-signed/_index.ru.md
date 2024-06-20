@@ -1,26 +1,27 @@
-﻿---
-title: Проверьте, подписан ли код VBA
+---
+title: Проверить, подписан ли код VBA
 type: docs
 weight: 30
 url: /ru/java/check-if-vba-code-is-signed/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells позволяет пользователю проверить, подписан ли проект кода VBA или нет. Пожалуйста, используйте[**Рабочая книга.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) способ проверить, подписан ли проект кода VBA или нет.
+Aspose.Cells позволяет пользователю проверить, подписан ли проект VBA-кода или нет. Пожалуйста, используйте метод [**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) для проверки, подписан ли проект VBA-кода.
 
 {{% /alert %}}
 
-## **Проверьте, подписан ли код VBA**
+## **Проверить, подписан ли код VBA**
 
- В следующем коде объясняется, как проверить, подписан ли код VBA или нет, используя[**Рабочая книга.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) метод. Вы можете использовать любой из ваших файлов Excel для тестирования этого кода. Для целей тестирования вы можете использовать[этот файл excel, используемый в коде](5472500.xlsm).
+В следующем коде объясняется, как проверить, подписан ли проект VBA-кода или нет с помощью метода [**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned). Вы можете использовать любые из ваших файлов Excel для тестирования этого кода. Для тестирования вы можете использовать [этот файл Excel, использованный в коде](5472500.xlsm).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckVBAProjectInWorkbookIsSigned-CheckVBAProjectInWorkbookIsSigned.java" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
- Ниже приведен консольный вывод приведенного выше кода с использованием[образец эксель файла](5472500.xlsm) предоставлено по ссылке.
+Ниже приведен вывод консоли вышеуказанного кода с использованием [образца файла Excel](5472500.xlsm), предоставленного по ссылке.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is VBA Code Project Signed: true
 

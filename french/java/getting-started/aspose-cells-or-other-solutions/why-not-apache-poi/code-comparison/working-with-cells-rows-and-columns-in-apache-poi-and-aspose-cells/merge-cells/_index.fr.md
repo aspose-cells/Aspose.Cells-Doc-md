@@ -1,15 +1,16 @@
-﻿---
-title: Fusionner Cells
+---
+title: Fusionner les cellules
 type: docs
 weight: 60
 url: /fr/java/merge-cells/
 ---
-## **Aspose.Cells - Fusionner Cells**
-La classe Cells a quelques méthodes utiles pour la tâche. Par exemple, la méthode de fusion fusionne les cellules en une seule cellule dans une plage spécifiée de cellules.
+
+## **Aspose.Cells - Fusionner les cellules**
+La classe Cells a quelques méthodes utiles pour la tâche. Par exemple, la méthode de fusion fusionne les cellules en une seule cellule dans une plage spécifiée des cellules.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a Workbook.
 
@@ -36,12 +37,12 @@ worksheet.getCells().get(5,2).setValue("This is a test of merging");
 wbk.save(dataDir + "merge_Aspose.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Fusionner Cells**
-Sheet.addMergedRegion peut être utilisé pour fusionner Cells.
+## **Apache POI SS - HSSF XSSF - Fusionner les cellules**
+Sheet.addMergedRegion peut être utilisé pour fusionner des cellules.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -66,13 +67,13 @@ sheet.addMergedRegion(new CellRangeAddress(
 ));
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/mergecells)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Fusion et défusion (splitting) Cells](/cells/fr/java/merging-and-unmerging-cells).
+Pour plus de détails, visitez [Fusionner et défusionner (Scinder) les cellules](/cells/fr/java/merging-and-unmerging-cells).
 
 {{% /alert %}}

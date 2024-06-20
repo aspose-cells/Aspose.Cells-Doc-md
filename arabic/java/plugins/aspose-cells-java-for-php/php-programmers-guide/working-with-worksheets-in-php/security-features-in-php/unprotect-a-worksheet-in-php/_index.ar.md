@@ -1,15 +1,16 @@
-﻿---
-title: قم بإلغاء حماية ورقة العمل في Php
+---
+title: إلغاء حماية ورقة العمل في PHP
 type: docs
 weight: 20
 url: /ar/java/unprotect-a-worksheet-in-php/
 ---
-## **Aspose.Cells - إلغاء حماية ورقة العمل**
- لحماية ورقة العمل باستخدام**Aspose.Cells Java for PHP** ، مكالمة**unotect_worksheet** طريقة**الحماية** وحدة.
+
+## **Aspose.Cells - إلغاء حماية ورقة عمل**
+لحماية ورقة العمل باستخدام **Aspose.Cells Java for PHP**, اتصل بطريقة **unprotect_worksheet** في وحدة **protection**.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $filesFormatType = new FileFormatType();
 
@@ -32,7 +33,7 @@ $worksheet->unprotect("aspose");
 $workbook->save($dataDir . "output.xls", $filesFormatType->EXCEL_97_TO_2003); 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**إلغاء حماية ورقة العمل (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **إلغاء حماية ورقة العمل (Aspose.Cells)** من أي مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/UnprotectingPasswordProtectedWorksheet.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/UnprotectingPasswordProtectedWorksheet.php)

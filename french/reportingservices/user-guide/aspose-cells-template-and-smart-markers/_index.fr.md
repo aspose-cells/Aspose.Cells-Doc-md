@@ -1,33 +1,34 @@
-﻿---
-title: Aspose.Cells Modèle et marqueurs intelligents
+---
+title: Modèle Aspose.Cells et repères intelligents
 type: docs
 weight: 30
 url: /fr/reportingservices/aspose-cells-template-and-smart-markers/
 ---
+
 {{% alert color="primary" %}} 
 
- Un modèle Aspose.Cells est un classeur Excel Microsoft qui contient des marqueurs intelligents. Les marqueurs intelligents servent d'espace réservé aux données pour les éléments de rapport et sont remplacés par les données correspondantes au moment du rendu. Il existe cinq types de marqueurs intelligents, répertoriés ci-dessous. Tous les marqueurs peuvent être insérés dans un modèle par Aspose.Cells.Report.Designer. Le peut également être modifié manuellement.
+Un modèle Aspose.Cells est un classeur Microsoft Excel qui contient des repères intelligents. Les repères intelligents servent de marqueurs de données pour les éléments de rapport et sont remplacés par les données correspondantes au moment du rendu. Il existe cinq types de repères intelligents, répertoriés ci-dessous. Tous les repères peuvent être insérés dans un modèle par Aspose.Cells.Report.Designer. Ils peuvent également être édités manuellement. 
 
 {{% /alert %}} 
 ### **Marqueurs intelligents**
-#### **Marqueurs de données**
- La forme de**marqueurs de données**est &=DataSetName.FieldName. Par exemple : &=SalesDetail.sales où SalesDetail est le nom d'un ensemble de données ou d'une requête et sales est le nom de l'un de ses champs. Au moment du rendu, les marqueurs de données sont remplacés par les valeurs de l'ensemble de données fournies par Reporting Services.
-#### **Marqueurs de formules Reporting Services**
- Le format de Reporting Services'**marqueurs de formules** est &=expression. Par exemple : &=sum(SalesDetail.sales)/100. L'expression se compose d'une fonction, de champs d'ensemble de données, d'un opérateur, etc. Au moment du rendu. Les marqueurs de formules Reporting Services sont remplacés par des valeurs calculées.
-#### **Marqueurs variables globaux Reporting Services**
- Le format de Reporting Services'**marqueurs de variables globales** est &=Globals ! Nom de variable. Par exemple : &=Globals!ExecutionTime où ExecutionTime est le nom d'une variable globale. Les marqueurs de variables globales sont remplacés par des valeurs de variables globales au moment du rendu.
-#### **Marqueurs de paramètres Reporting Services**
-Un paramètre de rapport a deux attributs : valeur et étiquette. Par conséquent,**marqueurs de paramètres** ont deux formats : &= Paramètres ! ParamName.Value et &=Paramètres ! ParamName.Label. Ils indiquent respectivement le nom et le libellé du paramètre. Au moment du rendu, les marqueurs de paramètres sont remplacés par les valeurs de paramètre saisies par l'utilisateur.
+#### **Repères de données**
+Le format des **repères de données** est &=NomEnsembleDeDonnées.NomChamp. Par exemple : &=DétailVentes.ventes où DétailVentes est le nom d'un ensemble de données ou d'une requête et ventes est le nom de l'un de ses champs. Au moment du rendu, les repères de données sont remplacés par les valeurs de l'ensemble de données fournies par Reporting Services.
+#### **Repères de formules de Reporting Services**
+Le format des **repères de formules de Reporting Services** est &=expression. Par exemple : &=sum(DétailVentes.ventes)/100. L'expression se compose de fonctions, de champs d'ensemble de données, d'opérateurs, etc. Au moment du rendu, les repères de formules de Reporting Services sont remplacés par des valeurs calculées.
+#### **Marqueurs de variables globales des Services de reporting**
+Le format des **marqueurs de variables globales** des Services de reporting est &=Globals! Nom de la variable. Par exemple: &=Globals!ExecutionTime où ExecutionTime est le nom d'une variable globale. Les marqueurs de variables globales sont remplacés par les valeurs des variables globales au moment du rendu.
+#### **Marqueurs de paramètres des Services de reporting**
+Un paramètre de rapport a deux attributs: valeur et étiquette. Par conséquent, les **marqueurs de paramètres** ont deux formats: &= Parameters! NomDuParamètre.Valeur et &=Parameters! NomDuParamètre.Étiquette. Ils indiquent respectivement le nom et l'étiquette du paramètre. Au moment du rendu, les marqueurs de paramètres sont remplacés par les valeurs de paramètre entrées par l'utilisateur.
 #### **Formules dynamiques**
- Pour effectuer des calculs sur des lignes insérées, utilisez des formules dynamiques.**Formules dynamiques** vous permet d'insérer Microsoft des formules Excel dans des cellules même lorsqu'une formule fait référence à des lignes qui seront insérées lors du processus d'exportation. Ils peuvent être répétés pour chaque ligne insérée ou utilisés uniquement avec des cellules où des marqueurs de données sont placés pour eux.
+Pour effectuer des calculs sur les lignes insérées, utilisez des formules dynamiques. Les **formules dynamiques** vous permettent d'insérer des formules Microsoft Excel dans des cellules même lorsque la formule fait référence à des lignes qui seront insérées lors du processus d'exportation. Elles peuvent être répétées pour chaque ligne insérée ou utilisées uniquement avec des cellules où des marqueurs de données sont placés pour elles.
 
-Le format des formules dynamiques est &=&=RepeatDynamicFormula.
+Le format des formules dynamiques est &=&=RépéterFormuleDynamique.
 
-Les formules dynamiques permettent les options supplémentaires suivantes :
+Les formules dynamiques permettent les options supplémentaires suivantes:
 
-- {r} – Numéro de ligne actuel.
-- {2}, {-1} - Décalage par rapport au numéro de ligne actuel.
+- {r} – Numéro de ligne actuelle.
+- {2}, {-1} – Décalage par rapport au numéro de ligne actuelle.
 
-**Une formule dynamique répétitive et la feuille de calcul Excel qui en résulte** 
+**Une formule dynamique répétée et la feuille de calcul Excel résultante** 
 
-![tâche : image_autre_texte](aspose-cells-template-and-smart-markers_1.png)
+![todo:image_alt_text](aspose-cells-template-and-smart-markers_1.png)

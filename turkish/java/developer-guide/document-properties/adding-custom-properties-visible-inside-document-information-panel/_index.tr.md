@@ -1,20 +1,21 @@
-﻿---
-title: Belge Bilgileri Panelinde görünen Özel Özellikler ekleme
+---
+title: Belge Bilgi Paneli içinde görülebilen Özel Özellikler eklemek
 type: docs
 weight: 500
 url: /tr/java/adding-custom-properties-visible-inside-document-information-panel/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, çalışma kitabı nesnesinin içine, Belge Bilgileri Panelinde görünen özel özellikler eklemek için kullanılabilir. Dosya > Bilgi > Özellikler > Belge Panelini Göster menü komutlarını kullanarak Microsoft Excel'de Belge Bilgileri Panelini açabilirsiniz.
+Aspose.Cells, Belge Bilgi Paneli'nde görünen çalışma kitabı nesnesi içine özel özellikler eklemek için kullanılabilir. Microsoft Excel'de Belge Bilgi Paneli'ni Aç > Bilgi > Özellikler > Belgeyi Göster menü komutlarını kullanarak açabilirsiniz.
 
- Lütfen kullan[**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) Belge Bilgileri Panelinde görünecek özel bir özellik ekleme yöntemi
+Lütfen Belge Bilgi Panelinde görünecek özel bir özellik eklemek için [**Workbook.getContentTypeProperties().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) yöntemini kullanın
 
 {{% /alert %}}
 
-## **Örnek vermek**
+## **Örnek**
 
-Aşağıdaki örnek kod, iki özel özellik ekler. İlk özellik herhangi bir tür içermez ve ikinci özellik DateTime olarak bir türe sahiptir. Bir kez, bu kod tarafından oluşturulan çıktı Excel dosyasını açacaksınız, bu iki özelliği Belge Bilgileri Paneli içinde göreceksiniz.
+Aşağıdaki örnek kod, herhangi bir tipe sahip olmayan ilk özellik ve ikinci özelliğin tarih ve saat türüne sahip olduğu iki özel özellik ekler. Bu kodun oluşturduğu çıktı Excel dosyasını açtığınızda, bu iki özelliği Belge Bilgi Paneli içinde göreceksiniz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-management-AddingCustomProperties-AddingCustomProperties.java" >}}
 
@@ -22,6 +23,6 @@ Aşağıdaki örnek kod, iki özel özellik ekler. İlk özellik herhangi bir t�
 
 {{% alert color="primary" %}}
 
-- [Aspose.Cells'de Özel XML Parçalarını Kullanma](/cells/tr/java/using-custom-xml-parts-in-aspose-cells/)
+- [Aspose.Cells'te Özel XML Parçalarının Kullanımı](/cells/tr/java/using-custom-xml-parts-in-aspose-cells/)
 
 {{% /alert %}}

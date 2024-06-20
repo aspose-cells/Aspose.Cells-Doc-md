@@ -1,26 +1,29 @@
-﻿---
-title: Importieren von Daten aus einer DataTable in Grid
+---
+title: Importieren von Daten aus einem DataTable in ein Raster
 type: docs
 weight: 50
-url: /de/net/importing-data-from-a-datatable-to-grid/
+url: /de/net/aspose-cells-griddesktop/import-data-from-a-datatable-to-grid/
+keywords: GridDesktop,import,data,datatable
+description: Dieser Artikel stellt vor, wie Daten in GridDesktop importiert werden.
 ---
+
 {{% alert color="primary" %}} 
 
-Seit der Veröffentlichung des Frameworks .NET bietet Microsoft eine hervorragende Möglichkeit, Daten im Offlinemodus in Form eines DataTable-Objekts zu speichern. Aspose.Cells.GridDesktop versteht die Anforderungen von Entwicklern und unterstützt auch das Importieren von Daten aus einer Datentabelle. In diesem Thema wird erläutert, wie Sie dies tun.
+Seit der Veröffentlichung des .NET Frameworks hat Microsoft eine ausgezeichnete Möglichkeit bereitgestellt, Daten im Offline-Modus in Form eines DataTable-Objekts zu speichern. Aspose.Cells.GridDesktop unterstützt auch das Importieren von Daten aus einer Datenbank. Dieses Thema erörtert, wie dies gemacht wird.
 
 {{% /alert %}} 
 ## **Beispiel**
-So importieren Sie den Inhalt einer Datentabelle mit dem Aspose.Cells.GridDesktop-Steuerelement:
+Um den Inhalt einer Datenbank unter Verwendung der Aspose.Cells.GridDesktop-Steuerelemente zu importieren:
 
-1. Fügen Sie einem Formular das Aspose.Cells.GridDesktop-Steuerelement hinzu.
+1. Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu einem Formular hinzu.
 1. Erstellen Sie ein DataTable-Objekt, das die zu importierenden Daten enthält.
-1. Rufen Sie die Referenz eines gewünschten Arbeitsblatts ab.
-1. Importieren Sie den Inhalt der Datentabelle in das Arbeitsblatt.
-1. Legen Sie die Spaltenüberschriften des Arbeitsblatts entsprechend den Spaltennamen der Datentabelle fest.
-1. Stellen Sie die Breite der Spalten ein, falls gewünscht/
+1. Holen Sie sich die Referenz eines gewünschten Arbeitsblatts.
+1. Importieren Sie den Inhalt der Datenbank in das Arbeitsblatt.
+1. Setzen Sie die Spaltenköpfe des Arbeitsblatts gemäß den Spaltennamen der Datenbank.
+1. Legen Sie die Breite der Spalten fest, wenn gewünscht.
 1. Zeigen Sie das Arbeitsblatt an.
 
-In dem unten angegebenen Beispiel haben wir ein DataTable-Objekt erstellt und es mit einigen Daten gefüllt, die aus einer Datenbanktabelle namens Products abgerufen wurden. Schließlich haben wir Daten aus diesem DataTable-Objekt mit Aspose.Cells.GridDesktop in ein gewünschtes Arbeitsblatt importiert.
+In dem unten stehenden Beispiel haben wir ein DataTable-Objekt erstellt und es mit einigen Daten gefüllt, die aus einer Datenbanktabelle mit dem Namen Produkte abgerufen wurden. Schließlich haben wir Daten aus diesem DataTable-Objekt in ein gewünschtes Arbeitsblatt mit Aspose.Cells.GridDesktop importiert.
 
 
 

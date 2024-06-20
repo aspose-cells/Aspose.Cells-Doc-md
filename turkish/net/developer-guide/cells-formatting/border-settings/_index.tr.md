@@ -1,85 +1,86 @@
 ---
-title: Kenarlık Ayarları
-description: Hücrelerin kenarlık stilini ve rengini ayarlamak için C#'deki Aspose.Cells kitaplığı nasıl kullanılır? Kenarlığın genişliğini, stilini ve rengini ayarlayarak hücrelerin nasıl görüneceği ve görüneceği üzerinde daha fazla kontrole sahip olursunuz.
-keywords: Aspose.Cells, Cell Border Settings, C#, Border Width, Border Style, Border Color
+title: Kenar Ayarları
+description: Aspose.Cells kitaplığını C#’da hücrelerin sınır stilini ve rengini ayarlamak için nasıl kullanabilirsiniz. Sınırın genişliği, stili ve rengini ayarlayarak, hücrelerin görünümü ve görünümü üzerinde daha fazla kontrol sağlarsınız.
+keywords: Aspose.Cells, Hücre Sınır Ayarları, C#, Sınır Genişliği, Sınır Stili, Sınır Rengi
 type: docs
 weight: 40
 url: /tr/net/cells-border-settings/
 ---
-##  **Cells'e Kenarlık Ekleme**
 
-Microsoft Excel, kullanıcıların hücreleri kenarlıklar ekleyerek biçimlendirmesine olanak tanır. Kenarlığın türü nereye eklendiğine bağlıdır. Örneğin üst kenarlık, hücrenin en üst konumuna eklenen kenarlıktır. Kullanıcılar ayrıca kenarlıkların çizgi stilini ve rengini de değiştirebilir.
+## **Hücrelere Kenarlık Eklemek**
 
-Aspose.Cells ile geliştiriciler, Microsoft Excel'dekiyle aynı esnek yöntemle kenarlıklar ekleyebilir ve görünümlerini özelleştirebilir.
+Microsoft Excel, kullanıcılara sınırlar ekleyerek hücreleri biçimlendirmelerine olanak tanır. Sınırın türü nereye eklendiğine bağlıdır. Örneğin, üst sınır, bir hücrenin üst konumuna eklenen sınırdır. Kullanıcılar ayrıca sınırların çizgi stili ve rengini değiştirebilirler.
 
-###  **Cells'e Kenarlık Ekleme**
+Aspose.Cells ile geliştiriciler, sınırlar ekleyebilir ve bunları Microsoft Excel'de olduğu gibi esnek bir şekilde özelleştirebilirler.
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**Çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon. Bir çalışma sayfası şu şekilde temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf şunları sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Toplamak. İçindeki her öğe[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyon bir nesneyi temsil eder[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf.
+### **Hücrelere Kenarlık Eklemek**
 
- Aspose.Cells şunları sağlar[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)yöntemdeki[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)sınıf.[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)yöntemi bir hücrenin biçimlendirme stilini ayarlamak için kullanılır.[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)sınıf, hücrelere kenarlık eklemek için özellikler sağlar.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her bir çalışma sayfasına erişim sağlayan bir [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonunu içerir. Bir çalışma sayfası [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonunu sağlar. [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonunda her öğe, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının bir nesnesini temsil eder.
 
-####  **Cell'e Kenarlık Ekleme**
+Aspose.Cells, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfında [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) metodunu sağlar. [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) metodu, bir hücrenin biçimlendirme stili ayarlamak için kullanılır. [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) sınıfı, hücrelere sınırlar eklemek için özellikler sağlar.
 
-Geliştiriciler, kullanarak bir hücreye kenarlıklar ekleyebilirler.[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Kenarlıklar**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Toplamak. Kenarlık türü bir dizin olarak iletilir.[**Kenarlıklar**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Toplamak. Tüm kenarlık türleri önceden tanımlanmıştır.[**Kenarlık Türü**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) numaralandırma.
+#### **Bir Hücreye Sınır Ekleme**
+
+Geliştiriciler, [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnesinin [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) koleksiyonunu kullanarak bir hücreye sınır ekleyebilirler. Sınır türü, [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) koleksiyonuna bir dizin olarak iletilir. Tüm sınır türleri, [**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) numaralandırmasında önceden tanımlanmıştır.
 
 **Sınır numaralandırması**
 
-|**Kenar Çeşitleri**|**Tanım**|
+|**Sınır Türleri**|**Açıklama**|
 | :- | :- |
-|Alt sınır|Bir alt sınır çizgisi|
-|ÇaprazAşağı|Sol üstten sağ alta çapraz bir çizgi|
-|ÇaprazYukarı|Sol alttan sağ üste çapraz bir çizgi|
-|Sol Kenarlık|Sol sınır çizgisi|
-|Sağ Kenarlık|Sağ sınır çizgisi|
-|Üst Kenarlık|Bir üst sınır çizgisi|
+|BottomBorder|Alt sınır çizgisi|
+|DiagonalDown|Sol üstten sağ alt köşeye çapraz çizgi|
+|DiagonalUp|Sol alttan sağ üste çapraz çizgi|
+|LeftBorder|Sol sınır çizgisi|
+|RightBorder|Sağ sınır çizgisi|
+|TopBorder|Üst sınır çizgisi|
 
-[**Kenarlıklar**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders)koleksiyon tüm sınırları saklar. Her sınırda[**Kenarlıklar**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) koleksiyon bir ile temsil edilir[**Sınır**](https://reference.aspose.com/cells/net/aspose.cells/border) iki özellik sağlayan nesne,[**Renk**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) Ve[**Çizgi Stili**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle)sırasıyla bir kenarlığın çizgi rengini ve stilini ayarlamak için.
+The [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection stores all borders. Each border in the [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection is represented by a [**Border**](https://reference.aspose.com/cells/net/aspose.cells/border) object which provides two properties, [**Color**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) and [**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) to set a border's line color and style respectively.
 
-Kenarlığın çizgi rengini ayarlamak için Renk numaralandırmasını (.NET Çerçevesinin parçası) kullanarak bir renk seçin ve bunu Kenarlık nesnesinin Renk özelliğine atayın.
+Bir sınırın çizgi rengini ayarlamak için, renk seçmek için .NET Framework'ün bir parçası olan Renk numaralandırmasını seçin ve onu Sınır nesnesinin Renk özelliğine atayın.
 
- Kenarlığın çizgi stili, menüden bir çizgi stili seçilerek ayarlanır.[**Hücre Kenarlığı Türü**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)numaralandırma.
+Sınırın çizgi stili, [**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype) numaralandırmasından bir çizgi stili seçilerek ayarlanır.
 
-**CellBorderType numaralandırması**
+**HücreSınırTürü numaralandırması**
 
-|**Çizgi Stilleri**|**Tanım**|
+|**Çizgi Stilleri**|**Açıklama**|
 | :- | :- |
-|Çizgi nokta|İnce çizgi noktalı çizgi|
-|Çizgi NoktaNokta|İnce çizgi-nokta-noktalı çizgi|
-|Kesikli|Kesik çizgi|
-|Noktalı|Noktalı çizgi|
-|Çift|Çift çizgi|
-|Saç|Saç çizgisi|
-|Orta ÇizgiNokta|Orta çizgi noktalı çizgi|
-|Orta ÇizgiNoktaNokta|Orta çizgi-nokta-noktalı çizgi|
-|Orta Kesikli|Orta kesikli çizgi|
-|Hiçbiri|Çizgi yok|
-|Orta|Orta çizgi|
-|Eğimli ÇizgiNokta|Eğimli orta çizgi noktalı çizgi|
-|Kalın|Kalın çizgi|
-|İnce|İnce çizgi|
-Çizgi stillerinden birini seçin ve ardından onu[**Sınır**](https://reference.aspose.com/cells/net/aspose.cells/border) nesnenin[**Çizgi Stili**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) mülk.
+|DashDot|İnce tireli kesikli çizgi|
+|DashDotDot|İnce tireli kesik noktalı çizgi|
+|Dashed|Kesikli çizgi|
+|Dotted|Noktalı çizgi|
+|Double|Çift çizgi|
+|Hair|Saç inceliğinde çizgi|
+|MediumDashDot|Orta tireli kesikli çizgi|
+|MediumDashDotDot|Orta tireli kesik noktalı çizgi|
+|MediumDashed|Orta kesikli çizgi|
+|None|No Line|
+|Medium|Orta Çizgi|
+|SlantedDashDot|Eğik orta kesikli çizgi|
+|Thick|Kalın çizgi|
+|Thin|İnce çizgi|
+Bir çizgi stili seçin ve ardından [**Border**](https://reference.aspose.com/cells/net/aspose.cells/border) nesnesinin [**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) özelliğine atayın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBordersToCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Hem çizgi stilini hem de rengini aynı anda ayarlamalısınız. İki çapraz kenar çizgisi aynı çizgi stiline ve rengine sahip olmalıdır.
+Aynı anda çizgi stili ve rengini ayarlamalısınız. İki çapraz kenar çizgisinin aynı çizgi stiline ve renge sahip olması gerekir.
 
 {{% /alert %}}
 
-####  **Cells Aralığına Kenarlık Ekleme**
+#### **Hücre Aralığına Sınırlar Ekleme**
 
- Tek bir hücre yerine bir dizi hücreye kenarlık eklemek de mümkündür. Bunu yapmak için öncelikle, çağrı yaparak bir hücre aralığı oluşturun.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Koleksiyonun[**Aralık Oluştur**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) yöntem. Aşağıdaki parametreleri alır:
+Tek bir hücreden ziyade bir hücre aralığına da sınırlar eklemek mümkündür. Bunu yapmak için öncelikle [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonunun [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) yöntemini çağırarak bir hücre aralığı oluşturun. Aşağıdaki parametreleri alır:
 
-- İlk Satır, aralığın ilk satırı.
-- İlk Sütun, aralığın ilk sütununu temsil eder.
+- İlk Sütun, aralığın ilk sütunu.
+- İlk Sütun, aralığın ilk sütunu.
 - Satır Sayısı, aralıktaki satır sayısı.
 - Sütun Sayısı, aralıktaki sütun sayısı.
 
-[**Aralık Oluştur**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) yöntem bir döndürür[**Menzil**](https://reference.aspose.com/cells/net/aspose.cells/range) Belirtilen hücre aralığını içeren nesne.[**Menzil**](https://reference.aspose.com/cells/net/aspose.cells/range) nesne sağlar[**Anahat Kenarlığını Ayarla**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) Hücre aralığına kenarlık eklemek için aşağıdaki parametreleri alan yöntem:
+[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) yöntemi belirtilen hücre aralığını içeren bir [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) nesnesi döndürür. [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) nesnesi, hücre aralığına sınır eklemek için aşağıdaki parametreleri alır:
 
--  *Kenarlık Türü**, kenarlık türü,[**Kenarlık Türü**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)numaralandırma.
--  *Çizgi Stili**, kenar çizgisi stilidir;[**Hücre Kenarlığı Türü**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)numaralandırma.
-- *Renk**, Renk numaralandırmasından seçilen çizgi rengi.
+- **Sınır Türü**, [**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) sıralamasından seçilen sınır türü.
+- **Çizgi Stili**, [**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype) sıralamasından seçilen sınır çizgi stili.
+- **Renk**, Renk sıralamasından seçilen çizgi rengi.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBorderstoRange-1.cs" >}}

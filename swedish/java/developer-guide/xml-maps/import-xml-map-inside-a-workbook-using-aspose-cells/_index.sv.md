@@ -1,29 +1,30 @@
-﻿---
-title: Importera XML-karta i en arbetsbok med Aspose.Cells
+---
+title: Importera XML karta i arbok med hjälp av Aspose.Cells
 type: docs
 weight: 40
 url: /sv/java/import-xml-map-inside-a-workbook-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells låter dig importera XML-karta inuti arbetsboken med hjälp av[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int)) metod. Du kan importera XML-karta med hjälp av Microsoft Excel med följande steg
+Aspose.Cells ger dig möjlighet att importera XML-karta i arbetsboken med hjälp av [**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int)) metoden. Du kan importera XML-karta med Microsoft Excel med följande steg
 
--  Välj**Utvecklare** flik
--  Klick**Importera** i XML-sektionen och följ de nödvändiga stegen.
+- Välj **Utvecklare**-fliken
+- Klicka på **Importera** i XML-avsnittet och följ de nödvändiga stegen.
 
- Du måste ange dina XML-data för att slutföra importen. Här är en[exempel på XML-data](5472501.txt) som du kan använda för att testa.
+Du behöver tillhandahålla din XML-data för att slutföra importen. Här är ett [prov-XML-data](5472501.txt) som du kan använda för testning.
 
 {{% /alert %}}
 
 ## **Importera XML-karta med Microsoft Excel**
 
-Följande skärmdump visar hur man importerar XML-karta med Microsoft Excel.
+Följande skärmbild visar hur man importerar XML-karta med Microsoft Excel.
 
 ![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)
 
 ## **Importera XML-karta med Aspose.Cells**
 
- Följande exempelkod visar hur du använder[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int) ). Det genererar[output excel-fil](5472502.xlsx) som visas i denna skärmdump.
+Följande exempelkod visar hur man använder [**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int)). Den genererar [utdataexcelfilen](5472502.xlsx) som visas på denna skärmbild.
 
 ![todo:image_alt_text](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)
 

@@ -1,37 +1,38 @@
 ---
-title: Hantera formler för Excel-filer
+title: Hantera formler för Excel filer
 linktitle: Formler
 type: docs
 weight: 122
 url: /sv/net/using-formulas-or-functions-to-process-data/
-description: Aspose.Cells kan helt enkelt hämta, ställa in och beräkna formler för Excel-filer.
-description: "Lär dig hur du hanterar formler för Excel-filer via API:erna Aspose.Cells för NET."
-keywords: How to calculate formulas in C#, Formulas and Functions using C#, C# Manage Built-in Functions, How to Use Add-in Functions with C#, How to Use Array Formula via C#, How to Use R1C1 Formula in C#.
+description: Aspose.Cells kan enkelt få, sätta och beräkna formler för excel filer.
+description: Lär dig hur man hanterar formler för Excel filer genom de Aspose.Cells for NET API erna.
+keywords: Hur man beräknar formler i C#, formler och funktioner med C#, C# Hantera Inbyggda Funktioner, Hur man Använder Tilläggsfunktioner med C#, Hur man Använder Matrisformel via C#, Hur man Använder R1C1 formel i C#.
 ---
-##  **Introduktion**
 
-En av Microsoft Excels övertygande egenskaper är dess förmåga att bearbeta data med formler och funktioner. Microsoft Excel tillhandahåller en uppsättning inbyggda funktioner och formler som hjälper användare att snabbt utföra komplexa beräkningar. Aspose.Cells tillhandahåller också en enorm uppsättning inbyggda funktioner och formler som hjälper utvecklare att enkelt beräkna värden. Aspose.Cells stöder även tilläggsfunktioner. Dessutom stöder Aspose.Cells array och R1C1-formler i Aspose.Cells.
+## **Introduktion**
 
-##  **Hur man använder formler och funktioner**
+En av Microsoft Excels lockande funktioner är dess förmåga att bearbeta data med formler och funktioner. Microsoft Excel tillhandahåller en uppsättning inbyggda funktioner och formler som hjälper användare att snabbt utföra komplexa beräkningar. Aspose.Cells tillhandahåller också en stor uppsättning inbyggda funktioner och formler som hjälper utvecklare att beräkna värden enkelt. Aspose.Cells stödjer även tilläggsfunktioner. Dessutom stöder Aspose.Cells matris- och R1C1-formlar i Aspose.Cells.
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) samling som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samling. Varje föremål i Cells-samlingen representerar ett objekt av[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass.
+## **Hur man Använder formler och funktioner**
 
- Det är möjligt att tillämpa formler på celler med hjälp av egenskaper och metoder som erbjuds av[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass, diskuteras mer i detalj nedan.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-klassen innehåller en [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-samling som möjliggör åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-klassen tillhandahåller en [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-samling. Varje objekt i Cells-samlingen representerar ett objekt av [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-klassen.
 
-- Använder inbyggda funktioner.
+Det är möjligt att använda formler på celler med egenskaper och metoder som erbjuds av [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-klassen, som diskuteras mer detaljerat nedan.
+
+- Använda inbyggda funktioner.
 - Använda tilläggsfunktioner.
 - Arbeta med matrisformler.
 - Skapa en R1C1-formel.
 
-##  **Hur man använder inbyggda funktioner**
+## **Hur man Använder Inbyggda Funktioner**
 
-Inbyggda funktioner eller formler tillhandahålls som färdiga funktioner för att minska utvecklarnas ansträngningar och tid. Ser[en lista över inbyggda funktioner](/cells/sv/net/supported-formula-functions/) stöds av Aspose.Cells. Funktionerna är listade i alfabetisk ordning. Fler funktioner kommer att stödjas i framtiden.
+Inbyggda funktioner eller formler tillhandahålls som färdiga funktioner för att minska utvecklares ansträngningar och tid. Se [en lista över inbyggda funktioner](/cells/sv/net/supported-formula-functions/) som stöds av Aspose.Cells. Funktionerna listas i alfabetisk ordning. Fler funktioner kommer att stödjas i framtiden.
 
- Aspose.Cells stöder de flesta formler eller funktioner som erbjuds av Microsoft Excel. Utvecklare kan använda dessa formler genom API eller[designerkalkylblad](/cells/sv/net/what-is-a-designer-spreadsheet/). Aspose.Cells stöder en stor uppsättning matematiska formler, strängar, booleska formler, datum/tid, statistik, databas, uppslags- och referensformler.
+Aspose.Cells stöder de flesta formler eller funktioner som erbjuds av Microsoft Excel. Utvecklare kan använda dessa formler genom API:n eller [designer kalkylarket](/cells/sv/net/what-is-a-designer-spreadsheet/). Aspose.Cells stöder en stor uppsättning matematiska, sträng-, booleska, datums-/tid-, statistiska, databas-, sök- och referens formler.
 
- Använd[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**Formel**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula) egenskap för att lägga till en formel i en cell. *Komplexa formler**, till exempel
+Använd [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-klassens [**Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula)-egenskap för att lägga till en formula i en cell. **Komplexa formler**, till exempel
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  = H7*(1+IF(P7 = $L$3,$M$3, (IF(P7=$L$4,$M$4,0))))
 
@@ -39,17 +40,17 @@ Inbyggda funktioner eller formler tillhandahålls som färdiga funktioner för a
 
 , stöds också i Aspose.Cells. När du tillämpar en formel på en cell, börja alltid strängen med ett likhetstecken (=) som du gör när du skapar en formel i Microsoft Excel och använd ett kommatecken (,) för att avgränsa funktionsparametrar.
 
- I exemplet nedan tillämpas en komplex formel på den första cellen i ett kalkylblad[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling. Formeln använder en inbyggd**IF** funktionen tillhandahålls av Aspose.Cells.
+I exemplet nedan tillämpas en komplex formula på den första cellen i kalkylbladets [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samling. Formeln använder en inbyggd **OM**-funktion som tillhandahålls av Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingBuiltinfunction-1.cs" >}}
 
-##  **Hur man använder tilläggsfunktioner**
+## **Hur man Använder Tilläggsfunktioner**
 
-Vi kan ha några användardefinierade formler som vi vill inkludera som ett excel-tillägg. När du ställer in cell.Formelfunktionen fungerar inbyggda funktioner bra, men det finns ett behov av att ställa in de anpassade funktionerna eller formlerna med hjälp av tilläggsfunktionerna.
+Vi kan ha några användardefinierade formler som vi vill inkludera som en excel-tillägg. När du ställer in cell.Formula-funktionen fungerar inbyggda funktioner bra, men det finns ett behov av att ställa in de anpassade funktionerna eller formlerna med tilläggsfunktionerna.
 
- Aspose.Cells tillhandahåller funktioner för att registrera tilläggsfunktioner med hjälp av[**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index). Efteråt när vi ställer in cell.Formula = anyFunctionFromAddIn, innehåller utdata Excel-filen det beräknade värdet från AddIn-funktionen.
+Aspose.Cells tillhandahåller funktioner för att registrera tilläggsfunktioner med hjälp av [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index). Efteråt, när vi ställer in cell.Formula = anyFunctionFromAddIn, innehåller den resulterande Excel-filen det beräknade värdet från tilläggsfunktionen.
 
-Följande XLAM-fil ska laddas ner för registrering av tilläggsfunktionen i nedanstående exempelkod. På samma sätt kan utdatafilen "test_udf.xlsx" laddas ner för att kontrollera utdata.
+Följande XLAM-fil ska laddas ned för att registrera tilläggsfunktionen enligt nedanstående provkod. På samma sätt kan den resulterande filen "test_udf.xlsx" laddas ned för att kontrollera resultatet.
 
 [TestUDF.xlam](81920908.xlam)
 
@@ -57,33 +58,33 @@ Följande XLAM-fil ska laddas ner för registrering av tilläggsfunktionen i ned
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-RegisterAndCallFuncFromAddIn-1.cs" >}}
 
-##  **Hur man använder Array Formula**
+## **Hur man Använder Matrisformel**
 
-Matrisformler är formler som tar matriser, istället för enskilda tal, som argument till funktionerna som utgör formeln. När en matrisformel visas är den omgiven av klammerparenteser ({}).
+Matrisformler är formler som tar matriser, istället för enskilda nummer, som argument till de funktioner som utgör formeln. När en matrisformel visas, omges den av måsvingar ({ }).
 
-Vissa Microsoft Excel-funktioner returnerar matriser med värden. För att beräkna flera resultat med en matrisformel anger du matrisen i ett cellintervall med samma antal rader och kolumner som matrisargumenten.
+Vissa Microsoft Excel-funktioner returnerar matriser med värden. För att beräkna flera resultat med en arrayformel, ange matrisen i en cellintervall med samma antal rader och kolumner som matrisargumenten.
 
- Det är möjligt att tillämpa en matrisformel på en cell genom att anropa[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) metod. De[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) metoden tar följande parametrar:
+Det är möjligt att tillämpa en matrisformel på en cell genom att anropa [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-klassens [**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula)-metod. [**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula)-metoden tar följande parametrar:
 
-- *Array Formula**, arrayformeln.
-- *Antal rader**, antalet rader som ska fyllas i resultatet av matrisformeln.
-- *Antal kolumner**, antalet kolumner som ska fyllas i resultatet av matrisformeln.
+- **Arrayformel**, arrayformeln.
+- **Antal rader**, antalet rader för att fylla resultatet av arrayformeln.
+- **Antal kolumner**, antalet kolumner för att fylla resultatet av matrisformeln.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}
 
-##  **Hur man använder R1C1 Formula**
+## **Hur man Använder R1C1-formel**
 
- Lägg till en**R1C1** referera stilformel till en cell med[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**R1C1Formel**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) fast egendom.
+Lägg till en formel med referensstil **R1C1** i en cell med klassens [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) [**R1C1Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula)-egenskap.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingR1C1-1.cs" >}}
 
-##  **Förhandsämnen**
-- [Prejudikat och beroende](/cells/sv/net/precedents-and-dependents/)
-- [Ställ in externa länkar i formler](/cells/sv/net/set-external-links-in-formulas/)
-- [Sprid formel i tabell eller listobjekt automatiskt medan du anger data i nya rader](/cells/sv/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
-- [Inställningsformel för namngett intervall](/cells/sv/net/setting-formula-for-named-range/)
-- [Inställningsformler - Meddelande för icke engelska användare](/cells/sv/net/setting-formulas-notice-for-non-english-users/)
-- [Ställa in delad formel](/cells/sv/net/setting-shared-formula/)
-- [Ange maximalt antal rader med delad formel](/cells/sv/net/specify-maximum-rows-of-shared-formula/)
-- [Excel-funktioner som stöds](/cells/sv/net/supported-formula-functions/)
+## **Fortsatta ämnen**
+- [Föregångare och efterföljande](/cells/sv/net/precedents-and-dependents/)
+- [Ange externa länkar i formler](/cells/sv/net/set-external-links-in-formulas/)
+- [Sprid formel i tabell eller listobjekt automatiskt när du matar in data i nya rader](/cells/sv/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
+- [Ange formel för namngivet område](/cells/sv/net/setting-formula-for-named-range/)
+- [Inställning av formler - Meddelande för användare som inte talar engelska](/cells/sv/net/setting-formulas-notice-for-non-english-users/)
+- [Inställning av delad formel](/cells/sv/net/setting-shared-formula/)
+- [Ange maximala rader för delad formel](/cells/sv/net/specify-maximum-rows-of-shared-formula/)
+- [Stödda Excel-funktioner](/cells/sv/net/supported-formula-functions/)
 

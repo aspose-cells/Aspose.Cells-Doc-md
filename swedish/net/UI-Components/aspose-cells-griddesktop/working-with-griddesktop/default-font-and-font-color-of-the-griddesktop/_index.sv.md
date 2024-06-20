@@ -1,22 +1,25 @@
-﻿---
-title: Standardteckensnitt och teckensnittsfärg för GridDesktop
+---
+title: Standardtypsnitt och typsnittsfärg för GridDesktop
 type: docs
 weight: 70
-url: /sv/net/default-font-and-font-color-of-the-griddesktop/
+url: /sv/net/aspose-cells-griddesktop/default-font-and-font-color-of-the-griddesktop/
+keywords: GridDesktop, font, färg
+description: Den här artikeln introducerar standardtypsnitt och typsnittsfärg i GridDesktop.
 ---
-## **Möjliga användningsscenarier**
-Ibland vill du ändra standardteckensnittet och teckensnittsfärgen för GridDesktop. Använd följande två egenskaper för detta ändamål. Du kan komma åt dessa egenskaper vid Design Time eller Runtime beroende på dina behov.
+
+## **Möjliga användningsscenario**
+Ibland vill man ändra standardtypsnittet och färgen för GridDesktop. Använd följande två egenskaper för detta ändamål. Du kan få åtkomst till dessa egenskaper vid designtid eller körtid beroende på dina behov.
 
 - GridDesktop.DefaultCellFont
 - GridDesktop.DefaultCellFontColor
-## **Ändra standardteckensnitt och teckensnittsfärg vid designtid**
-Följande skärmdump visar hur du ändrar standardteckensnitt och teckensnittsfärg för GridDesktop vid designtid.
+## **Ändra standardtypsnitt och typsnittsfärg vid designtid**
+Följande skärmbild visar hur man ändrar standardtypsnitt och typsnittsfärg för GridDesktop vid design
 
 ![todo:image_alt_text](default-font-and-font-color-of-the-griddesktop_1.png)
-## **Ändra standardteckensnitt och teckensnittsfärg vid körning**
-Följande exempelkod förklarar hur du ändrar standardteckensnitt och teckensnittsfärg för GridDesktop vid körning.
+## **Ändra standardtypsnitt och typsnittsfärg vid körning**
+Följande exempelkod förklarar hur man ändrar standardtypsnitt och typsnittsfärg för GridDesktop vid körning.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Assign your desired Font object to DefaultCellFont property
 

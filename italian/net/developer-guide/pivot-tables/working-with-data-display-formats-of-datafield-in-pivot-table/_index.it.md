@@ -1,20 +1,21 @@
-﻿---
-title: Utilizzo dei formati di visualizzazione dei dati di DataField nella tabella pivot
+---
+title: Lavorare con i formati di visualizzazione dei dati del campo dati nella tabella pivot
 type: docs
 weight: 140
 url: /it/net/working-with-data-display-formats-of-datafield-in-pivot-table/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells supporta tutti i formati di visualizzazione dei dati di DataField.
+Aspose.Cells supporta tutti i formati di visualizzazione dei dati del DataField.
 
 {{% /alert %}}
 
-## **Opzione del formato di visualizzazione "Classifica dal più piccolo al più grande" e "Classifica dal più grande al più piccolo".**
+## **Opzione di formato di visualizzazione "Classifica dal più piccolo al più grande" e "Classifica dal più grande al più piccolo"**
 
-ASpose.Cells offre la possibilità di impostare l'opzione del formato di visualizzazione per i campi pivot. Per questo, lo API fornisce il[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) proprietà. Per classificare dal più grande al più piccolo, puoi impostare il[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat)proprietà a[**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). Il seguente frammento di codice illustra l'impostazione delle opzioni del formato di visualizzazione.
+Aspose.Cells fornisce la possibilità di impostare l'opzione di formato di visualizzazione per i campi pivot. A questo scopo, l'API fornisce la proprietà [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat). Per classificare dal più grande al più piccolo, è possibile impostare la proprietà [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) a [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). Il seguente frammento di codice dimostra come impostare le opzioni di formato di visualizzazione.
 
-I file sorgente e di output di esempio possono essere scaricati da qui per testare il codice di esempio:
+Il file di origine e i file di output di esempio possono essere scaricati da qui per testare il codice di esempio.
 
 [File Excel di origine](101089332.xlsx)
 

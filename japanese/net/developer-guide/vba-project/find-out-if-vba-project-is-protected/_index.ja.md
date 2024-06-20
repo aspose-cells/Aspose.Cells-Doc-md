@@ -1,24 +1,25 @@
-﻿---
-title: VBA プロジェクトが保護されているかどうかを調べる
+---
+title: VBAプロジェクトが保護されているかどうかを調べる
 type: docs
 weight: 20
 url: /ja/net/find-out-if-vba-project-is-protected/
 ---
-## **VBA プロジェクトが C# で保護されているかどうかを調べる**
 
-ExcelファイルのVBA（Visual Basic Applications）プロジェクトが保護されているかどうかは、Aspose.Cellsを使用して確認できます[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected)財産。
+## **C#でVBAプロジェクトが保護されているかどうかを確認する**
+
+Aspose.Cellsを使用して、ExcelファイルのVBA（Visual Basic Applications）プロジェクトが保護されているかどうかを確認できます。[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected)プロパティを使用します。
 
 ## **サンプルコード**
 
-次のサンプル コードは、ブックを作成し、その VBA プロジェクトが保護されているかどうかを確認します。次に、VBA プロジェクトを保護し、VBA プロジェクトが保護されているかどうかを再度確認します。コンソール出力を参照してください。保護前に、[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected)戻り値**間違い**しかし、保護の後、それは戻ってきます**真実**.
+以下のサンプルコードは、ワークブックを作成し、そのVBAプロジェクトが保護されているかどうかを確認し、保護を設定し、再度そのVBAプロジェクトが保護されているかどうかを確認します。参照のためにコンソール出力をご覧ください。保護前に[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected)は**false**を返し、保護後に**true**を返します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-FindoutifVBAProjectisProtected.cs" >}}
 
 ## **コンソール出力**
 
-これは、参照用の上記のサンプル コードのコンソール出力です。
+上記サンプルコードのコンソール出力の参考情報です。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 IsProtected - Before Protecting VBA Project: False
 

@@ -1,21 +1,23 @@
-﻿---
-title: ImageOrPrintOptions'ın PageIndex ve PageCount Özelliklerini Kullanarak Sayfa Sırasını Oluşturun
+---
+title: ResimOluşturYazdırOptions ın PageIndex ve PageCount Özelliklerini Kullanarak Sayfaların Sıralı Olarak Görüntülenmesi
 type: docs
 weight: 110
 url: /tr/net/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
+
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells ile Excel dosyanızın bir dizi sayfasını resimlere dönüştürebilirsiniz.[**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pageindex)ve[**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pagecount)özellikler. Bu özellikler, çalışma sayfanızda çok fazla örneğin binlerce sayfa olduğunda, ancak bunlardan yalnızca bazılarını işlemek istediğinizde kullanışlıdır. Bu sadece işlem süresinden tasarruf etmekle kalmayacak, aynı zamanda işleme sürecinin bellek tüketiminden de tasarruf sağlayacaktır.
+Aspose.Cells ile Excel dosyanızın sayısız sayfaları olsa da bunlardan sadece bazılarını oluşturmak istiyorsanız, ImageOrPrintOptions'ın [**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pageindex) ve [**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pagecount) özelliklerini kullanarak sayısal bir dizi oluşturabilirsiniz. Bu özellikler, iş sayfanızda çok fazla örneğin binlerce sayfa olsa da sadece bazılarını oluşturmak istiyorsanız faydalıdır. Bu, sadece işleme süresini değil aynı zamanda oluşturma sürecinin bellek tüketimini de kaydedecektir.
 
-## **ImageOrPrintOptions'ın PageIndex ve PageCount Özelliklerini Kullanarak Sayfa Sırasını Oluşturun**
+## **Görüntü veya Yazdırma Seçenekleri Kullanılarak Sayfa Dizisi Oluşturma**
 
- Aşağıdaki örnek kod,[örnek excel dosyası](55541781.xlsx) kullanarak yalnızca 4, 5, 6 ve 7. sayfaları işler.[**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pageindex)ve[**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pagecount)özellikler. İşte kod tarafından oluşturulan işlenmiş sayfalar.
+Aşağıdaki örnek kod, [**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pageindex) ve [**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/pagecount) özelliklerini kullanarak örnek Excel dosyasını yükler ve yalnızca 4, 5, 6 ve 7 sayfaları oluşturur. İşte kod tarafından oluşturulan sayfaların oluşturulmuş görüntüleri.
 
-|![yapılacaklar:resim_alternatif_metin](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_1)|![yapılacaklar:resim_alternatif_metin](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_2)|
-|:- |:- |
-|![yapılacaklar:resim_alternatif_metin](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_3)|![yapılacaklar:resim_alternatif_metin](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_4)|
+|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_1)|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_2)|
+| :- | :- |
+|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_3)|![todo:image_alt_text](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_4)|
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderLimitedNoOfSequentialPages-1.cs" >}}

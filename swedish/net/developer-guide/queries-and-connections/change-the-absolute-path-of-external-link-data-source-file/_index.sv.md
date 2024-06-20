@@ -1,20 +1,21 @@
-﻿---
-title: Ändra den absoluta sökvägen för datakällfilen för extern länk
+---
+title: Ändra den absoluta sökvägen för extern länkdatakällfil
 type: docs
 weight: 290
 url: /sv/net/change-the-absolute-path-of-external-link-data-source-file/
 ---
-## Möjliga användningsscenarier
 
- Om du vill ändra den absoluta sökvägen för den externa länkdatakällfilen, använd[**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)fast egendom. Inledningsvis kommer den här egenskapen att ställas in på sökvägen varifrån excel-filen laddades. Men du kan ställa in den på en tom sträng eller så kan du ställa in den på någon lokal mappsökväg eller fjärrnätverkssökväg. Närhelst du ändrar den här egenskapen ändras även sökvägen till den externa länkdatakällfilen.
+## Möjliga användningsfall
 
-## Ändra den absoluta sökvägen för datakällfilen för extern länk
+Om du vill ändra den absoluta sökvägen för extern länkdatakällfilen, använd [**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath) egenskapen. Initialt kommer denna egenskap att sättas till sökvägen från vilken Excel-filen lästes in. Men du kan sätta den till en tom sträng eller så kan du sätta den till någon lokal mapp sökväg eller fjärrnätverk sökväg. Varje gång du ändrar denna egenskap kommer även sökvägen för extern länkdatakällfilen att ändras.
 
- Följande exempelkod laddar[exempel på excel-fil](5115146.xlsx) som innehåller en extern länk. Den skriver först ut den externa länkdatakällan som skriver ut fjärrsökvägen. Sedan tar den bort fjärrsökvägen och skriver ut igen, den här gången skriver den ut extern länkdatakälla med den lokala sökvägen. Sedan ändrar det[**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)egenskapen till en lokal och fjärrsökväg och skriver ut den externa länkdatakällan igen och ändringarna återspeglas i konsolens utdata.
+## Ändra den absoluta sökvägen för extern länkdatakällfil
 
-Här är konsolen eller felsökningsutgången efter exekveringen av ovanstående exempelkod med[exempel på excel-fil](5115146.xlsx).
+Följande exempelkod läser in [exempel_excelfil](5115146.xlsx) som innehåller en extern länk. Först skriver den ut den externa länkdatakällan som skriver ut fjärrsökvägen. Sedan tar den bort fjärrsökvägen och skriver ut igen, denna gången skriver den ut den externa länkdatakällan med den lokala sökvägen. Sedan ändrar den [**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath) egenskapen till en lokal och fjärr sökväg och skriver ut den externa länkdatakällan igen och ändringarna återspeglas i konsoloutputen.
 
-{{< highlight "java" >}}
+Här är konsol- eller felsökningsutdata efter att ovanstående exempelkod har utförts med [exempel_excelfil](5115146.xlsx).
+
+{{< highlight java >}}
 
 External Link Data Source: http:\\ws874dmErit\WebFiles\Files\300\ExternalAccounts.xlsx
 

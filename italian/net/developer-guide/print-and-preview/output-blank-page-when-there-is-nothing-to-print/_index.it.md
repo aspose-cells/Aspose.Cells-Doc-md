@@ -1,19 +1,20 @@
-﻿---
-title: Stampa pagina vuota quando non c'è niente da stampare
+---
+title: Genera una pagina vuota quando non c è nulla da stampare
 type: docs
 weight: 90
 url: /it/net/output-blank-page-when-there-is-nothing-to-print/
 ---
-## **Possibili scenari di utilizzo**
 
- Se il foglio è vuoto, Aspose.Cells non stamperà nulla quando si esporta il foglio di lavoro nell'immagine. È possibile modificare questo comportamento utilizzando[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) proprietà. Quando lo imposterai**VERO**, stamperà la pagina vuota.
+## **Possibili Scenari di Utilizzo**
 
-## **Stampa pagina vuota quando non c'è niente da stampare**
+Se il foglio è vuoto, allora Aspose.Cells non stamperà nulla quando si esporta il foglio di lavoro in un'immagine. È possibile modificare questo comportamento utilizzando la proprietà [**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint). Quando la imposti su **true**, stamperà la pagina vuota.
 
-Il seguente codice di esempio crea la cartella di lavoro vuota che ha un foglio di lavoro vuoto ed esegue il rendering del foglio di lavoro vuoto in un'immagine dopo aver impostato il[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) proprietà come**VERO**. Di conseguenza, genera la pagina vuota in quanto non c'è nulla da stampare che puoi vedere nell'immagine qui sotto.
+## **Output Pagina Bianca quando non c'è Nulla da Stampare**
 
-![cose da fare:immagine_alt_testo](output-blank-page-when-there-is-nothing-to-print_1.png)
+Il seguente codice di esempio crea il workbook vuoto che ha un foglio di lavoro vuoto e rende il foglio di lavoro vuoto in un'immagine dopo aver impostato la proprietà [**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) come **true**. Di conseguenza, genera la pagina vuota poiché non c'è nulla da stampare, come puoi vedere nell'immagine sotto.
 
-## **Codice d'esempio**
+![todo:image_alt_text](output-blank-page-when-there-is-nothing-to-print_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-OutputBlankPageWhenThereIsNothingToPrint-1.cs" >}}

@@ -1,53 +1,54 @@
-﻿---
-title: Fenêtre de l'éditeur de formule
+---
+title: Fenêtre de l Éditeur de Formules
 type: docs
 weight: 20
 url: /fr/reportingservices/formula-editor-window/
 ---
+
 {{% alert color="primary" %}} 
 
-L'Editeur de formule vous permet de créer des formules pour un rapport.
+L'Éditeur de Formules vous permet de créer des formules pour un rapport.
 
 {{% /alert %}} 
 
-Pour modifier une formule dans une cellule Excel Microsoft :
+Pour modifier une formule dans une cellule de Microsoft Excel :
 
 1. Dans Microsoft Excel, sélectionnez une cellule.
-1.  Ouvrez la boîte de dialogue Modifier la formule en cliquant sur**Modifier la formule** sur la barre d'outils.
-   ([Ajout de formules Reporting Services](/cells/fr/reportingservices/adding-reporting-services-formulas/) passe en revue un exemple qui modifie une formule.)
- La boîte de dialogue est divisée en sections : la zone d'édition en haut et la zone de formule en bas. Utilisez la zone de formule pour remplir la zone d'édition.
-1.  Sélectionnez une catégorie (utilisateur, paramètres, champs, etc.) dans la**Champs de rapport** liste (la liste de gauche).
-1.  Sélectionnez le type dans le**Les fonctions** liste (au milieu).
-1.  Sélectionnez une option dans la**Les opérateurs** liste (la liste de droite).
-1.  Cliquez sur**Insérer**pour ajouter l'expression au**Éditer** surface.
-1.  Cliquez sur**Insérer** lorsque l'expression est complète.
- La formule est insérée dans la cellule.
+1. Ouvrez la boîte de dialogue Modifier la formule en cliquant sur **Modifier la formule** dans la barre d'outils.
+   ([Ajouter des Formules de Services de Rapport](/cells/fr/reportingservices/adding-reporting-services-formulas/) guide à travers un exemple qui modifie une formule.)
+   La boîte de dialogue est divisée en section : la zone d'édition en haut, et la zone de formule en bas. Utilisez la zone de formule pour remplir la zone d'édition.
+1. Sélectionnez une catégorie (utilisateur, paramètres, champs, etc.) dans la liste **Champs du Rapport** (la liste à main gauche).
+1. Sélectionnez le type dans la liste **Fonctions** (au milieu).
+1. Sélectionnez une option dans la liste **Opérateurs** (la liste à main droite).
+1. Cliquez sur **Insérer** pour ajouter l'expression à la zone **Modifier**.
+1. Cliquez sur **Insérer** lorsque l'expression est complète.
+   La formule est insérée dans la cellule.
 
-**La boîte de dialogue Modifier la formule** 
+**La boîte de dialogue Modifier la Formule** 
 
-![tâche : image_autre_texte](formula-editor-window_1.png)
+![todo:image_alt_text](formula-editor-window_1.png)
 
-La boîte de dialogue Modifier la formule est divisée en sections, décrites ci-dessous.
-#### **Modifier la zone**
- Il s'agit de la zone dans laquelle vous créez ou modifiez une formule. Créez une formule en double-cliquant sur l'un des composants répertoriés dans la**Champs de rapport**, **Les fonctions** ou alors**Les opérateurs** listes. Lorsque vous choisissez un composant, la syntaxe requise est également insérée. Vous pouvez également saisir manuellement une formule.
-#### **Zone de formule**
-La zone de formule contient trois sections, chacune répertoriant les informations utilisées pour créer une formule.
+La boîte de dialogue Modifier la Formule est divisée en sections, décrites ci-dessous.
+#### **Zone d'Édition**
+C'est l'endroit où vous créez ou modifiez une formule. Créez une formule en double-cliquant sur l'un des composants répertoriés dans les listes **Champs du Rapport**, **Fonctions** ou **Opérateurs**. Lorsque vous choisissez un composant, la syntaxe requise est également insérée. Vous pouvez également entrer manuellement une formule. 
+#### **Zone de Formule**
+La zone de formule contient trois sections, chacune répertoriant les informations utilisées pour construire une formule.
 
-- Champs de rapport - la liste de gauche répertorie tous les champs de base de données accessibles pour le rapport. Il répertorie également toutes les formules ou tous les groupes déjà créés.
-- Fonctions - la liste du milieu contient des fonctions, des procédures prédéfinies qui renvoient des valeurs. Ils effectuent des calculs tels que AVERAGE, SUM, COUNT, SIN, UPPERCASE, etc.
-- Opérateurs - les "verbes d'action" utilisés dans les formules. Les opérateurs décrivent une opération ou une action devant avoir lieu entre deux ou plusieurs valeurs. Exemples d'opérateurs : ajouter, soustraire, inférieur à et supérieur à, etc.
-#### **Les contrôles**
-La boîte de dialogue comporte plusieurs contrôles :
+- Champs de rapport - la liste de gauche répertorie tous les champs de la base de données accessibles pour le rapport. Il répertorie également toutes les formules ou groupes déjà créés.
+- Fonctions - La liste du milieu contient des fonctions, des procédures prédéfinies qui retournent des valeurs. Elles effectuent des calculs tels que MOYENNE, SOMME, NB, SIN, MAJUSCULE, etc.
+- Opérateurs - les “verbes d'action” utilisés dans les formules. Les opérateurs décrivent une opération ou une action à effectuer entre deux valeurs ou plus. Exemples d'opérateurs : ajouter, soustraire, inférieur à et supérieur à, etc.
+#### **Contrôles**
+La boîte de dialogue comporte plusieurs contrôles :
 
 |**Nom du bouton** |**Description** |
-|:- |:- |
-| annuler| Annule une action.|
-| Pâte| Colle une chaîne de caractères composée des composants répertoriés dans la zone de formule dans la zone d'édition.|
-| Insérer| Prend la valeur dans la zone d'édition et l'insère sous forme de formule dans une cellule.|
-| Sortir| Ferme l'Editeur de formules.|
+| :- | :- |
+|Undo |Annule une action. |
+|Paste |Colle une chaîne de caractères constituée des composants répertoriés dans la zone de formule dans la zone d'édition. |
+|Insert |Prend la valeur dans la zone d'édition et l'insère en tant que formule dans une cellule. |
+|Exit |Ferme l'Éditeur de formules. |
 {{% alert color="primary" %}} 
 
-Rubriques connexes:
+Sujets connexes :
 
 - [Liste de formules](/cells/fr/reportingservices/formula-list/) - une liste de champs et d'opérateurs.
 

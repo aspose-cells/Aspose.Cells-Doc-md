@@ -1,20 +1,23 @@
-﻿---
-title: Arbeiten mit benutzerdefinierter Berechnungs-Engine
+---
+title: Arbeiten mit benutzerdefinierter Berechnungsmaschine
 type: docs
 weight: 70
-url: /de/net/working-with-custom-calculation-engine/
+url: /de/net/aspose-cells-gridweb/custom-calculation-engine/
+keywords: GridWeb, benutzerdefiniert, Berechnung, CalculationEngine, GridAbstractCalculationEngine
+description: Dieser Artikel zeigt, wie man GridAbstractCalculationEngine verwendet, um den Berechnungsprozess in GridWeb anzupassen.
 ---
-## **Implementieren Sie eine benutzerdefinierte Berechnungs-Engine**
 
-Aspose.Cells.Gridweb hat eine leistungsstarke Berechnungsmaschine, die fast alle Microsoft Excel-Formeln berechnen kann. Trotzdem können Sie die standardmäßige Berechnungs-Engine erweitern, was Ihnen mehr Leistung und Flexibilität bietet.
+## **Benutzerdefinierten Berechnungsmotor implementieren**
 
-Die folgende Eigenschaft und Klassen werden bei der Implementierung dieser Funktion verwendet.
+Aspose.Cells.Gridweb verfügt über eine leistungsstarke Berechnungsmaschine, die fast alle Microsoft Excel-Formeln berechnen kann. Dennoch ermöglicht es Ihnen auch, die Standardberechnungsmaschine zu erweitern, was Ihnen eine größere Leistung und Flexibilität bietet.
 
- 
-- **[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine)**
-- **[GridCalculationData](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridcalculationdata)**
+Die folgenden Eigenschaften und Klassen werden zur Umsetzung dieses Merkmals verwendet.
 
-Der folgende Code implementiert das benutzerdefinierte Berechnungsmodul. Es implementiert die Schnittstelle**[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine)** das hat ein**[Berechnen (GridCalculationData-Daten)] (https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine/methods/calculate)** Methode. Diese Methode wird für alle Ihre Formeln aufgerufen. Innerhalb dieser Methode erfassen wir die**MYTESTFUNC** Formel und multipliziere mit 2 für den ersten Parameterwert .
+
+- [**GridAbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine)
+- [**GridCalculationData**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridcalculationdata)
+
+Der folgende Code implementiert den benutzerdefinierten Berechnungsmotor. Es implementiert das Interface [**GridAbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine), das eine [**Calculate(GridCalculationData data)**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine/methods/calculate)-Methode hat. Diese Methode wird für alle Ihre Formeln aufgerufen. Innerhalb dieser Methode erfassen wir die **MYTESTFUNC**-Formel und multiplizieren mit 2 für ihren ersten Parametewert.
 
 ### **Programmierbeispiel**
 

@@ -1,23 +1,24 @@
-﻿---
-title: إنشاء الوصول ونسخ النطاقات المسماة
+---
+title: إنشاء الوصول ونسخ نطاقات الأسماء
 type: docs
 weight: 200
 url: /ar/net/create-access-and-copy-named-ranges/
 ---
+
 ## **مقدمة**
 
-عادةً ، تُستخدم تسميات الأعمدة والصفوف للإشارة إلى الخلايا الفردية. من الممكن إنشاء أسماء وصفية لتمثيل الخلايا أو نطاقات الخلايا أو الصيغ أو القيم الثابتة. الكلمة**اسم** قد يشير إلى سلسلة من الأحرف التي تمثل خلية أو نطاق من الخلايا أو صيغة أو قيمة ثابتة. يعني تعيين اسم لنطاق أنه يمكن الإشارة إلى هذا النطاق من الخلايا باسمه. استخدم أسماء سهلة الفهم ، مثل المنتجات ، للإشارة إلى نطاقات يصعب فهمها ، مثل Sales! C20: C30. يمكن استخدام التسميات في الصيغ التي تشير إلى البيانات الموجودة في نفس ورقة العمل ؛ إذا كنت تريد تمثيل نطاق في ورقة عمل أخرى ، فيمكنك استخدام اسم. * تعد النطاقات المسماة من بين أقوى ميزات Microsoft Excel ، خاصة عند استخدامها كنطاق مصدر لعناصر تحكم القائمة والجداول المحورية والمخططات وما إلى ذلك.
+عادةً، يتم استخدام تسميات العمود والصف للإشارة إلى الخلايا الفردية. يُمكن إنشاء أسماء وصفية لتمثيل الخلايا، ونطاقات الخلايا، والصيغ، أو القيم الثابتة. يمكن أن يشير مصطلح **الاسم** إلى سلسلة من الأحرف التي تمثل خليةً، أو نطاقًا من الخلايا، أو صيغةً، أو قيمة ثابتة. إذا كانت لديك نطاقًا من الخلايا يمكن الإشارة إليه بواسطة اسمه. استخدم أسماء سهلة الفهم، مثل المنتجات، للإشارة إلى نطاقات صعبة الفهم، مثل المبيعات!C20:C30. يمكن استخدام التسميات في الصيغ التي تشير إلى بيانات في نفس ورقة العمل؛ إذا كنت ترغب في تمثيل نطاق على ورقة عمل أخرى، فيمكنك استخدام اسمًا. *النطاقات المسماة تعد من بين أقوى ميزات Microsoft Excel، خاصةً عند استخدامها كنطاق مصدر لعناصر التحكم في القوائم، الجداول المحورية، الرسوم البيانية، وما إلى ذلك.
 
-## **العمل مع النطاق المحدد باستخدام Microsoft Excel**
+## **العمل مع النطاق المسمى باستخدام Microsoft Excel**
 
 ### **إنشاء نطاقات مسماة**
 
- تصف الخطوات التالية كيفية تسمية خلية أو نطاق من الخلايا باستخدام**مايكروسوفت اكسل** . تنطبق هذه الطريقة على**Microsoft Office Excel 2003**, **Microsoft إكسل 97**, **2000** و**2002**.
+توضح الخطوات التالية كيفية تسمية خلية أو نطاق خلايا باستخدام **MS Excel**. ينطبق هذا الأسلوب على **Microsoft Office Excel 2003**، **Microsoft Excel 97**، **2000**، و **2002**.
 
-1. حدد الخلية ، نطاق الخلايا التي تريد تسميتها.
-1.  انقر على**مربع الاسم** في الطرف الأيسر من شريط الصيغة.
+1. حدد الخلية أو نطاق الخلايا الذي تريد تسميته.
+2. انقر على **مربع الاسم** في الطرف الأيسر من شريط الصيغة.
 1. اكتب اسم الخلايا.
-1. اضغط دخول.
+1. اضغط على ENTER.
 
 {{% alert color="primary" %}}
 
@@ -25,82 +26,82 @@ url: /ar/net/create-access-and-copy-named-ranges/
 
 {{% /alert %}}
 
-## **العمل مع النطاق المحدد باستخدام Aspose.Cells**
+## **العمل مع نطاق مسمى باستخدام Aspose.Cells**
 
-هنا ، نستخدم Aspose.Cells API للقيام بالمهمة.
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فئة توفر أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) مجموعة.
+هنا، نستخدم واجهة برمجة التطبيقات Aspose.Cells للقيام بالمهمة.
+توفر Aspose.Cells فئةً تمثل ملف Microsoft Excel، وتحتوي الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. ورقة العمل تمثل بواسطة فئة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets). توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells).
 
 ### **إنشاء نطاق مسمى**
 
- من الممكن إنشاء نطاق مسمى عن طريق استدعاء overloaded[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) طريقة[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) مجموعة. نسخة نموذجية من[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) تأخذ الطريقة المعلمات التالية:
+من الممكن إنشاء نطاق مسمى عن طريق استدعاء [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) الزائدة من مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). إصدار نموذجي لـ [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) يأخذ المعلمات التالية:
 
-- اسم الخلية اليسرى العلوية ، اسم الخلية اليسرى العلوية في النطاق.
-- اسم الخلية اليمنى السفلية ، اسم الخلية اليمنى السفلية في النطاق.
+- اسم الخلية العلوية اليسرى، اسم الخلية العلوية اليسرى في النطاق.
+- اسم الخلية السفلي الأيمن، اسم الخلية السفلي الأيمن في النطاق.
 
- عندما[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) يتم استدعاء الأسلوب ، ويعيد النطاق الذي تم إنشاؤه حديثًا كمثيل لـ[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) صف دراسي. استخدم هذا[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) كائن لتكوين النطاق المسمى. على سبيل المثال ، قم بتعيين اسم النطاق باستخدام[**اسم**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) خاصية. يوضح المثال التالي كيفية إنشاء نطاق مسمى من الخلايا يمتد عبر B4: G14.
+عند استدعاء [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3)، فإنه يُرجع نطاق المصنوع حديثًا كنموذج من فئة [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range). استخدم هذا [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) لتكوين النطاق المسمى. على سبيل المثال، قم بتعيين اسم النطاق باستخدام خاصية [**Name**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name). يوضح المثال التالي كيفية إنشاء نطاق مسمّى للخلايا التي تمتد عبر B4:G14.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CreateNamedRangeofCells-1.cs" >}}
 
-### **أدخل البيانات في Cells في النطاق المحدد**
+### **إدخال البيانات في الخلايا في النطاق المسمى**
 
-يمكنك إدراج البيانات في الخلايا الفردية للنطاق باتباع النمط
+يمكنك إدخال البيانات في الخلايا الفردية لنطاق وفق النمط
 
-- **C#**: النطاق [الصف ، العمود]
-- **VB**: النطاق (الصف والعمود)
+- **C#**: Range[row,column]
+- **VB**: Range(row,column)
 
-لنفترض أن لديك نطاقًا مسمى من الخلايا يمتد من A1 إلى C4. تجعل المصفوفة 4 * 3 = 12 خلية. يتم ترتيب خلايا النطاق الفردية بالتسلسل: النطاق [0،0] ، النطاق [0،1] ، النطاق [0،2] ، النطاق [1،0] ، النطاق [1،1] ، النطاق [1،2] ، النطاق [2،0] ، النطاق [2،1] ، النطاق [2،2] ، النطاق [3،0] ، النطاق [3،1] ، النطاق [3،2].
+على سبيل المثال، لديك مجموعة مسماة من الخلايا التي تمتد بين A1:C4. تجعل المصفوفة 4 * 3 = 12 خلية. تتم ترتيب الخلايا الفردية في النطاق بشكل تسلسلي: Range[0,0], Range[0,1], Range[0,2], Range[1,0], Range[1,1], Range[1,2], Range[2,0], Range[2,1], Range[2,2], Range[3,0], Range[3,1], Range[3,2].
 
-استخدم الخصائص التالية لتحديد الخلايا الموجودة في النطاق:
+استخدم الخصائص التالية لتحديد الخلايا في المدى:
 
-- يُرجع FirstRow فهرس الصف الأول في النطاق المسمى.
-- يُرجع FirstColumn فهرس العمود الأول في النطاق المسمى.
-- يُرجع RowCount العدد الإجمالي للصفوف في النطاق المسمى.
-- ColumnCount بإرجاع العدد الإجمالي للأعمدة في النطاق المسمى.
+- FirstRow يعيد فهرس الصف الأول في المدى المسمى.
+- FirstColumn يعيد فهرس العمود الأول في المدى المسمى.
+- RowCount يعيد العدد الكلي للصفوف في المدى المسمى.
+- ColumnCount يعيد العدد الكلي للأعمدة في المدى المسمى.
 
-يوضح المثال التالي كيفية إدخال بعض القيم في خلايا نطاق محدد.
+يظهر المثال التالي كيفية إدخال بعض القيم في الخلايا لنطاق معين.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-InputDataInCellsInRange-1.cs" >}}
 
-### **حدد Cells في النطاق المحدد**
+### **تحديد الخلايا في النطاق المسمى**
 
-يمكنك إدراج البيانات في الخلايا الفردية للنطاق باتباع النمط:
+يمكنك إدراج البيانات في الخلايا الفردية في المجموعة وفق النمط التالي:
 
-- **C#**: النطاق [الصف ، العمود]
-- **VB**: النطاق (الصف والعمود)
+- **C#**: Range[row,column]
+- **VB**: Range(row,column)
 
-إذا كان لديك نطاق مسمى يمتد من A1: C4. تجعل المصفوفة 4 * 3 = 12 خلية. يتم ترتيب خلايا النطاق الفردية بالتسلسل: النطاق [0،0] ، النطاق [0،1] ، النطاق [0،2] ، النطاق [1،0] ، النطاق [1،1] ، النطاق [1،2] ، النطاق [2،0] ، النطاق [2،1] ، النطاق [2،2] ، النطاق [3،0] ، النطاق [3،1] ، النطاق [3،2].
+إذا كان لديك مدى يحمل اسم يمتد من A1:C4. المصفوفة تجعل 4 * 3 = 12 خلية. ترتب الخلايا في المدى الفردي بشكل متسلسل: Range[0,0], Range[0,1], Range[0,2], Range[1,0] ,Range[1,1], Range[1,2], Range[2,0], Range[2,1], Range[2,2], Range[3,0], Range[3,1], Range[3,2].
 
-استخدم الخصائص التالية لتحديد الخلايا الموجودة في النطاق:
+استخدم الخصائص التالية لتحديد الخلايا في المدى:
 
-- يُرجع FirstRow فهرس الصف الأول في النطاق المسمى.
-- يُرجع FirstColumn فهرس العمود الأول في النطاق المسمى.
-- يُرجع RowCount العدد الإجمالي للصفوف في النطاق المسمى.
-- ColumnCount بإرجاع العدد الإجمالي للأعمدة في النطاق المسمى.
+- FirstRow يعيد فهرس الصف الأول في المدى المسمى.
+- FirstColumn يعيد فهرس العمود الأول في المدى المسمى.
+- RowCount يعيد العدد الكلي للصفوف في المدى المسمى.
+- ColumnCount يعيد العدد الكلي للأعمدة في المدى المسمى.
 
-يوضح المثال التالي كيفية إدخال بعض القيم في خلايا نطاق محدد.
+يظهر المثال التالي كيفية إدخال بعض القيم في الخلايا لنطاق معين.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-IdentifyCellsinNamedRange-1.cs" >}}
 
-### **الوصول إلى النطاقات المسماة**
+### **الوصول إلى المدى المسمى**
 
-#### **الوصول إلى نطاق مسمى معين**
+#### **الوصول إلى نطاق مسمى محدد**
 
- اتصل ب[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) المجموعة[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) طريقة للحصول على نطاق بالاسم المحدد. نموذجي[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) يأخذ الأسلوب اسم النطاق المسمى ويعيد النطاق المسمى المحدد كمثيل لـ[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) صف دراسي. يوضح المثال التالي كيفية الوصول إلى نطاق محدد من خلال اسمه.
+استدعاء [**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) الكائن [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) الميثود للحصول على مدى بالاسم المحدد. تأخذ الميثود النموذجية [**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) الاسم للمدى المسمى وتعيد المدى المحدد كمثيل لفئة [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range). يوضح المثال التالي كيفية الوصول إلى مدى محدد بالاسم.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessSpecificNamedRange-1.cs" >}}
 
-#### **الوصول إلى جميع النطاقات المسماة في جدول بيانات**
+#### **الوصول إلى كافة المدى المسمى في ورقة العمل**
 
- اتصل ب[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) المجموعة[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) طريقة للحصول على جميع النطاقات المسماة في جدول بيانات. ال[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) تقوم الطريقة بإرجاع مصفوفة من كافة نطاقات الأسماء في ملف[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) مجموعة.
+استدعاء [**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) الكائن [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) الميثود للحصول على كافة المدى المسمى في ورقة العمل. تعيد الميثود [**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) مصفوفة تحتوي على كل المدى المسمى في [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) المجموعة.
 
-يوضح المثال التالي كيفية الوصول إلى كافة النطاقات المسماة في مصنف.
+يوضح المثال التالي كيفية الوصول إلى جميع النطاقات المسماة في ورق عمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessAllNamedRanges-1.cs" >}}
 
-### **نسخ النطاقات المسماة**
+### **نسخ المدى المسمى**
 
- يوفر Aspose.Cells[**المدى. نسخ ()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) طريقة لنسخ نطاق من الخلايا بتنسيق في نطاق آخر.
+توفر Aspose.Cells [**Range.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/copy/index) الميثود لنسخ مدى من الخلايا مع التنسيق في مدى آخر.
 
-يوضح المثال التالي كيفية نسخ نطاق مصدر من الخلايا إلى نطاق مسمى آخر.
+المثال التالي يوضح كيفية نسخ مدى مصدر من الخلايا إلى مدى مسمى آخر.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CopyNamedRanges-1.cs" >}}

@@ -1,15 +1,16 @@
-﻿---
+---
 title: Dokumenteigenschaften in PHP verwalten
 type: docs
 weight: 70
 url: /de/java/managing-document-properties-in-php/
 ---
-## **Aspose.Cells – Hinzufügen benutzerdefinierter Eigenschaften**
-Um benutzerdefinierte Dokumenteigenschaften mit Aspose.Cells Java for PHP hinzuzufügen, rufen Sie an**add_custom_property** Methode der**Dokumentieren** Modul.
+
+## **Aspose.Cells - Hinzufügen von benutzerdefinierten Eigenschaften**
+Um benutzerdefinierte Dokumenteigenschaften unter Verwendung von Aspose.Cells Java für PHP hinzuzufügen, rufen Sie die Methode **add_custom_property** des **Document**-Moduls auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -45,7 +46,7 @@ $customProperties->remove("Publisher");
 $workbook->save($dataDir . "Test_Workbook_RemovedProperty.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Zugriff auf Dokumenteigenschaften (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Zugriff auf Dokumenteigenschaften (Aspose.Cells)** von einer der unten genannten Social-Coding-Seiten herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

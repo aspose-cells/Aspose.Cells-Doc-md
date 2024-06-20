@@ -1,20 +1,21 @@
-﻿---
-title: إزالة الاتصال المحوري
+---
+title: إزالة اتصال الجدول المحوري
 type: docs
 weight: 30
 url: /ar/java/remove-pivot-connection/
-description: تعرف على كيفية إزالة الاتصال المحوري باستخدام مكتبة Aspose.Cells Java.
-keywords: Remove pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: تعلم كيفية إزالة اتصال الجدول المحوري باستخدام مكتبة Aspose.Cells Java.
+keywords: إزالة اتصال الجدول المحوري من دون استخدام Office 2013، Office 2016، Office 2019 أو Office 365.
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-إذا كنت ترغب في إلغاء ارتباط أداة تقطيع الشرائح والجدول المحوري في Excel ، فأنت بحاجة إلى النقر بزر الماوس الأيمن فوق أداة تقطيع الشرائح وتحديد عنصر "تقرير اتصالات ...". في قائمة الخيارات ، يمكنك العمل في خانة الاختيار. وبالمثل ، إذا كنت ترغب في إلغاء إقران أداة التقطيع والجدول المحوري باستخدام Aspose.Cells API برمجيًا ، فيرجى استخدام[**Slicer.removePivotConnection (PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)) طريقة. سيتم فصل الجدول المحوري وتقطيع الشرائح.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **إزالة القطاعة**
+إذا كنت ترغب في فصل قالب التصفية عن جدول المحور في إكسل، فيجب عليك النقر بزر الماوس الأيمن على قالب التصفية واختيار العنصر "اتصالات التقرير...". في قائمة الخيارات، يمكنك التحكم في مربع الاختيار. بالمثل، إذا كنت ترغب في فصل قالب التصفية عن جدول المحور باستخدام واجهة برمجية Aspose.Cells، يرجى استخدام الطريقة [**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)). ستقوم بفصل قالب التصفية عن جدول المحور.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](remove-pivot-connection.xlsx)الذي يحتوي على مقسم شرائح موجود. يصل إلى تقطيع الشرائح ثم يفصل تقطيع الشرائح والجدول المحوري. أخيرًا ، يحفظ المصنف باسم[إخراج ملف Excel](remove-pivot-connection-out.xlsx). 
+## **إزالة قالب التصفية**
+
+الكود العينة التالي يحمل [ملف إكسل عينة](remove-pivot-connection.xlsx) الذي يحتوي على قالب تصفية موجود. يدخل إلى قوالب التصفية ثم يفصل قالب التصفية عن جدول المحور. وأخيراً، يحفظ الدفتر ك [ملف إكسل الناتج](remove-pivot-connection-out.xlsx). 
 
 
-## **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-Removing-Pivot-Connection.java" >}}

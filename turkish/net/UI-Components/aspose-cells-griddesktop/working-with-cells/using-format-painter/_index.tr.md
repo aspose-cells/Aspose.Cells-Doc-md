@@ -1,33 +1,36 @@
-﻿---
+---
 title: Biçim Boyacısını Kullanma
 type: docs
 weight: 80
-url: /tr/net/using-format-painter/
+url: /tr/net/aspose-cells-griddesktop/use-format-painter/
+keywords: GridDesktop,format painter
+description: Bu makale, GridDesktop taki biçim boyacısını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Biçim ressamı, MS Excel'in Aspose.Cells.GridDesktop'ta uyarlanmış özelliğidir. Bu çok güzel bir özellik. Henüz bu özelliği kullanmamış kişiler için, biçim ressamı, kullanıcıların herhangi bir odaklanmış hücrenin biçimlendirme ayarlarını başka bir hücreye uygulamasına olanak tanır. Bu özelliğin uygulanması çok basittir. Bu başlıkta onu da ele alacağız.
+Biçim boyacısı, MS Excel'in bir özelliğidir ve Aspose.Cells.GridDesktop'ta benimsenmiştir. Bu çok güzel bir özellik. Bu özelliği henüz kullanmamış olanlar için, biçim boyacısı, kullanıcıların odaklı olduğu herhangi bir hücrenin biçimlendirme ayarlarını başka bir hücreye uygulamalarına izin verir. Bu özelliğin uygulanması çok basittir. Bu konuda bahsedeceğiz.
 
 {{% /alert %}} 
 ## **Biçim Boyacısını Kullanma**
- özelliği**Biçim boyacısı** kullanıcıların, biçimlendirme ayarlarını diğer hücrelere uygulamak istediğiniz bir hücreyi seçmesini ve ardından aramasını gerektirir.**StartFormatPainter** yöntem**IzgaraMasaüstü**. Aşağıdaki gibi iki format ressamı modu vardır:
+**Biçim Boyacısı** özelliği, kullanıcıların başka hücrelere uygulamak istedikleri biçimlendirme ayarlarını seçmelerini ve ardından **GridDesktop**'ın **StartFormatPainter** yöntemini çağırmalarını gerektirir. Biçim boyacısının iki modu şunlardır:
 
-- **Biçim Boyacısını Bir Kez Kullanmak**
+- **Format Boyacısını Bir Kez Kullanmak**
 - **Format Boyacısını Her Zaman Kullanmak**
-### **Biçim Boyacısını Bir Kez Kullanmak**
- Geliştiriciler, odaklanmış bir hücrenin biçimlendirme ayarlarını tek bir hücreye uygulamak için yalnızca bir kez biçim ressamı özelliğini kullanmak isterlerse, bunu çağırarak yapabilirler.**StartFormatPainter** yöntem ve geçen bir**YANLIŞ** buna değer. Bu**YANLIŞ** değer, format ressamının resim yapmasını sonsuza kadar yasaklayacaktır.
+### **Format Boyacısını Bir Kez Kullanmak**
+Geliştiriciler, yalnızca bir kez bir hücreye odaklanmıştaki biçimlendirme ayarlarını tek bir hücreye uygulamak istediklerinde, bunu yapabilirler.  **StartFormatPainter** yöntemini çağırarak ve ona bir **false** değeri iletmek. Bu **false** değeri, format boyacısının sürekli boyama yapmasını engelleyecektir.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-UsingFormatPainter-UseOnce.cs" >}}
 ### **Format Boyacısını Her Zaman Kullanmak**
-Format ressamını kullanmak, formatlama ayarlarını birden fazla hücreye uygulamamız gerektiğinde her zaman yararlı bir özelliktir. Geliştiriciler bu özelliği yalnızca arayarak elde edebilir**StartFormatPainter** yöntem ve geçen bir**doğru** buna değer.
+Format boyacısını her zaman kullanmak, birden fazla hücreye biçimlendirme ayarları uygulamamız gerektiğinde yararlı bir özelliktir. Geliştiriciler, sadece **StartFormatPainter** yöntemini çağırarak ve ona bir **true** değeri ileterek bu özelliği elde edebilirler.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-UsingFormatPainter-UseAlways.cs" >}}
 
 
- Bu tür bir format ressamı, biz onu durdurmadıkça sonsuza kadar resim yapmaya devam eder. Bu nedenle, format ressamının her zaman resim yapmasını durdurmak için basitçe arayabiliriz**EndFormatPainter** yöntemi**IzgaraMasaüstü**.
+Bu tür bir format boyacısı, durdurana kadar sürekli boyama yapmaya devam eder. Bu nedenle, format boyacısını sürekli boyamaktan durdurmak için, sadece **GridDesktop**'nin **EndFormatPainter** yöntemini çağırabiliriz.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-UsingFormatPainter-EndUse.cs" >}}

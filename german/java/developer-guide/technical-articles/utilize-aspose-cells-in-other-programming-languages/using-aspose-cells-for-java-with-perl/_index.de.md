@@ -1,49 +1,50 @@
-﻿---
-title: Verwenden von Aspose.Cells for Java mit Perl
+---
+title: Verwendung von Aspose.Cells for Java mit Perl
 type: docs
 weight: 30
 url: /de/java/using-aspose-cells-for-java-with-perl/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Java ist eine reine Java-Komponente, die mit Perl verwendet werden kann. Die Verwendung der Komponente entspricht dem Aufruf anderer gängiger Java-APIs in Perl. Um eine Java-Bibliothek in Perl aufzurufen, müssen Sie zuerst die Java-Perl-Erweiterung für Perl installieren. Dies ist für den Zugriff auf JVM erforderlich.
+Aspose.Cells for Java ist eine reine Java-Komponente, die mit Perl verwendet werden kann. Die Verwendung der Komponente ist identisch mit dem Aufruf anderer allgemeiner Java-APIs in Perl. Um eine beliebige Java-Bibliothek in Perl aufzurufen, muss zunächst die Java-Perl-Erweiterung für Perl installiert werden. Dies ist erforderlich, um auf die JVM zuzugreifen.
 
 {{% /alert %}} 
 ## **Erforderliche Software und Bibliotheken**
- Die folgende Software und Bibliotheken sind erforderlich.
+Die folgende Software und die folgenden Bibliotheken werden benötigt. 
 
 - Perl.
 - Aspose.Cells for Java.
-- Java – Perl-Erweiterung.
-- Java-Laufzeit, die die Anforderungen von Aspose.Cells for Java und Java-Perl-Erweiterung erfüllt.
-### **Handbuch**
- Um eine Java API in Perl anzurufen, müssen Sie zuerst die Java-Perl-Erweiterung für Perl installieren. (Für die Zwecke dieses Artikels gehen wir davon aus, dass Perl ordnungsgemäß installiert und eingestellt wurde.) Sie können die Erweiterung Java-Perl von herunterladen[Mezzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7)
+- Java - Perl-Erweiterung.
+- Java-Laufzeitumgebung, die die Anforderungen von Aspose.Cells for Java und der Java-Perl-Erweiterung erfüllt.
+### **Leitfaden**
+Um eine Java-API in Perl aufzurufen, müssen Sie zunächst die Java-Perl-Erweiterung für Perl installieren. (Für die Zwecke dieses Artikels nehmen wir an, dass Perl ordnungsgemäß installiert und eingerichtet wurde.) Sie können die Java-Perl-Erweiterung von [Metzzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7) erhalten.
 
- Am Ende dieses Dokuments finden Sie ein Beispiel für ein Perl-Skript, das Aspose.Cells for Java aufruft. Führen Sie die folgenden Schritte aus, um es auszuführen:
+Am Ende dieses Dokuments finden Sie ein Beispiel für ein Perl-Skript, das Aspose.Cells for Java aufruft. Um es auszuführen, befolgen Sie die folgenden Schritte: 
 
-1. Laden Sie die Datei Java-4.7.tar.gz herunter und entpacken Sie sie auf Ihr lokales Laufwerk.
+1. Laden Sie die Datei Java-4.7.tar.gz herunter und entpacken Sie sie auf Ihrem lokalen Laufwerk.
 1. Installieren Sie dieses Paket für Perl.
-1.  Starten Sie JavaServer. Der Befehl lautet:
+1. Starten Sie JavaServer. Der Befehl lautet: 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  java -classpath ...  com.zzo.javaserver.JavaServer 
 
 {{< /highlight >}}
 
- wobei ... der Klassenpfad ist, der alle von Ihrer Anwendung benötigten Bibliotheken enthalten muss.
+wo ... der Klassenpfad ist, der alle für Ihre Anwendung erforderlichen Bibliotheken enthalten muss. 
 
- Um Aspose.Cells for Java zu verwenden, sollten mindestens zwei JAR-Dateien enthalten sein:
+Um Aspose.Cells for Java zu verwenden, müssen mindestens zwei JAR-Dateien enthalten sein: 
 
-1. **Aspose.Cells.jar** von Aspose.Cells for Java
-1. **JavaServer.jar** von Java-4.7.tar.gz
-1. Führen Sie das Perl-Skript aus, das Aspose.Cells for Java API aufruft.
+1. **Aspose.Cells.jar** aus Aspose.Cells for Java
+1. **JavaServer.jar** aus Java-4.7.tar.gz
+1. Führen Sie das Perl-Skript aus, das die Aspose.Cells for Java API aufruft.
 
- Weitere Informationen zum Arbeiten mit Java in Perl finden Sie in der Dokumentation zu Java - Perl-Erweiterung unter<https://metacpan.org/release/METZZO/Java-4.7>
+For more information on how to work with Java in Perl, see documentation of Java - Perl extension at <https://metacpan.org/release/METZZO/Java-4.7>
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  my $ok = 0;
 
@@ -81,7 +82,7 @@ $ok++;
 
 print "workbook $ok\n";
 
-# $workbook->open("t.xls");
+#$workbook->open("t.xls");
 
 $ok++;
 

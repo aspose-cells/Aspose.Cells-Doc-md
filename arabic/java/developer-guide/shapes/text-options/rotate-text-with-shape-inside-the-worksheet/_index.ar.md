@@ -1,19 +1,20 @@
-﻿---
-title: استدارة النص بالشكل داخل ورقة العمل
+---
+title: تدوير النص مع الشكل داخل ورقة العمل
 type: docs
 weight: 110
 url: /ar/java/rotate-text-with-shape-inside-the-worksheet/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك إضافة نص داخل أي شكل باستخدام Microsoft Excel. إذا أضفت شكلًا باستخدام الإصدار Microsoft Excel 2003 القديم جدًا ، فلن يتم تدوير النص مع الشكل. ولكن إذا أضفت شكلًا باستخدام إصدارات أحدث من Microsoft Excel مثل 2007 أو 2010 أو 2013 أو 2016 ، وما إلى ذلك ، فسيتم تدوير النص بالشكل. يمكنك التحكم في ما إذا كان يجب تدوير النص بالشكل أم لا باستخدام ملف[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RotateTextWithShape)خاصية. القيمة الافتراضية لها هي**حقيقي**مما يعني أن النص سيتم تدويره بالشكل ولكن إذا قمت بتعيينه على هذا النحو**خاطئة**، فلن يتم تدوير النص بالشكل.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **استدارة النص بالشكل داخل ورقة العمل**
+يمكنك إضافة نص داخل أي شكل باستخدام مايكروسوفت إكسل. إذا قمت بإضافة شكل باستخدام إصدار معين من مايكروسوفت إكسل مثل 2007، 2010، 2013 أو 2016 فإن النص سيتم دورانه مع الشكل. يمكنك التحكم في ما إذا كان النص سيدور مع الشكل أم لا باستخدام الخاصية [**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RotateTextWithShape). القيمة الافتراضية لها هي **true** الذي يعني أن النص سيدور مع الشكل ولكن إذا حددتها كـ **false**، فإن النص لن يدور مع الشكل.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](64716919.xlsx)التي لها شكل مثلث ونصها يدور مع الشكل. إذا قمت بفتح نموذج ملف Excel في Microsoft Excel وقمت بتدوير شكل المثلث ، فسيتم تدوير النص معه أيضًا. يقوم الرمز بعد ذلك بتعيين ملف[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RotateTextWithShape)الملكية مثل**خاطئة**ويحفظها باسم[إخراج ملف Excel](64716917.xlsx). إذا قمت الآن بفتح ملف Excel الناتج في Microsoft Excel وقمت بتدوير شكل المثلث ، فلن يتم تدوير النص معه. يرجى الاطلاع على لقطة الشاشة التالية التي توضح تأثير الكود على نموذج ملف Excel كمرجع.
+## **تدوير النص مع الشكل داخل ورقة العمل**
 
-![ما يجب القيام به: image_بديل_نص](rotate-text-with-shape-inside-the-worksheet_1.png)
+الكود العيني التالي يقوم بتحميل [ملف إكسل عيني](64716919.xlsx) الذي يحتوي على شكل مثلث ونصه يدور مع الشكل. إذا فتحت ملف إكسل العيني في مايكروسوفت إكسل وقمت بتدوير شكل المثلث، سيتم دوران النص معه. ثم يضبط الكود الخاصية [**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RotateTextWithShape) كـ **false** ويحفظه كـ [ملف إكسل الناتج](64716917.xlsx). إذا فتحت الآن ملف إكسل الناتج في مايكروسوفت إكسل وقمت بتدوير شكل المثلث، فإن النص لن يدور معه. يرجى الرجوع إلى الصورة العينية التالية التي تظهر تأثير الكود على ملف إكسل العيني للإشارة.
 
-## **عينة من الرموز**
+![todo:image_alt_text](rotate-text-with-shape-inside-the-worksheet_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-RotateTextWithShapeInsideWorksheet.java" >}}

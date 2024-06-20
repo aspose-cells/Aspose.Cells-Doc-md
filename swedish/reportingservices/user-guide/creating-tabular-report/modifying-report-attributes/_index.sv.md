@@ -1,28 +1,29 @@
-﻿---
-title: Ändra rapportattribut
+---
+title: Modifiera Rapportattribut
 type: docs
 weight: 90
 url: /sv/reportingservices/modifying-report-attributes/
 ---
-Så här ändrar du attributen för en rapport:
 
-1.  Klick**Ändra attribut** verktygsfältet Aspose.Cells.Report.Designer (
+För att ändra attributen för en rapport:
+
+1. Klicka på **Ändra attribut** på Aspose.Cells.Report.Designer verktygsfältet (
 
 ![todo:image_alt_text](modifying-report-attributes_1.png)
 
 ).
-Tillgängliga rapporter listas i den vänstra panelen.
+Tillgängliga rapporter listas i vänsterpanelen. 
 
-1.  Välj en rapport och klicka**Ändra**. 
+1. Välj en rapport och klicka på **Ändra**. 
 
-   **Välja en rapport** 
+   **Val av rapport** 
 
 ![todo:image_alt_text](modifying-report-attributes_2.png)
 
 
 
 
-1.  Ändra rapportattributen.
+1. Ändra rapportens attribut. 
 
    **Ändra attributen** 
 
@@ -31,4 +32,4 @@ Tillgängliga rapporter listas i den vänstra panelen.
 
 
 
-1.  Klick**Begå** att avsluta.
+1. Klicka på **Slutför** för att avsluta.

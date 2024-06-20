@@ -1,23 +1,25 @@
-﻿---
-title: Trabajar con un motor de cálculo personalizado para GridJs
+---
+title: Trabajar con motor de cálculo personalizado para GridJs
 type: docs
 weight: 250
 url: /es/net/aspose-cells-gridjs/customcalculation/
-description: Este artículo describe cómo usar el motor de cálculo personalizado para la biblioteca Aspose.Cells.GridJs.
+keywords: GridJs,custom,calculation,customcalculation
+description: Este artículo describe cómo utilizar el motor de cálculo personalizado para la biblioteca Aspose.Cells.GridJs.
 ---
-## **Implementar motor de cálculo personalizado**
 
-Aspose.Cells.GridJs tiene un potente motor de cálculo que puede calcular casi todas las fórmulas Microsoft de Excel. A pesar de ello, también te permite ampliar el motor de cálculo predeterminado lo que te proporciona mayor potencia y flexibilidad.
+## **Implementar Motor de Cálculo Personalizado**
 
-Las siguientes propiedades y clases se utilizan para implementar esta función.
+Aspose.Cells.GridJs tiene un poderoso motor de cálculo que puede calcular casi todas las fórmulas de Microsoft Excel. A pesar de esto, también te permite extender el motor de cálculo predeterminado, lo que te proporciona mayor potencia y flexibilidad.
 
- 
-- **[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridabstractcalculationengine)**
-- **[Datos de cálculo de cuadrícula] (https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridcalculationdata)**
+Se utilizan las siguientes propiedades y clases para implementar esta funcionalidad.
 
-El código siguiente implementa el motor de cálculo personalizado. Implementa la interfaz**[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridabstractcalculationengine)** que tiene un**[Calcular (datos de GridCalculationData)] (https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridabstractcalculationengine/methods/calculate)** método. Este método se llama contra todas sus fórmulas. Dentro de este método, capturamos el**MIFUNCIÓN DE PRUEBA** fórmula y multiplique por 2 el valor de su primer parámetro.
 
-### **Ejemplo de programación**
+- [**GridAbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridabstractcalculationengine)
+- [**GridCalculationData**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridcalculationdata)
+
+El siguiente código implementa el Motor de Cálculo Personalizado. Implementa la interfaz [**GridAbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridabstractcalculationengine) que tiene un método [**Calculate(GridCalculationData data)**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridabstractcalculationengine/methods/calculate). Este método se llama contra todas tus fórmulas. Dentro de este método, capturamos la fórmula **MYTESTFUNC** y la multiplicamos por 2 para su primer valor de parámetro.
+
+### **Ejemplo de Programación**
 
 {{< gist "aspose-cells-gists" "fb32f5c7a98978432e5e05c50995a4ca" "CustomCalculation.cs" >}}
- 
+

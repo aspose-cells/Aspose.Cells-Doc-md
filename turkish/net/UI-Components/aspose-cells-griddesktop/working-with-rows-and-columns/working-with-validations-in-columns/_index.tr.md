@@ -1,36 +1,39 @@
-﻿---
-title: Sütunlardaki Doğrulamalarla Çalışma
+---
+title: Sütunlarda Doğrulamalarla Çalışma
 type: docs
 weight: 80
-url: /tr/net/working-with-validations-in-columns/
+url: /tr/net/aspose-cells-griddesktop/work-with-validations-in-columns/
+keywords: GridDesktop, doğrulama, doğrulamalar
+description: Bu makale, GridDesktop ta sütunlardaki doğrulamaların nasıl kullanılacağını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
- Önceki konularımızdan birinde doğrulamalar hakkında tartışmıştık ancak bu,[Çalışma Sayfalarındaki Doğrulamalar](/cells/tr/net/working-with-validations-in-worksheets/) (doğrulama ve doğrulama modları hakkında genel bilgi sahibi olmak için, geliştiriciler bu konuya başvurabilir). Bu konuda doğrulamaları sütunlara göre açıklayacağız. Bu özelliği kullanarak, geliştiricilerin çalışma sayfasının herhangi bir sütununa bir doğrulama kuralı uygulaması mümkündür. Ayrıntılı olarak tartışalım.
+Önceki konularımızdan birinde, doğrulamaları tartışmıştık ancak bu, [Çalışsayfalardaki Doğrulamalar](/cells/tr/net/working-with-validations-in-worksheets/) bağlamında yapılmıştı (doğrulama ve doğrulama modları hakkında genel bilgi için geliştiriciler bu konuya başvurabilir). Bu konuda, sütunlarla ilgili olarak doğrulamaları açıklayacağız. Bu özellik kullanılarak, geliştiricilerin çalışsayfanın herhangi bir sütununa bir doğrulama kuralı uygulamaları mümkündür. Detayı inceleyelim.
 
 {{% /alert %}} 
 ## **Sütun Doğrulaması Ekleme**
-Bir sütuna herhangi bir doğrulama türü eklemek için lütfen aşağıdaki adımları izleyin:
+Bir sütuna herhangi bir doğrulama eklemek için lütfen aşağıdaki adımları izleyin:
 
--  Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
-- **Eklemek** istenilen**Doğrulama** herhangi bir sütuna
+- **Form**'unuza Aspose.Cells.GridDesktop kontrolünü ekleyin
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- Herhangi bir sütuna istenen doğrulamayı **Ekleyin**
 
-**ÖNEMLİ:**Doğrulama türleri (veya doğrulama modları gibi) hakkında daha fazla bilgi için**Doğrulama Gerekli mi**, **Normal İfadeler Doğrulaması** ve**Özel Doğrulama** ) ve uygulanması**Özel Doğrulama** , bakınız[Çalışma Sayfalarında Doğrulamalarla Çalışma.](/cells/tr/net/working-with-validations-in-worksheets/)
+**ÖNEMLİ:** Daha fazla bilgi için (veya **Zorunlu Doğrulama**, **Düzenli İfade Doğrulama** ve **Özel Doğrulama** gibi doğrulama modları) ve **Özel Doğrulama** uygulamak için lütfen [Çalışma Sayfalarındaki Doğrulamalarla Çalışma](/cells/tr/net/working-with-validations-in-worksheets/) sayfasına bakın.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-WorkingWithColumnValidations-AddValidation.cs" >}}
-## **Sütun Doğrulamasına Erişim**
-Belirli bir sütun doğrulamasına erişmek için lütfen aşağıdaki adımları izleyin:
+## **Sütun Doğrulamasına Erişme**
+Belirli bir sütun doğrulamasına erişmek için lütfen aşağıdaki adımları takip edin:
 
--  İstenilen erişim**Çalışma kağıdı**
--  Belirli bir sütuna erişme**Doğrulama** içinde**Çalışma kağıdı**
--  Düzenlemek**Doğrulama** İstenirse nitelikler
+- İstenen **Çalışma Sayfasına** erişin
+- **Çalışma Sayfası** içinde belirli bir sütun **Doğrulamasına** erişin
+- İstenirse **Doğrulama** özelliklerini düzenleyin
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing first worksheet of the Grid
 
@@ -50,14 +53,14 @@ validation.CustomValidation = null;
 
 {{< /highlight >}}
 ## **Sütun Doğrulamasını Kaldırma**
-Çalışma sayfasından belirli bir sütun doğrulamasını kaldırmak için lütfen aşağıdaki adımları izleyin:
+Çalışma sayfasından belirli bir sütun doğrulamasını kaldırmak için lütfen aşağıdaki adımları takip edin:
 
--  İstenilen erişim**Çalışma kağıdı**
--  Belirli bir sütunu kaldır**Doğrulama** dan**Çalışma kağıdı**
+- İstenen **Çalışma Sayfasına** erişin
+- **Çalışma Sayfası** içinde belirli bir sütun **Doğrulamasını** kaldırın
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing first worksheet of the Grid
 

@@ -1,109 +1,112 @@
-﻿---
-title: 対応機能一覧
+---
+title: サポートされる関数のリスト
 type: docs
 weight: 10
-url: /ja/net/list-of-supported-functions/
+url: /ja/net/aspose-cells-griddesktop/list-of-supported-functions/
+keywords: GridDesktop,functions,formula
+description: この記事では、GridDesktop でサポートされる関数を紹介します。
 ---
-## **序章**
-Aspose.Cells グリッド コントロールでサポートされている組み込み関数が多数あります。これらの関数は次のカテゴリに属します。
 
-- **数学関数**、多数の数学的計算で使用できる関数の膨大なセットを提供します
-- **テキストおよびデータ関数**、テキストとデータに対してさまざまな種類の操作を実行するためのさまざまな関数を提供します
-- **日付と時刻関数**、日付と時刻に関連するいくつかの便利な機能を提供します
-- **論理関数**、データに対するいくつかの論理操作を処理するための論理関数の小さなセットを提供します
+## **紹介**
+Aspose.Cells.GridDesktop コントロールでサポートされている多くの組み込み関数があります。これらの関数は以下のカテゴリに属しています:
+
+- **数学関数** : 数多くの数学計算で使用できる大規模な関数セットを提供します
+- **テキストとデータ関数** : テキストとデータに対するさまざまな操作を行うためのさまざまな関数を提供します。
+- **日付と時刻関数** : 日付と時刻に関連する便利な関数を提供します
+- **論理関数** : データに対するいくつかの論理演算を処理するための少数の論理関数を提供します
 ### **数学関数**
-- 天井、COMBIN、COS、COSH、COUNTIF
-- 度
-- 偶数、経験値
-- ファクト、フロア
+- CEILING,COMBIN,COS,COSH,COUNTIF
+- DEGREES
+- EVEN,EXP
+- FACT,FLOOR
 - INT
-- LN、LOG、LOG10
-- モッド
-- 奇数
-- PI、電力、製品
-- ラジアン、ランド、ラウンド、ラウンドダウン、ラウンドアップ
-- サイン、シン、シン
-- SQRT、SUM、SUMIF、SUMPRODUCT、SUMSQ、SUMX2MY2、SUMX2PY2、SUMXMY2
-- タン、タン、トランク
-### **テキストおよびデータ関数**
-- 文字、コード、連結
-- ドル
-- ちょうど
-- 検索、固定
-- 左、左、下
-- ミッド
-- マッチ
-- REPLACE、REPT、RIGHT
-- 検索、置換
-- T、TEXT、TRIM
-- アッパー
-- 価値
-- 見上げる
+- LN,LOG,LOG10
+- MOD
+- ODD
+- PI,POWER,PRODUCT
+- RADIANS、RAND、ROUND、ROUNDDOWN、ROUNDUP
+- SIGN,SIN,SINH
+- SQRT,SUM,SUMIF,SUMPRODUCT,SUMSQ,SUMX2MY2,SUMX2PY2,SUMXMY2
+- TAN,TANH,TRUNC
+### **テキストとデータ関数**
+- CHAR,CODE,CONCATENATE
+- DOLLAR
+- EXACT
+- FIND,FIXED
+- LEFT,LEN,LOWER
+- MID
+- MATCH
+- REPLACE,REPT,RIGHT
+- SEARCH,SUBSTITUTE
+- T,TEXT,TRIM
+- UPPER
+- VALUE
+- LOOKUP
 - VLOOKUP
-- ワイドチャー
+- WIDECHAR
 ### **日付と時刻関数**
-- 時間
-- 分、月
-- 今
-- 2番目
-- 時間、今日
-- 平日
-- 年
+- HOUR
+- MINUTE,MONTH
+- NOW
+- SECOND
+- TIME,TODAY
+- WEEKDAY
+- YEAR
 ### **論理関数**
-- 間違い
-- もしも
-- いいえ
-- また
-- 真実
-### **新機能**
-- 最小
-- ROW (Aspose.Cells.GridWeb でのみサポート)
-- ROW S (Aspose.Cells.GridWeb でのみサポート)
-- COLUMN (Aspose.Cells.GridWeb でのみサポート)
-- COLUMN S (Aspose.Cells.GridWeb でのみサポート)
-- ADDRESS (Aspose.Cells.GridWeb でのみサポート)
-- オフセット
-- 間接的
+- FALSE
+- IF
+- NOT
+- OR
+- TRUE
+### **新しい関数**
+- MIN
+- ROW（Aspose.Cells.GridWeb でのみサポート）
+- ROW S（Aspose.Cells.GridWeb でのみサポート）
+- COLUMN（Aspose.Cells.GridWeb でのみサポート）
+- COLUMN S（Aspose.Cells.GridWeb でのみサポート）
+- ADDRESS（Aspose.Cells.GridWeb でのみサポート）
+- OFFSET
+- INDIRECT
 - ISERR
 - ISNUMBER
-- 綺麗
+- CLEAN
 - 人民元
-- ファクトダブル
+- FACTDOUBLE
 - GCD
 - LCM
-- ラウンド
-- 多項式
-- 商
-- RANDBETWEN
-- シリーズサム
+- MROUND
+- MULTINOMIAL
+- QUOTIENT
+- RANDBETWEEN
+- SERIESSUM
 - SQRTPI
-- 小計
-- カウント
-- カウンター
-- 索引
-- 細胞
-- 中央値
+- SUBTOTAL
+- COUNT
+- COUNTA
+- INDEX
+- CELL
+- MEDIAN
 - ERROR.TYPE
-- イスブランク
+- ISBLANK
 - ISERROR
-- 論理的でない
-- イスナ
-- ISNOTEXT
+- ISLOGICAL
+- ISNA
+- ISNONTEXT
 - ISTEXT
 - ISREF
 - N
 - NA
-- タイプ
-- カウントブランク
-- 大きい
-- マクサ
-- ミナ
-- 平均
-- モード
-- パーセンタイル
-- パーセントランク
-- ランク
-- 選ぶ
+- TYPE
+- COUNTBLANK
+- LARGE
+- MAXA
+- MINA
+- AVERAGEA
+- MODE
+- PERCENTILE
+- PERCENTRANK
+- RANK
+- CHOOSE
 - HLOOKUP
-- SMALL (Aspose.Cells.GridWeb でのみサポート)
+- 小さな（Aspose.Cells.GridWebでのみサポート）
 

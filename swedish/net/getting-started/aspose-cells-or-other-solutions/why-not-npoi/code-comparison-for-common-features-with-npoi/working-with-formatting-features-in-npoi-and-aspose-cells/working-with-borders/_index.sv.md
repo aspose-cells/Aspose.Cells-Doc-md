@@ -1,13 +1,14 @@
-﻿---
-title: Arbeta med gränser
+---
+title: Arbeta med ramar
 type: docs
 weight: 10
 url: /sv/net/working-with-borders/
 ---
-## **Aspose.Cells - Arbeta med gränser**
+
+## **Aspose.Cells - Arbeta med ramar**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -35,10 +36,10 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Arbeta med gränser**
+## **NPOI - HSSF XSSF - Arbeta med ramar**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -79,13 +80,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Arbeta med gränser** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Arbeta med ramar** från någon av de nedan angivna sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Borders.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Dataformateringsfunktioner](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+För mer information, besök [Dataformateringsfunktioner](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

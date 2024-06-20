@@ -1,33 +1,34 @@
-﻿---
-title: Emballage du texte Cell dans VSTO et Aspose.Cells
+---
+title: Envelopper le texte de la cellule dans VSTO et Aspose.Cells
 type: docs
 weight: 250
 url: /fr/net/wrapping-cell-text-in-vsto-and-aspose-cells/
 ---
-Pour créer une feuille de calcul avec deux cellules, une avec du texte enveloppé et une sans :
 
-1.  Configurez la feuille de calcul :
- 1. Créez un classeur.
- 1. Accédez à la première feuille de calcul.
-1.  Ajouter du texte:
- 1. Ajoutez du texte à la cellule A1.
- 1. Ajoutez du texte enveloppé à la cellule A5.
+Pour créer une feuille de calcul avec deux cellules, une avec du texte enveloppé et une sans:
+
+1. Mettez en place la feuille de calcul: 
+   1. Créer un classeur.
+   1. Accédez à la première feuille de calcul.
+1. Ajoutez du texte: 
+   1. Ajoutez du texte à la cellule A1.
+   1. Ajoutez du texte enveloppé à la cellule A5.
 1. Enregistrez la feuille de calcul.
- Les exemples de code ci-dessous montrent comment effectuer ces étapes en utilisant VSTO avec C#. Des exemples de code qui montrent comment faire la même chose en utilisant Aspose.Cells for .NET, à nouveau en utilisant C# suivent immédiatement après.
+   Les exemples de code ci-dessous montrent comment exécuter ces étapes à l'aide de VSTO avec C#. Des échantillons de code montrant comment faire la même chose en utilisant Aspose.Cells for .NET, encore une fois en utilisant C#, suivent immédiatement après.
 
-L'exécution du code donne une feuille de calcul avec deux cellules, une avec du texte qui n'a pas été encapsulé et une avec :
+L'exécution du code donne comme résultat une feuille de calcul avec deux cellules, l'une ayant un texte qui n'a pas été enveloppé et l'autre qui l'a été:
 
-## **Sortie à l'aide de VSTO Excel**
+## **Sortie utilisant VSTO Excel**
 
-![tâche : image_autre_texte](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-## **Sortie utilisant Aspose.Cells for .NET**
+## **Sortie en utilisant Aspose.Cells for .NET**
 
-![tâche : image_autre_texte](picture2.png)
+![todo:image_alt_text](picture2.png)
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Access vsto application
 
@@ -71,7 +72,7 @@ app.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void WrappingCellText()
 
@@ -115,8 +116,8 @@ app.Quit();
 
 {{< /highlight >}}
 
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 
-- [GithubGenericName](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/télécharger)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).Zip *: français)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip)

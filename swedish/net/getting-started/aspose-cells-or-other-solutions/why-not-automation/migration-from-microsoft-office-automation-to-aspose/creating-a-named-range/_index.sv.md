@@ -1,39 +1,40 @@
-﻿---
-title: Skapa ett namngivet intervall
+---
+title: Skapa en namngiven omfattning
 type: docs
 weight: 70
 url: /sv/net/creating-a-named-range/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET låter utvecklare utföra de flesta av de uppgifter som användare kan utföra i Microsoft Excel genom sina applikationer. Den här artikeln förklarar hur du tillämpar ett namngivet intervall programmatiskt.
+Aspose.Cells for .NET låter utvecklare utföra de flesta uppgifter som användare kan utföra i Microsoft Excel genom sina applikationer. Den här artikeln förklarar hur man tillämpar en namngiven omfattning programmatiskt.
 
-Ett namngivet intervall är en Excel-funktion som låter dig tilldela ett namn till en cell, eller ett intervall av celler, i ett Excel-kalkylblad. Du kan sedan använda namnet i formler för att referera till cellen (eller området). Förnuftigt namngivna intervall gör formler lättare att förstå.
+En namngiven omfattning är en Excel-funktion som låter dig tilldela ett namn till en cell, eller ett område med celler, i en Excel-kalkylblad. Du kan sedan använda namnet i formler för att hänvisa till cellen (eller området). Genomtänkta omfattningar gör formler lättare att förstå.
 
-Ett namngivet intervall måste vara unikt inom dess räckvidd, så använd inte samma namn för flera intervall i ett kalkylblad. Beskrivande intervallnamn hjälper till att undvika detta: till exempel är OrderSubTotal mer beskrivande än SubTotal och dessutom mindre sannolikt att dupliceras på ett ark.
+En namngiven omfattning måste vara unik inom sitt omfång så använd inte samma namn för flera omfattningar i ett kalkylblad. Beskrivande områdesnamn hjälper till att undvika detta: till exempel är OrderSubTotal mer beskrivande än SubTotal och mindre troligt att dupliceras på ett blad.
 
 {{% /alert %}}
 
-## **Skapa ett namngivet intervall**
+## **Skapa en namngiven omfattning**
 
-Så här skapar du ett namngivet intervall:
+För att skapa en namngiven omfattning:
 
-1. Konfigurera arbetsbladet:
- 1. Instantiera ett applikationsobjekt.
- (Endast VSTO.)
- 1. Lägg till en arbetsbok.
- 1. Skaffa det första arket.
-1. Skapa ett namngivet intervall:
- 1. Definiera ett intervall.
- 1. Namnge intervallet.
+1. Ställ in kalkylbladet:
+   1. Instantiera en Applikationsobjekt.
+      (Endast VSTO.)
+   1. Lägg till en arbetsbok.
+   1. Hämta det första arket.
+1. Skapa en namngiven omfattning:
+   1. Definiera en omfattning.
+   1. Namnge omfattningen.
 1. Spara filen.
 
- Kodexemplen nedan visar hur du utför dessa steg med hjälp av[VSTO](/cells/sv/net/creating-a-named-range/) med antingen C# eller Visual Basic. Kodexemplen som följer visar hur man gör samma sak med hjälp av[Aspose.Cells for .NET](/cells/sv/net/creating-a-named-range/), igen med antingen C# eller Visual Basic.
-### **Skapa ett namngivet intervall med VSTO**
+Kodexemplen nedan visar hur man utför dessa steg med [VSTO](/cells/sv/net/creating-a-named-range/) med antingen C# eller Visual Basic. Kodexemplen som följer visar hur man gör samma sak med [Aspose.Cells for .NET](/cells/sv/net/creating-a-named-range/), igen med antingen C# eller Visual Basic.
+### **Skapa en namngiven omfattning med VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -93,36 +94,36 @@ xl.Quit();
 
 {{< /highlight >}}
 
-### **Skapa ett namngivet intervall med Aspose.Cells for .NET**
+### **Skapa en namngiven omfattning med Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-använder Aspose.Cells;
+using Aspose.Cells;
 
 .......
 
 
-//Instantiering av ett arbetsboksobjekt
+//Instantiating a Workbook object
 
-Arbetsbok arbetsbok = ny arbetsbok();
+Workbook workbook = new Workbook();
 
-//Åtkomst till det första kalkylbladet i Excel-filen
+//Accessing the first worksheet in the Excel file
 
-Arbetsblad arbetsblad = arbetsbok. Arbetsblad[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Skapa ett namngivet intervall
+//Creating a named range
 
-Områdesområde = kalkylblad.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Ställa in namnet på det namngivna området
+//Setting the name of the named range
 
 range.Name = "Test_Range";
 
- för (int rad = 0; rad< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 

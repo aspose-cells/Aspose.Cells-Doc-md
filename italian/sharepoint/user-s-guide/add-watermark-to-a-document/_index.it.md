@@ -1,17 +1,18 @@
-﻿---
+---
 title: Aggiungi filigrana a un documento
 type: docs
 weight: 60
 url: /it/sharepoint/add-watermark-to-a-document/
 ---
-Se desideri aggiungere filigrana in un file Excel, scegli l'opzione "Aggiungi filigrana con Aspose.Cells" nell'Edit Control Block (ECB) del documento.
 
-![cose da fare:immagine_alt_testo](add-watermark-to-a-document_1.png)
+Se desideri aggiungere una filigrana a un file Excel, seleziona l'opzione "Aggiungi filigrana con Aspose.Cells" nel Blocco di Controllo Modifica (ECB) del documento.
 
-Le seguenti opzioni sono disponibili durante l'impostazione dell'aggiunta della filigrana:
+![todo:image_alt_text](add-watermark-to-a-document_1.png)
 
-![cose da fare:immagine_alt_testo](add-watermark-to-a-document_2.png)
+Le seguenti opzioni sono disponibili durante la configurazione dell'aggiunta della filigrana:
 
-**File filigrana**
+![todo:image_alt_text](add-watermark-to-a-document_2.png)
+
+**File della filigrana**
 
 Il file deve essere un file immagine.

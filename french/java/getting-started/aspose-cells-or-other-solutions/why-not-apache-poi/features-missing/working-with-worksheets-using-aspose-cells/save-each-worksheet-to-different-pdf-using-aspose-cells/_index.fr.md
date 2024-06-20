@@ -1,33 +1,34 @@
-﻿---
-title: Enregistrez chaque feuille de calcul dans différents PDF en utilisant Aspose.Cells
+---
+title: Enregistrer chaque feuille de calcul au format PDF différent à l aide d Aspose.Cells
 type: docs
 weight: 80
 url: /fr/java/save-each-worksheet-to-different-pdf-using-aspose-cells/
 ---
-## **Aspose.Cells - Enregistrer chaque feuille de calcul dans différents PDF**
-Aspose.Cells prend en charge la conversion de fichiers XLS (contenant des images, des graphiques, etc.) en documents PDF. Aspose.Cells for Java peut fonctionner indépendamment pour convertir une feuille de calcul en document PDF et vous n'avez plus besoin d'utiliser Aspose.Pdf for Java pour la conversion. La conversion ne nécessite pas non plus de créer/utiliser de fichier(s) temporaire(s) car l'ensemble du processus peut être effectué dans la mémoire.
+
+## **Aspose.Cells - Enregistrer chaque feuille de calcul au format PDF différent**
+Aspose.Cells prend en charge la conversion de fichiers XLS (contenant des images, des graphiques, etc.) en documents PDF. Aspose.Cells for Java peut travailler de manière indépendante pour convertir une feuille de calcul en document Pdf et vous n'avez plus besoin d'utiliser Aspose.Pdf for Java pour la conversion. La conversion ne nécessite pas de créer/utiliser de fichier(s) temporaire(s) car tout le processus peut être effectué en mémoire.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- // Récupère le chemin du fichier Excel
+ //Get the Excel file path
 
-String filePath = dataDir + "workbook.xlsx" ;
+String filePath = dataDir + "workbook.xlsx";
 
-//Instancier un nouveau classeur et ouvrir Excel
+//Instantiate a new workbook and open the Excel
 
-//Fichier depuis son emplacement
+//File from its location
 
-Classeur classeur = nouveau classeur (filePath);
+Workbook workbook = new Workbook(filePath);
 
-// Récupère le nombre de feuilles de calcul dans le classeur
+//Get the count of the worksheets in the workbook
 
-int sheetCount = classeur.getWorksheets().getCount();
+int sheetCount = workbook.getWorksheets().getCount();
 
-//Rend toutes les feuilles invisibles sauf la première feuille de calcul
+//Make all sheets invisible except first worksheet
 
- pour (int je = 1; je< workbook.getWorksheets().getCount(); i++)
+for (int i = 1; i < workbook.getWorksheets().getCount(); i++)
 
 {
 
@@ -58,12 +59,12 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-## **Télécharger l'exemple de code**
+## **Télécharger le code en cours d'exécution**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/SaveEachWorksheetToDifferentPDF.java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Enregistrer chaque feuille de calcul dans un fichier PDF différent](/cells/fr/java/save-each-worksheet-to-a-different-pdf-file).
+Pour plus de détails, visitez [Enregistrer chaque feuille de calcul dans un fichier PDF différent](/cells/fr/java/enregistrer-chaque-feuille-de-calcul-dans-un-fichier-pdf-different).
 
 {{% /alert %}}

@@ -1,28 +1,29 @@
-﻿---
+---
 title: Ställ in DeviceInfo i rsreportserver.config
 type: docs
 weight: 60
 url: /sv/reportingservices/set-deviceinfo-in-rsreportserver-config/
 ---
+
 - **FileExtension** 
- När värdet är null kommer det exporterade filtillägget för rapporten att vara standardvärdet. När värdet inte är null är tilläggsnamnet på den exporterade rapportfilen värde.
+  När värdet är null, kommer den exporterade rapportfilens filändelse vara standardvärdet. När värdet inte är null, är filändelsen för den exporterade rapportfilen värdet.
 - **SimplePageHeaders** 
- När värdet är sant renderar det rapporthuvudet till Excel-sidhuvudet. Standardvärdet är falskt.
+  När värdet är sant renderar det rapporthuvudobjektet i Excel sidhuvudet. Standardvärdet är falskt.
 - **SimplePageFooters** 
- När värdet är sant renderar det rapportsidfotsobjektet till sidfoten i Excel. Standardvärdet är sant.
+  När värdet är sant renderar det rapportfotobjektet i Excel sidfoten. Standardvärdet är sant.
 - **PutoutHeader** 
- När värdet är sant kommer det att exportera rapporthuvudet. När värdet är falskt exporteras inte rapporthuvudet. Standardvärdet är sant. Värdet stöder endast Excel2007Xlsx (endast data) tillägg.
+  När värdet är sant exporteras rapporthuvudobjektet. När värdet är falskt exporteras det inte rapporthuvudobjektet. Standardvärdet är sant. Värdet stöder endast Excel2007Xlsx(Data Only) filändelsen.
 - **PutoutFooter** 
-När värdet är sant kommer det att exportera rapportsidfoten. När värdet är falskt exporteras inte rapportsidfoten. Standardvärdet är sant. Värdet stöder endast Excel2007Xlsx (endast data) tillägg.
+  När värdet är sant exporteras rapportfotobjektet. När värdet är falskt exporteras det inte rapportfotobjektet. Standardvärdet är sant. Värdet stöder endast Excel2007Xlsx(Data Only) filändelsen.
 - **FillTableGroupHeaderForSimpleOutPut** 
- Standardvärdet är falskt. Värdet stöder endast Excel2007Xlsx (endast data) tillägg.
+  Standardvärdet är falskt. Värdet stöder endast Excel2007Xlsx(Data Only) filändelsen.
 - **NoOutPutTotalForSimpleOutPut** 
- Standardvärdet är falskt. Värdet stöder endast Excel2007Xlsx (endast data) tillägg.
+  Standardvärdet är falskt. Värdet stöder endast Excel2007Xlsx(Data Only) filändelsen.
 - **NoOutPutGroupForSimpleOutPut** 
- Standardvärdet är falskt. Värdet stöder endast Excel2007Xlsx (endast data) tillägg.
+  Standardvärdet är falskt. Värdet stöder endast Excel2007Xlsx(Data Only) filändelsen.
 - **NoDoGroupPageForSimpleOutPut** 
- Standardvärdet är sant. Värdet stöder endast Excel2007Xlsx (endast data) tillägg.
+  Standardvärdet är sant. Värdet stöder endast Excel2007Xlsx(Data Only) filändelsen.
 - **NoDoPageForSimpleOutPut** 
- Standardvärdet är sant. Värdet stöder endast Excel2007Xlsx (endast data) tillägg.
-- **Fältavgränsare** 
- Den sätter fältavgränsare. Värdet stöder tilläggen CSV och TXT.
+  Standardvärdet är sant. Värdet stöder endast Excel2007Xlsx(Data Only) filändelsen.
+- **FieldDelimiter** 
+  Det sätter fältdelare. Värdet stöder CSV- och TXT-filändelser. 

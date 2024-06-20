@@ -1,16 +1,17 @@
-﻿---
-title: Php でのワークシートの管理
+---
+title: Phpでワークシートを管理
 type: docs
 weight: 10
 url: /ja/java/managing-worksheets-in-php/
 ---
+
 ## **Aspose.Cells - ワークシートの管理**
-### **新しい Excel ファイルへのワークシートの追加**
-を使用して新しい Excel ファイルにワークシートを追加するには**Aspose.Cells Java for PHP**、単に呼び出す**add_worksheet**方法**ワークシートの管理**モジュール。
+### **新しいExcelファイルにワークシートを追加する**
+**Aspose.Cells Java for PHP**を使用して新しいExcelファイルにワークシートを追加するには、**MangingWorksheets**モジュールの**add_worksheet**メソッドを呼び出してください。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object
 
@@ -34,11 +35,11 @@ $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
 ### **シート名を使用してワークシートを削除する**
-を使用してシート名でワークシートを削除するには**Aspose.Cells Java for PHP**、単に呼び出す**remove_worksheet_by_name**方法**ワークシートの管理**モジュール。
+**PHPコード**
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,12 +62,12 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-### **シート インデックスを使用してワークシートを削除する**
-を使用してシート インデックスごとにワークシートを削除するには**Aspose.Cells Java for PHP**、単に呼び出す**remove_worksheet_by_index**方法**ワークシートの管理**モジュール。
+### **Sheet Indexを使用してワークシートを削除する**
+シートインデックスを使用してワークシートを削除するには、**Aspose.Cells Java for PHP**を使用して**MangingWorksheets**モジュールの**remove_worksheet_by_index**メソッドを呼び出してください。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -89,7 +90,7 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートの管理 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**Managing Worksheets (Aspose.Cells)** をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

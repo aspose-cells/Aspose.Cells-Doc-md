@@ -1,53 +1,54 @@
-﻿---
+---
 title: تصفية الكائنات أثناء تحميل المصنف أو ورقة العمل
 type: docs
 weight: 330
 url: /ar/net/filter-objects-while-loading-workbook-or-worksheet/
 ---
-## **سيناريوهات الاستخدام الممكنة**
-الرجاء استخدام[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)الخاصية أثناء تصفية البيانات من المصنف. ولكن إذا كنت ترغب في تصفية البيانات من أوراق العمل الفردية ، فسيتعين عليك تجاوز[LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet)طريقة. يرجى تقديم قيمة مناسبة من[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)التعداد أثناء الإنشاء أو العمل مع[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
 
- ال[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)التعداد لديه القيم المحتملة التالية.
+## **سيناريوهات الاستخدام المحتملة**
+يرجى استخدام خاصية [LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) أثناء تصفية البيانات من دفتر العمل. ولكن إذا كنت ترغب في تصفية البيانات من أوراق العمل الفردية، فسيتعين عليك تجاوز الطريقة [LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet). يرجى توفير قيمة مناسبة من تعداد [LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) أثناء إنشاء أو العمل مع [LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
 
-- الجميع
-- BookSettings
-- سيل بلانك
-- CellBool
-- CellData
-- CellError
-- رقم الخلية
-- CellString
-- CellValue
-- جدول
-- تنسيق مشروط
-- تأكيد صحة البيانات
+تحتوي تعداد [LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) على القيم الممكنة التالية.
+
+- الكل
+- إعدادات الكتاب
+- خلية فارغة
+- خلية مع تخطيط
+- بيانات الخلية
+- خطأ الخلية
+- رقم الخليّة
+- سلسلة الخليّة
+- قيمة الخلية
+- Chart
+- تنسيق شرطي
+- التحقق من البيانات
 - الأسماء المعرفة
 - خصائص المستند
-- معادلة
-- الارتباطات التشعبية
+- صيغة
+- الروابط الفائقة
 - منطقة مدمجة
-- جدول محوري
-- إعدادات
-- شكل
-- شيتداتا
-- SheetSettings
-- بنية
-- أسلوب
-- الطاولة
+- الجدول المحوري
+- الإعدادات
+- الشكل
+- بيانات الورقة
+- إعدادات الورقة
+- البنية
+- النمط
+- الجدول
 - VBA
-- XmlMap
-## **تصفية الكائنات أثناء تحميل المصنف**
- يوضح نموذج التعليمات البرمجية التالي كيفية تصفية المخططات من المصنف. رجاء تاكد من[نموذج ملف اكسل](5115258.xlsx) المستخدمة في هذا الرمز و[الإخراج PDF](5115257.pdf)ولدت به. كما ترى في الإخراج PDF ، تمت تصفية كافة المخططات من المصنف.
+- خريطة Xml
+## **تصفية الكائنات أثناء تحميل دفتر العمل**
+يوضح الكود المصدري التالي كيفية تصفية الرسوم البيانية من دفتر العمل. يرجى التحقق من [ملف الإكسل العيني](5115258.xlsx) المستخدم في هذا الكود و [ملف PDF الناتج](5115257.pdf) الذي تم إنشاؤه بواسطته. كما يمكنك رؤية في ملف PDF الناتج، تم تصفية جميع الرسوم البيانية من دفتر العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-FilteringObjects.cs" >}}
 ## **تصفية الكائنات أثناء تحميل ورقة العمل**
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[ملف اكسل المصدر](5115255.xlsx) وتصفية البيانات التالية من أوراق العمل الخاصة بها باستخدام مرشح مخصص.
+يقوم الكود المصدري التالي بتحميل [ملف الإكسل الأصلي](5115255.xlsx) ويقوم بتصفية البيانات التالية من ورقات العمل باستخدام تصفية مخصصة.
 
-- يقوم بتصفية المخططات من ورقة العمل المسماة NoCharts.
-- يقوم بتصفية الأشكال من ورقة العمل المسماة NoShapes.
-- يقوم بتصفية التنسيق الشرطي من ورقة العمل المسماة NoConditionalFormatting.
+- يتم تصفية الرسوم البيانية من ورقة العمل التي تحمل اسم لا توجد فيها رسوم بيانية.
+- يتم تصفية الأشكال من ورقة العمل التي تحمل اسم لا توجد فيها أشكال.
+- يتم تصفية التنسيق الشرطي من ورقة العمل التي تحمل اسم لا توجد فيها تنسيق شرطي.
 
- مرة واحدة ، يتم تحميل ملف[ملف اكسل المصدر](5115255.xlsx) باستخدام مرشح مخصص ، فإنه يأخذ صور جميع أوراق العمل واحدة تلو الأخرى. ها هي الصور الناتجة للرجوع اليها. كما ترى ، لا تحتوي الصورة الأولى على مخططات ، ولا تحتوي الصورة الثانية على أشكال ، ولا تحتوي الصورة الثالثة على تنسيق شرطي.
+يقوم بتحميل ملف Excel المصدر (5115255.xlsx) بتصفية مخصصة، ثم يأخذ صور جميع ورقات العمل بشكل تتابع. إليك صور الإخراج للإشارة. كما يمكنك أن ترى، الصورة الأولى ليست تحتوي على رسوم بيانية، الصورة الثانية ليست تحتوي على أشكال، والصورة الثالثة ليست تحتوي على تنسيق شرطي.
 
 - [NoCharts.png](5115254.png)
 - [NoShapes.png](5115256.png)
@@ -58,6 +59,6 @@ url: /ar/net/filter-objects-while-loading-workbook-or-worksheet/
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-1.cs" >}}
 
 
-هذه هي طريقة استخدام فئة CustomLoadFilter وفقًا لأسماء ورقة العمل.
+هكذا تستخدم فئة CustomLoadFilter حسب أسماء ورقة العمل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}

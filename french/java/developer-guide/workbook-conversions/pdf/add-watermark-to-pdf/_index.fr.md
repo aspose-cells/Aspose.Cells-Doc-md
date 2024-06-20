@@ -4,17 +4,18 @@ type: docs
 weight: 9
 url: /fr/java/add-watermark-to-pdf/
 ---
-Lors de la conversion d'un fichier Excel en PDF, vous devrez peut-être ajouter un filigrane au fichier PDF. Les exemples suivants montrent comment ajouter un filigrane de texte et d'image au PDF lors du rendu au format PDF.
 
-##   **Ajouter un filigrane de texte au PDF**
+Lors de la conversion d'un fichier Excel en PDF, vous pouvez avoir besoin d'ajouter un filigrane au fichier PDF. Les exemples suivants montrent comment ajouter un filigrane textuel et graphique au PDF lors du rendu en PDF.
 
- Vous pouvez facilement ajouter un filigrane de texte au PDF en spécifiant le texte et la police correspondante. En outre, vous pouvez définir l'alignement, le décalage, la rotation, l'opacité, le premier plan/arrière-plan et l'échelle de la page.[RenduFiligrane](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
+## **Ajouter un filigrane textuel au PDF**
+
+Vous pouvez facilement ajouter un filigrane texte au PDF en spécifiant le texte et la police correspondante. De plus, vous pouvez définir l'alignement, le décalage, la rotation, l'opacité, le premier plan/arrière-plan et l'échelle de la page dans RenderingWatermark.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddTextWatermarkToPdf.java" >}}
 
-##  **Ajouter un filigrane d'image au PDF**
+## **Ajouter un filigrane graphique au PDF**
 
-Vous pouvez ajouter un filigrane d'image au PDF simplement en spécifiant les octets d'image d'une image. En outre, vous pouvez définir l'alignement, le décalage, la rotation, l'opacité, le premier plan/arrière-plan et l'échelle de la page.[RenduFiligrane](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
+Vous pouvez ajouter un filigrane image au PDF simplement en spécifiant les octets de l'image. De plus, vous pouvez définir l'alignement, le décalage, la rotation, l'opacité, le premier plan/arrière-plan et l'échelle de page dans RenderingWatermark.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddImageWatermarkToPdf.java" >}}
 

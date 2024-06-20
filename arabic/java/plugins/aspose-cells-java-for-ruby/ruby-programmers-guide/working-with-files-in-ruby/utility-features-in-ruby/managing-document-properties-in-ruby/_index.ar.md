@@ -1,15 +1,16 @@
-﻿---
-title: إدارة خصائص الوثيقة في روبي
+---
+title: إدارة خصائص المستند في روبي
 type: docs
 weight: 90
 url: /ar/java/managing-document-properties-in-ruby/
 ---
-## **Aspose.Cells - الوصول إلى خصائص الوثيقة**
-يمكن للمطورين الاستفادة من**فِهرِس**أو**اسم** من العقار للحصول على عقار معين من أ**خصائص_مخصصة**المجموعة كما هو موضح أدناه في المثال.
 
-**كود روبي**
+## **Aspose.Cells - الوصول إلى خصائص المستند**
+يمكن للمطورين استخدام ** Index ** أو ** Name ** للخاصية للحصول على خاصية معينة من مجموعة ** custom_properties ** كما هو موضح أدناه في المثال.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  def get_properties()
 
@@ -37,11 +38,11 @@ end
 
 {{< /highlight >}}
 ## **Aspose.Cells - إضافة خصائص مخصصة**
-لإضافة خصائص وثيقة مخصصة باستخدام Aspose.Cells Java لروبي ، اتصل**add_custom_property** طريقة**وثيقة** وحدة.
+لإضافة خصائص المستند المخصصة باستخدام Aspose.Cells Java لـ Ruby ، اتصل بطريقة ** add_custom_property ** في وحدة ** Document **.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_custom_property()
 
@@ -70,12 +71,12 @@ end
 end   
 
 {{< /highlight >}}
-## **Aspose.Cells - إزالة الخصائص المهيأة**
- لإزالة خصائص المستند المخصصة باستخدام Aspose.Cells Java لروبي ، اتصل**remove_custom_property** طريقة**وثيقة** وحدة.
+## **Aspose.Cells - إزالة الخصائص المخصصة**
+لإزالة خصائص المستند المخصصة باستخدام Aspose.Cells Java لـ Ruby ، اتصل بطريقة ** remove_custom_property ** في وحدة ** Document **.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_custom_property()
 
@@ -104,7 +105,7 @@ end   
 end   
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**الوصول إلى خصائص المستند (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **الوصول إلى خصائص الوثيقة (Aspose.Cells)** من أي من المواقع المشفرة المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/document.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/document.rb)

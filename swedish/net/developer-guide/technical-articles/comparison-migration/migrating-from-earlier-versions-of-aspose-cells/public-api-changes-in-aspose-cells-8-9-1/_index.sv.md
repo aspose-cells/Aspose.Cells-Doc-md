@@ -1,36 +1,37 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.9.1
+---
+title: Offentliga API ändringar i Aspose.Cells 8.9.1
 type: docs
 weight: 310
 url: /sv/net/public-api-changes-in-aspose-cells-8-9-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.9.0 till 8.9.1 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringarna i Aspose.Cells API från version 8.9.0 till 8.9.1 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella ändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Konfigurerbara teckensnittskällor**
-Aspose.Cells for .NET har exponerat ett antal klasser för att ge stöd för konfigurerbara teckensnittskällor för rendering av kalkylblad. Här är listan över klasser som har lagts till med Aspose.Cells for .NET 8.9.1.
+## **Tillagda API:er**
+### **Konfigurerbara typsnittskällor**
+Aspose.Cells for .NET har exponerat ett antal klasser för att ge stöd för konfigurerbara fontkällor för att rendera kalkylblad. Här är listan över klasser som har lagts till med Aspose.Cells for .NET 8.9.1.
 
-1. FontConfigs-klassen anger teckensnittsinställningarna.
-1. FontSourceBase-klassen är en abstrakt basklass för klasserna som låter användaren specificera olika teckensnittskällor.
-1. FileFontSource-klassen representerar den enda TrueType-teckensnittsfilen som är lagrad i filsystemet.
-1. FolderFontSource-klassen representerar mappen som innehåller TrueType-teckensnittsfiler.
-1. MemoryFontSource-klassen representerar den enda TrueType-teckensnittsfilen som är lagrad i minnet.
-1. FontSourceType-uppräkning anger typen av en teckensnittskälla.
+1. FontConfigs-klassen specificerar typsnittsinställningarna.
+1. FontSourceBase-klassen är en abstrakt basklass för klasser som tillåter användaren att specificera olika typsnittskällor.
+1. FileFontSource-klassen representerar den enskilda TrueType-typsnittsfilen som lagras i filsystemet.
+1. FolderFontSource-klassen representerar mappen som innehåller TrueType-typsnittsfilerna.
+1. MemoryFontSource-klassen representerar den enskilda TrueType-typsnittsfilen som är lagrad i minnet.
+1. FontSourceType-uppräkningen specificerar typen av typsnittskälla.
 
-Med ovan nämnda ändringar på plats, tillåter Aspose.Cells for .NET att ställa in typsnitten enligt nedan.
+Med ovan nämnda ändringar på plats, tillåter Aspose.Cells for .NET att ställa in fonterna enligt nedan beskrivet.
 
-1. Ställ in en anpassad typsnittsmapp när du använder metoden FontConfigs.SetFontFolder.
-1. Ställ in flera anpassade teckensnittsmappar medan du använder metoden FontConfigs.SetFontFolders.
-1. Ställ in teckensnittskällor från en anpassad teckensnittsmapp, en enskild teckensnittsfil eller teckensnittsdata från en mängd byte medan du använder metoden FontConfigs.SetFontSources.
+1. Ange en anpassad fontmapp medan du använder FontConfigs.SetFontFolder-metoden.
+1. Ange flera anpassade fontmappar medan du använder FontConfigs.SetFontFolders-metoden.
+1. Ange fontkällor från en anpassad fontmapp, en enskild fontfil eller fontdata från en matris av byte medan du använder FontConfigs.SetFontSources-metoden.
 
-Här är ett enkelt användningsscenario för ovannämnda metoder.
+Här finns ett enkelt användningsscenario för ovanstående metoder.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Defining string variables to store paths to font folders & font file
 
@@ -50,7 +51,7 @@ FontConfigs.SetFontFolder(fontFolder1, true);
 
 // Second parameter prohibits the API to search the subfolders for font files
 
-FontConfigs.SetFontFolders(new string[]{ fontFolder1, fontFolder2 }, false);
+FontConfigs.SetFontFolders(new string[] { fontFolder1, fontFolder2 }, false);
 
 // Defining FolderFontSource
 
@@ -66,58 +67,58 @@ MemoryFontSource sourceMemory = new MemoryFontSource(System.IO.File.ReadAllBytes
 
 //Setting font sources
 
-FontConfigs.SetFontSources(new FontSourceBase[]{ sourceFolder, sourceFile, sourceMemory});
+FontConfigs.SetFontSources(new FontSourceBase[] { sourceFolder, sourceFile, sourceMemory});
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
 
-Både FontConfigs.SetFontFolder och FontConfigs.SetFontFolders metoder accepterar en andra parameter av boolesk typ. Genom att skicka true som andra parameter kommer Aspose.Cells API:erna att söka i undermapparna efter teckensnittsfilerna.
+Både FontConfigs.SetFontFolder & FontConfigs.SetFontFolders-metoder accepterar en andra parameter av typen Boolean. Genom att skicka true som andra parameter kommer Aspose.Cells API att söka i undermapparna efter fontfiler.
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET gör det också möjligt att konfigurera teckensnittsersättningen. Denna mekanism är användbar när ett önskat teckensnitt inte är tillgängligt på maskinen där konvertering måste ske. Användare kan tillhandahålla en lista med teckensnittsnamn som alternativ till det ursprungliga teckensnittet. För att uppnå detta har API:erna Aspose.Cells exponerat metoden FontConfigs.SetFontSubstitutes som accepterar 2 parametrar. Den första parametern är av typen string, som ska vara namnet på teckensnittet som måste ersättas. Den andra parametern är en array av typen sträng. Användare kan tillhandahålla en lista med teckensnittsnamn som ersättning för det ursprungliga teckensnittsnamnet (anges i den första parametern).
+Aspose.Cells for .NET tillåter även att konfigurera fontsubstitution. Denna mekanism är användbar när en nödvändig font inte är tillgänglig på den maskin där konvertering ska ske. Användare kan ange en lista med fontnamn som alternativ till den ursprungligen nödvändiga fonten. För att uppnå detta har Aspose.Cells API exponerat FontConfigs.SetFontSubstitutes-metoden som accepterar 2 parametrar. Den första parametern är av typen sträng, som ska vara namnet på den font som behöver ersättas. Den andra parametern är en matris av typen sträng. Användare kan ange en lista med fontnamn som substitut till det ursprungliga fontnamnet (anger i den första parametern).
 
-Här är ett enkelt användningsscenario för metoden FontConfigs.SetFontSubstitutes.
+Här är ett enkelt användningsscenario av metoden FontConfigs.SetFontSubstitutes.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Substituting the Arial font with Times New Roman & Calibri
 
-FontConfigs.SetFontSubstitutes("Arial", new string[]{ "Times New Roman", "Calibri" });
+FontConfigs.SetFontSubstitutes("Arial", new string[] { "Times New Roman", "Calibri" });
 
 {{< /highlight >}}
 
 
 
-Aspose.Cells for .NET har också tillhandahållit medel för att samla information om vilka källor och ersättningar som har ställts in.
+Aspose.Cells for .NET har också tillhandahållit medel för att samla information om vilka källor och substitutioner som har ställts in.
 
-1. Metoden FontConfigs.GetFontSources returnerar en array av typen FontSourceBase som innehåller listan över angivna teckensnittskällor. Om inga källor har ställts in kommer metoden FontConfigs.GetFontSources att returnera en tom array.
-1. Metoden FontConfigs.GetFontSubstitutes accepterar en parameter av typen sträng som gör det möjligt att ange teckensnittsnamnet för vilket en ersättning har ställts in. Om ingen ersättning har ställts in för det angivna teckensnittsnamnet kommer FontConfigs.GetFontSubstitutes-metoden att returnera null.
+1. Metoden FontConfigs.GetFontSources returnerar en array av typen FontSourceBase som innehåller listan över specifierade typsnittskällor. Om inga källor har angetts kommer metoden FontConfigs.GetFontSources att returnera en tom array.
+1. Metoden FontConfigs.GetFontSubstitutes accepterar en parameter av typen string som låter dig ange typsnittets namn för vilket en ersättning har angetts. Om ingen ersättning har angetts för det angivna typsnittsnamnet kommer metoden FontConfigs.GetFontSubstitutes att returnera null.
 
 {{% alert color="primary" %}} 
 
- För mer information om FontConfigs, läs artikeln om[Konfigurera teckensnitt för rendering av kalkylblad](/cells/sv/net/configuring-fonts-for-rendering-spreadsheets/).
+För mer information om FontConfigs, vänligen granska artikeln om [Konfigurering av typsnitt för rendering av kalkylblad](/cells/sv/net/configuring-fonts-for-rendering-spreadsheets/).
 
 {{% /alert %}} 
-### **Lade till IFilePathProvider Interface & HtmlSaveOptions.FilePathProvider egendom**
-Aspose.Cells for .NET 8.9.1 gör det möjligt att hämta/ställa in IFilePathProvider för export av kalkylblad till separata HTML-filer. Dessa nya API:er är användbara i scenarier där hyperlänkar i ett kalkylblad pekar till en plats i ett annat kalkylblad, där applikationskravet är att rendera varje kalkylblad till en separat HTML-fil. Genom att implementera IFilePathProvider kan de ovannämnda hyperlänkarna hållas intakta oavsett det faktum att de pekar på en plats i en separat resulterande HTML-fil.
+### **Lägg till IFilePathProvider-gränssnittet och HtmlSaveOptions.FilePathProvider-egenskapen**
+Aspose.Cells for .NET 8.9.1 gör att du kan hämta/ställa in IFilePathProvider för att exportera kalkylblad till separata HTML-filer. Dessa nya API:er är användbara i scenarier där hyperlänkar i ett kalkylblad pekar på en plats i ett annat kalkylblad, där programkravet är att rendera varje kalkylblad till en separat HTML-fil. Genom att implementera IFilePathProvider kan du behålla de tidigare nämnda hyperlänkarna intakta oavsett om de pekar på en plats i en separat resulterande HTML-fil.
 
-Följande är det enkla användningsscenariot för egenskapen HtmlSaveOptions.FilePathProvider.
+Följande är det enkla användningsscenario av HtmlSaveOptions.FilePathProvider-egenskapen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- // Ladda ett kalkylblad i en instans av Workbook
+ // Load a spreadsheet in an instance of Workbook
 
 var book = new Workbook(dir + "sample.xlsx");
 
-// Spara varje kalkylblad till separat HTML-fil
+// Save each Worksheet to separate HTML file
 
- för (int i = 0; i< book.Worksheets.Count; i++)
+for (int i = 0; i < book.Worksheets.Count; i++)
 
 {
 
@@ -145,11 +146,11 @@ var book = new Workbook(dir + "sample.xlsx");
 
 
 
-Så här implementerar du gränssnittet IFlePathProvider.
+Så här implementerar du gränssnittet IFilePathProvider.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class FilePathProvider : IFilePathProvider
 
@@ -203,17 +204,17 @@ Så här implementerar du gränssnittet IFlePathProvider.
 
 {{% alert color="primary" %}} 
 
- För mer information om denna förbättring, läs artikeln om[Implementering av IFilePathProvider Interface](/cells/sv/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
+För mer information om den här förbättringen, vänligen granska artikeln om [Implementering av gränssnittet IFilePathProvider](/cells/sv/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
 
 {{% /alert %}} 
-### **Lade till CopyOptions.ReferToDestinationSheet Property & Overload för Cells.CopyRows Method**
-Aspose.Cells for .NET API har avslöjat den booleska typen CopyOptions.ReferToDestinationSheet-egenskapen tillsammans med en överbelastning på Cells.CopyRows-metoden för att underlätta kopieringsoperationen av rader när rader innehåller datakälla ett diagram och dess datakälla. Utvecklare kan använda dessa nya API:er för att peka diagrammets datakälla till käll- eller målarbetsbladen.
+### **Lade till CopyOptions.ReferToDestinationSheet Egenskap & Overload för Cells.CopyRows Metod**
+Aspose.Cells for .NET API har exponerat den booleska typen CopyOptions.ReferToDestinationSheet egenskap tillsammans med en överbelastning av Cells.CopyRows metoden för att underlätta kopiering av rader när raderna som ska kopieras också innehåller en tabell och dess datakälla. Utvecklare kan använda dessa nya API:er för att peka grafens datakälla till käll- eller destinationskalkylbladen.
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet in an instance of Workbook
 
@@ -245,17 +246,17 @@ book.Save(dir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs artikeln om[Kontrollera diagrammets datakälla medan du kopierar rader](/cells/sv/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
+För mer information om den här funktionen, vänligen granska artikeln om [Kontrollera Datakällan för Diagram vid Kopiering av Rader](/cells/sv/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
 
 {{% /alert %}} 
-### **Lade till CalculationOptions.Rekursiv egenskap**
-Aspose.Cells for .NET 8.9.1 har exponerat den booleska typen CalculationOptions.Rekursiv egenskap. Att ställa in egenskapen CalculationOptions.Recursive till true och skicka objektet till Workbook.CalculateFormula-metoden styr API:erna Aspose.Cells att beräkna de beroende cellerna rekursivt vid beräkning av celler som beror på andra celler.
+### **Tillagd CalculationOptions.Recursive Egendom**
+Aspose.Cells for .NET 8.9.1 har exponerat den booleska typen CalculationOptions.Recursive egenskap. Att ställa in CalculationOptions.Recursive-egenskapen till true och skicka objektet till Workbook.CalculateFormula-metoden riktar Aspose.Cells API:er att beräkna de beroende cellerna rekursivt när de beräknar celler som är beroende av andra celler.
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet in an instance of Workbook
 
@@ -275,13 +276,13 @@ book.CalculateFormula(options);
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs artikeln om[Optimera beräkningstid](/cells/sv/net/decrease-the-calculation-time-of-cell-calculate-method/).
+För mer information om den här funktionen, vänligen granska artikeln om [Optimera Beräkningstiden](/cells/sv/net/decrease-the-calculation-time-of-cell-calculate-method/).
 
 {{% /alert %}}
-## **Föråldrade API:er**
-### **Föråldrad CellsHelper.FontDir-egenskap**
-Det rekommenderas att använda metoden FontConfigs.SetFontFolder(string, bool) med mapp rekursiv till false istället.
-### **Föråldrad CellsHelper.FontDirs-egenskap**
-Använd metoden FontConfigs.SetFontFolders(string[], bool) med mapp rekursiv till false istället.
-### **Föråldrad CellsHelper.FontFiles-egenskap**
-Använd metoden FontConfigs.SetFontSources(FontSourceBase[]) istället.
+## **Obsoletterade API:er**
+### **Föråldrad CellsHelper.FontDir Egendom**
+Det rekommenderas att använda metoden FontConfigs.SetFontFolder(string, bool) med rekursiv inställd på false istället.
+### **Föråldrad CellsHelper.FontDirs Egendom**
+Använd FontConfigs.SetFontFolders(string[], bool) metoden med rekursiv inställd på false istället.
+### **Föråldrad CellsHelper.FontFiles Egendom**
+Använd FontConfigs.SetFontSources(FontSourceBase[]) metoden istället.

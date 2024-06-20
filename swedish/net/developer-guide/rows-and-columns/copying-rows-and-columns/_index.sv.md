@@ -3,97 +3,98 @@ title: Kopiera rader och kolumner
 type: docs
 weight: 40
 url: /sv/net/copying-rows-and-columns/
-description: Den här artikeln visar hur du kopierar rader och kolumner genom Aspose.Cells for .NET API.
-keywords: C# How to Copy Rows and Columns, Copy Rows in C#, Copy Columns using C#, How to Paste Rows and Columns using Aspose.Cells for .NET, Paste multiple rows and columns, How to Copy and paste Single Row or Column.
+description: Denna artikel visar hur man kopierar rader och kolumner genom Aspose.Cells for .NET API.
+keywords: C# Hur man kopierar rader och kolumner, kopiera rader i C#, kopiera kolumner med hjälp av C#, hur man klistrar in rader och kolumner med hjälp av Aspose.Cells for .NET, klistra in flera rader och kolumner, hur man kopierar och klistrar in enstaka rad eller kolumn.
 ---
-##  **Introduktion**
 
-Ibland måste du kopiera rader och kolumner i ett kalkylblad utan att kopiera hela kalkylbladet. Med Aspose.Cells är det möjligt att kopiera rader och kolumner inom eller mellan arbetsböcker.
-När en rad (eller kolumn) kopieras, kopieras även data som finns i den, inklusive formler - med uppdaterade referenser - och värden, kommentarer, formatering, dolda celler, bilder och andra ritobjekt.
+## **Introduktion**
 
-##  **Hur man kopierar rader och kolumner med Microsoft Excel**
+Ibland behöver du kopiera rader och kolumner i en arbetsbok utan att kopiera hela arbetsboken. Med Aspose.Cells är det möjligt att kopiera rader och kolumner inom eller mellan arbetsböcker.
+När en rad (eller kolumn) kopieras, kopieras också den data som finns i den, inklusive formler - med uppdaterade referenser - och värden, kommentarer, formatering, dolda celler, bilder och andra ritobjekt.
 
-1. Välj den rad eller kolumn som du vill kopiera.
-1.  För att kopiera rader eller kolumner, klicka**Kopiera** på**Standard** verktygsfältet, eller tryck**CTRL**+*C**.
-1. Välj en rad eller kolumn nedan eller till höger om var du vill kopiera ditt val.
-1.  Klicka på när du kopierar rader eller kolumner**Kopierat Cells** på**Föra in** meny.
+## **Hur man kopierar rader och kolumner med Microsoft Excel**
+
+1. Markera raden eller kolumnen som du vill kopiera.
+1. För att kopiera rader eller kolumner, klicka på **Kopiera** på **Standard** verktygsfältet, eller tryck på **CTRL**+**C**.
+1. Välj en rad eller en kolumn nedanför eller till höger om där du vill kopiera ditt val.
+1. När du kopierar rader eller kolumner, klicka på **Kopierade celler** på menyn **Infoga**.
 
 {{% alert color="primary" %}}
 
- Om du klickar**Klistra** på**Standard** verktygsfältet eller tryck**CTRL**+**V** istället för att klicka på ett kommando på **Infoga**menyn, ersätts allt innehåll i destinationscellerna.
+Om du klickar på **Klistra in** på **Standard** verktygsfältet eller trycker på **CTRL**+**V** istället för att klicka på en kommando i **Infoga** menyn, ersätts eventuella innehåll i destinationens celler.
 
 {{% /alert %}}
 
-##  **Så här klistrar du in rader och kolumner med inklistringsalternativ med Microsoft Excel**
+## **Hur man klistrar in rader och kolumner med hjälp av klistra in-alternativ med Microsoft Excel**
 
-1. Markera cellerna som innehåller data eller andra attribut som du vill kopiera.
-1. Klicka på *Kopiera** på fliken Hem.
-1.  Klicka på den första cellen i området där du vill**klistra** vad du kopierade.
-1.  Klicka på pilen bredvid på fliken Hem**Klistra in** och välj sedan **Klistra in** Särskild.
-1.  Välj**alternativ** du vill.
+1. Välj cellerna som innehåller data eller andra attribut som du vill kopiera.
+1. På fliken Hem, klicka på **Kopiera**.
+1. Klicka på den första cellen i det område där du vill **klistra in** det du kopierade.
+1. På fliken Hem, klicka på pilen bredvid **Klistra in**, och välj sedan **Klistra in** Special.
+1. Välj de **alternativ** du vill.
 
-##  **Så här kopierar du rader och kolumner med Aspose.Cells for .NET**
+## **Hur man kopierar rader och kolumner med hjälp av Aspose.Cells for .NET**
 
-##  **Hur man kopierar enstaka rader**
+## **Hur man kopierar enskilda rader**
 
- Aspose.Cells tillhandahåller[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) metod för[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)klass. Denna metod kopierar alla typer av data inklusive formler, värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källraden till målraden.
+Aspose.Cells tillhandahåller metoden [**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) i klassen [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Denna metod kopierar alla typer av data inklusive formler, värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källraden till destinationsraden.
 
- De[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)metoden tar följande parametrar:
+Metoden [**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) tar följande parametrar:
 
--  källan[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)objekt,
+- källobjektet [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells),
 - källradens index, och
-- destinationsradindex.
+- destinationsradens index.
 
- Använd den här metoden för att kopiera en rad i ett ark eller till ett annat ark. De[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)Metoden fungerar på liknande sätt som Microsoft Excel. Så, till exempel, behöver du inte ställa in höjden på destinationsraden explicit, det värdet kopieras också.
+Använd den här metoden för att kopiera en rad inom ett blad, eller till ett annat blad. Metoden [**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) fungerar på ett liknande sätt som Microsoft Excel. Så till exempel behöver du inte ställa in höjden på destinationsraden explicit, det värdet kopieras också.
 
-Följande exempel visar hur man kopierar en rad i ett kalkylblad. Den använder en mall Microsoft Excel-fil och kopierar den andra raden (komplett med data, formatering, kommentarer, bilder och så vidare) och klistra in den på den 12:e raden i samma kalkylblad.
+Följande exempel visar hur man kopierar en rad i en arbetsbok. Det använder en mall Microsoft Excel-fil och kopierar den andra raden (komplett med data, formatering, kommentarer, bilder och så vidare) och klistrar in den i den 12:e raden i samma arbetsbok.
 
- Du kan hoppa över steget som får källradens höjd med hjälp av[**Cells.GetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getrowheight) metod och ställer sedan in destinationsradens höjd med hjälp av[**Cells.SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) metod som[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)metod tar automatiskt hand om radhöjden.
+Du kan hoppa över steget som hämtar källradens höjd med hjälp av metoden [**Cells.GetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getrowheight) och sedan ställer in destinationsradens höjd med hjälp av metoden [**Cells.SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) eftersom metoden [**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) automatiskt tar hand om radhöjden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-CopyingRows-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-När du kopierar rader är det viktigt att notera relaterade bilder, diagram eller andra ritobjekt eftersom detta är samma sak med Microsoft Excel:
+Vid kopiering av rader är det viktigt att notera relaterade bilder, diagram eller andra ritobjekt eftersom detta är detsamma med Microsoft Excel:
 
-1. Om källradens index är 5, kopieras bilden, diagrammet etc. om det finns i de tre raderna (startradindex är 4 och slutradens index är 6).
-1. De befintliga bilderna, sjökorten etc. på destinationsraden kommer inte att tas bort.
+1. Om källradens index är 5, kopieras bilden, diagrammet osv. om den finns i de tre raderna (startindexet är 4 och slutindexet är 6).
+1. De befintliga bilderna, diagrammen osv. i destinationsraden kommer inte att tas bort.
 
 {{% /alert %}}
 
-##  **Hur man kopierar flera rader**
+## **Hur man kopierar flera rader**
 
-Du kan också kopiera flera rader till en ny destination medan du använder[**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)metod som tar en extra parameter av typen heltal för att specificera antalet källrader som ska kopieras.
+Du kan också kopiera flera rader till en ny destination med hjälp av [**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index) metoden som tar en ytterligare parameter av typen integer för att ange antalet källrader som ska kopieras.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRowsColumns-CopyingMultipleRows-1.cs" >}}
 
 
-##  **Hur man kopierar kolumner**
+## **Hur man kopierar kolumner**
 
- Aspose.Cells tillhandahåller[**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) metod för[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)klass, kopierar denna metod alla typer av data, inklusive formler - med uppdaterade referenser - och värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källkolumnen till målkolumnen.
+Aspose.Cells tillhandahåller metoden [**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) i klassen [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells), denna metod kopierar alla typer av data, inklusive formler - med uppdaterade referenser - och värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källkolumnen till destinationskolumnen.
 
- De[**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)metoden tar följande parametrar:
+Metoden [**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) tar följande parametrar:
 
--  källan[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)objekt,
-- källkolumnindex och
-- målkolumnindex.
+- källobjektet [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells),
+- källkolumnens index och
+- destinationskolumnens index.
 
- Använd[**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)metod för att kopiera en kolumn inom ett ark eller till ett annat ark.
+Använd metoden [**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) för att kopiera en kolumn inom en kalkylblad eller till ett annat kalkylblad.
 
-Det här exemplet kopierar en kolumn från ett kalkylblad och klistrar in den i ett kalkylblad i en annan arbetsbok.
+Detta exempel kopierar en kolumn från ett blad och klistrar in den i ett blad i en annan arbetsbok.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-CopyingColumns-1.cs" >}}
 
-##  **Hur man kopierar flera kolumner**
+## **Hur man kopierar flera kolumner**
 
- Liknande[**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index) Aspose.Cells API:er tillhandahåller också[**Cells.CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumns/index)metod för att kopiera flera källkolumner till en ny plats.
+På liknande sätt som [**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)-metoden tillhandahåller också Aspose.Cells API:er metoden [**Cells.CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumns/index) för att kopiera flera källkolumner till en ny plats.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRowsColumns-CopyingMultipleColumns-1.cs" >}}
 
 
-##  **Hur man klistrar in rader och kolumner med inklistringsalternativ**
+## **Hur man klistrar in rader och kolumner med klistringsalternativ**
 
- Aspose.Cells ger nu[**Klistra in Alternativ**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions) när du använder funktioner[**CopyRows**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2) och[**CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1). Det gör det möjligt att ställa in lämpligt inklistringsalternativ som liknar Excel.
+Aspose.Cells tillhandahåller nu [**PasteOptions**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions) medan man använder funktionerna [**CopyRows**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2) och [**CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1). Det gör det möjligt att ställa in lämpligt klistringsalternativ liknande Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.cs" >}}
 

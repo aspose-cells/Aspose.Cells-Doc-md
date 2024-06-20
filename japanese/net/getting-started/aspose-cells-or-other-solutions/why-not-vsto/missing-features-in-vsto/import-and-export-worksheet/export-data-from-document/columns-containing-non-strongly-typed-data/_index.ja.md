@@ -1,12 +1,13 @@
-﻿---
-title: 厳密に型指定されていないデータを含む列
+---
+title: 強く型付けされていないデータを含む列
 type: docs
 weight: 10
 url: /ja/net/columns-containing-non-strongly-typed-data/
 ---
-ワークシートの列のすべての値が厳密に型指定されていない場合 (つまり、列の値のデータ型が異なる可能性があることを意味します)、**ExportDataTableAsString** Cells クラスのメソッド。**ExportDataTableAsString**メソッドは、のと同じパラメータのセットを取ります**ExportDataTable**ワークシートデータをエクスポートするメソッド**データ表**物体。
 
-{{< highlight "csharp" >}}
+ワークシートの列のすべての値が強く型付けされていない場合（つまり、列の値が異なるデータ型を持つ可能性がある場合）は、Cellsクラスの**ExportDataTableAsString**メソッドを呼び出してワークシートのコンテンツをエクスポートすることができます。**ExportDataTableAsString**メソッドは、**ExportDataTable**メソッドと同じパラメータセットを取り、ワークシートデータを**DataTable**オブジェクトとしてエクスポートします。
+
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -36,13 +37,13 @@ fstream.Close();
 
 {{< /highlight >}}
 
-以下はスクリーンショットです。
+以下はスクリーンショットです：
 
-![todo:画像_代替_文章](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-![todo:画像_代替_文章](picture2.png)
+![todo:image_alt_text](picture2.png)
 
 ## **サンプルコードをダウンロード**
 
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

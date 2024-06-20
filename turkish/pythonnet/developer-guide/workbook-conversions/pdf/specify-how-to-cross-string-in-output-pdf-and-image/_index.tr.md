@@ -1,33 +1,34 @@
 ---
-title: PDF çıktısında ve görüntüde dizenin nasıl çaprazlanacağını belirtin
+title: Çıktı PDF ve görüntüde dizeyi nasıl geçeceğinizi belirtin
 type: docs
 weight: 120
 url: /tr/python-net/specify-how-to-cross-string-in-output-pdf-and-image/
-description: PDF çıkışındaki dizeyi ve Aspose.Cells for Python via .NET API ile görüntüyü nasıl çaprazlayacağınızı öğrenin.
-keywords: Python Cross String in output PDF and image
+description: Aspose.Cells için Python via .NET API ile çıktı PDF ve görüntüde dize geçişini nasıl yapılacağını öğrenin.
+keywords: Python da Çıktı PDF ve Görüntüde Dize Geçişi
 ---
-##  **Olası Kullanım Senaryoları**
 
-Bir hücre metin veya dize içeriyorsa ancak bu hücrenin genişliğinden daha büyükse, sonraki sütundaki sonraki hücre boş veya boşsa dize taşar. Excel dosyanızı PDF/Resim içerisine kaydettiğinizde çapraz tipini belirterek bu taşmayı kontrol edebilirsiniz.[**MetinÇapraz Türü**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/)numaralandırma. Aşağıdaki değerlere sahiptir
+## **Olası Kullanım Senaryoları**
 
-- *TextCrossType.DEFAULT**: Sonraki hücreye bağlı olan metni MS Excel gibi görüntüler. Bir sonraki hücre boşsa, dize kesişecek veya kesilecektir.
+Bir hücre metin veya dize içeriyorsa, ancak hücrenin genişliğinden daha büyükse, o zaman dize sonraki sütunda bulunan hücre boş veya boşsa taşar. Excel dosyanızı PDF/Görüntü olarak kaydettiğinizde, [**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/) numaralama değerini kullanarak bu taşmayı kontrol edebilirsiniz. Aşağıdaki değerlere sahiptir:
 
-- *TextCrossType.CROSS_KEEP**: Dizeyi, MS Excel'in dışa aktardığı PDF/Image gibi görüntüler
+- **TextCrossType.DEFAULT**: Bir sonraki hücreye bağlı olarak MS Excel gibi metni gösterir. Eğer bir sonraki hücre boşsa, dize taşar veya kırpılır.
 
-- *TextCrossType.CROSS_OVERRIDE**: Diğer hücreleri çaprazlayarak tüm metni görüntüleyin ve çapraz hücrelerdeki metni geçersiz kılın
+- **TextCrossType.CROSS_KEEP**: Diziyi MS Excel'e benzer şekilde PDF/Görüntüye aktarır.
 
-- *TextCrossType.STRICT_IN_CELL**: Yalnızca hücre genişliği dahilindeki dizeyi görüntüler.
+- **TextCrossType.CROSS_OVERRIDE**: Tüm metni gösterirken diğer hücreleri taşar ve taşan hücrelerin metnini geçersiz kılar.
 
-##  **TextCrossType kullanarak PDF/Image çıktısında dizenin nasıl geçileceğini belirtin**
+- **TextCrossType.STRICT_IN_CELL**: Sadece hücre genişliği içindeki dizeyi gösterir.
 
-Aşağıdaki örnek kod, örnek Excel dosyasını yükler ve farklı bir değer belirterek PDF/Resim biçiminde kaydeder.[**MetinÇapraz Türü**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/)Örnek Excel dosyası ve çıktı dosyaları aşağıdaki bağlantılardan indirilebilir:
+## **PDF/Görüntüde dizeyi nasıl geçeceğinizi belirtin, TextCrossType kullanarak.**
+
+Aşağıdaki örnek kod, örnek Excel dosyasını yükler ve farklı [**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/) belirterek onu PDF/Görüntü formatına kaydeder. Örnek Excel dosyası ve çıktı dosyaları aşağıdaki linklerden indirilebilir:
 
 [sampleCrossType.xlsx](81920905.xlsx)
 
-[çıktıCrossType.pdf](81920903.pdf)
+[outputCrossType.pdf](81920903.pdf)
 
-[çıktıCrossType.png](81920904.png)
+[outputCrossType.png](81920904.png)
 
-###  Basit kod
+### Örnek Kod
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUsingTextCrossType-1.py" >}}

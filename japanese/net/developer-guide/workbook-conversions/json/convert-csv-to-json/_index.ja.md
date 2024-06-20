@@ -1,29 +1,31 @@
-﻿---
-title: CSV を JSON に変換
+---
+title: CSVをJSONに変換
 type: docs
 weight: 220
 url: /ja/net/convert-csv-to-json/
-description: 使いやすい Aspose.Cells for .NET API を使用して、CSF ファイルを JSON に変換します。
-keywords: Convert, Convert CVS to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON CSharp, c# code to convert CSV to JSON
+description: 簡単に使用できるAspose.Cells for .NET APIを使用して、CSFファイルをJSONに変換する。
+keywords: 変換、CSVからJSONへの変換、CSVからJSON、CSV、JSON、CSVからJSON CSharpへの変換、CSVをJSONに変換するためのc#コード
 ---
-## **CSV を JSON に変換**
 
-Aspose.Cells は、CSV から JSON への変換をサポートします。**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**と**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**クラス。の**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**クラスは、範囲を JSON にエクスポートするためのオプションを提供します。**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**クラスには次のプロパティがあります。
+## **CSVをJSONに変換**
 
-- **[ExportAsString](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring)**: これにより、セルの文字列値が JSON にエクスポートされます。
-- **[HasHeaderRow](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow)**: 範囲にヘッダー行が含まれているかどうかを示します。
-- **[インデント](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent)**インデントを示します。
+Aspose.Cellsでは、CSVをJSONに変換する機能がサポートされています。このために、APIは[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)および[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)クラスを提供します。[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)クラスはJSONへの範囲のエクスポートオプションを提供します。[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)クラスには以下のプロパティがあります。
 
-の**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**クラスは、で設定されたエクスポート オプションを使用して JSON をエクスポートします**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**クラス。
+- [**ExportAsString**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring): セルの文字列値をJSONにエクスポートします。
+- [**HasHeaderRow**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow):範囲にヘッダー行が含まれているかどうかを示します。
+- [**Indent**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent): インデントを示します。
 
-次のコード サンプルは、**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**と**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**ロードするクラス[ソース CSV ファイル](104398879.csv)コンソールに JSON 出力を出力します。
+この[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)クラスは、[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)クラスで設定されたエクスポートオプションを使用してJSONをエクスポートします。
+
+以下のコードサンプルは、[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)および[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)クラスを使用して[ソースのCSVファイル](104398879.csv)をロードし、コンソールにJSON出力を出力する方法を示しています。
 
 ### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertCsvToJson-1.cs" >}}
 
 ### **コンソール出力**
-```json
+{{< highlight java >}}
+
 [
 {
 "id": 1,
@@ -56,4 +58,5 @@ Aspose.Cells は、CSV から JSON への変換をサポートします。**[Exp
 "postalCode": 394221
 }
 ]
-```
+
+{{< /highlight >}}

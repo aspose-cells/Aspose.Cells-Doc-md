@@ -1,21 +1,22 @@
-﻿---
-title: Защита паролем или снятие защиты общей книги
+---
+title: Защита паролем или снятие защиты общей рабочей книги
 linktitle: Защита или снятие защиты общей книги
 type: docs
 weight: 70
 url: /ru/java/password-protect-or-unprotect-the-shared-workbook/
 ---
+
 ## **Возможные сценарии использования**
 
-Вы можете защитить или снять защиту с общей книги с помощью Microsoft Excel, как показано на следующем снимке экрана. Aspose.Cells также поддерживает эту функцию с[**Рабочая книга.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) и[**Рабочая книга.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)) методы.
+Вы можете защитить или отменить защиту общего книги в Microsoft Excel, как показано на следующем снимке экрана. Aspose.Cells также поддерживает эту функцию с методами [**Workbook.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) и [**Workbook.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)).
 
-![дело:изображение_альтернативный_текст](password-protect-or-unprotect-the-shared-workbook_1.png)
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
 ## **Защита паролем или снятие защиты общей книги**
 
-Следующий пример кода создает книгу и защищает ее при включении общего доступа и сохраняет ее как[выходной файл Excel](55541800.xlsx). На снимке экрана видно, что при попытке снять защиту Excel Microsoft предлагает ввести пароль для снятия защиты.
+Приведенный ниже образец кода создает книгу и защищает ее с включением общего доступа, а затем сохраняет в [выходном файле Excel](55541800.xlsx). На снимке экрана показано, что при попытке снять защиту Microsoft Excel предлагает ввести пароль для снятия защиты.
 
-![дело:изображение_альтернативный_текст](password-protect-or-unprotect-the-shared-workbook_2.png)
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)
 
 ## **Образец кода**
 

@@ -2,20 +2,22 @@
 title: カスタムローカリゼーション
 type: docs
 weight: 40
-url: /ja/net/griddesktop-localization/
-keywords: custom,localization,translation,globalization
+url: /ja/net/aspose-cells-griddesktop/griddesktop-localization/
+keywords: GridDesktop、custom、ローカリゼーション、翻訳、グローバリゼーション
+description: この記事では、GridDesktopでのローカリゼーションのカスタマイズ方法について紹介しています。
 ---
+
 {{% alert color="primary" %}} 
 
-GridDesktop のすべてのメニュー/メッセージ ヒントなどのローカライズを行う必要がある場合は、リソース ファイルを定義し、GridDesktop.SetCustomResourceManager を使用してこのリソースをロードします。
+GridDesktopのメニューやメッセージのローカリゼーションを行う必要がある場合は、リソースファイルを定義し、GridDesktop.SetCustomResourceManagerを使用してこのリソースを読み込むことができます。
 
 {{% /alert %}} 
-##  **例**
+## **例**
 
-まず新しいリソース ファイルcustomtest.resx を追加します。
+最初に新しいリソースファイル 'customtest.resx' を追加します
 
 
-![カスタムリソース](managing-griddesktops-custom-res.png)
+![custom-resource](managing-griddesktops-custom-res.png)
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-customtest.Designer.cs" >}}
 
@@ -27,7 +29,7 @@ GridDesktop のすべてのメニュー/メッセージ ヒントなどのロー
    gridDesktop1.SetCustomResourceManager(rm);
 ```
 
-上記のコードを実行すると、メニュー項目に次が表示されます。
+上記のコードを実行した後、メニューアイテムが表示されます：
 
-![メニューを表示](managing-griddesktops-show-custom.png)
- 
+![show menu](managing-griddesktops-show-custom.png)
+

@@ -1,19 +1,20 @@
-﻿---
-title: Cree tablas dinámicas usando Apache POI y Aspose.Cells
+---
+title: Crear tablas dinámicas usando Apache POI y Aspose.Cells
 type: docs
 weight: 40
 url: /es/java/create-pivot-tables-using-apache-poi-and-aspose-cells/
 ---
+
 ## **Aspose.Cells - Crear tabla dinámica**
 Para crear una tabla dinámica usando Aspose.Cells:
 
-1. Agregue algunos datos a las celdas de una hoja de trabajo utilizando el método setValue de un objeto Cell. También utiliza un archivo de plantilla ya lleno de datos. Los datos se utilizarán como fuente de datos de la tabla dinámica.
-1. Agregue una tabla dinámica a la hoja de trabajo llamando al método de agregar PivotTableCollection (encapsulado en el objeto {{Worksheet }}).
-1. Acceda al nuevo objeto PivotTable de la colección PivotTableCollection pasando su índice.
+1. Agrega algunos datos a las celdas de una hoja de cálculo usando el método setValue de un objeto Cell. También puedes usar un archivo de plantilla ya lleno de datos. Los datos se usarán como origen de datos de la tabla dinámica.
+1. Añade una tabla dinámica a la hoja de cálculo llamando al método add de PivotTableCollection (encapsulado en el objeto {{Worksheet }}).
+1. Accede al nuevo objeto PivotTable desde la colección PivotTableCollection pasando su índice.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -155,7 +156,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 ## **Apache POI SS (HSSF + XSSF) - Crear tablas dinámicas**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  XSSFWorkbook wb = new XSSFWorkbook();
 
@@ -186,17 +187,17 @@ pivotTable.addColumnLabel(DataConsolidateFunction.AVERAGE, 2);
 pivotTable.addReportFilter(3);
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar ejemplos de ejecución para**Cree tablas dinámicas usando Apache POI y Aspose.Cells** de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar ejemplos en ejecución para **Crear tablas dinámicas usando Apache POI y Aspose.Cells** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **Descargar código fuente**
- Descarga el código fuente de**Cree tablas dinámicas usando Apache POI y Aspose.Cells** de cualquiera de los sitios de codificación social mencionados a continuación:
+Descargar código fuente para **Crear tablas dinámicas usando Apache POI y Aspose.Cells** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Crear tablas dinámicas y gráficos dinámicos](/cells/es/java/create-pivot-tables-and-pivot-charts/).
+Para más detalles, visita [Crear tablas dinámicas y gráficos dinámicos](/cells/es/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}

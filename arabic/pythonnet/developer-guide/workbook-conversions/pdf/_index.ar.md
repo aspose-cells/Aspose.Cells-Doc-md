@@ -3,142 +3,143 @@ title: Pdf
 type: docs
 weight: 220
 url: /ar/python-net/convert-excel-to-pdf/
-description: تعرف على كيفية تحويل Excel إلى PDF مع Aspose.Cells for Python via .NET API.
-keywords: Python converT Excel to PDF, ConverT Excel to PDF using Python, Python save Excel to PDF, Excel to PDF in Python
+description: تعلم كيفية تحويل إكسل إلى PDF باستخدام Aspose.Cells for Python via .NET API.
+keywords: بايثون تحويل Excel إلى PDF، تحويل Excel إلى PDF باستخدام بايثون، بايثون حفظ Excel إلى PDF، Excel إلى PDF في بايثون
 ---
-{{% alert color="primary" %}}
-
-Aspose.Cells for Python via .NET يدعم تحويل Excel Workbook إلى PDF. في هذا المثال، سنرى التحويل الكامل لمصنف Excel إلى PDF.
-
-{{% /alert %}}
-
-##  **تحويل مصنف Excel إلى PDF**
-
-تُستخدم ملفات PDF على نطاق واسع لتبادل المستندات بين المؤسسات والقطاعات الحكومية والأفراد. إنه تنسيق مستند قياسي وغالبًا ما يُطلب من مطوري البرامج إيجاد طريقة لتحويل ملفات Excel Microsoft إلى PDF مستندًا.
-
-Aspose.Cells for Python via .NET يدعم تحويل ملفات Excel إلى PDF ويحافظ على دقة بصرية عالية في التحويل.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Python via .NET يكتب مباشرة المعلومات حول API ورقم الإصدار في مستندات الإخراج. على سبيل المثال، عند تقديم المستند إلى PDF، تتم تعبئة Aspose.Cells for Python via .NET**PDF منتج** حقل ذو قيمة، على سبيل المثال "Aspose.Cells for Python via .NET v23.2".
-
- يرجى ملاحظة أنه يمكنك تغيير هذه المعلومات في المستندات الناتجة عن طريق**[PdfSaveOptions.producer](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/producer/)** ملكية.
+تدعم Aspose.Cells for Python via .NET تحويل مصنف Excel إلى PDF. في هذا المثال، سنرى تحويل كامل لمصنف Excel إلى PDF.
 
 {{% /alert %}}
 
-###  **التحويل المباشر**
+## **تحويل سجل عمل Excel إلى PDF**
 
- Aspose.Cells for Python via .NET يدعم التحويل من جداول البيانات إلى PDF بشكل مستقل عن البرامج الأخرى. ما عليك سوى حفظ ملف Excel على الرقم PDF باستخدام ملف**[المصنف](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)**فصل'**[حفظ](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)** طريقة. ال**[حفظ](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)** توفر الطريقة**[حفظ التنسيق.PDF](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)**عضو التعداد الذي يحول ملفات Excel الأصلية إلى تنسيق PDF.
+تستخدم ملفات PDF على نطاق واسع لتبادل المستندات بين المؤسسات والقطاعات الحكومية والأفراد. إنها صيغة مستند قياسية وغالبًا ما يُطلب من مطوري البرامج أن يجدوا طريقة لتحويل ملفات Microsoft Excel إلى مستندات PDF.
 
-اتبع الخطوات التالية لتحويل جداول بيانات Excel مباشرة إلى تنسيق PDF:
+يدعم Aspose.Cells for Python via .NET تحويل ملفات Excel إلى PDF ويحتفظ بالمظهر البصري العالي خلال التحويل.
 
-1.  إنشاء مثيل لكائن من**[المصنف](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)**فئة عن طريق استدعاء منشئها الفارغ.
-1. يمكنك فتح/تحميل ملف قالب موجود أو تخطي هذه الخطوة إذا كنت تقوم بإنشاء المصنف من البداية.
-1. قم بأي عمل (إدخال البيانات، تطبيق التنسيق، تعيين الصيغ، إدراج صور أو كائنات رسومية أخرى، وما إلى ذلك) في جدول البيانات باستخدام Aspose.Cells for Python via .NET' APIs.
-1.  عند اكتمال رمز جدول البيانات، اتصل بـ**[المصنف](https://reference.aspose.com/cells/python-net/aspose.cells/workbook)**فصل'**[حفظ](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat)**طريقة حفظ جدول البيانات.
+{{% alert color="primary" %}}
 
- يجب أن يكون تنسيق الملف PDF لذا اختر*PDF* (قيمة محددة مسبقًا) من**[حفظ التنسيق](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat/)**التعداد لإنشاء مستند PDF النهائي.
+تكتب Aspose.Cells for Python via .NET مباشرة معلومات حول واجهة برمجة التطبيقات ورقم الإصدار في وثائق الإخراج. على سبيل المثال، عند تقديم مستند إلى PDF، يملأ Aspose.Cells for Python via .NET حقل **منتج PDF** بالقيمة، مثل 'Aspose.Cells for Python via .NET v23.2'.
+
+يرجى ملاحظة أنه يمكنك تغيير هذه المعلومات في مستندات الإخراج عن طريق خاصية [**PdfSaveOptions.producer**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/producer/).
+
+{{% /alert %}}
+
+### **التحويل المباشر**
+
+تدعم Aspose.Cells for Python via .NET التحويل من جداول البيانات إلى PDF بشكل مستقل عن البرمجيات الأخرى. قم ببساطة بحفظ ملف Excel إلى PDF باستخدام فئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) وطريقة [**save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat) لهذه الفئة. توفر الطريقة [**save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat) عضو فئة التعداد الذي يحول الملفات الأصلية بتنسيق Excel إلى تنسيق PDF.
+
+اتبع الخطوات التالية لتحويل الجداول الحسابية في Excel مباشرة إلى تنسيق PDF:
+
+1. قم بإنشاء كائن من فئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) بالاتصال ببنائه الفارغ.
+1. يمكنك فتح/تحميل ملف قالب موجود أو تخطي هذه الخطوة إذا كنت تقوم بإنشاء السجل العمل من البداية.
+1. اقم بفعل أي عمل (إدخال بيانات، تطبيق التنسيق، تعيين الصيغ، إدراج الصور أو أجسام الرسم الأخرى، وما إلى ذلك) على جدول البيانات باستخدام واجهة برمجة التطبيقات لـ Aspose.Cells for Python via .NET.
+1. عند اكتمال رمز الجداول، اتصل بطريقة [**save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveFormat) في فئة [**Workbook**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook) لحفظ الجدول.
+
+يمكنك أيضًا اختيار استخدام فئة {0} لتعيين خصائص مختلفة للتحويل. تعيين خصائص مختلفة لفئة {1} يمنحك التحكم في الطباعة والخط وإعدادات الأمان والضغط لملف PDF الناتج. الخاصية الأكثر أهمية هي {2} التي تمكّنك من حفظ ملفات Excel إلى ملفات PDF/A متوافقة مع PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-XlstoPDFDirectConversation-1.py" >}}
 
-###  **التحويل المتقدم**
+### **التحويل المتقدم**
 
- يمكنك أيضًا اختيار استخدام**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** class لتعيين سمات مختلفة للتحويل. تحديد خصائص مختلفة لل**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** تمنحك الفئة التحكم في إعدادات الطباعة والخط والأمان والضغط للإخراج PDF. الخاصية الأكثر أهمية هي**[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)**والتي تمكنك من حفظ ملفات Excel إلى ملفات PDF/A المتوافقة مع PDF.
+يمكنك أيضًا اختيار استخدام فئة [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) لتعيين خصائص مختلفة للتحويل. تعيين خصائص مختلفة لفئة [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) يمنحك التحكم في إعدادات الطباعة والخط والأمان وضغط الإخراج PDF. أهم خاصية هي [**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/) التي تمكنك من حفظ ملفات Excel إلى ملفات PDF/A متوافقة مع PDF.
 
-####  **حفظ المصنف في PDF/A الملفات الممتثلة**
+#### **حفظ جدول البيانات إلى ملف PDF/A المتوافق**
 
- يوضح مقتطف الكود المتوفر أدناه كيفية استخدام**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)**فئة لحفظ ملفات Excel بتنسيق PDF/A المتوافق PDF.
+مقطع الرمز المقدم أدناه يوضح كيفية استخدام فئة [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions) لحفظ ملفات Excel إلى تنسيق PDF/A متوافق مع PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-AdvancedConversiontoPdf-1.py" >}}
 
 {{% alert color="primary" %}}
 
-يرجى ملاحظة أن**[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)**تمت إضافة الخاصية بإطلاق Aspose.Cells for Python via .NET for .NET 5.3.0.
+يرجى ملاحظة أن خاصية [**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/) تمت إضافتها مع إصدار Aspose.Cells for Python via .NET لـ .NET 5.3.0.
 
 {{% /alert %}}
 
-####  **اضبط وقت الإنشاء PDF**
+#### **تعيين وقت إنشاء ملف PDF**
 
- مع ال**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)**فئة، يمكنك الحصول على أو ضبط وقت الإنشاء PDF. الكود التالي يوضح استخدام**[PdfSaveOptions.created_time](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/created_time/)** الخاصية لتعيين وقت إنشاء الملف PDF.
+مع فئة [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)، يمكنك الحصول على أو تعيين وقت إنشاء PDF. يوضح الرمز التالي استخدام الخاصية [**PdfSaveOptions.created_time**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/created_time/) لتعيين وقت إنشاء ملف PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SetPDFCreationTime-1.py" >}}
 
-####  **قم بتعيين خيار ContentCopyForAccessibility**
+#### **تعيين خيار ContentCopyForAccessibility**
 
-مع ال**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** فئة، يمكنك الحصول على أو تعيين PDF**[PdfSecurityOptions.accessibility_extract_content](https://reference.aspose.com/cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibility_extract_content/)** خيار للتحكم في الوصول إلى المحتوى في PDF المحول.
+مع فئة [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)، يمكنك الحصول على أو تعيين خيار [**PdfSecurityOptions.accessibility_extract_content**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/accessibility_extract_content/) للتحكم في وصول المحتوى في ملف PDF المحول.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SetContentCopyForAccessibility-1.py" >}}
 
-####  **تصدير الخصائص المخصصة إلى PDF**
+#### **تصدير الخصائص المخصصة إلى ملف PDF**
 
-مع ال**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)** فئة، يمكنك تصدير الخصائص المخصصة في المصنف المصدر إلى PDF.**[PdfCustomPropertiesExport](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfcustompropertiesexport/)**يتم توفير العداد لتحديد الطريقة التي يتم بها تصدير الخصائص. ويمكن ملاحظة هذه الخصائص في برنامج Adobe Acrobat Reader بالضغط على خيار File ثم خصائص كما هو موضح في الصورة التالية. يمكن تنزيل ملف القالب "sourceWithCustProps.xlsx".[هنا](sourceWithCustProps.xlsx) للاختبار والإخراج PDF ملف "outSourceWithCustProps" متاح[هنا](outSourceWithCustProps.pdf) للتحليل.
+مع فئة [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions)، يمكنك تصدير الخصائص المخصصة في دفتر العمل المصدر إلى PDF. وتوفر مُعدّلة [**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfcustompropertiesexport/) لتحديد الطريقة التي يتم بها تصدير الخصائص. يمكن ملاحظة هذه الخصائص في Adobe Acrobat Reader بالنقر فوق ملف ثم الخصائص كما هو موضح في الصورة التالية. يمكن تنزيل ملف القالب "sourceWithCustProps.xlsx" من [هنا](sourceWithCustProps.xlsx) للفحص وملف PDF الناتج "outSourceWithCustProps" متاح [هنا](outSourceWithCustProps.pdf) للتحليل.
 
-![ما يجب القيام به:image_alt_text](convert-excel-workbook-to-pdf_1.png)
+![todo:image_alt_text](convert-excel-workbook-to-pdf_1.png)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ExportCustomPropertiesToPdf-1.py" >}}
 
-###  **سمات التحويل**
+### **سمات التحويل**
 
-نحن نعمل على تحسين ميزات التحويل مع كل إصدار جديد. لا يزال تحويل Aspose.Cell من Excel إلى PDF به بعض القيود. MapChart غير مدعوم عند التحويل إلى تنسيق PDF. كما أن بعض الكائنات الرسومية غير معتمدة بشكل جيد.
+نحن نعمل على تعزيز ميزات التحويل مع كل إصدار جديد. لا تزال عملية تحويل Excel إلى PDF من Aspose.Cells تحتوي على بعض القيود. لا يتم دعم MapChart عند التحويل إلى تنسيق PDF. أيضًا، بعض الكائنات الرسومية لا تتمتع بدعم جيد.
 
-يسرد الجدول التالي جميع الميزات المدعومة كليًا أو جزئيًا عند التصدير إلى PDF باستخدام Aspose.Cells for Python via .NET. هذا الجدول ليس نهائيًا ولا يغطي جميع سمات جدول البيانات ولكنه يحدد تلك الميزات غير المدعومة أو المدعومة جزئيًا للتحويل إلى PDF.
+الجدول التالي يقوم بتسريد جميع الميزات التي يتم دعمها جزئيا أو بالكامل عند التصدير إلى PDF باستخدام Aspose.Cells for Python via .NET. هذا الجدول ليس نهائيًا ولا يغطي جميع سمات جداول البيانات ولكنه يحدد تلك الميزات التي غير مدعومة جزئيا أو غير معتمدة للتحويل إلى PDF.
 
-|**عنصر الوثيقة**|**يصف**|**أيد**|**ملحوظات**|
+|**عنصر المستند**|**السمة**|**مدعوم**|**ملاحظات**|
 | :- | :- | :- | :- |
-|تنسيق| |نعم| |
+|المحاذاة| |نعم| |
 |إعدادات الخلفية| |نعم| |
-|حدود|لون|نعم| |
-|حدود|أسلوب الخط|نعم| |
-|حدود|عرض الخط|نعم| |
-|Cell بيانات| |نعم| |
-|تعليقات| |نعم| |
-|تنسيق مشروط| |نعم| |
+|الحدود|لون|نعم| |
+|الحدود|نمط الخط|نعم| |
+|الحدود|سمك الخط|نعم| |
+|بيانات الخلية| |نعم| |
+|التعليقات| |نعم| |
+|تنسيق شرطي| |نعم| |
 |خصائص المستند| |نعم| |
-|كائنات الرسم| |جزئيا|لا يتم دعم تأثيرات الظل والتأثيرات ثلاثية الأبعاد للكائنات الرسومية بشكل جيد؛ يتم دعم WordArt وSmartArt جزئيًا.|
-|الخط|مقاس|نعم| |
-|الخط|لون|نعم| |
-|الخط|أسلوب|نعم| |
-|الخط|تسطير|نعم| |
-|الخط|تأثيرات|نعم||
+|كائنات الرسم| |جزئيا|لا يتم دعم الظل والتأثيرات ثلاثية الأبعاد لكائنات الرسم بشكل جيد؛ WordArt و SmartArt يتم دعمهما جزئيا.|
+|الخط|الحجم|نعم| |
+|الخط|اللون|نعم| |
+|الخط|النمط|نعم| |
+|الخط|التسطير|نعم| |
+|الخط|التأثيرات|نعم||
 |الصور| |نعم| |
-|الارتباط التشعبي| |نعم| |
-|الرسوم البيانية| |جزئيا|MapChart غير مدعوم.|
-|تم الدمج Cells| |نعم| |
-|فاصل صفحة| |نعم| |
-|اعداد الصفحة|تذييل الرأس|نعم| |
-|اعداد الصفحة|هوامش|نعم| |
-|اعداد الصفحة|اتجاه الصفحة|نعم| |
-|اعداد الصفحة|مقاس الصفحه|نعم| |
-|اعداد الصفحة|منطقة الطباعة|نعم| |
-|اعداد الصفحة|طباعة العناوين|نعم| |
-|اعداد الصفحة|التحجيم|نعم| |
+|الارتباط| |نعم| |
+|الرسوم البيانية| |جزئيا|لم يتم دعم MapChart.|
+|الخلايا المدمجة| |نعم| |
+|فاصل الصفحة| |نعم| |
+|إعداد الصفحة|الرأس/التذييل|نعم| |
+|إعداد الصفحة|الهوامش|نعم| |
+|إعداد الصفحة|اتجاه الصفحة|نعم| |
+|إعداد الصفحة|حجم الصفحة|نعم| |
+|إعداد الصفحة|منطقة الطباعة|نعم| |
+|إعداد الصفحة|عناوين الطباعة|نعم| |
+|إعداد الصفحة|تحجيم|نعم| |
 |ارتفاع الصف/عرض العمود| |نعم| |
-|لغة RTL (من اليمين إلى اليسار).| |نعم| |
+|لغة من اليمين إلى اليسار| |نعم| |
 
 {{% alert color="primary" %}}
 
- إذا كان جدول البيانات الخاص بك يحتوي على صيغ، فمن الأفضل الاتصال به[Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#)الطريقة قبل تقديم جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة، وتقديم القيم الصحيحة في PDF.
+إذا كان جدول البيانات الخاص بك يحتوي على صيغ، فإن الأفضلية لاصدار [Workbook.calculate_formula](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) الأمر مباشرةً قبل تقديم جدول البيانات إلى تنسيق PDF. سيؤدي ذلك إلى ضمان إعادة حساب قيم الصيغة التي تعتمد عليها، وتقديم القيم الصحيحة في ملف PDF.
 
 {{% /alert %}}
 
-##  **مواضيع متقدمة**
-- [إضافة PDF الإشارات المرجعية](/cells/ar/python-net/add-pdf-bookmarks/)
-- [إضافة PDF الإشارات المرجعية مع الوجهات المسماة](/cells/ar/python-net/add-pdf-bookmarks-with-named-destinations/)
-- [تجنب الصفحة الفارغة في الإخراج PDF عندما لا يكون هناك شيء للطباعة](/cells/ar/python-net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
+## **مواضيع متقدمة**
+- [إضافة علامات مرجعية لملف PDF](/cells/ar/python-net/add-pdf-bookmarks/)
+- [إضافة علامات مرجعية لملف PDF باستخدام وجهات مسماة](/cells/ar/python-net/add-pdf-bookmarks-with-named-destinations/)
+- [تجنب الصفحة الفارغة في ملف PDF الناتج عندما لا يوجد شيء للطباعة](/cells/ar/python-net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/)
 - [تحويل ملف XLSX إلى تنسيق PDF](/cells/ar/python-net/convert-xlsx-file-to-pdf-format/)
 - [تحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA-1a](/cells/ar/python-net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
-- [تحويل XLS ملف بالصور أو المخططات إلى PDF](/cells/ar/python-net/convert-xls-file-with-images-or-charts-to-pdf/)
+- [تحويل ملف XLS مع صور أو رسوم بيانية إلى تنسيق PDF](/cells/ar/python-net/convert-xls-file-with-images-or-charts-to-pdf/)
 - [إنشاء PdfBookmarkEntry لورقة الرسم البياني](/cells/ar/python-net/create-pdfbookmarkentry-for-chart-sheet/)
-- [احتواء جميع أعمدة ورقة العمل في صفحة PDF واحدة](/cells/ar/python-net/fit-all-worksheet-columns-on-single-pdf-page/)
-- [تجاهل الأخطاء أثناء تقديم Excel إلى PDF](/cells/ar/python-net/ignore-errors-while-rendering-excel-to-pdf/)
-- [الحد من عدد الصفحات التي تم إنشاؤها - تحويل Excel إلى PDF](/cells/ar/python-net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/)
-- [اطبع التعليقات أثناء الحفظ في PDF](/cells/ar/python-net/print-comments-while-saving-to-pdf/)
-- [عرض وظائف Office الإضافية أثناء تحويل Excel إلى PDF](/cells/ar/python-net/render-office-add-ins-while-converting-excel-to-pdf/)
-- [تقديم صفحة واحدة PDF لكل ورقة عمل Excel - تحويل Excel إلى PDF](/cells/ar/python-net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/)
-- [تقديم أحرف Unicode التكميلية في الإخراج PDF بواسطة Aspose.Cells](/cells/ar/python-net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/)
-- [إعادة تشكيل الصور المضافة - تحويل Excel إلى PDF](/cells/ar/python-net/resampling-added-images-excel-to-pdf-conversion/)
-- [احفظ كل ورقة عمل في ملف PDF مختلف](/cells/ar/python-net/save-each-worksheet-to-a-different-pdf-file/)
-- [احفظ Excel في PDF بالحجم القياسي أو الحد الأدنى](/cells/ar/python-net/save-excel-into-pdf-with-standard-or-minimum-size/)
-- [احفظ أوراق العمل المحددة في PDF](/cells/ar/python-net/save-specified-worksheets-to-pdf/)
-- [تأمين PDF الوثائق](/cells/ar/python-net/secure-pdf-documents/)
-- [حدد كيفية عبور السلسلة في الإخراج PDF والصورة](/cells/ar/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)
+- [تناسب جميع أعمدة ورقة العمل على صفحة PDF واحدة](/cells/ar/python-net/fit-all-worksheet-columns-on-single-pdf-page/)
+- [تجاهل الأخطاء أثناء تحويل Excel إلى PDF](/cells/ar/python-net/ignore-errors-while-rendering-excel-to-pdf/)
+- [تحديد عدد الصفحات التي يتم إنشاؤها – تحويل من Excel إلى PDF](/cells/ar/python-net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/)
+- [طباعة التعليقات عند الحفظ إلى PDF](/cells/ar/python-net/print-comments-while-saving-to-pdf/)
+- [تقديم الإضافات المكتبية أثناء تحويل Excel إلى PDF](/cells/ar/python-net/render-office-add-ins-while-converting-excel-to-pdf/)
+- [تقديم صفحة PDF واحدة لكل ورقة عمل إكسل - تحويل إكسل إلى PDF](/cells/ar/python-net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/)
+- [عرض الحروف اليونيكود الإضافية في ملف PDF الناتج باستخدام Aspose.Cells](/cells/ar/python-net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/)
+- [إعادة عينات الصور المضافة - تحويل إكسل إلى PDF](/cells/ar/python-net/resampling-added-images-excel-to-pdf-conversion/)
+- [حفظ كل ورقة عمل في ملف PDF مختلف](/cells/ar/python-net/save-each-worksheet-to-a-different-pdf-file/)
+- [حفظ إكسل في ملف PDF بحجم قياسي أو حد أدنى](/cells/ar/python-net/save-excel-into-pdf-with-standard-or-minimum-size/)
+- [حفظ ورقات العمل المحددة في ملف PDF](/cells/ar/python-net/save-specified-worksheets-to-pdf/)
+- [مستندات PDF آمنة](/cells/ar/python-net/secure-pdf-documents/)
+- [تحديد كيفية عبور السلسلة في ملف PDF والصورة](/cells/ar/python-net/specify-how-to-cross-string-in-output-pdf-and-image/)

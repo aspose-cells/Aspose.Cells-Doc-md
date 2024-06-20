@@ -1,21 +1,22 @@
 ---
-title: Spara varje kalkylblad till en annan PDF-fil
+title: Spara varje kalkylblad i en separat PDF fil
 type: docs
 weight: 50
 url: /sv/java/save-each-worksheet-to-a-different-pdf-file/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells stöder konvertering av kalkylbladsfiler (som innehåller bilder, diagram, etc.) till PDF dokument. Aspose.Cells for Java kan arbeta självständigt för att konvertera ett kalkylblad till PDF dokument och du behöver inte längre använda Aspose.PDF for Java för konverteringen. Konverteringen kräver inte att man skapar/använder någon temporär fil(er) också eftersom hela processen kan göras i minnet.
+Aspose.Cells stöder konvertering av kalkylbladsfiler (som innehåller bilder, diagram osv.) till PDF-dokument. Aspose.Cells for Java kan fungera fristående för att konvertera en kalkylblad till PDF-dokument och du behöver inte längre använda Aspose.PDF för Java för konverteringen. Konverteringen kräver inte heller att skapa/använda temporära filer eftersom hela processen kan utföras i minnet.
 
 {{% /alert %}}
 
-Om du behöver spara varje kalkylblad i din Excel-mall för att generera olika PDF-filer. Detta kan enkelt uppnås. Du kan försöka ställa in ett arkindex till**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)** alternativ åt gången att rendera till PDF.
+Om du behöver spara varje kalkylblad i din mall Excel-fil för att generera olika PDF-filer kan detta enkelt uppnås. Du kan försöka ställa in ett kalkylbladindex på [**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)-alternativet åt gången för att rendera till PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
 
 {{% alert color="primary" %}}
 
- Om kalkylarket innehåller formler är det bäst att anropa[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) -metoden precis innan kalkylarket renderas till PDF. Detta säkerställer att formelberoende värden räknas om och att de korrekta värdena återges i PDF.
+Om kalkylbladet innehåller formler är det bäst att anropa metoden [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) precis innan kalkylbladet renderas till PDF. Detta säkerställer att formelberoende värden beräknas om och de korrekta värdena renderas i PDF-filen.
 
 {{% /alert %}}

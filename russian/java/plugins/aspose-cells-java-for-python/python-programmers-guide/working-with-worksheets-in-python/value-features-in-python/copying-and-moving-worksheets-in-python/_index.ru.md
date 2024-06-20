@@ -1,16 +1,17 @@
-﻿---
-title: Копирование и перемещение рабочих листов в Python
+---
+title: Копирование и перемещение листов в Python
 type: docs
 weight: 10
 url: /ru/java/copying-and-moving-worksheets-in-python/
 ---
-## **Aspose.Cells - Копирование и перемещение рабочих листов**
-### **Копировать рабочие листы в рабочую книгу**
- Чтобы скопировать лист с помощью**Aspose.Cells for Java в рубине** , вызов**копировать_рабочий лист** метод**копировальные листы** модуль. Ниже вы можете увидеть пример кода.
 
-**Python Код**
+## **Aspose.Cells - Копирование и перемещение листов**
+### **Копировать листы в рамках рабочей книги**
+Чтобы скопировать лист с помощью **Aspose.Cells for Java в Ruby**, вызовите метод **copy_worksheet** модуля **copyworksheets**. Ниже приведен пример кода.
 
-{{< highlight "java" >}}
+**Код Python**
+
+{{< highlight java >}}
 
  def copy_worksheet(self):  
 
@@ -62,7 +63,7 @@ workbook.save(self.dataDir + "Move_Worksheet.xls")
 print "Move worksheet, please check the output file."
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Копирование и перемещение рабочих листов (Aspose.Cells)** с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Копирование и перемещение листов (Aspose.Cells)** с любого из упомянутых ниже сайтов для социальной разработки:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

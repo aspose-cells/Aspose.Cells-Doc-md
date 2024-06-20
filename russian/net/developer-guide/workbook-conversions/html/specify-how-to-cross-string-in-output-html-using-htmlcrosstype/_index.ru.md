@@ -1,26 +1,27 @@
-﻿---
-title: Укажите, как пересекать строку в выводе HTML с помощью HtmlCrossType.
+---
+title: Указать, как пересекать строку в выходном HTML с использованием HtmlCrossType
 type: docs
 weight: 140
 url: /ru/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ---
+
 ## **Возможные сценарии использования**
 
-Когда ячейка содержит текст или строку, но она больше, чем ширина ячейки, тогда строка переполняется, если следующая ячейка в следующем столбце имеет значение null или пуста. Когда вы сохраняете файл Excel в HTML, вы можете управлять этим переполнением, указав перекрестный тип с помощью[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) перечисление. Он имеет следующие значения
+Когда ячейка содержит текст или строку, но она больше ширины ячейки, то строка переполняется, если следующая ячейка в следующем столбце пуста или пуста. При сохранении файла Excel в HTML вы можете контролировать этот переполнение, указав тип пересечения с помощью перечисления [**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). Оно имеет следующие значения
 
-- **HtmlCrossType.Default**: Отображение как в MS Excel, зависит от следующей ячейки. Если следующая ячейка пуста, строка будет пересекаться или будет усечена.
+- **HtmlCrossType.Default**: Отображается как в MS Excel, зависит от следующей ячейки. Если следующая ячейка пуста, строка пересечется или будет усечена.
 
-- **HtmlCrossType.MSExport**: Отобразить строку, например экспорт MS Excel HTML.
+- **HtmlCrossType.MSExport**: Отображение строки как при экспорте HTML из MS Excel.
 
-- **HtmlCrossType.Cross**: Отображение перекрестной строки HTML, производительность при создании больших файлов HTML будет более чем в десять раз выше, чем при установке значения по умолчанию или FitToCell.
+- **HtmlCrossType.Cross**: Отображение строки пересечения HTML, производительность при создании больших HTML-файлов будет более чем в десять раз быстрее, чем при установке значения Default или FitToCell.
 
-- **HtmlCrossType.FitToCell**: Отображает только строку в пределах ширины ячейки.
+- **HtmlCrossType.FitToCell**: Отображение строки только в пределах ширины ячейки.
 
-## **Укажите, как пересекать строку в выводе HTML с помощью HtmlCrossType.**
+## **Указать, как пересекать строку в выходном HTML с использованием HtmlCrossType**
 
- Следующий пример кода загружает[образец файла Excel](51740732.xlsx) и сохраняет его в формате HTML, указав разные[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) . Пожалуйста, загрузите[вывод HTML](51740734.zip) генерируется с помощью этого кода. Образец файла Excel содержит изображение, выделенное красным цветом, как показано на этом снимке экрана, который показывает эффект[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) значения на выходе HTML.
+Следующий образец кода загружает [образец файла Excel](51740732.xlsx) и сохраняет его в формат HTML, указав разные [**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). Пожалуйста, загрузите [сгенерированные выходные HTML-файлы](51740734.zip) с этим кодом. Образец файла Excel содержит изображение со светло-красной рамкой как показано на этом скриншоте, который показывает эффект значений [**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) на выходном HTML.
 
-![дело:изображение_альтернативный_текст](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
+![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 
 ## **Образец кода**
 

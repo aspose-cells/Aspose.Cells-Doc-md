@@ -1,30 +1,31 @@
-﻿---
+---
 title: Convertir entre formatos de Excel
 type: docs
 weight: 20
 url: /es/net/convert-between-excel-formats/
 ---
-## **Convertir Excel a PDF**
 
-**PDF** Los archivos se utilizan ampliamente para el intercambio de documentos entre organizaciones, sectores gubernamentales e individuos. Es un formato de documento estándar y a menudo se les pide a los desarrolladores de software que encuentren una manera de convertir archivos de Excel Microsoft en**PDF** documentos.
+## **Convirtiendo Excel a PDF**
+
+Los archivos **PDF** se utilizan ampliamente para intercambiar documentos entre organizaciones, sectores gubernamentales e individuos. Es un formato de documento estándar y a menudo se pide a los desarrolladores de software que encuentren una forma de convertir archivos de Microsoft Excel en documentos **PDF**.
 **Aspose.Cells** admite la conversión de archivos de Excel a PDF y mantiene una alta fidelidad visual en la conversión.
 
-Aspose.Cells for .NET admite la conversión de hojas de cálculo a PDF independientemente de otro software. Guarde un archivo de Excel en PDF utilizando el método Guardar de la clase Workbook. El método Save proporciona el miembro de enumeración SaveFormat.Pdf que convierte los archivos nativos de Excel al formato PDF.
+Aspose.Cells for .NET admite la conversión de hojas de cálculo a PDF de forma independiente a otro software. Guarde un archivo de Excel a PDF utilizando el método Save de la clase Workbook. El método Save proporciona el miembro de enumeración SaveFormat.Pdf que convierte los archivos nativos de Excel al formato PDF.
 
-**Mudado** directamente desde la hoja de cálculo al PDF, en lugar de usar una herramienta de terceros o un API externo, tiene varios**ventajas**:
+**La conversión** directamente desde la hoja de cálculo a PDF, en lugar de utilizar una herramienta de terceros o una API externa, tiene varias **ventajas**:
 
-1. La conversión directa no requiere archivos temporales porque todo el proceso se puede realizar en la memoria.
-1. No se necesita ningún archivo XML, por lo que los archivos grandes se pueden convertir fácilmente.
+1. La conversión directa no requiere archivos temporales porque todo el proceso se puede realizar en memoria.
+1. No se necesita archivo XML, por lo que los archivos grandes se pueden convertir fácilmente.
 1. La velocidad de conversión es mucho más rápida.
 
 **Para convertir archivos a PDF:**
 
-1.  Instanciar un objeto de la**Libro de trabajo** clase llamando a su constructor vacío.
-1.  Puedes**abrir/cargar** un archivo de plantilla existente u omita este paso si está creando el libro de trabajo desde cero.
-1. Realice el trabajo deseado (ingresar datos, aplicar formato, establecer fórmulas, insertar imágenes u otros objetos de dibujo, etc.) en la hoja de cálculo utilizando las API Aspose.Cells'.
-1.  Cuando el código de la hoja de cálculo esté completo, llame al**Método de guardado de la clase del libro de trabajo** para guardar la hoja de cálculo. El formato de archivo debe ser PDF, así que seleccione Pdf (un valor predefinido) de la enumeración SaveFormat para generar el documento final PDF.
+1. Instantiate un objeto de la clase **Workbook** llamando a su constructor vacío.
+1. Puede **abrir/cargar** un archivo de plantilla existente o omitir este paso si está creando el libro de trabajo desde cero.
+1. Realice el trabajo deseado (ingrese datos, aplique formato, establezca fórmulas, inserte imágenes u otros objetos de dibujo, etc.) en la hoja de cálculo utilizando las API de Aspose.Cells.
+1. Cuando el código de la hoja de cálculo esté completo, llame al **método Save de la clase Workbook** para guardar la hoja de cálculo. El formato de archivo debe ser PDF, así que seleccione Pdf (un valor predefinido) de la enumeración SaveFormat para generar el documento PDF final.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 
@@ -37,7 +38,7 @@ Aspose.Cells for .NET admite la conversión de hojas de cálculo a PDF independi
 **MHTML** combina HTML normal con recursos externos (es decir, contenido que generalmente está vinculado, como imágenes, animaciones, audio, etc.) en un solo archivo. Se utilizan para correos electrónicos con la extensión de archivo .mht.
 Aspose.Cells admite la lectura y escritura de archivos MHTML.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 
@@ -51,9 +52,9 @@ Aspose.Cells admite la lectura y escritura de archivos MHTML.
 
 ## **Convertir Excel a XPS**
 
-A veces, desea convertir o guardar un libro de trabajo con varias hojas de trabajo en formato de texto. Para formatos de texto (por ejemplo, TXT, TabDelim, CSV, etc.), de forma predeterminada, tanto Microsoft Excel como Aspose.Cells guardan solo el contenido de la hoja de trabajo activa.
+A veces, es posible que desee convertir o guardar un libro de trabajo con varias hojas de cálculo en formato de texto. Para formatos de texto (por ejemplo, TXT, TabDelim, CSV, etc.), tanto Microsoft Excel como Aspose.Cells guardan por defecto el contenido de la hoja de cálculo activa únicamente.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 
@@ -61,7 +62,7 @@ A veces, desea convertir o guardar un libro de trabajo con varias hojas de traba
 
 {{< /highlight >}}
 
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Convert%20between%20Excel%20formats%20%28Aspose.Cells%29.zip)

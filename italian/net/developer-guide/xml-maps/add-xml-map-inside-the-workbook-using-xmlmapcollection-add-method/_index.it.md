@@ -1,16 +1,17 @@
-﻿---
-title: Aggiungere la mappa XML all'interno della cartella di lavoro utilizzando il metodo XmlMapCollection.Add
+---
+title: Aggiungi mappa XML all interno del foglio di lavoro utilizzando il metodo XmlMapCollection.Add
 type: docs
 weight: 10
 url: /it/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
 ---
-## **Possibili scenari di utilizzo**
 
- Aspose.Cells fornisce[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) metodo che puoi utilizzare per importare la tua mappa XML all'interno della cartella di lavoro.
+## **Possibili Scenari di Utilizzo**
 
-## **Aggiungere la mappa XML all'interno della cartella di lavoro utilizzando il metodo XmlMapCollection.Add**
+Aspose.Cells fornisce il metodo [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) che puoi utilizzare per importare la tua mappa XML all'interno del workbook.
 
- Il codice di esempio seguente aggiunge la mappa XML all'interno della cartella di lavoro utilizzando il[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) metodo e lo salva come[file excel di output](5115434.xlsx) . Lo screenshot mostra la mappa XML che è stata importata dal file[campione.xml](5115433.xml) all'interno del file excel di output.
+## **Aggiungi mappa XML all'interno del foglio di lavoro utilizzando il metodo XmlMapCollection.Add**
+
+Il seguente codice di esempio aggiunge una mappa XML all'interno del workbook utilizzando il metodo [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/xmlmapcollection/methods/add) e lo salva come [file Excel di output](5115434.xlsx). La schermata mostra la mappa XML che è stata importata dal file [sample.xml](5115433.xml) all'interno del file Excel di output.
 
 ![add-xml-map](add-xml-map.png)
 

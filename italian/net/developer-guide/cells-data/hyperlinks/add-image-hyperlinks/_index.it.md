@@ -3,16 +3,17 @@ title: Aggiungi collegamenti ipertestuali alle immagini
 type: docs
 weight: 140
 url: /it/net/add-image-hyperlinks/
-description: Scopri come aggiungere collegamenti ipertestuali immagine tramite Aspose.Cells for .NET API.
-keywords: Add Image Hyperlinks, Insert Image Hyperlinks
+description: Impara come aggiungere collegamenti ipertestuali alle immagini tramite l API Aspose.Cells for .NET.
+keywords: Aggiungi collegamenti ipertestuali alle immagini, Inserisci collegamenti ipertestuali alle immagini
 ---
+
 {{% alert color="primary" %}} 
 
-collegamenti ipertestuali sono utili per accedere a informazioni su altri fogli di lavoro o su siti Web. Microsoft Excel consente agli utenti di aggiungere collegamenti ipertestuali al testo nelle celle e alle immagini. I collegamenti ipertestuali alle immagini possono semplificare la navigazione in un foglio di lavoro, ad esempio come pulsanti Avanti e Indietro o loghi che collegano a siti particolari. Questo documento spiega come inserire collegamenti ipertestuali immagine in un foglio di lavoro utilizzando Aspose.Cells.
+I collegamenti ipertestuali sono utili per accedere a informazioni su altre schede di lavoro o su siti web. Microsoft Excel consente agli utenti di aggiungere collegamenti ipertestuali su testi nelle celle e su immagini. I collegamenti ipertestuali alle immagini possono facilitare la navigazione in una scheda di lavoro, ad esempio, come pulsanti avanti e indietro, o loghi che collegano a siti specifici. Questo documento spiega come inserire collegamenti ipertestuali alle immagini in una scheda di lavoro utilizzando Aspose.Cells.
 
 {{% /alert %}} 
 
-Aspose.Cells consente di aggiungere collegamenti ipertestuali alle immagini nei fogli di calcolo in fase di runtime. È possibile impostare e modificare il suggerimento e l'indirizzo sullo schermo del collegamento. Nell'esempio di codice seguente viene illustrato come aggiungere un collegamento ipertestuale immagine in un foglio di lavoro.
+Aspose.Cells consente di aggiungere collegamenti ipertestuali alle immagini nei fogli di calcolo in fase di esecuzione. È possibile impostare e modificare la descrizione e l'indirizzo dello schermo del collegamento. Il seguente codice di esempio illustra come aggiungere un collegamento ipertestuale a un'immagine in una scheda di lavoro.
 
 
 

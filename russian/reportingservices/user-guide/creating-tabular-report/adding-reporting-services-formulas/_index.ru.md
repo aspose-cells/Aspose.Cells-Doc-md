@@ -1,35 +1,36 @@
-﻿---
-title: Добавление формул служб Reporting Services
+---
+title: Добавление формул отчетности
 type: docs
 weight: 30
 url: /ru/reportingservices/adding-reporting-services-formulas/
 ---
-Чтобы добавить формулы служб Reporting Services в ячейку данных таблицы, выполните следующие действия:
 
--  Выделите ячейку данных таблицы и нажмите**Вставить формулу**на панели инструментов Aspose.Cells.Отчет.Конструктор (
+Чтобы добавить формулы отчетности в ячейку таблицы данных, выполните следующие шаги:
 
-![дело:изображение_альтернативный_текст](adding-reporting-services-formulas_1.png)
+- Сделайте выбранной ячейку данных таблицы и нажмите **Вставить формулу** на панели инструментов Aspose.Cells.Report.Designer (
+
+![todo:image_alt_text](adding-reporting-services-formulas_1.png)
 
 ).
 
-![дело:изображение_альтернативный_текст](adding-reporting-services-formulas_2.png)
+![todo:image_alt_text](adding-reporting-services-formulas_2.png)
 
 
 
 
--  Выберите «DataSet» на левой панели, выберите «EmpSalesDetail» на средней панели и дважды щелкните «Sum(EmpSalesDetail.OrderQty)» на правой панели. Выражение формулы появится в верхнем поле редактирования. Нажмите**ХОРОШО** кнопку, чтобы вставить выражение в ячейку.
+- Выберите “DataSet” в левой панели, выберите “EmpSalesDetail” в средней панели и дважды щелкните “Sum(EmpSalesDetail.OrderQty)” в правой панели. Выражение формулы появляется в верхнем поле редактирования. Нажмите **OK** кнопку для вставки выражения в ячейку.
 
-![дело:изображение_альтернативный_текст](adding-reporting-services-formulas_3.png)
+![todo:image_alt_text](adding-reporting-services-formulas_3.png)
 
 - Результат будет показан следующим образом.
 
 
 **Вставленное выражение** 
 
-![дело:изображение_альтернативный_текст](adding-reporting-services-formulas_4.png)
+![todo:image_alt_text](adding-reporting-services-formulas_4.png)
 
-- Повторите описанные выше шаги, чтобы добавить формулу в столбец «Продажи», как показано ниже.
+- Повторите вышеуказанные шаги, чтобы добавить формулу в столбец продаж, как показано ниже.
 
 **Формула добавлена в столбец продаж** 
 
-![дело:изображение_альтернативный_текст](adding-reporting-services-formulas_5.png)
+![todo:image_alt_text](adding-reporting-services-formulas_5.png)

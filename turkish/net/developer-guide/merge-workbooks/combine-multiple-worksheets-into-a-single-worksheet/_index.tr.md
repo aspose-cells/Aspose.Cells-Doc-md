@@ -1,16 +1,17 @@
-﻿---
-title: Birden Çok Çalışma Sayfasını Tek Bir Çalışma Sayfasında Birleştirin
+---
+title: Birden Fazla Çalışsayfayı Tek Bir Çalışsayfada Birleştirme
 type: docs
 weight: 160
 url: /tr/net/combine-multiple-worksheets-into-a-single-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen birden çok çalışma sayfasını tek bir çalışma sayfasında birleştirmeniz gerekir. Bu, Aspose.Cells API kullanılarak kolayca elde edilebilir. Bu makale, bir kaynak çalışma kitabını okuyan ve tüm kaynak çalışma sayfalarının verilerini bir hedef çalışma kitabı içinde tek bir çalışma sayfasında birleştiren bir kod örneği gösterecektir.
+Bazen birden fazla çalışsayfayı tek bir çalışsayfada birleştirmeniz gerekebilir. Bu, Aspose.Cells API'sını kullanarak kolayca gerçekleştirilebilir. Bu makale, bir kaynak çalışma kitabını okuyan ve tüm kaynak çalışsayfaların verilerini bir hedef çalışma kitabının içinde tek bir çalışsayfada birleştiren bir kod örneği gösterecektir.
 
 {{% /alert %}} 
 
-Aşağıdaki kod parçacığı, birden çok çalışma sayfasını tek bir çalışma sayfasında nasıl birleştireceğinizi gösterir.
+Aşağıdaki kod parçacığı, birden fazla çalışsayfayı tek bir çalışsayfada birleştirmenin nasıl yapılacağını göstermektedir.
 
 
 

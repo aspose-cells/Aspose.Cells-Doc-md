@@ -1,104 +1,105 @@
-﻿---
-title: ピボット テーブルとピボット チャートを作成する
+---
+title: ピボットテーブルとピボットチャートの作成
 type: docs
 weight: 10
 url: /ja/java/create-pivot-tables-and-pivot-charts/
-description: Aspose.Cells for Java API でピボット テーブルとピボット グラフを作成します。
+description: Aspose.Cells for Java API を使用してピボットテーブルおよびピボットチャートを作成する
 keywords: excel create pivot table java, excel create pivot chart java, excel create pivot table and pivot chart java, create excel pivot table java, create excel pivot chart java, create excel pivot table and pivot chart java, java create excel pivot table and pivot chart, how to create excel pivot table and pivot chart java
 ---
+
 {{% alert color="primary" %}}
 
-ピボット テーブルは、レコードのインタラクティブな要約です。たとえば、ワークシートのリストに何百もの請求書エントリがあるとします。ピボット テーブルは、顧客、製品、または日付ごとに請求書を合計できます。 Microsoft Excel では、ボタンを新しい位置にドラッグすることで、ピボット テーブル内の情報をすばやく再配置できます。
+ピボットテーブルは、レコードのインタラクティブな集計です。たとえば、ワークシートのリストには数百の請求書エントリがあります。ピボットテーブルは、顧客、製品、または日付別に請求書を合計することができます。Microsoft Excelを使用すると、ピボットテーブル内の情報をボタンをドラッグするだけで素早く再配置することが可能です。
 
-ピボット チャートは、ピボット テーブル内のデータをインタラクティブにグラフィカルに表現したものです。ピボット グラフは、Excel 2000 で導入されました。ピボット テーブルを使用すると、小計と合計が自動的に作成されるため、データをさらに理解しやすくなります。
+ピボットチャートは、ピボットテーブルのデータのインタラクティブなグラフィカルな表現です。ピボットチャートはExcel 2000で導入されました。ピボットテーブルが自動的に小計と合計を作成するため、ピボットチャートを使用することでデータを理解することがさらに容易になります。
 
- Aspose.Cells サポート[ピボットテーブル](/cells/ja/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-table)と[ピボット チャート](/cells/ja/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-chart-based-on-the-pivot-table).
+Aspose.Cellsは[ピボットテーブル](/cells/ja/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-table)および[ピボットチャート](/cells/ja/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-chart-based-on-the-pivot-table)をサポートしています。
 
 {{% /alert %}}
 
-## **ピボット テーブルとグラフの追加**
+## **ピボットテーブルとチャートの追加**
 
-Aspose.Cells は、ピボット テーブルの作成に使用されるクラスの特別なセットを提供します。これらのクラスは、PivotTable オブジェクトの基本的な構成要素として機能する PivotTable オブジェクトを作成および設定するために使用されます。
+Aspose.Cellsは、ピボットテーブルを作成するために使用される特別なクラスセットを提供しています。これらのクラスは、PivotTableオブジェクトを作成し、設定するために使用されます。これらのオブジェクトはPivotTableオブジェクトの基本的な構成要素として機能します:
 
-- ピボット テーブル レポートのフィールドである PivotField。
-- ピボット テーブル内のすべての PivotField オブジェクトのコレクションである PivotFields。
-- ピボットテーブル、ワークシート上のピボットテーブル レポート。
-- ワークシート上のすべての PivotTable オブジェクトのコレクションである PivotTables。
+- PivotField、ピボットテーブルレポート内のフィールド。
+- PivotFields、ピボットテーブル内のすべてのPivotFieldオブジェクトのコレクション。
+- PivotTable、ワークシート上のPivotTableレポート。
+- PivotTables、ワークシート上のすべてのPivotTableオブジェクトのコレクション。
 
-### **利用準備中 Aspose.Cells**
+### **Aspose.Cellsの使用準備**
 
-1. Aspose.Cells.Zip をダウンロードしてインストールします。
-   1. [ダウンロード Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
-1. 開発用コンピューターで解凍します。
-全て[Aspose](http://www.aspose.com/)コンポーネントがインストールされると、評価モードで動作します。評価モードには時間制限がなく、生成されたドキュメントに透かしを挿入するだけです。
-1. プロジェクトを作成する
- 1. Eclipse などの Java エディタを使用してプロジェクトを作成するか、メモ帳を使用して簡単なプログラムを作成することができます。
-1. クラスパスを追加:
- Eclipse を使用してクラスパスを設定するには:
-1. Aspose.Cells.zip から Aspose.Cells.jar と dom4j_1.6.1.jar を抽出します。
- 1. Eclipse でプロジェクトのクラスパスを設定します。
-1. Eclipse でプロジェクトを選択し、メニューの [Project] - [Properties] をクリックします。
- 1. ポップアップ ウィンドウの左側で [Java Build Path] を選択し、[Libraries] タブを選択し、[Add JARs] または [Add External JARs] をクリックして Aspose.Cells.jar と dom4j_1.6.1.jar を選択して追加します。ビルドパスに。
- 1. Aspose のコンポーネントの API を呼び出すアプリケーションを作成します。
-または、Windows の dos プロンプトで実行時に設定することもできます。
+1. Aspose.Cells.Zipをダウンロードしてインストールします。
+   1. [Aspose.Cells for Javaをダウンロード](https://downloads.aspose.com/cells/java)します。
+   1. 開発コンピュータにそれを解凍します。
+      すべての[Aspose](http://www.aspose.com/)コンポーネントは、インストールされると評価モードで動作します。評価モードには時間制限がなく、生成された文書にウォーターマークしか挿入されません。
+1. プロジェクトを作成します。
+   1. EclipseなどのJavaエディタを使用してプロジェクトを作成するか、またはNotePadを使用して簡単なプログラムを作成します。
+1. クラスパスを追加します。
+   Eclipseを使用してクラスパスを設定するには:
+   1. Aspose.Cells.zipからAspose.Cells.jarとdom4j_1.6.1.jarを抽出します。
+   1. Eclipseでプロジェクトのクラスパスを設定します。
+   1. Eclipseでプロジェクトを選択し、[Project-Properties]をクリックします。
+   1. ポップアップウィンドウの左側で「Javaビルドパス」を選択し、[ライブラリ]タブを選択し、「JARの追加」または「外部JARの追加」をクリックして、Aspose.Cells.jarおよびdom4j_1.6.1.jarを選択し、それらをビルドパスに追加します。
+   1. AsposeのコンポーネントのAPIを呼び出すアプリケーションを作成します。
+      または、Windowsのdosプロンプトで実行時に設定することもできます。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  javac \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName 
 
 {{< /highlight >}}
 
-### **ピボット テーブルの作成**
+### **ピボットテーブルの作成**
 
-Aspose.Cells を使用してピボット テーブルを作成するには:
+Aspose.Cellsを使用してピボットテーブルを作成するには:
 
-1. Cell オブジェクトの PutValue/setValue メソッドを使用して、ワークシートのセルにデータを追加します。また、既にデータが入力されているテンプレート ファイルも使用します。データは、ピボット テーブルのデータ ソースとして使用されます。
-1. PivotTables コレクションの add メソッド (Worksheet オブジェクトにカプセル化されている) を呼び出して、ワークシートにピボット テーブルを追加します。
-1. インデックスを渡して、PivotTables コレクションから新しい PivotTable オブジェクトにアクセスします。
-1. PivotTable オブジェクトにカプセル化されたピボット テーブル オブジェクトのいずれかを使用して、テーブルを管理します。
+1. CellオブジェクトのPutValue/setValueメソッドを使用してワークシートセルにデータを追加します。また、データがすでに入力されたテンプレートファイルを使用することもできます。これらのデータはピボットテーブルのデータソースとして使用されます。
+1. PivotTablesコレクションのaddメソッド（Worksheetオブジェクトにカプセル化されています）を呼び出すことによって、ワークシートにピボットテーブルを追加します。
+1. インデックスを渡してPivotTablesコレクションから新しいPivotTableオブジェクトにアクセスします。
+1. PivotTableオブジェクトにカプセル化されたピボットテーブルのオブジェクトのいずれかを使用してテーブルを管理します。
 
-コードサンプルを以下に示します。コードを実行すると、pivotTable_test.xls という新しいファイルが生成されます。
+下記のコードサンプルがあります。このコードを実行すると新しいファイル「pivotTable_test.xls」が生成されます。
 
 **入力データ** 
 
-![todo:画像_代替_文章](create-pivot-tables-and-pivot-charts_1.png)
+![todo:image_alt_text](create-pivot-tables-and-pivot-charts_1.png)
 
-**出力ピボット テーブル**
+**出力のピボットテーブル**
 
-![todo:画像_代替_文章](create-pivot-tables-and-pivot-charts_2.png)
+![todo:image_alt_text](create-pivot-tables-and-pivot-charts_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotTable-CreatePivotTable.java" >}}
 
-### **ピボット テーブルに基づいてピボット グラフを作成する**
+### **ピボットテーブルを基にしたピボットチャートの作成**
 
-Aspose.Cells を使用してピボット チャートを作成するには:
+Aspose.Cellsを使用してピボットチャートを作成するには:
 
-1. グラフを追加します。
-1. チャートの PivotSource を設定して、スプレッドシート内の既存のピボット テーブルを参照します。
-1. その他の属性を設定します。
+1. チャートを追加します。
+1. グラフのPivotSourceを、スプレッドシート内の既存のピボットテーブルを指すように設定します。
+1. 他の属性を設定します。
 
-以下は、タスクを実行するためにコンポーネントによって使用されるコードです。コードを実行すると、pivotChart_test.xls という新しいファイルが生成されます。
+以下は、コンポーネントがこのタスクを実行するために使用するコードです。このコードを実行すると、新しいファイル「pivotChart_test.xls」が生成されます。
 
-**ピボット チャート シート**
+ピボットチャートシート
 
-![todo:画像_代替_文章](create-pivot-tables-and-pivot-charts_3.png)
+![todo:image_alt_text](create-pivot-tables-and-pivot-charts_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotChartbasedonPivotTable-CreatePivotChartbasedonPivotTable.java" >}}
 
 {{% alert color="primary" %}}
 
-この記事では、Aspose.Cells を使用してピボット テーブルとピボット グラフを作成する方法を示します。これらの機能を独自のシナリオで使用するのに役立つことを願っています。
+この記事では、Aspose.Cellsを使用してピボットテーブルとピボットチャートを作成する方法を示しています。これにより、これらの機能を独自のシナリオで使用する際に役立つはずです。
 
-Aspose.Cells は、何年にもわたる研究、設計、慎重な調整の恩恵を受けてきました。
+Aspose.Cellsは、長年の研究、設計、そして注意深い調整の成果です。
 
-ご質問、ご意見、ご提案は、[Aspose.Cells フォーラム](https://forum.aspose.com/c/cells/9).迅速な返信を保証します。
+[Aspose.Cellsフォーラム](https://forum.aspose.com/c/cells/9)でのお問い合わせ、コメント、提案を歓迎します。迅速な回答を保証します。
 
 {{% /alert %}}
 
 ## 関連記事
 
-- [ピボット テーブルでのカスタム並べ替え](/cells/ja/java/custom-sorting-in-pivot-table/)
-- [ピボット テーブルの書式設定](/cells/ja/java/formatting-pivot-table/)
-- [計算項目を含むピボット テーブルの更新と計算](/cells/ja/java/refresh-and-calculate-pivot-table-having-calculated-items/)
-- [ピボット テーブル リボンを無効にする](/cells/ja/java/disable-pivot-table-ribbons/)
+- [ピボットテーブルのカスタムソート](/cells/ja/java/custom-sorting-in-pivot-table/)
+- [ピボットテーブルの書式設定](/cells/ja/java/formatting-pivot-table/)
+- [計算項目を持つピボットテーブルを更新および計算する](/cells/ja/java/refresh-and-calculate-pivot-table-having-calculated-items/)
+- [ピボットテーブルリボンの無効化](/cells/ja/java/disable-pivot-table-ribbons/)
 

@@ -1,34 +1,35 @@
-﻿---
-title: Informe de vista previa
+---
+title: Previsualización del informe
 type: docs
 weight: 130
 url: /es/reportingservices/previewing-report/
 ---
+
 {{% alert color="primary" %}} 
 
-La vista previa de un informe le ayuda a estar seguro de que es el informe que desea.
+La previsualización de un informe te ayuda a asegurarte de que es el informe que deseas.
 
 {{% /alert %}} 
 
-Para obtener una vista previa de un informe:
+Para previsualizar un informe:
 
-1.  Hacer clic**Vista** 
+1. Haz clic en **Ver** 
 
-![todo:imagen_alternativa_texto](previewing-report_1.png)
+![todo:image_alt_text](previewing-report_1.png)
 
-en la barra de herramientas Aspose.Cells.Report.Designer.
+en la barra de herramientas de Aspose.Cells.Report.Designer.
 
-1.  Introduzca la URL del servidor de informes y haga clic en el**Actualizar** botón.
+1. Ingresa la URL del servidor de informes y haz clic en el botón **Actualizar**.
 
-![todo:imagen_alternativa_texto](previewing-report_2.png)
-
-
+![todo:image_alt_text](previewing-report_2.png)
 
 
-1.  Seleccione un informe y haga clic en el**Avance** botón.
 
-![todo:imagen_alternativa_texto](previewing-report_3.png)
 
-1.  En el cuadro de diálogo, ingrese los parámetros del informe y seleccione el formato de archivo de exportación. Haga clic en el**DE ACUERDO** botón para exportar el informe.
+1. Selecciona un informe y haz clic en el botón **Vista previa**. 
 
-![todo:imagen_alternativa_texto](previewing-report_4.png)
+![todo:image_alt_text](previewing-report_3.png)
+
+1. En el cuadro de diálogo, ingresa los parámetros del informe y selecciona el formato de archivo de exportación. Haz clic en el botón **Aceptar** para exportar el informe.
+
+![todo:image_alt_text](previewing-report_4.png)

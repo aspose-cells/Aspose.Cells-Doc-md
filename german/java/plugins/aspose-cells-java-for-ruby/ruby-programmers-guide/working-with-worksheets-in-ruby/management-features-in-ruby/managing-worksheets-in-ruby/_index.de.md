@@ -1,16 +1,17 @@
-﻿---
-title: Arbeitsblätter in Ruby verwalten
+---
+title: Arbeitsblätter verwalten in Ruby
 type: docs
 weight: 10
 url: /de/java/managing-worksheets-in-ruby/
 ---
-## **Aspose.Cells – Verwalten von Arbeitsblättern**
-### **Hinzufügen von Arbeitsblättern zu einer neuen Excel-Datei**
- Um ein Arbeitsblatt zu einer neuen Excel-Datei hinzuzufügen, verwenden Sie**Aspose.Cells Java für Rubin** , einfach anrufen**add_worksheet** Methode von**Arbeitsblätter verwalten** Modul.
+
+## **Aspose.Cells - Arbeitsblätter verwalten**
+### **Arbeitsblätter zu einer neuen Excel-Datei hinzufügen**
+Um ein Arbeitsblatt zu einer neuen Excel-Datei mit Aspose.Cells Java für Ruby hinzuzufügen, rufen Sie einfach die Methode add_worksheet des Moduls MangingWorksheets auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet()
 
@@ -39,12 +40,12 @@ url: /de/java/managing-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Hinzufügen von Arbeitsblättern zu einer Designer-Tabelle**
-Der Vorgang des Hinzufügens von Arbeitsblättern zu einer Designer-Tabellenkalkulation ist völlig identisch mit dem oben beschriebenen Ansatz, außer dass die Excel-Datei bereits erstellt wurde und wir diese Excel-Datei zuerst öffnen müssen, bevor wir ihr ein Arbeitsblatt hinzufügen.
+### **Arbeitsblätter zu einem Designer-Arbeitsblatt hinzufügen**
+Der Prozess zum Hinzufügen von Arbeitsblättern zu einem Designer-Arbeitsblatt ist vollständig identisch mit dem obigen Ansatz, mit der Ausnahme, dass die Excel-Datei bereits erstellt wurde und wir zuerst diese Excel-Datei öffnen müssen, bevor das Arbeitsblatt hinzugefügt wird.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet_to_designer_spreadsheet()
 
@@ -75,12 +76,12 @@ Der Vorgang des Hinzufügens von Arbeitsblättern zu einer Designer-Tabellenkalk
 end  
 
 {{< /highlight >}}
-### **Zugriff auf Arbeitsblätter mit Blattname**
- Um auf das Arbeitsblatt nach Blattname zuzugreifen, verwenden Sie**Aspose.Cells Java für Rubin** , einfach anrufen**get_worksheet** Methode von**Arbeitsblätter verwalten** Modul.
+### **Zugriff auf Arbeitsblätter mithilfe des Blattnamens**
+Um auf ein Arbeitsblatt nach dem Blattnamen mit Aspose.Cells Java für Ruby zuzugreifen, rufen Sie einfach die Methode get_worksheet des Moduls MangingWorksheets auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_worksheet()
 
@@ -101,12 +102,12 @@ end  
 end
 
 {{< /highlight >}}
-### **Entfernen von Arbeitsblättern unter Verwendung des Blattnamens**
- So entfernen Sie Arbeitsblätter nach Blattnamen mit**Aspose.Cells Java für Rubin** , einfach anrufen**remove_worksheet_by_name** Methode von**Arbeitsblätter verwalten** Modul.
+### **Arbeitsblätter anhand des Blattnamens entfernen**
+Um ein Arbeitsblatt nach dem Blattnamen mit Aspose.Cells Java für Ruby zu entfernen, rufen Sie einfach die Methode remove_worksheet_by_name des Moduls MangingWorksheets auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_name()
 
@@ -138,12 +139,12 @@ end
 
 
 {{< /highlight >}}
-### **Arbeitsblätter mit Blattindex entfernen**
- Um Arbeitsblatt für Blattindex zu entfernen, verwenden Sie**Aspose.Cells Java für Rubin** , einfach anrufen**remove_worksheet_by_index** Methode von**Arbeitsblätter verwalten** Modul.
+### **Arbeitsblätter anhand des Blattindex entfernen**
+Um ein Arbeitsblatt nach dem Blattindex mit Aspose.Cells Java für Ruby zu entfernen, rufen Sie einfach die Methode remove_worksheet_by_index des Moduls MangingWorksheets auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_index()
 
@@ -174,7 +175,7 @@ end
 end 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Arbeitsblätter verwalten (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Download **Arbeitsblätter verwalten (Aspose.Cells)** von einer der unten genannten sozialen Coding-Seiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

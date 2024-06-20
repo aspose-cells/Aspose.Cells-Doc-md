@@ -1,27 +1,28 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.2.2
+---
+title: Изменения в общедоступном API в Aspose.Cells 8.2.2
 type: docs
 weight: 100
 url: /ru/java/public-api-changes-in-aspose-cells-8-2-2/
 ---
+
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.2.1 до 8.2.2, которые могут представлять интерес для разработчиков модулей/приложений.
+Этот документ описывает изменения в общедоступном API Aspose.Cells от версии 8.2.1 до 8.2.2, которые могут быть интересны разработчикам модулей/приложений.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Добавлена версия свойства для класса BuiltInDocumentPropertyCollection**
-Новое свойство Version было добавлено в класс BuiltInDocumentPropertyCollection, чтобы позволить разработчикам получать или устанавливать версию приложения для данной электронной таблицы.
+## **Добавленные API**
+### **Добавлено свойство Version для класса BuiltInDocumentPropertyCollection**
+В класс BuiltInDocumentPropertyCollection было добавлено новое свойство Version, которое позволяет разработчикам получать или устанавливать версию приложения для указанной электронной таблицы.
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей о[Получить версию приложения, создавшего электронную таблицу](/cells/ru/java/get-the-version-number-of-the-application-that-created-the-excel-document/).
+Пожалуйста, проверьте подробную статью о [Получении версии приложения, создавшего электронную таблицу](/cells/ru/java/get-the-version-number-of-the-application-that-created-the-excel-document/).
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -31,18 +32,18 @@ System.out.println(properties.getVersion());
 
 {{< /highlight >}}
 
-### **Добавлен график свойств. Рабочий лист**
-До выпуска Aspose.Cells 8.2.2 было невозможно получить экземпляр рабочего листа из содержащегося в нем объекта диаграммы. Aspose.Cells 8.2.2 заполнил этот пробел, предоставив свойство Chart.Worksheet.
+### **Добавлено свойство Chart.Worksheet**
+До выпуска Aspose.Cells 8.2.2 не было возможности получить экземпляр Worksheet из объекта Chart, который он содержит. Aspose.Cells 8.2.2 заполнил этот пробел, предоставив свойство Chart.Worksheet.
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей[Получить рабочий лист диаграммы](/cells/ru/java/get-worksheet-of-the-chart/) для дополнительной информации.
+Пожалуйста, проверьте подробную статью о [Получении листа диаграммы](/cells/ru/java/get-worksheet-of-the-chart/) для получения дополнительной информации.
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook("sample.xlsx");
 

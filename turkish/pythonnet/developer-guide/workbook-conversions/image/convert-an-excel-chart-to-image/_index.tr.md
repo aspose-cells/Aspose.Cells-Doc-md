@@ -1,78 +1,79 @@
 ---
-title: Excel Grafiğinin Görüntüye Dönüştürülmesi
+title: Bir Excel Grafikini Görüntüye Dönüştür
 type: docs
 weight: 20
 url: /tr/python-net/convert-an-excel-chart-to-image/
-description: Aspose.Cells for Python via .NET API'i kullanarak bir Excel Grafiği Görüntüye dönüştürün.
-keywords: Python Convert an Excel Chart to Image, Export an Excel Chart to Image in Python via NET, Python Save an Excel Chart to Image.
+description: Aspose.Cells for Python via .NET API sını kullanarak bir Excel Grafik İçeri Aktar.
+keywords: Python da Bir Excel Grafik İçeri Aktar, Python da Bir Excel Grafik İhracatı via NET, Python da Bir Excel Grafik İhracatı.
 ---
+
 {{% alert color="primary" %}}
 
-Grafikler görsel olarak çekicidir ve kullanıcıların verilerdeki karşılaştırmaları, kalıpları ve eğilimleri görmesini kolaylaştırır. Örneğin, çalışma sayfası numaralarının sütunlarını analiz etmek yerine, bir grafik bir bakışta satışların düşüp düşmediğini veya gerçek satışların öngörülen satışlarla karşılaştırıldığında nasıl olduğunu gösterir. İnsanlardan sıklıkla istatistiksel ve grafiksel bilgileri anlaşılması kolay ve bakımı kolay bir şekilde sunmaları istenir. Bir resim yardımcı olur.
+Grafikler görsel olarak çekicidir ve kullanıcıların verilerdeki karşılaştırmaları, desenleri ve trendleri görmesini kolaylaştırır. Örneğin, çalışsayfa numaralarını analiz etmek yerine, bir grafik, satışların düşüp düşmediğini veya yükseldiğini veya gerçek satışların projeksiyonlanmış satışlarla nasıl karşılaştırıldığını hemen gösterir. İnsanlar genellikle istatistiksel ve grafiksel bilgileri anlaşılması ve bakımı kolay bir şekilde sunmaları istenir. Bir resim yardımcı olur.
 
-Bazen bir uygulamada veya web sayfalarında grafiklere ihtiyaç duyulur. Veya bir Word belgesi, PDF dosyası, PowerPoint sunumu veya başka bir uygulama için gerekli olabilir. Her durumda, grafiği başka bir yerde kullanabilmeniz için resim olarak oluşturmak istersiniz.
+Bazen, grafikler bir uygulamada veya web sayfalarında gereklidir. Veya bir Word belgesi, PDF dosyası, bir PowerPoint sunumu veya başka bir uygulama için gereklilik olabilir. Her durumda, grafiği başka bir yerde kullanabilmek için görüntü olarak render etmek istersiniz.
 
 {{% /alert %}}
 
-##  **Grafikleri Görsellere Dönüştürme**
+## **Grafikleri Görüntüye Dönüştürme**
 
-Buradaki örneklerde, bir pasta grafiği ve bir sütun karakteri görsellere dönüştürülmüştür.
+Bu örneklerde, bir dilim grafiği ve bir sütun grafiği görüntüye dönüştürülür.
 
-###  **Pasta Grafiğini Görüntü Dosyasına Dönüştürme**
+### **Bir Dilim Grafiğini Bir Görüntü Dosyasına Dönüştürme**
 
-Öncelikle Microsoft Excel'de bir pasta grafiği oluşturun ve ardından bunu Aspose.Cells for Python via .NET ile bir resim dosyasına dönüştürün. Bu örnekteki kod, Microsoft Excel dosyası şablonundaki pasta grafiğini temel alarak bir EMF resmi oluşturur.
+İlk olarak, Microsoft Excel'de bir pasta grafiği oluşturun ve daha sonra Aspose.Cells for Python via .NET ile onu bir görüntü dosyasına dönüştürün. Bu örnekteki kod, şablon Microsoft Excel dosyasındaki pasta grafiğine dayalı bir EMF görüntüsü oluşturur.
 
-|**Çıktı: pasta grafik resmi**|
+|**Çıktı: pasta dilimi grafiği resmi**|
 | :- |
-|![yapılacak şey:image_alt_text](convert-an-excel-chart-to-image_1.png)|
+|![todo:image_alt_text](convert-an-excel-chart-to-image_1.png)|
 
-1. Microsoft Excel'de bir pasta grafiği oluşturun:
- 1. Microsoft Excel'de yeni bir çalışma kitabı açıldı.
- 1. Bazı verileri bir çalışma sayfasına girin.
- 1. Verilere dayalı olarak pasta grafiği oluşturuldu.
- 1. Dosyayı kaydedin.
+1. Microsoft Excel'de bir pasta dilimi grafiği oluşturun:
+   1. Microsoft Excel'de yeni bir çalışma kitabı açıldı.
+   1. Bir çalışsayfaya bazı veriler girin.
+   1. Verilere dayalı bir pasta dilimi grafiği oluşturuldu.
+   1. Dosyayı kaydedin.
 
 |**Giriş dosyası.**|
 | :- |
-|![yapılacak şey:image_alt_text](convert-an-excel-chart-to-image_2.png)|
+|![todo:image_alt_text](convert-an-excel-chart-to-image_2.png)|
 
-Python paketlerimizi PyPi depolarında barındırıyoruz.
+Python paketlerimizi PyPi depolarında barındırıyoruz. 
 
-Aspose.Cells for Python'i pypi'den yükleyin, komutu şu şekilde kullanın: $ pip install aspose-cells-python.
+Aspose.Cells for Python'ı pypi'dan kurun, komutu şu şekilde kullanın: $ pip install aspose-cells-python.
 
-Ayrıca geliştirici ortamınıza “Aspose.Cells for Python via .NET” kurulumunun nasıl yapılacağına dair adım adım talimatları takip edebilirsiniz.
-1. Aspose.Cells for Python via .NET'i indirin ve yükleyin:
- 1. Aspose.Cells for Python via .NET'i şuradan yükleyin:[pypi](https://pypi.org/project/aspose-cells-python/)komutu şu şekilde kullanın: $ pip install aspose-cells-python.
- 1. Ayrıca aşağıdakileri de takip edebilirsiniz:[adım adım talimatlar](https://docs.aspose.com/cells/python-net/getting-started/)geliştirici ortamınıza "Aspose.Cells for Python via .NET" nasıl kurulacağı hakkında.
+Ve ayrıca"Aspose.Cells for Python via .NET" nasıl kurulacağına dair adım adım talimatları takip edebilirsiniz.
+1. Aspose.Cells for Python via .NET'yi indirin ve kurun:
+   1. [pypi](https://pypi.org/project/aspose-cells-python/) üzerinden Aspose.Cells for Python via .NET'yi yükleyin, komutu şu şekilde kullanabilirsiniz: $ pip install aspose-cells-python.
+   1. Ve geliştirme ortamınıza"Aspose.Cells for Python via .NET" nasıl kurulacağına dair [adım adım talimatları](https://docs.aspose.com/cells/python-net/getting-started/) takip edebilirsiniz.
 
- Tüm[Aspose](http://www.aspose.com/) bileşenler ilk kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun zaman sınırı yoktur ve yalnızca çıktı belgelerine filigranlar enjekte eder.
+Tüm [Aspose](http://www.aspose.com/) bileşenleri, kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun bir süresi yoktur ve yalnızca çıktı belgelerine filigran yerleştirir.
 
 1. Bir proje oluşturun:
- 1. Visual Studio'yu başlatın.
- 1. Python projenize bir kütüphane referansı ekleyin (kütüphaneyi içe aktarın).
- 1. Grafiği bulan ve dönüştüren kodu yazın. Aşağıda, bileşenin görevi gerçekleştirmek için kullandığı kod bulunmaktadır. Çok az kod satırı kullanılıyor.
+   1. Visual Studio'yu başlatın.
+   1. Python projenize bir kütüphane referansı ekleyin (kütüphaneyi içe aktarın).
+   1. Grafikleri bulan ve dönüştüren kodu yazın. Aşağıdaki kod, görevi gerçekleştirmek için bileşen tarafından kullanılan kod örneğidir. Çok az kod satırı kullanılmıştır.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ConvertingPieChartToImageFile-1.py" >}}
 
-###  **Sütun Grafiğini Görüntü Dosyasına Dönüştürme**
+### **Bir Sütun Grafiğini Bir Görüntü Dosyasına Dönüştürme**
 
-Öncelikle Microsoft Excel'de bir sütun grafiği oluşturun ve bunu yukarıdaki gibi bir görüntü dosyasına dönüştürün. Örnek kod çalıştırıldıktan sonra şablon Excel dosyasındaki sütun grafiğine göre JPEG dosyası oluşturulur.
+Öncelikle Microsoft Excel'de bir sütun grafiği oluşturun ve yukarıdaki gibi bir görüntü dosyasına dönüştürün. Örnek kodu çalıştırdıktan sonra, şablon Excel dosyasındaki sütun grafiğine dayalı bir JPEG dosyası oluşturulur.
 
 |**Çıktı dosyası: bir sütun grafiği görüntüsü.**|
 | :- |
-|![yapılacak şey:image_alt_text](convert-an-excel-chart-to-image_3.png)|
+|![todo:image_alt_text](convert-an-excel-chart-to-image_3.png)|
 
 1. Microsoft Excel'de bir sütun grafiği oluşturun:
- 1. Microsoft Excel'de yeni bir çalışma kitabı açın.
- 1. Bazı verileri bir çalışma sayfasına girin.
- 1. Verilere dayalı bir sütun grafiği oluşturun.
- 1. Dosyayı kaydedin.
+   1. Microsoft Excel'de yeni bir çalışma kitabı açın.
+   1. Bir çalışsayfaya bazı veriler girin.
+   1. Verilere dayalı bir sütun grafiği oluşturun.
+   1. Dosyayı kaydedin.
 
 |**Giriş dosyası.**|
 | :- |
-|![yapılacak şey:image_alt_text](convert-an-excel-chart-to-image_4.png)|
+|![todo:image_alt_text](convert-an-excel-chart-to-image_4.png)|
 
-1. Yukarıda açıklandığı gibi referanslarla birlikte bir proje oluşturun.
-1. Grafiği dinamik olarak bir resme dönüştürün. Görevi gerçekleştirmek için bileşen tarafından kullanılan kod aşağıdadır. Kod öncekine benzer:
+1. Yukarıda açıklandığı gibi referanslarla bir projeyi kurun.
+1. Grafik dinamik olarak bir görüntü olarak dönüştürün. Bileşen tarafından görevi gerçekleştirmek için kullanılan kod aşağıda verilmiştir. Kod öncekiyle benzerdir:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ConvertingColumnChartToImage-1.py" >}}

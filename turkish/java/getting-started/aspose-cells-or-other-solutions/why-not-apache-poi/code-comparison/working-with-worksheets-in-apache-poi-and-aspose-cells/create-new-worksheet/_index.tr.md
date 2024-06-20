@@ -1,15 +1,16 @@
-﻿---
+---
 title: Yeni Çalışma Sayfası Oluştur
 type: docs
 weight: 10
 url: /tr/java/create-new-worksheet/
 ---
+
 ## **Aspose.Cells - Yeni Çalışma Sayfası Oluştur**
-Çalışma Kitabına Çalışma Sayfası Ekleme
+Bir Çalışma Kitabına Sayfa Ekleme
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -27,11 +28,11 @@ workbook.save("newWorksheet.xls");
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - Yeni Çalışma Sayfası Oluştur**
-Çalışma Kitabına Çalışma Sayfası Ekleme
+Bir Çalışma Kitabına Sayfa Ekleme
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook(); // or new XSSFWorkbook();
 
@@ -79,5 +80,5 @@ fileOut.close();
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/createnewworksheet)

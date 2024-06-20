@@ -1,6 +1,8 @@
-﻿---
+---
 title: العمل مع صفوف وأعمدة GridWeb
 type: docs
 weight: 50
-url: /ar/net/working-with-gridweb-rows-and-columns/
+url: /ar/net/aspose-cells-gridweb/work-with-gridweb-rows-and-columns/
 ---
+
+

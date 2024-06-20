@@ -1,39 +1,40 @@
-﻿---
-title: Aspose.Cells.GridJs Mobilde çalışıyor
+---
+title: Aspose.Cells.GridJs Mobilde Çalışıyor
 type: docs
 weight: 250
 url: /tr/net/aspose-cells-gridjs/mobile/
-description: Bu makale, GridJ'lerin mobil cihazda nasıl kullanılacağını açıklamaktadır.
-keywords: mobile spreadsheet editor, mobile spreadsheet viewer
+description: Bu makale, GridJs in mobil cihazda nasıl kullanılacağını açıklar.
+keywords: GridJs, mobil elektronik tablo düzenleyici, mobil elektronik tablo görüntüleyici, excel, görüntüle, düzenle, mobil
 ---
-## GridJ'leri mobil cihazda kullanın
 
- GridJ'leri mobil cihazınızda sorunsuz bir şekilde kullanabilirsiniz.
+## Mobil cihazda GridJs kullan
 
-GridJ'ler mobil ekranı uyarlayabilir.
+GridJs'yi mobil cihazda sorunsuz kullanabilirsiniz. 
 
- çalıştır[ GridJs demosu](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "demo of GridJs ")
+GridJs mobil ekrana adapte olabilir.
 
-Demo projesinin varsayılan bağlantı noktası 24262'dir.
+[GridJs demosunu çalıştır](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "GridJs demosu")
 
- Sayfaya http://localhost:24262/GridJs2/List mobil terminalinde IP yolu ile erişmeniz gerekiyor.
+Demo projesinin varsayılan bağlantı noktası 24262'dir. 
 
-Şunun gibi küçük bir araç kullanabilirsiniz: iisexpress proxy.
+Mobil terminalde sayfaya IP yoluyla erişmeniz gerekiyor: http://localhost:24262/GridJs2/List . 
 
-Aşağıdaki komutla kurun:
+iisexpress proxy gibi küçük bir araç kullanabilirsiniz.
 
-*npm kurulum -g iisexpress-proxy*
+Aşağıdaki komutla yükleyin:
 
-Bağlantı noktası eşlemesini tamamlamak için komutu çalıştırın:
+*npm install -g iisexpress-proxy*
 
-*iisexpress-proxy 24262 - 82*
+Port eşlemeyi tamamlamak için komutu çalıştırın:
 
-![yapılacaklar:iisexpress komutu](iisproxy_port_map.png)
+*iisexpress-proxy 24262'yi 82'ye yönlendir*
+
+![todo:iisexpress komutu](iisproxy_port_map.png)
 
 Ardından demo web sayfasını mobil tarayıcıda açabiliriz.
 
-http://yourip:82/GridJs2/List sayfasında gezinin ve açılacak dosyayı seçin.
+Sayfada http://yourip:82/GridJs2/List adresine gidin ve bir dosya seçin.
 
-![yapılacaklar:mobil cihazda ekran gezintisi](gridjs_edit_on_mobile.png)
+![todo:mobile ekran gezintisi](gridjs_edit_on_mobile.png)
 
-Ardından PC cihazındaki gibi edit işlemlerini yapabiliriz.
+O zaman PC cihazında olduğu gibi düzenleme işlemleri yapabiliriz.

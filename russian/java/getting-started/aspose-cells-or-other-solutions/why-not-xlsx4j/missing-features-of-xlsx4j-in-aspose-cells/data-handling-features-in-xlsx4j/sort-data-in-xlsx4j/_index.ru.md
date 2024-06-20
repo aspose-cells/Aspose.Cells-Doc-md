@@ -1,16 +1,17 @@
-﻿---
+---
 title: Сортировка данных в xlsx4j
 type: docs
 weight: 60
 url: /ru/java/sort-data-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Сортировка данных**
-Чтобы отсортировать данные в электронной таблице с помощью Aspose.Cells, просто вызовите метод DataSorter.sorter() после установки нескольких простых в настройке свойств области ячеек.
-Код Java указан ниже:
+Для сортировки данных в электронной таблице с использованием Aspose.Cells просто вызовите метод DataSorter.sorter() после установки нескольких легко устанавливаемых свойств области ячеек.
+Приведен пример Java-кода ниже:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -73,13 +74,13 @@ sorter.sort(cells, ca);
 workbook.save(dataDir + "AsposeSortedData_Out.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/sortdata/AsposeDataSort.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/sortdata/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Сортировка данных](/java/sort-data) или же[Сортировка данных](/cells/ru/java/data-sorting).
+Дополнительные сведения см. на [Сортировка данных](/java/sort-data) или [Сортировка данных](/cells/ru/java/data-sorting).
 
 {{% /alert %}}

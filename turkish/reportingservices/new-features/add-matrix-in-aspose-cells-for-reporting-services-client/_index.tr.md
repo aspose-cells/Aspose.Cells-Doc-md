@@ -1,17 +1,18 @@
-﻿---
-title: Aspose.Cells for Reporting Services İstemcide Matrix Ekle
+---
+title: Aspose.Cells for Reporting Services İstemcisine Matris Ekleme
 type: docs
 weight: 80
 url: /tr/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/
 ---
+
 {{% alert color="primary" %}} 
 
- Bir raporda bir matris rapor öğesi oluşturmak için destek ekledik. Matris bağlamı, köşe, sütun gruplamaları, satır gruplamaları ve matris satırlarını içerir. Ad, aralık vb. içeren matris raporu özniteliklerini ayarlayın.**Özniteliği Ayarla** Excel'deki Aspose.Cells' komut çubuğundaki düğme.
+Rapor oluşturmaya matris rapor öğesi oluşturmayı destekledik. Matris bağlamı köşe, sütun gruplamaları, satır gruplamaları ve matris satırlarını içerir. Excel'deki Aspose.Cells komut çubuğundan **Öznitelik Ayarlama** düğmesi ile ad, aralık ve benzeri içeren matris rapor özniteliklerini ayarlayın.
 
-Örneğin, aşağıdaki ekran görüntüsünde matris aralığı E9:G11'dir.
+Örneğin, aşağıdaki ekran görüntüsünde, matris aralığı E9:G11'dir.
 
 **Bir matris rapor öğesi** 
 
-![yapılacaklar:resim_alternatif_metin](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
+![todo:image_alt_text](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
 
 {{% /alert %}}

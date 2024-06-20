@@ -1,15 +1,16 @@
-﻿---
-title: Opzione Mostra pagine filtro report
+---
+title: Mostra l opzione delle pagine filtro del report
 type: docs
 weight: 110
 url: /it/net/show-report-filter-pages-option/
 ---
-## **Opzione Mostra pagine filtro report**
-Excel supporta la creazione di tabelle pivot, l'aggiunta di filtri di report e abilita l'opzione "Mostra pagine filtro report". Aspose.Cells supporta anche questa funzione per abilitare l'opzione "Mostra pagine filtro report" sulla tabella pivot creata. Di seguito è riportata la schermata che mostra l'opzione "Mostra pagine filtro report" in Excel.
 
-![cose da fare:immagine_alt_testo](show-report-filter-pages-option_1.png)
+## **Mostra l'opzione pagine filtro report**
+Excel supporta la creazione di tabelle pivot, l'aggiunta di filtri dei report e l'attivazione dell'opzione "Mostra pagine dei filtri di report". Anche Aspose.Cells supporta questa funzione per attivare l'opzione "Mostra pagine dei filtri di report" sulla tabella pivot creata. Di seguito è riportata la schermata che mostra l'opzione "Mostra pagine dei filtri di report" in Excel.
 
-Il file sorgente di esempio e i file di output possono essere scaricati da qui per testare il codice di esempio:
+![todo:image_alt_text](show-report-filter-pages-option_1.png)
+
+Il file di origine e i file di output di esempio possono essere scaricati da qui per testare il codice di esempio:
 
 ` `[File Excel di origine](81920786.xlsx) 
 

@@ -1,22 +1,23 @@
-﻿---
-title: Füllen einer .jasper-Datei mit bearbeitbarer Diagrammunterstützung
+---
+title: Ausfüllen einer .jasper Datei mit unterstützter bearbeitbarer Grafik
 type: docs
 weight: 10
 url: /de/jasperreports/filling-a-jasper-file-with-editable-chart-support/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells for JasperReports erfordert, dass eine .jasper-Datei in ein .jrprint- oder ein JasperPrint-Objekt gefüllt wird, bevor sie in eine XLS-Datei exportiert werden kann. Für die .jrxml-Datei ist keinerlei Änderung erforderlich. Die Füllprozedur speichert interne Darstellungen von Diagrammen im JasperPrint-Objekt, das dann verwendet wird, um bearbeitbare Diagramme zu erzeugen.
+Aspose.Cells for JasperReports erfordert, dass eine .jasper-Datei zu einer .jrprint- oder einem JasperPrint-Objekt ausgefüllt wird, bevor sie in eine XLS-Datei exportiert werden kann. Es ist keine Modifikation an der .jrxml-Datei erforderlich. Der Ausfüllvorgang speichert interne Repräsentationen von Diagrammen im JasperPrint-Objekt, das dann zur Generierung von bearbeitbaren Diagrammen verwendet wird. 
 
 {{% /alert %}} 
 
-Bitte lesen Sie die Dokumentation von JasperReports für eine detaillierte Beschreibung, wie ein Bericht ausgefüllt wird.
+Bitte lesen Sie die Dokumentation von JasperReports für eine ausführliche Beschreibung, wie ein Bericht ausgefüllt wird.
 
 Hier ist ein Beispiel:
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  JasperPrint jasperPrint = JasperFillManager.fillReport(jasperFileName, parameters, getConnection());
 

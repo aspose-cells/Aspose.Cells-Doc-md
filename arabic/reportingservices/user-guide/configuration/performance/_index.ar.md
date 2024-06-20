@@ -1,12 +1,13 @@
-﻿---
-title: أداء
+---
+title: الأداء
 type: docs
 weight: 30
 url: /ar/reportingservices/performance/
 ---
- لتحسين الأداء ، قم بتعيين معلمة الأداء إلى**تشغيل**.
 
-{{< highlight "java" >}}
+لتحسين الأداء، قم بتعيين معلمة الأداء إلى **ON**.
+
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -26,11 +27,11 @@ url: /ar/reportingservices/performance/
 
 {{< /highlight >}}
 
-معلمات الأداء المختلفة هي كما يلي:
+معلمات الأداء المختلفة على النحو التالي:
 
-- **LimitCellsNumberForMerged** : الحد الأقصى لعدد الخلايا التي يمكن دمجها. القيمة الافتراضية 1،000،000. يتم تعيين قيمة المعلمة من قبل المستخدم ولا تتأثر بمفتاح معلمة الأداء.
+- **LimitCellsNumberForMerged**: الحد الأقصى لعدد الخلايا التي يمكن دمجها. القيمة الافتراضية 1،000،000. تعيين قيمة المعلمة من قبل المستخدم ولا تتأثر بمفتاح معلمة الأداء. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -39,9 +40,9 @@ url: /ar/reportingservices/performance/
 
 
 
-- **IsAutoRowFit** : عندما تكون قيمة الأداء**إيقاف** ، قيمة IsAutoRowFit هي**خاطئة** بشكل افتراضي. عندما تكون قيمة معلمة الأداء**تشغيل** ، القيمة**حقيقي** بشكل افتراضي. عندما تكون قيمة الأداء**تشغيل** ، يمكن لتقرير العنصر الفرعي إعادة تعيين تقرير النقطة إلى قيمة AutoRowFit.
+- **IsAutoRowFit**: عندما تكون قيمة الأداء **off**، تكون قيمة IsAutoRowFit **false** افتراضيًا. عندما تكون قيمة معلمة الأداء **on**، تكون القيمة **true** افتراضيًا. عندما تكون قيمة معلمة الأداء **on**، يمكن لتقرير العنصر الفرعي إعادة تعيين تقرير النقطة إلى قيمة AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -64,9 +65,9 @@ url: /ar/reportingservices/performance/
 
 
 
-- **هو دمج** : عندما تكون قيمة الأداء**إيقاف** ، القيمة الافتراضية IsMerged هي**خاطئة** . عندما تكون قيمة الأداء**تشغيل** ، النظام الأساسي**حقيقي** . عندما تكون قيمة معلمة الأداء**تشغيل** ، يمكن لتقرير العنصر الفرعي إعادة تعيين تقرير النقطة إلى قيمة AutoRowFit.
+- **IsMerged**: عندما تكون قيمة الأداء **off**، تكون القيمة الافتراضية لـ IsMerged **false**. عندما تكون قيمة معلمة الأداء **on**، تكون القيمة الافتراضية **true**. عندما تكون قيمة معلمة الأداء **on**، يمكن لتقرير العنصر الفرعي إعادة تعيين تقرير النقطة إلى قيمة AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -89,9 +90,9 @@ url: /ar/reportingservices/performance/
 
 
 
-- **IsSetStyle** : عندما تكون قيمة الأداء**إيقاف** ، النظام الأساسي**خاطئة** . عندما يكون الأداء**تشغيل** ، النظام الأساسي**حقيقي** . أيضا ، عندما يكون الأداء**تشغيل** ، يمكن لتقرير العنصر الفرعي إعادة تعيين تقرير النقطة إلى قيمة AutoRowFit.
+- **IsSetStyle**: عندما تكون قيمة الأداء **off**، تكون القيمة الافتراضية **false**. عندما تكون معلمة الأداء **on**، تكون القيمة الافتراضية **true**. أيضًا، عندما تكون معلمة الأداء **on**، يمكن لتقرير العنصر الفرعي إعادة تعيين تقرير النقطة إلى قيمة AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -114,9 +115,9 @@ url: /ar/reportingservices/performance/
 
 
 
-- **تنسيق مشروط** : عندما يكون الأداء**إيقاف** ، النظام الأساسي**خاطئة** . عندما يكون الأداء**تشغيل** ، النظام الأساسي**حقيقي** . أيضا ، عندما يكون الأداء**تشغيل** ، يمكن لتقرير العنصر الفرعي إعادة تعيين تقرير النقطة إلى قيمة AutoRowFit. عندما يتم تعيين قيمة المعلمة IsSetStyle على**خاطئة** ، فإن قيمة الأداء غير صالحة.
+- **IsConditionalFormatting**: عندما تكون قيمة الأداء **off**، تكون القيمة الافتراضية **false**. عندما تكون معلمة الأداء **on**، تكون القيمة الافتراضية **true**. أيضًا، عندما تكون معلمة الأداء **on**، يمكن لتقرير العنصر الفرعي إعادة تعيين تقرير النقطة إلى قيمة AutoRowFit. عندما يكون قيمة IsSetStyle **false**، فإن قيمة الأداء غير صالحة. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

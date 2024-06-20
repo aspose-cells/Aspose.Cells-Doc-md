@@ -1,16 +1,17 @@
-﻿---
+---
 title: Afficher ou masquer les barres de défilement en Php
 type: docs
 weight: 20
 url: /fr/java/display-or-hide-scroll-bars-in-php/
 ---
-## **Aspose.Cells - Afficher ou masquer les barres de défilement**
+
+## **Aspose.Cells - Afficher ou Masquer les barres de défilement**
 ### **Masquer les barres de défilement**
- Pour masquer les barres de défilement à l'aide de**Aspose.Cells Java for PHP** , téléphoner à**affichermasquerles barres de défilement** module.
+Pour masquer les barres de défilement en utilisant **Aspose.Cells Java pour PHP**, appelez le module **displayhidescrollbars**.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -29,7 +30,7 @@ $workbook->getSettings()->setHScrollBarVisible(false);
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Afficher ou masquer les barres de défilement (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Afficher ou Masquer les barres de défilement (Aspose.Cells)** sur l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideScrollBars.php)

@@ -1,64 +1,65 @@
-﻿---
-title: Microsoft Excel ファイルのテーブルを作成して管理します。
+---
+title: Microsoft Excelファイルのテーブルを作成および管理する
 linktitle: テーブル
 type: docs
 weight: 150
 url: /ja/net/create-and-format-table/
-description: Aspose.Cells ライブラリを使用して、Excel ファイルのテーブルを挿入、サイズ変更、編集、削除、フォーマットします。
+description: Aspose.Cellsライブラリを使用して、Microsoft Excelファイルのテーブルの挿入、サイズ変更、編集、削除、フォーマットを行う。
 ---
+
 ## **テーブルの作成**
 
-スプレッドシートの利点の 1 つは、電話番号リスト、タスク リスト、取引リスト、資産または負債のリストなど、さまざまな種類のリストを作成できることです。複数のユーザーが協力して、さまざまなリストを使用、作成、および維持できます。
+スプレッドシートの利点の1つは、電話リスト、タスクリスト、取引のリスト、資産リスト、負債リストなど、さまざまなタイプのリストを作成できることです。複数のユーザーが協力して、さまざまなリストを利用、作成、維持することができます。
 
-Aspose.Cells は、リストの作成と管理をサポートしています。
+Aspose.Cellsはリストの作成と管理をサポートしています。
 
-### **リスト オブジェクトの利点**
+### **リストオブジェクトの利点**
 
-データのリストを実際のリスト オブジェクトに変換すると、多くの利点があります。
+実際のリストオブジェクトにデータのリストを変換するときの利点はいくつかあります。
 
-- 新しい行と列が自動的に含まれます。
-- リストの下部に合計行を簡単に追加して、SUM、AVERAGE、COUNT などを表示できます。
-- 右側に追加された列は、List オブジェクトに自動的に組み込まれます。
-- 行と列に基づくグラフは自動的に展開されます。
-- 行と列に割り当てられた名前付き範囲は、自動的に展開されます。
-- リストは、偶発的な行と列の削除から保護されています。
+- 新しい行や列が自動的に含まれます。
+- リストの最下部に合計、平均、カウントなどを表示するために総合行を簡単に追加できます。
+- 右に追加された列は自動的にリストオブジェクトに取り込まれます。
+- 行と列に基づくチャートは自動的に拡張されます。
+- 行と列に割り当てられた名前付き範囲は自動的に拡張されます。
+- リストは誤って行や列が削除されないように保護されています。
 
-### **Microsoft Excel を使用してリスト オブジェクトを作成する**
+### **Microsoft Excelを使用してリストオブジェクトを作成する**
 
-- List オブジェクトを作成するためのデータ範囲の選択
-- [リストの作成] ダイアログが表示されます。
-- データの List オブジェクトを実装し、合計行を指定します (選択**データ**、 それから**リスト**、 に続く**合計行**).
+リストオブジェクトを作成するためのデータ範囲を選択
+- これはリスト作成ダイアログを表示します。
+- データオブジェクトを実装し、合計行を指定します（**データ**、**リスト**、**合計行**の順に選択）。
 
-### **Aspose.Cells API を使用**
+### **Aspose.Cells APIを使用する**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)、Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートにアクセスできるコレクション。
+Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイルの各ワークシートにアクセスできる[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。を作成するには[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)ワークシートでは、[**リストオブジェクト**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects)のコレクション プロパティ[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。各[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)実際には、[**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection)クラスは、さらに[**追加**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index)List オブジェクトを追加し、リストのセル範囲を指定するメソッド。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスはワークシートの管理に幅広いプロパティとメソッドを提供します。ワークシートに[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) を作成するには、[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスの[**ListObjects**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects) コレクションプロパティを使用します。それぞれの[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) は実際には[**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection) クラスのオブジェクトであり、さらにリストオブジェクトを追加し、リストに含まれるセルの範囲を指定する[**Add**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index) メソッドを提供しています。
 
-指定されたセル範囲に従って、List オブジェクトは Aspose.Cells によって作成されます。属性を使用します (たとえば、[**ShowTotals**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/showtotals), [**ListColumns**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/listcolumns)など）の[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)リストを制御するクラス。
+Aspose.Cellsによって指定されたセル範囲に基づいて、リストオブジェクトが作成されます。 [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) クラスの属性（例：[**ShowTotals**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/showtotals)、[**ListColumns**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/listcolumns)など）を使用して、リストを制御します。
 
-以下の例では、同じものを作成しました[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)上記のセクションで Microsoft Excel を使用して作成したように、Aspose.Cells API を使用します。
+以下の例では、上のセクションでMicrosoft Excelを使用して作成したものと同じ[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)をAspose.Cells APIを使用して作成しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-CreatingListObject-1.cs" >}}
 
-## **テーブルをフォーマットする**
+## **表の書式設定**
 
-関連するデータのグループを管理および分析するために、セルの範囲をリスト オブジェクト (Excel テーブルとも呼ばれます) に変換することができます。テーブルは、他の行や列のデータとは独立して管理される関連データを含む一連の行と列です。既定では、テーブルのすべての列のヘッダー行でフィルター処理が有効になっているため、リスト オブジェクト データをすばやくフィルター処理または並べ替えることができます。各合計行セルの集計関数のドロップダウン リストを提供するリスト オブジェクトに、合計行 (数値データの操作に役立つ集計関数の選択を提供するリスト内の特別な行) を追加できます。 Aspose.Cells は、リスト (またはテーブル) を作成および管理するためのオプションを提供します。
+関連するデータのグループを管理および分析するには、セル範囲をリストオブジェクト（またはExcelテーブルとも呼ばれる）に変換することができます。 テーブルは、他の行や列のデータから独立して管理される関連データを含む行と列のシリーズです。 テーブルの各列には、ヘッダー行でフィルタリングが有効になっており、リストオブジェクトデータを迅速にフィルタリングまたは並べ替えることができます。 リストオブジェクトには特別な行（数値データで作業するために有用な集計関数の選択を提供するリスト内の特別な行）を追加することができます。 Aspose.Cellsには、リスト（またはテーブル）の作成と管理のためのオプションが用意されています。
 
-### **リスト オブジェクトの書式設定**
+### **リストオブジェクトの書式設定**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)、Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートにアクセスできるコレクション。
+Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイルの各ワークシートにアクセスできる[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。を作成するには[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)ワークシートで、使用[**リストオブジェクト**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects)のコレクション プロパティ[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。各[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)実際には、[**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection)クラスは、さらに[**追加**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index)メソッドを使用して List オブジェクトを追加し、それが包含するセルの範囲を指定します。指定されたセル範囲に従って、[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)は Aspose.Cells によってワークシートに作成されます。属性を使用します (たとえば、[**表スタイルの種類**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/tablestyletype) ) の[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)クラスを使用して、要件に合わせてテーブルをフォーマットします。
+ワークシートは [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスはワークシートの管理に幅広いプロパティとメソッドを提供します。ワークシートに[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) を作成するには、[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) クラスの[**ListObjects**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/listobjects) コレクションプロパティを使用します。それぞれの[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) は実際には[**ListObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection) クラスのオブジェクトであり、さらにリストオブジェクトを追加し、それが含むべきセルの範囲を指定する[**Add**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobjectcollection/methods/add/index) メソッドを提供しています。指定されたセル範囲に基づいて、Aspose.Cellsによってワークシートに [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) が作成されます。 [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) クラスの属性（例：[**TableStyleType**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/tablestyletype)）を使用して、テーブルの形式をあなたの要件に合わせます。
 
-以下の例では、サンプル データをワークシートに追加し、[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)それにデフォルトのスタイルを適用します。[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)スタイルは、Microsoft Excel 2007/2010 でサポートされています。
+以下の例では、ワークシートにサンプルデータを追加し、[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)を追加し、デフォルトのスタイルを適用します。マイクロソフトエクセル2007/2010で[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)のスタイルがサポートされています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-FormataListObject-1.cs" >}}
 
-## **先行トピック**
-- [テーブルを ODS に変換](/cells/ja/net/convert-table-to-ods/)
-- [外部データ接続に関連するクエリ テーブルとリスト オブジェクトを検索する](/cells/ja/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
-- [クエリ テーブル データ ソースを使用したテーブルの読み取りと書き込み](/cells/ja/net/read-and-write-table-with-query-table-data-source/)
-- [ワークシート内のテーブルまたはリスト オブジェクトのコメントを設定する](/cells/ja/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
-- [テーブルと範囲](/cells/ja/net/tables-and-ranges/)
+## **高度なトピック**
+- [テーブルをODSに変換する](/cells/ja/net/convert-table-to-ods/)
+- [外部データ接続に関連するクエリテーブルとリストオブジェクトを見つける](/cells/ja/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
+- [クエリテーブルデータソースを持つテーブルの読み書き](/cells/ja/net/read-and-write-table-with-query-table-data-source/)
+- [ワークシート内のテーブルまたはリストオブジェクトのコメントを設定してください](/cells/ja/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)
+- [表と範囲](/cells/ja/net/tables-and-ranges/)
 

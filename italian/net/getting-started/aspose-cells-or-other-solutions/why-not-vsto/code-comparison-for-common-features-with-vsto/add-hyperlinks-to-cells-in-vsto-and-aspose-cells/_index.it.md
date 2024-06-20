@@ -1,30 +1,31 @@
-﻿---
-title: Aggiungi collegamenti ipertestuali a Cells in VSTO e Aspose.Cells
+---
+title: Aggiungere collegamenti ipertestuali alle celle in VSTO e Aspose.Cells
 type: docs
 weight: 20
 url: /it/net/add-hyperlinks-to-cells-in-vsto-and-aspose-cells/
 ---
-Per aggiungere collegamenti ipertestuali alle celle in un foglio di calcolo, procedi come segue:
 
-1.  Imposta il foglio di lavoro:
- 1. Creare un'istanza di un oggetto Application (solo VSTO).
- 1. Aggiungi una cartella di lavoro.
- 1. Prendi il primo foglio.
- 1. Aggiungi testo alle celle a cui aggiungerai un collegamento ipertestuale.
-1. Aggiungi collegamento ipertestuale.
-1. Salva il documento.
+Per aggiungere collegamenti ipertestuali alle celle in un foglio di calcolo, segui i seguenti passaggi:
 
-Questi passaggi sono illustrati negli esempi di codice riportati di seguito. I primi esempi mostrano come utilizzare VSTO con C# per aggiungere un collegamento ipertestuale a una cella. Gli esempi che seguono mostrano come fare la stessa cosa usando Aspose.Cells for .NET, sempre usando C#.
+1. Configura il foglio di lavoro: 
+   1. Istanziare un oggetto Application. (Solo VSTO)
+   1. Aggiungi un foglio di lavoro.
+   1. Ottieni il primo foglio.
+   1. Aggiungere testo alle celle a cui si aggiungerà un collegamento ipertestuale.
+1. Aggiungere un collegamento ipertestuale.
+1. Salvare il documento.
+
+Questi passaggi sono mostrati negli esempi di codice sottostanti. I primi esempi mostrano come utilizzare VSTO con C# per aggiungere un collegamento ipertestuale a una cella. Gli esempi successivi mostrano come fare la stessa cosa utilizzando Aspose.Cells for .NET, di nuovo utilizzando C#.
 
 Gli esempi di codice generano un file Excel con un collegamento ipertestuale nella cella A1 del primo foglio di lavoro.
 
-![cose da fare:immagine_alt_testo](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-Un collegamento ipertestuale viene aggiunto alla cella A1.
+Viene aggiunto un collegamento ipertestuale alla cella A1.
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -60,7 +61,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook object.
 
@@ -91,5 +92,5 @@ workbook.Save("Hyperlink_test.xls");
 ## **Scarica il codice di esempio**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
-- [SourceForge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/scarica)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).cerniera lampo)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip)

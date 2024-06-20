@@ -1,49 +1,50 @@
-﻿---
-title: スレッド化されたコメント
+---
+title: スレッド型コメント
 type: docs
 weight: 140
 url: /ja/net/threaded-comments/
 ---
+
 ## **スレッド化されたコメント**
 
-MS Excel 365 には、スレッド化されたコメントを追加する機能があります。これらのコメントは会話として機能し、ディスカッションに使用できます。コメントには、スレッド化された会話を可能にする返信ボックスが付属しています。古いコメントは、Excel 365 ではメモと呼ばれます。下のスクリーンショットは、Excel で開いたときにスレッド化されたコメントがどのように表示されるかを示しています。
+MS Excel 365 では、スレッド型コメントを追加する機能が提供されています。これらのコメントは会話として機能し、ディスカッションに使用できます。新しいコメントにはスレッド型の会話が可能なリプライボックスが付属しています。古いコメントは Excel 365 ではノートと呼ばれます。以下のスクリーンショットは、Excel 365 でスレッド型コメントが開かれたときの表示例です。
 
-![todo:画像_代替_文章](threaded-comments_1.jpg)
+![todo:image_alt_text](threaded-comments_1.jpg)
 
-古いバージョンの Excel では、スレッド化されたコメントはこのように表示されます。以下の画像はサンプルファイルをExcel 2016で開いて撮影したものです。
+古いバージョンの Excel では、スレッド型コメントは以下のように表示されます。以下の画像は、サンプルファイルを Excel 2016 で開いたものです。
 
-![todo:画像_代替_文章](threaded-comments_2.jpg)
+![todo:image_alt_text](threaded-comments_2.jpg)
 
-![todo:画像_代替_文章](threaded-comments_3.jpg)
+![todo:image_alt_text](threaded-comments_3.jpg)
 
-Aspose.Cells は、スレッド化されたコメントを管理する機能も提供します。
+Aspose.Cells では、スレッド型コメントの管理機能も提供されています。
 
-## **スレッド化されたコメントを追加**
+## **スレッド型コメントの追加**
 
-### **Excel でスレッド化されたコメントを追加する**
+### **Excel でスレッド型コメントを追加**
 
-Excel 365 でスレッド化されたコメントを追加するには、次の手順に従います。
+Excel 365 でスレッド型コメントを追加するには、以下の手順に従ってください。
 
 - 方法 1
- - クリック**レビュー**タブ
- - クリック**新しいコメント**ボタン
- これにより、アクティブ セルにコメントを入力するためのダイアログが開きます。
-  - ![todo:画像_代替_文章](threaded-comments_4.jpg)
+  - **レビュー** タブをクリック
+  - **新しいコメント** ボタンをクリック
+  - これにより、アクティブなセルにコメントを入力するためのダイアログが開きます。
+  - ![todo:image_alt_text](threaded-comments_4.jpg)
 - 方法 2
- - コメントを挿入するセルを右クリックします。
- - クリック**新しいコメント**オプション。
- これにより、アクティブ セルにコメントを入力するためのダイアログが開きます。
-  - ![todo:画像_代替_文章](threaded-comments_5)
+  - コメントを挿入したいセルを右クリック
+  - **新しいコメント** オプションをクリック
+  - これにより、アクティブなセルにコメントを入力するためのダイアログが開きます。
+  - ![todo:image_alt_text](threaded-comments_5)
 
-### **Aspose.Cells を使用してスレッド コメントを追加**
+### **Aspose.Cells を使用してスレッド型コメントを追加**
 
-Aspose.Cells提供[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)スレッド化されたコメントを追加するメソッド。[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)メソッドは、次の 3 つのパラメーターを受け入れます。
+Aspose.Cells では、スレッド型コメントを追加するための [**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) メソッドが提供されています。[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1) メソッドは、次の3つのパラメーターを受け入れます。
 
-- Cell 名前: コメントが挿入されるセルの名前。
-- コメント テキスト: コメントのテキスト。
-- [**スレッドコメント作成者**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthor)コメントの作成者
+- セル名: コメントを挿入するセルの名前。
+- コメントのテキスト: コメントのテキスト。
+- [**ThreadedCommentAuthor**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthor): コメントの作者
 
-次のコード サンプルは、[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)スレッド化されたコメントをセル A1 に追加するメソッド。をご覧ください[出力エクセルファイル](89849859.xlsx)参照用のコードによって生成されます。
+次のコードサンプルは、セルA1にスレッド化されたコメントを追加するための[**Comments.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)メソッドの使用を示しています。参照のためにコードによって生成された[出力エクセルファイル](89849859.xlsx)をご覧ください。
 
 #### **サンプルコード**
 
@@ -51,17 +52,17 @@ Aspose.Cells提供[**Comments.AddThreadedComment**](https://reference.aspose.com
 
 ## **スレッド化されたコメントを読む**
 
-### **Excel でスレッド化されたコメントを読む**
+### **Excelでスレッド化されたコメントを読む**
 
-Excel でスレッド化されたコメントを読むには、コメントを含むセルの上にマウスを置くだけで、コメントが表示されます。コメント ビューは、次の図のビューのようになります。
+Excelでスレッド化されたコメントを読むには、単にコメントを含むセル上にマウスを動かすとコメントが表示されます。コメント表示は、次の画像に示すような表示になります。
 
-![todo:画像_代替_文章](threaded-comments_1.jpg)
+![todo:image_alt_text](threaded-comments_1.jpg)
 
-### **Aspose.Cells を使用してスレッド化されたコメントを読む**
+### **Aspose.Cellsを使用してスレッド化されたコメントを読む**
 
-Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)指定された列のスレッド化されたコメントを取得するメソッド。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)メソッドは列名をパラメーターとして受け入れ、[**スレッドコメントコレクション**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection).を繰り返すことができます[**スレッドコメントコレクション**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)コメントを表示します。
+Aspose.Cellsは指定された列のスレッド化されたコメントを取得するための[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)メソッドを提供します。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)メソッドは列名をパラメータとして受け取り、[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)を返します。[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)を繰り返し処理してコメントを表示できます。
 
-次の例は、列 A1 からコメントを読み取る方法を示しています。[サンプル Excel ファイル](89849861.xlsx).コードによって生成されたコンソール出力を参照してください。
+次の例は、[サンプルエクセルファイル](89849861.xlsx)を読み込んで列A1からコメントを読み取ることを示しています。参照のためにコードによって生成されたコンソール出力をご覧ください。
 
 #### **サンプルコード**
 
@@ -69,15 +70,19 @@ Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.co
 
 #### **コンソール出力**
 
-コメント: スレッド化されたコメントのテスト
+{{< highlight csharp >}}
 
-作者: Aspose テスト
+Comment: Test Threaded Comment
 
-### **スレッド化されたコメントの作成時間を読み取る**
+Author: Aspose Test
 
-Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)指定された列のスレッド化されたコメントを取得するメソッド。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)メソッドは列名をパラメーターとして受け入れ、[**スレッドコメントコレクション**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection).を繰り返すことができます[**スレッドコメントコレクション**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)を使用します。[**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime)財産。
+{{< /highlight >}}
 
-次の例は、[サンプル Excel ファイル](89849861.xlsx).コードによって生成されたコンソール出力を参照してください。
+### **スレッド化されたコメントの作成時間を読む**
+
+Aspose.Cellsは指定された列のスレッド化されたコメントを取得するための[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)メソッドを提供します。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)メソッドは列名をパラメータとして受け取り、[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)を返します。[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)を繰り返し処理し、[**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime)プロパティを使用できます。
+
+次の例は、[サンプルエクセルファイル](89849861.xlsx)を読み込んでスレッド化されたコメントの作成時間を読み取ることを示しています。参照のためにコードによって生成されたコンソール出力をご覧ください。
 
 #### **サンプルコード**
 
@@ -85,43 +90,47 @@ Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.co
 
 #### **コンソール出力**
 
-コメント: スレッド化されたコメントのテスト
+{{< highlight csharp >}}
 
-作者: Aspose テスト
+Comment: Test Threaded Comment
 
-作成時間: 2019/05/15 12:46:23 PM
+Author: Aspose Test
+
+Created Time: 5/15/2019 12:46:23 PM
+
+{{< /highlight >}}
 
 ## **スレッド化されたコメントの編集**
 
-### **スレッド化されたコメントを Excel で編集する**
+### **Excelでスレッド化されたコメントを編集する**
 
- Excel でスレッド化されたコメントを編集するには、**編集**次の画像に示すように、コメントにリンクします。
+Excelでスレッド化されたコメントを編集するには、次の画像に示すようにコメントの**編集**リンクをクリックします。
 
-![todo:画像_代替_文章](threaded-comments_7.jpg)
+![todo:image_alt_text](threaded-comments_7.jpg)
 
-### **Aspose.Cells を使用してスレッド コメントを編集**
+### **Aspose.Cellsを使用してスレッド化されたコメントを編集する**
 
-Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)指定された列のスレッド化されたコメントを取得するメソッド。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)メソッドは列名をパラメーターとして受け入れ、[**スレッドコメントコレクション**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection).で必要なコメントを更新できます。[**スレッドコメントコレクション**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection)ブックを保存します。
+Aspose.Cellsは指定された列のコメントを削除するための[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)メソッドを提供します。[**Comments.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)メソッドは列名をパラメータとして受け取り、その列内のコメントを削除します。
 
-次の例は、列 A1 の最初のスレッド化されたコメントを編集する方法を示しています。[サンプル Excel ファイル](89849861.xlsx).をご覧ください[出力エクセルファイル](89849862.xlsx)参照用に更新されたコメントを示すコードによって生成されます。
+次の例は、[サンプルエクセルファイル](89849861.xlsx)を読み込んで列A1のコメントを削除することを示しています。参照のためにコードによって生成された更新されたコメントを示す[出力エクセルファイル](89849862.xlsx)をご覧ください。
 
 #### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-EditThreadedComments-1.cs" >}}
 
-## **スレッド化されたコメントを削除**
+## **スレッド化されたコメントを削除する**
 
-### **Excel でスレッド化されたコメントを削除する**
+### **Excelでスレッド化されたコメントを削除する**
 
- Excel でスレッド化されたコメントを削除するには、コメントを含むセルを右クリックし、**コメントを削除**次の図に示すようにオプションを選択します。
+Excelでスレッド化されたコメントを削除するには、コメントを含むセルを右クリックし、次の画像に示すように**コメントを削除**オプションをクリックします。
 
-![todo:画像_代替_文章](threaded-comments_8.jpg)
+![todo:image_alt_text](threaded-comments_8.jpg)
 
-### **Aspose.Cells を使用してスレッド化されたコメントを削除します**
+### **Aspose.Cellsを使用してスレッド化されたコメントを削除する**
 
-Aspose.Cells提供[**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)指定された列のコメントを削除するメソッド。[**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)メソッドは、列名をパラメーターとして受け入れ、その列のコメントを削除します。
+Aspose.Cellsは指定された列のコメントを削除するための[**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)メソッドを提供します。[**Comments.RemoveAt**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)メソッドは列名をパラメータとして受け取り、その列内のコメントを削除します。
 
-次の例は、列 A1 をロードしてコメントを削除する方法を示しています。[サンプル Excel ファイル](89849861.xlsx).をご覧ください[出力エクセルファイル](89849864.xlsx)参照用のコードによって生成されます。
+次の例は、[サンプルエクセルファイル](89849861.xlsx)を読み込んで列A1のコメントを削除することを示しています。参照のためにコードによって生成された[出力エクセルファイル](89849864.xlsx)をご覧ください。
 
 #### **サンプルコード**
 
@@ -129,6 +138,6 @@ Aspose.Cells提供[**Comments.RemoveAt**](https://reference.aspose.com/cells/net
 
 {{% alert color="primary" %}}
 
- Aspose.Cells のコメントを削除しても、著者は自動的に削除されませんのでご注意ください。作成者も削除する必要がある場合は、RemoveAt メソッドを使用してください。[**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection)上記の例に示されているクラス。
+Aspose.Cellsによるコメントの削除では、作者は自動的に削除されません。作者も削除する必要がある場合は、[**ThreadedCommentAuthorCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentauthorcollection)クラスのRemoveAtメソッドを使用してください。前述の例に示すように使用してください。
 
 {{% /alert %}}

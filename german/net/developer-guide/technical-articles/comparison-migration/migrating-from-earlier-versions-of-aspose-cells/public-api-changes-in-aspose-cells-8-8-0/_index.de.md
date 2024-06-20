@@ -1,41 +1,42 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.8.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.8.0
 type: docs
 weight: 260
 url: /de/net/public-api-changes-in-aspose-cells-8-8-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.7.2 zu 8.8.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 8.7.2 auf 8.8.0, die für Modul-/Anwendungsentwickler interessant sein könnten. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte & entfernte Klassen usw., sondern auch eine Beschreibung etwaiger Änderungen im Verhalten hinter den Kulissen von Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Rufen Sie Cell-Referenzen für die externe Verbindung ab**
-Aspose.Cells for .NET 8.8.0 hat die folgenden neuen Eigenschaften verfügbar gemacht, die beim Abrufen der Ziel- und Ausgabezellreferenzen für externe Verbindungen, die in der Tabelle gespeichert sind, hilfreich sind.
+## **Hinzugefügte APIs**
+### **Zellverweise für externe Verbindung abrufen**
+Aspose.Cells for .NET 8.8.0 hat die folgenden neuen Eigenschaften freigelegt, die beim Abrufen der Ziel- und Ausgabe­zellenverweise für in der Arbeitsmappe gespeicherte externe Verbindungen hilfreich sind.
 
-1. QueryTable.ConnectionId: Ruft die Verbindungs-ID der Abfragetabelle ab.
+1. QueryTable.ConnectionId: Ruft die Verbindungs-ID der Abfrage-Tabelle ab.
 1. ExternalConnection.Id: Ruft die ID der externen Verbindung ab.
 1. ListObject.QueryTable: Ruft die verknüpfte QueryTable ab.
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im ausführlichen Artikel unter[Suchen Sie Abfragetabellen und listen Sie Objekte auf, die sich auf externe Datenverbindungen beziehen](/cells/de/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
+Weitere Details zu diesem Feature finden Sie im ausführlichen Artikel zu [Suchen von Abfragetabellen und Listobjekten in Bezug auf externe Datenverbindungen](/cells/de/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
 
 {{% /alert %}} 
-### **HTMLLoadOptions.KeepPrecision-Eigenschaft hinzugefügt**
-Aspose.Cells for .NET 8.8.0 hat die HTMLLoadOptions.KeepPrecision-Eigenschaft hinzugefügt, um die Konvertierung langer numerischer Werte in Exponentialschreibweise beim Importieren von HTML-Dateien zu steuern. Standardmäßig wird jeder Wert, der länger als 15 Ziffern ist, in die Exponentialschreibweise konvertiert, wenn die Daten aus einer HTML-Zeichenfolge oder -Datei importiert werden. Jetzt können die Benutzer dieses Verhalten jedoch mithilfe der HTMLLoadOptions.KeepPrecision-Eigenschaft steuern. Wenn die besagte Eigenschaft auf „true“ gesetzt ist, werden die Werte so importiert, wie sie in der Quelle sind.
+### **Hinzugefügte HTMLLoadOptions.KeepPrecision Eigenschaft**
+Aspose.Cells for .NET 8.8.0 hat die HTMLLoadOptions.KeepPrecision-Eigenschaft hinzugefügt, um die Konvertierung langer numerischer Werte in Exponentialnotation zu kontrollieren, während HTML-Dateien importiert werden. Standardmäßig wird jeder Wert, der länger als 15 Ziffern ist, in Exponentialnotation umgewandelt, wenn die Daten aus einer HTML-Zeichenfolge oder -Datei importiert werden. Jetzt können die Benutzer dieses Verhalten jedoch mit Hilfe der HTMLLoadOptions.KeepPrecision-Eigenschaft steuern. Wenn die genannte Eigenschaft auf true gesetzt ist, werden die Werte so importiert, wie sie in der Quelle vorliegen.
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im ausführlichen Artikel unter[ Vermeiden Sie die Umwandlung großer numerischer Werte in die Exponentialschreibweise](/cells/de/net/avoid-exponential-notation-of-large-numbers-while-importing-from/)
+Weitere Details zu diesem Feature finden Sie im ausführlichen Artikel zu [Vermeiden Sie die Umwandlung großer numerischer Werte in Exponentialnotation](/cells/de/net/avoid-exponential-notation-of-large-numbers-while-importing-from/)
 
 {{% /alert %}} 
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string html = @" 
 
@@ -57,7 +58,7 @@ Es folgt das einfache Nutzungsszenario.
 
 ";
 
-byte[]byteArray = Encoding.UTF8.GetBytes(html);
+byte[] byteArray = Encoding.UTF8.GetBytes(html);
 
 HTMLLoadOptions loadOptions = new Aspose.Cells.HTMLLoadOptions(LoadFormat.Html);
 
@@ -76,20 +77,20 @@ workbook.Save(dir + "output.xlsx");
 {{< /highlight >}}
 
 
-### **HTMLLoadOptions.DeleteRedundantSpaces-Eigenschaft hinzugefügt**
-Aspose.Cells for .NET 8.8.0 hat die Eigenschaft HTMLLoadOptions.DeleteRedundantSpaces verfügbar gemacht, um die zusätzlichen Leerzeichen nach dem Zeilenumbruch-Tag (<br>Tag) beim Importieren der Daten aus der Zeichenfolge oder Datei HTML. Die Eigenschaft „HTMLLoadOptions.DeleteRedundantSpaces“ hat den Standardwert „false“, was bedeutet, dass alle zusätzlichen Leerzeichen beibehalten und in das Workbook-Objekt importiert werden. Wenn sie jedoch auf „true“ gesetzt ist, löscht API alle überflüssigen Leerzeichen nach dem Zeilenumbruch-Tag.
+### **Hinzugefügte Eigenschaft HTMLLoadOptions.DeleteRedundantSpaces**
+Aspose.Cells for .NET 8.8.0 has exposed the HTMLLoadOptions.DeleteRedundantSpaces property in order to keep or delete the extra spaces after the line break tag (<br> Tag) while importing the data from the HTML string or file. The HTMLLoadOptions.DeleteRedundantSpaces property has the default value as false that means, all extra spaces will be preserved and imported to the Workbook object, however, when set to true, the API will delete all the redundant spaces coming after the line break tag.
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im ausführlichen Artikel unter[Löschen Sie redundante Leerzeichen aus HTML](/cells/de/net/delete-redundant-spaces-after-line-break-while-importing/)
+Weitere Details zu diesem Feature finden Sie im ausführlichen Artikel zu [Löschen über­flüssiger Leerzeichen aus HTML](/cells/de/net/delete-redundant-spaces-after-line-break-while-importing/)
 
 {{% /alert %}} 
 
-Ein einfaches Nutzungsszenario sieht wie folgt aus.
+Das einfache Anwendungsszenario sieht wie folgt aus.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string html = @" 
 
@@ -121,7 +122,7 @@ Ein einfaches Nutzungsszenario sieht wie folgt aus.
 
 ";
 
-byte[]byteArray = Encoding.UTF8.GetBytes(html);
+byte[] byteArray = Encoding.UTF8.GetBytes(html);
 
 HTMLLoadOptions loadOptions = new Aspose.Cells.HTMLLoadOptions(LoadFormat.Html);
 
@@ -136,20 +137,20 @@ workbook.Save(dir + "output.xlsx");
 {{< /highlight >}}
 
 
-### **Style.QuotePrefix-Eigenschaft hinzugefügt**
-Aspose.Cells for .NET 8.8.0 hat die Style.QuotePrefix-Eigenschaft verfügbar gemacht, um zu erkennen, ob ein Zellenwert mit einem einfachen Anführungszeichen beginnt.
+### **Hinzugefügte Eigenschaft Style.QuotePrefix**
+Aspose.Cells for .NET 8.8.0 hat die Style.QuotePrefix-Eigenschaft freigelegt, um zu erkennen, ob ein Zellenwert mit einem einzelnen Anführungszeichen beginnt.
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im ausführlichen Artikel unter[Einfaches Anführungszeichen am Anfang des Werts Cell erkennen](/cells/de/net/find-if-the-cell-value-starts-with-single-quote-mark/)
+Für weitere Details zu diesem Feature lesen Sie bitte den ausführlichen Artikel zu [Erkennen von Anführungszeichen am Anfang des Zellwerts](/cells/de/net/find-if-the-cell-value-starts-with-single-quote-mark/)
 
 {{% /alert %}} 
 
-Ein einfaches Nutzungsszenario sieht wie folgt aus.
+Das einfache Anwendungsszenario sieht wie folgt aus.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook();
 
@@ -178,4 +179,4 @@ Console.WriteLine("A2 has a quote prefix: " + s2.QuotePrefix);
 {{< /highlight >}}
 ## **Veraltete APIs**
 ### **Veraltete LoadOptions.ConvertNumericData-Eigenschaft**
-Aspose.Cells 8.8.0 hat die Eigenschaft LoadOptions.ConvertNumericData als veraltet markiert. Bitte verwenden Sie die entsprechende Eigenschaft aus den Klassen HTMLLoadOptions oder TxtLoadOptions.
+Aspose.Cells 8.8.0 hat die LoadOptions.ConvertNumericData-Eigenschaft als veraltet markiert. Bitte verwenden Sie die entsprechende Eigenschaft der Klassen HTMLLoadOptions oder TxtLoadOptions.

@@ -1,130 +1,131 @@
-﻿---
-title: VSTO'yu Aspose.Cells for .NET ile karşılaştırma
+---
+title: VSTO ile Aspose.Cells for .NET yi Karşılaştırma
 type: docs
 weight: 20
 url: /tr/net/comparing-vsto-with-aspose-cells-for-net/
 ---
+
 {{% alert color="primary" %}}
 
-Bu makale, Microsoft Office tabanlı çözümler geliştirmek için VSTO (Office için Visual Studio Araçları) kullanımını diğer yaklaşımlarla karşılaştırır. Özellikle Aspose.Cells'e bakar ve iki çözümün nasıl çalıştığına dair bir karşılaştırma sağlar. Makaleler, geliştiricilerin bir çözümü benimsemeden önce farklı seçenekleri analiz etmek, karşılaştırmak ve değerlendirmek için kullanabilecekleri bilgiler sağlar.
+Bu makale, Microsoft Ofis tabanlı çözümler geliştirmek için VSTO'nun (Visual Studio Office Araçları) kullanımını diğer yaklaşımlarla karşılaştırıyor. Özellikle Aspose.Cells üzerinde durarak, bu iki çözümün nasıl çalıştığını karşılaştırıyor. Makale, geliştiricilerin, bir çözümü benimsemeden önce farklı seçenekleri analiz etmek, karşılaştırmak ve değerlendirmek için kullanabileceği bilgiler sunuyor.
 
 {{% /alert %}}
 
-## **genel bakış**
+## **Genel Bakış**
 
-Microsoft Excel, her türlü sektörde işletmeler ve bireyler tarafından yaygın olarak kullanılmaktadır. Elektronik tablo uygulaması neredeyse her yerde bulunur ve kullanıcıların yalnızca verileri depolamasına ve düzenlemesine değil, aynı zamanda formüllerle karmaşık modeller oluşturmasına ve gelişmiş biçimlendirme ve çizelgeyle verileri net bir şekilde sunmasına olanak tanır.
+Microsoft Excel, işletmelerde ve farklı endüstrilerdeki bireyler tarafından geniş bir şekilde kullanılmaktadır. Bu elektronik tablo uygulaması, sadece veri depolamak ve düzenlemekle kalmaz, aynı zamanda formüllerle karmaşık modeller oluşturmayı ve gelişmiş biçimlendirme ve grafiklerle veriyi açık bir şekilde sunmayı sağlar.
 
-VSTO, Microsoft Office belgelerinin bir .NET derlemesine sarılmış kodu yürütmesine izin verir. Microsoft Office dosyaları ve özellikleri ile çalışan uygulamalar geliştirmek için kullanılır. Geliştiriciler yıllardır uygulamalarda ASP, Office Web bileşenleri ve COM birlikte çalışmasını kullandılar. Microsoft, uygulamaları geliştirmek ve dağıtmak ve bellek yönetimini iyileştirmek için geliştirilmiş VSTO'ya sahiptir. Ancak soru şu: VSTO, günümüzde mevcut olan diğer yaklaşımlara göre kullanımı daha kolay ve daha güvenilir olacak şekilde mi tasarlandı? Geliştiriciler, gelişmiş performans, güvenlik, ölçeklenebilirlik, kararlılık, güvenilirlik veya özellikler açısından kendilerini yarı yolda bırakmayacak çözümlerle çalışmak isterler.
+VSTO, Microsoft Ofis belgelerinin içinde yer alan kodları .NET derlemesiyle çalıştırmasına izin verir. Bu, Microsoft Ofis dosyaları ve özellikleriyle çalışan uygulamalar geliştirmek için kullanılır. Geliştiriciler yıllardır ASP, Office Web bileşenleri ve COM interop'u uygulamalarda kullanmışlardır. Microsoft, VSTO'yu geliştirip uygulamaların geliştirilmesini ve dağıtılmasını düzenlemeyi ve bellek yönetimini artırmayı hedeflemiştir. Ancak, soru şudur: VSTO, bugün mevcut olan diğer yaklaşımlardan daha kolay kullanılabilir ve daha güvenilir olacak şekilde tasarlanmış mıdır? Geliştiriciler, performans, güvenlik, ölçeklenebilirlik, kararlılık, güvenilirlik veya özellikler açısından kendilerini hayal kırıklığına uğratmayacak çözümlerle çalışmak istemektedir.
 
-[Aspose](http://www.aspose.com/)harika bir .NET, Java, Bulut ve Android API serisi sağlar. Aspose API'ler, yardımcı olan API'ler olan Aspose.Cells, Aspose.Words, Aspose.Pdf ve Aspose.Slides gibi ürünleri içerir.[geliştiriciler, XLS, XLSX, DOC, DOCX, HTML, PDF, PPT dahil olmak üzere çeşitli biçimlerdeki belgeleri açar, değiştirir, oluşturur, kaydeder, birleştirir ve dönüştürür.
+[Aspose](http://www.aspose.com/), .NET, Java, Bulut ve Android API'larının harika bir serisini sunmaktadır. Aspose API'ları, Aspose.Cells, Aspose.Words, Aspose.Pdf ve Aspose.Slides gibi ürünleri içerir. Bu API'lar, geliştiricilere XLS, XLSX, DOC, DOCX, HTML, PDF, PPT gibi çeşitli formatlarda belgeleri açma, değiştirme, oluşturma, kaydetme, birleştirme ve dönüştürme konularında yardımcı olur.
 
-Bu yazımızda VSTO'yu Aspose.Cells for .NET ile karşılaştırdık.
+Bu makalede, VSTO'yu Aspose.Cells for .NET ile karşılaştırıyoruz.
 
-[Aspose.Cells]](https://products.aspose.com/cells/net/) istemci veya sunucu tarafında Microsoft Excel yüklü olmadan Microsoft Excel elektronik tablolarını okuyan ve yazan bağımsız bir Microsoft Excel elektronik tablo düzenlemesi API'dir. Aspose.Cells, zengin özelliklere sahip bir bileşendir ve temel veri aktarımından çok daha fazlasını sunar. Aspose.Cells ile geliştiriciler verileri dışa aktarabilir, elektronik tabloları biçimlendirebilir, görüntüleri içe aktarabilir, içe aktarabilir, grafikler oluşturabilir ve değiştirebilir, Excel verilerini aktarabilir ve çeşitli biçimlerde kaydedebilir. Ürün ve özellikleri hakkında daha fazla bilgi edinmek için:
+[Aspose.Cells](https://products.aspose.com/cells/net/), sunucu veya istemci tarafında Microsoft Excel yüklü olmadan Microsoft Excel elektronik tablolarını okuyan ve yazan bağımsız bir Microsoft Excel elektronik tablo işleme API'sidir. Aspose.Cells, temel veri dışa aktarımından çok daha fazlasını sunan zengin özellikli bir bileşendir. Aspose.Cells ile geliştiriciler, veriyi dışa aktarabilir, elektronik tabloları biçimlendirebilir, resimleri ithal edebilir, grafikler oluşturabilir, bunları kullanabilir, Excel verisini akış halinde tutabilir ve çeşitli formatlara kaydedebilir. Ürün ve özellikleri hakkında daha fazla bilgi edinmek için:
 
--  Kontrol et[Aspose.Cells belgeleri](https://docs.aspose.com/cells/net/).
--  nasıl çalıştığını görün[çevrimiçi demolar](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
--  Denemek:[indirmek](https://downloads.aspose.com/cells/net)ücretsiz bir değerlendirme sürümü.
+- [Aspose.Cells belgelerine](https://docs.aspose.com/cells/net/) göz atın.
+- [çevrimiçi demoları](https://github.com/aspose-cells/Aspose.Cells-for-.NET) inceleyin.
+- Ücretsiz bir değerlendirme sürümü indirin: [indir](https://downloads.aspose.com/cells/net)
 
-Bu makale, VSTO ve Aspose.Cells'i Microsoft Excel ile ilgili farklı açılardan karşılaştırır. Liste tam değildir ancak karar vericilerin bir yaklaşımı benimsemeden önce nihai bir karar vermeden önce anlaması gereken birkaç konuyu temsil eder.
+Bu makale, VSTO ve Aspose.Cells'i Microsoft Excel ile ilgili farklı yönlerden karşılaştırıyor. Liste eksik olsa da, karar vericilerin bir yaklaşımı benimsemeden önce anlamaları gereken birkaç konuyu temsil etmektedir.
 
-### **.NET Çerçeve Gereksinimi**
+### **.NET Framework Gereksinimi**
 
-VSTO, son uygulamayı yürütmek için istemci tarafında .NET Çerçevesini (Office SE Çalışma Zamanı için Visual Studio Araçları dahil) gerektirir. Çoğu kurumsal ortamda, özellikle web senaryolarında, son kullanıcılar uygulama yazılımını ve ilgili çalışma zamanı çerçevelerini kuramaz. Bu gereklilik tek başına VSTO tabanlı uygulamaları sorunlu hale getirir. VSTO'ya dayalı kullanıma hazır uygulamaları pratik olarak dışlar.
+VSTO, uygulamanın nihai sürümünü yürütmek için istemci tarafında .NET Framework (Visual Studio Office Araçları SE Runtime dahil) gerektirir. Özellikle web senaryolarında çoğu işletmede, son kullanıcılar uygulama yazılımını ve ilgili çalışma zamanı çatılarını kuramazlar. Bu tek gereklilik, VSTO tabanlı uygulamaları pratikte sorunlu hale getirir. Bu, VSTO'ya dayalı hazır uygulamaları neredeyse imkansız hale getirir.
 
-Aksine, Aspose.Cells for .NET, temel senaryo için istemci tarafında mutlaka .NET Çerçevesini talep etmez. Bileşenle oluşturulan Office uygulamaları hafiftir ve önemli yük altında Microsoft Windows sistemlerinde çalışması garantilidir.
+Buna karşılık, Aspose.Cells for .NET'ye dayalı uygulamalar, alttaki senaryo için istemci tarafında .NET Framework'a gerek duymaz. Bileşenle oluşturulan Ofis uygulamaları hafif yapıdadır ve Microsoft Windows sistemlerinde önemli bir yük altında çalışmaları garanti edilir.
 
-### **Özellikleri**
+### **Özellikler**
 
-VSTO'nun sağladığı özellikler, yüklediğiniz VSTO ve Visual Studio ürünleri kombinasyonuna bağlıdır. Microsoft Office Excel 2003 için VSTO tarafından gerçekleştirilen yaygın görevler arasında Cells'e veri ekleme, çalışma kitaplarını oluşturma, açma ve kaydetme, çalışma sayfalarını ekleme, taşıma ve gizleme, çalışma sayfalarını koruma, adlandırılmış aralıklar, liste nesnesi, stiller biçimlendirme, hücrelerde metin arama, verileri sıralama, yazdırma ve Excel formül hesaplamaları.
+VSTO'nun sunduğu özellikler, yüklü olan VSTO ve Visual Studio ürün kombinasyonuna bağlıdır. VSTO için yaygın görevler arasında Microsoft Ofis Excel 2003 için hücrelere veri ekleme, çalışma kitapları oluşturma, açma ve kaydetme, çalışma sayfaları ekleyip taşıma ve gizleme, çalışma sayfalarını koruma, isim verilen aralıklar, liste nesneleri, stil biçimlendirme, hücrelerde metin arama, veri sıralama, baskı ve Excel formül hesaplamaları yer alır.
 
-Aspose.Cells, Microsoft Office Excel dosyalarını yönetmek için gereken her şeyi ve çok daha fazlasını sağlar. API, geliştiricilere en az çabayla harika sonuçlar verir. Aspose.Cells, birçok güçlü, zaman kazandıran işlev sunar. API, Microsoft Excel'in sağladığı hemen hemen tüm özellikleri kapsayan, her türlü elektronik tablo yönetimi etkinliği için kullanımı kolay API'ler sağlar. VSTO için listelenen tüm görevler Aspose.Cells ile kolayca yapılabilir.
+Aspose.Cells, Microsoft Office Excel dosyalarını yönetmek için gerekli her şeyi ve çok daha fazlasını sağlar. API, geliştiricilere en az çaba ile harika sonuçlar sunar. Aspose.Cells, birçok güçlü, zaman tasarrufu sağlayan fonksiyonları sunar. API, neredeyse Microsoft Excel'in sunduğu tüm özellikleri kapsayan her türlü elektronik tablo yönetimi aktivitesi için kullanıcılara kolayca kullanılabilen API'lar sağlar. VSTO için listelenen tüm görevler, Aspose.Cells ile kolayca gerçekleştirilebilir.
 
-Aspose.Cells ayrıca Akıllı İşaretleyiciler desteği, çeşitli veri kaynaklarına, nesnelere ve Excel dosyalarına veri alma ve verme, COM istemcileri desteği (ASP istemcisi) Bileşenle birlikte çalışabilirlik, Excel dosyalarını PDF formatına dönüştürme dahil olmak üzere birçok gelişmiş özelliği destekler , Excel grafiklerini ve çalışma sayfalarını görüntü dosyaları olarak kaydetme.
+Aspose.Cells ayrıca, Akıllı İşaretleyicileri destekler, birçok veri kaynağına ve nesne ve Excel dosyalarına veri alıp verir, COM istemcilerini (ASP istemcisi) destekler, bileşenle uyumlu çalışır, Excel dosyalarını PDF formatına dönüştürür, Excel grafiklerini ve çalışma sayfalarını resim dosyaları olarak kaydeder.
 
 ### **Güvenlik**
 
-Varsayılan olarak, VSTO uygulamaları, kısmen güvenilen arayanlara izin vermediğinden yürütme için Tam Güven izinleri gerektirir. Barındırılan bir ortamda bir web uygulamasını kilitlemek ve ek bir uygulama yalıtımı düzeyi sağlamak için, uygulamanın erişebileceği kaynakları ve gerçekleştirebileceği ayrıcalıklı işlemleri kısıtlamak için kod erişim güvenliğini kullanabilirsiniz. Ancak .NET güvenliğini anlamak için biraz zaman ve çaba harcamanız gerekiyor.
+Varsayılan olarak, VSTO uygulamaları, kısmen güvenilir çağrıcıları kabul etmediği için yürütme için Tam Güvenlik izinleri gerektirir. Bir web uygulamasını kitleştirerek bir ek seviye uygulama izolasyonu sağlamak ve barındırılan bir ortamda ek bir uygulama izolasyon seviyesi sağlamak için, kod erişim güvenliği kullanarak uygulamanın erişebileceği kaynakları ve gerçekleştirebileceği ayrıcalıklı işlemleri sınırlamak mümkündür. Ancak .NET güvenliğini anlamak için belirli bir süreyi ve çabaları yatırmanız gerekmektedir.
 
-Birçok farklı şirketin birden çok uygulamasını barındıran İnternet Servis Sağlayıcıları (ISP'ler), uygulamaların birbirlerinin verilerini okuyamamasını veya birbirini etkilememesini sağlamaya yardımcı olmak için sıklıkla orta güven düzeyini kullanır. Güvenlik nedeniyle, ISP'ler paylaşılan sunuculardaki bireysel web uygulamalarını Kısmi Güven ile sınırlayabilir.
+Birçok farklı şirketten gelen çok sayıda uygulamayı barındıran İnternet Hizmet Sağlayıcıları (İHS'ler), uygulamaların birbirlerinin verilerini okuyamamasını veya birbirleriyle müdahale etmemesini sağlamak için orta derecede güven seviyesini kullanmaktadır. Güvenlik nedenleriyle, İHS'ler, paylaşılan sunucularda bulunan bireysel web uygulamalarını Kısmi Güvenlik düzeyine sınırlayabilir.
 
-Aspose.Cells for .NET, Medium Trust güvenlik seviyesinde çalışabilir. Derlemeyi barındırılan bir ortamda çalıştırmak için özel ayrıcalıklar gerekmez. Orta düzeyde güven, uygulamaların erişebileceği paylaşılan sistem kaynaklarının türlerine kısıtlamalar getirir. Birçok web uygulaması Web Hosting sunucularında çalışmaktadır. Web barındırma modunda, çoğu yalnızca Orta Güven güvenlik seviyesi altında çalışabilir. Aspose.Cells for .NET bu konuda ihtiyaçlarına çok iyi hizmet edebilir.
+Aspose.Cells for .NET, Orta Seviye Güvenlik düzeyinde çalışabilir. Barındırılan bir ortamda derlemin çalışabilmesi için özel ayrıcalıklara ihtiyaç duyulmaz. Orta güvenlik seviyesi, uygulamaların erişebileceği paylaşılan sistem kaynaklarının türlerine kısıtlamalar getirir. Birçok web uygulaması Web Barındırma sunucularında çalışmaktadır. Web barındırma modunda, çoğu uygulama yalnızca Orta Seviye Güvenlik düzeyinde çalışabilir. Bu açıdan, Aspose.Cells for .NET ihtiyaçlarını gayet iyi karşılayabilir.
 
-### **Verim**
+### **Performans**
 
-Bir çözüm oluşturmak için herhangi bir yaklaşım veya metodoloji seçerken performans en kritik faktördür.
+Herhangi bir yaklaşım veya metodoloji seçerken performans, çözüm oluştururken en kritik faktördür.
 
-Bir VSTO uygulamasının performansı, bazı kullanıcıların raporuna göre VBA ve COM yaklaşımlarına bağlıdır. VSTO performansını etkileyen birkaç faktör vardır ve bu faktörleri bir perspektife oturtmak önemlidir.
+Bazı kullanıcı raporlarına göre, VSTO uygulamasının performansı VBA ve COM yaklaşımlarına dayanmaktadır. VSTO performansını etkileyen birkaç faktör bulunmaktadır ve bu faktörleri perspektife koymak önemlidir.
 
-- .NET başlangıç maliyeti doğası gereği pahalıdır. .NET ile yazılan uygulamalar, Tam Zamanında (JIT) derlemesinin ek yüküne tabi olmalıdır, bu nedenle JIT derlemesinden kaçınılamaz.
-- VSTO tabanlı uygulamaları etkileyen başka bir performans faktörü, Microsoft Office COM nesnelerini saran kalın otomasyon kaplaması katmanlarını arama masrafıyla ilgilidir. Microsoft Office ile etkileşime girecek şekilde oluşturulmuş ve optimize edilmiş VBA, .NET'den daha kısa bir mesafeye sahiptir.
-- Son olarak, Excel nesnelerini Visual Studio IDE'de barındırmak, kaynaklar açısından pahalıdır. VSTO uygulamaları, VBA uygulamalarından daha büyük bir bellek ayak izine sahiptir. VSTO Excel uygulamaları çok fazla bellek kullanır ve Microsoft Excel'in tüm örnekleri kapatılana kadar asla işletim sistemine geri bırakmaz.
+- .NET başlatma maliyeti doğal olarak yüksektir. .NET ile yazılan uygulamalar, Yerinde Derleme (JIT) maliyetini karşılamalıdır, dolayısıyla JIT derlemesinden kaçılamazdır.
+- VSTO tabanlı uygulamaların performansını etkileyen diğer bir faktör, Microsoft Office COM nesnelerini saran kalın otomasyon katmanlarının çağrılmasının maliyetiyle ilgilidir. Microsoft Ofis ile etkileşim için inşa edilmiş ve optimize edilmiş VBA, .NET'ten daha kısa bir mesafe kat etmektedir.
+- Son olarak, Excel nesnelerini Visual Studio IDE'de barındırmak, kaynaklar açısından pahalıdır. VSTO uygulamalarının VBA uygulamalarından daha büyük bir bellek kullanımı vardır. VSTO Excel uygulamaları çok miktarda bellek kullanır ve Microsoft Excel'in tüm örnekleri kapatılana kadar işletim sistemine geri bırakmaz.
 
-Microsoft Office teknolojisi için bir geliştirme platformu olarak VSTO'yu benimsemeyi düşünüyorsanız, bu öznitelikleri tanımak için kaynaklara biraz zaman ayırın.
+Microsoft Office teknolojisi için geliştirme platformu olarak VSTO'yu benimsemeyi düşünüyorsanız, bu özelliklerle tanışmak için biraz zaman ayırın.
 
-Ayrıca, güncellemeleri her zaman denetlemenin performans üzerindeki etkisi çözüm için uygun olmayabilir (daha yavaş dağıtım sunucuları, daha yavaş ağ bağlantıları veya yalnızca sunucuya sık sık erişememek, yükleme sürelerini olumsuz etkileyebilir).
+Ayrıca, her zaman güncellemeleri kontrol etmenin performans etkisi, çözüm için uygun olmayabilir (daha yavaş dağıtım sunucuları, daha yavaş ağ bağlantıları veya basitçe sunucuya sık sık erişememek, yük sürelerini olumsuz etkileyebilir).
 
-Buna karşılık, Aspose.Cells for .NET yüksek düzeyde ölçeklenebilir, esnek ve hızlıdır. Genel olarak, Office uygulamaları aynı anda 100'lerce ve 1000'lerce kullanıcı tarafından kullanılmak üzere tasarlanmamıştır; ancak, Aspose.Cells'dir. API kararlıdır ve elektronik tablo görevlerini tek bir sunucuda, tek bir uygulamaya güç vererek veya kurumsal çapta bir uygulamaya güç veren yük dengeli bir web çiftliğinde kusursuz bir şekilde gerçekleştirebilir.
+Bununla karşılaştırıldığında, Aspose.Cells for .NET son derece ölçeklenebilir, esnek ve hızlıdır. Genellikle Office uygulamaları, 100'ler ve 1000'lerce kullanıcı tarafından aynı anda kullanılmak üzere tasarlanmamıştı; ancak Aspose.Cells öyle. API stabil ve tek bir sunucuda, tek bir uygulamayı çalıştırırken veya kurumsal geniş uygulamayı çalıştıran bir yük dengelemeli ağ çiftliğinde çalışırken mükemmel bir şekilde elektronik tablo görevlerini gerçekleştirebilir.
 
-### **sistem gereksinimleri**
+### **Sistem Gereksinimleri**
 
-Bu iki yaklaşım için sistem gereksinimlerini analiz ederek, VSTO'nun daha pahalı olduğunu ve daha fazla temel öğeye ihtiyaç duyduğunu görüyoruz.
+Bu iki yaklaşımın sistem gereksinimlerini analiz ettiğimizde, VSTO'nun daha pahalı ve daha fazla gereksinim gerektirdiğini buluyoruz.
 
-VSTO'nun uzun bir ön koşul listesi vardır:
+VSTO'nun uzun bir ön gereksinim listesi vardır:
 
-- **Desteklenen İşletim Sistemleri**: Windows 2000; Windows Sunucu 2003; Windows Vista; Windows XP
-- **.NET Desteklenen çerçeve sürümleri**: yalnızca .NET çerçeve 2.0 veya üstü.
-- Aşağıdaki Office için Visual Studio Araçları sürümlerinden biri veya daha fazlası:
- - Microsoft Microsoft Office Sistemi için Visual Studio 2005 Araçları
- - Microsoft 2007 Microsoft Office Sistemi için Visual Studio 2005 Araçları
- - Visual Studio 2008 Professional Sürümü
- - Visual Studio 2008 Takım Paketi Sürümü
- - Microsoft Office'in bir sürümü:
- - Microsoft Office Professional 2003 SP1
- -2007 Microsoft ofis sistemi
+- **Desteklenen İşletim Sistemleri**: Windows 2000; Windows Server 2003; Windows Vista; Windows XP
+- **.NET Framework sürümleri desteklenir**: yalnızca .NET Framework 2.0 veya daha yükseği.
+- Visual Studio Tools for Office'ın aşağıdaki sürümlerinden biri veya daha fazlası:
+  - Microsoft Visual Studio 2005 Tools for the Microsoft Office System
+  - Microsoft Visual Studio 2005 Tools for the 2007 Microsoft Office System
+  - Visual Studio 2008 Professional Edition
+  - Visual Studio 2008 Team Suite Edition
+  - Microsoft Office'un bir sürümü:
+  - Microsoft Office Professional 2003 SP1
+  - 2007 Microsoft Office Sistemi
 
-Aspose.Cells, elektronik tablo oluşturma motoru olduğu için Microsoft Excel'in istemcide veya sunucuda yüklenmesini gerektirmez. Ancak Microsoft Excel belgelerini görüntülemek için sistemde en az Microsoft Excel Viewer kurulu olmalıdır.
+Aspose.Cells, istemci veya sunucuda Microsoft Excel'in kurulu olmasını gerektirmez, çünkü bir elektronik tablo oluşturma motorudur. Ancak Microsoft Excel belgelerini görüntülemek için en azından Microsoft Excel Viewer'ın sistemde kurulu olması gerekir.
 
-- **Desteklenen İşletim Sistemleri**: Windows 2000; Windows Sunucu 2003; Windows Vista; Windows XP
-- **.NET Desteklenen çerçeve sürümleri**: tüm .NET çerçeveleri desteklenir, 1.0, 1.1, 2.0, 3.x vb.
+- **Desteklenen İşletim Sistemleri**: Windows 2000; Windows Server 2003; Windows Vista; Windows XP
+- **.NET Framework sürümleri desteklenir**: tüm .NET framework'leri desteklenir, 1.0, 1.1, 2.0, 3.x vb.
 
 ### **Kurulum ve Dağıtım**
 
-VSTO'yu yüklemek büyük ve zahmetli bir görev olabilir. Bazen bir kurulum, araçların özelliklerini manuel olarak yeniden kurmanızı ve bunları da manuel olarak kaydetmenizi gerektirir. Karmaşık olabilir.
+VSTO'nun kurulması büyük ve zahmetli olabilir. Bazen bir kurulum, araçların bazı kısımlarını manuel olarak yeniden yüklemenizi ve bunları da manuel olarak kaydetmenizi gerektirebilir. Karmaşık hale gelebilir.
 
-Öte yandan, Aspose.Cells for .NET, tek bir DLL'de paketlenmiştir, bu nedenle ek uygulamalar yüklemeye gerek yoktur. Bileşen yalnızca .NET uygulamaları tarafından kullanılır ve bileşen kodunun hiçbir bölümü insan yanıtını bekleyecek şekilde tasarlanmamıştır. Sadece Aspose.Cells'i ziyaret edin[indirme sayfası](https://downloads.aspose.com/cells/net) ve en son Aspose.Cells yükleyicisini indirin. İndirilen dosyayı çalıştırın ve yükleyici talimatlarını izleyin. Ardından, bileşeni kullanmak için projenizde ona başvurun.
+Öte yandan, Aspose.Cells for .NET tek bir DLL ile paketlenmiştir, bu yüzden ek uygulamaları kurmak gerekmez. Bileşen yalnızca .NET uygulamaları tarafından kullanılır ve bileşen kodunun hiçbir bölümü insanın bir yanıtını beklemek üzere tasarlanmamıştır. Sadece Aspose.Cells'in [indirme sayfası](https://downloads.aspose.com/cells/net)'nı ziyaret edin ve en son Aspose.Cells kurulum dosyasını indirin. İndirilen dosyayı çalıştırın ve kurulum talimatlarını izleyin. Ardından, bileşeni projenizde referans olarak kullanın.
 
 ## **Örnek Görev**
 
-İki yaklaşım arasındaki farkları göstermek için aşağıdaki kod, bir şablon dosyasını verilerle doldurmak için hem VSTO hem de Aspose.Cells API'lerinin nasıl kullanılacağını gösterir.
+İki yaklaşım arasındaki farkları göstermek için aşağıdaki kodlar, VSTO ve Aspose.Cells API'larını kullanarak bir şablon dosyasını veriyle doldurmanın nasıl yapıldığını gösterir.
 
-1. Şablon olarak bir Microsoft Excel dosyası (TempBook.xls) kullanılır.
- Çalışma kitabı, verilerle dolu birkaç hücre içeren birkaç çalışma sayfası içerir.
-1. Örnek kod, şablon Excel dosyasındaki ilk çalışma sayfasına 1000*20 kayıt koyar.
- Çalışma sayfası, hücrelere sabit (kukla) verilerle doldurulur.
+1. Bir Microsoft Excel dosyası (TempBook.xls) şablon olarak kullanılır.
+   Çalışmada birkaç çalışma sayfası, birkaç veriyle doldurulmuş hücre içeren bir çalışma kitabı bulunmaktadır.
+1. Örnek kod, şablon Excel dosyasının ilk çalışma sayfasına 1000*20 kayıt yerleştirir.
+   Çalışma sayfası hücrelerine sabit (sahte) veri eklenmiştir.
 
-Görev, Microsoft Windows XP Professional işletim sisteminde Intel(R) Celeron(R) CPU 2.40 GHz, 760 MB RAM'e sahip bir sistemde gerçekleştirilir.
+Görev, Intel(R) Celeron(R) CPU 2.40 GHz, 760 MB RAM'e ve Microsoft Windows XP Professional işletim sistemine sahip bir sistemde gerçekleştirilir.
 
-Aşağıdaki kod bölümleri, her bir API ile bu görevlerin nasıl gerçekleştirileceğini göstermektedir.
+Aşağıdaki kod bölümleri, her bir API ile bu görevleri nasıl gerçekleştireceğinizi gösterir.
 
 ### **VSTO Kodu**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-ComparingVSTOWithAspose-VSTOCode-1.cs" >}}
 
-### **Aspose.Cells Kod**
+### **Aspose.Cells Kodu**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-ComparingVSTOWithAspose-UsingAsposeCells-1.cs" >}}
 
 ### **Sonuçlar**
 
-Sonuçlar, VSTO API kullanımının görevi bitirmesinin yaklaşık 2,5 dakika (yaklaşık 150 saniyeden fazla) sürdüğünü, Aspose.Cells'in ise normal sistem yapılandırmalarına sahip ortak bir donanımda 1 saniyeden daha kısa sürdüğünü gösterdi.
+Sonuçlar, VSTO API'nin görevi bitirmek için yaklaşık 2.5 dakika (yaklaşık 150 saniye) sürdüğünü gösterdi, Aspose.Cells'in normal sistem yapılandırmaları ve yaygın donanımla görevi 1 saniyeden az bir sürede bitirdiğini gösterdi.
 
-Döngü uzatılırsa, örneğin 10.000*20 hücreyi doldurmak için Aspose.Cells'in işi yapması yaklaşık 5,5 saniye sürer.
+Eğer döngü genişletilirse, örneğin, 10.000*20 hücre doldurmak için Aspose.Cells görevi tamamlamak için yaklaşık 5.5 saniye sürer.
 
-## **Çözüm**
+## **Sonuç**
 
-Bir iş çözümünde Microsoft Office teknolojisini kullanmayı düşünüyorsanız, öncelikle mevcut alternatifleri öğrenin. Farklı ürünlere dayalı bazı testler yapın ve ne kadar iyi performans gösterdiklerini görmek için bunları yük ve stres gibi çeşitli gerçek dünya koşullarına maruz bırakın.
+Bir iş çözümünde Microsoft Office teknolojisini kullanmayı düşünüyorsanız, önce mevcut alternatiflerle tanışın. Farklı ürünlere dayalı bazı testler yapın ve bunları yük ve stres gibi çeşitli gerçek dünya koşullarına maruz bırakarak performanslarını gözlemleyin.
 
-Aspose.Cells, dünya çapında müşteri tabanına sahip istikrarlı ve olgun bir üründür ve ağır yükler altında iyi performans gösterecek kadar ölçeklenebilir.
+Aspose.Cells, dünya çapında müşteri tabanına sahip, olgun ve istikrarlı bir üründür ve normal yük altında iyi performans gösterecek kadar ölçeklenebilir.
 
-VSTO'nun performansı henüz rafine edilmedi. Bu performans sorunlarından bazılarının VSTO'nun kendisiyle ilgili olmaması, bunun yerine .NET JIT derleme işlemleriyle bağlantılı olması oldukça olasıdır. Ancak yine de, yük arttıkça VSTO uygulamalarının kendilerinin ölçeklenip ölçeklenmeyeceği konusunda bazı şüpheler var. VSTO'nun daha yeni modeli, belge işleme için Excel'in web sunucusunda bulunmasını gerektirmez, ancak VSTO'nun gerçek bir etki yaratmak için kat etmesi gereken uzun bir yol olduğunu düşünüyorum.
+VSTO'nun performansı henüz rafine değil. .NET JIT derleme işlemleri ile ilgili olmayabilecek performans sorunları olduğu oldukça olasıdır. Ancak yine de, VSTO uygulamalarının yük arttıkça kendilerini ölçeklendireceğine dair belirli şüpheler bulunmaktadır. Yeni VSTO modeli, belge işleme için Excel'in web sunucusunda bulunmasını gerektirmiyor, ancak VSTO'nun gerçek bir etki yaratmak için uzun bir yolu olduğunu düşünüyorum.

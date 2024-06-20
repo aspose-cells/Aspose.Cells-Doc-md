@@ -1,20 +1,21 @@
 ---
-title: Добавить опорное соединение
+title: Добавить связь сводной таблицы
 type: docs
 weight: 30
 url: /ru/python-net/add-pivot-connection/
-description: Узнайте, как добавить поворотное соединение с помощью библиотеки Aspose.Cells for Python via .NET.
-keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Узнайте, как добавить соединение сводной таблицы с помощью Aspose.Cells для Python via .NET.
+keywords: Aspose.Cells для Python Excel, Библиотека Python Excel, Python Добавление соединения сводной таблицы без Excel, Ассоциирование среза и сводной таблицы с помощью Python без Excel, Добавление связи среза с помощью Aspose.Cells для Python библиотека excel.
 ---
-##  **Возможные сценарии использования**
 
-Если вы хотите связать срез и сводную таблицу в Excel, вам нужно щелкнуть срез правой кнопкой мыши и выбрать пункт «Соединения отчетов...». В списке опций вы можете работать с флажком. Аналогично, если вы хотите связать срез и сводную таблицу с помощью Aspose.Cells for Python via .NET API программно, используйте[**Slicer.add_pivot_connection(поворот)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable)метод. Он свяжет срез и сводную таблицу.
+## **Возможные сценарии использования**
 
-##  **Ассоциированный срез и сводная таблица**
+Если вы хотите связать срез и сводную таблицу в Excel, вам необходимо щелкнуть правой кнопкой мыши на срезе и выбрать элемент "Подключение отчетов...". В списке вариантов вы можете управлять флажком. Точно так же, если вы хотите связать срез и сводную таблицу с использованием Aspose.Cells для Python via .NET API программно, используйте метод [**Slicer.add_pivot_connection(pivot)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable). Он свяжет срез и сводную таблицу.
 
-Следующий пример кода загружает[образец файла Excel](add-pivot-connection.xlsx)который содержит существующий срез. Он обращается к срезу, а затем связывает срез и сводную таблицу. Наконец, он сохраняет книгу как[выходной файл Excel](add-pivot-connection-out.xlsx). 
+## **Как связать срез и сводную таблицу с использованием библиотеки Aspose.Cells для Python Excel**
+
+Следующий образец кода загружает [образец файла Excel](add-pivot-connection.xlsx), содержащий существующий фильтр. Он получает доступ к фильтру, а затем ассоциирует фильтр и сводную таблицу. Наконец, он сохраняет рабочую книгу как [выходной файл Excel](add-pivot-connection-out.xlsx). 
 
 
-##  **Образец кода**
+## **Образец кода**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-Adding-Pivot-Connection.py" >}}

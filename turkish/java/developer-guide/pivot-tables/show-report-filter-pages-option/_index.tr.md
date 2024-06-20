@@ -1,16 +1,17 @@
-﻿---
-title: Rapor Filtresi Sayfalarını Göster seçeneği
+---
+title: Rapor Filtre Sayfalarını Göster seçeneği
 type: docs
 weight: 140
 url: /tr/java/show-report-filter-pages-option/
 ---
-## **Rapor filtre sayfaları seçeneğini göster**
 
-Excel, özet tablolar oluşturmayı, rapor filtreleri eklemeyi ve "Rapor Filtresi Sayfalarını Göster" seçeneğini etkinleştirmeyi destekler. Aspose.Cells ayrıca, oluşturulan pivot tabloda "Rapor Filtre Sayfalarını Göster" seçeneğini etkinleştirmek için bu özelliği destekler. Excel'de seçeneği gösteren ekran aşağıdadır.
+## **Rapor filtre sayfalarını göster seçeneği**
 
-![yapılacaklar:resim_alternatif_metin](show-report-filter-pages-option_1.png)
+Excel, pivot tabloları oluşturmayı, rapor filtreleri eklemeyi ve "Rapor Filtre Sayfalarını Göster" seçeneğini etkinleştirmeyi destekler. Aspose.Cells aynı şekilde oluşturulan pivot tablosunda "Rapor Filtre Sayfalarını Göster" seçeneğini etkinleştirmek için bu özelliği destekler. Aşağıdaki ekran, seçeneği Excel'de göstermektedir.
 
-Bu seçeneğin bir sonucu olarak, oluşturulan çalışma kitabı daha fazla çalışma sayfası içerir. Rapor filtresinin olası her değerini ayrı bir çalışma sayfasına böler. Bu örnekte, "Konum" üzerinde bir filtreye sahiptir ve verilerin üç ayrı konumu vardır (A, B, C). Bu özellik, aynı pivot tablo olan ancak önceden seçilmiş A, B ve C seçeneğiyle A, B, C adlı 3 ek çalışma sayfası ekler.
+![todo:image_alt_text](show-report-filter-pages-option_1.png)
+
+Bu seçeneğin sonucunda oluşturulan çalışma kitabı daha fazla çalışsayı içerir. Rapor filtresinin her olası değerini ayrı bir çalışsayıda böler. Bu özellik örnek olarak "Pozisyon" üzerinde bir filtre içerir ve veriler üç farklı pozisyonda (A, B, C) içerir. Bu özellik A, B, C adında 3 ek çalışsayı ekler ve bunlar önceden seçilmiş seçenek A, B ve C'ye aynı olan bir pivot tablosudur.
 
 Örnek dosya ve çıktı dosyası aşağıdaki bağlantılardan indirilebilir:
 
@@ -18,6 +19,6 @@ Bu seçeneğin bir sonucu olarak, oluşturulan çalışma kitabı daha fazla ça
 
 [outputSamplePivotTable.xls](81920918.xlsx)
 
-## Kaynak kodu
+## Kaynak Kod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-ShowReportFilterPagesOption-1.java" >}}

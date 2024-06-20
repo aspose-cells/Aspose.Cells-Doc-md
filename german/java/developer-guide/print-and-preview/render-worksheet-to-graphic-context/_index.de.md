@@ -1,18 +1,19 @@
-﻿---
-title: Rendern Sie das Arbeitsblatt in den grafischen Kontext
+---
+title: Arbeitsblatt in Grafikkontext rendern
 type: docs
 weight: 300
 url: /de/java/render-worksheet-to-graphic-context/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells kann jetzt Arbeitsblätter im grafischen Kontext rendern. Der grafische Kontext kann alles wie eine Bilddatei, ein Bildschirm oder ein Drucker usw. sein. Bitte verwenden Sie die folgende Methode, um ein Arbeitsblatt in einen grafischen Kontext zu rendern.
+Aspose.Cells kann jetzt ein Arbeitsblatt in den grafischen Kontext rendern. Der grafische Kontext kann alles sein, wie z.B. Bilddatei, Bildschirm oder Drucker usw. Verwenden Sie bitte die folgende Methode, um ein Arbeitsblatt in den grafischen Kontext zu rendern.
 
-- SheetRender.toImage(int pageIndex, Graphics2D-Grafik)
+- SheetRender.toImage(int pageIndex, Graphics2D graphic)
 
 {{% /alert %}} 
-## **Rendern Sie das Arbeitsblatt in den grafischen Kontext**
- Der folgende Code veranschaulicht, wie Aspose.Cells verwendet wird, um ein Arbeitsblatt im grafischen Kontext zu rendern. Sobald Sie einen Code ausführen, druckt er das gesamte Arbeitsblatt und füllt den verbleibenden leeren Raum mit blauer Farbe im Grafikkontext und speichert das Bild als**test.png** Datei. Sie können jede Excel-Quelldatei verwenden, um diesen Code auszuprobieren. Bitte lesen Sie zum besseren Verständnis auch die Kommentare im Code.
+## **Arbeitsblatt in Grafikkontext rendern**
+Der folgende Code zeigt, wie man Aspose.Cells verwendet, um ein Arbeitsblatt in den grafischen Kontext zu rendern. Wenn Sie den Code ausführen, wird das gesamte Arbeitsblatt gedruckt und der übrig gebliebene leere Raum im grafischen Kontext mit blauer Farbe gefüllt und das Bild als Test.png gespeichert. Sie können beliebige Excel-Quelldatei verwenden, um diesen Code auszuprobieren. Bitte lesen Sie auch die Kommentare im Code für ein besseres Verständnis.
 
 
 

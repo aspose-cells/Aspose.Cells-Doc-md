@@ -1,17 +1,18 @@
-﻿---
-title: Read Numbers Spreadsheet Entwickelt von Apple Inc. unter Verwendung von Aspose.Cells
-linktitle: Lesen Numbers Entwickelt von Apple Inc.
+---
+title: Zahlen Tabelle entwickelt von Apple Inc. unter Verwendung von Aspose.Cells
+linktitle: Zahlen von Apple Inc. lesen
 type: docs
 weight: 90
 url: /de/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Numbers ist eine von Apple Inc. entwickelte Tabellenkalkulationsanwendung. Aspose.Cells kann die Tabellenkalkulation Numbers lesen, unterstützt jedoch nicht das Schreiben darin. Es kann die Daten, den Stil und die Formeln der Tabelle Numbers lesen.
+## **Mögliche Verwendungsszenarien**
 
-## **Read Numbers Spreadsheet Entwickelt von Apple Inc. unter Verwendung von Aspose.Cells**
+Numbers ist eine Tabellenkalkulationsanwendung, die von Apple Inc. entwickelt wurde. Aspose.Cells kann eine Numbers-Tabelle lesen, unterstützt jedoch nicht das Schreiben darauf. Es kann Daten, Formatierungen und Formeln der Numbers-Tabelle lesen.
 
- Der folgende Beispielcode lädt die[Beispieltabelle Numbers](sampleNumbersByAppleInc.numbers) und wandelt es um[Ausgabe PDF Format](outputNumbersByAppleInc.pdf) . Sie müssen verwenden**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** Klasse und angeben**[LoadFormat.NUMBERS](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#NUMBERS)**als Parameter in seinem Konstruktor, um es erfolgreich zu laden. Bitte laden Sie beide von den angegebenen Links herunter. Sie können den Code mit jeder Numbers-Tabelle ausprobieren. Bitte lesen Sie auch die Kommentare des Codes für weitere Hilfe.
+## **Zahlen-Tabellenkalkulation von Apple Inc. mit Aspose.Cells lesen**
+
+Der folgende Beispielcode lädt die [Beispielzahlen-Tabelle](sampleNumbersByAppleInc.numbers) und konvertiert sie in das [Ausgabe-PDF-Format](outputNumbersByAppleInc.pdf). Sie müssen die [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) -Klasse verwenden und [**LoadFormat.NUMBERS*](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#NUMBERS) als Parameter in ihrem Konstruktor angeben, um sie erfolgreich zu laden. Bitte laden Sie beide von den angegebenen Links herunter. Sie können den Code mit jeder Numbers-Tabelle ausprobieren. Lesen Sie auch die Kommentare des Codes für weitere Hilfe.
 
 ## **Beispielcode**
 

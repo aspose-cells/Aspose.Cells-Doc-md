@@ -1,15 +1,16 @@
-﻿---
-title: Créer des graphiques en xlsx4j
+---
+title: Créer des graphiques dans xlsx4j
 type: docs
 weight: 20
 url: /fr/java/create-charts-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Créer des graphiques**
-Il est possible d'ajouter une variété de graphiques aux feuilles de calcul avec Aspose.Cells. Aspose.Cells fournit de nombreux objets graphiques flexibles.
+Il est possible d'ajouter une variété de graphiques aux feuilles de calcul avec Aspose.Cells. Aspose.Cells fournit de nombreux objets de diagrammes flexibles.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -68,7 +69,7 @@ serieses.add("A1:B3", true);
 workbook.save(dataDir + "Chart_Aspose.xls");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/charts/createcharts/AsposeCreateCharts.java)

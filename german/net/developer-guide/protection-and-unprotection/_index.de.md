@@ -1,34 +1,36 @@
-﻿---
-title: Schützen und Schutz aufheben
+---
+title: Schützen und aufheben des Schutzes
 linktitle: Verschlüsselung und Schutz
 type: docs
 weight: 68
 url: /de/net/protect-and-unprotect/
 alias: [/net/security-features/]
-description: Dieses Snippet stellt vor, wie Sie Excel-Dateien verschlüsseln und entschlüsseln, die Daten in Excel-Dateien mit CSharp-Codes schützen und entschützen.
+description: Dieser Ausschnitt zeigt, wie man Excel Dateien verschlüsselt und entschlüsselt, Daten in Excel Dateien schützt und entschützt, indem man CSharp Codes verwendet.
 ---
+
+
 {{% alert color="primary" %}}
-Aspose.Cells für .Net bietet ein breites Spektrum an Schutz und Aufhebung des Schutzes von der Datei- bis zur Datenebene wie MS Excel:
+Aspose.Cells für .Net bietet eine breite Palette von Funktionen zum Schutz und zur Aufhebung des Schutzes auf Datei- und Datenebene, ähnlich wie MS Excel:
 {{% /alert %}}
 
 
-## [**Verschlüsseln und entschlüsseln Sie Excel-Dateien**](/cells/de/net/encrypt-and-decrypt-excel-files/)
-Um zu verhindern, dass andere auf Daten in Excel-Dateien zugreifen, schützen Sie die Excel-Datei mit einem Kennwort.
+## [**Encrypt and decrypt Excel files**](/cells/de/net/encrypt-and-decrypt-excel-files/)
+Um anderen den Zugriff auf Daten in Excel-Dateien zu verwehren, schützen Sie die Excel-Datei mit einem Kennwort.
 
-## [**Arbeitsmappe schützen und Schutz aufheben**](/cells/de/net/protect-and-unprotect-workbook-structure/)
-Um zu verhindern, dass andere Benutzer ausgeblendete Arbeitsblätter anzeigen, Arbeitsblätter hinzufügen, verschieben, löschen oder ausblenden und Arbeitsblätter umbenennen, können Sie die Struktur Ihrer Excel-Arbeitsmappe mit einem Kennwort schützen.
+## [**Protect and unprotect workbook**](/cells/de/net/protect-and-unprotect-workbook-structure/)
+Um zu verhindern, dass andere Benutzer versteckte Arbeitsblätter einsehen, Arbeitsblätter hinzufügen, verschieben, löschen oder ausblenden und Arbeitsblätter umbenennen, können Sie die Struktur Ihres Excel-Arbeitsblatts mit einem Kennwort schützen.
 
-## [**Arbeitsblatt schützen und Schutz aufheben**](/cells/de/net/protect-and-unprotect-worksheets/)
-Um zu verhindern, dass andere Benutzer versehentlich oder absichtlich Daten in einem Arbeitsblatt ändern, verschieben oder löschen, können Sie die Zellen in Ihrem Excel-Arbeitsblatt sperren und das Blatt dann mit einem Kennwort schützen.
+## [**Protect and unprotect worksheet**](/cells/de/net/protect-and-unprotect-worksheets/)
+Um zu verhindern, dass andere Benutzer versehentlich oder absichtlich Daten in einem Arbeitsblatt ändern, verschieben oder löschen, können Sie die Zellen in Ihrem Excel-Arbeitsblatt sperren und das Blatt dann mit einem Kennwort schützen. 
 
-## [**Freigegebene Arbeitsmappe schützen und Schutz aufheben**](/cells/de/net/password-protect-or-unprotect-the-shared-workbook/)
-Schützen Sie die freigegebene Arbeitsmappe und heben Sie den Schutz auf.
+## [**Protect and unprotect shared workbook**](/cells/de/net/password-protect-or-unprotect-the-shared-workbook/)
+Schützen und den Schutz für die freigegebene Arbeitsmappe aufheben.
 
-## [**Hinzufügen oder Entfernen einer digitalen Signatur in Office-Dateien**](/cells/de/net/assign-and-validate-digital-signatures/)
-Schützen Sie die Authentizität des Inhalts eines Dokuments, indem Sie eine digitale Signatur hinzufügen.
+## [**Add or remove a digital signature in Office files**](/cells/de/net/assign-and-validate-digital-signatures/)
+Schützen Sie die Authentizität des Dokumenteninhalts, indem Sie eine digitale Signatur hinzufügen.
 
-## **Themen vorantreiben**
-- [Überprüfen Sie das zu ändernde Passwort mit Aspose.Cells](/cells/de/net/check-password-to-modify-using-aspose-cells/)
-- [Erkennen Sie das Dateiformat von verschlüsselten Office Open XML - OOXML-Dateien](/cells/de/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
-- [Verschlüsseln von Excel-Dateien](/cells/de/net/encrypting-excel-files/)
-- [So erkennen Sie ein Dateiformat und prüfen, ob die Datei verschlüsselt ist](/cells/de/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)
+## **Erweiterte Themen**
+- [Überprüfen Sie das Kennwort zur Änderung mit Aspose.Cells](/cells/de/net/check-password-to-modify-using-aspose-cells/)
+- [Erkennen Sie das Dateiformat verschlüsselter Office Open XML - OOXML-Dateien](/cells/de/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/)
+- [Verschlüsselung von Excel-Dateien](/cells/de/net/encrypting-excel-files/)
+- [Wie erkennt man ein Dateiformat und überprüft, ob die Datei verschlüsselt ist](/cells/de/net/how-to-detect-a-file-format-and-check-if-the-file-is-encrypted/)

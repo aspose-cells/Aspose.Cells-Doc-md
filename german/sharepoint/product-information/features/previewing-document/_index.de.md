@@ -1,25 +1,26 @@
-﻿---
-title: Vorschau des Dokuments
+---
+title: Dokumentenvorschau
 type: docs
 weight: 40
 url: /de/sharepoint/previewing-document/
 ---
-Aspose.Cells für SharePoint unterstützt die Vorschau von Dokumenten direkt aus SharePoint. Die folgenden Formate unterstützen die Vorschau:
+
+Aspose.Cells für SharePoint unterstützt das direkte Vorschauen von Dokumenten aus SharePoint. Die folgenden Formate unterstützen die Vorschau:
 
 - XLS – Microsoft Excel 97 - 2003
 - XLSX – Office Open XML
 - XLSM, XLTX, XLTM – Office Open XML
 - XML – Microsoft Excel SpreadsheetML
 
-**Auswählen eines Dokuments für die Vorschau** 
+**Auswahl eines Dokuments zur Vorschau** 
 
-![todo: Bild_alt_Text](previewing-document_1.png)
+![todo:image_alt_text](previewing-document_1.png)
 
 
 
-**Dokumentvorschau aus einer SharePoint-Bibliothek heraus** 
+**Dokumentenvorschau aus einer SharePoint-Bibliothek heraus** 
 
-![todo: Bild_alt_Text](previewing-document_2.png)
+![todo:image_alt_text](previewing-document_2.png)
 
 
 

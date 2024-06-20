@@ -1,16 +1,17 @@
-﻿---
-title: Excel ワークシートごとに 1 つの PDF ページをレンダリング - Excel から PDF への変換
+---
+title: Excelワークシートごとに1つのPDFページをレンダリングする  ExcelからPDFへの変換
 type: docs
 weight: 100
 url: /ja/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 ---
+
 {{% alert color="primary" %}} 
 
-大きな Microsoft Excel ファイル (たとえば、50 列と 300 行以上のデータを含む多数のシートを含むワークブック) を操作する場合、ワークシートのサイズに関係なく、PDF の出力でワークシートごとに 1 ページを表示することが必要な場合があります。 .これは、各ページのページ サイズが根本的に異なる可能性が高いことを意味します。これは、Aspose.Cells for .NET を使用して実現できます。
+大きなMicrosoft Excelファイル（たとえば、各50列と300行以上のデータを持つ多くのシートがあるワークブック）を使用して作業する場合、ワークシートごとに1ページでPDF出力されるようにしたい場合があります。これにより、各ページがおそらく大きく異なるページサイズになります。これは、Aspose.Cells for .NETを使用することで達成できます。
 
 {{% /alert %}} 
 
-複数のワークシートを含む Excel ファイルを PDF に変換する次のサンプル コードを参照してください。
+複数のワークシートを持つExcelファイルをPDFに変換するサンプルコードをご確認ください。
 
 
 
@@ -18,10 +19,10 @@ url: /ja/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 
 {{% alert color="primary" %}} 
 
-もし[シートごとに 1 ページ](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet)オプションはに設定されています**真実**、すべてのシート コンテンツが 1 つの PDF ページにレンダリングされます。
+[OnePagePerSheet](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet)オプションが**true**に設定されている場合、すべてのシートコンテンツが1つのPDFページにレンダリングされます。
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-スプレッドシートに数式が含まれている場合は、[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)スプレッドシートを PDF にレンダリングする直前。これにより、式に依存する値が再計算され、正しい値が PDF にレンダリングされます。
+スプレッドシートに数式が含まれている場合、スプレッドシートをPDFにレンダリングする直前に[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)を呼び出すことが最善です。これにより、数式に依存した値が再計算され、正しい値がPDFに表示されます。
 
 {{% /alert %}}

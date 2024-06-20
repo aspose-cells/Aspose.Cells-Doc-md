@@ -1,66 +1,67 @@
 ---
-title: Pivot Tabloyu Biçimlendirme
+title: Pivot Tablosunu Biçimlendirme
 type: docs
 weight: 10
-url: /tr/net/formatting-pivot-table/
-description: Aspose.Cells for Python via .NET ile pivot tablo nasıl formatlanır?
-keywords: Format pivot table.
+url: /tr/python-net/formatting-pivot-table/
+description: Aspose.Cells for Python via .NET ile pivot tablosu nasıl biçimlendirilir.
+keywords: Pivot Tablo Biçimlendirme.
 ---
-##  **Pivot Tablo Görünümü**
 
-Pivot Tablo Nasıl Oluşturulur, basit bir pivot tablonun nasıl oluşturulacağını açıklar. Bu makalede, çeşitli özellikleri ayarlayarak bir pivot tablonun görünümünün nasıl özelleştirileceği açıklanmaktadır:
+## **Döndürme Tablosu Görünümü**
 
-- Pivot tablo formatı seçenekleri
+Bir Pivot Tablosu Nasıl Oluşturulur, basit bir pivot tablosu nasıl oluşturulurun açıklanmasının yanı sıra bu makale, çeşitli özellikleri ayarlayarak bir pivot tablosunun görünümünü özelleştirmeyi açıklar:
+
+- Pivot tablo format seçenekleri
 - Pivot alanları format seçenekleri
-- Veri alanı formatı seçenekleri
+- Veri alanı format seçenekleri
 
-###  **Pivot Tablo Formatı Seçeneklerini Ayarlama**
+### **Pivot Tablo Format Seçeneklerini Ayarlama**
 
-[**Pivot tablo**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/)class genel pivot tabloyu kontrol eder ve çeşitli şekillerde biçimlendirilebilir.
+Toplam Otomatik Biçim Türünü Ayarlama
 
-####  **Otomatik Format Türünü Ayarlama**
+#### **Otomatik Biçim Türünün Ayarlanması**
 
-Microsoft Excel bir dizi farklı önceden ayarlanmış rapor formatı sunar. Aspose.Cells for Python via .NET de bu biçimlendirme seçeneklerini destekliyor. Onlara erişmek için:
+Microsoft Excel, birkaç farklı önceden belirlenmiş rapor biçimi sunar. Aspose.Cells ile Python için via .NET bu biçimlendirme seçeneklerini destekler. Bunlara erişmek için:
 
-1.  Ayarlamak[**PivotTable.is_auto_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_auto_format/)*doğruya**.
-1.  Bir biçimlendirme seçeneği atayın[**PivotTableOtomatikFormatTürü**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottableautoformattype/)numaralandırma.
+1. [**PivotTable.is_auto_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_auto_format/) değerini **true** olarak ayarlayın.
+1. [**PivotTableAutoFormatType**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottableautoformattype/) numaralandırmasından bir biçimlendirme seçeneği atayın.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingAutoFormat-1.py" >}}
 
-####  **Format Seçeneklerini Ayarlama**
+#### **Biçim Seçeneklerini Ayarlama**
 
-Aşağıdaki kod örneği, pivot tablonun satırlar ve sütunlar için genel toplamları gösterecek şekilde nasıl biçimlendirileceğini ve raporun alan sırasının nasıl ayarlanacağını gösterir. Ayrıca boş değerler için müşteri dizesinin nasıl ayarlanacağını da gösterir.
+Biçim Seçeneklerini Ayarlama
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingFormatOptions-1.py" >}}
 
-####  **Görünüm ve Hissi Manuel Olarak Biçimlendirme**
+#### **Aşağıdaki kod örneği, pivot tablosunu satır ve sütunlar için toplamları göstermek üzere biçimlendirme ve raporun alan sırasını ayarlamayı gösterir. Ayrıca, null değerler için özel bir dize ayarlamak da gösterilir.**
 
-Pivot tablo raporunun manuel olarak nasıl görüneceğini biçimlendirmek için önceden ayarlanmış rapor formatlarını kullanmak yerine[**PivotTable.format_all(stil)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) Ve[**PivotTable.format(satır, sütun, stil)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/)yöntemler. İstediğiniz biçimlendirme için bir stil nesnesi oluşturun, örneğin:
+Önceden belirlenmiş rapor biçimleri yerine, pivot tablo raporunun nasıl görüneceğini manuel olarak düzenlemek için [**PivotTable.format_all(style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) ve [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/) yöntemlerini kullanın. İstenen biçimlendirme için bir stil nesnesi oluşturun.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-FormattingLook-1.py" >}}
 
-###  **Pivot Alanı Formatı Seçeneklerini Ayarlama**
+### **Pivot Alanı Biçim Seçeneklerini Ayarlama**
 
-[**Pivot Alanı**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/)sınıf, pivot tablodaki bir alanı temsil eder ve çeşitli şekillerde biçimlendirilebilir. Aşağıdaki kod örneği aşağıdakilerin nasıl yapılacağını gösterir:
+Pivot Alanı Biçim Seçeneklerini Ayarlama
 
-- Satır alanlarına erişin.
+- Satır alanlarına erişim.
 - Alt toplamları ayarlama.
 - Otomatik sıralamayı ayarlama.
-- Otomatik gösteriyi ayarlama.
+- Otomatik gösterimi ayarlama.
 
-####  **Satır/Sütun/Sayfa Alanları Formatını Ayarlama**
+#### **Satır/Sütun/Sayfa Alan Biçimini Nasıl Ayarlanır**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingPageFieldFormat-1.py" >}}
 
-###  **Veri alanları formatını ayarlama**
+### **Veri alanı biçimini nasıl ayarlanır**
 
-Aşağıdaki kod örneği, veri alanları için görüntüleme biçimlerinin ve sayı biçiminin nasıl ayarlanacağını gösterir.
+Aşağıdaki kod örneği, veri alanları için görüntü biçimlerini ve sayı biçimini ayarlamayı göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingDataFieldFormat-1.py" >}}
 
-###  **Pivot Alanlarını Temizleme**
+### **Pivot Alanlarını Temizleme Yöntemi**
 
-[**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/) adında bir yöntem var[**clear()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#)Bu, pivot alanlarını temizlemenizi sağlar. Sayfa, sütun, satır veya veri gibi alanlardaki tüm pivot alanlarını temizlemek istediğinizde bunu kullanın.
-Aşağıdaki kod örneği, bir veri alanındaki tüm pivot alanların nasıl temizleneceğini gösterir.
+[**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/), örneğin sayfa, sütun, satır veya veri gibi tüm pivot alanlarını temizlemenize izin veren [**clear()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#) adında bir yönteme sahiptir. Örneğin, tüm veri alanlarını temizlemek istediğinizde, bunu kullanın.
+Aşağıdaki kod örneği, bir veri alanındaki tüm pivot alanlarını temizlemeyi göstermektedir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}

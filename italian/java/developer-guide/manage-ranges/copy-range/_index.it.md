@@ -1,33 +1,34 @@
-﻿---
-title: Copia gli intervalli di Excel
-linktitle: Copia intervalli
+---
+title: Copia degli intervalli di Excel
+linktitle: Copiare gli intervalli
 type: docs
 weight: 30
 url: /it/java/copy-ranges-of-Excel/
 ---
-## **introduzione**
 
-In Excel, puoi selezionare un intervallo, copiare l'intervallo, quindi incollarlo con opzioni specifiche nello stesso foglio di lavoro, in altri fogli di lavoro o in altri file.
+## **Introduzione**
 
-## **Copia gli intervalli utilizzando Aspose.Cells**
+In Excel, è possibile selezionare un intervallo, copiare l'intervallo, quindi incollarlo con opzioni specifiche nello stesso foglio di lavoro, in altri fogli di lavoro o in altri file.
 
- Aspose.Cells fornisce un certo sovraccarico[Intervallo.Copia](https://reference.aspose.com/cells/java/com.aspose.cells/range) metodi per copiare l'intervallo.
-## **Intervallo di copia**
+## **Copiare intervalli utilizzando Aspose.Cells**
 
-Creazione di due intervalli: l'intervallo di origine, l'intervallo di destinazione, quindi la copia dell'intervallo di origine nell'intervallo di destinazione con il metodo Range.Copy.
+Aspose.Cells fornisce alcuni metodi di sovraccarico [Range.Copy](https://reference.aspose.com/cells/java/com.aspose.cells/range) per copiare l'intervallo.
+## **Copia Intervallo**
 
-Vedere il seguente codice:
+Creazione di due intervalli: l'intervallo di origine, l'intervallo di destinazione, quindi copiare l'intervallo di origine nell'intervallo di destinazione con il metodo Range.Copy.
+
+Vedere il codice seguente:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Copy-Range.java" >}}
 
-## **Incolla intervallo con opzioni**
+## **Incolla l'intervallo con opzioni**
 
-Aspose.Cells supporta l'incollaggio dell'intervallo con un tipo specifico.
+Aspose.Cells supporta l'incollaggio del intervallo con un tipo specifico.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Paste-Range.java" >}}
 
 ## **Copia solo i dati dell'intervallo.**
-Inoltre puoi copiare i dati con il metodo Range.CopyData come i seguenti codici:
+Puoi anche copiare i dati con il metodo Range.CopyData come nei seguenti codici:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Copy-Range-Data.java" >}}
 

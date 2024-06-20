@@ -1,24 +1,25 @@
-﻿---
-title: Yazdırılacak Hiçbir Şey Olmadığında Çıktı PDF'de Boş Sayfadan Kaçının
+---
+title: Boş sayfa olmadığında Çıktı PDF de Boş Sayfa İşlemi
 type: docs
 weight: 30
 url: /tr/net/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Excel dosyası boş olduğunda ve kullanıcı Aspose.Cells'i kullanarak PDF'e kaydettiğinde, PDF çıktısında boş bir sayfa oluşturur. Bazen, bu varsayılan davranış istenmeyen bir durumdur. Aspose.Cells sağlar[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint) Bu sorunla başa çıkmak için mülk. olarak ayarlarsanız**YANLIŞ**, o zamanlar[**Hücre İstisnası**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception)PDF çıktısında yazdırılacak hiçbir şey olmadığında gerçekleşir.
+Excel dosyası boş olduğunda ve kullanıcı Aspose.Cells'i kullanarak PDF'ye kaydettiğinde, çıktı PDF'de boş bir sayfa oluşturur. Bu varsayılan davranış bazen istenmeyebilir. Aspose.Cells, bu sorunla başa çıkmak için [**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint) özelliğini sağlar. Eğer bu özelliği **false** olarak ayarlarsanız, çıktı PDF'de bir şey basılacak olmadığında [**CellsException**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception) meydana gelecektir.
 
-## **Yazdırılacak Hiçbir Şey Olmadığında Çıktı PDF'de Boş Sayfadan Kaçının**
+## **Çıktı PDF'inde Boş Sayfa Oluşmasını Engelle**
 
-Aşağıdaki örnek kod, boş bir çalışma kitabı oluşturur ve ardından bunu ayarladıktan sonra PDF olarak kaydeder.[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint) olarak mülkiyet**YANLIŞ**. PDF çıktısında yazdırılacak bir şey olmadığından,[**Hücre İstisnası**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception)aşağıda gösterildiği gibi gerçekleşir.
+Aşağıdaki örnek kod, boş bir çalışma kitabı oluşturur ve ardından **false** olarak ayarlanmış olan [**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/outputblankpagewhennothingtoprint) özelliğini ayarladıktan sonra PDF olarak kaydeder. Çıktı PDF'de yazdırılacak bir şey olmadığı için aşağıdaki gibi **[**CellsException**](https://reference.aspose.com/cells/net/aspose.cells/cellsexception)** gösterilir.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rendering-AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint.cs" >}}
 
 ## **İstisna**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Aspose.Cells.CellsException was unhandled
 

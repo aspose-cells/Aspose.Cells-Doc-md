@@ -1,24 +1,25 @@
-﻿---
-title: Hämta HTML5-sträng från Cell
+---
+title: Hämta HTML5 sträng från cell
 type: docs
 weight: 90
 url: /sv/java/get-html5-string-from-cell/
 ---
-## **Möjliga användningsscenarier**
 
-Aspose.Cells returnerar HTML-strängen för cellen med[**getHtmlString(boolesk html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)metod. Om du passerar**falsk**som en parameter kommer den att returnera normal HTML men om du klarar**Sann**som en parameter returnerar den HTML5-sträng.
+## **Möjliga användningsscenario**
 
-## **Hämta HTML5-sträng från Cell**
+Aspose.Cells returnerar HTML-strängen från cellen med metoden [**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString). Om du skickar **false** som parameter, kommer den returnera Normal HTML men om du skickar **true** som parameter, kommer den returnera HTML5-strängen.
 
-Följande exempelkod skapar ett arbetsboksobjekt och lägger till lite text i cell A1 i det första kalkylbladet. Den får sedan strängen Normal HTML och HTML5 från cell A1 med hjälp av[**getHtmlString(boolesk html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)metod och skriver ut dem på konsolen.
+## **Hämta HTML5-sträng från cell**
+
+Följande exemplarkod skapar en arbetsbok och lägger till lite text i cell A1 i det första arket. Sedan hämtar den Normal HTML och HTML5-strängen från cell A1 med hjälp av metoden [**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) och skriver ut dem i konsolen.
 
 ## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-GetHTML5StringFromCell.java" >}}
 
-## **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Normal:
 

@@ -1,29 +1,30 @@
 ---
-title: Licensing
+title: ترخيص
 type: docs
 weight: 50
 url: /ar/java/licensing/
-description: يوفر Aspose.Cells لـ JAVA خططًا مختلفة للشراء أو يقدم نسخة تجريبية مجانية وترخيصًا مؤقتًا لمدة 30 يومًا للتقييم باستخدام Licensing وسياسات الاشتراك في Java.
-keywords: Java Apply License from Disk or Stream. Java Set License from Disk or Stream. Apply License in Aspose.Cells for Java.
+description: توفر Aspose.Cells for JAVA خططًا مختلفة للشراء أو تقدم تجربة مجانية وترخيصًا مؤقتًا لمدة 30 يومًا للتقييم باستخدام سياسات الترخيص والاشتراك في جافا.
+keywords: تطبيق ترخيص جافا من القرص أو التيار. تعيين الترخيص في جافا من القرص أو التيار. تطبيق الترخيص في Aspose.Cells for Java.
 ---
-##  **كيفية تقديم طلب ترخيص في مكون Aspose.Cells**
 
-الترخيص عبارة عن ملف XML نصي عادي يحتوي على تفاصيل مثل اسم المنتج وعدد المطورين المرخص لهم وتاريخ انتهاء صلاحية الاشتراك وما إلى ذلك. تم توقيع الملف رقميًا، لذا لا تقم بتعديل الملف؛ حتى الإضافة غير المقصودة لفاصل أسطر إضافي في الملف ستؤدي إلى إبطاله.
+## **كيفية تطبيق ترخيص في مكون Aspose.Cells**
 
-تحتاج إلى تعيين ترخيص قبل استخدام Aspose.Cells إذا كنت تريد تجنب قيود التقييم الخاصة به. لا يُطلب منك سوى تعيين ترخيص مرة واحدة لكل تطبيق أو عملية.
+الترخيص هو ملف نصي عادي بتنسيق XML يحتوي على تفاصيل مثل اسم المنتج، عدد المطورين الذين يتم ترخيصهم، تاريخ انتهاء الاشتراك وما إلى ذلك. يتم توقيع الملف رقمياً، لذلك لا تقم بتعديل الملف؛ حتى إضافة عرضية لسطر إضافي إلى الملف ستجعله غير صالح.
 
-يمكن تحميل الترخيص من دفق أو ملف في المواقع التالية:
+يجب عليك تعيين ترخيص قبل استخدام Aspose.Cells إذا كنت ترغب في تجنب قيود التقييم الخاصة به. أنت مطالب بتعيين ترخيص مرة واحدة فقط لكل تطبيق أو عملية.
+
+يمكن تحميل الترخيص من تيار أو ملف في المواقع التالية:
 
 1. المسار الصريح.
 1. المجلد الذي يحتوي على Aspose.Cells.jar.
 
- استخدم ال[License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) طريقة ترخيص المكون. غالبًا ما تكون أسهل طريقة لتعيين ترخيص هي وضع ملف الترخيص في نفس المجلد مثل Aspose.Cells.jar وتحديد اسم الملف فقط بدون مسار كما هو موضح في المثال التالي:
+استخدم طريقة [License.setLicense](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) لترخيص العنصر. غالبًا ما يكون أسهل طريقة لتعيين ترخيص هو وضع ملف الترخيص في نفس مجلد Aspose.Cells.jar وتحديد اسم الملف فقط دون مسار كما هو موضح في المثال التالي:
 
-###  **كيفية تطبيق ترخيص من القرص**
+### **كيفية تطبيق ترخيص من القرص**
 
- في هذا المثال**Aspose.Cells** سيحاول العثور على ملف الترخيص في المجلد الذي يحتوي على ملفات JAR الخاصة بتطبيقك.
+في هذا المثال سيحاول **Aspose.Cells** العثور على ملف الترخيص في المجلد الذي يحتوي على ملفات JARs لتطبيقك.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 com.aspose.cells.License license = new com.aspose.cells.License();
 
@@ -31,11 +32,11 @@ license.setLicense("Aspose.Cells.Java.lic");
 
 {{< /highlight >}}
 
-###  **كيفية تطبيق ترخيص من Stream**
+### **كيفية تطبيق ترخيص من التيار**
 
-تهيئة الترخيص من الدفق.
+يقوم بتهيئة ترخيص من تيار.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 com.aspose.cells.License license = new com.aspose.cells.License();
 
@@ -43,11 +44,11 @@ license.setLicense(new java.io.FileInputStream("Aspose.Cells.Java.lic"));
 
 {{< /highlight >}}
 
-###  **كيفية تقديم طلب ترخيص في Aspose.Cells.GridWeb**
+### **كيفية تطبيق ترخيص في Aspose.Cells.GridWeb**
 
-يوصى بوضع رمز الترخيص في مكان في تطبيق الويب الخاص بك حيث يجب معالجته أولاً.
+يُوصى بوضع رمز الترخيص في مكان في تطبيق الويب الخاص بك حيث يجب معالجته أولا.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate an instance of license and set the license file through its path
 
@@ -57,13 +58,13 @@ lic.setLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-##  **كيفية تطبيق الترخيص المقنن**
+## **كيفية تطبيق ترخيص معتمد على الاستخدام**
 
-Aspose.Cells يسمح للمطورين بتطبيق المفتاح المقنن. إنها آلية ترخيص جديدة. وسيتم استخدام آلية الترخيص الجديدة إلى جانب طريقة الترخيص الحالية. يمكن لهؤلاء العملاء الذين يريدون أن تتم محاسبتهم على أساس استخدام ميزات API استخدام الترخيص المقنن. لمزيد من التفاصيل، يرجى الرجوع إلى[عداد Licensing الأسئلة الشائعة](https://purchase.aspose.com/faqs/licensing/metered)قسم.
+تسمح Aspose.Cells للمطورين بتطبيق مفتاح معتمد. إنه آلية ترخيص جديدة. سيتم استخدام آلية الترخيص الجديدة إلى جانب الطريقة الترخيص الموجودة. يمكن لأولئك العملاء الذين يرغبون في الفوترة استنادًا إلى استخدام ميزات واجهة برمجة التطبيقات استخدام الترخيص المعتمد. لمزيد من التفاصيل، يرجى الرجوع إلى قسم [معتمد الاستخدام الترخيص الأكثر مبيعًا](https://purchase.aspose.com/faqs/licensing/metered).
 
-فئة جديدة[مقننة](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)تم تقديمه لتطبيق المفتاح المقنن. فيما يلي نموذج التعليمات البرمجية الذي يوضح كيفية تعيين المفتاح العام والخاص.
+تم إدخال فئة جديدة [Metered](https://reference.aspose.com/cells/java/com.aspose.cells/Metered) لتطبيق المفتاح القياسي. يتضمن الكود العيني التالي كيفية ضبط المفتاح العام والخاص للفئة المقاسة.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 //Set metered public and private keys
 

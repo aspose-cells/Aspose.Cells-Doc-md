@@ -1,16 +1,17 @@
-﻿---
-title: Python'de Sayfa Sonlarını Yönetme
+---
+title: Python da Sayfa Sonlarını Yönetme
 type: docs
 weight: 20
 url: /tr/java/managing-page-breaks-in-python/
 ---
-## **Aspose.Cells - Sayfa Sonlarını Yönetme**
-### **Sayfa Sonları Ekleme**
- kullanarak sayfa sonları eklemek için**Yakut için Aspose.Cells Java** , Arama**add_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
 
-**Python Kod**
+## **Aspose.Cells - Sayfa Kesmelerini Yönetme**
+### **Sayfa Kesmeleri Eklemek**
+Ruby için  **Aspose.Cells Java** kullanarak sayfa kesmeleri eklemek için, **pagebreaks** modülünün **add_page_breaks** yöntemini çağırın. Aşağıda örnek kodu görebilirsiniz.
 
-{{< highlight "python" >}}
+**Python Kodu**
+
+{{< highlight python >}}
 
  def add_page_breaks(self):
 
@@ -38,12 +39,12 @@ print "Add page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **Tüm Sayfa Sonlarını Temizleme**
- kullanarak tüm sayfa sonlarını temizlemek için**Aspose.Cells Java for Python** , Arama**clear_all_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+### **Tüm Sayfa Kesmelerini Temizleme**
+**Python için Aspose.Cells Java** kullanarak tüm sayfa kırıklarını temizlemek için **sayfa_kırıkları** modülünün **tüm_sayfa_kırıklarını_temizle** metodunu çağırın. Aşağıda kod örneğini görebilirsiniz.
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -66,12 +67,12 @@ print "Clear all page breaks, please check the output file."
 
 
 {{< /highlight >}}
-### **Belirli Sayfa Sonunu Kaldırma**
- Kullanarak belirli sayfa sonunu kaldırmak için**Aspose.Cells Java for Python** , Arama**remove_page_break** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+### **Belirli Sayfa Kesmelerini Kaldırma**
+**Python için Aspose.Cells Java** kullanarak belirli sayfa kırığını kaldırmak için **sayfa_kırıkları** modülünün **sayfa_kırığını_kaldır**  metodunu çağırın. Aşağıda kod örneğini görebilirsiniz.
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 
 
@@ -102,6 +103,6 @@ print "Remove page break, please check the output file."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Sayfa Sonlarını Yönetme (Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Aspose.Cells** ile Sayfa Sonlarını Yönetmeyi İndirin
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

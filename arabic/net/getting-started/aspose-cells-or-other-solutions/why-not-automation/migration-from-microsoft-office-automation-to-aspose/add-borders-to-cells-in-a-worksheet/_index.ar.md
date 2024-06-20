@@ -1,46 +1,47 @@
-﻿---
-title: أضف الحدود إلى Cells في ورقة عمل
+---
+title: إضافة حدود إلى الخلايا في ورقة عمل
 type: docs
 weight: 50
 url: /ar/net/add-borders-to-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET يسمح لك بأداء أي مهام تقريبًا من خلال التطبيق الخاص بك والتي يمكن للمستخدم تنفيذها في Microsoft Excel. Aspose.Cells أداء وقوي وله فائدة إضافية تتمثل في العمل بشكل مستقل عن Microsoft الأتمتة. يوضح هذا المقال كيفية إضافة حدود إلى الخلايا في ورقة عمل باستخدام Aspose.Cells for .NET مقارنة بـ VSTO.
+يسمح لك Aspose.Cells for .NET بتنفيذ ما يقرب من أي مهام من خلال تطبيقك يقوم المستخدم بتنفيذها في Microsoft Excel. تعتبر Aspose.Cells قوية وفعالة ولها الفائدة المضافة من العمل بشكل مستقل عن التحكم الآلي من Microsoft. توضح هذه المقالة كيفية إضافة حدود إلى الخلايا في ورقة العمل باستخدام Aspose.Cells for .NET مقارنةً بـ VSTO.
 
 {{% /alert %}}
 
-## **إضافة الحدود إلى Cells**
+## **إضافة حدود إلى الخلايا**
 
-لإضافة حدود إلى خلايا في جدول بيانات ، اتبع الخطوات التالية:
+لإضافة حدود إلى الخلايا في جدول بيانات، اتبع الخطوات التالية:
 
-1. قم بإعداد ورقة العمل:
- 1. إنشاء كائن تطبيق.
- (VSTO فقط.)
- 1. إضافة مصنف.
- 1. احصل على الورقة الأولى.
- 1. أضف نصًا إلى الخلايا التي ستضيف حدودًا إليها.
-1. أضف الحدود:
- 1. تحديد نطاق.
-1. قم بتطبيق نمط حد على النطاق.
- كرر لكل نطاق وكل نمط حد تريد تعيينه. ينطبق هذا المثال على الخطوط الرفيعة والمتوسطة والسميكة.
-1. ينهي:
- 1. احتواء تلقائي للعمود الذي توجد فيه الخلايا لتلائم النص بدقة.
- 1. احفظ المستند.
+1. إعداد الورقة العمل:
+   1. أنشئ كائن تطبيق.
+      (فقط VSTO.)
+   1. أضف كتاب عمل.
+   1. احصل على الورقة الأولى.
+   1. إضافة نص إلى الخلايا التي ستقوم بإضافة حدود إليها.
+1. إضافة حدود:
+   1. قم بتعريف نطاق.
+   1. تطبيق نمط حد على النطاق.
+      كرر لكل نطاق وكل نمط حد تريد تعيينه. يطبق هذا المثال الحد الرفيع، والخط الرفيع، والمتوسط، والخط السميك.
+1. الانتهاء:
+   1. ضبط تحجيم العمود الذي توجد به الخلايا ليتناسب النص بشكل مناسب.
+   1. حفظ المستند.
 
- هذه الخطوات موضحة في الكود أدناه. توضح أمثلة التعليمات البرمجية الأولى كيفية تنفيذها باستخدام[VSTO](/cells/ar/net/add-borders-to-cells-in-a-worksheet/) مع C# أو فيجوال بيسك. بعد أمثلة VSTO هي أمثلة توضح كيفية تنفيذ نفس الخطوات باستخدام[Aspose.Cells for .NET](/cells/ar/net/add-borders-to-cells-in-a-worksheet/)، مرة أخرى باستخدام إما C# أو Visual Basic. عينات الكود Aspose.Cells هي أقصر بكثير لأن Aspose.Cells هو الأمثل للتشفير الفعال.
+يتم عرض هذه الخطوات في الشفرة أدناه. تظهر أمثلة الشفرة الأولى كيفية تنفيذها باستخدام [VSTO](/cells/ar/net/add-borders-to-cells-in-a-worksheet/) باستخدام إما C# أو Visual Basic. بعد أمثلة VSTO هناك أمثلة تظهر كيفية تنفيذ نفس الخطوات باستخدام [Aspose.Cells for .NET](/cells/ar/net/add-borders-to-cells-in-a-worksheet/)، مرة أخرى باستخدام إما C# أو Visual Basic. تكون عينات الشفرة لـ Aspose.Cells أقصر بكثير لأن Aspose.Cells مُحسِّنة للبرمجة الفعَّالة.
 
-يُنشئ الرمز ملف Excel مع عدد من الخلايا في الورقة الأولى ، ولكل منها حدود مختلفة:
+يولّد الكود ملف Excel مع عدد من الخلايا على الورقة الأولى، كل منها بحدود مختلفة:
 
-![ما يجب القيام به: image_بديل_نص](add-borders-to-cells-in-a-worksheet_1.png)
+![todo:image_alt_text](add-borders-to-cells-in-a-worksheet_1.png)
 
-**Cells مع تطبيق الحدود.**
+**الخلايا التي تم تطبيق حدود عليها.**
 
 ### **إضافة حدود باستخدام VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -70,13 +71,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -186,11 +187,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **إضافة الحدود باستخدام Aspose.Cells for .NET**
+### **إضافة حدود باستخدام Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

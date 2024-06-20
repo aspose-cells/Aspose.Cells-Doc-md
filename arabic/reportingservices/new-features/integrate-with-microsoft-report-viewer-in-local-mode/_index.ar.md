@@ -1,42 +1,43 @@
-﻿---
-title: التكامل مع Microsoft عارض التقرير في الوضع المحلي
+---
+title: دمج مع عارض التقرير Microsoft في الوضع المحلي
 type: docs
 weight: 30
 url: /ar/reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Report Viewer هو عنصر تحكم .NET قوي يسمح باستخدام تقارير RDL و RDLC في تطبيقات WinForms و ASP.NET. يتيح للمستخدمين عرض التقارير وتصديرها بتنسيقات مختلفة. تم تضمين عنصر التحكم مع Microsoft Visual Studio 2005 و 2008 ، وهو متاح أيضًا للتنزيل المجاني من Microsoft.
+عارض التقرير من مايكروسوفت هو عنصر تحكم .NET قوي يسمح باستخدام تقارير RDL و RDLC في تطبيقات WinForms و ASP.NET. يتيح للمستخدمين عرض وتصدير التقارير إلى تنسيقات مختلفة. يتم تضمين العنصر التحكم مع Microsoft Visual Studio 2005 و 2008، ويتوفر أيضا كتنزيل مجاني من مايكروسوفت.
 
-يمكن لـ Report Viewer إنشاء تقارير بشكل مستقل باستخدام محرك مضمن (يُعرف باسم "الوضع المحلي") ، أو يمكنه عرض التقارير التي تم إنشاؤها على خادم تقرير خدمات تقارير خادم SQL Microsoft ("الوضع البعيد"):
+يمكن لعارض التقرير إنشاء تقارير بشكل مستقل باستخدام محرك مدمج (المعروف بـ 'الوضع المحلي')، أو يمكنه عرض التقارير التي تم إنشاؤها على خادم تقارير خدمات تقارير Microsoft SQL Server ('الوضع البعيد'):
 
-- في الوضع البعيد ، يمكن لـ Report Viewer تصدير التقارير إلى جميع التنسيقات المثبتة على Report Server المتصل به. لذلك ، لتصدير التقارير إلى المزيد من تنسيقات Excel Microsoft ، ما عليك سوى تثبيت Aspose.Cells for Reporting Services على الخادم.
-- ومع ذلك ، في الوضع المحلي ، لا يتصل عارض التقرير بخادم التقارير وقائمة تنسيقات التصدير تقتصر على عدد قليل من التنسيقات المضمنة.
+- في الوضع البعيد، يمكن لعارض التقرير تصدير التقارير إلى جميع التنسيقات المثبتة على خادم التقارير الذي يتصل به. لذلك، لتصدير التقارير إلى المزيد من تنسيقات جداول البيانات Microsoft Excel، يتعين فقط تثبيت Aspose.Cells for Reporting Services على الخادم.
+- في الوضع المحلي، ومع ذلك، لا يتصل عارض التقرير بخادم تقارير وقائمة تنسيقات التصدير محدودة إلى عدد قليل فقط من التنسيقات المدمجة.
 
-من خلال تثبيت Aspose.Cells for Reporting Services على جهاز تطوير واتباع الخطوات أدناه ، يمكنك التصدير إلى المزيد من تنسيقات Excel Microsoft من عارض التقارير التي تعمل في الوضع المحلي.
+من خلال تثبيت Aspose.Cells for Reporting Services على الجهاز التطويري واتباع الخطوات أدناه، يمكنك تصدير إلى المزيد من تنسيقات جداول بيانات Microsoft Excel من عارض التقرير العامل في الوضع المحلي. 
 
 {{% /alert %}} 
 ### **العمل مع Aspose.Cells في الوضع المحلي**
-1.  مرجع**Aspose.Cells.ReportingServices.dll** في المشروع:
- 1. افتح المشروع في Visual Studio.
- 1. انقر بزر الماوس الأيمن فوق ملف**مراجع** مجلد وحدد**يضيف مرجعا**.
- 1. حدد ملف**تصفح** علامة التبويب واستعرض التجميع التالي:
-      <InstallDir>/ ReportView / Aspose.Cells.ReportingServices.dll
- (أين<InstallDir> هو الدليل الذي قمت بتثبيت أو فك ضغط Aspose.Cells for Reporting Services فيه.
+1. الإشارة إلى **Aspose.Cells.ReportingServices.dll** في المشروع: 
+   1. فتح المشروع في Visual Studio.
+   1. انقر بزر الماوس الأيمن على مجلد **المراجع** وحدد **إضافة مرجع**.
+   1. حدد علامة التبويب **تصفح** وانتقل إلى التجميع التالي:
+      <InstallDir>/ ReportView/Aspose.Cells.ReportingServices.dll
+      (where <InstallDir> is the directory where you installed or unpacked Aspose.Cells for Reporting Services. 
 
-      **إضافة مرجع إلى Aspose.Cells.ReportingServices.dll إلى مشروع** 
+      **إضافة مرجع إلى Aspose.Cells.ReportingServices.dll إلى المشروع** 
 
-![ما يجب القيام به: image_بديل_نص](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
+![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
 
 
 
 
 1. انسخ والصق طريقة AddExtension التالية في المشروع.
- تضيف هذه الطريقة امتداد العرض المحدد إلى قائمة الامتدادات المدعومة في Microsoft Report Viewer باستخدام الانعكاس الخاص.
+   تقوم هذه الطريقة بإضافة تمديد التقديم المحدد إلى قائمة التمديدات المدعومة في عارض التقرير Microsoft باستخدام الانعكاس الخاص. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -143,7 +144,7 @@ extensions.Add(instance);
 
 **VB .NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -245,14 +246,14 @@ End Sub
 
 {{< /highlight >}}
 
-1.  استدعاء الأسلوب AddExtension من التعليمات البرمجية.
- يمكنك استدعاء AddExtension (كما هو موضح في الخطوة السابقة) متى احتجت إلى إضافة تنسيقات تصدير Aspose.Cells for Reporting Services إلى مثيل عنصر تحكم عارض التقارير. ضع في اعتبارك الاتصال من النموذج_تحميل أو صفحة_تحميل معالج الحدث لتطبيق WinForms أو ASP .NET.
- - يمكنك إضافة جميع تنسيقات التصدير Aspose.Cells for Reporting Services أو بعضها فقط. يمكنك تحديد أي اسم عرض للتنسيقات لتظهر في عارض التقارير.
- لإضافة تنسيقات تصدير Aspose.Cells for Reporting Services إلى عارض تقرير Microsoft في الوضع المحلي ، استخدم الكود التالي:
+1. استدعي طريقة AddExtension من الكود. 
+   - يمكنك استدعاء AddExtension (الموضح في الخطوة السابقة) كلما كنت بحاجة لإضافة تنسيقات تصدير Aspose.Cells for Reporting Services إلى مثيل عنصر تحكم عارض التقرير. يُعتَبَر استدعاء ذلك من حدث Form_Load أو Page_Load handler لتطبيقات WinForms أو ASP .NET.
+   - يمكنك إضافة جميع تنسيقات تصدير Aspose.Cells for Reporting Services أو فقط بعضها. يمكنك تحديد أي اسم عرض للتنسيقات لتظهر في عارض التقرير.
+     لإضافة Aspose.Cells for Reporting Services تنسيقات تصدير إلى Microsoft Report Viewer في الوضع المحلي، استخدم الكود التالي: 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -272,7 +273,7 @@ End Sub
 
 **VB .NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
               AddExtension(reportViewer1, "Xls - Xls via Aspose.Cells",    GetType (Aspose.Cells.ReportingServices.XlsRenderer));
 
@@ -288,12 +289,12 @@ End Sub
 
 {{< /highlight >}}
 
-1.  اختبر تنسيقات التصدير الجديدة.
- 1. قم بتشغيل التطبيق الخاص بك.
- يجب أن تلاحظ عددًا من تنسيقات التصدير الجديدة المتوفرة في ملف**يصدّر** القائمة في عارض التقرير.
- 1. حدد أحد التنسيقات وقم بتشغيل التصدير.
- 1. تحقق من إنشاء المستند بالطريقة التي تتوقعها.
+1. اختبار تنسيقات التصدير الجديدة. 
+   1. قم بتشغيل تطبيقك.
+      يجب أن تلاحظ عددًا من تنسيقات التصدير الجديدة المتوفرة في قائمة التصدير في Report Viewer. 
+   1. حدد أحد التنسيقات وقم بتشغيل التصدير.
+   1. تحقق من أن المستند تم إنشاؤه بالطريقة التي توقعتها.
 
-**تظهر تنسيقات التصدير الجديدة في عارض التقارير قيد التشغيل في الوضع المحلي** 
+**تظهر تنسيقات التصدير الجديدة في Report Viewer أثناء التشغيل في الوضع المحلي** 
 
-![ما يجب القيام به: image_بديل_نص](integrate-with-microsoft-report-viewer-in-local-mode_2.png)
+![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_2.png)

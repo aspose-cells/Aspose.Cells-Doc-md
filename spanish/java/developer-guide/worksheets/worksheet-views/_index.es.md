@@ -1,113 +1,114 @@
-﻿---
-title: Vistas de la hoja de cálculo
+---
+title: Vistas de Hoja de Cálculo
 type: docs
 weight: 10
 url: /es/java/worksheet-views/
 ---
-## **La previsualización del salto de página**
-Todas las hojas de trabajo se pueden ver en dos modos:
+
+## **Vista previa de salto de página**
+Todas las hojas de cálculo se pueden ver en dos modos:
 
 - Vista normal.
-- La previsualización del salto de página.
+- Vista previa de saltos de página.
 
-Una vista normal es la vista predeterminada de una hoja de trabajo. La vista previa de salto de página es una vista de edición que muestra una hoja de trabajo tal como se imprimirá. La vista previa de salto de página muestra qué datos irán en cada página para que pueda ajustar el área de impresión y los saltos de página. Usando Aspose.Cells, los desarrolladores pueden habilitar la vista normal o los modos de vista previa de salto de página.
-### **Modos de vista de control**
- Aspose.Cells proporciona un[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) clase que representa un archivo de Excel Microsoft. Él[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en un archivo de Excel.
+Una vista normal es la vista predeterminada de una hoja de cálculo. La vista previa de salto de página es una vista de edición que muestra una hoja de cálculo tal como se imprimirá. La vista previa de salto de página muestra qué datos se colocarán en cada página para que puedas ajustar el área de impresión y los saltos de página. Usando Aspose.Cells, los desarrolladores pueden habilitar los modos de vista normal o vista previa de salto de página.
+### **Controlando Modos de Vista**
+Aspose.Cells proporciona una clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Microsoft Excel. La clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene una [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) que permite acceder a cada hoja de cálculo en un archivo de Excel.
 
- Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. Él[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para habilitar los modos de vista previa normal o de salto de página, use el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)método.
-#### **Habilitación de la vista normal**
-Establezca cualquier hoja de trabajo en vista normal usando el[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) metodo de la[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase y aprobación**falso** como parámetro.
-#### **Habilitación de la vista previa de salto de página**
-Establezca cualquier hoja de trabajo en vista previa de salto de página usando el[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)metodo de la[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase y aprobación**verdadero**como parámetro.
+Una hoja de cálculo está representada por la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) proporciona una amplia gama de propiedades y métodos para gestionar hojas de cálculo. Para habilitar los modos de vista normal o vista previa de salto de página, utiliza el método [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
+#### **Habilitar Vista Normal**
+Establece cualquier hoja de cálculo en vista normal utilizando el método [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) y pasando **false** como parámetro.
+#### **Habilitar vista previa de salto de página**
+Establece cualquier hoja de cálculo en vista previa de salto de página utilizando el método [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) y pasando **true** como parámetro.
 
- A continuación se muestra un ejemplo completo que demuestra el uso de la[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)para habilitar el modo de vista previa de salto de página para la primera hoja de cálculo del archivo de Excel.
+A continuación se muestra un ejemplo completo que demuestra el uso del método [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) para habilitar el modo de vista previa de salto de página para la primera hoja de cálculo del archivo de Excel.
 
-En la captura de pantalla a continuación, puede ver que el archivo Book1.xls está en Vista normal.
+En la captura de pantalla a continuación, puedes ver que el archivo Book1.xls está en Vista Normal.
 
-**Book1.xls: Hoja de trabajo antes de la modificación** 
+**Book1.xls: Hoja de cálculo antes de la modificación** 
 
-![todo:imagen_alternativa_texto](worksheet-views_1.png)
+![todo:image_alt_text](worksheet-views_1.png)
 
- Book1.xls se abre con el[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class y el modo se cambia a vista previa de salto de página para la primera hoja de trabajo. El archivo modificado se guarda como salida.xls.
+Se abre el archivo Book1.xls con la clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) y el modo se cambia a vista previa de salto de página para la primera hoja de cálculo. El archivo modificado se guarda como output.xls.
 
-**Ouput.xls: hoja de trabajo después de la modificación** 
+**Ouput.xls: hoja de cálculo después de la modificación** 
 
-![todo:imagen_alternativa_texto](worksheet-views_2.png)
+![todo:image_alt_text](worksheet-views_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageBreakPreview-PageBreakPreview.java" >}}
-## **Factor de acercamiento**
-Microsoft Excel proporciona una función que permite a los usuarios establecer el zoom o el factor de escala de una hoja de trabajo. Esta característica ayuda a los usuarios a ver el contenido de la hoja de trabajo en vistas más pequeñas o más grandes. Los usuarios pueden establecer el factor de zoom en cualquier valor.
+## **Factor de zoom**
+Microsoft Excel ofrece una función que permite a los usuarios establecer el zoom o factor de escala de una hoja de cálculo. Esta función ayuda a los usuarios a ver el contenido de la hoja de cálculo en vistas más pequeñas o más grandes. Los usuarios pueden establecer el factor de zoom en cualquier valor.
 
-**Configuración del factor de zoom usando Microsoft Excel** 
+**Configuración del Factor de Zoom utilizando Microsoft Excel** 
 
-![todo:imagen_alternativa_texto](worksheet-views_3.png)
+![todo:image_alt_text](worksheet-views_3.png)
 
-Aspose.Cells también permite a los desarrolladores establecer el factor de zoom de la hoja de trabajo.
-### **Controlar el factor de zoom**
-Aspose.Cells proporciona un[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) clase que representa un archivo de Excel Microsoft. Él[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en un archivo de Excel.
+Aspose.Cells también permite a los desarrolladores establecer el factor de zoom de la hoja de cálculo.
+### **Controlando el Factor de Zoom**
+Aspose.Cells proporciona una [clase Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Microsoft Excel. La [clase Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene una [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) que permite acceder a cada hoja de cálculo en un archivo de Excel.
 
- Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. Él[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para establecer el factor de zoom de una hoja de trabajo, use el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[establecerZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)método.
+Una hoja de cálculo está representada por la [clase Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La [clase Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) proporciona una amplia gama de propiedades y métodos para administrar hojas de cálculo. Para establecer el factor de zoom de una hoja de cálculo, utilice el método [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) de la [clase Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
- A continuación se proporciona un ejemplo completo que demuestra cómo utilizar el[establecerZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)método para establecer el factor de zoom de la primera hoja de trabajo en un archivo de Excel.
+A continuación, se muestra un ejemplo completo que demuestra cómo utilizar el método [setZoom](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) para establecer el factor de zoom de la primera hoja de cálculo en un archivo de Excel.
 
-En la siguiente captura de pantalla, puede ver el archivo Book1.xls en la vista predeterminada.
+En la captura de pantalla siguiente, puedes ver el archivo Book1.xls en la vista predeterminada.
 
-**Book1.xls: hoja de trabajo antes de la modificación** 
+**Book1.xls: hoja de cálculo antes de la modificación** 
 
-![todo:imagen_alternativa_texto](worksheet-views_4.png)
+![todo:image_alt_text](worksheet-views_4.png)
 
- El archivo Book1.xls se abre con el[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class y el factor de zoom de la primera hoja de trabajo se establece en 75. El archivo modificado se guarda como salida.xls.
+El archivo Book1.xls se abre con la clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) y el factor de zoom de la primera hoja de cálculo se establece en 75. El archivo modificado se guarda como output.xls.
 
-**Output.xls: hoja de trabajo después de la modificación** 
+**Output.xls: hoja de cálculo después de la modificación** 
 
-![todo:imagen_alternativa_texto](worksheet-views_5.png)
+![todo:image_alt_text](worksheet-views_5.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ZoomFactor-ZoomFactor.java" >}}
 ## **Congelar paneles**
-Congelar paneles es una función proporcionada por Microsoft Excel. La congelación de paneles le permite seleccionar datos para que permanezcan visibles al desplazarse por una hoja de trabajo.
+Fijar paneles es una función proporcionada por Microsoft Excel. Al fijar paneles, puedes seleccionar datos para que permanezcan visibles al desplazarte en una hoja de cálculo.
 
 **Uso de paneles congelados en Microsoft Excel** 
 
-![todo:imagen_alternativa_texto](worksheet-views_6.png)
+![todo:image_alt_text](worksheet-views_6.png)
 
-Aspose.Cells también permite a los desarrolladores aplicar paneles congelados a hojas de trabajo en tiempo de ejecución.
+Aspose.Cells también permite a los desarrolladores aplicar paneles congelados a las hojas de cálculo en tiempo de ejecución.
 
-Aspose.Cells proporciona un[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) clase que representa un archivo de Excel Microsoft. Él[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en un archivo de Excel.
+Aspose.Cells proporciona una clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Microsoft Excel. La clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene una [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) que permite acceder a cada hoja de cálculo en un archivo de Excel.
 
- Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. Él[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para configurar los paneles congelados, llame al[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[congelar paneles](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\) ) método. Él[congelar paneles](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) método toma los siguientes parámetros:
+Una hoja de cálculo está representada por la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) proporciona una amplia gama de propiedades y métodos para gestionar las hojas de cálculo. Para configurar los paneles congelados, llama al método [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). El método [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) toma los siguientes parámetros:
 
-- **Fila**, el índice de fila de la celda desde la que comenzará la congelación.
-- **Columna**, el índice de columna de la celda desde la que comenzará la congelación.
+- **Fila**, el índice de la fila desde la cual se iniciará la congelación.
+- **Columna**, el índice de la columna desde la cual se iniciará la congelación.
 - **Filas congeladas**, el número de filas visibles en el panel superior.
-- **Columnas congeladas**, el número de columnas visibles en el panel izquierdo
+- **Columnas congeladas**, el número de columnas visibles en el panel izquierdo.
 
- A continuación se muestra un ejemplo completo que muestra cómo utilizar el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[congelar paneles](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) para congelar filas y columnas (a partir de C4, representada por la 4.ª fila y la 3.ª columna, donde las filas y columnas comienzan desde 0 índices) de la primera hoja de cálculo del archivo de Excel.
+A continuación se muestra un ejemplo completo que muestra cómo usar el método [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) para congelar filas y columnas (a partir de C4, representado por la cuarta fila y la tercera columna, donde las filas y columnas comienzan desde índices 0) de la primera hoja de cálculo del archivo de Excel.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
 
-En la captura de pantalla a continuación, puede ver el archivo Book1.xls sin paneles congelados.
+En la captura de pantalla siguiente, puedes ver el archivo Book1.xls sin paneles congelados.
 
-**Book1.xls: vista de la hoja de trabajo antes de cualquier modificación** 
+**Book1.xls: vista de la hoja de cálculo antes de cualquier modificación** 
 
-![todo:imagen_alternativa_texto](worksheet-views_7.png)
+![todo:image_alt_text](worksheet-views_7.png)
 
- El archivo Book1.xls se abre con el[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class y luego algunas filas y columnas se congelan en la primera hoja de trabajo. El archivo modificado se guarda como salida.xls.
+El archivo Book1.xls se abre con la clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) y luego se congelan algunas filas y columnas en la primera hoja de cálculo. El archivo modificado se guarda como output.xls.
 
-**Outlook.xls: vista de hoja de trabajo después de la modificación** 
+**Outlook.xls: vista de hoja de cálculo después de la modificación** 
 
-![todo:imagen_alternativa_texto](worksheet-views_8.png)
-## **Paneles divididos**
-Si necesita dividir la pantalla para obtener dos vistas diferentes en la misma hoja de trabajo, divida los paneles. Microsoft Excel ofrece una función muy útil que le permite ver más de una copia de su hoja de trabajo y que pueda desplazarse por cada panel de su hoja de trabajo de forma independiente: paneles divididos.
+![todo:image_alt_text](worksheet-views_8.png)
+## **División de paneles**
+Si necesita dividir la pantalla para obtener dos vistas diferentes en la misma hoja de cálculo, divida los paneles. Microsoft Excel ofrece una función muy útil que le permite ver más de una copia de su hoja de cálculo, y le permite desplazarse por cada panel de la hoja de cálculo de forma independiente: dividir los paneles.
 
-Los paneles funcionan simultáneamente. Si realiza un cambio en uno, el cambio aparece simultáneamente en el otro. Aspose.Cells proporciona la función de paneles divididos para los usuarios.
-### **Aplicar y quitar paneles divididos**
+Los paneles funcionan simultáneamente. Si realiza un cambio en uno, el cambio aparece simultáneamente en el otro. Aspose.Cells proporciona la función de dividir paneles para los usuarios.
+### **Aplicación y eliminación de divisiones de paneles**
 #### **División de paneles**
-Aspose.Cells proporciona un[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) clase que representa un archivo de Excel Microsoft. Él[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)La clase proporciona una amplia gama de propiedades y métodos para administrar archivos de Excel. Para implementar vistas divididas, use el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[separar](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\) ) método. Para eliminar los paneles divididos, use el[eliminarDividir](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) método.
+Aspose.Cells proporciona una clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Microsoft Excel. La clase [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) proporciona una amplia gama de propiedades y métodos para manejar archivos de Excel. Para implementar vistas divididas, utilice el método [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\)) de la clase [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Para eliminar divisiones de paneles, utilice el método [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)).
 
-En el ejemplo, usamos un archivo de plantilla simple que se carga, luego se aplica la función de conjuntos de paneles divididos en una celda de la primera hoja de cálculo. El archivo actualizado se guarda.
+En el ejemplo, utilizamos un archivo de plantilla simple que se carga, luego se aplica la función de division de paneles en una celda de la primera hoja de cálculo. El archivo actualizado se guarda.
 
 
 
@@ -117,18 +118,18 @@ En el ejemplo, usamos un archivo de plantilla simple que se carga, luego se apli
 
 Después de ejecutar el código anterior, el archivo generado tiene una vista dividida.
 
-**Dividir paneles en el archivo de salida** 
+**Divisiones de paneles en el archivo de salida** 
 
-![todo:imagen_alternativa_texto](worksheet-views_9.png)
+![todo:image_alt_text](worksheet-views_9.png)
 #### **Eliminación de paneles**
- Los desarrolladores pueden eliminar paneles divididos usando el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[eliminarDividir](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) método.
+Los desarrolladores pueden eliminar divisiones de paneles utilizando el método [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
 
 ## **Temas avanzados**
-- [Ocultar la visualización de valores cero en la hoja de trabajo](/cells/es/java/hiding-the-display-of-zero-values-in-the-worksheet/)
-- [Establecer el color de la pestaña de la hoja de trabajo](/cells/es/java/set-worksheet-tab-color/)
+- [Ocultar la visualización de los valores cero en la hoja de cálculo](/cells/es/java/hiding-the-display-of-zero-values-in-the-worksheet/)
+- [Establecer el color de la pestaña de la hoja de cálculo](/cells/es/java/set-worksheet-tab-color/)
 - [Mostrar y ocultar elementos](/cells/es/java/show-and-hide-elements/)
-- [Mostrar fórmulas en lugar de valores en una hoja de trabajo](/cells/es/java/show-formulas-instead-of-values-in-a-worksheet/)
-- [Usar opciones de comprobación de errores](/cells/es/java/use-error-checking-options/)
+- [Mostrar fórmulas en lugar de valores en una hoja de cálculo](/cells/es/java/show-formulas-instead-of-values-in-a-worksheet/)
+- [Utilizar opciones de verificación de errores](/cells/es/java/use-error-checking-options/)

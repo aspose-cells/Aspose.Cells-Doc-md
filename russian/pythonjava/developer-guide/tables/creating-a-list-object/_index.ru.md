@@ -1,49 +1,50 @@
-﻿---
+---
 title: Создание объекта списка
 type: docs
 weight: 20
 url: /ru/python-java/creating-a-list-object/
 ---
-Использование рабочих листов упрощает работу, например, с различными типами списков. списки телефонов, списки задач. и т. д. Aspose.Cells поддерживает создание списков и управление ими.
+
+Использование листов упрощает работу с различными типами списков, например, списками телефонов, списками задач и т. д. Aspose.Cells поддерживает создание и управление списками.
 
 ## **Преимущества объекта списка**
 
-Преобразование списка данных в фактический объект списка дает ряд преимуществ:
+Есть несколько преимуществ при преобразовании списка данных в фактический объект List:
 
-- Новые строки и столбцы включаются автоматически.
-- Итоговую строку в нижней части списка можно легко добавить для отображения СУММЫ, СРЕДНЕГО, СЧЕТА и т. д.
-- Столбцы, добавленные справа, автоматически включаются в объект списка.
-- Диаграммы на основе строк и столбцов будут расширены автоматически.
-- Именованные диапазоны, назначенные строкам и столбцам, будут расширены автоматически.
+- Новые строки и столбцы автоматически включаются.
+- Итоговая строка внизу списка легко добавляется для отображения SUM, AVERAGE, COUNT и т. д.
+- Добавленные столбцы справа автоматически включаются в объект списка.
+- Графики, основанные на строках и столбцах, будут автоматически расширены.
+- Именованные диапазоны, присвоенные строкам и столбцам, будут автоматически расширены.
 - Список защищен от случайного удаления строк и столбцов.
 
 ## **Создание объекта списка с использованием Microsoft Excel**
 
-**Выбор диапазона данных для создания объекта списка** 
+Выбор диапазона данных для создания объекта списка 
 
-![дело:изображение_альтернативный_текст](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-Отобразится диалоговое окно «Создать список».
+Это отображает диалоговое окно Создать список.
 
-**Диалоговое окно «Создать список»** 
+Диалоговое окно Создать список 
 
-![дело:изображение_альтернативный_текст](picture2.png)
+![todo:image_alt_text](picture2.png)
 
-Реализация объекта List и указание строки итогов (Select**Данные**, тогда**Список**с последующим**Итоговая строка**).
+Реализация объекта списка и указание общего ряда (выберите **Данные**, затем **Список**, затем **Общая строка**).
 
-**Создание объекта списка** 
+Создание объекта списка 
 
-![дело:изображение_альтернативный_текст](picture3.png)
+![todo:image_alt_text](picture3.png)
 
-## **Создание объекта списка с использованием Aspose.Cells API**
+## **Создание объекта списка с использованием API Aspose.Cells**
 
-Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/python/asposecells.api/Workbook)класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection)коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel.
+Aspose.Cells предоставляет класс, [**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), который представляет собой файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/python/asposecells.api/Workbook) содержит коллекцию [**Worksheets**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection), которая позволяет получить доступ к каждому листу в файле Excel.
 
-Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)Класс предоставляет широкий спектр свойств и методов для управления рабочим листом. Чтобы создать[**СписокОбъект**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)на листе используйте[**СписокОбъектов**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)коллекционное имущество г.[**Рабочий лист**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)учебный класс. Каждый[**СписокОбъект**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)фактически является объектом[**КоллекцияОбъектовСписка**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)класс, который дополнительно обеспечивает[**Добавлять**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) для добавления объекта List и указания диапазона ячеек для списка.
+Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet) предоставляет широкий диапазон свойств и методов для управления листом. Чтобы создать [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) на листе, используйте свойство коллекции [**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects) класса [**Worksheet**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet). Каждый [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) на самом деле является объектом класса [**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection), который также предоставляет метод [**add**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) для добавления объекта списка и указания диапазона ячеек для списка.
 
-В соответствии с указанным диапазоном ячеек объект List создается на листе по номеру Aspose.Cells. Используйте атрибуты (например, ShowTotals, ListColumns и т. д.)[**СписокОбъект**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)класс для управления списком.
+Согласно указанному диапазону ячеек, объект списка создается в листе с помощью Aspose.Cells. Используйте атрибуты (например, ShowTotals, ListColumns и т. д.) класса [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) для управления списком.
 
-В приведенном ниже примере мы создали тот же[**СписокОбъект**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)используя Aspose.Cells for Python via Java API, как мы создали с помощью Microsoft Excel в предыдущем разделе.
+В приведенном ниже примере мы создали тот же [**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject) с использованием API Aspose.Cells для Python via Java, что и в Microsoft Excel в предыдущем разделе.
 
 ## Исходный код
 

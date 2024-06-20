@@ -1,16 +1,17 @@
-﻿---
-title: Lägg till villkorliga ikoner med texten Cell
+---
+title: Lägg till villkorliga ikoner med celltexten
 type: docs
 weight: 160
 url: /sv/net/add-conditional-icons-set-with-the-cell-text/
 ---
+
 {{% alert color="primary" %}} 
 
-Ibland vill du lägga till villkorliga ikoner bredvid texten i en cell för att göra data mer meningsfulla för läsarna. Du vill använda några av ikontyperna för villkorlig formatering men utan att tillämpa villkorlig formatering på celler. Aspose.Cells stöder funktionen.
+Ibland vill du lägga till villkorliga ikoner bredvid texten i en cell för att göra datan mer meningsfull för läsarna. Du vill använda några av de villkorliga formatering ikon typerna men utan att tillämpa villkorlig formatering på celler. Aspose.Cells stöder funktionen.
 
 {{% /alert %}} 
 
-Följande kodexempel visar hur man lägger till villkorliga ikoner med texten Cell.
+Följande kodexempel visar hur du lägger till villkorliga ikoner inställda med celltexten.
 
 
 

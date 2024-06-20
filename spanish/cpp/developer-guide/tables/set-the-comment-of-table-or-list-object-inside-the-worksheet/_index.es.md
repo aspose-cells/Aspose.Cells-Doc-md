@@ -1,16 +1,17 @@
 ---
-title: Establecer el comentario de la tabla o el objeto de lista dentro de la hoja de trabajo
+title: Establecer el comentario de una tabla o un objeto de lista dentro de la hoja de cálculo
 type: docs
 weight: 20
 url: /es/cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
- Configure el comentario de la tabla o el objeto de lista dentro de la hoja de trabajo usando el[ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/) método. El comentario será visible dentro del archivo xl/tables/tableName.xml.
+Por favor, establece el comentario de la tabla o el objeto de lista dentro de la hoja de cálculo utilizando el método [ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/). El comentario será visible dentro del archivo xl/tables/tableName.xml.
 
 {{% /alert %}} 
-##  **Establecer el comentario de la tabla o el objeto de lista dentro de la hoja de trabajo**
-El siguiente código de muestra carga el archivo fuente de Excel y establece el comentario de la primera tabla o objeto de lista dentro de la hoja de trabajo.
+## **Establecer el Comentario de la Tabla o Objeto de Lista dentro de la Hoja de Cálculo**
+El siguiente código de ejemplo carga el archivo de Excel de origen y establece el comentario de la primera tabla o el primer objeto de lista dentro de la hoja de cálculo.
 
 
 

@@ -1,27 +1,28 @@
-﻿---
-title: Ridimensiona la forma dell'etichetta dati del grafico per adattarla al testo
+---
+title: Ridimensionare la forma dell etichetta dati del grafico per adattare il testo
 type: docs
 weight: 190
 url: /it/java/resize-chart-s-data-label-shape-to-fit-text/
 ---
+
 {{% alert color="primary" %}}
 
- L'applicazione Excel fornisce il file**Ridimensiona la forma per adattarla al testo** opzione per DataLabels del grafico per aumentare la dimensione della forma in modo che il testo si adatti al suo interno. È possibile accedere a questa opzione dall'interfaccia di Excel selezionando una qualsiasi delle etichette dati sul grafico. Fare clic con il tasto destro e selezionare**Formato etichette dati** menù. SU**Dimensioni e proprietà** scheda, espandere**Allineamento** per rivelare le proprietà correlate tra cui il**Ridimensiona la forma per correggere il testo** opzione.
+L'applicazione Excel fornisce l'opzione **Ridimensiona la forma per adattare il testo** per le etichette dati del grafico al fine di aumentare le dimensioni della forma in modo che il testo ci stia dentro. Questa opzione può essere accessibile dall'interfaccia di Excel selezionando una qualsiasi delle etichette dati sul grafico. Fai clic con il tasto destro e seleziona il menu **Formato etichette dati**. Sulla scheda **Dimensioni e proprietà**, espandi **Allineamento** per rivelare le proprietà correlate tra cui l'opzione **Ridimensiona la forma per adattare il testo**.
 
-![cose da fare:immagine_alt_testo](resize-chart-s-data-label-shape-to-fit-text_1.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_1.png)
 
 {{% /alert %}}
 
 ## **Ridimensiona la forma dell'etichetta dati del grafico per adattarla al testo**
 
- Per imitare la funzione di Excel di ridimensionare le forme delle etichette dati per adattarle al testo, le API Aspose.Cells hanno esposto il tipo booleano[**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText)proprietà. La parte di codice seguente mostra il semplice scenario di utilizzo di[**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText)proprietà.
+Per emulare la funzione di Excel di ridimensionare le forme delle etichette dati per adattare il testo, le API di Aspose.Cells hanno esposto la proprietà di tipo Boolean [**DataLabels.ResizeShapeToFitText**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsResizeShapeToFitText). Il seguente pezzo di codice mostra lo scenario d'uso semplice di tale proprietà.
 
 Il grafico appare come segue prima di eseguire il codice.
 
-![cose da fare:immagine_alt_testo](resize-chart-s-data-label-shape-to-fit-text_2.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ResizeChartDataLabelShapeToFitText-ResizeChartDataLabelShapeToFitText.java" >}}
 
 Il grafico appare come segue dopo l'esecuzione del codice.
 
-![cose da fare:immagine_alt_testo](resize-chart-s-data-label-shape-to-fit-text_3.png)
+![todo:image_alt_text](resize-chart-s-data-label-shape-to-fit-text_3.png)

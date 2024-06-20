@@ -1,16 +1,17 @@
-﻿---
+---
 title: Gestione dei fogli di lavoro in Ruby
 type: docs
 weight: 10
 url: /it/java/managing-worksheets-in-ruby/
 ---
-## **Aspose.Cells - Gestione fogli di lavoro**
-### **Aggiunta di fogli di lavoro a un nuovo file Excel**
- Per aggiungere un foglio di lavoro a un nuovo file Excel utilizzando**Aspose.Cells Java per Rubino** , chiama semplicemente**add_worksheet** metodo di**Gestione dei fogli di lavoro** modulo.
 
-**Codice Rubino**
+## **Aspose.Cells - Gestione dei fogli di lavoro**
+### **Aggiungere fogli di lavoro a un nuovo file Excel**
+Per aggiungere un foglio di lavoro a un nuovo file Excel usando **Aspose.Cells Java per Ruby**, basta chiamare il metodo **add_worksheet** del modulo **MangingWorksheets**.
 
-{{< highlight "ruby" >}}
+**Codice Ruby**
+
+{{< highlight ruby >}}
 
  def add_worksheet()
 
@@ -39,12 +40,12 @@ url: /it/java/managing-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Aggiunta di fogli di lavoro a un foglio di calcolo di Designer**
-Il processo di aggiunta di fogli di lavoro a un foglio di calcolo del designer è del tutto uguale a quello dell'approccio precedente, tranne per il fatto che il file Excel è già stato creato e dobbiamo prima aprire quel file Excel prima di aggiungervi il foglio di lavoro.
+### **Aggiunta di fogli di lavoro a un foglio di lavoro progettato**
+Il processo di aggiunta di fogli di lavoro a un foglio di calcolo designer è esattamente lo stesso dell'approccio sopra tranne che il file Excel è già creato e abbiamo bisogno di aprire prima quel file Excel prima di aggiungere il foglio di lavoro ad esso.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet_to_designer_spreadsheet()
 
@@ -76,11 +77,11 @@ end  
 
 {{< /highlight >}}
 ### **Accesso ai fogli di lavoro utilizzando il nome del foglio**
- Per accedere al foglio di lavoro per nome del foglio utilizzando**Aspose.Cells Java per Rubino** , chiama semplicemente**get_worksheet** metodo di**Gestione dei fogli di lavoro** modulo.
+Per accedere al foglio di lavoro per nome foglio utilizzando **Aspose.Cells Java per Ruby**, basta chiamare il metodo **get_worksheet** del modulo **MangingWorksheets**.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_worksheet()
 
@@ -101,12 +102,12 @@ end  
 end
 
 {{< /highlight >}}
-### **Rimozione di fogli di lavoro utilizzando il nome del foglio**
- Per rimuovere il foglio di lavoro per nome del foglio utilizzando**Aspose.Cells Java per Rubino** , chiama semplicemente**remove_worksheet_by_name** metodo di**Gestione dei fogli di lavoro** modulo.
+### **Rimozione dei fogli di lavoro utilizzando il nome del foglio**
+Per rimuovere il foglio di lavoro per nome foglio utilizzando **Aspose.Cells Java per Ruby**, basta chiamare il metodo **remove_worksheet_by_name** del modulo **MangingWorksheets**.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_name()
 
@@ -138,12 +139,12 @@ end
 
 
 {{< /highlight >}}
-### **Rimozione di fogli di lavoro utilizzando l'indice dei fogli**
- Per rimuovere il foglio di lavoro dall'indice del foglio utilizzando**Aspose.Cells Java per Rubino** , chiama semplicemente**remove_worksheet_by_index** metodo di**Gestione dei fogli di lavoro** modulo.
+### **Rimozione dei fogli di lavoro utilizzando l'indice del foglio**
+Per rimuovere il foglio di lavoro per indice foglio utilizzando **Aspose.Cells Java per Ruby**, basta chiamare il metodo **remove_worksheet_by_index** del modulo **MangingWorksheets**.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_index()
 
@@ -175,6 +176,6 @@ end 
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Gestione fogli di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Gestione dei fogli di lavoro (Aspose.Cells)** da uno qualsiasi dei siti di codici sociali menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

@@ -1,13 +1,14 @@
 ---
-title: Come controllare la visualizzazione della cartella di lavoro
+title: Come controllare la visualizzazione del workbook
 type: docs
 weight: 600
 url: /it/net/how-to-control-workbook-view/
-description: Scopri come controllare la visualizzazione della cartella di lavoro tramite Aspose.Cells for .NET API.
-keywords: How to Control Workbook View, Set Excel View, Operate Workbook View, Set Workbook View, Control Excel View. 
+description: Scopri come controllare la visualizzazione del workbook tramite l API Aspose.Cells for .NET.
+keywords: Come controllare la visualizzazione del workbook, Impostare la visualizzazione di Excel, Operare la visualizzazione del workbook, Impostare la visualizzazione del workbook, Controllare la visualizzazione di Excel. 
 ---
-##  **Possibili scenari di utilizzo**
-Quando devi regolare la visualizzazione delle pagine di Excel, devi sapere come controllare ciascun modulo, ad esempio le barre di scorrimento orizzontali e verticali, se nascondere i file Excel aperti e così via. Aspose.Cells offre questa funzionalità. Aspose.Cells fornisce le seguenti proprietà e metodi per aiutarti a raggiungere i tuoi obiettivi.
+
+## **Possibili Scenari di Utilizzo**
+Quando hai bisogno di regolare la visualizzazione delle pagine di Excel, devi sapere come controllare ogni modulo, come le barre di scorrimento orizzontali e verticali, se nascondere i file Excel aperti e così via. Aspose.Cells offre questa funzionalità. Aspose.Cells fornisce le seguenti proprietà e metodi per aiutarti a raggiungere i tuoi obiettivi.
 
 - [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/ishscrollbarvisible/)
 - [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/isvscrollbarvisible/)
@@ -18,16 +19,16 @@ Quando devi regolare la visualizzazione delle pagine di Excel, devi sapere come 
 - [**WorkbookSettings.WindowLeft**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/windowleft/)
 - [**WorkbookSettings.WindowTop**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/windowtop/)
 
-##  **Come controllare la visualizzazione della cartella di lavoro utilizzando Aspose.Cells for .NET**
+## **Come controllare la visualizzazione del workbook usando Aspose.Cells for .NET**
 Questo esempio mostra come:
 
-1. Crea una cartella di lavoro.
+1. Crea un libro di lavoro.
 1. Aggiungi dati alle celle nel primo foglio di lavoro.
-1. Nascondi le barre di scorrimento orizzontali e verticali della visualizzazione cartella di lavoro.
+1. Nascondere le barre di scorrimento orizzontali e verticali della visualizzazione del workbook.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Workbook-View-Settings.cs" >}}
 
-Anteprima del file dei risultati:
+Anteprima del file di risultato:
 <br>
 <image src="result.png" width="70%" />
 

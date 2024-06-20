@@ -1,7 +1,9 @@
-﻿---
-title: Componenti dell'interfaccia utente
+---
+title: Componenti dell interfaccia utente
 second_title: Aspose.Cells.GridDesktop, GridWeb and GridJs
 type: docs
 weight: 35
 url: /it/net/ui-components/
 ---
+
+

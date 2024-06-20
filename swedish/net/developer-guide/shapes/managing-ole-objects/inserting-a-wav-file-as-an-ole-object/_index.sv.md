@@ -1,12 +1,13 @@
-﻿---
-title: Infoga en WAV-fil som ett Ole-objekt
+---
+title: Infoga en WAV fil som ett Ole objekt
 type: docs
 weight: 70
 url: /sv/net/inserting-a-wav-file-as-an-ole-object/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells tillhandahåller funktionen för att lägga till olika typer av OLE-objekt till excel-kalkylbladen. Vi kommer att se i följande kodexempel hur man lägger till en wav-fil som ett OLE-objekt med enkla API:er från Aspose.Cells.
+Aspose.Cells erbjuder funktionalitet för att lägga till olika typer av OLE-objekt i excelfilerna. Vi kommer att se i följande kodexempel hur man lägger till en WAV-fil som ett OLE-objekt med enkla API:er som tillhandahålls av Aspose.Cells. 
 
 {{% /alert %}} 
 

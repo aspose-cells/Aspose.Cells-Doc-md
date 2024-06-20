@@ -1,33 +1,34 @@
 ---
-title: Dinamik Kaydırma Grafiği nasıl oluşturulur?
-description: Aspose.Cells for .NET'i kullanarak dinamik kayan grafiğin nasıl oluşturulacağını öğrenin. Adım adım kılavuzumuz, sürekli ve güncel bir görüntü için grafiğinizde sorunsuz veri geçişlerini ve otomatik kaydırmayı nasıl uygulayacağınızı gösterecektir.
-keywords: Aspose.Cells for .NET, Dynamic Scrolling Chart, Data Transitions, Smooth Scrolling, Continuous Display, Updating Visualization.
+title: Dinamik Kaydırmalı Grafik Nasıl Oluşturulur
+description: Bir dinamik kaydırmalı grafik oluşturmayı Aspose.Cells for .NET ile nasıl yapılacağını öğrenin. Adım adım kılavuzumuz, grafikte pürüzsüz veri geçişlerini ve sürekli güncellenen bir görüntü için otomatik kaydırmayı nasıl uygulayacağınızı gösterecektir.
+keywords: Aspose.Cells for .NET, Dinamik Kaydırma Grafiği, Veri Geçişleri, Pürüzsüz Kaydırma, Sürekli Görüntüleme, Güncellenen Görselleştirme.
 type: docs
 weight: 75
 url: /tr/net/create-dynamic-scrolling-chart/
 ---
-##  **Olası Kullanım Senaryoları**
-Dinamik kaydırma grafiği, zaman içinde değişen verileri görüntülemek için kullanılan bir grafiksel gösterim türüdür. Verilerin gerçek zamanlı görünümünü sağlamak ve kullanıcıların sürekli güncellemeleri ve eğilimleri takip etmelerini sağlamak üzere tasarlanmıştır. Grafik, yeni veriler eklendikçe kendisini sürekli olarak günceller ve en son bilgileri gösterecek şekilde otomatik olarak kaydırılır.
 
-Dinamik kaydırmalı grafikler finans, borsa analizi, hava durumu takibi ve sosyal medya analitiği gibi çeşitli sektörlerde yaygın olarak kullanılmaktadır. Kullanıcıların veri modellerini görselleştirmesine ve analiz etmesine ve gerçek zamanlı bilgilere dayanarak bilinçli kararlar almasına olanak tanır.
+## **Olası Kullanım Senaryoları**
+Dinamik kaydırma grafiği, zamanla değişen verileri göstermek için kullanılan bir grafiksel temsil türüdür. Gerçek zamanlı veri görünümü sağlamak üzere tasarlanmıştır ve kullanıcılara sürekli güncellemeleri ve trendleri takip etme imkanı tanır. Grafik, yeni veri ekledikçe sürekli güncellenir ve en güncel bilgileri göstermek üzere otomatik olarak kaydırılır.
 
-Bu grafikler genellikle etkileşimlidir ve kullanıcının yakınlaştırma veya uzaklaştırma yapmasına, geçmiş veriler arasında gezinmesine ve zaman aralıklarını ayarlamasına olanak tanır. Genellikle birden fazla veri serisini destekleyerek farklı metriklerin ve bunların korelasyonlarının kapsamlı bir görünümünü sağlarlar.
+Dinamik kaydırma grafikleri genellikle finans, hisse senedi piyasası analizi, hava durumu takibi ve sosyal medya analitiği gibi çeşitli endüstrilerde kullanılır. Kullanıcıların veri desenlerini görselleştirmelerine ve analiz etmelerine olanak tanır ve gerçek zamanlı bilgilere dayalı bilinçli kararlar almalarını sağlar.
 
-Genel olarak dinamik kaydırmalı grafikler, zaman serisi verilerini izlemek ve analiz etmek, gerçek zamanlı karar almayı kolaylaştırmak ve veri görselleştirme yeteneklerini geliştirmek için değerli araçlardır.
+Bu grafikler genellikle etkileşimli olarak tasarlanır, kullanıcının yakınlaştırma yapmasına, tarihli veriler arasında kaydırmasına ve zaman aralıklarını ayarlamasına olanak tanır. Genellikle birden fazla veri serisini destekler, farklı metriklerin ve ilişkilerinin kapsamlı bir görünümünü sunar.
 
-##  **Dinamik Kaydırma Grafiği oluşturmak için Aspose Cells'i kullanın**
-Sonraki paragraflarda Aspose.Cells kullanarak Dinamik Kaydırma Grafiğinin nasıl oluşturulacağını göstereceğiz. Size örneğin kodunu ve bu kodla oluşturulan Excel dosyasını göstereceğiz.
+Genel olarak, dinamik kaydırma grafikleri, zaman serisi verilerinin izlenmesi ve analiz edilmesi için değerli araçlardır, gerçek zamanlı karar alma ve veri görselleştirme kapasitelerini geliştirmeye yardımcı olurlar.
 
-##  **Basit kod**
- Aşağıdaki örnek kod,[Dinamik Kaydırmalı Grafik Dosyası](DynamicScrollingChart.xlsx).
+## **Dinamik Kaydırma Grafiği Oluşturmak İçin Aspose Cells Kullanın**
+Sonraki paragrafta, Aspose.Cells kullanarak Dinamik Kaydırma Grafiği nasıl oluşturulacağını size göstereceğiz. Örnek için kodu ve bu kodla oluşturulmuş Excel dosyasını size göstereceğiz.
+
+## **Örnek Kod**
+Aşağıdaki örnek kod, [Dinamik Kaydırma Grafik Dosyasını](DynamicScrollingChart.xlsx) oluşturacaktır.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-dynamic-scrolling-chart.cs" >}}
 
-##  **Notlar**
-Oluşturulan dosyada, grafik en son 10 veri kümesini dinamik olarak sayarken kaydırma çubuğu üzerinde işlem yapabilirsiniz. Bu, örnek koddaki "OFFSET" formülü kullanılarak yapılır:
+## **Notlar**
+Oluşturulan dosyada, kaydırma çubuğunu kullanabilir ve grafik dinamik olarak en son 10 veri kümesini sayar. Bu, örnek kod içinde "OFFSET" formülü kullanılarak yapılır:
 
 ```
 "=OFFSET(Sheet1!$B$2,Sheet1!$G$20,0,Sheet1!$H$20,1)"
 ```
 
-"Sheet1!$H$20" hücresinde "10" sayısını "15" olarak değiştirmeyi deneyebilirsiniz; dinamik grafik en son 15 veri kümesini sayacaktır. Artık Aspose.Cells'i başarıyla kullanarak dinamik bir kaydırma grafiği oluşturduk.
+"Sheet1!$H$20" hücresindeki "10" sayısını "15" olarak değiştirmeyi deneyebilirsiniz ve dinamik grafik en son 15 veri kümesini sayacaktır. Şimdi Aspose.Cells kullanarak dinamik kaydırma grafiği başarıyla oluşturuldu.

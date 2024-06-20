@@ -1,28 +1,29 @@
 ---
-title: Satırda Maksimum Sütun Dizinini ve Sütunda Maksimum Satır Dizinini Alın
+title: Satırda Maksimum Sütun Endeksini ve Sütunda Maksimum Satır Endeksini Al
 type: docs
 weight: 600
 url: /tr/net/get-max-index-in-row-and-column/
-description: Aspose.Cells for .NET API aracılığıyla Satırda Maksimum Sütun Dizinini ve Sütunda Maksimum Satır Dizinini nasıl alacağınızı öğrenin.
-keywords: Get Max Column Index in Row, Get Max Row Index in Column, Get Max Data Column Index in Row, Get Max Data Row Index in Column. 
+description: Aspose.Cells for .NET API aracılığıyla Satırda Maksimum Sütun İndeksini ve Sütunda Maksimum Satır İndeksini Nasıl Alınır öğrenin.
+keywords: Satırda Maksimum Sütun İndeksini Alın, Sütunda Maksimum Satır İndeksini Alın, Satırda Maksimum Veri Sütun İndeksini Alın, Sütunda Maksimum Veri Satır İndeksini Alın. 
 ---
-##  **Olası Kullanım Senaryoları**
-Satır veya sütunlardaki yalnızca bazı verileri değiştirmeniz gerektiğinde, satır ve sütunların veri aralığını bilmeniz gerekir. Aspose.Cells bu özelliği sunuyor. Bir satırdaki maksimum sütun indeksini elde etmek için,[Row.LastCell](https://reference.aspose.com/cells/net/aspose.cells/row/lastcell/) Ve[Row.LastDataCell](https://reference.aspose.com/cells/net/aspose.cells/row/lastdatacell/) özelliklerini kullanın ve ardından[Cell.Column](https://reference.aspose.com/cells/net/aspose.cells/cell/column/) Maksimum sütun indeksini ve maksimum veri sütun indeksini elde etmek için özellik. Ancak bir sütunda maksimum satır indeksini ve maksimum satır veri indeksini elde etmek için, sütunda bir aralık oluşturmanız, ardından son hücreyi bulmak için aralığı geçmeniz ve son olarak[Cell.Row](https://reference.aspose.com/cells/net/aspose.cells/cell/row/) hücredeki öznitelik.
 
-Aspose.Cells, hedeflerinize ulaşmanıza yardımcı olmak için aşağıdaki özellikleri ve yöntemleri sağlar.
+## **Olası Kullanım Senaryoları**
+Yalnızca bazı verileri satırlarda veya sütunlarda değiştirmeniz gerektiğinde, satırların ve sütunların veri aralığını bilmeniz gerekir. Aspose.Cells bu özelliği sunar. Bir satırdaki maksimum sütun endeksini almak için [Row.LastCell](https://reference.aspose.com/cells/net/aspose.cells/row/lastcell/) ve [Row.LastDataCell](https://reference.aspose.com/cells/net/aspose.cells/row/lastdatacell/) özelliklerini alabilir ve sonra [Cell.Column](https://reference.aspose.com/cells/net/aspose.cells/cell/column/) özelliğini kullanarak maksimum sütun endeksini ve maksimum veri sütun endeksini alabilirsiniz. Ancak, bir sütundaki maksimum satır endeksini ve maksimum satır veri endeksini almak için, sütun üzerinde bir aralık oluşturmanız, ardından aralığı dolaşmanız ve son olarak hücredeki [Cell.Row](https://reference.aspose.com/cells/net/aspose.cells/cell/row/) özniteliğini almanız gerekir.
+
+Aspose.Cells, hedeflerinize ulaşmanıza yardımcı olmak için aşağıdaki özellikler ve yöntemleri sağlar.
 - [**Row.LastCell**](https://reference.aspose.com/cells/net/aspose.cells/row/lastcell/)
 - [**Row.LastDataCell**](https://reference.aspose.com/cells/net/aspose.cells/row/lastdatacell/)
 - [**Cell.Column**](https://reference.aspose.com/cells/net/aspose.cells/cell/column/)
 - [**Cell.Row**](https://reference.aspose.com/cells/net/aspose.cells/cell/row/)
 
-##  **Aspose.Cells'i kullanarak Satırda Maksimum Sütun Dizinini ve Sütunda Maksimum Satır Dizinini alın**
-Bu örnekte aşağıdakilerin nasıl yapılacağı gösterilmektedir:
+## **Aspose.Cells Kullanarak Satırda Maksimum Sütun İndeksini ve Sütunda Maksimum Satır İndeksini Alın**
+Bu örnek aşağıdakileri göstermektedir:
 
-1.  Yükle[örnek dosya](sample.xlsx).
-1. Maksimum sütun dizinini ve maksimum veri sütunu dizinini alması gereken satırı alın.
-1.  Elde etmek[Cell.Column](https://reference.aspose.com/cells/net/aspose.cells/cell/column/) hücredeki öznitelik.
+1. [Örnek dosyayı](örnek.xlsx) yükleyin.
+1. Maksimum sütun dizinini ve maksimum veri sütun dizinini elde etmek için satırı alın.
+1. Hücrede [Cell.Column](https://reference.aspose.com/cells/net/aspose.cells/cell/column/) özniteliğini alın.
 1. Sütuna dayalı bir aralık oluşturun.
-1. Yineleyiciyi ve geçiş aralığını alın.
-1.  Elde etmek[Cell.Row](https://reference.aspose.com/cells/net/aspose.cells/cell/row/) hücredeki öznitelik.
+1. İteratörü alın ve aralığı gezin.
+1. Hücrede [Cell.Row](https://reference.aspose.com/cells/net/aspose.cells/cell/row/) özniteliğini alın.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Cells-max-index-of-row-and-column.cs" >}}

@@ -1,16 +1,17 @@
-﻿---
-title: Расширяйте и вносите свой вклад в инструмент импорта обновлений CRM
+---
+title: Расширение и вклад в инструмент CRM Update Import
 type: docs
 weight: 10
 url: /ru/net/extend-and-contribute-to-crm-update-import-tool/
 ---
-Вы можете загрузить последнюю версию исходного кода по адресу:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Plugins.UpdateImportTool).
+Вы можете загрузить последний исходный код по ссылке:
+
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Plugins.UpdateImportTool).
 
 Экспорт данных из CRM в Excel
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
   SaveFileDialog fileDialog = new SaveFileDialog();
 
@@ -73,7 +74,7 @@ url: /ru/net/extend-and-contribute-to-crm-update-import-tool/
 
 Импорт данных из Excel в CRM
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
   if (ctrl.CrmConnectionMgr != null && ctrl.CrmConnectionMgr.CrmSvc != null && ctrl.CrmConnectionMgr.CrmSvc.IsReady)
 

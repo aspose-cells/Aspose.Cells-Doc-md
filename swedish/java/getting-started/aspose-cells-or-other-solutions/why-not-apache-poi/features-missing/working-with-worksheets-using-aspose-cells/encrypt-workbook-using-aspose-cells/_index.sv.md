@@ -1,15 +1,16 @@
-﻿---
-title: Kryptera arbetsbok med Aspose.Cells
+---
+title: Kryptera arbetsboken med hjälp av Aspose.Cells
 type: docs
 weight: 60
 url: /sv/java/encrypt-workbook-using-aspose-cells/
 ---
+
 ## **Aspose.Cells - Kryptera arbetsbok**
-Följande exempel visar hur du kan kryptera / lösenordsskydda en Excel-fil med hjälp av Aspose.Cells API.
+Följande exempel visar hur du kan kryptera/lösenordsskydda en excelfil med hjälp av Aspose.Cells API.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -32,14 +33,14 @@ workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128)
 workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeEncryptSpreadsheets.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Kryptera Excel-filer](/cells/sv/java/encrypting-excel-files/).
+För mer information, besök [Kryptera Excel-filer](/cells/sv/java/encrypting-excel-files/).
 
 {{% /alert %}}

@@ -1,16 +1,17 @@
-﻿---
-title: Autopassa rader och kolumner i PHP
+---
+title: Autofit rader och kolumner i PHP
 type: docs
 weight: 20
 url: /sv/java/autofit-rows-and-columns-in-php/
 ---
-## **Aspose.Cells - Autopassa rader och kolumner**
-### **Autofit rad**
-Det enklaste sättet att automatiskt anpassa bredd och höjd på en rad är att anropa Worksheet-klassens autoFitRow-metod. AutoFitRow-metoden tar ett radindex (för raden som ska ändras storlek) som en parameter.
+
+## **Aspose.Cells - Justera rader och kolumner automatiskt**
+### **Automatiskt anpassa rad**
+Det mest raka sättet att automatiskt justera bredden och höjden på en rad är att anropa klassens 'Worksheet' 'autoFitRow'-metod.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_row($dataDir)
 
@@ -43,12 +44,12 @@ Det enklaste sättet att automatiskt anpassa bredd och höjd på en rad är att 
 }
 
 {{< /highlight >}}
-### **Autofit kolumn**
-Det enklaste sättet att automatiskt anpassa bredden och höjden på en kolumn är att anropa Worksheet-klassens autoFitColumn-metod. AutoFitColumn-metoden tar kolumnindex (för kolumnen som ska ändras storlek) som en parameter.
+### **Automatiskt anpassa kolumn**
+Det enklaste sättet att automatiskt justera bredden och höjden på en kolumn är att anropa klassens 'Worksheet' 'autoFitColumn'-metod.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function autofit_column($dataDir)
 
@@ -81,7 +82,7 @@ Det enklaste sättet att automatiskt anpassa bredden och höjden på en kolumn �
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Autopassa rader och kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Justera rader och kolumner automatiskt (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

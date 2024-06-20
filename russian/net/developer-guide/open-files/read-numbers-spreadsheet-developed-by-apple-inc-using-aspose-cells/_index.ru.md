@@ -1,16 +1,17 @@
-﻿---
-title: Читать Numbers Электронная таблица, разработанная Apple Inc. с использованием Aspose.Cells
+---
+title: Чтение Numbers Spreadsheet разработанный Apple Inc. с использованием Aspose.Cells
 type: docs
 weight: 140
 url: /ru/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
 ---
+
 ## **Возможные сценарии использования**
 
-Numbers — это приложение для работы с электронными таблицами, разработанное Apple Inc. Aspose.Cells может читать электронные таблицы Numbers, но не поддерживает запись в них. Он может читать данные электронной таблицы Numbers, стиль и формулы.
+Numbers - это приложение для электронных таблиц, разработанное компанией Apple Inc. Aspose.Cells может читать электронные таблицы Numbers, но не поддерживает их запись. Он может читать данные, стили и формулы электронных таблиц Numbers.
 
-## **Читать Numbers Электронная таблица, разработанная Apple Inc. с использованием Aspose.Cells**
+## **Чтение таблицы чисел, разработанной Apple Inc. с использованием Aspose.Cells**
 
- Следующий пример кода загружает[Образец Numbers Электронная таблица](sampleNumbersByAppleInc.numbers) и преобразует его в[Формат вывода PDF](outputNumbersByAppleInc.pdf) . Вам придется использовать**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** класс и указать**[LoadFormat.Numbers] (https://reference.aspose.com/cells/net/aspose.cells/loadformat)**в качестве параметра в его конструкторе для его успешной загрузки. Пожалуйста, загрузите их оба по указанным ссылкам. Вы можете попробовать код с любой электронной таблицей Numbers. Также прочитайте комментарии к коду для получения дополнительной помощи.
+Приведенный ниже образец кода загружает [Образец таблицы цифр](sampleNumbersByAppleInc.numbers) и преобразует его в [Формат PDF](outputNumbersByAppleInc.pdf). Вам нужно использовать класс [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) и указать [**LoadFormat.Numbers**](https://reference.aspose.com/cells/net/aspose.cells/loadformat) в качестве параметра в его конструкторе, чтобы успешно загрузить его. Пожалуйста, загрузите каждый из них по данным ссылкам. Вы можете попробовать код с любой таблицей Numbers. Пожалуйста, также прочитайте комментарии кода для большей помощи.
 
 ## **Образец кода**
 

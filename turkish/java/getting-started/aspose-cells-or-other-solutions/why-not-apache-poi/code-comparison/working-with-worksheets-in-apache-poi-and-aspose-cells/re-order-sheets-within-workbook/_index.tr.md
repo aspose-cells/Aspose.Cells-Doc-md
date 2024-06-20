@@ -1,15 +1,16 @@
-﻿---
-title: Çalışma Kitabında Sayfaları Yeniden Sırala
+---
+title: Çalışan Kodu İndir
 type: docs
 weight: 50
 url: /tr/java/re-order-sheets-within-workbook/
 ---
-## **Aspose.Cells - Çalışma Kitabı İçinde Sayfaları Yeniden Sırala**
-Aspose.Cells, bir çalışma sayfasını aynı elektronik tabloda başka bir konuma taşımak için kullanılan Worksheet.moveTo() yöntemini sağlar.
+
+## **Örnek Kodu İndir**
+Aspose.Cells, aynı elektronik tabloda bir çalışma sayfasını başka bir konuma taşımak için kullanılan Worksheet.moveTo() yöntemini sağlar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a new Workbook.
 
@@ -36,12 +37,12 @@ worksheet3.moveTo(2);
 workbook.save(dataDir + "AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Çalışma Kitabı İçinde Sayfaları Yeniden Sırala**
-Apache POI, çalışma sayfalarını gerekli sırayla ayarlamak için Workbook.setSheetOrder() yöntemini sağlar.
+## **Apache POI SS - HSSF XSSF - Çalışma Kitabı İçinde Sayfaların Yeniden Sıralanması**
+Apache POI, çalışma sayfalarını istenen sırada ayarlamak için Workbook.setSheetOrder() metodunu sağlar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -66,11 +67,11 @@ fileOut.close();
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/reordersheets)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarını Kopyalama ve Taşıma](/cells/tr/java/copying-and-moving-worksheets).
+Daha fazla detay için [Çalışma Sayfalarını Kopyalama ve Taşıma](/cells/tr/java/calisma-sayfalarini-kopyalama-ve-tasima) sayfasını ziyaret edin.
 
 {{% /alert %}}

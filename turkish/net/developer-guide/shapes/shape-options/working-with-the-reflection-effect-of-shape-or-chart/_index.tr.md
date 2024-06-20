@@ -1,22 +1,23 @@
-﻿---
-title: Şeklin veya Grafiğin Yansıma Efektiyle Çalışma
+---
+title: Şekil veya Grafik Yansıma Efekti Çalışmak
 type: docs
 weight: 210
 url: /tr/net/working-with-the-reflection-effect-of-shape-or-chart/
 ---
-## **Olası Kullanım Senaryoları**
- Aspose.Cells şunları sağlar:[şekil.yansıma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection) ile birlikte mülk[Yansıma Etkisi](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect) şeklin veya grafiğin yansıma efektiyle çalışmak için sınıf. bu[Yansıma Etkisi](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect)class, uygulama gereksinimlerine göre farklı sonuçlar elde etmek için ayarlanabilen aşağıdaki özellikleri içerir.
 
-- [Bulanıklık](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/blur)
+## **Olası Kullanım Senaryoları**
+Aspose.Cells, [Shape.Reflection](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection) özelliği ve [ReflectionEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect) sınıfını kullanarak şekil veya grafik yansıma efektiyle çalışmak için sağlar. [ReflectionEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect) sınıfı, aşağıdaki özellikleri içerir ve uygulama gereksinimlerine göre farklı sonuçlar elde etmek için bu özellikler ayarlanabilir.
+
+- [Bulanık](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/blur)
 - [Yön](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/direction)
 - [Mesafe](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/distance)
-- [FadeYön](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/fadedirection)
-- [RotWithShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/rotwithshape)
-- [Boy](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/size)
-- [şeffaflık](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/transparency)
-- [Tip](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/type)
-## **Şeklin veya Grafiğin Yansıma Efektiyle Çalışma**
- Aşağıdaki örnek kod,[kaynak excel dosyası](5115424.xlsx) ve varsayılan çalışma sayfasındaki ilk şekle erişir ve şeklin farklı özelliklerini ayarlar.[şekil.yansıma](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection)sınıfına kaydeder ve ardından çalışma kitabını[çıktı excel dosyası](5115423.xlsx).
+- [Solma Yönü](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/fadedirection)
+- [Şekil ile Döndür](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/rotwithshape)
+- [Boyut](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/size)
+- [Şeffaflık](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/transparency)
+- [Tür](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/type)
+## **Şekil veya Grafik Yansıma Efekti Çalışmak**
+Aşağıdaki örnek kod, [kaynak excel dosyasını](5115424.xlsx) yükler ve varsayılan çalışma sayfasındaki ilk şeklin farklı özelliklerini ayarlar  [Shape.Reflection](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection) sınıfı ve ardından çalışma kitabını seçimli olarak [çıkış excel dosyasına](5115423.xlsx) kaydeder.
 
 
 

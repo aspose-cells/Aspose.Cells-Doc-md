@@ -1,22 +1,23 @@
-﻿---
-title: グラフなしでソース Excel ファイルを読み込む
+---
+title: チャートなしでソースエクセルファイルをロード
 type: docs
 weight: 750
 url: /ja/java/load-source-excel-file-without-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells を使用すると、グラフなしで Excel ファイルを読み込むことができます。この目的には LoadOptions.LoadFilter プロパティを使用してください。
+Aspose.Cellsを使用して、チャートなしでエクセルファイルをロードすることができます。この目的のためにLoadOptions.LoadFilterプロパティを使用してください。
 
 {{% /alert %}} 
-## **グラフなしでソース Excel ファイルを読み込む**
-次のサンプル コードは、サンプルの Excel ファイルをグラフなしで読み込み、出力 pdf 形式で保存します。
+## **チャートなしでソースエクセルファイルをロード**
+以下のサンプルコードは、サンプルのエクセルファイルをチャートなしでロードし、それを出力PDF形式で保存します。
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Specify the load options and filter the data
 

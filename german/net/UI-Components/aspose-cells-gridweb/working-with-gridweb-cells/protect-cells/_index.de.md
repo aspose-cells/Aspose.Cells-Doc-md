@@ -1,42 +1,45 @@
-﻿---
-title: Cells schützen
+---
+title: Schützen Sie Zellen
 type: docs
 weight: 50
-url: /de/net/protect-cells/
+url: /de/net/aspose-cells-gridweb/protect-cells/
+keywords: GridWeb,schützen,schreibgeschützt,bearbeitbar
+description: Dieser Artikel zeigt, wie man Zellen in GridWeb schützt.
 ---
+
 {{% alert color="primary" %}} 
 
-In diesem Thema werden einige Techniken zum Schutz von Zellen beschrieben. Mithilfe dieser Techniken können Entwickler verhindern, dass Benutzer alle oder einen ausgewählten Bereich von Zellen in einem Arbeitsblatt bearbeiten.
+In diesem Thema werden einige Techniken zum Schutz von Zellen beschrieben. Durch die Verwendung dieser Techniken können Entwickler Benutzer daran hindern, alle oder einen ausgewählten Bereich von Zellen in einem Arbeitsblatt zu bearbeiten.
 
 {{% /alert %}} 
-## **Schützen Cells**
- Aspose.Cells. GridWeb bietet einige unterschiedliche Techniken zum Steuern der Schutzebene für Zellen, wenn die Kontrolle aktiviert ist[Bearbeitungsmodus](/cells/de/net/enable-different-gridweb-modes/#edit-mode) (der Standardmodus). Dies schützt Zellen davor, von Endbenutzern geändert zu werden.
-### **Alle Cells schreibgeschützt machen**
-Um alle Zellen in einem Arbeitsblatt schreibgeschützt festzulegen, rufen Sie die SetAllCellsReadonly-Methode des Arbeitsblatts auf.
+## **Zellen schützen**
+Aspose.Cells.GridWeb bietet verschiedene Techniken zur Kontrolle des Schutzlevels von Zellen, wenn die Steuerung im [Bearbeitungsmodus](/cells/de/net/aspose-cells-gridweb/enable-different-gridweb-modes/#edit-mode) (der Standardmodus) ist. Dies schützt Zellen davor, von Endbenutzern geändert zu werden.
+### **Alle Zellen schreibgeschützt machen**
+Um alle Zellen in einem Arbeitsblatt schreibgeschützt zu machen, rufen Sie die Methode SetAllCellsReadonly des Arbeitsblatts auf.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ProtectCells.aspx-MakeAllCellsReadOnly.cs" >}}
-### **Alle Cells bearbeitbar machen**
-Um den Schutz von allen Zellen aufzuheben, rufen Sie die SetAllCellsEditable-Methode des Arbeitsblatts auf. Diese Methode hat den gegenteiligen Effekt zur SetAllCellsReadonly-Methode.
+### **Alle Zellen bearbeitbar machen**
+Um den Schutz von allen Zellen zu entfernen, rufen Sie die Methode SetAllCellsEditable des Arbeitsblatts auf. Diese Methode hat den gegenteiligen Effekt der Methode SetAllCellsReadonly.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ProtectCells.aspx-MakeAllCellsEditable.cs" >}}
-### **Ausgewählte Cells schreibgeschützt machen**
-So schützen Sie nur eine Reihe von Zellen:
+### **Ausgewählte Zellen schreibgeschützt machen**
+Um nur einen Bereich von Zellen zu schützen:
 
-1. Machen Sie zunächst alle Zellen bearbeitbar, indem Sie die SetAllCellsEditable-Methode aufrufen.
-1. Geben Sie den zu schützenden Zellbereich an, indem Sie die SetReadonlyRange-Methode des Arbeitsblatts aufrufen. Diese Methode verwendet die Anzahl der Zeilen und Spalten, um den Zellbereich anzugeben.
+1. Machen Sie zuerst alle Zellen bearbeitbar, indem Sie die Methode SetAllCellsEditable aufrufen.
+1. Geben Sie den Bereich von Zellen an, der geschützt werden soll, indem Sie die Methode SetReadonlyRange des Arbeitsblatts aufrufen. Diese Methode nimmt die Anzahl von Zeilen und Spalten an, um den Bereich von Zellen festzulegen.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ProtectCells.aspx-MakeSelectedCellsReadOnly.cs" >}}
-### **Ausgewählte Cells bearbeitbar machen**
-So heben Sie den Schutz einer Reihe von Zellen auf:
+### **Ausgewählte Zellen bearbeitbar machen**
+Um einen Bereich von Zellen zu entsperren:
 
-1. Machen Sie alle Zellen schreibgeschützt, indem Sie die SetAllCellsReadonly-Methode aufrufen.
-1. Geben Sie den bearbeitbaren Zellbereich an, indem Sie die SetEditableRange-Methode des Arbeitsblatts aufrufen. Diese Methode verwendet die Anzahl der Zeilen und Spalten, um den Zellbereich anzugeben.
+1. Machen Sie alle Zellen schreibgeschützt, indem Sie die Methode SetAllCellsReadonly des Arbeitsblatts aufrufen.
+1. Geben Sie den Bereich von Zellen an, der bearbeitbar sein soll, indem Sie die Methode SetEditableRange des Arbeitsblatts aufrufen. Diese Methode nimmt die Anzahl von Zeilen und Spalten an, um den Bereich von Zellen festzulegen.
 
 
 

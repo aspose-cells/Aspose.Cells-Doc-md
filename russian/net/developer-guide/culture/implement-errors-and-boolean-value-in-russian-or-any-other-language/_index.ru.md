@@ -1,21 +1,22 @@
-﻿---
-title: Реализовать ошибки и логическое значение на русском или любом другом языке
+---
+title: Реализация ошибок и логических значений на русском или на любом другом языке
 type: docs
 weight: 40
 url: /ru/net/implement-errors-and-boolean-value-in-russian-or-any-other-language/
 ---
+
 ## **Возможные сценарии использования**
 
-Если вы используете Microsoft Excel в русской локали или языке или любой другой локали или языке, он будет отображать ошибки и логические значения в соответствии с этой локалью или языком. Вы можете добиться аналогичного поведения, используя Aspose.Cells, используя**[Workbook.Settings.GlobalizationSettings**] (https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings). Вам придется переопределить следующие методы[**Настройки глобализации**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)учебный класс.
+Если вы используете Microsoft Excel на русском языке, локали или на любом другом языке, он будет отображать ошибки и логические значения в соответствии с этой локалью или языком. Вы можете добиться похожего поведения при использовании Aspose.Cells с помощью свойства [**Workbook.Settings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings). Вам нужно переопределить следующие методы класса [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings).
 
 - [**GlobalizationSettings.GetErrorValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/geterrorvaluestring)
 - [**GlobalizationSettings.GetBooleanValueString()**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getbooleanvaluestring)
 
-## **Реализовать ошибки и логическое значение на русском или любом другом языке**
+## **Реализация ошибок и логических значений на русском или на любом другом языке**
 
- В следующем примере кода показано, как реализовать ошибки и логическое значение на русском или любом другом языке. Пожалуйста, проверьте[Образец файла Excel](73990159.xlsx) используется в этом коде и его[Выход PDF](73990160.pdf)На снимке экрана показана разница между образцом файла Excel и выводом PDF для справки.
+Приведенный ниже образец кода иллюстрирует, как реализовать ошибки и логические значения на русском или на любом другом языке. Пожалуйста, проверьте [используемый образец файл Excel](73990159.xlsx) в этом коде и его [выходной PDF](73990160.pdf). На скриншоте показано различие между образцом файла Excel и выходным PDF для справки.
 
-![дело:изображение_альтернативный_текст](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
+![todo:image_alt_text](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
 
 ## **Образец кода**
 

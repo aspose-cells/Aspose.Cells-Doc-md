@@ -1,20 +1,21 @@
-﻿---
+---
 title: Insertar línea de tiempo
-linktitle: Cronologías
+linktitle: Líneas de tiempo
 type: docs
 weight: 170
 url: /es/net/create-timeline/
-description: Aprende a crear una línea de tiempo con Aspose.Cells.
+description: Aprende a crear una línea de tiempo con Aspose.Cells
 ---
-## **Posibles escenarios de uso**
 
- En lugar de ajustar los filtros para mostrar las fechas, puede usar una línea de tiempo de tabla dinámica, una opción de filtro dinámico que le permite filtrar fácilmente por fecha/hora y acercar el período que desee con un control deslizante. Microsoft Excel le permite crear una línea de tiempo seleccionando una tabla dinámica y luego haciendo clic en el*Insertar > Línea de tiempo*. Aspose.Cells también le permite crear una línea de tiempo usando el[**Hoja de trabajo.Líneas de tiempo.Agregar()**](https://reference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index)método.
+## **Escenarios de uso posibles**
 
-## **Crear línea de tiempo en una tabla dinámica**
+En lugar de ajustar filtros para mostrar fechas, puedes usar una Línea de Tiempo de Tabla Dinámica: una opción de filtro dinámico que te permite filtrar fácilmente por fecha/hora y acercarte al período deseado con un control deslizante. Microsoft Excel te permite crear una línea de tiempo seleccionando una tabla dinámica y haciendo clic en *Insertar > Línea de tiempo*. Aspose.Cells también te permite crear una línea de tiempo usando el método [**Worksheet.Timelines.Add()**](https://reference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index).
 
- Consulte el siguiente código de ejemplo. carga el[ejemplo de archivo de Excel](input.xlsx) que contiene la tabla dinámica. A continuación, crea la línea de tiempo basada en el campo pivote de la primera base. Finalmente, guarda el libro de trabajo en[salida XLSX](output.xlsx) formato. La siguiente captura de pantalla muestra la línea de tiempo creada por Aspose.Cells en el archivo de salida de Excel.
+## **Crear una línea de tiempo para una Tabla Dinámica**
 
-![todo:imagen_alternativa_texto](create-timeline-to-a-pivot-table_1.png)
+Por favor, consulta el siguiente código de muestra. Carga el [archivo Excel de muestra](input.xlsx) que contiene la tabla dinámica. Luego crea la línea de tiempo basada en el primer campo pivote base. Finalmente, guarda el libro de trabajo en formato [XLSX de salida](output.xlsx). La siguiente captura de pantalla muestra la línea de tiempo creada por Aspose.Cells en el archivo Excel de salida.
+
+![todo:image_alt_text](create-timeline-to-a-pivot-table_1.png)
 
 ### **Código de muestra**
 

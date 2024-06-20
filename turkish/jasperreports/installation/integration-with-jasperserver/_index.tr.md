@@ -1,26 +1,27 @@
-﻿---
-title: JasperServer ile entegrasyon
+---
+title: JasperServer ile Entegrasyon
 type: docs
 weight: 30
 url: /tr/jasperreports/integration-with-jasperserver/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for JasperReports'i JasperServer ile entegre etmek için aşağıdaki adımları uygulayın.
+Aspose.Cells for JasperReports'ü JasperServer ile entegre etmek için aşağıdaki adımları gerçekleştirin.
 
 {{% /alert %}} 
 
 {{% alert color="primary" %}} 
 
- Aşağıdaki adımların hepsinde<InstallDir> JasperServer kurulum dizini anlamına gelir.
+In all of the following steps <InstallDir> stands for the JasperServer installation directory. 
 
 {{% /alert %}} 
 
-1. Aşağıdaki yeni dışa aktarıcı özelliklerini şuraya ekleyin:**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** dosya.
+1. Add the following new exporter properties to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file. 
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <bean id="reportACXlsExporter" class="com.aspose.cells.jasperreports.ACReportXlsExporter" parent="baseReportExporter">
 
@@ -48,11 +49,11 @@ Aspose.Cells for JasperReports'i JasperServer ile entegre etmek için aşağıda
 
 {{< /highlight >}}
 
-1.  bulun<util:map id=”exporterConfigMap> içindeki eleman**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** dosyasını açın ve aşağıdaki satırları ekleyin:
+1. Locate the <util:map id=”exporterConfigMap> element in the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file and add the following lines: 
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <util:map id="exporterConfigMap">
 
@@ -81,14 +82,14 @@ Aspose.Cells for JasperReports'i JasperServer ile entegre etmek için aşağıda
 
 
 
-1.  Tüm GIF görüntüleri kopyalayın.**\ lib** içindeki klasör**aspose.cells.jasperreports.zip** için*<InstallDir>\apache-tomcat\webapps\jasperserver\images* Klasör.
-1.  Kopyala**aspose.cells.jasperreports.jar** gelen dosya**\ lib** içindeki klasör**aspose.cells.jasperreports.zip** için**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** Klasör.
-1.  aşağıdaki satırları ekleyin**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** dosya.
- (Bu fasulye, dışa aktarmayı yapılandırmaya yönelik çeşitli yapılandırma ayarları içerebilir. Örneğin, JasperReports yazı tipi eşleme özelliğini kullanabilir veya Aspose.Cells for JasperReports lisans dosyasının konumunu belirtebilirsiniz.)
+1. Copy all GIF images from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the *<InstallDir>\apache-tomcat\webapps\jasperserver\images* folder.
+1. Copy the **aspose.cells.jasperreports.jar** file from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** folder.
+1. Add the following lines to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file.
+   (Bu bean, dışa aktarımı yapılandırmak amacıyla değişik yapılandırma ayarları içerebilir. Örneğin, JasperReports font eşlemesi özelliğini veya Aspose.Cells for JasperReports lisans dosyasının konumunu belirtebilirsiniz.) 
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <bean id="excelACExportParameters" class="com.aspose.cells.jasperreports.ACXlsExportParametersBean"> <!-- Uncomment to apply a license. Check the license path.
 
@@ -105,11 +106,11 @@ Aspose.Cells for JasperReports'i JasperServer ile entegre etmek için aşağıda
 
 
 
-1. JasperServer'ı çalıştırın ve görüntülemek için herhangi bir raporu açın. Önceki adımlar düzgün bir şekilde gerçekleştirildiyse, ek biçim simgeleri kullanılabilir.
+1. JasperServer'ı çalıştırın ve görüntülemek için herhangi bir raporu açın. Önceki adımlar düzgün bir şekilde yapıldıysa, ek format simgeleri mevcut olacaktır. 
 
-**JasperServer'a Aspose.Cells for JasperReports yüklendikten sonra yeni dışa aktarma biçimleri kullanılabilir (sağda)** 
+**JasperServer'e Aspose.Cells for JasperReports yüklendikten sonra (sağda) yeni dışa aktarma formatları mevcut** 
 
-![yapılacaklar:resim_alternatif_metin](integration-with-jasperserver_1.png)
+![todo:image_alt_text](integration-with-jasperserver_1.png)
 
 
 

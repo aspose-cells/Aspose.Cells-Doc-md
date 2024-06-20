@@ -1,31 +1,32 @@
 ---
-title: Доступ и обновление частей форматированного текста Cell
-linktitle: Богатое форматирование текста
+title: Доступ и обновление частей форматированного текста ячейки
+linktitle: Редактирование текста с использованием разнообразного форматирования
 type: docs
 weight: 40
 url: /ru/net/access-and-update-the-portions-of-rich-text-of-cell/
-description: Узнайте, как получить доступ и обновить части форматированного текста с Cell по Aspose.Cells for .NET API.
-keywords: Access and Update Rich Text of Cell, Get Rich Text of Cell, Edit Rich Text of Cell, Access Rich Text of Cell, Update Rich Text of Cell, Change Rich Text of Cell
+description: Узнайте, как получить доступ к разделам обогащенного текста ячейки и обновить их с помощью API Aspose.Cells for .NET.
+keywords: Получить доступ и обновить обогащенный текст ячейки, получить обогащенный текст ячейки, отредактировать обогащенный текст ячейки, получить доступ к обогащенному тексту ячейки, обновить обогащенный текст ячейки, изменить обогащенный текст ячейки
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells позволяет получать доступ и обновлять части форматированного текста ячейки. Для этой цели вы можете использовать[**Cell.ПолучитьПерсонажи()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) и[**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) методы. Эти методы вернут и примут массив[**Настройка шрифта**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting)объекты, которые вы можете использовать для доступа и обновления различных свойств шрифта, таких как имя шрифта, цвет шрифта, жирность и т. д.
+Aspose.Cells позволяет получить доступ к обновлению разделов обогащенного текста ячейки. Для этой цели вы можете использовать методы [**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) и [**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters). Эти методы будут возвращать и принимать массивы объектов [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting), которые вы сможете использовать для доступа и обновления различных свойств шрифта, таких как имя шрифта, цвет шрифта, полужирный и т. д.
 
 {{% /alert %}}
 
-##  **Доступ и обновление частей форматированного текста Cell**
+## **Доступ и обновление частей Rich Text ячейки**
 
- Следующий код демонстрирует использование[**Cell.ПолучитьПерсонажи()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) и[**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) метод с использованием[исходный файл Excel](5112369.xlsx) который вы можете скачать по предоставленной ссылке. Исходный файл Excel содержит форматированный текст в ячейке A1. Он состоит из 3 частей, и каждая часть имеет свой шрифт. Следующий фрагмент кода обращается к этим частям и обновляет первую часть, добавляя новое имя шрифта. Наконец, он сохраняет книгу как[выходной файл Excel](5112366.xlsx). Открыв его, вы обнаружите, что шрифт первой части текста изменился на *"Arial"**.
+Следующий код демонстрирует использование методов [**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) и [**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) с использованием [исходного файла Excel](5112369.xlsx), который вы можете скачать по предоставленной ссылке. Исходный файл Excel содержит обогащенный текст в ячейке A1. В нем 3 раздела и каждый раздел имеет разные шрифты. Следующий отрывок кода получает доступ к этим разделам и обновляет первый раздел с новым названием шрифта. Наконец, он сохраняет книгу как [выходной файл Excel](5112366.xlsx). Когда вы его откроете, вы увидите, что шрифт первого раздела текста изменен на **"Arial"**.
 
-###  Код C# для доступа и обновления частей форматированного текста Cell.
+### Код на C#, чтобы получить доступ и обновить части форматированного текста ячейки
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UpdateRichTextCells-1.cs" >}}
 
-### Вывод консоли, созданный примером кода
+### Вывод консоли, сгенерированный примерным кодом
 
- Вот консольный вывод приведенного выше примера кода с использованием[исходный файл Excel](5112369.xlsx).
+Вот вывод консоли приведенного выше образца кода с использованием [исходного файла Excel](5112369.xlsx).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Before updating the font settings....
 

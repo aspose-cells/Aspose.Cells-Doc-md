@@ -1,32 +1,33 @@
-﻿---
-title: Wenden Sie Schattierung auf abwechselnde Zeilen und Spalten mit bedingter Formatierung an
+---
+title: Schattierung auf abwechselnden Zeilen und Spalten mit bedingter Formatierung anwenden
 type: docs
 weight: 10
 url: /de/java/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells APIs bieten die Möglichkeit, bedingte Formatierungsregeln hinzuzufügen und zu manipulieren[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Objekt. Diese Regeln können auf verschiedene Weise angepasst werden, um die gewünschte Formatierung basierend auf Bedingungen oder Regeln zu erhalten. Dieser Artikel demonstriert die Verwendung von Aspose.Cells for Java API zum Anwenden von Schattierungen auf abwechselnde Zeilen und Spalten mithilfe von Regeln für die bedingte Formatierung und den integrierten Funktionen von Excel.
+Aspose.Cells APIs bieten die Möglichkeit, bedingte Formatierungsregeln für das [Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) zu hinzuzufügen und zu manipulieren. Diese Regeln können in vielerlei Hinsicht angepasst werden, um die gewünschte Formatierung basierend auf Bedingungen oder Regeln zu erhalten. Dieser Artikel wird die Verwendung der Aspose.Cells for Java API zur Anwendung von Schattierung auf alternative Zeilen und Spalten mithilfe von bedingten Formatierungsregeln und den integrierten Funktionen von Excel zeigen.
 
 {{% /alert %}} 
-## **Wenden Sie mithilfe der bedingten Formatierung eine Schattierung auf abwechselnde Zeilen und Spalten an**
-Dieser Artikel nutzt die integrierten Funktionen von Excel wie ROW, COLUMN & MOD. Hier sind kleine Details dieser Funktionen zum besseren Verständnis des Code-Snippets, das im Voraus bereitgestellt wird.
+## **Anwendung von Schattierung auf alternative Zeilen & Spalten mithilfe bedingter Formatierung**
+Dieser Artikel verwendet integrierte Funktionen von Excel wie ZEILE, SPALTE & REST. Hier sind einige Details dieser Funktionen zur besseren Verständnis des vorangehenden Codes.
 
-- **REIHE()** Funktion gibt die Zeilennummer eines Zellbezugs zurück. Wenn die Referenz weggelassen wird, wird davon ausgegangen, dass die Referenz die Zellenadresse ist, in die die ROW-Funktion eingegeben wurde.
-- **SÄULE()**Funktion gibt die Spaltennummer eines Zellbezugs zurück. Wenn die Referenz weggelassen wird, wird davon ausgegangen, dass die Referenz die Zellenadresse ist, in die die COLUMN-Funktion eingegeben wurde.
-- **MOD()** Die Funktion gibt den Rest zurück, nachdem eine Zahl durch einen Divisor geteilt wurde, wobei der erste Parameter der Funktion der numerische Wert ist, dessen Rest Sie finden möchten, und der zweite Parameter die Zahl ist, die zum Teilen in den Zahlenparameter verwendet wird. Wenn der Divisor 0 ist, wird #DIV/0 zurückgegeben! Error.
+- Die **ZEILE()**-Funktion gibt die Zeilennummer einer Zellreferenz zurück. Wenn die Referenz ausgelassen wird, nimmt sie an, dass die Referenz die Zelladresse ist, in die die ZEILE-Funktion eingegeben wurde.
+- Die **SPALTE()**-Funktion gibt die Spaltennummer einer Zellreferenz zurück. Wenn die Referenz ausgelassen wird, nimmt sie an, dass die Referenz die Zelladresse ist, in die die SPALTE-Funktion eingegeben wurde.
+- Die **MOD()**-Funktion gibt den Rest nach der Division einer Zahl durch einen Divisor zurück, wobei der erste Parameter der numerische Wert ist, von dem Sie den Rest finden möchten, und der zweite Parameter die Zahl ist, durch die die Nummernparameter dividiert werden. Wenn der Divisor 0 ist, wird der Fehler #DIV/0! zurückgegeben.
 
-Beginnen wir mit dem Schreiben von Code, um das Ziel mit Hilfe von Aspose.Cells for Java API zu erreichen.
+Lassen Sie uns einige Codezeilen schreiben, um das Ziel mithilfe der Aspose.Cells for Java API zu erreichen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyShadingToAlternateRowsAndColumns-ApplyShadingToAlternateRowsAndColumns.java" >}}
 
 
 
-Der folgende Schnappschuss zeigt die resultierende Tabelle, die in die Excel-Anwendung geladen wurde.
+Die folgende Momentaufnahme zeigt die resultierende Tabelle, die in der Excel-Anwendung geladen wird.
 
-![todo: Bild_alt_Text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)
+![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)
 
- Um die Schattierung auf alternative Spalten anzuwenden, müssen Sie lediglich die Formel ändern**=MOD(ZEILE(),2)=0** als**=MOD(SPALTE(),2)=0** , das ist; Anstatt den Zeilenindex abzurufen, ändern Sie die Formel, um den Spaltenindex abzurufen.
-Die resultierende Tabelle sieht in diesem Fall wie in der folgenden Abbildung aus.
+Um die Schattierung auf alternative Spalten anzuwenden, müssen Sie lediglich die Formel **=MOD(ZEILE(),2)=0** durch **=MOD(SPALTE(),2)=0** ersetzen, d.h. anstatt den Zeilenindex zu erhalten, ändern Sie die Formel, um den Spaltenindex abzurufen. 
+Die resultierende Tabelle sieht in diesem Fall wie das folgende Bild aus.
 
-![todo: Bild_alt_Text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)

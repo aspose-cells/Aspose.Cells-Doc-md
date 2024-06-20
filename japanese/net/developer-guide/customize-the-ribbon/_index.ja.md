@@ -1,20 +1,21 @@
-﻿---
-title: リボン XML のカスタマイズ
-linktitle: Excel メニューのカスタマイズ
+---
+title: リボンXMLのカスタマイズ
+linktitle: Excelメニューのカスタマイズ
 type: docs
 weight: 1500
 url: /ja/net/customizing-the-ribbon-xml/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Office は、Office 2007 以降、メニューとツールバーをアプリケーション ウィンドウの上部にあるリボンに置き換えました。リボンはカスタマイズ可能です。
-Aspose.Cells を使用すると、
+Microsoft Officeは、2007年以降、アプリケーションウィンドウの上部にリボンを置き換え、メニューやツールバーを置き換えました。リボンはカスタマイズ可能です。 
+Aspose.Cellsを使用すると、
 
-- 解析せずにリボン XML を保持し、
-- 解析せずにリボン XML を読み書きします。
-- リボン XML データを取得および設定します。
+- リボンXMLを解析せずに保持できます。
+- リボンXMLを解析せずに読み書きできます。
+- リボンXMLデータの取得と設定ができます。
 
-リボン XML を変更する場合は、XML パーサーまたは他のリボン XML ツールで解析する必要があります。
+リボンXMLを変更する場合は、XMLパーサーまたは他のリボンXMLツールで解析する必要があります。
 
 {{% /alert %}} 
 

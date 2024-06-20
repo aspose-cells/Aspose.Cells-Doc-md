@@ -1,27 +1,28 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.3.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.3.0
 type: docs
 weight: 100
 url: /de/net/public-api-changes-in-aspose-cells-8-3-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.2.2 zu 8.3.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 8.2.2 auf 8.3.0, die für Modul-/Anwendungs-Entwickler interessant sein könnten.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Eigenschaft WorkbookSettings.AutoRecover Hinzugefügt**
-Die neue Eigenschaft AutoRecover wurde der WorkbookSettings-Klasse hinzugefügt, damit Entwickler die Option der automatischen Wiederherstellung für die Tabellenkalkulationen in ihren Anwendungen festlegen können.
+## **Hinzugefügte APIs**
+### **Eigenschaft WorkbookSettings.AutoRecover hinzugefügt**
+Die neue Eigenschaft AutoRecover wurde der WorkbookSettings-Klasse hinzugefügt, um Entwicklern die Möglichkeit zu geben, die Option der automatischen Wiederherstellung für Tabellenkalkulationen in ihren Anwendungen festzulegen.
 
 {{% alert color="primary" %}} 
 
- Bitte überprüfen Sie den Artikel[Einstellen der automatischen Wiederherstellung der Tabellenkalkulation](http://aspose.com/docs/display/cellsnet/How+to+set+AutoRecover+property+of+Workbook) für mehr Informationen.
+Bitte überprüfen Sie den Artikel [Einstellen der automatischen Tabellenwiederherstellung](http://aspose.com/docs/display/cellsnet/How+to+set+AutoRecover+property+of+Workbook) für weitere Informationen.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -32,12 +33,12 @@ settings.AutoRecover = true;
 {{< /highlight >}}
 
 
-### **Eigenschaft WorkbookSettings.CrashSave Hinzugefügt**
-Der WorkbookSettings-Klasse wurde die Eigenschaft CrashSave vom booleschen Typ hinzugefügt, die angibt, ob die Anwendung die Arbeitsmappendatei zuletzt nach einem Absturz gespeichert hat.
+### **Eigenschaft WorkbookSettings.CrashSave hinzugefügt**
+Eine boolesche Typ-Eigenschaft CrashSave wurde der WorkbookSettings-Klasse hinzugefügt, die anzeigt, ob die Anwendung die Arbeitsmappe nach einem Absturz zuletzt gespeichert hat.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -48,12 +49,12 @@ Console.WriteLine(settings.CrashSave);
 {{< /highlight >}}
 
 
-### **Eigenschaft WorkbookSettings.DataExtractLoad Hinzugefügt**
-Die Eigenschaft DataExtractLoad wurde der WorkbookSettings-Klasse hinzugefügt, damit die Entwickler Informationen zur letzten Wiederherstellung abrufen können. Wenn die Eigenschaft DataExtractLoad „true“ zurückgibt, bedeutet dies, dass die Datenwiederherstellung für das Arbeitsblatt durchgeführt wurde.
+### **Eigenschaft WorkbookSettings.DataExtractLoad hinzugefügt**
+Die Eigenschaft DataExtractLoad wurde der WorkbookSettings-Klasse hinzugefügt, um Entwicklern die Informationen zur letzten Wiederherstellung zu erhalten. Wenn die Eigenschaft DataExtractLoad true zurückgibt, deutet dies darauf hin, dass die Datenwiederherstellung auf der Tabelle durchgeführt wurde.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -64,12 +65,12 @@ Console.WriteLine(settings.DataExtractLoad);
 {{< /highlight >}}
 
 
-### **Eigenschaft WorkbookSettings.RepairLoad Hinzugefügt**
-Die Eigenschaft RepairLoad gibt an, ob die Tabelle beim letzten Laden mit der Excel-Anwendung repariert wurde.
+### **Eigenschaft WorkbookSettings.RepairLoad hinzugefügt**
+Die RepairLoad-Eigenschaft zeigt an, ob die Tabelle beim letzten Laden mit der Excel-Anwendung repariert wurde.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -81,11 +82,11 @@ Console.WriteLine(settings.RepairLoad);
 
 
 ### **Eigenschaft TxtLoadOptions.KeepExactFormat hinzugefügt**
-Der TxtLoadOptions-Klasse wurde die Eigenschaft KeepExactFormat hinzugefügt, die angibt, ob die exakte Formatierung für den Zellenwert beibehalten werden soll, wenn String/Text in Zahlen oder DateTime konvertiert wird. Diese Eigenschaft wurde hinzugefügt, um dem Verhalten der MS Excel-Anwendung beim Laden von DateTime- oder numerischen Werten aus CSV-Dateien zu entsprechen. Um das Verhalten von MS Excel zu simulieren, setzen Sie die KeepExactFormat-Eigenschaft auf „false“, während der Standardwert „true“ ist, sodass der Zellenwert als Zeichenfolge in der Datei „CSV“ formatiert wird.
+Die Eigenschaft KeepExactFormat wurde der TxtLoadOptions-Klasse hinzugefügt, die angibt, ob das genaue Formatieren für den Zellwert beibehalten werden soll, wenn ein String/Text in Zahlen oder Datum/Uhrzeit konvertiert wird. Diese Eigenschaft wurde hinzugefügt, um das Verhalten der MS Excel-Anwendung beim Laden von Datum/Uhrzeit- oder numerischen Werten aus CSV-Dateien nachzubilden. Um das Verhalten von MS Excel zu simulieren, setzen Sie die Eigenschaft KeepExactFormat auf false, während der Standardwert true ist, sodass der Zellwert als String in der CSV-Datei formatiert wird.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var options = new TxtLoadOptions();
 
@@ -96,12 +97,12 @@ var book = new Workbook("sample.csv", options);
 {{< /highlight >}}
 
 
-### **Eigenschaft Shape.ID hinzugefügt**
-Die Eigenschaft Id wurde der Shape-Klasse hinzugefügt, um jedes Shape-Objekt in einer bestimmten Tabelle eindeutig zu identifizieren. Diese neue Eigenschaft hilft auch beim Identifizieren von Diagrammobjekten in einer Tabellenkalkulation, wie unten gezeigt.
+### **Eigenschaft Shape.Id hinzugefügt**
+Die Id-Eigenschaft wurde der Shape-Klasse hinzugefügt, um jedes Formobjekt in einer bestimmten Tabelle eindeutig zu identifizieren. Diese neue Eigenschaft hilft auch dabei, Diagrammobjekte in einer Tabelle zu identifizieren, wie unten gezeigt.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -118,12 +119,12 @@ foreach(Chart chart in book.Worksheets[0].Charts)
 {{< /highlight >}}
 
 
-### **Methode PlotArea.SetPositionAuto Hinzugefügt**
-Die Methode SetPositionAuto wurde der Klasse PlotArea hinzugefügt, die dabei hilft, den Plotbereich des Diagramms in den automatischen Modus zu versetzen.
+### **Hinzugefügte PlotArea.SetPositionAuto-Methode**
+Die Methode SetPositionAuto wurde der PlotArea-Klasse hinzugefügt, die beim Einstellen des Diagrammbereichs auf den automatischen Modus hilft.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 

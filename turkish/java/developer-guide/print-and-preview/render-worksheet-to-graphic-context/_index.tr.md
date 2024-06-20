@@ -1,18 +1,19 @@
-﻿---
-title: Çalışma Sayfasını Grafik Bağlamına Dönüştür
+---
+title: Grafiksel Ortama Çalışsayısı Renderleme
 type: docs
 weight: 300
 url: /tr/java/render-worksheet-to-graphic-context/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells artık çalışma sayfasını grafik bağlamına dönüştürebilir. Grafik bağlam, görüntü dosyası, ekran veya yazıcı gibi herhangi bir şey olabilir. Çalışma sayfasını grafik içeriğe dönüştürmek için lütfen aşağıdaki yöntemi kullanın.
+Aspose.Cells artık çalışsayısını grafiksel ortama dönüştürebilir. Grafiksel ortam, resim dosyası, ekran veya yazıcı gibi bir şey olabilir. Lütfen çalışsayısını grafiksel ortama dönüştürmek için aşağıdaki yöntemi kullanın.
 
-- SheetRender.toImage(int pageIndex, Graphics2D grafiği)
+- SheetRender.toImage(int pageIndex, Graphics2D graphic)
 
 {{% /alert %}} 
-## **Çalışma Sayfasını Grafik Bağlamına Dönüştür**
- Aşağıdaki kod, çalışma sayfasını grafik bağlamına dönüştürmek için Aspose.Cells'in nasıl kullanılacağını gösterir. Bir kod yürüttüğünüzde, tüm çalışma sayfasını yazdıracak ve kalan boş alanı grafik bağlamında mavi renkle dolduracak ve görüntüyü şu şekilde kaydedecektir:**deneme.png** dosya. Bu kodu denemek için herhangi bir kaynak excel dosyasını kullanabilirsiniz. Daha iyi anlamak için lütfen kodun içindeki yorumları da okuyun.
+## **Çalışsayısını Grafiksel Ortama Dönüştürme**
+Aşağıdaki kod, Aspose.Cells'i çalışsayısını grafiksel ortama dönüştürmek için nasıl kullanacağınızı göstermektedir. Bir kodu çalıştırdığınızda, çalışsayısının tamamını yazdıracak ve grafiksel ortamdaki boş kalan alanı mavi renk ile dolduracak ve resmi **test.png** dosyasına kaydedecektir. Bu kodu denemek için herhangi bir kaynak excel dosyasını kullanabilirsiniz. Daha iyi anlamak için kod içindeki yorumları da okuyun lütfen.
 
 
 

@@ -1,17 +1,18 @@
-﻿---
-title: Impression de cahiers d'exercices au Aspose.Cells
+---
+title: Imprimer des classeurs dans Aspose.Cells
 type: docs
 weight: 20
 url: /fr/net/printing-workbooks-in-aspose-cells/
 ---
-## **Aspose.Cells - Impression de cahiers**
-Après avoir fini de créer votre feuille de calcul, vous souhaiterez probablement imprimer une copie papier de la feuille selon vos besoins. Lorsque vous imprimez, MS Excel suppose que vous souhaitez imprimer toute la zone de la feuille de calcul, sauf si vous spécifiez votre sélection.
 
-Feuille de travail d'impression
+## **Aspose.Cells - Impression de classeurs**
+Après avoir créé votre feuille de calcul, vous voudrez probablement en imprimer une copie papier pour vos besoins. Lors de l'impression, MS Excel suppose que vous souhaitez imprimer toute la zone de la feuille à moins que vous ne spécifiez votre sélection.
+
+Impression de feuille de calcul
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -34,13 +35,13 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 sr.ToPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Impression de classeurs** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Imprimer des classeurs** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Impression de classeurs](/cells/fr/net/printing-workbooks/).
+Pour plus de détails, visitez [Imprimer des classeurs](/cells/fr/net/printing-workbooks/).
 
 {{% /alert %}}

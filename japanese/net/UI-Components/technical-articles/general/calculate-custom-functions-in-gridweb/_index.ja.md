@@ -1,13 +1,17 @@
-﻿---
-title: GridWeb でカスタム関数を計算する
+---
+title: GridWebでカスタム関数を計算する
 type: docs
 weight: 90
-url: /ja/net/calculate-custom-functions-in-gridweb/
+url: /ja/net/aspose-cells-gridweb/calculate-custom-functions-in-gridweb/
+keywords: GridWeb,custom functions,custom,function
+description: この記事では、GridWebでのカスタム関数の機能について紹介します。
 ---
-## **考えられる使用シナリオ**
-Aspose.Cells.GridWeb は、GridWeb.CustomCalculationEngine プロパティを使用してカスタム関数の計算をサポートします。このプロパティは、GridAbstractCalculationEngine インターフェイスのインスタンスを取ります。 GridAbstractCalculationEngine インターフェイスを実装し、独自のロジックでカスタム関数を計算してください。
-## **GridWeb でカスタム関数を計算する**
-次のサンプル コードは、セル B3 に MYTESTFUNC() という名前のカスタム関数を追加します。次に、GridAbstractCalculationEngine インターフェイスを実装して、この関数の値を計算します。パラメータに 2 を掛けて結果を返すように MYTESTFUNC() を計算します。したがって、パラメータが 9 の場合、2*9 = 18 が返されます。
+
+
+## **可能な使用シナリオ**
+Aspose.Cells.GridWebは、GridWeb.CustomCalculationEngineプロパティを使用してカスタム関数の計算をサポートしています。このプロパティはGridAbstractCalculationEngineインターフェースのインスタンスを取ります。GridAbstractCalculationEngineインターフェースを実装し、独自のロジックでカスタム関数を計算してください。
+## **GridWebでカスタム関数を計算する**
+次のサンプルコードは、セル B3 に MYTESTFUNC() というカスタム関数を追加します。次に、GridAbstractCalculationEngine インターフェースを実装して、この関数の値を計算します。MYTESTFUNC()は、そのパラメータを2倍にして結果を返すように計算されます。そのため、パラメータが9の場合、2*9 = 18 を返します。
 ### **サンプルコード**
 
 

@@ -1,20 +1,21 @@
 ---
-title: Kommentare beim Speichern unter PDF ausdrucken
+title: Kommentare beim Speichern in PDF drucken
 type: docs
 weight: 10
 url: /de/python-net/print-comments-while-saving-to-pdf/
-description: Erfahren Sie, wie Sie Kommentare drucken und gleichzeitig unter PDF mit Aspose.Cells for Python via .NET API speichern.
-keywords: Python Print Comments while saving file to PDF, Print Comments while saving Excel to PDF using Python, Python Export Comments when converting Excel to PDF, Output Comments for Excel to PDF in python, Render Comments while saving excel to PDF
+description: Erfahren Sie, wie Sie Kommentare beim Speichern als PDF mit der Aspose.Cells for Python via .NET API drucken können.
+keywords: Python Drucken von Kommentaren beim Speichern von Dateien als PDF, Drucken von Kommentaren beim Speichern von Excel als PDF mit Python, Exportieren von Kommentaren beim Konvertieren von Excel in PDF in Python, Kommentare für Excel in PDF in Python ausgeben, Kommentare beim Speichern von Excel in PDF rendern
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel ermöglicht Ihnen das Drucken von Kommentaren beim Drucken oder Speichern im PDF-Format mit den folgenden Optionen
+Microsoft Excel ermöglicht es Ihnen, Kommentare beim Drucken oder Speichern im PDF-Format mit den folgenden Optionen zu drucken:
 
-- Keiner
+- Keine
 - Am Ende des Blattes
 - Wie auf dem Blatt angezeigt
 
- Aspose.Cells for Python via .NET bieten die[**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) enum, um dieselbe Funktion zu unterstützen. Der[**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)enum hat die folgenden Mitglieder
+Aspose.Cells for Python via .NET bietet das [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)-Enum zur Unterstützung derselben Funktion. Das [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)-Enum hat die folgenden Elemente
 
 - PrintNoComments
 - PrintInPlace
@@ -22,8 +23,8 @@ Microsoft Excel ermöglicht Ihnen das Drucken von Kommentaren beim Drucken oder 
 
 {{% /alert %}}
 
-##  **Kommentare beim Speichern unter PDF ausdrucken**
+## **Kommentare drucken beim Speichern als PDF**
 
- Der folgende Beispielcode veranschaulicht die Verwendung[**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)um Kommentare beim Speichern unter PDF auszudrucken.
+Der folgende Beispielcode veranschaulicht, wie [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) verwendet wird, um Kommentare beim Speichern als PDF zu drucken.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-PrintCommentWhileSavingToPdf.py" >}}

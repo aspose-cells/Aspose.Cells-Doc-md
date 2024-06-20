@@ -1,22 +1,23 @@
-﻿---
-title: Copie formas entre hojas de trabajo en Aspose.Cells
+---
+title: Copiar Formas entre Hojas de Cálculo en Aspose.Cells
 type: docs
 weight: 30
 url: /es/net/copy-shapes-between-worksheets-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-A veces, necesita copiar elementos en una hoja de cálculo, por ejemplo, imágenes, gráficos y otros objetos de dibujo, entre hojas de cálculo. Aspose.Cells admite esta función. Los gráficos, imágenes y otros objetos se pueden copiar con el mayor grado de precisión.
+A veces, necesitas copiar elementos en una hoja de cálculo, como imágenes, gráficos y otros objetos de dibujo, entre hojas de cálculo. Aspose.Cells admite esta característica. Los gráficos, imágenes y otros objetos se pueden copiar con el más alto grado de precisión.
 
-Este artículo le brinda una comprensión detallada sobre cómo copiar formas entre hojas de trabajo. Para ilustrar, crea una aplicación de consola en Visual Studio.Net, copia imágenes, gráficos y otros objetos de dibujo entre hojas de trabajo usando Aspose.Cells.
+Este artículo te brinda una comprensión detallada de cómo copiar formas entre hojas de cálculo. Para ilustrar, crea una aplicación de consola en Visual Studio.Net, copia imágenes, gráficos y otros objetos de dibujo entre hojas de cálculo utilizando Aspose.Cells.
 
 {{% /alert %}} 
 
-A continuación se muestra el código para copiar un gráfico de una hoja de trabajo a otra
+A continuación se muestra el código para copiar un gráfico de una hoja de cálculo a otra
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -44,8 +45,8 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 
-**Nota:** Para obtener más detalles sobre cómo copiar varias formas, debe visitar[aquí](/cells/es/net/copy-shapes-between-worksheets/)
-## **Descargar código de muestra**
+**Nota:** Para obtener más detalles sobre cómo copiar múltiples formas, debes visitar [aquí](/cells/es/net/copy-shapes-between-worksheets/)
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Copy%20Shapes%20between%20Worksheets)
-## **Descargar ejemplo de ejecución**
+## **Descargar Ejemplo en Ejecución**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

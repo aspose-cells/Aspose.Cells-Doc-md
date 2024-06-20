@@ -1,28 +1,29 @@
-﻿---
-title: كيفية تعيين خاصية الاسترداد التلقائي للمصنف
+---
+title: كيفية تعيين خاصية AutoRecover للفصل
 type: docs
 weight: 220
 url: /ar/net/how-to-set-autorecover-property-of-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-يمكنك استخدام Aspose.Cells لتعيين خاصية الاسترداد التلقائي للمصنف. القيمة الافتراضية لهذه الخاصية هي**حقيقي** . عندما تقوم بتعيينه**خاطئة** في مصنف ، يقوم Microsoft Excel بتعطيل الاسترداد التلقائي (الحفظ التلقائي) في ملف Excel هذا.
+يمكنك استخدام Aspose.Cells لتعيين خاصية AutoRecover للفصل. القيمة الافتراضية لهذه الخاصية هي **true**. عندما تقوم بتعيينها إلى **false** على فصل، يعطّل Microsoft Excel AutoRecover (الحفظ التلقائي) على ذلك الملف في Excel.
 
- يوفر Aspose.Cells[**المصنف ، الإعدادات ، الاسترداد التلقائي**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) الخاصية لتمكين أو تعطيل هذا الخيار.
+يوفر Aspose.Cells خاصية [**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) لتمكين أو تعطيل هذا الخيار.
 
 {{% /alert %}}
 
- يشرح الكود التالي كيفية الاستخدام[**المصنف ، الإعدادات ، الاسترداد التلقائي**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) خاصية المصنف. يقرأ الكود أولاً القيمة الافتراضية لهذه الخاصية وهي**حقيقي** ، ثم يضعها على أنها**خاطئة** ويحفظ المصنف. ثم يقرأ المصنف مرة أخرى ويقرأ قيمة هذه الخاصية وهي**خاطئة** في هذا الوقت.
+الكود التالي يشرح كيفية استخدام خاصية [**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) للفصل. يقرأ الكود أولا القيمة الافتراضية لهذه الخاصية وهي **true**، ثم يعيد تعيينها إلى **false** ويحفظ الفصل. ثم يقرأ الفصل مرة أخرى ويقرأ قيمة هذه الخاصية التي هي **false** في تلك اللحظة.
 
-## كود C# لتعيين خاصية الاسترداد التلقائي للمصنف
+## الكود C# لتعيين خاصية AutoRecover للفصل
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-SetAutoRecovery-SetAutoRecovery.cs" >}}
 
-## **انتاج |**
+## **الناتج**
 
-هنا هو إخراج وحدة التحكم من نموذج التعليمات البرمجية أعلاه.
+فيما يلي مخرجات وحدة الإدخال الخاصة بالكود المصدري أعلاه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 AutoRecover: True
 

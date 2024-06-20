@@ -1,27 +1,28 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.9.2
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.9.2
 type: docs
 weight: 320
 url: /de/net/public-api-changes-in-aspose-cells-8-9-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.9.1 zu 8.9.2, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells API von Version 8.9.1 auf 8.9.2, die für Modul-/Anwendungs-Entwickler interessant sein könnten. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung etwaiger Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Bitte prüfen Sie auch die[Öffentlich API Änderungen eingeführt in Aspose.Cells for .NET 8.9.1](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1)
+Bitte überprüfen Sie auch die [Öffentlichen API-Änderungen, die in Aspose.Cells for .NET 8.9.1 eingeführt wurden](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1)
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **TextOptions-Klasse und FontSettings.TextOptions-Eigenschaft hinzugefügt**
-Aspose.Cells for .NET hat die TextOptions-Klasse zusammen mit der FontSettings.TextOptions-Eigenschaft verfügbar gemacht, um die Darstellung von Textteilen einer Form zu steuern.
+## **Hinzugefügte APIs**
+### **Hinzugefügte TextOptions-Klasse & FontSettings.TextOptions-Eigenschaft**
+Aspose.Cells for .NET hat die TextOptions-Klasse zusammen mit der FontSettings.TextOptions-Eigenschaft freigegeben, um das Aussehen von Textteilen einer Form zu steuern.
 
-Hier ist ein einfaches Verwendungsszenario der Eigenschaft FontSettings.TextOptions.
+Hier ist ein einfaches Anwendungsszenario der FontSettings.TextOptions-Eigenschaft.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -42,14 +43,14 @@ var textOptions = shape.TextBody[1].TextOptions;
 {{< /highlight >}}
 
 
-### **TextOptions.Fill, Outline & Shadow Properties hinzugefügt**
-Aspose.Cells for .NET 8.9.2 hat die TextOptions.Fill-, TextOptions.Outline- und TextOptions.Shadow-Eigenschaften verfügbar gemacht, mit denen die Aspekte des Textinhalts der Form gesteuert werden können, z. B. Füllung, Schatten und Umriss.
+### **Hinzugefügte TextOptions.Fill, Outline & Shadow-Eigenschaften**
+Aspose.Cells for .NET 8.9.2 hat die TextOptions.Fill, TextOptions.Outline & TextOptions.Shadow-Eigenschaften freigegeben, die es ermöglichen, Aspekte des Textinhalts der Form zu steuern, wie z.B. Füllung, Schatten & Kontur.
 
-Hier ist ein einfaches Nutzungsszenario der oben genannten Eigenschaften.
+Hier ist ein einfaches Anwendungsszenario der genannten Eigenschaften.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -88,14 +89,14 @@ textOptions.Outline.SetOneColorGradient(Color.Blue, 0.3, GradientStyleType.Horiz
 {{< /highlight >}}
 
 
-### **Shape.Line-Eigenschaft hinzugefügt**
-Aspose.Cells for .NET hat die Shape.Line-Eigenschaft verfügbar gemacht, die eine Instanz von LineFormat zurückgibt, um das Erscheinungsbild der Konturen einer Form zu steuern.
+### **Hinzugefügte Shape.Line-Eigenschaft**
+Aspose.Cells for .NET hat die Shape.Line-Eigenschaft freigegeben, die eine Instanz von LineFormat zurückgibt, um das Erscheinungsbild der Umrisse einer Form zu steuern.
 
-Hier ist ein einfaches Verwendungsszenario der Shape.Line-Eigenschaft.
+Hier ist ein einfaches Anwendungsbeispiel der Shape.Line Eigenschaft.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -120,14 +121,14 @@ line.Weight = 1;
 {{< /highlight >}}
 
 
-### **Shape.Fill-Eigenschaft hinzugefügt**
-Aspose.Cells for .NET 8.9.2 hat die Shape.Fill-Eigenschaft verfügbar gemacht, die eine Instanz von FillFormat zurückgibt, um die verschiedenen Aspekte des Formbereichs zu steuern.
+### **Hinzugefügte Shape.Fill-Eigenschaft**
+Aspose.Cells for .NET 8.9.2 hat die Shape.Fill-Eigenschaft freigegeben, die eine Instanz von FillFormat zurückgibt, um die verschiedenen Aspekte des Formbereichs zu steuern.
 
-Im Folgenden finden Sie das einfache Verwendungsszenario der Shape.Fill-Eigenschaft.
+Nachfolgend finden Sie das einfache Anwendungsszenario der Shape.Fill-Eigenschaft.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -154,12 +155,12 @@ fill.SetOneColorGradient(Color.Red, 0.1, GradientStyleType.Horizontal, 2);
 ### **Veraltete ShapeFont-Klasse**
 Bitte verwenden Sie stattdessen die TextOptions-Klasse.
 ### **Veraltete ShapeFormat-Klasse**
-Bitte verwenden Sie direkt die Shape.Fill- und Shape.Line-Eigenschaften.
-### **Veraltete Shape.Format-Eigenschaft**
-Bitte verwenden Sie direkt die Shape.Fill- und Shape.Line-Eigenschaften.
-### **Veraltete Shape.LineFormat-Eigenschaft**
-Bitte verwenden Sie stattdessen die Shape.Line-Eigenschaft.
-### **Veraltete Shape.FillFormat-Eigenschaft**
-Bitte verwenden Sie stattdessen die Shape.Fill-Eigenschaft.
-### **Veraltete FontSetting.ShapeFont-Eigenschaft**
-Bitte verwenden Sie stattdessen die Eigenschaft FontSetting.TextOptions.
+Bitte verwenden Sie direkt die Shape.Fill und Shape.Line Eigenschaften.
+### **Veraltete Shape.Format Eigenschaft**
+Bitte verwenden Sie direkt die Shape.Fill und Shape.Line Eigenschaften.
+### **Veraltete Shape.LineFormat Eigenschaft**
+Bitte verwenden Sie die Shape.Line Eigenschaft stattdessen.
+### **Veraltete Shape.FillFormat Eigenschaft**
+Bitte verwenden Sie die Shape.Fill Eigenschaft stattdessen.
+### **Veraltete FontSetting.ShapeFont Eigenschaft**
+Bitte verwenden Sie stattdessen die FontSetting.TextOptions Eigenschaft.

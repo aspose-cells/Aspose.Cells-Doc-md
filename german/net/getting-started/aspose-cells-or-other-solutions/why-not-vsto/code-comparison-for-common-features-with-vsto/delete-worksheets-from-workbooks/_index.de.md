@@ -1,12 +1,13 @@
-﻿---
+---
 title: Arbeitsblätter aus Arbeitsmappen löschen
 type: docs
 weight: 100
 url: /de/net/delete-worksheets-from-workbooks/
 ---
-Sie können jedes Arbeitsblatt in einer Arbeitsmappe löschen. Um ein Arbeitsblatt zu löschen, verwenden Sie das Arbeitsblatt-Hostelement oder greifen Sie auf das Arbeitsblatt zu, indem Sie die Blattsammlung der Arbeitsmappe verwenden.
+
+Sie können jedes Arbeitsblatt in einer Arbeitsmappe löschen. Verwenden Sie zum Löschen eines Arbeitsblatts das Arbeitsblatthostelement oder greifen Sie auf das Arbeitsblatt über die Blattsammlung der Arbeitsmappe zu.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook= this.Application.Workbooks.Open(fileName);
 
@@ -14,7 +15,7 @@ Sie können jedes Arbeitsblatt in einer Arbeitsmappe löschen. Um ein Arbeitsbla
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -23,5 +24,5 @@ Sie können jedes Arbeitsblatt in einer Arbeitsmappe löschen. Um ein Arbeitsbla
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Download**
+## **Herunterladen**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)

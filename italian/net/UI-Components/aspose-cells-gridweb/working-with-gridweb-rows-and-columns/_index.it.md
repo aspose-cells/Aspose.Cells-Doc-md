@@ -1,6 +1,8 @@
-﻿---
-title: Utilizzo di righe e colonne GridWeb
+---
+title: Lavorare con righe e colonne di GridWeb
 type: docs
 weight: 50
-url: /it/net/working-with-gridweb-rows-and-columns/
+url: /it/net/aspose-cells-gridweb/work-with-gridweb-rows-and-columns/
 ---
+
+

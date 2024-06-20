@@ -1,21 +1,22 @@
-﻿---
-title: Genel API Aspose.Cells 8.6.2'deki değişiklikler
+---
+title: Aspose.Cells 8.6.2 de Kamu API Değişiklikleri
 type: docs
 weight: 220
 url: /tr/java/public-api-changes-in-aspose-cells-8-6-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.6.1'den 8.6.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen sınıfları değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, Aspose.Cells API'sindeki 8.6.1'den 8.6.2'ye yapılan değişiklikleri modül/uygulama geliştiricileri için ilginç olabilecek değişiklikleri açıklar. Yeni ve güncellenmiş kamu metodları, eklenen sınıfların yanı sıra Aspose.Cells'in arka planda olan herhangi bir değişikliği de içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Akıllı İşaretleyicilerle Geri Arama Desteği**
- Aspose.Cells for Java API'in bu sürümü, WorkbookDesigner.CallBack alanını ve ISmartMarkerCallBack arabirimini kullanıma sunmuştur.[işlenmekte olan hücre referansı ve/veya akıllı işaretleyici hakkında bildirimleri alın](/cells/tr/java/getting-notifications-while-merging-data-with-smart-markers/) . Aşağıdaki kod parçası, WorkbookDesigner.process yöntemi için geri aramayı işleyen yeni bir sınıf tanımlamak için ISmartMarkerCallBack arabiriminin kullanımını gösterir.
+## **Eklenen API'lar**
+### **Akıllı İşaretçiler ile Geri Arama Desteği**
+Bu sürümde, Aspose.Cells for Java API, WorkbookDesigner.CallBack alanını ve ISmartMarkerCallBack arayüzünü ortaya çıkardı ve bu ikisi, WorkbookDesigner.process yöntemi tarafından işlenen hücre referansı ve/veya akıllı işaretçi hakkında bildirim almayı sağlar. Aşağıdaki kod parçası, ISmartMarkerCallBack arayüzünün kullanımını gösterir. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class SmartMarkerCallBack implements ISmartMarkerCallBack 
 
@@ -49,11 +50,11 @@ Bu belge, Aspose.Cells API sürümünde 8.6.1'den 8.6.2'ye modül/uygulama geli�
 
 {{< /highlight >}}
 
-Sürecin geri kalanı, Smart Marker'ları içeren tasarımcı elektronik tablosunu WorkbookDesigner ile yüklemeyi veya sıfırdan bir tane oluşturmayı ve veri kaynağını ayarlayarak işlemeyi içerir. Ancak bildirimleri etkinleştirmek için aşağıda gösterildiği gibi WorkbookDesigner.process yöntemini çağırmadan önce WorkbookDesigner.CallBack özelliğini ayarlamak gerekir.
+İşlem geri kalan kısmı, tasarım spreadsheet'inin yüklenmesini WorkbookDesigner ile veya sıfırdan bir tane oluşturularak ve veri kaynağının ayarlanarak işlenmesini içerir. Ancak, bildirimleri etkinleştirmek için, WorkbookDesigner.process yönetmeden önce WorkbookDesigner.CallBack özelliğini ayarlamak gereklidir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook designer
 
@@ -71,7 +72,7 @@ sheet.getCells().get("A1").putValue("&=$VariableArray");
 
 //Set the data source for the marker(s)
 
-report.setDataSource("VariableArray", new String[]{ "English", "Arabic", "Hindi", "Urdu", "French" });
+report.setDataSource("VariableArray", new String[] { "English", "Arabic", "Hindi", "Urdu", "French" });
 
 //Set the CallBack property
 
@@ -82,14 +83,14 @@ report.setCallBack(new SmartMarkerCallBack(report.getWorkbook()));
 report.process(false);
 
 {{< /highlight >}}
-### **Yöntem Chart.toPdf Eklendi**
-Aspose.Cells for Java 8.6.2, Chart şeklini doğrudan PDF biçimine dönüştürmek için kullanılabilecek Chart.toPdf yöntemini kullanıma sundu. Bahsedilen yöntem şu anda, ortaya çıkan dosyayı diskte depolamak için dosya yolu konumu olarak String türünde bir parametre kabul etmektedir.
+### **Eklenen Chart.toPdf Metodu**
+Aspose.Cells for Java 8.6.2, Chart.toPdf methodunu doğrudan Grafik şeklini PDF biçimine dönüştürmek için kullanılabilir hale getirdi. Söz konusu method, şu anda diskte sonuç dosyasını saklamak için dosya yol konumunda tür String parametresini kabul eder.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet containing charts
 
@@ -108,14 +109,14 @@ Chart chart = worksheet.getCharts().get(0);
 chart.toPdf(outputFilePath);
 
 {{< /highlight >}}
-### **Yöntem Workbook.removeUnusedStyles Eklendi**
- Aspose.Cells for Java 8.6.2, Workbook.removeUnusedStyles için kullanılabilecek yöntemi kullanıma sundu.[kullanılmayan tüm Stil nesnelerini stil havuzundan kaldırın](/cells/tr/java/remove-unused-styles-inside-the-workbook/). 
+### **Eklenen Workbook.removeUnusedStyles Metodu**
+Aspose.Cells for Java 8.6.2, Workbook.removeUnusedStyles metodunu kullanarak kullanılmayan Tüm Stil nesnelerini kaldırabilirsiniz. 
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet
 
@@ -126,14 +127,14 @@ Workbook workbook = new Workbook(inputFilePath);
 workbook.removeUnusedStyles();
 
 {{< /highlight >}}
-### **Özellik Cells.Stil Eklendi**
-Cells.Style özelliği, varsayılan stili temsil eden Çalışma Sayfasının Stiline erişmek için kullanılabilir.
+### **Eklenen Cells.Style Özelliği**
+Cells.Style özelliği, Varsayılan stilin temsil edildiği Çalışma Sayfasıiçin Stil'e erişmek için kullanılabilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -144,8 +145,8 @@ Workbook book = new Workbook(inputFilePath);
 Style style = book.getWorksheets().get(0).getCells().getStyle();
 
 {{< /highlight >}}
-### **GridWeb İçin Eklenen Etkinlikler**
-Aspose.Cells.GridWeb for Java 8.6.2, aşağıdaki iki yeni olayı ortaya çıkardı.
+### **GridWeb için Eklenen Olaylar**
+Aspose.Cells.GridWeb for Java 8.6.2, aşağıda verilen iki yeni olayı ortaya çıkardı.
 
-1. AjaxCallFinished: Denetimin AJAX güncellemesi bittiğinde tetiklenir. (EnableAJAX, true olarak ayarlanmalıdır).
-1. CellModifiedOnAjax: AJAX çağrısında hücre değiştirildiğinde tetiklenir.
+1. AjaxCallFinished: Kontrolün AJAX güncellemesi tamamlandığında tetiklenir. (EnableAJAX true olarak ayarlanmalıdır).
+1. CellModifiedOnAjax: Hücre AJAX çağrısı sırasında değiştirildiğinde tetiklenir.

@@ -1,35 +1,36 @@
-﻿---
-title: تعيين والتحقق من صحة التوقيعات الرقمية
-linktitle: إمضاء
+---
+title: تعيين والتحقق من التواقيع الرقمية
+linktitle: توقيع
 type: docs
 weight: 100
 url: /ar/java/assign-and-validate-digital-signatures/
-description: التوقيع الرقمي لملف Excel والتحقق منه. لحماية أصالة محتوى مصنف في ملف Excel ، يمكنك إضافة توقيع رقمي باستخدام رموز C# مع Aspose.Cells لـ .Net.
+description: توقيع ملف إكسل رقمي، التحقق. لحماية أصالة محتوى دفتر العمل في ملف إكسل، يمكنك إضافة توقيع رقمي باستخدام رموز C# مع Aspose.Cells لـ .Net.
 ---
+
 {{% alert color="primary" %}}
 
- يوفر التوقيع الرقمي ضمانًا بأن ملف المصنف صالح ولم يغيره أحد. يمكنك إنشاء توقيع رقمي شخصي باستخدام ملف**SELFCERT** أداة يتم شحنها مع Microsoft مجموعة Office أو أي أداة أخرى. يمكنك حتى شراء توقيع رقمي. بعد إنشاء توقيع رقمي أو الحصول عليه ، يجب إرفاقه بمصنفك. يشبه إرفاق التوقيع الرقمي ختم الظرف. إذا وصل مغلف مغلقًا ، فلديك بعض التأكيد على أنه لم يعبث أحد بمحتوياته.
+يوفر التوقيع الرقمي الضمان بأن ملف ورق العمل صالح وأنه لم يقم أحد بتغييره. يمكنك إنشاء توقيع رقمي شخصي باستخدام أداة SELFCERT المرفقة مع حزمة Microsoft Office أو أي أداة أخرى. يمكنك حتى شراء توقيع رقمي. بعد إنشاء التوقيع الرقمي، يجب عليك إرفاقه بورق العمل الخاص بك. إرفاق توقيع رقمي مشابه لختم ظرف. إذا وصل ظرف مختوم، فإنك تمتلك بعض مستوى الضمان بأن لم يقم أحد بتلاعب محتوياته.
 
- Aspose.Cells for Java API توفير[**com.aspose.cells.DigitalSignatureCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignatureCollection) & [**com.aspose.cells.DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) فصول لتوقيع جداول البيانات وكذلك التحقق من صحتها.
+توفر واجهة برمجة التطبيق Aspose.Cells for Java الفئات [**com.aspose.cells.DigitalSignatureCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignatureCollection) و [**com.aspose.cells.DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) لتوقيع جداول البيانات بالإضافة إلى التحقق منها.
 
 {{% /alert %}}
 
-## **التوقيع على جداول البيانات**
+## **توقيع جداول البيانات**
 
-تتطلب عملية التوقيع شهادة كما تمت مناقشته أعلاه. إلى جانب الشهادة ، يجب أن يكون لدى الشخص كلمة المرور الخاصة به لتوقيع جداول البيانات بنجاح باستخدام Aspose.Cells API.
+يتطلب عملية التوقيع شهادة كما تم مناقشته أعلاه. إلى جانب الشهادة، يجب على الشخص أيضًا أن يكون لديه كلمة مرور لتوقيع جداول البيانات بنجاح باستخدام واجهة برمجة التطبيق Aspose.Cells.
 
-يوضح مقتطف الكود التالي استخدام Aspose.Cells for Java API لتوقيع جدول بيانات.
+يوضح مقتطف الكود التالي استخدام واجهة برمجة التطبيق Aspose.Cells for Java لتوقيع جدول بيانات.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SigningSpreadsheets-SigningSpreadsheets.java" >}}
 
 {{% alert color="primary" %}}
 
- في حالة عدم تطابق كلمة المرور المحددة مع كلمة المرور الخاصة بالشهادة ، يتم استثناء النوع*javax.crypto.BadPaddingException* سوف يتم إلقاؤها.
+في حالة عدم تطابق كلمة المرور المحددة مع كلمة المرور الخاصة بالشهادة، سيتم إثارة استثناء من نوع *javax.crypto.BadPaddingException*.
 
 {{% /alert %}}
 
-## **التحقق من صحة جداول البيانات**
+## **التحقق من جداول البيانات**
 
-يوضح مقتطف الكود التالي استخدام Aspose.Cells for Java API للتحقق من صحة جدول البيانات.
+يوضح مقتطف الكود التالي استخدام واجهة برمجة التطبيق Aspose.Cells for Java للتحقق من جدول البيانات.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}

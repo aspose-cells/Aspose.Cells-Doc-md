@@ -1,20 +1,21 @@
-﻿---
-title: Imagen en mosaico como una textura dentro de la forma
+---
+title: Colocar imagen como textura dentro de la forma
 type: docs
 weight: 50
 url: /es/java/tile-picture-as-a-texture-inside-the-shape/
 ---
-## **Posibles escenarios de uso**
 
-Cuando la imagen es pequeña y no cubre toda la superficie de la forma sin perder su calidad, entonces tiene la opción de colocarla en mosaico. Mosaico llena la superficie de la forma con una pequeña imagen repitiéndola como si fueran mosaicos.
+## **Escenarios de uso posibles**
 
-## **Imagen en mosaico como una textura dentro de la forma**
+Cuando la imagen es pequeña y no cubre toda la superficie de la forma sin perder su calidad, entonces tiene la opción de colocarla como textura. Colocar como textura llena la superficie de la forma con una imagen pequeña repitiéndola como si fueran azulejos.
 
-Puede llenar la superficie de la forma con alguna imagen y colocarla en mosaico usando el[**Forma.Relleno.TexturaRelleno.IsTiling**](https://reference.aspose.com/cells/java/com.aspose.cells/texturefill#IsTiling) propiedad y establecerla**verdadero** . Consulte el siguiente código de ejemplo, su[ejemplo de archivo de Excel](46465055.xlsx) , su[archivo de salida de Excel](46465056.xlsx) así como la captura de pantalla para una referencia.
+## **Colocar imagen como textura dentro de la forma**
+
+Puede llenar la superficie de la forma con alguna imagen y hacerla en mosaico usando la propiedad [**Shape.Fill.TextureFill.IsTiling**](https://reference.aspose.com/cells/java/com.aspose.cells/texturefill#IsTiling) y configurándola como **true**. Por favor, vea el siguiente código de ejemplo, su [archivo de Excel de ejemplo](46465055.xlsx), su [archivo de Excel de salida](46465056.xlsx) así como la captura de pantalla para una referencia.
 
 ## **Captura de pantalla**
 
-![todo:imagen_alternativa_texto](tile-picture-as-a-texture-inside-the-shape_1.png)
+![todo:image_alt_text](tile-picture-as-a-texture-inside-the-shape_1.png)
 
 ## **Código de muestra**
 

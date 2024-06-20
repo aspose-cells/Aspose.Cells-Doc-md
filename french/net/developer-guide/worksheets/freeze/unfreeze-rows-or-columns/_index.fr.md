@@ -1,35 +1,34 @@
 ---
-title: Dégeler des lignes ou des colonnes
-linktitle: Dégeler les volets
+title: Décongeler les lignes ou les colonnes
+linktitle: Décongeler les volets
 type: docs
 weight: 190
 url: /fr/net/unfreeze-rows-or-columns-of-excel-worksheet
-description: Dans cet article, vous apprendrez comment débloquer des lignes, des colonnes ou des volets de feuilles de calcul Excel par programme à l'aide de la bibliothèque C# avec .NET API.
-keywords: Unfreeze panes, Unfreeze rows, Unfreeze columns, unFreeze window.
+description: Dans cet article, vous apprendrez comment débloquer les lignes, les colonnes ou les volets des feuilles de calcul Excel de manière programmatique en utilisant la bibliothèque C# avec l API .NET.
+keywords: Débloquer les volets, Débloquer les lignes, Débloquer les colonnes, Débloquer la fenêtre.
 ---
-{{% alert color="primary" %}}
 
-Dans cet article, nous apprendrons comment dégeler les lignes, les colonnes et les volets.
-Si les feuilles de calcul dans les fichiers Excel sont gelées, nous souhaitons parfois débloquer la feuille de calcul ou ajuster les lignes, colonnes ou volets gelés.
+## **Introduction**
 
-{{% /alert %}}
+Dans cet article, nous allons apprendre comment dégeler les lignes, les colonnes et les volets. Si les feuilles de calcul des fichiers Excel sont figées, parfois nous voulons dégeler la feuille de calcul ou ajuster les lignes, les colonnes ou les volets figés.
 
-##  **Dans Excel**
 
-1. Cliquez sur l'onglet Affichage > Geler les volets > Libérer les volets.
+## **Dans Excel**
 
-**![dégeler les volets dans Excel](Unfreeze-Panes.png)**
+1. Cliquez sur l'onglet Affichage > Immobiliser les volets > Débloquer les volets.
 
+**![débloquer les volets dans Excel](Unfreeze-Panes.png)**
 
 
 
-##  **Libérez les lignes, les colonnes ou les volets avec Aspose.Cells pour .Net**
- C'est simple de dégeler les volets avec Aspose.Cells pour .Net. Veuillez utiliser le[**Feuille de travail.UnFreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/unfreezepanes)méthode pour dégonfler les vitres.
 
-1. Construisez un classeur pour ouvrir le fichier gelé.
-2. Dégelez les volets avec la méthode Worksheet.UnFreezePanes().
+## **Débloquer les lignes, les colonnes ou les volets avec Aspose.Cells pour .Net**
+Il est simple de débloquer les volets avec Aspose.Cells pour .Net. Veuillez utiliser la méthode [**Worksheet.UnFreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/unfreezepanes) pour débloquer les volets.
+
+1. Construisez le classeur pour ouvrir le fichier gelé.
+2. Débloquez les volets avec la méthode Worksheet.UnFreezePanes().
 3. Enregistrez le fichier.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Unfreeze-Pane.cs" >}}
 
- Ci-joint[exemple de fichier Excel source](Frozen.xlsx).
+Fichier Excel source joint (Frozen.xlsx).

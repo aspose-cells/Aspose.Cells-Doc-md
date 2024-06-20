@@ -1,17 +1,18 @@
-﻿---
-title: E-tabloları CSV biçiminde dışa aktarırken Boş Satırlar için Ayırıcıları Koruyun
+---
+title: CSV formatına yayınlarken Boş Satırlar için Ayraçları Sakla
 type: docs
 weight: 110
 url: /tr/java/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/
 ---
-## **E-tabloları CSV biçiminde dışa aktarırken Boş Satırlar için Ayırıcıları Koruyun**
 
-Aspose.Cells, elektronik tabloları CSV formatına dönüştürürken satır ayırıcıları tutma yeteneği sağlar. Bunun için kullanabilirsiniz**[KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow)**mülkiyet**[TxtSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/TxtSaveOptions)**sınıf.**[KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow)**bir boole özelliğidir. Excel Dosyasını CSV'e dönüştürürken boş satırlar için ayırıcıları korumak için,**[KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow)**mülkiyet**doğru**.
+## **CSV formatına yayınlarken Boş Satırlar için Ayraçları Sakla**
 
-Aşağıdaki örnek kod,[kaynak Excel dosyası](KeepSeparatorsForBlankRow.xlsx). ayarlar**[TxtSaveOptions.KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow)**mülkiyet**doğru** olarak kaydeder ve[KeepSeparatorsForBlankRow.out.csv](KeepSeparatorsForBlankRow.out.csv). Ekran görüntüsü, elektronik tablo CSV'e dönüştürülürken oluşturulan varsayılan çıktı olan kaynak Excel dosyası ve ayar tarafından oluşturulan çıktı arasındaki karşılaştırmayı gösterir.**[KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow)**ile**doğru**.
+Aspose.Cells, elektronik tablolardan CSV formatına dönüştürürken satır ayraçlarını koruma olanağı sağlar. Bunun için, [**KeepSeparatorsForBlankRow**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow) sınıfının [**TxtSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TxtSaveOptions) özelliğini kullanabilirsiniz. [**KeepSeparatorsForBlankRow**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow) bir boolean özelliğidir. Excel Dosyasını CSV'ye dönüştürürken boş satırlar için ayraçları saklamak için [**KeepSeparatorsForBlankRow**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow) özelliğini **true** olarak ayarlayın.
 
-![yapılacaklar:resim_alternatif_metin](keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format_1.jpg)
+Aşağıdaki örnek kod, [kaynak Excel dosyasını](KeepSeparatorsForBlankRow.xlsx) yükler. [**TxtSaveOptions.KeepSeparatorsForBlankRow**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#KeepSeparatorsForBlankRow) özelliğini **true** olarak ayarlar ve [KeepSeparatorsForBlankRow.out.csv](KeepSeparatorsForBlankRow.out.csv) olarak kaydeder. Ekran görüntüsü, Excel dosyasının orijinal hali, elektronik tabloyu CSV'ye dönüştürürken oluşturulan varsayılan çıktı ve **true** olarak ayarlama sonucunda oluşturulan çıktıyı göstermektedir.
 
-## **Basit kod**
+![todo:image_alt_text](keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format_1.jpg)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-KeepSeparatorsForBlankRow-1.java" >}}

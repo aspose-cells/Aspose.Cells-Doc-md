@@ -1,24 +1,27 @@
-﻿---
-title: Acceder a hojas de trabajo
+---
+title: Acceder a la Hoja de Cálculo
 type: docs
 weight: 10
-url: /es/net/access-worksheets/
+url: /es/net/aspose-cells-gridweb/access-worksheet/
+keywords: GridWeb,GridWorksheetCollection,GridWorksheet 
+description: Este artículo presenta cómo obtener la hoja de cálculo (GridWorksheet) en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Este tema trata sobre el acceso a las hojas de trabajo en el control Aspose.Cells.GridWeb. Nos referiremos a ellas como 'hojas de trabajo web' porque pertenecen a Aspose.Cells.GridWeb y se utilizan en aplicaciones web.
+Este tema discute el acceso a las hojas de cálculo en el control Aspose.Cells.GridWeb. Nos referiremos a ellas como 'hojas de cálculo web' debido a que pertenecen a Aspose.Cells.GridWeb y se utilizan en aplicaciones web.
 
 {{% /alert %}} 
-## **Acceso a una hoja de trabajo**
-Todas las hojas de cálculo contenidas en Aspose.Cells.GridWeb se almacenan en la GridWorksheetCollection del control GridWeb. Hay dos formas de acceder a una hoja de trabajo: por su índice de hoja o por su nombre de hoja.
-### **Uso del índice de hojas**
-El fragmento de código siguiente muestra cómo acceder a una hoja de cálculo web específica desde GridWorksheetCollection del control GridWeb mediante el índice de la hoja.
+## **Accediendo a una Hoja de Cálculo**
+Todas las hojas de cálculo contenidas en Aspose.Cells.GridWeb, se almacenan en la colección GridWorksheetCollection del control GridWeb. Hay dos formas de acceder a una hoja de cálculo: por su índice de hoja o por su nombre de hoja.
+### **Usando el índice de hoja**
+El fragmento de código a continuación muestra cómo acceder a una hoja de cálculo web específica desde la colección GridWorksheetCollection del control GridWeb utilizando el índice de hoja.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AccessWorksheets.aspx-AccessWorksheetUsingIndex.cs" >}}
 ### **Usando el nombre de la hoja**
-El fragmento de código siguiente muestra cómo acceder a una hoja de trabajo web desde la colección GridWorksheetCollection del control GridWeb usando el nombre de la hoja.
+El fragmento de código a continuación muestra cómo acceder a una hoja de cálculo web desde la colección GridWorksheetCollection del control GridWeb utilizando el nombre de la hoja.
 
 
 

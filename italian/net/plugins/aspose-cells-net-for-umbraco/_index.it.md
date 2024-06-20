@@ -1,10 +1,11 @@
-﻿---
-title: Aspose.Cells .NET per Umbraco
+---
+title: Aspose.Cells .NET for Umbraco
 type: docs
 weight: 30
 url: /it/net/aspose-cells-net-for-umbraco/
 ---
+
 Questa sezione ha i seguenti argomenti:
 
-- [Umbraco Esporta i membri in Excel](/cells/it/net/umbraco-export-members-to-excel/)
-- [Esportatore di dati del database Umbraco in Excel](/cells/it/net/umbraco-database-data-exporter-to-excel/)
+- [Esportazione membri Umbraco su Excel](/cells/it/net/umbraco-export-members-to-excel/)
+- [Esportazione dati database Umbraco su Excel](/cells/it/net/umbraco-database-data-exporter-to-excel/)

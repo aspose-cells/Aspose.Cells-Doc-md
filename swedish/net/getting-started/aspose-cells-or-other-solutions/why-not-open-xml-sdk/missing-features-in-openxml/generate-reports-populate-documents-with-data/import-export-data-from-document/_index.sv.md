@@ -1,40 +1,41 @@
-﻿---
-title: Importera Exportera data från dokument
+---
+title: Importera/Exportera data från dokument
 type: docs
 weight: 10
 url: /sv/net/import-export-data-from-document/
 ---
+
 ## **Importera data från dokument**
 
-Data är insamling av råfakta och vi skapar kalkylbladsdokument eller rapporter för att presentera dessa råfakta på ett mer meningsfullt sätt. Normalt lägger vi till data till kalkylark själva men ibland måste vi återanvända befintliga dataresurser och här kommer behovet av att importera data till kalkylblad från olika datakällor. I det här ämnet kommer vi att diskutera några tekniker för att importera data till kalkylblad från olika datakällor.
+Data är samlingen av råa fakta och vi skapar kalkylblad eller rapporter för att presentera dessa råa fakta på ett mer meningsfullt sätt. Vanligtvis lägger vi till data i kalkylblad av oss själva men ibland behöver vi återanvända befintliga dataresurser och här uppstår behovet av att importera data till kalkylblad från olika datakällor. I det här ämnet diskuterar vi några tekniker för att importera data till kalkylblad från olika datakällor.
 
 ## **Importera data med Aspose.Cells**
 
- När du använder**Aspose.Cells** för att öppna en Excel-fil importeras all data i filen automatiskt men Aspose.Cells stöder även import av data från olika datakällor. Några av dessa datakällor listas nedan:
+När du använder **Aspose.Cells** för att öppna en Excel-fil importeras all data i filen automatiskt men Aspose.Cells stöder också att importera data från olika datakällor. Några av dessa datakällor listas nedan:
 
 - **Array**
 - **ArrayList**
-- **Datatabell**
-- **Datakolumn**
+- **DataTable**
+- **DataColumn**
 - **DataView**
-- **Datanätet**
+- **DataGrid**
 - **DataReader**
 - **GridView**
 
- Aspose.Cells tillhandahåller en klass,**Arbetsbok** som representerar en Excel-fil. Arbetsboksklass innehåller en kalkylbladssamling som gör det möjligt att komma åt varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen Worksheet. Kalkylbladsklassen tillhandahåller en Cells-samling.
+Aspose.Cells tillhandahåller en klass, **Workbook** som representerar en Excel-fil. Workbook-klassen innehåller en Worksheets-samling som möjliggör åtkomst till varje arbetsblad i Excel-filen. Ett arbetsblad representeras av Worksheet-klassen. Worksheet-klassen tillhandahåller en Cells-samling.
 
-Cells-samlingen ger mycket användbara metoder för att importera data från olika datakällor.
+Cells-samlingen tillhandahåller mycket användbara metoder för att importera data från olika datakällor.
 
-### **Importerar från Array**
+### **Importera från Array**
 
- Utvecklare kan importera data från en array till sina kalkylblad genom att anropa**ImportArray** metoden för samlingen Cells. Det finns många överbelastade versioner av ImportArray-metoden men en typisk överbelastning kräver följande parametrar:
+Utvecklare kan importera data från en array till sina kalkylblad genom att anropa metoden **ImportArray** i Cells-samlingen. Det finns många överbelastade versioner av metoden ImportArray men en typisk överbelastning tar följande parametrar:
 
-- Array, representerar arrayobjektet vars innehåll måste importeras
-- Radnummer, representerar radnumret för den första cellen där data kommer att importeras
-- Kolumnnummer, representerar kolumnnumret för den första cellen där data kommer att importeras
-- Is Vertical, ett booleskt värde som anger att data ska importeras vertikalt eller horisontellt
+- Array, representerar arrayobjektet vars innehåll behöver importeras
+- Radnummer, representerar radnumret för den första cellen där datan kommer att importeras
+- Kolumnnummer, representerar kolumnnumret för den första cellen där datan kommer att importeras
+- Är Vertikal, ett booleskt värde som specificerar att importera data vertikalt eller horisontellt
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -50,7 +51,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 //Creating an array containing names as string values
 
-string[]names = new string[]{ "laurence chen", "roman korchagin", "kyle huang" };
+string[] names = new string[] { "laurence chen", "roman korchagin", "kyle huang" };
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -62,15 +63,15 @@ workbook.Save(MyDir+"DataImport from Array.xls");
 
 {{< /highlight >}}
 
-### **Importerar från ArrayList**
+### **Importera från ArrayList**
 
- Utvecklare kan importera data från en ArrayList till sina kalkylblad genom att anropa**ImportArrayList** metoden för samlingen Cells. ImportArray-metoden tar följande parametrar:**ArrayList** , representerar ArrayList-objektet vars innehåll måste importeras
+Utvecklare kan importera data från en ArrayList till sina kalkylblad genom att anropa metoden **ImportArrayList** i Cells-samlingen. ImportArray metoden tar följande parametrar: **ArrayList** , representerar ArrayList-objektet vars innehåll behöver importeras
 
-- Radnummer , representerar radnumret för den första cellen där data kommer att importeras
-- Kolumnnummer , representerar kolumnnumret för den första cellen där data kommer att importeras
-- Is Vertical , ett booleskt värde som anger att data ska importeras vertikalt eller horisontellt
+- Radnummer , representerar radnumret för den första cellen där datan kommer att importeras
+- Kolumnnummer , representerar kolumnnumret för den första cellen där datan kommer att importeras
+- Är Vertikal , ett booleskt värde som specificerar att importera data vertikalt eller horisontellt
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -108,11 +109,11 @@ workbook.Save(MyDir + "DataImport from Array List.xls");
 
 {{< /highlight >}}
 
-### **Importera från anpassade objekt**
+### **Importera från Anpassade Objekt**
 
- Utvecklare kan importera data från samling av objekt till ett kalkylblad med hjälp av**ImportCustomObjects**. Du kan tillhandahålla en lista med kolumner/egenskaper till metoden för att visa din önskade lista med objekt.
+Utvecklare kan importera data från en samling objekt till ett kalkylblad med hjälp av **ImportCustomObjects**. Du kan ange en lista med kolumner/egenskaper till metoden för att visa din önskade lista med objekt.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate a new Workbook
 
@@ -142,7 +143,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 
@@ -168,14 +169,14 @@ book.Save(MyDir+"ImportedCustomObjects.xls");
 
 {{< /highlight >}}
 
-### **Importerar från DataTable**
+### **Importera från DataTable**
 
- Utvecklare kan importera data från en**Datatabell** till sina arbetsblad genom att ringa**ImportDataTable** metoden för samlingen Cells. Det finns många överbelastade versioner av**ImportDataTable** metod men en typisk överbelastning tar följande parametrar:**Datatabell** , representerar**Datatabell** objekt vars innehåll behöver importeras
+Utvecklare kan importera data från en **DataTable** till sina kalkylblad genom att anropa metoden **ImportDataTable** i Cells-samlingen. Det finns många överbelastade versioner av metoden **ImportDataTable** men en typisk överbelastning tar följande parametrar:**DataTable** , representerar **DataTable** objektet vars innehåll behöver importeras
 
-- **Visas fältnamnet**, anger att om namnen på kolumnerna i DataTable ska importeras till kalkylbladet som en första rad eller inte
-- **Starta Cell** representerar namnet på startcellen (dvs. "A1") varifrån innehållet i datatabellen ska importeras
+- **Visas fältnamn**, specificerar om namnen på DataTables kolumner ska importeras till kalkylbladet som en första rad eller inte
+- **Startcell** , representerar namnet på startcellen (dvs. "A1") från vilken datans innehåll ska importeras
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -207,11 +208,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -223,11 +224,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 
@@ -245,28 +246,28 @@ workbook.Save(MyDir+"Import From Data Table.xls");
 
 {{< /highlight >}}
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
 
 ## **Exportera data från dokument**
 
- Aspose.Cells underlättar inte bara sina användare att importera data till kalkylblad från externa datakällor utan låter dem också exportera sina kalkylbladsdata till en**Datatabell** . Som vi vet det**Datatabell** är en del av ADO.NET och används för att lagra data. När uppgifterna är lagrade i en**Datatabell**, den kan användas på vilket sätt som helst enligt användarnas krav.
+Aspose.Cells underlättar inte bara för användarna att importera data till arbetsblad från externa datakällor utan tillåter dem också att exportera sin arbetsbladsdata till en **DataTable**. Som vi vet är **DataTable** en del av ADO.NET och används för att lagra data. När datan är lagrad i en **DataTable** kan den användas på något sätt enligt användarnas krav.
 
-## **Exportera data till DataTable (.NET) med Aspose.Cells**
+## **Exportera data till DataTable (.NET) med hjälp av Aspose.Cells**
 
-Utvecklare kan enkelt exportera sina kalkylbladsdata till ett DataTable-objekt genom att anropa antingen ExportDataTable- eller ExportDataTableAsString-metoden i klassen Cells. Båda metoderna används i olika scenarier, vilka diskuteras mer i detalj nedan.
+Utvecklare kan enkelt exportera sin arbetsbladsdata till ett DataTable-objekt genom att anropa antingen ExportDataTable-metoden eller ExportDataTableAsString-metoden i Cells-klassen. Båda metoderna används i olika scenarier, vilka diskuteras nedan mer detaljerat.
 
-### **Kolumner som innehåller starkt skrivna data**
+### **Kolumner Innehållande Starkt Skriven Data**
 
-Vi vet att ett kalkylblad lagrar data som en sekvens av rader och kolumner. Om alla värden i kolumnerna i ett kalkylblad är starkt skrivna (det betyder att alla värden i en kolumn måste ha samma datatyp) kan vi exportera kalkylbladets innehåll genom att anropa**ExportDataTable** metod av klassen Cells.**ExportDataTable** metod använder följande parametrar för att exportera kalkylbladsdata som**Datatabell** objekt:**Radnummer** , representerar radnumret för den första cellen varifrån data kommer att exporteras
+Vi vet att en kalkylblad lagrar data som en sekvens av rader och kolumner. Om alla värden i kolumnerna i ett kalkylblad är starkt typade (det betyder att alla värden i en kolumn måste ha samma datatyp) kan vi exportera kalkylbladets innehåll genom att anropa metoden **ExportDataTable** i Cells-klassen. Metoden **ExportDataTable** tar följande parametrar för att exportera kalkylbladsdata som **DataTable** objekt: **Radnummer** , representerar radnumret för den första cellen från vilken datan kommer att exporteras
 
-- **Kolumnnummer** , representerar kolumnnumret för den första cellen varifrån data kommer att exporteras
+- **Kolumnnummer** , representerar kolumnnumret för den första cellen från vilken datan kommer att exporteras
 - **Antal rader** , representerar antalet rader som ska exporteras
-- **Antal kolumner** representerar antalet kolumner som ska exporteras
-- **Exportera kolumnnamn** , en boolesk egenskap som anger om data i första raden i kalkylbladet ska exporteras som kolumnnamn i datatabellen eller inte
+- **Antal kolumner** , representerar antalet kolumner som ska exporteras
+- **Exportera kolumnnamn** , en boolesk egenskap som indikerar om datan i den första raden i kalkylbladet ska exporteras som kolumnnamn i DataTable eller inte
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Creating a file stream containing the Excel file to be opened
 
@@ -296,11 +297,11 @@ fstream.Close();
 
 {{< /highlight >}}
 
-### **Kolumner som innehåller icke-starkt typade data**
+### **Kolumner som innehåller icke-strongly typed data**
 
- Om alla värden i kolumnerna i ett kalkylblad inte är starkt skrivna (det betyder att värdena i en kolumn kan ha olika datatyper) så kan vi exportera kalkylbladets innehåll genom att anropa**ExportDataTableAsString** metod av klassen Cells.**ExportDataTableAsString** metoden tar samma uppsättning parametrar som den för**ExportDataTable** metod för att exportera kalkylbladsdata som**Datatabell** objekt.
+Om alla värden i kolumnerna i ett kalkylblad inte är starkt typade (det betyder att värdena i en kolumn kan ha olika datatyper) kan vi exportera kalkylbladets innehåll genom att anropa metoden **ExportDataTableAsString** i Cells-klassen. Metoden **ExportDataTableAsString** tar samma uppsättning parametrar som metoden **ExportDataTable** för att exportera kalkylbladsdata som **DataTable** objekt.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Creating a file stream containing the Excel file to be opened
 
@@ -330,7 +331,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

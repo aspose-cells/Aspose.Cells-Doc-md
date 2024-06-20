@@ -1,26 +1,27 @@
-﻿---
-title: Genel API Aspose.Cells 16.11.0'daki değişiklikler
+---
+title: Aspose.Cells 16.11.0 daki Genel API Değişiklikleri
 type: docs
 weight: 350
 url: /tr/net/public-api-changes-in-aspose-cells-16-11-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 16.10.0 sürümünden 16.11.0 sürümüne Aspose.Cells API değişikliklerini açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, Aspose.Cells API'sindeki değişiklikleri 16.10.0'dan 16.11.0'a modül / uygulama geliştiricileri için ilginç olabilecek şekilde açıklar. Yeni ve güncellenmiş genel metotlar, eklenen ve kaldırılan sınıflar vb. yanı sıra Aspose.Cells'in arkasındaki davranışta herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Küreselleştirme Ayarları Desteği**
-Aspose.Cells 16.11.0, Aspose.Cells API'lerini Alt Toplamlar için özel etiketler kullanmaya zorlamak amacıyla WorkbookSettings.GlobalizationSettings özelliğiyle birlikte GlobalizationSettings sınıfını kullanıma sundu. GlobalizationSettings sınıfı, etiketlere istenen adları vermek için özel uygulamada geçersiz kılınabilen aşağıdaki yöntemlere sahiptir.**Toplam** & **Genel Toplam**.
+## **Eklenen API'lar**
+### **Küreselleşme Ayarları Desteği**
+Aspose.Cells 16.11.0, Aspose.Cells API'larını custom etiketler kullanmaya zorlamak için GlobalizationSettings sınıfını ve WorkbookSettings.GlobalizationSettings özelliğini açığa çıkardı. GlobalizationSettings sınıfı, aşağıdaki yöntemleri içerir ve özelleştirilmiş uygulamasında istenilen adları **Toplam** ve **Genel Toplam** için döndürmek için bu şekilde üzerine yazılabilir.
 
 - GlobalizationSettings.GetTotalName: Fonksiyonun toplam adını alır.
-- GlobalizationSettings.GetGrandTotalName: İşlevin genel toplam adını alır.
+- GlobalizationSettings.GetGrandTotalName: Fonksiyonun büyük toplam adını alır.
 
-İşte GlobalizationSettings sınıfını genişleten ve birleştirme işlevi Ortalama için özel etiketler döndürmek üzere yukarıda belirtilen yöntemlerini geçersiz kılan basit bir özel sınıf.
+Bu, GlobalizationSettings sınıfını genişleten ve konsolidasyon fonksiyonu Ortalama için özel etiketler döndürmek için yukarıdaki yöntemlerinin üzerine yazıldığı basit bir özel sınıfın kullanım senaryosudur.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomSettings : GlobalizationSettings
 
@@ -72,11 +73,11 @@ Aspose.Cells 16.11.0, Aspose.Cells API'lerini Alt Toplamlar için özel etiketle
 
 
 
-Aşağıdaki kod parçacığı, mevcut bir elektronik tabloyu yükler ve çalışma sayfasında zaten mevcut olan verilere Ortalama türündeki Alt Toplamı ekler. CustomSettings sınıfı ve onun GetTotalName & GetGrandTotalName yöntemleri, çalışma sayfasına Alt Toplam eklenirken çağrılır.
+Aşağıdaki kod parçası, var olan bir elektronik tabloyu yükler ve çalışma sayfasında zaten mevcut olan verilere Subtotal ekler. Subtotal eklenirken CustomSettings sınıfı ve GetTotalName & GetGrandTotalName yöntemleri çağrılacaktır.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Loads an existing spreadsheet containing some data
 
@@ -96,7 +97,7 @@ Worksheet sheet = book.Worksheets[0];
 
 // Adds SubTotal of type Average to the worksheet
 
-sheet.Cells.Subtotal(CellArea.CreateCellArea("A2", "B9"), 0, ConsolidationFunction.Average, new int[]{ 0,1 });
+sheet.Cells.Subtotal(CellArea.CreateCellArea("A2", "B9"), 0, ConsolidationFunction.Average, new int[] { 0,1 });
 
 // Calculates Formulas
 
@@ -114,11 +115,11 @@ book.Save(dir + "output.xlsx");
 
 
 
-GlobalizationSettings sınıfı, Pasta grafikleri için "Diğer" etiketlerinin adını almakta yararlı olan GetOtherName yöntemini de sunar. İşte GlobalizationSettings.GetOtherName yönteminin basit bir kullanım senaryosu.
+GlobalizationSettings sınıfı aynı zamanda Pie grafikleri için "Diğer" etiketlerin adını almak için faydalı olan GetOtherName yöntemini sunar. İşte GlobalizationSettings.GetOtherName yönteminin basit bir kullanım senaryosu.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomSettings : GlobalizationSettings
 
@@ -162,11 +163,11 @@ GlobalizationSettings sınıfı, Pasta grafikleri için "Diğer" etiketlerinin a
 
 
 
-Aşağıdaki kod parçacığı, Pasta grafiği içeren mevcut bir elektronik tabloyu yükler ve yukarıda oluşturulan CustomSettings sınıfını kullanırken grafiği resme dönüştürür.
+Aşağıdaki kod parçacığı, yukarıda oluşturulan Özel Ayarlar sınıfını kullanarak bir Pasta grafik içeren mevcut bir elektronik tabloyu yükler ve grafikleri görüntüler.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Loads an existing spreadsheet containing a pie chart
 
@@ -197,14 +198,14 @@ chart.ToImage(dir + "output.png", new ImageOrPrintOptions());
 {{< /highlight >}}
 
 
-### **CellsFactory Sınıfı Eklendi**
-Aspose.Cells 16.11.0, şu anda bir yöntemi olan CellsFactory sınıfını kullanıma açtı, yani; Stil Oluştur. CellsFactory.CreateStyle yöntemi, çalışma kitabı stilleri havuzuna eklemeden bir Style sınıfı örneği oluşturmak için kullanılabilir.
+### **Eklenen CellsFactory Sınıfı**
+Aspose.Cells 16.11.0, şu anda CreateStyle adında bir yöntemi olan CellsFactory sınıfını açığa çıkarmıştır. CellsFactory.CreateStyle yöntemi, Style sınıfının havuza eklenmeden bir örneğini oluşturmak için kullanılabilir.
 
 İşte CellsFactory.CreateStyle yönteminin basit kullanım senaryosu.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initializes the CellsFactory class
 
@@ -217,14 +218,14 @@ Style style = factory.CreateStyle();
 {{< /highlight >}}
 
 
-### **Workbook.AbsolutePath Özelliği Eklendi**
-Aspose.Cells 16.11.0, workbook.xml dosyasında saklanan mutlak çalışma kitabı yolunun alınmasına veya ayarlanmasına izin veren Workbook.AbsolutePath özelliğini kullanıma sundu. Bu özellik, yalnızca harici bağlantıları güncellerken kullanışlıdır.
-### **GridHyperlinkCollection.GetHyperlink Yöntemi Eklendi**
-Aspose.Cells.GridWeb 16.11.0, GetHyperlink yöntemini GridHyperlinkCollection sınıfına maruz bıraktı; bu sınıf, bir GridCell örneğini veya satır sütun indekslerine karşılık gelen bir çift tamsayı geçirerek GridHyperlink örneğini almaya olanak tanır.
+### **Eklenen Workbook.AbsolutePath Özelliği**
+Aspose.Cells 16.11.0, Workbook.AbsolutePath özelliğini, depolanan workbook.xml dosyasında bulunan mutlak çalışma kitabı yolunu almak veya ayarlamak için kullanılmasını sağlar. Bu özellik, yalnızca dış bağlantıları güncellerken faydalıdır.
+### **Eklenen GridHyperlinkCollection.GetHyperlink Yöntemi**
+Aspose.Cells.GridWeb 16.11.0, GridHyperlinkCollection sınıfına GetHyperlink yöntemini açığa çıkarmıştır. Bu yöntemle GridCell örneği veya satır sütun dizinlerine karşılık gelen iki tam sayı çiftini geçirerek GridHyperlink örneğini alabilirsiniz.
 
 {{% alert color="primary" %}} 
 
-Belirtilen hücrede köprü bulunmaması durumunda GetHyperlink yöntemi null değerini döndürür.
+Belirtilen hücrede hiçbir bağlantı bulunmamışsa, GetHyperlink yöntemi null değer döndürecektir.
 
 {{% /alert %}} 
 
@@ -232,7 +233,7 @@ Belirtilen hücrede köprü bulunmaması durumunda GetHyperlink yöntemi null de
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Gets the active worksheet from the collection
 
@@ -251,17 +252,17 @@ GridHyperlink link = links.GetHyperlink(sheet.Cells["A1"]);
 link = links.GetHyperlink(0, 3);
 
 {{< /highlight >}}
-## **Eski API'ler**
-### **Eski Stil Oluşturucu**
-Lütfen alternatif olarak cellFactory.CreateStyle yöntemini kullanın.
-## **Silinmiş API'ler**
-### **Cell.GetConditionalStyle Yöntemi Silindi**
-Lütfen bunun yerine Cell.GetConditionalFormattingResult yöntemini kullanın.
-### **Cells.MaxDataRowInColumn(int sütunu) Yöntem Silindi**
-Lütfen alternatif olarak Cells.GetLastDataRow(int) yöntemini kullanın.
-### **PageSetup.Draft Özelliği Silindi**
-Bunun yerine PageSetup.PrintDraft özelliğinin kullanılması önerilir.
-### **Silinmiş AutoFilter.FilterColumnCollection Özelliği**
-Aynı hedefe ulaşmak için lütfen AutoFilter.FilterColumns özelliğini kullanmayı düşünün.
-### **TickLabels.Rotation Özelliği Silindi**
-Lütfen bunun yerine TickLabels.RotationAngle özelliğini kullanın.
+## **Eskimiş API'lar**
+### **Eski Style Constructor Obsoleted**
+Alternatif olarak cellsFactory.CreateStyle yöntemini kullanınız.
+## **Silinmiş API'lar**
+### **Silinmiş Cell.GetConditionalStyle Yöntemi**
+Yerine Cell.GetConditionalFormattingResult yöntemini kullanınız.
+### **Silinmiş Cells.MaxDataRowInColumn(int column) Yöntemi**
+Alternatif olarak Cells.GetLastDataRow(int) yöntemini kullanınız.
+### **Silinen PageSetup.Draft Özelliği**
+PageSetup.PrintDraft özelliğini kullanmanız önerilir.
+### **Silinen AutoFilter.FilterColumnCollection Özelliği**
+Aynı hedefi elde etmek için lütfen AutoFilter.FilterColumns özelliğini düşünün.
+### **Silinen TickLabels.Rotation Özelliği**
+Lütfen TickLabels.RotationAngle özelliğini kullanın.

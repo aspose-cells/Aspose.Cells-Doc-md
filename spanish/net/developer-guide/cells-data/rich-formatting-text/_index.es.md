@@ -1,31 +1,32 @@
 ---
-title: Acceda y actualice las partes del texto enriquecido de Cell
-linktitle: Texto con formato enriquecido
+title: Acceder y Actualizar las Partes de Texto Enriquecido de la Celda
+linktitle: Texto con Formato Enriquecido
 type: docs
 weight: 40
 url: /es/net/access-and-update-the-portions-of-rich-text-of-cell/
-description: Aprenda cómo acceder y actualizar las partes del texto enriquecido de Cell a través de Aspose.Cells for .NET API.
-keywords: Access and Update Rich Text of Cell, Get Rich Text of Cell, Edit Rich Text of Cell, Access Rich Text of Cell, Update Rich Text of Cell, Change Rich Text of Cell
+description: Aprende cómo acceder y actualizar las porciones de texto enriquecido de la celda a través de la API Aspose.Cells for .NET.
+keywords: Acceder y Actualizar Texto Enriquecido de la Celda, Obtener Texto Enriquecido de la Celda, Editar Texto Enriquecido de la Celda, Acceder a Texto Enriquecido de la Celda, Actualizar Texto Enriquecido de la Celda, Cambiar Texto Enriquecido de la Celda
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells le permite acceder y actualizar las partes del texto enriquecido de la celda. Para este propósito, puede utilizar[**Cell.GetCaracteres()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) y[**Cell.Establecer caracteres()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) métodos. Estos métodos devolverán y aceptarán la matriz de[**Configuración de fuente**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting)objetos que puede utilizar para acceder y actualizar varias propiedades de la fuente, como el nombre de la fuente, el color de la fuente, la negrita, etc.
+Aspose.Cells te permite acceder y actualizar las porciones de texto enriquecido de la celda. Para este propósito, puedes usar los métodos [**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) y [**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters). Estos métodos devolverán y aceptarán el arreglo de objetos [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting), que puedes usar para acceder y actualizar varias propiedades de fuente como el nombre de la fuente, color de la fuente, negrita, etc.
 
 {{% /alert %}}
 
-##  **Acceda y actualice las partes del texto enriquecido de Cell**
+## **Acceder y actualizar partes de texto enriquecido de la celda**
 
- El siguiente código demuestra el uso de[**Cell.GetCaracteres()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) y[**Cell.Establecer caracteres()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) método usando el[archivo excel fuente](5112369.xlsx) que puede descargar desde el enlace proporcionado. El archivo Excel de origen tiene un texto enriquecido en la celda A1. Tiene 3 porciones y cada porción tiene una fuente diferente. El siguiente fragmento de código accede a estas partes y actualiza la primera parte con un nuevo nombre de fuente. Finalmente, guarda el libro de trabajo como[archivo de excel de salida](5112366.xlsx). Cuando lo abras, encontrarás que la fuente de la primera parte del texto ha cambiado a *"Arial"**.
+El siguiente código demuestra el uso del método [**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) y [**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) utilizando el [archivo de Excel fuente](5112369.xlsx) que puedes descargar desde el enlace proporcionado. El archivo de Excel fuente tiene un texto enriquecido en la celda A1. Tiene 3 porciones y cada porción tiene una fuente diferente. El siguiente fragmento de código accede a estas porciones y actualiza la primera porción con un nuevo nombre de fuente. Finalmente, guarda el libro de trabajo como [archivo de Excel de salida](5112366.xlsx). Cuando lo abras, verás que la fuente de la primera porción del texto se ha cambiado a 'Arial'.
 
-###  Código C# para acceder y actualizar las porciones de Texto enriquecido de Cell
+### Código C# para acceder y actualizar las partes del Texto Enriquecido de la Celda
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UpdateRichTextCells-1.cs" >}}
 
-### Salida de consola generada por el código de muestra
+### Salida de consola generada por el código de ejemplo
 
- Aquí está la salida de consola del código de muestra anterior usando el[archivo excel fuente](5112369.xlsx).
+Aquí está la salida de la consola del código de ejemplo anterior utilizando el [archivo de Excel fuente](5112369.xlsx).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Before updating the font settings....
 

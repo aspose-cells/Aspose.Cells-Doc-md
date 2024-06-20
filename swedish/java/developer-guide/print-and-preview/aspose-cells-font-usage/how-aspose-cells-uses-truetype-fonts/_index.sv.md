@@ -1,54 +1,55 @@
-﻿---
-title: Hur Aspose.Cells använder TrueType-teckensnitt
+---
+title: Hur Aspose.Cells använder TrueType typsnitt
 type: docs
 weight: 10
 url: /sv/java/how-aspose-cells-uses-truetype-fonts/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells kräver TrueType-teckensnitt vid rendering av kalkylblad till format som PDF, XPS och bilder.
+Aspose.Cells kräver TrueType-typsnitt när du renderar kalkylblad till format som PDF, XPS och bilder.
 
-När Aspose.Cells renderar ett kalkylark kräver det åtkomst till TrueType-teckensnitten som används i kalkylarket. Detta är en normal praxis under PDF, XPS och bildgenerering och säkerställer att det konverterade dokumentet eller bilden ser identisk ut för alla tittare.
+När Aspose.Cells renderar ett kalkylblad krävs åtkomst till de TrueType-typsnitt som används i kalkylbladet. Detta är en vanlig praxis vid generering av PDF, XPS och bilder och säkerställer att det konverterade dokumentet eller bilden ser identisk ut för alla användare.
 
 {{% /alert %}}
 
-## **Om teckensnitt**
+## **Om Typsnitt**
 
-### **Tillgänglighet och ersättning av teckensnitt**
+### **Tillgänglighet och ersättning av typsnitt**
 
-Ett kalkylblad kan formateras med olika typsnitt som Arial, Times New Roman, Verdana och andra. När Aspose.Cells renderar ett kalkylblad försöker det välja de teckensnitt som används i kalkylarket. Det finns dock situationer då det exakta typsnittet kanske inte är tillgängligt så Aspose.Cells måste ersätta ett liknande typsnitt istället.
+Ett kalkylblad kan formateras med olika typsnitt som Arial, Times New Roman, Verdana och andra. När Aspose.Cells renderar ett kalkylblad försöker det välja de typsnitt som används i kalkylbladet. Det kan dock finnas situationer där det exakta typsnittet inte finns tillgängligt och då måste Aspose.Cells använda ett liknande typsnitt istället.
 
-Nedan följer processen som Aspose.Cells följer bakom scenen.
+Nedan är processen som Aspose.Cells följer bakom kulisserna.
 
-1. Aspose.Cells försöker hitta typsnitten i filsystemet som matchar det exakta teckensnittsnamnet som används i kalkylarket.
-1. Om Aspose.Cells inte kan hitta teckensnitt med exakt samma namn, försöker den använda standardteckensnittet som anges under arbetsbokens egenskap DefaultStyle.Font.
-1. Om Aspose.Cells inte kan hitta teckensnittet som definierats under arbetsbokens egenskap DefaultStyle.Font, försöker den välja de mest lämpliga typsnitten från alla tillgängliga teckensnitt.
-1. Slutligen, om Aspose.Cells inte kan hitta några teckensnitt i filsystemet, renderar den kalkylarket med Arial.
+1. Aspose.Cells försöker hitta typsnitten på filsystemet som matchar det exakta typsnittsnamnet som används i kalkylbladet.
+1. Om Aspose.Cells inte kan hitta typsnitt med exakt samma namn försöker den använda standardtypsnittet som anges under arbetsbokens DefaultStyle.Font-egenskap.
+1. Om Aspose.Cells inte hittar det definierade typsnittet under arbetsbokens DefaultStyle.Font-egenskap försöker den välja de mest lämpliga typsnitten bland alla tillgängliga typsnitt.
+1. Slutligen, om Aspose.Cells inte hittar några typsnitt på filsystemet renderar den kalkylbladet med Arial.
 
-### **Där Aspose.Cells letar efter teckensnitt**
+### **Var Aspose.Cells letar efter typsnitt**
 
-Aspose.Cells försöker automatiskt hitta TrueType-teckensnitt i filsystemet. För det mesta kan du lita på Aspose.Cell:s standardbeteende för att hitta TrueType-teckensnitt, men ibland kan du behöva ange mappar som innehåller TrueType-teckensnitten med FontConfigs.setFontFolder-fabriksmetoden.
+Aspose.Cells försöker automatiskt hitta TrueType-typsnitt på filsystemet. I de flesta fall kan du lita på Aspose.Cells standardbeteende för att hitta TrueType-typsnitt, men ibland kan du behöva ange mappar som innehåller TrueType-typsnitt med hjälp av FontConfigs.setFontFolder-metoden.
 
-### **Typiska teckensnittsrelaterade problem och lösningar**
+### **Vanliga typsnittrelaterade problem och lösningar**
 
-Den här tabellen listar några av de problem som du kan stöta på när du renderar kalkylblad till PDF med Aspose.Cells och deras lösningar.
+Den här tabellen listar några av de problem som du kan stöta på vid rendering av kalkylblad till PDF med Aspose.Cells och deras lösningar.
 
 {{% alert color="primary" %}}
 
- Tänk på när du kopierar teckensnitt att de flesta typsnitt är upphovsrättsskyddade. Leta först upp licensen för ett teckensnitt i förväg och kontrollera att de fritt kan överföras till en annan dator.
+Kom ihåg att de flesta typsnitt är upphovsrättsskyddade när du kopierar några typsnitt. Hitta licensen för typsnittet i förväg och se till att de kan överföras fritt till en annan dator. 
 
 {{% /alert %}}
 
-|**Problem** |**Anledning** |**Lösning** |
-|:- |:- |:- |
-| Layouten och teckensnitten i det renderade dokumentet skiljer sig från originalet.| Du använder Aspose.Cells på Linux eller Mac OS där TureType-teckensnitt inte finns som standard så Aspose.Cells kan inte hitta teckensnitt på din dator.|Kopiera TrueType-teckensnittsfiler från en Windows-maskin eller installera ett TrueType-teckensnittspaket. Använd FontConfigs.setFontFolder fabriksmetoden för att ange platsen för teckensnittsfilerna.|
+|**Problem** |**Orsak** |**Lösning** |
+| :- | :- | :- |
+|Layouten och typsnitten i det renderade dokumentet skiljer sig från originalet. |Du använder Aspose.Cells på Linux eller Mac OS där TureType-typsnitt inte finns som standard, så Aspose.Cells kan inte hitta typsnitt på din dator. |Kopiera TrueType-typsnittsfiler från en Windows-dator eller installera ett TrueType-typsnittspaket. Använd FontConfigs.setFontFolder-metoden för att ange platsen för typsnittsfilerna. |
 
 {{% alert color="primary" %}}
 
-Kontrollera de detaljerade artiklarna om
+Kontrollera de detaljerade artiklarna på
 
-- [Hur man placerar TrueType-teckensnitt på Linux](/cells/sv/java/how-to-install-truetype-fonts-on-linux/).
-- [Så här anger du TrueType-teckensnittsplats](/cells/sv/java/how-to-specify-truetype-fonts-location/).
-- [Hur man får varningar när teckensnittsersättning sker](/cells/sv/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
+- [Hur du placerar TrueType-typsnitt på Linux](/cells/sv/java/how-to-install-truetype-fonts-on-linux/).
+- [Hur du specifierar platsen för TrueType-typsnitt](/cells/sv/java/how-to-specify-truetype-fonts-location/).
+- [Hur du får varningar när typsnittsersättning inträffar](/cells/sv/java/get-warnings-for-font-substitution-while-rendering-excel-file/)
 
 {{% /alert %}}

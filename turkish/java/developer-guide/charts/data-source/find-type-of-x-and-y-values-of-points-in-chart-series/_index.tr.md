@@ -1,24 +1,25 @@
-﻿---
-title: Grafik Serisindeki Noktaların X ve Y Değerlerinin Türünü Bulma
+---
+title: Grafik Serisindeki X ve Y Değerleri Türünü Bul
 type: docs
 weight: 110
 url: /tr/java/find-type-of-x-and-y-values-of-points-in-chart-series/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Bazen bir dizideki grafik noktalarının X ve Y değerlerinin türünü bilmek istersiniz. Aspose.Cells sağlar[**ChartPoint.XValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#XValueType)ve[**ChartPoint.YValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#YValueType)Bu amaçla kullanılabilecek özellikler. Lütfen dikkat, aramanız gerekecek[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()) yöntemi, bu özellikleri etkin bir şekilde kullanabilmeniz için.
+Bazı durumlarda, bir serideki grafik noktalarının X ve Y değerlerinin türünü bilmek isteyebilirsiniz. Aspose.Cells, bu amaçla kullanılabilecek [**ChartPoint.XValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#XValueType) ve [**ChartPoint.YValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#YValueType) özelliklerini sağlar. Lütfen unutmayın, bu özellikleri etkili bir şekilde kullanmadan önce [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate--) metodunu çağırmanız gerekecektir.
 
-## **Grafik Serisindeki Noktaların X ve Y Değerlerinin Türünü Bulma**
+## **Grafik Serisindeki X ve Y Değerleri Türünü Bul**
 
-Aşağıdaki örnek kod,[örnek excel dosyası](64716920.xlsx)ve ilk çalışma sayfasındaki ilk grafiğe erişir. Daha sonra çağırır[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()yöntemini kullanır ve ilk grafik noktasının X ve Y değerlerinin türünü bulur ve bunları konsolda yazdırır. Lütfen referans için aşağıda gösterilen konsol çıktısına bakın.
+Aşağıdaki örnek kod, [örnek Excel dosyasını](64716920.xlsx) yükler ve ilk çalışsayfadaki ilk grafiğe erişir. Ardından [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate--) metodunu çağırır ve ilk grafik noktasının X ve Y değerlerinin türünü bulur ve bunları konsola yazdırır. Lütfen bir referans için aşağıdaki konsol çıktısını görün.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-FindTypeOfXandYValuesOfPointsInChartSeries.java" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 X Value Type: IsString
 

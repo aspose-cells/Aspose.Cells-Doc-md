@@ -1,27 +1,28 @@
-﻿---
-title: كشف نوع الارتباط التشعبي
+---
+title: اكتشاف نوع الرابط الفائق
 type: docs
 weight: 180
 url: /ar/java/detect-hyperlink-type/
 ---
-## **كشف نوع الارتباط التشعبي**
 
-يمكن أن يحتوي ملف Excel على أنواع مختلفة من الارتباطات التشعبية مثل الارتباطات التشعبية الخارجية ، ومرجع الخلية ، ومسار الملف ، وما إلى ذلك. يدعم Aspose.Cells الميزة لاكتشاف نوع الارتباط التشعبي. يتم تمثيل أنواع الارتباطات التشعبية بواسطة ملف[**نوع الهدف**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)تعداد. ال[**نوع الهدف**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)التعداد له الأعضاء التالية أسماؤهم.
+## **اكتشاف نوع الرابط الفائق**
 
-- [**خارجي**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): رابط خارجي
-- [**مسار الملف**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): المسار المحلي والكامل للملفات \ المجلدات.
-- [**البريد الإلكتروني**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): بريد إلكتروني
-- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): ارتباط بالخلية أو النطاق المسمى.
+ملف Excel يمكن أن يحتوي على أنواع مختلفة من الروابط الفائقة مثل الروابط الخارجية، مراجع الخلية، مسارات الملفات، وما إلى ذلك. يدعم Aspose.Cells ميزة اكتشاف نوع الرابط الفائق. يتمثل أنواع الروابط الفائقة في تمثيلات الإحصاءات [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). وتحتوي تمثيلات الإحصاءات [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) على الأعضاء التالية.
 
-للتحقق من نوع الارتباط التشعبي ، يجب أن يكون ملف[**ارتباط تشعبي**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) فئة توفر أ[**نوع الرابط**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) مع نوع إرجاع[**نوع الهدف**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). يوضح مقتطف الشفرة التالي استخدام ملف[**نوع الرابط**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)الملكية باستخدام هذا[ملف اكسل المصدر](LinkTypes.xlsx).
+- [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): رابط خارجي
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): الطريق المحلية والمسار الكامل إلى الملفات\المجلدات.
+- [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): بريد إلكتروني
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): الرابط إلى خلية أو نطاق مسمى.
 
-## مصدر الرمز
+للتحقق من نوع الارتباط التشعبي، توفر فئة [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) خاصية [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) بنوع عودة [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). يظهر الكود البرمجي التالي استخدام الخاصية [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) باستخدام هذا [ملف إكسل المصدر](LinkTypes.xlsx).
+
+## كود المصدر
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-DetectLinkTypes-1.java" >}}
 
-التالي هو الناتج الناتج عن مقتطف الشفرة الوارد أعلاه.
+الناتج التالي الذي تم إنشاؤه بواسطة مقتطف الكود أعلاه.
 
-## إخراج وحدة التحكم
+## مخرج الكونسول
 ```
 LinkTypes.xlsx: FILE_PATH </br>
 C:\Windows\System32\cmd.exe: FILE_PATH </br>

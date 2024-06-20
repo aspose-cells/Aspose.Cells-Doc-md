@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sorgular ve Bağlantılar
 linktitle: Sorgular ve Bağlantılar
 type: docs

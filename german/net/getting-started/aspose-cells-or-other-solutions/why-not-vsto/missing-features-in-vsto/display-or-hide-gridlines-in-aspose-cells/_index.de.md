@@ -1,38 +1,39 @@
-﻿---
-title: Gitternetzlinien anzeigen oder ausblenden in Aspose.Cells
+---
+title: Rastlinien anzeigen oder ausblenden in Aspose.Cells
 type: docs
 weight: 50
 url: /de/net/display-or-hide-gridlines-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Alle Excel-Arbeitsblätter haben standardmäßig Gitternetzlinien. Sie helfen dabei, Zellen abzugrenzen, sodass es einfach ist, Daten in bestimmte Zellen einzugeben. Gitternetzlinien ermöglichen es uns, ein Arbeitsblatt als eine Sammlung von Zellen anzuzeigen, wobei jede Zelle leicht identifizierbar ist.
+Alle Excel-Arbeitsblätter haben standardmäßig Rastlinien. Sie helfen dabei, Zellen abzugrenzen, sodass es einfach ist, Daten in bestimmte Zellen einzugeben. Rastlinien ermöglichen es uns, ein Arbeitsblatt als Sammlung von Zellen zu betrachten, in der jede Zelle leicht identifizierbar ist.
 
 {{% /alert %}}
 
-## **Steuern der Sichtbarkeit der Gitternetzlinien**
+## **Steuerung der Sichtbarkeit der Rastlinien**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
+Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), die eine Microsoft Excel-Datei darstellt. Die Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) enthält eine [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
 
- Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten eines Arbeitsblatts. Um die Sichtbarkeit von Gitternetzlinien zu steuern, verwenden Sie die[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse'[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) Eigentum.[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) ist eine boolesche Eigenschaft, was bedeutet, dass sie nur a speichern kann**wahr** oder**FALSCH** Wert.
+Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) repräsentiert. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung eines Arbeitsblatts. Um die Sichtbarkeit von Gitternetzlinien zu steuern, verwenden Sie die Eigenschaft [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) der Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) ist eine boolesche Eigenschaft, was bedeutet, dass sie nur einen **true** oder **false** Wert speichern kann.
 
- Nachfolgend finden Sie ein vollständiges Beispiel, das die Verwendung von demonstriert[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) Eigentum der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse, um die Gitternetzlinien des ersten Arbeitsblatts der Excel-Datei auszublenden.
+Ein vollständiges Beispiel unten zeigt die Verwendung der Eigenschaft [**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) der Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet), um die Gitternetzlinien des ersten Arbeitsblatts der Excel-Datei zu verbergen.
 
-Im Screenshot unten sehen Sie, dass die Datei Book1.xls drei Arbeitsblätter enthält: Sheet1, Sheet2 und Sheet3. Alle Arbeitsblätter haben Gitterlinien.
+Im folgenden Screenshot ist zu sehen, dass die Datei Book1.xls drei Arbeitsblätter enthält: Sheet1, Sheet2 und Sheet3. Alle Arbeitsblätter haben Gitternetzlinien.
 
 **Book1.xls: Arbeitsblattansicht vor der Änderung** 
 
-![todo: Bild_alt_Text](display-or-hide-gridlines-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-gridlines-in-aspose-cells_1.png)
 
-Die Datei Book1.xls wird mithilfe der Workbook-Klasse geöffnet, und die Gitternetzlinien auf dem ersten Arbeitsblatt werden ausgeblendet. Die geänderte Datei wird als output.xls gespeichert.
+Die Datei Book1.xls wird mithilfe der Workbook-Klasse geöffnet und die Gitternetzlinien auf dem ersten Arbeitsblatt werden ausgeblendet. Die geänderte Datei wird als output.xls gespeichert.
 
 **Output.xls: Arbeitsblatt nach der Änderung** 
 
-![todo: Bild_alt_Text](display-or-hide-gridlines-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-gridlines-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -62,7 +63,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Gridlines)
 

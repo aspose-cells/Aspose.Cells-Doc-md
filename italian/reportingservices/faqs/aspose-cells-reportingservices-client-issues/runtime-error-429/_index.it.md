@@ -1,50 +1,51 @@
-﻿---
-title: Errore di runtime 429
+---
+title: Errore di run time 429
 type: docs
 weight: 60
 url: /it/reportingservices/runtime-error-429/
 ---
+
 ##### **Descrizione**
- Errore di runtime: '429'
- Il componente ActiveX non può creare l'oggetto
- La riga che causa l'errore è:
- Impostare AsposeClientTools = CreateObject("Aspose.Cells.ReportingServices.Client.AsposeClient").
+Errore di runtime: '429' 
+Impossibile creare l'oggetto componente ActiveX 
+La riga che causa l'errore è: 
+Set AsposeClientTools = CreateObject("Aspose.Cells.ReportingServices.Client.AsposeClient"). 
 ##### **Soluzione**
 {{% alert color="primary" %}} 
 
- Registrati di nuovo**Aspose.Cells.ReportingServices.Client.dll** usando il**Regasm.exe** utilità:
+Ri-registra **Aspose.Cells.ReportingServices.Client.dll** utilizzando l'utilità **Regasm.exe**: 
 
-1. Eseguire cmd.exe come amministratore.
-1. cd $(Aspose.Cells for Reporting Services cartella di installazione).
-1.  Eseguire**regasm.exe** registrare**Aspose.Cells.ReportingServices.Client.dll** manualmente.
+1. Esegui cmd.exe come amministratore.
+1. cd $(Aspose.Cells for Reporting Services installation folder).
+1. Esegui **regasm.exe** per registrare manualmente **Aspose.Cells.ReportingServices.Client.dll**. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  ...%WINDIR%\Microsoft.NET\Framework\v2.0.50727\regasm  Aspose.Cells.ReportingServices.Client.dll  /tlb Aspose.Cells.ReportingServices.Client.tlb /codebase
 
 {{< /highlight >}}
 
- Controlla l'ambiente in esecuzione per il tuo sistema. Per esempio:
+Si prega di verificare l'ambiente di esecuzione per il tuo sistema. Ad esempio: 
 
--  Se il tuo Microsoft Office è x64, esegui il comando
+- Se il tuo Microsoft Office è x64, esegui il comando 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  @: ...%WINDIR%\Microsoft.NET\Framework64\v2.0.50727\regasm.exe
 
 {{< /highlight >}}
 
--  Se il tuo Office Microsoft è x86, esegui il comando
+- Se il tuo Microsoft Office è x86, esegui il comando 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  @: ...%WINDIR%\Microsoft.NET\Framework\v2.0.50727\regasm.exe
 
 {{< /highlight >}}
 
-Fare riferimento al seguente esempio/comando:
+Si prega di fare riferimento all'esempio/comando seguente:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  ...%WINDIR%\Microsoft.NET\Framework\v2.0.50727\regasm "C:\Program Files (x86)\Aspose\Aspose.Cells for Reporting Services\Bin\Aspose.Cells.ReportingServices.Client.dll" /tlb Aspose.Cells.ReportingServices.Client.tlb /codebase 
 

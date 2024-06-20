@@ -1,6 +1,7 @@
-﻿---
-title: تقديم وطباعة ومعاينة
+---
+title: التقديم، الطباعة والمعاينة
 type: docs
 weight: 56
 url: /ar/java/rendering/
 ---
+

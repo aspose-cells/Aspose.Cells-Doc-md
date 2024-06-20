@@ -1,16 +1,17 @@
-﻿---
-title: Hitta och uppdatera pivottabellerna för kapslade eller barn i överordnade pivottabeller
+---
+title: Hitta och uppdatera de inbäddade eller underordnade pivottabellerna i föräldrapivottabellen
 type: docs
 weight: 50
 url: /sv/java/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/
 ---
-## **Möjliga användningsscenarier**
 
-Ibland använder en pivottabell en annan pivottabell som datakälla, så den kallas en underordnad pivottabell eller kapslad pivottabell. Du kan hitta de underordnade pivottabellerna för en överordnad pivottabell med hjälp av[**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren()) metod.
+## **Möjliga användningsscenario**
 
-## **Hitta och uppdatera pivottabellerna för kapslade eller barn i överordnade pivottabeller**
+Ibland använder en pivottabell en annan pivottabell som datakälla, så det kallas en underordnad pivottabell eller inbäddad pivottabell. Du kan hitta de underordnade pivottablerna i en föräldrapivottabell med hjälp av [**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren--) metoden.
 
-Följande exempelkod laddar[exempel på Excel-fil](61767766.xlsx)som innehåller tre pivottabeller. De två nedre pivottabellerna är underordnade av ovanstående pivottabell som visas i den här skärmdumpen. Koden hittar pivottabellen för barn med hjälp av[**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren()) och uppdaterar dem sedan en efter en.
+## **Hitta och uppdatera de inbäddade eller underordnade pivottabellerna i föräldrapivottabellen**
+
+Följande kodexempel laddar [provexfilsnamn](61767766.xlsx) som innehåller tre pivot-tabeller. De nedre två pivot-tabellerna är barnen till ovanstående pivot-tabell som visas i denna skärmdump. Koden hittar barnpivot-tabellen med hjälp av [**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren--) metoden och uppdaterar dem en efter en.
 
 ![todo:image_alt_text](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
 

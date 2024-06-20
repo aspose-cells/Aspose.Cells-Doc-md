@@ -1,23 +1,24 @@
-﻿---
-title: Creación de un rango con nombre en VSTO y Aspose.Cells
+---
+title: Creando un rango con nombre en VSTO y Aspose.Cells
 type: docs
 weight: 90
 url: /es/net/creating-a-named-range-in-vsto-and-aspose-cells/
 ---
+
 Para crear un rango con nombre:
 
-1.  Configure la hoja de trabajo:
- 1. Cree una instancia de un objeto de aplicación (solo VSTO).
- 1. Agregue un libro de trabajo.
- 1. Obtenga la primera hoja.
-1.  Crear un rango con nombre:
- 1. Defina un rango.
- 1. Asigne un nombre al rango.
- 1. Guarde el archivo.
+1. Configurar la hoja de cálculo: 
+   1. Instanciar un objeto de aplicación. (Solo VSTO)
+   1. Agregar un libro.
+   1. Obtener la primera hoja.
+1. Crear un rango con nombre: 
+   1. Definir un rango.
+   1. Nombrar el rango.
+   1. Guarde el archivo.
 
 Los ejemplos de código a continuación muestran cómo realizar estos pasos usando VSTO con C#. Los ejemplos de código que siguen muestran cómo hacer lo mismo usando Aspose.Cells for .NET, nuevamente con C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create Excel Object
 
@@ -63,25 +64,25 @@ xl.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- // Instanciando un objeto Workbook
+ //Instantiating a Workbook object
 
-Libro de trabajo libro de trabajo = nuevo libro de trabajo ();
+Workbook workbook = new Workbook();
 
-//Accediendo a la primera hoja de trabajo en el archivo de Excel
+//Accessing the first worksheet in the Excel file
 
-Hoja de trabajo hoja de trabajo = libro de trabajo.Hojas de trabajo[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Creando un rango con nombre
+//Creating a named range
 
-Rango rango = hoja de trabajo.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Establecer el nombre del rango con nombre
+//Setting the name of the named range
 
-rango.Nombre = "Rango_Prueba";
+range.Name = "Test_Range";
 
- para (int fila = 0; fila< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 
@@ -101,7 +102,7 @@ workbook.Save("Test_Range.xls");
 
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
-- [forjafuente](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/descargar)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).Código Postal)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip)

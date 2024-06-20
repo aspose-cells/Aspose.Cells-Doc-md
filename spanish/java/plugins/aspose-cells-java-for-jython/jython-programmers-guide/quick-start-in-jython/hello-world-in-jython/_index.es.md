@@ -1,15 +1,16 @@
-﻿---
-title: Hello World en Jython
+---
+title: Hola Mundo en Jython
 type: docs
 weight: 10
 url: /es/java/hello-world-in-jython/
 ---
+
 ## **Aspose.Cells - Hello World**
- Para anexar documentos usando**Aspose.Cells Java para Jython**. Aquí puedes ver el código de ejemplo.
+Para agregar documentos usando **Aspose.Cells Java for Jython**. Aquí puedes ver código de ejemplo.
 
 **Código Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from asposewords import Settings
 
@@ -56,7 +57,7 @@ if __name__ == '__main__':
     HelloWorld()
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Adjuntar Documentos (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Agregar documentos (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/quickstart/HelloWorld.py)

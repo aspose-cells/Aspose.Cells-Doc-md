@@ -1,26 +1,27 @@
-﻿---
-title: 書式設定あり/なしで Cell 文字列値を取得する
+---
+title: 書式設定ありおよびなしでセル文字列の値を取得
 type: docs
 weight: 230
 url: /ja/java/get-cell-string-value-with-and-without-formatting/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells はメソッドを提供します[Cell.getStringValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\) を使用して、書式設定の有無にかかわらず、セルの文字列値を取得できます。値が 0.012345 のセルがあり、小数点以下 2 桁のみを表示するように書式設定したとします。 Excel では 0.01 と表示されます。を使用して、文字列値を 0.01 と 0.012345 の両方として取得できます。[Cell.getStringValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\) ） 方法。それはとります[CellValueFormat戦略](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueFormatStrategy)次の値を持つパラメーターとしての列挙型
+Aspose.Cellsは、[Cell.getStringValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\))メソッドを提供しており、これを使用してセルの文字列値を書式設定ありまたはなしで取得できます。たとえば、値が0.012345のセルを持っていて、それを小数点以下2桁のみを表示するように書式設定したとします。その場合、Excelでは0.01として表示されます。[Cell.getStringValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\)) メソッドを使用して0.01および0.012345の両方の文字列値を取得できます。[CellValueFormatStrategy](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueFormatStrategy)列挙型をパラメータとして受け取り、次の値があります。
 
 - [CellValueFormatStrategy.CELL_STYLE](https://reference.aspose.com/cells/java/com.aspose.cells/cellvalueformatstrategy#CELL_STYLE)
 - [CellValueFormatStrategy.DISPLAY_STYLE](https://reference.aspose.com/cells/java/com.aspose.cells/cellvalueformatstrategy#DISPLAY_STYLE)
 - [CellValueFormatStrategy.NONE](https://reference.aspose.com/cells/java/com.aspose.cells/cellvalueformatstrategy#NONE)
 
 {{% /alert %}} 
-## **書式設定あり/なしで Cell 文字列値を取得する**
-次のサンプル コードは、[Cell.getStringValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\)） 方法。
+## **書式設定ありおよびなしでセル文字列の値を取得**
+次のサンプルコードは、[Cell.getStringValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\)) メソッドの使用方法を説明しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetCellStringValue-GetCellStringValue.java" >}}
 ## **コンソール出力**
-以下は、上記のサンプル コードのコンソール出力です。
+上記のサンプルコードのコンソール出力は以下の通りです。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0.01
 

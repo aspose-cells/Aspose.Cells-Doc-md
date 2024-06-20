@@ -1,22 +1,23 @@
-﻿---
-title: PHP'de Satırları ve Sütunları Kopyalamak
+---
+title: PHP de Satırları ve Sütunları Kopyalama
 type: docs
 weight: 30
 url: /tr/java/copying-rows-and-columns-in-php/
 ---
-## **Aspose.Cells - Satırları ve Sütunları Kopyalama**
+
+## **Aspose.Cells - Satır ve Sütunları Kopyalama**
 ### **Satırları Kopyalama**
-Aspose.Cells, Cells sınıfının copyRow yöntemini sağlar. Bu yöntem, formüller, değerler, yorumlar, hücre formatları, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kaynak satırdan hedef satıra kopyalar.
+Aspose.Cells, Cells sınıfının copyRow yöntemini sağlar. Bu yöntem, kaynak satırdan hedef satıra formüller, değerler, yorumlar, hücre biçimleri, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kopyalar.
 
 copyRow yöntemi aşağıdaki parametreleri alır:
 
 - kaynak Cells nesnesi,
-- kaynak satır dizini ve
+- kaynak satır dizini, ve
 - hedef satır dizini.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_rows($dataDir)
 
@@ -46,17 +47,17 @@ copyRow yöntemi aşağıdaki parametreleri alır:
 
 {{< /highlight >}}
 ### **Sütunları Kopyalama**
-Aspose.Cells, Cells sınıfının copyColumn yöntemini sağlar; bu yöntem, güncellenmiş referanslarla formüller ve değerler, yorumlar, hücre biçimleri, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kaynak sütundan hedef sütuna kopyalar.
+Aspose.Cells, Cells sınıfının copyColumn yöntemini sağlar; bu yöntem, formüllerle güncellenmiş referanslar ve değerler, yorumlar, hücre biçimleri, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kopyalar.
 
 copyColumn yöntemi aşağıdaki parametreleri alır:
 
 - kaynak Cells nesnesi,
-- kaynak sütun dizini ve
-- hedef sütun dizini.
+- kaynak sütun indeksi ve
+- hedef sütun indeksi.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_columns($dataDir)
 
@@ -125,6 +126,6 @@ copyColumn yöntemi aşağıdaki parametreleri alır:
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Satırları ve Sütunları Kopyalama (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıdaki sosyal kodlama sitelerinden **Satırları ve Sütunları Kopyalama (Aspose.Cells)** dosyasını indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

@@ -1,15 +1,16 @@
-﻿---
-title: マージ Cells
+---
+title: セルをマージする
 type: docs
 weight: 60
 url: /ja/java/merge-cells/
 ---
-## **Aspose.Cells - マージ Cells**
-Cells クラスには、タスクに役立つメソッドがいくつかあります。たとえば、merge メソッドは、指定されたセル範囲内のセルを 1 つのセルに結合します。
+
+## **Aspose.Cells - セルをマージする**
+Cellsクラスには、そのタスクに便利ないくつかのメソッドがあります。たとえば、mergeメソッドは、セルを指定されたセルの範囲内で1つのセルにマージします。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a Workbook.
 
@@ -36,12 +37,12 @@ worksheet.getCells().get(5,2).setValue("This is a test of merging");
 wbk.save(dataDir + "merge_Aspose.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - マージ Cells**
-Sheet.addMergedRegion を使用して Cells をマージできます。
+## **Apache POI SS - HSSF XSSF - セルをマージする**
+Sheet.addMergedRegionを使用してセルをマージすることができます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -66,13 +67,13 @@ sheet.addMergedRegion(new CellRangeAddress(
 ));
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/mergecells)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[マージとアンマージ (分割) Cells](/cells/ja/java/merging-and-unmerging-cells).
+詳細については、[セルのマージおよび非マージ（分割）](/cells/ja/java/merging-and-unmerging-cells)を参照してください。
 
 {{% /alert %}}

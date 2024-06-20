@@ -1,73 +1,75 @@
-﻿---
-title: Aspose Cells ila NuGet'i yükleyin
+---
+title: NuGet aracılığıyla Aspose Cells i yükleyin
 type: docs
 weight: 30
 url: /tr/net/installation/
 ---
-## **Aspose.Cells for .NET ila NuGet'i yükleyin**
-NuGet, Aspose API'lerini for .NET indirip kurmanın en kolay yoludur. Microsoft Visual Studio'yu ve NuGet paket yöneticisini açın. İstediğiniz Aspose API'i bulmak için "aspose" araması yapın. "Yükle"ye tıklayın, seçilen API indirilecek ve projenizde referans gösterilecektir.
 
-Not: Daha fazla bilgi için aspose.cells için nuget web sayfasını ziyaret edebilirsiniz:
-[Aspose.Cells for .NET NuGet Paket](https://www.nuget.org/packages/Aspose.Cells/)
 
-### **Paket Yöneticisi GUI'sini kullanarak Aspose.Cells'i kurun**
-Paket yöneticisi GUI'sini kullanarak Aspose.Cells bileşenine başvurmak için şu adımları izleyin:
+## **Aspose.Cells for .NET'yi NuGet aracılığıyla yükleyin**
+.NET için Aspose API'lerini indirmek ve yüklemek için NuGet en kolay yöntemdir. Microsoft Visual Studio'yu açın ve NuGet paket yöneticisine erişin. Arama kutusuna "aspose" yazarak istediğiniz Aspose API'sini bulun. "Yükle" ye tıklayarak seçilen API indirilir ve projenize referans olarak eklenir.
 
-- Çözümünüzü/projenizi Visual Studio'da açın.
-- Tıklamak**Araçlar** -> **Kitaplık Paket Yöneticisi** -> **NuGet Paketlerini Yönet**Solution'dan. Aynı seçeneğe Çözüm Gezgini aracılığıyla da kolayca erişebilirsiniz. Çözüme veya projeye sağ tıklayın ve seçin**NuGet Paketlerini Yönet**bağlam menüsünden.
-- Seçme**İnternet üzerinden**Aspose.Cells .NET paketini bulmak için soldaki menüden arama metin kutusuna "Aspose.Cells" yazın.
-- Tıkla**Düzenlemek**projenize en son sürümü yüklemek için Aspose.Cells for .NET girişinin yanındaki düğme.
-### **Paket Yöneticisi Konsolunu kullanarak Aspose.Cells'i kurun**
-Paket yöneticisi konsolunu kullanarak Aspose.Cells bileşenine başvurmak için aşağıdaki adımları takip edebilirsiniz:
+Not: Daha fazla bilgi için aspose.cells için nuget web sayfasını ziyaret edebilirsiniz: 
+[Aspose.Cells for .NET NuGet Paketi](https://www.nuget.org/packages/Aspose.Cells/)
+
+### **Paket Yöneticisi GUI kullanarak Aspose.Cells'i yükleyin**
+Paket yöneticisi GUI kullanarak Aspose.Cells bileşenine referans vermek için aşağıdaki adımları izleyin:
 
 - Çözümünüzü/projenizi Visual Studio'da açın.
-- Seçme**Araçlar** -> **Kitaplık Paket Yöneticisi** -> **Paket Yöneticisi Konsolu**menüden paket yöneticisi konsolunu açmak için.
- Uygulamanıza en son tam sürümü yüklemek için “Install-Package Aspose.Cells” komutunu yazın ve enter tuşuna basın. Alternatif olarak, düzeltmeleri içeren en son sürümün de kurulacağını belirtmek için komuta "-prerelease" sonekini ekleyebilirsiniz.
-- Pencerenin sol alt kısmında indirme işleminin devam ettiğini gösteren "İndiriliyor Aspose.Cells..." ipucunun göründüğünü göreceksiniz.
-- İndirdikten sonra aşağıdaki onay mesajlarını göreceksiniz. Aspose EULA'ya aşina değilseniz, URL'de atıfta bulunulan lisansı okumak iyi bir fikirdir.
-- Artık Aspose.Cells'in sizin için başvurunuza başarıyla eklendiğini ve başvuruda bulunduğunu görmelisiniz.
-## **Bir .NET Projesinden Aspose.Cells'e atıfta bulunulması**
-Aspose.Cells'i bir uygulamada kullanmak için ona bir referans ekleyin. Visual Studio'yu kullanarak bir referans eklemek için:
+- **Tools** -> **Library Package Manager** -> **Çözüm'den NuGet Paketleri Yönetin**'i tıklayın. Ayrıca aynı seçeneğe Solution Explorer'dan kolayca erişebilirsiniz. Çözüm veya projeyi sağ tıklayarak bağlam menüsünden **NuGet Paketleri Yönetin**'i seçin.
+- Sol taraftaki menüden **Çevrimiçi**'yi seçin ve Aspose.Cells .NET paketini bulmak için arama kutusuna “Aspose.Cells” yazın.
+- Aspose.Cells for .NET girişinin yanındaki **Yükle** düğmesine tıklayarak en son sürümünü projenize yükleyin.
+### **Paket Yöneticisi Konsolu kullanarak Aspose.Cells'i yükleyin**
+Paket Yöneticisi Konsolunu kullanarak Aspose.Cells bileşenine başvuruda bulunmak için aşağıdaki adımları izleyebilirsiniz:
 
-1.  İçinde**Çözüm Gezgini**, referans eklemek istediğiniz proje düğümünü genişletin.
-1.  sağ tıklayın**Referanslar** proje için düğüm ve seçin**Referans ekle** menüden.
-1.  İçinde**Referans ekle** iletişim kutusunda .NET sekmesini seçin (varsayılan olarak seçilidir). MSI yükleyicisini kullanarak yüklediyseniz, üst bölmede Aspose.Cells görünecektir.
-1.  Onu seçin ve tıklayın**Seçme**.
+- Çözümünüzü/projenizi Visual Studio'da açın.
+- Menüden **Tools** -> **Library Package Manager** -> **Paket Yöneticisi Konsolu**'nu seçerek paket yöneticisi konsolunu açın.
+  - “Install-Package Aspose.Cells” komutunu yazın ve uygulamanıza en son tam sürümü yüklemek için enter tuşuna basın. Ayrıca en son sürümdeki hata düzeltmelerini içeren en son sürümün yükleneceğini belirtmek için komuta "-prerelease" ekleyebilirsiniz.
+- İndirme işleminin olduğunu gösteren "Aspose.Cells indiriliyor..." ipucunu pencerenin sol alt köşesinde göreceksiniz.
+- İndirme tamamlandığında aşağıdaki onay mesajlarını göreceksiniz. Aspose EULA hakkında bilgi sahibi değilseniz, URL'de belirtilen lisansı okumanız iyi bir fikirdir.
+- Şimdi Aspose.Cells'in başarılı bir şekilde uygulamanıza eklendiğini ve referanslandığını göreceksiniz.
+## **.NET Projesinden Aspose.Cells Başvurmak**
+Bir uygulamada Aspose.Cells'i kullanmak için ona bir referans ekleyin. Visual Studio kullanarak bir referans eklemek için:
 
-Yalnızca DLL dosyasını indirdiyseniz veya paketini açtıysanız:
+1. **Solution Explorer**'da referans eklemek istediğiniz proje düğümünü genişletin.
+1. Projeye sağ tıklayarak **References** düğümünü seçin ve menüden **Add Reference**'ı seçin.
+1. **Add Reference** iletişim kutusunda .NET sekmesini (varsayılan olarak seçilmiş) seçin. Eğer MSI yükleyicisini kullanarak yüklediyseniz, Aspose.Cells üst pencerede görünecektir.
+1. Onu seçin ve **Select**'i tıklayın.
 
-1.  Aspose.Cells.dll dosyasını kullanarak bulun**Araştır** buton. Aspose.Cells görünmelidir**Seçilen Bileşenler** iletişim kutusunun bölmesi.
-1.  Tıklamak**Tamam** . Aspose.Cells referansı,**Referanslar** projenin düğümü.
-### **Bileşene bir VS.NET 2010 İstemci Profili projesinden başvuru**
-Projenizin Hedef çerçevesi .NET Framework 3.5/4 İstemci Profili ise, kurulum dizininizin net_ClientProfile klasöründe bulunan Aspose.Cells.dll bileşen dosyasını kullanın. Örneğin:
+Eğer yalnızca DLL'yi indirdiyseniz veya açtıysanız:
 
--  İçinde**Çözüm Gezgini** projeniz için VS.NET 2010, sağ tıklayın**Referanslar** ve seç**Referans ekle**.
--  seçin**Araştır** iletişim kutusunda sekmesine gidin ve Şunu ara açılır menüsüne tıklayın.
-- Kurulum dizininizde Aspose.Cells.dll bileşen dosyasını bulun ve seçin, örneğin: .../Program Files/Aspose/Aspose.Cells for .NET/Bin/net_ClientProfile/ **(Ürünü MSI yükleyicisini kullanarak makinenize kurduğunuzdan emin olun. .)**
--  Tıklamak**Tamam** iletişim kutusunu kapatmak için
+1. **Gözat** düğmesini kullanarak Aspose.Cells.dll dosyasını bulun. Aspose.Cells, iletişim kutusunun **Seçilen Bileşenler** bölümünde görünmelidir.
+1. **Tamam**'a tıklayın. Proje **Referanslar** düğümü altında Aspose.Cells referans gözükür.
+### **VS.NET 2010 İstemci Profili projesinden bileşenin referans gösterilmesi**
+Projenizin Hedef çerçevesi .NET Framework 3.5/4 İstemci Profili ise, kurulum dizininizdeki net_ClientProfile klasöründe bulunan Aspose.Cells.dll bileşen dosyasını kullanın. Örnek:
+
+- VS.NET 2010 **Çözüm Gezgini**'nde projeniz için **Referanslar** üzerine sağ tıklayın ve **Referans Ekle**'yi seçin.
+- İletişim kutusunda **Gözat** sekmesini seçin ve açılır menüden **Bul**'ü tıklayın.
+- Kurulum dizininizde Aspose.Cells.dll bileşen dosyasını bulun ve seçin, örneğin: .../Aspose/Aspose.Cells for .NET/Bin/net_ClientProfile/ **(Ürünü makinenize MSI yükleyicisi kullanarak kurduğunuzdan emin olun.)**
+- İletişim kutusunu kapatmak için **Tamam**'ı tıklayın.
 
 {{% alert color="primary" %}} 
 
-VS.NET 2010 projenizin hedef çerçevesi ".NET Çerçeve 4" veya başka ise, net4.0/net2.0 klasöründe bulunan Aspose.Cells.dll bileşen dosyasını kullanmanız yeterlidir.
+VS.NET 2010 projesinin hedef çerçevesi ".NET Framework 4" veya başka ise, net4.0/net2.0 klasöründe bulunan Aspose.Cells.dll bileşen dosyasını kullanın.
 
 {{% /alert %}} 
-## **Bir .NET projesinden Aspose.Cells Grid Controls referansı**
-Uygulamanızda bir kılavuz denetimi kullanmak için buna bir başvuru ekleyin. Visual Studio'da bir ızgara denetimine başvurmak için aşağıdakileri yapın:
+## **.NET projesinden Aspose.Cells Grid Kontrollerine referans verme**
+Uygulamanızda bir grid kontrolü kullanmak için ona bir referans ekleyin. Visual Studio'da bir grid kontrolüne referans vermek için aşağıdaki adımları uygulayın:
 
--  İçinde**Çözüm Gezgini**, referans eklemek istediğiniz proje düğümünü genişletin.
--  sağ tıklayın**Referanslar** proje için düğüm ve seçin**Referans ekle** menüden.
--  İçinde**Referans ekle** iletişim kutusunda,**.NET sekmesi** (varsayılan olarak seçilidir). Aspose.Cells for .NET'i yüklemek için MSI yükleyicisini kullandıysanız, üst bölmede Aspose.Cells.GridDesktop ve Aspose.Cells.GridWeb görünür.
--  Onları seçin ve tıklayın**Seçme**.
-- Aspose.Cells.GridDesktop ve Aspose.Cells.GridWeb referansları, projenin Referanslar düğümü altında görünür.
+- **Çözüm Gezgini**'nde, referans eklemek istediğiniz proje düğümünü genişletin.
+- **Proje** için **Referanslar** düğümüne sağ tıklayın ve menüden **Referans Ekle**'yi seçin.
+- **Referans Ekle** iletişim kutusunda **.NET sekmesi**'ni seçin (varsayılan olarak seçilidir). Aspose.Cells for .NET'yi yüklemek için MSI yükleyicisini kullandıysanız, Aspose.Cells.GridDesktop ve Aspose.Cells.GridWeb üst bölümde görünür.
+- Onları seçin ve **Seç**'i tıklayın.
+- Aspose.Cells.GridDesktop ve Aspose.Cells.GridWeb referansları proje **Referanslar** düğümü altında görünür.
 
-Yalnızca DLL dosyasını indirip paketinden çıkardıysanız:
+DLL dosyasını indirip açtıysanız:
 
--  Gözat düğmesini kullanarak Aspose.Cells.GridDesktop.dll ve Aspose.Cells.GridWeb.dll dosyalarını bulun. Aspose.Cells Grid Suite'e başvurulmuştur ve şu adreste görünmelidir:**Seçilen Bileşenler** iletişim kutusunun bölmesi.
--  Tıklamak**TAMAM.**
-## **Kaldırma Aspose.Cells for .NET**
-Aspose.Cells for .NET'i dağıtmak için MSI yükleyicisini kullandıysanız, bileşeni ve kontrolleri, ilgili demoları ve belgeleri tamamen kaldırmak için şu adımları izleyin:
+- Aspose.Cells.GridDesktop.dll ve Aspose.Cells.GridWeb.dll dosyalarını bulmak için **Gözat** düğmesini kullanın. Aspose.Cells Grid Suite referans gösterilmiş olmalı ve iletişim kutusunun **Seçilen Bileşenler** bölümünde görünmelidir.
+- **Tamam**'ı tıklayın.
+## **Aspose.Cells for .NET'nin Kaldırılması**
+Aspose.Cells for .NET'yi tamamen kaldırmak ve denetimlerin, ilgili demoların ve belgelerin ortadan kaldırılması için MSI yükleyicisini kullandıysanız, aşağıdaki adımları izleyin:
 
--  itibaren**Başlama** menü, seç**Ayarlar** , bunu takiben**Kontrol Paneli**.
--  Tıklamak**Program Ekle/Kaldır**.
-- Aspose.Cells for .NET'i (sürüm) seçin.
--  Tıklamak**Değiştir/Kaldır** Aspose.Cells'i kaldırmak için.
+- **Başlat** menüsünden, **Ayarlar**'ı, ardından **Denetim Masası**'nı seçin.
+- **Ekle/Kaldır Programlar**'ı tıklayın.
+- Aspose.Cells for .NET (sürüm)’ü seçin.
+- Aspose.Cells'ı kaldırmak için **Düzenle/Kaldır**'ı tıklayın.

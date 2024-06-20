@@ -1,47 +1,48 @@
-﻿---
-title: Pivot Tablolar ve Pivot Grafikler Oluşturun
+---
+title: Özet Tabloları ve Özet Grafikler Oluşturma
 type: docs
 weight: 20
 url: /tr/net/create-pivot-tables-and-pivot-charts/
 ---
+
 {{% alert color="primary" %}}
 
-Pivot tablo, kayıtların etkileşimli bir özetidir. Örneğin, bir çalışma sayfasındaki bir listede yüzlerce fatura girişiniz olabilir. Bir pivot tablo, faturaları müşteriye, ürüne veya tarihe göre toplayabilir. Microsoft Excel ile, düğmeleri yeni bir konuma sürükleyerek pivot tablodaki bilgileri hızlı bir şekilde yeniden düzenlemek mümkündür.
+Bir özet tablo, kayıtların etkileşimli bir özeti. Örneğin, bir çalışma sayfasındaki bir listede yüzlerce fatura girişiniz olabilir. Bir özet tablo, faturaları müşteri, ürün veya tarihe göre toplayabilir. Microsoft Excel ile özet tablonun düğmeleri sürüklenerek bilgileri hızlı bir şekilde yeniden düzenlemek mümkündür.
 
-Pivot grafik, pivot tablodaki verilerin etkileşimli bir grafik temsilidir. Pivot grafikler Excel 2000'de kullanılmaya başlandı. Pivot tablo otomatik olarak ara toplamlar ve toplamlar oluşturduğundan, pivot grafik kullanmak verilerin anlaşılmasını daha da kolaylaştırır.
+Bir özet grafik, bir özet tablonun verilerinin etkileşimli grafiksel bir temsilidir. Özet grafikler Excel 2000'de tanıtılmıştır. Özet grafik kullanmak, özet tablonun alt toplamlarını ve toplamlarını otomatik olarak oluşturduğu için verileri anlamak daha da kolaylaştırır.
 
- Aspose.Cells destekler[pivot tablolar](/cells/tr/net/create-pivot-tables-and-pivot-charts/) ve[pivot grafikler](/cells/tr/net/create-pivot-tables-and-pivot-charts/).
+Aspose.Cells, [pivot tablolarını](/cells/tr/net/create-pivot-tables-and-pivot-charts/) ve [pivot grafiklerini](/cells/tr/net/create-pivot-tables-and-pivot-charts/) destekler.
 
 {{% /alert %}}
 
-## **Pivot Tablolar ve Grafikler Ekleme**
+## **Özet Tabloları ve Grafikler Eklemek**
 
-Aspose.Cells, pivot tablolar oluşturmak için kullanılan özel bir sınıf seti sağlar. Bu sınıflar, PivotTable nesnesinin temel yapı taşları olarak hareket eden PivotTable nesneleri oluşturmak ve ayarlamak için kullanılır:
+Aspose.Cells, özet tabloları oluşturmak için kullanılan özel bir sınıf kümesi sağlar. Bu sınıflar, PivotTable nesnelerini oluşturmak ve ayarlamak için kullanılır ve temel PivotTable nesnesinin yapı taşları olarak hareket ederler:
 
-- PivotField, pivot tablo raporundaki bir alan.
-- PivotFields, bir pivot tablodaki tüm PivotField nesnelerinin bir koleksiyonu.
-- PivotTable, bir çalışma sayfasındaki PivotTable raporu.
-- PivotTable'lar, çalışma sayfasındaki tüm PivotTable nesnelerinin bir koleksiyonudur.
+- PivotField, bir özet tablo raporundaki bir alan.
+- PivotFields, bir özet tablodaki tüm PivotField nesnelerinin koleksiyonu.
+- PivotTable, bir çalışma sayfasındaki bir PivotTable raporu.
+- PivotTables, çalışma sayfasındaki tüm PivotTable nesnelerinin koleksiyonu.
 
-### **Kullanıma hazırlanıyor Aspose.Cells**
+### **Aspose.Cells'i kullanmaya hazırlık**
 
-1. Aspose.Cells'i indirin ve yükleyin:
-   1. [İndir Aspose.Cells](https://downloads.aspose.com/cells/net).
- 1. Geliştirme bilgisayarınıza kurun.
- Herşey[Aspose](http://www.aspose.com/) bileşenler kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun zaman sınırı yoktur ve yalnızca üretilen belgelere filigran ekler. Bileşenle tam kapasitede çalışmak için geçerli bir lisansa sahip olmanız gerekir.
+1. Aspose.Cells'i indirin ve kurun:
+   1. [Aspose.Cells'i İndirin](https://downloads.aspose.com/cells/net).
+   1. Geliştirme bilgisayarınıza kurun.
+      Tüm [Aspose](http://www.aspose.com/) bileşenleri, kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun bir süre sınırı yoktur ve üretilen belgelere sadece filigranlar ekler. Bileşenle tam kapasitede çalışmak için geçerli bir lisansa sahip olmanız gerekir.
 1. Bir proje oluşturun:
- 1. Visual Studio.Net'i başlatın.
- 1. Yeni bir konsol uygulaması oluşturun.
-1. Referans ekle:
- Projenize Aspose.Cells bileşenine referans ekleyin, örneğin ...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
+   1. Visual Studio.Net'i başlatın.
+   1. Yeni bir konsol uygulaması oluşturun.
+1. Referanslar ekleyin:
+   Projenize Aspose.Cells bileşenine referans ekleyin, örneğin...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
 
 ### **Pivot Tablo Ekleme**
 
-Aspose.Cells'i kullanarak bir pivot tablo oluşturmak için:
+Aspose.Cells kullanarak bir pivot tablosu oluşturmak için:
 
-1. Cell nesnesinin PutValue/setValue yöntemini kullanarak çalışma sayfası hücrelerine bazı veriler ekleyin. Ayrıca önceden verilerle doldurulmuş bir şablon dosyası da kullanırsınız. Veriler, pivot tablonun veri kaynağı olarak kullanılacaktır.
-1. PivotTables koleksiyonunun ekleme yöntemini (Çalışma Sayfası nesnesinde kapsüllenmiş) çağırarak çalışma sayfasına bir özet tablo ekleyin.
-1. Dizinini geçirerek PivotTables koleksiyonundan yeni PivotTable nesnesine erişin. # Tabloyu yönetmek için PivotTable nesnesinde kapsüllenmiş herhangi bir pivot tablo nesnesini kullanın.
+1. Bir Hücre nesnesi'nin PutValue/setValue yöntemini kullanarak bir çalışma sayfasındaki hücrelere bazı veriler ekleyin. Ayrıca zaten verilerle doldurulmuş bir şablon dosyası kullanabilirsiniz. Veriler, pivot tablosunun veri kaynağı olarak kullanılacaktır.
+1. PivotTables koleksiyonunun add yöntemini (Worksheet nesnesinde kapsüllenmiş) çağırarak çalışma sayfasına bir pivot tablosu ekleyin.
+1. Yeni PivotTable nesnesine PivotTables koleksiyonundan endeksini geçerek erişin. # PivotTable nesnesinde kapsanan herhangi bir pivot tablo nesnesini kullanarak tabloyu yönetin.
 
 Kod örnekleri aşağıda verilmiştir.
 
@@ -49,11 +50,11 @@ Kod örnekleri aşağıda verilmiştir.
 
 ### **Pivot Grafik Ekleme**
 
-Aspose.Cells kullanarak PivotChart oluşturmak için:
+Aspose.Cells kullanarak bir PivotChart oluşturmak için:
 
-1. Grafik ekleyin.
-1. Grafiğin PivotSource'unu e-tablodaki mevcut bir pivot tabloya atıfta bulunacak şekilde ayarlayın.
-1. Diğer nitelikleri ayarlayın.
+1. Bir grafik ekleyin.
+1. Grafik PivotSource'unu elektronik tabloda zaten mevcut bir pivot çizelgesine atıf yapacak şekilde ayarlayın.
+1. Diğer özellikleri ayarlayın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotChart-1.cs" >}}
 

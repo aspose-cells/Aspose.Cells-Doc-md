@@ -1,31 +1,34 @@
-﻿---
-title: DataTable'ı GridWeb'den dışa aktarın
+---
+title: GridWeb den DataTable ı Dışa Aktar
 type: docs
 weight: 70
-url: /tr/net/export-datatable-from-gridweb/
+url: /tr/net/aspose-cells-gridweb/export-datatable-from-gridweb/
+keywords: GridWeb,dışa aktar
+description: Bu makale, GridWeb de datatable ın nasıl dışa aktarılacağını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-[DataView'u GridWeb'e Aktarın](/cells/tr/net/import-dataview-to-gridweb/)bir DataView içeriğini Aspose.Cells.GridWeb kontrolüne aktarmaktan bahsetti. Bu konuda, Aspose.Cells.GridWeb denetimindeki verilerin bir DataTable'a aktarılması anlatılmaktadır.
+[GridWeb'e DataView İçe Aktar](/cells/tr/net/aspose-cells-gridweb/import-dataview-to-gridweb/) Aspose.Cells.GridWeb kontrolüne DataView içeriğini içe aktarmaktan bahsetti. Bu konu, Aspose.Cells.GridWeb kontrolünden verilerin DataTable'a aktarılmasını tartışmaktadır.
 
 {{% /alert %}} 
-## **Çalışma Sayfası Verilerini Dışa Aktarma**
+## **Tablo Verisi Dışa Aktarma**
 ### **Belirli bir DataTable'a**
-Çalışma sayfası verilerini belirli bir DataTable nesnesine vermek için:
+Çalışma sayfası verilerini belirli bir DataTable nesnesine dışa aktarmak için:
 
 1. Aspose.Cells.GridWeb denetimini Web Formunuza ekleyin.
 1. Belirli bir DataTable nesnesi oluşturun.
-1. Seçilen hücrelerin verilerini belirtilen DataTable nesnesine aktarın.
+1. Seçilen hücrelerin verilerini belirtilen DataTable nesnesine dışa aktarın.
 
-Aşağıdaki örnek, dört sütunlu belirli bir DataTable nesnesi oluşturur. Çalışma sayfası verileri, çalışma sayfasında tüm satırların ve sütunların göründüğü ilk hücreden başlayarak önceden oluşturulmuş bir DataTable nesnesine aktarılır.
+Aşağıdaki örnek, dört sütunu olan belirli bir DataTable nesnesi oluşturur. Çalışma sayfasındaki veriler, çalışma sayfasında görünen tüm satır ve sütunlardan başlayarak, zaten oluşturulmuş bir DataTable nesnesine dışa aktarılır.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-ExportDataTable.aspx-ExportDataTable.cs" >}}
 ### **Yeni bir DataTable'a**
-Bazen bir DataTable nesnesi oluşturmak istemezsiniz, sadece çalışma sayfası verilerini yeni bir DataTable nesnesine aktarmanız gerekir.
+Bazen bir DataTable nesnesi oluşturmak istemezsiniz, sadece çalışma sayfasındaki verileri yeni bir DataTable nesnesine dışa aktarmaya ihtiyacınız vardır.
 
-Aşağıdaki örnek, Export yönteminin kullanımını göstermek için farklı bir yol deniyor. Aktif çalışma sayfasının referansını alır ve bu çalışma sayfasının tüm verilerini yeni bir DataTable nesnesine verir. DataTable nesnesi artık istediğiniz şekilde kullanılabilir. Örneğin, verileri görüntülemek için DataTable nesnesini bir GridView'e bağlamak mümkündür.
+Aşağıdaki örnek, Export yönteminin kullanımını farklı bir şekilde göstermeye çalışır. Etkin çalışma sayfasının referansını alır ve o çalışma sayfasının tüm verilerini yeni bir DataTable nesnesine dışa aktarır. DataTable nesnesi istediğiniz şekilde kullanılabilir. Örneğin, DataTable nesnesini verileri görüntülemek için bir GridView'e bağlamak mümkündür.
 
 
 

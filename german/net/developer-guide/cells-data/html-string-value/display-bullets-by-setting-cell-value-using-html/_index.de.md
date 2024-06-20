@@ -1,25 +1,26 @@
-﻿---
-title: Zeigen Sie Aufzählungszeichen an, indem Sie den Wert Cell mit HTML festlegen
+---
+title: Anzeige von Aufzählungszeichen durch Setzen des Zellenwerts mit HTML
 type: docs
 weight: 130
 url: /de/net/display-bullets-by-setting-cell-value-using/
-description: Fügen Sie Aufzählungszeichen zu Excel Cells mit HTML und dem benutzerfreundlichen Aspose.Cells for .NET API hinzu.
-keywords: add bullets in excel, add bullets in excel c#, display bullets in excel, display bullets in excel c#, add bullets in excel with html, add bullets in excel with html c#, display bullets in excel with html, display bullets in excel with html c#, display bullets in excel using html, add bullets in excel using html
+description: Fügen Sie Aufzählungszeichen zu Excel Zellen mit HTML und der benutzerfreundlichen Aspose.Cells for .NET API hinzu.
+keywords: Aufzählungszeichen in Excel hinzufügen, Aufzählungszeichen in Excel c#, Aufzählungszeichen in Excel anzeigen, Aufzählungszeichen in Excel c# anzeigen, Aufzählungszeichen in Excel mit HTML hinzufügen, Aufzählungszeichen in Excel mit HTML c# hinzufügen, Aufzählungszeichen in Excel mit HTML anzeigen, Aufzählungszeichen in Excel mit HTML c# anzeigen, Aufzählungszeichen in Excel mit HTML verwenden, Aufzählungszeichen in Excel mit HTML hinzufügen
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells unterstützt das Anzeigen von Aufzählungszeichen mit dem Code HTML. In diesem Artikel wird erläutert, wie Aufzählungszeichen angezeigt werden, indem der Zellenwert mit HTML festgelegt wird. Wir werden verwenden[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) -Eigenschaft, um den Zellenwert mit unserem HTML festzulegen.
+Aspose.Cells unterstützt das Anzeigen von Aufzählungszeichen mit HTML-Code. Dieser Artikel erläutert, wie Aufzählungszeichen durch Setzen des Zellenwerts mit HTML angezeigt werden können. Wir werden die [**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring)-Eigenschaft verwenden, um den Zellenwert mit unserem HTML zu setzen.
 
 {{% /alert %}}
 
-## C#-Code zum Anzeigen von Aufzählungszeichen durch Festlegen des Werts Cell mit HTML
+## C#-Code zum Anzeigen von Aufzählungszeichen durch Setzen des Zellenwerts mit HTML
 
-Der folgende Code verwendet den Code HTML, um den Zellenwert festzulegen. Sobald Sie diesen Code ausführen, erhalten Sie die Ausgabe wie im Bild unten gezeigt.
+Der folgende Code verwendet den HTML-Code, um den Zellenwert zu setzen. Sobald Sie diesen Code ausführen, erhalten Sie die Ausgabe, wie im folgenden Bild gezeigt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-DisplayBulletsInCellUsingHtml-DisplayBulletsInCellUsingHtml.cs" >}}
 
-## Vom Beispielcode generierte Ausgabe
+## Ausgabe, die vom Beispielcode generiert wurde
 
 Der folgende Screenshot zeigt die Ausgabe des obigen Beispielcodes.
 
-![todo: Bild_alt_Text](display-bullets-by-setting-cell-value-using-html_1.png)
+![todo:image_alt_text](display-bullets-by-setting-cell-value-using-html_1.png)

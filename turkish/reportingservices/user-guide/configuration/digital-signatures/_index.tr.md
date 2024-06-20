@@ -1,14 +1,15 @@
-﻿---
-title: Dijital imzalar
+---
+title: Dijital İmzalar
 type: docs
 weight: 50
 url: /tr/reportingservices/digital-signatures/
 ---
-Aspose.Cells for Reporting Services, Microsoft Excel 2007 dosyalarını veya ODS dosyalarını dışa aktarırken dijital imzaları destekler. Dijital imzalar için ayarlanabilecek bazı yapılandırma bilgilerimiz var.**Aspose.Cells.ReportingServices.xml** dosya.
 
- DigitalSignature'ın değeri şu olduğunda:**kapalı**, Aspose.Cells for Reporting Services dijital imzaları kapatır.
+Aspose.Cells for Reporting Services, Microsoft Excel 2007 dosyalarını veya ODS dosyalarını dışa aktarırken dijital imzaları destekler. Dijital imzalar için yapılandırma bilgilerimiz var, bunlar **Aspose.Cells.ReportingServices.xml** dosyasında ayarlanabilir.
 
-{{< highlight "java" >}}
+Dijital İmza değeri **kapalı** olduğunda, Aspose.Cells for Reporting Services dijital imzaları kapatır.
+
+{{< highlight java >}}
 
  <DigitalSignature value="off">
 
@@ -18,22 +19,22 @@ Aspose.Cells for Reporting Services, Microsoft Excel 2007 dosyalarını veya ODS
 
 {{< /highlight >}}
 
- DigitalSignature'ın değeri şu olduğunda:**üzerinde**, Aspose.Cells for Reporting Services dijital imzaları açar.
+Dijital İmza değeri **açık** olduğunda, Aspose.Cells for Reporting Services dijital imzaları açar.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <DigitalSignature value="on">
 
 {{< /highlight >}}
 
- DigitalSignature bölümünde dört parametre vardır. Bunlar:
+Dijital İmza bölümünde dört parametre bulunmaktadır. Bunlar: 
 
-- **isim**: dijital imza gerektiren bir raporu temsil eder. Parametre boş bırakıldığında, raporlar dijital imzalar için bir PFX dosyası kullanır.
-- **pfxDosyaadı**: bir PFX dosyasına atıfta bulunur. Dosya adı, yol ve dosya uzantısı ile tamamlanmış tam nitelikli bir dosya adı olmalıdır. Boş olmamalıdır.
-- **pfxPwd**: parolayı ayarlar. Boş olmamalıdır.
-- **amaç**: imzanın ne için olduğunun açıklaması. boş olabilir
+- **name**: dijital imza gerektiren bir raporu temsil eder. Parametre boş bırakıldığında, raporlar dijital imzalar için bir PFX dosyası kullanır.
+- **pfxDosyaAdı**: bir PFX dosyasına referans verir. Dosya adı, tam yol ve dosya uzantısı dahil olmak üzere tamamen belirtilmiş bir dosya adı olmalıdır. Boş olmamalıdır.
+- **pfxParola**: parolayı ayarlar. Boş olmamalıdır.
+- **amaç**: imzanın ne için olduğunu açıklar. Boş olabilir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <DigitalSignature value="on">
 

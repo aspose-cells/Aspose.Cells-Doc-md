@@ -1,29 +1,30 @@
-﻿---
-title: Modern Aspose.Cells Bileşenine Yükseltme
+---
+title: Modern Aspose.Cells Bileşimine Yükseltme
 type: docs
 weight: 70
 url: /tr/net/upgrade-to-modern-aspose-cells-component/
 ---
+
 {{% alert color="primary" %}} 
 
- Kullanıcıların yükseltme yapmasına yardımcı olmak için, özellikle eski Aspose.Excel'i kullanan ve şimdi daha yeni Aspose.Cells'e yükseltmek isteyen mevcut kullanıcılar için kritik bilgileri açıklayan bir belge bulunduruyoruz. tüm bölümlerini kontrol ederek daha fazla bilgi bulabilmelidir.**Programcı Kılavuzu** ve**Aspose.Cells API Referans**.
+Kullanıcıların yeniden yükseltmesine yardımcı olmak için, Başlıca eski Aspose.Excel kullanan ve şimdi yeni Aspose.Cells'e yükseltmek isteyen kullanıcılar için özellikle kritik bilgileri içeren bir belge tutuyoruz. Bunlar özet notlar olmalı ve **Programcıların Rehberi** ve **Aspose.Cells API Başvurusu**nun tüm bölümlerini kontrol ederek daha fazla bilgi bulabileceğiniz bir şekilde olmalıdır.
 
 {{% /alert %}} 
-## **Aspose.Cells'e yükseltme**
-Bazen önceki kullanıcılar (örn. Aspose.Excel kullanıcıları) bir sorunla/sorunla karşılaşabilir veya sürümde bazı özelliklerin eksik olduğunu görebilir, alternatif olarak gereksinimleri için daha yeni Aspose.Cells'e yükseltmeleri gerekebilir. Aspose.Excel'in şimdi Aspose.Cells olarak yeniden adlandırıldığına dikkat edilmelidir, bu nedenle artık Aspose.Excel bileşeninin eski sürümleriyle devam edemeyiz veya değişiklik yapamayız. Yeni Aspose.Cells bileşeni, geliştirilmiş ve gelişmiş işlevsellik ile daha güvenilir, kararlı ve müreffeh. En çeşitli senaryolar için performansını optimize etmeye özel olarak odaklanıyoruz. Vurgulamak gerekirse, Aspose.Cells bileşenine yükseltme çok fazla emek gerektirmiyor. Ancak, yükselttiğinizde.
+## **Aspose.Cells'e Yükseltme**
+Bazı durumlarda önceki kullanıcılar (örneğin, Aspose.Excel kullanıcıları) bir sorunla karşılaşabilir veya bir sürümde bazı özelliklerin eksik olduğunu fark edebilir, alternatif olarak, gereksinimleri için yeni Aspose.Cells'e yükseltmek isteyebilirler. Aspose.Excel'in artık Aspose.Cells olarak adlandırıldığını belirtmek gerekir, bu nedenle artık Aspose.Excel bileşeninin eski sürümlerine devam edemeyiz veya düzeltme yapamayız. Yeni Aspose.Cells bileşeni, geliştirilmiş ve gelişmiş işlevsellikle daha güvenilir, istikrarlı ve verimlidir. Özellikle en çeşitli senaryolar için performansını optimize etmeye odaklanıyoruz. Sadece vurgulamak gerekirse, Aspose.Cells bileşimine yükseltmek için çok fazla iş gücü gerekmeyecektir. Ancak, ona yükselttiğinizde.
 
 {{% alert color="primary" %}} 
 
-Şu anda sunduğumuz bazı gelişmiş özelliklere dayalı olarak bazı API'ler (sınıflar, yapılar, numaralandırmalar vb.) eklenir, önceki sınıflar (üyeleriyle birlikte) korunur ve optimize edilir ancak birkaç sınıf yeniden adlandırılır, bazı ek üyeler (özellikler, yöntemler vb.) .) çok azı hariç tutulan sınıflar için de dahildir.
+Şimdi sunduğumuz bazı gelişmiş özelliklere dayalı olarak bazı API'ler (sınıflar, yapı, numaralandırmalar vb.) eklenmiş, önceki sınıflar (üyeleriyle birlikte) korunmuş ve optimize edilmiş, ancak bazı sınıflar yeniden adlandırılmış, bazı ek üyeler (özellikler, yöntemler vb.) de dahil edilmiş ve çok azı hariç bazıları için de bazı üyeler hariç tutulmuştur.
 
-Yeniden adlandırılan sınıfların listesi aşağıdadır:
+Aşağıda yeniden adlandırılmış sınıfların listesi bulunmaktadır:
 
-1. **excel** sınıf ile değiştirilir**Çalışma kitabı** sınıf.
+1. **Excel** sınıfı, **Workbook** sınıfı ile değiştirilmiştir.
 
-2. **ExcelTasarımcı** sınıf ile değiştirilir**Çalışma KitabıTasarımcısı** sınıf.
+2. **ExcelDesigner** sınıfı **WorkbookDesigner** sınıfı ile değiştirildi.
 
-3. **Excel Yardımcısı** sınıf ile değiştirilir**HücrelerYardımcısı** sınıf.
+3. **ExcelHelper** sınıfı **CellsHelper** sınıfı ile değiştirildi.
 
- Daha fazla referans için lütfen öne çıkan demolarımızı kontrol edin:<https://github.com/aspose-cells/Aspose.Cells-for-.NET>
+For further reference, please check our featured demos: <https://github.com/aspose-cells/Aspose.Cells-for-.NET>
 
 {{% /alert %}}

@@ -1,25 +1,26 @@
-﻿---
+---
 title: Лицензирование
 type: docs
 weight: 40
 url: /ru/jasperreports/licensing/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for JasperReports доступен в качестве бесплатной, неограниченной по времени пробной версии от[страница загрузки](https://downloads.aspose.com/cells/jasperreports). Ознакомительная и лицензионная версии продукта загружаются одинаково.
+ Aspose.Cells for JasperReports доступно бесплатная, без временных ограничений оценка на [странице загрузки] (https://downloads.aspose.com/cells/jasperreports). Оценочные и лицензионные версии продукта являются одним и тем же загрузкой.
 
- Если вас устраивает ознакомительная версия, вы можете[купить лицензию](https://purchase.aspose.com/). Убедитесь, что вы понимаете и согласны с условиями лицензии.
+Когда вы будете довольны оценочной версией, вы можете [приобрести лицензию] (https://purchase.aspose.com/). Пожалуйста, ознакомьтесь и согласитесь с условиями лицензии.
 
-Лицензия доступна для скачивания со страницы заказа после оплаты заказа. Лицензия представляет собой обычный текстовый XML-файл с цифровой подписью. Лицензия содержит такую информацию, как имя клиента, приобретенный продукт и тип лицензии. Не изменяйте содержимое файла лицензии: это делает лицензию недействительной.
+ Лицензия доступна для загрузки со страницы заказа после оплаты заказа. Лицензия является четким текстом, цифровым подписанным XML-файлом. Лицензия содержит информацию, такую как имя клиента, купленный продукт и тип лицензии. Не изменяйте содержимое лицензионного файла: это приводит к недействительности лицензии.
 
-Применить лицензию можно двумя способами:
+Существуют два способа применения лицензии:
 
 - [Вызов setLicense](/cells/ru/jasperreports/licensing/#call-setlicense)
 - [Установите параметр экспортера в applicationContext.xml](/cells/ru/jasperreports/licensing/#set-the-licensefile-exporter-parameter-in-applicationcontextxml)
 
-После установки лицензии
+После установки лицензии,
 
-- [Убедитесь, что это работает](/cells/ru/jasperreports/licensing/#verify-the-license-works).
+- [Проверьте, что это работает] (/cells/ru/jasperreports/licensing/#verify-the-license-works).
 
 {{% /alert %}}
 
@@ -31,10 +32,10 @@ url: /ru/jasperreports/licensing/
 
 {{% /alert %}}
 
- Загрузите лицензию на свой компьютер и скопируйте ее в соответствующую папку (например, папку вашего приложения или**JasperReports\lib**).
-Добавьте в свой проект следующий код:
+Загрузите лицензию на свой компьютер и скопируйте ее в соответствующую папку (например, папку вашего приложения или **JasperReports\lib**).
+Добавьте следующий код в ваш проект:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 import com.aspose.cells.jasperreports.*;
 
@@ -50,7 +51,7 @@ license.setLicense(fstream);
 
 {{< /highlight >}}
 
-## **Задайте параметр экспортера licenseFile в applicationContext.xml.**
+## **Установите параметр экспорта лицензионного файла в applicationContext.xml**
 
 {{% alert color="primary" %}}
 
@@ -58,12 +59,12 @@ license.setLicense(fstream);
 
 {{% /alert %}}
 
-1.  Загрузите лицензию на свой компьютер и скопируйте ее на**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF**папка, где**\<Каталог_установки>** обозначает каталог установки JasperServer.
-1.  Найдите**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** файл и добавьте следующие строки:
+1. Download the license to your computer and copy it to the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF** folder, where **\<InstallDir>** stands for the JasperServer installation directory.
+1. Locate the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file and add the following lines:
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   <bean id="excelACExportParameters" class="com.aspose.cells.jasperreports.ACXlsExportParametersBean">
 
@@ -73,14 +74,14 @@ license.setLicense(fstream);
 
 {{< /highlight >}}
 
-## **Убедитесь, что лицензия работает**
+## **Проверьте работу лицензии**
 
-Экспортируйте любой отчет в формат XLS и проверьте, содержит ли отчет оценочное сообщение. Если оценочного сообщения нет, значит, лицензия работает правильно.
+Экспортируйте любой отчет в формат XLS и проверьте, содержит ли отчет сообщение об оценке. Если нет сообщения об оценке, то лицензия работает правильно.
 
-**Aspose.Cells for JasperReports вводит лист оценки в режиме оценки** 
+**Aspose.Cells for JasperReports внедряет оценочный рабочий лист в режиме оценки** 
 
-![дело:изображение_альтернативный_текст](licensing_1.png)
+![todo:image_alt_text](licensing_1.png)
 
-**При действующей лицензии лист оценки отсутствует** 
+**При наличии действительной лицензии нет оценочного рабочего листа** 
 
-![дело:изображение_альтернативный_текст](licensing_2.png)
+![todo:image_alt_text](licensing_2.png)

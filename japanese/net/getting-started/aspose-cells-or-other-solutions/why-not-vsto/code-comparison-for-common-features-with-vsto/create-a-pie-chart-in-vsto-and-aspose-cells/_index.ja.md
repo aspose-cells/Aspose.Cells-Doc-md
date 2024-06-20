@@ -1,19 +1,20 @@
-﻿---
-title: VSTO と Aspose.Cells で円グラフを作成する
+---
+title: VSTOとAspose.Cellsで円グラフを作成
 type: docs
 weight: 80
 url: /ja/net/create-a-pie-chart-in-vsto-and-aspose-cells/
 ---
-この記事では、Office オートメーションと VSTO を使用して円グラフを作成する方法と、Aspose.Cells for .NET を使用して円グラフを作成する方法を比較します。円グラフを作成する手順は次のとおりです。
 
-1. ワークブックとワークシートの作成。
-1. サンプルデータの追加。
-1. productsChart の参照。
-1. 円グラフを追加し、データ範囲とグラフ タイトルを定義します。
-1. スプレッドシートを保存しています。
-この記事のコード サンプルでは、C# を使用して Aspose.Cells で円グラフを作成する場合と比較して、C# を使用して VSTO で円グラフを追加する方法を示します。
+この記事では、オフィス自動化とVSTOを使用して円グラフを作成する方法をAspose.Cells for .NETを使用する方法と比較します。円グラフを作成する手順は次のとおりです：
+
+1. ワークブックとワークシートを作成する。
+1. サンプルデータを追加する。
+1. productsChart を参照する。
+1. パイチャートを追加し、データ範囲とチャートのタイトルを定義する。
+1. スプレッドシートを保存する。
+   この記事のコードサンプルでは、VSTO を使用して C# でパイチャートを追加する方法と、Aspose.Cells を使用して C# で作成する方法が示されています。
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void PieChart()
 
@@ -89,7 +90,7 @@ workbook.SaveCopyAs("OutputVsto.xlsx");
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void PieChart()
 
@@ -160,6 +161,6 @@ workbook.SaveCopyAs("OutputVsto.xlsx");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create.a.Pie.Chart.Aspose.Cells.zip)
-- [ソースフォージ](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Create%20a%20Pie%20Chart%20\(Aspose.Cells\)。ジップ）
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create.a.Pie.Chart.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip)

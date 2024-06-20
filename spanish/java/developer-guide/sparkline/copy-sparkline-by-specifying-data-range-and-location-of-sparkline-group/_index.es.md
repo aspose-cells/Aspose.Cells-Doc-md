@@ -1,34 +1,35 @@
-﻿---
-title: Copie Sparkline especificando el rango de datos y la ubicación del grupo Sparkline
+---
+title: Copiar Sparkline especificando el rango de datos y la ubicación del grupo de sparkline
 type: docs
 weight: 120
 url: /es/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/
 ---
-Copie Sparkline especificando el rango de datos y la ubicación del grupo Sparkline en MS Excel
 
-Microsoft Excel le permite copiar un minigráfico especificando el rango de datos y la ubicación del grupo de minigráficos. Siga estos pasos para copiar su Sparkline a otras celdas.
+Copiar Sparkline especificando el rango de datos y la ubicación del grupo de sparkline en MS Excel
 
-- Seleccione la celda que contiene su minigráfico.
--  Seleccione**Editar datos** desde el**Minigráfico** sección dentro de la**Diseño** pestaña
--  Escoger**Editar ubicación y datos del grupo...**
-- Especifique el rango de datos y la ubicación y haga clic en Aceptar.
+Microsoft Excel te permite copiar un sparkline especificando el rango de datos y la ubicación del grupo de sparkline. Sigue estos pasos para copiar tu sparkline a otras celdas.
+
+- Selecciona la celda que contiene tu sparkline.
+- Selecciona **Editar datos** en la sección **Sparkline** dentro de la pestaña **Diseño**
+- Elige **Editar ubicación del grupo y datos...**
+- Especifica el rango de datos y la ubicación y haz clic en Aceptar.
 
 ## Ejemplo
 
- Aspose.Cells proporciona el[**SparklineCollection.add(rango de datos, fila, columna)**](https://reference.aspose.com/cells/java/com.aspose.cells/SparklineCollection) método para especificar el rango de datos y la ubicación del Sparkline Group.
+Aspose.Cells proporciona el método [**SparklineCollection.add(dataRange, row, column)**](https://reference.aspose.com/cells/java/com.aspose.cells/SparklineCollection) para especificar el rango de datos y la ubicación del grupo de sparkline.
 
 ### Capturas de pantalla de los archivos fuente y de salida
 
-La siguiente captura de pantalla muestra el archivo fuente de Excel utilizado dentro del código. El área resaltada en rojo muestra "**Editar ubicación y datos del grupo...**" opción para especificar el rango de datos y la ubicación del grupo minigráfico. La celda P4 muestra el minigráfico que se copiará en las otras cuatro celdas llenas de color amarillo usando Aspose.Cells.
+La siguiente captura de pantalla muestra el archivo de Excel fuente utilizado en el código. El área destacada en rojo muestra la opción "**Editar ubicación del grupo y datos...**" para especificar el rango de datos y la ubicación del grupo de sparkline. La celda P4 muestra el sparkline que se copiará a las otras cuatro celdas rellenadas con color amarillo usando Aspose.Cells.
 
-![todo:imagen_alternativa_texto](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_1.png)
+![todo:image_alt_text](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_1.png)
 
-La siguiente captura de pantalla muestra el archivo de salida de Excel generado por el código de muestra. Como puede ver, el minigráfico de la celda P4 se ha copiado en las siguientes cuatro celdas de la columna P, cada una con un rango de datos diferente.
+La siguiente captura de pantalla muestra el archivo de Excel de salida generado por el código de ejemplo. Como se puede ver, el sparkline en la celda P4 se ha copiado a las próximas cuatro celdas en la columna P, cada una con un rango de datos diferente.
 
-![todo:imagen_alternativa_texto](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_2.png)
+![todo:image_alt_text](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_2.png)
 
-### Java código para copiar minigráfico especificando el rango de datos y la ubicación del grupo de minigráfico
+### Código Java para copiar mini gráfico especificando rango de datos y ubicación del grupo de mini gráficos
 
-El siguiente código de muestra carga el archivo de origen de Excel como se muestra en la captura de pantalla anterior, luego accede al primer grupo de minigráficos y agrega rangos de datos y ubicaciones dentro del grupo de minigráficos. Finalmente, escribe el archivo de salida de Excel en el disco que también se muestra en la captura de pantalla anterior.
+El siguiente código de ejemplo carga el archivo de Excel fuente como se muestra en la captura de pantalla de arriba, luego accede al primer grupo de mini gráficos y agrega rangos de datos y ubicaciones dentro del grupo de mini gráficos. Finalmente, escribe el archivo de Excel de salida en disco que también se muestra en la captura de pantalla de arriba.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopySparkline-CopySparkline.java" >}}

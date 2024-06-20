@@ -1,27 +1,28 @@
 ---
-title: Implementieren Sie das Datumssystem von 1904
-description: Aspose.Cells ist eine .NET-Bibliothek für die Arbeit mit Tabellenkalkulationsdateien. Es unterstützt die Implementierung des Datumssystems von 1904 und ermöglicht Benutzern die Berechnung und Formatierung auf der Grundlage des Datumssystems vom 1. Januar 1904. In diesem Artikel wird beschrieben, wie Sie das Datumssystem von 1904 mithilfe der Bibliothek Aspose.Cells implementieren.
-keywords: Aspose.Cells, 1904 date system, spreadsheet, calculation, formatting
+title: Implementieren Sie das 1904 Datensystem
+description: Aspose.Cells ist eine .NET Bibliothek zum Arbeiten mit Tabellendateien. Es unterstützt die Implementierung des 1904 Datensystems, das es Benutzern ermöglicht, basierend auf dem 1. Januar 1904 Datensystem zu berechnen und zu formatieren. Dieser Artikel beschreibt, wie Sie das 1904 Datensystem unter Verwendung der Aspose.Cells Bibliothek implementieren können.
+keywords: Aspose.Cells, 1904 Datensystem, Tabelle, Berechnung, Formatierung
 type: docs
 weight: 7000
 url: /de/net/implement-1904-date-system/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel unterstützt zwei Datumssysteme: das 1900er-Datumssystem (das in Excel implementierte Standarddatumssystem für Windows) und das 1904er-Datumssystem. Das Datumssystem 1904 wird normalerweise zur Gewährleistung der Kompatibilität mit Macintosh-Excel-Dateien verwendet und ist das Standardsystem, wenn Sie Excel für Macintosh verwenden. Mit Aspose.Cells können Sie das Datumssystem 1904 für Excel-Dateien einstellen.
+Microsoft Excel unterstützt zwei Datensysteme: das 1900-Datensystem (das Standarddatensystem in Excel für Windows) und das 1904-Datensystem. Das 1904-Datensystem wird normalerweise verwendet, um die Kompatibilität mit Macintosh Excel-Dateien zu gewährleisten und ist das Standard-System, wenn Sie Excel für Macintosh verwenden. Sie können das 1904-Datensystem für Excel-Dateien mit Aspose.Cells einstellen.
 
 {{% /alert %}} 
 
-So implementieren Sie das Datumssystem 1904 in Microsoft Excel (z. B. Microsoft Excel 2003):
+Um das 1904-Datensystem in Microsoft Excel zu implementieren (zum Beispiel Microsoft Excel 2003):
 
-1.  Von dem**Werkzeuge** Menü auswählen**Optionen** und wählen Sie die Option **Berechnung** Tab.
-1.  Wähle aus**Datumssystem von 1904** Möglichkeit.
-1. OK klicken**.
+1. Wählen Sie im **Extras**-Menü die Option **Optionen** und wählen Sie den Tab **Berechnung**.
+1. Wählen Sie die Option **1904-Datensystem** aus.
+1. Klicken Sie auf **OK**.
 
-|**Auswahl des Datumssystems 1904 in Microsoft Excel**|
+|**Auswählen des 1904-Datensystems in Microsoft Excel**|
 | :- |
 |![todo:image_alt_text](implement-1904-date-system_1.png)|
-Im folgenden Beispielcode erfahren Sie, wie Sie dies mithilfe der APIs Aspose.Cells erreichen.
+Sehen Sie sich den folgenden Beispielcode an, wie Sie dies mit Aspose.Cells-APIs erreichen können.
 
 
 

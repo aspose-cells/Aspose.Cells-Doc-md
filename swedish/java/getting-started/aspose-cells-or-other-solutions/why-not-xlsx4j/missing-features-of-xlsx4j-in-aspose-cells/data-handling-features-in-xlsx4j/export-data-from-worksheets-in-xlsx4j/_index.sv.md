@@ -1,33 +1,34 @@
-﻿---
+---
 title: Exportera data från kalkylblad i xlsx4j
 type: docs
 weight: 20
 url: /sv/java/export-data-from-worksheets-in-xlsx4j/
 ---
-## **Aspose.Cells - Exportera data från arbetsblad**
-Aspose.Cells låter inte bara sina användare importera data till kalkylblad från externa datakällor utan låter dem också exportera kalkylbladsdata till en array.
+
+## **Aspose.Cells - Exportera data från kalkylblad**
+Aspose.Cells låter inte bara sina användare importera data till arbetsblad från externa datakällor utan tillåter dem också att exportera arbetsbladsdata till en array.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Skapa en filström som innehåller Excel-filen som ska öppnas
+ //Creating a file stream containing the Excel file to be opened
 
 FileInputStream fstream = new FileInputStream(dataDir + "workbook.xls");
 
-//Instantiering av ett arbetsboksobjekt
+//Instantiating a Workbook object
 
-Arbetsbok arbetsbok = ny arbetsbok(fstream);
+Workbook workbook = new Workbook(fstream);
 
-//Åtkomst till det första kalkylbladet i Excel-filen
+//Accessing the first worksheet in the Excel file
 
-Arbetsblad arbetsblad = workbook.getWorksheets().get(0);
+Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//Exportera innehållet i 7 rader och 2 kolumner från 1:a cellen till Array.
+//Exporting the contents of 7 rows and 2 columns starting from 1st cell to Array.
 
-Objektdatatabell [][]= kalkylblad.getCells().exportArray(4,0,7,8);
+Object dataTable [][] = worksheet.getCells().exportArray(4,0,7,8);
 
- för (int i = 0 ; i< dataTable.length ; i++)
+for (int i = 0 ; i < dataTable.length ; i++)
 
 {
 
@@ -36,13 +37,13 @@ Objektdatatabell [][]= kalkylblad.getCells().exportArray(4,0,7,8);
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/exportdatafromworksheets/AsposeExportDataFromWorksheets.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Exportera data från arbetsblad](/java/exporting-data-from-worksheets).
+För mer detaljer, besök [Exportera data från kalkylblad](/java/exportera-data-fran-kalkylblad).
 
 {{% /alert %}}

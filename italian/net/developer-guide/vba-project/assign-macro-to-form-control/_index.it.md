@@ -1,18 +1,19 @@
-﻿---
-title: Assegna macro al controllo del modulo
+---
+title: Assegna Macro a Controllo Modulo
 type: docs
 weight: 60
 url: /it/net/assign-macro-to-form-control/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells permette di assegnare un Codice Macro ad un Controllo Modulo come un Pulsante. Si prega di utilizzare il[**Forma.MarcoNome**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname) proprietà per assegnare un nuovo codice macro a un controllo modulo all'interno della cartella di lavoro.
+Aspose.Cells ti consente di assegnare un codice Macro a un Controllo Modulo come un Pulsante. Si prega di utilizzare la proprietà [**Shape.MarcoName**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname) per assegnare un nuovo codice Macro a un Controllo Modulo all'interno del workbook.
 
 {{% /alert %}}
 
-Il codice di esempio seguente crea una nuova cartella di lavoro, assegna un codice macro a un pulsante modulo e salva l'output nel formato XLSM. Una volta, aprirai il file di output XLSM in Microsoft Excel vedrai il seguente codice macro.
+Il codice di esempio seguente crea un nuovo workbook, assegna un codice Macro a un pulsante di modulo e salva l'output nel formato XLSM. Una volta aperto il file XLSM di output in Microsoft Excel, vedrai il codice Macro seguente.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -22,8 +23,8 @@ End Sub
 
 {{< /highlight >}}
 
-## **Assegna macro al controllo del modulo in C#**
+## **Assegna Macro a Controllo Modulo in C#**
 
-Ecco il codice di esempio per generare il file di output XLSM con il codice macro.
+Qui c'è il codice di esempio per generare il file XLSM di output con il codice Macro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}

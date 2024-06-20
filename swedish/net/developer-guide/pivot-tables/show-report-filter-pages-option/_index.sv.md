@@ -1,17 +1,18 @@
-﻿---
-title: Visa alternativ för rapportfiltersidor
+---
+title: Visa alternativ för rapportsidfiltrering
 type: docs
 weight: 110
 url: /sv/net/show-report-filter-pages-option/
 ---
-## **Visa alternativ för rapportfiltersidor**
-Excel stöder att skapa pivottabeller, lägga till rapportfilter och aktivera alternativet "Visa rapportfiltersidor". Aspose.Cells stöder också den här funktionen för att aktivera alternativet "Visa rapportfiltersidor" på den skapade pivottabellen. Följande är skärmen som visar alternativet "Visa rapportfiltersidor" i Excel.
+
+## **Visa alternativ för rapportsidfiltrering**
+Excel stöder skapande av pivottabeller, lägga till rapportsfilter och aktivera alternativet "Visa Rapportfilter Sidor". Aspose.Cells stöder också denna funktion för att aktivera alternativet "Visa Rapportfilter Sidor" på den skapade pivottabellen. Nedan visas skärmen som visar alternativet "Visa Rapportfilter Sidor" i Excel.
 
 ![todo:image_alt_text](show-report-filter-pages-option_1.png)
 
-Exempel på källfil och utdatafiler kan laddas ner härifrån för att testa exempelkoden:
+Provfil och utdatafiler kan laddas ner här för att testa provkoden:
 
-` `[Excel-källfil](81920786.xlsx) 
+` `[Käll-Excel-fil](81920786.xlsx) 
 
 [Utdata Excel-fil](81920787.xlsx)
 

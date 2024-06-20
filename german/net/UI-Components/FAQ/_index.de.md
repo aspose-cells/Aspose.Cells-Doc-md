@@ -1,25 +1,40 @@
-﻿---
+---
 title: FAQ
 type: docs
 weight: 400
 url: /de/net/grid-faq/
 ---
-## **Gibt es Einschränkungen in der Evaluierungsversion von Aspose.Cells Grid Controls?**
- Nein, es gibt keine Funktionseinschränkung in der Evaluierungsversion von Aspose.Cells Grid Controls. Die Evaluierungsversion bietet alle Funktionen der lizenzierten Version, außer dass sie ein zusätzliches Arbeitsblatt (mit**Bewertungs-Copyright-Warnung** ) zu den Ausgabedateien.
-## **Es gibt so viele Grid-Steuerelemente auf dem Markt. Warum sollte ich Aspose.Cells Grid Controls kaufen?**
- Nun, Aspose.Cells Grid Controls sind sehr preisgünstig, um für alle Arten von Benutzern erschwinglich zu sein. Zu einem sehr günstigen Preis bietet es Ihnen eine Suite von zwei Steuerelementen, um an Windows und Webanwendungen zu arbeiten. Darüber hinaus ist es nicht nur ein einfaches Raster, es gehört Ihnen**Tabellenkalkulationsbetrachter, -editor und -ersteller** zur selben Zeit. Sie können es nicht nur an jede Art von Datenquelle binden (wie normale Grid-Steuerelemente), sondern auch Excel-Dateien erstellen und verwalten. Es bietet auch eine starke und reichhaltige**Formel-Berechnungs-Engine** um nicht nur eingebaute Funktionen (unterstützt durch Aspose.Cells Grid Controls) zu berechnen, sondern auch von Ihnen definierte benutzerdefinierte Formeln. Es gibt noch viel mehr Funktionen der Aspose.Cells Grid Suite, die hier nicht behandelt werden können. Eine detailliertere Funktionsliste finden Sie auf der Seite Editionstypen.
+
+## **Gibt es Einschränkungen in der Evaluierungsversion der Aspose.Cells Grid Controls?**
+Nein, es gibt keine Einschränkungen der Funktionen in der Evaluierungsversion dieser Controls.
+
+Die Evaluierungsversion bietet alle Funktionen der lizenzierten Version, außer dass sie eine zusätzliche Arbeitsmappe (mit dem **Evaluierungshinweis zum Urheberrecht**) zu den Ausgabedateien hinzufügt.
+
+
+## **Es gibt so viele Grid-Controls auf dem Markt. Warum sollte ich die Aspose.Cells Grid Controls kaufen?**
+Nun, die Aspose.Cells Grid Controls sind sehr preisgünstig und für alle Arten von Benutzern erschwinglich. Zu einem sehr vernünftigen Preis bietet sie Ihnen einen Satz von zwei Controls, um an Windows- und Webanwendungen zu arbeiten.
+
+Außerdem ist es nicht nur ein einfaches Grid, es ist gleichzeitig Ihr **Tabellenblatt-Anzeiger, -Editor & -Ersteller**. 
+
+Sie können es nicht nur mit jeder Art von Datenquelle verknüpfen (wie normale Grid-Controls), sondern auch Excel-Dateien erstellen und verwalten. Zudem bietet es eine starke und umfangreiche **Formelberechnungsmaschine** zum Berechnen nicht nur der integrierten Funktionen (unterstützt von den Aspose.Cells Grid Controls), sondern auch benutzerdefinierter Formeln, die Sie definieren. Es gibt noch viele weitere Funktionen des Aspose.Cells Grid-Suites, die hier nicht abgedeckt werden können. Bitte beachten Sie die Seite mit den Editionstypen für eine ausführlichere Funktionsliste. 
+
+Sie können es nicht nur mit jeder Art von Datenquelle verbinden (wie normale Rastersteuerelemente), sondern auch Excel-Dateien erstellen und verwalten. Es bietet außerdem einen starken und umfangreichen **Formel-Berechnungsmotor**, um nicht nur eingebaute Funktionen (unterstützt von Aspose.Cells-Rastersteuerelementen), sondern auch benutzerdefinierte Formeln, die von Ihnen definiert wurden, zu berechnen. Es gibt noch viel mehr Funktionen des Aspose.Cells Grid-Suites, die hier nicht behandelt werden können. Bitte beachten Sie die Seite Über die Editionstypen für eine detailliertere Liste der Funktionen.
+
 ## **Ich habe kürzlich meine Lizenz für Aspose.Cells Grid Controls erworben. Wie kann ich diese Lizenz in meiner Anwendung mit Aspose.Cells Grid Control verwenden?**
-Bitte wende dich an die[Lizenzierung](/cells/de/net/licensing/) Seite von Aspose.Cells Grid Controls. Es enthält vollständige Details zur Verwendung der Lizenz mit Aspose.Cells Grid Controls in Ihren Anwendungen.
-## **Werden Aspose.Cells Grid Controls von Visual Studio.NET 2005 unterstützt?**
-Ja, Aspose.Cells-Rastersteuerelemente werden von Visual Studio.NET 2005 und späteren Versionen vollständig unterstützt.
-## **Ich verwende das Aspose.Cells.GridWeb-Steuerelement in meiner Website mit Visual Studio.NET 2005. Aber es funktioniert überhaupt nicht. Was ist das Problem?**
- Aspose.Cells. GridWeb unterstützt beides**Dateisystem** und**HTTP** Modi von Visual Studio.NET 2005. Wenn Sie immer noch verwirrt sind, werfen Sie bitte einen Blick auf eine Schritt-für-Schritt-Anleitung zum Arbeiten mit Aspose.Cells.GridWeb unter Verwendung von Visual Studio.NET 2005.
-## **Wie kann ich mein Aspose.Cells.GridWeb-basiertes Webprojekt/ meine Lösung auf dem Server bereitstellen?**
-Wenn Sie die Webanwendung mit GridWeb-Steuerung bereitstellen müssen, kopieren Sie die Datei „acw_client"-Verzeichnis in Ihren Projektordner, zumindest konnte Ihre Webanwendung (die über den Server bereitgestellt wird) es nicht finden. Sie können den Skriptpfad jederzeit angeben, indem Sie die folgenden Codezeilen in den Konfigurationsabschnitt einfügen (z. B. in die Datei web.config in Ihrer .config-Datei). VS.NET Projekt) Das „acw_client" ist ein Ordner, der Dateien enthält, und Aspose.Cells. GridWeb verwendet diesen Ordner, um seine interne Konfiguration zu verwalten, er enthält Skriptdateien, Bilddateien und andere Dateien, um das Verhalten von GridWeb festzulegen und andere Vorgänge festzulegen. Die Konfigurationsdatei wird verwendet, um die Steuerung zu verhindern Verwenden der eingebetteten Client-Ressourcen (Bilder, Skripte usw.), was in einigen Fällen / Szenarien nützlich ist.
+Bitte beachten Sie die [Lizenzierung](/cells/de/net/licensing/) Seite der Aspose.Cells Grid Controls. 
+
+Sie enthält ausführliche Informationen dazu, wie Sie die Lizenz in Ihren Anwendungen mit den Aspose.Cells Grid Controls verwenden können.
+
+
+
+## **Wie kann ich mein auf Aspose.Cells.GridWeb basierendes Webprojekt/-lösung auf dem Server bereitstellen?**
+Wenn Sie die Webanwendung mit dem GridWeb-Control bereitstellen müssen, kopieren Sie das "acw_client"-Verzeichnis in Ihren Projektordner, da Ihre Webanwendung (die auf dem Server bereitgestellt wird) es sonst nicht finden kann.
+
+Sie können immer den Skriptpfad angeben, indem Sie die folgenden Codezeilen in den Konfigurationsabschnitt hinzufügen (z.B. in die web.config-Datei in Ihrem VS.NET-Projekt). Das "acw_client" ist ein Ordner, der Dateien enthält, und Aspose.Cells.GridWeb verwendet diesen Ordner zur Verwaltung seiner internen Konfiguration. In ihm befinden sich Skriptdateien, Bilddateien und andere Dateien, um das Verhalten von GridWeb zu definieren und andere Operationen einzurichten. Die Konfigurationsdatei wird verwendet, um zu verhindern, dass das Control auf die eingebetteten Clientressourcen (Bilder, Skripte, etc.) zugreift, was in einigen Fällen/Szenarien nützlich ist.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <appSettings>
 
@@ -35,13 +50,12 @@ Wenn Sie die Webanwendung mit GridWeb-Steuerung bereitstellen müssen, kopieren 
 
 {{% alert color="primary" %}} 
 
-Der Pfad bezieht sich immer auf das Projektverzeichnis. Sie sollten kein Verzeichnis außerhalb des Projektverzeichnisses verwenden. Daher ist es notwendig, das Verzeichnis "acw_client" (@ Ihren GridWeb-Installationsordner) in das Verzeichnis des Projekts zu kopieren.
+Der Pfad bezieht sich immer auf das Projektverzeichnis. Sie sollten kein Verzeichnis verwenden, das außerhalb des Projektverzeichnisses liegt. Es ist also notwendig, das "acw_client"-Verzeichnis (@ Ihrem GridWeb-Installationsverzeichnis) in das Projektverzeichnis zu kopieren.
 
 {{% /alert %}} 
-## **Ausführen von Aspose.Cell.GridWeb in Internet Explorer 10 oder 11**
- Derzeit funktioniert Aspose.Cells.GridWeb nicht sehr gut mit Internet Explorer 10 oder 11, daher müssen Sie den Kompatibilitätsmodus von IE8/9 verwenden, um damit mit dem Browsertyp IE10/11 zu arbeiten. Sie sollten die folgende Zeile hinzufügen**<Meta>** -Tag im Header-Bereich in**.aspx** Seite:
+## **Ausführen von Aspose.Cell.GridWeb in Internet Explorer**
+Derzeit unterstützt Aspose.Cells.GridWeb Internet Explorer nicht mehr, da es ein zu veralteter Browser ist. 
+Wir unterstützen Chrome, Edge, Firefox, Safari, Opera
 
 
-
-{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-KnowledgeBase-FAQ-RunGridWebInIE-RunGridWebIE.aspx" >}}
 

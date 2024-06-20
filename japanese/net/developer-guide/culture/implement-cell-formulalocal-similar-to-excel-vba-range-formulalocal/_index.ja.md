@@ -1,16 +1,17 @@
-﻿---
-title: Excel VBA Range.FormulaLocal と同様の Cell.FormulaLocal を実装します。
+---
+title: Excel VBAのRange.FormulaLocalに類似したCell.FormulaLocalの実装
 type: docs
 weight: 30
 url: /ja/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/
 ---
-## **考えられる使用シナリオ**
 
- Microsoft Excel の数式は、ロケール、地域、言語によって名前が異なる場合があります。例えば、**和**関数が呼び出されます**SUMME**ドイツ語で。 Aspose.Cells は、英語以外の関数名では機能しません。 Microsoft Excel VBA には、**Range.FormulaLocal**言語または地域ごとに関数の名前を返すプロパティ。 Aspose.Cellsも提供しています[**Cell.FormulaLocal**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formulalocal)この目的のためのプロパティ。ただし、このプロパティは、実装する場合にのみ機能します[**GlobalizationSettings.GetLocalFunctionName(string standardName)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname)方法。
+## **可能な使用シナリオ**
 
-## **Excel VBA Range.FormulaLocal と同様の Cell.FormulaLocal を実装します。**
+Microsoft Excelの関数は、異なる地域や言語で異なるロケール名を持つ場合があります。例えば、**SUM**関数はドイツ語では**SUMME**と呼ばれます。Aspose.Cellsでは、非英語の関数名は使用できません。Microsoft Excel VBAには、関数の名前をその言語や地域に合わせて返す**Range.FormulaLocal**プロパティがあります。Aspose.Cellsもこの目的のために[**Cell.FormulaLocal**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formulalocal)プロパティを提供しています。ただし、このプロパティは[**GlobalizationSettings.GetLocalFunctionName(string standardName)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname)メソッドを実装している場合にのみ機能します。
 
-次のサンプル コードでは、実装方法について説明します。[**GlobalizationSettings.GetLocalFunctionName(string standardName)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname)方法。このメソッドは、標準関数のローカル名を返します。標準関数名が**和**、それを返します**UserFormulaLocal_SUM**.必要に応じてコードを変更し、正しいローカル関数名を返すことができます。**和**は**SUMME**ドイツ語で**文章**は**ТЕКСТ**ロシア語で。以下のサンプル コードのコンソール出力も参照してください。
+## **Excel VBAのRange.FormulaLocalと同様にCell.FormulaLocalを実装する**
+
+以下のサンプルコードは、[**GlobalizationSettings.GetLocalFunctionName(string standardName)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname)メソッドの実装方法を説明しています。このメソッドは、標準関数のローカル名を返します。標準関数名が **SUM** の場合、**UserFormulaLocal_SUM** を返します。**SUM** はドイツ語では **SUMME** 、ロシア語では **ТЕКСТ** となります。必要に応じてコードを変更し、正しいローカル関数名を返してください。また、下記のサンプルコードのコンソール出力も参照してください。
 
 ## **サンプルコード**
 
@@ -18,7 +19,7 @@ url: /ja/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Formula Local: =UserFormulaLocal_SUM(A1:A2)
 

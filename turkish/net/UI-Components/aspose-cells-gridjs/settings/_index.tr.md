@@ -1,18 +1,20 @@
-﻿---
-title: GridJ'ler için ayarlar
+---
+title: GridJs için Ayarlar
 type: docs
 weight: 250
 url: /tr/net/aspose-cells-gridjs/settings/
-description: Bu makalede, GridJ'ler için ayar açıklanmaktadır.
-keywords: settings
+description: Bu makale GridJs için ayarları açıklar.
+keywords: GridJs, ayarlar, GridWorkbookSettings
 ---
-set GridWorkbookSettings ile belirtebileceğimiz bazı ayarlar var:
-
- 
-- **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)**
 
 
-Örneğin, aşağıdaki kod, dosyayı açarken caculate'i durdurmak için ReCalculateOnOpen'ı false olarak ayarlar:
+GridWorkbookSettings'ı belirterek ayarlayabileceğimiz bazı ayarlarımız vardır:
+
+
+- [**GridWorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)
+
+
+Örneğin, aşağıdaki kod, Dosya'nın açılması sırasında hesaplamanın durdurulması için ReCalculateOnOpen özelliğini false olarak ayarlar:
 ```C#
    GridJsWorkbook gw = new GridJsWorkbook();
    GridWorkbookSettings gws = new GridWorkbookSettings();
@@ -31,4 +33,4 @@ set GridWorkbookSettings ile belirtebileceğimiz bazı ayarlar var:
     gw.ImportExcelFile(@"c:\test.xlsx");
 ```
 Bu sınıfta daha fazla ayarı kontrol edebilirsiniz.
- 
+

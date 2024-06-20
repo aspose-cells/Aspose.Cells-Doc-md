@@ -1,22 +1,23 @@
-﻿---
-title: إدارة وسيلة إيضاح مخططات Excel
-linktitle: عنوان تفسيري
+---
+title: إدارة وسيلة جداول رسوم بيانية إكسل
+linktitle: أسطورة
 type: docs
 weight: 50
 url: /ar/java/chart-legend/
 ---
+
 ## **خيارات الأسطورة**
- يسمح Aspose.Cells أيضًا بإدارة وسيلة إيضاح الرسم البياني في وقت التشغيل ， مع[عنوان تفسيري](https://reference.aspose.com/cells/java/com.aspose.cells/Legend) الكائن ، الأسطورة يمكن نقلها وتحديثها وتنسيقها.
+تسمح Aspose.Cells أيضًا بإدارة وسم الرسم البياني في وقت التشغيل، بوساطة كائن [وسم](https://reference.aspose.com/cells/java/com.aspose.cells/Legend)، يمكن نقل وسم الرسم البياني، تحديثه وتنسيقه.
 
-|![ما يجب القيام به: image_بديل_نص](chart_legend.png)|
+|![todo:image_alt_text](chart_legend.png)|
 
-## **إعداد وسيلة إيضاح الرسم البياني**
- من السهل إدارة أسطورة المخطط باستخدام Aspose.Cells[عنوان تفسيري](https://reference.aspose.com/cells/java/com.aspose.cells/Legend).
+## **ضبط أسطورة الرسم البياني**
+من السهل إدارة وسم الرسم البياني مع Aspose.Cells [وسم](https://reference.aspose.com/cells/java/com.aspose.cells/Legend).
 
-يوضح مقتطف الشفرة التالي كيفية إدارة وسيلة الإيضاح:
+توضح مقتطفات الكود التالية كيفية إدارة الأسطورة:
 
 
-{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "chart_legend.cs" >}}
+{{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "chart_legend.java" >}}
 
-## **موضوعات مسبقة**
-- [تعيين نص إدخال وسيلة إيضاح الرسم البياني إلى لا شيء باستخدام Aspose.Cells](/cells/ar/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+## **مواضيع متقدمة**
+- [ضبط نص إدخال وسام الرسم البياني على لا شيء باستخدام Aspose.Cells](/cells/ar/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)

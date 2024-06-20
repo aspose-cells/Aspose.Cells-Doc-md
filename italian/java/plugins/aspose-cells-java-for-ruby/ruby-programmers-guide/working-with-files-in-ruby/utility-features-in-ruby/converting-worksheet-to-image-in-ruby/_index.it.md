@@ -1,45 +1,46 @@
-﻿---
-title: Conversione del foglio di lavoro in immagine in Ruby
+---
+title: Conversione di un foglio di lavoro in immagine in Ruby
 type: docs
 weight: 60
 url: /it/java/converting-worksheet-to-image-in-ruby/
 ---
-## **Aspose.Cells - Conversione del foglio di lavoro in immagine**
-Per convertire il foglio di lavoro in immagine utilizzando Aspose.Cells for Java in Ruby, è sufficiente richiamare il modulo Convertitore.
 
-**Codice Rubino**
+## **Aspose.Cells - Conversione di un foglio di lavoro in immagine**
+Per convertire un foglio di lavoro in immagine utilizzando Aspose.Cells for Java in Ruby, basta invocare il modulo Converter.
 
-{{< highlight "ruby" >}}
+**Codice Ruby**
 
- foglio di lavoro def_a_immagine (cartella di lavoro)
+{{< highlight ruby >}}
 
-#Crea un oggetto per ImageOptions
+ def worksheet_to_image(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
+    #Create an object for ImageOptions
 
-
-
-# Imposta il tipo di immagine
-
-image_format = Rjb::import('com.aspose.cells.ImageFormat')
-
-imm_opzioni.setImageFormat(image_formato.getPng())
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
 
 
-# Ottieni il primo foglio di lavoro.
+    # Set the image type
 
-foglio = cartella di lavoro.getWorksheets().get(0)
+    image_format = Rjb::import('com.aspose.cells.ImageFormat')
 
-# Crea un oggetto SheetRender per il foglio di destinazione
-
-sr = Rjb::import('com.aspose.cells.SheetRender').new(foglio, img_options)
+    img_options.setImageFormat(image_format.getPng())
 
 
 
-j = 0
+    # Get the first worksheet.
 
- mentre j< sr.getPageCount()
+    sheet = workbook.getWorksheets().get(0)
+
+    # Create a SheetRender object for the target sheet
+
+    sr = Rjb::import('com.aspose.cells.SheetRender').new(sheet, img_options)
+
+
+
+    j = 0
+
+    while j < sr.getPageCount()
 
         # Generate an image for the worksheet
 
@@ -55,6 +56,6 @@ end 
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Conversione del foglio di lavoro in immagine (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Conversione di un foglio di lavoro in immagine (Aspose.Cells)** da uno qualsiasi dei siti di codice sociale sotto elencati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

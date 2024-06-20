@@ -1,16 +1,17 @@
-﻿---
+---
 title: Отображение или скрытие вкладок в Ruby
 type: docs
 weight: 40
 url: /ru/java/display-or-hide-tabs-in-ruby/
 ---
-## **Aspose.Cells — Показать или скрыть вкладки**
+
+## **Aspose.Cells - Отображение или скрытие вкладок**
 ### **Скрытие вкладок**
- Чтобы скрыть вкладки с помощью**Aspose.Cells Java для рубина** , вызов**показать скрыть вкладки** модуль.
+Чтобы скрыть вкладки с помощью **Aspose.Cells Java для Ruby**, вызовите модуль **displayhidetabs**.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -29,19 +30,19 @@ workbook.save(data_dir + "output.xls")
 puts "Tabs are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Делаем вкладки видимыми**
-Сделайте вкладки видимыми с помощью метода setSheetTabBarHidden(false) класса Workbook.
+### **Отображение вкладок**
+Сделайте вкладки видимыми с помощью метода setSheetTabBarHidden(false) класса Workbook.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the tabs of the Excel file
 
 workbook.getSettings().setSowTabs(true)
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Скрыть или отобразить или скрыть вкладки (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Скрыть или отобразить вкладки (Aspose.Cells)** с любого из указанных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidetabs.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidetabs.rb)

@@ -1,42 +1,47 @@
-﻿---
-title: Отслеживание процесса преобразования документа
+---
+title: Отслеживание процесса конвертации документа
 type: docs
 weight: 120
 url: /ru/java/track-document-conversion-progress/
 ---
+
 ## **Возможные сценарии использования**
 
-Иногда преобразование больших файлов Excel может занять некоторое время. В это время вы можете захотеть показать ход преобразования документа, а не просто экран загрузки, чтобы повысить удобство использования вашего приложения. Aspose.Cells поддерживает процесс преобразования документа отслеживания, предоставляя**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**интерфейс.**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**интерфейс обеспечивает**[PageStartSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs))**и**[PageEndSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs))** методы, которые вы можете реализовать в своем пользовательском классе. Вы также можете управлять отображением страниц, как показано в*TestPageSavingCallback*пользовательский класс.
+Иногда преобразование больших файлов Excel может занимать некоторое время. Во время этого, вы можете показать процесс преобразования документа вместо простого экрана загрузки для улучшения удобства использования вашего приложения. Aspose.Cells поддерживает отслеживание процесса преобразования документа, предоставляя интерфейс [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). Интерфейс [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) предоставляет методы [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) и [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)), которые вы можете реализовать в своем собственном классе. Вы также можете контролировать, какие страницы рендерятся, как показано в пользовательском классе *TestPageSavingCallback*.
 
-## **Отслеживание процесса преобразования документа**
+## **Отслеживание прогресса конвертации документов**
 
-Следующий пример кода загружает[исходный файл excel](PagesBook1.xlsx)и выводит ход преобразования в консоли с помощью команды*TestPageSavingCallback*пользовательский класс, который реализует**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**интерфейс.
+В следующем образце кода загружается [исходный файл Excel](PagesBook1.xlsx) и выводится его процесс преобразования в консоли при использовании пользовательского класса *TestPageSavingCallback*, реализующего интерфейс [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback).
 
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgress-1.java" >}}
 
-Ниже приведен код для*TestPageSavingCallback*пользовательский класс.
+Ниже приведен код для пользовательского класса *TestPageSavingCallback*.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgress-2.java" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
-Начать сохранение индекса страницы 0 из страниц 11</br>
-Завершить сохранение индекса страницы 0 из страниц 11</br>
-Начать сохранение индекса страницы 1 из страниц 11</br>
-Завершить сохранение индекса страницы 1 из страниц 11</br>
-Начать сохранение указателя страниц 2 со страниц 11</br>
-Завершить сохранение указателя страниц 2 из страниц 11</br>
-Начать сохранение указателя страницы 3 из страниц 11</br>
-Завершить сохранение указателя страниц 3 из страниц 11</br>
-Начать сохранение указателя страниц 4 из страниц 11</br>
-Завершить сохранение указателя страниц 4 из страниц 11</br>
-Начать сохранение индекса страницы 5 из страниц 11</br>
-Завершить сохранение индекса страницы 5 из страниц 11</br>
-Начать сохранение указателя страницы 6 из страниц 11</br>
-Завершить сохранение указателя 6 страницы из 11</br>
-Начать сохранение индекса страницы 7 из страниц 11</br>
-Завершить сохранение оглавления страницы 7 из страниц 11</br>
-Начать сохранение указателя страницы 8 из страниц 11</br>
-Завершить сохранение индекса страницы 8 из страниц 11
+{{< highlight java >}}
+
+Start saving page index 0 of pages 11</br>
+End saving page index 0 of pages 11</br>
+Start saving page index 1 of pages 11</br>
+End saving page index 1 of pages 11</br>
+Start saving page index 2 of pages 11</br>
+End saving page index 2 of pages 11</br>
+Start saving page index 3 of pages 11</br>
+End saving page index 3 of pages 11</br>
+Start saving page index 4 of pages 11</br>
+End saving page index 4 of pages 11</br>
+Start saving page index 5 of pages 11</br>
+End saving page index 5 of pages 11</br>
+Start saving page index 6 of pages 11</br>
+End saving page index 6 of pages 11</br>
+Start saving page index 7 of pages 11</br>
+End saving page index 7 of pages 11</br>
+Start saving page index 8 of pages 11</br>
+End saving page index 8 of pages 11
+
+{{< /highlight >}}

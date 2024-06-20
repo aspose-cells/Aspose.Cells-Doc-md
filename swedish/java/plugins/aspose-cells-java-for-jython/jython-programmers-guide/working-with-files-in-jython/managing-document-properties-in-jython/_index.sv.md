@@ -1,15 +1,16 @@
-﻿---
+---
 title: Hantera dokumentegenskaper i Jython
 type: docs
 weight: 60
 url: /sv/java/managing-document-properties-in-jython/
 ---
+
 ## **Aspose.Cells - Hantera dokumentegenskaper**
- För att lägga till dokument med hjälp av**Aspose.Cells Java för Jython**. Här kan du se exempelkod.
+Att lägga till dokument med **Aspose.Cells Java för Jython**. Här kan du se exempelkod.
 
-**Jython Code**
+**Jython Kod**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -63,7 +64,7 @@ if __name__ == '__main__':
     ManagingDocumentProperties()
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Bifoga dokument (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ned **Hämta dokument (Aspose.Cells)** från någon av de sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ManagingDocumentProperties.py)

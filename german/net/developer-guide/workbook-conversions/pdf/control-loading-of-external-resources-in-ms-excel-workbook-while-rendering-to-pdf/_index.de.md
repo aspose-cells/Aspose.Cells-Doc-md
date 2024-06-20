@@ -1,18 +1,19 @@
-﻿---
-title: Steuern Sie das Laden externer Ressourcen in der MS Excel-Arbeitsmappe, während Sie auf PDF rendern
+---
+title: Steuerung des Ladens externer Ressourcen in MS Excel Arbeitsmappe beim Rendern in PDF
 type: docs
 weight: 40
 url: /de/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Ihre Excel-Datei kann externe Ressourcen enthalten, zB verlinkte Bilder oder Objekte. Wenn Sie Ihre Excel-Datei in PDF konvertieren, ruft Aspose.Cells diese externen Ressourcen ab und rendert sie in PDF. Aber manchmal möchten Sie diese externen Ressourcen nicht laden und darüber hinaus möchten Sie sie manipulieren. Sie können dies mit tun[**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider)die die implementiert[**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)Schnittstelle.
+## **Mögliche Verwendungsszenarien**
 
-## **Steuern Sie das Laden externer Ressourcen in der MS Excel-Arbeitsmappe, während Sie auf PDF rendern**
+Ihre Excel-Datei kann externe Ressourcen wie verlinkte Bilder oder Objekte enthalten. Wenn Sie Ihre Excel-Datei in PDF konvertieren, ruft Aspose.Cells diese externen Ressourcen ab und rendert sie in PDF. Manchmal möchten Sie jedoch diese externen Ressourcen nicht laden und darüber hinaus möchten Sie sie manipulieren. Dies können Sie mit [**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) tun, das das [**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)-Interface implementiert.
 
- Der folgende Beispielcode erläutert die Verwendung von[**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) um das Laden externer Ressourcen zu steuern und zu manipulieren. Bitte überprüfen Sie die[Beispiel-Excel-Datei](50528322.xlsx) innerhalb des Codes und der verwendet[Ausgang PDF](50528325.pdf) vom Code generiert. Das[Bildschirmfoto](50528326.png) zeigt, wie die[altes Außenbild](50528324.png) in der Beispiel-Excel-Datei wurde durch a ersetzt[neues Bild](50528323.png) in der Ausgabe PDF.
+## **Steuerung des Ladens externer Ressourcen in MS Excel-Arbeitsmappe beim Rendern in PDF**
 
-![todo: Bild_alt_Text](control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf_1.png)
+Der folgende Beispielcode erklärt, wie [**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) genutzt werden kann, um das Laden externer Ressourcen zu steuern und sie zu manipulieren. Bitte überprüfen Sie die im Code verwendete [Beispiel-Excel-Datei](50528322.xlsx) und das vom Code generierte [Ausgabepdf](50528325.pdf). Der [Screenshot](50528326.png) zeigt, wie das [alte externe Bild](50528324.png) in der Beispiel-Excel-Datei durch ein [neues Bild](50528323.png) im Ausgabepdf ersetzt wurde.
+
+![todo:image_alt_text](control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf_1.png)
 
 ## **Beispielcode**
 

@@ -1,26 +1,101 @@
-﻿---
-title: ワークシート情報を取得する
+---
+title: ワークシート情報を取得
 type: docs
 weight: 50
 url: /ja/net/get-worksheet-information/
 ---
-## **OpenXML エクセル**
-{{< highlight "csharp" >}}
 
-string FilePath = @"..\..\..\..\Sample Files\";
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
-string FileName = FilePath + "ワークシート情報を取得.xlsx";
+ string FilePath = @"..\..\..\..\Sample Files\";
 
-GetSheetInfo(ファイル名);
+string FileName = FilePath + "Get worksheet information.xlsx";
+
+GetSheetInfo(FileName);
 
 Console.ReadKey();
 
 }
 
-public static void GetSheetInfo(文字列ファイル名)
+public static void GetSheetInfo(string fileName)
 
-{  // ファイルを読み取り専用で開きます。シート、シート情報を表示する、attr.localname、attr.value）; _ x000d_ }  }  }   {{< /highlight >}} ## ** 07611481__x000 .. Files\";  string FileName = FilePath + "ワークシート情報を取得.xlsx";  GetSheetInfo(ファイル名);  Console.ReadKey();  }
+{
+
+// Open file as read-only.
+
+using (SpreadsheetDocument mySpreadsheet = SpreadsheetDocument.Open(fileName, false))
+
+{
+
+    S sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets;
+
+    // For each sheet, display the sheet information.
+
+    foreach (E sheet in sheets)
+
+    {
+
+        foreach (A attr in sheet.GetAttributes())
+
+        {
+
+            Console.WriteLine("{0}: {1}", attr.LocalName, attr.Value);
+
+        }
+
+    }
+
+}
+
+{{< /highlight >}}
+## **Aspose.Cells**
+{{< highlight csharp >}}
+
+ string FilePath = @"..\..\..\..\Sample Files\";
+
+string FileName = FilePath + "Get worksheet information.xlsx";
+
+GetSheetInfo(FileName);
+
+Console.ReadKey();
+
+}
 
 private static void GetSheetInfo(string fileName)
 
-{  //Workbook オブジェクトのインスタンス化  Workbook workbook = new Workbook(fileName);  //workbook 内のすべてのシートをループする  foreach (workbook.Worksheets 内の Worksheet Sheet)0  //Get _x00d_0 Index of Sheet  Console.WriteLine("Sheet Name: {0}", Sheet.Name);  Console.WriteLine("Sheet Index: {0}", Sheet.Index);  //すべてのカスタムをループProperties  foreach（sheet.customporteriesのカスタムプロパティプロパティ）  {  console.writeLine（ "{0}：{1}"、property.name）; **サンプル コードのダウンロード** - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1) - [Sourceforge](https://sourceforge .net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20worksheet%20information%20\(Aspose.Cells \).zip/download) - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20worksheet%20information%20\(Aspose.Cells\).zip)
+{
+
+//Instantiating a Workbook object
+
+Workbook workbook = new Workbook(fileName);
+
+//Loop through all Sheets in the workbook
+
+foreach (Worksheet Sheet in workbook.Worksheets)
+
+{
+
+    //Get Name and Index of Sheet
+
+    Console.WriteLine("Sheet Name: {0}", Sheet.Name);
+
+    Console.WriteLine("Sheet Index: {0}", Sheet.Index);
+
+    //Loop through all custom properties
+
+    foreach (CustomProperty Property in Sheet.CustomProperties)
+
+    {
+
+        Console.WriteLine("{0}: {1}", Property.Name, Property.Value);
+
+    }
+
+}
+
+{{< /highlight >}}
+## **サンプルコードをダウンロード**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20worksheet%20information%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20worksheet%20information%20\(Aspose.Cells\).zip)

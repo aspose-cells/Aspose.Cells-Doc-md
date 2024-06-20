@@ -1,16 +1,17 @@
-﻿---
-title: Ändra egenskaper för skivare
+---
+title: Ändra sliceregenskaper
 type: docs
 weight: 70
 url: /sv/net/change-slicer-properties/
 ---
-## **Möjliga användningsscenarier**
 
-Det kan finnas situationer där du kanske vill ändra egenskaperna för Slicer, såsom placering eller radhöjd. Aspose.Cells ger dig möjlighet att uppdatera dessa egenskaper.
+## **Möjliga användningsscenario**
 
-## **Ändra egenskaper för skivare**
+Det kan finnas situationer där du vill ändra egenskaperna för slicern, såsom placering eller radhöjd. Aspose.Cells ger dig möjlighet att uppdatera dessa egenskaper.
 
- Se följande exempelkod. Den laddar[exempel på Excel-fil](sampleCreateSlicerToExcelTable.xlsx) som innehåller en tabell. Den skapar sedan skivan baserat på den första kolumnen och ändrar dess egenskaper som radhöjd, bredd, är utskrivbar, titel, etc. Den sparar arbetsboken som[outputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
+## **Ändra Slicer-egenskaper**
+
+Var god se följande exempelkod. Den laddar in den [exempel-Excel-filen](sampleCreateSlicerToExcelTable.xlsx) som innehåller en tabell. Den skapar sedan slicern baserat på den första kolumnen och ändrar dess egenskaper som radhöjd, bredd, är utskrivbar, titel, osv. Den sparar arbetsboken som [utdataChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
 
 ## **Exempelkod**
 

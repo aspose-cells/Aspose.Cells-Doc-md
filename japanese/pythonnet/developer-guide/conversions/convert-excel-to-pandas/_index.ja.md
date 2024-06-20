@@ -1,28 +1,29 @@
 ---
-title: Excel を Pandas データフレームに変換する
+title: ExcelをPandas DataFrameに変換
 type: docs
 weight: 30
 url: /ja/python-net/convert-excel-to-pandas-dataframe/
 description: Aspose.Cells for Python via .NET API を使用して Pandas を Excel に変換します。
-keywords: Python Convert Excel to Pandas DataFrame, Export Excel to Pandas DataFrame in Python via NET, Python Convert xlsx to  Pandas DataFrame, Save excel to Pandas DataFrame.
+keywords: PythonでExcelをPandas DataFrameに変換し、PythonでExcelをPandas DataFrameにエクスポートする方法via NET、PythonでxlsxをPandas DataFrameに変換し、ExcelをPandas DataFrameに保存します。
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET API を使用すると、Excel、TSV、CSV、Json、およびさまざまな形式を pandas DataFrame に変換できます。
+Aspose.Cells for Python via .NET APIを使用すると、Excel、TSV、CSV、Jsonなど、さまざまな形式をpandas DataFrameに変換できます。
 
 {{% /alert %}}
 
-##  **json データを介して Excel を Pandas DataFrame に変換する**
-Aspose.Cells for Python via .NET を使用して、json データ経由で Excel データを pandas DataFrame にエクスポートする方法を示すコード スニペットの例を次に示します。
-1. ワークブックを作成し、いくつかの値を追加します。
-1. Excel データを JSON 文字列にエクスポートします。
-1. pandas ライブラリを使用して JSON データを読み取ります。
+## **ExcelをJSONデータを介してPandas DataFrameに変換する**
+Aspose.Cells for Python via .NETを使用して、ExcelデータをJSONデータを介してPandas DataFrameにエクスポートする方法を示すコードスニペットの例です。
+1. Workbookを作成していくつかの値を追加します。
+1. ExcelデータをJSON文字列にエクスポートします。
+1. pandasライブラリを使用してJSONデータを読み込みます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-by-json.py" >}}
 
-##  **Pandas DataFrame を Excel に直接変換する**
-以下は、Aspose.Cells for Python via .NET を使用して Excel データを pandas DataFrame に直接エクスポートする方法を示すコード スニペットの例です。
-1. ワークブックを作成し、いくつかの値を追加します。
-1. Excel データをトラバースし、Aspose.Cells for Python via .NET を使用してデータを Pandas DataFrame にエクスポートします。
+## **Pandas DataFrame を直接 Excel に変換**
+Aspose.Cells for Python via .NETを使用して、ExcelデータをPandas DataFrameに直接エクスポートする方法を示すコードスニペットの例です。
+1. Workbookを作成していくつかの値を追加します。
+1. ExcelデータをトラバースしてAspose.Cells for Python via .NETを使用してPandas DataFrameにデータをエクスポートします。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Pandas-export-excel-to-pandas-dataframe-directly.py" >}}

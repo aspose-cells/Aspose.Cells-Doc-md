@@ -1,19 +1,20 @@
-﻿---
+---
 title: Detectar tipo de hipervínculo
 type: docs
 weight: 180
 url: /es/java/detect-hyperlink-type/
 ---
+
 ## **Detectar tipo de hipervínculo**
 
-Un archivo de Excel puede tener diferentes tipos de hipervínculos como externo, referencia de celda, ruta de archivo, etc. Aspose.Cells admite la función para detectar el tipo de hipervínculo. Los tipos de hipervínculos están representados por el[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Enumeración. Él[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)La enumeración tiene los siguientes miembros.
+Un archivo de Excel puede tener diferentes tipos de hipervínculos como externos, referencias a celdas, rutas de archivos, etc. Aspose.Cells admite la función de detectar el tipo de hipervínculo. Los tipos de hipervínculos están representados por la Enumeración [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). La Enumeración [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) tiene los siguientes miembros.
 
-- [**EXTERNO**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Enlace externo
-- [**RUTA DE ARCHIVO**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Ruta local y completa a archivos\carpetas.
+- [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Enlace externo
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Ruta local y completa a archivos\carpetas.
 - [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): Correo electrónico
-- [**REFERENCIA_CELULAR**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Enlace a celda o rango con nombre.
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Enlace a celda o rango con nombre.
 
-Para comprobar el tipo de hipervínculo, el[**Hipervínculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) la clase proporciona un[**Tipo de enlace**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) propiedad con un tipo de retorno de[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). El siguiente fragmento de código demuestra el uso de la[**Tipo de enlace**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)propiedad usando este[archivo fuente excel](LinkTypes.xlsx).
+Para verificar el tipo de hipervínculo, la clase [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) proporciona una propiedad [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) con un tipo de retorno de [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). El siguiente fragmento de código demuestra el uso de la propiedad [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) utilizando este [archivo de Excel fuente](LinkTypes.xlsx).
 
 ## Código fuente
 
@@ -21,7 +22,7 @@ Para comprobar el tipo de hipervínculo, el[**Hipervínculo**](https://reference
 
 El siguiente es el resultado generado por el fragmento de código dado anteriormente.
 
-## Salida de consola
+## Salida de la consola
 ```
 LinkTypes.xlsx: FILE_PATH </br>
 C:\Windows\System32\cmd.exe: FILE_PATH </br>

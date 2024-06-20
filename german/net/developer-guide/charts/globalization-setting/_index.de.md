@@ -1,48 +1,49 @@
 ---
-title: Konvertieren Sie das Diagramm in ein lokalisiertes Bild
-description: Erfahren Sie, wie Sie Globalisierungskonfigurationen für Diagramme mithilfe von Aspose.Cells for .NET festlegen. Unser Leitfaden zeigt, wie Sie das Diagramm so konfigurieren, dass es mehrere Sprachen und regionale Formate unterstützt, um Text, Datumsangaben und Zahlen in verschiedenen Sprachen korrekt anzuzeigen.
-keywords: Aspose.Cells for .NET, Charts, Globalization Settings, Multiple Languages, Regional Formats, Display, Text, Dates, Numbers.
-linktitle: Legen Sie die lokalisierte Region fest
+title: Diagramm in lokalisiertes Bild konvertieren
+description: Erfahren Sie, wie Sie Globalisierungskonfigurationen für Diagramme mithilfe von Aspose.Cells for .NET setzen können. Unser Leitfaden zeigt, wie Sie das Diagramm so konfigurieren, dass es multiple Sprachen und regionale Formate unterstützt, um Text, Datum und Zahlen in verschiedenen Sprachen korrekt anzuzeigen.
+keywords: Aspose.Cells for .NET, Diagramme, Globalisierungseinstellungen, Mehrere Sprachen, Regionale Formate, Anzeige, Text, Daten, Zahlen.
+linktitle: Lokalisierten Bereich festlegen
 type: docs
 weight: 50
 url: /de/net/convert-chart-to-localized-image/
 alias: [/net/how-to-set-globalization-configuration-for-chart/]
 ---
+
 {{% alert color="primary" %}}
 
-In diesem Thema zeigen wir Ihnen, wie Sie ein Diagramm in ein lokalisiertes Bild konvertieren. Sie erfahren, wie Sie den lokalisierten Bereich für ein Diagramm festlegen.
+In diesem Thema zeigen wir Ihnen, wie Sie ein Diagramm in ein lokalisiertes Bild umwandeln können. Sie erfahren, wie Sie einen lokalisierten Bereich für ein Diagramm festlegen können.
 
 {{% /alert %}}
 
-##  **Szenario**
+## **Szenario**
 
- In welchem Szenario müssten wir eine lokalisierte Region für ein Diagramm festlegen?
+In welchem Szenario müssen wir einen lokalisierten Bereich für ein Diagramm festlegen? 
 
-Wenn Sie eine XLSX-Datei mit einem Diagramm in Excel öffnen, nehmen wir in diesem Fall an, dass Sie sie mit einer spanischen Regionaleinstellung in Excel öffnen, können Sie die Elemente im Diagrammbereich sehen, wie z. B. Diagrammtitel, Länge, sie werden ins Spanische übersetzt. Wenn Sie dieses Diagramm jedoch als Bild mit Aspose.Cells speichern, kann das folgende Problem auftreten:
+Wenn Sie eine xlsx-Datei mit einem Diagramm in Excel öffnen, und in diesem Fall angenommen wird sie mit spanischer regionaler Einstellung in Excel geöffnet, sehen Sie die Elemente im Diagrammbereich, wie den Diagrammtitel, die Legende, sie sind ins Spanische übersetzt. Aber wenn Sie dieses Diagramm als Bild mit Aspose.Cells speichern, können Sie auf folgendes Problem stoßen: 
 
 **![Globales Problem](GlobalIssue.png)**
 
-In diesem Szenario sind die Diagrammlängen im Ausgabebild nicht dieselben wie in Excel, sie werden standardmäßig weiterhin in Englisch angezeigt. Jetzt können Sie dieses Problem lösen, indem Sie eine lokalisierte Region für das Diagramm festlegen. Mit den richtigen Einstellungen werden die folgenden Elemente entsprechend Ihren Lokalisierungseinstellungen gerendert.
+In diesem Szenario werden die Elemente der Diagrammlegende im Ausgabebild nicht gleich wie in Excel dargestellt, sie bleiben standardmäßig in Englisch angezeigt. Jetzt können Sie dieses Problem lösen, indem Sie einen lokalisierten Bereich für das Diagramm festlegen. Mit den richtigen Einstellungen werden die folgenden Elemente gemäß Ihren Lokalisierungseinstellungen gerendert.
 
-##  **Unterstützte Elemente**
+## **Unterstützte Elemente**
 
 Die folgenden Elemente im Diagramm können entsprechend Ihren Lokalisierungseinstellungen gerendert werden.
 
 |**Unterstützte Elemente**|**Standardwert in der englischen Umgebung**|
 | :- | :- |
-|Name des Achsentitels|Achsentitel|
-|Name der Achseneinheit|Hunderte, Tausende...|
-|Name des Diagrammtitels|Diagrammtitel|
-|Legende: Name erhöhen|Zunahme|
-|Name der Legende verringern|Verringern|
-|Gesamtname der Legende|Gesamt|
-|Anderer Name|Andere|
-|Serienname|Serie|
+|Achsentiteln Name|Achsentitel|
+|Achsenwert-Name|Hunderter, Tausender...|
+|Diagrammtitel-Name|Diagrammtitel|
+|Legende Zunahme-Name|Zunahme|
+|Legende Abnahme-Name|Abnahme|
+|Legende Gesamt-Name|Gesamt|
+|Andere Name|Andere|
+|Serienname|Serien|
 
-##  **Bedienungsschritte**
+## **Betriebsschritte**
 
-Das folgende Beispiel zeigt Ihnen im Detail, wie Sie den lokalisierten Bereich festlegen, um den gewünschten Effekt zu erzielen.
+Das folgende Beispiel wird Ihnen im Detail zeigen, wie Sie eine lokalisierte Region festlegen, um den gewünschten Effekt zu erzielen.
 
-- [So legen Sie die chinesische Region für ein Diagramm fest](/cells/de/net/convert-chart-to-image-for-chinese-region/)
-- [So legen Sie die japanische Region für das Diagramm fest](/cells/de/net/convert-chart-to-image-for-japanese-region/)
+- [Wie man die chinesische Region für das Diagramm einstellt](/cells/de/net/convert-chart-to-image-for-chinese-region/)
+- [Wie man die japanische Region für das Diagramm einstellt](/cells/de/net/convert-chart-to-image-for-japanese-region/)
 

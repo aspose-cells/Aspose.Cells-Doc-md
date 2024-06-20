@@ -1,33 +1,34 @@
-﻿---
-title: Упаковка Cell Текст в VSTO и Aspose.Cells
+---
+title: Перенос текста в ячейке VSTO и Aspose.Cells
 type: docs
 weight: 250
 url: /ru/net/wrapping-cell-text-in-vsto-and-aspose-cells/
 ---
-Чтобы создать рабочий лист с двумя ячейками, одна с переносом текста и одна без:
 
-1.  Настройте рабочий лист:
- 1. Создайте рабочую книгу.
- 1. Откройте первый рабочий лист.
-1.  Добавить текст:
- 1. Добавьте текст в ячейку A1.
- 1. Добавьте переносимый текст в ячейку A5.
-1. Сохраните таблицу.
- В приведенных ниже примерах кода показано, как выполнить эти шаги с помощью VSTO с любым из C#. Примеры кода, которые показывают, как сделать то же самое, используя Aspose.Cells for .NET, снова используя либо C#, следуют сразу за ними.
+Для создания листа с двумя ячейками, одна из которых содержит перенесенный текст, а другая - нет:
 
-Выполнение кода приводит к электронной таблице с двумя ячейками, одна из которых содержит текст, который не был перенесен, а другая имеет:
+1. Настройте лист: 
+   1. Создать книгу.
+   1. Получите доступ к первому листу.
+1. Добавьте текст: 
+   1. Добавьте текст в ячейку A1.
+   1. Добавьте перенесенный текст в ячейку A5.
+1. Сохраните электронную таблицу.
+   Приведенные ниже образцы кода показывают, как выполнить эти шаги с использованием VSTO на C#. Образцы кода, показывающие, как выполнить то же самое с использованием Aspose.Cells for .NET, снова с использованием C#, следуют непосредственно после.
+
+Запуск кода приводит к электронной таблице с двумя ячейками, одна из которых содержит текст, который не был перенесен, а другая содержит:
 
 ## **Вывод с использованием VSTO Excel**
 
-![дело:изображение_альтернативный_текст](picture1.png)
+![todo:image_alt_text](picture1.png)
 
 ## **Вывод с использованием Aspose.Cells for .NET**
 
-![дело:изображение_альтернативный_текст](picture2.png)
+![todo:image_alt_text](picture2.png)
 
-## **ВСТО**
+## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Access vsto application
 
@@ -71,7 +72,7 @@ app.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void WrappingCellText()
 
@@ -115,8 +116,8 @@ app.Quit();
 
 {{< /highlight >}}
 
-## **Скачать пример кода**
+## **Загрузить образец кода**
 
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
-- [Источникфорж](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/скачать)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Wrapping.Cell.Text.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Wrapping%20Cell%20Text%20\(Aspose.Cells\).zip)

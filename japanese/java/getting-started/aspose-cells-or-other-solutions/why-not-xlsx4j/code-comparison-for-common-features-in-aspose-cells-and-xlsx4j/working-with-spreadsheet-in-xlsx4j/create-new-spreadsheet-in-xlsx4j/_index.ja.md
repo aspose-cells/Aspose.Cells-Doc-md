@@ -1,15 +1,16 @@
-﻿---
-title: xlsx4j で新しいスプレッドシートを作成する
+---
+title: xlsx4jで新しいスプレッドシートを作成する
 type: docs
 weight: 30
 url: /ja/java/create-new-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - 新しいスプレッドシートの作成**
+
+## **Aspose.Cells - 新しいスプレッドシートを作成する**
 Workbook クラスは簡単に使用できます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -39,9 +40,9 @@ workbook.save(dataDir + "newWorksheet_Aspose.xls");
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "newWorksheet_Xlsx4j.xlsx";
 
@@ -114,7 +115,7 @@ private static Cell createCell(String content) {
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/createnewspreadsheet)

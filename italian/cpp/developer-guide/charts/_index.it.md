@@ -1,4 +1,4 @@
-﻿---
+---
 title: Grafici
 type: docs
 weight: 75

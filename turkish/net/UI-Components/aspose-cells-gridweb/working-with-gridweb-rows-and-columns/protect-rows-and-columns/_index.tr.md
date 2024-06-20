@@ -1,39 +1,42 @@
-﻿---
-title: Satırları ve Sütunları Koru
+---
+title: Satırları ve Sütunları Koruma
 type: docs
 weight: 60
-url: /tr/net/protect-rows-and-columns/
+url: /tr/net/aspose-cells-gridweb/protect-rows-and-columns/
+keywords: GridWeb,koruma
+description: Bu makale, GridWeb de satırları ve sütunları korumanın nasıl yapılacağını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konuda, satır ve sütunlardaki hücreleri son kullanıcılar tarafından gerçekleştirilen her türlü eylemden korumaya yönelik birkaç teknik ele alınmaktadır. Geliştiriciler bu korumayı iki teknik kullanarak uygulayabilir: satır ve sütunlardaki hücreleri salt okunur yaparak veya Aspose.Cells.GridWeb'in bağlam menüsü seçeneklerini kısıtlayarak. Bu tekniklerin her ikisi de aşağıda örnekler yardımıyla tartışılmaktadır.
+Bu konu, geliştiricilerin kullanıcılar tarafından gerçekleştirilen her türlü eylemden satırlarda ve sütunlardaki hücreleri koruması için birkaç teknik tartışmaktadır. Geliştiriciler, hücreleri satırlarda ve sütunlarda salt okunur yaparak veya Aspose.Cells.GridWeb'in bağlam menüsü seçeneklerini sınırlayarak bu korumayı uygulayabilirler. Bu tekniklerin her ikisi de aşağıda örneklerle tartışılmıştır.
 
 {{% /alert %}} 
-## **Satırlar ve Sütunlarda Cells'i koruma**
-### **Satırları ve Sütunları Salt Okunur Hale Getirme**
-Çalışma sayfasındaki satırları ve sütunları korumanın bir yolu, hücreleri salt okunur yapmaktır. Daha sonra son kullanıcılar tarafından silinemezler.
+## **Satırlarda ve Sütunlarda Hücreleri Koruma**
+### **Satırları ve Sütunları Salt Okunur Yapma**
+Bir çalışma sayfasında satırları ve sütunları korumanın bir yolu hücreleri salt okunur yapmaktır. Böylece, kullanıcılar tarafından silinemiyorlar.
 
-Satırları ve sütunları salt okunur yapmak için:
+Satırları ve sütunları salt okunur yapma:
 
 1. Aspose.Cells.GridWeb denetimini bir Web Formuna ekleyin.
 1. Koleksiyondaki GridWorksheet'e erişin.
-1. Satırlarda veya sütunlarda istediğiniz hücreleri salt okunur olarak ayarlayın.
+1. Satırlardaki veya sütunlardaki istenen hücreleri salt okunur olarak ayarlayın.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-MakeRowsColumnsReadOnly.aspx-MakeCellReadOnly.cs" >}}
-### **Bağlam Menüsü Seçeneklerini Kısıtlama**
-Aspose.Cells.GridWeb, son kullanıcıların kontrol üzerinde işlem yapmak için kullanabilecekleri bir içerik menüsü sağlar. Menü, hücreleri, satırları ve sütunları değiştirmek için birçok seçenek sunar.
+### **Bağlam Menü Seçeneklerini Kısıtlama**
+Aspose.Cells.GridWeb, kullanıcıların denetimi üzerinde işlemler yapmaları için bir bağlam menüsü sağlar. Bu menü, hücreleri, satırları ve sütunları manipüle etmek için birçok seçenek sağlar.
 
-**Eksiksiz bağlamsal seçenekler** 
+**Tüm bağlamsal seçenekler** 
 
-![yapılacaklar:resim_alternatif_metin](protect-rows-and-columns_1.png)
+![todo:image_alt_text](protect-rows-and-columns_1.png)
 
-Bağlam menüsünde bulunan seçenekleri kısıtlayarak, satırlar ve sütunlar üzerinde her türlü istemci tarafı işlemini kısıtlamak mümkündür. GridWeb denetiminin EnableClientColumnOperations ve EnableClientRowOperations özelliklerini false olarak ayarlayarak yapılabilir. GridWeb denetiminin EnableClientFreeze özelliğini false olarak ayarlayarak kullanıcıların satırları ve sütunları dondurmasını kısıtlamak da mümkündür.
+Bağlam menüsünde sunulan seçenekleri kısıtlayarak her türlü istemci tarafı işlemini kısıtlamak mümkündür. GridWeb kontrolünün EnableClientColumnOperations ve EnableClientRowOperations özelliklerini false olarak ayarlayarak bunu yapmak mümkündür. Ayrıca, GridWeb kontrolünün EnableClientFreeze özelliğini false olarak ayarlayarak kullanıcıların satır ve sütun dondurmalarını da kısıtlamak mümkündür.
 
-**Satır ve sütun seçeneklerini kısıtladıktan sonra içerik menüsü** 
+**Satır ve sütun seçenekleri kısıtlandıktan sonra bağlam menüsü** 
 
-![yapılacaklar:resim_alternatif_metin](protect-rows-and-columns_2.png)
+![todo:image_alt_text](protect-rows-and-columns_2.png)
 
 
 

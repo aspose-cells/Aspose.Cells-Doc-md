@@ -1,18 +1,19 @@
-﻿---
-title: Parsar pivotcachade poster medan Excel-fil laddas
+---
+title: Dekodning Pivot Cache poster vid inläsning av Excel fil
 type: docs
 weight: 100
 url: /sv/java/parsing-pivot-cached-records-while-loading-excel-file/
 ---
-## **Möjliga användningsscenarier**
 
-När du skapar en pivottabell tar Microsoft Excel en kopia av källdata och lagrar den i pivotcachen. Pivot-cachen hålls i minnet av Microsoft Excel. Du kan inte se det, men det är de data som pivottabellen refererar till när du bygger din pivottabell eller ändrar ett Slicer-val eller flyttar runt rader/kolumner. Detta gör det möjligt för Microsoft Excel att vara mycket lyhörd för ändringar i pivottabellen, men det kan också fördubbla storleken på din fil. När allt kommer omkring är Pivot-cachen bara en dubblett av dina källdata så det är vettigt att din filstorlek potentiellt kommer att vara dubbel.
+## **Möjliga användningsscenario**
 
-När du laddar din Excel-fil i Workbook-objektet kan du bestämma om du också vill ladda posterna för Pivot Cache eller inte, med hjälp av[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)fast egendom. Standardvärdet för den här egenskapen är**falsk**. Om Pivot Cache är ganska stor kan det öka prestandan. Men om du också vill ladda posterna för Pivot Cache bör du ställa in den här egenskapen som**Sann**.
+När du skapar en pivottabell tar Microsoft Excel en kopia av källdata och lagrar den i Pivot Cache. Pivot Cache hålls i minnet i Microsoft Excel. Du kan inte se den, men det är datan som pivottabellen hänvisar till när du bygger din pivottabell eller ändrar en Slicer-val eller flyttar rader/kolumner. Detta gör att Microsoft Excel kan vara mycket reaktivt på förändringar i pivottabellen, men det kan också dubbla storleken på din fil. Trots allt är Pivot Cache bara en kopia av din källdata så det är logiskt att din filstorlek kommer att vara potentiellt dubblerad.
 
-## **Parsar pivotcachade poster medan Excel-fil laddas**
+När du laddar din Excel-fil i Workbook-objektet kan du bestämma om du också vill ladda in posterna från Pivot Cache eller inte, med hjälp av egenskapen [**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords). Standardvärdet för denna egenskap är **false**. Om Pivot Cache är ganska stor kan det öka prestandan. Men om du också vill ladda in posterna från Pivot Cache bör du ange denna egenskap som **true**.
 
-Följande exempelkod förklarar användningen av[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)fast egendom. Den laddar[exempel på Excel-fil](61767786.xlsx)medan du analyserar de cachade pivotposterna. Sedan uppdaterar den pivottabellen och sparar den som[utdata Excel-fil](61767785.xlsx).
+## **Dekodning Pivot Cache-poster vid inläsning av Excel-fil**
+
+Följande kodexempel förklarar användningen av egenskapen [**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords). Den laddar in den [exempelvisk filen](61767786.xlsx) medan den analyserar pivotcachelagrade poster. Sedan uppdateras pivot-tabellen och sparas som den [utdataexempelviska filen](61767785.xlsx).
 
 ## **Exempelkod**
 

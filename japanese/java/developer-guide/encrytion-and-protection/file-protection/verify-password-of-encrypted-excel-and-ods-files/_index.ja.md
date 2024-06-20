@@ -1,18 +1,19 @@
-﻿---
-title: 暗号化ファイルのパスワードを確認する
+---
+title: 暗号化されたファイルのパスワードを確認する
 type: docs
 weight: 10
 url: /ja/java/verify-password-of-encrypted-excel-and-ods-files/
-description: Java コードを使用して、暗号化された Excel (xlsx、xlsb、xls、xlsm) および Open Office (ODS) ファイルのパスワードを確認します。
+description: Excel（xlsx、xlsb、xls、xlsm）およびOpenOffice（ODS）ファイルのパスワードを検証するために、Javaコードを使用します。
 ---
+
 {{% alert color="primary" %}}
-Excel (xlsx、xlsb、xls、xlsm) および Open Office (ODS) ファイルがパスワードでロックされている場合、Aspose.Cells for Java は、ファイルの特定のデータを解析することなく、単純なパスワード検証をサポートします。
+Excel（xlsx、xlsb、xls、xlsm）およびOpenOffice（ODS）ファイルがパスワードでロックされている場合、Aspose.Cells for Javaはファイルの特定のデータを解析せずに簡単なパスワード検証をサポートしています。
 {{% /alert %}}
 
-## **暗号化されたファイルのパスワードを確認する**
+## **暗号化されたファイルのパスワードを確認します**
 
-暗号化されたファイルのパスワードを確認するには、Aspose.Cells for Java を指定します。[**パスワードを照合します**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) 方法。このメソッドは、検証が必要なファイル ストリームとパスワードの 2 つのパラメーターを受け入れます。
-次のコード スニペットは、[**パスワードを照合します**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) メソッドを使用して、提供されたパスワードが有効かどうかを確認します。
+暗号化されたファイルのパスワードを確認するために、Aspose.Cells for Javaは[**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String))メソッドを提供します。これにより、ファイルストリームと確認するパスワードの2つのパラメータを受け入れます。
+以下のコードスニペットは、提供されたパスワードが有効かどうかを確認する[**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String))メソッドの使用を示しています。
 
 ### **サンプルコード:**
 

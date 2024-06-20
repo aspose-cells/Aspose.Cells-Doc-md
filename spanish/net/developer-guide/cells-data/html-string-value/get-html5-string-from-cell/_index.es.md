@@ -1,26 +1,27 @@
 ---
-title: Obtener cadena HTML5 de Cell
+title: Obtener cadena HTML5 de la Celda
 type: docs
 weight: 90
 url: /es/net/get-html5-string-from-cell/
-description: Aprenda cómo obtener una cadena HTML5 desde Cell hasta Aspose.Cells for .NET API.
-keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
+description: Aprenda cómo obtener la cadena HTML5 de la celda a través de la API Aspose.Cells for .NET.
+keywords: Obtener cadena HTML5 de la celda, obtener cadena HTML5 de la celda, administrar cadena HTML5 de la celda
 ---
-##  **Posibles escenarios de uso**
 
-Aspose.Cells devuelve la cadena HTML de la celda usando el[**ObtenerHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) método que acepta un parámetro booleano. si pasas**FALSO** como parámetro devolverá Normal HTML pero si pasa**verdadero** como parámetro, devolverá una cadena HTML5.
+## **Escenarios de uso posibles**
 
-##  **Obtener cadena HTML5 de Cell**
+Aspose.Cells devuelve la cadena HTML de la celda utilizando el método [**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) que acepta un parámetro booleano. Si pasa **false** como parámetro, devolverá HTML normal, pero si pasa **true** como parámetro, devolverá la cadena HTML5.
 
-El siguiente código de muestra crea un objeto de libro y agrega algo de texto en la celda A1 de la primera hoja de trabajo. Luego obtiene la cadena Normal HTML y HTML5 de la celda A1 usando el[**ObtenerHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)método y los imprime en la consola.
+## **Obtener cadena HTML5 de la Celda**
 
-##  **Código de muestra**
+El siguiente código de ejemplo crea un objeto de libro de trabajo y agrega un texto en la celda A1 de la primera hoja de cálculo. Luego obtiene la cadena HTML normal y HTML5 de la celda A1 usando el método [**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) e imprime en la consola.
+
+## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-GetHTML5StringFromCell.cs" >}}
 
-##  **Salida de consola**
+## **Salida de la consola**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Normal:
 

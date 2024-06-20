@@ -1,15 +1,16 @@
-﻿---
+---
 title: Gestione delle proprietà del documento in Ruby
 type: docs
 weight: 90
 url: /it/java/managing-document-properties-in-ruby/
 ---
+
 ## **Aspose.Cells - Accesso alle proprietà del documento**
-Gli sviluppatori possono utilizzare il**Indice**o**Nome** della proprietà per ottenere una proprietà specifica da a**proprietà_personalizzate**raccolta come mostrato di seguito nell'esempio.
+Gli sviluppatori possono utilizzare l'**Indice** o il **Nome** della proprietà per ottenere una proprietà specifica da una collezione di **custom_properties** come mostrato di seguito nell'esempio.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_properties()
 
@@ -37,11 +38,11 @@ end
 
 {{< /highlight >}}
 ## **Aspose.Cells - Aggiunta di proprietà personalizzate**
-Per aggiungere proprietà documento personalizzate utilizzando Aspose.Cells Java per Ruby, chiama**add_custom_property** metodo del**Documento** modulo.
+Per aggiungere proprietà del documento personalizzate usando Aspose.Cells Java per Ruby, chiamare il metodo **add_custom_property** del modulo **Documento**.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_custom_property()
 
@@ -71,11 +72,11 @@ end   
 
 {{< /highlight >}}
 ## **Aspose.Cells - Rimozione delle proprietà personalizzate**
- Per rimuovere le proprietà personalizzate del documento utilizzando Aspose.Cells Java per Ruby, chiama**remove_custom_property** metodo del**Documento** modulo.
+Per rimuovere le proprietà del documento personalizzate usando Aspose.Cells Java per Ruby, chiamare il metodo **remove_custom_property** del modulo **Documento**.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_custom_property()
 
@@ -105,6 +106,6 @@ end   
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Accesso alle proprietà del documento (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Accesso alle proprietà del documento (Aspose.Cells)** da uno dei siti di codice sociale di seguito elencati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/document.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/document.rb)

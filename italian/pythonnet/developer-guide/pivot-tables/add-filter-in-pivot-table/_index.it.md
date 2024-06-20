@@ -1,16 +1,17 @@
 ---
-title: Aggiungi filtro nella tabella pivot
+title: Aggiungere Filtro nella Tabella Pivot
 type: docs
 weight: 130
 url: /it/python-net/add-filter-in-pivot-table/
-description: Scopri come aggiungere un filtro nella tabella pivot con Aspose.Cells for Python via .NET.
-keywords: Adding a filter in pivot table without office 2013, office 2016, office 2019 and office 365.
+description: Scopri come aggiungere un filtro nella tabella pivot con Aspose.Cells per Python via .NET.
+keywords: Aspose.Cells per Python Excel, libreria Excel Python, Aggiungere un Filtro nella Tabella Pivot utilizzando la libreria Excel Aspose.Cells per Python.
 ---
-##  **Possibili scenari di utilizzo**
- Quando crei una tabella pivot con dati noti e desideri filtrare la tabella pivot, devi imparare e utilizzare il filtro. Può aiutarti a filtrare i dati che desideri in modo efficace. Utilizzando Aspose.Cells for Python via .NET API, è possibile aggiungere un filtro sui valori dei campi nelle tabelle pivot.
 
-##  **Aggiungi filtro nella tabella pivot**
- Consultare il seguente codice di esempio. Imposta i dati e crea una tabella pivot basata su di essi. Quindi aggiungi un filtro sul campo riga della tabella pivot. Infine, salva la cartella di lavoro in[uscita XLSX](filterout.xlsx) formato. Dopo aver eseguito il codice di esempio, al foglio di lavoro viene aggiunta una tabella pivot con il filtro top10.
+## **Possibili Scenari di Utilizzo**
+Quando si crea una tabella pivot con dati noti e si desidera filtrare la tabella pivot, è necessario imparare e utilizzare il filtro. Può aiutarti a filtrare efficacemente i dati desiderati. Utilizzando l'API Aspose.Cells per Python via .NET, è possibile aggiungere un filtro sui valori del campo nelle Tabelle Pivot. 
 
-##  **Codice d'esempio**
+## **Aggiungere un Filtro nella Tabella Pivot utilizzando la libreria Excel Aspose.Cells per Python**
+Si prega di consultare il codice di esempio seguente. Imposta i dati e crea una tabella pivot basata su di essi. Quindi aggiungi un filtro sul campo di riga della tabella pivot. Infine, salvare il libro di lavoro nel formato [output XLSX](filterout.xlsx). Dopo aver eseguito il codice di esempio, viene aggiunta una tabella pivot con filtro top10 al foglio di lavoro.
+
+## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-Add-filter-in-PivotTable.py" >}}

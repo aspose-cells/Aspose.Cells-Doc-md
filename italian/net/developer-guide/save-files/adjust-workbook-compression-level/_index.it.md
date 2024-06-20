@@ -1,23 +1,24 @@
-﻿---
-title: Regola il livello di compressione della cartella di lavoro
+---
+title: Regola il livello di compressione del workbook
 type: docs
 weight: 180
 url: /it/net/adjust-workbook-compression-level/
 ---
-## **Regola il livello di compressione della cartella di lavoro**
 
-Gli sviluppatori possono regolare il livello di compressione della cartella di lavoro quando lavorano con cartelle di lavoro più grandi. Gli sviluppatori possono dare la priorità a file di dimensioni inferiori rispetto al tempo di elaborazione o viceversa. Aspose.Cells fornisce**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** enumerazione che è possibile utilizzare per impostare il livello di compressione della cartella di lavoro. Il**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** enumerazione fornisce i seguenti membri.
+## **Regola il Livello di Compressione del Foglio di Lavoro**
 
-- Level1: la compressione più veloce ma meno efficace.
-- Livello 2: un po' più lento, ma migliore, del livello 1.
-- Livello 3: un po' più lento, ma migliore, del livello 2.
-- Livello 4: un po' più lento, ma migliore, del livello 3.
-- Level5: un po' più lento del livello 4, ma con una migliore compressione.
-- Livello 6: un buon equilibrio tra velocità ed efficienza di compressione.
-- Level7: compressione abbastanza buona!
-- Level8: compressione migliore rispetto a Level7!
-- Level9: la "migliore" compressione, dove migliore indica la massima riduzione delle dimensioni del flusso di dati di input. Questa è anche la compressione più lenta.
+Gli sviluppatori possono regolare il livello di compressione del foglio di lavoro quando si lavora con fogli di lavoro più grandi. Gli sviluppatori possono dare priorità alle dimensioni del file più piccole rispetto al tempo di elaborazione o viceversa. Aspose.Cells fornisce l'enumerazione [**OoxmlCompressionType**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype) che è possibile utilizzare per impostare il livello di compressione del foglio di lavoro. L'enumerazione [**OoxmlCompressionType**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype) fornisce i seguenti membri.
 
- Il seguente frammento di codice illustra l'uso di**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)**enumerazione e confronta il tempo di conversione per Level1, Level6 e Level9. Puoi anche confrontare le dimensioni dei file generati.
+- Livello1: La compressione più veloce ma meno efficace.
+- Livello2: Un po' più lento, ma migliore, rispetto al livello 1.
+- Livello3: Un po' più lento, ma migliore, rispetto al livello 2.
+- Livello4: Un po' più lento, ma migliore, rispetto al livello 3.
+- Livello5: Un po' più lento del livello 4, ma con una migliore compressione.
+- Livello6: Un buon equilibrio tra velocità ed efficienza di compressione.
+- Livello7: Compressione abbastanza buona!
+- Livello8: Migliore compressione rispetto al Livello 7!
+- Livello9: La compressione "migliore", dove migliore significa la maggiore riduzione delle dimensioni del flusso di dati in ingresso. Questa è anche la compressione più lenta.
+
+Il seguente frammento di codice mostra l'uso dell'enumerazione [**OoxmlCompressionType**](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype) e confronta il tempo di conversione per Livello1, Livello6 e Livello9. Puoi anche confrontare le dimensioni dei file generati.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AdjustCompressionLevel-1.cs" >}}

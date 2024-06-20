@@ -1,30 +1,31 @@
 ---
-title: احتفظ ببادئة الاقتباس المفردة ذات القيمة أو النطاق Cell
+title: الحفاظ على بادئة الاقتباس الفردي لقيمة الخلية أو النطاق
 type: docs
 weight: 310
 url: /ar/net/preserve-single-quote-prefix-of-cell-value-or-range/
-description: تعرف على كيفية الحفاظ على بادئة الاقتباس المفردة للقيمة أو النطاق Cell من خلال Aspose.Cells for .NET API.
-keywords: Preserve Single Quote Prefix of Cell Value or Range, Hide leading apostrophe or single quote mark, Show leading apostrophe or single quote mark
+description: تعلم كيفية الحفاظ على بادئة علامة اقتباس واحدة لقيمة الخلية أو النطاق من خلال واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: الحفاظ على بادئة علامة اقتباس واحدة لقيمة الخلية أو النطاق، إخفاء الرصاصة بادئة أو علامة اقتباس واحدة، إظهار الرصاصة بادئة أو علامة اقتباس واحدة
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-عندما تضع بعض القيمة داخل الخلية التي تحتوي على فاصلة عليا بادئة أو علامة اقتباس مفردة، فإن Microsoft يقوم Excel بإخفائها، ولكن عند تحديد الخلية، فإنها تعرض الفاصلة العليا البادئة أو علامة الاقتباس المفردة في شريط الصيغة كما هو موضح في لقطة الشاشة التالية.
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
+عندما تضع قيمة ما داخل الخلية التي تحتوي على رمز تأشيرة أو علامة اقتباس أحادية في البداية، يخفي Microsoft Excel ذلك، ولكن عند تحديد الخلية، يعرض الرمز التأشيري أو الاقتباس الأحادي في شريط الصيغة كما هو مبين في لقطة الشاشة التالية.
 
-Aspose.Cells يخفي أيضًا الفاصلة العليا أو الاقتباس المفرد مثل Microsoft Excel ولكنه يعين[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) مثل**حقيقي** لتلك الخلية. إذا قمت بتعيين نمط فارغ للخلية، ثم[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) يصبح**خطأ شنيع** مرة أخرى. ولمعالجة هذه المشكلة يوفر Aspose.Cells[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) الممتلكات، عندما يتم تعيينها**false**، ثم لم يتم تحديث [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) على الإطلاق ويتم الاحتفاظ بقيمته القديمة . هذا يعني أنه إذا كانت القيمة القديمة لخاصية [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) **صحيحة**، فإنها سيبقى ** صحيحا** وإذا كانت القيمة القديمة *خطأ**، فستبقى *خطأ**.
+![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-##  **احتفظ ببادئة الاقتباس المفردة ذات القيمة أو النطاق Cell**
+تخفي Aspose.Cells أيضًا بادئة الرصاصة الأو علامة اقتباس واحدة مثل Microsoft Excel ولكنها تضبط [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) لتلك الخلية على **صحيح**. إذا قمت بتعيين نمط فارغ للخلية، فإن [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) تصبح **خاطئة** مرة أخرى. من أجل التعامل مع هذه المشكلة، توفر Aspose.Cells خاصية [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)، عندما يتم تعيينها **خاطئة**، فإن [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) لا يتم تحديثها على الإطلاق ويتم الاحتفاظ بقيمتها القديمة. وهذا يعني إذا كانت القيمة القديمة للخاصية [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) كانت **صحيحة**، فإنها ستظل **صحيحة**، وإذا كانت القيمة القديمة كانت **خاطئة**، فإنها ستظل **خاطئة**.
 
-يشرح نموذج التعليمات البرمجية التالي استخدام[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)الممتلكات كما هو موضح سابقا. يرجى قراءة التعليقات الموجودة داخل الكود والاطلاع على مخرجات وحدة التحكم للكود الموضح أدناه للحصول على مزيد من المساعدة.
+## **الحفاظ على بادئة اقتباس واحدة لقيمة الخلية أو النطاق**
 
-##  **عينة من الرموز**
+يشرح رمز العينة التالي استخدام الخاصية [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) كما هو موضح سابقا. يرجى قراءة التعليقات داخل الكود ورؤية نتائج الكونسول للكود المعطى أدناه لمزيد من المساعدة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
 
-##  **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Quote Prefix of Cell A1: False
 

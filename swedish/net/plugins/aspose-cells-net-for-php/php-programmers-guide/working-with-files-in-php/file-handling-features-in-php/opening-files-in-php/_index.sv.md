@@ -1,16 +1,17 @@
-﻿---
+---
 title: Öppna filer i PHP
 type: docs
 weight: 10
 url: /sv/net/opening-files-in-php/
 ---
+
 ## **Aspose.Cells - Öppna Excel-filer**
-### **Öppning genom vägen**
-Öppna helt enkelt en Microsoft Excel-fil genom att referera till filens sökväg
+### **Öppning genom sökväg**
+Öppna en Microsoft Excel-fil genom att referera till filens sökväg
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -27,7 +28,7 @@ url: /sv/net/opening-files-in-php/
         $worksheets = $ptr->Get($workbook,"Worksheets",array());
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Öppna filer (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Öppnar filer (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/OpeningFiles.php)

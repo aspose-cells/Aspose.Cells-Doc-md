@@ -1,22 +1,25 @@
-﻿---
+---
 title: Aktivera GridWeb EditBox
 type: docs
 weight: 110
-url: /sv/net/enable-gridweb-editbox/
+url: /sv/net/aspose-cells-gridweb/enable-gridweb-editbox/
+keywords: GridWeb, editbox, formelrad
+description: Denna artikel introducerar hur man arbetar med formelrad eller editbox i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-GridWebs redigeringsruta är ett verktygsfält som återges överst i kontrollen som du kan använda för att se/skriva in eller kopiera data/formel till celler. Den visar också cellens namn som du redigerar. Efter att ha klickat på ramen eller när du börjar skriva data eller skriva en lika (=) symbol, kommer redigeringsrutan att aktiveras.
+GridWeb's Edit Box (i Excel kallad formelrad) är en verktygsfält som renderas längst upp i kontrollen och som du kan använda för att visa eller mata in värde eller kopiera data/formel för den markerade cellen. Det visar också cellens namn som du redigerar. Efter att ha klickat på ramen eller när du börjar skriva data eller skriver ett likhetstecken (=) kommer Edit Box att aktiveras.
 
 {{% /alert %}} 
-## **Ställa in redigeringsrutan för Aspose.Cells.GridWeb**
-GridWeb-kontrollen tillhandahåller egenskapen ShowCellEditBox som utvecklare kan tilldela den till "True" för att aktivera verktygsfältet. Standardvärdet för attributet är False. När du ställer in dess värde till "True", kommer redigeringsrutan att visas överst på GridWeb-kontrollen.
+## **Inställning av Aspose.Cells.GridWeb's Edit Box**
+GridWeb-kontrollen tillhandahåller egenskapen ShowCellEditBox till vilken utvecklare kan tilldela "True" för att aktivera verktygsfältet. Attributets standardvärde är False. När du anger dess värde som "True" kommer Edit Box att visas längst upp i GridWeb-kontrollen.
 
 {{% alert color="primary" %}} 
 
- För att aktivera den här funktionen måste du importera filen "jquery.js" till ditt projekt och hänvisa till den på dina .aspx-sidor för att få det att fungera. Du kan ladda ner jQuery-arkivet från<https://jqueryui.com/download/all/> och lägg biblioteksfilen(erna) i någon mapp i projektet och lägg till referens till biblioteksfilen via<script> tagga i ditt .aspx-webbformulär enligt följande. Alla de senaste jQuery-versionerna är OK.
+To enable this feature, you need to import "jquery.js" file to your project and refer it in your .aspx page(s) to make it work. You may download the jQuery archive from <https://jqueryui.com/download/all/> and put the library file(s) into some folder in the project and add reference to the library file via <script> tag in your .aspx web form as following. All the latest jQuery versions are OK.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <head id="Head1" runat="server">
 

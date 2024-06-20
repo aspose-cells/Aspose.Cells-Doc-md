@@ -1,20 +1,21 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.0.1
+---
+title: Offentliga API ändringar i Aspose.Cells 8.0.1
 type: docs
 weight: 30
 url: /sv/java/public-api-changes-in-aspose-cells-8-0-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Dessa sida listar offentliga API ändringar som infördes i Aspose.Cells 8.0.1. Den innehåller inte bara nya och föråldrade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells som kan påverka befintlig kod. Varje beteende som introduceras som kan ses som en regression och modifierar existerande beteende är särskilt viktigt och dokumenteras här.
+Dessa sidor listar offentliga API-ändringar som introducerades i Aspose.Cells 8.0.1. Det inkluderar inte bara nya och föråldrade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells som kan påverka befintlig kod. Eventuellt beteende som kan betraktas som en regression och ändrar befintligt beteende är särskilt viktigt och dokumenteras här.
 
 {{% /alert %}} 
-## **MemorySetting-egenskap tillagd till Cells-klassen**
-Klassen Cells har exponerat setMemorySetting & getMemorySetting-metoder som kan användas för att optimera minnesanvändningen för celldata och därmed minska den totala minneskostnaden. Följande exempel visar hur man skriver en stor data till ett kalkylblad i optimerat läge.
+## **MemorySetting-egenskapen tillagd till Cells-klassen**
+Cells-klassen har exponerat setMemorySetting- och getMemorySetting-metoder som kan användas för att optimera minnesanvändningen för celldata och därmed minska den totala minneskostnaden. Följande exempel visar hur man skriver stora data till ett arbetsblad i optimerat läge.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -38,10 +39,10 @@ cells.setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 
 {{% alert color="primary" %}} 
 
- Minnesinställningarna fungerar inte för standardarket som skapas automatiskt av arbetsboken. För att ändra minnesinställningarna för befintliga ark, använd minnesinställningarna manuellt innan du utför någon datamanipulation.
+Minnesinställningarna fungerar inte automatiskt för det standardark som skapas automatiskt av Arbetsbok. För att ändra minnesinställningarna för befintliga ark, tillämpa minnesinställningarna manuellt innan några datamanipulationer utförs. 
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Vänligen kontrollera den detaljerade artikeln om[Optimera minnet när du arbetar med stora datamängder](/cells/sv/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
+Vänligen kontrollera den detaljerade artikeln om [Optimering av minne vid arbete med stora datamängder](/cells/sv/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
 
 {{% /alert %}}

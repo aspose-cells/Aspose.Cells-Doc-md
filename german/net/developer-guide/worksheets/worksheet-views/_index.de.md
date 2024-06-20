@@ -1,113 +1,114 @@
-﻿---
+---
 title: Arbeitsblattansichten
 type: docs
 weight: 40
 url: /de/net/worksheet-views/
-description:  In diesem Artikel wird beschrieben, wie Sie C# und .NET API verwenden, um mit der Seitenumbruchvorschau einer Excel-Arbeitsmappe und Arbeitsblättern zu interagieren. Arbeiten Sie auch mit geteilten Fenstern, eingefrorenen Fenstern und Zoomfaktor.
+description: Dieser Artikel beschreibt, wie man C# und die .NET API verwendet, um mit der Seitenumbruchsvorschau eines Excel Arbeitsmappen und Arbeitsblatts zu interagieren. Arbeiten mit geteilten Bereichen, fixierten Bereichen und Zoomfaktor. 
 ---
-## **Seitenumbruchvorschau**
+
+## **Seitenwechselvorschau**
 
 Alle Arbeitsblätter können in zwei Modi angezeigt werden:
 
 - Normale Ansicht.
-- Seitenumbruchvorschau.
+- Seitenwechselvorschau.
 
-Die Normalansicht ist die Standardansicht eines Arbeitsblatts. Die Seitenumbruchvorschau ist eine Bearbeitungsansicht, die ein Arbeitsblatt so anzeigt, wie es gedruckt wird. Die Seitenumbruchvorschau zeigt, welche Daten auf jeder Seite erscheinen, sodass Sie den Druckbereich und die Seitenumbrüche anpassen können. Mit Aspose.Cells können Entwickler die Vorschaumodi Normalansicht oder Seitenumbruch aktivieren.
+Normalansicht ist die Standardansicht eines Arbeitsblatts. Die Seitenumbruchvorschau ist eine Bearbeitungsansicht, die ein Arbeitsblatt so anzeigt, wie es gedruckt wird. Die Seitenumbruchvorschau zeigt an, welche Daten auf jeder Seite stehen, sodass Sie den Druckbereich und die Seitenumbrüche anpassen können. Mit Aspose.Cells können Entwickler die Normalansicht oder die Seitenumbruchvorschau aktivieren.
 
-### **Ansichtsmodi steuern**
+### **Steuerung der Ansichtsmodi**
 
-Aspose.Cells bietet eine[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse, die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
+Aspose.Cells bietet eine [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-Klasse, die eine Microsoft Excel-Datei darstellt. Die [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-Klasse enthält eine [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
- Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Um die Vorschaumodi Normal oder Seitenumbruch zu aktivieren, verwenden Sie die[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) Eigentum.[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) ist eine boolesche Eigenschaft, was bedeutet, dass sie nur a speichern kann**wahr** oder ein**FALSCH** Wert.
+Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) dargestellt. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Um die Normal- oder Seitenumbruchvorschau zu aktivieren, verwenden Sie die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) und die Eigenschaft [**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview). [**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) ist eine boolesche Eigenschaft, die nur einen Wert von **true** oder **false** speichern kann.
 
-#### **Normalansicht aktivieren**
+#### **Normale Ansicht aktivieren**
 
- Versetzen Sie ein Arbeitsblatt in die normale Ansicht, indem Sie das festlegen[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) Eigentum zu**FALSCH**.
+Legen Sie ein Arbeitsblatt auf Normalansicht, indem Sie die Eigenschaft [**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) der Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) auf **false** setzen.
 
-#### **Seitenumbruchvorschau aktivieren**
+#### **Aktivieren der Seitenwechselvorschau**
 
- Stellen Sie ein beliebiges Arbeitsblatt auf Seitenumbruchvorschau ein, indem Sie das einstellen[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) Eigentum zu**wahr**Dadurch wird das Arbeitsblatt von der normalen Ansicht auf die Seitenumbruchvorschau umgeschaltet.
+Legen Sie ein Arbeitsblatt auf die Seitenumbruchvorschau, indem Sie die Eigenschaft [**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) der Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) auf **true** setzen. Dadurch wird das Arbeitsblatt von der Normalansicht zur Seitenumbruchvorschau gewechselt.
 
- Nachfolgend finden Sie ein vollständiges Beispiel, das die Verwendung von demonstriert[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)-Eigenschaft, um den Vorschaumodus für den Seitenumbruch für das erste Arbeitsblatt einer Excel-Datei zu aktivieren.
+Im Folgenden finden Sie ein vollständiges Beispiel, das zeigt, wie die Eigenschaft [**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) verwendet wird, um den Seitenumbruchvorschau-Modus für das erste Arbeitsblatt einer Excel-Datei zu aktivieren.
 
-Die Datei book1.xls wird geöffnet, indem eine Instanz der erstellt wird[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse. Durch Setzen von wird die Ansicht auf Seitenumbruchvorschau für das erste Arbeitsblatt umgeschaltet[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)Eigentum zu**wahr**. Die geänderte Datei wird als output.xls gespeichert.
+Die Datei book1.xls wird durch Erstellen einer Instanz der Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) geöffnet. Die Ansicht wird für das erste Arbeitsblatt auf die Seitenumbruchvorschau umgeschaltet, indem die Eigenschaft [**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) auf **true** gesetzt wird. Die geänderte Datei wird als output.xls gespeichert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-PageBreakPreview-1.cs" >}}
 
-## **Zoomfaktor**
+## **Zoom-Faktor**
 
-### **Mit Microsoft Excel**
+### **Verwendung von Microsoft Excel**
 
-Microsoft Excel bietet eine Funktion, mit der Benutzer den Zoom- oder Skalierungsfaktor eines Arbeitsblatts festlegen können. Diese Funktion hilft Benutzern, den Arbeitsblattinhalt in kleineren oder größeren Ansichten anzuzeigen. Benutzer können den Zoomfaktor auf einen beliebigen Wert einstellen.
+Microsoft Excel bietet eine Funktion, mit der Benutzer den Zoom- oder Skalierungsfaktor eines Arbeitsblatts festlegen können. Diese Funktion hilft Benutzern, die Arbeitsblattinhalte in kleineren oder größeren Ansichten zu sehen. Benutzer können den Zoom-Faktor auf beliebige Werte setzen.
 
 ### **Aspose.Cells & Zoomfaktor**
 
-Aspose.Cells ermöglicht Entwicklern das Festlegen des Arbeitsblatt-Zoomfaktors.
-Aspose.Cells bietet eine[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse, die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
+Aspose.Cells ermöglicht Entwicklern, den Zoomfaktor des Arbeitsblatts festzulegen.
+Aspose.Cells bietet eine [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-Klasse, die eine Microsoft Excel-Datei darstellt. Die [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-Klasse enthält eine [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
- Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Um den Zoomfaktor eines Arbeitsblatts festzulegen, verwenden Sie die[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse'[**Zoomen**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)Eigentum. Der Zoomfaktor wird eingestellt, indem dem ein numerischer (ganzzahliger) Wert zugewiesen wird[**Zoomen**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) Eigentum.
+Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) dargestellt. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Um den Zoomfaktor eines Arbeitsblatts festzulegen, verwenden Sie die Eigenschaft [**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) der Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Der Zoomfaktor wird durch Zuweisen eines numerischen (ganzzahligen) Werts zur Eigenschaft [**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) festgelegt.
 
-Nachfolgend finden Sie ein vollständiges Beispiel, das die Verwendung von demonstriert[**Zoomen**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) -Eigenschaft, um den Zoomfaktor des ersten Arbeitsblatts der Excel-Datei festzulegen.
+Im Folgenden finden Sie ein vollständiges Beispiel, das zeigt, wie die Eigenschaft [**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) verwendet wird, um den Zoomfaktor des ersten Arbeitsblatts der Excel-Datei festzulegen.
 
-Die Datei book1.xls wird geöffnet, indem eine Instanz der erstellt wird[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Klasse. Der Zoomfaktor des ersten Arbeitsblatts wird auf 75 gesetzt und die geänderte Datei wird als output.xls gespeichert.
+Die Datei book1.xls wird durch Erstellen einer Instanz der Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) geöffnet. Der Zoomfaktor für das erste Arbeitsblatt wird auf 75 eingestellt und die geänderte Datei wird als output.xls gespeichert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ZoomFactor-1.cs" >}}
 
-## **Fenster einfrieren**
+## **Fenster fixieren**
 
-### **Mit Microsoft Excel**
+### **Verwendung von Microsoft Excel**
 
-Fenster einfrieren ist eine Funktion, die von Microsoft Excel bereitgestellt wird. Durch das Einfrieren von Fenstern können Sie Daten auswählen, die beim Scrollen in einem Arbeitsblatt sichtbar bleiben sollen.
+Freeze panes ist eine Funktion von Microsoft Excel. Durch das Einfrieren von Fenstern können Sie auswählen, dass Daten beim Scrollen in einem Arbeitsblatt sichtbar bleiben.
 
-### **Aspose.Cells & Fenster einfrieren**
+### **Aspose.Cells & Einfrieren von Fenstern**
 
-Aspose.Cells ermöglicht Entwicklern das Einfrieren von Fenstern zur Laufzeit auf Arbeitsblätter anzuwenden.
+Aspose.Cells ermöglicht Entwicklern, das Einfrieren von Zeilen und Spalten in Arbeitsblättern zur Laufzeit anzuwenden.
 
-Aspose.Cells bietet eine[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Klasse, die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
+Aspose.Cells bietet eine Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), die eine Microsoft Excel-Datei repräsentiert. Die Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) enthält eine [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
-Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Rufen Sie zum Konfigurieren von Einfrierfenstern die Worksheet-Klasse auf.[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)Methode. Das[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)Die Methode nimmt die folgenden Parameter an:
+Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) repräsentiert. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Um Einfrierunterschiede festzulegen, rufen Sie die [**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)-Methode der Klasse Arbeitsblatt auf. Die Methode [**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index) nimmt die folgenden Parameter an:
 
-- **Reihe**, der Zeilenindex der Zelle, bei der das Einfrieren beginnt.
-- **Spalte**, der Spaltenindex der Zelle, ab der das Einfrieren beginnt.
-- **Gefrorene Reihen**, die Anzahl der sichtbaren Zeilen im oberen Bereich.
-- **Gefrorene Säulen**, die Anzahl der sichtbaren Spalten im linken Bereich
+- **Zeile**, der Zeilenindex der Zelle, von der das Einfrieren startet.
+- **Spalte**, der Spaltenindex der Zelle, von der das Einfrieren startet.
+- **Eingefrorene Zeilen**, die Anzahl der sichtbaren Zeilen im oberen Bereich.
+- **Eingefrorene Spalten**, die Anzahl der sichtbaren Spalten im linken Bereich
 
- Die Datei book1.xls wird durch Aufrufen der geöffnet[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Klassenkonstruktor beim Instanziieren und einige Zeilen und Spalten werden im ersten Arbeitsblatt eingefroren. Die geänderte Datei wird als output.xls gespeichert.
+Die Datei book1.xls wird geöffnet, indem der Konstruktor der Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) aufgerufen wird, während sie instanziiert wird, und einige Zeilen und Spalten werden im ersten Arbeitsblatt eingefroren. Die modifizierte Datei wird als output.xls gespeichert.
 
- Nachfolgend finden Sie ein vollständiges Beispiel, das die Verwendung von zeigt[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)Methode zum Einfrieren von Zeilen und Spalten (beginnend bei C4, dargestellt durch die 4. Zeile und 3. Spalte, wobei die Zeilen und Spalten mit dem Index 0 beginnen) des ersten Arbeitsblatts der Excel-Datei.
+Im folgenden wird ein vollständiges Beispiel gezeigt, das zeigt, wie die Methode [**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index) zum Einfrieren von Zeilen und Spalten (beginnend ab C4, dargestellt durch die 4. Zeile und 3. Spalte, wobei Zeilen und Spalten ab dem Index 0 beginnen) des ersten Arbeitsblatts der Excel-Datei verwendet wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-FreezePanes-1.cs" >}}
 
-## **Geteilte Scheiben**
+## **Geteilte Fenster**
 
-Wenn Sie den Bildschirm teilen müssen, um zwei verschiedene Ansichten in demselben Arbeitsblatt zu erhalten, teilen Sie die Bereiche. Microsoft Excel bietet eine sehr praktische Funktion, mit der Sie mehr als eine Kopie Ihres Arbeitsblatts anzeigen und unabhängig voneinander durch jeden Bereich Ihres Arbeitsblatts scrollen können: geteilte Bereiche.
+Wenn Sie den Bildschirm teilen müssen, um zwei verschiedene Ansichten im selben Arbeitsblatt zu erhalten, verwenden Sie geteilte Fenster. Microsoft Excel bietet eine sehr praktische Funktion, die es Ihnen ermöglicht, mehr als eine Kopie Ihres Arbeitsblatts anzuzeigen und durch jede Ansicht Ihres Arbeitsblatts unabhängig zu scrollen: geteilte Fenster.
 
-Die Scheiben arbeiten gleichzeitig. Wenn Sie in einem eine Änderung vornehmen, erscheint die Änderung gleichzeitig im anderen. Aspose.Cells stellt die Split-Pane-Funktion für die Benutzer bereit.
+Die Panes arbeiten gleichzeitig. Wenn Sie eine Änderung in einer vornehmen, erscheint die Änderung gleichzeitig in der anderen. Aspose.Cells bietet die Funktion für geteilte Fenster für die Benutzer.
 
-### **Anwenden und Entfernen von geteilten Scheiben**
+### **Anwenden und Entfernen von geteilten Fenstern**
 
-#### **Teilen von Scheiben**
+#### **Teilen von Fenstern**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten einer Excel-Datei. Um geteilte Ansichten zu implementieren, verwenden Sie die[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse'[**Teilt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split) . Um die geteilten Scheiben zu entfernen, verwenden Sie die[**Split entfernen**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)Methode.
+Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), die eine Microsoft Excel-Datei repräsentiert. Die Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten einer Excel-Datei. Um Split-Ansichten zu implementieren, verwenden Sie die [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-Methode der Klasse. Verwenden Sie zum Entfernen der Split-Panes die [**Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split)-Methode.
 
-In dem Beispiel verwenden wir eine einfache Vorlagendatei, die geladen wird, dann wird die Funktion zum Festlegen von geteilten Fenstern auf eine Zelle im ersten Arbeitsblatt angewendet. Die aktualisierte Datei wird gespeichert.
+In dem Beispiel verwenden wir eine einfache Vorlagendatei, die geladen wird, und dann wird das Feature der aufgeteilten Bereiche auf eine Zelle im ersten Arbeitsblatt angewendet. Die aktualisierte Datei wird gespeichert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-SplitPanes-1.cs" >}}
 
-Nach dem Ausführen des obigen Codes hat die generierte Datei eine geteilte Ansicht.
+Nach Ausführung des obigen Codes hat die generierte Datei eine Split-Ansicht.
 
-#### **Scheiben entfernen**
+#### **Panes entfernen**
 
- Entfernen Sie geteilte Scheiben mit dem[**Split entfernen**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)Methode.
+Entfernen Sie geteilte Fenster mit der Methode [**RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-RemovePanes-1.cs" >}}
 
-## **Themen vorantreiben**
+## **Erweiterte Themen**
 - [Ausblenden der Anzeige von Nullwerten im Arbeitsblatt](/cells/de/net/hiding-the-display-of-zero-values-in-the-worksheet/)
-- [Legen Sie die Farbe des Arbeitsblatt-Tabs fest](/cells/de/net/set-worksheet-tab-color/)
-- [Rasterlinien und Spaltenüberschriften ein- und ausblenden](/cells/de/net/show-and-hide-gridlines-and-row-column-headers/)
-- [Anzeigen und Ausblenden von Zeilen, Spalten und Bildlaufleisten](/cells/de/net/show-and-hide-rows-columns-and-scroll-bars/)
-- [Arbeitsblätter und Registerkarten ein- und ausblenden](/cells/de/net/show-and-hide-worksheets-and-tabs/)
-- [Zeigen Sie Formeln anstelle von Werten in einem Arbeitsblatt an](/cells/de/net/show-formulas-instead-of-values-in-a-worksheet/)
-- [Verwenden Sie die Optionen zur Fehlerprüfung](/cells/de/net/use-error-checking-options/)
+- [Arbeitsblattregisterfarbe festlegen](/cells/de/net/set-worksheet-tab-color/)
+- [Gitternetzlinien und Zeilen- und Spaltenüberschriften anzeigen oder ausblenden](/cells/de/net/show-and-hide-gridlines-and-row-column-headers/)
+- [Zeilen, Spalten und Bildlaufleisten anzeigen oder ausblenden](/cells/de/net/show-and-hide-rows-columns-and-scroll-bars/)
+- [Arbeitsblätter und Registerkarten anzeigen oder ausblenden](/cells/de/net/show-and-hide-worksheets-and-tabs/)
+- [Formeln anstelle von Werten im Arbeitsblatt anzeigen](/cells/de/net/show-formulas-instead-of-values-in-a-worksheet/)
+- [Fehlerüberprüfungsoptionen verwenden](/cells/de/net/use-error-checking-options/)
 

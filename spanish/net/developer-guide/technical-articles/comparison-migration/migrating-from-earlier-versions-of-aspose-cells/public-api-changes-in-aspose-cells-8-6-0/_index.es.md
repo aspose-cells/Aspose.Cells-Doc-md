@@ -1,23 +1,24 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.6.0
+---
+title: Cambios en la API pública en Aspose.Cells 8.6.0
 type: docs
 weight: 190
 url: /es/net/public-api-changes-in-aspose-cells-8-6-0/
 ---
+
 {{% alert color="primary" %}} 
 
- Este documento describe los cambios al Aspose.Cells API de la versión 8.5.2 a la 8.6.0 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados,[Clases añadidas, etc.](/cells/es/net/public-api-changes-in-aspose-cells-8-6-0/), pero también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.5.2 a la 8.6.0 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, [clases agregadas, etc.](/cells/es/net/public-api-changes-in-aspose-cells-8-6-0/), sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Compatibilidad con la manipulación de metadatos sin crear un objeto de libro de trabajo**
-Esta versión de Aspose.Cells for .NET API ha expuesto dos nuevas clases, a saber, WorkbookMetadata y MetadataOptions junto con una nueva enumeración MetadataType que ahora permite manipular las propiedades del documento (metadatos) sin crear una instancia de Workbook. La clase WorkbookMetadata es liviana y proporciona un mecanismo eficiente y muy fácil de usar para[lea, escriba y actualice las propiedades del documento sin afectar el rendimiento general](/cells/es/net/using-workbookmetadata/).
+## **APIs Añadidas**
+### **Soporte para Manipulación de Metadatos Sin Crear un Objeto de Libro de Trabajo**
+Esta versión de la API Aspose.Cells for .NET ha expuesto dos nuevas clases, a saber, WorkbookMetadata y MetadataOptions junto con una nueva enumeración MetadataType que ahora permite manipular las propiedades del documento (metadatos) sin crear una instancia de Workbook. La clase WorkbookMetadata es liviana y proporciona un mecanismo muy fácil de usar y eficiente para [leer, escribir y actualizar las propiedades del documento sin afectar el rendimiento general](/cells/es/net/using-workbookmetadata/).
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet with WorkbookMetadata while specifying appropriate MetadataType
 
@@ -36,14 +37,14 @@ metadata.Save(filePath);
 {{< /highlight >}}
 
 
-### **Propiedad HtmlSaveOptions.ExportFrameScriptsAndProperties agregada**
-Aspose.Cells for .NET 8.6.0 ha expuesto la propiedad HtmlSaveOptions.ExportFrameScriptsAndProperties que se puede usar para influir en la creación de scripts adicionales al convertir las hojas de cálculo al formato HTML. Con la configuración predeterminada, las API Aspose.Cells exportan la hoja de cálculo en formato HTML como la aplicación Excel hace la exportación, es decir; el HTML resultante contiene los marcos y los comentarios condicionales, que detecta el tipo de navegador y ajusta el diseño en consecuencia. El valor predeterminado de la propiedad HtmlSaveOptions.ExportFrameScriptsAndProperties es verdadero, eso significa; la exportación se realiza según los estándares de Excel. Sin embargo, si la propiedad se establece en falso, el API no[generar los scripts relacionados con marcos y comentarios condicionales](/cells/es/net/disable-exporting-frame-scripts-and-document-properties/). En este caso, el HTML resultante se puede ver correctamente en cualquier navegador, sin embargo, no se puede volver a importar utilizando las API Aspose.Cells.
+### **Se agregó la propiedad HtmlSaveOptions.ExportFrameScriptsAndProperties**
+Aspose.Cells for .NET 8.6.0 ha expuesto la propiedad HtmlSaveOptions.ExportFrameScriptsAndProperties que se puede utilizar para influir en la creación de scripts adicionales al convertir las hojas de cálculo a formato HTML. Con la configuración predeterminada, las API de Aspose.Cells exportan la hoja de cálculo en formato HTML como lo hace la aplicación Excel, es decir; el HTML resultante contiene los marcos y comentarios condicionales, que detectan el tipo de navegador y ajustan el diseño en consecuencia. El valor predeterminado de la propiedad HtmlSaveOptions.ExportFrameScriptsAndProperties es verdadero, lo que significa que la exportación se realiza según los estándares de Excel. Sin embargo, si la propiedad se establece en falso, la API no [generará los scripts relacionados con marcos y comentarios condicionales](/cells/es/net/disable-exporting-frame-scripts-and-document-properties/). En este caso, el HTML resultante se puede ver correctamente en cualquier navegador, sin embargo, no se puede importar de nuevo utilizando las API de Aspose.Cells.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the spreadsheet
 
@@ -62,14 +63,14 @@ book.Save("output.html", options);
 {{< /highlight >}}
 
 
-### **Propiedad Shape.MarcoName agregado**
-Aspose.Cells for .NET 8.6.0 ha expuesto la propiedad Shape.MarcoName que se puede usar para[asignar cualquier módulo VBA a un control de formulario](/cells/es/net/assign-macro-to-form-control/) tal Botón para proporcionar la interacción. La propiedad es de tipo cadena por lo que puede aceptar el nombre del módulo y asignarlo al control.
+### **Se agregó la propiedad Shape.MarcoName**
+Aspose.Cells for .NET 8.6.0 ha expuesto la propiedad Shape.MarcoName que se puede utilizar para [asignar cualquier módulo VBA a un control de formulario](/cells/es/net/assign-macro-to-form-control/) como un botón para proporcionar la interacción. La propiedad es de tipo cadena, por lo tanto, puede aceptar el nombre del módulo y asignarlo al control.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -122,5 +123,5 @@ workbook.Save("output.xlsm");
 {{< /highlight >}}
 
 
-### **Propiedad OoxmlSaveOptions.UpdateZoom agregado**
-Con el lanzamiento de v8.6.0, Aspose.Cells for .NET API ha expuesto la propiedad OoxmlSaveOptions.UpdateZoom que se puede usar para actualizar PageSetup.Zoom si se han usado las propiedades PageSetup.FitToPagesWide y/o PageSetup.FitToPagesTall para controlar el escalado de la hoja de trabajo.
+### **Propiedad OoxmlSaveOptions.UpdateZoom agregada**
+Con el lanzamiento de la v8.6.0, la API Aspose.Cells for .NET ha expuesto la propiedad OoxmlSaveOptions.UpdateZoom que se puede utilizar para actualizar el PageSetup.Zoom si se han utilizado las propiedades PageSetup.FitToPagesWide y/o PageSetup.FitToPagesTall para controlar el escalado de la hoja de cálculo.

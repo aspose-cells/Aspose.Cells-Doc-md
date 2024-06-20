@@ -1,25 +1,26 @@
-﻿---
-title: フォーマット ピボット テーブル Cells
+---
+title: ピボットテーブルセルの書式設定
 type: docs
 weight: 20
 url: /ja/python-java/format-pivot-table-cells/
 ---
+
 {{% alert color="primary" %}}
 
-ピボット テーブルのセルの書式を設定したい場合があります。たとえば、ピボット テーブルのセルに背景色を適用するとします。 Aspose.Cells は 2 つの方法を提供します[**ピボットテーブル.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style) ） と[**ピボットテーブル.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style)）、この目的に使用できます。
+時々、ピボットテーブルセルのフォーマットが必要です。たとえば、ピボットテーブルセルに背景色を適用したい場合。Aspose.Cellsは、この目的に使用できる2つのメソッド[**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style))と[**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style))を提供しています。
 
-[**ピボットテーブル.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style) ) スタイルをピボット テーブル全体に適用し、[**ピボットテーブル.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style)) は、スタイルをピボット テーブルの 1 つのセルに適用します。
+[**PivotTable.formatAll()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#formatAll(com.aspose.cells.Style))はピボットテーブル全体にスタイルを適用し、[**PivotTable.format()**](https://reference.aspose.com/cells/python-java/asposecells.api/pivottable#format(int,%20int,%20com.aspose.cells.Style))はピボットテーブルの単一セルにスタイルを適用します。
 
 {{% /alert %}}
 
-次のサンプル コードでは、ピボット テーブル全体を水色でフォーマットしてから、テーブルの 2 行目を黄色でフォーマットします。
+以下のサンプルコードは、ピボットテーブル全体をライトブルーの色でフォーマットし、次に2番目の表行を黄色でフォーマットします。
 
-**コードを実行する前の入力ピボット テーブル**
+**コードを実行する前の入力ピボットテーブル**
 
-![todo:画像_代替_文章](format-pivot-table-cells_1.png)
+![todo:image_alt_text](format-pivot-table-cells_1.png)
 
-**コード実行後の出力ピボット テーブル**
+**コードを実行した後の出力ピボットテーブル**
 
-![todo:画像_代替_文章](format-pivot-table-cells_2.png)
+![todo:image_alt_text](format-pivot-table-cells_2.png)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "PivotTables-FormatCells.py" >}}

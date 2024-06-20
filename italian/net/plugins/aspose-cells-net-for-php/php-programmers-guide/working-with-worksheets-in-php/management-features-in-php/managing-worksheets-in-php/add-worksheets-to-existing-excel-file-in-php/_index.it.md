@@ -1,16 +1,17 @@
-﻿---
-title: Aggiungi fogli di lavoro al file Excel esistente in PHP
+---
+title: Aggiungere Fogli di Lavoro a un File Excel Esistente in PHP
 type: docs
 weight: 10
 url: /it/net/add-worksheets-to-existing-excel-file-in-php/
 ---
-Aggiungi fogli di lavoro al file Excel esistente
 
-Aggiungi fogli di lavoro al file Excel esistente
+Aggiungi Fogli di Lavoro a un File Excel Esistente
+
+Aggiungi Fogli di Lavoro a un File Excel Esistente
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -38,6 +39,6 @@ Aggiungi fogli di lavoro al file Excel esistente
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Aggiungi fogli di lavoro al file Excel esistente (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Aggiungi Fogli di Lavoro a un File Excel Esistente (Aspose.Cells)** da uno qualsiasi dei siti di codifica sociale sotto indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddWorksheetsToExistingExcelFile.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddWorksheetsToExistingExcelFile.php)

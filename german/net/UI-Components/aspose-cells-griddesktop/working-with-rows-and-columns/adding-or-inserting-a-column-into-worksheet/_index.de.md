@@ -1,32 +1,35 @@
-﻿---
-title: Hinzufügen oder Einfügen einer Spalte in ein Arbeitsblatt
+---
+title: Spalte in Arbeitsblatt hinzufügen oder einfügen
 type: docs
 weight: 10
-url: /de/net/adding-or-inserting-a-column-into-worksheet/
+url: /de/net/aspose-cells-griddesktop/add-or-insert-a-column-into-worksheet/
+keywords: GridDesktop,einfügen,hinzufügen,spalte,eine Spalte einfügen,zeile einfügen
+description: In diesem Artikel wird erläutert, wie eine Spalte in GridDesktop eingefügt oder hinzugefügt wird.
 ---
+
 {{% alert color="primary" %}} 
 
-In diesem Thema beschreiben wir die grundlegende Funktion zum Hinzufügen und Einfügen von Spalten in die Arbeitsblätter zur Laufzeit mithilfe von API von Aspose.Cells.GridDesktop. Der grundlegende Unterschied zwischen Hinzufügen und Einfügen besteht darin, dass zusätzlich eine Spalte am Ende der Spaltensammlung des Arbeitsblatts hinzugefügt wird, wobei wie beim Einfügen eine Spalte an jeder angegebenen Position im Arbeitsblatt hinzugefügt werden kann.
+In diesem Thema werden die grundlegenden Funktionen des Hinzufügens und Einfügens von Spalten in die Tabellenblätter zur Laufzeit unter Verwendung der API von Aspose.Cells.GridDesktop beschrieben. Der grundlegende Unterschied zwischen Hinzufügung und Einfügung besteht darin, dass bei der Hinzufügung die Spalte am Ende der Spaltensammlung des Arbeitsblatts hinzugefügt wird, während bei der Einfügung eine Spalte an einer bestimmten Position im Arbeitsblatt hinzugefügt werden kann.
 
 {{% /alert %}} 
-## **Hinzufügen einer Spalte zum Arbeitsblatt**
-Führen Sie die folgenden Schritte aus, um dem Arbeitsblatt eine neue Spalte hinzuzufügen:
+## **Eine Spalte zum Arbeitsblatt hinzufügen**
+Um eine neue Spalte zum Arbeitsblatt hinzuzufügen, befolgen Sie bitte die folgenden Schritte:
 
--  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
--  Greifen Sie beliebig zu**Arbeitsblatt**
--  Addieren**Spalte** zum**Arbeitsblatt**
+- Fügen Sie das Steuerelement Aspose.Cells.GridDesktop zu Ihrem **Formular** hinzu
+- Greifen Sie auf jedes gewünschte **Arbeitsblatt** zu
+- Fügen Sie eine **Spalte** zum **Arbeitsblatt** hinzu
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-AddInsertColumn-AddColumn.cs" >}}
 ## **Einfügen einer Spalte in ein Arbeitsblatt**
-Um eine neue Spalte an einer bestimmten Position in das Arbeitsblatt einzufügen, führen Sie bitte die folgenden Schritte aus:
+Um eine neue Spalte in ein Arbeitsblatt an einer bestimmten Position einzufügen, befolgen Sie bitte die folgenden Schritte:
 
--  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
--  Greifen Sie beliebig zu**Arbeitsblatt**
--  Einfügung**Spalte** hinein**Arbeitsblatt** (an einer bestimmten Position durch Angabe des Index der Spalte, wo es eingefügt werden soll)
+- Fügen Sie das Steuerelement Aspose.Cells.GridDesktop zu Ihrem **Formular** hinzu
+- Greifen Sie auf jedes gewünschte **Arbeitsblatt** zu
+- Fügen Sie eine **Spalte** in das **Arbeitsblatt** ein (an einer bestimmten Position, indem der Index der Spalte angegeben wird, an der sie eingefügt werden soll)
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing first worksheet of the Grid
 

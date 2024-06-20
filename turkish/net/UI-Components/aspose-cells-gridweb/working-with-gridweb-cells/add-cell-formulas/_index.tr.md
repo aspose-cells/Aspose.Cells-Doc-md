@@ -1,23 +1,26 @@
-﻿---
-title: Cell Formül Ekle
+---
+title: Hücre Formülleri Ekle
 type: docs
 weight: 30
-url: /tr/net/add-cell-formulas/
+url: /tr/net/aspose-cells-gridweb/add-cell-formula/
+keywords: GridWeb,formülü
+description: Bu makale, GridWeb de hücreye formül ekleme konusunu ele almaktadır.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb'in sunduğu en değerli özellik formül veya fonksiyon desteğidir. Aspose.Cells.GridWeb, çalışma sayfalarındaki formülleri hesaplayan kendi Formül Motoruna sahiptir. Aspose.Cells.GridWeb hem yerleşik hem de kullanıcı tanımlı işlevleri veya formülleri destekler. Bu konu, Aspose.Cells.GridWeb API kullanarak hücrelere formül eklemeyi ayrıntılı olarak ele almaktadır.
+Aspose.Cells.GridWeb tarafından sunulan en değerli özellik, çalışma sayfalarındaki formülleri veya işlevleri desteklemedir. Aspose.Cells.GridWeb'ın kendi Formül Motoru vardır ve çalışma sayfalarındaki formülleri hesaplar. Aspose.Cells.GridWeb, önceden yapılandırılmış ve kullanıcı tanımlı işlevleri veya formülleri destekler. Bu konu, Aspose Cells.GridWeb API'sını kullanarak hücrelere formül eklemeyi detaylı olarak ele almaktadır.
 
 {{% /alert %}} 
-## **Cells'e Formüller Ekleniyor**
-### **Formül Nasıl Eklenir ve Hesaplanır?**
- Bir hücrenin Formül özelliğini kullanarak hücrelerdeki formülleri eklemek, bunlara erişmek ve değiştirmek mümkündür. Aspose.Cells.GridWeb, basitten karmaşığa değişen kullanıcı tanımlı formülleri destekler. Ancak, çok sayıda yerleşik işlev veya formül (Microsoft Excel'e benzer) Aspose.Cells.GridWeb ile birlikte sağlanır. Yerleşik işlevlerin tam listesini görmek için lütfen buna bakın.[desteklenen işlevlerin listesi.](/cells/tr/net/list-of-supported-functions/)
+## **Hücrelere Formül Ekleme**
+### **Bir Formül Nasıl Eklenir ve Hesaplanır?**
+Aspose.Cells.GridWeb, bir hücrenin Formül özelliğini kullanarak formül eklemeyi, erişmeyi ve değiştirmeyi mümkün kılar. Aspose.Cells.GridWeb, basitten karmaşığa kadar kullanıcı tanımlı formülleri destekler. Ancak, Aspose.Cells.GridWeb ile birlikte Microsoft Excel'e benzer birçok yerleşik işlev veya formül (desteklenen işlevlerin tam listesini görmek için [desteklenen işlevlerin listesine](/cells/tr/net/aspose-cells-gridweb/list-of-supported-functions/) başvurunuz.) sunulmaktadır.
 
 {{% alert color="primary" %}} 
 
-Formül sözdizimi, Microsoft Excel söz dizimi ile uyumlu olmalıdır. Örneğin, tüm formüller eşittir işaretiyle (=) başlamalıdır.
+Formül sözdizimi, Microsoft Excel sözdizimiyle uyumlu olmalıdır. Örneğin, tüm formüller eşittir işareti (=) ile başlamalıdır.
 
-Dinamik olarak bir formül eklemek için, Aspose.Cells.GridWeb, **=** işareti kullanmasanız bile bunu bir formül olarak tanıyacaktır, ancak GUI'de çalışan son kullanıcılar "=" işaretini kullanmalıdır.
+Aspose.Cells.GridWeb, bir formülü dinamik olarak eklenirse, = işaretini kullanmasanız bile formülü bir formül olarak tanır, ancak GUI'de çalışan son kullanıcılar, ''='' işaretini kullanmalıdır.
 
 {{% /alert %}} 
 
@@ -25,11 +28,11 @@ Dinamik olarak bir formül eklemek için, Aspose.Cells.GridWeb, **=** işareti k
 
 
 
-**B3 hücresine eklenen ancak GridWeb tarafından hesaplanmayan formül** 
+GridWeb tarafından B3 hücresine eklenen ancak hesaplanmayan formül 
 
-![yapılacaklar:resim_alternatif_metin](add-cell-formulas_1.png)
+![todo:image_alt_text](add-cell-formulas_1.png)
 
-Yukarıdaki ekran görüntüsünde, B3'e bir formül eklendiğini ancak henüz hesaplanmadığını görebilirsiniz. Tüm formülleri hesaplamak için, formülleri aşağıda gösterildiği gibi çalışma sayfalarına ekledikten sonra GridWeb denetiminin GridWorksheetCollection'ın CalculateFormula yöntemini çağırın.
+Yukarıdaki ekran görüntüsünde, B3'e bir formül eklenmiş ancak henüz hesaplanmamış görülmektedir. Tüm formülleri hesaplamak için, çalışma sayfasına formüller ekledikten sonra GridWeb kontrolünün GridWorksheetCollection'ın CalculateFormula yöntemini çağırınız.
 
 
 
@@ -37,23 +40,23 @@ Yukarıdaki ekran görüntüsünde, B3'e bir formül eklendiğini ancak henüz h
 
 {{% alert color="primary" %}} 
 
- Kullanıcılar ayrıca tıklayarak formülleri hesaplayabilir.**Göndermek**.
+Kullanıcılar ayrıca **Gönder** düğmesine tıklayarak formülleri hesaplayabilir.
 
-**GridWeb'in Gönder düğmesini tıklatmak** 
+GridWeb'in **Gönder** düğmesine tıklama 
 
-![yapılacaklar:resim_alternatif_metin](add-cell-formulas_2.png)
+![todo:image_alt_text](add-cell-formulas_2.png)
 
-**ÖNEMLİ** : Bir kullanıcı**Kayıt etmek** veya**Geri alma** düğmeleri veya sayfa sekmeleri, tüm formüller GridWeb tarafından otomatik olarak hesaplanır.
+**ÖNEMLİ**: Bir kullanıcı **Kaydet** veya **Geri Al** düğmelerine veya sayfa sekmelerine tıklarsa, tüm formüller otomatik olarak GridWeb tarafından hesaplanır.
 
-**Hesaplamadan sonra formül sonucu** 
+**Hesaplama sonrası formül sonucu** 
 
-![yapılacaklar:resim_alternatif_metin](add-cell-formulas_3.png)
+![todo:image_alt_text](add-cell-formulas_3.png)
 
 {{% /alert %}} 
-### **Diğer Çalışma Sayfalarından Cells'e Referans Verme**
-Aspose.Cells.GridWeb'i kullanarak, farklı çalışma sayfalarında depolanan değerlere formüllerinde başvurmak, karmaşık formüller oluşturmak mümkündür.
+### **Diğer Çalışma Sayfalarından Hücrelere Referans Verme**
+Aspose.Cells.GridWeb kullanarak, farklı çalışma sayfalarında depolanan değerlere formüllerinde referans vermek mümkündür, böylece karmaşık formüller oluşturabilir.
 
-Farklı bir çalışma sayfasından bir hücre değerine başvurmak için sözdizimi SayfaAdı!HücreAdı şeklindedir.
+Farklı çalışma sayfalarından bir hücre değerine referans vermenin sözdizimi ŞemaAdı!HücreAdı'dır.
 
 
 

@@ -1,22 +1,23 @@
-﻿---
-title: Copiare righe e colonne in Ruby
+---
+title: Copia di righe e colonne in Ruby
 type: docs
 weight: 30
 url: /it/java/copying-rows-and-columns-in-ruby/
 ---
+
 ## **Aspose.Cells - Copia di righe e colonne**
-### **Copia di righe**
-Aspose.Cells fornisce il metodo copyRow della classe Cells. Questo metodo copia tutti i tipi di dati inclusi formule, valori, commenti, formati di cella, celle nascoste, immagini e altri oggetti di disegno dalla riga di origine alla riga di destinazione.
+### **Copia delle Righe**
+Aspose.Cells fornisce il metodo copyRow della classe Cells. Questo metodo copia tutti i tipi di dati, inclusi formule, valori, commenti, formati di celle, celle nascoste, immagini e altri oggetti disegnati dalla riga di origine alla riga di destinazione.
 
-Il metodo copyRow accetta i seguenti parametri:
+Il metodo copyRow prendi i seguenti parametri:
 
-- l'oggetto sorgente Cells,
+- l'oggetto Cells di origine,
 - l'indice della riga di origine e
 - l'indice della riga di destinazione.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_rows()
 
@@ -47,38 +48,38 @@ Il metodo copyRow accetta i seguenti parametri:
 end
 
 {{< /highlight >}}
-### **Copia di colonne**
-Aspose.Cells fornisce il metodo copyColumn della classe Cells, questo metodo copia tutti i tipi di dati, incluse formule - con riferimenti aggiornati - e valori, commenti, formati di celle, celle nascoste, immagini e altri oggetti di disegno dalla colonna di origine alla colonna di destinazione.
+### **Copia delle Colonne**
+Aspose.Cells fornisce il metodo copyColumn della classe Cells, questo metodo copia tutti i tipi di dati, inclusi formule - con riferimenti aggiornati - e valori, commenti, formati di celle, celle nascoste, immagini e altri oggetti disegnati dalla colonna di origine alla colonna di destinazione.
 
-Il metodo copyColumn accetta i seguenti parametri:
+Il metodo copyColumn prendi i seguenti parametri:
 
-- l'oggetto sorgente Cells,
-- indice della colonna di origine e
+- l'oggetto Cells di origine,
+- l'indice della colonna di origine e
 - l'indice della colonna di destinazione.
 
-**Codice Rubino**
+**Codice Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
- def copia_colonne()
+ def copy_columns()
 
-dati_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/dati/'
+    data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
 
 
-# Creazione di un'istanza di un oggetto cartella di lavoro in base al percorso del file excel
+    # Instantiating a Workbook object by excel file path
 
-cartella di lavoro = Rjb::import('com.aspose.cells.Workbook').new
+    workbook = Rjb::import('com.aspose.cells.Workbook').new
 
-# Accesso al primo foglio di lavoro nel file Excel
+    # Accessing the first worksheet in the Excel file
 
-foglio di lavoro = workbook.getWorksheets().get(0)
+    worksheet = workbook.getWorksheets().get(0)
 
-# Inserisci alcuni dati nelle righe di intestazione (A1: A4)
+    # Put some data into header rows (A1:A4)
 
-io = 0
+    i = 0
 
- mentre io< 5
+    while i < 5
 
         worksheet.getCells().get(i, 0).setValue("Header Row #{i}")
 
@@ -126,6 +127,6 @@ end
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Copia di righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Copia di righe e colonne (Aspose.Cells)** da uno dei seguenti siti di social coding:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

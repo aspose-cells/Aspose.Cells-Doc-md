@@ -1,15 +1,16 @@
-﻿---
-title: Создать новый рабочий лист
+---
+title: Создать новый лист
 type: docs
 weight: 10
 url: /ru/java/create-new-worksheet/
 ---
-## **Aspose.Cells - Создать новый рабочий лист**
-Добавление рабочего листа в рабочую книгу
+
+## **Aspose.Cells - Создать новый лист**
+Добавление листа в книгу
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -26,12 +27,12 @@ Worksheet worksheet = worksheets.add("My Worksheet");
 workbook.save("newWorksheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF XSSF — Создать новый рабочий лист**
-Добавление рабочего листа в рабочую книгу
+## **Apache POI SS - HSSF XSSF - Создать новый лист**
+Добавление листа в книгу
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook(); // or new XSSFWorkbook();
 
@@ -77,7 +78,7 @@ fileOut.close();
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/createnewworksheet)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/createnewworksheet)

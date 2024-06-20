@@ -1,20 +1,21 @@
-﻿---
-title: xlsx4j'de Çalışma Sayfası Sekme Rengini Ayarla
+---
+title: xlsx4j deki İş Kitabı Sekme Rengini Ayarla
 type: docs
 weight: 60
 url: /tr/java/set-worksheet-tab-color-in-xlsx4j/
 ---
-## **Aspose.Cells - Çalışma Sayfası Sekme Rengini Ayarla**
-Aspose.Cells, tek tek çalışma sayfası sekmelerinin rengini değiştirerek diğerlerinden öne çıkmalarını sağlar. Örneğin, Giderleri kırmızı, Satışları yeşil, Varlıkları mavi vb. yapabilirsiniz.
-### **Microsoft Excel ile Çalışma Sayfası Sekme Rengini Ayarlama**
-1. Geçerli çalışma sayfasının altındaki sekme sayfasındaki bir sekmeyi sağ tıklayın.
-1. Seçme**Sekme rengi**.
+
+## **Aspose.Cells - Çalışma Sayfası Sekmesi Rengi Ayarlama**
+Aspose.Cells, bireysel çalışma sayfası sekmelerinin rengini değiştirmenize olanak tanır, böylece onları geri kalanından ayırt edebilirsiniz. Örneğin, Giderleri kırmızı, Satışları yeşil, Varlıkları mavi vb. yapabilirsiniz.
+### **Microsoft Excel ile Çalışma Sayfası Sekmesi Rengini Ayarlama**
+1. Mevcut çalışma sayfasının altındaki sekme sayfasında bir sekmeye sağ tıklayın.
+1. **Sekme rengi**'ni seçin.
 1. Paletten bir renk seçin.
-1. Tıklamak**Tamam**.
+1. **Tamam**'ı tıklayın.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new Workbook
 
@@ -35,11 +36,11 @@ workbook.save(dataDir + "AsposeColoredTab_Out.xls");
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/settabcolor/AsposeSetWorksheetTabColor.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfası Sekme Rengini Ayarla](/java/set-worksheet-tab-color).
+Daha fazla bilgi için [Çalışma Sayfası Sekme Rengini Ayarlama](/java/set-worksheet-tab-color)'ı ziyaret edin.
 
 {{% /alert %}}

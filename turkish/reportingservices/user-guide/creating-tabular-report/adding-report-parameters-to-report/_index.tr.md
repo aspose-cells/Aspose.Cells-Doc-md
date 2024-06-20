@@ -1,57 +1,58 @@
-﻿---
-title: Rapora Rapor Parametreleri Ekleme
+---
+title: Rapora Rapor Parametreleri Eklenmesi
 type: docs
 weight: 60
 url: /tr/reportingservices/adding-report-parameters-to-report/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells' rapor şablonu, bir Raporlama Hizmetleri parametre işaretçisi içeren hücreler için bir veri kaynağı olarak Raporlama Hizmetleri rapor parametrelerini destekler. Bakınız[Aspose.Cells Şablon ve Akıllı İşaretleyiciler](/cells/tr/reportingservices/aspose-cells-template-and-smart-markers/) Raporlama Hizmetleri parametre işaretleri hakkında bilgi edinmek için. Rapor parametreleri normalde tablo üstbilgisi veya altbilgisinin metin alanına yerleştirilir.
+Aspose.Cells' rapor şablonu, Reporting Services rapor parametrelerini içeren hücreler için bir veri kaynağı olarak destekler. Reporting Services parametre işaretçisi içeren hücrelere lütfen [Aspose.Cells Şablonu ve Akıllı İşaretçiler](/cells/tr/reportingservices/aspose-cells-template-and-smart-markers/) bölümüne bakın. Rapor parametreleri genellikle tablo başlığının veya altbilgisinin metin alanına yerleştirilir.
 
 {{% /alert %}} 
-### **Rapor Parametresi Ekleme**
+### **Bir Rapor Parametresi Ekleme**
 Raporlara rapor parametreleri eklemek için:
 
-1.  Bir hücre seçin.
+1. Bir hücre seçin. 
 
-   **hücre seçme** 
+   **Bir hücre seçme** 
 
-![yapılacaklar:resim_alternatif_metin](adding-report-parameters-to-report_1.png)
-
-
+![todo:image_alt_text](adding-report-parameters-to-report_1.png)
 
 
-1. Aspose.Cells.Report.Designer araç çubuğunda Formül ekle'ye tıklayın (
 
-![yapılacaklar:resim_alternatif_metin](adding-report-parameters-to-report_2.png)
+
+1. Aspose.Cells.Report.Designer araç çubuğunda Formül Ekle'yi tıklayın (
+
+![todo:image_alt_text](adding-report-parameters-to-report_2.png)
 
 ).
 
-1.  Seçme**parametreler** Parametreler panelinden sola.
- Tüm parametreler sağ panelde listelenir.
-1. Bir parametre seçin, örnekte EmpID'yi seçtik.
-1. İfadenin düzenleyicide formun üst kısmında görünmesini sağlamak için parametreye çift tıklayın.
- Bir parametrenin iki veri özelliği vardır: etiket ve değer (varsayılan özellik değerdir).
+1. Sol taraftaki Parametreler panelinden **Parametreler**'i seçin.
+   Tüm parametreler sağ panelde listelenir. 
+1. Bir parametre seçin, örneğin, EmpID'yi seçtik.
+1. İfadeyi üstteki düzenleyicide göstermek için parametreye iki kez tıklayın.
+   Bir parametrenin iki veri özelliği vardır: etiket ve değer (varsayılan özellik değerdir). 
 
-   **parametre seçme** 
+   **Bir parametre seçme** 
 
-![yapılacaklar:resim_alternatif_metin](adding-report-parameters-to-report_3.png)
-
-
-
-
-1.  Örnekte, parametrenin etiketi raporda gösterilmelidir, bu nedenle ifadeyi Parameters!EmpID.Label olarak değiştirin.
-
-   **parametrenin değiştirilmesi** 
-
-![yapılacaklar:resim_alternatif_metin](adding-report-parameters-to-report_4.png)
+![todo:image_alt_text](adding-report-parameters-to-report_3.png)
 
 
 
 
-1.  Tıklamak**Tamam**.
- Seçilen hücre bir rapor parametreleri işaretçisi içerir.
+1. Örneğin, parametrenin etiketi raporda gösterilmelidir, bu nedenle ifadeyi Parameters!EmpID.Label'e değiştirin. 
 
-   **Hücreye eklenen bir rapor parametresi** 
+   **Parametreyi değiştirme** 
 
-![yapılacaklar:resim_alternatif_metin](adding-report-parameters-to-report_5.png)
+![todo:image_alt_text](adding-report-parameters-to-report_4.png)
+
+
+
+
+1. **Tamam**'a tıklayın.
+   Seçilen hücre bir rapor parametre işaretçisi içerir. 
+
+   **Bir rapor parametresi hücreye eklendi** 
+
+![todo:image_alt_text](adding-report-parameters-to-report_5.png)

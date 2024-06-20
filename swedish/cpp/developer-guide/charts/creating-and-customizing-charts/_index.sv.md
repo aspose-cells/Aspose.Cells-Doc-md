@@ -4,34 +4,35 @@ type: docs
 weight: 10
 url: /sv/cpp/creating-and-customizing-charts/
 ---
-##  **Möjliga användningsscenarier**
 
-Ett diagram är en visuell visning av information. Aspose.Cells tillåter utvecklare att visualisera information i diagram precis som Microsoft Excel gör. Att presentera information i diagram är alltid till hjälp för beslutsfattare för att fatta snabba och snabba beslut. Det är lättare att snabbt se jämförelser, mönster och trender i data med diagram snarare än råa siffror. Att skapa diagram vid körning, baserat på data i ett kalkylblad, är en av Aspose.Cells' användbara funktioner. Aspose.Cells stöder att skapa både standard- och anpassade diagram. Nedan kommer vi att visa några exempel med exempelfiler på hur man skapar några vanliga MS-Excel-diagramtyper med Aspose.Cells API.
+## **Möjliga användningsscenario**
 
-##  **Pyramiddiagram**
+Ett diagram är en visuell presentation av information. Aspose.Cells tillåter utvecklare att visualisera information i diagram precis som Microsoft Excel gör. Att presentera information i diagram är alltid till hjälp för beslutsfattare att fatta snabba och rättidiga beslut. Det är lättare att snabbt se jämförelser, mönster och trender i data med diagram snarare än råa siffror. Att skapa diagram vid körning, baserat på datan i ett kalkylblad, är en av Aspose.Cells användbara funktioner. Aspose.Cells stödjer skapandet av både standard- och anpassade diagram. Nedan kommer vi att visa några exempel med exempelfiler om hur man skapar några vanliga MS-Excel-diagram med hjälp av Aspose.Cells API.
 
- När exempelkoden exekveras läggs ett pyramiddiagram till i kalkylbladet. Vänligen se[utdata Excel-fil](66519068.xlsx) av följande exempelkod.
+## **Pyramiddiagram**
+
+När exempelkoden körs läggs ett pyramid-diagram till arbetsbladet. Vänligen se den [utdata Excel-filen](66519068.xlsx) från följande kodexempel.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_PyramidChart-new.cpp" >}}
 
-##  **Linjediagram**
+## **Linjediagram**
 
-I exemplet ovan ändrar du helt enkelt[**ChartType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttype/)till**`ChartType::Line`**skapar ett linjediagram. Den fullständiga källan finns nedan. när koden exekveras läggs ett linjediagram till i kalkylbladet. Vänligen se[utdata Excel-fil](66519069.xlsx) av följande exempelkod.
+I det ovanstående exemplet skapar en enkel ändring av [**ChartType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttype/) till **`ChartType::Line`** ett linjediagram. Den kompletta källkoden ges nedan. När koden körs läggs ett linjediagram till arbetsbladet. Vänligen se den [utdata Excel-filen](66519069.xlsx) från följande kodexempel.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_LineChart-new.cpp" >}}
 
-##  **Bubbeldiagram**
+## **Bubbel-diagram**
 
-För att skapa ett bubbeldiagram,[**ChartType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttype/) måste ställas in på**`ChartType_Bubble`** och få extra fastigheter som t.ex[**Ange BubbleSizes**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/setbubblesizes/) & [**SetXValues**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/setxvalues/) måste ställas in därefter. När följande kod körs läggs ett bubbeldiagram till i kalkylbladet. Vänligen se[utdata Excel-fil](66519070.xlsx) av följande exempelkod.
+För att skapa ett bubbel-diagram måste [**ChartType**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/charttype/) sättas till **`ChartType_Bubble`** och några extra egenskaper såsom [**SetBubbleSizes**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/setbubblesizes/) & [**SetXValues**](https://reference.aspose.com/cells/cpp/aspose.cells.charts/series/setxvalues/) måste ställas in därefter. När följande kod exekveras läggs ett bubbel-diagram till arbetsbladet. Vänligen se den [utdata Excel-filen](66519070.xlsx) från följande kodexempel.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_BubbleChart-new.cpp" >}}
 
-##  **Skapa anpassade diagram**
+## **Skapa Anpassade Diagram**
 
-Hittills, när vi har diskuterat diagram, har vi tittat på standarddiagram som har sina egna standardformateringsinställningar. Vi definierar bara datakällan, ställer in några få egenskaper och diagrammet skapas med dess standardformatinställningar. Men Aspose.Cells API:er stöder också att skapa anpassade diagram som gör det möjligt för utvecklare att skapa diagram med sina egna formatinställningar. Utvecklare kan skapa anpassade diagram under körning med Aspose.Cells.
+Hittills, när vi har diskuterat diagram, har vi tittat på standarddiagram som har sina egna standardformateringsinställningar. Vi definierar bara datakällan, ställer in några egenskaper och diagrammet skapas med sina standardformateringsinställningar. Men Aspose.Cells API:er stödjer också skapandet av anpassade diagram som tillåter utvecklare att skapa diagram med sina egna formateringsinställningar. Utvecklare kan skapa anpassade diagram vid körning med hjälp av Aspose.Cells.
 
-Ett diagram är sammansatt av en dataserie. När du skapar ett anpassat diagram har utvecklare friheten att använda olika typer av diagram för olika dataserier.
+Ett diagram består av en dataserie. När man skapar ett anpassat diagram har utvecklare friheten att använda olika diagramtyper för olika dataserier.
 
- Exempelkoden nedan visar hur man skapar anpassade diagram. I det här exemplet kommer vi att använda ett kolumndiagram för den första dataserien och ett linjediagram för den andra serien. Resultatet är att vi lägger till ett kolumndiagram, kombinerat med ett linjediagram, till kalkylbladet. Vänligen se[utdata Excel-fil](66519071.xlsx) av följande exempelkod.
+Följande kodexempel visar hur man skapar anpassade diagram. I det här exemplet kommer vi att använda ett stapeldiagram för den första dataserien och ett linjediagram för den andra serien. Resultatet är att vi lägger till ett stapeldiagram, i kombination med ett linjediagram, till arbetsbladet. Vänligen se den [utdata Excel-filen](66519071.xlsx) från följande kodexempel.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart-new.cpp" >}}

@@ -1,12 +1,13 @@
-﻿---
-title: グラフを画像に変換する
+---
+title: チャートを画像に変換する
 type: docs
 weight: 10
 url: /ja/net/convert-charts-to-images/
 ---
-**チャート**視覚的に魅力的で、ユーザーがデータの比較、パターン、および傾向を簡単に確認できるようにします。たとえば、ワークシートの数値の列をいくつか分析する必要はなく、売上が四半期ごとに増減しているかどうか、または実際の売上が予測された売上とどのように比較されているかを一目で確認できます。場合によっては、グラフを提示する必要があります。アプリケーションまたは Web ページで。 Word ドキュメント、PDF ファイル、Power Point プレゼンテーション、またはその他のシナリオに挿入する必要がある場合があります。簡単にアプリケーションに貼り付けることができるように、グラフを画像としてレンダリングする必要があります。写真は価値があります。仕事の過程で、統計情報やグラフィック情報を理解しやすく維持しやすい方法で提示しなければならないことがよくあります。Office オートメーションを試すこともできますが、Office オートメーションには独自の欠点があります。関連するいくつかの理由と問題があります。たとえば、セキュリティ、安定性、スケーラビリティ/速度、価格、機能などです。要するに、多くの理由があります。その最たるものは、Microsoft 自身がソフトウェア ソリューションによる Office オートメーションを強く推奨していないことです。 Office のサーバー側の自動化。Excel チャートを画像に変換するために使用できる別のオプションがあります。**Aspose.Cells**.
-## **チャートを EMF に変換する**
-{{< highlight "csharp" >}}
+
+**チャート**は視覚的に魅力的であり、ユーザーがデータの比較やパターン、トレンドを簡単に把握できるようにします。たとえば、ワークシートの数値の複数の列を分析する必要がある代わりに、四半期ごとの売上が下がっているか上昇しているか、実際の売上が予測の売上とどのように比較しているかを一目で確認できます。時には、アプリケーションや Web ページでチャートを表示する必要があります。Word ドキュメント、PDF ファイル、Power Point プレゼンテーションなどに挿入する必要があるかもしれません。単純に、チャートを画像としてレンダリングし、簡単にアプリケーションに貼り付けたいと思うかもしれません。画像は価値があります。仕事の過程で、統計的およびグラフィカルな情報を理解しやすく、そして簡単に管理できるように提示しなければならないことがよくあります。Office Automation を試してみるかもしれませんが、Office Automation にはいくつかの欠点があります。セキュリティ、安定性、拡張性／速度、価格、機能などの理由や問題があります。要するに、Microsoft 自体が、ソフトウェアソリューションでの Office Automation を強く推奨していません: Office のサーバーサイド自動化に関する考慮事項。**Aspose.Cells** を使用して、Excel チャートを画像に変換するための別のオプションがあります。
+## **チャートを EMF に変換**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -64,8 +65,8 @@ chart.ToImage(MyDir + "Chart to EMF Image.Emf", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **チャートを BMP に変換する**
-{{< highlight "csharp" >}}
+## **チャートを BMP に変換**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -122,8 +123,8 @@ chart.NSeries.Add("A1:B3", true);
 chart.ToImage(MyDir + "Chart to BMP Image.Bmp", System.Drawing.Imaging.ImageFormat.Bmp);
 
 {{< /highlight >}}
-## **チャートを JPEG に変換する**
-{{< highlight "csharp" >}}
+## **チャートを JPEG に変換**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -181,8 +182,8 @@ chart.ToImage(MyDir + "Chart to JPEG Image.Jpeg", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **チャートを PNG に変換する**
-{{< highlight "csharp" >}}
+## **チャートを PNG に変換**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -240,8 +241,8 @@ chart.ToImage(MyDir + "Chart to PNG Image.Png", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **チャートを TIFF に変換する**
-{{< highlight "csharp" >}}
+## **チャートを TIFF に変換**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -299,8 +300,8 @@ chart.ToImage(MyDir + "Chart to Tiff Image.Tiff", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **チャートをマルチページに変換する TIFF**
-{{< highlight "csharp" >}}
+## **チャートをマルチページ TIFF に変換**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -372,5 +373,5 @@ chart.ToImage(MyDir + "Chart to Tiff Image.tiff", options);
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Converting%20Chart%20to%20Image%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Converting%20Chart%20to%20Image%20%28Aspose.Cells%29.zip)

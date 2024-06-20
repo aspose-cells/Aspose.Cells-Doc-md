@@ -1,16 +1,17 @@
-﻿---
-title: Holen Sie sich den HTML5-String von Cell
+---
+title: HTML5 String aus Zelle abrufen
 type: docs
 weight: 90
 url: /de/java/get-html5-string-from-cell/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells gibt die Zeichenfolge HTML der Zelle zurück, die verwendet wird[**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)Methode. Wenn Sie bestehen**FALSCH**Als Parameter wird es Ihnen Normal HTML zurückgeben, aber wenn Sie bestehen**wahr**Als Parameter wird eine HTML5-Zeichenfolge zurückgegeben.
+## **Mögliche Verwendungsszenarien**
 
-## **Holen Sie sich den HTML5-String von Cell**
+Aspose.Cells liefert den HTML-String der Zelle mithilfe der Methode [**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) zurück. Wenn Sie false als Parameter übergeben, erhalten Sie normalen HTML-Code, aber wenn Sie true als Parameter übergeben, erhalten Sie HTML5-String zurück.
 
-Der folgende Beispielcode erstellt ein Arbeitsmappenobjekt und fügt Text in Zelle A1 des ersten Arbeitsblatts hinzu. Es ruft dann die Zeichenfolge Normal HTML und HTML5 aus Zelle A1 ab, indem es die verwendet[**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)-Methode und gibt sie auf der Konsole aus.
+## **Holen Sie sich HTML5-String aus der Zelle**
+
+Der folgende Beispielcode erstellt ein Arbeitsmappenobjekt und fügt etwas Text in Zelle A1 des ersten Arbeitsblatts ein. Dann wird der normale HTML- und HTML5-String aus Zelle A1 mithilfe der Methode [**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) abgerufen und auf der Konsole gedruckt.
 
 ## **Beispielcode**
 
@@ -18,7 +19,7 @@ Der folgende Beispielcode erstellt ein Arbeitsmappenobjekt und fügt Text in Zel
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Normal:
 

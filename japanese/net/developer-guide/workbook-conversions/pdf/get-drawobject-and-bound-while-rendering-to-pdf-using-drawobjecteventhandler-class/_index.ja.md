@@ -1,28 +1,29 @@
-﻿---
-title: DrawObjectEventHandler クラスを使用して PDF へのレンダリング中に DrawObject と Bound を取得する
+---
+title: DrawObjectEventHandler クラスを使用して PDF にレンダリングする際の DrawObject および Bound を取得
 type: docs
 weight: 70
 url: /ja/net/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/
 ---
-## **考えられる使用シナリオ**
 
- Aspose.Cells は抽象クラスを提供します[**DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)を持っている[**描く（）**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler/methods/draw)方法。ユーザーが実装できる[**DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)を利用し、[**描く（）**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler/methods/draw)を取得する方法[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)Excel を PDF またはイメージにレンダリングする際にバインドされます。のパラメータを簡単に説明します。[**描く（）**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler/methods/draw)方法。
+## **可能な使用シナリオ**
 
-- 描画オブジェクト:[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)レンダリング時に初期化されて返されます
+Aspose.Cellsは、[**DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)抽象クラスを提供しており、[**Draw()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler/methods/draw)メソッドがあります。ユーザーは[**DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)を実装し、ExcelをPDFや画像にレンダリングする際に[**Draw()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler/methods/draw)メソッドを利用して[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)とバウンドを取得できます。以下に、[**Draw()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler/methods/draw)メソッドのパラメータの簡単な説明を示します。
 
-- x: 左[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)
+- drawObject: [**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)は初期化され、レンダリング時に返されます
 
-- y: 上[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)
+- x: [**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject) の左端
 
-- 幅: の幅[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)
+- y: [**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject) の上端
 
-- 高さ: の高さ[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)
+- width: [**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject) の幅
 
-ExcelファイルをPDFにレンダリングしている場合は、利用できます[**DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)クラス[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/drawobjecteventhandler).同様に、Excel ファイルを画像にレンダリングする場合は、[**DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)クラス[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/drawobjecteventhandler).
+- height: [**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject) の高さ
 
-## **DrawObjectEventHandler クラスを使用して Pdf へのレンダリング中に DrawObject と Bound を取得する**
+ExcelファイルをPDFにレンダリングする場合は、[**DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)クラスと[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/drawobjecteventhandler)と組み合わせて使用できます。同様に、Excelファイルをイメージにレンダリングする場合は、[**DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobjecteventhandler)クラスと[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/drawobjecteventhandler)と組み合わせて使用できます。
 
-以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](64716821.xlsx)そしてそれをとして保存します[出力 PDF](64716822.pdf)PDFにレンダリングしながら、それは利用します[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/drawobjecteventhandler)プロパティとキャプチャ[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)既存のセルとオブジェクト (画像など) の境界。[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject) type は Cell で、その Bound と StringValue を出力します。そしてもし[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)type は Image で、境界と形状の名前を出力します。詳細については、以下のサンプル コードのコンソール出力を参照してください。
+## **DrawObjectEventHandler クラスを使用して PDF にレンダリングする際の DrawObject と Bound を取得**
+
+以下のサンプルコードをご覧ください。[サンプルExcelファイル](64716821.xlsx)をロードし、[出力PDF](64716822.pdf)として保存します。PDFにレンダリングする際に、[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/drawobjecteventhandler)プロパティを使用し、既存のセルやオブジェクト（画像など）の[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)とバウンドをキャプチャします。もし[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)タイプがセルであれば、そのバウンドとStringValueを出力します。そしてもし[**DrawObject**](https://reference.aspose.com/cells/net/aspose.cells.rendering/drawobject)タイプが画像であれば、そのバウンドとシェイプ名を出力します。下記のサンプルコードのコンソール出力を参照してください。
 
 ## **サンプルコード**
 
@@ -30,7 +31,7 @@ ExcelファイルをPDFにレンダリングしている場合は、利用でき
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  [X]: 153.6035 [Y]: 82.94118 [Width]: 103.2035 [Height]: 14.47059 [Cell Value]: This is sample text.
 

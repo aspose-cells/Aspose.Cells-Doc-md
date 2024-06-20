@@ -1,64 +1,65 @@
-﻿---
-title: Открытие файлов различных версий Excel Microsoft
+---
+title: Открытие файлов различных версий Microsoft Excel
 type: docs
 weight: 20
 url: /ru/java/opening-different-microsoft-excel-versions-files/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells может открывать различные Microsoft файлы версий Excel, такие как Microsoft Excel 95/97 - 2003, SpreadsheetML, открытие Microsoft Excel 2007/2010/2013/2013/2016/2019 и Office 365 XLSX или зашифрованные файлы Excel.
+Aspose.Cells может открывать файлы разных версий Microsoft Excel, такие как Microsoft Excel 95/97 - 2003, SpreadsheetML, открытие файлов Microsoft Excel 2007/2010/2013/2016/2019 и Office 365 XLSX или зашифрованных файлов Excel.
 
 {{% /alert %}}
 
-## **Открытие файлов разных версий Microsoft Excel**
+## **Открытие файлов различных версий Microsoft Excel**
 
- Приложение часто должно иметь возможность открывать файлы Excel Microsoft, созданные в разных версиях, например, Microsoft Excel 95,97 или Microsoft Excel 2007/2010/2013/2016/2019 и Office 365. Вам может понадобиться загрузить файл в любом из нескольких форматов, включая XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited или TSV, CSV, ODS и так далее. Используйте конструктор или используйте**[Рабочая тетрадь] (https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** учебный класс'**[setFileFormat] (https://reference.aspose.com/cells/java/com.aspose.cells/workbook#FileFormat)**метод для указания формата с помощью**[FileFormatType] (https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType)**перечисление.
+Приложение часто должно иметь возможность открывать файлы Microsoft Excel, созданные в различных версиях, например, Microsoft Excel 95,97 или Microsoft Excel 2007/2010/2013/2016/2019 и Office 365. Вам может потребоваться загрузить файл в любом из нескольких форматов, включая XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited или TSV, CSV, ODS и так далее. Используйте конструктор или используйте метод [**setFileFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#FileFormat) класса [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) для указания формата с использованием перечисления [**FileFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType).
 
-**[FileFormatType] (https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType)**перечисление содержит множество предопределенных форматов файлов, некоторые из которых приведены ниже.
+Перечисление [**FileFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType) содержит множество предопределенных форматов файлов, некоторые из которых приведены ниже.
 
 |**Типы форматов файлов**|**Описание**|
-|:- |:- |
-|CSV|Представляет файл CSV|
-|EXCEL_97_ТО_2003|Представляет файл Excel 97–2003.|
-|XLSX|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSX.|
-|XLSM|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSM.|
-|XLTX|Представляет файл шаблона Excel 2007/2010/2013/2016/2019 и Office 365 XLTX.|
-|XLTM|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 с поддержкой макросов XLTM.|
-|XLSB|Представляет двоичный файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSB.|
-|SPREADSHET_ML|Представляет файл SpreadsheetML|
-|TSV|Представляет файл значений, разделенных табуляцией.|
-|TAB_DELIMITED|Представляет текстовый файл с разделителями табуляции|
-|ODS|Представляет файл ODS|
-|HTML|Представляет файл HTML|
-|M_HTML|Представляет файл MHTML|
+| :- | :- |
+|CSV|Представляет собой файл CSV|
+|EXCEL_97_TO_2003|Представляет собой файл Excel 97 - 2003|
+|XLSX|Представляет собой файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSX|
+|XLSM|Представляет собой файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSM|
+|XLTX|Представляет собой файл шаблона XLTX Excel 2007/2010/2013/2016/2019 и Office 365|
+|XLTM|Представляет собой макросохраненный файл XLTM Excel 2007/2010/2013/2016/2019 и Office 365|
+|XLSB|Представляет собой двоичный файл XLSB Excel 2007/2010/2013/2016/2019 и Office 365|
+|SPREADSHEET_ML|Представляет собой файл SpreadsheetML|
+|TSV|Представляет собой файл значений, разделенных табуляцией|
+|TAB_DELIMITED|Представляет собой файл текста, разделенного табуляцией|
+|ODS|Представляет собой файл ODS|
+|HTML|Представляет собой файл HTML|
+|M_HTML|Представляет собой файл MHTML|
 
-### **Открытие Microsoft файлов Excel 95/5.0**
+### **Открытие файлов Microsoft Excel 95/5.0**
 
-Чтобы открыть файл Microsoft Excel 95/5.0, используйте**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**и установите соответствующий атрибут для**Параметры загрузки**class для загружаемого файла шаблона. Образец файла для тестирования этой функции можно загрузить по следующей ссылке:
+Для открытия файла Microsoft Excel 95/5.0 используйте [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) и установите соответствующий атрибут для класса [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) для загрузки шаблонного файла. Образец файла для тестирования этой функции можно скачать по следующей ссылке:
 
 [Файл Excel95](Excel95.xls)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenExcel95Files.java" >}}
 
-### **Открытие Microsoft Excel 97 - 2003 Файлы**
+### **Открытие файлов Microsoft Excel 97-2003**
 
- Чтобы открыть файл Microsoft Excel 97 - 2003, используйте**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** и установите соответствующий атрибут для**Параметры загрузки**class для загружаемого файла шаблона.
+Для открытия файла Microsoft Excel 97 - 2003 используйте [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) и установите соответствующий атрибут для класса [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) для загрузки шаблонного файла.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenExcel97-2003Files.java" >}}
 
-### **Открытие Microsoft файлов Excel 2007/2010/2013/2016/2019 и Office 365 XLSX**
+### **Открытие файлов Microsoft Excel 2007/2010/2013/2016/2019 и Office 365 XLSX**
 
-Чтобы открыть формат Microsoft Excel 2007/2010/2013/2016/2019 и Office 365, то есть XLSX или XLSB, укажите путь к файлу. Вы также можете использовать**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** и установите соответствующий атрибут/параметры**Параметры загрузки**class для загружаемого файла шаблона.
+Для открытия формата Microsoft Excel 2007/2010/2013/2016/2019 и Office 365, то есть XLSX или XLSB, укажите путь к файлу. Вы также можете использовать [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) и установить соответствующие атрибуты/опции класса [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) для загрузки шаблонного файла.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenExcel2007Files.java" >}}
 
 ### **Открытие зашифрованных файлов Excel**
 
- Можно создавать зашифрованные файлы Excel с помощью Microsoft Excel. Чтобы открыть зашифрованный файл, используйте**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** и установите его атрибуты и параметры (например, укажите пароль) для загружаемого файла шаблона.
-Образец файла для тестирования этой функции можно загрузить по следующей ссылке:
+С помощью Microsoft Excel можно создавать зашифрованные файлы. Чтобы открыть зашифрованный файл, используйте [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) и установите его атрибуты и опции (например, укажите пароль) для загрузки шаблонного файла. 
+Образец файла для тестирования этой функции может быть загружен по следующей ссылке:
 
-[Зашифрованный Excel](EncryptedExcel.xlsx)
+[Encrypted Excel](EncryptedExcel.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenEncryptedExcelFiles.java" >}}
 
-Aspose.Cells также поддерживает открытие файлов Excel 2007, 2010, 2013, 2016, 2019, Office 365, защищенных паролем.
+Aspose.Cells также поддерживает открытие защищенных паролем файлов Microsoft Excel 2007, 2010, 2013, 2016, 2019, Office 365.

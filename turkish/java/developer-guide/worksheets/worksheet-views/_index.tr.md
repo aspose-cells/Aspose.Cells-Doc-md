@@ -1,113 +1,114 @@
-﻿---
-title: Çalışma Sayfası Görünümleri
+---
+title: Sayfa Görünümleri
 type: docs
 weight: 10
 url: /tr/java/worksheet-views/
 ---
-## **Sayfa Sonu Önizlemesi**
+
+## **Sayfa Kesme Önizleme**
 Tüm çalışma sayfaları iki modda görüntülenebilir:
 
 - Normal görünüm.
-- Sayfa sonu önizlemesi.
+- Sayfa kesme önizlemesi.
 
-Normal görünüm, çalışma sayfasının varsayılan görünümüdür. Sayfa sonu önizlemesi, bir çalışma sayfasını yazdırılacağı şekilde görüntüleyen bir düzenleme görünümüdür. Sayfa sonu önizlemesi, yazdırma alanını ve sayfa sonlarını ayarlayabilmeniz için her sayfada hangi verilerin olacağını gösterir. Aspose.Cells'i kullanan geliştiriciler, normal görünüm veya sayfa sonu önizleme modlarını etkinleştirebilir.
+Normal görünüm bir çalışsayfanın varsayılan görünümüdür. Sayfa arazi önizleme, bir çalışsayfanın baskı alacağı gibi bir çalışsayfayı gösteren bir düzenleme görünümüdür. Sayfa arazi önizleme, her sayfaya hangi verilerin gideceğini gösterir, böylece yazdırma alanını ve sayfa aralıklarını ayarlayabilirsiniz. Aspose.Cells geliştiricileri normal görünümü veya sayfa arazi önizlemesi modlarını etkinleştirebilirler.
 ### **Görünüm Modlarını Kontrol Etme**
- Aspose.Cells bir sağlar[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Microsoft Excel dosyasını temsil eden sınıf. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)Bu, bir Excel dosyasındaki her çalışma sayfasına erişim sağlar.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışsayfaya erişim sağlayan bir [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) içerir.
 
- Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Normal veya sayfa sonu önizleme modlarını etkinleştirmek için[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf'[setPageBreakÖnizleme](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)yöntem.
+Bir çalışsayfa, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı, çalışsayfaları yönetmek için çeşitli özellikler ve yöntemler sağlar. Normal veya sayfa arazi önizleme modlarını etkinleştirmek için [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) yöntemini kullanın.
 #### **Normal Görünümü Etkinleştirme**
-kullanarak herhangi bir çalışma sayfasını normal görünüme ayarlayın.[setPageBreakÖnizleme](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf ve geçiş**YANLIŞ** parametre olarak.
-#### **Sayfa Sonu Önizlemesini Etkinleştirme**
-kullanarak herhangi bir çalışma sayfasını sayfa sonu önizlemesine ayarlayın.[setPageBreakÖnizleme](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf ve geçiş**doğru**parametre olarak.
+Herhangi bir çalışsayfayı **false** olarak bir parametre olarak geçirerek [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) yöntemini kullanarak herhangi bir çalışsayfayı normal görünüme ayarlayın.
+#### **Sayfa Kesme Önizlemesini Etkinleştirme**
+[1](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) yöntemini kullanarak **true** olarak herhangi bir çalışsayfayı sayfa arazi önizlemesi kullanacak şekilde ayarlayın.
 
- kullanımını gösteren tam bir örnek aşağıda verilmiştir.[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf'[setPageBreakÖnizleme](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)Excel dosyasının ilk çalışma sayfası için sayfa sonu önizleme modunu etkinleştirme yöntemi.
+Aşağıda, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) yöntemini kullanarak Excel dosyasının ilk çalışsayfası için sayfa arazi önizleme modunu etkinleştiren bir örnek verilmiştir.
 
 Aşağıdaki ekran görüntüsünde Book1.xls dosyasının Normal Görünümde olduğunu görebilirsiniz.
 
-**Book1.xls: Değişiklikten önceki çalışma sayfası** 
+**Book1.xls: Modifikasyon öncesi çalışsayfa** 
 
-![yapılacaklar:resim_alternatif_metin](worksheet-views_1.png)
+![todo:image_alt_text](worksheet-views_1.png)
 
- Book1.xls ile açılır[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class ve mod, ilk çalışma sayfası için sayfa sonu önizlemesine geçer. Değiştirilen dosya output.xls olarak kaydedilir.
+Book1.xls, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı ile açılır ve modu ilk çalışsayfa için sayfa arazi önizlemesi olarak değiştirilir. Modifiye edilmiş dosya output.xls olarak kaydedilir.
 
-**Çıktı.xls: değişiklikten sonra çalışma sayfası** 
+**Ouput.xls: Modifikasyon sonrası çalışsayfa** 
 
-![yapılacaklar:resim_alternatif_metin](worksheet-views_2.png)
+![todo:image_alt_text](worksheet-views_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageBreakPreview-PageBreakPreview.java" >}}
 ## **Yakınlaştırma Faktörü**
-Microsoft Excel, kullanıcıların bir çalışma sayfasının yakınlaştırma veya ölçekleme faktörünü ayarlamasına olanak tanıyan bir özellik sağlar. Bu özellik, kullanıcıların çalışma sayfası içeriğini daha küçük veya daha büyük görünümlerde görmelerine yardımcı olur. Kullanıcılar yakınlaştırma faktörünü herhangi bir değere ayarlayabilir.
+Microsoft Excel, kullanıcılara bir çalışma tablosunun yakınlaştırma veya ölçekleme faktörünü ayarlamalarına izin veren bir özellik sağlar. Bu özellik, kullanıcıların çalışma tablosu içeriğini daha küçük veya daha büyük görüntülemelerine yardımcı olur. Kullanıcılar yakınlaştırma faktörünü herhangi bir değere ayarlayabilirler.
 
-**Microsoft Excel kullanarak Yakınlaştırma Faktörünü Ayarlama** 
+**Microsoft Excel Kullanarak Yakınlaştırma Faktörünü Ayarlama** 
 
-![yapılacaklar:resim_alternatif_metin](worksheet-views_3.png)
+![todo:image_alt_text](worksheet-views_3.png)
 
-Aspose.Cells, geliştiricilerin çalışma sayfası yakınlaştırma faktörünü ayarlamasına da olanak tanır.
+Aspose.Cells ayrıca geliştiricilere çalışsayfanın yakınlaştırma faktörünü ayarlama imkanı sağlar.
 ### **Yakınlaştırma Faktörünü Kontrol Etme**
-Aspose.Cells bir sağlar[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Microsoft Excel dosyasını temsil eden sınıf. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)Bu, bir Excel dosyasındaki her çalışma sayfasına erişim sağlar.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışsayfaya erişim sağlayan bir [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) içerir.
 
- Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Bir çalışma sayfasının yakınlaştırma faktörünü ayarlamak için[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf'[yakınlaştırmayı ayarla](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)yöntem.
+Bir çalışsayfa, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı, çalışsayfaları yönetmek için çeşitli özellikler ve yöntemler sağlar. Bir çalışsayfanın yakınlaştırma faktörünü ayarlamak için [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) yöntemini kullanın.
 
- nasıl kullanılacağını gösteren eksiksiz bir örnek aşağıda verilmiştir.[yakınlaştırmayı ayarla](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom)Excel dosyasındaki ilk çalışma sayfasının yakınlaştırma faktörünü ayarlama yöntemi.
+Aşağıda, bir Excel dosyasındaki ilk çalışsayfanın yakınlaştırma faktörünü ayarlamak için [setZoom ](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Zoom) yöntemini nasıl kullanacağınızı gösteren komple bir örnek verilmiştir.
 
-Aşağıdaki ekran görüntüsünde Book1.xls dosyasını varsayılan görünümde görebilirsiniz.
+Aşağıdaki ekran görüntüsünde Book1.xls dosyasının varsayılan görünümde olduğunu görebilirsiniz.
 
-**Book1.xls: değişiklikten önceki çalışma sayfası** 
+**Book1.xls: herhangi bir değişiklik yapılmadan önce çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_metin](worksheet-views_4.png)
+![todo:image_alt_text](worksheet-views_4.png)
 
- Book1.xls dosyası şu şekilde açılır:[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class ve ilk çalışma sayfasının yakınlaştırma faktörü 75 olarak ayarlanır. Değiştirilen dosya output.xls olarak kaydedilir.
+Book1.xls dosyası, [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı aracılığıyla açılır ve ilk çalışsayfanın yakınlaştırma faktörü 75 olarak ayarlanır. Modifiye edilmiş dosya output.xls olarak kaydedilir.
 
-**Output.xls: değişiklikten sonra çalışma sayfası** 
+**Output.xls: düzenlemeden sonra çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_metin](worksheet-views_5.png)
+![todo:image_alt_text](worksheet-views_5.png)
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ZoomFactor-ZoomFactor.java" >}}
-## **Donma bölmeleri**
-Bölmeleri dondur, Microsoft Excel tarafından sağlanan bir özelliktir. Bölmeleri dondurmak, bir çalışma sayfasında kaydırırken görünür kalacak verileri seçmenize olanak tanır.
+## **Pencereyi Dondurma**
+Pencerelerin dondurulmasını sağlayan bir özellik, Microsoft Excel tarafından sağlanır. Pencereyi dondurma, bir çalışma tablosunda kaydırma yaparken görünmesini istediğiniz verileri seçmenize olanak tanır.
 
-**Microsoft Excel'de donma bölmelerini kullanma** 
+**Microsoft Excel'de pencereleri sabitleme kullanma** 
 
-![yapılacaklar:resim_alternatif_metin](worksheet-views_6.png)
+![todo:image_alt_text](worksheet-views_6.png)
 
-Aspose.Cells, geliştiricilerin çalışma zamanında çalışma sayfalarına bölmeleri dondurma uygulamasına da izin verir.
+Aspose.Cells, geliştiricilere çalışma zamanında çalışma sayfalarına pencereleri sabitleme imkanı sağlar.
 
-Aspose.Cells bir sağlar[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Microsoft Excel dosyasını temsil eden sınıf. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)Bu, bir Excel dosyasındaki her çalışma sayfasına erişim sağlar.
+Aspose.Cells, Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişime izin veren [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)'ı içerir.
 
- Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Bölmeleri dondurmak için,[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf'[donma bölmeleri](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\) ) yöntem. bu[donma bölmeleri](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) yöntemi aşağıdaki parametreleri alır:
+Çalışma sayfası, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı, çalışma sayfalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Sabit pencereleri yapılandırmak için, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) yöntemini çağırın. [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) yöntemi aşağıdaki parametreleri alır:
 
-- **Sıra**, dondurmanın başlayacağı hücrenin satır dizini.
-- **Kolon**, dondurmanın başlayacağı hücrenin sütun dizini.
-- **Donmuş satırlar**, üst bölmedeki görünür satırların sayısı.
-- **Dondurulmuş sütunlar**, sol bölmedeki görünür sütunların sayısı
+- **Satır**, dondurulmanın başlayacağı hücrenin satır indeksi.
+- **Sütun**, dondurulmanın başlayacağı hücrenin sütun indeksi.
+- **Dondurulan satırlar**, üst bölmedeki görünür satır sayısı.
+- **Dondurulan sütunlar**, sol bölmedeki görünür sütun sayısı
 
- nasıl kullanılacağını gösteren eksiksiz bir örnek aşağıda verilmiştir.[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf'[donma bölmeleri](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) Excel dosyasının ilk çalışma sayfasının satırlarını ve sütunlarını dondurma yöntemi (C4'ten başlayarak, 4. satır ve 3. sütunla temsil edilir, burada satırlar ve sütunlar 0 dizinden başlar).
+Aşağıda, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) yöntemini kullanarak ilk çalışma sayfasının (satırlar ve sütunlar 0 dizinlerinden başladığından C4'ten temsil edilen, 4. satır ve 3. sütundan başlayarak) satırları ve sütunları nasıl donduracağını gösteren tam bir örnek verilmiştir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FreezePanes-FreezePanes.java" >}}
 
 
-Aşağıdaki ekran görüntüsünde, Book1.xls dosyasını donma bölmeleri olmadan görebilirsiniz.
+Aşağıdaki ekran görüntüsünde, dondurulmuş pencereler olmadan Book1.xls dosyasını görebilirsiniz.
 
-**Book1.xls: herhangi bir değişiklikten önce çalışma sayfası görünümü** 
+**Book1.xls: herhangi bir değişiklik öncesi çalışma sayfası görünümü** 
 
-![yapılacaklar:resim_alternatif_metin](worksheet-views_7.png)
+![todo:image_alt_text](worksheet-views_7.png)
 
- Book1.xls dosyası şu şekilde açılır:[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class ve ardından ilk çalışma sayfasında birkaç satır ve sütun dondurulur. Değiştirilen dosya output.xls olarak kaydedilir.
+Book1.xls dosyası [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı ile açılır ve ardından ilk çalışma sayfasındaki birkaç satır ve sütun dondurulur. Değiştirilmiş dosya, output.xls olarak kaydedilir.
 
-**Outlook.xls: değişiklikten sonra çalışma sayfası görünümü** 
+**Outlook.xls: değişiklik sonrası çalışma sayfası görünümü** 
 
-![yapılacaklar:resim_alternatif_metin](worksheet-views_8.png)
-## **Bölme Bölmeleri**
-Aynı çalışma sayfasında iki farklı görünüm elde etmek için ekranı bölmeniz gerekiyorsa bölmeleri ayırın. Microsoft Excel, çalışma sayfanızın birden fazla kopyasını görüntülemenize ve çalışma sayfanızın her bölmesinde bağımsız olarak kaydırmanıza izin veren çok kullanışlı bir özellik sunar: bölünmüş bölmeler.
+![todo:image_alt_text](worksheet-views_8.png)
+## **Bölmeler**
+Aynı çalışma tablosunda farklı görünümler elde etmek için ekranı bölmek istemeniz durumunda bölmeler. Microsoft Excel, çalışma sayfanızın kopyasını birden fazla görüntülemenize ve her bir pencerede bağımsız olarak kaydırmanıza izin veren çok kullanışlı bir özellik sunar: bölmeler.
 
-Bölmeler aynı anda çalışır. Birinde değişiklik yaparsanız, değişiklik aynı anda diğerinde de görünür. Aspose.Cells, kullanıcılar için bölünmüş bölmeler özelliği sağlar.
-### **Bölünmüş Bölmeleri Uygulama ve Kaldırma**
-#### **bölme bölmeleri**
-Aspose.Cells bir sağlar[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Microsoft Excel dosyasını temsil eden sınıf. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class, Excel dosyalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Bölünmüş görünümler uygulamak için[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf'[bölmek](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\) ) yöntem. Bölünmüş bölmeleri kaldırmak için,[kaldırSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) yöntem.
+Pencereler aynı anda çalışır. Birinde değişiklik yaparsanız, değişiklik diğerinde aynı anda görünür. Aspose.Cells, kullanıcılar için bölme bölmeleri özelliği sağlar.
+### **Bölmelerin Uygulanması ve Kaldırılması**
+#### **Bölmeleri Böleme**
+Aspose.Cells, Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, Excel dosyalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Yerleşik görünümler uygulamak için, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\)) yöntemini kullanın. Pencereleri kaldırmak için [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) yöntemini kullanın.
 
-Örnekte, yüklenen basit bir şablon dosyası kullanıyoruz, ardından ilk çalışma sayfasındaki bir hücreye bölünmüş bölmeleri ayarla özelliği uygulandı. Güncellenen dosya kaydedilir.
+Örnekte, basit bir şablon dosyası kullanılır, ardından ilk çalışma sayfasındaki bir hücreye bölme bölmeleri özelliği uygulanır. Güncellenmiş dosya kaydedilir.
 
 
 
@@ -115,20 +116,20 @@ Aspose.Cells bir sağlar[Çalışma kitabı](https://reference.aspose.com/cells/
 
 
 
-Yukarıdaki kodu çalıştırdıktan sonra, oluşturulan dosya bölünmüş bir görünüme sahip olur.
+Yukarıdaki kodları çalıştırdıktan sonra, oluşturulan dosyanın bir yerleşik görünümü vardır.
 
-**Çıkış dosyasındaki bölünmüş bölmeler** 
+**Çıktı dosyasında yerleşik pencereler** 
 
-![yapılacaklar:resim_alternatif_metin](worksheet-views_9.png)
-#### **Bölmeleri Kaldırma**
- Geliştiriciler, bölünmüş bölmeleri kullanarak kaldırabilir[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf'[kaldırSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) yöntem.
+![todo:image_alt_text](worksheet-views_9.png)
+#### **Pencereleri Kaldırma**
+Geliştiriciler, pencereleri kaldırmak için [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [removeSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) yöntemini kullanabilir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 
 
-## **ileri konular**
-- [Çalışma Sayfasında Sıfır Değerlerinin Görüntülenmesini Gizleme](/cells/tr/java/hiding-the-display-of-zero-values-in-the-worksheet/)
-- [Çalışma Sayfası Sekme Rengini Ayarla](/cells/tr/java/set-worksheet-tab-color/)
+## **Gelişmiş Konular**
+- [Çalışma Sayfasında Sıfır Değerlerinin Görüntüsünü Gizleme](/cells/tr/java/hiding-the-display-of-zero-values-in-the-worksheet/)
+- [Çalışma Sayfası Sekme Rengini Ayarlama](/cells/tr/java/set-worksheet-tab-color/)
 - [Öğeleri Göster ve Gizle](/cells/tr/java/show-and-hide-elements/)
-- [Çalışma Sayfasında Değerler Yerine Formülleri Gösterme](/cells/tr/java/show-formulas-instead-of-values-in-a-worksheet/)
-- [Hata Denetimi Seçeneklerini Kullanın](/cells/tr/java/use-error-checking-options/)
+- [Bir Çalışma Kitabındaki Değerlerin Yerine Formülleri Göster](/cells/tr/java/show-formulas-instead-of-values-in-a-worksheet/)
+- [Hata Kontrol Seçeneklerini Kullan](/cells/tr/java/use-error-checking-options/)

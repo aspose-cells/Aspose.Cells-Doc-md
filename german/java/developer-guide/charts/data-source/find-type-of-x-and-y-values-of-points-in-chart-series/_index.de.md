@@ -1,16 +1,17 @@
-﻿---
-title: Finden Sie den Typ von X- und Y-Werten von Punkten in Diagrammreihen
+---
+title: Suchen Sie nach dem Typ von X und Y Werten der Punkte in der Diagrammserie
 type: docs
 weight: 110
 url: /de/java/find-type-of-x-and-y-values-of-points-in-chart-series/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Manchmal möchten Sie den Typ der X- und Y-Werte von Diagrammpunkten in einer Reihe wissen. Aspose.Cells bietet[**ChartPoint.XValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#XValueType)und[**ChartPoint.YValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#YValueType)Eigenschaften, die für diesen Zweck verwendet werden können. Bitte beachten Sie, dass Sie anrufen müssen[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate())-Methode, bevor Sie diese Eigenschaften effektiv nutzen konnten.
+## **Mögliche Verwendungsszenarien**
 
-## **Finden Sie den Typ von X- und Y-Werten von Punkten in Diagrammreihen**
+Manchmal möchten Sie den Typ der X- und Y-Werte von Diagrammpunkten in einer Serie wissen. Aspose.Cells bietet die Eigenschaften [**ChartPoint.XValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#XValueType) und [**ChartPoint.YValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#YValueType), die zu diesem Zweck verwendet werden können. Bitte beachten Sie, dass Sie vor der effektiven Verwendung dieser Eigenschaften die Methode [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate--) aufrufen müssen.
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](64716920.xlsx)und greift auf das erste Diagramm im ersten Arbeitsblatt zu. Es ruft dann die[**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate())-Methode und findet den Typ der X- und Y-Werte des ersten Diagrammpunkts und gibt sie auf der Konsole aus. Bitte sehen Sie sich die unten gezeigte Konsolenausgabe als Referenz an.
+## **Typen von X- und Y-Werten von Punkten in Diagrammserien herausfinden**
+
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](64716920.xlsx) und greift auf das erste Diagramm im ersten Arbeitsblatt zu. Anschließend ruft es die Methode [**Chart.calculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate--) auf und ermittelt den Typ der X- und Y-Werte des ersten Diagrammpunkts und gibt sie auf der Konsole aus. Bitte beachten Sie die unten gezeigte Konsolenausgabe als Referenz.
 
 ## **Beispielcode**
 
@@ -18,7 +19,7 @@ Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](64716920.xlsx)und grei
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 X Value Type: IsString
 

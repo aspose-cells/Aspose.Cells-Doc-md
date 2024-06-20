@@ -1,16 +1,19 @@
-﻿---
-title: GridWeb'de Bağlam Menüsü Öğeleri Ekleme veya Kaldırma
+---
+title: Aspose.Cells.GridWeb de İçerik Menü Öğeleri Ekle veya Kaldır
 type: docs
 weight: 130
-url: /tr/net/add-or-remove-context-menu-items-in-gridweb/
+url: /tr/net/aspose-cells-gridweb/add-or-remove-context-menu-items-in-gridweb/
+keywords: GridWeb, contextmenu, menü
+description: Bu makale, GridWeb de içerik menü öğeleri eklemeyi veya kaldırmayı nasıl tanıttığını açıklar.
 ---
+
 {{% alert color="primary" %}} 
 
-ASP.NET işaretlemesini veya .NET kodunu kullanarak bağlam menüsü öğeleri ekleyebilirsiniz. .NET kodunu kullanarak bağlam menüsü öğelerini de kaldırabilirsiniz. Lütfen bu amaçla GridWeb.CustomCommandButtons.Add() ve GridWeb.CustomCommandButtons.Remove() veya RemoveAt() yöntemlerini kullanın.
+ASP.NET işaretleme dilini veya .NET kodunu kullanarak içerik menü öğeleri ekleyebilir veya kaldırabilirsiniz. Ayrıca, .NET kodunu kullanarak içerik menü öğelerini kaldırabilirsiniz. Bu amaçlar için GridWeb.CustomCommandButtons.Add() ve GridWeb.CustomCommandButtons.Remove() veya RemoveAt() yöntemlerini kullanınız.
 
 {{% /alert %}} 
-## **ASP.NET İşaretlemesini Kullanarak Bağlam Menüsü Öğesi Ekleme**
-Aşağıdaki ASP.NET işaretlemesi, GridWeb'e bağlam menüsü öğesi ekler.
+## **ASP.NET İşaretleme Dilini Kullanarak İçerik Menü Öğesi Ekleme**
+Aşağıdaki ASP.NET işaretleme, GridWeb'de içerik menü öğesini ekler.
 
 
 
@@ -18,7 +21,7 @@ Aşağıdaki ASP.NET işaretlemesi, GridWeb'e bağlam menüsü öğesi ekler.
 
 
 
-İşte yukarıdaki bağlam menüsü öğesiyle bir GridWeb oluşturan tam ASP.NET işaretlemesi. Lütfen OnCustomCommand="GridWeb1_CustomCommand" özniteliğine dikkat edin. Bağlam menüsü öğeniz tıklandığında çağrılacak olay işleyici adıdır.
+İşte yukarıdaki içerik menü öğesini içeren bir GridWeb oluşturan tam ASP.NET işaretleme. Lütfen OnCustomCommand="GridWeb1_CustomCommand" özniteliğine dikkat edin. Bu, içerik menü öğeniz tıklanıldığında çağrılacak olay işleyici adıdır.
 
 
 
@@ -26,28 +29,28 @@ Aşağıdaki ASP.NET işaretlemesi, GridWeb'e bağlam menüsü öğesi ekler.
 
 
 
-Yukarıdaki ASP.NET işaretlemesi kullanılarak eklendikten sonra içerik menüsü öğesi bu şekilde görünür.
+Yukarıdaki ASP.NET işaretleme ile eklenen içerik menü öğesi böyle görünmektedir.
 
-![yapılacaklar:resim_alternatif_metin](add-or-remove-context-menu-items-in-gridweb_1.png)
+![todo:image_alt_text](add-or-remove-context-menu-items-in-gridweb_1.png)
 
-Bu, bağlam menüsü öğesi tıklandığında yürütülen olay işleyici kodudur. Kod önce komut adını kontrol eder, bizim komutumuzla eşleşirse, aktif GridWeb çalışma sayfasının A1 hücresine bir metin ekler ve metni görünür kılmak için ilk sütun genişliğini 40 birim olarak ayarlar.
+Bu, içerik menü öğesi tıklandığında yürütülen olay işleyici kodudur. Kod öncelikle komut adını kontrol eder, eşleşirse, etkin GridWeb çalışsayfasında A1 hücresine bir metin ekler ve metni görmek için birinci sütun genişliğini 40 birime ayarlar.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-InitContextMenuItem.aspx-HandleContextMenuItemCommand.cs" >}}
 
 
-Bağlam menüsü öğesine tıkladığınızda GridWeb böyle görünür.
+İçerik menü öğesine tıkladığınızda GridWeb'in görünümü budur.
 
-![yapılacaklar:resim_alternatif_metin](add-or-remove-context-menu-items-in-gridweb_2.png)
-## **Kod Kullanarak Aspose.Cells.GridWeb'de Bağlam Menüsü Öğeleri Ekleme**
-Bu kod, kod kullanarak bir GridWeb içine bağlam menüsü öğesinin nasıl ekleneceğini gösterir.
+![todo:image_alt_text](add-or-remove-context-menu-items-in-gridweb_2.png)
+## **Aspose.Cells.GridWeb'de Kod Kullanarak İçerik Menü Öğeleri Ekleme**
+Bu kod, kod kullanarak GridWeb'in içine içerik menü öğesi eklemenin nasıl yapıldığını gösterir.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-AddRemoveContextMenuItem.aspx-AddContextMenuItem.cs" >}}
-## **Kod Kullanarak Aspose.Cells.GridWeb'deki Bağlam Menüsü Öğelerini Kaldırma**
-Bu kod, CustomCommandButtons.Remove() ve CustomCommandButtons.RemoveAt() yöntemleri kullanılarak bağlam menüsü öğesinin nasıl kaldırılacağını gösterir.
+## **Aspose.Cells.GridWeb'de Kod Kullanarak İçerik Menü Öğeleri Kaldırma**
+Bu kod, CustomCommandButtons.Remove() ve CustomCommandButtons.RemoveAt() yöntemlerini kullanarak içerik menü öğesi kaldırmanın nasıl yapıldığını gösterir.
 
 
 

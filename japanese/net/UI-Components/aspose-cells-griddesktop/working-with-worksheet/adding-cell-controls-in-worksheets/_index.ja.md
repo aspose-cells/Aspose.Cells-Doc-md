@@ -1,86 +1,89 @@
-﻿---
-title: ワークシートに Cell コントロールを追加する
+---
+title: ワークシートにセルコントロールを追加する
 type: docs
 weight: 120
-url: /ja/net/adding-cell-controls-in-worksheets/
+url: /ja/net/aspose-cells-griddesktop/add-cell-controls-in-worksheets/
+keywords: GridDesktop,add,control,button,checkbox,combobox
+description: この記事では、GridDesktopのワークシートにコントロールを追加する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-Cell コントロールは、実際にはワークシートに追加できるコントロールです。私たちはそれらを呼びます**Cell コントロール**これらのコントロールはセルに表示されるためです。このトピックでは、これらのセル コントロールのイベントの追加と処理について説明します。
+セルコントロールは実際にはワークシートに追加できるコントロールです。これらのコントロールを**セルコントロール**と呼びます。このトピックでは、これらのセルコントロールの追加およびイベントの処理について説明します。
 
 {{% /alert %}} 
-## **序章**
-現在、Aspose.Cells.GridDesktop は、以下を含む 3 種類のセル コントロールの追加をサポートしています。
+## **紹介**
+現在、Aspose.Cells.GridDesktopは次の3つのタイプのセルコントロールをサポートしています。
 
 - **ボタン**
 - **チェックボックス**
-- **コンボボックス**
+- **ComboBox**
 
-これらのコントロールはすべて、抽象クラスから派生しています。**セルコントロール**.各ワークシートには、**コントロール**.これを使用して、新しいセル コントロールを追加したり、既存のセル コントロールにアクセスしたりできます。**コントロール**コレクションを簡単に。
+これらのコントロールはすべて、抽象クラス**CellControl**から派生しています。 各ワークシートには**Controls**のコレクションが含まれています。 新しいセルコントロールを追加し、既存のものに簡単にアクセスするためには、この**Controls**コレクションを使用できます。
 
-**重要：**1 つずつ追加するのではなく、列のすべてのセルにセル コントロールを追加する場合は、次を参照できます。[Cell 列のコントロールの管理。](/cells/ja/net/adding-cell-controls-in-worksheets/)
+**重要:** 1つずつ追加する代わりに、列のすべてのセルにセルコントロールを追加したい場合は、[列の中のセルコントロールの管理](/cells/ja/net/aspose-cells-griddesktop/adding-cell-controls-in-worksheets/)を参照してください。
 ### **ボタンの追加**
-Aspose.Cells.GridDesktop を使用してワークシートにボタンを追加するには、次の手順に従ってください。
+Aspose.Cells.GridDesktopを使用してワークシートにボタンを追加するには、以下の手順に従ってください：
 
-- Aspose.Cells.GridDesktop コントロールを**形**
-- 任意のアクセス**ワークシート**
-- 追加**ボタン**に**コントロール**のコレクション**ワークシート**
+- あなたの**フォーム**にAspose.Cells.GridDesktopコントロールを追加
+- 好きな**ワークシート**にアクセス
+- **ワークシート**の**Controls**コレクションに**ボタン**を追加
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingButton.cs" >}}
 
 
-追加しながら**ボタン**、セルの位置 (表示する場所)、幅と高さ、およびボタンのキャプションを指定できます。
+**ボタン**を追加する際には、セルの場所（表示する位置）、幅と高さ、およびボタンのキャプションを指定できます。
 #### **ボタンのイベント処理**
-追加について話し合いました**ボタン**への制御**ワークシート**しかし、ボタンを使用できない場合、ワークシートにボタンを配置することの利点は何ですか。そこで、ボタンのイベント処理が必要になります。
+私たちは**ワークシート**に**ボタン**コントロールを追加したところで、ボタンがクリックされても使用しない場合の利点は何でしょうか。 ですから、ここでボタンのイベント処理の必要性が出てきます。
 
-を処理するには**クリック**のイベント**ボタン**コントロール、Aspose.Cells.GridDesktop が提供する**セルボタンクリック**必要に応じて開発者が実装する必要があるイベント。たとえば、以下に示すように、ボタンがクリックされたときにメッセージを表示しました。
+**ボタン**コントロールの**Click**イベントを処理するには、Aspose.Cells.GridDesktopは**CellButtonClick**イベントを提供しており、開発者はそれを自分の必要に応じて実装する必要があります。 たとえば、以下にボタンがクリックされたときにメッセージを表示しただけの例があります：
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-HandlingButton.cs" >}}
-#### **ボタン コントロールの背景イメージの指定**
-以下のコードに示すように、ラベル/テキストを使用してボタン コントロールの背景画像/画像を設定できます。
+#### **ボタンコントロールの背景画像の指定**
+ボタンコントロールのラベル/テキストとともに背景画像/写真を設定することができます。 以下のコードに示すように。
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-SetBackground.cs" >}}
 
 
-**重要：**セル コントロールのすべてのイベントには、**CellControlEventArgs**セル コントロール (イベントがトリガーされる) を含むセルの行番号と列番号を提供する引数。
+**重要:** セルコントロールのすべてのイベントには、そのイベントがトリガーされたセルコントロールを含むセルの行番号と列番号を提供する**CellControlEventArgs**引数が含まれています。
 ### **チェックボックスの追加**
-Aspose.Cells.GridDesktop を使用してワークシートにチェックボックスを追加するには、次の手順に従ってください。
+Aspose.Cells.GridDesktopを使用してワークシートにチェックボックスを追加する場合は、以下の手順に従ってください。
 
-- Aspose.Cells.GridDesktop コントロールを**形**
-- 任意のアクセス**ワークシート**
-- 追加**チェックボックス**に**コントロール**のコレクション**ワークシート**
+- あなたの**フォーム**にAspose.Cells.GridDesktopコントロールを追加
+- 好きな**ワークシート**にアクセス
+- **ワークシート**の**Controls**コレクションに**チェックボックス**を追加
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingCheckbox.cs" >}}
 
 
-追加しながら**チェックボックス**、セルの位置 (表示する場所) とチェックボックスの状態を指定できます。
-#### **CheckBox のイベント処理**
-Aspose.Cells.GridDesktop が提供する**CellCheckedChanged**のときにトリガーされるイベント**チェック済み**チェックボックスの状態が変わります。開発者は、要件に従ってこのイベントを処理できます。たとえば、メッセージを表示して、**チェック済み**以下のコードのチェックボックスの状態:
+**チェックボックス**を追加する際には、セルの場所（表示する位置）とチェックボックスの状態を指定できます。
+#### **チェックボックスのイベント処理**
+Aspose.Cells.GridDesktopは、**チェックボックス**の**Checked**状態が変更されたときにトリガーされる**CellCheckedChanged**イベントを提供しています。 開発者は必要に応じてこのイベントを処理できます。 たとえば、以下にチェックボックスの**Checked**状態を表示するためのメッセージを表示しただけの例があります：
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-HandlingCheckbox.cs" >}}
 ### **コンボボックスの追加**
-Aspose.Cells.GridDesktop を使用してコンボボックスをワークシートに追加するには、次の手順に従ってください。
+Aspose.Cells.GridDesktopを使用してワークシートにコンボボックスを追加するには、以下の手順に従ってください。
 
-- Aspose.Cells.GridDesktop コントロールを**形**
-- 任意のアクセス**ワークシート**
-- 追加される項目 (または値) の配列を作成します**コンボボックス**
-- 追加**コンボボックス**に**コントロール**のコレクション**ワークシート**セルの位置 (コンボボックスが表示される場所) と、コンボボックスがクリックされたときに表示されるアイテム/値を指定することによって
+- あなたの**フォーム**にAspose.Cells.GridDesktopコントロールを追加
+- 好きな**ワークシート**にアクセス
+- **ComboBox**がクリックされたときに表示されるアイテム（または値）の配列を作成
+- セルの場所（コンボボックスが表示される場所）と、コンボボックスがクリックされたときに表示されるアイテム/値を指定して**ワークシート**の**Controls**コレクションに**ComboBox**を追加
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingCombobox.cs" >}}
-#### **ComboBox のイベント処理**
-Aspose.Cells.GridDesktop が提供する**CellSelectedIndexChanged**のときにトリガーされるイベント**選択されたインデックス**コンボボックスの変更。開発者は、希望に応じてこのイベントを処理できます。たとえば、メッセージを表示して、**選択したアイテム**コンボボックスの:
+#### **コンボボックスのイベント処理**
+Aspose.Cells.GridDesktopは、**CellSelectedIndexChanged** イベントを提供しています。このイベントは、コンボボックスの**選択されたインデックス**が変更されたときにトリガーされます。開発者はこのイベントを自分の望むように処理できます。たとえば、コンボボックスの**選択されたアイテム**を表示するためのメッセージを表示するだけであるとします。
 
 
 

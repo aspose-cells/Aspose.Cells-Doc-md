@@ -1,25 +1,26 @@
-﻿---
-title: グラフ シートの PdfBookmarkEntry を作成する
+---
+title: チャートシートの PdfBookmarkEntry を作成
 type: docs
 weight: 50
 url: /ja/java/create-pdfbookmarkentry-for-chart-sheet/
 ---
-## **考えられる使用シナリオ**
 
-以前は、Aspose.Cells が作成されます[**Pdfブックマークエントリ**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry)通常のシートの場合。しかし、今では Aspose.Cells も作成できます[**Pdfブックマークエントリ**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry)チャートシート用。チャートシートにはセルA1以外のセルがないため、作成します[**Pdfブックマークエントリ**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry)セル A1 のみ。
+## **可能な使用シナリオ**
 
-## **グラフ シートの PdfBookmarkEntry を作成する**
+以前、Aspose.Cellsは通常のシートに [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) を作成していました。しかし、Aspose.Cellsはチャートシートにも [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) を作成することができるようになりました。チャートシートには A1セル以外に他のセルがないため、セルA1に対して [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) を作成します。
 
-次のサンプル コードは、[サンプル Excel ファイル](61767772.xlsx)4枚のシートがあります。そのうちの 2 枚は通常のシートで、残りの 2 枚はチャート シートです。次のように 4 つのブックマーク エントリを作成します。
+## **チャートシートの PdfBookmarkEntry を作成**
+
+以下のサンプルコードは、四つのシートを含む[sample Excel file](61767772.xlsx)をロードします。そのうち二つは通常のシートであり、それ以外の二つはチャートシートです。次のように、四つのブックマークエントリを作成します
 
 - ブックマーク-I
-- ブックマーク II チャート 1
-- しおりⅢ
-- ブックマーク-IV-チャート2
+- ブックマーク-II-Chart1
+- ブックマーク-III
+- ブックマーク-IV-Chart2
 
-次のスクリーンショットは、[出力 PDF](61767771.pdf)参照用のサンプル コードによって生成されます。
+次のスクリーンショットは、サンプルコードによって生成された[output PDF](61767771.pdf)を参照用に示しています。
 
-![todo:画像_代替_文章](create-pdfbookmarkentry-for-chart-sheet_1.png)
+![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 
 ## **サンプルコード**
 

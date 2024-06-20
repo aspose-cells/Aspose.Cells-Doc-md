@@ -1,46 +1,49 @@
 ---
-title: Verhalten beim Kopieren und Einfügen der GridDesktop-Eigenschaften „EnableClipboardCopyPaste“ und „PasteType“.
+title: Kopieren Einfügen Verhalten von EnableClipboardCopyPaste und PasteType GridDesktop Eigenschaften
 type: docs
 weight: 80
-url: /de/net/copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties/
+url: /de/net/aspose-cells-griddesktop/copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties/
+keywords: Kopieren, einfügen, GridPasteType
+description: Dieser Artikel beschreibt, wie das GridPasteType verwendet wird, um Kopier und Einfügevorgänge in GridDesktop durchzuführen.
 ---
-##  **Mögliche Nutzungsszenarien**
-GridDesktop bietet verschiedene Arten von Optionen zum Kopieren und Einfügen mit der Eigenschaft Aspose.Cells.GridDesktop.GridDesktop.PasteType. Diese Optionen werden mit der Enumeration Aspose.Cells.GridDesktop.Data.GridPasteType angegeben. Einige davon sind wie folgt
+
+## **Mögliche Verwendungsszenarien**
+GridDesktop bietet verschiedene Arten von Kopier- und Einfügevorgängen mit der Eigenschaft Aspose.Cells.GridDesktop.GridDesktop.PasteType. Diese Optionen sind mit der Aufzählung Aspose.Cells.GridDesktop.Data.GridPasteType angegeben. Einige davon sind wie folgt
 
 - GridPasteType.All
 
-Es kopiert und fügt alles von den Quellzellen in die Zielzellen ein.
+Es kopiert und fügt alles von den Quellzellen zu den Zielzellen ein.
 
 - GridPasteType.Formulas
 
-Es kopiert und fügt Formeln aus Quellzellen in Zielzellen ein.
+Es kopiert und fügt Formeln von den Quellzellen zu den Zielzellen ein.
 
 - GridPasteType.Comments
 
-Es kopiert und fügt Kommentare aus Quellzellen in Zielzellen ein.
+Es kopiert und fügt Kommentare von den Quellzellen zu den Zielzellen ein.
 
 - GridPasteType.RowHeights
 
-Es kopiert und fügt Zeilenhöhen von Quellzellen in Zielzellen ein.
+Es kopiert und fügt Zeilenhöhen von den Quellzellen zu den Zielzellen ein.
 
 - GridPasteType.ColumnWidths
 
 Es kopiert und fügt Spaltenbreiten von Quellzellen in Zielzellen ein.
 
 usw.
-##  **Setzen Sie die Eigenschaft „EnableClipboardCopyPaste“ auf „True“, um die Eigenschaft „PasteType“ zu aktivieren**
-Die Eigenschaft Aspose.Cells.GridDesktop.GridDesktop.PasteType funktioniert nur, wenn Sie die Eigenschaft Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste auf true setzen, wie in diesem Screenshot gezeigt.
+## **Legen Sie die Eigenschaft EnableClipboardCopyPaste auf True fest, um die Eigenschaft PasteType zu aktivieren.**
+Die Aspose.Cells.GridDesktop.GridDesktop.PasteType-Eigenschaft funktioniert nur, wenn Sie die Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste-Eigenschaft wie in diesem Screenshot gezeigt auf true setzen.
 
 ![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
-##  **Verhalten der Eigenschaften „EnableClipboardCopyPaste“ und „PasteType“.**
-Vorausgesetzt, dass EnableClipboardCopyPaste „false“ und „PasteType“ „All“ ist, zeigt der folgende Screenshot, dass Zelle B3 kopiert und in Zelle C5 eingefügt wird.
+## **Verhalten der Eigenschaften EnableClipboardCopyPaste und PasteType**
+Angenommen, EnableClipboardCopyPaste ist false und PasteType ist All, zeigt der folgende Screenshot, dass beim Kopieren und Einfügen von Zelle B3 in Zelle C5 Folgendes passiert.
 
 ![todo:image_alt_text](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
 
-Vorausgesetzt, dass EnableClipboardCopyPaste „true“ und „PasteType“ „All“ ist, wird nach dem Kopieren eines Bilds aus Windows ein Wert angezeigt. Der folgende Screenshot zeigt, dass beim Kopieren und Einfügen von Zelle B3 in Zelle C5 auch das Bild in Zelle C5 kopiert wird.
+Angenommen, EnableClipboardCopyPaste ist true und PasteType ist All, nach dem Kopieren eines Bildes aus Windows zeigt der folgende Screenshot, dass beim Kopieren und Einfügen von Zelle B3 in Zelle C5 auch das Bild kopiert wird.
 
-![Todo: Bild kopieren](copyimage.png)
+![todo: Bild kopieren](copyimage.png)
 
-![Todo: Nach dem Kopieren einfügen](aftercopy.png)
+![todo: nach dem Kopieren einfügen](aftercopy.png)
 
 

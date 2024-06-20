@@ -1,62 +1,65 @@
-﻿---
-title: Aspose.Cells.GridJs
+---
+title: Aspose.Cells.GridJs özellikleri
 type: docs
 weight: 40
-url: /tr/net/aspose-cells-gridjs-features/
+url: /tr/net/aspose-cells-gridjs/features/
+keywords: GridJs,özellikler,özellik
+description: Bu makale, GridJs için özellikleri tanıtır.
 ---
+
 ## **Aspose.Cells.GridJs**
-### **İçe/Dışa Aktarma Özellikleri**
-- Excel elektronik tablolarından içe aktarın ve dışa aktarın.
+### **İçe Aktarma/Dışa Aktarma Özellikleri**
+- Excel elektronik tablolarına içe aktarma ve dışa aktarma.
 
 ### **Çalışma Sayfası Özellikleri**
-- Çalışma sayfalarını ekleyin/kaldırın/yeniden adlandırın.
+- Sayfalar ekleyin/kaldırın/yeniden adlandırın.
 
 
 ### **Satır ve Sütun Özellikleri**
-- Bir çalışma sayfasına satır ve sütun ekleyin, ekleyin ve kaldırın.
-- Satırları ve sütunları gizleyin ve gösterin.
-- Satırları ve sütunları dondurun ve çözün.
- 
-### **Cell Özellikler**
-- Birden çok hücreyi düzenleyin.
-- Sayı, tarih, para birimi ve saat biçimi ayarlarını destekler.
-- Özel biçim ayarlarını destekler.
-- Arka plan renk ayarlarını destekler.
+- Çalışsayfalarına satır ve sütun ekleme, ekleme ve kaldırma.
+- Satır ve sütun gizleme ve gösterme.
+- Satır ve sütun dondurma ve çözme.
+
+### **Hücre Özellikleri**
+- Çoklu hücreleri düzenleyin.
+- Sayı, tarih, para birimi ve zaman formatı ayarlarını destekler.
+- Özel format ayarlarını destekler.
+- Arka plan rengi ayarlarını destekler.
 - Otomatik doldurmayı destekler.
-- Metin hizalamasını kontrol edin.
-- Metin kaydırmayı kontrol edin.
-- Sınırları yönetin.
-- Yazı tipi ayarlarını kontrol edin.
-- Hücreleri birleştirme veya bölme
+- Metin hizalamasını kontrol etme.
+- Metin kaydırma kontrolünü sağlar.
+- Sınırları yönetme.
+- Yazı tipi ayarlarını kontrol etme.
+- Hücreleri birleştirme veya böleme
 ### **Biçimlendirme Özellikleri**
-- Masaüstü elektronik tablo uygulamaları gibi görünen ve hissedilen web tabanlı etkileşimli ızgara uygulamaları oluşturun.
-- Hücre biçimlendirmesini destekler.
+- Masaüstü elektronik tablo uygulamaları gibi görünüm ve his bulunan web tabanlı etkileşimli ızgaralar oluşturma.
+- Hücre biçimlendirilmesini destekler.
 
 ### **Yardımcı Özellikler**
 - Açılır liste doğrulamalarını destekler.
-- Yorum ekleyin/kaldırın/arayın.
-- Resimleri/şekilleri döndürün/yeniden boyutlandırın/taşıyın.
+- Yorum ekler/kaldırır/aramalar.
+- Resimleri/şekilleri döndürme/yeniden boyutlandırma/taşıma.
 
-- Klavye navigasyonu.
-### **Gelişmiş Özellikler**
-- Web sayfalarında formül oluşturmayı ve hesaplamayı destekler.
-- Matematik, metin ve veriler, tarih ve saat ve mantıkla ilgili 80'den fazla önceden tanımlanmış işlev sağlar.
+- Klavye ile gezinme.
+### **İleri Düzey Özellikler**
+- Web sayfalarında formüller oluşturup hesaplama desteği.
+- Matematik, metin ve veri, tarih ve saat, mantık ile ilgili önceden tanımlanmış 80'den fazla fonksiyon sağlar.
 
 ### **Desteklenen Tarayıcılar**
 - Microsoft Internet Explorer
-- Mozilla Firefox
+- Mozilla FireFox
 - Opera
-- Google krom
-- Microsoft Kenar
-### **Microsoft Excel Desteklenir**
+- Google Chrome
+- Microsoft Edge
+### **Microsoft Excel Desteği**
 - Microsoft Excel 97
-- Microsoft excel 2000
+- Microsoft Excel 2000
 - Microsoft Excel XP
-- Microsoft excel 2003
-- Microsoft excel 2007
-- Microsoft excel 2010
-- Microsoft excel 2013
+- Microsoft Excel 2003
+- Microsoft Excel 2007
+- Microsoft Excel 2010
+- Microsoft Excel 2013
 ### **Desteklenen Platformlar**
-- ASP.NET çekirdek
+- ASP.NET core
 
 

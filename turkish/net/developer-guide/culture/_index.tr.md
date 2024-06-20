@@ -1,6 +1,6 @@
-﻿---
-title: Kültür
+---
+title: Globalleşme ve Yerelleştirme
 type: docs
 weight: 235
-url: /tr/net/language/
+url: /tr/net/globalization-and-localization/
 ---

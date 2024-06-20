@@ -1,28 +1,29 @@
-﻿---
+---
 title: Ajouter un filigrane WordArt au graphique dans Aspose.Cells
 type: docs
 weight: 10
 url: /fr/net/add-wordart-watermark-to-chart-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Vous pouvez utiliser WordArt pour ajouter des effets de texte spéciaux aux feuilles de calcul. Par exemple, étirez un titre, décorez du texte, adaptez le texte à une forme prédéfinie ou appliquez le texte affecté à la zone de traçage d'un graphique en tant que filigrane. Le WordArt devient un objet que vous pouvez déplacer ou positionner dans vos feuilles de calcul pour ajouter de la décoration.
+Vous pouvez utiliser WordArt pour ajouter des effets de texte spéciaux aux feuilles de calcul. Par exemple, étirer un titre, décorer du texte, ajuster un texte à une forme prédéfinie ou appliquer le texte affecté à la zone de traçage d'un graphique en tant que filigrane. Le WordArt devient un objet que vous pouvez déplacer ou positionner dans vos feuilles de calcul pour ajouter une décoration.
 
 {{% /alert %}} 
 
-L'exemple suivant montre comment ajouter une forme WordArt en tant que filigrane pour la zone de traçage d'un graphique existant. L'exemple utilise un modèle de fichier Excel qui contient déjà le graphique.
+L'exemple suivant montre comment ajouter une forme WordArt en tant que filigrane pour la zone de traçage d'un graphique existant. L'exemple utilise un fichier Excel modèle qui contient déjà le graphique.
 
 **Le fichier d'entrée** 
 
-![tâche : image_autre_texte](picture1.png)
+![todo:image_alt_text](picture1.png)
 
 **Le fichier de sortie**
 
-![tâche : image_autre_texte](picture2.png)
+![todo:image_alt_text](picture2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 string FilePath = @"..\..\..\Sample Files\";
 
@@ -62,10 +63,10 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark%20to%20Chart)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark%20to%20Chart)
 
-## **Télécharger l'exemple d'exécution**
+## **Télécharger un exemple en cours d'exécution**
 
-- [GithubGenericName](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

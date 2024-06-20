@@ -10,7 +10,7 @@ Aspose.Cells提供一个代表Microsoft Excel文件的类[Workbook](http://docs.
 
 Aspose.Cells提供了Cell类中的setStyle方法，用于设置单元格的格式样式。同时，Style类的Style对象用于配置字体设置。
 
-Java
+**Java**
 
 {{< highlight java >}}
 
@@ -34,7 +34,7 @@ cell.setStyle(style);
 ## **Apache POI SS - HSSF XSSF - 使用边框**
 CellStyle类提供了使用Apache POI SS - HSSF和XSSF设置边框设置的功能。
 
-Java
+**Java**
 
 {{< highlight java >}}
 

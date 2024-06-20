@@ -1,15 +1,16 @@
-﻿---
-title: Agregar imágenes en la hoja de cálculo en xlsx4j
+---
+title: Agregar Imágenes en la Hoja de Cálculo en xlsx4j
 type: docs
 weight: 20
 url: /es/java/add-images-in-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Agregar imágenes en la hoja de cálculo**
-La clase de imagen está disponible para tratar con imágenes en la hoja de trabajo
+
+## **Aspose.Cells - Agregar Imágenes en la Hoja de Cálculo**
+La clase Picture está disponible para trabajar con imágenes en la hoja de trabajo
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -26,14 +27,14 @@ int pictureIndex = sheet.getPictures().add(5,5, dataDir + "greentick.png");
 Picture picture = sheet.getPictures().get(pictureIndex);
 
 {{< /highlight >}}
-## **xlsx4j - Agregar imágenes en la hoja de cálculo**
-La clase de dibujo está disponible para tratar con imágenes en la hoja de trabajo
+## **xlsx4j - Agregar Imágenes en la Hoja de Cálculo**
+La clase Drawing está disponible para trabajar con imágenes en la hoja de trabajo
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "AddImage-Xlsx4j.xlsx";
 
@@ -406,13 +407,13 @@ public static CTDrawing buildDrawingPartContentFromXmlString(String imageRelID) 
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addimage)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Agregar hipervínculos de imagen](/java/add-image-hyperlinks).
+Para más detalles, visita [Agregar Hipervínculos de Imagen](/java/add-image-hyperlinks).
 
 {{% /alert %}}

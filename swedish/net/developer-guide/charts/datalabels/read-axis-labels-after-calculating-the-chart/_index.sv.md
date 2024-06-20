@@ -1,26 +1,27 @@
 ---
-title: Läs axeletiketter efter att ha beräknat diagrammet
-description: Lär dig hur du läser axeletiketter i Aspose.Cells for .NET efter att ha beräknat diagrammet. Vår guide visar dig hur du kommer åt och hämtar axeletiketter, inklusive deras formatering och placering.
-keywords: Aspose.Cells for .NET, chart, axis labels, calculation, reading, accessing, retrieving, formatting, positioning.
+title: Läs av axeletiketter efter att ha beräknat diagrammet
+description: Lär dig hur du läser av axeletiketterna i Aspose.Cells for .NET efter att ha beräknat diagrammet. Vår guide kommer att visa dig hur du får åtkomst till och hämtar axeletiketter, inklusive deras formatering och positionering.
+keywords: Aspose.Cells for .NET, diagram, axeletiketter, beräkning, läsning, åtkomst, hämtning, formatering, positionering.
 type: docs
 weight: 90
 url: /sv/net/read-axis-labels-after-calculating-the-chart/
 ---
-##  **Möjliga användningsscenarier**
 
-Du kan läsa axeletiketter för ditt diagram efter att ha beräknat dess värden med hjälp av[**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/calculate/)metod. Vänligen använd[**Axis.GetAxisTexts()**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/getaxistexts/) metod för detta ändamål som kommer att returnera listan med axeletiketter.
+## **Möjliga användningsscenario**
 
-##  **Läs axeletiketter efter att ha beräknat diagrammet**
+Du kan läsa av axeletiketterna för ditt diagram efter att ha beräknat dess värden med hjälp av [**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/calculate/)-metoden. Använd [**Axis.GetAxisTexts()**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/getaxistexts/)-metoden för detta ändamål som kommer att returnera listan över axeletiketter.
 
-Se följande exempelkod som laddar[exempel på Excel-fil](ReadAxisLabels.xlsx)och läser kategoriaxeletiketterna i diagrammet i det första kalkylbladet. Den skriver sedan ut värdena för axeletiketterna på konsolen. Se konsolutgången för exempelkoden nedan för en referens.
+## **Läs av axeletiketter efter att ha beräknat diagrammet**
 
-##  **Exempelkod**
+Vänligen se följande kodexempel som laddar in den [exempel Excel-filen](ReadAxisLabels.xlsx) och läser kategoriaxlarna i diagrammet på den första arbetsbladet. Den skriver sedan ut värdena för axelmärkena på konsolen. Se konsolresultatet för kodexemplet nedan för referens.
+
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Charts-ReadAxisLabelsAfterCalculatingTheChart.cs" >}}
 
-##  **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Category Axis Labels:
 

@@ -1,19 +1,20 @@
-﻿---
-title: Vorschau des Dokuments
+---
+title: Dokumentvorschau
 type: docs
 weight: 30
 url: /de/sharepoint/preview-document/
 ---
-So zeigen Sie ein Microsoft-Excel-Dokument in der Dokumentbibliothek an:
 
-1.  Wählen**Vorschaudokument mit Aspose.Cells** aus dem Edit Control Block (ECB) des Dokuments.
+Um ein Microsoft Excel-Dokument in der Dokumentenbibliothek anzuzeigen:
 
-   **Wählen Sie Dokumentvorschau aus dem Menü aus** 
+1. Wählen Sie **Vorschau-Dokument mit Aspose.Cells** vom Bearbeitungskontext (ECB) des Dokuments aus. 
 
-![todo: Bild_alt_Text](preview-document_1.png)
+   **Auswählen von Vorschau-Dokument im Menü** 
+
+![todo:image_alt_text](preview-document_1.png)
 
 
 
 **Dokumentvorschau** 
 
-![todo: Bild_alt_Text](preview-document_2.png)
+![todo:image_alt_text](preview-document_2.png)

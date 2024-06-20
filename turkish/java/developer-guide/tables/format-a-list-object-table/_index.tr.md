@@ -1,27 +1,28 @@
-﻿---
-title: Liste Nesnesini Biçimlendirme - Tablo
+---
+title: Liste Nesnesini Biçimlendirme  Tablo
 type: docs
 weight: 50
 url: /tr/java/format-a-list-object-table/
 ---
+
 {{% alert color="primary" %}}
 
-Bir grup ilgili veriyi yönetmek ve analiz etmek için, bir hücre aralığını bir liste nesnesine (Excel tablosu olarak da bilinir) dönüştürmek mümkündür. Tablo, diğer satır ve sütunlardaki verilerden bağımsız olarak yönetilen ilgili verileri içeren bir dizi satır ve sütundur. Varsayılan olarak, liste nesnesi verilerinizi hızlı bir şekilde filtreleyebilmeniz veya sıralayabilmeniz için tablodaki her sütunun başlık satırında filtreleme etkindir. Her bir toplam satırı hücresi için toplama işlevlerinin açılır listesini sağlayan liste nesnesine, bir toplam satırı (sayısal verilerle çalışmak için kullanışlı toplama işlevleri seçimi sağlayan bir listedeki özel bir satır) ekleyebilirsiniz. Aspose.Cells, listeler (veya tablolar) oluşturmak ve yönetmek için seçenekler sunar.
+İlgili veri grubunu yönetmek ve analiz etmek için, hücre aralığını bir liste nesnesine (aynı zamanda bir Excel tablosu olarak da bilinir) dönüştürmek mümkündür. Bir tablo, ilişkili verileri içeren bir dizi satır ve sütun, diğer satır ve sütunlardaki veriden bağımsız olarak yönetilir. Varsayılan olarak, tablodaki her sütunun başlık satırında filtreleme etkinleştirilir, böylece listeniz nesnesi verilerinizi hızlı bir şekilde filtreleyebilir veya sıralayabilir. Listeniz nesnesine (sayısal verilerle çalışmak için faydalı olan bir listede özel bir satır) toplam satır ekleyebilirsiniz. Bu toplam satırın her hücresi için bir toplama işlevlerinin açılır menüsünü sağlayan özel bir satır. Aspose.Cells, listelerin (veya tabloların) oluşturulması ve yönetilmesi için seçenekler sunar.
 
 {{% /alert %}}
 
 ## **Liste Nesnesini Biçimlendirme**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden bir sınıf, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), sağlar. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir [**Worksheets**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) koleksiyonu içerir.
 
- Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Oluşturmak için[**Nesne Listesi**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) bir çalışma sayfasında, kullanın[**Nesneleri Listele**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ListObjects) toplama özelliği[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf. Her biri[**Nesne Listesi**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) aslında bir nesnedir[**Nesne Koleksiyonunu Listele**](https://reference.aspose.com/cells/java/com.aspose.cells/listobjectcollection)Ayrıca bir List nesnesi eklemek ve içermesi gereken hücre aralığını belirtmek için add yöntemini sağlayan sınıf. Belirtilen hücre aralığına göre, bir[**Nesne Listesi**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) çalışma sayfasında Aspose.Cells tarafından oluşturulur. Nitelikleri kullanın (örneğin,[**Tablo Stili Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#TableStyleType) )[**Nesne Listesi**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)tabloyu gereksinimlerinize göre biçimlendirmek için sınıf.
+Bir çalışma sayfası {0} sınıfı tarafından temsil edilir. {1} sınıfı, çalışma sayfalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sunar. Bir çalışma sayfasında bir {2} oluşturmak için, {3} sınıfının {4} koleksiyon özelliğini kullanın. Her {5}, aslında, {6} sınıfının bir nesnesidir ve listenin oluşturulması ve listeye ait hücre aralığının belirtilmesi için {7} yöntemini sağlar. Belirtilen hücre aralığına göre Aspose.Cells tarafından çalışma sayfasında bir {8} oluşturulur. Tablonuzu biçimlendirmek için {9} sınıfının öznitelikleri (örneğin, {10}) kullanın.
 
- Aşağıdaki örnek, bir çalışma sayfasına örnek veriler ekler,[**Nesne Listesi**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) ve ona varsayılan stiller uygular.[**Nesne Listesi**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)stiller Microsoft Excel 2007/2010 tarafından desteklenir.
+Aşağıdaki örnek, bir çalışma sayfasına örnek veriler ekler, bir [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) ekler ve ona varsayılan stilleri uygular. Bu işlem için Microsoft Excel 2007/2010 tarafından desteklenen [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) stili vardır.
 
-Kod çalıştırıldığında aşağıdaki çıktı üretilir.
+Kod çalıştırıldığında aşağıdaki çıktı oluşturulur.
 
 **Çalışma sayfasında biçimlendirilmiş bir tablo oluşturulur** 
 
-![yapılacaklar:resim_alternatif_metin](format-a-list-object-table_1.png)
+![todo:image_alt_text](format-a-list-object-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-FormataListObject-FormataListObject.java" >}}

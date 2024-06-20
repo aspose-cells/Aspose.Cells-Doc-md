@@ -1,15 +1,16 @@
 ---
-title: API Ссылка
+title: Справочник API
 type: docs
 weight: 40
 url: /ru/net/api-reference/
-description: Изучите объяснение и примеры Aspose.Cells for .NET классов и методов для создания, преобразования, изменения, визуализации и печати файлов Excel без использования Microsoft Excel.
-keywords: Aspose.Cells for .NET API Reference, C# generate excel files apis, C# convert excel files apis, C# fix and repair excel files apis, C# render excel files apis, C# print excel files apis
+description: Узнайте пояснение и примеры Aspose.Cells for .NET классов и методов для создания, преобразования, изменения, отображения и печати файлов Excel без использования Microsoft Excel.
+keywords: Справочник API Aspose.Cells for .NET, API для создания файлов Excel на C#, API для преобразования файлов Excel на C#, API для исправления и восстановления файлов Excel на C#, API для отображения файлов Excel на C#, API для печати файлов Excel на C#
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for .NET — это библиотека программирования электронных таблиц, которая позволяет разработчикам программного обеспечения манипулировать и преобразовывать файлы электронных таблиц из своих собственных приложений. Aspose.Cells for .NET поддерживает популярные форматы файлов электронных таблиц (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) и позволяет экспортировать файлы Excel в PDF, XPS, HTML, MHTML, обычный текст, TIFF, JPG, PNG, 076. 1113481 и SVG.
+Aspose.Cells for .NET - это библиотека для программирования электронных таблиц, позволяющая разработчикам программного обеспечения манипулировать и преобразовывать файлы электронных таблиц в своих собственных приложениях. Aspose.Cells for .NET поддерживает популярные форматы файлов электронных таблиц (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) и позволяет экспортировать файлы Excel в PDF, XPS, HTML, MHTML, обычный текст, TIFF, JPG, PNG, BMP и SVG.
 
- Последний номер API можно найти по адресу[Aspose.Cells for .NET API Ссылка](https://reference.aspose.com/cells/net).
+Последний справочник API можно найти по ссылке [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net).
 
 {{% /alert %}}

@@ -1,12 +1,13 @@
-﻿---
-title: Använder formelparametern i Smart Marker-fältet
+---
+title: Använda Formelparameter i Smart Marker fält
 type: docs
 weight: 30
 url: /sv/java/using-formula-parameter-in-smart-marker-field/
 ---
-## **Möjliga användningsscenarier**
-Ibland vill du bädda in formel i det smarta markörfältet. Den här artikeln beskriver hur man använder formelparametern för att bädda in formel i smart markörfält.
-## **Använder formelparametern i Smart Marker-fältet**
- Följande exempelkod bäddar in formeln i den smarta markörvariabeln med namnet Test och dess datakällas namn är också Test, så det fullständiga fältet med formelparametern ser ut som**&=$Test(formel)** och efter exekvering av koden,[slutgiltig Excel-fil](47153156.xlsx) kommer att ha formler i celler från A1 till A5.
+
+## **Möjliga användningsscenario**
+Ibland vill du bädda in en formel i smart markerns fält. Denna artikel beskriver hur man använder Formelparameter för att bädda in en formel i smart markerns fält.
+## **Använda Formelparameter i Smart Marker-fält**
+Följande kodexempel bäddar in formeln i den smarta markerns variabel som heter Test och dess datakälla heter också Test, så det kompletta fältet med formelparameter ser ut som **&=$Test(formula)** och efter att koden har utförts kommer [slutresultatet av Excel-filen](47153156.xlsx) innehålla formler i cellerna från A1 till A5.
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-SmartMarkers-UsingFormulaParameterInSmartMarkerField.java" >}}

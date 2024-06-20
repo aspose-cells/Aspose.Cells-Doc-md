@@ -1,25 +1,25 @@
 ---
-title: كيفية إدارة PivotChart باستخدام PivotOptions
-linktitle: الخيارات المحورية
+title: كيفية إدارة PivotChart مع PivotOptions
+linktitle: Pivot Options
 type: docs
 weight: 10
 url: /ar/net/how-to-manage-pivotchart-with-pivotoptions/
-description: كيفية إدارة PivotChart باستخدام PivotOptions.
+description: كيفية إدارة PivotChart مع PivotOptions.
 keywords: PivotChart
 ---
-##  ما هو التخطيط المحوري
+## ما هو PivotChart
 
-يعد PivotChart في Excel تمثيلاً رسوميًا للبيانات التي تم إنشاؤها من PivotTable. فهو يسمح للمستخدمين بتصور البيانات وتحليلها ديناميكيًا من خلال تلخيص المعلومات وعرضها في شكل مخطط. تعتبر PivotCharts تفاعلية ويمكن تعديلها بسهولة لإظهار وجهات نظر مختلفة للبيانات، مما يجعلها أداة قوية لتحليل البيانات وعرضها في Excel.
+PivotChart في Excel هو تمثيل رسومي للبيانات تم إنشاؤه من PivotTable. يتيح للمستخدمين تصور البيانات وتحليلها ديناميكيًا من خلال تلخيص وعرض المعلومات في شكل رسوم بيانية. تكون PivotCharts تفاعلية ويمكن تعديلها بسهولة لعرض وجهات نظر مختلفة للبيانات، مما يجعلها أداة قوية لتحليل البيانات والعرض في Excel.
 
-##  كيفية إدارة PivotChart باستخدام PivotOptions
+## كيفية إدارة PivotChart مع PivotOptions
 
- باستخدام Aspose.Cells يمكنك استخدام[**Aspose.Cells.Charts.PivotOptions**](https://reference.aspose.com/cells/net/aspose.cells.charts/pivotoptions/) لإدارة PivotChart.
+من خلال استخدام Aspose.Cells، يمكنك استخدام [**Aspose.Cells.Charts.PivotOptions**](https://reference.aspose.com/cells/net/aspose.cells.charts/pivotoptions/) لإدارة PivotChart.
 
-نموذج الملف والكود:
-[ملف عينة](Sample.xlsx)
+ملف وكود مثالي:
+[ملف المثال](Sample.xlsx)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotOptions.cs" >}}
 
-باستخدام رمز المثال أعلاه، يمكنك التحقق من ملف النتيجة بالتأثير التالي، كما هو موضح في الشكل:
+مع الكود المثالي أعلاه، يمكنك التحقق من ملف النتيجة بالتأثير التالي، كما هو موضح في الشكل:
 
-**![الإخراج](Output.png)**
+**![النتيجة](الناتج.png)**

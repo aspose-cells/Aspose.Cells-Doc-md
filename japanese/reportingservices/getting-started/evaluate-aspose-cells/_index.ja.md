@@ -1,25 +1,26 @@
-﻿---
-title: 評価する Aspose.Cells
+---
+title: Aspose.Cellsの評価
 type: docs
 weight: 70
 url: /ja/reportingservices/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-から簡単に Aspose.Cells for Reporting Services を評価用にダウンロードできます。[ダウンロードページ](https://downloads.aspose.com/cells/reportingservices) .評価版ダウンロードは、購入したダウンロードと同じです。評価版は、後にライセンスが付与されるだけです。[ライセンスの適用](/cells/ja/reportingservices/licensing/).
+[ダウンロード ページ](https://downloads.aspose.com/cells/reportingservices) から Aspose.Cells for Reporting Services を評価用に簡単にダウンロードできます。評価版のダウンロードは購入版のダウンロードと同じです。評価版は[ライセンスを適用](/cells/ja/reportingservices/licensing/)すると単にライセンスされた状態になります。
 
 {{% /alert %}}
 
-Aspose.Cells for Reporting Services の評価版 (ライセンス指定なし) は、完全ではありませんが、ある程度の製品機能を提供します。 1 つの制限は、スプレッドシート ドキュメントを開く/保存するときに、評価の透かしを含む追加のワークシートが常に挿入されることです。
+Aspose.Cells for Reporting Services の評価版(特定のライセンスが指定されていない)は、ある程度まで製品の機能を提供しますが完全ではありません。1つの制限として、任意のスプレッドシート ドキュメントを開いたり保存する際に常に評価用の透かしと追加ワークシートを挿入します。
 
-![todo:画像_代替_文章](evaluate-aspose-cells_1.png)
+![todo:image_alt_text](evaluate-aspose-cells_1.png)
 
-**形：** Aspose.Cells コンポーネントによって作成されたデモ スプレッドシート
+**図:** Aspose.Cells コンポーネントによって作成されたデモ スプレッドシート
 
-追加の評価透かしワークシートがワークブックに挿入されます。
+ワークブックに評価用の透かしワークシートを挿入します。
 
-![todo:画像_代替_文章](evaluate-aspose-cells_2.png)
+![todo:image_alt_text](evaluate-aspose-cells_2.png)
 
-**形：**評価警告 – 追加のワークシート
+**図:** 評価警告 - 追加ワークシート
 
-評価版の制限なしで Aspose.Cells for Reporting Services をテストしたい場合は、[30 日間の一時ライセンスをリクエストする](https://purchase.aspose.com/temporary-license).
+評価版の制限を超えて Aspose.Cells for Reporting Services をテストしたい場合は、[30日間の一時ライセンス](https://purchase.aspose.com/temporary-license)をリクエストできます。

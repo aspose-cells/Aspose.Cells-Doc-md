@@ -1,37 +1,38 @@
 ---
-title: スプレッドシートを CSV 形式にエクスポートする際に、先頭の空白の行と列をトリミングする
+title: スプレッドシートをCSV形式にエクスポートする際に先行する空白行と列をトリミングします
 type: docs
 weight: 100
 url: /ja/python-net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
-description: Aspose.Cells for Python via .NET API を使用して、スプレッドシートを CSV 形式にエクスポートするときに、先頭の空白の行と列をトリミングします。
-keywords: Python Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format, Trim Leading Blank Rows and Columns while saving excel to CSV format in Python via NET, Python Trim Leading Blank Rows and Columns exporting excel to CSV format.
+description: Aspose.Cells for Python via .NET APIを使用して、スプレッドシートをCSV形式にエクスポートする際に先頭の空白行と列をトリムする方法。
+keywords: PythonでスプレッドシートをCSV形式にエクスポートする際に、先頭の空行と列をトリミングする、PythonでExcelをCSV形式にエクスポートする際に先頭の空行と列をトリミングするvia NET、ExcelをCSV形式にエクスポートする際に、先頭の空行と列をトリミングする。
 ---
-##  **考えられる使用シナリオ**
 
-Excel または CSV ファイルの先頭に空白の列または行がある場合があります。たとえば、次の行を考えてみましょう
+## **可能な使用シナリオ**
 
-{{< highlight "java" >}}
+ExcelまたはCSVファイルには先行する空白の列または行が含まれている場合があります。 たとえば、この行を考えてみてください
+
+{{< highlight java >}}
 
  ,,,data1,data2
 
 {{< /highlight >}}
 
-ここでは、最初の 3 つのセルまたは列は空白です。このような CSV ファイルを Microsoft Excel で開くと、Microsoft Excel はこれらの先頭の空白の行と列を破棄します。
+ここでは、最初の3つのセルまたは列が空白です。 このようなCSVファイルをMicrosoft Excelで開くと、Microsoft Excelはこれらの先行する空白行と列を破棄します。
 
-デフォルトでは、Aspose.Cells for Python via .NET は保存時に先頭の空白の列と行を破棄しませんが、Microsoft Excel と同じようにそれらを削除したい場合は、Aspose.Cells for Python via .NET が提供します。**[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)**財産。に設定してください**真実**その後、先頭の空白の行と列は保存時にすべて破棄されます。
+デフォルトでは、Aspose.Cells for Python via .NETは保存時に先頭の空白行と列を削除しませんが、Microsoft Excelのようにそれらを削除したい場合は、[**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)プロパティを提供します。**true**に設定すると、すべての先頭の空白行と列が削除されます。
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Python via .NET 20.4 のリリースより前は、デフォルト値は**[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)**だった**間違い**。 20.4 リリース以降、**[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/) のデフォルト値が使用されています。**は**真実。**
+Aspose.Cells for Python via .NET 20.4リリースより前は、[**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)のデフォルト値は**false**でした。20.4リリース以降、[**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)のデフォルト値は**true**です。
 
 {{% /alert %}}
 
-##  **スプレッドシートを CSV 形式にエクスポートする際に、先頭の空白の行と列をトリミングする**
+## **スプレッドシートをCSV形式にエクスポートする際に先行する空白行と列をトリミングします。**
 
-次のサンプルコードは、[ソースエクセルファイル](sampleTrimBlankColumns.xlsx)先頭に 2 つの空白列があります。まず Excel ファイルを変更せずに CSV 形式で保存し、次に設定します。**[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)**財産を**真実**そして再度保存します。スクリーンショットは、[ソースエクセルファイル](sampleTrimBlankColumns.xlsx), [CSV ファイルをトリミングせずに出力します](outputWithoutTrimBlankColumns.csv)、 そしてその[CSV ファイルをトリミングして出力](outputTrimBlankColumns.csv).
+[ソースExcelファイル](sampleTrimBlankColumns.xlsx)をロードします。先に変更せずにExcelファイルをCSV形式で保存し、その後[**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)プロパティを**true**に設定して再度保存します。スクリーンショットには、[ソースExcelファイル](sampleTrimBlankColumns.xlsx)、トリミングを行わない[出力CSVファイル](outputWithoutTrimBlankColumns.csv)、およびトリミングを行った[出力CSVファイル](outputTrimBlankColumns.csv)が含まれています。
 
 ![todo:image_alt_text](result.png)
 
-##  **サンプルコード**
+## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CSV-TSV-TXT-TrimLeadingBlankRowsAndColumns.py" >}}

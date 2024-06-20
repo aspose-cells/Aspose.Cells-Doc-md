@@ -1,25 +1,26 @@
-﻿---
-title: Birden Çok Belgeyi Önizleyin
+---
+title: Birden Fazla Belgeyi Önizle
 type: docs
 weight: 40
 url: /tr/sharepoint/preview-multiple-documents/
 ---
- Belge kitaplığında birden çok Excel belgesini önizleyebilirsiniz.
 
- Bir klasördeki tüm dosyaları önizlemek için:
+Belge kitaplığında birden fazla Excel belgesini önizleyebilirsiniz. 
 
-1.  Seçme**Aspose.Cells ile Belge Önizleme** ebeveynde kalırken istediğiniz klasör için ECB'de.
+Bir klasördeki tüm dosyaları önizlemek için: 
 
-Birden çok dosyayı bir klasörden önizlemek için:
+1. Üst klasördeyken istediğiniz klasör için ECB'de **Aspose.Cells ile Belgeyi Önizle**'yi seçin.
+
+Bir klasör içindeki birden fazla dosyayı önizlemek için:
 
 1. Birden fazla dosya seçin.
-1.  Dosyalar hala seçiliyken,**Aspose.Cells ile Belge Önizleme**.
+1. Dosyalar hâlâ seçiliyken, **Aspose.Cells ile Belge Önizlemesini** seçin.
 
-**SharePoint ile belge önizlemesi** 
+**SharePoint'ten Belge Önizlemesi** 
 
-![yapılacaklar:resim_alternatif_metin](preview-multiple-documents_1.png)
+![todo:image_alt_text](preview-multiple-documents_1.png)
 
-Birkaç belgeyi önizlerken, veri alanı listedeki ilk belgeyi gösterir. Belgeler listesi, önizlemesi yapılan tüm belgeleri gösterir. Başka bir belgeyi görüntülemek için:
+Birkaç belgeyi önizlerken, veri alanı listedeki ilk belgeyi gösterir. Belge listesi önizlenen tüm belgeleri gösterir. Başka bir belgeyi görüntülemek için:
 
-1. Listeden bir belge seçin.
-1.  Tıklamak**Ön izleme**.
+1. Listede bir belge seçin.
+1. **Önizleme**'yi tıklayın.

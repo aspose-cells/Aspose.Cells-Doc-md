@@ -1,13 +1,14 @@
-﻿---
-title: Ajustement automatique des colonnes dans la feuille de calcul
+---
+title: Ajuster automatiquement les colonnes dans la feuille de calcul
 type: docs
 weight: 30
 url: /fr/net/auto-fit-columns-in-worksheet/
 ---
-## **Aspose.Cells - Colonnes d'ajustement automatique dans la feuille de calcul**
+
+## **Aspose.Cells - Ajuster automatiquement les colonnes dans la feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -48,10 +49,10 @@ worksheet.AutoFitColumn(3);
 workbook.Save("AutoFiltRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Colonnes d'ajustement automatique dans la feuille de calcul**
+## **NPOI - HSSF XSSF - Ajuster automatiquement les colonnes dans la feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -78,13 +79,13 @@ hssfworkbook.Write(file);
 file.Close();
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Ajustement automatique de la colonne** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Télécharger le formulaire **Ajuster automatiquement les colonnes** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Travailler avec des feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

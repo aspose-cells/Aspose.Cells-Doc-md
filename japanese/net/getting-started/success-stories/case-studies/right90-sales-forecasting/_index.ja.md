@@ -1,29 +1,30 @@
-﻿---
-title: Right90売上予測
+---
+title: Right90 セールス予測
 type: docs
 weight: 10
 url: /ja/net/right90-sales-forecasting/
 ---
+
 ## **製品の背景**
 
-|![todo:画像_代替_文章](right90-sales-forecasting_1.png)|Right90 Sales Forecasting は、製造会社が売上予測の変更を確認および管理するのに役立ちます。 Right90 は誰でも直感的に使用でき、実行可能な洞察を提供して、管理者が変更に注意を払い、その数に自信を持ち、潜在的なリスクを軽減するのに役立ちます。 Right90 は、リスクと IT インフラストラクチャを最小限に抑えながら、販売の採用とビジネス価値を加速する柔軟なオンデマンド プラットフォームを通じて迅速な結果をもたらします。|
-|:- |:- |
+|![todo:image_alt_text](right90-sales-forecasting_1.png)|Right90 Sales Forecasting helps manufacturing companies see and manage changes to their sales forecasts. Right90 is intuitive enough for anyone to use, and provides actionable insight to help managers stay alert to changes, be confident of their number and reduce potential risks. Right90 delivers rapid results through a flexible, on-demand platform that accelerates sales adoption and business value, while minimizing risk and IT infrastructure.|
+| :- | :- |
 ## **要件シナリオ**
-製造会社の多くの営業チームは、Excel を使用して予測を取得することに非常に慣れており、Excel を予測データ収集ツールとして使用してプロセスを定義しています。 Right90 は、予測の更新、ロールアップ、および変更の管理のためのシンプルかつ強力な Web インターフェイスを提供しますが、製造業のお客様が予測情報を Excel に簡単に抽出できる方法も提供したいと考えていました。さらに、そのワークブックでの変更を追跡し、集計処理、ロールアップ、および分析のためにそれらの変更をシステムに簡単に送信できるようにする必要もありました。オンデマンドのエンタープライズ予測ソリューションである Right90 の Excel 統合に関する最優先事項は、パフォーマンスと信頼性でした。
+製造企業の多くのセールスチームは、予測をキャプチャするためにExcelを使用することに慣れており、予測データ収集ツールとしてExcelを使用した定義済みのプロセスがあります。 Right90は、予測の更新、集計、管理変更を行うためのシンプルでパワフルなWebインターフェースを提供していますが、製造業のお客様が予測情報を簡単にExcelに抽出できるようにも提供したかったのです。さらに、そのワークブックでの変更を追跡し、変更を簡単にシステムに提出して処理、集計、分析できるようにする必要がありました。 オンデマンド型のエンタープライズ予測ソリューションとして、Right90のExcel統合のトップの優先事項はパフォーマンスと信頼性でした。
 ## **ソリューションの実装**
-いくつかの Excel ファイル生成製品を比較し、Aspose.Cells を使用してソリューションを実装することを選択しました。Aspose.Cells を使用する決定は、コード例の簡潔なコレクション、ドキュメント、および応答性の高いカスタマー サポートによって容易になりました。 Aspose.Cells は、高可用性の高トランザクション Web アプリケーションの一連の Web サービスの背後で実行されます。
-## **利点**
-次の Aspose.Cells 機能を使用して、リッチ UI の Excel ワークシートを作成します。
+私たちはいくつかのExcelファイル生成製品を比較し、Aspose.Cellsを使用してソリューションを実装することを選択しました。Aspose.Cellsを使用する決定は、彼らの簡潔なコード例のコレクション、ドキュメンテーション、およびレスポンシブなカスタマーサポートによって容易になりました。私たちは、高可用性の高トランザクションWebアプリケーション内の一連のWebサービスの背後でAspose.Cellsを実行しています。
+## **Benefits**
+我々は次のAspose.Cells機能を使用して、リッチなUIのExcelワークシートを作成しています: 
 
-- Cell フォーマット
+- セルの書式設定
 - 自動フィルター
 - 条件付き書式
-- Cell コメント
-- オブジェクト（画像）の挿入
+- セルのコメント
+- オブジェクトの挿入（画像）
 - ハイパーリンク
 ## **結論**
 {{% alert color="primary" %}} 
 
-Aspose.Cells コンポーネントを使用すると、Excel ワークブックをすばやく作成して読み取ることができ、Right90 を使用して売上予測を取得、更新、ロールアップする別の簡単で直感的な方法を製造業の顧客に提供できます。
+Aspose.Cellsコンポーネントにより、製造業のお客様は、Excelワークブックを素早く構築および読み取ることができ、Right90でセールス予測を簡単かつ直感的な方法でキャプチャ、更新、および集計することができます。
 
 {{% /alert %}}

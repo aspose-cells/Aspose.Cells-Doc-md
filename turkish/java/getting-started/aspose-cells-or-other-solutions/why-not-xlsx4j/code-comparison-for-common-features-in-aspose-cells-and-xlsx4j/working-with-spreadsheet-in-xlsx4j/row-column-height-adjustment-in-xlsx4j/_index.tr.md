@@ -1,23 +1,24 @@
-﻿---
-title: xlsx4j'de Satır Sütun Yükseklik Ayarı
+---
+title: xlsx4j de Satır Sütun Yüksekliği Ayarlama
 type: docs
 weight: 50
 url: /tr/java/row-column-height-adjustment-in-xlsx4j/
 ---
-## **Aspose.Cells - Sıra Sütun Yükseklik Ayarı**
-Cells koleksiyonunun setRowHeight yöntemini çağırarak tek bir satırın yüksekliğini ayarlamak mümkündür. setRowHeight yöntemi aşağıdaki parametreleri alır:
 
-- **Satır dizini**, yüksekliğini değiştirdiğiniz satırın dizini.
-- **Satır yüksekliği**, satıra uygulanacak satır yüksekliği.
+## **Aspose.Cells - Satır Sütun Yüksekliği Ayarlama**
+Bir tek satırın yüksekliğini ayarlamak için Cells koleksiyonunun setRowHeight metodunu çağırarak yapılabilir. setRowHeight metodu aşağıdaki parametreleri alır: 
 
-Cells koleksiyonunun setColumnWidth yöntemini çağırarak bir sütunun genişliğini ayarlayın. setColumnWidth yöntemi aşağıdaki parametreleri alır:
+- **Satır dizini**, yüksekliği değiştirdiğiniz satırın dizini.
+- **Satır yüksekliği**, satıra uygulanan satır yüksekliği.
 
-- **Sütun dizini**, genişliğini değiştirdiğiniz sütunun dizini.
+Bir sütunun genişliğini, Hücreler koleksiyonunun setColumnWidth method'unu çağırarak ayarlayın. setColumnWidth method'u aşağıdaki parametreleri alır:
+
+- **Sütun dizini**, genişliği değiştirdiğiniz sütunun dizini.
 - **Sütun genişliği**, istenen sütun genişliği.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -45,11 +46,11 @@ cells.setColumnWidth(1, 17.5);
 
 {{< /highlight >}}
 ## **xlsx4j - Satır Sütun Yükseklik Ayarı**
-Row.setHt, xlsx4j kullanan satırlar için özel yükseklik ayarlamak için kullanılır. setCustomHeight, TRUE olarak ayarlanmalıdır.
+Row.setHt, xlsx4j kullanarak satırlar için özel yükseklik ayarlamak için kullanılır. setCustomHeight TRUE olarak ayarlanmalıdır.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  SpreadsheetMLPackage pkg = SpreadsheetMLPackage.createPackage();
 
@@ -90,11 +91,11 @@ sheetData.getRow().add(row);
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/adjustheight)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Satır Yüksekliğini ve Sütun Genişliğini Ayarlama](/java/adjusting-row-height-and-volumn-width).
+Daha fazla bilgi için [Satır Yüksekliği ve Sütun Genişliği Ayarlama](/java/adjusting-row-height-and-volumn-width)'ı ziyaret edin.
 
 {{% /alert %}}

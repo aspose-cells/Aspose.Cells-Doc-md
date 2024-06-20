@@ -1,28 +1,29 @@
-﻿---
-title: محرر جداول البيانات - يعمل مع Cells
+---
+title: محرر جدول البيانات  العمل مع الخلايا
 type: docs
 weight: 40
 url: /ar/java/spreadsheet-editor-working-with-cells/
 ---
-**جدول المحتويات**
 
-- [اختيار Cell](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
- - Cell رد اتصال التحديد
-- [حذف Cell](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
- - WorksheetView.removeCellShiftUp
- - WorksheetView.removeCellShiftLeft
-- [مسح Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- WorksheetView.clearCurrentCellFormatting
- - WorksheetView.clearCurrentCellContents
- - WorksheetView.clearCurrentCell
-### **اختيار Cell**
-استخدم مؤشر الماوس للإشارة إلى خلية. انقر فوق خلية لتحديدها. يتم تمييز الخلية المحددة بواسطة مستطيل عريض.
+جدول المحتويات
 
-**كيف تعمل؟**
+- [اختيار الخلية](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
+  - اتصال اختيار الخلية
+- [حذف الخلية](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
+  - WorksheetView.removeCellShiftUp
+  - WorksheetView.removeCellShiftLeft
+- [مسح الخلية](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
+  - WorksheetView.clearCurrentCellFormatting
+  - WorksheetView.clearCurrentCellContents
+  - WorksheetView.clearCurrentCell
+### **اختيار الخلية**
+استخدم المؤشر للفأرة لتشير إلى الخلية. انقر فوق الخلية لتحديدها. تتميز الخلية المحددة بمستطيل عريض.
 
-عندما ينقر المستخدم على خلية ، تتم معالجة الحدث بواسطة وظيفة رد الاتصال JavaScript المرفقة بمكون Primefaces.
-#### **Cell رد اتصال التحديد**
-{{< highlight "java" >}}
+**كيف يعمل هذا؟**
+
+عندما ينقر المستخدم على خلية، يتم التعامل مع الحدث من خلال دالة الاستدعاء الخاصة بجافا سكربت المرتبطة بمكون Primefaces.
+#### **استدعاء تحديد الخلية**
+{{< highlight java >}}
 
                      var columnId = $(this).find('.ui-cell-editor-input input').attr('data-columnid');
 
@@ -91,21 +92,21 @@ url: /ar/java/spreadsheet-editor-working-with-cells/
                     $this.selectedCell = this;
 
 {{< /highlight >}}
-### **حذف Cell**
+### **حذف الخلية**
 لحذف خلية:
 
-1. انقر فوق الخلية التي تريد حذفها.
-1.  التبديل إلى**علامة التبويب تنسيق**.
-1.  انقر**حذف Cell** زر.
-1.  أختر**تحول Cells لأعلى** أو**إزاحة Cells لليسار** زر.
+1. انقر على الخلية التي تريد حذفها.
+1. التبديل إلى **علامة التبويب التنسيق**.
+1. انقر على زر **حذف الخلية**.
+1. اختيار زر **تحريك الخلايا للأعلى** أو **تحريك الخلايا لليسار**.
 
-سيقوم المحرر بحذف الخلية المحددة. سيتم نقل الخلايا المجاورة تلقائيًا إما أفقيًا أو رأسيًا لضبط المساحة.
+سيقوم المحرر بحذف الخلية المحددة. سيتم نقل الخلايا المجاورة تلقائيًا إما أفقيًا أو عموديًا لضبط المساحة.
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
- ال**تحول Cells لأعلى** و**إزاحة Cells لليسار** يتم التعامل معها بواسطة وحدة برامج JSF الخلفية**WorksheetView**. الكود المصدري للطرق المعنية هو كما يلي:
+تُعالج **تحريك الخلايا للأعلى** و **تحريك الخلايا لليسار** بواسطة دمج JSF backend bean **WorksheetView**. ويكون الكود المصدري للطرق المعنية كما يلي:
 #### **WorksheetView.removeCellShiftUp**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftUp() {
 
@@ -124,7 +125,7 @@ url: /ar/java/spreadsheet-editor-working-with-cells/
 {{< /highlight >}}
 
 #### **WorksheetView.removeCellShiftLeft**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftLeft() {
 
@@ -141,21 +142,21 @@ url: /ar/java/spreadsheet-editor-working-with-cells/
     }
 
 {{< /highlight >}}
-### **مسح Cell**
-لمسح خلية:
+### **مسح الخلية**
+لمسح الخلية:
 
-1. انقر فوق الخلية التي تريد مسحها.
-1.  التبديل إلى**علامة التبويب تنسيق**.
-1.  انقر**مسح Cell** زر.
-1.  أختر**التنسيقات**, **محتويات** أو**كلاهما** اختيار.
+1. انقر على الخلية التي تريد مسحها.
+1. التبديل إلى **علامة التبويب التنسيق**.
+1. انقر على زر **مسح الخلية**.
+1. اختر الخيارات **التنسيقات**, **المحتويات** أو **الكلاهما**.
 
 سيقوم المحرر بمسح الخلية المحددة.
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
- ال**التنسيقات**, **محتويات** و**كلاهما** يتم التعامل معها بواسطة وحدة برامج JSF الخلفية**WorksheetView**. الكود المصدري للطرق المعنية هو كما يلي:
+ال**تنسيقات**, **المحتويات** و **الكلاهما** يتم التحكم فيها بواسطة جافا سكريبت خلفية JSF bean **WorksheetView**. الشيفرة المصدرية للأساليب المعنية هي كما يلي:
 #### **WorksheetView.clearCurrentCellFormatting**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellFormatting() {
 
@@ -176,7 +177,7 @@ url: /ar/java/spreadsheet-editor-working-with-cells/
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCellContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellContents() {
 
@@ -197,7 +198,7 @@ url: /ar/java/spreadsheet-editor-working-with-cells/
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCell**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCell() {
 

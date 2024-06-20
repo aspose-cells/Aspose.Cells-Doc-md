@@ -1,42 +1,45 @@
-﻿---
-title: Bir Satıra veya Sütuna Stil Uygulama
+---
+title: Satır veya Sutun Üzerine Stil Uygulama
 type: docs
 weight: 50
-url: /tr/net/applying-style-on-a-row-or-column/
+url: /tr/net/aspose-cells-griddesktop/apply-style-on-a-row-or-column/
+keywords: GridDesktop, stili, satır, sütun
+description: Bu makale, GridDesktop te satır veya sütunda stil uygulamanın nasıl yapıldığını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konuda, bir çalışma sayfasının satır ve sütunlarının yazı tipini ve yazı rengini değiştirmeyi tartışacağız. Bu, Aspose.Cells.GridDesktop tarafından sunulan temel düzeyde bir biçimlendirme özelliğidir ve geliştiricilerin çalışma sayfalarının görünümünü daha şık hale getirmek için özelleştirmelerine olanak tanır.
+Bu konuda, Geliştiricilere çalışsayfalarını daha sunulabilir hale getirmek için görünümünü özelleştirmelerini sağlayan Aspose.Cells.GridDesktop tarafından sunulan temel düzey bir biçimlendirme özelliği olan çalışsayfaların satır ve sütunlarının yazı tipi ve yazı rengini değiştirme hakkında konuşacağız.
 
 {{% /alert %}} 
-## **Bir Sütuna Stil Uygulamak**
-Aspose.Cells.GridDesktop kullanarak bir sütuna özel bir stil uygulamak için lütfen aşağıdaki adımları izleyin:
+## **Sütun Üzerine Stil Uygulama**
+Aspose.Cells.GridDesktop kullanarak sütun üzerine özel bir stil uygulamak için lütfen aşağıdaki adımları izleyin:
 
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Erişim**Kolon** uygulamak istediğimiz**stil**
--  Elde etmek**stil** arasında**Kolon**
--  Ayarlamak**stil** özel ihtiyaçlarınıza göre özellikler
--  Son olarak ayarla**stil** arasında**Kolon** güncellenen ile
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- Üzerine **Stil** uygulamak istediğiniz bir **Sütun** a erişin
+- **Sütunun Stilini** alın
+- Özel ihtiyaçlarınıza göre **Stil** özelliklerini ayarlayın
+- Son olarak, **Sütunun Stilini** güncellenmiş olanla ayarlayın
 
- tarafından sunulan birçok yararlı özellik ve yöntem vardır.**stil** geliştiriciler tarafından stili gereksinimlerine göre özelleştirmek için kullanılabilen nesne.
+Geliştiricilerin gereksinimlerine göre stili özelleştirmek için kullanılabilecek **Stil** nesnesi tarafından sunulan birçok kullanışlı özellik ve yöntem bulunmaktadır.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-ApplyingStyleOnRowColumn-AddingColumnStyle.cs" >}}
-## **Satıra Stil Uygulamak**
-Aspose.Cells.GridDesktop kullanarak bir satıra özel bir stil uygulamak için lütfen aşağıdaki adımları izleyin:
+## **Satır Üzerine Stil Uygulama**
+Aspose.Cells.GridDesktop kullanarak satır üzerine özel bir stil uygulamak için lütfen aşağıdaki adımları izleyin:
 
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Erişim**Sıra** uygulamak istediğimiz**stil**
--  Elde etmek**stil** arasında**Sıra**
--  Ayarlamak**stil** özel ihtiyaçlarınıza göre özellikler
--  Son olarak ayarla**stil** arasında**Sıra** güncellenen ile
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- Üzerine **Stil** uygulamak istediğiniz bir **Satır** a erişin
+- **Satırın Stilini** alın
+- Özel ihtiyaçlarınıza göre **Stil** özelliklerini ayarlayın
+- Son olarak, **Satırın Stilini** güncellenmiş olanla ayarlayın
 
- tarafından sunulan birçok yararlı özellik ve yöntem vardır.**stil** geliştiriciler tarafından stili gereksinimlerine göre özelleştirmek için kullanılabilen nesne.
+Geliştiricilerin gereksinimlerine göre stili özelleştirmek için kullanılabilecek **Stil** nesnesi tarafından sunulan birçok kullanışlı özellik ve yöntem bulunmaktadır.
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Accessing the worksheet of the Grid that is currently active
 

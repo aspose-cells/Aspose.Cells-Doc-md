@@ -1,18 +1,19 @@
-﻿---
-title: Generieren Sie ein Miniaturbild eines Arbeitsblatts
+---
+title: Generieren Sie ein Miniaturbild einer Arbeitsmappe
 type: docs
 weight: 30
 url: /de/java/generate-a-thumbnail-image-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Es kann nützlich sein, Miniaturansichten aus Arbeitsblättern zu generieren. Ein Miniaturbild ist ein kleines Bild, das in ein Word-Dokument oder eine PowerPoint-Präsentation eingefügt werden kann, um eine Vorschau dessen zu geben, was sich auf dem Arbeitsblatt befindet. Es kann mit einem Link zum Herunterladen des Originaldokuments zu einer Webseite hinzugefügt werden und hat eine Vielzahl anderer Verwendungszwecke.
+Es kann nützlich sein, Miniaturansichten aus Arbeitsblättern zu generieren. Eine Miniaturansicht ist ein kleines Bild, das in ein Word-Dokument oder eine PowerPoint-Präsentation eingefügt werden kann, um eine Vorschau dessen zu geben, was sich auf dem Arbeitsblatt befindet. Sie kann einer Webseite mit einem Link zum Download des Originaldokuments hinzugefügt werden und hat viele weitere Verwendungsmöglichkeiten.
 
 {{% /alert %}} 
 
-Aspose.Cells for Java ermöglicht es Ihnen, Arbeitsblätter in Bilddateien auszugeben, sodass das Erstellen einer Miniaturansicht einfach ist.
+Aspose.Cells for Java ermöglicht es Ihnen, Arbeitsblätter in Bilddateien auszugeben, so dass das Erstellen einer Miniaturansicht einfach ist.
 
-Der folgende Beispielcode zeigt Ihnen Schritt für Schritt, wie das geht.
+Der nachstehende Beispielcode zeigt Ihnen, wie es Schritt für Schritt gemacht wird.
 
 
 

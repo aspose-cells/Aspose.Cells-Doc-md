@@ -1,16 +1,17 @@
-﻿---
-title: Extrahieren Sie Bilder aus Arbeitsblättern mit ImageOrPrintOptions
+---
+title: Bilder aus Arbeitsblättern mit ImageOrPrintOptions extrahieren
 type: docs
 weight: 140
 url: /de/net/extract-images-from-worksheets-using-imageorprintoptions/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel-Benutzer können Tabellenkalkulationen Bilder hinzufügen. Mit Aspose.Cells ist es möglich, Bilder aus Microsoft Excel-Dateien zu lesen und auf einem lokalen Laufwerk zu speichern. Dieser Artikel zeigt, wie.
+Microsoft Excel-Benutzer können Bilder zu Tabellenkalkulationen hinzufügen. Mit Aspose.Cells ist es möglich, Bilder aus Microsoft Excel-Dateien zu lesen und auf einem lokalen Laufwerk zu speichern. Dieser Artikel zeigt, wie das geht.
 
 {{% /alert %}} 
 
-Der folgende Beispielcode zeigt, wie Bilder aus einer Excel-Datei extrahiert und gespeichert werden.
+Der nachstehende Beispielscode zeigt, wie Bilder aus einer Excel-Datei extrahiert und gespeichert werden können.
 
 
 

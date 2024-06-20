@@ -1,63 +1,64 @@
-﻿---
-title: Filtrar objetos al cargar el libro de trabajo o la hoja de trabajo
+---
+title: Filtrar objetos al cargar el libro o la hoja de trabajo
 type: docs
 weight: 330
 url: /es/net/filter-objects-while-loading-workbook-or-worksheet/
 ---
-## **Posibles escenarios de uso**
-Por favor use[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)propiedad al filtrar datos del libro de trabajo. Pero si desea filtrar datos de hojas de trabajo individuales, tendrá que anular el[LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet)método. Proporcione el valor apropiado de la[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)enumeración al crear o trabajar con[Cargarfiltro](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
 
- Él[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)enumeración tiene los siguientes valores posibles.
+## **Escenarios de uso posibles**
+Por favor, utilice la propiedad [LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) mientras filtra datos del libro de trabajo. Pero si desea filtrar datos de hojas de cálculo individuales, entonces tendrá que anular el método [LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet). Proporcione el valor apropiado de la enumeración [LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) al crear o trabajar con [LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
 
-- Todos
-- Configuración del libro
+La enumeración [LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) tiene los siguientes valores posibles.
+
+- Todo
+- Configuraciones del libro
 - Celda en blanco
-- CellBool
-- CellData
-- error de celda
-- CellNumeric
-- Cadena de celdas
-- valor de celda
-- Gráfico
+- Celda booleana
+- Datos de celda
+- Error de celda
+- Numérico de celda
+- Cadena de celda
+- Valor de celda
+- Chart
 - Formato condicional
 - Validación de datos
 - Nombres definidos
 - Propiedades del documento
 - Fórmula
-- hipervínculos
-- MergedArea
-- Tabla dinámica
-- Ajustes
+- Hipervínculos
+- Área fusionada
+- Tabla Dinámica
+- Configuración
 - Forma
-- SheetData
-- Configuración de hoja
+- Datos de Hoja
+- Configuraciones de Hoja
 - Estructura
 - Estilo
-- Mesa
+- Tabla
 - VBA
-- XmlMapa
-## **Filtrar objetos al cargar el libro de trabajo**
- El siguiente código de ejemplo ilustra cómo filtrar gráficos del libro. Por favor, checa el[ejemplo de archivo de Excel](5115258.xlsx) utilizado en este código y el[salida PDF](5115257.pdf)generada por ella. Como puede ver en el resultado PDF, todos los gráficos se han filtrado del libro de trabajo.
+- MapaXml
+## **Objetos de Filtro al cargar el Libro**
+El siguiente código de ejemplo ilustra cómo filtrar gráficos del libro. Por favor, revise el [archivo de Excel de ejemplo](5115258.xlsx) utilizado en este código y el [PDF de salida](5115257.pdf) generado por él. Como se puede ver en el PDF de salida, todos los gráficos han sido filtrados fuera del libro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-FilteringObjects.cs" >}}
-## **Filtrar objetos al cargar la hoja de trabajo**
- El siguiente código de ejemplo carga el[archivo fuente excel](5115255.xlsx) y filtra los siguientes datos de sus hojas de trabajo usando un filtro personalizado.
+## **Objetos de Filtro al cargar la Hoja de Trabajo**
+El siguiente código de ejemplo carga el [archivo de Excel fuente](5115255.xlsx) y filtra los siguientes datos de sus hojas de trabajo usando un filtro personalizado.
 
-- Filtra gráficos de la hoja de trabajo denominada NoCharts.
-- Filtra las formas de la hoja de trabajo denominada NoShapes.
-- Filtra el formato condicional de la hoja de trabajo denominada NoConditionalFormatting.
+- Filtra los gráficos de la hoja de trabajo llamada SinGráficos.
+- Filtra las formas de la hoja de trabajo llamada SinFormas.
+- Filtra el formato condicional de la hoja de trabajo llamada SinFormatoCondicional.
 
- Una vez, carga el[archivo fuente excel](5115255.xlsx) con un filtro personalizado, toma las imágenes de todas las hojas de trabajo una por una. Aquí están las imágenes de salida para su referencia. Como puede ver, la primera imagen no tiene gráficos, la segunda imagen no tiene formas y la tercera imagen no tiene formato condicional.
+Una vez que carga el [archivo de Excel fuente](5115255.xlsx) con un filtro personalizado, toma las imágenes de todas las hojas una por una. Aquí están las imágenes de salida para su referencia. Como se puede ver, la primera imagen no tiene gráficos, la segunda imagen no tiene formas y la tercera imagen no tiene formato condicional.
 
-- [NoGráficos.png](5115254.png)
-- [Sin Formas.png](5115256.png)
-- [Sin formato condicional.png](5115251.png)
+- [NoCharts.png](5115254.png)
+- [NoShapes.png](5115256.png)
+- [NoConditionalFormatting.png](5115251.png)
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-1.cs" >}}
 
 
-Así es como se usa la clase CustomLoadFilter según los nombres de las hojas de trabajo.
+Así es como se usa la clase CustomLoadFilter según los nombres de las hojas de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}

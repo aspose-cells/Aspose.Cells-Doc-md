@@ -3,16 +3,17 @@ title: Infoga och ta bort rader och kolumner i PHP
 type: docs
 weight: 60
 url: /sv/java/inserting-and-deleting-rows-and-columns-in-php/
-description: "Lär dig hur du infogar och tar bort rader och kolumner genom API:erna Aspose.Cells for PHP via Java."
-keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Columns using PHP, PHP Delete Rows and Columns, Insert Rows or Columns with PHP, Delete Rows or Columns via PHP.
+description: Lär dig hur man infogar och tar bort rader och kolumner genom Aspose.cells för PHP via Java API er.
+keywords: Hur man infogar och tar bort rader och kolumner i PHP, infoga rader och kolumner med hjälp av PHP, ta bort rader och kolumner med PHP, infoga rader eller kolumner med PHP, ta bort rader eller kolumner via PHP.
 ---
-##  **Aspose.Cells - Hantera rader/kolumner**
-###  **Infoga en rad**
-Infoga en rad på valfri plats genom att anropa metoden insertRows i samlingen Cells. Metoden insertRows tar indexet för raden där den nya raden kommer att infogas som det första argumentet, och antalet rader som ska infogas som det andra argumentet.
+
+## **Aspose.Cells - Hantera rader/kolumner**
+### **Infoga en rad**
+Infoga en rad på valfri plats genom att anropa insertRows metoden i Cells-kollektionen. insertRows metoden tar indexet för raden där den nya raden ska infogas som första argument, och antalet rader som ska infogas som andra argument.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_row($dataDir)
 
@@ -39,15 +40,15 @@ Infoga en rad på valfri plats genom att anropa metoden insertRows i samlingen C
 }  
 
 {{< /highlight >}}
-###  **Infoga flera rader**
-Om du vill infoga flera rader i kalkylbladet anropar du metoden insertRows i samlingen Cells. Metoden InsertRows tar två parametrar:
+### **Infoga flera rader**
+För att infoga flera rader i arket, anropa insertRows metoden i Cells-kollektionen. InsertRows metoden tar två parametrar:
 
-- Radindex, indexet för raden varifrån de nya raderna kommer att infogas.
+- Radindex, index för raden från vilken de nya raderna ska infogas.
 - Antal rader, totalt antal rader som behöver infogas.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_multiple_rows($dataDir)
 
@@ -74,15 +75,15 @@ Om du vill infoga flera rader i kalkylbladet anropar du metoden insertRows i sam
 }
 
 {{< /highlight >}}
-###  **Ta bort en rad**
-För att ta bort en rad på valfri plats, anropa metoden deleteRows för samlingen Cells. Metoden DeleteRows tar två parametrar:
+### **Ta bort en rad**
+För att ta bort en rad på valfri plats, anropa deleteRows metoden i Cells-kollektionen. DeleteRows metoden tar två parametrar:
 
-- Radindex, indexet för raden där raderna kommer att tas bort.
+- Radindex, index för raden från vilken raderna ska tas bort.
 - Antal rader, totalt antal rader som behöver raderas.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_row($dataDir)
 
@@ -109,15 +110,15 @@ För att ta bort en rad på valfri plats, anropa metoden deleteRows för samling
 }
 
 {{< /highlight >}}
-###  **Ta bort flera rader**
-Om du vill ta bort flera rader från ett kalkylblad anropar du metoden deleteRows i samlingen Cells. Metoden DeleteRows tar två parametrar:
+### **Ta bort flera rader**
+För att ta bort flera rader från ett kalkylblad, anropa deleteRows metoden i Cells-kollektionen. DeleteRows metoden tar två parametrar:
 
-- Radindex, indexet för raden där raderna kommer att tas bort.
+- Radindex, index för raden från vilken raderna ska tas bort.
 - Antal rader, totalt antal rader som behöver raderas.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_multiple_rows($dataDir)
 
@@ -144,15 +145,15 @@ Om du vill ta bort flera rader från ett kalkylblad anropar du metoden deleteRow
 }
 
 {{< /highlight >}}
-###  **Infoga en kolumn**
-Utvecklare kan också infoga en kolumn i kalkylbladet var som helst genom att anropa metoden insertColumns i samlingen Cells. metoden insertColumns tar två parametrar:
+### **Infoga en kolumn**
+Utvecklare kan också infoga en kolumn i arbetsbladet på valfri plats genom att anropa metoden insertColumns i Cells-samlingen. insertColumns-metoden tar två parametrar:
 
-- Kolumnindex, indexet för den kolumn varifrån kolumnen kommer att infogas
+- Kolumnindex, index av kolumn där kolumnen ska infogas
 - Antal kolumner, totalt antal kolumner som behöver infogas
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_column($dataDir)
 
@@ -179,16 +180,16 @@ Utvecklare kan också infoga en kolumn i kalkylbladet var som helst genom att an
 }
 
 {{< /highlight >}}
-###  **Ta bort en kolumn**
-För att ta bort en kolumn från kalkylbladet på valfri plats, anropa metoden deleteColumns i samlingen Cells. Metoden deleteColumns använder följande parametrar:
+### **Ta bort en kolumn**
+För att ta bort en kolumn från arbetsbladet på valfri plats, anropas deleteColumns-metoden i Cells-samlingen. deleteColumns-metoden tar följande parametrar:
 
-- Kolumnindex, indexet för den kolumn där kolumnen kommer att tas bort.
-- Antal kolumner, totalt antal kolumner som behöver raderas.
-- Skift celler, boolesk parameter för att indikera om cellerna ska flyttas åt vänster efter radering.
+- Kolumnindex, index av kolumn där kolumnen ska tas bort.
+- Antal kolumner, totalt antal kolumner som behöver tas bort.
+- Skifta celler, en boolesk parameter för att indikera om cellerna ska skiftas åt vänster efter borttagning.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_column($dataDir)
 
@@ -215,7 +216,7 @@ För att ta bort en kolumn från kalkylbladet på valfri plats, anropa metoden d
 }  
 
 {{< /highlight >}}
-##  **Ladda ner Running Code**
- Ladda ner**Hantera rader/kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ned **Hantering av rader/kolumner (Aspose.Cells)** från någon av de nämnda sociala kodsajterna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

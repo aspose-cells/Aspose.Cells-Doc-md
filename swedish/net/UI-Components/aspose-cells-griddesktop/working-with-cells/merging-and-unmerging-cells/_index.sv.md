@@ -1,35 +1,38 @@
-﻿---
-title: Sammanfoga och ta bort Cells i GridDesktop
-linktitle: Sammanfogning och upphävande Cells
+---
+title: Sammanfoga och avsammanfoga celler i GridDesktop
+linktitle: Sammanfoga och dela upp celler
 type: docs
 weight: 90
-url: /sv/net/merging-and-unmerging-cells-griddesktop/
+url: /sv/net/aspose-cells-griddesktop/merge-and-unmerge-cells-griddesktop/
+keywords: GridDesktop, sammanfoga, avsammanfoga
+description: Den här artikeln introducerar sammanfoga och avsammanfoga i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-I det här ämnet kommer vi att diskutera en hjälpfunktion för att slå samman och ta bort celler i ett kalkylblad. Den här funktionen är användbar i de fall vi behöver spänna över några rader eller kolumner för att förbättra läsbarheten för data.
+I det här avsnittet kommer vi att diskutera en nyttig funktion för att sammanfoga och avsammanfoga celler i ett kalkylblad. Den här funktionen är användbar i de fall när vi behöver spänna några rader eller kolumner för att förbättra läsbarheten av data.
 
 {{% /alert %}} 
-## **Slår ihop Cells**
-För att slå samman celler till en enda stor cell, följ stegen nedan:
+## **Sammanfoga celler**
+För att sammanfoga celler till en enda stor cell, följ stegen nedan:
 
--  Få åtkomst till alla önskade**Arbetsblad**
--  Skapa en**Räckvidd Cells** ska slås samman
-- **Sammanfoga** intervallet av celler till en stor cell
+- Kom åt något önskat **Kalkylblad**
+- Skapa en **CellRange** att sammanfoga
+- **Sammanfoga** cellområdet till en stor cell
 
- Du kan använda**Sammanfoga** metod av**Arbetsblad** för att slå samman celler. Däremot kan ett cellintervall definieras med hjälp av**CellRange** objekt.
+Du kan använda **Merge** metoden av **Worksheet** för att sammanfoga celler. Men en rad celler kan definieras med hjälp av **CellRange** objekt.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-MergingAndUnMergingCells-MergeCells.cs" >}}
-## **Avslutar Cells**
-För att ta bort en stor cell till många celler, följ stegen nedan:
+## **Avmarkera celler**
+För att avmarkera en stor cell till många celler, följ stegen nedan:
 
--  Få åtkomst till alla önskade**Arbetsblad**
-- Åtkomst till den sammanslagna cellen som måste tas bort
-- **Avsluta** den stora cellen in i många celler med platsen för den sammanslagna cellen
+- Kom åt något önskat **Kalkylblad**
+- Öppna den sammanfogade cellen som behöver avmarkeras
+- **Avmarkera** den stora cellen till många celler med hjälp av platsen för den sammanfogade cellen
 
- Du kan använda**Avsluta** metod av**Arbetsblad** för att ta bort en cell med hjälp av dess plats.
+Du kan använda **Avmarkera** metoden av **Worksheet** för att avmarkera en cell med dess plats.
 
 
 
@@ -37,6 +40,6 @@ För att ta bort en stor cell till många celler, följ stegen nedan:
 
 {{% alert color="primary" %}} 
 
-När du slår samman celler till en enskild cell tillämpas formateringsinställningarna för den övre vänstra cellen (i cellintervallet) på den sammanslagna cellen, men när cellen inte är sammanfogad behåller alla ej sammanslagna celler sina formateringsinställningar.
+När du sammanfogar celler till en enda cell tillämpas formateringsinställningarna för den översta vänstra cellen (i cellintervallet) på den sammanfogade cellen, men när cellen avmarkeras behåller alla avmarkerade celler sina formateringsinställningar.
 
 {{% /alert %}}

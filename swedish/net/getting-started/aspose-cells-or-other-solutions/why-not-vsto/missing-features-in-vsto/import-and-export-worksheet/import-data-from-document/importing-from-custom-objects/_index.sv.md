@@ -1,12 +1,13 @@
-﻿---
-title: Importera från anpassade objekt
+---
+title: Importera från Anpassade objekt
 type: docs
 weight: 30
 url: /sv/net/importing-from-custom-objects/
 ---
- Utvecklare kan importera data från samling av objekt till ett kalkylblad med hjälp av**ImportCustomObjects**. Du kan tillhandahålla en lista med kolumner/egenskaper till metoden för att visa din önskade lista med objekt.
 
-{{< highlight "csharp" >}}
+Utvecklare kan importera data från en samling objekt till ett kalkylblad med hjälp av **ImportCustomObjects**. Du kan ange en lista med kolumner/egenskaper till metoden för att visa din önskade lista med objekt.
+
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -36,7 +37,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 

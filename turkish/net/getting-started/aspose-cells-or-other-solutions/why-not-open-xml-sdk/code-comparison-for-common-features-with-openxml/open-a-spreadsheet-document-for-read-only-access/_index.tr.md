@@ -1,11 +1,12 @@
-﻿---
-title: Salt okunur erişim için bir elektronik tablo belgesi açın
+---
+title: Salt Okunur Erişim İçin Elektronik Tablo Belgesi Aç
 type: docs
 weight: 100
 url: /tr/net/open-a-spreadsheet-document-for-read-only-access/
 ---
-## **OpenXML Excel'i aç**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -39,7 +40,7 @@ using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Open(filepa
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -61,7 +62,7 @@ public static void OpenSpreadsheetDocumentReadonly(string filepath)
 
 
 {{< /highlight >}}
-## **Çalışan Kod Örneği İndir**
+## **Çalışan Kod Örneğini İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-## **Basit kod**
+## **Örnek Kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Open%20read-only%20access)

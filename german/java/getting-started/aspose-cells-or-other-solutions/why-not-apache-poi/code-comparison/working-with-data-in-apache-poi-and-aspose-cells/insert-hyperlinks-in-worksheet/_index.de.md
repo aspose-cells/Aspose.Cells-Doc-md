@@ -1,17 +1,18 @@
-﻿---
+---
 title: Hyperlinks in Arbeitsblatt einfügen
 type: docs
 weight: 20
 url: /de/java/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells – Hyperlinks in Arbeitsblatt einfügen**
-**Hinzufügen eines Links zu Cell in derselben Datei**
 
-Es ist möglich, Hyperlinks zu Zellen in derselben Excel-Datei hinzuzufügen, indem die Add-Methode der Hyperlink-Auflistung aufgerufen wird. Die Add-Methode funktioniert sowohl für interne als auch für externe Hyperlinks.
+## **Aspose.Cells - Hyperlinks in Arbeitsblatt einfügen**
+**Link zu einer Zelle in derselben Datei hinzufügen**
+
+Es ist möglich, Hyperlinks zu Zellen in derselben Excel-Datei hinzuzufügen, indem die Add-Methode der Hyperlink-Sammlung aufgerufen wird. Die Add-Methode funktioniert sowohl für interne als auch externe Hyperlinks.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the first worksheet.
 
@@ -48,18 +49,18 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 
 {{< /highlight >}}
 
-**Hinzufügen eines Links zu einer externen Datei**
+**Link zu einer externen Datei hinzufügen**
 
-Es ist möglich, Hyperlinks zu externen Excel-Dateien hinzuzufügen, indem die Add-Methode der Hyperlinks-Auflistung aufgerufen wird. Die Add-Methode übernimmt die folgenden Parameter:
+Es ist möglich, Hyperlinks zu externen Excel-Dateien hinzuzufügen, indem die Add-Methode der Hyperlink-Sammlung aufgerufen wird. Die Add-Methode verwendet die folgenden Parameter:
 
-- Cell Name, der Name der Zelle, zu der der Hyperlink hinzugefügt wird.
-- Zeilenanzahl, die Anzahl der Zeilen in diesem Hyperlinkbereich.
-- Anzahl der Spalten, die Anzahl der Spalten in diesem Hyperlinkbereich.
-- URL, die Adresse des Ziels, externe Excel-Datei.
+- Zellname, der Name der Zelle, zu der der Hyperlink hinzugefügt wird.
+- Anzahl der Zeilen, die Anzahl der Zeilen im Hyperlink-Bereich.
+- Anzahl der Spalten, die Anzahl der Spalten im Hyperlink-Bereich.
+- URL, die Adresse des Ziels, externen Excel-Datei.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  cell = cells.get("A3");
 
@@ -77,7 +78,7 @@ hyperlinks.add("A3", 1, 1, "book1.xls");
 ## **Apache POI SS - HSSF XSSF - Hyperlinks in Arbeitsblatt einfügen**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  CellStyle hlink_style = wb.createCellStyle();
 
@@ -158,7 +159,7 @@ cell.setHyperlink(link2);
 cell.setCellStyle(hlink_style);
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlink)

@@ -1,6 +1,8 @@
-﻿---
-title: Travailler avec des lignes et des colonnes
+---
+title: Travailler avec les lignes et les colonnes
 type: docs
 weight: 50
-url: /fr/net/working-with-rows-and-columns/
+url: /fr/net/aspose-cells-griddesktop/working-with-rows-and-columns/
 ---
+
+

@@ -1,19 +1,20 @@
-﻿---
-title: Aspose.Cells ile yazdırırken İş veya Belge Adını belirtin
+---
+title: Aspose.Cells ile yazdırırken İş veya Belge Adı belirtin
 type: docs
 weight: 270
 url: /tr/net/specify-job-or-document-name-while-printing-with-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-WorkbookRender veya SheetRender nesnelerini kullanarak çalışma kitabınızı veya çalışma sayfanızı yazdırırken İş veya Belge Adını belirtebilirsiniz. Aspose.Cells, çalışma kitabınızı veya çalışma sayfanızı yazdırırken İş Adını belirtmek için kullanabileceğiniz WorkbookRender.ToPrinter(printerName, jobName) ve SheetRender.ToPrinter(printerName, jobName) yöntemlerini sağlar.
+Çalışma kitabınızı veya çalışma sayfasını yazdırırken İş veya Belge Adını belirtebilirsiniz. Aspose.Cells, WorkbookRender.ToPrinter(yazıcıAdı, işAdı) ve SheetRender.ToPrinter(yazıcıAdı, işAdı) metodları sağlar. Bu metodları kullanarak çalışma kitabınızı veya çalışma sayfasını yazdırırken iş adını belirtebilirsiniz.
 
 {{% /alert %}}
 
-## Aspose.Cells ile yazdırırken İş veya Belge Adını belirtin
+## Aspose.Cells ile Yazdırırken İş veya Belge Adını Belirtme
 
-Örnek kod, kaynak Excel dosyasını yükler ve ardından WorkbookRender.ToPrinter(yazıcıAdı, işAdı) ve SheetRender.ToPrinter(yazıcıAdı, işAdı) yöntemlerini kullanarak iş veya belge adını belirterek yazıcıya gönderir.
+Örnek kod, kaynak Excel dosyasını yükler ve ardından WorkbookRender.ToPrinter(yazıcıAdı, işAdı) ve SheetRender.ToPrinter(yazıcıAdı, işAdı) metodlarını kullanarak belirli iş veya belge adı belirterek yazıcıya gönderir.
 
-## Basit kod
+## Örnek Kod
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SpecifyJobWhilePrinting-SpecifyJobNameWhilePrinting.cs" >}}

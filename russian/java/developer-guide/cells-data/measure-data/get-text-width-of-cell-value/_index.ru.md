@@ -1,14 +1,15 @@
-﻿---
-title: Получить ширину текста Cell Значение
+---
+title: Получить ширину текста значения ячейки
 type: docs
 weight: 40
 url: /ru/java/get-text-width-of-cell-value/
 ---
-## **Получить ширину текста Cell Значение**
 
-Иногда разработчикам может потребоваться вычислить ширину значения ячейки для размещения данных в каком-либо макете. Aspose.Cells обеспечивает[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double)), который позволяет разработчикам получить ширину текста значения ячейки. В следующем примере кода показано, как использовать[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double)) для доступа к ширине текста значения ячейки.
+## **Получить ширину текста значения ячейки**
 
-Исходный файл, используемый в следующем фрагменте кода, прилагается для справки.
+Иногда разработчикам может потребоваться рассчитать ширину значения ячейки для оформления данных в некотором макете. Aspose.Cells предоставляет метод [**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double)), который позволяет разработчикам получить ширину текста значения ячейки. Приведенный ниже образец кода показывает, как использовать [**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#getTextWidth(java.lang.String,%20com.aspose.cells.Font,%20double)) для доступа к ширине текста значения ячейки.
+
+Исходный файл, использованный в следующем фрагменте кода, прикреплен для вашего ознакомления.
 
 [Исходный файл](GetTextWidthSample.xlsx)
 

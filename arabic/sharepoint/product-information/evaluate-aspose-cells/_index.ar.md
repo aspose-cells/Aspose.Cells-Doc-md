@@ -1,23 +1,24 @@
-﻿---
-title: أوجد Aspose.Cells
+---
+title: تقييم Aspose.Cells
 type: docs
 weight: 60
 url: /ar/sharepoint/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-إصدار التقييم Aspose.Cells for SharePoint ليس له حد زمني والدعم الفني المجاني متاح لمستخدمي التقييم أيضًا.
+إصدار التقييم Aspose.Cells for SharePoint ليس له حد زمني وتتوفر الدعم الفني المجاني لمستخدمي التقييم أيضًا.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- التنزيل لكل من التقييم والإصدارات الكاملة Aspose.Cells for SharePoint هو نفسه. ما عليك سوى تنزيل Aspose.Cells for SharePoint من ملف[صفحة التحميل](https://downloads.aspose.com/cells/sharepoint) و[قم بتثبيته](/cells/ar/sharepoint/install-aspose-cells-for-sharepoint/). يعمل Aspose.Cells في وضع التقييم افتراضيًا.
+تكون عملية التنزيل بنسختي التقييم والكاملة من Aspose.Cells for SharePoint هي نفسها. ما عليك سوى تنزيل Aspose.Cells for SharePoint من [صفحة التنزيل](https://downloads.aspose.com/cells/sharepoint) و[تثبيته](/cells/ar/sharepoint/install-aspose-cells-for-sharepoint/). تعمل Aspose.Cells بوضع التقييم افتراضيًا.
 
 {{% /alert %}}
 
-### **قيود إصدار التقييم**
+### **قيود النسخة التقييمية**
 
-يضيف وضع التقييم تحذير تقييم إلى أي مستندات تم تصديرها. عندما تشتري ترخيصًا ، ببساطة[تثبيت الترخيص](/cells/ar/sharepoint/installing-aspose-cells-for-sharepoint-license/) وسيعمل في الوضع المرخص.
+يقوم وضع القيمة التقييمية بإضافة تحذير تقييمي إلى أي مستندات تم تصديرها. عند شراء ترخيص، يمكنك ببساطة [تثبيت الترخيص](/cells/ar/sharepoint/installing-aspose-cells-for-sharepoint-license/) وسيعمل في وضع مرخص.
 
-**في وضع التقييم ، يقوم Aspose.Cells for SharePoint بإدخال تحذير تقييم** 
+**في وضع التقييم، يقوم Aspose.Cells for SharePoint بحقن تحذير التقييم** 
 
-![ما يجب القيام به: image_بديل_نص](evaluate-aspose-cells_1.png)
+![todo:image_alt_text](evaluate-aspose-cells_1.png)

@@ -1,13 +1,14 @@
-﻿---
-title: Copiar hoja de trabajo
+---
+title: Copiar Hoja de Cálculo
 type: docs
 weight: 40
 url: /es/net/copy-worksheet/
 ---
-## **Aspose.Cells - Copiar hoja de trabajo**
+
+## **Aspose.Cells - Copiar Hoja de Cálculo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook by excel file path
 
@@ -25,10 +26,10 @@ wb.Save("../../data/workbook.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Copiar hoja de trabajo**
+## **NPOI - HSSF XSSF - Copiar Hoja de Cálculo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -46,13 +47,13 @@ sw.Close();
 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Copiar hoja de trabajo** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descarga **Copiar Hoja de Cálculo** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Copy.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Trabajar con hojas de trabajo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Para más detalles, visita [Trabajando con Hojas de Cálculo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

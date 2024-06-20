@@ -1,19 +1,20 @@
-﻿---
-title: PHP で行の高さと列の幅を調整する
+---
+title: PHPで行の高さと列の幅を調整
 type: docs
 weight: 10
 url: /ja/java/adjusting-row-height-and-column-width-in-php/
 ---
+
 ## **Aspose.Cells - 行の高さと列の幅の調整**
 ### **行の高さの設定**
-Cells コレクションの setRowHeight メソッドを呼び出すことで、1 行の高さを設定できます。 setRowHeight メソッドは、次のパラメーターを取ります。
+単一行の高さを設定するには、Cells コレクションの setRowHeight メソッドを呼び出します。setRowHeight メソッドは以下のパラメータを取ります：
 
-- **行インデックス**、高さを変更する行のインデックス。
-- **行の高さ**、行に適用する行の高さ。
+- **行インデックス**：高さを変更する行のインデックス。
+- **行の高さ**：行に適用する行の高さ。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_row_height($dataDir)
 
@@ -42,15 +43,15 @@ Cells コレクションの setRowHeight メソッドを呼び出すことで、
 }
 
 {{< /highlight >}}
-### **列幅の設定**
-Cells コレクションの setColumnWidth メソッドを呼び出して、列の幅を設定します。 setColumnWidth メソッドは、次のパラメーターを取ります。
+### **列の幅の設定**
+Cells 集合の setColumnWidth メソッドを呼び出すことで、列の幅を設定することが可能です。 setColumnWidth メソッドは、以下のパラメータを取ります。
 
-- **列インデックス**、幅を変更する列のインデックス。
-- **列幅**、目的の列幅。
+- **列インデックス**：幅を変更する列のインデックス。
+- **列の幅**：設定したい列の幅。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_column_width($dataDir)
 
@@ -79,7 +80,7 @@ Cells コレクションの setColumnWidth メソッドを呼び出して、列�
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**行の高さと列の幅を調整する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから、**Adjusting Row Height and Column Width (Aspose.Cells)** をダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

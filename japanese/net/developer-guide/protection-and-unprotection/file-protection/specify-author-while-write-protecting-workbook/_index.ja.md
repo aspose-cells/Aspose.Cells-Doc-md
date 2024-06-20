@@ -1,18 +1,19 @@
-﻿---
-title: ワークブックの書き込み保護中に作成者を指定する
+---
+title: ブックを書き込み保護する際に著者を指定する
 type: docs
 weight: 40
 url: /ja/net/specify-author-while-write-protecting-workbook/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells API を使用してワークブックを書き込み保護しながら作成者名を指定できます。使用してください。[**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)この目的のためのプロパティ。
+## **可能な使用シナリオ**
 
-## **ワークブックの書き込み保護中に作成者を指定する**
+Aspose.Cells APIを使用して、ブックを書き込み保護する際に著者名を指定できます。この目的で [**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author) プロパティを使用してください。
 
-次のサンプル コードは、[**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)財産。このコードは、空のワークブックを作成し、パスワードで書き込み保護し、作成者名を指定して、名前を付けて保存します。[出力エクセルファイル](67338582.xlsx).次のスクリーンショットは、参考用に出力 Excel ファイルに対するサンプル コードの効果を示しています。
+## **ブックを書き込み保護する際に著者を指定する**
 
-![todo:画像_代替_文章](specify-author-while-write-protecting-workbook_1.png)
+次のサンプルコードでは、空のワークブックを作成し、パスワードで保護し、著者名を指定して[出力Excelファイル](67338582.xlsx)として保存します。出力Excelファイルへのサンプルコードの効果をイメージしたスクリーンショットを以下に示します。
+
+![todo:image_alt_text](specify-author-while-write-protecting-workbook_1.png)
 
 ## **サンプルコード**
 

@@ -1,10 +1,11 @@
-﻿---
-title: Распознавать самозакрывающиеся теги
+---
+title: Распознать самозакрывающиеся теги
 type: docs
 weight: 120
 url: /ru/java/recognise-self-closing-tags/
 ---
-HTML может иметь различные форматы тегов для пустых тегов, таких как \<td>\</td> или же \<td/>. Aspose.Cells теперь поддерживает оба этих формата, тогда как раньше он поддерживал только \<td>\</td>как теги. Эту функцию можно протестировать, преобразовав прилагаемый образец файла HTML в файл Excel. Образец файла HTML и выходные файлы можно загрузить для тестирования по следующим ссылкам.
+
+HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td/>. Aspose.Cells supports both these formats now whereas earlier it was supporting only \<td>\</td> like tags. This feature can be tested by converting the attached sample HTML file to Excel file. The sample HTML file and output files can be downloaded from the following links for testing.
 
 [sampleSelfClosingTags.html](74776600)
 

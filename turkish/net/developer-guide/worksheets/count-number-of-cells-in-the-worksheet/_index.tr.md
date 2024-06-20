@@ -1,11 +1,12 @@
 ---
-title: Çalışma Sayfasındaki hücre sayısını sayın
+title: Çalışma Sayfasındaki Hücrelerin Sayısını Say
 type: docs
 weight: 110
 url: /tr/net/count-number-of-cells-in-the-worksheet/
-description: Bu yazımızda C# API ile .NET Library kullanarak Excel çalışma sayfasındaki hücre sayısını programlı olarak saymayı öğreneceksiniz.
-keywords: count number of excel worksheet cells c#, excel worksheet cells c#
+description: Bu makalede, C# API ve .NET Kitaplığı kullanarak Excel çalışma sayfasındaki hücre sayısını programlı olarak nasıl sayacağınızı öğreneceksiniz.
+keywords: c# ile excel çalışma sayfası hücrelerini sayma, excel çalışma sayfası hücreleri c# say
 ---
- Çalışma sayfasındaki hücre sayısını kullanarak sayabilirsiniz.[**Cells.Count**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count) veya[**Cells.CountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge) özellikleri aşağıda verilen kod örneğinde gösterildiği gibi.
+
+Aşağıdaki örnekte verilen kod örneğinde gösterildiği gibi, çalışma sayfasındaki hücre sayısını [**Cells.Count**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/count) veya [**Cells.CountLarge**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/countlarge) özelliklerini kullanarak sayabilirsiniz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-CountNumberOfCells-1.cs" >}}

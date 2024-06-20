@@ -1,190 +1,191 @@
-﻿---
-title: تحويل المصنف إلى تنسيقات مختلفة
+---
+title: تحويل ورقة العمل إلى تنسيقات مختلفة
 type: docs
 weight: 20
 url: /ar/java/converting-workbook-to-different-formats/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells يدعم التحويل بين العديد من الصيغ. من الناحية الفنية ، يعني التحويل تحميل مصنف بتنسيق ملف واحد وحفظه في تنسيق آخر.
+Aspose.Cells تدعم تحويل بين العديد من الصيغ. من الناحية التقنية، التحويل يعني تحميل جدول عمل في تنسيق ملف معين وحفظه في تنسيق آخر.
 
 {{% /alert %}}
 
-## **تحويل ملف Excel إلى XPS**
+## **تحويل Excel إلى XPS**
 
-يتكون تنسيق المستند XPS من علامات XML الهيكلية التي تحدد مخطط المستند والمظهر المرئي لكل صفحة ، إلى جانب قواعد العرض لتوزيع المستندات وأرشفتها وتقديمها ومعالجتها وطباعتها.
+تنسيق مستند XPS يتألف من وسم XML منظم يحدد تخطيط المستند والمظهر البصري لكل صفحة، جنبًا إلى جنب مع قواعد العرض لتوزيع وأرشفة وعرض ومعالجة وطباعة المستندات.
 
-لغة الترميز لـ XPS هي مجموعة فرعية من XAML والتي تسمح لها بدمج العناصر الرسومية المتجهة في المستندات ، باستخدام XAML لترميز العناصر الأولية Windows Presentation Foundation (WPF). يتم وصف العناصر المستخدمة من حيث المسارات والأوليات الهندسية الأخرى.
+لغة الوسم لـ XPS هي جزء من XAML الذي يسمح لها بدمج عناصر الرسوميات النقطية في المستندات، باستخدام XAML لتعليم عناصر واجهة برنامج التقديم لـ Windows (WPF) الأساسية. توصف العناصر المستخدمة من حيث المسارات والأشكال الهندسية الأخرى.
 
-ملف XPS هو في الواقع أرشيف مضغوط Unicoded يستخدم اصطلاحات التغليف المفتوح ، التي تحتوي على الملفات التي تتكون منها الوثيقة. يتضمن ذلك ملف ترميز XML لكل صفحة ، ونص ، وخطوط مضمنة ، وصور نقطية ، ورسومات متجهة ثنائية الأبعاد ، بالإضافة إلى معلومات إدارة الحقوق الرقمية. يمكن فحص محتويات ملف XPS ببساطة عن طريق فتحه في تطبيق يدعم ملفات ZIP.
+الملف XPS في الواقع يعتبر أرشيف ZIP مشفر يستخدم طرائق التعبئة المفتوحة، يضم الملفات التي تشكل المستند. تتضمن هذه الملفات ملف وسم XML لكل صفحة، نص، خطوط مضمنة، صور نقطية، رسوميات ناقلة ثنائية الأبعاد، بالإضافة إلى معلومات إدارة الحقوق الرقمية. يمكن فحص محتويات ملف XPS ببساطة عن طريق فتحه في تطبيق يدعم ملفات ZIP.
 
-من Aspose.Cells 6.0.0 ، Microsoft يتم دعم تحويل Excel tp XPS.
+من Aspose.Cells 6.0.0، يتم دعم تحويل Microsoft Excel إلى XPS.
 
 ### **تحويل ورقة عمل واحدة إلى XPS**
 
-يوضح المثال التالي كيفية تحويل ورقة عمل واحدة في ملف Excel إلى XPS.
+المثال التالي يوضح كيفية تحويل ورقة عمل واحدة في ملف Excel إلى XPS.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingsingleWorksheetToXPS-ConvertingsingleWorksheetToXPS.java" >}}
 
-### **تصدير مصنف كامل إلى XPS**
+### **تصدير الدفتر كاملاً إلى XPS**
 
-يوضح المثال التالي كيفية تحويل المصنف بأكمله إلى تنسيق XPS.
+يوضح المثال التالي كيفية تحويل الدفتر كاملاً إلى تنسيق XPS.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ExportWholeWorkbookToXPS-ExportWholeWorkbookToXPS.java" >}}
 
-### **اكسل السريع لتحويل XPS**
+### **تحويل سريع من Excel إلى XPS**
 
-يوضح المثال التالي طريقة بسيطة لتحويل ملف Excel مباشرة إلى تنسيق XPS.
+المثال التالي يوضح طريقة بسيطة لتحويل مباشرة ملف Excel إلى تنسيق XPS.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-QuickExcelToXPSConversion-QuickExcelToXPSConversion.java" >}}
 
-## **تحويل ملفات Excel إلى MHTML**
+## **تحويل Excel إلى ملفات MHTML**
 
-[MHTML](https://en.wikipedia.org/wiki/MHTML) يجمع بين HTML العادي والموارد الخارجية ؛ أي المحتوى الذي يتم ربطه عادةً مثل الصور والرسوم المتحركة والصوت وما إلى ذلك في ملف واحد. يتم استخدامها لرسائل البريد الإلكتروني بامتداد الملف .mht.
+[**MHTML**](https://en.wikipedia.org/wiki/MHTML) يجمع بين HTML العادي مع الموارد الخارجية، وهي المحتوى الذي عادة ما يتم ربطه مثل الصور والرسوم المتحركة والصوت وما إلى ذلك في ملف واحد. يتم استخدامها لرسائل البريد الإلكتروني بامتداد الملف .mht.
 
 {{% alert color="primary" %}}
 
-يدعم Aspose.Cells قراءة وكتابة ملفات MHTML.
+Aspose.Cells تدعم قراءة وكتابة ملفات MHTML.
 
 {{% /alert %}}
 
-يعد تحويل جدول بيانات إلى MHTML عملية سريعة ، كما هو موضح أدناه.
+تحويل جدول بيانات إلى MHTML عملية سريعة، كما هو موضح أدناه.
 
-يوضح مثال الرمز أدناه كيفية حفظ مصنف كملف MHTML.
+يوضح المثال البرمجي أدناه كيفية حفظ دفتر العمل كملف MHTML.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingToMHTMLFiles-ConvertingToMHTMLFiles.java" >}}
 
 ## **تحويل ملفات Excel إلى HTML**
 
- توفر واجهات برمجة التطبيقات Aspose.Cells الدعم لتصدير جداول البيانات بتنسيق HTML. لهذا الغرض ، يستخدم Aspose.Cells الامتداد**[HtmlSaveOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**فئة تسمح للمطورين بالتحكم في عدة جوانب من الناتج HTML.
+توفر واجهات برمجة التطبيقات Aspose.Cells دعماً لتصدير الجداول الحسابية إلى تنسيق HTML. لهذا الغرض، تستخدم Aspose.Cells الفئة [**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions) التي تسمح للمطورين بالتحكم في العديد من جوانب HTML الإخراج.
 
-يوضح الكود أدناه كيفية استخدام ملف**[HtmlSaveOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**فئة لتصدير ملفات Excel Microsoft إلى تنسيق HTML بدون تحديد معاملات إضافية.
+الكود أدناه يظهر كيفية استخدام فئة [**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions) لتصدير ملفات Microsoft Excel إلى تنسيق HTML دون تحديد معلمات إضافية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingToHTMLFiles-ConvertingToHTMLFiles.java" >}}
 
 {{% alert color="primary" %}}
 
- يمكنك تحقيق نفس النتائج عن طريق تمرير**[SaveFormat.HTML] (https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)** الى**[Workbook.save] (https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save (java.io.OutputStream،٪ 20com.aspose.cells.SaveOptions))** طريقة.
+يمكنك تحقيق نفس النتائج عن طريق تمرير [**SaveFormat.HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML) إلى الطريقة [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)).
 
 {{% /alert %}}
 
-### **تحديد تفضيلات الصورة لـ HTML**
+### **ضبط تفضيلات الصور لصيغة HTML**
 
- بدءًا من 8.0.2 ، تم كشف Aspose.Cells**[ImageOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)**ل**[HtmlSaveOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**class ، والتي تتيح للمطورين تحديد تفضيلات الصورة عند حفظ جداول البيانات بتنسيق HTML.
+ابتداءً من الإصدار 8.0.2، فقد قدمت Aspose.Cells [**ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions) للفئة [**HtmlSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)، مما يتيح للمطورين تحديد تفضيلات الصور عند حفظ جداول البيانات في تنسيق HTML.
 
-إعدادات الصورة التي يمكن تطبيقها هي:
+تفضيلات الصور التي يمكن تطبيقها هي:
 
-- **[نوع الصورة] (https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType)**: الحصول على نوع الصورة أو تحديده. يرجى ملاحظة أن جميع الأشكال ، بما في ذلك الرسوم البيانية ، يتم عرضها كصور في الإخراج HTML.
-- **[الجودة] (https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality)**: الحصول على جودة الصور أو تعيينها بين 0 إلى 100 ، عند تحديد تنسيق ImageFormat على أنه Jpeg.
-- **[VerticalResolution] (https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution)**: الحصول على الدقة الرأسية للصورة أو تعيينها بالنقاط في البوصة.
-- **[HorizontalResolution] (https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution)**: الحصول على الدقة الأفقية للصورة أو تعيينها بالنقاط في البوصة.
-- **[TiffCompression] (https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression)**الحصول على نوع الضغط للصور أو تحديده عند تحديد تنسيق ImageFormat على أنه Tiff.
-- **[شفاف] (https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent)**: يشير إلى ما إذا كانت خلفية الصورة يجب أن تكون شفافة عند تحديد ImageFormat كـ Png.
+- [**ImageType**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType): يحصل على أو يعين نوع الصورة. يرجى ملاحظة أن جميع الأشكال، بما في ذلك الرسوم البيانية، يتم عرضها على هيئة صور في ملف الإخراج HTML.
+- [**Quality**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality): يحصل على أو يعين جودة الصور بين 0 إلى 100، عندما يتم تحديد ImageFormat ك Jpeg.
+- [**VerticalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution): يحصل على أو يعين الدقة العمودية للصورة بوحدات في البوصة.
+- [**HorizontalResolution**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution): يحصل على أو يعين الدقة الأفقية للصورة بوحدات في البوصة.
+- [**TiffCompression**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression): يحصل على أو يعين نوع الضغط للصور عندما يتم تحديد ImageFormat ك Tiff.
+- [**Transparent**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent): يدل على ما إذا كان خلفية الصورة يجب أن تكون شفافة عندما يتم تحديد ImageFormat ك Png.
 
- يوضح الكود أدناه كيفية الاستخدام**[HtmlSaveOptions.ImageOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)** لتحديد التفضيلات المختلفة.
+الكود أدناه يوضح كيفية استخدام [**HtmlSaveOptions.ImageOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions) لتحديد تفضيلات مختلفة.
 
-|**عرض جدول البيانات قبل التصدير**|**HTML العرض بعد التصدير**|
-|:- |:- |
-|![عرض جدول البيانات قبل التصدير](converting-workbook-to-different-formats_1.png)|![HTML العرض بعد التصدير](converting-workbook-to-different-formats_2.png)|
+|**عرض الجدول الحسابي قبل التصدير**|**عرض HTML بعد التصدير**|
+| :- | :- |
+|![عرض الجدول الحسابي قبل التصدير](converting-workbook-to-different-formats_1.png)|![عرض HTML بعد التصدير](converting-workbook-to-different-formats_2.png)|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SettingImagePrefrencesforHTML-SettingImagePrefrencesforHTML.java" >}}
 
-## **تحويل ملفات Excel إلى PDF**
+## **تحويل Excel إلى ملفات PDF**
 
-يتم استخدام وثائق PDF على نطاق واسع كتنسيق قياسي لتبادل الوثائق بين المنظمات والقطاعات الحكومية والأفراد. غالبًا ما يُطلب من مطوري البرامج جهازًا وسيلة لتحويل ملفات Excel Microsoft بسهولة إلى مستندات PDF. Aspose.Cells يدعم هذه الميزات. يوضح هذا المقال كيف.
+تُستخدم مستندات PDF على نطاق واسع كصيغة قياسية لتبادل المستندات بين المؤسسات والقطاعات الحكومية والأفراد. غالبًا ما يُطلب من المطورين البرمجيين إيجاد وسيلة لتحويل ملفات Microsoft Excel بسهولة إلى مستندات PDF. تدعم Aspose.Cells هذه الميزات. يوضح هذا المقال كيفية القيام بذلك.
 
-### **تحويل ملف Excel إلى PDF**
+### **تحويل Excel إلى PDF**
 
-تم تقديم Microsoft Excel إلى PDF التحويل باستخدام Aspose.Cells for Java 2.3.0. من هذا الإصدار ، يمكن Aspose.Cells[تحويل جداول البيانات إلى PDF مباشرة](#direct-conversion) (بما فيها[PDF / أ](#saving-excel-spreadsheets-to-pdfa-complied-files) ) ، بدون منتج آخر. لتحويل جداول البيانات بإصدارات أقدم من Aspose.Cells ،[استخدم Aspose.PDF للتحويل](#conversion-with-asposepdf-asposecells-prior-to-230).
+تم تقديم تحويل Microsoft Excel إلى PDF مع الإصدار Aspose.Cells for Java 2.3.0. منذ ذلك الإصدار، يمكن لـ Aspose.Cells [تحويل جداول البيانات إلى PDF مباشرة](#direct-conversion) (بما في ذلك [PDF/A](#saving-excel-spreadsheets-to-pdfa-complied-files))، بدون منتج آخر. لتحويل جداول البيانات باستخدام الإصدارات الأقدم من Aspose.Cells، [استخدم Aspose.PDF للتحويل](#conversion-with-asposepdf-asposecells-prior-to-230).
 
- يقوم Aspose.Cell بتحويل جداول البيانات إلى PDF بدرجة عالية من الدقة والإخلاص. ومع ذلك ، هناك القليل[محددات](/cells/ar/java/converting-workbook-to-different-formats/#conversion-attributes)، المدرجة في نهاية هذه المقالة.
+يُقوم Aspose.Cell's بتحويل جداول البيانات إلى PDF بدرجة عالية من الدقة والموثوقية. ومع ذلك، هناك بعض ال [قيود](/cells/ar/java/converting-workbook-to-different-formats/#conversion-attributes)، مُدرجة في نهاية هذا المقال.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java يكتب مباشرة المعلومات حول API ورقم الإصدار في وثائق المخرجات. على سبيل المثال ، عند تقديم المستند إلى PDF ، يتم تعبئة Aspose.Cells for Java**تطبيق** حقل بقيمة "Aspose.Cells" و**PDF منتج** حقل بقيمة ، على سبيل المثال "Aspose.Cells for Java v17.9".
+يكتب Aspose.Cells for Java مباشرة المعلومات حول واجهة برمجة التطبيقات ورقم الإصدار في المستندات الناتجة. على سبيل المثال، عند تقديم مستند إلى PDF، يقوم Aspose.Cells for Java بملأ حقل **Application** بالقيمة 'Aspose.Cells' وحقل **PDF Producer** بقيمة مثل 'Aspose.Cells for Java v17.9'.
 
-يرجى ملاحظة أنه لا يمكنك توجيه Aspose.Cells for Java لتغيير أو إزالة هذه المعلومات من مستندات الإخراج.
+يرجى ملاحظة أنه لا يمكنك توجيه Aspose.Cells for Java لتغيير أو إزالة هذه المعلومات من المستندات الناتجة.
 
 {{% /alert %}}
 
 #### **التحويل المباشر**
 
-احفظ ملف Excel مباشرة إلى PDF باستخدام امتداد**[Workbook.save] (https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save (java.io.OutputStream،٪ 20com.aspose.cells.SaveOptions))** الطريقة ، وتقديم**[SaveFormat.PDF] (https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)**عضو الواجهة. التحويل المباشر مثل هذا هو أكثر طرق التحويل كفاءة. لا تفقد البيانات أو التنسيق ولكنها تحافظ على الإخراج PDF وكأنه ملف Excel للإدخال.
+حفظ ملف Excel مباشرة إلى PDF باستخدام الطريقة [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) وتوفير واجهة العضو [**SaveFormat.PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF). مثل هذا التحويل المباشر هو الأكثر كفاءة. فهو لا يفقد البيانات أو التنسيق ولكنه يبقي ملف PDF الناتج يبدو كملف Excel الداخلي.
 
- لتحديد اختيارات الأمن عند الحفظ في PDF ، استخدم**[PdfSaveOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)**.
+لاختيار خيارات الأمان عند الحفظ إلى PDF، استخدم [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-Excel2PDFConversion-Excel2PDFConversion.java" >}}
 
 #### **التحويل المتقدم**
 
-يمكنك أيضًا اختيار استخدام ملف**[PdfSaveOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** فئة لتعيين سمات مختلفة للتحويل. تعيين خصائص مختلفة**[PdfSaveOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** ستمنحك class التحكم في إعدادات الطباعة والخط والأمان والضغط لملف PDF الناتج. الخاصية الأكثر شهرة هي**[الامتثال] (https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance)**التي تمكنك من حفظ ملفات Excel في PDF / A متوافق مع ملفات PDF.
+يمكنك أيضًا استخدام فئة [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) لتعيين سمات مختلفة للتحويل. تعيين خصائص مختلفة لفئة [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) سيمنحك السيطرة على إعدادات الطباعة والخط والأمان والضغط لملف PDF الناتج. الخاصية الأبرز هي [**Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance) التي تمكنك من حفظ ملفات Excel إلى ملفات PDF/A متوافقة بتنسيق PDF.
 
-##### **حفظ جداول بيانات Excel في PDF / A الملفات المتوافقة**
+##### **حفظ جداول الإكسل في ملفات PDF/A متوافقة**
 
-يوضح مقتطف الشفرة المقدم أدناه استخدام امتداد**[PdfSaveOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)** فئة لحفظ ملفات Excel بتنسيق PDF / A متوافق.
+الكود أدناه يوضح استخدام فئة [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) لحفظ ملفات Excel بتنسيق PDF/A متوافق بتنسيق PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AdvancedConversiontoPdf-AdvancedConversiontoPdf.java" >}}
 
-#### **التحويل مع Aspose.Pdf: Aspose.Cells قبل 2.3.0**
+#### **التحويل باستخدام Aspose.Pdf: Aspose.Cells قبل الإصدار 2.3.0**
 
- بالنسبة لإصدارات Aspose.Cells السابقة للإصدار 2.3.0 ، تحتاج إلى استخدام مكون مثل[Aspose.PDF for Java](/pdf/java/)لتحويل جداول البيانات إلى ملفات PDF. يعمل كل من Aspose.Cells و Aspose.PDF معًا لتحويل جدول بيانات إلى PDF عبر خطوة وسيطة.
+بالنسبة لنسخ Aspose.Cells السابقة للإصدار 2.3.0، يجب عليك استخدام مكون مثل [Aspose.PDF for Java](/pdf/java/) لتحويل جداول البيانات إلى ملفات PDF. تعمل Aspose.Cells و Aspose.PDF معًا لتحويل جدول بيانات إلى PDF عبر خطوة وسيطة.
 
-لتحويل جداول البيانات إلى PDF مع Aspose.Cells و Aspose.PDF:
+لتحويل جداول البيانات إلى PDF باستخدام Aspose.Cells وAspose.PDF:
 
-1.  إنشاء كائن من**[مصنف] (https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**فئة عن طريق استدعاء مُنشئها الفارغ.
-1. قم بالعمل المطلوب على جدول البيانات باستخدام Aspose.Cells API.
-1. اتصل ب**[Workbook.save] (https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save (java.io.OutputStream،٪ 20com.aspose.cells.SaveOptions))**طريقة حفظ جدول البيانات:
- 1. اضبط تنسيق الملف على XML.
- 1. حدد Aspose_Pdf (قيمة محددة مسبقًا) من واجهة FileFormatType. يوجه هذا طريقة الحفظ لتكوين جدول بيانات في نموذج XML متوافق مع مخطط Aspose.PDF بحيث يمكن أن يقوم Aspose.PDF for Java بإنشاء مستند PDF.
-1. عندما يتم إنشاء ملف XML ، قم بإنشاء كائن من فئة Pdf في حزمة aspose.pdf.
-1. استدعاء طريقة bindXML لفئة Pdf ومرر اسم ملف XML الناتج.
-1. قم باستدعاء طريقة حفظ فئة Pdf لإنشاء مستند PDF.
+1. قم بإنشاء كائن من فئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) بالاتصال ببنائه الفارغ.
+1. اقم بعملك المطلوب على جدول البيانات باستخدام واجهة برمجة التطبيقات Aspose.Cells.
+1. استدعي الطريقة [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) لحفظ جدول البيانات:
+   1. تعيين تنسيق الملف إلى XML.
+   1. حدد Aspose_Pdf (قيمة محددة مسبقًا) من واجهة FileFormatType. يوجه هذا الإجراء الأسلوب حفظ لتوليد جدول بيانات بتنسيق XML متوافق مع مخطط Aspose.PDF بحيث يمكن لـ Aspose.PDF لـ Java بعد ذلك توليد وثيقة PDF.
+1. عند إنشاء ملف XML، قم بإنشاء كائن من فئة Pdf في حزمة aspose.pdf.
+1. استدعاء الطريقة bindXML في فئة Pdf وتمرير اسم ملف الإخراج XML.
+1. استدعاء الطريقة save في فئة Pdf لتوليد وثيقة PDF.
 
-يتم تنفيذ الخطوات المذكورة أعلاه أدناه في مثال.
+يتم تنفيذ الخطوات أعلاه أدناه في مثال.
 
 {{% alert color="primary" %}}
 
-إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل الاتصال**[Workbook.calculateFormula] (https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula ())** الطريقة قبل تحويل جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في PDF.
+إذا كان جدول البيانات الخاص بك يحتوي على صيغ، فمن الأفضل استدعاء الطريقة [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) قبل عرض الجدول بتنسيق PDF. سيضمن ذلك إعادة حساب القيم التي تعتمد على الصيغة، وعرض القيم الصحيحة في PDF.
 
 {{% /alert %}}
 
 #### **سمات التحويل**
 
-نحن نعمل بجد لتحسين التحويل والجوانب الأخرى لـ Aspose.Cells مع كل إصدار. Excel لتحويل PDF له بعض القيود. قد يتم فقد بعض إعدادات التنسيق المحددة في جدول بيانات ، ولا يتم دعم جميع الكائنات الرسومية.
+نحن نعمل بجد لتحسين معدل التحويل وجوانب أخرى لـ Aspose.Cells مع كل إصدار. لدينا بعض القيود في تحويل Excel إلى PDF. قد تفقد بعض إعدادات التنسيق المحددة في جدول بيانات، ولن يتم دعم كل الكائنات الرسمية.
 
-يسرد الجدول أدناه جميع الميزات المدعومة كليًا أو جزئيًا عند التصدير إلى PDF باستخدام Aspose.Cells. هذا الجدول ليس نهائيًا ولا يغطي كافة سمات جدول البيانات. يمكنه أيضًا تحديد تلك الميزات التي قد لا تكون مدعومة أو مدعومة جزئيًا للتحويل.
+الجدول أدناه يوضح جميع الميزات المعتمدة جزئيا أو تمامًا عند تصدير إلى PDF باستخدام Aspose.Cells. هذا الجدول ليس نهائيًا ولا يغطي جميع خصائص جدول البيانات. كما يمكن له تحديد تلك الميزات التي قد لا تكون معتمدة أو مدعومة جزئيًا للتحويل.
 
 {{% alert color="primary" %}}
 
-|**عنصر المستند**|**ينسب**|**صافي المدعومة**|**ملاحظات**|
-|:- |:- |:- |:- |
-|التوافق||نعم||
-|دوران||جزئيا|يدعم فقط 90 و -90.|
-|إعدادات الخلفية||نعم||
-|الحدود|اللون|نعم||
-|الحدود|أسلوب الخط|نعم||
-|الحدود|عرض الخط|نعم||
-|Cell البيانات||نعم||
-|تعليقات||لا||
-|تنسيق مشروط||نعم||
-|خصائص المستند||نعم||
-|كائنات الرسم||نعم||
-|الخط|بحجم|نعم||
-|الخط|اللون|نعم||
-|الخط|أسلوب|نعم||
-|الخط|تسطير|نعم||
-|الخط|تأثيرات|جزئيا|يتم دعم تأثير الشطر فقط|
-|الصور||نعم||
-|ارتباط تشعبي||نعم||
-|الرسوم البيانية||نعم||
-|اندمجت Cells||نعم||
-|فاصل صفحة||نعم||
-|اعداد الصفحة|تذييل الرأس|نعم||
-|اعداد الصفحة|الهوامش|نعم||
-|اعداد الصفحة|اتجاه الصفحة|نعم||
-|اعداد الصفحة|مقاس الصفحه|نعم||
-|اعداد الصفحة|منطقة الطباعة|نعم||
-|اعداد الصفحة|عناوين الطباعة|نعم||
-|اعداد الصفحة|تحجيم|نعم||
-|ارتفاع الصف / عرض العمود||نعم||
+|**عنصر المستند**|**الخاصية**|**مدعومة بشكل صافي**|**ملاحظات**|
+| :- | :- | :- | :- |
+|المحاذاة| |نعم| |
+|الدوران| |جزئيًا|يدعم فقط 90 و -90.|
+|إعدادات الخلفية| |نعم| |
+|الحدود|لون|نعم| |
+|الحدود|نمط الخط|نعم| |
+|الحدود|سمك الخط|نعم| |
+|بيانات الخلية| |نعم| |
+|التعليقات| |لا| |
+|تنسيق شرطي| |نعم| |
+|خصائص المستند| |نعم| |
+|كائنات الرسم| |نعم| |
+|الخط|الحجم|نعم| |
+|الخط|اللون|نعم| |
+|الخط|النمط|نعم| |
+|الخط|التسطير|نعم| |
+|الخط|تأثيرات|جزئيًا|يتم دعم تأثير الخط العابر فقط|
+|الصور| |نعم| |
+|الارتباط| |نعم| |
+|رسوم بيانية| |نعم| |
+|الخلايا المدمجة| |نعم| |
+|فاصل الصفحة| |نعم| |
+|إعداد الصفحة|الرأس/التذييل|نعم| |
+|إعداد الصفحة|الهوامش|نعم| |
+|إعداد الصفحة|اتجاه الصفحة|نعم| |
+|إعداد الصفحة|حجم الصفحة|نعم| |
+|إعداد الصفحة|منطقة الطباعة|نعم| |
+|إعداد الصفحة|عناوين الطباعة|نعم| |
+|إعداد الصفحة|تحجيم|نعم| |
+|ارتفاع الصف/عرض العمود| |نعم| |
 {{% /alert %}}

@@ -1,30 +1,31 @@
 ---
-title: تحديد المحور الموجود في المخطط
-description: تعرف على كيفية تحديد المحور الموجود في المخطط الذي تم إنشاؤه باستخدام Aspose.Cells for .NET. سيساعدك دليلنا على فهم كيفية تحديد المحاور المختلفة في المخطط والوصول إليها، بما في ذلك الفئة والقيمة والمحاور الثانوية.
-keywords: Aspose.Cells for .NET, chart, axis, existence, category, value, secondary.
+title: تحديد المحور الموجود في الرسم البياني
+description: تعلم كيفية تحديد المحور الذي يوجد في مخطط تم إنشاؤه باستخدام Aspose.Cells for .NET. سيساعدك دليلنا على فهم كيفية تحديد والوصول إلى المحاور المختلفة في المخطط، بما في ذلك محور الفئة والقيم والمحاور الثانوية.
+keywords: Aspose.Cells for .NET، مخطط، محور، وجود، فئة، قيمة، ثانوي.
 type: docs
 weight: 140
 url: /ar/net/determine-which-axis-exists-in-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان، يحتاج المستخدم إلى معرفة ما إذا كان هناك محور معين موجود في المخطط. على سبيل المثال، يريد معرفة ما إذا كان محور القيمة الثانوية موجودًا داخل المخطط أم لا. بعض المخططات مثل Pie وPieExploded وPiePie وPieBar وPie3D وPie3DExploded وDoughnut وDoughnutExploded وما إلى ذلك لا تحتوي على محور.
+أحيانًا، يحتاج المستخدم إلى معرفة ما إذا كان محور معين موجود في المخطط أم لا. على سبيل المثال، يريد معرفة ما إذا كان محور القيم الثانوي موجود داخل المخطط أم لا. بعض المخططات مثل الكعكة، الكعكة المنفوخة، البيتزا، البيتزا المكدسة، الثلاثي الكعكة، الثلاثي المنفوخ، الدونات، الدونات المنفوخة، إلخ، لا تحتوي على محور.
 
- Aspose.Cells يوفر[**Chart.HasAxis(AxisType axisType، bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) طريقة لتحديد ما إذا كان المخطط يحتوي على محور معين أم لا.
+توفر Aspose.Cells [**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) لتحديد ما إذا كان لدى المخطط محور معين أم لا.
 
 {{% /alert %}}
 
- يوضح نموذج التعليمات البرمجية التالي استخدام[**Chart.HasAxis(AxisType axisType، bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis)لتحديد ما إذا كان نموذج المخطط يحتوي على الفئة الأساسية والثانوية ومحور القيمة.
+يوضح الرمز العيني التالي استخدام [**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) لتحديد ما إذا كان لدى المخطط العيني العيني الأساسي والثانوي ومحور الفئة والقيمة.
 
-##  كود C# لتحديد المحور الموجود في المخطط
+## كود C# لتحديد أي محور موجود في المخطط
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DetermineAxisInChart-DetermineAxisInChart.cs" >}}
 
-## إخراج وحدة التحكم التي تم إنشاؤها بواسطة نموذج التعليمات البرمجية
+## الناتج على واجهة الأوامر الناتجة عن الكود المثال
 
-تم عرض مخرجات وحدة التحكم الخاصة بالرمز أدناه والتي تظهر صحيحًا للفئة الأساسية ومحور القيمة وخطأ للفئة الثانوية ومحور القيمة.
+تم عرض إخراج وحدة التحكم للشفرة أدناه التي تعرض القيمة الصحيحة للفئة الأساسية ومحور القيمة والقيمة الخاطئة للفئة الثانوية ومحور القيمة.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Has Primary Category Axis: True
 

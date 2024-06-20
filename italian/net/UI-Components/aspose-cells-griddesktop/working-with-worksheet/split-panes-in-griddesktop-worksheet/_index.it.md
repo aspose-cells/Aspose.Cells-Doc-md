@@ -1,14 +1,17 @@
-﻿---
-title: Dividi riquadri nel foglio di lavoro GridDesktop
+---
+title: Dividere riquadri nel foglio di calcolo di GridDesktop
 type: docs
 weight: 180
-url: /it/net/split-panes-in-griddesktop-worksheet/
+url: /it/net/aspose-cells-griddesktop/split-panes-in-griddesktop-worksheet/
+keywords: GridDesktop,dividere,riquadri divisi,pannelli
+description: Questo articolo introduce come dividere i pannelli in GridDesktop.
 ---
-## **Possibili scenari di utilizzo**
-Microsoft Excel consente di dividere i riquadri utilizzando il comando di menu Visualizza > Dividi. Aspose.Cells fornisce anche questa funzione. Utilizzare i metodi GridDesktop.DoSplit() e GridDesktop.UnDoSplit() per dividere e non dividere i riquadri nel foglio di lavoro GridDesktop.
-## **Dividi riquadri nel foglio di lavoro GridDesktop**
-Gli screenshot seguenti mostrano GridDesktop prima dei piani di divisione e dopo i piani di divisione.
-### **GridDesktop Prima di dividere i riquadri**
-![cose da fare:immagine_alt_testo](split-panes-in-griddesktop-worksheet_1.png)
-### **GridDesktop dopo i riquadri divisi**
-![cose da fare:immagine_alt_testo](split-panes-in-griddesktop-worksheet_2.png)
+
+## **Possibili Scenari di Utilizzo**
+Microsoft Excel consente di dividere i pannelli utilizzando il comando di menu Visualizza> Dividi. Anche Aspose.Cells fornisce questa funzionalità. Si prega di utilizzare i metodi GridDesktop.DoSplit() e GridDesktop.UnDoSplit() per dividere e annullare la divisione dei pannelli nel foglio di lavoro di GridDesktop.
+## **Dividere i pannelli nel foglio di lavoro di GridDesktop**
+Lo screenshot seguente mostra il GridDesktop prima della divisione dei pannelli e dopo la divisione dei pannelli.
+### **GridDesktop Prima della Divisione dei Pannelli**
+![todo:image_alt_text](split-panes-in-griddesktop-worksheet_1.png)
+### **GridDesktop Dopo la Divisione dei Pannelli**
+![todo:image_alt_text](split-panes-in-griddesktop-worksheet_2.png)

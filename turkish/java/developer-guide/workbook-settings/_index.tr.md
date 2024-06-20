@@ -1,4 +1,4 @@
-﻿---
+---
 title: Çalışma Kitabı Ayarları
 type: docs
 weight: 200

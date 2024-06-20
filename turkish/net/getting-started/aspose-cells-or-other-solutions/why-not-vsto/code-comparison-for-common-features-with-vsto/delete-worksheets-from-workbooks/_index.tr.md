@@ -1,12 +1,13 @@
-﻿---
-title: Çalışma Kitaplarından Çalışma Sayfalarını Sil
+---
+title: Çalışma Kitaplarından Çalışsayfalarını Sil
 type: docs
 weight: 100
 url: /tr/net/delete-worksheets-from-workbooks/
 ---
-Bir çalışma kitabındaki herhangi bir çalışma sayfasını silebilirsiniz. Bir çalışma sayfasını silmek için çalışma sayfası ana bilgisayar öğesini kullanın veya çalışma kitabının sayfalar koleksiyonunu kullanarak çalışma sayfasına erişin.
+
+Bir çalışma kitabında herhangi bir çalışsayfayı silebilirsiniz. Bir çalışsayfayı silmek için, çalışsayfa ana öğesini kullanın veya çalışma kitabının çalışsayfalar koleksiyonunu kullanarak çalışsayfaya erişin.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook= this.Application.Workbooks.Open(fileName);
 
@@ -14,7 +15,7 @@ Bir çalışma kitabındaki herhangi bir çalışma sayfasını silebilirsiniz. 
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -23,5 +24,5 @@ Bir çalışma kitabındaki herhangi bir çalışma sayfasını silebilirsiniz. 
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **İndirmek**
+## **İndir**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)

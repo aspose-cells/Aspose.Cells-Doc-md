@@ -1,19 +1,20 @@
-﻿---
-title: Aggiungi segnalibri PDF con destinazioni con nome
+---
+title: Aggiungi Segnalibri PDF con Destinazioni con Nome
 type: docs
 weight: 20
 url: /it/java/add-pdf-bookmarks-with-named-destinations/
 ---
-## **Possibili scenari di utilizzo**
 
-Le destinazioni con nome sono tipi speciali di segnalibri o collegamenti in PDF che non dipendono dalle pagine PDF. Significa che se le pagine vengono aggiunte o eliminate da PDF, i segnalibri potrebbero diventare non validi ma le destinazioni nominate rimarranno intatte. Per creare Destinazione con nome, impostare il file[**PdfBookmarkEntry.DestinationName**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfbookmarkentry#DestinationName)proprietà.
+## **Possibili Scenari di Utilizzo**
 
-## **Aggiungi segnalibri PDF con destinazioni con nome**
+Le Destinazioni con Nome sono un tipo speciale di segnalibri o collegamenti nei PDF che non dipendono dalle pagine PDF. Ciò significa che, se vengono aggiunte o eliminate pagine dal PDF, i segnalibri possono diventare non validi ma le destinazioni con nome rimarranno integre. Per creare una Destinazione con Nome, si prega di impostare la proprietà [**PdfBookmarkEntry.DestinationName**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfbookmarkentry#DestinationName).
 
-Si prega di vedere il seguente codice di esempio, its[file Excel di origine](50528370.xlsx), e il suo[output PDF file](50528369.pdf). Lo screenshot mostra i segnalibri e le destinazioni denominate all'interno dell'output PDF. Lo screenshot descrive anche come visualizzare Destinazioni denominate e che è necessaria la versione Professional di Acrobat Reader.
+## **Aggiungi Segnalibri PDF con Destinazioni con Nome**
 
-![cose da fare:immagine_alt_testo](add-pdf-bookmarks-with-named-destinations_1.png)
+Si prega di vedere il codice di esempio seguente, il suo [file Excel di origine](50528370.xlsx) e il [file PDF di output](50528369.pdf). La schermata mostra i segnalibri e le destinazioni denominate all'interno del PDF di output. La schermata descrive anche come visualizzare le destinazioni denominate e che è necessaria la versione Professionale di Acrobat Reader.
 
-## **Codice d'esempio**
+![todo:image_alt_text](add-pdf-bookmarks-with-named-destinations_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-AddPDFBookmarksWithNamedDestinations.java" >}}

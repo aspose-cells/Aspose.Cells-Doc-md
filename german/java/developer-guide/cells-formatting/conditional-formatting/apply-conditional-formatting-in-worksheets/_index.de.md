@@ -1,18 +1,19 @@
-﻿---
-title: Wenden Sie bedingte Formatierung in Arbeitsblättern an
+---
+title: Bedingte Formatierung in Arbeitsblättern anwenden
 type: docs
 weight: 40
 url: /de/java/apply-conditional-formatting-in-worksheets/
 ---
+
 {{% alert color="primary" %}}
 
-Dieser Artikel soll ein detailliertes Verständnis dafür vermitteln, wie Sie einer Reihe von Zellen in einem Arbeitsblatt eine bedingte Formatierung hinzufügen.
+Dieser Artikel soll ein detailliertes Verständnis dafür vermitteln, wie bedingte Formatierung auf eine Zellenreihe in einem Arbeitsblatt angewendet wird.
 
-Die bedingte Formatierung ist eine erweiterte Funktion in Microsoft Excel, mit der Sie Formate auf einen Bereich von Zellen anwenden und diese Formatierung abhängig vom Wert der Zelle oder dem Wert einer Formel ändern können. Beispielsweise kann der Hintergrund einer Zelle rot sein, um einen negativen Wert hervorzuheben, oder die Textfarbe könnte für einen positiven Wert grün sein. Wenn der Wert der Zelle die Formatbedingung erfüllt, wird das Format angewendet. Wenn der Wert der Zelle die Formatbedingung nicht erfüllt, wird die Standardformatierung der Zelle verwendet.
+Bedingte Formatierung ist eine fortgeschrittene Funktion in Microsoft Excel, die es ermöglicht, Formate auf eine Zellenreihe anzuwenden und diese Formatierung je nach dem Wert der Zelle oder dem Wert einer Formel zu ändern. Zum Beispiel kann der Hintergrund einer Zelle rot sein, um einen negativen Wert hervorzuheben, oder die Textfarbe könnte grün sein, um einen positiven Wert hervorzuheben. Wenn der Wert der Zelle die Formatbedingung erfüllt, wird das Format angewendet. Erfüllt der Wert der Zelle die Formatbedingung nicht, wird das Standardformat der Zelle verwendet.
 
-Es ist möglich, bedingte Formatierung mit Microsoft Office Automation anzuwenden, aber das hat seine Nachteile. Dafür gibt es mehrere Gründe und Probleme: zum Beispiel Sicherheit, Stabilität, Skalierbarkeit und Geschwindigkeit. Der Hauptgrund für die Suche nach einer anderen Lösung ist, dass Microsoft selbst dringend von Office Automation für Softwarelösungen abrät.
+Es ist möglich, bedingte Formatierungen mit Microsoft Office Automation anzuwenden, aber das hat seine Nachteile. Es gibt mehrere Gründe und Probleme, die damit verbunden sind: zum Beispiel Sicherheit, Stabilität, Skalierbarkeit und Geschwindigkeit. Der Hauptgrund, nach einer anderen Lösung zu suchen, ist, dass Microsoft selbst die Nutzung von Office Automation für Softwarelösungen nachdrücklich ablehnt.
 
-Dieser Artikel zeigt, wie Sie eine Konsolenanwendung erstellen und Zellen mit ein paar einfachsten Codezeilen mit Aspose.Cells API bedingt formatieren.
+Dieser Artikel zeigt, wie man eine Konsolenanwendung erstellt, bedingte Formatierung auf Zellen mit einigen einfachsten Zeilen Code mithilfe der Aspose.Cells API hinzufügt.
 
 {{% /alert %}}
 
@@ -20,73 +21,73 @@ Dieser Artikel zeigt, wie Sie eine Konsolenanwendung erstellen und Zellen mit ei
 
 Dieser Artikel behandelt die folgenden Aufgaben:
 
-1. [Verwenden von Aspose.Cells zum Anwenden einer bedingten Formatierung basierend auf dem Zellenwert](/cells/de/java/apply-conditional-formatting-in-worksheets/#task-1-using-asposecells-to-apply-conditional-formatting-based-on-cell-value).
-1. [Verwenden von Aspose.Cells zum Anwenden einer bedingten Formatierung basierend auf einer Formel](/cells/de/java/apply-conditional-formatting-in-worksheets/#task-2-using-asposecells-to-apply-conditional-formatting-based-on-a-formula).
+1. [Mit Aspose.Cells bedingte Formatierung basierend auf Zellenwert anwenden](/cells/de/java/apply-conditional-formatting-in-worksheets/#task-1-using-asposecells-to-apply-conditional-formatting-based-on-cell-value).
+1. [Mit Aspose.Cells bedingte Formatierung basierend auf einer Formel anwenden](/cells/de/java/apply-conditional-formatting-in-worksheets/#task-2-using-asposecells-to-apply-conditional-formatting-based-on-a-formula).
 
-### **Aufgabe 1: Verwenden von Aspose.Cells zum Anwenden einer bedingten Formatierung basierend auf dem Wert von Cell**
+### **Aufgabe 1: Mit Aspose.Cells bedingte Formatierung basierend auf Zellenwert anwenden**
 
-1. **Laden Sie Aspose.Cells.zip herunter und installieren Sie es**:
-   1. [Download](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
- 1. Entpacken Sie es auf Ihrem Entwicklungscomputer.
- Alle Aspose-Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
-1. **Erstellen Sie ein Projekt**.
- Erstellen Sie entweder ein Projekt mit einem Java Editor wie Eclipse oder erstellen Sie ein einfaches Programm mit einem Texteditor.
-1. **Klassenpfad hinzufügen**.
- Um einen Klassenpfad mit Eclipse festzulegen, führen Sie bitte die folgenden Schritte aus:
-1. Extrahieren Sie Aspose.Cells.jar und dom4j_1.6.1.jar aus Aspose.Cells.zip.
- 1. Legen Sie den Klassenpfad des Projekts in Eclipse fest:
- 1. Wählen Sie Ihr Projekt in Eclipse aus und wählen Sie dann aus**Eigenschaften** von dem**Projekt** Speisekarte.
- 1. Wählen Sie links im Dialog „Java Build Path“ aus.
- 1. Auf der**Bibliotheken** Registerkarte, auswählen**JARs hinzufügen** oder**Fügen Sie externe JARs hinzu** um Aspose.Cells.jar und dom4j_1.6.1.jar auszuwählen und sie zu Erstellungspfaden hinzuzufügen.
- 1. Anwendung schreiben, um APIs der Komponenten von Aspose aufzurufen.
- Oder Sie können den Pfad zur Laufzeit an einer DOS-Eingabeaufforderung in Windows festlegen.
+1. **Laden Sie Aspose.Cells.zip herunter und installieren Sie es**: 
+   1. [Herunterladen](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
+   1. Entpacken Sie es auf Ihrem Entwicklungscomputer.
+      Alle Aspose-Komponenten arbeiten im Installationsmodus nur als Testversion. Die Testversion hat kein Zeitlimit und fügt nur Wasserzeichen in erstellte Dokumente ein.
+1. **Ein Projekt erstellen**.
+   Erstellen Sie entweder ein Projekt mit einem Java-Editor wie Eclipse oder erstellen Sie ein einfaches Programm mit einem Texteditor.
+1. **Fügen Sie den Klassenpfad hinzu**.
+   Um einen Klassenpfad in Eclipse festzulegen, führen Sie bitte die folgenden Schritte aus:
+   1. Extrahieren Sie die Aspose.Cells.jar und dom4j_1.6.1.jar aus Aspose.Cells.zip.
+   1. Setzen Sie den Klassenpfad des Projekts in Eclipse:
+      1. Wählen Sie Ihr Projekt in Eclipse aus und wählen Sie dann **Eigenschaften** im **Projekt**-Menü aus.
+      1. Wählen Sie links in dem Dialogfeld "Java-Build-Pfad" aus.
+      1. Wählen Sie auf der Registerkarte **Bibliotheken** **JARs hinzufügen** oder **Externe JARs hinzufügen**, um Aspose.Cells.jar und dom4j_1.6.1.jar auszuwählen und in den Build-Pfaden hinzuzufügen.
+   1. Schreiben Sie eine Anwendung, um die APIs der Aspose-Komponenten aufzurufen.
+      Alternativ können Sie den Pfad über eine Eingabeaufforderung in Windows während der Laufzeit festlegen.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
   javac -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar;  ClassName  
 
 {{< /highlight >}}
 
-1. **Wenden Sie die bedingte Formatierung basierend auf dem Zellenwert an**.
- Unten ist der Code, der von der Komponente verwendet wird, um die Aufgabe auszuführen. Es wendet eine bedingte Formatierung auf eine Zelle an.
+1. **Bedingte Formatierung basierend auf Zellwert anwenden**.
+   Im Folgenden finden Sie den vom Komponenten verwendeten Code, um die Aufgabe zu erledigen. Er wendet bedingte Formatierung auf einer Zelle an.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingOnCellValue-ApplyConditionalFormattingOnCellValue.java" >}}
 
-Wenn der obige Code ausgeführt wird, wird die bedingte Formatierung auf die Zelle „A1“ im ersten Arbeitsblatt der Ausgabedatei (output.xls) angewendet. Die auf A1 angewendete bedingte Formatierung hängt vom Zellenwert ab. Wenn der Zellenwert von A1 zwischen 50 und 100 liegt, ist die Hintergrundfarbe aufgrund der angewendeten bedingten Formatierung rot. Bitte sehen Sie sich die folgenden Screenshots der generierten XLS-Datei an.
+Wenn der obige Code ausgeführt wird, wird die bedingte Formatierung auf die Zelle "A1" im ersten Arbeitsblatt der Ausgabedatei (output.xls) angewendet. Die bedingte Formatierung, die auf A1 angewendet wird, hängt vom Zellwert ab. Wenn der Zellwert von A1 zwischen 50 und 100 liegt, ist die Hintergrundfarbe aufgrund der angewendeten bedingten Formatierung rot. Bitte sehen Sie sich die folgenden Screenshots der generierten XLS-Datei an.
 
-**Ausgabe einer Excel-Datei mit einem A1-Wert kleiner als 50**
+**Ausgabedatei Excel mit einem Wert von A1 kleiner als 50**
 
-![todo: Bild_alt_Text](apply-conditional-formatting-in-worksheets_1.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_1.png)
 
-**Excel-Datei mit A1 zwischen 50 und 100 ausgeben**
+**Ausgabedatei Excel mit einem Wert von A1 zwischen 50 und 100**
 
-![todo: Bild_alt_Text](apply-conditional-formatting-in-worksheets_2.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_2.png)
 
-### **Aufgabe 2: Verwenden von Aspose.Cells zum Anwenden einer bedingten Formatierung basierend auf einer Formel**
+### **Aufgabe 2: Mit Aspose.Cells bedingte Formatierung basierend auf einer Formel anwenden**
 
-1. **Bedingte Formatierung je nach Formel anwenden**.
- Unten ist der tatsächliche Code, der von der Komponente verwendet wird, um die Aufgabe auszuführen. Es wendet die bedingte Formatierung auf „B3“ an.
+1. **Bedingte Formatierung abhängig von einer Formel anwenden**.
+   Im Folgenden finden Sie den tatsächlichen Code, der von der Komponente verwendet wird, um die Aufgabe zu erledigen. Er wendet bedingte Formatierung auf “B3” an.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingBasedOnFormula-ConditionalFormattingBasedOnFormula.java" >}}
 
-Wenn der obige Code ausgeführt wird, wird die bedingte Formatierung auf die Zelle „B3“ im ersten Arbeitsblatt der Ausgabedatei (output.xls) angewendet. Die angewendete bedingte Formatierung hängt von der Formel ab, die den Wert von „B3“ als Summe von B1 & B2 berechnet. Bitte sehen Sie sich die folgenden Screenshots der generierten XLS-Datei an.
+Wenn der obige Code ausgeführt wird, wird die bedingte Formatierung auf die Zelle "B3" im ersten Arbeitsblatt der Ausgabedatei (output.xls) angewendet. Die bedingte Formatierung, die angewendet wird, hängt von der Formel ab, die den Wert von "B3" als Summe von B1 & B2 berechnet. Bitte sehen Sie sich die folgenden Screenshots der generierten XLS-Datei an.
 
-**Excel-Datei mit B3-Wert kleiner als 100 ausgeben**
+**Ausgabedatei Excel mit einem Wert von B3 kleiner als 100**
 
-![todo: Bild_alt_Text](apply-conditional-formatting-in-worksheets_3.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_3.png)
 
-**Excel-Datei mit B3 größer als 100 ausgeben**
+**Ausgabedatei Excel mit einem Wert von B3 größer als 100**
 
-![todo: Bild_alt_Text](apply-conditional-formatting-in-worksheets_4.png)
+![todo:image_alt_text](apply-conditional-formatting-in-worksheets_4.png)
 
 ### **Fazit**
 
 {{% alert color="primary" %}}
 
-Dieser Artikel zeigt, wie Sie bedingte Formatierung auf Zellen in einem Arbeitsblatt mit Aspose.Cells API anwenden. Hoffentlich gibt er Ihnen einen Einblick, damit Sie diese Optionen in Ihren eigenen Szenarien verwenden können.
+Dieser Artikel zeigt, wie die bedingte Formatierung von Zellen in einem Arbeitsblatt mit der Aspose.Cells API angewendet wird. Hoffentlich vermittelt er Ihnen Einblicke, damit Sie diese Optionen in Ihren eigenen Szenarien verwenden können.
 
-Aspose.Cells bietet große Flexibilität für Lösungen und bietet hervorragende Geschwindigkeit, Effizienz und Zuverlässigkeit, um spezifische Anforderungen von Geschäftsanwendungen zu erfüllen. Aspose.Cells profitiert von jahrelanger Forschung, Design und sorgfältiger Abstimmung.
+Aspose.Cells bietet eine hohe Flexibilität für Lösungen und bietet herausragende Geschwindigkeit, Effizienz und Zuverlässigkeit, um spezifische Anwendungsanforderungen zu erfüllen. Aspose.Cells profitiert von Jahren der Forschung, des Designs und der sorgfältigen Abstimmung.
 
- Wir freuen uns über Ihre Fragen, Kommentare und Anregungen im[Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Wir garantieren eine umgehende Antwort.
+Wir begrüßen Ihre Anfragen, Kommentare und Vorschläge im [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9). Wir garantieren eine schnelle Antwort.
 
 {{% /alert %}}

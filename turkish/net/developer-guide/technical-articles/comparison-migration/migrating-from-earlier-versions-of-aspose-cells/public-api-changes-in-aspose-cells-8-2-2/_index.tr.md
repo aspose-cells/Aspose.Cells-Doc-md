@@ -1,27 +1,28 @@
-﻿---
-title: Genel API Aspose.Cells'deki değişiklikler 8.2.2
+---
+title: Aspose.Cells 8.2.2 de Genel API Değişiklikleri
 type: docs
 weight: 90
 url: /tr/net/public-api-changes-in-aspose-cells-8-2-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.2.1'den 8.2.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır.
+Bu belge, modül/uygulama geliştiricilerin ilgisini çekebilecek Aspose.Cells API'sindeki 8.2.1'den 8.2.2'ye yapılan değişiklikleri açıklar.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Özellik BuiltInDocumentPropertyCollection.Version Eklendi**
-Geliştiricilerin, belirli bir e-tabloyu oluşturan uygulamanın sürümünü almalarına olanak sağlamak için, yeni Version özelliği, BuiltInDocumentPropertyCollection sınıfına eklenmiştir.
+## **Eklenen API'lar**
+### **Eklendi - BuiltInDocumentPropertyCollection.Version Özelliği**
+Yeni Version özelliği, belirli bir elektronik tabloyu oluşturan uygulamanın sürümünü geliştiricilere almak için BuiltInDocumentPropertyCollection sınıfına eklenmiştir.
 
 {{% alert color="primary" %}} 
 
- Lütfen ayrıntılı makaleyi kontrol edin[Elektronik Tabloyu Oluşturan Uygulamanın Sürümünü Alın](/cells/tr/net/get-the-version-number-of-the-application-that-created-the-excel-document/) daha fazla bilgi için.
+Daha fazla bilgi için lütfen [Elektronik Tabloyu Oluşturan Uygulamanın Sürümünü Alın](/cells/tr/net/get-the-version-number-of-the-application-that-created-the-excel-document/) detaylı makaleye bakın.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var book = new Workbook("sample.xlsx");
 
@@ -32,18 +33,18 @@ Console.WriteLine(properties.Version);
 {{< /highlight >}}
 
 
-### **Özellik Tablosu.Çalışma Sayfası Eklendi**
-Aspose.Cells 8.2.2 yayınlanmadan önce, Worksheet örneğini tuttuğu bir Chart nesnesinden almak mümkün değildi. Aspose.Cells 8.2.2, Chart.Worksheet özelliğini sağlayarak bu boşluğu doldurmuştur.
+### **Chart.Worksheet Özelliği Eklendi**
+Aspose.Cells 8.2.2'den önce, bir Grafik nesnesinden çalışsayı oluşturmak mümkün değildi. Aspose.Cells 8.2.2, bu boşluğu doldurarak Chart.Worksheet özelliğini sağlayarak bu eksikliği giderdi.
 
 {{% alert color="primary" %}} 
 
- Lütfen ayrıntılı makaleyi kontrol edin[Grafiğin Çalışma Sayfasını Alın](/cells/tr/net/get-worksheet-of-the-chart/) daha fazla bilgi için.
+Daha fazla bilgi için lütfen [Grafik Elemanının Elektronik Tablosunu Alın](/cells/tr/net/get-worksheet-of-the-chart/) detaylı makaleye bakın.
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  var workbook = new Workbook("sample.xlsx");
 

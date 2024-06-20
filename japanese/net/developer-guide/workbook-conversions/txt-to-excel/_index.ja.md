@@ -1,33 +1,34 @@
-﻿---
-title: CSV、TSV、TXT を Excel に変換
+---
+title: CSV、TSV、TXTをExcelに変換する
 type: docs
 weight: 30
 url: /ja/net/convert-csv-tsv-and-txt-to-excel/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells を使用すると、CSV ファイルを Excel 、OpenOffice、Pdf、Json、およびさまざまな形式に変換できます。
+Aspose.Cellsを使用して、CSVファイルをExcel、OpenOffice、Pdf、Jsonなど多くの異なる形式に変換することができます。
 
 {{% /alert %}}
 
 
 ## **CSV ファイルを開く**
 
-コンマ区切り値 (CSV) ファイルには、値がコンマで区切られたレコードが含まれています。データは、各列がコンマ文字で区切られ、二重引用符で囲まれたテーブルとして保存されます。フィールド値に二重引用符が含まれている場合は、二重引用符のペアでエスケープされます。 Microsoft Excel を使用して、スプレッドシート データを CSV にエクスポートすることもできます。
+コンマ区切り値（CSV）ファイルには、値がコンマで区切られたレコードが含まれています。データは、各列がコンマ文字で区切られ、二重引用符で引用された表として保存されます。フィールド値に二重引用符文字が含まれる場合は、それを二重引用符文字のペアでエスケープします。Microsoft Excel を使用してスプレッドシートデータを CSV にエクスポートすることもできます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFiles-1.cs" >}}
 
-## **CSV ファイルを開いて無効な文字を置き換える**
+## **CSV ファイルを開くと無効な文字を置換する**
 
-Excel で、特殊文字を含む CSV ファイルを開くと、文字が自動的に置き換えられます。以下のコード例で示されている Aspose.Cells API でも同じことが行われます。
+Excel では、特殊文字が含まれる CSV ファイルを開くと、文字が自動的に置換されます。Aspose.Cells API でも同様に行います。これは以下のコード例で示されています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesAndReplacingInvalidCharacters-1.cs" >}}
 
-## **優先パーサーの使用**
+## **好みのパーサーの使用**
 
-これは、CSV ファイルを開くためにデフォルトのパーサー設定を使用するために常に必要なわけではありません。 CSV ファイルをインポートしても、日付形式が期待どおりでない、または空のフィールドが異なる方法で処理されるなど、期待される出力が作成されないことがあります。この目的のために**TxtLoadOptions.PreferredParsers**要件に応じてさまざまなデータ型を解析するための独自の優先パーサーを提供することができます。次のサンプル コードは、優先パーサーの使用方法を示しています。
+CSVファイルを開くためにデフォルトのパーサー設定を使用する必要があるわけではないことがあります。場合によっては、CSVファイルをインポートしても日付形式が期待通りでない、または空のフィールドが異なる方法で処理されることがあります。そのために、**TxtLoadOptions.PreferredParsers**は、異なるデータ型を要件に応じて解析するために独自の好みのパーサーを提供するために利用できます。以下のサンプルコードは、好みのパーサーの使用法を示しています。  
 
-この機能をテストするためのサンプル ソース ファイルと出力ファイルは、次のリンクからダウンロードできます。
+この機能をテストするために、サンプルのソースファイルと出力ファイルを以下のリンクからダウンロードできます。
 
 [samplePreferredParser.csv](samplePreferredParser.csv)
 
@@ -35,26 +36,26 @@ Excel で、特殊文字を含む CSV ファイルを開くと、文字が自動
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesWithPreferredParser-1.cs" >}}
 
-### **カスタム セパレータを使用してテキスト ファイルを開く**
+### **カスタム区切り記号を使用してテキストファイルを開く**
 
-テキスト ファイルは、書式設定なしでスプレッドシート データを保持するために使用されます。このファイルは、カスタマイズされた区切り文字を持つことができる一種のプレーン テキスト ファイルです。
+テキストファイルは、書式なしでスプレッドシートデータを保持するために使用されます。この種のファイルは、カスタマイズされた区切り記号を持つプレーンテキストファイルです。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningTextFilewithCustomSeparator-1.cs" >}}
 
 ### **タブ区切りファイルを開く**
 
-タブ区切り (テキスト) ファイルにはスプレッドシート データが含まれますが、書式設定はありません。データは、表やスプレッドシートのように行と列に配置されます。基本的に、タブ区切りファイルは、各列の間にタブがある特別な種類のプレーン テキスト ファイルです。
+タブ区切り（テキスト）ファイルには、スプレッドシートデータが含まれていますが、フォーマットはありません。データは表やスプレッドシートのように行と列で配置されています。基本的に、タブ区切りファイルは各列の間にタブがある特別な種類のプレーンテキストファイルです。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningTabDelimitedFiles-1.cs" >}}
 
-### **タブ区切り値 (TSV) ファイルを開く**
+### **タブ区切り値（TSV）ファイルを開く**
 
-タブ区切り値 (TSV) ファイルにはスプレッドシート データが含まれていますが、書式設定はありません。テーブルやスプレッドシートのように、データが行と列に配置されるタブ区切りファイルと同じです。
+タブ区切り値（TSV）ファイルには、スプレッドシートデータが含まれていますが、フォーマットはありません。データは表やスプレッドシートのように行と列で配置されています。データはタブ区切りファイルと同様であり、各列の間にタブがあります。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningTSVFiles-1.cs" >}}
 
 
-## **先行トピック**
-- [数式を含む CSV ファイルのロードまたはインポート](/cells/ja/net/load-or-import-csv-file-with-formulas/)
-- [複数のエンコーディングを持つ CSV ファイルの読み取り](/cells/ja/net/reading-csv-file-with-multiple-encodings/)
+## **高度なトピック**
+- [数式を持つCSVファイルを読み込むまたはインポートする](/cells/ja/net/load-or-import-csv-file-with-formulas/)
+- [複数のエンコーディングを持つCSVファイルの読み込み](/cells/ja/net/reading-csv-file-with-multiple-encodings/)
 

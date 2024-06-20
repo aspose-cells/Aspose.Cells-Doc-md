@@ -1,38 +1,39 @@
-﻿---
-title: Python の分割ペイン
+---
+title: Pythonでウィンドウを分割
 type: docs
 weight: 70
 url: /ja/java/split-panes-in-python/
 ---
-## **Aspose.Cells - ペインの分割**
-を使用してペインを分割するには**Aspose.Cells Java for Python**、単に呼び出す**SplitPanes**モジュール。
 
-**Python コード**
+## **Aspose.Cells - 分割ウィンドウ**
+**Aspose.Cells Java for Python**を使用してウィンドウを分割するには、**SplitPanes**モジュールを呼び出すだけです。
 
-{{< highlight "java" >}}
+**Pythonコード**
+
+{{< highlight java >}}
 
  saveFormat = self.SaveFormat;
 
 workbook = self.Workbook(self.dataDir + "Book1.xls")
 
-# Set the active cell
+#Set the active cell
 
 workbook.getWorksheets().get(0).setActiveCell("A20");
 
-# Split the worksheet window
+#Split the worksheet window
 
 workbook.getWorksheets().get(0).split();
 
-# Save the excel file
+#Save the excel file
 
 workbook.save(self.dataDir + "book.out.xls", saveFormat.EXCEL_97_TO_2003);
 
-# Print Message
+#Print Message
 
 print "Panes split successfully."
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**分割ペイン (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから**Split Panes (Aspose.Cells)**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

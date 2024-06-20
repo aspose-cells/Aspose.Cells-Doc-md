@@ -1,20 +1,21 @@
-﻿---
-title: Utilisation des formats d'affichage de données de DataField dans le tableau croisé dynamique
+---
+title: Travail sur les formats d affichage des données de DataField dans le tableau croisé dynamique
 type: docs
 weight: 140
 url: /fr/net/working-with-data-display-formats-of-datafield-in-pivot-table/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells prend en charge tous les formats d'affichage de données de DataField.
+Aspose.Cells prend en charge tous les formats d'affichage des données de DataField.
 
 {{% /alert %}}
 
 ## **Option de format d'affichage "Classer du plus petit au plus grand" et "Classer du plus grand au plus petit"**
 
-ASpose.Cells offre la possibilité de définir l'option de format d'affichage pour les champs pivots. Pour cela, le API fournit le[**PivotField.DataDisplayFormatPivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) la propriété. Pour classer le plus grand au plus petit, vous pouvez définir le[**PivotField.DataDisplayFormatPivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat)propriété à[**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). L'extrait de code suivant illustre la définition des options de format d'affichage.
+ASpose.Cells permet de définir l'option de format d'affichage pour les champs de tableau croisé dynamique. Pour cela, l'API fournit la propriété [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat). Pour classer du plus grand au plus petit, vous pouvez définir la propriété [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) sur [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). Le code suivant montre comment définir les options de format d'affichage.
 
-Des exemples de fichiers source et de sortie peuvent être téléchargés ici pour tester l'exemple de code :
+Les fichiers source et de sortie de l'échantillon peuvent être téléchargés d'ici pour tester le code d'échantillon:
 
 [Fichier Excel source](101089332.xlsx)
 

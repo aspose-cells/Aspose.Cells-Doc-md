@@ -1,26 +1,27 @@
-﻿---
-title: Weberweiterungen – Office-Add-Ins
+---
+title: Web Erweiterungen  Office Add ins
 type: docs
 weight: 120
 url: /de/java/web-extensions-office-add-ins/
 ---
-Weberweiterungen erweitern Office-Anwendungen und interagieren mit dem Inhalt in Office-Dokumenten. Weberweiterungen fügen dem Office-Client zusätzliche Funktionen hinzu, um die Benutzererfahrung und Produktivität zu verbessern.
 
-Aspose.Cells bietet auch die Möglichkeit, mit Weberweiterungen zu arbeiten.
+Web-Erweiterungen erweitern Office-Anwendungen und interagieren mit dem Inhalt in Office-Dokumenten. Web-Erweiterungen fügen Office-Clients zusätzliche Funktionen hinzu, um die Benutzererfahrung und Produktivität zu verbessern.
 
-## **Weberweiterung hinzufügen**
+Aspose.Cells bietet auch die Möglichkeit, mit Web-Erweiterungen zu arbeiten.
 
-Sie können Weberweiterungen (Office-Add-Ins) in Excel hinzufügen, indem Sie auf klicken**Einfügung**Registerkarte und klicken Sie dann auf**Speichern**/**Holen Sie sich Add-Ins**Verknüpfung. Suchen Sie im Feld Add-Ins nach dem gewünschten Add-In und fügen Sie es hinzu.
+## **Web-Erweiterung hinzufügen**
 
-Aspose.Cells bietet auch die Funktion zum Hinzufügen von Weberweiterungen mithilfe der Klassen WebExtension und WebExtensionTaskPane. Das folgende Codebeispiel veranschaulicht die Verwendung der Klassen WebExtension und WebExtensionTaskPane zum Hinzufügen einer Weberweiterung zu einer Excel-Datei. Bitte sehen Sie sich ... an[Excel-Datei ausgeben](AddWebExtension_Out.xlsx)generiert durch den Code als Referenz.
+Sie können Web-Erweiterungen (Office Add-ins) in Excel hinzufügen, indem Sie auf das **Einfügen**-Register und dann auf den Link **Store**/**Add-ins abrufen** klicken. Suchen Sie im Add-ins-Feld nach dem gewünschten Add-in und fügen Sie es hinzu.
+
+Aspose.Cells bietet auch die Funktion, Web-Erweiterungen mithilfe der Klassen WebExtension und WebExtensionTaskPane hinzuzufügen. Das folgende Codebeispiel zeigt die Verwendung der Klassen WebExtension und WebExtensionTaskPane zum Hinzufügen einer Web-Erweiterung zur Excel-Datei. Bitte sehen Sie die generierte [Output-Excel-Datei](AddWebExtension_Out.xlsx), um Bezug zu nehmen.
 
 ### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AddWebExtension-1.java" >}}
 
-## **Greifen Sie auf Informationen zu Weberweiterungen zu**
+## **Zugriff auf Web-Erweiterungsinformationen**
 
-Aspose.Cells bietet die Möglichkeit, auf die Informationen von Weberweiterungen in einer Excel-Datei zuzugreifen. Das folgende Codebeispiel zeigt, wie Sie auf Informationen zu Weberweiterungen zugreifen, indem Sie die[Beispiel-Excel-Datei](WebExtensionsSample.xlsx). Bitte sehen Sie sich die vom Code generierte Konsolenausgabe als Referenz an.
+Aspose.Cells bietet die Möglichkeit, die Informationen von Web-Erweiterungen in Excel-Dateien abzurufen. Das folgende Codebeispiel zeigt, wie auf Informationen zu Web-Erweiterungen zugegriffen wird, indem die [Beispiel-Excel-Datei](WebExtensionsSample.xlsx) geladen wird. Bitte sehen Sie die Konsolenausgabe, die durch den Code generiert wird, für Bezugnahme.
 
 ### **Beispielcode**
 
@@ -28,16 +29,20 @@ Aspose.Cells bietet die Möglichkeit, auf die Informationen von Weberweiterungen
 
 ### **Konsolenausgabe**
 
-Breite: 350
+{{< highlight java >}}
 
-IsVisible: Wahr
+Width: 350
 
-IsLocked: Falsch
+IsVisible: True
 
-DockState: richtig
+IsLocked: False
+
+DockState: right
 
 StoreName: en-US
 
 StoreType: OMEX
 
-WebExtension.ID: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
+WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
+
+{{< /highlight >}}

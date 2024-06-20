@@ -1,16 +1,17 @@
 ---
-title: GridWebが一時ファイルを保存するパスを指定します
+title: GridWebが一時ファイルを保存するパスを指定する
 type: docs
 weight: 50
-url: /ja/net/gridweb-cache-files/
-keywords: cache,session,storage
+url: /ja/net/aspose-cells-gridweb/gridweb-cache-files/
+keywords: GridWeb,キャッシュ,セッション,ストレージ
+description: この記事では、GridWebのストレージについて説明します。
 ---
 ### ファイルキャッシュについて
 {{% alert color="primary" %}} 
 
-GridWeb セッション モードが ViewState の場合、一時セッション ファイルはアプリケーション ベース ディレクトリ内に保存されます。場合によっては、アプリケーション ベース ディレクトリに書き込み権限がない可能性があるため、一時セッション ファイルをそこに保存することが適切ではないことがあります。このような場合、GridWeb はそのような例外をスローします
+GridWebセッションモードがViewStateの場合、一時セッションファイルはアプリケーションベースディレクトリ内に保存されます。アプリケーションベースディレクトリには書き込み権限がない場合があり、そのような場合、GridWebはそのような例外をスローします。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  [UnauthorizedAccessException: Access to
 
@@ -18,11 +19,11 @@ the path 'D:\inetpub\wwwroot\AsposeExcelTest\gwb_tempGridWeb1' is denied.]
 
 {{< /highlight >}}
 
-上記の問題の解決策は、アプリケーション ベース ディレクトリへの書き込みアクセスを付与するか、GridWeb.SessionStorePath プロパティを使用して書き込みアクセスを持つ GridWeb 一時セッション ファイルのパスを変更することです。このパスは、アプリケーション ベース ディレクトリに対する相対パスである必要があります。
+上記の問題への解決策は、アプリケーションベースディレクトリに書き込みアクセスを与えるか、GridWeb.SessionStorePathプロパティを使用して書き込みアクセスのあるGridWeb一時セッションファイルのパスを変更することです。このパスは、アプリケーションベースディレクトリに対する相対パスである必要があります。
 
 {{% /alert %}} 
-####  **GridWebが一時セッションファイルを保存するパスを指定します**
-次のサンプル コードでは、GridWeb が一時セッション ファイルを保存するパスを指定します。
+#### **GridWebが一時セッションファイルを保存するパスを指定する**
+以下のサンプルコードは、GridWebが一時セッションファイルを保存するパスを指定しています。
 
 
 
@@ -30,33 +31,33 @@ the path 'D:\inetpub\wwwroot\AsposeExcelTest\gwb_tempGridWeb1' is denied.]
 
 ### 画像キャッシュについて
 
-ワークシートに図形/画像がある場合、GridWeb はすべての図形/画像をキャッシュ パスに保存します
+ワークシートに図形/画像がある場合、GridWebはすべての図形/画像をキャッシュパスに保存します
 
 デフォルトのキャッシュパスは***System.Web.HttpContext.Current.Server.MapPath("/acwcache")***
 
-私たちも使うことができます***GridWeb.PictureCachePath***このパスを特定のパスに設定します。
+また、***GridWeb.PictureCachePath***を使用して、このパスを特定のパスに設定することもできます。
 
-ページを開くと、GridWeb はリクエストの画像 URL を解決し、URL ID によってキャッシュから画像ストリームを取得します。
+ページを開くと、GridWebはリクエスト画像URLを解決し、URL IDによってキャッシュから画像ストリームを取得します。
 
-たとえば、ページアドレスが次の場合、*http://ip/mygridwebapp/test.aspx*  
+たとえば、ページのアドレスが*http://ip/mygridwebapp/test.aspx*の場合  
 
-GridWeb によって生成される画像リクエストの URL は *http://ip/mygridwebapp/test.aspx/acw_image/imageid* になります。
+GridWebによって生成された画像リクエストURLは*http://ip/mygridwebapp/test.aspx/acw_image/imageid*になります。
 
-#### を使用すると、図形や画像が読み込まれない場合があります。[フレンドリー URL](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms).
+#### 時には、[Friendly Url](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms)を使用すると、図形/画像が読み込まれないことがあります。
 
-画像 URL リクエストを確認する必要があります。
+画像URLのリクエストを確認する必要があります。
 
-通常の画像リクエストは次のようになります。*http://ip/mygridwebapp/test.aspx/acw_image/imageid*
+通常の画像リクエストは次のようになります:*http://ip/mygridwebapp/test.aspx/acw_image/imageid*
 
-しかし、あなたのリクエストは次のようになります:*http://ip/mygridwebapp/test/acw_image/imageid*
+ただし、リクエストが次のようになる場合:*http://ip/mygridwebapp/test/acw_image/imageid*
 
-FriendlyUrl を使用する場合は、GridWeb の画像 URL リクエストをフィルターで除外する必要があります。
+FriendlyUrlを使用する場合、GridWebの画像URLのリクエストをフィルタリングする必要があります。
 
-したがって、GridWeb コントロール サーバーはリクエストを取得して解決し、キャッシュ パスからイメージ ストリームを見つけることができます。
+したがって、GridWebコントロールサーバーはリクエストを取得し、解決し、キャッシュパスから画像ストリームを見つけることができます。
 
-たとえば、ページの URL は次のように仮定します:*http://ip/mygridwebapp/test.aspx*
+たとえば、ページのURLが次のような場合:*http://ip/mygridwebapp/test.aspx*
 
-以下のコードは、そのような問題を解決するための回避策です。
+次に、以下のコードはそのような問題を修正するための回避策です。
 ```csharp
 //write your custom url resolver:MyWebFormsFriendlyUrlResolver
 public class MyWebFormsFriendlyUrlResolver : WebFormsFriendlyUrlResolver

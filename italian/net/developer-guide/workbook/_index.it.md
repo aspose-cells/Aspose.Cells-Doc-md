@@ -1,9 +1,9 @@
 ---
-title: Gestisci cartella di lavoro
-linktitle: Cartella di lavoro
+title: Gestisci Workbook
+linktitle: Workbook
 type: docs
 weight: 60
 url: /it/net/managing-workbooks-and-worksheets/
-description: Scopri come gestire la cartella di lavoro tramite le API Aspose.Cells for .NET.
-keywords: How to Manage Workbook in C#, Manage Workbook and worksheets using C#, Operate workbook and worksheets in C#. 
+description: Scopri come gestire i workbook attraverso le Aspose.Cells for .NET API.
+keywords: Come gestire i workbook in C#, Gestire i workbook e i fogli di lavoro usando C#, Operare i workbook e i fogli di lavoro in C#. 
 ---

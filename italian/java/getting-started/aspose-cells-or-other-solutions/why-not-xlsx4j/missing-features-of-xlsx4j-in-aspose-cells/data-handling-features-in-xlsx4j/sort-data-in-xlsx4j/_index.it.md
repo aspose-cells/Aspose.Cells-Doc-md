@@ -1,16 +1,17 @@
-﻿---
+---
 title: Ordina i dati in xlsx4j
 type: docs
 weight: 60
 url: /it/java/sort-data-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Ordina dati**
-Per ordinare i dati nel foglio di calcolo utilizzando Aspose.Cells, è sufficiente richiamare il metodo DataSorter.sorter() dopo aver impostato alcune proprietà facili da impostare dell'area della cella.
-Java si riporta di seguito:
+Per ordinare i dati nel foglio di calcolo utilizzando Aspose.Cells, basta invocare il metodo DataSorter.sorter() dopo aver impostato alcune proprietà facili da impostare dell'area della cella.
+Il codice Java è menzionato di seguito:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -74,12 +75,12 @@ workbook.save(dataDir + "AsposeSortedData_Out.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/sortdata/AsposeDataSort.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/sortdata/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Ordina dati](/java/sort-data) o[Ordinamento dei dati](/cells/it/java/data-sorting).
+Per ulteriori dettagli, visita [Ordinamento dati](/java/sort-data) o [Ordinamento dati](/cells/it/java/data-sorting).
 
 {{% /alert %}}

@@ -1,20 +1,21 @@
-﻿---
-title: Come applicare/impostare l'allineamento del testo alla casella di testo
-linktitle: Applica/Imposta l'allineamento del testo alla casella di testo
+---
+title: Come applicare/impostare l allineamento del testo alla casella di testo
+linktitle: Applicare/impostare l allineamento del testo alla casella di testo
 type: docs
 weight: 20
 url: /it/java/applying-text-alignment-to-partial-text-inside-the-textbox/
-description: Come applicare/impostare l'allineamento del testo alla casella di testo in Aspose.cells.
-keywords: apply/set alignment TextBox Worksheet Excel Aspose
+description: Come applicare/impostare l allineamento del testo alla casella di testo in Aspose.Cells.
+keywords: applicare/impostare allineamento casella di testo foglio di lavoro Excel Aspose
 ---
- TextBox possono migliorare l'espressività dei nostri documenti e diagrammi e l'applicazione di allineamenti diversi a parti diverse di un TextBox può aiutare a evidenziare i punti di interesse per i lettori. Ma l'allineamento predefinito di TextBox non soddisfa tutte le nostre esigenze. Per questo, potrebbe essere necessario regolare ogni TextBox per soddisfare i requisiti di destinazione. Se non hai molti oggetti TextBox da modificare, sei fortunato. Se ci sono così tanti TextBox da regolare, penso che sarai nei guai. Non preoccuparti ora,[Aspose.Cells](https://products.aspose.com/cells/) fornisce un'interfaccia API per aiutarti a fare proprio questo.
 
-Il codice di esempio seguente applica l'allineamento del testo a un controllo TextBox.
+Le caselle di testo possono migliorare l'espressività dei nostri documenti e diagrammi, e l'applicazione di diversi allineamenti a diverse parti di una casella di testo può aiutare a evidenziare punti di interesse per i lettori. Tuttavia, l'allineamento predefinito della casella di testo non soddisfa tutte le nostre esigenze. Per questo, potrebbe essere necessario regolare ogni casella di testo per soddisfare i requisiti desiderati. Se non si dispone di molte caselle di testo da regolare, si è fortunati. Se ci sono così tante caselle di testo da regolare, penso che avrete problemi. Non preoccupatevi, ora [Aspose.Cells](https://products.aspose.com/cells/) fornisce un'interfaccia API per aiutarvi a fare proprio questo.
+
+Il seguente codice di esempio applica l'allineamento del testo a una casella di testo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ApplyAlignmentToTextBox.java" >}}
 
-È inoltre possibile modificare l'allineamento del testo di un testo all'interno di una forma TextBox con il testo HTML appropriato. Il codice di esempio seguente applica l'allineamento del testo al testo parziale all'interno di TextBox.
+È anche possibile cambiare l'allineamento del testo di alcuni testi all'interno di una forma casella di testo con l'appropriato testo HTML.Il seguente codice di esempio applica l'allineamento del testo a parte del testo all'interno della casella di testo.
 
-[file sorgente](SampleTextboxExcel2016.xlsx)
+[file origine](SampleTextboxExcel2016.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ApplyPartialTextAlignmentToTextBox.java" >}}

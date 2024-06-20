@@ -1,5 +1,5 @@
 ---
-title: 重新采样添加的图像-将Excel转换为PDF
+title: 重新采样添加的图像 将Excel转换为PDF
 type: docs
 weight: 150
 url: /zh/net/resampling-added-images-excel-to-pdf-conversion/

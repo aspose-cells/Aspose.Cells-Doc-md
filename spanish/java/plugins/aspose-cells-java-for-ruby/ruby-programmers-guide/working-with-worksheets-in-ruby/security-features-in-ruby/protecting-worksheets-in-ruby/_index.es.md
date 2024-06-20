@@ -1,15 +1,16 @@
-﻿---
-title: Proteger hojas de trabajo en Ruby
+---
+title: Protección de Hojas de Cálculo en Ruby
 type: docs
 weight: 10
 url: /es/java/protecting-worksheets-in-ruby/
 ---
-## **Aspose.Cells - Hojas de trabajo de protección**
- Para proteger la hoja de trabajo usando**Aspose.Cells Java para rubí** , llamada**proteger_hoja de trabajo** método de**proteccion** módulo.
 
-**código rubí**
+## **Aspose.Cells - Protección de hojas de cálculo**
+Para proteger una hoja de cálculo usando **Aspose.Cells Java for Ruby**, llama al método **protect_worksheet** del módulo **protection**.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def protect_worksheet()
 
@@ -54,7 +55,7 @@ url: /es/java/protecting-worksheets-in-ruby/
 end   
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Hojas de trabajo de protección (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Protección de hojas de cálculo (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

@@ -1,28 +1,29 @@
-﻿---
-title: Объединение нескольких рабочих книг в одну рабочую книгу
+---
+title: Объединить несколько книг в одну книгу
 linktitle: Слияние книг
 type: docs
 weight: 66
 url: /ru/net/combine-multiple-workbooks-into-a-single-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Иногда вам нужно объединить рабочие книги с различным содержимым, таким как изображения, диаграммы и данные, в одну рабочую книгу. Aspose.Cells поддерживает эту функцию. В этой статье показано, как создать консольное приложение в Visual Studio и объединить книги с помощью нескольких простых строк кода, используя Aspose.Cells.
+Иногда вам нужно объединить книги с различным содержанием, таким как изображения, диаграммы и данные, в одну книгу. Aspose.Cells поддерживает эту функцию. В этой статье показано, как создать консольное приложение в Visual Studio и объединить книги с помощью Aspose.Cells с помощью нескольких простых строк кода.
 
 {{% /alert %}}
 
 ## **Объединение книг с изображениями и диаграммами**
 
-Пример кода объединяет две книги в одну книгу с помощью Aspose.Cells. Код загружает исходные книги, использует[**Рабочая книга.объединить()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine)метод, чтобы объединить их и сохранить выходную книгу.
+Приведенный пример кода объединяет две книги в одну книгу с помощью Aspose.Cells. Код загружает исходные книги, использует метод [**Workbook.combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) для их объединения и сохраняет выходную книгу.
 
 ### **Исходные книги**
 
-- [диаграммы.xlsx](5473097.xlsx)
-- [картинка.xlsx](5473096.xlsx)
+- [charts.xlsx](5473097.xlsx)
+- [picture.xlsx](5473096.xlsx)
 
 ### **Выходные книги**
 
-- [комбинированный .xlsx](5473095.xlsx)
+- [combined.xlsx](5473095.xlsx)
 
 ### **Скриншоты**
 
@@ -30,28 +31,28 @@ url: /ru/net/combine-multiple-workbooks-into-a-single-workbook/
 
 {{% alert color="primary" %}}
 
-Вы можете использовать любые исходные книги. Эти изображения предназначены только для иллюстрации.
+Вы можете использовать любые исходные книги. Эти изображения приведены только в целях иллюстрации.
 
 {{% /alert %}}
 
-**Первый рабочий лист рабочей книги диаграмм - стопка** 
+**Первый лист книги с диаграммами - столбцы** 
 
-![дело:изображение_альтернативный_текст](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
 
-**Второй рабочий лист рабочей книги диаграмм - строка** 
+**Второй лист книги с диаграммами - линейный** 
 
-![дело:изображение_альтернативный_текст](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
 
-**Первый рабочий лист рабочей тетради с картинками - картинка** 
+**Первый лист книги с картинками - изображение** 
 
-![дело:изображение_альтернативный_текст](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
 
-**Все три рабочих листа в объединенной рабочей книге - стопка, строка, картинка** 
+**Все три листа в объединенной книге - столбцы, линейный, изображение** 
 
-![дело:изображение_альтернативный_текст](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CombineMultipleWorkbooksSingleWorkbook-1.cs" >}}
 
-## **Предварительные темы**
-- [Объединение нескольких рабочих листов в один рабочий лист](/cells/ru/net/combine-multiple-worksheets-into-a-single-worksheet/)
-- [Объединить файлы](/cells/ru/net/merge-files/)
+## **Продвинутые темы**
+- [Объединение нескольких листов в один](/cells/ru/net/combine-multiple-worksheets-into-a-single-worksheet/)
+- [Объединение файлов](/cells/ru/net/merge-files/)

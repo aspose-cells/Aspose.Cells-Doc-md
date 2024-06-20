@@ -1,16 +1,19 @@
-﻿---
-title: GridWebのページ変更時にクライアントサイド関数を実行する
+---
+title: GridWebページの変更時にクライアントサイド関数を実行する
 type: docs
 weight: 140
-url: /ja/net/execute-client-side-function-on-gridweb-page-change/
+url: /ja/net/aspose-cells-gridweb/execute-client-side-function-on-gridweb-page-change/
+keywords: GridWeb,client,js,javascript,function
+description: この記事では、GridWebでクライアントjs関数を使用する方法について紹介します。
 ---
-## **考えられる使用シナリオ**
-GridWeb ページが変更されたときに、クライアント側の関数を実行する必要がある場合があります。 Aspose.Cells.GridWeb は、この目的のために OnPageChangeClientFunction プロパティを提供します。実行したいクライアント側関数でこのプロパティを設定してください。
-## **GridWebのページ変更時にクライアントサイド関数を実行する**
-次の aspx マークアップは、OnPageChangeClientFunction プロパティを使用する方法を説明しています。 MyOnPageChange という名前のクライアント側関数でプロパティを設定します。このプロパティは、ページングを有効にしている場合、つまり EnablePaging="true" の場合にのみ有効です。これで、GridWeb ページを変更するたびに、クライアント側関数 MyOnPageChange が呼び出され、**現在のページ インデックス**上で**コンソール**このスクリーンショットに示すように。
 
-![todo:画像_代替_文章](execute-client-side-function-on-gridweb-page-change_1.png)
+## **可能な使用シナリオ**
+時々、GridWebページが変更されたときにクライアントサイド関数を実行する必要があります。 Aspose.Cells.GridWebはこの目的のためにOnPageChangeClientFunctionプロパティを提供しています。 このプロパティに、実行したいクライアントサイド関数を設定してください。
+## **GridWebページの変更時にクライアントサイド関数を実行**
+次のaspxマークアップは、OnPageChangeClientFunctionプロパティの使用方法を説明しています。 このプロパティは、有効にしている場合のみ有効です。 つまり、EnablePaging="true"が設定されている場合です。 これで、GridWebページを変更するたびに、コンソールに**現在のページインデックス**を表示するクライアントサイド関数MyOnPageChangeが呼び出されます。
+
+![todo:image_alt_text](execute-client-side-function-on-gridweb-page-change_1.png)
 ## **サンプルコード**
-GridWebでOnPageChangeClientFunction="MyOnPageChange"プロパティを設定したことにより実行されるクライアント側関数MyOnPageChangeのコードです。これは完全な aspx ページ マークアップです。
+これは、GridWebでOnPageChangeClientFunction ="MyOnPageChange"プロパティを設定したために実行されるクライアントサイド関数MyOnPageChangeのコードです。 これは完全なaspxページマークアップです。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples.GridWeb-CSharp-GridWebBasics-CallClientsideScriptforGridWeb.aspx-CallClientsideScriptforGridWeb.cs" >}}

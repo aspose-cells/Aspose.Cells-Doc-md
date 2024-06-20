@@ -1,19 +1,20 @@
-﻿---
-title: Problema con la tabella pivot
+---
+title: Problema Tabella Pivot
 type: docs
 weight: 50
 url: /it/net/pivot-table-issue/
 ---
+
 ## **Sintomo**
-"Ho provato ad aprire il file excel generato dal pulsante "Apri" di IE. L'excel è stato generato leggendo un modello excel. Mentre clicco sul pulsante Apri si sta aprendo e allo stesso tempo sta spuntando un messaggio di errore che dice "Impossibile aprire il file di origine della tabella pivot .....".
+"Ho provato ad aprire il file Excel generato dal pulsante "Apri" di IE. L'Excel è stato generato leggendo un modello di Excel. Mentre faccio clic sul pulsante Apri si apre e contemporaneamente appare un messaggio di errore che dice "Impossibile aprire il file di origine della tabella pivot.....".
 
-Ma quando salvo il file excel generato utilizzando il pulsante "Salva" e lo apro dal file dal percorso salvato, si apre correttamente senza alcun errore. "
+Ma quando salvo il file Excel generato utilizzando il pulsante "Salva" e lo apro dal file dalla directory salvata si apre correttamente senza errori.
 ### **Soluzione**
-Aspose.Cells imposta il formato dei dati pivot e impone a MS Excel di creare report tabella pivot e altre attività di calcolo basate sull'origine dati quando la cartella di lavoro si apre in MS Excel. Quindi si dovrebbe usare**SaveType.OpenInBrowser** piuttosto che usare**SaveType.OpenInExcel**Uno dei tanti motivi è che quando si utilizza l'opzione OpenInExcel durante il salvataggio del file generato in output in MS Excel in fase di esecuzione utilizzando il pulsante "Apri" della finestra di dialogo di download, MS Excel non è in grado di analizzare i dati della cartella di lavoro per generare il rapporto della tabella pivot. Ciò è causato dal problema del nome file, è la routine di IE in quanto aggiunge qualcosa come "[1]" per renderlo come "fileName" + "[1]" + ".xls" al nome originale e quindi niente da fare con Aspose.Cells. (cioè... aggiunge sempre "[1]" per fare "fileName"+ "[1]"+ ".xls" e non come fileName.xls). In breve, se un file contiene una tabella pivot, non può essere aperto utilizzando l'opzione OpenInExcel SaveType e ciò si applicherà a entrambi, ad esempio se si crea il file da zero o si utilizza un file modello per i dati di origine per creare un report della tabella pivot. Pertanto, è necessario utilizzare l'opzione OpenInBrowser SaveType se il file contiene dati della tabella pivot per creare un report della tabella pivot.
+Aspose.Cells imposta il formato dati di un'area pivot e obbliga MS Excel a creare un rapporto di tabella pivot e altre attività di calcolo in base alla fonte dati quando il foglio di lavoro viene aperto in MS Excel. Pertanto, si dovrebbe utilizzare **SaveType.OpenInBrowser** anziché utilizzare **SaveType.OpenInExcel**. Uno dei tanti motivi è quando si utilizza l'opzione OpenInExcel durante il salvataggio del file generato in uscita in MS Excel a tempo di esecuzione utilizzando il pulsante "Apri" della finestra di dialogo di download, MS Excel potrebbe non analizzare i dati del foglio di lavoro per generare un rapporto di tabella pivot. Ciò è causato dal problema del nome file, è la consuetudine di IE poiché aggiunge qualcosa come "[1]" per renderlo come "nomefile"+ "[1]"+ ".xls" al nome originale e quindi nulla a che fare con Aspose.Cells.  (ovvero... aggiunge sempre "[1]" per fare "nomefile"+ "[1]"+ ".xls" e non come nomefile.xls). In breve, se un file contiene una tabella pivot, non può essere aperto utilizzando l'opzione SaveType OpenInExcel e questo si applicherà sia se si crea il file da zero o si utilizza un file modello per i dati di origine per creare il rapporto di tabella pivot. Quindi, si dovrebbe utilizzare l'opzione SaveType OpenInBrowser se il file contiene dati della tabella pivot per creare un rapporto di tabella pivot.
 
-È necessario modificare il codice e aggiornare a SaveType.OpenInBrowser se si utilizza il metodo Workbook.Save()
+Dovresti modificare il tuo codice e aggiornare a SaveType.OpenInBrowser se stai utilizzando il metodo Workbook.Save()
 
-Oppure modifica il tuo codice per utilizzare "inline" se stai utilizzando l'opzione "attachment" nel tuo codice. cioè
+O modifica il tuo codice per utilizzare "inline" se stai utilizzando l'opzione "attachment" nel tuo codice. cioè,
 
 
 

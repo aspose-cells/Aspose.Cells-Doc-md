@@ -1,34 +1,36 @@
-﻿---
-title: GridDesktop でワークブックを読み込み中にオブジェクトをフィルタリングする
+---
+title: GridDesktopでワークブックをローディングする際のフィルターオブジェクト
 type: docs
 weight: 1060
 url: /ja/net/aspose-cells-griddesktop/loading-filter
-description: この記事では、Aspose.Cells.GridDesktop ライブラリの読み込みフィルターの使用方法について説明します。
+description: この記事では、GridDesktopでのローディングフィルタの使用方法について説明します。
+keywords: GridDesktop,loading,loading filter,filter
 ---
-## **考えられる使用シナリオ**
-使ってください[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)ワークブックからデータをフィルタリングする際のプロパティ。
 
-の[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)列挙には次の値があります。
+## **可能な使用シナリオ**
+[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)プロパティを使用してワークブックからデータをフィルタリングしてください。
+
+[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)列挙型には、以下の値があります。
 - 全て
 - ブック設定
-- セルブランク
-- セルブール
-- セルデータ
-- セルエラー
-- セル数値
-- CellString
-- セル値
-- チャート
+- 空白セル
+- ブールセル
+- データセル
+- エラーセル
+- 数値セル
+- 文字列セル
+- 値セル
+- Chart
 - 条件付き書式
-- データ検証
-- 定義済みの名前
-- ドキュメント プロパティ
-- 方式
+- データの検証
+- 定義された名前
+- ドキュメントのプロパティ
+- 数式
 - ハイパーリンク
-- 合併面積
+- 結合エリア
 - ピボットテーブル
 - 設定
-- 形
+- 図形
 - シートデータ
 - シート設定
 - 構造
@@ -36,9 +38,9 @@ description: この記事では、Aspose.Cells.GridDesktop ライブラリの読
 - テーブル
 - VBA
 - XmlMap
-## **ワークブックの読み込み中にデータをフィルタリングする**
-次のサンプル コードは、ワークブックからの描画をフィルター処理する方法を示しています。を確認してください[サンプルエクセルファイル](5472489.xlsx).ご覧のとおり、すべてのグラフ/図形/画像がワークブックから除外されています。
-![画像のないワークブック](nodrawing.png)
+## **ワークブックのデータの読み込み中にデータをフィルタリングする**
+次のサンプルコードは、ワークブックから図をフィルタリングする方法を示しています。[サンプルのExcelファイル](5472489.xlsx)を参照してください。すべてのチャート/図形/画像がワークブックからフィルタリングされていることがわかります。
+![画像なしのワークブック](nodrawing.png)
 ### **サンプルコード**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "LoadingFilter.cs" >}}
- 
+

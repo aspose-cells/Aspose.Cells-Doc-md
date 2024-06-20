@@ -1,47 +1,50 @@
-﻿---
-title: Öppna en Excel-fil
+---
+title: Öppnar en Excel fil
 type: docs
 weight: 10
-url: /sv/net/opening-an-excel-file/
+url: /sv/net/aspose-cells-griddesktop/openg-an-excel-file/
+keywords: GridDesktop,öppna,filer
+description: Den här artikeln introducerar hur man öppnar fil i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-En unik egenskap hos Aspose.Cells Grid Suite är dess kompatibilitet med Excel-filer. I det här ämnet kommer vi att visa hur användare kan öppna Excel-filer i sina Windows-program med hjälp av Aspose.Cells.GridDesktop-kontroll.
+En unik funktion med Aspose.Cells Grid Suite är dess kompatibilitet med Excel-filer. I det här ämnet kommer vi att visa hur användare kan öppna Excel-filer i sina Windows-applikationer med hjälp av Aspose.Cells.GridDesktop-kontrollen.
 
 {{% /alert %}} 
 ## **Introduktion**
- För att öppna en Excel-fil med Aspose.Cells.GridDesktop måste du skapa ett skrivbordsprogram med GridDesktop Control i det. Om du inte vet hur du lägger till Aspose.Cells.GridDesktop-kontroll i ditt Windows-formulär bör du referera till[Hur man använder Aspose.Cells.GridDesktop](/cells/sv/net/how-to-use-aspose-cells-griddesktop/)
+För att öppna en Excel-fil med Aspose.Cells.GridDesktop måste du skapa en skrivbordsapplikation med GridDesktop-kontroll i den. Om du inte vet hur du lägger till Aspose.Cells.GridDesktop-kontroll i din windows-formulär bör du hänvisa till [Hur man använder Aspose.Cells.GridDesktop](/cells/sv/net/how-to-use-aspose-cells-griddesktop/)
 
-Aspose.Cells.GridDesktop tillhandahåller tre följande olika sätt att öppna en Excel-fil.
+Aspose.Cells.GridDesktop tillhandahåller tre olika sätt att öppna en Excel-fil.
 
-1. **Öppna från en fil**
+1. **Öppna från fil**
 1. **Öppna en CSV-fil**
 1. **Öppna från en ström**
-## **Öppnar Excel-fil**
-det här exemplet skapar du ett skrivbordsprogram och gör följande.
+## **Öppna Excel-fil**
+I det här exemplet skapar du en skrivbordsapplikation och gör följande.
 
-- Lägg till en GridControl-kontroll i formuläret.
+- Lägg till en GridControl-kontroll på formuläret.
 - Lägg till tre knappar med deras textegenskaper inställda enligt följande:
   - **Öppna Excel-fil**
-  - **Öppna CSV Fil**
-  - **Öppna från Stream**
-### **Öppna från en fil**
- För att ladda innehållet från en Excel-fil till Aspose.Cells.GridDesktop-kontroll, måste du anropa en metod för kontrollen för att ange sökvägen till Excel-filen. Efter det kommer Aspose.Cells.GridDesktop control automatiskt att hitta filen från den angivna sökvägen och visa dess innehåll. Kodavsnittet för att ladda innehållet i en Excel-fil finns i exemplet nedan. Skapa Click-händelsen för**Öppna Excel-fil** knappen och klistra in följande kod i den.
+  - **Öppna CSV-fil**
+  - **Öppna från ström**
+### **Öppna från fil**
+För att ladda innehållet från en Excel-fil till Aspose.Cells.GridDesktop-kontrollen måste du anropa en metod för att ange sökvägen till Excel-filen. Därefter kommer Aspose.Cells.GridDesktop-kontrollen automatiskt att hitta filen från den angivna sökvägen och visa dess innehåll. Kodsnyttet för att ladda innehållet i en Excel-fil är angivet i det följande exemplet. Skapa klickhändelsen för knappen **Öppna Excel-fil** och klistra in följande kod i den.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningExcelFile.cs" >}}
 
 
-Ovanstående kodavsnitt kan användas av utvecklare på vilket sätt de vill. Till exempel, om du vill ladda en Excel-fil automatiskt när ett Windows-formulär laddas kan du lägga till den här koden under Load-händelsen i ditt formulär.
+Ovanstående kodsnytt kan användas av utvecklare på vilket sätt de vill. Till exempel, om du vill ladda in en Excel-fil automatiskt när ett windows-formulär laddas kan du lägga till denna kod under Händelsen för laddning av ditt formulär.
 ### **Öppna en CSV-fil**
-Aspose.Cells.GridDesktop-kontroll stöder också inläsning av CSV-fil. Skapa Click-händelsen för**Öppna CSV Fil** knappen och klistra in följande kod i den.
+Aspose.Cells.GridDesktop-kontrollen stöder även inläsning av CSV-filer. Skapa klickhändelsen för knappen **Öppna CSV-fil** och klistra in följande kod i den.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithGrid-OpeningExcelFile-OpeningCSVFile.cs" >}}
 ### **Öppna från en ström**
- I vår diskussion ovan har vi diskuterat hur man laddar en Excel-fil genom att använda dess sökväg, men Aspose.Cells.GridDesktop-kontroll stöder också att ladda Excel-fil från en ström. Skapa Click-händelsen för**Öppna från Stream** knappen och klistra in följande kod i den.
+I vår ovanstående diskussion har vi diskuterat inläsning av en Excel-fil med hjälp av dess filväg, men Aspose.Cells.GridDesktop-kontrollen stöder även inläsning av Excel-fil från en ström. Skapa klickhändelsen för knappen **Öppna från ström** och klistra in följande kod i den.
 
 
 
@@ -49,10 +52,10 @@ Aspose.Cells.GridDesktop-kontroll stöder också inläsning av CSV-fil. Skapa Cl
 
 
 
-Att använda fil som en ström är ett bättre tillvägagångssätt för att förbjuda alla typer av filåtkomst eller delningsproblem eftersom detta tillvägagångssätt säkerställer att alla anslutningar till filerna stängs genom att stänga strömmen.
+Att använda fil som en ström är ett bättre tillvägagångssätt för att förhindra någon form av filåtkomst eller delningsproblem eftersom detta tillvägagångssätt säkerställer stängning av alla anslutningar till filerna genom att stänga strömmen.
 
 {{% alert color="primary" %}} 
 
-VIKTIGT: En viktig punkt att diskutera är att Aspose.Cells.GridDesktop-kontrollen också innehåller en metod som heter LoadFromExcel, som också används för att ladda innehållet i en Excel-fil till Grid. Men denna metod är nu föråldrad. Så det rekommenderas för alla utvecklare att använda ImportExcelFile-metoden som är mer robust och effektiv än den föråldrade.
+VIKTIGT: En viktig punkt att diskutera är att Aspose.Cells.GridDesktop-kontrollen också innehåller en metod med namnet LoadFromExcel, vilken också används för att ladda innehållet i en Excel-fil till griden. Men, denna metod är nu föråldrad. Så, det rekommenderas att alla utvecklare använder metoden ImportExcelFile som är mer robust och effektiv än den föråldrade.
 
 {{% /alert %}}

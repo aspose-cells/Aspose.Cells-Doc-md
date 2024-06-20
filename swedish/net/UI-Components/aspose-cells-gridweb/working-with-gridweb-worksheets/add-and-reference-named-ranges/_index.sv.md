@@ -1,16 +1,19 @@
-﻿---
-title: Lägg till och referera till namngivna intervall
+---
+title: Lägga till och referera namngivna områden
 type: docs
 weight: 120
-url: /sv/net/add-and-reference-named-ranges/
+url: /sv/net/aspose-cells-gridweb/add-and-reference-named-ranges/
+keywords: GridWeb,GridName,Names
+description: Den här artikeln introducerar hur du arbetar med namngivna områden i GridWeb. 
 ---
+
 {{% alert color="primary" %}} 
 
- Normalt används kolumn- och radetiketter för att unikt referera till celler. Men du kan skapa beskrivande namn för att representera celler, cellintervall, formler eller konstanta värden. Ordet**namn**kan hänvisa till en teckensträng som representerar en cell, cellintervall, formel eller konstant värde. Använd till exempel lättförståeliga namn, som Produkter, för att referera till svårförståeliga intervall, som Sales!C20:C30. Etiketter kan användas i formler som refererar till data på samma kalkylblad; om du vill representera ett intervall på ett annat kalkylblad kan du använda ett namn.**Namngivna intervall** är en av de mest kraftfulla funktionerna i Microsoft Excel. Användare kan tilldela ett namn till ett intervall och använda det namnet i formler. Aspose.Cells.GridWeb stöder den här funktionen.
+Vanligtvis används kolumn- och radetiketter för att unikt hänvisa till celler. Men du kan skapa beskrivande namn för att representera celler, cellintervall, formler eller konstanta värden. Ordet **Namn** kan till exempel hänvisa till en sträng av tecken som representerar en cell, ett cellintervall, en formel eller ett konstant värde. Använd enkelt förståeliga namn, som Produkter, för att hänvisa till svårförståeliga intervall, som Försäljning!C20:C30. Etiketter kan användas i formler som hänvisar till data på samma arbetsblad. Om du vill representera ett intervall på ett annat arbetsblad kan du använda ett namn. **Namngivna områden** är en av de mest kraftfulla funktionerna i Microsoft Excel. Användare kan tilldela ett namn till ett område och använda det namnet i formler. Aspose.Cells.GridWeb stöder denna funktion.
 
 {{% /alert %}} 
-## **Lägga till/refera till namngivna intervall i formler**
-GridWeb-kontrollen tillhandahåller två klasser (GridName och GridNameCollection) för att arbeta med namngivna intervall. Följande kodavsnitt hjälper dig att förstå hur du skapar det namngivna intervallet och kommer åt det i formlerna.
+## **Lägga till/hänvisa namngivna områden i formler**
+GridWeb-kontrollen tillhandahåller två klasser (GridName och GridNameCollection) för att arbeta med namngivna områden. Följande kodsnutt hjälper dig att förstå hur du skapar det namngivna området och får åtkomst till det i formler.
 
 
 

@@ -1,14 +1,15 @@
-﻿---
+---
 title: Konvertera JSON till CSV
 type: docs
 weight: 210
 url: /sv/net/convert-json-to-csv/
 ---
+
 ## **Konvertera JSON till CSV**
 
-Aspose.Cells stöder konvertering av såväl enkla som kapslade JSON till CSV. För detta tillhandahåller API**[JsonLayoutOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)** och**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)** klasser. De**[JsonLayoutOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)**klass ger alternativen för JSON layout som**[IgnoreArrayTitle](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle)**(ignorerar titeln om arrayen är en egenskap hos ett objekt) eller**[ArrayAsTable](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable)**(behandlar arrayen som en tabell). De**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**klass bearbetar JSON med hjälp av layoutalternativen som ställts in med**[JsonLayoutOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)**klass.
+Aspose.Cells stödjer konvertering av enkel såväl som inbäddad JSON till CSV. För detta tillhandahåller API:et [**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) och [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)-klasserna. [**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)-klassen ger alternativ för JSON-layout som [**IgnoreArrayTitle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle)(ignorerar titeln om arrayen är en egenskap till ett objekt) eller [**ArrayAsTable**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable)(behandlar arrayen som en tabell). [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)-klassen bearbetar JSON med de layoutalternativ som är inställda med [**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)-klassen.
 
-Följande kodexempel visar användningen av**[JsonLayoutOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)**och**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)** klasser för att ladda[källfil JSON](104398869.json) och genererar[utgång CSV fil](104398870.csv).
+Följande kodexempel demonstrerar användningen av [**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) och [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) klasser för att läsa in den [ursprungliga JSON-filen](104398869.json) och generera [utdata-CSV-filen](104398870.csv).
 
 ### **Exempelkod**
 

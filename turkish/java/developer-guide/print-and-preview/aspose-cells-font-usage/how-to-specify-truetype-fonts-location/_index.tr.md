@@ -1,63 +1,64 @@
-﻿---
-title: TrueType Yazı Tiplerinin Konumu Nasıl Belirlenir?
+---
+title: TrueType Yazı Tiplerinin Konumunu Belirtme
 type: docs
 weight: 30
 url: /tr/java/how-to-specify-truetype-fonts-location/
 ---
+
 {{% alert color="primary" %}}
 
-Bu makale şunları açıklamaktadır:
+Bu makalede şunlar açıklanmaktadır:
 
-1. [Aspose.Cells API, TrueType yazı tiplerini nerede arar?](/cells/tr/java/how-to-specify-truetype-fonts-location/#where-asposecells-looks-for-truetype-fonts-on-windows).
-1. [Aspose.Cells API için TrueType yazı tipi klasörlerini açıkça belirtme](/cells/tr/java/how-to-specify-truetype-fonts-location/#how-to-explicitly-specify-a-font-folder).
-1. [Aspose.Cells API'i yalnızca bir TrueType yazı tipi konumu kullanacak şekilde kısıtlama](/cells/tr/java/how-to-specify-truetype-fonts-location/#how-to-restrict-the-asposecells-to-use-only-one-font-folder).
+1. [Aspose.Cells API'nın TrueType yazı tiplerini nerede aradığı](/cells/tr/java/how-to-specify-truetype-fonts-location/#where-asposecells-looks-for-truetype-fonts-on-windows)
+1. [Aspose.Cells API için açıkça bir TrueType yazı tipi klasörü belirtme](/cells/tr/java/how-to-specify-truetype-fonts-location/#how-to-explicitly-specify-a-font-folder)
+1. [Aspose.Cells API'nın yalnızca bir TrueType yazı tipi konumu kullanmasını nasıl kısıtlayacağınız](/cells/tr/java/how-to-specify-truetype-fonts-location/#how-to-restrict-the-asposecells-to-use-only-one-font-folder)
 
 {{% /alert %}}
 
-## **Yazı Tipleriyle Çalışmak**
+## **Yazı Tipleriyle Çalışma**
 
-### **Aspose.Cells, Windows'de TrueType Yazı Tiplerini Aradığı Yer**
+### **Aspose.Cells'ın Windows'ta TrueType Yazı Tiplerini Nerede Aradığı**
 
- Aspose.Cells, içinde yazı tiplerini arar.**Windows\Yazı Tipleri** Klasör. Bu varsayılan ayar çoğu zaman çalışır, bu nedenle yalnızca gerçekten ihtiyacınız varsa kendi yazı tipi klasörlerinizi belirtin.
+Aspose.Cells, varsayılan olarak yazı tiplerini **Windows\Fonts** klasöründe arar. Bu varsayılan ayar çoğu zaman işe yarar, bu yüzden kendi yazı tiplerinizin klasörlerini yalnızca gerçekten ihtiyacınız olduğunda belirtin.
 
-### **Aspose.Cells, Linux'ta TrueType Yazı Tiplerini Nerede Arar?**
+### **Aspose.Cells'te TrueType Yazı Tipleri Nerede Arar**
 
-Varsayılan olarak, Aspose.Cells API, farklı Linux dağıtımları yazı tiplerini farklı klasörlerde saklasa da, aşağıdaki konumların tümünde yazı tiplerini arar.
+Varsayılan olarak, Aspose.Cells API, aşağıdaki tüm konumlarda yazı tiplerini arar, ancak farklı Linux dağıtımları yazı tiplerini farklı klasörlerde saklar.
 
-1. /usr/paylaş/yazı tipleri
-1. /usr/yerel/paylaş/yazı tipleri
+1. /usr/share/fonts
+1. /usr/local/share/fonts
 
 {{% alert color="primary" %}}
 
- Bu varsayılan davranış, çoğu Linux dağıtımı için çalışacaktır, ancak her zaman çalışacağı garanti edilmez. TrueType yazı tiplerinin konumunu açıkça belirtmeniz gerekebilir.
+Bu varsayılan davranış çoğu Linux dağıtımı için çalışacaktır, ancak her zaman çalışacağı garanti edilmez. TrueType yazı tiplerinin konumunu açıkça belirtmeniz gerekebilir. 
 
 {{% /alert %}}
 
-### **Yazı Tipi Klasörünü Açıkça Belirtme**
+### **Bir Yazı Tipi Klasörünü Açıkça Belirtme**
 
-Aspose.Cells API'ler, FontConfigs sınıfının aşağıda açıklandığı gibi yazı tiplerini veya yazı tipi klasörlerini belirtmesi için birçok fabrika yöntemini kullanıma sunmuştur.
+Aspose.Cells API'leri, aşağıda açıklandığı gibi yazı tiplerini veya yazı tipi klasörlerini belirtmek için FontConfigs sınıfı için birçok fabrika yöntemi sunmuştur.
 
-1. setFontFolder yöntemi, String türündeki ilk parametreyi yazı tipi dizinine konumu ile kabul ederken, Boolean türündeki ikinci parametre, Aspose.Cells APis'i yazı tipi dosyaları için tekrar tekrar klasörleri aramaya yönlendirir.
-1. setFontFolders yöntemi, String türünde bir dizi kabul eder, böylece bu yaklaşımı kullanarak birçok yazı tipi dizini belirtebilirsiniz. Aspose.Cells APis'i, ikinci parametre olarak true'yu belirterek tekrar tekrar klasörleri aramaya yönlendirebilirsiniz.
-1. setFontSources yöntemi, tek tek yazı tiplerinin konumlarının bir listesini belirtmeniz için FontSourceBase türünde bir dizi kabul eder.
+1. setFontFolder yöntemi, yazı tiplerinin bulunduğu klasörün konumunu içeren birinci parametrele String türünü ve ikinci parametrele Boolean türünü kabul eder ve Aspose.Cells API'lerinin klasörleri yazı tipi dosyaları için rekürsif olarak aramasını yönlendirir.
+1. setFontFolders yöntemi, bu yaklaşımı kullanarak bir dizi String türünde alır, böylece birçok yazı tipi dizinini belirtebilirsiniz. Ayrıca, ikinci parametre olarak true belirterek Aspose.Cells API'lerini klasörleri rekürsif olarak aramasını da sağlayabilirsiniz.
+1. setFontSources yöntemi, size bireysel yazı tiplerinin konumunu belirtmek için FontSourceBase türünde bir dizi kabul eder.
 
 {{% alert color="primary" %}}
 
-Yukarıda belirtilen yöntemlerden herhangi birini kullanarak yazı tipi klasörünü belirtirken, yazı tipi konumunu uygulamanın başında ayarlamanızı öneririz, aksi takdirde kötü biçimlendirilmiş sonuçlar alabilirsiniz.
+Yukarıda bahsedilen herhangi bir yöntemle yazı tipleri klasörünü belirtirken, yazı tipi konumunu uygulamanın başlangıcında ayarlamanızı öneririz; aksi takdirde kötü biçimlendirilmiş sonuçlar alabilirsiniz.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-Yazı tipleri klasörünün yukarıdaki yöntemlerden herhangi biri kullanılarak ayarlanması, Aspose.Cells API'in yazı tiplerini sistemin yazı tipi klasörü gibi varsayılan konumlarda aramayacağını garanti etmez.
+Yukarıdaki yöntemlerden herhangi birini kullanarak yazı tipleri klasörünü belirtmek, Aspose.Cells API'nin sistem font klasörü gibi varsayılan konumlarda yazı tiplerini aramayacağının garantisini vermez.
 
 {{% /alert %}}
 
-### **Aspose.Cells'i Yalnızca Bir Yazı Tipi Klasörü Kullanacak Şekilde Kısıtlama**
+### **Yalnızca Bir Yazı Tipi Klasörünü Kullanmak İçin Aspose.Cells'ın Nasıl Kısıtlanacağı**
 
- Aspose.Cells for Java 8.1.0'dan başlayarak, JVM bağımsız değişkenlerini şu şekilde ayarlayın:**-DAspose.Cells.FontDirExc="YourFontDir**Aspose.Cells API'in yalnızca belirtilen yazı tipi konumunu kullanmasını sağlayacaktır.
+Aspose.Cells for Java 8.1.0 sürümünden itibaren, **-DAspose.Cells.FontDirExc="YourFontDir** JVM argümanlarının ayarlanması, Aspose.Cells API'nin yalnızca belirtilen yazı tipleri konumunu kullanacağını sağlar.
 
-Aşağıda gösterildiği gibi System.setProperty yöntemini kullanarak belirtilen bağımsız değişkenleri ayarlayın.
+Aşağıda gösterildiği gibi System.setProperty yöntemini kullanarak belirtilen argümanları ayarlayın.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 System.setProperty("Aspose.Cells.FontDirExc", "FontDirSet");
 
@@ -67,8 +68,8 @@ System.setProperty("Aspose.Cells.FontDirExc", "FontDirSet");
 
 Lütfen aşağıdakilere dikkat edin:
 
-- Yukarıdaki ifade başvurunuzun başında olmalıdır.
-- Yukarıdaki yaklaşımı kullanmak, yukarıda tartışılan FontConfigs yöntemlerinden herhangi birini kullanarak yazı tipi dizininin ayarlanmasını gerektirmez.
-- "FontDirSet" dizesi, gerekli yazı tiplerini içeren klasörün tam yolu olmalıdır.
+- Yukarıdaki ifade uygulamanın başlangıcında olmalıdır.
+- Yukarıdaki yaklaşım, yukarıda tartışılan FontConfigs yöntemlerinden herhangi biriyle yazı klasörünü ayarlamayı gerektirmez.
+- "FontDirSet" dizesi, gereken yazı tiplerini içeren klasörün tam yolunu olmalıdır.
 
 {{% /alert %}}

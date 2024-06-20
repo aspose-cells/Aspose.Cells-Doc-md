@@ -1,16 +1,17 @@
-﻿---
+---
 title: Настройка параметров страницы в Ruby
 type: docs
 weight: 10
 url: /ru/java/setting-page-options-in-ruby/
 ---
+
 ## **Aspose.Cells - Настройка параметров страницы**
 ### **Ориентация страницы**
- Чтобы применить настройки ориентации страницы с помощью**Aspose.Cells Java для рубина** , вызов**страница_ориентация** метод**Настройка страницы** модуль.
+Чтобы применить параметры ориентации страницы с использованием Aspose.Cells Java для Ruby, вызовите метод page_orientation модуля pagesetup.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def page_orientation()
 
@@ -51,12 +52,12 @@ url: /ru/java/setting-page-options-in-ruby/
 end   
 
 {{< /highlight >}}
-### **Коэффициент масштабирования**
- Чтобы применить масштабирование с помощью**Aspose.Cells Java для рубина** , вызов**масштабирование** метод**Настройка страницы** модуль.
+### **Фактор масштабирования**
+Чтобы применить масштабирование с использованием Aspose.Cells Java для Ruby, вызовите метод scaling модуля pagesetup.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def scaling()
 
@@ -96,7 +97,7 @@ end
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Настройка параметров страницы (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите установку параметров страницы (Aspose.Cells) с любого из упомянутых ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)

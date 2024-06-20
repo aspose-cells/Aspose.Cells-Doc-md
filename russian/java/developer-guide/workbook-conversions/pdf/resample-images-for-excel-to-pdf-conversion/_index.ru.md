@@ -1,29 +1,30 @@
-﻿---
-title: Передискретизируйте изображения для Excel в преобразование PDF
+---
+title: Изменение размеров изображений для преобразования Excel в PDF
 type: docs
 weight: 250
 url: /ru/java/resample-images-for-excel-to-pdf-conversion/
-description: В этой статье показано уменьшение размера изображения при преобразовании файлов Excel в формат PDF.
-keywords: excel to pdf, resample images during excel to pdf conversion, compress images during excel to pdf conversion, reduce image sizes during excel to pdf conversion, convert excel to pdf with smaller size, excel to pdf conversion with image resampling, excel to pdf conversion with image compression, resample images during excel to pdf conversion java
+description: В этой статье демонстрируется уменьшение размеров изображений при преобразовании файлов Excel в PDF
+keywords: excel в pdf, изменение размеров изображений во время преобразования excel в pdf, сжатие изображений во время преобразования excel в pdf, уменьшение размеров изображений во время преобразования excel в pdf, преобразование excel в pdf с меньшим размером, преобразование excel в pdf с изменением размеров изображений, преобразование excel в pdf с сжатием изображений, изменение размеров изображений во время преобразования excel в pdf на Java
 ---
+
 {{% alert color="primary" %}}
 
-При работе с большими Microsoft файлами Excel с большим количеством изображений может потребоваться сжать добавленные изображения, чтобы уменьшить размер выходного PDF файла и повысить общую производительность преобразования. Aspose.Cells поддерживает повторную выборку добавленных изображений для уменьшения размера выходного PDF файла и повышения производительности.
+При работе с большими файлами Microsoft Excel с большим количеством изображений может потребоваться сжатие изображений для уменьшения размера выходного файла PDF и улучшения общей производительности преобразования. Aspose.Cells поддерживает пересемплирование добавленных изображений для уменьшения размера выходного файла PDF и улучшения производительности.
 
 {{% /alert %}}
 
-## **Передискретизируйте изображения для Excel в преобразование PDF**
+## **Изменение размеров изображений для преобразования Excel в PDF**
 
-См. следующий пример кода, описывающий выполнение задачи с использованием Aspose.Cells API. В примере файл Excel Microsoft преобразуется в файл PDF при сжатии изображений в файле.
+Пожалуйста, ознакомьтесь с приведенным ниже образцом кода, описывающим, как выполнить задачу с использованием API Aspose.Cells. В примере происходит преобразование файла Microsoft Excel в файл PDF с одновременным сжатием изображений в файле.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ResampleImagesforExceltoPDFConversion-ResampleImagesforExceltoPDFConversion.java" >}}
 
 {{% alert color="primary" %}}
 
- С использованием[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) минимизирует размер вывода PDF, но может немного повлиять на качество изображения.
+Использование опции [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) позволяет минимизировать размер выходного PDF, но это может немного повлиять на качество изображения.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-Если ваша электронная таблица содержит формулы, лучше всего вызвать[**Рабочая книга.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()непосредственно перед рендерингом электронной таблицы в формат PDF. Это обеспечит пересчет значений, зависящих от формулы, и отображение правильных значений в файле PDF.
+Если ваш электронный таблицы содержит формулы, лучше всего вызвать [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) прямо перед преобразованием таблицы в формат PDF. Таким образом будет гарантирован пересчет значений, зависящих от формул, и в PDF файл будут выведены правильные значения.
 
 {{% /alert %}}

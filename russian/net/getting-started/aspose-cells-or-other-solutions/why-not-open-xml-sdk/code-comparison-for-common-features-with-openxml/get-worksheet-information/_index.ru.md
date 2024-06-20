@@ -1,26 +1,101 @@
-﻿---
-title: Получить информацию о рабочем листе
+---
+title: Получить информацию о листе
 type: docs
 weight: 50
 url: /ru/net/get-worksheet-information/
 ---
-## **Опенксмл Excel**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
-string FileName = FilePath + "Получить информацию о рабочем листе.xlsx";
+string FileName = FilePath + "Get worksheet information.xlsx";
 
-ПолучитьИнформациюЛиста(ИмяФайла);
+GetSheetInfo(FileName);
 
-Консоль.ReadKey();
+Console.ReadKey();
 
 }
 
 public static void GetSheetInfo(string fileName)
 
-{  // Открыть файл только для чтения.  using (SpreadsheetDocument mySpreadsheetDocument = SpreadsheetDocument.Open(fileName, false))  {  S Sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets; _// For лист, отобразить информацию о листе.  foreach (лист E в листах)  {  foreach (атрибут в листе.GetAttributes())  {  Console.WriteLine("{0}: {1}" , attr.localname, attr.value); _ x000d_ }  }  }   {{< /highlight >}} ## ** Aspose.Cells ** _56103481 ## ** Aspose.Cells ** _07103481 # ** Aspose.Cells ** Files\";  string FileName = FilePath + "Получить информацию о рабочем листе.xlsx";  GetSheetInfo(FileName);  Console.ReadKey();  }
+{
+
+// Open file as read-only.
+
+using (SpreadsheetDocument mySpreadsheet = SpreadsheetDocument.Open(fileName, false))
+
+{
+
+    S sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets;
+
+    // For each sheet, display the sheet information.
+
+    foreach (E sheet in sheets)
+
+    {
+
+        foreach (A attr in sheet.GetAttributes())
+
+        {
+
+            Console.WriteLine("{0}: {1}", attr.LocalName, attr.Value);
+
+        }
+
+    }
+
+}
+
+{{< /highlight >}}
+## **Aspose.Cells**
+{{< highlight csharp >}}
+
+ string FilePath = @"..\..\..\..\Sample Files\";
+
+string FileName = FilePath + "Get worksheet information.xlsx";
+
+GetSheetInfo(FileName);
+
+Console.ReadKey();
+
+}
 
 private static void GetSheetInfo(string fileName)
 
-{  // Создание экземпляра рабочей книги object  Workbook workbook = new Workbook(fileName);  // Перебор всех листов в workbook  foreach (Worksheet Sheet in workbook.Worksheets) _00 //Get Name and _ {_ Индекс Sheet  Console.WriteLine("Имя листа: {0}", Sheet.Name);  Console.WriteLine("Индекс листа: {0}", Sheet.Index);  //Повторить все пользовательские Properties  Foreach (свойство CustomProperty в листе .CustomProperties)   {  Консоль.writeLine ("{0}: {1}", свойство. **Загрузить пример кода** - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1) - [Sourceforge](https://sourceforge .net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20worksheet%20information%20\(Aspose.Cells \).zip/download) - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20worksheet%20information%20\(Aspose.Cells\).zip)
+{
+
+//Instantiating a Workbook object
+
+Workbook workbook = new Workbook(fileName);
+
+//Loop through all Sheets in the workbook
+
+foreach (Worksheet Sheet in workbook.Worksheets)
+
+{
+
+    //Get Name and Index of Sheet
+
+    Console.WriteLine("Sheet Name: {0}", Sheet.Name);
+
+    Console.WriteLine("Sheet Index: {0}", Sheet.Index);
+
+    //Loop through all custom properties
+
+    foreach (CustomProperty Property in Sheet.CustomProperties)
+
+    {
+
+        Console.WriteLine("{0}: {1}", Property.Name, Property.Value);
+
+    }
+
+}
+
+{{< /highlight >}}
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20worksheet%20information%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20worksheet%20information%20\(Aspose.Cells\).zip)

@@ -1,12 +1,13 @@
-﻿---
-title: الاستيراد من كائنات مخصصة
+---
+title: استيراد من الكائنات المخصصة
 type: docs
 weight: 30
 url: /ar/net/importing-from-custom-objects/
 ---
- يمكن للمطورين استيراد البيانات من مجموعة الكائنات إلى ورقة العمل باستخدام**ImportCustomObjects**. يمكنك تقديم قائمة بالأعمدة / الخصائص للطريقة لعرض قائمة الكائنات التي تريدها.
 
-{{< highlight "csharp" >}}
+يمكن للمطورين استيراد البيانات من مجموعة من الكائنات إلى ورقة العمل باستخدام **ImportCustomObjects**. يمكنك تقديم قائمة من الأعمدة/الخصائص للأسلوب لعرض القائمة المرغوبة من الكائنات الخاصة بك.
+
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -36,7 +37,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 

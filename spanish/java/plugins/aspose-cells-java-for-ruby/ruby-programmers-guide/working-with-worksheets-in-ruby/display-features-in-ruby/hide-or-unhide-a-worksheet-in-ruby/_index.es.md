@@ -1,16 +1,17 @@
-﻿---
+---
 title: Ocultar o mostrar una hoja de trabajo en Ruby
 type: docs
 weight: 60
 url: /es/java/hide-or-unhide-a-worksheet-in-ruby/
 ---
+
 ## **Aspose.Cells - Ocultar o mostrar una hoja de trabajo**
 ### **Ocultar una hoja de trabajo**
- Para ocultar la hoja de trabajo usando Aspose.Cells Java para Ruby, llame**ocultarunhideworksheet** módulo.
+Para ocultar una hoja de cálculo usando Aspose.Cells Java para Ruby, llama al módulo **hideunhideworksheet**.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -35,19 +36,19 @@ workbook.save(data_dir + "output.xls")
 puts "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
-### **Mostrando una hoja de trabajo**
-Los desarrolladores pueden hacer que una hoja de trabajo sea visible configurando el*establecerVisible(* *verdadero* *)*metodo de la**Hoja de cálculo**clase.
+### **Mostrando una hoja de cálculo**
+Los desarrolladores pueden hacer que una hoja de cálculo sea visible configurando el método *setVisible(* *true* *)* de la clase **Hoja de cálculo**.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the worksheet of the Excel file
 
 worksheet.setVisible(true)
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Ocultar o mostrar una hoja de trabajo (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Ocultar o mostrar una hoja de cálculo (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/hideunhideworksheet.rb)

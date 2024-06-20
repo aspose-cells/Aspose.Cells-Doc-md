@@ -1,26 +1,29 @@
-﻿---
-title: 共通ボタンを使用してグリッド データを送信する
+---
+title: 共通のボタンを使用してGridデータを送信する
 type: docs
 weight: 20
-url: /ja/net/using-a-common-button-to-submit-grid-data/
+url: /ja/net/aspose-cells-gridweb/using-a-common-button-to-submit-grid-data/
+keywords: GridWeb,submit,button,custom
+description: この記事では、GridWebで送信ボタンの使用について説明します。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb には、次のような組み込みコマンド ボタンがいくつか用意されています。**送信**と**セーブ**.これらのボタンを使用して、関連するタスクを実行します。
+Aspose.Cells.GridWebには、**Submit**と**Save**のような組み込みコマンドボタンが提供されています。これらのボタンを使用して関連するタスクを実行します。
 
-この記事では、GridWeb の組み込みをクリックするだけでなく、サーバーにデータを送信する方法を示します。**セーブ**コマンド ボタンですが、一般的な ASP.NET ボタン (Web コントロール) をクリックします。この記事の目的は、Aspose.Cells.GridWeb の柔軟性を示すことです。さらに、この記事では、Aspose.Cells.GridWeb によって公開されている特別な関数も使用して、クライアント サイド スクリプトで使用します。
+この記事では、Aspose.Cells.GridWebの組み込みの**Save**コマンドボタンをクリックするだけでなく、一般的なASP.NETボタン(Webコントロール)をクリックしてサーバーにデータを送信する方法を示します。この記事の目的は、Aspose.Cells.GridWebの柔軟性を示すことです。さらに、この記事では、クライアントサイドのスクリプトで使用するAspose.Cells.GridWebによって公開された特別な機能も使用します。
 
 {{% /alert %}} 
-## **ASP.NET ボタンを使用したグリッド データの送信**
-Aspose.Cells.GridWeb には 3 つの組み込みボタン (**送信**, **セーブ**と**元に戻す** ）。 GridWeb で編集した後、ユーザーは**送信**また**セーブ**タブ バーの ボタンをクリックして、GridWeb がサーバーにデータを送信できるようにします。ユーザーがシート タブをクリックすると、GridWeb コントロールは組み込みコマンド ボタンと同じタスクを実行します。 Aspose.Cells.GridWeb は、この機能を一般的な ASP.NET Button コントロールに追加することもサポートしていますが、アプリケーションにコードを追加する必要があります。
-### **1. テスト アプリケーションの作成**
-Visual Studio.NET IDE を開き、新しい ASP.NET Web アプリケーション プロジェクトを作成します。アプリケーションが作成されると、既定の WebForm1.aspx ページがプロジェクトに追加されます。 Toolbox から GridWeb コントロールを Web Form にドラッグ アンド ドロップします。ツールボックスに GridWeb コントロールが見つからない場合は、次のページを参照してください。[Aspose.Cells グリッド コントロールを Visual Studio.NET と統合する](/cells/ja/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/)詳細については、GridWeb コントロールを Web フォームに追加した後、Toolbox から Button Web コントロールを Web フォームに追加します。
-### **2. Page_Load イベントへのコードの追加**
-次に、ページにコードを追加します。_Web フォームの Load イベント。デザイン ビューで Web フォームをダブルクリックすると、VS.NET IDE が自動的にページに移動します。_OnClick イベントをオーバーライドするために Button の Attributes コレクションを使用する必要があるイベント ハンドラーを読み込みます。
+## **ASP.NETボタンを使用してGridデータを送信する**
+Aspose.Cells.GridWebには、**Submit**、**Save**、**Undo**の3つの組み込みボタンが用意されています。GridWebで編集した後、ユーザーはタブバーの**Submit**または**Save**ボタンをクリックしてデータをサーバーに送信することができます。ユーザーがシートタブをクリックすると、GridWebコントロールは組み込みのコマンドボタンと同じタスクを実行します。Aspose.Cells.GridWebは、この機能を一般的なASP.NETボタンコントロールに追加することもサポートしていますが、アプリケーションにいくつかの追加のコードを追加する必要があります。
+### **1. テストアプリケーションの作成**
+Visual Studio.NET IDEを開いて、新しいASP.NET Webアプリケーションプロジェクトを作成します。アプリケーションが作成されると、デフォルトのWebForm1.aspxページがプロジェクトに追加されます。ツールボックスからGridWebコントロールをWebフォームにドラッグ＆ドロップします。ツールボックスでGridWebコントロールが見つからない場合は、このページを参照してください：[Visual Studio.NETでAspose.Cells Gridコントロールを統合](/cells/ja/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/)。GridWebコントロールをWebフォームに追加したら、ツールボックスからButtonウェブコントロールをWebフォームに追加します。
+### **2. Page_Loadイベントにコードを追加する**
+次に、Webフォームをデザインビューでダブルクリックすると、VS.NET IDEが自動的にPage_Loadイベントハンドラに移動し、ButtonのAttributesコレクションを使用してOnClickイベントをオーバーライドする必要があります。
 
 {{% alert color="primary" %}} 
 
-ASP.NET ボタン コントロールはサーバー側のコントロールです。クリックされるたびにサーバー側のイベントがトリガーされますが、この Button コントロールを使用してクライアント側でコードを実行する場合 (通常は JavaScript を使用)、Page_Load イベントの下の onclick 属性を変更する必要があります。 Aspose.Cells.GridWeb は、クライアント側から GridWeb コントロールを処理するために JavaScript で呼び出すことができるいくつかの関数を提供します。以下の例では、GridWeb の updateData および validateAll 関数 (クライアント側関数) を使用して、グリッド データを更新および検証しています。
+ASP.NET Buttonコントロールはサーバーサイドコントロールです。クリックされると、サーバーサイドイベントがトリガーされますが、このButtonコントロールを使用してクライアントサイドでコードを実行したい場合（通常はjavascriptを使用）、Page_Loadイベントの下でonclick属性を修正する必要があります。Aspose.Cells.GridWebには、クライアントサイドでGridWebコントロールを扱うためのjavascriptを呼び出すことができるいくつかの機能があります。以下の例では、GridWebのupdateDataおよびvalidateAllのクライアントサイド関数（javascriptで使用される関数）を使用して、Gridデータを更新および検証しています。
 
 {{% /alert %}} 
 #### **コード例**
@@ -28,10 +31,10 @@ ASP.NET ボタン コントロールはサーバー側のコントロールで�
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-UsingCommonSubmitButton.aspx-UsingCommonSubmitButton.cs" >}}
 ### **3. アプリケーションの実行**
-ここで、Ctrl+F5 を押してアプリケーションをコンパイルして実行すると、ページが新しいブラウザー ウィンドウで開かれます。いくつかの値を GridWeb に追加して [Submit Grid Data to Server] ボタンをクリックすると、GridWeb データを更新および検証するためのポストバックが発生することがわかります。
+Ctrl+F5を押してアプリケーションをコンパイルして実行し、ページが新しいブラウザウィンドウで開きます。GridWebに値を追加し、Submit Grid Data to Serverボタンを押すと、GridWebデータを更新および検証するためのポストバックが発生するのを見ることができます。
 ## **結論**
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb は、サーバー側またはクライアント側から GridWeb コントロールを操作するための優れた柔軟性を提供します。開発者には、さまざまな種類のシナリオで GridWeb コントロールを使用して、より優れたソリューションを顧客に提供するための多数のオプションがあります。
+Aspose.Cells.GridWebは、サーバーサイドまたはクライアントサイドのどちらからでもGridWebコントロールを使用するための大きな柔軟性を提供します。開発者は、さまざまなシナリオでGridWebコントロールを使用して顧客により良いソリューションを提供するための幅広いオプションを利用できます。
 
 {{% /alert %}}

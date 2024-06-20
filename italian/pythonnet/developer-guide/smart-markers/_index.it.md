@@ -1,81 +1,83 @@
-﻿---
-title: Importazione e posizionamento intelligente dei dati con i marcatori intelligenti in Python tramite .Net
+---
+title: Importare e posizionare intelligentemente i dati con i marcatori intelligenti in Python tramite .Net
 linktitle: Marcatori intelligenti
 type: docs
 weight: 190
 url: /it/python-net/using-smart-markers/
-description: Importazione e posizionamento intelligente dei dati in base ai file Excel del modello con Aspose.Cells for Python tramite la libreria .Net.
+description: Importa e posiziona intelligentemente i dati secondo i file modello Excel con Aspose.Cells per Python tramite libreria .Net
 ---
-## **introduzione**
-**Marcatori intelligenti**vengono utilizzati per consentire a Aspose.Cells di sapere quali informazioni inserire in un foglio di calcolo Excel Designer Microsoft. I marcatori intelligenti consentono di creare modelli che contengono solo informazioni e formattazioni specifiche.
-## **Foglio di calcolo per designer e marcatori intelligenti**
-I fogli di calcolo per designer sono file Excel standard che contengono formattazione visiva, formule e marcatori intelligenti. Possono contenere marcatori intelligenti che fanno riferimento a una o più origini dati, ad esempio informazioni da un progetto e informazioni per i contatti correlati. I marcatori intelligenti vengono scritti nelle celle in cui desideri le informazioni.
 
- Tutti i marcatori intelligenti iniziano con &=. Un esempio di indicatore di dati è &=Party.FullName. Se l'indicatore di dati restituisce più di un elemento, ad esempio una riga completa, le righe successive vengono spostate automaticamente verso il basso per fare spazio alle nuove informazioni. Pertanto subtotali e totali possono essere posizionati sulla riga immediatamente dopo l'indicatore di dati per eseguire calcoli basati sui dati inseriti. Per eseguire calcoli sulle righe inserite, utilizzare**formule dinamiche**.
+## **Introduzione**
+I **marcatori intelligenti** vengono utilizzati per far conoscere ad Aspose.Cells quali informazioni inserire in un foglio di calcolo di progettazione di Microsoft Excel. I marcatori intelligenti ti consentono di creare modelli che contengono solo informazioni specifiche e formattazione.
+## **Foglio di calcolo di progettazione e Marcatori intelligenti**
+I fogli di calcolo di progettazione sono file Excel standard che contengono formattazioni visive, formule e marcatori intelligenti. Possono contenere marcatori intelligenti che fanno riferimento a una o più origini di dati, come informazioni provenienti da un progetto e informazioni per contatti correlati. I marcatori intelligenti vengono scritti nelle celle in cui si desidera inserire le informazioni.
 
- I marcatori intelligenti sono costituiti da**fonte di dati** e**nome del campo**parti per la maggior parte delle informazioni. Informazioni speciali possono anche essere passate con variabili e array di variabili. Le variabili riempiono sempre solo una cella mentre gli array di variabili possono riempirne diverse. Utilizzare un solo marcatore di dati per cella. Gli smart marker inutilizzati vengono rimossi.
+Tutti i marker smart iniziano con &=. Un esempio di un marker dati è &=Party.FullName. Se il marker dati produce più di un elemento, ad esempio, una riga completa, allora le righe successive vengono spostate automaticamente verso il basso per fare spazio alle nuove informazioni. Pertanto, i subtotali e i totali possono essere posizionati sulla riga immediatamente dopo il marker dati per effettuare calcoli basati sui dati inseriti. Per effettuare calcoli sulle righe inserite, utilizzare **formule dinamiche**.
 
-Il marcatore intelligente può anche contenere parametri. I parametri consentono di modificare la disposizione delle informazioni. Vengono aggiunti alla fine dell'indicatore intelligente tra parentesi come elenco separato da virgole.
-### **Opzioni marcatore intelligente**
- &=DataSource.FieldName
- &=[Origine dati].[Nome campo]&=$NomeVariabile
- &=$VariabileArray
- &==DynamicFormula
-&=&=Ripeti Formula Dinamica
+I marker smart consistono principalmente nelle parti **origine dei dati** e **nome del campo** per la maggior parte delle informazioni. Informazioni speciali possono anche essere passate con variabili e array di variabili. Le variabili riempiono sempre solo una cella, mentre gli array di variabili possono riempire diverse celle. Utilizzare solo un marker dati per cella. I marker smart non utilizzati vengono rimossi.
+
+Il marker smart può anche contenere parametri. I parametri ti consentono di modificare come le informazioni sono organizzate. Vengono aggiunti alla fine del marker smart tra parentesi come elenco separato da virgola.
+### **Opzioni del Marker Smart**
+&=OrigineDati.NomeCampo 
+&=[Origine Dati].[Nome Campo] 
+&=$NomeVariabile 
+&=$ArrayVariabili 
+&==FormulaDinamica 
+&=&=RipetiFormulaDinamica
 ### **Parametri**
-Sono ammessi i seguenti parametri:
+Sono consentiti i seguenti parametri:
 
-- **noadd** - Non aggiungere righe extra per adattare i dati.
-- **salta: n** - Salta n numero di righe per ogni riga di dati.
-- **ascendente: n** o**discendente: n** - Ordina i dati in marcatori intelligenti. Se n è 1, la colonna è la prima chiave dell'ordinatore. I dati vengono ordinati dopo l'elaborazione dell'origine dati. Ad esempio: &=Tabella1.Campo3(crescente:1).
+- **noadd** - Non aggiungere righe aggiuntive per adattare i dati.
+- **skip:n** - Ignora n numero di righe per ogni riga di dati.
+- **ascending:n** o **descending:n** - Ordina i dati nei marker smart. Se n è 1, allora la colonna è la prima chiave dell'ordinamento. I dati sono ordinati dopo il trattamento dell'origine dati. Ad esempio: &=Tabella1.Campo3(crescente:1).
 - **orizzontale** - Scrivi i dati da sinistra a destra, invece che dall'alto verso il basso.
-- **numerico** - Converti testo in numero, se possibile.
-- **spostare** - Sposta in basso oa destra, creando righe o colonne extra per adattare i dati. Il parametro shift funziona allo stesso modo di Microsoft Excel. Ad esempio in Microsoft Excel, quando selezioni un intervallo di celle, fai clic con il pulsante destro del mouse e seleziona**Inserire** e specificare?**spostare le celle verso il basso**, **sposta le celle a destra** e altre opzioni. Insomma, il**spostare** Il parametro svolge la stessa funzione per gli smart marker verticali/normali (dall'alto verso il basso) o orizzontali (da sinistra a destra).
-- **copystyle** - Copia lo stile della cella di base in tutte le celle di quella colonna.
+- **numerico** - Converti il testo in numero se possibile.
+- **sposta** - Sposta in basso o a destra, creando righe o colonne extra per adattarsi ai dati. Il parametro di spostamento funziona allo stesso modo di Microsoft Excel. Ad esempio in Microsoft Excel, quando selezioni un intervallo di celle, fai clic con il pulsante destro del mouse e selezioni **Inserisci** e specifica **sposta celle in basso**, **sposta celle a destra** e altre opzioni. In breve, il parametro **sposta** svolge la stessa funzione per i marcatori intelligenti verticali/normale (dall'alto in basso) o orizzontali (da sinistra a destra).
+- **copiastile** - Copia lo stile della cella di base in tutte le celle di quella colonna.
 
-parametri noadd e skip possono essere combinati per inserire dati su righe alternate. Poiché il modello viene elaborato dal basso verso l'alto, è necessario aggiungere noadd sulla prima riga per evitare l'inserimento di righe aggiuntive prima della riga alternativa.
+I parametri noadd e skip possono essere combinati per inserire dati su righe alternate. Poiché il modello viene elaborato dall'alto verso il basso, è necessario aggiungere noadd sulla prima riga per evitare che vengano inserite righe aggiuntive prima della riga alternata.
 
-Se hai più parametri, separali con una virgola, ma senza spazio: parametroA,parametroB,parametroC
+Se hai più parametri, separali con virgole, ma senza spazi: parametroA, parametroB, parametroC
 
-Gli screenshot seguenti mostrano come inserire i dati su ogni altra riga.
+Le seguenti schermate mostrano come inserire dati ogni altra riga
 
-|**File modello**|**File di uscita**|
-|:- |:- |
-|![cose da fare:immagine_alt_testo](using-smart-markers_1.jpg)|![cose da fare:immagine_alt_testo](using-smart-markers_2.jpg)|
+|**File del modello**|**File di output**|
+| :- | :- |
+|![todo:image_alt_text](using-smart-markers_1.jpg)|![todo:image_alt_text](using-smart-markers_2.jpg)|
 ### **Formule dinamiche**
-Le formule dinamiche consentono di inserire formule di Excel nelle celle anche quando la formula fa riferimento a righe che verranno inserite durante il processo di esportazione. Le formule dinamiche possono ripetersi per ogni riga inserita o utilizzare solo la cella in cui è posizionato l'indicatore di dati.
+Le formule dinamiche ti consentono di inserire formule Excel nelle celle anche quando la formula fa riferimento a righe che saranno inserite durante il processo di esportazione. Le formule dinamiche possono ripetersi per ogni riga inserita o utilizzare solo la cella in cui è posizionato il marcatore dei dati
 
 Le formule dinamiche consentono le seguenti opzioni aggiuntive:
 
-- r - Numero di riga corrente.
-- 2, -1 - Offset rispetto al numero di riga corrente.
+- r - Numero di riga attuale
+- 2, -1 - Offset al numero di riga attuale
 
 Per esempio:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  &=&=B{-1}/C{-1}~(skip:1)
 
 {{< /highlight >}}
 
-Nell'indicatore di formula dinamica, "-1" indica l'offset rispetto alla riga corrente rispettivamente nelle colonne B e C che verranno impostate per l'operazione di divisione, il parametro skip è una riga. Inoltre, dovremmo specificare il seguente carattere:
+Nel marcatore della formula dinamica, "-1" indica l'offset alla riga corrente rispettivamente nelle colonne B e C che verranno impostate per l'operazione di divisione, il parametro di skip è una riga. Inoltre, dovremmo specificare il seguente carattere:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  "~"
 
 {{< /highlight >}}
 
-come carattere separatore per applicare ulteriori parametri nelle formule dinamiche.
+come carattere separatore per applicare ulteriori parametri nelle formule dinamiche
 
-Gli screenshot seguenti illustrano una formula dinamica ripetuta e il foglio di lavoro di Excel risultante.
+Le seguenti schermate illustrano una formula dinamica ripetitiva e il foglio di lavoro Excel risultante
 
-|**File modello**|**File di uscita**|
-|:- |:- |
-|![cose da fare:immagine_alt_testo](using-smart-markers_3.jpg)|![cose da fare:immagine_alt_testo](using-smart-markers_4.jpg)|
- Cell "C1" contiene la formula**= A1*B1** , la cella "C2" contiene**= A2*B2** e la cella "C3" contiene**= LA3*SI3**.
+|**File del modello**|**File di output**|
+| :- | :- |
+|![todo:image_alt_text](using-smart-markers_3.jpg)|![todo:image_alt_text](using-smart-markers_4.jpg)|
+La cella "C1" contiene la formula **= A1*B1**, la cella "C2" contiene **= A2*B2** e la cella "C3" contiene **= A3*B3**
 
-È molto facile elaborare i marcatori intelligenti. Quello che segue è uno snippet di codice in Python tramite .Net, che mostra come è fatto.
+E' molto facile elaborare i marcatori intelligenti. Di seguito è riportato uno snippet di codice in Python tramite .Net, che mostra come viene fatto.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "SmartMarker-SimpleProcess.py" >}}
 

@@ -1,19 +1,20 @@
-﻿---
+---
 title: تحويل النص إلى أعمدة باستخدام Aspose.Cells
 type: docs
 weight: 30
 url: /ar/net/convert-text-to-columns-using-aspose-cells/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك تحويل النص الخاص بك إلى أعمدة باستخدام Microsoft Excel. هذه الميزة متاحة من*أدوات البيانات* تحت*بيانات* التبويب. لتقسيم محتويات عمود إلى عدة أعمدة ، يجب أن تحتوي البيانات على محدد معين مثل الفاصلة (أو أي حرف آخر) بناءً على Microsoft يقوم Excel بتقسيم محتويات خلية إلى خلايا متعددة. يوفر Aspose.Cells أيضًا هذه الميزة عبر[**ورقة العمل Cells.**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)طريقة.
+## **سيناريوهات الاستخدام المحتملة**
+
+يمكنك تحويل نصك إلى أعمدة باستخدام برنامج Microsoft Excel. تتوفر هذه الميزة من خلال أدوات البيانات تحت علامة تبويب البيانات. من أجل تقسيم محتويات العمود إلى أعمدة متعددة, يجب أن يحتوي البيانات على فاصل محدد مثل الفاصلة (أو أي حرف آخر) على أساسه يقوم Microsoft Excel بتقسيم محتويات الخلية إلى خلايا متعددة. توفر Aspose.Cells أيضاً هذه الميزة من خلال الطريقة [**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns).
 
 ## **تحويل النص إلى أعمدة باستخدام Aspose.Cells**
 
- يشرح نموذج التعليمات البرمجية التالي استخدام[**ورقة العمل Cells.**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns) طريقة. يضيف الرمز أولاً أسماء بعض الأشخاص في العمود A من ورقة العمل الأولى. يتم فصل الاسم الأول والأخير بحرف مسافة. ثم ينطبق[**ورقة العمل Cells.**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns) الطريقة في العمود A وحفظها كملف الإخراج إكسل. إذا قمت بفتح ملف[ملف اكسل الناتج](25395213.xlsx)سترى ، الأسماء الأولى موجودة في العمود A بينما الأسماء الأخيرة في العمود B كما هو موضح في لقطة الشاشة هذه.
+يشرح الكود النموذجي التالي استخدام الطريقة [**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns). يضيف الكود أولاً بعض أسماء الأشخاص في العمود A من الورقة العمل الأولى. ثم يطبق الطريقة [**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns) على العمود A ويحفظه كملف إكسل مخرج. إذا فتحت [ملف Excel الناتج](25395213.xlsx), سترى أن الأسماء الأولى في العمود A بينما الأسماء الأخيرة في العمود B كما هو موضح في هذا اللقطة.
 
-![ما يجب القيام به: image_بديل_نص](convert-text-to-columns-using-aspose-cells_1.png)
+![todo:image_alt_text](convert-text-to-columns-using-aspose-cells_1.png)
 
-## **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-ConvertTextToColumns.cs" >}}

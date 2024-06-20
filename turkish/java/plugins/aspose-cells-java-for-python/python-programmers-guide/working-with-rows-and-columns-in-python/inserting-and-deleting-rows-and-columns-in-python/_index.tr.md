@@ -1,23 +1,24 @@
-﻿---
-title: Python'de Satır ve Sütun Ekleme ve Silme
+---
+title: Python da Satır ve Sütun Ekleme ve Silme
 type: docs
 weight: 60
 url: /tr/java/inserting-and-deleting-rows-and-columns-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel pytho
-description: Python'de Excel elektronik tabloları oluşturmak için Python Excel API'i kullanın. MS Office olmadan Python uygulamalarınızda XLSX veya XLS'den satır ekleyin veya silin.
+keywords: "Python da XLSX oluşturma, Python da XLS oluşturma, Python da XLSX, Python da XLS, Python da XLT, Python da XLTX, Python da satır ekleme, Python da sütun ekleme, Python da Excel"
+description: Python Excel API kullanarak Python da Excel elektronik tabloları oluşturun. Python uygulamalarınızda XLSX veya XLS ten satır ekleyin veya silin, MS Office olmadan.
 ---
-## **Python'de Excel Elektronik Tabloları Oluşturun - Satırları/Sütunları Yönetme**
+
+## **Python'da Excel Elektronik Tabloları Oluşturma - Satırları/Sütunları Yönetme**
 ### **Satır Ekleme**
-Cells koleksiyonunun insertRows yöntemini çağırarak herhangi bir konuma satır ekleyin. insertRows yöntemi, ilk argüman olarak yeni satırın ekleneceği satırın indeksini, ikinci argüman olarak eklenecek satır sayısını alır. Aşağıdaki adımlar:
+Yeni bir satırı Cells koleksiyonunun insertRows yöntemini çağırarak herhangi bir konuma ekleyin. InsertRows yöntemi, yeni satırın ekleneceği satırın dizinini ilk argüman olarak ve eklenmesi gereken satır sayısını ikinci argüman olarak alır. Aşağıdaki adımlar vardır:
 
 - XLS veya XLSX çalışma kitabını yükle
-- Çalışma sayfasına erişin
-- satırı ekle
-- XLS veya XLSX çalışma kitabı olarak kaydedin
+- Çalışsayfayı erişin
+- Satır ekleme
+- XLS veya XLSX çalışma kitabı olarak kaydet
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_row(self):
 
@@ -40,15 +41,15 @@ workbook.save(self.dataDir + "Insert Row.xls")
 print "Insert Row Successfully." 
 
 {{< /highlight >}}
-### **Birden Çok Satır Ekleme**
-Çalışma sayfasına birden çok satır eklemek için Cells koleksiyonunun insertRows yöntemini çağırın. InsertRows yöntemi iki parametre alır:
+### **Birden Fazla Satır Ekleme**
+Çalışma sayfasına birden fazla satır eklemek için Cells koleksiyonunun insertRows yöntemini çağırın. insertRows yöntemi iki parametre alır:
 
-- Satır dizini, yeni satırların ekleneceği satırın dizini.
+- Satır indeksi, yeni satırların ekleneceği satırın indeksi.
 - Satır sayısı, eklenmesi gereken toplam satır sayısı.
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_multiple_rows(self):
 
@@ -72,15 +73,15 @@ print "Insert Multiple Rows Successfully."
 
 
 {{< /highlight >}}
-### **Satır Silme**
-Herhangi bir konumdaki bir satırı silmek için Cells koleksiyonunun deleteRows yöntemini çağırın. DeleteRows yöntemi iki parametre alır:
+### **Bir Satırı Silme**
+Herhangi bir konumda bir satırı silmek için Cells koleksiyonunun deleteRows yöntemini çağırın. DeleteRows yöntemi iki parametre alır:
 
-- Satır dizini, satırların silineceği satırın dizini.
-- Satır sayısı, silinmesi gereken toplam satır sayısı.
+- Satır endeksi, satırların silineceği başlangıç satırının endeksi.
+- Satır sayısı. Silinmesi gereken toplam satır sayısı.
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_row(self):
 
@@ -103,15 +104,15 @@ workbook.save(self.dataDir + "Delete Row.xls")
 print "Delete Row Successfully." 
 
 {{< /highlight >}}
-### **Birden Çok Satırı Silme**
-Bir çalışma sayfasından birden çok satırı silmek için Cells koleksiyonunun deleteRows yöntemini çağırın. DeleteRows yöntemi iki parametre alır:
+### **Birden Fazla Satırı Silme**
+Çalışma sayfasından birden fazla satırı silmek için Cells koleksiyonunun deleteRows yöntemini çağırın. DeleteRows yöntemi iki parametre alır:
 
-- Satır dizini, satırların silineceği satırın dizini.
-- Satır sayısı, silinmesi gereken toplam satır sayısı.
+- Satır endeksi, satırların silineceği başlangıç satırının endeksi.
+- Satır sayısı. Silinmesi gereken toplam satır sayısı.
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_multiple_rows(self):
 
@@ -135,15 +136,15 @@ print "Delete Multiple Rows Successfully."
 
 
 {{< /highlight >}}
-### **Sütun Ekleme**
-Geliştiriciler ayrıca Cells koleksiyonunun insertColumns yöntemini çağırarak çalışma sayfasına herhangi bir konumda bir sütun ekleyebilir. insertColumns yöntemi iki parametre alır:
+### **Bir Sütun Ekleme**
+Geliştiriciler, Cells koleksiyonunun insertColumns metodunu çağırarak çalışma sayfasına herhangi bir konuma bir sütun da ekleyebilirler. insertColumns metodu iki parametre alır:
 
-- Sütun dizini, sütunun ekleneceği sütunun dizini
-- Sütun sayısı, eklenmesi gereken toplam sütun sayısı
+- Sütun endeksi, sütunun ekleneceği sütunun endeksi
+- Sütun sayısı, eklenecek toplam sütun sayısı
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_column(self):
 
@@ -167,16 +168,16 @@ print "Insert Column Successfully."
 
 
 {{< /highlight >}}
-### **Sütun Silme**
-Herhangi bir konumdaki çalışma sayfasından bir sütunu silmek için Cells koleksiyonunun deleteColumns yöntemini çağırın. deleteColumns yöntemi aşağıdaki parametreleri alır:
+### **Bir Sütunu Silme**
+Herhangi bir konumdan çalışma sayfasından bir sütun silmek için Cells koleksiyonunun deleteColumns metodunu çağırın. deleteColumns metodu aşağıdaki parametreleri alır:
 
-- Sütun dizini, sütunun silineceği sütunun dizini.
-- Sütun sayısı, silinmesi gereken toplam sütun sayısı.
-- Hücreleri kaydır, silme işleminden sonra hücrelerin sola kaydırılıp kaydırılmayacağını gösteren Boolean parametresi.
+- Sütun dizini, sütunun nereden silineceğinin dizini
+- Sütun sayısı, silinmesi gereken toplam sütun sayısı
+- Hücreleri kaydır, silme işleminden sonra hücreleri sola kaydırmak için Boolean parametre
 
-**Python Kod**
+**Python Kodu**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_column(self):
 
@@ -201,6 +202,6 @@ print "Delete Column Successfully."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Satırları/Sütunları Yönetme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Yönetim Satırları/Sütunları (Aspose.Cells)**'ı indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

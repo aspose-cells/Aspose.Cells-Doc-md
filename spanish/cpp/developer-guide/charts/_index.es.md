@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gráficos
 type: docs
 weight: 75

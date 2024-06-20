@@ -1,21 +1,22 @@
-﻿---
-title: Преобразование выбранных элементов диаграммы в диаграммы Excel
+---
+title: Визуализировать выбранные элементы диаграмм в виде диаграмм Excel
 type: docs
 weight: 30
 url: /ru/reportingservices/render-selected-chart-items-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Чтобы отобразить только некоторые диаграммы в отчете в диаграммы Excel:
+Для визуализации только некоторых диаграмм в отчете в виде диаграмм Excel:
 
-1. Открыть**Aspose.Cells.ReportingServices.xml** файл.
-1.  Измените параметры конфигурации**Aspose.Cells.ReportingServices.xml** файл.
-1. Добавьте требуемую информацию о конфигурации отчета.
-1. Добавьте информацию об элементах диаграммы, которые вы не хотите экспортировать в виде редактируемых диаграмм. Эти элементы экспортируются как статические изображения.
+1. Откройте файл **Aspose.Cells.ReportingServices.xml**.
+1. Измените параметры конфигурации файла **Aspose.Cells.ReportingServices.xml**.
+1. Добавьте необходимую информацию о конфигурации отчета.
+1. Добавьте информацию для элементов диаграмм, которые необходимо экспортировать как редактируемые диаграммы. Эти элементы экспортируются в виде статических изображений.
 
 Например:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 
@@ -31,10 +32,10 @@ url: /ru/reportingservices/render-selected-chart-items-to-excel-charts/
 
 **Диаграмма, экспортированная как изображение** 
 
-![дело:изображение_альтернативный_текст](render-selected-chart-items-to-excel-charts_1.png)
+![todo:image_alt_text](render-selected-chart-items-to-excel-charts_1.png)
 
-**Диаграмма, экспортированная как редактируемая диаграмма Excel** 
+**Диаграмма, экспортированная в виде редактируемой диаграммы Excel** 
 
-![дело:изображение_альтернативный_текст](render-selected-chart-items-to-excel-charts_2.png)
+![todo:image_alt_text](render-selected-chart-items-to-excel-charts_2.png)
 
 {{% /alert %}}

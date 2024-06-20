@@ -1,15 +1,16 @@
-﻿---
-title: Geben Sie nicht verwaltete Ressourcen der Arbeitsmappe frei
+---
+title: Freigeben unbeaufsichtigter Ressourcen der Arbeitsmappe
 type: docs
 weight: 290
 url: /de/java/release-unmanaged-resources-of-the-workbook/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells bietet[Workbook.dispose()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#dispose\(\) )-Methode zum Freigeben der nicht verwalteten Ressourcen der[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)Objekt. Das Dispose-Muster wird nur für Objekte verwendet, die auf nicht verwaltete Ressourcen zugreifen, z. B. Datei- und Pipe-Handles, Registrierungshandles, Wait-Handles oder Zeiger auf Blöcke von nicht verwaltetem Speicher. Dies liegt daran, dass der Garbage Collector beim Zurückgewinnen nicht verwendeter verwalteter Objekte sehr effizient ist, aber nicht in der Lage ist, nicht verwaltete Objekte zurückzugewinnen.
+Aspose.Cells stellt die Methode [Workbook.dispose()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#dispose\(\)) bereit, um die unbeaufsichtigten Ressourcen des [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)-Objekts freizugeben. Das Dispose-Muster wird nur für Objekte verwendet, die unbeaufsichtigte Ressourcen wie Datei- und Pipe-Handles, Registrierungshandles, Wartehandles oder Zeiger auf Blöcke unbeaufsichtigten Speichers zugreifen. Dies liegt daran, dass der Garbage-Collector sehr effizient beim Wiederherstellen unbeachteter verwalteter Objekte ist, jedoch nicht in der Lage ist, unbeaufsichtigte Objekte wiederherzustellen.
 
 {{% /alert %}} 
-## **Geben Sie nicht verwaltete Ressourcen der Arbeitsmappe frei**
-Der folgende Beispielcode zeigt, wie Sie die verwenden[Workbook.dispose()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#dispose\(\)) Methode.
+## **Freigeben unbeaufsichtigter Ressourcen der Arbeitsmappe**
+Der folgende Beispielscode zeigt, wie die Methode [Workbook.dispose()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#dispose\(\)) verwendet wird.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReleaseUnmanagedResources-ReleaseUnmanagedResources.java" >}}

@@ -1,19 +1,20 @@
 ---
-title: Utilizzo della funzione OnAjaxCallFinishClient di GridWeb
+title: Utilizzo di OnAjaxCallFinishedClientFunction di GridWeb
 type: docs
 weight: 20
 url: /it/java/using-onajaxcallfinishedclientfunction-of-gridweb/
 ---
-##  **Possibili scenari di utilizzo**
-OnAjaxCallFinishClientFunction è una funzione lato client che viene chiamata quando l'utente copia alcuni dati nel foglio di lavoro GridWeb. Questa funzione è utile quando viene aggiornata la maggior parte delle celle e desideri tenere traccia di tali celle aggiornate sul lato client (ad esempio nei browser Web come FireFox, Google Chrome ecc.).
-##  **Utilizzo della funzione OnAjaxCallFinishClient di GridWeb**
-Il seguente codice di esempio spiega come utilizzare la funzione client OnAjaxCallFinishClientFunction. Gli screenshot mostrano l'output della console in Google Chrome e FireFox quando il codice viene eseguito. Una volta eseguito il codice, copia/incolla alcuni dati che si estendono su più celle all'interno del foglio di lavoro GridWeb e quindi controlla la console del browser Web come mostrato negli screenshot.
-##  **Google Uscita Console Cromata**
-![cose da fare:immagine_alt_testo](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-##  **Uscita della console FireFox**
-![cose da fare:immagine_alt_testo](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
-##  **Codice d'esempio**
-{{< highlight "java" >}}
+
+## **Possibili Scenari di Utilizzo**
+OnAjaxCallFinishedClientFunction è una funzione sul lato client che viene chiamata quando l'utente copia alcuni dati nel foglio di calcolo di GridWeb. Questa funzione è utile quando vengono aggiornate moltissime celle e si desidera tenere traccia di queste celle aggiornate sul lato client (ad es. nei browser web come FireFox, Google Chrome, ecc.).
+## **Utilizzo di OnAjaxCallFinishedClientFunction di GridWeb**
+Il seguente codice di esempio spiega come utilizzare la funzione client OnAjaxCallFinishedClientFunction. Le schermate mostrano l'output della console in Google Chrome e FireFox quando il codice viene eseguito. Una volta eseguito il codice, si prega di copiare/incollare alcuni dati che si estendono su più celle all'interno del foglio di calcolo di GridWeb e quindi controllare la Console del browser web come mostrato nelle schermate.
+## **Output della Console di Google Chrome**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
+## **Output della Console di FireFox**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
+## **Codice di Esempio**
+{{< highlight java >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
 

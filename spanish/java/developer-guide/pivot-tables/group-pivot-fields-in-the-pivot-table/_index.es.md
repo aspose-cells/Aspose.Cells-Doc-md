@@ -1,18 +1,19 @@
-﻿---
-title: Agrupar campos dinámicos en la tabla dinámica
+---
+title: Agrupar campos de pivote en la tabla dinámica
 type: docs
 weight: 90
 url: /es/java/group-pivot-fields-in-the-pivot-table/
 ---
-## **Posibles escenarios de uso**
 
-Microsoft Excel le permite agrupar campos dinámicos de la tabla dinámica. Cuando hay una gran cantidad de datos relacionados con un campo dinámico, suele ser útil agruparlos en secciones. Aspose.Cells también ofrece esta función utilizando el[**Tabla dinámica.setManualGroupField()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#setManualGroupField(com.aspose.cells.PivotField,%20com.aspose.cells.DateTime,%20com.aspose.cells.DateTime,%20java.util.ArrayList,%20int)) método.
+## **Escenarios de uso posibles**
 
-## **Agrupar campos dinámicos en la tabla dinámica**
+Microsoft Excel te permite agrupar campos de pivote de la tabla dinámica. Cuando hay una gran cantidad de datos relacionados con un campo de pivote, a menudo es útil agruparlos en secciones. Aspose.Cells también proporciona esta función mediante el método [**PivotTable.setManualGroupField()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#setManualGroupField(com.aspose.cells.PivotField,%20com.aspose.cells.DateTime,%20com.aspose.cells.DateTime,%20java.util.ArrayList,%20int)).
 
-El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](64716838.xlsx)realiza la agrupación en el primer campo pivote usando el[**Tabla dinámica.setManualGroupField()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#setManualGroupField(com.aspose.cells.PivotField,%20com.aspose.cells.DateTime,%20com.aspose.cells.DateTime,%20java.util.ArrayList,%20int)) método. Luego actualiza y calcula los datos de la tabla dinámica y guarda el libro de trabajo como el[archivo de salida de Excel](64716837.xlsx). La captura de pantalla muestra el efecto del código de muestra en el archivo de Excel de muestra. Como puede ver en la captura de pantalla, el primer campo dinámico ahora está agrupado por meses y trimestres.
+## **Agrupar campos de la tabla dinámica**
 
-![todo:imagen_alternativa_texto](group-pivot-fields-in-the-pivot-table_1.png)
+El siguiente código de muestra carga el [archivo de Excel de ejemplo](64716838.xlsx) y realiza la agrupación en el primer campo de pivote utilizando el método [**PivotTable.setManualGroupField()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#setManualGroupField(com.aspose.cells.PivotField,%20com.aspose.cells.DateTime,%20com.aspose.cells.DateTime,%20java.util.ArrayList,%20int)). Luego actualiza y calcula los datos de la tabla dinámica y guarda el libro de trabajo como el [archivo de Excel de salida](64716837.xlsx). La captura de pantalla muestra el efecto del código de ejemplo en el archivo de Excel de muestra. Como se puede ver en la captura de pantalla, el primer campo de pivote ahora está agrupado por meses y trimestres.
+
+![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **Código de muestra**
 

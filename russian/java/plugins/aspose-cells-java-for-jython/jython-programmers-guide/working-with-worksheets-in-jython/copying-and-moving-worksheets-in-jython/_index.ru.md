@@ -1,15 +1,16 @@
-﻿---
-title: Копирование и перемещение рабочих листов в Jython
+---
+title: Копирование и перемещение листов в Jython
 type: docs
 weight: 20
 url: /ru/java/copying-and-moving-worksheets-in-jython/
 ---
-## **Aspose.Cells - Копирование и перемещение рабочих листов**
- Для добавления документов с помощью**Aspose.Cells Java для Jython**. Здесь вы можете увидеть пример кода.
+
+## **Aspose.Cells - Копирование и перемещение листов**
+Для добавления документов с помощью **Aspose.Cells Java для Jython**. Здесь вы можете увидеть примерный код.
 
 **Код Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -97,7 +98,7 @@ if __name__ == '__main__':
     CopyingAndMovingWorksheets()
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Добавить документы (Aspose.Cells)** из любого из нижеперечисленных социальных кодов
+## **Скачать работающий код**
+Загрузить **Добавление документов (Aspose.Cells)** с одного из указанных ниже сайтов социального кодирования 
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)

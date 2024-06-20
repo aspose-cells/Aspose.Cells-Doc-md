@@ -1,15 +1,16 @@
-﻿---
-title: Cifrar libro de trabajo usando Aspose.Cells
+---
+title: Cifrar libro de trabajo con Aspose.Cells
 type: docs
 weight: 60
 url: /es/java/encrypt-workbook-using-aspose-cells/
 ---
-## **Aspose.Cells - Cifrar libro de trabajo**
-El siguiente ejemplo muestra cómo puede cifrar/proteger con contraseña un archivo de Excel utilizando el Aspose.Cells API.
+
+## **Aspose.Cells: Cifrar libro de trabajo**
+El siguiente ejemplo muestra cómo puedes cifrar/proteger con contraseña un archivo de Excel utilizando la API de Aspose.Cells.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -32,14 +33,14 @@ workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128)
 workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeEncryptSpreadsheets.java)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Cifrado de archivos de Excel](/cells/es/java/encrypting-excel-files/).
+Para más detalles, visita [Cifrado de archivos de Excel](/cells/es/java/encrypting-excel-files/).
 
 {{% /alert %}}

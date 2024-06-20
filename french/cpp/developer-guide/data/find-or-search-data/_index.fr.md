@@ -1,35 +1,36 @@
 ---
-title: Rechercher ou rechercher des données
+title: Trouver ou rechercher des données
 type: docs
 weight: 80
 url: /fr/cpp/find-or-search-data/
 ---
-##  **Rechercher ou rechercher des données**
-Vous pouvez utiliser Aspose.Cells pour rechercher ou rechercher des données de différentes manières en utilisant la méthode suivante.
 
-- [ObtenirEnumérateur](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getenumerator/)
-- [ObtenirFormule](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getformula/)
-- [ObtenirType](https://reference.aspose.com/cells/cpp/aspose.cells/cell/gettype/)
-- [ObtenirStringValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstringvalue/)
-- [ObtenirIntValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getintvalue/)
-- [ObtenirBoolValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getboolvalue/)
-- [ObtenirDateTimeValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getdatetimevalue/)
-- [ObtenirDoubleValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetDoubleValue/)
-- [ObtenirFloatValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetFloatValue/)
+## **Trouver ou rechercher des données**
+Vous pouvez utiliser Aspose.Cells pour trouver ou chercher des données de différentes manières en utilisant la méthode suivante.
 
- Voir[plus](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) méthodes.
+- [GetEnumerator](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getenumerator/)
+- [GetFormula](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getformula/)
+- [GetType](https://reference.aspose.com/cells/cpp/aspose.cells/cell/gettype/)
+- [GetStringValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstringvalue/)
+- [GetIntValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getintvalue/)
+- [GetBoolValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getboolvalue/)
+- [GetDateTimeValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getdatetimevalue/)
+- [GetDoubleValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetDoubleValue/)
+- [GetFloatValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetFloatValue/)
 
- L'exemple de code suivant illustre l'utilisation des méthodes ci-dessus à l'aide du[exemple de fichier Excel](21266434.xlsx) comme le montre cette capture d'écran.
+Afficher [plus](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) de méthodes.
 
-![tâche : image_alt_text](find-or-search-data_1.png)
-##  **Exemple de code**
+Le code d'exemple suivant illustre l'utilisation des méthodes ci-dessus en utilisant le [fichier Excel d'exemple](21266434.xlsx) tel qu'illustré dans cette capture d'écran.
+
+![todo:image_alt_text](find-or-search-data_1.png)
+## **Code d'exemple**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-FindOrSearchData-new.cpp" >}}
-##  **Sortie console**
- Il s'agit de la sortie console de l'exemple de code ci-dessus lorsqu'il est exécuté avec le paramètre donné.[exemple de fichier Excel](21266434.xlsx).
+## **Sortie console**
+Il s'agit de la sortie de la console du code d'exemple ci-dessus lorsqu'il est exécuté avec le [fichier Excel d'exemple](21266434.xlsx) donné.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Name of the cell containing formula =SUM(A5:A10): C6
 Name of the cell containing the formula that contains CHA: C7

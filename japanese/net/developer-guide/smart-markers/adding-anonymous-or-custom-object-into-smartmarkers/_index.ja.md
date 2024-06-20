@@ -1,18 +1,19 @@
-﻿---
-title: 匿名またはカスタム オブジェクトを SmartMarker に追加する
+---
+title: SmartMarkersに匿名またはカスタムオブジェクトを追加する
 type: docs
 weight: 10
 url: /ja/net/adding-anonymous-or-custom-object-into-smartmarkers/
 ---
+
 {{% alert color="primary" %}} 
 
-ここでは、匿名オブジェクトまたはカスタム オブジェクトを SmartMarker にインポートする方法について説明します。
+匿名またはカスタムオブジェクトをSmartMarkersにインポートする方法について説明しています。
 
-カスタム オブジェクトをデータ ソースとして SmartMarker に含める必要がある場合があります。 Aspose.Cells により、カスタム オブジェクトをデータ ソースとして使用できるようになります。
+時々、SmartMarkersへのデータソースとしてカスタムオブジェクトを含める必要があります。Aspose.Cellsを使用すれば、カスタムオブジェクトをデータソースとして使用できます。
 
 {{% /alert %}} 
 
-カスタム オブジェクトを SmartMarker のデータ ソースとして追加する方法を示す次のサンプル コードを参照してください。
+以下のサンプルコードを参照してください。これは、SmartMarkersのデータソースとしてカスタムオブジェクトを追加する方法を示しています。
 
 
 

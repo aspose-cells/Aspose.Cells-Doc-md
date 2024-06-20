@@ -1,13 +1,14 @@
-﻿---
-title: Üstbilgiler ve Altbilgilerle Çalışma
+---
+title: Başlık ve Altbilgi İle Çalışma
 type: docs
 weight: 110
 url: /tr/net/working-with-headers-and-footers/
 ---
-## **Aspose.Cells - Üst Bilgiler ve Alt Bilgilerle Çalışma**
+
+## **Aspose.Cells - Başlık ve Altbilgi İle Çalışma**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -49,10 +50,10 @@ workbook.Save("../../data/headerfooter.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Üst Bilgiler ve Alt Bilgilerle Çalışma**
+## **NPOI - HSSF XSSF - Başlık ve Altbilgi İle Çalışma**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -74,12 +75,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Üstbilgiler ve Altbilgilerle Çalışma** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Herhangi aşağıdaki sosyal kodlama sitelerinden **Başlık ve Altbilgi İle Çalışma** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarıyla Çalışmak](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Daha fazla ayrıntı için [Çalışma Sayfaları İle Çalışma](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/) ziyaret edin.
 
 {{% /alert %}}

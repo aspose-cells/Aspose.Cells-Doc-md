@@ -1,15 +1,16 @@
-﻿---
+---
 title: التنشيط وإلغاء التنشيط بعد التثبيت
 type: docs
 weight: 30
 url: /ar/sharepoint/activation-and-deactivation-after-installation/
 ---
+
 {{% alert color="primary" %}} 
 
-[أثناء التثبيت](/cells/ar/sharepoint/installing-aspose-cells-for-sharepoint/) ، Aspose.Cells for SharePoint هو[مفعل](/cells/ar/sharepoint/deployment-and-activation/) لجميع مجموعات المواقع المحددة. بعد التثبيت ، استخدم ملف**إجراءات الموقع** القائمة في موقع ويب الجذر لمجموعة المواقع المشتركة لتنشيط وإلغاء تنشيط Aspose.Cells for SharePoint.
+[خلال عملية التثبيت](/cells/ar/sharepoint/installing-aspose-cells-for-sharepoint/)، يتم [تنشيط](/cells/ar/sharepoint/deployment-and-activation/) Aspose.Cells for SharePoint لجميع مجموعات المواقع المحددة. بعد التثبيت، استخدم قائمة **Site Actions** في موقع الويب الرئيسي لمجموعة مواقع لتنشيط وإلغاء تنشيط Aspose.Cells for SharePoint.
 
 {{% /alert %}} 
-### **تفعيل Aspose.Cells for SharePoint في مجموعة المواقع المشتركة.**
-**تفعيل Aspose.Cells** 
+### **تنشيط Aspose.Cells for SharePoint على مجموعة مواقع.**
+**تنشيط Aspose.Cells** 
 
-![ما يجب القيام به: image_بديل_نص](activation-and-deactivation-after-installation_1.png)
+![todo:image_alt_text](activation-and-deactivation-after-installation_1.png)

@@ -1,6 +1,8 @@
-﻿---
-title: Работа со строками и столбцами GridWeb
+---
+title: Работа с строками и столбцами GridWeb
 type: docs
 weight: 50
-url: /ru/net/working-with-gridweb-rows-and-columns/
+url: /ru/net/aspose-cells-gridweb/work-with-gridweb-rows-and-columns/
 ---
+
+

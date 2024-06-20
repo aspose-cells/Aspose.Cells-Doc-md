@@ -1,35 +1,36 @@
-﻿---
+---
 title: Güçlü Şifreleme Türü Ayarlama
 type: docs
 weight: 10
 url: /tr/java/setting-strong-encryption-type/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel (97-2007/2010), elektronik tabloları şifrelemenizi ve parolayla korumanızı sağlar. Bir Kripto Hizmet Sağlayıcısı tarafından sağlanan algoritmaları kullanır. Bir Kripto Hizmet Sağlayıcısı (veya CSP), farklı özelliklere sahip bir dizi kriptografik algoritmadır. Varsayılan CSP "Office 97/2000 Uyumludur". Bu, genel olarak bilinen bazı güvenlik sorunları olan bir CSP'dir. "Zayıf şifreleme (XOR)" veya "Office 97/2000 Uyumlu" şifreleme türü ile korunan elektronik tablolar kolayca kırılabilir.
+Microsoft Excel (97-2007/2010), elektronik tabloları şifrelemeye ve parola korumaya imkan tanır. Bu, bir Kripto Hizmet Sağlayıcısı tarafından sağlanan algoritmaları kullanır. Bir Kripto Hizmet Sağlayıcısı (veya KHS), farklı özelliklere sahip bir dizi kriptografik algoritmalardır. Varsayılan KHS, "Ofis 97/2000 Uyumlu'dur". Bu, bazı halka açık güvenlik sorunları olan bir KHS'dir. "Zayıf şifreleme (XOR)" veya "Ofis 97/2000 Uyumlu" şifreleme türleriyle korunan elektronik tablolar kolayca kırılabilir.
 
-Bu sorunu aşmak için Microsoft Excel tarafından sağlanan güçlü şifreleme türlerinden birini kullanın. Şifreleme türünü mevcut en güçlü CSP olarak değiştirebilirsiniz. Güçlü şifreleme için minimum 128 bit anahtar uzunluğu gereklidir, örneğin 'Microsoft Güçlü Şifreleme Sağlayıcı'.
+Bu sorunu aşmak için, Microsoft Excel tarafından sağlanan güçlü şifreleme türlerinden birini kullanın. Şifreleme türünü en güçlü kullanılabilir KHS'ye değiştirebilirsiniz. Güçlü şifreleme için minimum 128 bitlik bir anahtar uzunluğu gereklidir, örneğin 'Microsoft Güçlü Kriptografik Sağlayıcı'.
 
-Ayrıca Aspose.Cells API'i kullanarak Excel dosyalarını güçlü şifreleme türüyle şifreleyebilir ve parola ile koruyabilirsiniz.
+Aspose.Cells API'sı kullanarak güçlü şifreleme türü ile Excel dosyalarını da şifreleyebilir ve parola koruyabilirsiniz.
 
 {{% /alert %}}
 
-## **Microsoft Excel ile Şifreleme Uygulamak**
+## **Microsoft Excel'de Şifreleme Uygulama**
 
-Microsoft Excel'de (örneğin 2007) dosya şifrelemeyi uygulamak için:
+Microsoft Excel'de dosya şifrelemeyi uygulamak için (örneğin 2007):
 
-1.  itibaren**Araçlar** menü, seç**Seçenekler**.
-1.  seçin**Güvenlik** sekme.
-1.  için bir değer girin**açmak için şifre** tarla.
-1.  Tıklamak**Gelişmiş**.
+1. **Araçlar** menüsünden **Seçenekler**'i seçin.
+1. **Güvenlik** sekmesini seçin.
+1. **Açmak için Parola** alanı için bir değer girin.
+1. **Gelişmiş**'i tıklayın.
 1. Şifreleme türünü seçin ve parolayı onaylayın.
 
-   **Microsoft Excel'de şifrelemeyi ayarlama**
+   **Microsoft Excel'de şifreleme ayarlama**
 
-![yapılacaklar:resim_alternatif_metin](setting-strong-encryption-type_1.png)
+![todo:image_alt_text](setting-strong-encryption-type_1.png)
 
-## **Aspose.Cells ile Şifreleme Uygulamak**
+## **Aspose.Cells ile Şifreleme Uygulama**
 
-Aşağıdaki kod örneği, bir dosyaya güçlü şifreleme uygular ve bir parola ayarlar.
+Aşağıdaki kod örneği, bir dosyaya güçlü şifreleme uygular ve bir parola belirler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyingEncryption-ApplyingEncryption.java" >}}

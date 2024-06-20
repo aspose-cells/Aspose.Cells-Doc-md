@@ -1,13 +1,14 @@
-﻿---
-title: Agregar imagen en la hoja de trabajo
+---
+title: Agregar imagen en hoja de cálculo
 type: docs
 weight: 20
 url: /es/net/add-image-in-worksheet/
 ---
-## **Aspose.Cells - Agregar imagen en la hoja de trabajo**
+
+## **Aspose.Cells - Agregar imagen en hoja de cálculo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -49,10 +50,10 @@ workbook.Save("../../data/image.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Agregar imagen en la hoja de trabajo**
+## **NPOI - HSSF XSSF - Agregar imagen en hoja de cálculo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -60,7 +61,7 @@ ISheet sheet1 = wb.CreateSheet("First Sheet");
 
 //add picture data to this workbook.
 
-byte[]bytes = File.ReadAllBytes("../../data/aspose.png");
+byte[] bytes = File.ReadAllBytes("../../data/aspose.png");
 
 int pictureIdx = wb.AddPicture(bytes, PictureType.PNG);
 
@@ -95,13 +96,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Agregar imagen en la hoja de trabajo** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Agregar imagen en hoja de cálculo** desde cualquiera de los siguientes sitios de programación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Add.Image.in.Worksheet.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Trabajar con hojas de trabajo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Para más detalles, visita [Trabajando con Hojas de Cálculo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

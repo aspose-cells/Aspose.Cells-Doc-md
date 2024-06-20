@@ -1,16 +1,17 @@
-﻿---
-title: Ekle Cell Yorumlar
+---
+title: Hücre Yorumları Ekleyin
 type: docs
 weight: 40
 url: /tr/java/insert-cell-comments/
 ---
-## **Aspose.Cells - Ekle Cell Yorumlar**
 
-Shapes koleksiyonunun addComments yöntemini (Worksheet nesnesinde kapsüllenmiş) çağırarak bir hücreye yorum ekleyin. Yeni Yorum nesnesine, yorum dizini geçirilerek Yorumlar koleksiyonundan erişilebilir. Yorum nesnesine eriştikten sonra, Yorum nesnesinin setNote yöntemini kullanarak yorum notunu özelleştirin.
+## **Aspose.Cells - Hücre Yorumları Ekleme**
+
+Bir hücreye yorum eklemek için, Shapes koleksiyonunun addComments yöntemini (Worksheet nesnesinde kapsüllenmiş) çağırın. Yeni Comment nesnesine, yorum dizisine erişerek geçebilirsiniz. Comment nesnesine eriştikten sonra, yorum notunu Comment nesnesinin setNote yöntemi ile özelleştirebilirsiniz.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -30,13 +31,13 @@ comment.setNote("Hello Aspose!");
 
 {{< /highlight >}}
 
-## **Apache POI SS - HSSF & XSSF - Ekle Cell Yorumlar**
+## **Apache POI SS - HSSF ve XSSF - Hücre Yorumları Ekleme**
 
-Aşağıdaki örnekler, Yorumların Apache POI API kullanılarak nasıl eklenebileceğini göstermektedir.
+Aşağıdaki örnekler, Apache POI API kullanılarak Yorumların nasıl ekleneceğini göstermektedir
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook(); //or new HSSFWorkbook();
 
@@ -84,7 +85,7 @@ cell.setCellComment(comment);
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/addcomments)
 

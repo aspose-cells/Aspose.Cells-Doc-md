@@ -1,40 +1,41 @@
-﻿---
-title: الترخيص
+---
+title: ترخيص
 type: docs
 weight: 40
 url: /ar/jasperreports/licensing/
 ---
-{{% alert color="primary" %}}
-
- Aspose.Cells for JasperReports متاح كتقييم مجاني غير محدود للوقت من[صفحة التحميل](https://downloads.aspose.com/cells/jasperreports). التقييم والإصدارات المرخصة للمنتج هي نفس التنزيل.
-
- عندما تكون سعيدًا بإصدار التقييم ، يمكنك ذلك[شراء رخصة](https://purchase.aspose.com/). تأكد من أنك تفهم وتوافق على شروط الترخيص.
-
-الترخيص متاح للتنزيل من صفحة الطلب عند دفع الطلب. الترخيص عبارة عن ملف XML نصي واضح وموقع رقميًا. يحتوي الترخيص على معلومات مثل اسم العميل والمنتج الذي تم شراؤه ونوع الترخيص. لا تقم بتعديل محتوى ملف الترخيص: القيام بذلك يبطل الترخيص.
-
-هناك طريقتان لتطبيق الترخيص:
-
-- [ترخيص مجموعة الاتصال](/cells/ar/jasperreports/licensing/#call-setlicense)
-- [قم بتعيين معامل المصدر في applicationContext.xml](/cells/ar/jasperreports/licensing/#set-the-licensefile-exporter-parameter-in-applicationcontextxml)
-
-بعد تثبيت الترخيص ،
-
-- [تحقق من أنه يعمل](/cells/ar/jasperreports/licensing/#verify-the-license-works).
-
-{{% /alert %}}
-
-## **ترخيص مجموعة الاتصال**
 
 {{% alert color="primary" %}}
 
-هذه الطريقة قابلة للتطبيق للاستخدام مع JasperReports.
+يتوفر Aspose.Cells for JasperReports بشكل مجاني كنسخة تقييمية غير محددة المدة من [صفحة التنزيل](https://downloads.aspose.com/cells/jasperreports). الإصدارات التقييمية والمرخصة للمنتج هي نفس التنزيل.
+
+عندما تكون راضيًا عن الإصدار التجريبي، يمكنك [شراء ترخيص](https://purchase.aspose.com/). تأكد من فهم والموافقة على شروط الترخيص.
+
+تتوفر الترخيص للتنزيل من صفحة الطلب بعد دفع الطلب. يعد الترخيص ملف XML موقع نصي وقع رقميًا. يحتوي الترخيص على معلومات مثل اسم العميل والمنتج المشترى ونوع الترخيص. لا تقم بتعديل محتوى ملف الترخيص: فعل ذلك يبطل الترخيص.
+
+هناك طريقتان لتطبيق ترخيص:
+
+- [اتصل ب setLicense](/cells/ar/jasperreports/licensing/#call-setlicense)
+- [قم بتعيين معلمة مصدر في applicationContext.xml](/cells/ar/jasperreports/licensing/#set-the-licensefile-exporter-parameter-in-applicationcontextxml)
+
+بعد تثبيت الترخيص،
+
+- [تحقق مما إذا كان يعمل](/cells/ar/jasperreports/licensing/#verify-the-license-works).
 
 {{% /alert %}}
 
- قم بتنزيل الترخيص على جهاز الكمبيوتر الخاص بك وانسخه إلى المجلد المناسب (على سبيل المثال مجلد التطبيق الخاص بك أو**جاسبر ريبورتس \ ليب**).
+## **اتصل ب setLicense**
+
+{{% alert color="primary" %}}
+
+هذه الطريقة قابلة للاستخدام مع JasperReports.
+
+{{% /alert %}}
+
+قم بتنزيل الترخيص إلى جهاز الكمبيوتر الخاص بك وانسخه إلى المجلد المناسب (على سبيل المثال، مجلد التطبيق الخاص بك أو **JasperReports\lib**).
 أضف الكود التالي إلى مشروعك:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 import com.aspose.cells.jasperreports.*;
 
@@ -50,20 +51,20 @@ license.setLicense(fstream);
 
 {{< /highlight >}}
 
-## **قم بتعيين معلمة مصدر الترخيص في applicationContext.xml**
+## **قم بتعيين معلمة تصدير licenseFile في applicationContext.xml**
 
 {{% alert color="primary" %}}
 
-هذه الطريقة قابلة للتطبيق للاستخدام مع JasperServer.
+هذه الطريقة قابلة للاستخدام مع JasperServer.
 
 {{% /alert %}}
 
-1.  قم بتنزيل الترخيص على جهاز الكمبيوتر الخاص بك وانسخه إلى ملف**\ <InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF**المجلد ، حيث**\ <InstallDir>** لتقف على دليل التثبيت JasperServer.
-1.  حدد موقع ملف**\ <InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ applicationContext.xml** ملف وإضافة الأسطر التالية:
+1. Download the license to your computer and copy it to the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF** folder, where **\<InstallDir>** stands for the JasperServer installation directory.
+1. Locate the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file and add the following lines:
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   <bean id="excelACExportParameters" class="com.aspose.cells.jasperreports.ACXlsExportParametersBean">
 
@@ -75,12 +76,12 @@ license.setLicense(fstream);
 
 ## **تحقق من عمل الترخيص**
 
-قم بتصدير أي تقرير بتنسيق XLS وتحقق مما إذا كان التقرير يحتوي على رسالة تقييم. إذا لم تكن هناك رسالة تقييم ، فهذا يعني أن الترخيص يعمل بشكل صحيح.
+قم بتصدير أي تقرير إلى تنسيق XLS وتحقق مما إذا كان يحتوي التقرير على رسالة تقييم. إذا لم تكن هناك رسالة تقييم، فإن الترخيص يعمل بشكل صحيح.
 
-**Aspose.Cells for JasperReports يضخ ورقة عمل التقييم في وضع التقييم** 
+**يقوم Aspose.Cells for JasperReports بحقن ورقة عمل تقييم بوضع التقييم** 
 
-![ما يجب القيام به: image_بديل_نص](licensing_1.png)
+![todo:image_alt_text](licensing_1.png)
 
-**عندما يكون الترخيص ساري المفعول لا توجد ورقة عمل للتقييم** 
+**عندما يكون هناك ترخيص صالح لا توجد ورقة عمل تقييم** 
 
-![ما يجب القيام به: image_بديل_نص](licensing_2.png)
+![todo:image_alt_text](licensing_2.png)

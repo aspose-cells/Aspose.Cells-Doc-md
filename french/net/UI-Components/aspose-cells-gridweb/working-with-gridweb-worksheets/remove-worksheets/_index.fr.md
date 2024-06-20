@@ -1,17 +1,20 @@
-﻿---
-title: Supprimer des feuilles de calcul
+---
+title: Supprimer les feuilles de calcul
 type: docs
 weight: 30
-url: /fr/net/remove-worksheets/
+url: /fr/net/aspose-cells-gridweb/remove-worksheets/
+keywords: GridWeb, supprimer, supprimer GridWorksheet, supprimer la feuille de calcul
+description: Cet article présente comment supprimer une feuille de calcul (GridWorksheet) dans GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Cette rubrique fournit des informations sur la suppression des feuilles de calcul des fichiers Excel Microsoft à l'aide du Aspose.Cells.GridWeb API. Il est possible de supprimer une feuille de calcul en spécifiant son index ou son nom de feuille.
+Ce sujet fournit des informations sur la façon de supprimer des feuilles de calcul à partir de fichiers Microsoft Excel en utilisant l'API Aspose.Cells.GridWeb. Il est possible de supprimer une feuille de calcul en spécifiant son indice ou son nom de feuille.
 
 {{% /alert %}} 
 ## **Suppression d'une feuille de calcul**
-### **Utilisation de l'index des feuilles**
-Le code ci-dessous montre comment supprimer une feuille de calcul en spécifiant son index de feuille dans la méthode RemoveAt de GridWorksheetCollection.
+### **En utilisant l'indice de la feuille**
+Le code ci-dessous montre comment supprimer une feuille de calcul en spécifiant son indice de feuille dans la méthode RemoveAt de GridWorksheetCollection.
 
 
 
@@ -25,6 +28,6 @@ Le code ci-dessous montre comment supprimer une feuille de calcul en spécifiant
 
 {{% alert color="primary" %}} 
 
-Il est également possible de supprimer une feuille de calcul à l'aide de sa référence ou de son instance. Pour ce faire, utilisez la méthode Remove de GridWorksheetCollection. Cette approche est couramment utilisée.
+Il est également possible de supprimer une feuille de calcul en utilisant sa référence ou son instance. Pour ce faire, utilisez la méthode Remove de GridWorksheetCollection. Cette approche est couramment utilisée.
 
 {{% /alert %}}

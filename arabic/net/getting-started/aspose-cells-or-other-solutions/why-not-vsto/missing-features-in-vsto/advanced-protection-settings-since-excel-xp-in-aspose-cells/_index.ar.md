@@ -1,48 +1,49 @@
-﻿---
+---
 title: إعدادات الحماية المتقدمة منذ Excel XP في Aspose.Cells
 type: docs
 weight: 20
 url: /ar/net/advanced-protection-settings-since-excel-xp-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-- احذف الصفوف أو الأعمدة.
+- حذف الصفوف أو الأعمدة.
 - تحرير المحتويات أو الكائنات أو السيناريوهات.
 - تنسيق الخلايا أو الصفوف أو الأعمدة.
-- قم بإدراج صفوف أو أعمدة أو ارتباطات تشعبية.
-- حدد الخلايا المؤمنة أو غير المؤمنة.
-- استخدم الجداول المحورية وغير ذلك الكثير.
+- إدراج الصفوف أو الأعمدة أو الروابط الفرعية.
+- تحديد الخلايا المقفلة أو غير المقفلة.
+- استخدام الجداول المحورية وأكثر من ذلك بكثير.
 
-يدعم Aspose.Cells كافة إعدادات الحماية المتقدمة التي يوفرها Excel XP أو الإصدارات الأحدث.
+تدعم Aspose.Cells جميع إعدادات الحماية المتقدمة المقدمة من Excel XP أو الإصدارات اللاحقة.
 
 {{% /alert %}}
 
-## **إعدادات الحماية المتقدمة باستخدام Excel XP والإصدارات الأحدث**
+## **إعدادات الحماية المتقدمة باستخدام Excel XP والإصدارات اللاحقة**
 
-لعرض إعدادات الحماية المتوفرة في Excel XP:
+لعرض إعدادات الحماية المتاحة في Excel XP:
 
-1.  من**أدوات** القائمة ، حدد**حماية** تليها**ورقة حماية**.
- يتم عرض مربع حوار.
+1. من القائمة **الأدوات**, حدد **الحماية** تلاها **حماية الورقة**.
+   يتم عرض مربع حوار.
 
    **مربع حوار لإظهار خيارات الحماية في Excel XP**
 
-![ما يجب القيام به: image_بديل_نص](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
+![todo:image_alt_text](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
 
-1. السماح أو تقييد ميزات أوراق العمل أو تطبيق كلمة مرور.
+1. السماح أو تقييد ميزات صفحات العمل أو تطبيق كلمة مرور.
 
 ### **إعدادات الحماية المتقدمة باستخدام Aspose.Cells**
 
-Aspose.Cells يدعم كل إعدادات الحماية المتقدمة.
+تدعم Aspose.Cells جميع إعدادات الحماية المتقدمة.
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي.
+توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، التي تمثل ملف Microsoft Excel. تحتوي فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. تمثل ورقة عمل بفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
 
- ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فئة توفر[**حماية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)الخاصية المستخدمة لتطبيق إعدادات الحماية المتقدمة هذه. ال[**حماية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) الخاصية هي في الواقع كائن من[**حماية**](https://reference.aspose.com/cells/net/aspose.cells/protection) فئة تضم العديد من الخصائص المنطقية لتعطيل القيود أو تمكينها.
+تقدم فئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) خاصية [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) التي تُستخدم لتطبيق هذه الإعدادات المتقدمة للحماية. الخاصية [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) هي في الواقع كائن لفئة [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/protection) التي تحتوي على عدة خصائص بوليانية لتعطيل أو تمكين القيود.
 
-يوجد أدناه مثال صغير للتطبيق. يفتح ملف Excel ويستخدم معظم إعدادات الحماية المتقدمة التي يدعمها Excel XP والإصدارات الأحدث.
+فيما يلي مثال تطبيقي صغير. يفتح ملف Excel ويستخدم معظم إعدادات الحماية المتقدمة المدعومة من Excel XP والإصدارات اللاحقة.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -128,8 +129,8 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Advanced%20Protection%20Settings)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Advanced%20Protection%20Settings)
 
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

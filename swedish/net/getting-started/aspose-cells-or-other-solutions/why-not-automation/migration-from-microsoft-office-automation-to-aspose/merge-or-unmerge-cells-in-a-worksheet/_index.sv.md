@@ -1,28 +1,29 @@
-﻿---
-title: Sammanfoga eller ta bort sammanfogningen Cells i ett kalkylblad
+---
+title: Sammanfoga eller avsammanfoga celler i en arbetsbok
 type: docs
 weight: 40
 url: /sv/net/merge-or-unmerge-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-När du arbetar med kalkylblad behöver du ofta skapa en titel/rubrik i en enda cell som sträcker sig över toppen av ditt kalkylblad. Du kanske skapar en faktura och vill ha färre kolumner för total- eller sammanfattningsvärden. När du vill göra en cell av två eller flera celler slår du ihop cellerna. Vi utför uppgiften med VSTO och Aspose.Cells for .NET oberoende.
+När du arbetar med arbetsböcker behöver du ofta skapa en titel/överskrift i en enda cell som sträcker sig över toppen på din arbetsbaka. Du kanske skapar en faktura och vill ha färre kolumner för totala eller summerade värden. När du vill göra en cell av två eller flera celler, sammanfogar du cellerna. Vi utför uppgiften med hjälp av VSTO och Aspose.Cells for .NET oberoende.
 
 {{% /alert %}}
 
 ## **Beskrivning**
 
-Öppna en befintlig excel-fil, slå samman några celler i det första kalkylbladet i arbetsboken och spara excel-filen.
+Öppna en befintlig excelfil, Sammanslå några celler i det första arbetsbladet i arbetsboken och spara excelfilen.
 
-## **Slår ihop Cells**
+## **Sammanfoga celler**
 
-Följande är de parallella kodavsnitten för VSTO (C#, VB) och Aspose.Cells for .NET (C#, VB).
+Följande är parallella kodsnuttar för VSTO (C#, VB) och Aspose.Cells for .NET (C#, VB).
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -86,7 +87,7 @@ excelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -122,15 +123,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **Ta bort sammanslagningen av Cells**
+## **Avsammanfoga celler**
 
-Använd följande kodrader för VSTO (C#, VB) och Aspose.Cells for .NET (C#, VB) för att ta bort cellen/cellerna.
+För att avsammanfoga cellerna, använd följande kodrader för VSTO (C#, VB) och Aspose.Cells for .NET (C#, VB).
 
 ### **1) VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 
@@ -148,7 +149,7 @@ rng1.UnMerge();     
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the A1 cell (Merged Cell).
 

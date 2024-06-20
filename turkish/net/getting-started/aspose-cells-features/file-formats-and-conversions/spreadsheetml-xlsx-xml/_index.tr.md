@@ -1,42 +1,43 @@
-﻿---
+---
 title: SpreadsheetML - XLSX, XML
 type: docs
 weight: 10
 url: /tr/net/spreadsheetml-xlsx-xml/
 ---
-## **SpreadsheetML hakkında**
-SpreadsheetML, elektronik tablo belgeleri için XML tabanlı bir biçim ailesinin adıdır. SpreadsheetML'in birkaç versiyonu vardır:
 
-1. SpreadsheetML sürüm 2003, Microsoft Word 2003'te tanıtıldı. SpreadsheetML, Microsoft tarafından belge biçimini açmaya yönelik önemli bir adımdı.
-1. [Office Açık XML'i](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML), Microsoft Office 2007 uygulamalarında tanıtılan yeni XML tabanlı biçimdir. Office Açık XML, birkaç özel XML tabanlı biçimlendirme dili için bir kap biçimidir. SpreadsheetML sürüm 2007, Microsoft Office Excel 2007 tarafından belgelerini depolamak için kullanılan biçimlendirme dilidir.
-1. Microsoft Excel 2010, belgeleri güncel OOXML standardında tanımlandığı şekilde SpreadsheetML sürüm 2010'da depolar.
-## **SpreadsheetML içinde Aspose.Cells**
-SpreadsheetML'in üç "versiyonu" mevcuttur:
+## **SpreadsheetML Hakkında**
+SpreadsheetML, elektronik tablo belgeleri için XML tabanlı formatların bir ailesi için bir isimdir. SpreadsheetML'in birkaç sürümü bulunmaktadır:
 
-|**SpreadsheetML "Sürüm"**|**Geçerli Standart/Şartname**|**Aspose.Cells for .NET'de desteklenir**|
-|:- |:- |:- |
-|Microsoft excel 2003|[Microsoft Excel 2003 XML'i](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Evet|
-|Microsoft excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|Evet|
-|Microsoft excel 2010|OOXML ISO/IEC DIS 29500|Evet|
-|Microsoft excel 2013|OOXML ISO/IEC DIS 29500|Evet|
-OOXML SpreadsheetML belgeleri genellikle ZIP paketleri olan XLSX dosyaları olarak gelir. XLSX'e ek olarak. Aspose.Cells, SpreadsheetML belgelerinin yüklenmesi, kaydedilmesi ve dönüştürülmesi için kapsamlı destek sağlar. Aspose.Cells, Microsoft Excel belgelerinin yapısı düşünülerek tasarlandığından (ve SpreadsheetML'in, Microsoft Excel belgelerinin dahili temsilini taklit ettiği bilinmektedir) bu tür her şeyi kapsayan uygulama mümkündür.
-### **OOXML Açık, Neden Aspose.Cells Kullanılmalı?**
-Office Açık XML teknolojisinin, Aspose.Cells gibi üçüncü taraf kitaplıklara güvenmeden yalnızca XML sınıflarını kullanarak belge işleme ve oluşturma uygulamaları oluşturmayı mümkün kıldığı doğrudur. XML veya diğer kitaplıklar aracılığıyla çalışmak yerine OOXML belgeleriyle ilgilenmek için.
+1. SpreadsheetML sürüm 2003, Microsoft Word 2003'te tanıtılmıştır. SpreadsheetML, belge formatını açık yapma konusunda Microsoft tarafından atılmış önemli bir adımdır.
+1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML), Microsoft Office 2007 uygulamalarında tanıtılmış yeni XML tabanlı formattır. Office Open XML, birkaç özel XML tabanlı işaretleme dili için bir konteyner formatıdır. SpreadsheetML sürüm 2007, Microsoft Office Excel 2007 tarafından belgelerini depolamak için kullanılan işaretleme dilidir.
+1. Microsoft Excel 2010, belgelerini güncellenmiş OOXML standartında tanımlanan SpreadsheetML sürüm 2010'da depolar.
+## **Aspose.Cells'te SpreadsheetML**
+Mevcut üç "sürüm" ile ilgili olarak SpreadsheetML mevcuttur:
 
-OOXML belirtimi birkaç bin sayfa uzunluğundadır. Açık ve standart olmak, basit olmak anlamına gelmez. OOXML belgelerini doğru bir şekilde işlemek veya oluşturmak için, formatı iyi öğrenmeye yatırım yapılmalıdır.
+|**SpreadsheetML “Sürüm”**|**Uygulanabilir Standart/Özellik**|**Aspose.Cells for .NET’de Desteklenir**|
+| :- | :- | :- |
+|Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Evet|
+|Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|Evet|
+|Microsoft Excel 2010|OOXML ISO/IEC DIS 29500|Evet|
+|Microsoft Excel 2013|OOXML ISO/IEC DIS 29500|Evet|
+OOXML SpreadsheetML belgeleri genellikle ZIP paketleri olarak gelen XLSX dosyalarıdır. Aspose.Cells, SpreadsheetML belgelerini yükleme, kaydetme ve dönüştürme konusunda kapsamlı destek sağlar. Bu kapsamlı uygulama, Aspose.Cells'in Microsoft Excel belgelerinin yapısı göz önünde bulundurularak tasarlandığından mümkündür (ve SpreadsheetML'nin Microsoft Excel belgelerinin dahili temsilini taklit ettiği bilinir).
+### **OOXML açıktır, Neden Aspose.Cells Kullanmalısınız?**
+Office Open XML teknolojisinin, Aspose.Cells gibi üçüncü şahıs kütüphanelerine dayanmadan yalnızca XML sınıflarını kullanarak belge işleme ve oluşturma uygulamaları oluşturulmasını mümkün kıldığı doğrudur. Ancak, OOXML belgeleriyle uğraşmak zorunda kaldığınızda XML veya diğer kütüphaneler aracılığıyla çalışmaktan ziyade, Aspose.Cells kullanmanın hala çok faydalı olduğuna şiddetle inanıyoruz.
 
-Aspose.Cells, geçerli belgeleri doğru bir şekilde işlemeyi ve oluşturmayı kolaylaştırmanın yanı sıra, OOXML dosyalarıyla doğrudan XML veya diğer üçüncü taraf kitaplıkları aracılığıyla çalışırken sahip olamayacağınız aşağıdaki önemli özellikleri sağlar:
+OOXML belgesi birkaç bin sayfa uzunluğundadır. Açık ve standart olmak, basit olmak anlamına gelmez. OOXML belgelerini doğru bir şekilde işlemek veya oluşturmak için formata iyi bir şekilde hakim olmak gereklidir.
 
-- PDF, HTML, TIFF'e dönüştürme ve yazdırma dahil olmak üzere birçok popüler Excel biçimi arasında kaliteli dönüştürmeler.
-- Verileri biçemsel biçimlendirme, çizelgeler ve grafiklerle otomatik olarak birleştirirken, parçalardan, bir veya daha fazla belgeden belgeler oluşturma yeteneği.
-- Array, ArrayList, DataTable, DataColumn, DataGrid, DataView ve DataReader dahil olmak üzere farklı veri kaynaklarından veri içe aktarma veya bir DataTable veya Array'i tek bir kod satırıyla doldurmak için verileri dışa aktarma gibi üst düzey işlevler.
-- Neredeyse tüm standart ve gelişmiş Microsoft Excel İşlevlerini destekleyen Sağlam Formül Hesaplama Motoru.
+Geçerli belgeleri doğru bir şekilde işlemeyi ve oluşturmayı daha basit hale getirmenin yanı sıra, Aspose.Cells, aşağıdaki önemli özellikleri sağlar: XML veya diğer üçüncü taraf kütüphanelerle doğrudan çalışırken sahip olmayacağınız:
 
-Aşağıdaki örneği ele alalım. Bazı hücreler kalın harflerle “Hello World” metnini içerir. Şimdi, çalışma sayfasındaki tüm "Hello World" ifadelerini arayan ve onları "Dünyaya Elveda" ile değiştiren bir program yazmanız gerektiğini hayal edin.
-### **Office Açık XML Belgesinin bir parçası**
-**xml**
+- PDF, HTML, TIFF'e dönüşüm de dahil olmak üzere birçok popüler Excel formatı arasında kaliteli dönüşümler.
+- Stil formatlama, grafik ve grafiklerle otomatik olarak verileri birleştirerek, bir veya birden fazla belgeden belgelerden belge oluşturabilme yeteneği.
+- Array, ArrayList, DataTable, DataColumn, DataGrid, DataView ve DataReader gibi farklı veri kaynaklarından veri alabilme veya bir satır kodla bir DataTable'a veya Diziye veri doldurabilme gibi yüksek düzeyli işlevler.
+- Hemen hemen tüm standart ve gelişmiş Microsoft Excel Fonksiyonlarını destekleyen güçlü Formül Hesaplama Motoru.
 
-{{< highlight "csharp" >}}
+Aşağıdaki örneği düşünün. Bazı hücreler kalın şekilde 'Merhaba Dünya' metnini içerir. Şimdi, çalışsayan bir program yazmanız gerektiğini hayal edin ve bu metni 'Hoşçakal Yeryüzü' ile değiştirmeniz gerektiğini düşünün.
+### **Office Open XML Belgesinin bir parçası**
+**XML**
+
+{{< highlight csharp >}}
 
  <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
@@ -169,4 +170,4 @@ Aşağıdaki örneği ele alalım. Bazı hücreler kalın harflerle “Hello Wor
 {{< /highlight >}}
 
 
-Bir Office Açık XML belgesinde basit bir bul ve değiştir işlemini uygulamak bile zordur. Önerimiz: Açık ve standardın basit anlamına gelmediğini unutmayın ve Aspose.Cells'i kullanın.
+Bir Office Open XML belgesinde bile basit bir ara bul ve değiştir işlemini uygulamak zordur. Tavsiyemiz: açık ve standart olmanın basit anlamına gelmediğini unutmayın ve Aspose.Cells kullanın.

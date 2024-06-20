@@ -1,33 +1,34 @@
 ---
-title: Geben Sie an, wie die Zeichenfolge in Ausgabe PDF und Bild gekreuzt werden soll
+title: Angabe, wie Zeichen in der Ausgabedatei PDF und Bild gekreuzt werden sollen
 type: docs
 weight: 120
 url: /de/python-net/specify-how-to-cross-string-in-output-pdf-and-image/
-description: Erfahren Sie, wie Sie die Zeichenfolge in der Ausgabe PDF und im Bild mit Aspose.Cells for Python via .NET API kreuzen.
-keywords: Python Cross String in output PDF and image
+description: Erfahren Sie, wie Text in der Ausgabe PDF und im Bild mit der Aspose.Cells für Python via .NET API durchkreuzt wird.
+keywords: Python Text in der Ausgabe PDF und im Bild durchkreuzen
 ---
-##  **Mögliche Nutzungsszenarien**
 
-Wenn eine Zelle Text oder eine Zeichenfolge enthält, diese jedoch größer als die Breite der Zelle ist, läuft die Zeichenfolge über, wenn die nächste Zelle in der nächsten Spalte null oder leer ist. Wenn Sie Ihre Excel-Datei unter PDF/Image speichern, können Sie diesen Überlauf steuern, indem Sie den Kreuztyp mithilfe von angeben[**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/)Aufzählung. Es hat die folgenden Werte
+## **Mögliche Verwendungsszenarien**
 
-- *TextCrossType.DEFAULT**: Zeigt Text wie MS Excel an, der von der nächsten Zelle abhängt. Wenn die nächste Zelle null ist, kreuzt sich die Zeichenfolge oder sie wird abgeschnitten.
+Wenn eine Zelle Text oder einen String enthält, der breiter ist als die Breite der Zelle, dann überläuft der String, wenn die nächste Zelle in der nächsten Spalte leer ist. Wenn Sie Ihre Excel-Datei in PDF/Bild speichern, können Sie dieses Überlaufen kontrollieren, indem Sie den Kreuztyp mithilfe der Aufzählung [**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/) angeben. Es hat die folgenden Werte
 
-- *TextCrossType.CROSS_KEEP**: Zeigt die Zeichenfolge wie MS Excel beim Exportieren von PDF/Image an
+- **TextCrossType.DEFAULT**: Zeige Text wie in MS Excel, abhängig von der nächsten Zelle. Wenn die nächste Zelle null ist, wird der String durchkreuzt oder abgeschnitten.
 
-- *TextCrossType.CROSS_OVERRIDE**: Zeigt den gesamten Text an, indem andere Zellen gekreuzt werden, und überschreibt den Text gekreuzter Zellen
+- **TextCrossType.CROSS_KEEP**: Zeige den String wie in MS Excel beim Exportieren von PDF/Bild.
 
-- *TextCrossType.STRICT_IN_CELL**: Zeigt die Zeichenfolge nur innerhalb der Breite der Zelle an.
+- **TextCrossType.CROSS_OVERRIDE**: Zeige den gesamten Text, indem andere Zellen durchkreuzt und der Text der durchkreuzten Zellen überschrieben wird.
 
-##  **Geben Sie an, wie die Zeichenfolge in der Ausgabe PDF/Image mithilfe von TextCrossType gekreuzt werden soll**
+- **TextCrossType.STRICT_IN_CELL**: Zeige den String nur innerhalb der Breite der Zelle.
 
-Der folgende Beispielcode lädt die Beispiel-Excel-Datei und speichert sie im Format PDF/Bild, indem Sie ein anderes angeben[**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/)Die Beispiel-Excel-Datei und die Ausgabedateien können über die folgenden Links heruntergeladen werden:
+## **Angabe, wie Zeichen in der Ausgabedatei PDF/Bild mithilfe von TextCrossType überquert werden sollen**
+
+Der folgende Beispielcode lädt die Beispiel-Excel-Datei und speichert sie im PDF/Bildformat, indem verschiedene [**TextCrossType**](https://reference.aspose.com/cells/python-net/aspose.cells/textcrosstype/) angegeben werden. Die Beispiel-Excel-Datei und die Ausgabedateien können von den folgenden Links heruntergeladen werden:
 
 [sampleCrossType.xlsx](81920905.xlsx)
 
-[AusgabeCrossType.pdf](81920903.pdf)
+[outputCrossType.pdf](81920903.pdf)
 
-[AusgabeCrossType.png](81920904.png)
+[outputCrossType.png](81920904.png)
 
-###  Beispielcode
+### Beispielcode
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderUsingTextCrossType-1.py" >}}

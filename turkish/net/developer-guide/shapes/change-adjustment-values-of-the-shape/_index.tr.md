@@ -1,22 +1,23 @@
-﻿---
-title: Şeklin Ayarlama Değerlerini Değiştirme
+---
+title: Şekil Ayar Değerlerini Değiştir
 type: docs
 weight: 2000
 url: /tr/net/change-adjustment-values-of-the-shape/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells sağlar[**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) şekillerle ayar noktalarında değişiklik yapma özelliği. Microsoft Excel kullanıcı arabiriminde, ayarlamalar sarı elmas düğümler olarak görüntülenir. Örneğin:
+Aspose.Cells, şekillerin ayar noktalarını değiştirmek için [**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) özelliğini sağlar. Microsoft Excel arayüzünde, ayarlamalar sarı elmas düğme noktaları olarak görüntülenir. Örneğin:
 
-- Yuvarlatılmış Dikdörtgenin yayı değiştirmek için bir ayarı vardır
-- Üçgenin noktanın konumunu değiştirmek için bir ayarı vardır
-- Yamuk, üst kısmın genişliğini değiştirmek için bir ayara sahiptir
-- Baş ve kuyruğun şeklini değiştirmek için okların iki ayarı vardır
+- Yuvarlatılmış Dikdörtgenin yay değiştirmek için ayarlaması vardır
+- Üçgenin nokta konumunu değiştirmek için bir ayarlaması vardır
+- Trapezoid, üst genişliği değiştirmek için bir ayarlamaya sahiptir
+- Oklar, baş ve kuyruk şeklini değiştirmek için iki ayarlamaya sahiptir
 
- Bu makale kullanımını açıklayacaktır[**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) farklı şekillerin ayarlama değerini değiştirme özelliği.
+Bu makale, farklı şekillerin ayar değerini değiştirmek için [**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) özelliğinin kullanımını açıklayacaktır.
 
 {{% /alert %}}
 
-Aşağıdaki kod örneği, şeklin ayar değerlerinin nasıl değiştirileceğini gösterir.
+Aşağıdaki kod örneği, şeklin ayar değerlerini nasıl değiştireceğinizi göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ChangeShapesAdjustmentValues-1.cs" >}}

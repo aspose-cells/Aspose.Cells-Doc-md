@@ -1,16 +1,17 @@
-﻿---
-title: Finden Sie heraus, ob der Zellenwert mit einem einfachen Anführungszeichen beginnt
+---
+title: Überprüfen Sie, ob der Zellenwert mit einem einfachen Anführungszeichen beginnt
 type: docs
 weight: 610
 url: /de/java/find-if-the-cell-value-starts-with-single-quote-mark/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells bietet jetzt die[Style.QuotePräfix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) -Eigenschaft, um festzustellen, ob der Zellenwert mit einem einfachen Anführungszeichen beginnt. Vor dieser Eigenschaft gab es keine Möglichkeit, zwischen Zeichenketten wie sample und 'sample etc.
+Aspose.Cells bietet nun die Eigenschaft [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) um festzustellen, ob der Zellenwert mit einem einzelnen Anführungszeichen beginnt. Vor dieser Eigenschaft gab es keine Möglichkeit, zwischen Zeichenfolgen wie Beispiel und 'Beispiel zu unterscheiden.
 
 {{% /alert %}} 
-## **Finden Sie heraus, ob der Zellenwert mit einem einfachen Anführungszeichen beginnt**
-Der folgende Beispielcode erklärt, dass die Zeichenfolgen wie sample und 'sample nicht mit unterschieden werden können[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) Eigentum. Deshalb müssen wir verwenden[Style.QuotePräfix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)Eigenschaft, sie zu unterscheiden.
+## **Finden, ob der Zellenwert mit einem einzelnen Anführungszeichen beginnt**
+Der folgende Beispielcode erklärt, dass die Zeichenfolgen wie Beispiel und 'Beispiel nicht mit der Eigenschaft [Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) unterschieden werden können. Daher müssen wir die Eigenschaft [Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) verwenden, um sie zu unterscheiden.
 
 
 

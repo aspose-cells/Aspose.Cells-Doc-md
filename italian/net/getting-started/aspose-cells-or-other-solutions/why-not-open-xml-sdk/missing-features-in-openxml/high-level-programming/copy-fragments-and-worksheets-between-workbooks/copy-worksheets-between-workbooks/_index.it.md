@@ -1,30 +1,31 @@
-﻿---
-title: Copia fogli di lavoro tra cartelle di lavoro
+---
+title: Copia i fogli tra i workbook
 type: docs
 weight: 10
 url: /it/net/copy-worksheets-between-workbooks/
 ---
-Aspose.Cells fornisce un metodo, Aspose.Cells.Worksheet.Copy() utilizzato per copiare i dati e la formattazione da un foglio di lavoro di origine a un altro foglio di lavoro all'interno o tra le cartelle di lavoro. Il metodo accetta l'oggetto del foglio di lavoro di origine come parametro.
 
-L'esempio seguente mostra come copiare un foglio di lavoro da una cartella di lavoro a un'altra cartella di lavoro.
+Aspose.Cells fornisce un metodo, Aspose.Cells.Worksheet.Copy(), utilizzato per copiare dati e formattazione da un foglio di lavoro sorgente a un altro foglio di lavoro all'interno o tra i workbook. Il metodo prende l'oggetto foglio di lavoro sorgente come parametro.
 
-{{< highlight "csharp" >}}
+L'esempio seguente mostra come copiare un foglio di lavoro da un libro di lavoro a un altro libro di lavoro.
 
-string FilePath = @"..\..\..\File di esempio\";
+{{< highlight csharp >}}
 
-string FileName = FilePath + "Copia foglio tra Workbook.xlsx";
+ string FilePath = @"..\..\..\Sample Files\";
 
-//Crea una nuova cartella di lavoro.
+string FileName = FilePath + "Copy Sheet between Workbook.xlsx";
 
-Cartella di lavoro excelWorkbook0 = nuova cartella di lavoro();
+//Create a new Workbook.
 
-//Prendi il primo foglio di lavoro nel libro.
+Workbook excelWorkbook0 = new Workbook();
 
-Foglio di lavoro ws0 = excelWorkbook0.Worksheets[0];
+//Get the first worksheet in the book.
 
-//Inserisci alcuni dati nelle righe di intestazione (A1:A4)
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
- per (int i = 0; i< 5; i++)
+//Put some data into header rows (A1:A4)
+
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -78,21 +79,21 @@ excelWorkbook1.Save(FileName);
 ## **Scarica il codice di esempio**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
-L'esempio seguente mostra come copiare un foglio di lavoro da una cartella di lavoro a un'altra cartella di lavoro.
+L'esempio seguente mostra come copiare un foglio di lavoro da un libro di lavoro a un altro libro di lavoro.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Crea una nuova cartella di lavoro.
+ //Create a new Workbook.
 
-Cartella di lavoro excelWorkbook0 = nuova cartella di lavoro();
+Workbook excelWorkbook0 = new Workbook();
 
-//Prendi il primo foglio di lavoro nel libro.
+//Get the first worksheet in the book.
 
-Foglio di lavoro ws0 = excelWorkbook0.Worksheets[0];
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-//Inserisci alcuni dati nelle righe di intestazione (A1:A4)
+//Put some data into header rows (A1:A4)
 
- per (int i = 0; i< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 

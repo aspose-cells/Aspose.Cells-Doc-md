@@ -1,22 +1,25 @@
-﻿---
-title: Standardschriftart und Schriftfarbe des GridDesktop
+---
+title: Standard Schriftart und Schriftfarbe des GridDesktop
 type: docs
 weight: 70
-url: /de/net/default-font-and-font-color-of-the-griddesktop/
+url: /de/net/aspose-cells-griddesktop/default-font-and-font-color-of-the-griddesktop/
+keywords: GridDesktop, Schriftart, Farbe
+description: Dieser Artikel stellt die Standard Schriftart und Schriftfarbe in GridDesktop vor.
 ---
-## **Mögliche Nutzungsszenarien**
-Manchmal möchten Sie die Standardschriftart und -farbe des GridDesktop ändern. Verwenden Sie dazu bitte die beiden folgenden Eigenschaften. Auf diese Eigenschaften können Sie je nach Bedarf zur Entwurfszeit oder zur Laufzeit zugreifen.
+
+## **Mögliche Verwendungsszenarien**
+Manchmal möchten Sie die Standard-Schriftart und Schriftfarbe des GridDesktop ändern. Verwenden Sie hierfür bitte die folgenden beiden Eigenschaften. Sie können je nach Bedarf auf diese Eigenschaften zur Entwurfszeit oder zur Laufzeit zugreifen.
 
 - GridDesktop.DefaultCellFont
 - GridDesktop.DefaultCellFontColor
-## **Ändern Sie die Standardschriftart und -farbe zur Entwurfszeit**
-Der folgende Screenshot zeigt, wie Sie die Standardschriftart und Schriftfarbe von GridDesktop zur Entwurfszeit ändern.
+## **Ändern der Standard-Schriftart und Schriftfarbe zur Entwurfszeit**
+Der folgende Screenshot zeigt, wie die Standard-Schriftart und Schriftfarbe des GridDesktop zur Entwurfszeit geändert werden.
 
-![todo: Bild_alt_Text](default-font-and-font-color-of-the-griddesktop_1.png)
-## **Standardschriftart und Schriftfarbe zur Laufzeit ändern**
-Der folgende Beispielcode erläutert, wie die Standardschriftart und die Schriftfarbe von GridDesktop zur Laufzeit geändert werden.
+![todo:image_alt_text](default-font-and-font-color-of-the-griddesktop_1.png)
+## **Ändern der Standard-Schriftart und Schriftfarbe zur Laufzeit**
+Der folgende Beispielcode erklärt, wie die Standard-Schriftart und Schriftfarbe des GridDesktop zur Laufzeit geändert werden.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Assign your desired Font object to DefaultCellFont property
 

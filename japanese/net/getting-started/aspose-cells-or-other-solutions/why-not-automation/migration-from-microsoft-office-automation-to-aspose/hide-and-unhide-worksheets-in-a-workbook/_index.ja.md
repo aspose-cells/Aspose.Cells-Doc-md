@@ -1,43 +1,44 @@
-﻿---
-title: ワークブック内のワークシートを非表示および再表示する
+---
+title: ワークブック内のワークシートを非表示または表示する
 type: docs
 weight: 80
 url: /ja/net/hide-and-unhide-worksheets-in-a-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-ワークブックを顧客に提示するとき、またはプレゼンテーションを行うとき、ワークブック内のワークシートを非表示にすると便利な場合があります。スプレッドシート モデリングへの構造化されたアプローチでは、データ、数式、グラフなどの視覚化を別のシートに保存することをお勧めします。このアプローチにより、レイアウトがすっきりとシンプルに保たれ、ワークブックのナビゲートが容易になります。結果を表示するときは、気が散らないように、データまたは数式シートを非表示にすることができます。
+顧客にワークブックを提示したりプレゼンテーションを行う際に、ワークブック内のワークシートを非表示にすると便利です。スプレッドシートモデリングの構造化されたアプローチでは、データ、数式、チャートなどの視覚化情報を個々のシートに保管することが推奨されます。このアプローチにより、レイアウトが清潔でシンプルになり、ワークブックが操作しやすくなります。結果を提示する際には、データや数式のシートを非表示にして、注意がそれにそれなくなるのを防ぐことができます。
 
-Microsoft Excel で作業しているユーザーは、ワークシートを簡単に非表示にしてから再表示 (表示) できます。 Excel スプレッドシートでプログラミングする開発者は、同じ機能を利用できます。ソフトウェア アプリケーション内からスプレッドシートを操作するには、さまざまな方法があります。 1 つは VSTO を使用する方法で、もう 1 つは Aspose.Cells for .NET です。
+Microsoft Excelで作業するユーザーは、ワークシートを簡単に非表示にしてから再表示（表示）できます。同じ機能は、Excelスプレッドシートでプログラムを作成する開発者にも利用できます。ソフトウェアアプリケーション内でスプレッドシートを操作するさまざまな方法があります。1つの方法はVSTOを使用することであり、もう1つの方法はAspose.Cells for .NETを使用することです。
 
 {{% /alert %}}
 
-## **ワークシートの非表示と再表示**
+## **ワークシートを非表示または表示する**
 
-この記事で比較する[隠蔽](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)と[再表示](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)ワークシート[VSTO](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)、C# または Visual Basic を使用して、同じタスクを[Aspose.Cells](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)、再び C# または Visual Basic を使用します。 Aspose.Cells では、Microsoft Excel がインストールされていなくても作業できます。
+この記事では、[VSTO](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)を使用してC#またはVisual Basicを使用し、[Aspose.Cells](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)を使用してまたC#またはVisual Basicを使用して、同じタスクを実行する方法を比較しています。Aspose.Cellsを使用すると、Microsoft Excelのインストールがなくても作業できます。
 
-ワークシートを非表示にする手順は次のとおりです。
+ワークシートを非表示にする手順：
 
-1. ファイルを開きます。
-1. ワークシートを取得します。
-1. ワークシートを非表示にします。
+1. ファイルを開く。
+1. ワークシートを取得する。
+1. ワークシートを非表示にする。
 1. ファイルを保存します。
 
-に[再表示する](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)非表示のシートの表示をオンに切り替えるだけです。
+ワークシートを再度[非表示に](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)おくことをやめるには、非表示になっているシートの可視性を単に切り替えます。
 
-以下のコード サンプルは、最初にワークシートを非表示にする方法を示しています。最初のサンプルは、プロセスを示しています[VSTO](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)、C# または Visual Basic を使用する場合と比較して[Aspose.Cells](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)、再び C# または Visual Basics を使用します。
+以下のコードサンプルでは、まずワークシートを非表示にする方法を示します。最初のサンプルは、[VSTO](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)を使用して、C#またはVisual Basicを使用してこのプロセスをどのように行うかを示し、[Aspose.Cells](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)を使用して、またC#またはVisual Basicを使用して行う方法を比較しています。
 
-コード サンプルの 2 番目のセットは、ワークシートを再表示するために使用される行を示しています。[VSTO](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)また[Aspose.Cells](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/).
+次の一連のコードサンプルは、[VSTO](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)または[Aspose.Cells](/cells/ja/net/hide-and-unhide-worksheets-in-a-workbook/)でワークシートの非表示を解除する行を示します。
 
 ## **ワークシートを非表示にする**
 
-以下は、ブック内のワークシートを非表示にする方法を示す VSTO および Aspose.Cells のコード サンプルです。
+以下は、VSTOおよびAspose.Cellsのコードサンプルで、ワークブック内のワークシートを非表示にする方法を示しています。
 
-### **VSTO でワークシートを非表示にする**
+### **VSTOでのワークシートの非表示**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -108,11 +109,11 @@ excelApp.Quit();
 {{< /highlight >}}
 
 
-### **Aspose.Cells for .NET でワークシートを非表示にする**
+### **Aspose.Cells for .NETでのワークシートの非表示**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -156,15 +157,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **ワークシートの再表示**
+## **ワークシートの表示を解除する**
 
-以下は、VSTO と Aspose.Cells のコード サンプルで、ブック内のワークシートを再表示する方法を示しています。
+以下は、VSTOおよびAspose.Cellsのコードサンプルで、ワークブック内のワークシートを非表示から表示する方法を示しています。
 
-### **VSTO でワークシートを再表示する**
+### **VSTOでのワークシートの表示を解除**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -177,11 +178,11 @@ objSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
 {{< /highlight >}}
 
 
-### **Aspose.Cells for .NET でワークシートを再表示する**
+### **Aspose.Cells for .NETでのワークシートの表示を解除**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Unhide the worksheet.
 

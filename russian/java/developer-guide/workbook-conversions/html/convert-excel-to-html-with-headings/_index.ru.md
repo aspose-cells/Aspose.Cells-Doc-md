@@ -1,14 +1,15 @@
-﻿---
-title: Преобразование Excel в HTML с заголовками
+---
+title: Преобразовать Excel в HTML c заголовками
 type: docs
 weight: 10
 url: /ru/java/convert-excel-to-html-with-headings/
 ---
-## **Преобразование Excel в HTML с заголовками**
 
-Aspose.Cells предоставляет возможность экспортировать заголовки при преобразовании Excel в HTML. Для этого вы можете установить[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings) собственность на**истинный**. Значение по умолчанию[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings)собственность**ЛОЖЬ**. На следующем изображении показан выходной файл, созданный с помощью следующего кода.
+## **Конвертировать Excel в HTML с заголовками**
 
-![дело:изображение_альтернативный_текст](convert-excel-to-html-with-headings_1.jpg)
+Aspose.Cells предоставляет возможность экспортировать заголовки при преобразовании Excel в HTML. Для этого вы можете установить свойство [**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings) в **true**. Значение по умолчанию свойства [**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings) - **false**. Ниже приведено изображение, демонстрирующее выходной файл, сгенерированный следующим кодом.
+
+![todo:image_alt_text](convert-excel-to-html-with-headings_1.jpg)
 
 ## **Образец кода**
 

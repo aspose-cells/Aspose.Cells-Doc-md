@@ -1,8 +1,8 @@
-﻿---
-title: Verwalten Sie die Einstellungen von Excel-Tabellendateien
+---
+title: Einstellungen von Excel Tabellendateien verwalten
 linktitle: Arbeitsmappeneinstellungen
 type: docs
 weight: 185
 url: /de/net/workbook-settings/
-description: Einstellungen von Microsoft Excel-Dateien verwalten.
+description: Einstellungen von Microsoft Excel Dateien verwalten
 ---

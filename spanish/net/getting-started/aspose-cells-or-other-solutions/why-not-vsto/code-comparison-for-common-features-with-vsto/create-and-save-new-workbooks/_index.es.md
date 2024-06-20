@@ -1,18 +1,19 @@
-﻿---
-title: Crear y guardar nuevos libros de trabajo
+---
+title: Crear y guardar nuevas hojas de cálculo
 type: docs
 weight: 70
 url: /es/net/create-and-save-new-workbooks/
 ---
+
 ## **Consejos de migración:**
-\1. Crear objeto de libro de trabajo
-\2. Obtenga la hoja de trabajo actual.
-\3. Inserta algún texto en cualquier celda.
-\4. Guarde el libro de trabajo.
+\1. Crear objeto de hoja de cálculo
+\2. Obtener hoja de cálculo actual.
+\3. Insertar texto en cualquier celda.
+\4. Guardar la hoja de cálculo.
 ### **VSTO**
 A continuación se muestra un ejemplo de código para VSTO
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
 
@@ -28,7 +29,7 @@ A continuación se muestra un ejemplo de código para VSTO
 ### **Aspose.Cells**
 A continuación se muestra un ejemplo de código para Aspose.Cells
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook newWorkbook = new Workbook();
 

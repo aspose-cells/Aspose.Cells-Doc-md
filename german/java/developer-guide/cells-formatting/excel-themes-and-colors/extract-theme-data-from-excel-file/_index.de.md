@@ -1,14 +1,15 @@
-﻿---
-title: Extrahieren Sie Themendaten aus einer Excel-Datei
+---
+title: Themendaten aus Excel Datei extrahieren
 type: docs
 weight: 110
 url: /de/java/extract-theme-data-from-excel-file/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells ermöglicht es den Benutzern, themenbezogene Daten aus einer Excel-Datei zu extrahieren. Beispielsweise können Sie den auf die Arbeitsmappe angewendeten Designnamen und die auf die Zelle oder die Ränder der Zelle angewendete Designfarbe usw. extrahieren.
+Aspose.Cells ermöglicht es den Benutzern, themenbezogene Daten aus einer Excel-Datei zu extrahieren. Zum Beispiel können Sie den Namen des für die Arbeitsmappe angewendeten Themas und die für die Zelle oder Rahmen der Zelle angewendete Farbe des Themas extrahieren.
 
-Sie können Design auf Ihre Arbeitsmappe anwenden, indem Sie Microsoft Excel über den Befehl Seitenlayout > Designs verwenden.
+Sie können ein Thema für Ihre Arbeitsmappe in Microsoft Excel über den Befehl Seite-Layout > Themen anwenden.
 
 {{% /alert %}}
 
@@ -18,9 +19,9 @@ Sie können Design auf Ihre Arbeitsmappe anwenden, indem Sie Microsoft Excel üb
 
 ## **Beispielausgabe**
 
-Hier ist eine Beispielkonsolenausgabe des obigen Codes.
+Hier ist eine Beispielausgabe in der Konsole des oben genannten Codes.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Civic
 

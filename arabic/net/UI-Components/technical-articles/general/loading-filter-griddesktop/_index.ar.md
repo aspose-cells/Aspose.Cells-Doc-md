@@ -1,44 +1,46 @@
-﻿---
-title: تصفية الكائنات أثناء تحميل المصنف في GridDesktop
+---
+title: تصفية الكائنات أثناء تحميل الدفتر في GridDesktop
 type: docs
 weight: 1060
 url: /ar/net/aspose-cells-griddesktop/loading-filter
-description: توضح هذه المقالة كيفية استخدام عامل التصفية لمكتبة Aspose.Cells.GridDesktop.
+description: يصف هذا المقال كيفية استخدام عامل التحميل في GridDesktop.
+keywords: GridDesktop,loading,loading filter,filter
 ---
-## **سيناريوهات الاستخدام الممكنة**
- الرجاء استخدام[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)الخاصية أثناء تصفية البيانات من المصنف.
 
- ال[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)التعداد له القيم التالية.
-- الجميع
-- BookSettings
-- سيل بلانك
-- CellBool
-- CellData
-- CellError
-- رقم الخلية
-- CellString
-- CellValue
-- جدول
-- تنسيق مشروط
-- تأكيد صحة البيانات
+## **سيناريوهات الاستخدام المحتملة**
+يرجى استخدام خاصية [GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter) أثناء تصفية البيانات من دفتر العمل.
+
+تحتوي تعداد [GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions) على القيم التالية.
+- الكل
+- إعدادات الكتاب
+- خلية فارغة
+- خلية مع تخطيط
+- بيانات الخلية
+- خطأ الخلية
+- رقم الخليّة
+- سلسلة الخليّة
+- قيمة الخلية
+- Chart
+- تنسيق شرطي
+- التحقق من البيانات
 - الأسماء المعرفة
 - خصائص المستند
-- معادلة
-- الارتباطات التشعبية
+- صيغة
+- الروابط الفائقة
 - منطقة مدمجة
-- جدول محوري
-- إعدادات
-- شكل
-- شيتداتا
-- SheetSettings
-- بنية
-- أسلوب
-- الطاولة
+- الجدول المحوري
+- الإعدادات
+- الشكل
+- بيانات الورقة
+- إعدادات الورقة
+- البنية
+- النمط
+- الجدول
 - VBA
-- XmlMap
-## **تصفية البيانات أثناء تحميل المصنف**
- يوضح نموذج التعليمات البرمجية التالي كيفية تصفية الرسم من المصنف. رجاء تاكد من[نموذج ملف اكسل](5472489.xlsx) . كما ترى ، تمت تصفية كافة المخططات / الأشكال / الصور من المصنف.
+- خريطة Xml
+## **تصفية البيانات أثناء تحميل مصنف**
+يوضح الكود النموذجي التالي كيفية تصفية الرسم من المصنف. يرجى التحقق من [ملف الإكسل العينة](5472489.xlsx). كما يمكنك ملاحظة أن جميع الرسوم البيانية / الأشكال / الصور تم تصفيتها من المصنف.
 ![مصنف بدون صورة](nodrawing.png)
-### **عينة من الرموز**
+### **الكود المثالي**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "LoadingFilter.cs" >}}
- 
+

@@ -1,15 +1,16 @@
-﻿---
-title: Aspose.Cells'i kullanarak Alt Toplamları hesaplayın
+---
+title: Aspose.Cells Kullanarak Ara Toplamları Hesapla
 type: docs
 weight: 20
 url: /tr/java/calculate-sub-totals-using-aspose-cells/
 ---
+
 ## **Aspose.Cells - Alt Toplamları Hesapla**
-Bir e-tablodaki yinelenen değerler için otomatik olarak ara toplamlar oluşturabilirsiniz. Aspose.Cells, elektronik tablolara programlı olarak ara toplamlar eklemenize yardımcı olan API özelliklerini sağlar.
+Herhangi bir tekrarlanan değer için alt toplamları otomatik olarak oluşturabilirsiniz. Aspose.Cells, elektronik tablolara alt toplamlar eklemeye yardımcı olan API özellikleri sunar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,7 +36,7 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[]{ 1 });
+cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 
 //Save the excel file
 
@@ -44,11 +45,11 @@ workbook.save("AsposeTotal.xls");
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/formula/AsposeCreateSubTotals.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Ara Toplamlar Oluşturma](/cells/tr/java/creating-subtotals).
+Daha fazla bilgi için [Alt Toplamlar Oluşturma](/cells/tr/java/creating-subtotals)'ı ziyaret edin.
 
 {{% /alert %}}

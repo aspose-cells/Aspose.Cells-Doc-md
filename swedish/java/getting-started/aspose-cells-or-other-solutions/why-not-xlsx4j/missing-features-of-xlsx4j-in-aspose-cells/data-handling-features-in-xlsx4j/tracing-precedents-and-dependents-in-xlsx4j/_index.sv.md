@@ -1,24 +1,25 @@
-﻿---
-title: Spåra prejudikat och beroende i xlsx4j
+---
+title: Sporra föregångare och beroenden i xlsx4j
 type: docs
 weight: 70
 url: /sv/java/tracing-precedents-and-dependents-in-xlsx4j/
 ---
-## **Aspose.Cells - Spåra prejudikat och beroende**
-Komplexa ekonomiska kalkylblad, särskilt sådana som utvecklats i samarbete, kan dölja de mest pinsamma felen. Att kontrollera formler för noggrannhet och hitta källan till ett fel kan vara svårt när formeln använder prejudikatceller och beroende celler.
 
-- **Prejudikatceller**är celler som refereras till av en formel i en annan Cell. Om cell D10 till exempel innehåller formeln =B5, är cell B5 ett prejudikat till cell D10.
-- **Beroende celler**innehåller formler som refererar till andra celler. Till exempel, om cell D10 innehåller formeln =B5, är cell D10 ett beroende av cell B5.
+## **Aspose.Cells - Sporra föregångare och beroenden**
+Komplexa finansiella arbetsblad, särskilt de som utvecklats i samarbete, kan dölja de mest pinsamma felen. Att kontrollera formler för noggrannhet och hitta felets källa kan vara svårt när formeln använder precedens- och beroendeceller.
 
-För att göra kalkylarket lätt att läsa, kanske du vill tydligt visa vilka celler i ett kalkylblad som används i en formel. På liknande sätt kanske du vill extrahera de beroende cellerna från andra celler.
+- **Föregångar celler** är celler som refereras av en formel i en annan cell. Till exempel, om cell D10 innehåller formeln =B5, är cell B5 en föregångare till cell D10.
+- **Beroende celler** innehåller formler som refererar till andra celler. Till exempel, om cell D10 innehåller formeln =B5, är cell D10 en beroende av cell B5.
+
+För att göra kalkylarket lättläst vill du kanske tydligt visa vilka celler på ett kalkylblad som används i en formel. På liknande sätt kan du vilja extrahera de beroende cellerna för andra celler.
 
 Aspose.Cells låter dig spåra celler och ta reda på vilka som är länkade.
 
-Spåra prejudikat
+Spårar föregående
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -84,21 +85,21 @@ if(ret != null)
 
 {{< /highlight >}}
 
-Spåra beroende
+Spårar beroende
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Hämta A1-cellen
+ //Get the A1 cell
 
 Cell c = cells.get("A5");
 
-//Hämta alla beroenden i A5-cellen
+//Get the all the Dependents of A5 cell
 
-Cell[]beroende = c.getDependents(true);
+Cell[] dependents = c.getDependents(true);
 
-för (int i = 0; i< dependents.length; i++)
+for (int i = 0; i< dependents.length; i++)
 
 {
 
@@ -107,13 +108,13 @@ för (int i = 0; i< dependents.length; i++)
 }
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/tracingprecedentsanddependents/AsposeTracingPrecedentsAndDependents.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Spåra prejudikat och beroende](/java/tracing-precedents-and-dependents).
+För mer information, besök [Spåra föregångare och beroenden](/java/sp%C3%A5ra-foreg%C3%A5ngare-och-beroranden).
 
 {{% /alert %}}

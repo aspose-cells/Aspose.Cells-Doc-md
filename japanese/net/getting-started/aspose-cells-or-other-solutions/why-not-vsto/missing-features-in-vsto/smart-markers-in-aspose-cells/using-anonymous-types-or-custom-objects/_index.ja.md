@@ -1,12 +1,13 @@
-﻿---
-title: 匿名型またはカスタム オブジェクトの使用
+---
+title: 匿名のタイプやカスタムオブジェクトを使用する
 type: docs
 weight: 40
 url: /ja/net/using-anonymous-types-or-custom-objects/
 ---
-Aspose.Cells は、スマート マーカーで匿名型またはカスタム オブジェクトもサポートします。以下の例では、製品クラスを使用前に定義する必要があります。
 
-{{< highlight "csharp" >}}
+Aspose.Cellsでは、匿名型やカスタムオブジェクトもスマートマーカーでサポートされています。以下の例ではProductクラスが使用されます。
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -56,5 +57,5 @@ report.Workbook.Save(FileName);
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)

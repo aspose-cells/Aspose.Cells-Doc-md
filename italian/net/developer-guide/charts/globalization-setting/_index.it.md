@@ -1,48 +1,49 @@
 ---
-title: Converti grafico in immagine localizzata
-description: Scopri come impostare le configurazioni di globalizzazione per i grafici utilizzando Aspose.Cells for .NET. La nostra guida mostra come configurare il grafico per supportare più lingue e formati regionali per visualizzare correttamente testo, date e numeri in diverse lingue.
-keywords: Aspose.Cells for .NET, Charts, Globalization Settings, Multiple Languages, Regional Formats, Display, Text, Dates, Numbers.
-linktitle: Imposta regione localizzata
+title: Converti il grafico in un immagine localizzata
+description: Scopri come impostare le configurazioni di globalizzazione per i grafici utilizzando l Aspose.Cells for .NET. La nostra guida dimostra come configurare il grafico per supportare più lingue e formati regionali per mostrare correttamente testo, date e numeri in lingue diverse.
+keywords: Aspose.Cells for .NET, Grafici, Impostazioni di globalizzazione, Lingue multiple, Formatiregionali, Visualizzazione, Testo, Date, Numeri.
+linktitle: Imposta la regione localizzata
 type: docs
 weight: 50
 url: /it/net/convert-chart-to-localized-image/
 alias: [/net/how-to-set-globalization-configuration-for-chart/]
 ---
+
 {{% alert color="primary" %}}
 
-In questo argomento ti mostreremo come convertire il grafico in un'immagine localizzata e saprai come impostare la regione localizzata per un grafico.
+In questo argomento, ti mostreremo come convertire un grafico in un'immagine localizzata, imparerai come impostare la regione localizzata per un grafico.
 
 {{% /alert %}}
 
-##  **Scenario**
+## **Scenario**
 
- In quale scenario avremmo bisogno di impostare una regione localizzata per un grafico?
+In che scenario avremmo bisogno di impostare la regione localizzata per un grafico? 
 
-Quando apri un file xlsx con un grafico in Excel, in questo caso, supponi di aprirlo con un'impostazione regionale spagnola in Excel, puoi vedere gli elementi nell'area del grafico, come Titolo del grafico, Lunghezza, sono tradotti in spagnolo. Ma quando salvi questo grafico come immagine con Aspose.Cells, potresti riscontrare il seguente problema:
+Quando apri un file xlsx con un grafico in Excel, in questo caso, supponiamo che tu lo apra con un Impostazione regionale in spagnolo in Excel, puoi vedere che gli elementi nell'area del grafico, come il Titolo del grafico, la Legenda, sono tradotti in spagnolo. Ma quando salvi questo grafico come un'immagine con Aspose.Cells, potresti incontrare il seguente problema: 
 
 **![Problema globale](GlobalIssue.png)**
 
-In questo scenario, la lunghezza del grafico nell'immagine di output non è la stessa di Excel, ma rimane visualizzata in inglese per impostazione predefinita. Ora puoi risolvere questo problema impostando la regione localizzata per il grafico. Con le impostazioni corrette, i seguenti elementi verranno visualizzati in base alle impostazioni di localizzazione.
+In questo scenario, la Legenda del grafico nell'immagine di output non è la stessa di Excel, rimangono visualizzate in inglese per impostazione predefinita. Ora puoi risolvere questo problema impostando la regione localizzata per il grafico. Con le impostazioni corrette, gli elementi seguenti verranno renderizzati in base alle impostazioni di localizzazione.
 
-##  **Elementi supportati**
+## **Elementi supportati**
 
-I seguenti elementi nel grafico possono essere visualizzati in base alle impostazioni di localizzazione.
+I seguenti elementi nel grafico possono essere resi in base alle impostazioni di localizzazione.
 
 |**Elementi supportati**|**valore predefinito nell'ambiente inglese**|
 | :- | :- |
-|Nome del titolo dell'asse|Titolo dell'Asse|
-|Nome dell'unità dell'asse|Centinaia, migliaia...|
-|Nome del titolo del grafico|Titolo del grafico|
-|Legenda Aumenta nome|Aumento|
-|Legenda Riduci nome|Diminuire|
-|Nome totale della legenda|Totale|
+|Nome titolo asse|Titolo asse|
+|Nome unità asse|Centinaia, Migliaia...|
+|Nome titolo grafico|Titolo grafico|
+|Nome incremento legenda|Aumento|
+|Nome decremento legenda|Diminuzione|
+|Nome totale legenda|Totale|
 |Altro nome|Altro|
-|Nome della serie|Serie|
+|Nome serie|Serie|
 
-##  **Passaggi operativi**
+## **Passaggi operativi**
 
-L'esempio seguente ti mostrerà in dettaglio come impostare la regione localizzata per ottenere l'effetto desiderato.
+L'esempio seguente ti mostrerà dettagliatamente come impostare la regione localizzata per ottenere l'effetto desiderato.
 
-- [Come impostare la regione cinese per il grafico](/cells/it/net/convert-chart-to-image-for-chinese-region/)
-- [Come impostare la regione giapponese per il grafico](/cells/it/net/convert-chart-to-image-for-japanese-region/)
+- [Come Impostare la Regione Cinese per il Grafico](/cells/it/net/convert-chart-to-image-for-chinese-region/)
+- [Come Impostare la Regione Giapponese per il Grafico](/cells/it/net/convert-chart-to-image-for-japanese-region/)
 

@@ -1,38 +1,39 @@
-﻿---
-title: 回転 Cell テキスト
+---
+title: セルテキストの回転
 type: docs
 weight: 100
 url: /ja/net/rotating-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、列ヘッダーが下のセルのデータよりもはるかに広いことがあります。これにより、ページに不要な空白が生じる可能性があります。解決策の 1 つは、テキストを垂直方向に回転させて、横方向のスペースを少なくすることです。 Microsoft Excel では文字の回転が簡単にできます。幸いなことに、プログラムでテキストを回転させることもできるため、開発者はアプリケーション内で作成したスプレッドシートでラベルを回転させることができます。
+時には、列の見出しはセルのデータよりもはるかに幅広いです。これによりページ上に不必要な余白が生じます。このような場合、テキストを垂直に回転させて水平スペースを節約することができます。Microsoft Excel では、テキストの回転は簡単です。幸いなことに、開発者は自分のアプリケーション内でプログラム上でテキストを回転させることも可能です。
 
-この記事では、を使用してセル内のテキストを回転する方法について説明します[Aspose.Cells for .NET](/cells/ja/net/rotating-cell-text/)で同じことをするのと比較して[VSTO](/cells/ja/net/rotating-cell-text/).
+この記事では、[Aspose.Cells for .NET](/cells/ja/net/rotating-cell-text/)を使用したセル内のテキストの回転方法と[VSTO](/cells/ja/net/rotating-cell-text/)を使用した同様の方法の比較を行います。
 
 {{% /alert %}}
 
-## **Cells のテキストの回転**
+## **セル内のテキストの回転**
 
-ワークシートのセル内のテキストを回転するには、次の手順を実行します。
+ワークシートのセルでテキストを回転させるには、次の手順を実行します：
 
 1. ワークブックを作成し、ワークシートを取得します。
-1. サンプル テキストを追加します。
-1. テキストの書式設定: 回転、背景色の追加。
+1. サンプルテキストを追加します。
+1. テキストを書式設定します：回転、背景色を追加します。
 1. ファイルを保存します。
 
-以下のコード サンプルは、最初にこれらの手順を実行する方法を示しています。[VSTO](/cells/ja/net/rotating-cell-text/) 、C# または Visual Basic を使用して、[Aspose.Cells](/cells/ja/net/rotating-cell-text/)、再び C# または Visual Basic を使用します。
+本文に続くコードサンプルでは、最初に[VSTO](/cells/ja/net/rotating-cell-text/)を使用してこれらの手順を実行する方法(C# または Visual Basic を使用)を示し、次に [Aspose.Cells](/cells/ja/net/rotating-cell-text/)を使用してこれらの手順を実行する方法(C# または Visual Basic を使用)を示します。
 
-この記事のコード例では、以下に示す出力が得られます。
-**テキストが回転したセル。**
+この記事のコード例では、以下に示す出力を生成します。
+**回転したテキストを持つセル。**
 
-![todo:画像_代替_文章](rotating-cell-text_1.png)
+![todo:image_alt_text](rotating-cell-text_1.png)
 
-### **VSTO を使用したテキストの回転**
+### **VSTOを使用したテキストの回転**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
@@ -56,7 +57,7 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into cell B2.
 
-objSheet.Cells[2, 2]= "Aspose Heading";
+objSheet.Cells[2, 2] = "Aspose Heading";
 
 //Define a range object(B2).
 
@@ -90,14 +91,14 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-#### **Aspose.Cells for .NET でテキストを回転させる**
+#### **Aspose.Cells for .NETを使用したテキストの回転**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Instantiate a new Workbook.
- 
+
  Workbook objworkbook = new Workbook();
 
 // Get the First sheet.

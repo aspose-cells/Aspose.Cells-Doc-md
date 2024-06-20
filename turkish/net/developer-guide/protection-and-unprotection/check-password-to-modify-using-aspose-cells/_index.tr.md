@@ -1,33 +1,34 @@
-﻿---
-title: Aspose.Cells kullanarak değiştirmek için Parolayı kontrol edin
+---
+title: Aspose.Cells Kullanarak Değiştirme Şifresini Kontrol Etme
 type: docs
 weight: 2400
 url: /tr/net/check-password-to-modify-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Bazen, verilen şifrenin şifreyle eşleşip eşleşmediğini kontrol etmeniz gerekir.**Değiştirilecek şifre** programlı olarak. Aspose.Cells, değiştirilecek Parolanın doğru olup olmadığını kontrol etmek için kullanabileceğiniz WorkbookSettings.WriteProtection.ValidatePassword() yöntemini sağlar.
+Bazı durumlarda, verilen şifrenin programlı olarak **Değiştirme Şifresi** ile eşleşip eşleşmediğini kontrol etmeniz gerekebilir. Aspose.Cells, doğru veya yanlış olduğunu kontrol etmek için WorkbookSettings.WriteProtection.ValidatePassword() metodunu sağlar.
 
 {{% /alert %}}
 
-## **Microsoft Excel'de değiştirmek için Parolayı kontrol edin**
+## **Microsoft Excel'de Değiştirme Şifresini Kontrol Etme**
 
- atayabilirsin**açmak için şifre** ve**Değiştirilecek şifre** Microsoft Excel'de çalışma kitaplarınızı oluştururken. Lütfen Microsoft Excel'in bu şifreleri belirtmek için sağladığı arayüzü gösteren bu ekran görüntüsüne bakın.
+Microsoft Excel'de çalışma kitapları oluştururken **Açma Şifresi** ve **Değiştirme Şifresi** atayabilirsiniz. Bu şifreleri belirlemek için Microsoft Excel'in sağladığı arayüzü gösteren bu ekran görüntüsüne bakınız.
 
-|![yapılacaklar:resim_alternatif_metin](check-password-to-modify-using-aspose-cells_1.png)|
-|:- |
+|![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)|
+| :- |
 
-## **Aspose.Cells kullanarak değiştirmek için Parolayı kontrol edin**
+## **Aspose.Cells Kullanarak Değiştirme Şifresini Kontrol Etme**
 
- Aşağıdaki örnek kodlar,[kaynak Excel](5112232.xlsx) dosya. 1234 olarak açmak için bir Parolası ve 5678 olarak değiştirmek için bir Parolası vardır. Kod, önce 567'nin değiştirilecek Parola'nın doğru olup olmadığını kontrol eder ve false döndürür ve ardından 5678'in değiştirilecek Parola olup olmadığını kontrol eder ve doğru döndürür.
+Aşağıdaki örnek kod, [kaynak Excel](5112232.xlsx) dosyasını yükler. Dosyanın Açma Şifresi 1234 ve Değiştirme Şifresi 5678'dir. Kod önce 567'nin doğru Değiştirme Şifresi olup olmadığını kontrol eder ve yanlış döndürür, ardından 5678'in Değiştirme Şifresi olup olmadığını kontrol eder ve doğru döndürür.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckPasswordToModify-CheckPasswordToModifyUsingAsposeCells.cs" >}}
 
-### **Konsol Çıkışı**
+### **Konsol Çıktısı**
 
- Yükledikten sonra yukarıdaki örnek kodun Konsol Çıktısı:[kaynak Excel](5112232.xlsx) dosya.
+Yukarıdaki örnek kodun [kaynak Excel](5112232.xlsx) dosyasını yükledikten sonraki Konsol Çıkışı burada.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is 567 correct Password to modify: False
 

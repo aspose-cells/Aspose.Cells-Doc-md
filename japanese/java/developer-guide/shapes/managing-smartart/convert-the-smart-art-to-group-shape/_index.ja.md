@@ -1,18 +1,19 @@
-﻿---
-title: Smart Art をグループ シェイプに変換する
+---
+title: スマートアートをグループ形状に変換
 type: docs
 weight: 80
 url: /ja/java/convert-the-smart-art-to-group-shape/
 ---
-## **考えられる使用シナリオ**
 
-を使用してスマート アート シェイプをグループ シェイプに変換できます。[**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt()） 方法。グループシェイプのようなスマートなアートシェイプを扱えるようになります。したがって、グループ シェイプの個々のパーツまたはシェイプにアクセスできます。
+## **可能な使用シナリオ**
 
-## **Smart Art をグループ シェイプに変換する**
+Smart Art ShapeをGroup Shapeに変換するには、[**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt--)メソッドを使用します。これにより、スマートアートの形状をグループ形状として扱えるようになります。それにより、グループ形状の個々の部分または形状にアクセスできるようになります。
 
-次のサンプル コードは、[サンプル Excel ファイル](55541806.xlsx)このスクリーンショットに示すように、スマート アート シェイプが含まれています。次に、スマート アート シェイプをグループ シェイプに変換し、[Shape.IsGroup](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsGroup)財産。以下に示すサンプル コードのコンソール出力を参照してください。
+## **スマートアートをグループシェイプに変換する**
 
-![todo:画像_代替_文章](convert-the-smart-art-to-group-shape_1.png)
+以下のサンプルコードは、このスクリーンショットに示すようなスマートアート形状を含む[sample Excel file](55541806.xlsx)をロードします。その後、スマートアート形状をグループ形状に変換し、[Shape.IsGroup](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsGroup)プロパティを出力します。以下に示したサンプルコードのコンソール出力をご覧ください。
+
+![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
 
 ## **サンプルコード**
 
@@ -20,7 +21,7 @@ url: /ja/java/convert-the-smart-art-to-group-shape/
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: true
 

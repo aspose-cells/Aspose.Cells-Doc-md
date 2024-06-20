@@ -1,44 +1,45 @@
-﻿---
-title: Speichern Sie die Arbeitsmappe im Text- oder CSV-Format in Aspose.Cells
+---
+title: Arbeitsmappe in Text oder CSV Format in Aspose.Cells speichern
 type: docs
 weight: 110
 url: /de/net/save-workbook-to-text-or-csv-format-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Manchmal möchten Sie eine Arbeitsmappe mit mehreren Arbeitsblättern in das Textformat konvertieren oder speichern. Bei Textformaten (z. B. TXT, TabDelim, CSV usw.) speichern sowohl Microsoft Excel als auch Aspose.Cells standardmäßig nur den Inhalt des aktiven Arbeitsblatts.
+Manchmal möchten Sie eine Arbeitsmappe mit mehreren Arbeitsblättern im Textformat konvertieren oder speichern. Für Textformate (z.B. TXT, TabDelim, CSV etc.) speichern sowohl Microsoft Excel als auch Aspose.Cells standardmäßig nur den Inhalt des aktiven Arbeitsblatts.
 
 {{% /alert %}} 
 
-Im folgenden Codebeispiel wird erläutert, wie eine gesamte Arbeitsmappe im Textformat gespeichert wird. Laden Sie die Quellarbeitsmappe, die eine beliebige Microsoft Excel- oder OpenOffice-Tabellendatei sein kann (also XLS, XLSX, XLSM, XLSB, ODS usw.) mit einer beliebigen Anzahl von Arbeitsblättern.
+Das folgende Codebeispiel erläutert, wie eine gesamte Arbeitsmappe in Textformat gespeichert werden kann. Laden Sie die Quellarbeitsmappe, die eine beliebige Microsoft Excel- oder OpenOffice-Tabellendatei sein kann (also XLS, XLSX, XLSM, XLSB, ODS usw.) mit einer beliebigen Anzahl von Tabellenblättern.
 
-Wenn der Code ausgeführt wird, konvertiert er die Daten aller Blätter in der Arbeitsmappe in das Format TXT.
+Wenn der Code ausgeführt wird, konvertiert er die Daten aller Blätter in der Arbeitsmappe in das TXT-Format.
 
-Sie können dasselbe Beispiel ändern, um Ihre Datei im Format CSV zu speichern. TxtSaveOptions.Separator ist standardmäßig ein Komma, geben Sie also kein Trennzeichen an, wenn Sie im Format CSV speichern.
+Sie können das gleiche Beispiel ändern, um Ihre Datei in CSV zu speichern. Standardmäßig ist bei TxtSaveOptions.Separator ein Komma angegeben. Geben Sie also keinen Separator an, wenn Sie im CSV-Format speichern.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string filePath = "source.xlsx";
 
-//Laden Sie Ihre Quellarbeitsmappe
+//Load your source workbook
 
-Arbeitsmappe Arbeitsmappe = neue Arbeitsmappe (Dateipfad);
+Workbook workbook = new Workbook(filePath);
 
-//0-Byte-Array
+//0-byte array
 
-byte[]workbookData = new byte[0];
+byte[] workbookData = new byte[0];
 
-//Optionen zum Speichern von Text. Sie können jede Art von Trennzeichen verwenden
+//Text save options. You can use any type of separator
 
-TxtSaveOptions opts = neue TxtSaveOptions();
+TxtSaveOptions opts = new TxtSaveOptions();
 
-opts.Trennzeichen = '\t';
+opts.Separator = '\t';
 
-// Alle Arbeitsblattdaten im Textformat in das Datenarray der Arbeitsmappe kopieren
+//Copy each worksheet data in text format inside workbook data array
 
- für (int idx = 0; idx< workbook.Worksheets.Count; idx++)
+for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 
 {
 
@@ -74,7 +75,7 @@ File.WriteAllBytes(filePath + ".out.txt", workbookData);
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

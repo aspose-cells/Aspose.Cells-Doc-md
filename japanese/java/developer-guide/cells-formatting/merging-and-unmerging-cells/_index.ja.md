@@ -1,73 +1,74 @@
-﻿---
-title: マージとアンマージ Cells
+---
+title: セルの結合と解除
 type: docs
 weight: 140
 url: /ja/java/merging-and-unmerging-cells/
 ---
+
 {{% alert color="primary" %}}
 
-すべての行または列に常に同じ数のセルが必要なわけではありません。たとえば、複数の列にまたがるセルにタイトルを入れたい場合があります。または、請求書を作成する場合は、合計の列を少なくしたい場合があります。 2 つ以上のセルから 1 つのセルを作成するには、それらをマージします。 Microsoft Excel では、ユーザーがセルを選択して結合し、スプレッドシートを自由に構成できます。
+すべての行や列に常に同じ数のセルを必要とするわけではありません。 たとえば、複数の列にまたがるタイトルを配置したい場合や、請求書を作成する場合には、合計用の少ない列を使用したい場合があります。 2つ以上のセルを1つのセルに結合して、それらをマージします。 Microsoft Excelを使用して、ユーザーはセルを選択してマージし、スプレッドシートを自分の希望の形に整理することができます。
 
-**Microsoft Excel の左側のセルとして書式設定されたセルの範囲を結合してから分割した結果** 
+**Microsoft Excelで選択されたセル範囲をマージしてから分割することで、左側のセルと同じ形式のセルになった結果** 
 
-![todo:画像_代替_文章](merging-and-unmerging-cells_1.png)
+![todo:image_alt_text](merging-and-unmerging-cells_1.png)
 
-Aspose.Cells はこの機能をサポートしており、ワークシート内のセルを結合することもできます。結合されたセルを結合解除または分割することもできます。結合セルのセル参照は、最初に選択した範囲の左上のセルの参照です。
+Aspose.Cellsはこの機能をサポートし、ワークシートでセルを結合することもできます。 また、結合されたセルを分割することもできます。 結合されたセルのセルの参照は、元の選択範囲の左上のセルの参照です。
 
-セルが結合されると、左上のセルのデータのみが保持されることに注意してください。範囲内の他のセルにデータがある場合、そのデータは削除されます。
+セルがマージされると、データは左上のセルにしか保持されません。 範囲内の他のセルにデータがある場合、そのデータは削除されます。
 
-同様に、書式設定は参照セルに基づいているため、セルを結合すると、範囲内の左上のセルの書式設定が結合されたセルに適用されます。セルが分割されると、新しいセルは元の書式設定を保持します。
+フォーマットも同様に、参照セルに基づいているため、セルを結合すると、範囲内の左上のセルの書式設定が結合されたセルに適用されます。セルが分割されると、新しいセルは元の書式設定を保持します。
 
 {{% /alert %}}
 
-## **ワークシートで Cells をマージします。**
+## **ワークシート内のセルの結合。**
 
-### **Microsoft エクセルを使う**
+### **Microsoft Excel の使用**
 
-次の手順では、Microsoft Excel を使用してワークシート内のセルを結合する方法について説明します。
+Microsoft Excel を使用してワークシートでセルを結合する手順は以下の通りです。
 
-1. 必要なデータを範囲内の左上端のセルにコピーします。
-1. 結合するセルを選択します。
-1. 行または列のセルを結合してセルの内容を中央に配置するには、**マージして中央揃え**アイコン**書式設定**ツールバー。
+1. 範囲内で左上のセルにデータをコピーします。
+1. 結合したいセルを選択します。
+1. 行または列内のセルを結合してセルの内容を中央に配置するには、**書式設定**ツールバーの**結合して中央配置**アイコンをクリックします。
 
-### **Aspose.Cells を使用**
+### **Aspose.Cellsの使用**
 
-の[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)クラスには、タスクに役立つメソッドがいくつかあります。たとえば、メソッド[**マージ（）**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) は、指定されたセル範囲内の単一のセルにセルを結合します。
+タスクには [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) クラスに有用なメソッドがいくつかあります。例えば、メソッド [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) は、セルを特定のセル範囲内の単一のセルに結合します。
 
-以下のコードを実行すると、次の出力が生成されます。
+以下のコードを実行した後に生成される出力は次のとおりです。
 
 **セル (C6:E7) が結合されました** 
 
-![todo:画像_代替_文章](merging-and-unmerging-cells_2.png)
+![todo:image_alt_text](merging-and-unmerging-cells_2.png)
 
 #### **コード例**
 
-次の例は、ワークシートのセル (C6:E7) を結合する方法を示しています。
+以下の例は、ワークシート内のセル(C6:E7)を結合する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-MergingCellsInWorksheet-MergingCellsInWorksheet.java" >}}
 
-## **アンマージ (分割) マージ済み Cells**
+## **結合されたセルの結合解除（分割）**
 
-### **Microsoft エクセルを使う**
+### **Microsoft Excel の使用**
 
-次の手順では、Microsoft Excel を使用して結合セルを分割する方法について説明します。
+以下の手順では、Microsoft Excelを使用して結合されたセルを分割する方法について説明します。
 
-1. 結合セルを選択します。
-セルを結合すると、**マージして中央揃え**で選択されます**書式設定**ツールバー。
-1. クリック**マージして中央揃え**上で**書式設定**ツールバー。
+1. 結合されたセルを選択します。 
+   セルが結合されている場合、**結合して中央配置**が**書式設定**ツールバーで選択されます。
+1. **書式設定**ツールバーで**結合して中央配置**をクリックします。
 
-#### **Aspose.Cells を使用**
+#### **Aspose.Cellsの使用**
 
-の[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)クラスには次の名前のメソッドがあります[**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) セルを元の状態に分割します。このメソッドは、結合されたセル範囲内のセルの参照を使用して、セルの結合を解除します。
+[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) クラス には、結合されたセルの参照を使用してセルを元の状態に戻すメソッド [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) があります。このメソッドは、結合されたセル範囲内のセルを分割します。
 
 #### **コード例**
 
-次の例は、結合されたセル (C6) を分割する方法を示しています。この例では、前の例で作成したファイルを使用して、結合されたセルを分割します。
+以下の例は、結合されたセル(C6)を分割する方法を示しています。 この例では、前の例で作成されたファイルを使用し、結合されたセルを分割しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UnMergingCellsInWorksheet-UnMergingCellsInWorksheet.java" >}}
 
 ## **関連記事**
 
-- [結合セルの検索と分割](/cells/ja/java/detect-merged-cells-in-a-worksheet/).
-- [Range.merge() および Range.unMerge() メソッドを使用してセル範囲を結合および分割する](/cells/ja/java/merge-or-unmerge-range-of-cells/).
+- [ワークシート内で結合されたセルを見つけて分割する](/cells/ja/java/detect-merged-cells-in-a-worksheet/)
+- [Range.merge() および Range.unMerge() メソッドを使用してセル範囲の結合と分割](/cells/ja/java/merge-or-unmerge-range-of-cells/)
 

@@ -1,13 +1,14 @@
-﻿---
-title: Cell Настройки выравнивания
+---
+title: Настройки выравнивания ячейки
 type: docs
 weight: 20
 url: /ru/java/cell-alignment-settings/
 ---
-## **Aspose.Cells - Cell Настройки центровки**
-Aspose.Cells предоставляет класс Workbook, представляющий файл Excel. Класс Workbook содержит коллекцию WorksheetCollection, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен классом Worksheet.
 
-Класс Worksheet предоставляет коллекцию Cells. Каждый элемент коллекции Cells представляет объект класса Cell.
+## **Aspose.Cells - Настройки выравнивания ячейки**
+Aspose.Cells предоставляет класс Workbook, который представляет собой файл Excel. Класс Workbook содержит WorksheetCollection, которая позволяет получить доступ к каждому листу в файле Excel. Лист представлен классом Worksheet.
+
+Класс Worksheet предоставляет коллекцию Cells. Каждый элемент в коллекции Cells представляет объект класса Cell.
 
 Aspose.Cells предоставляет метод setStyle в классе Cell, который используется для форматирования ячейки. Класс Style предоставляет полезные свойства для настройки параметров шрифта.
 
@@ -15,7 +16,7 @@ Aspose.Cells предоставляет метод setStyle в классе Cell
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -48,14 +49,14 @@ style.setHorizontalAlignment(TextAlignmentType.CENTER);
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF и XSSF — Cell Настройки выравнивания**
-HSSFCellStyle предоставляет стиль для выравнивания в ячейках с использованием Apache POI API.
+## **Apache POI SS - HSSF & XSSF - Настройки выравнивания ячейки**
+HSSFCellStyle предоставляет стиль для выравнивания в ячейках с использованием API Apache POI.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws IOException
+ public static void main(String[] args) throws IOException
 
 {
 
@@ -126,13 +127,13 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/cellalignment)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/cellalignment)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Настройка параметров выравнивания](/cells/ru/java/data-formatting/).
+Для получения дополнительной информации посетите [Настройка параметров выравнивания](/cells/ru/java/data-formatting/).
 
 {{% /alert %}}

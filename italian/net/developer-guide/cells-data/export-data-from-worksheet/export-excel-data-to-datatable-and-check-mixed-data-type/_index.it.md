@@ -1,34 +1,35 @@
 ---
-title: Esporta dati Excel in DataTable e controlla il tipo di dati misti
+title: Esportare i dati di Excel in DataTable e controllare il tipo di dati misti
 type: docs
 weight: 280
 url: /it/net/export-excel-data-to-datatable-and-check-mixed-data-type/
-description: Scopri come esportare dati Excel in DataTable e controllare il tipo di dati misti tramite Aspose.Cells for .NET API.
-keywords: Export Excel Data to DataTable and Check Mixed Data Type, Export Workbook Data to DataTable and Check Mixed Data Type, Export Data to DataTable and Check Mixed Data Type, Export Worksheet Data to DataTable and Check Mixed Data Type.
+description: Scopri come esportare i dati di Excel in DataTable e controllare il tipo di dati misti tramite l API Aspose.Cells for .NET.
+keywords: Esportare i dati di Excel in DataTable e controllare il tipo di dati misti, Esportare i dati del foglio di lavoro in DataTable e controllare il tipo di dati misti, Esportare i dati in DataTable e controllare il tipo di dati misti, Esportare i dati del foglio di lavoro in DataTable e controllare il tipo di dati misti.
 ---
-##  **Possibili scenari di utilizzo**
- Se una colonna contiene dati di vario tipo, il programma genererà un'eccezione di tipo durante l'esportazione dei dati in un DataTable. Per l'esportazione della tabella dati, per impostazione predefinita, Aspose.Cells valuta il tipo di dati per i valori in base al primo valore (cella) nella colonna. Pertanto, se il valore è numerico, significa che il tipo di dati della colonna sarà numerico, il che è ragionevole. Se il primo valore è un numero ma nella colonna sono presenti dati o valori alfanumerici, è necessario assegnare un tipo di dati stringa. Per affrontarlo, si prega di utilizzare[Sovraccarico ExportDataTable](https://reference.aspose.com/cells/net/aspose.cells/cells/exportdatatable/#exportdatatable_1) che comporta[Opzioni ExportDataTable](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/) e prova a impostare[ExportTableOptions.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype/) Attributo booleano su "true" se una colonna contiene sia valori numerici che stringhe per sfuggire all'errore.
 
-##  **Esporta dati Excel in DataTable e controlla il tipo di dati misti**
+## **Possibili Scenari di Utilizzo**
+Se una colonna contiene dati di vari tipi, il programma genererà un'eccezione di tipo durante l'esportazione dei dati in una DataTable. Per l'esportazione della tabella dei dati, per impostazione predefinita, Aspose.Cells valuta il tipo di dati per i valori in base al primo valore (cella) nella colonna. Quindi, se il valore è un numero, significa che il tipo di dati della colonna sarebbe numerico, il che è ragionevole. Se il primo valore è un numero ma ci sono dati alfanumerici o valori nella colonna, dovrebbe essere assegnato un tipo di dati stringa. Per far fronte a ciò, si prega di utilizzare il sovraccarico [ExportDataTable](https://reference.aspose.com/cells/net/aspose.cells/cells/exportdatatable/#exportdatatable_1) che coinvolge [ExportDataTableOptions](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/) e prova a impostare l'attributo booleano [ExportTableOptions.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype/) su "true" se una colonna ha sia valori numerici che stringa per evitare errori.
 
- L'esempio seguente spiega l'uso di[ExportTableOptions.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype/)proprietà per esportare i dati Excel nella tabella dati. Si prega di consultare il[file Excel di esempio](sample.xlsx), il relativo screenshot e l'output della console come riferimento.
+## **Esportare i dati di Excel in DataTable e controllare il tipo di dati misti**
 
-###  **Codice d'esempio**
+Il seguente esempio spiega l'uso della proprietà [ExportTableOptions.CheckMixedValueType](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/checkmixedvaluetype/) per esportare i dati di Excel in una tabella. Si prega di consultare il [file Excel di esempio](sample.xlsx), la relativa schermata e l'output della console per un riferimento.
+
+### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-ExportDataAndCheckMixedType.cs" >}}
 
-###  **Immagine dello schermo**
+### **Screenshot**
 <br>
 <image src="1.png" width="70%" />
 <br>
 <image src="2.png" width="70%" />
 <br>
 
-###  **Uscita della console**
+### **Output della console**
 
-Di seguito è riportato l'output di debug della console del codice di esempio riportato sopra
+Di seguito è riportato l'output di debug della console del codice di esempio precedente
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Column1 = System.String
 Column2 = System.String

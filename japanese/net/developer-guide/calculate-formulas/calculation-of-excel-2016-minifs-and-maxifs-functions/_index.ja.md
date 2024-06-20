@@ -1,17 +1,18 @@
 ---
-title: Excel 2016 MINIFS および MAXIFS 関数の計算
-description: この記事では、Aspose.Cells ライブラリを使用して、Microsoft Excel 2016 で MINIFS 関数と MAXIFS 関数を計算する方法を紹介します。既存の Excel ファイルを読み込むか、新しい Excel ファイルを作成することで、Aspose.Cells が提供するメソッドを使用して MINIFS 関数と MAXIFS 関数を計算し、結果。最後に、変更した Excel ファイルをディスクに保存します。
-keywords: Aspose.Cells, Excel, 2016, MINIFS function, MAXIFS function, calculation
+title: Excel 2016のMINIFSおよびMAXIFS関数の計算
+description: 本記事では、Aspose.Cellsライブラリを使用してMicrosoft Excel 2016でMINIFSおよびMAXIFS関数を計算する方法について紹介します。既存のExcelファイルを読み込むか、新しいファイルを作成することで、Aspose.Cellsが提供するメソッドを使用してMINIFSおよびMAXIFS関数を計算し、結果を取得し、最後に変更されたExcelファイルをディスクに保存します。
+keywords: Aspose.Cells, Excel, 2016, MINIFS関数、MAXIFS関数、計算
 type: docs
 weight: 300
 url: /ja/net/calculation-of-excel-2016-minifs-and-maxifs-functions/
 ---
-##  **考えられる使用シナリオ**
-Microsoft Excel 2016 は MINIFS 関数と MAXIFS 関数をサポートしています。これらの関数は Excel 2013 以前のバージョンではサポートされていません。 Aspose.Cells はこれらの関数の計算もサポートしています。次のスクリーンショットは、これらの関数の使用法を示しています。これらの機能がどのように機能するかを知るには、スクリーンショット内の赤いコメントを読んでください。
+
+## **可能な使用シナリオ**
+Microsoft Excel 2016はMINIFSおよびMAXIFS関数をサポートしています。これらの関数はExcel 2013またはそれ以前のバージョンではサポートされていません。Aspose.Cellsもこれらの関数の計算をサポートしています。次のスクリーンショットではこれらの関数の使用例が示されています。これらの関数の動作について詳しく知るには、スクリーンショット内の赤いコメントを読んでください。
 
 ![todo:image_alt_text](calculation-of-excel-2016-minifs-and-maxifs-functions_1.png)
-##  **Excel 2016 MINIFS および MAXIFS 関数の計算**
-次のサンプルコードは、[サンプルエクセルファイル](5115149.xlsx)そして、[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) Aspose.Cells 経由で数式計算を実行し、結果を[出力PDF](5115154.pdf).
+## **Excel 2016のMINIFSおよびMAXIFS関数の計算**
+次のサンプルコードは、[サンプルExcelファイル](5115149.xlsx) を読み込み、[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) メソッドを呼び出すことでAspose.Cellsを介して数式計算を行い、その結果を[出力PDF](5115154.pdf) に保存します。
 
 
 

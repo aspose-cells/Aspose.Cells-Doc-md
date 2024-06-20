@@ -1,10 +1,11 @@
-﻿---
-title: Användarmanual
+---
+title: Användarhandbok
 type: docs
 weight: 20
 url: /sv/sharepoint/user-s-guide/
 ---
-###### **Det här avsnittet innehåller följande ämnen:**
+
+###### **Denna avsnitt innehåller följande ämnen:** 
 - [Konvertera en fil](/cells/sv/sharepoint/convert-one-file/)
 - [Konvertera flera filer](/cells/sv/sharepoint/convert-multiple-files/)
 - [Förhandsgranska dokument](/cells/sv/sharepoint/preview-document/)

@@ -1,22 +1,23 @@
-﻿---
+---
 title: Kopiera rader och kolumner i Python
 type: docs
 weight: 30
 url: /sv/java/copying-rows-and-columns-in-python/
 ---
+
 ## **Aspose.Cells - Kopiera rader och kolumner**
 ### **Kopiera rader**
-Aspose.Cells tillhandahåller metoden copyRow för klassen Cells. Denna metod kopierar alla typer av data inklusive formler, värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källraden till målraden.
+Aspose.Cells tillhandahåller metoden copyRow av klassen Cells. Denna metod kopierar alla typer av data inklusive formler, värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källraden till destinationsraden.
 
 Metoden copyRow tar följande parametrar:
 
-- källan Cells objekt,
+- källobjektet Cells,
 - källradens index, och
-- destinationsradindex.
+- destinationsradens index.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def copy_rows(self):
 
@@ -42,35 +43,35 @@ print "Copy Rows Successfully."
 
 {{< /highlight >}}
 ### **Kopiera kolumner**
-Aspose.Cells tillhandahåller metoden copyColumn för klassen Cells, denna metod kopierar alla typer av data, inklusive formler - med uppdaterade referenser - och värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källkolumnen till målkolumnen.
+Aspose.Cells tillhandahåller metoden copyColumn av klassen Cells, denna metod kopierar alla typer av data, inklusive formler - med uppdaterade referenser - och värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källkolumnen till destinationskolumnen.
 
-Metoden copyColumn använder följande parametrar:
+Metoden copyColumn tar följande parametrar:
 
-- källan Cells objekt,
-- källkolumnindex och
-- målkolumnindex.
+- källobjektet Cells,
+- källkolumnens index och
+- destinationskolumnens index.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
 
 
-def copy_columns(själv):
+def copy_columns(self):
 
-\# Instantiera ett arbetsboksobjekt med excel-filsökväg
+\# Instantiating a Workbook object by excel file path
 
-arbetsbok = self.Workbook()
+workbook = self.Workbook()
 
-\# Åtkomst till det första kalkylbladet i Excel-filen
+\# Accessing the first worksheet in the Excel file
 
-arbetsblad = workbook.getWorksheets().get(0)
+worksheet = workbook.getWorksheets().get(0)
 
-\# Lägg några data i rubrikrader (A1:A4)
+\# Put some data into header rows (A1:A4)
 
 i = 0
 
- medan jag< 5:
+while i < 5:
 
 worksheet.getCells().get(i, 0).setValue("Header Row #i")
 
@@ -112,7 +113,7 @@ workbook.save(self.dataDir + "Copy Columns.xls")
 print "Copy Columns Successfully." 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Kopiera rader och kolumner (Aspose.Cells)** från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Kopiera rader och kolumner (Aspose.Cells)** från någon av nedan nämnda sociala kodningssidor:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

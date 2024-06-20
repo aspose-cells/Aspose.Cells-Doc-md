@@ -1,15 +1,16 @@
-﻿---
-title: Establecer el comentario de la tabla o el objeto de lista
+---
+title: Establecer el Comentario de la Tabla u Objeto de Lista
 type: docs
 weight: 30
 url: /es/java/set-the-comment-of-table-or-list-object/
 ---
-## **Establezca el comentario de la tabla o el objeto de lista dentro de la hoja de trabajo**
 
- Establezca el comentario de la tabla o el objeto de lista dentro de la hoja de trabajo usando el[**ListObject.Comentario**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#Comment)propiedad. El comentario será visible dentro del archivo xl/tables/tableName.xml.
+## **Establecer el Comentario de la Tabla o Objeto de Lista dentro de la Hoja de Cálculo**
 
- El siguiente código de ejemplo carga el[archivo fuente excel](5472561.xlsx), establece el comentario de la primera tabla o el objeto de lista dentro de la hoja de trabajo y la captura de pantalla muestra el comentario creado por este código en el rectángulo rojo.
+Por favor, establece el comentario del Objeto Lista o Tabla dentro de la hoja de cálculo utilizando la propiedad [**ListObject.Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#Comment). El comentario será visible dentro del archivo xl/tables/nombreTabla.xml.
 
-![todo:imagen_alternativa_texto](set-the-comment-of-table-or-list-object_1.png)
+El siguiente código de ejemplo carga el [archivo de Excel de origen](5472561.xlsx), establece el comentario del primer objeto Lista o Tabla dentro de la hoja de cálculo y la captura de pantalla muestra el comentario creado por este código en el rectángulo rojo.
+
+![todo:image_alt_text](set-the-comment-of-table-or-list-object_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-SettheCommentofTableorListObject-SettheCommentofTableorListObject.java" >}}

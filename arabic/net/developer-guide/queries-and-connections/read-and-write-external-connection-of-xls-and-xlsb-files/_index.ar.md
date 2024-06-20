@@ -1,28 +1,29 @@
-﻿---
-title: قراءة وكتابة التوصيل الخارجي لملفات XLS و XLSB
+---
+title: قراءة وكتابة اتصال الخارجي لملفات XLS و XLSB
 type: docs
 weight: 80
 url: /ar/net/read-and-write-external-connection-of-xls-and-xlsb-files/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يدعم Aspose.Cells بالفعل قراءة وكتابة الاتصال الخارجي لملف XLSX ولكنه الآن يدعم هذه الميزة لملف XLSB و XLS. ومع ذلك ، فإن الكود هو نفسه لجميع أنواع التنسيقات.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **قراءة وكتابة الوصلة الخارجية لملف XLS/XLSB**
+Aspose.Cells تدعم بالفعل قراءة وكتابة اتصال خارجي لملف XLSX ولكن الآن، تدعم أيضًا هذه الميزة لملفات XLSB و XLS. ومع ذلك، يكون الكود هو نفسه لجميع أنواع الصيغ.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل نموذج ملف XLSB (يمكن أيضًا تحميل XLS) ويقرأ أول اتصال خارجي وهو في الواقع Microsoft Access DB Connection. ثم يقوم بتعديل ملف[**الاسم**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) الخاصية ويحفظها كملف الإخراج XLS/XLSB. تظهر لقطة الشاشة تأثير الكود على[عينة ملف XLSB](51740722.xlsb) و[ملف الإخراج XLSB](51740723.xlsb) بعد تنفيذه. يرجى أيضًا الاطلاع على إخراج وحدة التحكم لعينة التعليمات البرمجية الواردة أدناه للحصول على مرجع.
+## **قراءة وكتابة اتصال خارجي لملف XLS/XLSB**
 
-![ما يجب القيام به: image_بديل_نص](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)
+الكود العينة التالي يحمل ملف XLSB عينة (كما يمكن تحميل ملف XLS) ويقرأ اتصاله الخارجي الأول الذي هو في الواقع اتصال قاعدة بيانات Microsoft Access. ثم يقوم بتعديل الخاصية [**DBConnection.Name**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) ويحفظه كملف XLS/XLSB الناتج. تظهر اللقطة الشاشية تأثير الكود على [ملف XLSB عينة](51740722.xlsb) و [ملف XLSB الناتج](51740723.xlsb) بعد تنفيذه. يرجى أيضًا الاطلاع على إخراج الكونسول للكود العيني المعطى أدناه للإشارة.
 
-## **عينة من الرموز**
+![todo:image_alt_text](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)
 
-يجب أن يعمل الكود التالي لكل من ملفات XLSB و XLS عن طريق تحميل وحفظ الملفات بالملحق المناسب.
+## **الكود المثالي**
+
+الكود التالي سيعمل لكل من ملفات XLSB و XLS عن طريق تحميل وحفظ الملفات بامتداد مناسب.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.cs" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Connection Name: Cust
 

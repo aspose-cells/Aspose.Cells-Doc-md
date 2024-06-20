@@ -1,21 +1,24 @@
-﻿---
-title: البحث في البيانات باستخدام القيم الأصلية
+---
+title: البحث عن البيانات باستخدام القيم الأصلية
 type: docs
 weight: 540
 url: /ar/java/search-data-using-original-values/
 ---
+
 {{% alert color="primary" %}} 
 
- في بعض الأحيان تكون قيمة البيانات مخفية لأنها منسقة بطريقة ما. على سبيل المثال ، افترض أن الخلية D4 تحتوي على الصيغة = Sum (A1: A2) وقيمتها 20 ولكن تم تنسيقها كـ --- ، ثم القيمة 20 مخفية ولا يمكن العثور عليها باستخدام خيارات البحث عن Excel Microsoft. ومع ذلك ، يمكنك العثور عليه باستخدام Aspose.Cells باستخدام[LookInType.ORIGINAL_VALUES](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#ORIGINAL_VALUES)
+في بعض الأحيان يتم إخفاء قيمة البيانات لأنها مكتوبة بشكل معين. على سبيل المثال، لنفترض أن خلية D4 بها صيغة =Sum(A1:A2) وقيمتها هي 20 ولكنها مكتوبة على شكل ---، في هذه الحالة، تم إخفاء القيمة 20 ولا يمكن العثور عليها باستخدام خيارات البحث في Microsoft Excel. ومع ذلك، يمكنك العثور عليها باستخدام Aspose.Cells باستخدام [LookInType.ORIGINAL_VALUES](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#ORIGINAL_VALUES)
 
 {{% /alert %}} 
-## **البحث في البيانات باستخدام القيم الأصلية**
- يوضح نموذج التعليمات البرمجية التالي النقطة أعلاه. يعثر على الخلية D4 التي لا يمكن العثور عليها باستخدام Microsoft خيارات البحث عن Excel ولكن يمكن لـ Aspose.Cells العثور عليها باستخدام[LookInType.ORIGINAL_VALUES](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#ORIGINAL_VALUES). يرجى قراءة التعليقات داخل الكود لمزيد من المعلومات.
+## **البحث عن البيانات باستخدام القيم الأصلية**
+الكود العيني التالي يوضح النقطة المذكورة أعلاه. يعثر على الخلية D4 التي لا يمكن العثور عليها باستخدام خيارات البحث في Microsoft Excel ولكن Aspose.Cells يمكنها أن تعثر عليها باستخدام [LookInType.ORIGINAL_VALUES](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#ORIGINAL_VALUES). يرجى قراءة التعليقات داخل الكود لمزيد من المعلومات.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SearchDataUsingOriginalValues-SearchDataUsingOriginalValues.java" >}}
-## **إخراج وحدة التحكم**
-هنا هو إخراج وحدة التحكم من نموذج التعليمات البرمجية أعلاه.
+## **مخرجات الوحدة**
+فيما يلي مخرجات وحدة الإدخال الخاصة بالكود المصدري أعلاه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- Aspose.Cells.Cell [ D4; ValueType : IsNumeric; Value : ---; Formula:=SUM(A1:A2)]{{< /highlight >}}
+ Aspose.Cells.Cell [ D4; ValueType : IsNumeric; Value : ---; Formula:=SUM(A1:A2)]
+
+{{< /highlight >}}

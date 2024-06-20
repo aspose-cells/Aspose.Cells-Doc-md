@@ -1,4 +1,4 @@
-﻿---
+---
 title: Teckensnitt
 type: docs
 weight: 110

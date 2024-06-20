@@ -1,22 +1,22 @@
-﻿---
-title: ワークシートに署名欄を追加する
+---
+title: ワークシートに署名行を追加
 type: docs
 weight: 200
 url: /ja/net/add-signature-line/
+description: この記事では、Aspose.Cells for .Netを使用してC#コードでワークシートに署名行を追加する方法について説明します。
+keywords: ワークシートに署名行を追加する方法、ワークシートに署名行を追加する方法、Excelファイルに署名行を追加する方法
 ---
-## **考えられる使用シナリオ**
 
-{{% alert color="primary" %}}
+## **紹介**
 
-Aspose.Cells は[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)ワークシートの署名欄を追加するプロパティ。
+Aspose.Cellsは、ワークシートの署名行を追加するための[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)プロパティを提供します。
 
-{{% /alert %}}
 
-## **ワークシートに署名欄を追加する**
+## **ワークシートに署名行を追加する方法**
 
-次のサンプル コードは、[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)ワークシートの署名欄を追加するプロパティ。スクリーンショットは、実行後のサンプル Excel ファイルに対するサンプル コードの効果を示しています。
+次のサンプルコードは、[**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)プロパティを使用してワークシートの署名行を追加する方法を示しています。スクリーンショットは、コードの実行後にサンプルExcelファイルに与える効果を示しています。
 
-![todo:画像_代替_文章](add-signature-line.png)
+![todo:image_alt_text](add-signature-line.png)
 
 ## **サンプルコード**
 

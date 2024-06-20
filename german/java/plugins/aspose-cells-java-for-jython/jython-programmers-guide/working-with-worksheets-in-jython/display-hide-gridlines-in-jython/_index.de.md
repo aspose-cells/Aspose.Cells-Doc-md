@@ -1,15 +1,16 @@
-﻿---
-title: Gitternetzlinien ausblenden in Jython anzeigen
+---
+title: Gridlines in Jython anzeigen/verstecken
 type: docs
 weight: 30
 url: /de/java/display-hide-gridlines-in-jython/
 ---
-## **Aspose.Cells - Rasterlinien anzeigen/ausblenden**
- Zum Anhängen von Dokumenten mit**Aspose.Cells Java für Jython**. Hier sehen Sie Beispielcode.
+
+## **Aspose.Cells - Gridlines anzeigen/verstecken**
+Zum Anfügen von Dokumenten mit **Aspose.Cells Java für Jython**. Hier sehen Sie Beispielscode.
 
 **Jython-Code**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -53,7 +54,7 @@ if __name__ == '__main__':
     DisplayHideGridlines()
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Dokumente anhängen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Dokumente anfügen (Aspose.Cells)** von einer der unten genannten Plattformen für soziale Codierung herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/DisplayHideGridlines.py)

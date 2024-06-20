@@ -1,28 +1,29 @@
-﻿---
+---
 title: Comprobar el número de versión del componente
 type: docs
 weight: 70
 url: /es/java/check-version-number-of-the-component/
 ---
+
 {{% alert color="primary" %}} 
 
-En algunos casos, es posible que se pregunte qué versión del producto tiene. A menudo creamos nuevas correcciones (correcciones de errores para los escenarios de los usuarios que señalan) y las publicamos en los foros en función de sus necesidades con urgencia. El número de versión consta del número de versión principal, el número de versión secundaria y el número de versión de revisión. Todos los componentes definidos deben ser números enteros mayores o iguales a 0. El formato del número de versión es el siguiente:
+En algunos casos, es posible preguntarse qué versión del producto se tiene. A menudo construimos nuevas correcciones (correcciones de errores para los escenarios de usuario que señalan) y las publicamos en los foros según su necesidad urgente. El número de versión consta de número de versión principal, número de versión secundaria y número de versión de corrección. Todos los componentes definidos deben ser enteros mayores o iguales a 0. El formato del número de versión es el siguiente:
 
-major.minor.hotfix, podemos aumentar una parte en 1 y hacer una nueva versión. Normalmente, aumentamos la última parte en 1 y creamos una nueva solución para publicarla en los foros para los usuarios.
+número_principal.número_secundario.corrección , podemos aumentar una parte en 1 y crear una nueva versión. Normalmente, aumentamos la última parte en 1 y creamos una nueva corrección para publicarla en los foros para los usuarios.
 
-Este documento describe algunas formas de verificar qué versión del componente está instalada en su sistema.
+Este documento describe algunas formas de comprobar qué versión del componente está instalada en su sistema.
 
 {{% /alert %}} 
-## **Comprobación del número de versión**
-### **1) Manera Manual**
-Si tiene la versión/corrección Java (Aspose.Cells for Java), puede descomprimir el archivo jar de la biblioteca Aspose.Cells, abrir el archivo MANIFEST con el bloc de notas y buscar la cadena, es decir, "Specification-Version:" para verificar su valor.
+## **Comprobando el número de versión**
+### **1) Forma Manual**
+Si tiene la versión/corrección de Java (Aspose.Cells for Java), puede descomprimir el archivo jar de la biblioteca Aspose.Cells, abrir el archivo MANIFEST con el bloc de notas y buscar la cadena es decir., "Specification-Version: " para comprobar su valor.
 
-![todo:imagen_alternativa_texto](check-version-number-of-the-component_1.png)
+![todo:image_alt_text](check-version-number-of-the-component_1.png)
 
 
-**Figura:** Comprobación del número de versión de la corrección Java
-### **2) Uso de las API**
-También puede usar las siguientes API para obtener el número de versión del producto.
+**Figura:** Comprobando el número de versión de la corrección de Java
+### **2) Uso de las APIs**
+También puede utilizar las siguientes APIs para obtener el número de versión del producto.
 
 
 

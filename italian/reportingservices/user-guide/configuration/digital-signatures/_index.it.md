@@ -1,14 +1,15 @@
-﻿---
+---
 title: Firme digitali
 type: docs
 weight: 50
 url: /it/reportingservices/digital-signatures/
 ---
-Aspose.Cells for Reporting Services supporta le firme digitali durante l'esportazione di file Excel 2007 Microsoft o file ODS. Abbiamo alcune informazioni di configurazione per le firme digitali che possono essere impostate nel file**Aspose.Cells.ReportingServices.xml** file.
 
- Quando il valore di DigitalSignature è**spento**, Aspose.Cells for Reporting Services disattiva le firme digitali.
+Aspose.Cells for Reporting Services supporta firme digitali durante l'esportazione di file Microsoft Excel 2007 o file ODS. Abbiamo alcune informazioni di configurazione per le firme digitali che possono essere impostate nel file **Aspose.Cells.ReportingServices.xml**.
 
-{{< highlight "java" >}}
+Quando il valore di DigitalSignature è **off**, Aspose.Cells for Reporting Services disattiva le firme digitali.
+
+{{< highlight java >}}
 
  <DigitalSignature value="off">
 
@@ -18,22 +19,22 @@ Aspose.Cells for Reporting Services supporta le firme digitali durante l'esporta
 
 {{< /highlight >}}
 
- Quando il valore di DigitalSignature è**Su**, Aspose.Cells for Reporting Services attiva la firma digitale.
+Quando il valore di DigitalSignature è **on**, Aspose.Cells for Reporting Services attiva le firme digitali.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <DigitalSignature value="on">
 
 {{< /highlight >}}
 
- Ci sono quattro parametri nella sezione Firma Digitale. Questi sono:
+Ci sono quattro parametri nella sezione DigitalSignature. Questi sono: 
 
-- **nome**: rappresenta un report che necessita di firma digitale. Quando il parametro viene lasciato vuoto, i report utilizzano un file PFX per le firme digitali.
-- **pfxNome file**: fa riferimento a un file PFX. Il nome file deve essere un nome file completo, completo di percorso ed estensione file. Non deve essere vuoto.
-- **pfxPwd**: imposta la password. Non deve essere vuoto.
-- **scopo**: una descrizione dello scopo della firma. Può essere vuoto.
+- **nome**: rappresenta un report che necessita di una firma digitale. Quando il parametro è lasciato vuoto, i report utilizzano un file PFX per le firme digitali.
+- **pfxFilename**: si riferisce a un file PFX. Il nome del file dovrebbe essere un nome di file completo, completo di percorso ed estensione del file. Non deve essere vuoto.
+- **pfxPwd**: imposta la password. Non deve essere vuota.
+- **scopo**: una descrizione di ciò per cui è la firma. Può essere vuoto.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <DigitalSignature value="on">
 

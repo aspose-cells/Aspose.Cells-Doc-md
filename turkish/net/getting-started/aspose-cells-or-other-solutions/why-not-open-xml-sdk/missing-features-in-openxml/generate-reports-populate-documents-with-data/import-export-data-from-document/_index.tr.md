@@ -1,40 +1,41 @@
-﻿---
-title: Verileri belgeden içe aktar
+---
+title: Belgeden Veri İçe ve Dışa Aktar
 type: docs
 weight: 10
 url: /tr/net/import-export-data-from-document/
 ---
-## **Belgeden verileri içe aktar**
 
-Veriler, ham gerçeklerin toplanmasıdır ve bu ham gerçekleri daha anlamlı bir şekilde sunmak için elektronik tablo belgeleri veya raporları oluştururuz. Normalde elektronik tablolara verileri kendimiz ekleriz, ancak bazen mevcut veri kaynaklarını yeniden kullanmamız gerekir ve burada farklı veri kaynaklarından elektronik tablolara veri aktarma ihtiyacı ortaya çıkar. Bu konuda, farklı veri kaynaklarından çalışma sayfalarına veri aktarmak için bazı teknikleri tartışacağız.
+## **Belgeden veri içe aktarma**
 
-## **Aspose.Cells Kullanarak Verileri İçe Aktarma**
+Veri, ham gerçeklerin bir koleksiyonudur ve bu ham gerçekleri daha anlamlı bir şekilde sunmak için elektronik tablo belgeleri veya raporlar oluştururuz. Genellikle veri ekleriz ancak bazen mevcut veri kaynaklarını yeniden kullanmamız gerekebilir ve burada farklı veri kaynaklarından çalışsayılara veri almanın ihtiyacı ortaya çıkar.
 
- kullandığınızda**Aspose.Cells** bir Excel dosyasını açmak için dosyadaki tüm veriler otomatik olarak içe aktarılır ancak Aspose.Cells farklı veri kaynaklarından veri içe aktarmayı da destekler. Bu veri kaynaklarından birkaçı aşağıda listelenmiştir:
+## **Aspose.Cells Kullanarak Veri İçe Aktarma**
 
-- **Dizi**
-- **Dizi Listesi**
-- **Veri tablosu**
-- **Veri Sütunu**
-- **Veri görünümü**
-- **Veri şebekesi**
-- **Veri Okuyucu**
-- **Izgara Görünümü**
+**Aspose.Cells**’i bir Excel dosyasını açmak için kullandığınızda, dosyadaki tüm veriler otomatik olarak alınır ancak Aspose.Cells, farklı veri kaynaklarından veri almayı da destekler. Bu veri kaynaklarından bazıları aşağıda listelenmiştir:
 
- Aspose.Cells bir sınıf sağlar,**Çalışma kitabı** Bu bir Excel dosyasını temsil eder. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişime izin veren bir Worksheets koleksiyonu içerir. Bir çalışma sayfası, Worksheet sınıfı tarafından temsil edilir. Worksheet sınıfı bir Cells koleksiyonu sağlar.
+- **Array**
+- **ArrayList**
+- **DataTable**
+- **DataColumn**
+- **DataView**
+- **DataGrid**
+- **DataReader**
+- **GridView**
 
-Cells koleksiyonu, farklı veri kaynaklarından veri almak için çok kullanışlı yöntemler sağlar.
+Aspose.Cells, bir Excel dosyasını temsil eden **Workbook** adlı bir sınıf sağlar. Workbook sınıfı, Excel dosyasındaki her çalışsayıya erişime izin veren bir Worksheets koleksiyonunu içerir. Bir çalışsayı, Worksheet sınıfı tarafından temsil edilir. Worksheet sınıfı, bir Hücreler koleksiyonu sağlar.
 
-### **Diziden İçe Aktarma**
+Hücreler koleksiyonu, farklı veri kaynaklarından veri almak için çok kullanışlı yöntemler sağlar.
 
- Geliştiriciler, çağırarak bir diziden çalışma sayfalarına veri aktarabilir.**İçe Aktarma Dizisi** Cells koleksiyonunun yöntemi. ImportArray yönteminin birçok aşırı yüklenmiş sürümü vardır, ancak tipik bir aşırı yükleme aşağıdaki parametreleri alır:
+### **Diziden Alınan Veri**
 
-- Dizi, içeriğinin içe aktarılması gereken dizi nesnesini temsil eder
-- Satır Numarası, verilerin içe aktarılacağı ilk hücrenin satır numarasını gösterir.
-- Sütun Numarası, verilerin içe aktarılacağı ilk hücrenin sütun numarasını gösterir.
-- Is Vertical, verilerin dikey veya yatay olarak içe aktarılacağını belirten bir boole değeri
+Geliştiriciler, hücreler koleksiyonunun **ImportArray** yöntemini çağırarak verileri diziden çalışma sayfalarına aktarabilirler. **ImportArray** yönteminin birçok aşırı yüklenmiş versiyonu bulunmaktadır ancak tipik bir aşırı yüklenme aşağıdaki parametreleri alır:
 
-{{< highlight "csharp" >}}
+- Dizi, içeri aktarılacak dizi nesnesini temsil eder
+- Satır Numarası, verilerin içeri aktarılacağı ilk hücrenin satır numarasını temsil eder
+- Sütun Numarası, verilerin içeri aktarılacağı ilk hücrenin sütun numarasını temsil eder
+- Dikey, verinin dikey veya yatay olarak alınmasını belirten boolean bir değerdir.
+
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -50,7 +51,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 //Creating an array containing names as string values
 
-string[]names = new string[]{ "laurence chen", "roman korchagin", "kyle huang" };
+string[] names = new string[] { "laurence chen", "roman korchagin", "kyle huang" };
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -62,15 +63,15 @@ workbook.Save(MyDir+"DataImport from Array.xls");
 
 {{< /highlight >}}
 
-### **ArrayList'ten içe aktarma**
+### **ArrayList'ten Alınan Veri**
 
- Geliştiriciler, ArrayList'i çağırarak çalışma sayfalarına veri aktarabilir.**ImportArrayList** Cells koleksiyonunun yöntemi. ImportArray yöntemi aşağıdaki parametreleri alır:**Dizi Listesi** , içeriğinin içe aktarılması gereken ArrayList nesnesini temsil eder
+Geliştiriciler, Hücreler koleksiyonunun **ImportArrayList** yöntemini çağırarak verileri ArrayList'ten çalışma sayfalarına alabilirler. ImportArray yöntemi aşağıdaki parametreleri alır: **ArrayList** , içeriği alınması gereken ArrayList nesnesini temsil eder
 
-- Satır Numarası , verilerin içe aktarılacağı ilk hücrenin satır numarasını gösterir.
-- Sütun Numarası , verilerin içe aktarılacağı ilk hücrenin sütun numarasını gösterir.
-- Is Vertical , verilerin dikey veya yatay olarak içe aktarılacağını belirten bir boole değeri
+- Satır Numarası , verinin alınacağı ilk hücrenin satır numarasını temsil eder
+- Sütun Numarası , verinin alınacağı ilk hücrenin sütun numarasını temsil eder
+- Dikey, verinin dikey veya yatay olarak alınmasını belirten boolean bir değerdir
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -108,11 +109,11 @@ workbook.Save(MyDir + "DataImport from Array List.xls");
 
 {{< /highlight >}}
 
-### **Özel Nesnelerden İçe Aktarma**
+### **Özel Nesnelerden Alınan Veri**
 
- Geliştiriciler, nesneler koleksiyonundaki verileri kullanarak bir çalışma sayfasına aktarabilir.**Özel Nesneleri İçe Aktar**. İstediğiniz nesne listesini görüntülemek için yönteme bir sütun/özellikler listesi sağlayabilirsiniz.
+Geliştiriciler, istenen nesne listesini göstermek için **ImportCustomObjects** yöntemini kullanarak bir çalışma sayfasına nesne koleksiyonundan veri alabilirler.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate a new Workbook
 
@@ -142,7 +143,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 
@@ -168,14 +169,14 @@ book.Save(MyDir+"ImportedCustomObjects.xls");
 
 {{< /highlight >}}
 
-### **DataTable'dan içe aktarma**
+### **DataTable'dan Alınan Veri**
 
- Geliştiriciler, bir**Veri tablosu** arayarak çalışma sayfalarına**ImportDataTable** Cells koleksiyonunun yöntemi. Programın aşırı yüklenmiş birçok versiyonu vardır.**ImportDataTable** yöntem ancak tipik bir aşırı yükleme aşağıdaki parametreleri alır:**Veri tablosu** , temsil etmek**Veri tablosu** içeriğinin içe aktarılması gereken nesne
+Geliştiriciler, Hücreler koleksiyonunun **ImportDataTable** yöntemini çağırarak **DataTable**'den veri alabilirler. **ImportDataTable** yönteminin çok sayıda aşırı yüklenmiş sürümü olsa da, tipik bir aşırı yüklemenin aşağıdaki parametreleri alır: **DataTable** , içeriği alınması gereken **DataTable** nesnesini temsil eder
 
-- **Alan Adı Gösteriliyor mu?**, DataTable sütunlarının adlarının çalışma sayfasına ilk satır olarak alınıp alınmayacağını belirtir.
-- **Başlangıç Cell** DataTable içeriğinin içe aktarılacağı başlangıç hücresinin adını (yani "A1") temsil eder.
+- **Alan Adı Gösterilsin Mi**, DataTable sütunlarının çalışma sayfasına ilk satır olarak alınıp alınmayacağını belirtir
+- **Başlangıç Hücresi** , DataTable içeriğinin nereden alınacağını temsil eden başlangıç hücresinin adını (örn. "A1") temsil eder
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -207,11 +208,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -223,11 +224,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 
@@ -245,28 +246,28 @@ workbook.Save(MyDir+"Import From Data Table.xls");
 
 {{< /highlight >}}
 
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
 
-## **Verileri belgeden dışa aktar**
+## **Belgeden Veri Aktar**
 
- Aspose.Cells, kullanıcılarının yalnızca harici veri kaynaklarından çalışma sayfalarına veri almalarını kolaylaştırmakla kalmaz, aynı zamanda çalışma sayfası verilerini bir**Veri tablosu** . bildiğimiz gibi**Veri tablosu** ADO.NET'in bir parçasıdır ve verileri tutmak için kullanılır. Veriler bir kez depolandığında**Veri tablosu**, kullanıcıların gereksinimlerine göre herhangi bir şekilde kullanılabilir.
+Aspose.Cells, kullanıcılarının yalnızca dış veri kaynaklarından çalışsayılarına veri almasına olanak tanımakla kalmaz, aynı zamanda çalışsayı verilerini bir **DataTable**'a aktarmalarına da izin verir.
 
-## **Aspose.Cells Kullanarak Verileri DataTable'a (.NET) Aktarma**
+## **Aspose.Cells Kullanarak Veriyi DataTable (.NET)’e Aktarma**
 
-Geliştiriciler, Cells sınıfının ExportDataTable veya ExportDataTableAsString yöntemini çağırarak çalışma sayfası verilerini kolayca bir DataTable nesnesine aktarabilir. Her iki yöntem de aşağıda daha ayrıntılı olarak tartışılan farklı senaryolarda kullanılmaktadır.
+Geliştiriciler, Cells sınıfının ExportDataTable veya ExportDataTableAsString yöntemini çağırarak çalışsayı verilerini bir DataTable nesnesine kolayca dışa aktarabilirler. Her iki yöntem de farklı senaryolarda kullanılır ve daha ayrıntılı olarak aşağıda tartışılmaktadır.
 
-### **Kesinlikle Yazılmış Verileri İçeren Sütunlar**
+### **Güçlü-Tiplendirilmiş Veri İçeren Sütunlar**
 
-Bir elektronik tablonun verileri bir dizi satır ve sütun olarak sakladığını biliyoruz. Bir çalışma sayfasının sütunlarındaki tüm değerler kesin olarak yazılmışsa (bu, bir sütundaki tüm değerlerin aynı veri türüne sahip olması gerektiği anlamına gelir), o zaman çalışma sayfasının içeriğini çağırarak dışa aktarabiliriz.**ExportDataTable** Cells sınıfının yöntemi.**ExportDataTable** yöntem, çalışma sayfası verilerini şu şekilde dışa aktarmak için aşağıdaki parametreleri alır:**Veri tablosu** nesne:**Satır numarası** , verilerin dışa aktarılacağı ilk hücrenin satır numarasını temsil eder
+Bir elektronik tablo, verileri bir dizi satır ve sütun olarak depolar. Bir çalışma sayfasının sütunlarının tüm değerleri güçlü bir şekilde türdeyse (bu, bir sütundaki tüm değerlerin aynı veri tipine sahip olması gerektiği anlamına gelir) o zaman **Cells** sınıfının **ExportDataTable** yöntemini çağırarak çalışma sayfası içeriğini dışa aktarabiliriz. **ExportDataTable** yöntemi, çalışma sayfasındaki verileri **DataTable** nesnesi olarak dışa aktarmak için aşağıdaki parametreleri alır: **Satır Numarası** , verilerin dışa aktarılacağı ilk hücrenin satır numarasını temsil eder
 
 - **Sütun Numarası** , verilerin dışa aktarılacağı ilk hücrenin sütun numarasını temsil eder
-- **Satır sayısı** , dışa aktarılacak satır sayısını temsil eder
-- **Sütun sayısı** dışa aktarılacak sütun sayısını temsil eder
-- **Sütun Adlarını Dışa Aktar** , çalışma sayfasının ilk satırındaki verilerin DataTable'ın sütun adları olarak dışa aktarılıp aktarılmayacağını belirten bir boole özelliği
+- **Satır Sayısı** , dışa aktarılacak satır sayısını temsil eder
+- **Sütun Sayısı** , dışa aktarılacak sütun sayısını temsil eder
+- **Sütun İsimlerini Dışa Aktar** , çalışma sayfasının ilk satırındaki verilerin **DataTable** sütun isimleri olarak dışa aktarılıp aktarılmayacağını gösteren bir boolean özelliği
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Creating a file stream containing the Excel file to be opened
 
@@ -296,11 +297,11 @@ fstream.Close();
 
 {{< /highlight >}}
 
-### **Kesinlikle Yazılmamış Veriler İçeren Sütunlar**
+### **Güçlü-Tiplendirilmemiş Veri İçeren Sütunlar**
 
- Bir çalışma sayfasının sütunlarındaki tüm değerler kesin olarak yazılmamışsa (bu, bir sütundaki değerlerin farklı veri türlerine sahip olabileceği anlamına gelir), o zaman çalışma sayfasının içeriğini çağırarak dışarı aktarabiliriz.**ExportDataTableAsString** Cells sınıfının yöntemi.**ExportDataTableAsString** yöntemi ile aynı parametre kümesini alır.**ExportDataTable** çalışma sayfası verilerini dışa aktarma yöntemi**Veri tablosu** nesne.
+Bir çalışma sayfasının sütunlarının tüm değerleri güçlü bir şekilde türde değilse (bu, bir sütundaki değerlerin farklı veri tiplerine sahip olabileceği anlamına gelir) o zaman **Cells** sınıfının **ExportDataTableAsString** yöntemini çağırarak çalışma sayfası içeriğini dışa aktarabiliriz. **ExportDataTableAsString** yöntemi, çalışma sayfasındaki verileri **DataTable** nesnesi olarak dışa aktarmak için **ExportDataTable** yönteminin aldığı parametre setini alır
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Creating a file stream containing the Excel file to be opened
 
@@ -330,7 +331,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

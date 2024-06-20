@@ -1,26 +1,27 @@
-﻿---
-title: VSTO および Aspose.Cells でワークシートの背景画像を設定する
+---
+title: VSTOおよびAspose.Cellsでワークシートの背景画像を設定する
 type: docs
 weight: 220
 url: /ja/net/set-background-picture-of-a-worksheet-in-vsto-and-aspose-cells/
 ---
-背景画像をスプレッドシートに適用するには:
+
+スプレッドシートに背景画像を適用するには:
 
 1. ワークブックを作成し、背景画像を適用するシートにアクセスします。
 1. 背景画像を適用します。
-1. ブックを保存します。
+1. ワークブックを保存します。
 
-次のコード サンプルは、最初に C# または Visual Basic を使用して VSTO でこれを行う方法を示し、次に Aspose.Cells for .NET で、再び C# または Visual Basic を使用します。
+後続するコードサンプルは、VSTOを使用して最初にC#またはVisual Basicを使用し、その後、C#またはVisual Basicを使用して、Aspose.Cells for .NETを再度使用する方法を示しています。
 
-この記事のコード例では、下のスクリーンショットのように、背景画像が繰り返されるワークシートを作成します。
+この記事のコード例では、スクリーンショットのような繰り返し背景画像を持つワークシートを作成します。
 
-![todo:画像_代替_文章](picture1.png)
+![todo:image_alt_text](picture1.png)
 
 ワークシートの背景が設定されました。
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -50,7 +51,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -70,7 +71,7 @@ FileStream fs = File.OpenRead(ImageUrl);
 
 //Define a byte array.
 
-byte[]imageData = new Byte[fs.Length];
+byte[] imageData = new Byte[fs.Length];
 
 //Obtain the picture into the array of bytes from streams.
 
@@ -92,6 +93,6 @@ workbook.Save("BackgroundPicBook.xls");
 
 ## **サンプルコードをダウンロード**
 
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Set.Background.Picture.of.a.Worksheet.Aspose.Cells.zip)
-- [ソースフォージ](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\)。ジップ）
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Set.Background.Picture.of.a.Worksheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Set%20Background%20Picture%20of%20a%20Worksheet%20\(Aspose.Cells\).zip)

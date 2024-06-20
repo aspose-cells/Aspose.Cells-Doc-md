@@ -1,73 +1,76 @@
-﻿---
-title: Creazione di un foglio di visualizzazione gerarchico
+---
+title: Creazione della visualizzazione gerarchica del foglio
 type: docs
 weight: 30
-url: /it/net/creating-hierarchical-view-sheet/
+url: /it/net/aspose-cells-gridweb/create-hierarchical-view-sheet/
+keywords: GridWeb, gerarchico
+description: Questo articolo presenta come creare una visualizzazione gerarchica in GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
- L'associazione dati è una funzionalità GridWeb potente e intuitiva. I dati archiviati nelle tabelle del database vengono recuperati in un DataSet e riempiti con i dati
+Il data binding è una potente e user-friendly caratteristica di GridWeb. I dati memorizzati nelle tabelle del database vengono recuperati in un DataSet e popolati con dati 
 
- che rappresentano le tabelle di dati. Utilizzando la funzione di associazione dati, è possibile creare una vista gerarchica (una vista master-figlio) di dati interconnessi e
+rappresentando le tabelle dei dati. Utilizzando la funzionalità di data binding, è possibile creare una visualizzazione gerarchica (una visualizzazione padre-figlio) di dati interconnessi e 
 
- visualizzarlo nel controllo per renderlo più elegante.
+mostrarla nel controllo per renderla più elegante. 
 
- Questo argomento illustra la creazione di un foglio di visualizzazione gerarchico. Alcune delle righe nel foglio hanno visualizzazioni figlio. Quando un utente fa clic sulla riga**Espandere**
+Questo argomento discute la creazione di un foglio con visualizzazione gerarchica. Alcune delle righe nel foglio hanno visualizzazioni figlio. Quando un utente fa clic su **Espandi** della riga
 
- pulsante{{< emoticons/cross >}} , la tabella di visualizzazione figlio di tale riga viene espansa verso il basso. Questa funzione è molto utile per la creazione di un rapporto di visualizzazione gerarchico.
+button {{< emoticons/cross >}}, the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report. 
 
-**Una tabella con una vista gerarchica** 
+**Una tabella con una visualizzazione gerarchica** 
 
-![cose da fare:immagine_alt_testo](creating-hierarchical-view-sheet_1.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
-## **Creare relazioni per DataTable**
-Ad esempio, utilizzi ADO.Net API ed estrai i dati dalle tabelle del database. Per creare un foglio di visualizzazione gerarchico, è necessario progettare un DataSet
+## **Creare relazioni per i DataTable**
+Ad esempio, si utilizza l'API ADO.Net ed estrarre dati dalle tabelle del database. Per creare un foglio con visualizzazione gerarchica, è necessario progettare un DataSet
 
- oggetto basato su alcune tabelle e creare prima una relazione tra di esse. Usa i VS.NET**Progettazione set di dati** per creare la relazione. In
+oggetto basato su alcune tabelle e creare una relazione tra di esse prima. Utilizzare il **DataSet Designer** di VS.NET per creare la relazione. In 
 
- In questo esempio sono presenti tre DataTable: Customers, Orders, Order Details. Il foglio mostra tutte le informazioni del cliente per impostazione predefinita. quando
+In questo esempio, ci sono tre DataTables: Clienti, Ordini, Dettagli ordine. Il foglio mostra tutte le informazioni dei clienti per impostazione predefinita. Quando 
 
- l'utente espande un cliente, la griglia mostra tutti gli ordini che il cliente ha effettuato. Quando l'utente espande un ordine, la griglia mostra i dettagli
+l'utente espande un cliente, la griglia mostra tutti gli ordini che quel cliente ha effettuato. Quando l'utente espande un ordine, la griglia mostra i dettagli 
 
 di quell'ordine. I dati sono gerarchici: i dettagli dell'ordine sono elencati sotto gli ordini e gli ordini sono elencati sotto i clienti.
 
-Affinché ciò funzioni, è necessario stabilire le seguenti relazioni tra le tabelle di dati:
+Per far funzionare questo, è necessario stabilire le seguenti relazioni tra le tabelle:
 
-1.  Crea una chiave esterna su DataTable Orders, il campo chiave è CustomerID
+1. Creare una chiave esterna su DataTable Ordini, il campo chiave è CustomerID 
 
-![cose da fare:immagine_alt_testo](creating-hierarchical-view-sheet_2.png)
-
-
-
-
-1. Crea una chiave esterna su DataTable Order Details, il campo chiave è OrderID.
-
-![cose da fare:immagine_alt_testo](creating-hierarchical-view-sheet_3.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_2.png)
 
 
 
- Il DataSet Designer ora ha questo aspetto:
 
-![cose da fare:immagine_alt_testo](creating-hierarchical-view-sheet_4.png)
-### **Associa foglio di lavoro**
- Ora usa il**Progettista di fogli di lavoro** per impostare DataSource e DataMember per il foglio di lavoro e configurare le colonne di binding del campo dati.
+1. Creare una chiave esterna su DataTable Dettagli ordine, il campo chiave è OrderID. 
 
- Il controllo aggiunge automaticamente un'icona + per ogni riga che corrisponde a un record il cui oggetto di associazione (generalmente un oggetto DataRowView) ha
+![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
 
- punti di vista del bambino. Quando si fa clic sull'icona +, il record si espande per mostrare la vista figlio. L'esempio seguente utilizza il**Progettista di fogli di lavoro** legare il
 
- foglio di lavoro al padre principale DataTable Customers.
 
-![cose da fare:immagine_alt_testo](creating-hierarchical-view-sheet_5.png)
-### **Personalizza le colonne di associazione delle tabelle figlie**
- Il controllo fornisce un evento denominato GridWeb.BindingChildView che gli sviluppatori usano per personalizzare le colonne di associazione delle tabelle figlio. Questo esempio
+Il DataSet Designer sembra ora così: 
 
- deve visualizzare i dettagli dell'ordine'**Prezzo unitario** campo in un formato valuta. Aggiungere un gestore eventi per modificare il formato numerico della colonna di associazione.
+![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
+### **Collegare il foglio di lavoro**
+Ora utilizza il **Worksheets Designer** per impostare il DataSource e il DataMember per il foglio di lavoro e configurare le colonne del binding dei campi dati. 
+
+Il controllo aggiunge automaticamente un'icona + per ogni riga corrispondente a un record il cui oggetto di binding (generalmente un oggetto DataRowView) ha 
+
+viste figlio. Quando si fa clic sull'icona +, il record si espande per mostrare la vista figlio. L'esempio di seguito utilizza il **Worksheets Designer** per collegare il 
+
+foglio di lavoro al DataTable genitore radice Clienti. 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_5.png)
+### **Personalizzare le colonne di binding delle tabelle figlio**
+Il controllo fornisce un evento chiamato GridWeb.BindingChildView che gli sviluppatori utilizzano per personalizzare le colonne di binding delle tabelle figlio. In questo esempio 
+
+deve mostrare il campo **UnitPrice** dei dettagli dell'ordine in un formato di valuta. Aggiungere un gestore di eventi per cambiare il formato numerico della colonna di binding. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Handles the BindingChildView event to set the UnitPrice column.
 
@@ -93,7 +96,7 @@ private void GridWeb1_BindingChildView(Aspose.Cells.GridWeb.GridWeb childGrid, A
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Handles the BindingChildView event to set the UnitPrice column.
 
@@ -114,38 +117,38 @@ End Sub
 
 
 {{< /highlight >}}
-### **Carica dati da database e associazione**
-Come descritto in[Associare un foglio di lavoro a un set di dati utilizzando la finestra di progettazione dei fogli di lavoro di GridWeb](/cells/it/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
- è necessario aggiungere codice al blocco Page_Load per caricare i dati nel DataSet da un database e associare il DataSet al foglio nel
+### **Carica dati dal database e collegamento**
+Come descritto in [Collegare il foglio di lavoro a un DataSet utilizzando il Worksheets Designer di GridWeb](/cells/it/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
+è necessario aggiungere del codice al blocco Page_Load per caricare i dati nel DataSet da un database e collegare il DataSet al foglio nel 
 
- passo successivo.
+passo successivo. 
 
 La classe Asppose.Grid.Web.Data.WebWorksheet ha alcune proprietà utili.
 
-- Ad esempio, la proprietà EnableCreateBindColumnHeader viene utilizzata per creare le intestazioni della colonna associata all'interno del foglio o la colonna
+- Ad esempio, la proprietà EnableCreateBindColumnHeader viene utilizzata per creare gli intesinti della colonna collegata all'interno del foglio, o la colonna
 
- headers visualizza i nomi delle colonne associate. Prende i valori**VERO** o**falso**. 
+intestazioni visualizza i nomi delle colonne collegate. Assuma i valori **true** o **false**. 
 
-- Le proprietà BindStartRow e BindStartColumn specificano la posizione nel foglio del controllo GridWeb a cui deve essere associata l'origine.
-- La proprietà EnableExpandChildView viene utilizzata per disabilitare la visualizzazione figlio espansa per il foglio di lavoro. Per impostazione predefinita è impostato su true.
+- Le proprietà BindStartRow e BindStartColumn specificano la posizione nel foglio di controllo GridWeb in cui il sorgente deve essere collegato.
+- La proprietà EnableExpandChildView viene utilizzata per disabilitare la vista figlio espansa per il foglio di lavoro. Per impostazione predefinita è impostata su true.
 
- La classe ha anche alcuni metodi utili.
+La classe ha anche alcuni metodi utili. 
 
-- Il metodo DataBind() associa un foglio con l'origine.
-- CreateNewBindRow() aggiunge una nuova riga e la associa all'origine dati.
-- DeleteBindRow() elimina una riga associata.
-- Il metodo SetRowExpand() imposta la riga espansa e mostra il contenuto della visualizzazione figlio nella modalità di associazione dati.
+- Il metodo DataBind() collega un foglio con il sorgente.
+- Il metodo CreateNewBindRow() aggiunge una nuova riga e la collega al sorgente dati.
+- Il metodo DeleteBindRow() elimina una riga collegata.
+- Il metodo SetRowExpand() imposta la riga espansa e mostra il contenuto della vista figlio in modalità di binding dei dati.
 - Il metodo GetRowExpand() ottiene un valore booleano che indica se la riga è espansa o meno.
 
- Nel codice seguente, l'oggetto DataSet "dataSet21" è riempito con dati basati su tre tabelle. La tabella Clienti viene filtrata per renderla la
+Nel codice sottostante, l'oggetto DataSet "dataSet21" è riempito con dati basati su tre tabelle. La tabella dei clienti è filtrata per renderla la 
 
- prima tabella nella visualizzazione gerarchica. Viene creato un oggetto WebWorksheet denominato "foglio", che prima cancella il foglio e poi lo imposta
+prima tabella nella visualizzazione gerarchica. Viene creato un oggetto WebWorksheet chiamato "foglio", che cancella prima il foglio e poi lo imposta 
 
- collegato all'origine dati.
+collegato al sorgente dati. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -199,7 +202,7 @@ private void BindWithoutInSheetHeaders()
 
         dataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'";
 
-        WebWorksheet sheet = GridWeb1.WebWorksheets[0];
+        WebWorksheet sheet = GridWeb1.WorkSheets[0];
 
         // Clears the sheet.
 
@@ -235,53 +238,53 @@ private void BindWithoutInSheetHeaders()
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
- 'Inserisci qui il codice utente per inizializzare la pagina
+    'Put user code to initialize the page here
 
- If Not IsPostBack Then
+    If Not IsPostBack Then
 
- BindWithoutInSheetHeaders()
+        BindWithoutInSheetHeaders()
 
- Finisci se
+    End If
 
-Fine Sub
+End Sub
 
 Private Sub BindWithoutInSheetHeaders()
 
- Dim db As DemoDatabase2 = Nuovo DemoDatabase2()
+    Dim db As DemoDatabase2 = New DemoDatabase2()
 
-Dim percorso As String = MapPath(".")
+    Dim path As String = MapPath(".")
 
- percorso = percorso.Substring(0, percorso.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- percorso = percorso.Substring(0, percorso.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Origine dati=" + percorso + "\Database\Northwind.mdb"
+    db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + "\Database\Northwind.mdb"
 
- Provare
+    Try
 
- ' Si connette al database e recupera i dati.
+        ' Connects to database and fetches data.
 
- ' Tabella Clienti.
+        ' Customers Table.
 
- db.OleDbDataAdapter1.Fill(DataSet21)
+        db.OleDbDataAdapter1.Fill(DataSet21)
 
- ' Tabella degli ordini.
+        ' Orders Table.
 
- db.OleDbDataAdapter2.Fill(DataSet21)
+        db.OleDbDataAdapter2.Fill(DataSet21)
 
- ' OrderDetailTable.
+        ' OrderDetailTable.
 
- db.OleDbDataAdapter3.Fill(DataSet21)
+        db.OleDbDataAdapter3.Fill(DataSet21)
 
- ' Filtra i dati
+        ' Filter data
 
- DataSet21.Customers.DefaultView.RowFilter = "ID cliente<'BSAAA'"
+        DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
 
-        Dim sheet As WebWorksheet = GridWeb1.WebWorksheets(0)
+        Dim sheet As WebWorksheet = GridWeb1.WorkSheets(0)
 
         ' Clears the sheet.
 

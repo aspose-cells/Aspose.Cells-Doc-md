@@ -1,13 +1,14 @@
-﻿---
-title: العمل مع تجميد الأجزاء
+---
+title: العمل مع تجميد الأجزاء الثابتة
 type: docs
 weight: 100
 url: /ar/net/working-with-freeze-panes/
 ---
-## **Aspose.Cells - العمل مع ألواح التجميد**
+
+## **Aspose.Cells - العمل مع تجميد الألواح**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -26,13 +27,13 @@ workbook.Save("output-FreezeFile-Aspose.Cells.xls");
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[طريقة التجميد](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
+لمزيد من التفاصيل، قم بزيارة [FreezePanes Method](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
 
 {{% /alert %}} 
-## **NPOI - HSSF XSSF - العمل مع ألواح التجميد**
+## **NPOI - HSSF XSSF - العمل مع تجميد الألواح**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -62,13 +63,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**العمل مع تجميد الأجزاء** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **العمل مع تجميد الألواح** من أي من المواقع الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+لمزيد من التفاصيل، قم بزيارة [العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

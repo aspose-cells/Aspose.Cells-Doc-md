@@ -1,27 +1,28 @@
-﻿---
+---
 title: Rileva il tipo di collegamento ipertestuale
 type: docs
 weight: 180
 url: /it/java/detect-hyperlink-type/
 ---
+
 ## **Rileva il tipo di collegamento ipertestuale**
 
-Un file Excel può avere diversi tipi di collegamenti ipertestuali come esterno, riferimento di cella, percorso file, ecc. Aspose.Cells supporta la funzione per rilevare il tipo di collegamento ipertestuale. I tipi di collegamenti ipertestuali sono rappresentati dal[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Enumerazione. Il[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)L'enumerazione ha i seguenti membri.
+Un file Excel può avere diversi tipi di collegamenti ipertestuali come esterni, riferimenti a celle, percorsi dei file, ecc. Aspose.Cells supporta la funzionalità per rilevare il tipo di collegamento ipertestuale. I tipi di collegamenti ipertestuali sono rappresentati dall'Enumerazione [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). L'Enumerazione [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType) ha i seguenti membri.
 
-- [**ESTERNO**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Link esterno
-- [**PERCORSO DEL FILE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): percorso locale e completo di file\cartelle.
-- [**E-MAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): E-mail
-- [**RIFERIMENTO_CELLULA**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): collegamento alla cella o all'intervallo denominato.
+- [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Collegamento esterno
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Percorso locale e completo dei file\cartelle.
+- [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): Email
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Collegamento alla cella o al range denominato.
 
-Per verificare il tipo di collegamento ipertestuale, il file[**Collegamento ipertestuale**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) la classe fornisce a[**Tipo di collegamento**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) proprietà con un tipo restituito di[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Il seguente frammento di codice illustra l'uso di[**Tipo di collegamento**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)proprietà utilizzando this[file excel di origine](LinkTypes.xlsx).
+Per verificare il tipo di collegamento ipertestuale, la classe [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) fornisce una proprietà [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) con un tipo di ritorno [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Il seguente snippet di codice dimostra l'uso della proprietà [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) utilizzando questo [file excel di origine](LinkTypes.xlsx).
 
-## Codice sorgente
+## Codice Sorgente
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-DetectLinkTypes-1.java" >}}
 
-Di seguito è riportato l'output generato dal frammento di codice sopra indicato.
+Di seguito è riportato l'output generato dal frammento di codice indicato sopra.
 
-## Uscita console
+## Output della console
 ```
 LinkTypes.xlsx: FILE_PATH </br>
 C:\Windows\System32\cmd.exe: FILE_PATH </br>

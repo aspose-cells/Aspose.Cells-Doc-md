@@ -1,39 +1,40 @@
-﻿---
+---
 title: Aspose.Cells for Java и PHP
 type: docs
 weight: 20
 url: /ru/java/aspose-cells-for-java-and-php/
 ---
+
 {{% alert color="primary" %}} 
 
- Разработчики PHP могут использовать Aspose.Cells for Java в приложениях PHP. Для работы с Aspose.Cells for Java и PHP используйте PHP версии 5 (известной как PHP5). PHP4 также можно использовать для доступа к Aspose.Cells for Java, но это сложнее, чем использование PHP5.
+Разработчики PHP могут использовать Aspose.Cells for Java в приложениях PHP. Для работы с Aspose.Cells for Java и PHP используйте версию PHP 5 (известную как PHP5). PHP4 также может быть использован для доступа к Aspose.Cells for Java, но это сложнее, чем использование PHP5. 
 
 {{% /alert %}} 
 ## **Работа с PHP**
-### **Использование PHP5**
- Aspose.Cells for Java предоставляет классы-оболочки PHP5, которые упрощают разработчикам использование библиотеки Aspose.Cells без прямой работы с классами Java.
+### **Используя PHP5**
+Aspose.Cells for Java предоставляет обертки классов PHP5, которые упрощают работу разработчиков с библиотекой Aspose.Cells без прямой работы с классами Java. 
 
- Эти классы-оболочки можно найти в каталоге PHP архива aspose.cells.zip в виде файла PHP.
+Эти оберточные классы можно найти в каталоге PHP архива aspose.cells.zip в виде файла PHP. 
 ## **Использование PHP4**
- PHP4 также работает с классами Aspose.Cells for Java, но в этом случае разработчикам придется работать с классами Java напрямую.
+PHP4 также работает с Aspose.Cells for Java, но в этом случае разработчикам придется напрямую работать с классами Java. 
 
 {{% alert color="primary" %}} 
 
- Не забудьте добавить aspose.cells.jar в java.class.path в файле php.ini.
+Не забудьте добавить aspose.cells.jar в java.class.path в файл php.ini. 
 
- Классы-оболочки PHP предоставляют некоторые статические методы для создания классов PHP для соответствующего класса Java в ClassFactory с сигнатурой createXXX(). Если конструкторы перегружены, все соответствующие методы в ClassFactory определяются как create+серийный номер+имя класса, например: ((createXXX()}}, create1XXX(args...), create2XXX(args...), и так далее.
+Обертки PHP предоставляют некоторые статические методы для создания классов PHP для соответствующего класса Java, в ClassFactory с сигнатурой createXXX(). Если конструкторы перегружены, все соответствующие методы в ClassFactory определены как create+номер+имя класса, например: ((createXXX()}}, create1XXX(args...), create2XXX(args...), и так далее. 
 
-Все константы определены в PHP как ClassName+" "+ConstantName, например, BorderLineType.NONE определяется как BorderLineType NONE в PHP.
+Все константы определены в PHP как ClassName+" "+ConstantName, например, BorderLineType.NONE определено как BorderLineType NONE в PHP. 
 
- Если методы перегружены, они определяются как имя метода + серийный номер, например, cell.setValue, cell.setValue1(), cell.setValue2() и т. д.
+Если методы перегружены, они определяются как имя метода + номер, например cell.setValue, cell.setValue1(), cell.setValue2(), и так далее. 
 
- Метод clone() определен как cloneObject().
+Метод clone() определен как cloneObject(). 
 
 {{% /alert %}} 
 
 **PHP**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?php
 

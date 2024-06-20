@@ -1,16 +1,17 @@
-﻿---
-title: Настройка параметров страницы в Python
+---
+title: Установка параметров страницы в Python
 type: docs
 weight: 10
 url: /ru/java/setting-page-options-in-python/
 ---
+
 ## **Aspose.Cells - Настройка параметров страницы**
 ### **Ориентация страницы**
- Чтобы применить настройки ориентации страницы с помощью**Aspose.Cells Java для рубина** , вызов**страница_ориентация** метод**Настройка страницы** модуль.
+Чтобы применить параметры ориентации страницы с использованием Aspose.Cells Java для Ruby, вызовите метод page_orientation модуля pagesetup.
 
-**Python Код**
+**Код Python**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def page_orientation(self):
 
@@ -42,12 +43,12 @@ print "Set page orientation, please check the output file."
 
 
 {{< /highlight >}}
-### **Коэффициент масштабирования**
- Чтобы применить масштабирование с помощью**Aspose.Cells Java for Python** , вызов**масштабирование** метод**Настройка страницы** модуль.
+### **Фактор масштабирования**
+Для применения масштабирования с использованием **Aspose.Cells Java для Python** вызовите метод **scaling** модуля **pagesetup**.
 
-**Python Код**
+**Код Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def scaling(self):        
 
@@ -76,7 +77,7 @@ workbook.save(self.dataDir + "Scaling.xls")
 print "Set scaling, please check the output file."
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Настройка параметров страницы (Aspose.Cells)** с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузить **Установка параметров страницы (Aspose.Cells)** с любого из упомянутых ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

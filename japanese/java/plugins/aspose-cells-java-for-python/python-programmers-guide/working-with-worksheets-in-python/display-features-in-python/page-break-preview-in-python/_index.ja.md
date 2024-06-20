@@ -1,29 +1,30 @@
-﻿---
-title: 改ページプレビュー in Python
+---
+title: Pythonでページ区切りプレビュー
 type: docs
 weight: 60
 url: /ja/java/page-break-preview-in-python/
 ---
+
 ## **Aspose.Cells - Hello World**
-を使用してワークシートを改ページプレビューに設定するには**Aspose.Cells Java for Python**、単に呼び出す**改ページプレビュー**モジュール。
+**Aspose.Cells Java for Python**を使用してワークシートをページ区切りプレビューに設定するには、**PageBreakPreview**モジュールを呼び出すだけです。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  workbook = self.Workbook(self.dataDir + "Book1.xls")
 
-# Adding a new worksheet to the Workbook object
+#Adding a new worksheet to the Workbook object
 
 worksheets = workbook.getWorksheets()
 
 worksheet = worksheets.get(0)
 
-# Displaying the worksheet in page break preview
+#Displaying the worksheet in page break preview
 
 worksheet.setPageBreakPreview(True)
 
-# Saving the modified Excel file in default format
+#Saving the modified Excel file in default format
 
 workbook.save(self.dataDir + "output.xls")
 
@@ -32,7 +33,7 @@ workbook.save(self.dataDir + "output.xls")
 print "Page break preview is enabled for sheet 1, please check the output document." 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**改ページプレビュー (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから**Page Break Preview (Aspose.Cells)**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

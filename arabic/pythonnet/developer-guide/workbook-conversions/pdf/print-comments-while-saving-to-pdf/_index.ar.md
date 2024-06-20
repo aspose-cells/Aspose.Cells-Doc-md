@@ -1,29 +1,30 @@
 ---
-title: اطبع التعليقات أثناء الحفظ في PDF
+title: طباعة التعليقات أثناء الحفظ إلى صيغة PDF
 type: docs
 weight: 10
 url: /ar/python-net/print-comments-while-saving-to-pdf/
-description: تعرف على كيفية طباعة التعليقات مع الحفظ على PDF مع Aspose.Cells for Python via .NET API.
-keywords: Python Print Comments while saving file to PDF, Print Comments while saving Excel to PDF using Python, Python Export Comments when converting Excel to PDF, Output Comments for Excel to PDF in python, Render Comments while saving excel to PDF
+description: تعلم كيفية طباعة التعليقات أثناء حفظها في صيغة PDF باستخدام Aspose.Cells لـ Python via .NET API.
+keywords: طباعة التعليقات باستخدام Python أثناء حفظ الملف إلى صيغة PDF، طباعة التعليقات بيثوق Excel إلى PDF باستخدام Python، تصدير التعليقات بواسطة Python أثناء تحويل Excel إلى PDF، إخراج التعليقات لـ Excel إلى PDF في بايثون، عرض التعليقات باستخدام Python أثناء حفظ Excel في صيغة PDF
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft يتيح لك Excel طباعة التعليقات أثناء الطباعة أو الحفظ بتنسيق PDF مع الخيارات التالية
+تسمح Microsoft Excel بطباعة التعليقات أثناء الطباعة أو الحفظ في صيغة PDF بالخيارات التالية
 
-- لا أحد
-- في نهاية الورقة
-- كما هو معروض على الورقة
+- لا شيء
+- في نهاية الجدول
+- كما هو معروض على الجدول
 
- Aspose.Cells for Python via .NET توفير[**نوع التعليقات المطبوعة**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) التعداد لدعم نفس الميزة. ال[**نوع التعليقات المطبوعة**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)التعداد لديه الأعضاء التاليين
+Aspose.Cells for Python via .NET توفر تعدد العضوية [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) لدعم نفس الميزة. تحتوي تعدد العضوية [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) على الأعضاء التالية
 
-- طباعة لا تعليقات
-- برينتينبلايس
-- طباعة ورقة النهاية
+- PrintNoComments
+- PrintInPlace
+- PrintSheetEnd
 
 {{% /alert %}}
 
-##  **اطبع التعليقات أثناء الحفظ في PDF**
+## **طباعة التعليقات عند الحفظ إلى PDF**
 
- يوضح نموذج التعليمات البرمجية التالي كيفية الاستخدام[**نوع التعليقات المطبوعة**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)لطباعة التعليقات مع الحفظ على الرقم PDF.
+يوضح الكود النموذجي التالي كيفية استخدام [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) لطباعة التعليقات أثناء الحفظ إلى صيغة PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-PrintCommentWhileSavingToPdf.py" >}}

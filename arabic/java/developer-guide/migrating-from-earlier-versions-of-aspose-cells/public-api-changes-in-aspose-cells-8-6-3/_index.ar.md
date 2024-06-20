@@ -1,23 +1,24 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.6.3
+---
+title: تغييرات واجهة برمجة التطبيقات العامة في Aspose.Cells 8.6.3
 type: docs
 weight: 230
 url: /ar/java/public-api-changes-in-aspose-cells-8-6-3/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.6.2 إلى 8.6.3 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة ، ولكن أيضًا وصف أي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات العامة لـ Aspose.Cells من الإصدار 8.6.2 إلى 8.6.3 التي قد تكون مهمة لمطوري الوحدات / التطبيقات. يشمل هذا ليس فقط الطرق العامة الجديدة والمحدثة ، والفئات المضافة ، ولكن أيضاً وصفًا لأي تغييرات في السلوك في خلفية Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم HTML التحليل أثناء استيراد البيانات**
-كشف هذا الإصدار من Aspose.Cells for Java API السمة ImportTableOptions.setHtmlString التي توجه API لتحليل علامات HTML أثناء استيراد البيانات إلى ورقة العمل وتعيين النتيجة المحللة كقيمة خلية. يرجى ملاحظة أن واجهات برمجة التطبيقات Aspose.Cells توفر بالفعل السمة Cell.setHtmlString لأداء هذه المهمة لخلية واحدة ، ومع ذلك ، أثناء استيراد البيانات بكميات كبيرة ، تحاول السمة ImportTableOptions.setHtmlString (عند تعيينها إلى true) تحليل جميع علامات ومجموعات HTML المدعومة النتائج التي تم تحليلها للخلايا المقابلة.
+## **واجهات برمجة التطبيقات الجديدة**
+### **دعم تحليل HTML أثناء استيراد البيانات**
+إن إصدار Aspose.Cells for Java لواجهة برمجة التطبيقات API قد عرض خاصية ImportTableOptions.setHtmlString التي توجه الواجهة لتحليل علامات HTML أثناء استيراد البيانات إلى الورقة العمل وتعيين النتيجة المحللة كقيمة خلية. يرجى ملاحظة أن واجهات برمجة التطبيقات Aspose.Cells توفر بالفعل خاصية Cell.setHtmlString لأداء هذه المهمة على خلية واحدة، ومع ذلك، أثناء استيراد البيانات بالجملة، توجه الواجهة ImportTableOptions.setHtmlString (عند تعيينها إلى القيمة true) لمحاولة تحليل جميع علامات HTML المدعومة وتعيين النتائج المحللة للخلايا المقابلة.
 
-هنا هو أبسط سيناريو استخدام.
+فيما يلي سيناريو الاستخدام الأبسط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //create an instance of ImportTableOptions
 
@@ -32,14 +33,14 @@ importOptions.setHtmlString(true);
 cells.importData(iTable, 0, 0, importOptions);
 
 {{< /highlight >}}
-### **تمت إضافة أسلوب Workbook.createBuiltinStyle**
- كشف Aspose.Cells for Java 8.6.3 طريقة Workbook.createBuiltinStyle التي يمكن استخدامها لإنشاء كائن من فئة Style يتوافق مع أحد[الأنماط المضمنة التي يوفرها تطبيق Excel](/cells/ar/java/using-built-in-styles/)يقبل أسلوب Workbook.createBuiltinStyle ثابتًا من التعداد BuiltinStyleType. يرجى ملاحظة أنه مع الإصدارات السابقة من واجهات برمجة التطبيقات Aspose.Cells ، يمكن إنجاز نفس المهمة عبر أسلوب StyleCollection.createBuiltinStyle ولكن نظرًا لأن الإصدارات الأخيرة من واجهات برمجة التطبيقات Aspose.Cells قد أزالت فئة StyleCollection ، وبالتالي يمكن اعتبار طريقة Workbook.createBuiltinStyle التي تم الكشف عنها حديثًا كنهج بديل لـ تحقيق نفس الشيء.
+### **أضافت Workbook.createBuiltinStyle الأسلوب**
+Aspose.Cells for Java 8.6.3 قد عرضت الواجهة Workbook.createBuiltinStyle التي يمكن استخدامها لإنشاء كائن من فئة النمط الذي يتوافق مع أحد ال[أنماط المضمنة المقدمة من تطبيق Excel](/cells/ar/java/using-built-in-styles/). تقبل واجهة Workbook.createBuiltinStyle الثابت من تعداد BuiltinStyleType. يرجى ملاحظة، مع الإصدارات السابقة من واجهات برمجة التطبيقات Aspose.Cells، كان بإمكان إنجاز نفس المهمة عبر واجهة StyleCollection.createBuiltinStyle ولكن مع حذف إصدارات Aspose.Cells APIs الأخيرة لفئة StyleCollection لذا يمكن النظر إلى الواجهة Workbook.createBuiltinStyle المعرضة حديثاً كبديل لتحقيق الهدف نفسه.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -52,14 +53,14 @@ Workbook book = new Workbook();
 Style style = book.createBuiltinStyle(BuiltinStyleType.TITLE);
 
 {{< /highlight >}}
-### **تمت إضافة خاصية LoadDataOption.OnlyVisibleWorksheet**
-كشف Aspose.Cells for Java 8.6.3 خاصية LoadDataOption.OnlyVisibleWorksheet التي عند ضبطها على true ستؤثر على آلية التحميل Aspose.Cells for Java API ، ونتيجة لذلك سيتم تحميل أوراق العمل المرئية فقط من جدول بيانات معين.
+### **أضيفت خاصية LoadDataOption.OnlyVisibleWorksheet**
+Aspose.Cells for Java 8.6.3 قد أظهرت خاصية LoadDataOption.OnlyVisibleWorksheet التي عند تعيينها إلى true ستؤثر على آلية التحميل لواجهة Aspose.Cells for Java API، ونتيجة لذلك ستتم تحميل الأوراق العمل المرئية فقط من جدول بيانات معطاة.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadDataOption
 
@@ -84,8 +85,8 @@ loadOptions.setLoadDataOptions(loadDataOptions);
 Workbook book = new Workbook(inputFilePath, loadOptions);
 
 {{< /highlight >}}
-## **واجهات برمجة التطبيقات التي عفا عليها الزمن**
-### **أسلوب Worksheet.copyConditionalFormatting قديم**
-كبديل لطريقة Worksheet.copyConditionalFormatting ، يُنصح باستخدام أي من أساليب Cells.copyRows أو Range.copy.
-### **الملكية Cells. انتهى متقادم**
-من فضلك استخدم Cells.LastCell الملكية كبديل للملكية Cells.End.
+## **واجهات برمجة التطبيق القديمة**
+### **واجهات برمجة التطبيقات المهجورة**
+كبديل للواجهة الWorksheet.copyConditionalFormatting، يُفضل استخدام أي من طرق Cells.copyRows أو Range.copy.
+### **تفضل استخدام خاصية Cells.LastCell كبديل عن الخاصية Cells.End.**
+يرجى استخدام خاصية Cells.LastCell كبديل لخاصية Cells.End.

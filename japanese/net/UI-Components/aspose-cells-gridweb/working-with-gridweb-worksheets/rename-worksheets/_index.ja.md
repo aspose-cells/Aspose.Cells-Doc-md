@@ -1,39 +1,42 @@
-﻿---
-title: ワークシートの名前を変更
+---
+title: ワークシートの名前を変更する
 type: docs
 weight: 40
-url: /ja/net/rename-worksheets/
+url: /ja/net/aspose-cells-gridweb/rename-worksheet/
+keywords: GridWeb、rename、rename worksheet、rename GridWorksheet
+description: この記事では、GridWebでワークシート（GridWorksheet）の名前を変更する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-ワークシートの名前を変更すると、Aspose.Cells.GridWeb で多くのワークシートを操作し、それらの名前をより意味のあるものに変更する場合に非常に便利です。たとえば、請求書を含むワークシートの名前を Sheet1 ではなく Invoice に変更できます。このトピックでは、この単純ですが便利な機能について説明します。
+Aspose.Cells.GridWebで多くのワークシートを使用し、それらの名前を意味のあるものに変更する必要がある場合、ワークシートの名前を変更することは非常に役立ちます。例えば、請求書を含むワークシートはSheet1の代わりにInvoiceに名前を変更できます。このトピックでは、このシンプルで便利な機能について説明します。
 
 {{% /alert %}} 
-## **ワークシートの名前変更**
-すべてのワークシートには、開発者がワークシートの名前にアクセスまたは変更できる Name プロパティが含まれています。ワークシートの名前を変更するには:
+## **ワークシートの名前を変更する**
+すべてのワークシートには名前プロパティがあり、開発者がワークシートの名前にアクセスしたり変更したりできます。ワークシートの名前を変更するには:
 
-1. GridWorksheetCollection からワークシートにアクセスします。
+1. GridWorksheetCollectionからワークシートにアクセスします。
 1. 選択したワークシートの名前を変更します。
 
 
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb のワークシートへのアクセス方法の詳細については、こちらを参照してください。[ワークシートへのアクセス](/cells/ja/net/access-worksheets/).
+Aspose.Cells.GridWebでワークシートにアクセスする方法の詳細については、[ワークシートへのアクセス](/cells/ja/net/aspose-cells-gridweb/access-worksheets/)を参照してください。
 
 {{% /alert %}} 
 
-コードを実行する前は、ワークシートには Sheet1 などの既定の名前が付けられています。
+コードを実行する前に、ワークシートにはSheet1などのデフォルトの名前があります。
 
-**入力ファイル: デフォルト名が Sheet1 のワークシート** 
+**入力ファイル: デフォルト名Sheet1のワークシート** 
 
-![todo:画像_代替_文章](rename-worksheets_1.png)
+![todo:image_alt_text](rename-worksheets_1.png)
 
-コードを実行すると、ワークシートの名前が Students に変更されます。
+コードを実行した後、ワークシートの名前がStudentsに変更されます。
 
-**出力: ワークシートの名前が Students に変更されます** 
+**出力: ワークシートの名前がStudentsに変更されます** 
 
-![todo:画像_代替_文章](rename-worksheets_2.png)
+![todo:image_alt_text](rename-worksheets_2.png)
 
 
 

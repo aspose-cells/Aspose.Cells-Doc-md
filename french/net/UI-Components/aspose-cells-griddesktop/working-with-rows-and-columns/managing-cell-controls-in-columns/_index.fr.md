@@ -1,24 +1,27 @@
-﻿---
-title: Gestion des contrôles Cell dans les colonnes
+---
+title: Gestion des contrôles de cellules dans les colonnes
 type: docs
 weight: 100
-url: /fr/net/managing-cell-controls-in-columns/
+url: /fr/net/aspose-cells-griddesktop/manage-cell-controls-in-columns/
+keywords: GridDesktop, contrôles, contrôle
+description: Cet article présente comment définir un contrôle dans une colonne GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Cette rubrique aborde certains concepts importants concernant la gestion des contrôles de cellule dans les colonnes à l'aide de Aspose.Cells.GridDesktop API. Nous expliquerons comment les développeurs peuvent accéder, modifier et supprimer les contrôles de cellule des colonnes de leurs feuilles de calcul. Jetons-y un œil.
+Ce sujet aborde certains concepts importants concernant la gestion des contrôles de cellules dans les colonnes à l'aide de l'API Aspose.Cells.GridDesktop. Nous expliquerons comment les développeurs peuvent accéder, modifier et supprimer les contrôles de cellules des colonnes de leurs feuilles de calcul. Jetons-y un coup d'œil.
 
 {{% /alert %}} 
-## **Accès aux commandes Cell**
- Pour accéder à un contrôle de cellule existant dans la colonne et le modifier, les développeurs peuvent utiliser la propriété CellControl d'un**Aspose.Cells.GridDesktop.Data.GridColumn** . Une fois qu'un contrôle de cellule est accédé, les développeurs peuvent modifier ses propriétés lors de l'exécution. Pour une instance, dans l'exemple ci-dessous, nous avons accédé à une instance existante**Case à cocher** contrôle cellulaire à partir d'un**Aspose.Cells.GridDesktop.Data.GridColumn** et modifié sa propriété Checked.
+## **Accéder aux contrôles de cellules**
+Pour accéder et modifier un contrôle de cellule existant dans la colonne, les développeurs peuvent utiliser la propriété CellControl d'un **Aspose.Cells.GridDesktop.Data.GridColumn**. Une fois qu'un contrôle de cellule est accédé, les développeurs peuvent modifier ses propriétés à l'exécution. Par exemple, dans l'exemple ci-dessous, nous avons accédé à un **CheckBox** existant dans une **Aspose.Cells.GridDesktop.Data.GridColumn** spécifique et modifié sa propriété Checked.
 
-**IMPORTANT:** La propriété CellControl fournit un contrôle de cellule sous la forme de**CellControl**objet. Donc, si vous avez besoin d'accéder à un type spécifique de contrôle de cellule, dites**Case à cocher** alors vous devrez transtyper le**CellControl** s'opposer à**Case à cocher** classe.
+**IMPORTANT :** La propriété CellControl fournit un contrôle de cellule sous forme d'objet **CellControl**. Ainsi, si vous avez besoin d'accéder à un type spécifique de contrôle de cellule, disons **CheckBox**, alors vous devrez convertir l'objet **CellControl** en classe **CheckBox**.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-ManagingControlsInColumns-AccessCheckbox.cs" >}}
-## **Retrait des commandes Cell**
- Pour supprimer un contrôle de cellule existant, les développeurs peuvent simplement accéder à une feuille de calcul souhaitée, puis**Supprimer** le contrôle de cellule de la colonne spécifique en utilisant le**RemoveCellControl** méthode de**Aspose.Cells.GridDesktop.Data.GridColumn**.
+## **Suppression des contrôles de cellules**
+Pour supprimer un contrôle de cellule existant, les développeurs peuvent simplement accéder à une feuille de calcul souhaitée et ensuite **supprimer** le contrôle de cellule de la colonne spécifique en utilisant la méthode **RemoveCellControl** de **Aspose.Cells.GridDesktop.Data.GridColumn**.
 
 
 
@@ -26,6 +29,6 @@ Cette rubrique aborde certains concepts importants concernant la gestion des con
 
 {{% alert color="primary" %}} 
 
- Chaque colonne du**Colonnes** collecte de la**Feuille de travail** est représenté par une instance de**Aspose.Cells.GridDesktop.Data.GridColumn** classe.
+Chaque colonne dans la collection **Colonnes** de la **Feuille de calcul** est représentée par une instance de la classe **Aspose.Cells.GridDesktop.Data.GridColumn**.
 
 {{% /alert %}}

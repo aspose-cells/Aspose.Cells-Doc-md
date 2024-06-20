@@ -1,156 +1,157 @@
-﻿---
+---
 title: データフィルタリング
 type: docs
 weight: 60
 url: /ja/java/data-filtering/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel には、ワークシート データを自動フィルター処理する優れた機能がいくつか用意されています。 Aspose.Cells は Microsoft Excel のオートフィルター機能を完全にサポートします。この記事では、Microsoft Excel の機能を使用する方法と、Aspose.Cells を使用してそれらをコーディングする方法について説明します。
+Microsoft Excelには、ワークシートデータの自動フィルタリングに役立つ機能がいくつかあります。Aspose.CellsはMicrosoft Excelの自動フィルタ機能を完全にサポートしています。この記事では、Microsoft Excelの機能の使用方法と、Aspose.Cellsを使用したコーディング方法について説明します。
 
 {{% /alert %}}
 
-## **データのオートフィルター**
+## **データの自動フィルタリング**
 
-オートフィルターは、ワークシートからリストに表示する項目のみを選択する最も簡単な方法です。オートフィルター機能を使用すると、ユーザーは設定された基準に従ってリスト内のアイテムをフィルター処理できます。テキスト、数値、または日付に基づいてフィルタリングします。
+自動フィルタリングは、リスト内で表示したいアイテムのみを素早く選択できる最も簡単な方法です。自動フィルタ機能により、リスト内のアイテムを特定の基準に従ってフィルタリングできます。テキスト、数値、または日付に基づいてフィルタリングできます。
 
-### **Microsoft Excel のオートフィルター**
+### **Microsoft Excelの自動フィルタ**
 
-Microsoft Excel でオートフィルター機能を有効にするには:
+Microsoft Excelで自動フィルタ機能を有効にするには：
 
-1. ワークシートの見出し行をクリックします。
-1. から**データ**メニュー、選択**フィルター**その後**オートフィルター**.
+1. ワークシート内の見出し行をクリックします。
+1. **データ** メニューから **フィルタ** を選択し、次に **自動フィルタ** を選択します。
 
-ワークシートにオートフィルターを適用すると、列見出しの右側にフィルター スイッチ (黒い矢印) が表示されます。
+ワークシートに自動フィルタを適用すると、フィルタスイッチ（黒い矢印）が列見出しの右側に表示されます。
 
-1. フィルタの矢印をクリックして、フィルタ オプションのリストを表示します。
+1. フィルタ矢印をクリックして、フィルタオプションのリストを表示します。
 
-オートフィルタ オプションの一部は次のとおりです。
+自動フィルタのオプションには次のものがあります:
 
 |**オプション**|**説明**|
-|:- |:- |
-|全て|リスト内のすべてのアイテムを 1 回表示します。|
-|カスタム|含む/含まないなどのフィルター基準をカスタマイズする|
-|色でフィルター|塗りつぶし色に基づくフィルター|
-|日付フィルター|日付のさまざまな基準に基づいて行をフィルター処理します|
-|数値フィルター|比較、平均、上位 10 などの数値に対するさまざまなタイプのフィルター。|
-|テキスト フィルター|で始まる、終わる、含むなどのさまざまなフィルター、|
-|ブランクス/ノンブランクス|これらのフィルターは、Text Filter Blank を使用して実装できます。|
-ユーザーは、これらのオプションを使用して、Microsoft Excel でワークシート データを手動でフィルター処理します。
+| :- | :- |
+リスト内のすべてのアイテムを一度に表示します。
+contains/not containsなどのカスタマイズされたフィルタ条件を指定します。
+塗りつぶしの色に基づいてフィルタリングします。
+異なる日付の基準に基づいて行をフィルタリングします。
+|Number Filters|比較、平均、上位10などの数字に基づく異なるタイプのフィルタを適用します。
+begins with、ends with、containsなどの異なるフィルタを指定します。
+Text Filter Blankを介してこれらのフィルタを実装できます。
+Microsoft Excelのユーザーは、これらのオプションを使用してワークシートデータを手動でフィルタリングします。
 
-### **Aspose.Cells のオートフィルター**
+### **Aspose.CellsのAutofilter**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)これは Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには[**ワークシート コレクション**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)これにより、Excel ファイル内の各ワークシートにアクセスできます。
+Aspose.CellsはExcelファイルを表すクラス、[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)を提供します。[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには、Excelファイルの各ワークシートにアクセスできる[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)が含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。オートフィルターを作成するには、[**オートフィルター**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)のプロパティ[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。の[**オートフィルター**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)プロパティはのオブジェクトです[**オートフィルター**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)を提供するクラス[**範囲**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range)見出し行を構成するセルの範囲を指定するためのプロパティ。見出し行であるセル範囲にオートフィルターが適用されます。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスには、ワークシートを管理するための多くのプロパティとメソッドが含まれています。自動フィルタを作成するには、[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスの[**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)プロパティを使用します。[**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)プロパティは[**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range)プロパティを用いたヘッダ行を構成するセルの範囲を指定するための[**AutoFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)クラスのオブジェクトになります。自動フィルタは、見出し行を構成するセルの範囲に適用されます。
 
-各ワークシートでは、1 つのフィルター範囲のみを指定できます。これは、Microsoft Excel によって制限されます。カスタム データ フィルタリングの場合は、[**AutoFilter.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)） 方法。
+各ワークシートで、1つのフィルタ範囲のみを指定できます。これはMicrosoft Excelによって制限されています。カスタムデータフィルタリングには、[**AutoFilter.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object))メソッドを使用してください。
 
-以下の例では、上記のセクションで Microsoft Excel を使用して作成したのと同じ AutoFilter を Aspose.Cells を使用して作成しています。
+以下の例では、前述のMicrosoft Excelで作成したのと同じAutoFilterをAspose.Cellsを使用して作成しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterData.java" >}}
 
-#### **さまざまな種類のフィルター**
+#### **異なる種類のフィルタ**
 
-Aspose.Cells には、カラー フィルター、日付フィルター、数値フィルター、テキスト フィルター、空白フィルター、なし空白フィルターなど、さまざまな種類のフィルターを適用する複数のオプションが用意されています。
+Aspose.Cellsでは、カラーフィルタ、日付フィルタ、数値フィルタ、テキストフィルタ、ブランクフィルタ、およびノンブランクフィルタなど、さまざまな種類のフィルタを適用するための複数のオプションが提供されます。
 
-##### **塗りつぶしの色**
+##### **塗りつぶし色**
 
-Aspose.Cells は機能を提供します[**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter(int,%20int,%20com.aspose.cells.CellsColor,%20com.aspose.cells.CellsColor)セルの塗りつぶしの色のプロパティに基づいてデータをフィルター処理します。以下の例では、シートの最初の列に異なる塗りつぶし色を持つテンプレート ファイルを使用して、カラー フィルタリング機能をテストしています。次のファイルをダウンロードして、機能を確認できます。
+Aspose.Cellsは、セルの塗りつぶし色プロパティに基づいてデータをフィルタリングするための[**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter(int,%20int,%20com.aspose.cells.CellsColor,%20com.aspose.cells.CellsColor))関数を提供します。以下の例では、シートの最初の列に異なる塗りつぶし色が含まれるテンプレートファイルを使用して、色のフィルタリング機能をテストしています。機能を確認するために以下のファイルをダウンロードできます。
 
 1. [ColouredCells.xlsx](72417315.xlsx)
-1. [FilteredColoredCells.xlsx](72417316.xlsx)
+1. [FilteredColouredCells.xlsx](72417316.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterColor.java" >}}
 
-##### **日にち**
+##### **日付**
 
-2018 年 1 月の日付を持つすべての行をフィルタリングするなど、さまざまなタイプの日付フィルターを実装できます。[**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter(int,%20int,%20int,%20int,%20int,%20int,%20int,%20int)） 関数。この機能のテストには、次のファイルを使用できます。
+1月2018年に日付が含まれるすべての行をフィルタリングするなど、さまざまな種類の日付フィルタが実装されることがあります。以下のサンプルコードでは、[**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter(int,%20int,%20int,%20int,%20int,%20int,%20int,%20int))関数を使用してこのフィルタをデモンストレーションしています。この機能をテストするために以下のファイルを使用できます。
 
-1. [日付.xlsx](72417317.xlsx)
+1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDate.xlsx](72417318.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterDate.java" >}}
 
 ##### **動的日付**
 
-年に関係なく 1 月の日付を持つすべてのセルのように、日付に基づく動的フィルターが必要になる場合があります。この場合、[**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter(int,%20int)) 関数は、次のサンプル コードで指定されているように使用されます。次のファイルをテストに使用できます。
+時には、年に関係なく1月に日付を持つセルに基づいて動的なフィルタが必要になります。この場合、以下のサンプルコードに示すように、[**DynamicFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#dynamicFilter(int,%20int))関数が使用されます。この機能をテストするために以下のファイルを使用できます。
 
-1. [日付.xlsx](72417317.xlsx)
+1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDynamicDate.xlsx](72417319.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterDynamicFilter.java" >}}
 
 ##### **番号**
 
-カスタム フィルターは、Aspose.Cells を使用して、特定の範囲内の数値を持つセルを選択するように適用できます。次の例は、の使用法を示しています[**習慣（）**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) 数値をフィルタリングする関数。サンプルファイルは以下のリンクからダウンロードできます。
+Aspose.Cellsを使用してカスタムフィルタを適用することができます。指定された範囲内の数値を持つセルを選択するために[**custom()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object))関数の使用例を以下に示します。サンプルファイルを以下のリンクからダウンロードできます。
 
-1. [数値.xlsx](72417320.xlsx)
+1. [Number.xlsx](72417320.xlsx)
 1. [FilteredNumber.xlsx](72417321.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterNumber.java" >}}
 
-##### **文章**
+##### **テキスト**
 
-列にテキストが含まれ、特定のテキストを含むセルが選択される場合、[**フィルター（）**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter(int,%20java.lang.String))機能が使えます。次の例では、テンプレート ファイルに国のリストが含まれており、特定の国名を含む行が選択されます。次のコードは、以下のサンプル ファイルを使用してテキストをフィルタリングする方法を示しています。
+列にテキストが含まれ、特定のテキストを含むセルを選択する必要がある場合、[**filter()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#filter(int,%20java.lang.String))関数を使用できます。以下の例では、テンプレートファイルに国のリストが含まれており、特定の国名を含む行が選択されるようになっています。以下のサンプルファイルを使用して、以下のコードによるテキストのフィルタリングをデモンストレーションしています。
 
-1. [テキスト.xlsx](72417322.xlsx)
+1. [Text.xlsx](72417322.xlsx)
 1. [FilteredText.xlsx](72417323.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterText.java" >}}
 
-##### **ブランクス**
+##### **空欄**
 
-列に空白のセルがほとんどないようなテキストが含まれており、空白のセルが存在する行のみを選択するためにフィルタが必要な場合、[**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks(int)) 関数は、以下に示すように使用できます。サンプルファイルは以下のリンクからダウンロードできます。
+列にはいくつかの空欄のセルが含まれており、空欄のセルのみを選択するためにフィルタが必要な場合、以下のサンプルコードに示すように、[**matchBlanks()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchBlanks(int))関数を使用できます。サンプルファイルを以下のリンクからダウンロードできます。
 
-1. [空白.xlsx](72417324.xlsx)
+1. [Blank.xlsx](72417324.xlsx)
 1. [FilteredBlank.xlsx](72417325.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterBlank.java" >}}
 
-##### **非ブランク**
+##### **非空白セル**
 
-テキストを含むセルをフィルタリングする場合は、[**MatchNonBlanks**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks(int)) 以下に示すようにフィルター関数。サンプルファイルは以下のリンクからダウンロードできます。
+テキストを含むセルをフィルタする場合は、以下で示されているように [**MatchNonBlanks**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#matchNonBlanks(int)) フィルタ関数を使用します。サンプルファイルは以下のリンクからダウンロードできます。
 
-1. [空白.xlsx](72417324.xlsx)
+1. [Blank.xlsx](72417324.xlsx)
 1. [FilteredNonBlank.xlsx](72417326.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterNonBlank.java" >}}
 
-##### **含むカスタム フィルター**
+##### **Contains カスタムフィルタ**
 
-Excel には、特定の文字列を含むフィルター行などのカスタム フィルターが用意されています。この機能は Aspose.Cells で利用可能で、サンプル ファイル内の名前をフィルタリングすることによって以下に示されています。サンプルファイルは以下のリンクからダウンロードできます。
+Excel は特定の文字列を含む行をフィルタするなど、カスタムフィルタを提供しています。この機能は Aspose.Cells で利用可能であり、以下のサンプルファイル内の名前をフィルタリングして以下で示されています。サンプルファイルは以下のリンクからダウンロードできます。
 
-1. [sourceSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx)
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx)
 1. [outSourseSampleCountryNames.xlsx](outSourseSampleCountryNames.xlsx)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-Contains.java" >}}
 
-##### **NotContains を使用したカスタム フィルター**
+##### **NotContains カスタムフィルタ**
 
-Excel には、特定の文字列を含まないフィルター行などのカスタム フィルターが用意されています。この機能は Aspose.Cells で利用可能で、以下のサンプル ファイルで名前をフィルタリングすることによって以下に示されています。
+Excel は特定の文字列を含まない行をフィルタするなど、カスタムフィルタを提供しています。この機能は Aspose.Cells で利用可能であり、以下で示されているサンプルファイル内の名前をフィルタリングしています。
 
-1. [sourceSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-NotContains.java" >}}
 
-##### **BeginsWith を使用したカスタム フィルター**
+##### **BeginsWith カスタムフィルタ**
 
-Excel には、特定の文字列で始まるフィルター行などのカスタム フィルターが用意されています。この機能は Aspose.Cells で利用可能で、以下のサンプル ファイルで名前をフィルタリングすることによって以下に示されています。
+Excel は特定の文字列で始まる行をフィルタするなど、カスタムフィルタを提供しています。この機能は Aspose.Cells で利用可能であり、以下で示されているサンプルファイル内の名前をフィルタリングしています。
 
-1. [sourceSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-BeginsWith.java" >}}
 
-##### **EndsWith を使用したカスタム フィルター**
+##### **EndsWith カスタムフィルタ**
 
-Excel には、特定の文字列で終わるフィルター行などのカスタム フィルターが用意されています。この機能は Aspose.Cells で利用可能で、以下のサンプル ファイルで名前をフィルタリングすることによって以下に示されています。
+Excel は特定の文字列で終わる行をフィルタするなど、カスタムフィルタを提供しています。この機能は Aspose.Cells で利用可能であり、以下で示されているサンプルファイル内の名前をフィルタリングしています。
 
-1. [sourceSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
+1. [sourseSampleCountryNames.xlsx](sourseSampleCountryNames.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-EndsWith.java" >}}
 
-## **先行トピック**
-- [Microsoft Excel の高度なフィルターを適用して、複雑な基準を満たすレコードを表示する](/cells/ja/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
-- [オートフィルターを更新した後にすべての非表示の行インデックスを取得する](/cells/ja/java/get-all-hidden-rows-indices-after-refreshing-autofilter/)
+## **高度なトピック**
+- [複雑な基準を満たすレコードを表示するMicrosoft Excelの高度なフィルタの適用](/cells/ja/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [オートフィルタの更新後の非表示行インデックスの取得](/cells/ja/java/get-all-hidden-rows-indices-after-refreshing-autofilter/)
 

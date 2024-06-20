@@ -1,69 +1,70 @@
-﻿---
-title: データの並べ替え
+---
+title: データソート
 type: docs
 weight: 90
 url: /ja/java/sort-data-of-excel/
 ---
+
 {{% alert color="primary" %}}
 
-データの並べ替えは、Microsoft Excel の多くの便利な機能の 1 つです。これにより、ユーザーはデータを並べ替えてスキャンしやすくすることができます。
+データソートは、Microsoft Excel の多くの便利な機能の1つです。これにより、データを整理してスキャンしやすくすることができます。
 
-Aspose.Cells では、ワークシート データをアルファベット順または数値順に並べ替えることができます。 Microsoft Excel でデータを並べ替えるのと同じように機能します。
+Aspose.Cells では、ワークシートデータをアルファベット順または数値順にソートすることができます。データのソートは、Microsoft Excel と同様の方法で機能します。
 
 {{% /alert %}}
 
-## **Microsoft Excel でのデータの並べ替え**
+## **Microsoft Excel でのデータのソート**
 
-Microsoft Excel でデータを並べ替えるには:
+Microsoft Excel でデータをソートするには:
 
-1. 選択する**データ**から**選別**メニュー。
-[並べ替え] ダイアログが表示されます。
-1. 並べ替えオプションを選択します。
+1. **ソート** メニューから **データ** を選択します。
+   ソートダイアログが表示されます。
+1. ソートオプションを選択します。
 
-通常、並べ替えはリストに対して実行されます。これは、データが列に表示される連続したデータのグループとして定義されます。
+一般的に、ソートはリスト上で実行されます。リストは、データが列に表示される連続したグループと定義されます。
 
-**Microsoft Excel の [並べ替え] ダイアログ ボックス**
+**Microsoft Excel のソートダイアログボックス**
 
-![todo:画像_代替_文章](data-sorting_1.png)
+![todo:image_alt_text](data-sorting_1.png)
 
-## **Aspose.Cells でデータを並べ替える**
+## **Aspose.Cells でのデータのソート**
 
-Aspose.Cells は[**データソーター**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter)昇順または降順でデータをソートするために使用されるクラス。クラスにはいくつかの重要なメンバーがあります。たとえば、次のようなメソッドです。[**setKey1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key1) ... [**setKey2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key2)と[**setOrder1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order1) ... [**setOrder2**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Order2).これらのメンバーは、並べ替えられたキーを定義し、キーの並べ替え順序を指定するために使用されます。
+Aspose.Cells は、昇順または降順でデータをソートするために使用する [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) クラスを提供しています。このクラスには、[**setKey1**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#Key1) メソッドなどの重要なメンバーがあります。これらのメンバーは、ソートされたキーを定義し、キーのソート順序を指定するために使用されます。
 
-データの並べ替えを実装する前に、キーを定義し、並べ替え順序を設定する必要があります。クラスは、[**選別**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()ワークシートのセル データに基づいてデータの並べ替えを実行するために使用されるメソッド。
+データソートを実装する前に、キーを定義してソート順を設定する必要があります。このクラスは、ワークシート内のセルデータに基づいてデータのソートを実行するために使用される [**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort--) メソッドを提供しています。
 
-の[**選別**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) メソッドは、次のパラメーターを受け入れます。
+[**sort**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort--) メソッドは、以下のパラメータを受け入れます:
 
 - [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)、ワークシートのセル。
-- [**セルエリア**](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)、セルの範囲。データの並べ替えを適用する前にセル領域を定義します。
+- [**CellArea**](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)、セル範囲。データソーティングを適用する前にセル領域を定義します。
 
-この例では、Aspose.Cells API を使用してデータを並べ替える方法を示します。この例では、テンプレート ファイル "Book1.xls" を使用し、最初のワークシートのデータ範囲 (A1:B14) のデータを並べ替えます。
+この例では、Aspose.Cells API を使用してデータをソートする方法を示します。この例では、テンプレートファイル「Book1.xls」を使用し、最初のワークシートのデータ範囲(A1:B14)をソートします。
 
-この例では、Microsoft Excel で作成されたテンプレート ファイル「Book1.xls」を使用します。
+この例では、Microsoft Excel で作成されたテンプレートファイル「Book1.xls」を使用します。
 
-**データを含むテンプレート Excel ファイル**
+**データが入ったテンプレートのExcelファイル完了**
 
-![todo:画像_代替_文章](data-sorting_2.png)
+![todo:image_alt_text](data-sorting_2.png)
 
-以下のコードを実行すると、出力 Excel ファイルからわかるように、データが適切に並べ替えられます。
+以下のコードを実行した後、出力されたExcelファイルから適切にデータがソートされていることがわかります。
 
-**データを並べ替えてExcelファイルを出力**
+**データがソートされた後の出力Excelファイル**
 
-![todo:画像_代替_文章](data-sorting_3.png)
+![todo:image_alt_text](data-sorting_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-DataSorting-DataSorting.java" >}}
 
 {{% alert color="primary" %}}
 
-分類する*左から右へ*、 使用[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortLeftToRight)属性。
+*左から右へ* のソートには、[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortLeftToRight) 属性を使用します。
 
 {{% /alert %}}
 
-## **背景色によるデータの並べ替え**
+## **背景色でデータをソートする**
 
-Excel には、背景色に基づいてデータを並べ替える機能があります。同じ機能は、Aspose.Cells を使用して提供されます。[**データソーター**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter)どこ[**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR)で使用できます[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int) ) を使用して、背景色に基づいてデータを並べ替えます。指定された色を含むすべてのセル[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int))、関数は SortOrder 設定に従って上または下に配置され、残りのセルの順序はまったく変更されません。
+Excel は、背景色に基づいてデータをソートする機能を提供しています。この機能は、Aspose.Cells を使用して [**DataSorter**](https://reference.aspose.com/cells/java/com.aspose.cells/DataSorter) を使って同じ機能が提供されます。[**addKey()**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int)) 内で [**SortOnType.CELL_COLOR**](https://reference.aspose.com/cells/java/com.aspose.cells/sortontype#CELL_COLOR) を使用して、背景色に基づいてデータをソートします。指定した色が含まれる指定されたセル内のすべてのセルは、SortOrder の設定とその他のセルの順序に従って、先頭または最後尾に配置されます。
 
-以下は、この機能をテストするためにダウンロードできるサンプル ファイルです。
+これがこの機能のテストにダウンロードできるサンプルファイルです。
 
 [sampleBackGroundFile.xlsx](sampleBackGroundFile.xlsx)
 
@@ -73,7 +74,7 @@ Excel には、背景色に基づいてデータを並べ替える機能があ�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-ExportPrintAreaToHtml-1.java" >}}
 
-## **先行トピック**
-- [カスタムソートリストを使用して列のデータをソートする](/cells/ja/java/sort-data-in-column-with-custom-sort-list/)
-- [データの並べ替え時の並べ替え警告の指定](/cells/ja/java/specifying-sort-warning-while-sorting-data/)
+## **高度なトピック**
+- [カスタムソートリストを使用した列内のデータの並べ替え](/cells/ja/java/sort-data-in-column-with-custom-sort-list/)
+- [データソート時の警告の指定](/cells/ja/java/specifying-sort-warning-while-sorting-data/)
 

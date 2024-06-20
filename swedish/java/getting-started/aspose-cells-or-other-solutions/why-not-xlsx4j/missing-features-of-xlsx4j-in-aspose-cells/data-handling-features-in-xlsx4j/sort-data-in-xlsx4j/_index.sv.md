@@ -1,16 +1,17 @@
-﻿---
+---
 title: Sortera data i xlsx4j
 type: docs
 weight: 60
 url: /sv/java/sort-data-in-xlsx4j/
 ---
-## **Aspose.Cells - Sorteringsdata**
-För att sortera data i kalkylblad med Aspose.Cells, anropa helt enkelt metoden DataSorter.sorter() efter att ha angett några enkla egenskaper för cellområdet.
-Java-koden nämns nedan:
+
+## **Aspose.Cells - Sortera data**
+För att sortera data i kalkylblad med hjälp av Aspose.Cells, kalla helt enkelt på metoden DataSorter.sorter() efter att ha satt några enkla egenskaper för cellområde.
+Java-koden finns nedan:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -73,13 +74,13 @@ sorter.sort(cells, ca);
 workbook.save(dataDir + "AsposeSortedData_Out.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/sortdata/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Sortera data](/java/sort-data) eller[Datasortering](/cells/sv/java/data-sorting).
+För mer detaljer, besök [Sortera Data](/java/sortera-data) eller [Data Sorting](/cells/sv/java/data-sorting).
 
 {{% /alert %}}

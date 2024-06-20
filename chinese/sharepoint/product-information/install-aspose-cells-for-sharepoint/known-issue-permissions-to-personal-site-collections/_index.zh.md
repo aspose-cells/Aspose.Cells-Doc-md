@@ -1,5 +1,5 @@
 ---
-title: 已知问题 - 对个人站点集的权限
+title: 已知问题  对个人站点集的权限
 type: docs
 weight: 40
 url: /zh/sharepoint/known-issue-permissions-to-personal-site-collections/

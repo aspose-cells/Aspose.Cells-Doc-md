@@ -1,36 +1,37 @@
-﻿---
-title: Visual Studio で作成されたデータ ソースとクエリの使用
+---
+title: Visual Studioで作成したデータソースとクエリを使用する
 type: docs
 weight: 10
 url: /ja/reportingservices/using-data-sources-and-queries-created-in-visual-studio/
 ---
+
 {{% alert color="primary" %}} 
 
-Visual Studio でデータ ソースとクエリを作成し、それらを RDL ファイルに保存できます。 Aspose.Cells.Report.Designer で RDL ファイルを開くと、そのデータ ソースとクエリを使用できるようになります。たとえば、Visual Studio で EmpSalesDetail という名前のクエリを作成し、RDL ファイルとして保存できます。
+Visual Studioでデータソースとクエリを作成し、それらをRDLファイルに保存できます。RDLファイルをAspose.Cells.Report.Designerで開くと、そのデータソースとクエリを使用できます。例えば、Visual StudioでEmpSalesDetailというクエリを作成し、RDLファイルとして保存できます。
 
-**EmpSalesDetail RDL ファイル** 
+**EmpSalesDetail RDLファイル** 
 
-![todo:画像_代替_文章](using-data-sources-and-queries-created-in-visual-studio_1.png)
+![todo:image_alt_text](using-data-sources-and-queries-created-in-visual-studio_1.png)
 
-この記事では、Aspose.Cells.Report.Designer で RDL ファイルを操作する方法について説明します。
+この記事では、Aspose.Cells.Report.DesignerでRDLファイルとの作業方法を示します。
 
 {{% /alert %}} 
 
-Aspose.Cells.Report.Designer で RDL ファイルを開いて操作できます。
+Aspose.Cells.Report.DesignerでRDLファイルを開き、作業することができます:
 
-1. Microsoft エクセルを開きます。
-1.  Aspose.Cells.Report.Designer ツールバーから、**レポートを開く**. 
+1. Microsoft Excel を開きます。
+1. Aspose.Cells.Report.Designerツールバーから**レポートを開く**を選択します。 
 
-   **[レポートを開く] ボタン** 
+   **レポートを開くボタン** 
 
-![todo:画像_代替_文章](using-data-sources-and-queries-created-in-visual-studio_2.png)
-
-
+![todo:image_alt_text](using-data-sources-and-queries-created-in-visual-studio_2.png)
 
 
-1. RDL ファイルを選択して開きます。
- RDL ファイルが Aspose.Cells.Report.Designer で開かれると、クエリが**データセット**リスト。
+
+
+1. RDLファイルを選択して開きます。
+   RDLファイルがAspose.Cells.Report.Designerで開かれると、クエリが**データセット**リストに表示されます。 
 
    **利用可能なデータセット** 
 
-![todo:画像_代替_文章](using-data-sources-and-queries-created-in-visual-studio_3.png)
+![todo:image_alt_text](using-data-sources-and-queries-created-in-visual-studio_3.png)

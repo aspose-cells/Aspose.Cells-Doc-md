@@ -1,20 +1,21 @@
-﻿---
-title: قم بتحميل Html إلى Excel باستخدام StreamProvider
+---
+title: تحميل HTML إلى Excel باستخدام StreamProvider
 type: docs
 weight: 80
 url: /ar/java/convert-html-to-excel-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-عند تحميل html الذي يحتوي على موارد خارجية ، فإننا نواجه مشكلتين التاليتين:
-1. عند تحميل دفق html ، لا يمكن الحصول على الصور والموارد الخارجية المشار إليها بواسطة ملف html من خلال المسارات النسبية.
-1. يجب تعيين مسارات الموارد الخارجية المشار إليها في ملفات html.
+عند تحميل HTML الذي يحتوي على موارد خارجية، نواجه غالبًا المشكلتين التاليتين:
+1. عندما يتم تحميل تدفق HTML، لا يمكن الحصول على الصور والموارد الخارجية المشار إليها في ملف HTML من خلال المسارات النسبية.
+1. يجب تعيين مسارات الموارد الخارجية المشار إليها في ملفات HTML.
 
- تشرح هذه المقالة كيفية التنفيذ[**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) واجهة لتعيين[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider) خاصية. من خلال تنفيذ هذه الواجهة ، ستتمكن من تحميل موارد خارجية أثناء تحميل تدفقات Html أو تكون هذه الموارد الخارجية نسبية.
+يشرح هذا المقال كيفية تنفيذ واجهة [**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) لضبط خاصية [**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider). من خلال تنفيذ هذه الواجهة، ستكون قادرًا على تحميل الموارد الخارجية أثناء تحميل تيارات HTML أو أن تكون هذه الموارد الخارجية نسبية.
 
 {{% /alert %}} 
 
-هذا هو الكود الرئيسي الذي يوضح استخدام[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
+هذا هو الكود الرئيسي الذي يظهر استخدام [**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
 
 
 

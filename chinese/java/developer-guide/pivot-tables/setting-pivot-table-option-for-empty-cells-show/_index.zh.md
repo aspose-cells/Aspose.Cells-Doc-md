@@ -1,11 +1,11 @@
 ---
-title: 设置数据透视表选项 - 对空单元格显示
+title: 设置数据透视表选项  对空单元格显示
 type: docs
 weight: 30
 url: /zh/java/setting-pivot-table-option-for-empty-cells-show/
 ---
 
-{{% alert color="primary" %}}
+## **介绍**
 
 您可以使用Aspose.Cells设置不同的数据透视表选项。其中之一是“显示空单元格”。设置此选项意味着数据透视表中的所有空单元格都将显示指定的字符串。
 
@@ -18,7 +18,7 @@ url: /zh/java/setting-pivot-table-option-for-empty-cells-show/
 
 ![todo:image_alt_text](setting-pivot-table-option-for-empty-cells-show_1.png)
 
-{{% /alert %}}
+## **设置数据透视表选项-对空单元格显示**
 
 Aspose.Cells提供了用于设置“显示空单元格”数据透视表选项的[**PivotTable.setDisplayNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#DisplayNullString)和[**PivotTable.setNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#NullString)属性。
 

@@ -1,23 +1,24 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.6.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.6.0
 type: docs
 weight: 200
 url: /de/java/public-api-changes-in-aspose-cells-8-6-0/
 ---
+
 {{% alert color="primary" %}} 
 
- Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.5.2 zu 8.6.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden,[zusätzliche Klassen usw.](/cells/de/java/public-api-changes-in-aspose-cells-8-6-0/), sondern auch eine Beschreibung etwaiger Verhaltensänderungen hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 8.5.2 bis 8.6.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, [hinzugefügte Klassen usw.](/cells/de/java/public-api-changes-in-aspose-cells-8-6-0/), sondern auch eine Beschreibung von Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Unterstützung für die Bearbeitung von Metadaten, ohne ein Arbeitsmappenobjekt zu erstellen**
-Diese Version von Aspose.Cells for Java API hat zwei neue Klassen verfügbar gemacht, nämlich WorkbookMetadata & MetadataOptions, zusammen mit einem neuen Aufzählungs-MetadataType, der es jetzt ermöglicht, die Dokumenteigenschaften (Metadaten) zu manipulieren, ohne eine Instanz von Workbook zu erstellen. Die WorkbookMetadata-Klasse ist leichtgewichtig und bietet einen sehr einfach zu verwendenden, effizienten Mechanismus[Dokumenteigenschaften lesen, schreiben und aktualisieren, ohne die Gesamtleistung zu beeinträchtigen](/cells/de/java/using-workbookmetadata/). 
+## **Hinzugefügte APIs**
+### **Unterstützung für Metadatenmanipulation ohne Erstellen eines Workbook-Objekts**
+Diese Version der Aspose.Cells for Java-API hat zwei neue Klassen, nämlich WorkbookMetadata & MetadataOptions sowie eine neue Aufzählung MetadataType, die es jetzt ermöglicht, die Dokumenteigenschaften (Metadaten) ohne Erstellen einer Instanz von Workbook zu manipulieren. Die Klasse WorkbookMetadata ist leichtgewichtig und bietet einen sehr einfach zu verwendenden, effizienten Mechanismus zum [Lesen, Schreiben und Aktualisieren von Dokumenteigenschaften, ohne die Gesamtleistung zu beeinträchtigen](/cells/de/java/using-workbookmetadata/). 
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Open Workbook metadata while specifying the appropriate MetadataType
 
@@ -34,14 +35,14 @@ metaWorkbook.getCustomDocumentProperties().add("test", "test");
 metaWorkbook.save(filePath);
 
 {{< /highlight >}}
-### **Eigenschaft HtmlSaveOptions.ExportFrameScriptsAndProperties Hinzugefügt**
-Aspose.Cells for Java 8.6.0 hat die HtmlSaveOptions.ExportFrameScriptsAndProperties-Eigenschaft verfügbar gemacht, die verwendet werden kann, um die Erstellung zusätzlicher Skripts zu beeinflussen, während die Tabellenkalkulationen in das HTML-Format konvertiert werden. Mit den Standardeinstellungen exportieren die Aspose.Cells-APIs die Tabelle im HTML-Format, da die Excel-Anwendung den Export durchführt, d. Das Ergebnis HTML enthält die Frames und bedingten Kommentare, die den Browsertyp erkennen und das Layout entsprechend anpassen. Der Standardwert der Eigenschaft HtmlSaveOptions.ExportFrameScriptsAndProperties ist true, das heißt; der Export erfolgt nach Excel-Standards. Wenn die Eigenschaft auf „false“ gesetzt ist, wird dies bei API nicht der Fall sein[Generieren Sie die Skripte, die sich auf die Frames und bedingten Kommentare beziehen](/cells/de/java/disable-exporting-frame-scripts-and-document-properties/). In diesem Fall kann das Ergebnis HTML in jedem Browser korrekt angezeigt werden, es kann jedoch nicht mit Aspose.Cells-APIs zurückimportiert werden.
+### **Hinzugefügte HtmlSaveOptions.ExportFrameScriptsAndProperties-Eigenschaft**
+Aspose.Cells for Java 8.6.0 hat die Eigenschaft HtmlSaveOptions.ExportFrameScriptsAndProperties freigelegt, die verwendet werden kann, um die Erstellung zusätzlicher Skripte beim Konvertieren der Tabellenkalkulationen in das HTML-Format zu beeinflussen. Mit den Standardeinstellungen exportieren die Aspose.Cells-APIs die Tabellenkalkulation im HTML-Format, wie es die Excel-Anwendung macht, d. h. das resultierende HTML enthält die Frames und bedingten Anmerkungen, die den Browsertyp erkennen und das Layout entsprechend anpassen. Der Standardwert der Eigenschaft HtmlSaveOptions.ExportFrameScriptsAndProperties ist true, das bedeutet, der Export erfolgt gemäß den Excel-Standards. Wenn die Eigenschaft auf false gesetzt wird, generiert die API keine [Skripte im Zusammenhang mit den Frames und bedingten Anmerkungen](/cells/de/java/disable-exporting-frame-scripts-and-document-properties/). In diesem Fall kann das resultierende HTML in jedem Browser korrekt angezeigt werden, jedoch kann es nicht mithilfe der Aspose.Cells-APIs zurückimportiert werden.
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the spreadsheet
 
@@ -58,14 +59,14 @@ options.setExportFrameScriptsAndProperties(false);
 book.save("output.html", options)
 
 {{< /highlight >}}
-### **Eigenschaft Shape.MarcoName Hinzugefügt**
-Aspose.Cells for Java 8.6.0 hat die Shape.MarcoName-Eigenschaft verfügbar gemacht, die verwendet werden kann[Weisen Sie einem Formularsteuerelement ein VBA-Modul zu](/cells/de/java/assign-macro-code-to-form-control/) eine solche Schaltfläche, um die Interaktion bereitzustellen. Die Eigenschaft ist vom Typ String, daher kann sie den Modulnamen annehmen und dem Steuerelement zuweisen.
+### **Hinzugefügte Shape.MarcoName-Eigenschaft**
+Aspose.Cells for Java 8.6.0 hat die Shape.MarcoName-Eigenschaft freigelegt, die verwendet werden kann, um [einem Formularsteuerelement wie einer Schaltfläche eine VBA-Modul zuzuweisen](/cells/de/java/assign-macro-code-to-form-control/) und so die Interaktion zu ermöglichen. Die Eigenschaft ist vom Typ String und kann daher den Modulnamen akzeptieren und ihn dem Steuerelement zuweisen.
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a new Workbook object
 
@@ -114,5 +115,5 @@ button.setMacroName(module.getName() + ".ShowMessage" );
 workbook.save("output.xlsm");
 
 {{< /highlight >}}
-### **Eigenschaft OoxmlSaveOptions.UpdateZoom Hinzugefügt**
-Mit der Veröffentlichung von v8.6.0 hat Aspose.Cells for Java API die OoxmlSaveOptions.UpdateZoom-Eigenschaft verfügbar gemacht, die verwendet werden kann, um die PageSetup.Zoom-Eigenschaft zu aktualisieren, wenn PageSetup.FitToPagesWide- und/oder PageSetup.FitToPagesTall-Eigenschaften verwendet wurden, um die Arbeitsblattskalierung zu steuern.
+### **Hinzugefügte OoxmlSaveOptions.UpdateZoom-Eigenschaft**
+Mit der Veröffentlichung von v8.6.0 hat die Aspose.Cells for Java API die OoxmlSaveOptions.UpdateZoom-Eigenschaft freigelegt, die verwendet werden kann, um die PageSetup.Zoom zu aktualisieren, wenn die PageSetup.FitToPagesWide- und/oder PageSetup.FitToPagesTall-Eigenschaften zur Steuerung der Arbeitsblattskalierung verwendet wurden.

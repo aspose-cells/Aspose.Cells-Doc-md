@@ -1,17 +1,18 @@
-﻿---
-title: すべてのレポート チャート アイテムを Excel チャートにレンダリング
+---
+title: すべてのレポートチャートアイテムをExcelチャートにレンダリング
 type: docs
 weight: 10
 url: /ja/reportingservices/render-all-report-chart-items-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-レポート内のすべてのグラフ アイテムを編集可能な Excel グラフとして表示するには:
+レポートのすべてのチャートアイテムを編集可能なExcelチャートとしてレンダリングするには:
 
-1. 開く**Aspose.Cells.ReportingServices.xml**ファイル。
-1. 構成パラメータを次のように変更します。
+1. **Aspose.Cells.ReportingServices.xml** ファイルを開きます。
+1. 次のように構成パラメータを変更します: 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart value="all">
 
@@ -19,10 +20,10 @@ url: /ja/reportingservices/render-all-report-chart-items-to-excel-charts/
 
 {{< /highlight >}}
 
-値を「all」に設定すると、すべてのグラフ項目が編集可能なグラフとして表示されます。
+値が「all」に設定されている場合、すべてのチャートアイテムが編集可能なチャートとしてレンダリングされます。 
 
-**Excel でのグラフの編集** 
+**Excelでチャートを編集** 
 
-![todo:画像_代替_文章](render-all-report-chart-items-to-excel-charts_1.png)
+![todo:image_alt_text](render-all-report-chart-items-to-excel-charts_1.png)
 
 {{% /alert %}}

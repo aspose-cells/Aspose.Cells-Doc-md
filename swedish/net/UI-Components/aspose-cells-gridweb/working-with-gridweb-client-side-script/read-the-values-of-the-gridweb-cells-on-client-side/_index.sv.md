@@ -1,30 +1,33 @@
-﻿---
-title: Läs värdena för GridWeb-cellerna på klientsidan
+---
+title: Läs värdena av GridWeb cellerna på klientsidan
 type: docs
 weight: 30
-url: /sv/net/read-the-values-of-the-gridweb-cells-on-client-side/
+url: /sv/net/aspose-cells-gridweb/read-the-values-of-the-gridweb-cells-on-client-side/
+keywords: GridWeb, cell, cellvärde
+description: Denna artikel introducerar hur man får cellvärdet i GridWeb.
 ---
-## **Möjliga användningsscenarier**
-Du kan läsa värdena för GridWeb-celler på klientsidans skript med metoden gridwebinstance.getCellsArray() . En gång, du kommer att kalla det, kommer det att returnera arrayen av alla celler i det aktiva kalkylbladet. Du kan sedan använda följande metoder för att hämta värdet och annan information för cellerna.
+
+## **Möjliga användningsscenario**
+Du kan läsa värdena av GridWeb-celler på klientens sida genom att använda gridwebinstance.getCellsArray() -metoden. När du har anropat den kommer den att returnera en array av alla celler i aktivt kalkylblad. Du kan sedan använda följande metoder för att hämta värdet och annan information om cellerna.
 
 - gridwebinstance.getCellName()
 - gridwebinstance.getCellValueByCell()
 - gridwebinstance.getCellRow()
 - gridwebinstance.getCellColumn()
-## **Läs värdena för GridWeb-cellerna på klientsidan**
-Följande exempelkod hämtar alla celler och skriver sedan ut deras namn, värde, rad och kolumn. Du kan se dess konsolutgång längst ner i den här artikeln. Följande skärmdump visar konsolutgången för exempelkoden på Google Chrome.
+## **Läs värdena av GridWeb-cellerna på klientsidan**
+Följande exempelkod hämtar alla celler och skriver sedan ut deras namn, värde, rad och kolumn. Du kan se dess konsoloutput längst ned i den här artikeln. Följande skärmbild visar konsoloutput av exempelkoden i Google Chrome.
 ## **Skärmdump**
 ![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCellsClientSide.aspx" >}}
 
-Anropa JavaScript-funktionen ReadGridWebCells() som visas i exempelkoden ovan så här.
+Vänligen anropa JavaScript-funktionen ReadGridWebCells() enligt ovanstående exempelkod på detta sätt.
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCells.aspx" >}}
-## **Konsolutgång**
-Detta är konsolutgången för ovanstående exempelkod.
+## **Konsoloutput**
+Detta är konsoloutputen för ovanstående exempelkod.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0:A1,value is:0 ,row:0,col:0
 

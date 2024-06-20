@@ -1,18 +1,19 @@
-﻿---
-title: إنشاء وحفظ مصنفات جديدة
+---
+title: إنشاء وحفظ سجلات عمل جديدة
 type: docs
 weight: 70
 url: /ar/net/create-and-save-new-workbooks/
 ---
-## **نصائح الهجرة:**
-\ 1. إنشاء كائن المصنف
-\ 2. احصل على ورقة العمل الحالية.
-\ 3. أدخل بعض النص في أي خلية.
-\ 4. احفظ المصنف.
-### **VSTO**
-فيما يلي مثال على رمز VSTO
 
-{{< highlight "csharp" >}}
+## **تلميحات الهجرة:**
+\1. إنشاء كائن سجل عمل
+\2. الحصول على ورقة عمل حالية.
+\3. إدراج نص ما في أي خلية.
+\4. حفظ سجل العمل.
+### **VSTO**
+أدناه مثال على الرمز لـ VSTO
+
+{{< highlight csharp >}}
 
   Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
 
@@ -26,9 +27,9 @@ url: /ar/net/create-and-save-new-workbooks/
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-يوجد أدناه مثال رمز لـ Aspose.Cells
+أدناه مثال على الرمز لـ Aspose.Cells
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook newWorkbook = new Workbook();
 
@@ -42,4 +43,4 @@ url: /ar/net/create-and-save-new-workbooks/
 
 {{< /highlight >}}
 ## **تحميل**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)

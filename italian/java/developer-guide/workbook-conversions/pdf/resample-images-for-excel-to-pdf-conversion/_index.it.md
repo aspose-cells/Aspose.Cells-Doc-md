@@ -1,29 +1,30 @@
-﻿---
-title: Ricampiona le immagini per la conversione da Excel a PDF
+---
+title: Risample Immagini per la Conversione da Excel a PDF
 type: docs
 weight: 250
 url: /it/java/resample-images-for-excel-to-pdf-conversion/
-description: Questo articolo illustra la riduzione delle dimensioni dell'immagine durante la conversione dei file Excel in PDF
-keywords: excel to pdf, resample images during excel to pdf conversion, compress images during excel to pdf conversion, reduce image sizes during excel to pdf conversion, convert excel to pdf with smaller size, excel to pdf conversion with image resampling, excel to pdf conversion with image compression, resample images during excel to pdf conversion java
+description: Questo articolo dimostra come ridurre le dimensioni delle immagini durante la conversione dei file Excel in PDF
+keywords: excel to pdf, risampling delle immagini durante la conversione da excel a pdf, compressione delle immagini durante la conversione da excel a pdf, riduzione delle dimensioni delle immagini durante la conversione da excel a pdf, convertire excel in pdf con dimensioni più piccole, conversione da excel a pdf con risampling delle immagini, conversione da excel a pdf con compressione delle immagini, risampling delle immagini durante la conversione da excel a pdf in java
 ---
+
 {{% alert color="primary" %}}
 
-Mentre si lavora con grandi file Excel Microsoft con molte immagini, potrebbe essere necessario comprimere le immagini che sono state aggiunte per ridurre le dimensioni del file di output PDF e migliorare le prestazioni complessive della conversione. Aspose.Cells supporta il ricampionamento delle immagini aggiunte per ridurre le PDF dimensioni del file di output e migliorare le prestazioni.
+Mentre lavori con grandi file Microsoft Excel con molte immagini, potresti aver bisogno di comprimere le immagini aggiunte per ridurre le dimensioni del file PDF di output e migliorare le prestazioni complessive della conversione. Aspose.Cells supporta il risampling delle immagini aggiunte per ridurre le dimensioni del file PDF di output e migliorare le prestazioni.
 
 {{% /alert %}}
 
-## **Ricampiona le immagini per la conversione da Excel a PDF**
+## **Risample Immagini per la Conversione da Excel a PDF**
 
-Vedere il seguente codice di esempio che descrive come eseguire l'attività utilizzando Aspose.Cells API. L'esempio converte un file Excel Microsoft in un file PDF durante la compressione delle immagini nel file.
+Si prega di consultare il codice di esempio seguente che descrive come eseguire il compito utilizzando l'API Aspose.Cells. L'esempio converte un file Microsoft Excel in un file PDF comprimendo le immagini nel file.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ResampleImagesforExceltoPDFConversion-ResampleImagesforExceltoPDFConversion.java" >}}
 
 {{% alert color="primary" %}}
 
- Usando il[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) riduce al minimo le dimensioni dell'output PDF ma potrebbe influire leggermente sulla qualità dell'immagine.
+Utilizzando l'opzione [**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) si riduce le dimensioni del PDF di output, ma potrebbe influenzare leggermente la qualità dell'immagine.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-Se il tuo foglio di calcolo contiene formule, è meglio chiamare[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()appena prima di eseguire il rendering del foglio di calcolo nel formato PDF. In questo modo si assicurerà che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati in PDF.
+Se il foglio di calcolo contiene formule, è meglio chiamare [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) proprio prima di rendere il foglio di calcolo in formato PDF. In questo modo si garantisce il ricalcolo dei valori dipendenti dalle formule e la visualizzazione dei valori corretti nel PDF.
 
 {{% /alert %}}

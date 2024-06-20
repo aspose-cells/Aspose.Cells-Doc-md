@@ -1,16 +1,17 @@
-﻿---
+---
 title: Настройка параметров страницы в Php
 type: docs
 weight: 10
 url: /ru/java/setting-page-options-in-php/
 ---
+
 ## **Aspose.Cells - Настройка параметров страницы**
 ### **Ориентация страницы**
- Чтобы применить настройки ориентации страницы с помощью**Aspose.Cells Java for PHP** , вызов**страница_ориентация** метод**Настройка страницы** модуль.
+Для применения настроек ориентации страницы с помощью **Aspose.Cells Java для PHP** вызовите метод **page_orientation** модуля **pagesetup**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function page_orientation($dataDir=null)
 
@@ -45,12 +46,12 @@ url: /ru/java/setting-page-options-in-php/
 }
 
 {{< /highlight >}}
-### **Коэффициент масштабирования**
- Чтобы применить масштабирование с помощью**Aspose.Cells Java for PHP** , вызов**масштабирование** метод**Настройка страницы** модуль.
+### **Фактор масштабирования**
+Для применения масштабирования с помощью **Aspose.Cells Java для PHP** вызовите метод **scaling** модуля **pagesetup**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function scaling($dataDir=null)
 
@@ -84,7 +85,7 @@ url: /ru/java/setting-page-options-in-php/
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Настройка параметров страницы (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите установку параметров страницы (Aspose.Cells) с любого из упомянутых ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/PageSetupFeatures/SettingPageOptions.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/PageSetupFeatures/SettingPageOptions.php)

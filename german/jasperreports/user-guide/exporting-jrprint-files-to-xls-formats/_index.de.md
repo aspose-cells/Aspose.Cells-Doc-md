@@ -1,20 +1,21 @@
-﻿---
-title: Exportieren von .jrprint-Dateien in XLS-Formate
+---
+title: Exportieren von .jrprint Dateien im XLS Format
 type: docs
 weight: 20
 url: /de/jasperreports/exporting-jrprint-files-to-xls-formats/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells for JasperReports stellt eine Klasse namens ACXlsExporter zum Exportieren von Berichten in XLS-Dateien bereit. Es nimmt eine .jrprint-Datei oder ein JasperPrint-Objekt als Eingabe und exportiert es in eine XLS-Datei.
+Aspose.Cells for JasperReports bietet eine Klasse namens ACXlsExporter zum Exportieren von Berichten in XLS-Dateien. Es nimmt eine .jrprint-Datei oder ein JasperPrint-Objekt als Eingabe und exportiert sie in eine XLS-Datei. 
 
 {{% /alert %}} 
 
-Das folgende Code-Snippet zeigt, wie das jasperPrint-Objekt in einen Dateipfad exportiert wird, z. B. destFile.
+Der folgende Codeausschnitt zeigt, wie das jasperPrint-Objekt beispielsweise in destFile exportiert wird.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  import com.aspose.cells.jasperreports. ACXlsExporter;
 

@@ -1,45 +1,46 @@
 ---
-title: Применить расширенный фильтр Microsoft Excel для отображения записей, соответствующих сложным критериям
+title: Применить Расширенный фильтр Microsoft Excel для отображения записей, соответствующих сложным критериям
 type: docs
 weight: 280
 url: /ru/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
-description: Узнайте, как применить расширенный фильтр Microsoft Excel для отображения записей, соответствующих сложным критериям, с помощью Aspose.Cells for .NET API.
-keywords: Apply Advanced Filter, Set Advanced Filter, Add Advanced Filter, Create Advanced Filter, How to add Advanced Filter to a range 
+description: Узнать, как применить расширенный фильтр в Microsoft Excel для отображения записей, соответствующих сложным критериям, с использованием API Aspose.Cells for .NET.
+keywords: Применить расширенный фильтр, установить расширенный фильтр, добавить расширенный фильтр, создать расширенный фильтр, Как добавить расширенный фильтр к диапазону 
 ---
-##  **Возможные сценарии использования**
 
- Microsoft Excel позволяет подать заявку*Расширенный фильтр* на данных рабочего листа для отображения записей, соответствующих сложным критериям. Вы можете применить расширенный фильтр с Microsoft Excel через его*Данные > Дополнительно*команду, как показано на этом снимке экрана.
+## **Возможные сценарии использования**
 
-![задача: image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
+Microsoft Excel позволяет применять *Расширенный фильтр* к данным листа для отображения записей, соответствующих сложным критериям. Вы можете применить Расширенный фильтр с помощью Microsoft Excel через команду *Данные > Расширенный*, как показано на этом скриншоте.
 
-Aspose.Cells также позволяет применять расширенный фильтр с помощью[**Рабочий лист.AdvancedFilter()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter)метод. Как и Microsoft Excel, он принимает следующие параметры.
+![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
+
+Aspose.Cells также позволяет применить расширенный фильтр, используя метод [**Worksheet.AdvancedFilter()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter). Как и в Microsoft Excel, он принимает следующие параметры.
 
 **isFilter**
 
-Указывает, используется ли фильтрация списка.
+Указывает, фильтровать ли список на месте.
 
-**списокдиапазон**
+**listRange**
 
 Диапазон списка.
 
-**критерииДиапазон**
+**criteriaRange**
 
-Критерии варьируются.
+Диапазон критериев.
 
-**скопировать в**
+**copyTo**
 
-Диапазон, в который копируются данные.
+Диапазон, куда копируются данные.
 
-**уникальныйRecordOnly**
+**uniqueRecordOnly**
 
 Отображение или копирование только уникальных строк.
 
-##  **Применить расширенный фильтр Microsoft Excel для отображения записей, соответствующих сложным критериям**
+## **Применение расширенного фильтра Microsoft Excel для отображения записей, удовлетворяющих сложным критериям**
 
-Следующий пример кода применяет расширенный фильтр к[Пример файла Excel](48496692.xlsx) и генерирует[Выходной файл Excel](48496691.xlsx). На скриншоте показаны оба файла для сравнения. Как вы можете видеть на скриншоте, данные внутри выходного файла Excel были отфильтрованы по сложным критериям.
+Приведенный ниже образец кода применяет расширенный фильтр к [Примерному файлу Excel](48496692.xlsx) и генерирует [Выходной файл Excel](48496691.xlsx). На скриншоте показаны оба файла для сравнения. Как видно на скриншоте, данные были отфильтрованы в выходном файле Excel в соответствии с сложными критериями.
 
-![задача: image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
+![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 
-##  **Образец кода**
+## **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ApplyAdvancedFilterOfMicrosoftExcel.cs" >}}

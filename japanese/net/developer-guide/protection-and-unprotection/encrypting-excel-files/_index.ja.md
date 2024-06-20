@@ -1,51 +1,52 @@
-﻿---
-title: Excel ファイルの暗号化
+---
+title: Excelファイルの暗号化
 type: docs
 weight: 90
 url: /ja/net/encrypting-excel-files/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel (97 - 365) では、スプレッドシートを暗号化し、パスワードで保護できます。暗号化サービス プロバイダー (CSP) によって提供されるアルゴリズムを使用します。これは、さまざまなプロパティを持つ一連の暗号化アルゴリズムです。デフォルトの CSP は「Office 97/2000 互換」または「弱い暗号化 (XOR)」です。適切な暗号化キーの長さを選択することが重要です。一部の CSP は、40 ビットまたは 56 ビットを超えるビットをサポートしていません。これは弱い暗号化と見なされます。強力な暗号化を行うには、128 ビット以上のキー長が必要です。 Microsoft Windows には、「Microsoft 強力な暗号化プロバイダー」などの強力な暗号化タイプも提供する CSP が含まれています。 128 ビット暗号化は、銀行がインターネット バンキング システムとの接続を暗号化するために使用するものです。
+Microsoft Excel (97 - 365)を使用して、スプレッドシートを暗号化およびパスワード保護することができます。暗号化には、暗号化サービスプロバイダー（CSP）によって提供されるアルゴリズムが使用されます。暗号化キーの長さを適切に選択することが重要です。一部のCSPは40ビットまたは56ビットを超える長さをサポートしていません。これは弱い暗号化と見なされます。強力な暗号化には、最小128ビットのキー長が必要です。Microsoft Windowsには、強力な暗号化タイプを提供するCSPも含まれています。例えば、「Microsoft Strong Cryptographic Provider」などです。128ビットの暗号化は、銀行がインターネットバンキングシステムとの接続を暗号化する際に使用するものです。
 
-Aspose.Cells を使用すると、目的の暗号化タイプで Microsoft Excel ファイルを暗号化し、パスワードで保護できます。
+Aspose.Cellsを使用すると、任意の暗号化タイプでMicrosoft Excelファイルを暗号化およびパスワード保護することができます。
 
 {{% /alert %}}
 
-## **Microsoft エクセルを使う**
+## **Microsoft Excel の使用**
 
-Microsoft Excel (ここでは Microsoft Excel 2003) でファイル暗号化設定を設定するには:
+Microsoft Excel（ここではMicrosoft Excel 2003）でファイルの暗号化設定を行うには：
 
-1. から**ツール**メニュー、選択**オプション**.ダイアログが表示されます。
-1. を選択**安全**タブ。
-1. パスワードを入力してクリック**高度**
-1. 暗号化タイプを選択し、パスワードを確認します。
+1. **ツール**メニューから**オプション**を選択します。ダイアログが表示されます。
+1. **セキュリティ**タブを選択します。
+1. パスワードを入力し、**詳細**をクリックします。
+1. 暗号化方式を選択し、パスワードを確認します。
 
-## **Aspose.Cellsで暗号化**
+## **Aspose.Cells を使用した暗号化**
 
-次の例は、Aspose.Cells API を使用して Excel ファイルを暗号化し、パスワードで保護する方法を示しています。
+次の例は、Aspose.Cells APIを使用してExcelファイルを暗号化およびパスワード保護する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingFiles-1.cs" >}}
 
-### **オプションを変更するためのパスワードの指定**
+### **修正パスワードを指定するオプション**
 
-次の例は、**変更するパスワード** Microsoft Aspose.Cells API を使用した既存ファイルの Excel オプション。
+次の例は、Aspose.Cells APIを使用して既存のファイルの**修正パスワード**Microsoft Excelオプションを設定する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingFiles-SpecifyPasswordToModifyOption.cs" >}}
 
-## **暗号化されたファイルのパスワードを確認する**
+## **暗号化されたファイルのパスワードを確認します**
 
-暗号化されたファイルのパスワードを確認するには、Aspose.Cells for .NET を指定します。[**パスワードを照合します**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword)方法。これらのメソッドは、検証が必要なファイル ストリームとパスワードの 2 つのパラメータを受け入れます。
-次のコード スニペットは、[**パスワードを照合します**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword)提供されたパスワードが有効かどうかを検証するメソッド。
+Aspose.Cells for .NETは、暗号化されたファイルのパスワードを検証するための[**VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword)メソッドを提供します。これらのメソッドは、ファイルストリームと検証する必要があるパスワードの2つのパラメータを受け入れます。
+以下のコードスニペットは、提供されたパスワードが有効かどうかを確認する[**VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/fileformatutil/methods/verifypassword)メソッドの使用を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 
-## **Aspose.Cells を使用した ODS ファイルの暗号化/復号化**
+## **Aspose.Cells を使用して ODS ファイルの暗号化/復号化**
 
-Aspose.Cells は、ODS ファイルの暗号化と復号化を許可します。復号化された ODS ファイルは、Excel と OpenOffice の両方で開くことができますが、暗号化された ODS ファイルは、パスワードを入力した後でのみ OpenOffice で開くことができます。 Excel は暗号化された ODS ファイルを開くことができず、警告メッセージが表示される場合があります。暗号化オプションは、他のファイル タイプとは異なり、ODS ファイルには適用されません。 ODS ファイルを暗号化するには、ファイルをロードして[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)値を実際のパスワードに変更してから保存してください。出力の暗号化された ODS ファイルは、OpenOffice でのみ開くことができます。
+Aspose.Cellsを使用すると、ODSファイルを暗号化および復号化することができます。復号されたODSファイルは、ExcelとOpenOfficeの両方で開くことができますが、暗号化されたODSファイルはOpenOfficeでのみパスワードを提供した後に開くことができます。Excelは暗号化されたODSファイルを開くことができず、警告メッセージが表示される場合があります。暗号化オプションは他のファイルタイプとは異なり、ODSファイルには適用されません。ODSファイルを暗号化するには、ファイルを読み込んでから保存する前に、実際のパスワードを[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)の値に設定します。出力された暗号化されたODSファイルはOpenOfficeのみで開くことができます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 
- ODS ファイルを復号化するには、[**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password) .ファイルがロードされたら、[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)文字列を null にします。
+ODSファイルを復号化するには、[**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password)によるパスワードの提供でファイルを読み込みます。ファイルが読み込まれたら、[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)文字列をnullに設定します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}

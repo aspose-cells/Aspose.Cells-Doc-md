@@ -1,21 +1,22 @@
-﻿---
-title: Ausgewählte Diagrammelemente in Excel-Diagramme rendern
+---
+title: Ausgewählte Diagrammelemente als Excel Diagramme rendern
 type: docs
 weight: 30
 url: /de/reportingservices/render-selected-chart-items-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-So rendern Sie nur einige Diagramme in einem Bericht in Excel-Diagramme:
+Um nur einige Diagramme in einem Bericht als Excel-Diagramme zu rendern:
 
-1. Öffne das**Aspose.Cells.ReportingServices.xml** Datei.
-1.  Ändern Sie die Konfigurationsparameter der**Aspose.Cells.ReportingServices.xml** Datei.
-1. Fügen Sie die gewünschten Informationen zur Berichtskonfiguration hinzu.
-1. Fügen Sie die Informationen für die Diagrammelemente hinzu, die Sie nicht als bearbeitbare Diagramme exportieren möchten. Diese Elemente werden als statische Bilder exportiert.
+1. Öffnen Sie die Datei **Aspose.Cells.ReportingServices.xml**.
+1. Ändern Sie die Konfigurationsparameter der Datei **Aspose.Cells.ReportingServices.xml**.
+1. Fügen Sie die gewünschten Berichtskonfigurationsinformationen hinzu.
+1. Fügen Sie die Informationen für die Diagrammelemente hinzu, die nicht als bearbeitbare Diagramme exportiert werden sollen. Diese Elemente werden als statische Bilder exportiert.
 
 Zum Beispiel:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 
@@ -31,10 +32,10 @@ Zum Beispiel:
 
 **Ein als Bild exportiertes Diagramm** 
 
-![todo: Bild_alt_Text](render-selected-chart-items-to-excel-charts_1.png)
+![todo:image_alt_text](render-selected-chart-items-to-excel-charts_1.png)
 
-**Ein Diagramm, das als bearbeitbares Excel-Diagramm exportiert wurde** 
+**Ein als bearbeitbares Excel-Diagramm exportiertes Diagramm** 
 
-![todo: Bild_alt_Text](render-selected-chart-items-to-excel-charts_2.png)
+![todo:image_alt_text](render-selected-chart-items-to-excel-charts_2.png)
 
 {{% /alert %}}

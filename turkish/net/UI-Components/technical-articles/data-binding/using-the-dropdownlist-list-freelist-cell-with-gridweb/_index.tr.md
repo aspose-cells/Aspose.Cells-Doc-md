@@ -1,26 +1,29 @@
-﻿---
-title: DropDownList, List, FreeList Cell'i GridWeb ile Kullanma
+---
+title: DataBind yöntemini çağırmadan önce çalışsheet.DataSource ve çalışsheet.DataMember özelliklerini belirtin.
 type: docs
 weight: 60
-url: /tr/net/using-the-dropdownlist-list-freelist-cell-with-gridweb/
+url: /tr/net/aspose-cells-gridweb/using-the-dropdownlist-list-freelist-gridweb/
+keywords: GridWeb,dropdownlist,freelist,list
+description: GridWeb de Dropdown Listesi, Liste, FreeList Hücresini Kullanma
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells ile açılır liste oluşturmanın çeşitli yolları vardır: ValidationType.DropDownList, List ve FreeList'in tümü bu özelliği sunar. Kumanda, açılır listelerde, listelerde ve serbest listelerde bir değer/metin çiftini destekler. Listeye yeni bir değer/metin çifti eklemek için Validation.ValueList.Add yöntemini kullanın.
+Bu makale, GridWeb'de listeyi nasıl kullanacağını tanıtır.
 
- Aşağıdaki kodda, "1", liste öğesinin değeridir ve "1:test", liste öğesinin görüntülenen metnidir.
+Aspose.Cells ile bir dropdown listesi oluşturmanın çeşitli yolları vardır: ValidationType.DropDownList, List ve FreeList hepsi bu özelliği sunar. Kontrol, dropdown listelerinde, listelerde ve serbest listelerde bir değer/metin çiftini destekler. Yeni bir değer/metin çifti eklemek için Validation.ValueList.Add yöntemini kullanın. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Adds to a bindcolumn
 
-GridWeb1.WebWorksheets[0].BindColumns["CategoryID"].Validation.ValueList.Add("1,1:test");
+GridWeb1.WorkSheets[0].BindColumns["CategoryID"].Validation.ValueList.Add("1,1:test");
 
 // Adds to a validation cell
 
-GridWeb1.WebWorksheets[1].Cells["A1"].Validation.ValueList.Add("1,1:test");
+GridWeb1.WorkSheets[1].Cells["A1"].Validation.ValueList.Add("1,1:test");
 
 
 
@@ -28,27 +31,27 @@ GridWeb1.WebWorksheets[1].Cells["A1"].Validation.ValueList.Add("1,1:test");
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  ' Adds to a bindcolumn
 
-GridWeb1.WebWorksheets(0).BindColumns("CategoryID").Validation.ValueList.Add("1,1:test")
+GridWeb1.WorkSheets(0).BindColumns("CategoryID").Validation.ValueList.Add("1,1:test")
 
 ' Adds to a validation cell
 
-GridWeb1.WebWorksheets(1).Cells("A1").Validation.ValueList.Add("1,1:test")
+GridWeb1.WorkSheets(1).Cells("A1").Validation.ValueList.Add("1,1:test")
 
 
 
 {{< /highlight >}}
 
-Liste öğelerini bir veri görünümü nesnesinden yüklemek için LoadValueList yöntemini kullanın:
+Aşağıdaki kodda, "1", listenin öğesinin değeri ve "1:test", listenin görüntülenen metnidir. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- GridWeb1.WebWorksheets[0].BindColumns["CategoryID"].Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", true);
+ GridWeb1.WorkSheets[0].BindColumns["CategoryID"].Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", true);
 
 
 
@@ -56,9 +59,9 @@ Liste öğelerini bir veri görünümü nesnesinden yüklemek için LoadValueLis
 
 **VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- GridWeb1.WebWorksheets(0).BindColumns("CategoryID").Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", True)
+ GridWeb1.WorkSheets(0).BindColumns("CategoryID").Validation.LoadValueList(dataSet31.Categories.DefaultView, "CategoryID", "CategoryName", True)
 
 
 

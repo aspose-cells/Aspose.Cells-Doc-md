@@ -1,16 +1,17 @@
-﻿---
-title: Cell から HTML5 文字列を取得
+---
+title: セルから HTML5 文字列を取得
 type: docs
 weight: 90
 url: /ja/java/get-html5-string-from-cell/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells は、セルの HTML 文字列を返します。[**getHtmlString(ブール値 html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)方法。合格すれば**間違い**パラメータとして、Normal HTML を返しますが、渡すと**真実**パラメータとして、HTML5 文字列を返します。
+## **可能な使用シナリオ**
 
-## **Cell から HTML5 文字列を取得**
+Aspose.Cells は、[**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) メソッドを使用してセルの HTML 文字列を返します。パラメータとして **false** を渡すと、通常の HTML を返し、**true** を渡すと HTML5 文字列を返します。
 
-次のサンプル コードは、ブック オブジェクトを作成し、最初のワークシートのセル A1 にテキストを追加します。次に、セル A1 から通常の HTML と HTML5 文字列を取得します。[**getHtmlString(ブール値 html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)メソッドを実行し、それらをコンソールに出力します。
+## **セルからHTML5文字列を取得**
+
+以下のサンプルコードは、ワークブック オブジェクトを作成し、最初のワークシートのセル A1 にテキストを追加します。次に、[**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) メソッドを使用してセル A1 から通常の HTML と HTML5 文字列を取得し、それらをコンソールに表示します。
 
 ## **サンプルコード**
 
@@ -18,7 +19,7 @@ Aspose.Cells は、セルの HTML 文字列を返します。[**getHtmlString(�
 
 ## **コンソール出力**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Normal:
 

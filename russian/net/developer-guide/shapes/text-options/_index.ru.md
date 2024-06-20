@@ -1,5 +1,5 @@
-﻿---
-title: Управление параметрами текста фигуры
+---
+title: Управление параметрами текста формы
 type: docs
 weight: 200
 url: /ru/net/managing-shape-text-options/

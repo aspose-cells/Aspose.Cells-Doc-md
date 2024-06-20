@@ -3,127 +3,128 @@ title: Convalida dei dati
 type: docs
 weight: 90
 url: /it/net/data-validation/
-description: Scopri come aggiungere la convalida dei dati tramite lo Aspose.Cells for .NET API.
-keywords: Add Data Validation, Get Validation Value, Add Whole Number Data Validation, Add List Data Validation, Add Date Data Validation, Add Time Data Validation, Add Text Length Data Validation, Add CellArea to existing Validation, Check if validation in cell is dropdown, Add Custom Valication  
+description: Scopri come aggiungere la convalida dei dati tramite l API Aspose.Cells for .NET.
+keywords: Aggiungi la convalida dei dati, ottieni il valore di convalida, aggiungi la convalida dei dati numerici interi, aggiungi la convalida dei dati di elenco, aggiungi la convalida dei dati della data, aggiungi la convalida dell orario, aggiungi la convalida della lunghezza del testo, aggiungi l area della cella alla convalida esistente, Controlla se la convalida nella cella è un menu a discesa, Aggiungi convalida personalizzata  
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel fornisce alcune buone funzionalità per filtrare o convalidare automaticamente i dati del foglio di lavoro. Aspose.Cells supporta completamente Microsoft la convalida dei dati di Excel e le funzionalità di filtro automatico. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
+Microsoft Excel fornisce alcune buone funzioni per filtrare automaticamente o convalidare i dati del foglio di lavoro. Aspose.Cells supporta completamente le funzionalità di convalida dei dati e filtro automatico di Microsoft Excel. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
 
 {{% /alert %}}
 
-##  **Tipi ed esecuzione di convalida dei dati**
+## **Tipi ed esecuzione della convalida dei dati**
 
-La convalida dei dati è la capacità di impostare regole relative ai dati immessi in un foglio di lavoro. Ad esempio, utilizza la convalida per garantire che una colonna denominata DATA contenga solo date o che un'altra colonna contenga solo numeri. Potresti anche assicurarti che una colonna denominata DATE contenga solo date comprese in un determinato intervallo. Con la convalida dei dati, puoi controllare cosa viene inserito nelle celle del foglio di lavoro.
+La convalida dei dati è la capacità di impostare regole relative ai dati inseriti in un foglio di lavoro. Ad esempio, utilizzare la convalida per garantire che una colonna denominata DATA contenga solo date, o che un'altra colonna contenga solo numeri. È possibile anche garantire che una colonna denominata DATA contenga solo date entro un determinato intervallo. Con la convalida dei dati è possibile controllare cosa viene inserito nelle celle del foglio di lavoro.
 
-Microsoft Excel supporta diversi tipi di convalida dei dati. Ciascun tipo viene utilizzato per controllare il tipo di dati immessi in una cella o in un intervallo di celle. Di seguito, i frammenti di codice illustrano come convalidarlo:
+Microsoft Excel supporta diversi tipi di convalida dei dati. Ogni tipo viene utilizzato per controllare quale tipo di dati viene inserito in una cella o in un intervallo di celle. Di seguito, frammenti di codice illustrano come convalidare che:
 
-- Numbers sono interi, cioè non hanno la parte decimale.
-- numeri decimali seguono la struttura corretta. L'esempio di codice definisce che un intervallo di celle deve avere due spazi decimali.
+- I numeri sono interi, cioè non hanno una parte decimale.
+- I numeri decimali seguono la struttura corretta. L'esempio di codice definisce che un intervallo di celle dovrebbe avere due decimali.
 - I valori sono limitati a un elenco di valori. La convalida dell'elenco definisce un elenco separato di valori che possono essere applicati a una cella o a un intervallo di celle.
 - Le date rientrano in un intervallo specifico.
-- Un'ora rientra in un intervallo specifico.
-- Un testo rientra in una determinata lunghezza di caratteri.
+- Un'ora è all'interno di un intervallo specifico.
+- Un testo è di una determinata lunghezza di caratteri.
 
-###  **Convalida dati con Microsoft Excel**
+### **Convalida dei dati con Microsoft Excel**
 
 Per creare convalide utilizzando Microsoft Excel:
 
-1. In un foglio di lavoro seleziona le celle a cui desideri applicare la convalida.
-1.  Dal**Dati** selezionare *Convalida**. Verrà visualizzata la finestra di dialogo di convalida.
-1.  Clicca il**Impostazioni** scheda e accedere alle impostazioni.
+1. In un foglio di lavoro, selezionare le celle a cui si desidera applicare la convalida.
+1. Dal menu **Dati**, seleziona **Convalida**. Verrà visualizzata la finestra di dialogo di convalida.
+1. Fai clic sulla scheda **Impostazioni** e inserisci le impostazioni.
 
-###  **Convalida dati con Aspose.Cells**
+### **Convalida dei dati con Aspose.Cells**
 
-La convalida dei dati è una potente funzionalità per convalidare le informazioni immesse nei fogli di lavoro. Con la convalida dei dati, gli sviluppatori possono fornire agli utenti un elenco di scelte, limitare le immissioni di dati a un tipo o dimensione specifica, ecc.
- Allo Aspose.Cells, ciascuno[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)la classe ha a[**Convalide**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/validations) proprietà che rappresenta una raccolta di[**Validazione**](https://reference.aspose.com/cells/net/aspose.cells/validation) oggetti. Per impostare la convalida, imposta alcuni dei file[**Validazione**](https://reference.aspose.com/cells/net/aspose.cells/validation)proprietà della classe come segue:
+La convalida dei dati è una funzionalità potente per convalidare le informazioni inserite nei fogli di lavoro. Con la convalida dei dati, gli sviluppatori possono fornire agli utenti un elenco di scelte, limitare le voci di dati a un tipo o dimensione specifici, ecc.
+In Aspose.Cells, ogni classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) ha una proprietà [**Validations**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/validations) che rappresenta una raccolta di oggetti [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation). Per impostare la convalida, impostare alcune delle proprietà della classe [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) come segue:
 
-- Tipo: rappresenta il tipo di convalida, che può essere specificato utilizzando uno dei valori predefiniti nel file[**Tipo di convalida**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)enumerazione.
--  Operatore – rappresenta l'operatore da utilizzare nella validazione, che può essere specificato utilizzando uno dei valori predefiniti nel file[**OperatorType**](https://reference.aspose.com/cells/net/aspose.cells/operatortype)enumerazione.
-- Formula1 – rappresenta il valore o l'espressione associata alla prima parte della convalida dei dati.
-- Formula2 – rappresenta il valore o l'espressione associata alla seconda parte della convalida dei dati.
+- Tipo: rappresenta il tipo di convalida, che può essere specificato utilizzando uno dei valori predefiniti nell'enumerazione [**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype).
+- Operatore: rappresenta l'operatore da utilizzare nella convalida, che può essere specificato utilizzando uno dei valori predefiniti nell'enumerazione [**OperatorType**](https://reference.aspose.com/cells/net/aspose.cells/operatortype).
+- Formula1: rappresenta il valore o l'espressione associata alla prima parte della convalida dei dati.
+- Formula2: rappresenta il valore o l'espressione associata alla seconda parte della convalida dei dati.
 
- Quando il[**Validazione**](https://reference.aspose.com/cells/net/aspose.cells/validation) le proprietà dell'oggetto sono state configurate, gli sviluppatori possono utilizzare il file[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)struttura per memorizzare informazioni sull'intervallo di celle che verrà convalidato utilizzando la convalida creata.
+Quando le proprietà dell'oggetto [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) sono state configurate, gli sviluppatori possono utilizzare la struttura [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) per memorizzare informazioni sull'intervallo di celle che verrà convalidato utilizzando la convalida creata.
 
-####  **Tipi di convalida dei dati**
+#### **Tipi di Convalida dei Dati**
 
- IL[**Tipo di convalida**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)l'enumerazione ha i seguenti membri:
+L'enumerazione [**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype) ha i seguenti membri:
 
-|**Nome del membro**|**Descrizione**|
+|**Nome Membr***|**Descrizione**|
 | :- | :- |
-|QualsiasiValore|Denota un valore di qualsiasi tipo.|
-|Numero intero|Indica il tipo di convalida per i numeri interi.|
-|Decimale|Indica il tipo di convalida per i numeri decimali.|
-|Elenco|Indica il tipo di convalida per l'elenco a discesa.|
-|Data|Indica il tipo di convalida per le date.|
-|Tempo|Indica il tipo di convalida per il tempo.|
-|Lunghezza del testo|Indica il tipo di convalida per la lunghezza del testo.|
-|Costume|Indica il tipo di convalida personalizzata.|
+|AnyValue|Denota un valore di qualsiasi tipo.
+|WholeNumber|Denota il tipo di convalida per i numeri interi.
+|Decimal|Indica il tipo di convalida per i numeri decimali.|
+|List|Indica il tipo di convalida per elenchi a discesa.|
+|Date|Indica il tipo di convalida per le date.|
+|Time|Indica il tipo di convalida per l'ora.|
+|TextLength|Indica il tipo di convalida per la lunghezza del testo.|
+|Custom|Indica il tipo di convalida personalizzato.|
 
-#####  **Convalida dei dati di numeri interi**
+##### **Convalida dei dati del numero intero**
 
-Con questo tipo di convalida, gli utenti possono inserire nelle celle convalidate solo numeri interi entro un intervallo specificato. Gli esempi di codice seguenti mostrano come implementare il tipo di convalida WholeNumber. L'esempio crea la stessa convalida dei dati utilizzando Aspose.Cells che abbiamo creato utilizzando Microsoft Excel sopra.
+Con questo tipo di convalida, gli utenti possono inserire solo numeri interi entro un intervallo specificato nelle celle convalidare. Gli esempi di codice seguenti mostrano come implementare il tipo di convalida del numero intero. L'esempio crea la stessa convalida dei dati utilizzando Aspose.Cells che abbiamo creato usando Microsoft Excel sopra.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-WholeNumberDataValidation-1.cs" >}}
 
-#####  **Elenco convalida dati**
+##### **Convalida dei dati della lista**
 
-Questo tipo di convalida consente all'utente di immettere valori da un elenco a discesa. Fornisce un elenco: una serie di righe che contengono dati. Nell'esempio viene aggiunto un secondo foglio di lavoro per contenere l'origine dell'elenco. Gli utenti possono selezionare solo valori dall'elenco. L'area di convalida è l'intervallo di celle A1:A5 nel primo foglio di lavoro.
+Questo tipo di convalida consente all'utente di inserire valori da un elenco a discesa. Fornisce un elenco: una serie di righe che contengono dati. Nell'esempio, viene aggiunta un secondo foglio di lavoro per contenere la fonte dell'elenco. Gli utenti possono selezionare solo valori dall'elenco. L'area di convalida è l'intervallo di celle A1:A5 nel primo foglio di lavoro.
 
- È importante qui impostare il file[**Validazione.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown)proprietà su *true**.
+È importante qui impostare la proprietà [**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) su **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-ListDataValidation-1.cs" >}}
 
-#####  **Data di convalida dei dati**
+##### **Convalida dei dati della data**
 
-Con questo tipo di convalida, gli utenti inseriscono valori di data entro un intervallo specificato o che soddisfano criteri specifici nelle celle convalidate. Nell'esempio, l'utente è limitato a inserire date comprese tra il 1970 e il 1999. Qui l'area di convalida è la cella B1.
+Con questo tipo di convalida, gli utenti inseriscono valori di data entro un intervallo specificato, o che soddisfano determinati criteri, nelle celle convalidate. Nell'esempio, all'utente è vietato inserire date comprese tra il 1970 e il 1999. Qui, l'area di convalida è la cella B1.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-DateDataValidation-1.cs" >}}
 
-#####  **Convalida dei dati temporali**
+##### **Convalida dei dati dell'ora**
 
-Con questo tipo di convalida, gli utenti possono inserire orari entro un intervallo specificato o che soddisfano alcuni criteri nelle celle convalidate. Nell'esempio, l'utente può inserire solo orari compresi tra le 09:00 e le 11:30. Qui, l'area di convalida è la cella B1.
+Con questo tipo di convalida, gli utenti possono inserire orari entro un intervallo specificato, o soddisfare alcuni criteri, nelle celle convalidate. Nell'esempio, all'utente è vietato inserire orari tra le 09:00 e le 11:30 del mattino. Qui, l'area di convalida è la cella B1.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-TimeDataValidation-1.cs" >}}
 
-#####  **Convalida dei dati sulla lunghezza del testo**
+##### **Convalida della lunghezza del testo**
 
-Con questo tipo di convalida, gli utenti possono inserire valori di testo di una lunghezza specificata nelle celle convalidate. Nell'esempio, l'utente può immettere valori stringa con non più di 5 caratteri. L'area di convalida è la cella B1.
+Con questo tipo di convalida, gli utenti possono inserire valori di testo di una lunghezza specificata nelle celle convalidate. Nell'esempio, all'utente è vietato inserire valori di stringa con più di 5 caratteri. L'area di convalida è la cella B1.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-TextLengthDataValidation-1.cs" >}}
 
-###  **Regole di convalida dei dati**
+### **Regole di convalida dei dati**
 
- Quando vengono implementate le convalide dei dati, la convalida può essere verificata assegnando valori diversi nelle celle.[**Cell.GetValidationValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) può essere utilizzato per recuperare il risultato della convalida. L'esempio seguente illustra questa funzionalità con valori diversi. Il file di esempio può essere scaricato dal seguente collegamento per il test:
+Quando le convalide dei dati sono implementate, la convalida può essere verificata assegnando valori diversi nelle celle. [**Cell.GetValidationValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) può essere utilizzato per ottenere il risultato della convalida. L'esempio seguente illustra questa funzionalità con valori diversi. Il file di esempio può essere scaricato dal seguente link per il test:
 
 [sampleDataValidationRules.xlsx](77496339.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DataValidationRules-1.cs" >}}
 
-##  **Controlla se la convalida nella cella è a discesa**
+## **Verifica se la convalida nella cella è a discesa**
 
- Come abbiamo visto ci sono molti tipi di validazioni che possono essere implementate all'interno di una cella. Se vuoi verificare se la convalida è a discesa o meno,[**Validazione.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown)La proprietà può essere utilizzata per testarlo. Il codice di esempio seguente illustra l'utilizzo di questa proprietà. Un file di esempio per il test può essere scaricato dal seguente collegamento:
+Come abbiamo visto, ci sono molti tipi di convalida che possono essere implementati all'interno di una cella. Se si desidera verificare se la convalida è a discesa o no, può essere utilizzata la proprietà [**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) per testare questo. Il codice di esempio seguente dimostra l'uso di questa proprietà. Un file di esempio per il testing può essere scaricato dal seguente link:
 
-[campioneValidation.xlsx](79527947.xlsx)
+[sampleValidation.xlsx](79527947.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CheckIfValidationInCellDropDown-1.cs" >}}
 
-##  **Aggiungi CellArea alla convalida esistente**
+## **Aggiungi CellArea alla convalida esistente**
 
- Potrebbero esserci casi in cui potresti voler aggiungere[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)all'esistere[**Validazione**](https://reference.aspose.com/cells/net/aspose.cells/validation). Quando aggiungi[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) utilizzando[**Validazione.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells controlla tutte le zone esistenti per vedere se la nuova zona esiste già. Se il file ha un numero elevato di convalide, ciò comporta un calo delle prestazioni. Per ovviare a ciò lo API mette a disposizione il[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) metodo. IL*checkIntersezione* Il parametro indica se verificare l'intersezione di una determinata area con aree di validazione esistenti. Impostandolo su**falso** disabiliterà il controllo di altre aree. IL*checkEdge*Il parametro indica se controllare le aree applicate. Se la nuova area diventa l'area in alto a sinistra, le impostazioni interne vengono ricostruite. Se sei sicuro che la nuova area non sia l'area in alto a sinistra, puoi impostare questo parametro come *false**.
+Potrebbero esserci casi in cui si desidera aggiungere [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) a [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) esistenti. Quando si aggiunge [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) utilizzando [**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells controlla tutte le aree esistenti per vedere se la nuova area esiste già. Se il file contiene un gran numero di convalide, si verifica un calo delle prestazioni. Per superare questo problema, l'API fornisce il metodo [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1). Il parametro *checkIntersection* indica se verificare l'intersezione di una data area con le aree di convalida esistenti. Impostarlo su **false** disabilita la verifica delle altre aree. Il parametro *checkEdge* indica se verificare le aree applicate. Se la nuova area diventa l'area in alto a sinistra, le impostazioni interne vengono ricostruite. Se si è sicuri che la nuova area non sia l'area in alto a sinistra, è possibile impostare questo parametro su **false**.
 
-Il seguente frammento di codice illustra l'uso di[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) metodo per aggiungerne di nuovi[**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)all'esistere[**Validazione**](https://reference.aspose.com/cells/net/aspose.cells/validation).
+Il seguente frammento di codice dimostra l'uso del metodo [**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) per aggiungere nuove [**CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) alle [**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation) esistenti.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddValidationArea-1.cs" >}}
 
-I file Excel di origine e di output sono allegati per riferimento.
+I file excel sorgente e di output sono allegati a scopo informativo.
 
-[File sorgente](96928093.xlsx)
+[File di origine](96928093.xlsx)
 
-[File di uscita](96928220.xlsx)
+[File di output](96928220.xlsx)
 
 
-##  **Argomenti avanzati**
-- [Ottieni la convalida Cell nei file ODS](/cells/it/net/get-cell-validation-in-ods-files/)
-- [Ottieni la convalida applicata al numero Cell](/cells/it/net/get-validation-applied-on-a-cell/)
-- [Verificare che il valore Cell soddisfi le regole di convalida dei dati](/cells/it/net/verify-that-cell-value-satisfies-data-validation-rules/)
+## **Argomenti avanzati**
+- [Ottieni la Convalida Cellulare nei File ODS](/cells/it/net/get-cell-validation-in-ods-files/)
+- [Ottieni la Convalida Applicata su una Cella](/cells/it/net/get-validation-applied-on-a-cell/)
+- [Verifica che il Valore della Cella Soddisfi le Regole di Convalida dei Dati](/cells/it/net/verify-that-cell-value-satisfies-data-validation-rules/)

@@ -1,22 +1,23 @@
-﻿---
-title: Ställ in standardteckensnitt när du renderar kalkylblad till bilder
+---
+title: Ange standardfont medan du renderar kalkylblad till bilder
 type: docs
 weight: 840
 url: /sv/java/set-default-font-while-rendering-spreadsheet-to-images/
 ---
+
 {{% alert color="primary" %}} 
 
- Vänligen använd[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) egenskap för att ställa in standardteckensnittet medan kalkylblad renderas till bilder. Den här egenskapen kommer bara att vara effektiv när standardteckensnittet i arbetsboken inte kunde återge dina tecken. Standardteckensnittet som anges med[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) egenskapen används för alla de celler som har ogiltiga eller obefintliga teckensnitt.
+Använd [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)-egenskapen för att ange standardtypsnittet vid rendering av kalkylblad till bilder. Denna egenskap är endast effektiv när arbetsbokens standardtypsnitt inte kan rendera dina tecken. Det standardtypsnitt som anges med [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)-egenskapen används för alla de celler som har ogiltiga eller inte existerande typsnitt.
 
 {{% /alert %}} 
-## **Ställ in standardteckensnitt när du renderar kalkylblad till bilder**
-Följande exempelkod skapar en arbetsbok, lägger till lite text i cell A4 i det första kalkylbladet och ställer in dess teckensnitt på ogiltigt eller obefintligt teckensnitt. Sedan tar det två bilder av kalkylbladet. Den första bilden tas genom att ställa in[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) egendom till*Courier Ny* och den andra bilden tas genom att ställa in[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) egendom till*Times New Roman*.
+## **Ange standardtypsnitt vid rendering av kalkylark till bilder**
+Det följande exempelkod skapar en arbetsbok, lägger till lite text i cell A4 i det första kalkylbladet och anger dess typsnitt till ogiltigt eller icke-existerande typsnitt. Därefter tas två bilder på kalkylbladet. Den första bilden tas genom att ange [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)-egenskapen till *Courier New* och den andra bilden tas genom att ange [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)-egenskapen till *Times New Roman*.
 
- Detta är utdatabilden efter att ha ställt in[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) egendom till*Courier Ny*.
+Detta är resultatbilden efter att [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)-egenskapen har ställts till *Courier New*.
 
 ![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
- Detta är utdatabilden efter att ha ställt in[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) egendom till*Times New Roman*.
+Detta är resultatbilden efter att [ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)-egenskapen har ställts till *Times New Roman*.
 
 ![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 

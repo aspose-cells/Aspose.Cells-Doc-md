@@ -1,24 +1,27 @@
-﻿---
-title: Aspose.Cells.GridJs Nozioni di base
+---
+title: Aspetti di base di Aspose.Cells.GridJs
 type: docs
 weight: 250
 url: /it/net/aspose-cells-gridjs/basics/
+keywords: GridJs
+description: Questo articolo introduce i passaggi di base per configurare un applicazione web per GridJs.
 ---
-## Nozioni di base di GridJs
 
- Aspose.Cells.GridJs è una libreria standard .NET che consente agli utenti di sviluppare applicazioni Web per mostrare/modificare fogli di calcolo in modo rapido e semplice.
+## Concetti di base di GridJs
 
-Aspose.Cells.GridJs supporta l'importazione dei popolari fogli di calcolo (XLS, XLSX, XLSM, XLSB, CSV, SpreadsheetML, ODS) formati di file.
+Aspose.Cells.GridJs è una libreria standard .NET che consente agli utenti di sviluppare rapidamente e facilmente applicazioni web per mostrare/modificare fogli di calcolo. 
 
-Consente inoltre di esportare file Excel in PDF, HTML .etc. Di seguito sono riportati i passaggi del processo di base per sviluppare un'applicazione Web di GridJs.
+Aspose.Cells.GridJs supporta l'importazione dei popolari formati di file di fogli di calcolo (XLS, XLSX, XLSM, XLSB, CSV, SpreadsheetML, ODS).
 
-- Implementa GridCacheForStream per scrivere la tua logica di business per l'archiviazione della cache.
-- Imposta un'azione del controller per ottenere json dal file del foglio di calcolo. Puoi utilizzare le API GridJsWorkbook.ImportExcelFile e GridJsWorkbook.ExportToJson, GridJs memorizzerà automaticamente il file di diffusione nella cache.
-- Imposta un'azione del controller per ottenere json per l'operazione di aggiornamento. Puoi utilizzare GridJsWorkbook.UpdateCell API, GridJs eseguirà l'operazione di aggiornamento nella cache e restituirà il json aggiornato.
-- Imposta un'azione del controller per ottenere l'URL dei file di immagini/forme nel foglio di calcolo, GridJs comprimerà automaticamente tutte le immagini/forme nella cache. Userà GridCacheForStream.GetFileUrl API.
-- Imposta un'azione del controller per ottenere il file nella cache, quindi possiamo ottenere il file zip delle immagini/forme o il file del foglio di calcolo nella cache. Userà GridCacheForStream.LoadStream API.
-- Imposta un'azione del controller per scaricare il foglio di calcolo. Puoi utilizzare GridJsWorkbook.SaveToCacheWithFileName API.
+Consente inoltre di esportare file Excel in PDF, HTML, ecc. Di seguito sono riportati i passaggi di base per sviluppare un'applicazione web di GridJs.
 
- Di seguito una demo di base per mostrare l'utilizzo di Aspose.Cells.GridJs: https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs
+- Implementa GridCacheForStream per scrivere la tua logica di business per la memorizzazione nella cache.
+- Configurare un'azione del controller per ottenere JSON dal file di foglio di calcolo. È possibile utilizzare GridJsWorkbook.ImporExcelFile e le API GridJsWorkbook.ExportToJson, GridJs memorizzerà automaticamente il file di fogli di calcolo nella cache.
+- Configura un'azione del controller per ottenere JSON per l'operazione di aggiornamento. È possibile utilizzare l'API GridJsWorkbook.UpdateCell, GridJs effettuerà l'operazione di aggiornamento nella cache e restituirà il JSON aggiornato.
+- Configura un'azione del controller per ottenere l'URL dei file delle immagini/forme nel foglio di calcolo, GridJs ziperà automaticamente tutte le immagini/forme nella cache. Utilizzerà l'API GridCacheForStream.GetFileUrl.
+- Configura un'azione del controller per ottenere il file nella cache, quindi è possibile ottenere il file zip delle immagini/forme o il file di foglio di calcolo nella cache. Utilizzerà l'API GridCacheForStream.LoadStream.
+- Configura un'azione del controller per scaricare il foglio di calcolo. È possibile utilizzare l'API GridJsWorkbook.SaveToCacheWithFileName.
 
-In caso di domande, richieste o bisogno di aiuto, inviare un feedback al seguente sito Web https://forum.aspose.com/c/cells/9
+Di seguito è riportata una demo di base per mostrare l'utilizzo di Aspose.Cells.GridJs: https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs 
+
+Se hai domande, requisiti o hai bisogno di aiuto, per favore fornisci un feedback al seguente sito web https://forum.aspose.com/c/cells/9

@@ -1,24 +1,25 @@
-﻿---
-title: Exporter la mise en forme conditionnelle DataBar, ColorScale et IconSet lors de la conversion Excel vers HTML
+---
+title: Exporter les formatages conditionnels DataBar, ColorScale et IconSet lors de la conversion d Excel en HTML
 type: docs
 weight: 30
 url: /fr/net/export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion/
 ---
+
 {{% alert color="primary" %}} 
 
-Vous pouvez exporter la mise en forme conditionnelle DataBar, ColorScale et IconSet lors de la conversion de votre fichier Excel en HTML. Cette fonctionnalité est partiellement prise en charge par Microsoft Excel mais Aspose.Cells la prend entièrement en charge.
+Vous pouvez exporter les formatages conditionnels DataBar, ColorScale et IconSet lors de la conversion de votre fichier Excel en HTML. Cette fonctionnalité est partiellement prise en charge par Microsoft Excel, mais Aspose.Cells la prend en charge entièrement.
 
 {{% /alert %}} 
-## **Exporter la mise en forme conditionnelle DataBar, ColorScale et IconSet lors de la conversion Excel vers HTML**
-La capture d'écran suivante montre le[exemple de fichier excel](5115558.xlsx) avec la mise en forme conditionnelle DataBar, ColorScale et IconSet. Vous pouvez télécharger le[exemple de fichier excel](5115558.xlsx) à partir du lien donné.
+## **Exporter les formatages conditionnels DataBar, ColorScale et IconSet lors de la conversion d'Excel en HTML**
+La capture d'écran suivante montre le [fichier Excel d'exemple](5115558.xlsx) avec des formatages conditionnels DataBar, ColorScale et IconSet. Vous pouvez télécharger le [fichier Excel d'exemple](5115558.xlsx) à partir du lien donné.
 
-![tâche : image_autre_texte](conversion_1.png)
+![todo:image_alt_text](conversion_1.png)
 
-La capture d'écran suivante montre le fichier de sortie Aspose.Cells HTML montrant la mise en forme conditionnelle DataBar, ColorScale et IconSet. Comme vous pouvez le voir, il ressemble exactement[exemple de fichier excel](5115558.xlsx).
+La capture d'écran suivante montre le fichier HTML de sortie Aspose.Cells montrant les formatages conditionnels DataBar, ColorScale et IconSet. Comme vous pouvez le voir, il ressemble exactement au [fichier Excel d'exemple](5115558.xlsx).
 
-![tâche : image_autre_texte](conversion_2.png)
-### **Exemple de code**
- L'exemple de code suivant convertit l'exemple de fichier Excel en HTML, ce qui n'est qu'un exemple normal.[Conversion d'Excel en HTML](/cells/fr/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml).
+![todo:image_alt_text](conversion_2.png)
+### **Code d'exemple**
+Le code d'exemple suivant convertit le fichier Excel d'exemple en HTML qui est simplement une [conversion normale d'Excel en HTML](/cells/fr/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml).
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToHTMLFiles -1.cs" >}}
 
 

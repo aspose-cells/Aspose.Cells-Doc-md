@@ -1,17 +1,18 @@
-﻿---
-title: Agregar Matriz en Aspose.Cells for Reporting Services Cliente
+---
+title: Agregar matriz en el Cliente Aspose.Cells for Reporting Services
 type: docs
 weight: 80
 url: /es/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/
 ---
+
 {{% alert color="primary" %}} 
 
- Incorporamos soporte para crear un elemento de informe de matriz en un informe. El contexto de la matriz incluye esquinas, agrupaciones de columnas, agrupaciones de filas y filas de matrices. Establezca atributos de informe de matriz que incluyen nombre, rango, etc.**Establecer atributo** en la barra de comandos Aspose.Cells' en Excel.
+Incorporamos soporte para crear un elemento de informe matriz en un informe. El contexto de la matriz incluye esquina, agrupaciones de columnas, agrupaciones de filas y filas de la matriz. Configure atributos de informe de matriz que incluye nombre, rango, y así sucesivamente a través del botón **Establecer Atributo** en la barra de comandos de Aspose.Cells en Excel.
 
-Por ejemplo, en la siguiente captura de pantalla, el rango de la matriz es E9:G11.
+Por ejemplo, en la captura de pantalla a continuación, el rango de la matriz es E9:G11.
 
-**Un elemento de informe de matriz** 
+**Un elemento de informe matriz** 
 
-![todo:imagen_alternativa_texto](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
+![todo:image_alt_text](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
 
 {{% /alert %}}

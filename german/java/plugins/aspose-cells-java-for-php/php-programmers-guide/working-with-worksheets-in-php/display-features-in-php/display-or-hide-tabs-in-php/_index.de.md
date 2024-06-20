@@ -1,16 +1,17 @@
-﻿---
-title: Registerkarten in Php anzeigen oder ausblenden
+---
+title: Anzeigen oder Ausblenden von Registerkarten in Php
 type: docs
 weight: 30
 url: /de/java/display-or-hide-tabs-in-php/
 ---
-## **Aspose.Cells – Registerkarten anzeigen oder ausblenden**
+
+## **Aspose.Cells - Anzeigen oder Ausblenden von Registerkarten**
 ### **Registerkarten ausblenden**
- Tabs ausblenden mit**Aspose.Cells Java for PHP** , Anruf**Tabs ausblenden** Modul.
+Um Registerkarten in **Aspose.Cells Java für PHP** auszublenden, rufen Sie das Modul **displayhidetabs** auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -25,7 +26,7 @@ $workbook->getSettings()->setShowTabs(false);
 $workbook->save($dataDir + "output.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Registerkarten ausblenden oder anzeigen oder ausblenden (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Registerkarten ausblenden oder anzeigen oder ausblenden (Aspose.Cells)** von einer der unten aufgeführten Social-Coding-Sites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideTabs.php)

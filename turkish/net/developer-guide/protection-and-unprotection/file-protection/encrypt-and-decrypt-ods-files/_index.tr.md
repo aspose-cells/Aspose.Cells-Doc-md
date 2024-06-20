@@ -1,28 +1,29 @@
-﻿---
-title: ODS dosyalarını şifrele ve şifresini çöz
+---
+title: ODS Dosyalarını Şifreleme ve Şifre Çözme
 type: docs
 weight: 10
 url: /tr/net/encrypt-and-decrypt-ods-files/
-description: saf bir net kitaplığı olan .Net için Aspose.Cells'i kullanarak ODS dosyalarını parolayla koruyun ve şifreleyin.
+description: Aspose.Cells for .Net i kullanarak ODS dosyalarını şifre koruma altına alabilir ve şifreleyebilirsiniz, bu saf Net kütüphanesidir.
 ---
+
 {{% alert color="primary" %}}
-OpenOffice.org, parola korumayı ve dosyaları şifrelemeyi destekleyen tam özellikli bir ofis paketidir. Ancak şifreli ODS dosyası, şifre girildikten sonra yalnızca OpenOffice tarafından açılabilir. Excel, şifrelenmiş ODS dosyasını açamaz ve uyarı mesajı verebilir. Şifreleme seçenekleri, diğer dosya türlerinden farklı olarak ODS dosyası için geçerli değildir.
- Aspose.Cells, ODS dosyasını şifrelemeye ve şifresini çözmeye izin verir. Şifresi çözülmüş ODS dosyası hem Excel'de hem de OpenOffice'te açılabilir,
+OpenOffice.org şifre korumayı ve dosyaları şifrelemeyi destekleyen tam özellikli bir ofis paketidir. Ancak şifreli ODS dosyası yalnızca parolayı sağladıktan sonra OpenOffice tarafından açılabilir. Excel şifreli ODS dosyasını açamaz ve uyarı mesajı verebilir. Şifreleme seçenekleri diğer dosya türleri gibi ODS dosyası için uygulanamaz. 
+Aspose.Cells, ODS dosyasını şifrelemeye ve şifresini çözmeye olanak tanır. Şifresi çözülmüş ODS dosyası hem Excel hem de OpenOffice'de açılabilir. 
 {{% /alert %}}
 
-## **OpenOffice Calc ile şifreleyin**
-1.  Seçme**Farklı kaydet** ve tıklayın**Şifre ile Kaydet** Kutu.
-1.  Tıkla**Kayıt etmek** buton.
-1.  İstediğiniz şifreyi her ikisine de yazın.**Açmak için Parolayı Girin** ve**Şifreyi Onayla** açılan Parola Belirle penceresindeki alanlar.
-1.  Tıkla**Tamam** dosyayı kaydetmek için düğmesine basın.
+## **OpenOffice Calc ile Şifrele**
+1. **Farklı Kaydet**'i seçin ve **Parola ile Kaydet** kutusunu tıklayın.
+1. **Kaydet** düğmesini tıklayın.
+1. Açılan Set Parola penceresinde, hem **Açmak için Parolayı Girin** hem de **Parolayı Onaylayın** alanlarına istediğiniz parolayı yazın. 
+1. Dosyayı kaydetmek için **Tamam** düğmesini tıklayın.
 
-## **.Net için ODS dosyasını Aspose.Cells ile şifreleyin**
- ODS dosyasını şifrelemek için dosyayı yükleyin ve[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) kaydetmeden önce gerçek parolaya değer. Çıkış şifreli ODS dosyası yalnızca OpenOffice'te açılabilir.
+## **Aspose.Cells for .Net ile ODS dosyası şifreleme**
+Bir ODS dosyasını şifrelemek için dosyayı yükleyin ve kaydetmeden önce [**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) değerini gerçek parolaya ayarlayın. Oluşturulan şifrelenmiş ODS dosyası yalnızca OpenOffice'de açılabilir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 
-## **.Net için ODS dosyasının şifresini Aspose.Cells ile çözün**
+## **Aspose.Cells for .Net ile ODS dosyası şifresini çözme**
 
- ODS dosyasının şifresini çözmek için, dosyayı bir parola girerek yükleyin.[**LoadOptions.Şifre**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password) . Dosya yüklendikten sonra,[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) null için dize.
+ODS dosyasını çözmek için, dosyayı yüklemek için [**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password) ile bir parola sağlayın. Dosya yüklendikten sonra, [**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) dizesini null olarak ayarlayın.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}

@@ -1,12 +1,13 @@
-﻿---
-title: Begränsa antalet genererade sidor - Excel till PDF konvertering
+---
+title: Begränsa antalet genererade sidor  Excel till PDF konvertering
 type: docs
 weight: 60
 url: /sv/java/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 ---
+
 {{% alert color="primary" %}}
 
-Ibland vill du skriva ut ett antal sidor till en utdatafil PDF. Aspose.Cells har möjlighet att sätta en gräns för hur många sidor som genereras när ett Excel-kalkylblad konverteras till PDF.
+Ibland vill du skriva ut en rad sidor till en utdatfil i PDF-format. Aspose.Cells har möjlighet att sätta en gräns för hur många sidor som genereras när du konverterar en Excel-kalkylblad till PDF.
 
 {{% /alert %}}
 
@@ -18,6 +19,6 @@ Följande exempel visar hur man renderar en rad sidor (3 och 4) i en Microsoft E
 
 {{% alert color="primary" %}}
 
- Om kalkylbladet innehåller formler är det bäst att ringa[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) precis innan du renderar den till PDF-format. Om du gör det säkerställs att formelberoende värden beräknas om och att de korrekta värdena återges i utdatafilen.
+Om kalkylbladet innehåller formler är det bäst att använda [**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--) strax innan du renderar det till PDF-format. På så sätt säkerställs att formelberoende värden omberäknas och de korrekta värdena renderas i utdatafilen.
 
 {{% /alert %}}

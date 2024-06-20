@@ -1,17 +1,18 @@
-﻿---
-title: العمل مع ContentTypeProperties
+---
+title: العمل مع خصائص نوع الوسائط
 type: docs
 weight: 150
 url: /ar/net/working-with-contenttypeproperties/
 ---
- يوفر Aspose.Cells[**Workbook.ContentTypeProperties.Add**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) طريقة لإضافة ContentTypeProperties المخصص إلى ملف Excel. يمكنك أيضًا جعل الخاصية اختيارية عن طريق تعيين[**ContentTypeProperty.SNillable**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypeproperty/properties/isnillable) ملكية ل**حقيقي**. يوضح مقتطف الشفرة التالي إضافة ContentTypeProperties المخصص الاختياري إلى ملف Excel. تُظهر الصورة التالية كلا الخاصيتين اللتين تمت إضافتهما بواسطة نموذج التعليمات البرمجية.
 
-![ما يجب القيام به: image_بديل_نص](working-with-contenttypeproperties_1.jpg)
+توفر Aspose.Cells طريقة [**Workbook.ContentTypeProperties.Add**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) لإضافة خصائص نوع الوسائط المخصصة إلى ملف إكسل. يمكنك أيضًا جعل الخاصية اختيارية عن طريق تعيين الخاصية [**ContentTypeProperty.IsNillable**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypeproperty/properties/isnillable) إلى **true** . يوضح مقتطف الكود التالي إضافة خصائص نوع الوسائط المخصصة الاختيارية إلى ملف إكسل. تُظهر الصورة التالية كل الخصائص التي تمت إضافتها بواسطة مقتطف الكود.
 
-يتم إرفاق ملف الإخراج الذي تم إنشاؤه بواسطة نموذج التعليمات البرمجية كمرجع.
+![todo:image_alt_text](working-with-contenttypeproperties_1.jpg)
 
-[ملف إلاخراج](95584314.xlsx)
+يتم إرفاق ملف الإخراج الذي تم إنشاؤه بواسطة مقتطف الكود للإشارة.
 
-## **عينة من الرموز**
+[ملف الإخراج](95584314.xlsx)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-WorkingWithContentTypeProperties-1.cs" >}}

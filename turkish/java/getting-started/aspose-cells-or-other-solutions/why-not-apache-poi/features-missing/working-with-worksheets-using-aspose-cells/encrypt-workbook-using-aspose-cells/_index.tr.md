@@ -1,15 +1,16 @@
-﻿---
-title: Çalışma Kitabını Aspose.Cells kullanarak şifrele
+---
+title: Aspose.Cells ile Çalışma Kitabını Şifrele
 type: docs
 weight: 60
 url: /tr/java/encrypt-workbook-using-aspose-cells/
 ---
+
 ## **Aspose.Cells - Çalışma Kitabını Şifrele**
-Aşağıdaki örnek, Aspose.Cells API kullanarak bir excel dosyasını nasıl şifreleyebileceğinizi / parolayla koruyabileceğinizi gösterir.
+Aşağıdaki örnek, Aspose.Cells API'sını kullanarak bir Excel dosyasını şifrelemenin / parolayla korumanın nasıl yapılabileceğini göstermektedir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -35,11 +36,11 @@ workbook.save(dataDir + "AsposeEncryptedWorkBook.xls");
 ## **Çalışan Kodu İndir**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeEncryptSpreadsheets.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Excel Dosyalarını Şifreleme](/cells/tr/java/encrypting-excel-files/).
+Daha fazla detay için [Excel Dosyalarını Şifreleme](/cells/tr/java/encrypting-excel-files/) sayfasını ziyaret edin.
 
 {{% /alert %}}

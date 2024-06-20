@@ -2,22 +2,24 @@
 title: Options de chargement pour GridWeb
 type: docs
 weight: 90
-url: /fr/net/aspose-cells-gridweb/loadoptions/
-keywords: loadoption,loadoptions,setting,
+url: /fr/net/aspose-cells-gridweb/aspose-cells-gridweb/loadoptions/
+keywords: option de chargement, options de chargement, paramétrage, options de chargement, option
+description: Cet article présente comment travailler avec les options de chargement dans GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Il existe certaines options de chargement que nous pouvons définir avant d'importer le fichier.
+Il y a quelques options de chargement que nous pouvons définir avant d'importer le fichier.
 
- on peut utiliser[GridLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridloadoptions/)(pour dossier général) et[GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridtxtloadoptions/) (pour le fichier csv)
- 
+nous pouvons utiliser [GridLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridloadoptions/) (pour les fichiers généraux) et [GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridtxtloadoptions/) (pour les fichiers CSV)	
+
 {{% /alert %}} 
-##  ** charger avec un autre encodage**
-Pour le fichier csv, il s'agit en fait d'un fichier texte, sans l'encodage spécifique décrit dans le fichier au format xlsx.
+## **chargement avec d'autres codages**
+Pour le fichier CSV, il s'agit en fait d'un fichier basé sur du texte, sans l'encodage spécifique décrit dans le fichier au format xlsx.
 
-Par conséquent, les utilisateurs peuvent définir un codage de caractères spécifique avant de charger le fichier.
+Par conséquent, les utilisateurs peuvent définir un encodage de caractères spécifique avant de charger le fichier.
 
-voici un exemple de code à charger avec le chinois :
+voici un code d'exemple pour charger avec du chinois :
 
 ```csharp
     GridTxtLoadOptions topt = new GridTxtLoadOptions();

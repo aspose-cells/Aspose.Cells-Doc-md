@@ -1,15 +1,16 @@
-﻿---
-title: Motor de cálculo de fórmulas en xlsx4j
+---
+title: Motor de Cálculo de Fórmulas en xlsx4j
 type: docs
 weight: 40
 url: /es/java/formula-calculation-engine-in-xlsx4j/
 ---
-## **Aspose.Cells - Motor de cálculo de fórmulas**
-El motor de cálculo de fórmulas está integrado en Aspose.Cells. No solo puede volver a calcular la fórmula importada desde un archivo de hoja de cálculo del diseñador, sino que también permite calcular los resultados de las fórmulas agregadas en tiempo de ejecución.
+
+## **Aspose.Cells - Motor de Cálculo de Fórmulas**
+El motor de cálculo de fórmulas está incrustado en Aspose.Cells. No solo puede recalcular la fórmula importada de un archivo de hoja de cálculo diseñado, sino que también admite calcular los resultados de fórmulas agregadas en tiempo de ejecución.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -58,13 +59,13 @@ book.calculateFormula();
 book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/formulacalculationengine/AsposeFormulaCalculationEngine.java)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Motor de cálculo de fórmulas](/cells/es/java/formula-calculation-engine-in-aspose-cells).
+Para más detalles, visita [Motor de Cálculo de Fórmulas](/cells/es/java/formula-calculation-engine-in-aspose-cells)
 
 {{% /alert %}}

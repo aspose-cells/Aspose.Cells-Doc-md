@@ -1,15 +1,16 @@
-﻿---
-title: Rilascia le risorse non gestite della cartella di lavoro
+---
+title: Rilascia le risorse non gestite del libro di lavoro
 type: docs
 weight: 310
 url: /it/net/release-unmanaged-resources-of-the-workbook/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells fornisce[**Cartella di lavoro.Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) metodo per rilasciare le risorse non gestite del[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)oggetto. Il modello Dispose viene usato solo per oggetti che accedono a risorse non gestite, ad esempio handle di file e pipe, handle di registro, handle di attesa o puntatori a blocchi di memoria non gestita. Questo perché il Garbage Collector è molto efficiente nel recuperare oggetti gestiti inutilizzati, ma non è in grado di recuperare oggetti non gestiti.
+Aspose.Cells fornisce il metodo [**Workbook.Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) per rilasciare le risorse non gestite dell'oggetto [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook). Il modello di smaltimento viene utilizzato solo per gli oggetti che accedono a risorse non gestite, come gestori di file e di pipe, gestori di registro, gestori di attesa o puntatori a blocchi di memoria non gestita. Questo perché il garbage collector è molto efficiente nel recuperare gli oggetti gestiti inutilizzati, ma non è in grado di recuperare gli oggetti non gestiti.
 
 {{% /alert %}}
 
-[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) oggetto ora implementa il*System.IDDisposable* interfaccia che ha un unico metodo[**Disponi()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) . Puoi chiamare direttamente il[**Cartella di lavoro.Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) metodo oppure è possibile utilizzare il*Usando*istruzione per chiamare questo metodo automaticamente.
+L'oggetto [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ora implementa l'interfaccia *System.IDisposable* che ha un unico metodo [**Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose). Puoi chiamare direttamente il metodo [**Workbook.Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) oppure puoi utilizzare l'istruzione *Using* per chiamare questo metodo automaticamente.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ReleaseUnmanagedResources-ReleaseUnmanagedResourcesForWorkbooks.cs" >}}

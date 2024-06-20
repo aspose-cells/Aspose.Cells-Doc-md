@@ -1,36 +1,37 @@
-﻿---
-title: Attivazione di fogli e attivazione di un Cell nel foglio di lavoro
+---
+title: Attivazione di Fogli e Attivazione di una Cella nel Foglio di Lavoro
 type: docs
 weight: 5
 url: /it/java/activating-sheets-and-activating-a-cell-in-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-A volte, è necessario che un foglio di lavoro specifico sia attivo e visualizzato quando un utente apre un file Excel Microsoft in Excel. Allo stesso modo, potresti voler attivare una cella specifica e impostare le barre di scorrimento per mostrare la cella attiva. Aspose.Cells è in grado di svolgere tutte queste attività come dimostrato di seguito.
+A volte è necessario che un foglio di lavoro specifico sia attivo e visualizzato quando un utente apre un file di Microsoft Excel in Excel. Allo stesso modo, potresti voler attivare una cella specifica e impostare le barre di scorrimento per mostrare la cella attiva. Aspose.Cells è in grado di svolgere tutte queste attività come dimostrato di seguito.
 
--  Un**foglio attivo** è un foglio su cui stai lavorando: il nome del foglio attivo sulla scheda è in grassetto per impostazione predefinita.
--  Un**Cellula attiva** è una cella selezionata, la cella in cui vengono inseriti i dati quando inizi a digitare. È attiva solo una cella alla volta. La cella attiva è evidenziata da un bordo spesso.
+- Un **foglio attivo** è un foglio su cui stai lavorando: il nome del foglio attivo sulla scheda è in grassetto per impostazione predefinita.
+- Una **cella attiva** è una cella selezionata, la cella in cui vengono inseriti i dati quando si inizia a digitare. Solo una cella è attiva alla volta. La cella attiva è evidenziata da un bordo spesso.
 
 {{% /alert %}}
 
-## **Attivazione Fogli e Attivazione Cell**
+## **Attivazione di Fogli e Attivazione di una Cella**
 
-Aspose.Cells prevede chiamate specifiche API per l'attivazione di un foglio e di una cella. Ad esempio, il[**WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#ActiveSheetIndex)è utile per impostare il foglio attivo in una cartella di lavoro. Allo stesso modo, il[**Foglio di lavoro.Cella attiva**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ActiveCell)La proprietà può essere utilizzata per impostare e ottenere una cella attiva nel foglio di lavoro.
+Aspose.Cells fornisce chiamate API specifiche per attivare un foglio e una cella. Ad esempio, la proprietà [**WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#ActiveSheetIndex) è utile per impostare il foglio attivo in un workbook. Allo stesso modo, la proprietà [**Worksheet.ActiveCell**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ActiveCell) può essere utilizzata per impostare e ottenere una cella attiva nel foglio di lavoro.
 
-Per assicurarti che le barre di scorrimento orizzontali o verticali si trovino nella posizione dell'indice di riga e colonna in cui desideri mostrare dati specifici, utilizza il[**Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleRow)e[**Foglio di lavoro.FirstVisibleColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleColumn)proprietà.
+Per assicurarsi che le barre di scorrimento orizzontali o verticali siano nella posizione dell'indice di riga e colonna che si desidera mostrare dati specifici, utilizzare le proprietà [**Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleRow) e [**Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleColumn).
 
-L'esempio seguente mostra come attivare un foglio di lavoro e creare una cella attiva al suo interno. Il seguente output viene generato durante l'esecuzione del codice. Le barre di scorrimento vengono fatte scorrere per rendere la seconda riga e la seconda colonna come prima riga e colonna visibili.
+Nell'esempio seguente viene mostrato come attivare un foglio di lavoro e rendere attiva una cella al suo interno. L'output seguente viene generato durante l'esecuzione del codice. Le barre di scorrimento sono scattate per rendere la 2ª riga e la 2ª colonna come la loro prima riga e colonna visibile.
 
-**Impostazione della cella B2 come cella attiva**
+**Impostare la cella B2 come una cella attiva**
 
-![cose da fare:immagine_alt_testo](activating-sheets-and-activating-a-cell-in-worksheet_1.png)
+![todo:image_alt_text](activating-sheets-and-activating-a-cell-in-worksheet_1.png)
 
-## Java codice per impostare un foglio di lavoro attivo in Excel
+## Codice Java per impostare un foglio di lavoro attivo in Excel
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ActivatingSheetsandActivatingCell-ActivatingSheetsandActivatingCell.java" >}}
 
 {{% alert color="primary" %}}
 
- In**valutazione**modalità, cioè; senza impostare una licenza valida, il foglio di lavoro attivo sarà sempre quello contenente la filigrana di valutazione. Questo comportamento può essere ignorato solo impostando la licenza all'avvio dell'applicazione.
+In modalità di **valutazione**, cioè; senza impostare una licenza valida, il foglio di lavoro attivo sarà sempre quello contenente il watermark di valutazione. Questo comportamento può essere sovrascritto solo impostando la licenza all'avvio dell'applicazione.
 
 {{% /alert %}}

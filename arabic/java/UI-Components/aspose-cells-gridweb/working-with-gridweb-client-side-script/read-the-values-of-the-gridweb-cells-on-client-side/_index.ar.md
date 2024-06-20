@@ -1,24 +1,25 @@
 ---
-title: اقرأ قيم خلايا GridWeb على جانب العميل
+title: قراءة قيم خلايا GridWeb على الجانب العميل
 type: docs
 weight: 10
 url: /ar/java/read-the-values-of-the-gridweb-cells-on-client-side/
 ---
-##  **سيناريوهات الاستخدام المحتملة**
-يمكنك قراءة قيم خلايا GridWeb على البرنامج النصي من جانب العميل باستخدام طريقة Gridwebinstance.getCellsArray(). بمجرد الاتصال به، سيعيد مصفوفة جميع الخلايا في ورقة العمل النشطة. يمكنك بعد ذلك استخدام الطرق التالية لاسترداد القيمة والمعلومات الأخرى الخاصة بالخلايا.
 
-- Gridwebinstance.getCellName()
-- Gridwebinstance.getCellValueByCell()
-- Gridwebinstance.getCellRow()
-- Gridwebinstance.getCellColumn()
-##  **اقرأ قيم خلايا GridWeb على جانب العميل**
-يقوم نموذج التعليمات البرمجية التالي باسترداد كافة الخلايا ثم طباعة اسمها وقيمتها والصف والعمود الخاص بها. يمكنك رؤية مخرجات وحدة التحكم الخاصة بها في أسفل هذه المقالة. تعرض لقطة الشاشة التالية إخراج وحدة التحكم لنموذج التعليمات البرمجية على Google Chrome.
-##  **لقطة شاشة**
-![ما يجب القيام به:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+## **سيناريوهات الاستخدام المحتملة**
+يمكنك قراءة قيم خلايا GridWeb على السكريبت الجانبي العميل باستخدام الطريقة gridwebinstance.getCellsArray(). مرة واحدة، سيقوم بإرجاع مصفوفة تحتوي على جميع الخلايا في ورقة العمل النشطة. يمكنك بعد ذلك استخدام الطرق التالية لاسترداد القيمة والمعلومات الأخرى للخلايا.
+
+- gridwebinstance.getCellName()
+- gridwebinstance.getCellValueByCell()
+- gridwebinstance.getCellRow()
+- gridwebinstance.getCellColumn()
+## **اقرأ قيم خلايا GridWeb على الجانب العميل**
+الكود العيني التالي يسترد كل الخلايا ثم يطبع أسمائها وقيمها وصفها وعمودها. يمكنك رؤية إنتاج الكونسول في أسفل هذا المقال. تظهر الصورة العينية التالية إنتاج الكونسول للكود العيني على متصفح Google Chrome.
+## **لقطة شاشة**
+![todo:image_alt_text](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
 
-##  **عينة من الرموز**
-{{< highlight "java" >}}
+## **الكود المثالي**
+{{< highlight java >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>
 
@@ -125,10 +126,10 @@ out.print(gridweb.getHTMLBody());
 </html>
 
 {{< /highlight >}}
-##  **إخراج وحدة التحكم**
-هذا هو إخراج وحدة التحكم لنموذج التعليمات البرمجية أعلاه.
+## **مخرجات الوحدة**
+هذا هو إنتاج الكونسول للكود العيني أعلاه.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  0:A1,value is:This ,row:0,col:0
 

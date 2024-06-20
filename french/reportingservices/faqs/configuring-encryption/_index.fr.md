@@ -1,26 +1,27 @@
-﻿---
-title: Configuration du chiffrement
+---
+title: Configuration du cryptage
 type: docs
 weight: 40
 url: /fr/reportingservices/configuring-encryption/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells for Reporting Services prend en charge le cryptage et vous pouvez afficher des fichiers Excel Microsoft cryptés.
+Aspose.Cells for Reporting Services prend en charge le cryptage et vous pouvez rendre des fichiers Microsoft Excel cryptés. 
 
 {{% /alert %}} 
-### **Types de chiffrement**
-Aspose.Cells for Reporting Services prend en charge le cryptage lors de l'exportation de fichiers Excel. Il prend en charge trois types de chiffrement :
+### **Types de cryptage**
+Aspose.Cells for Reporting Services prend en charge le cryptage lors de l'exportation de fichiers Excel. Il prend en charge trois types de cryptage :
 
 - XOR
-- CHIFFREMENT FAIBLE
-- Microsoft Fournisseur cryptographique puissant
+- CRYPTAGE FAIBLE
+- Fournisseur Cryptographique Fort de Microsoft
 ### **Configuration des informations**
- Il y a des informations de configuration pour le cryptage dans le**Aspose.Cells.ReportingServices.xml** dossier. Lorsque la valeur de Encryption est définie sur "off", Aspose.Cells.ReportingServices désactive le cryptage.
+Il y a des informations de configuration pour le cryptage dans le fichier **Aspose.Cells.ReportingServices.xml**. Lorsque la valeur de Cryptage est définie sur "désactivé", Aspose.Cells.ReportingServices désactive le cryptage.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="off">
 
@@ -40,24 +41,24 @@ Aspose.Cells for Reporting Services prend en charge le cryptage lors de l'export
 
 {{< /highlight >}}
 
-Lorsque le chiffrement est défini sur "on", Aspose.Cells.ReportingServices active le chiffrement.
+Lorsque le cryptage est défini sur "activé", Aspose.Cells.ReportingServices active le cryptage.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-Il y a quatre paramètres dans la section Encryption : ReportName, Password, EncryptionType et KeyLength.
+Il y a quatre paramètres dans la section Cryptage : NomRapport, MotDePasse, TypeCryptage et LongueurClé.
 
-- ReportName – Définit le rapport qui nécessite des paramètres de cryptage. Un rapport utilise le même mode de cryptage lorsque le paramètre est vide.
-- Mot de passe – Définit le mot de passe. Il ne peut pas être laissé vide.
-- EncryptionType – Définit le type de chiffrement. Il ne peut pas être laissé vide.
--  KeyLength – Définit la longueur de la clé. Il ne peut pas être laissé vide.
+- NomRapport – Définit le rapport qui nécessite des paramètres de cryptage. Un rapport utilise la même méthode de cryptage lorsque le paramètre est vide.
+- MotDePasse – Définit le mot de passe. Il ne peut pas être laissé vide.
+- TypeCryptage – Définit le type de cryptage. Il ne peut pas être laissé vide.
+- LongueurClé – Définit la longueur de la clé. Il ne peut pas être laissé vide. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="on">
 

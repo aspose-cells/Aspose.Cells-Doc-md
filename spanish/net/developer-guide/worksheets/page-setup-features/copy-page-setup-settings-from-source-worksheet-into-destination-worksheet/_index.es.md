@@ -1,26 +1,27 @@
 ---
-title: Copie la configuración de configuración de página de la hoja de trabajo de origen a la hoja de trabajo de destino
+title: Copiar Configuraciones de Configuración de Página de la Hoja de Cálculo de Origen en la Hoja de Cálculo de Destino
 type: docs
 weight: 80
 url: /es/net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
-description: Este artículo explica cómo usar el código de muestra de la biblioteca C# API o .NET para copiar la configuración de configuración de página de la hoja de trabajo de origen a la hoja de trabajo de destino mediante programación.
-keywords: copy page setup settings c#, copy page setup settings to target worksheet c#
+description: Este artículo explica cómo usar el código de ejemplo de la API de C# o la Biblioteca .NET para copiar las configuraciones de la Configuración de Página de la hoja de cálculo de origen en la hoja de cálculo de destino de forma programática.
+keywords: copiar configuraciones de configuración de página con C#, copiar configuraciones de configuración de página en hoja de trabajo de destino con C#
 ---
-##  **Posibles escenarios de uso**
 
-Cuando agrega una nueva hoja a un libro de trabajo, contiene la *configuración de configuración de página* predeterminada. Puede haber ocasiones en las que necesite transferir la configuración ([**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)) de una hoja de trabajo a otra hoja de trabajo. Este documento explica cómo copiar la configuración de Configuración de página de una hoja de trabajo a otra utilizando las API Aspose.Cells.
+## **Escenarios de uso posibles**
 
-##  **Copie la configuración de configuración de página de la hoja de trabajo de origen a la hoja de trabajo de destino**
+Cuando agregas una nueva hoja a un libro de trabajo, contiene las configuraciones de la *Configuración de Página* predeterminadas. Puede haber momentos en los que necesites transferir las configuraciones ([**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)) de una hoja de cálculo a otra. Este documento explica cómo copiar las configuraciones de la Configuración de Página de una hoja a otra utilizando las APIs de Aspose.Cells.
 
-El siguiente código de ejemplo ilustra cómo copiar*Configuración de configuración de página*de una hoja de trabajo a otra usando[**PageSetup.Copiar()**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/copy)método. Consulte el siguiente código de ejemplo y su salida de la consola para obtener una referencia.
+## **Copiar Configuraciones de Configuración de Página de la Hoja de Cálculo de Origen en la Hoja de Cálculo de Destino**
 
-##  **Código de muestra**
+El siguiente código de ejemplo ilustra cómo copiar las *Configuraciones de Configuración de Página* de una hoja a otra utilizando el método [**PageSetup.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/copy). Por favor, consulta el siguiente código de ejemplo y su salida en consola para una referencia.
+
+## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet.cs" >}}
 
-##  **Salida de consola**
+## **Salida de la consola**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Before Paper Size: PaperA3ExtraTransverse
 

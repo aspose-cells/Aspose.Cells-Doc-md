@@ -1,21 +1,22 @@
-﻿---
+---
 title: ضبط ارتفاع الصف وعرض العمود في Python
 type: docs
 weight: 10
 url: /ar/java/adjusting-row-height-and-column-width-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel pytho
-description: استخدم Python Excel API لإنشاء ملفات Excel في Python. اضبط ارتفاع الصف وعرض العمود في XLSX أو XLS في تطبيقاتك Python بدون MS Office.
+keywords: "إنشاء XLSX في Python ، إنشاء XLS في Python ، XLS python ، XLSX python ، ارتفاع الصف python ، عرض العمود python ، Excel python"
+description: استخدام واجهة برمجة التطبيقات لإكسل في Python لإنشاء ملفات Excel في Python. ضبط ارتفاع الصف وعرض العمود في XLSX أو XLS في تطبيقاتك Python دون MS Office.
 ---
-## **جداول بيانات Excel في Python - ضبط ارتفاع الصف وعرض العمود**
+
+## **جداول Excel في Python - ضبط ارتفاع الصف وعرض العمود**
 ### **ضبط ارتفاع الصف**
-مع Aspose.Cells ، يمكن ضبط ارتفاع صف واحد في Python باستدعاء طريقة setRowHeight لمجموعة Cells. تأخذ طريقة setRowHeight المعلمات التالية:
+مع Aspose.Cells، يُمكن ضبط ارتفاع صف واحد في Python عن طريق استدعاء طريقة مجموعة Cells الـ setRowHeight. تأخذ طريقة setRowHeight المعلمات التالية:
 
-- **فهرس الصف**، فهرس الصف الذي تقوم بتغيير ارتفاعه.
-- **ارتفاع الصف**، ارتفاع الصف المراد تطبيقه على الصف.
+- **مؤشر الصف**, مؤشر الصف الذي كنت تغير ارتفاعه.
+- **ارتفاع الصف**, ارتفاع الصف المطبق على الصف.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_row_height(self):
 
@@ -41,14 +42,14 @@ print "Set Row Height Successfully."
 
 {{< /highlight >}}
 ### **ضبط عرض العمود**
-قم بتعيين عرض العمود عن طريق استدعاء طريقة setColumnWidth للمجموعة Cells. تأخذ طريقة setColumnWidth المعلمات التالية:
+قم بتعيين عرض عمود عن طريق استدعاء طريقة setColumnWidth لمجموعة Cells. تأخذ طريقة setColumnWidth  المعلمات التالية:
 
-- **فهرس العمود**، هو فهرس العمود الذي تقوم بتغيير عرضه.
-- **عرض العمود**، عرض العمود المطلوب.
+- **فهرس العمود**, فهرس العمود الذي تريد تغيير عرضه.
+- **عرض العمود**, العرض المطلوب للعمود.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_column_width(self):
 
@@ -73,7 +74,7 @@ workbook.save(self.dataDir + "Set Column Width.xls")
 print "Set Column Width Successfully." 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**ضبط ارتفاع الصف وعرض العمود (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **ضبط ارتفاع الصف وعرض العمود (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

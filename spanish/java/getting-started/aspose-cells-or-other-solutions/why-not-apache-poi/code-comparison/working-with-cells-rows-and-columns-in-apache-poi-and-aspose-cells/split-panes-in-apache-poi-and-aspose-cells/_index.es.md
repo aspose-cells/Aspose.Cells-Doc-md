@@ -1,15 +1,16 @@
-﻿---
-title: Paneles divididos en Apache POI y Aspose.Cells
+---
+title: Dividir Paneles en Apache POI y Aspose.Cells
 type: docs
 weight: 70
 url: /es/java/split-panes-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Paneles divididos**
-Aspose.Cells proporciona una clase, Libro de trabajo que representa un archivo de Excel Microsoft. La clase Workbook proporciona una amplia gama de propiedades y métodos para administrar archivos de Excel. Para implementar vistas divididas, use el método de división de la clase Worksheet. Para eliminar paneles divididos, use el método removeSplit.
+
+## **Aspose.Cells - Dividir paneles**
+Aspose.Cells provee una clase, Workbook que representa un archivo de Microsoft Excel. La clase Workbook provee una amplia gama de propiedades y métodos para administrar archivos de Excel. Para implementar vistas divididas, utiliza el método split de la clase Worksheet. Para eliminar paneles divididos, utiliza el método removeSplit.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook / Open a template file
 
@@ -24,12 +25,12 @@ book.getWorksheets().get(0).setActiveCell("A20");
 book.getWorksheets().get(0).split();
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF y XSSF - Paneles divididos**
-La funcionalidad de paneles divididos se puede lograr mediante el método createSplitPane mientras se usa Apache POI SS (HSSF y XSSF) API
+## **Apache POI SS - HSSF & XSSF - Dividir Paneles**
+La funcionalidad de dividir paneles puede lograrse mediante el método createSplitPane al utilizar la API de Apache POI SS (HSSF & XSSF)
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();
 
@@ -40,13 +41,13 @@ Sheet sheet = wb.createSheet("new sheet");
 sheet.createSplitPane(2000, 2000, 0, 0, Sheet.PANE_LOWER_LEFT);
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/splitpanes)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Paneles divididos](http://docs.aspose.com:8082/docs/display/cellsjava/Split+Panes).
+Para más detalles, visita [Dividir Paneles](http://docs.aspose.com:8082/docs/display/cellsjava/Split+Panes).
 
 {{% /alert %}}

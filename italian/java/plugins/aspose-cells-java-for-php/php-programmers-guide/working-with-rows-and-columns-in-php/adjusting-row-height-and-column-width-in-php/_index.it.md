@@ -1,19 +1,20 @@
-﻿---
-title: Regolazione dell'altezza della riga e della larghezza della colonna in PHP
+---
+title: Regolazione dell altezza della riga e della larghezza della colonna in PHP
 type: docs
 weight: 10
 url: /it/java/adjusting-row-height-and-column-width-in-php/
 ---
-## **Aspose.Cells - Regolazione altezza riga e larghezza colonna**
-### **Impostazione dell'altezza della riga**
-È possibile impostare l'altezza di una singola riga chiamando il metodo setRowHeight della raccolta Cells. Il metodo setRowHeight accetta i seguenti parametri:
 
-- **Indice di riga**, l'indice della riga di cui stai modificando l'altezza.
+## **Aspose.Cells - Regolazione dell'altezza della riga e della larghezza della colonna**
+### **Impostazione dell'altezza della riga**
+È possibile impostare l'altezza di una singola riga chiamando il metodo setRowHeight della collezione Cells. Il metodo setRowHeight richiede i seguenti parametri:
+
+- **Indice di riga**, l'indice della riga a cui si sta modificando l'altezza.
 - **Altezza della riga**, l'altezza della riga da applicare alla riga.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_row_height($dataDir)
 
@@ -43,14 +44,14 @@ url: /it/java/adjusting-row-height-and-column-width-in-php/
 
 {{< /highlight >}}
 ### **Impostazione della larghezza della colonna**
-Impostare la larghezza di una colonna chiamando il metodo setColumnWidth della raccolta Cells. Il metodo setColumnWidth accetta i seguenti parametri:
+Imposta la larghezza di una colonna chiamando il metodo setColumnWidth della collezione Cells. Il metodo setColumnWidth richiede i seguenti parametri:
 
-- **Indice di colonna**, l'indice della colonna di cui stai modificando la larghezza.
-- **Larghezza della colonna**, la larghezza della colonna desiderata.
+- **Indice di colonna**, l'indice della colonna a cui si sta modificando la larghezza.
+- **Larghezza di colonna**, la larghezza desiderata della colonna.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function set_column_width($dataDir)
 
@@ -80,6 +81,6 @@ Impostare la larghezza di una colonna chiamando il metodo setColumnWidth della r
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Regolazione dell'altezza della riga e della larghezza della colonna (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Regolazione dell'altezza della riga e della larghezza della colonna (Aspose.Cells)** da uno qualsiasi dei siti di codice sociale citati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

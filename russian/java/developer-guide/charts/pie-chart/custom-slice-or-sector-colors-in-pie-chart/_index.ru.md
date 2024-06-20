@@ -1,26 +1,27 @@
-﻿---
-title: Пользовательские цвета срезов или секторов в круговой диаграмме
+---
+title: Настройка цветов круговой диаграммы
 type: docs
 weight: 30
 url: /ru/java/custom-slice-or-sector-colors-in-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-В этой статье объясняется, как добавить пользовательские цвета в секторы/срезы круговой диаграммы. По умолчанию для круговых диаграмм используется шаблон Excel по умолчанию Microsoft. Чтобы использовать другие цвета, можно переопределить цвета на диаграмме.
+В этой статье объясняется, как добавить пользовательские цвета для сегментов в круговой диаграмме. По умолчанию круговые диаграммы используют шаблон по умолчанию Microsoft Excel. Чтобы использовать другие цвета, можно переопределить цвета в диаграмме.
 
 {{% /alert %}}
 
-Чтобы установить пользовательский цвет для отдельных сегментов или секторов круговой диаграммы:
+Для установки пользовательского цвета для отдельных сегментов круговой диаграммы:
 
-1.  Доступ к[**Ряд**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) объекты[**Диаграмма**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
-1.  Назначьте цвет по вашему выбору с помощью[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor)метод.
+1. Обратитесь к [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) обьекту [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
+1. Назначьте цвет по вашему выбору, используя метод [**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor).
 
-В этой статье также объясняется, как установить:
+Эта статья также объясняет, как установить:
 
-- Данные категории диаграммы.
+- Категорийные данные диаграммы.
 - Заголовок диаграммы, связанный с ячейкой.
 - Настройки шрифта заголовка диаграммы.
-- Позиция легенды.
+- Положение легенды.
 
 {{% alert color="primary" %}}
 
@@ -28,8 +29,8 @@ url: /ru/java/custom-slice-or-sector-colors-in-pie-chart/
 
 {{% /alert %}}
 
-**Пользовательские цвета фрагментов в круговой диаграмме**
+**Пользовательские цвета сегментов в круговой диаграмме**
 
-![дело:изображение_альтернативный_текст](custom-slice-or-sector-colors-in-pie-chart_1.png)
+![todo:image_alt_text](custom-slice-or-sector-colors-in-pie-chart_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSliceOrSectorColorsPieChart-CustomSliceOrSectorColorsPieChart.java" >}}

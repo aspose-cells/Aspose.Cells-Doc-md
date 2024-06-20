@@ -1,34 +1,37 @@
-﻿---
-title: Visa och dölj rullningslister
+---
+title: Visa och dölj rullningsfält
 type: docs
 weight: 140
-url: /sv/net/display-and-hide-scroll-bars/
+url: /sv/net/aspose-cells-griddesktop/display-and-hide-scroll-bars/
+keywords: GridDesktop, visa, dölj, rulla, rullningsfält
+description: Den här artikeln introducerar hur man visar eller döljer rullningsfältet i GridDesktop.
 ---
+
 {{% alert color="primary" %}}
 
-Rullningslister är användbara för att navigera i innehållet i kalkylblad som är breda och djupa, det vill säga som har många rader och kolumner. De flesta applikationer stöder två typer av rullningslist:
+Rullningsfält är användbara för att navigera i innehållet i kalkylblad som är breda och djupa, det vill säga har många rader och kolumner. De flesta applikationer stöder två typer av rullningsfält:
 
-- Vertikal rullningslist
-- Horisontell rullningslist
+- Vertikalt rullningsfält
+- Horisontellt rullningsfält
 
 Båda dessa finns i Microsoft Excel.
 
-Aspose.Cell:s GridDesktop API tillhandahåller horisontella och vertikala rullningslister för att rulla igenom innehållet i ett kalkylblad. Med API:erna Aspose.Cells.GridDesktop kan utvecklare kontrollera synligheten för båda dessa rullningslister.
+Aspose.Cell's GridDesktop API tillhandahåller horisontella och vertikala rullningsfält för att bläddra igenom innehållet i ett arbetsblad. Med Aspose.Cells.GridDesktop API:er kan utvecklare kontrollera synligheten för båda dessa rullningsfält.
 
 {{% /alert %}}
 
-## **Styra rullningslistens synlighet**
+## **Kontrollera synligheten för rullningsfält**
 
-För att kontrollera rullningslistens synlighet i GridDesktop, använd egenskaperna IsVerticalScrollBarVisible och IsHorizontalScrollBarVisible. Exemplen nedan visar hur man döljer och visar rullningslister.
+För att kontrollera rullningsfältets synlighet i GridDesktop, använd egenskaperna IsVerticalScrollBarVisible och IsHorizontalScrollBarVisible. Exemplen nedan visar hur man döljer och visar rullningsfält.
 
-### **Programmeringsexempel: Döljer rullningslister**
+### **Programexempel: Dölja rullningsfält**
 
-Om du vill dölja rullningslister ställer du in egenskaperna som styr synligheten till false.
+För att dölja rullningsfälten, ställ in egenskaperna som styr synligheten till false.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-DisplayHideScrolBars-HideScrollbars.cs" >}}
 
-### **Programmeringsexempel: Gör rullningslister synliga**
+### **Programexempel: Göra rullningsfält synliga**
 
-Om du vill göra rullningslister synliga ställer du in egenskaperna som styr synlighet till sant.
+För att göra rullgardinsmenyer synliga, ställ in egenskaperna som styr synlighet till true.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-DisplayHideScrolBars-ShowScrollbars.cs" >}}

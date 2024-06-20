@@ -1,17 +1,20 @@
-﻿---
-title: GridDesktop で列と行を削除した後のイベントの処理
+---
+title: 列と行を削除した後のイベント処理を行う
 type: docs
 weight: 80
-url: /ja/net/handling-events-after-deleting-columns-and-rows-in-griddesktop/
+url: /ja/net/aspose-cells-griddesktop/handle-events-after-delete-columns-and-rows-in-griddesktop/
+keywords: GridDesktop、delete row、delete column、events
+description: この記事では、GridDesktopで行/列を削除した後のイベント処理について紹介しています。
 ---
-## **考えられる使用シナリオ**
-次のスクリーンショットに示すように、GridDesktop の Aspose.Cells には、AfterDeleteColumns と AfterDeleteRows という 2 つの新しいイベントが追加されました。これらのイベントは、列と行をそれぞれ削除すると発生します。
 
-![todo:画像_代替_文章](handling-events-after-deleting-columns-and-rows-in-griddesktop_1.png)
-## **GridDesktop で列と行を削除した後のイベントの処理**
-次のサンプル コードは、AfterDeleteColumns および AfterDeleteRows イベントを使用する方法を説明しています。いくつかの列または行を削除するたびに、指定された関数が呼び出され、削除された列または行のインデックスを表示するメッセージ ボックスが表示されます。
+## **可能な使用シナリオ**
+Aspose.Cells for GridDesktop には、列を削除した後のAfterDeleteColumnsと行を削除した後のAfterDeleteRowsの2つの新しいイベントが追加されています。これらのイベントは、それぞれ列と行を削除したときに発生します。
+
+![todo:image_alt_text](handling-events-after-deleting-columns-and-rows-in-griddesktop_1.png)
+## **GridDesktopで列と行を削除した後のイベント処理**
+次のサンプルコードは、列または行を削除したときにAfterDeleteColumnsとAfterDeleteRowsイベントを使用する方法を説明しています。いくつかの列や行を削除するたびに、指定された関数が呼び出され、削除された列または行のインデックスが表示されるメッセージボックスが表示されます。
 ## **サンプルコード**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  private void gridDesktop1_AfterDeleteColumnsAndRows(object sender, Aspose.Cells.GridDesktop.WorksheetEventArgs args)
 

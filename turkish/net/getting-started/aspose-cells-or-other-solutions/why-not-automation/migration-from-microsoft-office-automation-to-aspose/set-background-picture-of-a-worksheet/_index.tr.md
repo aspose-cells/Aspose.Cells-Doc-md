@@ -1,38 +1,39 @@
-﻿---
-title: Bir Çalışma Sayfasının Arka Plan Resmini Ayarlama
+---
+title: Bir Çalışma Sayfasının Arka Plan Resmini Ayarla
 type: docs
 weight: 90
 url: /tr/net/set-background-picture-of-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Arka plan resimleri, bir e-tablodaki metnin ve satırların arkasında bulunur. Bir çalışma kitabı hakkında bilgi vermek için kullanılırlar, örneğin durum filigranı olarak kullanıldıklarında, ancak şirket markasını veya dekorasyonu da ekleyebilirler. Microsoft Excel, kullanıcıların arka plan resimlerini manuel olarak eklemesine olanak tanır.
+Arka plan resimleri, bir elektronik tabloda metin ve çizgilerin arkasına yerleşir. Bir çalışma kitabı hakkında bilgi vermek için kullanılır, örneğin durum filigranları olarak kullanıldığında, ancak aynı zamanda şirket markasını veya süslemesini de ekleyebilir. Microsoft Excel, kullanıcıların arka plan resimleri eklemelerine izin verir. Geliştiriciler, uygulamaları üzerinden, Aspose.Cells for .NET veya VSTO kullanarak arka plan resimleri de ekleyebilirler. Bu makale, bu iki yaklaşımı karşılaştırır.
 
-Geliştiriciler ayrıca uygulamaları aracılığıyla Aspose.Cells for .NET veya VSTO kullanarak arka plan resimleri ekleyebilirler. Bu makale iki yaklaşımı karşılaştırmaktadır.
+Bu makaledeki kod örnekleri, önce [VSTO](/cells/tr/net/set-background-picture-of-a-worksheet/) ile, C# veya Visual Basic kullanarak ve ardından [Aspose.Cells for .NET](/cells/tr/net/set-background-picture-of-a-worksheet/) ile, yine C# veya Visual Basic kullanarak, bunu nasıl yapacağınızı gösterir.
 
 {{% /alert %}}
 
-## **Çalışma Sayfasında Arka Plan Resmi Ayarlama**
+## **Bu makaledeki kod örnekleri, aşağıda ekran görüntüsündeki gibi, tekrarlanan bir arka plan görüntüsüne sahip bir çalışma sayfası oluşturur.**
 
-Bir e-tabloya arka plan resmi uygulamak için:
+Bir elektronik tabloya arka plan resmi uygulamak için:
 
 1. Bir çalışma kitabı oluşturun ve arka plan resmi uygulamak istediğiniz sayfaya erişin.
 1. Arka plan resmini uygulayın.
 1. Çalışma kitabını kaydedin.
 
- Aşağıdaki kod örnekleri, öncelikle bunun nasıl yapılacağını gösterir.[VSTO](/cells/tr/net/set-background-picture-of-a-worksheet/) , C# veya Visual Basic kullanarak ve ardından[Aspose.Cells for .NET](/cells/tr/net/set-background-picture-of-a-worksheet/), yine C# veya Visual Basic kullanarak.
+Aşağıda verilen kod örnekleri, bunu önce [VSTO](/cells/tr/net/set-background-picture-of-a-worksheet/) ile, C# veya Visual Basic kullanarak veya [Aspose.Cells for .NET](/cells/tr/net/set-background-picture-of-a-worksheet/) ile, yine C# veya Visual Basic kullanarak nasıl yapılacağını gösterir.
 
-Bu makaledeki kod örnekleri, aşağıdaki ekran görüntüsündeki gibi yinelenen bir arka plan görüntüsüne sahip bir çalışma sayfası oluşturur.
+Bu makaledeki kod örnekleri, aşağıdaki ekran görüntüsündeki gibi tekrarlayan bir arka plan resmi olan bir çalışsayfa oluşturur.
 
-**Çalışma sayfası için bir arka plan ayarlandı.**
+**Çalışsayfa için bir arka plan belirlenmiştir.**
 
-![yapılacaklar:resim_alternatif_metin](set-background-picture-of-a-worksheet_1.png)
+![todo:image_alt_text](set-background-picture-of-a-worksheet_1.png)
 
-### **VSTO ile Arka Plan Resimleri Ayarlama**
+### ****Bir çalışma sayfası için arka plan belirlendi.****
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -76,11 +77,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Aspose.Cells for .NET ile Arka Plan Resimlerinin Ayarlanması**
+### **Aspose.Cells for .NET ile Arka Plan Resimleri Belirleme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -108,7 +109,7 @@ FileStream fs = File.OpenRead(ImageUrl);
 
 //Define a byte array.
 
-byte[]imageData = new Byte[fs.Length];
+byte[] imageData = new Byte[fs.Length];
 
 //Obtain the picture into the array of bytes from streams.
 

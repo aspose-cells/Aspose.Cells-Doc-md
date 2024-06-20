@@ -2,15 +2,16 @@
 title: Ange sökvägen där GridWeb lagrar temporära filer
 type: docs
 weight: 50
-url: /sv/net/gridweb-cache-files/
-keywords: cache,session,storage
+url: /sv/net/aspose-cells-gridweb/gridweb-cache-files/
+keywords: GridWeb,cache,session,lagring
+description: Denna artikel beskriver lagringen i GridWeb.
 ---
-###  om filcache
+### om filcache
 {{% alert color="primary" %}} 
 
-När GridWeb-sessionsläget är ViewState, lagrar det sina temporära sessionsfiler i Application Base Directory. Ibland är det inte OK att lagra temporära sessionsfiler där eftersom Application Base Directory kanske inte har skrivbehörighet på den. I sådana fall gör GridWeb ett sådant undantag
+När GridWeb-sessionläget är ViewState lagrar den sina temporära sessionfiler inuti Application Base Directory. Ibland är det inte OK att lagra temporära sessionfiler där eftersom Application Base Directory kanske inte har skrivbehörighet på den. I sådana fall kastar GridWeb ett sådant undantag
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  [UnauthorizedAccessException: Access to
 
@@ -18,45 +19,45 @@ the path 'D:\inetpub\wwwroot\AsposeExcelTest\gwb_tempGridWeb1' is denied.]
 
 {{< /highlight >}}
 
-Lösningen på ovanstående problem är att ge skrivåtkomst till Application Base Directory eller ändra sökvägen till GridWebs temporära sessionsfiler med skrivåtkomst med hjälp av egenskapen GridWeb.SessionStorePath. Den här sökvägen bör vara relativ till Application Base Directory.
+Lösningen på ovanstående problem är att ge skrivåtkomst till Application Base Directory eller ändra sökvägen för GridWebs temporära sessionfiler med skrivåtkomst med hjälp av egenskapen GridWeb.SessionStorePath. Denna sökväg ska vara relativ till Application Base Directory.
 
 {{% /alert %}} 
-####  **Ange sökvägen där GridWeb lagrar temporära sessionsfiler**
-Följande exempelkod anger sökvägen där GridWeb lagrar temporära sessionsfiler.
+#### **Ange sökvägen där GridWeb lagrar temporära sessionfiler**
+Följande kodexempel specificerar sökvägen där GridWeb lagrar temporära sessionfiler.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-SpecifySessionStorePath.aspx-SpecifySessionStorePath.cs" >}}
 
-###  om bildcache
+### om bildcache
 
-när det finns former/bilder i kalkylbladet kommer GridWeb att spara alla former/bilder till en cache-sökväg
+när det finns former/bilder i kalkylarket, sparar GridWeb alla former/bilder till en cachad sökväg
 
- standardcache-sökvägen är***System.Web.HttpContext.Current.Server.MapPath("/acwcache")***
+standard-cach-sökvägen är ***System.Web.HttpContext.Current.Server.MapPath("/acwcache")***
 
- vi kan också använda***GridWeb.PictureCachePath*** för att ställa in den här sökvägen till en specifik sökväg.
+vi kan också använda ***GridWeb.PictureCachePath*** för att ange denna sökväg till en specifik sökväg.
 
-när vi öppnar en sida kommer GridWeb att lösa begäran om bild-url och hämta bildströmmen från cachen med url-id.
+när vi öppnar en sida kommer GridWeb att lösa förfrågningsbildens URL och hämta bildströmmen från cachen via URL:en.
 
- till exempel om din sidadress är*http://ip/mygridwebapp/test.aspx*  
+till exempel, om din sidadress är *http://ip/mygridwebapp/test.aspx*  
 
-webbadressen för bildbegäran som genereras av GridWeb kommer att vara *http://ip/mygridwebapp/test.aspx/acw_image/imageid*.
+bildförfrågnings-URL:en som genereras av GridWeb kommer att vara *http://ip/mygridwebapp/test.aspx/acw_image/imageid*.
 
-####  ibland laddas inte formerna/bilderna när du använder[Vänlig URL](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms).
+#### ibland laddas inte formerna/bilderna när du använder [Friendly Url](https://weblogs.asp.net/psheriff/using-friendly-urls-in-web-forms).
 
-du måste kontrollera bildens webbadressbegäran.
+du måste kontrollera bildens URL-begäran.
 
- den normala bildbegäran ska vara så här:*http://ip/mygridwebapp/test.aspx/acw_image/imageid*
+den normala bildbegäran bör se ut så här: *http://ip/mygridwebapp/test.aspx/acw_image/imageid*
 
-men din begäran ser ut så här:*http://ip/mygridwebapp/test/acw_image/imageid*
+men din förfrågan går så här :*http://ip/mygridwebapp/test/acw_image/imageid*
 
-om du använder FriendlyUrl måste du filtrera bort webbadressbegäran för bilden för GridWeb.
+om du använder FriendlyUrl måste du filtrera bort bildens URL-begäran för GridWeb.
 
-sålunda kan GridWebs kontrollserver hämta och lösa begäran och hitta bildströmmen från cachesökvägen.
+så kan GridWeb kontrollserver hämta och lösa begäran och hitta bildströmmen från cachsökvägen.
 
-till exempel antar vi din sidas url så här:*http://ip/mygridwebapp/test.aspx*
+till exempel antar vi att din sidadress ser ut så här:*http://ip/mygridwebapp/test.aspx*
 
-koden nedan är en lösning för att lösa ett sådant problem.
+nedan är koden ett workaround för att åtgärda ett sådant problem.
 ```csharp
 //write your custom url resolver:MyWebFormsFriendlyUrlResolver
 public class MyWebFormsFriendlyUrlResolver : WebFormsFriendlyUrlResolver

@@ -1,30 +1,31 @@
-﻿---
-title: Aspose.Cells.ReportingServices クライアント レポート サーバー URL の構成
+---
+title: Aspose.Cells.ReportingServices クライアントレポートサーバーURLを設定する
 type: docs
 weight: 40
 url: /ja/reportingservices/configuring-aspose-cells-reportingservices-client-report-server-url/
 ---
-クライアント レポート サーバーの URL を構成するには、次の手順を実行します。
 
-1. クリック**リモートレポートを開く**ボタンを押して**レポートの取得**ダイアログボックス。
+クライアントレポートサーバーURLを設定するには:
 
-![todo:画像_代替_文章](configuring-aspose-cells-reportingservices-client-report-server-url_1.png)
+1. **リモートレポートを開く** ボタンをクリックして、**レポート取得** ダイアログボックスを取得します。 
 
-1. クリック**設定**ボタンを押して取得**レポート サーバー URL の設定**ダイアログ。
+![todo:image_alt_text](configuring-aspose-cells-reportingservices-client-report-server-url_1.png)
 
-![todo:画像_代替_文章](configuring-aspose-cells-reportingservices-client-report-server-url_2.png)
+1. **Config** ボタンをクリックして、**Report Server URL Setup** ダイアログボックスを取得します。 
 
-1. レポート サーバーの構成情報 (URL、ユーザー名、およびパスワード) を入力します。
- 1. レポート サーバーの URL は、http://host/ReportServer の形式である必要があります。たとえば、http://172.16.204.11/ReportServer です。
-1. ユーザー名は Window Server のユーザー名です。たとえば、管理者。
- 1. パスワードは Window Server ユーザーのパスワードです。たとえば、123456 です。
- 1. ドメインのデフォルト値は null です。
-1. クリック**テスト**ボタンをクリックして構成情報を確認します。
-1. クリック**セーブ**レポート サーバーの構成情報を保存します。
+![todo:image_alt_text](configuring-aspose-cells-reportingservices-client-report-server-url_2.png)
 
-![todo:画像_代替_文章](configuring-aspose-cells-reportingservices-client-report-server-url_3.png)
+1. レポートサーバーの構成情報(URL、ユーザー名、パスワード)を入力します。
+   1. レポートサーバーURL は http://host/ReportServer の形式でなければなりません。例: http://172.16.204.11/ReportServer。
+   1. ユーザー名はWindow Serverのユーザー名です。例: Administrator。
+   1. パスワードはWindow Serverのユーザーパスワードです。例: 123456。
+   1. デフォルト値はnullです。
+1. 構成情報をチェックするために **Test** ボタンをクリックします。
+1. **保存** をクリックして、レポートサーバーの構成情報を保存します。
+
+![todo:image_alt_text](configuring-aspose-cells-reportingservices-client-report-server-url_3.png)
 
 
 
 
-1. クリック**変更**ボタンをクリックして構成情報を変更します。
+1. 構成情報を修正するには **Modify** ボタンをクリックします。

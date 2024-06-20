@@ -1,22 +1,25 @@
-﻿---
-title: GridDesktop のデフォルトのフォントとフォントの色
+---
+title: GridDesktop のデフォルトのフォントおよびフォントの色
 type: docs
 weight: 70
-url: /ja/net/default-font-and-font-color-of-the-griddesktop/
+url: /ja/net/aspose-cells-griddesktop/default-font-and-font-color-of-the-griddesktop/
+keywords: GridDesktop で行または列のフォント、色を変更する
+description: この記事では、GridDesktop のデフォルトのフォントおよびフォントの色について紹介しています。
 ---
-## **考えられる使用シナリオ**
-GridDesktop のデフォルトのフォントとフォントの色を変更したい場合があります。この目的のために、次の 2 つのプロパティを使用してください。必要に応じて、設計時または実行時にこれらのプロパティにアクセスできます。
+
+## **可能な使用シナリオ**
+時々、GridDesktopのデフォルトのフォントとフォントの色を変更したいことがあります。この目的のために、次の2つのプロパティを使用してください。これらのプロパティには、必要に応じてデザイン時または実行時にアクセスできます。
 
 - GridDesktop.DefaultCellFont
 - GridDesktop.DefaultCellFontColor
-## **設計時にデフォルトのフォントとフォントの色を変更する**
-次のスクリーンショットは、設計時に GridDesktop のデフォルトのフォントとフォントの色を変更する方法を示しています。
+## **デザイン時にデフォルトのフォントとフォントの色を変更する**
+次のスクリーンショットは、GridDesktopのデフォルトのフォントとフォントの色をデザイン時に変更する方法を示しています。
 
-![todo:画像_代替_文章](default-font-and-font-color-of-the-griddesktop_1.png)
-## **実行時にデフォルトのフォントとフォントの色を変更する**
-次のサンプル コードでは、実行時に GridDesktop の既定のフォントとフォントの色を変更する方法について説明します。
+![todo:image_alt_text](default-font-and-font-color-of-the-griddesktop_1.png)
+## **ランタイムでデフォルトのフォントとフォントの色を変更する**
+次のサンプルコードは、GridDesktopのランタイムでデフォルトのフォントとフォントの色を変更する方法を説明しています。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Assign your desired Font object to DefaultCellFont property
 

@@ -1,23 +1,24 @@
-﻿---
+---
 title: Mise en page
 type: docs
 weight: 80
 url: /fr/reportingservices/page-setup/
 ---
+
 La configuration comprend deux sections et 8 types de propriétés de mise en page. Ces propriétés incluent le nom, l'index, FitToPagesTall, FitToPagesWide, TopMargin, FooterMargin, HeaderMargin, BottomMargin, LeftMargin et RightMargin.
 
-- **Nom** représente le nom du rapport, il représente le rapport entier lorsque le nom est vide.
-- **indice** représente l'index de feuille de calcul du fichier Excel exporté.
-- **FitToPagesTall** représente le nombre de pages de hauteur sur lesquelles la feuille de calcul sera mise à l'échelle lors de son impression.
-- **FitToPagesWide** représente le nombre de pages de largeur sur lesquelles la feuille de calcul sera mise à l'échelle lors de son impression.
-- **Marge de pied de page** représente la distance entre le bas de la page et le pied de page, en centimètres.
-- **Marge d'en-tête** représente la distance entre le haut de la page et l'en-tête, en centimètres.
-- **Marge de gauche** représente la taille de la marge de gauche, en centimètres.
-- **Marge droite** représente la taille de la marge droite, en centimètres.
-- **Marge supérieure** représente la taille de la marge supérieure, en centimètres.
-- **Marge inférieure**représente la taille de la marge inférieure, en centimètres.
+- **nom** représente le nom du rapport, il représente l'ensemble du rapport lorsque le nom est vide.
+- **index** représente l'index de la feuille de calcul du fichier Excel exporté.
+- **FitToPagesTall** représente le nombre de pages en hauteur que la feuille de calcul sera mise à l'échelle lors de l'impression.
+- **FitToPagesWide** représente le nombre de pages en largeur que la feuille de calcul sera mise à l'échelle lors de l'impression.
+- **FooterMargin** représente la distance entre le bas de la page et le pied de page, en unité de centimètres.
+- **HeaderMargin** représente la distance entre le haut de la page et l'en-tête, en unité de centimètres.
+- **LeftMargin** représente la taille de la marge gauche, en unité de centimètres.
+- **RightMargin** représente la taille de la marge droite, en unité de centimètres.
+- **TopMargin** représente la taille de la marge supérieure, en unité de centimètres.
+- **BottomMargin** représente la taille de la marge inférieure, en unité de centimètres.
 
-Exemple de configuration PageSetup :
+Exemple de configuration de mise en page :
 
 {{code  lang="xml" }}
 <PageSetup>

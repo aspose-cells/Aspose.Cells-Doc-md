@@ -1,18 +1,19 @@
 ---
-title: Einfügen und Löschen von Zeilen und Spalten in PHP
+title: Ein und Löschen von Zeilen und Spalten in PHP
 type: docs
 weight: 60
 url: /de/java/inserting-and-deleting-rows-and-columns-in-php/
-description: Erfahren Sie, wie Sie Zeilen und Spalten über die APIs Aspose.Cells for PHP via Java einfügen und löschen.
-keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Columns using PHP, PHP Delete Rows and Columns, Insert Rows or Columns with PHP, Delete Rows or Columns via PHP.
+description: Erfahren Sie, wie Sie Zeilen und Spalten durch die Aspose.Cells für PHP via Java APIs einfügen und löschen.
+keywords: Wie man Zeilen und Spalten in PHP einfügt und löscht, Zeilen und Spalten mit PHP einfügt, PHP Zeilen und Spalten löscht, Zeilen oder Spalten mit PHP einfügt, Zeilen oder Spalten über PHP löscht.
 ---
-##  **Aspose.Cells – Zeilen/Spalten verwalten**
-###  **Einfügen einer Zeile**
-Fügen Sie an einer beliebigen Stelle eine Zeile ein, indem Sie die Methode insertRows der Sammlung Cells aufrufen. Die Methode insertRows verwendet den Index der Zeile, in die die neue Zeile eingefügt wird, als erstes Argument und die Anzahl der einzufügenden Zeilen als zweites Argument.
+
+## **Aspose.Cells - Verwalten von Zeilen/Spalten**
+### **Einlegen einer Zeile**
+Fügen Sie eine Zeile an einer beliebigen Stelle ein, indem Sie die Methode insertRows der Cells-Sammlung aufrufen. Die Methode insertRows nimmt den Index der Zeile, in die die neue Zeile eingefügt werden soll, als ersten Argument und die Anzahl der einzufügenden Zeilen als zweites Argument.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_row($dataDir)
 
@@ -39,15 +40,15 @@ Fügen Sie an einer beliebigen Stelle eine Zeile ein, indem Sie die Methode inse
 }  
 
 {{< /highlight >}}
-###  **Mehrere Zeilen einfügen**
-Um mehrere Zeilen in das Arbeitsblatt einzufügen, rufen Sie die Methode insertRows der Sammlung Cells auf. Die InsertRows-Methode benötigt zwei Parameter:
+### **Einfügen mehrerer Zeilen**
+Um mehrere Zeilen in das Arbeitsblatt einzufügen, rufen Sie die Methode insertRows der Cells-Sammlung auf. Die Methode insertRows nimmt zwei Parameter:
 
 - Zeilenindex, der Index der Zeile, ab der die neuen Zeilen eingefügt werden.
-- Anzahl der Zeilen, Gesamtzahl der Zeilen, die eingefügt werden müssen.
+- Anzahl der Zeilen, Gesamtanzahl der Zeilen, die eingefügt werden müssen.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_multiple_rows($dataDir)
 
@@ -74,15 +75,15 @@ Um mehrere Zeilen in das Arbeitsblatt einzufügen, rufen Sie die Methode insertR
 }
 
 {{< /highlight >}}
-###  **Eine Zeile löschen**
-Um eine Zeile an einer beliebigen Stelle zu löschen, rufen Sie die Methode deleteRows der Sammlung Cells auf. Die Methode „DeleteRows“ benötigt zwei Parameter:
+### **Löschen einer Zeile**
+Um eine Zeile an einer beliebigen Stelle zu löschen, rufen Sie die Methode deleteRows der Cells Sammlung auf. Die deleteRows Methode nimmt zwei Parameter:
 
-- Zeilenindex, der Index der Zeile, aus der die Zeilen gelöscht werden.
-- Anzahl der Zeilen, Gesamtzahl der Zeilen, die gelöscht werden müssen.
+- Zeilenindex, der Index der Zeile, ab der die Zeilen gelöscht werden.
+- Anzahl der Zeilen, Gesamtanzahl der Zeilen, die gelöscht werden müssen.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_row($dataDir)
 
@@ -109,15 +110,15 @@ Um eine Zeile an einer beliebigen Stelle zu löschen, rufen Sie die Methode dele
 }
 
 {{< /highlight >}}
-###  **Mehrere Zeilen löschen**
-Um mehrere Zeilen aus einem Arbeitsblatt zu löschen, rufen Sie die Methode deleteRows der Sammlung Cells auf. Die Methode „DeleteRows“ benötigt zwei Parameter:
+### **Mehrere Zeilen löschen**
+Um mehrere Zeilen aus einem Arbeitsblatt zu löschen, rufen Sie die Methode deleteRows der Cells Sammlung auf. Die deleteRows Methode nimmt zwei Parameter:
 
-- Zeilenindex, der Index der Zeile, aus der die Zeilen gelöscht werden.
-- Anzahl der Zeilen, Gesamtzahl der Zeilen, die gelöscht werden müssen.
+- Zeilenindex, der Index der Zeile, ab der die Zeilen gelöscht werden.
+- Anzahl der Zeilen, Gesamtanzahl der Zeilen, die gelöscht werden müssen.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_multiple_rows($dataDir)
 
@@ -144,15 +145,15 @@ Um mehrere Zeilen aus einem Arbeitsblatt zu löschen, rufen Sie die Methode dele
 }
 
 {{< /highlight >}}
-###  **Einfügen einer Spalte**
-Entwickler können auch an jeder beliebigen Stelle eine Spalte in das Arbeitsblatt einfügen, indem sie die Methode insertColumns der Sammlung Cells aufrufen. Die Methode insertColumns benötigt zwei Parameter:
+### **Einfügen einer Spalte**
+Entwickler können auch eine Spalte in das Arbeitsblatt an einer beliebigen Stelle einfügen, indem sie die insertColumns Methode der Cells Sammlung aufrufen. Die insertColumns Methode nimmt zwei Parameter:
 
-- Spaltenindex, der Index der Spalte, ab der die Spalte eingefügt wird
-- Anzahl der Spalten, Gesamtzahl der Spalten, die eingefügt werden müssen
+- Spaltenindex, der Index der Spalte, von der die Spalte eingefügt werden soll.
+- Anzahl der Spalten, Gesamtanzahl der Spalten, die eingefügt werden müssen.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_column($dataDir)
 
@@ -179,16 +180,16 @@ Entwickler können auch an jeder beliebigen Stelle eine Spalte in das Arbeitsbla
 }
 
 {{< /highlight >}}
-###  **Eine Spalte löschen**
-Um eine Spalte an einer beliebigen Stelle aus dem Arbeitsblatt zu löschen, rufen Sie die Methode deleteColumns der Sammlung Cells auf. Die deleteColumns-Methode akzeptiert die folgenden Parameter:
+### **Löschen einer Spalte**
+Um eine Spalte aus dem Arbeitsblatt an einer beliebigen Stelle zu löschen, rufen Sie die Methode deleteColumns der Cells Sammlung auf. Die deleteColumns Methode nimmt die folgenden Parameter:
 
-- Spaltenindex, der Index der Spalte, aus der die Spalte gelöscht wird.
-- Anzahl der Spalten, Gesamtzahl der Spalten, die gelöscht werden müssen.
-- Zellen verschieben, boolescher Parameter, der angibt, ob die Zellen nach dem Löschen nach links verschoben werden sollen.
+- Spaltenindex, der Index der Spalte, von der die Spalte gelöscht werden soll.
+- Anzahl der Spalten, Gesamtanzahl der Spalten, die gelöscht werden müssen.
+- Zellen verschieben, Boolescher Parameter, um anzuzeigen, ob die Zellen nach dem Löschen nach links verschoben werden sollen.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_column($dataDir)
 
@@ -215,7 +216,7 @@ Um eine Spalte an einer beliebigen Stelle aus dem Arbeitsblatt zu löschen, rufe
 }  
 
 {{< /highlight >}}
-##  **Laden Sie Running Code herunter**
- Herunterladen**Zeilen/Spalten verwalten (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+**Zeilen/Spalten verwalten (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunterladen:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

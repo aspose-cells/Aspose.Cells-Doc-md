@@ -1,21 +1,22 @@
 ---
-title: Rapor filtre sayfaları seçeneğini göster
+title: Rapor Filtre Sayfalarını Göster Seçeneği
 type: docs
 weight: 110
 url: /tr/python-net/show-report-filter-pages-option/
-description: Bu makalede, Aspose.Cells for Python via .NET ile rapor filtre sayfaları seçeneğinin nasıl gösterileceği gösterilmektedir.
-keywords: Show report filter pages option
+description: Bu makale, Aspose.Cells for Python via .NET ile Rapor Filtre Sayfalarını Göster seçeneği göstermektedir.
+keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, Rapor Filtre Sayfalarını Göster seçeneği.
 ---
-##  **Rapor filtre sayfaları seçeneğini göster**
-Excel, pivot tablolar oluşturmayı, rapor filtreleri eklemeyi ve "Rapor Filtresi Sayfalarını Göster" seçeneğini etkinleştirmeyi destekler. Aspose.Cells for Python via .NET ayrıca oluşturulan pivot tabloda "Rapor Filtresi Sayfalarını Göster" seçeneğini etkinleştirmek için bu özelliği desteklemektedir. Excel'de "Rapor Filtre Sayfalarını Göster" seçeneğini gösteren ekran aşağıdadır.
 
-![yapılacak şey:image_alt_text](show-report-filter-pages-option_1.png)
+## **Rapor Filtre Sayfalarını Gösterme seçeneği Nasıl Gösterilir**
+Excel, pivot tabloları oluşturmayı, rapor filtreleri eklemeyi ve "Rapor Filtre Sayfalarını Göster" seçeneğini etkinleştirmeyi destekler. Aspose.Cells for Python via .NET, oluşturulan pivot tablosunda "Rapor Filtre Sayfalarını Göster" seçeneğini etkinleştirmek için bu özelliği destekler. Aşağıda, Excel'de "Rapor Filtre Sayfalarını Göster" seçeneğini etkinleştiren ekran görüntüsü bulunmaktadır.
 
-Örnek kodu test etmek için örnek kaynak dosyası ve çıktı dosyaları buradan indirilebilir:
+![todo:image_alt_text](show-report-filter-pages-option_1.png)
 
-` `[Kaynak Excel Dosyası](81920786.xlsx) 
+Örnek kaynak dosyası ve çıktı dosyaları test etmek için buradan indirilebilir:
 
-[Excel Dosyasının Çıktısı](81920787.xlsx)
+` ` [Kaynak Excel Dosyası](81920786.xlsx) 
+
+[Çıktı Excel Dosyası](81920787.xlsx)
 
 
 

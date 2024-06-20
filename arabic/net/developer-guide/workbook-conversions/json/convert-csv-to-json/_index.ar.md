@@ -1,29 +1,31 @@
-﻿---
-title: حوّل CSV إلى JSON
+---
+title: تحويل CSV إلى JSON
 type: docs
 weight: 220
 url: /ar/net/convert-csv-to-json/
-description: قم بتحويل ملف CSF إلى JSON باستخدام سهل الاستخدام Aspose.Cells for .NET API.
-keywords: Convert, Convert CVS to JSON, CSV to JSON, CSV, JSON, Convert CSV to JSON CSharp, c# code to convert CSV to JSON
+description: قم بتحويل ملف CSF إلى JSON عن طريق استخدام واجهة الاستخدام البسيطة Aspose.Cells for .NET API.
+keywords: تحويل، تحويل الملفات CVS إلى JSON، CSV إلى JSON، CSV، JSON، تحويل CSV إلى JSON بلغة CSharp، كود c# لتحويل CSV إلى JSON
 ---
-## **حوّل CSV إلى JSON**
 
-يدعم Aspose.Cells تحويل CSV إلى JSON. لهذا ، يوفر API**[ExportRangeToJsonOptions] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**و**[JsonUtility] (https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)** الطبقات. ال**[ExportRangeToJsonOptions] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**توفر الفئة خيارات لتصدير النطاق إلى JSON. ملف**[ExportRangeToJsonOptions] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**فئة لها الخصائص التالية.
+## **تحويل CSV إلى JSON**
 
-- **[ExportAsString] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring)**: يؤدي هذا إلى تصدير قيمة سلسلة الخلايا إلى JSON.
-- **[HasHeaderRow] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow)**: يشير هذا إلى ما إذا كان النطاق يحتوي على صف رأس.
-- **[مسافة بادئة] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent)**: يشير إلى المسافة البادئة.
+تدعم Aspose.Cells تحويل CSV إلى JSON. لهذا الغرض، توفر واجهة البرمجة [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) وواجهة البرمجة [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility). توفر واجهة البرمجة [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) خيارات لتصدير المجال إلى JSON. تحتوي واجهة البرمجة [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) على الخصائص التالية.
 
-ال**[JsonUtility] (https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**تقوم الفئة بتصدير JSON باستخدام مجموعة اختيارات التصدير مع الامتداد**[ExportRangeToJsonOptions] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**صف دراسي.
+- [**ExportAsString**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring): يقوم بتصدير قيمة السلسلة للخلايا إلى JSON.
+- [**HasHeaderRow**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow): يشير إذا كانت المدى يحتوي على صف رأسي.
+- [**Indent**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent): يشير إلى التنسيق.
 
-يوضح نموذج التعليمات البرمجية التالي استخدام**[ExportRangeToJsonOptions] (https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**و**[JsonUtility] (https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)** فئات لتحميل[المصدر CSV ملف](104398879.csv)ويطبع إخراج JSON في وحدة التحكم.
+تقوم الفئة [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) بتصدير JSON باستخدام خيارات التصدير المعينة باستخدام الفئة [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions).
 
-### **عينة من الرموز**
+يُظهر الكود العيني التالي استخدام واجهة البرمجة [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions) وواجهة البرمجة [**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) لتحميل [ملف CSV المصدر](104398879.csv) ويطبع الإخراج JSON في وحدة التحكم.
+
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertCsvToJson-1.cs" >}}
 
-### **إخراج وحدة التحكم**
-```json
+### **مخرجات الوحدة**
+{{< highlight java >}}
+
 [
 {
 "id": 1,
@@ -56,4 +58,5 @@ keywords: Convert, Convert CVS to JSON, CSV to JSON, CSV, JSON, Convert CSV to J
 "postalCode": 394221
 }
 ]
-```
+
+{{< /highlight >}}

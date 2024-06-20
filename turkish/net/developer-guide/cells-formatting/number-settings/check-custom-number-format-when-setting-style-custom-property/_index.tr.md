@@ -1,19 +1,20 @@
 ---
-title: Style.Custom Özelliğini Ayarlarken Özel Sayı Formatını Kontrol Edin
-description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmaya yönelik, stil oluşturma sırasında özel sayı biçimlerinin kontrol edilmesini destekleyen bir .NET kitaplığıdır. Bu makale, stilin doğru olduğundan emin olmak amacıyla özel sayı biçimlerini kontrol etmek için Aspose.Cells kitaplığını nasıl kullanacağınızı gösterecektir.
-keywords: Aspose.Cells, NET libraries, spreadsheets, styling, custom number formatting, checking, validation
+title: Stil.Custom Özelliğini Ayarlarken Özel Sayı Biçimini Kontrol Edin
+description: Aspose.Cells, elektronik tablo dosyalarıyla çalışmak için bir .NET kütüphanesidir, ve stili belirlerken özel sayı biçimlerini kontrol etmeyi destekler. Bu makale, stili doğrulamak için Aspose.Cells kütüphanesini nasıl kullanacağınızı gösterecektir.
+keywords: Aspose.Cells, NET kütüphaneleri, elektronik tablolar, stil, özel sayı biçimi, kontrol, doğrulama
 type: docs
 weight: 170
 url: /tr/net/check-custom-number-format-when-setting-style-custom-property/
 ---
-##  **Olası Kullanım Senaryoları**
 
- Geçersiz özel sayı biçimini atarsanız[**Stil.Özel**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) özelliği, o zaman Aspose.Cells herhangi bir istisna atmayacak. Ancak Aspose.Cells'in atanan özel numara biçiminin geçerli olup olmadığını kontrol etmesini istiyorsanız lütfen[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat) özelliği *true** olarak değiştirin.
+## **Olası Kullanım Senaryoları**
 
-##  **Style.Custom özelliğini ayarlarken Özel Sayı Formatını kontrol edin**
+Eğer [**Style.Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) özelliğine geçersiz bir özel sayı biçimi atamışsanız, Aspose.Cells herhangi bir istisna fırlatmaz. Ancak Aspose.Cells'ın atanan özel sayı biçiminin geçerli olup olmadığını kontrol etmesini istiyorsanız, lütfen [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat) özelliğini **true** olarak ayarlayın.
 
- Aşağıdaki örnek kod, geçersiz bir özel sayı biçimini şuna atar:[**Stil.Özel**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) mülk. Çünkü zaten ayarladık[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat) özelliği *true** olarak değiştirir, bu nedenle örneğin Geçersiz sayı biçimi gibi bir istisna atar. Daha fazla yardım için lütfen kodun içindeki yorumları okuyun.
+## **Stil.Custom özelliğini ayarladığınızda özel sayı biçimine geçersiz bir özel sayı biçimi atayan aşağıdaki örnek kod. {1} özelliğini zaten **true** olarak ayarladığımız için, bu nedenle Geçersiz özel sayı biçimi gibi bir istisna fırlatır. Daha fazla yardım için kodun içindeki yorumları okuyun.**
 
-##  **Basit kod**
+Aşağıdaki örnek kod, [**Style.Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) özelliğine geçersiz özel bir sayı biçimi atar. [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat) özelliğini zaten **true** olarak ayarladığımız için, bunun sonucunda geçersiz sayı biçimi gibi bir istisna fırlatır. Daha fazla yardım için kod içindeki yorumları okuyun.
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CheckCustomFormatPattern.cs" >}}

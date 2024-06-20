@@ -1,27 +1,28 @@
-﻿---
-title: フォントに上付きおよび下付き効果を適用する
+---
+title: フォントに上付きおよび下付きの効果を適用する
 type: docs
 weight: 80
 url: /ja/net/apply-superscript-and-subscript-effects-on-fonts/
-description: Aspose.Cells for .NET API を使用して、Excel のテキストに上付き文字と下付き文字の効果を適用する C# コード。
-keywords: excel superscript c#, excel subscript c#, excel superscript and subscript c#, insert subscript and superscript in excel c#, add subscript and superscript in excel c#, add superscript and subscript excel c#, add superscript excel c#, add subscript excel c#
+description: C# コードを使用して、Aspose.Cells for .NET API を使ってエクセルのテキストに上付き文字と下付き文字の効果を適用する
+keywords: excel 上付き文字 c#、excel 下付き文字 c#、excel 上付き文字と下付き文字 c#、excel に下付き文字と上付き文字を挿入 c#、excel に下付き文字と上付き文字を追加 c#、excel に上付き文字と下付き文字を追加 c#、excel に上付き文字を追加 c#、excel に下付き文字を追加 c#
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells は、上付き文字 (ベースラインより上のテキスト) および下付き文字 (ベースラインより下のテキスト) 効果をテキストに適用する機能を提供します。
+Aspose.Cellsは、テキストに上付き（基線の上）および下付き（基線の下）の効果を適用する機能を提供します。
 
 {{% /alert %}}
 
-## **上付き文字と下付き文字の操作**
+## **上付きおよび下付きの操作**
 
-を設定して、上付き文字効果を適用します。[**スタイル.フォント**](https://reference.aspose.com/cells/net/aspose.cells/font)オブジェクトの[**上付き文字**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript)プロパティへ**真実**.添え字を適用するには、[**スタイル.フォント**](https://reference.aspose.com/cells/net/aspose.cells/font)オブジェクトの[**IsSubscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript)プロパティへ**真実**.
+上付き文字の効果を適用するには、[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) オブジェクトの [**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) プロパティを **true** に設定します。下付き文字を適用するには、[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) オブジェクトの [**IsSubscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) プロパティを **true** に設定します。
 
-次のコード例は、上付き文字と下付き文字をテキストに適用する方法を示しています。
+以下のコード例では、テキストに上付き文字と下付き文字を適用する方法を示しています。
 
-### C# テキストに上付き文字効果を適用するコード
+### テキストに上付き文字の効果を適用する C# コード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSuperscripteffect-1.cs" >}}
 
-### C# テキストに下付き効果を適用するコード
+### テキストに下付き文字の効果を適用する C# コード
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}

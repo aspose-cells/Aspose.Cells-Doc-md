@@ -1,14 +1,15 @@
-﻿---
-title: Установите предустановленный стиль WordArt для текста фигуры
+---
+title: Установить предварительный стиль WordArt для текста формы
 type: docs
 weight: 1000
 url: /ru/java/set-preset-wordart-style-to-the-text-of-the-shape/
 ---
-## **Возможные сценарии использования**
- Вы можете установить предустановленный стиль WordArt для текста фигуры, используя Aspose.Cells. Пожалуйста, используйте[Настройка Шрифта.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsetting#setWordArtStyle\(int\) ) или же[FontSettingCollection.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#setWordArtStyle\(int\)методы для этой цели.
-## **Установите предустановленный стиль WordArt для текста фигуры**
- В следующем примере кода создается текстовое поле с некоторым текстом, а затем задается предустановленный стиль WordArt для его текста с помощью[Настройка Шрифта.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsetting#setWordArtStyle\(int\) ) метод. Вот как[выходной файл excel](5472538.xlsx)смотрит в Microsoft Excel.
 
-![дело:изображение_альтернативный_текст](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
+## **Возможные сценарии использования**
+Вы можете установить предварительный стиль WordArt для текста формы с помощью Aspose.Cells. Пожалуйста, используйте методы [FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsetting#setWordArtStyle\(int\)) или [FontSettingCollection.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#setWordArtStyle\(int\)) для этой цели.
+## **Установить предварительный стиль WordArt для текста формы**
+В следующем образце кода создается текстовое поле с некоторым текстом, а затем устанавливается предварительный стиль WordArt для его текста с помощью метода [FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsetting#setWordArtStyle\(int\)). Вот как выглядит [выходной файл Excel](5472538.xlsx) в Microsoft Excel.
+
+![todo:image_alt_text](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SetPresetWordArtStyle-SetPresetWordArtStyle.java" >}}

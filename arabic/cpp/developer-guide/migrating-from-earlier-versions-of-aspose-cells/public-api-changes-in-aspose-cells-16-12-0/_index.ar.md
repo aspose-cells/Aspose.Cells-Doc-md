@@ -1,23 +1,24 @@
-﻿---
-title: عام API تغييرات في Aspose.Cells 16.12.0
+---
+title: التغييرات العامة في واجهة برمجة التطبيقات العامة في Aspose.Cells 16.12.0
 type: docs
 weight: 10
 url: /ar/cpp/public-api-changes-in-aspose-cells-16-12-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 16.11.0 إلى 16.12.0 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات لـ Aspose.Cells من الإصدار 16.11.0 إلى 16.12.0 التي قد تكون مهمة لمطوري الوحدات/التطبيقات. وتشمل ليس فقط الطرق العامة الجديدة والمحدثة، والفئات المضافة والمحذوفة وما إلى ذلك، ولكن أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم الجداول المحورية**
-يدعم الإصدار الثاني من Aspose.Cells for C++ الإنشاء بالإضافة إلى معالجة الجداول المحورية. يوفر Aspose.Cells for C++ فئة IPivotTable التي تمثل كائن Pivot Table بينما تمثل IPivotTableCollection مجموعة من الجداول المحورية. يمكن الوصول إلى IPivotTableCollection عبر كائن IWorksheet ويمكن إضافة جدول Pivot Table جديد إلى المجموعة أثناء استخدام أسلوب IPivotTableCollection.Add.
+## **واجهات برمجة التطبيقات الجديدة**
+### **دعم جداول البيانات الدورانية**
+يدعم الإصدار الثاني من Aspose.Cells for C++ إنشاء وكذلك تلاعب جداول البيانات الدورانية. Aspose.Cells for C++ توفر فئة IPivotTable التي تمثل كائن جدول بيانات دوراني في حين أن IPivotTableCollection تمثل مجموعة من جداول البيانات الدورانية. يمكن الوصول إلى IPivotTableCollection عبر كائن IWorksheet ويمكن إضافة جدول بيانات دوراني جديد إلى المجموعة باستخدام طريقة IPivotTableCollection.Add.
 
- يوضح مقتطف الكود التالي مدى سهولة استخدام Aspose.Cells for C++ API[إنشاء جداول محورية من البداية](/cells/ar/cpp/create-pivot-table/).
+توضح قصاصة الكود التالية مدى سهولة استخدام Aspose.Cells for C++ API لـ [إنشاء جداول البيانات الدورانية من البداية](/cells/ar/cpp/create-pivot-table/).
 
-**C ++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -85,13 +86,13 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 
-إلى جانب إنشاء جداول محورية جديدة ، تدعم واجهات برمجة التطبيقات Aspose.Cells for C++ أيضًا معالجة الجداول المحورية الموجودة. يدعم API حاليًا تغيير البيانات في النطاق المصدر للجدول المحوري ثم تحديثه. بمجرد معالجة Pivot Table كما هو مطلوب ، من الأفضل استخدام أساليب IPivotTable.RefreshData و IPivotTable.CalculateData لتحديث Pivot Table مقابل مصدر البيانات المحدث.
+بالإضافة إلى إنشاء جداول بيانات دورانية جديدة ، تدعم APIs Aspose.Cells for C++ أيضًا تلاعب جداول البيانات الدورانية الحالية. تدعم الواجهة البرمجية حاليًا تغيير البيانات في نطاق المصدر لجدول البيانات الدوراني ثم تحديثه. بمجرد أن تم تلاعب جدول البيانات الدوراني كما هو مطلوب ، من الأفضل استخدام طرق IPivotTable.RefreshData و IPivotTable.CalculateData لتحديث جدول البيانات الدوراني ضد مصدر البيانات المحدث.
 
-يستخدم مقتطف التعليمات البرمجية التالي Aspose.Cells for C++ API إلى[معالجة جدول محوري موجود](/cells/ar/cpp/manipulate-pivot-table/).
+يستخدم القصاصة البرمجية التالية واجهة برمجة التطبيقات Aspose.Cells for C++ API لـ [تلاعب جدول بيانات دوراني موجود](/cells/ar/cpp/manipulate-pivot-table/).
 
-**C ++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -132,8 +133,8 @@ printf("After refreshing Pivot Table value of cell H8: %s\r\n%", val->charValue(
 wb->Save(outputPath);
 
 {{< /highlight >}}
-### **دعم قواعد التنسيق الشرطي**
- يوفر Aspose.Cells for C++ الآن إمكانية إضافة قواعد التنسيق الشرطي إلى ورقة العمل عن طريق عرض فئة IFormatCondition. توفر الفئة المذكورة أعلاه كذلك الطرق التالية لـ[تطبيق قواعد التنسيق الشرطي](/cells/ar/cpp/apply-conditional-formatting-in-worksheet/) حسب متطلبات التطبيق.
+### **دعم قواعد التنسيق المشروط**
+توفر Aspose.Cells for C++ الآن القدرة على إضافة قواعد التنسيق المشروط إلى ورقة العمل من خلال فتح فئة IFormatCondition. توفر الفئة المذكورة أيضًا الطرق التالية لـ [تطبيق قواعد التنسيق المشروط](/cells/ar/cpp/apply-conditional-formatting-in-worksheet/) وفقًا لمتطلبات التطبيق.
 
 - IFormatCondition.GetIAboveAverage
 - IFormatCondition.GetIColorScale
@@ -141,11 +142,11 @@ wb->Save(outputPath);
 - IFormatCondition.GetIIconSet
 - IFormatCondition.GetITop10
 
-يوضح نموذج التعليمات البرمجية التالي كيفية إضافة قاعدة تنسيق شرطي من النوع Cell القيمة على الخلايا A1 و B2.
+يوضح الكود النموذجي التالي كيفية إضافة قاعدة تنسيق مشروط من نوع قيمة الخلية على الخلايا A1 و B2.
 
-**C ++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an empty workbook
 
@@ -190,12 +191,12 @@ ws->GetICells()->GetObjectByIndex(new String("A10"))->PutValue(msgStr);
 wb->Save(outputPath);
 
 {{< /highlight >}}
-### **دعم الارتباطات التشعبية**
- Aspose.Cells for C++ يدعم الآن[إضافة ارتباطات تشعبية إلى خلايا ورقة العمل](/cells/ar/cpp/add-hyperlinks-to-the-cells/)من أجل توفير هذه الميزة ، كشف Aspose.Cells for C++ 16.12.0 فئة IHyperlinkCollection التي يمكن الوصول إليها عبر كائن IWorksheet بينما يمكن إضافة ارتباط تشعبي إلى المجموعة أثناء استخدام طريقة IHyperlinkCollection.Add كما هو موضح أدناه.
+### **دعم الروابط التشعبية**
+يدعم الإصدار Aspose.Cells for C++ الآن [إضافة الروابط التشعبية لخلايا جدول البيانات](/cells/ar/cpp/add-hyperlinks-to-the-cells/). ومن أجل توفير هذه الميزة، قام الإصدار 16.12.0 من Aspose.Cells for C++ بتعريض فئة IHyperlinkCollection التي يمكن الوصول إليها عبر كائن IWorksheet، حيث يمكن إضافة رابط تشعبي إلى المجموعة باستخدام طريقة IHyperlinkCollection.Add كما هو موضح أدناه.
 
-**C ++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a new workbook
 
@@ -225,18 +226,18 @@ wb->Save(dirPath->Append(new String("output.xlsx")), SaveFormat_Xlsx);
 
 {{< /highlight >}}
 ### **دعم خصائص المستند**
-يدعم تطبيق Excel نوعين من خصائص المستند كما هو موضح أدناه.
+تدعم تطبيق Excel نوعين من خصائص المستند كما هو مدرج أدناه.
 
-- الخصائص المحددة من قبل النظام (المضمنة): تحتوي الخصائص المضمنة على معلومات عامة حول المستند مثل عنوان المستند واسم المؤلف وإحصائيات المستند وما إلى ذلك.
-- الخصائص المعرفة من قبل المستخدم (المخصصة): الخصائص المخصصة التي يحددها المستخدم النهائي في شكل زوج قيمة الاسم.
+- الخصائص المعرفة مسبقاً (المضمنة): تحتوي الخصائص المضمنة على معلومات عامة حول المستند مثل عنوان المستند، اسم الكاتب، إحصاءات المستند وغيرها.
+- الخصائص المعرفة بواسطة المستخدم (المخصصة): تحددها الخصائص المخصصة التي يقوم المستخدم بتعريفها في شكل زوج اسم قيمة.
 
- Aspose.Cells for C++ يدعم[إدارة كلا النوعين من خصائص المستندات المضمنة والمخصصة](/cells/ar/cpp/managing-document-properties/)Aspose.Cells 'فئة IWorkbook تمثل ملف Excel. من أجل الوصول إلى خصائص المستند المضمنة ، استخدم IWorkbook.GetBuiltInDocumentProperties بينما يمكن الوصول إلى خصائص المستند المخصصة أثناء استخدام أسلوب IWorkbook.GetCustomDocumentProperties.
+يدعم الإصدار Aspose.Cells for C++ [إدارة كل من أنواع خصائص المستند، المضمنة والمخصصة](/cells/ar/cpp/managing-document-properties/). فئة IWorkbook في Aspose.Cells تمثل ملف Excel. من أجل الوصول إلى خصائص المستند المضمنة، استخدم طريقة IWorkbook.GetBuiltInDocumentProperties بينما يمكن الوصول إلى خصائص المستند المخصصة باستخدام طريقة IWorkbook.GetCustomDocumentProperties.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل نموذج جدول بيانات موجود ويقرأ خصائص المستند المضمنة مثل العنوان والموضوع والخصائص المخصصة حسب الاسم MyCustom1.
+الكود النموذجي التالي يحمل جدول بيانات عينة موجود مسبقًا ويقرأ خصائص المستند المضمنة مثل العنوان والموضوع والخصائص المخصصة بالاسم MyCustom1.
 
-**C ++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -285,14 +286,14 @@ wb->GetICustomDocumentProperties()->AddIDocumentProperty(strCustomPropName, strC
 wb->Save(outputPath);
 
 {{< /highlight >}}
-### **دعم ListObjects**
- جدول Excel عبارة عن مصفوفة من الخلايا تحتوي على أي عدد من الصفوف والأعمدة بينما يشار إلى نفس الجدول على أنه كائن قائمة في واجهات برمجة التطبيقات Aspose.Cells for C++. تحتوي مساحة الاسم Aspose :: Cells :: Tables على كافة الفئات الضرورية التي تتعامل مع العمليات المتعلقة بكائنات القائمة. أكثر الفئات الجديرة بالذكر هي IListObject و IListObjectCollection التي تسمح بذلك[إنشاء وتنسيق قائمة كائنات](/cells/ar/cpp/create-and-format-table/) وهكذا.
+### **دعم لجداول البيانات**
+يعتبر جدول Excel مصفوفة من الخلايا تحتوي على عدد من الصفوف والأعمدة، في حين يشار إلى نفس الجدول بأنه كائن قائمة في واجهات برمجة التطبيقات (APIs) لـ Aspose.Cells for C++. فضاء الاسم Aspose::Cells::Tables يحتوي على جميع الفئات الضرورية التي تتعامل مع العمليات المتعلقة بجداول البيانات. من بين أبرز الفئات تذكير فئات IListObject وIListObjectCollection والتي تسمح بـ [إنشاء وتنسيق جداول البيانات](/cells/ar/cpp/create-and-format-table/) وغيرها.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل نموذج ملف جدول البيانات ثم يقوم بإنشاء "كائن قائمة" (جدول) في نطاق A1: H10 ، ثم استخدم طرقه المختلفة لإظهار الإجمالي الفرعي.
+الكود النموذجي التالي يقوم بتحميل ملف جدول بيانات عينة ثم يقوم بإنشاء كائن قائمة (جدول) في نطاق A1:H10، ثم يستخدم طرقه المختلفة لإظهار الإجمالي الفرعي.
 
-**C ++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -335,14 +336,14 @@ lo->GetIListColumns()->GetObjectByIndex(4)->SetTotalsCalculation(TotalsCalculati
 wb->Save(outputPath);
 
 {{< /highlight >}}
-### **دعم تجميع الصف والعمود**
- يمكن استخدام Aspose.Cells for C++ API لتجميع الصفوف والأعمدة أثناء استخدام فئة ICells والتي تمثل أساسًا مجموعة كل الخلايا في ورقة عمل معينة. تقدم فئة ICells أساليب GroupRows و GroupColumns من أجل[مجموعة الصفوف والأعمدة](/cells/ar/cpp/group-rows-and-columns-of-worksheet/) على التوالى.
+### **الدعم لتجميع الصفوف والأعمدة**
+يمكن استخدام واجهات برمجة التطبيقات (APIs) لـ Aspose.Cells for C++ لتجميع الصفوف والأعمدة باستخدام فئة ICells والتي تمثل في الأساس مجموعة جميع الخلايا في الورقة العمل المعطاة. تقدم فئة ICells طرق GroupRows وGroupColumns من أجل [تجميع الصفوف والأعمدة](/cells/ar/cpp/group-rows-and-columns-of-worksheet/) على التوالي.
 
-يوضح مقتطف الشفرة التالي سيناريو الاستخدام البسيط للطريقتين المذكورتين أعلاه.
+الكود المقتطف التالي يوضح سيناريو الاستخدام البسيط لكل من الطرق المذكورة سابقًا.
 
-**C ++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an empty workbook
 
@@ -421,14 +422,14 @@ grpCols->GetICells()->GroupColumns(5, 7);
 wb->Save(outputPath);
 
 {{< /highlight >}}
-### **دعم الثيمات**
-Aspose.Cells for C++ تدعم واجهات برمجة التطبيقات الآن استخدام ومعالجة السمات التي يوفرها تطبيق Excel.
+### **الدعم للسمات**
+تدعم الآن واجهات برمجة التطبيقات برقم Aspose.Cells for C++ استخدام وتلاعب السمات المقدمة من تطبيق Excel.
 #### **القدرة على تطبيق ألوان السمة المخصصة**
- يحاول المقتطف التالي[قم بإنشاء نسق جديد بألوان مخصصة](/cells/ar/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/) للمصنف.
+يحاول المقتطف التالي [إنشاء سمة جديدة بألوان مخصصة](/cells/ar/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/) لدفتر العمل.
 
-**C ++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook
 
@@ -495,12 +496,12 @@ wb->CustomTheme(new String("AnyTheme"), clrs);
 wb->Save(outputPath);
 
 {{< /highlight >}}
-#### **دعم معالجة ألوان النسق**
- يوضح نموذج التعليمات البرمجية التالي كيفية[قراءة وتعديل ألوان نسق المصنف](/cells/ar/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). يقوم نموذج التعليمات البرمجية بتحميل جدول بيانات موجود ، وقراءة ألوان السمات الخاصة به ، مثل Accent1-Accent6 ، وتعديل الألوان قبل حفظ جدول البيانات.
+#### **دعم تلاعب ألوان السمة**
+يعرض الكود النموذجي التالي كيفية [قراءة وتعديل ألوان السمة لدفتر العمل](/cells/ar/cpp/apply-custom-theme-colors-of-the-workbook-using-array-of-colors/). يحمل الكود النموذجي جدول بيانات موجودًا، يقرأ ألوان السمة الخاصة به وهي Accent1-Accent6، ويعدل الألوان قبل حفظ جدول البيانات.
 
-**C ++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the sample excel file
 
@@ -561,12 +562,12 @@ printf("Accent6: %x\r\n", (clr_Accent6->ToArgb())&0xffffff);
 wb->Save(outputPath);
 
 {{< /highlight >}}
-#### **القدرة على نسخ المظاهر عبر المصنفات**
- يوضح نموذج التعليمات البرمجية التالي كيفية[نسخ النسق من مصنف إلى آخر](/cells/ar/cpp/copy-theme-from-one-workbook-to-another/)، والتي يمكن أن تكون مفيدة في تطبيق سمات مضمنة أو مخصصة على جداول بيانات متعددة.
+#### **القدرة على نسخ السمات عبر دفاتر العمل**
+يعرض الكود النموذجي التالي كيفية [نسخ السمة من دفتر عمل إلى آخر](/cells/ar/cpp/copy-theme-from-one-workbook-to-another/)، مما يمكن أن يكون مفيدًا في تطبيق السمات المضمنة أو المخصصة على جداول بيانات متعددة.
 
-**C ++**
+**C++**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Read excel file that has Damask theme applied on it
 
@@ -585,54 +586,54 @@ wb->CopyTheme(damask);
 wb->Save(outputPath, SaveFormat_Xlsx);
 
 {{< /highlight >}}
-## **إعادة تسمية واجهات برمجة التطبيقات**
-مع إصدار Aspose.Cells for C++ 16.12.0 ، قمنا بإعادة تسمية بعض الطرق من أجل الحفاظ على توحيد الواجهات. قائمة جميع واجهات برمجة التطبيقات المعاد تسميتها كما يلي.
-#### **تمت إعادة تسمية طريقة ICell :: SetStyle إلى ICell :: SetIStyle**
-#### **تمت إعادة تسمية طريقة ICell :: SetCharacters إلى ICell :: SetIFontSettings**
-#### **تمت إعادة تسمية طريقة ICellsColor :: SetThemeColor إلى ICellsColor :: SetIThemeColor**
-#### **تمت إعادة تسمية طريقة ICells :: SetStyle إلى ICells :: SetIStyle**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: GetDPI_i إلى ICellsHelper :: GetDPI**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: SetDPI_i إلى ICellsHelper :: SetDPI**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: GetVersion_i إلى ICellsHelper :: GetVersion**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: IsProtectedByRMS_i إلى ICellsHelper :: IsProtectedByRMS**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: IsProtectedByRMS_i إلى ICellsHelper :: IsProtectedByRMS**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: CellNameToIndex_i إلى طريقة ICellsHelper :: CellNameToIndex**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: CellIndexToName_i إلى طريقة ICellsHelper :: CellIndexToName**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: ColumnIndexToName_i إلى طريقة ICellsHelper :: ColumnIndexToName**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: ColumnNameToIndex_i إلى طريقة ICellsHelper :: ColumnNameToIndex**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: RowIndexToName_i إلى طريقة ICellsHelper :: RowIndexToName**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: RowNameToIndex_i إلى طريقة ICellsHelper :: RowNameToIndex**
-#### **تمت إعادة تسمية ICellsHelper :: ConvertR1C1FormulaToA1_i طريقة إلى ICellsHelper :: ConvertR1C1FormulaToA1**
-#### **تمت إعادة تسمية ICellsHelper :: ConvertA1FormulaToR1C1_i طريقة إلى ICellsHelper :: ConvertA1FormulaToR1C1**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: GetDateTimeFromDouble_i إلى طريقة ICellsHelper :: GetDateTimeFromDouble**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: GetDoubleFromDateTime_i إلى طريقة ICellsHelper :: GetDoubleFromDateTime**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: DetectLoadFormat_i إلى ICellsHelper :: DetectLoadFormat**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: DetectFileFormat_i إلى ICellsHelper :: DetectFileFormat**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: GetFontDir_i إلى ICellsHelper :: GetFontDir**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: SetFontDir_i إلى ICellsHelper :: SetFontDir**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: GetFontDirs_i إلى ICellsHelper :: GetFontDirs**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: SetFontDirs_i إلى ICellsHelper :: SetFontDirs**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: GetFontFiles_i إلى ICellsHelper :: GetFontFiles**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: SetFontFiles_i إلى ICellsHelper :: SetFontFiles**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: GetStartupPath_i إلى ICellsHelper :: GetStartupPath**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: SetStartupPath_i إلى ICellsHelper :: SetStartupPath**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: GetAltStartPath_i إلى ICellsHelper :: GetAltStartPath**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: SetAltStartPath_i إلى ICellsHelper :: SetAltStartPath**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: GetLibraryPath_i إلى ICellsHelper :: GetLibraryPath**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: SetLibraryPath_i إلى ICellsHelper :: SetLibraryPath**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: GetUsedColors_i إلى ICellsHelper :: GetUsedColors**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: AddAddInFunction_i إلى ICellsHelper :: AddAddInFunction**
-#### **تمت إعادة تسمية طريقة ICellsHelper :: MergeFiles_i إلى ICellsHelper :: MergeFiles**
-#### **تمت إعادة تسمية طريقة IColumnCollection :: GetByIndex_i إلى IColumnCollection :: GetIColumn**
-#### **تمت إعادة تسمية طريقة IFileFormatUtil :: DetectFileFormat_i إلى IFileFormatUtil :: DetectFileFormat**
-#### **تمت إعادة تسمية IFileFormatUtil :: ExtensionToSaveFormat_i طريقة IFileFormatUtil :: ExtensionToSaveFormat**
-#### **تمت إعادة تسمية طريقة IFileFormatUtil :: IsTemplateFormat_i إلى IFileFormatUtil :: IsTemplateFormat**
-#### **تمت إعادة تسمية أسلوب IFileFormatUtil :: LoadFormatToExtension_i إلى IFileFormatUtil :: LoadFormatToExtension**
-#### **تمت إعادة تسمية أسلوب IFileFormatUtil :: LoadFormatToSaveFormat_i إلى IFileFormatUtil :: LoadFormatToSaveFormat**
-#### **تمت إعادة تسمية طريقة IFileFormatUtil :: SaveFormatToExtension_i إلى IFileFormatUtil :: SaveFormatToExtension**
-#### **تمت إعادة تسمية طريقة IFileFormatUtil :: SaveFormatToLoadFormat_i إلى IFileFormatUtil :: SaveFormatToLoadFormat**
-#### **تمت إعادة تسمية طريقة IRange :: SetStyle إلى IRange :: SetIStyle**
-#### **تمت إعادة تسمية طريقة IFindOptions :: SetRange إلى IFindOptions :: SetIRange**
-#### **تمت إعادة تسمية طريقة ILoadOptions :: SetLoadDataOptions إلى ILoadOptions :: SetILoadDataOptions**
-#### **تمت إعادة تسمية طريقة IWorkbook :: SetSettings إلى IWorkbook :: SetISettings**
-#### **تمت إعادة تسمية طريقة IWorkbook :: SetDefaultStyle إلى IWorkbook :: SetDefaultIStyle**
+## **تغيير أسماء الواجهات البرمجية**
+مع إصدار 16.12.0 من Aspose.Cells for C++، لقد قمنا بإعادة تسمية بعض الأساليب للحفاظ على توحيد الواجهات. قائمة جميع واجهات برمجة التطبيقات المعاد تسميتها هي كالتالي.
+#### **إعادة تسمية طريقة ICell::SetStyle إلى ICell::SetIStyle**
+#### **إعادة تسمية طريقة ICell::SetCharacters إلى ICell::SetIFontSettings**
+#### **إعادة تسمية طريقة ICellsColor::SetThemeColor إلى ICellsColor::SetIThemeColor**
+#### **إعادة تسمية طريقة ICells::SetStyle إلى ICells::SetIStyle**
+#### **إعادة تسمية طريقة ICellsHelper::GetDPI_i إلى ICellsHelper::GetDPI**
+#### **إعادة تسمية طريقة ICellsHelper::SetDPI_i إلى ICellsHelper::SetDPI**
+#### **إعادة تسمية طريقة ICellsHelper::GetVersion_i إلى ICellsHelper::GetVersion**
+#### **قم بإعادة تسمية طريقة ICellsHelper::IsProtectedByRMS_i إلى ICellsHelper::IsProtectedByRMS**
+#### **قم بإعادة تسمية طريقة ICellsHelper::IsProtectedByRMS_i إلى ICellsHelper::IsProtectedByRMS**
+#### **قم بإعادة تسمية طريقة ICellsHelper::CellNameToIndex_i إلى ICellsHelper::CellNameToIndex**
+#### **قم بإعادة تسمية طريقة ICellsHelper::CellIndexToName_i إلى ICellsHelper::CellIndexToName**
+#### **قم بإعادة تسمية طريقة ICellsHelper::ColumnIndexToName_i إلى ICellsHelper::ColumnIndexToName**
+#### **قم بإعادة تسمية طريقة ICellsHelper::ColumnNameToIndex_i إلى ICellsHelper::ColumnNameToIndex**
+#### **قم بإعادة تسمية طريقة ICellsHelper::RowIndexToName_i إلى ICellsHelper::RowIndexToName**
+#### **قم بإعادة تسمية طريقة ICellsHelper::RowNameToIndex_i إلى ICellsHelper::RowNameToIndex**
+#### **قم بإعادة تسمية طريقة ICellsHelper::ConvertR1C1FormulaToA1_i إلى ICellsHelper::ConvertR1C1FormulaToA1**
+#### **قم بإعادة تسمية طريقة ICellsHelper::ConvertA1FormulaToR1C1_i إلى ICellsHelper::ConvertA1FormulaToR1C1**
+#### **قم بإعادة تسمية طريقة ICellsHelper::GetDateTimeFromDouble_i إلى ICellsHelper::GetDateTimeFromDouble**
+#### **قم بإعادة تسمية طريقة ICellsHelper::GetDoubleFromDateTime_i إلى ICellsHelper::GetDoubleFromDateTime**
+#### **قم بإعادة تسمية طريقة ICellsHelper::DetectLoadFormat_i إلى ICellsHelper::DetectLoadFormat**
+#### **قم بإعادة تسمية طريقة ICellsHelper::DetectFileFormat_i إلى ICellsHelper::DetectFileFormat**
+#### **قم بإعادة تسمية طريقة ICellsHelper::GetFontDir_i إلى ICellsHelper::GetFontDir**
+#### **قم بإعادة تسمية طريقة ICellsHelper::SetFontDir_i إلى ICellsHelper::SetFontDir**
+#### **قم بإعادة تسمية طريقة ICellsHelper::GetFontDirs_i إلى ICellsHelper::GetFontDirs**
+#### **قم بإعادة تسمية طريقة ICellsHelper::SetFontDirs_i إلى ICellsHelper::SetFontDirs**
+#### **قم بإعادة تسمية طريقة ICellsHelper::GetFontFiles_i إلى ICellsHelper::GetFontFiles**
+#### **قم بإعادة تسمية طريقة ICellsHelper::SetFontFiles_i إلى ICellsHelper::SetFontFiles**
+#### **قم بإعادة تسمية طريقة ICellsHelper::GetStartupPath_i إلى ICellsHelper::GetStartupPath**
+#### **قام بتغيير اسم طريقة ICellsHelper::SetStartupPath_i إلى ICellsHelper::SetStartupPath**
+#### **قام بتغيير اسم طريقة ICellsHelper::GetAltStartPath_i إلى ICellsHelper::GetAltStartPath**
+#### **قام بتغيير اسم طريقة ICellsHelper::SetAltStartPath_i إلى ICellsHelper::SetAltStartPath**
+#### **قام بتغيير اسم طريقة ICellsHelper::GetLibraryPath_i إلى ICellsHelper::GetLibraryPath**
+#### **قام بتغيير اسم طريقة ICellsHelper::SetLibraryPath_i إلى ICellsHelper::SetLibraryPath**
+#### **قام بتغيير اسم طريقة ICellsHelper::GetUsedColors_i إلى ICellsHelper::GetUsedColors**
+#### **قام بتغيير اسم طريقة ICellsHelper::AddAddInFunction_i إلى ICellsHelper::AddAddInFunction**
+#### **قام بتغيير اسم طريقة ICellsHelper::MergeFiles_i إلى ICellsHelper::MergeFiles**
+#### **قام بتغيير اسم طريقة IColumnCollection::GetByIndex_i إلى IColumnCollection::GetIColumn**
+#### **قام بتغيير اسم طريقة IFileFormatUtil::DetectFileFormat_i إلى IFileFormatUtil::DetectFileFormat**
+#### **قام بتغيير اسم طريقة IFileFormatUtil::ExtensionToSaveFormat_i إلى IFileFormatUtil::ExtensionToSaveFormat**
+#### **قام بتغيير اسم طريقة IFileFormatUtil::IsTemplateFormat_i إلى IFileFormatUtil::IsTemplateFormat**
+#### **قام بتغيير اسم طريقة IFileFormatUtil::LoadFormatToExtension_i إلى IFileFormatUtil::LoadFormatToExtension**
+#### **قام بتغيير اسم طريقة IFileFormatUtil::LoadFormatToSaveFormat_i إلى IFileFormatUtil::LoadFormatToSaveFormat**
+#### **قام بتغيير اسم طريقة IFileFormatUtil::SaveFormatToExtension_i إلى IFileFormatUtil::SaveFormatToExtension**
+#### **قام بتغيير اسم طريقة IFileFormatUtil::SaveFormatToLoadFormat_i إلى IFileFormatUtil::SaveFormatToLoadFormat**
+#### **قام بتغيير اسم طريقة IRange::SetStyle إلى IRange::SetIStyle**
+#### **قام بتغيير اسم طريقة IFindOptions::SetRange إلى IFindOptions::SetIRange**
+#### **قام بتغيير اسم طريقة ILoadOptions::SetLoadDataOptions إلى ILoadOptions::SetILoadDataOptions**
+#### **قام بتغيير اسم طريقة IWorkbook::SetSettings إلى IWorkbook::SetISettings**
+#### **تمت إعادة تسمية الطريقة IWorkbook::SetDefaultStyle إلى IWorkbook::SetDefaultIStyle**

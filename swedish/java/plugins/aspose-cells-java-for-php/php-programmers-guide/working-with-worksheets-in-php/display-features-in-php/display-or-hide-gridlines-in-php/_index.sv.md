@@ -1,16 +1,17 @@
-﻿---
-title: Visa eller dölj rutnät i Php
+---
+title: Visa eller dölj rutsnät i PHP
 type: docs
 weight: 10
 url: /sv/java/display-or-hide-gridlines-in-php/
 ---
-## **Aspose.Cells - Visa eller dölj rutnätslinjer**
-### **Dölja rutnät**
- För att dölja kalkylblad med**Aspose.Cells Java for PHP** , ringa upp**visahidegridlines** modul.
+
+## **Aspose.Cells - Visa eller dölj rutnät**
+### **Gömmer rutnätslinjer**
+För att dölja arbetsblad med **Aspose.Cells Java för PHP**, anropa **displayhidegridlines** modulen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ $workbook->save($dataDir . "output.xls");
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Visa eller dölj rutnät (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Visa eller Dölj rutnät (Aspose.Cells)** från någon av de sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideGridlines.php)

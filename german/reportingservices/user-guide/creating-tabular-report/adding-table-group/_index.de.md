@@ -1,52 +1,53 @@
-﻿---
+---
 title: Tabellengruppe hinzufügen
 type: docs
 weight: 40
 url: /de/reportingservices/adding-table-group/
 ---
-Führen Sie die folgenden Schritte aus, um eine Tabellengruppe hinzuzufügen:
+
+Um eine Tabellengruppe hinzuzufügen, befolgen Sie die folgenden Schritte:
 
 
 
-1) Wählen Sie die Gruppen-Tag-Zelle aus, die sich links von der ersten Spalte der Tabellendatenspalte unter der Tabellendatenzeile befindet, wie im Folgenden gezeigt.
+1) Wählen Sie die Gruppentag-Zelle aus, die sich links der ersten Spalte der Tabellendatenspalte, unter der Tabellendatenzeile, befindet, wie im Folgenden gezeigt.
 
-![todo: Bild_alt_Text](adding-table-group_1.png)
-
-
+![todo:image_alt_text](adding-table-group_1.png)
 
 
 
 
 
- 2) Wählen Sie „SalesOrderNumber“ im**Gruppe festlegen** Kombinationsfeld, um das Gruppenfeld festzulegen.
+
+
+2) Wählen Sie ”SalesOrderNumber” im Dropdown-Menü **Gruppe festlegen**, um das Gruppenfeld festzulegen.
 
 
 
-![todo: Bild_alt_Text](adding-table-group_2.png)
+![todo:image_alt_text](adding-table-group_2.png)
 
 
 
-Das Ergebnis ist im Folgenden dargestellt.
+Das Ergebnis wird im Folgenden angezeigt.
 
 
 
-![todo: Bild_alt_Text](adding-table-group_3.png)
+![todo:image_alt_text](adding-table-group_3.png)
 
 
 
-3) Fügen Sie die Gruppendatenzeile gemäß den oben beschriebenen Anweisungen hinzu. Gruppendatenzeilen können statischen Text, Datenmarkierungen, Reporting Service-Formeln usw. enthalten. Im Beispiel fügen wir eine Gruppenzeile hinzu, die eine zusammengeführte statische Textzelle und eine Reporting Services-Formelzelle enthält, wie im Folgenden gezeigt.
+3) Fügen Sie die Gruppendatenzeile gemäß den oben beschriebenen Anweisungen hinzu. Die Gruppendatenzeile kann statischen Text, Datenmarker, Reporting Service Formeln usw. enthalten. Im Beispiel fügen wir eine Gruppenzeile hinzu, die eine zusammengeführte statische Textzeile und eine Zelle mit Reporting Services Formel enthält, wie im Folgenden gezeigt.
 
 
 
-![todo: Bild_alt_Text](adding-table-group_4.png)
+![todo:image_alt_text](adding-table-group_4.png)
 
 
 
-4) In einer Tabelle ist mehr als eine Gruppendatenzeile zulässig. Wir können wieder eine Gruppendatenzeile hinzufügen, wie im Folgenden gezeigt.
+4) In einer Tabelle sind mehr als eine Gruppendatenzeile zulässig. Wir können erneut eine Gruppendatenzeile hinzufügen, wie im Folgenden gezeigt.
 
 
 
-![todo: Bild_alt_Text](adding-table-group_5.png)
+![todo:image_alt_text](adding-table-group_5.png)
 
 
 

@@ -1,12 +1,13 @@
-﻿---
+---
 title: Trier les données dans les feuilles de calcul
 type: docs
 weight: 230
 url: /fr/net/sort-data-in-worksheets/
 ---
-Vous trouverez ci-dessous l'exemple de code de comparaison pour VSTO et Aspose.Cells.
+
+Ci-dessous se trouve l'exemple de code de comparaison pour VSTO et Aspose.Cells.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -36,7 +37,7 @@ Vous trouverez ci-dessous l'exemple de code de comparaison pour VSTO et Aspose.C
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

@@ -1,27 +1,28 @@
-﻿---
-title: Aspose.Cells でのカスタム XML パーツの使用
+---
+title: Aspose.CellsでのカスタムXMLパーツの使用
 type: docs
 weight: 570
 url: /ja/java/using-custom-xml-parts-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-カスタム XML パーツは、SharePoint などのさまざまなアプリケーションによって Excel ファイル内に保存される XML データです。このデータは、それを必要とするさまざまなアプリケーションによって消費されます。 Microsoft Excel はこのデータを使用しないため、追加するための GUI はありません。の拡張子を変更すると、このデータを表示できます。**.xlsx**の中へ**。ジップ**そして、それを開くことによって**WinRAR** .データは内部に存在します**customXml**このイメージに示すようにフォルダ。
+カスタムXMLパーツは、SharePointなどのさまざまなアプリケーションによってExcelファイル内に保存されるXMLデータです。このデータは必要なさまざまなアプリケーションによって消費されます。Microsoft Excelはこのデータを使用しないため、それを追加するためのGUIはありません。 **.xlsx**の拡張子を**.zip**に変更し、**WinRAR**を使用して開くことでこのデータを表示できます。データは、この画像に示されているように**customXml**フォルダ内に存在します。
 
-![todo:画像_代替_文章](using-custom-xml-parts-in-aspose-cells_1.png)
+![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_1.png)
 
- Aspose.Cells を使用してカスタム XML パーツを追加できます。[Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)） 方法。
+Aspose.Cellsを使用してカスタムXMLパーツを追加することができます。[Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) メソッドを介して行います。
 
 {{% /alert %}} 
-## **Aspose.Cells でのカスタム Xml パーツの使用**
-次のサンプル コードでは、[Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\) ) メソッドを追加し、**書籍カタログ XML**そしてその名は**本屋**.次の図は、このコードの結果を示しています。ご覧のとおり、このプロパティの名前である BookStore ノード内に Book Catalog Xml が追加されています。
+## **Aspose.CellsでのカスタムXMLパーツの使用**
+次のサンプルコードは、[Workbook.getContentTypeProperties().add()](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add\(java.lang.Object\)) メソッドを使用し、**Book Catalog Xml**を**BookStore**という名前で追加します。次の画像は、このコードの結果を示しています。 Book Catalog XmlがBookStoreノード内に追加されていることがわかります。
 
-![todo:画像_代替_文章](using-custom-xml-parts-in-aspose-cells_2.png)
+![todo:image_alt_text](using-custom-xml-parts-in-aspose-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingCustomXmlParts-UsingCustomXmlParts.java" >}}
 ## **関連記事**
 {{% alert color="primary" %}} 
 
-- [ドキュメント情報パネル内に表示されるカスタム プロパティの追加](/cells/ja/java/adding-custom-properties-visible-inside-document-information-panel/)
+- [ドキュメント情報パネルで表示されるカスタムプロパティの追加](/cells/ja/java/adding-custom-properties-visible-inside-document-information-panel/)
 
 {{% /alert %}}

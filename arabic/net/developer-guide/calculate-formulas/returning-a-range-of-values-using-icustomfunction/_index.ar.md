@@ -1,33 +1,34 @@
 ---
-title: إرجاع نطاق من القيم باستخدام ICustomFunction
-description: توضح هذه المقالة كيفية استخدام مكتبة Aspose.Cells لإرجاع نطاق من القيم باستخدام ICustomFunction في Microsoft Excel. عن طريق تحميل ملف Excel موجود أو إنشاء ملف Excel جديد، يمكننا استخدام الطرق التي يوفرها Aspose.Cells للحصول على نطاق من القيم وإرجاع النتيجة. وأخيرًا، نقوم بحفظ ملف Excel المعدل على القرص.
-keywords: Aspose.Cells, Excel, ICustomFunction, returns a series of values
+title: إرجاع مجموعة من القيم باستخدام ICustomFunction
+description: يصف هذا المقال كيفية استخدام مكتبة Aspose.Cells لإرجاع مجموعة من القيم باستخدام ICustomFunction في Microsoft Excel. من خلال تحميل ملف Excel موجود أو إنشاء ملف Excel جديد، يمكننا استخدام الأساليب المقدمة من Aspose.Cells للحصول على مجموعة من القيم وإرجاع النتيجة. وأخيرًا، نقوم بحفظ ملف Excel المعدل على القرص.
+keywords: Aspose.Cells، Excel، ICustomFunction، يُرجع سلسلة من القيم
 type: docs
 weight: 50
 url: /ar/net/returning-a-range-of-values-using-icustomfunction/
 ---
+
 {{% alert color="primary" %}}
 
- ال[**IcustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) تم إهماله منذ إصدار Aspose.Cells for Java 20.8. الرجاء استخدام[**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) فصل. استخدام[**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) تم وصف الطبقة في المقالة التالية.
+[**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) تمت إهماله منذ إصدار Aspose.Cells for Java 20.8. يرجى استخدام فئة [**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine). يتم وصف استخدام فئة [**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) في المقال التالي.
 
-[إرجاع نطاق من القيم باستخدام AbstractCalculationEngine](/cells/ar/net/returning-a-range-of-values-using-abstractcalculationengine/).
+[إرجاع مجموعة من القيم باستخدام AbstractCalculationEngine](/cells/ar/net/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
- Aspose.Cells يوفر[**IcustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)الواجهة التي يتم استخدامها لتنفيذ الوظائف المحددة من قبل المستخدم أو المخصصة التي لا يدعمها Microsoft Excel كوظائف مدمجة.
+توفر Aspose.Cells واجهة [**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) التي تُستخدم لتنفيذ وظائف مخصصة أو مخصصة لا تدعمها Microsoft Excel كوظائف مدمجة.
 
- في الغالب عند تنفيذ[**IcustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) طريقة الواجهة، تحتاج إلى إرجاع قيمة خلية واحدة. لكن في بعض الأحيان، تحتاج إلى إرجاع نطاق من القيم. تشرح هذه المقالة كيفية إرجاع نطاق القيم من[**IcustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
+عند تنفيذ طريقة واجهة [**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) عادةً، تحتاج إلى إرجاع قيمة خلية واحدة. ولكن في بعض الأحيان، قد تحتاج إلى إرجاع مجموعة من القيم. سيشرح هذا المقال كيفية إرجاع مجموعة القيم من [**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 
 {{% /alert %}}
 
- يتم تنفيذ التعليمات البرمجية التالية[**IcustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)وإرجاع نطاق القيم عبر طريقته.
+الكود التالي ينفذ [**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) ويُرجع مجموعة القيم من خلال طريقة الواجهة.
 
-قم بإنشاء فئة باستخدام دالة *CalculateCustomFunction*. تنفذ هذه الفئة[**IcustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
+قم بإنشاء فئة تحتوي على وظيفة *CalculateCustomFunction*. تنفذ هذه الفئة [**ICustomFunction**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-CustomFunctionStaticValue.cs" >}}
 
-الآن استخدم الوظيفة المذكورة أعلاه في برنامجك
+الآن استخدم الوظيفة أعلاه في برنامجك
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingICustomFunction-1.cs" >}}

@@ -1,10 +1,11 @@
-﻿---
-title: Aspose.Cells .NET para Sitefinity
+---
+title: Aspose.Cells .NET for Sitefinity
 type: docs
 weight: 80
 url: /es/net/aspose-cells-net-for-sitefinity/
 ---
-**Resumen de contenidos**
+
+**Resumen de Contenidos**
 
 - [Empezando](#Aspose.Cells.NETforSitefinity-GettingStarted) 
   - [Introducción](#Aspose.Cells.NETforSitefinity-Introduction) 
@@ -14,15 +15,15 @@ url: /es/net/aspose-cells-net-for-sitefinity/
 ## **Empezando**
 ### **Introducción**
 #### **¿Qué es Sitefinity?**
-Sitefinity es un moderno sistema de gestión de contenido web (CMS) basado en ASP.NET que ofrece una gestión de contenido web intuitiva y un entorno de desarrollo sólido para profesionales de negocios. Estos son los proyectos que hemos creado para este popular CMS.
+Sitefinity es un moderno Sistema de Gestión de Contenido web (CMS) basado en ASP.NET, que ofrece una intuitiva gestión de contenido web y un robusto entorno de desarrollo para profesionales de negocios. Aquí están los proyectos que hemos creado para este popular CMS.
 #### **Aspose.Cells for .NET**
-Aspose.Cells for .NET es una biblioteca de clase avanzada for .NET que le permite realizar una amplia gama de tareas de procesamiento de hojas de cálculo directamente dentro de sus aplicaciones .NET.
+Aspose.Cells for .NET es una biblioteca de clases avanzada para .NET que le permite realizar una amplia gama de tareas de procesamiento de hojas de cálculo directamente dentro de sus aplicaciones .NET.
 
-Con Aspose.Cells puede generar, modificar, convertir, renderizar e imprimir hojas de cálculo sin usar Microsoft Excel.
+Con Aspose.Cells puede generar, modificar, convertir, renderizar e imprimir hojas de cálculo sin utilizar Microsoft Excel.
 
-Aspose.Cells for .NET admite XSL, XSLX, OpenOffice y muchos otros formatos.
+Aspose.Cells for .NET es compatible con XSL, XSLX, OpenOffice y muchos otros formatos.
 #### **Aspose.Cells for .NET Complementos**
 Esta sección tiene los siguientes temas:
 
-- [Aspose.Cells Formularios para Sitefinity](/cells/es/net/aspose-cells-forms-for-sitefinity/)
-- [Exportación de usuarios de Sitefinity a Excel](/cells/es/net/sitefinity-export-users-to-excel/)
+- [Aspose.Cells Forms for Sitefinity](/cells/es/net/aspose-cells-forms-for-sitefinity/)
+- [Sitefinity Exportar Usuarios a Excel](/cells/es/net/sitefinity-export-users-to-excel/)

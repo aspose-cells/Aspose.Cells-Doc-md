@@ -1,56 +1,57 @@
-﻿---
-title: ワークシートから画像へ、ワークシートから画像へのページ単位での変換
+---
+title: ワークシートを画像に変換し、ページごとにワークシートを画像に変換
 type: docs
 weight: 80
 url: /ja/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/
 ---
+
 {{% alert color="primary" %}}
 
-このドキュメントは、開発者がワークシートを画像ファイルに変換する方法と、複数ページのワークシートをページごとに画像ファイルに変換する方法を詳細に理解できるように設計されています。
+このドキュメントは、開発者に、ワークシートを画像ファイルに変換する方法と、複数のページを持つワークシートを1ページごとに画像ファイルに変換する方法についての詳細な理解を提供するように設計されています。
 
-たとえば、ワークシートをアプリケーションや Web ページで使用するために、ワークシートを画像として表示する必要がある場合があります。画像を Word 文書、PDF ファイル、PowerPoint プレゼンテーションに挿入したり、他のシナリオで使用したりする必要がある場合があります。単純に、ワークシートを画像としてレンダリングしたいだけです。 Aspose.Cells は、Microsoft Excel ファイルのワークシートを画像に変換することをサポートしています。また、Aspose.Cells は、ワークブックを複数の画像ファイル (ページごとに 1 つ) に変換することをサポートしています。
+時には、アプリケーションやWebページでワークシートを画像として表示する必要があります。たとえば、その画像をWord文書、PDFファイル、PowerPointプレゼンテーションに挿入したり、他のシナリオで使用する必要があるかもしれません。単純に言えば、ワークシートを画像としてレンダリングしたいと思います。Aspose.Cellsは、Microsoft Excelファイルのワークシートを画像に変換することをサポートしています。また、Aspose.Cellsは、ワークブックを複数のページごとに1つの画像ファイルに変換することもサポートしています。
 
-Office オートメーションを使用してこれを実現することもできますが、Office オートメーションには独自の欠点があります。関連するいくつかの理由と問題があります。たとえば、セキュリティ、安定性、スケーラビリティ/速度、価格、および機能です。要するに、多くの理由がありますが、主な理由は、Microsoft 自身が Office オートメーションを強く推奨していないことです。
+これを達成するためには、Office Automationを使用することができますが、Office Automationには独自の欠点があります。セキュリティ、安定性、拡張性/処理速度、価格、機能など、いくつかの理由や問題があります。簡単に言えば、多くの理由がありますが、その中でも主な理由の1つは、Microsoft自体がOffice Automationを強く推奨していないことです。
 
 {{% /alert %}}
 
-## **Aspose.Cells を使用してワークシートを画像ファイルに変換する**
+## **Aspose.Cellsを使用してワークシートを画像ファイルに変換する方法**
 
-この記事では、Aspose.Cells API.
+この記事では、Visual Studioでコンソールアプリケーションを作成し、Aspose.Cells APIを使用してわずか数行のコードでワークシートを画像に変換し、複数のページを持つワークシートを1つの画像に変換する方法を示します。
 
-をインポートする必要があります[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering)名前空間をプログラム/プロジェクトに追加します。次のようないくつかの貴重なクラスがあります。[**シートレンダリング**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)、 等々。の[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)クラスは、ワークシートの画像をレンダリングするためのワークシートを表し、オーバーロードされた[**イメージへ**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)任意の属性またはオプション セットを使用して、ワークシートを画像ファイルに直接変換できるメソッド。 System.Drawing.Bitmap オブジェクトを返すことができ、画像ファイルをディスク/ストリームに保存できます。 BMP、PNG、GIF、JPG、JPEG、TIFF、EMF など、いくつかの画像形式がサポートされています。
+プログラム/プロジェクトに[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering)ネームスペースをインポートする必要があります。[**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)、[**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)、[**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)などの貴重なクラスがいくつか含まれています。[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)クラスは、ワークシートをレンダリングするためのクラスであり、オーバーロードされた[**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)メソッドから直接ワークシートを画像ファイルに変換できます。System.Drawing.Bitmapオブジェクトを返し、イメージファイルをディスク/ストリームに保存できます。省略して、BMP、PNG、GIF、JPG、JPEG、TIFF、EMFなど、さまざまな画像形式がサポートされています。
 
-この記事では、次の方法について説明します。
+この記事では以下の方法について説明します:
 
 - ワークシートを画像に変換する
-- ワークシートのすべてのページを画像に変換する
+- ワークシートの各ページを画像に変換する
 
-このタスクでは、Aspose.Cells を使用してワークシートをテンプレート ワークブックからイメージ ファイルに変換する方法を示します。
+このタスクでは、Aspose.Cellsを使用して、テンプレートワークブックからワークシートを画像ファイルに変換する方法を示します。
 
 ### **プロジェクトのセットアップ**
 
-1. 初め、[ダウンロード Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
-1. 開発用コンピューターにインストールします。全て[Aspose](http://www.aspose.com/)コンポーネントがインストールされると、評価モードで動作します。評価モードには時間制限がなく、生成されたドキュメントに透かしを挿入するだけです。 Visual Studio.Net を起動し、新しいコンソール アプリケーションを作成します。この例では C# コンソール アプリケーションを使用していますが、VB.NET も使用できます。作成したプロジェクトに Aspose.Cells への参照を追加します。
+1. まず、[Aspose.Cells for .NETをダウンロードして](https://downloads.aspose.com/cells/net)ください。
+1. 開発コンピュータにインストールしてください。Asposeのすべてのコンポーネントは、インストールされると評価モードで動作します。評価モードには時間制限はなく、生成された文書にウォーターマークが注入されます。Visual Studio.Netを起動し、新しいコンソールアプリケーションを作成します。この例ではC#のコンソールアプリケーションを使用していますが、VB.NETも使用できます。作成したプロジェクトにAspose.Cellsへの参照を追加してください。
 
 ### **ワークシートを画像ファイルに変換**
 
-Microsoft Excel で新しいワークブックを作成し、最初のワークシートにいくつかのデータを追加しました。**テストブック.xlsx** (1 ワークシート)。次に、テンプレート ファイルのワークシート Sheet1 を SheetImage.jpg という画像ファイルに変換します。
+Microsoft Excelで新しいワークブックを作成し、最初のワークシートにいくつかのデータを追加しました：**Testbook.xlsx**（1つのワークシート）。次に、テンプレートファイルのワークシートSheet1をSheetImage.jpgという画像ファイルに変換します。
 
-以下は、タスクを実行するためにコンポーネントによって使用されるコードです。 Sheet1 を変換します**テストブック.xlsx**この変換がいかに簡単かを説明するために、画像ファイルに変換します。
+コンポーネントがタスクを達成するために使用したコードは以下の通りです。**Testbook.xlsx**のSheet1を画像ファイルに変換し、この変換がどれほど簡単であるかを説明します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertingWorksheetToImage-ConvertWorksheettoImageFile-1.cs" >}}
 
-## **Aspose.Cells を使用してワークシートをページごとに画像ファイルに変換する**
+## **Aspose.Cellsを使用して、ワークシートを画像ファイルにページごとに変換する**
 
-この例では、Aspose.Cells を使用して、複数ページのテンプレート ワークブックからワークシートをページごとに 1 つのイメージ ファイルに変換する方法を示します。
+この例では、Aspose.Cellsを使用して、複数のページを持つテンプレートワークブックからワークシートを1つの画像ファイルに変換する方法を示します。
 
-### **ワークシートをページごとに画像に変換**
+### **ワークシートをページ毎に画像に変換する**
 
-Microsoft Excel で新しいワークブックを作成し、最初のワークシートにいくつかのデータを追加しました。**Testbook2.xlsx** (1 ワークシート)。
+私はMicrosoft Excelで新しいワークブックを作成し、最初のワークシートにいくつかのデータを追加しました: **Testbook2.xlsx** (1 ワークシート)。
 
-次に、テンプレート ファイルのワークシート Sheet1 を画像ファイルに変換します (1 ページに 1 ファイル)。コピー タスクを実行するためのコンソール アプリケーションを既に作成しているので、それらのコンソール アプリケーションの作成手順をスキップして、ワークシートの変換手順に直接移動します。
+これで、テンプレートファイルのワークシート Sheet1 を画像ファイルに変換します（1ページごとのファイル）。すでにコンソールアプリケーションを作成してコピー作業を行う準備ができているため、コンソールアプリケーションの作成手順をスキップして、直接ワークシートの変換手順に移ります。
 
-以下は、タスクを実行するためにコンポーネントによって使用されるコードです。 Testbook2.xls の Sheet1 をページ単位で画像ファイルに変換します。
+以下は、そのコンポーネントがタスクを達成するために使用したコードです。それは Testbook2.xls の Sheet1 をページごとに画像ファイルに変換します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertingWorksheetToImage-ConvertWorksheetToImageByPage-1.cs" >}}
 

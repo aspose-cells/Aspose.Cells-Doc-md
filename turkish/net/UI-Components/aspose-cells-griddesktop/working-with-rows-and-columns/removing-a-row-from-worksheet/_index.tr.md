@@ -1,21 +1,24 @@
-﻿---
-title: Çalışma Sayfasından Satır Kaldırma
+---
+title: Çalışma Sayfasından Bir Satır Kaldırma
 type: docs
 weight: 40
-url: /tr/net/removing-a-row-from-worksheet/
+url: /tr/net/aspose-cells-griddesktop/remove-a-row-from-worksheet/
+keywords: GridDesktop, satırı kaldır
+description: Bu makale, GridDesktop ta satırın nasıl kaldırılacağını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu, geliştiricilerin çalışma sayfasından bir satırı kaldırmaya yönelik temel bir yaklaşımı açıklamaları için başka bir temel konudur. Geliştiricilerin Aspose.Cells.GridDesktop ile çalışırken kullanabileceği basit ve kullanışlı bir özelliktir.
+Bu, geliştiricilere elektronik tablodan bir satırın nasıl kaldırılacağını açıklamak için başka bir temel konudur. Geliştiricilerin Aspose.Cells.GridDesktop ile çalışırken kullanabilecekleri basit ve kullanışlı bir özelliktir.
 
 {{% /alert %}} 
 
-Çalışma sayfasından bir satırı kaldırmak için lütfen aşağıdaki adımları izleyin:
+Elektronik tablodan bir satırı kaldırmak için lütfen aşağıdaki adımları izleyin:
 
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Kaldırmak**Sıra** dan**Çalışma kağıdı** kaldırılacak satırın indeksini belirterek
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- Kaldırılacak **Satırı** belirtmek suretiyle **Çalışsayfa**'dan **Satır**'ı kaldır
 
-Aşağıdaki kod örneği, çalışma sayfasından bir satırı nasıl kaldıracağınızı gösterir.
+Aşağıdaki kod örneği, elektronik tablodan bir satırı nasıl kaldıracağınızı gösterir.
 
 
 

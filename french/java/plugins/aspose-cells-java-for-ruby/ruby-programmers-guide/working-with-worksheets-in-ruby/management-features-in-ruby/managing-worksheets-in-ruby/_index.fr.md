@@ -1,16 +1,17 @@
-﻿---
-title: Gestion des feuilles de calcul dans Ruby
+---
+title: Gestion des feuilles de calcul en Ruby
 type: docs
 weight: 10
 url: /fr/java/managing-worksheets-in-ruby/
 ---
-## **Aspose.Cells - Gestion des feuilles de travail**
+
+## **Aspose.Cells - Gestion des feuilles de calcul**
 ### **Ajout de feuilles de calcul à un nouveau fichier Excel**
- Pour ajouter une feuille de calcul à un nouveau fichier Excel à l'aide**Aspose.Cells Java pour rubis** , il suffit d'appeler**add_worksheet** méthode de**Gestion des feuilles de travail** module.
+Pour ajouter une feuille de calcul à un nouveau fichier Excel en utilisant Aspose.Cells Java pour Ruby, appeler simplement la méthode add_worksheet du module MangingWorksheets.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet()
 
@@ -40,11 +41,11 @@ end 
 
 {{< /highlight >}}
 ### **Ajout de feuilles de calcul à une feuille de calcul Designer**
-Le processus d'ajout de feuilles de calcul à une feuille de calcul de concepteur est entièrement identique à celui de l'approche ci-dessus, sauf que le fichier Excel est déjà créé et que nous devons d'abord ouvrir ce fichier Excel avant d'y ajouter une feuille de calcul.
+Le processus d'ajout de feuilles de calcul à une feuille de calcul conçue est entièrement identique à celui de l'approche ci-dessus, sauf que le fichier Excel est déjà créé et nous devons d'abord ouvrir ce fichier Excel avant d'ajouter une feuille de calcul.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet_to_designer_spreadsheet()
 
@@ -75,12 +76,12 @@ Le processus d'ajout de feuilles de calcul à une feuille de calcul de concepteu
 end  
 
 {{< /highlight >}}
-### **Accéder aux feuilles de calcul à l'aide du nom de la feuille**
- Pour accéder à la feuille de calcul par nom de feuille à l'aide de**Aspose.Cells Java pour rubis** , il suffit d'appeler**get_worksheet** méthode de**Gestion des feuilles de travail** module.
+### **Accéder aux feuilles de calcul en utilisant le nom de la feuille**
+Pour accéder à une feuille de calcul par son nom de feuille en utilisant Aspose.Cells Java pour Ruby, appeler simplement la méthode get_worksheet du module MangingWorksheets.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_worksheet()
 
@@ -101,12 +102,12 @@ end  
 end
 
 {{< /highlight >}}
-### **Suppression de feuilles de calcul à l'aide du nom de la feuille**
- Pour supprimer une feuille de calcul par nom de feuille à l'aide de**Aspose.Cells Java pour rubis** , il suffit d'appeler**remove_worksheet_by_name** méthode de**Gestion des feuilles de travail** module.
+### **Suppression des feuilles de calcul en utilisant le nom de la feuille**
+Pour supprimer une feuille de calcul par son nom de feuille en utilisant Aspose.Cells Java pour Ruby, appeler simplement la méthode remove_worksheet_by_name du module MangingWorksheets.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_name()
 
@@ -138,12 +139,12 @@ end
 
 
 {{< /highlight >}}
-### **Suppression de feuilles de calcul à l'aide de l'index des feuilles**
- Pour supprimer une feuille de calcul par index de feuille à l'aide de**Aspose.Cells Java pour rubis** , il suffit d'appeler**remove_worksheet_by_index** méthode de**Gestion des feuilles de travail** module.
+### **Suppression des feuilles de calcul en utilisant l'indice de la feuille**
+Pour supprimer une feuille de calcul par son indice de feuille en utilisant Aspose.Cells Java pour Ruby, appeler simplement la méthode remove_worksheet_by_index du module MangingWorksheets.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_index()
 
@@ -174,7 +175,7 @@ end
 end 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Gestion des feuilles de travail (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Managing Worksheets (Aspose.Cells)** depuis l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

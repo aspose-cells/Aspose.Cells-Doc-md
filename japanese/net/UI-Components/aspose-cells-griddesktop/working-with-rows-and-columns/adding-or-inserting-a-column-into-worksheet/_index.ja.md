@@ -1,32 +1,35 @@
-﻿---
+---
 title: ワークシートへの列の追加または挿入
 type: docs
 weight: 10
-url: /ja/net/adding-or-inserting-a-column-into-worksheet/
+url: /ja/net/aspose-cells-griddesktop/add-or-insert-a-column-into-worksheet/
+keywords: GridDesktop,insert,add,column,insert column,insert row
+description: この記事では、GridDesktopで列を挿入または追加する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-このトピックでは、Aspose.Cells.GridDesktop の API を使用して、実行時にワークシートに列を追加および挿入する基本機能について説明します。追加と挿入の基本的な違いは、さらに、ワークシートの列コレクションの最後に列が追加されるのに対し、挿入と同様に、列はワークシートの指定された位置に追加できることです。
+このトピックでは、Aspose.Cells.GridDesktopのAPIを使用して、ワークシートに列を動的に追加および挿入する基本的な機能について説明します。追加と挿入の基本的な違いは、追加では列がワークシートの列コレクションの最後に追加されるのに対して、挿入では任意の指定位置に列を追加できることです。
 
 {{% /alert %}} 
 ## **ワークシートへの列の追加**
-ワークシートに新しい列を追加するには、次の手順に従ってください。
+ワークシートに新しい列を追加するには、以下の手順に従ってください：
 
--  Aspose.Cells.GridDesktop コントロールを**形**
-- 任意のアクセス**ワークシート**
-- 追加**桁**に**ワークシート**
+- Aspose.Cells.GridDesktop コントロールを **Form** に追加します
+- 任意の **Worksheet** にアクセスします
+- **ワークシート**に**列**を追加します
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-AddInsertColumn-AddColumn.cs" >}}
-## **ワークシートへの列の挿入**
-ワークシートの指定した位置に新しい列を挿入するには、次の手順に従ってください。
+## **ワークシートに列を挿入**
+指定された位置に新しい列をワークシートに挿入するには、以下の手順に従ってください：
 
--  Aspose.Cells.GridDesktop コントロールを**形**
-- 任意のアクセス**ワークシート**
-- 入れる**桁**の中へ**ワークシート** （挿入する列のインデックスを指定して特定の位置に）
+- Aspose.Cells.GridDesktop コントロールを **Form** に追加します
+- 任意の **Worksheet** にアクセスします
+- **ワークシート**に**列**を**挿入**します（挿入する位置の列のインデックスを指定することで）
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing first worksheet of the Grid
 

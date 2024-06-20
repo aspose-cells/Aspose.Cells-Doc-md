@@ -1,24 +1,25 @@
-﻿---
-title: Infoga bakgrundsbild till Excel
+---
+title: Infoga bakgrundsbild i Excel
 type: docs
 weight: 90
 url: /sv/python-java/insert-background-image-to-excel/
-description: Hur man infogar bakgrundsbild i Excel med Aspose.Cells for Python via Java
+description: "Hur du infogar en bakgrundsbild i Excel med användning av Aspose.Cells för Python via Java."
 ---
+
 {{% alert color="primary" %}} 
 
-Du kan göra ett kalkylblad mer tilltalande genom att lägga till en bild som kalkylbladsbakgrund. Den här funktionen kan vara ganska effektiv om du har en speciell företagsgrafik som lägger till en antydan om bakgrunden utan att dölja data på arket. Du kan ställa in bakgrundsbild för ett ark med Aspose.Cells API.
+Du kan göra ett kalkylblad mer lockande genom att lägga till en bild som bakgrund. Denna funktion kan vara ganska effektiv om du har en speciell företagsgrafik som lägger till en antydan till bakgrunden utan att dölja data på bladet. Du kan ange bakgrundsbild för ett blad med Aspose.Cells API.
 
 {{% /alert %}} 
 
-## **Inställning av arkbakgrund i Microsoft Excel**
+## **Ange bakgrund på kalkylblad i Microsoft Excel**
 
-Så här ställer du in ett arks bakgrundsbild i Microsoft Excel (till exempel Microsoft Excel 2019):
+För att ange ett kalkylblads bakgrundsbild i Microsoft Excel (t.ex. Microsoft Excel 2019):
 
-1.  Från**Sidlayout** menyn, hitta**Utskriftsformat** och klicka sedan på**Bakgrund** alternativ.
-1. Välj en bild för att ställa in arkets bakgrundsbild.
+1. Från menyn **Sidlayout**, hitta alternativet **Sidlayout** och klicka sedan på alternativet **Bakgrund**.
+1. Välj en bild för att sätta kalkylbladets bakgrundsbild.
 
-## **Inställningsarkbakgrund med Aspose.Cells**
+## **Ange bakgrundsbild med Aspose.Cells**
 
 Koden nedan ställer in en bakgrundsbild med en bild från en ström.
 

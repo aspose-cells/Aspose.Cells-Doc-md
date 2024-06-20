@@ -1,12 +1,13 @@
-﻿---
-title: アンインストール中 Aspose.Cells for Reporting Services
+---
+title: Uninstalling Aspose.Cells for Reporting Services
 type: docs
 weight: 30
 url: /ja/reportingservices/uninstalling-aspose-cells-for-reporting-services/
 ---
-MSI インストーラーを使用して Aspose.Cells for Reporting Services をデプロイした場合は、次の手順に従ってコンポーネントを削除し、関連するデモとドキュメントを完成させてください。
 
-1. から**始める**メニュー、選択**設定**その後**コントロールパネル**.
-1. クリック**プログラムの追加と削除**.
-1. 選択する**Aspose.Cells.ReportingServices**.
-1. クリック**変更/削除** Aspose.Cells.ReportingServices を削除します。
+MSIインストーラーを使用してAspose.Cells for Reporting Servicesを展開した場合、関連するデモおよびドキュメントを含めたコンポーネントを削除する手順は次の通りです。 
+
+1. **Start**メニューから**Settings**を選択し、**Control Panel**を選択します。
+1. **Add/Remove Programs**をクリックします。
+1. **Aspose.Cells.ReportingServices**を選択します。
+1. **Change/Remove**をクリックしてAspose.Cells.ReportingServicesを削除します。

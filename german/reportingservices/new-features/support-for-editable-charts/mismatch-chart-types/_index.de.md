@@ -1,22 +1,23 @@
-﻿---
-title: Mismatch-Diagrammtypen
+---
+title: Nicht übereinstimmende Diagrammtypen
 type: docs
 weight: 40
 url: /de/reportingservices/mismatch-chart-types/
 ---
+
 {{% alert color="primary" %}} 
 
 Einige Diagrammtypen in der Berichtsdefinitionsdatei von SQL Server Reporting Services 2008 sind nicht als Excel-Diagrammtypen verfügbar:
 
-- Line-Stepped
-- Range-Ebene
-- Range-Smooth
-- Range-Spalte
-- Range-Bar
-- Range-ErrorBar
-- Range-BoxPlot
+- Line-Stufen
+- Bereich-Einfach
+- Bereich-Glättung
+- Bereich-Spalte
+- Bereich-Stab
+- Bereich-Fehlerbalken
+- Bereich-Boxplot
 - Form-Trichter
 
-Beim Rendern von Diagrammelementen, die keine entsprechenden Optionen in Microsoft Excel haben, gibt Aspose.Cells sie in Bilder aus.
+Beim Rendern von Diagrammelementen, die in Microsoft Excel keine entsprechenden Optionen haben, gibt Aspose.Cells diese als Bilder aus. 
 
 {{% /alert %}}

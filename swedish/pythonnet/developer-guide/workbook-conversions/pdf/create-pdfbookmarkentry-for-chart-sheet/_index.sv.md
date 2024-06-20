@@ -1,28 +1,29 @@
 ---
-title: Skapa PdfBookmarkEntry för diagramblad
+title: Skapa PdfBookmarkEntry för diagramkalkylblad
 type: docs
 weight: 50
 url: /sv/python-net/create-pdfbookmarkentry-for-chart-sheet/
-description: Lär dig hur du skapar PdfBookmarkEntry för diagramblad med Aspose.Cells for Python via .NET API.
-keywords: Python Create PdfBookmarkEntry for Chart Sheet, Add PdfBookmarkEntry for Chart Sheet using Python, Python Insert PdfBookmarkEntry for Chart Sheet, PdfBookmarkEntry for Chart Sheet in Python
+description: Lär dig hur man skapar PdfBookmarkEntry för diagramkalkylblad med Aspose.Cells för Python via .NET API.
+keywords: Python Skapa PdfBookmarkEntry för diagramkalkylblad, lägg till PdfBookmarkEntry för diagramkalkylblad med Python, Python Infoga PdfBookmarkEntry för diagramkalkylblad, PdfBookmarkEntry för diagramkalkylblad i Python
 ---
-##  **Möjliga användningsscenarier**
 
-Tidigare skulle Aspose.Cells for Python via .NET skapa[**Pdf BookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) för ett vanligt ark. Men nu kan Aspose.Cells for Python via .NET också skapa[**Pdf BookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) för diagramblad. Eftersom diagrambladet inte har någon annan cell förutom cell A1, så kommer det att skapas[**Pdf BookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) endast för cell A1.
+## **Möjliga användningsscenario**
 
-##  **Skapa PdfBookmarkEntry för diagramblad**
+Tidigare skulle Aspose.Cells för Python via .NET skapa [**PdfBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) för en normal ark. Men nu kan Aspose.Cells för Python via .NET också skapa [**PdfBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) för diagramark. Eftersom diagramarket inte har någon annan cell förutom cell A1, skapas [**PdfBookmarkEntry**](https://reference.aspose.com/cells/python-net/aspose.cells.rendering/pdfbookmarkentry/) endast för cell A1.
 
- Följande exempelkod laddar[exempel på Excel-fil](61767756.xlsx) som har fyra ark. Två av dem är normala ark och de andra två är diagramblad. Den skapar fyra bokmärkesposter enligt följande
+## **Skapa PdfBookmarkEntry för diagramblad**
+
+Följande exempelkod laddar in [prov Excelfil](61767756.xlsx) som har fyra ark. Två av dem är normala ark och de andra två är diagramark. Den skapar fyra bokmärkesposter enligt följande
 
 - Bokmärke-I
-- Bokmärke-II-diagram1
+- Bokmärke-II-Chart1
 - Bokmärke-III
-- Bokmärke-IV-diagram2
+- Bokmärke-IV-Chart2
 
- Följande skärmdump visar[utgång PDF](61767757.pdf) genereras av exempelkoden för en referens.
+Följande skärmbild visar [utdata PDF](61767757.pdf) genererad av exemplet.
 
 ![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 
-##  **Exempelkod**
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-CreatePdfBookmarkEntryForChartSheet.py" >}}

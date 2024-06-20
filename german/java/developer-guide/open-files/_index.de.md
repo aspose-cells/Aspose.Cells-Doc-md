@@ -1,32 +1,33 @@
-﻿---
-title: Öffnen von Dateien mit unterschiedlichen Formaten
+---
+title: Öffnen von Dateien mit verschiedenen Formaten
 linktitle: Dateien öffnen
 type: docs
 weight: 10
 url: /de/java/opening-files-with-different-formats/
 ---
+
 {{% alert color="primary" %}}
 
-Entwickler verwenden Aspose.Cells, um Dateien für verschiedene Zwecke zu öffnen. Öffnen Sie beispielsweise eine Datei, um Daten daraus abzurufen, oder verwenden Sie eine vordefinierte Designer-Tabellenkalkulationsdatei, um Ihren Entwicklungsprozess zu beschleunigen. Aspose.Cells ermöglicht es Entwicklern, verschiedene Arten von Quelldateien zu öffnen. Diese Quelldateien können Microsoft-Excel-Berichte, SpreadsheetML-Dateien mit kommagetrennten Werten (CSV), tabulatorgetrennten oder tabulatorgetrennten Werten (TSV) sein. Dieser Artikel beschreibt das Öffnen dieser verschiedenen Quelldateien mit Aspose.Cells.
+Entwickler verwenden Aspose.Cells, um Dateien für verschiedene Zwecke zu öffnen. Zum Beispiel, um Daten daraus abzurufen oder eine vordefinierte Designer-Tabellenkalkulationsdatei zu verwenden, um den Entwicklungsprozess zu beschleunigen. Aspose.Cells ermöglicht es Entwicklern, verschiedene Arten von Quelldateien zu öffnen. Diese Quelldateien können Microsoft Excel-Berichte, SpreadsheetML, durch Kommas getrennte Werte (CSV), tabulatorgetrennte oder tabstoppgetrennte Werte (TSV) sein. Dieser Artikel erörtert das Öffnen dieser verschiedenen Quelldateien mit Aspose.Cells.
 
-Wenn Sie alle unterstützten Dateiformate kennen möchten, lesen Sie bitte die folgenden Seiten:
+Wenn Sie alle unterstützten Dateiformate kennen müssen, verweisen Sie bitte auf die folgenden Seiten:
 [Unterstützte Dateiformate](https://docs.aspose.com/cells/java/supported-file-formats/)
 
 {{% /alert %}}
 
-## **Einfache Möglichkeiten zum Öffnen von Excel-Dateien**
+## **Einfache Möglichkeiten, Excel-Dateien zu öffnen**
 
-### **Öffnung durch Pfad**
+### **Öffnen durch Pfad**
 
-Um eine Microsoft-Excel-Datei mit dem Dateipfad zu öffnen, übergeben Sie den Pfad der Datei als Parameter, während Sie die Instanz von erstellen**[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**Klasse. Der folgende Beispielcode veranschaulicht das Öffnen einer Excel-Datei mithilfe des Dateipfads.
+Um eine Microsoft Excel-Datei unter Verwendung des Dateipfads zu öffnen, übergeben Sie den Pfad der Datei als Parameter beim Erstellen der Instanz der Klasse [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook). Der folgende Beispielcode zeigt das Öffnen einer Excel-Datei unter Verwendung des Dateipfads.
 
 #### **Beispiel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningFilesThroughPath-OpeningFilesThroughPath.java" >}}
 
-### **Öffnung durch Stream**
+### **Öffnen durch Stream**
 
-Manchmal wird die Excel-Datei, die Sie öffnen möchten, als Stream gespeichert. Übergeben Sie in diesem Fall ähnlich wie beim Öffnen einer Datei mit dem Dateipfad den Stream als Parameter, während Sie die instanziieren**[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** Klasse. Der folgende Beispielcode demonstriert das Öffnen einer Excel-Datei mit stream.
+Manchmal wird die Excel-Datei, die Sie öffnen möchten, als Stream gespeichert. In diesem Fall übergeben Sie ähnlich wie beim Öffnen einer Datei unter Verwendung des Dateipfads den Stream als Parameter beim Instanziieren der Klasse [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook). Der folgende Beispielcode zeigt das Öffnen einer Excel-Datei unter Verwendung eines Streams.
 
 #### **Beispiel**
 
@@ -34,29 +35,29 @@ Manchmal wird die Excel-Datei, die Sie öffnen möchten, als Stream gespeichert.
 
 ### **Öffnen von Dateien verschiedener Microsoft Excel-Versionen**
 
- Der Benutzer kann die verwenden**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** -Klasse, um das Format der Excel-Datei mithilfe der**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**Aufzählung.
+Der Benutzer kann die Klasse [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) verwenden, um das Format der Excel-Datei unter Verwendung der Enumerationswert [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) festzulegen.
 
- Das**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**Enumeration enthält viele vordefinierte Dateiformate, von denen einige unten aufgeführt sind.
+Die [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)-Enumeration enthält viele vordefinierte Dateiformate, von denen einige unten aufgeführt sind.
 
-|**Formattypen**|**Beschreibung**|
-|:- |:- |
-|CSV|Stellt eine CSV-Datei dar|
-|Excel97To2003|Stellt eine Excel 97-2003-Datei dar|
-|XLSX|Stellt eine Excel 2007/2010/2013/2016/2019- und Office 365-XLSX-Datei dar|
-|XLSM|Stellt eine Excel 2007/2010/2013/2016/2019- und Office 365-XLSM-Datei dar|
-|Xltx|Stellt eine Excel 2007/2010/2013/2016/2019- und Office 365-Vorlagendatei XLTX dar|
-|Xltm|Stellt eine Excel 2007/2010/2013/2016/2019- und Office 365-Makro-aktivierte XLTM-Datei dar|
-|XLSB|Stellt eine Excel 2007/2010/2013/2016/2019- und Office 365-Binärdatei XLSB dar|
+|**Format-Typen**|**Beschreibung**|
+| :- | :- |
+|Csv|Stellt eine CSV-Datei dar|
+|Excel97To2003|Stellt eine Excel 97 - 2003-Datei dar|
+|Xlsx|Stellt eine Excel 2007/2010/2013/2016/2019 und Office 365 XLSX-Datei dar|
+|Xlsm|Stellt eine Excel 2007/2010/2013/2016/2019 und Office 365 XLSM-Datei dar|
+|Xltx|Stellt eine Excel 2007/2010/2013/2016/2019 und Office 365-Vorlage XLTX-Datei dar|
+|Xltm|Stellt eine Excel 2007/2010/2013/2016/2019 und Office 365 makrofähige XLTM-Datei dar|
+|Xlsb|Stellt eine Excel 2007/2010/2013/2016/2019 und Office 365 binäre XLSB-Datei dar|
 |SpreadsheetML|Stellt eine SpreadsheetML-Datei dar|
-|Tsv|Stellt eine tabulatorgetrennte Wertedatei dar|
+|Tsv|Stellt eine Tabstoppwerte-Datei dar|
 |TabDelimited|Stellt eine tabulatorgetrennte Textdatei dar|
-|Odds|Stellt eine ODS-Datei dar|
-|HTML|Stellt eine HTML-Datei dar|
-|HTML|Stellt eine MHTML-Datei dar|
+|Ods|Stellt eine ODS-Datei dar|
+|Html|Stellt eine HTML-Datei dar|
+|Mhtml|Stellt eine MHTML-Datei dar|
 
 ### **Öffnen von Microsoft Excel 95/5.0-Dateien**
 
- Um Microsoft Excel 95-Dateien zu öffnen, instanziieren Sie die**[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**-Instanz mit dem Pfad oder Stream der Vorlagendatei. Eine Beispieldatei zum Testen des Codes kann unter folgendem Link heruntergeladen werden:
+Um Microsoft Excel 95-Dateien zu öffnen, instanziieren Sie die Instanz von [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) mit dem Pfad oder Stream der Vorlagendatei. Die Beispieldatei zur Codeprüfung kann von folgendem Link heruntergeladen werden:
 
 [Excel95_5.0.xls](Excel95_5.0.xls)
 
@@ -64,31 +65,31 @@ Manchmal wird die Excel-Datei, die Sie öffnen möchten, als Stream gespeichert.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningExcel95_5_0XLSFiles-1.java" >}}
 
-### **Öffnen von Microsoft Excel 97 oder späteren Versionen von XLS-Dateien**
+### **Öffnen von Microsoft Excel 97 oder späteren Versionen XLS-Dateien**
 
- Um XLS-Dateien von Microsoft Excel XLS 97 oder späteren Versionen zu öffnen, instanziieren Sie die**[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**-Instanz mit dem Pfad oder Stream der Vorlagendatei. Oder verwenden Sie die**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** Methode und wählen Sie die aus**[EXCEL_97_TO_2003](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)** Wert in der**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**Aufzählung.
+Um XLS-Dateien von Microsoft Excel XLS 97 oder späteren Versionen zu öffnen, instanziieren Sie die Instanz von [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) mit dem Pfad oder Stream der Vorlagendatei. Oder verwenden Sie die [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)-Methode und wählen Sie den [**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)-Wert in der Enumeration [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 #### **Beispiel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel972003Files-OpeningMicrosoftExcel972003Files.java" >}}
 
-### **Öffnen von Microsoft Excel 2007 oder späteren Versionen von XLSX-Dateien**
+### **Öffnen von Microsoft Excel 2007 oder späteren Versionen XLSX-Dateien**
 
- Um XLSX-Dateien von Microsoft Excel 2007 oder späteren Versionen zu öffnen, instanziieren Sie die**[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**-Instanz mit dem Pfad oder Stream der Vorlagendatei. Oder verwenden Sie die**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** Klasse und wählen Sie die aus**[XLSX](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX)** Wert in der**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**Aufzählung.
+Um XLSX-Dateien von Microsoft Excel 2007 oder späteren Versionen zu öffnen, instanziieren Sie die Instanz von [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) mit dem Pfad oder Stream der Vorlagendatei. Oder verwenden Sie die Klasse [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) und wählen Sie den [**XLSX**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX)-Wert in der Enumeration [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 #### **Beispiel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel2007XlsxFiles-OpeningMicrosoftExcel2007XlsxFiles.java" >}}
 
-### **Öffnen von Dateien mit unterschiedlichen Formaten**
+### **Öffnen von Dateien mit verschiedenen Formaten**
 
-Aspose.Cells ermöglicht Entwicklern das Öffnen von Tabellenkalkulationsdateien mit unterschiedlichen Formaten wie SpreadsheetML, CSV, tabulatorgetrennte Dateien. Um solche Dateien zu öffnen, können Entwickler dieselbe Methode verwenden, die sie zum Öffnen von Dateien verschiedener Microsoft-Excel-Versionen verwenden.
+Mit Aspose.Cells können Entwickler Tabellendateien mit verschiedenen Formaten wie SpreadsheetML, CSV, Tabstopp-getrennte Dateien öffnen. Um solche Dateien zu öffnen, können Entwickler die gleiche Methodik wie für das Öffnen von Dateien verschiedener Microsoft Excel-Versionen verwenden.
 
 ### **Öffnen von SpreadsheetML-Dateien**
 
-SpreadsheetML-Dateien sind die XML-Darstellungen Ihrer Tabellenkalkulationen einschließlich aller Informationen über die Tabellenkalkulation wie Formatierung, Formeln usw. Seit Microsoft Excel XP wird Microsoft Excel eine XML-Exportoption hinzugefügt, die Ihre Tabellenkalkulationen in SpreadsheetML-Dateien exportiert.
+SpreadsheetML-Dateien sind die XML-Repräsentationen Ihrer Tabellenkalkulationen, einschließlich aller Informationen über die Tabellenkalkulation wie Formatierung, Formeln usw. Seit Microsoft Excel XP wurde eine XML-Exportoption zu Microsoft Excel hinzugefügt, die Ihre Tabellenkalkulationen in SpreadsheetML-Dateien exportiert.
 
-Verwenden Sie zum Öffnen von SpreadsheetML-Dateien die**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** Klasse und wählen Sie die aus**[SPREADSHEET_ML](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML)** Wert in der**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**Aufzählung.
+Um SpreadsheetML-Dateien zu öffnen, verwenden Sie die Klasse [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) und wählen Sie den [**SPREADSHEET_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML)-Wert in der Enumeration [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat).
 
 #### **Beispiel**
 
@@ -96,9 +97,9 @@ Verwenden Sie zum Öffnen von SpreadsheetML-Dateien die**[LoadOptions](https://r
 
 ### **Öffnen von CSV-Dateien**
 
-Dateien mit kommagetrennten Werten (CSV) enthalten Datensätze, deren Werte durch Kommas getrennt oder begrenzt sind. In CSV-Dateien werden Daten in einem tabellarischen Format gespeichert, das Felder enthält, die durch Kommas getrennt und durch doppelte Anführungszeichen eingeschlossen sind. Wenn der Wert eines Felds ein doppeltes Anführungszeichen enthält, wird es mit einem Paar doppelter Anführungszeichen maskiert. Sie können auch Microsoft Excel verwenden, um Ihre Tabellenkalkulationsdaten in eine CSV-Datei zu exportieren.
+CSV-Dateien (Comma-Separated Values) enthalten Datensätze, deren Werte durch Kommas getrennt oder voneinander abgegrenzt sind. In CSV-Dateien werden Daten in einem tabellarischen Format gespeichert, bei dem die Felder durch das Komma getrennt und durch das Anführungszeichen gekennzeichnet sind. Enthält der Wert eines Feldes ein Anführungszeichen, wird es durch ein Paar doppelter Anführungszeichen escapet. Sie können auch Microsoft Excel verwenden, um Ihre Tabellendaten in eine CSV-Datei zu exportieren.
 
-Verwenden Sie zum Öffnen von CSV-Dateien die**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** Klasse und wählen Sie die aus**[CSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)** Wert, vordefiniert in der**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**Aufzählung.
+Zum Öffnen von CSV-Dateien verwenden Sie die Klasse [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) und wählen den Wert [**CSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV) aus, der in der Aufzählung [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) vordefiniert ist.
 
 #### **Beispiel**
 
@@ -106,31 +107,31 @@ Verwenden Sie zum Öffnen von CSV-Dateien die**[LoadOptions](https://reference.a
 
 ### **Öffnen von CSV-Dateien und Ersetzen ungültiger Zeichen**
 
-Wenn in Excel eine CSV-Datei mit Sonderzeichen geöffnet wird, werden die Zeichen automatisch ersetzt. Dasselbe wird von Aspose.Cells API durchgeführt, was in dem unten angegebenen Codebeispiel demonstriert wird.
+In Excel werden beim Öffnen einer CSV-Datei mit Sonderzeichen die Zeichen automatisch ersetzt. Das gleiche geschieht auch durch die Aspose.Cells-API, wie im folgenden Codebeispiel demonstriert.
 
 #### **Beispiel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesAndReplacingInvalidCharacters-1.java" >}}
 
-### **Öffnen von CSV-Dateien mit dem bevorzugten Parser**
+### **Öffnen von CSV-Dateien mithilfe des bevorzugten Parsers**
 
-Dies ist nicht immer erforderlich, um die Standard-Parser-Einstellungen zum Öffnen der CSV-Dateien zu verwenden. Manchmal erzeugt das Importieren der Datei CSV nicht die erwartete Ausgabe, da das Datumsformat nicht wie erwartet ist oder leere Felder anders behandelt werden. Für diesen Zweck**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**ist verfügbar, um einen eigenen bevorzugten Parser bereitzustellen, um verschiedene Datentypen gemäß den Anforderungen zu analysieren. Der folgende Beispielcode demonstriert die Verwendung des bevorzugten Parsers.
+Es ist nicht immer notwendig, die Standardparser-Einstellungen für das Öffnen der CSV-Dateien zu verwenden. Manchmal erzeugt das Importieren einer CSV-Datei nicht den erwarteten Output, z. B. ist das Datumsformat nicht wie erwartet oder leere Felder werden unterschiedlich behandelt. Hierfür steht die Klasse [**TxtLoadOptions.PreferredParsers**](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers) zur Verfügung, um den bevorzugten Parser zum Parsen verschiedener Datentypen entsprechend den Anforderungen bereitzustellen. Der folgende Beispielcode zeigt die Verwendung des bevorzugten Parsers.  
 
-Beispiel-Quelldatei und Ausgabedateien können von den folgenden Links heruntergeladen werden, um diese Funktion zu testen.
+Die Quell- und Ausgabedateien können von den folgenden Links heruntergeladen werden, um diese Funktion zu testen.
 
 [samplePreferredParser.csv](samplePreferredParser.csv)
 
-[AusgabebeispielPreferredParser.xlsx](outputsamplePreferredParser.xlsx)
+[outputsamplePreferredParser.xlsx](outputsamplePreferredParser.xlsx)
 
 #### **Beispiel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesWithPreferredParser-1.java" >}}
 
-### **Öffnen von TSV-Dateien (Tabulatorgetrennt).**
+### **Öffnen von TSV (Tab Limited) Dateien**
 
-Tabulatorgetrennte Dateien enthalten Tabellenkalkulationsdaten, jedoch ohne jegliche Formatierung. Daten werden in Zeilen und Spalten wie Tabellen und Tabellenkalkulationen angeordnet. Kurz gesagt, eine tabulatorgetrennte Datei ist eine spezielle Art von einfacher Textdatei mit einem Tabulator zwischen jeder Spalte im Text.
+Tab-stufige Dateien enthalten Tabellendaten, jedoch ohne jegliche Formatierung. Daten sind in Zeilen und Spalten angeordnet, ähnlich wie in Tabellen und Tabellenkalkulationen. Kurz gesagt ist eine tabstufige Datei eine bestimmte Art von Klartextdatei mit einem Tabulator zwischen jeder Spalte in dem Text.
 
-Um tabulatorgetrennte Dateien zu öffnen, sollten Entwickler die**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** Klasse und wählen Sie die aus**[TSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)** Wert, vordefiniert in der**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**Aufzählung.
+Zum Öffnen von tabstoppgetrennten Dateien sollten Entwickler die Klasse [**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions) verwenden und den Wert [**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV) auswählen, der in der Aufzählung [**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) vordefiniert ist.
 
 #### **Beispiel**
 
@@ -138,45 +139,45 @@ Um tabulatorgetrennte Dateien zu öffnen, sollten Entwickler die**[LoadOptions](
 
 ### **Öffnen verschlüsselter Excel-Dateien**
 
-Wir wissen, dass es möglich ist, verschlüsselte Excel-Dateien mit Microsoft Excel zu erstellen. Um solche verschlüsselten Dateien zu öffnen, sollten Entwickler eine spezielle überladene LoadOptions-Methode aufrufen und den DEFAULT-Wert auswählen, der in der FileFormatType-Enumeration vordefiniert ist. Diese Methode würde auch das Passwort für die verschlüsselte Datei verwenden, wie unten im Beispiel gezeigt.
+Wir wissen, dass es möglich ist, verschlüsselte Excel-Dateien mit Microsoft Excel zu erstellen. Um solche verschlüsselten Dateien zu öffnen, sollten Entwickler eine spezielle überladene LoadOptions-Methode aufrufen und den DEFAULT-Wert auswählen, der in der Aufzählung FileFormatType vordefiniert ist. Diese Methode würde auch das Passwort für die verschlüsselte Datei wie im folgenden Beispiel zeigen.
 
 #### **Beispiel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningEncryptedExcelFiles-OpeningEncryptedExcelFiles.java" >}}
 
-Aspose.Cells unterstützt auch das Öffnen passwortgeschützter MS Excel 2013-Dateien.
+Aspose.Cells unterstützt auch das Öffnen von passwortgeschützten MS Excel 2013-Dateien.
 
 {{% alert color="primary" %}}
 
-Es besteht die Möglichkeit, dass der Workbook-Konstruktor beim Laden großer Tabellenkalkulationen System.OutOfMemoryException auslöst. Diese Ausnahme deutet darauf hin, dass der verfügbare Speicher nicht ausreicht, um die Tabelle vollständig in den Speicher zu laden, daher muss die Tabelle geladen werden, während die aktiviert wird[Speichereinstellungen](/cells/de/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
+Es besteht die Möglichkeit, dass der Workbook-Konstruktor eine System.OutOfMemoryException wirft, wenn große Tabellenkalkulationen geladen werden. Diese Ausnahme deutet darauf hin, dass der verfügbare Speicher nicht ausreicht, um die Tabellenkalkulation vollständig in den Speicher zu laden. Daher muss die Tabellenkalkulation unter Aktivierung der [Speichereinstellungen](/cells/de/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/) geladen werden.
 
 {{% /alert %}}
 
-### **Öffnen von SXC-Dateien**
+### **Öffnen von SXC Dateien**
 
-StarOffice Calc ähnelt Microsoft Excel und unterstützt Formeln, Diagramme, Funktionen und Makros. Die mit dieser Software erstellten Tabellenkalkulationen werden mit der Erweiterung SXC gespeichert. Die Datei SXC wird auch für Tabellenkalkulationsdateien von OpenOffice.org Calc verwendet. Aspose.Cells kann SXC-Dateien lesen, wie im folgenden Codebeispiel gezeigt wird.
+StarOffice Calc ist ähnlich wie Microsoft Excel und unterstützt Formeln, Diagramme, Funktionen und Makros. Die mit dieser Software erstellten Tabellenkalkulationen werden mit der SXC-Erweiterung gespeichert. Die SXC-Datei wird auch für OpenOffice.org Calc-Tabellenkalkulationsdateien verwendet. Aspose.Cells kann SXC-Dateien lesen, wie im folgenden Codebeispiel demonstriert wird.
 
 #### **Beispiel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Files-Handling-OpeningSXCFiles-1.java" >}}
 
-### **Öffnen von FODS-Dateien**
+### **Öffnen von FODS Dateien**
 
-FODS-Datei ist eine Tabelle, die ohne Komprimierung in OpenDocument XML gespeichert wurde. Aspose.Cells kann FODS-Dateien lesen, wie im folgenden Codebeispiel gezeigt wird.
+Eine FODS-Datei ist eine Tabellendatei, die im OpenDocument-XML ohne Kompression gespeichert ist. Aspose.Cells kann FODS-Dateien lesen, wie im folgenden Codesample demonstriert.
 
 #### **Beispiel**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Files-Handling-OpeningFODSFiles-1.java" >}}
 
-## **Themen vorantreiben**
-- [Filtern Sie definierte Namen beim Laden der Arbeitsmappe](/cells/de/java/filter-defined-names-while-loading-workbook/)
-- [Filtern Sie Objekte beim Laden der Arbeitsmappe oder des Arbeitsblatts](/cells/de/java/filter-objects-while-loading-workbook-or-worksheet/)
-- [Erhalten Sie Warnungen beim Laden einer Excel-Datei](/cells/de/java/get-warnings-while-loading-excel-file/)
-- [Behalten Sie Trennzeichen für leere Zeilen bei, während Sie Tabellenkalkulationen in das Format CSV exportieren](/cells/de/java/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
-- [Laden Sie die Arbeitsmappe mit dem angegebenen Druckerpapierformat](/cells/de/java/load-workbook-with-specified-printer-paper-size/)
-- [Öffnen verschiedener Microsoft Excel-Versionsdateien](/cells/de/java/opening-different-microsoft-excel-versions-files/)
-- [Optimieren der Speichernutzung beim Arbeiten mit großen Dateien mit großen Datensätzen](/cells/de/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Read Numbers Spreadsheet Entwickelt von Apple Inc. unter Verwendung von Aspose.Cells](/cells/de/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
-- [Lesen von CSV-Datei mit mehreren Codierungen](/cells/de/java/reading-csv-file-with-multiple-encodings/)
-- [Stoppen Sie die Konvertierung oder das Laden mit InterruptMonitor, wenn es zu lange dauert](/cells/de/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
-- [Verwendung von LightCells API](/cells/de/java/using-lightcells-api/)
+## **Erweiterte Themen**
+- [Definierte Namen filtern beim Laden der Arbeitsmappe](/cells/de/java/filter-defined-names-while-loading-workbook/)
+- [Objekte filtern beim Laden einer Arbeitsmappe oder eines Arbeitsblatts](/cells/de/java/filter-objects-while-loading-workbook-or-worksheet/)
+- [Warnungen beim Laden von Excel-Dateien erhalten](/cells/de/java/get-warnings-while-loading-excel-file/)
+- [Trennzeichen für leere Zeilen beim Exportieren von Tabellenkalkulationen im CSV-Format beibehalten](/cells/de/java/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
+- [Arbeitsmappe mit angegebener Druckerpapiergröße laden](/cells/de/java/load-workbook-with-specified-printer-paper-size/)
+- [Öffnen von verschiedenen Microsoft Excel-Versionen Dateien](/cells/de/java/opening-different-microsoft-excel-versions-files/)
+- [Optimierung des Speicherverbrauchs beim Arbeiten mit großen Dateien und umfangreichen Datensätzen](/cells/de/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
+- [Zahlen-Tabellenkalkulation von Apple Inc. mit Aspose.Cells lesen](/cells/de/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Lesen von CSV-Dateien mit verschiedenen Codierungen](/cells/de/java/reading-csv-file-with-multiple-encodings/)
+- [ Konvertierung oder Laden mit InterruptMonitor stoppen, wenn es zu lange dauert](/cells/de/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
+- [Verwendung der LightCells-API](/cells/de/java/using-lightcells-api/)

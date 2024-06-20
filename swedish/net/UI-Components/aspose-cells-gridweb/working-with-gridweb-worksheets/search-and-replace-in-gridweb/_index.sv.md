@@ -1,73 +1,76 @@
-﻿---
+---
 title: Sök och ersätt i GridWeb
 type: docs
 weight: 90
-url: /sv/net/search-and-replace-in-gridweb/
+url: /sv/net/aspose-cells-gridweb/search-and-replace-in-gridweb/
+keywords: GridWeb,sök,ersätt
+description: Den här artikeln introducerar hur man söker och ersätter i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Ett av de snabbaste sätten att göra repetitiva ändringar i ett stort kalkylblad är att använda sök- och ersätt-funktionen. Find hjälper dig att hitta en textsträng eller data och ersätta den med ett nytt värde. Aspose.Cells.GridWeb tillhandahåller denna funktion. Det gör att du kan söka efter och ersätta med en specifik textsträng eller värde i kalkylbladets klientsida genom en enkel dialog. Det låter dig till och med leta efter partiella data.
+Ett av de snabbaste sätten att göra upprepande ändringar i en stor kalkylblad är att använda funktionen Hitta och ersätt. Hitta hjälper dig att hitta en textsträng eller data och ersätta det med ett nytt värde. Aspose.Cells.GridWeb ger denna funktion. Den gör det möjligt för dig att söka efter och ersätta med en specifik textsträng eller värde i kalkylarket klient-sida genom en enkel dialogruta. Den låter dig till och med söka efter partiella data.
 
 {{% /alert %}} 
-## **Arbeta med Find/Replace**
-### **Dialogrutan Sök/Ersätt**
-Det finns två sätt att öppna dialogrutan Sök/Ersätt:
+## **Arbeta med Hitta/Ersätt**
+### **Hitta/Ersätt Dialogrutan**
+Det finns två sätt att öppna Hitta/Ersätt dialogrutan på:
 
-1.  När kontrollen är aktiv, tryck**CTRL+F** för att öppna dialogrutan, eller tryck**CTRL+R** för att öppna dialogrutan med**Byta ut** knappen aktiverad.
-1.  Flytta markören till cellområdet i kalkylbladet och högerklicka sedan. Välj**Hitta** eller**Byta ut** från menyn.
+1. När kontrollen är aktiv, tryck på **CTRL+F** för att öppna dialogrutan, eller tryck på **CTRL+R** tangenten för att öppna dialogrutan med **Ersätt**-knappen aktiverad.
+1. Flytta markören till cellområdet i kalkylbladet, högerklicka sedan. Välj **Hitta** eller **Ersätt** från menyn. 
 
-   **Välj Sök** 
+   **Välja Hitta** 
 
 ![todo:image_alt_text](search-and-replace-in-gridweb_1.png)
 
 
 
 
- En stildialogruta visas.
+En stil dialogruta visas. 
 
-**Dialogrutan Sök/ersätt** 
+**Hitta/ersätt dialogrutan** 
 
 ![todo:image_alt_text](search-and-replace-in-gridweb_2.png)
-### **Använder Hitta**
-Att söka:
+### **Använda Hitta**
+För att söka:
 
-1. Öppna dialogrutan Sök/Ersätt.
-1.  Skriv strängen du vill söka efter i**Hitta vad** fält.
-1.  Klick**Hitta nästa** att söka.
+1. Öppna Hitta/ersätt dialogrutan.
+1. Skriv in den sträng du vill söka efter i fältet **Hitta vad**.
+1. Klicka på **Hitta nästa** för att söka.
 
-Nästa cell som matchar ditt sökvillkor är markerad.
+Nästa cell som matchar din sökning markeras.
 
 {{% alert color="primary" %}} 
 
-Om ditt sökkriterium inte hittas visas en dialogruta som talar om för dig.
+Om din sökfråga inte hittas visas en dialogruta för att meddela dig.
 
 {{% /alert %}} 
 ### **Sökalternativ**
 Det finns några sökalternativ som du kan anpassa i dialogrutan. Tabellen nedan listar dem.
 
-|**Nej.** |**Alternativets namn** |**Beskrivning** |
-|:- |:- |:- |
-|1 | Liknande fall| Anger om skiftlägeskänsligt ska användas vid sökning.|
-|2 | Matcha hela ordet| Anger om hela ordet ska matchas vid sökning.|
-|3 | Sök upp|Indikerar om sökningen kommer att göras från botten till toppen.|
-|4 | Vanligt uttryck| När den är markerad kommer kontrollen att behandla strängen i textrutan Hitta vad som ett reguljärt uttryck i sökprocessen.|
-|5 | Hitta i Formler/Värden| När formlerna är vald kommer kontrollen att matcha formeln eller det oformaterade värdet för cellerna om formeln eller det oformaterade värdet finns. När värden är vald kommer kontrollen endast att matcha det visade värdet för cellerna.|
-### **Använder Ersätt**
-Så här ersätter du text eller värden:
+|**Nr.** |**Alternativnamn** |**Beskrivning** |
+| :- | :- | :- |
+|1 |Matcha skiftläge |Indikerar om sökning ska vara skiftlägeskänslig. |
+|2 |Matcha helt ord |Indikerar om hela ordet ska matchas i sökningen. |
+|3 |Sök uppåt |Indikerar om sökningen ska göras från botten till toppen. |
+|4 |Reguljärt uttryck |När det är markerat kommer kontrollen att behandla strängen i fältet Hitta vad som ett reguljärt uttryck i sökprocessen. |
+|5 |Hitta i formler/värden |När Formler är valt matchar kontrollen formeln eller den oformaterade värdet för cellerna om formeln eller det oformaterade värdet är närvarande. När Värden är valt matchar kontrollen endast det visade värdet för cellerna. |
+### **Använda Ersätt**
+För att ersätta text eller värden:
 
-1.  Öppna dialogrutan Sök/Ersätt genom att trycka på**CTRL+F** , eller välj högerklicka på en cell och välj**Hitta** innan du klickar**Byta ut**.
-1.  Skriv ersättningssträngen i**Ersätta med** fält.
-1.  Klick**Byta ut**.
+1. Öppna Hitta/ersätt dialogrutan genom att trycka på **CTRL+F**, eller högerklicka på en cell och välj **Hitta** innan du klickar på **Ersätt**.
+1. Skriv in ersättningssträngen i fältet **Ersätt med**.
+1. Klicka på **Ersätt**.
 
-Så här ersätter du text:
+För att ersätta text:
 
 1. Öppna dialogrutan.
-1.  Skriv in texten du vill hitta i**Hitta vad** och texten du vill ersätta den med i**Ersätta med** fält.
-1.  Ersätt en förekomst i taget genom att klicka**Hitta nästa** följd av**Byta ut**.
-1.  Om du är väldigt säker på vad arbetsbladet innehåller, klicka**Ersätt alla**.
+1. Skriv in den text du vill hitta i fältet **Hitta vad**, och den text du vill ersätta den med i fältet **Ersätt med**.
+1. Ersätt en förekomst åt gången genom att klicka på **Hitta nästa** följt av **Ersätt**.
+1. Om du är väldigt säker på vad arbetsbladet innehåller, klicka på **Ersätt alla**.
 
 {{% alert color="primary" %}} 
 
- Om kalkylbladet inte är i redigeringsläge,**Byta ut** knappen visas inte.
+Om arbetsbladet inte är i redigeringsläge visas inte **Ersätt**-knappen.
 
 {{% /alert %}}

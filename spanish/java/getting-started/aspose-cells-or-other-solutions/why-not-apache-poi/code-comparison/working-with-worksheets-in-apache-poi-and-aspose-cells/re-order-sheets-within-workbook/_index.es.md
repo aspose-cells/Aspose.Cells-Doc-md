@@ -1,15 +1,16 @@
-﻿---
-title: Reordenar hojas dentro del libro de trabajo
+---
+title: Reordenar Hojas Dentro del Libro de Trabajo
 type: docs
 weight: 50
 url: /es/java/re-order-sheets-within-workbook/
 ---
-## **Aspose.Cells - Reordenar hojas dentro del libro de trabajo**
-Aspose.Cells proporciona un método, Worksheet.moveTo(), que se usa para mover una hoja de trabajo a otra ubicación en la misma hoja de cálculo.
+
+## **Aspose.Cells - Reordenar Hojas Dentro del Libro de Trabajo**
+Aspose.Cells proporciona un método, Worksheet.moveTo(), utilizado para mover una hoja de cálculo a otra ubicación en la misma hoja de cálculo.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a new Workbook.
 
@@ -36,12 +37,12 @@ worksheet3.moveTo(2);
 workbook.save(dataDir + "AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Reordenar hojas dentro del libro de trabajo**
-Apache POI proporciona el método Workbook.setSheetOrder() para configurar las hojas de trabajo en el orden requerido.
+## **Apache POI SS - HSSF XSSF - Reordenar Hojas Dentro del Libro de Trabajo**
+Apache POI proporciona el método Workbook.setSheetOrder() para establecer las hojas de cálculo en el orden requerido.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/reordersheets)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Copiar y mover hojas de trabajo](/cells/es/java/copying-and-moving-worksheets).
+Para obtener más detalles, visite [Copiar y mover hojas de cálculo](/cells/es/java/copia-y-movimiento-de-hojas-de-calculo).
 
 {{% /alert %}}

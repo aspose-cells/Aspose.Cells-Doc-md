@@ -1,16 +1,17 @@
-﻿---
-title: Få varningar när du laddar Excel-fil
+---
+title: Få varningar när Excel filen laddas
 type: docs
 weight: 110
 url: /sv/net/get-warnings-while-loading-excel-file/
 ---
-## **Möjliga användningsscenarier**
 
-Ibland försöker användaren ladda arbetsboken som är något korrupt men laddningsbar. I sådana fall skickar Aspose.Cells varningar när arbetsboken laddas. Du kan fånga dessa varningar genom att implementera**[IWarningCallback](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback)** gränssnitt och inställning**[LoadOptions.WarningCallback](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/warningcallback)**fast egendom.
+## **Möjliga användningsscenario**
 
-## **Få varningar när du laddar Excel-fil**
+Ibland försöker användaren ladda arbetsboken som är något korrupt men laddningsbar. I sådant fall kastar Aspose.Cells varningar när arbetsboken laddas. Du kan fånga dessa varningar genom att implementera [**IWarningCallback**](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback) gränssnittet och ställa in [**LoadOptions.WarningCallback**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/warningcallback) egenskapen.
 
- Följande exempelkod förklarar hur du får varningar när du laddar excel-fil. Koden laddar[exempel på excel-fil](sampleDuplicateDefinedName.xlsx) som kastar**[DuplicateDefinedName](https://reference.aspose.com/cells/net/aspose.cells/warningtype)** varning vid lastning. Denna varning fångas sedan av**[IWarningCallback.Warning()](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback/methods/warning)** metod som skriver ut varningsmeddelanden på konsolen. Koden sparar sedan arbetsboken som[output excel-fil](outputDuplicateDefinedName.xlsx)Om du öppnar exemplet på Excel-filen i Microsoft Excel, kommer den också att visa dig denna varning som visas i den här skärmdumpen. Vänligen kontrollera också konsolutgången för koden nedan för mer förståelse.
+## **Få varningar vid inläsning av Excel-fil**
+
+Följande exempelkod förklarar hur man får varningar när man laddar excelfil. Koden laddar [exempelfilen](sampleDuplicateDefinedName.xlsx) som kastar [**DuplicateDefinedName**](https://reference.aspose.com/cells/net/aspose.cells/warningtype) varning vid laddning. Denna varning fångas sedan av [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/net/aspose.cells/iwarningcallback/methods/warning) metoden som skriver ut varningsmeddelandena på konsolen. Koden sparar sedan arbetsboken som [utdata-excel-filen](outputDuplicateDefinedName.xlsx). Om du öppnar exempelfilen i Microsoft Excel kommer den också visa dig denna varning som visas på denna skärmbild. Kolla också konsolens utdata för den här koden nedan för mer förståelse.
 
 ![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
@@ -18,11 +19,11 @@ Ibland försöker användaren ladda arbetsboken som är något korrupt men laddn
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-GetWarningsWhileLoadingExcelFile.cs" >}}
 
-## **Konsolutgång**
+## **Konsoloutput**
 
- Här är konsolutgången för ovanstående kod när den körs med den medföljande[exempel på excel-fil](sampleDuplicateDefinedName.xlsx).
+Här är konsolens utdata för ovanstående kod när den körs med den medföljande [exempelfilen](sampleDuplicateDefinedName.xlsx).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Introduction!$D$16:$D$17
 

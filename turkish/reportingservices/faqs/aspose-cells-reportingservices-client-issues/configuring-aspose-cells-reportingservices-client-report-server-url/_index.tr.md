@@ -1,30 +1,31 @@
-﻿---
-title: Aspose.Cells.ReportingServices İstemci Rapor Sunucusu URL'sini Yapılandırma
+---
+title: Aspose.Cells.ReportingServices İstemci Rapor Sunucusu URL sini Yaplandırma
 type: docs
 weight: 40
 url: /tr/reportingservices/configuring-aspose-cells-reportingservices-client-report-server-url/
 ---
-Bir istemci Rapor Sunucusu URL'si yapılandırmak için:
 
-1.  Tıkla**Uzak Raporu Aç** düğmesine basın ve**Raporu Al** iletişim kutusu.
+İstemci Rapor Sunucu URL'sini yapılandırmak için:
 
-![yapılacaklar:resim_alternatif_metin](configuring-aspose-cells-reportingservices-client-report-server-url_1.png)
+1. **Uzak Raporu Aç** düğmesine tıklayın ve **Raporu Al** iletişim kutusunu alın. 
 
-1.  Tıkla**Yapılandırma** düğme ve al**Rapor Sunucusu URL Kurulumu** diyalog
+![todo:image_alt_text](configuring-aspose-cells-reportingservices-client-report-server-url_1.png)
 
-![yapılacaklar:resim_alternatif_metin](configuring-aspose-cells-reportingservices-client-report-server-url_2.png)
+1. **Yapılandır** düğmesine tıklayın ve **Rapor Sunucusu URL Kurulumu** iletişim kutusunu alın. 
 
-1. Rapor sunucusu yapılandırma bilgilerini girin (URL, kullanıcı adı ve parola).
- 1. Rapor Sunucusu URL'si http://host/ReportServer biçiminde olmalıdır. Örneğin http://172.16.204.11/ReportServer.
-1. Kullanıcı adı, Windows Sunucusu kullanıcı adıdır. Örneğin, Yönetici.
- 1. Parola, Windows Server kullanıcı parolasıdır. Örneğin, 123456.
- 1. Etki Alanının varsayılan değeri null'dur.
-1.  Tıkla**Ölçek** Yapılandırma bilgilerini kontrol etmek için düğme.
-1.  Tıklamak**Kayıt etmek** ve rapor sunucusu yapılandırma bilgilerini kaydedin.
+![todo:image_alt_text](configuring-aspose-cells-reportingservices-client-report-server-url_2.png)
 
-![yapılacaklar:resim_alternatif_metin](configuring-aspose-cells-reportingservices-client-report-server-url_3.png)
+1. Rapor sunucusu yapılandırma bilgilerini (URL, kullanıcı adı ve şifre) girin.
+   1. Rapor Sunucu URL'si http://host/ReportSunucusu formatında olmalıdır. Örneğin http://172.16.204.11/ReportSunucusu.
+   1. Kullanıcı adı Window Sunucusu kullanıcı adıdır. Örneğin, Yönetici.
+   1. Şifre, Window Sunucusu kullanıcı şifresidir. Örneğin, 123456.
+   1. Alanın varsayılan değeri null'dur.
+1. Yapılandırma bilgilerini kontrol etmek için **Test** düğmesine tıklayın.
+1. **Kaydet** öğesine tıklayın ve rapor sunucusu yapılandırma bilgilerini kaydedin.
+
+![todo:image_alt_text](configuring-aspose-cells-reportingservices-client-report-server-url_3.png)
 
 
 
 
-1.  Tıklamak**Değiştir** Yapılandırma bilgilerini değiştirmek için düğme.
+1. Yapılandırma bilgilerini değiştirmek için **Değiştir** düğmesine tıklayın.

@@ -1,27 +1,28 @@
-﻿---
-title: Gruppenfunktion im Aspose.Cells for Reporting Services Client hinzufügen
+---
+title: Fügt die Gruppenfunktion im Aspose.Cells for Reporting Services Client hinzu
 type: docs
 weight: 120
 url: /de/reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/
 ---
-Es legt die Gruppenattribute des Tabellenberichtselements über Attribute ändern fest. Zu den Parametern gehören Type, Name, Level und Hide.
 
-- Typ steht für Gruppentyp. Es umfasst eine Zeilengruppe und eine Spaltengruppe.
-- Name steht für Gruppenname.
-- Die Ebene repräsentiert die Gruppenebene.
-- Verbergen steht für Gruppenverbergen.
+Setzt die Gruppenattribute des Tabellenberichtselements durch das Ändern von Attributen. Die Parameter umfassen Typ, Name, Ebene und Ausblenden.
 
-Das Ändern des Berichts umfasst die folgenden Schritte:
-Öffnen Sie das Dialogfeld „Bericht ändern“ und wählen Sie die Registerkarte Gliederung.
+- Typ repräsentiert den Gruppentyp. Es umfasst Zeilengruppe und Spaltengruppe.
+- Name repräsentiert den Gruppennamen.
+- Ebene repräsentiert die Gruppenebene.
+- Ausblenden repräsentiert das Gruppenausblenden.
 
-![todo: Bild_alt_Text](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
+Das Modifizieren des Berichts umfasst die folgenden Schritte:
+Öffnen Sie das Dialogfeld „Bericht ändern“ und wählen Sie die Registerkarte Gliederung aus.
 
-
- Klicken**Ändern** klicken und Konfiguration ausblenden aktualisieren.
-
-![todo: Bild_alt_Text](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
 
 
- Klicken**Begehen** Schaltfläche und speichern Sie die Hide-Konfigurationen.
+Klicken Sie auf die Schaltfläche **Ändern** und aktualisieren Sie die Ausblendekonfiguration. 
 
-![todo: Bild_alt_Text](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
+
+
+Klicken Sie auf die Schaltfläche **Bestätigen** und speichern Sie die Ausblendekonfigurationen. 
+
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)

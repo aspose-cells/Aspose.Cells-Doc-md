@@ -1,16 +1,17 @@
-﻿---
-title: Définir le commentaire d'un objet de table ou de liste
+---
+title: Définir le commentaire de la table ou de l objet Liste
 type: docs
 weight: 60
 url: /fr/python-java/set-the-comment-of-table-or-list-object/
 ---
-## **Définir le commentaire de la table ou de l'objet de liste dans la feuille de calcul**
-Aspose.Cells for Python via Java prend en charge l'ajout du commentaire de l'objet de liste. Pour cela, le API fournit le[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)la propriété. Le commentaire ajouté par le[ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment)propriété sera visible à l'intérieur du*xl/tables/tableName.xml* dossier.
 
-La capture d'écran suivante montre le commentaire créé par l'exemple de code dans le rectangle rouge.
+## **Définir le Commentaire d'un Tableau ou Objet Liste à l'intérieur de la Feuille de Calcul**
+Aspose.Cells for Python via Java prend en charge l'ajout de commentaire à un objet Liste. Pour cela, l'API fournit la propriété [ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment). Le commentaire ajouté par la propriété [ListObject.Comment](https://reference.aspose.com/cells/python/asposecells.api/listobject#Comment) sera visible à l'intérieur du fichier *xl/tables/tableName.xml*.
 
-![tâche : image_autre_texte](setting-list-object-comment.png)
+La capture d'écran suivante montre le commentaire créé par le code d'exemple dans le rectangle rouge.
 
-L'exemple de code suivant charge le[fichier excel source](source.xlsx), définit le commentaire du premier objet de table ou de liste dans la feuille de calcul
+![todo:image_alt_text](setting-list-object-comment.png)
+
+Le code d'exemple suivant charge le [fichier Excel source](source.xlsx), définit le commentaire du premier tableau ou objet liste dans la feuille de calcul 
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Tables-SetTheCommentOfTableOrListObject.py" >}}

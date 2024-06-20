@@ -1,18 +1,19 @@
-﻿---
-title: PDF へのレンダリング中に、MS Excel ワークブックの外部リソースの読み込みを制御します
+---
+title: PDFにレンダリングする際のMS Excelワークブックの外部リソースの読み込みを制御する
 type: docs
 weight: 40
 url: /ja/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/
 ---
-## **考えられる使用シナリオ**
 
-Excel ファイルには、リンクされた画像やオブジェクトなどの外部リソースが含まれている場合があります。 Excel ファイルを PDF に変換すると、Aspose.Cells はこれらの外部リソースを取得し、それらを PDF にレンダリングします。これを使用して行うことができます[**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider)を実装する[**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)インターフェース。
+## **可能な使用シナリオ**
 
-## **PDF へのレンダリング中に、MS Excel ワークブックの外部リソースの読み込みを制御します**
+Excel ファイルには、リンクされた画像やオブジェクトなどの外部リソースが含まれている場合があります。Excel ファイルを PDF に変換すると、Aspose.Cells はこれらの外部リソースを取得してそれらを PDF にレンダリングします。しかし、時々これらの外部リソースをロードしたくないだけでなく、操作したい場合があります。これは、[**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) で実装された [**IStreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) インターフェースを使用することで可能です。
 
-次のサンプル コードは、[**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider)外部リソースのロードを制御し、それらを操作します。を確認してください[サンプル Excel ファイル](50528322.xlsx)コード内で使用され、[出力 PDF](50528325.pdf)コードによって生成されます。の[スクリーンショット](50528326.png)方法を示します[古い外観イメージ](50528324.png)サンプル Excel ファイルの[新しいイメージ](50528323.png)出力 PDF で。
+## **PDFに変換する際のMS Excelブックの外部リソースの読み込みを制御する**
 
-![todo:画像_代替_文章](control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf_1.png)
+次のサンプルコードでは、[**WorkbookSettings.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) を使用して外部リソースの読み込みを制御し、それらを操作する方法について説明しています。コード内で使用される [サンプル Excel ファイル](50528322.xlsx) とコードによって生成された [出力 PDF](50528325.pdf) 、[スクリーンショット](50528326.png)をご確認ください。[サンプル Excel ファイル](50528324.png) の [古い外部イメージ](50528324.png) が [新しいイメージ](50528323.png) に置換された様子が示されています。
+
+![todo:image_alt_text](control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf_1.png)
 
 ## **サンプルコード**
 

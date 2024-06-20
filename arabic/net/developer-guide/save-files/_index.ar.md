@@ -1,99 +1,100 @@
 ---
 title: طرق مختلفة لحفظ الملفات
-linktitle: احفظ الملفات
+linktitle: حفظ الملفات
 type: docs
 weight: 40
 url: /ar/net/different-ways-to-save-files/
-description: Aspose.Cells for .NET يمكنه حفظ الملفات بتنسيقات مختلفة. احفظ الملفات في PDF. احفظ الملفات في HTML. احفظ الملفات في DOCX. احفظ الملفات في PPTX. احفظ الملفات في JSON. احفظ الملفات في MHTML.
-keywords: Aspose.Cells Save Excel to PDF, HTML, JSON, CSV, TXT, XML, DOCX, PPTX, MHT, MHTML and so on using C#, Save or Convert Workbook to PDF HTML JSON TXT SQL in C#.
+description: يمكن لـAspose.Cells for .NET حفظ الملفات بتنسيقات مختلفة. حفظ الملفات إلى PDF. حفظ الملفات إلى HTML. حفظ الملفات إلى DOCX. حفظ الملفات إلى PPTX. حفظ الملفات إلى JSON. حفظ الملفات إلى MHTML.
+keywords: ‏Aspose.Cells Save Excel إلى PDF، HTML، JSON، CSV، TXT، XML، DOCX، PPTX،‏ MHT، MHTML، وغيرها باستخدام C#، حفظ أو تحويلسجل عمل إلى PDF‏ HTML‏ JSON‏ TXT‏ SQL في C#.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells يجعل من الممكن إنشاء وحفظ الملفات. تشرح هذه المقالة الطرق المختلفة التي يمكن من خلالها حفظ الملفات.
+‏تجعل Aspose.Cells من الممكن إنشاء الملفات وحفظها. يشرح هذا المقال الطرق المختلفة التي يمكن بها حفظ الملفات.
 
 {{% /alert %}}
 
-##  **طرق مختلفة لحفظ الملفات**
+## **طرق مختلفة لحفظ الملفات**
 
- Aspose.Cells يوفر**[المصنف](https://reference.aspose.com/cells/net/aspose.cells/workbook)** والذي يمثل ملف Excel Microsoft ويوفر الخصائص والأساليب اللازمة للعمل مع ملفات Excel. ال**[المصنف](https://reference.aspose.com/cells/net/aspose.cells/workbook)** يوفر الفصل**[حفظ](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** الطريقة المستخدمة لحفظ ملفات Excel. ال**[حفظ](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**تحتوي الطريقة على العديد من الأحمال الزائدة التي تستخدم لحفظ الملفات بطرق مختلفة.
+توفر Aspose.Cells فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، التي تمثل ملف Microsoft Excel وتوفر الخصائص والطرق الضرورية للعمل مع ملفات Excel. توفر فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) طريقة [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) المستخدمة لحفظ ملفات Excel. تحتوي الطريقة [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index) على العديد من الأوزان المستخدمة لحفظ الملفات بطرق مختلفة.
 
- يتم تحديد تنسيق الملف الذي يتم حفظ الملف فيه بواسطة**[حفظ التنسيق](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**تعداد
+يتم تقرير تنسيق الملف الذي يتم حفظ الملف إليه بواسطة تعداد [**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat).
 
-|**أنواع تنسيقات الملفات**|**وصف**|
+|**أنواع تنسيق الملفات**|**الوصف**|
 | :- | :- |
 |CSV|يمثل ملف CSV|
-|Excel97To2003|يمثل ملف Excel 97 - 2003|
-|XLSX|يمثل ملف Excel 2007 XLSX|
-|XLSM|يمثل ملف Excel 2007 XLSM|
-|XLTX|يمثل ملف قالب Excel 2007 رقم XLTX|
-|XLTM|يمثل ملف Excel 2007 الممكّن بماكرو XLTM|
-|XLSB|يمثل ملف Excel 2007 الثنائي XLSB|
-|SpreadsheetML|يمثل ملف جدول بيانات XML|
-|TSV|يمثل ملف قيم مفصولة بعلامات جدولة|
-|TabDelimited|يمثل ملف نصي محدد بعلامات جدولة|
+|Excel97To2003| يمثل ملف Excel 97-2003|
+||Xlsx| يمثل ملف Excel 2007 XLSX|
+||Xlsm| يمثل ملف Excel 2007 XLSM|
+||Xltx| يمثل قالب Excel 2007 XLTX|
+||Xltm| يمثل ملف Excel 2007 الممكن للتشغيل الآلي XLTM|
+|Xlsb| يمثل ملف XLSB بتنسيق Excel 2007 الثنائي
+|SpreadsheetML| يمثل ملف XML لجدول بيانات
+|TSV|يمثل ملف قيم مفصولة بعلامة التبويب|
+|TabDelimited|يمثل ملف نصي بقيم مفصولة بواسطة علامة التبويب|
 |ODS|يمثل ملف ODS|
-|لغة البرمجة|يمثل HTML ملف (ملفات)|
-|أتش تي أم أل|يمثل ملف (ملفات) MHTML|
-|بي دي إف|يمثل ملف PDF|
-|XPS|يمثل وثيقة XPS|
-|TIFF|يمثل تنسيق ملف الصور الموسوم (TIFF)|
+|Html| يمثل ملف HTML
+|MHtml| يمثل ملف MHTML
+|Pdf| يمثل ملف PDF
+|XPS| يمثل مستند XPS
+|TIFF| يمثل ملف TIFF
 
-##  **كيفية حفظ الملف بتنسيقات مختلفة**
+## **كيفية حفظ الملف بتنسيقات مختلفة**
 
-لحفظ الملفات في موقع تخزين، حدد اسم الملف (مكتملًا بمسار التخزين) وتنسيق الملف المطلوب (من ملف**[حفظ التنسيق](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** التعداد) عند استدعاء**[المصنف](https://reference.aspose.com/cells/net/aspose.cells/workbook)** أشياء**[حفظ](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**طريقة.
+لحفظ الملفات في موقع تخزين، حدد اسم الملف (مع المسار التخزيني الكامل) وتنسيق الملف المطلوب (من تعداد [**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)) عند استدعاء طريقة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) للكائن [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 
-##  **كيفية حفظ المصنف إلى PDF**
-تنسيق المستندات المحمولة (PDF) هو نوع من المستندات تم إنشاؤه بواسطة Adobe في التسعينيات. كان الغرض من تنسيق الملف هذا هو تقديم معيار لتمثيل المستندات والمواد المرجعية الأخرى بتنسيق مستقل عن البرامج التطبيقية والأجهزة بالإضافة إلى نظام التشغيل. يتمتع تنسيق الملف PDF بقدرة كاملة على احتواء معلومات مثل النصوص والصور والارتباطات التشعبية وحقول النماذج والوسائط الغنية والتوقيعات الرقمية والمرفقات وبيانات التعريف والميزات الجغرافية المكانية والكائنات ثلاثية الأبعاد التي يمكن أن تصبح جزءًا من المستند المصدر.
+## **كيفية حفظ الكتاب الدراسي إلى صيغة PDF**
+صيغة ملف الـ PDF هي نوع من المستندات التي تم إنشاؤها من قبل Adobe في تسعينيات القرن الماضي. الغرض من هذه الصيغة كان تقديم معيار لتمثيل المستندات والمواد المرجعية الأخرى في صيغة مستقلة من البرامج التطبيقية والأجهزة وكذلك نظام التشغيل. تحتوي صيغة ملف الـ PDF بالكامل على القدرة على استيعاب معلومات مثل النصوص والصور والروابط الفائقة وحقول النماذج ووسائط غنية والتواقيع الرقمية والمرفقات والبيانات الوصفية والميزات الجغرافية والأجسام ثلاثية الأبعاد التي يمكن أن تصبح جزءًا من المستند المصدر
 
-الكود التالي يوضح كيفية حفظ المصنف كملف pdf مع Aspose.Cells:
+تظهر الأكواد التالية كيفية حفظ الكتاب الدراسي كملف PDF باستخدام Aspose.Cells
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Save-As-Pdf.cs" >}}
 
-##  **كيفية حفظ المصنف إلى نص أو تنسيق CSV**
+## **كيفية حفظ الكتاب الدراسي إلى تنسيق نصي أو CSV**
 
-في بعض الأحيان، قد ترغب في تحويل مصنف يحتوي على أوراق عمل متعددة أو حفظه إلى تنسيق نصي. بالنسبة لتنسيقات النص (على سبيل المثال TXT، TabDelim، CSV، وما إلى ذلك)، بشكل افتراضي، يقوم كل من Microsoft Excel وAspose.Cells بحفظ محتويات ورقة العمل النشطة فقط.
+في بعض الأحيان ، تريد تحويل أو حفظ دفتر عمل بعدة ورقات عمل إلى تنسيق نصي. بالنسبة لتنسيقات النص (مثل TXT، TabDelim، CSV، إلخ) ، يحفظ كل من Microsoft Excel وAspose.Cells افتراضيًا محتويات الورقة العمل النشطة فقط.
 
-يشرح مثال التعليمات البرمجية التالي كيفية حفظ مصنف بأكمله بتنسيق نصي. قم بتحميل المصنف المصدر الذي يمكن أن يكون أي ملف جدول بيانات Excel أو OpenOffice Microsoft (مثل XLS، XLSX، XLSM، XLSB، ODS وما إلى ذلك) مع أي عدد من أوراق العمل.
+يوضح مثال الكود التالي كيفية حفظ دفتر عمل بأكمله في تنسيق نصي. يُحمّل دفتر العمل المصدري الذي يمكن أن يكون أي ملف جداول بيانات Microsoft Excel أو OpenOffice (مثل XLS وXLSX وXLSM وXLSB وODS وما إلى ذلك) مع أي عدد من ورقات العمل.
 
-عند تنفيذ التعليمات البرمجية، فإنه يحول بيانات كافة الأوراق في المصنف إلى تنسيق TXT.
+عند تنفيذ الكود ، يتم تحويل بيانات كافة الأوراق في دفتر العمل إلى تنسيق TXT.
 
- يمكنك تعديل نفس المثال لحفظ الملف الخاص بك إلى CSV. بشكل افتراضي،**[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)**هي فاصلة، لذلك لا تحدد فاصلًا في حالة الحفظ بتنسيق CSV.
+يمكنك تعديل نفس المثال لحفظ ملفك إلى CSV. بشكل افتراضي، [**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator) هو الفاصلة، لذا لا تحدد فاصلًا عند حفظ التنسيق إلى CSV.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
-##  **كيفية حفظ الملف إلى ملفات نصية باستخدام فاصل مخصص**
+## **كيفية حفظ ملف إلى ملفات نصية مع فاصل مخصص**
 
-تحتوي الملفات النصية على بيانات جدول بيانات بدون تنسيق. الملف عبارة عن ملف نصي عادي يمكن أن يحتوي على بعض المحددات المخصصة بين بياناته.
+تحتوي ملفات النص على بيانات جداول بيانات دون تنسيق. الملف هو نوع ملف نصي عادي يمكن أن يحتوي على بعض الفواصل المخصصة بين بياناته.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingTextFilewithCustomSeparator-1.cs" >}}
 
-##  **كيفية حفظ الملف في الدفق**
+## **كيفية حفظ ملف إلى تيار**
 
- لحفظ الملفات في دفق، قم بإنشاء ملف*دفق الذاكرة* أو*تيار ملف*كائن واحفظ الملف في كائن الدفق هذا عن طريق استدعاء ملف**[المصنف](https://reference.aspose.com/cells/net/aspose.cells/workbook)** أشياء**[حفظ](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** طريقة. حدد تنسيق الملف المطلوب باستخدام**[حفظ التنسيق](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** التعداد عند استدعاء**[حفظ](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**طريقة.
+لحفظ الملفات في تيار، أنشئ كائن *MemoryStream* أو *FileStream* واحفظ الملف في ذلك الكائن تيار عن طريق استدعاء طريقة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) للكائن [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index). حدد تنسيق الملف المطلوب باستخدام تعداد [**SaveFormat**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) عند استدعاء الطريقة [**Save**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 
-##  **كيفية حفظ ملف Excel إلى ملفات Html وMht**
-يمكن لـ Aspose.Cells ببساطة حفظ ملف Excel أو JSON أو CSV أو ملفات أخرى يمكن تحميلها بواسطة Aspose.Cells كملفات .html و.mht.
+## **كيفية حفظ ملف إكسل إلى ملفات Html و Mht**
+يمكن لـ Aspose.Cells ببساطة حفظ ملف إكسل، JSON، CSV أو ملفات أخرى التي يمكن تحميلها بواسطة Aspose.Cells كملفات .html و .mht.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-MHTML.cs" >}}
- 
 
-##  **كيفية حفظ ملف Excel في OpenOffice (ODS، SXC، FODS، OTS)**
-يمكننا حفظ الملفات بتنسيق open offce: ODS، SXC، FODS، OTS إلخ.
+
+## **كيفية حفظ ملف إكسل إلى OpenOffice (ODS, SXC, FODS, OTS)**
+يمكننا حفظ الملفات في تنسيق مفتوح المكتب: ODS, SXC, FODS, OTS وغيرها.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
 
-##  **كيفية حفظ ملف Excel إلى JSON أو XML**
+## **كيفية حفظ ملف إكسل إلى JSON أو XML**
 
-JSON (JavaScript Object Notation) هو تنسيق ملف قياسي مفتوح لمشاركة البيانات يستخدم نصًا يمكن قراءته بواسطة الإنسان لتخزين البيانات ونقلها. يتم تخزين الملفات JSON بامتداد .json. يتطلب JSON تنسيقًا أقل ويعتبر بديلاً جيدًا لـ XML. JSON مشتق من JavaScript ولكنه تنسيق بيانات مستقل عن اللغة. توليد وتحليل JSON مدعوم بالعديد من لغات البرمجة الحديثة. application/json هو نوع الوسائط المستخدم لـ JSON.
+JSON (JavaScript Object Notation) هو تنسيق ملف مفتوح المعايير لمشاركة البيانات التي تستخدم النص القابل للقراءة من قبل الإنسان لتخزين ونقل البيانات. يتم تخزين ملفات JSON باستخدام الامتداد .json. يتطلب JSON تنسيقًا أقل وهو بديل جيد لـ XML. يتم استخلاص JSON من JavaScript ولكنه تنسيق بيانات مستقل عن اللغة. تدعم العديد من لغات البرمجة الحديثة مولد وتجزئة JSON. application/json هو نوع الوسائط المستخدم لـ JSON.
 
-Aspose.Cells يدعم حفظ الملفات إلى JSON أو XML.
+تدعم Aspose.Cells حفظ الملفات في JSON أو XML.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 
 
-##  **مواضيع متقدمة**
-- [ضبط مستوى ضغط المصنف](/cells/ar/net/adjust-workbook-compression-level/)
-- [احفظ المصنف في تنسيق جدول بيانات XML المفتوح الصارم](/cells/ar/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
-- [حفظ الملف إلى كائن الاستجابة](/cells/ar/net/saving-file-to-response-object/)
+## **مواضيع متقدمة**
+- [ضبط مستوى ضغط الورقة العمل](/cells/ar/net/adjust-workbook-compression-level/)
+- [حفظ الدفتر إلى تنسيق جدول بيانات إكس الإكس إم الصارم](/cells/ar/net/save-workbook-to-strict-open-xml-spreadsheet-format/)
+- [حفظ الملف في كائن الاستجابة](/cells/ar/net/saving-file-to-response-object/)

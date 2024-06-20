@@ -1,31 +1,32 @@
 ---
-title: Grafik Trend Çizgisinin Denklem Metnini Alma
-description: Microsoft Excel'de oluşturulan bir grafikteki eğilim çizgisinin denklem metnini almak için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Rehberimiz, daha fazla analiz veya görüntüleme için bir trend çizgisi denklemine nasıl erişileceğini ve denklemin nasıl çıkarılacağını gösterecektir.
-keywords: Aspose.Cells for .NET, Chart Trendline, Equation Text, Microsoft Excel, Data Analysis, Display.
-linktitle: Eğilim çizgileri
+title: Grafik Eğrisi Eğilimi Denklem Metnini Alın
+description: Aspose.Cells for .NET yi kullanarak Microsoft Excel de oluşturulan bir grafikteki eğilim çizgisinin denklem metnini almayı öğrenin. Rehberimiz, bir eğilim çizgisinin denklemini erişmek ve çıkarmak için nasıl kullanılacağını gösterecektir.
+keywords: Aspose.Cells for .NET, Grafik Eğilim Çizgisi, Denklem Metni, Microsoft Excel, Veri Analizi, Görüntüleme.
+linktitle: Eğilim Çizgileri
 type: docs
 weight: 110
 url: /tr/net/get-equation-text-of-chart-trendline/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells'i kullanarak Grafik Trend Çizgisinin Denklem Metnini alabilirsiniz. Aspose.Cells şunları sağlar:[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)Grafik eğilim çizgisinin Denklem Metnini döndüren özellik. Bu mülkten yararlanmak için öncelikle aramanız gerekir.[**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/calculate) yöntem.
+Aspose.Cells kullanarak Grafik Eğilim Çizgisinin Denklem Metnini alabilirsiniz. Aspose.Cells, eğilim çizgisinin denklem metnini döndüren [**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text) özelliğini sağlar. Bu özelliği kullanmak için öncelikle [**Chart.Calculate()**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/calculate) yöntemini çağırmanız gerekecektir.
 
 {{% /alert %}}
 
- Aşağıdaki ekran görüntüsü Trend Çizgili Grafiği ve Denklem Metni Kırmızı renkte gösterilmiştir. Bu metni kullanarak alacağız.[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)Aşağıdaki örnek koddaki özellik.
+Aşağıdaki ekran görüntüsü eğilim çizgisi olan Grafiği ve Denklem Metnini Kırmızı renkte göstermektedir. Bu metni aşağıdaki örnek kodda [**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text) özelliğini kullanarak alacağız.
 
-![yapılacak şey:image_alt_text](get-equation-text-of-chart-trendline_1.png)
+![todo:image_alt_text](get-equation-text-of-chart-trendline_1.png)
 
-##  Grafik trend çizgisinin denklem metnini almak için C# kodu
+Grafik eğilim çizgisinin denklem metnini almak için C# kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GetEquationTextOfChartTrendLine-1.cs" >}}
 
-##  Örnek kod tarafından oluşturulan çıktı
+Örneğin ürettiği çıktı
 
-Bu yukarıdaki örnek kodun konsol çıktısıdır.
+Yukarıdaki örnek kodun konsol çıktısı budur.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Equation Text: y = 8.1333x + 5
 

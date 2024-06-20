@@ -3,189 +3,190 @@ title: ضبط خيارات الصفحة
 type: docs
 weight: 10
 url: /ar/net/setting-page-options/
-description: توفر هذه المقالة نموذج التعليمات البرمجية لتعيين خيارات الصفحة الخاصة بأوراق عمل Excel برمجيًا باستخدام C# API و .NET Library. ستتمكن من تعيين اتجاه الصفحة ، عامل القياس ، خيارات FitToPages ، حجم الورق ، جودة الطباعة ، رقم الصفحة الأولى.
-keywords: set excel page orientation c#, set excel scaling factor c#, set excel worksheets paper size c#
+description: يوفر هذا المقال رمزًا عينيًا لتعيين خيارات الصفحة لورق العمل في Excel برمجيًا باستخدام واجهة برمجة التطبيقات C# ومكتبة .NET. ستكون قادرًا على تعيين التوجيه الصفحة، عامل التحجيم، خيارات FitToPages، حجم الورق، جودة الطباعة، ورقم الصفحة الأولى.
+keywords: تعيين توجيه صفحة اكسل c#، تعيين عامل التحجيم اكسل c#، تعيين حجم ورق ورقات اكسل c#
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، من الضروري تكوين إعدادات إعداد الصفحة لأوراق العمل للتحكم في الطباعة. توفر إعدادات إعداد الصفحة هذه خيارات متنوعة.
+في بعض الأحيان، من الضروري تكوين إعدادات إعداد الصفحة لورقات العمل للتحكم في الطباعة. توفر هذه الإعدادات خيارات مختلفة.
 
 {{% /alert %}}
 
-##  **ضبط خيارات الصفحة**
+## **ضبط خيارات الصفحة**
 
-خيارات إعداد الصفحة مدعومة بالكامل في Aspose.Cells. تشرح هذه المقالة كيفية تعيين خيارات الصفحة مع Aspose.Cells وتعرض نماذج التعليمات البرمجية للإعداد:
+تدعم خيارات إعداد الصفحة بالكامل في Aspose.Cells. يشرح هذا المقال كيفية ضبط خيارات الصفحة مع Aspose.Cells ويعرض عينات الشفرة للضبط:
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)فصل.
+توفر Aspose.Cells فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) تمثل ملف Microsoft Excel. فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) تحتوي على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
 
- ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فئة توفر[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) الخاصية المستخدمة لتعيين خيارات إعداد الصفحة لورقة العمل. في الواقع ، هذا[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) الخاصية هي كائن من[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فئة تستخدم لتعيين خيارات تخطيط صفحة مختلفة لورقة عمل مطبوعة. ال[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)توفر فئة الخصائص المختلفة المستخدمة لتعيين خيارات إعداد الصفحة. تمت مناقشة بعض هذه الخصائص أدناه.
+توفر الفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) الخاصية [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) التي تُستخدم لضبط خيارات إعداد صفحة الورقة العمل. في الواقع، تكون هذه الخاصية [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) كائن من فئة [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) المستخدمة لتعيين خيارات تخطيط الصفحة المختلفة لورقة عمل مُطبوعة. توفر فئة [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) خصائص مختلفة تُستخدم لضبط خيارات إعداد الصفحة. يتم مناقشة بعض هذه الخصائص أدناه.
 
-###  **اتجاه الصفحة**
+### **اتجاه الصفحة**
 
- يمكن ضبط اتجاه الصفحة على عمودي أو أفقي باستخدام امتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فصل'[**توجيه**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) ملكية. ال[**توجيه**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) تقبل الخاصية إحدى القيم المحددة مسبقًا في ملف[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)التعداد ، المدرجة أدناه.
+يمكن تعيين توجيه الصفحة إما عموديًا أو أفقيًا باستخدام الخاصية [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) من الفئة [**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation). تقبل الخاصية [**Orientation**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) واحدًا من القيم المحددة مسبقًا في تعداد [**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype) المُدرجة أدناه.
 
-|**أنواع اتجاه الصفحة**|**وصف**|
+|**أنواع توجيه الصفحة**|**الوصف**|
 | :- | :- |
-|منظر جمالي|اتجاه أفقي|
-|لَوحَة|اتجاه عمودي|
+|Landscape| توجيه أفقي|
+|Portrait| توجيه عمودي|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
 
-###  **عامل التحجيم**
+### **عامل التحليل**
 
- من الممكن تصغير حجم ورقة العمل أو تكبيره عن طريق ضبط عامل التحجيم بامتداد[**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)ملكية.
+من الممكن تصغير أو تكبير حجم ورقة العمل عن طريق ضبط عامل التحجيم باستخدام الخاصية [**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
-###  **خيارات FitToPages**
+### **خيارات FitToPages**
 
- لملاءمة محتويات ورقة العمل مع عدد محدد من الصفحات ، استخدم ملحق[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فصل'[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) و[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)ملكيات. تُستخدم هذه الخصائص أيضًا لتوسيع نطاق أوراق العمل.
+لتناسب محتويات ورقة العمل إلى عدد معين من الصفحات، استخدم الخاصية [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) و [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) من فئة [**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide). يُستخدم هذه الخصائص أيضًا لتحجيم ورقات العمل.
 
 {{% alert color="primary" %}}
 
- يمكنك إما اختيار[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)/[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide) أو ال[**تكبير**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom) ولكن ليس كلاهما في نفس الوقت.
+يمكنك اختيار إما الخاصية [**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall)/[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide) أو الخاصية [**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)، ولكن ليس كليهما في نفس الوقت.
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-FitToPagesOptions-1.cs" >}}
 
-###  **حجم الورق**
+### **حجم ورق**
 
- عيّن حجم الورق الذي ستتم طباعة أوراق العمل عليه باستخدام ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فصل'[**حجم الورق**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) ملكية. ال[**حجم الورق**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) تقبل الخاصية إحدى القيم المحددة مسبقًا في ملف[**حجم الورق**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)التعداد ، المدرجة أدناه.
+ضبط حجم الورق الذي ستتم طباعة الأوراق عليه باستخدام الخاصية [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) من الفئة [**PaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize). تقبل الخاصية [**PaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) واحدًا من القيم المحددة مسبقًا في تعداد [**PaperSizeType**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype) المُدرجة أدناه.
 
-|**أنواع أحجام الورق**|**وصف**|
+|**أنواع حجم الورق**|**الوصف**|
 | :- | :- |
-|رسالة ورقية|Letter (8-1 / 2 بوصة × 11 بوصة)|
-|PaperLetterSmall|حرف صغير (8-1 / 2 بوصة × 11 بوصة)|
-|PaperTabloid|Tabloid (11 بوصة × 17 بوصة)|
-|PaperLedger|ليدجر (17 بوصة × 11 بوصة)|
-|PaperLegal|Legal (8-1 / 2 بوصة × 14 بوصة)|
-|البيان الورقي|بيان (5-1 / 2 بوصة × 8-1 / 2 بوصة)|
-|ورق تنفيذي|تنفيذي (7-1 / 4 بوصة × 10-1 / 2 بوصة)|
-|الورق|A3 (297 مم × 420 مم)|
-|الورق|A4 (210 مم × 297 مم)|
-|PaperA4Small|A4 صغير (210 مم × 297 مم)|
-|الورق|A5 (148 مم × 210 مم)|
-|الورق|JIS B4 (257 مم × 364 مم)|
-|الورق|JIS B5 (182 مم × 257 مم)|
-|PaperFolio|فوليو (8-1 / 2 بوصة × 13 بوصة)|
-|PaperQuarto|Quarto (215 مم × 275 مم)|
-|ورق|10 بوصة × 14 بوصة.|
-|ورق|11 بوصة × 17 بوصة.|
-|ملاحظة الورق|ملاحظة (8-1 / 2 بوصة × 11 بوصة)|
-|مغلف الورق 9|مغلف رقم 9 (3-7 / 8 بوصة × 8-7 / 8 بوصة)|
-|مغلف الورق 10|مغلف رقم 10 (4-1 / 8 بوصة × 9-1 / 2 بوصة)|
-|مغلف الورق 11|مغلف رقم 11 (4-1 / 2 بوصة × 10-3 / 8 بوصة)|
-|مغلف الورق 12|مغلف رقم 12 (4-1 / 2 بوصة × 11 بوصة)|
-|مغلف الورق 14|مغلف رقم 14 (5 بوصة × 11-1 / 2 بوصة)|
-|PaperCSheet|ورقة بحجم C.|
-|ورقة|ورقة بحجم D|
-|ورقة|ورقة حجم E|
-|PaperEnvelopeDL|مغلف DL (110 ملم × 220 ملم)|
-|PaperEnvelopeC5|مغلف C5 (162 ملم × 229 ملم)|
-|PaperEnvelopeC3|Envelope C3 (324 مم × 458 مم)|
-|PaperEnvelopeC4|مغلف C4 (229 مم × 324 مم)|
-|PaperEnvelopeC6|مغلف C6 (114 مم × 162 مم)|
-|PaperEnvelopeC65|مغلف C65 (114 مم × 229 مم)|
-|PaperEnvelopeB4|مغلف B4 (250 مم × 353 مم|
-|PaperEnvelopeB5|مغلف B5 (176 مم × 250 مم)|
-|PaperEnvelopeB6|مغلف B6 (176 مم × 125 مم)|
-|PaperEnvelope إيطاليا|مغلف إيطاليا (110 مم × 230 مم)|
-|PaperEnvelopeMonarch|Envelope Monarch (3-7 / 8 بوصة × 7-1 / 2 بوصة)|
-|PaperEnvelope شخصية|مغلف (3-5 / 8 بوصة × 6-1 / 2 بوصة)|
-|طي الورق|مروحة قياسية أمريكية (14-7 / 8 بوصة × 11 بوصة)|
-|PaperFanfoldStdGerman|مروحة قياسية ألمانية (8-1 / 2 بوصة × 12 بوصة)|
-|PaperFanfold قانوني ألماني|مروحة قانونية ألمانية (8-1 / 2 بوصة × 13 بوصة)|
-|الورق|B4 (ISO) 250 × 353 مم|
-|الورق اليابانية|بطاقة بريدية يابانية (100 مم × 148 مم)|
-|ورق|9 بوصة × 11 بوصة.|
-|ورق|10 بوصة × 11 بوصة.|
-|ورق|15 بوصة × 11 بوصة.|
-|PaperEnvelopeInvite|دعوة مغلف (220 مم × 220 مم)|
-|PaperLetterExtra|رسالة أمريكية إضافية 9 \ 275 × 12 بوصة|
-|PaperLegalExtra|US Legal Extra 9 \ 275 × 15 بوصة|
-|PaperTabloidExtra|US Tabloid Extra 11.69 × 18 بوصة|
-|PaperA4Extra|A4 إضافي 9.27 × 12.69 بوصة|
-|PaperLetterTransverse|مستعرضة للأحرف 8 \ 275 × 11 بوصة|
-|PaperA4Transverse|A4 عرضي 210 × 297 مم|
-|PaperLetterExtraTransverse|حرف مستعرض إضافي 9 \ 275 × 12 بوصة|
-|الورق|SuperA / SuperA / A4 227 × 356 ملم|
-|الورق|SuperB / SuperB / A3 305 × 487 ملم|
-|PaperLetterPlus|US Letter Plus 8.5 × 12.69 بوصة|
-|PaperA4Plus|A4 Plus 210 × 330 مم|
-|PaperA5 عرضية|A5 عرضي 148 × 210 مم|
-|PaperJISB5 عرضية|B5 (JIS) عرضي 182 × 257 مم|
-|PaperA3Extra|A3 Extra 322 x 445 ملم|
-|PaperA5Extra|A5 Extra 174 x 235 ملم|
-|PaperISOB5Extra|B5 (ISO) إضافي 201 × 276 مم|
-|الورق|A2420 × 594 مم|
-|ورقة A3 عرضية|A3 عرضي 297 × 420 مم|
-|PaperA3ExtraTransverse|A3 عرضي إضافي 322 × 445 مم|
-|PaperJapaneseDoublePostcard|بطاقة بريدية يابانية مزدوجة 200 × 148 مم|
-|الورق|A6105 × 148 ملم|
-|الورق الياباني EnvelopeKaku2|مغلف ياباني Kaku # 2|
-|PaperJapanese EnvelopeKaku3|مغلف ياباني Kaku # 3|
-|الورق الياباني EnvelopeChou3|المغلف الياباني Chou # 3|
-|الورق الياباني EnvelopeChou4|المغلف الياباني Chou # 4|
+|PaperLetter|Letter (8-1/2 in. x 11 in.)|
+|PaperLetterSmall|Letter Small (8-1/2 in. x 11 in.)|
+|PaperTabloid|Tabloid (11 in. x 17 in.)|
+|PaperLedger|Ledger (17 in. x 11 in.)|
+|PaperLegal|Legal (8-1/2 in. x 14 in.)|
+|PaperStatement|Statement (5-1/2 in. x 8-1/2 in.)|
+|PaperExecutive|Executive (7-1/4 in. x 10-1/2 in.)|
+|PaperA3|A3 (297 mm x 420 mm)|
+|PaperA4|A4 (210 mm x 297 mm)|
+|PaperA4Small|A4 Small (210 mm x 297 mm)|
+|PaperA5|A5 (148 mm x 210 mm)|
+|PaperB4|JIS B4 (257 mm x 364 mm)|
+|PaperB5|JIS B5 (182 mm x 257 mm)|
+|PaperFolio|Folio (8-1/2 in. x 13 in.)|
+|PaperQuarto|Quarto (215 mm x 275 mm)|
+|Paper10x14|10 in. x 14 in.|
+|Paper11x17|11 in. x 17 in.|
+|PaperNote|Note (8-1/2 in. x 11 in.)|
+|PaperEnvelope9|Envelope #9 (3-7/8 in. x 8-7/8 in.)|
+|PaperEnvelope10|Envelope #10 (4-1/8 in. x 9-1/2 in.)|
+|PaperEnvelope11|Envelope #11 (4-1/2 in. x 10-3/8 in.)|
+|PaperEnvelope12|Envelope #12 (4-1/2 in. x 11 in.)|
+|PaperEnvelope14|Envelope #14 (5 in. x 11-1/2 in.)|
+|PaperCSheet|C size sheet|
+|PaperDSheet|D size sheet|
+|PaperESheet|E size sheet|
+|PaperEnvelopeDL|Envelope DL (110 mm x 220 mm)|
+|PaperEnvelopeC5|Envelope C5 (162 mm x 229 mm)|
+|PaperEnvelopeC3|Envelope C3 (324 mm x 458 mm)|
+|PaperEnvelopeC4|Envelope C4 (229 mm x 324 mm)|
+|PaperEnvelopeC6 |Envelope C6 (114 mm x 162 mm)|
+|PaperEnvelopeC65|Envelope C65 (114 mm x 229 mm)|
+|PaperEnvelopeB4|Envelope B4 (250 mm x 353 mm|
+|PaperEnvelopeB5|Envelope B5 (176 mm x 250 mm)|
+|PaperEnvelopeB6|Envelope B6 (176 mm x 125 mm)|
+|PaperEnvelopeItaly|Envelope Italy (110 mm x 230 mm)|
+|PaperEnvelopeMonarch|Envelope Monarch (3-7/8 in. x 7-1/2 in.)|
+|PaperEnvelopePersonal|Envelope (3-5/8 in. x 6-1/2 in.)|
+|PaperFanfoldUS|U.S. Standard Fanfold (14-7/8 in. x 11 in.)|
+|PaperFanfoldStdGerman|German Standard Fanfold (8-1/2 in. x 12 in.)|
+|PaperFanfoldLegalGerman|German Legal Fanfold (8-1/2 in. x 13 in.)|
+|PaperISOB4|B4 (ISO) 250 x 353 mm|
+|PaperJapanesePostcard|Japanese Postcard (100mm x 148mm)|
+|Paper9x11|9 in. x 11 in.|
+|Paper10x11|10 in. x 11 in.|
+|Paper15x11|15 in. x 11 in.|
+|PaperEnvelopeInvite|Envelope Invite(220mm x 220mm)|
+|PaperLetterExtra|US Letter Extra 9 \275 x 12 in|
+|PaperLegalExtra|US Legal Extra 9 \275 x 15 in|
+|PaperTabloidExtra|US Tabloid Extra 11.69 x 18 in|
+|PaperA4Extra|A4 Extra 9.27 x 12.69 in|
+|PaperLetterTransverse|Letter Transverse 8 \275 x 11 in|
+|PaperA4Transverse|A4 Transverse 210 x 297 mm|
+|PaperLetterExtraTransverse|Letter Extra Transverse 9\275 x 12 in|
+|PaperSuperA|SuperA/SuperA/A4 227 x 356 mm|
+|PaperSuperB|SuperB/SuperB/A3 305 x 487 mm|
+|PaperLetterPlus|US Letter Plus 8.5 x 12.69 in|
+|PaperA4Plus|A4 Plus 210 x 330 mm|
+|PaperA5Transverse|A5 Transverse 148 x 210 mm|
+|PaperJISB5Transverse|B5 (JIS) Transverse 182 x 257 mm|
+|PaperA3Extra|A3 Extra 322 x 445 mm|
+|PaperA5Extra|A5 Extra 174 x 235 mm|
+|PaperISOB5Extra|B5 (ISO) Extra 201 x 276 mm|
+|PaperA2|A2 420 x 594 mm|
+|PaperA3Transverse|A3 Transverse 297 x 420 mm|
+|PaperA3ExtraTransverse|A3 Extra Transverse 322 x 445 mm|
+|PaperJapaneseDoublePostcard|Japanese Double Postcard 200 x 148 mm|
+|PaperA6|A6 105 x 148 mm|
+|PaperJapaneseEnvelopeKaku2|Japanese Envelope Kaku #2|
+|PaperJapaneseEnvelopeKaku3|Japanese Envelope Kaku #3|
+|PaperJapaneseEnvelopeChou3|Japanese Envelope Chou #3|
+|PaperJapaneseEnvelopeChou4|Japanese Envelope Chou #4|
 |PaperLetterRotated|11in x 8.5in|
-|PaperA3Rotated|420 مم × 297 مم|
-|ورقة A4Rotated|297 مم × 210 مم|
-|الورق A5Rotated|210 مم × 148 مم|
-|PaperJISB4Rotated|B4 (JIS) استدارة 364 × 257 مم|
-|PaperJISB5Rotated|B5 (JIS) استدارة 257 × 182 مم|
-|PaperJapanesePostcardRotated|بطاقة بريدية يابانية استدارة 148 × 100 مم|
-|ورقة يابانيةمزدوجة بريدية تدوير|بطاقة بريدية يابانية مزدوجة استدارة 148 × 200 مم|
-|PaperA6Rotated|A6 استدارة 148 × 105 ملم|
-|PaperJapanese EnvelopeKaku2Rotated|مغلف ياباني Kaku # 2 مستدير|
-|PaperJapanese EnvelopeKaku3Rotated|مغلف ياباني Kaku # 3 مستدير|
-|PaperJapanese EnvelopeChou3Rotated|المغلف الياباني Chou # 3 مستدير|
-|PaperJapanese EnvelopeChou4Rotated|المغلف الياباني Chou # 4 مستدير|
-|الورق|B6 (JIS) 128 × 182 ملم|
-|PaperJISB6Rotated|B6 (JIS) استدارة 182 × 128 مم|
-|ورق|12 × 11 بوصة|
-|الورق الياباني EnvelopeYou4|مغلف ياباني You # 4|
-|PaperJapanese EnvelopeYou4Rotated|مغلف ياباني You # 4 استدارة|
-|الورق|PRC 16K 146 x 215 ملم|
-|الورق|PRC 32K 97 × 151 ملم|
-|الورق|PRC 32 كيلو (كبير) 97 × 151 مم|
-|PaperPRCEnvelope1|مغلف PRC # 11102 × 165 مم|
-|PaperPRCE مغلف 2|ظرف PRC # 2102 × 176 مم|
-|PaperPRCE مغلف 3|مغلف PRC # 3125 × 176 مم|
-|ورقة PRCEnvelope4|مغلف PRC # 4110 × 208 مم|
-|ورقة PRCEnvelope5|ظرف PRC # 5110 × 220 مم|
-|PaperPRCE مغلف 6|ظرف PRC # 6120 × 230 مم|
-|PaperPRCE مغلف 7|ظرف PRC # 7160 × 230 مم|
-|PaperPRCE مغلف 8|مغلف PRC # 8120 × 309 مم|
-|ورقة PRCEnvelope9|ظرف PRC # 9229 × 324 مم|
-|ورقة PRCEnvelope10|مغلف PRC # 10324 × 458 مم|
-|الورق|PRC 16K مستدير|
-|الورق|PRC 32K مستدير|
-|الورق|PRC 32K (كبير) مستدير|
-|PaperPRCEnvelope1Rotated|ظرف PRC رقم 1 استدارة 165 × 102 مم|
-|PaperPRCEnvelope2Rotated|ظرف PRC # 2 مستدير 176 × 102 مم|
-|PaperPRCEnvelope3Rotated|ظرف PRC # 3 مستدير 176 × 125 مم|
-|PaperPRCEnvelope4Rotated|ظرف PRC # 4 مستدير 208 × 110 مم|
-|PaperPRCEnvelope5Rotated|ظرف PRC # 5 مستدير 220 × 110 مم|
-|PaperPRCEnvelope6Rotated|ظرف PRC # 6 مستدير 230 × 120 مم|
-|PaperPRCEnvelope7Rotated|ظرف PRC # 7 مستدير 230 × 160 مم|
-|PaperPRCEnvelope8Rotated|ظرف PRC رقم 8 مستدير 309 × 120 مم|
-|PaperPRCEnvelope9Rotated|ظرف PRC # 9 مستدير 324 × 229 مم|
-|PaperPRCEnvelope10Rotated|ظرف PRC # 10 مستدير 458 × 324 مم|
-|الورق|عادي B3 (13.9 × 19.7 بوصة)|
-|PaperBusinessCard|بطاقة عمل (90 مم × 55 مم)|
-|ورق حراري|حراري (3 × 11 بوصة)|
-|مخصص|يمثل حجم الورق المخصص.|
+|PaperA3Rotated|420mm x 297mm|
+|PaperA4Rotated|297mm x 210mm|
+|PaperA5Rotated|210mm x 148mm|
+|PaperJISB4Rotated|B4 (JIS) Rotated 364 x 257 mm|
+|PaperJISB5Rotated|B5 (JIS) Rotated 257 x 182 mm|
+|PaperJapanesePostcardRotated|Japanese Postcard Rotated 148 x 100 mm|
+|PaperJapaneseDoublePostcardRotated|Double Japanese Postcard Rotated 148 x 200 mm|
+|PaperA6Rotated|A6 Rotated 148 x 105 mm|
+|PaperJapaneseEnvelopeKaku2Rotated|Japanese Envelope Kaku #2 Rotated|
+|PaperJapaneseEnvelopeKaku3Rotated|Japanese Envelope Kaku #3 Rotated|
+|PaperJapaneseEnvelopeChou3Rotated|Japanese Envelope Chou #3 Rotated|
+|PaperJapaneseEnvelopeChou4Rotated|Japanese Envelope Chou #4 Rotated|
+|PaperJISB6|B6 (JIS) 128 x 182 mm|
+|PaperJISB6Rotated|B6 (JIS) Rotated 182 x 128 mm|
+|Paper12x11|12 x 11 in|
+|PaperJapaneseEnvelopeYou4|Japanese Envelope You #4|
+|PaperJapaneseEnvelopeYou4Rotated|Japanese Envelope You #4 Rotated|
+|PaperPRC16K|PRC 16K 146 x 215 mm|
+|PaperPRC32K|PRC 32K 97 x 151 mm|
+|PaperPRCBig32K|PRC 32K(Big) 97 x 151 mm|
+|PaperPRCEnvelope1|PRC Envelope #1 102 x 165 mm|
+|PaperPRCEnvelope2|PRC Envelope #2 102 x 176 mm|
+|PaperPRCEnvelope3|PRC Envelope #3 125 x 176 mm|
+|PaperPRCEnvelope4|PRC Envelope #4 110 x 208 mm|
+|PaperPRCEnvelope5|PRC Envelope #5 110 x 220 mm|
+|PaperPRCEnvelope6|PRC Envelope #6 120 x 230 mm|
+|PaperPRCEnvelope7|PRC Envelope #7 160 x 230 mm|
+|PaperPRCEnvelope8|PRC Envelope #8 120 x 309 mm|
+|PaperPRCEnvelope9|PRC Envelope #9 229 x 324 mm|
+|PaperPRCEnvelope10|PRC Envelope #10 324 x 458 mm|
+|PaperPRC16KRotated|PRC 16K Rotated|
+|PaperPRC32KRotated|PRC 32K Rotated|
+|PaperPRCBig32KRotated|PRC 32K(Big) Rotated|
+|PaperPRCEnvelope1Rotated|PRC Envelope #1 Rotated 165 x 102 mm|
+|PaperPRCEnvelope2Rotated|PRC Envelope #2 Rotated 176 x 102 mm|
+|PaperPRCEnvelope3Rotated|PRC Envelope #3 Rotated 176 x 125 mm|
+|PaperPRCEnvelope4Rotated|PRC Envelope #4 Rotated 208 x 110 mm|
+|PaperPRCEnvelope5Rotated|PRC Envelope #5 Rotated 220 x 110 mm|
+|PaperPRCEnvelope6Rotated|PRC Envelope #6 Rotated 230 x 120 mm|
+|PaperPRCEnvelope7Rotated|PRC Envelope #7 Rotated 230 x 160 mm|
+|PaperPRCEnvelope8Rotated|PRC Envelope #8 Rotated 309 x 120 mm|
+|PaperPRCEnvelope9Rotated|PRC Envelope #9 Rotated 324 x 229 mm|
+|PaperPRCEnvelope10Rotated|PRC Envelope #10 Rotated 458 x 324 mm|
+|PaperB3|usual B3(13.9 x 19.7 in)|
+|PaperBusinessCard|Business Card(90mm x 55 mm)|
+|PaperThermal|Thermal(3 x 11 in)|
+|Custom|Represents the custom paper size.|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ManagePaperSize-1.cs" >}}
 
-###  **جودة الطباعة**
+### **جودة الطباعة**
 
- اضبط جودة طباعة أوراق العمل التي ستتم طباعتها بامتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فصل'[**جودة الطباعة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)ملكية. وحدة قياس جودة الطباعة هي Dots Per Inches (DPI).
+قم بتعيين جودة الطباعة لصفحات العمل التي يتم طباعتها باستخدام خصائص الفئة [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) والخاصية [**PrintQuality**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality). وحدة القياس لجودة الطباعة هي النقاط في البوصة (DPI).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
-###  **رقم الصفحة الأولى**
+### **رقم الصفحة الأولى**
 
- ابدأ ترقيم صفحات ورقة العمل باستخدام ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) فصل'[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) ملكية. ال[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)تحدد الخاصية رقم الصفحة في صفحة ورقة العمل الأولى ويتم ترقيم الصفحات التالية بترتيب تصاعدي.
+ابدأ ترقيم صفحات ورق العمل باستخدام خاصية الفئة [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) والخاصية [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber). تقوم الخاصية [**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) بتعيين رقم الصفحة الأولى في ورق العمل ويتم ترقيم الصفحات التالية بترتيب تصاعدي.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}

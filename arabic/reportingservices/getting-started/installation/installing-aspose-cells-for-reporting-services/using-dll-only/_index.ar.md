@@ -1,30 +1,31 @@
-﻿---
-title: باستخدام DLL فقط
+---
+title: استخدام DLL فقط
 type: docs
 weight: 20
 url: /ar/reportingservices/using-dll-only/
 ---
-## كيفية تثبيت Aspose.Cells for Reporting Services باستخدام DLL فقط:
 
--  قم بزيارة Aspose.Cells for Reporting Services[صفحة التحميل](https://downloads.aspose.com/cells/reportingservices) وتنزيل ملف**Aspose.Cells for Reporting Services (الرمز البريدي)** أرشيف يحتوي على أحدث إصدار من المكون والوثائق المثبتة.
- - توجد 7 أنواع من الإصدارات Aspose.Cells.ReprotingSerivces.dll في Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. أنها تدعم منتجات خادم تقرير Microsoft مختلفة.
- - Aspose.Cells.ReportingServices.dll في مجلد SSRS2005 يدعم Microsoft SQL Server 2005 Reporting Services.
- - Aspose.Cells.ReportingServices.dll في مجلد SSRS2008 يدعم Microsoft SQL Server 2008 Reporting Services.
- - Aspose.Cells.ReportingServices.dll في مجلد SSRS2008R2 يدعم Microsoft SQL Server 2008R2 / 2012/2014 Reporting Services.
- - Aspose.Cells.ReportingServices.dll في مجلد SSRS2016 يدعم Microsoft SQL Server 2016/2017/2019 Reporting Services.
-   
-- قم بفك ضغط الأرشيف في دليل على محرك الأقراص الثابتة.
+## كيفية تثبيت Aspose.Cells for Reporting Services باستخدام ملف DLL فقط:
 
-- قم بتثبيت Aspose.Cells for Reporting Services Report Designer:
- - يسجل**Aspose.Cells.ReportingServices.Client.dll** باستخدام الأداة المساعدة Regasm.exe.
- - إضافة Aspose.Cells for Reporting Services الوظيفة الإضافية في Excel.
-   
-- قم بتثبيت Aspose.Cells for Reporting Services لـ Microsoft SQL Server Reporting Services ، مكون الخدمات:
- - ضع ال**Aspose.Cells.ReportingServices.dll** في مجلد التثبيت $ {Microsoft SQL Server Reporting Services} \ ReportServer \ bin.
- - أضف Aspose.Cells for Reporting Services امتدادات العارض:
- - فتح**مجلد تثبيت خدمات تقرير خادم SQL $ {Microsoft} \ ReportServer \ rsreportserver.config**
- - أضف الأسطر التالية إلى ملف<Render>……</Render> جزء:
-{{< highlight "xml" >}}
+- قم بزيارة صفحة التنزيل الخاصة بـ Aspose.Cells for Reporting Services (https://downloads.aspose.com/cells/reportingservices) وقم بتنزيل الأرشيف **Aspose.Cells for Reporting Services (zip)** الذي يحتوي على أحدث إصدار من المكون والوثائق المثبتة.
+   - هناك 7 أنواع من نسخ Aspose.Cells.ReprotingSerivces.dll في Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. تدعم منتجات خادم تقارير Microsoft المختلفة.
+       - Aspose.Cells.ReportingServices.dll في مجلد SSRS2005 تدعم Microsoft SQL Server 2005 Reporting Services.
+       - Aspose.Cells.ReportingServices.dll في مجلد SSRS2008 تدعم Microsoft SQL Server 2008 Reporting Services.
+       - Aspose.Cells.ReportingServices.dll في مجلد SSRS2008R2 تدعم Microsoft SQL Server 2008R2/2012/2014 Reporting Services.
+       - Aspose.Cells.ReportingServices.dll في مجلد SSRS2016 تدعم Microsoft SQL Server 2016/2017/2019 Reporting Services.
+
+- قم بفك الأرشيف إلى دليل على القرص الصلب الخاص بك.
+
+- قم بتثبيت مصمم تقارير Aspose.Cells for Reporting Services:
+   - سجّل **Aspose.Cells.ReportingServices.Client.dll** باستخدام أداة Regasm.exe.
+   - أضف إضافة Aspose.Cells for Reporting Services في Excel.
+
+- قم بتثبيت Aspose.Cells for Reporting Services لخدمة تقارير Microsoft SQL Server:
+   - ضع **Aspose.Cells.ReportingServices.dll** في مجلد التثبيت ${مجلد تثبيت Microsoft SQL Server Reporting Services}\ReportServer\bin. 
+   - قم بإضافة ملحقات منظم Aspose.Cells for Reporting Services :  
+      - افتح **${مجلد تثبيت خدمات تقارير Microsoft SQL Server}\ReportServer\rsreportserver.config**
+      - Add the following lines into the <Render>……</Render> element: 
+{{< highlight xml >}}
 
  <Render>
 
@@ -76,11 +77,11 @@ url: /ar/reportingservices/using-dll-only/
 </Render>
 
 {{< /highlight >}}
- - إضافة أذونات Aspose.Cells for Reporting Services للتنفيذ:
- - فتح**مجلد تثبيت خدمات تقرير خادم SQL $ {Microsoft} \ ReportServer \ rssrvpolicy.config** و أ
- - يضاف التالي كعنصر أخير في الثاني إلى الخارج<CodeGroup> العنصر (الذي يجب أن يكون<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
+   - أضف أذونات Aspose.Cells for Reporting Services للتشغيل:
+      - افتح **${مجلد تثبيت خدمات تقارير Microsoft SQL Server}\ReportServer\rssrvpolicy.config** و
+      - Add the following as the last item in the second to the outer <CodeGroup> element (which should be <CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
 
-{{< highlight "xml" >}}
+{{< highlight xml >}}
 
  <CodeGroup>
 
@@ -106,16 +107,16 @@ url: /ar/reportingservices/using-dll-only/
 
 {{< /highlight >}}
 
-## تحقق من تثبيت Aspose.Cells for Reporting Services بنجاح:
-1. افتح "إدارة التقارير" وتحقق من قائمة أنواع التصدير المتوفرة لتقرير. (قم بتشغيل Report Manager عن طريق فتح مستعرض واكتب عنوان URL الخاص بـ Report Manager في شريط العناوين. (افتراضيًا ، يكون عنوان URL هو http: //<ComputerName>/ تقارير).
- 1. حدد أحد التقارير الموجودة على الخادم وافتح ملف**حدد التنسيق** قائمة.
- يجب أن تشاهد قائمة تنسيقات التصدير المقدمة بواسطة Aspose.Cells for Reporting Services.
- 1. حدد**XLS - مصنف Excel عبر Aspose.Cells**.
- 1. انقر فوق**يصدّر**.
- يتم إنشاء التقرير بالتنسيق المحدد.
- 1. أرسلها إلى العميل وافتحها في التطبيق المناسب. في هذه الحالة ، يتم فتح التقرير في Microsoft Excel.
+## تحقق من نجاح تثبيت Aspose.Cells for Reporting Services:
+   1. Open the Report Manager and check the list of available export types for a report. (Launch Report Manager by opening a browser and type the Report Manager URL into the address bar. (By default, the URL is http://<ComputerName>/Reports).
+   1. حدد أحد التقارير على الخادم وافتح قائمة **اختيار التنسيق**.
+      يجب أن ترى قائمة تنسيقات التصدير المقدمة من قبل Aspose.Cells for Reporting Services.
+   1. حدد **XLS – دفتر عمل إكسل عبر Aspose.Cells**.
+   1. انقر على **تصدير**.
+      يتم إنشاء التقرير في التنسيق المحدد.
+   1. أرسله إلى العميل وافتحه في تطبيق مناسب. في هذه الحالة، يتم فتح التقرير في Microsoft Excel.
 
-تهانينا ، لقد قمت بتثبيت Aspose.Cells for Reporting Services بنجاح وقمت بإنشاء تقرير كملف Microsoft Excel!
+تهانينا، لقد قمت بتثبيت Aspose.Cells for Reporting Services بنجاح وأنشأت تقرير كملف Microsoft Excel!
 
 
- هناك 7 أنواع من الإصدارات Aspose.Cells.ReprotingSerivces.dll في Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. أنها تدعم منتجات خادم تقرير Microsoft مختلفة.
+هناك 7 أنواع من إصدارات Aspose.Cells.ReprotingSerivces.dll في Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. تدعم منتجات خوادم التقارير المختلفة من Microsoft. 

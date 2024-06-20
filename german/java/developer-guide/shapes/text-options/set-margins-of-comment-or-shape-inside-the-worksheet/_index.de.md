@@ -1,18 +1,19 @@
-﻿---
-title: Legen Sie die Ränder des Kommentars oder der Form innerhalb des Arbeitsblatts fest
+---
+title: Abstände von Kommentaren oder Formen im Arbeitsblatt festlegen
 type: docs
 weight: 90
 url: /de/java/set-margins-of-comment-or-shape-inside-the-worksheet/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Aspose.Cells ermöglicht es Ihnen, die Ränder jeder Form oder jedes Kommentars mit festzulegen[**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#TextAlignment) Eigentum. Diese Eigenschaft gibt das Objekt von zurück[**FormTextAusrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeTextAlignment) Klasse, die verschiedene Eigenschaften hat, z[**TopMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#TopMarginPt), [**LeftMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#LeftMarginPt), [**BottomMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#BottomMarginPt), [**RightMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RightMarginPt), usw., mit denen der obere, linke, untere und rechte Rand festgelegt werden kann.
+## **Mögliche Verwendungsszenarien**
 
-## **Legen Sie die Ränder des Kommentars oder der Form innerhalb des Arbeitsblatts fest**
+Aspose.Cells ermöglicht es Ihnen, die Abstände einer beliebigen Form oder Kommentars mit der Eigenschaft [**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#TextAlignment) festzulegen. Diese Eigenschaft gibt das Objekt der Klasse [**ShapeTextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeTextAlignment) zurück, das verschiedene Eigenschaften wie [**TopMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#TopMarginPt), [**LeftMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#LeftMarginPt), [**BottomMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#BottomMarginPt), [**RightMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RightMarginPt) usw. besitzt, die verwendet werden können, um die oberen, linken, unteren und rechten Abstände festzulegen.
 
- Bitte sehen Sie sich den folgenden Beispielcode an. Es lädt die[Beispiel-Excel-Datei](61767867.xlsx) die zwei Formen enthält. Der Code greift nacheinander auf die Formen zu und legt ihre oberen, linken, unteren und rechten Ränder fest. Bitte sehen Sie sich ... an[Excel-Datei ausgeben](61767866.xlsx) generiert durch den Code und Screenshot, der die Auswirkung des Codes auf die Excel-Ausgabedatei zeigt.
+## **Ränder des Kommentars oder der Form innerhalb des Arbeitsblatts festlegen**
 
-![todo: Bild_alt_Text](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
+Bitte beachten Sie den folgenden Beispielcode. Es lädt die [Beispiel-Excel-Datei](61767867.xlsx) mit zwei Formen. Der Code greift nacheinander auf die Formen zu und setzt ihre oberen, linken, unteren und rechten Abstände fest. Bitte beachten Sie die vom Code generierte [Ausgabe-Excel-Datei](61767866.xlsx) und den Screenshot mit der Auswirkung des Codes auf die Ausgabe-Excel-Datei.
+
+![todo:image_alt_text](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
 
 ## **Beispielcode**
 

@@ -1,9 +1,10 @@
-﻿---
-title: Особенности работы с файлами в Ruby
+---
+title: Функции обработки файлов в Ruby
 type: docs
 weight: 10
 url: /ru/java/file-handling-features-in-ruby/
 ---
+
 **Этот раздел включает следующие темы:**
 
 - [Открытие файлов в Ruby](/cells/ru/java/opening-files-in-ruby/)

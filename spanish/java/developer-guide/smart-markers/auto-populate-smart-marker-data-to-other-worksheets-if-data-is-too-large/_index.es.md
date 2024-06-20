@@ -1,16 +1,17 @@
-﻿---
-title: Autocompletar datos de marcador inteligente en otras hojas de trabajo si los datos son demasiado grandes
+---
+title: Auto rellenar datos de marcador inteligente a otras hojas de cálculo si los datos son demasiado grandes
 type: docs
 weight: 10
 url: /es/java/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/
 ---
-## **Posibles escenarios de uso**
 
-A veces, desea completar automáticamente los datos del marcador inteligente en otras hojas de trabajo si es demasiado grande. Supongamos que su fuente de datos tiene 1500000 registros. Estos son demasiados registros para una sola hoja de trabajo, luego puede mover el resto de los registros a la siguiente hoja de trabajo.
+## **Escenarios de uso posibles**
 
-## **Autocompletar datos de marcador inteligente en otras hojas de trabajo si los datos son demasiado grandes**
+A veces, desea auto-rellenar datos de marcador inteligente a otras hojas de cálculo si son demasiados. Suponga que su fuente de datos tiene 1500000 registros. Estos son demasiados registros para una sola hoja de cálculo, entonces puede mover el resto de los registros a la siguiente hoja de cálculo.
 
-El siguiente código de ejemplo tiene un origen de datos que tiene 21 registros. Queremos mostrar solo 15 registros en una hoja de trabajo, luego el resto de los registros se moverán automáticamente a la segunda hoja de trabajo. Tenga en cuenta que la segunda hoja de trabajo también debe tener la misma etiqueta de marcador inteligente y debe llamar[**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process(int,%20boolean) ) para ambas hojas. Por favor, checa el[Microsoft Archivo de base de datos de acceso](60489777.accdb) utilizado en este código, así como el[archivo de salida de Excel](60489786.xlsx)generado por el código para una referencia.
+## **Autocompletar Datos de Marcador Inteligente en Otras Hojas de Cálculo si los Datos son muy Grandes**
+
+El siguiente código de ejemplo tiene una fuente de datos que tiene 21 registros. Queremos mostrar solo 15 registros en una hoja de cálculo, luego el resto de los registros se moverán automáticamente a la segunda hoja de cálculo. Tenga en cuenta que la segunda hoja de cálculo también debe tener la misma etiqueta de marcador inteligente y debe llamar al método [**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process(int,%20boolean)) para ambas hojas. Consulte el [archivo de base de datos de Microsoft Access](60489777.accdb) utilizado en este código, así como el [archivo de Excel de salida](60489786.xlsx) generado por el código como referencia.
 
 ## **Código de muestra**
 

@@ -1,15 +1,16 @@
-﻿---
-title: إضافة علامة مائية Word Art إلى التخطيط
+---
+title: إضافة كلمة مائية فنية إلى المخطط
 type: docs
 weight: 10
 url: /ar/java/add-word-art-watermark-to-chart/
 ---
-## **Aspose.Cells - إضافة علامة مائية Word Art إلى الرسم البياني**
-يمكنك استخدام WordArt لإضافة تأثيرات نصية خاصة إلى جداول البيانات. على سبيل المثال ، قم بتمديد عنوان أو تزيين نص أو جعل النص يتلاءم مع شكل معين مسبقًا أو تطبيق النص المتأثر على منطقة الرسم في المخطط كعلامة مائية. يصبح WordArt عنصرًا يمكنك نقله أو وضعه في جداول البيانات لإضافة زخرفة.
+
+## **أسبوز.سيلز - إضافة كلمة مائية فنية إلى المخطط**
+يمكنك استخدام WordArt لإضافة تأثيرات نص خاصة إلى جداول البيانات. على سبيل المثال، يمكنك تمديد العنوان، تزيين النص، جعل النص يناسب شكل محدد مسبقًا، أو تطبيق النص المتأثر على منطقة الرسم البياني كعلامة مائية. يصبح WordArt عنصرًا يمكنك نقله أو تحديد موضعه في جداول البيانات لإضافة زخرفة.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook.
 
@@ -44,14 +45,14 @@ wordart.setHasLine(false);
 workbook.save(dataDir + "AsposeChartWatermarked_Out.xls", SaveFormat.EXCEL_97_TO_2003);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل رمز التشغيل**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/charts/AddWordArtWatermarkToChart.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/charts/AddWordArtWatermarkToChart.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[أضف علامة WordArt المائية إلى التخطيط](/cells/ar/java/add-wordart-watermark-to-chart).
+لمزيد من التفاصيل، قم بزيارة [إضافة كلمة مائية فنية إلى المخطط](/cells/ar/java/add-wordart-watermark-to-chart).
 
 {{% /alert %}}

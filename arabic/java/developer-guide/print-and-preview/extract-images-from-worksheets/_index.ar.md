@@ -1,16 +1,17 @@
-﻿---
-title: استخراج الصور من أوراق العمل
+---
+title: استخراج الصور من ورق العمل
 type: docs
 weight: 240
 url: /ar/java/extract-images-from-worksheets/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft يمكن لمستخدمي Excel إضافة صور إلى جداول البيانات. باستخدام Aspose.Cells ، يمكن قراءة الصور من Microsoft ملفات Excel وحفظها على محرك أقراص محلي. يوضح هذا المقال كيفية تحقيق ذلك باستخدام Aspose.Cells for Java API.
+يمكن لمستخدمي Microsoft Excel إضافة صور إلى جداول البيانات. باستخدام Aspose.Cells, يمكن قراءة الصور من ملفات Microsoft Excel وحفظها على القرص المحلي. يوضح هذا المقال كيفية تحقيق ذلك باستخدام Aspose.Cells for Java API.
 
 {{% /alert %}} 
 
-يوضح نموذج التعليمات البرمجية أدناه كيفية استخراج الصور من ملف Excel وحفظها.
+يوضح الكود العيني أدناه كيفية استخراج الصور من ملف Excel وحفظها.
 
 
 

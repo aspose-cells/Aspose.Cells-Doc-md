@@ -1,20 +1,21 @@
 ---
-title: Lägg till vattenstämpel till PDF
+title: Lägg till vattenstämpel i PDF
 type: docs
 weight: 9
 url: /sv/java/add-watermark-to-pdf/
 ---
-När du konverterar Excel-fil till pdf kan du ha krav på att lägga till vattenstämpel till pdf-fil. Följande exempel visar hur du lägger till text och bildvattenstämpel till pdf medan du renderar till pdf.
 
-##   **Lägg till textvattenstämpel till PDF**
+Vid konvertering av Excel-fil till pdf kan du ha krav på att lägga till vattenstämpel i pdf-fil. Följande exempel visar hur man lägger till text- och bildvattenstämpel i pdf vid rendering till pdf.
 
- Du kan enkelt lägga till textvattenstämpel till pdf genom att ange text och motsvarande typsnitt. Du kan också ställa in justering, offset, rotation, opacitet, förgrund/bakgrund och skala för att bläddra in[Rendering Vattenstämpel](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
+##  **Lägg till textvattenstämpel i PDF**
+
+Du kan enkelt lägga till textvattenstämpel i pdf genom att ange texten och motsvarande teckensnitt. Dessutom kan du ställa in justering, förskjutning, rotation, opacitet, förgrund/bakgrund och skala till sida i [RenderingWatermark](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddTextWatermarkToPdf.java" >}}
 
-##  **Lägg till bildvattenstämpel till PDF**
+## **Lägg till bildvattenstämpel i PDF**
 
-Du kan lägga till bildvattenstämpel till pdf bara genom att ange bildbytes för en bild. Du kan också ställa in justering, offset, rotation, opacitet, förgrund/bakgrund och skala för att bläddra in[Rendering Vattenstämpel](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
+Du kan lägga till bildvattenstämpel i pdf genom att helt enkelt ange bildbytarna för en bild. Dessutom kan du ställa in justering, förskjutning, rotation, opacitet, förgrund/bakgrund och skala till sida i [RenderingWatermark](https://reference.aspose.com/cells/java/com.aspose.cells/renderingwatermark/).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Docs-Pdf-AddImageWatermarkToPdf.java" >}}
 

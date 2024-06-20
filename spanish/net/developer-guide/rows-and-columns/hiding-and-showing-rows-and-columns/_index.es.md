@@ -1,54 +1,55 @@
-﻿---
-title: Ocultar y mostrar filas y columnas
+---
+title: Ocultar y Mostrar Filas y Columnas
 type: docs
 weight: 60
 url: /es/net/hiding-and-showing-rows-and-columns/
 ---
+
 {{% alert color="primary" %}}
 
-A veces, tiene sentido ocultar ciertas filas o columnas en una hoja de cálculo y mostrarlas más tarde. Microsoft Excel proporciona esta característica y también Aspose.Cells.
+A veces, tiene sentido ocultar ciertas filas o columnas en una hoja de cálculo y mostrarlas más tarde. Microsoft Excel proporciona esta característica y también lo hace Aspose.Cells.
 
 {{% /alert %}}
 
-## **Control de la visibilidad de filas y columnas**
+## **Controlar la Visibilidad de Filas y Columnas**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) que permite a los desarrolladores acceder a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) colección que representa todas las celdas de la hoja de trabajo. Él[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección proporciona varios métodos para administrar filas o columnas en una hoja de trabajo. Algunos de estos se discuten a continuación.
+Aspose.Cells proporciona una clase, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), que representa un archivo de Microsoft Excel. La clase [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contiene un [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) que permite a los desarrolladores acceder a cada hoja de cálculo en el archivo de Excel. Una hoja de cálculo está representada por la clase [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). La clase [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) proporciona una colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) que representa todas las celdas de la hoja de cálculo. La colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) proporciona varios métodos para gestionar filas o columnas en una hoja de cálculo. Algunos de ellos se discuten a continuación.
 
-### **Ocultar filas y columnas**
+### **Ocultar Filas y Columnas**
 
- Los desarrolladores pueden ocultar una fila o columna llamando al[**Ocultarfila**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) y[**OcultarColumna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) métodos de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección respectivamente. Ambos métodos toman el índice de fila y columna como parámetro para ocultar la fila o columna específica.
+Los desarrolladores pueden ocultar una fila o columna llamando a los métodos [**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) y [**HideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) de la colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) respectivamente. Ambos métodos toman el índice de fila y columna como parámetro para ocultar la fila o columna específica.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-También es posible ocultar una fila o columna configurando la altura de la fila o el ancho de la columna en 0 respectivamente.
+También es posible ocultar una fila o columna estableciendo la altura de la fila o el ancho de la columna en 0, respectivamente.
 
 {{% /alert %}}
 
-### **Mostrar filas y columnas**
+### **Mostrar Filas y Columnas**
 
- Los desarrolladores pueden mostrar cualquier fila o columna oculta llamando al[**Mostrar Fila**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) y[**Mostrar columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) métodos de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección respectivamente. Ambos métodos toman dos parámetros:
+Los desarrolladores pueden mostrar cualquier fila o columna oculta llamando a los métodos [**UnhideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) y [**UnhideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) de la colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) respectivamente. Ambos métodos toman dos parámetros:
 
 - **Índice de fila o columna** - el índice de una fila o columna que se utiliza para mostrar la fila o columna específica.
-- **Alto de fila o ancho de columna** - la altura de fila o el ancho de columna asignado a la fila o columna después de mostrarse.
+- **Altura de fila o ancho de columna** - la altura de fila o el ancho de columna asignados a la fila o columna después de desocultar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-UnhidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Al hacer visible una columna oculta, si necesita restaurarla al ancho previamente asignado o al ancho original, muestre la columna con un ancho negativo. Por ejemplo: hoja de trabajo.Cells.MostrarColumna(5, -1)
+Mientras se hace visible una columna oculta, si se necesita restaurarla al ancho asignado previamente o a su ancho original, por favor desocultar la columna con un ancho negativo. Por ejemplo: worksheet.Cells.UnhideColumn(5, -1)
 
 {{% /alert %}}
 
-### **Ocultar varias filas y columnas**
+### **Ocultar Múltiples Filas y Columnas**
 
- Los desarrolladores pueden ocultar varias filas o columnas a la vez llamando al[**Ocultar Filas**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) y[**Ocultar columnas**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) métodos de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección respectivamente. Ambos métodos toman el índice de fila o columna inicial y el número de filas o columnas que deben ocultarse como parámetros.
+Los desarrolladores pueden ocultar múltiples filas o columnas a la vez llamando a los métodos [**HideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) y [**HideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) de la colección [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) respectivamente. Ambos métodos toman el índice de la fila o columna inicial y el número de filas o columnas que se deben ocultar como parámetros.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingMultipleRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- También es posible utilizar el[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) clase'[**Mostrar filas**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) y[**Mostrar columnas**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)métodos para hacer visibles varias filas y columnas.
+También es posible usar los métodos [**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) y [**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns) de la clase [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) para hacer varias filas y columnas visibles.
 
 {{% /alert %}}

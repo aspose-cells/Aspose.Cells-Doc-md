@@ -1,44 +1,45 @@
-﻿---
-title: محرر جداول البيانات - العمل مع الصفوف والأعمدة
+---
+title: محرر جداول البيانات  العمل مع الصفوف والأعمدة
 type: docs
 weight: 30
 url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 ---
-**جدول المحتويات**
 
-- [أضف صفًا](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
- - WorksheetView.addRowAbove
- - WorksheetView.addRowBelow
-- [أضف عمودًا](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
- - WorksheetView.addColumnBefore
- - WorksheetView.addColumnAfter
+جدول المحتويات
+
+- [إضافة صف](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
+  - WorksheetView.addRowAbove
+  - WorksheetView.addRowBelow
+- [إضافة عمود](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
+  - WorksheetView.addColumnBefore
+  - WorksheetView.addColumnAfter
 - [حذف صف](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
- - WorksheetView.deleteRow
-- [احذف عمود](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
- - WorksheetView.deleteColumn
-- [عرض العمود وارتفاع الصف](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
- - WorksheetView.setCurrentRowHeight
- - WorksheetView.setCurrentColumnWidth
-- [أدخل Cell](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
- - WorksheetView.addCellShiftRight
- - WorksheetView.addCellShiftDown
-### **أضف صفًا**
+  - WorksheetView.deleteRow
+- [حذف عمود](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
+  - WorksheetView.deleteColumn
+- [عرض العرض وارتفاع الصف](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
+  - WorksheetView.setCurrentRowHeight
+  - WorksheetView.setCurrentColumnWidth
+- [إدراج خلية](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
+  - WorksheetView.addCellShiftRight
+  - WorksheetView.addCellShiftDown
+### **إضافة صف**
 لإضافة صف جديد:
 
-1. انقر فوق الخلية حيث تريد إضافة صف.
-1.  التبديل إلى**علامة التبويب تنسيق**.
-1.  انقر**إضافة صف أعلاه** لإضافة صف أعلى الخلية المحددة.
-1.  انقر**إضافة صف أدناه** لإضافة صف أسفل الخلية المحددة.
+1. انقر فوق خلية حيث ترغب في إضافة صف.
+1. التبديل إلى **علامة التبويب التنسيق**.
+1. انقر على **إضافة صف أعلاه** لإضافة صف أعلاه للخلية المحددة.
+1. انقر على **إضافة صف أدناه** لإضافة صف أدناه للخلية المحددة.
 
-سيضيف المحرر صفًا جديدًا في الموقع المحدد.
+سيقوم المحرر بإضافة صف جديد في الموقع المحدد.
 
-![ما يجب القيام به: image_بديل_نص](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
- ال**إضافة صف أعلاه** و**إضافة صف أدناه** يتم التعامل معها بواسطة وحدة برامج JSF الخلفية**WorksheetView**. الكود المصدري للطرق المعنية هو كما يلي:
+إضافة صف أعلاه وصف أدناه يتم التحكم فيهما بواسطة حزمة الخلفية JSF bean **WorksheetView**. والكود المصدري للطرق المعنية هو كما يلي:
 #### **WorksheetView.addRowAbove**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowAbove() {
 
@@ -63,7 +64,7 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.addRowBelow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowBelow() {
 
@@ -96,23 +97,23 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **أضف عمودًا**
+### **إضافة عمود**
 لإضافة عمود جديد:
 
-1. انقر فوق الخلية حيث تريد إضافة عمود.
-1.  التبديل إلى**علامة التبويب تنسيق**.
-1.  انقر**أضف العمود قبل**لإضافة عمود قبل الخلية المحددة.
-1.  انقر**أضف العمود بعد ذلك** لإضافة عمود بعد الخلية المحددة.
+1. انقر على خلية حيث ترغب في إضافة عمود.
+1. التبديل إلى **علامة التبويب التنسيق**.
+1. انقر على **إضافة عمود قبل** لإضافة عمود قبل الخلية المحددة.
+1. انقر على **إضافة عمود بعد** لإضافة عمود بعد الخلية المحددة.
 
-سيضيف المحرر عمودًا جديدًا في الموقع المحدد.
+سيقوم المحرر بإضافة عمود جديد في الموقع المحدد.
 
-![ما يجب القيام به: image_بديل_نص](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
- ال**أضف العمود قبل** و**أضف العمود بعد ذلك** يتم التعامل معها بواسطة وحدة برامج JSF الخلفية**WorksheetView**. الكود المصدري للطرق المعنية هو كما يلي:
+**إضافة العمود قبل** و **إضافة العمود بعد** يتم التعامل معهم بواسطة جافا سكريبت الخلفية JSF bean **WorksheetView**. ومصدر الكود للأساليب المعنية هو كالتالي:
 #### **WorksheetView.addColumnBefore**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnBefore() {
 
@@ -137,7 +138,7 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.addColumnAfter**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnAfter() {
 
@@ -165,19 +166,19 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 ### **حذف صف**
 لحذف صف:
 
-1. انقر فوق خلية في الصف الذي تريد حذفه.
-1.  التبديل إلى**علامة التبويب تنسيق**.
-1.  انقر**احذف صف** زر.
+1. انقر على خلية في الصف الذي تريد حذفه.
+1. التبديل إلى **علامة التبويب التنسيق**.
+1. انقر على زر **حذف الصف**.
 
 سيقوم المحرر بحذف الصف الذي يتضمن الخلية المحددة.
 
-![ما يجب القيام به: image_بديل_نص](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
- ال**احذف صف** يتم التعامل مع الزر من خلال وحدة برامج JSF الخلفية**WorksheetView** باستخدام الطريقة**WorksheetView.deleteRow**:
+زر **حذف الصف** يتم التعامل معه بواسطة جافا سكريبت الخلفية JSF bean **WorksheetView** باستخدام الأسلوب **WorksheetView.deleteRow**:
 #### **WorksheetView.deleteRow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteRow() {
 
@@ -202,22 +203,22 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **احذف عمود**
+### **حذف عمود**
 لحذف عمود:
 
-1. انقر فوق خلية في العمود الذي تريد حذفه.
-1.  التبديل إلى**علامة التبويب تنسيق**.
-1.  انقر**حذف العمود** زر.
+1. انقر على خلية في العمود الذي تريد حذفه.
+1. التبديل إلى **علامة التبويب التنسيق**.
+1. انقر على زر **حذف العمود**.
 
 سيقوم المحرر بحذف العمود الذي يتضمن الخلية المحددة.
 
-![ما يجب القيام به: image_بديل_نص](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
- ال**حذف العمود** يتم التعامل مع الزر من خلال وحدة برامج JSF الخلفية**WorksheetView** باستخدام الطريقة**WorksheetView.deleteColumn**:
+يتم التعامل مع زر **حذف العمود** عبر شريحة JSF backend bean **WorksheetView** باستخدام الأسلوب **WorksheetView.deleteColumn**: 
 #### **WorksheetView.deleteColumn**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteColumn() {
 
@@ -242,34 +243,34 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **عرض العمود وارتفاع الصف**
+### **عرض العرض وارتفاع الصف**
 لتغيير عرض العمود:
 
 1. انقر فوق أي خلية داخل العمود.
-1.  التبديل إلى**علامة التبويب تنسيق**.
-1.  انقر**عرض العمود** زر للفتح**عرض العمود** الحوار.
+1. التبديل إلى **علامة التبويب التنسيق**.
+1. انقر فوق زر **عرض العمود** لفتح مربع الحوار **عرض العمود**.
 1. أدخل قيمة جديدة في مربع الحوار.
-1.  انقر**قريب**.
+1. انقر على **إغلاق**.
 
 سيقوم المحرر بتغيير عرض العمود.
 
-**كيف تغير ارتفاع الصف؟**
+**كيفية تغيير ارتفاع الصف؟**
 
 لتغيير ارتفاع صف:
 
 1. انقر فوق أي خلية داخل الصف.
-1.  التبديل إلى**علامة التبويب تنسيق**.
-1.  انقر**ارتفاع الصف** زر للفتح**ارتفاع الصف** الحوار.
+1. التبديل إلى **علامة التبويب التنسيق**.
+1. انقر فوق زر **ارتفاع الصف** لفتح مربع الحوار **ارتفاع الصف**.
 1. أدخل قيمة جديدة في مربع الحوار.
-1.  انقر**قريب**.
+1. انقر على **إغلاق**.
 
 سيقوم المحرر بتغيير ارتفاع الصف.
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
- عندما يرسل المستخدم قيمة العرض والارتفاع ، يتم التعامل مع هذه القيم من جانب الخادم**setCurrentRowHeight** و**setCurrentColumnWidth** طرق الفول الخلفية JSF**WorksheetView**.
+عندما يقوم المستخدم بإرسال قيمة العرض والارتفاع، يتم التعامل مع هذه القيم على الجانب الخادم من خلال أساليب setCurrentRowHeight و setCurrentColumnWidth في شريط الخلفية JSF WorksheetView.
 #### **WorksheetView.setCurrentRowHeight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentRowHeight(int height) {
 
@@ -290,7 +291,7 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.setCurrentColumnWidth**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentColumnWidth(int width) {
 
@@ -309,21 +310,21 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
     }
 
 {{< /highlight >}}
-### **أدخل Cell**
+### **إدراج خلية**
 لإضافة خلية جديدة:
 
-1. انقر فوق الخلية حيث تريد الجديد.
-1.  التبديل إلى**إدراج علامة التبويب**.
-1.  انقر**Cell** زر.
-1.  أختر**إزاحة Cells لليمين** أو**إزاحة Cells للأسفل** زر.
+1. انقر على الخلية التي تريد الجديدة.
+1. التبديل إلى علامة التبويب الإدخال.
+1. انقر فوق زر الخلية.
+1. اختر زر الانتقال الى الخلايا اليمين او الخلايا الأسفل.
 
-سيضيف المحرر خلية جديدة في الموقع المحدد. سيتم تحويل الخلايا المجاورة تلقائيًا إما أفقيًا أو رأسيًا لإنشاء مساحة للخلايا الجديدة.
+سيقوم المحرر بإضافة خلية جديدة في الموقع المحدد. سيتم نقل الخلايا المجاورة تلقائيًا إما أفقيًا أو رأسيًا لإنشاء مساحة للخلية الجديدة.
 
-**كيف تعمل؟**
+**كيف يعمل هذا؟**
 
- ال**إزاحة Cells لليمين** و**إزاحة Cells للأسفل** يتم التعامل معها بواسطة وحدة برامج JSF الخلفية**WorksheetView**. الكود المصدري للطرق المعنية هو كما يلي:
-#### **WorksheetView.addCellShift إلى اليمين**
-{{< highlight "java" >}}
+الانتقال إلى الخلايا اليمين والخلايا الأسفل يتم التعامل معها من خلال خلفية JSF WorksheetView. كود المصدر للأساليب المعنية على النحو التالي:
+#### **WorksheetView.addCellShiftRight**
+{{< highlight java >}}
 
      public void addCellShiftRight() {
 
@@ -348,7 +349,7 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 {{< /highlight >}}
 
 #### **WorksheetView.addCellShiftDown**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftDown() {
 

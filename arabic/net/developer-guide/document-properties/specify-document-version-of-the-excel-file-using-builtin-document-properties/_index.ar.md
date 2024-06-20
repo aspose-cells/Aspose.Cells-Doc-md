@@ -1,19 +1,20 @@
-﻿---
-title: حدد إصدار المستند لملف Excel باستخدام خصائص المستند المضمنة
+---
+title: تحديد إصدار المستند لملف الإكسل باستخدام خصائص المستند المضمنة
 type: docs
 weight: 20
 url: /ar/net/specify-document-version-of-the-excel-file-using-builtin-document-properties/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
- يمكنك تغيير**رقم الإصدار** من ملف Excel عن طريق النقر بزر الماوس الأيمن فوق الملف ثم تحديد خصائص> تفاصيل ثم تحرير ملف**رقم الإصدار** مجال. الرجاء استخدام[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/documentversion)لتغييره برمجيًا باستخدام واجهات برمجة تطبيقات Aspose.Cells.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **حدد إصدار المستند لملف Excel باستخدام خصائص المستند المضمنة**
+يمكنك تغيير **رقم الإصدار** لملف الإكسل عن طريق النقر بزر الماوس الأيمن على الملف ومن ثم اختيار الخصائص > التفاصيل ثم تحرير حقل **رقم الإصدار**. يرجى استخدام الخاصية [**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/documentversion) لتغييره برمجيًا باستخدام واجهات برمجة التطبيقات Aspose.Cells.
 
- يقوم نموذج التعليمات البرمجية التالي بإنشاء مصنف وتغيير خصائص المستند المضمنة الخاصة به والتي تتضمن العنوان والمؤلفين ورقم الإصدار. الرجاء مراجعة[إخراج ملف Excel](64716811.xlsx) تم إنشاؤها بواسطة الكود ولقطة الشاشة التي تعرض رقم الإصدار المعدل بواسطة[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/documentversion)خاصية.
+## **تحديد إصدار المستند لملف الإكسل باستخدام خصائص المستند المضمنة**
 
-![ما يجب القيام به: image_بديل_نص](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
+الشيفرة المثالية التالية تنشئ دفتر عمل وتغير الخصائص المدمجة للمستند التي تشمل العنوان، والمؤلفين، ورقم الإصدار. يرجى مشاهدة [ملف Excel الناتج](64716811.xlsx) من خلال الشيفرة ولقطة شاشة تُظهر الرقم الإصدار المعدل بواسطة [**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/documentversion) خاصية.
 
-## **عينة من الرموز**
+![todo:image_alt_text](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SpecifyDocumentVersionOfExcelFile.cs" >}}

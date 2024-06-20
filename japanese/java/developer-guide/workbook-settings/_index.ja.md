@@ -1,4 +1,4 @@
-﻿---
+---
 title: ワークブックの設定
 type: docs
 weight: 200

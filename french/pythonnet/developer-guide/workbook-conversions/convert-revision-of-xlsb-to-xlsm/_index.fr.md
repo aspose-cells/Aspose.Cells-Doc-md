@@ -1,20 +1,21 @@
 ---
-title: Convertir la révision de XLSB en XLSM
+title: Convertir la révision des XLSB en XLSM
 type: docs
 weight: 290
 url: /fr/python-net/convert-revision-of-xlsb-to-xlsm/
-description: Comment convertir la révision de XLSB en XLSM avec Aspose.Cells for Python via .NET API.
-keywords: Python Convert Revision of XLSB to XLSM, Convert Revision of XLSB to XLSM Pyton via NET, Python via NET Convert Revision of XLSB to XLSM.
+description: Comment convertir la révision des XLSB en XLSM avec l API Aspose.Cells pour Python via .NET.
+keywords: Python Convertir la révision de XLSB en XLSM, Convertir la révision de XLSB en XLSM Pyton via NET, Python via NET Convertir la révision de XLSB en XLSM.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Python via .NET prend désormais en charge la conversion complète des révisions du fichier XLSB en fichier XLSM. Les révisions se trouvent dans le chemin \xl\revisions. Vous pouvez les visualiser en modifiant l'extension de votre fichier XLSB en ZIP. Le chemin \xl\revisions contient les fichiers se terminant par les extensions .bin.
+Aspose.Cells pour Python via .NET prend désormais en charge la conversion complète des révisions du fichier XLSB en fichier XLSM. Les révisions se trouvent dans le chemin \xl\revisions. Vous pouvez les visualiser en changeant l'extension de votre fichier XLSB en ZIP. Le chemin \xl\revisions contient des fichiers se terminant par des extensions .bin.
 
-Lorsque vous convertissez votre fichier XLSB en fichier XLSM à l'aide de Aspose.Cells for Python via .NET, ces fichiers .bin sont convertis avec succès en fichiers .xml, comme indiqué dans ces deux captures d'écran.
+Lorsque vous convertissez votre fichier XLSB en fichier XLSM à l'aide d'Aspose.Cells pour Python via .NET, ces fichiers .bin sont transformés avec succès en fichiers .xml comme le montrent ces deux captures d'écran.
 
 {{% /alert %}} 
 
-L'exemple de code suivant vous montre comment convertir le fichier XLSB au format XLSM à l'aide de Aspose.Cells for Python via .NET.
+Le code d'exemple suivant vous montre comment convertir le fichier XLSB en format XLSM à l'aide d'Aspose.Cells pour Python via .NET.
 
 
 

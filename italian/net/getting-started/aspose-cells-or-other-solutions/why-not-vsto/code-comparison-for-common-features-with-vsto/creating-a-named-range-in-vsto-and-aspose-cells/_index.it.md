@@ -1,23 +1,24 @@
-﻿---
-title: Creazione di un intervallo denominato in VSTO e Aspose.Cells
+---
+title: Creare un intervallo nominato in VSTO e Aspose.Cells
 type: docs
 weight: 90
 url: /it/net/creating-a-named-range-in-vsto-and-aspose-cells/
 ---
+
 Per creare un intervallo denominato:
 
-1.  Imposta il foglio di lavoro:
- 1. Creare un'istanza di un oggetto Application (solo VSTO).
- 1. Aggiungi una cartella di lavoro.
- 1. Prendi il primo foglio.
-1.  Crea un intervallo denominato:
- 1. Definire un intervallo.
- 1. Assegna un nome all'intervallo.
- 1. Salva il file.
+1. Configura il foglio di lavoro: 
+   1. Istanziare un oggetto Application. (Solo VSTO)
+   1. Aggiungi un foglio di lavoro.
+   1. Ottieni il primo foglio.
+1. Crea un intervallo nominato: 
+   1. Definisci un intervallo.
+   1. Dà un nome all'intervallo.
+   1. Salvare il file.
 
-Gli esempi di codice seguenti mostrano come eseguire questi passaggi utilizzando VSTO con C#. Gli esempi di codice che seguono mostrano come eseguire la stessa operazione utilizzando Aspose.Cells for .NET, sempre con C#.
+Gli esempi di codice seguenti mostrano come eseguire questi passaggi utilizzando VSTO con C#. Gli esempi di codice seguenti mostrano come fare la stessa cosa utilizzando Aspose.Cells for .NET, di nuovo con C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create Excel Object
 
@@ -63,25 +64,25 @@ xl.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Creazione di un'istanza di un oggetto Workbook
+ //Instantiating a Workbook object
 
-Cartella di lavoro cartella di lavoro = nuova cartella di lavoro();
+Workbook workbook = new Workbook();
 
-//Accesso al primo foglio di lavoro nel file Excel
+//Accessing the first worksheet in the Excel file
 
-Foglio di lavoro foglio di lavoro = workbook.Worksheets[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Creazione di un intervallo denominato
+//Creating a named range
 
-Intervallo intervallo = foglio di lavoro.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Impostazione del nome dell'intervallo denominato
+//Setting the name of the named range
 
 range.Name = "Test_Range";
 
- for (int riga = 0; riga< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 
@@ -103,5 +104,5 @@ workbook.Save("Test_Range.xls");
 {{< /highlight >}}
 ## **Scarica il codice di esempio**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
-- [SourceForge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/scarica)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).cerniera lampo)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip)

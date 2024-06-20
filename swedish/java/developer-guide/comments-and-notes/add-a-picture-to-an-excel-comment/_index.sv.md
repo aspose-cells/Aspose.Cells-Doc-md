@@ -1,40 +1,41 @@
-﻿---
-title: Lägg till en bild i en Excel-kommentar
+---
+title: Lägg till en bild i en Excel kommentar
 type: docs
 weight: 60
 url: /sv/java/add-a-picture-to-an-excel-comment/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel låter användare anpassa utseendet och känslan av kalkylblad i stor utsträckning. Det är till och med möjligt att lägga till bakgrundsbilder till kommentarer.
+Microsoft Excel låter användarna anpassa utseendet på kalkylblad i stor utsträckning. Det är även möjligt att lägga till bakgrundsbilder i kommentarer.
 
-Kommentarer läggs till i celler för att spela in kommentarer, allt från detaljerna om hur en formel fungerar, var ett värde kommer ifrån eller frågor från granskare. Att lägga till en bakgrundsbild kan vara ett estetiskt val, eller användas för att stärka varumärket.
+Kommentarer läggs till i celler för att spela in kommentarer, allt från detaljer om hur en formel fungerar, varifrån ett värde kommer eller frågor från granskare. Att lägga till en bakgrundsbild kan vara ett estetiskt val, eller användas för att förstärka varumärket.
 
 {{% /alert %}}
 
-## Lägg till bild i Excel Kommentera med Microsoft Excel
+## Lägg till bild i Excel-kommentar med Microsoft Excel
 
-Med Microsoft Excel 2007 är det möjligt att ha en bild som bakgrund till en cellkommentar. I Excel 2007 görs detta (förutsatt att kommentaren redan har lagts till) på detta sätt:
+Med Microsoft Excel 2007 är det möjligt att ha en bild som bakgrund till en cellkommentar. I Excel 2007 görs detta (förutsatt att kommentaren redan har lagts till) på följande sätt:
 
 1. Högerklicka på cellen som innehåller kommentaren.
-1.  Välja**Visa/dölj kommentarer** och ta bort all text från kommentaren.
-1. Klicka på kommentarens kant för att välja den.
-1.  Välja**Formatera** , då**Kommentar**.
-1.  På fliken Färger och linjer klickar du på pilen för**Färg**.
-1.  Klick**Fyllningseffekter**.
-1.  Klicka på fliken Bild**Välj Bild**.
-1. Leta upp och välj bilden
-1.  Klick**OK**.
+1. Välj **Visa/dölj kommentarer** och rensa eventuell text från kommentaren.
+1. Klicka på kommentarens kant för att markera den.
+1. Välj **Format**, sedan **Kommentar**.
+1. På fliken Färger och linjer klickar du på pilen för **Färg**.
+1. Klicka på **Fyllnings effekter**.
+1. På fliken Bild klickar du på **Välj bild**.
+1. Hitta och markera bilden
+1. Klicka på **OK**.
 
-## Lägg till bild i Excel Kommentar med Aspose.Cells
+## Lägg till bild i Excel-kommentar med Aspose.Cells
 
 Aspose.Cells tillhandahåller denna värdefulla funktion.
 
-Exempelkoden nedan skapar en XLSX-fil från början och lägger till en kommentar med en bildbakgrund i cell A1.
+Provkoden nedan skapar en XLSX-fil från grunden och lägger till en kommentar med en bild som bakgrund till cellen A1.
 
 Efter att ha kört koden har A1 en kommentar med en bakgrundsbild.
 
-**Utdatafilen**
+**Utgångsfilen**
 
 ![todo:image_alt_text](add-a-picture-to-an-excel-comment_1.png)
 

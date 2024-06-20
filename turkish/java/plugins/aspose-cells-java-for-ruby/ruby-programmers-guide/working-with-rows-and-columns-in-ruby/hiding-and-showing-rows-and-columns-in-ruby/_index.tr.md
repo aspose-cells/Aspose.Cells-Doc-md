@@ -1,16 +1,17 @@
-﻿---
-title: Ruby'de Satırları ve Sütunları Gizleme ve Gösterme
+---
+title: Ruby de Sıraları ve Sütunları Gizleme ve Gösterme
 type: docs
 weight: 50
 url: /tr/java/hiding-and-showing-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Satırların ve Sütunların Görünürlüğünü Kontrol Etme**
-### **Satırları ve Sütunları Gizleme**
-Geliştiriciler, sırasıyla Cells koleksiyonunun HideRow ve HideColumn yöntemlerini çağırarak bir satırı veya sütunu gizleyebilirsiniz. Her iki yöntem de belirli satır veya sütunu gizlemek için satır/sütun dizinini parametre olarak alır.
 
-**Yakut Kodu**
+## **Aspose.Cells - Sıraların ve Sütunların Görünürlüğünü Kontrol Etmek**
+### **Satır ve Sütunları Gizleme**
+Geliştiriciler, sırasıyla hücrelerin koleksiyonunun HideRow ve HideColumn yöntemlerini çağırarak bir satırı veya sütunu gizleyebilirler. Her iki yöntem de belirli bir satırı veya sütunu gizlemek için satır/sütun endeksini bir parametre olarak alır.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  def hide_rows_columns()
 
@@ -43,15 +44,15 @@ Geliştiriciler, sırasıyla Cells koleksiyonunun HideRow ve HideColumn yönteml
 end
 
 {{< /highlight >}}
-### **Satırları ve Sütunları Gösterme**
-Geliştiriciler, sırasıyla Cells koleksiyonunun UnhideRow ve UnhideColumn yöntemlerini çağırarak herhangi bir gizli satırı veya sütunu gösterebilir. Her iki yöntem de iki parametre alır:
+### **Satır ve Sütunları Gösterme**
+Geliştiriciler, sırasıyla hücrelerin koleksiyonunun UnhideRow ve UnhideColumn yöntemlerini çağırarak gizlenmiş herhangi bir satırı veya sütunu gösterebilirler. Her iki yöntem de iki parametre alır:
 
-- **Rowor sütun dizini**- belirli bir satır veya sütunu göstermek için kullanılan bir satır veya sütun dizini.
-- **Satır yüksekliği veya sütun genişliği**- gösterildikten sonra satıra veya sütuna atanan satır yüksekliği veya sütun genişliği.
+- **Satır veya sütun endeksi** - belirli satırı veya sütunu göstermek için kullanılan satırın veya sütunun endeksi.
+- **Satır yüksekliği veya sütun genişliği** - gösterildikten sonra satıra veya sütuna atanan satır yüksekliği veya sütun genişliği.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def unhide_rows_columns()
 
@@ -85,6 +86,6 @@ end
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Satırların ve Sütunların Görünürlüğünü Kontrol Etme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen herhangi bir sosyal kodlama sitesinden **Sıraların ve Sütunların Görünürlüğünü Kontrol Etme (Aspose.Cells)** :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

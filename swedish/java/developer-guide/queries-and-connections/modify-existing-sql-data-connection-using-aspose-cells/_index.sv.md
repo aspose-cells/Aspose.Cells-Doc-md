@@ -1,23 +1,24 @@
-﻿---
-title: Ändra befintlig SQL-dataanslutning med Aspose.Cells
+---
+title: Modifiera befintlig SQL Data Connection med hjälp av Aspose.Cells
 type: docs
 weight: 30
 url: /sv/java/modify-existing-sql-data-connection-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells stöder modifiering av befintlig SQL-dataanslutning. Artikeln kommer att förklara hur man använder Aspose.Cells för att ändra olika egenskaper för SQL Data Connection.
+Aspose.Cells stöder att ändra befintlig SQL Data Connection. Artikeln förklarar hur man använder Aspose.Cells för att ändra olika egenskaper hos SQL Data Connection.
 
-Du kan lägga till eller se dataanslutningar i Microsoft Excel genom att följa**Data > Anslutningar** menykommando.
+Du kan lägga till eller se dataanslutningar inne i Microsoft Excel genom att följa menyn **Data > Connections**.
 
-På samma sätt ger Aspose.Cells möjlighet att komma åt och ändra dataanslutningar med Workbook.getDataConnections()-samlingen.
+På liknande sätt tillhandahåller Aspose.Cells medel för att komma åt och modifiera dataanslutningar med hjälp av Workbook.getDataConnections() samlingen.
 
 {{% /alert %}} 
-## **Ändra befintlig SQL-dataanslutning med Aspose.Cells**
-Följande exempel illustrerar användningen av Aspose.Cells för att ändra SQL-dataanslutningen för arbetsboken. Du kan ladda ner källfilen för Excel som används i den här koden och Excel-utdatafilen som genereras av koden från följande länkar.
+## **Modifiera befintlig SQL Data Connection med hjälp av Aspose.Cells**
+Det följande exempel illustrerar användningen av Aspose.Cells för att ändra SQL Data Connection hos arbetsboken. Du kan ladda ned den angivna källfilen Excel och den genererade utdatafilen Excel med hjälp av följande länkar.
 
-- [Excel-källfil](5472969.xlsx)
-- [Utdata Excel-fil](5472966.xlsx)
+- [Käll-Excel-fil](5472969.xlsx)
+- [Utdata-Excel-fil](5472966.xlsx)
 
 
 

@@ -1,24 +1,25 @@
-﻿---
-title: ピボットテーブルの操作
+---
+title: ピボットテーブルを使用する
 type: docs
 weight: 100
 url: /ja/reportingservices/working-with-pivottable/
 ---
+
 {{% alert color="primary" %}} 
 
-あ*ピボットテーブル*データを要約し、意味のある方法で表示するインタラクティブなテーブルです。 SQL Server Reporting Services は、ピボット テーブルを保持している間、レポートを Microsft Excel 形式にエクスポートできません。レポート ユーザーは、ピボット テーブル レポートを Reporting Services から Microsoft Excel にエクスポートするたびに、ピボット テーブルを手動で作成する必要があります。 Aspose.Cells for Reporting Services を使用すると、レポートのデザイン時に一度ピボット テーブルをデザインできます。レポートが実行されるたびに、Aspose.Cells for Reporting Services はレポートを Microsoft Excel にエクスポートし、データをピボット テーブルに更新します。
+ピボットテーブルは、データを集計し意味のある方法で表示するインタラクティブなテーブルです。SQL Server Reporting Services はピボットテーブルを維持したままレポートをMicrosoft Excel形式にエクスポートすることができません。レポートユーザーは、Reporting ServicesからMicrosoft Excelにピボットテーブルレポートをエクスポートするたびに、手動でピボットテーブルを作成する必要があります。Aspose.Cells for Reporting Servicesを使用すると、レポートの設計時に一度だけピボットテーブルを設計できます。レポートが実行されるたびに、Aspose.Cells for Reporting ServicesはレポートをMicrosoft Excelにエクスポートし、データをピボットテーブルにリフレッシュします。
 
 {{% /alert %}} 
 
-ピボット テーブル レポートを作成するには:
+ピボットテーブルレポートを作成するには:
 
-1. ピボット テーブルのデータ ソースとしてデータセットを作成します。
-以下では、SQL Server Reporting Services 2005 に同梱されている AdventureWorks サンプル データベースを使用して、"sales" という名前のデータセットを作成します。
-データセットの SQL は次のとおりです。
+1. ピボットテーブルのデータソースとしてデータセットを作成します。
+   以下では、SQL Server Reporting Services 2005に含まれるAdventureWorksサンプルデータベースを使用し、「sales」という名前のデータセットを作成します。
+   データセットのSQLは次のようになります: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT  PC.Name AS ProdCat,
 
@@ -52,77 +53,77 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 {{% alert color="primary" %}} 
 
-を参照してください。[データ ソースとクエリ](/cells/ja/reportingservices/data-sources-and-queries/) Aspose.Cells.Report.Designer を使用してデータ ソースとデータセットを作成する方法の詳細については、
+[データソースとクエリ](/cells/ja/reportingservices/data-sources-and-queries/)を参照して、Aspose.Cells.Report.Designerを使用してデータソースとデータセットを作成する方法について詳しく学んでください。
 
 {{% /alert %}} 
 
-1. の指示に従ってテーブル レポートを作成します。[表形式レポートの作成](/cells/ja/reportingservices/creating-tabular-report/)、以下に示すように。
-テーブルは、ピボット テーブルのデータ ソースになります。
+1. [タブラーレポートの作成](/cells/ja/reportingservices/creating-tabular-report/)の指示に従って、テーブルレポートを作成します。下図のようになります。
+   このテーブルは、ピボットテーブルのデータソースになります。 
 
-![todo:画像_代替_文章](working-with-pivottable_1.png)
-
-
-
-
-1.  Microsoft エクセルで、**入れる**メニュー、選択**名前**その後**定義**.
-1. 名前を「営業」と定義します。
-名前の範囲は、以下に示すように、ヘッダー タイトルの最初のセルから始まり、テーブル データ行の最後のセルで終わります。
-
-![todo:画像_代替_文章](working-with-pivottable_2.png)
+![todo:image_alt_text](working-with-pivottable_1.png)
 
 
 
 
-1. クリック**わかった**終わる。
-1. ピボット テーブル用の新しいシートを作成します。
-1. から**データ**メニュー、選択**ピボットテーブルとピボットグラフ レポート**ピボット テーブルを追加します。
-ダイアログが表示されます。
-1. 選択する**Microsoft Office Excel リストまたはデータベース**データソースとして**ピボットテーブル**レポートの種類として。
-1. クリック**次**続ける。
+1. Microsoft Excelで、**挿入**メニューから**名前**を選択し、**定義**を選択します。
+1. 「sales」という名前を定義します。
+   名前の範囲は、ヘッダータイトルの最初のセルからテーブルデータ行の最後のセルであることを示します。 
 
-![todo:画像_代替_文章](working-with-pivottable_3.png)
+![todo:image_alt_text](working-with-pivottable_2.png)
 
 
 
 
-1. ダイアログ ボックスに、上で定義した名前「sales」を入力します。
-1. クリック**次**続ける。
+1. 終了するには**OK**をクリックします。
+1. ピボットテーブル用に新しいシートを作成します。
+**データ**メニューから**ピボットテーブルおよびピボットチャート レポート**を選択して、ピボットテーブルを追加します。
+   ダイアログが表示されます。
+1. **Microsoft Office Excelリストまたはデータベース**をデータソースとし、**ピボットテーブル**をレポートの種類として選択します。
+1. 次をクリックして続行します。 
 
-![todo:画像_代替_文章](working-with-pivottable_4.png)
-
-
-
-
-1. クリック**終了**. 
-
-![todo:画像_代替_文章](working-with-pivottable_5.png)
+![todo:image_alt_text](working-with-pivottable_3.png)
 
 
 
 
-1.  Excel でピボット テーブルを設計します。
+ダイアログボックスで、先ほど定義した「sales」と入力します。
+1. 次をクリックして続行します。 
 
-![todo:画像_代替_文章](working-with-pivottable_6.png)
-
-
-
-設計されたピボット テーブルを以下に示します。
-
-![todo:画像_代替_文章](working-with-pivottable_7.png)
+![todo:image_alt_text](working-with-pivottable_4.png)
 
 
 
 
-1. ピボット テーブルを右クリックし、**テーブル オプション**.
-1. ことを確認してください**開いたらリフレッシュ**が選択されます。
+1. **完了**をクリックします。 
 
-![todo:画像_代替_文章](working-with-pivottable_8.png)
-
+![todo:image_alt_text](working-with-pivottable_5.png)
 
 
 
-1. レポートを保存し、レポート サーバーに公開します。
-1. レポート サーバーからレポートをエクスポートします。
-結果を以下に示します。
 
-![todo:画像_代替_文章](working-with-pivottable_9.png)
+Excelでピボットテーブルを設計します。 
+
+![todo:image_alt_text](working-with-pivottable_6.png)
+
+
+
+設計されたピボットテーブルが以下に表示されます。 
+
+![todo:image_alt_text](working-with-pivottable_7.png)
+
+
+
+
+設計したピボットテーブルが以下に示されています。
+ピボットテーブルを右クリックし、**テーブル オプション**を選択します。 
+
+![todo:image_alt_text](working-with-pivottable_8.png)
+
+
+
+
+**開くたびにリフレッシュ**が選択されていることを確認します。
+レポートを保存して、Report Serverに公開します。
+   Report Serverからレポートをエクスポートします。 
+
+![todo:image_alt_text](working-with-pivottable_9.png)

@@ -1,26 +1,27 @@
-﻿---
-title: Avgör om licensen har laddats
+---
+title: Avgöra om licensen har laddats framgångsrikt
 type: docs
 weight: 210
 url: /sv/java/determining-if-the-license-is-loaded-successfully/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells tillhandahåller[**Workbook.isLicensed()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#IsLicensed)egendom som du kan använda för att avgöra om licensen har laddats eller inte. Om du anropar den här metoden innan du ställer in licensen kommer den att returnera false och om du anropar den här metoden efter att ha ställt in licensen kommer den att returnera true vilket indikerar att licensen har laddats.
+Aspose.Cells ger [**Workbook.isLicensed()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#IsLicensed) egenskap som du kan använda för att avgöra om licensen har laddats framgångsrikt eller inte. Om du anropar den här metoden innan du anger licensen kommer den att returnera false och om du anropar den här metoden efter att ha angett licensen kommer den att returnera true och indikera att licensen har laddats framgångsrikt.
 
 {{% /alert %}}
 
-## **Avgör om licensen har laddats**
+## **Avgöra om licensen har laddats framgångsrikt**
 
- Följande kod ger åtkomst till[**Workbook.isLicensed()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#IsLicensed)metod innan du ställer in en licens och den returnerar falskt. Sedan laddar den licensen och kommer åt egendomen igen som nu returnerar sant.
+I följande kod har åtkomst till [**Workbook.isLicensed()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#IsLicensed)-metoden innan en licens anges och den returnerar false. Sedan laddar den licensen och får åtkomst till egenskapen igen som nu returnerar true.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeterminetheLicenseLoadedSuccessfully-DeterminetheLicenseLoadedSuccessfully.java" >}}
 
-## **Konsolutgång**
+## **Konsoloutput**
 
-Här är konsolutgången för ovanstående exempelkod
+Här är konsoloutputen av ovanstående kodexempel
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 false
 

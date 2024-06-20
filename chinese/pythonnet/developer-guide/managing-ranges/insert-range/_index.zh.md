@@ -2,7 +2,7 @@
 title: 插入范围
 type: docs
 weight: 105
-url: /zh/python-net/insert-ranges-to-Excel/
+url: /zh/python-net/insert-ranges-to-excel/
 description: 本文介绍了如何使用Aspose.Cells for Python via .NET库插入范围。
 keywords: Python Excel库，Python插入范围，Python插入范围并向右移动单元格，Python插入范围并向下移动单元格。
 ---

@@ -1,20 +1,21 @@
-﻿---
-title: Speichern Sie HTML mit StreamProvider
+---
+title: HTML mit StreamProvider speichern
 type: docs
 weight: 80
 url: /de/net/convert-excel-to-html-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-Beim Konvertieren von Excel-Feldern, die Bilder und Formen enthalten, in HTML-Dateien treten häufig die folgenden zwei Probleme auf:
-1. Wo sollen wir die Bilder und Formen speichern, wenn wir eine Excel-Datei im HTML-Stream speichern?
-1. Ersetzen Sie den Standardpfad durch den ausgenommenen Pfad.
+Beim Konvertieren von Excel-Dateien, die Bilder und Formen enthalten, in HTML-Dateien stoßen wir häufig auf die folgenden zwei Probleme:
+1. Wo sollten wir die Bilder und Formen speichern, wenn wir die Excel-Datei in eine HTML-Streamdatei speichern.
+1. Ersetzen Sie den Standardpfad durch den erwarteten Pfad.
 
- In diesem Artikel wird die Implementierung erläutert[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) Schnittstelle zum Einstellen der[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) Eigentum. Durch die Implementierung dieser Schnittstelle können Sie die während der HTML-Generierung erstellten Ressourcen an Ihren spezifischen Speicherorten oder Speicherströmen speichern.
+Dieser Artikel erklärt, wie die [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)-Schnittstelle implementiert wird, um die Eigenschaft [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) festzulegen. Durch die Implementierung dieser Schnittstelle können die erstellten Ressourcen während der HTML-Generierung an spezifischen Speicherorten oder in Memory-Streams gespeichert werden.
 
 {{% /alert %}} 
 
- Dies ist der Hauptcode, der die Verwendung von zeigt[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)Eigentum
+Dies ist der Hauptcode zur Verwendung der Eigenschaft [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider).
 
 
 
@@ -22,7 +23,7 @@ Beim Konvertieren von Excel-Feldern, die Bilder und Formen enthalten, in HTML-Da
 
 
 
- Hier ist der Code für*ExportStreamProvider* Klasse, die implementiert[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)Schnittstelle, die im obigen Code verwendet wird.
+Hier ist der Code für die Klasse *ExportStreamProvider*, die die [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)-Schnittstelle implementiert, die im obigen Code verwendet wird.
 
 
 

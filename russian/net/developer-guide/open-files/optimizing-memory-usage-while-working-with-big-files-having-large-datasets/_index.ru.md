@@ -1,14 +1,15 @@
-﻿---
+---
 title: Оптимизация использования памяти при работе с большими файлами с большими наборами данных
 type: docs
 weight: 180
 url: /ru/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/
 ---
+
 {{% alert color="primary" %}}
 
-При создании рабочей книги с большими наборами данных или при чтении большого файла Excel Microsoft общий объем оперативной памяти, который потребуется процессу, всегда вызывает беспокойство. Существуют меры, которые можно адаптировать для решения этой проблемы. Aspose.Cells предоставляет некоторые соответствующие параметры, а API вызывает снижение, сокращение и оптимизацию использования памяти. Кроме того, это может помочь процессу работать более эффективно и быстрее.
+При создании книги с большими наборами данных или чтении большого файла Microsoft Excel всегда возникает вопрос - какой объем ОЗУ займет данный процесс. Предлагаются меры, которые можно принять для справки с этим вызовом. Aspose.Cells предоставляет некоторые соответствующие параметры и вызовы API для снижения, уменьшения и оптимизации использования памяти. Кроме того, это может помочь процессу работать более эффективно и быстро.
 
- Использовать[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)возможность оптимизировать использование памяти для данных ячеек и снизить общую стоимость памяти. При построении большого набора данных для ячеек может сэкономить определенный объем памяти по сравнению с использованием настройки по умолчанию ([**MemorySetting.Нормальный**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
+Используйте опцию [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) для оптимизации использования памяти для данных ячеек и уменьшения общей затраты памяти. При создании большого набора данных для ячеек можно сохранить определенное количество памяти по сравнению с использованием настройки по умолчанию ([**MemorySetting.Normal**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
 
 {{% /alert %}}
 
@@ -16,20 +17,20 @@ url: /ru/net/optimizing-memory-usage-while-working-with-big-files-having-large-d
 
 ### **Чтение больших файлов Excel**
 
-В следующем примере показано, как прочитать большой файл Excel Microsoft в оптимизированном режиме.
+Следующий пример показывает, как считать большой файл Microsoft Excel в оптимизированном режиме.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-OptimizingMemoryUsage-ReadingLargeExcelFiles-1.cs" >}}
 
 ### **Запись больших файлов Excel**
 
-В следующем примере показано, как записать большой набор данных на лист в оптимизированном режиме.
+Следующий пример показывает, как записать большой набор данных на листе в оптимизированном режиме.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-OptimizingMemoryUsage-WritingLargeExcelFiles-1.cs" >}}
 
-## **Осторожность**
+## **Предостережение**
 
- Вариант по умолчанию,[**MemorySetting.Нормальный**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)применяется для всех версий. В некоторых ситуациях, например при создании рабочей книги с большим набором данных для ячеек,[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)Параметр может оптимизировать использование памяти и снизить затраты памяти для приложения. Однако этот параметр может снизить производительность в некоторых особых случаях, таких как следующие.
+Настройка по умолчанию, [**MemorySetting.Normal**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting), применяется ко всем версиям. В некоторых ситуациях, таких как создание книги с большим набором данных для ячеек, опция [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) может оптимизировать использование памяти и уменьшить затраты памяти для приложения. Однако, эта опция может ухудшить производительность в некоторых специальных случаях, таких как следующие.
 
-1. **Доступ к Cells в случайном порядке и повторно** : наиболее эффективная последовательность для доступа к коллекции ячеек — ячейка за ячейкой в одной строке, а затем строка за строкой. Особенно, если вы обращаетесь к строкам/ячейкам с помощью Enumerator, полученного из[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells), [**RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection) и[**Строка**](https://reference.aspose.com/cells/net/aspose.cells/row) , производительность будет максимальной при[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting).
-1. **Вставка и удаление Cells и строк** : Обратите внимание, что при большом количестве операций вставки/удаления для Cells/Rows снижение производительности будет заметным для*ПамятьPreference* режим по сравнению с*Нормальный*режим.
-1. **Работа с различными типами Cell** : если большинство ячеек содержат строковые значения или формулы, затраты памяти будут такими же, как*Нормальный* режиме, но если есть много пустых ячеек или значения ячеек являются числовыми, логическими и т. д.,[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)вариант даст лучшую производительность.
+1. **Доступ к ячейкам в произвольном порядке и повторно**: Самая эффективная последовательность доступа к коллекции ячеек - путем перебора ячеек по одной строке, а затем строка за строкой. Особенно, если вы получаете доступ к строкам/ячейкам с помощью перечислителя, полученного из [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells), [**RowCollection**](https://reference.aspose.com/cells/net/aspose.cells/rowcollection) и [**Row**](https://reference.aspose.com/cells/net/aspose.cells/row), производительность будет максимальной с [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting).
+1. **Вставка и удаление ячеек и строк**: Обратите внимание, что если есть много операций вставки/удаления для Ячеек/Строк, деградация производительности будет значительной в режиме *MemoryPreference* по сравнению с режимом *Normal*.
+1. **Работа с различными типами ячеек**: Если большинство ячеек содержат строковые значения или формулы, затраты памяти будут такими же, как в режиме *Normal*, но если есть много пустых ячеек, или значения ячейки являются числовыми, логическими и т. д., то [**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) позволит добиться лучшей производительности.

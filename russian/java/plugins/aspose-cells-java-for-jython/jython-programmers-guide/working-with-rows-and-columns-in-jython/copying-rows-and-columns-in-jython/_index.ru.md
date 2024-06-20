@@ -1,83 +1,84 @@
-﻿---
+---
 title: Копирование строк и столбцов в Jython
 type: docs
 weight: 30
 url: /ru/java/copying-rows-and-columns-in-jython/
 ---
+
 ## **Aspose.Cells - Копирование строк и столбцов**
- Для добавления документов с помощью**Aspose.Cells Java для Jython**. Здесь вы можете увидеть пример кода.
+Для добавления документов с помощью **Aspose.Cells Java для Jython**. Здесь вы можете увидеть примерный код.
 
 **Код Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- из настроек импорта aspose-cells
+ from aspose-cells import Settings
 
-из com.aspose.cells импортировать книгу
+from com.aspose.cells import Workbook
 
-класс РовсандКолоннс:
+class RowsAndColumns:
 
- деф__в этом__(себя):
-
-
-
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
+    def __init__(self):
 
 
 
- # Копирование строк
-
- self.copy_rows()
-
- # Копирование столбцов
-
- self.copy_columns()
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
 
 
- защита copy_rows (каталог данных):
+        # Copying Rows
 
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'
+        self.copy_rows()
 
- # Создание экземпляра объекта Workbook по пути к файлу excel
+        # Copying Columns
 
- рабочая книга = рабочая книга (каталог данных + 'Book1.xls')
-
- Доступ к первому рабочему листу в файле Excel
-
- рабочий лист = рабочая книга.getWorksheets (). получить (0)
-
- # Скопируйте вторую строку с данными, форматированием, изображениями и объектами рисования
-
- # до 12-й строки рабочего листа.
-
- рабочий лист.getCells().copyRow(worksheet.getCells(),1,11)
-
- # Сохранение измененного файла Excel в формате по умолчанию (то есть Excel 2003)
-
- workbook.save (каталог данных + «Копировать строки.xls»)
-
- print "Скопировать строки успешно."
+        self.copy_columns()
 
 
 
- def copy_columns (каталог данных):
+    def copy_rows(dataDir):
 
- dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'    
 
- # Создание экземпляра объекта Workbook по пути к файлу excel
+        # Instantiating a Workbook object by excel file path
 
- рабочая книга = рабочая книга ()
+        workbook = Workbook(dataDir + 'Book1.xls')
 
- Доступ к первому рабочему листу в файле Excel
+        # Accessing the first worksheet in the Excel file
 
- рабочий лист = рабочая книга.getWorksheets (). получить (0)
+        worksheet = workbook.getWorksheets().get(0)
 
- # Поместите некоторые данные в строки заголовков (A1:A4)
+        # Copy the second row with data, formattings, images and drawing objects
 
- я = 0
+        # to the 12th row in the worksheet.
 
- в то время как я< 5:
+        worksheet.getCells().copyRow(worksheet.getCells(),1,11)
+
+        # Saving the modified Excel file in default (that is Excel 2003) format
+
+        workbook.save(dataDir + "Copy Rows.xls")
+
+        print "Copy Rows Successfully." 
+
+
+
+    def copy_columns(dataDir):
+
+        dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'    
+
+        # Instantiating a Workbook object by excel file path
+
+        workbook = Workbook()
+
+        # Accessing the first worksheet in the Excel file
+
+        worksheet = workbook.getWorksheets().get(0)
+
+        # Put some data into header rows (A1:A4)
+
+        i = 0
+
+        while i < 5:
 
             worksheet.getCells().get(i, 0).setValue("Header Row #i")
 
@@ -128,7 +129,7 @@ if __name__ == '__main__':
     RowsAndColumns()
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Добавить документы (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Append Documents (Aspose.Cells)** c любого из упомянутых ниже социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

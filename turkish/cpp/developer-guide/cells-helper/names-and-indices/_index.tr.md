@@ -1,35 +1,36 @@
 ---
-title: İsimler ve İndeksler
+title: Adlar ve İndeksler
 type: docs
 weight: 10
 url: /tr/cpp/names-and-indices/
 ---
-##  **Satır ve Sütun İndekslerinden Cell Adını Alın**
-Satır ve sütun indeksine göre bir hücrenin adını bulmak mümkündür. Bu makalede bunun nasıl yapılacağı açıklanmaktadır.
- Aspose.Cells şunları sağlar[CellsHelper::CellIndexToName](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellindextoname/) geliştiricilerin satır ve sütun dizinini sağlamaları durumunda hücrenin adını almalarına olanak tanıyan yöntem.
+
+## **Satır ve Sütun Dizilerinden Hücre Adı Alın**
+Bir hücrenin adını bulmak mümkündür, verilen satır ve sütun dizini. Bu makale açıklar.
+Aspose.Cells, geliştiricilere [CellsHelper::CellIndexToName](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellindextoname/) yöntemi sağlar, bu yöntem geliştiricilere bir hücre adı sağlar ve onlar satır ve sütun indekslerini sağladığında bir hücre adı alabilirler.
 
 {{% alert color="primary" %}} 
 
-Satır ve sütun dizinlerinin 1'den başladığı Microsoft Excel'in aksine, Aspose.Cells, satır ve sütun dizinlerini 0'dan saymaya başlar.
+Microsoft Excel'in aksine, satır ve sütun indisleri 1'den başlamaz, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
 
 {{% /alert %}} 
 
- Aşağıdaki örnek kod nasıl kullanılacağını gösterir[CellsHelper::CellIndexToName](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellindextoname/) bilinen bir satır ve sütun dizini verilen bir hücrenin adına erişmek için. Kod aşağıdaki çıktıyı üretir.
+Aşağıdaki örnek kod belirli bir satır ve sütun indeksi verildiğinde [CellsHelper::CellIndexToName](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellindextoname/) kullanmanın nasıl yapıldığını gösterir. Kod aşağıdaki çıktıyı oluşturur.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-GetCellNameFromRowAndColumn-new.cpp" >}}
-##  **Cell Adından Satır ve Sütun İndekslerini Alın**
-Adından hücrenin satır ve sütun indeksini bulmak mümkündür. Bu makalede bunun nasıl yapılacağı açıklanmaktadır.
- Aspose.Cells şunları sağlar[CellsHelper.CellNameToIndex](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellnametoindex/) geliştiricilerin hücre adından satır ve sütun dizini almasına olanak tanıyan yöntem.
+## **Hücre Adından Satır ve Sütun Dizilerini Alın**
+Bir hücrenin adından satır ve sütun dizinini bulmak mümkündür. Bu makale açıklar.
+Aspose.Cells, [CellsHelper.CellNameToIndex](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellnametoindex/) yöntemini sağlar, bu yöntem geliştiricilere bir hücre adı sağlar ve onlar hücrenin adından satır ve sütun indeksini alabilirler.
 
 {{% alert color="primary" %}} 
 
-Satır ve sütun dizinlerinin 1'den başladığı Microsoft Excel'in aksine, Aspose.Cells, satır ve sütun dizinlerini 0'dan saymaya başlar.
+Microsoft Excel'in aksine, satır ve sütun indisleri 1'den başlamaz, Aspose.Cells satır ve sütun indislerini 0'dan başlatır.
 
 {{% /alert %}} 
 
- Aşağıdaki örnek kod nasıl kullanılacağını gösterir[CellsHelper::CellNameToIndex](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellnametoindex/)hücrenin adından satır ve sütun dizinini almak için. Kod aşağıdaki çıktıyı üretir.
+Aşağıdaki örnek kod belirli bir hücre adından [CellsHelper::CellNameToIndex](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellnametoindex/) kullanmanın nasıl yapıldığını gösterir. Kod aşağıdaki çıktıyı oluşturur.
 
 
 

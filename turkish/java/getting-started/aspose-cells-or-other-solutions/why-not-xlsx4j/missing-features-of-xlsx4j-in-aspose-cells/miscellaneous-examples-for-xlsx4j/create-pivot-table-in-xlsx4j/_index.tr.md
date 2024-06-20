@@ -1,19 +1,20 @@
-﻿---
-title: xlsx4j'de Pivot Tablo oluşturun
+---
+title: xlsx4j de Özet Tablo Oluştur
 type: docs
 weight: 20
 url: /tr/java/create-pivot-table-in-xlsx4j/
 ---
-## **Aspose.Cells - Pivot Tablo Oluştur**
-Aspose.Cells'i kullanarak bir pivot tablo oluşturmak için:
 
-1. Cell nesnesinin PutValue/setValue yöntemini kullanarak çalışma sayfası hücrelerine bazı veriler ekleyin. Ayrıca önceden verilerle doldurulmuş bir şablon dosyası da kullanırsınız. Veriler, pivot tablonun veri kaynağı olarak kullanılacaktır.
-1. PivotTables koleksiyonunun ekleme yöntemini (Çalışma Sayfası nesnesinde kapsüllenmiş) çağırarak çalışma sayfasına bir özet tablo ekleyin.
-1. Dizinini geçirerek PivotTables koleksiyonundan yeni PivotTable nesnesine erişin. # Tabloyu yönetmek için PivotTable nesnesinde kapsüllenmiş herhangi bir pivot tablo nesnesini kullanın.
+## **Aspose.Cells - Özet Tablo Oluştur**
+Aspose.Cells kullanarak bir pivot tablosu oluşturmak için:
+
+1. Hücre nesnesinin PutValue/setValue method'unu kullanarak bir çalışma sayfası hücrelerine veri ekleyin. Ayrıca veri ile doldurulmuş bir şablon dosyası da kullanabilirsiniz. Bu veri, özet tablo veri kaynağı olarak kullanılacaktır.
+1. PivotTables koleksiyonunun add method'unu (Worksheet nesnesinde kapsüllenmiş) çağırarak çalışma sayfasına bir özet tablosu ekleyin.
+1. Yeni PivotTable nesnesine, endeksini geçirerek PivotTables koleksiyonundan erişin. # PivotTable nesnesinde kapsüllenmiş herhangi bir özet tablo nesnesini yönetmek için kullanın.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -159,11 +160,11 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/tables/createpivottable/AsposeCreatePivotTable.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Pivot Tablolar ve Pivot Grafikler Oluşturun](/cells/tr/java/create-pivot-tables-and-pivot-charts).
+Daha fazla bilgi için [Özet Tabloları ve Özet Grafikleri Oluşturma](/cells/tr/java/create-pivot-tables-and-pivot-charts) sayfasını ziyaret edin.
 
 {{% /alert %}}

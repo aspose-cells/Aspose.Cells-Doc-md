@@ -1,18 +1,19 @@
-﻿---
+---
 title: 新しいワークブックを作成して保存する
 type: docs
 weight: 70
 url: /ja/net/create-and-save-new-workbooks/
 ---
-## **移行のヒント:**
-\1. Workbook オブジェクトの作成
-\2.現在のワークシートを取得します。
-\3.任意のセルにテキストを挿入します。
-\4.ワークブックを保存します。
-### **VSTO**
-以下はVSTOのコード例です
 
-{{< highlight "csharp" >}}
+## **移行のヒント:**
+1. Workbook オブジェクトを作成する
+2. 現在のワークシートを取得する
+3. 任意のセルにテキストを挿入する
+4. ワークブックを保存する
+### **VSTO**
+以下は VSTO のコード例です
+
+{{< highlight csharp >}}
 
   Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
 
@@ -26,9 +27,9 @@ url: /ja/net/create-and-save-new-workbooks/
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-以下は、Aspose.Cells のコード例です。
+以下は Aspose.Cells のコード例です
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook newWorkbook = new Workbook();
 

@@ -1,10 +1,11 @@
-﻿---
-title: Selbstschließende Tags erkennen
+---
+title: Erkennen von selbstschließenden Tags
 type: docs
 weight: 120
 url: /de/net/recognise-self-closing-tags/
 ---
-HTML kann eine Vielzahl von Tag-Formatierungen für leere Tags wie \<td>\</td> oder \<td/>. Aspose.Cells unterstützt jetzt beide Formate, während früher nur \<td>\</td> wie Tags. Diese Funktion kann getestet werden, indem die beigefügte Beispieldatei HTML in eine Excel-Datei konvertiert wird. Die Beispieldatei HTML und die Excel-Ausgabedatei können zum Testen über die folgenden Links heruntergeladen werden.
+
+HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td/>. Aspose.Cells supports both these formats now whereas earlier it was supporting only \<td>\</td> like tags. This feature can be tested by converting the attached sample HTML file to Excel file. The sample HTML file and output Excel file can be downloaded from the following links for testing.
 
 [sampleSelfClosingTags.html](sampleSelfClosingTags)
 

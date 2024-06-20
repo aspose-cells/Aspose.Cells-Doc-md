@@ -1,23 +1,24 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 9.0.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 9.0.0
 type: docs
 weight: 340
 url: /de/java/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.9.2 zu 9.0.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells API von Version 8.9.2 auf 9.0.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung etwaiger Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Shape.TextOptions-Eigenschaft hinzugefügt**
-Aspose.Cells for Java hat die TextOptions-Eigenschaft für die Shape-Klasse verfügbar gemacht, um das Erscheinungsbild von Textteilen einer Shape zu steuern.
+## **Hinzugefügte APIs**
+### **Hinzugefügte Shape.TextOptions Eigenschaft**
+Aspose.Cells for Java hat die TextOptions Eigenschaft für die Shape-Klasse freigelegt, um das Erscheinungsbild textueller Teile einer Shape zu steuern.
 
-Hier ist ein einfaches Verwendungsszenario der Shape.TextOptions-Eigenschaft.
+Hier ist ein einfaches Anwendungsbeispiel der Shape.TextOptions Eigenschaft.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize an instance of Workbook
 
@@ -48,44 +49,44 @@ textbox.getTextOptions().setItalic(true);
 textbox.getTextOptions().setBold(true);
 
 {{< /highlight >}}
-### **ChartPoint.IsInSecondaryPlot-Eigenschaft hinzugefügt**
-Aspose.Cells for Java hat die ChartPoint.IsInSecondaryPlot-Eigenschaft verfügbar gemacht, die verwendet werden kann, um zu erkennen, ob sich ein ChartPoint auf einem sekundären Diagramm eines Kreis- oder Balkendiagramms befindet.
+### **Hinzugefügte ChartPoint.IsInSecondaryPlot Eigenschaft**
+Aspose.Cells for Java hat die ChartPoint.IsInSecondaryPlot Eigenschaft freigelegt, die verwendet werden kann, um festzustellen, ob ein ChartPoint in einem sekundären Plot eines Kuchen- oder Balkendiagramms liegt.
 
-Hier ist ein einfaches Verwendungsszenario der Shape.Line-Eigenschaft.
+Hier ist ein einfaches Anwendungsbeispiel der Shape.Line Eigenschaft.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Das Finden eines Datenpunkts befindet sich auf dem zweiten Plot](/cells/de/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
+Überprüfen Sie den ausführlichen Artikel zu [Ermitteln eines Datenpunkts im zweiten Plot](/cells/de/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Laden Sie eine vorhandene Tabelle mit einem Kreisdiagramm
+ //Load an existing spreadsheet containing a Pie chart
 
-Arbeitsmappenbuch = neue Arbeitsmappe (dir + "PieBar.xlsx");
+Workbook book = new Workbook(dir + "PieBar.xlsx");
 
-//Laden Sie das Arbeitsblatt bei Index 0
+//Load the Worksheet at 0 index
 
-Arbeitsblatt sheet = book.getWorksheets().get(0);
+Worksheet sheet = book.getWorksheets().get(0);
 
-//Laden Sie das erste Diagramm aus der Sammlung
+//Load the first chart from the collection
 
-Diagramm chart = sheet.getCharts().get(0);
+Chart chart = sheet.getCharts().get(0);
 
-//Berechnen Sie das Diagramm, bevor Sie auf seine Eigenschaften zugreifen
+//Calculate the chart before accessing its properties
 
 chart.calculate();
 
-//Zugriff auf die erste Serie des Diagramms
+//Accessing chart's first series
 
-Serie series = chart.getNSeries().get(0);
+Series series = chart.getNSeries().get(0);
 
-//Durchlaufe die ChartPoint-Sammlung
+//Loop over the ChartPoint collection
 
- for(int p = 0 ; p< series.getPoints().getCount(); p++)
+for(int p = 0 ; p < series.getPoints().getCount(); p++)
 
 {
 
@@ -100,20 +101,20 @@ Serie series = chart.getNSeries().get(0);
 }
 
 {{< /highlight >}}
-### **OleObject.ClassIdentifier-Eigenschaft hinzugefügt**
-Aspose.Cells for Java 9.0.0 hat die OleObject.ClassIdentifier-Eigenschaft verfügbar gemacht, die verwendet werden kann, um das Anwendungsverhalten zum Laden eines OleObject anzugeben. Beispielsweise kann eine PPT-Datei in eine Tabellenkalkulation mit 2 verschiedenen Ansichten eingebettet werden, das heißt; Präsentationsansicht oder Folienansicht, wobei beide Ansichten unterschiedliche Klassenkennungswerte haben.
+### **Hinzugefügte OleObject.ClassIdentifier Eigenschaft**
+Aspose.Cells for Java 9.0.0 hat die OleObject.ClassIdentifier Eigenschaft freigelegt, die verwendet werden kann, um das Anwendungsverhalten beim Laden eines OleObject anzugeben. Beispielsweise kann eine PPT-Datei in einer Tabelle mit 2 verschiedenen Ansichten eingebettet werden, nämlich die Präsentationsansicht oder die Foliensicht, wobei beide Ansichten unterschiedliche Klassenidentifikatorwerte aufweisen.
 
-Im Folgenden finden Sie das einfache Verwendungsszenario der OleObject.ClassIdentifier-Eigenschaft.
+Im Folgenden finden Sie das einfache Anwendungsszenario der OleObject.ClassIdentifier Eigenschaft.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Verwenden von OleObject.ClassIdentifier](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
+Lesen Sie den ausführlichen Artikel über [Die Verwendung von OleObject.ClassIdentifier](https://docs.aspose.com/cells/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet containing a presentation as OleObject
 
@@ -129,13 +130,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 String progID = "";
 
@@ -145,7 +146,7 @@ String sourceFullName = "";
 
 Boolean isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 //Get the first worksheet from the collection
 
@@ -227,23 +228,23 @@ if (classId != null)
 
 {{< /highlight >}}
 ## **Veraltete APIs**
-### **Veraltete Worksheet.setBackground-Methode**
-Bitte verwenden Sie stattdessen die Worksheet.BackgroundImage-Eigenschaft.
-### **Veraltete LineShape.BeginArrowheadStyle- und ArcShape.BeginArrowheadStyle-Eigenschaften**
-Bitte verwenden Sie alternativ die Eigenschaft Shape.Line.BeginArrowheadStyle.
-### **Veraltete LineShape.EndArrowheadStyle- und ArcShape.EndArrowheadStyle-Eigenschaften**
-Bitte verwenden Sie alternativ die Eigenschaft Shape.Line.EndArrowheadStyle.
-### **Veraltete LineShape.BeginArrowheadWidth- und ArcShape.BeginArrowheadWidth-Eigenschaften**
-Bitte verwenden Sie alternativ die Eigenschaft Shape.Line.BeginArrowheadWidth.
-### **Veraltete LineShape.BeginArrowheadLength- und ArcShape.BeginArrowheadLength-Eigenschaften**
-Bitte verwenden Sie stattdessen die Eigenschaft Shape.Line.BeginArrowheadLength.
-### **Veraltete LineShape.EndArrowheadWidth- und ArcShape.EndArrowheadWidth-Eigenschaften**
-Bitte verwenden Sie stattdessen die Eigenschaft Shape.Line.EndArrowheadWidth.
-### **Veraltete LineShape.EndArrowheadLength- und ArcShape.EndArrowheadLength-Eigenschaften**
-Bitte verwenden Sie stattdessen die Eigenschaft Shape.Line.EndArrowheadLength.
+### **Veraltete Worksheet.setBackground Methode**
+Bitte verwenden Sie stattdessen die Worksheet.BackgroundImage Eigenschaft.
+### **Veraltete LineShape.BeginArrowheadStyle & ArcShape.BeginArrowheadStyle Eigenschaften**
+Bitte verwenden Sie die Shape.Line.BeginArrowheadStyle Eigenschaft als Alternative.
+### **Veraltete LineShape.EndArrowheadStyle & ArcShape.EndArrowheadStyle Eigenschaften**
+Bitte verwenden Sie die Shape.Line.EndArrowheadStyle Eigenschaft als Alternative.
+### **Veraltete LineShape.BeginArrowheadWidth & ArcShape.BeginArrowheadWidth Eigenschaften**
+Bitte verwenden Sie die Shape.Line.BeginArrowheadWidth Eigenschaft als Alternative.
+### **Veraltete LineShape.BeginArrowheadLength & ArcShape.BeginArrowheadLength Eigenschaften**
+Bitte verwenden Sie stattdessen die Shape.Line.BeginArrowheadLength Eigenschaft.
+### **Veraltete LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth Eigenschaften**
+Bitte verwenden Sie stattdessen die Shape.Line.EndArrowheadWidth Eigenschaft.
+### **Veraltete LineShape.EndArrowheadLength & ArcShape.EndArrowheadLength Eigenschaften**
+Bitte verwenden Sie stattdessen die Shape.Line.EndArrowheadLength Eigenschaft.
 ## **Gelöschte APIs**
-### **Gelöschte Worksheet.copyConditionalFormatting-Methode**
-### **Gelöschte Workbook.checkWriteProtectedPassword-Methode**
+### **Gelöschte Worksheet.copyConditionalFormatting Methode**
+### **Gelöschte Workbook.checkWriteProtectedPassword Methode**
 ## **Umbenannte APIs**
-### **Workbook.removeDigitallySign-Methode umbenannt**
-Die Workbook.removeDigitallySign-Methode wurde in Workbook.removeDigitalSignature umbenannt.
+### **Die Methode Workbook.removeDigitallySign wurde umbenannt**
+Die Methode Workbook.removeDigitallySign wurde in Workbook.removeDigitalSignature umbenannt

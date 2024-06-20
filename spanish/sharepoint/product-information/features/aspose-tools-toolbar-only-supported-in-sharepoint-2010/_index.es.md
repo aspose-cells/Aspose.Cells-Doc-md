@@ -1,17 +1,18 @@
-﻿---
-title: "Aspose Barra de herramientas Herramientas: solo compatible con SharePoint 2010"
+---
+title: Aspose Tools Toolbar  solo compatible en SharePoint 2010
 type: docs
 weight: 50
 url: /es/sharepoint/aspose-tools-toolbar-only-supported-in-sharepoint-2010/
 ---
+
 Aspose.Cells for SharePoint proporciona una barra de herramientas que incluye algunas opciones y comandos valiosos:
 
 - Convertir con Aspose.Cells
-- Vista previa del documento con Aspose.Cells
-- Buscar en Documento con Aspose.Cells
+- Vista previa de documento con Aspose.Cells
+- Buscar en documento con Aspose.Cells
 - Agregar marca de agua con Aspose.Cells
 - Agregar pie de página con Aspose.Cells
 
-**La barra de herramientas Aspose.Cells**
+**La barra de herramientas de Aspose.Cells**
 
-![todo:imagen_alternativa_texto](aspose-tools-toolbar-only-supported-in-sharepoint-2010_1.png)
+![todo:image_alt_text](aspose-tools-toolbar-only-supported-in-sharepoint-2010_1.png)

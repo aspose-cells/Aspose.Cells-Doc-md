@@ -1,32 +1,34 @@
-﻿---
-title: Çalışma Sayfasını Koru ve Korumayı Kaldır
+---
+title: Çalışma Sayfasını Koruma ve Kaldırma
 type: docs
 weight: 40
 url: /tr/python-java/protect-and-unprotect-worksheet/
-description: Aspose.Cells for Python via Java ile Excel dosyalarının çalışma sayfasını koruyun ve korumayı kaldırın.
+description: Aspose.Cells for Python via Java ile Excel dosyalarının çalışma sayfasını koruma ve korumasız bırakma.
 ---
+
+
 {{% alert color="primary" %}}
-Diğer kullanıcıların bir çalışma sayfasındaki verileri yanlışlıkla veya kasıtlı olarak değiştirmesini, taşımasını veya silmesini önlemek için, Excel çalışma sayfanızdaki hücreleri kilitleyebilir ve ardından sayfayı bir parola ile koruyabilirsiniz.
+Excel çalışma sayfanızdaki verilerin yanlışlıkla veya kasıtlı olarak değişmesini, taşınmasını veya silinmesini engellemek için hücreleri kilitleyebilir ve sayfayı bir şifre ile koruyabilirsiniz. 
 {{% /alert %}}
 
 
-## **Çalışma Sayfasını MS Excel'de koruyun ve korumayı kaldırın**
+## **MS Excel'de Çalışma Sayfasını Koruma ve Kaldırma**
 
-**![Koru ve korumayı kaldır Çalışma Sayfası](koru-ve-korumayı kaldır-çalışma sayfasını.png)**
+**![çalışma sayfasını koruma ve kaldırma](protect-and-unprotect-worksheet.png)**
 
-1.  Tıklamak**Gözden Geçir > Çalışma Sayfasını Koru**.
-1.  içine bir şifre girin**Parola kutusu**.
-1.  Seçme**izin vermek** seçenekler.
-1.  Seçme**Tamam** , onaylamak için parolayı yeniden girin ve ardından öğesini seçin.**Tamam** Yeniden.
+1. Tıklayın **İncele > Sayfayı Koru**.
+1. **Şifre kutusuna** bir şifre girin.
+1. **izin ver** seçeneklerini seçin.
+1. **Tamam**'ı seçin, şifreyi teyit etmek için tekrar girin, ardından tekrar **Tamam**'ı seçin.
 
 
-## **Aspose.Cell for Python Kullanarak Çalışma Sayfasını Koruyun**
-Excel dosyalarının koruma çalışma kitabı yapısını uygulamak için yalnızca aşağıdaki basit kod satırlarına ihtiyaç vardır.
+## **Aspose.Cell for Python Kullanarak Çalışsayı Koruma**
+Excel dosyalarının çalışma sayfasını korumak için sadece aşağıdaki basit kod satırlarına ihtiyaç vardır.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Protect-Worksheet.py" >}}
 
-## **Aspose.Cell for Python Kullanarak Çalışma Sayfasının Korumasını Kaldırın**
-Aspose.Cells API ile çalışma sayfasının korumasını kaldırmak kolaydır. Çalışma sayfası parola korumalıysa, doğru parola gerekir.
+## **Aspose.Cell for Python Kullanarak Çalışsayı Korumasını Kaldırma**
+Aspose.Cells API ile çalışma sayfasını korumak kolaydır. Eğer çalışma sayfası şifre ile korunuyorsa doğru bir şifre gereklidir.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Example-Unprotect-Worksheet.py" >}}
 

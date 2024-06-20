@@ -1,33 +1,34 @@
-﻿---
-title: Zurückgeben eines Wertebereichs mit ICustomFunction
+---
+title: Rückgabe eines Wertebereichs unter Verwendung von ICustomFunction
 type: docs
 weight: 270
 url: /de/java/returning-a-range-of-values-using-icustomfunction/
 ---
+
 {{% alert color="primary" %}}
 
- Das[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) ist seit der Veröffentlichung von Aspose.Cells veraltet for Java 20.8. Bitte verwenden Sie die[**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) Klasse. Die Verwendung der[**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) Klasse wird im folgenden Artikel beschrieben.
+Das [**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) ist seit der Veröffentlichung von Aspose.Cells for Java 20.8 veraltet. Bitte verwenden Sie die Klasse [**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine). Die Verwendung der Klasse [**AbstractCalculationEngine**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) wird in folgendem Artikel beschrieben.
 
-[Zurückgeben eines Wertebereichs mit AbstractCalculationEngine](/cells/de/java/returning-a-range-of-values-using-abstractcalculationengine/).
+[Rückgabe eines Wertebereichs unter Verwendung von AbstractCalculationEngine](/cells/de/java/rueckgabe-eines-wertebereichs-unter-verwendung-von-abstractcalculationengine/).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
- Aspose.Cells bietet[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction)Schnittstelle, die verwendet wird, um benutzerdefinierte oder benutzerdefinierte Funktionen zu implementieren, die von Microsoft Excel nicht als integrierte Funktionen unterstützt werden.
+Aspose.Cells bietet die Schnittstelle [**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction), die verwendet wird, um benutzerdefinierte Funktionen zu implementieren, die nicht von Microsoft Excel als integrierte Funktionen unterstützt werden.
 
- Meistens, wenn Sie die implementieren[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) -Schnittstellenmethode müssen Sie einen einzelnen Zellenwert zurückgeben. Aber manchmal müssen Sie einen Wertebereich zurückgeben. In diesem Artikel wird erläutert, wie Sie den Wertebereich zurückgeben[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction).
+Meistens, wenn Sie die Methode der Schnittstelle [**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) implementieren, müssen Sie einen einzelnen Zellwert zurückgeben. Manchmal müssen jedoch Wertebereiche zurückgegeben werden. Dieser Artikel erläutert, wie der Wertebereich von [**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) zurückgegeben wird.
 
 {{% /alert %}}
 
-## **Zurückgeben eines Wertebereichs mit ICustomFunction**
+## **Rückgabe eines Wertebereichs mit ICustomFunction**
 
- Der folgende Code implementiert[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) und gibt den Wertebereich über seine Methode zurück. Bitte überprüfen Sie die[Excel-Datei ausgeben](5472922.xlsx) und[pdf](5472925.pdf) generiert mit dem Code für Ihre Referenz.
+Der folgende Code implementiert [**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) und gibt den Wertebereich über seine Methode zurück. Überprüfen Sie die [erstellte Exceldatei](5472922.xlsx) und das [pdf](5472925.pdf), die mit dem Code generiert wurden, als Referenz.
 
-Erstellen Sie eine Klasse mit einer Funktion*Benutzerdefinierte Funktion berechnen*. Diese Klasse implementiert[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction).
+Erstellen Sie eine Klasse mit einer Funktion *CalculateCustomFunction*. Diese Klasse implementiert [**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-CustomFunctionStaticValue-CustomFunctionStaticValue.java" >}}
 
-Verwenden Sie nun die obige Funktion in Ihrem Programm.
+Verwenden Sie die obige Funktion jetzt in Ihrem Programm.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReturningRangeOfValues-ReturningRangeOfValues.java" >}}

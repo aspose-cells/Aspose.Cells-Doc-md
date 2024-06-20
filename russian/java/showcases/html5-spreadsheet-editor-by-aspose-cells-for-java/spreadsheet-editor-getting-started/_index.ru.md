@@ -1,102 +1,103 @@
-﻿---
-title: Начало работы с редактором электронных таблиц
+---
+title: Начало работы с редактором таблиц
 type: docs
 weight: 10
 url: /ru/java/spreadsheet-editor-getting-started/
 ---
-**Оглавление**
 
-- [Вступление](#SpreadsheetEditorGettingStarted-Introduction)
-- [Системные Требования](#SpreadsheetEditorGettingStarted-SystemRequirements)
+**Содержание**
+
+- [Введение](#SpreadsheetEditorGettingStarted-Introduction)
+- [Системные требования](#SpreadsheetEditorGettingStarted-SystemRequirements)
 - [Загрузка и установка](#SpreadsheetEditorGettingStarted-DownloadandInstallation)
-- [Поддерживать](#SpreadsheetEditorGettingStarted-Support)
-- [Делать вклад](#SpreadsheetEditorGettingStarted-Contribute)
+- [Поддержка](#SpreadsheetEditorGettingStarted-Support)
+- [Внести вклад](#SpreadsheetEditorGettingStarted-Contribute)
 - [Лицензия](#SpreadsheetEditorGettingStarted-License)
-### **Вступление**
-Редактор электронных таблиц Html5 — это веб-приложение, которое может просматривать и редактировать электронные таблицы в веб-браузере. Он поддерживает Excel, SpreadsheetML, CVS, OpenDocument и многие другие форматы, поддерживаемые Microsoft Excel. Поддерживаются все основные функции, включая редактирование ячеек, форматирование, редактирование формул, управление строками и столбцами и т. д.
+### **Введение**
+Html5 Spreadsheet Editor - веб-приложение, которое позволяет просматривать и редактировать электронные таблицы в веб-браузере. Оно поддерживает Excel, SpreadsheetML, CVS, OpenDocument и многие другие форматы, поддерживаемые Microsoft Excel. Поддерживаются все основные функции, включая редактирование ячеек, форматирование, редактирование формул, управление строками и столбцами и т. д.
 
-![дело:изображение_альтернативный_текст](aowcrc1.png)
+![todo:image_alt_text](aowcrc1.png)
 
- Редактор электронных таблиц HTML5 использует многие функции[Aspose.Cells for Java](https://products.aspose.com/cells/java/) и показывает, как использовать их для создания, обработки и визуализации электронных таблиц в вашем приложении Java.
+Редактор электронных таблиц HTML5 использует множество функций [Aspose.Cells for Java](https://products.aspose.com/cells/java/) и показывает, как их использовать для создания, изменения и отображения электронной таблицы в вашем приложении на Java.
 
-**Функции**
+**Особенности**
 
-- Работа с файлами
- - Поддерживаемые форматы
- - Открыть локальные файлы
- - Открыть из Dropbox
- - Открыть с URL-адреса
- - Создать новую таблицу
- - Экспорт в различные форматы
--  Работа с листами
- - Добавить и удалить листы
- - Переименовать листы
- - Переключение между листами
--  Работа со строками и столбцами
- - Добавить строку
- - Добавить столбец
- - Удалить строку
- - Удалить столбец
- - Ширина столбца и высота строки
--  Работа с Cells
- - Выбор ячейки
- - Редактирование ячейки
- - Формула редактирования
- - Cell развал
- - Очистить Cell
- - Добавить ячейку
- - Удалить ячейку
--  Работа с форматированием текста.
- - Жирный, курсив, подчеркивание
- - Стиль и размер шрифта
- - Очистить форматирование
-### **Системные Требования**
+- Работа с файлами 
+  - Поддерживаемые форматы
+  - Открыть локальные файлы
+  - Открыть из Dropbox
+  - Открыть по URL
+  - Создать новую электронную таблицу
+  - Экспорт в различные форматы
+- Работа с листами 
+  - Добавление и удаление листов
+  - Переименование листов
+  - Переключение между листами
+- Работа с строками и столбцами 
+  - Добавить строку
+  - Добавить столбец
+  - Удалить строку
+  - Удалить столбец
+  - Ширина столбца и высота строки
+- Работа с ячейками 
+  - Выбор ячейки
+  - Редактирование ячейки
+  - Редактирование формулы
+  - Выравнивание ячейки
+  - Очистить ячейку
+  - Добавить ячейку
+  - Удалить ячейку
+- Работа с форматированием текста 
+  - Жирный, курсив, подчеркнутый
+  - Стиль и размер шрифта
+  - Очистить форматирование
+### **Системные требования**
 **Требования к программному обеспечению**
 
-- CDI поддерживает сервер приложений Java
+- Поддерживаемый Java-сервер приложений CDI
 - [Aspose.Cells for Java](https://products.aspose.com/cells/java/)
 - [JavaServer Faces 2.0](https://javaee.github.io/javaserverfaces-spec/)
-- [Перволики 5.1](https://www.primefaces.org/)
+- [Primefaces 5.1](https://www.primefaces.org/)
 
-**Требования к оборудованию**
+**Требования к аппаратному обеспечению**
 
-Требования к оборудованию различаются в зависимости от сервера приложений Java, который мы выбираем для развертывания редактора электронных таблиц HTML5, и количества электронных таблиц, которые мы открываем одновременно. Ниже приведена оценка, которая поможет первоначально настроить среду.
+Требования к аппаратному обеспечению могут варьироваться в зависимости от выбора сервера приложений Java, на котором мы планируем развернуть редактор электронных таблиц HTML5 и количества электронных таблиц, которые мы открываем одновременно. Ниже приведена оценка, которая поможет настроить среду в начальной стадии.
 
-- ЦП 2 ГГц
-- 2 ГБ оперативной памяти
-- Диск 500 МБ
+- 2 GHz CPU
+- 2 GB RAM
+- 500 МБ дискового пространства
 ### **Загрузка и установка**
- Редактор электронных таблиц HTML5 — это приложение Java EE, которое можно развернуть в любом веб-профиле сервера приложений Java с поддержкой CDI. Он был протестирован с[Стеклянная рыба](https://javaee.github.io/glassfish/).
+Редактор электронных таблиц HTML5 - это приложение Java EE и может быть развернуто на любом сервере приложений Java с поддержкой CDI. Он был протестирован с [Glassfish](https://javaee.github.io/glassfish/).
 
 **Исходный код**
 
- Исходный код проекта доступен по адресу[Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/). Мы также поддерживаем зеркала Git на следующих сайтах:
+Исходный код проекта доступен на [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/). Мы также ведем зеркала Git на следующих сайтах:
 
-- [Битбакет](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
-- [Google Код](https://code.google.com/archive/p/html5-spreadsheet-editor/)
+- [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
+- [Google Code](https://code.google.com/archive/p/html5-spreadsheet-editor/)
 - [SourceForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
 Используйте одну из следующих команд для загрузки исходного кода через командную строку:
 
-**Гитхаб**
+**Github**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone https://github.com/aspose-cells/Aspose.Cells-for-Java.git
 
 {{< /highlight >}}
 
-**Битбакет**
+**Bitbucket**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java.git
 
 {{< /highlight >}}
 
-**Google Код**
+**Google Code**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone https://code.google.com/p/html5-spreadsheet-editor/
 
@@ -104,7 +105,7 @@ url: /ru/java/spreadsheet-editor-getting-started/
 
 **SourceForge**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone git://git.code.sf.net/p/html5-spreadsheet-editor/code html5-spreadsheet-editor-code
 
@@ -112,9 +113,9 @@ url: /ru/java/spreadsheet-editor-getting-started/
 
 **Сборка с использованием Maven**
 
-Процесс сборки проекта управляется с помощью Maven. Таким образом, вы можете подготовить файл WAR из командной строки без какой-либо IDE. Используйте следующую команду, чтобы создать WAR для развертывания. Документация соответствующего сервера приложений поможет вам развернуть сгенерированный файл WAR и его зависимости.
+Процесс сборки проекта управляется с помощью Maven. Таким образом, вы можете подготовить WAR-файл из командной строки без использования IDE. Используйте следующую команду для создания WAR-файла для развертывания. Документация соответствующего сервера приложений поможет вам развернуть сгенерированный WAR и его зависимости.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  mvn clean install
 
@@ -122,72 +123,72 @@ url: /ru/java/spreadsheet-editor-getting-started/
 
 **Использование NetBeans**
 
- Очень легко управлять проектом с помощью[IDE NetBeans](https://netbeans.apache.org/). NetBeans — одна из популярных IDE среди Java разработчиков, спонсируемая Oracle.
+Очень легко управлять проектом с использованием [NetBeans IDE](https://netbeans.apache.org/). NetBeans - одна из популярных ИТС среди разработчиков на Java и спонсируется Oracle.
 
 - Загрузите исходный код проекта.
-- Откройте проект в среде IDE NetBeans.
--  Нажмите***Бег*** кнопка на панели инструментов.
--  Выбирать***Стеклянная рыба*** сервер в качестве сервера приложений.
+- Откройте проект в среде NetBeans IDE.
+- Нажмите кнопку ***Запустить*** на панели инструментов.
+- Выберите сервер ***Glassfish*** в качестве сервера приложений.
 
-**Использование затмения**
+**Использование Eclipse**
 
-[Затмение IDE](http://www.eclipse.org/ide/) обеспечивает официальную интеграцию для импорта Maven проектов под названием[M2Затмение](http://www.eclipse.org/m2e/):
+[Среда разработки Eclipse IDE](http://www.eclipse.org/ide/) предоставляет официальную интеграцию для импорта проектов Maven, называемую [M2Eclipse](http://www.eclipse.org/m2e/):
 
-1. Установите M2Eclipse в Eclipse IDE. Процедура установки описана на их сайте.
+1. Установите M2Eclipse в своей среде разработки Eclipse IDE. Процедура установки описана на их веб-сайте.
 1. Загрузите исходный код проекта.
-1. Открыть***импорт*** диалоговое окно из меню «Файл».
-1.  Выбирать***Maven Проект*** из диалогового окна импорта.
-1.  Нажмите***Следующий***.
-1.  Нажмите***Просматривать*** для выбора местоположения исходного кода.
-1.  Выбирать***пом.xml*** из списка ниже.
-1.  Нажмите***Заканчивать***.
+1. Откройте ***Диалог импорта*** в меню Файл.
+1. Выберите ***Maven Project*** из диалога импорта.
+1. Нажмите ***Далее***.
+1. Нажмите ***Обзор***, чтобы выбрать местоположение исходного кода.
+1. Выберите ***pom.xml*** из списка ниже.
+1. Нажмите ***Готово***.
 
-Eclipse IDE должна импортировать и загрузить проект.
-### **Поддерживать**
+Среда разработки Eclipse IDE должна импортировать и загрузить проект.
+### **Поддержка**
 **Отчет об ошибке**
 
- Чтобы отправить отчет об ошибке, создайте новую задачу на[Страница проекта на гитхабе](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) и применить метку***ошибка***.
+Чтобы отправить отчет об ошибке, создайте новую проблему на [странице проекта Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) и примените метку ***bug***.
 
-**Запрос функции**
+**Запрос на добавление функции**
 
- Мы высоко ценим ваши отзывы и функции, которые вы запрашиваете. Чтобы запросить новую функцию или улучшение существующей, создайте новую проблему на[Страница проекта на гитхабе](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) и применить метку***улучшение***.
+Мы высоко ценим ваш отзыв и предложения по функционалу. Чтобы запросить новую функцию или улучшение существующей, создайте новый вопрос на [странице проекта Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) и добавьте метку ***enhancement***.
 
 **Вопросы и помощь**
 
- Вы можете задать любой вопрос, связанный с редактором электронных таблиц HTML5, используя[проблема с гитхабом](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) . Просто создайте новую задачу и примените***вопрос*** этикетка.
+Вы можете задать любые вопросы, связанные с редактором таблиц HTML5, используя [вопрос на Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues). Просто создайте новый вопрос и добавьте метку ***question***.
 
-**Aspose.Cells for Java Форумы**
+**Форумы Aspose.Cells for Java**
 
- Aspose форумы по продуктам обеспечивают полную поддержку как для пробных, так и для платных клиентов. Эксперты работают круглосуточно и без выходных, чтобы помочь и ответить на вопросы. Посетить[форумы по продуктам здесь](https://forum.aspose.com/c/cells/9).
+Форумы продукта Aspose предоставляют полную поддержку как для пробных, так и для платных клиентов. Эксперты работают 24/7, чтобы помочь и ответить на вопросы. Посетите [форумы продукта здесь](https://forum.aspose.com/c/cells/9).
 
-**Aspose Блоги**
+**Блоги Aspose**
 
- Свяжитесь с нами и будьте в курсе последних новостей о наших продуктах и предложениях. Подписаться на[наш блог здесь](http://blog.aspose.com).
-### **Делать вклад**
+Будьте на связи с нами и будьте в курсе последних новостей о наших продуктах и предложениях. Подпишитесь на [наш блог здесь](http://blog.aspose.com).
+### **Внести вклад**
 [](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java)
 
-[!\[задача:image_alt_text\]](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_Электронная таблица_редактор_к_Aspose.Cells_за_Java)
+[!\[todo:image_alt_text\](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java)
 
 
-Редактор электронных таблиц HTML5 — это проект с открытым исходным кодом, который позволяет каждому внести свой вклад в проект.
+Редактор таблиц HTML5 - это проект с открытым исходным кодом, который позволяет максимальные возможности для всех внести свой вклад в проект.
 
 **Исходный код**
 
- Исходный код проекта доступен по адресу[Гитхаб](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java). Мы также поддерживаем зеркала Git на следующих сайтах:
+Исходный код проекта доступен на [Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java). Мы также ведем Git-зеркала на следующих сайтах:
 
-- [Битбакет](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
+- [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
 - [SourceForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
-**Пулл-реквесты**
+**Запросы на вытягивание (Pull Requests)**
 
- Чтобы внести исходный код в проект, просто отправьте запрос на извлечение через Github. Подробнее читайте в статье Github о[Создать запрос на вытягивание](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+Для внесения изменений в исходный код проекта отправьте запрос на вытягивание через Github. Получите больше информации в статье Github о [Создании запроса на вытягивание](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 ### **Лицензия**
-**Лицензия Массачусетского технологического института**
+**Лицензия MIT**
 
- Мы используем одну из самых либеральных лицензий с открытым исходным кодом для минимальных обязательств перед участниками. Редактор электронных таблиц HTML5 выпущен под[Лицензия Массачусетского технологического института](https://opensource.org/licenses/mit-license.php).
+Мы используем одну из наиболее либеральных лицензий с открытым исходным кодом для минимальной ответственности участников. Редактор таблиц HTML5 выпущен под [лицензией MIT](https://opensource.org/licenses/mit-license.php).
 
-**Aspose Лицензия**
+**Лицензия Aspose**
 
- Продукт работает без лицензии Aspose,[с ограничениями](/cells/ru/java/licensing/) . Чтобы снять ограничения, вы можете приобрести[бесплатная временная лицензия](https://purchase.aspose.com/temporary-license) или же[купить полную лицензию](https://purchase.aspose.com/buy).
+Продукт работает без лицензии Aspose, [с ограничениями](/cells/ru/java/licensing/). Чтобы убрать ограничения, вы можете получить [бесплатную временную лицензию](https://purchase.aspose.com/temporary-license) или [купить полную лицензию](https://purchase.aspose.com/buy).
 
- По умолчанию редактор попытается загрузить**Aspose.Total.Java.lic** файл из**src/main/resources/com/aspose/spreadsheeteditor** каталог. Просто скопируйте файл лицензии в этот каталог. Поведение по умолчанию можно изменить, отредактировав**AsposeЛицензия** учебный класс.
+По умолчанию редактор будет пытаться загрузить файл **Aspose.Total.Java.lic** из каталога **src/main/resources/com/aspose/spreadsheeteditor**. Просто скопируйте файл лицензии в этот каталог. Поведение по умолчанию можно изменить, отредактировав класс **AsposeLicense**.

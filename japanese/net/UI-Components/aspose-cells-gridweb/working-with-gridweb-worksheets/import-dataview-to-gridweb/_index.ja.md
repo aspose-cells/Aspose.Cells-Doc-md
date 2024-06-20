@@ -1,28 +1,31 @@
-﻿---
-title: DataView を GridWeb にインポートする
+---
+title: GridWebにDataViewをインポート
 type: docs
 weight: 60
-url: /ja/net/import-dataview-to-gridweb/
+url: /ja/net/aspose-cells-gridweb/import-dataview-to-gridweb/
+keywords: GridWeb、インポート
+description: この記事では、GridWeb内のデータをインポートする方法について紹介しています。
 ---
-{{% alert color="primary" %}} 
-
-Microsoft .NET フレームワークのリリースにより、データを格納する新しい方法が導入されました。現在、オフライン モードでデータを保存する DataSet、DataTable、および DataView オブジェクト。これらのオブジェクトは、データ リポジトリとして非常に便利です。 Aspose.Cells.GridWeb を使用すると、DataTable または DataView オブジェクトからワークシートにデータをインポートできます。 Aspose.Cells.GridWeb は、DataView からのデータのインポートのみをサポートします。オブジェクトですが、DataTable オブジェクトは間接的に使用することもできます。この機能について詳しく説明しましょう。
-
-{{% /alert %}} 
-## **DataView からのデータのインポート**
-GridWeb コントロールで GridWorsheetCollection の ImportDataView メソッドを使用して、DataView オブジェクトからデータをインポートします。データのインポート元の DataView オブジェクトを ImportDataView メソッドに渡します。インポート中に列ヘッダーとデータ スタイルを指定できます。
 
 {{% alert color="primary" %}} 
 
-データが DataView オブジェクトからインポートされると、インポートされたデータを保持するために新しいワークシートが作成されます。ワークシートには、DataTable と同じ名前が付けられます。
+Microsoft .NET Frameworkのリリースに伴い、データの新しい格納方法が導入されました。 DataSet、DataTable、DataViewオブジェクトは、オフラインモードでデータを格納するようになりました。 これらのオブジェクトは、データのリポジトリとして非常に便利です。 Aspose.Cells.GridWebを使用すると、DataTableまたはDataViewオブジェクトからワークシートにデータをインポートできます。 Aspose.Cells.GridWebはDataViewオブジェクトからのデータのインポートのみをサポートしますが、DataTableオブジェクトも間接的に使用できます。 この機能について詳しく説明します。
+
+{{% /alert %}} 
+## **DataViewからのデータのインポート**
+GridWebコントロールのGridWorsheetCollectionのImportDataViewメソッドを使用してDataViewオブジェクトからデータをインポートします。 ImportDataViewメソッドに、データをインポートしたいDataViewオブジェクトを渡します。 インポート時に列ヘッダーとデータスタイルを指定することが可能です。
+
+{{% alert color="primary" %}} 
+
+DataViewオブジェクトからデータをインポートすると、インポートされたデータを保持する新しいワークシートが作成されます。 ワークシートの名前はDataTableと同じです。
 
 {{% /alert %}} 
 
-**出力: DataView から新しいワークシートにインポートされたデータ** 
+**出力：DataViewから新しいワークシートにインポートされたデータ** 
 
-![todo:画像_代替_文章](import-dataview-to-gridweb_1.png)
+![todo:image_alt_text](import-dataview-to-gridweb_1.png)
 
-列の幅は、列に含まれるすべてのデータが表示されるように調整されます。データが DataView からインポートされるとき、列幅は自動的に調整されません。ユーザーが自分で調整する必要があります。プログラムで列幅を調整するには、次を参照してください。[行と列のサイズ変更](/cells/ja/net/resize-rows-and-columns/).
+列の幅は、それらが含むすべてのデータを表示するように調整されます。 DataViewからデータをインポートすると、列の幅は自動的に調整されません。 ユーザーは自分で調整する必要があります。 列の幅をプログラムで調整するには、[行と列のサイズ変更](/cells/ja/net/aspose-cells-gridweb/resize-rows-and-columns/)を参照してください。
 
 
 
@@ -30,6 +33,6 @@ GridWeb コントロールで GridWorsheetCollection の ImportDataView メソ�
 
 {{% alert color="primary" %}} 
 
-ImportDataView メソッドのオーバーロード バージョンを使用すると、開発者は、インポートされたデータを保持するシートの名前と、DataView オブジェクトからインポートする特定の数の行と列を指定できます。
+ImportDataViewメソッドのオーバーロードバージョンを使用すると、インポートされたデータを保持するシートの名前とDataViewオブジェクトからインポートする行数と列数を指定することができます。
 
 {{% /alert %}}

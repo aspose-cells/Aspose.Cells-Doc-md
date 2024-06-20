@@ -4,5 +4,6 @@ type: docs
 weight: 40
 url: /it/java/working-with-gridweb-rows-and-columns/
 ---
-##  **Articoli in questa sezione**
+
+## **Articoli in questa sezione**
 

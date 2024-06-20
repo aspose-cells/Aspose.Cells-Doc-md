@@ -1,24 +1,25 @@
-﻿---
-title: Modificación de VBA o código de macro usando Aspose.Cells
+---
+title: Modificar el Código VBA o Macro utilizando Aspose.Cells
 type: docs
 weight: 90
 url: /es/java/modifying-vba-or-macro-code-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Puede modificar VBA o código de macro usando Aspose.Cells. Aspose.Cells ha agregado las siguientes clases para leer y modificar el proyecto de VBA en el archivo de Excel.
+Puede modificar el Código VBA o Macro utilizando Aspose.Cells. Aspose.Cells ha agregado las siguientes clases para leer y modificar el proyecto VBA en el archivo de Excel.
 
-- Proyecto Vba
+- VbaProject
 - VbaModuleCollection
-- Módulo Vba
+- VbaModule
 
-Este artículo le mostrará cómo cambiar el código VBA o macro dentro del archivo fuente de Excel usando Aspose.Cells.
+Este artículo te mostrará cómo cambiar el código de VBA o macro dentro del archivo de Excel fuente utilizando Aspose.Cells.
 
 {{% /alert %}} 
 ## **Ejemplo**
-El siguiente código de muestra carga el archivo fuente de Excel que tiene un código VBA o macro siguiente dentro de él.
+El siguiente código de ejemplo carga el archivo de Excel fuente que contiene el siguiente código de VBA o macro.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -28,9 +29,9 @@ End Sub
 
 {{< /highlight >}}
 
-Después de la ejecución del código de muestra Aspose.Cells, el código VBA o Macro se modificará de esta manera
+Después de la ejecución del código de ejemplo de Aspose.Cells, el código de VBA o macro será modificado de la siguiente manera
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -40,7 +41,7 @@ End Sub
 
 {{< /highlight >}}
 
- Puedes descargar el[archivo fuente de Excel](5472596.xlsm) y el[archivo de salida de Excel](5472597.xlsm) de los enlaces dados.
+Puedes descargar el [archivo de Excel fuente](5472596.xlsm) y el [archivo de Excel de salida](5472597.xlsm) desde los enlaces proporcionados.
 
 
 

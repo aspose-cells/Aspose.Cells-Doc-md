@@ -1,29 +1,30 @@
-﻿---
+---
 title: Fußzeile zu mehreren Dokumenten hinzufügen
 type: docs
 weight: 80
 url: /de/sharepoint/add-footer-to-multiple-documents/
 ---
-Wenn Sie Fußzeilen in mehreren Excel-Dateien hinzufügen möchten, wählen Sie bitte die Option „Fußzeile mit Aspose.Cells hinzufügen“ in der Multifunktionsleiste.
 
-![todo: Bild_alt_Text](add-footer-to-multiple-documents_1.png)
+Wenn Sie eine Fußzeile in mehreren Excel-Dateien hinzufügen möchten, wählen Sie bitte die Option "Fußzeile mit Aspose.Cells hinzufügen" in der Menüleiste aus.
 
-
-
-Holen Sie sich alle Excel-Dateien aus dem Datenquellenordner und erstellen Sie eine Dateilistentabelle.
-
- Wählen Sie die Datei aus, die eine Fußzeile hinzufügen muss, klicken Sie auf**Fußzeile hinzufügen** Schaltfläche zum Hinzufügen einer Fußzeile für ausgewählte Dateien.
-
-![todo: Bild_alt_Text](add-footer-to-multiple-documents_2.png)
+![todo:image_alt_text](add-footer-to-multiple-documents_1.png)
 
 
 
-Die folgenden Optionen sind während des Hinzufügens der Fußzeileneinrichtung verfügbar:
+Holen Sie alle Excel-Dateien aus dem Datenquellordner und erstellen Sie eine Dateilisten-Tabelle.
+
+Wählen Sie die Datei aus, für die eine Fußzeile hinzugefügt werden soll, klicken Sie auf die Schaltfläche **Fußzeile hinzufügen**, um die Fußzeile für ausgewählte Dateien hinzuzufügen. 
+
+![todo:image_alt_text](add-footer-to-multiple-documents_2.png)
+
+
+
+Die folgenden Optionen stehen während des Setups für das Hinzufügen einer Fußzeile zur Verfügung:
 
 **Abschnitt**
 
-Fußzeilenposition hinzufügen: Linker Abschnitt, Mittlerer Abschnitt und Rechter Abschnitt.
+Fußzeilenposition hinzufügen: Linke Sektion, Mittlere Sektion und Rechte Sektion.
 
 **Fußzeilenskript**
 
-Es repräsentiert das Formatierungsskript für die Fußzeile. Skriptbefehle: Befehl | Beschreibung| &P Aktuelle Seitenzahl| &N Seitenzahl|&D Aktuelles Datum| &T Aktuelle Uhrzeit &A Blattname &F Dateiname ohne Pfad &"<FontName>" Schriftartname, zum Beispiel: &"Arial" &"<FontName>, <FontStyle>" Schriftname und Schriftstil, zum Beispiel: &"Arial,Bold" &<FontSize>Schriftgröße. Folgt diesem Befehl eine einfache Zahl, die in der Kopfzeile ausgegeben werden soll, wird diese durch ein Leerzeichen von der Schrifthöhe getrennt. &G Bildskript Zum Beispiel: "&Arial,Bold&8Footer Note".
+It represents Footer formatting script. Script commands: Command | Description| &P Current page number| &N Page count|&D Current date| &T Current time &A Sheet name &F File name without path &"<FontName>" Font name, for example: &"Arial" &"<FontName>, <FontStyle>" Font name and font style, for example: &"Arial,Bold" &<FontSize> Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. &G Image script For example: "&Arial,Bold&8Footer Note".

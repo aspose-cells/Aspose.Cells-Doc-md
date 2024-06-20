@@ -1,21 +1,22 @@
 ---
-title: Analisi dei record memorizzati nella cache del pivot durante il caricamento del file Excel
+title: Analisi dei record memorizzati nella cache pivot durante il caricamento del file Excel
 type: docs
 weight: 70
 url: /it/python-net/parsing-pivot-cached-records-while-loading-excel-file/
-description: Come analizzare i record memorizzati nella cache Pivot durante il caricamento del file Excel con Aspose.Cells for Python via .NET.
-keywords: Parse Pivot Cached Records while loading Excel file.
+description: Come analizzare i record memorizzati nella cache pivot durante il caricamento del file Excel con Aspose.Cells per Python via .NET.
+keywords: Aspose.Cells per Python Excel, libreria Excel Python, come analizzare i record memorizzati nella cache pivot durante il caricamento del file Excel utilizzando la libreria Aspose.Cells per Python Excel.
 ---
-##  **Possibili scenari di utilizzo**
 
-Quando crei una tabella pivot, Microsoft Excel prende una copia dei dati di origine e la archivia nella cache pivot. La Pivot Cache è contenuta nella memoria di Microsoft Excel. Non puoi vederlo, ma questi sono i dati a cui fa riferimento la tabella pivot quando crei la tabella pivot o modifichi una selezione del filtro dei dati o sposti righe/colonne. Ciò consente a Microsoft Excel di essere molto reattivo alle modifiche nella tabella pivot ma può anche raddoppiare la dimensione del file. Dopotutto, la Pivot Cache è solo un duplicato dei dati di origine, quindi è logico che la dimensione del file sia potenzialmente doppia.
+## **Possibili Scenari di Utilizzo**
 
-Quando carichi il tuo file Excel all'interno dell'oggetto Workbook, puoi decidere se caricare o meno anche i record della Pivot Cache, utilizzando il comando[**LoadOptions.parsing_pivot_cached_records**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/parsing_pivot_cached_records/)proprietà. Il valore predefinito di questa proprietà è *false**. Se Pivot Cache è abbastanza grande, può aumentare le prestazioni. Ma se vuoi caricare anche i record di Pivot Cache, dovresti impostare questa proprietà come *true**.
+Quando si crea una tabella pivot, Microsoft Excel prende una copia dei dati di origine e li memorizza nella cache pivot. La cache pivot è memorizzata all'interno della memoria di Microsoft Excel. Non è possibile vederla, ma sono i dati a cui la tabella pivot fa riferimento quando si costruisce la tabella pivot o si modifica una selezione di sfilatori o si spostano righe/colonne. Questo consente a Microsoft Excel di rispondere molto rapidamente ai cambiamenti nella tabella pivot, ma può anche raddoppiare le dimensioni del file. Dopotutto, la cache pivot è solo una duplicazione dei dati di origine, quindi ha senso che le dimensioni del file siano potenzialmente raddoppiate.
 
-##  **Analisi dei record memorizzati nella cache del pivot durante il caricamento del file Excel**
+Quando carichi il tuo file Excel all'interno dell'oggetto Workbook, puoi decidere se desideri anche caricare i record della Cache dei Pivot o meno, utilizzando la proprietà [**LoadOptions.parsing_pivot_cached_records**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/parsing_pivot_cached_records/). Il valore predefinito di questa proprietà è **falso**. Se la Cache dei Pivot è piuttosto grande, può aumentare le prestazioni. Ma se desideri anche caricare i record della Cache dei Pivot, dovresti impostare questa proprietà su **vero**.
 
-Il seguente codice di esempio spiega l'utilizzo di[**LoadOptions.parsing_pivot_cached_records**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/parsing_pivot_cached_records/)proprietà. Carica il[file Excel di esempio](61767773.xlsx) durante l'analisi dei record memorizzati nella cache pivot. Quindi aggiorna la tabella pivot e la salva come file[file Excel di output](61767774.xlsx).
+## **Come analizzare i record della Cache dei Pivot durante il caricamento del file Excel**
 
-##  **Codice d'esempio**
+Il codice di esempio seguente spiega l'uso della proprietà [**LoadOptions.parsing_pivot_cached_records**](https://reference.aspose.com/cells/python-net/aspose.cells/loadoptions/parsing_pivot_cached_records/). Carica il [file Excel di esempio](61767773.xlsx) mentre analizza i record memorizzati nella cache dei pivot. Quindi aggiorna la tabella pivot e la salva come [file Excel di output](61767774.xlsx).
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ParsingPivotCachedRecordsWhileLoadingExcelFile.py" >}}

@@ -1,17 +1,18 @@
-﻿---
-title: Aspose.Cells kullanarak Çalışma Kitaplarını Yazdırma
+---
+title: Aspose.Cells kullanarak İş Kitaplarını Yazdırma
 type: docs
 weight: 20
 url: /tr/java/printing-workbooks-using-aspose-cells/
 ---
-## **Aspose.Cells - Çalışma Kitaplarını Yazdırma**
-Elektronik tablonuzu oluşturmayı bitirdikten sonra, ihtiyaçlarınız için büyük olasılıkla sayfanın basılı bir kopyasını yazdırmak isteyeceksiniz. Yazdırırken, seçiminizi belirtmediğiniz sürece, MS Excel tüm çalışma sayfası alanını yazdırmak istediğinizi varsayar.
 
-Yazdırma Çalışma Sayfası
+## **Aspose.Cells - İş Kitaplarını Yazdırma**
+Tablonuzu oluşturmayı bitirdikten sonra muhtemelen ihtiyacınız olan tablonun kağıt kopyasını yazdırmak olacaktır. Yazdırırken, MS Excel, seçiminizi belirtmedikçe tüm çalışma sayfasını yazdırmak istediğinizi varsayar.
+
+Çalışma Sayfasını Yazdırma
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,11 +36,11 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 
-Çalışma Kitabını Yazdırma
+Örnek Kodu İndirme
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a WorkbookRender object with respect to your workbook
 
@@ -53,11 +54,11 @@ wr.toPrinter("Samsung ML-1520 Series");
 ## **Çalışan Kodu İndir**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/print/AsposePrintWorkbook.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Kitaplarını Yazdırma](/cells/tr/java/printing-workbooks).
+Daha fazla bilgi için [Çalışma Kitaplarını Yazdırma](/cells/tr/java/printing-workbooks) sayfasını ziyaret edin.
 
 {{% /alert %}}

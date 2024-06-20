@@ -1,20 +1,21 @@
 ---
-title: Lägg till WordArt vattenstämpel i diagrammet
-description: Lär dig hur du använder Aspose.Cells for .NET för att lägga till ett WordArt-vattenmärke till ett diagram i Microsoft Excel. Vår guide kommer att visa hur du skapar och placerar ett WordArt-vattenstämpel för att förbättra ditt diagrams visuella tilltalande och unika.
-keywords: Aspose.Cells for .NET, WordArt Watermark, Chart Watermark, Microsoft Excel, Visual Appeal, Chart Uniqueness.
+title: Lägg till WordArt vattenstämpel till Diagram
+description: Lär dig hur du använder Aspose.Cells for .NET för att lägga till en WordArt vattenstämpel på ett diagram i Microsoft Excel. Vår guide kommer att visa hur du skapar och placera en WordArt vattenstämpel för att förbättra det visuella tilltalandet och unikheten hos ditt diagram.
+keywords: Aspose.Cells for .NET, WordArt Vattenstämpel, Diagram Vattenstämpel, Microsoft Excel, Visuellt tilltalande, Diagramunikhet.
 type: docs
 weight: 50
 url: /sv/net/add-wordart-watermark-to-chart/
 ---
+
 {{% alert color="primary" %}} 
 
-Du kan använda WordArt för att lägga till speciella texteffekter i kalkylblad. Du kan till exempel sträcka ut en titel, dekorera text, få texten att passa en förinställd form eller tillämpa den berörda texten på ett diagrams plotområde som en vattenstämpel. WordArt blir ett objekt som du kan flytta eller placera i dina kalkylblad för att lägga till dekoration.
+Du kan använda WordArt för att lägga till specialeffekter på text i kalkylblad. Till exempel: sträck en titel, dekorera text, få texten att passa en förinställd form eller tillämpa den på ett karts plottområde som en vattenstämpel. WordArt blir ett objekt som du kan flytta eller positionera i kalkylbladen för dekoration.
 
-Följande exempel visar hur du lägger till en WordArt-form som en vattenstämpel för diagramområdet.
+Följande exempel visar hur man lägger till en WordArt-form som en vattenstämpel för diagrammets plottområde.
 
 {{% /alert %}} 
 
-Följande exempel visar hur du lägger till en WordArt-form som en vattenstämpel för ett befintligt diagrams plotområde.
+Följande exempel visar hur du lägger till en WordArt-form som en vattenstämpel för ett befintligt diagram.
 
 
 

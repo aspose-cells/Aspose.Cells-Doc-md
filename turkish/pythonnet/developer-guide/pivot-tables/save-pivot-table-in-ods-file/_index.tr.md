@@ -1,17 +1,20 @@
 ---
-title: Pivot Tabloyu ODS dosyasına kaydedin
+title: Özet Tabloyu ODS Dosyasına Kaydetme
 type: docs
 weight: 150
 url: /tr/python-net/save-pivot-table-in-ods-file/
-description: Bu makalede pivot tablonun ODS dosyasına Aspose.Cells for Python via .NET ile nasıl kaydedileceği gösterilmektedir.
-keywords: Save pivot table in ODS file
+description: Aspose.Cells for Python via .NET ile pivot tablosunun ODS dosyasına nasıl kaydedileceği gösterilmektedir.
+keywords: Aspose.Cells, Python için Excel, Excel Python kütüphanesi, Aspose.Cells ile Python Excel Kütüphanesi kullanarak ODS dosyasında özet tabloyu kaydetme.
 ---
- Aspose.Cells for Python via .NET, pivot tabloyu ODS dosyalarına kaydetme olanağı sağlar. Bunun için bir çalışma kitabını mevcut pivot tabloyla dönüştürün veya yeni bir pivot tablo oluşturup dosyayı ODS formatında kaydedin. Mutlaka arayın[**PivotTable.calculate_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/calculate_data/#)pivot tablonun çıktı ODS dosyasında oluşturulduğundan emin olmak için kaydetmeden önce. Aşağıdaki kod parçacığı, pivot tablonun ODS dosyasına kaydedilmesini gösterir.
 
-##  Basit kod
+## **Özet Tabloyu ODS Dosyasında Kaydetme**
+
+Python için Aspose.Cells via .NET, özet tabloyu ODS dosyalarında kaydetme yeteneği sağlamaktadır. Bunun için sadece mevcut bir özet tabloya sahip bir çalışma kitabını dönüştürmelisiniz veya yeni bir özet tablo oluşturmalısınız ve dosyayı ODS formatında kaydetmelisiniz. Özet tablonun çıktı ODS dosyasında görüntülendiğinden emin olmak için kaydetmeden önce [**PivotTable.calculate_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/calculate_data/#) yöntemini çağırmanız gerektiğinden emin olun. Aşağıdaki örnek kod parçası, özet tabloyu ODS dosyasında kaydetmeyi göstermektedir.
+
+## Örnek Kod
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableSaveInODS-1.py" >}}
 
-Yukarıdaki kodu oluşturan çıktı dosyası referansınız için eklenmiştir.
+Yukarıdaki kod tarafından oluşturulan çıkış dosyası referans için ekte bulunmaktadır.
 
-[Çıktı ODS Dosya](PivotTableSaveInODS_out.ods)
+[Çıktı ODS Dosyası](PivotTableSaveInODS_out.ods)

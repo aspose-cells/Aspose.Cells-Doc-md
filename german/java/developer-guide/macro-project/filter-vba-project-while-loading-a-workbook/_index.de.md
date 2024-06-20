@@ -1,22 +1,23 @@
-﻿---
-title: Filtern Sie VBA-Projekte beim Laden einer Arbeitsmappe
+---
+title: Filtern des VBA Projekts beim Laden einer Arbeitsmappe
 type: docs
 weight: 70
 url: /de/java/filter-vba-project-while-loading-a-workbook/
 ---
-## **Mögliche Nutzungsszenarien**
-Einige .xlsm/.xslb-Dateien enthalten extrem viele Makros (oder sehr, sehr lange Makros). Aspose.Cells lädt diese (Meta-)Daten beim Öffnen solcher Arbeitsmappen bedingungslos. Möglicherweise müssen Sie dies durch LoadDataFilterOptions steuern, wenn Sie wirklich nur Blattnamen für eine große Anzahl von Arbeitsmappen extrahieren müssen, wodurch solche nicht benötigten Inhalte übersprungen werden. Dieser Filter wird durch die Einführung der neuen Option LoadDataFilterOptions.VBA bereitgestellt.
+
+## **Mögliche Verwendungsszenarien**
+Einige .xlsm/.xslb-Dateien enthalten eine extrem große Anzahl von Makros (oder sehr, sehr lange Makros). Aspose.Cells lädt diese (Meta-)Daten bedingungslos beim Öffnen solcher Arbeitsmappen. Möglicherweise müssen Sie dies jedoch über LoadDataFilterOptions steuern, wenn Sie wirklich nur die Blattnamen für eine große Anzahl von Arbeitsmappen extrahieren müssen und somit über solchen unnötigen Inhalt hinwegspringen müssen. Dieser Filter wird eingeführt durch Einführung der neuen Option LoadDataFilterOptions.VBA.
 ## **Beispielcode**
-Der folgende Beispielcode lädt eine Arbeitsmappe, sodass nur VBA gefiltert wird. Beispieldatei zum Testen dieser Funktion kann unter folgendem Link heruntergeladen werden:
+Der folgende Beispielcode lädt eine Arbeitsmappe so, dass nur VBA gefiltert wird. Die Beispieldatei zum Testen dieses Features kann über folgenden Link heruntergeladen werden:
 
 [sampleMacroEnabledWorkbook.xlsm](79527951.xlsm)
 
-// Legen Sie die Ladeoptionen fest, wir wollen VBA nicht laden
+// Setzen Sie die Ladefilteroptionen, wir möchten das VBA nicht laden
 LoadOptions loadOptions = new LoadOptions(LoadFormat.AUTO);
 loadOptions.setLoadFilter(new LoadFilter(LoadDataFilterOptions.ALL & ~LoadDataFilterOptions.VBA));
 
-// Arbeitsmappenobjekt aus Beispiel-Excel-Datei mit Ladeoptionen erstellen
-Arbeitsmappenbuch = neue Arbeitsmappe (srcDir + "sampleMacroEnabledWorkbook.xlsm", loadOptions);
+// Erstellen Sie ein Arbeitsmappenobjekt aus der Beispieldatei mit den Ladefilteroptionen
+Workbook book = new Workbook(srcDir + "sampleMacroEnabledWorkbook.xlsm", loadOptions);
 
 // Speichern Sie die Ausgabe im PDF-Format
 book.save(outDir + "OutputSampleMacroEnabledWorkbook.xlsm", SaveFormat.XLSM);

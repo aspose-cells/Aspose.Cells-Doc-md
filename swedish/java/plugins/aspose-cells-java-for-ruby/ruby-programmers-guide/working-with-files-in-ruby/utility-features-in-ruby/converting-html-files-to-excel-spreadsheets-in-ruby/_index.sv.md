@@ -1,15 +1,16 @@
-﻿---
-title: Konvertera HTML-filer till Excel-kalkylblad i Ruby
+---
+title: Konvertera HTML filer till Excel kalkylblad i Ruby
 type: docs
 weight: 40
 url: /sv/java/converting-html-files-to-excel-spreadsheets-in-ruby/
 ---
-## **Aspose.Cells - Konvertera HTML-filer till Excel-kalkylblad**
-För att konvertera HTML till kalkylblad med Aspose.Cells for Java i Ruby, anropa helt enkelt html_till_excel()-metoden för omvandlarmodulen.
 
-**Ruby kod**
+## **Aspose.Cells - Konvertera HTML-filer till Excels kalkylblad**
+För att konvertera HTML till kalkylblad med hjälp av Aspose.Cells for Java i Ruby, helt enkelt anropa html_to_excel() metoden i Converter modulen.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  def html_to_excel()
 
@@ -38,7 +39,7 @@ För att konvertera HTML till kalkylblad med Aspose.Cells for Java i Ruby, anrop
 end
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Konvertera HTML-filer till Excel-kalkylblad (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ned **Konvertera HTML-filer till Excels kalkylblad (Aspose.Cells)** från någon av nedanstående sociala kodningssajter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

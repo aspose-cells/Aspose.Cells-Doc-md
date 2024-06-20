@@ -1,65 +1,66 @@
-﻿---
+---
 title: Caratteristiche
 type: docs
 weight: 5
 url: /it/python-java/features/
-keywords: python, excel, api, feature
-description: Aspose.Cells for Python via Java caratteristiche
+keywords: "python, excel, api, funzionalità"
+description: "Aspose.Cells for Python via Java funzionalità."
 ---
+
 {{% alert color="primary" %}} 
 
-Questa pagina riassume le caratteristiche di Aspose.Cells for Python via Java.
+Questa pagina riassume le funzionalità di Aspose.Cells per Python via Java.
 
 {{% /alert %}} 
 ## **Formati di file e conversioni**
-- XLS, SpreadsheetML (XLSX, XML), valore separato da virgola (CSV), HTML, foglio di calcolo OpenDocument (ODS), PDF, delimitato da tabulazioni, testo normale (TXT)
+- XLS, SpreadsheetML (XLSX, XML), Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT)
 ## **Rendering e stampa**
-- Renderizza il foglio di calcolo in immagini vettoriali (EMF)
-- Rendering di fogli di lavoro in immagini raster (multipagina TIFF, GIF)
-- Rendering di fogli di lavoro in immagini raster (PNG, JPEG, ecc.)
-- Render Spreadsheet a PDF con alta fedeltà
-## **Caratteristiche del contenuto del foglio di calcolo**
-- Copia o sposta i fogli di lavoro all'interno o tra le cartelle di lavoro
-- Inserisci immagini, crea grafici convenzionali e personalizzati e imposta lo sfondo sfumato per i grafici utilizzando API
-- Aggiungi commenti alle celle
-- Microsoft Excel 2007 e versioni successive temi e colori
-- Crea filtri automatici
-- Implementare le convalide dei dati
-- Implementare l'ordinamento dei dati
-- Trova e sostituisci il testo
-- Unisci/dividi Cells
-- Raggruppa/separa righe e colonne
-- Crea interruzioni di pagina personalizzate
-- Calcola formule Excel complesse
-- Supporta la formattazione condizionale avanzata supportata in Microsoft Excel 2007 e versioni successive
-- Blocca/sblocca i riquadri
-- Inserisci collegamenti ipertestuali per collegare i dati
-- Implementa marcatori intelligenti
+- Renderizzare fogli di calcolo in immagini vettoriali (EMF)
+- Renderizzare tabelle in immagini raster (TIFF multipagina, GIF)
+- Renderizzare tabelle in immagini raster (PNG, JPEG, ecc.)
+- Renderizzare fogli di calcolo in PDF con alta fedeltà
+## **Caratteristiche del contenuto del foglio elettronico**
+- Copiare o spostare tabelle all'interno o tra cartelle di lavoro
+- Inserire immagini, creare grafici convenzionali e personalizzati e impostare sfondo sfumato per grafici usando API
+- Aggiungere commenti alle celle
+- Temi e colori di Microsoft Excel 2007 e versioni successive
+- Creare filtri automatici
+- Implementare validazioni dei dati
+- Implementare ordinamenti dei dati
+- Trovare e sostituire testo
+- Unire/dividere celle
+- Raggruppare/suddividere righe e colonne
+- Creare interruzioni di pagina personalizzate
+- Calcolare formule complesse di Excel
+- Supportare formattazione condizionale avanzata supportata in Microsoft Excel 2007 e versioni successive
+- Congelare/scongelare riquadri
+- Inserire collegamenti ipertestuali per collegare i dati
+- Implementare Smart Markers
 - Specificare le impostazioni delle proprietà del documento
-- Proteggere/rimuovere la protezione dei fogli di lavoro
+- Proteggere/sbloccare i fogli di lavoro
 - Specificare le opzioni di protezione avanzate introdotte in Excel XP e versioni successive
-- Crea oggetto elenco/Microsoft Tabelle Excel
-- Crea subtotali
-- Inserisci i controlli del modulo e altre forme/oggetti di disegno
-- Crea tabelle pivot e grafici pivot
-- Conserva o rimuovi componenti aggiuntivi, VBA, macro
+- Creare oggetti di elenchi/tabelle di Microsoft Excel
+- Creare subtotali
+- Inserire controlli modulo e altre forme/oggetti di disegno
+- Creare tabelle pivot e grafici pivot
+- Conservare o rimuovere aggiunte, VBA, macro
 - Manipolare intervalli denominati
-- Aggiungi, conserva o estrai oggetti OLE dai fogli di calcolo.
-- Implementa gli sparkline di Excel Microsoft
+- Aggiungere, conservare o estrarre oggetti OLE dai fogli di calcolo.
+- Implementare le sparklines di Microsoft Excel
 - Crittografare i file
 ## **Funzionalità di formattazione del foglio di calcolo**
-- Applica la formattazione di tutti i caratteri nelle celle inclusi caratteri, colori, effetti, bordi e ombreggiatura
-- Applicare tutte le impostazioni del formato numerico (supportate in Microsoft Excel) per le celle
-- Imposta tutti i tipi di impostazioni di allineamento del testo
-- Applicare diversi tipi di impostazioni dei caratteri per le celle
-- Applica colori diversi a celle, caratteri, griglie, oggetti grafici, ecc.
-- Applicare diverse formattazioni RTF in una singola cella
-- Applicare diverse impostazioni del bordo sulle celle
-- Applica motivi di sfondo diversi alle celle
-- Applica le impostazioni di formato su un foglio di lavoro, una riga, una colonna o un intervallo di celle, ecc.
-## **Funzionalità di PageSetup**
-- Regola l'orientamento della pagina, il ridimensionamento, il formato della carta
-- Specifica i margini e la centratura della pagina
-- Crea o modifica l'intestazione e/o il piè di pagina
-- Imposta l'area di stampa, stampa i titoli o attiva la griglia, ecc.
+- Applicare tutti i formati dei caratteri nelle celle, inclusi font, colori, effetti, bordi e sfumature
+- Applicare tutte le impostazioni di formato numerico (supportate in Microsoft Excel) per le celle
+- Impostare tutti i tipi di allineamento del testo
+- Applicare diversi tipi di impostazioni del carattere per le celle
+- Applicare diversi colori alle celle, font, griglie, oggetti grafici, ecc.
+- Applicare formattazione diversa del testo ricco in una singola cella
+- Applicare diverse impostazioni di bordo sulle celle
+- Applicare diversi pattern di sfondo nelle celle
+- Applicare impostazioni di formato su un foglio di lavoro, riga, colonna o un intervallo di celle, ecc.
+## **Funzionalità della configurazione di pagina**
+- Regolare l'orientamento della pagina, il ridimensionamento, le dimensioni della carta
+- Specificare i margini e il centratura della pagina
+- Creare o modificare l'intestazione e/o piè di pagina
+- Impostare l'area di stampa, i titoli di stampa o attivare le linee della griglia, ecc.
 

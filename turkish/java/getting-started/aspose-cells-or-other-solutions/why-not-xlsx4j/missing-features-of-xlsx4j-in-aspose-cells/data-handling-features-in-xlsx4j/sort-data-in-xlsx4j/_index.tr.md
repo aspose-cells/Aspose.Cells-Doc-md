@@ -1,16 +1,17 @@
-﻿---
-title: Verileri xlsx4j'de Sırala
+---
+title: xlsx4j de Veriyi Sırala
 type: docs
 weight: 60
 url: /tr/java/sort-data-in-xlsx4j/
 ---
-## **Aspose.Cells - Verileri Sırala**
-Aspose.Cells kullanarak elektronik tablodaki verileri sıralamak için, hücre alanının ayarlanması kolay birkaç özelliğini ayarladıktan sonra DataSorter.sorter() yöntemini çağırmanız yeterlidir.
-Java kodu aşağıda belirtilmiştir:
+
+## **Aspose.Cells - Veriyi Sırala**
+Aspose.Cells kullanarak elektronik tabloda veriyi sıralamak için, hücre alanının kolayca ayarlanabilen bazı özelliklerini ayarladıktan sonra DataSorter.sorter() metodunu çağırın.
+Aşağıda Java kodu belirtilmiştir:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -75,11 +76,11 @@ workbook.save(dataDir + "AsposeSortedData_Out.xls");
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/sortdata/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Verileri Sırala](/java/sort-data) veya[Veri Sıralama](/cells/tr/java/data-sorting).
+Daha fazla bilgi için [Veri Sıralama](/java/veri-sıralama) veya [Veri Sıralama](/hücreler/tr/java/veri-sıralama) adresini ziyaret edin.
 
 {{% /alert %}}

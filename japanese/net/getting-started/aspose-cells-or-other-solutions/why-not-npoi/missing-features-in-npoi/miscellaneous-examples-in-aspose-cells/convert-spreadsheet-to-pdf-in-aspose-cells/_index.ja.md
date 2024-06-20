@@ -1,15 +1,16 @@
-﻿---
-title: スプレッドシートを Aspose.Cells の PDF に変換します
+---
+title: Aspose.CellsでスプレッドシートをPDFに変換
 type: docs
 weight: 10
 url: /ja/net/convert-spreadsheet-to-pdf-in-aspose-cells/
 ---
-## **Aspose.Cells - スプレッドシートを PDF に変換**
-PDF ドキュメントは、組織、政府部門、および個人の間でドキュメントを交換するための標準形式として広く使用されています。ソフトウェア開発者は、Microsoft Excel ファイルを PDF ドキュメントに簡単に変換する方法を考案するように求められることがよくあります。 Aspose.Cells はこの機能をサポートしています。
+
+## **Aspose.Cells - スプレッドシートをPDFに変換**
+PDFドキュメントは組織間、政府セクター、個人間での文書交換の標準フォーマットとして広く使用されています。ソフトウェア開発者は、Microsoft Excelファイルを簡単にPDF文書に変換する方法を考案するよう求められることがよくあります。Aspose.Cellsはこの機能をサポートしています。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook("../../data/test.xlsx");
 
@@ -18,7 +19,7 @@ PDF ドキュメントは、組織、政府部門、および個人の間でド�
 workbook.Save("AsposeConvert.pdf", SaveFormat.Pdf);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**スプレッドシートを PDF に変換**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**スプレッドシートをPDFに変換**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Spreadsheet.To.PDF.Aspose.Cells.zip)

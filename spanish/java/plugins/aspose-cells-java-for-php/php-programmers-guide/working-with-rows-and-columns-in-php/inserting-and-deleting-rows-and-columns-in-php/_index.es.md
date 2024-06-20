@@ -1,18 +1,19 @@
 ---
-title: Insertar y eliminar filas y columnas en PHP
+title: Insertar y Eliminar Filas y Columnas en PHP
 type: docs
 weight: 60
 url: /es/java/inserting-and-deleting-rows-and-columns-in-php/
-description: Aprenda a insertar y eliminar filas y columnas a través de las API Aspose.Cells for PHP via Java.
-keywords: How to Insert and Delete Rows and Columns in PHP, Insert Rows and Columns using PHP, PHP Delete Rows and Columns, Insert Rows or Columns with PHP, Delete Rows or Columns via PHP.
+description: Aprenda a insertar y eliminar filas y columnas a través de las API de Aspose.Cells para PHP via Java.
+keywords: Cómo insertar y eliminar filas y columnas en PHP, insertar filas y columnas usando PHP, eliminar filas y columnas en PHP, insertar filas o columnas con PHP, eliminar filas y columnas mediante PHP.
 ---
-##  **Aspose.Cells - Gestión de filas/columnas**
-###  **Insertar una fila**
-Inserte una fila en cualquier ubicación llamando al método insertRows de la colección Cells. El método insertRows toma el índice de la fila donde se insertará la nueva fila como primer argumento y el número de filas que se insertarán como segundo argumento.
+
+## **Aspose.Cells - Administración de Filas/Columnas**
+### **Insertar una Fila**
+Insertar una fila en cualquier ubicación llamando al método insertRows de la colección Cells. El método insertRows toma el índice de la fila donde se insertará la nueva fila como primer argumento, y el número de filas a insertar como segundo argumento.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_row($dataDir)
 
@@ -39,15 +40,15 @@ Inserte una fila en cualquier ubicación llamando al método insertRows de la co
 }  
 
 {{< /highlight >}}
-###  **Insertar varias filas**
-Para insertar varias filas en la hoja de trabajo, llame al método insertRows de la colección Cells. El método InsertRows toma dos parámetros:
+### **Insertar Múltiples Filas**
+Para insertar múltiples filas en la hoja de cálculo, llame al método insertRows de la colección Cells. El método insertRows toma dos parámetros:
 
-- Índice de fila, el índice de la fila desde donde se insertarán las nuevas filas.
-- Número de filas, número total de filas que deben insertarse.
+- Índice de la fila, el índice de la fila desde donde se insertarán las nuevas filas.
+- Número de filas, número total de filas que deben ser insertadas.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_multiple_rows($dataDir)
 
@@ -74,15 +75,15 @@ Para insertar varias filas en la hoja de trabajo, llame al método insertRows de
 }
 
 {{< /highlight >}}
-###  **Eliminar una fila**
-Para eliminar una fila en cualquier ubicación, llame al método deleteRows de la colección Cells. El método DeleteRows toma dos parámetros:
+### **Eliminar una Fila**
+Para eliminar una fila en cualquier ubicación, llame al método deleteRows de la colección Cells. El método deleteRows toma dos parámetros:
 
 - Índice de fila, el índice de la fila desde donde se eliminarán las filas.
-- Número de filas, número total de filas que deben eliminarse.
+- Número de filas, número total de filas que deben ser eliminadas.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_row($dataDir)
 
@@ -109,15 +110,15 @@ Para eliminar una fila en cualquier ubicación, llame al método deleteRows de l
 }
 
 {{< /highlight >}}
-###  **Eliminar varias filas**
-Para eliminar varias filas de una hoja de trabajo, llame al método deleteRows de la colección Cells. El método DeleteRows toma dos parámetros:
+### **Eliminar Múltiples Filas**
+Para eliminar múltiples filas de una hoja de cálculo, llame al método deleteRows de la colección Cells. El método deleteRows toma dos parámetros:
 
 - Índice de fila, el índice de la fila desde donde se eliminarán las filas.
-- Número de filas, número total de filas que deben eliminarse.
+- Número de filas, número total de filas que deben ser eliminadas.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_multiple_rows($dataDir)
 
@@ -144,15 +145,15 @@ Para eliminar varias filas de una hoja de trabajo, llame al método deleteRows d
 }
 
 {{< /highlight >}}
-###  **Insertar una columna**
-Los desarrolladores también pueden insertar una columna en la hoja de trabajo en cualquier ubicación llamando al método insertColumns de la colección Cells. El método insertColumns toma dos parámetros:
+### **Insertar una columna**
+Los desarrolladores también pueden insertar una columna en la hoja de cálculo en cualquier ubicación llamando al método insertColumns de la colección Cells. El método insertColumns toma dos parámetros:
 
-- Índice de columna, el índice de la columna desde donde se insertará la columna
-- Número de columnas, número total de columnas que deben insertarse
+- Índice de la columna, el índice de la columna desde donde se insertará la columna
+- Número de columnas, el número total de columnas que se deben insertar
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function insert_column($dataDir)
 
@@ -179,16 +180,16 @@ Los desarrolladores también pueden insertar una columna en la hoja de trabajo e
 }
 
 {{< /highlight >}}
-###  **Eliminar una columna**
-Para eliminar una columna de la hoja de trabajo en cualquier ubicación, llame al método deleteColumns de la colección Cells. El método deleteColumns toma los siguientes parámetros:
+### **Eliminar una columna**
+Para eliminar una columna de la hoja de cálculo en cualquier ubicación, llame al método deleteColumns de la colección Cells. El método deleteColumns toma los siguientes parámetros:
 
-- Índice de columna, el índice de la columna desde donde se eliminará la columna.
-- Número de columnas, número total de columnas que deben eliminarse.
-- Desplazar celdas, parámetro booleano para indicar si se desplazan las celdas que quedan después de la eliminación.
+- Índice de columna, el índice de la columna desde donde se va a eliminar la columna.
+- Número de columnas, el número total de columnas que se deben eliminar.
+- Desplazar celdas, parámetro booleano para indicar si se deben desplazar las celdas a la izquierda después de la eliminación.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function delete_column($dataDir)
 
@@ -215,7 +216,7 @@ Para eliminar una columna de la hoja de trabajo en cualquier ubicación, llame a
 }  
 
 {{< /highlight >}}
-##  **Descargar código de ejecución**
- Descargar**Gestión de filas/columnas (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Gestión de Filas/Columnas (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

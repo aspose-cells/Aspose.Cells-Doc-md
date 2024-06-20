@@ -1,19 +1,20 @@
 ---
-title: ワークブック内の名前付き範囲を操作する
+title: ブック内の名前付き範囲の操作
 type: docs
 weight: 90
 url: /ja/cpp/manipulate-named-range-in-a-workbook/
 ---
-##  **考えられる使用シナリオ**
-Aspose.Cells は、既存の名前付き範囲の操作をサポートしています。既存のすべての名前付き範囲には、次からアクセスできます。[Workbook.GetWorksheets().GetNames()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/getnames/)コレクション。名前付き範囲にアクセスすると、そのさまざまなメソッドを変更できます。[フルテキストの取得](https://reference.aspose.com/cells/cpp/aspose.cells/name/getfulltext/)そして[GetRefersTo](https://reference.aspose.com/cells/cpp/aspose.cells/name/getrefersto/).
-##  **ワークブック内の名前付き範囲を操作する**
-次のサンプル コードは、[ソースエクセルファイル](23167008.xlsx)そしてそれを印刷します[全文](https://reference.aspose.com/cells/cpp/aspose.cells/name/getfulltext/)そして[参照先](https://reference.aspose.com/cells/cpp/aspose.cells/name/getrefersto/)コンソール上のプロパティ。その後、`RefersTo` プロパティを変更し、[Excelファイルを出力する](23167009.xlsx).
-##  **サンプルコード**
-{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-ManipulateNamedRangeInWorkbook-new.cpp" >}}
-##  **コンソール出力**
-次のコンソール出力は、次の値を出力します。[全文](https://reference.aspose.com/cells/cpp/aspose.cells/name/getfulltext/)そして[参照先](https://reference.aspose.com/cells/cpp/aspose.cells/name/getrefersto/)既存のメンバー*名前付き範囲*上記のコードでは。
 
-{{< highlight "java" >}}
+## **可能な使用シナリオ**
+Aspose.Cells は既存の名前付き範囲の操作をサポートしています。すべての既存の名前付き範囲には [Workbook.GetWorksheets().GetNames()](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/getnames/) コレクションからアクセスできます。名前付き範囲にアクセスしたら、 [GetFullText](https://reference.aspose.com/cells/cpp/aspose.cells/name/getfulltext/) および [GetRefersTo](https://reference.aspose.com/cells/cpp/aspose.cells/name/getrefersto/) などのさまざまなメソッドを変更することができます。
+## **ブック内の名前付き範囲の操作**
+以下のサンプルコードでは、[ソースエクセルファイル](23167008.xlsx) 内の最初の名前付き範囲を読み込み、その [FullText](https://reference.aspose.com/cells/cpp/aspose.cells/name/getfulltext/) および [RefersTo](https://reference.aspose.com/cells/cpp/aspose.cells/name/getrefersto/) プロパティをコンソールに出力します。その後、`RefersTo` プロパティを変更し、 [出力エクセルファイル](23167009.xlsx) を保存します。
+## **サンプルコード**
+{{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-ManipulateNamedRangeInWorkbook-new.cpp" >}}
+## **コンソール出力**
+次のコンソール出力は、上記のコード内の既存の*Named Range*の[FullText](https://reference.aspose.com/cells/cpp/aspose.cells/name/getfulltext/) と [RefersTo](https://reference.aspose.com/cells/cpp/aspose.cells/name/getrefersto/) メンバーの値を出力します。
+
+{{< highlight java >}}
 
  Full Text: TestRange
 

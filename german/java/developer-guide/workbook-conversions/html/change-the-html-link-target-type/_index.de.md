@@ -1,28 +1,29 @@
-﻿---
-title: Ändern Sie den Linkzieltyp HTML
+---
+title: Ändern Sie den HTML Linkzieltyp
 type: docs
 weight: 450
 url: /de/java/change-the-html-link-target-type/
 ---
+
 {{% alert color="primary" %}} 
 
-Mit Aspose.Cells können Sie den Linkzieltyp HTML ändern. HTML Link sieht so aus:
+Aspose.Cells ermöglicht es Ihnen, den HTML-Link-Zieltyp zu ändern. Ein HTML-Link sieht so aus :
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <a href="http://www.aspose.com/" target="_self">
 
 {{< /highlight >}}
 
-Wie Sie sehen können, ist das Zielattribut im obigen HTML-Link **_self**. Sie können dieses Zielattribut mit der Eigenschaft [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) steuern. Diese Eigenschaft übernimmt die Enumeration [HtmlLinkTargetType](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlLinkTargetType) mit den folgenden Werten.
+Wie Sie sehen können, ist das target-Attribut im obigen HTML-Link **_self**. Sie können dieses target-Attribut mithilfe der [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType)-Eigenschaft steuern. Diese Eigenschaft nimmt das [HtmlLinkTargetType](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlLinkTargetType)-Enum, das die folgenden Werte enthält.
 
-- [LEER](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#BLANK)
-- [ELTERNTEIL](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#PARENT)
-- [SELBST](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#SELF)
-- [OBEN](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#TOP)
+- [BLANK](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#BLANK)
+- [PARENT](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#PARENT)
+- [SELF](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#SELF)
+- [TOP](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#TOP)
 
 {{% /alert %}} 
-## **Ändern Sie den Linkzieltyp HTML**
- Der folgende Code veranschaulicht die Verwendung von[HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) Eigentum. Es ändert den Zieltyp des Links in**leer**. Standardmäßig ist es die**Elternteil** . Sie können die bekommen[Excel-Quelldatei](5472932.xlsx) Von diesem Link aus können Sie jedoch jede Excel-Datei verwenden, die einen HTML-Hyperlink enthält, um diesen Code auszuführen.
+## **Ändern Sie den HTML-Link-Zieltyp**
+Der folgende Code veranschaulicht die Verwendung der [HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType)-Eigenschaft. Er ändert den Link-Zieltyp auf **_blank**. Standardmäßig ist es **_parent**. Sie können die [Ausgangs-Excel-Datei](5472932.xlsx) von diesem Link erhalten, jedoch können Sie jede Excel-Datei verwenden, die einen HTML-Hyperlink enthält, um diesen Code auszuführen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}

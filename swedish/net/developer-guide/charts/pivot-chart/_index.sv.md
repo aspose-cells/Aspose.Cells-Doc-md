@@ -1,37 +1,37 @@
 ---
-title: Hur man lägger till ett pivotdiagram med Aspose.Cells
+title: Hur man lägger till ett PivotChart med hjälp av Aspose.Cells
 linktitle: Pivotdiagram
 type: docs
 weight: 100
 url: /sv/net/how-to-add-pivot-chart/
-description: Hur man lägger till ett pivotdiagram med Aspose.Cells.
+description: Hur man lägger till ett PivotChart med hjälp av Aspose.Cells.
 keywords: PivotChart
 ---
-##  Vad är PivotChart
+## Vad är PivotChart
 
-Ett pivotdiagram i Excel är en grafisk representation av data som skapats från en pivottabell. Det tillåter användare att visualisera och analysera data dynamiskt genom att sammanfatta och visa information i diagramform. Pivotdiagram är interaktiva och kan enkelt modifieras för att visa olika perspektiv på data, vilket gör det till ett kraftfullt verktyg för dataanalys och presentation i Excel.
+En PivotChart i Excel är en grafisk representation av data skapad från en PivotTable. Den låter användare visualisera och analysera data dynamiskt genom att sammanfatta och visa information i diagramform. PivotCharts är interaktiva och kan lätt modifieras för att visa olika perspektiv av data, vilket gör det till ett kraftfullt verktyg för dataanalys och presentation i Excel.
 
-##  Hur man lägger till ett pivotdiagram med Aspose.Cells
+## Hur man lägger till en PivotChart med hjälp av Aspose.Cells
 
-###  **Lägga till en pivottabell**
+### **Lägga till en pivottabell**
 
-Så här skapar du en pivottabell med Aspose.Cells:
+För att skapa en pivot tabell med Aspose.Cells:
 
-1. Lägg till några data i ett kalkylbladsceller med hjälp av ett Cell-objekts PutValue/setValue-metod. Du använder också en mallfil som redan är fylld med data. Data kommer att användas som pivottabellens datakälla.
-1. Lägg till en pivottabell till kalkylbladet genom att anropa PivotTables-samlingens add-metod (inkapslad i Worksheet-objektet).
-1. Få tillgång till det nya PivotTable-objektet från PivotTables-samlingen genom att skicka dess index. # Använd något av pivottabellobjekten som är inkapslade i PivotTable-objektet för att hantera tabellen.
+1. Lägg till lite data till arbetsbladsceller med hjälp av en Cell-objekts PutValue/setValue-metod. Du kan också använda en mallfil som redan är ifylld med data. Data kommer att användas som pivot tabellens datakälla.
+1. Lägg till en pivot tabell till arbetsbladet genom att anropa PivotTables -samlingens add-metod (inkapslad i Worksheet-objektet).
+1. Hämta det nya PivotTable-objektet från PivotTables-samlingen genom att ange dess index. # Använd något av de pivottabellobjekt som är inkapslade i PivotTable-objektet för att hantera tabellen.
 
 Kodexempel ges nedan.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotTable-1.cs" >}}
 
-###  **Lägga till ett pivotdiagram**
+### **Lägga till en PivotChart**
 
-Så här skapar du ett pivotdiagram med Aspose.Cells:
+För att skapa en PivotChart med Aspose.Cells:
 
-1. Lägg till ett diagram.
-1. Ställ in pivotkällan för diagrammet så att den refererar till en befintlig pivottabell i kalkylarket.
-1. Ställ in andra attribut.
+1. Lägg till en graf.
+1. Ange grafens PivotSource så att den hänvisar till en befintlig pivot tabell i kalkylarket.
+1. Ange andra attribut.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CreatePivotTablesPivotCharts-CreatePivotChart-1.cs" >}}
 

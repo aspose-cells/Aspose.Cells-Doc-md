@@ -1,24 +1,25 @@
-﻿---
-title: PDF çıktısında ve görüntüde dizenin nasıl çaprazlanacağını belirtin
+---
+title: Çıktı PDF ve görüntüde dizeyi nasıl geçeceğinizi belirtin
 type: docs
 weight: 120
 url: /tr/net/specify-how-to-cross-string-in-output-pdf-and-image/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Bir hücre metin veya dize içeriyorsa ancak hücrenin genişliğinden daha büyükse, sonraki sütundaki bir sonraki hücre boş veya boşsa dize taşar. Excel dosyanızı PDF/Image içine kaydettiğinizde, çapraz türü belirterek bu taşmayı kontrol edebilirsiniz.[**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype)numaralandırma. Aşağıdaki değerlere sahiptir
+Bir hücre metin veya dize içeriyorsa, ancak hücrenin genişliğinden daha büyükse, o zaman dize sonraki sütunda bulunan hücre boş veya boşsa taşar. Excel dosyanızı PDF/Görüntü olarak kaydettiğinizde, [**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype) numaralama değerini kullanarak bu taşmayı kontrol edebilirsiniz. Aşağıdaki değerlere sahiptir:
 
-- **TextCrossType.Default**: Bir sonraki hücreye bağlı olan metni MS Excel gibi görüntüleyin. Bir sonraki hücre boşsa, dize kesişir veya kesilir.
+- **TextCrossType.Default**: MS Excel gibi metin görüntüler, bu sonraki hücreye bağlıdır. Eğer sonraki hücre boşsa, dize taşar veya kısaltılır.
 
-- **TextCrossType.CrossKeep**: Dizeyi, PDF/Resim dışa aktaran MS Excel gibi görüntüleyin
+- **TextCrossType.CrossKeep**: Dizeyi MS Excel olarak dışa aktarır.
 
-- **TextCrossType.CrossOverride**: Diğer hücreleri geçerek tüm metni görüntüleyin ve çapraz hücrelerin metnini geçersiz kılın
+- **TextCrossType.CrossOverride**: Tüm metni diğer hücreleri taşıyarak ve taşan hücrelerin metnini geçersiz kılarak görüntüler.
 
-- **TextCrossType.StrictInCell**: Dizeyi yalnızca hücrenin genişliği içinde görüntüleyin.
+- **TextCrossType.StrictInCell**: Sadece hücre genişliği içinde metni görüntüler.
 
-## **TextCrossType kullanarak PDF/Image çıktısında dizenin nasıl çaprazlanacağını belirtin**
+## **PDF/Görüntüde dizeyi nasıl geçeceğinizi belirtin, TextCrossType kullanarak.**
 
-Aşağıdaki örnek kod, örnek Excel dosyasını yükler ve farklı belirterek PDF/Görüntü biçiminde kaydeder.[**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype). Örnek Excel dosyası ve çıktı dosyaları aşağıdaki bağlantılardan indirilebilir:
+Aşağıdaki örnek kod, örnek Excel dosyasını yükler ve farklı [**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype) belirterek onu PDF/Görüntü formatına kaydeder. Örnek Excel dosyası ve çıktı dosyaları aşağıdaki linklerden indirilebilir:
 
 [sampleCrossType.xlsx](81920905.xlsx)
 
@@ -26,6 +27,6 @@ Aşağıdaki örnek kod, örnek Excel dosyasını yükler ve farklı belirterek 
 
 [outputCrossType.png](81920904.png)
 
-### Basit kod
+### Örnek Kod
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderUsingTextCrossType-1.cs" >}}

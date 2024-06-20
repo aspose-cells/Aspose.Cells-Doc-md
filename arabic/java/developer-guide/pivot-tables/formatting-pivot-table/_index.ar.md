@@ -1,84 +1,85 @@
-﻿---
-title: تنسيق الجدول المحوري
+---
+title: تنسيق جدول الدوران
 type: docs
 weight: 60
 url: /ar/java/formatting-pivot-table/
 ---
-## **مظهر الجدول المحوري**
 
-[كيفية إنشاء جدول محوري](/cells/ar/java/create-pivot-table/) أظهر كيفية إنشاء جدول محوري بسيط. تذهب هذه المقالة إلى أبعد من ذلك وتناقش كيفية تخصيص مظهر الجدول المحوري عن طريق تعيين الخصائص.
+## **مظهر جدول الدوران**
 
-### **تعيين خيارات تنسيق الجدول المحوري**
+[كيفية إنشاء جدول دوران](/cells/ar/java/create-pivot-table/) عرض كيفية إنشاء جدول دوران بسيط. يذهب هذا المقال أبعد ويناقش كيفية تخصيص مظهر جدول الدوران عن طريق تعيين الخصائص.
 
- ال[**جدول محوري**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) تتيح لك class تعيين خيارات تنسيق متنوعة لجدول محوري.
+### **تعيين خيارات تنسيق جدول الدوران**
 
-#### **تعيين التنسيق التلقائي وأنواع PivotTableStyle**
+تتيح لك فئة [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) تعيين خيارات تنسيق مختلفة لجدول الدوران.
 
- يوضح مثال الرمز التالي كيفية تعيين نوع التنسيق التلقائي ونوع نمط الجدول المحوري باستخدام ملف[**نوع التنسيق التلقائي**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType) و[**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType) الخصائص.
+#### **ضبط أنواع التنسيق التلقائي وأنماط جدول الإحصائيات**
+
+المثال البرمجي التالي يوضح كيفية ضبط نوع التنسيق التلقائي ونوع أنماط جدول الإحصائيات باستخدام خصائص [**AutoFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType) و [**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SetAutoFormatandPivotTableStyleTypes-SetAutoFormatandPivotTableStyleTypes.java" >}}
 
 #### **ضبط خيارات التنسيق**
 
-يوضح نموذج التعليمات البرمجية التالي كيفية تعيين عدد من خيارات التنسيق لتقرير الجدول المحوري ، بما في ذلك إضافة الإجماليات الكلية للصفوف والأعمدة.
+المثال البرمجي التالي يوضح كيفية ضبط عدد من خيارات التنسيق لتقرير جدول إحصائيات، بما في ذلك إضافة المجاميع الكبرى للصفوف والأعمدة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SettingFormatOptions-SettingFormatOptions.java" >}}
 
-### **تعيين خيارات تنسيق PivotFields**
+### **ضبط خيارات تنسيق PivotFields**
 
-بالإضافة إلى التحكم في تنسيق الجدول المحوري الكلي ، يسمح Aspose.Cells for Java بالتحكم الدقيق في تنسيق حقول الصفوف وحقول الأعمدة وحقول الصفحة.
+بالإضافة إلى التحكم في تنسيق الجدول الإحصائي الكلي، يسمح Aspose.Cells for Java بالتحكم المكشور في التنسيق لحقول الصف، حقول العمود وحقول الصفحة.
 
-#### **تعيين تنسيق حقول الصف والعمود والصفحة**
+#### **ضبط تنسيق الصفوف والأعمدة وحقول الصفحة**
 
-يوضح مثال الكود التالي كيفية الوصول إلى حقول الصف ، والوصول إلى صف معين ، وتعيين الإجماليات الفرعية ، وتطبيق الفرز التلقائي ، واستخدام خيار AutoShow.
+المثال البرمجي التالي يوضح كيفية الوصول إلى حقول الصف، الوصول إلى صف معين، ضبط المجاميع الفرعية، تطبيق الترتيب التلقائي، واستخدام خيار autoShow.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SetRowColumnPageFieldsFormat-SetRowColumnPageFieldsFormat.java" >}}
 
 ### **ضبط تنسيق حقول البيانات**
 
-توضح سطور التعليمات البرمجية التالية كيفية تنسيق حقول البيانات.
+الأسطر التالية من الكود توضح كيفية تنسيق حقول البيانات.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SettingDataFieldFormat-SettingDataFieldFormat.java" >}}
 
-### **تعديل النمط السريع للجدول المحوري**
+### **تعديل نمط سريع لجدول إحصائيات**
 
-توضح أمثلة التعليمات البرمجية التالية كيفية تعديل النمط السريع المطبق على الجدول المحوري.
+الأمثلة البرمجية التالية توضح كيفية تعديل النمط السريع المطبق على جدول إحصائيات.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ModifyPivotTableQuickStyle-ModifyPivotTableQuickStyle.java" >}}
 
-### **مسح الحقول المحورية**
+### **مسح حقول Pivot**
 
-[**مجموعة PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) طريقة اسمه[**صافي()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear()يمسح الحقول المحورية. استخدمه لمسح الحقول المحورية في جميع المناطق على سبيل المثال ، الصفحة أو العمود أو الصف أو البيانات.
-يوضح نموذج التعليمات البرمجية أدناه كيفية مسح كافة الحقول المحورية في منطقة البيانات.
+[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) يحتوي على طريقة تسمى [**clear()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear--) التي تقوم بمسح حقول pivot. استخدمها لمسح حقول pivot في جميع المناطق على سبيل المثال، الصفحة، العمود، الصف، أو البيانات.
+المثال البرمجي أدناه يوضح كيفية مسح جميع حقول pivot في منطقة البيانات.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ClearPivotFields-ClearPivotFields.java" >}}
 
 ## **وظيفة التوحيد**
 
-### **تطبيق ConsolidationFunction على حقول البيانات في Pivot Table**
+### **تطبيق وظيفة التوحيد على حقول البيانات لجدول الإحصائيات**
 
- يمكن استخدام Aspose.Cells لتطبيق ConsolidationFunction على حقول البيانات (أو حقول القيمة) للجدول المحوري. في Microsoft Excel ، يمكنك النقر بزر الماوس الأيمن فوق حقل القيمة ثم تحديد**إعدادات حقل القيمة ...** الخيار ثم حدد علامة التبويب**تلخيص القيم حسب**. من هناك ، يمكنك تحديد أي دالة توحيد من اختيارك مثل المجموع ، العدد ، المتوسط ، الحد الأقصى ، الحد الأدنى ، المنتج ، العدد المميز وما إلى ذلك.
+يمكن استخدام Aspose.Cells لتطبيق وظيفة التوحيد على حقول البيانات (أو حقول القيم) لجدول الإحصائيات. في برنامج Microsoft Excel، يمكنك النقر بزر الماوس الأيمن على حقل القيم ثم تحديد خيار **إعدادات حقل القيم...** ومن ثم تحديد علامة التبويب **تلخيص القيم حسب**. من هناك، يمكنك تحديد أي وظيفة توحيد تفضلها مثل المجموع، العد، المتوسط، الأقصى، الأدنى، الضرب، العد المميز، إلخ.
 
- يوفر Aspose.Cells[**التوحيد**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) التعداد لدعم وظائف التوحيد التالية.
+يوفر Aspose.Cells تعدادًا [**ConsolidationFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) لدعم وظائف التوحيد التالية.
 
 - [**ConsolidationFunction.AVERAGE**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#AVERAGE)
-- [**التوحيد وظيفة. العد**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT)
-- [**التوحيد. COUNT_NUMS**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT_NUMS)
-- [**عملية التوحيد. DISTINCT_COUNT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#DISTINCT_COUNT)
-- [**التوحيد**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#MAX)
-- [**التوحيد**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#MIN)
-- [**التوحيد. المنتج**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#PRODUCT)
-- [**التوحيد. STD_DEV**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#STD_DEV)
-- [**التوحيد. STD_DEVP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#STD_DEVP)
-- [**التوحيد SUM**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#SUM)
-- [**التوحيد. VAR**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VAR)
-- [**التوحيد. VARP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VARP)
+- [**ConsolidationFunction.COUNT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT)
+- [**ConsolidationFunction.COUNT_NUMS**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT_NUMS)
+- [**ConsolidationFunction.DISTINCT_COUNT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#DISTINCT_COUNT)
+- [**ConsolidationFunction.MAX**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#MAX)
+- [**ConsolidationFunction.MIN**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#MIN)
+- [**ConsolidationFunction.PRODUCT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#PRODUCT)
+- [**ConsolidationFunction.STD_DEV**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#STD_DEV)
+- [**ConsolidationFunction.STD_DEVP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#STD_DEVP)
+- [**ConsolidationFunction.SUM**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#SUM)
+- [**ConsolidationFunction.VAR**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VAR)
+- [**ConsolidationFunction.VARP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VARP)
 
- الكود التالي ينطبق**متوسط** وظيفة التوحيد إلى حقل البيانات الأول (أو حقل القيمة) و**متميز** وظيفة التوحيد في حقل البيانات الثاني (أو حقل القيمة).
+الكود التالي يقوم بتطبيق وظيفة **المتوسط** على الحقل الأول للبيانات (أو حقل القيم) ووظيفة **العد المميز** على الحقل الثاني للبيانات (أو حقل القيم).
 
 {{% alert color="primary" %}}
 
-يتم دعم وظيفة دمج DistinctCount بواسطة Microsoft Excel 2013 فقط.
+دعم وظيفة تجميع العدد المميز من قبل Microsoft Excel 2013 فقط.
 
 {{% /alert %}}
 

@@ -1,24 +1,25 @@
-﻿---
-title: Отслеживание прецедентов и зависимостей в xlsx4j
+---
+title: Отслеживание предшественников и зависимостей в xlsx4j
 type: docs
 weight: 70
 url: /ru/java/tracing-precedents-and-dependents-in-xlsx4j/
 ---
-## **Aspose.Cells - Отслеживание прецедентов и иждивенцев**
-Сложные финансовые таблицы, особенно разработанные совместно, могут скрывать самые неприятные ошибки. Проверка формул на точность и поиск источника ошибки могут быть затруднены, если в формуле используются предшествующие ячейки и зависимые ячейки.
 
-- **Предшествующие ячейки**— это ячейки, на которые ссылается формула в другом Cell. Например, если ячейка D10 содержит формулу =B5, ячейка B5 является предшествующей ячейке D10.
-- **Зависимые ячейки**содержат формулы, которые ссылаются на другие ячейки. Например, если ячейка D10 содержит формулу =B5, ячейка D10 зависит от ячейки B5.
+## **Aspose.Cells - Отслеживание предшественников и зависимостей**
+Сложные финансовые рабочие листы, особенно те, которые разработаны в сотрудничестве, могут скрывать наиболее нелестные ошибки. Проверка формул на точность и поиск источника ошибки может быть сложной, когда формула использует предшествующие и зависимые ячейки.
 
-Чтобы электронную таблицу было легко читать, вы можете четко показать, какие ячейки в электронной таблице используются в формуле. Точно так же вы можете захотеть извлечь зависимые ячейки других ячеек.
+- **Предшествующие ячейки** - это ячейки, на которые ссылается формула в другой ячейке. Например, если в ячейке D10 содержится формула =B5, ячейка B5 является предшественником для ячейки D10.
+- **Зависимые ячейки** содержат формулы, которые ссылается на другие ячейки. Например, если в ячейке D10 содержится формула =B5, ячейка D10 является зависимой от ячейки B5.
 
-Aspose.Cells позволяет отслеживать ячейки и выяснять, какие из них связаны.
+Чтобы сделать таблицу удобной для чтения, вы можете явно показать, какие ячейки в таблице используются в формулах. Точно так же, вы можете извлечь зависимые ячейки других ячеек.
 
-Отслеживание прецедентов
+Aspose.Cells позволяет отслеживать ячейки и выяснять, какие из них связаны между собой.
+
+Отслеживание предшественников
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -84,21 +85,21 @@ if(ret != null)
 
 {{< /highlight >}}
 
-Отслеживание иждивенцев
+Отслеживание зависимых
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Получить ячейку A1
+ //Get the A1 cell
 
-Cell c = Cells.get("A5");
+Cell c = cells.get("A5");
 
-//Получить все зависимые ячейки A5
+//Get the all the Dependents of A5 cell
 
-Cell[]зависимые = c.getDependents(true);
+Cell[] dependents = c.getDependents(true);
 
-для (целое я = 0; я< dependents.length; i++)
+for (int i = 0; i< dependents.length; i++)
 
 {
 
@@ -107,13 +108,13 @@ Cell[]зависимые = c.getDependents(true);
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/tracingprecedentsanddependents/AsposeTracingPrecedentsAndDependents.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/tracingprecedentsanddependents/AsposeTracingPrecedentsAndDependents.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Отслеживание прецедентов и иждивенцев](/java/tracing-precedents-and-dependents).
+Дополнительные сведения см. на [Отслеживание предшественников и зависимостей](/java/tracing-precedents-and-dependents).
 
 {{% /alert %}}

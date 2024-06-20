@@ -1,23 +1,24 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.4.2
+---
+title: Aspose.Cells 8.4.2での公開APIの変更
 type: docs
 weight: 150
 url: /ja/net/public-api-changes-in-aspose-cells-8-4-2/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.4.1 から 8.4.2 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/net/public-api-changes-in-aspose-cells-8-4-2/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
+このドキュメントは、Aspose.Cells API のバージョン 8.4.1 から 8.4.2 への変更について、モジュール／アプリケーション開発者に興味を持たれるかもしれない点を記載しています。これには新しいメソッドや更新された公開メソッドのほか、[追加されたクラスなど](/cells/ja/net/public-api-changes-in-aspose-cells-8-4-2/)に関する情報だけでなく、Aspose.Cells の内部の動作に変更がある場合の説明も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **改善されたチャート作成メカニズム**
-Aspose.Cells.Charts.Chart クラスは、チャート作成のタスクを容易にするために SetChartDataRange メソッドを公開しました。 SetChartDataRange メソッドは 2 つのパラメーターを受け入れます。最初のパラメーターは、データ系列をプロットするセル領域を指定する文字列型です。 2 番目のパラメーターは、プロットの向きを指定する Boolean 型です。行ごとまたは列ごとにセル値の範囲からチャート データ系列をプロットするかどうか。
+## **APIの追加**
+### **改良されたチャート作成メカニズム**
+Aspose.Cells.Charts.Chart クラスに SetChartDataRange メソッドが公開され、このメソッドを使用することでチャート作成のタスクを簡素化できるようになりました。SetChartDataRange メソッドは 2 つのパラメータを受け入れます。1 つ目のパラメータは文字列型で、データ系列をプロットするセル領域を指定します。2 つ目のパラメータは Boolean 型で、プロットの向きを指定します。つまり、セルの値の範囲からデータ系列を行方向または列方向にプロットするかを指定します。
 
-次のコード スニペットは、グラフのプロット シリーズ データがセル A1 から D4 までの同じワークシートに存在することを前提として、数行のコードで縦棒グラフを作成する方法を示しています。
+以下のコードスニペットは、少数のコードを使用して列のチャートを作成する方法を示しています。チャートのプロット系列データが同じワークシート上のセルA1からD4にあると仮定しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Add a new chart of type Column to chart collection
 
@@ -34,14 +35,14 @@ chart.SetChartDataRange("A1:D4", true);
 {{< /highlight >}}
 
 
-### **メソッド VbaModuleCollection.Add が追加されました**
-Aspose.Cells for .NET 8.4.2 では、Workbook のインスタンスに新しい VBA モジュールを追加する VbaModuleCollection.Add メソッドが公開されています。 VbaModuleCollection.Add メソッドは、Worksheet 型のパラメーターを受け取り、ワークシート固有のモジュールを追加します。
+### **VbaModuleCollection.Add メソッドが追加されました**
+Aspose.Cells for .NET 8.4.2 では、VbaModuleCollection.Add メソッドが追加され、Workbook インスタンスに新しい VBA モジュールを追加することができるようになりました。VbaModuleCollection.Add メソッドは、ワークシート固有のモジュールを追加するための Worksheet 型のパラメータを受け入れます。
 
-次のコード スニペットは、VbaModuleCollection.Add メソッドの使用方法を示しています。
+以下のコードスニペットは、VbaModuleCollection.Add メソッドの使用方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create new workbook
 
@@ -74,14 +75,14 @@ workbook.Save(output, SaveFormat.Xlsm);
 {{< /highlight >}}
 
 
-### **オーバーロードされたメソッド Cells.CopyColumns が追加されました**
-Aspose.Cells for .NET 8.4.2 は、コピー元の列をコピー先に繰り返す Cells.CopyColumns メソッドのオーバーロードされたバージョンを公開しました。新しく公開されたメソッドは、合計 5 つのパラメーターを受け入れます。最初の 4 つのパラメーターは、共通の Cells.CopyColumns メソッドと同じです。ただし、int 型の最後のパラメーターは、ソース列を繰り返す必要がある宛先列の数を指定します。
+### **Overloaded Method Cells.CopyColumns Added**
+Aspose.Cells for .NET 8.4.2 では、Cells.CopyColumns メソッドのオーバーロードバージョンが公開され、ソースの列を宛先に繰り返してコピーすることができるようになりました。新たに公開されたメソッドは合計 5 つのパラメータを受け入れます。最初の 4 つのパラメータは通常の Cells.CopyColumns メソッドと同じですが、最後の int 型のパラメータは、ソースの列を繰り返す宛先の列の数を指定します。
 
-次のコード スニペットは、新しく公開された Cells.CopyColumns メソッドの使用方法を示しています。
+以下のコードスニペットは、新たに公開された Cells.CopyColumns メソッドの使用方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -112,17 +113,17 @@ workbook.Save(output);
 {{< /highlight >}}
 
 
-### **列挙フィールド PasteType.Default & PasteType.DefaultExceptBorders を追加**
-v8.4.2 のリリースにより、Aspose.Cells API は PasteType の 2 つの新しい列挙フィールドを追加しました。詳細は以下のとおりです。
+### **列挙体のフィールド PasteType.Default および PasteType.DefaultExceptBorders が追加されました**
+v8.4.2のリリースに伴い、Aspose.Cells APIにはPasteType用の2つの新しい列挙型フィールドが追加されました。
 
-- PasteType.Default: セルの範囲を貼り付ける Excel の「すべて」機能と同様に機能します。
-- PasteType.DefaultExceptBorders: セルの範囲を貼り付けるための Excel の「境界線以外のすべて」機能と同様に機能します。
+- PasteType.Default: セルの範囲を貼り付ける際に Excel の「すべて」機能と同様に機能します。
+- PasteType.DefaultExceptBorders: セルの範囲を貼り付ける際に Excel の「すべての罫線を除く」機能と同様に機能します。
 
-次のサンプル コードは、PasteType.Default フィールドの使用方法を示しています。
+次のサンプルコードは、PasteType.Default フィールドの使用方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -154,6 +155,6 @@ workbook.Save(output);
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for .NET 8.4.2 のリリース以降、列挙型フィールド PasteType.All は、セルの範囲を貼り付ける Excel の「すべて」機能とは異なる動作をします。現在、PasteType.All は、Excel の「すべて」機能とは対照的に、列幅も宛先範囲にコピーします。 Excel の「すべて」の動作を模倣するには、PasteType.Default を使用してください。
+リリース Aspose.Cells for .NET 8.4.2 以降、列挙型の PasteType.All は、Excel の「すべて」機能とは異なる動作となりました。現在、PasteType.All は列の幅も宛先範囲にコピーするようになりました。Excel の「すべて」機能と同じ動作を再現するには、 PasteType.Default を使用してください。
 
 {{% /alert %}}

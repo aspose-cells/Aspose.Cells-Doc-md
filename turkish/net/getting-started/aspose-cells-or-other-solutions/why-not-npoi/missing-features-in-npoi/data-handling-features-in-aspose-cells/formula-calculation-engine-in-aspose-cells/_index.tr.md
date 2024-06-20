@@ -1,15 +1,16 @@
-﻿---
-title: Aspose.Cells'de Formül Hesaplama Motoru
+---
+title: Aspose.Cells te Elektronik Tabloyu PDF ye Dönüştürme
 type: docs
 weight: 30
 url: /tr/net/formula-calculation-engine-in-aspose-cells/
 ---
-## **Aspose.Cells - Formül Hesaplama Motoru**
-Formül hesaplama motoru Aspose.Cells'de yerleşiktir. Yalnızca bir tasarımcı elektronik tablo dosyasından içe aktarılan formülü yeniden hesaplamakla kalmaz, aynı zamanda çalışma zamanında eklenen formüllerin sonuçlarını hesaplamayı da destekler.
+
+## **Aspose.Cells - Elektronik Tabloyu PDF'ye Dönüştürme**
+PDF belgeleri, kuruluşlar, devlet sektörleri ve bireyler arasında belge alışverişinin standart formatı olarak geniş bir şekilde kullanılmaktadır. Yazılım geliştiricileri genellikle Microsoft Excel dosyalarını kolayca PDF belgelerine dönüştürme yolu bulmaları istenir. Aspose.Cells bu özellikleri destekler.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -59,12 +60,12 @@ book.Save("AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Formül Hesaplama Motoru** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Herhangi aşağıdaki sosyal kodlama sitelerinden **Elektronik Tabloyu PDF'ye Dönüştürme** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Formül Hesaplama Motoru](/cells/tr/net/formula-calculation-engine/).
+Daha fazla ayrıntı için [Formül Hesaplama Motoru](/cells/tr/net/formula-calculation-engine/) ziyaret edin.
 
 {{% /alert %}}

@@ -1,5 +1,5 @@
-﻿---
-title: Gérer l'art intelligent
+---
+title: Gérer les SmartArt
 type: docs
 weight: 200
 url: /fr/net/managing-smartart/

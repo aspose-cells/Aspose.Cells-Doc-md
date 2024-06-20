@@ -1,60 +1,61 @@
 ---
-title: Trois méthodes de filtrage des données graphiques
-description: Apprenez à filtrer les graphiques dans Excel en utilisant le Aspose.Cells for .NET. Notre guide complet vous montrera comment appliquer des filtres aux graphiques, personnaliser les éléments des graphiques et utiliser des outils d'analyse de données pour de meilleures informations et une prise de décision éclairée.
-keywords: Aspose.Cells for .NET, Filtering Charts in Excel, Data Analysis, Decision Making, Visualization.
+title: Trois méthodes pour filtrer les données du graphique
+description: Apprenez comment filtrer les graphiques dans Excel en utilisant Aspose.Cells for .NET. Notre guide complet démontrera comment appliquer des filtres aux graphiques, personnaliser les éléments du graphique, et utiliser les outils d analyse de données pour de meilleures insights et une prise de décision informée.
+keywords: Aspose.Cells for .NET, Filtrer les graphiques dans Excel, Analyse de données, Prise de décision, Visualisation.
 type: docs
 weight: 2210
 url: /fr/net/filtering-charts-in-excel/
 ---
+
 {{% alert color="primary" %}}
 
-##  **1. Filtrage des séries pour afficher un graphique**
+## **1. Filtrer les séries pour afficher un graphique**
 
-###  **Étapes pour filtrer les séries à partir d'un graphique dans Excel**
- Dans Excel, nous pouvons filtrer des séries spécifiques d'un graphique, empêchant ainsi ces séries filtrées de s'afficher dans le graphique. Le graphique original est présenté dans**Figure 1**. Cependant, lorsque nous filtrons **Testseries2** et *Testseries4**, le graphique apparaîtra comme indiqué dans la *Figure 2**.
+### **Étapes pour filtrer les séries d'un graphique dans Excel**
+Dans Excel, nous pouvons filtrer des séries spécifiques d'un graphique, ce qui fait que ces séries filtrées ne sont pas affichées dans le graphique. Le graphique d'origine est montré dans **Figure 1**. Cependant, lorsque nous filtrons **Testseries2** et **Testseries4**, le graphique apparaîtra comme indiqué dans **Figure 2**.
 
- En Aspose.Cells, on peut réaliser une opération similaire. Pour un[échantillon](seriesFiltered.xlsx) fichier comme celui-ci, si nous voulons filtrer**Série de tests2** et *Testseries4**, nous pouvons exécuter le code suivant. De plus, nous maintiendrons deux listes : une ([Série NS](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)) liste pour stocker toutes les séries sélectionnées et une autre ([Série NS filtrée](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/)) pour stocker la série filtrée.
+Dans Aspose.Cells, nous pouvons effectuer une opération similaire. Pour un fichier [d'exemple](seriesFiltered.xlsx) comme celui-ci, si nous voulons filtrer **Testseries2** et **Testseries4**, nous pouvons exécuter le code suivant. De plus, nous maintiendrons deux listes : une liste ([NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/)) pour stocker toutes les séries sélectionnées et une autre ([FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/)) pour stocker les séries filtrées.
 
-S'il te plaît**note** que dans le code, quand on définit**chart.NSeries[0].IsFiltered = true;**, la première série de [NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/) sera supprimée et placé à la position appropriée dans [FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/). Par la suite, la précédente **NSeries[1]** deviendra le nouveau premier élément de la liste et toutes les séries suivantes seront décalées d’une position. Cela signifie que si nous exécutons ensuite *chart.NSeries[1].IsFiltered = true;**, nous supprimons effectivement la troisième série d'origine. Cela peut parfois prêter à confusion, nous recommandons donc de suivre l'opération dans le code, qui supprime les séries de la fin au début.
+Veuillez **noter** que dans le code, lorsque nous définissons **chart.NSeries[0].IsFiltered = true;**, la première série dans [NSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/nseries/) sera supprimée et placée à la position appropriée dans [FilteredNSeries](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/filteredSeries/). Par la suite, l'ancienne série **NSeries[1]** deviendra le nouveau premier élément de la liste, et toutes les séries suivantes se déplaceront vers l'avant d'une position. Cela signifie que si nous exécutons ensuite **chart.NSeries[1].IsFiltered = true;**, nous supprimons effectivement la troisième série d'origine. Cela peut parfois entraîner de la confusion, c'est pourquoi nous recommandons de suivre l'opération dans le code, qui supprime les séries de la fin au début.
 
-![tâche : image_alt_text](Figure1.png)
+![todo:image_alt_text](Figure1.png)
 
-![tâche : image_alt_text](Figure2.png)
+![todo:image_alt_text](Figure2.png)
 
-###  **Exemple de code**
- L'exemple de code suivant charge le[exemple de fichier Excel](seriesFiltered.xlsx).
+### **Code d'exemple**
+Le code d'exemple suivant charge le [fichier Excel d'exemple](seriesFiltered.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "seriesFiltered.cs" >}}
 
-##  **2. Filtrez les données et laissez le graphique changer**
+## **2. Filtrer les données et laisser le changement de graphique**
 
-Le filtrage de vos données est un excellent moyen de gérer les filtres de graphiques contenant beaucoup de données. Lorsque vous filtrez les données, le graphique change. Un problème que nous devrons résoudre est de nous assurer que le graphique reste à l'écran. Lorsque vous filtrez, vous obtenez des lignes masquées et, parfois, le graphique se trouve dans ces lignes masquées.
+Filtrer vos données est un excellent moyen de gérer les filtres de graphique avec beaucoup de données. Lorsque vous filtrez les données, le graphique changera. Un problème que nous devrons aborder est de veiller à ce que le graphique reste à l'écran. Lorsque vous filtrez, vous obtenez des lignes cachées, et parfois, le graphique se trouvera dans ces lignes cachées.
 
-![tâche : image_alt_text](Figure3.png)
+![todo:image_alt_text](Figure3.png)
 
-###  **Étapes pour utiliser les filtres de données pour modifier le graphique dans Excel**
+### **Étapes pour utiliser les filtres de données pour changer le graphique dans Excel**
 
-1. Cliquez à l’intérieur de votre plage de données.
- 2. Cliquez sur le**Données** et activez Filtres en cliquant sur Filtres. Votre ligne d'en-tête comportera des flèches déroulantes.
- 3. Créez un graphique en accédant à**Insérer** et en sélectionnant un graphique à colonnes.
-4. Filtrez maintenant vos données à l'aide des flèches déroulantes dans les données. N'utilisez pas les filtres de graphique.
+1. Cliquez à l'intérieur de la plage de vos données.
+2. Cliquez sur l'onglet **Données**, et activez les filtres en cliquant sur Filtres. Votre ligne d'en-tête aura des flèches déroulantes.
+3. Créez un graphique en allant sur l'onglet **Insertion** et en sélectionnant un graphique à colonnes.
+4. Filtrer maintenant vos données en utilisant les flèches déroulantes dans les données. N'utilisez pas les filtres de graphique.
 
-###  **Exemple de code**
-L'exemple de code suivant montre la même fonctionnalité en utilisant Aspsoe.Cells.
+### **Code d'exemple**
+Le code d'exemple suivant montre la même fonctionnalité en utilisant Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "DataFilters.cs" >}}
 
-##  **3. Filtrez les données à l'aide d'un tableau et laissez le graphique changer**
+## **3. Filtrer les données en utilisant un tableau et laisser le changement du graphique**
 
-L'utilisation d'un tableau est similaire à la méthode 2, utilisant une plage, mais les tableaux présentent des avantages par rapport aux plages. Lorsque vous modifiez votre plage en tableau et ajoutez des données, le graphique est automatiquement mis à jour. Avec une plage, vous devrez changer la source de données.
+Utiliser un tableau est similaire à la Méthode 2, en utilisant une plage, mais vous avez des avantages avec les tableaux par rapport aux plages. Lorsque vous modifiez votre plage en un tableau et ajoutez des données, le graphique se met à jour automatiquement. Avec une plage, vous devrez modifier la source de données.
 
-###  **Formater sous forme de tableau dans Excel**
+### **Format en tableau dans Excel**
 
- Cliquez dans vos données et utilisez**CTRL + T** ou utilisez l'onglet Accueil,**Formater sous forme de tableau**
+Cliquez à l'intérieur de vos données et utilisez **CTRL + T** ou utilisez l'onglet Accueil, **Format en Tableau**
 
-![tâche : image_alt_text](Figure4.png)
+![todo:image_alt_text](Figure4.png)
 
-###  **Exemple de code**
- L'exemple de code suivant charge le[exemple de fichier Excel](TableFilters.xlsx) montre la même fonctionnalité en utilisant Aspsoe.Cells.
+### **Code d'exemple**
+Le code d'exemple suivant charge le [fichier Excel d'exemple](TableFilters.xlsx) montre la même fonctionnalité en utilisant Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "TableFilters.cs" >}}

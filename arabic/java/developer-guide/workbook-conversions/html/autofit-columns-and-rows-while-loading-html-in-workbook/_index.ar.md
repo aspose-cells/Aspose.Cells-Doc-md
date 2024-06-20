@@ -1,19 +1,20 @@
-﻿---
-title: احتواء تلقائي للأعمدة والصفوف أثناء تحميل HTML في المصنف
+---
+title: تناسب تلقائي للأعمدة والصفوف أثناء تحميل HTML في مصنف
 type: docs
 weight: 70
 url: /ar/java/autofit-columns-and-rows-while-loading-html-in-workbook/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
- يمكنك احتواء الأعمدة والصفوف تلقائيًا أثناء تحميل ملف HTML داخل ملف**[مصنف] (https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**موضوع. يرجى ضبط**[HtmlLoadOptions.AutoFitColsAndRows] (https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)** ملكية ل**حقيقي**لهذا الغرض.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **احتواء تلقائي للأعمدة والصفوف أثناء تحميل HTML في المصنف**
+يمكنك تلائم تلقائيًا الأعمدة والصفوف أثناء تحميل ملف HTML داخل كائن [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook). يرجى ضبط الخاصية [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) إلى **true** لهذا الغرض.
 
- يقوم نموذج التعليمات البرمجية التالي أولاً بتحميل العينة HTML في Workbook دون أي خيارات تحميل وحفظه بتنسيق XLSX. ثم يقوم بتحميل العينة HTML مرة أخرى في المصنف ولكن هذه المرة ، يقوم بتحميل HTML بعد تعيين**[HtmlLoadOptions.AutoFitColsAndRows] (https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)** ملكية ل**حقيقي**ويحفظه بتنسيق XLSX. يرجى تنزيل كل من ملفات إكسل الناتجة مثل[إخراج ملف Excel بدون AutoFitColsAndRows](outputWithout_AutoFitColsAndRows.xlsx) و[إخراج ملف Excel مع AutoFitColsAndRows](outputWith_AutoFitColsAndRows.xlsx) . تُظهر لقطة الشاشة التالية تأثير**[HtmlLoadOptions.AutoFitColsAndRows] (https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)**الخاصية على كلا ملفات إكسل الإخراج.
+## **تلائم الأعمدة والصفوف تلقائيًا أثناء تحميل HTML في دفتر العمل**
 
-![ما يجب القيام به: image_بديل_نص](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+يحمل الكود العيني أدناه الصورة العينية الأولية العينية في المفكرة دون أي خيارات تحميل ويحفظها بتنسيق XLSX. ثم يحمل الصورة العينية العينية مرة أخرى في المفكرة ولكن هذه المرة، يحمل الصورة العينية الأولية بعد ضبط الخاصية [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) إلى **true** ويحفظها بتنسيق XLSX. يرجى تنزيل كلا ملفات إكسيل الناتجة، أي [ملف إكسيل الناتج بدون تلائم تلقائي للأعمدة والصفوف](outputWithout_AutoFitColsAndRows.xlsx) و [ملف إكسيل الناتج مع تلائم تلقائي للأعمدة والصفوف](outputWith_AutoFitColsAndRows.xlsx). توضح اللقطة الشاشية التالية تأثير الخاصية [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) على كلا ملفات إكسيل الناتج.
 
-## **عينة من الرموز**
+![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-AutoFitColumnsRowsLoadingHTML-1.java" >}}

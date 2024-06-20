@@ -1,45 +1,46 @@
 ---
-title: Aplique el filtro avanzado de Excel Microsoft para mostrar registros que cumplan criterios complejos
+title: Aplicar filtro avanzado de Microsoft Excel para mostrar registros que cumplan criterios complejos
 type: docs
 weight: 280
 url: /es/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
-description: Aprenda a aplicar el filtro avanzado de Microsoft Excel para mostrar registros que cumplan criterios complejos utilizando Aspose.Cells for .NET API.
-keywords: Apply Advanced Filter, Set Advanced Filter, Add Advanced Filter, Create Advanced Filter, How to add Advanced Filter to a range 
+description: Aprenda cómo aplicar filtro avanzado de Microsoft Excel para mostrar registros que cumplen con criterios complejos utilizando la API Aspose.Cells for .NET.
+keywords: Aplicar Filtro Avanzado, Establecer Filtro Avanzado, Agregar Filtro Avanzado, Crear Filtro Avanzado, Cómo agregar Filtro Avanzado a un rango 
 ---
-##  **Posibles escenarios de uso**
 
- Microsoft Excel te permite aplicar*Filtro avanzado* en los datos de la hoja de cálculo para mostrar registros que cumplan criterios complejos. Puede aplicar el filtro avanzado con Microsoft Excel a través de su*Datos > Avanzado*comando como se muestra en esta captura de pantalla.
+## **Escenarios de uso posibles**
+
+Microsoft Excel te permite aplicar el *Filtro Avanzado* en los datos de la hoja de cálculo para mostrar registros que cumplan criterios complejos. Puedes aplicar el Filtro Avanzado en Microsoft Excel a través del comando *Datos > Avanzados* como se muestra en esta captura de pantalla.
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
 
-Aspose.Cells también le permite aplicar el filtro avanzado utilizando el[**Hoja de trabajo.Filtro avanzado()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter)método. Al igual que Microsoft Excel, acepta los siguientes parámetros.
+Aspose.Cells también le permite aplicar el Filtro Avanzado usando el método [**Worksheet.AdvancedFilter()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter). Al igual que Microsoft Excel, acepta los siguientes parámetros.
 
-**esfiltro**
+**isFilter**
 
-Indica si se está filtrando la lista.
+Indica si se está filtrando la lista en su lugar.
 
-**listarango**
+**listRange**
 
 El rango de la lista.
 
-**Rango de criterio**
+**criteriaRange**
 
-Los criterios varían.
+El rango de criterios.
 
-**copiar a**
+**copyTo**
 
 El rango donde se copian los datos.
 
-**únicoRecordOnly**
+**uniqueRecordOnly**
 
-Solo mostrar o copiar filas únicas.
+Solo muestra o copia filas únicas.
 
-##  **Aplique el filtro avanzado de Excel Microsoft para mostrar registros que cumplan criterios complejos**
+## **Aplicar Filtro Avanzado de Microsoft Excel para Mostrar Registros que Cumplen Criterios Complejos**
 
-El siguiente código de muestra aplica el filtro avanzado en el[Archivo de Excel de muestra](48496692.xlsx) y genera el[Archivo de Excel de salida](48496691.xlsx). La captura de pantalla muestra ambos archivos para comparar. Como puede ver en la captura de pantalla, los datos se han filtrado dentro del archivo Excel de salida según criterios complejos.
+El siguiente código de ejemplo aplica el filtro avanzado en el [Archivo de Excel de Muestra](48496692.xlsx) y genera el [Archivo de Excel de Salida](48496691.xlsx). La captura de pantalla muestra ambos archivos para comparación. Como puede ver en la captura de pantalla, los datos se han filtrado dentro del archivo de Excel de salida de acuerdo a criterios complejos.
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 
-##  **Código de muestra**
+## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ApplyAdvancedFilterOfMicrosoftExcel.cs" >}}

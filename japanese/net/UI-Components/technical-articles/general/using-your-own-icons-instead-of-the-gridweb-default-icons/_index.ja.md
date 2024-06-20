@@ -1,20 +1,23 @@
-﻿---
-title: GridWeb のデフォルト アイコンの代わりに独自のアイコンを使用する
+---
+title: GridWebのデフォルトのアイコンの代わりに独自のアイコンを使用する
 type: docs
 weight: 10
-url: /ja/net/using-your-own-icons-instead-of-the-gridweb-default-icons/
+url: /ja/net/aspose-cells-gridweb/use-your-own-icons-instead-of-the-default-icons/
+keywords: GridWeb、icon、icons
+description: この記事では、GridWebでアイコンを使用する方法について説明しています。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb コントロールの既定のアイコンの代わりに、独自のアイコン (画像) を使用したい場合があります。この記事では、これを行う方法について説明します。
+Aspose.Cells.GridWebコントロールのデフォルトのアイコンではなく、独自のアイコン（画像）を使用したい場合があります。この記事では、その方法について説明します。
 
 {{% /alert %}} 
 
-コントロールのデフォルト アイコンは、URL パス "/acw" にあります。_client/". ファイル パスは、"C:\Program Files\Aspose\Aspose.Cells for .NET\acw_そのフォルダーには、submit.gif、save.gif などのファイルがあります。これらの画像を独自の画像に置き換えたい場合は、Web アプリケーションの web.config ファイルに config セクションを追加します。
+デフォルトのアイコンはURLパス"/acw_client/"にあります。ファイルパスはデフォルトで"C:\Program Files\Aspose\Aspose.Cells for .NET\acw_client"になります。そのフォルダには、submit.gif、save.gifなどのファイルが含まれます。これらの画像を独自の画像で置き換えたい場合、Webアプリケーションのweb.configファイルにconfigセクションを追加します。
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <appSettings>
 
@@ -26,10 +29,10 @@ Aspose.Cells.GridWeb コントロールの既定のアイコンの代わりに�
 
 {{< /highlight >}}
 
-この構成はコントロール イメージ パスにのみ影響し、コントロールのクライアント スクリプト パスには影響しないことに気付いたかもしれません。たとえば、GridWeb コントロールを使用してページを実行し、ブラウザでソース ファイルを確認すると、acw が_クライアント_グリッドの DIV 要素のパス プロパティには、まだ「/yourApp/webform1.aspx/」と表示されています。場合によっては、クライアント スクリプト パスの再定義が必要になることがあります。コントロールが再定義されたイメージ パスをクライアント スクリプト パスとして使用するように強制するには、appSettings セクションに別の構成設定を追加します。
+この構成は、ライセンスされたコントロールのみが有効になります。
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <add key="Aspose.Cells.GridWeb.force_script_path" value="true" />
 
@@ -39,6 +42,6 @@ Aspose.Cells.GridWeb コントロールの既定のアイコンの代わりに�
 
 {{% alert color="primary" %}} 
 
-この構成は、ライセンスされたコントロールでのみ有効になります。
+"Aspose.Cells for Python via Javaを使用してExcelに背景画像を挿入する方法"
 
 {{% /alert %}}

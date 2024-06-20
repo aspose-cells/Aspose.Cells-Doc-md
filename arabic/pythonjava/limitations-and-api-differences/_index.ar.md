@@ -1,16 +1,17 @@
-﻿---
-title: القيود و API الاختلافات
+---
+title: القيود والفروقات في واجهة برمجة التطبيقات
 type: docs
 weight: 10
 url: /ar/python-java/limitations-and-api-differences/
-keywords: python, excel, limitation, api, difference
-description: Aspose.Cells for Python via Java القيود والاختلافات API
+keywords: "بايثون, إكسل, قيود, واجهة برمجة التطبيقات, فروقات"
+description: "Aspose.Cells for Python via Java القيود والفروقات في واجهة برمجة التطبيقات"
 ---
-## **عام API الاختلافات**
+
+## **الفروقات العامة في واجهة برمجة التطبيقات**
 ### **مثال**
 **Aspose.Cells for Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  import com.aspose.cells.*;
 
@@ -34,7 +35,7 @@ public class Test1 {
 
 **Aspose.Cells for Python via Java**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  import jpype
 

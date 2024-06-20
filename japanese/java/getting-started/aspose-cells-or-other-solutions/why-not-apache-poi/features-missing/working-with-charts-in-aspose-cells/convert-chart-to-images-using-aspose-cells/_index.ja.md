@@ -1,16 +1,17 @@
-﻿---
-title: Aspose.Cells を使用してチャートを画像に変換する
+---
+title: Aspose.Cellsを使用してグラフを画像に変換する
 type: docs
 weight: 30
 url: /ja/java/convert-chart-to-images-using-aspose-cells/
 ---
-## **Aspose.Cells - チャートを画像に変換**
-グラフは視覚的に魅力的であり、ユーザーはデータの比較、パターン、および傾向を簡単に確認できます。
-Chart クラスの toImage メソッドは、チャートをディスクまたはストリームに保存できる画像ファイルに変換します。
+
+## **Aspose.Cells - グラフを画像に変換**
+グラフは視覚的に魅力があり、ユーザーがデータの比較、パターン、傾向を見るのが簡単です。
+Chart クラスの toImage メソッドは、チャートを画像ファイルに変換し、ディスクまたはストリームに保存できます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the Chart image
 
@@ -23,7 +24,7 @@ imgOpts.setImageFormat(ImageFormat.getPng());
 chart.toImage(new FileOutputStream(dataDir + "AsposeChartImage.png"), imgOpts);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
@@ -31,6 +32,6 @@ chart.toImage(new FileOutputStream(dataDir + "AsposeChartImage.png"), imgOpts);
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[チャートを画像に変換する](/java/converting-chart-to-image).
+詳細については、[チャートを画像に変換する](/java/converting-chart-to-image) をご覧ください。
 
 {{% /alert %}}

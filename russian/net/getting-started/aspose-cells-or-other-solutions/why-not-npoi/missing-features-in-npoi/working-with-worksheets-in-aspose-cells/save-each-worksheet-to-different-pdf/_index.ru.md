@@ -1,29 +1,30 @@
-﻿---
-title: Сохраните каждый рабочий лист в другой PDF
+---
+title: Сохранить каждый лист в отдельный PDF файл
 type: docs
 weight: 10
 url: /ru/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - Сохранение каждого рабочего листа в другой PDF**
-Aspose.Cells поддерживает преобразование файлов XLS (содержащих изображения, диаграммы и т. д.) в документы PDF. Aspose.Cells for .NET может работать независимо для преобразования электронной таблицы в документ PDF, и вам больше не нужно использовать Aspose.Pdf for .NET для преобразования. Преобразование также не требует создания/использования каких-либо временных файлов, так как весь процесс может выполняться в памяти.
+
+## **Aspose.Cells - Сохранить каждый лист в отдельный PDF-файл**
+Aspose.Cells поддерживает преобразование файлов XLS (с изображениями, графиками и др.) в PDF-документы. Aspose.Cells for .NET может работать независимо для преобразования электронной таблицы в PDF-документ, и для этого вам не нужно больше использовать Aspose.Pdf for .NET. Для преобразования также не требуется создание или использование каких-либо временных файлов, так как весь процесс можно выполнить в памяти.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- //Создаем новую книгу и открываем Excel
+ //Instantiate a new workbook and open the Excel
 
-//Файл из его местоположения
+//File from its location
 
-Рабочая книга рабочая книга = новая рабочая книга("../../data/test.xlsx");
+Workbook workbook = new Workbook("../../data/test.xlsx");
 
-//Получить количество рабочих листов в рабочей книге
+//Get the count of the worksheets in the workbook
 
 int sheetCount = workbook.Worksheets.Count;
 
-//Делаем все листы невидимыми, кроме первого рабочего листа
+//Make all sheets invisible except first worksheet
 
- для (целое я = 1; я< workbook.Worksheets.Count; i++)
+for (int i = 1; i < workbook.Worksheets.Count; i++)
 
 {
 
@@ -54,13 +55,13 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Сохраните каждый рабочий лист в другой PDF** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузить **Сохранение каждого листа в отдельный PDF-файл** с любого из указанных ниже сайтов социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Сохраните каждый рабочий лист в другой файл PDF](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
+Дополнительные сведения см. в разделе [Сохранение каждого листа в отдельный PDF-файл](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}

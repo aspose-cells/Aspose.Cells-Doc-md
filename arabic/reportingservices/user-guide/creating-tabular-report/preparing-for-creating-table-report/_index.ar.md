@@ -1,19 +1,20 @@
-﻿---
+---
 title: التحضير لإنشاء تقرير الجدول
 type: docs
 weight: 10
 url: /ar/reportingservices/preparing-for-creating-table-report/
 ---
- قبل إنشاء تقرير جدولي ، يجب على المستخدم أولاً إنشاء مصادر البيانات ومجموعات البيانات ومعلمات التقرير (اختياري) كما هو موضح في[مصادر البيانات والاستعلامات](/cells/ar/reportingservices/data-sources-and-queries/).
 
-أدناه ، نستخدم نموذج قاعدة بيانات AdventureWorks التي تأتي مع SQL Server Reporting Services 2005.
+قبل إنشاء تقرير جدولي يجب على المستخدم إنشاء مصادر البيانات ومجموعات البيانات ومعلمات التقرير (اختياري) كما هو موضح في [مصادر البيانات والاستعلامات](/cells/ar/reportingservices/data-sources-and-queries/).
 
-1. قم بإنشاء مجموعة بيانات باسم EmpSalesDetail. سنستخدم هذا كمصدر بيانات الجدول. تحتوي مجموعة البيانات على ثلاث معلمات: ReportYear و ReportMonth و EmpID.
- SQL الذي يعرف EmpSalesDetail هو كما يلي:
+أدناه، نستخدم قاعدة البيانات العينة AdventureWorks التي تأتي مع خدمات تقارير SQL Server 2005.
+
+1. إنشاء مجموعة بيانات باسم EmpSalesDetail. سنستخدم هذا كمصدر بيانات الجدول. تحتوي المجموعة على ثلاث معلمات: ReportYear، ReportMonth و EmpID.
+   SQL الذي يحدد EmpSalesDetail هو كما يلي: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT C.FirstName+' '+C.LastName 'Employee',
 
@@ -83,12 +84,12 @@ PC.Name
 
 {{< /highlight >}}
 
-1. قم بإنشاء مجموعة بيانات باسم SalesEmps. سنستخدم ذلك كقيم صالحة لمعلمة EmpID.
- SQL الذي يعرف SalesEmps هو:
+1. إنشاء مجموعة بيانات باسم SalesEmps. سنستخدم ذلك كلقيم صالحة لمعلمة خريج مدرسة الهندسة.
+   SQL الذي يحدد SalesEmps هو: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT  E.EmployeeID,  C.FirstName + N' ' + C.LastName AS Employee
 
@@ -102,28 +103,28 @@ ON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName
 
 {{< /highlight >}}
 
-1.  قم بإنشاء ثلاثة معلمات للتقرير: ReportYear و ReportMonth و EmpID.
- 1. القيم الصالحة لمعلمة ReportYear هي:
+1. إنشاء ثلاث معلمات تقرير: ReportYear، ReportMonth و EmpID. 
+   1. القيم الصالحة لمعلمة ReportYear هي: 
 
-![ما يجب القيام به: image_بديل_نص](preparing-for-creating-table-report_1.png)
-
-
-
-
-1. القيم الصالحة للمعلمة ReportMonth هي:
-
-![ما يجب القيام به: image_بديل_نص](preparing-for-creating-table-report_2.png)
+![todo:image_alt_text](preparing-for-creating-table-report_1.png)
 
 
 
 
-1.  القيمة الصالحة للمعلمة EmpID هي:
+1. القيم الصالحة لمعلمة ReportMonth هي: 
 
-![ما يجب القيام به: image_بديل_نص](preparing-for-creating-table-report_3.png)
-
-
+![todo:image_alt_text](preparing-for-creating-table-report_2.png)
 
 
-1.  قم بتعيين معلمات مجموعة البيانات لتقرير المعلمات ، على النحو التالي:
 
-![ما يجب القيام به: image_بديل_نص](preparing-for-creating-table-report_4.png)
+
+1. القيمة الصالحة لمعلمة EmpID هي: 
+
+![todo:image_alt_text](preparing-for-creating-table-report_3.png)
+
+
+
+
+1. ربط معلمات مجموعة البيانات بمعلمات التقرير، كما يلي: 
+
+![todo:image_alt_text](preparing-for-creating-table-report_4.png)

@@ -1,16 +1,17 @@
-﻿---
-title:  GridJ のカスタム コンテキスト メニュー
+---
+title: GridJsのカスタムコンテキストメニュー  
 type: docs
 weight: 250
 url: /ja/net/aspose-cells-gridjs/custommenu/
-description: この記事では、GridJ のコンテキスト メニューを構成する方法について説明します。
-keywords: custom menu items, context menu
+description: この記事では、GridJsのコンテキストメニューを構成する方法について説明します。
+keywords: GridJs、カスタムメニューアイテム、コンテキストメニュー、カスタム、コンテキスト、メニュー
 ---
-# カスタム コンテキスト メニュー
-行/列の挿入/削除など、いくつかのコンテキスト メニュー項目が組み込まれています。
-ただし、ユーザーがコンテキスト メニュー項目をカスタマイズしたい場合。
-読み込みオプションでコンテキスト メニュー項目の設定をサポートしています。
-例えば：
+
+# カスタムコンテキストメニュー
+ビルトインのコンテキストメニューアイテム（例：行/列の挿入/削除など）があります
+ただし、ユーザーがカスタムコンテキストメニューアイテムを使用したい場合は。
+ロードオプションでコンテキストメニューアイテムを設定するサポートを行っています。
+たとえば：
 ```javascript
         const onMyActionClick1 = (sheet) => {
             console.log('my action clicked1' +  sheet.data.name)
@@ -34,15 +35,15 @@ keywords: custom menu items, context menu
             })
 ```
 
-実行時のカスタム コンテキスト メニュー項目用に、以下の JS API をサポートしています。
+ランタイムでカスタムコンテキストメニューアイテムのために以下のJS APIをサポートしています
 
 
-- カスタム コンテキスト メニュー項目を取得する
+- カスタムコンテキストメニューアイテムを取得する
 ```javascript
 xs.sheet.getCustomContextMenuItems()
 ```
 
-- カスタム コンテキスト メニュー項目を追加する
+- カスタムコンテキストメニューアイテムを追加する
 ```javascript
 xs.sheet.addCustomContextMenuItems(itemsarray)
  // the parameter is:
@@ -50,7 +51,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'menu4','callback':(x)=>{console.log('hello4444');}},{'key':'key3','text':'menu3','callback':(x)=>{console.log('hello3333');}}]
 ```
 
-- カスタム コンテキスト メニュー項目を削除する
+- カスタムコンテキストメニューアイテムを削除する
 ```javascript
  xs.sheet.delCustomContextMenuItems(keysarray)()
  // the parameter is:
@@ -58,7 +59,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-- 指定した位置にカスタム コンテキスト メニュー項目を挿入する
+- 指定した位置にカスタムコンテキストメニューアイテムを挿入する
 ```javascript
 xs.sheet.insertCustomContextMenuItem(item,postion)
  // the parameter is:
@@ -67,7 +68,7 @@ xs.sheet.insertCustomContextMenuItem(item,postion)
  postion:the postion for the inserted item in the items array
 ```
 
-- キーでカスタム コンテキスト メニュー項目を更新する
+- キーによってカスタムコンテキストメニューアイテムを更新する
 ```javascript
 xs.sheet.updateCustomContextMenuItem(key,item)
  // the parameter is:
@@ -77,12 +78,12 @@ xs.sheet.updateCustomContextMenuItem(key,item)
 ```
 
 
-- 画像/形状のカスタム コンテキスト メニュー項目を取得する
+- 画像/図形のためのカスタムコンテキストメニューアイテムを取得する
 ```javascript
 xs.sheet.getImageContextMenuItems()
 ```
 
-- 画像/形状のカスタム コンテキスト メニュー項目を追加する
+- 画像/図形のためのカスタムコンテキストメニューアイテムを追加する
 ```javascript
 xs.sheet.addImageContextMenuItems(itemsarray)
  // the parameter is:
@@ -90,7 +91,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'img operation1','callback':(x)=>{console.log('operation1 on image');}},{'key':'key3','text':'img operation2','callback':(x)=>{console.log('operation2 on image');}}]
 ```
 
-- 画像/形状のカスタム コンテキスト メニュー項目を削除する
+- 画像/図形のためのカスタムコンテキストメニューアイテムを削除する
 ```javascript
  xs.sheet.delImageContextMenuItems(keysarray)()
  // the parameter is:
@@ -98,7 +99,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-詳細については、GitHub デモ ページ https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html をご覧ください。
+GitHubのデモページで詳細をご覧いただけます：https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
 
 
- 
+

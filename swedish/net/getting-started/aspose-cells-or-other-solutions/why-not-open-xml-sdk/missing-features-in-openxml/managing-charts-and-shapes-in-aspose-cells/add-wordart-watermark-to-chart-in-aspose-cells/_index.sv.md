@@ -1,28 +1,29 @@
-﻿---
-title: Lägg till WordArt Watermark i diagrammet i Aspose.Cells
+---
+title: Lägg till WordArt vattenstämpel på diagram i Aspose.Cells
 type: docs
 weight: 10
 url: /sv/net/add-wordart-watermark-to-chart-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Du kan använda WordArt för att lägga till speciella texteffekter i kalkylblad. Du kan till exempel sträcka ut en titel, dekorera text, få text att passa en förinställd form eller tillämpa den berörda texten på ett diagrams plotområde som en vattenstämpel. WordArt blir ett objekt som du kan flytta eller placera i dina kalkylblad för att lägga till dekoration.
+Du kan använda WordArt för att lägga till speciella texteffekter i kalkylblad. Till exempel, sträcka ut en titel, dekorera text, få text att passa en förinställd form, eller tillämpa den påverkade texten på ett diagramområde som en vattenstämpel. WordArt blir en objekt som du kan flytta eller positionera i dina kalkylblad för att lägga till dekoration.
 
 {{% /alert %}} 
 
-Följande exempel visar hur du lägger till en WordArt-form som en vattenstämpel för ett befintligt diagrams plotområde. I exemplet används en Excel-mall som redan innehåller diagrammet.
+Följande exempel visar hur man lägger till en WordArt-form som en vattenstämpel för ett befintligt diagram plottområde. Exemplet använder en mall för Excel-fil som redan innehåller diagrammet.
 
-**Inmatningsfilen** 
+**Ingångsfilen** 
 
 ![todo:image_alt_text](picture1.png)
 
-**Utdatafilen**
+**Utgångsfilen**
 
 ![todo:image_alt_text](picture2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 string FilePath = @"..\..\..\Sample Files\";
 
@@ -62,10 +63,10 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark%20to%20Chart)
 
-## **Ladda ner körningsexempel**
+## **Ladda ner exempel på körning**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

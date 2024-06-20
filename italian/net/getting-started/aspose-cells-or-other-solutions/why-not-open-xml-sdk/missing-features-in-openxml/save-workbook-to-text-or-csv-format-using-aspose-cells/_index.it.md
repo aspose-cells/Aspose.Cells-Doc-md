@@ -1,48 +1,49 @@
-﻿---
-title: Salva cartella di lavoro in formato testo o CSV utilizzando Aspose.Cells
+---
+title: Salva il foglio di lavoro in formato testo o CSV utilizzando Aspose.Cells
 type: docs
 weight: 80
 url: /it/net/save-workbook-to-text-or-csv-format-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-A volte, vuoi convertire o salvare una cartella di lavoro con più fogli di lavoro in formato testo. Per i formati di testo (ad esempio TXT, TabDelim, CSV ecc.), per impostazione predefinita sia Microsoft Excel che Aspose.Cells salvano solo il contenuto del foglio di lavoro attivo.
+A volte si desidera convertire o salvare un workbook con più fogli di lavoro in formato testo. Per i formati di testo (ad esempio TXT, TabDelim, CSV ecc.), sia Microsoft Excel che Aspose.Cells di default salvano solo i contenuti del foglio di lavoro attivo
 
 {{% /alert %}} 
 
-L'esempio di codice seguente spiega come salvare un'intera cartella di lavoro in formato testo. Carica la cartella di lavoro di origine che potrebbe essere qualsiasi file di foglio di calcolo Excel o OpenOffice Microsoft (quindi XLS, XLSX, XLSM, XLSB, ODS e così via) con qualsiasi numero di fogli di lavoro.
+L'esempio di codice seguente spiega come salvare un intero workbook in formato testo. Carica il workbook di origine che potrebbe essere un file di fogli di calcolo Microsoft Excel o OpenOffice (quindi XLS, XLSX, XLSM, XLSB, ODS e così via) con un qualsiasi numero di fogli di lavoro.
 
-Quando il codice viene eseguito, converte i dati di tutti i fogli nella cartella di lavoro nel formato TXT.
+Quando il codice viene eseguito, converte i dati di tutti i fogli del workbook nel formato TXT
 
-È possibile modificare lo stesso esempio per salvare il file in CSV. Per impostazione predefinita, TxtSaveOptions.Separator è una virgola, quindi non specificare un separatore se si salva nel formato CSV.
+È possibile modificare lo stesso esempio per salvare il file in CSV. Per impostazione predefinita, TxtSaveOptions.Separator è la virgola, quindi non specificare un separatore se si salva in formato CSV.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-string FilePath = @"..\..\..\File di esempio\";
+ string FilePath = @"..\..\..\Sample Files\";
 
-string FileName = FilePath + "Salva cartella di lavoro in testo o CSV Format.xlsx";
+string FileName = FilePath + "Save Workbook to Text or CSV Format.xlsx";
 
-string destFileName = FilePath + "Salva cartella di lavoro in testo o CSV Format.txt";
+string destFileName = FilePath + "Save Workbook to Text or CSV Format.txt";
 
-//Carica la cartella di lavoro di origine
+//Load your source workbook
 
-Cartella di lavoro cartella di lavoro = nuova cartella di lavoro(FileName);
+Workbook workbook = new Workbook(FileName);
 
-//array da 0 byte
+//0-byte array
 
-byte[]workbookData = nuovo byte[0];
+byte[] workbookData = new byte[0];
 
-// Opzioni di salvataggio del testo. È possibile utilizzare qualsiasi tipo di separatore
+//Text save options. You can use any type of separator
 
 TxtSaveOptions opts = new TxtSaveOptions();
 
 opts.Separator = '\t';
 
-//Copia i dati di ogni foglio di lavoro in formato testo all'interno dell'array di dati della cartella di lavoro
+//Copy each worksheet data in text format inside workbook data array
 
- per (int idx = 0; idx< workbook.Worksheets.Count; idx++)
+for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 
 {
 
@@ -80,5 +81,5 @@ File.WriteAllBytes(destFileName, workbookData);
 ## **Scarica il codice di esempio**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
 
-## **Scarica l'esempio di esecuzione**
+## **Scarica Esempio in Esecuzione**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

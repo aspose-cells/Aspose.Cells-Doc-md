@@ -1,29 +1,30 @@
-﻿---
-title: Right90 Försäljningsprognoser
+---
+title: Right90 Försäljningsprognos
 type: docs
 weight: 10
 url: /sv/net/right90-sales-forecasting/
 ---
+
 ## **Produktbakgrund**
 
-|![todo:image_alt_text](right90-sales-forecasting_1.png)|Right90 Sales Forecasting hjälper tillverkande företag att se och hantera förändringar i sina försäljningsprognoser. Right90 är intuitivt nog för alla att använda, och ger handlingskraftig insikt för att hjälpa chefer att vara uppmärksamma på förändringar, vara säkra på sitt antal och minska potentiella risker. Right90 levererar snabba resultat genom en flexibel, on-demand-plattform som påskyndar försäljningsanpassning och affärsvärde, samtidigt som risker och IT-infrastruktur minimeras.|
-|:- |:- |
+|![todo:image_alt_text](right90-sales-forecasting_1.png)|Right90 Sales Forecasting helps manufacturing companies see and manage changes to their sales forecasts. Right90 is intuitive enough for anyone to use, and provides actionable insight to help managers stay alert to changes, be confident of their number and reduce potential risks. Right90 delivers rapid results through a flexible, on-demand platform that accelerates sales adoption and business value, while minimizing risk and IT infrastructure.|
+| :- | :- |
 ## **Kravscenario**
-Många säljteam i tillverkningsföretag är mycket bekväma med att använda Excel för att fånga prognoser och har definierade processer med Excel som verktyg för insamling av prognosdata. Medan Right90 tillhandahåller ett enkelt men kraftfullt webbgränssnitt för att uppdatera, rulla upp och hantera ändringar av prognoser, ville vi också erbjuda ett sätt för våra tillverkande kunder att enkelt extrahera sin prognosinformation till Excel. Dessutom behövde vi också kunna spåra deras ändringar i den arbetsboken och tillåta dem att enkelt skicka in dessa ändringar tillbaka till vårt system för aggregerad bearbetning, sammanställning och analys. Som en affärsprognoslösning på begäran var Right90s högsta prioriteringar för Excel-integration prestanda och tillförlitlighet.
+Många säljteam inom tillverkningsföretag är mycket bekväma att använda Excel för att fånga prognoser och har definierade processer med hjälp av Excel som deras verktyg för insamling av prognosdata. Medan Right90 erbjuder en enkel men kraftfull webbgränssnitt för att uppdatera, rulla upp och hantera förändringar i prognoser, ville vi också ge våra tillverkningskunder möjlighet att enkelt extrahera sina prognosuppgifter till Excel. Dessutom var vi också tvungna att kunna spåra deras ändringar i den arbetsboken och låta dem enkelt skicka tillbaka dessa ändringar tillbaka till vårt system för aggregerad behandling, upprullning och analys. Som en kravbaserad företagsprognoslösning var Right90:s främsta prioriteringar för Excel-integration prestanda och tillförlitlighet.
 ## **Lösningsimplementering**
-Vi jämförde flera Excel-filgenereringsprodukter och valde att implementera vår lösning med Aspose.Cells. Beslutet att använda Aspose.Cells gjordes enkelt genom deras kortfattade samling av kodexempel, dokumentation och deras lyhörda kundsupport. Vi kör Aspose.Cells bakom en uppsättning webbtjänster i en webbapplikation med hög tillgänglighet och hög transaktion.
+Vi jämförde flera produkter för generering av Excel-filer och valde att implementera vår lösning med hjälp av Aspose.Cells. Beslutet att använda Aspose.Cells underlättades av deras koncisa samling av kodexempel, dokumentation och responsiv kundsupport. Vi kör Aspose.Cells bakom en uppsättning webbtjänster i en hög tillgänglighet, hög transaktions webbapplikation.
 ## **Fördelar**
- Vi använder följande Aspose.Cells-funktioner för att skapa rika Excel-kalkylblad för UI:
+Vi använder följande funktioner i Aspose.Cells för att skapa rika UI Excel-kalkylblad: 
 
-- Cell Formatering
-- Autofilter
+- Cellformat
+- Autofiltrar
 - Villkorlig formatering
-- Cell Kommentarer
+- Cellkommentarer
 - Infoga objekt (bilder)
 - Hyperlänkar
 ## **Slutsats**
 {{% alert color="primary" %}} 
 
-Aspose.Cells-komponenten gjorde det möjligt för oss att snabbt bygga och läsa Excel-arbetsböcker, vilket gav våra tillverkande kunder ytterligare ett enkelt och intuitivt sätt att fånga, uppdatera och samla sina försäljningsprognoser med Right90.
+Komponenten Aspose.Cells möjliggjorde snabbt att bygga och läsa Excel-arbetsböcker, vilket gav våra tillverkningskunder ännu ett enkelt och intuitivt sätt att fånga, uppdatera och rulla upp sina försäljningsprognoser med Right90.
 
 {{% /alert %}}

@@ -1,26 +1,27 @@
-﻿---
-title: Aspose.Cells のワークシートにワードアートの透かしを追加する
+---
+title: Aspose.Cellsでワードアートウォーターマークをワークシートに追加する
 type: docs
 weight: 20
 url: /ja/net/add-wordart-watermark-to-worksheet-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-ワードアートを使用して、スプレッドシートに特殊なテキスト効果を追加します。たとえば、タイトルをファイルの上部に引き延ばしたり、テキストを装飾したり、テキストをプリセットの形状に合わせたり、テキストを背景の透かしとして Excel シートに適用したりできます。ワードアートは、スプレッドシート内で移動または配置して装飾を追加できるオブジェクトになります。
+WordArtを使用してスプレッドシートに特殊なテキスト効果を追加できます。たとえば、タイトルをファイルの上に広げたり、テキストを装飾したり、テキストをプリセットの形状に合わせたり、Excelシートにテキストを背景ウォーターマークとして適用したりできます。WordArtは、スプレッドシートに追加するための移動や配置が可能なオブジェクトになります。
 
 {{% /alert %}}
 
-次の例は、ワードアート図形を追加して、ワークシートの背景の透かしを設定する方法を示しています。
+次の例では、ワークシートの背景ウォーターマークとしてワードアート形状を追加する方法を示します。
 
-コードを実行すると、出力ファイルに淡い赤色のワードアートの透かしが含まれます。
+コードを実行すると、出力ファイルには薄い赤色の WordArt ウォーターマークが含まれています。
 
 **出力ファイル** 
 
-![todo:画像_代替_文章](picture1.png)
+![todo:image_alt_text](picture1.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -68,8 +69,8 @@ workbook.Save(FileName);
 
 ## **サンプルコードをダウンロード**
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark)
 
-## **実行例をダウンロード**
+## **実行例のダウンロード**
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

@@ -1,38 +1,39 @@
-﻿---
-title: Karmaşık Kriterleri Karşılayan Kayıtları Görüntülemek için Microsoft Excel'in Gelişmiş Filtresini Uygulayın
+---
+title: Microsoft Excel İleri Filtresini Kullanarak Karmaşık Kriterleri Karşılayan Kayıtları Göstermek
 type: docs
 weight: 190
 url: /tr/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
 ---
+
 ## **Olası Kullanım Senaryoları**
- Microsoft Excel başvuru yapmanızı sağlar*Gelişmiş Filtre* karmaşık ölçütleri karşılayan kayıtları görüntülemek için çalışma sayfası verilerinde. Gelişmiş Filtre'yi Microsoft Excel ile uygulayabilirsiniz.*Veri > Gelişmiş*Bu ekran görüntüsünde gösterildiği gibi komut.
+Microsoft Excel, çalışma sayfası verilerinde karmaşık kriterlere uygun kayıtları göstermek için *İleri Filtre* uygulamanıza izin verir. Microsoft Excel ile *Veri > İleri* komutunu kullanarak İleri Filtre uygulayabilirsiniz. Bu ekran görüntüsünde gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_metin](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
+![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
 
-Aspose.Cells ayrıca Gelişmiş Filtreyi uygulamanıza olanak tanır.[Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\)) yöntem. Tıpkı Microsoft Excel gibi aşağıdaki parametreleri kabul eder.
+Aspose.Cells ayrıca [Worksheet.advancedFilter()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#advancedFilter\(boolean,%20java.lang.String,%20java.lang.String,%20java.lang.String,%20boolean\)) yöntemini kullanarak İleri Filtre uygulamanıza izin verir. Microsoft Excel gibi aşağıdaki parametreleri kabul eder.
 
-**isFiltre**
+**isFilter**
 
-Listeyi yerinde filtreleyip filtrelemediğini gösterir.
+Listeyi yerinde filtrelemenin belirtilip belirtilmediğini gösterir.
 
-**liste aralığı**
+**listRange**
 
 Liste aralığı.
 
-**Ölçüt aralığı**
+**criteriaRange**
 
 Kriter aralığı.
 
-**kopyala**
+**copyTo**
 
-Verilerin kopyalandığı aralık.
+Verilerin kopyalanacağı aralık.
 
-**Yalnızca benzersiz Kayıt**
+**uniqueRecordOnly**
 
-Yalnızca benzersiz satırları görüntüleme veya kopyalama.
-## **Karmaşık Kriterleri Karşılayan Kayıtları Görüntülemek için Microsoft Excel'in Gelişmiş Filtresini Uygulayın**
-Aşağıdaki örnek kod, üzerinde gelişmiş filtreyi uygular.[Örnek Excel Dosyası](48496702.xlsx) ve oluşturur[Çıktı Excel Dosyası](48496705.xlsx). Ekran görüntüsü, karşılaştırma için her iki dosyayı da gösterir. Ekran görüntüsünde görebileceğiniz gibi, çıktı Excel dosyasında veriler karmaşık kriterlere göre filtrelenmiştir.
+Yalnızca benzersiz satırların gösterimi veya kopyalanması.
+## **Karmaşık Kriterleri Karşılayan Kayıtları Göstermek İçin Microsoft Excel'in İleri Filtresini Uygulayın**
+Aşağıdaki örnek kod, [Örnek Excel Dosyası](48496702.xlsx) üzerinde İleri Filtre uygular ve [Çıkış Excel Dosyası](48496705.xlsx) oluşturur. Ekran görüntüsü, karşılaştırma amaçlı her iki dosyayı gösterir. Ekran görüntüsünde de görebileceğiniz gibi, veriler çıkış Excel dosyasında karmaşık kriterlere göre filtrelenmiştir.
 
-![yapılacaklar:resim_alternatif_metin](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
-## **Basit kod**
+![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ApplyAdvancedFilterOfMicrosoftExcel.java" >}}

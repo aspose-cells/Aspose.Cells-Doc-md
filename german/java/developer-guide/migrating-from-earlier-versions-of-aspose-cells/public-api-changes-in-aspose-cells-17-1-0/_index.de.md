@@ -1,45 +1,46 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 17.1.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 17.1.0
 type: docs
 weight: 380
 url: /de/java/public-api-changes-in-aspose-cells-17-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 16.12.0 zu 17.1.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 16.12.0 auf 17.1.0, die für Modulentwickler/Anwendungs-Entwickler interessant sein könnten. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung etwaiger Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Unterstützung für Excel 2016-Diagramme**
-Aspose.Cells APIs haben die Unterstützung für einige Excel 2016-Diagramme hinzugefügt, indem sie die ChartType-Enumeration erweitert haben. Die folgenden neuen Felder wurden mit der Veröffentlichung von Aspose.Cells 17.1.0 hinzugefügt.
+## **Hinzugefügte APIs**
+### **Unterstützung für Excel 2016 Diagramme**
+Aspose.Cells APIs haben die Unterstützung für einige Excel 2016 Diagramme hinzugefügt, indem sie die ChartType-Enumeration verbessert haben. Mit der Veröffentlichung von Aspose.Cells 17.1.0 wurden folgende neue Felder hinzugefügt.
 
-- ChartType.BOX_WHISKER: Die Reihe wird als Box und Whisker angelegt.
-- ChartType.FUNNEL: Die Reihe ist als Trichter angelegt.
-- ChartType.PARETO_LINE: Die Reihe wird als Pareto-Linien angelegt.
-- ChartType.SUNBURST: Die Serie ist als Sunburst angelegt.
-- ChartType.TREEMAP: Die Serie wird als Treemap angelegt.
-- ChartType.WATERFALL: Die Reihe wird als Wasserfall angelegt.
-- ChartType.HISTOGRAM: Die Reihe wird als Histogramm dargestellt.
+- ChartType.BOX_WHISKER: Die Serie ist als Box- und-Whisker-Diagramm angelegt.
+- ChartType.FUNNEL: Die Serie ist als Trichterdiagramm angelegt.
+- ChartType.PARETO_LINE: Die Serie ist als Pareto-Linien angelegt.
+- ChartType.SUNBURST: Die Serie ist als Sonnenstrahl-Diagramm angelegt.
+- ChartType.TREEMAP: Die Serie ist als TreeMap-Diagramm angelegt.
+- ChartType.WATERFALL: Die Serie ist als Wasserfalldiagramm angelegt.
+- ChartType.HISTOGRAM: Die Serie ist als Histogramm angelegt.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Diagrammtypen in Excel 2016 lesen](/cells/de/java/read-and-manipulate-excel-2016-charts/)
+Prüfen Sie den ausführlichen Artikel zu [Lesen von Excel 2016 Diagrammtypen](/cells/de/java/lesen-und-manipulieren-von-excel-2016-diagrammen/)
 
 {{% /alert %}} 
-### **Setter für LoadFilter.LoadDataFilterOptions-Eigenschaft hinzugefügt**
-Aspose.Cells 17.1.0 hat Setter für die Eigenschaft LoadFilter.LoadDataFilterOptions hinzugefügt, um die Instanzvariable m_LoadDataFilterOptions zu ersetzen. Benutzer können die LoadDataFilterOptions-Eigenschaft in ihrer eigenen Implementierung der LoadFilter-Klasse ändern, um das Verhalten beim Laden von Vorlagendateien zu ändern.
+### **Hinzugefügter Setter für LoadFilter.LoadDataFilterOptions Eigenschaft**
+Aspose.Cells 17.1.0 hat einen Setter für die LoadFilter.LoadDataFilterOptions-Eigenschaft hinzugefügt, um die Instanzvariable m_LoadDataFilterOptions zu ersetzen. Benutzer können die LoadDataFilterOptions-Eigenschaft in ihrer eigenen Implementierung der LoadFilter-Klasse ändern, um das Ladeverhalten von Vorlagendateien zu ändern.
 
-Hier ist ein einfaches Nutzungsszenario.
+Hier ist ein einfaches Anwendungsbeispiel.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Benutzerdefinierte Vorlagenfilterung](/cells/de/java/filter-objects-while-loading-workbook-or-worksheet/)
+Prüfen Sie den ausführlichen Artikel zu [Benutzerdefinierter Vorlagenfilterung](/cells/de/java/filter-objekte-beim-laden-einer-arbeitsmappe-oder-arbeitsblatts/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomLoadFilter extends LoadFilter {
 
@@ -74,39 +75,39 @@ Hier ist ein einfaches Nutzungsszenario.
 }
 
 {{< /highlight >}}
-### **CellsHelper.SignificantDigits-Eigenschaft hinzugefügt**
-Aspose.Cells 17.1.0 hat die SignificantDigits-Eigenschaft der CellsHelper-Klasse verfügbar gemacht, die es ermöglicht, die Anzahl signifikanter Stellen für numerische Werte in einer Tabelle abzurufen oder festzulegen. Der Standardwert der Eigenschaft CellsHelper.SignificantDigits ist 17, wobei er nur anwendbar ist, wenn das Ergebnis im Dateiformat XLSX gespeichert werden muss.
+### **Hinzugefügte CellsHelper.SignificantDigits Eigenschaft**
+Aspose.Cells 17.1.0 hat die SignificantDigits-Eigenschaft aus der CellsHelper-Klasse freigelegt, die es erlaubt, die Anzahl der signifikanten Stellen für numerische Werte in einer Tabellenkalkulation zu erhalten oder festzulegen. Der Standardwert der CellsHelper.SignificantDigits-Eigenschaft beträgt 17 und ist nur anwendbar, wenn das Ergebnis im XLSX-Dateiformat gespeichert werden soll.
 
-Hier ist ein einfaches Szenario, um die Verwendung der Eigenschaft CellsHelper.SignificantDigits zu demonstrieren.
+Hier ist ein einfaches Szenario zur Demonstration der Verwendung der CellsHelper.SignificantDigits-Eigenschaft.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Einstellen der Anzahl signifikanter Stellen](/cells/de/java/specifying-significant-digits-to-be-stored-in-excel-file/)
+Prüfen Sie den ausführlichen Artikel zu [Festlegen der Anzahl der signifikanten Stellen](/cells/de/java/festlegen-der-anzahl-der-signifikanten-stellen-die-in-einer-excel-datei-gespeichert-werden-sollen/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the number of significant digits
 
 CellsHelper.setSignificantDigits(15);
 
 {{< /highlight >}}
-### **GlowEffect.Color-Eigenschaft hinzugefügt**
-Aspose.Cells 17.1.0 hat die Eigenschaft GlowEffect.Color hinzugefügt, die verwendet werden kann, um die Farbe des Glüheffekts abzurufen.
+### **Hinzugefügtes GlowEffect.Color-Eigenschaft**
+Aspose.Cells 17.1.0 hat die GlowEffect.Color-Eigenschaft hinzugefügt, die zur Abrufung der Farbe des Leuchteffekts verwendet werden kann.
 
-Das folgende Snippet verwendet die GlowEffect.Color-Eigenschaft.
+Der folgende Ausschnitt verwendet die GlowEffect.Color-Eigenschaft.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Lesen der Leuchtfarbe der Form](/cells/de/java/read-color-of-the-shape-s-glow-effect/)
+Lesen Sie den ausführlichen Artikel über [das Lesen der Glow-Farbe der Form](/cells/de/java/read-color-of-the-shape-s-glow-effect/)
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Read the source Excel file
 
@@ -127,26 +128,26 @@ GlowEffect glow = shape.getGlow();
 CellsColor color = glow.getColor();
 
 {{< /highlight >}}
-### **PageSetup.PaperWidth- und PaperHeight-Eigenschaften hinzugefügt**
-Aspose.Cells 17.1.0 hat die PaperWidth- und PaperHeight-Eigenschaften für die PageSetup-Klasse verfügbar gemacht. Die Eigenschaften PageSetup.PaperWidth und PageSetup.PaperHeight sind vom Typ Double und repräsentieren die Papierbreite und -höhe in der Einheit Zoll, wobei die Seitenausrichtung berücksichtigt wird.
+### **Hinzugefügte PaperWidth- & PaperHeight-Eigenschaften für PageSetup**
+Aspose.Cells 17.1.0 hat die PaperWidth- und PaperHeight-Eigenschaften für die PageSetup-Klasse freigegeben. Die PaperWidth- und PaperHeight-Eigenschaften von PageSetup sind vom Typ double und repräsentieren die Papierbreite und -höhe in Zoll, unter Berücksichtigung der Seitenorientierung.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Abrufen der Papiergröße des Arbeitsblatts](/cells/de/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
+Lesen Sie den ausführlichen Artikel über [das Abrufen der Papiergröße des Arbeitsblatts](/cells/de/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
 
 {{% /alert %}} 
-### **WorkbookSettings.CheckCustomNumberFormat-Eigenschaft hinzugefügt**
-Aspose.Cells 17.1.0 hat die CheckCustomNumberFormat-Eigenschaft zur WorkbookSettings-Klasse hinzugefügt. Das CheckCustomNumberFormat ist nützlich, um zu überprüfen, ob die Style.Custom-Eigenschaft richtig festgelegt wurde oder nicht. Falls die Style.Custom-Eigenschaft falsch eingestellt wurde, das heißt; Der Wert entspricht keinem gültigen Muster, dann lösen die Aspose.Cells-APIs CellsException mit der entsprechenden Meldung aus.
+### **Hinzugefügtes CheckCustomNumberFormat-Eigenschaft für WorkbookSettings**
+Aspose.Cells 17.1.0 hat die CheckCustomNumberFormat-Eigenschaft für die WorkbookSettings-Klasse hinzugefügt. Die CheckCustomNumberFormat ist nützlich, um zu überprüfen, ob die Style.Custom-Eigenschaft ordnungsgemäß festgelegt wurde oder nicht. Falls die Style.Custom-Eigenschaft auf unkorrekte Weise festgelegt wurde, d.h. der Wert nicht dem gültigen Muster entspricht, werden die Aspose.Cells-APIs eine CellsException mit entsprechender Meldung auslösen.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Überprüfen des benutzerdefinierten Formulars](/cells/de/java/check-custom-number-format-when-setting-style-custom-property/)
+Lesen Sie den ausführlichen Artikel über [die Überprüfung des benutzerdefinierten Formats](/cells/de/java/check-custom-number-format-when-setting-style-custom-property/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -183,8 +184,8 @@ style.setCustom("ggg @ fff");
 cell.setStyle(style);
 
 {{< /highlight >}}
-### **DisplayUnitType.PERCENTAGE-Feld hinzugefügt**
-Aspose.Cells 17.1.0 hat auch das PERCENTAGE-Feld für die DisplayUnitType-Enumeration verfügbar gemacht. Das Feld DisplayUnitType.PERCENTAGE gibt an, dass die Werte im Diagramm durch 0,01 geteilt werden sollen.
+### **Hinzugefügtes PERCENTAGE-Feld für DisplayUnitType**
+Aspose.Cells 17.1.0 hat auch das PERCENTAGE-Feld für die DisplayUnitType-Aufzählung freigegeben. Das DisplayUnitType.PERCENTAGE-Feld gibt an, dass die Werte auf dem Diagramm durch 0,01 dividiert werden sollen.
 ## **Entfernte APIs**
-### **Instanzvariable m_LoadDataFilterOptions entfernt**
-In dieser Version wurde die Instanzvariable m_LoadDataFilterOptions entfernt. Es wird empfohlen, stattdessen die Eigenschaft LoadFilter.LoadDataFilterOptions zu verwenden.
+### **Instanzvariable m_LoadDataFilterOptions wurde entfernt**
+In diesem Release wurde die Instanzvariable m_LoadDataFilterOptions entfernt. Es wird empfohlen, stattdessen die LoadFilter.LoadDataFilterOptions-Eigenschaft zu verwenden.

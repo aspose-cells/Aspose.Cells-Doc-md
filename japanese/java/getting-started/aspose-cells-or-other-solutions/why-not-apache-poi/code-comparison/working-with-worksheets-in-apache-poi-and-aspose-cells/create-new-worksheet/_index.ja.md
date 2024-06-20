@@ -1,15 +1,16 @@
-﻿---
+---
 title: 新しいワークシートを作成
 type: docs
 weight: 10
 url: /ja/java/create-new-worksheet/
 ---
-## **Aspose.Cells - 新しいワークシートの作成**
-ワークブックへのワークシートの追加
+
+## **Aspose.Cells - 新しいワークシートを作成**
+ワークブックにワークシートを追加する
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -26,12 +27,12 @@ Worksheet worksheet = worksheets.add("My Worksheet");
 workbook.save("newWorksheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - 新しいワークシートの作成**
-ワークブックへのワークシートの追加
+## **Apache POI SS - HSSF XSSF - 新しいワークシートを作成**
+ワークブックにワークシートを追加する
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook(); // or new XSSFWorkbook();
 
@@ -77,7 +78,7 @@ fileOut.close();
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/createnewworksheet)

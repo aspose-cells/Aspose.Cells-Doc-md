@@ -1,17 +1,18 @@
-﻿---
-title: Intestazione e piè di pagina
+---
+title: Intestazioni e piè di pagina
 type: docs
 weight: 60
 url: /it/java/header-and-footers/
 ---
-## **Aspose.Cells - Intestazione e piè di pagina**
-La classe PageSetup fornisce il metodo setHeader per aggiungere un'intestazione e setFooter per aggiungere un piè di pagina a un foglio di lavoro. Lo script viene utilizzato come argomento per tutti i metodi sopra menzionati. Rappresenta lo script da utilizzare per l'intestazione o il piè di pagina.
+
+## **Aspose.Cells - Intestazioni e piè di pagina**
+La classe PageSetup fornisce il metodo setHeader per aggiungere un'intestazione e setFooter per aggiungere un piè di pagina a un foglio di lavoro. Lo script è utilizzato come argomento per tutti i metodi sopra citati. Rappresenta lo script da utilizzare per l'intestazione o il piè di pagina.
 
 **Intestazione**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the PageSetup of the worksheet
 
@@ -33,11 +34,11 @@ pageSetup.setHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
 {{< /highlight >}}
 
-**Piè di pagina**
+**Piede di pagina**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Setting a string at the left footer and changing the font of the footer
 
@@ -49,7 +50,7 @@ pageSetup.setFooter(1, "&G");
 
 FileInputStream fis = new FileInputStream("data/footer.png");
 
-byte[]picData = new byte[fis.available()];
+byte[] picData = new byte[fis.available()];
 
 fis.read(picData);
 
@@ -62,12 +63,12 @@ fis.close();
 pageSetup.setFooter(2, "&Pof&N");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Intestazione e piè di pagina**
-La classe di intestazione è disponibile per regolare l'intestazione nei fogli di calcolo.
+## **Apache POI SS - HSSF XSSF - Intestazioni e piè di pagina**
+La classe Intestazione è disponibile per regolare l'intestazione nei fogli di calcolo.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Header header = sheet.getHeader();
 
@@ -81,12 +82,12 @@ header.setRight(HSSFHeader.font("Stencil-Normal", "Italic") +
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/headerandfooter)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/headerandfooter)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Impostazione di intestazioni e piè di pagina](/java/setting-headers-and-footers).
+Per ulteriori dettagli, visitare [Impostazione Intestazioni e Piè di Pagina](/java/setting-headers-and-footers).
 
 {{% /alert %}}

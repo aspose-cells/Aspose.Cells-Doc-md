@@ -1,18 +1,19 @@
-﻿---
-title: Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Hesap Tablosunu Okuyun
+---
+title: Aspose.Cells tarafından geliştirilen Numbers Elektronik Tablo Uygulamasını Oku ve Apple Inc. tarafından geliştirildi.
 type: docs
 weight: 140
 url: /tr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Numbers, Apple Inc. tarafından geliştirilen bir elektronik tablo uygulamasıdır. Aspose.Cells, Numbers elektronik tablosunu okuyabilir ancak ona yazmayı desteklemez. Numbers elektronik tablosunun Verilerini, Stilini ve Formüllerini okuyabilir.
+Numbers, Apple Inc. tarafından geliştirilen bir elektronik tablo uygulamasıdır. Aspose.Cells Numbers elektronik tablosunu okuyabilir ancak ona yazma desteği sunmaz. Numbers elektronik tablosunun Veri, Stil ve Formülleri okuyabilir.
 
-## **Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Hesap Tablosunu Okuyun**
+## **Numbers Elektronik Tablosu, Apple Inc. tarafından geliştirildi.**
 
- Aşağıdaki örnek kod,[Örnek Numbers Elektronik Tablo](sampleNumbersByAppleInc.numbers) ve onu dönüştürür[Çıktı PDF Formatı](outputNumbersByAppleInc.pdf) . kullanmak zorunda kalacaksın**[Yükleme Seçenekleri](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** sınıflandır ve belirt**[LoadFormat.Numbers](https://reference.aspose.com/cells/net/aspose.cells/loadformat)**başarıyla yüklemek için yapıcısında bir parametre olarak. Lütfen ikisini de verilen bağlantılardan indirin. Kodu herhangi bir Numbers e-tablosu ile deneyebilirsiniz. Lütfen daha fazla yardım için kodun yorumlarını da okuyun.
+Aşağıdaki örnek kod, [Örnek Numbers Elektronik Tablosu](sampleNumbersByAppleInc.numbers)'u yükler ve onu [Çıktı PDF Formatı](outputNumbersByAppleInc.pdf)'na dönüştürür. Başarılı bir yükleme için [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) sınıfını kullanmalısınız ve başarıyla yüklenmesi için onu kurucu metodunda [**LoadFormat.Numbers**](https://reference.aspose.com/cells/net/aspose.cells/loadformat) olarak belirtmelisiniz. Lütfen verilen bağlantılardan her ikisini de indirin. Kodu herhangi bir Numbers elektronik tablosu ile deneyebilirsiniz. Daha fazla yardım için kodun yorumlarını da okuyun.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ReadNumbersSpreadsheet.cs" >}}
 

@@ -1,15 +1,16 @@
-﻿---
-title: Konvertieren von Excel in PDF-Dateien in Ruby
+---
+title: Konvertierung von Excel in PDF Dateien in Ruby
 type: docs
 weight: 30
 url: /de/java/converting-excel-to-pdf-files-in-ruby/
 ---
-## **Aspose.Cells – Konvertieren von Excel in PDF-Dateien**
-Um Excel mit Aspose.Cells for Java in Ruby in eine PDF-Datei zu konvertieren, rufen Sie einfach Excel auf_zu_pdf()-Methode des Converter-Moduls.
+
+## **Aspose.Cells - Konvertierung von Excel in PDF-Dateien**
+Um Excel mit Aspose.Cells for Java in Ruby in eine Pdf-Datei zu konvertieren, rufen Sie einfach die Methode excel_to_pdf() des Converter-Moduls auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def excel_to_pdf(workbook)
 
@@ -24,7 +25,7 @@ Um Excel mit Aspose.Cells for Java in Ruby in eine PDF-Datei zu konvertieren, ru
 end 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Konvertieren von Excel in PDF-Dateien (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie die **Konvertierung von Excel in PDF-Dateien (Aspose.Cells)** von einer der unten genannten sozialen Codierungsseiten herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

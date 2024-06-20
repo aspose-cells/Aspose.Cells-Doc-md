@@ -1,26 +1,27 @@
-﻿---
-title: Formatera ett listobjekt - tabell
+---
+title: Formatera ett Listobjekt  Tabell
 type: docs
 weight: 50
 url: /sv/java/format-a-list-object-table/
 ---
+
 {{% alert color="primary" %}}
 
-För att hantera och analysera en grupp relaterade data är det möjligt att förvandla ett cellintervall till ett listobjekt (även känt som en Excel-tabell). En tabell är en serie rader och kolumner som innehåller relaterade data som hanteras oberoende av data i andra rader och kolumner. Som standard har varje kolumn i tabellen filtrering aktiverad i rubrikraden så att du snabbt kan filtrera eller sortera dina listobjektdata. Du kan lägga till en totalrad (en speciell rad i en lista som ger ett urval av aggregerade funktioner som är användbara för att arbeta med numerisk data) till listobjektet som tillhandahåller en rullgardinslista med aggregerade funktioner för varje total radcell. Aspose.Cells ger alternativ för att skapa och hantera listor (eller tabeller).
+För att hantera och analysera en grupp relaterade data är det möjligt att göra om ett cellområde till ett listobjekt (även känt som en Exceltabell). En tabell är en serie rader och kolumner som innehåller relaterade data som hanteras oberoende från data i andra rader och kolumner. Som standard har varje kolumn i tabellen filtrering aktiverat i rubrikraden så att du snabbt kan filtrera eller sortera dina listobjektdata. Du kan lägga till en totalrad (en specialrad i en lista som ger ett urval av aggregeringsfunktioner som är användbara för att arbeta med numeriska data) till listobjektet som ger en rullista med aggregeringsfunktioner för varje cell i totalraden. Aspose.Cells tillhandahåller alternativ för att skapa och hantera listor (eller tabeller).
 
 {{% /alert %}}
 
-## **Formatera ett listobjekt**
+## **Formatera ett Listobjekt**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass innehåller en[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)samling som ger åtkomst till varje kalkylblad i en Excel-fil.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)klassen innehåller en [**Worksheets**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)samling som ger åtkomst till varje arbetsblad i en Excel-fil.
 
- Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. Att skapa en[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) i ett kalkylblad, använd[**Listobjekt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ListObjects) samling egendom av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass. Varje[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) är i själva verket ett föremål för[**ListObjectCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/listobjectcollection)klass, som vidare tillhandahåller add-metoden för att lägga till ett List-objekt och specificera cellintervallet det ska omfatta. Enligt det specificerade cellområdet, a[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) skapas i kalkylbladet av Aspose.Cells. Använd attribut (t.ex.[**TableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#TableStyleType) ) av[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)klass för att formatera tabellen för ditt krav.
+Ett arbetsblad representeras av [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)klassen. [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)Klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera arbetsblad. För att skapa ett [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)i ett arbetsblad, använd [**ListObjects**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ListObjects)samlingsegenskapen i [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)klassen. Varje [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)är faktiskt ett objekt av [**ListObjectCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/listobjectcollection)klassen, som vidare tillhandahåller add-metoden för att lägga till ett listobjekt och ange det område av celler det bör omfatta.
 
- Exemplet nedan lägger till exempeldata till ett kalkylblad, lägger till en[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) och tillämpar standardstilar på den.[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)stilar stöds av Microsoft Excel 2007/2010.
+I det följande exemplet läggs provdata till ett arbetsblad, ett [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)läggs till och standardformat tillämpas på det. [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)format stöds av Microsoft Excel 2007/2010.
 
-Följande utdata genereras när koden exekveras.
+Följande resultat genereras när koden körs.
 
-**En formaterad tabell skapas i kalkylbladet** 
+**En formaterad tabell skapas i arbetsbladet** 
 
 ![todo:image_alt_text](format-a-list-object-table_1.png)
 

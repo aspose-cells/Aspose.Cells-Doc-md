@@ -1,36 +1,37 @@
 ---
-title: Lägg till beräknat fält i pivottabellen
+title: Lägg till beräknat fält i pivottabell
 type: docs
 weight: 130
 url: /sv/python-net/add-calculated-field-in-pivot-table/
-description: Hur man lägger till ett beräknat fält i pivottabellen med Aspose.Cells for Python via .NET.
-keywords: Adding a calculated field in pivot table.
+description: Hur man lägger till ett beräknat fält i pivot tabell med Aspose.Cells för Python via .NET.
+keywords: Aspose.Cells för Python Excel, Excel Python bibliotek, Lägga till ett beräknat fält i pivot tabell med Python Excel Library.
 ---
-##  **Möjliga användningsscenarier**
-När du skapar en pivottabell baserad på känd data, upptäcker du att data i den inte är vad du vill ha. Datan du vill ha är kombinationen av dessa originaldata. Till exempel måste du addera, subtrahera, multiplicera och dividera originaldata innan du vill ha data. Vid denna tidpunkt måste du bygga ett beräknat fält och ställa in motsvarande formel för beräkning. Utför sedan lite statistik och andra operationer på det beräknade fältet.
 
-##  **Lägg till beräknat fält i pivottabell i Excel**
-Infoga ett beräknat fält i en pivottabell i Excel, följ dessa steg:
+## **Möjliga användningsscenario**
+När du skapar en pivottabell baserad på kända data finner du att datan i den inte är det du vill ha. Den data du vill ha är kombinationen av denna ursprungliga data. Till exempel behöver du lägga till, subtrahera, multiplicera och dividera den ursprungliga datan innan du vill ha datan. Vid den här tiden behöver du bygga ett beräknat fält och ställa in motsvarande formel för beräkning. Utför sedan vissa statistik och andra operationer på det beräknade fältet. 
 
-1.  Välj den pivottabell som du vill lägga till ett beräknat fält till.
-2. Gå till fliken Pivottabellanalys på menyfliksområdet.
-3. Klicka på "Fält, objekt och uppsättningar" och välj sedan "Beräknat fält" från rullgardinsmenyn.
+## **Hur man lägger till beräknat fält i pivot-tabell i Excel**
+Så här lägger du till ett beräknat fält i en pivot-tabell i Excel, följ dessa steg:
+
+1. Välj pivottabellen som du vill lägga till ett beräknat fält i. 
+2. Gå till fliken Pivottabell analysera på menyfliken.
+3. Klicka på "Fält, artiklar och uppsättningar" och välj sedan "Beräknat fält" i rullgardinsmenyn.
 4. I fältet "Namn" anger du ett namn för det beräknade fältet.
-5. I fältet "Formel" anger du formeln för den beräkning du vill utföra med hjälp av lämpliga pivottabellfältnamn och matematiska operatorer.
+5. I fältet "Formel" anger du formeln för beräkningen du vill utföra med hjälp av lämpliga PivotTable-fältnamn och matematiska operatorer. 
 <br>
 <img src="1.png" width=80% />
 6. Klicka på "ok" för att skapa det beräknade fältet.
-7. Det nya beräknade fältet kommer att visas i Pivottabellfältlistan under avsnittet Värden.
-8. Dra det beräknade fältet till avsnittet Värden i pivottabellen för att visa de beräknade värdena.
+7. Det nya beräknade fältet kommer att visas i PivotTable Field List under avsnittet Värden.
+8. Dra det beräknade fältet till värdesektionen i PivotTable för att visa de beräknade värdena.
 <br>
 <img src="2.png" width=80% />
 
-##  **Lägg till beräknat fält i pivottabellen med C#**
-Lägg till beräknat fält i Excel-fil med Aspose.Cells for Python via .NET. Se följande exempelkod. Efter exekvering av exempelkoden läggs en pivottabell med beräknat fält till i kalkylbladet.
-1.  Ställ in originaldata och skapa en pivottabell.
-2. Skapa det beräknade fältet enligt det befintliga pivotfältet i pivottabellen.
- 3. Lägg till det beräknade fältet i dataområdet.
- 4. Slutligen sparar den arbetsboken i[utgång XLSX](out.xlsx) formatera.
+## **Hur man lägger till ett beräknat fält i pivot-tabell med Aspose.Cells för Python Excel Library**
+Lägg till beräknat fält i Excel-fil med Aspose.Cells för Python via .NET. Se följande exempelkod. Efter att exempelkoden har utförts, läggs en pivot-tabell med beräknat fält till kalkylarket.
+1. Ange originaldata och skapa en pivot-tabell. 
+2. Skapa det beräknade fältet enligt det befintliga PivotField i pivot-tabellen.
+3. Lägg till det beräknade fältet i dataområdet. 
+4. Slutligen sparas arbetsboken i [utdata XLSX](ut.xlsx)-format. 
 
-##  **Exempelkod**
+## **Exempelkod**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-Add-calculated-field-in-PivotTable.py" >}}

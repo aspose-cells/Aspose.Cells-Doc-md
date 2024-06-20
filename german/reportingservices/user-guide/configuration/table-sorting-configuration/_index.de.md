@@ -1,17 +1,18 @@
-﻿---
-title: Konfiguration der Tabellensortierung
+---
+title: Tabellensortierung Konfiguration
 type: docs
 weight: 90
 url: /de/reportingservices/table-sorting-configuration/
 ---
-Die Konfiguration umfasst 5 Arten von Eigenschaften. Dazu gehören Berichtsname, Tabellenname, Zeilenoffsetwert, Spaltenindex und Auftragstyp.
 
-- **Name** stellt Berichtsname und Tabellenname dar. name steht für den gesamten Bericht, wenn name leer ist.
-- **Wert** stellt den Zeilenoffset dar.
-- **Index** stellt die Spaltenposition in der Tabelle dar.
-- **Befehl** stellt den Sortierreihenfolgetyp dar.
+Die Konfiguration umfasst 5 Arten von Eigenschaften. Diese umfassen Berichtsnamen, Tabellennamen, Zeilenversatzwert, Spaltenindex und Sortiertyp.
 
-TableSorted-Konfigurationsbeispiel:
+- **name** repräsentiert Berichtsnamen und Tabellennamen. name repräsentiert den gesamten Bericht, wenn name leer ist.
+- **value** repräsentiert Zeilenversatz.
+- **Index** repräsentiert die Spaltenposition in der Tabelle.
+- **Order** repräsentiert den Sortiertyp.
+
+Tabellensortierung Konfigurationsbeispiel:
 
 *<TableSorted>
 <Report name=”report name” >

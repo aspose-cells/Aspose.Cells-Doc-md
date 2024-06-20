@@ -2,20 +2,22 @@
 title: özel yerelleştirme
 type: docs
 weight: 40
-url: /tr/net/griddesktop-localization/
-keywords: custom,localization,translation,globalization
+url: /tr/net/aspose-cells-griddesktop/griddesktop-localization/
+keywords: GridDesktop,özel,yerelleştirme,çeviri,küreselleştirme
+description: Bu makale, GridDesktop ta yerelleştirmeyi nasıl özelleştireceğinizi tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-GridDesktop'taki tüm menüler/mesaj ipuçları vb. için yerelleştirme yapmamız gerekiyorsa, kaynak dosyasını tanımlayabiliriz ve bu kaynağı yüklemek için GridDesktop.SetCustomResourceManager'ı kullanabiliriz.
+GridDesktop'ta tüm menüler/mesaj ipuçları vb. için yerelleştirme yapmamız gerekiyorsa, kaynak dosyasını tanımlayabilir ve GridDesktop.SetCustomResourceManager'ı bu kaynağı yüklemek için kullanabiliriz.
 
 {{% /alert %}} 
-##  **örnek**
+## **örnek**
 
-önce yeni bir kaynak dosyası ekleyin:customtest.resx
+Öncelikle yeni bir kaynak dosyası ekleyin: customtest.resx
 
 
-![özel kaynak](managing-griddesktops-custom-res.png)
+![custom-resource](managing-griddesktops-custom-res.png)
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-customtest.Designer.cs" >}}
 
@@ -27,7 +29,7 @@ GridDesktop'taki tüm menüler/mesaj ipuçları vb. için yerelleştirme yapmam�
    gridDesktop1.SetCustomResourceManager(rm);
 ```
 
-Yukarıdaki kodu çalıştırdıktan sonra menü öğeleri şunu gösterir:
+Yukarıdaki kodu çalıştırdıktan sonra, menü öğeleri gösterilir:
 
-![menüyü göster](managing-griddesktops-show-custom.png)
- 
+![show menu](managing-griddesktops-show-custom.png)
+

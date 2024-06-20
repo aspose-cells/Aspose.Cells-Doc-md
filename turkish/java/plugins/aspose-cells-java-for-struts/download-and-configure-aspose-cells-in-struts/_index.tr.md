@@ -1,19 +1,20 @@
-﻿---
-title: Struts'ta Aspose.Cells'i İndirin ve Yapılandırın
+---
+title: Aspose.Cells ı Struts ta İndirme ve Yapılandırma
 type: docs
 weight: 10
 url: /tr/java/download-and-configure-aspose-cells-in-struts/
 ---
-- 
-## **Kaynak Kodlarından Struts 1.3 için Bina Aspose.Cells Java**
-Yukarıdaki depolardan herhangi birindeki kaynak kodlarını kontrol ettikten sonra, aşağıdaki mvn komutlarını uygulayın:
 
-{{< highlight "java" >}}
+- 
+## **Struts 1.3 için Aspose.Cells Java'yı Kaynak Kodlarından Oluşturma**
+Yukarıdaki herhangi bir depodan kaynak kodları kontrol ettikten sonra aşağıdaki mvn komutlarını uygulayın:
+
+{{< highlight java >}}
 
  $ mvn -U clean package 
 
 {{< /highlight >}}
 
-Bu, hedef alıcıda "Strutsbookapp.war" oluşturacaktır.
+Bu, "Strutsbookapp.war" dosyasını hedef klasöre oluşturacaktır.
 
-.war dosyasını konuşlandırmak için dosyayı çalışan Apache Tomcat sunucusu webapp dizinine kopyalamanız yeterlidir.
+.war dosyasını dağıtmak için sadece Apache tomcat sunucusunun web uygulama dizinine kopyalayın.

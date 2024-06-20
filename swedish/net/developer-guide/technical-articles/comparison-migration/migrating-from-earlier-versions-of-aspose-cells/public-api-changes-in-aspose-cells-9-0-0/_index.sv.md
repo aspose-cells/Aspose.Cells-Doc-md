@@ -1,23 +1,24 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 9.0.0
+---
+title: Offentliga API ändringar i Aspose.Cells 9.0.0
 type: docs
 weight: 330
 url: /sv/net/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.9.2 till 9.0.0 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringarna i Aspose.Cells API från version 8.9.2 till 9.0.0 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser osv., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Lade till Shape.TextOptions-egenskap**
-Aspose.Cells for .NET har exponerat egenskapen TextOptions för Shape-klassen för att kontrollera utseendet på textdelar av en Shape.
+## **Tillagda API:er**
+### **Tillagd Shape.TextOptions-egenskap**
+Aspose.Cells for .NET har exponerat TextOptions-egenskapen för Shape-klassen för att styra utseendet på textdelar av en form.
 
-Här är ett enkelt användningsscenario för Shape.TextOptions-egenskapen.
+Här är ett enkelt användningsscenariot för Shape.TextOptions-egenskapen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize an instance of Workbook
 
@@ -48,20 +49,20 @@ textbox.TextOptions.IsItalic = true;
 {{< /highlight >}}
 
 
-### **Lade till egenskapen LoadOptions.CultureInfo**
-Aspose.Cells for .NET 9.0.0 har exponerat egenskapen LoadOptions.CultureInfo som tillåter injicera en instans av CultureInfo vid tidpunkten för inläsning av ett dokument i en instans av Workbook.
+### **Tillagd LoadOptions.CultureInfo-egenskap**
+Aspose.Cells for .NET 9.0.0 har exponerat LoadOptions.CultureInfo-egenskapen som möjliggör att injicera en instans av CultureInfo vid laddning av ett dokument i en instans av Workbook.
 
-Här är ett enkelt användningsscenario för ovannämnda egenskaper.
+Här är det enkla användningscenariot för ovanstående egenskaper.
 
 {{% alert color="primary" %}} 
 
- Kolla den detaljerade artikeln om[Laddar kalkylblad med specifik kulturinformation](/cells/sv/net/load-the-workbook-with-specific-system-culture-info/).
+Kontrollera den detaljerade artikeln om [Laddning av kalkylblad med specifik CultureInfo](/cells/sv/net/load-the-workbook-with-specific-system-culture-info/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of CultureInfo and populate its properties
 
@@ -86,20 +87,20 @@ var book = new Workbook(dir + "input.html", options);
 {{< /highlight >}}
 
 
-### **Lade till egenskapen ChartPoint.IsInSecondaryPlot**
-Aspose.Cells for .NET har exponerat egenskapen ChartPoint.IsInSecondaryPlot som kan användas för att upptäcka om en ChartPoint finns på en sekundär plot av ett cirkel- eller stapeldiagram.
+### **Tillagd ChartPoint.IsInSecondaryPlot-egenskap**
+Aspose.Cells for .NET har expons ChartPoint.IsInSecondaryPlot-egenskapen som kan användas för att upptäcka om en ChartPoint finns på en sekundär plott av en Pie- eller Bar-diagram.
 
-Här är ett enkelt användningsscenario för Shape.Line-egenskapen.
+Här är ett enkelt användningsscenariot för Shape.Line-egenskapen.
 
 {{% alert color="primary" %}} 
 
- Kolla den detaljerade artikeln om[Att hitta en DataPoint ligger på den andra plotten](/cells/sv/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
+Kontrollera den detaljerade artikeln om [Att hitta en datapunkt som finns på den andra kartan](/cells/sv/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load an existing spreadsheet containing a Pie chart
 
@@ -136,20 +137,20 @@ foreach (ChartPoint point in series.Points)
 {{< /highlight >}}
 
 
-### **Lade till egenskapen OleObject.ClassIdentifier**
-Aspose.Cells for .NET 9.0.0 har avslöjat egenskapen OleObject.ClassIdentifier som kan användas för att specificera programmets beteende för att ladda ett OleObject. Till exempel kan en PPT-fil bäddas in i ett kalkylblad med 2 olika vyer, det vill säga; presentationsvy eller bildvy, medan båda vyerna har olika klassidentifieringsvärden.
+### **Tillagd OleObject.ClassIdentifier-egenskap**
+Aspose.Cells for .NET 9.0.0 har exponerat OleObject.ClassIdentifier-egenskapen som kan användas för att ange applikationsbeteendet för att ladda en OleObject. Till exempel kan en PPT-fil bäddas in i ett kalkylblad med 2 olika vyer, det vill säga presentationsvy eller bildvy, medan båda vyerna har olika klassidentifierarvärden.
 
-Följande är det enkla användningsscenariot för egenskapen OleObject.ClassIdentifier.
+Följande är det enkla användningsscenarioet för OleObject.ClassIdentifier-egenskapen.
 
 {{% alert color="primary" %}} 
 
- Kolla den detaljerade artikeln om[Använder OleObject.ClassIdentifier](/cells/sv/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/).
+Kontrollera den detaljerade artikeln om [Att använda OleObject.ClassIdentifier](/cells/sv/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a spreadsheet containing a presentation as OleObject
 
@@ -165,13 +166,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 string progID = "";
 
@@ -181,7 +182,7 @@ string sourceFullName = "";
 
 bool isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 // Get the first worksheet from the collection
 
@@ -266,24 +267,24 @@ if (classId != null)
 book.Save(dir  + "output.xls");
 
 {{< /highlight >}}
-## **Föråldrade API:er**
-### **Föråldrat arbetsblad.Setbakgrundsmetod**
-Använd egenskapen Worksheet.BackgroundImage istället.
-### **Föråldrad LineShape.BeginArrowheadStyle & ArcShape.BeginArrowheadStyle-egenskaper**
-Använd egenskapen Shape.Line.BeginArrowheadStyle som ett alternativ.
-### **Föråldrad LineShape.EndArrowheadStyle & ArcShape.EndArrowheadStyle-egenskaper**
-Använd egenskapen Shape.Line.EndArrowheadStyle som ett alternativ.
-### **Föråldrad LineShape.BeginArrowheadWidth & ArcShape.BeginArrowheadWidth egenskaper**
-Använd egenskapen Shape.Line.BeginArrowheadWidth som ett alternativ.
-### **Föråldrad LineShape.BeginArrowheadLength & ArcShape.BeginArrowheadLength Egenskaper**
-Använd egenskapen Shape.Line.BeginArrowheadLength istället.
-### **Föråldrad LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth egenskaper**
-Använd egenskapen Shape.Line.EndArrowheadWidth istället.
-### **Föråldrad LineShape.EndArrowheadLength & ArcShape.EndArrowheadLength egenskaper**
-Använd egenskapen Shape.Line.EndArrowheadLength istället.
-## **Borttagna API:er**
-### **Borttaget arbetsblad.CopyConditionalFormatting Method**
-### **Borttagen Workbook.CheckWriteProtectedPassword Method**
-## **Omdöpta API:er**
-### **Byt namn på Workbook.RemoveDigitallySign Method**
-Metoden Workbook.RemoveDigitalSign har bytt namn till Workbook.RemoveDigitalSignature.
+## **Obsoletterade API:er**
+### **Föråldrat Worksheet.SetBackground-metoden**
+Använd istället Worksheet.BackgroundImage-egenskapen.
+### **Obsoletterade LineShape.BeginArrowheadStyle- och ArcShape.BeginArrowheadStyle-egenskaper**
+Använd Shape.Line.BeginArrowheadStyle-egenskapen som ett alternativ.
+### **Obsoletterade LineShape.EndArrowheadStyle- och ArcShape.EndArrowheadStyle-egenskaper**
+Använd Shape.Line.EndArrowheadStyle-egenskapen som ett alternativ.
+### **Obsoletterade LineShape.BeginArrowheadWidth- och ArcShape.BeginArrowheadWidth-egenskaper**
+Använd Shape.Line.BeginArrowheadWidth-egenskapen som ett alternativ.
+### **Obsoletad LineShape.BeginArrowheadLength och ArcShape.BeginArrowheadLength Egenskaper**
+Använd istället Shape.Line.BeginArrowheadLength egenskapen.
+### **Obsoletad LineShape.EndArrowheadWidth och ArcShape.EndArrowheadWidth Egenskaper**
+Använd istället Shape.Line.EndArrowheadWidth egenskapen.
+### **Obsoletad LineShape.EndArrowheadLength och ArcShape.EndArrowheadLength Egenskaper**
+Använd istället Shape.Line.EndArrowheadLength egenskapen.
+## **Raderade API:er**
+### **Raderad Worksheet.CopyConditionalFormatting-metoden**
+### **Raderad Workbook.CheckWriteProtectedPassword-metoden**
+## **Namnändrade API:er**
+### **Ändrad namn på Workbook.RemoveDigitallySign-metoden**
+Workbook.RemoveDigitallySign-metoden har ändrats namn till Workbook.RemoveDigitalSignature.

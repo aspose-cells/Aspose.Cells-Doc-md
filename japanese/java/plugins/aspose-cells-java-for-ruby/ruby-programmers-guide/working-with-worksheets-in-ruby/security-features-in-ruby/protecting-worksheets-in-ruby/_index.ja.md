@@ -1,15 +1,16 @@
-﻿---
-title: Ruby でワークシートを保護する
+---
+title: Rubyでワークシートを保護する
 type: docs
 weight: 10
 url: /ja/java/protecting-worksheets-in-ruby/
 ---
+
 ## **Aspose.Cells - ワークシートの保護**
-を使用してワークシートを保護するには**Aspose.Cells Ruby の場合は Java**、 電話**保護ワークシート**方法**保護**モジュール。
+Aspose.Cells Java for Rubyを使用してワークシートを保護するには、**protection**モジュールの**protect_worksheet**メソッドを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def protect_worksheet()
 
@@ -54,7 +55,7 @@ url: /ja/java/protecting-worksheets-in-ruby/
 end   
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートの保護 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のどちらかのソーシャルコーディングサイトから、**Aspose.Cells**の**ワークシートの保護**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

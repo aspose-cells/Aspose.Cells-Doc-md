@@ -1,34 +1,35 @@
-﻿---
-title: Fonction Consolidation
+---
+title: Fonction de consolidation
 type: docs
 weight: 20
 url: /fr/java/consolidation-function/
-description: Appliquez ConsolidationFunction aux champs de données du tableau croisé dynamique.
+description: Appliquer la fonction de consolidation aux champs de données du tableau croisé dynamique.
 ---
+
 ## **Fonction de consolidation**
 
- Aspose.Cells peut être utilisé pour appliquer ConsolidationFunction aux champs de données (ou champs de valeur) du tableau croisé dynamique. Dans Microsoft Excel, vous pouvez cliquer avec le bouton droit sur le champ de valeur, puis sélectionner**Paramètres du champ de valeur...** l'option puis sélectionnez l'onglet**Résumer les valeurs par**. À partir de là, vous pouvez sélectionner n'importe quelle ConsolidationFunction de votre choix comme Sum, Count, Average, Max, Min, Product, Distinct Count, etc.
+Aspose.Cells peut être utilisé pour appliquer la fonction de consolidation aux champs de données (ou aux champs de valeur) du tableau croisé dynamique. Dans Microsoft Excel, vous pouvez cliquer avec le bouton droit sur le champ de valeur, puis sélectionner l'option **Paramètres du champ de valeur...** et ensuite sélectionner l'onglet **Recapituler les valeurs par**. À partir de là, vous pouvez sélectionner n'importe quelle fonction de consolidation de votre choix comme Somme, Nombre, Moyenne, Max, Min, Produit, Nombre distinct, etc.
 
- Aspose.Cells fournit[**Fonction de consolidation**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) énumération pour prendre en charge les fonctions de consolidation suivantes.
+Aspose.Cells fournit une énumération [**ConsolidationFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) pour prendre en charge les fonctions de consolidation suivantes.
 
-- ConsolidationFunction.SUMConsolidationFunction.SUM
+- ConsolidationFunction.SUM
 - ConsolidationFunction.COUNT
 - ConsolidationFunction.AVERAGE
-- ConsolidationFunction.MAXConsolidationFunction.MAX
+- ConsolidationFunction.MAX
 - ConsolidationFunction.MIN
 - ConsolidationFunction.PRODUCT
-- Fonction de consolidation.COUNT_NUMS
+- ConsolidationFunction.COUNT_NUMS
 - ConsolidationFunction.STD_DEV
 - ConsolidationFunction.STD_DEVP
-- ConsolidationFunction.VARConsolidationFunction.VAR
+- ConsolidationFunction.VAR
 - ConsolidationFunction.VARP
-- Fonction de consolidation.DISTINCT_COUNT
+- ConsolidationFunction.DISTINCT_COUNT
 
-### **Application de ConsolidationFunction aux champs de données du tableau croisé dynamique**
+### **Application de la fonction de consolidation aux champs de données d'un tableau croisé dynamique**
 
- Le code suivant s'applique**MOYENNE** fonction de consolidation au premier champ de données (ou champ de valeur) et**STD_DEV** fonction de consolidation au deuxième champ de données (ou champ de valeur).
+Le code suivant applique la fonction de consolidation **MOYENNE** au premier champ de données (ou champ de valeur) et la fonction de consolidation **ÉCARTYPE** au deuxième champ de données (ou champ de valeur).
 
-Un exemple de fichier source et de fichiers de sortie peut être téléchargé ici pour tester l'exemple de code :
+Le fichier source d'exemple et les fichiers de sortie peuvent être téléchargés ici pour tester le code d'exemple :
 
 [Fichier Excel source](source.xlsx)
 
@@ -38,7 +39,7 @@ Un exemple de fichier source et de fichiers de sortie peut être téléchargé i
 
 {{% alert color="primary" %}}
 
-La fonction de consolidation DistinctCount est prise en charge par Microsoft Excel 2013 uniquement.
+La fonction de consolidation ComptageDistinct est prise en charge uniquement par Microsoft Excel 2013.
 
 {{% /alert %}}
 

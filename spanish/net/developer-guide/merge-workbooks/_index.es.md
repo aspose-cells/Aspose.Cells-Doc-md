@@ -1,57 +1,58 @@
-﻿---
-title: Combine varios libros de trabajo en un solo libro de trabajo
-linktitle: Fusión de libros
+---
+title: Combinar varios libros de trabajo en un único libro
+linktitle: Combinar libros de trabajo
 type: docs
 weight: 66
 url: /es/net/combine-multiple-workbooks-into-a-single-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-veces, necesita combinar libros de trabajo con varios contenidos como imágenes, gráficos y datos en un solo libro de trabajo. Aspose.Cells admite esta función. Este artículo muestra cómo crear una aplicación de consola en Visual Studio y combinar libros de trabajo con unas pocas líneas de código simples usando Aspose.Cells.
+A veces, es necesario combinar libros de trabajo con diversos contenidos como imágenes, gráficos y datos en un solo libro. Aspose.Cells admite esta función. Este artículo muestra cómo crear una aplicación de consola en Visual Studio y combinar libros de trabajo con unas cuantas líneas de código simples utilizando Aspose.Cells.
 
 {{% /alert %}}
 
 ## **Combinar libros de trabajo con imágenes y gráficos**
 
-El código de ejemplo combina dos libros de trabajo en un solo libro de trabajo usando Aspose.Cells. El código carga los libros de trabajo de origen, usa el[**Libro de trabajo.combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine)método para combinarlos y guarda el libro de trabajo de salida.
+El código de ejemplo combina dos libros de trabajo en un único libro utilizando Aspose.Cells. El código carga los libros de trabajo de origen, utiliza el método [**Workbook.combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) para combinarlos y guarda el libro de trabajo de salida.
 
-### **Libros de origen**
+### **Libros de trabajo de origen**
 
-- [gráficos.xlsx](5473097.xlsx)
-- [imagen.xlsx](5473096.xlsx)
+- [charts.xlsx](5473097.xlsx)
+- [picture.xlsx](5473096.xlsx)
 
 ### **Libros de trabajo de salida**
 
-- [combinado.xlsx](5473095.xlsx)
+- [combined.xlsx](5473095.xlsx)
 
-### **capturas de pantalla**
+### **Capturas de pantalla**
 
 A continuación se muestran capturas de pantalla de los libros de trabajo de origen y de salida.
 
 {{% alert color="primary" %}}
 
-Puede utilizar cualquier libro de trabajo de origen. Estas imágenes son solo para fines ilustrativos.
+Puede utilizar cualquier libro de trabajo de origen. Estas imágenes son solo con fines ilustrativos.
 
 {{% /alert %}}
 
-**La primera hoja de cálculo del libro de gráficos - apilada** 
+**La primera hoja de cálculo del libro de trabajo de gráficos: apilada** 
 
-![todo:imagen_alternativa_texto](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
 
-**Segunda hoja de trabajo del libro de gráficos - línea** 
+**Segunda hoja de cálculo del libro de trabajo de gráficos: línea** 
 
-![todo:imagen_alternativa_texto](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
 
-**Primera hoja de trabajo del libro de trabajo de imágenes - imagen** 
+**Primera hoja de cálculo del libro de trabajo de imagen: imagen** 
 
-![todo:imagen_alternativa_texto](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
 
-**Las tres hojas de trabajo en el libro de trabajo combinado: apiladas, línea, imagen** 
+**Las tres hojas de cálculo en el libro de trabajo combinado: apilada, línea, imagen** 
 
-![todo:imagen_alternativa_texto](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CombineMultipleWorkbooksSingleWorkbook-1.cs" >}}
 
 ## **Temas avanzados**
-- [Combine varias hojas de trabajo en una sola hoja de trabajo](/cells/es/net/combine-multiple-worksheets-into-a-single-worksheet/)
-- [Combinar archivos](/cells/es/net/merge-files/)
+- [Combinar múltiples hojas de cálculo en una sola hoja de cálculo](/cells/es/net/combine-multiple-worksheets-into-a-single-worksheet/)
+- [Fusionar archivos](/cells/es/net/merge-files/)

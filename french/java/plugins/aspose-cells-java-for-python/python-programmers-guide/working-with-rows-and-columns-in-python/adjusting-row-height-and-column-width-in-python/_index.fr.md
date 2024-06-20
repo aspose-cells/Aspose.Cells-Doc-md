@@ -1,21 +1,22 @@
-﻿---
-title: Réglage de la hauteur de ligne et de la largeur de colonne dans Python
+---
+title: Ajustement de la hauteur de ligne et de la largeur de colonne en Python
 type: docs
 weight: 10
 url: /fr/java/adjusting-row-height-and-column-width-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel pytho
-description: Utilisez Python Excel API pour créer des fichiers Excel dans Python. Ajustez la hauteur des lignes et la largeur des colonnes dans XLSX ou XLS dans vos applications Python sans MS Office.
+keywords: "créer XLSX en Python, créer XLS en Python, XLS python, XLSX python, hauteur de ligne python, largeur de colonne python, Excel python"
+description: Utilisez Python Excel API pour créer des fichiers Excel en Python. Ajustez la hauteur de ligne et la largeur de colonne dans XLSX ou XLS dans vos applications Python sans MS Office.
 ---
-## **Feuilles de calcul Excel dans Python - Ajustement de la hauteur des lignes et de la largeur des colonnes**
-### **Définition de la hauteur de ligne**
-Avec Aspose.Cells, il est possible de définir la hauteur d'une seule ligne dans Python en appelant la méthode setRowHeight de la collection Cells. La méthode setRowHeight prend les paramètres suivants :
 
-- **Indice de ligne**, l'index de la ligne dont vous modifiez la hauteur.
-- **Hauteur de ligne**, la hauteur de ligne à appliquer sur la ligne.
+## **Feuilles de calcul Excel en Python - Ajustement de la hauteur de ligne et de la largeur de colonne**
+### **Définir la hauteur de la ligne**
+Avec Aspose.Cells, il est possible de définir la hauteur d'une seule ligne en Python en appelant la méthode setRowHeight de la collection Cells. La méthode setRowHeight prend les paramètres suivants :
+
+- **Index de ligne**, l'index de la ligne pour laquelle vous modifiez la hauteur.
+- **Hauteur de la ligne**, la hauteur de la ligne à appliquer sur la ligne.
 
 **Code Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_row_height(self):
 
@@ -40,15 +41,15 @@ workbook.save(self.dataDir + "Set Row Height.xls")
 print "Set Row Height Successfully." 
 
 {{< /highlight >}}
-### **Définition de la largeur de colonne**
-Définissez la largeur d'une colonne en appelant la méthode setColumnWidth de la collection Cells. La méthode setColumnWidth prend les paramètres suivants :
+### **Définir la largeur de colonne**
+Définissez la largeur d'une colonne en appelant la méthode setColumnWidth de la collection Cells. La méthode setColumnWidth prend les paramètres suivants:
 
-- **Indice de colonne**, l'index de la colonne dont vous modifiez la largeur.
-- **Largeur de colonne**, la largeur de colonne souhaitée.
+- Index de la colonne, l'index de la colonne dont vous changez la largeur.
+- Largeur de colonne, la largeur de colonne souhaitée.
 
 **Code Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def set_column_width(self):
 
@@ -73,7 +74,7 @@ workbook.save(self.dataDir + "Set Column Width.xls")
 print "Set Column Width Successfully." 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Réglage de la hauteur des lignes et de la largeur des colonnes (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Ajustement de la hauteur de ligne et de la largeur de colonne (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

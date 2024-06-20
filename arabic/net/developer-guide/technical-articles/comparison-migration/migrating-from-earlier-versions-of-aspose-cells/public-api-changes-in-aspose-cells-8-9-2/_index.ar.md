@@ -1,27 +1,28 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.9.2
+---
+title: تغييرات في واجهة برمجة التطبيقات العامة في Aspose.Cells 8.9.2
 type: docs
 weight: 320
 url: /ar/net/public-api-changes-in-aspose-cells-8-9-2/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.9.1 إلى 8.9.2 والتي قد تهم مطوري الوحدات / التطبيقات. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات لـ Aspose.Cells من الإصدار 8.9.1 إلى 8.9.2 التي قد تكون مهمة لمطوري الوحدات/التطبيقات. يشمل ليس فقط الطرق العامة الجديدة والمحدثة والأصناف المضافة والمحذوفة وما إلى ذلك، ولكن أيضًا وصف لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- يرجى أيضًا التحقق من ملف[API عام التغييرات التي أدخلت في Aspose.Cells for .NET 8.9.1](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1)
+يرجى أيضًا التحقق من [التغييرات العامة في واجهة برمجة التطبيقات المقدمة في Aspose.Cells for .NET 8.9.1](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1)
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **تمت إضافة خاصية TextOptions Class & FontSettings.TextOptions**
-كشف Aspose.Cells for .NET فئة TextOptions مع خاصية FontSettings.TextOptions للتحكم في مظهر الأجزاء النصية للشكل.
+## **واجهات برمجة التطبيقات الجديدة**
+### **تمت إضافة فئة TextOptions وخاصية FontSettings.TextOptions**
+Aspose.Cells for .NET قد عرضت فئة TextOptions مع خاصية FontSettings.TextOptions من أجل التحكم في مظهر الأجزاء النصية للشكل.
 
 فيما يلي سيناريو استخدام بسيط لخاصية FontSettings.TextOptions.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -42,14 +43,14 @@ var textOptions = shape.TextBody[1].TextOptions;
 {{< /highlight >}}
 
 
-### **تمت إضافة TextOptions.Fill، Outline & Shadow Properties**
-كشف Aspose.Cells for .NET 8.9.2 خيارات Text.Fill ، TextOptions ، Outline & TextOptions ، خصائص الظل التي تسمح بالتحكم في جوانب المحتويات النصية للشكل ، مثل التعبئة والظل والمخطط التفصيلي على التوالي.
+### **تمت إضافة خصائص TextOptions.Fill، Outline و Shadow**
+Aspose.Cells for .NET 8.9.2 قد عرضت خصائص TextOptions.Fill, TextOptions.Outline & TextOptions.Shadow التي تسمح بالتحكم في جوانب محتويات النصوص للشكل، مثل التعبئة، الظل & التفصيل على التوالي.
 
-فيما يلي سيناريو الاستخدام البسيط للخصائص المذكورة أعلاه.
+فيما يلي سيناريو استخدام بسيط للخصائص المذكورة.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -89,13 +90,13 @@ textOptions.Outline.SetOneColorGradient(Color.Blue, 0.3, GradientStyleType.Horiz
 
 
 ### **تمت إضافة خاصية Shape.Line**
-كشف Aspose.Cells for .NET خاصية Shape.Line التي تُرجع مثيل LineFormat للتحكم في مظهر الخطوط الخارجية للشكل.
+Aspose.Cells for .NET قد عرضت ممتلك Shape.Line الذي يعيد نسخة من LineFormat من أجل التحكم في مظهر مخططات الشكل.
 
 فيما يلي سيناريو استخدام بسيط لخاصية Shape.Line.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -120,14 +121,14 @@ line.Weight = 1;
 {{< /highlight >}}
 
 
-### **تمت إضافة خاصية ملء الشكل**
-كشف Aspose.Cells for .NET 8.9.2 خاصية Shape.Fill التي تُرجع مثيلاً من FillFormat للتحكم في الجوانب المختلفة لمساحة الشكل.
+### **تمت إضافة خاصية Shape.Fill**
+بواسطة الاصدار Aspose.Cells for .NET 8.9.2 تم عرض خاصية Shape.Fill التي تعيد مثيلًا لـ FillFormat للتحكم في جوانب مختلفة لمنطقة الشكل.
 
-فيما يلي سيناريو الاستخدام البسيط لخاصية Shape.Fill.
+فيما يلي سيناريو استخدام بسيط لخاصية Shape.Fill.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -150,16 +151,16 @@ var fill = shape.Fill;
 fill.SetOneColorGradient(Color.Red, 0.1, GradientStyleType.Horizontal, 2);
 
 {{< /highlight >}}
-## **واجهات برمجة التطبيقات التي عفا عليها الزمن**
-### **فئة ShapeFont التي عفا عليها الزمن**
+## **واجهات برمجة التطبيق القديمة**
+### **فئة ShapeFont الغير مستخدمة**
 الرجاء استخدام فئة TextOptions بدلاً من ذلك.
-### **فئة FormatFormat عفا عليها الزمن**
-الرجاء استخدام خصائص Shape.Fill و Shape.Line مباشرةً.
-### **شكل قديم. خاصية التنسيق**
-الرجاء استخدام خصائص Shape.Fill و Shape.Line مباشرةً.
-### **شكل قديم. خاصية LineFormat**
-الرجاء استخدام خاصية Shape.Line بدلاً من ذلك.
-### **شكل قديم. خاصية FillFormat**
-الرجاء استخدام خاصية Shape.Fill بدلاً من ذلك.
-### **خاصية FontSetting.ShapeFont قديمة**
-الرجاء استخدام الخاصية FontSetting.TextOptions بدلاً من ذلك.
+### **فئة ShapeFormat الغير مستخدمة**
+الرجاء استخدام ملكيات Shape.Fill وShape.Line مباشرة.
+### **خاصية Format للشكل غير مستخدمة**
+الرجاء استخدام ملكيات Shape.Fill وShape.Line مباشرة.
+### **خاصية LineFormat للشكل غير مستخدمة**
+الرجاء استخدام ملكية Shape.Line بدلاً من ذلك.
+### **خاصية FillFormat للشكل غير مستخدمة**
+الرجاء استخدام ملكية Shape.Fill بدلاً من ذلك.
+### **خاصية ShapeFont لـ FontSetting غير مستخدمة**
+الرجاء استخدام ملكية TextOptions لـ FontSetting بدلاً من ذلك.

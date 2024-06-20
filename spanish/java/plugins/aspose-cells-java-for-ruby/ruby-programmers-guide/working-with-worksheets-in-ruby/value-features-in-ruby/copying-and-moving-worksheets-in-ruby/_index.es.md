@@ -1,16 +1,17 @@
-﻿---
-title: Copiar y mover hojas de trabajo en Ruby
+---
+title: Copiar y Mover hojas de cálculo en Ruby
 type: docs
 weight: 10
 url: /es/java/copying-and-moving-worksheets-in-ruby/
 ---
-## **Aspose.Cells - Copiar y mover hojas de trabajo**
-### **Copiar hojas de trabajo dentro de un libro de trabajo**
- Para copiar la hoja de trabajo usando**Aspose.Cells for Java en rubí** , llamada**copiar_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
 
-**código rubí**
+## **Aspose.Cells - Copiar y Mover hojas de cálculo**
+### **Copiar Hojas de Cálculo dentro de un Libro de Trabajo**
+Para copiar una hoja de cálculo usando **Aspose.Cells for Java en Ruby**, llama al método **copy_worksheet** del módulo **copyworksheets**. A continuación puedes ver un ejemplo de código.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def copy_worksheet(workbook)
 
@@ -31,12 +32,12 @@ url: /es/java/copying-and-moving-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Mover hojas de trabajo dentro de un libro de trabajo**
- Para mover la hoja de trabajo usando**Aspose.Cells for Java en rubí** , llamada**mover_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
+### **Mover hojas de cálculo dentro de un libro de trabajo**
+Para mover una hoja de cálculo usando **Aspose.Cells for Java en Ruby**, llama al método **move_worksheet** del módulo **copyworksheets**. A continuación puedes ver un ejemplo de código.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def move_worksheet(workbook)
 
@@ -57,7 +58,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Copiar y mover hojas de trabajo (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Copiando y Moviendo Hojas de Cálculo (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/copyworksheets.rb)

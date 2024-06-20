@@ -1,23 +1,24 @@
 ---
-title: ワークシートのタブの色の設定
+title: ワークシートタブの色を設定
 type: docs
 weight: 120
 url: /ja/net/set-worksheet-tab-color/
-description: この記事では、C# API または .NET ライブラリを使用して Excel ワークシートのタブの色をプログラムで設定するサンプル コードを示します。
-keywords: set excel tab color c#, code to set excel tab color c#
+description: この記事では、C# APIまたは.NETライブラリを使用してExcelワークシートのタブの色をプログラムで設定するサンプルコードを示しています。
+keywords: C#でExcelのタブの色を設定する、Excelタブの色を設定するコード
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells を使用すると、個々のワークシート タブの色を変更して、他のタブから目立つようにすることができます。たとえば、経費を赤、売上を緑、資産を青などにすることができます。
+Aspose.Cells を使用すると、個々のワークシートタブの色を変更して目立たせることができます。たとえば、Expenses を赤、Sales を緑、Assets を青などにすることができます。
 
 {{% /alert %}} 
-##  **Microsoft Excel でワークシートのタブの色を設定する**
-1. 現在のワークシートの下部にあるタブシートのタブを右クリックします。
-1. *タブの色**を選択します。
+## **Microsoft Excel でワークシートのタブの色を設定する**
+1. 現在のワークシートの下部にあるタブシートでタブを右クリックします。
+1. **タブの色**を選択します。
 1. パレットから色を選択します。
-1. [*OK**] をクリックします。
-##  **Aspose.Cells によるワークシートのタブの色の設定**
-以下のサンプルコードは、Aspose.Cells でタブの色を設定する方法を示しています。
+1. **OK** をクリックします。
+## **Aspose.Cellsでワークシートのタブの色を設定する**
+以下のサンプルコードは、Aspose.Cellsでタブの色を設定する方法を示しています。
 
 
 

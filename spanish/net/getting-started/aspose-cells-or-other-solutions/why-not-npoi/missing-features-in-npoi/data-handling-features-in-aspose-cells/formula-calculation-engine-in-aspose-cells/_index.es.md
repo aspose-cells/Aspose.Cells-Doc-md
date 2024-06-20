@@ -1,15 +1,16 @@
-﻿---
-title: Motor de cálculo de fórmulas en Aspose.Cells
+---
+title: Motor de Cálculo de Fórmulas en Aspose.Cells
 type: docs
 weight: 30
 url: /es/net/formula-calculation-engine-in-aspose-cells/
 ---
-## **Aspose.Cells - Motor de cálculo de fórmulas**
-El motor de cálculo de fórmulas está integrado en Aspose.Cells. No solo puede volver a calcular la fórmula importada desde un archivo de hoja de cálculo del diseñador, sino que también permite calcular los resultados de las fórmulas agregadas en tiempo de ejecución.
+
+## **Aspose.Cells - Motor de Cálculo de Fórmulas**
+El motor de cálculo de fórmulas está incrustado en Aspose.Cells. No solo puede recalcular la fórmula importada de un archivo de hoja de cálculo diseñado, sino que también admite calcular los resultados de fórmulas agregadas en tiempo de ejecución.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -58,13 +59,13 @@ book.CalculateFormula();
 book.Save("AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Motor de cálculo de fórmulas** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Motor de Cálculo de Fórmulas** desde cualquiera de los sitios de código social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Motor de cálculo de fórmulas](/cells/es/net/formula-calculation-engine/).
+Para más detalles, visita [Motor de Cálculo de Fórmulas](/cells/es/net/formula-calculation-engine/).
 
 {{% /alert %}}

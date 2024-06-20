@@ -1,16 +1,17 @@
-﻿---
+---
 title: Hantera sidbrytningar i Php
 type: docs
 weight: 20
 url: /sv/java/managing-page-breaks-in-php/
 ---
+
 ## **Aspose.Cells - Hantera sidbrytningar**
 ### **Lägga till sidbrytningar**
- För att lägga till sidbrytningar med hjälp av**Aspose.Cells Java for PHP** , ringa upp**add_page_breaks** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+För att lägga till sidbrytningar med **Aspose.Cells Java för PHP**, anropa **add_page_breaks** metoden för **pagebreaks** modulen. Nedan kan du se kodexemplet.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $worksheets = $workbook->getWorksheets();
 
@@ -30,11 +31,11 @@ $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
 ### **Rensa alla sidbrytningar**
- För att rensa alla sidbrytningar med**Aspose.Cells Java for PHP** , ringa upp**rensa_alla_sidebrytningar** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+För att rensa alla sidbrytningar med **Aspose.Cells Java för PHP**, anropa **clear_all_page_breaks** metoden för **pagebreaks** modulen. Nedan kan du se kodexemplet.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $workbook->getWorksheets()->get(0)->getHorizontalPageBreaks()->clear();
 
@@ -46,11 +47,11 @@ $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
 ### **Ta bort specifik sidbrytning**
- För att ta bort specifik sidbrytning med**Aspose.Cells Java for PHP** , ringa upp**remove_page_break** metod av**sidbrytningar** modul. Nedan kan du se kodexempel.
+För att ta bort specifik sidbrytning med **Aspose.Cells Java för PHP**, anropa **remove_page_break** metoden för **pagebreaks** modulen. Nedan kan du se kodexemplet.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $worksheets = $workbook->getWorksheets();
 
@@ -69,7 +70,7 @@ $v_page_breaks->removeAt(0);
 $workbook->save($dataDir . "Remove Page Break.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Hantera sidbrytningar (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Hämta **Hantera Sidbrytningar (Aspose.Cells)** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/ManagingPageBreaks.php)

@@ -1,15 +1,16 @@
 ---
-title: Kategori ekseni nasıl ayarlanır?
-description: Aspose.Cells for .NET numaralı telefondan kategori eksenini nasıl ayarlayacağınızı öğrenin. Kılavuzumuz, kategori ekseni aralığını nasıl tanımlayacağınızı, özelliklerini nasıl ayarlayacağınızı ve etiketlerini nasıl biçimlendireceğinizi anlamanıza yardımcı olacaktır.
-keywords: Aspose.Cells for .NET, category axis, setting, range, properties, formatting.
+title: Kategori eksenini nasıl ayarlarım
+description: Aspose.Cells for .NET de kategori ekseni nasıl ayarlanacağını öğrenin. Rehberimiz, kategori ekseni aralığını tanımlamanızı, özelliklerini ayarlamanızı ve etiketlerini biçimlendirmenizi nasıl anlamanıza yardımcı olacaktır.
+keywords: Aspose.Cells for .NET, kategori ekseni, ayarlama, aralık, özellikler, biçimlendirme.
 type: docs
 weight: 205
 url: /tr/net/how-to-set-category-axis/
 ---
-##  **Olası Kullanım Senaryoları**
-Çalışma sayfasında bir grafik oluşturduktan sonra bunun için kategori eksenini ayarlayabilirsiniz. Bu yazımızda Excel grafiği için kategori eksenini Aspose.Cells kullanarak örnek kodla nasıl ayarlayacağınızı göstereceğiz.
 
-##  **Örnek koddaki adımlar**
+## **Olası Kullanım Senaryoları**
+Bir çalışma sayfasında bir grafik oluşturduktan sonra onun için kategori eksenini ayarlayabilirsiniz. Bu makalede, Aspose.Cells kullanarak Excel grafik için kategori eksenini nasıl ayarlayacağınızı, örnek kod ile göstereceğiz.
+
+## **Örnek kodlardaki adımlar**
 
 1. Yeni bir çalışma kitabı oluşturun.
 
@@ -17,9 +18,9 @@ url: /tr/net/how-to-set-category-axis/
 
 3. İlk çalışma sayfasındaki hücrelere bazı değerler ekleyin.
 
-4. Artık kategori eksenini ayarlayabilirsiniz; bunun iki yolu vardır: hücre verilerini kullanmak veya dizeleri doğrudan kullanmak; bunların her ikisi de örnek kodda gösterilmektedir.
+4. Şimdi kategori eksenini ayarlayabilirsiniz, bunun için iki yol vardır: hücre verileri kullanarak veya doğrudan dizeleri kullanarak, her ikisi de örnek kodda gösterilmiştir.
 
-5. Değer eksenini ayarlayın, sonucu görüntülemek için çalışma kitabını kaydedin.
+5. Değer eksenini ayarlayın, sonucu görmek için çalışma kitabını kaydedin.
 
-##  **Basit kod**
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chart-CategoryAxis-settings.cs" >}}

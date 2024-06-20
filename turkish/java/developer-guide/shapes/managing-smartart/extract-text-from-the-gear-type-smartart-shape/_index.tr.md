@@ -1,24 +1,25 @@
-﻿---
-title: Dişli Tipi SmartArt Şeklinden Metin Çıkarma
+---
+title: Dişli Türü Akıllı Sanat Şeklinden Metin Ayıklama
 type: docs
 weight: 130
 url: /tr/java/extract-text-from-the-gear-type-smartart-shape/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells, Gear Type Smart Art Shape'den metin çıkarabilir. Bunu yapmak için önce Smart Art Shape'i kullanarak Group Shape'e dönüştürmelisiniz.[**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt()) yöntem. Ardından, Grup Şeklini oluşturan tüm Bireysel Şekillerin dizisini kullanarak almalısınız.[**GroupShape.getGroupedShapes()**](https://reference.aspose.com/cells/java/com.aspose.cells/groupshape#getGroupedShapes()) yöntem. Son olarak, tüm Bireysel Şekilleri bir döngüde birer birer yineleyebilir ve metinlerini kullanarak ayıklayabilirsiniz.[**şekil.metin**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text)Emlak.
+Aspose.Cells, Dişli Türü Akıllı Sanat Şekilinden metin çıkarabilir. Bunun için önce Akıllı Sanat Şeklini Grup Şekline dönüştürmelisiniz. Ardından Grup Şeklini oluşturan Tüm Bireysel Şekillerin dizisini [1] yöntemi kullanarak almalısınız. Son olarak, Tüm Bireysel Şekillerin hepsini birer birer döngüde alabilir ve [2] özelliğini kullanarak metinlerini çıkarabilirsiniz.
 
-## **Dişli Tipi SmartArt Şeklinden Metin Çıkarma**
+## **Dişli Türü Akıllı Sanat Şeklinden Metin Ayıklama**
 
-Aşağıdaki örnek kod,[örnek excel dosyası](67338510.xlsx)Gear Type Smart Art Shape'i içerir. Ardından, yukarıda tartışıldığı gibi metni tek tek şekillerinden çıkarır. Lütfen referans için aşağıda verilen kodun konsol çıktısına bakın.
+Aşağıdaki örnek kod, [örnek Excel dosyasını](67338510.xlsx) yükler. Ardından yukarıda tartışılan şeklin bireysel şekillerinden metni çıkarır. Referans için lütfen verilen kodun konsol çıktısına bakınız.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-ExtractTextFromGearTypeSmartArtShape.java" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Gear Type Shape Text: Nice Gear Type Shape Text: Good Gear Type Shape Text: Excellent
 

@@ -1,10 +1,11 @@
-﻿---
-title: Ange bildupplösning, kvalitet, komprimering och andra alternativ
+---
+title: Specificera bildupplösning, kvalitet, komprimering och andra alternativ
 type: docs
 weight: 30
 url: /sv/net/specify-image-resolution-quality-compression-and-other-options/
 ---
-{{< highlight "csharp" >}}
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -79,6 +80,6 @@ options.OnePagePerSheet = true;
 chart.ToImage(FileName, options);
 
 {{< /highlight >}}
-## ** Ladda ner exempelkod
+## **Ladda ned exempelkod**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Chart%20to%20Image%20with%20Image%20Options%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Chart%20to%20Image%20with%20Image%20Options%20%28Aspose.Cells%29.zip)

@@ -1,15 +1,16 @@
-﻿---
-title: Verwalten von Seitenumbrüchen in Jython
+---
+title: Seitenumbrüche verwalten in Jython
 type: docs
 weight: 80
 url: /de/java/managing-page-breaks-in-jython/
 ---
-## **Aspose.Cells – Verwalten von Seitenumbrüchen**
- Zum Anhängen von Dokumenten mit**Aspose.Cells Java für Jython**. Hier sehen Sie Beispielcode.
+
+## **Aspose.Cells - Seitenumbrüche verwalten**
+Zum Anfügen von Dokumenten mit **Aspose.Cells Java für Jython**. Hier sehen Sie Beispielscode.
 
 **Jython-Code**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -137,7 +138,7 @@ if __name__ == '__main__':
     ManagingPageBreaks()
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Dokumente anhängen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Dokumente anfügen (Aspose.Cells)** von einer der unten genannten Plattformen für soziale Codierung herunter:
 
 - [GitHub](https://github.com/asposewords/Aspose_Words_Java/releases/tag/Aspose.Words_Java_for_Jython-v1.0.0)

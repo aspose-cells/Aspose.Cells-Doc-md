@@ -1,17 +1,18 @@
-﻿---
-title: Accedi e aggiorna le porzioni di Rich Text di Cell
-linktitle: Ricco testo di formattazione
+---
+title: Accedere e aggiornare le porzioni di testo arricchito della cella
+linktitle: Formattazione del testo arricchito
 type: docs
 weight: 440
 url: /it/java/access-and-update-the-portions-of-rich-text-of-cell/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells consente di accedere e aggiornare le porzioni del rich text della cella. A tale scopo, è possibile utilizzare i metodi Cell.getCharacters() e Cell.setCharacters(). Questi metodi restituiranno e accetteranno l'array di oggetti FontSetting che è possibile utilizzare per accedere e aggiornare varie proprietà del carattere come nome del carattere, colore del carattere, grassetto ecc.
+Aspose.Cells ti consente di accedere e aggiornare le porzioni di testo arricchito della cella. A questo scopo, è possibile utilizzare i metodi Cell.getCharacters() e Cell.setCharacters(). Questi metodi restituiranno e accetteranno l'array di oggetti FontSetting che è possibile utilizzare per accedere e aggiornare varie proprietà del font come il nome del font, il colore del font e il grassetto ecc.
 
 {{% /alert %}} 
-## **Accedi e aggiorna le porzioni di Rich Text di Cell**
- Il codice seguente mostra l'utilizzo del metodo Cell.getCharacters() e Cell.setCharacters() utilizzando il[file excel di origine](5472937.xlsx) che puoi scaricare dal link fornito. Il file excel di origine ha un rich text nella cella A1. Ha 3 porzioni e ogni porzione ha un carattere diverso. Accederemo a queste parti e aggiorneremo la prima parte con il nuovo nome del font. Infine salva la cartella di lavoro come[file excel di output](5472930.xlsx) . Quando lo aprirai, scoprirai che il carattere della prima parte del testo è cambiato in**"Arial"**.
+## **Accedere e aggiornare le porzioni di testo arricchito della cella**
+Il seguente codice dimostra l'utilizzo dei metodi Cell.getCharacters() e Cell.setCharacters() utilizzando il [file excel di origine](5472937.xlsx) che puoi scaricare dal link fornito. Il file excel di origine ha un testo arricchito nella cella A1. Ha 3 porzioni e ciascuna porzione ha un font diverso. Accederemo a queste porzioni e aggiorneremo la prima porzione con il nuovo nome del font. Infine salva il foglio di lavoro come [file excel di output](5472930.xlsx). Quando lo aprirai, troverai che il font della prima porzione del testo è stato cambiato in **"Arial"**.
 
 
 
@@ -24,10 +25,10 @@ Aspose.Cells consente di accedere e aggiornare le porzioni del rich text della c
 
 
 
-## **Uscita console**
- Ecco l'output della console del codice di esempio precedente utilizzando il file[file excel di origine](5472937.xlsx).
+## **Output della console**
+Ecco l'output della console del codice di esempio usando il [file excel di origine](5472937.xlsx).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Before updating the font settings....
 

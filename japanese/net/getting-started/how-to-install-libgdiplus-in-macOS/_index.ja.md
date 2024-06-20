@@ -1,13 +1,14 @@
-﻿---
-title: macOS に libgdiplus をインストールする方法
+---
+title: macOS で libgdiplus をインストールする方法
 type: docs
-description: この記事では、Monterey 12.4 などの macOS に libgdiplus をインストールする方法について説明します。
+description: 「この記事では、Monterey 12.4 などの macOS に libgdiplus をインストールする方法について説明します。」
 weight: 150
 url: /ja/net/how-to-install-libgdiplus-in-macos/
 ---
-## macOS に Homebrew をインストールする
 
-ターミナルで次のコマンドを実行して、macOS に Homebrew をインストールできます。
+## macOS で Homebrew をインストールする
+
+以下のコマンドをターミナルで実行することで、macOS に Homebrew をインストールすることができます。
 
 ```cs
 
@@ -15,9 +16,9 @@ url: /ja/net/how-to-install-libgdiplus-in-macos/
 
 ```
 
-## macOS に libgdiplus をインストールする
+## macOS で libgdiplus をインストールする
 
-Homebrew をインストールしたら、macOS に libgdiplus をインストールできます。
+Homebrew をインストールした後、macOS に libgdiplus をインストールすることができます。
 
 ```cs
 

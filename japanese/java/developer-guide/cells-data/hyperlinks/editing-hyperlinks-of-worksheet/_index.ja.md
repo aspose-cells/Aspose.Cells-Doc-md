@@ -1,15 +1,16 @@
-﻿---
-title: ワークシートのハイパーリンクの編集
+---
+title: ワークシートのハイパーリンクを編集
 type: docs
 weight: 420
 url: /ja/java/editing-hyperlinks-of-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells を使用すると、ワークシートのすべてのハイパーリンクにアクセスできます。[ワークシート.ハイパーリンク](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks)コレクション。このコレクションの各ハイパーリンクに 1 つずつアクセスして、そのプロパティを編集できます。
+Aspose.Cellsを使用して、[Worksheet.Hyperlinks](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks)コレクションを介してワークシートのすべてのハイパーリンクにアクセスできます。このコレクションから各ハイパーリンクにアクセスし、そのプロパティを編集することができます。
 
 {{% /alert %}} 
 ## **ワークシートのハイパーリンクの編集**
-次のサンプル コードは、ワークシートのすべてのハイパーリンクにアクセスし、それらのハイパーリンクを変更します。[Hyperlink.Address](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#Address)Aspose ウェブサイトへのプロパティ。
+以下のサンプルコードは、ワークシートのすべてのハイパーリンクにアクセスし、それらの[Hyperlink.Address](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#Address)プロパティをAsposeのウェブサイトに変更します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.java" >}}

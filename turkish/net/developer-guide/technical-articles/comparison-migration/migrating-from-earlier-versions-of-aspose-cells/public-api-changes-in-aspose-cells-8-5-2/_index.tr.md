@@ -1,26 +1,27 @@
-﻿---
-title: Genel API Aspose.Cells 8.5.2'deki değişiklikler
+---
+title: Aspose.Cells 8.5.2 de Yapılan Genel API Değişiklikleri
 type: docs
 weight: 180
 url: /tr/net/public-api-changes-in-aspose-cells-8-5-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Bu belge, Aspose.Cells API sürümünde 8.5.1'den 8.5.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-5-2/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
+Bu belge, 8.5.1'den 8.5.2 sürümüne kadar Aspose.Cells API'deki değişiklikleri modül / uygulama geliştiricileri için ilgi çekebilecek değişiklikleri açıklar. Yeni ve güncellenmiş genel yöntemleri [eklenen sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-5-2/) sadece içermez ayrıca Aspose.Cells'in perde arkasındaki herhangi bir değişikliğin açıklamasını da içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Çalışma Sayfasını Grafik Bağlamına Dönüştür**
- Aspose.Cells for .NET API'in bu sürümü, artık System.Drawing.Graphics sınıfının bir örneğini kabul etmeye izin veren SheetRender.ToImage yönteminin iki yeni aşırı yüklemesini ortaya çıkardı.[Grafik bağlamında oluştur](/cells/tr/net/render-worksheet-to-graphic-context/). Yeni eklenen metotların imzaları aşağıdaki gibidir.
+## **Eklenen API'lar**
+### **Çalışsayısını Grafiksel Ortama Dönüştürme**
+Aspose.Cells for .NET API'nin bu sürümü, artık SheetRender.ToImage yönteminin iki yeni aşırı yüklemesini ortaya çıkardı, bu da System.Drawing.Graphics sınıfının bir örneğini [Grafik bağlamında oluşturmaya izin verir](/cells/tr/net/render-worksheet-to-graphic-context/). Yeni eklenen yöntemlerin imzaları şu şekildedir.
 
-1. SheetRender.ToImage(int pageIndex, Graphics g, kayan nokta x, kayan nokta y)
-1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float genişliği, float yüksekliği)
+1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
+1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -59,14 +60,14 @@ bmp.Save("test.png", ImageFormat.Png);
 {{< /highlight >}}
 
 
-### **Yöntem PivotTable.GetCellByDisplayName Eklendi**
- Aspose.Cells for .NET 8.5.2, PivotTable.GetCellByDisplayName yöntemini kullanıma sundu.[PivotField adına göre Cell nesnesini alın](/cells/tr/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Bu yöntem, PivotField başlığını vurgulamak veya biçimlendirmek istediğiniz senaryolarda yararlı olabilir.
+### **PivotTable.GetCellByDisplayName Yöntemi Eklendi**
+Aspose.Cells for .NET 8.5.2, PivotTable.GetCellByDisplayName yöntemini açığa çıkardı. Bu yöntem, PivotField'in adıyla [hücre nesnesini almak için kullanılabilir](/cells/tr/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Bu yöntem, PivotField başlığını vurgulamak veya biçimlendirmek istediğiniz senaryolarda kullanışlı olabilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -103,35 +104,35 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Özellik SaveOptions.MergeAreas Eklendi**
-Aspose.Cells for .NET 8.5.2, Boole türü değeri kabul edebilen SaveOptions.MergeAreas özelliğini kullanıma sundu. Varsayılan değer false'tur, ancak true olarak ayarlanırsa Aspose.Cells for .NET API, dosyayı kaydetmeden önce ayrı CellArea'yı birleştirmeye çalışır.
+### **Eklenen SaveOptions.MergeAreas Özelliği**
+Aspose.Cells for .NET 8.5.2, SaveOptions.MergeAreas özelliğini açığa çıkardı ve Boolean tür değer alabilir. Varsayılan değer false'dur, ancak true olarak ayarlanırsa, Aspose.Cells for .NET API dosyayı kaydetmeden önce bireysel CellArea'ları birleştirmeye çalışır.
 
 {{% alert color="primary" %}} 
 
-Bir e-tabloda doğrulama uygulanmış çok fazla bireysel hücre varsa, ortaya çıkan e-tablonun bozulma olasılığı vardır. Muhtemel bir çözüm, hücreleri aynı doğrulama kurallarına sahip birleştirmek veya artık API'i kaydetme işleminden önce CellAreas'ı otomatik olarak birleştirmeye yönlendirmek için SaveOptions.MergeAreas özelliğini kullanabilirsiniz.
+Bir elektronik tabloda uygulanan çok sayıda tekil hücre varsa, sonucun bozulma olasılıkları vardır. Tekil doğrulama kurallarına sahip hücreleri birleştirmenin bir olası çözümü veya Aspose.Cells for Java API'nın kaydetme işleminden önce hücre Alanlarını otomatik olarak birleştirmek için artık SaveOptions.MergeAreas özelliğini kullanabilirsiniz.
 
 {{% /alert %}} 
-### **Özellik Shape.Geometry.ShapeAdjustValues Eklendi**
- v8.5.2 sürümüyle birlikte Aspose.Cells API, şu amaçlarla kullanılabilen Shape.Geometry.ShapeAdjustValues özelliğini kullanıma sunmuştur.[farklı şekillerin ayar noktalarında değişiklik yapma](/cells/tr/net/change-adjustment-values-of-the-shape/).
+### **Shape.Geometry.ShapeAdjustValues Özelliği Eklendi**
+8.5.2 sürümüyle Aspose.Cells API, Shape.Geometry.ShapeAdjustValues özelliğini açığa çıkardı ve farklı şekillerin ayarlama noktalarına [değişiklik yapmak için kullanılabilir](/cells/tr/net/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel arayüzünde, ayar noktaları sarı elmas düğümler olarak görüntülenir.
+Microsoft Excel arayüzünde, ayarlama noktaları sarı elmas düğmeleri olarak görüntülenir.
 
 {{% /alert %}} 
 
 Örneğin,
 
-1. Yuvarlatılmış Dikdörtgenin yayı değiştirmek için bir ayarı vardır
-1. Üçgenin noktanın konumunu değiştirmek için bir ayarı vardır
-1. Yamuk, üst kısmın genişliğini değiştirmek için bir ayara sahiptir
-1. Baş ve kuyruğun şeklini değiştirmek için okların iki ayarı vardır
+1. Yuvarlatılmış Dikdörtgenin yay'ı değiştirmek için bir ayarı vardır
+1. Üçgen'in noktasının konumunu değiştirmek için bir ayarı vardır
+1. Yaygın olmayan yukarıda bir ayarı değiştirmek için bir ayarı vardır
+1. Okların kuyruk ve başının şeklini değiştirmek için iki ayarı vardır
 
 İşte en basit kullanım senaryosu.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -165,17 +166,17 @@ workbook.Save("output.xls);
 
 
 ### **Numaralandırma Alanı ConsolidationFunction.DistinctCount Eklendi**
- Aspose.Cells for .NET 8.5.2, ConsolidationFunction.DistinctCount alanını kullanıma sundu.[Farklı Sayı birleştirme işlevini uygulama](/cells/tr/net/consolidation-function/) bir PivotTable'ın DataField'ında.
+Aspose.Cells for .NET 8.5.2, DistinctCount alanını [PivotTable'ın DataField'ına uygulamak için](/cells/tr/net/consolidation-function/) kullanılabilen bir konsolidasyon işlevini açığa çıkardı.
 
 {{% alert color="primary" %}} 
 
-Farklı Sayı birleştirme işlevi yalnızca Microsoft Excel 2013 tarafından desteklenir.
+Farklı Sayıda konsolidasyon fonksiyonu yalnızca Microsoft Excel 2013 tarafından desteklenmektedir.
 
 {{% /alert %}} 
-### **GridDesktop için Daha İyi Olay Yönetimi**
-Aspose.Cells.GridDesktop'un bu sürümü 4 yeni olay ortaya çıkardı. Bu olaylardan 2'si, GridDesktop'ta elektronik tablo dosyalarının yüklenmesinin farklı durumlarında tetiklenirken, diğer 2'si formüllerin hesaplanması sırasında tetiklenir.
+### **GridDesktop için Daha İyi Olay İşleme**
+Aspose.Cells.GridDesktop'ın bu sürümü, 4 yeni olayı ortaya çıkardı. Bu olaylardan 2'si GridDesktop'ta elektronik tablo dosyalarının farklı durumlarında tetiklenir, diğer 2'si ise formüllerin hesaplanmasında tetiklenir.
 
-Etkinlikler aşağıdaki gibi listelenmiştir.
+Olaylar aşağıdaki gibi listelenmiştir.
 
 1. GridDesktop.BeforeLoadFile
 1. GridDesktop.FinishLoadFile

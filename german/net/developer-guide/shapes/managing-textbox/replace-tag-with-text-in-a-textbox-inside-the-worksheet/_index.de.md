@@ -1,13 +1,14 @@
-﻿---
-title: Ersetzen Sie das Tag durch Text in einem Textfeld im Arbeitsblatt
+---
+title: Ersetzen Sie Tags durch Text in einem Textfeld innerhalb des Arbeitsblatts.
 type: docs
 weight: 1100
 url: /de/net/replace-tag-with-text-in-a-textbox-inside-the-worksheet/
 ---
-## **Mögliche Nutzungsszenarien**
-Textfelder können Tags haben, die zur Laufzeit durch Text ersetzt werden können, um sie den Anforderungen entsprechend zu konfigurieren. Tags können einige Labels sein, die in spitzen Klammern eingeschlossen sind '<' and '>. Es können mehrere Tags in einem einzelnen Textfeld vorhanden sein.
+
+## **Mögliche Verwendungsszenarien**
+Text boxes can have tags which can be replaced with some text at run time to configure them according to the requirement. Tags can be some labels enclosed in angle brackets '<' and '>'. There can be multiple tags within a single textbox.
 ## **Beispielcode**
-Der folgende Beispielcode ersetzt die Tags TAG_1 und TAG_2 mit etwas Text sagen Sie 'ys' und '1'. Beispieldatei zum Testen des folgenden Codes kann unter folgendem Link heruntergeladen werden:
+Im folgenden Beispielcode werden die Tags TAG_1 und TAG_2 durch Texte wie 'ys' und '1' ersetzt. Die Beispieldatei zum Testen des folgenden Codes kann vom folgenden Link heruntergeladen werden:
 
 [sampleReplaceTagWithText.xlsx](79527942.xlsx)
 

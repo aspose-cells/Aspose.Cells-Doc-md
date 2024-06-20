@@ -1,23 +1,24 @@
-﻿---
-title: Modifica la connessione dati SQL esistente utilizzando Aspose.Cells
+---
+title: Modificare la connessione dati SQL esistente utilizzando Aspose.Cells
 type: docs
 weight: 30
 url: /it/java/modify-existing-sql-data-connection-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells supporta la modifica della connessione dati SQL esistente. L'articolo spiegherà come utilizzare Aspose.Cells per modificare diverse proprietà di SQL Data Connection.
+Aspose.Cells supporta la modifica di una connessione dati SQL esistente. L'articolo spiegherà come utilizzare Aspose.Cells per modificare diverse proprietà di una connessione dati SQL.
 
-È possibile aggiungere o visualizzare le connessioni dati all'interno di Microsoft Excel seguendo**Dati > Connessioni** comando di menù.
+È possibile aggiungere o visualizzare le connessioni dati all'interno di Microsoft Excel seguendo il comando di menu **Dati > Connessioni**.
 
-Allo stesso modo, Aspose.Cells fornisce i mezzi per accedere e modificare le connessioni dati utilizzando la raccolta Workbook.getDataConnections().
+Allo stesso modo, Aspose.Cells fornisce i mezzi per accedere e modificare le Connessioni Dati utilizzando la collezione Workbook.getDataConnections().
 
 {{% /alert %}} 
-## **Modifica la connessione dati SQL esistente utilizzando Aspose.Cells**
-L'esempio seguente illustra l'utilizzo di Aspose.Cells per modificare la connessione dati SQL della cartella di lavoro. È possibile scaricare il file Excel di origine utilizzato in questo codice e il file Excel di output generato dal codice dai seguenti collegamenti.
+## **Modificare connessione dati SQL esistente utilizzando Aspose.Cells**
+Il seguente esempio illustra l'uso di Aspose.Cells per modificare la connessione dati SQL del foglio di lavoro. Puoi scaricare il file di origine di Excel utilizzato in questo codice e il file di output di Excel generato dal codice dai seguenti collegamenti.
 
-- [File Excel di origine](5472969.xlsx)
-- [File Excel di output](5472966.xlsx)
+- [File Excel di Origine](5472969.xlsx)
+- [File Excel di Output](5472966.xlsx)
 
 
 

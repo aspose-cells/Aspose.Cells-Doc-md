@@ -3,26 +3,27 @@ title: تحديد ما إذا تم تحميل الترخيص بنجاح
 type: docs
 weight: 260
 url: /ar/net/determining-if-the-license-is-loaded-successfully/
-description: تعرف على كيفية اكتشاف ما إذا تم تحميل الترخيص بنجاح من خلال Aspose.Cells لواجهات برمجة التطبيقات NET.
-keywords: How to Detect if the License is loaded successfully in C#, Determine if the License is loaded successfully using C#, Check if the License is loaded successfully via C#, check the status of license.
+description: تعلم كيفية اكتشاف ما إذا تم تحميل الترخيص بنجاح من خلال Aspose.Cells for NET APIs.
+keywords: كيفية اكتشاف ما إذا تم تحميل الترخيص بنجاح في C#، تحديد ما إذا تم تحميل الترخيص بنجاح باستخدام C#، التحقق مما إذا تم تحميل الترخيص بنجاح عبر C#، التحقق من حالة الترخيص.
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells يوفر[**Workbook.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) الخاصية التي يمكنك استخدامها لتحديد ما إذا تم تحميل الترخيص بنجاح أم لا. إذا قمت بالوصول إلى هذه الخاصية قبل تعيين الترخيص، فسوف تعود**خطأ شنيع** وإذا قمت باستدعاء هذه الخاصية بعد تعيين الترخيص، فسوف تعود**حقيقي** يشير إلى أنه تم تحميل الترخيص بنجاح.
+توفر Aspose.Cells [**Workbook.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) خاصية يمكنك استخدامها لتحديد ما إذا تم تحميل الترخيص بنجاح أم لا. إذا قمت بالوصول إلى هذه الخاصية قبل تعيين الترخيص، ستعيد **false**، وإذا قمت بالاتصال بهذه الخاصية بعد تعيين الترخيص، ستعيد **true** مشيرة إلى أن الترخيص تم تحميله بنجاح.
 
 {{% /alert %}}
 
-##  كود C# لتحديد ما إذا تم تحميل الترخيص بنجاح
+## كود C# لتحديد ما إذا تم تحميل الترخيص بنجاح
 
- الكود التالي يصل إلى[**Workbook.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed)الخاصية قبل تعيين الترخيص وترجع *خطأ**. ثم يقوم بتحميل الترخيص والوصول إلى الخاصية مرة أخرى والتي تُرجع الآن *true**.
+يقوم الكود التالي بالوصول إلى الخاصية [**Workbook.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) قبل تعيين ترخيص ويعيد **false**. ثم يقوم بتحميل الترخيص ويوصل إلى الخاصية مرة أخرى التي تعيد **true** الآن.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DeterminingLicenseLoading-DeterminingLicenseLoading.cs" >}}
 
-##  **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-فيما يلي إخراج وحدة التحكم (تصحيح الأخطاء) لنموذج التعليمات البرمجية أعلاه
+هنا مخرجات الكونسول (التصحيح) للشيفرة العينية أعلاه
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 False
 

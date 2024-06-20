@@ -1,25 +1,26 @@
-﻿---
-title: أوجد Aspose.Cells
+---
+title: تقييم Aspose.Cells
 type: docs
 weight: 70
 url: /ar/reportingservices/evaluate-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- يمكنك بسهولة تنزيل Aspose.Cells for Reporting Services للتقييم من[صفحة التحميل](https://downloads.aspose.com/cells/reportingservices) . تنزيل التقييم مماثل للتنزيل الذي تم شراؤه. يصبح الإصدار التقييمي مرخصًا بعد ذلك[تطبيق ترخيص](/cells/ar/reportingservices/licensing/).
+يمكنك تنزيل Aspose.Cells for Reporting Services بسهولة للتقييم من [صفحة التنزيل](https://downloads.aspose.com/cells/reportingservices). التنزيل التقييمي هو نفس التنزيل المشترى. الإصدار التقييمي يصبح مرخصًا ببساطة بعد [تطبيق ترخيص](/cells/ar/reportingservices/licensing/).
 
 {{% /alert %}}
 
-يوفر إصدار التقييم Aspose.Cells for Reporting Services (بدون ترخيص محدد) وظائف المنتج غير كاملة إلى حد ما. أحد القيود هو أنه يقوم دائمًا بحقن ورقة عمل إضافية مع علامة مائية للتقييم عند فتح / حفظ أي مستند جدول بيانات.
+يوفر الإصدار التقييمي من Aspose.Cells for Reporting Services (بدون ترخيص محدد) وظائف المنتج إلى حد ما ولكنها غير كاملة. أحد القيود هو أنه يحقن دائما ورقة عمل إضافية مع علامة مائية تقييم عند فتح / حفظ أي وثيقة جدول بيانات.
 
-![ما يجب القيام به: image_بديل_نص](evaluate-aspose-cells_1.png)
+![todo:image_alt_text](evaluate-aspose-cells_1.png)
 
-**شكل:** تم إنشاء جدول بيانات تجريبي بواسطة مكون Aspose.Cells
+**الشكل:** جدول بيانات تجريبي تم إنشاؤه بواسطة مكون Aspose.Cells
 
-ستقوم بحقن ورقة عمل علامة مائية إضافية للتقييم في المصنف.
+سيحقن ورقة عمل تقييمية إضافية إلى دفتر العمل.
 
-![ما يجب القيام به: image_بديل_نص](evaluate-aspose-cells_2.png)
+![todo:image_alt_text](evaluate-aspose-cells_2.png)
 
-**شكل:** تحذير التقييم - ورقة عمل إضافية
+**الشكل:** تحذير التقييم - ورقة عمل إضافية
 
- إذا كنت ترغب في اختبار Aspose.Cells for Reporting Services بدون قيود إصدار التقييم ، فيمكنك ذلك[طلب ترخيص مؤقت لمدة 30 يومًا](https://purchase.aspose.com/temporary-license).
+إذا كنت ترغب في اختبار Aspose.Cells for Reporting Services دون قيود الإصدار التقييمي، يمكنك [طلب ترخيص مؤقت لمدة 30 يومًا](https://purchase.aspose.com/temporary-license).

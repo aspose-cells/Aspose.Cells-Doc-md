@@ -1,28 +1,29 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.6.1
+---
+title: التغييرات العامة في واجهة برمجة التطبيقات العامة في Aspose.Cells 8.6.1
 type: docs
 weight: 200
 url: /ar/net/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.6.0 إلى 8.6.1 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة ، ولكن أيضًا وصف أي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات ل Aspose.Cells من الإصدار 8.6.0 إلى 8.6.1 التي قد تهم مطوري الوحدات / التطبيقات. يتضمن ليس فقط طرق عامة جديدة ومحدثة، وإضافة الفصول، ولكن أيضًا وصفًا لأي تغييرات في السلوك وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم لنوع هدف الارتباط HTML**
- كشف هذا الإصدار من Aspose.Cells for .NET API عن تعداد يسمى HtmlLinkTargetType مع خاصية جديدة HtmlSaveOptions.LinkTargetType التي تسمح معًا[اضبط النوع المستهدف للروابط في جدول البيانات أثناء التحويل إلى تنسيق HTML](/cells/ar/net/change-the-html-link-target-type/). القيم المحتملة لتعداد HtmlLinkTargetType كما يلي حيث تكون القيمة الافتراضية هي Self.
+## **واجهات برمجة التطبيقات الجديدة**
+### **دعم نوع الوصلة HTML المستهدف**
+تمت فتح تعداد Aspose.Cells for .NET API هذا تعداد بعنوان HtmlLinkTargetType جنباً إلى جنب مع خاصية جديدة HtmlSaveOptions.LinkTargetType التي تسمح معًا بتعيين نوع الهدف للروابط في ورقة البيانات أثناء التحويل إلى تنسيق HTML. القيم الممكنة لتعداد HtmlLinkTargetType هي كما يلي حيث القيمة الافتراضية هي Self.
 
 1. HtmlLinkTargetType.Blank: يفتح المستند / الصفحة المرتبطة في نافذة أو علامة تبويب جديدة.
-1. HtmlLinkTargetType.Parent: يفتح المستند / الصفحة المرتبطة في الإطار الأصل.
-1. HtmlLinkTargetType.Self: يفتح المستند / الصفحة المرتبطة في نفس الإطار حيث تم ربط الارتباط.
-1. HtmlLinkTargetType.Top: يفتح المستند / الصفحة المرتبطة في نص النافذة بالكامل.
+1. HtmlLinkTargetType.Parent: يفتح المستند / الصفحة المرتبطة في الإطار الأصلي.
+1. HtmlLinkTargetType.Self: يفتح المستند / الصفحة المرتبطة في نفس الإطار الذي تم النقر على الرابط فيه.
+1. HtmlLinkTargetType.Top: يفتح المستند / الصفحة المرتبطة في الجزء العلوي للنافذة.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -43,14 +44,14 @@ workbook.Save(outputFilePath, options);
 {{< /highlight >}}
 
 
-### **طريقة VbaModuleCollection.Remove مضافة**
-كشف Aspose.Cells for .NET 8.6.1 حملًا زائدًا آخر لطريقة VbaModuleCollection.Remove التي يمكنها الآن قبول مثيل من ورقة العمل لإزالة جميع وحدات VBA النمطية المرتبطة بورقة العمل المحددة.
+### **تمت إضافة VbaModuleCollection.Remove Method**
+قام Aspose.Cells for .NET 8.6.1 بفتح تحميل إضافي لطريقة VbaModuleCollection.Remove يمكنه الآن قبول مثيلًا من ورقة البيانات لإزالة جميع وحدات VBA المرتبطة بورقة البيانات المحددة.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -67,14 +68,14 @@ modules.Remove(workbook.Worksheets[0]);
 {{< /highlight >}}
 
 
-### **الطريقة RangeCollection.Add added**
-كشف Aspose.Cells for .NET 8.6.1 عن مجموعة RangeCollection. أضف طريقة يمكن استخدامها لإضافة كائنات النطاق إلى مجموعة النطاقات لورقة عمل معينة.
+### **تمت إضافة RangeCollection.Add Method**
+قام Aspose.Cells for .NET 8.6.1 بفتح طريقة RangeCollection.Add التي يمكن استخدامها لإضافة كائنات Range إلى مجموعة النطاقات لورقة بيانات معينة.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -95,14 +96,14 @@ ranges.Add(cells.CreateRange("A1:B4"));
 {{< /highlight >}}
 
 
-### **طريقة Cell: إضافة أحرف المجموعة**
- يمكن استخدام طريقة Cell.SetCharacters في[تحديث أجزاء النص المنسق](/cells/ar/net/access-and-update-the-portions-of-rich-text-of-cell/) لكائن Cell معطى. يتم استخدام طريقة Cell.GetCharacters للوصول إلى أجزاء النص ومن ثم يمكن إجراء التعديلات باستخدام طريقة Cell.SetCharacters بينما**يحصل** تقوم الطريقة بإرجاع مجموعة من كائنات FontSetting التي يمكن معالجتها لتعيين خصائص مختلفة ، اسم الخط ، ولون الخط ، والجرأة ، إلخ.**تعيين** يمكن استخدام الطريقة لتطبيق التغييرات.
+### **تمت إضافة طريقة Cell.SetCharacters**
+يمكن استخدام الطريقة Cell.SetCharacters لتحديث جزء من النص الغني لكائن Cell معين. ويُستخدم الطريقة Cell.GetCharacters للوصول إلى أجزاء من النص ثم يمكن القيام بالتعديلات باستخدام الطريقة Cell.SetCharacters في حين أن الطريقة **Get** تُرجع مصفوفة من كائنات FontSetting التي يمكن التلاعب بها لتعيين خصائص مختلفة مثل اسم الخط، لون الخط، العرض إلخ ويمكن استخدام الطريقة **Set** لتطبيق التغييرات.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -118,7 +119,7 @@ Cell cell = worksheet.Cells["A1"];
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.GetCharacters();
+FontSetting[] settings = cell.GetCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -131,14 +132,14 @@ cell.SetCharacters(settings);
 {{< /highlight >}}
 
 
-### **خاصية VbaProject.IsSigned**
- كشف Aspose.Cells for .NET 8.6.1 عن VbaProject.signed الخاصية التي يمكن استخدامها[اختبار ما إذا كان VbaProject في مصنف تم توقيعه أم لا](/cells/ar/net/check-if-vba-project-in-a-workbook-is-signed/)ترجع خاصية النوع المنطقي "صحيح" إذا تم توقيع المشروع.
+### **تمت إضافة خاصية VbaProject.IsSigned**
+Aspose.Cells for .NET 8.6.1 قد عرض خاصية VbaProject.IsSigned التي يمكن استخدامها لـ [اختبار ما إذا كان مشروع VbaProject في الورقة العمل موقعًا أم لا](/cells/ar/net/check-if-vba-project-in-a-workbook-is-signed/). تقوم الخاصية من نوع Boolean بإرجاع قيمة صحيحة إذا كان المشروع موقعًا.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -167,9 +168,9 @@ else
 }
 
 {{< /highlight >}}
-## **واجهات برمجة التطبيقات المعدلة**
-### **الطريقة Cell.GetFormatConditions Modified**
-مع إصدار v8.6.1 ، قام Aspose.Cells for .NET API بتعديل نوع الإرجاع لطريقة Cell.GetFormatConditions التي تقوم الآن بإرجاع مصفوفة من النوع FormatConditionCollection.
-## **واجهات برمجة التطبيقات التي عفا عليها الزمن**
-### **مصنف الأسلوب .CheckWriteProtectedPassword قديم**
-مع إصدار v8.6.1 ، تم وضع علامة على أسلوب Workbook.CheckWriteProtectedPassword بأنه مهمل. يُنصح باستخدام طريقة WorkbookSettings.WriteProtection.ValidatePassword التي يمكنها قبول قيمة سلسلة كمعامل وإرجاع قيمة منطقية إذا كانت كلمة المرور تتطابق مع كلمة المرور المحددة مسبقًا لجدول البيانات.
+## **تم تعديل واجهات برمجة التطبيقات**
+### **تم تعديل طريقة Cell.GetFormatConditions**
+مع إصدار الإصدار 8.6.1، فإن API Aspose.Cells for .NET قد قام بتعديل نوع القيمة المُرجعة لطريقة Cell.GetFormatConditions التي تُرجع الآن مصفوفة من نوع FormatConditionCollection.
+## **واجهات برمجة التطبيق القديمة**
+### **تم تهجير طريقة Workbook.CheckWriteProtectedPassword**
+مع إصدار الإصدار 8.6.1، فقد تم وضع علامة تهجير على طريقة Workbook.CheckWriteProtectedPassword. من المستحسن استخدام طريقة WorkbookSettings.WriteProtection.ValidatePassword التي يمكنها قبول قيمة سلسلة كقيمة معلمة وتُرجع قيمة Boolean إذا كانت كلمة المرور مطابقة لكلمة المرور المحددة لجدول البيانات.

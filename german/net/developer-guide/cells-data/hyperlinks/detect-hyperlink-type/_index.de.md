@@ -1,29 +1,30 @@
 ---
-title: Hyperlink-Typ erkennen
+title: Hyperlink Typ erkennen
 type: docs
 weight: 160
 url: /de/net/detect-hyperlink-type/
-description: Erfahren Sie, wie Sie den Hyperlink-Typ mithilfe von Aspose.Cells for .NET API erkennen.
-keywords: Detect hyperlink type, Detect the type of hyperlink, Get the type of hyperlink
+description: Erfahren Sie, wie man den Hyperlink Typ über die Aspose.Cells for .NET API erkennt.
+keywords: Hyperlink Typ erkennen, Den Typ des Hyperlinks erkennen, Den Typ des Hyperlinks erhalten
 ---
-##  **Hyperlink-Typ erkennen**
 
- Eine Excel-Datei kann verschiedene Arten von Hyperlinks enthalten, z. B. externe Links, Zellverweise, Dateipfade usw. Aspose.Cells unterstützt die Funktion zur Erkennung des Hyperlinktyps. Die Arten von Hyperlinks werden durch dargestellt[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Aufzählung. Der[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)Die Aufzählung hat die folgenden Mitglieder.
+## **Hyperlink-Typ erkennen**
+
+Eine Excel-Datei kann verschiedene Arten von Hyperlinks wie externe Links, Zellverweise, Dateipfade usw. enthalten. Aspose.Cells unterstützt die Funktion, den Typ des Hyperlinks zu erkennen. Die Arten von Hyperlinks werden durch die [**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)-Aufzählung repräsentiert. Die [**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype)-Aufzählung enthält die folgenden Elemente.
 
 - Extern: Externer Link
-- FilePath: Lokaler und vollständiger Pfad zu Dateien/Ordnern.
-- Email Email
-- CellReference: Link zur Zelle oder zum benannten Bereich.
+- Dateipfad: Lokaler und vollständiger Pfad zu Dateien/Ordnern.
+- E-Mail: E-Mail
+- Zellverweis: Verknüpfung zu Zelle oder benanntem Bereich.
 
- Um die Art des Hyperlinks zu überprüfen, muss der[**Hyperlink**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) Klasse bietet a[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) Eigenschaft mit einem Rückgabetyp von[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Der folgende Codeausschnitt demonstriert die Verwendung von[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)Eigentum, indem Sie dies nutzen[Quell-Excel-Datei](94896195.xlsx).
+Um den Hyperlink-Typ zu überprüfen, enthält die {0}-Klasse eine Eigenschaft {1} mit einem Rückgabetyp von {2}. Der folgende Codeausschnitt veranschaulicht die Verwendung der Eigenschaft {3} anhand dieser {source excel file} (94896195.xlsx).
 
-###  Quellcode
+### Quellcode
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-DetectLinkTypes-1.cs" >}}
 
-Das Folgende ist die Ausgabe, die durch das oben angegebene Code-Snippet generiert wurde.
+Das folgende ist die Ausgabe, die durch den obigen Codeausschnitt generiert wird.
 
-###  Konsolenausgabe
+### Konsolenausgabe
 ```
 LinkTypes.xlsx: FilePath </br>
 C:\Windows\System32\cmd.exe: FilePath </br>

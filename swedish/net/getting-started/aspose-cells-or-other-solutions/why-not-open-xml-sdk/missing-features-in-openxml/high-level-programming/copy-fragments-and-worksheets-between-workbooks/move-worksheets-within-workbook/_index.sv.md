@@ -1,14 +1,15 @@
-﻿---
-title: Flytta kalkylblad i arbetsboken
+---
+title: Flytta kalkylblad inom arbetsbok
 type: docs
 weight: 30
 url: /sv/net/move-worksheets-within-workbook/
 ---
-Aspose.Cells tillhandahåller en metod, Aspose.Cells.Worksheet.MoveTo(), som används för att flytta ett kalkylblad till en annan plats i kalkylarket. Metoden tar målkalkylbladets index som en parameter.
 
-Följande exempel visar hur du flyttar ett kalkylblad till en annan plats i arbetsboken.
+Aspose.Cells tillhandahåller en metod, Aspose.Cells.Worksheet.MoveTo(), som används för att flytta ett kalkylblad till en annan plats i kalkylen. Metoden tar målkalkylbladets index som parameter.
 
-{{< highlight "csharp" >}}
+Det följande exemplet visar hur man flyttar ett kalkylblad till en annan plats inom arbetsboken.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -39,6 +40,6 @@ worksheet.MoveTo(2);
 wb.Save(FileName);
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)

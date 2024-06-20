@@ -1,124 +1,125 @@
 ---
 title: Ausrichtungseinstellungen
-description: In der Bibliothek Aspose.Cells können Sie Zellenausrichtungseinstellungen verwenden, um das Layout und die Anzeige von Text anzupassen. Durch Anpassen von Einstellungen wie horizontaler Ausrichtung, vertikaler Ausrichtung und Textumbruch haben Sie mehr Kontrolle darüber, wie Text in Zellen fließt. Dieses Dokument stellt Ihnen detaillierte Schritte und Beispielcode zur Verfügung, damit Sie schnell verstehen, wie Sie Aspose.Cells für Zellenausrichtungseinstellungen verwenden.
-keywords: Aspose.Cells, cell alignment, horizontal alignment, vertical alignment, text wrapping
+description: In der Aspose.Cells Bibliothek können Sie Zellenausrichtungseinstellungen verwenden, um das Layout und die Anzeige von Text anzupassen. Durch die Anpassung von Einstellungen wie horizontale Ausrichtung, vertikale Ausrichtung und Textumbruch haben Sie mehr Kontrolle darüber, wie der Text in den Zellen fließt. Dieses Dokument bietet Ihnen detaillierte Schritte und Beispielcode, um schnell zu erfassen, wie Sie Aspose.Cells für Zellenausrichtungseinstellungen verwenden.
+keywords: Aspose.Cells, Zellenausrichtung, horizontale Ausrichtung, vertikale Ausrichtung, Textumbruch
 type: docs
 weight: 20
 url: /de/net/cells-alignment-settings/
 ---
-##  **Ausrichtungseinstellungen konfigurieren**
 
-###  **Ausrichtungseinstellungen in Microsoft Excel**
+## **Konfigurieren von Ausrichtungseinstellungen**
 
-Jeder, der Microsoft Excel zum Formatieren von Zellen verwendet hat, ist mit den Ausrichtungseinstellungen in Microsoft Excel vertraut.
+### **Ausrichtungseinstellungen in Microsoft Excel**
 
-Wie Sie der obigen Abbildung entnehmen können, gibt es verschiedene Arten der Ausrichtung:
+Jeder, der Microsoft Excel verwendet hat, um Zellen zu formatieren, wird mit den Ausrichtungseinstellungen in Microsoft Excel vertraut sein.
 
-- Textausrichtung (horizontal und vertikal)
-- Vertiefung.
-- Orientierung.
-- Textkontrolle.
-- Textrichtung.
+Wie Sie aus der obigen Abbildung sehen können, gibt es verschiedene Arten von Ausrichtungsoptionen:
 
-Alle diese Ausrichtungseinstellungen werden von Aspose.Cells vollständig unterstützt und werden im Folgenden ausführlicher erläutert.
+- Textausrichtung (horizontal & vertikal)
+- Einrückung
+- Orientierung
+- Textkontrolle
+- Textrichtung
 
-###  **Ausrichtungseinstellungen in Aspose.Cells**
+Alle diese Ausrichtungseinstellungen werden vollständig von Aspose.Cells unterstützt und werden im Folgenden näher erläutert.
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , das eine Excel-Datei darstellt. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Jedes Element in der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Die Sammlung stellt ein Objekt dar[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse.
+### **Ausrichtungseinstellungen in Aspose.Cells**
 
- Aspose.Cells bietet[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) Und[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) Methoden für die[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Klasse, die zum Abrufen und Festlegen der Formatierung einer Zelle verwendet wird. Der[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)Die Klasse bietet nützliche Eigenschaften zum Konfigurieren von Ausrichtungseinstellungen.
+Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), die eine Excel-Datei darstellt. Die Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) enthält eine [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) repräsentiert. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) bietet eine [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-Sammlung. Jedes Element in der [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-Sammlung stellt ein Objekt der Klasse [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) dar.
 
- Wählen Sie mithilfe von einen beliebigen Textausrichtungstyp aus[**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) Aufzählung. Die vordefinierten Textausrichtungstypen im[**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype)Aufzählung sind:
+Aspose.Cells bietet Methoden zum [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) und [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle), um die Formatierung einer Zelle abzurufen und festzulegen. Die Klasse [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) stellt nützliche Eigenschaften zur Konfiguration von Ausrichtungseinstellungen bereit.
+
+Wählen Sie einen beliebigen Textausrichtungstyp mithilfe der Aufzählung [**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) aus. Die vordefinierten Textausrichtungstypen in der Aufzählung [**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) lauten:
 
 |**Textausrichtungstypen**|**Beschreibung**|
 | :- | :- |
-|Unten|Stellt die Textausrichtung unten dar|
-|Center|Stellt die Textausrichtung in der Mitte dar|
-|CenterAcross|Stellt die zentrierte Textausrichtung dar|
-|Verteilt|Stellt die verteilte Textausrichtung dar|
-|Füllen|Stellt die Ausrichtung des Fülltexts dar|
-|Allgemein|Stellt die allgemeine Textausrichtung dar|
-|Rechtfertigen|Stellt die Textausrichtung im Blocksatz dar|
-|Links|Stellt die linke Textausrichtung dar|
-|Rechts|Stellt die rechte Textausrichtung dar|
-|Spitze|Stellt die Textausrichtung oben dar|
-|BegründetNiedrig|Richtet den Text an einer angepassten Kashida-Länge für arabischen Text aus.|
-|ThailändischDistributed|Verteilt insbesondere thailändischen Text, da jedes Zeichen als Wort behandelt wird.|
+|Bottom|Stellt die untere Textausrichtung dar
+|Center|Stellt die zentrale Textausrichtung dar
+|CenterAcross|Stellt die zentrale überkreuzte Textausrichtung dar
+|Distributed|Stellt die verteilte Textausrichtung dar
+|Fill|Stellt die Fülltextausrichtung dar
+|General|Stellt die allgemeine Textausrichtung dar
+|Justify|Stellt die Textausrichtung als blocksatz dar
+|Left|Stellt die linksbündige Textausrichtung dar
+|Right|Stellt die rechtsbündige Textausrichtung dar
+|Top|Stellt die obere Textausrichtung dar
+|JustifiedLow|Richtet den Text mit einer angepassten Kachidalänge für arabischen Text aus.
+|ThaiDistributed|Verteilt insbesondere thailändischen Text, da jeder Buchstabe als Wort behandelt wird.
 
 {{% alert color="primary" %}}
 
- Sie können die Einstellung „Verteilt ausrichten“ auch mithilfe von anwenden[**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/isjustifydistributed) Eigentum.
+Sie können auch die Blocksatzverteilung mit der Eigenschaft [**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/isjustifydistributed) anwenden.
 
 {{% /alert %}}
 
-####  **Horizontale Ausrichtung**
+#### **Horizontale Ausrichtung**
 
- Benutzen Sie die[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Objekt[**HorizontaleAusrichtung**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/horizontalalignment)Eigenschaft, um den Text horizontal auszurichten.
+Verwenden Sie die Eigenschaft [**HorizontalAlignment**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/horizontalalignment) des Objekts [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style), um den Text horizontal auszurichten.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentHorizontal-1.cs" >}}
 
-####  **Vertikale Ausrichtung**
+#### **Vertikale Ausrichtung**
 
- Verwenden Sie ähnlich wie bei der horizontalen Ausrichtung die[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Objekt[**Vertikale Ausrichtung**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/verticalalignment)Eigenschaft, um den Text vertikal auszurichten.
+Ähnlich wie bei der horizontalen Ausrichtung verwenden Sie die Eigenschaft [**VerticalAlignment**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/verticalalignment) des Objekts [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style), um den Text vertikal auszurichten.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentVertical-1.cs" >}}
 
-####  **Vertiefung**
+#### **Einrückung**
 
- Es ist möglich, die Einrückungsstufe des Textes in einer Zelle mit festzulegen[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Objekt[**Einzugsebene**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/indentlevel)Eigentum.
+Es ist möglich, den Einrückungsgrad des Textes in einer Zelle mit der [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) -Objekteigenschaft [**IndentLevel**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/indentlevel) festzulegen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Indentation-1.cs" >}}
 
-####  **Orientierung**
+#### **Ausrichtung**
 
- Legen Sie die Ausrichtung (Rotation) des Textes in einer Zelle mit fest[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Objekt[**Drehwinkel**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/rotationangle)Eigentum.
+Legen Sie die Ausrichtung (Rotation) des Textes in einer Zelle mit der [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) -Objekteigenschaft [**RotationAngle**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/rotationangle) fest.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Orientation-1.cs" >}}
 
-####  **Textkontrolle**
+#### **Textsteuerung**
 
-Im folgenden Abschnitt wird erläutert, wie Sie Text steuern, indem Sie den Textumbruch, die Größe anpassen und andere Formatierungsoptionen festlegen.
+Im Folgenden wird erläutert, wie Sie Text steuern können, indem Sie Textrahmen, Anpassung an die Größe und andere Formatierungsoptionen festlegen.
 
-#####  **Text umschließen**
+##### **Textumschlag**
 
- Das Umschließen von Text in einer Zelle erleichtert das Lesen: Die Höhe der Zelle wird so angepasst, dass sie in den gesamten Text passt, anstatt ihn abzuschneiden oder in benachbarte Zellen zu überlaufen. Aktivieren oder deaktivieren Sie den Textumbruch mit[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Objekt[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)Eigentum.
+Das Umwickeln von Text in einer Zelle erleichtert das Lesen: Die Höhe der Zelle passt sich an, um den gesamten Text aufzunehmen, anstatt ihn abzuschneiden oder über benachbarte Zellen überlaufen zu lassen. Legen Sie das Textumwickeln mit der [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)-Objekteigenschaft [**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) ein oder aus.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 
-#####  **Auf die richtige Größe schrumpfen**
+##### **Anpassen an Größe**
 
- Eine Option zum Umbrechen von Text in einem Feld besteht darin, die Textgröße zu verkleinern, um sie an die Abmessungen einer Zelle anzupassen. Dies geschieht durch die Einstellung[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Objekt[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)Eigenschaft auf *true**.
+Eine Option zum Umwickeln von Text in einem Feld ist das Verkleinern der Textgröße, um sich an die Abmessungen einer Zelle anzupassen. Dies erfolgt durch Festlegen der [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)-Objekteigenschaft [**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) auf **true**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-ShrinkingToFit-1.cs" >}}
 
-#####  **Zusammenführen von Cells**
+##### **Zellen zusammenführen**
 
- Wie Microsoft Excel unterstützt Aspose.Cells das Zusammenführen mehrerer Zellen zu einer. Aspose.Cells bietet zwei Ansätze für diese Aufgabe. Eine Möglichkeit besteht darin, die anzurufen[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung[**Verschmelzen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) Methode. Der[**Verschmelzen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)Die Methode benötigt die folgenden Parameter, um die Zellen zusammenzuführen:
+Wie Microsoft Excel unterstützt Aspose.Cells das Zusammenführen mehrerer Zellen. Aspose.Cells bietet zwei Ansätze für diese Aufgabe. Ein Weg besteht darin, die [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-Sammlungsmethode [**Merge**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) aufzurufen. Die [**Merge**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)-Methode akzeptiert die folgenden Parameter zum Zusammenführen der Zellen:
 
-- Erste Reihe: die erste Reihe, ab der mit dem Zusammenführen begonnen werden soll.
-- Erste Spalte: die erste Spalte, ab der mit der Zusammenführung begonnen werden soll.
-- Anzahl der Zeilen: Die Anzahl der zusammenzuführenden Zeilen.
-- Anzahl der Spalten: Die Anzahl der zusammenzuführenden Spalten.
+- Erste Zeile: Die erste Zeile, ab der das Zusammenführen beginnt.
+- Erste Spalte: Die erste Spalte, ab der das Zusammenführen beginnt.
+- Anzahl der Zeilen: Die Anzahl der zu zusammenführenden Zeilen.
+- Anzahl der Spalten: Die Anzahl der zu zusammenführenden Spalten.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
 
-Die andere Möglichkeit besteht darin, zuerst die anzurufen[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) Methode zum Erstellen eines Bereichs der zusammenzuführenden Zellen. Der[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) Die Methode verwendet denselben Parametersatz wie die[**Verschmelzen**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) Methode, die oben besprochen wurde, und gibt a zurück[**Reichweite**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt. Der[**Reichweite**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt bietet auch a[**Verschmelzen**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) Methode, die den in der angegebenen Bereich zusammenführt[**Reichweite**](https://reference.aspose.com/cells/net/aspose.cells/range)Objekt.
+Der andere Weg besteht darin, zuerst die [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-Sammlungsmethode [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) aufzurufen, um einen Bereich der zu zusammenführenden Zellen zu erstellen. Die [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index)-Methode akzeptiert denselben Satz von Parametern wie die zuvor diskutierte [**Merge**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index)-Methode und gibt ein [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range)-Objekt zurück. Das [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range)-Objekt bietet auch eine [**Merge**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge)-Methode, die den im [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range)-Objekt angegebenen Bereich zusammenführt.
 
-#####  **Textrichtung**
+##### **Textausrichtung**
 
-Es ist möglich, die Lesereihenfolge von Text in Zellen festzulegen. Die Lesereihenfolge ist die visuelle Reihenfolge, in der Zeichen, Wörter usw. angezeigt werden. Beispielsweise ist Englisch eine von links nach rechts verlaufende Sprache, während Arabisch eine von rechts nach links verlaufende Sprache ist.
+Es ist möglich, die Lesereihenfolge von Text in Zellen festzulegen. Die Lesereihenfolge gibt die visuelle Reihenfolge an, in der Zeichen, Wörter usw. angezeigt werden. Zum Beispiel ist Englisch eine von links nach rechts lesbare Sprache, während Arabisch eine von rechts nach links lesbare Sprache ist.
 
- Die Lesereihenfolge wird mit festgelegt[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Objekt[**Textrichtung**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection) Eigentum. Aspose.Cells bietet vordefinierte Textrichtungstypen im[**TextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype)Aufzählung.
+Die Lesereihenfolge wird mit der [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)-Objekteigenschaft [**TextDirection**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection) festgelegt. Aspose.Cells bietet vordefinierte Textausrichtungstypen in der [**TextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype)-Enumeration.
 
-|**Textrichtungstypen**|**Beschreibung**|
+|**Text Direction Types**|**Beschreibung**|
 | :- | :- |
-|Kontext|Die Lesereihenfolge entspricht der Sprache des ersten eingegebenen Zeichens|
-|Links nach rechts|Lesereihenfolge von links nach rechts|
-|Rechts nach links|Lesereihenfolge von rechts nach links|
+|Context|Die Lese-Reihenfolge, die mit der Sprache des ersten eingegebenen Zeichens übereinstimmt|
+|LeftToRight|Lesereihenfolge von links nach rechts|
+|RightToLeft|Lesereihenfolge von rechts nach links|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChangeTextDirection-1.cs" >}}
 
-##  **Vorabthemen**
-- [Ändern Sie die Ausrichtung Cells und behalten Sie die vorhandene Formatierung bei](/cells/de/net/change-cells-alignment-and-keep-existing-formatting/)
-- [Zeilenumbrüche und Textumbruch](/cells/de/net/line-breaks-and-text-wrapping/)
+## **Erweiterte Themen**
+- [Zellenausrichtung ändern und vorhandenes Format beibehalten](/cells/de/net/change-cells-alignment-and-keep-existing-formatting/)
+- [Zeilenumbrüche und Textumbrüche](/cells/de/net/line-breaks-and-text-wrapping/)
 

@@ -1,16 +1,17 @@
-﻿---
-title: Implementazione di intervalli non sequenziali
+---
+title: Implementazione di Ranges Non Sequenziali
 type: docs
 weight: 700
 url: /it/net/implementing-non-sequential-ranges/
 ---
+
 {{% alert color="primary" %}} 
 
-Normalmente, gli intervalli denominati sono rettangolari con celle continue e adiacenti l'una all'altra. Ma a volte, potrebbe essere necessario utilizzare un intervallo di celle non sequenziale in cui le celle non sono adiacenti. Aspose.Cells supporta la creazione di un intervallo denominato con celle non adiacenti.
+Normalmente, i range nominati sono rettangolari con celle continue e adiacenti l'una all'altra. Ma a volte potresti dover utilizzare un intervallo di celle non sequenziale in cui le celle non sono adiacenti. Aspose.Cells supporta la creazione di un intervallo nominato con celle non adiacenti.
 
 {{% /alert %}} 
 
-L'esempio di codice seguente mostra come creare un intervallo non sequenziale denominato con Aspose.Cells for .NET.
+Il seguente esempio di codice mostra come creare un intervallo non sequenziale denominato con Aspose.Cells for .NET.
 
 
 

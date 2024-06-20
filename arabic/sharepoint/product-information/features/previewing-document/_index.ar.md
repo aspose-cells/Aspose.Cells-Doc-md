@@ -1,25 +1,26 @@
-﻿---
-title: معاينة الوثيقة
+---
+title: معاينة المستند
 type: docs
 weight: 40
 url: /ar/sharepoint/previewing-document/
 ---
-يدعم Aspose.Cells لـ Share Point معاينة المستندات مباشرة من SharePoint. تدعم التنسيقات التالية المعاينة:
 
-- XLS-Microsoft إكسل 97-2003
-- XLSX - Office Open XML
-- XLSM، XLTX، XLTM - Office Open XML
-- XML - Microsoft Excel SpreadsheetML
+تدعم Aspose.Cells for SharePoint معاينة المستندات مباشرةً من SharePoint. الصيغ التالية تدعم المعاينة:
 
-**اختيار وثيقة لمعاينتها** 
+- XLS – Microsoft Excel 97 - 2003
+- XLSX – Office Open XML
+- XLSM, XLTX, XLTM – Office Open XML
+- XML – Microsoft Excel SpreadsheetML
 
-![ما يجب القيام به: image_بديل_نص](previewing-document_1.png)
+**تحديد مستند للاستعراض المسبق** 
+
+![todo:image_alt_text](previewing-document_1.png)
 
 
 
 **معاينة المستند من داخل مكتبة SharePoint** 
 
-![ما يجب القيام به: image_بديل_نص](previewing-document_2.png)
+![todo:image_alt_text](previewing-document_2.png)
 
 
 

@@ -1,43 +1,48 @@
-﻿---
-title: Webbtillägg - Office-tillägg
+---
+title: Webbutökningar  Office tillägg
 type: docs
 weight: 120
 url: /sv/java/web-extensions-office-add-ins/
 ---
-Webbtillägg utökar Office-program och interagerar med innehållet i Office-dokument. Webbtillägg lägger till ytterligare funktionalitet till Office-klienten för att förbättra användarupplevelsen och produktiviteten.
 
-Aspose.Cells ger också möjligheten att arbeta med webbtillägg.
+Webbutökningar utökar Office-applikationer och interagerar med innehållet i Office-dokument. Webbutökningar lägger till ytterligare funktionalitet till Office-klienten för att förbättra användarupplevelsen och produktiviteten.
 
-## **Lägg till webbtillägg**
+Aspose.Cells ger också möjligheten att arbeta med webbutökningar.
 
-Du kan lägga till webbtillägg (Office-tillägg) i Excel genom att klicka på**Föra in**fliken och klicka sedan på**Lagra**/**Skaffa tillägg**länk. I rutan Tillägg, bläddra efter det tillägg du vill ha och lägg till det.
+## **Lägg till webbförlängning**
 
-Aspose.Cells tillhandahåller också funktionen för att lägga till webbtillägg genom att använda klasserna WebExtension och WebExtensionTaskPane. Följande kodexempel visar användningen av klasserna WebExtension och WebExtensionTaskPane för att lägga till ett webbtillägg till Excel-fil. Vänligen se[utdata Excel-fil](AddWebExtension_Out.xlsx)genereras av koden för referens.
+Du kan lägga till Webbförlängningar (Office-tillägg) i Excel genom att klicka på fliken **Infoga** och sedan klicka på länken **Butik**/**Hämta tillägg**. I fönstret för tillägg, bläddra efter tillägget du vill ha och lägg till det.
+
+Aspose.Cells har också funktionen att lägga till webbförlängningar genom att använda klasserna WebExtension och WebExtensionTaskPane. Följande kodexempel demonstrerar användningen av klasserna WebExtension och WebExtensionTaskPane för att lägga till en webbförlängning till Excel-filen. Vänligen se den genererade [utdatafilen Excel](AddWebExtension_Out.xlsx) för referens.
 
 ### **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AddWebExtension-1.java" >}}
 
-## **Få tillgång till information om webbtillägg**
+## **Få tillgång till information om webbförlängning**
 
-Aspose.Cells ger möjlighet att komma åt informationen om webbtillägg i Excel-fil. Följande kodexempel visar hur du kommer åt webbtilläggsinformation genom att ladda[exempel på Excel-fil](WebExtensionsSample.xlsx). Se konsolutgången som genereras av koden för referens.
+Aspose.Cells ger möjlighet att få tillgång till information om webbförlängningar i Excel-filen. Följande kodexempel demonstrerar hur man får tillgång till information om webbförlängning genom att ladda [exempel Excel-filen](WebExtensionsSample.xlsx). Vänligen se konsolens utdata som genereras av koden för referens.
 
 ### **Exempelkod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AccessWebExtensionInformation-1.java" >}}
 
-### **Konsolutgång**
+### **Konsoloutput**
 
-Bredd: 350
+{{< highlight java >}}
 
-IsVisible: Sant
+Width: 350
 
-IsLocked: Falskt
+IsVisible: True
 
-DockState: höger
+IsLocked: False
 
-Butiksnamn: sv-US
+DockState: right
 
-Butikstyp: OMEX
+StoreName: en-US
+
+StoreType: OMEX
 
 WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
+
+{{< /highlight >}}

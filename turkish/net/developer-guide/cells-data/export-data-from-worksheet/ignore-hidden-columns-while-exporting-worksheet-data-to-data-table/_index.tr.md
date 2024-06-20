@@ -1,17 +1,18 @@
 ---
-title: Çalışma Sayfası Verilerini Veri Tablosuna Aktarırken Gizli Sütunları Yoksay
+title: Çalışma Sayfasından Veri Tablosuna Veri Aktarırken Gizli Sütunları Yoksay
 type: docs
 weight: 330
 url: /tr/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/
-description: Aspose.Cells for .NET API numaralı telefondan Çalışma Sayfası Verilerini Veri Tablosuna Dışa Aktarırken Gizli Sütunları Nasıl Yoksayacağınızı öğrenin.
-keywords: Export Visible Columns Data to DataTable, Export unhidden Columns Data to DataTable, Export Columns Data to DataTable and Exclude hidden Columns, Ignore Hidden Columns while Exporting Worksheet Data to Data Table
+description: Aspose.Cells for .NET API aracılığıyla Çalışsayetteki Veriye Göz Ardı Etmeyi Öğrenin.
+keywords: Görünür Sütun Verilerini DataTable e Aktar, gizlenmemiş Sütun Verilerini DataTable e Aktar, Sütun Verilerini DataTable e Aktar ve Gizli Sütunları Hariç Tut, Excel Veri Çalışsayesinden DataTable e Veri Aktarırken Gizli Sütunları Göz Ardı Et
 ---
+
 {{% alert color="primary" %}}
 
- Bazen çalışma sayfası verilerini bir veri tablosuna aktarırken gizli sütunları göz ardı etmek isteyebilirsiniz. Aspose.Cells'i kullanarak bunu ayarlayarak elde edebilirsiniz.[**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) ile**doğru**. Varsayılan olarak değeri **false**'dir, dolayısıyla onu **true olarak ayarlamanız gerekir** gizli sütunları yok saymak için.
+Bazı durumlarda, çalışsayedeki veriyi data table'a aktarırken gizli sütunları göz ardı etmek isteyebilirsiniz. Aspose.Cells kullanarak bunu [**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) özelliğini **true** olarak ayarlayarak başarabilirsiniz. Varsayılan olarak değeri **false** olduğundan, gizli sütunları göz ardı etmek için **true** olarak ayarlamalısınız.
 
 {{% /alert %}}
 
-Aşağıdaki örnek kod, kullanımını açıklamaktadır.[**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns)çalışma sayfası verilerinin tamamını veri tablosuna aktarırken gizli sütunları göz ardı etme özelliği.
+Aşağıdaki örnek kod, çalışsayedeki tüm veriyi data table'e aktarırken gizli sütunları göz ardı etme kullanımını açıklamaktadır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}

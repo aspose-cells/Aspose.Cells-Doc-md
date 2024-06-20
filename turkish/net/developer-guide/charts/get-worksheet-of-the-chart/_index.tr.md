@@ -1,24 +1,25 @@
 ---
-title: Grafiğin Çalışma Sayfasını Alın
-description: Aspose.Cells for .NET numaralı telefonu kullanarak bir Excel grafiğiyle ilişkili çalışma sayfasını nasıl alacağınızı öğrenin. Kılavuzumuz size çalışma sayfasına nasıl erişeceğinizi ve grafiğin temel verilerini değiştirmek için üzerinde işlemler gerçekleştireceğinizi gösterecektir.
-keywords: Aspose.Cells for .NET, Excel charts, worksheets, data manipulation, underlying data, operations.
+title: Grafik Çalışsayısını Al
+description: Bir Excel tablosu grafiği ile ilişkilendirilmiş çalışsayının nasıl alınacağını Aspose.Cells for .NET kullanarak öğrenin. Rehberimiz, çalışsayısına nasıl erişeceğinizi ve tablonun altındaki verileri manipüle etmek için üzerinde işlemler yapacağınızı size gösterecektir.
+keywords: Aspose.Cells for .NET, Excel grafikleri, çalışsayıları, veri manipülasyonu, altta yatan veri, işlemler.
 type: docs
 weight: 1000
 url: /tr/net/get-worksheet-of-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
- Bazen bir çalışma sayfasına bir grafiğin referansından erişmek istersiniz. Aspose.Cells şunları sağlar[**Grafik.Çalışma Sayfası**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) Grafiği içeren çalışma sayfasının referansını döndüren özellik.
+Bazen, grafik referansından bir çalışsayısına erişmek istersiniz. Aspose.Cells, grafiği içeren çalışsayısının referansını döndüren [**Chart.Worksheet**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) özelliğini sağlar.
 
 {{% /alert %}}
 
- Aşağıdaki örnek, nasıl kullanılacağını gösterir[**Grafik.Çalışma Sayfası**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) mülk. Kod önce çalışma sayfasının adını yazdırır, ardından çalışma sayfasındaki ilk grafiğe erişir. Daha sonra çalışma sayfasının adını kullanarak tekrar yazdırır.[**Grafik.Çalışma Sayfası**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)mülk.
+Aşağıdaki örnek, [**Chart.Worksheet**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) özelliğinin nasıl kullanılacağını göstermektedir. Kod öncelikle çalışsayısının adını yazdırır, daha sonra çalışsayısı üzerindeki ilk grafiğe erişir. Daha sonra [**Chart.Worksheet**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) özelliğini kullanarak tekrar çalışsayı adını yazdırır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GetWorksheetOfTheChart-GetWorksheetOfTheChart.cs" >}}
 
-Örnek kodun oluşturduğu konsol çıktısı aşağıdadır. Gördüğünüz gibi her iki seferde de aynı çalışma sayfası adını yazdırıyor.
+Örnek kodun sonucunda ortaya çıkan konsol çıktısı aşağıda verilmiştir. Görebileceğiniz gibi, aynı çalışsayı adını her iki seferde de yazdırır.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet Name: Portfolio
 

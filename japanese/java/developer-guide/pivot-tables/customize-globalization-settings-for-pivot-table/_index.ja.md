@@ -1,18 +1,19 @@
-﻿---
-title: ピボット テーブルのグローバリゼーション設定のカスタマイズ
+---
+title: ピボットテーブルのグローバリゼーション設定のカスタマイズ
 type: docs
 weight: 20
 url: /ja/java/customize-globalization-settings-for-pivot-table/
 ---
-## **考えられる使用シナリオ**
 
-カスタマイズしたいときもある*ピボット合計、小計、総計、すべてのアイテム、複数のアイテム、列ラベル、行ラベル、空白の値*あなたの条件に従ってテキスト。 Aspose.Cells を使用すると、ピボット テーブルのグローバリゼーション設定をカスタマイズして、このようなシナリオに対処できます。この機能を使用して、ラベルをアラビア語、ヒンディー語、ポーランド語などの他の言語に変更することもできます。
+## **可能な使用シナリオ**
 
-## **ピボット テーブルのグローバリゼーション設定のカスタマイズ**
+Aspose.Cellsでは、*Pivot Total、Sub Total、Grand Total、All Items、Multiple Items、Column Labels、Row Labels、Blank Values*のテキストをカスタマイズして要件に合わせることができます。この機能を使用して、ピボットテーブルのグローバリゼーション設定をカスタマイズしたり、ラベルをアラビア語、ヒンディー語、ポーランド語など他言語に変更したりすることができます。
 
-次のサンプル コードは、ピボット テーブルのグローバリゼーション設定をカスタマイズする方法を説明しています。クラスを作成します*CustomPivotTableGlobalizationSettings*基本クラスから派生[**グローバリゼーション設定**](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)必要なすべてのメソッドをオーバーライドします。これらのメソッドは、*ピボット合計、小計、総計、すべてのアイテム、複数のアイテム、列ラベル、行ラベル、空白の値* .次に、このクラスのオブジェクトを[**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings)財産。コードは[ソースエクセルファイル](40468491.xlsx)ピボット テーブルを含むデータを更新して計算し、名前を付けて保存します。[出力 PDF ファイル](40468490.pdf) .次のスクリーンショットは、出力 PDF に対するサンプル コードの効果を示しています。スクリーンショットでわかるように、ピボット テーブルのさまざまな部分に、オーバーライドされた[**グローバリゼーション設定**](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)クラス。
+## **ピボットテーブルのグローバリゼーション設定のカスタマイズ**
 
-![todo:画像_代替_文章](customize-globalization-settings-for-pivot-table_1.png)
+次のサンプルコードは、ピボットテーブルのグローバリゼーション設定をカスタマイズする方法を説明しています。これにより、[**GlobalizationSettings**](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)から派生した*CustomPivotTableGlobalizationSettings*クラスを作成し、必要なメソッドをオーバーライドします。これらのメソッドは、*Pivot Total, Sub Total, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values*のカスタマイズされたテキストを返します。その後、このクラスのオブジェクトを[**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings)プロパティに割り当てます。コードは、ピボットテーブルを含む[ソースExcelファイル](40468491.xlsx)をロードし、そのデータを更新して計算し、[出力PDFファイル](40468490.pdf)として保存します。以下のスクリーンショットは、出力PDF上でサンプルコードの効果を示しています。
+
+![todo:image_alt_text](customize-globalization-settings-for-pivot-table_1.png)
 
 ## **サンプルコード**
 

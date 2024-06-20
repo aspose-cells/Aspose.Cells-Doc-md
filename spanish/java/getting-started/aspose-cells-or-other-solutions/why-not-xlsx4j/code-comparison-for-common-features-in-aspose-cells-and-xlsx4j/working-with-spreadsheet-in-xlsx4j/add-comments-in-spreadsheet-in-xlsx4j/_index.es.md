@@ -1,15 +1,16 @@
-﻿---
-title: Agregar comentarios en la hoja de cálculo en xlsx4j
+---
+title: Agregar Comentarios en la Hoja de Cálculo en xlsx4j
 type: docs
 weight: 10
 url: /es/java/add-comments-in-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Agregar comentarios en la hoja de cálculo**
-Agregue un comentario a una celda llamando al método addComments de la colección Shapes (encapsulado en el objeto Worksheet). Se puede acceder al nuevo objeto Comentario desde la colección Comentarios pasando el índice de comentarios. Después de acceder al objeto Comentario, personalice la nota de comentario utilizando el método setNote del objeto Comentario.
+
+## **Aspose.Cells - Agregar Comentarios en la Hoja de Cálculo**
+Añade un comentario a una celda llamando al método addComments de la colección Shapes (encapsulada en el objeto Worksheet). El nuevo objeto Comment puede ser accedido desde la colección Comments pasando el índice del comentario. Después de acceder al objeto Comment, personaliza la nota del comentario usando el método setNote del objeto Comment.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -30,14 +31,14 @@ Comment comment = worksheet.getComments().get(commentIndex);
 comment.setNote("Hello Aspose!");
 
 {{< /highlight >}}
-## **xlsx4j - Agregar comentarios en la hoja de cálculo**
+## **xlsx4j - Agregar Comentarios en la Hoja de Cálculo**
 La clase CommentsPart está disponible para agregar comentarios en la hoja de cálculo usando xlsx4j.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) {
+ public static void main(String[] args) {
 
     try {
 
@@ -238,13 +239,13 @@ public static org.docx4j.vml.root.Xml getVml(int row, int col) throws JAXBExcept
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addcomments)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Adición de comentarios](/java/adding-comments).
+Para más detalles, visita [Agregar Comentarios](/java/adding-comments).
 
 {{% /alert %}}

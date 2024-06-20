@@ -1,20 +1,21 @@
-﻿---
-title: Supprimer la connexion pivot
+---
+title: Supprimer la connexion de tableau croisé dynamique
 type: docs
 weight: 30
 url: /fr/java/remove-pivot-connection/
-description: Apprenez à supprimer la connexion pivot avec la bibliothèque Aspose.Cells Java.
-keywords: Remove pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Apprenez comment supprimer une connexion pivot avec la bibliothèque Aspose.Cells Java.
+keywords: Supprimer la connexion pivot sans office 2013, office 2016, office 2019 et office 365.
 ---
+
 ## **Scénarios d'utilisation possibles**
 
-Si vous souhaitez dissocier le slicer et le tableau croisé dynamique dans Excel, vous devez cliquer avec le bouton droit sur le slicer et sélectionner l'élément "Report Connections...". Dans la liste d'options, vous pouvez opérer sur la case à cocher. De même, si vous souhaitez dissocier le segment et le tableau croisé dynamique à l'aide de Aspose.Cells API par programme, veuillez utiliser le[**Slicer.removePivotConnection (pivot du tableau croisé dynamique)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)) méthode. Cela dissociera le slicer et le tableau croisé dynamique.
+Si vous souhaitez dissocier une trancheuse et un tableau croisé dynamique dans Excel, vous devez faire un clic droit sur la trancheuse et sélectionner l'élément "Connections des rapports...". Dans la liste des options, vous pouvez cocher ou décocher la case. De même, si vous souhaitez dissocier une trancheuse et un tableau croisé dynamique en utilisant l'API Aspose.Cells de manière programmée, veuillez utiliser la méthode [**Slicer.removePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#removePivotConnection(com.aspose.cells.PivotTable)). Elle permet de dissocier la trancheuse et le tableau croisé dynamique.
 
-## **Retrait du trancheur**
+## **Suppression du tronçonneur**
 
-L'exemple de code suivant charge le[exemple de fichier Excel](remove-pivot-connection.xlsx)qui contient un segment existant. Il accède aux segments, puis dissocie le segment et le tableau croisé dynamique. Enfin, il enregistre le classeur sous[fichier Excel de sortie](remove-pivot-connection-out.xlsx). 
+Le code d'exemple suivant charge le [fichier Excel d'exemple](remove-pivot-connection.xlsx) qui contient une trancheuse existante. Il accède aux tranches et dissocie ensuite la trancheuse et le tableau croisé dynamique. Enfin, il enregistre le classeur sous le nom de [fichier Excel de sortie](remove-pivot-connection-out.xlsx). 
 
 
-## **Exemple de code**
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-Removing-Pivot-Connection.java" >}}

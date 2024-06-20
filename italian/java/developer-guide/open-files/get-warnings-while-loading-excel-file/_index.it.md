@@ -1,30 +1,31 @@
-﻿---
-title: Ricevi avvisi durante il caricamento del file Excel
+---
+title: Ottieni Avvertimenti durante il Caricamento del File Excel
 type: docs
 weight: 60
 url: /it/java/get-warnings-while-loading-excel-file/
 ---
-## **Possibili scenari di utilizzo**
 
- volte l'utente tenta di caricare la cartella di lavoro che è in qualche modo danneggiata ma caricabile. In tal caso, Aspose.Cells genera avvisi durante il caricamento della cartella di lavoro. Puoi rilevare questi avvisi implementando il file**[IWarningCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback)** interfaccia e impostazione**[LoadOptions.WarningCallback](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback)**proprietà.
+## **Possibili Scenari di Utilizzo**
 
-## **Ricevi avvisi durante il caricamento del file Excel**
+A volte l'utente cerca di caricare il documento di lavoro che è in parte danneggiato ma caricabile. In tal caso, Aspose.Cells genera degli avvisi durante il caricamento del documento di lavoro. È possibile catturare questi avvisi implementando l'interfaccia [**IWarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) e impostando la proprietà [**LoadOptions.WarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback).
 
- Il codice di esempio seguente spiega come ricevere avvisi durante il caricamento del file excel. Il codice carica il file[file excel di esempio](sampleDuplicateDefinedName.xlsx) che lancia**[DuplicateDefinedName](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME)** avviso al caricamento. Questo avviso viene quindi catturato da**[IWarningCallback.Warning()](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo))** metodo che stampa i messaggi di avviso sulla console. Il codice quindi salva la cartella di lavoro come[file excel di output](outputDuplicateDefinedName.xlsx)Se apri il file excel di esempio in Microsoft Excel, ti verrà visualizzato anche questo avviso come mostrato in questo screenshot. Si prega di controllare anche l'output della console del codice indicato di seguito per una maggiore comprensione.
+## **Ottieni avvisi durante il caricamento del file Excel**
 
-![cose da fare:immagine_alt_testo](get-warnings-while-loading-excel-file_1.png)
+Il seguente codice di esempio spiega come ottenere avvertimenti durante il caricamento del file excel. Il codice carica il [file excel di esempio](sampleDuplicateDefinedName.xlsx) che genera [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME) avviso al caricamento. Questo avviso viene quindi catturato dal metodo [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)) che stampa i messaggi di avviso sulla console. Il codice quindi salva il documento di lavoro come [file excel di output](outputDuplicateDefinedName.xlsx). Se apri il file excel di esempio in Microsoft Excel, ti verrà anche visualizzato questo avviso come mostrato in questa schermata. Si prega di controllare anche l'output della console del codice riportato di seguito per una maggiore comprensione.
 
-## **Codice d'esempio**
+![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-WarningCallback-WarningCallback.java" >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-GetWarningLoadingAnExcel-GetWarningLoadingAnExcel.java" >}}
 
-## **Uscita console**
+## **Output della console**
 
- Ecco l'output della console del codice precedente quando eseguito con il file fornito[file excel di esempio](sampleDuplicateDefinedName.xlsx).
+Questo è l'output della console del codice sopra quando eseguito con il [file excel di esempio fornito](sampleDuplicateDefinedName.xlsx).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Introduction!$D$16:$D$17
 

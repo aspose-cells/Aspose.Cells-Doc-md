@@ -1,21 +1,22 @@
-﻿---
-title: 非プリミティブ形状のデータ
+---
+title: 非原始の形のデータ
 type: docs
 weight: 300
 url: /ja/net/data-in-non-primitive-shape/
 ---
-## **非プリミティブ形状のデータへのアクセス**
 
-組み込みではない図形からデータにアクセスする必要がある場合があります。組み込みシェイプはプリミティブ シェイプと呼ばれます。そうでないものは、非プリミティブと呼ばれます。たとえば、さまざまな曲線を接続した線を使用して、独自の形状を定義できます。
+## **非原始の形のデータへのアクセス**
 
-## **非原始的な形状**
+時々、ビルトインでない形状からデータにアクセスする必要があります。ビルトインの形状は原始形状と呼ばれ、そうでないものは非原始形状と呼ばれます。例えば、異なる曲線接続線を使用して独自の形状を定義することができます。
 
-Aspose.Cells では、非プリミティブ シェイプにタイプが割り当てられます。[**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) .を使用してそれらのタイプを確認できます[**Shape.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)財産。
+## **非原始の形状**
 
-を使用して形状データにアクセスします。[**シェイプ.パス**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)財産。非プリミティブ形状を構成するすべての接続されたパスを返します。これらのパスのタイプは[**シェイプパス**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)これは、各セグメントのポイントを順番に含むすべてのセグメントのリストを保持します。
+Aspose.Cellsでは、非原始の形状にはタイプ[**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype)が割り当てられます。[**Shape.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)プロパティを使用してそのタイプを確認できます。
 
-|**非プリミティブ形状の例を示します**|
-|:- |
-|![todo:画像_代替_文章](data-in-non-primitive-shape_1.jpg)|
+[**Shape.Paths**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)プロパティを使用して形状データにアクセスします。これにより、非原始の形状を構成するすべての接続パスが返されます。これらのパスは、各セグメント内のポイントを含むセグメントのリストを保持する[**ShapePath**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)タイプです。
+
+|**非原始の形状の例を示す**|
+| :- |
+|![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-AccessNonPrimitiveShape-1.cs" >}}

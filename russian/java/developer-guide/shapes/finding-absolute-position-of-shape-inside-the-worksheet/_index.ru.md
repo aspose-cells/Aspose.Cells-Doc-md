@@ -1,28 +1,29 @@
 ---
-title: Поиск абсолютного положения фигуры внутри листа
+title: Нахождение абсолютной позиции формы внутри Листа книги Excel
 type: docs
 weight: 7000
 url: /ru/java/finding-absolute-position-of-shape-inside-the-worksheet/
-description: Узнайте, как найти абсолютное положение фигуры внутри листа с помощью API Aspose.Cells for Java.
-keywords: How to Find Absolute Position of Shape in Java, Get Absolute Position of Shape using Java, Obtain Absolute Position of Shape inside the Worksheet via Java, Measure absolute position of Shape with Java.
+description: Узнайте, как найти абсолютную позицию формы внутри Листа книги Excel с помощью API Aspose.Cells for Java.
+keywords: Как найти абсолютную позицию формы в Java, Получить абсолютную позицию формы с помощью Java, Получить абсолютную позицию формы внутри Листа книги Excel via Java, Измерить абсолютную позицию формы с помощью Java.
 ---
+
 {{% alert color="primary" %}}
 
- Иногда вам нужно знать абсолютное положение фигуры на листе. Aspose.Cells обеспечивает[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) и[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) свойства для этой цели. Эти свойства возвращают абсолютное положение фигуры на листе в пикселях.
+Иногда вам нужно знать абсолютную позицию формы на листе книги Excel. Aspose.Cells предоставляет свойства [**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) и [**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) для этой цели. Эти свойства возвращают абсолютную позицию формы на листе в пикселях.
 
 {{% /alert %}}
 
-##  **Объяснение свойств Shape.getLeftToCorner() и Shape.getTopToCorner()**
+## **Объяснение свойств Shape.getLeftToCorner() и Shape.getTopToCorner()**
 
- Этот скриншот объясняет, на каких расстояниях[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) и[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)мера свойств.
+Этот скриншот объясняет, какие расстояния измеряют свойства [**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) и [**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner).
 
-**Как измерить абсолютное положение**
+**Как измерить абсолютную позицию**
 
-![задача: image_alt_text](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
+![todo:image_alt_text](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
 
-В следующем примере кода отображается абсолютное положение первой фигуры на листе в пикселях. Код отображает следующий вывод в консоли:
+В следующем примере кода отображается абсолютная позиция первой формы на листе книги Excel в пикселях. Код отображает следующий вывод в консоли:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Absolute Position of this Shape is (320, 180)
 

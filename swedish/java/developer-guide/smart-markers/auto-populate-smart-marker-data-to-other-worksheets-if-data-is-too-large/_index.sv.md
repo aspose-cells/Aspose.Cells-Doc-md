@@ -1,16 +1,17 @@
-﻿---
-title: Fyll i smartmarkördata automatiskt till andra kalkylblad om data är för stor
+---
+title: Automatiskt fylla i Smart Marker data till andra kalkylblad om datan är för stor
 type: docs
 weight: 10
 url: /sv/java/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/
 ---
-## **Möjliga användningsscenarier**
 
-Ibland vill du automatiskt fylla i smart markördata till andra kalkylblad om den är för stor. Anta att din datakälla har 1500000 poster. Det här är för många poster för ett enda kalkylblad, då kan du flytta resten av posterna till nästa kalkylblad.
+## **Möjliga användningsscenario**
 
-## **Fyll i smartmarkördata automatiskt till andra kalkylblad om data är för stor**
+Ibland vill du automatiskt fylla i Smart Marker-data till andra kalkylblad om det är för stort. Antag att din datakälla har 1500000 poster. Dessa är för många poster för ett enskilt kalkylblad, då kan du flytta resten av posterna till nästa kalkylblad.
 
-Följande exempelkod har en datakälla som har 21 poster. Vi vill bara visa 15 poster i ett kalkylblad, sedan flyttas resten av posterna automatiskt till det andra kalkylbladet. Observera att det andra kalkylbladet också ska ha samma smarta markörtagg och du måste ringa[**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process(int,%20boolean) ) metod för båda arken. Vänligen kontrollera[Microsoft Access Database-fil](60489777.accdb) används i denna kod såväl som i[utdata Excel-fil](60489786.xlsx)genereras av koden för en referens.
+## **Automatiskt fylla i Smart Marker-data till andra kalkylblad om datan är för stor**
+
+Följande provkod har en datakälla som har 21 poster. Vi vill visa endast 15 poster i ett kalkylblad, då flyttas resten av posterna automatiskt till det andra kalkylbladet. Observera, det andra kalkylbladet bör också ha samma Smart Marker-tag och du måste ringa [**WorkbookDesigner.process(sheetIndex, isPreserved)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process(int,%20boolean))-metoden för båda kalkylbladen. Vänligen kontrollera även [Microsoft Access-databasfilen](60489777.accdb) som används i denna kod samt den [output Excel-fil](60489786.xlsx) som genererats av koden för referens.
 
 ## **Exempelkod**
 

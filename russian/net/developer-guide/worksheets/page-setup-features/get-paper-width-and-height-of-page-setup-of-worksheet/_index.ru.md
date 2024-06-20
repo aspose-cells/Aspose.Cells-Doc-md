@@ -1,28 +1,29 @@
 ---
-title: Получить ширину бумаги и высоту страницы настройки рабочего листа
+title: Получить ширину и высоту бумаги параметров страницы листа
 type: docs
 weight: 50
 url: /ru/net/get-paper-width-and-height-of-page-setup-of-worksheet/
-description: В этой статье вы узнаете, как получить ширину и высоту бумаги для настройки страницы рабочего листа Excel, используя код C# программно с .NET API или библиотекой.
-keywords: excel page setup paper width c#, excel page setup paper height c#
+description: В этой статье вы узнаете, как получить ширину и высоту бумаги параметров страницы листа Excel с помощью кода на C# программным образом с использованием .NET API или Library.
+keywords: ширина листа страницы настройки Excel на C#, высота листа страницы настройки Excel на C#
 ---
-##  **Возможные сценарии использования**
 
-Иногда вам нужно знать ширину и высоту размера бумаги, поскольку они были установлены в настройках страницы рабочего листа. Пожалуйста, используйте[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)и[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)свойств для этой цели.
+## **Возможные сценарии использования**
 
-##  **Получить ширину бумаги и высоту страницы настройки рабочего листа**
+Иногда вам нужно знать ширину и высоту размера бумаги, установленного в параметрах страницы листа. Пожалуйста, используйте свойства [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) и [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) для этой цели.
 
- В следующем примере кода объясняется использование[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) и[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) характеристики. Сначала он изменяет размер бумаги на*A2*а затем находит ширину и высоту бумаги, затем меняет ее на*A3*, *A4*, *письмо*и находит ширину и высоту бумаги соответственно.
+## **Получение ширины и высоты бумаги на листе Excel**
 
-###  **Образец кода**
+В следующем образце кода объясняется использование свойств [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) и [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight). Сначала он изменяет размер бумаги на *A2* и затем находит ширину и высоту бумаги, затем он изменяет его на *A3*, *A4*, *Letter* и находит ширину и высоту бумаги соответственно.
+
+### **Образец кода**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-GetPageDimensions.cs" >}}
 
-###  **Консольный вывод**
+### **Вывод в консоль**
 
-Вот вывод консоли приведенного выше примера кода.
+Вот вывод в консоль вышеуказанного образца кода.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 PaperA2: 16.54x23.39
 

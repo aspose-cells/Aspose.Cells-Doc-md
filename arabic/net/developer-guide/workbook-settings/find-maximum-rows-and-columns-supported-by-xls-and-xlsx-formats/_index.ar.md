@@ -1,24 +1,25 @@
-﻿---
-title: يمكنك البحث عن الحد الأقصى من الصفوف والأعمدة المدعومة بالتنسيقات XLS و XLSX
+---
+title: العثور على الصفوف والأعمدة القصوى المدعومة من قبل تنسيقات XLS و XLSX
 type: docs
 weight: 20
 url: /ar/net/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-هناك عدد مختلف من الصفوف والأعمدة التي تدعمها تنسيقات Excel. على سبيل المثال ، يدعم XLS 65536 صفاً و 256 عموداً بينما يدعم XLSX 1048576 صفاً و 16384 عموداً. إذا كنت تريد معرفة عدد الصفوف والأعمدة التي يدعمها تنسيق معين ، فيمكنك استخدام[**المصنف.الإعدادات. MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) و[**المصنف.الإعدادات. MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)الخصائص.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **يمكنك البحث عن الحد الأقصى من الصفوف والأعمدة المدعومة بالتنسيقات XLS و XLSX**
+هناك عدد مختلف من الصفوف والأعمدة المدعومة من تنسيقات Excel. على سبيل المثال، يدعم ملف XLS 65536 صف و 256 عمودًا بينما يدعم ملف XLSX 1048576 صف و 16384 عمودًا. إذا كنت ترغب في معرفة كم صف وعمود يتم دعمه في التنسيق المعطى، يمكنك استخدام خصائص [**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) و [**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn).
 
-ينشئ نموذج التعليمات البرمجية التالي المصنف أولاً في XLS ثم بتنسيق XLSX. بعد الخلق ، تطبع قيم[**المصنف.الإعدادات. MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) و[**المصنف.الإعدادات. MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)الخصائص. يرجى الاطلاع على إخراج وحدة التحكم من الكود الوارد أدناه للرجوع اليها.
+## **العثور على الصفوف والأعمدة القصوى المدعومة من قبل تنسيقات XLS و XLSX**
 
-## **عينة من الرموز**
+يقوم الشفرة النموذجية التالية بإنشاء دفتر عمل أولاً في تنسيق XLS ثم في تنسيق XLSX. بعد الإنشاء، تقوم بطباعة قيم خصائص [**Workbook.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) و [**Workbook.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn). يرجى الرجوع إلى إخراج وحدة التحكم في الشفرة أدناه للرجوع إليه.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "WorkbookSettings-FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats.cs" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Maximum Rows and Columns supported by XLS format.
 

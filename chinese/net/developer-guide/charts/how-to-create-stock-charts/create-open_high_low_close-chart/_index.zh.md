@@ -1,5 +1,5 @@
 ---
-title: 创建开-高-低-收（OHLC）股票图表
+title: 创建开 高 低 收（OHLC）股票图表
 description: 使用 Aspose.Cells for .NET 学习如何创建开盘高低收盘股票图表。我们的指南将演示如何将股票市场数据，包括开盘、最高、最低和收盘价格，绘制到图表上，以便进行更好的分析和可视化。
 keywords: Aspose.Cells for .NET, 开盘高低收盘股票图表, 股票市场数据, 分析, 可视化。
 type: docs

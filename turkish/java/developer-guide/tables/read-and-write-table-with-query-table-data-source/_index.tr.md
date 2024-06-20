@@ -1,16 +1,17 @@
-﻿---
+---
 title: Sorgu Tablosu Veri Kaynağı ile Tablo Okuma ve Yazma
 type: docs
 weight: 60
 url: /tr/java/read-and-write-table-with-query-table-data-source/
 ---
+
 ## **Sorgu Tablosu Veri Kaynağı ile Tablo Okuma ve Yazma**
-Aspose.Cells ile Datasource olarak QueryTable içeren bir tabloyu okuyabilir ve yazabilirsiniz. Bu özellik için destek, XLS dosyaları için de mevcuttur. Aşağıdaki kod parçacığı, önce tabloyu okuyarak ve ardından toplamlar satırını eklemek için değiştirerek böyle bir tablonun okunmasını ve yazılmasını gösterir.
+Aspose.Cells ile, Veri Kaynağı olarak Sorgu Tablosu olan bir tabloyu okuyup yazabilirsiniz. Bu özellik XLS dosyaları için de mevcuttur. Aşağıdaki kod parçacığı, öncelikle tabloyu okuyarak ardından toplam satır eklemek için tabloyu değiştirmeyi göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Tables-ReadAndWriteTableWithQueryTableDataSource-1.java" >}}
 
-Kaynak ve çıktı excel dosyaları referans için eklenmiştir.
+Kaynak ve çıktı excel dosyaları referans için ekte sunulmuştur.
 
-[Kaynak dosyası](SampleTableWithQueryTable.xls)
+[Kaynak Dosya](SampleTableWithQueryTable.xls)
 
-[Çıktı dosyası](SampleTableWithQueryTable_out.xls)
+[Çıkış Dosyası](SampleTableWithQueryTable_out.xls)

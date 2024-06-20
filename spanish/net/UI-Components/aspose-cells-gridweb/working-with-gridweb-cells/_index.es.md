@@ -1,6 +1,8 @@
-﻿---
-title: Trabajando con GridWeb Cells
+---
+title: Trabajando con Celdas de GridWeb
 type: docs
 weight: 60
-url: /es/net/working-with-gridweb-cells/
+url: /es/net/aspose-cells-gridweb/working-with-gridweb-cells/
 ---
+
+

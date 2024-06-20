@@ -1,35 +1,36 @@
-﻿---
-title: Reporting Services 式の追加
+---
+title: 報告書サービス式の追加
 type: docs
 weight: 30
 url: /ja/reportingservices/adding-reporting-services-formulas/
 ---
-Reporting Services 数式をテーブル データ セルに追加するには、次の手順に従います。
 
-- 表のデータセルを選択してクリック**数式を挿入**Aspose.Cells.Report.Designer ツールバー (
+テーブルデータセルに報告書サービス式を追加するには、以下の手順に従ってください：
 
-![todo:画像_代替_文章](adding-reporting-services-formulas_1.png)
+- テーブルデータセルを選択し、Aspose.Cells.Report.Designerツールバーの**挿入式**をクリックします(
+
+![todo:image_alt_text](adding-reporting-services-formulas_1.png)
 
 ).
 
-![todo:画像_代替_文章](adding-reporting-services-formulas_2.png)
+![todo:image_alt_text](adding-reporting-services-formulas_2.png)
 
 
 
 
-- 左側のパネルで「DataSet」を選択し、中央のパネルで「EmpSalesDetail」を選択し、右側のパネルで「Sum(EmpSalesDetail.OrderQty)」をダブルクリックします。上部の編集ボックスに数式が表示されます。クリック**わかった**ボタンをクリックして式をセルに挿入します。
+- 左パネルで”DataSet”を選択し、中央パネルで”EmpSalesDetail”を選択し、右パネルで”Sum(EmpSalesDetail.OrderQty)”をダブルクリックします。式がトップエディットボックスに表示されます。**OK**ボタンをクリックしてセルに式を挿入します。
 
-![todo:画像_代替_文章](adding-reporting-services-formulas_3.png)
+![todo:image_alt_text](adding-reporting-services-formulas_3.png)
 
-- 結果は次のように表示されます。
+- 結果は以下のように表示されます。
 
 
 **挿入された式** 
 
-![todo:画像_代替_文章](adding-reporting-services-formulas_4.png)
+![todo:image_alt_text](adding-reporting-services-formulas_4.png)
 
-- 以下に示すように、上記の手順を繰り返して、数式を Sales 列に追加します。
+- 上記の手順を繰り返して、以下に示すように売上列に式を追加します。
 
-**sales 列に数式が追加されました** 
+**売上列に追加された式** 
 
-![todo:画像_代替_文章](adding-reporting-services-formulas_5.png)
+![todo:image_alt_text](adding-reporting-services-formulas_5.png)

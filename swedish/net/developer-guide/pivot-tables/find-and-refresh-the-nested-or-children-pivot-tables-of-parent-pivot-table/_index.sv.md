@@ -1,16 +1,17 @@
-﻿---
-title: Hitta och uppdatera pivottabellerna för kapslade eller barn i överordnade pivottabeller
+---
+title: Hitta och uppdatera de inbäddade eller underordnade pivottabellerna i föräldrapivottabellen
 type: docs
 weight: 60
 url: /sv/net/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table/
 ---
-## **Möjliga användningsscenarier**
 
-Ibland använder en pivottabell en annan pivottabell som datakälla, så den kallas en underordnad pivottabell eller kapslad pivottabell. Du kan hitta de underordnade pivottabellerna för en överordnad pivottabell med hjälp av[**PivotTable.GetChildren()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/getchildren)metod.
+## **Möjliga användningsscenario**
 
-## **Hitta och uppdatera pivottabellerna för kapslade eller barn i överordnade pivottabeller**
+Ibland använder en pivottabell en annan pivottabell som datakälla, så det kallas en underordnad pivottabell eller inbäddad pivottabell. Du kan hitta de underordnade pivottablerna i en föräldrapivottabell med hjälp av [**PivotTable.GetChildren()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/getchildren) metoden.
 
- Följande exempelkod laddar[exempel på Excel-fil](61767747.xlsx) som innehåller tre pivottabeller. De två nedre pivottabellerna är underordnade av ovanstående pivottabell som visas i den här skärmdumpen. Koden hittar pivottabellen för barn med hjälp av[**PivotTable.GetChildren()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/getchildren)och uppdaterar dem sedan en efter en.
+## **Hitta och uppdatera de inbäddade eller underordnade pivottabellerna i föräldrapivottabellen**
+
+Följande kod laddar den [prov-Eexcelfilen](61767747.xlsx) som innehåller tre pivottabeller. De två nedre pivottablerna är barn till den ovanstående pivottabellen som visas i denna skärmdump. Koden hittar de underordnade pivottablerna med hjälp av [**PivotTable.GetChildren()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/getchildren) metoden och uppdaterar dem en efter en.
 
 ![todo:image_alt_text](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
 

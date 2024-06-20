@@ -1,29 +1,30 @@
 ---
-title: PDF'e kaydederken Yorumları Yazdır
+title: PDF ye kaydederken Yorumları Yazdır
 type: docs
 weight: 10
 url: /tr/python-net/print-comments-while-saving-to-pdf/
-description: Aspose.Cells for Python via .NET API ile PDF'e kaydederken Yorumları nasıl yazdıracağınızı öğrenin.
-keywords: Python Print Comments while saving file to PDF, Print Comments while saving Excel to PDF using Python, Python Export Comments when converting Excel to PDF, Output Comments for Excel to PDF in python, Render Comments while saving excel to PDF
+description: Aspose.Cells for Python via .NET API ile PDF ye Kaydederken Yorumları Yazdırmayı Nasıl Öğrenirim
+keywords: Python ile PDF ye Kaydederken Yorumları Yazdırma, Python ile Excel den PDF ye Yorumları Yazdırma, Python da Excel den PDF ye Dönüştürme Sırasında Yorumları Aktarma, Python da Excel için PDF dosyasına Yorumları Ayarlama, Excel den PDF ye dönüştürürken Yorumları Yazdırma
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel, aşağıdaki seçeneklerle yazdırırken veya PDF biçiminde kaydederken yorumları yazdırmanıza olanak tanır
+Microsoft Excel, aşağıdaki seçeneklerle PDF biçimine yazdırırken veya kaydederken yorumları yazdırmanıza izin verir
 
 - Hiçbiri
-- Sayfanın sonunda
+- Sayfa sonunda
 - Sayfada gösterildiği gibi
 
- Aspose.Cells for Python via .NET[**YazdırYorumlarTürü**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) aynı özelliği desteklemek için enum.[**YazdırYorumlarTürü**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)enum'un şu üyeleri var
+Aspose.Cells for Python via .NET, aynı özelliği desteklemek için [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) enumunu sağlar. [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) enumunun aşağıdaki üyeleri bulunmaktadır
 
-- YazdırYorum Yok
+- PrintNoComments
 - PrintInPlace
 - PrintSheetEnd
 
 {{% /alert %}}
 
-##  **PDF'e kaydederken Yorumları Yazdır**
+## **PDF'ye kaydederken yorumları yazdır**
 
- Aşağıdaki örnek kod nasıl kullanılacağını gösterir[**YazdırYorumlarTürü**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)PDF'e kaydederken yorumları yazdırmak için.
+Aşağıdaki örnek kod, PDF'ye kaydederken yorumları yazdırmak için[**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) nasıl kullanılacağını gösterir.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-PrintCommentWhileSavingToPdf.py" >}}

@@ -1,18 +1,19 @@
-﻿---
-title: ピボット接続を追加
+---
+title: ピボット接続を追加する
 type: docs
 weight: 30
 url: /ja/java/add-pivot-connection/
-description: Aspose.Cells Java ライブラリでピボット接続を追加する方法を学びます。
-keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Aspose.Cells Javaライブラリを使用してピボット接続を追加する方法を学ぶ。
+keywords: オフィス2013、オフィス2016、オフィス2019およびオフィス365なしでピボット接続を追加する
 ---
-## **考えられる使用シナリオ**
 
- Excel でスライサーとピボット テーブルを関連付けるには、スライサーを右クリックし、[接続のレポート] 項目を選択する必要があります。オプションリストでは、チェックボックスを操作できます。同様に、プログラムで Aspose.Cells Java API を使用してスライサーとピボット テーブルを関連付ける場合は、[**Slicer.addPivotConnection(ピボットテーブル ピボット)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/） 方法。スライサーとピボット テーブルを関連付けます。
+## **可能な使用シナリオ**
+
+Excelでスライサーとピボットテーブルを関連付けたい場合は、スライサーを右クリックし、「レポート接続...」項目を選択する必要があります。オプションリストでチェックボックスで操作できます。Aspose.Cells Java APIを使用してスライサーとピボットテーブルをプログラムで関連付ける場合は、[**Slicer.addPivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/java/com.aspose.cells/slicer#addPivotConnection(com.aspose.cells.PivotTable)/) メソッドを使用してください。
 
 ## **スライサーとピボットテーブルを関連付ける**
 
-次のサンプル コードは、[サンプル Excel ファイル](add-pivot-connection.xlsx)既存のスライサーが含まれています。スライサーにアクセスし、スライサーとピボットテーブルを関連付けます。最後に、ワークブックを次のように保存します。[出力エクセルファイル](add-pivot-connection-out.xlsx). 
+次のサンプルコードは、既存のスライサーが含まれる[sample Excelファイル](add-pivot-connection.xlsx)を読み込みます。次に、スライサーにアクセスしてスライサーとピボットテーブルを関連付けます。最後に、ワークブックを[output Excelファイル](add-pivot-connection-out.xlsx)として保存します。 
 
 
 ## **サンプルコード**

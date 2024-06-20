@@ -1,12 +1,13 @@
-﻿---
-title: Stöd för tysk lokal i namngivna intervallformler
+---
+title: Stöd för tysk lokal i namnformler
 type: docs
 weight: 60
 url: /sv/net/support-for-german-locale-in-named-range-formulae/
 ---
-Engelska formler skrivs i namngiven region. Denna Excel-fil kan öppnas i en miljö där systemet är konfigurerat till tyska språket, men den engelska formeln ska översättas till tyska. Följande exempel visar denna funktion, men det kräver att Excel är installerat på tyska och systemspråket ska också ställas in på tyska.
 
-Exempelfil för att testa den här funktionen kan laddas ner från följande länk:
+Engelska formlar skrivs in i namngivna områden. Den här Excel-filen kan öppnas i en miljö där systemet är konfigurerat till tyska inställningar, men de engelska formlerna översätts till tyska. Följande exempel visar den här funktionen, men det kräver att Excel är installerat på tyska och systeminställningen är på tyska också.
+
+Provfil för att testa den här funktionen kan laddas ner från följande länk:
 
 [sampleNamedRangeTest.xlsm](73990165.xlsm)
 

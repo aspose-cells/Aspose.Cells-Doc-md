@@ -1,15 +1,16 @@
-﻿---
-title: Arbeitsblatt in Bild in PHP konvertieren
+---
+title: Arbeitsblatt in Bild konvertieren in PHP
 type: docs
 weight: 50
 url: /de/java/converting-worksheet-to-image-in-php/
 ---
-## **Aspose.Cells – Arbeitsblatt in Bild konvertieren**
-Um ein Arbeitsblatt mit Aspose.Cells for Java in PHP in ein Bild zu konvertieren, rufen Sie einfach das Konvertermodul auf.
+
+## **Aspose.Cells - Konvertierung von Arbeitsblatt in Bild**
+Um ein Arbeitsblatt in Bild mit Aspose.Cells for Java in PHP umzuwandeln, rufen Sie einfach das Converter-Modul auf.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $imageFormat = new ImageFormat();
 
@@ -44,7 +45,7 @@ for ($j = 0; $j < $sr->getPageCount(); $j++)
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Arbeitsblatt in Bild konvertieren (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Konvertierung von Arbeitsblatt in Bild (Aspose.Cells)** von einer der unten aufgeführten sozialen Codierungsseiten herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

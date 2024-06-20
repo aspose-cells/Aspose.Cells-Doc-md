@@ -1,26 +1,28 @@
-﻿---
-title: Filtra gli oggetti durante il caricamento della cartella di lavoro in GridDesktop
+---
+title: Filtra gli oggetti durante il caricamento del foglio di lavoro in GridDesktop
 type: docs
 weight: 1060
 url: /it/net/aspose-cells-griddesktop/loading-filter
-description: Questo articolo descrive come utilizzare il filtro di caricamento per la libreria Aspose.Cells.GridDesktop.
+description: Questo articolo descrive come utilizzare il filtro di caricamento in GridDesktop.
+keywords: GridDesktop,loading,loading filter,filter
 ---
-## **Possibili scenari di utilizzo**
- Si prega di utilizzare[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)property durante il filtraggio dei dati dalla cartella di lavoro.
 
- Il[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)enumerazione ha i seguenti valori.
+## **Possibili Scenari di Utilizzo**
+Si prega di utilizzare la proprietà [GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter) durante il filtraggio dei dati dal foglio di lavoro.
+
+L'enumerazione [GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions) ha i seguenti valori.
 - Tutti
-- Impostazioni libro
-- CellBlank
-- CellBool
-- CellData
-- CellError
-- CellNumeric
-- CellString
-- CellValue
-- Grafico
+- Impostazioni del libro
+- Cellavuota
+- Cella booleana
+- Dati cella
+- Errore cella
+- Numerico cella
+- Stringa cella
+- Valore cella
+- Chart
 - Formattazione condizionale
-- Convalida dei dati
+- Convalida dati
 - Nomi definiti
 - Proprietà documento
 - Formula
@@ -29,16 +31,16 @@ description: Questo articolo descrive come utilizzare il filtro di caricamento p
 - Tabella pivot
 - Impostazioni
 - Forma
-- FoglioDati
-- Impostazioni foglio
+- Dati del Foglio
+- Impostazioni del Foglio
 - Struttura
 - Stile
-- Tavolo
+- Tabella
 - VBA
 - XmlMap
-## **Filtra i dati durante il caricamento della cartella di lavoro**
- Il codice di esempio seguente illustra come filtrare il disegno dalla cartella di lavoro. Si prega di controllare[file excel di esempio](5472489.xlsx) . Come puoi vedere, tutti i grafici/forme/immagini sono stati filtrati dalla cartella di lavoro.
-![cartella di lavoro senza immagine](nodrawing.png)
-### **Codice d'esempio**
+## **Filtrare i dati durante il caricamento del Workbook**
+Il seguente codice di esempio illustra come filtrare i disegni dal workbook. Si prega di controllare il [file di excel di esempio](5472489.xlsx). Come potete vedere, tutti i grafici/forme/immagini sono stati filtrati dal workbook.
+![workbook senza immagine](nodrawing.png)
+### **Codice di Esempio**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "LoadingFilter.cs" >}}
- 
+

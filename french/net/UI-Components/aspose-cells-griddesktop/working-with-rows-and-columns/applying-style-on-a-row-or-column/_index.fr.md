@@ -1,42 +1,45 @@
-﻿---
+---
 title: Appliquer un style sur une ligne ou une colonne
 type: docs
 weight: 50
-url: /fr/net/applying-style-on-a-row-or-column/
+url: /fr/net/aspose-cells-griddesktop/apply-style-on-a-row-or-column/
+keywords: GridDesktop, style, ligne, colonne
+description: Cet article présente comment appliquer un style sur une ligne ou une colonne dans GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Dans cette rubrique, nous discuterons de la modification de la police et de la couleur de police des lignes et des colonnes d'une feuille de calcul. Il s'agit d'une fonction de formatage de base offerte par Aspose.Cells.GridDesktop qui permet aux développeurs de personnaliser l'affichage de leurs feuilles de calcul pour les rendre plus présentables.
+Dans ce sujet, nous discuterons du changement de la police et de la couleur de la police des lignes et des colonnes d'une feuille de calcul. Il s'agit d'un niveau de formatage de base offert par Aspose.Cells.GridDesktop qui permet aux développeurs de personnaliser la vue de leurs feuilles de calcul pour les rendre plus présentables.
 
 {{% /alert %}} 
 ## **Appliquer un style sur une colonne**
-Pour appliquer un style personnalisé sur une colonne à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
+Pour appliquer un style personnalisé sur une colonne à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
 
--  Accédez à tout**Feuille de travail**
--  Accéder à un**Colonne** sur lequel on veut appliquer une**Style**
--  Obtenir**Style** du**Colonne**
--  Ensemble**Style** propriétés selon vos besoins personnalisés
--  Enfin, réglez**Style** du**Colonne** avec la mise à jour
+- Accédez à n'importe quelle **Worksheet** souhaitée
+- Accéder à une **Colonne** sur laquelle nous voulons appliquer un **Style**
+- Obtenir le **Style** de la **Colonne**
+- Définir les propriétés du **Style** selon vos besoins personnalisés
+- Enfin, définir le **Style** de la **Colonne** avec celui mis à jour
 
- Il existe de nombreuses propriétés et méthodes utiles offertes par**Style** objet qui peut être utilisé par les développeurs pour personnaliser le style en fonction de leurs besoins.
+Il existe de nombreuses propriétés et méthodes utiles offertes par l'objet **Style** qui peuvent être utilisées par les développeurs pour personnaliser le style selon leurs besoins.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-ApplyingStyleOnRowColumn-AddingColumnStyle.cs" >}}
-## **Appliquer un style sur une ligne**
-Pour appliquer un style personnalisé sur une ligne à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
+## **Application de style sur une ligne**
+Pour appliquer un style personnalisé sur une ligne à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
 
--  Accédez à tout**Feuille de travail**
--  Accéder à un**Ligne** sur lequel on veut appliquer une**Style**
--  Obtenir**Style** du**Ligne**
--  Ensemble**Style** propriétés selon vos besoins personnalisés
--  Enfin, réglez**Style** du**Ligne** avec la mise à jour
+- Accédez à n'importe quelle **Worksheet** souhaitée
+- Accéder à une **Ligne** sur laquelle nous voulons appliquer un **Style**
+- Obtenir le **Style** de la **Ligne**
+- Définir les propriétés du **Style** selon vos besoins personnalisés
+- Enfin, définir le **Style** de la **Ligne** avec celui mis à jour
 
- Il existe de nombreuses propriétés et méthodes utiles offertes par**Style** objet qui peut être utilisé par les développeurs pour personnaliser le style en fonction de leurs besoins.
+Il existe de nombreuses propriétés et méthodes utiles offertes par l'objet **Style** qui peuvent être utilisées par les développeurs pour personnaliser le style selon leurs besoins.
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Accessing the worksheet of the Grid that is currently active
 

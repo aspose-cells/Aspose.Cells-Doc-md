@@ -1,29 +1,30 @@
-﻿---
+---
 title: Licensiering
 type: docs
 weight: 40
 url: /sv/jasperreports/licensing/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for JasperReports är tillgänglig som en gratis, obegränsad tidsbegränsad utvärdering från[nedladdningssida](https://downloads.aspose.com/cells/jasperreports). Utvärderingen och licensierade versioner av produkten är samma nedladdning.
+Aspose.Cells for JasperReports finns som en gratis, tidsbegränsad utvärdering från [nedladdningssidan](https://downloads.aspose.com/cells/jasperreports). Utvärderings- och licensierade versioner av produkten är samma nedladdning.
 
- När du är nöjd med utvärderingsversionen kan du[köpa en licens](https://purchase.aspose.com/). Se till att du förstår och godkänner licensvillkoren.
+När du är nöjd med utvärderingsversionen kan du [köpa en licens](https://purchase.aspose.com/). Se till att du förstår och samtycker till licensvillkoren.
 
-Licensen finns tillgänglig för nedladdning från beställningssidan när beställningen är betald. Licensen är en klartext, digitalt signerad XML-fil. Licensen innehåller information som kundnamn, köpt produkt och licenstyp. Ändra inte innehållet i licensfilen: om du gör det ogiltigförklaras licensen.
+Licensen är tillgänglig för nedladdning från beställningssidan när beställningen har betalats. Licensen är en tydlig text, digitalt signerad XML-fil. Licensen innehåller information som klientnamn, köpt produkt och licens typ. Ändra inte innehållet i licensfilen: att göra så ogiltigförklarar licensen.
 
-Det finns två sätt att ansöka om en licens:
+Det finns två sätt att tillämpa en licens:
 
-- [Ring setLicense](/cells/sv/jasperreports/licensing/#call-setlicense)
-- [Ställ in en exportparameter i applicationContext.xml](/cells/sv/jasperreports/licensing/#set-the-licensefile-exporter-parameter-in-applicationcontextxml)
+- [Anropa setLicense](/cells/sv/jasperreports/licensing/#call-setlicense)
+- [Ange en exportparameter i applicationContext.xml](/cells/sv/jasperreports/licensing/#set-the-licensefile-exporter-parameter-in-applicationcontextxml)
 
-Efter installation av licensen,
+Efter att ha installerat licensen,
 
-- [Kontrollera att det fungerar](/cells/sv/jasperreports/licensing/#verify-the-license-works).
+- [Verifiera att den fungerar](/cells/sv/jasperreports/licensing/#verify-the-license-works).
 
 {{% /alert %}}
 
-## **Ring setLicense**
+## **Anropa setLicense**
 
 {{% alert color="primary" %}}
 
@@ -31,10 +32,10 @@ Denna metod är tillämplig för användning med JasperReports.
 
 {{% /alert %}}
 
- Ladda ner licensen till din dator och kopiera den till lämplig mapp (till exempel din applikations mapp eller**JasperReports\lib**).
-Lägg till följande kod till ditt projekt:
+Ladda ned licensen till din dator och kopiera den till lämplig mapp (till exempel din applikationsmapp eller **JasperReports\lib**).
+Lägg till följande kod i ditt projekt:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 import com.aspose.cells.jasperreports.*;
 
@@ -50,7 +51,7 @@ license.setLicense(fstream);
 
 {{< /highlight >}}
 
-## **Ställ in parametern licenseFile Exporter i applicationContext.xml**
+## **Ange licensfilens exportparameter i applicationContext.xml**
 
 {{% alert color="primary" %}}
 
@@ -58,12 +59,12 @@ Denna metod är tillämplig för användning med JasperServer.
 
 {{% /alert %}}
 
-1.  Ladda ner licensen till din dator och kopiera den till**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF**mapp, var**\<InstallDir>** står för installationskatalogen JasperServer.
-1.  Leta upp**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** fil och lägg till följande rader:
+1. Download the license to your computer and copy it to the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF** folder, where **\<InstallDir>** stands for the JasperServer installation directory.
+1. Locate the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file and add the following lines:
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   <bean id="excelACExportParameters" class="com.aspose.cells.jasperreports.ACXlsExportParametersBean">
 
@@ -75,12 +76,12 @@ Denna metod är tillämplig för användning med JasperServer.
 
 ## **Verifiera att licensen fungerar**
 
-Exportera valfri rapport till formatet XLS och kontrollera om rapporten innehåller ett utvärderingsmeddelande. Om det inte finns något utvärderingsmeddelande, fungerar licensen korrekt.
+Exportera en rapport till XLS-format och kontrollera om rapporten innehåller ett utvärderingsmeddelande. Om det inte finns något utvärderingsmeddelande fungerar licensen korrekt.
 
-**Aspose.Cells for JasperReports injicerar ett utvärderingsark i utvärderingsläge** 
+**Aspose.Cells for JasperReports infogar en utvärderingsarbetsblad i utvärderingsläge** 
 
 ![todo:image_alt_text](licensing_1.png)
 
-**När en giltig licens finns det inget utvärderingsark** 
+**När en giltig licens finns finns det ingen utvärderingsarbetsblad** 
 
 ![todo:image_alt_text](licensing_2.png)

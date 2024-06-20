@@ -1,26 +1,27 @@
-﻿---
-title: スプレッドシートを画像にレンダリングする際のデフォルト フォントの設定
+---
+title: スプレッドシートを画像にレンダリングする際にデフォルトフォントを設定する
 type: docs
 weight: 360
 url: /ja/net/set-default-font-while-rendering-spreadsheet-to-images/
 ---
+
 {{% alert color="primary" %}}
 
-をご利用ください[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)プロパティを使用して、スプレッドシートを画像にレンダリングする際のデフォルト フォントを設定します。このプロパティは、ワークブックの既定のフォントが文字をレンダリングできない場合にのみ有効です。で指定されたデフォルトのフォント[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)プロパティは、無効または存在しないフォントを持つすべてのセルに使用されます。
+スプレッドシートを画像にレンダリングする際に、デフォルトのフォントを設定するには、[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) プロパティを使用してください。このプロパティは、ワークブックのデフォルトのフォントが文字をレンダリングできない場合にのみ有効です。[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) プロパティで指定されたデフォルトのフォントは、無効または存在しないフォントを持つすべてのセルに使用されます。
 
 {{% /alert %}}
 
-## スプレッドシートを画像にレンダリングする際のデフォルト フォントの設定
+## スプレッドシートを画像にレンダリングする際のデフォルトフォントの設定
 
-次のサンプル コードは、ブックを作成し、最初のワークシートのセル A4 にテキストを追加し、そのフォントを無効または存在しないフォントに設定します。次に、ワークシートの 2 つの画像を取得します。最初の画像は、[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)プロパティへ*クーリエ 新規* 2 番目の画像は、[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)プロパティへ*タイムズ ニュー ローマン*.
+次のサンプルコードでは、ワークブックを作成し、最初のワークシートのセルA4にテキストを追加し、そのフォントを無効または存在しないフォントに設定します。その後、ワークシートの2つの画像を取得します。最初の画像は[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) プロパティを*Courier New*に設定して取得し、2番目の画像は[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)プロパティを*Times New Roman*に設定して取得します。
 
-これは、設定後の出力イメージです。[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)プロパティへ*クーリエ 新規*.
+これは、[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) プロパティを *Courier New* に設定した後の出力画像です。
 
-![todo:画像_代替_文章](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
-これは、設定後の出力イメージです。[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)プロパティへ*タイムズ ニュー ローマン*.
+これは、[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) プロパティを *Times New Roman* に設定した後の出力画像です。
 
-![todo:画像_代替_文章](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
 ## サンプルコード
 

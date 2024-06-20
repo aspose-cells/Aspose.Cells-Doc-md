@@ -1,30 +1,31 @@
 ---
-title: Conservar el prefijo de comillas simples del valor o rango Cell
+title: Conservar el Prefijo de Comilla Simple del Valor de la Celda o del Rango
 type: docs
 weight: 310
 url: /es/net/preserve-single-quote-prefix-of-cell-value-or-range/
-description: Aprenda cómo conservar el prefijo de comilla única del valor o rango Cell hasta Aspose.Cells for .NET API.
-keywords: Preserve Single Quote Prefix of Cell Value or Range, Hide leading apostrophe or single quote mark, Show leading apostrophe or single quote mark
+description: Aprende cómo preservar el prefijo de comilla simple del valor de la celda o rango a través de la API Aspose.Cells for .NET
+keywords: Preservar el prefijo de comilla simple del valor de la celda o rango, ocultar el apostrofe o comilla simple inicial, mostrar el apostrofe o comilla simple inicial
 ---
-##  **Posibles escenarios de uso**
 
-Cuando coloca algún valor dentro de la celda que tiene un apóstrofo inicial o una comilla simple, Microsoft Excel lo oculta, pero cuando selecciona la celda, muestra el apóstrofo inicial o una comilla simple en una barra de fórmulas como se muestra en la siguiente captura de pantalla.
+## **Escenarios de uso posibles**
+
+Cuando se agrega un valor dentro de la celda que tiene un apóstrofe inicial o una comilla simple, Microsoft Excel lo oculta, pero cuando se selecciona la celda, muestra el apóstrofe o comilla simple inicial en una barra de fórmulas como se muestra en la siguiente captura de pantalla.
 
 ![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-Aspose.Cells también oculta el apóstrofe inicial o la comilla simple como Microsoft Excel pero establece el[**Estilo.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) como**verdadero** para esa celda. Si establece un estilo de celda vacío, entonces[**Estilo.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) se convierte**FALSO** de nuevo. Para solucionar este problema, Aspose.Cells proporciona[**EstiloFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) propiedad, cuando se establece**false**, entonces [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) no se actualiza en absoluto y se conserva su valor anterior . Significa que si el valor anterior de la propiedad [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) era **verdadero**, seguirá siendo **verdadero** y si el valor anterior era *falso**, permanecerá *falso**.
+Aspose.Cells también oculta el apostrofe o comilla simple inicial como Microsoft Excel, pero establece el [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) como **verdadero** para esa celda. Si estableces un estilo vacío de la celda, entonces [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) vuelve a ser **falso**. Para tratar con este problema, Aspose.Cells proporciona la propiedad [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix), cuando se establece en **falso**, entonces [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) no se actualiza en absoluto y su antiguo valor se conserva. Esto significa que si el antiguo valor de la propiedad [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) era **verdadero**, permanecerá **verdadero** y si el antiguo valor era **falso**, permanecerá **falso**.
 
-##  **Conservar el prefijo de comillas simples del valor o rango Cell**
+## **Preservar el prefijo de comilla simple del valor de la celda o rango**
 
-El siguiente código de muestra explica el uso de[**EstiloFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)propiedad como se describió anteriormente. Lea los comentarios dentro del código y consulte la salida de la consola del código que se proporciona a continuación para obtener más ayuda.
+El siguiente código de muestra explica el uso de la propiedad [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) como se describió anteriormente. Por favor, lea los comentarios dentro del código y vea la salida en la consola del código que se muestra a continuación para obtener más ayuda.
 
-##  **Código de muestra**
+## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
 
-##  **Salida de consola**
+## **Salida de la consola**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Quote Prefix of Cell A1: False
 

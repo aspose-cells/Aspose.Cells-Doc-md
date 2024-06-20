@@ -1,27 +1,28 @@
-﻿---
-title: Aggiungi la funzione di gruppo nel client Aspose.Cells for Reporting Services
+---
+title: Aggiungi la funzione di gruppo nel cliente Aspose.Cells for Reporting Services
 type: docs
 weight: 120
 url: /it/reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/
 ---
-Imposta gli attributi di gruppo dell'elemento del report tabella tramite Modifica attributi. I parametri includono Tipo, Nome, Livello e Nascondi.
 
-- Il tipo rappresenta il tipo di gruppo. Include il gruppo di righe e il gruppo di colonne.
-- Il nome rappresenta il nome del gruppo.
-- Il livello rappresenta il livello del gruppo.
-- Nascondi rappresenta Nascondi gruppo.
+Imposta gli attributi di gruppo dell'elemento di report di tabella tramite Modifica attributi. I parametri includono Tipo, Nome, Livello e Nascondi.
 
-La modifica del rapporto prevede i seguenti passaggi:
-Apri la finestra di dialogo "Modifica rapporto" e scegli la scheda Struttura.
+- Il Tipo rappresenta il Tipo di Gruppo. Include Gruppo di Righe e Gruppo di Colonne.
+- Il Nome rappresenta il nome del Gruppo.
+- Il Livello rappresenta il livello del Gruppo.
+- Nascondi rappresenta il nascondi del Gruppo.
 
-![cose da fare:immagine_alt_testo](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
+La modifica del report comporta i seguenti passaggi:
+Apri la finestra di dialogo 'Modifica report' e scegli la scheda Outline.
 
-
- Clic**Modificare** pulsante e aggiornare Nascondi configurazione.
-
-![cose da fare:immagine_alt_testo](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
 
 
- Clic**Commettere** pulsante e salva le configurazioni nascoste.
+Fare clic sul pulsante **Modifica** e aggiornare la configurazione di Nascondi. 
 
-![cose da fare:immagine_alt_testo](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
+
+
+Fare clic sul pulsante **Conferma** e salvare le configurazioni di nascondi. 
+
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)

@@ -3,22 +3,23 @@ title: Ausblenden der Anzeige von Nullwerten im Arbeitsblatt
 type: docs
 weight: 50
 url: /de/net/hiding-the-display-of-zero-values-in-the-worksheet/
-description: Dieser Artikel zeigt Ihnen Beispielcode, der erklärt, wie Sie die Nullwerte in einer Excel-Tabelle mithilfe der Bibliothek C# oder .NET API programmgesteuert ausblenden.
-keywords: hide zero values of excel worksheet in c#
+description: In diesem Artikel wird Ihnen ein Beispielscode gezeigt, der erklärt, wie Sie Nullwerte in einer Excel Tabelle mit Hilfe der C# Bibliothek oder .NET API programmgesteuert ausblenden können.
+keywords: Nullwerte im Excel Arbeitsblatt in C# ausblenden
 ---
+
 {{% alert color="primary" %}} 
 
-Manchmal müssen Sie Nullwerte in einer Tabelle ausblenden. Es kann sich um eine persönliche Vorliebe oder einen Formatierungsstandard handeln.
+Manchmal müssen Sie Nullwerte in einer Tabelle ausblenden. Es könnte eine persönliche Vorliebe oder ein Formatierungsstandard sein.
 
 {{% /alert %}} 
 
-So verbergen Sie Nullwerte in einem Arbeitsblatt in Microsoft Excel (zum Beispiel Microsoft Excel 2003):
+Um Nullwerte in einem Arbeitsblatt in Microsoft Excel zu verstecken (z. B. Microsoft Excel 2003):
 
-1.  Von dem**Werkzeug** Menü auswählen**Optionen** und wählen Sie dann **Ansicht** Tab.
-1.  Deaktivieren Sie das**Nullwerte** Möglichkeit.
-1. OK klicken**.
+1. Wählen Sie im Menü **Extras** die Option **Optionen** und dann den Tab **Ansicht** aus.
+1. Deaktivieren Sie die Option **Nullwerte**.
+1. Klicken Sie auf **OK**.
 
-Bitte sehen Sie sich den folgenden Beispielcode an, der das Ausblenden von Nullen mit Aspose.Cells demonstriert.
+Bitte beachten Sie den folgenden Beispielscode, der das Ausblenden von Nullen mit Aspose.Cells demonstriert.
 
 
 

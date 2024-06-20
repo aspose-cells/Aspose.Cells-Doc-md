@@ -1,57 +1,58 @@
 ---
-title: Bir Çalışma Sayfasının Cells'ine erişme
+title: Çalışma Sayfasının Hücrelerine Erişme
 type: docs
 weight: 10
 url: /tr/net/accessing-cells-of-a-worksheet/
-description: Bu makalede, Aspose.Cells for .NET API numaralı telefon aracılığıyla maksimum çalışma sayfası görüntüleme aralığının nasıl elde edileceği ve hücrelere nasıl erişileceği gösterilmektedir.
-keywords: Get Cell object, Access Cells, Get maximum display range of worksheet. 
+description: Bu makale, çalışma sayfasının maksimum görüntüleme aralığını nasıl alınır ve Aspose.Cells for .NET API si aracılığıyla hücrelere erişilir göstermektedir.
+keywords: Hücre nesnesine erişme, Hücrelere Erişme, Çalışma sayfasının maksimum görüntüleme aralığını alın. 
 ---
+
 {{% alert color="primary" %}}
 
-Tüm çalışma sayfalarının, temel olarak hücrelerde (çalışma sayfasını oluşturan hücreler) depolanan verileri içerebileceğini biliyoruz. Hücre, çalışma sayfasının tamamını satır ve sütun dizisi halinde oluşturmak için kullanılan temel bir parçasıdır. Bir çalışma sayfasındaki verilere erişmeye çalışmadan önce hücrelerine erişmemiz gerekir. Bu nedenle, bu konuda, Aspose.Cells'i kullanarak çalışma zamanında çalışma sayfası hücrelerine erişmeye yönelik bazı temel yaklaşımları tartışacağız.
+Tüm çalışma sayfalarının temelini oluşturan hücrelerde depolanan temelde veri içeren verileri içerebileceğini biliyoruz. Bir hücre, çalışma sayfasının tümünü satırlar ve sütunlar dizisi olarak oluşturmak için kullanılan çalışma sayfasının temel parçasıdır. Bir çalışma sayfasından veri almadan önce, hücrelerine erişim sağlamamız gerekecektir. Bu nedenle, bu konuda, Aspose.Cells'i kullanarak çalışma sayfasının çalışma zamanında hücrelere erişmek için bazı temel yaklaşımları tartışacağız.
 
 {{% /alert %}}
 
-##  **Cells'e Nasıl Erişilir?**
+## **Hücrelere Nasıl Erişilir**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf bir içerir[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)Bu, Excel dosyasındaki her çalışma sayfasına erişime izin verir. Bir çalışma sayfası şu şekilde temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)çalışma sayfasındaki tüm hücreleri temsil eden koleksiyon.
+Aspose.Cells, bir Excel dosyasını temsil eden bir [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlar. Bir çalışma sayfası, [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, çalışma sayfasındaki tüm hücreleri temsil eden bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonu sağlar.
 
- Kullanabiliriz[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Bir çalışma sayfasındaki hücrelere erişmek için koleksiyon. Aspose.Cells, çalışma sayfasındaki hücrelere erişim için üç temel yaklaşım sağlar:
+Bir çalışma sayfasında hücrelere erişmek için [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonunu kullanabiliriz. Aspose.Cells, çalışma sayfasındaki hücrelere erişmek için üç temel yaklaşım sağlar:
 
-1. Hücre adını kullanma.
-1. Bir hücrenin satır ve sütun indeksini kullanma.
-1.  Hücre indeksini kullanma[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Toplamak
+1. Hücre adını kullanarak.
+2. Bir hücrenin satır ve sütun indisini kullanarak.
+3. Bir hücrenin [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonundaki hücre endeksini kullanarak
 
-**ÖNEMLİ:**3. yaklaşımın en hızlı, 1. yaklaşımın ise en yavaş olduğunu belirtmiştik. Yaklaşımlar arasındaki performans farkı çok küçüktür; dolayısıyla hangi yaklaşımı kullanırsanız kullanın, performans düşüşü konusunda endişelenmeyin.
+**ÖNEMLİ:** 3. yaklaşımın en hızlı, 1. yaklaşımın ise en yavaş olduğunu belirttik. Yaklaşımlar arasındaki performans farkı çok küçüktür, bu yüzden hangi yaklaşımı kullanırsanız kullanın, performans düşüşü endişelenecek bir şey değildir.
 
-###  **Cell Nesnesini Cell Adına Göre Alma**
+### **Hücre Nesnesini Hücre Adıyla Nasıl Alınır**
 
- Geliştiriciler herhangi bir hücreye hücre adını ileterek erişebilirler.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)dizin olarak sınıf.
+Geliştiriciler, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonuna, hücre adını bir [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfının [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonu olarak dizin olarak geçirerek herhangi bir belirli hücreye erişebilirler.
 
- Başlangıçta boş bir çalışma sayfası oluşturursanız,[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Koleksiyon sıfırdır. Bir hücreye erişmek için bu yaklaşımı kullandığınızda, bu hücrenin koleksiyonda var olup olmadığı kontrol edilecektir. Evetse, koleksiyondaki hücre nesnesini döndürür, aksi halde yeni bir tane oluşturur.[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) nesneyi nesneye ekler[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)toplama ve ardından nesneyi döndürür. Bu yaklaşım, Microsoft Excel'e aşina iseniz hücreye erişmenin en kolay yoludur ancak diğer yaklaşımlarla karşılaştırıldığında en yavaş olanıdır.
+Eğer başlangıçta boş bir çalışsayısı oluşturursanız, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonunun sayısı sıfırdır. Bu yaklaşımı kullanarak bir hücreye erişmeye çalıştığınızda, bu hücrenin koleksiyonda var olup olmadığını kontrol eder. Eğer varsa, hücre nesnesini koleksiyonda döndürür, aksi halde yeni bir [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) nesnesi oluşturur, nesneyi [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonuna ekler ve ardından nesneyi döndürür. Bu yaklaşım, Microsoft Excel ile tanıdık olanlar için hücreye erişmenin en kolay yoludur, ancak diğer yaklaşımlarla karşılaştırıldığında en yavaş olanıdır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellName-1.cs" >}}
 
-###  **Cell'in Satır ve Sütun Dizinine Göre Cell Nesnesi Nasıl Alınır?**
+### **Hücrenin Satır ve Sütun İndisine Göre Hücre Nesnesi Nasıl Alınır**
 
- Geliştiriciler herhangi bir hücreye, o hücrenin satır ve sütun indekslerini ileterek erişebilirler.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)sınıf.
+Geliştiriciler, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonuna, hücrenin satır ve sütun indislerini geçirerek herhangi bir belirli hücreye erişebilirler.
 
-Bu yaklaşım ilk yaklaşımla aynı şekilde çalışır.
+Bu yaklaşım, ilk yaklaşımın çalışma şekliyle aynı şekilde çalışır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingRowAndColumnIndexOfCell-1.cs" >}}
 
-###  **Cells Koleksiyonunda Cell Dizinine Göre Cell Nesnesi Nasıl Alınır?**
+### **Hücre Endeksindeki Hücre Nesnesi Nasıl Alınır**
 
- Bir hücreye, hücrenin sayısal indeksi aktarılarak da erişilebilir.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Toplamak.
+Bir hücre, hücrenin sayısal endeksini [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonuna geçirerek de erişilebilir.
 
-Hücrelere erişmek için bu yaklaşımı kullanırsanız, hücrenin sayısal dizini aralık dışındaysa bir istisna oluşturulabilir. Bu yaklaşım, hücrelere erişmenin en hızlı yoludur ancak bilmeniz gereken önemli bir nokta, bir hücre nesnesine erişmek için bu yaklaşımı kullanırsanız, hücreye yeni hücreler eklendikten sonra sayısal indeksin değişebileceğidir.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Toplamak. Hücredeki nesneler[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)koleksiyon dahili olarak satır ve sütun endekslerine göre sıralanır.
+Bu yaklaşımı kullanarak hücrelere eriştğinizde, hücrenin sayısal endeksi koleksiyondaki aralık dışındaysa bir istisna fırlatılabilir. Bu yaklaşım, hücrelere erişmek için en hızlı olanıdır ancak hücre nesnesine erişmek için bu yaklaşımı kullandığınızda, sayısal indeks, [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonuna yeni hücreler eklendiğinde değişebilir. [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonundaki hücre nesneleri, satır ve sütun indisleri tarafından içsel olarak sıralanır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellIndexInCellsCollection-1.cs" >}}
 
-##  **Çalışma Sayfasının Maksimum Görüntüleme Aralığı Nasıl Elde Edilir**
+## **Çalışsayının Maksimum Görüntü Aralığını Nasıl Alınır**
 
-Aspose.Cells, geliştiricilerin bir çalışma sayfasının maksimum görüntüleme aralığına erişmesine olanak tanır. Maksimum görüntüleme aralığı (içerik içeren ilk ve son hücre arasındaki hücre aralığı), bir çalışma sayfasının tüm içeriğini bir görüntüde kopyalamanız, seçmeniz veya görüntülemeniz gerektiğinde kullanışlıdır.
+Aspose.Cells, geliştiricilere bir çalışma sayfasının maksimum görüntüleme aralığına erişme imkanı sunar. Maksimum görüntüleme aralığı - içerik bulunan ilk ve son hücre aralığı - bir çalışma sayfasının tüm içeriğini bir resimde kopyalamak, seçmek veya görüntülemek istediğinizde kullanışlıdır.
 
-Bir çalışma sayfasının maksimum görüntüleme aralığına şunu kullanarak erişebilirsiniz:[**Çalışma Sayfası.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) . Aşağıdaki örnek kod,[**Maksimum Görüntü Aralığı**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)mülk.
+[**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) kullanarak bir çalışsayısının maksimum görüntü aralığına erişebilirsiniz. Aşağıdaki örnek kod, [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) özelliğine erişmenin nasıl yapıldığını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}

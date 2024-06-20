@@ -1,29 +1,30 @@
-﻿---
-title: Guarde cada hoja de trabajo en diferentes PDF
+---
+title: Guardar cada hoja de trabajo en PDFs diferentes
 type: docs
 weight: 10
 url: /es/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - Guarde cada hoja de trabajo en diferentes PDF**
-Aspose.Cells admite la conversión de archivos XLS (que contienen imágenes, gráficos, etc.) a documentos PDF. Aspose.Cells for .NET puede funcionar de forma independiente para convertir una hoja de cálculo a un documento PDF y ya no necesita usar Aspose.Pdf for .NET para la conversión. La conversión no requiere crear / usar ningún archivo temporal, ya que todo el proceso se puede realizar en la memoria.
+
+## **Aspose.Cells - Guardar cada hoja de trabajo en PDFs diferentes**
+Aspose.Cells admite la conversión de archivos XLS (que contienen imágenes, gráficos, etc.) a documentos PDF. Aspose.Cells for .NET puede trabajar de forma independiente para convertir una hoja de cálculo a un documento Pdf y ya no es necesario utilizar Aspose.Pdf para .NET para la conversión. La conversión tampoco requiere crear o usar ningún archivo temporal, ya que todo el proceso se puede realizar en la memoria.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- //Crear una instancia de un nuevo libro de trabajo y abrir Excel
+ //Instantiate a new workbook and open the Excel
 
-//Archivo desde su ubicación
+//File from its location
 
 Workbook workbook = new Workbook("../../data/test.xlsx");
 
-//Obtenga el recuento de las hojas de trabajo en el libro de trabajo
+//Get the count of the worksheets in the workbook
 
-int sheetCount = libro de trabajo.Worksheets.Count;
+int sheetCount = workbook.Worksheets.Count;
 
-// Hacer invisibles todas las hojas excepto la primera hoja de trabajo
+//Make all sheets invisible except first worksheet
 
- para (int i = 1; i< workbook.Worksheets.Count; i++)
+for (int i = 1; i < workbook.Worksheets.Count; i++)
 
 {
 
@@ -54,13 +55,13 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Guarde cada hoja de trabajo en diferentes PDF** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Guardar cada hoja de trabajo en PDFs diferentes** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Guarde cada hoja de trabajo en un archivo PDF diferente](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
+Para más detalles, visite [Guardar cada hoja de cálculo en un archivo PDF diferente](https://docs.aspose.com/cells/net/save-each-worksheet-to-a-different-pdf-file/).
 
 {{% /alert %}}

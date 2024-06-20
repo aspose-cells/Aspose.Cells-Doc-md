@@ -1,6 +1,8 @@
-﻿---
-title: Cells Ayudante
+---
+title: Ayudante de Celdas
 type: docs
 weight: 80
 url: /es/cpp/cells-helper/
 ---
+
+

@@ -1,6 +1,8 @@
-﻿---
-title: Работа с GridWeb Cells
+---
+title: Работа с ячейками GridWeb
 type: docs
 weight: 60
-url: /ru/net/working-with-gridweb-cells/
+url: /ru/net/aspose-cells-gridweb/working-with-gridweb-cells/
 ---
+
+

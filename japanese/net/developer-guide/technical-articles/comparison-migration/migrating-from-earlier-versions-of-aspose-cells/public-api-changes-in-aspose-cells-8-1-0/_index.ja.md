@@ -1,30 +1,31 @@
-﻿---
-title: パブリック API Aspose.Cells 8.1.0 の変更点
+---
+title: Aspose.Cells 8.1.0 におけるパブリックAPIの変更
 type: docs
 weight: 40
 url: /ja/net/public-api-changes-in-aspose-cells-8-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、バージョン 8.0.2 から 8.1.0 への Aspose.Cells API の変更について説明します。これは、モジュール/アプリケーション開発者にとって興味深いものです。これには、新規および更新されたパブリック メソッドだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントでは、Aspose.Cellsのバージョン8.0.2から8.1.0へのAPIの変更について、モジュール/アプリケーション開発者に関心がある可能性のあるものを説明しています。新しいおよび更新されたパブリックメソッドだけでなく、Aspose.Cellsの裏側の挙動の変更の説明も含まれています。
 
 {{% /alert %}} 
-## **HtmlSaveOptions.ExportHiddenWorksheet プロパティを追加**
-HtmlSaveOptions クラスには、非表示のワークシートを HTML 形式でエクスポートするかどうかを指定するために使用できる ExportHiddenWorksheet プロパティが公開されています。デフォルト値は true です。一方、false に設定すると、Aspose.Cells は非表示のワークシート コンテンツをエクスポートしません。
+## **HtmlSaveOptions.ExportHiddenWorksheetプロパティの追加**
+HtmlSaveOptionsクラスにはExportHiddenWorksheetプロパティが公開されており、非表示のワークシートがHTML形式にエクスポートされるかどうかを指定するために使用できます。デフォルト値はtrueです。falseに設定すると、Aspose.Cellsは非表示のワークシートの内容をエクスポートしません。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をご確認ください[非表示のワークシートのエクスポートを防止](/cells/ja/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
+[非表示ワークシートのエクスポートを防止する](/cells/ja/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/)の詳細な記事をご確認ください
 
 {{% /alert %}}
-## **Cell.StringValueWithoutFormat プロパティを追加**
-StringValueWithoutFormat プロパティが Cell クラスに追加され、開発者がフォーマットを適用せずにセル値を簡単に取得できるようになりました。
+## **Cell.StringValueWithoutFormatプロパティの追加**
+CellValueWithoutFormatプロパティがCellクラスに追加され、開発者が書式を適用せずにセルの値を取得することを容易にするために追加されました。
 
-以下のコード スニペットは、ゼロからスプレッドシートを作成し、セルの 1 つに数値形式を適用することによって、cell.DisplayStringValue と比較した Cell.StringValueWithoutFormat プロパティの使用法を示しています。
+以下に示すコードスニペットでは、スプレッドシートをゼロから作成し、1つのセルに数値形式を適用することで、Cell.StringValueWithoutFormat プロパティの使用方法を示しています。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -70,12 +71,12 @@ Console.WriteLine(unformatted);
 
 {{% alert color="primary" %}} 
 
-上記のコードの出力は次のとおりです
+上記のコードの出力は以下の通りです
 
 123,456
 
 123456
 
 {{% /alert %}}
-## **廃止された Bytes、Characters、CharactersWithSpaces、Lines、Paragraphs のプロパティ**
-BuiltInDocumentPropertyCollection クラスの多くのプロパティは、Aspose.Cells for .NET 8.1.0 から廃止されました。これらのプロパティには、Bytes、Characters、CharactersWithSpaces、Lines & Paragraphs が含まれます。理由は、前述のプロパティは、Excel がそれらを省略しているため、Excel スプレッドシートの防腐剤としては役に立たないからです。これらのプロパティは、もともと Word ドキュメントと PowerPoint プレゼンテーション用に作成されたものです。
+## **廃止されたBytes、Characters、CharactersWithSpaces、Lines、Paragraphsプロパティ**
+BuiltInDocumentPropertyCollectionクラスの多くのプロパティがバージョン Aspose.Cells for .NET 8.1.0 から非推奨となりました。これらのプロパティにはBytes、Characters、CharactersWithSpaces、Lines、Paragraphsが含まれています。これらのプロパティはExcelスプレッドシートの保存において利用されないためです。元々これらのプロパティはWord文書やPowerPointプレゼンテーション向けに記述されていました。

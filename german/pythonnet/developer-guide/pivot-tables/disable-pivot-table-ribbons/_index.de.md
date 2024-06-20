@@ -1,19 +1,20 @@
 ---
-title: Deaktivieren Sie die Pivot-Tabellen-Menübänder
+title: Pivot Tabellen Ribbons deaktivieren
 type: docs
 weight: 90
 url: /de/python-net/disable-pivot-table-ribbons/
-description: So deaktivieren Sie Pivot-Table-Menübänder mit Aspose.Cells for Python via .NET.
-keywords: Disable Pivot Table Ribbons.
+description: Wie man Pivot Tabellen Ribbons mit Aspose.Cells für Python via .NET deaktiviert.
+keywords: Aspose.Cells für Python Excel, Excel Python Bibliothek, Deaktivieren von Pivot Tabellen Ribbons mit Aspose.Cells für Python Excel Bibliothek.
 ---
+
 {{% alert color="primary" %}}
 
-Auf Pivot-Tabellen basierende Berichte sind nützlich, aber fehleranfällig, wenn Zielbenutzer nicht über detaillierte Excel-Kenntnisse verfügen, um diese Berichte zu konfigurieren. Unter diesen Umständen möchten Organisationen verhindern, dass Benutzer einen auf einer Pivot-Tabelle basierenden Bericht ändern können. Gängige Pivot-Tabellenfunktionen wie das Hinzufügen zusätzlicher Filter, Slicer, Felder oder das Ändern der Reihenfolge bestimmter Dinge im Bericht werden meist nicht jedem Benutzer empfohlen. Andererseits sollen diese Benutzer auch die Möglichkeit haben, den Bericht zu aktualisieren und vorhandene Filter oder Slicer zu verwenden. Aspose.Cells for Python via .NET bietet Entwicklern diese Möglichkeit, um Benutzer daran zu hindern, diese Berichte während der Erstellung dieser Berichte zu ändern. Zu diesem Zweck bietet Excel eine Funktion zum Deaktivieren des Pivot-Tabellen-Menübands und das Gleiche wird von Aspose.Cells for Python via .NET bereitgestellt, dh Entwickler können das Menüband deaktivieren, das Steuerelemente zum Ändern dieser Berichte enthält.
+Pivot-Tabellen-basierte Berichte sind nützlich, aber anfällig für Fehler, wenn die Zielbenutzer nicht über detaillierte Kenntnisse von Excel verfügen, um diese Berichte zu konfigurieren. In diesen Umständen möchten Organisationen Benutzer davon abhalten können, einen Pivot-Tabellen-Bericht zu ändern. Gängige Pivot-Tabellen-Funktionen wie Hinzufügen zusätzlicher Filter, Slicer, Felder oder Ändern der Reihenfolge bestimmter Dinge im Bericht werden von den meisten Benutzern meist nicht empfohlen. Andererseits sollten diese Benutzer auch in der Lage sein, den Bericht zu aktualisieren und vorhandene Filter oder Slicer zu verwenden. Aspose.Cells für Python via .NET hat diese Möglichkeit für Entwickler bereitgestellt, Benutzer daran zu hindern, diese Berichte zu ändern, während sie diese Berichte erstellen. Zu diesem Zweck bietet Excel eine Funktion zum Deaktivieren des Pivot-Tabellen-Ribbons, das auch von Aspose.Cells für Python via .NET bereitgestellt wird, d.h. der Entwickler kann das Ribbon deaktivieren, das Steuerelemente zur Änderung dieser Berichte enthält.
 
 {{% /alert %}}
 
-##  **Deaktivieren Sie das Pivot-Table-Menüband mit PivotTable.EnableWizard**
+## **Wie man das Ribbon der Pivot-Tabelle mit Aspose.Cells für Python Excel-Bibliothek deaktiviert**
 
- Der folgende Code demonstriert diese Funktion, indem er von einem Blatt aus auf eine Pivot-Tabelle zugreift und diese dann festlegt[**enable_wizard**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/) auf *falsch**. Eine Beispiel-Pivot-Tabellendatei kann hier heruntergeladen werden[Verknüpfung](pivot_table_test.xlsx).
+Der folgende Code demonstriert diese Funktion, indem er auf eine Pivot-Tabelle aus einem Blatt zugreift und dann [**enable_wizard**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/enable_wizard/) auf **false** setzt. Die Beispieldatei für die Pivot-Tabelle kann von diesem [Link](pivot_table_test.xlsx) heruntergeladen werden.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-DisablePivotTableRibbon.py" >}}

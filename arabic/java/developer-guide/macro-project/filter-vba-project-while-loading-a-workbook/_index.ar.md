@@ -1,22 +1,23 @@
-﻿---
-title: قم بتصفية مشروع VBA أثناء تحميل مصنف
+---
+title: تصفية مشروع VBA أثناء تحميل جدول عمل
 type: docs
 weight: 70
 url: /ar/java/filter-vba-project-while-loading-a-workbook/
 ---
-## **سيناريوهات الاستخدام الممكنة**
-تحتوي بعض ملفات .xlsm / .xslb على كمية كبيرة جدًا من وحدات الماكرو (أو وحدات ماكرو طويلة جدًا). سيقوم Aspose.Cells بتحميل هذه البيانات (التعريفية) دون قيد أو شرط عند فتح مثل هذه المصنفات. قد تحتاج إلى التحكم في هذا من خلال LoadDataFilterOptions ، عندما تحتاج حقًا فقط إلى استخراج أسماء الأوراق لعدد كبير من المصنفات وبالتالي تخطي هذا المحتوى غير الضروري. يتم توفير عامل التصفية هذا من خلال إدخال خيار جديد LoadDataFilterOptions.VBA.
-## **عينة من الرموز**
-يقوم نموذج التعليمات البرمجية التالي بتحميل مصنف بحيث يتم تصفية VBA فقط. يمكن تنزيل ملف نموذج لاختبار هذه الميزة من الرابط التالي:
+
+## **سيناريوهات الاستخدام المحتملة**
+بعض ملفات .xlsm/.xslb تحتوي على كميات كبيرة للغاية من الماكرو (أو ماكروهات طويلة جدًا جدًا). ستقوم Aspose.Cells بتحميل هذه البيانات (الفرعية) بشكل لا قاطع عند فتح مثل هذه المصنفات. قد تحتاج إلى التحكم في هذا من خلال LoadDataFilterOptions عندما تحتاج حقًا إلى استخراج أسماء الأوراق مثلاً لعدد كبير من المصنفات والتخطي فوق مثل هذا المحتوى غير المرغوب فيه. يتم توفير هذا المرشح من خلال إدخال خيار جديد LoadDataFilterOptions.VBA.
+## **الكود المثالي**
+يحمل الكود العينة التالي دفتر عمل حيث تتم تصفية VBA فقط. يمكن تنزيل الملف عينة لاختبار هذه الميزة من الرابط التالي:
 
 [sampleMacroEnabledWorkbook.xlsm](79527951.xlsm)
 
-// اضبط خيارات التحميل ، لا نريد تحميل VBA
-LoadOptions loadOptions = جديد LoadOptions (LoadFormat.AUTO) ؛
-loadOptions.setLoadFilter (LoadFilter جديد (LoadDataFilterOptions.ALL & ~ LoadDataFilterOptions.VBA)) ؛
+// تعيين خيارات التحميل، نريد عدم تحميل VBA
+LoadOptions loadOptions = new LoadOptions(LoadFormat.AUTO);
+loadOptions.setLoadFilter(new LoadFilter(LoadDataFilterOptions.ALL & ~LoadDataFilterOptions.VBA));
 
-// إنشاء كائن مصنف من نموذج ملف Excel باستخدام خيارات التحميل
-كتاب المصنف = مصنف جديد (srcDir + "sampleMacroEnabledWorkbook.xlsm" ، loadOptions) ؛
+// إنشاء كائن دفتر عمل من ملف إكسل عينة باستخدام خيارات التحميل
+Workbook book = new Workbook(srcDir + "sampleMacroEnabledWorkbook.xlsm", loadOptions);
 
-// احفظ الإخراج بتنسيق pdf
-book.save (outDir + "OutputSampleMacroEnabledWorkbook.xlsm"، SaveFormat.XLSM) ؛
+// حفظ الناتج في تنسيق PDF
+book.save(outDir + "OutputSampleMacroEnabledWorkbook.xlsm", SaveFormat.XLSM);

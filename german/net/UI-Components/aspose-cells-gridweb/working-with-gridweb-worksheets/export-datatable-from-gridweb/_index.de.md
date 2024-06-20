@@ -1,31 +1,34 @@
-﻿---
-title: DataTable aus GridWeb exportieren
+---
+title: Datenbank von GridWeb exportieren
 type: docs
 weight: 70
-url: /de/net/export-datatable-from-gridweb/
+url: /de/net/aspose-cells-gridweb/export-datatable-from-gridweb/
+keywords: GridWeb, exportieren
+description: Dieser Artikel führt ein, wie man DataTable in GridWeb exportiert.
 ---
+
 {{% alert color="primary" %}} 
 
-[Importieren Sie DataView in GridWeb](/cells/de/net/import-dataview-to-gridweb/)sprachen über das Importieren des Inhalts einer DataView in das Aspose.Cells.GridWeb-Steuerelement. In diesem Thema wird das Exportieren der Daten aus dem Aspose.Cells.GridWeb-Steuerelement in eine DataTable erläutert.
+[Import DataView to GridWeb](/cells/de/net/aspose-cells-gridweb/import-dataview-to-gridweb/) beschreibt den Import des Inhalts eines DataView-Objekts in die Aspose.Cells.GridWeb-Steuerung. Dieser Abschnitt behandelt das Exportieren von Daten aus der Aspose.Cells.GridWeb-Steuerung in eine DataTable.
 
 {{% /alert %}} 
-## **Arbeitsblattdaten exportieren**
+## **Exportieren von Arbeitsblattdaten**
 ### **Zu einer bestimmten DataTable**
-So exportieren Sie Arbeitsblattdaten in ein bestimmtes DataTable-Objekt:
+Um Arbeitsblattdaten in ein bestimmtes DataTable-Objekt zu exportieren:
 
-1. Fügen Sie Ihrem Webformular das Steuerelement Aspose.Cells.GridWeb hinzu.
+1. Fügen Sie die Aspose.Cells.GridWeb-Steuerung Ihrem Webformular hinzu.
 1. Erstellen Sie ein bestimmtes DataTable-Objekt.
-1. Exportiert die Daten der ausgewählten Zellen in das angegebene DataTable-Objekt.
+1. Exportieren Sie die Daten der ausgewählten Zellen in das angegebene DataTable-Objekt.
 
-Das folgende Beispiel erstellt ein bestimmtes DataTable-Objekt mit vier Spalten. Die Arbeitsblattdaten werden ab der ersten Zelle mit allen im Arbeitsblatt sichtbaren Zeilen und Spalten in ein bereits erstelltes DataTable-Objekt exportiert.
+Im folgenden Beispiel wird ein spezifisches DataTable-Objekt mit vier Spalten erstellt. Die Arbeitsblattdaten werden ab der ersten Zelle mit allen sichtbaren Zeilen und Spalten im Arbeitsblatt in ein zuvor erstelltes DataTable-Objekt exportiert.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-ExportDataTable.aspx-ExportDataTable.cs" >}}
-### **Zu einer neuen Datentabelle**
+### **Zu einer neuen DataTable**
 Manchmal möchten Sie kein DataTable-Objekt erstellen, sondern einfach die Arbeitsblattdaten in ein neues DataTable-Objekt exportieren.
 
-Das folgende Beispiel versucht auf andere Weise, die Verwendung der Export-Methode zu zeigen. Es nimmt die Referenz des aktiven Arbeitsblatts und exportiert die vollständigen Daten dieses Arbeitsblatts in ein neues DataTable-Objekt. Das DataTable-Objekt kann nun beliebig verwendet werden. Beispielsweise ist es möglich, das DataTable-Objekt an eine GridView zu binden, um die Daten anzuzeigen.
+Im folgenden Beispiel wird eine andere Methode gezeigt, wie die Verwendung der Exportmethode erfolgen kann. Es übernimmt den Verweis auf das aktive Arbeitsblatt und exportiert die kompletten Daten dieses Arbeitsblatts in ein neues DataTable-Objekt. Das DataTable-Objekt kann nun auf jede gewünschte Weise verwendet werden. Zum Beispiel kann es an ein GridView gebunden werden, um die Daten anzuzeigen.
 
 
 

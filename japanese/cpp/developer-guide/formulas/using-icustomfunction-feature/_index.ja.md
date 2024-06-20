@@ -1,13 +1,14 @@
 ---
-title: ICustomFunction 機能の使用
+title: ICustomFunction機能の使用
 type: docs
 weight: 20
 url: /ja/cpp/using-icustomfunction-feature/
 ---
-##  **廃止**
-代わりに AbstractCalculationEngine を使用してください。
 
-**このクラスは新しいバージョンでは AbstractCalculationEngine に置き換えられましたが、機能はまだ改良中ですので、ご期待ください。**
+## **非推奨**
+新しいバージョンではAbstractCalculationEngineに置き換えられました。しかし、機能はまだ改良中ですので、お楽しみに。
 
-**参照する** [AbstractCalculationEngine 機能の使用](../using-abstractcalculationengine-feature/)
+**このクラスは新しいバージョンでAbstractCalculationEngineに置き換えられましたが、機能はまだ改良中ですので、お楽しみに。**
+
+**[Using AbstractCalculationEngine Feature](../using-abstractcalculationengine-feature/)を参照してください**
 

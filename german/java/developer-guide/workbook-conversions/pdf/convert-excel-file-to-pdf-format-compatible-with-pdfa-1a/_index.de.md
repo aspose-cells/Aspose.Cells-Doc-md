@@ -1,22 +1,23 @@
-﻿---
-title: Konvertieren Sie die Excel-Datei in das mit PDFA-1a kompatible PDF-Format
+---
+title: Konvertieren Sie Excel Datei in das PDF Format, das mit PDFA 1a kompatibel ist
 type: docs
 weight: 80
 url: /de/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/
 ---
-## **Mögliche Nutzungsszenarien**
 
-PDF/A ist eine einzigartige Geschmacksrichtung von PDF, die für die langfristige Aufbewahrung von Dokumenten entwickelt wurde. PDF/A ist eine ISO-standardisierte Version des Portable Document Format (PDF), das ein Archivformat von PDF ist, das alle im Dokument verwendeten Schriftarten in die PDF-Datei einbettet. PDF/A unterscheidet sich von PDF durch das Verbot von Funktionen wie Schriftartverknüpfung (im Gegensatz zur Schriftarteinbettung) und Verschlüsselung. Mit Aspose.Cells können Sie die Excel-Dateien in PDF/A-kompatiblen PDF-Dateien speichern (sowohl PdfA1a als auch PdfA1b werden unterstützt). In diesem Thema wird beschrieben, wie Sie die Excel-Arbeitsmappe in einer PDF/A-kompatiblen (PdfA1a) PDF-Datei speichern.
+## **Mögliche Verwendungsszenarien**
 
-## **Konvertieren Sie die Excel-Datei in das mit PDFA-1a kompatible PDF-Format**
+PDF/A ist eine einzigartige Variante von PDF, die für die langfristige Archivierung von Dokumenten konzipiert ist. PDF/A ist eine ISO-standardisierte Version des Portable Document Format (PDF), das eine archivarische Formatierung von PDF darstellt und alle im Dokument verwendeten Schriftarten in der PDF-Datei einbettet. PDF/A unterscheidet sich von PDF, indem es bestimmte Funktionen wie die Schriftartverknüpfung (im Gegensatz zur Schriftarteinbettung) und Verschlüsselung verbietet. Aspose.Cells ermöglicht es Ihnen, Excel-Dateien als PDF/A-konforme PDF-Dateien zu speichern (PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab und PDF/A-3u werden unterstützt). Dieses Thema beschreibt, wie Sie das Excel-Arbeitsbuch als PDF/A-konforme (PDF/A-1a) PDF-Datei speichern können.
 
-Entwickler können die verwenden**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)**-Klasse, um verschiedene Attribute für die Konvertierung festzulegen. Festlegen verschiedener Eigenschaften der**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)**-Klasse gibt Ihnen die Kontrolle über die Druck-, Schriftart-, Sicherheits- und Komprimierungseinstellungen für die Ausgabe PDF. Die wichtigste Eigenschaft ist**[PdfSaveOptions.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance)**Damit können Sie die Excel-Dateien in PDF/A-kompatible PDF-Dateien speichern.
+## **Excel-Datei in das mit PDF/A-1a kompatible PDF-Format konvertieren**
 
-Der folgende Beispielcode erläutert, wie Sie eine Excel-Datei in das mit PDFA-1a kompatible PDF-Format konvertieren. Bitte sehen Sie es sich an[Ausgang PDF](outputCompliancePdfA1a.pdf) sowie ein Screenshot als Referenz.
+Entwickler können die [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)-Klasse verwenden, um verschiedene Attribute für die Konvertierung festzulegen. Durch das Setzen verschiedener Eigenschaften der [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)-Klasse haben Sie die Kontrolle über die Druck-, Schrift-, Sicherheits- und Kompressionseinstellungen für die Ausgabedatei PDF. Die wichtigste Eigenschaft ist [PdfSaveOptions.Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#Compliance), mit der Sie Excel-Dateien in PDF/A-konforme PDF-Dateien speichern können.
 
-## **Bildschirmfoto**
+Der folgende Beispielcode erläutert, wie man eine Excel-Datei in das mit PDF/A-1a kompatible PDF-Format konvertiert. Bitte sehen Sie sich die [Ausgabe-PDF](outputCompliancePdfA1a.pdf) sowie einen Screenshot zur Referenz an.
 
-![todo: Bild_alt_Text](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
+## **Screenshot**
+
+![todo:image_alt_text](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
 
 ## **Beispielcode**
 

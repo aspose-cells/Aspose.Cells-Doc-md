@@ -1,45 +1,46 @@
 ---
-title: قم بتطبيق عامل التصفية المتقدم لبرنامج Excel Microsoft لعرض معايير اجتماع السجلات المعقدة
+title: تطبيق مرشح Microsoft Excel المتقدم لعرض السجلات التي تلبي معايير معقدة
 type: docs
 weight: 280
 url: /ar/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
-description: تعرف على كيفية تطبيق عامل التصفية المتقدم لبرنامج Microsoft Excel لعرض السجلات التي تستوفي المعايير المعقدة باستخدام Aspose.Cells for .NET API.
-keywords: Apply Advanced Filter, Set Advanced Filter, Add Advanced Filter, Create Advanced Filter, How to add Advanced Filter to a range 
+description: تعلم كيفية تطبيق عامل تصفية متقدم من Microsoft Excel لعرض السجلات التي تلبي معايير معقدة باستخدام API Aspose.Cells for .NET.
+keywords: تطبيق عامل تصفية متقدم، تعيين عامل تصفية متقدم، إضافة عامل تصفية متقدم، إنشاء عامل تصفية متقدم، كيفية إضافة عامل تصفية متقدم إلى نطاق 
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
- Microsoft يتيح لك برنامج Excel التقديم*تصفية متقدم* على بيانات ورقة العمل لعرض السجلات التي تفي بالمعايير المعقدة. يمكنك تطبيق عامل التصفية المتقدم مع Microsoft Excel عبره*البيانات> متقدم*الأمر كما هو موضح في لقطة الشاشة هذه.
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
+يسمح Microsoft Excel بتطبيق *تصفية* متقدمة على بيانات ورق العمل لعرض السجلات التي تلبي معايير معقدة. يمكنك تطبيق مرشح متقدم مع Microsoft Excel عبر أمره *بيانات> متقدم* كما هو موضح في هذه اللقطة الشاشية.
 
-Aspose.Cells يسمح لك أيضًا بتطبيق عامل التصفية المتقدم باستخدام[**ورقة العمل.AdvancedFilter()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter)طريقة. تمامًا مثل Microsoft Excel، فإنه يقبل المعلمات التالية.
+![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
+
+تسمح Aspose.Cells أيضًا لك بتطبيق العامل تصفية المتقدم باستخدام الطريقة [**Worksheet.AdvancedFilter()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter). تمامًا مثل Microsoft Excel، يقبل البارامترات التالية.
 
 **isFilter**
 
-يشير إلى ما إذا كانت تصفية القائمة في مكانها.
+يشير ما إذا كان يتم تصفية القائمة في المكان.
 
 **listRange**
 
 نطاق القائمة.
 
-**وتتراوح المعايير**
+**criteriaRange**
 
-نطاق المعايير.
+نطاق المعيار.
 
-**نسخ الى**
+**copyTo**
 
-النطاق الذي يتم نسخ البيانات إليه.
+نطاق نسخ البيانات إليه.
 
-**UniqueRecordOnly**
+**uniqueRecordOnly**
 
 عرض أو نسخ الصفوف الفريدة فقط.
 
-##  **قم بتطبيق عامل التصفية المتقدم لبرنامج Excel Microsoft لعرض معايير اجتماع السجلات المعقدة**
+## **تطبيق مرشح Microsoft Excel المتقدم لعرض السجلات التي تلبي معايير معقدة**
 
-يطبق نموذج التعليمات البرمجية التالي عامل التصفية المتقدم على[نموذج لملف إكسل](48496692.xlsx) ويولد[إخراج ملف إكسل](48496691.xlsx). تعرض لقطة الشاشة كلا الملفين للمقارنة. كما ترون داخل لقطة الشاشة، تمت تصفية البيانات داخل ملف Excel الناتج وفقًا لمعايير معقدة.
+الكود العيني التالي يطبق عامل التصفية المتقدم على [ملف إكسل عيني](48496692.xlsx) ويولد [ملف إكسل الناتج](48496691.xlsx). يظهر لقطات الشاشة كلا الملفين للمقارنة. كما يمكن رؤية داخل صورة الشاشة أن البيانات تم تصفيتها داخل ملف إكسل الناتج وفقًا لمعايير معقدة.
 
-![ما يجب القيام به:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
+![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 
-##  **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ApplyAdvancedFilterOfMicrosoftExcel.cs" >}}

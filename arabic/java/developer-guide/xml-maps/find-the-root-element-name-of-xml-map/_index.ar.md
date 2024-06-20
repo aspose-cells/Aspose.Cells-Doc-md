@@ -1,24 +1,25 @@
-﻿---
-title: ابحث عن اسم العنصر الجذر لخريطة XML
+---
+title: العثور على اسم العنصر الجذري لخريطة XML
 type: docs
 weight: 30
 url: /ar/java/find-the-root-element-name-of-xml-map/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك العثور على ملف*اسم العنصر الجذر لخريطة XML*باستخدام Aspose.Cells مع[**XmlMap.RootElementName**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmap#RootElementName)خاصية. تُظهر لقطة الشاشة التالية اسم العنصر الجذر لخريطة XML في Microsoft Excel.
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به: image_بديل_نص](find-the-root-element-name-of-xml-map_1.png)
+يمكنك العثور على *اسم العنصر الجذري لخريطة XML* باستخدام Aspose.Cells مع الخاصية [**XmlMap.RootElementName**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmap#RootElementName). يظهر اللقطة الشاشة التالية اسم العنصر الجذري لخريطة XML في Microsoft Excel.
 
-## **عينة من الرموز**
+![todo:image_alt_text](find-the-root-element-name-of-xml-map_1.png)
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](55541816.xlsx)والوصول إلى خريطة XML الأولى وطباعة ملفات[**XmlMap.RootElementName**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmap#RootElementName)خاصية. يرجى الاطلاع على إخراج وحدة التحكم لعينة التعليمات البرمجية الواردة أدناه.
+## **الكود المثالي**
+
+الكود المثالي التالي يحمل [ملف Excel المثالي](55541816.xlsx) ويصل إلى الخريطة الأولى لـ XML ويطبع خاصيته [**XmlMap.RootElementName**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmap#RootElementName). يرجى رؤية إخراج الكونسول للكود المثالي المعطى أدناه.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-XmlMaps-FindRootElementNameOfXmlMap.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Root Element Name Of Xml Map: MiscData
 

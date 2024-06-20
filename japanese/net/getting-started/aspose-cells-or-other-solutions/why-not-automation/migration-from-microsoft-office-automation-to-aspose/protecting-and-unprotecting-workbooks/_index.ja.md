@@ -1,28 +1,29 @@
-﻿---
-title: ワークブックの保護と保護解除
+---
+title: ブックの保護と保護解除
 type: docs
 weight: 20
 url: /ja/net/protecting-and-unprotecting-workbooks/
 ---
+
 {{% alert color="primary" %}} 
 
-誰かが誤ってまたは故意にワークシートを変更、移動、または削除するのを防ぐために、パスワードを使用して、または使用せずにブック要素を保護できます。ブック内のワークシートを移動、削除、非表示、再表示、または名前変更したり、新しいワークシートを挿入したりできないようにブックの構造を保護するには、ProtectionType を Structure として指定します。
+誤ってもしくは意図的にワークシートの変更、移動、削除を防止するために、ワークブックの要素をパスワード付きもしくはパスワードなしで保護することができます。ワークブックの構造を保護して、ワークブック内のワークシートを移動、削除、非表示、非非表示、名前変更できなくし、新しいワークシートを挿入できないようにするには、ProtectionType を Structure に指定します。
 
-ワークブックを開くたびに同じサイズと位置になるように Windows を保護するには、ProtectionType を Windows として指定します。この記事では、その方法を示します。[守る](/cells/ja/net/protecting-and-unprotecting-workbooks/)と[保護を解除する](/cells/ja/net/protecting-and-unprotecting-workbooks/)VSTO と Aspose.Cells for .NET を使用するワークブックで、2 つの方法を比較できます。
+ワークブックが開かれるたびにウィンドウを同じサイズおよび位置に保護するには、ProtectionType を Windows に指定します。この記事では、VSTO と Aspose.Cells for .NET を使用してワークブックを[保護](/cells/ja/net/protecting-and-unprotecting-workbooks/)および[保護解除](/cells/ja/net/protecting-and-unprotecting-workbooks/)する方法を示します。
 
-Aspose.Cells は Microsoft Office Automation とは独立して動作し、使いやすく、きちんとしたコードを生成するように開発されています。
+Aspose.Cells は Microsoft Office Automation とは独立して動作し、使用が簡単で整ったコードを生成するように開発されています。
 
-ワークブックを保護しても、ユーザーがセルを編集できなくなるわけではありません。データを保護するには、ワークシートを保護する必要があります。
+ワークブックを保護しても、ユーザーがセルを編集するのを止めることはできません。データを保護するためには、ワークシートを保護する必要があります。
 
 {{% /alert %}} 
 ## **ワークブックの保護**
-既存の Microsoft Excel ファイルを開くには、ワークブックを構造と Windows 属性で保護し、ファイルを保存します。
+既存のMicrosoft Excelファイルを開き、ブックの構造とウィンドウ属性でファイルを保護し、ファイルを保存します。
 
-以下は、ワークブックを保護する方法を示す VSTO (C#、VB) および Aspose.Cells for .NET (C#、VB) の並列コード スニペットです。
+以下に、VSTO (C#、VB) および Aspose.Cells for .NET (C#、VB) 向けの並列コードスニペットを示し、ワークブックを保護する方法を比較する。
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -80,7 +81,7 @@ excelApp.Quit();
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -111,11 +112,11 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 ## **ワークブックの保護解除**
-ブックの保護を解除するには、VSTO (C#、VB) および Aspose.Cells for .NET (C#、VB) の次のコード行を使用します。
+ワークブックの保護解除には、VSTO (C#、VB) および Aspose.Cells for .NET (C#、VB) 向けの次のコードを使用します。
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 
@@ -129,7 +130,7 @@ excelApp.ActiveWorkbook.Unprotect("007");
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 

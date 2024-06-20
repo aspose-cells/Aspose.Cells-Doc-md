@@ -1,13 +1,14 @@
-﻿---
+---
 title: Arbeta med färger
 type: docs
 weight: 20
 url: /sv/net/working-with-colors/
 ---
+
 ## **Aspose.Cells - Arbeta med färger**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -56,7 +57,7 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 ## **NPOI - HSSF XSSF - Arbeta med färger**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -102,13 +103,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Arbeta med färger** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Arbeta med färger** från någon av de nedan angivna sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Colors.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Dataformateringsfunktioner](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+För mer information, besök [Dataformateringsfunktioner](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
 
 {{% /alert %}}

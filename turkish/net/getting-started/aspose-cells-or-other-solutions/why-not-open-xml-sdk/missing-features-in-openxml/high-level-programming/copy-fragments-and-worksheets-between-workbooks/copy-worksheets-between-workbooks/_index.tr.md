@@ -1,30 +1,31 @@
-﻿---
-title: Çalışma Sayfalarını Çalışma Kitapları Arasında Kopyalama
+---
+title: Çalışma Kitapları Arasında Sayfa Kopyalama
 type: docs
 weight: 10
 url: /tr/net/copy-worksheets-between-workbooks/
 ---
-Aspose.Cells, çalışma kitapları içinde veya arasında bir kaynak çalışma sayfasından başka bir çalışma sayfasına verileri ve biçimlendirmeyi kopyalamak için kullanılan Aspose.Cells.Worksheet.Copy() adlı bir yöntem sağlar. Yöntem, kaynak çalışma sayfası nesnesini parametre olarak alır.
 
-Aşağıdaki örnek, çalışma sayfasının bir çalışma kitabından başka bir çalışma kitabına nasıl kopyalanacağını gösterir.
+Aspose.Cells, Aspose.Cells.Worksheet.Copy() metodunu sağlar, bu metod kullanılarak bir kaynak çalışma sayfasından başka bir çalışma sayfasına veya çalışma kitapları arasında veri ve biçimlendirmenin kopyalanmasını sağlar. Metod, kaynak çalışma sayfası nesnesini bir parametre olarak alır.
 
-{{< highlight "csharp" >}}
+Aşağıdaki örnek, bir çalışma kitabından diğer bir çalışma kitabına sayfa kopyalamanın nasıl yapılacağını gösterir.
 
-string FilePath = @"..\..\..\Örnek Dosyalar\";
+{{< highlight csharp >}}
 
-string FileName = FilePath + "Workbook.xlsx arasında Sayfayı Kopyala";
+ string FilePath = @"..\..\..\Sample Files\";
 
-//Yeni bir Çalışma Kitabı oluştur.
+string FileName = FilePath + "Copy Sheet between Workbook.xlsx";
 
-Çalışma kitabı excelWorkbook0 = new Çalışma Kitabı();
+//Create a new Workbook.
 
-//Kitaptaki ilk çalışma sayfasını alın.
+Workbook excelWorkbook0 = new Workbook();
 
-Çalışma sayfası ws0 = excelWorkbook0.Worksheets[0];
+//Get the first worksheet in the book.
 
-//Bazı verileri başlık satırlarına koyun (A1:A4)
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
- için (int ben = 0; ben< 5; i++)
+//Put some data into header rows (A1:A4)
+
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -75,24 +76,24 @@ ws1.Copy(ws0);
 excelWorkbook1.Save(FileName);
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20between%20Workbooks%20%28Aspose.Cells%29.zip)
 
-Aşağıdaki örnek, çalışma sayfasının bir çalışma kitabından başka bir çalışma kitabına nasıl kopyalanacağını gösterir.
+Aşağıdaki örnek, bir çalışma kitabından diğer bir çalışma kitabına sayfa kopyalamanın nasıl yapılacağını gösterir.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Yeni bir Çalışma Kitabı oluştur.
+ //Create a new Workbook.
 
-Çalışma kitabı excelWorkbook0 = new Çalışma Kitabı();
+Workbook excelWorkbook0 = new Workbook();
 
-//Kitaptaki ilk çalışma sayfasını alın.
+//Get the first worksheet in the book.
 
-Çalışma sayfası ws0 = excelWorkbook0.Worksheets[0];
+Worksheet ws0 = excelWorkbook0.Worksheets[0];
 
-//Bazı verileri başlık satırlarına koyun (A1:A4)
+//Put some data into header rows (A1:A4)
 
- için (int ben = 0; ben< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -144,6 +145,6 @@ excelWorkbook1.Save("copyworksheet.xls");
 
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Sheet%20between%20Workbook%20%28Aspose.Cells%29.zip)

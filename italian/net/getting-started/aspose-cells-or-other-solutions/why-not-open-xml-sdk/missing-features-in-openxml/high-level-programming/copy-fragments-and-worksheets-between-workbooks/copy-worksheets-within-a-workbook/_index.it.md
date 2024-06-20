@@ -1,14 +1,15 @@
-﻿---
-title: Copia i fogli di lavoro all'interno di una cartella di lavoro
+---
+title: Copia i fogli all interno del workbook
 type: docs
 weight: 20
 url: /it/net/copy-worksheets-within-a-workbook/
 ---
-**Aspose.Cells** fornisce un metodo sovraccarico,**Aspose.Cells.WorksheetCollection.AddCopy()**, utilizzato per aggiungere un foglio di lavoro alla raccolta e copiare i dati da un foglio di lavoro esistente. Una versione del metodo accetta l'indice del foglio di lavoro di origine come parametro. L'altra versione prende il nome del foglio di lavoro di origine come parametro.
 
-L'esempio seguente mostra come copiare un foglio di lavoro esistente all'interno di una cartella di lavoro.
+**Aspose.Cells** fornisce un metodo sovraccaricato, **Aspose.Cells.WorksheetCollection.AddCopy()**, che viene utilizzato per aggiungere un foglio di lavoro alla collezione e copia i dati da un foglio di lavoro esistente. Una versione del metodo prende l'indice del foglio di lavoro sorgente come parametro. L'altra versione prende il nome del foglio di lavoro sorgente come parametro.
 
-{{< highlight "csharp" >}}
+Nell'esempio seguente viene mostrato come copiare un foglio di lavoro esistente all'interno di un libro.
+
+{{< highlight csharp >}}
 
  //Create a new Workbook.
 

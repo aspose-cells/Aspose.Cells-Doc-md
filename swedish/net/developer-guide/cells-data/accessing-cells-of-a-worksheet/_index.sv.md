@@ -1,57 +1,58 @@
 ---
-title: Åtkomst till Cells i ett arbetsblad
+title: Åtkomst till kalkylbladets celler
 type: docs
 weight: 10
 url: /sv/net/accessing-cells-of-a-worksheet/
-description: Den här artikeln visar hur du får det maximala visningsintervallet för kalkylblad och åtkomstceller via Aspose.Cells for .NET API.
-keywords: Get Cell object, Access Cells, Get maximum display range of worksheet. 
+description: Denna artikel visar hur man får det maximala visningsområdet för arbetsblad och får åtkomst till celler via Aspose.Cells for .NET API et.
+keywords: Få Cell objekt, Åtkomst till celler, Få maximalt visningsområde på arbetsbladet. 
 ---
+
 {{% alert color="primary" %}}
 
-Vi vet att alla kalkylblad kan innehålla data som i princip lagras i celler (som ett kalkylblad är uppbyggt av). En cell är en grundläggande del av ett kalkylblad som används för att konstruera hela kalkylbladet som en sekvens av rader och kolumner. Innan vi försöker komma åt data från ett kalkylblad skulle vi behöva få tillgång till dess celler. Så i det här ämnet kommer vi att diskutera några grundläggande metoder för att komma åt kalkylbladsceller vid körning med Aspose.Cells.
+Vi vet att alla kalkylblad kan innehålla data som i huvudsak lagras i celler (med vilka ett kalkylblad är uppbyggt). En cell är en grundläggande del av ett kalkylblad som används för att konstruera hela kalkylbladet som en sekvens av rader och kolumner. Innan vi försöker få åtkomst till data från ett kalkylblad skulle vi behöva få åtkomst till dess celler. Så i det här ämnet kommer vi att diskutera några grundläggande tillvägagångssätt för att få åtkomst till kalkylbladets celler vid runtime med hjälp av Aspose.Cells.
 
 {{% /alert %}}
 
-##  **Så här kommer du åt Cells**
+## **Hur man får åtkomst till celler**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klass innehåller en[**Arbetsbladssamling**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass ger en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling som representerar alla celler i kalkylbladet.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Excel-fil. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-klassen innehåller en [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) som tillåter åtkomst till varje arbetsblad i Excel-filen. Ett arbetsblad representeras av [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-klassen. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-klassen tillhandahåller en [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samling som representerar alla celler i arbetsbladet.
 
- Vi kan använda[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling för att komma åt celler i ett kalkylblad. Aspose.Cells tillhandahåller tre grundläggande metoder för att komma åt celler i ett kalkylblad:
+Vi kan använda [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samlingen för att få åtkomst till celler i ett arbetsblad. Aspose.Cells tillhandahåller tre grundläggande metoder för att få åtkomst till celler i ett arbetsblad:
 
-1. Använder cellnamnet.
-1. Använda en cells rad- och kolumnindex.
-1.  Använda ett cellindex i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling
+1. Genom att använda cellnamnet.
+2. Genom att använda cellens rad- och kolumnindex.
+3. Genom att använda en cellindex i [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samlingen
 
-**VIKTIG:**Vi har nämnt att den tredje inflygningen är den snabbaste och den första är den långsammaste. Prestandaskillnaden mellan tillvägagångssätten är mycket liten, så oroa dig inte för prestandaförsämring, vilket tillvägagångssätt du än använder.
+**Viktigt:** Vi har nämnt att den 3:e metoden är den snabbaste och den 1:a metoden är den långsammaste. Skillnaden i prestanda mellan metoderna är mycket liten så oroa dig inte för prestandaförsämring, oavsett vilken metod du använder.
 
-###  **Hur man får Cell Objekt av Cell Namn**
+### **Hur man får Cell-objekt genom Cellnamn**
 
- Utvecklare kan komma åt vilken specifik cell som helst genom att skicka dess cellnamn till[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass som ett index.
+Utvecklare kan få åtkomst till en specifik cell genom att skicka dess cellnamn till [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samlingen av [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-klassen som en index.
 
- Om du skapar ett tomt kalkylblad i början kommer antalet[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samlingen är noll. När du använder det här tillvägagångssättet för att komma åt en cell, kommer den att kontrollera om denna cell finns i samlingen eller inte. Om ja, returnerar den cellobjektet i samlingen annars skapar den ett nytt[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) objekt, lägger till objektet till[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling och returnerar sedan objektet. Detta tillvägagångssätt är det enklaste sättet att komma åt cellen om du är bekant med Microsoft Excel, men det är det långsammaste sättet jämfört med andra metoder.
+Om du skapar ett tomt arbetsblad i början är antalet [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samling noll. När du använder den här metoden för att få åtkomst till en cell kontrolleras det om cellen finns i samlingen eller inte. Om ja, returnerar den cellobjektet i samlingen annars skapar den en ny [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-objekt, lägger till objektet i [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samlingen och returnerar sedan objektet. Den här metoden är det enklaste sättet att få åtkomst till cellen om du är bekant med Microsoft Excel men det är det långsammaste som jämfört med andra metoder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellName-1.cs" >}}
 
-###  **Hur man får Cell objekt efter rad och kolumn Index för Cell**
+### **Hur man får Cell-objekt genom rad- och kolumnindex för cellen**
 
- Utvecklare kan komma åt vilken specifik cell som helst genom att skicka indexen för dess rad och kolumn till[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)klass.
+Utvecklare kan komma åt en specifik cell genom att skicka rad- och kolumnindex till [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samlingen av [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-klassen.
 
-Detta tillvägagångssätt fungerar på samma sätt som det första tillvägagångssättet.
+Det här tillvägagångssättet fungerar på samma sätt som det första tillvägagångssättet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingRowAndColumnIndexOfCell-1.cs" >}}
 
-###  **Så här får du Cell Objekt av Cell Index i Cells samling**
+### **Hur man får cellobjekt efter cellindex i cellsamlingen**
 
- En cell kan också nås genom att skicka cellens numeriska index till[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samling.
+En cell kan också kommas åt genom att skicka cellens numeriska index till [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samlingen.
 
-Om du använder det här tillvägagångssättet för att komma åt celler kan ett undantag skapas om cellens numeriska index ligger utanför intervallet. Detta tillvägagångssätt är det snabbaste för att komma åt cellerna men en viktig sak att veta är att om du använder den här metoden för att komma åt ett cellobjekt, kan det numeriska indexet ändras efter att nya celler läggs till i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) samling. Cellobjekten i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)samlingen är internt sorterad efter rad- och kolumnindex.
+Om du använder detta tillvägagångssätt för att komma åt celler kan ett undantag kastas om cellens numeriska index är utanför intervallet. Detta tillvägagångssätt är det snabbaste sättet att komma åt cellerna, men en viktig sak att veta är att om du använder detta tillvägagångssätt för att komma åt ett cellobjekt kan det numeriska indexet ändras efter att nya celler har lagts till i [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samlingen. Cellobjekten i [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-samlingen sorteras internt efter rad- och kolumnindex.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellIndexInCellsCollection-1.cs" >}}
 
-##  **Så här får du maximalt visningsområde för arbetsblad**
+## **Hur man får maximal visningsområde för arbetsblad**
 
-Aspose.Cells tillåter utvecklare att komma åt ett kalkylblads maximala visningsområde. Det maximala visningsintervallet - cellintervallet mellan den första och sista cellen med innehåll - är användbart när du behöver kopiera, markera eller visa hela innehållet i ett kalkylblad i en bild.
+Aspose.Cells tillåter utvecklare att få åtkomst till ett kalkylblads maximala visningsområde. Det maximala visningsområdet - området av celler mellan den första och den sista cellen med innehåll - är användbart när du behöver kopiera, välja eller visa hela innehållet i ett kalkylblad i en bild.
 
-Du kan komma åt ett kalkylblads maximala visningsområde med[**Arbetsblad.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) . Följande exempelkod illustrerar hur du kommer åt[**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)fast egendom.
+Du kan komma åt ett arbetsblads maximala visningsområde med hjälp av [**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange). Följande exempelkod illustrerar hur du kommer åt [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)-egenskapen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}

@@ -1,15 +1,16 @@
-﻿---
-title: Aperçu des sauts de page dans Ruby
+---
+title: Aperçu avant impression en Ruby
 type: docs
 weight: 70
 url: /fr/java/page-break-preview-in-ruby/
 ---
-## **Aspose.Cells - Aperçu des sauts de page**
- Pour définir la feuille de calcul sur l'aperçu des sauts de page à l'aide de**Aspose.Cells Java pour rubis** , invoquez simplement**Aperçu du saut de page** module.
 
-**Code rubis**
+## **Aspose.Cells - Aperçu du saut de page**
+Pour définir la feuille de calcul en aperçu avant impression en utilisant Aspose.Cells Java pour Ruby, il suffit d'invoquer le module PageBreakPreview.
 
-{{< highlight "ruby" >}}
+**Code Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -36,7 +37,7 @@ workbook.save(data_dir + "output.xls")
 puts "Set page break preview, please check the output file."
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Aperçu des sauts de page (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Page Break Preview (Aspose.Cells)** depuis l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreakpreview.rb)

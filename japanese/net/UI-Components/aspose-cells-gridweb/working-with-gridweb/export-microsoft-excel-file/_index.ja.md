@@ -1,31 +1,34 @@
-﻿---
-title: Microsoft Excel ファイルのエクスポート
+---
+title: Microsoft Excelファイルをエクスポート
 type: docs
 weight: 50
-url: /ja/net/export-microsoft-excel-file/
+url: /ja/net/aspose-cells-gridweb/export-microsoft-excel-file/
+keywords: GridWeb、エクスポート
+description: この記事では、GridWebでファイルをエクスポートする方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb コントロールを使用して、GUI モードの Web サイトで新しい Microsoft Excel ファイルを作成したり、既存の Microsoft Excel ファイルを操作したりできます。その後、ファイルを Excel ファイルに保存できます。 Aspose.Cells.GridWeb は、オンラインのスプレッドシート エディターとして効果的に機能します。このトピックでは、グリッド コンテンツを Excel ファイルに保存する方法について説明します。
+Aspose.Cells.GridWebコントロールを使用してGUIモードでWebサイト上で新しいまたは既存のMicrosoft Excelファイルを作成したり操作したり、ファイルをExcelファイルとして保存することができます。 Aspose.Cells.GridWebはオンラインスプレッドシートエディタとして効果的に機能します。 このトピックでは、グリッドコンテンツをExcelファイルに保存する方法について説明します。
 
 {{% /alert %}} 
-## **Excel ファイルのエクスポート**
+## **Excelファイルをエクスポート**
 ### **ファイルとしてエクスポート**
-Aspose.Cells.GridWeb コントロールのコンテンツを Excel ファイルとして保存するには:
+Aspose.Cells.GridWebコントロールのコンテンツをExcelファイルとして保存するには：
 
-1. Aspose.Cells.GridWeb コントロールを Web フォームに追加します。
-1. 指定したパスに Excel ファイルとして作業を保存します。
+1. Aspose.Cells.GridWebコントロールをWebフォームに追加します。
+1. 指定したパスに作業内容をExcelファイルとして保存します。
 1. アプリケーションを実行します。
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb コントロールを Web フォームに追加する方法がわからない場合は、以下を参照してください。[GridWeb を Web フォームに追加する](/cells/ja/net/add-gridweb-to-web-form/)
+Aspose.Cells.GridWebコントロールをWebフォームに追加する方法がわからない場合は、[WebフォームにGridWebを追加](/cells/ja/net/aspose-cells-gridweb/add-gridweb-to-web-form/)を参照してください。
 
 {{% /alert %}} 
 
-Aspose.Cells.GridWeb コントロールが Windows フォームに追加されると、コントロールは自動的にインスタンス化され、既定のサイズでフォームに追加されます。 Aspose.Cells.GridWeb コントロール オブジェクトを作成する必要はありません。コントロールをドラッグ アンド ドロップして使用を開始するだけです。
+Aspose.Cells.GridWebコントロールがウィンドウフォームに追加されると、デフォルトのサイズで自動的にインスタンス化され、フォームに追加されます。 Aspose.Cells.GridWebコントロールオブジェクトを作成する必要はありません。 コントロールをドラッグアンドドロップして使用を開始するだけです。
 
-次のコード例は、グリッド コンテンツを Excel ファイルに保存する方法を示しています。
+以下のコード例は、グリッドコンテンツをExcelファイルに保存する方法を示しています。
 
 
 
@@ -33,27 +36,27 @@ Aspose.Cells.GridWeb コントロールが Windows フォームに追加され�
 
 {{% alert color="primary" %}} 
 
-ファイル システムが NTFS の場合、ASPNET または Everyone ユーザー アカウントに読み取り/書き込みアクセスを許可しないと、実行時にアクセス拒否の例外が発生します。
+ファイルシステムがNTFSである場合、ASPNETまたはEveryoneユーザーアカウントに読み取り/書き込みアクセスを付与するか、実行時にアクセスが拒否される例外が発生します。
 
 {{% /alert %}} 
 
-上記のコード スニペットは、いくつかの方法で使用できます。一般的な方法は、クリックしたときにグリッド コンテンツを Excel ファイルに保存するボタンを追加することです。 Aspose.Cells.GridWeb は、タスクに対するより簡単なアプローチを提供します。 Aspose.Cells.GridWeb には SaveCommand というイベントがあります。上記のコード スニペットを SaveCommand イベントのイベント ハンドラに追加すると、ユーザーは Aspose.Cells.GridWeb の組み込み**セーブ**ボタン。
+上記のコードスニペットは、いくつかの方法で使用できます。 一般的な方法は、クリック時にグリッドコンテンツをExcelファイルに保存するボタンを追加することです。 Aspose.Cells.GridWebはそのタスクのためのより簡単なアプローチを提供しています。 Aspose.Cells.GridWebにはSaveCommandというイベントがあります。 上記のコードスニペットをSaveCommandイベントのイベントハンドラに追加することで、Aspose.Cells.GridWebの組み込み**保存**ボタンをクリックして作業を保存できます。
 
-**GridWeb の SaveCommand イベント** 
+**GridWebのSaveCommandイベント** 
 
-![todo:画像_代替_文章](export-microsoft-excel-file_1.jpg)
+![todo:image_alt_text](export-microsoft-excel-file_1.jpg)
 
-**GridWeb の組み込みの [保存] ボタンをクリックして、グリッド コンテンツを Excel に保存する** 
+**GridWebの組み込みSaveボタンをクリックしてグリッドのコンテンツをExcelに保存** 
 
-![todo:画像_代替_文章](export-microsoft-excel-file_2.png)
+![todo:image_alt_text](export-microsoft-excel-file_2.png)
 
 {{% alert color="primary" %}} 
 
-Visual Studio で作業している場合は、SaveCommand イベントのイベント ハンドラーを簡単に作成できます。**プロパティ**ペイン。詳細については、次を参照してください。[GridWeb イベントの操作](/cells/ja/net/working-with-gridweb-events/)
+Visual Studioで作業している場合は、**プロパティ**ペインでイベントをダブルクリックしてSaveCommandイベントのイベントハンドラを簡単に作成できます。 詳細については、[GridWebイベントの使用](/cells/ja/net/aspose-cells-gridweb/working-with-gridweb-events/)を参照してください。
 
 {{% /alert %}} 
 ### **ストリームとしてエクスポート**
-グリッド コンテンツをストリーム (たとえば、MemoryStream) に保存することもできます。
+また、グリッドのコンテンツをストリーム（たとえばMemoryStream）に保存することも可能です。
 
 
 

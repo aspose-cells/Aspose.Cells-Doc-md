@@ -1,15 +1,16 @@
-﻿---
-title: Apache POI と Aspose.Cells を使用してチャートを作成する
+---
+title: Apache POIおよびAspose.Cellsを使用してチャートを作成する
 type: docs
 weight: 50
 url: /ja/java/create-charts-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - チャートの作成**
-Aspose.Cells を使用して、さまざまなチャートをスプレッドシートに追加することができます。Aspose.Cells は、多くの柔軟なチャート オブジェクトを提供します。
+
+## **Aspose.Cells - チャートを作成**
+Aspose.Cells を使用してスプレッドシートにさまざまな種類のグラフを追加することができます。Aspose.Cells には多くの柔軟なグラフオブジェクトが提供されています。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -74,10 +75,10 @@ Series series = nSeries.get(1);
 series.setType(ChartType.LINE);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) - チャートの作成**
+## **Apache POI SS（HSSF + XSSF） - チャートを作成する**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();
 
@@ -141,17 +142,17 @@ data.addSeries(xs, ys2);
 chart.plot(data, bottomAxis, leftAxis);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-の実行例をダウンロード**Apache POI と Aspose.Cells を使用してチャートを作成する**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**Apache POIおよびAspose.Cellsを使用してチャートを作成する**の実行例をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **ソースコードをダウンロード**
-のソースコードをダウンロード**Apache POI と Aspose.Cells を使用してチャートを作成する**以下のソーシャルコーディングサイトのいずれかから：
+Apache POIおよびAspose.Cellsを使用して**Create Charts**のソースコードを以下のソーシャルコーディングサイトからダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[カスタム グラフの作成](/cells/ja/java/creating-and-customizing-charts/).
+詳細は[Creating Custom Charts](/cells/ja/java/creating-and-customizing-charts/)を参照してください。
 
 {{% /alert %}}

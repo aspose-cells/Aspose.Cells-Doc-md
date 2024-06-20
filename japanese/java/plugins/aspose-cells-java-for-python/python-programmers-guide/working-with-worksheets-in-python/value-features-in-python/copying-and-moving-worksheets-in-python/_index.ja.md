@@ -1,16 +1,17 @@
-﻿---
-title: Python でのワークシートのコピーと移動
+---
+title: Pythonでワークシートをコピーおよび移動する
 type: docs
 weight: 10
 url: /ja/java/copying-and-moving-worksheets-in-python/
 ---
+
 ## **Aspose.Cells - ワークシートのコピーと移動**
-### **ワークブック内でワークシートをコピーする**
-を使用してワークシートをコピーするには**Aspose.Cells ルビーで for Java**、 電話**copy_worksheet**方法**コピーワークシート**モジュール。以下にコード例を示します。
+### **ブック内でのワークシートのコピー**
+**RubyでAspose.Cells for Javaを使用してワークシートをコピーする**場合は、**copyworksheets**モジュールの**copy_worksheet**メソッドを呼び出します。以下に、コード例が示されています。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def copy_worksheet(self):  
 
@@ -62,7 +63,7 @@ workbook.save(self.dataDir + "Move_Worksheet.xls")
 print "Move worksheet, please check the output file."
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートのコピーと移動 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**Copying and Moving Worksheets (Aspose.Cells)**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

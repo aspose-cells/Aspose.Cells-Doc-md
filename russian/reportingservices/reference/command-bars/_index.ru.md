@@ -1,22 +1,23 @@
-﻿---
-title: Панели команд
+---
+title: Командные панели
 type: docs
 weight: 10
 url: /ru/reportingservices/command-bars/
 ---
-В следующей таблице показаны значки и инструменты панелей команд на панели инструментов надстройки Aspose.Cells.Report.Designer.
+
+В следующей таблице показаны значки командных панелей и инструменты в панели инструментов Aspose.Cells.Report.Designer.
 
 |**Команда** |**Изображение** |**Описание** |
-|:- |:- |:- |
-| Открыть локальный отчет|![дело:изображение_альтернативный_текст](command-bars_1.png)| Открывает файл RDL с локального ПК и загружает контекст файла.|
-| Открыть удаленный отчет|![дело:изображение_альтернативный_текст](command-bars_2.png)| Открывает файл RDL с сервера отчетов и загружает контекст файла.|
-| Сохранить отчет|![дело:изображение_альтернативный_текст](command-bars_3.png)| Сохраняет отчет о разработке локально или на сервере.|
-| Опубликовать отчет|![дело:изображение_альтернативный_текст](command-bars_4.png)| Загружает файл RDL на сервер.|
-|Посмотреть отчет|![дело:изображение_альтернативный_текст](command-bars_5.png)| Отображает предварительный просмотр отчета с сервера.|
-| Создание набора данных и источника данных|![дело:изображение_альтернативный_текст](command-bars_6.png)| Создает наборы данных и источники данных.|
-| Изменить параметр отчета|![дело:изображение_альтернативный_текст](command-bars_7.png)| Изменяет отношение параметра отчета и параметра запроса.|
-| Вставить формулу|![дело:изображение_альтернативный_текст](command-bars_8.png)| Вставляет формулу в ячейку через окна редактора формул|
-| Установить атрибут|![дело:изображение_альтернативный_текст](command-bars_9.png)| Задает некоторые атрибуты отчета: имя отчета, диапазон отчета, групповые поля, поля порядка и т.д.|
-| Изменить атрибут|![дело:изображение_альтернативный_текст](command-bars_10.png)| Изменяет некоторые атрибуты отчета: имя отчета, диапазон отчета, групповые поля, поля порядка и так далее.|
-| Установить нижний колонтитул|![дело:изображение_альтернативный_текст](command-bars_11.png)| Вставляет '##footer' в ячейку.|
+| :- | :- | :- |
+|Open Local Report |![todo:image_alt_text](command-bars_1.png)|Opens an RDL file from local PC and loads the file context. |
+|Open Remote Report |![todo:image_alt_text](command-bars_2.png)|Opens an RDL file from Report Server and loads the file context. |
+|Save Report |![todo:image_alt_text](command-bars_3.png)|Saves designing report locally or on the server. |
+|Publish Report |![todo:image_alt_text](command-bars_4.png)|Uploads the RDL file on the server. |
+|View Report |![todo:image_alt_text](command-bars_5.png)|Displays a preview of the report from the server. |
+|Build DataSet and Data Source |![todo:image_alt_text](command-bars_6.png)|Builds datasets and data sources. |
+|Modify Report Parameter |![todo:image_alt_text](command-bars_7.png)|Modifies report parameter and query parameter relation. |
+|Insert Formula |![todo:image_alt_text](command-bars_8.png)|Inserts formula into the cell through the formula editor windows |
+|Set Attribute |![todo:image_alt_text](command-bars_9.png)|Sets some of the report attributes: report name, report range, group fields, order fields and so on. |
+|Modify Attribute |![todo:image_alt_text](command-bars_10.png)|Modifies some of the report attributes: report name, report range, group fields, order fields and so on. |
+|Set Footer |![todo:image_alt_text](command-bars_11.png)|Inserts '##footer' into the cell. |
 

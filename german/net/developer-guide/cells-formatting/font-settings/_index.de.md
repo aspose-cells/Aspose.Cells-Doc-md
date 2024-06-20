@@ -1,80 +1,81 @@
 ---
-title: Schriftarteinstellungen
-description: Aspose.Cells ist eine .NET-Bibliothek für die Arbeit mit Tabellenkalkulationsdateien. Es unterstützt das Festlegen der Schriftarteinstellungen von Zellen, sodass Benutzer den Schriftartstil und die Eigenschaften von Zellen anpassen können. In diesem Artikel wird erläutert, wie Sie mithilfe der Bibliothek Aspose.Cells die Einstellungen für die Schriftart von Zellen festlegen.
-keywords: Aspose.Cells, Cells, Font Settings, Styles, Properties
+title: Schriftart Einstellungen
+description: Aspose.Cells ist eine .NET Bibliothek zum Arbeiten mit Tabellendateien. Es unterstützt das Festlegen von Schriftarteinstellungen von Zellen und ermöglicht es Benutzern, den Schriftschnitt und die Eigenschaften von Zellen anzupassen. Dieser Artikel führt ein, wie die Aspose.Cells Bibliothek verwendet wird, um Schriftarteinstellungen von Zellen festzulegen.
+keywords: Aspose.Cells, Zellen, Schriftarteinstellungen, Stile, Eigenschaften
 type: docs
 weight: 30
 url: /de/net/cells-font-settings/
 ---
+
 {{% alert color="primary" %}}
 
-Das Erscheinungsbild eines Textes kann durch Ändern der Schriftarteinstellungen gesteuert werden. Die Schriftarteinstellungen können den Namen, den Stil, die Größe, die Farbe und andere Effekte der Schriftarten umfassen. Ebenso wie Microsoft Excel unterstützt auch Aspose.Cells die Konfiguration der Schriftarteinstellungen der Zellen.
+Das Erscheinungsbild eines Textes kann durch Ändern der Schriftarteinstellungen gesteuert werden. Die Schriftarteinstellungen können den Namen, den Stil, die Größe, die Farbe und andere Effekte der Schriftarten umfassen. Ganz wie Microsoft Excel unterstützt auch Aspose.Cells das Konfigurieren der Schriftarteinstellungen von Zellen.
 
 {{% /alert %}}
 
-##  **Konfigurieren der Schriftarteinstellungen**
+## **Konfigurieren von Schriftarteinstellungen**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Jedes Element in der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Die Sammlung stellt ein Objekt dar[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse.
+Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), die eine Microsoft Excel-Datei darstellt. Die Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) enthält eine [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-Sammlung, die den Zugriff auf jede Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) repräsentiert. Die [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-Klasse stellt eine [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-Sammlung bereit. Jedes Element in der [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-Sammlung repräsentiert ein Objekt der Klasse [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
- Aspose.Cells bietet die[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse'[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) Und[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) Methoden, die zum Abrufen und Festlegen des Formatierungsstils einer Zelle verwendet werden. Der[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)Die Klasse stellt Eigenschaften zum Konfigurieren von Schriftarteinstellungen bereit.
+Aspose.Cells bietet die [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-Klasse' [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) und [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle)-Methoden, die verwendet werden, um den Formatierungsstil einer Zelle abzurufen und festzulegen. Die Klasse [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) bietet Eigenschaften zur Konfiguration der Schriftarteinstellungen.
 
-###  **Festlegen des Schriftartnamens**
+### **Schriftartname festlegen**
 
- Entwickler können mithilfe von jede beliebige Schriftart auf Text in einer Zelle anwenden[**Stil.Schriftart**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) Objekt[Name](https://reference.aspose.com/cells/net/aspose.cells/font/properties/name)Eigentum.
+Entwickler können eine beliebige Schrift auf den Text innerhalb einer Zelle anwenden, indem sie die Eigenschaft [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) des Objekts [Name](https://reference.aspose.com/cells/net/aspose.cells/font/properties/name) verwenden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontName-1.cs" >}}
 
-###  **Setzen Sie den Schriftstil auf „Fett“.**
+### **Schriftschnitt auf Fett setzen**
 
- Entwickler können Text fett formatieren, indem sie festlegen[**Stil.Schriftart**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) Objekt[**IsBold**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isbold)Eigenschaft auf *true**.
+Entwickler können den Text fett machen, indem sie die Eigenschaft [**IsBold**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isbold) des Objekts [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) auf **true** setzen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontStyle-SetFontStyle.cs" >}}
 
-###  **Schriftgröße einstellen**
+### **Schriftgröße festlegen**
 
-Stellen Sie die Schriftgröße mit ein[**Stil.Schriftart**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)Objekt[**Größe**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size)Eigentum.
+Setzen Sie die Schriftgröße mit der [**Size**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size)-Eigenschaft des Objekts [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontSize-SetFontSize.cs" >}}
 
-###  **Schriftfarbe einstellen**
+### **Schriftfarbe festlegen**
 
-Benutzen Sie die[**Stil.Schriftart**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) Objekt[**Farbe**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)Eigenschaft zum Festlegen der Schriftfarbe. Wählen Sie eine beliebige Farbe aus der Farbaufzählung (Teil des .NET-Frameworks) aus und weisen Sie sie dem zu[**Farbe**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)Eigentum.
+Verwenden Sie die Eigenschaft [**Color**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color) des Objekts [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font), um die Schriftfarbe festzulegen. Wählen Sie eine Farbe aus der Color-Enumeration (Teil des .NET-Frameworks) aus und weisen Sie sie der [**Color**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)-Eigenschaft zu.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontColor-SetFontColor.cs" >}}
 
-###  **Festlegen des Schriftart-Unterstreichungstyps**
+### **Schriftart-Unterstrich-Typ festlegen**
 
-Benutzen Sie die[**Stil.Schriftart**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)Objekt[**Unterstreichen**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/underline)Eigenschaft zum Unterstreichen von Text. Aspose.Cells bietet verschiedene vordefinierte Schriftarten für Unterstreichungen im[**FontUnderlineType**](https://reference.aspose.com/cells/net/aspose.cells/fontunderlinetype) Aufzählung.
+Verwenden Sie die Eigenschaft [**Underline**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/underline) des Objekts [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font), um Text zu unterstreichen. Aspose.Cells bietet verschiedene vordefinierte Schriftarten-Unterstreichungstypen in der [**FontUnderlineType**](https://reference.aspose.com/cells/net/aspose.cells/fontunderlinetype) Enumeration.
 
-|**Schriftarten für Unterstreichungen**|**Beschreibung**|
+|**Schriftart-Unterstreichungstypen**|**Beschreibung**|
 | :- | :- |
-|Buchhaltung|Eine einzelne Buchhaltungsunterstreichung|
-|Doppelt|Doppelte Unterstreichung|
-|DoubleAccounting|Doppelte Buchhaltung unterstreichen|
-|Keiner|Keine Unterstreichung|
-|Einzel|Eine einzelne Unterstreichung|
+|Accounting|Einzelne Buchhaltungsunterstreichung|
+|Double|Doppelte Unterstreichung|
+|DoubleAccounting|Doppelte Buchhaltungsunterstreichung|
+|None|Keine Unterstreichung|
+|Single|Einfache Unterstreichung|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontUnderlineType-1.cs" >}}
 
-###  **Festlegen des Strikeout-Effekts**
+### **Einstellung des Durchgestrichen-Effekts**
 
-Wenden Sie die Durchstreichung an, indem Sie die festlegen[**Stil.Schriftart**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) Objekt[**IsStrikeout**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout)Eigenschaft auf *true**.
+Wenden Sie den Durchgestrichen-Effekt an, indem Sie die Eigenschaft [**IsStrikeout**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout) des Objekts [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) auf **true** setzen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingStrikeOutEffect-SetStrikeout.cs" >}}
 
-###  **Tiefgestellten Effekt einstellen**
+### **Einstellen des Tiefgestellt-Effekts**
 
-Wenden Sie den Index an, indem Sie festlegen[**Stil.Schriftart**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)Objekt[**IsSubScript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript)Eigenschaft auf *true**.
+Wenden Sie den Tiefgestellt-Effekt an, indem Sie die Eigenschaft [**IsSubScript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) des Objekts [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) auf **true** setzen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSubScriptEffect-SetSubscript.cs" >}}
 
-###  **Festlegen des Hochstellungseffekts für die Schriftart**
+### **Einstellen des Hochgestellt-Effekts auf Schriftart**
 
- Entwickler können den hochgestellten Effekt auf die Schriftart anwenden, indem sie festlegen[**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) Eigentum der[**Stil.Schriftart**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)Objekt auf *true** setzen.
+Entwickler können den Hochgestellt-Effekt auf die Schriftart anwenden, indem sie die [**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript)-Eigenschaft des [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)-Objekts auf **true** setzen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSuperScriptEffect-SetSuperscript.cs" >}}
 
-##  **Vorabthemen**
-- [Wenden Sie hochgestellte und tiefgestellte Effekte auf Schriftarten an](/cells/de/net/apply-superscript-and-subscript-effects-on-fonts/)
-- [Rufen Sie eine Liste der in einer Tabelle oder Arbeitsmappe verwendeten Schriftarten ab](/cells/de/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
+## **Erweiterte Themen**
+- [Hoch- und Tiefgestellt-Effekte auf Schriftarten anwenden](/cells/de/net/apply-superscript-and-subscript-effects-on-fonts/)
+- [Eine Liste der in einer Arbeitsmappe oder einem Arbeitsblatt verwendeten Schriftarten abrufen](/cells/de/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 

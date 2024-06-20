@@ -1,45 +1,46 @@
-﻿---
-title: Pubblico API Modifiche Aspose.Cells 17.1.0
+---
+title: Modifiche API pubbliche in Aspose.Cells 17.1.0
 type: docs
 weight: 380
 url: /it/java/public-api-changes-in-aspose-cells-17-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 16.12.0 alla 17.1.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 16.12.0 alla 17.1.0 che potrebbero interessare agli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
-### **Supporto per i grafici di Excel 2016**
-Aspose.Cells Le API hanno aggiunto il supporto per alcuni grafici di Excel 2016 migliorando l'enumerazione ChartType. Di seguito sono stati aggiunti nuovi campi con il rilascio di Aspose.Cells 17.1.0.
+### **Supporto per Excel 2016 Grafici**
+Aspose.Cells APIs hanno aggiunto il supporto per alcuni grafici di Excel 2016 migliorando l'enumerazione ChartType. I seguenti nuovi campi sono stati aggiunti con il rilascio di Aspose.Cells 17.1.0.
 
-- ChartType.BOX_WHISKER: la serie è strutturata come scatola e baffo.
-- ChartType.FUNNEL: la serie è strutturata come un imbuto.
-- ChartType.PARETO_LINE: la serie è strutturata come linee di pareto.
-- ChartType.SUNBURST: la serie è strutturata come uno sprazzo di sole.
-- ChartType.TREEMAP: la serie è strutturata come una mappa ad albero.
-- ChartType.WATERFALL: la serie è strutturata come una cascata.
-- ChartType.HISTOGRAM: la serie è strutturata come un istogramma.
+- ChartType.BOX_WHISKER: La serie è disegnata come box and whisker.
+- ChartType.FUNNEL: La serie è disegnata come un imbuto.
+- ChartType.PARETO_LINE: La serie è disposta come linee di Pareto.
+- ChartType.SUNBURST: La serie è disposta come sunburst.
+- ChartType.TREEMAP: La serie è disposta come una mappa a blocchi.
+- ChartType.WATERFALL: La serie è disposta come un waterfall.
+- ChartType.HISTOGRAM: La serie è disposta come un istogramma.
 
 {{% alert color="primary" %}} 
 
- Controlla l'articolo dettagliato su[Lettura dei tipi di grafici di Excel 2016](/cells/it/java/read-and-manipulate-excel-2016-charts/)
+Controlla l'articolo dettagliato su [Lettura Tipi di Grafico Excel 2016](/cells/it/java/read-and-manipulate-excel-2016-charts/)
 
 {{% /alert %}} 
-### **Aggiunto setter per la proprietà LoadFilter.LoadDataFilterOptions**
-Aspose.Cells 17.1.0 ha aggiunto setter per la proprietà LoadFilter.LoadDataFilterOptions per sostituire la variabile di istanza m_LoadDataFilterOptions. Gli utenti possono modificare la proprietà LoadDataFilterOptions nella propria implementazione della classe LoadFilter per modificare il comportamento del caricamento dei file modello.
+### **Aggiunto Setter per la Proprietà LoadFilter.LoadDataFilterOptions**
+Aspose.Cells 17.1.0 ha aggiunto il setter per la proprietà LoadFilter.LoadDataFilterOptions per sostituire la variabile di istanza m_LoadDataFilterOptions. Gli utenti possono modificare la proprietà LoadDataFilterOptions nella propria implementazione della classe LoadFilter per cambiare il comportamento del caricamento dei file di modello.
 
-Ecco un semplice scenario di utilizzo.
+Ecco uno scenario d'uso semplice.
 
 {{% alert color="primary" %}} 
 
- Controlla l'articolo dettagliato su[Filtraggio modello personalizzato](/cells/it/java/filter-objects-while-loading-workbook-or-worksheet/)
+Controlla l'articolo dettagliato su [Filtri di Template Personalizzati](/cells/it/java/filter-objects-while-loading-workbook-or-worksheet/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomLoadFilter extends LoadFilter {
 
@@ -74,39 +75,39 @@ Ecco un semplice scenario di utilizzo.
 }
 
 {{< /highlight >}}
-### **Aggiunta proprietà CellsHelper.SignificantDigits**
-Aspose.Cells 17.1.0 ha esposto la proprietà SignificantDigits della classe CellsHelper che consente di ottenere o impostare il numero di cifre significative per i valori numerici in un foglio di calcolo. Il valore predefinito della proprietà CellsHelper.SignificantDigits è 17 mentre è applicabile solo se il risultato deve essere memorizzato nel formato file XLSX.
+### **Aggiunta della proprietà CellsHelper.SignificantDigits**
+Aspose.Cells 17.1.0 ha esposto la proprietà SignificantDigits dalla classe CellsHelper che consente di ottenere o impostare il numero di cifre significative per i valori numerici in un foglio di calcolo. Il valore predefinito della proprietà CellsHelper.SignificantDigits è 17 ed è applicabile solo se il risultato deve essere memorizzato nel formato file XLSX.
 
-Ecco un semplice scenario per dimostrare l'utilizzo della proprietà CellsHelper.SignificantDigits.
+Ecco uno scenario semplice per dimostrare l'uso della proprietà CellsHelper.SignificantDigits.
 
 {{% alert color="primary" %}} 
 
- Controlla l'articolo dettagliato su[Impostazione del numero di cifre significative](/cells/it/java/specifying-significant-digits-to-be-stored-in-excel-file/)
+Consulta l'articolo dettagliato su [Impostazione del numero di cifre significative](/cells/it/java/specifying-significant-digits-to-be-stored-in-excel-file/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the number of significant digits
 
 CellsHelper.setSignificantDigits(15);
 
 {{< /highlight >}}
-### **Aggiunta proprietà GlowEffect.Color**
-Aspose.Cells 17.1.0 ha aggiunto la proprietà GlowEffect.Color che può essere utilizzata per recuperare il colore dell'effetto bagliore.
+### **Aggiunta della proprietà GlowEffect.Color**
+Aspose.Cells 17.1.0 ha aggiunto la proprietà GlowEffect.Color che può essere utilizzata per recuperare il colore dell'effetto glow.
 
-Il frammento di codice seguente utilizza la proprietà GlowEffect.Color.
+Il seguente snippet utilizza la proprietà GlowEffect.Color.
 
 {{% alert color="primary" %}} 
 
- Controlla l'articolo dettagliato su[Lettura del colore del bagliore della forma](/cells/it/java/read-color-of-the-shape-s-glow-effect/)
+Consulta l'articolo dettagliato su [Lettura del colore della luce di sfondo della forma](/cells/it/java/read-color-of-the-shape-s-glow-effect/)
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Read the source Excel file
 
@@ -127,26 +128,26 @@ GlowEffect glow = shape.getGlow();
 CellsColor color = glow.getColor();
 
 {{< /highlight >}}
-### **Aggiunte le proprietà PageSetup.PaperWidth e PaperHeight**
-Aspose.Cells 17.1.0 ha esposto le proprietà PaperWidth e PaperHeight per la classe PageSetup. Le proprietà PageSetup.PaperWidth e PageSetup.PaperHeight sono di tipo double e rappresentano la larghezza e l'altezza della carta nell'unità di pollici tenendo conto dell'orientamento della pagina.
+### **Aggiunte le proprietà PaperWidth e PaperHeight di PageSetup**
+Aspose.Cells 17.1.0 ha esposto le proprietà PaperWidth e PaperHeight per la classe PageSetup. Le proprietà PageSetup.PaperWidth e PageSetup.PaperHeight sono di tipo double e rappresentano la larghezza e l'altezza della carta in unità di pollici, considerando l'orientamento della pagina.
 
 {{% alert color="primary" %}} 
 
- Controlla l'articolo dettagliato su[Recupero del formato carta del foglio di lavoro](/cells/it/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
+Consulta l'articolo dettagliato su [Recupero delle dimensioni della carta del foglio di lavoro](/cells/it/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
 
 {{% /alert %}} 
-### **Aggiunta proprietà WorkbookSettings.CheckCustomNumberFormat**
-Aspose.Cells 17.1.0 ha aggiunto la proprietà CheckCustomNumberFormat alla classe WorkbookSettings. Il CheckCustomNumberFormat è utile per verificare se la proprietà Style.Custom è stata impostata correttamente o meno. Nel caso in cui la proprietà Style.Custom sia stata impostata in modo errato, ovvero; il valore non corrisponde a un modello valido, le API Aspose.Cells genereranno CellsException con il messaggio appropriato.
+### **Aggiunta della proprietà WorkbookSettings.CheckCustomNumberFormat**
+Aspose.Cells 17.1.0 ha aggiunto la proprietà CheckCustomNumberFormat alla classe WorkbookSettings. CheckCustomNumberFormat è utile per verificare se la proprietà Style.Custom è stata impostata correttamente o meno. Nel caso in cui la proprietà Style.Custom sia stata impostata in modo improprio, cioè il valore non corrisponde a un modello valido, le API di Aspose.Cells genereranno una CellsException con un messaggio appropriato.
 
 {{% alert color="primary" %}} 
 
- Controlla l'articolo dettagliato su[Verifica del formato personalizzato](/cells/it/java/check-custom-number-format-when-setting-style-custom-property/)
+Consulta l'articolo dettagliato su [Verifica formato numerico personalizzato](/cells/it/java/check-custom-number-format-when-setting-style-custom-property/)
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -183,8 +184,8 @@ style.setCustom("ggg @ fff");
 cell.setStyle(style);
 
 {{< /highlight >}}
-### **Aggiunto campo DisplayUnitType.PERCENTAGE**
-Aspose.Cells 17.1.0 ha anche esposto il campo PERCENTAGE all'enumerazione DisplayUnitType. Il campo DisplayUnitType.PERCENTAGE indica che i valori sul grafico devono essere divisi per 0,01.
+### **Aggiunta del campo DisplayUnitType.PERCENTAGE**
+Aspose.Cells 17.1.0 ha esposto anche il campo PERCENTAGE nell'enumerazione DisplayUnitType. Il campo DisplayUnitType.PERCENTAGE indica che i valori nel grafico devono essere divisi per 0,01.
 ## **API rimosse**
-### **Variabile di istanza m_LoadDataFilterOptions Rimosso**
-Questa versione ha rimosso la variabile di istanza m_LoadDataFilterOptions. Si consiglia invece di utilizzare la proprietà LoadFilter.LoadDataFilterOptions.
+### **Rimosso la variabile di istanza m_LoadDataFilterOptions**
+Questa versione ha rimosso la variabile di istanza m_LoadDataFilterOptions. Si consiglia di utilizzare invece la proprietà LoadFilter.LoadDataFilterOptions.

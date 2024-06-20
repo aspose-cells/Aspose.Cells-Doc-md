@@ -1,22 +1,25 @@
-﻿---
-title: GridWeb-EditBox aktivieren
+---
+title: GridWeb EditBox aktivieren
 type: docs
 weight: 110
-url: /de/net/enable-gridweb-editbox/
+url: /de/net/aspose-cells-gridweb/enable-gridweb-editbox/
+keywords: GridWeb, Editbox, Formel Leiste
+description: Dieser Artikel erläutert, wie Sie mit der Formel Leiste oder der Edit Box in GridWeb arbeiten.
 ---
+
 {{% alert color="primary" %}} 
 
-Das Bearbeitungsfeld von GridWeb ist eine Symbolleiste, die oben im Steuerelement angezeigt wird und mit der Sie Daten/Formeln anzeigen/eingeben oder in Zellen kopieren können. Es zeigt auch den Namen der Zelle, die Sie bearbeiten. Nachdem Sie auf den Rahmen geklickt haben oder wenn Sie mit dem Schreiben von Daten beginnen oder ein Gleichheitszeichen (=) eingeben, wird das Bearbeitungsfeld aktiviert.
+Die Edit Box von GridWeb (in Excel Formel-Leiste genannt) ist eine Symbolleiste, die oben auf der Steuerung gerendert wird und die Sie verwenden können, um Werte anzuzeigen oder einzugeben oder Daten/ Formeln für die markierte Zelle zu kopieren. Es zeigt auch den Namen der Zelle an, die Sie bearbeiten. Nach dem Klicken auf den Rahmen oder beim Beginnen der Eingabe von Daten oder dem Schreiben eines Gleichheitszeichens (=) wird die Edit Box aktiviert.
 
 {{% /alert %}} 
-## **Festlegen des Bearbeitungsfelds von Aspose.Cells.GridWeb**
-Das GridWeb-Steuerelement stellt die ShowCellEditBox-Eigenschaft bereit, der Entwickler sie auf „True“ zuweisen können, um die Symbolleiste zu aktivieren. Der Standardwert des Attributs ist False. Wenn Sie seinen Wert auf "True" setzen, wird das Bearbeitungsfeld oben im GridWeb-Steuerelement angezeigt.
+## **Konfigurieren der Edit Box von Aspose.Cells.GridWeb**
+Die GridWeb-Steuerung bietet die Eigenschaft ShowCellEditBox, auf die Entwickler sie auf "True" setzen können, um die Symbolleiste einzuschalten. Der Standardwert des Attributes ist False. Wenn Sie den Wert auf "True" setzen, wird die Edit Box oben auf der GridWeb-Steuerung angezeigt.
 
 {{% alert color="primary" %}} 
 
- Um diese Funktion zu aktivieren, müssen Sie die Datei „jquery.js“ in Ihr Projekt importieren und auf Ihren ASPX-Seiten darauf verweisen, damit sie funktioniert. Sie können das jQuery-Archiv von herunterladen<https://jqueryui.com/download/all/> und legen Sie die Bibliotheksdatei(en) in einem Ordner im Projekt ab und fügen Sie einen Verweis auf die Bibliotheksdatei hinzu über<script> -Tag in Ihrem ASPX-Webformular wie folgt. Alle aktuellen jQuery-Versionen sind in Ordnung.
+To enable this feature, you need to import "jquery.js" file to your project and refer it in your .aspx page(s) to make it work. You may download the jQuery archive from <https://jqueryui.com/download/all/> and put the library file(s) into some folder in the project and add reference to the library file via <script> tag in your .aspx web form as following. All the latest jQuery versions are OK.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <head id="Head1" runat="server">
 
@@ -32,9 +35,9 @@ Das GridWeb-Steuerelement stellt die ShowCellEditBox-Eigenschaft bereit, der Ent
 
 {{% /alert %}} 
 
-**GridWeb-Steuerelement mit Bearbeitungsfeld** 
+**GridWeb-Steuerung mit Edit Box** 
 
-![todo: Bild_alt_Text](enable-gridweb-editbox_1.png)
+![todo:image_alt_text](enable-gridweb-editbox_1.png)
 ### **Beispiel**
 
 

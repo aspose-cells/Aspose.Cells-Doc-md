@@ -1,11 +1,12 @@
-﻿---
-title: Защита и снятие защиты рабочих листов
+---
+title: Защита и снятие защиты с листов
 type: docs
 weight: 190
 url: /ru/net/protect-and-unprotect-worksheets-with-vsto/
 ---
-## **ВСТО**
-{{< highlight "csharp" >}}
+
+## **VSTO**
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -55,7 +56,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the template excel file path.
 
@@ -81,7 +82,7 @@ workbook.Save(myPath);
 
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Protect.and.unProtect.Worksheets.Aspose.Cells.zip)
-- [Источникфорж](https://sourceforge.net/p/asposevsto/wiki/Home/)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Protect%20and%20unProtect%20Worksheets)
+## **Загрузить образец кода**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Protect.and.unProtect.Worksheets.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Protect%20and%20unProtect%20Worksheets)

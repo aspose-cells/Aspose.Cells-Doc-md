@@ -1,30 +1,31 @@
-﻿---
-title: Conversione tra formati Excel
+---
+title: Convertire tra formati Excel
 type: docs
 weight: 20
 url: /it/net/convert-between-excel-formats/
 ---
+
 ## **Conversione di Excel in PDF**
 
-**PDF** i file sono ampiamente utilizzati per lo scambio di documenti tra organizzazioni, settori governativi e individui. È un formato di documento standard e agli sviluppatori di software viene spesso chiesto di trovare un modo per convertire i file Excel Microsoft in**PDF** documenti.
-**Aspose.Cells** supporta la conversione di file Excel in PDF e mantiene un'elevata fedeltà visiva nella conversione.
+I file **PDF** sono ampiamente utilizzati per lo scambio di documenti tra organizzazioni, settori governativi e individui. È un formato standard dei documenti e spesso chiesto agli sviluppatori di software di trovare un modo per convertire i file di Microsoft Excel in documenti **PDF**.
+**Aspose.Cells** supporta la conversione dei file Excel in PDF e mantiene un'alta fedeltà visiva nella conversione.
 
-Aspose.Cells for .NET supporta la conversione da fogli di calcolo a PDF indipendentemente da altri software. Salva un file Excel in PDF utilizzando il metodo Save della classe Workbook. Il metodo Save fornisce il membro enum SaveFormat.Pdf che converte i file Excel nativi nel formato PDF.
+Aspose.Cells for .NET supporta la conversione da fogli di calcolo a PDF indipendentemente da altri software. Salvare un file Excel in PDF utilizzando il metodo Save della classe Workbook. Il metodo Save fornisce il membro enum SaveFormat.Pdf che converte i file Excel nativi nel formato PDF.
 
-**Conversione** direttamente dal foglio di calcolo a PDF, invece di utilizzare uno strumento di terze parti o esterno API, ha diversi**vantaggi**:
+**Convertire** direttamente da foglio di calcolo a PDF, invece di utilizzare un tool di terze parti o un'API esterna, ha diversi **vantaggi**:
 
 1. La conversione diretta non richiede file temporanei perché l'intero processo può essere eseguito in memoria.
-1. Non è necessario alcun file XML, quindi i file di grandi dimensioni possono essere facilmente convertiti.
-1. La velocità di conversione è molto più veloce.
+1. Non è necessario un file XML quindi i file di grandi dimensioni possono essere facilmente convertiti.
+1. La velocità di conversione è molto più rapida.
 
 **Per convertire i file in PDF:**
 
-1.  Istanziare un oggetto di**Cartella di lavoro** class chiamando il suo costruttore vuoto.
-1.  Potresti**apri/carica** un file modello esistente o saltare questo passaggio se si crea la cartella di lavoro da zero.
-1. Esegui il lavoro desiderato (inserisci dati, applica formattazione, imposta formule, inserisci immagini o altri oggetti di disegno e così via) sul foglio di calcolo utilizzando le API Aspose.Cells.
-1.  Quando il codice del foglio di calcolo è completo, chiama il**Metodo di salvataggio della classe della cartella di lavoro** per salvare il foglio di calcolo. Il formato del file deve essere PDF, quindi selezionare Pdf (un valore predefinito) dall'enumerazione SaveFormat per generare il documento finale PDF.
+1. Istanziare un oggetto della classe **Workbook** chiamando il suo costruttore vuoto.
+1. È possibile **aprire/caricare** un file modello esistente o omettere questo passaggio se si sta creando il workbook da zero.
+1. Eseguire il lavoro desiderato (inserire dati, applicare formattazione, impostare formule, inserire immagini o altri oggetti grafici, e così via) sul foglio di calcolo utilizzando le API di Aspose.Cells.
+1. Quando il codice dello spreadsheet è completo, chiamare il **metodo di salvataggio della classe Workbook** per salvare il foglio di calcolo. Il formato del file dovrebbe essere PDF, quindi selezionare Pdf (un valore predefinito) dall'enumerazione SaveFormat per generare il documento PDF finale.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 
@@ -34,10 +35,10 @@ Aspose.Cells for .NET supporta la conversione da fogli di calcolo a PDF indipend
 
 ## **Conversione di Excel in MHTML**
 
-**MHTML** combina il normale HTML con risorse esterne (ovvero, contenuto che di solito è collegato, come immagini, animazioni, audio e così via) in un unico file. Sono utilizzati per le e-mail con estensione file .mht.
-Aspose.Cells supporta la lettura e la scrittura di file MHTML.
+**MHTML** combina HTML normale con risorse esterne (cioè, contenuti solitamente collegati, come immagini, animazioni, audio, e così via) in un unico file. Sono utilizzati per le email con l'estensione del file .mht.
+Aspose.Cells supporta la lettura e la scrittura dei file MHTML.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 
@@ -51,9 +52,9 @@ Aspose.Cells supporta la lettura e la scrittura di file MHTML.
 
 ## **Conversione di Excel in XPS**
 
-A volte, vuoi convertire o salvare una cartella di lavoro con più fogli di lavoro in formato testo. Per i formati di testo (ad esempio TXT, TabDelim, CSV ecc.), per impostazione predefinita sia Microsoft Excel che Aspose.Cells salvano solo il contenuto del foglio di lavoro attivo.
+A volte si desidera convertire o salvare un workbook con più fogli di lavoro in formato testo. Per i formati di testo (ad esempio TXT, TabDelim, CSV ecc.), sia Microsoft Excel che Aspose.Cells di default salvano solo i contenuti del foglio di lavoro attivo
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 

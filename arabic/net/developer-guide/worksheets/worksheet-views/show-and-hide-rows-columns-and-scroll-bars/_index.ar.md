@@ -1,76 +1,77 @@
-﻿---
-title: إظهار وإخفاء أعمدة الصفوف وأشرطة التمرير
+---
+title: إظهار وإخفاء الصفوف والأعمدة وأشرطة التمرير
 type: docs
 weight: 20
 url: /ar/net/show-and-hide-rows-columns-and-scroll-bars/
-description: توضح هذه المقالة كيفية عرض وإخفاء صفوف وأعمدة ورقة عمل Excel برمجيًا باستخدام اللغة C# واللغة .NET API أو المكتبة. يمكن ضبط رؤية أشرطة التمرير ، ويمكن إخفاء العديد من الصفوف والأعمدة.
+description: يوضح هذا المقال كيفية عرض وإخفاء صفوف وأعمدة ورقة عمل Excel برمجيًا باستخدام لغة C# وAPI أو مكتبة .NET. يمكن ضبط رؤية أشرطة التمرير، ويمكن إخفاء عدة صفوف وأعمدة.
 ---
+
 {{% alert color="primary" %}}
 
-يوفر Aspose.Cells طرقًا للتحكم في رؤية الصفوف والعمود وأشرطة التمرير الخاصة بورقة العمل.
+توفر Aspose.Cells وسائل للتحكم في رؤية الصفوف، الأعمدة وأشرطة التمرير بورقة العمل.
 
 {{% /alert %}}
 
 ## **إظهار وإخفاء الصفوف والأعمدة**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) مجموعة تسمح للمطورين بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فئة توفر أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة تمثل جميع الخلايا في ورقة العمل. ال[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)توفر المجموعة عدة طرق لإدارة الصفوف أو الأعمدة في ورقة العمل. تمت مناقشة القليل من هذه أدناه.
+توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)، تمثل ملف Microsoft Excel. فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) تحتوي على مجموعة [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) تتيح للمطورين الوصول إلى كل ورق عمل في ملف Excel. يتم تمثيل ورقة العمل بفئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). توفر فئة [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) تمثل جميع الخلايا في ورقة العمل. توفر مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) العديد من الطرق لإدارة الصفوف أو الأعمدة في ورقة عمل. يتم مناقشة بعض هذه الطرق أدناه.
 
 ### **إظهار الصفوف والأعمدة**
 
- يمكن للمطورين إظهار أي صف أو عمود مخفي عن طريق استدعاء[**UnhideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) و[**UnhideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) طرق[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)جمع على التوالي. تأخذ كلتا الطريقتين معلمتين:
+يمكن للمطورين عرض أي صف أو عمود مخفي عن طريق استدعاء طرق [**UnhideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) و[**UnhideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) من مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) على التوالي. تأخذ كلا الطريقين معلمتين:
 
-- **فهرس الصف أو العمود** - فهرس صف أو عمود يُستخدم لإظهار الصف أو العمود المحدد.
-- **ارتفاع الصف أو عرض العمود** - ارتفاع الصف أو عرض العمود المخصص للصف أو العمود بعد الإخفاء.
+- **فهرس الصف أو العمود** - فهرس الصف أو العمود المستخدم لعرض الصف أو العمود المحدد.
+- **ارتفاع الصف أو عرض العمود** - ارتفاع الصف أو عرض العمود المعين للصف أو العمود بعد عرضه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-UnhidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-أثناء جعل عمود مخفي مرئيًا ، إذا كنت بحاجة إلى استعادته إلى العرض المعين مسبقًا أو عرضه الأصلي ، فيرجى إظهار العمود بعرض سلبي. على سبيل المثال: ورقة عمل .Cells.UnhideColumn (5، -1)
+أثناء جعل العمود المخفي مرئيًا، إذا كنت بحاجة إلى استعادته إلى العرض المعين سابقًا أو إلى عرضه الأصلي، يرجى عرض العمود بعرض سلبي. على سبيل المثال: worksheet.Cells.UnhideColumn(5, -1)
 
 {{% /alert %}}
 
 ### **إخفاء الصفوف والأعمدة**
 
- يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء[**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) و[**HideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) طرق[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)جمع على التوالي. تأخذ كلتا الطريقتين فهرس الصف والعمود كمعامل لإخفاء الصف أو العمود المحدد.
+يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء طرق [**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) و[**HideColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) من مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) على التوالي. تأخذ كلا الطريقين فهم فهرس الصف والعمود كمعلمة لإخفاء الصف أو العمود المحدد.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-من الممكن أيضًا إخفاء صف أو عمود عن طريق ضبط ارتفاع الصف أو عرض العمود على 0 على التوالي.
+من الممكن أيضًا إخفاء صف أو عمود عن طريق تعيين ارتفاع الصف أو عرض العمود إلى 0 على التوالي.
 
 {{% /alert %}}
 
-### **إخفاء عدة صفوف وأعمدة**
+### **إخفاء صفوف وأعمدة متعددة**
 
- يمكن للمطورين إخفاء صفوف أو أعمدة متعددة مرة واحدة عن طريق استدعاء[**إخفاء الصفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) و[**HideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) طرق[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)جمع على التوالي. تأخذ كلتا الطريقتين صف البداية أو فهرس العمود وعدد الصفوف أو الأعمدة التي يجب إخفاؤها كمعلمات.
+يمكن للمطورين إخفاء عدة صفوف أو أعمدة دفعة واحدة عن طريق استدعاء طرق [**HideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) و[**HideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) من مجموعة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) على التوالي. تأخذ كلا الطريقين فهرس الصف أو العمود البدء وعدد الصفوف أو الأعمدة التي يجب إخفاؤها كمعلمات.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingMultipleRowsAndColumns-1.cs" >}}
 
-## **إظهار وإخفاء أشرطة التمرير**
+## **إظهار وإخفاء شريط التمرير**
 
-تُستخدم أشرطة التمرير للتنقل عبر محتويات أي ملف. عادة ، هناك نوعان من أشرطة التمرير:
+يُستخدم شريط التمرير للتنقل في محتويات أي ملف. عادة ما تكون هناك نوعين من شرائط التمرير:
 
-- أشرطة التمرير العمودية
-- أشرطة التمرير الأفقية
+- شرائط التمرير العمودية
+- شرائط التمرير الأفقية
 
-يوفر Microsoft Excel أيضًا أشرطة تمرير أفقية ورأسية بحيث يمكن للمستخدمين التمرير عبر محتويات ورقة العمل. باستخدام Aspose.Cells ، يمكن للمطورين التحكم في رؤية كلا النوعين من أشرطة التمرير في ملفات Excel.
+توفر Microsoft Excel أيضًا شرائط تمرير أفقية وعمودية بحيث يمكن للمستخدمين التمرير من خلال محتويات ورقة العمل. باستخدام Aspose.Cells، يمكن للمطورين التحكم في رؤية كلا أنواع شرائط التمرير في ملفات Excel.
 
-### **التحكم في رؤية أشرطة التمرير**
+### **التحكم في رؤية شرائط التمرير**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)يمثل ملف Excel. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) توفر class مجموعة كبيرة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية أشرطة التمرير ، استخدم ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) الخصائص.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) هي خصائص منطقية ، مما يعني أن هذه الخصائص يمكن تخزينها فقط**حقيقي** أو**خاطئة** القيم.
+توفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) تمثل ملف Excel. توفر فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) مجموعة واسعة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية شرائط التمرير، استخدم خصائص فئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible). [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) هما خصائص منطقية، مما يعني أن هذه الخصائص يمكنها تخزين قيم **صحيحة** أو **غير صحيحة** فقط.
 
 #### **جعل أشرطة التمرير مرئية**
 
- اجعل أشرطة التمرير مرئية من خلال ضبط ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) أو[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) ملكية ل**حقيقي**.
+اجعل شرائط التمرير مرئية عن طريق تعيين خصائص الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) أو [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) إلى **صحيحة**.
 
 #### **إخفاء أشرطة التمرير**
 
- إخفاء أشرطة التمرير عن طريق ضبط[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) أو[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) ملكية ل**خاطئة**.
+إخفاء أشرطة التمرير عن طريق تعيين خصائص الصنف [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) [**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) أو [**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) إلى **false**.
 
-**عينة من الرموز**
+**كود عينة**
 
-يوجد أدناه رمز كامل يفتح ملف Excel ، book1.xls ، ويخفي شريطي التمرير ثم يحفظ الملف المعدل كـ output.xls.
+بالأسفل يوجد شيفرة كاملة تفتح ملف إكسل، book1.xls، ثم تخفي كلتي الشريطين وتحفظ الملف المعدل بشكل output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideScrollBars-1.cs" >}}

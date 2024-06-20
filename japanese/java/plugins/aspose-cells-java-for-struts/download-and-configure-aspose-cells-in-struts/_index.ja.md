@@ -1,19 +1,20 @@
-﻿---
-title: Struts で Aspose.Cells をダウンロードして構成する
+---
+title: Aspose.CellsをStrutsにダウンロードして構成する
 type: docs
 weight: 10
 url: /ja/java/download-and-configure-aspose-cells-in-struts/
 ---
-- 
-## **ソースコードから Struts 1.3 用に Aspose.Cells Java をビルドする**
-上記のリポジトリのいずれかからソース コードをチェックアウトした後、次の mvn コマンドを適用します。
 
-{{< highlight "java" >}}
+- 
+## **ソースコードからStruts 1.3のAspose.Cells Javaをビルドする**
+上記リポジトリからソースコードをチェックアウトした後、以下のmvnコマンドを適用してください:
+
+{{< highlight java >}}
 
  $ mvn -U clean package 
 
 {{< /highlight >}}
 
-これにより、ターゲットの Teller に「Strutsbookapp.war」がビルドされます。
+これにより、「Strutsbookapp.war」がターゲットフォルダにビルドされます。
 
-.war ファイルを展開するには、実行中の Apache tomcat サーバーの webapp ディレクトリにコピーするだけです。
+.warファイルをデプロイするには、それを実行中のApache tomcatサーバのwebappディレクトリにコピーするだけです。

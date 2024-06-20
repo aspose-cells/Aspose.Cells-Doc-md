@@ -1,41 +1,42 @@
-﻿---
-title: Lägger till hyperlänkar till länkdata i Aspose.Cells
+---
+title: Lägga till hyperlänkar för att länka data i Aspose.Cells
 type: docs
 weight: 10
 url: /sv/net/adding-hyperlinks-to-link-data-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
 En hyperlänk används för att skapa en länk mellan två enheter. Alla är bekanta med användningen av hyperlänkar, särskilt på webbplatser.
 
-Med hjälp av Aspose.Cells kan utvecklare skapa olika typer av hyperlänkar i Microsoft Excel-filer. Det här ämnet diskuterar vilka typer av hyperlänkar som stöds av Aspose.Cells och hur de kan användas i våra Excel-filer.
+Med Aspose.Cells kan utvecklare skapa olika typer av hyperlänkar i Microsoft Excel-filer. I det här ämnet diskuteras vilka typer av hyperlänkar som stöds av Aspose.Cells och hur de kan användas i våra Excel-filer.
 
 {{% /alert %}}
 
 ## **Lägga till hyperlänkar**
 
-Tre typer av hyperlänkar kan läggas till i en cell med Aspose.Cells:
+Tre typer av hyperlänkar kan läggas till i en cell med hjälp av Aspose.Cells:
 
-- [Lägger till länk till en URL](#adding-link-to-a-url).
-- [Lägga till en länk till en annan cell i samma fil](#adding-a-link-to-a-cell-in-the-same-file).
-- [Lägga till en länk till en extern fil](#adding-a-link-to-an-external-file).
+- [Lägga till länk till en URL](#lägga-till-länk-till-en-url).
+- [Lägga till en länk till en annan cell i samma fil](#lägga-till-en-länk-till-en-cell-i-samma-fil).
+- [Lägga till en länk till en extern fil](#lägga-till-en-länk-till-en-extern-fil).
 
- Aspose.Cells tillåter utvecklare att lägga till hyperlänkar till Excel-filer antingen med hjälp av API eller[designerkalkylblad](/cells/sv/net/what-is-a-designer-spreadsheet/)(kalkylblad där hyperlänkar skapas manuellt och Aspose.Cells används för att importera dem till andra kalkylblad).
+Aspose.Cells tillåter utvecklare att lägga till hyperlänkar till Excel-filer antingen med hjälp av API:et eller [designer-kalkylblad] (kalkylblad där hyperlänkar skapas manuellt och Aspose.Cells används för att importera dem till andra kalkylblad).
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass innehåller en[**Arbetsbladssamling**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) som ger åtkomst till varje kalkylblad i Excel-filen. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass. De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class tillhandahåller olika metoder för att lägga till olika hyperlänkar till Excel-filer.
+Aspose.Cells tillhandahåller en klass, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Microsoft Excel-fil. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-klassen innehåller en [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) som tillåter åtkomst till varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-klassen tillhandahåller olika metoder för att lägga till olika hyperlänkar till Excel-filer.
 
-### **Lägger till länk till en URL**
+### **Lägga till länk till en URL**
 
- De[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass innehåller en[**Hyperlänkar**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) samling. Varje objekt i hyperlänksamlingen representerar en hyperlänk. Lägg till hyperlänkar till URL:er genom att anropa Hyperlänksamlingens Add-metod. Add-metoden tar följande parametrar:
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-klassen innehåller en [**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks)-samling. Varje objekt i samlingen Hyperlänkar representerar en hyperlänk. Lägg till hyperlänkar till URL-adresser genom att anropa samlingens Hyperlänkar Add-metod. Add-metoden tar följande parametrar:
 
-- Cell namn, namnet på cellen som hyperlänken kommer att läggas till.
-- Antal rader, antalet rader i detta hyperlänksområde.
-- Antal kolumner, antalet kolumner i detta hyperlänkintervall
+- Cellnamn, namnet på den cell som hyperlänken kommer att läggas till.
+- Antal rader, antalet rader i detta hyperrlänksområde.
+- Antal kolumner, antalet kolumner i denna hyperlänkomfång
 - URL, URL-adressen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -59,18 +60,18 @@ workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
 
-### **Lägga till en länk till en Cell i samma fil**
+### **Lägga till en länk till en cell i samma fil**
 
-Det är möjligt att lägga till hyperlänkar till celler i samma Excel-fil genom att anropa Hyperlänksamlingens Add-metod. Add-metoden fungerar för både interna och externa hyperlänkar. En version av den överbelastade metoden tar följande parametrar:
+Det är möjligt att lägga till hyperlänkar i celler i samma Excel-fil genom att anropa Hyperlink-samlingens Add-metod. Add-metoden fungerar för både interna och externa hyperlänkar. En version av den överbelastade metoden tar följande parametrar:
 
-- Cell namn, namnet på cellen som hyperlänken kommer att läggas till.
-- Antal rader, antalet rader i detta hyperlänksområde.
-- Antal kolumner, antalet kolumner i detta hyperlänkintervall.
+- Cellnamn, namnet på den cell som hyperlänken kommer att läggas till.
+- Antal rader, antalet rader i detta hyperrlänksområde.
+- Antal kolumner, antalet kolumner i detta hyperrlänksområde.
 - URL, adressen till målcellen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -94,16 +95,16 @@ workbook.Save("C:\\book1.xls");
 
 ### **Lägga till en länk till en extern fil**
 
-Det är möjligt att lägga till hyperlänkar till externa Excel-filer genom att anropa Hyperlänksamlingens Add-metod. Add-metoden tar följande parametrar:
+Det är möjligt att lägga till hyperlänkar till externa Excel-filer genom att anropa Hyperlinks-samlingens Add-metod. Add-metoden tar följande parametrar:
 
-- Cell namn, namnet på cellen som hyperlänken kommer att läggas till.
-- Antal rader, antalet rader i detta hyperlänksområde.
-- Antal kolumner, antalet kolumner i detta hyperlänkintervall.
+- Cellnamn, namnet på den cell som hyperlänken kommer att läggas till.
+- Antal rader, antalet rader i detta hyperrlänksområde.
+- Antal kolumner, antalet kolumner i detta hyperrlänksområde.
 - URL, adressen till målet, extern Excel-fil.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -129,10 +130,10 @@ workbook.Save("C:\\book2.xls");
 
 {{< /highlight >}}
 
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Adding%20Hyperlinks%20to%20Link%20Data)
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

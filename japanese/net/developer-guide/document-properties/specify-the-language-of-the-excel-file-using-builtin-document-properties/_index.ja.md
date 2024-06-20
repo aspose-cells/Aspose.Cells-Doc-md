@@ -1,18 +1,19 @@
-﻿---
-title: BuiltIn ドキュメント プロパティを使用して Excel ファイルの言語を指定する
+---
+title: ビルドインドキュメントプロパティを使用してExcelファイルの言語を指定する
 type: docs
 weight: 30
 url: /ja/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/
 ---
-## **考えられる使用シナリオ**
 
-Excel ファイルの言語を変更するには、ファイルを右クリックして [プロパティ] > [詳細] を選択し、[言語] フィールドを編集します。使ってください[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)プロパティを使用して、Aspose.Cells API を使用してプログラムで変更します。
+## **可能な使用シナリオ**
 
-## **BuiltIn ドキュメント プロパティを使用して Excel ファイルの言語を指定する**
+Excelファイルの**言語**を変更するには、ファイルを右クリックして [プロパティ] > [詳細] を選択し、その後 **言語** フィールドを編集します。Aspose.CellsのAPIを使用してプログラムで変更するには、[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language) プロパティを使用してください。
 
-次のサンプル コードでは、ワークブックを作成し、Language という名前の組み込みのドキュメント プロパティを変更します。をご覧ください[出力エクセルファイル](64716891.xlsx)コードによって生成され、変更された言語フィールドを示すスクリーンショット[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)財産。
+## **ビルドインドキュメントプロパティを使用してExcelファイルの言語を指定する**
 
-![todo:画像_代替_文章](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+次のサンプルコードでは、ワークブックを作成し、その言語という名前のビルトインドキュメントプロパティを変更します。そのコードで生成される出力Excelファイルと、[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language) プロパティによって変更された言語を示すスクリーンショットを参照してください。
+
+![todo:image_alt_text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 
 ## **サンプルコード**
 

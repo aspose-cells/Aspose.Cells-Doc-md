@@ -1,20 +1,21 @@
-﻿---
-title: Skapa signaturrad i en Excel-arbetsbok med Aspose.Cells
+---
+title: Skapa signaturlinje i en Excel arbetsbok med hjälp av Aspose.Cells
 type: docs
 weight: 180
 url: /sv/java/create-signature-line-in-an-excel-workbook-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Microsoft Excel innehåller en funktion att lägga till**Signaturlinje** i Excel-arbetsböcker. Du kan lägga till en signaturrad genom att klicka på**Föra in** Tab och välj sedan**Signaturlinje** från**Text** grupp.
+Microsoft Excel tillhandahåller en funktion för att lägga till **Signature Line** i Excel-arbetsböcker. Du kan lägga till en signaturlinje genom att klicka på fliken **Infoga** och sedan välja **Signaturlinje** från gruppen **Text**.
 
- Aspose.Cells tillhandahåller också denna funktion och har avslöjat[**Picture.setSignatureLine()**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#SignatureLine) egendom för detta ändamål. Den här artikeln kommer att förklara hur du använder den här egenskapen för att lägga till en signaturrad med Aspose.Cells.
+Aspose.Cells tillhandahåller också denna funktion och har exponerat [**Picture.setSignatureLine()**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#SignatureLine)-egenskap för detta syfte. Den här artikeln kommer att förklara hur man använder denna egenskap för att lägga till en signaturlinje med hjälp av Aspose.Cells.
 
 {{% /alert %}}
 
-## Java-kod för att skapa signaturrad i en Excel-arbetsbok med Aspose.Cells
+## Java-kod för att skapa signaturlinje i en Excel-arbetsbok med hjälp av Aspose.Cells
 
- Följande exempelkod lägger till en signaturrad med hjälp av[**Picture.setSignatureLine()**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#SignatureLine)egendom och sparar arbetsboken. Skärmdumpen visar hur utdataarbetsboken ser ut i Microsoft Excel.
+Följande exempelkod lägger till en signaturlinje med hjälp av [**Picture.setSignatureLine()**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#SignatureLine)-egenskap och sparar arbetsboken. Skärmdumpen visar hur den genererade arbetsboken ser ut i Microsoft Excel.
 
 ![todo:image_alt_text](create-signature-line-in-an-excel-workbook-using-aspose-cells_1.png)
 

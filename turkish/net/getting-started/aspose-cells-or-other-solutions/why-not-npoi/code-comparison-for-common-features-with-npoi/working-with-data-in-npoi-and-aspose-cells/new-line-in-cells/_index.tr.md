@@ -1,17 +1,18 @@
-﻿---
-title: Cells'de Yeni Hat
+---
+title: Hücrelerde Yeni Satır
 type: docs
 weight: 30
 url: /tr/net/new-line-in-cells/
 ---
-## **Aspose.Cells - Cells'de Yeni Hat**
-Bir hücredeki metnin okunabilmesini sağlamak için açık satır sonları ve metin kaydırma uygulanabilir. Metin kaydırma, bir hücrede bir satırı birkaç satıra dönüştürür; bu açık satır sonları, tam olarak istediğiniz yerde aralara konur.
 
-Metni bir hücreye kaydırmak için Aspose.Cells.Style.IsTextWrapped özelliğini kullanın.
+## **Aspose.Cells - Hücrelerde Yeni Satır**
+Hücredeki metnin okunabilmesi için, açık satır sonları ve metin kaydırma uygulanabilir. Metin kaydırma, hücredeki bir satırı birden fazla satıra dönüştürür, açık satır sonları istediğiniz yerde kesmek için kullanılır.
+
+Bir hücrede metni çevirmek için Aspose.Cells.Style.IsTextWrapped özelliğini kullanın.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -34,12 +35,12 @@ sheet.Cells[2, 2].SetStyle(style);
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Cells'de Yeni Satır**
-Sarılmış metin için CellStyle.setWrapText doğru olmalıdır.
+## **NPOI - HSSF XSSF - Hücrelerde Yeni Satır**
+CellStyle.setWrapText, çevrilmiş metin için true olmalıdır.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -67,12 +68,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Cells'de Yeni Hat** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden **Hücrelerde Yeni Satır** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Satır Sonları ve Metin Sarma](/cells/tr/net/line-breaks-and-text-wrapping/).
+Daha fazla ayrıntı için [Satır Kesmeleri ve Metin Çevirme](/cells/tr/net/line-breaks-and-text-wrapping/) adresini ziyaret edin.
 
 {{% /alert %}}

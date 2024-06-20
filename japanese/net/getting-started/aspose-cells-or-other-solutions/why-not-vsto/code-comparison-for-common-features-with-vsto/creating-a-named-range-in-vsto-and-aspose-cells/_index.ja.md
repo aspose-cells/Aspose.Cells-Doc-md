@@ -1,23 +1,24 @@
-﻿---
+---
 title: VSTO および Aspose.Cells で名前付き範囲を作成する
 type: docs
 weight: 90
 url: /ja/net/creating-a-named-range-in-vsto-and-aspose-cells/
 ---
+
 名前付き範囲を作成するには:
 
-1. ワークシートを設定します。
- 1. Application オブジェクトをインスタンス化します (VSTO のみ)。
- 1. ワークブックを追加します。
- 1. 最初のシートを取得します。
-1. 名前付き範囲を作成します。
- 1. 範囲を定義します。
- 1. 範囲に名前を付けます。
- 1. ファイルを保存します。
+1. ワークシートを設定します: 
+   1. Application オブジェクトをインスタンス化する。（VSTO のみ）
+   1. ワークブックを追加する
+   1. 最初のシートを取得する
+1. 名前付き範囲を作成する: 
+   1. 範囲を定義する
+   1. 範囲に名前を付ける
+   1. ファイルを保存します。
 
-The code examples below show how to perform these steps using VSTO with either C#. 次のコード例は、Aspose.Cells for .NET を使用して同じことを行う方法を示しています。
+以下のコード例は、VSTO を使用してこれらの手順をどのように実行するかを示しています。また、後続するコード例は同じことを Aspose.Cells for .NET を使用して、再び C# で行う方法を示しています。
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create Excel Object
 
@@ -63,25 +64,25 @@ xl.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-// Workbook オブジェクトのインスタンス化
+ //Instantiating a Workbook object
 
-ワークブック ワークブック = 新しいワークブック();
+Workbook workbook = new Workbook();
 
-//Excel ファイルの最初のワークシートにアクセスする
+//Accessing the first worksheet in the Excel file
 
-ワークシート worksheet = workbook.Worksheets[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-// 名前付き範囲の作成
+//Creating a named range
 
-範囲 range = worksheet.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//名前付き範囲の名前を設定
+//Setting the name of the named range
 
 range.Name = "Test_Range";
 
- for (int 行 = 0; 行< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 
@@ -102,6 +103,6 @@ workbook.Save("Test_Range.xls");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
-- [ソースフォージ](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/ダウンロード)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\)。ジップ）
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip)

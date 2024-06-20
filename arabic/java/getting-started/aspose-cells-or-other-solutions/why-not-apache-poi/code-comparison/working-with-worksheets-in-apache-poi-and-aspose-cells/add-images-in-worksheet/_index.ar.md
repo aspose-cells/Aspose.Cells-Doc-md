@@ -1,15 +1,16 @@
-﻿---
-title: أضف الصور في ورقة العمل
+---
+title: إضافة الصور في ورقة العمل
 type: docs
 weight: 20
 url: /ar/java/add-images-in-worksheet/
 ---
+
 ## **Aspose.Cells - إضافة الصور في ورقة العمل**
 فئة الصورة متاحة للتعامل مع الصور في ورقة العمل
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the first worksheet
 
@@ -41,18 +42,18 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - أضف الصور في ورقة العمل**
+## **Apache POI SS - HSSF XSSF - إضافة الصور في ورقة العمل**
 فئة الصورة متاحة للتعامل مع الصور في ورقة العمل
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //add picture data to this workbook.
 
 InputStream is = new FileInputStream(dataDir + "aspose.jpg");
 
-byte[]bytes = IOUtils.toByteArray(is);
+byte[] bytes = IOUtils.toByteArray(is);
 
 int pictureIdx = wb.addPicture(bytes, Workbook.PICTURE_TYPE_JPEG);
 
@@ -87,13 +88,13 @@ Picture pict = drawing.createPicture(anchor, pictureIdx);
 pict.resize();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / cells / أمثلة / featurescomparison / workbook / addimages)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/addimages)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إضافة ارتباطات تشعبية للصورة](/java/add-image-hyperlinks).
+لمزيد من التفاصيل، قم بزيارة [إضافة روابط الصورة](/java/add-image-hyperlinks).
 
 {{% /alert %}}

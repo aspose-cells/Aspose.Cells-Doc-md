@@ -1,30 +1,31 @@
-﻿---
-title: Problema de documento no guardado
+---
+title: Problema de Documento no guardado 
 type: docs
 weight: 40
 url: /es/net/document-not-saved-issue/
 ---
-## **Asunto**
-Tengo un problema extraño con una hoja de cálculo que creé con su control. Se abre y edita muy bien en Excel, pero cuando trato de realizar un Guardar o Guardar como, aparece un cuadro de mensaje "Documento no guardado".
-### **Resumen de asuntos**
- Este es un error de Excel:
 
-Archivo de guardado "Documento no guardado" creado a partir de una plantilla
+## **Problema**
+Estoy teniendo un problema extraño con una hoja de cálculo que he creado con su control. Abre y edita perfectamente en Excel, pero cuando intento guardar o guardar como, recibo un mensaje de error "Documento no guardado".
+### **Resumen del problema**
+Este es un error de Excel: 
 
-Número de artículo: 121942
+"Documento no guardado" Al guardar archivo creado a partir de plantilla
 
-Última revisión: 15 de agosto de 2005
+ID del artículo: 121942
+
+Última Revisión: 15 de agosto de 2005
 
 Revisión : 1.3
 
-Este artículo se publicó anteriormente con el número Q121942
+Este artículo fue publicado anteriormente bajo Q121942
 ### **Síntoma**
- Cuando intenta guardar un libro de trabajo, puede recibir el siguiente mensaje de error:**"Documento no guardado"**
+Cuando intentas guardar un libro de trabajo, es posible que recibas el siguiente mensaje de error: **"Documento no guardado"**
 ### **Causas**
 Este problema puede ocurrir cuando se cumplen las siguientes condiciones:
 
 - El libro de trabajo se creó a partir de una plantilla que contenía un objeto incrustado.
-- Ha insertado una hoja de trabajo en su libro de trabajo desde una plantilla.
+- Has insertado una hoja de cálculo en tu libro de trabajo desde una plantilla.
 - La plantilla contiene un objeto incrustado.
 ### **Solución**
-Para guardar su trabajo, primero debe eliminar los objetos incrustados en su libro de trabajo.
+Para guardar tu trabajo, primero debes eliminar los objetos incrustados en tu libro de trabajo.

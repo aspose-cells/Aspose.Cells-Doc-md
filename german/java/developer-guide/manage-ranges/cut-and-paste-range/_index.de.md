@@ -1,19 +1,20 @@
-﻿---
-title: Bereiche ausschneiden und einfügen
+---
+title: Ausschneiden und Einfügen von Bereichen
 type: docs
 weight: 150
 url: /de/java/cut-and-paste-cells/
 ---
-## **Ausschneiden und Einfügen Cells**
 
-Aspose.Cells bietet Ihnen die Möglichkeit, Zellen innerhalb eines Arbeitsblatts auszuschneiden und einzufügen, indem Sie die verwenden[**CutCells einfügen**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) Methode der[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)Sammlung. Das[**CutCells einfügen**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) akzeptiert die folgenden Parameter.
+## **Zellen ausschneiden und einfügen**
 
-- [**Bereich**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)Der Bereich der auszuschneidenden Zellen.
+Aspose.Cells ermöglicht das Ausschneiden und Einfügen von Zellen innerhalb eines Arbeitsblatts mithilfe der Methode [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) der [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)-Sammlung. Die Methode [**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) akzeptiert die folgenden Parameter.
+
+- [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range): Der Bereich von Zellen, die ausgeschnitten werden sollen.
 - Zeilenindex: Der Index der Zeile zum Einfügen von Zellen.
 - Spaltenindex: Der Index der Spalte zum Einfügen von Zellen.
-- [**Schichttyp**](https://reference.aspose.com/cells/java/com.aspose.cells/ShiftType): Die Verschiebungsrichtung der Spalten.
+- [**ShiftType**](https://reference.aspose.com/cells/java/com.aspose.cells/ShiftType): Die Verschiebungsrichtung der Spalten.
 
-Das folgende Beispiel zeigt, wie Sie Zellen in einem Arbeitsblatt ausschneiden und einfügen.
+Das folgende Beispiel zeigt, wie man Zellen innerhalb eines Arbeitsblatts ausschneiden und einfügen kann.
 
 ## Beispielcode
 

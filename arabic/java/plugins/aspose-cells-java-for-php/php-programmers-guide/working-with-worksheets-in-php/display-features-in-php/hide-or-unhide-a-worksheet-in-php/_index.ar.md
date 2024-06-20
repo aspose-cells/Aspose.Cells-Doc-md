@@ -1,16 +1,17 @@
-﻿---
-title: إخفاء أو إظهار ورقة عمل في Php
+---
+title: إخفاء أو عرض ورقة عمل في PHP
 type: docs
 weight: 50
 url: /ar/java/hide-or-unhide-a-worksheet-in-php/
 ---
+
 ## **Aspose.Cells - إخفاء أو إظهار ورقة عمل**
-### **إخفاء ورقة العمل**
- لإخفاء ورقة العمل باستخدام Aspose.Cells Java for PHP ، اتصل**ورقة عمل** وحدة.
+### **إخفاء ورقة عمل**
+لإخفاء ورقة العمل باستخدام Aspose.Cells Java لـ PHP ، اُستدعي وحدة **hideunhideworksheet**.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -32,7 +33,7 @@ $workbook->save($dataDir . "output.xls");
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**إخفاء أو إظهار ورقة عمل (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **إخفاء أو إظهار ورقة عمل (Aspose.Cells)** من أي من مواقع الترميز الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/HideUnhideWorksheet.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/HideUnhideWorksheet.php)

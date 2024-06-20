@@ -1,15 +1,16 @@
-﻿---
-title: Механизм вычисления формулы в Aspose.Cells
+---
+title: Расчетный движок формул в Aspose.Cells
 type: docs
 weight: 30
 url: /ru/net/formula-calculation-engine-in-aspose-cells/
 ---
-## **Aspose.Cells - Механизм расчета формулы**
-Механизм вычисления формул встроен в Aspose.Cells. Он может не только пересчитывать формулы, импортированные из файла электронной таблицы дизайнера, но также поддерживает вычисление результатов формул, добавленных во время выполнения.
+
+## **Aspose.Cells - Расчетный Движок Формул**
+Расчетный движок формул встроен в Aspose.Cells. Он может не только пересчитывать формулы, импортированные из файла дизайнера, но также поддерживает вычисление результатов формул, добавленных во время выполнения программы.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -58,13 +59,13 @@ book.CalculateFormula();
 book.Save("AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Механизм вычисления формулы** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Расчетный Движок Формул** с любого из упомянутых выше социальных сайтов для кодинга:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Механизм вычисления формулы](/cells/ru/net/formula-calculation-engine/).
+Для получения более подробной информации посетите [Расчетный Движок Формул](/cells/ru/net/formula-calculation-engine/).
 
 {{% /alert %}}

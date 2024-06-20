@@ -1,31 +1,36 @@
-﻿---
-title: OData Bağlantı Bilgileri nasıl alınır?
+---
+title: OData Bağlantı Bilgilerini Nasıl Alınır
 type: docs
 weight: 60
 url: /tr/net/how-to-get-odata-connection-information/
 ---
+
 ## **OData Bağlantı Bilgilerini Alın**
 
- Geliştiricilerin OData bilgilerini excel dosyasından çıkarması gereken durumlar olabilir. Aspose.Cells şunları sağlar:[**Workbook.DataMashup**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/datamashup) Excel dosyasında bulunan DataMashup bilgilerini döndüren özellik. Bu bilgiler şu şekilde temsil edilir:[**DataMashup**](https://reference.aspose.com/cells/net/aspose.cells.querytables/datamashup) sınıf. bu[**DataMashup**](https://reference.aspose.com/cells/net/aspose.cells.querytables/datamashup)sınıf sağlar[**PowerQueryFormülleri**](https://reference.aspose.com/cells/net/aspose.cells.querytables/datamashup/properties/powerqueryformulas) döndüren özellik[**PowerQueryFormulaKoleksiyon**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulacollction) Toplamak. itibaren[**PowerQueryFormulaKoleksiyon**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulacollction), erişim sağlayabilirsiniz[**PowerQueryFormülü**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformula) ve[**PowerQueryFormulaÖğesi**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem).
+Geliştiricilerin excel dosyasından OData bilgilerini çıkarmak zorunda kaldığı durumlar olabilir. Aspose.Cells, Excel dosyasında bulunan DataMashup bilgilerini döndüren [**Workbook.DataMashup**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/datamashup) özelliğini sağlar. Bu bilgi, [**DataMashup**](https://reference.aspose.com/cells/net/aspose.cells.querytables/datamashup) sınıfı tarafından temsil edilir. [**DataMashup**](https://reference.aspose.com/cells/net/aspose.cells.querytables/datamashup) sınıfı, [**PowerQueryFormulas**](https://reference.aspose.com/cells/net/aspose.cells.querytables/datamashup/properties/powerqueryformulas) özelliğini döndüren [**PowerQueryFormulaCollction**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulacollction) koleksiyonunu sağlar. [**PowerQueryFormulaCollction**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulacollction) ile, [**PowerQueryFormula**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformula) ve [**PowerQueryFormulaItem**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem) 'e erişebilirsiniz.
 
-Aşağıdaki kod parçacığı, OData bilgilerini almak için bu sınıfların kullanımını gösterir.
+Aşağıdaki kod parçası, bu sınıfları kullanarak OData bilgisini almayı göstermektedir.
 
-Aşağıdaki kod parçacığında kullanılan Kaynak dosyası, referansınız için eklenmiştir.
+Aşağıdaki kod parçasında kullanılan Kaynak dosyası, referansınız için ekte bulunmaktadır.
 
-[Kaynak dosyası](96928098.xlsx)
+[Kaynak Dosyası](96928098.xlsx)
 
-### **Basit kod**
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-GetOdataDetails-1.cs" >}}
 
-### **Konsol Çıkışı**
+### **Konsol Çıktısı**
 
-Bağlantı Adı: Siparişler
+{{< highlight java >}}
 
-İsim: Kaynak
+Connection Name: Orders
 
-Değer: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
+Name: Source
 
-İsim: Orders_table
+Value: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
 
-Değer: Source{[Name="Orders",Signature="table"]}[Data]
+Name: Orders_table
+
+Value: Source{[Name="Orders",Signature="table"]}[Data]
+
+{{< /highlight >}}

@@ -4,57 +4,57 @@ type: docs
 weight: 10
 url: /sv/java/introduction-of-gridweb/
 ---
-##  **Grunderna i GridWeb**
- Aspose.Cells.GridWeb är en GUI-baserad webbkontroll som kan bäddas in i JSP-webbsidor eller vilken HTML-sida som helst i Java-servern.
+## **Grundläggande i GridWeb**
+Aspose.Cells.GridWeb är en GUI-baserad webbkontroll som kan bäddas in i JSP-webbsidor eller vilken HTML-sida som helst i java-server. 
 {{% alert color="primary" %}} 
 
-Det är lätt och enkelt att använda.
+Det är enkelt och enkelt att använda.
 
-Det hjälper dig att snabbt bygga webbredigerare online för kalkylarksfiler.
+Det hjälper dig att snabbt bygga en online webbredigerare för kalkylbladsfil.
 
-Det stöder också import och export av alla typer av kalkylarksformatfiler som är 100% kompatibla med MS Excel-filen.
+Det stöder också import och export av alla typer av kalkylbladsformatfiler som är 100% kompatibla med MS Excel-filer.
 
-##  **Aspose.Cells.GridWeb - Demos**
+## **Aspose.Cells.GridWeb - Demos**
 {{% alert color="primary" %}} 
 
-För att du ska komma igång snabbt tillhandahåller vi ett antal kodexempel och demos som visar hur du använder Aspose.Cells.GridWeb API.
+För att snabbt komma igång, tillhandahåller vi ett antal kodexempel och demo som visar hur man använder Aspose.Cells.GridWeb API.
 
-Ladda ner demos från länken nedan:
+Vänligen ladda ner demo från nedanstående länk:
 [Aspose.Cells.GridWeb Demos](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb)
 
 
-##  **Hur man kör Aspose.Cells för GridWeb Java Demos**
+## **Hur man kör Aspose.Cells for GridWeb Java Demos**
 {{% alert color="primary" %}} 
 
- Aspose.Cells för GridWeb Java demos är lätta att köra. Du behöver bara distribuera**gridwebdemo.war** i din webbserver. Ladda ner demos från denna[länk](https://forum.aspose.com/uploads/discourse_instance3/22292).
+Aspose.Cells for GridWeb Java-demon är enkla att köra. Du behöver bara distribuera ** gridwebdemo.war ** på din webbserver. Vänligen ladda ner demo från denna [länk](https://forum.aspose.com/uploads/discourse_instance3/22292).
 
-Den här artikeln beskriver hur du kör Aspose.Cells för GridWeb Java Demos i Apache Tomcat Server.
+Den här artikeln beskriver hur man kör Aspose.Cells for GridWeb Java Demos i Apache Tomcat Server.
 
 {{% /alert %}} 
-###  **Steg-för-steg-guide för att köra GridWeb Java Demos**
-1.  Extrahera**apache-tomcat-7.0.52.zip** i vilken katalog som helst, t.ex. C:\Tomcat
+### **Steg för steg-guide för att köra GridWeb Java Demos**
+1. Packa upp ** apache-tomcat-7.0.52.zip ** i valfri katalog t.ex. C:\Tomcat 
 
 ![todo:image_alt_text](introduction-of-gridweb_1.png)
 
 
 
- Följande ögonblicksbild visar de extraherade katalogerna och filerna för Apache Tomcat-servern
+Följande ögonblicksbild visar de extraherade katalogerna och filerna i Apache Tomcat-servern 
 
 ![todo:image_alt_text](introduction-of-gridweb_2.png)
 
 
 
- Du kan också behöva ställa in miljövariabeln**CATALINA_HOME** 
+Du kan också behöva ställa in miljövariabeln **CATALINA_HOME** 
 
 ![todo:image_alt_text](introduction-of-gridweb_3.png)
 
-1.  Öppna**tomcat-users.xml** fil.
+1. Öppna filen **tomcat-users.xml**. 
 
 ![todo:image_alt_text](introduction-of-gridweb_4.png)
 
-1. Lägg till denna användare:
+1. Lägg till den här användaren:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <role rolename="manager-gui"/>
 
@@ -68,53 +68,53 @@ Den här artikeln beskriver hur du kör Aspose.Cells för GridWeb Java Demos i A
 
 ![todo:image_alt_text](introduction-of-gridweb_5.png)
 
-1.  Springa det**startup.bat** fil.
- Den kommer att köra Apache Tomcat Server.
+1. Kör **startup.bat** filen.
+   Det kommer att köra Apache Tomcat Server. 
 
 ![todo:image_alt_text](introduction-of-gridweb_6.png)
 
 
 
-**Tomcat-server som körs i ett kommandofönster** 
+**Tomcat server körs i en kommandofönster** 
 
 ![todo:image_alt_text](introduction-of-gridweb_7.png)
 
-1. Öppna nu webbläsaren och skriv *localhost:8080**.
- Webbsidan för Apache Tomcat visas.
+1. Öppna nu webbläsaren och skriv **localhost:8080**.
+   Apache Tomcats webbsida visas. 
 
-   **Apache Tomcat webbsida** 
+   **Apache Tomcats webbsida** 
 
 ![todo:image_alt_text](introduction-of-gridweb_8.png)
 
-1.  Klick**Manager-app** och skriv användarnamn och lösenord. (Som ovan: Tomcat, hemlig)
+1. Klicka på **Manager App** och skriv användarnamn och lösenord. (Som ovan: tomcat, hemligt) 
 
 ![todo:image_alt_text](introduction-of-gridweb_9.png)
 
-1.  Scrolla ner till avsnittet**WAR-fil att distribuera** och bläddra i**gridwebdemo.war** fil.
-1.  Klicka på *Distribuera**.
+1. Bläddra ned till avsnittet **WAR-fil att distribuera** och bläddra igenom **gridwebdemo.war** filen.
+1. Klicka på **Deploy**. 
 
 ![todo:image_alt_text](introduction-of-gridweb_10.png)
 
-1. Bläddra**gridwebdemo.war** fil.
+1. Bläddra **gridwebdemo.war** filen. 
 
 ![todo:image_alt_text](introduction-of-gridweb_11.png)
 
-1.  Klicka på *Distribuera**.
+1. Klicka på **Deploy**. 
 
 ![todo:image_alt_text](introduction-of-gridweb_12.png)
 
-1.  Klicka på när den har distribuerats**/gridwebdemo** och börja köra demos.
+1. När den har distribuerats, klicka på **/gridwebdemo** och starta demo. 
 
 ![todo:image_alt_text](introduction-of-gridweb_13.png)
 
 
- GridWeb-demosidan visas.
+GridWeb Demo-sidan visas. 
 
-**GridWeb-demosidan** 
+**GridWeb Demo-sidan** 
 
 ![todo:image_alt_text](introduction-of-gridweb_14.png)
 
-1.  Klicka på valfri demo och kör den.
+1. Klicka på vilket demo som helst och kör det. 
 
    **Skapar innehållsdemo körs** 
 
@@ -122,47 +122,47 @@ Den här artikeln beskriver hur du kör Aspose.Cells för GridWeb Java Demos i A
 
 
 
-**Demo av arbetsblad körs** 
+**Arbetsbladens demo körs** 
 
 ![todo:image_alt_text](introduction-of-gridweb_16.png)
 
 
 
-**HeaderBar och CommandButton-demo körs** 
+**HeaderBar och CommandButton demo körs** 
 
 ![todo:image_alt_text](introduction-of-gridweb_17.png)
 
 
 {{% /alert %}} 
-##  **Webbläsarfunktioner och Aspose.Cells.GridWeb**
-Aspose.Cells.GridWeb är en GUI-baserad webbkontroll som kan bäddas in i JSP-webbsidor som andra webbkontroller. Det viktigaste med webbkontroll är att tillhandahålla stöd över webbläsare. Aspose.Cells.GridWeb tillhandahåller stöd för flera webbläsare.
-###  **Jämförelse**
-Aspose.Cells.GridWeb stöds fullt ut på Microsoft:s Internet Explorer (IE). På andra webbläsare har den dock mindre begränsningar. Det här avsnittet ger en detaljerad jämförelse av vilka funktioner som stöds av olika webbläsare.
+## **Webbläsares förmågor och Aspose.Cells.GridWeb**
+Aspose.Cells.GridWeb är en GUI-baserad webbkontroll som kan bäddas in i JSP-webbsidor som andra webbkontroller. Det viktigaste med webbkontrollen är att tillhandahålla stöd för olika webbläsare. Aspose.Cells.GridWeb tillhandahåller stöd för olika webbläsare.
+### **Jämförelse**
+Aspose.Cells.GridWeb stöds fullt ut i Microsofts Internet Explorer (IE). Dock har den mindre begränsningar i andra webbläsare. Denna artikel ger en detaljerad jämförelse av vilka funktioner som stöds av olika webbläsare.
 
-|**Funktioner på klientsidan**|**Microsoft Internet Explorer**|**Google Chrome**|**Mozilla Firefox**|**Opera**|
+|**Klientens sidofunktioner**|**Microsoft Internet Explorer**|**Google Chrome**|**Mozilla Firefox**|**Opera**|
 | :- | :- | :- | :- | :- |
-|Snabbmeny för Cell|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Validering på klientsidan|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Dubbelklicka på händelse|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| DropDown List (*ComboBox-läge* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| DropDown List (*Popup-menyläge* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Formelinmatning/redigering|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Frys eller lås upp rader/kolumner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Hyperlänkar (*CellCommand-läge* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Hyperlänkar (*URL-läge* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Sammanfoga eller ta bort sammanfogningen Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Flera Cells Kopiera/klistra in|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Flera Cells Inmatning/redigera, enkel återsändning|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Cellens snabbmeny|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Klientens sidvalidering|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Dubbelklickshändelse|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|DropDownList ( *ComboBox-läge* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|DropDownList ( *Popup Meny-läge* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Formel inmatning/rediger|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Frys eller Avfrys Rader/Kolumner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Hyperlänkar ( *CellKommando Läge* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Hyperlänkar ( *URL Läge* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Sammanfoga eller Avsammanfoga Cellar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Kopiera/Klistra in Flera Cellar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Inmatning/redigering av Flera Cellar, enda efteranskickning|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Nummerformat|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Bladsökning|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Skrivskyddat Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Skrivskyddade rader/kolumner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Datavalidering med hjälp av reguljära uttryck|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ändra storlek på kolumnbredd|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ändra storlek på radhöjd|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Infoga/ta bort rader och kolumner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Bläddra innehåll|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Rulla arkflikar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ställ in gränser för Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ställ in teckensnittsinställningar för Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-{{< emoticons/cross >}} En cells snabbmeny kan endast aktiveras genom att klicka på menyknappen på klientsidan.
+|Arkblad Sidnumrering|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Skrivskyddade Cellar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Skrivskyddade Rader/Kolumner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Data Validering med Reguljära Uttryck|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ändra Kolumnbredd|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ändra Radhöjd|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Infoga/Ta bort Rader & Kolumner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Rulla innehåll|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Rulla Arkflikar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ange cellers ramar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ange fontinställningar för celler|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< emoticons/cross >}} Context menu of a cell can only be activated by clicking the Client side menu button.

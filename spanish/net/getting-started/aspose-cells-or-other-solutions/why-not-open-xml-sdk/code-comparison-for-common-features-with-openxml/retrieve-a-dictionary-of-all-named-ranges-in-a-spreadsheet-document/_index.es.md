@@ -1,11 +1,12 @@
-﻿---
-title: Recuperar un diccionario de todos los rangos con nombre en un documento de hoja de cálculo
+---
+title: Obtener un diccionario de todos los rangos nombrados en un documento de hoja de cálculo
 type: docs
 weight: 120
 url: /es/net/retrieve-a-dictionary-of-all-named-ranges-in-a-spreadsheet-document/
 ---
-## **Excel XML abierto**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -59,7 +60,7 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -108,7 +109,7 @@ public static Dictionary<String, String> GetDefinedNames(String fileName)
 }
 
 {{< /highlight >}}
-## **Descargar ejemplo de código en ejecución**
+## **Descargar Ejemplo de Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
 ## **Código de muestra**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Retrieve%20a%20dictionary%20of%20all%20named%20ranges)

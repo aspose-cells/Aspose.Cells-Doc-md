@@ -1,18 +1,19 @@
-﻿---
-title: Bestimmen Sie, ob Shape Smart Art Shape ist
+---
+title: Bestimmen, ob es sich um eine SmartArt Form handelt
 type: docs
 weight: 70
 url: /de/java/determine-if-shape-is-smart-art-shape/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Smart Art Shapes sind spezielle Formen in Microsoft Excel, mit denen Sie komplexe Diagramme automatisch erstellen können. Mit können Sie feststellen, ob es sich bei der Form um eine intelligente Kunstform oder eine normale Form handelt[**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt)Eigentum.
+## **Mögliche Verwendungsszenarien**
 
-## **Bestimmen Sie, ob Shape Smart Art Shape ist**
+SmartArt-Formen sind spezielle Formen in Microsoft Excel, mit denen Sie automatisch komplexe Diagramme erstellen können. Mit der Eigenschaft [**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt) können Sie feststellen, ob die Form eine SmartArt-Form oder eine normale Form ist.
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](55541805.xlsx)mit einer intelligenten Kunstform, wie in diesem Screenshot gezeigt. Es druckt dann den Wert von[**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt)Eigenschaft der ersten Form. Bitte sehen Sie sich die Konsolenausgabe des unten angegebenen Beispielcodes an.
+## **Feststellen, ob eine Form ein SmartArt-Form ist**
 
-![todo: Bild_alt_Text](determine-if-shape-is-smart-art-shape_1.png)
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](55541805.xlsx) mit einer SmartArt-Form, wie in diesem Screenshot gezeigt. Dann wird der Wert der Eigenschaft [**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt) der ersten Form ausgegeben. Bitte beachten Sie die Konsolenausgabe des untenstehenden Beispielcodes.
+
+![todo:image_alt_text](determine-if-shape-is-smart-art-shape_1.png)
 
 ## **Beispielcode**
 
@@ -20,7 +21,7 @@ Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](55541805.xlsx)mit eine
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: true
 

@@ -1,12 +1,13 @@
-﻿---
+---
 title: Använda anonyma typer eller anpassade objekt i Aspose.Cells
 type: docs
 weight: 30
 url: /sv/net/using-anonymous-types-or-custom-objects-in-aspose-cells/
 ---
-Aspose.Cells stöder även anonyma typer eller anpassade objekt i smarta markörer. I exemplet nedan måste produktklass definieras före användning.
 
-{{< highlight "csharp" >}}
+Aspose.Cells stödjer också anonyma typer eller anpassade objekt i smarta markörer. I nedanstående exempel behöver klassen Product definieras innan den används.
+
+{{< highlight csharp >}}
 
  //Instantiate the workbookdesigner object.
 
@@ -47,5 +48,5 @@ report.Process(false);
 report.Workbook.Save("Smart Marker Customobjects.xls");
 
 {{< /highlight >}}
-## **Ladda ner provkod**
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)
+## **Ladda ned provkoden**
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)

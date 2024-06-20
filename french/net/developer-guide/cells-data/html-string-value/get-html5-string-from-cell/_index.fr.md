@@ -1,26 +1,27 @@
 ---
-title: Obtenez la chaîne HTML5 du Cell
+title: Obtenir la chaîne HTML5 à partir de la cellule
 type: docs
 weight: 90
 url: /fr/net/get-html5-string-from-cell/
-description: Découvrez comment obtenir une chaîne HTML5 du Cell au Aspose.Cells for .NET API.
-keywords: Get HTML5 string from Cell, Obtain HTML5 string from Cell, Manage HTML5 string of Cell
+description: Apprenez comment obtenir une chaîne HTML5 de la cellule à travers l API Aspose.Cells for .NET.
+keywords: Obtenir une chaîne HTML5 de la cellule, Obtenir une chaîne HTML5 de la cellule, Gérer une chaîne HTML5 de cellule
 ---
-##  **Scénarios d'utilisation possibles**
 
-Aspose.Cells renvoie la chaîne HTML de la cellule en utilisant le[**ObtenirHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) méthode qui accepte un paramètre booléen. Si tu réussis**FAUX** en paramètre, il renverra Normal HTML mais si vous passez**vrai** en tant que paramètre, il renverra une chaîne HTML5.
+## **Scénarios d'utilisation possibles**
 
-##  **Obtenez la chaîne HTML5 du Cell**
+Aspose.Cells retourne la chaîne HTML de la cellule en utilisant la méthode [**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) qui accepte un paramètre booléen. Si vous passez **false** en tant que paramètre, il renverra un HTML normal mais si vous passez **true** en tant que paramètre, il renverra une chaîne HTML5.
 
-L'exemple de code suivant crée un objet classeur et ajoute du texte dans la cellule A1 de la première feuille de calcul. Il obtient ensuite la chaîne Normal HTML et HTML5 de la cellule A1 en utilisant le[**ObtenirHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)et les imprime sur la console.
+## **Obtenir une chaîne HTML5 à partir de la cellule**
 
-##  **Exemple de code**
+Le code d'exemple suivant crée un objet classeur et ajoute du texte dans la cellule A1 de la première feuille de calcul. Ensuite, il récupère la chaîne HTML normale et HTML5 de la cellule A1 à l'aide de la méthode [**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) et les imprime dans la console.
+
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-GetHTML5StringFromCell.cs" >}}
 
-##  **Sortie console**
+## **Sortie console**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Normal:
 

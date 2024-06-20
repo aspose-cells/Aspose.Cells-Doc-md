@@ -1,20 +1,21 @@
-﻿---
-title: Добавление модуля и кода VBA с использованием Aspose.Cells
+---
+title: Добавление VBA модуля и кода с использованием Aspose.Cells
 type: docs
 weight: 20
 url: /ru/java/adding-vba-module-and-code-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells позволяет добавить новый модуль VBA и код макроса с помощью Aspose.Cells. Пожалуйста, используйте[**Рабочая книга.getVbaProject().getModules().добавить(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) метод добавления нового модуля VBA в книгу
+Aspose.Cells позволяет добавлять новый VBA-модуль и макросный код с использованием Aspose.Cells. Пожалуйста, используйте метод [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) для добавления нового VBA-модуля внутри книги.
 
 {{% /alert %}}
 
-## **Добавление модуля и кода VBA с использованием Aspose.Cells**
+## **Добавление VBA-модуля и кода с использованием Aspose.Cells**
 
-В следующем примере кода создается новая книга, добавляется новый модуль VBA и код макроса, а выходные данные сохраняются в формате XLSM. Один раз вы откроете выходной файл XLSM в Microsoft Excel и щелкните значок**Разработчик > Visual Basic** команд меню, вы увидите модуль с именем «TestModule», а внутри него вы увидите следующий код макроса.
+В следующем образце кода создается новая книга и добавляется новый модуль VBA и код макроса, и сохраняется в формате XLSM. Когда вы откроете файл XLSM в Microsoft Excel и нажмете команды **Разработчик > Визуальный Basic**, вы увидите модуль под названием "TestModule" и внутри него будет следующий код макроса.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -26,6 +27,6 @@ End Sub
 
 ## Образец кода
 
-Вот пример кода для создания выходного файла XLSM с модулем VBA и кодом макроса.
+Вот пример кода для создания файла XLSM с VBA-модулем и макросным кодом.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}

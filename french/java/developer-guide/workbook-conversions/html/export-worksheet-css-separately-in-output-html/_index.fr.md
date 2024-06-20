@@ -1,27 +1,28 @@
-﻿---
-title: Exporter la feuille de calcul CSS séparément dans la sortie HTML
+---
+title: Exporter la feuille de calcul CSS séparément dans le HTML de sortie
 type: docs
 weight: 80
 url: /fr/java/export-worksheet-css-separately-in-output-html/
 ---
+
 ## **Scénarios d'utilisation possibles**
 
-Aspose.Cells fournit la fonctionnalité permettant d'exporter la feuille de calcul CSS séparément lorsque vous convertissez votre fichier Excel en HTML. Veuillez utiliser la propriété HtmlSaveOptions.ExportWorksheetCSSSeparately à cette fin et définissez-la sur true lors de l'enregistrement du fichier Excel au format HTML.
+Aspose.Cells offre la possibilité d'exporter la feuille de style CSS séparément lorsque vous convertissez votre fichier Excel en HTML. Veuillez utiliser la propriété HtmlSaveOptions.ExportWorksheetCSSSeparately à cette fin et définissez-la sur true lors de l'enregistrement du fichier Excel au format HTML.
 
-## **Exporter la feuille de calcul CSS séparément dans la sortie HTML**
+## **Exporter la feuille de calcul CSS séparément dans le HTML de sortie**
 
-L'exemple de code suivant crée un fichier Excel, ajoute du texte dans la cellule B5 en rouge, puis l'enregistre au format HTML à l'aide de la propriété HtmlSaveOptions.ExportWorksheetCSSSeparately. Veuillez consulter le[sortie HTML](60489780.zip)généré par le code pour une référence. Vous y trouverez stylesheet.css à la suite de l'exemple de code.
+Le code d'exemple suivant crée un fichier Excel, ajoute du texte dans la cellule B5 en couleur rouge puis l'enregistre au format HTML en utilisant la propriété HtmlSaveOptions.ExportWorksheetCSSSeparately. Veuillez consulter le [fichier HTML de sortie](60489780.zip) généré par le code pour référence. Vous y trouverez le stylesheet.css à l'intérieur comme résultat du code d'exemple.
 
-## **Exemple de code**
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-ExportWorksheetCSSSeparatelyInOutputHTML.java" >}}
 
-## **Exporter le classeur d'une seule feuille vers HTML**
+## **Exporter un classeur à feuille unique en HTML**
 
-Lorsqu'un classeur avec plusieurs feuilles est converti en HTML à l'aide de Aspose.Cells, il crée un fichier HTML avec un dossier contenant CSS et plusieurs fichiers HTML. Lorsque ce fichier HTML est ouvert dans le navigateur, les onglets sont visibles. Le même comportement est requis pour un classeur avec une seule feuille de calcul lorsqu'il est converti en HTML. Auparavant, aucun dossier séparé n'était créé pour les classeurs à feuille unique et seul le fichier HTML était créé. Ce fichier HTML n'affiche pas l'onglet lorsqu'il est ouvert dans le navigateur. Excel crée également le dossier approprié et HTML pour les feuilles simples et, par conséquent, le même comportement est implémenté à l'aide de Aspose.Cells. Un exemple de fichier peut être téléchargé à partir du lien suivant pour être utilisé dans l'exemple de code ci-dessous :
+Lorsqu'un classeur avec plusieurs feuilles est converti en HTML à l'aide d'Aspose.Cells, il crée un fichier HTML accompagné d'un dossier contenant des CSS et plusieurs fichiers HTML. Lorsque ce fichier HTML est ouvert dans un navigateur, les onglets sont visibles. Le même comportement est requis pour un classeur avec une seule feuille lorsqu'il est converti en HTML. Auparavant, aucun dossier distinct n'était créé pour les classeurs à feuille unique et seul un fichier HTML était créé. Ce type de fichier HTML ne montre pas d'onglet lorsqu'il est ouvert dans un navigateur. Excel crée un dossier et un fichier HTML appropriés pour les feuilles uniques et donc le même comportement est implémenté en utilisant Aspose.Cells. Le fichier d'exemple peut être téléchargé à partir du lien suivant pour être utilisé dans le code d'exemple ci-dessous :
 
 [sampleSingleSheet.xlsx](79527948.xlsx)
 
-## **Exemple de code**
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-SetSingleSheetTabNameInHtml-1.java" >}}

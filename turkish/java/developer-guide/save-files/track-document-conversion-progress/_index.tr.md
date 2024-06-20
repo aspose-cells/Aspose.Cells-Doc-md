@@ -1,42 +1,47 @@
-﻿---
-title: Belge Dönüştürme İlerlemesini İzleme
+---
+title: Belge Dönüşüm İlerlemesini İzle
 type: docs
 weight: 120
 url: /tr/java/track-document-conversion-progress/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Bazen büyük excel dosyalarının dönüştürülmesi biraz zaman alabilir. Bu süre zarfında, uygulamanızın kullanılabilirliğini artırmak için yalnızca bir yükleme ekranı yerine belge dönüştürme ilerlemesini göstermek isteyebilirsiniz. Aspose.Cells, aşağıdakileri sağlayarak izleme belgesi dönüştürme sürecini destekler:**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**arayüz. bu**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**arayüz sağlar**[PageStartSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs))**ve**[PageEndSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs))** özel sınıfınızda uygulayabileceğiniz yöntemler. Ayrıca, aşağıda gösterildiği gibi hangi sayfaların oluşturulacağını da kontrol edebilirsiniz.*TestPageSavingCallback*özel sınıf
+Bazen büyük excel dosyalarını dönüştürmek biraz zaman alabilir. Bu süre içinde, uygulamanızın kullanılabilirliğini artırmak için yalnızca bir yükleme ekranı değil, belge dönüşüm ilerlemesini göstermek isteyebilirsiniz. Aspose.Cells, [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) arabirimini sağlayarak belge dönüşüm sürecini izlemenizi destekler. [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) arabirimi, özel sınıfınızda uygulayabileceğiniz [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) ve [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) metodları sağlar. Ayrıca *TestPageSavingCallback* özel sınıfında gösterildiği gibi hangi sayfaların işleneceğini kontrol edebilirsiniz.
 
-## **Belge Dönüştürme İlerlemesini İzleme**
+## **Belge Dönüşüm İlerlemesini İzle**
 
-Aşağıdaki kod örneği,[kaynak excel dosyası](PagesBook1.xlsx)kullanarak dönüştürme ilerlemesini konsolda yazdırır.*TestPageSavingCallback*uygulayan özel sınıf**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**arayüz.
+Aşağıdaki kod örneği [kaynak excel dosyasını](PagesBook1.xlsx) yükle ve *TestPageSavingCallback* özel sınıfını uygulayarak dönüşüm ilerlemesini konsol üzerinde yazdır.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgress-1.java" >}}
 
-için kod aşağıdadır*TestPageSavingCallback*özel sınıf
+Aşağıdaki kod *TestPageSavingCallback* özel sınıf için olan kodu içerir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgress-2.java" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-11. sayfaların 0. sayfa dizinini kaydetmeye başlayın</br>
-11. sayfaların sayfa dizini 0'ı kaydetmeyi sonlandır</br>
-11. sayfanın 1. sayfasını kaydetmeye başla</br>
-11. sayfaların 1. sayfa indeksini kaydetmeyi sonlandır</br>
-11. sayfanın 2. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa indeksi 2 sayfa 11</br>
-Sayfa 11'in sayfa dizini 3'ü kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa indeksi 3 sayfa 11</br>
-11. sayfanın 4. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa dizini 4 sayfa 11</br>
-11. sayfanın 5. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa dizini 5 sayfa 11</br>
-11. sayfanın 6. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa dizini 6 sayfa 11</br>
-11. sayfanın 7. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa dizini 7 / sayfalar 11</br>
-11. sayfanın 8. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa dizini 8 sayfa 11
+{{< highlight java >}}
+
+Start saving page index 0 of pages 11</br>
+End saving page index 0 of pages 11</br>
+Start saving page index 1 of pages 11</br>
+End saving page index 1 of pages 11</br>
+Start saving page index 2 of pages 11</br>
+End saving page index 2 of pages 11</br>
+Start saving page index 3 of pages 11</br>
+End saving page index 3 of pages 11</br>
+Start saving page index 4 of pages 11</br>
+End saving page index 4 of pages 11</br>
+Start saving page index 5 of pages 11</br>
+End saving page index 5 of pages 11</br>
+Start saving page index 6 of pages 11</br>
+End saving page index 6 of pages 11</br>
+Start saving page index 7 of pages 11</br>
+End saving page index 7 of pages 11</br>
+Start saving page index 8 of pages 11</br>
+End saving page index 8 of pages 11
+
+{{< /highlight >}}

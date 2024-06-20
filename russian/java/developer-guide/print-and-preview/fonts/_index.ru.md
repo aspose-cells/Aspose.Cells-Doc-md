@@ -1,4 +1,4 @@
-﻿---
+---
 title: Шрифты
 type: docs
 weight: 110

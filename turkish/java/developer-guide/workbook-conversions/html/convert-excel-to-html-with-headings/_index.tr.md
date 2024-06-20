@@ -1,15 +1,16 @@
-﻿---
-title: Excel'i başlıklarla HTML'e dönüştürün
+---
+title: Başlıkları İle Excel i HTML e Dönüştürme
 type: docs
 weight: 10
 url: /tr/java/convert-excel-to-html-with-headings/
 ---
-## **Excel'i başlıklarla HTML'e dönüştürün**
 
-Aspose.Cells, Excel'i HTML'e dönüştürürken başlıkları dışa aktarma seçeneği sunar.[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings) mülkiyet**doğru**. varsayılan değeri[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings)özellik**YANLIŞ**. Aşağıdaki görüntü, aşağıdaki kod tarafından oluşturulan çıktı dosyasını gösterir.
+## **Başlıkları İle Excel'i HTML'e Dönüştürme**
 
-![yapılacaklar:resim_alternatif_metin](convert-excel-to-html-with-headings_1.jpg)
+Aspose.Cells, Excel'i HTML'e dönüştürürken başlıkları dışa aktarma seçeneği sağlar. Bunun için [**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings) özelliğini **true** olarak ayarlayabilirsiniz. [**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings) özelliğinin varsayılan değeri **false**'dir. Aşağıdaki görüntü, aşağıdaki kod tarafından oluşturulan çıktı dosyasını göstermektedir.
 
-## **Basit kod**
+![todo:image_alt_text](convert-excel-to-html-with-headings_1.jpg)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-PrintHeadings-1.java" >}}

@@ -1,22 +1,23 @@
-﻿---
-title: محرر جداول البيانات - العمل مع الوظائف
+---
+title: محرر الجداول  العمل مع الوظائف
 type: docs
 weight: 60
 url: /ar/java/spreadsheet-editor-working-with-functions/
 ---
-**جدول المحتويات**
 
-- [شريط الصيغة](#SpreadsheetEditor-WorkingwithFunctions-FormulaBar) 
- - saveFormulaBarContents
-- [أدخل وظيفة](#SpreadsheetEditor-WorkingwithFunctions-InsertaFunction)
-### **شريط الصيغة**
-شريط الصيغة هو مربع نص أعلى منطقة الورقة. يعرض صيغة الخلية الحالية وكذلك يسمح للمستخدم بتحريرها.
+جدول المحتويات
 
-**كيف تعمل؟**
+- [شريط الصيغ](#SpreadsheetEditor-WorkingwithFunctions-FormulaBar) 
+  - saveFormulaBarContents
+- [إدراج وظيفة](#SpreadsheetEditor-WorkingwithFunctions-InsertaFunction)
+### **شريط الصيغ**
+شريط الصيغ هو مربع نص أعلى من منطقة الورقة. يعرض الصيغة للخلية الحالية ويسمح للمستخدم بتحريرها أيضًا.
 
- عند تحديد خلية ، تتم مزامنة شريط الصيغة مع الخلية ويتم عرض الصيغة. يسمح للمستخدم بالتحرير. عندما يقوم المستخدم بالتحرير والضغط على مفتاح الإدخال ، وظيفة JavaScript**saveFormulaBarContents** يتم تنفيذ
+**كيف يعمل هذا؟**
+
+عند تحديد خلية، يتم مزامنة شريط الصيغ مع الخلية ويتم عرض الصيغة. يُسمح للمستخدم بالتحرير. عند قيام المستخدم بالتحرير والضغط على مفتاح الإدخال، يتم تنفيذ دالة جافا سكريبت **saveFormulaBarContents**
 #### **saveFormulaBarContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  function saveFormulaBarContents() {
 
@@ -31,9 +32,9 @@ url: /ar/java/spreadsheet-editor-working-with-functions/
 }
 
 {{< /highlight >}}
-### **أدخل وظيفة**
-لإدراج دالة أو صيغة:
+### **إدراج وظيفة**
+لإدراج وظيفة أو صيغة:
 
-1. انقر فوق خلية لتحديدها.
-1.  انقر**أدخل الوظيفة** زر في الأعلى.
-1.  اتبع التعليمات الموجودة على**أدخل الوظيفة** الحوار.
+1. انقر فوق الخلية لتحديدها.
+1. انقر على زر **إدراج وظيفة** في الأعلى.
+1. اتبع التعليمات في حوار **إدراج وظيفة**.

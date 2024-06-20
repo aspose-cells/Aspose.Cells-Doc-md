@@ -1,17 +1,18 @@
-﻿---
-title: Aggiungi filigrana WordArt al foglio di lavoro
+---
+title: Aggiungere WordArt come watermark al foglio di lavoro
 linktitle: Gestire WordArt
 type: docs
 weight: 180
 url: /it/net/add-wordart-watermark-to-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Usa WordArt per aggiungere effetti di testo speciali ai fogli di calcolo. Ad esempio, allunga un titolo nella parte superiore del file, decora il testo e adatta il testo a una forma predefinita oppure applica il testo a un foglio Excel come filigrana di sfondo. La WordArt diventa un oggetto che puoi spostare o posizionare nei fogli di calcolo per aggiungere decorazioni.
+Usa WordArt per aggiungere effetti speciali al testo nei fogli di calcolo. Ad esempio, distendi un titolo sulla parte superiore del file, decora il testo e fai adattare il testo a una forma preimpostata, o applica il testo a un foglio di Excel come un watermark di sfondo. Il WordArt diventa un oggetto che puoi spostare o posizionare nei fogli di calcolo per aggiungere decorazioni.
 
 {{% /alert %}} 
 
-L'esempio seguente mostra come aggiungere una forma WordArt per impostare una filigrana di sfondo per un foglio di lavoro.
+L'esempio seguente mostra come aggiungere una forma WordArt per impostare un watermark di sfondo per un foglio di lavoro.
 
 
 
@@ -19,5 +20,5 @@ L'esempio seguente mostra come aggiungere una forma WordArt per impostare una fi
 
 ## **Argomenti avanzati**
 - [Aggiungi testo Word Art con stili incorporati](/cells/it/net/add-word-art-text-with-built-in-styles/)
-- [Blocco della filigrana WordArt](/cells/it/net/locking-wordart-watermark/)
-- [Imposta lo stile WordArt preimpostato sul testo della forma](/cells/it/net/set-preset-wordart-style-to-the-text-of-the-shape/)
+- [Bloccare WordArt Come Filigrana](/cells/it/net/locking-wordart-watermark/)
+- [Imposta lo stile predefinito di WordArt al testo della forma](/cells/it/net/set-preset-wordart-style-to-the-text-of-the-shape/)

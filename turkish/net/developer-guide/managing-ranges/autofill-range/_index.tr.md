@@ -1,19 +1,20 @@
-﻿---
-title: Excel dosyasının Otomatik Doldurma aralığı
+---
+title: Excel dosyasının otomatik doldurulmasının aralığı
 linktitle: Otomatik Doldurma Aralığı
 type: docs
 weight: 105
 url: /tr/net/autofill-ranges/
 ---
-## **Excel'de belirtilen aralıkta otomatik doldurma gerçekleştirin**
 
-Excel'de, Bir aralık seçin, Fareyi sağ alta getirin, verileri otomatik doldurmak için "+" öğesini sürükleyin .
+## **Belirtilen aralıkta Excel'de otomatik doldurma yapın**
 
-## **Aspose.Cells ile Aralıkları Otomatik Doldur**
+Excel'de bir aralık seçin, Fareyi sağ aşağıya doğru hareket ettirin, verileri otomatik doldurmak için "+" çekin.
 
-Aşağıdaki örnek, Aralığa Otomatik Doldurma işleminin nasıl yapılacağını gösterir ve işte bu özelliği test etmek için indirilebilecek örnek dosya:
+## **Aspose.Cells ile Otomatik Doldurma Aralıkları**
 
-[aralık_otomatik doldurma.xlsx](range_autofill.xlsx)
+Aşağıdaki örnek, Aralık için Otomatik Doldurma işleminin nasıl yapıldığını gösterir ve bu özelliği test etmek için indirilebilecek örnek dosya burada: 
+
+[range_autofill.xlsx](range_autofill.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Range-AutoFill.cs" >}}
 

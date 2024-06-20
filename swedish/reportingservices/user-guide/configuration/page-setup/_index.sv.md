@@ -1,23 +1,24 @@
-﻿---
-title: Utskriftsformat
+---
+title: Sidinställning
 type: docs
 weight: 80
 url: /sv/reportingservices/page-setup/
 ---
-Konfigurationen inkluderar två sektioner och 8 typer av sidinställningar. Dessa egenskaper inkluderar namn, index, FitToPagesTall, FitToPagesWide, TopMargin, FooterMargin, HeaderMargin, BottomMargin, LeftMargin och RightMargin.
 
-- **namn** representerar rapportens namn, det representerar hela rapporten när namnet är tomt.
-- **index** representerar kalkylbladsindex för den exporterade Excel-filen.
-- **FitToPagesTall** representerar antalet sidor som kalkylbladet skalas till när det skrivs ut.
-- **FitToPagesWide** representerar antalet sidor brett som kalkylbladet skalas till när det skrivs ut.
-- **FooterMargin** representerar avståndet från botten av sidan till sidfoten, i enheten centimeter.
-- **HeaderMargin** representerar avståndet från toppen av sidan till sidhuvudet, i centimeterenhet.
-- **Vänster marginal** representerar storleken på den vänstra marginalen, i enheten centimeter.
-- **Högermarginal** representerar storleken på högermarginalen, i enheten centimeter.
-- **TopMargin** representerar storleken på den övre marginalen, i enheten centimeter.
-- **Bottenmarginal**representerar storleken på bottenmarginalen, i enheten centimeter.
+Konfigurationen inkluderar två avsnitt och 8 typer av sidinställningsegenskaper. Dessa egenskaper inkluderar namn, index, FitToPagesTall, FitToPagesWide, TopMargin, FooterMargin, HeaderMargin, BottomMargin, LeftMargin och RightMargin.
 
-Exempel på konfiguration av sidinställningar:
+- **namn** representerar rapportnamnet, det representerar hela rapporten när namnet är blankt.
+- **index** representerar arkindext för den exporterade Excel-filen.
+- **FitToPagesTall** representerar antalet sidor hög som kalkylarket kommer att skalas till när det skrivs ut.
+- **FitToPagesWide** representerar antalet sidor bred som kalkylarket kommer att skalas till när det skrivs ut.
+- **FooterMargin** representerar avståndet från sidans botten till sidfoten, i enheten centimeter.
+- **HeaderMargin** representerar avståndet från sidans topp till sidhuvudet, i enheten centimeter.
+- **LeftMargin** representerar storleken på vänster marginal, i enheten centimeter.
+- **RightMargin** representerar storleken på höger marginal, i enheten centimeter.
+- **TopMargin** representerar storleken på övre marginal, i enheten centimeter.
+- **BottomMargin** representerar storleken på nedre marginal, i enheten centimeter.
+
+PageSetup-konfigurations exempel:
 
 {{code  lang="xml" }}
 <PageSetup>

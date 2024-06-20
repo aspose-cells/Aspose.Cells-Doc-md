@@ -1,32 +1,35 @@
-﻿---
-title: Unisci e separa Cells
+---
+title: Unisci e separa celle
 type: docs
 weight: 60
-url: /it/net/merge-and-unmerge-cells/
+url: /it/net/aspose-cells-gridweb/merge-and-unmerge-cells/
+keywords: GridWeb, unisci, separa
+description: Questo articolo presenta come unire/dividere le celle in GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb ha una pratica funzione di utilità che ti consente di unire le celle in una cella grande. In questo argomento viene descritto come unire le celle a livello di codice.
+Aspose.Cells.GridWeb dispone di una pratica funzionalità che ti consente di unire le celle in una grande cella. Questo argomento descrive come unire le celle programmatticamente.
 
 {{% /alert %}} 
-## **Fusione Cells**
-Unisci più celle in un foglio di lavoro in una singola cella chiamando il metodo Merge della raccolta Cells. Specificare l'intervallo di celle da unire quando si chiama il metodo Merge.
+## **Unione di celle**
+Unisci più celle in un foglio di lavoro in una singola cella chiamando il metodo Merge della collezione Cells. Specifica l'intervallo delle celle da unire quando si chiama il metodo Merge.
 
 {{% alert color="primary" %}} 
 
-Se unisci più celle e ogni cella contiene dati, dopo l'unione viene mantenuto solo il contenuto della cella in alto a sinistra nell'intervallo. I dati nelle altre celle non vengono persi. Se dividi le celle, ogni cella recupera i propri dati.
+Se unisci più celle e ciascuna cella contiene dati, solo il contenuto della cella in alto a sinistra nell'intervallo viene mantenuto dopo la fusione. I dati nelle altre celle non vengono persi. Se separi le celle, ciascuna cella recupera i propri dati.
 
 {{% /alert %}} 
 
 **Quattro celle unite in una** 
 
-![cose da fare:immagine_alt_testo](merge-and-unmerge-cells_1.png)
+![todo:image_alt_text](merge-and-unmerge-cells_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-MergeCells.aspx-MergeCells.cs" >}}
-## **Disaggregabile Cells**
-Per separare le celle, utilizzare il metodo UnMerge della raccolta Cells che accetta gli stessi parametri del metodo Merge ed esegue la separazione delle celle.
+## **Separazione delle celle**
+Per separare le celle, utilizza il metodo UnMerge della collezione Cells che accetta gli stessi parametri del metodo Merge e esegue la separazione delle celle.
 
 
 

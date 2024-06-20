@@ -1,21 +1,22 @@
-﻿---
-title: パブリック API Aspose.Cells 8.5.1 の変更点
+---
+title: Aspose.Cells 8.5.1 での Public API 変更
 type: docs
 weight: 170
 url: /ja/net/public-api-changes-in-aspose-cells-8-5-1/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.5.0 から 8.5.1 への Aspose.Cells API への変更について説明します。新規および更新された public メソッドだけでなく、[クラス追加など](/cells/ja/net/public-api-changes-in-aspose-cells-8-5-1/)だけでなく、Aspose.Cells の舞台裏での動作の変更についても説明します。
+このドキュメントでは、Aspose.Cells API のバージョン8.5.0から8.5.1への変更点を、モジュール/アプリケーション開発者の興味を引く可能性があるものとして記載しています。新しく追加されたメソッドやクラスなどに加えて、[変更された動作の説明](/cells/ja/net/public-api-changes-in-aspose-cells-8-5-1/)も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **メソッド Workbook.Dispose が追加されました**
-Workbook オブジェクトは、単一の Dispose メソッドを持つ System.IDisposable インターフェイスを実装するようになりました。 Workbook.Dispose メソッドを直接呼び出すか、Using 構造体で Workbook オブジェクトを作成して、このメソッドを自動的に呼び出すことができます。
+## **APIの追加**
+### **Workbook.Disposeメソッドを追加**
+Workbook オブジェクトは現在 System.IDisposable インターフェースを実装しており、単一の Dispose メソッドを持っています。直接 Workbook.Dispose メソッドを呼び出すか、Using構造体内で Workbook オブジェクトを作成して、このメソッドを自動的に呼び出すことができます。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -38,23 +39,23 @@ using (Workbook book = new Workbook())
 {{< /highlight >}}
 
 
-### **メソッド Cell.GetHeightOfValue を追加**
-Aspose.Cells for .NET 8.5.1 では、セル値の高さを取得する Cell.GetHeightOfValue メソッドが公開されました。このメソッドを使用すると、セル値の高さを計算し、そのセルの行の高さをそれぞれ設定できます。の詳細記事をチェック[セルの高さと幅を計算する方法](/cells/ja/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
-### **列挙 TableDataSourceType が追加されました**
-Aspose.Cells for .NET 8.5.1 では、列挙型 Aspose.Cells.Tables.TableDataSourceType が公開され、ListObject のデータ ソース タイプが取得されました。次のフィールドとしての TableDataSourceType 列挙。
+### **Cell.GetHeightOfValue メソッドが追加されました**
+Aspose.Cells for .NET 8.5.1 で Cell.GetHeightOfValue メソッドが公開されました。このメソッドを使用することで、セル値の高さを算出し、そのセルの行の高さを設定することができます。詳細については、[セルの高さと幅を計算する方法](/cells/ja/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)の記事をご確認ください。
+### **TableDataSourceType 列挙型が追加されました**
+Aspose.Cells for .NET 8.5.1 は Aspose.Cells.Tables.TableDataSourceType の列挙を公開して、ListObject のデータソースタイプを取得するために使用できます。
 
 1. TableDataSourceType.QueryTable
 1. TableDataSourceType.SharePoint
 1. TableDataSourceType.Worksheet
 1. TableDataSourceType.XML
-### **プロパティ ListObject.DataSourceType が追加されました**
-v8.5.1 のリリースにより、Aspose.Cells API は、ListObject のデータ ソース タイプを検出するために使用できる読み取り専用の ListObject.DataSourceType プロパティを公開しました。
+### **ListObject.DataSourceTypeプロパティを追加**
+v8.5.1のリリースに伴い、Aspose.Cells APIは読み取り専用のListObject.DataSourceTypeプロパティを公開しました。このプロパティを使用して、ListObjectのデータソースタイプを検出することができます。
 
-これが最も単純な使用シナリオです。
+以下は最もシンプルな使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("D:/book1.xlsx");
 

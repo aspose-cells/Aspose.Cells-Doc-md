@@ -1,28 +1,29 @@
-﻿---
+---
 title: Proteger y desproteger libros de trabajo
 type: docs
 weight: 20
 url: /es/net/protecting-and-unprotecting-workbooks/
 ---
+
 {{% alert color="primary" %}} 
 
-Para evitar que alguien cambie, mueva o elimine hojas de cálculo de forma accidental o deliberada, puede proteger los elementos del libro de trabajo con o sin contraseña. Para proteger la estructura de un libro de trabajo de modo que las hojas de trabajo del libro de trabajo no se puedan mover, eliminar, ocultar, mostrar o renombrar, y no se puedan insertar nuevas hojas de trabajo, especifique ProtectionType como Estructura.
+Para evitar que alguien cambie, mueva o elimine hojas de cálculo accidental o deliberadamente, puedes proteger elementos del libro de trabajo con o sin contraseña. Para proteger la estructura de un libro de trabajo de modo que las hojas de cálculo del libro no se puedan mover, eliminar, ocultar, mostrar, desocultar o cambiar el nombre, y no se puedan insertar nuevas hojas de cálculo, especifica el ProtectionType como Estructura.
 
- Para proteger Windows para que tengan el mismo tamaño y posición cada vez que se abre el libro, especifique ProtectionType como Windows. En este artículo, mostramos cómo[proteger](/cells/es/net/protecting-and-unprotecting-workbooks/) y[desproteger](/cells/es/net/protecting-and-unprotecting-workbooks/) libros de trabajo usando VSTO y Aspose.Cells for .NET para permitirle comparar los dos métodos.
+Para proteger las ventanas de modo que tengan el mismo tamaño y la misma posición cada vez que se abre el libro de trabajo, especifica el ProtectionType como Ventanas. En este artículo, mostramos cómo [proteger](/cells/es/net/protecting-and-unprotecting-workbooks/) y [desproteger](/cells/es/net/protecting-and-unprotecting-workbooks/) libros de trabajo utilizando VSTO y Aspose.Cells for .NET para que puedas comparar ambos métodos.
 
-Aspose.Cells funciona independientemente de Microsoft Office Automation y está desarrollado para ser fácil de usar y producir un código ordenado.
+Aspose.Cells funciona de forma independiente de la Automatización de Microsoft Office y está diseñado para ser fácil de usar y generar un código ordenado.
 
-Proteger un libro de trabajo no impide que los usuarios editen celdas. Para proteger los datos, debe proteger las hojas de trabajo.
+Proteger un libro de trabajo no impide que los usuarios editen celdas. Para proteger los datos, debes proteger las hojas de cálculo.
 
 {{% /alert %}} 
 ## **Proteger un libro de trabajo**
-Para abrir un archivo de Excel Microsoft existente, proteja el libro de trabajo con estructura y atributos Windows y guarde el archivo.
+Para abrir un archivo de Microsoft Excel existente, proteger el libro con atributos de estructura y de Windows y guardar el archivo.
 
-A continuación se muestran fragmentos de código paralelo para VSTO (C#, VB) y Aspose.Cells for .NET (C#, VB) que muestran cómo proteger un libro de trabajo.
+A continuación se muestran fragmentos de código paralelos para VSTO (C#, VB) y Aspose.Cells for .NET (C#, VB) que muestran cómo proteger un libro.
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -80,7 +81,7 @@ excelApp.Quit();
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -110,12 +111,12 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 
 {{< /highlight >}}
-## **Desproteger un libro de trabajo**
-Para desproteger un libro de trabajo, use las siguientes líneas de código para VSTO (C#, VB) y Aspose.Cells for .NET (C#, VB).
+## **Desproteger un Libro**
+Para desproteger un libro, use las siguientes líneas de código para VSTO (C#, VB) y Aspose.Cells for .NET (C#, VB).
 ### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 
@@ -129,7 +130,7 @@ excelApp.ActiveWorkbook.Unprotect("007");
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unprotect the workbook specifying its password.
 

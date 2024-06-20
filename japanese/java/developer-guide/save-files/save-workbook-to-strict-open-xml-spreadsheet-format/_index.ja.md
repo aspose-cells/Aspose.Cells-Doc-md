@@ -1,18 +1,19 @@
-﻿---
-title: ワークブックを厳密な Open XML スプレッドシート形式で保存する
+---
+title: 厳密なOpen XMLスプレッドシート形式へのブックの保存
 type: docs
 weight: 100
 url: /ja/java/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells では、ワークブックを保存できます*Strict Open XML スプレッドシート*フォーマット。その目的のために、それは**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**財産。その値を**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)**の場合、出力 Excel ファイルは次の場所に保存されます。*Strict Open XML スプレッドシート*フォーマット。
+## **可能な使用シナリオ**
 
-## **ワークブックを厳密な Open XML スプレッドシート形式で保存する**
+Aspose.Cellsでは、ワークブックを*Strict Open XML Spreadsheet*形式で保存することができます。そのために、[**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)プロパティを提供しています。その値を[**OoxmlCompliance.ISO_29500_2008_STRICT**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)に設定すると、出力されるExcelファイルは*Strict Open XML Spreadsheet*形式で保存されます。
 
-次のサンプル コードは、ワークブックを作成し、**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**プロパティとして**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)**そしてそれをとして保存します[出力エクセルファイル](outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx).出力された Excel ファイルを Microsoft Excel で開き、*名前を付けて保存...*ダイアログボックスに、その形式が次のように表示されます*Strict Open XML スプレッドシート*このスクリーンショットに示すように。
+## **ストリクトなOpen XMLスプレッドシート形式でワークブックを保存**
 
-![todo:画像_代替_文章](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
+次のサンプルコードでは、ワークブックを作成し、[**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)プロパティの値を[**OoxmlCompliance.ISO_29500_2008_STRICT**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)に設定して保存し、[出力Excelファイル](outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx)として保存します。出力ExcelファイルをMicrosoft Excelで開き、*名前を付けて保存...*ダイアログボックスを開くと、その形式がこのスクリーンショットに示されているように*Strict Open XML Spreadsheet*となります。
+
+![todo:image_alt_text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 
 ## **サンプルコード**
 

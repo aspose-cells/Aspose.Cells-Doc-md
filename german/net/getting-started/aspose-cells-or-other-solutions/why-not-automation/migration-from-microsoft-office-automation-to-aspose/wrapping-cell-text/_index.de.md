@@ -1,41 +1,42 @@
-﻿---
-title: Umbruch Cell Text
+---
+title: Text in Zelle umbrechen
 type: docs
 weight: 130
 url: /de/net/wrapping-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-Das Umbrechen von Text erleichtert das Lesen: Eine Zelle mit umbrochenem Text wird erweitert, um sie an den Text anzupassen, sodass der Text nicht über anderen Zellen angezeigt wird.
+Durch Umbruch wird das Lesen erleichtert: Eine Zelle mit umbrochenem Text passt sich an, um den Text so zu erweitern, dass er nicht über anderen Zellen angezeigt wird.
 
-Mit Aspose.Cells for .NET können Entwickler die meisten Aufgaben in ihren Anwendungen ausführen, die Benutzer mit Microsoft Excel ausführen können, einschließlich Textumbruch in Zellen. Dieser Artikel erklärt, wie und vergleicht die Aufgabe mit VSTO und Aspose.Cells. Aspose.Cells ist für effizientes Codieren optimiert und funktioniert ohne Microsoft-Automatisierung.
+Mit Aspose.Cells for .NET können Entwickler die meisten Aufgaben in ihren Anwendungen ausführen, die Benutzer mit Microsoft Excel ausführen können, einschließlich des Umbruchs von Text in Zellen. Dieser Artikel erklärt, wie dies funktioniert und vergleicht die Aufgabe mit VSTO und Aspose.Cells. Aspose.Cells ist optimiert für effizientes Codieren und funktioniert ohne Microsoft Automation.
 
 {{% /alert %}}
 
-## **Umbruch Cell Text**
+## **Text in Zelle umbrechen**
 
-So erstellen Sie ein Arbeitsblatt mit zwei Zellen, eine mit umbrochenem Text und eine ohne:
+Um ein Arbeitsblatt mit zwei Zellen zu erstellen, eine mit umgebrochenem Text und eine ohne:
 
-1. Erstellen Sie das Arbeitsblatt:
- 1. Erstellen Sie eine Arbeitsmappe.
- 1. Greifen Sie auf das erste Arbeitsblatt zu.
+1. Richten Sie das Arbeitsblatt ein:
+   1. Ein Arbeitsbuch erstellen.
+   1. Greifen Sie auf das erste Arbeitsblatt zu.
 1. Text hinzufügen:
- 1. Fügen Sie Text zu Zelle A1 hinzu.
- 1. Fügen Sie umgebrochenen Text zu Zelle A5 hinzu.
+   1. Fügen Sie Text zur Zelle A1 hinzu.
+   1. Fügen Sie Text in Zelle A5 ein.
 1. Speichern Sie die Tabelle.
 
- Die folgenden Codebeispiele zeigen, wie Sie diese Schritte mit ausführen[VSTO](/cells/de/net/wrapping-cell-text/) entweder mit C# oder Visual Basic. Codebeispiele, die zeigen, wie man dasselbe mit macht[Aspose.Cells for .NET](/cells/de/net/wrapping-cell-text/), wiederum mit entweder C# oder Visual Basic folgen unmittelbar danach.
+Die unten stehenden Codebeispiele zeigen, wie diese Schritte mithilfe von [VSTO](/cells/de/net/wrapping-cell-text/) entweder mit C# oder Visual Basic durchgeführt werden können. Codebeispiele, die zeigen, wie das Gleiche mithilfe von [Aspose.Cells for .NET](/cells/de/net/wrapping-cell-text/) und wieder entweder mit C# oder Visual Basic gemacht wird, folgen unmittelbar danach.
 
-Das Ausführen des Codes führt zu einer Tabelle mit zwei Zellen, eine mit nicht umbrochenem Text und eine mit:
+Wenn Sie den Code ausführen, entsteht eine Tabelle mit zwei Zellen, eine mit nicht umschlossenem und eine mit umschlossenem Text:
 
-|<p>**Geben Sie den Zellentext mit VSTO aus** </p><p>![todo: Bild_alt_Text](wrapping-cell-text_1.png)</p>|<p>**Zeilenumbruchtext mit Aspose.Cells for .NET ausgeben** </p><p>![todo: Bild_alt_Text](wrapping-cell-text_2.png)</p>|
-|:- |:- |
+|<p>**Output wrapping cell text with VSTO** </p><p>![todo:image_alt_text](wrapping-cell-text_1.png)</p>|<p>**Output wrapping cell text with Aspose.Cells for .NET** </p><p>![todo:image_alt_text](wrapping-cell-text_2.png)</p>|
+| :- | :- |
 
-### **Umbruch von Cell Text mit VSTO**
+### **Zelletext umschließen mit VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -85,11 +86,11 @@ void WrappingCellText()
 
 {{< /highlight >}}
 
-### **Umbruch von Cell Text mit Aspose.Cells for .NET**
+### **Zelletext umschließen mit Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void WrappingCellText()
 

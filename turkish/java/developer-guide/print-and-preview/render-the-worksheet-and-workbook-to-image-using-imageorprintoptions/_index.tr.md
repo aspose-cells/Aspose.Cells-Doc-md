@@ -1,48 +1,49 @@
 ---
-title: ImageOrPrintOptions kullanarak Çalışma Sayfasını ve Çalışma Kitabını Görüntüye Dönüştürün
+title: Görüntü veya Yazdırma Seçenekleri Kullanarak Çalışsayı Yada Çalışma Kitabını Görüntüleme
 type: docs
 weight: 220
 url: /tr/java/render-the-worksheet-and-workbook-to-image-using-imageorprintoptions/
 ---
+
 {{% alert color="primary" %}}
 
-Bu belge, bir çalışma sayfasının veya çalışma kitabının bir görüntü dosyasına nasıl dönüştürüleceğinin ve görüntü için farklı görüntü ve yazdırma seçeneklerinin, çözünürlük, TIFF sıkıştırma, görüntü formatı ve sayfa kalitesi gibi seçeneklerin nasıl uygulanacağının ayrıntılı olarak anlaşılmasını sağlamak için tasarlanmıştır.
+Bu belge, bir çalışsayı yada çalışma kitabını bir resim dosyasına dönüştürme ve resim, TIFF sıkıştırması, resim formatı ve sayfa kalitesi gibi farklı resim ve yazdırma seçenekleri uygulama hakkında detaylı bir anlayış sağlamak için tasarlanmıştır.
 
 {{% /alert %}}
 
-##  **genel bakış**
+## **Genel Bakış**
 
-Bazen, çalışma sayfalarınızı resimli bir sunum olarak sunmanız gerekebilir. Çalışma sayfası görüntülerini uygulamalarınıza veya web sayfalarınıza sunmanız gerekir. Görüntüleri bir Word belgesine, bir PDF dosyasına, bir PowerPoint sunumuna eklemeniz veya başka bir senaryoda kullanmanız gerekebilir. Basitçe, başka bir yerde kullanabilmeniz için bir çalışma sayfasının görüntü olarak işlenmesini istiyorsunuz. Aspose.Cells, Excel dosyalarındaki çalışma sayfalarının görüntülere dönüştürülmesini destekler. Ayrıca Aspose.Cells, görüntü formatı, çözünürlük (dikey ve yatay), görüntü kalitesi ve diğer görüntü ve baskı seçenekleri gibi farklı seçeneklerin ayarlanmasını destekler.
+Bazen çalışsayılarınızı resimsel bir temsil olarak sunmanız gerekebilir. Çalışsayı resimlerini uygulamalarınıza veya web sayfalarınıza eklemeniz veya kullanmanız gerekebilir. Resimlerini bir Word belgesine, bir PDF dosyasına, bir PowerPoint sunumuna eklemeniz veya bunları başka bir senaryoda kullanmanız gerekebilir. Basitçe başka bir yerde kullanabilmek için çalışsayısının bir resim olarak görüntülenmesini istersiniz. Aspose.Cells, Excel dosyalarındaki çalışsayıları resme dönüştürmeyi destekler. Ayrıca, Aspose.Cells, resim formatı, çözünürlük (dikey ve yatay), resim kalitesi ve diğer resim ve yazdırma seçenekleri belirleme gibi farklı seçenekleri destekler.
 
-API, birkaç değerli sınıf sağlar, örneğin,[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**Çalışma KitabıRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), vesaire.
+API, örneğin [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) gibi birkaç değerli sınıf sağlar.
 
- bu[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) class, çalışma sayfası için görüntüleri işleme görevini üstlenirken,[**Çalışma KitabıRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)bir çalışma kitabı için aynısını yapar. Yukarıda bahsedilen sınıfların her ikisi de, birkaç aşırı yüklenmiş sürüme sahiptir.*Hayal etmek*bir çalışma sayfasını veya çalışma kitabını, istediğiniz nitelikler veya seçeneklerle belirtilen görüntü dosya(lar)ına doğrudan dönüştürebilen yöntem. Görüntü dosyasını diske/akışa kaydedebilirsiniz. BMP, PNG, GIFF, JPEG, TIFF, EMF gibi desteklenen birkaç görüntü formatı vardır.
+[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) sınıfı, çalışsayısı için resimleri oluşturma görevini üstlenirken [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) aynı görevi bir çalışma kitabı için yapar. Yukarıda bahsedilen her iki sınıfın da, bir çalışsayısını veya bir çalışma kitabını doğrudan dönüştürebilen *toImage* yönteminin farklı yüklenmiş sürümleri vardır ve bunlar tercih ettiğiniz özellikler veya seçeneklerle belirtilmiş resim dosyasına dönüştürebilir. Resim dosyasını diske/akışa kaydedebilirsiniz. BMP, PNG, GIFF, JPEG, TIFF, EMF ve benzeri birçok resim formatı desteklenmektedir.
 
-###  **Çalışma Sayfasını Resme Dönüştür**
+### **Çalışsayısını Resme Dönüştür**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorksheettoImage-1.java" >}}
 
-##  **Dönüşüm Seçenekleri**
+## **Dönüşüm Seçenekleri**
 
-Görüntüye belirli sayfaları kaydetmek mümkündür. Aşağıdaki kod, bir çalışma kitabındaki birinci ve ikinci çalışma sayfalarını JPG resimlerine dönüştürür.
+Belirli sayfaları resme kaydetmek mümkündür. Aşağıdaki kod, bir çalışma kitabındaki ilk ve ikinci çalışsayılarını JPG resimlerine dönüştürür.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConversionOptions-1.java" >}}
 
-Veya çalışma kitabında dolaşabilir ve içindeki her çalışma sayfasını ayrı bir görüntüye dönüştürebilirsiniz:
+Veya çalışma kitabı üzerinde döngü yaparak her çalışsayısını ayrı bir resime dönüştürebilirsiniz:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-WorksheetToSeparateImage-1.java" >}}
 
-##  **Çalışma Kitabını Görüntüye Dönüştür:**
+## **Çalışma Kitabını Resme Dönüştür:**
 
- Tüm çalışma kitabını görüntü formatına dönüştürmek için yukarıdaki yaklaşımı kullanabilir veya basitçe[**Çalışma KitabıRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) örneğini kabul eden sınıf[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) nesnesinin yanı sıra[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+Tüm çalışma kitabını resim formatına dönüştürmek için yukarıdaki yaklaşımı kullanabilir veya sadece [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) sınıfını ve aynı zamanda [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) sınıfının bir örneğini ve [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) nesnesini kabul eden basitçe kullanabilirsiniz.
 
-Tüm çalışma kitabını birden fazla çerçeve veya sayfa içeren tek bir TIFF görüntüsüne kaydedebilirsiniz:
+Tüm çalışma kitabını tek bir TIFF resme çoklu çerçeve veya sayfa olarak kaydedebilirsiniz:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorkbooktoImage-1.java" >}}
 
-##  İlgili Makaleler
+## İlgili Makaleler
 
-- [Çalışma Sayfasını Farklı Görüntü Formatlarına Dönüştürme](/cells/tr/java/converting-worksheet-to-different-image-formats/)
-- [Grafiği viewBox özniteliğiyle SVG'e aktarın](/cells/tr/java/export-chart-to-svg-with-viewbox-attribute/)
-- [Çalışma Sayfasını veya Grafiği İstenilen Genişlik ve Yükseklikte Görüntüye Aktarın](/cells/tr/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
-- [Çalışma Sayfasını Görüntüye ve Çalışma Sayfasını Görüntüye Sayfa Sayfa Dönüştürme](/cells/tr/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)
+- [Farklı Resim Formatlarına Çalışsayısı Dönüştürme](/cells/tr/java/converting-worksheet-to-different-image-formats/)
+- [Görünüm Kutusu Özelliği ile Grafiksel Bir Ortama Tabloyu Dışa Aktarma](/cells/tr/java/export-chart-to-svg-with-viewbox-attribute/)
+- [Belirtilen Genişlik ve Yükseklikte Çalışsayısı veya Tabloyu Resme Dışa Aktarma](/cells/tr/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+- [Çalışsayısı veya Sayfa Görseline ve Sayfa Sayfasına Çalışsayısı Dönüştürme](/cells/tr/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)

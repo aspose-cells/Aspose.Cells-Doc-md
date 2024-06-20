@@ -1,35 +1,36 @@
-﻿---
+---
 title: Dijital İmzaları Atama ve Doğrulama
 linktitle: İmza
 type: docs
 weight: 100
 url: /tr/java/assign-and-validate-digital-signatures/
-description: Excel dosyası dijital imza, doğrulama. Bir çalışma kitabının Excel dosyası içeriğinin orijinalliğini korumak için .Net için Aspose.Cells ile C# kodlarını kullanarak dijital imza ekleyebilirsiniz.
+description: Excel dosyası dijital imzası, doğrulama. Bir Excel dosyasının içeriğinin doğruluğunu korumak için, Aspose.Cells for .Net ile C# kodları kullanarak dijital bir imza ekleyebilirsiniz.
 ---
+
 {{% alert color="primary" %}}
 
- Dijital imza, çalışma kitabı dosyasının geçerli olduğunu ve kimsenin dosyayı değiştirmediğini garanti eder. kullanarak kişisel bir dijital imza oluşturabilirsiniz.**SELFCERT** Microsoft Office paketi veya başka herhangi bir araçla gönderilen araç. Dijital imza bile satın alabilirsiniz. Bir dijital imza oluşturduktan veya aldıktan sonra, bunu çalışma kitabınıza eklemeniz gerekir. Dijital imza eklemek, bir zarfı mühürlemeye benzer. Bir zarf mühürlü olarak gelirse, içeriğinin kimsenin kurcalanmadığına dair bir dereceye kadar güvenceye sahip olursunuz.
+Dijital imza, bir çalışma kitabı dosyasının geçerli olduğunu ve hiç kimsenin onu değiştirmediğini garanti eder. Microsoft Office paketi ile birlikte gönderilen **SELFCERT** aracını veya başka bir aracı kullanarak kişisel bir dijital imza oluşturabilirsiniz. Hatta bir dijital imza satın alabilirsiniz. Bir dijital imza oluşturduktan veya edindikten sonra, çalışma kitabınıza eklemelisiniz. Bir dijital imza eklemek, bir zarfı mühürlemekle benzerdir. Bir zarf mühürlenmişse, içeriğinin kimse tarafından bozulmadığı konusunda bir düzeyde güvenceye sahipsiniz demektir.
 
- Aspose.Cells for Java API[**com.aspose.cells.DigitalSignatureCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignatureCollection) & [**com.aspose.cells.DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) elektronik tabloları imzalamak ve doğrulamak için sınıflar.
+Aspose.Cells for Java API, yaygın speadsheet'leri imzalamak ve doğrulamak için [**com.aspose.cells.DigitalSignatureCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignatureCollection) ve [**com.aspose.cells.DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) sınıflarını sağlar.
 
 {{% /alert %}}
 
-## **Elektronik Tabloları İmzalamak**
+## **Speadsheet'leri İmzalama**
 
-İmzalama işlemi, yukarıda tartışıldığı gibi bir sertifika gerektirir. Sertifikanın yanı sıra, Aspose.Cells API'i kullanarak e-tabloları başarılı bir şekilde imzalamak için kişinin şifresine de sahip olması gerekir.
+İmzalama işlemi yukarıda tartışılan bir sertifikaya ihtiyaç duyar. Sertifikanın yanı sıra, speadsheet'leri başarılı bir şekilde imzalamak için gerekli olan şifresi de olmalıdır.
 
-Aşağıdaki kod parçacığı, bir elektronik tabloyu imzalamak için Aspose.Cells for Java API kullanımını gösterir.
+Aşağıdaki kod parçası, Aspose.Cells for Java API'sını kullanarak bir elektronik tabloya imza atma işleminin kullanımını gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SigningSpreadsheets-SigningSpreadsheets.java" >}}
 
 {{% alert color="primary" %}}
 
- Belirtilen parolanın sertifika parolasıyla eşleşmemesi durumunda, bir istisna türü*javax.crypto.BadPaddingException* atılacak.
+Belirtilen parola, sertifika parolasıyla eşleşmiyorsa, bir *javax.crypto.BadPaddingException* türünde istisna atanır.
 
 {{% /alert %}}
 
-## **Elektronik Tabloları Doğrulama**
+## **Tabloların Doğrulanması**
 
-Aşağıdaki kod parçacığı, elektronik tabloyu doğrulamak için Aspose.Cells for Java API kullanımını gösterir.
+Aşağıdaki kod parçası, Aspose.Cells for Java API kullanımını tablonun doğrulanması için göstermektedir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ValidatingSpreadsheets-ValidatingSpreadsheets.java" >}}

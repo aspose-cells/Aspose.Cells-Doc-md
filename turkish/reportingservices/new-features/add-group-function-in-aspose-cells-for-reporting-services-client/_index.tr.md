@@ -1,27 +1,28 @@
-﻿---
-title: Aspose.Cells for Reporting Services İstemci'de Grup işlevi ekleyin
+---
+title: Aspose.Cells for Reporting Services İstemcisinde Grup ekleme işlevi
 type: docs
 weight: 120
 url: /tr/reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/
 ---
-Nitelikleri Değiştir aracılığıyla tablo raporu öğesinin Grup özniteliklerini ayarlar. Parametreler Tür, Ad, Düzey ve Gizle'yi içerir.
 
-- Tür, Grup Türünü temsil eder. Satır Grubu ve Sütun Grubu içerir.
-- Ad, Grup adını temsil eder.
-- Düzey, Grup düzeyini temsil eder.
-- Gizle, Grup gizlemeyi temsil eder.
+Tablo rapor öğesinin Grup özniteliklerini Değiştir Öznitelikler kullanarak ayarlar. Parametreler arasında Tür, Ad, Seviye ve Gösterim bulunur.
 
-Raporun Değiştirilmesi aşağıdaki adımları içerir:
-"Raporu Değiştir" iletişim kutusunu açın ve Anahat sekmesini seçin.
+- Tür Grup Türünü temsil eder. Satır Grubu ve Sütun Grubunu içerir.
+- Ad Grup adını temsil eder.
+- Seviye Grup seviyesini temsil eder.
+- Gösterim Grup gizlemeyi temsil eder.
 
-![yapılacaklar:resim_alternatif_metin](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
+Raporu değiştirmek aşağıdaki adımları içerir:
+“Raporu Değiştir” iletişim kutusunu açın ve Genel Görünüm sekmesini seçin.
 
-
- Tıklamak**Değiştir** düğmesine basın ve Yapılandırmayı gizle'yi güncelleyin.
-
-![yapılacaklar:resim_alternatif_metin](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
 
 
- Tıklamak**İşlemek** düğmesine basın ve yapılandırmaları gizleyin.
+**Değiştir** düğmesine tıklayın ve Gizle yapılandırmasını güncelleyin. 
 
-![yapılacaklar:resim_alternatif_metin](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
+
+
+**Onayla** düğmesine tıklayın ve gizle yapılandırmalarını kaydedin. 
+
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)

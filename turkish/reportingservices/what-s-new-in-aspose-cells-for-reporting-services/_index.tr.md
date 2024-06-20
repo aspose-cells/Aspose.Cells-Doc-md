@@ -1,50 +1,51 @@
-﻿---
-title: Aspose.Cells'deki yenilikler for Reporting Services
+---
+title: Aspose.Cells for Reporting Services te Neler Yeni
 type: docs
-description: Aspose.Cells for Reporting Services her geçen gün genişliyor ve güzelleşiyor. Bu sayfada, ürünün devasa ve en ilginç özelliklerini öğrenebilirsiniz.
+description: "Aspose.Cells for Reporting Services her geçen gün genişliyor ve gelişiyor. Bu sayfada ürünün en büyük ve en ilginç özelliklerini öğrenebilirsiniz."
 weight: 5
 url: /tr/reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 ---
-Bu sayfada, son sürümlerde tanıtılan en ilginç yeni Aspose.Cells for Reporting Services özellikleri açıklanmaktadır.
+
+Bu sayfa, son sürümlerde tanıtılan en ilginç yeni Aspose.Cells for Reporting Services özelliklerini açıklar.
 
 ## Aspose.Cells for Reporting Services  22.10
 
-* Birkaç hatayı düzeltin.
-* Sayı biçimini oluşturma desteği.
+* Birkaç hata düzeltildi.
+* Sayı formatını renderlamayı destekleme.
 
 ## Aspose.Cells for Reporting Services  22.9
 
-* SXC biçimini oluşturma desteği.
+* SXC formatını renderlamayı destekleme.
 
 ## Aspose.Cells for Reporting Services  22.8
 
-* XLTX biçimini oluşturma desteği.
+* XLTX formatını renderlamayı destekleme.
 
 ## Aspose.Cells for Reporting Services  22.7
 
-* XML formatını işlemek için destek.
+* XML formatını renderlamayı destekleme.
 
 ## Aspose.Cells for Reporting Services  22.6
 
-* Html'nin işlenmesi için iyileştirme.
+* HTML renderlama iyileştirmesi.
 
 ## Aspose.Cells for Reporting Services  22.5
 
- * XPS ve Tiff'in oluşturulması için iyileştirme.
+* XPS ve Tiff renderlama iyileştirmesi.	
 
 ## Aspose.Cells for Reporting Services  22.4
 
-* Sql script formatını işlemek için destek.
+* SQL script formatını renderlamayı destekleme.
 
 ## Aspose.Cells for Reporting Services  22.3
 
-* Docx formatını işlemek için destek.
-* Metin oluşturucuyu geliştirin.
+* DOCX formatını renderlamayı destekleme.
+* Metin renderlamada iyileştirme.
 
 ## Aspose.Cells for Reporting Services  22.2
 
-* Pptx formatını işlemek için destek.
+* PPTX formatını renderlamayı destekleme.
 
 ## Aspose.Cells for Reporting Services  22.1
 
-* Json formatını işlemek için destek.
+* JSON formatını renderlamayı destekleme.

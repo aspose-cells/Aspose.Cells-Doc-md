@@ -1,22 +1,23 @@
-﻿---
-title: Dış Veri Bağlantılarıyla İlgili Sorgu Tablolarını ve Liste Nesnelerini Bulun
+---
+title: Dış Veri Bağlantılarıyla İlgili Sorgu Tabloları ve List Obje Bulma
 type: docs
 weight: 20
 url: /tr/java/find-query-tables-and-list-objects-related-to-external-data-connections/
 ---
-## **Dış Veri Bağlantılarıyla İlgili Sorgu Tablolarını ve Liste Nesnelerini Bulun**
 
-Bazen, bazı Dış Veri Bağlantılarıyla ilgili Sorgu Tablolarını ve Liste Nesnelerini bulmanız gerekir. Sorgu Tabloları, Bağlantı Kimliği olan Dış Veri Bağlantısı nesnesiyle, Liste Nesneleri ise Sorgu Tablosu ile ilişkilidir.
+## **Dış Veri Bağlantılarıyla İlgili Sorgu Tablolarını ve List Obje Bulma**
 
- Aşağıdaki örnek kod, Dış Veri Bağlantısı ile ilgili Sorgu Tablolarını ve Liste Nesnelerini nasıl bulabileceğinizi açıklar. kod kullanır[örnek excel dosyası](5472550.xlsm) verilen bağlantıdan indirebilirsiniz. Bu örnek kodun çıktısını da bu makalenin altında görebilirsiniz.
+Bazı durumlarda, belirli bir Dış Veri Bağlantısı ile ilişkili Sorgu Tabloları ve List Objelerini bulmanız gerekebilir. Sorgu Tabloları, Bağlantı Kimliği ile ilişkili Dış Veri Bağlantısı nesnesi ile ilişkilidir, List Objeleri ise bir Sorgu Tablosu ile ilişkilidir.
+
+Aşağıdaki örnek kod, Dış Veri Bağlantısıyla ilişkili Sorgu Tablolarını ve Liste Nesnelerini nasıl bulabileceğinizi açıklar. Kod, [örnek excel dosyası](5472550.xlsm) kullanır. Bu örnek kodun çıktısını bu makalenin alt kısmında görebilirsiniz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-FindReferenceCellsFromExternalConnection-FindReferenceCellsFromExternalConnection.java" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
- İşte bunu kullanan yukarıdaki örnek kodun konsol çıktısı[örnek excel dosyası](5472550.xlsm).
+Yukarıdaki örnek kodun konsol çıktısı bu [örnek excel dosyası](5472550.xlsm) kullanılarak elde edilir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 connection: AAPL Connection
 

@@ -1,40 +1,41 @@
-﻿---
-title: lisanslama
+---
+title: Lisanslama
 type: docs
 weight: 40
 url: /tr/jasperreports/licensing/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for JasperReports ücretsiz, sınırsız süreli değerlendirme olarak mevcuttur.[indirme sayfası](https://downloads.aspose.com/cells/jasperreports). Ürünün değerlendirme ve lisanslı sürümleri aynı indirmedir.
+Aspose.Cells for JasperReports, [İndirme sayfasından](https://downloads.aspose.com/cells/jasperreports) ücretsiz, süresiz değerlendirme sürümü olarak mevcuttur. Ürünün değerlendirme ve lisanslı sürümleri aynı indirme dosyasıdır.
 
- Değerlendirme sürümünden memnun olduğunuzda şunları yapabilirsiniz:[lisans satın al](https://purchase.aspose.com/). Lisans koşullarını anladığınızdan ve kabul ettiğinizden emin olun.
+Değerlendirme sürümünden memnun kaldığınızda, [bir lisans satın alabilirsiniz](https://purchase.aspose.com/). Lisans şartlarını anladığınızdan ve kabul ettiğinizden emin olun.
 
-Lisans, sipariş ödendiğinde sipariş sayfasından indirilebilir. Lisans, açık metinli, dijital olarak imzalanmış bir XML dosyasıdır. Lisans, müşteri adı, satın alınan ürün ve lisans türü gibi bilgileri içerir. Lisans dosyasının içeriğini değiştirmeyin: bunu yapmak, lisansı geçersiz kılar.
+Lisans, sipariş ödendiğinde sipariş sayfasından indirilebilir. Lisans, net metin, dijital olarak imzalanmış bir XML dosyasıdır. Lisans, müşteri adı, satın alınan ürün ve lisans türü gibi bilgileri içerir. Lisans dosyasının içeriğini değiştirmeyin: aksi takdirde lisans geçersiz hale gelir.
 
-Lisans başvurusu yapmanın iki yolu vardır:
+Bir lisansı uygulamanın iki yolu vardır:
 
-- [setLicense'i arayın](/cells/tr/jasperreports/licensing/#call-setlicense)
+- [setLicense'ı çağırın](/cells/tr/jasperreports/licensing/#call-setlicense)
 - [applicationContext.xml'de bir dışa aktarıcı parametresi ayarlayın](/cells/tr/jasperreports/licensing/#set-the-licensefile-exporter-parameter-in-applicationcontextxml)
 
 Lisansı yükledikten sonra,
 
-- [Çalıştığını doğrulayın](/cells/tr/jasperreports/licensing/#verify-the-license-works).
+- [İşe yaradığını doğrulayın](/cells/tr/jasperreports/licensing/#verify-the-license-works).
 
 {{% /alert %}}
 
-## **setLicense'i arayın**
+## **setLicense'ı çağırın**
 
 {{% alert color="primary" %}}
 
-Bu yöntem, JasperReports ile kullanım için geçerlidir.
+Bu yöntem JasperReports ile kullanım için uygundur.
 
 {{% /alert %}}
 
- Lisansı bilgisayarınıza indirin ve uygun klasöre kopyalayın (örneğin, uygulamanızın klasörü veya**JasperReports\lib**).
-Aşağıdaki kodu projenize ekleyin:
+Lisansı bilgisayarınıza indirin ve uygun klasöre kopyalayın (örneğin uygulamanızın klasörü veya **JasperReports\lib** gibi).
+Projeye aşağıdaki kodu ekleyin:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 import com.aspose.cells.jasperreports.*;
 
@@ -50,20 +51,20 @@ license.setLicense(fstream);
 
 {{< /highlight >}}
 
-## **applicationContext.xml'de licenseFile Exporter Parametresini ayarlayın**
+## **applicationContext.xml'de lisansDosyası Dışa Aktarıcı Parametresini ayarlayın**
 
 {{% alert color="primary" %}}
 
-Bu yöntem, JasperServer ile kullanım için geçerlidir.
+Bu yöntem JasperServer ile kullanım için uygundur.
 
 {{% /alert %}}
 
-1.  Lisansı bilgisayarınıza indirin ve kopyalayın.**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF**klasör, nerede**\<Yükleme Dizini>** JasperServer kurulum dizini anlamına gelir.
-1.  bulun**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** dosyasını açın ve aşağıdaki satırları ekleyin:
+1. Download the license to your computer and copy it to the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF** folder, where **\<InstallDir>** stands for the JasperServer installation directory.
+1. Locate the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file and add the following lines:
 
-**xml**
+**XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   <bean id="excelACExportParameters" class="com.aspose.cells.jasperreports.ACXlsExportParametersBean">
 
@@ -73,14 +74,14 @@ Bu yöntem, JasperServer ile kullanım için geçerlidir.
 
 {{< /highlight >}}
 
-## **Lisans Çalışmalarını Doğrulayın**
+## **Lisanstan emin olun**
 
-Herhangi bir raporu XLS biçiminde dışa aktarın ve raporun bir değerlendirme mesajı içerip içermediğini kontrol edin. Değerlendirme mesajı yoksa, lisans düzgün çalışıyor demektir.
+Herhangi bir raporu XLS formatına dışa aktarın ve raporda bir değerlendirme mesajı bulunup bulunmadığını kontrol edin. Eğer bir değerlendirme mesajı yoksa, o zaman lisans düzgün bir şekilde çalışıyor demektir.
 
-**Aspose.Cells for JasperReports, değerlendirme modunda bir değerlendirme çalışma sayfası enjekte eder** 
+**Aspose.Cells for JasperReports, değerlendirme modunda bir değerlendirme çalışma sayfası takar** 
 
-![yapılacaklar:resim_alternatif_metin](licensing_1.png)
+![todo:image_alt_text](licensing_1.png)
 
-**Geçerli bir lisans olduğunda değerlendirme çalışma sayfası yoktur** 
+**Geçerli bir lisans olduğunda bir değerlendirme çalışma sayfası olmaz** 
 
-![yapılacaklar:resim_alternatif_metin](licensing_2.png)
+![todo:image_alt_text](licensing_2.png)

@@ -1,68 +1,69 @@
 ---
-title: افتح ملفات إصدارات Excel المختلفة Microsoft
+title: فتح ملفات إكسل من إصدارات مايكروسوفت المختلفة
 type: docs
 weight: 20
 url: /ar/net/opening-different-microsoft-excel-versions-files/
-description: يشرح هذا المقال كيفية فتح ملفات إصدارات Excel المختلفة باستخدام Aspose.Cells for .NET API.
-keywords: C# Open Different Microsoft Excel file, How do I open Encrypted Excel Files.
+description: يشرح هذا المقال كيفية فتح ملفات إكسل من إصدارات مختلفة باستخدام Aspose.Cells for .NET API.
+keywords: C# فتح ملفات إكسل من إصدارات مايكروسوفت المختلفة، كيف يمكنني فتح ملفات إكسل المشفرة.
 ---
+
 {{% alert color="primary" %}}
 
-يمكن لـ Aspose.Cells فتح مجموعة من ملفات إصدارات Excel المختلفة Microsoft، مثل Microsoft Excel 95/97 - 2003، SpreadsheetML، فتح Microsoft Excel 2007/2010/2013/2016/2019 وOffice 365 XLSX أو ملفات Excel المشفرة.
+يمكن لـ Aspose.Cells فتح مجموعة متنوعة من ملفات إكسل المختلفة ، مثل إكسل 95/97 - 2003 ، SpreadsheetML ، فتح ملفات إكسل 2007/2010/2013/2016/2019 و Office 365 XLSX أو ملفات إكسل المشفرة.
 
 {{% /alert %}}
 
-##  **كيفية فتح ملفات مختلفة Microsoft إصدارات Excel**
+## **كيفية فتح ملفات من إصدارات مايكروسوفت إكسل المختلفة**
 
- غالبًا ما يجب أن يكون التطبيق قادرًا على فتح Microsoft من ملفات Excel التي تم إنشاؤها في إصدارات مختلفة، على سبيل المثال، Microsoft Excel 95,97، أو Microsoft Excel 2007/2010/2013/2016/2019 وOffice 365. قد تحتاج إلى تحميل ملف بأي من التنسيقات المتعددة، بما في ذلك XLS أو XLSX أو XLSM أو XLSB أو SpreadsheetML أو TabDelimited أو TSV أو CSV أو ODS وما إلى ذلك. استخدم المنشئ، أو حدد**[المصنف](https://reference.aspose.com/cells/net/aspose.cells/workbook)**فصل'**[تنسيق الملف](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** سمة الكتابة التي تحدد التنسيق باستخدام**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**تعداد.
+غالبًا ما يجب على تطبيق أن يكون قادرًا على فتح ملفات Microsoft Excel التي تم إنشاؤها في إصدارات مختلفة، على سبيل المثال، Microsoft Excel 95،97، أو Microsoft Excel 2007/2010/2013/2016/2019 وOffice 365. قد تحتاج إلى تحميل ملف بأحد صيغ متعددة، بما في ذلك XLS، XLSX، XLSM، XLSB، SpreadsheetML، تنسيق الجدول المفصول بالفواصل أو TSV، CSV، ODS، وما إلى ذلك. استخدم البناء، أو حدد نوع الفئة [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) باستخدام سمة [**FileFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat) التي تحدد التنسيق باستخدام فئة التعداد [**FileFormatType**](https://reference.aspose.com/cells/net/aspose.cells/fileformattype).
 
- ال**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**يحتوي التعداد على العديد من تنسيقات الملفات المحددة مسبقًا والتي يرد بعضها أدناه.
+تحتوي فئة [**FileFormatType**](https://reference.aspose.com/cells/net/aspose.cells/fileformattype) على العديد من تنسيقات الملفات المحددة مسبقًا بعضها مذكور أدناه.
 
-|**أنواع تنسيقات الملفات**|**وصف**|
+|**أنواع تنسيق الملفات**|**الوصف**|
 | :- | :- |
-|ملف CSV|يمثل ملف CSV|
-|Excel97To2003|يمثل ملف Excel 97 - 2003|
-|XLSX|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف Office 365 XLSX|
-|XLSM|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف Office 365 XLSM|
-|XLTX|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف Office 365 XLTX|
-|XLTM|يمثل ملف Excel 2007/2010/2013/2016/2019 وOffice 365 الممكّن بماكرو XLTM|
-|XLSB|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف Office 365 الثنائي XLSB|
+|Csv| يمثل ملف CSV|
+|Excel97To2003| يمثل ملف Excel 97-2003|
+|Xlsx| يمثل ملف Excel 2007/2010/2013/2016/2019 و Office 365 XLSX|
+|Xlsm| يمثل ملف Excel 2007/2010/2013/2016/2019 و Office 365 XLSM|
+|Xltx|يمثل ملف XLTX قالب Excel 2007/2010/2013/2016/2019 و Office 365|
+|Xltm|يمثل ملف XLTM Excel 2007/2010/2013/2016/2019 و Office 365 القادر على تشغيل الماكرو|
+|Xlsb|يمثل ملف XLSB بتنسيق Excel 2007/2010/2013/2016/2019 و Office 365|
 |SpreadsheetML|يمثل ملف SpreadsheetML|
-|تسف|يمثل ملف قيم مفصولة بعلامات جدولة|
-|TabDelimited|يمثل ملف نصي محدد بعلامات جدولة|
-|احتمالات|يمثل ملف ODS|
-|لغة البرمجة|يمثل ملف HTML|
-|م أتش تي أم أل|يمثل ملف MHTML|
+|Tsv|يمثل ملف بقيم مفصولة بواسطة علامة التبويب|
+|TabDelimited|يمثل ملف نصي بقيم مفصولة بواسطة علامة التبويب|
+|Ods|يمثل ملف ODS|
+|Html|يمثل ملف HTML|
+|Mhtml|يمثل ملف MHTML|
 
-###  **افتح Microsoft ملفات Excel 95/5.0**
+### **فتح ملفات Microsoft Excel 95/5.0**
 
-لفتح ملف Microsoft Excel 95/5.0، استخدم**[خيارات التحميل](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**وقم بتعيين السمة ذات الصلة لـ**[خيارات التحميل](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**فئة ملف القالب الذي سيتم تحميله. يمكن تنزيل ملف نموذجي لاختبار هذه الميزة من الرابط التالي:
+لفتح ملف Microsoft Excel 95/5.0، استخدم [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) وقم بتعيين السمة ذات الصلة لفئة [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) لقالب الملف الذي سيتم تحميله. يمكن تنزيل ملف عيني لاختبار هذه الميزة من الرابط التالي:
 
 [ملف Excel95](Excel95.xls)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel95Files-1.cs" >}}
 
-###  **افتح Microsoft ملفات Excel 97 - 2003**
+### **فتح ملفات Microsoft Excel 97 - 2003**
 
- لفتح ملف Microsoft Excel 97 - 2003، استخدم**[خيارات التحميل](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** وقم بتعيين السمة ذات الصلة لـ**[خيارات التحميل](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**فئة ملف القالب الذي سيتم تحميله.
+لفتح ملف Microsoft Excel 97 - 2003، استخدم [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) وقم بتعيين السمة ذات الصلة لفئة [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) لقالب الملف الذي سيتم تحميله.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel972003Files-1.cs" >}}
 
-###  **فتح Microsoft ملفات Excel 2007/2010/2013/2016/2019 وOffice 365 XLSX**
+### **فتح ملفات Microsoft Excel 2007/2010/2013/2016/2019 و Office 365 بصيغة XLSX**
 
-لفتح تنسيق Microsoft Excel 2007/2010/2013/2016/2019 وOffice 365، أي XLSX أو XLSB، حدد مسار الملف. تستطيع ايضا استخذام**[خيارات التحميل](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** وقم بتعيين السمة/الخيارات ذات الصلة لـ**[خيارات التحميل](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**فئة ملف القالب الذي سيتم تحميله.
+لفتح تنسيق ملف Microsoft Excel 2007/2010/2013/2016/2019 وOffice 365، أي XLSX أو XLSB، حدد مسار الملف. يمكنك أيضًا استخدام [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) وتعيين السمة/الخيارات ذات الصلة لفئة [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) لقالب الملف الذي سيتم تحميله.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel2007XlsxFiles-1.cs" >}}
 
-###  **فتح ملفات Excel المشفرة**
+### **فتح ملفات Excel المشفرة**
 
- من الممكن إنشاء ملفات Excel مشفرة باستخدام Microsoft Excel. لفتح ملف مشفر، استخدم**[خيارات التحميل](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**وقم بتعيين سماته وخياراته (على سبيل المثال، إعطاء كلمة مرور) لتحميل ملف القالب.
+من الممكن إنشاء ملفات Excel مشفرة باستخدام Microsoft Excel. لفتح ملف مشفر، استخدم فئة [**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions) وقم بتعيين سماته وخياراته (على سبيل المثال، إعطاء كلمة مرور) لقالب الملف الذي سيتم تحميله.
 يمكن تنزيل ملف نموذجي لاختبار هذه الميزة من الرابط التالي:
 
-[إكسل مشفرة](EncryptedExcel.xlsx)
+[Encrypted Excel](EncryptedExcel.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningEncryptedExcelFiles-1.cs" >}}
 
-Aspose.Cells يدعم أيضًا فتح ملفات Microsoft Excel 2007 و 2010 و 2013 و 2016 و 2019 و Office 365 المحمية بكلمة مرور.
+تدعم Aspose.Cells أيضًا فتح ملفات Microsoft Excel 2007، 2010، 2013، 2016، 2019، Office 365 المحمية بكلمة مرور.
 
 

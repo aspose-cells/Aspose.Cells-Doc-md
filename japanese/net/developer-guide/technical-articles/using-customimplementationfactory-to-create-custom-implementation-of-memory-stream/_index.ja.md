@@ -1,16 +1,17 @@
-﻿---
-title: CustomImplementationFactory を使用してメモリ ストリームのカスタム実装を作成する
+---
+title: カスタム実装のMemory Streamを作成するためのCustomImplementationFactoryを使用する
 type: docs
 weight: 40
 url: /ja/net/using-customimplementationfactory-to-create-custom-implementation-of-memory-stream/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells は API という名前の[**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory)これにより、ユーザーは、デフォルトの MemoryStream の代わりに Recyclable メモリ実装を使用するなど、カスタム実装を提供できます。
+## **可能な使用シナリオ**
 
-## **CustomImplementationFactory を使用してメモリ ストリームのカスタム実装を作成する**
+Aspose.Cellsは、デフォルトのMemoryStreamの代わりにRecyclable memory実装などのカスタム実装を提供する [**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory) というAPIを提供しています。
 
-次のサンプル コードは、[**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory)あなたのプログラムで。システムに十分なメモリがあっても、メモリが連続していない場合があります。メモリ ストリーム オブジェクトは連続したメモリを使用しますが、連続していないメモリを代わりに使用するような方法でメモリ ストリームの実装を提供できます。
+## **CustomImplementationFactoryを使用してMemory Streamのカスタム実装を作成する**
+
+次のサンプルコードは、プログラムで[**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory)を使用する方法を示しています。システムに十分なメモリがある場合でも、そのメモリが連続していないことがあります。Memory Streamオブジェクトは連続したメモリを使用しますが、非連続のメモリを使用するようにMemory Streamの実装を提供することも可能です。
 
 ## **サンプルコード**
 

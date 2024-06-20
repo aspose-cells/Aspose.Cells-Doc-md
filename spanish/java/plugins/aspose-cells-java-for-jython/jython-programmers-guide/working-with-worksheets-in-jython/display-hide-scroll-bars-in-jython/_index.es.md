@@ -1,15 +1,16 @@
-﻿---
-title: Mostrar ocultar barras de desplazamiento en Jython
+---
+title: Mostrar ocultar las barras de desplazamiento en Jython
 type: docs
 weight: 40
 url: /es/java/display-hide-scroll-bars-in-jython/
 ---
-## **Aspose.Cells - Mostrar ocultar barras de desplazamiento**
- Para anexar documentos usando**Aspose.Cells Java para Jython**. Aquí puedes ver el código de ejemplo.
+
+## **Aspose.Cells - Mostrar ocultar las barras de desplazamiento**
+Para agregar documentos usando **Aspose.Cells Java for Jython**. Aquí puedes ver código de ejemplo.
 
 **Código Jython**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -51,7 +52,7 @@ if __name__ == '__main__':
     DisplayHideScrollBars()
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Adjuntar Documentos (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Agregar documentos (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/DisplayHideScrollBars.py)

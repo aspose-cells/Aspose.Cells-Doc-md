@@ -1,13 +1,16 @@
-﻿---
-title: Interaktive Bildlaufleiste in GridWeb rendern
+---
+title: Interaktive Scrollbar in GridWeb rendern
 type: docs
 weight: 170
-url: /de/net/render-interactive-scrollbar-in-gridweb/
+url: /de/net/aspose-cells-gridweb/render-interactive-scrollbar-in-gridweb/
+keywords: GridWeb, Scrollbar
+description: Dieser Artikel stellt vor, wie man mit der Scrollbar in GridWeb arbeitet.
 ---
-## **Mögliche Nutzungsszenarien**
- Aspose.Cells für GridWeb kann eine interaktive Bildlaufleistensteuerung innerhalb des GridWeb-Arbeitsblatts rendern. Benutzer können mit der Bildlaufleiste wie in Microsoft Excel interagieren. Um eine interaktive Bildlaufleiste zu erstellen, müssen Sie die Links für hinzufügen**jQuery** und**jQuery-Benutzeroberfläche** Bibliotheken wie unten gezeigt.
 
-{{< highlight "java" >}}
+## **Mögliche Verwendungsszenarien**
+Aspose.Cells für GridWeb kann ein interaktives Scrollbar-Steuerelement innerhalb des GridWeb-Arbeitsblatts rendern. Benutzer können mit der Scrollbar interagieren, wie sie es in Microsoft Excel tun. Um eine interaktive Scrollbar zu erstellen, müssen Sie die Links für **jQuery** und **jQuery UI**-Bibliotheken hinzufügen, wie unten gezeigt.
+
+{{< highlight java >}}
 
  <head runat="server">
 
@@ -20,18 +23,18 @@ url: /de/net/render-interactive-scrollbar-in-gridweb/
 </head>
 
 {{< /highlight >}}
-## **Interaktive Bildlaufleiste in GridWeb rendern**
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](61767764.xlsx)mit der Bildlaufleiste, wie im folgenden Screenshot gezeigt. Die anderen Screenshots zeigen, wie GridWeb die interaktive Bildlaufleiste rendert und den Wert der Bildlaufleiste in Zelle B3 anzeigt. Wenn Sie die Bildlaufleiste scrollen, zeigt der Wert von Zelle B3 den resultierenden Wert.
+## **Interaktive Scrollbar in GridWeb rendern**
+Der folgende Mustercode lädt die [Beispiel-Excel-Datei](61767764.xlsx), die die Scrollbar wie im folgenden Screenshot zeigt. Die anderen Screenshots zeigen, wie GridWeb eine interaktive Scrollbar rendert und den Wert der Scrollbar in Zelle B3 anzeigt. Immer wenn Sie die Scrollbar scrollen, zeigt der Wert von Zelle B3 den resultierenden Wert an.
 
-![todo: Bild_alt_Text](render-interactive-scrollbar-in-gridweb_1.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_1.png)
 
-![todo: Bild_alt_Text](render-interactive-scrollbar-in-gridweb_2.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_2.png)
 
-![todo: Bild_alt_Text](render-interactive-scrollbar-in-gridweb_3.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_3.png)
 
-![todo: Bild_alt_Text](render-interactive-scrollbar-in-gridweb_4.png)
+![todo:image_alt_text](render-interactive-scrollbar-in-gridweb_4.png)
 ## **Beispielcode**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <%@ Page Language="C#" AutoEventWireup="true" CodeFile="TestGridWeb.aspx.cs" Inherits="TestGridWeb" %>
 

@@ -1,35 +1,36 @@
-﻿---
+---
 title: Tablolar ve Aralıklar
 type: docs
 weight: 50
 url: /tr/net/tables-and-ranges/
 ---
+
 ## **Giriş**
 
-Bazen Microsoft Excel'de bir tablo oluşturursunuz ve beraberinde gelen tablo işleviyle çalışmaya devam etmek istemezsiniz. Bunun yerine, masaya benzeyen bir şey istiyorsunuz. Biçimlendirmeyi kaybetmeden verileri bir tabloda tutmak için tabloyu normal bir veri aralığına dönüştürün.
-Aspose.Cells, tablolar ve liste nesneleri için Microsoft Excel'in bu özelliğini destekler.
+Bazen Microsoft Excel'de bir tablo oluşturursunuz ve onunla gelen tablo işlevleriyle çalışmak istemezsiniz. Bunun yerine, bir tablo gibi görünen bir şey istersiniz. Biçimlendirmeyi kaybetmeden bir tabloda veri tutmak için tabloyu normal bir veri aralığına dönüştürün.
+Aspose.Cells, Microsoft Excel'in tablo ve liste nesneleri için bu özelliği destekler.
 
-## **Microsoft Excel'i kullanma**
+## **Microsoft Excel Kullanımı**
 
- Kullan**Aralığa Dönüştür** biçimlendirmeyi kaybetmeden bir tabloyu hızla bir aralığa dönüştürme özelliği. Microsoft Excel 2007/2010'da:
+**Dönüştürülecek Aralığı Belirt** özelliğini kullanarak bir tabloyu biçimlendirmeyi kaybetmeden hızlıca bir aralığa dönüştürmek için aşağıdaki adımları izleyin. Microsoft Excel 2007/2010'da:
 
-1. Aktif hücrenin bir tablo sütununda olduğundan emin olmak için tabloda herhangi bir yeri tıklayın.
-1.  Üzerinde**Tasarım** sekmesinde, içinde**Araçlar** grup, tıklayın**Aralığa Dönüştür**.
+1. Tablonun herhangi bir yerine tıklayın ve etkin hücrenin bir tablo sütununda olduğundan emin olun.
+1. **Tasarım** sekmesinde, **Araçlar** grubunda, **Dönüştür**'ü tıklayın.
 
-## **Aspose.Cells'i kullanma**
+## **Aspose.Cells Kullanımı**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-ConvertTableToRange-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Tablo bir aralığa dönüştürüldükten sonra tablo özellikleri artık kullanılamaz. Örneğin, satır başlıkları artık sıralama ve filtre oklarını içermez ve formüllerde kullanılan yapılandırılmış başvurular (tablo adlarını kullanan başvurular), normal hücre başvurularına dönüşür.
+Tablo özellikleri, tablo bir aralığa dönüştürüldükten sonra artık kullanılamaz. Örneğin, satır başlıkları artık sıralama ve filtre oklarını içermez ve formüllerde kullanılan yapılandırılmış referanslar (tablo adlarını kullanan referanslar), normal hücre referanslarına dönüşür.
 
 {{% /alert %}}
 
-## **Seçeneklerle Tabloyu Aralığa Dönüştür**
+## **Tablo, Aralığı Seçenekleri ile Aralığı Dönüştürme**
 
-Aspose.Cells, Tabloyu Aralığa dönüştürürken ek seçenekler sunar.[**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions) sınıf. bu[**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions)sınıf sağlar[**Son Sıra**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions/properties/lastrow)tablo satırının son dizinini ayarlamanıza izin veren özellik. Tablo biçimlendirmesi, belirtilen satır dizinine kadar korunacak ve biçimlendirmenin geri kalanı kaldırılacaktır.
+Aspose.Cells, [**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions) sınıfı aracılığıyla Tablo'yu Aralığa dönüştürürken ek seçenekler sağlar. [**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions) sınıfı, belirtilen satır dizinine kadar tablo biçimlendirmesini korumanızı ve geri kalan biçimlendirmeyi kaldırmanızı sağlayan [**LastRow**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions/properties/lastrow) özelliğini sağlar.
 
-Aşağıda verilen örnek kod,[**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions)sınıf.
+Aşağıda verilen örnek kod, [**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions) sınıfının kullanımını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-ConvertTableToRangeWithOptions-1.cs" >}}

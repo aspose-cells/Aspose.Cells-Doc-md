@@ -1,13 +1,14 @@
-﻿---
-title: Arbeiten mit Kopf- und Fußzeilen
+---
+title: Arbeiten mit Kopf und Fußzeilen
 type: docs
 weight: 110
 url: /de/net/working-with-headers-and-footers/
 ---
-## **Aspose.Cells – Arbeiten mit Kopf- und Fußzeilen**
+
+## **Aspose.Cells - Arbeiten mit Kopf- und Fußzeilen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -52,7 +53,7 @@ workbook.Save("../../data/headerfooter.xlsx");
 ## **NPOI - HSSF XSSF - Arbeiten mit Kopf- und Fußzeilen**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -73,13 +74,13 @@ wb.Write(sw);
 sw.Close(); 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Arbeiten mit Kopf- und Fußzeilen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Arbeiten mit Kopf- und Fußzeilen** von einer der unten aufgeführten sozialen Code-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Arbeiten mit Arbeitsblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Für weitere Details besuchen Sie [Arbeiten mit Tabellenblättern](/cells/de/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

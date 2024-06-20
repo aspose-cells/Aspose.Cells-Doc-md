@@ -1,17 +1,18 @@
-﻿---
-title: Stampa di cartelle di lavoro in Aspose.Cells
+---
+title: Stampa i workbook in Aspose.Cells
 type: docs
 weight: 20
 url: /it/net/printing-workbooks-in-aspose-cells/
 ---
-## **Aspose.Cells - Stampa Quaderni**
-Dopo aver finito di creare il tuo foglio di calcolo, probabilmente vorrai stampare una copia cartacea del foglio per le tue necessità. Quando si stampa, MS Excel presuppone che si desideri stampare l'intera area del foglio di lavoro a meno che non si specifichi la selezione.
 
-Foglio di lavoro per la stampa
+## **Aspose.Cells - Stampa dei workbook**
+Dopo aver terminato la creazione del foglio di lavoro, probabilmente vorrai stampare una copia cartacea del foglio per le tue esigenze. Durante la stampa, MS Excel presume che si voglia stampare l'intera area del foglio di lavoro a meno che non si specifichi la selezione.
+
+Stampa del foglio di lavoro
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -35,12 +36,12 @@ sr.ToPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Stampa di cartelle di lavoro** formare uno dei siti di social coding sotto indicati:
+Scarica **Stampa dei workbook** da uno qualsiasi dei seguenti siti di codice sociale:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Stampa di cartelle di lavoro](/cells/it/net/printing-workbooks/).
+Per ulteriori dettagli, visita [Stampa dei workbook](/cells/it/net/printing-workbooks/)
 
 {{% /alert %}}

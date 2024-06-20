@@ -1,19 +1,20 @@
-﻿---
-title: Förbereder för att skapa tabellrapport
+---
+title: Förberedelser för att skapa en tabellrapport
 type: docs
 weight: 10
 url: /sv/reportingservices/preparing-for-creating-table-report/
 ---
- Innan du skapar en tabellrapport måste användaren först skapa datakällor, datauppsättningar och rapportparametrar (valfritt) enligt beskrivningen i[Datakällor och frågor](/cells/sv/reportingservices/data-sources-and-queries/).
 
-Nedan använder vi exempeldatabasen AdventureWorks som levereras med SQL Server Reporting Services 2005.
+Innan man skapar en tabellrapport måste användaren först skapa datakällor, dataset och rapportparametrar (valfritt) enligt beskrivningen i [Datakällor och frågor](/cells/sv/reportingservices/data-sources-and-queries/).
 
-1. Skapa en datauppsättning som heter EmpSalesDetail. Vi använder detta som tabellens datakälla. Datauppsättningen har tre parametrar: ReportYear, ReportMonth och EmpID.
- SQL-koden som definierar EmpSalesDetail är följande:
+Nedan använder vi exempeldatabasen AdventureWorks som inkluderas med SQL Server Reporting Services 2005.
+
+1. Skapa ett dataset med namnet EmpSalesDetail. Vi kommer att använda detta som tabellens datakälla. Datasetet har tre parametrar: Rapportår, Rapportmånad och EmpID.
+   SQL som definierar EmpSalesDetail är följande: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT C.FirstName+' '+C.LastName 'Employee',
 
@@ -83,12 +84,12 @@ PC.Name
 
 {{< /highlight >}}
 
-1. Skapa en datauppsättning som heter SalesEmps. Vi använder det som giltiga värden för EmpID-parametern.
- SQL-koden som definierar SalesEmps är:
+1. Skapa ett dataset med namnet SalesEmps. Vi kommer att använda det som giltiga värden för parametern EmpID.
+   SQL som definierar SalesEmps är: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT  E.EmployeeID,  C.FirstName + N' ' + C.LastName AS Employee
 
@@ -102,28 +103,28 @@ ON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName
 
 {{< /highlight >}}
 
-1.  Skapa tre rapportparametrar: ReportYear, ReportMonth och EmpID.
- 1. De giltiga värdena för parametern ReportYear är:
+1. Skapa tre rapportparametrar: Rapportår, Rapportmånad och EmpID. 
+   1. De giltiga värdena för parametern Rapportår är: 
 
 ![todo:image_alt_text](preparing-for-creating-table-report_1.png)
 
 
 
 
-1. De giltiga värdena för parametern ReportMonth är:
+1. De giltiga värdena för parametern Rapportmånad är: 
 
 ![todo:image_alt_text](preparing-for-creating-table-report_2.png)
 
 
 
 
-1.  Det giltiga värdet för parametern EmpID är:
+1. Det giltiga värdet för parametern EmpID är: 
 
 ![todo:image_alt_text](preparing-for-creating-table-report_3.png)
 
 
 
 
-1.  Mappa datauppsättningsparametrarna till rapportparametrar, enligt följande:
+1. Kartlägg datasetparametrar till rapportparametrar, enligt följande: 
 
 ![todo:image_alt_text](preparing-for-creating-table-report_4.png)

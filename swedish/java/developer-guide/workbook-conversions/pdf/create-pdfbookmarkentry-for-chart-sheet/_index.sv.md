@@ -1,23 +1,24 @@
-﻿---
-title: Skapa PdfBookmarkEntry för diagramblad
+---
+title: Skapa PdfBookmarkEntry för diagramkalkylblad
 type: docs
 weight: 50
 url: /sv/java/create-pdfbookmarkentry-for-chart-sheet/
 ---
-## **Möjliga användningsscenarier**
 
-Tidigare skulle Aspose.Cells skapa[**Pdf Bookmark Entry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) för ett vanligt ark. Men nu kan Aspose.Cells också skapa[**Pdf Bookmark Entry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) för diagramblad. Eftersom diagrambladet inte har någon annan cell förutom cell A1, så kommer det att skapas[**Pdf Bookmark Entry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry)endast för cell A1.
+## **Möjliga användningsscenario**
+
+Tidigare skulle Aspose.Cells skapa [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) för ett normalt kalkylblad. Men nu kan Aspose.Cells också skapa [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) för diagramkalkylblad. Eftersom diagramkalkylblad inte har några andra celler än cell A1 kommer det att skapa [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) för endast cell A1.
 
 ## **Skapa PdfBookmarkEntry för diagramblad**
 
-Följande exempelkod laddar[exempel på Excel-fil](61767772.xlsx)som har fyra ark. Två av dem är normala ark och de andra två är diagramblad. Den skapar fyra bokmärkesposter enligt följande
+Följande exempelkod laddar [exempel Excel-filen](61767772.xlsx) som har fyra kalkylblad. Två av dem är normala kalkylblad och de andra två är diagramkalkylblad. Den skapar fyra bokmärkesposter enligt följande
 
 - Bokmärke-I
-- Bokmärke-II-diagram1
+- Bokmärke-II-Chart1
 - Bokmärke-III
-- Bokmärke-IV-diagram2
+- Bokmärke-IV-Chart2
 
-Följande skärmdump visar[utgång PDF](61767771.pdf)genereras av exempelkoden för en referens.
+Följande skärmbild visar [utdata-PDF](61767771.pdf) genererad av exempelkoden för referens.
 
 ![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

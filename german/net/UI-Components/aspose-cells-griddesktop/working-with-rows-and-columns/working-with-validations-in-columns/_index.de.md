@@ -1,36 +1,39 @@
-﻿---
+---
 title: Arbeiten mit Validierungen in Spalten
 type: docs
 weight: 80
-url: /de/net/working-with-validations-in-columns/
+url: /de/net/aspose-cells-griddesktop/work-with-validations-in-columns/
+keywords: GridDesktop, Validierung, Validierungen
+description: Dieser Artikel führt ein, wie man Validierungen in Spalten in GridDesktop verwendet.
 ---
+
 {{% alert color="primary" %}} 
 
- In einem unserer vorherigen Themen haben wir über Validierungen gesprochen, aber das war im Zusammenhang mit[Validierungen in Arbeitsblättern](/cells/de/net/working-with-validations-in-worksheets/) (Entwickler können sich auf dieses Thema beziehen, um allgemeine Informationen zu Validierung und Validierungsmodi zu erhalten). In diesem Thema erläutern wir Validierungen in Bezug auf Spalten. Mit dieser Funktion können Entwickler eine Validierungsregel auf jede Spalte des Arbeitsblatts anwenden. Lassen Sie es uns im Detail besprechen.
+In einem unserer früheren Themen haben wir über Validierungen diskutiert, jedoch im Zusammenhang mit [Validierungen in Arbeitsblättern](/cells/de/net/working-with-validations-in-worksheets/) (für allgemeine Informationen über Validierung und Validierungsmodi können Entwickler auf dieses Thema verweisen). In diesem Thema werden wir Validierungen im Hinblick auf Spalten erläutern. Mit dieser Funktion können Entwickler eine Validierungsregel auf eine beliebige Spalte des Arbeitsblatts anwenden. Lassen Sie uns das im Detail besprechen.
 
 {{% /alert %}} 
 ## **Spaltenvalidierung hinzufügen**
-Führen Sie die folgenden Schritte aus, um einer Spalte eine beliebige Validierung hinzuzufügen:
+Um eine beliebige Art von Validierung zu einer Spalte hinzuzufügen, befolgen Sie bitte die folgenden Schritte:
 
--  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
--  Greifen Sie beliebig zu**Arbeitsblatt**
-- **Addieren** ein Gewünschtes**Validierung** zu irgendeiner Spalte
+- Fügen Sie das Steuerelement Aspose.Cells.GridDesktop zu Ihrem **Formular** hinzu
+- Greifen Sie auf jedes gewünschte **Arbeitsblatt** zu
+- Fügen Sie einer beliebigen Spalte eine gewünschte **Validierung** hinzu
 
-**WICHTIG:**Weitere Informationen zu den Validierungsarten (oder Validierungsmodi wie z**Erforderliche Validierung**, **Validierung regulärer Ausdrücke** und**Benutzerdefinierte Validierung** ) und Umsetzung**Benutzerdefinierte Validierung** , bitte beziehen Sie sich auf[Arbeiten mit Validierungen in Arbeitsblättern.](/cells/de/net/working-with-validations-in-worksheets/)
+**WICHTIG:** Für weitere Informationen über die Arten der Validierung (oder Validierungsmodi wie **Erforderliche Validierung**, **Reguläre Ausdrucksvalidierung** und **Benutzerdefinierte Validierung**) und die Implementierung von **Benutzerdefinierter Validierung** lesen Sie bitte [Arbeiten mit Validierungen in Arbeitsblättern.](/cells/de/net/working-with-validations-in-worksheets/)
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-WorkingWithColumnValidations-AddValidation.cs" >}}
-## **Zugriff auf die Spaltenvalidierung**
-Um auf eine bestimmte Spaltenvalidierung zuzugreifen, führen Sie bitte die folgenden Schritte aus:
+## **Auf Spaltenvalidierung zugreifen**
+Um eine spezifische Spaltenvalidierung zu verwenden, folgen Sie bitte den folgenden Schritten:
 
--  Greifen Sie auf eine gewünschte zu**Arbeitsblatt**
--  Greifen Sie auf eine bestimmte Spalte zu**Validierung** in dem**Arbeitsblatt**
--  Bearbeiten**Validierung** Attribute ggf
+- Öffnen Sie ein gewünschtes **Arbeitsblatt**
+- Greifen Sie auf eine spezifische **Validierung** in der **Arbeitsblatt** zu
+- Bearbeiten Sie die Attribute der **Validierung**, wenn gewünscht
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing first worksheet of the Grid
 
@@ -49,15 +52,15 @@ validation.RegEx = "";
 validation.CustomValidation = null;
 
 {{< /highlight >}}
-## **Entfernen der Spaltenvalidierung**
-Führen Sie die folgenden Schritte aus, um eine bestimmte Spaltenvalidierung aus dem Arbeitsblatt zu entfernen:
+## **Spaltenvalidierung entfernen**
+Um die Validierung einer bestimmten Spalte aus dem Arbeitsblatt zu entfernen, befolgen Sie bitte die folgenden Schritte:
 
--  Greifen Sie auf eine gewünschte zu**Arbeitsblatt**
--  Entfernen Sie eine bestimmte Spalte**Validierung** von dem**Arbeitsblatt**
+- Öffnen Sie ein gewünschtes **Arbeitsblatt**
+- Entfernen Sie eine bestimmte Spalten-**Validierung** aus dem **Arbeitsblatt**
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing first worksheet of the Grid
 

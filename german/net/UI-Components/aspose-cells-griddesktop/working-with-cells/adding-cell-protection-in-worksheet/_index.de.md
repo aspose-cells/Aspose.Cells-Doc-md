@@ -1,16 +1,19 @@
-﻿---
-title: Hinzufügen von Cell-Schutz im Arbeitsblatt
+---
+title: Schutz in Arbeitsblatt hinzufügen
 type: docs
 weight: 130
-url: /de/net/adding-cell-protection-in-worksheet/
+url: /de/net/aspose-cells-griddesktop/adding-cell-protection-in-worksheet/
+keywords: GridDesktop, schützen
+description: In diesem Artikel wird beschrieben, wie Zellen im Arbeitsblatt in GridDesktop geschützt werden können.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells für GridDesktop ermöglicht es Ihnen, Ihre Zellen in einem Arbeitsblatt zu schützen. Sie müssen zuerst Ihr Arbeitsblatt schützen, dann können Sie Ihre gewünschten Zellen in einem Arbeitsblatt schützen. Um das Arbeitsblatt zu schützen, bitte einstellen**Arbeitsblatt.Geschützt** Eigenschaft auf true, dann verwenden**Arbeitsblatt.SetProtected()** Methode zum Schutz des Zellbereichs.
+Aspose.Cells für GridDesktop ermöglicht das Schützen von Zellen in einem Arbeitsblatt. Zunächst müssen Sie Ihr Arbeitsblatt schützen, dann können Sie die gewünschten Zellen im Arbeitsblatt schützen. Um das Arbeitsblatt zu schützen, setzen Sie bitte die Eigenschaft **Worksheet.Protected** auf true und verwenden Sie dann die Methode **Worksheet.SetProtected()**, um den Zellenbereich zu schützen.
 
 {{% /alert %}} 
-## **Schützen Sie Cell mit Aspose.Cells.GridDesktop**
- Der folgende Beispielcode schützt alle Zellen im Bereich**A1:B1** des aktiven Arbeitsblatts von GridDesktop. Wenn Sie auf eine beliebige Zelle in diesem Bereich doppelklicken, können Sie sie nicht bearbeiten. Dadurch werden diese Zellen schreibgeschützt.
+## **Schützen Sie die Zelle mit Aspose.Cells.GridDesktop**
+Der folgende Beispielcode schützt alle Zellen im Bereich **A1:B1** des aktiven Arbeitsblatts von GridDesktop. Wenn Sie auf eine Zelle in diesem Bereich doppelklicken, können Sie diese nicht bearbeiten. Diese Zellen werden schreibgeschützt gemacht.
 
 
 

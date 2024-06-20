@@ -1,94 +1,97 @@
-﻿---
-title: Arbetar med Visual Studio
+---
+title: Arbeta med Visual Studio
 type: docs
 weight: 20
-url: /sv/net/working-with-visual-studio/
+url: /sv/net/aspose-cells-gridweb/work-with-visual-studio/
+keywords: GridWeb,visualstudio
+description: Den här artikeln introducerar hur man använder GridWeb i Visual Studio.
 ---
+
 {{% alert color="primary" %}} 
 
-Det här avsnittet förklarar hur man använder Aspose.Cells.GridWeb i ASP.NET-applikationer med Visual Studio.NET 2005. Det här ämnet är användbart för utvecklare på nybörjarnivå som arbetar med Aspose.Cells.GridWeb.
+Den här ämnet förklarar hur man använder Aspose.Cells.GridWeb i ASP.NET-applikationer med hjälp av Visual Studio.NET 2005. Det här ämnet är användbart för nybörjarnivåutvecklare som arbetar med Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
 ## **Arbeta med Aspose.Cells.GridWeb med Visual Studio 2013**
-Det här avsnittet visar hur du använder Aspose.Cells.GridWeb genom att skapa en exempelwebbplats i Visual Studio 2013. Processen har delats upp i steg.
+Detta ämne visar hur man använder Aspose.Cells.GridWeb genom att skapa en provwebbplats i Visual Studio 2013. Processen har delats in i steg.
 ### **Steg 1: Skapa ny webbplats**
 1. Öppna Visual Studio 2013.
-1.  Från**Fil** menyn, välj**Ny meny** , då**Hemsida**. 
+1. Från menyn **File** väljer du **New Menu**, sedan **Web Site**. 
 
 ![todo:image_alt_text](working-with-visual-studio_1.png)
 
 
- Dialogrutan Ny webbplats öppnas.
+Dialogrutan för ny webbplats öppnas. 
 
-1.  Välj**ASP.NET Webbformulär** från Visual Studio installerade mallar.
-1.  Välj HTTP-läge för platsen för webbplatsen.
+1. Välj **ASP.NET Web Forms Site** från Visual Studio-installerade mallar.
+1. Välj HTTP-läge för platsen för webbplatsen. 
 
 ![todo:image_alt_text](working-with-visual-studio_2.png)
 
 
 
 
-1.  Ange en plats där webbplatsfilerna ska skapas och lagras.
- 1. Klicka**Bläddra** i dialogrutan Ny webbplats.
+1. Ange en plats där webbplatsens filer ska skapas och lagras. 
+   1. Klicka på **Bläddra** i dialogrutan för ny webbplats. 
 
 ![todo:image_alt_text](working-with-visual-studio_3.png)
 
 
 
- Dialogrutan Välj plats visas.
+Dialogrutan Välj plats visas. 
 
-1.  Klicka på**Lokal IIS** flik.
-Alla mappar och webbapplikationer som är lagrade i din IIS-rotmapp visas (till exempel: C:\Inetpub\wwwroot).
+1. Klicka på fliken **Local IIS**.
+   Alla mappar och webbapplikationer som är lagrade i din IIS rotkatalog visas (till exempel: C:\Inetpub\wwwroot). 
 
 ![todo:image_alt_text](working-with-visual-studio_4.png)
 
 
 
 
-1. Skapa nu en ny webbapplikation i din lokala IIS där webbplatsfilerna kommer att lagras.
- Dialogrutan Välj plats låter dig skapa och ta bort webbapplikationer eller virtuella kataloger i din lokala IIS. För att skapa en webbapplikation, klicka på en knapp som visas nedan i figuren.
+1. Skapa nu en ny webbapplikation i din lokala IIS där webbplatsens filer kommer att lagras.
+   Dialogrutan Välj plats låter dig skapa och ta bort webbapplikationer eller virtuella kataloger i din lokala IIS. För att skapa en webbapplikation, klicka på en knapp enligt visas nedan i figuren. 
 
 ![todo:image_alt_text](working-with-visual-studio_5.png)
 
 
 
- En ny webbapplikation med standardnamnet WebSite skapas.
+En ny webbapplikation med standardnamnet WebSite skapas. 
 
-1. Byt namn på webbapplikationen. Vi döpte om det till GridWebOn2013.
-1.  Klick**Öppen**. 
+1. Byt namn på webbapplikationen. Vi döpte den till GridWebOn2013.
+1. Klicka på **Öppna**. 
 
 ![todo:image_alt_text](working-with-visual-studio_6.png)
 
 
 
- Du återgår till dialogrutan Ny webbplats. Sökvägen till webbplatsens plats är inställd på<http://localhost/GridWebOn2013>. 
+You return to the New Web Site dialog. The path of web site location is set to <http://localhost/GridWebOn2013>. 
 
-1.  Klick**OK** för att låta Visual Studio skapa en webbplats.
+1. Klicka på **OK** för att låta Visual Studio skapa en webbplats. 
 
 ![todo:image_alt_text](working-with-visual-studio_7.png)
 ### **Steg 2: Kontrollera käll- och designvyer för en webbsida**
- En standardwebbplats kommer att ha skapats av Visual Studio 2013. Den innehåller en default.aspx webbsida med lite dummytext och uppmärkning.
+En standardwebbplats har skapats av Visual Studio 2013. Den innehåller en default.aspx-webbsida med lite dum text och markup. 
 
-**Källvy för sidan default.aspx** 
+**Källvy av default.aspx-sida** 
 
 ![todo:image_alt_text](working-with-visual-studio_8.png)
 
 
 
-Alla webbsidor (inklusive ASP.NET) kan öppnas i två lägen. En är källvyn som låter utvecklare komma åt och ändra källkoden. Det andra läget är designvy som kan användas för att designa webbsidor på ett WYSIWYG-sätt. Skärmbilden ovan visar en källvy av webbsidan default.aspx. Klicka på för att se designvyn**Design**. 
+Alla webbsidor (inklusive ASP.NET) kan öppnas i två lägen. Ett är källvy som låter utvecklare komma åt och modifiera källkoden. Det andra läget är designvy som kan användas för att utforma webbsidor på ett WYSIWYG-sätt. Ovanstående skärmbild visar en källvy av default.aspx-webbsidan. För att visa designvyn, klicka på **Design**. 
 
-**Designvy av sidan default.aspx** 
+**Designvy av default.aspx-sida** 
 
 ![todo:image_alt_text](working-with-visual-studio_9.png)
 
 
 
 
-Ta bort sidan Default.aspx som lagts till av Visual Studio och lägg till en ny tom sida Default.aspx.
+Ta bort Default.aspx-sidan som lades till av Visual Studio och lägg till en ny tom Default.aspx-sida.
 
 ![todo:image_alt_text](working-with-visual-studio_10.png)
-### **Steg 3: Lägga till Aspose.Cells.GridWeb till webbsidan**
- Du kan helt enkelt lägga till Aspose.Cells.GridWeb (eller GridWeb) kontroll till en webbsida genom att dra den från verktygslådan.
+### **Steg 3: Lägga till Aspose.Cells.GridWeb till webbsida**
+Du kan enkelt lägga till Aspose.Cells.GridWeb (eller GridWeb) kontroll till en webbsida genom att dra den från verktygsfältet. 
 
 ![todo:image_alt_text](working-with-visual-studio_11.png)
 
@@ -97,22 +100,22 @@ Ta bort sidan Default.aspx som lagts till av Visual Studio och lägg till en ny 
 
 {{% alert color="primary" %}} 
 
- Om du inte vet hur du lägger till Aspose.Cells.GridWeb i verktygslådan, se[Integrera Aspose.Cells Grid Controls med Visual Studio.NET](/cells/sv/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/). 
+Om du inte vet hur du lägger till Aspose.Cells.GridWeb i verktygsfältet, se [Integrera Aspose.Cells Grid Controls med Visual Studio.NET](/cells/sv/net/aspose-cells-gridweb/integrate-aspose-cells-grid-controls-with-visual-studio-net/). 
 
 {{% /alert %}} 
 
- När GridWeb-kontrollen har släppts till webbsidan, skulle den återges så här:
+När GridWeb-kontrollen släpps på webbsidan skulle den renderas så här: 
 
 ![todo:image_alt_text](working-with-visual-studio_12.png)
 
 
 
-### **Steg 4: Ändra taggen <!DOCTYPE>**
-1.  Växla till källvy och hitta följande**<!DOCTYPE>** tag i källkoden:
+### **Step 4: Change the <!DOCTYPE> tag**
+1. Switch to source view and find the following **<!DOCTYPE>** tag in the source code: 
 
 **ASP.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -122,17 +125,17 @@ Ta bort sidan Default.aspx som lagts till av Visual Studio och lägg till en ny 
 
 {{< /highlight >}}
 
-1.  Välj hela taggen.
+1. Välj den kompletta taggen. 
 
 ![todo:image_alt_text](working-with-visual-studio_13.png)
 
 
 
 
-1.  Behåll, ändra eller ta bort<!DOCTYPE> märka.
-1.  Eller ändra<!DOCTYPE> tagga med följande:
+1. Retain, change or delete the <!DOCTYPE> tag.
+1. Or modify the <!DOCTYPE> tag with the following one: 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -141,32 +144,32 @@ Ta bort sidan Default.aspx som lagts till av Visual Studio och lägg till en ny 
 
 
 {{< /highlight >}}
-### **Steg 5: Ändra storlek Aspose.Cells.GridWeb Control**
- Du kan ändra bredden och höjden på GridWeb-kontrollen efter att ha dragit den till webbplatsen.
+### **Steg 5: Ändra storlek på Aspose.Cells.GridWeb Control**
+Du kan ändra bredden och höjden på GridWeb-kontrollen efter att ha dragit den till webbplatsen. 
 
- I designvyn kan du ändra storlek på bredden och höjden på GridWeb.
+I designläge kan du ändra bredd och höjd på GridWeb. 
 
 ![todo:image_alt_text](working-with-visual-studio_14.png)
 
 
 
 ### **Steg 6: Konfigurera egenskaperna för Aspose.Cells.GridWeb**
- Konfigurera Aspose.Cells.GridWeb-egenskaperna i WYSIWYG genom att klicka på**Egenskaper** knappen på höger sida av Visual Studio 2013 IDE.
- En dialogruta för egenskaper visas.
+Konfigurera egenskaperna för Aspose.Cells.GridWeb i WYSIWYG genom att klicka på **Egenskaper**-knappen på höger sida av Visual Studio 2013 IDE. 
+En egenskapsdialog visas. 
 
 ![todo:image_alt_text](working-with-visual-studio_15.png)
 
 
 
-Panelen Egenskaper gör det möjligt att konfigurera utseendet och känslan för GridWeb och vissa andra egenskaper för att kontrollera GridWebs beteende.
-### **Steg 7: Kör din första webbplats som innehåller Aspose.Cells.GridWeb**
- Bygg och kör webbplatsen.
+Egenskapsrutan gör det möjligt att konfigurera utseendet och känslan hos GridWeb samt andra egenskaper för att styra GridWebs beteende.
+### **Steg 7: Kör din första webbplats med Aspose.Cells.GridWeb**
+Bygg och kör webbplatsen. 
 
-1.  Kör webbplatsen direkt från Visual Studio genom att trycka på Ctrl+F5 eller klicka**Börja felsöka**. 
+1. Kör webbplatsen direkt från Visual Studio genom att trycka på Ctrl+F5 eller klicka på **Starta felsökning**. 
 
 ![todo:image_alt_text](working-with-visual-studio_16.png)
 
- Nu kan du börja spela med GridWeb-kontroll.
+Nu kan du börja använda GridWeb-kontrollen. 
 
 **GridWeb-kontroll i aktion** 
 

@@ -1,36 +1,37 @@
-﻿---
-title: Excel Grafiklerinin Eksenlerini Yönetin
-linktitle: eksenler
+---
+title: Excel Grafiklerinin Eksenleri Yönetme
+linktitle: Eksenler
 type: docs
 weight: 50
 url: /tr/java/chart-axes/
 ---
+
 {{% alert color="primary" %}}
 
-Excel grafiklerinde 3 tür Eksen vardır:
-1. Yatay(Kategori) Eksen : X Ekseni
-1. Dikey(Değer) Eksen : Y Eksen
-1. Derinlik(Seri) Ekseni : Z Ekseni
+Excel grafiklerinde 3 çeşit eksen bulunmaktadır:
+1. Yatay(Kategori) Ekseni: X Ekseni
+1. Dikey(Değer) Ekseni: Y Ekseni
+1. Derinlik(Seriler) Ekseni: Z Ekseni
 
 
 
 {{% /alert %}}
 
 ## **Eksen Seçenekleri**
- Aspose.Cells ayrıca çalışma zamanında grafiğin eksenlerini yönetmeye izin verir.[eksen](https://reference.aspose.com/cells/java/com.aspose.cells/Axis) nesne, Excel'de yapıldığı gibi Axis'in tüm seçeneklerini değiştirebilirsiniz.
+Aspose.Cells ayrıca [Eksen](https://reference.aspose.com/cells/java/com.aspose.cells/Axis) nesnesi ile grafiklerin ekseni runtime'da yönetmeyi sağlar. X Ekseni'nin tüm seçeneklerini Excel'de olduğu gibi değiştirebilirsiniz.
 
-|![yapılacaklar:resim_alternatif_metin](chart_axes.png)|
+|![todo:image_alt_text](chart_axes.png)|
 
-## **X ve Y Eksenlerini Yönetin**
+## **X ve Y Eksenlerini Yönetme**
 
-Excel grafiğinde, yatay ve dikey eksenler, kullanılacak en popüler iki eksendir.
+Excel grafikte, yatay ve dikey ekseni kullanmak en popüler iki eksendir.
 
-Aşağıdaki kod parçacığı, X ve Y eksenlerinin seçeneklerinin nasıl ayarlanacağını gösterir.
+Aşağıdaki kod parçası X ve Y eksenlerinin seçeneklerini nasıl ayarlayacağını göstermektedir.
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Chart-XY-Axes.java" >}}
 
-## **ileri konular**
-- [Onay İşareti Yönünü Değiştir](/cells/tr/java/change-tick-label-direction/)
-- [Grafikte hangi Eksenin bulunduğunu belirleyin](/cells/tr/java/determine-which-axis-exists-in-the-chart/)
-- [Microsoft Excel gibi Otomatik Grafik Ekseni Birimlerini İşleyin](/cells/tr/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)
+## **Gelişmiş Konular**
+- [Tick Etiketi Yönünü Değiştirme](/cells/tr/java/change-tick-label-direction/)
+- [Grafikte Hangi Eksenin Var Olduğunu Belirleme](/cells/tr/java/determine-which-axis-exists-in-the-chart/)
+- [Grafik Ekseni Otomatik Birimleri ile Başa Çık](/cells/tr/java/handle-automatic-units-of-chart-axis-like-microsoft-excel/)

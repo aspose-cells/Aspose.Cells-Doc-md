@@ -1,34 +1,35 @@
 ---
-title: Koşullu Biçimlendirmeyle Alternatif Satırlar ve Sütunlara Gölgelendirme Uygulayın
-description: Alternatif satırlar ve sütunlar için koşullu biçimlendirme gölgeleri uygulamak üzere C#'deki Aspose.Cells kitaplığı nasıl kullanılır? Bu kriterleri ayarlayarak hücrelerin nasıl görüneceği ve görüneceği üzerinde daha fazla kontrole sahip olursunuz.
-keywords: Aspose.Cells, Conditional Formatting, C#, Alternate Rows, Alternate Columns, Shadows
+title: Koşullu Biçimlendirme ile Sıradaki Satır ve Sütunlara Gölge Uygula
+description: Aspose.Cells kitaplığını C# kullanarak koşullu biçimlendirmeleri sırasıyla satır ve sütunlara uygulama. Bu kriterleri ayarlayarak, hücrelerin görünümlerini ve görünümlerini daha fazla kontrol edebilirsiniz.
+keywords: Aspose.Cells, Koşullu Biçimlendirme, C#, Sıralı Satırlar, Sıralı Sütunlar, Gölge
 type: docs
 weight: 30
 url: /tr/net/apply-shading-to-alternate-rows-and-columns-with-conditional-formatting/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells API'ler, koşullu biçimlendirme kurallarını ekleme ve değiştirme araçlarını sağlar.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)nesne. Bu kurallar, koşullara veya kurallara göre istenen biçimlendirmeyi elde etmek için çeşitli şekillerde uyarlanabilir. Bu makalede, koşullu biçimlendirme kuralları ve Excel'in yerleşik işlevleri yardımıyla alternatif satırlara ve sütunlara gölgelendirme uygulamak için Aspose.Cells for .NET API'lerin kullanımı gösterilecektir.
+Aspose.Cells API'leri, koşullu biçimlendirme kurallarını [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) nesnesi için eklemek ve işlemek için olanak sağlar. Bu kurallar, koşullara veya kurallara dayalı istenen biçimlendirmeyi elde etmek için çeşitli şekillerde uyarlanabilir. Bu makale, **Aspose.Cells for .NET** API'lerini kullanarak koşullu biçimlendirme kurallarını kullanarak alternatif satır ve sütunlara gölge uygulamanın nasıl olduğunu gösterecektir.
 
 {{% /alert %}}
 
-Bu makalede Excel'in SATIR, SÜTUN VE MOD gibi yerleşik işlevleri kullanılmaktadır. Aşağıda verilen kod pasajının daha iyi anlaşılması için bu işlevlere ilişkin bazı ayrıntılar verilmiştir.
+Bu makale, Excel'in yerleşik işlevleri ROW, COLUMN ve MOD'u kullanmaktadır. İleride sunulan kod örneğini daha iyi anlayabilmek için bu işlevlerin bazı ayrıntıları aşağıda verilmiştir.
 
-- **ROW()** işlevi, hücre başvurusunun satır numarasını döndürür. Referans parametresi atlanırsa, referansın SATIR fonksiyonunun girildiği hücre adresi olduğu varsayılır.
-- **COLUMN()**işlevi, hücre başvurusunun sütun numarasını döndürür. Referans parametresi atlanırsa, referansın COLUMN fonksiyonunun girildiği hücre adresi olduğu varsayılır.
-- **MOD()** işlevi, bir sayı bir bölene bölündükten sonra kalanı döndürür; işlevin ilk parametresi, geri kalanını bulmak istediğiniz sayısal değerdir ve ikinci parametre, sayı parametresine bölmek için kullanılan sayıdır. Bölen 0 ise #BÖL/0! değerini döndürür. hata.
+- **ROW()** işlevi, bir hücre başvurusunun satır numarasını döndürür. Eğer başvuru parametresi ihmal edilirse, ROW işlevinin girildiği hücre adresinin başvuru olduğunu varsayar.
+- **COLUMN()** işlevi, bir hücre başvurusunun sütun numarasını döndürür. Eğer başvuru parametresi ihmal edilirse, COLUMN işlevinin girildiği hücre adresinin başvuru olduğunu varsayar.
+- **MOD()** işlevi, bir sayının bir bölen tarafından bölündükten sonra kalanı döndürür. İşlevin ilk parametresi, kalanını bulmak istediğiniz sayısal değeri, ikinci parametre ise bu sayısal değeri bölmek için kullanılan parametreyi temsil eder. Bölen 0 ise, #DIV/0! hatası döndürür.
 
-Bu hedefe ulaşmak için Aspose.Cells for .NET API yardımıyla bazı kodlar yazmaya başlayalım.
+Hadi, Aspose.Cells for .NET API'sının yardımıyla bu hedefe ulaşmak için biraz kod yazmaya başlayalım.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-ApplyShadingToAlternateRowsColumns-1.cs" >}}
 
-Aşağıdaki anlık görüntü, Excel uygulamasına yüklenen sonuçtaki elektronik tabloyu göstermektedir.
+Aşağıdaki görüntü, Excel uygulamasında yüklenen sonuç elektronik tabloyu göstermektedir.
 
-|![yapılacak şey:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)|
+|![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)|
 | :- |
 
- Gölgelendirmeyi alternatif sütunlara uygulamak için formülü değiştirmeniz yeterlidir.**=MOD(SATIR();2)=0** *=MOD(COLUMN(),2)=0** olarak, yani; satır indeksini almak yerine, sütun indeksini almak için formülü değiştirin.
-Bu durumda ortaya çıkan elektronik tablo aşağıdaki gibi görünecektir.
+Sıralı sütunlara gölge uygulamak için yapmanız gereken tek şey, **=MOD(ROW(),2)=0** formülünü **=MOD(COLUMN(),2)=0** olarak değiştirmektir; yani, satır dizinini almak yerine formülü sütun dizinine değiştirin. 
+Bu durumda elde edilen elektronik tablo aşağıdaki gibi görünecektir.
 
-|![yapılacak şey:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)|
+|![todo:image_alt_text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)|
 | :- |

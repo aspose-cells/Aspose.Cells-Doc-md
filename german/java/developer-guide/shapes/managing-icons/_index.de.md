@@ -1,28 +1,29 @@
-﻿---
+---
 title: Symbole zum Arbeitsblatt hinzufügen
 linktitle: Symbole verwalten
 type: docs
 weight: 15
 url: /de/java/insert-svg-to-excel/
 ---
-## Symbole zum Arbeitsblatt hinzufügen in Aspose.Cells
 
- Wenn Sie verwenden müssen[Aspose.Cells](https://products.aspose.com/cells/) 'Icons' in eine Excel-Datei einfügen möchten, dann kann Ihnen dieses Dokument dabei helfen.
+## Symbole zum Arbeitsblatt in Aspose.Cells hinzufügen
 
-Die Excel-Oberfläche, die der Operation zum Einfügen von Symbolen entspricht, sieht wie folgt aus:
+Wenn Sie [Aspose.Cells](https://products.aspose.com/cells/) verwenden müssen, um 'Symbole' in eine Excel-Datei hinzuzufügen, kann Ihnen dieses Dokument einige Hilfe bieten.
+
+Die Excel-Benutzeroberfläche für die Einfüge-Symbol-Operation sieht wie folgt aus:
 
 ![](1.png)
 
-- Wählen Sie die Position des Symbols aus, das in das Arbeitsblatt eingefügt werden soll
--  Links Klick*Einfügung*->*Symbole*
-- Wählen Sie in dem sich öffnenden Fenster das Symbol im roten Rechteck in der obigen Abbildung
--  Links Klick*Einfügung*, es wird in die Excel-Datei eingefügt.
+- Wählen Sie die Position des Symbols, das in das Arbeitsblatt eingefügt werden soll
+- Klicken Sie links auf *Einfügen*->*Symbole*
+- In dem sich öffnenden Fenster wählen Sie das Symbol im roten Rechteck in der obigen Abbildung aus
+- Klicken Sie links auf *Einfügen*, danach wird es in die Excel-Datei eingefügt
 
-Die Wirkung ist wie folgt:
+Der Effekt ist wie folgt:
 
 ![](2.png)
 
- Hier haben wir uns vorbereitet*Beispielcode* um Ihnen beim Einfügen von Symbolen zu helfen[Aspose.Cells](https://products.aspose.com/cells/) .Es gibt auch eine notwendige[Beispieldatei](sample.xlsx) und ein Symbol[Ressourcendatei](icon.zip) .Wir haben die Excel-Oberfläche verwendet, um ein Symbol mit demselben Anzeigeeffekt wie das einzufügen[Ressourcendatei](icon.zip) in dem[Beispieldatei](sample.xlsx).
+Hier haben wir *Beispielcode* vorbereitet, um Ihnen zu helfen, Symbole mit [Aspose.Cells](https://products.aspose.com/cells/) einzufügen. Es gibt auch eine notwendige [Beispieldatei](sample.xlsx) und eine Symbol-[Ressourcendatei](icon.zip). Wir haben die Excel-Benutzeroberfläche verwendet, um ein Symbol mit demselben Anzeigeeffekt wie die [Ressourcendatei](icon.zip) in der [Beispieldatei](sample.xlsx) einzufügen.
 
 ### Java
 

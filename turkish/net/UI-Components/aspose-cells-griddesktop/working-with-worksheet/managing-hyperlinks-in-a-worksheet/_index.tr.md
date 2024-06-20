@@ -1,38 +1,41 @@
-﻿---
-title: Çalışma Sayfasında Köprüleri Yönetme
+---
+title: Çalışma Sayfasında Hyperlinkleri Yönetme
 type: docs
 weight: 90
-url: /tr/net/managing-hyperlinks-in-a-worksheet/
+url: /tr/net/aspose-cells-griddesktop/manage-hyperlinks-in-a-worksheet/
+keywords: GridDesktop,hyper,link,hyperlink,hyperlinks
+description: Bu makale, GridDesktop ta hyperlink ile çalışmayı nasıl tanıtacağınızı açıklar.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop kullanarak, bir çalışma sayfasının hücrelerinde saklanan basit değerlere köprüler eklemek de mümkündür. Diyelim ki bazı hücrelerde, bir web sayfasındaki daha ayrıntılı bilgilerle ilişkilendirmek istediğiniz bazı değerleriniz olabilir. Bu durumda, o hücreye bir köprü eklenmesi arzu edilir, böylece bir kullanıcı hücreye tıklarsa o web sayfasına yönlendirilir. Bu konuda, geliştiricilerin çalışma sayfalarına köprüleri nasıl ekleyebileceklerini ve değiştirebileceklerini açıklayacağız.
+Aspose.Cells.GridDesktop kullanarak, bir çalışma sayfasındaki hücrelerde depolanan basit değerlere hyperlink eklemek de mümkündür. Diyelim ki bazı hücrelerde, kullanıcıları bir web sayfasında daha detaylı bilgilerle ilişkilendirmek istediğiniz değerleriniz olsun. Bu durumda, bir kullanıcı hücreye tıkladığında o sayfaya yönlendirilmesi istenir. Bu konuda, geliştiricilerin çalışma sayfalarında hyperlink ekleyip değiştirebilmeleri konusunu açıklayacağız.
 
 {{% /alert %}} 
-## **Köprü Ekleme**
-Aspose.Cells.GridDesktop kullanarak bir hücreye köprü eklemek için lütfen aşağıdaki adımları izleyin:
+## **Hyperlinkler Ekleme**
+Aspose.Cells.GridDesktop kullanarak bir hücreye bağlantı eklemek için lütfen aşağıdaki adımları izleyin:
 
--  Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  İstenilen erişim**Cell** köprülenecek çalışma sayfasında
-- Köprülenecek hücreye bir miktar değer ekleyin
--  Eklemek**köprü** köprünün uygulanacağı hücre adını belirterek çalışma sayfasına
+- **Form**'unuza Aspose.Cells.GridDesktop kontrolünü ekleyin
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- Bağlantı eklenecek çalışsayfadaki istenen **Hücre**'ye erişin
+- Bağlantı eklenmek istenen hücreye bir değer ekleyin
+- Bağlantı uygulanacak hücreyi belirterek **Çalışsayfa**'ya **Bağlantı** ekleyin
 
-**köprüler** koleksiyonunda**Çalışma kağıdı** nesne aşırı yükleme sağlar**Eklemek** yöntem. Geliştiriciler, herhangi bir aşırı yüklenmiş sürümünü kullanabilir**Eklemek** özel ihtiyaçlarına göre yöntem.
+**Çalışsayfa** nesnesindeki **Bağlantılar** koleksiyonu, aşırı yüklenmiş bir **Ekle** yöntemi sağlar. Geliştiriciler, belirli ihtiyaçlarına göre **Ekle** yönteminin herhangi bir aşırı yüklenmiş sürümünü kullanabilir.
 
- Aşağıdaki kod, bir köprü ekleyecektir**B2** ve**C3** çalışma sayfasının hücreleri.
+Aşağıdaki kod, çalışsayfanın **B2** ve **C3** hücrelerine bağlantı ekleyecektir.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AddHyperlink.cs" >}}
-## **Köprülere Erişim**
-Bir hücreye köprü eklendiğinde, çalışma zamanında köprüye erişmek ve köprüyü değiştirmek de gerekebilir. Bunu yapmak için, geliştiriciler köprüye yalnızca**köprüler** koleksiyonu**Çalışma kağıdı** köprünün eklendiği hücreyi belirterek (hücre adını veya satır ve sütun numarası cinsinden konumunu kullanarak). Köprüye erişildikten sonra, geliştiriciler çalışma zamanında URL'sini değiştirebilir.
+## **Bağlantıları Erişme**
+Bir hücreye bağlantı eklendikten sonra, bağlantıya erişilmesi ve çalışma zamanında değiştirilmesi de gerekebilir. Bunun için geliştiriciler, Basitleştirilmiş Çalışsayfa'nın **Bağlantılar** koleksiyonundan bağlantıya basitçe erişebilirler ve bağlanacak hücreyi belirterek bağlantıyı değiştirebilirler (hücre adını veya satır ve sütun numarası olarak konumunu kullanarak). Bağlantıya erişildiğinde geliştiriciler, çalışma zamanında URL'sini değiştirebilirler.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AccessHyperlink.cs" >}}
-## **Köprüleri Kaldırma**
- Mevcut bir köprüyü kaldırmak için, geliştiriciler basitçe istenen bir çalışma sayfasına erişebilir ve ardından**Kaldırmak** gelen köprü**köprüler** koleksiyonu**Çalışma kağıdı** köprülü hücreyi belirterek (adını veya satır ve sütun numarasını kullanarak).
+## **Bağlantıları Kaldırma**
+Mevcut bir bağlantıyı kaldırmak için, geliştiriciler basitçe istenen çalışma sayfasına erişebilir ve ardından **Bağlantılar** koleksiyonundan bağlantıyı belirterek (adını veya satır ve sütun numarasını kullanarak) bağlantıyı **Kaldırabilir**.
 
 
 
@@ -40,6 +43,6 @@ Bir hücreye köprü eklendiğinde, çalışma zamanında köprüye erişmek ve 
 
 {{% alert color="primary" %}} 
 
-Bir hücreye köprü eklemek istiyorsanız ve hücrede bir değer yerine köprü URL'sini görüntülemek istiyorsanız, hücreye herhangi bir değer eklemeyin ve köprüyü o hücreye ekleyin. Bunu yaptığınızda, hücre köprülenecek ve köprü URL'si de hücrede değeri olarak görüntülenecektir.
+Eğer bir hücreye bağlantı eklemek istiyorsanız ve bu bağlantının değer yerine hücredeki bağlantı URL'sinin görüntülenmesini istiyorsanız, hücreye herhangi bir değer eklemeyin ve bağlantıyı basitçe ekleyin. Bunu yaparak hücre bağlantılı olacak ve bağlantı URL'si aynı zamanda hücrede değeri olarak da görüntülenecektir.
 
 {{% /alert %}}

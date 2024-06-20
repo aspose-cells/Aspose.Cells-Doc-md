@@ -1,17 +1,18 @@
-﻿---
-title: Neue Leitung unter Cells
+---
+title: Neue Zeile in Zellen
 type: docs
 weight: 30
 url: /de/net/new-line-in-cells/
 ---
-## **Aspose.Cells - Neue Leitung in Cells**
-Um sicherzustellen, dass Text in einer Zelle gelesen werden kann, können explizite Zeilenumbrüche und Textumbrüche angewendet werden. Textumbruch verwandelt eine Zeile in mehrere Zeilen in einer Zelle, die durch explizite Zeilenumbrüche genau dort eingefügt werden, wo Sie sie haben möchten.
 
-Verwenden Sie zum Umbrechen von Text in einer Zelle die Eigenschaft Aspose.Cells.Style.IsTextWrapped.
+## **Aspose.Cells - Neue Zeile in Zellen**
+Um sicherzustellen, dass der Text in einer Zelle gelesen werden kann, können explizite Zeilenumbrüche und Textumbrüche angewendet werden. Textumbrüche verwandeln eine Zeile in mehrere in einer Zelle, wobei explizite Zeilenumbrüche genau dort eingefügt werden, wo Sie sie haben möchten.
+
+Um Text in einer Zelle umzubrechen, verwenden Sie die Eigenschaft Aspose.Cells.Style.IsTextWrapped.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -34,12 +35,12 @@ sheet.Cells[2, 2].SetStyle(style);
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Neue Leitung in Cells**
-CellStyle.setWrapText sollte für umbrochenen Text wahr sein.
+## **NPOI - HSSF XSSF - Neue Zeile in Zellen**
+CellStyle.setWrapText sollte für umgebrochenen Text true sein.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -66,13 +67,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Neue Leitung unter Cells** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Neue Zeile in Zellen** von einer der unten genannten sozialen Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Zeilenumbrüche und Textumbruch](/cells/de/net/line-breaks-and-text-wrapping/).
+Für weitere Details besuchen Sie [Zeilenumbrüche und Textumbruch](/cells/de/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}

@@ -1,35 +1,36 @@
 ---
-title: Veri Bul veya Ara
+title: Veri Bulma veya Arama
 type: docs
 weight: 80
 url: /tr/cpp/find-or-search-data/
 ---
-##  **Veri Bul veya Ara**
-Aşağıdaki yöntemi kullanarak çeşitli şekillerde veri bulmak veya aramak için Aspose.Cells'i kullanabilirsiniz.
+
+## **Veri Bulma veya Arama**
+Aşağıdaki yöntemi kullanarak Aspose.Cells kullanarak farklı şekillerde veri bulabilir veya arayabilirsiniz.
 
 - [GetEnumerator](https://reference.aspose.com/cells/cpp/aspose.cells/cells/getenumerator/)
-- [Formülü Al](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getformula/)
+- [GetFormula](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getformula/)
 - [GetType](https://reference.aspose.com/cells/cpp/aspose.cells/cell/gettype/)
 - [GetStringValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getstringvalue/)
 - [GetIntValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getintvalue/)
 - [GetBoolValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getboolvalue/)
 - [GetDateTimeValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/getdatetimevalue/)
 - [GetDoubleValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetDoubleValue/)
-- [FloatValue'yu Getir](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetFloatValue/)
+- [GetFloatValue](https://reference.aspose.com/cells/cpp/aspose.cells/cell/GetFloatValue/)
 
- Görüş[Daha](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) yöntemler.
+[Daha fazla](https://reference.aspose.com/cells/cpp/aspose.cells/cell/) yöntemini görüntüle.
 
- Aşağıdaki örnek kod, yukarıdaki yöntemlerin kullanımını göstermektedir.[örnek excel dosyası](21266434.xlsx) bu ekran görüntüsünde gösterildiği gibi.
+Aşağıdaki örnek kod, bu ekran görüntüsünde gösterildiği gibi [örnek excel dosyasını](21266434.xlsx) kullanarak yukarıdaki yöntemlerin kullanımını anlatır.
 
-![yapılacak şey:image_alt_text](find-or-search-data_1.png)
-##  **Basit kod**
+![todo:image_alt_text](find-or-search-data_1.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-FindOrSearchData-new.cpp" >}}
-##  **Konsol Çıkışı**
- Bu, verilen kodla çalıştırıldığında yukarıdaki örnek kodun konsol çıktısıdır.[örnek excel dosyası](21266434.xlsx).
+## **Konsol Çıktısı**
+Verilen [örnek excel dosyası](21266434.xlsx) ile yukarıdaki örnek kodun konsol çıktısı.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Name of the cell containing formula =SUM(A5:A10): C6
 Name of the cell containing the formula that contains CHA: C7

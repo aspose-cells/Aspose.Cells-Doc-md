@@ -1,17 +1,20 @@
 ---
-title: Сохранить сводную таблицу в файле ODS.
+title: Сохранить сводную таблицу в файле ODS
 type: docs
 weight: 150
 url: /ru/python-net/save-pivot-table-in-ods-file/
-description: В этой статье показано, как сохранить сводную таблицу в файле ODS с номерами Aspose.Cells for Python via .NET.
-keywords: Save pivot table in ODS file
+description: Эта статья показывает, как сохранить сводную таблицу в файле ODS с помощью Aspose.Cells для Python via .NET.
+keywords: Aspose.Cells для Python Excel, библиотека Excel Python, Сохранить сводную таблицу в файле ODS с использованием Aspose.Cells для Python Excel Library.
 ---
- Aspose.Cells for Python via .NET обеспечивает возможность сохранения сводной таблицы в файлах ODS. Для этого вы просто конвертируете книгу с существующей сводной таблицей или создаете новую сводную таблицу и сохраняете файл в формате ODS. Обязательно позвоните[**PivotTable.calculate_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/calculate_data/#)перед сохранением убедитесь, что сводная таблица отображается в выходном файле ODS. Следующий фрагмент кода демонстрирует сохранение сводной таблицы в файле ODS.
 
-##  Образец кода
+## **Как сохранить сводную таблицу в файле ODS**
+
+Aspose.Cells для Python via .NET предоставляет возможность сохранять сводную таблицу в файлах ODS. Для этого просто конвертируйте книгу с существующей сводной таблицей или создайте новую сводную таблицу и сохраните файл в формате ODS. Обязательно вызовите [**PivotTable.calculate_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/calculate_data/#) перед сохранением, чтобы убедиться, что сводная таблица отображается в выходном файле ODS. Приведенный ниже фрагмент кода демонстрирует сохранение сводной таблицы в файле ODS.
+
+## Образец кода
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableSaveInODS-1.py" >}}
 
-Выходной файл, сгенерированный приведенным выше кодом, прилагается для справки.
+Выходной файл, сгенерированный вышеуказанным кодом, прикреплен для вашего справки.
 
-[Выходной файл ODS](PivotTableSaveInODS_out.ods)
+[Файл ODS результатов](PivotTableSaveInODS_out.ods)

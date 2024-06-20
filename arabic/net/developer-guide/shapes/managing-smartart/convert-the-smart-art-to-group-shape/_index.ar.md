@@ -1,26 +1,27 @@
-﻿---
-title: تحويل الفن الذكي إلى شكل المجموعة
+---
+title: تحويل الرسوم البيانية الذكية إلى شكل مجموعة
 type: docs
 weight: 200
 url: /ar/net/convert-the-smart-art-to-group-shape/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك تحويل Smart Art Shape إلى Group Shape باستخدام ملف[**Shape.GetResultOfSmartArt ()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart)طريقة. سيمكنك من التعامل مع شكل فني ذكي مثل شكل مجموعة. وبالتالي ، سيكون لديك حق الوصول إلى الأجزاء أو الأشكال الفردية لشكل المجموعة.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **تحويل الفن الذكي إلى شكل المجموعة**
+يمكنك تحويل شكل الرسوم البيانية الذكية إلى شكل مجموعة باستخدام الطريقة [**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart). ستمكنك من التعامل مع شكل رسوم بيانية ذكية مثل شكل مجموعة. وبالتالي، ستكون لديك الوصول إلى الأجزاء أو الأشكال الفردية لشكل المجموعة.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](55541793.xlsx)تحتوي على شكل فني ذكي كما هو موضح في لقطة الشاشة هذه. ثم يقوم بتحويل الشكل الفني الذكي إلى شكل مجموعة ويطبع خاصية Shape.IsGroup. يرجى الاطلاع على إخراج وحدة التحكم لعينة التعليمات البرمجية الواردة أدناه.
+## **تحويل الرسوم البيانية الذكية إلى شكل مجموعة**
 
-![ما يجب القيام به: image_بديل_نص](convert-the-smart-art-to-group-shape_1.png)
+الرمز العيني التالي يحمل [ملف إكسل عيني](55541793.xlsx) يحتوي على شكل فني رائع كما هو موضح في هذه اللقطة. ثم يحول الشكل الفني الرائع إلى شكل مجموعة ويطبع خاصية Shape.IsGroup. يرجى الاطلاع على إخراج وحدة التحكم للرمز العيني الوارد أدناه.
 
-## **عينة من الرموز**
+![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ConvertSmartArtToGroupShape.cs" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: True
 

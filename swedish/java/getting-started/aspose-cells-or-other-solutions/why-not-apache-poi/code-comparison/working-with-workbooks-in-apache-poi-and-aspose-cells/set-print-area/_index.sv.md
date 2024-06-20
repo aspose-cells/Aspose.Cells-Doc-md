@@ -1,17 +1,18 @@
-﻿---
-title: Ställ in utskriftsområde
+---
+title: Ange utskriftsområde
 type: docs
 weight: 40
 url: /sv/java/set-print-area/
 ---
-## **Aspose.Cells - Ange utskriftsområde**
-Som standard innehåller endast utskriftsområdet alla delar av kalkylbladet som innehåller data. Utvecklare kan skapa ett specifikt utskriftsområde i kalkylbladet.
 
-För att välja ett specifikt utskriftsområde, använd[Utskriftsformat](/java/pagesetup)class' setPrintArea-metod. Tilldela den här egenskapen ett cellområde som definierar utskriftsområdet.
+## **Aspose.Cells - Ange utskriftsområde**
+Som standard omfattar endast utskriftsområdet alla områden av arbetsboken som innehåller data. Utvecklare kan fastställa ett specifikt utskriftsområde för arbetsboken.
+
+För att välja ett specifikt utskriftsområde, använd PageSetup-klassens setPrintArea-metod. Tilldela en cellintervall som definierar utskriftsområdet till denna egenskap.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -33,11 +34,11 @@ pageSetup.setPrintArea("A1:F20");
 
 {{< /highlight >}}
 ## **Apache POI SS - HSSF XSSF - Ställ in utskriftsområde**
-Workbook.setPrintArea-metoden är tillgänglig för att ställa in sidegenskaper för utskriftsområdet.
+Workbook.setPrintArea-metoden är tillgänglig för att ställa in sidans egenskaper för utskriftsområdet.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -64,13 +65,13 @@ wb.setPrintArea(
 );
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/setprintarea)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Ställa in utskriftsalternativ](/cells/sv/java/page-setup-features/#setting-print-options).
+För mer information, besök [Ange utskriftsalternativ](/cells/sv/java/sida-setup-funktioner/#setting-print-options).
 
 {{% /alert %}}

@@ -1,15 +1,16 @@
-﻿---
-title:  GridJ'ler için özel içerik menüleri
+---
+title: GridJs için özel bağlam menüleri  
 type: docs
 weight: 250
 url: /tr/net/aspose-cells-gridjs/custommenu/
-description: Bu makale, GridJ'ler için bağlam menülerinin nasıl yapılandırılacağını açıklamaktadır.
-keywords: custom menu items, context menu
+description: Bu makale, GridJs için bağlam menülerini nasıl yapılandıracağınızı açıklar.
+keywords: GridJs, özel menü öğeleri, bağlam menüsü, özel, bağlam, menü
 ---
+
 # Özel bağlam menüleri
-Bağlam menü öğelerinde bazı derlemelerimiz var, örneğin satır/sütun ekleme/silme vb.
-Ancak, kullanıcı bağlam menüsü öğelerini özelleştirmek istiyorsa.
-Yükleme seçeneklerinde ayarlanan bağlam menüsü öğelerini destekliyoruz.
+Örneğin, satır/sütun ekleme/silme ve benzeri bazı yerleşik bağlam menü öğelerimiz var
+Ancak kullanıcı özel bağlam menü öğeleri istiyorsa.
+Yükleme seçeneklerinde bağlam menü öğelerini ayarlamayı destekliyoruz.
 örneğin:
 ```javascript
         const onMyActionClick1 = (sheet) => {
@@ -34,15 +35,15 @@ Yükleme seçeneklerinde ayarlanan bağlam menüsü öğelerini destekliyoruz.
             })
 ```
 
-Çalışma zamanında özel bağlam menüsü öğeleri için aşağıdaki JS API'lerini destekliyoruz
+Özel bağlam menü öğeleri için aşağıdaki JS API'lerini destekliyoruz
 
 
-- özel içerik menüsü öğeleri alın
+- özel bağlam menü öğelerini al
 ```javascript
 xs.sheet.getCustomContextMenuItems()
 ```
 
-- özel bağlam menüsü öğeleri ekleyin
+- özel bağlam menü öğelerini ekle
 ```javascript
 xs.sheet.addCustomContextMenuItems(itemsarray)
  // the parameter is:
@@ -50,7 +51,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'menu4','callback':(x)=>{console.log('hello4444');}},{'key':'key3','text':'menu3','callback':(x)=>{console.log('hello3333');}}]
 ```
 
-- özel içerik menüsü öğelerini sil
+- özel bağlam menü öğelerini sil
 ```javascript
  xs.sheet.delCustomContextMenuItems(keysarray)()
  // the parameter is:
@@ -58,7 +59,7 @@ xs.sheet.addCustomContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-- belirtilen konuma özel bağlam menüsü öğesi ekle
+- belirtilen konuma özel bağlam menü öğesi ekle
 ```javascript
 xs.sheet.insertCustomContextMenuItem(item,postion)
  // the parameter is:
@@ -67,7 +68,7 @@ xs.sheet.insertCustomContextMenuItem(item,postion)
  postion:the postion for the inserted item in the items array
 ```
 
-- özel bağlam menüsü öğesini anahtarla güncelleyin
+- anahtarla özel bağlam menü öğesini güncelle
 ```javascript
 xs.sheet.updateCustomContextMenuItem(key,item)
  // the parameter is:
@@ -77,12 +78,12 @@ xs.sheet.updateCustomContextMenuItem(key,item)
 ```
 
 
-- görüntü/şekil için özel içerik menüsü öğeleri alın
+- resim/şekil için özel bağlam menü öğelerini al
 ```javascript
 xs.sheet.getImageContextMenuItems()
 ```
 
-- görüntü/şekil için özel bağlam menüsü öğeleri ekleyin
+- resim/şekil için özel bağlam menü öğelerini ekle
 ```javascript
 xs.sheet.addImageContextMenuItems(itemsarray)
  // the parameter is:
@@ -90,7 +91,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: [{'key':'key4','text':'img operation1','callback':(x)=>{console.log('operation1 on image');}},{'key':'key3','text':'img operation2','callback':(x)=>{console.log('operation2 on image');}}]
 ```
 
-- resim/şekil için özel içerik menüsü öğelerini sil
+- resim/şekil için özel bağlam menü öğelerini sil
 ```javascript
  xs.sheet.delImageContextMenuItems(keysarray)()
  // the parameter is:
@@ -98,7 +99,7 @@ xs.sheet.addImageContextMenuItems(itemsarray)
  for example: ['key4','key3']
 ```
 
-Github demo sayfamızda daha fazlasını bulabilirsiniz https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
+Daha fazlasını github demo sayfamızda bulabilirsiniz https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/wwwroot/xspread/index.html
 
 
- 
+

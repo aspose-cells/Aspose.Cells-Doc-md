@@ -1,15 +1,16 @@
-﻿---
-title: Frys rutor i rubin
+---
+title: Frys rutor i Ruby
 type: docs
 weight: 50
 url: /sv/java/freeze-panes-in-ruby/
 ---
+
 ## **Aspose.Cells - Frys rutor**
- För att frysa rutor i kalkylarksdokumentet med**Aspose.Cells Java för Ruby** , helt enkelt åberopa**FreezePanes** modul.
+För att frysa rutor i kalkyldokumentet med **Aspose.Cells Java för Ruby**, ange helt enkelt modulen **FreezePanes**.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ workbook.save(data_dir + "output.xls")
 puts "Apply freeze panes settings, please check the output file."
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Frys rutor (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Frys rutor (Aspose.Cells)** från någon av sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)

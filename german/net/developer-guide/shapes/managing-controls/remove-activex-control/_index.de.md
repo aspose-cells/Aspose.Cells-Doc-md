@@ -1,12 +1,13 @@
-﻿---
-title: Entfernen Sie das ActiveX-Steuerelement
+---
+title: AktiveX Steuerung entfernen
 type: docs
 weight: 1000
 url: /de/net/remove-activex-control/
 ---
-## **Entfernen Sie das ActiveX-Steuerelement**
 
- Aspose.Cells bietet die Möglichkeit, ActiveX-Steuerelemente aus Arbeitsmappen zu entfernen. Dafür sorgt die API[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol)Methode. Das folgende Code-Snippet demonstriert die Verwendung von[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol)Methode zum Entfernen des ActiveX-Steuerelements.
+## **AktiveX-Steuerung entfernen**
+
+Aspose.Cells bietet die Möglichkeit, ActiveX-Steuerungen aus Arbeitsmappen zu entfernen. Dazu bietet die API die Methode [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol). Der folgende Codeausschnitt veranschaulicht die Verwendung der Methode [**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol) zum Entfernen der ActiveX-Steuerung.
 
 ## **Beispielcode**
 

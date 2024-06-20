@@ -1,29 +1,30 @@
-﻿---
+---
 title: Lizenzdatei funktioniert nicht mehr
 type: docs
 weight: 60
 url: /de/net/license-file-not-working-anymore/
 ---
+
 ## **Symptom**
 
- Manchmal sind die Benutzer frustriert, weil ihre Lizenzdateien nicht mehr funktionieren, wenn sie ihre Webprojekte auf einen neuen Server verschieben / veröffentlichen. Sie sind verärgert, weil ihre Lizenzdateien auf ihrem vorherigen (alten) Server ordnungsgemäß funktionierten, aber jetzt bekommen sie eine zusätzliche**Bewertungs-Copyright-Warnung** Wasserzeichen-Arbeitsblatt (immer wenn sie Berichte mit der Komponente generieren) in der neuen Serverumgebung.
+Manchmal sind die Benutzer frustriert, weil ihre Lizenzdateien nicht mehr funktionieren, wenn sie ihr Webprojekt(e) auf einen neuen Server verschieben/veröffentlichen. Sie sind verärgert, da ihre Lizenzdateien auf ihrem vorherigen (alten) Server ordnungsgemäß funktionierten, sie jedoch nun in der neuen Serverumgebung ein zusätzliches **Evaluierungshinweis** Wasserzeichen-Arbeitsblatt erhalten, wenn sie Berichte mit dem Komponenten generieren.
 
 ### **Ein Szenario**
 
-"Wir haben Aspose.Cells in unserem ASP.NET-Webprojekt verwendet, um Excel-Berichte zu erstellen/zu manipulieren, wir haben eine gültige Lizenz, die wir verwenden. Vor einigen Tagen haben wir die Website auf einen neuen Server umgezogen; es gab keinerlei Upgrades oder Änderungen, wir haben sichergestellt und einfach jede einzelne Datei auf den neuen Server verschoben, einschließlich der Aspose.Cells.dll und der zugehörigen .lic-Datei(en).Wenn wir nun versuchen, Excel-Berichte in der neuen Serverumgebung zu generieren, erhalten wir eine**Bewertungs-Copyright-Warnung** Wasserzeichenblatt auf unseren Berichten. Wir haben versucht, eine neue Lizenzdatei aus dem Abschnitt „Meine Bestellungen“ der Website herunterzuladen und zu installieren, aber das Problem wurde dadurch überhaupt nicht behoben. Zu Ihrer Information, wir implementieren die Lizenz, indem wir die Datei Aspose.Cells.lic zusammen mit der Komponentendatei Aspose.Cells.dll in den bin-Ordner der Site legen, was, wie ich bereits erwähnt habe, auf dem alten Server problemlos funktioniert hat."
+"Wir verwenden Aspose.Cells in unserem ASP.NET-Webprojekt, um Excel-Berichte zu generieren/manipulieren. Wir haben eine gültige Lizenz, die wir verwenden. Vor einigen Tagen haben wir die Website auf einen neuen Server verschoben; es gab keine Upgrades oder Änderungen, wir haben sicherzustellen versucht und einfach jede Datei auf den neuen Server verschoben, einschließlich der Aspose.Cells.dll und der zugehörigen .lic-Dateien. Jetzt, wenn wir versuchen, Excel-Berichte in der neuen Serverumgebung zu generieren, erhalten wir ein **Evaluierungshinweis** Wasserzeichen-Arbeitsblatt in unseren Berichten. Wir haben versucht, eine neue Lizenzdatei aus dem Bereich Meine Bestellungen der Website herunterzuladen und zu installieren, aber das hat das Problem überhaupt nicht behoben. Zur Info: Wir implementieren die Lizenz, indem wir die Aspose.Cells.lic-Datei im Bin-Ordner der Website zusammen mit der Aspose.Cells.dll-Komponentendatei platzieren, die, wie bereits erwähnt, auf dem alten Server problemlos funktioniert hat."
 
 ### **Lösung**
 
-Aspose hat einen sauberen und zuverlässigen Lizenzierungsmechanismus. Im Allgemeinen sollte das Problem mit dem Bereitstellungsproblem zusammenhängen. Wenn eine Lizenzdatei gut funktioniert (auf einem Server), sollte sie auch auf anderen Servern / Umgebungen genauso gut funktionieren. Normalerweise verwenden die Benutzer Application_Start oder Sitzung_Starten Sie Ereignisse usw. in der Datei global.asax, um dort den Lizenzcode zu platzieren. Es ist also durchaus möglich, dass die Anwendung_Start / Sitzung_Startereignisse werden nicht ausgelöst, um den Lizenzcode an ihrem/ihren neuen Standort(en) zu verarbeiten. Hier ist zu beachten, dass Aspose.Cells immer eine Ausnahme auslöst, wenn die Komponente die Lizenzdatei nicht in einem Pfad finden kann. Die Benutzer sollten sicherstellen, dass der Lizenzcode (wo immer sie ihn platzieren) verarbeitet und Ereignisse ausgelöst werden sollten, in die sie den Lizenzcode einfügen. Der Benutzer kann den zugehörigen Dienst, dh "World Wide Web Publishing" neu starten und versuchen, nachzuverfolgen, ob Application_Start / Sitzung_Startereignisse werden ausgelöst, wenn sie ihre Projekte in der neuen Serverumgebung besuchen.
+Aspose hat einen sauberen und zuverlässigen Lizenzmechanismus. Im Allgemeinen sollte das Problem mit einem Bereitstellungsproblem zusammenhängen. Wenn eine Lizenzdatei (auf einem Server) einwandfrei funktioniert, sollte sie auch auf anderen Servern/Umgebungen einwandfrei funktionieren. Normalerweise nutzen die Benutzer Application_Start oder Session_Start-Ereignisse etc. in der global.asax-Datei, um den Lizenzcode dort zu platzieren. Es ist durchaus möglich, dass das Application_Start/Session_Start-Ereignis(e) an ihren neuen Standorten nicht ausgelöst werden, um den Lizenzcode zu verarbeiten. Hier ist zu beachten, dass Aspose.Cells immer eine Ausnahme wirft, wenn die Komponente die Lizenzdatei in einem Pfad nicht finden kann. Die Benutzer sollten sicherstellen, dass der Lizenzcode (wo immer sie ihn platzieren) verarbeitet wird und die Ereignisse ausgelöst werden, in denen sie den Lizenzcode platzieren. Der Benutzer kann den zugehörigen Dienst, d.h. "World Wide Web Publishing", neu starten und herauszufinden, ob die Application_Start/Session_Start-Ereignisse ausgelöst werden, wenn sie ihre Projekte in der neuen Serverumgebung besuchen.
 
 ### **Bestätigung**
 
-Bitte achten Sie auch darauf, dass …
+Bitte stellen Sie auch sicher, dass...
 
-- Sie verwenden in Ihrem Projekt eine gültige Lizenzdatei.
-- Sie oder jemand anderes sollten die Lizenzdatei nicht bearbeiten / modifizieren, da die Lizenzdatei sonst nicht funktioniert.
-- Sie sollten sich des Ablaufs Ihres Lizenzabonnements bewusst sein (Sie können einfach die lic-Datei in Notepad öffnen und das Ablaufdatum überprüfen).
--  Sie verwenden keine Version (Aspose.Cells.dll), die nach Ablauf Ihres Lizenzabonnements freigegeben wird. Hier ist zu beachten, dass eine Lizenzdatei nie abläuft, aber wenn Sie die Komponentenversion verwenden, die nach Ablauf Ihres Abonnements veröffentlicht wird, erhalten Sie eine zusätzliche**Bewertungs-Copyright-Warnung** Wasserzeichenblatt, wenn Sie eine Excel-Datei erstellen.
+- Sie eine gültige Lizenzdatei in Ihrem Projekt verwenden.
+- Sie oder jemand anders die Lizenzdatei nicht bearbeiten/ändern sollte, da andernfalls die Lizenzdatei nicht funktioniert.
+- Sie über das Ablaufdatum Ihres Lizenzabonnements informiert sind (Sie können die lic-Datei einfach in Notepad öffnen und das Ablaufdatum überprüfen).
+- Sie eine Version (Aspose.Cells.dll) verwenden, die nach dem Ablauf Ihres Lizenzabonnements veröffentlicht wurde. Hier ist zu beachten, dass eine Lizenzdatei nie abläuft, aber wenn Sie die Komponentenversion verwenden, die nach dem Ablauf Ihres Abonnements veröffentlicht wurde, wird bei der Erstellung einer Excel-Datei ein zusätzliches **Evaluierungshinweis** Wasserzeichen-Arbeitsblatt angezeigt.
 
 ### **Verweise**
 

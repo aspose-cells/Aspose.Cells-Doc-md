@@ -1,18 +1,19 @@
-﻿---
-title: Группировать сводные поля в сводной таблице
+---
+title: Группировка полей сводной таблицы
 type: docs
 weight: 80
 url: /ru/net/group-pivot-fields-in-the-pivot-table/
 ---
+
 ## **Возможные сценарии использования**
 
-Microsoft Excel позволяет группировать сводные поля сводной таблицы. Когда имеется большой объем данных, связанных со сводным полем, часто бывает полезно сгруппировать их по разделам. Aspose.Cells также предоставляет эту функцию с помощью[**Сводная таблица.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index)метод.
+В Microsoft Excel можно группировать поля сводной таблицы. Когда имеется большое количество данных, связанных с полем сводной таблицы, часто полезно сгруппировать их по разделам. Aspose.Cells также предоставляет эту функцию с помощью метода [**PivotTable.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index).
 
-## **Группировать сводные поля в сводной таблице**
+## **Группировка полей сводной таблицы**
 
- Следующий пример кода загружает[образец файла Excel](64716818.xlsx) и выполняет группировку по первому сводному полю, используя[**Сводная таблица.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index)метод. Затем он обновляет и вычисляет данные сводной таблицы и сохраняет книгу как[выходной файл Excel](64716817.xlsx). На снимке экрана показано влияние примера кода на пример файла Excel. Как видно на скриншоте, первое сводное поле теперь сгруппировано по месяцам и кварталам.
+Приведенный ниже образец кода загружает [образец файла Excel](64716818.xlsx) и выполняет группировку по первому полю сводной таблицы с помощью метода [**PivotTable.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index). Затем он обновляет и вычисляет данные сводной таблицы и сохраняет книгу Excel как [выходной файл Excel](64716817.xlsx). На скриншоте показан эффект образца кода на образцовый файл Excel. Как видно на скриншоте, первое поле сводной таблицы теперь сгруппировано по месяцам и кварталам.
 
-![дело:изображение_альтернативный_текст](group-pivot-fields-in-the-pivot-table_1.png)
+![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **Образец кода**
 

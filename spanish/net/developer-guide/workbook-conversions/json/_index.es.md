@@ -1,20 +1,21 @@
-﻿---
-title: json
+---
+title: Json
 type: docs
 weight: 300
 url: /es/net/convert-workbook-to-json/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells admite la conversión de un libro de trabajo a un archivo Json (notación de objetos de JavaScript).
+Aspose.Cells admite la conversión de un libro de trabajo a un archivo Json (JavaScript Object Notation).
 
 {{% /alert %}}
 
-## **Convertir libro de Excel a JSON**
+## **Convertir Libro de Excel a JSON**
 
-El Aspose.Cells API brinda soporte para convertir hojas de cálculo al formato JSON. Para exportar el libro de trabajo a JSON, pase[**GuardarFormato.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) como segundo parámetro de[**Libro de trabajo.Guardar**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) método. También puede usar[**JsonGuardarOpciones**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) class para especificar configuraciones adicionales para exportar la hoja de trabajo a JSON.
+La API Aspose.Cells proporciona soporte para convertir hojas de cálculo a formato JSON. Para exportar el libro de trabajo a JSON, pase [**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) como segundo parámetro del método [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). También puede utilizar la clase [**JsonSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) para especificar ajustes adicionales para exportar la hoja de cálculo a JSON.
 
-El siguiente ejemplo de código muestra cómo exportar una hoja de trabajo activa a Json mediante el uso[**GuardarFormato.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) miembro de la enumeración. Por favor vea el código para convertir[archivo fuente](book1.xlsx) al[archivo Json de salida](book1.Json)generado por el código como referencia.
+El siguiente ejemplo de código demuestra la exportación de una hoja de cálculo activa a Json utilizando el miembro de enumeración [**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat). Consulta el código para convertir el archivo de origen [book1.xlsx] al archivo Json de salida [book1.Json] generado por el código como referencia.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 

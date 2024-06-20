@@ -1,23 +1,24 @@
-﻿---
-title: Marcatori immagine in Aspose.Cells
+---
+title: Marker immagine in Aspose.Cells
 type: docs
 weight: 20
 url: /it/net/image-markers-in-aspose-cells/
 ---
-I marcatori intelligenti Aspose.Cells supportano anche i marcatori immagine. Questa sezione mostra come inserire immagini utilizzando i marcatori intelligenti.
-## **Parametri dell'immagine**
-Parametri di marker intelligenti per la gestione delle immagini.
 
-- **Immagine:FitToCell** - Adatta automaticamente l'immagine all'altezza della riga e alla larghezza della colonna della cella.
-- **Immagine:ScalaN** - Ridimensiona l'altezza e la larghezza all'N percento.
-- **Immagine: Larghezza: Nin e Altezza: Nin** - Rendi l'immagine alta N pollici e larga N pollici. Puoi anche
- specificare le posizioni Left e Top (in punti).
+Gli smart marker di Aspose.Cells supportano anche i marker di immagini. Questa sezione ti mostra come inserire immagini utilizzando smart markers.
+## **Parametri dell'Immagine**
+Parametri smart marker per gestire le immagini.
 
-{{< highlight "csharp" >}}
+- **Immagine: AdattaACella** - Adatta automaticamente l'immagine all'altezza della riga e alla larghezza della colonna della cella.
+- **Immagine: ScalaN** - Scala altezza e larghezza al N percento.
+- **Immagine:Larghezza:Nin&Altezza:Nin** - Rappresenta l'immagine N pollici alta e larga. Puoi anche
+   specificare posizioni Sinistra e Superiore (in punti).
+
+{{< highlight csharp >}}
 
  //Get the image data.
 
-byte[]imageData = File.ReadAllBytes("Thumbnail.jpg");
+byte[] imageData = File.ReadAllBytes("Thumbnail.jpg");
 
 //Create a datatable.
 
@@ -35,7 +36,7 @@ dc.DataType = typeof(object);
 
 DataRow row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -45,7 +46,7 @@ imageData = File.ReadAllBytes("Desert.jpg");
 
 row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 

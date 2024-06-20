@@ -1,22 +1,23 @@
-﻿---
+---
 title: نسخ الصفوف والأعمدة في PHP
 type: docs
 weight: 30
 url: /ar/java/copying-rows-and-columns-in-php/
 ---
+
 ## **Aspose.Cells - نسخ الصفوف والأعمدة**
 ### **نسخ الصفوف**
-يوفر Aspose.Cells طريقة copyRow لفئة Cells. تنسخ هذه الطريقة جميع أنواع البيانات بما في ذلك الصيغ والقيم والتعليقات وتنسيقات الخلايا والخلايا المخفية والصور والكائنات الرسومية الأخرى من صف المصدر إلى صف الوجهة.
+توفر Aspose.Cells طريقة copyRow من فئة Cells. تقوم هذه الطريقة بنسخ جميع أنواع البيانات بما في ذلك الصيغ والقيم والتعليقات وتنسيقات الخلية والخلايا المخفية والصور وغيرها من الكائنات الرسومية الأخرى من الصف المصدر إلى الصف الوجهة.
 
 تأخذ طريقة copyRow المعلمات التالية:
 
-- الكائن المصدر Cells ،
-- فهرس صف المصدر و
-- فهرس صف الوجهة.
+- كائن الـCells المصدر،
+- فهرس الصف المصدر، و
+- فهرس الصف الوجهة.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_rows($dataDir)
 
@@ -46,17 +47,17 @@ url: /ar/java/copying-rows-and-columns-in-php/
 
 {{< /highlight >}}
 ### **نسخ الأعمدة**
-يوفر Aspose.Cells طريقة copyColumn لفئة Cells ، وتقوم هذه الطريقة بنسخ جميع أنواع البيانات ، بما في ذلك الصيغ - مع المراجع المحدثة - والقيم والتعليقات وتنسيقات الخلايا والخلايا المخفية والصور وكائنات الرسم الأخرى من العمود المصدر إلى العمود الوجهة.
+توفر Aspose.Cells طريقة copyColumn من فئة Cells، هذه الطريقة تقوم بنسخ جميع أنواع البيانات بما في ذلك الصيغ - بالمراجع المحدثة - والقيم والتعليقات وتنسيقات الخلية والخلايا المخفية والصور وغيرها من الكائنات الرسومية الأخرى من العمود المصدر إلى العمود الوجهة.
 
 تأخذ طريقة copyColumn المعلمات التالية:
 
-- الكائن المصدر Cells ،
-- فهرس عمود المصدر و
-- فهرس عمود الوجهة.
+- كائن الـCells المصدر،
+- فهرس العمود المصدر، و
+- فهرس العمود الوجهة.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function copy_columns($dataDir)
 
@@ -124,7 +125,7 @@ url: /ar/java/copying-rows-and-columns-in-php/
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**نسخ الصفوف والأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **نسخ الصفوف والأعمدة (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

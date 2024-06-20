@@ -1,59 +1,60 @@
 ---
-title: データの並べ替え
+title: データソート
 type: docs
 weight: 130
 url: /ja/net/sort-data-of-excel/
-description: Aspose.Cells for .NET API を使用してデータを並べ替える方法を学習します。
-keywords: Sort data in ascending or descending order, Sort data based on the background color
+description: Aspose.Cells for .NET APIを使用してデータをソートする方法を学ぶ。
+keywords: 昇順または降順でデータをソートし、背景色に基づいてデータをソートする。
 ---
+
 {{% alert color="primary" %}}
 
-データの並べ替えは、Excel の多くの便利な機能の 1 つです。これにより、ユーザーはデータを注文してスキャンしやすくなります。 Aspose.Cells を使用すると、開発者はワークシート データをアルファベット順または数値順に並べ替えることができます。これは、Microsoft Excel がデータを並べ替えるのと同じように機能します。
+データソーティングはMicrosoft Excelの多くの便利な機能の1つです。ユーザーはデータを整理してスキャンしやすくするためにデータを並べ替えることができます。Aspose.Cellsを使用すると、ワークシートのデータをアルファベット順または数値順に並べ替えることができます。
 
 {{% /alert %}}
 
-##  **Microsoft Excel でのデータの並べ替え**
+## **Microsoft Excel でのデータのソート**
 
-Microsoft Excel でデータを並べ替えるには:
+Microsoft Excel でデータをソートするには:
 
-1. 選択する**データ**から**選別**メニュー。 [並べ替え]ダイアログが表示されます。
-1. 並べ替えオプションを選択します。
+1. **ソート**メニューから**データ**を選択します。ソートダイアログが表示されます。
+1. ソートオプションを選択します。
 
-一般に、並べ替えはリスト (データが列に表示される連続したデータのグループとして定義) に対して実行されます。
+一般的に、ソートはリスト上で実行されます。リストは、データが列に表示される連続したグループと定義されます。
 
-##  **Aspose.Cells でデータを並べ替える**
+## **Aspose.Cells でのデータのソート**
 
- Aspose.Cells は、[**データソーター**](https://reference.aspose.com/cells/net/aspose.cells/datasorter)データを昇順または降順でソートするために使用されるクラス。このクラスには、Key1 ... Key3 や Order1 ... Order3 などのプロパティなど、いくつかの重要なメンバーがあります。これらのメンバーは、ソートされたキーを定義し、キーのソート順序を指定するために使用されます。
+Aspose.Cellsは、昇順または降順でデータをソートするために使用される[**DataSorter**](https://reference.aspose.com/cells/net/aspose.cells/datasorter)クラスを提供しています。このクラスには、Key1などの重要なメンバーがあります。これらのメンバーはソートされたキーを定義し、Keyの並べ替えを指定するために使用されます。
 
-データの並べ替えを実装する前に、キーを定義し、並べ替え順序を設定する必要があります。クラスが提供するのは、[**選別**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/sort/index)ワークシート内のセル データに基づいてデータの並べ替えを実行するために使用されるメソッド。
+データソートを実装する前に、キーを定義してソート順を設定する必要があります。このクラスは、ワークシート内のセルデータに基づいてデータのソートを実行するために使用される [**Sort**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/sort/index) メソッドを提供しています。
 
-の[**選別**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/sort/methods/1)メソッドは次のパラメータを受け入れます。
+[**Sort**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/sort/methods/1) メソッドは、以下のパラメータを受け入れます:
 
-- [**Aspose.Cells.Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)、基礎となるワークシートのセル。
-- [**Aspose.Cells.CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)、セルの範囲。データの並べ替えを適用する前に、セル領域を定義します。
+- [**Aspose.Cells.Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)、基になるワークシートのセル。
+- [**Aspose.Cells.CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)、セル範囲。データソーティングを適用する前にセル領域を定義します。
 
-この例では、Microsoft Excel で作成したテンプレート ファイル「Book1.xls」を使用します。以下のコードを実行すると、データが適切にソートされます。
+この例では、Microsoft Excelで作成した「Book1.xls」という名前のテンプレートファイルを使用します。以下のコードを実行した後、データが適切にソートされます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-DataSorting-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- *LeftToRight* を並べ替える場合は、[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortlefttoright)属性。
+もし*LeftToRight*でソートしたい場合は、[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortlefttoright)属性を使用します。
 
 {{% /alert %}}
 
-###  **データを背景色で並べ替える**
+### **背景色でデータをソートする**
 
-Excel には、背景色に基づいてデータを並べ替える機能が用意されています。同じ機能は、DataSorter を使用して Aspose.Cells を使用して提供されます。[**ソートオンタイプ**](https://reference.aspose.com/cells/net/aspose.cells/sortontype).CellColor は以下で使用できます。[**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey)背景色に基づいてデータを並べ替えます。指定された色を含むすべてのセル[**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey)、関数は SortOrder 設定に従って上または下に配置され、残りのセルの順序はまったく変更されません。
+Excelでは背景色に基づいてデータをソートする機能が提供されています。この機能はAspose.Cellsを使用してDataSorterで提供され、[**SortOnType**](https://reference.aspose.com/cells/net/aspose.cells/sortontype)によって[**AddKey()**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/addkey)で背景色に基づいてデータをソートすることができます。指定された色を含むすべてのセルは、SortOrderの設定と残りのセルの順序に従って、上部または下部に配置されます。
 
-この機能をテストするためにダウンロードできるサンプル ファイルは次のとおりです。
+これがこの機能のテストにダウンロードできるサンプルファイルです。
 
-[サンプルバックグラウンドファイル.xlsx](81920906.xlsx)
+[sampleBackGroundFile.xlsx](81920906.xlsx)
 
-[出力サンプルBackGroundFile.xlsx](81920907.xlsx)
+[outputsampleBackGroundFile.xlsx](81920907.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithBackgroundColor-1.cs" >}}
 
-##  **アドバンストトピック**
-- [カスタム並べ替えリストを使用して列内のデータを並べ替える](/cells/ja/net/sort-data-in-column-with-custom-sort-list/)
-- [データのソート時のソート警告の指定](/cells/ja/net/specifying-sort-warning-while-sorting-data/)
+## **高度なトピック**
+- [カスタムソートリストを使用した列内のデータの並べ替え](/cells/ja/net/sort-data-in-column-with-custom-sort-list/)
+- [データソート時の警告の指定](/cells/ja/net/specifying-sort-warning-while-sorting-data/)

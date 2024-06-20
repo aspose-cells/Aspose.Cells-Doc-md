@@ -1,27 +1,28 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.3.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.3.0
 type: docs
 weight: 110
 url: /de/java/public-api-changes-in-aspose-cells-8-3-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.2.2 zu 8.3.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 8.2.2 auf 8.3.0, die für Modul-/Anwendungs-Entwickler interessant sein könnten.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Eigenschaft WorkbookSettings.AutoRecover Hinzugefügt**
-Der Getter/Setter für die Eigenschaft AutoRecover wurde der WorkbookSettings-Klasse hinzugefügt, damit Entwickler die Option der automatischen Wiederherstellung für die Tabellenkalkulationen in ihren Anwendungen abrufen/festlegen können.
+## **Hinzugefügte APIs**
+### **Eigenschaft WorkbookSettings.AutoRecover hinzugefügt**
+Der Getter/Setter für die Eigenschaft AutoRecover wurde der WorkbookSettings-Klasse hinzugefügt, um Entwicklern zu ermöglichen, die Option der automatischen Wiederherstellung für ihre Tabellenkalkulationen in ihren Anwendungen zu erhalten/setzen. 
 
 {{% alert color="primary" %}} 
 
- Bitte überprüfen Sie den Artikel[Einstellen der automatischen Wiederherstellung der Tabellenkalkulation](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook) für mehr Informationen.
+Bitte prüfen Sie den Artikel [Einstellen der Tabellenkalkulation für automatische Wiederherstellung](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook) für weitere Informationen.
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -31,12 +32,12 @@ settings.setAutoRecover(true);
 
 {{< /highlight >}}
 
-### **Eigenschaft WorkbookSettings.CrashSave Hinzugefügt**
-Die Getter/Setter für die Eigenschaft CrashSave wurden der WorkbookSettings-Klasse hinzugefügt. Die Eigenschaft des booleschen Typs gibt an, ob die Anwendung die Arbeitsmappendatei zuletzt nach einem Absturz gespeichert hat.
+### **Eigenschaft WorkbookSettings.CrashSave hinzugefügt**
+Der Getter/Setter für die Eigenschaft CrashSave wurde der WorkbookSettings-Klasse hinzugefügt. Diese boolesche Eigenschaft gibt an, ob die Anwendung die Arbeitsmappe nach einem Absturz zuletzt gespeichert hat.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -46,12 +47,12 @@ System.out.println(settings.getCrashSave());
 
 {{< /highlight >}}
 
-### **Eigenschaft WorkbookSettings.DataExtractLoad Hinzugefügt**
-Die Getter/Setter für die Eigenschaft DataExtractLoad wurden der WorkbookSettings-Klasse hinzugefügt, damit die Entwickler die Informationen zur letzten Wiederherstellung abrufen/festlegen können. Wenn die Eigenschaft DataExtractLoad true zurückgibt, bedeutet dies, dass die Datenwiederherstellung für die Arbeitsmappendatei durchgeführt wurde.
+### **Eigenschaft WorkbookSettings.DataExtractLoad hinzugefügt**
+Der Getter/Setter für die Eigenschaft DataExtractLoad wurde der WorkbookSettings-Klasse hinzugefügt, um den Entwicklern die Information zur letzten Wiederherstellung zu erhalten/setzen. Wenn die Eigenschaft DataExtractLoad true zurückgibt, deutet dies darauf hin, dass die Datenwiederherstellung in der Arbeitsmappendatei durchgeführt wurde.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -61,12 +62,12 @@ System.out.println(settings.getDataExtractLoad());
 
 {{< /highlight >}}
 
-### **Eigenschaft WorkbookSettings.RepairLoad Hinzugefügt**
-Die Getter/Setter für die Eigenschaft RepairLoad wurden der WorkbookSettings-Klasse hinzugefügt. Die Eigenschaft des booleschen Typs gibt an, ob das Arbeitsblatt in der letzten Ladesitzung mit der Excel-Anwendung repariert wurde.
+### **Eigenschaft WorkbookSettings.RepairLoad hinzugefügt**
+Der Getter/Setter für die Eigenschaft RepairLoad wurde der WorkbookSettings-Klasse hinzugefügt. Diese boolesche Eigenschaft gibt an, ob die Tabellenkalkulation in der letzten Ladesitzung mit der Excel-Anwendung repariert wurde.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -77,11 +78,11 @@ System.out.println(settings.getRepairLoad());
 {{< /highlight >}}
 
 ### **Eigenschaft TxtLoadOptions.KeepExactFormat hinzugefügt**
-Der TxtLoadOptions-Klasse wurde die Eigenschaft KeepExactFormat hinzugefügt, die angibt, ob die exakte Formatierung für den Zellenwert beibehalten werden soll, wenn String/Text in Zahlen oder DateTime konvertiert wird. Diese Eigenschaft wurde hinzugefügt, um dem Verhalten der MS Excel-Anwendung beim Laden von DateTime- oder numerischen Werten aus CSV-Dateien zu entsprechen. Um das Verhalten von MS Excel zu simulieren, setzen Sie die KeepExactFormat-Eigenschaft auf „false“, während der Standardwert „true“ ist, sodass der Zellenwert als Zeichenfolge in der Datei „CSV“ formatiert wird.
+Die Eigenschaft KeepExactFormat wurde der TxtLoadOptions-Klasse hinzugefügt, die angibt, ob das genaue Formatieren für den Zellwert beibehalten werden soll, wenn ein String/Text in Zahlen oder Datum/Uhrzeit konvertiert wird. Diese Eigenschaft wurde hinzugefügt, um das Verhalten der MS Excel-Anwendung beim Laden von Datum/Uhrzeit- oder numerischen Werten aus CSV-Dateien nachzubilden. Um das Verhalten von MS Excel zu simulieren, setzen Sie die Eigenschaft KeepExactFormat auf false, während der Standardwert true ist, sodass der Zellwert als String in der CSV-Datei formatiert wird.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  TxtLoadOptions options = new TxtLoadOptions();
 
@@ -91,18 +92,18 @@ Workbook book = new Workbook("sample.csv", options);
 
 {{< /highlight >}}
 
-### **Eigenschaft Shape.ID hinzugefügt**
-In v8.3.0 wurde der Getter/Setter für die Eigenschaft Shape.Id hinzugefügt, um jedes Formobjekt in einer bestimmten Tabelle eindeutig zu identifizieren. Diese neue Eigenschaft hilft auch bei der eindeutigen Identifizierung von Diagrammobjekten in einer Tabelle, wie unten gezeigt.
+### **Eigenschaft Shape.Id hinzugefügt**
+Die v8.3.0 hat den Getter/Setter für die Eigenschaft Shape.Id hinzugefügt, um jedes Formobjekt in einer bestimmten Tabellenkalkulation eindeutig zu identifizieren. Diese neue Eigenschaft hilft auch dabei, Diagrammobjekte in einer Tabellenkalkulation eindeutig zu identifizieren, wie unten dargestellt.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Arbeitsbuch book = new Workbook("sample.xlsx");
+ Workbook book = new Workbook("sample.xlsx");
 
-ChartCollection-Diagramme = book.getWorksheets().get(0).getCharts();
+ChartCollection charts = book.getWorksheets().get(0).getCharts();
 
- for(int index = 0; index<= charts.getCount(); index++)
+for(int index = 0; index <= charts.getCount(); index++)
 
 {
 
@@ -116,12 +117,12 @@ ChartCollection-Diagramme = book.getWorksheets().get(0).getCharts();
 
 {{< /highlight >}}
 
-### **Methode PlotArea.setPositionAuto Hinzugefügt**
-Die Methode setPositionAuto wurde der Klasse PlotArea hinzugefügt, die dabei hilft, den Plotbereich des Diagramms in den automatischen Modus zu versetzen.
+### **Methode setPositionAuto zur PlotArea-Klasse hinzugefügt**
+Die Methode setPositionAuto wurde der PlotArea-Klasse hinzugefügt, die beim Einstellen des Diagrammbereichs auf den automatischen Modus hilft.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 

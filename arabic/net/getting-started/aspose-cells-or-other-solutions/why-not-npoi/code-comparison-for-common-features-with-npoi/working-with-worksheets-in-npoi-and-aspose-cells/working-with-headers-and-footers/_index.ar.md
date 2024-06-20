@@ -1,13 +1,14 @@
-﻿---
-title: العمل مع الرؤوس والتذييلات
+---
+title: العمل مع رؤوس الصفحات والتذييلات
 type: docs
 weight: 110
 url: /ar/net/working-with-headers-and-footers/
 ---
-## **Aspose.Cells - التعامل مع الرؤوس والتذييلات**
+
+## **Aspose.Cells - العمل مع رؤوس الصفحات والتذييلات**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -49,10 +50,10 @@ workbook.Save("../../data/headerfooter.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - العمل مع الرؤوس والتذييلات**
+## **NPOI - HSSF XSSF - العمل مع رؤوس الصفحات والتذييلات**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -73,13 +74,13 @@ wb.Write(sw);
 sw.Close(); 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**العمل مع الرؤوس والتذييلات** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل **العمل مع رؤوس الصفحات والتذييلات** من أي من المواقع الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+لمزيد من التفاصيل، قم بزيارة [العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

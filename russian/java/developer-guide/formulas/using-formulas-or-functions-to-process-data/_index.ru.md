@@ -1,53 +1,54 @@
-﻿---
+---
 title: Использование формул или функций для обработки данных
 type: docs
 weight: 5
 url: /ru/java/get-and-set-formula/
 ---
+
 {{% alert color="primary" %}}
 
-Одной из привлекательных особенностей Excel Microsoft является его способность обрабатывать данные с помощью формул и функций. Microsoft Excel предоставляет набор встроенных функций и формул, которые помогают пользователям быстро выполнять сложные вычисления. Aspose.Cells также предоставляет огромный набор встроенных функций и формул, которые помогают разработчикам легко вычислять значения. Aspose.Cells также поддерживает дополнительные функции. Кроме того, Aspose.Cells поддерживает массив и формулы R1C1 в Aspose.Cells.
+Одной из убедительных особенностей Microsoft Excel является его способность обрабатывать данные с помощью формул и функций. Microsoft Excel предоставляет набор встроенных функций и формул, которые помогают пользователям быстро выполнять сложные вычисления. Aspose.Cells также предоставляет огромный набор встроенных функций и формул, которые помогают разработчикам легко вычислять значения. Кроме того, Aspose.Cells поддерживает функции дополнений. Кроме того, Aspose.Cells поддерживает массивные и R1C1 формулы в Aspose.Cells.
 
 {{% /alert %}}
 
 ## **Использование формул и функций**
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) класс предоставляет[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) коллекция. Каждый элемент в[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) коллекция представляет собой объект[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)учебный класс.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) содержит коллекцию [**Worksheets**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets), которая позволяет получить доступ к каждому листу книги Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) предоставляет коллекцию [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells). Каждый элемент в коллекции [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) представляет объект класса [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell).
 
- Можно применять формулы к ячейкам, используя свойства и методы, предлагаемые[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)класс, более подробно обсуждаемый ниже.
+Можно применять формулы к ячейкам с использованием свойств и методов, предлагаемых классом [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell), о котором подробнее рассказано ниже.
 
 - [Использование встроенных функций](/cells/ru/java/using-formulas-or-functions-to-process-data/#using-built-in-functions).
-- [Использование дополнительных функций](/cells/ru/java/using-formulas-or-functions-to-process-data/#using-add-in-functions).
-- [Работа с формулами массива](/cells/ru/java/using-formulas-or-functions-to-process-data/#using-array-formula).
+- [Использование функций дополнений](/cells/ru/java/using-formulas-or-functions-to-process-data/#using-add-in-functions).
+- [Работа с массивными формулами](/cells/ru/java/using-formulas-or-functions-to-process-data/#using-array-formula)
 - [Создание формулы R1C1](/cells/ru/java/using-formulas-or-functions-to-process-data/#using-r1c1-formula).
 
 ## **Использование встроенных функций**
 
- Встроенные функции или формулы предоставляются в виде готовых функций, чтобы сократить усилия и время разработчиков. Видеть[список встроенных функций](/cells/ru/java/supported-formula-functions/). Функции перечислены в алфавитном порядке. В будущем будет поддерживаться больше функций.
+Встроенные функции или формулы предоставляются в виде готовых функций для уменьшения усилий и времени разработчиков. См. [список встроенных функций](/cells/ru/java/supported-formula-functions/). Функции перечислены в алфавитном порядке. Будут поддерживаться дополнительные функции в будущем.
 
- Aspose.Cells поддерживает большинство формул или функций, предлагаемых Microsoft Excel. Разработчики могут использовать эти формулы через API или[дизайнерская таблица](/cells/ru/java/what-is-a-designer-spreadsheet/). Aspose.Cells поддерживает огромный набор математических, строковых, логических, дат/времени, статистических, баз данных, поисковых и справочных формул.
+Aspose.Cells поддерживает большинство формул или функций, предлагаемых Microsoft Excel. Разработчики могут использовать эти формулы через API или [электронную таблицу дизайнера](/cells/ru/java/what-is-a-designer-spreadsheet/). Aspose.Cells поддерживает огромный набор математических, строковых, логических, даты/времени, статистических, баз данных, поиска и ссылочных формул.
 
- Использовать[**Формула**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)собственность[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) класс, чтобы добавить формулу в ячейку.**Сложные формулы**, Например
+Используйте свойство [**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) класса [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) для добавления формулы в ячейку. **Сложные формулы**, например
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  = H7*(1+IF(P7 = $L$3,$M$3, (IF(P7=$L$4,$M$4,0))))
 
 {{< /highlight >}}
 
-, также поддерживаются в Aspose.Cells. При применении формулы к ячейке всегда начинайте строку со знака равенства (=), как при создании формулы в Microsoft Excel, и используйте запятую (,) для разделения параметров функции.
+, также поддерживаются в Aspose.Cells. Применяя формулу к ячейке, всегда начинайте строку с знака равенства (=), как при создании формулы в Microsoft Excel, и используйте запятую (,) для разделения параметров функции.
 
- В приведенном ниже примере сложная формула применяется к первой ячейке рабочего листа.[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) коллекция. В формуле используется встроенный**ЕСЛИ** Функция предоставлена Aspose.Cells.
+В приведенном ниже примере к первой ячейке коллекции [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) рабочего листа применяется сложная формула. Формула использует встроенную функцию **IF**, предоставленную Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingBuiltinfunction-1.java" >}}
 
-## **Использование дополнительных функций**
+## **Использование Дополнительных Функций**
 
- У нас могут быть некоторые пользовательские формулы, которые мы хотим включить в качестве надстройки Excel. При установке[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) Встроенные функции работают нормально, однако необходимо установить пользовательские функции или формулы с помощью дополнительных функций.
+Мы можем иметь некоторые пользовательские формулы, которые мы хотим включить как дополнение Excel. При установке [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) встроенные функции работают нормально, однако есть необходимость установить пользовательские функции или формулы с помощью дополнительных функций.
 
- Aspose.Cells предоставляет возможности для регистрации дополнительных функций с использованием[**Рабочие листы.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). После этого, когда мы установили[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) anyFunctionFromAddIn, выходной файл Excel содержит вычисленное значение из функции AddIn.
+Aspose.Cells предоставляет возможность зарегистрировать дополнительные функции, используя [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). После того как мы установим [**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) = anyFunctionFromAddIn, выходной файл Excel будет содержать вычисленное значение из функции AddIn.
 
-После этого необходимо загрузить файл XLAM для регистрации функции надстройки в приведенном ниже образце кода. Точно так же можно загрузить выходной файл «test_udf.xlsx» для проверки вывода.
+Для регистрации функции дополнения в приведенном ниже образцовом коде следует загрузить файл XLAM. Аналогично, выходной файл "test_udf.xlsx" можно загрузить для проверки вывода.
 
 [TestUDF.xlam](TestUDF.xlam)
 
@@ -55,27 +56,27 @@ url: /ru/java/get-and-set-formula/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Formulas-RegisterAndCallFuncFromAddIn-1.java" >}}
 
-## **Использование формулы массива**
+## **Использование Массивной Формулы**
 
-Формулы массива — это формулы, которые работают с массивами, а не с отдельными числами, в качестве аргументов функций, составляющих формулу. Когда отображается формула массива, она заключена в фигурные скобки ({}), как показано ниже.
+Массивные формулы - это формулы, которые работают с массивами, а не с отдельными числами, как аргументами для функций, составляющих формулу. Когда массивная формула отображается, она окружается фигурными скобками ({}) как показано ниже.
 
-**Установка формулы массива в ячейке G2** 
+**Установка массивной формулы на ячейку G2** 
 
-![дело:изображение_альтернативный_текст](using-formulas-or-functions-to-process-data_1.png)
+![todo:image_alt_text](using-formulas-or-functions-to-process-data_1.png)
 
-Некоторые функции Excel Microsoft возвращают массивы значений. Чтобы вычислить несколько результатов с помощью формулы массива, введите массив в диапазон ячеек с тем же количеством строк и столбцов, что и аргументы массива.
+Некоторые функции Microsoft Excel возвращают массивы значений. Для вычисления нескольких результатов с помощью массивной формулы введите массив в диапазон ячеек с тем же количеством строк и столбцов, что и аргументы массива.
 
- Формулу массива можно применить к ячейке, вызвав метод[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) учебный класс'[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int) ) метод.[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) принимает следующие параметры:
+Возможно применить массивную формулу к ячейке, вызвав метод класса [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)). Метод [**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) принимает следующие параметры:
 
-- **Формула массива**формула массива.
-- **Количество рядов**, количество строк для заполнения результата формулы массива.
-- **Число столбцов**, количество столбцов для заполнения результата формулы массива.
+- **Массивная Формула**, массивная формула.
+- **Количество строк**, количество строк для заполнения результата массивной формулы.
+ - **Количество столбцов**, количество столбцов для заполнения результата массивной формулы.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingArrayFunction-1.java" >}}
 
 ## **Использование формулы R1C1**
 
- Применить**R1C1** формула стиля ссылки на ячейку с[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) учебный класс'[**setR1C1Формула**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#R1C1Formula)имущество.
+Примените формулу стиля ссылки R1C1 к ячейке с [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) классом [**setR1C1Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#R1C1Formula) свойства.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
 

@@ -1,17 +1,20 @@
 ---
-title: ワークシートからピボットテーブルを削除する
+title: ワークシートからのピボットテーブルの削除
 type: docs
 weight: 60
 url: /ja/python-net/delete-pivot-table-from-a-worksheet/
-description: Python via .NET Excel ワークシートのピボットテーブルを削除するコード
-keywords: Python via .NET remove pivot table from worksheet, Python via .NET remove pivot table from excel, how to delete pivot table with Python via .NET, delete pivot table with Python via .NET, delete pivot table from excel with Python via .NET, Python via .NET delete pivot table, Python via .NET remove pivot table, remove pivot table, delete pivot table, how to delete pivot table
+description: ExcelワークシートのPivotTableを削除するPython via .NETのコード
+keywords: Aspose.Cells for Python Excel、Excel Pythonライブラリ、Python via .NETワークシートからPivotTableを削除する方法、Python via .NETワークシートからPivotTableを削除する方法、Python via .NETでPivotTableを削除する方法、Python via .NETでPivotTableを削除する、PivotTableを削除する方法、PivotTableを削除する、PivotTableの削除、PivotTableの削除方法
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET は、ワークシートからピボット テーブルを削除または削除する機能を提供します。ピボット テーブル オブジェクトまたはピボット テーブルの位置を使用して、ピボット テーブルを削除できます。をご利用ください。[**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/)ピボットテーブルオブジェクトを使用してピボットテーブルを削除するメソッドと、[**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool)ピボット テーブル コレクション内の位置を使用してピボット テーブル オブジェクトを削除するメソッド。
+Aspose.Cells for Python via .NETでは、ワークシートからPivot Tableを削除または削除する機能が提供されます。ピボットテーブルオブジェクトまたはピボットテーブルの位置を使用してピボットテーブルを削除できます。ピボットテーブルオブジェクトを使用してピボットテーブルを削除するには[**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/)メソッドを使用し、ピボットテーブルのポジションでピボットテーブルオブジェクトを削除するには[**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool)メソッドを使用してください。
 
 {{% /alert %}}
 
-次のサンプル コードでは、ワークシートから 2 つのピボット テーブルを削除します。まず、次を使用してピボットテーブルを削除します[**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/)メソッドを使用してピボットテーブルを削除します[**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool)方法
+## **Aspose.Cells for Python Excelライブラリを使用したワークシートからピボットテーブルを削除する方法**
+
+次のサンプルコードでは、ワークシートから2つのピボットテーブルを削除する方法が示されています。最初に[**Worksheet.pivot_tables.remove(pivot_table)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/)メソッドを使用してピボットテーブルを削除し、次に[**Worksheet.pivot_tables.remove_at(index, keep_data)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottablecollection/remove_at/#int-bool)メソッドを使用してピボットテーブルを削除します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTablesAndPivotCharts-RemovePivotTable-RemovePivotTableFromWorksheet.py" >}}

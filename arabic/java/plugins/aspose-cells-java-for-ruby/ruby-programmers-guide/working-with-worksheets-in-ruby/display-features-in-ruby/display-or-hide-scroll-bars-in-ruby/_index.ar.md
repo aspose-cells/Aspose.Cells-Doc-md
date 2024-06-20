@@ -1,16 +1,17 @@
-﻿---
-title: عرض أو إخفاء أشرطة التمرير في روبي
+---
+title: عرض أو إخفاء أشرطة التمرير في Ruby
 type: docs
 weight: 30
 url: /ar/java/display-or-hide-scroll-bars-in-ruby/
 ---
+
 ## **Aspose.Cells - عرض أو إخفاء أشرطة التمرير**
 ### **إخفاء أشرطة التمرير**
- لإخفاء أشرطة التمرير باستخدام ملفات**Aspose.Cells Java لروبي** ، مكالمة**أشرطة التمرير** وحدة.
+لإخفاء أشرطة التمرير باستخدام **Aspose.Cells جافا لـ Ruby**، اتصل بوحدة **displayhidescrollbars**.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,11 +35,11 @@ puts "Scroll Bars are now hidden, please check the output file."
 
 {{< /highlight >}}
 ### **جعل أشرطة التمرير مرئية**
-اجعل أشرطة التمرير مرئية عن طريق تعيين أساليب setVerticalScrollBarHidden () لفئة Workbook أو setHorizontalScrollBarHidden () على true.
+جعل أشرطة التمرير مرئية عن طريق ضبط methods الكائن من الصفحة Workbook باستخدام setVerticalScrollBarHidden() أو setHorizontalScrollBarHidden() إلى true.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the vertical scroll bar of the Excel file
 
@@ -49,7 +50,7 @@ workbook.getSettings().setVScrollBarVisible(true)
 workbook.getSettings().setHScrollBarVisible(true)
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**عرض أو إخفاء أشرطة التمرير (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **إظهار أو إخفاء أشرطة التمرير (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidescrollbars.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidescrollbars.rb)

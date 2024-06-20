@@ -1,39 +1,42 @@
-﻿---
-title: نسخ صفوف وأعمدة GridWeb
+---
+title: نسخ الصفوف والأعمدة في شبكة الجريد
 type: docs
 weight: 80
-url: /ar/net/copy-gridweb-rows-and-columns/
+url: /ar/net/aspose-cells-gridweb/copy-gridweb-rows-and-columns/
+keywords: شبكة الجريد، نسخ
+description: يقدم هذا المقال كيفية نسخ الصفوف والأعمدة في شبكة الجريد.
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells. يوفر مكون GridWeb وسيلة لنسخ الصف والعمود أثناء استخدام فئة GridCells. توضح هذه المقالة استخدام واجهات برمجة التطبيقات المكشوفة بواسطة Aspose.Cells.GridWeb لنسخ الصفوف والأعمدة على واجهة GridWeb.
+توفر مكونات Aspose.Cells.GridWeb وسيلة لنسخ الصف والعمود أثناء استخدام فئة GridCells. يبرز هذا المقال استخدام واجهات برمجة التطبيقات التي تتيحها Aspose.Cells.GridWeb لنسخ الصفوف والأعمدة على واجهة GridWeb. 
 
-ستقوم أساليب GridCells.CopyRow و GridCells.CopyColumn و GridCells.CopyRows & GridCells.CopyColumns بنسخ المحتويات والتصميم والصيغ من صف المصدر والعمود إلى الوجهة.
+ستقوم طرق GridCells.CopyRow و GridCells.CopyColumn و GridCells.CopyRows و GridCells.CopyColumns بنسخ محتويات الصفوف والأعمدة بما في ذلك النمط والصيغ من الصف والعمود المصدرين إلى الوجهة.
 
 {{% /alert %}} 
 ## **نسخ الصفوف والأعمدة**
- إذا لم تكن على دراية بمكون Aspose.Cells.GridWeb ، فنحن نقترح عليك بشدة التحقق من[مقدمة إلى Aspose.Cells.GridWeb](https://docs.aspose.com/cells/net/browsers-capabilities/) ومقال مفصل عن[كيفية إضافة مكون Aspose.Cells.GridWeb في تطبيق WebForms](https://docs.aspose.com/cells/net/add-gridweb-to-web-form/).
+إذا كنت لا تعرف بالفعل مكون Aspose.Cells.GridWeb، فإننا نقترح بشدة عليك التحقق من [مقدمة إلى Aspose.Cells.GridWeb](https://docs.aspose.com/cells/net/aspose-cells-gridweb/browsers-capabilities/) والمقال المفصل حول [كيفية إضافة مكون Aspose.Cells.GridWeb في تطبيق WebForms](https://docs.aspose.com/cells/net/aspose-cells-gridweb/add-gridweb-to-web-form/).
 ### **نسخ صف واحد**
-من أجل الحفاظ على المثال بسيطًا ، تستخدم المقالة جدول بيانات موجودًا بصف واحد وصيغة بسيطة تلخص كل القيم في الصف. إليك كيفية عرض جدول البيانات في واجهة Aspose.Cells.GridWeb قبل نسخ الصف.
+من أجل الابقاء على المثال بسيطًا، يستخدم المقال جدول بيانات موجود بصف واحد وصيغة بسيطة تقوم بجمع جميع القيم في الصف. ها هي كيفية عرض جدول البيانات في واجهة Aspose.Cells.GridWeb قبل نسخ الصف.
 
-![ما يجب القيام به: image_بديل_نص](copy-gridweb-rows-and-columns_1.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_1.png)
 
-مقتطف الشفرة بسيط كما هو موضح أدناه. يصل إلى كائن GridCells بترتيب ورقة العمل النشط لعمل نسخة من الصف الأول إلى الصف التالي.
+مقطع الشيفرة بسيط كما هو موضح أدناه. إنه يستخدم كائن GridCells في ترتيب ورقة البيانات النشطة لنسخ الصف الأول إلى الصف التالي.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-CopyRowsColumns.aspx-CopyRow.cs" >}}
 
 
-إليك كيفية تعامل Aspose.Cells.GridWeb مع عملية نسخ صف.
+ها هو كيف تبدو Aspose.Cells.GridWeb بعد عملية نسخ الصف.
 
-![ما يجب القيام به: image_بديل_نص](copy-gridweb-rows-and-columns_2.png)
-### **نسخ عمود واحد**
-يستخدم المثال التالي جدول بيانات موجود بعمود واحد وصيغة بسيطة تجمع كل القيم الموجودة في العمود. إليك كيفية عرض جدول البيانات في واجهة Aspose.Cells.GridWeb قبل نسخ العمود.
+![todo:image_alt_text](copy-gridweb-rows-and-columns_2.png)
+### **نسخ العمود الفردي**
+يستخدم المثال التالي جدول بيانات موجود بعمود واحد وصيغة بسيطة تقوم بجمع جميع القيم في العمود. ها هي كيفية عرض جدول البيانات في واجهة Aspose.Cells.GridWeb قبل نسخ العمود.
 
-![ما يجب القيام به: image_بديل_نص](copy-gridweb-rows-and-columns_3.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_3.png)
 
-على غرار المثال أعلاه ، يصل مقتطف الشفرة التالي إلى كائن GridCells لترتيب ورقة العمل النشطة لعمل نسخة من العمود الأول إلى العمود التالي.
+بالمثل للمثال أعلاه، يقوم مقطع الشيفرة التالي بالوصول إلى كائن GridCells في ترتيب ورقة البيانات النشطة لنسخ العمود الأول إلى العمود التالي.
 
 
 
@@ -41,17 +44,17 @@ url: /ar/net/copy-gridweb-rows-and-columns/
 
 
 
-إليك كيفية تعامل Aspose.Cells.GridWeb مع عملية نسخ العمود.
+ها هو كيف تبدو Aspose.Cells.GridWeb بعد عملية نسخ العمود.
 
-![ما يجب القيام به: image_بديل_نص](copy-gridweb-rows-and-columns_4.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_4.png)
 
 {{% alert color="primary" %}} 
 
-يمكنك استخدام أساليب GridCells.CopyRow & GridCells.CopyColumn في حلقة لنسخ صف وعمود المصدر إلى صفوف وأعمدة متعددة على التوالي.
+يمكنك استخدام طرق GridCells.CopyRow و GridCells.CopyColumn في حلقة لنسخ الصف المصدر والعمود إلى عدة صفوف وأعمدة على التوالي.
 
 {{% /alert %}} 
-### **نسخ صفوف متعددة**
-من الممكن أيضًا نسخ صفوف متعددة إلى وجهة جديدة أثناء استخدام طريقة GridCells.CopyRows ، والتي تتطلب معلمة إضافية من النوع الصحيح لتحديد عدد صفوف المصدر المراد نسخها.
+### **نسخ الصفوف المتعددة**
+من الممكن أيضًا نسخ صفوف متعددة إلى وجهة جديدة باستخدام طريقة GridCells.CopyRows، التي تأخذ معلمة إضافية من نوع integer لتحديد عدد الصفوف المصدرية التي يجب نسخها.
 
 
 
@@ -59,13 +62,13 @@ url: /ar/net/copy-gridweb-rows-and-columns/
 
 
 
-هنا كيف تبدو Aspose.Cells.GridWeb قبل وبعد عملية نسخ الصفوف.
+هكذا يبدو Aspose.Cells.GridWeb قبل وبعد عملية نسخ الصفوف.
 
-![ما يجب القيام به: image_بديل_نص](copy-gridweb-rows-and-columns_5.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_5.png)
 
-![ما يجب القيام به: image_بديل_نص](copy-gridweb-rows-and-columns_6.png)
-### **نسخ أعمدة متعددة**
-توفر فئة GridCells أيضًا طريقة CopyColumns ، والتي تأخذ معلمة إضافية من النوع الصحيح لتحديد عدد أعمدة المصدر المراد نسخها.
+![todo:image_alt_text](copy-gridweb-rows-and-columns_6.png)
+### **نسخ الأعمدة المتعددة**
+تقدم فئة GridCells أيضًا طريقة CopyColumns التي تأخذ معها معاملا إضافيًا من نوع العدد لتحديد عدد الأعمدة المصدرية التي سيتم نسخها.
 
 
 
@@ -73,8 +76,8 @@ url: /ar/net/copy-gridweb-rows-and-columns/
 
 
 
-هنا كيف تبدو Aspose.Cells.GridWeb قبل وبعد عملية نسخ الصفوف.
+هكذا يبدو Aspose.Cells.GridWeb قبل وبعد عملية نسخ الصفوف.
 
-![ما يجب القيام به: image_بديل_نص](copy-gridweb-rows-and-columns_7.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_7.png)
 
-![ما يجب القيام به: image_بديل_نص](copy-gridweb-rows-and-columns_8.png)
+![todo:image_alt_text](copy-gridweb-rows-and-columns_8.png)

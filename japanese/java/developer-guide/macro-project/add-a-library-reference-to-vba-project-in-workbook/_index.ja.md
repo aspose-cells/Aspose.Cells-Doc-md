@@ -1,23 +1,24 @@
 ---
-title: ワークブック内の VBA プロジェクトへのライブラリ参照を追加します。
+title: ワークブックのVBAプロジェクトにライブラリの参照を追加
 type: docs
 weight: 10
 url: /ja/java/add-a-library-reference-to-vba-project-in-workbook/
-description: Aspose.Cells for Java API を通じて、ワークブック内の VBA プロジェクトにライブラリ参照を追加する方法を学習します。
-keywords: How to Add a library reference to VBA project in workbook in Java, Insert a library reference to VBA project in workbook using Java, Java Set library reference to VBA project in workbook. 
+description: Aspose.Cells for Java APIを介してワークブックのVBAプロジェクトにライブラリの参照を追加する方法を学ぶ。
+keywords: ワークブックにVBAプロジェクトへのライブラリの参照を追加する方法、Javaを使用してワークブックにVBAプロジェクトへのライブラリの参照を追加する方法、Javaを使用してVBAプロジェクトにライブラリの参照を設定する方法。 
 ---
+
 {{% alert color="primary" %}}
 
- Microsoft Excel では、**[ツール] > [参照...]**手動で。次のダイアログ ボックスが開き、既存の参照から選択するか、自分でライブラリを参照することができます。
+Microsoft Excelでは、**ツール > 参照設定**をクリックして、VBAプロジェクトにライブラリの参照を追加することができます。手動で行うことにより、既存の参照から選択したり、独自のライブラリを参照したりすることができます。
 
 ![todo:image_alt_text](add-a-library-reference-to-vba-project-in-workbook_1.png)
 
-ただし、場合によっては、コードを通じて VBA プロジェクトにライブラリ参照を追加または登録する必要があります。 Aspose.Cellsを使用して行うことができます[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)） 方法。
+ただし、時々、コードを使用してVBAプロジェクトにライブラリの参照を追加または登録する必要があります。Aspose.Cellsの[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String))メソッドを使用して行うことができます。
 
 {{% /alert %}}
 
-##  **ワークブック内の VBA プロジェクトにライブラリ参照を追加する方法**
+## **ブック内のVBAプロジェクトへのライブラリの参照の追加方法**
 
-次のサンプル コードは、ワークブックの VBA プロジェクトに 2 つのライブラリ参照を追加または登録します。[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)） 方法。
+次のサンプルコードは、ブックのVBAプロジェクトに2つのライブラリ参照を追加または登録します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddLibraryReference-AddLibraryReference.java" >}}

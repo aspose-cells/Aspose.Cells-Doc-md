@@ -1,47 +1,48 @@
 ---
-title: Excel ワークブックを PDF に変換
+title: ExcelワークブックをPDFに変換する
 type: docs
 weight: 80
 url: /ja/cpp/convert-excel-workbook-to-pdf/
 ---
-##  **Excel ワークブックを PDF に変換する**
-PDF ファイルは、組織、政府部門、個人の間で文書を交換するために広く使用されています。これは標準のドキュメント形式であり、ソフトウェア開発者はよく Microsoft Excel ファイルを PDF ドキュメントに変換する方法を見つけるように求められます。
 
-Aspose.Cells は、Excel ファイルから PDF への変換をサポートし、変換時に高い視覚的忠実度を維持します。
+## **ExcelワークブックをPDFに変換する**
+PDFファイルは、組織、政府部門、個人間で文書を交換するために広く使用されています。これは標準のドキュメント形式であり、ソフトウェア開発者はしばしばMicrosoft ExcelファイルをPDFドキュメントに変換する方法を見つけるよう求められます。
+
+Aspose.Cellsは、ExcelファイルをPDFに変換する機能をサポートし、変換時に高い視覚的忠実度を維持します。
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells は、API とバージョン番号に関する情報を出力ドキュメントに直接書き込みます。たとえば、Document を PDF にレンダリングすると、Aspose.Cells for C++ が**応用**値「Aspose.Cells」を持つフィールドと**PDF プロデューサー**値を含むフィールド（例：「Aspose.Cells v18.5.0」）。
+Aspose.Cellsは、出力ドキュメントにAPIとバージョン番号に関する情報を直接書き込みます。たとえば、DocumentをPDFにレンダリングすると、**Application**フィールドに 'Aspose.Cells' という値が、**PDF Producer**フィールドに 'Aspose.Cells v18.5.0' という値が埋め込まれます。
 
-Aspose.Cells for C++ に対して、出力ドキュメントからこの情報を変更または削除するように指示することはできないことに注意してください。
+なお、この情報を出力ドキュメントから変更または削除するようAspose.Cells for C++に指示することはできません。
 
 {{% /alert %}} 
-###  **直接変換**
-Aspose.Cells は、他のソフトウェアとは独立して、スプレッドシートから PDF への変換をサポートします。次のコマンドを使用して Excel ファイルを PDF に保存するだけです。[ワークブック](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)クラス'[保存](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)方法。の[保存](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)メソッドが提供するのは、[保存形式_PDF](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/)ネイティブ Excel ファイルを PDF 形式に変換する列挙メンバー。
+### **直接変換**
+Aspose.Cellsは、他のソフトウェアに依存せずにスプレッドシートからPDFへの変換をサポートしています。[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)クラスの[Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)メソッドを使用して、Excelファイルを単独でPDFに保存できます。[SaveFormat_Pdf](https://reference.aspose.com/cells/cpp/aspose.cells/saveformat/)列挙メンバーを使用して、ネイティブExcelファイルをPDF形式に変換します。
 
-Excel スプレッドシートを PDF 形式に直接変換するには、以下の手順に従ってください。
+以下の手順に従って、Excelスプレッドシートを直接PDF形式に変換します:
 
-1. のオブジェクトをインスタンス化します。[ワークブック](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)空のコンストラクターを呼び出してクラスを作成します。
-1. 既存のテンプレート ファイルを開いて読み込むことも、ワークブックを最初から作成する場合はこの手順をスキップすることもできます。
-1. Aspose.Cells' API を使用して、スプレッドシート上で作業 (データの入力、書式設定の適用、数式の設定、画像やその他の描画オブジェクトの挿入など) を実行します。
-1. スプレッドシートのコードが完成したら、[ワークブック](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)クラス'[保存](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)スプレッドシートを保存するメソッド。
+1. 空のコンストラクタを呼び出して[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)クラスのオブジェクトをインスタンス化します。
+1. 既存のテンプレートファイルを開いたり読み込んだりするか、ワークブックをゼロから作成している場合は、この手順をスキップします。
+1. Aspose.CellsのAPIを使用して、スプレッドシート上で作業を行います（入力データ、書式設定の適用、数式の設定、画像の挿入など）。
+1. スプレッドシートのコードが完成したら、[Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/)クラスの[Save](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/save/)メソッドを呼び出してスプレッドシートを保存してください。
 
-ファイル形式は PDF である必要があるため、SaveFormat 列挙から関連する PDF (事前定義された値) を選択して、最終的な PDF ドキュメントを生成します。
+ファイル形式はPDFである必要があるため、最終的なPDFドキュメントを生成するために[SaveFormat](https://reference.aspose.com/cells/cpp/aspose.cells/savedirs/saveformat/)列挙型から関連するPDF（事前定義された値）を選択してください。
 
-次のサンプルコードを参照してください。[サンプル Excel ファイル](67338368.xlsx)そして[出力PDF](67338369.pdf)ご参考に。
+次のサンプルコードと、参照用の[サンプルExcelファイル](67338368.xlsx)および[出力PDFファイル](67338369.pdf)をご覧ください。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_DirectConversion-new.cpp" >}}
-###  **高度な変換**
-を使用することもできます。[PDF保存オプション](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/)変換用のさまざまな属性を設定するクラス。のさまざまなプロパティを設定する**PDF保存オプション**クラスを使用すると、出力 PDF の印刷、フォント、セキュリティ、圧縮設定を制御できます。最も重要なプロパティは次のとおりです。[コンプライアンスの設定](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/setcompliance/)これにより、Excel ファイルを PDF/A 準拠の PDF ファイルに保存できるようになります。
-####  **ワークブックを PDF/A コンパイル済みファイルに保存**
-次のコード スニペットは、**PDF保存オプション**Excel ファイルを PDF/A 準拠の PDF 形式で保存するクラス
+### **高度な変換**
+変換の異なる属性を設定するために[PdfSaveOptions](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/)クラスを使用することもできます。**PdfSaveOptions**クラスの異なるプロパティを設定すると、出力PDFの印刷、フォント、セキュリティ、および圧縮設定を制御できます。 最も重要なプロパティは[SetCompliance](https://reference.aspose.com/cells/cpp/aspose.cells/pdfsaveoptions/setcompliance/)であり、ExcelファイルをPDF/A準拠のPDFファイルとして保存できます。
+#### **PDF/A準拠ファイルへのワークブックの保存**
+次のコードスニペットは、**PdfSaveOptions**クラスを使用してExcelファイルをPDF/A準拠のPDF形式で保存する方法を示しています。
 
-次のサンプルコードとそのコードを参照してください。[出力PDF](67338370.pdf)ご参考に。
+次のサンプルコードと、参照用の[出力PDF](67338370.pdf)をご覧ください。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_A_CompliedFiles-new.cpp" >}}
-####  **PDF 作成時刻を設定します**
-とともに**IPdfSaveオプション**クラスでは、PDF の作成時間を取得または設定できます。
+#### **PDF作成時間の設定**
+**IPdfSaveOptions**クラスを使用すると、PDFの作成時間を取得または設定できます。
 
-次のサンプルコードとそのコードを参照してください。[出力PDF](67338371.pdf)ご参考に。
+次のサンプルコードと、参照用の[出力PDF](67338371.pdf)をご覧ください。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertExcelWorkbookToPDF_SetPDFCreationTime-new.cpp" >}}

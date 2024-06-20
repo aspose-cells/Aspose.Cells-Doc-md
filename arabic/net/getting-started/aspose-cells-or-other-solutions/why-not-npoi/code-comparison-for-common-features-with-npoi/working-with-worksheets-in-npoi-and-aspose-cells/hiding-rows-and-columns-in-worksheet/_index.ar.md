@@ -1,13 +1,14 @@
-﻿---
+---
 title: إخفاء الصفوف والأعمدة في ورقة العمل
 type: docs
 weight: 60
 url: /ar/net/hiding-rows-and-columns-in-worksheet/
 ---
+
 ## **Aspose.Cells - إخفاء الصفوف والأعمدة في ورقة العمل**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook();
 
@@ -37,7 +38,7 @@ workbook.Save("Output-HideRowsandColumns.xls");
 ## **NPOI - HSSF XSSF - إخفاء الصفوف والأعمدة في ورقة العمل**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -63,13 +64,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إخفاء الصفوف والأعمدة في ورقة العمل** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **إخفاء الصفوف والأعمدة في ورقة العمل** من أي من مواقع التحرير الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Hiding.Rows.and.Columns.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Hiding.Rows.and.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+لمزيد من التفاصيل، قم بزيارة [العمل مع أوراق العمل](/cells/ar/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

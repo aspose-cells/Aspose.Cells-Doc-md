@@ -1,41 +1,42 @@
-﻿---
-title: Elektronik Tabloları Oluşturmak için Yazı Tiplerini Yapılandırma
+---
+title: Yayınlanan İşlenmiş Elektronik Tablolar için Yazı Tiplerini Yapılandırma
 type: docs
 weight: 10
 url: /tr/java/configuring-fonts-for-rendering-spreadsheets/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells API'leri, elektronik tabloları resim formatlarında oluşturmanın yanı sıra PDF ve XPS formatlarına dönüştürme olanağı sağlar. Dönüştürme doğruluğunu en üst düzeye çıkarmak için elektronik tabloda kullanılan yazı tiplerinin işletim sisteminin varsayılan yazı tipi dizininde bulunması gerekir. Gerekli yazı tiplerinin mevcut olmaması durumunda, Aspose.Cells API'leri gerekli yazı tiplerini mevcut olanlarla değiştirmeye çalışacaktır.
+Aspose.Cells API'ları, elektronik tabloları görüntü formatlarında işlemek ve onları PDF ve XPS formatlarına dönüştürmek için olanak sağlar. Dönüşüm sadakatini maksimuma çıkarmak için, elektronik tabloda kullanılan yazı tiplerinin işletim sisteminin varsayılan yazı tipi dizininde bulunmalıdır. Gerekli yazı tipleri mevcut değilse, Aspose.Cells API'ları gerekli yazı tiplerini bulmak için çaba harcayacaktır.
 
 ## **Yazı Tiplerinin Seçimi**
 
-Aspose.Cells API'lerinin perde arkasında takip ettiği süreç aşağıdadır.
+Aspose.Cells API'ları tarafından perde arkasında izlenen süreç aşağıda belirtilmiştir.
 
-1. API, elektronik tabloda kullanılan yazı tipi adıyla tam olarak eşleşen dosya sistemindeki yazı tiplerini bulmaya çalışır.
-1.  API aynı ada sahip yazı tiplerini bulamazsa, Çalışma Kitabı'nın altında belirtilen varsayılan yazı tipini kullanmayı dener.[**Varsayılan Stil. Yazı Tipi**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) Emlak.
-1.  API, çalışma kitabının altında tanımlanan yazı tipini bulamazsa[**Varsayılan Stil. Yazı Tipi**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) özelliği altında belirtilen yazı tipini kullanmaya çalışır.[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) veya[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) Emlak.
-1.  API altında tanımlanan yazı tipini bulamazsa[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) veya[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) özelliği altında belirtilen yazı tipini kullanmaya çalışır.[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) Emlak.
-1.  API altında tanımlanan yazı tipini bulamazsa[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) özelliği, mevcut tüm yazı tiplerinden en uygun yazı tiplerini seçmeye çalışır.
-1. Son olarak, API dosya sisteminde herhangi bir yazı tipi bulamazsa, elektronik tabloyu Arial kullanarak işler.
+1. API, elektronik tabloda kullanılan tam olarak eşleşen yazı tipini dosya sistemi üzerinde bulmaya çalışır.
+2. API, aynı ebeveyn düğümü altında kullanılan varsayılan yazı tipini belirleyebilecek olan [**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) özelliği altında belirtilen varsayılan yazı tipini kullanmaya çalışır.
+3. API, yazı tipini belirleyemiyorsa, [**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) veya [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) özelliği altında belirtilen yazı tipini kullanmaya çalışır.
+4. API, yazı tipini belirleyemiyorsa, [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) özelliği altında belirtilen yazı tipini kullanmaya çalışır.
+1. API, [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) özelliği altında tanımlanan yazı tipi bulunamazsa, mevcut yazı tiplerinden en uygun olanını seçmeye çalışır.
+1. Son olarak, API dosya sisteminde herhangi bir yazı tipi bulamazsa, çalışsayı Arial kullanarak elektronik tabloyu oluşturur.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells API'leri her zaman işletim sisteminin varsayılan yazı tipi dizinini tek bir istisna dışında tarar; ne zaman JVM bağımsız değişkenleri**-DAspose.Cells.FontDirExc="FontDiziniz"**ayarlanır. Bu durumda, Aspose.Cells API'leri, işletim sisteminin varsayılan yazı tipi dizinini taramayı atlayacak ve yalnızca yukarıda belirtilen JVM bağımsız değişkenlerinde belirtilen yolu arayacaktır.
+Aspose.Cells API'leri her zaman işletim sisteminin varsayılan yazı tipi klasörünü tarar, ancak JVM argümanları **-DAspose.Cells.FontDirExc="YourFontDir"** ayarlandığında bir istisna oluşur. Bu durumda, Aspose.Cells API'leri işletim sisteminin varsayılan yazı tipi klasörünü atlar ve yalnızca yukarıda belirtilen JVM argümanlarında belirtilen yolu arar.
 
 {{% /alert %}}
 
-## **Özel Yazı Klasörlerini Ayarla**
+## **Özel Yazı Tipi Klasörlerini Ayarlayın**
 
- Aspose.Cells API'ler, gerekli yazı tipleri için işletim sisteminin varsayılan yazı tipi dizinini arar. Gerekli yazı tiplerinin sistemin yazı tipi dizininde bulunmaması durumunda, API'ler özel (kullanıcı tanımlı) dizinlerde arama yapar. bu[**Yazı Tipi Yapılandırmaları**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs)class, aşağıda ayrıntılı olarak açıklandığı gibi, özel yazı tipi dizinlerini ayarlamanın çeşitli yollarını ortaya çıkardı.
+Aspose.Cells API'leri, gerekli fontları işletim sisteminin varsayılan font dizininde arar. Gerekli fontlar sistem font dizininde mevcut değilse API'ler, özel (kullanıcı tanımlı) dizinler aracılığıyla arama yapar. [**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs) sınıfı, özel font dizinlerini ayarlamak için aşağıda ayrıntıları verilen bir dizi yöntem sunmuştur.
 
-1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): Ayarlanacak yalnızca bir klasör varsa bu yöntem kullanışlıdır.
-1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): Bu yöntem, yazı tipleri birden çok klasörde bulunduğunda ve kullanıcı tüm yazı tiplerini tek bir klasörde birleştirmek yerine tüm klasörleri ayrı ayrı ayarlamak istediğinde kullanışlıdır.
-1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): Bu mekanizma, kullanıcı birden çok klasörden yazı tiplerini veya tek bir yazı tipi dosyasını veya bir bayt dizisinden yazı tipi verilerini yüklemek istediğinde kullanışlıdır.
+1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): Bu yöntem, sadece bir klasör ayarlanacaksa kullanışlıdır.
+1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): Bu yöntem, yazı tiplerinin birden fazla klasörde bulunduğu durumda ve kullanıcı tüm klasörleri tek tek birleştirmek yerine ayrı ayrı ayarlamak istediğinde kullanışlıdır.
+1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): Bu mekanizma, kullanıcının birden fazla klasörden veya tek bir yazı tipi dosyasından veya bayt dizisinden yazı tiplerini yüklemek istemesi durumunda kullanışlıdır.
 
 {{% alert color="primary" %}}
 
- Her ikisi de[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) & [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean) ) yöntemleri, bir Boole tipi ikinci parametreyi kabul eder. Geçen**doğru**ikinci parametre olarak Aspose.Cells API'lerini yazı tipi dosyaları için alt klasörleri aramaya yönlendirecektir.
+[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) ve [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)) yöntemleri, ikinci bir parametre olarak Boolean türünde bir değer kabul eder. İkinci parametre olarak **true** değerini iletmek, Aspose.Cells API'lerinin font dosyalarını alt klasörlere aramasını sağlar.
 
 {{% /alert %}}
 
@@ -43,31 +44,31 @@ Aspose.Cells API'lerinin perde arkasında takip ettiği süreç aşağıdadır.
 
 {{% alert color="primary" %}}
 
-Lütfen başvuru başlangıcında yukarıda belirtilen yöntemlerden herhangi birini kullanınız, yani; Aspose.Cells API'lerinin diğer nesnelerini çağırmadan önce.
+Lütfen uygulamanın başında yukarıda belirtilen yöntemlerden herhangi birini kullanın; yani, Aspose.Cells API'lerinin diğer nesnelerini çağırmadan önce.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-Yazı tipi kaynaklarını ayarlamak için yukarıda belirtilen yöntemlerden birden fazlası kullanılırsa, yalnızca son ayarlar geçerli olacaktır.
+Yukarıda belirtilen yöntemlerden birden fazlası font kaynaklarını ayarlamak için kullanıldığında, yalnızca son ayarlamalar etkili olacaktır.
 
 {{% /alert %}}
 
-## **Yazı Tipi Değiştirme Mekanizması**
+## **Yazı Tipi Yedekleme Mekanizması**
 
-Aspose.Cells API'ler, işleme amaçları için yedek yazı tipini belirtme olanağı da sağlar. Bu mekanizma, dönüştürmenin gerçekleşmesi gereken makinede gerekli bir yazı tipi bulunmadığında yardımcı olur. Kullanıcılar, başlangıçta gerekli olan yazı tipine alternatif olarak bir yazı tipi adları listesi sağlayabilir. Bunu başarmak için Aspose.Cells API'leri, 2 parametreyi kabul eden FontConfigs.setFontSubstitutes yöntemini kullanıma sunmuştur. İlk parametre türdedir**Sicim** , değiştirilmesi gereken yazı tipinin adı olmalıdır. İkinci parametre, bir tür dizisidir.**Sicim**. Kullanıcılar, orijinal yazı tipinin (ilk parametrede belirtilen) yerine geçen bir yazı tipi adları listesi sağlayabilir.
+Aspose.Cells API'leri ayrıca, render işlemleri için yedek font belirtme yeteneği sağlar. Bu mekanizma, dönüşümün gerçekleştirileceği makinede gerekli bir font bulunmadığında faydalıdır. Kullanıcılar, asıl gerekli fontun yerine geçmesi için bir dizi font adı sağlayabilir. Bunun için, Aspose.Cells API'leri FontConfigs.setFontSubstitutes yöntemini açığa çıkarmıştır ve bu yöntem 2 parametre kabul eder. İlk parametre **String** türünde olup, yerine geçecek fontun adı olmalıdır. İkinci parametre **String** türünde bir dizi olarak alınır. Kullanıcılar, orijinal fontun yerine geçecek bir dizi font adı sağlayabilirler (ilk parametrede belirtilen orijinal font için).
 
 İşte basit bir kullanım senaryosu.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Substituting the Arial font with Times New Roman & Calibri
 
-FontConfigs.setFontSubstitutes("Arial", new String[]{ "Times New Roman", "Calibri" });
+FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calibri" });
 
 {{< /highlight >}}
 
-## **Bilgi toplama**
+## **Bilgi Toplama**
 
-Yukarıda belirtilen yöntemlere ek olarak, Aspose.Cells API'leri, hangi kaynakların ve ikamelerin ayarlandığı hakkında bilgi toplamak için araçlar da sağlamıştır.
+Yukarıda bahsedilen yöntemlere ek olarak, Aspose.Cells API'leri, hangi kaynak ve yedeklemelerin ayarlandığı hakkında bilgi toplamak için de yöntemler sağlamıştır.
 
-1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources() ): Bu yöntem, bir tür dizisi döndürür[**Yazı Tipi Kaynak Tabanı**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource)belirtilen yazı tipi kaynaklarının listesini içerir. Hiçbir kaynağın ayarlanmamış olması durumunda,[**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources()) yöntemi boş bir dizi döndürür.
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String) ): Bu yöntem, türünde bir parametre kabul eder**Sicim** değiştirmenin ayarlandığı yazı tipi adını belirtmeye izin verir. Belirtilen yazı tipi adı için herhangi bir ikame ayarlanmamışsa,[**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) yöntemi null döndürür.
+1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--): Bu yöntem, belirtilen font kaynaklarının listesini içeren [**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource) türünde bir dizi döndürür. Eğer kaynaklar belirlenmemişse, [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--) yöntemi boş bir dizi döndürecektir.
+1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)): Bu yöntem, yerine geçme belirlenmiş font adını belirtmeye izin veren **String** türünde bir parametre alır. Belirtilen font adı için yerine geçme belirlenmemişse, [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) yöntemi null döndürecektir.

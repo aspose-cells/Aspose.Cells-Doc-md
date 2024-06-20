@@ -1,27 +1,28 @@
-﻿---
-title: تصدير التنسيق الشرطي DataBar و ColorScale و IconSet أثناء تحويل Excel إلى HTML
+---
+title: تصدير تنسيق البيانات الشريطية ومقياس الألوان وتنسيق الرموز أثناء تحويل ملف Excel إلى HTML
 type: docs
 weight: 660
 url: /ar/java/export-databar-colorscale-and-iconset-conditional-formatting-while-excel-to-html-conversion/
 ---
+
 {{% alert color="primary" %}} 
 
-يمكنك تصدير تنسيق شرطي DataBar و ColorScale و IconSet أثناء تحويل ملف Excel إلى HTML. هذه الميزة مدعومة جزئيًا بواسطة Microsoft Excel ولكن Aspose.Cells يدعمها بالكامل.
+يمكنك تصدير تنسيق البيانات الشريطية ومقياس الألوان وتنسيق الرموز أثناء تحويل ملف Excel الخاص بك إلى HTML. تدعم هذه الميزة بشكل جزئي من قبل Microsoft Excel ولكن Aspose.Cells تدعمها بشكل كامل.
 
 {{% /alert %}} 
-## **تصدير التنسيق الشرطي DataBar و ColorScale و IconSet أثناء تحويل Excel إلى HTML**
-تُظهر لقطة الشاشة التالية ملف[نموذج ملف اكسل](5473447.xlsx) باستخدام التنسيق الشرطي DataBar و ColorScale و IconSet. يمكنك تنزيل ملف[نموذج ملف اكسل](5473447.xlsx) من الارتباط المحدد.
+## **تصدير DataBar، ColorScale و IconSet لتنسيق الشروط أثناء تحويل Excel إلى HTML**
+تُظهر اللقطة الشاشة التالية [ملف Excel العيني](5473447.xlsx) بقوالب البيانات والمقاييس اللونية ومجموعات الرموز لتنسيق الشروط. يُمكنك تنزيل [ملف Excel العيني](5473447.xlsx) من الرابط المُعطى.
 
-![ما يجب القيام به: image_بديل_نص](conversion_1.png)
+![todo:image_alt_text](conversion_1.png)
 
-تُظهر لقطة الشاشة التالية الملف Aspose.Cells الناتج HTML الذي يُظهر DataBar و ColorScale و IconSet Conditional Formatting. كما ترى ، يبدو تمامًا مثل ملف[نموذج ملف اكسل](5473447.xlsx).
+تُظهر اللقطة الشاشة التالية ملف HTML الناتج من Aspose.Cells يُظهر قوالب البيانات والمقاييس اللونية ومجموعات الرموز لتنسيق الشروط. كما تلاحظ، يظهر تمامًا مثل [ملف Excel العيني](5473447.xlsx).
 
-![ما يجب القيام به: image_بديل_نص](conversion_2.png)
-## **عينة من الرموز**
- يقوم نموذج التعليمات البرمجية التالي بتحويل ملف Excel النموذجي إلى HTML وهو أمر عادي[Excel لتحويل HTML](/cells/ar/java/converting-workbook-to-different-formats/#convertingworkbooktodifferentformats-convertingexcelfilestohtml).
+![todo:image_alt_text](conversion_2.png)
+## **الكود المثالي**
+يحول الكود العيني التالي ملف Excel العيني إلى HTML وهو مجرد [تحويل عادي من Excel إلى HTML](/cells/ar/java/converting-workbook-to-different-formats/#convertingworkbooktodifferentformats-convertingexcelfilestohtml).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-ConvertingToHTMLFiles-1.java" >}}
-## **مقالات لها صلة**
+## **مقال ذو صلة**
 {{% alert color="primary" %}} 
 
 - [تحويل ملفات Excel إلى HTML](/cells/ar/java/converting-workbook-to-different-formats/#convertingworkbooktodifferentformats-convertingexcelfilestohtml)

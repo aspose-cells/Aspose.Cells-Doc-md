@@ -1,31 +1,32 @@
-﻿---
-title: Lägg till WordArt vattenstämpel i diagrammet
+---
+title: Lägg till WordArt vattenstämpel till Diagram
 type: docs
 weight: 40
 url: /sv/java/add-wordart-watermark-to-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Du kan använda WordArt för att lägga till speciella texteffekter i kalkylblad. Du kan till exempel sträcka ut en titel, dekorera text, få texten att passa en förinställd form eller tillämpa den berörda texten på ett diagrams plotområde som en vattenstämpel. WordArt blir ett objekt som du kan flytta eller placera i dina kalkylblad för att lägga till dekoration.
+Du kan använda WordArt för att lägga till specialeffekter på text i kalkylblad. Till exempel: sträck en titel, dekorera text, få texten att passa en förinställd form eller tillämpa den på ett karts plottområde som en vattenstämpel. WordArt blir ett objekt som du kan flytta eller positionera i kalkylbladen för dekoration.
 
-Följande exempel visar hur du lägger till en WordArt-form som en vattenstämpel för diagramområdet.
+Följande exempel visar hur man lägger till en WordArt-form som en vattenstämpel för diagrammets plottområde.
 
 {{% /alert %}}
 
-## Lägger till WordArt vattenstämpel i diagrammet
+## Lägga till WordArt vattenstämpel till Diagram
 
-Följande exempel visar hur du lägger till en WordArt-form som en vattenstämpel för ett befintligt diagrams plotområde. I exemplet används en Excel-mall som redan innehåller diagrammet.
+Följande exempel visar hur man lägger till en WordArt-form som en vattenstämpel för ett befintligt diagram plottområde. Exemplet använder en mall för Excel-fil som redan innehåller diagrammet.
 
-### Jämförelsebilder för före och efter kodexekveringen
+### Jämförelsebilder före och efter körning av koden
 
-**Inmatningsfilen**
+**Ingångsfilen**
 
 ![todo:image_alt_text](add-wordart-watermark-to-chart_1.png)
 
-**Utdatafilen**
+**Utgångsfilen**
 
 ![todo:image_alt_text](add-wordart-watermark-to-chart_2.png)
 
-### Java kod för att lägga till WordArt Watermark till diagram
+### Java-kod för att lägga till WordArt vattenstämpel till diagram
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.java" >}}

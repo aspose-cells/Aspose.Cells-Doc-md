@@ -1,16 +1,17 @@
-﻿---
-title: Implementera anpassad pappersstorlek på arbetsbladet för rendering
+---
+title: Implementera Anpassad Papperstorlek på Arbetsbladet för Rendering
 type: docs
 weight: 30
 url: /sv/java/implement-custom-paper-size-of-worksheet-for-rendering/
 ---
-## **Möjliga användningsscenarier**
 
-Det finns inget direkt alternativ tillgängligt för att skapa anpassade pappersstorlekar i MS Excel, men du kan ställa in anpassad pappersstorlek för önskade kalkylblad när du renderar Excel-fil till filformatet PDF. Det här dokumentet förklarar hur du ställer in en anpassad pappersstorlek för ett kalkylblad med Aspose.Cells API:er.
+## **Möjliga användningsscenario**
 
-## **Implementera anpassad pappersstorlek på arbetsbladet för rendering**
+Det finns ingen direkt alternativ tillgängligt för att skapa anpassade papperstorlekar i MS Excel, men du kan ange anpassad papperstorlek för dina önskade arbetsblad vid rendering av Excel-filen till PDF-filformat. Denna dokumentation förklarar hur man ställer in anpassad papperstorlek på ett arbetsblad med hjälp av Aspose.Cells API:er.
 
-Aspose.Cells låter dig implementera önskad pappersstorlek på arbetsbladet med hjälp av[**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double) ) metod för[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) . Följande exempelkod illustrerar hur du anger en anpassad pappersstorlek för det första kalkylbladet i arbetsboken. Se även[utgång PDF](45056030.pdf) genereras med följande kod som referens.
+## **Implementera anpassad pappersstorlek för arbetsblad för rendering**
+
+Aspose.Cells tillåter dig att implementera önskad papperstorlek för arbetsbladet genom att använda metoden [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) i [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup). Följande provkod illustrerar hur man specificerar en anpassad papperstorlek för det första arbetsbladet i arbetsboken. Se också [utdata-PDF:en](45056030.pdf) genererad med följande kod för referens.
 
 ## **Skärmdump**
 

@@ -1,14 +1,15 @@
-﻿---
+---
 title: Использование вложенных объектов
 type: docs
 weight: 50
 url: /ru/net/using-nested-objects/
 ---
-Aspose.Cells поддерживает вложенные объекты в смарт-маркерах, вложенные объекты должны быть простыми.**Индивидуальный** класс должен быть определен пользователем для приведенного ниже кода.
 
-Мы используем простой файл шаблона. См. электронную таблицу конструктора, содержащую несколько вложенных смарт-маркеров.
+Aspose.Cells поддерживает вложенные объекты в умных маркерах, вложенные объекты должны быть простыми. **Individual** класс должен быть определен пользователем для нижеуказанного кода.
 
-{{< highlight "csharp" >}}
+Мы используем простой файл шаблона. См. Дизайнерский электронный лист, который содержит некоторые вложенные интеллектуальные маркеры.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -62,6 +63,6 @@ designer.Workbook.Save(FileName);
 
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)
+## **Загрузить образец кода**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)

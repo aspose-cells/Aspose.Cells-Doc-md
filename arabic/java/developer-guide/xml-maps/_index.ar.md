@@ -1,4 +1,4 @@
-﻿---
+---
 title: خرائط XML
 type: docs
 weight: 210

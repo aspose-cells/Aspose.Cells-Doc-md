@@ -1,81 +1,83 @@
-﻿---
-title: .Net aracılığıyla Python'de Akıllı işaretçiler ile verileri akıllıca içe aktarma ve yerleştirme
-linktitle: akıllı işaretçiler
+---
+title: Python aracılığıyla .Net te Akıllı İşaretçilerle Veri Akıllıca İçe Aktarma ve Yerleştirme
+linktitle: Akıllı İşaretçiler ile
 type: docs
 weight: 190
 url: /tr/python-net/using-smart-markers/
-description: .Net kütüphanesi üzerinden Aspose.Cells for Python ile şablon Excel dosyalarına göre verileri akıllı bir şekilde içe aktarın ve yerleştirin.
+description: Aspose.Cells in .Net kütüphanesi ile Python aracılığıyla Excel dosyalarına akıllıca veri aktarma ve şablon dosyalara yerleştirme.
 ---
+
 ## **Giriş**
-**akıllı işaretçiler**Aspose.Cells'in bir Microsoft Excel tasarımcı elektronik tablosuna hangi bilgilerin yerleştirileceğini bilmesini sağlamak için kullanılır. Akıllı işaretçiler, yalnızca belirli bilgileri ve biçimlendirmeyi içeren şablonlar oluşturmanıza olanak tanır.
-## **Tasarımcı Elektronik Tablosu ve Akıllı İşaretleyiciler**
-Tasarımcı elektronik tabloları, görsel biçimlendirme, formüller ve akıllı işaretçiler içeren standart Excel dosyalarıdır. Bir projeden gelen bilgiler ve ilgili ilgili kişiler için bilgiler gibi bir veya daha fazla veri kaynağına başvuran akıllı işaretçiler içerebilirler. Akıllı işaretçiler, bilgiyi istediğiniz hücrelere yazılır.
+**Akıllı işaretçiler**, Aspose.Cells'in bir Microsoft Excel tasarımcı elektronik tablosuna hangi bilgileri yerleştireceğini bildirmek için kullanılır. Akıllı işaretçiler, yalnızca belirli bilgi ve biçimlendirmeyi içeren şablonlar oluşturmanıza izin verir.
+## **Tasarım Elektronik Tablosu & Akıllı İşaretçiler**
+Tasarımcı elektronik tablolar, görsel biçimlendirme, formüller ve akıllı işaretçiler içeren standart Excel dosyalarıdır. Bağlantılı bir ya da daha fazla veri kaynağını, örneğin proje bilgilerini ve ilgili kişilerin bilgilerini içerebilir. Akıllı işaretçiler, bilgilerin yer almasını istediğiniz hücrelere yazılır.
 
- Tüm akıllı işaretçiler &= ile başlar. Veri işaretçisine örnek olarak &=Party.FullName verilebilir. Veri işaretçisi birden fazla öğeyle, örneğin tam bir satırla sonuçlanırsa, sonraki satırlar yeni bilgilere yer açmak için otomatik olarak aşağı taşınır. Böylece ara toplamlar ve toplamlar, eklenen verilere dayalı hesaplamalar yapmak için veri işaretçisinden hemen sonra satıra yerleştirilebilir. Girilen satırlarda hesaplamalar yapmak için şunu kullanın:**dinamik formüller**.
+Tüm akıllı işaretçiler, &= ile başlar. Bir veri işaretçisinin bir örneği, örneğin, &=Party.FullName'dir. Veri işaretçisi birden fazla ögeye yol açarsa, örneğin, tam bir satır, o zaman yeni bilgilere yer açmak için otomatik olarak aşağıdaki satırlar taşınır. Bu şekilde, toplam ve alt toplamlar eklenen verilere dayalı olarak hesaplamak için veri işaretçisinden hemen sonra bir satıra yerleştirilebilir. Eklenen satırlarda hesaplama yapmak için **dinamik formüller** kullanın.
 
- Akıllı işaretçiler şunlardan oluşur:**veri kaynağı** ve**alan adı**çoğu bilgi için parçalar. Değişkenler ve değişken dizileri ile özel bilgiler de iletilebilir. Değişkenler her zaman yalnızca bir hücreyi doldururken, değişken dizileri birkaç hücreyi doldurabilir. Hücre başına yalnızca bir veri işaretçisi kullanın. Kullanılmayan akıllı işaretçiler kaldırılır.
+Akıllı işaretçiler çoğu bilgi için **veri kaynağı** ve **alan adı** bölümlerinden oluşur. Özel bilgi, değişkenler ve değişken dizileri ile de iletilmiş olabilir. Değişkenler her zaman sadece bir hücreyi doldururken, değişken dizileri birkaç hücreyi doldurabilir. Bir hücre başına yalnızca bir veri işareti kullanın. Kullanılmayan akıllı işaretçiler kaldırılır.
 
-Akıllı işaretleyici ayrıca parametreler içerebilir. Parametreler, bilgilerin düzenlenme şeklini değiştirmenize olanak tanır. Akıllı işaretçinin sonuna parantez içinde virgülle ayrılmış bir liste olarak eklenirler.
-### **Akıllı İşaretleyici Seçenekleri**
- &=DataSource.FieldName
- &=[Veri Kaynağı].[Alan Adı]&=$VariableName
- &=$Değişken Dizisi
- &==Dinamik Formül
-&=&=Tekrar DinamikFormül
-### **parametreler**
-Aşağıdaki parametrelere izin verilir:
+Akıllı işaretçi ayrıca parametreler içerebilir. Parametreler, bilgilerin nasıl düzenleneceğini değiştirmenize olanak tanır. Bunlar, virgülle ayrılmış bir liste olarak parantez içinde akıllı işaretçinin sonuna eklenir.
+### **Akıllı İşaretçi Seçenekleri**
+&=VeriKaynağı.AlanAdı 
+&=[Veri Kaynağı].[Alan Adı] 
+&=$DeğişkenAdı 
+&=$DeğişkenDizisi 
+&==DinamikFormül 
+&=&=TekrarDinamikFormül
+### **Parametreler**
+Aşağıdaki parametreler kabul edilir:
 
-- **ekleme** - Verileri sığdırmak için fazladan satır eklemeyin.
-- **atla:n** - Her veri satırı için n sayıda satır atlayın.
-- **artan:n** veya**azalan:n** - Verileri akıllı işaretleyicilerde sıralayın. n 1 ise sütun sıralayıcının ilk anahtarıdır. Veri kaynağı işlendikten sonra veriler sıralanır. Örneğin: &=Tablo1.Alan3(artan:1).
-- **yatay** - Verileri yukarıdan aşağıya yazmak yerine soldan sağa yazın.
-- **sayısal** - Mümkünse metni sayıya dönüştürün.
-- **vardiya** - Verileri sığdırmak için fazladan satırlar veya sütunlar oluşturarak aşağı veya sağa kaydırın. Shift parametresi, Microsoft Excel'dekiyle aynı şekilde çalışır. Örneğin, Microsoft Excel'de, bir hücre aralığı seçtiğinizde, sağ tıklayın ve seçin**Sokmak** ve belirtin?**hücreleri aşağı kaydır**, **Hücreleri sağa kaydır** ve diğer seçenekler. kısacası**vardiya** parametresi, dikey/normal (yukarıdan aşağıya) veya yatay (soldan sağa) akıllı işaretçiler için aynı işlevi yerine getirir.
-- **kopya stili** - Temel hücrenin stilini o sütundaki tüm hücrelere kopyalayın.
+- **noadd** - Ekstra satırlar eklemeyin.
+- **skip:n** - Her veri satırı için n sayısında satır atla.
+- **ascending:n** ya da **descending:n** - Akıllı işaretçilerde veriyi sırala. n 1 ise, sütun sıralayıcının ilk anahtarıdır. Veri, veri kaynağının işlenmesinden sonra sıralanır. Örneğin: &=Tablo1.Alan3(ascending:1).
+- **horizontal** - Veriyi yukarıdan aşağıya değil, soldan sağa yazın.
+- **numeric** - Metni mümkünse numaraya dönüştürür.
+- **shift** - Veriyi uyacak şekilde aşağıya veya sağa kaydırarak, ekstra satırlar veya sütunlar oluşturun. Kaydırma parametresi, Microsoft Excel'de olduğu gibi aynı şekilde çalışır. Kısacası, **shift** parametresi dikey/normal (yukarıdan aşağıya) veya yatay (soldan sağa) akıllı işaretçiler için aynı işlevi doldurur.
+- **copystyle** - Temel hücrenin stilini o sütundaki tüm hücrelere kopyala.
 
-Değişken satırlara veri eklemek için noadd ve jump parametreleri birleştirilebilir. Şablon aşağıdan yukarıya doğru işlendiği için, alternatif satırın önüne fazladan satır eklenmesini önlemek için ilk satıra noadd eklemelisiniz.
+noadd ve skip parametreleri, veriyi alternatif satırlara eklemek için birleştirilebilir. Şablon, üstten alta işlenir, bu nedenle alternatif satırın önünde ekstra satırların eklenmesini önlemek için ilk satıra noadd eklemelisiniz.
 
-Birden fazla parametreniz varsa, bunları virgülle ayırın ancak boşluk kullanmayın: parameterA,parameterB,parameterC
+Birden fazla parametreniz varsa, bunları virgülle ayırın, ancak boşluk bırakmayın: parametreA,parametreB,parametreC
 
-Aşağıdaki ekran görüntüleri, her bir satıra nasıl veri ekleneceğini gösterir.
+Aşağıdaki ekran görüntüleri, her iki satıra veri eklemenin nasıl yapılacağını göstermektedir.
 
-|**Şablon Dosyası**|**Çıktı dosyası**|
-|:- |:- |
-|![yapılacaklar:resim_alternatif_metin](using-smart-markers_1.jpg)|![yapılacaklar:resim_alternatif_metin](using-smart-markers_2.jpg)|
+|**Şablon Dosyası**|**Çıkış Dosyası**|
+| :- | :- |
+|![todo:image_alt_text](using-smart-markers_1.jpg)|![todo:image_alt_text](using-smart-markers_2.jpg)|
 ### **Dinamik Formüller**
-Dinamik formüller, formül dışa aktarma işlemi sırasında eklenecek satırlara başvursa bile Excel formüllerini hücrelere eklemenize olanak tanır. Dinamik formüller, eklenen her satır için yinelenebilir veya yalnızca veri işaretçisinin yerleştirildiği hücreyi kullanabilir.
+Dinamik formüller, dışa aktarma işlemi sırasında eklenecek satırlara referans olan hücrelere Excel formüllerini eklemenizi sağlar. Dinamik formüller her eklenen satır için tekrarlayabilir veya yalnızca veri işaretinin konumlandığı hücreyi kullanabilir.
 
-Dinamik formüller aşağıdaki ek seçeneklere izin verir:
+Dinamik formüller aşağıdaki ek seçenekleri sağlar:
 
 - r - Geçerli satır numarası.
-- 2, -1 - Geçerli satır numarasına kaydırma.
+- 2, -1 - Geçerli satır numarasına göre ofset.
 
 Örneğin:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  &=&=B{-1}/C{-1}~(skip:1)
 
 {{< /highlight >}}
 
-Dinamik formül işaretçisinde "-1", bölme işlemi için ayarlanacak sırasıyla B ve C sütunlarında geçerli satıra göre kaymayı ifade eder, atlama parametresi bir satırdır. Ayrıca, aşağıdaki karakteri belirtmeliyiz:
+Dinamik formül işaretleyicisinde, "-1", sırasıyla B ve C sütunlarında mevcut satıra ofset olarak belirlenecektir, atlamalı parametre bir satırdır. Ayrıca, dinamik formüllerde ileri parametreleri uygulamak için ayracı bir karakter olarak belirtmeliyiz.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  "~"
 
 {{< /highlight >}}
 
-dinamik formüllerde daha fazla parametre uygulamak için bir ayırıcı karakter olarak.
+dinamik formüllerde ileri parametreleri uygulamak için ayraç karakterini bir ayraç kararkteri olarak kullanın.
 
-Aşağıdaki ekran görüntüleri, yinelenen bir dinamik formülü ve sonuçta ortaya çıkan Excel çalışma sayfasını göstermektedir.
+Aşağıdaki ekran görüntüleri, tekrarlanan dinamik bir formülü ve sonuçlanan Excel çalışma sayfasını göstermektedir.
 
-|**Şablon Dosyası**|**Çıktı dosyası**|
-|:- |:- |
-|![yapılacaklar:resim_alternatif_metin](using-smart-markers_3.jpg)|![yapılacaklar:resim_alternatif_metin](using-smart-markers_4.jpg)|
- Cell "C1" formülü içerir**= A1*B1** , "C2" hücresi şunları içerir:**= A2*B2** ve "C3" hücresi şunları içerir:**= A3*B3**.
+|**Şablon Dosyası**|**Çıktı Dosyası**|
+| :- | :- |
+|![todo:image_alt_text](using-smart-markers_3.jpg)|![todo:image_alt_text](using-smart-markers_4.jpg)|
+Hücre "C1" formülü **= A1*B1** içerir, hücre "C2" **= A2*B2** ve hücre "C3" **= A3*B3** içerir.
 
-Akıllı işaretleyicileri işlemek çok kolaydır. Aşağıda, .Net aracılığıyla Python'de bunun nasıl yapıldığını gösteren bir kod parçacığı bulunmaktadır.
+Akıllı işaretleri işlemek çok kolaydır. Şimdi aşağıda, bunun nasıl yapıldığını gösteren Python üzerinden .Net kod örneği bulunmaktadır
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "SmartMarker-SimpleProcess.py" >}}
 

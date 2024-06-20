@@ -1,14 +1,15 @@
-﻿---
-title: URL から Web 画像を Excel ワークシートに読み込む
+---
+title: ExcelワークシートにURLからのWeb画像をロードする
 type: docs
 weight: 30
 url: /ja/net/load-a-web-image-from-a-url-into-an-excel-worksheet/
-description: 画像をURLから実際のExcel画像に変換する方法は?この記事では、C# と使いやすい Aspose.Cells for .NET API を使用してこれを実現する方法を示します。
-keywords: excel show image from url, excel url to image, show image in excel from url, excel insert image from url, convert url to image in excel, excel image from url, load image from url in excel, C#, Excel
+description: URLから実際のExcel画像に変換する方法は？この記事では、C#と簡単に使用できるAspose.Cells for .NET APIを使用してこれを実現する方法が説明されています。
+keywords: excel show image from url、excel url to image、excel insert image from url、convert url to image in excel、excel image from url、load image from url in excel、C#、Excel
 ---
-## URL から Excel ワークシートに画像を読み込む
 
-Aspose.Cells for .NET API は、URL から Excel ワークシートに画像をロードするシンプルで簡単な方法を提供します。この記事では、画像データをストリームにダウンロードし、Aspose.Cells API を使用してワークシートに挿入する方法について説明します。この方法を使用すると、画像は Excel ファイルの一部になり、ワークシートを開くたびにダウンロードされるわけではありません。
+## ExcelワークシートにURLからの画像をロードする
+
+Aspose.Cells for .NET APIは、ExcelワークシートにURLから画像を簡単かつ便利にロードする方法を提供します。この方法を使用すると、画像はExcelファイルの一部となり、ワークシートが開かれるたびに毎回ダウンロードされることはありません。
 
 ## サンプルコード
 
@@ -16,6 +17,6 @@ Aspose.Cells for .NET API は、URL から Excel ワークシートに画像を�
 
 {{% alert color="primary" %}}
 
-常に URL から更新された画像が必要な場合があります。これを達成するには、[Web アドレスからリンクされた画像を挿入する](/cells/ja/net/insert-a-linked-picture-from-web-address/)記事。この方法に従うと、ワークシートを開くたびに URL から画像が読み込まれます。
+常に更新された画像をURLから取得する必要がある場合があります。これを実現するためには、「Webアドレスからリンクされた画像を挿入する」記事で示されている手順に従うことができます。この方法に従うことで、画像はワークシートが開かれるたびにURLからロードされます。
 
 {{% /alert %}}

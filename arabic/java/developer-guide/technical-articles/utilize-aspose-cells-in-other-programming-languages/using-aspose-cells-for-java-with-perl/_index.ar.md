@@ -1,49 +1,50 @@
-﻿---
+---
 title: استخدام Aspose.Cells for Java مع Perl
 type: docs
 weight: 30
 url: /ar/java/using-aspose-cells-for-java-with-perl/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Java هو مكون Java خالص يمكن استخدامه مع Perl. استخدام المكون مماثل لاستدعاء واجهات برمجة تطبيقات أخرى مشتركة Java في Perl. للاتصال بأي مكتبة Java في Perl ، تحتاج إلى تثبيت ملحق Perl Java لـ Perl أولاً. هذا مطلوب للوصول إلى JVM.
+Aspose.Cells for Java هو عبارة عن مكون جافا نقي يمكن استخدامه مع Perl. يتم استخدام المكون بنفس الطريقة المستخدمة لاستدعاء واجهات برمجة تطبيقات جافا الشائعة الأخرى في Perl. لاستدعاء أي مكتبة جافا في Perl، تحتاج أولاً إلى تثبيت ملحق Java-Perl لـ Perl. هذا مطلوب للوصول إلى JVM.
 
 {{% /alert %}} 
-## **البرامج والمكتبات المطلوبة**
- البرامج والمكتبات التالية مطلوبة.
+## **البرمجيات والمكتبات المطلوبة**
+البرمجيات والمكتبات التالية مطلوبة. 
 
-- بيرل.
+- Perl.
 - Aspose.Cells for Java.
-- Java - ملحق بيرل.
-- وقت تشغيل Java الذي يفي بمتطلبات امتداد Aspose.Cells for Java و Java-Perl.
-### **مرشد**
- للاتصال بالرقم Java API في Perl ، تحتاج إلى تثبيت ملحق Perl Java لـ Perl أولاً. (لأغراض هذه المقالة ، نفترض أنه تم تثبيت Perl وضبطه بشكل صحيح.) يمكنك الحصول على امتداد Java-Perl من[ميتزو / Java-4.7 /](https://metacpan.org/release/METZZO/Java-4.7)
+- جافا - تمديد بيرل.
+- جافا تشغيل يلبي متطلبات Aspose.Cells for Java وتمديد جافا-بيرل.
+### **دليل**
+لاستدعاء واجهة برمجية جافا في بيرل، تحتاج إلى تثبيت تمديد جافا-بيرل أولاً. (لأغراض هذه المقالة، نفترض أن بيرل قد تم تثبيته وضبطه بشكل صحيح.) يمكنك الحصول على تمديد جافا-بيرل من [Metzzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7)
 
- في نهاية هذا المستند ، يوجد مثال على نص برل يستدعي Aspose.Cells for Java. لتشغيله ، اتبع الخطوات التالية:
+في نهاية هذه الوثيقة، هناك مثال على نص بيرل يستدعي Aspose.Cells for Java. لتشغيله، اتبع الخطوات التالية: 
 
-1. قم بتنزيل الملف Java-4.7.tar.gz وفك ضغطه على محرك الأقراص المحلي.
-1. قم بتثبيت هذه الحزمة لـ Perl.
-1.  ابدأ تشغيل JavaServer. سيكون الأمر:
+1. قم بتنزيل ملف Java-4.7.tar.gz وفك الضغط عليه على القرص المحلي الخاص بك.
+1. قم بتثبيت هذه الحزمة لبيرل.
+1. قم بتشغيل خادم جافا. سيكون الأمر: 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  java -classpath ...  com.zzo.javaserver.JavaServer 
 
 {{< /highlight >}}
 
- حيث ... هو مسار الفصل الذي يجب أن يتضمن جميع المكتبات التي يتطلبها تطبيقك.
+حيث ... هو مسار الصف الذي يجب أن يتضمن جميع المكتبات المطلوبة من قبل تطبيقك. 
 
- لاستخدام Aspose.Cells for Java ، يجب أن يحتوي على ملفي JAR على الأقل:
+لاستخدام Aspose.Cells for Java، يجب أن تحتوي على ملفي JAR على الأقل: 
 
 1. **Aspose.Cells.jar** من Aspose.Cells for Java
 1. **JavaServer.jar** من Java-4.7.tar.gz
-1. قم بتشغيل سكربت Perl الذي يستدعي Aspose.Cells for Java API.
+1. قم بتشغيل نص بيرل الذي يستدعي Aspose.Cells for Java API.
 
- لمزيد من المعلومات حول كيفية العمل مع Java في Perl ، راجع توثيق Java - ملحق Perl على<https://metacpan.org/release/METZZO/Java-4.7>
+For more information on how to work with Java in Perl, see documentation of Java - Perl extension at <https://metacpan.org/release/METZZO/Java-4.7>
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  my $ok = 0;
 
@@ -81,7 +82,7 @@ $ok++;
 
 print "workbook $ok\n";
 
-# $workbook->open("t.xls");
+#$workbook->open("t.xls");
 
 $ok++;
 

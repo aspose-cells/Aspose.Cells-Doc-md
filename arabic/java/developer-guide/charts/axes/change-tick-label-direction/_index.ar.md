@@ -1,37 +1,38 @@
-﻿---
-title: تغيير اتجاه تسمية التجزئة
+---
+title: تغيير اتجاه التسمية التلقائية
 type: docs
 weight: 90
 url: /ar/java/change-tick-label-direction/
 ---
-## **تغيير اتجاه تسمية التجزئة**
 
-يوفر لك Aspose.Cells القدرة على تغيير اتجاه تسمية علامة التجزئة على الرسم البياني باستخدام[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) خاصية. ال[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType)يقبل العقار[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) قيمة العد. ال[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)يوفر التعداد الأعضاء التالية
+## **تغيير اتجاه التسمية التلقائية**
 
-- [**عرضي**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
-- [**عمودي**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
+توفر Aspose.Cells لك القدرة على تغيير اتجاه تسمية التيكات في المخطط باستخدام خاصية [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType). تقبل الخاصية [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) قيمة التعداد [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType). التعداد [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) يوفر الأعضاء التالية
+
+- [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
+- [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
 - [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**استدارة_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
-- [**مرصوصة**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
-الصورة التالية تقارن بين ملفات المصدر والمخرجات
+صورة تقارن بين الملف الأصلي وملف الإخراج
 
-### **صورة الملف المصدر**
+### **صورة الملف الأصلي**
 
-![ما يجب القيام به: image_بديل_نص](change-tick-label-direction_1.jpg)
+![todo:image_alt_text](change-tick-label-direction_1.jpg)
 
-### **صورة ملف الإخراج**
+### **صورة الملف الإخراج**
 
-![ما يجب القيام به: image_بديل_نص](change-tick-label-direction_2.jpg)
+![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
- يغير مقتطف الشفرة التالي اتجاه تسمية التجزئة من[**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) إلى[**عرضي**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+مقتطف الكود التالي يغير اتجاه تسمية التيكات من [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) إلى [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
-### **عينة من الرموز**
+### **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-ChangeTickLabelDirection-1.java" >}}
 
-يمكن تنزيل ملفات المصدر والمخرجات من الروابط التالية.
+يمكن تحميل ملفات المصدر والإخراج من الروابط التالية.
 
-[مصدر الملف](SampleChangeTickLabelDirection.xlsx)
+[ملف المصدر](SampleChangeTickLabelDirection.xlsx)
 
-[ملف إلاخراج](outputChangeChartDataLableDirection.xlsx)
+[ملف الإخراج](outputChangeChartDataLableDirection.xlsx)

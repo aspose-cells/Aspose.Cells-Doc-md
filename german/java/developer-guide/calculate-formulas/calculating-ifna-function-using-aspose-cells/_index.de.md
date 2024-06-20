@@ -1,16 +1,17 @@
-﻿---
-title: Berechnung der IFNA-Funktion mit Aspose.Cells
+---
+title: Berechnung der IFNA Funktion mit Aspose.Cells
 type: docs
 weight: 200
 url: /de/java/calculating-ifna-function-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells unterstützt die Berechnung der IFNA-Excel-Funktion. Die IFNA-Funktion gibt den von Ihnen angegebenen Wert zurück, wenn die Formel den Fehlerwert #NV zurückgibt; gibt andernfalls das Ergebnis der Formel zurück.
+Aspose.Cells unterstützt die Berechnung der IFNA-Excel-Funktion. Die IFNA-Funktion gibt den von Ihnen angegebenen Wert zurück, wenn die Formel den Fehlerwert #NV zurückgibt; andernfalls gibt sie das Ergebnis der Formel zurück.
 
 {{% /alert %}} 
 ## **Berechnung der IFNA-Funktion mit Aspose.Cells**
-Der folgende Beispielcode veranschaulicht die Berechnung der IFNA-Funktion durch Aspose.Cells.
+Der folgende Beispiellcode veranschaulicht die Berechnung der IFNA-Funktion durch Aspose.Cells.
 
 
 
@@ -26,7 +27,7 @@ Der folgende Beispielcode veranschaulicht die Berechnung der IFNA-Funktion durch
 ## **Konsolenausgabe**
 Hier ist die Konsolenausgabe des obigen Beispielcodes.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Not found
 

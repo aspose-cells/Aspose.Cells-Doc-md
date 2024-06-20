@@ -1,17 +1,18 @@
-﻿---
-title: قم بإزالة المسافات البيضاء من البيانات قبل التقديم إلى الصورة
+---
+title: إزالة المسافات البيضاء من البيانات قبل الرسم إلى صورة
 type: docs
 weight: 270
 url: /ar/java/remove-white-spaces-from-the-data-before-rendering-to-image/
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، تحتاج إلى تقديم صور ورقة العمل في التطبيقات أو صفحات الويب. على سبيل المثال ، قد تحتاج إلى إدراج صور في مستند Word أو ملف PDF أو عرض تقديمي PowerPoint أو مستند آخر. بشكل أساسي ، تريد عرض ورقة العمل كصورة بحيث يمكن لصقها في تطبيقات أخرى. تتيح لك واجهات برمجة التطبيقات Aspose.Cells تحويل أوراق عمل Microsoft Excel إلى صور.
+في بعض الأحيان، تحتاج إلى عرض صور ورقة البيانات في تطبيقات أو صفحات ويب. على سبيل المثال، قد تحتاج إلى إدراج صور في مستند Word أو ملف PDF أو عرض PowerPoint أو مستند آخر. بشكل أساسي، ترغب في تقديم ورقة بيانات كصورة حتى يمكن للمستخدم لصقها في تطبيقات أخرى. تسمح واجهات برمجة التطبيقات لـ Aspose.Cells بتحويل صفحات الجداول في Microsoft Excel إلى صور.
 
 {{% /alert %}}
 
- ال[**عرض الورقة**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)فئة قادرة على تحويل ورقة عمل إلى ملف صورة بأي سمات محددة ، على سبيل المثال ، تنسيق الصورة ، والأوراق المرقمة ، وما إلى ذلك ، يتم دعم العديد من تنسيقات الصور ، بما في ذلك BMP ، GIF ، JPG ، TIFF ، و EMF.
+يمكن لصنف [**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) تحويل صفحة العمل إلى ملف صورة مع تحديد الصفات المحددة، على سبيل المثال تنسيق الصورة، صفحات الورق المكتبية، إلخ. يتم دعم عدة تنسيقات صور، بما في ذلك BMP وGIF وJPG وTIFF وEMF.
 
- عند استخدام ميزة من ورقة إلى صورة ، فإن صورة الإخراج بها مساحة بيضاء / فارغة ، أي حد ، حولها بشكل افتراضي. يمكنك إزالة هذا. عيّن هوامش إعداد الصفحة العلوية واليسرى والسفلية واليمنى لورقة العمل المصدر على 0 وحدد[**خيارات ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)السمات وفقًا لذلك.
+عند استخدام ميزة التحويل إلى صورة، يكون للصورة الناتجة مساحة بيضاء فارغة، أي حاشية، حولها افتراضياً. يمكنك إزالة ذلك. قم بتحديد هوامش إعدادات صفحة الأعلى واليسار والسفل واليمين لصفحة الورق المصدر إلى 0 وحدد [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) بناءً على ذلك.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-RemoveWhitespaceAroundData-1.java" >}}

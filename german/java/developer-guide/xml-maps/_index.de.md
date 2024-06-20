@@ -1,5 +1,5 @@
-﻿---
-title: XML-Karten
+---
+title: XML Maps
 type: docs
 weight: 210
 url: /de/java/xml-maps/

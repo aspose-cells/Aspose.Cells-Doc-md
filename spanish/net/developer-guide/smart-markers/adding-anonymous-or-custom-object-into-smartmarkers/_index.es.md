@@ -1,18 +1,19 @@
-﻿---
-title: Adición de objetos anónimos o personalizados en SmartMarkers
+---
+title: Agregar objeto anónimo o personalizado en Marcadores inteligentes
 type: docs
 weight: 10
 url: /es/net/adding-anonymous-or-custom-object-into-smartmarkers/
 ---
+
 {{% alert color="primary" %}} 
 
-Esto explica cómo importar objetos anónimos o personalizados en SmartMarkers.
+Esto explica cómo importar objetos anónimos o personalizados en Marcadores inteligentes.
 
-veces, debe incluir objetos personalizados como fuente de datos para los SmartMarkers. Aspose.Cells permite utilizar objetos personalizados como fuente de datos.
+A veces, es necesario incluir objetos personalizados como origen de datos para los Marcadores inteligentes. Aspose.Cells hace posible utilizar objetos personalizados como origen de datos.
 
 {{% /alert %}} 
 
-Consulte el siguiente código de ejemplo que muestra cómo agregar objetos personalizados como fuente de datos para SmartMarkers.
+Consulte el siguiente código de muestra que muestra cómo agregar objetos personalizados como origen de datos para los Marcadores inteligentes.
 
 
 

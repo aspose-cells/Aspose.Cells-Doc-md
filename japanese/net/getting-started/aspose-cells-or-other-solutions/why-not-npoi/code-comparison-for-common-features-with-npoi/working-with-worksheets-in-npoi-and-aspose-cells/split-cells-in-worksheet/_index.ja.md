@@ -1,13 +1,14 @@
-﻿---
-title: ワークシートで Cells を分割
+---
+title: ワークシート内のセルを分割
 type: docs
 weight: 90
 url: /ja/net/split-cells-in-worksheet/
 ---
-## **Aspose.Cells - ワークシートで Cells を分割**
+
+## **Aspose.Cells - ワークシート内のセルを分割**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -29,10 +30,10 @@ workbook.Save("output-Split.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - ワークシートの分割 Cells**
+## **NPOI - HSSF XSSF - ワークシート内のセルを分割**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -59,6 +60,6 @@ file.Close();
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+詳細については、[ワークシートの操作](/cells/ja/net/working-with-worksheets-in-npoi-and-aspose-cells/)ページを参照してください。
 
 {{% /alert %}}

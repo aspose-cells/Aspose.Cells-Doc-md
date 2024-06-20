@@ -1,16 +1,17 @@
-﻿---
-title: Zeilen-Spalten-Überschriften in Ruby anzeigen oder ausblenden
+---
+title: Anzeigen oder Ausblenden von Zeilen und Spaltenüberschriften in Ruby
 type: docs
 weight: 20
 url: /de/java/display-or-hide-row-column-headers-in-ruby/
 ---
-## **Aspose.Cells – Zeilen-Spalten-Überschriften anzeigen oder ausblenden**
-### **Zeilen-/Spaltenüberschriften ausblenden**
- Zeilen-/Spaltenüberschriften ausblenden mit**Aspose.Cells Java für Rubin** , Anruf**DisplayHideRowColumnHeader** Modul.
+
+## **Aspose.Cells - Anzeigen oder Ausblenden von Zeilen- und Spaltenüberschriften**
+### **Zeilen-/Spaltenheader ausblenden**
+Um Zeilen-/Spaltenüberschriften mithilfe von **Aspose.Cells Java für Ruby** auszublenden, rufen Sie das Modul **DisplayHideRowColumnHeaders** auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -37,19 +38,19 @@ workbook.save(data_dir + "output.xls")
 puts "Headers of rows and columns are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Zeilen-/Spaltenüberschriften sichtbar machen**
-Machen Sie Zeilen- und Spaltenüberschriften sichtbar, indem Sie die setRowColumnHeadersVisible(true)-Methode der Worksheet-Klasse verwenden.
+### **Anzeigen von Zeilen-/Spaltenüberschriften**
+Zeigen Sie Zeilen- und Spaltenüberschriften an, indem Sie die Methode setRowColumnHeadersVisible(true) der Klasse Arbeitsblatt verwenden.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the headers of rows and columns
 
 worksheet.setRowColumnHeadersVisible(true)
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Zeilen-Spalten-Überschriften anzeigen oder ausblenden (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Display or Hide Row Column Headers (Aspose.Cells)** von einer der unten genannten Social-Coding-Sites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhiderowcolumnheaders.rb)

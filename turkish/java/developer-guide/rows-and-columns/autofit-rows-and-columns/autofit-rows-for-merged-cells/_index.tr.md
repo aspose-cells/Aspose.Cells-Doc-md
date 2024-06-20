@@ -1,26 +1,27 @@
-﻿---
-title: Birleştirilmiş Cells için Satırları Otomatik Sığdır
+---
+title: Bir çalışma kitabı nesnesi oluşturur ve birden fazla çalışma sayfası ekler. Her çalışma sayfasında farklı yöntemler kullanarak otomatik uyarlama işlemlerini gerçekleştirir. Ekran görüntüsü, örnek kodun çalıştırılmasından sonra elde edilen sonuçları gösterir.
 type: docs
 weight: 50
 url: /tr/java/autofit-rows-for-merged-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel, bir hücrenin yüksekliğini içeriğine göre otomatik olarak boyutlandırmanızı sağlayan bir özellik sağlar. Özelliğe otomatik sığdırma satırları adı verilir. Microsoft Excel, otomatik sığdırma işlemini birleştirilmiş hücrelerde yerel olarak ayarlamaz. Bazen bu özellik, gerçekten birleştirilmiş hücrelerde otomatik sığdırma satırları uygulaması gereken bir kullanıcı için hayati önem taşır.
+Microsoft Excel, bir hücrenin içeriğine göre otomatik olarak hücre yüksekliğini ayarlamak için bir özellik sağlar. Bu özellik otomatik satırı uyarlama adını taşır. Microsoft Excel, birleştirilmiş hücrelerde otomatik sığdırma işlemini varsayılan olarak ayarlamaz. Bazen özellik, birleştirilmiş hücreler üzerinde otomatik satır uyarlama işlemi gerçekten uygulamak isteyen bir kullanıcı için önemli hale gelir.
 
 {{% /alert %}}
 
- Aspose.Cells, bu özelliği[**Otomatik Sığdırma Seçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)API. Bu API'i kullanarak, satırları birleştirilmiş hücreler dahil bir çalışma sayfasına otomatik sığdırmak mümkündür.
+Aspose.Cells, [**AutoFitterOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) API'si aracılığıyla bu özelliği destekler. Bu API'yi kullanarak, birleştirilmiş hücreler de dahil olmak üzere bir çalışsayfadaki satırların otomatik olarak uyarlanması mümkündür.
 
-Kodu çalıştırdıktan sonra, Aspose.Cells, birleştirilmiş hücreler için satırları otomatik olarak sığdırır.
+Kod çalıştırıldıktan sonra, Aspose.Cells birleştirilmiş hücreler için satırları otomatik olarak uyarlar.
 
 **Çıktı Excel dosyası**
 
-![yapılacaklar:resim_alternatif_metin](autofit-rows-for-merged-cells_1.png)
+![todo:image_alt_text](autofit-rows-for-merged-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AutoFitRowsforMergedCells-AutoFitRowsforMergedCells.java" >}}
 
 ## İlgili Makaleler
 
-- [Satırları ve Sütunları Otomatik Sığdır](/cells/tr/java/autofit-rows-and-columns/)
+- [Satırları ve Sütunları Otomatik Ayarlama](/cells/tr/java/autofit-rows-and-columns/)
 - [Satır Yüksekliğini ve Sütun Genişliğini Ayarlama](/cells/tr/java/adjusting-row-height-and-column-width/)

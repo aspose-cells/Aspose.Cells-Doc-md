@@ -1,14 +1,15 @@
-﻿---
-title: XML-Papierspezifikation - XPS
+---
+title: XML Paper Specification - XPS
 type: docs
 weight: 30
 url: /de/net/xml-paper-specification-xps/
 ---
+
 ## **Über XPS**
 
-|![todo: Bild_alt_Text](xml-paper-specification-xps_1.png)| Das[XML-Papierspezifikation](https://en.wikipedia.org/wiki/XML_Paper_Specification) ist eine Seitenbeschreibungssprache und ein Dokumentformat mit festem Format, das ursprünglich von Microsoft entwickelt wurde. Wie PDF ist XPS ein Dokumentformat mit festem Layout, das dazu dient, die Dokumenttreue zu wahren und ein geräteunabhängiges Erscheinungsbild des Dokuments bereitzustellen.|
-|:- |:- |
+|![todo:image_alt_text](xml-paper-specification-xps_1.png)|The [XML Paper Specification](https://en.wikipedia.org/wiki/XML_Paper_Specification) is a page description language and a fixed-document format originally developed by Microsoft. Like PDF, XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance.|
+| :- | :- |
 ## **XPS in Aspose.Cells**
-Jedes in Aspose.Cells geladene Dokument kann in XPS konvertiert werden. Aspose.Cells verwendet dasselbe High-Fidelity-Seitenlayout und dieselbe Rendering-Engine, um Ausgaben in allen unterstützten Formaten mit festem Layout zu erzeugen, z. B. PDF, XPS usw.
+Jedes in Aspose.Cells geladene Dokument kann in XPS konvertiert werden. Aspose.Cells verwendet die gleiche hochqualitative Seitenvorlagen- und Rendering-Engine, um Ausgaben in allen unterstützten Fixlayout-Formaten wie z. B. PDF, XPS usw. zu erstellen.
 
-Es ist erwähnenswert, dass Aspose.Cells XPS direkt generiert (einschließlich Untereinstellungen von TrueType-Schriftarten), ohne sich auf die Windows Presentation Foundation-Klassen zu verlassen, die in .NET Framework 3.5 zu finden sind. Dies ermöglicht Aspose.Cells, XPS auf Computern zu erzeugen, auf denen .NET früherer Versionen oder ausgeführt wird auf ganz anderen Plattformen.
+Es ist erwähnenswert, dass Aspose.Cells XPS direkt generiert (einschließlich Teilschranken der TrueType-Schriften), ohne auf die Windows Presentation Foundation-Klassen im .NET Framework 3.5 angewiesen zu sein. Dies ermöglicht es Aspose.Cells, XPS auf Maschinen zu erstellen, die .NET früherer Versionen ausführen, oder auf völlig anderen Plattformen.

@@ -1,57 +1,58 @@
-﻿---
+---
 title: إضافة معلمات التقرير إلى التقرير
 type: docs
 weight: 60
 url: /ar/reportingservices/adding-report-parameters-to-report/
 ---
+
 {{% alert color="primary" %}} 
 
- يدعم قالب تقرير Aspose.Cells 'معلمات تقرير Reporting Services كمصدر بيانات للخلايا التي تحتوي على علامة معلمة Reporting Services. يرجى الرجوع إلى[قالب Aspose.Cells والعلامات الذكية](/cells/ar/reportingservices/aspose-cells-template-and-smart-markers/) للتعرف على محددات معلمات Reporting Services. يتم وضع معلمات التقرير عادةً في منطقة النص برأس الجدول أو تذييله.
+يدعم قالب التقرير Aspose.Cells معلمات تقرير خدمات التقرير كمصدر بيانات للخلايا التي تحتوي على علامة معلمات خدمات التقرير. يرجى الرجوع إلى [Aspose.Cells Template and Smart Markers](/cells/ar/reportingservices/aspose-cells-template-and-smart-markers/) لمعرفة المزيد حول علامات معلمات خدمات التقرير. عادةً ما يتم وضع معلمات التقرير في منطقة النص الخاصة برأس الجدول أو تذييل الصفحة.
 
 {{% /alert %}} 
 ### **إضافة معلمة تقرير**
 لإضافة معلمات التقرير إلى التقارير:
 
-1.  حدد خلية.
+1. حدد خلية. 
 
    **اختيار خلية** 
 
-![ما يجب القيام به: image_بديل_نص](adding-report-parameters-to-report_1.png)
+![todo:image_alt_text](adding-report-parameters-to-report_1.png)
 
 
 
 
-1. انقر فوق إدراج صيغة في Aspose.Cells.Report.Designer شريط الأدوات (
+1. انقر على إدراج الصيغة في شريط أدوات Aspose.Cells.Report.Designer (
 
-![ما يجب القيام به: image_بديل_نص](adding-report-parameters-to-report_2.png)
+![todo:image_alt_text](adding-report-parameters-to-report_2.png)
 
 ).
 
-1.  يختار**حدود** من لوحة المعلمات إلى اليسار.
- يتم سرد جميع المعلمات في اللوحة اليمنى.
-1. حدد معلمة ، في المثال ، اخترنا EmpID.
-1. انقر نقرًا مزدوجًا فوق المعلمة لإظهار التعبير في المحرر أعلى النموذج.
- تحتوي المعلمة على سمتين من سمات البيانات: التسمية والقيمة (السمة الافتراضية هي القيمة).
+1. حدد **المعلمات** من لوحة المعلمات على اليسار.
+   تُدرج جميع المعلمات في اللوحة اليمنى. 
+1. حدد معلمة؛ في المثال، لقد حددنا EmpID.
+1. انقر مرتين على المعلمة لجعل التعبير يظهر في المحرر في أعلى الاستمارة.
+   للمعلمة خاصيتان للبيانات: label و value (الخاصية الافتراضية هي value). 
 
-   **اختيار المعلمة** 
+   **اختيار معلمة** 
 
-![ما يجب القيام به: image_بديل_نص](adding-report-parameters-to-report_3.png)
-
-
+![todo:image_alt_text](adding-report-parameters-to-report_3.png)
 
 
-1.  في النموذج ، يجب أن تظهر تسمية المعلمة في التقرير ، لذلك قم بتعديل التعبير إلى Parameters! EmpID.Label.
+
+
+1. في العينة، يجب أن يكون لدى المعلمة علامة يتم عرضها في التقرير، لذا عدل التعبير ليصبح Parameters!EmpID.Label. 
 
    **تعديل المعلمة** 
 
-![ما يجب القيام به: image_بديل_نص](adding-report-parameters-to-report_4.png)
+![todo:image_alt_text](adding-report-parameters-to-report_4.png)
 
 
 
 
-1.  انقر**نعم**.
- تحتوي الخلية المحددة على علامة معلمات التقرير.
+1. انقر على **موافق**.
+   الخلية المحددة تحتوي على علامة معلمات التقرير. 
 
-   **تم إدراج معلمة تقرير في الخلية** 
+   **تم إدراج معلمة التقرير في الخلية** 
 
-![ما يجب القيام به: image_بديل_نص](adding-report-parameters-to-report_5.png)
+![todo:image_alt_text](adding-report-parameters-to-report_5.png)

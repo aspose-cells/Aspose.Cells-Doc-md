@@ -1,26 +1,27 @@
-﻿---
-title: Bağlantılı Ole Nesnesinin Görüntü Etiketine Erişin ve Değiştirin
+---
+title: Bağlantılı Ole Nesnesinin Görüntü Etiketini Erişme ve Değiştirme
 type: docs
 weight: 100
 url: /tr/net/access-and-modify-the-display-label-of-the-linked-ole-object/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- Microsoft Excel, aşağıdaki ekran görüntüsünde gösterildiği gibi Ole Nesnesinin görüntü etiketini değiştirmenize olanak tanır. Ayrıca, Aspose.Cells API'lerini kullanarak Ole nesnesinin görüntü etiketine erişebilir veya bu etiketi değiştirebilirsiniz.[**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label)Emlak.
+Microsoft Excel, aşağıdaki ekran görüntülerinde gösterildiği gibi Ole Nesnesinin görüntü etiketini değiştirmenize izin verir. Aynı zamanda Aspose.Cells API'ları kullanarak Ole nesnesinin görüntü etiketine erişebilir veya değiştirebilirsiniz [**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label) özelliği ile.
 
-![yapılacaklar:resim_alternatif_metin](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
+![todo:image_alt_text](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 
-## **Bağlantılı Ole Nesnesinin Görüntü Etiketine Erişin ve Değiştirin**
+## **Bağlı Ole Nesnesinin Görüntü Etiketini Erişme ve Değiştirme**
 
-Lütfen aşağıdaki örnek koda bakın,[örnek excel dosyası](64716810.xlsx)Ole Nesnesini içeren. Kod, Ole Nesnesine erişir ve Etiketini Örnek API'lerden Aspose API'lere değiştirir. Referans için lütfen örnek kodun örnek Excel dosyası üzerindeki etkisini gösteren aşağıda verilen konsol çıktısına bakın.
+Lütfen aşağıdaki örnek kodu inceleyin, Ole Nesnesini içeren [örnek Excel dosyasını](64716810.xlsx) yükler. Kod, Ole Nesnesine erişir ve etiketini Sample APIs'ten Aspose APIs olarak değiştirir. Referans için aşağıda verilen konsol çıktısına bakın, bu çıktı örneğin etkisini göstermektedir.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-AccessAndModifyLabelOfOleObject.cs" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Ole Object Label - Before: Sample APIs
 

@@ -1,58 +1,59 @@
 ---
-title: تحويل ورقة العمل إلى صورة باستخدام خيارات ImageOrPrint
+title: تحويل ورقة العمل إلى صورة باستخدام خيارات الصورة أو الطباعة
 type: docs
 weight: 90
 url: /ar/net/converting-worksheet-to-image-using-imageorprint-options/
 ---
+
 {{% alert color="primary" %}}
 
-تم تصميم هذا المستند لتوفير فهم تفصيلي لكيفية تحويل ورقة العمل إلى ملف صورة وتطبيق خيارات مختلفة للصورة والطباعة ، وخيارات مثل الدقة ، وضغط TIFF ، وتنسيق الصورة وجودة الصفحة.
+هذا المستند مصمم لتوفير فهم مفصل حول كيفية تحويل ورقة العمل إلى ملف صورة وتطبيق خيارات مختلفة للصورة وخيارات الطباعة للصورة، مثل الدقة وضغط TIFF وتنسيق الصورة وجودة الصفحة وغيرها.
 
 {{% /alert %}}
 
-##  **حفظ أوراق العمل في الصور - مناهج مختلفة**
+## **حفظ الأوراق العمل إلى صور - نهج مختلفة**
 
-في بعض الأحيان ، قد تحتاج إلى تقديم أوراق العمل الخاصة بك كتمثيل تصويري. أنت بحاجة إلى تقديم صور ورقة العمل في تطبيقاتك أو صفحات الويب الخاصة بك. قد تحتاج إلى إدراج الصور في مستند Word أو ملف PDF أو عرض تقديمي PowerPoint أو استخدامها في سيناريو آخر. ما عليك سوى عرض ورقة العمل كصورة بحيث يمكنك استخدامها في مكان آخر. يدعم Aspose.Cells تحويل أوراق العمل في ملفات Excel إلى صور. كما يدعم Aspose.Cells تعيين خيارات مختلفة مثل تنسيق الصورة ودقة الوضوح (الرأسية والأفقية) وجودة الصورة وخيارات الصورة والطباعة الأخرى.
+في بعض الأحيان، قد تحتاج إلى عرض ورقات العمل الخاصة بك كتمثيل بصري. عليك حقاً تقديم صور ورقة العمل في تطبيقاتك أو صفحات الويب. قد تحتاج إلى إدراج الصور في وثيقة Word أو ملف PDF أو عرض PowerPoint، أو استخدامها في سيناريو آخر ما. ببساطة ترغب في عرض ورقة عمل مقدمة كصورة بحيث يمكنك استخدامها في مكان آخر. Aspose.Cells يدعم تحويل ورقات العمل في ملفات Excel إلى صور. أيضًا، يدعم Aspose.Cells ضبط خيارات مختلفة مثل تنسيق الصورة، الدقة (عمودي وأفقي على حد سواء)، جودة الصورة، وخيارات الصورة والطباعة الأخرى.
 
-يمكنك تجربة أتمتة Office ولكن أتمتة Office لها عيوبها الخاصة. هناك العديد من الأسباب والمشكلات المعنية: على سبيل المثال ، الأمان والاستقرار وقابلية التوسع والسرعة والسعر والميزات. باختصار ، هناك العديد من الأسباب ، أهمها أن Microsoft يوصون بشدة ضد أتمتة المكاتب من حلول البرمجيات.
+قد تحاول Office Automation لكن لديها عيوبها الخاصة. هناك عدة أسباب وقضايا متورطة: على سبيل المثال، الأمان، الاستقرار، التوسعة، السرعة، السعر والميزات. بإختصار، هناك العديد من الأسباب، مع أن أهمها أن Microsoft نفسها توصي بشدة ضد استخدام التشغيل التلقائي لحلول البرمجيات.
 
-توضح هذه المقالة كيفية إنشاء تطبيق وحدة التحكم في Visual Studio .NET ، وإجراء تحويل ورقة العمل إلى صورة باستخدام خيارات مختلفة للصور والطباعة مع بضعة أسطر وأبسط من التعليمات البرمجية باستخدام Aspose.Cells API.
+يوضح هذا المقال كيفية إنشاء تطبيق وحدة تحكم في Visual Studio .NET، وأداء تحويل ورقة العمل إلى صورة باستخدام خيارات مختلفة للصورة والطباعة ببضع وأبسط أسطر من الشفرة باستخدام API Aspose.Cells.
 
- تحتاج إلى الاستيراد[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering)إلى برنامجك / مشروعك. لديها عدة فئات قيمة ، على سبيل المثال ،[**عرض الورقة**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**خيارات ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**عرض المصنف**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)إلخ.
+تحتاج إلى استيراد النطاق الزمني [**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering) إلى برنامج/مشروعك. يوجد لديها العديد من الفئات القيمة، على سبيل المثال، [**SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)، [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)، [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)، وما إلى ذلك.
 
-ال[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) تمثل class ورقة عمل لعرض الصور لورقة العمل ، فهي تحتوي على ملف[**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)الطريقة التي يمكنها تحويل ورقة عمل مباشرة إلى ملف (ملفات) صورة محددة بالسمات أو الخيارات التي تريدها. يمكنه إرجاع كائن System.Drawing.Bitmap ويمكنك حفظ ملف صورة على القرص / الدفق. هناك العديد من تنسيقات الصور المدعومة ، على سبيل المثال BMP ، PNG ، GIFF ، JPEG ، TIFF ، EMF وما إلى ذلك.
+الفئة [**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) تمثل ورقة عمل لإنشاء صور للورقة العمل، لديها طريقة [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index) مكدسة يمكنها تحويل ورقة عمل مباشرة إلى ملف صورة أو ملفات (بصورة) بالسمات أو الخيارات المطلوبة. يمكن استرجاع كائن System.Drawing.Bitmap ويمكنك حفظ ملف الصورة على القرص/التيار. هناك العديد من تنسيقات الصور المدعومة، على سبيل المثال، BMP، PNG، GIF، JPEG، TIFF، EMF وهكذا.
 
-##  **استخدام Aspose.Cells لتحويل ورقة العمل إلى صورة باستخدام خيارات ImageOrPrint.**
+## **استخدام Aspose.Cells لتحويل ورقة العمل إلى صورة باستخدام خيارات الصورة أو الطباعة**
 
-###  **إنشاء مصنف قالب في Microsoft Excel**
+### **إنشاء ملف عمل قالب في Microsoft Excel**
 
-لقد أنشأت مصنفًا جديدًا في MS Excel وأضفت بعض البيانات في ورقة العمل الأولى. الآن ، سأقوم بتحويل ورقة عمل ملف القالب "Sheet1" إلى ملف صورة "SheetImage.tiff" وسأطبق خيارات مختلفة للصور مثل الدقة الأفقية والرأسية ، و TiffCompression وما إلى ذلك.
+لقد أنشأت ورق عمل جديد في MS Excel وأضافت بعض البيانات في الورقة العمل الأولى. الآن، سأقوم بتحويل ورقة العمل في ملف القالب "Sheet1" إلى ملف صورة "SheetImage.tiff" وسأطبق خيارات الصور المختلفة مثل الدقة الأفقية والعمودية وضغط Tiff وما إلى ذلك.
 
-###  **قم بتنزيل وتثبيت Aspose.Cells**
+### **تنزيل وتثبيت Aspose.Cells**
 
- أولا ، أنت بحاجة إلى[تحميل](https://downloads.aspose.com/cells/net) Aspose.Cells لـ .Net. قم بتثبيته على جهاز الكمبيوتر الخاص بك. الجميع[Aspose](http://www.aspose.com/)المكونات ، عند تثبيتها ، تعمل في وضع التقييم. لا يوجد حد زمني لوضع التقييم ويقوم فقط بحقن العلامات المائية في المستندات المنتجة.
+أولاً، تحتاج إلى [تنزيل](https://downloads.aspose.com/cells/net) Aspose.Cells for .Net. قم بتثبيته على جهاز التطوير الخاص بك. كل عناصر [Aspose](http://www.aspose.com/)، عند التثبيت تعمل في وضع التقييم. يوجد لوضع التقييم حدود زمنية وهو يضع علامات مائية فقط في المستندات المنتجة.
 
-###  **أنشئ مشروعًا**
+### **إنشاء مشروع**
 
-ابدأ تشغيل Visual Studio. صافي وإنشاء تطبيق وحدة تحكم جديد. سيعرض هذا المثال تطبيق وحدة تحكم C# ، ولكن يمكنك استخدام VB.NET أيضًا.
+ابدأ Visual Studio. Net وأنشئ تطبيق وحدة التحكم الجديد. سيظهر هذا المثال تطبيق وحدة التحكم C#، ولكن يمكنك استخدام VB.NET أيضًا.
 
-###  **أضف المراجع**
+### **إضافة الإشارات**
 
-سيستخدم هذا المشروع Aspose.Cells. لذلك ، يجب عليك إضافة مرجع إلى مكون Aspose.Cells في مشروعك. على سبيل المثال ، أضف مرجعًا إلى…. \ Program Files \ Aspose \ Aspose.Cells for .NET \ Bin \ Net1.0 \ Aspose.Cells.dll
+سيستخدم هذا المشروع Aspose.Cells. لذا، يجب عليك إضافة الإشارة إلى مكون Aspose.Cells في مشروعك. على سبيل المثال، أضف إشارة إلى ….\Program Files\Aspose\Aspose.Cells for .NET\Bin\Net1.0\Aspose.Cells.dll
 
-###  **تحويل ورقة العمل إلى ملف صورة**
+### **تحويل ورقة العمل إلى ملف صورة**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-WorksheetToAnImage-1.cs" >}}
 
-##  **خيارات التحويل**
+## **خيارات التحويل**
 
-من الممكن حفظ صفحات معينة على الصورة. الكود التالي يحول أوراق العمل الأولى والثانية في مصنف إلى صور JPG.
+من الممكن حفظ صفحات محددة إلى صورة. يحول الرمز التالي الصفحتين الأولى والثانية في دفتر عمل إلى صور JPG.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-SpecificPagesToImage-1.cs" >}}
 
-##  **تحويل الصور باستخدام WorkbookRender**
+## **تحويل الصور باستخدام WorkbookRender**
 
-يمكن أن تحتوي صورة TIFF على أكثر من إطار واحد. يمكنك حفظ المصنف بأكمله في صورة واحدة TIFF بمضاعفة الإطارات أو الصفحات:
+يمكن أن يحتوي ملف الصورة TIFF على أكثر من إطار واحد. يمكنك حفظ ورقة العمل بأكملها في صورة TIFF واحدة بإطارات أو صفحات متعددة:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingImageOrPrintOptions-UseWorkbookRenderForImageConversion-1.cs" >}}
 

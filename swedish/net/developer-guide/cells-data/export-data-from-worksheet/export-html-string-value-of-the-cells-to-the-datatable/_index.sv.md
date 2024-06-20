@@ -1,21 +1,22 @@
 ---
-title: Exportera HTML strängvärde för Cells till datatabellen
+title: Exportera HTML strängvärde av cellerna till DataTable
 type: docs
 weight: 260
 url: /sv/net/export-html-string-value-of-the-cells-to-the-datatable/
-description: Lär dig hur du exporterar HTML strängvärde för Cells till datatabellen via Aspose.Cells for .NET API.
-keywords: Export HTML String Value of the Cells to the DataTable, Export HTML String Value to the DataTable
+description: Lär dig hur man exporterar HTML strängvärde av cellerna till DataTable genom Aspose.Cells for .NET API.
+keywords: Exportera HTML strängvärde av cellerna till DataTable, Exportera HTML strängvärde till DataTable
 ---
-##  **Möjliga användningsscenarier**
-Med hjälp av Aspose.Cells API:er kan utvecklare fylla en datatabell med motsvarande HTML-strängar (baserat på cellvärden) medan de exporterar kalkylbladsdata. Det här dokumentet förklarar hur man exporterar HTML-strängar för de formaterade celldata för att fylla en datatabell med Aspose.Cells API:er.
-##  **Exportera HTML strängvärde för Cells till datatabellen**
- Följande exempelkod illustrerar hur man exporterar strängvärdet HTML för cellerna till DataTable medan man exporterar data från kalkylbladet till DataTable. Vänligen se[exempel på Excel-fil](45056025.xlsx), dess skärmdump och konsolutgången för en referens.
-##  **Skärmdump**
+
+## **Möjliga användningsscenario**
+Med Aspose.Cells API kan utvecklare fylla en DataTable med motsvarande HTML-strängar (baserat på cellvärden) vid export av arbetsbladsdata. Denna dokumentation förklarar hur man exporterar HTML-strängar för de formaterade cellvärdena för att fylla en DataTable med hjälp av Aspose.Cells API.
+## **Exportera HTML-strängvärde av celler till DataTable**
+Följande exempelkod illustrerar hur man exporterar HTML-strängvärde av cellerna till DataTable vid export av data från arbetsblad till DataTable. Se den [exempel-Excel-filen](45056025.xlsx), dess skärmbild och konsoloutput för referens.
+## **Skärmdump**
 ![todo:image_alt_text](export-html-string-value-of-the-cells-to-the-datatable_1.png)
-##  **Exempelkod**
+## **Exempelkod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ExportHTMLStringValueOfCellsToDataTable.cs" >}}
-##  **Konsolutgång**
-{{< highlight "java" >}}
+## **Konsoloutput**
+{{< highlight java >}}
 
  <Font Style="FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #00b0f0;Background-Color: #ffe699;">Crow</Font>
 

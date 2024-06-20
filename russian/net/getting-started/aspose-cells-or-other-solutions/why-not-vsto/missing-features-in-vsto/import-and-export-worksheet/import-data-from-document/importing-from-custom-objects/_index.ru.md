@@ -1,12 +1,13 @@
-﻿---
+---
 title: Импорт из пользовательских объектов
 type: docs
 weight: 30
 url: /ru/net/importing-from-custom-objects/
 ---
- Разработчики могут импортировать данные из коллекции объектов на рабочий лист, используя**Импорт пользовательских объектов**. Вы можете предоставить список столбцов/свойств методу для отображения желаемого списка объектов.
 
-{{< highlight "csharp" >}}
+Разработчики могут импортировать данные из коллекции объектов в лист Excel с использованием **ImportCustomObjects**. Вы можете предоставить список столбцов/свойств для метода, чтобы отобразить ваш список желаемых объектов.
+
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -36,7 +37,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 

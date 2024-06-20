@@ -1,31 +1,32 @@
-﻿---
-title: ابحث في مستند
+---
+title: البحث في مستند
 type: docs
 weight: 60
 url: /ar/sharepoint/search-in-a-document/
 ---
-Aspose.Cells for SharePoint يدعم البحث في الوثائق المخزنة في مواقع SharePoint. يدعم Aspose.Cells لـ Share Point تنسيقات الإدخال التالية لمعاينة المستندات:
 
-- XLS-Microsoft إكسل 97-2003
-- XLSX - Office Open XML
-- XLSM، XLTX، XLTM - Office Open XML
-- XML - Microsoft Excel SpreadsheetML
+يدعم Aspose.Cells for SharePoint عمليات البحث في المستندات المخزنة في مواقع SharePoint. Aspose.Cells for Share Point يدعم تنسيقات الإدخال التالية لمعاينة المستندات:
+
+- XLS – Microsoft Excel 97 - 2003
+- XLSX – Office Open XML
+- XLSM, XLTX, XLTM – Office Open XML
+- XML - جدول بيانات Microsoft Excel
 
 للبحث في مستند:
 
-1. حدد المستند أو المجلد الذي تريد البحث فيه.
-1.  انقر بزر الماوس الأيمن واختر**ابحث في المستند باستخدام Aspose.Cells**. 
-1.  حدد معايير البحث.
- يتم عرض نتائج البحث.
+1. حدد مستندًا أو مجلدًا تريد البحث فيه.
+1. انقر بزر الماوس الأيمن وحدد **البحث في المستند باستخدام Aspose.Cells**. 
+1. قم بتعيين معايير البحث. 
+   يتم عرض نتائج البحث.
 
 **خيار البحث في المستند** 
 
-![ما يجب القيام به: image_بديل_نص](search-in-a-document_1.png)
+![todo:image_alt_text](search-in-a-document_1.png)
 
-**حدد معايير البحث** 
+**تعيين معايير البحث** 
 
-![ما يجب القيام به: image_بديل_نص](search-in-a-document_2.png)
+![todo:image_alt_text](search-in-a-document_2.png)
 
 **نتائج البحث** 
 
-![ما يجب القيام به: image_بديل_نص](search-in-a-document_3.png)
+![todo:image_alt_text](search-in-a-document_3.png)

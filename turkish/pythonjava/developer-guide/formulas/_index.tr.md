@@ -1,6 +1,8 @@
-﻿---
-title: formüller
+---
+title: Formüller
 type: docs
 weight: 80
 url: /tr/python-java/formulas/
 ---
+
+

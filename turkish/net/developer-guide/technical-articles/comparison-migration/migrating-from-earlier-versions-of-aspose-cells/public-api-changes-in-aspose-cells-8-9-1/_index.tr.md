@@ -1,36 +1,37 @@
-﻿---
-title: Genel API Aspose.Cells 8.9.1'deki değişiklikler
+---
+title: Aspose.Cells 8.9.1 deki Genel API Değişiklikleri
 type: docs
 weight: 310
 url: /tr/net/public-api-changes-in-aspose-cells-8-9-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.9.0'dan 8.9.1'e modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, Aspose.Cells API'sinde 8.9.0'dan 8.9.1'e yapılan değişiklikleri modül/uygulama geliştiricilerinin ilgisini çekebilecek şekilde açıklar. Sadece yeni ve güncellenmiş genel yöntemleri, eklenmiş ve kaldırılmış sınıfları vb. içermekle kalmaz, aynı zamanda Aspose.Cells'in arka plandaki davranışında herhangi bir değişikliğin açıklamasını da içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **Yapılandırılabilir Yazı Tipi Kaynakları**
-Aspose.Cells for .NET, elektronik tabloları işlemek için yapılandırılabilir yazı tipi kaynaklarına destek sağlamak üzere bir dizi sınıfı kullanıma sunmuştur. Aspose.Cells 8.9.1 ile eklenen sınıfların listesi aşağıdadır.
+Aspose.Cells for .NET, elektronik tabloları render etme için yapılandırılabilir yazı tipi kaynaklarını desteklemek için bir dizi sınıfı açıklamıştır. Aşağıda Aspose.Cells for .NET 8.9.1 ile eklenen sınıfların listesi bulunmaktadır.
 
-1. FontConfigs sınıfı, yazı tipi ayarlarını belirtir.
-1. FontSourceBase sınıfı, kullanıcının çeşitli yazı tipi kaynakları belirtmesine izin veren sınıflar için soyut bir temel sınıftır.
-1. FileFontSource sınıfı, dosya sisteminde depolanan tek TrueType yazı tipi dosyasını temsil eder.
+1. FontConfigs sınıfı yazı tipi ayarlarını belirtir.
+1. FontSourceBase sınıfı, kullanıcının çeşitli yazı tipi kaynaklarını belirtmesini sağlayan sınıflar için soyut bir temel sınıftır.
+1. FileFontSource sınıfı, dosya sistemine depolanan tek TrueType yazı tipi dosyasını temsil eder.
 1. FolderFontSource sınıfı, TrueType yazı tipi dosyalarını içeren klasörü temsil eder.
 1. MemoryFontSource sınıfı, bellekte depolanan tek TrueType yazı tipi dosyasını temsil eder.
-1. FontSourceType numaralandırması, bir yazı tipi kaynağının türünü belirtir.
+1. FontSourceType numaralandırması bir yazı tipi kaynağının türünü belirtir.
 
-Yukarıda belirtilen değişikliklerle, Aspose.Cells for .NET, yazı tiplerini aşağıda ayrıntılı olarak ayarlamanıza olanak tanır.
+Yukarıda belirtilen değişikliklerle, Aspose.Cells for .NET aşağıda ayrıntılı olarak belirtildiği gibi yazı tiplerini ayarlamaya izin verir.
 
-1. FontConfigs.SetFontFolder yöntemini kullanırken bir özel yazı tipi klasörü ayarlayın.
-1. FontConfigs.SetFontFolders yöntemini kullanırken birden fazla özel yazı tipi klasörü ayarlayın.
-1. FontConfigs.SetFontSources yöntemini kullanırken özel bir font klasöründen, tek bir font dosyasından veya bir bayt dizisinden font verilerini ayarlayın.
+1. FontConfigs.SetFontFolder yöntemini kullanırken özel bir yazı tipi klasörü ayarlayın.
+1. FontConfigs.SetFontFolders yöntemini kullanırken birçok özel yazı tipi klasörü ayarlayın.
+1. FontConfigs.SetFontSources yöntemini kullanırken özel bir yazı tipi klasöründen, tek bir yazı tipi dosyasından veya bayt dizisinden yazı tipi kaynakları ayarlayın.
 
-İşte yukarıda belirtilen yöntemlerin basit kullanım senaryosu.
+Yukarıda belirtilen yöntemlerin basit kullanım senaryosu aşağıda verilmiştir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Defining string variables to store paths to font folders & font file
 
@@ -50,7 +51,7 @@ FontConfigs.SetFontFolder(fontFolder1, true);
 
 // Second parameter prohibits the API to search the subfolders for font files
 
-FontConfigs.SetFontFolders(new string[]{ fontFolder1, fontFolder2 }, false);
+FontConfigs.SetFontFolders(new string[] { fontFolder1, fontFolder2 }, false);
 
 // Defining FolderFontSource
 
@@ -66,58 +67,58 @@ MemoryFontSource sourceMemory = new MemoryFontSource(System.IO.File.ReadAllBytes
 
 //Setting font sources
 
-FontConfigs.SetFontSources(new FontSourceBase[]{ sourceFolder, sourceFile, sourceMemory});
+FontConfigs.SetFontSources(new FontSourceBase[] { sourceFolder, sourceFile, sourceMemory});
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
 
-FontConfigs.SetFontFolder & FontConfigs.SetFontFolders yöntemlerinin her ikisi de bir Boole tipi ikinci parametreyi kabul eder. True'yu ikinci parametre olarak iletmek, Aspose.Cells API'lerini yazı tipi dosyaları için alt klasörleri aramaya yönlendirecektir.
+FontConfigs.SetFontFolder ve FontConfigs.SetFontFolders yöntemleri her ikisi de ikinci bir parametre olarak Boolean türünü kabul eder. İkinci parametre olarak true geçmek, Aspose.Cells API'larının yazı tipleri dosyaları için alt klasörleri aramasını sağlayacaktır.
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET ayrıca yazı tipi değiştirmeyi yapılandırmaya izin verir. Bu mekanizma, dönüştürmenin gerçekleşmesi gereken makinede gerekli bir yazı tipi bulunmadığında yardımcı olur. Kullanıcılar, başlangıçta gerekli olan yazı tipine alternatif olarak bir yazı tipi adları listesi sağlayabilir. Bunu başarmak için Aspose.Cells API'leri, 2 parametreyi kabul eden FontConfigs.SetFontSubstitutes yöntemini kullanıma sunmuştur. İlk parametre, değiştirilmesi gereken yazı tipinin adı olması gereken dize türündedir. İkinci parametre, string türünde bir dizidir. Kullanıcılar, orijinal yazı tipi adının (ilk parametrede belirtilen) yerine geçen bir yazı tipi adları listesi sağlayabilir.
+Aspose.Cells for .NET, dönüşümün gerçekleştiği makinede gereken yazı tipi bulunmadığında yardımcı olabilecek bir mekanizma da sağlar. Kullanıcılar, 2 parametre kabul eden FontConfigs.SetFontSubstitutes yöntemini kullanabilir. İlk parametre, yerine konulması gereken yazı tipi adı olmalıdır. İkinci parametre dizi türünde olup, alternatif yazı tipleri listesi sağlar.
 
-İşte FontConfigs.SetFontSubstitutes yönteminin basit kullanım senaryosu.
+FontConfigs.SetFontSubstitutes yönteminin basit kullanım senaryosu aşağıda verilmiştir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Substituting the Arial font with Times New Roman & Calibri
 
-FontConfigs.SetFontSubstitutes("Arial", new string[]{ "Times New Roman", "Calibri" });
+FontConfigs.SetFontSubstitutes("Arial", new string[] { "Times New Roman", "Calibri" });
 
 {{< /highlight >}}
 
 
 
-Aspose.Cells for .NET, hangi kaynakların ve ikamelerin ayarlandığı hakkında bilgi toplamak için araçlar da sağlamıştır.
+Aspose.Cells for .NET, belirtilen kaynakları ve yerine koymaları toplamak için de araçlar sağlar.
 
-1. FontConfigs.GetFontSources yöntemi, belirtilen yazı tipi kaynaklarının listesini içeren FontSourceBase türünde bir dizi döndürür. Hiçbir kaynağın ayarlanmamış olması durumunda, FontConfigs.GetFontSources yöntemi boş bir dizi döndürür.
-1. FontConfigs.GetFontSubstitutes yöntemi, bir ikamenin ayarlandığı yazı tipi adını belirtmeye izin veren dize türünde bir parametre kabul eder. Belirtilen yazı tipi adı için herhangi bir ikame ayarlanmamışsa, FontConfigs.GetFontSubstitutes yöntemi null değerini döndürür.
+1. FontConfigs.GetFontSources yöntemi, belirtilen yazı tipi kaynaklarının listesini içeren FontSourceBase türünde bir dizi döndürür. Hiçbir kaynak belirlenmemişse, FontConfigs.GetFontSources yöntemi boş bir dizi döndürür.
+1. FontConfigs.GetFontSubstitutes yöntemi, yerine koyma yapılan yazı tipi adını belirlemek için dize türünde bir parametre kabul eder. Belirtilen yazı tipi adı için hiçbir yerine koyma belirlenmemişse, FontConfigs.GetFontSubstitutes yöntemi null döndürecektir.
 
 {{% alert color="primary" %}} 
 
- FontConfig'ler hakkında daha fazla ayrıntı için lütfen şu makaleyi inceleyin:[Elektronik Tabloları Oluşturmak için Yazı Tiplerini Yapılandırma](/cells/tr/net/configuring-fonts-for-rendering-spreadsheets/).
+FontConfigs hakkında daha fazla bilgi için, [Hücre Ele Algoritması için Yazı Tiplerini Yapılandırma](/cells/tr/net/configuring-fonts-for-rendering-spreadsheets/) makalesini inceleyin.
 
 {{% /alert %}} 
-### **IFilePathProvider Arayüzü & HtmlSaveOptions.FilePathProvider özelliği eklendi**
-Aspose.Cells for .NET 8.9.1, çalışma sayfalarını ayrı HTML dosyalarına dışa aktarmak için IFilePathProvider'ın alınmasına/ayarlanmasına izin verir. Bu yeni API'ler, bir çalışma sayfasındaki köprülerin başka bir çalışma sayfasındaki bir konuma işaret ettiği ve uygulama gereksiniminin her çalışma sayfasını ayrı HTML dosyasına dönüştürmek olduğu senaryolarda yardımcı olur. IFilePathProvider'ı uygulamak, ayrı bir sonuçtaki HTML dosyasında bir konumu işaret ediyor olsalar da, yukarıda belirtilen köprülerin bozulmadan kalmasına izin verir.
+### **IFilePathProvider Arayüzü ve HtmlSaveOptions.FilePathProvider özelliği eklendi**
+Aspose.Cells for .NET 8.9.1, çalışsayfalarını ayrı HTML dosyalarına dışa aktarmak için IFilePathProvider almasına ve ayarlamasına olanak sağlar. Bu yeni API'ler, bir çalışsayfadaki hiperbağlantıların başka bir çalışsayfada bir konuma işaret ettiği senaryolarda faydalıdır ve uygulama gereksinimi, her çalışsayfayı ayrı bir HTML dosyasına dönüştürmektir. IFilePathProvider'ı uygulamak, bahsedilen hiperbağlantıların, ayrı sonuç HTML dosyasına işaret ediyor olsalar da orijinallerini korumayı sağlar.
 
-HtmlSaveOptions.FilePathProvider özelliğinin basit kullanım senaryosu aşağıdadır.
+HtmlSaveOptions.FilePathProvider özelliğinin basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- // Çalışma Kitabı örneğine bir elektronik tablo yükleyin
+ // Load a spreadsheet in an instance of Workbook
 
 var book = new Workbook(dir + "sample.xlsx");
 
-// HTML dosyasını ayırmak için her Çalışma Sayfasını kaydedin
+// Save each Worksheet to separate HTML file
 
- için (int ben = 0; ben< book.Worksheets.Count; i++)
+for (int i = 0; i < book.Worksheets.Count; i++)
 
 {
 
@@ -145,11 +146,11 @@ var book = new Workbook(dir + "sample.xlsx");
 
 
 
-IFilePathProvider arabiriminin nasıl uygulanacağı aşağıda açıklanmıştır.
+IFilePathProvider arayüzünü uygulamanın nasıl olduğu aşağıda özetlenmiştir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class FilePathProvider : IFilePathProvider
 
@@ -203,17 +204,17 @@ IFilePathProvider arabiriminin nasıl uygulanacağı aşağıda açıklanmışt�
 
 {{% alert color="primary" %}} 
 
- Bu geliştirme hakkında daha fazla ayrıntı için lütfen şu makaleyi inceleyin:[IFilePathProvider Arayüzünü Uygulama](/cells/tr/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/).
+Bu geliştirme hakkında daha fazla bilgi için, [IFilePathProvider Arayüzünü Uygulama](/cells/tr/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/) makalesine göz atın.
 
 {{% /alert %}} 
-### **Cells.CopyRows Yöntemi için CopyOptions.ReferToDestinationSheet Özelliği ve Aşırı Yükleme eklendi**
-Aspose.Cells for .NET API, kopyalanacak satırlar aynı zamanda bir grafik ve bunun veri kaynağını içerdiğinde satırları kopyalama işlemini kolaylaştırmak için Cells.CopyRows yönteminin aşırı yüklemesiyle birlikte Boole tipi CopyOptions.ReferToDestinationSheet özelliğini kullanıma sundu. Geliştiriciler, grafiğin veri kaynağını kaynak veya hedef çalışma sayfalarına yönlendirmek için bu yeni API'leri kullanabilir.
+### **CopyOptions.ReferToDestinationSheet Özelliği ve Cells.CopyRows Yöntemi için aşırı yükleme eklendi.**
+Aspose.Cells for .NET API'si, hücreleri kopyalamak için kullanılan aşırı yükleme ile birlikte Boolean türünde CopyOptions.ReferToDestinationSheet özelliğini ortaya çıkarmıştır. Geliştiriciler, yeni bu API'leri kullanarak kopyalanacak hücrelerin aynı zamanda bir grafik ve veri kaynağı içerdiği durumda, grafik veri kaynağını kaynak veya hedef çalışsayfalara yönlendirebilirler.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet in an instance of Workbook
 
@@ -245,17 +246,17 @@ book.Save(dir + "output.xlsx");
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için lütfen şu makaleyi inceleyin:[Satırları Kopyalarken Grafiğin Veri Kaynağını Kontrol Edin](/cells/tr/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/).
+Bu özellik hakkında daha fazla bilgi için, [Satırları Kopyalarken Grafiğin Veri Kaynağını Kontrol Etme](/cells/tr/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/) makalesine göz atın.
 
 {{% /alert %}} 
-### **CalculationOptions.Recursive Özelliği Eklendi**
-Aspose.Cells for .NET 8.9.1, Boole tipi CalculationOptions.Recursive özelliğini kullanıma sundu. CalculationOptions.Recursive özelliğinin true olarak ayarlanması ve nesnenin Workbook.CalculateFormula yöntemine iletilmesi, Aspose.Cells API'lerini, diğer hücrelere bağlı olan hücreleri hesaplarken bağımlı hücreleri yinelemeli olarak hesaplamaya yönlendirir.
+### **CalculationOptions.Recursive Özelliği eklendi**
+Aspose.Cells for .NET 8.9.1, Boolean türünde CalculationOptions.Recursive özelliğini ortaya çıkarmıştır. CalculationOptions.Recursive özelliğini doğru olarak ayarlamak ve nesneyi Workbook.CalculateFormula yöntemine iletme, bağımlı hücreleri hesaplarken Aspose.Cells API'larını diğer hücrelere bağlı olarak rekürsif olarak hesaplamaya yönlendirir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet in an instance of Workbook
 
@@ -275,13 +276,13 @@ book.CalculateFormula(options);
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için lütfen şu makaleyi inceleyin:[Hesaplama Süresini Optimize Edin](/cells/tr/net/decrease-the-calculation-time-of-cell-calculate-method/).
+Bu özellik hakkında daha fazla bilgi için, [Hesaplama Zamanını Optimize Etme](/cells/tr/net/decrease-the-calculation-time-of-cell-calculate-method/) makalesine göz atın.
 
 {{% /alert %}}
-## **Eski API'ler**
-### **Eski CellsHelper.FontDir Özellik**
-FontConfigs.SetFontFolder(string, bool) yöntemini, bunun yerine yinelemeli klasör ile false olarak kullanmanız önerilir.
+## **Eskimiş API'lar**
+### **Eski CellsHelper.FontDir Özelliği**
+FontConfigs.SetFontFolder(string, bool) yönteminin, recursive özelliği false olarak klasör kullanımı önerilir.
 ### **Eski CellsHelper.FontDirs Özelliği**
-FontConfigs.SetFontFolders(string[], bool) yöntemini, bunun yerine yinelemeli klasör ile false olarak kullanın.
+FontConfigs.SetFontFolders(string[], bool) yönteminin, recursive özelliği false olarak klasör kullanımı önerilir.
 ### **Eski CellsHelper.FontFiles Özelliği**
-Bunun yerine FontConfigs.SetFontSources(FontSourceBase[]) yöntemini kullanın.
+FontConfigs.SetFontSources(FontSourceBase[]) yöntemi kullanımı önerilir.

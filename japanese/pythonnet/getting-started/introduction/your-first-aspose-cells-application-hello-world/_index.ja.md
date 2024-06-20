@@ -1,42 +1,43 @@
-﻿---
-title: 最初の Aspose.Cells アプリケーション - Hello World
+---
+title: Aspose.Cellsアプリケーションの最初の例  Hello World
 type: docs
 weight: 30
 url: /ja/python-net/your-first-aspose-cells-application-hello-world/
 ---
+
 {{% alert color="primary" %}}
 
-この初心者向けトピックでは、開発者が Aspose.Cells' simple API を使用して単純な最初のアプリケーション (Hello World) を作成する方法を示します。アプリケーションは、ワークシートの指定されたセルに Hello World という単語を含む Microsoft Excel ファイルを作成します。
+この初心者向けのトピックでは、開発者がAspose.Cellsの単純なAPIを使用して最初のアプリケーション（Hello World）を作成する方法を示しています。このアプリケーションは、ワークシートの特定のセルにHello Worldという言葉が記載されたMicrosoft Excelファイルを作成します。
 
 {{% /alert %}}
 
-### **Hello World アプリケーションの作成**
+### **Hello Worldアプリケーションの作成**
 
-Aspose.Cells API を使用して Hello World アプリケーションを作成するには:
+Aspose.Cells APIを使用してHello Worldアプリケーションを作成するには：
 
-1. Workbook クラスのインスタンスを作成します。
-1. ライセンスを適用します。
-1. ライセンスを購入した場合は、アプリケーションでライセンスを使用して Aspose.Cells の全機能にアクセスします
-1. コンポーネントの評価版を使用している場合 (ライセンスなしで Aspose.Cells を使用している場合)、この手順をスキップします。
-1. 新しい Microsoft Excel ファイルを作成するか、テキストを追加/更新する既存のファイルを開きます。
-1. Microsoft Excel ファイルのワークシートの任意のセルにアクセスします。
-1. 単語を挿入する**Hello World!**アクセスされたセルに。
-1. 変更された Microsoft Excel ファイルを生成します。
+1. Workbook クラスのインスタンスを作成します。
+1. ライセンスを適用します：
+   1. ライセンスを購入している場合は、ライセンスを使用してアプリケーションにAspose.Cellsの完全機能にアクセスします。
+   1. コンポーネントの評価版を使用している場合（ライセンスなしでAspose.Cellsを使用している場合）は、このステップをスキップします。
+1. 新しいMicrosoft Excelファイルを作成するか、追加/更新したい既存のファイルを開きます。
+1. Microsoft Excelファイルのワークシートの任意のセルにアクセスします。
+1. アクセスしたセルに**Hello World!**の単語を挿入します。
+1. 変更されたMicrosoft Excelファイルを生成します。
 
-以下の例は、上記の手順を示しています。
+以下の例は上記の手順を示しています。
 
 #### **ワークブックの作成**
 
-次の例では、新しいワークブックをゼロから作成し、"Hello World!" という単語を書き込みます。最初のワークシートのセル A1 に入力し、ファイルを保存します。
+以下の例では、新しいワークブックをゼロから作成し、最初のワークシートのセルA1に"Hello World!"という単語を書き込み、ファイルを保存します。
 
 **生成されたスプレッドシート** 
 
-![todo:画像_代替_文章](your-first-aspose-cells-application-hello-world_1.png)
+![todo:image_alt_text](your-first-aspose-cells-application-hello-world_1.png)
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CreatingHelloWorldFile.py" >}}
 
 #### **既存のファイルを開く**
 
-次の例では、既存の Microsoft Excel テンプレート ファイルを開きます。**book1.xls**、「Hello World！」という言葉を書きます。最初のワークシートのセル A1 で、ブックを新しいファイルとして保存します。
+以下の例では、"book1.xls"という既存のMicrosoft Excelテンプレートファイルを開き、最初のワークシートのセルA1に"Hello World!"という単語を書き込んで、ワークブックを新しいファイルとして保存します。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpeningExistingFile.py" >}}

@@ -1,15 +1,16 @@
-﻿---
-title: حماية كلمة المرور لمشروع VBA من مصنف Excel
+---
+title: حماية كلمة السر لمشروع VBA لسجل العمل الخاص بـ Excel
 type: docs
 weight: 10
 url: /ar/net/password-protect-the-vba-project-of-excel-workbook/
 ---
-## **حماية كلمة المرور لمشروع VBA الخاص بـ Excel Workbook في C#**
 
-يمكنك حماية كلمة المرور لمشروع المصنف VBA (Visual Basic for Applications) باستخدام Aspose.Cells[**VbaProject.Protect ()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/methods/protect)طريقة.
+## **حماية كلمة مرور لمشروع VBA لسجل العمل الخاص بـ Excel في C#**
 
-## **عينة من الرموز**
+يمكنك حماية مشروع VBA (Visual Basic for Applications) لسجل العمل باستخدام [**VbaProject.Protect()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/methods/protect)  في Aspose.Cells باستخدام كلمة مرور.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](43352067.xlsm)، يصل إلى VBA Project ويحميها بكلمة مرور. أخيرًا يحفظه باسم[إخراج ملف Excel](43352068.xlsm).
+## **الكود المثالي**
+
+الرمز العيني التالي يقوم بتحميل [ملف Excel عيني](43352067.xlsm) وصول إلى مشروعه VBA وحمايته بكلمة مرور. في النهاية يحفظه باسم [ملف إكسل الناتج](43352068.xlsm).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProjectPassword-ProtecttheVBAProjectofExcelWorkbook.cs" >}}

@@ -1,16 +1,17 @@
-﻿---
-title: Verwenden von CustomImplementationFactory zum Erstellen einer benutzerdefinierten Implementierung von Memory Stream
+---
+title: Verwendung von CustomImplementationFactory zur Erstellung einer benutzerdefinierten Implementierung des MemoryStream
 type: docs
 weight: 40
 url: /de/net/using-customimplementationfactory-to-create-custom-implementation-of-memory-stream/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Aspose.Cells hat eine API mit dem Namen bereitgestellt[**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory)Dadurch kann der Benutzer eine benutzerdefinierte Implementierung bereitstellen, z. B. die Verwendung einer recyclebaren Speicherimplementierung anstelle des Standard-MemoryStream.
+## **Mögliche Verwendungsszenarien**
 
-## **Verwenden von CustomImplementationFactory zum Erstellen einer benutzerdefinierten Implementierung von Memory Stream**
+Aspose.Cells hat eine API namens [**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory), die es dem Benutzer ermöglicht, benutzerdefinierte Implementierungen wie die Verwendung der Recyclable-Speicherimplementierung anstelle des Standard-MemoryStream zu verwenden.
 
-Der folgende Beispielcode veranschaulicht die Verwendung von[**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory)in deinem Programm. Manchmal ist in Ihrem System genügend Speicher vorhanden, aber der Speicher ist nicht zusammenhängend. Memory Stream-Objekte verwenden zusammenhängenden Speicher, aber Sie können die Implementierung von Memory Stream so bereitstellen, dass stattdessen der nicht zusammenhängende Speicher verwendet wird.
+## **Verwendung von CustomImplementationFactory zur Erstellung einer benutzerdefinierten Implementierung des MemoryStream**
+
+Der folgende Beispielcode veranschaulicht, wie man [**CellsHelper.CustomImplementationFactory**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/customimplementationfactory) in Ihrem Programm verwendet. Manchmal gibt es genügend Speicher in Ihrem System, aber der Speicher ist nicht zusammenhängend. MemoryStream-Objekte verwenden zusammenhängenden Speicher, aber Sie können die Implementierung von MemoryStream so bereitstellen, dass sie stattdessen nicht zusammenhängenden Speicher verwendet.
 
 ## **Beispielcode**
 

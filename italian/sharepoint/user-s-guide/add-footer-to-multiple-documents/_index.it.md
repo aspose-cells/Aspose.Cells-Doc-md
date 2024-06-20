@@ -1,29 +1,30 @@
-﻿---
+---
 title: Aggiungi piè di pagina a più documenti
 type: docs
 weight: 80
 url: /it/sharepoint/add-footer-to-multiple-documents/
 ---
-Se desideri aggiungere un piè di pagina in più file Excel, scegli l'opzione "Aggiungi piè di pagina con Aspose.Cells" nella barra multifunzione.
 
-![cose da fare:immagine_alt_testo](add-footer-to-multiple-documents_1.png)
+Se desideri aggiungere un piè di pagina a più file Excel, seleziona l'opzione "Aggiungi piè di pagina con Aspose.Cells" nella barra multifunzione.
 
-
-
-Ottieni tutti i file Excel dalla cartella dell'origine dati e crea una tabella di elenco dei file.
-
- Seleziona il file che deve aggiungere il piè di pagina, fai clic**Aggiungi piè di pagina** pulsante per aggiungere piè di pagina per i file selezionati.
-
-![cose da fare:immagine_alt_testo](add-footer-to-multiple-documents_2.png)
+![todo:image_alt_text](add-footer-to-multiple-documents_1.png)
 
 
 
-Le seguenti opzioni sono disponibili durante l'aggiunta dell'impostazione del piè di pagina:
+Ottieni tutti i file Excel dalla cartella della fonte dati e crea un elenco di file.
+
+Seleziona il file a cui è necessario aggiungere un piè di pagina, fai clic sul pulsante **Aggiungi piè di pagina** per aggiungere un piè di pagina ai file selezionati. 
+
+![todo:image_alt_text](add-footer-to-multiple-documents_2.png)
+
+
+
+Le seguenti opzioni sono disponibili durante la configurazione dell'aggiunta del piè di pagina:
 
 **Sezione**
 
-Aggiungi la posizione del piè di pagina: Sezione sinistra, Sezione centrale e Sezione destra.
+Posizione del piè di pagina: Sezione sinistra, Sezione centrale e Sezione destra.
 
-**Script piè di pagina**
+**Script del piè di pagina**
 
-Rappresenta lo script di formattazione del piè di pagina. Comandi di script: Comando | Descrizione| &P Numero pagina corrente| &N Conteggio pagine|&D Data corrente| &T Ora corrente &A Nome foglio &F Nome file senza percorso &"<FontName>" Nome del carattere, ad esempio: &"Arial" &"<FontName>, <FontStyle>" Nome e stile del carattere, ad esempio: &"Arial,Bold" &<FontSize>Dimensione del font. Se questo comando è seguito da un numero in chiaro da stampare nell'intestazione, sarà separato dall'altezza del carattere con un carattere di spazio. &G Script immagine Ad esempio: "&Arial,Bold&8Footer Note".
+It represents Footer formatting script. Script commands: Command | Description| &P Current page number| &N Page count|&D Current date| &T Current time &A Sheet name &F File name without path &"<FontName>" Font name, for example: &"Arial" &"<FontName>, <FontStyle>" Font name and font style, for example: &"Arial,Bold" &<FontSize> Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. &G Image script For example: "&Arial,Bold&8Footer Note".

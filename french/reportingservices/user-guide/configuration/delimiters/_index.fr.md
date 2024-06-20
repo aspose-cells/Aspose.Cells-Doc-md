@@ -1,14 +1,15 @@
-﻿---
+---
 title: Délimiteurs
 type: docs
 weight: 20
 url: /fr/reportingservices/delimiters/
 ---
+
 Aspose.Cells for Reporting Services prend en charge un délimiteur spécifié lors du rendu au format TXT ou CSV. Deux paramètres contrôlent le délimiteur de champ dans Aspose.Cells for Reporting Services.
 
-1.  Le paramètre de délimiteur de champ dans**rsreportserver.config** ne peut contrôler qu'une extension de rendu spécifiée.
+1. Le paramètre de délimiteur de champ dans **rsreportserver.config** peut uniquement contrôler une extension de rendu spécifiée. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Extension Name="ACTXT" Type="Aspose.Cells.ReportingServices.TabDelimitedRenderer,Aspose.Cells.ReportingServices" >
 
@@ -64,9 +65,9 @@ Specified field delimiters configuration reference:
 
 
 
-1.  Le paramètre de délimiteur de champ dans**Aspose.Cells.ReportingServices.xml** peut contrôler toutes les extensions de rendu de type TXT.
+1. Le paramètre de délimiteur de champ dans **Aspose.Cells.ReportingServices.xml** peut contrôler toutes les extensions de rendu de type TXT. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 
 
@@ -87,4 +88,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- Le paramètre de délimiteur de champ dans**rsreportserver.config** est prioritaire sur le paramètre de délimiteur de champ dans**Aspose.Cells.ReportingServices.xml** . Lorsque le paramètre de délimiteur de champ dans**rsreportserver.config** est nul ou la valeur par défaut, le paramètre de délimiteur de champ dans**Aspose.Cells.ReportingServices.xml** est utilisé.
+Le paramètre de délimiteur de champ dans **rsreportserver.config** a la priorité sur le paramètre de délimiteur de champ dans **Aspose.Cells.ReportingServices.xml**. Lorsque le paramètre de délimiteur de champ dans **rsreportserver.config** est null ou la valeur par défaut, le paramètre de délimiteur de champ dans **Aspose.Cells.ReportingServices.xml** est utilisé.

@@ -1,16 +1,17 @@
-﻿---
-title: Ruby'de Çalışma Sayfasını Gizle veya Göster
+---
+title: Ruby de Bir Çalışsayı Gizle veya Göster
 type: docs
 weight: 60
 url: /tr/java/hide-or-unhide-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells - Bir Çalışma Sayfasını Gizle veya Göster**
-### **Bir Çalışma Sayfasını Gizleme**
- Ruby için Aspose.Cells Java kullanarak çalışma sayfasını gizlemek için arayın**çalışma sayfasını gizle** modül.
 
-**Yakut Kodu**
+## **Aspose.Cells - Bir Çalışsayı Gizle veya Göster**
+### **Bir Çalışsayıyı Gizleme**
+Aspose.Cells Java for Ruby kullanarak çalışsayıyı gizlemek için **hideunhideworksheet** modülünü çağırın.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -35,12 +36,12 @@ workbook.save(data_dir + "output.xls")
 puts "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
-### **Çalışma Sayfası Gösterme**
-Geliştiriciler, ayarlayarak bir çalışma sayfasını görünür yapabilir.*setVisible(* *doğru* *)*yöntemi**Çalışma kağıdı**sınıf.
+### **Bir Çalışsayıyı Gösterme**
+Geliştiriciler, **Worksheet** sınıfının *setVisible(true)* metodunu kullanarak bir çalışsayıyı görünür yapabilirler.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the worksheet of the Excel file
 
@@ -48,6 +49,6 @@ worksheet.setVisible(true)
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Bir Çalışma Sayfasını Gizle veya Göster (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Aspose.Cells** ile Bir Çalışsayıyı Gizle veya Göster'i indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/hideunhideworksheet.rb)

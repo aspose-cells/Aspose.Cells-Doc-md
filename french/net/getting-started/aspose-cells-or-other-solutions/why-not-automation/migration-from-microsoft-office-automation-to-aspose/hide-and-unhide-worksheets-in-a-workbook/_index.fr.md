@@ -1,43 +1,44 @@
-﻿---
+---
 title: Masquer et afficher des feuilles de calcul dans un classeur
 type: docs
 weight: 80
 url: /fr/net/hide-and-unhide-worksheets-in-a-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Lors de la présentation de classeurs à des clients ou d'une présentation, il peut être utile de masquer des feuilles de calcul dans un classeur. Une approche structurée de la modélisation de feuilles de calcul suggère que les données, les formules et les visualisations telles que les graphiques soient conservées sur des feuilles séparées. Cette approche maintient la mise en page propre et simple et facilite la navigation dans le classeur. Lors de la présentation des résultats, vous souhaiterez peut-être masquer les données ou les feuilles de formule pour éviter toute distraction.
+Lors de la présentation de classeurs aux clients, ou lors d'une présentation, il peut être utile de masquer des feuilles de calcul dans un classeur. Une approche structurée de la modélisation de feuilles de calcul suggère que les données, les formules et les visualisations telles que les graphiques sont conservées sur des feuilles séparées. Cette approche permet de maintenir une mise en page propre et simple et rend le classeur plus facile à naviguer. Lors de la présentation des résultats, vous pouvez vouloir masquer les feuilles de données ou de formules de la vue pour éviter les distractions.
 
-Les utilisateurs qui travaillent dans Microsoft Excel peuvent facilement masquer puis afficher (afficher) les feuilles de calcul. Les mêmes fonctionnalités sont disponibles pour les développeurs qui programment avec des feuilles de calcul Excel. Il existe différentes façons de travailler avec des feuilles de calcul à partir d'applications logicielles. Une méthode consiste à utiliser VSTO, une autre est Aspose.Cells for .NET.
+Les utilisateurs qui travaillent dans Microsoft Excel peuvent facilement masquer puis afficher (montrer) des feuilles de calcul. Les mêmes fonctionnalités sont disponibles pour les développeurs qui programment avec des feuilles de calcul Excel. Il existe différentes façons de travailler avec des feuilles de calcul à partir d'applications logicielles. Une méthode consiste à utiliser VSTO, une autre est Aspose.Cells for .NET.
 
 {{% /alert %}}
 
 ## **Masquer et afficher des feuilles de calcul**
 
- Cet article compare[cache](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) et[démasquer](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) feuilles de travail avec[VSTO](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) , en utilisant C# ou Visual Basic, pour effectuer la même tâche avec[Aspose.Cells](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/), en utilisant à nouveau C# ou Visual Basic. Aspose.Cells vous permet de travailler sans Microsoft Excel installé.
+Cet article compare [la masquage](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) et [la révélation](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) des feuilles de calcul avec [VSTO](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/), en utilisant soit C# soit Visual Basic, pour effectuer la même tâche avec [Aspose.Cells](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/), encore une fois en utilisant soit C# soit Visual Basic. Aspose.Cells vous permet de travailler sans Microsoft Excel installé.
 
-Les étapes pour masquer une feuille de calcul sont :
+Les étapes pour masquer une feuille de calcul sont :
 
-1. Ouvrez un fichier.
-1. Obtenez une feuille de travail.
-1. Masquez la feuille de calcul.
+1. Ouvrir un fichier.
+1. Obtenir une feuille de calcul.
+1. Masquer la feuille de calcul.
 1. Enregistrez le fichier.
 
- À[afficher](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) une feuille de calcul à nouveau, activez simplement la visibilité de la feuille masquée.
+Pour [afficher de nouveau](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) une feuille de calcul, basculez simplement la visibilité pour la feuille masquée.
 
- Les exemples de code ci-dessous montrent d'abord comment masquer une feuille de calcul. Les premiers échantillons montrent le processus avec[VSTO](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) , en utilisant C# ou Visual Basic, par rapport à l'utilisation[Aspose.Cells](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/), en utilisant à nouveau C# ou Visual Basics.
+Les exemples de code ci-dessous montrent d'abord comment masquer une feuille de calcul. Les premiers exemples montrent le processus avec [VSTO](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/), en utilisant soit C# soit Visual Basic, comparé à l'utilisation de [Aspose.Cells](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/), encore une fois en utilisant soit C# soit Visual Basic.
 
- Le deuxième ensemble d'exemples de code montre la ligne utilisée pour afficher la feuille de calcul dans[VSTO](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) ou alors[Aspose.Cells](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/).
+Le deuxième ensemble d'exemples de code montre la ligne utilisée pour rendre de nouveau visible la feuille de calcul dans [VSTO](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) ou [Aspose.Cells](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/).
 
-## **Masquer des feuilles de calcul**
+## **Masquage des feuilles de calcul**
 
-Vous trouverez ci-dessous des exemples de code pour VSTO et Aspose.Cells qui illustrent comment masquer une feuille de calcul dans un classeur.
+Ci-dessous se trouvent des échantillons de code pour VSTO et Aspose.Cells qui illustrent comment masquer une feuille de calcul dans un classeur.
 
-### **Masquer des feuilles de calcul avec VSTO**
+### **Masquage des feuilles de calcul avec VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -108,11 +109,11 @@ excelApp.Quit();
 {{< /highlight >}}
 
 
-### **Masquer les feuilles de calcul avec Aspose.Cells for .NET**
+### **Masquage des feuilles de calcul avec Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -156,15 +157,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **Afficher les feuilles de calcul**
+## **Révélation des feuilles de calcul**
 
-Vous trouverez ci-dessous des exemples de code pour VSTO et Aspose.Cells qui illustrent comment afficher une feuille de calcul dans un classeur.
+Ci-dessous se trouvent des échantillons de code pour VSTO et Aspose.Cells qui illustrent comment réafficher une feuille de calcul dans un classeur.
 
-### **Afficher une feuille de calcul avec VSTO**
+### **Révéler une feuille de calcul avec VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -181,7 +182,7 @@ objSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Unhide the worksheet.
 

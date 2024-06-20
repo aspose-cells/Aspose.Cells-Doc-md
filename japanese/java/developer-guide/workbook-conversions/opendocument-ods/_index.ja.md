@@ -1,18 +1,19 @@
-﻿---
-title: Excel ワークブックを Ods、Sxc、および Fods (OpenOffice / LibreOffice calc) に変換します。
-linktitle: オッズ
+---
+title: ExcelブックをOds、Sxc、およびFods（OpenOffice / LibreOffice calc）に変換する
+linktitle: Ods
 type: docs
 weight: 20
 url: /ja/java/opendocument-ods/
 ---
-## **オープンドキュメントについて**
 
-の[OpenDocument 形式 (ODF)](https://en.wikipedia.org/wiki/OpenDocument)は、もともと Sun が Open Office スイート用に開発した、電子オフィス ドキュメント用の無料でオープンなファイル形式です。 OpenDocument スプレッドシート (ODS) は、Excel ドキュメントのファイル形式です。 OpenDocument は現在、OASIS および ISO 標準です。
+## **OpenDocumentについて**
 
-## **Aspose.CellsのODS**
+[OpenDocument format（ODF）](https://en.wikipedia.org/wiki/OpenDocument)は、SunによってOpen Officeスイート向けに開発された電子オフィス文書のための無料かつオープンなファイルフォーマットです。OpenDocument Spreadsheet（ODS）はExcel文書のファイルフォーマットです。OpenDocumentは現在、OASISとISOの標準です。
 
- Aspose.Cells は、OpenDocument 1.1 および 1.2 ドキュメントの読み込みをサポートしています。 Aspose.Cells は、ドキュメントを OpenDocument 1 .1 形式で保存します。また、[詳細仕様](/cells/ja/java/opendocument-ods/)どの OpenDocument 機能がサポートされているかについて。
+## **Aspose.CellsのODSサポート**
 
-**Aspose.Cells によって生成され、OpenOffice Writer で開かれたサンプル ODS ドキュメント** 
+Aspose.CellsはOpenDocument 1.1および1.2ドキュメントの読み込みをサポートしています。Aspose.CellsはOpenDocument 1.1フォーマットでドキュメントを保存します。サポートされているOpenDocumentの詳細仕様については、[詳細な仕様](/cells/ja/java/opendocument-ods/)をご覧ください。
 
-![todo:画像_代替_文章](opendocument-ods_1.png)
+**Aspose.Cellsによって生成されたサンプルODS文書をOpenOffice Writerで開いた例** 
+
+![todo:image_alt_text](opendocument-ods_1.png)

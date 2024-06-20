@@ -1,16 +1,17 @@
-﻿---
-title: Extraiga imágenes de hojas de trabajo usando ImageOrPrintOptions
+---
+title: Extraer imágenes de hojas de cálculo utilizando ImageOrPrintOptions
 type: docs
 weight: 140
 url: /es/net/extract-images-from-worksheets-using-imageorprintoptions/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Los usuarios de Excel pueden agregar imágenes a las hojas de cálculo. Con Aspose.Cells, es posible leer imágenes de Microsoft archivos de Excel y guardarlos en una unidad local. Este artículo muestra cómo.
+Los usuarios de Microsoft Excel pueden agregar imágenes a hojas de cálculo. Con Aspose.Cells, es posible leer imágenes de archivos de Microsoft Excel y guardarlas en una unidad local. Este artículo muestra cómo hacerlo.
 
 {{% /alert %}} 
 
-El siguiente código de ejemplo muestra cómo extraer imágenes de un archivo de Excel y guardarlas.
+El código de muestra a continuación muestra cómo extraer imágenes de un archivo de Excel y guardarlas.
 
 
 

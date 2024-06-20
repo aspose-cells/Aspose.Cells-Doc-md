@@ -1,4 +1,4 @@
-﻿---
+---
 title: 技術記事
 type: docs
 weight: 90

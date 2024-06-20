@@ -1,26 +1,27 @@
-﻿---
-title: Grafik Sayfası için PdfBookmarkEntry Oluşturun
+---
+title: Grafik Sayfası için PdfBookmarkEntry Oluşturma
 type: docs
 weight: 50
 url: /tr/net/create-pdfbookmarkentry-for-chart-sheet/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Daha önce, Aspose.Cells oluşturacaktı[**PdfYer İşaretiGirişi**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) normal bir sayfa için. Ama şimdi Aspose.Cells de oluşturabilir[**PdfYer İşaretiGirişi**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) grafik sayfası için. Grafik sayfasının A1 hücresi dışında başka bir hücresi olmadığından,[**PdfYer İşaretiGirişi**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) yalnızca A1 hücresi için.
+Önceden, Aspose.Cells bir normal sayfa için [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) oluştururdu. Ancak şimdi Aspose.Cells, aynı zamanda bir grafik sayfası için de [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) oluşturabilir. Çünkü grafik sayfasının, A1 hücresi dışında başka hiçbir hücresi olmadığından, yalnızca A1 hücresi için [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) oluşturacaktır.
 
-## **Grafik Sayfası için PdfBookmarkEntry Oluşturun**
+## **Grafik Tablosu için PdfBookmarkEntry Oluştur**
 
- Aşağıdaki örnek kod,[örnek excel dosyası](61767756.xlsx) hangi dört yaprak vardır. Bunlardan ikisi normal sayfa, diğer ikisi ise tablo sayfasıdır. Aşağıdaki gibi dört yer imi girişi oluşturur
+Aşağıdaki örnek kod, dört çalışma sayfası içeren [örnek Excel dosyasını](61767756.xlsx) yükler. Bunlardan ikisi normal çalışma sayfalarıdır ve diğer ikisi grafik çalışma sayfalarıdır. Aşağıdaki gibi dört yer imi girişi oluşturur
 
-- Yer İşareti-I
-- Yer İşareti-II-Çizelge1
-- Yer İşareti-III
-- Bookmark-IV-Chart2
+- Yer İmi-I
+- Yer İmi-II-Chart1
+- Yer İmi-III
+- Yer İmi-IV-Chart2
 
-Aşağıdaki ekran görüntüsü[çıkış PDF](61767757.pdf)referans için örnek kod tarafından oluşturulur.
+Aşağıdaki ekran görüntüsü, örnek kod tarafından oluşturulan [çıktı PDF'yi](61767757.pdf) göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](create-pdfbookmarkentry-for-chart-sheet_1.png)
+![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rendering-CreatePdfBookmarkEntryForChartSheet.cs" >}}

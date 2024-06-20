@@ -1,125 +1,126 @@
-﻿---
+---
 title: Seiteneinrichtungsfunktionen
 type: docs
 weight: 40
 url: /de/java/page-setup-features/
 ---
-Manchmal ist es erforderlich, Seiteneinrichtungseinstellungen für Arbeitsblätter zu konfigurieren, um den Druck zu steuern. Diese Seiteneinrichtungseinstellungen bieten verschiedene Optionen.
+
+Manchmal ist es notwendig, Seiteneinrichtungseinstellungen für Arbeitsblätter zu konfigurieren, um den Druck zu steuern. Diese Seiteneinrichtungseinstellungen bieten verschiedene Optionen.
 
 **Seitenoptionen** 
 
-![todo: Bild_alt_Text](page-setup-features_1.png)
+![todo:image_alt_text](page-setup-features_1.png)
 
-Seiteneinrichtungsoptionen werden in Aspose.Cells vollständig unterstützt. In diesem Artikel wird erläutert, wie Sie Seitenoptionen mit Aspose.Cells festlegen.
+Seiteneinrichtungsoptionen werden in Aspose.Cells vollständig unterstützt. Dieser Artikel erklärt, wie Sie Seiteneinstellungen mit Aspose.Cells festlegen.
 
-## **Seitenoptionen festlegen**
+## **Seiteneinstellungen**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , die eine Microsoft Excel-Datei darstellt. Die Workbook-Klasse enthält eine Worksheets-Auflistung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.
+Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), die eine Microsoft Excel-Datei repräsentiert. Die Arbeitsmappe-Klasse enthält eine Arbeitsblätter-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) dargestellt.
 
-Die Worksheet-Klasse stellt die PageSetup-Eigenschaft bereit, die zum Festlegen von Seiteneinrichtungsoptionen verwendet wird. Tatsächlich ist die PageSetup-Eigenschaft ein Objekt der PageSetup-Klasse, das es ermöglicht, Seitenlayoutoptionen für ein gedrucktes Arbeitsblatt festzulegen. Die PageSetup-Klasse stellt verschiedene Eigenschaften bereit, die zum Festlegen von Seiteneinrichtungsoptionen verwendet werden. Einige dieser Eigenschaften werden unten diskutiert.
+Die Worksheet-Klasse bietet die PageSetup-Eigenschaft, die verwendet wird, um Seiteneinrichtungsoptionen festzulegen. Tatsächlich ist die PageSetup-Eigenschaft ein Objekt der PageSetup-Klasse, das es ermöglicht, Seiteneinrichtungsoptionen für ein gedrucktes Arbeitsblatt festzulegen. Die PageSetup-Klasse bietet verschiedene Eigenschaften, die verwendet werden, um Seiteneinrichtungsoptionen festzulegen. Einige dieser Eigenschaften werden unten erläutert.
 
 ### **Seitenausrichtung**
 
-Die Seitenausrichtung kann mithilfe von auf Hoch- oder Querformat eingestellt werden[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) Methode. Das[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) Methode nimmt die[**Seitenausrichtungstyp**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) Aufzählung als Parameter. Die Mitglieder der[**Seitenausrichtungstyp**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) Aufzählung sind unten aufgeführt.
+Die Seitenausrichtung kann mit der Methode [**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) auf Hoch- oder Querformat eingestellt werden. Die Methode [**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) verwendet die Aufzählung [**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) als Parameter. Die Elemente der Aufzählung [**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) sind unten aufgelistet.
 
 |**Seitenausrichtungstypen**|**Beschreibung**|
-|:- |:- |
-|[**LANDSCHAFT**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#LANDSCAPE)|Landschaftsorientierung|
-|[**PORTRÄT**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#PORTRAIT)|Hochformat|
+| :- | :- |
+|[**QUERFORMAT**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#LANDSCAPE)|Querformat|
+|[**HOCHFORMAT**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#PORTRAIT)|Hochformat|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageOrientation-PageOrientation.java" >}}
 
-### **Vergößerungsfaktor, Verkleinerungsfaktor**
+### **Maßstab**
 
- Es ist möglich, die Größe eines Arbeitsblatts zu verkleinern oder zu vergrößern, indem Sie den Skalierungsfaktor mit anpassen[**setZoom**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Zoom) Methode der[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse.
+Es ist möglich, die Größe eines Arbeitsblatts durch Anpassen des Maßstabsfaktors mit der Methode [**setZoom**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Zoom) der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) zu verkleinern oder zu vergrößern.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ScalingFactor-ScalingFactor.java" >}}
 
 ### **FitToPages-Optionen**
 
- Um den Inhalt des Arbeitsblatts auf eine bestimmte Anzahl von Seiten anzupassen, verwenden Sie die[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse'[**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) und[**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) Methoden. Diese Methoden werden auch verwendet, um Arbeitsblätter zu skalieren.
+Um den Inhalt des Arbeitsblatts auf eine bestimmte Anzahl von Seiten anzupassen, verwenden Sie die Methoden [**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) und [**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). Diese Methoden werden auch zum Skalieren von Arbeitsblättern verwendet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FitToPagesOptions-FitToPagesOptions.java" >}}
 
-### **Papier größe**
+### **Papierformat**
 
- Legen Sie die Papiergröße fest, auf die die Arbeitsblätter gedruckt werden, indem Sie die verwenden[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse'[**Papier größe**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize) Eigentum. Die PaperSize-Eigenschaft akzeptiert einen der vordefinierten Werte in der[**PaperSizeType**](https://reference.aspose.com/cells/java/com.aspose.cells/PaperSizeType) Aufzählung, unten aufgeführt.
+Legen Sie das Papierformat fest, auf das die Arbeitsblätter gedruckt werden sollen, mit der Eigenschaft [**PaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize) der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). Die PaperSize-Eigenschaft akzeptiert einen der vordefinierten Werte in der Aufzählung [**PaperSizeType**](https://reference.aspose.com/cells/java/com.aspose.cells/PaperSizeType), die unten aufgeführt sind.
 
 |**Papierformattypen**|**Beschreibung**|
-|:- |:- |
-|Papier10x14|10 Zoll x 14 Zoll|
-|Papier11x17|11 Zoll x 17 Zoll|
-|PapierA3|A3 (297 mm x 420 mm)|
-|PapierA4|A4 (210 x 297 mm)|
-|PapierA4Klein|A4 klein (210 mm x 297 mm)|
-|PapierA5|A5 (148 x 210 mm)|
-|PapierB3|B3 (13,9 x 19,7 Zoll)|
-|PapierB4|B4 (250 x 354 mm)|
-|PapierB5|B5 (182 mm x 257 mm)|
-|PapierVisitenkarte|Visitenkarte (90 mm x 55 mm)|
-|PapierCSheet|Blatt in C-Größe|
-|PaperDSheet|Blatt in D-Größe|
-|Papierumschlag10|Umschlag Nr. 10 (4-1/8 Zoll x 9-1/2 Zoll)|
-|Papierumschlag11|Umschlag Nr. 11 (4-1/2 Zoll x 10-3/8 Zoll)|
-|Papierumschlag12|Umschlag Nr. 12 (4-1/2 Zoll x 11 Zoll)|
-|Papierumschlag14|Umschlag Nr. 14 (5 Zoll x 11-1/2 Zoll)|
-|Papierumschlag9|Umschlag Nr. 9 (3-7/8 Zoll x 8-7/8 Zoll)|
-|PapierumschlagB4|Umschlag B4 (250 mm x 353 mm)|
-|PapierumschlagB5|Umschlag B5 (176 mm x 250 mm)|
-|PapierumschlagB6|Umschlag B6 (176 mm x 125 mm)|
-|PapierumschlagC3|Umschlag C3 (324 mm x 458 mm)|
-|PapierumschlagC4|Umschlag C4 (229 mm x 324 mm)|
-|PapierumschlagC5|Umschlag C5 (162 mm x 229 mm)|
-|PapierumschlagC6|Umschlag C6 (114 mm x 162 mm)|
-|PapierumschlagC65|Umschlag C65 (114 mm x 229 mm)|
-|PapierumschlagDL|Umschlag DL (110 mm x 220 mm)|
-|PapierumschlagItalien|Briefumschlag Italien (110 mm x 230 mm)|
-|PapierumschlagMonarch|Umschlag Monarch (3-7/8 Zoll x 7-1/2 Zoll)|
-|PapierUmschlagPersönlich|Umschlag (3-5/8 Zoll x 6-1/2 Zoll)|
-|PaperESheet|Blatt in E-Größe|
-|PapierExecutive|Exekutive (7-1/2 Zoll x 10-1/2 Zoll)|
-|PapierFanfoldImpressumDeutsch|Deutsches Legal Endlospapier (8-1/2 Zoll x 13 Zoll)|
-|PapierFanfoldStdDeutsch|Deutscher Standard Endlospapier (8-1/2 Zoll x 12 Zoll)|
-|PaperFanfoldUS|Endlosfaltung nach US-Standard (14-7/8 Zoll x 11 Zoll)|
-|PaperFolio|Folio (8-1/2 Zoll x 13 Zoll)|
-|PaperLedger|Hauptbuch (17 Zoll x 11 Zoll)|
-|PapierLegal|Legal (8-1/2 Zoll x 14 Zoll)|
-|Papierbrief|Letter (8-1/2 Zoll x 11 Zoll)|
-|PaperLetterSmall|Letter Small (8-1/2 Zoll x 11 Zoll)|
-|PaperNote|Hinweis (8-1/2 Zoll x 11 Zoll)|
-|PapierQuarto|Quarto (215 mm x 275 mm)|
-|Papierauszug|Erklärung (5-1/2 Zoll x 8-1/2 Zoll)|
-|PapierTabloid|Tabloid (11 Zoll x 17 Zoll)|
+| :- | :- |
+|Paper10x14|10 in. x 14 in.|
+|Paper11x17|11 in. x 17 in.|
+|PaperA3|A3 (297 mm x 420 mm)|
+|PaperA4|A4 (210 mm x 297 mm)|
+|PaperA4Small|A4 Small (210 mm x 297 mm)|
+|PaperA5|A5 (148 mm x 210 mm)|
+|PaperB3|B3 (13.9 x 19.7 inches)|
+|PaperB4|B4 (250 mm x 354 mm)|
+|PaperB5|B5 (182 mm x 257 mm)|
+|PaperBusinessCard|Business Card (90 mm x 55 mm)|
+|PaperCSheet|C size sheet|
+|PaperDSheet|D size sheet|
+|PaperEnvelope10|Envelope #10 (4-1/8 in. x 9-1/2 in.)|
+|PaperEnvelope11|Envelope #11 (4-1/2 in. x 10-3/8 in.)|
+|PaperEnvelope12|Envelope #12 (4-1/2 in. x 11 in.)|
+|PaperEnvelope14|Envelope #14 (5 in. x 11-1/2 in.)|
+|PaperEnvelope9|Envelope #9 (3-7/8 in. x 8-7/8 in.)|
+|PaperEnvelopeB4|Envelope B4 (250 mm x 353 mm)|
+|PaperEnvelopeB5|Envelope B5 (176 mm x 250 mm)|
+|PaperEnvelopeB6|Envelope B6 (176 mm x 125 mm)|
+|PaperEnvelopeC3|Envelope C3 (324 mm x 458 mm)|
+|PaperEnvelopeC4|Envelope C4 (229 mm x 324 mm)|
+|PaperEnvelopeC5|Envelope C5 (162 mm x 229 mm)|
+|PaperEnvelopeC6|Envelope C6 (114 mm x 162 mm)|
+|PaperEnvelopeC65|Envelope C65 (114 mm x 229 mm)|
+|PaperEnvelopeDL|Envelope DL (110 mm x 220 mm)|
+|PaperEnvelopeItaly|Envelope Italy (110 mm x 230 mm)|
+|PaperEnvelopeMonarch|Envelope Monarch (3-7/8 in. x 7-1/2 in.)|
+|PaperEnvelopePersonal|Envelope (3-5/8 in. x 6-1/2 in.)|
+|PaperESheet|E size sheet|
+|PaperExecutive|Executive (7-1/2 in. x 10-1/2 in.)|
+|PaperFanfoldLegalGerman|German Legal Fanfold (8-1/2 in. x 13 in.)|
+|PaperFanfoldStdGerman|German Standard Fanfold (8-1/2 in. x 12 in.)|
+|PaperFanfoldUS|U.S. Standard Fanfold (14-7/8 in. x 11 in.)|
+|PaperFolio|Folio (8-1/2 in. x 13 in.)|
+|PaperLedger|Ledger (17 in. x 11 in.)|
+|PaperLegal|Legal (8-1/2 in. x 14 in.)|
+|PaperLetter|Letter (8-1/2 in. x 11 in.)|
+|PaperLetterSmall|Letter Small (8-1/2 in. x 11 in.)|
+|PaperNote|Note (8-1/2 in. x 11 in.)|
+|PaperQuarto|Quarto (215 mm x 275 mm)|
+|PaperStatement|Statement (5-1/2 in. x 8-1/2 in.)|
+|PaperTabloid|Tabloid (11 in. x 17 in.)|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ManagePaperSize-ManagePaperSize.java" >}}
 
 ### **Druckqualität**
 
- Stellen Sie die Druckqualität der zu druckenden Arbeitsblätter mit ein[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse'[**setPrintQuality**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintQuality) Methode. Die Maßeinheit für die Druckqualität ist Punkte pro Zoll (DPI).
+Legen Sie mit der Methode [**setPrintQuality**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintQuality) der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) die Druckqualität der zu druckenden Arbeitsblätter fest. Die Maßeinheit für die Druckqualität sind Punkte pro Zoll (DPI).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintQuality-SetPrintQuality.java" >}}
 
 ### **Erste Seitenzahl**
 
- Beginnen Sie die Nummerierung der Arbeitsblattseiten mit dem[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse'[**setFirstPageNumber**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FirstPageNumber) Methode. Die Methode setFirstPageNumber setzt die Seitennummer der ersten Arbeitsblattseite und die folgenden Seiten werden in aufsteigender Reihenfolge nummeriert.
+Beginnen Sie mit der Numerierung der Arbeitsblattseiten mit der [**setFirstPageNumber**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FirstPageNumber) Methode der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). Die setFirstPageNumber-Methode legt die Seitenzahl der ersten Arbeitsblattseite fest, und die folgenden Seiten werden in aufsteigender Reihenfolge nummeriert.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetFirstPageNumber-SetFirstPageNumber.java" >}}
 
 ## **Ränder einstellen**
 
-Aspose.Cells unterstützt die Seiteneinrichtungsoptionen von Microsoft Excel vollständig. Entwickler müssen möglicherweise Seiteneinrichtungseinstellungen für Arbeitsblätter konfigurieren, um den Druckprozess zu steuern. In diesem Thema wird erläutert, wie Sie Aspose.Cells verwenden, um Seitenränder zu konfigurieren.
+Aspose.Cells unterstützt vollständig die Seiteneinrichtungsoptionen von Microsoft Excel. Entwickler müssen möglicherweise die Seiteneinrichtungseinstellungen für Arbeitsblätter konfigurieren, um den Druckprozess zu steuern. Dieses Thema erläutert, wie Sie Aspose.Cells verwenden, um die Seitennränder zu konfigurieren.
 
 **Seitenränder in Microsoft Excel**
 
-![todo: Bild_alt_Text](page-setup-features_2.png)
+![todo:image_alt_text](page-setup-features_2.png)
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Die Workbook-Klasse enthält die Worksheets-Auflistung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.
+Aspose.Cells bietet eine Klasse [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), die eine Microsoft Excel-Datei darstellt. Die Workbook-Klasse enthält die Arbeitsblattsammlung, die Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) repräsentiert.
 
- Die Worksheet-Klasse stellt die PageSetup-Eigenschaft bereit, die zum Festlegen von Seiteneinrichtungsoptionen verwendet wird. Das PageSetup-Attribut ist ein Objekt der[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) -Klasse, die es ermöglicht, verschiedene Seitenlayoutoptionen für ein gedrucktes Arbeitsblatt festzulegen. Die PageSetup-Klasse stellt verschiedene Eigenschaften und Methoden bereit, die zum Festlegen von Seiteneinrichtungsoptionen verwendet werden.
+Die Worksheet-Klasse bietet das PageSetup-Attribut, um Seiteneinrichtungsoptionen festzulegen. Das PageSetup-Attribut ist ein Objekt der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup), das es ermöglicht, verschiedene Seitenlayoutoptionen für ein gedrucktes Arbeitsblatt festzulegen. Die PageSetup-Klasse bietet verschiedene Eigenschaften und Methoden zur Festlegung von Seiteneinrichtungsoptionen.
 
 ### **Seitenränder**
 
- Stellen Sie die Ränder (links, rechts, oben, unten) einer Seite mit ein[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klassenmitglieder. Nachfolgend sind einige Methoden aufgeführt, die zum Festlegen von Seitenrändern verwendet werden:
+Legen Sie die Ränder (links, rechts, oben, unten) einer Seite mit Mitgliedern der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) fest. Einige der zur Festlegung von Seitenrändern verwendeten Methoden sind unten aufgeführt:
 
 - [**setLeftMargin(int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#LeftMargin)
 - [**setRightMargin(int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#RightMargin)
@@ -128,175 +129,175 @@ Aspose.Cells unterstützt die Seiteneinrichtungsoptionen von Microsoft Excel vol
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetMargins-SetMargins.java" >}}
 
-### **Auf Seite zentrieren**
+### **In der Lage zu zentrieren etwas auf einer Seite horizontal und vertikal. Die Klasse {0} hat Mitglieder zu diesem Zweck: {1} und {2}.**
 
- Es ist möglich, etwas auf einer Seite horizontal und vertikal zu zentrieren. Das[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse hat Mitglieder für diesen Zweck:[**setCenterHorizontally**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) und[**setCenterVertical**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
+Es ist möglich, etwas auf einer Seite horizontal und vertikal zu zentrieren. Die Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) enthält Mitglieder für diesen Zweck: [**setCenterHorizontally**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) und [**setCenterVertically**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-CenterOnPage-CenterOnPage.java" >}}
 
-### **Kopf- und Fußzeilenränder**
+### **Kopf- und Fußzeilen Ränder**
 
- Kopf- und Fußzeilenränder mit einstellen[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Mitglieder wie z[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) und[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+Legen Sie Kopf- und Fußzeilenränder mit Mitgliedern von [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) wie [**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) und [**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin) fest.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 
 ## **Kopf- und Fußzeilen einstellen**
 
-Kopf- und Fußzeilen sind die Text- und Bildabschnitte über dem oberen Rand oder unter dem unteren Rand einer Seite. Es ist auch möglich, Kopf- und Fußzeilen zu Arbeitsblättern hinzuzufügen. Kopf- und Fußzeilen können verwendet werden, um jede Art von nützlichen Informationen anzuzeigen, zum Beispiel Seitenzahl, Autorenname, Dokumenttitel oder Datum und Uhrzeit. Kopf- und Fußzeilen werden ebenfalls über das Dialogfeld „Seite einrichten“ verwaltet.
+Kopf- und Fußzeilen sind die Text- und Bildabschnitte oberhalb des oberen Randes oder unterhalb des unteren Randes auf einer Seite. Es ist auch möglich, Kopf- und Fußzeilen zu Arbeitsblättern hinzuzufügen. Kopf- und Fußzeilen können verwendet werden, um verschiedene nützliche Informationen anzuzeigen, z.B. Seitenzahl, Autorname, Dokumenttitel oder Datum und Uhrzeit. Kopf- und Fußzeilen werden auch über den Seiteneinrichtungsdialog verwaltet.
 
-**Der Dialog Seite einrichten** 
+**Der Seiteneinrichtungsdialog** 
 
-![todo: Bild_alt_Text](page-setup-features_3.png)
+![todo:image_alt_text](page-setup-features_3.png)
 
-Aspose.Cells ermöglicht das Hinzufügen von Kopf- und Fußzeilen zu den Arbeitsblättern zur Laufzeit, es wird jedoch empfohlen, Kopf- und Fußzeilen manuell in einer vorgefertigten Datei zum Drucken festzulegen. Sie können Microsoft Excel als GUI-Tool verwenden, um Kopf- und Fußzeilen einfach festzulegen, um die Entwicklungszeit zu verkürzen. Aspose.Cells kann die Datei importieren und diese Einstellungen reservieren.
+Aspose.Cells ermöglicht das Hinzufügen von Kopf- und Fußzeilen zu den Arbeitsblättern zur Laufzeit, aber es empfiehlt sich, dass Kopf- und Fußzeilen manuell in einer vorab gestalteten Datei für den Druck festgelegt werden. Sie können Microsoft Excel als GUI-Tool verwenden, um Kopf- und Fußzeilen einfach festzulegen, um die Entwicklungszeit zu verkürzen. Aspose.Cells kann die Datei importieren und diese Einstellungen beibehalten.
 
-Um Kopf- und Fußzeilen zur Laufzeit hinzuzufügen, bietet Aspose.Cells spezielle Klassen und einige Skriptbefehle zur Steuerung der Formatierung.
+Um Kopf- und Fußzeilen zur Laufzeit hinzuzufügen, bietet Aspose.Cells spezielle Klassen und einige Skriptbefehle zur Formatsteuerung.
 
 ### **Skriptbefehle**
 
-Skriptbefehle sind spezielle Befehle, die von Aspose.Cells bereitgestellt werden und es Entwicklern ermöglichen, Kopf- und Fußzeilen zu formatieren.
+Skriptbefehle sind spezielle Befehle von Aspose.Cells, die es Entwicklern ermöglichen, Kopf- und Fußzeilen zu formatieren.
 
 |**Skriptbefehle**|**Beschreibung**|
-|:- |:- |
+| :- | :- |
 |&P|Die aktuelle Seitenzahl.|
 |&G|Ein Bild.|
 |&N|Die Gesamtzahl der Seiten.|
 |&D|Das aktuelle Datum.|
 |&T|Die aktuelle Zeit.|
-|&EIN|Der Name des Arbeitsblatts.|
+|&A|Der Name des Arbeitsblatts.|
 |&F|Der Dateiname ohne den Pfad.|
 |&"\<FontName>"|Ein Schriftartname. Zum Beispiel: &"Arial"|
-|&"\<FontName>, \<FontStyle>"|Ein Schriftartname mit einem Stil. Zum Beispiel: &"Arial,Bold"|
-|&\<FontSize>|Stellt die Schriftgröße dar. Beispiel: „&14abc“. Wenn diesem Befehl jedoch eine einfache Zahl folgt, die in der Kopfzeile gedruckt werden soll, sollte diese mit einem Leerzeichen von der Schriftgröße getrennt werden. Beispiel: „&14 123“.|
+|&"\<FontName>, \<FontStyle>"|Ein Schriftartname mit einem Stil. Zum Beispiel: &"Arial,Fett"|
+|&\<FontSize>|Stellt die Schriftgröße dar. Zum Beispiel: “&14abc”. Wenn jedoch dieser Befehl von einer reinen Zahl gefolgt wird, die im Kopf gedruckt werden soll, sollte diese durch ein Leerzeichen von der Schriftgröße getrennt werden. Zum Beispiel: “&14 123”.|
 
-### **Legen Sie Kopf- und Fußzeilen fest**
+### **Header und Fußzeilen festlegen**
 
- Das[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse stellt Methode bereit[**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String) zum Hinzufügen einer Kopfzeile und[**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) zum Hinzufügen einer Fußzeile zu einem Arbeitsblatt. Das Skript wird als Argument für alle oben genannten Methoden verwendet. Es stellt das Skript dar, das für die Kopf- oder Fußzeile verwendet werden soll. Dieses Skript enthält Skriptbefehle zum Formatieren von Kopf- oder Fußzeilen.
+Die [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)-Klasse bietet die Methode [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) zum Hinzufügen eines Headers und [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) zum Hinzufügen eines Footers zu einem Arbeitsblatt. Das Skript wird als Argument für alle oben genannten Methoden verwendet. Es repräsentiert das Skript, das für den Header oder Footer verwendet werden soll. Dieses Skript enthält Befehle zum Formatieren von Headern oder Footern.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
-### **Fügen Sie eine Grafik in eine Kopf- oder Fußzeile ein**
+### **Fügen Sie eine Grafik in einen Header oder Footer ein.**
 
- Das[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse hat die Methoden[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]) ) und[**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) zum Hinzufügen von Bildern zur Kopf- und Fußzeile eines Arbeitsblatts. Diese Methoden nehmen zwei Parameter:
+Die [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)-Klasse verfügt über die Methoden [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) und [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) zum Hinzufügen von Bildern zu Kopf- und Fußzeilen eines Arbeitsblatts. Diese Methoden nehmen zwei Parameter:
 
-- **Abschnitt**, der Abschnitt der Kopf- oder Fußzeile, in dem das Bild platziert wird. Es gibt drei Abschnitte: links, Mitte und rechts, dargestellt durch die numerischen Werte 0, 1 bzw. 2.
-- **Datei InputStream**, die grafischen Daten. Die Binärdaten sollen in den Puffer eines Byte-Arrays geschrieben werden.
+- **Abschnitt**, der Bereich des Headers oder Footers, in dem das Bild platziert wird. Es gibt drei Abschnitte: links, zentriert und rechts, dargestellt durch die numerischen Werte 0, 1 und 2.
+- **Datei-InputStream**, die grafischen Daten. Die binären Daten sollten in den Puffer eines Byte-Arrays geschrieben werden.
 
-Nachdem Sie den Code ausgeführt und die Datei geöffnet haben, überprüfen Sie die Kopfzeile des Arbeitsblatts in Microsoft Excel:
+Nach Ausführen des Codes und Öffnen der Datei überprüfen Sie den Header des Arbeitsblatts in Microsoft Excel:
 
-1.  Auf der**Datei** Menü, auswählen**Seiteneinrichtung**.
-1.  Wählen Sie im Dialogfeld Seite einrichten die aus**Kopfzeile Fußzeile** Tab.
+1. Wählen Sie im **Datei**-Menü **Seitenlayout**.
+1. Wählen Sie im Dialogfeld Seitenlayout die Registerkarte **Kopfzeile/Fußzeile**.
 
-**Einfügen einer Grafik in eine Kopf-/Fußzeile** 
+**Einfügen einer Grafik in eine Kopfzeile/Fußzeile** 
 
-![todo: Bild_alt_Text](page-setup-features_4.png)
+![todo:image_alt_text](page-setup-features_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertImageInHeaderFooter-InsertImageInHeaderFooter.java" >}}
 
-### **Fügen Sie eine Grafik nur in die Kopfzeile der ersten Seite ein**
+### **Fügen Sie eine Grafik nur in den Kopf der ersten Seite ein**
 
- Das[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Die Klasse hat zum Beispiel auch andere nützliche Methoden[**setBild**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), um Bilder in die Kopf-/Fußzeile der ersten Seite eines Arbeitsblatts einzufügen. Die erste Seite ist eine Sonderseite: Es ist üblich, dass sie spezielle Informationen zeigen soll, zum Beispiel ein Firmenlogo.
+Die Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) hat auch andere nützliche Methoden, zum Beispiel [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), um Bilder in den Kopf/Fußzeile der ersten Seite eines Arbeitsblatts hinzuzufügen. Die erste Seite ist eine besondere Seite: es ist üblich, dass sie spezielle Informationen anzeigen soll, wie z.B. ein Firmenlogo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
 ## **Druckoptionen einstellen**
 
-Microsoft Die Seiteneinrichtungseinstellungen von Excel bieten mehrere Druckoptionen (auch als Blattoptionen bezeichnet), mit denen Benutzer steuern können, wie Arbeitsblattseiten gedruckt werden. Mit diesen Druckoptionen können Benutzer:
+Die Seiteneinrichtungseinstellungen von Microsoft Excel bieten verschiedene Druckoptionen (auch als Blattoptionen bezeichnet), mit denen Benutzer steuern können, wie Arbeitsblattseiten gedruckt werden. Diese Druckoptionen ermöglichen es Benutzern:
 
-- Wählen Sie einen bestimmten Druckbereich auf einem Arbeitsblatt aus.
+- Einen bestimmten Druckbereich auf einem Arbeitsblatt auswählen.
 - Titel drucken.
-- Rasterlinien drucken.
+- Gitternetzlinien drucken.
 - Zeilen- und Spaltenüberschriften drucken
-- Erzielen Sie Entwurfsqualität.
+- Entwurfsqualität erreichen.
 - Kommentare drucken.
-- Zellfehler drucken.
-- Definieren Sie die Seitenreihenfolge.
+- Zellenfehler drucken.
+- Seiteneinteilung definieren.
 
-Alle diese Druckoptionen sind unten aufgeführt.
+Alle diese Druckoptionen werden unten angezeigt.
 
-**Druckoptionen (Blatt).** 
+**Druck (Blatt) Optionen** 
 
-![todo: Bild_alt_Text](page-setup-features_5.png)
+![todo:image_alt_text](page-setup-features_5.png)
 
-### **Einstellen von Druck- und Blattoptionen**
+### **Druck- und Blattoptionen festlegen**
 
- spose.Cells unterstützt alle Druckoptionen, die von Microsoft Excel angeboten werden, und Entwickler können diese Optionen für Arbeitsblätter einfach konfigurieren, indem sie die von angebotenen Eigenschaften verwenden[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)Klasse. Wie diese Eigenschaften verwendet werden, wird unten ausführlicher erörtert.
+spose.Cells unterstützt alle von Microsoft Excel angebotenen Druckoptionen und Entwickler können diese Optionen für Arbeitsblätter mithilfe der Eigenschaften der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) einfach konfigurieren. Wie diese Eigenschaften verwendet werden, wird unten genauer erläutert.
 
 ### **Druckbereich festlegen**
 
-Standardmäßig enthält nur der Druckbereich alle Bereiche des Arbeitsblatts, die Daten enthalten. Entwickler können einen bestimmten Druckbereich des Arbeitsblatts festlegen.
+Standardmäßig umfasst nur der Druckbereich alle Bereiche des Arbeitsblatts, die Daten enthalten. Entwickler können einen spezifischen Druckbereich des Arbeitsblatts festlegen.
 
- Um einen bestimmten Druckbereich auszuwählen, verwenden Sie die[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse'[**setPrintArea**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea) Eigentum. Weisen Sie dieser Eigenschaft einen Zellbereich zu, der den Druckbereich definiert.
+Um einen spezifischen Druckbereich auszuwählen, verwenden Sie die Eigenschaft [**setPrintArea**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea) der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). Weisen Sie dieser Eigenschaft einen Zellenbereich zu, der den Druckbereich definiert.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintArea-SetPrintArea.java" >}}
 
 ### **Drucktitel festlegen**
 
- Aspose.Cells ermöglicht es Ihnen, Zeilen- und Spaltenüberschriften festzulegen, die auf allen Seiten eines gedruckten Arbeitsblatts wiederholt werden sollen. Verwenden Sie dazu die[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse'[**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) und[**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) Eigenschaften.
+Aspose.Cells ermöglicht es Ihnen, Zeilen- und Spaltenüberschriften auf allen Seiten eines gedruckten Arbeitsblatts zu wiederholen. Verwenden Sie dazu die Eigenschaften [**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) und [**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup).
 
-Die Zeilen oder Spalten, die wiederholt werden, werden durch die Übergabe ihrer Zeilen- oder Spaltennummern definiert. Beispielsweise werden Zeilen als $1:$2 und Spalten als $A:$B definiert.
+Die zu wiederholenden Zeilen oder Spalten werden durch Übergabe ihrer Zeilen- oder Spaltennummern definiert. Zum Beispiel werden Zeilen als $1:$2 und Spalten als $A:$B definiert.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintTitle-SetPrintTitle.java" >}}
 
-### **Legen Sie andere Druckoptionen fest**
+### **Andere Druckoptionen festlegen**
 
- Das[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Die Klasse bietet auch mehrere andere Eigenschaften, um allgemeine Druckoptionen wie folgt festzulegen:
+Die Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) bietet auch mehrere andere Eigenschaften zur Festlegung allgemeiner Druckoptionen wie folgt:
 
-- [**setPrintGridlines**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintGridlines), eine boolesche Eigenschaft, die definiert, ob Gitternetzlinien gedruckt werden oder nicht.
-- [*setPrintHeadings*](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintHeadings), eine boolesche Eigenschaft, die definiert, ob Zeilen- und Spaltenüberschriften gedruckt werden oder nicht.
-- [**setBlackAndWhite**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#BlackAndWhite), eine boolesche Eigenschaft, die definiert, ob das Arbeitsblatt im Schwarzweißmodus gedruckt werden soll oder nicht.
-- [**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments), legt fest, ob die Druckkommentare auf dem Arbeitsblatt oder am Ende des Arbeitsblatts angezeigt werden.
-- [**setPrintDraft**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintDraft), eine boolesche Eigenschaft, die definiert, ob das Arbeitsblatt in Entwurfsqualität gedruckt werden soll oder nicht.
-- [**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors), definiert, ob Zellfehler als angezeigt, leer, Bindestrich oder N/A gedruckt werden.
+- [**setPrintGridlines**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintGridlines), eine boolesche Eigenschaft, die definiert, ob Gitterlinien gedruckt oder nicht gedruckt werden.
+- [*setPrintHeadings*](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintHeadings), eine boolesche Eigenschaft, die definiert, ob Zeilen- und Spaltenüberschriften gedruckt oder nicht gedruckt werden.
+- [**setBlackAndWhite**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#BlackAndWhite), eine boolesche Eigenschaft, die definiert, ob das Arbeitsblatt im Schwarz-Weiß-Modus gedruckt wird oder nicht.
+- [**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments), definiert, ob die Druckkommentare im Arbeitsblatt angezeigt werden oder am Ende des Arbeitsblatts.
+- [**setPrintDraft**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintDraft), eine boolesche Eigenschaft, die definiert, ob das Arbeitsblatt in Entwurfsqualität gedruckt wird oder nicht.
+- [**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors), definiert, ob Zellenfehler wie angezeigt, leer, Bindestrich oder N/V gedruckt werden.
 
- Zum Einstellen der[**Kommentare drucken**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) und[**Druckfehler**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) Eigenschaften, Aspose.Cells bietet auch zwei Aufzählungen,[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) und[**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) die vordefinierte Werte enthalten, die dem zugewiesen werden[**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) und[**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) Eigenschaften bzw.
+Um die Eigenschaften [**PrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) und [**PrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) festzulegen, bietet Aspose.Cells auch zwei Aufzählungen, [**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) und [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType), die vordefinierte Werte enthalten, die den Eigenschaften [**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) und [**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) jeweils zugewiesen werden.
 
- Die vordefinierten Werte in der[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) Aufzählung sind unten beschrieben.
+Die vordefinierten Werte in der Aufzählung [**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) werden unten beschrieben.
 
-|**Kommentartypen drucken**|**Beschreibung**|
-|:- |:- |
-|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|Gibt an, dass Kommentare so gedruckt werden, wie sie auf dem Arbeitsblatt angezeigt werden.|
-|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|Gibt an, dass Kommentare nicht gedruckt werden.|
-|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|Gibt an, dass Kommentare am Ende des Arbeitsblatts gedruckt werden.|
+|**Druckkommentartypen**|**Beschreibung**|
+| :- | :- |
+|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|Gibt an, Kommentare so zu drucken, wie sie auf dem Arbeitsblatt angezeigt werden.|
+|[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|Gibt an, keine Kommentare zu drucken.|
+|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|Gibt an, Kommentare am Ende des Arbeitsblatts zu drucken.|
 
- Die vordefinierten Werte der[**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) Aufzählung sind unten beschrieben.
+Die vordefinierten Werte der Aufzählung [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) werden unten beschrieben.
 
 |**Druckfehlertypen**|**Beschreibung**|
-|:- |:- |
-|[*PRINT_ERRORS_BLANK*](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|Gibt an, Fehler nicht zu drucken.|
-|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|Gibt an, dass Fehler als "--" gedruckt werden.|
-|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|Gibt an, dass Fehler wie angezeigt gedruckt werden.|
-|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|Gibt an, dass Fehler als „#N/A“ gedruckt werden.|
+| :- | :- |
+|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|Gibt an, Fehler nicht zu drucken.|
+|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|Gibt an, Fehler als "--" zu drucken.|
+|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|Gibt an, dass Fehler wie angezeigt gedruckt werden.
+|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|Gibt an, dass Fehler als "#N/A" gedruckt werden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-OtherPrintOptions-OtherPrintOptions.java" >}}
 
 ### **Seitenreihenfolge festlegen**
 
- Das[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse bietet die[**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) -Eigenschaft, die verwendet wird, um mehrere Seiten Ihres Arbeitsblatts zum Drucken anzuordnen. Es gibt zwei Möglichkeiten, die Seiten wie folgt anzuordnen:
+Die Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) bietet die Eigenschaft [**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order), die verwendet wird, um die Reihenfolge mehrerer Seiten Ihres Arbeitsblatts festzulegen, die gedruckt werden sollen. Es gibt zwei Möglichkeiten, die Seiten wie folgt zu ordnen:
 
-- **Runter dann vorbei** druckt alle Seiten nach unten, bevor Seiten nach rechts gedruckt werden.
-- **Rüber dann runter** druckt Seiten von links nach rechts, bevor die darunter liegenden Seiten gedruckt werden.
+- **Zuerst nach unten** druckt alle Seiten nach unten, bevor irgendeine Seite rechts gedruckt wird.
+- **Zuerst nach rechts** druckt Seiten von links nach rechts, bevor irgendeine Seite darunter gedruckt wird.
 
- Aspose.Cells liefert eine Aufzählung,[**Druckauftragstyp**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType) , die alle vordefinierten Auftragstypen enthält, denen zugeordnet werden soll[**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) Methode.
+Aspose.Cells bietet eine Aufzählung, [**PrintOrderType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType), die alle vordefinierten Reihenfolgetypen enthält, die der Methode [**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) zugewiesen werden sollen.
 
- Die vordefinierten Werte von[**Druckauftragstyp**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType) Aufzählung sind unten beschrieben.
+Die vordefinierten Werte der [**PrintOrderType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType)-Aufzählung werden unten beschrieben.
 
-|**Auftragsarten drucken**|**Beschreibung**|
-|:- |:- |
-|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|Drucke runter, dann rüber.|
-|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|Drüber drucken, dann runter.|
+|**Druckreihenfolgetypen**|**Beschreibung**|
+| :- | :- |
+|[**ZUERST_NACH_UNTEN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|Zuerst nach unten drucken.
+|[**ZUERST_NACH_RECHTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|Zuerst nach rechts drucken.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPageOrder-SetPageOrder.java" >}}
 
-## **Entfernen Sie vorhandene Druckereinstellungen von Arbeitsblättern in einer Excel-Datei**
+## **Entfernen Sie die vorhandenen Druckereinstellungen von Arbeitsblättern in der Excel-Datei**
 
 Bitte lesen Sie diesen Artikel zu diesem Thema.
 
-## **Themen vorantreiben**
-- [Berechnen Sie den Skalierungsfaktor für die Seiteneinrichtung](/cells/de/java/calculate-page-setup-scaling-factor/)
-- [Seiteneinrichtungseinstellungen aus dem Quellarbeitsblatt in das Zielarbeitsblatt kopieren](/cells/de/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/)
-- [Stellen Sie fest, ob die Papiergröße des Arbeitsblatts automatisch ist](/cells/de/java/determine-if-paper-size-of-worksheet-is-automatic/)
-- [Holen Sie sich die Papierbreite und -höhe von PageSetup des Arbeitsblatts](/cells/de/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
-- [Implementieren Sie die benutzerdefinierte Papiergröße des Arbeitsblatts zum Rendern](/cells/de/java/implement-custom-paper-size-of-worksheet-for-rendering/)
-- [Seiteneinrichtung und Druckoptionen](/cells/de/java/page-setup-and-printing-options/)
-- [Entfernen Sie vorhandene Druckereinstellungen von Arbeitsblättern in einer Excel-Datei](/cells/de/java/remove-existing-printersettings-of-worksheets-in-excel-file/)
+## **Erweiterte Themen**
+- [Seitenformatierungs-Skalierungsfaktor berechnen](/cells/de/java/calculate-page-setup-scaling-factor/)
+- [Seiteneinrichtungseinstellungen von der Quellarbeitsmappe in die Zieltabelle kopieren](/cells/de/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/)
+- [Feststellen, ob die Papiergröße des Arbeitsblatts automatisch ist](/cells/de/java/determine-if-paper-size-of-worksheet-is-automatic/)
+- [Papierbreite und -höhe aus den Seiteinstellungen des Arbeitsblatts abrufen](/cells/de/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
+- [Benutzerdefinierte Papiergröße des Arbeitsblatts für die Darstellung implementieren](/cells/de/java/implement-custom-paper-size-of-worksheet-for-rendering/)
+- [Seiteneinrichtungs- und Druckoptionen](/cells/de/java/page-setup-and-printing-options/)
+- [Entfernen Sie die vorhandenen Druckereinstellungen von Arbeitsblättern in der Excel-Datei](/cells/de/java/remove-existing-printersettings-of-worksheets-in-excel-file/)

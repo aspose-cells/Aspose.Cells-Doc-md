@@ -1,16 +1,17 @@
-﻿---
-title: xlsx4j でデータを並べ替える
+---
+title: xlsx4j でデータのソート
 type: docs
 weight: 60
 url: /ja/java/sort-data-in-xlsx4j/
 ---
-## **Aspose.Cells - データの並べ替え**
-Aspose.Cells を使用してスプレッドシートのデータを並べ替えるには、セル領域の簡単に設定できるプロパティをいくつか設定した後、DataSorter.sorter() メソッドを呼び出すだけです。
-Java コードは以下のとおりです。
+
+## **Aspose.Cells - データのソート**
+Aspose.Cells を使用してスプレッドシート内のデータをソートするためには、簡単に設定できるセル領域のプロパティを設定した後にDataSorter.sorter()メソッドを呼び出すだけです。
+以下に Java コードが記載されています:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -73,13 +74,13 @@ sorter.sort(cells, ca);
 workbook.save(dataDir + "AsposeSortedData_Out.xls");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/sortdata/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[データの並べ替え](/java/sort-data)また[データの並べ替え](/cells/ja/java/data-sorting).
+詳細については、[データのソート](/java/sort-data)や[データのソーティング](/cells/ja/java/data-sorting)を参照してください。
 
 {{% /alert %}}

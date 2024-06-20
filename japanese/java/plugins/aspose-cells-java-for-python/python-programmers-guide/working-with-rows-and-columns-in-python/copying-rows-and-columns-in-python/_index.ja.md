@@ -1,22 +1,23 @@
-﻿---
-title: Python での行と列のコピー
+---
+title: Pythonで行と列をコピーする方法
 type: docs
 weight: 30
 url: /ja/java/copying-rows-and-columns-in-python/
 ---
+
 ## **Aspose.Cells - 行と列のコピー**
 ### **行のコピー**
-Aspose.Cells は、Cells クラスの copyRow メソッドを提供します。このメソッドは、数式、値、コメント、セル形式、非表示のセル、画像、およびその他の描画オブジェクトを含むすべての種類のデータをソース行から宛先行にコピーします。
+Aspose.CellsはCellsクラスのcopyRowメソッドを提供しています。このメソッドは、ソース行から宛先行に数式、値、コメント、セルフォーマット、非表示セル、画像、および他の描画オブジェクトを含む、すべての種類のデータをコピーします。
 
-copyRow メソッドは、次のパラメーターを取ります。
+copyRowメソッドには、次のパラメーターがあります：
 
-- ソース Cells オブジェクト、
-- ソース行インデックス、および
-- 宛先行インデックス。
+- ソースのCellsオブジェクト
+- ソースの行インデックス、および
+- 宛先の行インデックス。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def copy_rows(self):
 
@@ -42,35 +43,35 @@ print "Copy Rows Successfully."
 
 {{< /highlight >}}
 ### **列のコピー**
-Aspose.Cells は Cells クラスの copyColumn メソッドを提供します。このメソッドは、式 (更新された参照を含む) を含むすべてのタイプのデータ、および値、コメント、セル形式、非表示のセル、画像、およびその他の描画オブジェクトをソース列から宛先列にコピーします。
+Aspose.CellsはCellsクラスのcopyColumnメソッドを提供しており、このメソッドは、数式（参照を更新）、値、コメント、セルフォーマット、非表示セル、画像、および他の描画オブジェクトを含む、ソース列から宛先列にすべての種類のデータをコピーします。
 
-copyColumn メソッドは、次のパラメーターを取ります。
+copyColumnメソッドには、次のパラメーターがあります：
 
-- ソース Cells オブジェクト、
-- ソース列インデックス、および
-- 宛先列のインデックス。
+- ソースのCellsオブジェクト
+- ソースの列インデックス、および
+- 宛先の列インデックス。
 
-**Python コード**
+**Pythonコード**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
 
 
 def copy_columns(self):
 
-\# Excel ファイル パスによる Workbook オブジェクトのインスタンス化
+\# Instantiating a Workbook object by excel file path
 
-ワークブック = セルフ.ワークブック()
+workbook = self.Workbook()
 
-\# Excel ファイルの最初のワークシートにアクセス
+\# Accessing the first worksheet in the Excel file
 
-ワークシート = workbook.getWorksheets().get(0)
+worksheet = workbook.getWorksheets().get(0)
 
-\# データをヘッダ行に入れる (A1:A4)
+\# Put some data into header rows (A1:A4)
 
-私は= 0
+i = 0
 
-私がいる間< 5:
+while i < 5:
 
 worksheet.getCells().get(i, 0).setValue("Header Row #i")
 
@@ -112,7 +113,7 @@ workbook.save(self.dataDir + "Copy Columns.xls")
 print "Copy Columns Successfully." 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**行と列のコピー (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、Aspose.Cellsのコピー行と列をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

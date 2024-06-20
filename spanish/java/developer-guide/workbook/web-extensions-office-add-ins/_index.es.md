@@ -1,43 +1,48 @@
-﻿---
-title: "Extensiones web: complementos de Office"
+---
+title: Extensiones Web  Complementos de Office
 type: docs
 weight: 120
 url: /es/java/web-extensions-office-add-ins/
 ---
-Las extensiones web amplían las aplicaciones de Office e interactúan con el contenido de los documentos de Office. Web Extensions agrega funcionalidad adicional al cliente de Office para mejorar la experiencia del usuario y la productividad.
 
-Aspose.Cells también ofrece la posibilidad de trabajar con Web Extensions.
+Las extensiones web extienden las aplicaciones de Office e interactúan con el contenido en los documentos de Office. Las extensiones web añaden funcionalidad adicional al cliente de Office para mejorar la experiencia del usuario y la productividad.
 
-## **Agregar extensión web**
+Aspose.Cells también proporciona la capacidad de trabajar con extensiones web.
 
-Puede agregar extensiones web (complementos de Office) en Excel haciendo clic en el**Insertar**pestaña y luego haciendo clic en el**Almacenar**/**Obtener complementos**Enlace. En el cuadro Complementos, busque el complemento que desee y agréguelo.
+## **Agregar Extensión Web**
 
-Aspose.Cells también proporciona la función para agregar Web Extensions mediante las clases WebExtension y WebExtensionTaskPane. El siguiente ejemplo de código demuestra el uso de las clases WebExtension y WebExtensionTaskPane para agregar una extensión web a un archivo de Excel. Por favor vea el[archivo de salida de Excel](AddWebExtension_Out.xlsx)generado por el código como referencia.
+Puede agregar Extensiones Web (Complementos de Office) en Excel haciendo clic en la pestaña **Insertar** y luego haciendo clic en el enlace **Tienda**/**Obtener complementos**. En el cuadro de complementos, busque el que desea y agréguelo.
+
+Aspose.Cells también proporciona la función de agregar Extensiones Web mediante las clases WebExtension y WebExtensionTaskPane. El siguiente ejemplo de código demuestra el uso de WebExtension y WebExtensionTaskPane para agregar una extensión web a un archivo de Excel. Consulte el [archivo de Excel de salida](AddWebExtension_Out.xlsx) generado por el código para referencia.
 
 ### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AddWebExtension-1.java" >}}
 
-## **Acceder a la información de la extensión web**
+## **Acceder a la Información de la Extensión Web**
 
-Aspose.Cells brinda la posibilidad de acceder a la información de Web Extensions en un archivo de Excel. El siguiente ejemplo de código demuestra cómo acceder a la información de la extensión web cargando el[ejemplo de archivo de Excel](WebExtensionsSample.xlsx). Consulte la salida de la consola generada por el código como referencia.
+Aspose.Cells proporciona la capacidad de acceder a la información de las Extensiones Web en un archivo de Excel. El siguiente ejemplo de código demuestra cómo acceder a la información de la extensión web cargando el [archivo de Excel de ejemplo](WebExtensionsSample.xlsx). Consulte la salida de la consola generada por el código para referencia.
 
 ### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AccessWebExtensionInformation-1.java" >}}
 
-### **Salida de consola**
+### **Salida de la consola**
 
-Ancho: 350
+{{< highlight java >}}
 
-EsVisible: Verdadero
+Width: 350
 
-Está bloqueado: falso
+IsVisible: True
 
-DockState: derecho
+IsLocked: False
 
-Nombre de la tienda: es-ES
+DockState: right
 
-Tipo de tienda: OMEX
+StoreName: en-US
+
+StoreType: OMEX
 
 WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
+
+{{< /highlight >}}

@@ -1,21 +1,22 @@
 ---
-title: Rimuovi le impostazioni della stampante esistente dei fogli di lavoro nel file Excel
+title: Rimuovi le impostazioni della stampante esistenti dei fogli di lavoro nel file Excel
 type: docs
 weight: 60
 url: /it/net/remove-existing-printersettings-of-worksheets-in-excel-file/
-description: In questo articolo imparerai come rimuovere PrinterSettings del foglio di lavoro esistente all'interno del file Excel tramite l'oggetto Imposta pagina a livello di codice con codice di esempio utilizzando la libreria C# API o .NET.
-keywords: remove printer settings of worksheet c#, remove printer settings of excel worksheet c#
+description: In questo articolo imparerai come rimuovere le impostazioni della stampante esistenti del foglio di lavoro all interno del file Excel attraverso l oggetto Impostazione pagina in modo programmato con codice di esempio utilizzando API C# o libreria .NET.
+keywords: rimuovere le impostazioni della stampante del foglio di lavoro c#, rimuovere le impostazioni della stampante del foglio di lavoro di excel c#
 ---
-##  **Possibili scenari di utilizzo**
-A volte gli sviluppatori vogliono impedire l'inclusione di Excel*.bidone* file delle impostazioni della stampante nei file XLSX salvati. I file delle impostazioni della stampante si trovano in*“[file "root"]\xl\impostazioni stampante”.* Questo documento spiega come rimuovere le impostazioni della stampante esistenti utilizzando le API Aspose.Cells.
-##  **Rimuovi le impostazioni della stampante esistente dei fogli di lavoro nel file Excel**
-Aspose.Cells consente di rimuovere le impostazioni della stampante esistenti specificate per diversi fogli nel file Excel. Il codice di esempio riportato di seguito illustra come rimuovere le impostazioni della stampante esistenti per tutti i fogli di lavoro della cartella di lavoro. Si prega di vedere il suo[esempio di file Excel](45056020.xlsx), [file Excel di output](45056021.xlsx)l'output della console e lo screenshot per riferimento.
-##  **Immagine dello schermo**
-![cose da fare:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
-##  **Codice d'esempio**
+
+## **Possibili Scenari di Utilizzo**
+A volte gli sviluppatori vogliono impedire ad Excel di includere i file *.bin* delle impostazioni della stampante nei file XLSX salvati. I file delle impostazioni della stampante si trovano in *"[file "root"]\xl\printerSettings".* Questo documento spiega come rimuovere le impostazioni della stampante esistenti utilizzando le API di Aspose.Cells.
+## **Rimuovi le impostazioni della stampante esistenti dei fogli di lavoro nel file Excel**
+Aspose.Cells consente di rimuovere le impostazioni della stampante esistenti specificate per fogli diversi nel file Excel. Il seguente codice di esempio illustra come rimuovere le impostazioni della stampante esistenti per tutti i fogli di lavoro nella cartella di lavoro. Si prega di consultare il [file Excel di esempio](45056020.xlsx), [file Excel di output](45056021.xlsx), output della console e la schermata per un riferimento.
+## **Screenshot**
+![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
+## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.cs" >}}
-##  **Uscita console**
-{{< highlight "java" >}}
+## **Output della console**
+{{< highlight java >}}
 
  PrinterSettings of this worksheet exist.
 

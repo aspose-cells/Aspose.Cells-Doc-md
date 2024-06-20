@@ -1,27 +1,28 @@
 ---
-title: 1904 年日付システムの実装
-description: Aspose.Cells は、スプレッドシート ファイルを操作するための .NET ライブラリです。 1904 年日付システムの実装をサポートしており、ユーザーは 1904 年 1 月 1 日の日付システムに基づいて計算および書式設定できます。この記事では、Aspose.Cells ライブラリを使用して 1904 年日付システムを実装する方法について説明します。
-keywords: Aspose.Cells, 1904 date system, spreadsheet, calculation, formatting
+title: 1904年日付システムを実装する
+description: Aspose.Cellsは、スプレッドシートファイルを操作するための.NETライブラリです。それは1904年日付システムの実装をサポートし、ユーザーが1904年1月1日の日付システムに基づいて計算し、書式設定できるようにします。本記事では、Aspose.Cellsライブラリを使用して1904年日付システムを実装する方法について説明します。
+keywords: Aspose.Cells、1904日付システム、スプレッドシート、計算、書式設定
 type: docs
 weight: 7000
 url: /ja/net/implement-1904-date-system/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel は、1900 日付システム (Windows の Excel に実装されているデフォルトの日付システム) と 1904 日付システムの 2 つの日付システムをサポートしています。 1904 日付システムは通常、Macintosh Excel ファイルとの互換性を提供するために使用され、Excel for Macintosh を使用している場合のデフォルト システムです。 Aspose.Cells を使用して、Excel ファイルに 1904 年の日付システムを設定できます。
+Microsoft Excelは1900年日付システム（Windows用Excelのデフォルトの日付システム）と1904年日付システムの2つをサポートしています。 1904年日付システムは通常、Macintosh Excelファイルとの互換性を提供するために使用され、Excel for Macintoshを使用している場合はデフォルトのシステムです。 Aspose.Cellsを使用してExcelファイルに1904年日付システムを設定できます。
 
 {{% /alert %}} 
 
-1904 日付システムを Microsoft Excel に実装するには (たとえば、Microsoft Excel 2003):
+Microsoft Excel（例えばMicrosoft Excel 2003）で1904年日付システムを実装するには:
 
-1. から**ツール**メニュー、選択**[オプション]** をクリックし、[**計算] を選択します。**タブ。
-1. を選択**1904 年の日付システム**オプション。
-1. [*OK**] をクリックします。
+1. **ツール**メニューから**オプション**を選択し、**計算**タブを選択します。
+1. **1904年日付システム**オプションを選択します。
+1. **OK** をクリックします。
 
-|**Microsoft Excel で 1904 年日付システムを選択する**|
+|**Microsoft Excelで1904年日付システムを選択**|
 | :- |
 |![todo:image_alt_text](implement-1904-date-system_1.png)|
-Aspose.Cells API を使用してこれを実現する方法については、次のサンプル コードを参照してください。
+Aspose.CellsのAPIを使用してこの機能を実現するサンプルコードを以下に示します。
 
 
 

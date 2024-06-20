@@ -1,15 +1,16 @@
-﻿---
-title: Formelberäkningsmotor i Aspose.Cells
+---
+title: Formelberäkningsmotorn i Aspose.Cells
 type: docs
 weight: 30
 url: /sv/net/formula-calculation-engine-in-aspose-cells/
 ---
-## **Aspose.Cells - Formelberäkningsmotor**
-Formelberäkningsmotorn är inbäddad i Aspose.Cells. Den kan inte bara räkna om formeln som importerats från en designerkalkylarksfil utan stöder även beräkning av resultaten av formler som läggs till under körning.
+
+## **Aspose.Cells - Formelberäkningsmotorn**
+Formelberäkningsmotorn är inbäddad i Aspose.Cells. Den kan inte bara omberäkna formeln som importerats från en designerkalkylbladsfil utan också stödjer att beräkna resultatet av formler som läggs till vid körning.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -58,13 +59,13 @@ book.CalculateFormula();
 book.Save("AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Formelberäkningsmotor** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Formelberäkningsmotorn** från någon av nedan nämnda sociala kodningsplatser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Formelberäkningsmotor](/cells/sv/net/formula-calculation-engine/).
+För mer information, besök [Formelberäkningsmotor](/cells/sv/net/formula-calculation-engine/).
 
 {{% /alert %}}

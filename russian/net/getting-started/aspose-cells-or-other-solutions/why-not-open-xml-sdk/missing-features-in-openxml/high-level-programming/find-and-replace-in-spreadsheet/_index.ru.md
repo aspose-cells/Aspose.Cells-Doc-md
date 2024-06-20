@@ -1,14 +1,15 @@
-﻿---
-title: Найти и заменить в электронной таблице
+---
+title: Найти и заменить в таблице
 type: docs
 weight: 30
 url: /ru/net/find-and-replace-in-spreadsheet/
 ---
-![дело:изображение_альтернативный_текст](Find_and_Replace.png)
 
-Когда мы нажимаем кнопку поиска, следующий код:
+![todo:image_alt_text](Find_and_Replace.png)
 
-{{< highlight "csharp" >}}
+Когда мы нажимаем на кнопку поиска, следующий код:
+
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "")
 
@@ -54,9 +55,9 @@ url: /ru/net/find-and-replace-in-spreadsheet/
 
 {{< /highlight >}}
 
-При нажатии на кнопку «Заменить» выполняется следующий код:
+Нажатие на кнопку "Заменить" вызывает следующий код:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "" && TXBX_Replace.Text!="")
 
@@ -108,7 +109,7 @@ url: /ru/net/find-and-replace-in-spreadsheet/
 
 {{< /highlight >}}
 
-## **Скачать пример кода**
+## **Загрузить образец кода**
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Find%20and%20replace%20%28Aspose.Cells%29.zip)

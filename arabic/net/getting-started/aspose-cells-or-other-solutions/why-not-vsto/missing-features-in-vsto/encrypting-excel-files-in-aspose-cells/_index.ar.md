@@ -1,44 +1,45 @@
-﻿---
+---
 title: تشفير ملفات Excel في Aspose.Cells
 type: docs
 weight: 90
 url: /ar/net/encrypting-excel-files-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-يمكّنك Microsoft Excel (97-2007) من تشفير جداول البيانات وحمايتها بكلمة مرور. يستخدم الخوارزميات التي يوفرها مزود خدمة التشفير ، أو CSP ، وهي مجموعة من خوارزميات التشفير ذات الخصائص المختلفة. CSP الافتراضي هو "متوافق مع Office 97/2000" أو "تشفير ضعيف (XOR)". من المهم اختيار طول مفتاح التشفير المناسب. لا يدعم بعض CSPs أكثر من 40 أو 56 بت. يعتبر هذا تشفيرًا ضعيفًا. للتشفير القوي ، يجب ألا يقل طول المفتاح عن 128 بت. يحتوي Microsoft Windows على CSPs الذين يقدمون أنواع تشفير قوية أيضًا ، على سبيل المثال "موفر التشفير القوي Microsoft". لإعطائك فكرة ، تشفير 128 بت هو ما تستخدمه البنوك لتشفير الاتصال بأنظمتها المصرفية عبر الإنترنت.
+Microsoft Excel (97 - 2007) يتيح لك تشفير وحماية كلمة مرور لجداول البيانات خاصتك. يستخدم خوارزميات تقدمها مزود خدمات التشفير، أو CSP، مجموعة من الخوارزميات التشفيرية ذات الخصائص المختلفة. يعتبر CSP الافتراضي هو 'متوافق مع Office 97/2000' أو 'التشفير الضعيف (XOR)'. من المهم اختيار طول المفتاح التشفيري الصحيح. بعض CSPs لا تدعم أكثر من 40 أو 56 بت. يُعتبر ذلك تشفيرًا ضعيفًا. بالنسبة للتشفير القوي، يتطلب طول مفتاح أدنى قدره 128 بت. يحتوي نظام التشغيل Microsoft Windows على CSPs تقدم أنواع تشفير قوية أيضًا، على سبيل المثال 'موفر خدمات التشفير القوي من مايكروسوفت'. على سبيل المثال، 128 بت تشفير هو ما يستخدمه البنوك لتشفير الاتصال بأنظمتها للخدمات المصرفية عبر الإنترنت.
 
-يسمح لك Aspose.Cells بتشفير وحماية كلمة مرور Microsoft ملفات Excel بنوع التشفير المطلوب.
+تسمح Aspose.Cells لك بتشفير وحماية ملفات Microsoft Excel بنوع التشفير الذي ترغب فيه.
 
 {{% /alert %}} 
-## **باستخدام Microsoft إكسل**
-لتعيين إعدادات تشفير الملفات في Microsoft Excel (هنا Microsoft Excel 2003):
+## **استخدام Microsoft Excel**
+لضبط إعدادات تشفير الملف في Microsoft Excel (هنا Microsoft Excel 2003):
 
-1.  من**أدوات** القائمة ، حدد**خيارات**.
- يظهر مربع حوار.
-1.  حدد ملف**حماية** التبويب.
-1.  أدخل كلمة مرور وانقر**متقدم** 
-   **مربع حوار الخيارات** 
+١. من قائمة **الأدوات**, حدد **خيارات**.
+   يظهر حوار.
+١. حدد علامة التبويب **الأمان**.
+1. أدخل كلمة مرور وانقر **متقدم** 
+   **الحوار للاختيارات** 
 
-![ما يجب القيام به: image_بديل_نص](encrypting-excel-files-in-aspose-cells_1.png)
-
-
+![todo:image_alt_text](encrypting-excel-files-in-aspose-cells_1.png)
 
 
-1.  اختر نوع التشفير وقم بتأكيد كلمة المرور.
+
+
+١. اختر نوع التشفير وقم بتأكيد كلمة المرور. 
 
    **مربع حوار نوع التشفير** 
 
-![ما يجب القيام به: image_بديل_نص](encrypting-excel-files-in-aspose-cells_2.png)
+![todo:image_alt_text](encrypting-excel-files-in-aspose-cells_2.png)
 
 
 
 ## **التشفير مع Aspose.Cells**
-يوضح المثال التالي كيفية تشفير وحماية كلمة المرور لملف excel باستخدام Aspose.Cells API.
+المثال التالي يوضح كيفية تشفير وحماية ملف Excel بكلمة مرور باستخدام واجهة برمجة التطبيقات Aspose.Cells.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a Workbook object.
 
@@ -65,7 +66,7 @@ workbook.Save("encryptedBook1.xls");
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Encrypting%20Excel%20Files)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1))
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Encrypting%20Excel%20Files)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1))

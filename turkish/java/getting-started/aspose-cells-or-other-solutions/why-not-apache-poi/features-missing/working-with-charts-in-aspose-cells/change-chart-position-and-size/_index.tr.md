@@ -1,11 +1,12 @@
-﻿---
-title: Grafik Konumunu ve Boyutunu Değiştirin
+---
+title: Grafiğin Konumunu ve Boyutunu Değiştirme
 type: docs
 weight: 20
 url: /tr/java/change-chart-position-and-size/
 ---
-## **Aspose.Cells - Tablo Konumunu ve Boyutunu Değiştir**
-Grafiğin konumunu (X, Y koordinatları) ve boyutunu (yükseklik, genişlik) değiştirmek için Aspose.Cells'i kullanarak şu özellikleri kullanın:
+
+## **Aspose.Cells - Grafik Konumunu ve Boyutunu Değiştirme**
+Grafiğin konumunu (X, Y koordinatları) ve boyutunu (yükseklik, genişlik) değiştirmek için Aspose.Cells kullanarak bu özellikleri kullanın:
 
 1. Chart.getChartObject().get/setWidth()
 1. Chart.getChartObject().get/setHeight()
@@ -14,7 +15,7 @@ Grafiğin konumunu (X, Y koordinatları) ve boyutunu (yükseklik, genişlik) de�
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook(dataDir + "AsposeChart.xls");
 
@@ -39,11 +40,11 @@ chart.getChartObject().setY(150);
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/charts/AsposeChangeChartPositionAndSize.java)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Grafik Konumunu ve Boyutunu Değiştirme](/cells/tr/java/change-chart-position-and-size/).
+Daha fazla bilgi için [Grafiğin Konumunu ve Boyutunu Değiştirme](/cells/tr/java/change-chart-position-and-size)'yi ziyaret edin.
 
 {{% /alert %}}

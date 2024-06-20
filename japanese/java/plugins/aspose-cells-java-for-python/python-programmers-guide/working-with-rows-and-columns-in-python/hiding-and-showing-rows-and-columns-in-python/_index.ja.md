@@ -1,18 +1,19 @@
 ---
-title: Python の行と列の非表示と表示
+title: Pythonで行と列を非表示および表示する方法
 type: docs
 weight: 50
 url: /ja/java/hiding-and-showing-rows-and-columns-in-python/
-description: Aspose.Cells for Python Via Java API を通じて行と列を非表示または表示する方法を学びます。
-keywords: How to Hide and Show Rows and Columns in Python Via Java, Hide Rows and Columns using Python Via Java, Python Via Java Show Rows and Columns. 
+description: Aspose.Cells for Python Via Java APIを使用してPythonで行と列を非表示および表示する方法を学びます。
+keywords: Python Via Javaを使用して行と列を非表示および表示する方法、Python Via Javaを使用して行を非表示および表示する方法、Python Via Javaを使用して列を非表示および表示する方法。 
 ---
-##  **Aspose.Cells - 行と列の可視性の制御**
-###  **行と列を非表示にする方法**
-開発者は、Cells コレクションの HideRow メソッドと HideColumn メソッドをそれぞれ呼び出すことで、行または列を非表示にすることができます。どちらのメソッドも、行/列インデックスをパラメータとして受け取り、特定の行または列を非表示にします。
 
-**Rubyコード**
+## **Aspose.Cells - 行と列の表示/非表示を制御**
+### **行や列の非表示方法**
+開発者はCellsコレクションのHideRowおよびHideColumnメソッドを呼び出すことで、特定の行または列を非表示にできます。両方のメソッドは、非表示にする特定の行または列のインデックスをパラメータとして取ります。
 
-{{< highlight "ruby" >}}
+**Ruby Code**
+
+{{< highlight ruby >}}
 
  def hide_rows_columns(self):
 
@@ -41,15 +42,15 @@ workbook.save(self.dataDir + "Hide Rows And Columns.xls")
 print "Hide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-###  **行と列を表示する方法**
-開発者は、Cells コレクションの UnhideRow メソッドと UnhideColumn メソッドをそれぞれ呼び出すことで、非表示の行または列を再表示できます。どちらのメソッドも次の 2 つのパラメータを取ります。
+### **行や列の表示方法**
+開発者は、CellsコレクションのUnhideRowおよびUnhideColumnメソッドを呼び出すことで、非表示になっている行または列を元に戻すことができます。両方のメソッドは2つのパラメータを取ります:
 
-- **行または列のインデックス**特定の行または列を表示するために使用される行または列のインデックス。
-- **行の高さまたは列の幅**表示後に行または列に割り当てられる行の高さまたは列の幅。
+- **行または列のインデックス** - 特定の行または列を表示するために使用される行または列のインデックス。
+- **行の高さまたは列の幅** - 行または列が表示された後に割り当てられた行の高さまたは列の幅。
 
-**Rubyコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def unhide_rows_columns(self):
 
@@ -78,7 +79,7 @@ workbook.save(self.dataDir + "Unhide Rows And Columns.xls")
 print "Unhide Rows And Columns Successfully." 
 
 {{< /highlight >}}
-##  **実行コードをダウンロード**
-ダウンロード**行と列の可視性の制御 (Aspose.Cells)**以下のソーシャル コーディング サイトのいずれかから:
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**行と列の表示/非表示を制御（Aspose.Cells）**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

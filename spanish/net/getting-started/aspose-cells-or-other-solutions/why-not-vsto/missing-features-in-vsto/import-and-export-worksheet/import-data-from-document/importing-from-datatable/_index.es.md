@@ -1,15 +1,16 @@
-﻿---
-title: Importando desde DataTable
+---
+title: Importar desde DataTable
 type: docs
 weight: 40
 url: /es/net/importing-from-datatable/
 ---
- Los desarrolladores pueden importar datos desde un**Tabla de datos** a sus hojas de trabajo llamando al**ImportDataTable** método de la colección Cells. Hay muchas versiones sobrecargadas del**ImportDataTable** pero una sobrecarga típica toma los siguientes parámetros:**Tabla de datos** , representa el**Tabla de datos** objeto cuyo contenido necesita importar
 
-- **¿Se muestra el nombre del campo?**, especifica si los nombres de las columnas de DataTable deben importarse a la hoja de trabajo como una primera fila o no
-- **Inicio Cell** representa el nombre de la celda de inicio (es decir, "A1") desde donde importar el contenido de DataTable
+Los desarrolladores pueden importar datos desde un **DataTable** a sus hojas de cálculo llamando al método **ImportDataTable** de la colección Cells. Hay muchas versiones sobrecargadas del método **ImportDataTable** pero una sobrecarga típica toma los siguientes parámetros: **DataTable** , representa el objeto **DataTable** cuyo contenido necesita ser importado
 
-{{< highlight "csharp" >}}
+- **¿Se Muestra el Nombre del Campo?**, especifica si los nombres de las columnas de DataTable deben ser importados a la hoja de cálculo como primera fila o no
+- **Celda de Inicio** , representa el nombre de la celda de inicio (es decir, "A1") desde donde importar el contenido del DataTable
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -41,11 +42,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -57,11 +58,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 
@@ -78,6 +79,6 @@ worksheet.Cells.ImportDataTable(dataTable, true, "A1");
 workbook.Save("Import From Data Table.xls");
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Import.to.Worksheet.Aspose.Cells.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)

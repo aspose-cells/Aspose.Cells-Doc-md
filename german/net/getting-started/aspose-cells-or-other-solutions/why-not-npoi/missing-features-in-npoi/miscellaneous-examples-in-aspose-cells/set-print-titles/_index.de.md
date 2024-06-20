@@ -1,17 +1,18 @@
-﻿---
+---
 title: Drucktitel festlegen
 type: docs
 weight: 30
 url: /de/net/set-print-titles/
 ---
-## **Aspose.Cells - Drucktitel festlegen**
-Aspose.Cells ermöglicht es Ihnen, Zeilen- und Spaltenüberschriften festzulegen, die auf allen Seiten eines gedruckten Arbeitsblatts wiederholt werden sollen. Verwenden Sie dazu die[Seiteneinrichtung](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)Klasse PrintTitleColumns- und PrintTitleRows-Eigenschaften.
 
-Die Zeilen oder Spalten, die wiederholt werden, werden durch die Übergabe ihrer Zeilen- oder Spaltennummern definiert. Beispielsweise werden Zeilen als $1:$2 und Spalten als $A:$B definiert.
+## **Aspose.Cells - Drucktitel festlegen**
+Aspose.Cells ermöglicht es Ihnen, Zeilen- und Spaltenüberschriften auf allen Seiten eines gedruckten Arbeitsblatts zu wiederholen. Verwenden Sie dazu die Klasse [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) und die Eigenschaften PrintTitleColumns und PrintTitleRows.
+
+Die zu wiederholenden Zeilen oder Spalten werden durch Übergabe ihrer Zeilen- oder Spaltennummern definiert. Zum Beispiel werden Zeilen als $1:$2 und Spalten als $A:$B definiert.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -30,13 +31,13 @@ pageSetup.PrintTitleColumns = "$A:$B";
 pageSetup.PrintTitleRows= "$1:$2";
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Drucktitel festlegen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Drucktitel festlegen** von einer der unten aufgeführten sozialen Code-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Print.Titles.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Druckoptionen einstellen](/cells/de/net/setting-print-options/).
+Für weitere Details besuchen Sie [Druckoptionen festlegen](/cells/de/net/setting-print-options/).
 
 {{% /alert %}}

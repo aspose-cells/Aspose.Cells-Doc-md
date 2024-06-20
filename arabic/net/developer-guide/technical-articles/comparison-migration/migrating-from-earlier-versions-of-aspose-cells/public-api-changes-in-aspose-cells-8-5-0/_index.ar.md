@@ -1,27 +1,28 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.5.0
+---
+title: التغييرات العامة في الواجهة البرمجية لـ Aspose.Cells 8.5.0
 type: docs
 weight: 160
 url: /ar/net/public-api-changes-in-aspose-cells-8-5-0/
 ---
+
 {{% alert color="primary" %}} 
 
- يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.4.2 إلى 8.5.0 والتي قد تهم مطوري الوحدة النمطية / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ،[الفئات المضافة وما إلى ذلك.](/cells/ar/net/public-api-changes-in-aspose-cells-8-5-0/)ولكن أيضًا وصف لأية تغييرات في السلوك خلف الكواليس عام Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.4.2 إلى 8.5.0 التي قد تكون مهمة لمطوري الوحدات / التطبيقات. يتضمن ليس فقط الطرق العامة الجديدة والمحدثة والفئات المضافة [إلخ](/cells/ar/net/public-api-changes-in-aspose-cells-8-5-0/), ولكن أيضًا وصفًا لأي تغييرات في السلوك الذي يحدث خلف الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **تم تغيير معلمات وظيفة ICustom.CalculateCustomFunction**
-إذا كانت معلمة واحدة للوظيفة المخصصة هي مرجع الخلية ، في الإصدار القديم Aspose.Cells APIs المستخدمة لتحويل مرجع الخلية إلى قيمة خلية واحدة أو صفيف كائن لجميع قيم الخلية في المنطقة المشار إليها. ومع ذلك ، بالنسبة للعديد من الوظائف والمستخدمين ، لا يلزم وجود مصفوفة قيم الخلية لجميع الخلايا في المنطقة المشار إليها ، فهم يحتاجون فقط إلى خلية واحدة مطابقة لموضع الصيغة ، أو يحتاجون فقط إلى المرجع نفسه بدلاً من قيمة الخلية أو صفيف القيمة . في بعض الحالات ، يؤدي جلب جميع قيم الخلايا إلى زيادة خطر حدوث خطأ مرجعي دائري.
+## **واجهات برمجة التطبيقات الجديدة**
+### **تغيرت معلمات ICustomFunction.CalculateCustomFunction**
+إذا كان أحد المعاملات للدالة المخصصة مرجعًا للخلية ، فقد كانت تستخدم واجهات برمجة التطبيقات القديمة Aspose.Cells APIs لتحويل مرجع الخلية إلى قيمة خلية واحدة أو مصفوفة كائنية من جميع قيم الخلية في المنطقة المشار إليها. ومع ذلك ، بالنسبة للعديد من الوظائف والمستخدمين ، ليس من الضروري مصفوفة قيم الخلية لجميع الخلايا في المنطقة المشار إليها ، فهم يحتاجون فقط إلى خلية واحدة مقابل موضع الصيغة ، أو فقط يحتاجون إلىالمرجع نفسه بدلاً من قيمة الخلية أو مصفوفة القيم. وبالنسبة لبعض الحالات ، قد زاد استخدام جميع قيم الخلية من مخاطر حدوث خطأ الإشارة المعكوسة.
 
-لدعم مثل هذا النوع من المتطلبات ، قام Aspose.Cells for .NET 8.5.0 بتغيير قيمة المعلمة إلى "paramsList" للمنطقة المشار إليها. منذ الإصدار 8.5.0 ، يضع API الكائن RefifiedArea في "paramsList" عندما تكون المعلمة المقابلة مرجعًا أو تكون النتيجة المحسوبة مرجعًا. إذا كنت بحاجة إلى المرجع نفسه ، فيمكنك استخدام RefifiedArea مباشرة. إذا كنت بحاجة إلى الحصول على قيمة خلية مفردة واحدة من المرجع المقابل لموضع الصيغة ، يمكنك استخدام أسلوب RefifiedArea.GetValue (rowOffset ، int colOffset). إذا كنت بحاجة إلى مصفوفة قيم الخلية للمنطقة بأكملها ، فيمكنك استخدام طريقة RefifiedArea.GetValues.
+لدعم هذا النوع من المتطلبات، قامت Aspose.Cells for .NET 8.5.0 بتغيير قيمة المعلمة إلى "paramsList" للمنطقة المحددة. منذ الإصدار v8.5.0، يقوم واجهة برمجة التطبيقات بوضع كائن ReferredArea في "paramsList" عندما تكون المعلمة المقابلة مرجعًا أو نتيجة حسابها هي مرجع. إذا كنت بحاجة إلى المرجع نفسه، فيمكنك استخدام ReferredArea مباشرة. إذا كنت بحاجة إلى الحصول على قيمة خلية واحدة من المرجع المقابل مع وضع الصيغة، يمكنك استخدام طريقة ReferredArea.GetValue(rowOffset, int colOffset). إذا كنت بحاجة إلى مصفوفة قيم خلية للمنطقة بأكملها، يمكنك استخدام طريقة ReferredArea.GetValues.
 
-الآن نظرًا لأن 8.5.0 Aspose.Cells for .NET يعطي 8.5.0 RefifiedArea في "paramsList" ، فلن تكون هناك حاجة إلى مجموعة RefifiedAreaCollection في "ContextObjects" بعد الآن (في الإصدارات القديمة لم يكن بإمكانها إعطاء مخطط واحد لواحد لمعلمات الوظيفة المخصصة دائمًا) ، لذلك قام هذا الإصدار أيضًا بإزالته من "ContextObjects" الآن.
+الآن كما يُعطي Aspose.Cells for .NET 8.5.0 ReferredArea في "paramsList", لن يكون ReferredAreaCollection في "contextObjects" مطلوبًا بعد الآن (في الإصدارات القديمة كان لا يمكنه دائمًا إعطاء خريطة واحدة إلى واحدة لمعلمات الدالة المخصصة)، لذا تمت إزالته أيضًا من "contextObjects" الآن.
 
-يتطلب هذا التغيير إجراء تغييرات على رمز تنفيذ وظيفة ICustomFunction قليلاً عندما تحتاج إلى قيمة / قيم المعلمة المرجعية.
+يتطلب هذا التغيير تغييرات في كود التنفيذ لـ ICustomFunction قليلاً عندما يكون هناك حاجة لقيمة/قيم للمعلمة المرجعية.
 
 **التنفيذ القديم**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
@@ -47,9 +48,9 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-5-0/
 
 {{< /highlight >}}
 
-**تنفيذ جديد**
+**التنفيذ الجديد**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
@@ -100,31 +101,31 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-5-0/
 {{< /highlight >}}
 
 
-### **تمت إضافة خيارات احتساب الفصل**
-كشف Aspose.Cells for .NET 8.5.0 عن فئة CalculationOptions لإضافة المزيد من المرونة والقابلية للتوسعة لمحرك حساب الصيغة. الفئة المضافة حديثًا لها الخصائص التالية.
+### **وأضيفت صفة الخيارات الحسابية**
+قام Aspose.Cells for .NET 8.5.0 بتعريض فئة CalculationOptions لإضافة المزيد من المرونة والقابلية للتمدد لمحرك حساب الصيغة. للفئة المضافة حديثًا الخصائص التالية.
 
-1. CalculationOptions.CalcStackSize: تحديد حجم المكدس لحساب الخلايا بشكل متكرر. -1 يحدد أن الحساب سيستخدم WorkbookSettings.CalcStackSize من المصنف المقابل.
-1. CalculationOptions.CustomFunction: توسيع محرك حساب الصيغة باستخدام صيغة مخصصة.
-1. CalculationOptions.IgnoreError: تشير قيمة النوع المنطقي إلى ما إذا كان سيتم إخفاء الأخطاء أثناء حساب الصيغ ، حيث قد تكون الأخطاء ناتجة عن وظيفة غير مدعومة أو ارتباط خارجي أو أكثر.
-1. CalculationOptions.PrecisionStrategy: قيمة نوع CalculationPrecisionStrategy التي تحدد استراتيجية معالجة دقة الحساب.
-### **تمت إضافة حساب العد الدقة الإستراتيجية**
-كشف Aspose.Cells for .NET 8.5.0 إستراتيجية حساب التعداد لإضافة المزيد من المرونة لمحرك حساب الصيغة للحصول على النتائج المرجوة. هذا التعداد استراتيجيات معالجة الحساب بدقة. نظرًا لمسألة الدقة في IEEE 754 Floating-Point Arithmetic ، فقد لا يتم حساب بعض الصيغ التي تبدو بسيطة لإعطاء النتائج المتوقعة ، وبالتالي فإن أحدث إصدار API قد كشف الحقول التالية للحصول على النتائج المرجوة وفقًا للتحديد.
+1. CalculationOptions.CalcStackSize: تحدد حجم الشريحة لحساب الخلايا بشكل متكرر. تحدد القيمة -1 أن الحساب سيستخدم WorkbookSettings.CalcStackSize من الدفتر المحاسبي المقابل.
+1. CalculationOptions.CustomFunction: يوسع محرك حساب الصيغ بصيغة مخصصة.
+1. CalculationOptions.IgnoreError: تشير قيمة النوع البوليانية إلى ما إذا كان يتعين إخفاء الأخطاء أثناء حساب الصيغ ، حيث يمكن أن تكون الأخطاء ناتجة عن وظيفة غير مدعومة ، أو رابط خارجي أو أكثر.
+1. CalculationOptions.PrecisionStrategy: نوع استراتيجية حساب الدقة للقيمة التي تحدد الاستراتيجية لمعالجة الدقة في الحساب.
+### **تمت إضافة استراتيجية حساب الدقة**
+قامت Aspose.Cells for .NET 8.5.0 بتعريض تعداد CalculationPrecisionStrategy لإضافة المزيد من المرونة إلى محرك حساب الصيغة للحصول على النتائج المرجوة. تعداد هذه الاستراتيجيات لمعالجة الدقة في الحساب. بسبب مشكلة الدقة في الحساب باستخدام IEEE 754 للنقاط العائمة، قد لا يتم حساب بعض الصيغ التي تبدو بسيطة لإعطاء النتائج المتوقعة، لذا قامت أحدث بنية للواجهة بتعريض الحقول التالية للحصول على النتائج المرجوة حسب الاختيار.
 
-1. CalculationPrecisionStrategy.Decimal: يستخدم العلامة العشرية كمعامل حيثما أمكن ، وهو غير فعال من اعتبارات الأداء.
-1. CalculationPrecisionStrategy.Round: تقريب نتائج الحساب وفقًا لأرقام ذات دلالة.
-1. CalculationPrecisionStrategy.None: لم يتم تطبيق أي استراتيجية لذلك أثناء الحساب يستخدم المحرك القيمة المزدوجة الأصلية كمعامل ويعيد النتيجة مباشرة. هذا الخيار هو الأكثر فعالية ويمكن تطبيقه في معظم الحالات.
-### **تمت إضافة طرق لاستخدام خيارات الحساب**
-مع إصدار v8.5.0 ، أضاف Aspose.Cells API إصدارات التحميل الزائد لطريقة CalculateFormula كما هو موضح أدناه.
+1. CalculationPrecisionStrategy.Decimal: يستخدم العدد العشري كعامل عند الإمكان، وهو الأقل كفاءة من حيث الأداء.
+1. CalculationPrecisionStrategy.Round: يقوم بتقريب نتائج الحساب وفقًا للأرقام الكبيرة.
+1. CalculationPrecisionStrategy.None: لا يتم تطبيق أي استراتيجية للحساب وبالتالي أثناء الحساب، يستخدم المحرك القيمة العشرية الأصلية كعامل ويُرجع النتيجة مباشرة. هذا الخيار هو الأكثر كفاءة وهو قابل للتطبيق في معظم الحالات.
+### **الطرق المضافة لاستخدام خيارات الحساب**
+مع إصدار v8.5.0، أضافت Aspose.Cells API نسخًا إضافية من طريقة CalculateFormula كما هو مدرج أدناه.
 
-- المصنف .CalculateFormula (خيارات الحساب)
-- Worksheet.CalculateFormula (CalculationOptions options ، bool recursive)
-- Cell.حساب (خيارات الحساب)
-### **تمت إضافة PasteType.RowHeights في حقل التعداد**
-قدمت واجهات برمجة التطبيقات Aspose.Cells مجال التعداد PasteType.RowHeights لغرض نسخ ارتفاعات الصف أثناء نسخ النطاقات. عند ضبط خاصية PasteOptions.PasteType على ((PasteType.RowHeights}} سيتم نسخ ارتفاعات جميع الصفوف داخل نطاق المصدر إلى النطاق الوجهة.
+- Workbook.CalculateFormula(CalculationOptions)
+- Worksheet.CalculateFormula(CalculationOptions options, bool recursive)
+- Cell.Calculate(CalculationOptions)
+### **تمت إضافة حقل تعداد PasteType.RowHeights**
+قدمت Aspose.Cells APIs حقل تعداد PasteType.RowHeights لنسخ أطوال الصفوف أثناء نسخ النطاقات. عند ضبط خاصية PasteOptions.PasteType على PasteType.RowHeights، سيتم نسخ أطوال جميع الصفوف داخل النطاق المصدر إلى النطاق الوجهة.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -174,11 +175,11 @@ workbook.Save("output.xlsx", SaveFormat.Xlsx);
 
 
 ### **تمت إضافة خاصية SheetRender.PageScale**
-عندما تقوم بتعيين مقياس إعداد الصفحة باستخدام**يصلح ل n صفحة (ق) عرض في متر طول** الخيار ، Microsoft يقوم Excel بحساب عامل تحجيم إعداد الصفحة. يمكن تحقيق نفس الشيء باستخدام خاصية SheetRender.PageScale المعروضة بواسطة Aspose.Cells for .NET 8.5.0. تقوم هذه الخاصية بإرجاع قيمة مزدوجة يمكن تحويلها إلى قيمة النسبة المئوية. على سبيل المثال ، إذا كانت تُرجع 0.507968245 ، فهذا يعني أن عامل القياس هو 51٪.
+عند ضبط تسوية الصفحة باستخدام الخيار **Fit to n page(s) wide by m tall**، يقوم Microsoft Excel بحساب عامل تسوية تسوية الصفحة. يمكن تحقيق النفس باستخدام خاصية SheetRender.PageScale التي يتم عرضها بواسطة Aspose.Cells for .NET 8.5.0. تُعيد هذه الخاصية قيمة مزدوجة يمكن تحويلها إلى قيمة النسبة المئوية. على سبيل المثال، إذا أعادت 0.507968245 فهذا يعني أن عامل التسوية هو 51٪.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -217,20 +218,20 @@ Console.WriteLine(strPageScale);
 {{< /highlight >}}
 
 
-### **تمت إضافة خلية التعداد CellValueFormatStrategy**
-Aspose.Cells for .NET 8.5.0 أضاف إستراتيجية تعداد جديدة CellValueFormatStrategy للتعامل مع المواقف التي يجب فيها استخراج قيم الخلية مع تطبيق التنسيق أو بدونه. يحتوي Enumeration CellValueFormatStrategy على الحقول التالية.
+### **تمت إضافة تعدادية CellValueFormatStrategy**
+أضاف Aspose.Cells for .NET 8.5.0 تعدادًا جديدًا CellValueFormatStrategy للتعامل مع الحالات التي يجب استخراج قيم الخلية مع أو بدون تطبيق التنسيق. التعداد CellValueFormatStrategy يحتوي على الحقول التالية.
 
-1. CellValueFormatStrategy.CellStyle: منسق فقط بالتنسيق الأصلي للخلية.
-1. CellValueFormatStrategy.DisplayStyle: منسق بنمط الخلية المعروض.
-1. CellValueFormatStrategy.None: غير منسق.
-### **الطريقة Cell.GetStingValue مضافة**
-من أجل استخدام تعداد CellValueFormatStrategy ، كشف v8.5.0 عن طريقة Cell.GetStingValue التي يمكن أن تقبل معلمة من النوع CellValueFormatStrategy وإرجاع القيمة تعتمد على الخيار المحدد.
+1. CellValueFormatStrategy.CellStyle: مهيأة فقط باستخدام التنسيق الأصلي للخلية.
+1. CellValueFormatStrategy.DisplayStyle: مهيأة باستخدام النمط المعروض للخلية.
+1. CellValueFormatStrategy.None: غير مهيأة.
+### **تمت إضافة طريقة Cell.GetStingValue**
+لاستخدام تعداد CellValueFormatStrategy، قامت v8.5.0 بتعريض طريقة Cell.GetStingValue التي يمكن أن تقبل معلمة من النوع CellValueFormatStrategy وتعيد القيمة تعتمد على الخيار المحدد.
 
-يوضح مقتطف التعليمات البرمجية التالي كيفية استخدام طريقة Cells.GetStingValue المكشوفة حديثًا.
+يوضح مقطع الكود التالي كيفية استخدام طريقة Cells.GetStingValue المكشوفة حديثًا.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 
@@ -272,13 +273,13 @@ Console.WriteLine(value);
 
 
 ### **تمت إضافة خاصية ExportTableOptions.FormatStrategy**
-كشف Aspose.Cells for .NET 8.5.0 خاصية ExportTableOptions.FormatStrategy للمستخدمين الذين يرغبون في تصدير البيانات إلى DataTable بالتنسيق أو بدونه. تستفيد هذه الخاصية من تعداد CellValueFormatStrategy وتقوم بتصدير البيانات وفقًا للخيار المحدد.
+قامت Aspose.Cells for .NET 8.5.0 بتعريض خاصية ExportTableOptions.FormatStrategy للمستخدمين الذين يرغبون في تصدير البيانات إلى DataTable مع أو بدون تنسيق. تستخدم هذه الخاصية تعداد CellValueFormatStrategy وتصدر البيانات حسب الخيار المحدد.
 
 يشرح الكود التالي استخدام خاصية ExportTableOptions.FormatStrategy.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 

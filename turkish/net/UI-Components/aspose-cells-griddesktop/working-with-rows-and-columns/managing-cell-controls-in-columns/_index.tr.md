@@ -1,24 +1,27 @@
-﻿---
-title: Cell Denetimlerini Sütunlarda Yönetme
+---
+title: Sütunlarda Hücre Kontrolleri Yönetimi
 type: docs
 weight: 100
-url: /tr/net/managing-cell-controls-in-columns/
+url: /tr/net/aspose-cells-griddesktop/manage-cell-controls-in-columns/
+keywords: GridDesktop, kontroller, kontrol
+description: Bu makale, sütunlarda kontrol ayarlamanın nasıl yapıldığını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konuda, Aspose.Cells.GridDesktop API kullanılarak sütunlardaki hücre denetimlerini yönetmeyle ilgili bazı önemli kavramlar ele alınmaktadır. Geliştiricilerin çalışma sayfalarının sütunlarından hücre denetimlerine nasıl erişebileceğini, bunları değiştirebileceğini ve kaldırabileceğini açıklayacağız. Hadi bir göz atalım.
+Bu konu, Aspose.Cells.GridDesktop API'sını kullanarak sütunlarda hücre kontrollerini yönetme konusunda bazı önemli kavramları tartışmaktadır. Geliştiricilere, çalışma sayfalarının sütunlarından hücre kontrollerine erişme, değiştirme ve kaldırma konusunda nasıl yapılabileceğini anlatacağız. Hadi bir göz atalım.
 
 {{% /alert %}} 
-## **Cell Kontrollerine Erişim**
- Sütundaki mevcut bir hücre kontrolüne erişmek ve değiştirmek için, geliştiriciler bir hücrenin CellControl özelliğini kullanabilir.**Aspose.Cells.GridDesktop.Data.GridColumn** . Bir hücre kontrolüne erişildiğinde, geliştiriciler çalışma zamanında özelliklerini değiştirebilir. Örneğin, aşağıda verilen örnekte, mevcut bir**Onay Kutusu** Belirli bir hücreden kontrol**Aspose.Cells.GridDesktop.Data.GridColumn** ve Checked özelliğini değiştirdi.
+## **Hücre Kontrollerine Erişme**
+Varolan bir hücre kontrolüne sütundan erişip değiştirmek için geliştiriciler, bir **Aspose.Cells.GridDesktop.Data.GridColumn** özelliği olan **CellControl**'ü kullanabilir. Bir kez bir hücre kontrolüne erişildiğinde, geliştiriciler çalışma zamanında özelliklerini değiştirebilirler. Örneğin, aşağıdaki örnekte belirli bir **Aspose.Cells.GridDesktop.Data.GridColumn**'dan varolan bir **CheckBox** hücre kontrolüne eriştik ve Checked özelliğini değiştirdik.
 
-**ÖNEMLİ:** CellControl özelliği, şu şekilde bir hücre denetimi sağlar:**Hücre Kontrolü**nesne. Bu nedenle, belirli bir hücre kontrolü türüne erişmeniz gerekirse, diyelim ki**Onay Kutusu** o zaman şunu yazmanız gerekecek:**Hücre Kontrolü** itiraz etmek**Onay Kutusu** sınıf.
+**ÖNEMLİ:** CellControl özelliği, **CellControl** nesnesi formunda bir hücre kontrolü sağlar. Dolayısıyla, belirli bir türde hücre kontrolüne erişmeniz gerekiyorsa, örneğin **CheckBox** ise **CellControl** nesnesini **CheckBox** sınıfına dönüştürmeniz gerekir.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-ManagingControlsInColumns-AccessCheckbox.cs" >}}
-## **Cell Denetimlerini Kaldırma**
- Mevcut bir hücre denetimini kaldırmak için, geliştiriciler yalnızca istenen bir çalışma sayfasına erişebilir ve ardından**Kaldırmak** kullanarak belirli sütundan hücre kontrolü**Hücre Denetimini Kaldır** yöntemi**Aspose.Cells.GridDesktop.Data.GridColumn**.
+## **Hücre Kontrollerini Kaldırma**
+Varolan bir hücre kontrolünü kaldırmak isteyen geliştiriciler, istenen çalışma sayfasına erişip ardından **Aspose.Cells.GridDesktop.Data.GridColumn**'ın **RemoveCellControl** yöntemini kullanarak belirli sütundan hücre kontrolünü kaldırabilirler.
 
 
 
@@ -26,6 +29,6 @@ Bu konuda, Aspose.Cells.GridDesktop API kullanılarak sütunlardaki hücre denet
 
 {{% alert color="primary" %}} 
 
- Her sütundaki**Sütunlar** koleksiyonu**Çalışma kağıdı** bir örneği ile temsil edilir**Aspose.Cells.GridDesktop.Data.GridColumn** sınıf.
+**Çalışma Sayfasının Sütunları** koleksiyonundaki her bir sütun, bir **Aspose.Cells.GridDesktop.Data.GridColumn** sınıfının bir örneği tarafından temsil edilir.
 
 {{% /alert %}}

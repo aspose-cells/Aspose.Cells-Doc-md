@@ -1,143 +1,144 @@
-﻿---
-title: Преобразование Excel в Pdf, изображение и другие форматы
-linktitle: Преобразования книг
+---
+title: Преобразовать Excel в Pdf, изображение и другие форматы
+linktitle: Преобразования рабочих книг
 type: docs
 weight: 65
 url: /ru/net/convert-workbook-to-different-formats/
-description: Преобразование файлов Excel в Word, Excel, PowerPoint, PDF, CSV, JPG, HTML, MHT, ODS, BMP, PNG, SVG, TIFF, XPS, XPS, XPS, XPS и другие.
+description: Преобразование файлов Excel в Word, Excel, PowerPoint, PDF, CSV, JPG, HTML, MHT, ODS, BMP, PNG, SVG, TIFF, XPS, JSON, SQL, XML и многие другие.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells поддерживает преобразование между многими форматами. Технически преобразование означает загрузку книги в одном формате файла и сохранение ее в другом.
+Aspose.Cells поддерживает конвертацию между множеством форматов. Технически, конвертация означает загрузку книги в одном формате файла и сохранение ее в другом.
 
 {{% /alert %}}
 
-## **Преобразование книги Excel в PDF**
+## **Конвертировать книгу Excel в PDF**
 
-Файлы PDF широко используются для обмена документами между организациями, государственными секторами и отдельными лицами. Это стандартный формат документов, и разработчиков программного обеспечения часто просят найти способ конвертировать файлы Excel Microsoft в документы PDF.
+Файлы PDF широко используются для обмена документами между организациями, государственными секторами и физическими лицами. Это стандартный формат документа, и разработчиков программного обеспечения часто просят найти способ преобразовать файлы Microsoft Excel в документы PDF.
 
-Aspose.Cells поддерживает преобразование файлов Excel в PDF и обеспечивает высокую визуальную точность при преобразовании.
+Aspose.Cells поддерживает преобразование файлов Excel в PDF и поддерживает высокую визуальную точность при преобразовании.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-PDF.cs" >}}
 
-## **Конвертировать книгу Excel в JPG**
+## **Преобразовать рабочую книгу Excel в JPG**
 Aspose.Cells поддерживает преобразование файлов Excel в JPG.
-В приведенном ниже примере кода показано, как сохранить книгу в формате JPG.
+Приведенный ниже пример кода показывает, как сохранить рабочую книгу в формате JPG.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JPG.cs" >}}
 
-## **Преобразование книги Excel в изображение**
+## **Преобразование рабочей книги Excel в изображение**
 Aspose.Cells поддерживает преобразование файлов Excel в изображения.
-В приведенном ниже примере кода показано, как сохранить книгу в виде изображений.
+Приведенный ниже пример кода показывает, как сохранить рабочую книгу в виде изображений.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-Image.cs" >}}
 
-## **Преобразование книги Excel в XPS**
+## **Преобразование рабочей книги Excel в XPS**
 
-Формат документа XPS состоит из структурированной XML-разметки, которая определяет макет документа и внешний вид каждой страницы, а также правила рендеринга для распространения, архивирования, рендеринга, обработки и печати документов.
+Формат документа XPS состоит из структурированной разметки XML, которая определяет макет документа и визуальное оформление каждой страницы, а также правила отображения для распределения, архивирования, отображения, обработки и печати документов.
 
-Язык разметки для XPS — это подмножество XAML, которое позволяет включать элементы векторной графики в документы, используя XAML для разметки примитивов Windows Presentation Foundation (WPF). Используемые элементы описываются в терминах путей и других геометрических примитивов.
+Язык разметки для XPS является подмножеством XAML, что позволяет ему включать элементы векторной графики в документы, используя XAML для разметки примитивов Windows Presentation Foundation (WPF). Используемые элементы описаны в терминах путей и других геометрических примитивов.
 
-Файл XPS на самом деле представляет собой ZIP-архив в формате Unicode, использующий Open Packaging Conventions и содержащий файлы, из которых состоит документ. К ним относятся файл разметки XML для каждой страницы, текст, встроенные шрифты, растровые изображения, двумерная векторная графика, а также информация об управлении цифровыми правами. Содержимое файла XPS можно просмотреть, просто открыв его в приложении, поддерживающем ZIP-файлы.
+Файл XPS, на самом деле, является файлом UNICODE ZIP-архива с использованием упаковочных соглашений Open Packaging Conventions, содержащий файлы, из которых состоит документ. Эти включают XML-файл разметки для каждой страницы, текст, встроенные шрифты, растровые изображения, 2D векторную графику, а также информацию о цифровом управлении правами. Содержимое файла XPS можно изучить, просто открыв его в приложении, которое поддерживает ZIP-файлы.
 
-Поддерживается преобразование из Aspose.Cells 6.0.0, Microsoft Excel в XPS.
+Начиная с Aspose.Cells 6.0.0, поддерживается преобразование Microsoft Excel в XPS.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToXPS-1.cs" >}}
 
-## **Преобразование Excel в Ods, Sxc и Fods (OpenOffice / LibreOffice Calc)**
- Aspose.Cells поддерживает преобразование файлов Excel в файлы Ods, Sxc и Fods. В приведенном ниже примере кода показано, как преобразовать[темп](book1.xlsx) в файл Ods, Sxc и Fods.
+## **Преобразовать Excel в Ods, Sxc и Fods (OpenOffice / LibreOffice Calc)**
+Aspose.Cells поддерживает преобразование файлов Excel в файлы Ods, Sxc и Fods. Приведенный ниже пример кода показывает, как преобразовать [шаблон](book1.xlsx) в файлы Ods, Sxc и Fods.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
 
 
 ## **Преобразование книги Excel в файлы MHTML**
 
-MHTML объединяет обычный HTML с внешними ресурсами (то есть контентом, на который обычно ссылаются, например, изображениями, анимацией, звуком и т. д.) в один файл. Они используются для электронных писем с расширением файла .mht.
+MHTML объединяет обычный HTML с внешними ресурсами (то есть контентом, который обычно ссылается, таким как изображения, анимации, звук и т. д.) в один файл. Они используются для электронных писем с расширением файла .mht.
 
 Aspose.Cells поддерживает чтение и запись файлов MHTML.
 
-В приведенном ниже примере кода показано, как сохранить книгу в виде файла MHTML.
+В приведенном ниже примере кода показано, как сохранить книгу в формате MHTML.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToMHTMLFiles-1.cs" >}}
 
 ## **Преобразование книги Excel в HTML**
 
- Aspose.Cells API поддерживает экспорт электронных таблиц в формат HTML. Для этого Aspose.Cells использует**[HtmlSaveOptions] (https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**class, чтобы обеспечить гибкость управления несколькими аспектами вывода HTML.
+API Aspose.Cells предоставляет поддержку экспорта электронных таблиц в формат HTML. Для этой цели Aspose.Cells использует класс [**HtmlSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions) для обеспечения гибкости управления несколькими аспектами выходного HTML.
 
-В приведенном ниже примере кода показано, как сохранить книгу в виде файла HTML.
+Приведенный ниже пример кода демонстрирует, как сохранить рабочую книгу в файл HTML.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToHTMLFiles -1.cs" >}}
 
-## **Установка настроек изображения для HTML**
+## **Установка параметров изображения для HTML**
 
- Начиная с 8.0.2, Aspose.Cells выставил**[Параметры изображения] (https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions)** для**[HtmlSaveOptions] (https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions)**class, позволяющий разработчикам указывать предпочтения изображения при сохранении электронных таблиц в формате HTML.
+Начиная с версии 8.0.2, Aspose.Cells предлагает [**ImageOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions) для класса [**HtmlSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions), что позволяет разработчикам указывать предпочтения изображения при сохранении электронных таблиц в формат HTML.
 
-Ниже приведены сведения о некоторых параметрах изображения, которые можно применить.
+Ниже приведены подробности некоторых настроек изображения, которые могут быть применены,
 
-- **[ImageType] (https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)**: указывает тип изображения. Обратите внимание, что все фигуры, включая диаграммы, отображаются как изображения в выходных данных HTML.
-- **[Режим сглаживания] (https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/smoothingmode)**: задает сглаживание линий, кривых и краев заполненных областей.
-- **[TextRenderingHint] (https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/textrenderinghint)**: определяет качество рендеринга текста.
-- **[Качество](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/quality)** : Указывает качество изображения от 0 до 100, когда**[ImageType] (https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)**указывается как Jpeg.
-- **[Вертикальное разрешение] (https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution)**: получает или задает разрешение изображения по вертикали в точках на дюйм.
-- **[Горизонтальное разрешение] (https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution)**получает или задает разрешение изображения по горизонтали в точках на дюйм.
-- **[TiffCompression] (https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression)** : Получает или задает тип сжатия для изображений, когда**[ImageType] (https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype)**указывается как Tiff.
-- **[Прозрачный] (https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent)**: Указывает, должен ли фон изображения быть прозрачным, если ImageFormat указан как Png.
+- [**ImageType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype): указывает тип изображения. Обратите внимание, что все формы, включая диаграммы, отображаются как изображения в выходном HTML.
+- [**SmoothingMode**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/smoothingmode): указывает сглаживание линий, кривых и краев заполненных областей.
+- [**TextRenderingHint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/textrenderinghint): указывает качество отображения текста.
+- [**Quality**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/quality): указывает качество изображения от 0 до 100, когда [**ImageType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype) указан как Jpeg.
+- [**VerticalResolution**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution): получает или задает вертикальное разрешение изображения в точках на дюйм.
+- [**HorizontalResolution**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution): получает или задает горизонтальное разрешение изображения в точках на дюйм.
+- [**TiffCompression**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression): получает или задает тип сжатия для изображений, когда [**ImageType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/imagetype) указан как Tiff.
+- [**Transparent**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/transparent): указывает, должен ли фон изображения быть прозрачным, когда указан формат изображения как Png.
 
- В приведенном ниже коде показано, как использовать**[HtmlSaveOptions.ImageOptions] (https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions)**для указания различных предпочтений.
+Ниже приведен пример кода, демонстрирующий использование [**HtmlSaveOptions.ImageOptions**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/imageoptions) для указания различных предпочтений.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-SettingImagePrefrencesforHTML-1.cs" >}}
 
-## **Преобразование книги Excel в Markdown**
+## **Преобразование электронной таблицы Excel в Markdown**
 
-Aspose.Cells API обеспечивает поддержку экспорта электронных таблиц в формат Markdown. Чтобы экспортировать активный рабочий лист в Markdown, передайте**[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** в качестве второго параметра**[Workbook.Save](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)** метод. Вы также можете использовать**[MarkdownSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions)**класс, чтобы указать дополнительные параметры для экспорта рабочего листа в Markdown.
+API Aspose.Cells предоставляет поддержку экспорта электронных таблиц в формат Markdown. Для экспорта активного листа в формат Markdown, передайте [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) в качестве второго параметра метода [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). Вы также можете использовать класс [**MarkdownSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/markdownsaveoptions), чтобы указать дополнительные параметры для экспорта листа в формат Markdown.
 
- В следующем примере кода демонстрируется экспорт активного рабочего листа в Markdown с помощью**[SaveFormat.Markdown](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** член перечисления. Пожалуйста, смотрите[выходной файл уценки](md_sample.txt)сгенерированный кодом для справки.
+Приведенный ниже пример кода демонстрирует экспорт активного листа в формат Markdown с использованием элемента перечисления [**SaveFormat.Markdown**](https://reference.aspose.com/cells/net/aspose.cells/saveformat). Пожалуйста, обратитесь к [выходному файлу Markdown](md_sample.txt), созданному кодом, в качестве справки.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToMarkdown-1.cs" >}}
 
-## **Преобразование книги Excel в JSON**
+## **Конвертировать книгу Excel в JSON**
 
-Aspose.Cells поддерживает преобразование книги в файл Json (нотация объектов JavaScript).
+Aspose.Cells поддерживает преобразование книги в файл JSON (JavaScript Object Notation).
 
-В следующем примере кода демонстрируется экспорт активного рабочего листа в Json с помощью[**СохранитьФормат.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) член перечисления. Пожалуйста, посмотрите код для преобразования[исходный файл](Book1.xlsx) к[выходной JSON-файл](Book1.Json)сгенерированный кодом для справки.
+Ниже приведен пример кода, демонстрирующий экспорт активного листа в Json с использованием [**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) члена перечисления. Пожалуйста, см. код для преобразования [исходного файла](Book1.xlsx) в [выходной файл Json](Book1.Json), созданный кодом для справки.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 
-## **Преобразование Excel в XML**
-Aspose.Cells поддерживает преобразование книги в электронную таблицу Excel 2003 XML и простые данные XML.
+## **Преобразовать Excel в XML**
+Aspose.Cells поддерживает преобразование книги Excel в XML документ электронной таблицы Excel 2003 и обычные данные XML.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-XML.cs" >}}
 
-## **Преобразование книги Excel в TIFF**
-Aspose.Cells поддерживает преобразование книги в файл TIFF.
+## **Преобразовать книгу Excel в TIFF**
+Aspose.Cells поддерживает конвертацию книги в файл TIFF.
 
-Фрагмент кода ниже показывает, как преобразовать Excel в TIFF:
+Ниже приведен фрагмент кода, показывающий, как преобразовать Excel в TIFF:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-TIFF.cs" >}}
 
-## **Преобразование книги Excel в DOCX**
+## **Преобразовать книгу Excel в DOCX**
 
-Aspose.Cells API обеспечивает поддержку преобразования электронных таблиц в формат DOCX. Чтобы экспортировать книгу на номер DOCX, передайте[**СохранитьФормат.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) в качестве второго параметра[**Книга. Сохранить**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) метод. Вы также можете использовать[**DocxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/docxsaveoptions) класс, чтобы указать дополнительные параметры для экспорта рабочего листа в DOCX.
+API Aspose.Cells поддерживает конвертацию электронных таблиц в формат DOCX. Чтобы экспортировать книгу в формат DOCX, укажите [**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) вторым параметром метода [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). Вы также можете использовать класс [**DocxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/docxsaveoptions) для указания дополнительных параметров экспорта листа в формат DOCX.
 
- В следующем примере кода демонстрируется экспорт активного рабочего листа в DOCX с помощью[**СохранитьФормат.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) член перечисления. Пожалуйста, смотрите[выходной файл DOCX](Book1.docx)сгенерированный кодом для справки.
+Приведенный ниже пример кода демонстрирует экспорт активного листа в формат DOCX с использованием элемента перечисления [**SaveFormat.Docx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat). Пожалуйста, посмотрите [файл DOCX](Book1.docx), сгенерированный кодом, для справки.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToDocx-1.cs" >}}
 
-## **Преобразование книги Excel в PPTX**
+## **Преобразовать книгу Excel в PPTX**
 
-Aspose.Cells API обеспечивает поддержку преобразования электронных таблиц в формат PPTX. Чтобы экспортировать книгу на номер PPTX, передайте[**СохранитьФормат.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) в качестве второго параметра[**Книга. Сохранить**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) метод. Вы также можете использовать[**PptxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pptxsaveoptions) класс, чтобы указать дополнительные параметры для экспорта рабочего листа в PPTX.
+API Aspose.Cells поддерживает конвертацию электронных таблиц в формат PPTX. Чтобы экспортировать книгу в формат PPTX, укажите [**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) вторым параметром метода [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3). Вы также можете использовать класс [**PptxSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pptxsaveoptions) для указания дополнительных параметров экспорта листа в формат PPTX.
 
- В следующем примере кода демонстрируется экспорт активного рабочего листа в PPTX с помощью[**СохранитьФормат.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) член перечисления. Пожалуйста, смотрите[выходной файл PPTX](Book1.pptx)сгенерированный кодом для справки.
+Приведенный ниже пример кода демонстрирует экспорт активного листа в формат PPTX с использованием элемента перечисления [**SaveFormat.Pptx**](https://reference.aspose.com/cells/net/aspose.cells/saveformat). Пожалуйста, посмотрите [файл PPTX](Book1.pptx), сгенерированный кодом, для справки.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPptx-1.cs" >}}
 
-## **Предварительные темы**
-- [Преобразовать редакцию XLSB в XLSM](/cells/ru/net/convert-revision-of-xlsb-to-xlsm/)
+## **Продвинутые темы**
+- [Преобразование версии XLSB в XLSM](/cells/ru/net/convert-revision-of-xlsb-to-xlsm/)
 - [HTML](/cells/ru/net/convert-excel-to-html/)
 - [Изображение](/cells/ru/net/convert-excel-to-image/)
-- [Джейсон](/cells/ru/net/convert-workbook-to-json/)
-- [Преобразование рабочей книги Excel в Ods, Sxc и Fods (OpenOffice/LibreOffice calc).](/cells/ru/net/convert-excel-to-ods/)
-- [PDF](/cells/ru/net/convert-excel-workbook-to-pdf/)
-- [Преобразование Excel в CSV,TSV и Txt](/cells/ru/net/convert-excel-to-csv-tsv-and-txt/)
-- [Отслеживание процесса преобразования документа](/cells/ru/net/track-document-conversion-progress/)
+- [Json](/cells/ru/net/convert-workbook-to-json/)
+- [Преобразовать книгу Excel в Ods, Sxc и Fods (OpenOffice / LibreOffice calc).](/cells/ru/net/convert-excel-to-ods/)
+- [Pdf](/cells/ru/net/convert-excel-workbook-to-pdf/)
+- [Преобразовать Excel в CSV, TSV и Txt](/cells/ru/net/convert-excel-to-csv-tsv-and-txt/)
+- [Отслеживание прогресса конвертации документов](/cells/ru/net/track-document-conversion-progress/)
 - [Преобразование CSV, TSV и TXT в Excel](/cells/ru/net/convert-csv-tsv-and-txt-to-excel/)

@@ -1,25 +1,26 @@
 ---
-title: AbstractCalculationEngine kullanarak bir Değer Aralığı Döndürme
-description: Bu makalede, Aspose.Cells kitaplığını kullanarak Microsoft Excel'de bir dizi değer döndüren soyut bir hesaplama motoru tanıtılmaktadır. Mevcut bir Excel dosyasını yükleyerek veya yeni bir Excel dosyası oluşturarak, bir değer aralığı elde etmek ve sonucu döndürmek için Aspose.Cells tarafından sağlanan yöntemleri kullanabiliriz. Son olarak değiştirdiğimiz Excel dosyasını diske kaydediyoruz.
-keywords: Aspose.Cells, Excel, an abstract calculation engine that returns a series of values
+title: Aspose.Cells kitaplığını kullanarak Microsoft Excel de bir dizi değeri döndüren soyut bir hesaplama motoru tanıtır. Varolan bir Excel dosyasını yükleyerek veya yeni bir Excel dosyası oluşturarak, Aspose.Cells tarafından sağlanan yöntemleri kullanarak bir dizi değeri alabiliriz ve sonucu döndürebiliriz. Son olarak, değiştirilmiş Excel dosyasını diske kaydederiz.
+description: Bu makale, Aspose.Cells kütüphanesini kullanarak Microsoft Excel de bir dizi değer döndüren soyut bir hesaplama motorunu tanıtır. Mevcut bir Excel dosyasını yükleyerek veya yeni bir Excel dosyası oluşturarak, Aspose.Cells tarafından sağlanan yöntemleri kullanarak bir dizi değeri alabilir ve sonucu döndürebiliriz. Son olarak, değiştirilmiş Excel dosyasını diske kaydederiz.
+keywords: Aspose.Cells, Excel, bir dizi değer döndüren soyut bir hesaplama motoru
 type: docs
 weight: 55
 url: /tr/net/returning-a-range-of-values-using-abstractcalculationengine/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells sağlar[**ÖzetHesaplamaMotoru**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) Microsoft Excel tarafından yerleşik işlevler olarak desteklenmeyen kullanıcı tanımlı veya özel işlevleri uygulamak için kullanılan sınıf.
+Aspose.Cells, Microsoft Excel tarafından desteklenmeyen kullanıcı tanımlı veya özel işlevleri uygulamak için kullanılan [**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) sınıfını sağlar.
 
- Bu makalede, değer aralığının nasıl döndürüleceği açıklanacaktır.[**ÖzetHesaplamaMotoru**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
+Bu makale, [**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) aralığındaki değerlerin nasıl döndürüleceğini açıklayacaktır.
 
 {{% /alert %}}
 
- Aşağıdaki kod kullanımını gösterir[**ÖzetHesaplamaMotoru**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) sınıfını kullanır ve yöntemi aracılığıyla değer aralığını döndürür.
+Aşağıdaki kod, [**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) sınıfının kullanımını gösterir ve metodu aracılığıyla değerlerin aralığını döndürür.
 
-*CalculateCustomFunction* işlevine sahip bir sınıf oluşturun. Bu sınıf uygular[**ÖzetHesaplamaMotoru**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine).
+Bir *CalculateCustomFunction* işlevi olan bir sınıf oluşturun. Bu sınıf, [**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine) uygular.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-CustomFunctionStaticValue.cs" >}}
 
-Şimdi yukarıdaki işlevi programınızda kullanın
+Şimdi yukarıdaki işlevi programınıza ekleyin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-ReturnRangeOfValuesUsingAbstractCalculationEngine-1.cs" >}}

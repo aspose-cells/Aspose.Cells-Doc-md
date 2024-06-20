@@ -1,39 +1,40 @@
-﻿---
-title: نطاقات نسخ من Excel
+---
+title: نسخ نطاقات اكسل
 linktitle: نسخ النطاقات
 type: docs
 weight: 105
 url: /ar/net/copy-ranges-of-Excel/
 ---
+
 ## **مقدمة**
 
-في Excel ، يمكنك تحديد نطاق ، ونسخ النطاق ، ثم لصقه بخيارات محددة في نفس ورقة العمل أو أوراق العمل الأخرى أو الملفات الأخرى.
+في اكسل، يمكنك تحديد نطاق، ونسخ النطاق، ثم لصقه بخيارات محددة إلى نفس ورقة العمل، أوراق العمل الأخرى، أو ملفات أخرى.
 
 ## **نسخ النطاقات باستخدام Aspose.Cells**
 
- يوفر Aspose.Cells بعض الحمل الزائد[النطاق](https://reference.aspose.com/cells/net/aspose.cells/range/copy/#copy) طرق لنسخ النطاق.
- و[النطاق](https://reference.aspose.com/cells/net/aspose.cells/range/copystyle/) فقط نمط نسخة النطاق ؛[Range.CopyData](https://reference.aspose.com/cells/net/aspose.cells/range/copydata/) فقط قيمة نسخة النطاق
+توفر Aspose.Cells بعض أشكال تحميل زائد [نطاق.نسخ](https://reference.aspose.com/cells/net/aspose.cells/range/copy/#copy) لنسخ النطاق.
+و [نطاق.نسخنمط](https://reference.aspose.com/cells/net/aspose.cells/range/copystyle/) النسخ فقط النمط من النطاق؛ [نطاق.نسخالبيانات](https://reference.aspose.com/cells/net/aspose.cells/range/copydata/) فقط نسخ قيمة النطاق
 
-## **نطاق النسخ**
+## **نسخ النطاق**
 
-إنشاء نطاقين: النطاق المصدر ، النطاق المستهدف ، ثم نسخ النطاق المصدر إلى النطاق المستهدف باستخدام أسلوب Range.Copy.
+إنشاء نطاقين: النطاق المصدر، النطاق الهدف، ثم نسخ النطاق المصدر إلى النطاق الهدف باستخدام طريقة نطاق.نسخ.
 
 انظر الكود التالي:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range.cs" >}}
 
-## **نطاق اللصق مع الخيارات**
+## **لصق النطاق مع الخيارات**
 
-يدعم Aspose.Cells لصق النطاق بنوع محدد.
+تدعم Aspose.Cells لصق النطاق بنوع محدد.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Paste-Range.cs" >}}
 
-## **انسخ بيانات النطاق فقط.**
-كما يمكنك نسخ البيانات بطريقة Range.CopyData على النحو التالي:
+## **نسخ بيانات النطاق فقط**
+أيضا يمكنك نسخ البيانات مع طريقة نطاق.نسخالبيانات كما في الشفرات التالية:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range-Data.cs" >}}
 
-## **موضوعات مسبقة**
-- [انسخ ارتفاعات الصفوف من نطاق المصدر إلى نطاق الوجهة](/cells/ar/net/copy-row-heights-of-source-range-to-destination-range/)
+## **مواضيع متقدمة**
+- [نسخ أطوال الصفوف من النطاق المصدر إلى النطاق الهدف](/cells/ar/net/copy-row-heights-of-source-range-to-destination-range/)
 
 

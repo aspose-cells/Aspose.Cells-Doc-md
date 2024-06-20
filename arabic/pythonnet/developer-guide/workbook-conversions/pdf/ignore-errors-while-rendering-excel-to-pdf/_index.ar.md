@@ -1,21 +1,22 @@
 ---
-title: تجاهل الأخطاء أثناء تقديم Excel إلى PDF
+title: تجاهل الأخطاء أثناء تحويل Excel إلى PDF
 type: docs
 weight: 80
 url: /ar/python-net/ignore-errors-while-rendering-excel-to-pdf/
-description: تعرف على كيفية تجاهل الأخطاء أثناء عرض Excel على PDF مع Aspose.Cells for Python via .NET API.
-keywords: Python Ignore Errors while Rendering Excel to PDF, Ignore Errors while saving Excel to PDF using Python, Python Ignore Errors while converting Excel to PDF, Ignore Errors for Excel to PDF in python
+description: تعلم كيفية تجاهل الأخطاء أثناء عرض ملف إكسل إلى PDF باستخدام Aspose.Cells لبيثون via .NET API.
+keywords: تجاهل الأخطاء أثناء عرض ملف Excel إلى PDF باستخدام Python, تجاهل الأخطاء أثناء حفظ Excel إلى PDF باستخدام Python, تجاهل الأخطاء أثناء تحويل Excel إلى PDF باستخدام Python, تجاهل الأخطاء لملف PDF في Python
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
- في بعض الأحيان، عند تحويل ملف Excel الخاص بك إلى PDF، تحدث أخطاء أو استثناءات وتنتهي عملية التحويل. يمكنك تجاهل كافة هذه الأخطاء أثناء عملية التحويل باستخدام[**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/)ملكية. بهذه الطريقة ستكتمل عملية التحويل بسلاسة دون حدوث أي خطأ أو استثناء ولكن قد يحدث فقدان للبيانات. لذلك، يرجى استخدام هذه الخاصية فقط إذا لم يكن فقدان البيانات أمرًا بالغ الأهمية بالنسبة لك.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **تجاهل الأخطاء أثناء تقديم Excel إلى PDF**
+في بعض الأحيان عند تحويل ملف Excel إلى PDF، قد تحدث أخطاء أو استثناءات ويتوقف عملية التحويل. يمكنك تجاهل كل هذه الأخطاء أثناء عملية التحويل باستخدام [**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/) الخاصية. بهذه الطريقة، ستكتمل عملية التحويل بسلاسة دون رمي أي خطأ أو استثناء ولكن قد يحدث فقدان للبيانات. لذا، يرجى استخدام هذه الخاصية فقط إذا كان فقدان البيانات غير مهم بالنسبة لك.
 
- الكود التالي يقوم بتحميل[عينة من ملف إكسل](55541778.xlsx) لكن نموذج ملف Excel خاطئ ويؤدي إلى حدوث خطأ أثناء[التحويل إلى PDF](55541779.pdf) في 17.11 ولكن بما أننا نستخدم[**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/)الملكية، فإنه لا يلقي خطأ. ومع ذلك، واحد*سهم أحمر مدور مثل الشكل*كما هو موضح في هذه الصورة المفقودة.
+## **تجاهل الأخطاء أثناء تحويل Excel إلى PDF**
 
-![ما يجب القيام به:image_alt_text](ignore-errors-while-rendering-excel-to-pdf_1.png)
+يقوم الكود التالي بتحميل [ملف Excel عينة](55541778.xlsx) ولكن ملف Excel العينة به أخطاء ويقوم برمي خطأ أثناء [التحويل إلى PDF](55541779.pdf) في 17.11 ولكن نظرًا لاستخدامنا [**PdfSaveOptions.ignore_error**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/ignore_error/) الخاصية، فإنه لا يرمي خطأ. ومع ذلك، يتم فقدان إحدى *أشكال السهم الأحمر المستدير* كما هو موضح في هذا لقط.
 
-##  **عينة من الرموز**
+![todo:image_alt_text](ignore-errors-while-rendering-excel-to-pdf_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-IgnoreErrorsWhileRenderingExcelToPdf.py" >}}

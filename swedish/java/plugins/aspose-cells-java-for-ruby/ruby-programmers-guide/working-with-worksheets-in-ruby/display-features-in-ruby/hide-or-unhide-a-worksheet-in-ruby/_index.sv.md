@@ -1,16 +1,17 @@
-﻿---
-title: Dölj eller visa ett kalkylblad i Ruby
+---
+title: Dölj eller visa en arbetsbok i Ruby
 type: docs
 weight: 60
 url: /sv/java/hide-or-unhide-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells - Dölj eller visa ett kalkylblad**
+
+## **Aspose.Cells - Dölj eller visa en arbetsbok**
 ### **Dölja ett arbetsblad**
- För att dölja kalkylblad med Aspose.Cells Java för Ruby, ring**hideunhideworksheet** modul.
+För att dölja arbetsbladet med Aspose.Cells Java för Ruby, anropa modulen **hideunhideworksheet**.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -35,19 +36,19 @@ workbook.save(data_dir + "output.xls")
 puts "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
-### **Visar ett arbetsblad**
-Utvecklare kan göra ett kalkylblad synligt genom att ställa in*setVisible(* *Sann* *)*metod för**Arbetsblad**klass.
+### **Visa ett arbetsblad**
+Utvecklare kan göra ett arbetsblad synligt genom att ställa in *setVisible(* *true* *)* metoden för klassen **Worksheet**.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the worksheet of the Excel file
 
 worksheet.setVisible(true)
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Dölj eller visa ett kalkylblad (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Dölj eller visa arbetsblad (Aspose.Cells)** från någon av sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/hideunhideworksheet.rb)

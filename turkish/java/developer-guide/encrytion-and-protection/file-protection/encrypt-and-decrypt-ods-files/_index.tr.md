@@ -1,25 +1,26 @@
-﻿---
-title: ODS dosyalarını şifrele ve şifresini çöz
+---
+title: ODS Dosyalarını Şifreleme ve Şifre Çözme
 type: docs
 weight: 10
 url: /tr/java/encrypt-and-decrypt-ods-files/
-description: saf bir Java kitaplığı olan Aspose.Cells for Java'i kullanarak ODS dosyalarını parolayla koruyun ve şifreleyin.
+description: Aspose.Cells, bir Java kütüphanesi olan Aspose.Cells for Java kullanarak ODS dosyalarını korumalı parolalı ve şifreli hale getirebilir.
 ---
+
 {{% alert color="primary" %}}
-OpenOffice.org, parola korumayı ve dosyaları şifrelemeyi destekleyen tam özellikli bir ofis paketidir. Ancak şifreli ODS dosyası, şifre girildikten sonra yalnızca OpenOffice tarafından açılabilir. Excel, şifrelenmiş ODS dosyasını açamaz ve uyarı mesajı verebilir. Şifreleme seçenekleri, diğer dosya türlerinden farklı olarak ODS dosyası için geçerli değildir.
- Aspose.Cells, ODS dosyasını şifrelemeye ve şifresini çözmeye izin verir. Şifresi çözülmüş ODS dosyası hem Excel'de hem de OpenOffice'te açılabilir,
+OpenOffice.org şifre korumayı ve dosyaları şifrelemeyi destekleyen tam özellikli bir ofis paketidir. Ancak şifreli ODS dosyası yalnızca parolayı sağladıktan sonra OpenOffice tarafından açılabilir. Excel şifreli ODS dosyasını açamaz ve uyarı mesajı verebilir. Şifreleme seçenekleri diğer dosya türleri gibi ODS dosyası için uygulanamaz. 
+Aspose.Cells, ODS dosyasını şifrelemeye ve şifresini çözmeye olanak tanır. Şifresi çözülmüş ODS dosyası hem Excel hem de OpenOffice'de açılabilir. 
 {{% /alert %}}
 
-## **OpenOffice Calc ile şifreleyin**
-1.  Seçme**Farklı kaydet** ve tıklayın**Şifre ile Kaydet** Kutu.
-1.  Tıkla**Kayıt etmek** buton.
-1.  İstediğiniz şifreyi her ikisine de yazın.**Açmak için Parolayı Girin** ve**Şifreyi Onayla** açılan Parola Belirle penceresindeki alanlar.
-1.  Tıkla**Tamam** dosyayı kaydetmek için düğmesine basın.
+## **OpenOffice Calc ile Şifrele**
+1. **Farklı Kaydet**'i seçin ve **Parola ile Kaydet** kutusunu tıklayın.
+1. **Kaydet** düğmesini tıklayın.
+1. Açılan Set Parola penceresinde, hem **Açmak için Parolayı Girin** hem de **Parolayı Onaylayın** alanlarına istediğiniz parolayı yazın. 
+1. Dosyayı kaydetmek için **Tamam** düğmesini tıklayın.
 
-## **Şifreleme/Şifre çözme ODS Dosya:**
+## **ODS Dosyasını Şifrelemek/Şifresini Çözmek:**
 
- ODS dosyasını şifrelemek için dosyayı yükleyin ve gerçek parolayı[**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password)kaydetmeden önce. Çıkış şifreli ODS dosyası yalnızca OpenOffice'te açılabilir. ODS dosyasının şifresini çözmek için, parolayı girerek dosyayı yükleyin.[**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password) . Dosya yüklendikten sonra, çağrı fonksiyonu[**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String) ) argüman olarak gerçek şifre ile ve son olarak null değerini iletin[**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password).
+Bir ODS dosyasını şifrelemek için, dosyayı yükleyin ve kaydetmeden önce [**WorkbookSettings.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) geçerli parolayı iletebilirsiniz. Çıkış şifrelenmiş ODS dosyası yalnızca OpenOffice'de açılabilir. Bir ODS dosyasını şifresini çözmek için, [**LoadOptions.setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#Password) ile parolayı sağlayarak dosyayı yükleyin. Dosya yüklendikten sonra, gerçek parolayla [**Workbook.unprotect()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotect(java.lang.String)) işlevini çağırın ve son olarak [**Workbook.getWorkbookSettings().setPassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Password) null geçin.
 
-### **Basit kod:**
+### **Örnek Kod:**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-EncryptingODSFiles-EncryptingODSFiles.java" >}}

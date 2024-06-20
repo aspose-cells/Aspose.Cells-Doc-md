@@ -1,19 +1,20 @@
 ---
-title: Passen Sie die Globalisierungseinstellungen für die Pivot-Tabelle an
+title: Anpassen der Globalisierungseinstellungen für den Pivot Tabellen
 type: docs
 weight: 50
 url: /de/net/customize-globalization-settings-for-pivot-table/
 ---
-##  **Mögliche Nutzungsszenarien**
 
- Manchmal möchten Sie das anpassen*Pivot-Summe, Zwischensumme, Gesamtsumme, Alle Elemente, Mehrere Elemente, Spaltenbeschriftungen, Zeilenbeschriftungen, leere Werte*Text nach Ihren Wünschen. Mit Aspose.Cells können Sie die Globalisierungseinstellungen der Pivot-Tabelle anpassen, um mit solchen Szenarien umzugehen. Sie können diese Funktion auch verwenden, um die Beschriftungen in andere Sprachen wie Arabisch, Hindi, Polnisch usw. zu ändern.
+## **Mögliche Verwendungsszenarien**
 
-##  **Passen Sie die Globalisierungseinstellungen für die Pivot-Tabelle an**
+Manchmal möchten Sie den *Pivot Total, Subtotal, Gesamtsumme, Alle Elemente, Mehrere Elemente, Spaltenbeschriftungen, Zeilenbeschriftungen, Leere Werte* Text entsprechend Ihren Anforderungen anpassen. Aspose.Cells ermöglicht es Ihnen, die Globalisierungseinstellungen der Pivot-Tabelle anzupassen, um mit solchen Szenarien umzugehen. Sie können diese Funktion auch verwenden, um die Beschriftungen in andere Sprachen wie Arabisch, Hindi, Polnisch usw. zu ändern.
 
-Im folgenden Beispielcode wird erläutert, wie Sie die Globalisierungseinstellungen für die Pivot-Tabelle anpassen. Es erstellt eine Klasse*BenutzerdefiniertePivotTableGlobalizationSettings* abgeleitet von einer Basisklasse[**PivotGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.settings/pivotglobalizationsettings/)und überschreibt alle notwendigen Methoden. Diese Methoden geben den benutzerdefinierten Text für *Pivot-Gesamtsumme, Zwischensumme, Gesamtsumme, alle Elemente, mehrere Elemente, Spaltenbeschriftungen, Zeilenbeschriftungen und leere Werte* zurück. Dann weist es das Objekt dieser Klasse zu[**WorkbookSettings.GlobalizationSettings.PivotSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/pivotsettings/) Eigentum. Der Code lädt die[Quell-Excel-Datei](40468488.xlsx) das die Pivot-Tabelle enthält, aktualisiert und berechnet deren Daten und speichert sie unter[Ausgabe PDF](40468487.pdf) Datei. Der folgende Screenshot zeigt die Auswirkung des Beispielcodes auf die Ausgabe PDF. Wie Sie im Screenshot sehen können, verfügen verschiedene Teile der Pivot-Tabelle nun über einen benutzerdefinierten Text, der von den überschriebenen Methoden von zurückgegeben wird[**PivotGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.settings/pivotglobalizationsettings/)Klasse.
+## **Anpassen der Globalisierungseinstellungen für den Pivot-Tabellen**
+
+Der folgende Beispielcode zeigt, wie Sie die Globalisierungseinstellungen für die Pivot-Tabelle anpassen können. Es erstellt eine Klasse *CustomPivotTableGlobalizationSettings*, die von einer Basisklasse [**PivotGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.settings/pivotglobalizationsettings/) abgeleitet ist und alle erforderlichen Methoden überschreibt. Diese Methoden geben den angepassten Text für die *Pivot Total, Subtotal, Gesamtsumme, Alle Elemente, Mehrere Elemente, Spaltenbeschriftungen, Zeilenbeschriftungen, Leere Werte* zurück. Dann wird das Objekt dieser Klasse der Eigenschaft [**WorkbookSettings.GlobalizationSettings.PivotSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/pivotsettings/) zugewiesen. Der Code lädt die [Quelldatei Excel](40468488.xlsx), die die Pivot-Tabelle enthält, aktualisiert und berechnet ihre Daten und speichert sie als [Ausgabedatei PDF](40468487.pdf). Der folgende Screenshot zeigt die Auswirkung des Beispielcodes auf die Ausgabedatei PDF. Wie Sie im Screenshot sehen können, haben verschiedene Teile der Pivot-Tabelle jetzt einen angepassten Text, der von den überschriebenen Methoden der Klasse [**PivotGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.settings/pivotglobalizationsettings/) zurückgegeben wird.
 
 ![todo:image_alt_text](customize-globalization-settings-for-pivot-table_1.png)
 
-##  **Beispielcode**
+## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-CustomizePivotTableGlobalSettings-CustomizePivotTableGlobalSettings.cs" >}}

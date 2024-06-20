@@ -1,15 +1,16 @@
-﻿---
+---
 title: Dokumenteigenschaften in PHP verwalten
 type: docs
 weight: 30
 url: /de/net/managing-document-properties-in-php/
 ---
-## **Aspose.Cells – Verwalten von Dokumenteigenschaften**
-Dokumenteigenschaften der Excel-Datei Microsoft verwalten
+
+## **Aspose.Cells - Dokumenteigenschaften verwalten**
+Verwaltung von Dokumenteigenschaften einer Microsoft Excel-Datei
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -78,7 +79,7 @@ Dokumenteigenschaften der Excel-Datei Microsoft verwalten
         $ptr->Call($workbook,"Save",array($dataDir . "/Test_Workbook_RemovedProperty.xls"));
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Dokumenteigenschaften verwalten (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Dokumenteigenschaften verwalten (Aspose.Cells)** von einer der unten genannten sozialen Codierungsseiten herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

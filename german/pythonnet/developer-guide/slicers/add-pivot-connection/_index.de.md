@@ -1,20 +1,21 @@
 ---
-title: Pivot-Verbindung hinzufügen
+title: Pivot Verbindung hinzufügen
 type: docs
 weight: 30
 url: /de/python-net/add-pivot-connection/
-description: Erfahren Sie, wie Sie eine Pivot-Verbindung mit der Bibliothek Aspose.Cells for Python via .NET hinzufügen.
-keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Lernen Sie, wie Sie mit Aspose.Cells für Python via .NET eine Pivot Verbindung hinzufügen.
+keywords: Aspose.Cells für Python Excel, Excel Python Bibliothek, Python fügt Pivot Verbindung ohne Excel hinzu, Python assoziiert Slicer und PivotTable ohne Excel, Hinzufügen von Pivot Verbindung mit Aspose.Cells für Python Excel Bibliothek.
 ---
-##  **Mögliche Nutzungsszenarien**
 
-Wenn Sie Slicer und Pivot-Tabelle in Excel verknüpfen möchten, müssen Sie mit der rechten Maustaste auf Slicer klicken und den Eintrag „Verbindungen melden …“ auswählen. In der Optionsliste können Sie das Kontrollkästchen bedienen. Wenn Sie Slicer und Pivot-Tabelle programmgesteuert mit Aspose.Cells for Python via .NET API verknüpfen möchten, verwenden Sie bitte die[**Slicer.add_pivot_connection(pivot)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable)Methode. Es verknüpft Slicer und Pivot-Tabelle.
+## **Mögliche Verwendungsszenarien**
 
-##  **Slicer und PivotTable zuordnen**
+Wenn Sie Slicer und Pivot-Tabelle in Excel verknüpfen möchten, müssen Sie mit der rechten Maustaste auf Slicer klicken und den Eintrag "Berichtsverbindungen..." auswählen. In der Optionsliste können Sie das Kontrollkästchen bedienen. Ebenso, wenn Sie Slicer und Pivot-Tabelle mit Hilfe der Aspose.Cells für Python via .NET-API programmgesteuert verknüpfen möchten, verwenden Sie bitte die [**Slicer.add_pivot_connection(pivot)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable)-Methode. Sie wird Slicer und Pivot-Tabelle verknüpfen.
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](add-pivot-connection.xlsx)das einen vorhandenen Slicer enthält. Es greift auf den Slicer zu und verknüpft dann Slicer und PivotTable. Schließlich wird die Arbeitsmappe als gespeichert[Excel-Datei ausgeben](add-pivot-connection-out.xlsx). 
+## **Wie man Slicer und PivotTable mit Hilfe der Aspose.Cells für Python Excel-Bibliothek verknüpft**
+
+Der folgende Beispielcode lädt die [Beispieldatei](add-pivot-connection.xlsx), die bereits einen Slicer enthält. Er greift auf den Slicer zu und verknüpft dann den Slicer und die Pivot-Tabelle. Schließlich speichert er die Arbeitsmappe als [Ausgabe-Excel-Datei](add-pivot-connection-out.xlsx). 
 
 
-##  **Beispielcode**
+## **Beispielcode**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-Adding-Pivot-Connection.py" >}}

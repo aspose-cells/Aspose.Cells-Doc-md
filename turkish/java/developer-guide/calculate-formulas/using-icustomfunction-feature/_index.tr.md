@@ -1,35 +1,36 @@
 ---
-title: ICustomFunction Özelliğini Kullanma
+title: ICustomFunction Özelliği Kullanımı
 type: docs
 weight: 890
 url: /tr/java/using-icustomfunction-feature/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu makale, Aspose.Cells API'leriyle özel işlevleri uygulamak için ICustomFunction özelliğinin nasıl kullanılacağına ilişkin ayrıntılı bir anlayış sağlar.
+Bu makale, ICustomFunction özelliğini kullanarak özel işlevleri Aspose.Cells API'leri ile nasıl uygulayacağınızı ayrıntılı bir şekilde anlatmaktadır.
 
-ICustomFunction arayüzü, belirli gereksinimleri karşılamak amacıyla Aspose.Cells' temel hesaplama motorunu genişletmek için özel formül hesaplama fonksiyonlarının eklenmesine olanak tanır. Bu özellik, bir şablon dosyasında veya özel işlevin diğer herhangi bir varsayılan Microsoft Excel işlevi gibi Aspose.Cells API'leri kullanılarak uygulanabileceği ve değerlendirilebileceği kodda özel (kullanıcı tanımlı) işlevler tanımlamak için kullanışlıdır.
+ICustomFunction arabirimine, belirli gereksinimleri karşılamak için Aspose.Cells'in temel hesaplama motorunu genişletmek için özel formül hesaplama işlevleri eklemeye olanak tanır. Bu özellik, özel (kullanıcı tanımlı) işlevleri bir şablon dosyasında veya kodda tanımlamak ve değerlendirmek için kullanışlıdır.
 
- Lütfen bu arayüzün değiştirildiğini unutmayın.[ÖzetHesaplamaMotoru](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) ve gelecekte kaldırılacaktır. Yeni API ile ilgili bazı teknik makaleler/örnekler:[Burada](/cells/tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) Ve[Burada](/cells/tr/java/returning-a-range-of-values-using-abstractcalculationengine/)
+Lütfen dikkat edin, bu arayüz [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) ile değiştirilmiş ve gelecekte kaldırılacaktır. Yeni API hakkında bazı teknik makaleler/örnekler: [burada](/cells/tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) ve [burada](/cells/tr/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Aspose.Cells for Java API'lerinde yeniyseniz lütfen kontrol edin[Bu](https://docs.aspose.com/cells/java/installation/) Projenizde Aspose.Cells for Java numarasını nasıl edinebileceğinizi ve referans alabileceğinizi öğrenmek için makale.
+Eğer Aspose.Cells for Java API'larına yeni başlıyorsanız, projenizde Aspose.Cells for Java'yi nasıl edinebileceğinizi ve referans verebileceğinizi öğrenmek için lütfen [bu](https://docs.aspose.com/cells/java/installation/) makaleye göz atın.
 
 {{% /alert %}} 
-##  **Kullanıcı Tanımlı Fonksiyon Oluşturma ve Değerlendirme**
- Bu makalede, özel bir işlev yazmak ve sonuçları almak için bunu elektronik tabloda kullanmak için ICustomFunction arabiriminin uygulanması gösterilmektedir. Özel bir işlevi ada göre tanımlayacağız**İşlevim** aşağıdaki ayrıntılara sahip 2 parametreyi kabul edecektir.
+## **Kullanıcı Tanımlı Bir İşlev Oluşturma ve Değerlendirme**
+Bu makale, ICustomFunction arabirimini uygulayarak özel bir işlevi yazmayı ve bu işlevi elektronik tabloda kullanmayı ve sonuçları almayı göstermektedir. **MyFunc** adında 2 parametre kabul eden özel bir işlevi tanımlayacağız.
 
-- 1. parametre tek bir hücreyi ifade eder
-- 2. parametre bir hücre aralığını ifade eder
+- 1. parametre, bir hücreye atıfta bulunur
+- 2. parametre, hücrelerin bir aralığına atıfta bulunur
 
-Özel işlev, 2. parametre olarak belirtilen hücre aralığındaki tüm değerleri toplayacak ve sonucu 1. parametredeki değere bölecektir.
+Özel işlev, 2. parametre olarak belirtilen hücre aralığındaki tüm değerleri ekler ve 1. parametredeki değerle bölerek sonucu verir.
 
-HesaplamaCustomFunction yöntemini şu şekilde uyguladık.
+İşte calculateCustomFunction yöntemini nasıl uyguladığımız
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomFunction implements ICustomFunction
 
@@ -93,11 +94,11 @@ HesaplamaCustomFunction yöntemini şu şekilde uyguladık.
 
 {{< /highlight >}}
 
-Yeni tanımlanan işlevin bir e-tabloda nasıl kullanılacağı aşağıda açıklanmıştır
+Yeni tanımlanan işlevi bir elektronik tabloda nasıl kullandığımız.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Open the workbook
 
@@ -148,12 +149,12 @@ worksheet.getCells().get("A1").putValue(worksheet.getCells().get("A1").getValue(
 workbook.save(dir + "UsingICustomFunction.xls");
 
 {{< /highlight >}}
-##  **Genel Bakış**
-Aspose.Cells API'leri, karşılık gelen parametre bir referans olduğunda veya hesaplanan sonucu referans olduğunda, ReferredArea nesnesini "paramsList"e yerleştirir. Referansın kendisine ihtiyacınız varsa, doğrudan ReferredArea'yı kullanabilirsiniz. Formülün konumuna karşılık gelen referanstan tek bir hücrenin değerini almanız gerekiyorsa ReferredArea.getValue(rowOffset, int colOffset) yöntemini kullanabilirsiniz. Alanın tamamı için hücre değerleri dizisine ihtiyacınız varsa ReferredArea.getValues yöntemini kullanabilirsiniz.
+## **Genel Bakış**
+Aspose.Cells API’leri, ilgili parametre bir referans ise veya hesaplanan sonucu referans ise, ReferredArea nesnesini 'paramsList' içine yerleştirir. Eğer referansın kendisine ihtiyacınız varsa, o zaman ReferredArea'yı doğrudan kullanabilirsiniz. Formülün konumuna karşılık gelen referanstan tek bir hücre değerine ihtiyacınız varsa, ReferredArea.getValue(rowOffset, int colOffset) yöntemini kullanabilirsiniz. Eğer sadece alanın tamamı için hücre değerleri dizisine ihtiyacınız varsa, ReferredArea.getValues yöntemini kullanabilirsiniz.
 
-Aspose.Cells API'leri "paramsList"te ReferredArea değerini verdiğinden, "contextObjects" içindeki ReferredAreaCollection'a artık ihtiyaç duyulmayacak (eski sürümlerde özel işlevin parametrelerine her zaman bire bir harita veremiyordu), bu nedenle "contextObjects"ten kaldırıldı.
+Aspose.Cells API'leri tarafından 'paramsList' içine ReferredArea verildiğinden, 'contextObjects' içindeki ReferredAreaCollection artık gereksiz olmayacak (eski sürümlerde özel işlev parametrelerine her zaman birbirine tekabül etmeyen bir eşleme yapamazdı) ve bu nedenle 'contextObjects' içinden kaldırılmıştır.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public Object calculateCustomFunction(String functionName, ArrayList paramsList, ArrayList contextObjects)
 

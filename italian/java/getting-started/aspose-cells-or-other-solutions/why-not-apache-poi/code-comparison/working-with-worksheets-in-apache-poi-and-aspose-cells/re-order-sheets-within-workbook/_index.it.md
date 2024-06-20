@@ -1,15 +1,16 @@
-﻿---
-title: Riordina i fogli all'interno della cartella di lavoro
+---
+title: Riordinare le schede all interno del documento di lavoro
 type: docs
 weight: 50
 url: /it/java/re-order-sheets-within-workbook/
 ---
-## **Aspose.Cells - Riordina i fogli all'interno della cartella di lavoro**
-Aspose.Cells fornisce un metodo, Worksheet.moveTo(), utilizzato per spostare un foglio di lavoro in un'altra posizione nello stesso foglio di calcolo.
+
+## **Aspose.Cells - Riordinare le schede all'interno del documento di lavoro**
+Aspose.Cells fornisce un metodo, Worksheet.moveTo(), utilizzato per spostare un foglio di lavoro in un'altra posizione all'interno del medesimo foglio elettronico.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a new Workbook.
 
@@ -36,12 +37,12 @@ worksheet3.moveTo(2);
 workbook.save(dataDir + "AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Riordina i fogli all'interno della cartella di lavoro**
-Apache POI fornisce il metodo Workbook.setSheetOrder() per impostare i fogli di lavoro nell'ordine richiesto.
+## **Apache POI SS - HSSF XSSF - Riordinare le schede all'interno del documento di lavoro**
+Apache POI fornisce il metodo Workbook.setSheetOrder() per impostare i fogli di lavoro nell'ordine desiderato.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -65,12 +66,12 @@ fileOut.close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/reordersheets)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/reordersheets)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Copiare e spostare fogli di lavoro](/cells/it/java/copying-and-moving-worksheets).
+Per ulteriori dettagli, visitare [Copia e Spostamento dei Fogli di Lavoro](/cells/it/java/copying-and-moving-worksheets).
 
 {{% /alert %}}

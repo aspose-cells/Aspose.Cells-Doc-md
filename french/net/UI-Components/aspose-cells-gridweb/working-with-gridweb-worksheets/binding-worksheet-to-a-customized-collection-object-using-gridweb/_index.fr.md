@@ -1,30 +1,33 @@
-﻿---
-title: Liaison de feuille de calcul à un objet de collection personnalisé à l'aide de GridWeb
+---
+title: Liaison de la feuille de calcul à un objet de collection personnalisée à l aide de GridWeb
 type: docs
 weight: 130
-url: /fr/net/binding-worksheet-to-a-customized-collection-object-using-gridweb/
+url: /fr/net/aspose-cells-gridweb/bind-worksheet-to-a-customized-collection-object-using-gridweb/
+keywords: GridWeb,bind
+description: Cet article présente comment lier une feuille de calcul à une collection dans GridWeb. 
 ---
+
 {{% alert color="primary" %}} 
 
- Le framework Microsoft .NET propose de nombreuses classes de collection, mais parfois elles ne répondent pas aux exigences de développement, de sorte que les développeurs créent**collections personnalisées**, et peut nécessiter de lier ces collections personnalisées avec Aspose.Cells.GridWeb.
+Le framework Microsoft .NET offre de nombreuses classes de collection, mais parfois elles ne répondent pas aux exigences de développement, c'est pourquoi les développeurs créent des **collections personnalisées**, et vous pouvez lier une feuille de calcul à de telles collections personnalisées dans GridWeb.
 
 {{% /alert %}} 
 ## **Liaison d'une feuille de calcul avec une collection personnalisée**
-Pour illustrer cette fonctionnalité, cet article explique comment créer un exemple d'application, étape par étape. Tout d'abord, créez une collection personnalisée, puis utilisez cette collection pour la liaison avec une feuille de calcul.
-### **Étape 1 : Créer un enregistrement personnalisé**
-Avant de créer une collection personnalisée, créez une classe pour contenir les enregistrements personnalisés qui seront stockés dans la collection. Le but de cet article est de donner une idée de la façon de créer vos propres collections personnalisées et de les lier avec Aspose.Cells.GridWeb, donc la façon dont vous créez l'enregistrement personnalisé dépend de vous.
+Pour illustrer cette fonctionnalité, cet article explique comment créer une application exemple, étape par étape. Tout d'abord, créez une collection personnalisée, puis utilisez cette collection pour la lier à une feuille de calcul.
+### **Étape 1: Création d'un enregistrement personnalisé**
+Avant de créer une collection personnalisée, créez une classe pour contenir les enregistrements personnalisés qui seront stockés dans la collection. Le but de cet article est de donner une idée de comment créer vos propres collections personnalisées et les lier à GridWeb, donc la façon dont vous créez l'enregistrement personnalisé vous revient.
 
-L'exemple ci-dessous utilise la classe MyCustomRecord qui contient cinq champs privés et cinq propriétés publiques qui contrôlent l'accès aux champs privés. Voici la structure des propriétés :
+L'exemple ci-dessous utilise la classe MyCustomRecord qui contient cinq champs privés et cinq propriétés publiques qui contrôlent l'accès aux champs privés. Voici la structure des propriétés:
 
--  La propriété StringField1 pour lire et écrire**champ de chaîne1** (chaîne de caractères).
--  La propriété ReadonlyField2 pour lire uniquement**champ de chaîne2** (chaîne de caractères).
--  La propriété DateField1 pour lire et écrire**datefield1** (DateHeure).
--  La propriété IntField1 pour lire et écrire**intfield1** (entier).
--  La propriété DoubleField1 pour lire et écrire**champ double1** (double).
+- La propriété StringField1 pour lire et écrire **stringfield1** (chaîne).
+- La propriété ReadonlyField2 pour seulement lire **stringfield2** (chaîne).
+- La propriété DateField1 pour lire et écrire **datefield1** (DateTime).
+- La propriété IntField1 pour lire et écrire **intfield1** (entier).
+- La propriété DoubleField1 pour lire et écrire **doublefield1** (double).
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a class that will act as record for the custom collection
 
@@ -106,11 +109,11 @@ public class MyCustomRecord
 
 {{< /highlight >}}
 ### **Étape 2 : Création d'une collection personnalisée**
-Maintenant, créez une collection personnalisée pour y ajouter des enregistrements de clients et y accéder. Pour faire simple, cet exemple utilise la classe MyCollection qui contient un indexeur en lecture seule. En utilisant cet indexeur, nous pouvons obtenir n'importe quel enregistrement personnalisé stocké dans la collection.
+Maintenant, créez une collection personnalisée pour ajouter des enregistrements de clients et y accéder. Pour simplifier, cet exemple utilise la classe MyCollection qui contient un indexeur en lecture seule. En utilisant cet indexeur, nous pouvons obtenir n'importe quel enregistrement personnalisé stocké dans la collection.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a custom collection
 
@@ -141,23 +144,23 @@ public class MyCollection : CollectionBase
 }
 
 {{< /highlight >}}
-### **Étape 3 : Relier une feuille de calcul avec une collection personnalisée**
-Le processus de création d'une collection personnalisée est terminé. Utilisez maintenant la collection personnalisée pour établir une liaison avec une feuille de calcul dans Aspose.Cells.GridWeb . Créez d'abord un formulaire Web, ajoutez-y le contrôle GridWeb et ajoutez du code.
+### **Étape 3 : Liaison d'une feuille de calcul avec une collection personnalisée**
+Le processus de création d'une collection personnalisée est terminé. Maintenant, utilisez la collection personnalisée pour la lier à une feuille de calcul dans Aspose.Cells.GridWeb. Créez d'abord un formulaire web, ajoutez le contrôle GridWeb et ajoutez du code.
 
-Pour utiliser la collection personnalisée pour la liaison, créez d'abord un objet de la classe MyCollection (créé à l'étape ci-dessus).
-Créez et ajoutez ensuite des objets MyCustomRecord à l'objet MyCollection.
+Pour utiliser la collection personnalisée pour la liaison, créez d'abord un objet de la classe MyCollection (créé dans l'étape précédente).
+Ensuite, créez et ajoutez des objets MyCustomRecord à l'objet MyCollection.
 
 {{% alert color="primary" %}} 
 
-Vous vous demandez pourquoi il n'y avait pas de méthode dans la classe MyCollection pour ajouter un objet MyCustomRecord à la collection. Jetez un autre coup d'œil au code ci-dessus et vous remarquerez que la classe MyCollection est héritée de la classe CollectionBase (qui a implémenté l'interface IList qui fournit une méthode Add pour ajouter un objet à la collection). Utilisez la méthode Add de la classe IList en convertissant l'objet MyCollection en IList.
+Vous vous demandez peut-être pourquoi il n'y avait pas de méthode dans la classe MyCollection pour ajouter un objet MyCustomRecord à la collection. Jetez un autre coup d'œil au code ci-dessus et vous remarquerez que la classe MyCollection est héritée de la classe CollectionBase (qui a implémenté l'interface IList qui fournit une méthode Ajouter pour ajouter un objet à la collection). Utilisez la méthode Ajouter de la classe IList en montant l'objet MyCollection en IList.
 
 {{% /alert %}} 
 
-Enfin, définissez l'objet MyCollection comme source de données de la feuille de calcul et liez la feuille de calcul à la collection. À ce stade, vous pouvez également créer des règles de validation pour les colonnes liées de la feuille de calcul.
+Enfin, définissez l'objet MyCollection comme source de données de la feuille de calcul et liez la feuille de calcul avec la collection. À ce stade, vous pouvez également créer des règles de validation pour les colonnes liées de la feuille de calcul.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Implementing Page_Load event handler
 
@@ -233,15 +236,15 @@ protected void Page_Load(object sender, EventArgs e)
 
 {{< /highlight >}}
 ### **Étape 4 : Gestion de l'événement InitializeNewBindRow de la feuille de calcul**
-Dans le code ci-dessus, vous avez peut-être remarqué une ligne de code supplémentaire utilisée pour affecter le gestionnaire d'événements GridWeb1_InitializeNewBindRow au InitializeNewBindRow de la feuille de calcul. Cet événement est déclenché chaque fois qu'une nouvelle ligne liée est ajoutée à la feuille de calcul. Nous avons créé un gestionnaire d'événements pour cet événement en raison de la propriété DateField1 de l'objet MyCustomRecord.
+Dans le code ci-dessus, vous avez peut-être remarqué une ligne de code supplémentaire utilisée pour attribuer le gestionnaire d'événements GridWeb1_InitializeNewBindRow à InitializeNewBindRow de la feuille de calcul. Cet événement est déclenché chaque fois qu'une nouvelle ligne liée est ajoutée à la feuille de calcul. Nous avons créé un gestionnaire d'événements pour cet événement en raison de la propriété DateField1 de l'objet MyCustomRecord.
 
- Aspose.Cells.GridWeb s'initialise automatiquement**entier** et**double** valeurs avec**zéro (0)**chaque fois qu'une nouvelle ligne liée est ajoutée au contrôle GridWeb. Pour les dates, nous aimerions que le contrôle GridWeb ajoute automatiquement la date actuelle du système. Pour ce faire, nous avons créé le gestionnaire d'événements GridWeb1_InitializeNewBindRow pour l'événement InitializeNewBindRow.
+Aspose.Cells.GridWeb initialise automatiquement les valeurs **int** et **double** avec **zéro (0)** chaque fois qu'une nouvelle ligne liée est ajoutée au contrôle GridWeb. Pour les dates, nous aimerions que le contrôle GridWeb ajoute automatiquement la date actuelle du système. Pour ce faire, nous avons créé le gestionnaire d'événements GridWeb1_InitializeNewBindRow pour l'événement InitializeNewBindRow.
 
-Accédez à une instance particulière de la classe MyCustomRecord à partir de GridWeb à l'aide de l'argument bindObject, puis affectez la date système actuelle à sa propriété DateField1.
+Accédez à une instance particulière de la classe MyCustomRecord à partir de GridWeb en utilisant l'argument bindObject, puis attribuez la date système actuelle à sa propriété DateField1.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating GridWeb1_InitializeNewBindRow event handler
 
@@ -261,38 +264,38 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 {{< /highlight >}}
 ### **Étape 5 : Exécution de l'application**
- Exécutez l'application en appuyant sur**Ctrl+F5** ou en cliquant sur le**Démarrer** bouton dans VS.NET. Le formulaire Web s'ouvre dans une nouvelle fenêtre de navigateur.
+Exécutez l'application en appuyant sur **Ctrl+F5** ou en cliquant sur le bouton **Démarrer** dans VS.NET. Le formulaire web s'ouvre dans une nouvelle fenêtre de navigateur. 
 
 **Feuille de calcul liée à une collection personnalisée** 
 
-![tâche : image_autre_texte](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
 
 
 
- Cliquez avec le bouton droit sur le contrôle GridWeb pour ajouter ou supprimer un enregistrement. Par exemple, ajoutez un nouvel enregistrement à la feuille de calcul en sélectionnant**Ajouter une rangée** option.
+Cliquez avec le bouton droit sur le contrôle GridWeb pour ajouter ou supprimer un enregistrement. Par exemple, ajoutez un nouvel enregistrement à la feuille de calcul en sélectionnant l'option **Ajouter une ligne**. 
 
 **Sélection de l'option Ajouter une ligne dans le menu** 
 
-![tâche : image_autre_texte](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
 
 
 
- Lorsqu'une nouvelle ligne est ajoutée à la feuille de calcul, les cellules contiennent des données par défaut, y compris la date système actuelle.
+Lorsqu'une nouvelle ligne est ajoutée à la feuille de calcul, les cellules contiennent des données par défaut, y compris la date système actuelle. 
 
-**Nouvelle ligne ajoutée à la feuille de calcul avec les données par défaut** 
+**Nouvelle ligne ajoutée à la feuille de calcul avec des données par défaut** 
 
-![tâche : image_autre_texte](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
 
 
 
-Après avoir modifié les données, cliquez sur**Sauver** ou alors**Nous faire parvenir** pour enregistrer vos modifications.
+Après avoir apporté des modifications aux données, cliquez sur **Enregistrer** ou **Soumettre** pour enregistrer vos modifications. 
 
-**Enregistrement des modifications en cliquant sur le bouton Enregistrer** 
+**Enregistrer les modifications en cliquant sur le bouton Enregistrer** 
 
-![tâche : image_autre_texte](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
 ## **Conclusion**
 {{% alert color="primary" %}} 
 
-Cet article a montré comment lier une feuille de calcul à une collection personnalisée créée. À l'aide de Aspose.Cells.GridWeb, les développeurs peuvent lier des feuilles de calcul à une base de données ou à des collections personnalisées via le concepteur de feuilles de calcul en mode graphique ou par codage. Cela offre un large éventail d'options aux développeurs pour créer des applications.
+Cet article a montré comment lier une feuille de calcul à une collection personnalisée créée. En utilisant Aspose.Cells.GridWeb, les développeurs peuvent lier des feuilles de calcul à une base de données ou à des collections personnalisées via le concepteur de feuilles de calcul en mode GUI ou par le biais du codage. Cela offre aux développeurs une large gamme d'options pour la création d'applications.
 
 {{% /alert %}}

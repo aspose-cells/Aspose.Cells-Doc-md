@@ -1,23 +1,25 @@
 ---
-title: LoadOptions لـ GridWeb
+title: خيارات التحميل لـ GridWeb
 type: docs
 weight: 90
-url: /ar/net/aspose-cells-gridweb/loadoptions/
-keywords: loadoption,loadoptions,setting,
+url: /ar/net/aspose-cells-gridweb/aspose-cells-gridweb/loadoptions/
+keywords: خيار التحميل ، خيارات التحميل ، إعداد ، تحميل ، خيارات ، خيار
+description: يقدم هذا المقال كيفية العمل مع خيارات التحميل في GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-هناك بعض خيارات التحميل التي يمكننا تعيينها قبل استيراد الملف.
+هناك بعض خيارات التحميل يمكننا تحديدها قبل استيراد الملف.
 
- يمكننا ان نستخدم[GridLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridloadoptions/)(للملف العام) و[GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridtxtloadoptions/) (لملف csv)
- 
+يمكننا استخدام [GridLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridloadoptions/) (للملف العام) و [GridTxtLoadOptions](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridtxtloadoptions/) (لملف csv)	
+
 {{% /alert %}} 
-##  ** تحميل مع ترميز آخر**
-بالنسبة لملف csv ، فهو في الواقع ملف نصي ، بدون الترميز المحدد الموضح في ملف تنسيق xlsx.
+## **التحميل بترميز آخر**
+بالنسبة لملف csv، فإنه في الواقع ملف قائم على النص، دون الترميز المحدد الموصوف في ملف تنسيق xlsx.
 
-لذلك ، يمكن للمستخدمين تعيين ترميز أحرف معين قبل تحميل الملف.
+لذلك، يمكن للمستخدمين تحديد ترميز الحروف المحدد قبل تحميل الملف.
 
-إليك نموذج كود للتحميل بالصينية:
+إليك رمز عينة للتحميل باللغة الصينية:
 
 ```csharp
     GridTxtLoadOptions topt = new GridTxtLoadOptions();

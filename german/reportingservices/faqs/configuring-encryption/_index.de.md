@@ -1,26 +1,27 @@
-﻿---
+---
 title: Verschlüsselung konfigurieren
 type: docs
 weight: 40
 url: /de/reportingservices/configuring-encryption/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells for Reporting Services unterstützt Verschlüsselung und Sie können verschlüsselte Microsoft Excel-Dateien rendern.
+Aspose.Cells for Reporting Services unterstützt Verschlüsselung und Sie können verschlüsselte Microsoft Excel-Dateien rendern. 
 
 {{% /alert %}} 
-### **Arten der Verschlüsselung**
-Aspose.Cells for Reporting Services unterstützt die Verschlüsselung beim Export von Excel-Dateien. Es unterstützt drei Verschlüsselungsarten:
+### **Arten von Verschlüsselung**
+Aspose.Cells for Reporting Services unterstützt Verschlüsselung beim Exportieren von Excel-Dateien. Es unterstützt drei Verschlüsselungstypen:
 
 - XOR
 - SCHWACHE VERSCHLÜSSELUNG
-- Microsoft Starker Kryptografieanbieter
+- Microsoft Strong Cryptographic Provider
 ### **Informationen konfigurieren**
- Es gibt Konfigurationsinformationen für die Verschlüsselung in der**Aspose.Cells.ReportingServices.xml** Datei. Wenn der Wert von Encryption auf „off“ gesetzt ist, schaltet Aspose.Cells.ReportingServices die Verschlüsselung aus.
+Es gibt Konfigurationsinformationen für die Verschlüsselung in der **Aspose.Cells.ReportingServices.xml**-Datei. Wenn der Wert von Verschlüsselung auf "aus" gesetzt ist, schaltet Aspose.Cells.ReportingServices die Verschlüsselung aus.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="off">
 
@@ -40,24 +41,24 @@ Aspose.Cells for Reporting Services unterstützt die Verschlüsselung beim Expor
 
 {{< /highlight >}}
 
-Wenn die Verschlüsselung aktiviert ist, aktiviert Aspose.Cells.ReportingServices die Verschlüsselung.
+Wenn die Verschlüsselung auf "an" gesetzt ist, schaltet Aspose.Cells.ReportingServices die Verschlüsselung ein.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-Im Abschnitt Encryption gibt es vier Parameter: ReportName, Password, EncryptionType und KeyLength.
+Im Verschlüsselungsbereich gibt es vier Parameter: ReportName, Passwort, Verschlüsselungstyp und Schlüssellänge.
 
-- ReportName – Legt den Bericht fest, der Verschlüsselungseinstellungen benötigt. Ein Bericht verwendet dieselbe Verschlüsselungsmethode, wenn der Parameter leer ist.
-- Passwort – Legt das Passwort fest. Es darf nicht leer bleiben.
-- EncryptionType – Legt den Verschlüsselungstyp fest. Es darf nicht leer bleiben.
--  KeyLength – Legt die Schlüssellänge fest. Es darf nicht leer bleiben.
+- ReportName – Legt den Bericht fest, für den Verschlüsselungseinstellungen erforderlich sind. Ein Bericht verwendet dieselbe Verschlüsselungsmethode, wenn der Parameter leer ist.
+- Passwort – Legt das Passwort fest. Es darf nicht leer gelassen werden.
+- Verschlüsselungstyp – Legt den Verschlüsselungstyp fest. Er darf nicht leer gelassen werden.
+- Schlüssellänge – Legt die Schlüssellänge fest. Sie darf nicht leer gelassen werden. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="on">
 

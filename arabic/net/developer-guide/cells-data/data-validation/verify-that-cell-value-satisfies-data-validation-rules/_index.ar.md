@@ -1,28 +1,29 @@
 ---
-title: تحقق من أن القيمة Cell تفي بقواعد التحقق من صحة البيانات
+title: التحقق من أن قيمة الخلية تفي بقواعد التحقق من البيانات
 type: docs
 weight: 210
 url: /ar/net/verify-that-cell-value-satisfies-data-validation-rules/
-description: تعرف على كيفية التحقق من أن قيمة Cell تفي بقواعد التحقق من صحة البيانات من خلال Aspose.Cells for .NET API..
-keywords: Get Cell Validation Value, Obtain Cell Validation Value, Verify whether a value satisfies the data validation rules applied to the cell
+description: تعلم كيفية التحقق من أن قيمة الخلية تلبي قواعد التحقق من البيانات من خلال واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: الحصول على قيمة التحقق للخلية، الحصول على قيمة التحقق للخلية، التأكد مما إذا كانت القيمة تلبي قواعد التحقق من البيانات المطبقة على الخلية
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft يتيح Excel للمستخدمين إضافة قواعد التحقق من صحة البيانات إلى الخلايا. على سبيل المثال، يحدد التحقق من صحة العلامة العشرية أنه يمكن إدخال الأرقام بين 10 و20 فقط. إذا قام المستخدم بإدخال رقم مختلف. Microsoft يعرض برنامج Excel رسالة خطأ ويطالبهم بإدخال رقم في النطاق الصحيح. إذا قمت بنسخ رقم ولصقه، على سبيل المثال 3، في الخلية، فلن يقوم Excel بتشغيل عملية التحقق من الصحة أو إظهار رسالة خطأ.
+تسمح Microsoft Excel للمستخدمين بإضافة قواعد التحقق من البيانات إلى الخلايا. على سبيل المثال، يحدد التحقق العشري أنه يمكن إدخال أرقام فقط بين 10 و 20. إذا قام المستخدم بإدخال رقم مختلف، يعرض Microsoft Excel رسالة خطأ ويطالبه بإدخال رقم في النطاق الصحيح. إذا قام المستخدم بنسخ ولصق رقم، على سبيل المثال 3، في الخلية، لا يقوم Excel بتحقق التحقق أو عرض رسالة خطأ.
 
-في بعض الأحيان، يكون من الضروري التحقق مما إذا كانت القيمة تفي بقواعد التحقق من صحة البيانات المطبقة على الخلية برمجياً. في الحالة المذكورة أعلاه، على سبيل المثال، يجب أن يفشل الإدخال.
+في بعض الأحيان، يكون من الضروري التحقق مما إذا كانت القيمة تلبي قواعد التحقق من البيانات المطبقة على الخلية بشكل برمجي. في المثال أعلاه، على سبيل المثال، يجب أن يفشل الإدخال.
 
 {{% /alert %}} 
-##  **مقدمة**
- Aspose.Cells يوفر[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue)طريقة للتحقق من صحة قيم الخلية برمجيا. إذا كانت القيمة الموجودة في خلية لا تستوفي قاعدة التحقق من صحة البيانات المطبقة على تلك الخلية، فستُرجع *False**، وإلا *True**.
+## **مقدمة**
+يوفر Aspose.Cells الأسلوب [Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) للتحقق من قيم الخلية بشكل برمجي. إذا لم تلبي القيمة في الخلية قاعدة التحقق من البيانات المطبقة على تلك الخلية، يعيد **False**، وإلا **True**.
 
- يوضح نموذج التعليمات البرمجية التالي كيفية[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) تعمل الطريقة. أولاً، يقوم بإدخال القيمة 3 في C1. لأن هذا لا يفي بقاعدة التحقق من صحة البيانات،[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) إرجاع الأسلوب**خطأ شنيع**. ثم يقوم بإدخال القيمة 15 في C1. نظرًا لأن هذه القيمة تفي بقاعدة التحقق من صحة البيانات، فإن الأسلوب [Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) يُرجع **True**. وبالمثل، تقوم بإرجاع **خطأ** لقيمة 30.
+توضح العينة البرمجية التالية كيف يعمل أسلوب [Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue). أولاً، يُدخل القيمة 3 في C1. نظرًا لأن هذا الأمر لا يلبي قاعدة التحقق من البيانات، يُعيد أسلوب [Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) **False**. ثم، يُدخل القيمة 15 في C1. نظرًا لأن هذه القيمة تلبي قاعدة التحقق من البيانات، يُعيد أسلوب [Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) **True**. بالمثل، يُعيد **False** للقيمة 30.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DataValidationRules-1.cs" >}}
-###  **انتاج |**
-{{< highlight "java" >}}
+### **الناتج**
+{{< highlight java >}}
 
  Is 3 a Valid Value for this Cell: False
 

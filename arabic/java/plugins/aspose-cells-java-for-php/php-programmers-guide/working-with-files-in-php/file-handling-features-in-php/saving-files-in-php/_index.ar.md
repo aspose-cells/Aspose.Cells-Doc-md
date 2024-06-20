@@ -1,16 +1,17 @@
-﻿---
+---
 title: حفظ الملفات في PHP
 type: docs
 weight: 20
 url: /ar/java/saving-files-in-php/
 ---
+
 ## **Aspose.Cells - حفظ الملفات**
-### **حفظ الملف في بعض المواقع**
- إذا احتاج المطورون إلى حفظ ملفاتهم باستخدام**Aspose.Cells Java for PHP** إلى بعض مواقع التخزين ، يمكنهم ببساطة تحديد اسم الملف (بمسار التخزين الكامل) وتنسيق الملف المطلوب (باستخدام امتداد**نوع الملف**تعداد) أثناء استدعاء**حفظ**طريقة**دفتر العمل**موضوع.
+### **حفظ الملف في موقع معين**
+إذا كان المطورون بحاجة إلى حفظ ملفاتهم باستخدام **Aspose.Cells Java for PHP** في موقع تخزين معين، يمكنهم ببساطة تحديد اسم الملف (مع مسار تخزينه الكامل) وتنسيق الملف المطلوب (باستخدام تعداد **FileFormatType**) أثناء استدعاء طريقة **save** لكائن **Workbook**.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $fileFormatType = new FileFormatType();
 
@@ -35,7 +36,7 @@ $workbook->save($dataDir . "book.out.xlsx", $fileFormatType->XLSX);
 $workbook->save($dataDir . "book.out.xml", $fileFormatType->EXCEL_2003_XML);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**حفظ الملفات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **حفظ الملفات (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

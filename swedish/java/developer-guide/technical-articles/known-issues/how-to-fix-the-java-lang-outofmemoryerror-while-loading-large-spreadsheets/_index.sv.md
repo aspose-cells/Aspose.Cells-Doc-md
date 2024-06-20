@@ -1,20 +1,21 @@
-﻿---
-title: Så här åtgärdar du java.lang.OutOfMemoryError när du laddar stora kalkylblad
+---
+title: Hur man åtgärdar java.lang.OutOfMemoryError vid inläsning av stora kalkylblad
 type: docs
 weight: 20
 url: /sv/java/how-to-fix-the-java-lang-outofmemoryerror-while-loading-large-spreadsheets/
 ---
+
 {{% alert color="primary" %}} 
 
- Det finns rimliga chanser att Workbook-konstruktören kan kasta java.lang.OutOfMemoryError när stora kalkylblad laddas. Detta undantag tyder på att det tillgängliga minnet är otillräckligt för att fullständigt ladda kalkylarket i minnet, därför måste kalkylarket laddas samtidigt som du aktiverar[Minnesinställningar](/cells/sv/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
+Det finns goda chanser att Arbetsbokskonstruktören kan kasta java.lang.OutOfMemoryError vid inläsning av stora kalkylblad. Detta undantag tyder på att det tillgängliga minnet är otillräckligt för att helt ladda kalkylbladet i minnet, därför måste kalkylbladet laddas medan [Minnespreferenser](/cells/sv/java/optimering-av-minnesanvandningen-vid-arbete-med-stora-filer-med-stora-datauppsattningar/) är aktiverade.
 
 {{% /alert %}} 
-## **Så här fixar du java.lang.OutOfMemoryError när du laddar ett stort kalkylblad**
-Aspose.Cells API:er tillhandahåller minnesinställningar för att optimera minnesförbrukningen när du laddar och bearbetar kalkylblad. Dessa alternativ är också användbara för att effektivt ladda de stora kalkylbladen som innehåller enorma datamängder i Workbook-objektet som visas nedan.
+## **Hur man åtgärdar java.lang.OutOfMemoryError vid inläsning av stora kalkylblad**
+Aspose.Cells APIer tillhandahåller Minnesinställningar för att optimera minnesförbrukningen vid inläsning och bearbetning av kalkylblad. Dessa alternativ är också användbara för att effektivt ladda stora kalkylblad med stora datamängder i Workbook-objektet, som demonstreras nedan. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the LoadOptions
 

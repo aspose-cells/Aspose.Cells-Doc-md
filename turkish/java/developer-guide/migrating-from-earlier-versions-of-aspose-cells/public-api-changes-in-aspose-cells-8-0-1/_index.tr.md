@@ -1,20 +1,21 @@
-﻿---
-title: Genel API Aspose.Cells 8.0.1'deki değişiklikler
+---
+title: Aspose.Cells 8.0.1 de Genel API Değişiklikleri
 type: docs
 weight: 30
 url: /tr/java/public-api-changes-in-aspose-cells-8-0-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu sayfa, Aspose.Cells 8.0.1'de tanıtılan genel API değişikliklerini listeler. Yalnızca yeni ve eskimiş genel yöntemleri değil, aynı zamanda Aspose.Cells'deki perde arkasındaki mevcut kodu etkileyebilecek davranış değişikliklerinin açıklamasını da içerir. Bir gerileme olarak görülebilen ve mevcut davranışı değiştiren herhangi bir davranış özellikle önemlidir ve burada belgelenmiştir.
+Bu sayfa, Aspose.Cells 8.0.1'de tanıtılan genel API değişikliklerini listeleyen bir sayfadır. Bu, sadece yeni ve eskimiş genel yöntemleri değil, aynı zamanda mevcut kodları etkileyebilecek Aspose.Cells arka planındaki davranışlardaki herhangi değişikliklerin bir açıklamasını içerir. Mevcut davranışı değiştiren herhangi bir davranış özellikle önemli olup burada dökümante edilmektedir.
 
 {{% /alert %}} 
-## **Cells Sınıfına MemorySetting Özelliği Eklendi**
-Cells sınıfı, hücre verileri için bellek kullanımını optimize etmek ve böylece toplam bellek maliyetini azaltmak için kullanılabilecek setMemorySetting & getMemorySetting yöntemlerini kullanıma sundu. Aşağıdaki örnek, optimize edilmiş modda bir çalışma sayfasına büyük bir verinin nasıl yazılacağını gösterir.
+## **MemorySetting Özelliği, Cells Sınıfına Eklendi**
+Cells sınıfı, hücre verilerinin bellek kullanımını optimize etmek için kullanılabilecek setMemorySetting ve getMemorySetting yöntemlerini açığa çıkardı. Aşağıdaki örnek, optimize edilmiş modda geniş bir veri kümesini çalışsayfaya yazmanın nasıl yapılacağını göstermektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -38,10 +39,10 @@ cells.setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 
 {{% alert color="primary" %}} 
 
- Bellek ayarları, Çalışma Kitabı tarafından otomatik olarak oluşturulan varsayılan sayfa için çalışmayacaktır. Mevcut sayfaların hafıza ayarlarını değiştirmek için lütfen herhangi bir veri işleme yapmadan önce hafıza ayarlarını manuel olarak uygulayın.
+Bellek ayarları, Workbook tarafından otomatik olarak oluşturulan varsayılan sayfa için çalışmaz. Var olan sayfaların bellek ayarlarını değiştirmek için, veri manipülasyonu yapmadan önce bellek ayarlarını manuel olarak uygulayınız. 
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Lütfen adresindeki ayrıntılı makaleyi kontrol edin.[Büyük Veri Kümeleriyle Çalışırken Belleği Optimize Etme](/cells/tr/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
+[Büyük Veri Kümeleriyle Çalışırken Belleği Optimize Etme](/cells/tr/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/) konusundaki detaylı makaleyi kontrol edin
 
 {{% /alert %}}

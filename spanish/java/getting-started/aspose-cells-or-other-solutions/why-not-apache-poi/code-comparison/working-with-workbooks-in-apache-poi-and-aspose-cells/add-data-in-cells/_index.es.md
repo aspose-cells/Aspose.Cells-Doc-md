@@ -1,15 +1,16 @@
-﻿---
-title: Agregar Datos en Cells
+---
+title: Agregar Datos en Celdas
 type: docs
 weight: 10
 url: /es/java/add-data-in-cells/
 ---
-## **Aspose.Cells - Agregar datos en Cells**
-Aspose.Cells proporciona una clase, Workbook, que representa un archivo de Excel Microsoft. La clase Workbook contiene una WorksheetCollection que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por la clase Worksheet. La clase Worksheet proporciona una colección Cells. Cada elemento de la colección Cells representa un objeto de la clase Cell.
+
+## **Aspose.Cells - Agregar Datos en Celdas**
+Aspose.Cells proporciona una clase, Workbook, que representa un archivo de Microsoft Excel. La clase Workbook contiene una WorksheetCollection que permite acceder a cada hoja de cálculo en el archivo de Excel. Una hoja de cálculo está representada por la clase Worksheet. La clase Worksheet proporciona una colección de celdas. Cada elemento en la colección de celdas representa un objeto de la clase Cell.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cell.setStyle(style);
 workbook.save(dataDir + "DataInCells_Aspose.xls"); //Saving the Excel file
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Agregar datos en Cells**
-En Apache POI SS, se puede usar row.createCell(1).setCellValue para agregar datos en las celdas.
+## **Apache POI SS - HSSF XSSF - Agregar Datos en Celdas**
+En Apache POI SS se puede utilizar row.createCell(1).setCellValue para agregar datos en celdas.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -86,13 +87,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/adddataincells)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Agregando datos al Cells](/java/adding-data-to-cells).
+Para más detalles, visita [Añadir Datos a Celdas](/java/adding-data-to-cells).
 
 {{% /alert %}}

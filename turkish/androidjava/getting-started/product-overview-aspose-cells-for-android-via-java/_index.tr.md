@@ -1,80 +1,81 @@
-﻿---
-title: Ürüne Genel Bakış - Aspose.Cells for Android via Java
+---
+title: Ürün Genel Bakışı  Aspose.Cells for Android via Java
 type: docs
 weight: 60
 url: /tr/java/product-overview-aspose-cells-for-android-via-java/
 ---
+
 {{% alert color="primary" %}} 
 
-![hücre logosu](50528297.png)
+![cells-logo](50528297.png)
 
 Aspose.Cells for Android via Java belgelerine hoş geldiniz!
 
-Aspose.Cells, Android uygulamalarının sistemde Microsoft Excel'in yüklü olmasını gerektirmeden Excel elektronik tabloları oluşturmasını ve yönetmesini sağlayan esnek bir bileşendir. Diğer satıcıların benzer ürünlerinin aksine, Aspose.Cells yalnızca elektronik tablo oluşturmayı ve diğer temel dosya biçimlendirme özelliklerini değil, aynı zamanda bir dizi gelişmiş özelliği de destekler. Bu gelişmiş özellikler, geliştiricilerin elektronik tablo içeriklerini, hücre biçimlendirmesini ve dosya korumasını değiştirmesini kolaylaştırır. Aspose.Cells ayrıca farklı veri kaynaklarından elektronik tablolara veri aktarmanıza, yaygın ve karmaşık matematiksel, tarih ve saat, finansal veya metin formülleri ve işlevleri eklemenize olanak tanır. Ayrıca çizelgelerin, resimlerin, yorumların, çizim nesnelerinin ve kontrollerin manipüle edilmesini destekler.
+Aspose.Cells, Android uygulamalarının sistemde Microsoft Excel'in yüklü olmasını gerektirmeksizin Excel elektronik tabloları oluşturmasına ve yönetmesine olanak tanıyan esnek bir bileşendir. Diğer sağlayıcılardan gelen benzer ürünlerden farklı olarak, Aspose.Cells sadece elektronik tablo oluşturmayı ve diğer temel dosya biçimlendirme özelliklerini desteklemekle kalmaz, ayrıca bir dizi gelişmiş özelliği de destekler. Bu gelişmiş özellikler, geliştiricilerin elektronik tablo içeriğini, hücre biçimlendirmeyi ve dosya korumasını kolayca manipüle etmelerini sağlar. Aspose.Cells ayrıca farklı veri kaynaklarından elektronik tablolara veri aktarmanıza, yaygın ve karmaşık matematik, tarih ve saat, finansal veya metin formülleri ve işlevlerini eklemenize olanak tanır. Ayrıca, grafiklerin, resimlerin, yorumların, çizim nesnelerinin ve kontrollerin manipülasyonunu destekler.
 
 {{% /alert %}} 
 ## **Belge Özellikleri**
-- Farklı kaynaklardan Düz veya Şifreli Excel dosyalarını (Excel97 - Excel2007 ve sonraki sürümler) açın
-- Excel dosyalarını (Excel97 - Excel2007 ve sonraki sürümleri) farklı formatlarda kaydedin (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Sekmeyle Ayrılmış, HTML vb.)
-- Excel dosyasını PDF belgesine dönüştürün
-- Excel elektronik tablosunu XPS belgesine dönüştürün
-- OpenDocument Elektronik Tablosu (ODS) biçimini Okuma ve Yazma
-- Excel dosyalarının belge özelliklerini değiştirme
+- Farklı kaynaklardan Excel dosyalarını (Excel97 - Excel2007 ve sonraki sürümler) açın
+- Excel dosyalarını (Excel97 - Excel2007 ve sonraki sürümler) farklı biçimlerde (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, HTML vb.) kaydedin
+- Excel dosyasını PDF belgesine dönüştürme
+- Excel elektronik tablosunu XPS belgesine dönüştürme
+- OpenDocument Yayınlanmış Tablo (ODS) formatını okuyun ve yazın
+- Excel dosyalarının belge özelliklerini değiştirin
 ## **Çalışma Sayfası Özellikleri**
-## **Görüntüleme seçenekleri**
-- Çalışma sayfasını gizleme veya gösterme
-- Sekmeleri, kaydırma çubuklarını, kılavuz çizgilerini ve satır ve sütun başlıklarını gösterin veya gizleyin.
-- Önizleme sayfası sonları.
-- Bir çalışma sayfasının yakınlaştırma düzeyini ayarlayın.
-- Dondur bölmelerini kullanarak kaydırma yaparken seçilen verilerin görünür kalmasını sağlayın.
-## **Çalışma Sayfası Koruması**
-- Çalışma sayfası içeriklerini, nesneleri ve senaryoları koruyun.
-## **Sayfa Yapısı Seçenekleri**
-- Sayfa yönünü, ölçeklemeyi, kağıt boyutunu ve baskı kalitesini ayarlayın.
-- Üst, sol, sağ, alt için sayfa kenar boşluklarını ayarlayın.
-- Üst bilgileri ve alt bilgileri ayarlayın.
-- Yazdırma alanını ve yazdırma başlığını ayarlayın.
+## **Görüntüleme Seçenekleri**
+- Bir çalışsayfayı gizle veya göster
+- Sekmeleri, kaydırma çubuklarını, ızgara çizgilerini ve satır ve sütun başlıklarını göster veya gizle
+- Sayfa sonu kesmelerini önizle
+- Bir çalışsayfanın yakınlaştırma düzeyini ayarlayın
+- Donmuş bölümler kullanarak kaydırırken seçilen verilerin görünür kalmasını sağlayın
+## **Çalışma Sayfası Koruma**
+- Çalışsayfa içeriğini, nesneleri ve senaryoları koruyun
+## **Sayfa Yapılandırma Seçenekleri**
+- Sayfa yönlendirmesi, ölçekleme, kağıt boyutu ve baskı kalitesini ayarlayın
+- Sayfa kenar boşluklarını üst, sol, sağ, alt için ayarlayın
+- Üstbilgi ve altbilgileri ayarlayın
+- Baskı alanı ve baskı başlığını ayarlayın
 ## **Sayfa Sonları**
-- Belirli bir hücreye yatay ve dikey sayfa sonları ekleyin.
+- Belirtilen hücrede yatay ve dikey sayfa sonları ekleyin
 ## **Satırlar ve Sütunlar Özellikleri**
-- Sütun genişliğini ayarlayın.
-- Hücrelerin genişliğini ve yüksekliğini otomatik olarak boyutlandırın.
-- Satır ve sütun ekleyin veya silin.
-- Satırları ve sütunları gizleyin veya gösterin.
-- Satırları ve sütunları gruplandırma veya grubu çözme.
+- Sütun genişliğini ayarlayın
+- Hücrelerin genişliğini ve yüksekliğini otomatik ayarlayın
+- Satır ve sütun ekleyin veya silin
+- Satır ve sütunları gizle veya göster
+- Satır ve sütunları gruplandırın veya gruplu olmaktan çıkarın
 ## **Veri Yönetimi Özellikleri**
-- Çalışma zamanında istenen Cells'e veri ekleyin
-- **Verileri Çalışma Sayfalarına aktarın** farklı veri kaynaklarından
-- Veri türlerine göre hücrelerden veri alma
-- **Hücre verilerini Diziye aktar**
-- Hücrelerde belirli verileri bulun veya arayın
--  Ayarlamak**Yerleşik veya Eklenti İşlevleri Olan Formüller**
-- Farklı türde Köprüler ekleyin
-- Adlandırılmış Aralıklar Oluşturun veya Erişin
--  Uygulamak**Veri doğrulama** ve**Otomatik Filtreleme**
--  Uygulamak**ara toplamlar** Çalışma sayfası tablolarına
+- Çalışma zamanında istenen hücrelere veri ekleyin
+- Farklı veri kaynaklarından Çalışsayfalara veri alın
+- Hücrelerden veri türlerine göre veri alın
+- Hücre verilerini Diziye aktarın
+- Hücrelerde belirli verileri bulma veya arama
+- Dahili veya Eklenti Fonksiyonları ile Formüller Belirle
+- Farklı türde Hyperlinkler ekle
+- Adlandırılmış Aralıklar Oluştur veya Eriş
+- **Veri Doğrulaması** ve **Otomatik Filtreleme** uygula
+- Çalışma sayfası tablolarına **Alt Toplamlar** uygula
 ## **Biçimlendirme Özellikleri**
--  Uygulamak**Sayı Biçimi Ayarları** Cells için
-- Cell'i Tarih Olarak Biçimlendir
--  Ayarlamak**Metin hizalama**
-- Birden fazla Cells'i tek bir numarada birleştirin
-- Farklı türde uygula**Yazı Tipi Ayarları** Cells için
-- Cells, Yazı Tipleri, Kılavuz Çizgiler, Grafik Nesneler vb. için farklı Renkler uygulayın.
--  Ayarlamak**Zengin metin** Tekli Cell
--  Farklı uygula**Kenarlık Ayarları** Cells üzerinde
--  Farklı uygula**Arka Plan Desenleri** Cells üzerinde
--  Uygulamak**Biçim Ayarları** Çalışma Sayfası, Satır veya Sütun vb.
--  Uygulamak**Koşullu biçimlendirme** Cells üzerinde
-## **Grafik ve Grafik Özellikleri**
-- Kolayca Farklı Grafik Türleri Oluşturun
--  Özelleştirme**Grafikler** farklı özelliklerini ayarlayarak
--  Ayarlamak**Grafikler için Veriler** dinamik olarak
--  Eklemek**Özel Grafikler** API kullanarak Çalışma Sayfalarına
--  Eklemek**resimler** çalışma zamanında Çalışma Sayfalarına
--  Oluştur ve Ekle**Yorumlar** hücrelere
-- Grafiği resim dosyasına dönüştür
-- Çalışma sayfasını görüntü dosyasına dönüştürün
-## **Gelişmiş Özellikler**
--  destekler**Formül Hesaplamaları** güçlü Formül Hesaplama Motorunu kullanma
--  Değiştirmek**Pivot Tablonun Kaynak Verileri** işlem esnasında
-- PivotTable oluşturma ve değiştirme
+- Hücreler için **Sayı Formatı Ayarları** uygula
+- Hücreyi Tarih olarak Biçimlendir
+- **Metin Hizalaması** belirle
+- Birden fazla Hücreyi tek bir hücreye birleştir
+- Hücreler için farklı türde **Yazı Tipi Ayarları** uygula
+- Hücrelere, Yazı Tiplerine, Izgaralara, Grafik Nesnelerine vb. farklı Renkler uygula
+- Tek bir hücrede **Zengin Metin** belirle
+- Hücrelerde farklı **Kenarlık Ayarları** uygula
+- Hücrelere farklı **Arka Plan Desenleri** uygula
+- Çalışma sayfası, Satır veya Sütun vb. üzerine **Biçim Ayarları** uygula
+- Hücrelere **Koşullu Biçimlendirme** uygula
+## **Grafik ve Grafikler Özellikleri**
+- Farklı türde Grafikler kolayca oluştur
+- Farklı özelliklerini belirleyerek **Grafikleri** özelleştir
+- **Grafikler** için verileri dinamik olarak belirle
+- API kullanarak Çalışma sayfalarına **Özel Grafikler** ekle
+- Çalışma sayfalarına **Resimler** ekleyin
+- Hücrelere **Yorumlar** ekleyin ve oluşturun
+- Grafikleri resim dosyasına dönüştürme
+- Çalışma sayfasını resim dosyasına dönüştürme
+## **İleri Düzey Özellikler**
+- Sağlam Formül Hesaplama Motoru kullanarak **Formül Hesaplamalarını** destekler
+- Çalışma Zamanında **Pivot Tablo Kaynak Verilerini** Değiştir
+- Pivot Tabloları oluştur ve yönet

@@ -1,16 +1,17 @@
-﻿---
-title: Speichern von Dateien in PHP
+---
+title: Dateien in PHP speichern
 type: docs
 weight: 20
 url: /de/java/saving-files-in-php/
 ---
-## **Aspose.Cells – Speichern von Dateien**
+
+## **Aspose.Cells - Dateien speichern**
 ### **Datei an einem Ort speichern**
- Wenn Entwickler ihre Dateien mit speichern müssen**Aspose.Cells Java for PHP** zu einem Speicherort, dann können sie einfach den Dateinamen (mit vollständigem Speicherpfad) und das gewünschte Dateiformat (mithilfe der**Dateiformattyp**Aufzählung) beim Aufrufen der**speichern**Methode von**Arbeitsmappe**Objekt.
+Wenn Entwickler ihre Dateien unter Verwendung von **Aspose.Cells Java für PHP** an einem Speicherort speichern müssen, können sie einfach den Dateinamen (mit seinem vollständigen Speicherpfad) und das gewünschte Dateiformat (unter Verwendung der Enumeration **FileFormatType**) beim Aufrufen der **save**-Methode des **Workbook**-Objekts angeben.
 
 **PHP-Code**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $fileFormatType = new FileFormatType();
 
@@ -35,7 +36,7 @@ $workbook->save($dataDir . "book.out.xlsx", $fileFormatType->XLSX);
 $workbook->save($dataDir . "book.out.xml", $fileFormatType->EXCEL_2003_XML);
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Dateien speichern (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Herunterladen von **Speichern von Dateien (Aspose.Cells)** von einer der unten genannten sozialen Codierungsseiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

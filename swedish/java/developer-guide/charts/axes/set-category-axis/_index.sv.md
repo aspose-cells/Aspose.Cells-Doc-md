@@ -1,27 +1,28 @@
 ---
-title: Hur man ställer in kategoriaxel
-description: Lär dig hur du ställer in kategoriaxeln i Aspose.Cells for Java. Vår guide hjälper dig att förstå hur du definierar kategoriaxelområdet, justerar dess egenskaper och formaterar dess etiketter.
-keywords: Aspose.Cells for Java, category axis, setting, range, properties, formatting.
+title: Hur man ställer in kategori axeln
+description: Lär dig hur man ställer in den kategoriska axeln i Aspose.Cells for Java. Vår guide hjälper dig att förstå hur man definierar det kategoriska axeln området, justerar dess egenskaper och formaterar dess etiketter.
+keywords: Aspose.Cells for Java, kategorisk axel, inställning, omfång, egenskaper, formatering.
 type: docs
 weight: 205
 url: /sv/java/how-to-set-category-axis/
 ---
-##  **Möjliga användningsscenarier**
-När du har skapat ett diagram i ett kalkylblad kan du ställa in kategoriaxel för det. I den här artikeln kommer vi att visa dig hur du ställer in kategoriaxel för Excel-diagram med hjälp av Aspose.Cells med exempelkod.
 
-##  **Stegen i exempelkod**
+## **Möjliga användningsscenario**
+När du har skapat ett diagram i ett kalkylark kan du sedan ställa in kategori-axeln för det. I den här artikeln kommer vi att visa hur du ställer in kategori-axeln för Excel-diagram med hjälp av Aspose.Cells med exempelkod.
+
+## **Stegen i provkod**
 
 1. Skapa en ny arbetsbok.
 
-2. Skapa ett nytt diagram i det första kalkylbladet.
+2. Skapa en ny diagram i den första arbetsbladet.
 
-3. Lägg till några värden i cellerna i det första kalkylbladet.
+3. Lägg till några värden i celler i det första arbetsbladet.
 
-4. Nu kan du ställa in kategoriaxeln, det finns två sätt: att använda celldata, eller använda strängar direkt, som båda visas i exempelkoden.
+4. Nu kan du ställa in kategori axeln, det finns två sätt: använda celldata eller använda strängar direkt, båda visas i provkoden.
 
-5. Ställ in värdeaxel, spara arbetsboken för att se resultatet.
+5. Ställ in värde axeln, spara arbetsboken för att se resultatet.
 
- Följande exempelkod genererar[utdata Excel-fil](Output.xlsx).
+Följande exempelkod genererar [utdata Excel-fil](Output.xlsx).
 
-##  **Exempelkod**
+## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "chart-CategoryAxis-settings.java" >}}

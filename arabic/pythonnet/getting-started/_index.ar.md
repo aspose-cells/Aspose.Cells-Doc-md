@@ -1,78 +1,79 @@
 ---
-title: ابدء
-linktitle: ابدء
+title: البدء
+linktitle: البدء
 type: docs
 weight: 4
 url: /ar/python-net/getting-started/
-description: تعرف على كيفية تثبيت Aspose.Cells for Python via .NET وإنشاء تطبيق Hello World.
-keywords: How to install Aspose.Cells for Python via .NET in Windows Linux and MacOS, installation guidelines for Aspose.Cells for Python via .NET, Python Via .NET Hello World program. 
+description: تعلم كيفية تثبيت Aspose.Cells for Python via .NET وإنشاء تطبيق Hello World.
+keywords: كيفية تثبيت Aspose.Cells for Python via .NET في Windows Linux و MacOS، إرشادات التثبيت لـ Aspose.Cells for Python via .NET، برنامج Hello World باستخدام Python Via .NET. 
 ---
-##  **متطلبات النظام**
- Aspose.Cells for Python via .NET مستقل عن النظام الأساسي API ويمكن استخدامه على أي نظام أساسي (Windows وLinux) حيث[Python](https://www.python.org/downloads/) تم تنصيبه.
 
-##  **نسخة Python**
-- Python 3.6 أو أعلى
+## **متطلبات النظام**
+Aspose.Cells for Python via .NET API غير متوقف عن النظام ويمكن استخدامه على أي نظام (Windows و Linux) حيث يتم تثبيت [Python](https://www.python.org/downloads/). 
 
-##  **تثبيت**
-###  **Windows:**
- يمكنك بسهولة استخدام Aspose.Cells for Python via .NET من[pypi](https://pypi.org/project/aspose-cells-python/) مع الأمر التالي.
-{{< highlight "NET" >}}
+## **إصدار Python**
+- Python 3.6 أو أحدث
 
- $ pip install aspose-cells-python
-
-{{< /highlight >}}
-
-###  **لينكس:**
- يمكنك بسهولة استخدام Aspose.Cells for Python via .NET من[pypi](https://pypi.org/project/aspose-cells-python/) مع الأمر التالي.
-{{< highlight "NET" >}}
+## **التثبيت**
+### **Windows:**
+يمكنك استخدام Aspose.Cells for Python via .NET بسهولة من [pypi](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
+{{< highlight NET >}}
 
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
-- ملاحظة: تحتاج إلى تشغيل الأمر التالي قبل التثبيت
-{{< highlight "NET" >}}
+
+### **Linux:**
+يمكنك استخدام Aspose.Cells for Python via .NET بسهولة من [pypi](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
+{{< highlight NET >}}
+
+ $ pip install aspose-cells-python
+
+{{< /highlight >}}
+- ملاحظة: يجب عليك تشغيل الأمر التالي قبل التثبيت
+{{< highlight NET >}}
 For Ubuntu/Debian: apt-get install libgdiplus 
 For CentOS/RHEL/Fedora: yum install libgdiplus 
 {{< /highlight >}}
 
-###  **ماك:**
- يمكنك بسهولة استخدام Aspose.Cells for Python via .NET من[pypi](https://pypi.org/project/aspose-cells-python/) مع الأمر التالي.
-{{< highlight "NET" >}}
+### **MacOS:**
+يمكنك استخدام Aspose.Cells for Python via .NET بسهولة من [pypi](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
+{{< highlight NET >}}
 
  $ pip install aspose-cells-python
 
 {{< /highlight >}}
-- ملاحظة: إذا كان بايثون الخاص بك هو Python3.7 (خذ python3.7، على سبيل المثال، هنا)، بعد تثبيت aspose-cells-python، قد تكون هناك الأخطاء التالية
- موجه "/usr/local/lib/libpython3.7m.dylib" (لا يوجد مثل هذا الملف)، "/usr/lib/libpython3.7m.dylib" (لا يوجد مثل هذا الملف).
- في مثل هذه الحالة، يرجى إضافة الأمر التالي إلى ملف bash_profile الخاص بك (ابحث عن مكان libpython3.7m.dylib أولاً، خذ /Library/Frameworks/Python.framework/Versions/3.7/lib
- مثلا هنا)
-{{< highlight "NET" >}}
+- ملاحظة: إذا كان Python الخاص بك هو Python3.7 (خذ Python3.7 على سبيل المثال، هنا)، بعد تثبيت aspose-cells-python، قد تظهر الأخطاء التالية
+  '/usr/local/lib/libpython3.7m.dylib' (ملف غير موجود), '/usr/lib/libpython3.7m.dylib' (ملف غير موجود) prompt.
+  في مثل هذا الوضع، الرجاء إضافة الأمر التالي إلى ملف الـ bash_profile الخاص بك (العثور على مكان ملف libpython3.7m.dylib أولاً، واستخراج /Library/Frameworks/Python.framework/Versions/3.7/lib،
+  على سبيل المثال هنا)
+{{< highlight NET >}}
 export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib"
 export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions/3.7/lib/"
 {{< /highlight >}}
 
-- ملحوظة:نظرًا لاعتمادنا على مكتبة الرسومات SkiaSharp، إذا واجهت الخطأ التالي:
-**System.DllNotFoundException: غير قادر على تحميل المكتبة المشتركة 'libSkiaSharp' أو أحد تبعياتها.** الرجاء تثبيت SkiaSharp.
-{{< highlight "NET" >}}
+- ملاحظة: بسبب اعتمادنا على مكتبة الرسومات SkiaSharp، إذا واجهت الخطأ التالي:
+**System.DllNotFoundException: غير قادر على تحميل مكتبة مشتركة 'libSkiaSharp' أو أحد تبعياتها.** يرجى تثبيت SkiaSharp.
+{{< highlight NET >}}
 brew  install nuget
 nuget install SkiaSharp.NativeAssets.macOS -Version 2.88.3
 {{< /highlight >}}
- بعد التثبيت، الرجاء تشغيل الأمر التالي
-{{< highlight "NET" >}}
+بعد التثبيت، يرجى تشغيل الأمر التالي 
+{{< highlight NET >}}
 cp ./SkiaSharp.NativeAssets.macOS.2.88.3/runtimes/osx/native/libSkiaSharp.dylib /usr/local/lib/.
 {{< /highlight >}}
 
- وبطبيعة الحال، إذا كنت تريد أن يكون الأمر أكثر بساطة، يمكنك أيضا تحميله[libSkiaSharp.dylib](libSkiaSharp.dylib) وثم**ينسخ** ذلك إلى**/usr/local/lib** الدليل.
+بالطبع، إذا كنت ترغب في ذلك بشكل أبسط، يمكنك أيضًا تنزيل [libSkiaSharp.dylib](libSkiaSharp.dylib) ثم **نسخها** إلى دليل **/usr/local/lib**.
 
-##  **كيفية إنشاء تطبيق Hello World باستخدام Aspose.Cells for Python via .NET**
+## **كيفية إنشاء تطبيق Hello World باستخدام Aspose.Cells لـ Python via .NET**
 
--  قم بإنشاء ملف باسم**إنشاءHelloWorldFile.py** واستخدم نموذج التعليمات البرمجية التالي:
+- أنشئ ملفًا بإسم **CreatingHelloWorldFile.py** واستخدم الكود المثال التالي:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CreatingHelloWorldFile.py" >}}
 
-- الآن احفظ الكود أعلاه في "CreatingHelloWorldFile.py" وقم بتشغيل "python CreateHelloWorldFile.py" @command موجه.
+- الآن قم بحفظ الكود أعلاه في "CreatingHelloWorldFile.py" وقم بتشغيل "python CreatingHelloWorldFile.py" @command prompt.
 
-##  **Python via .NET مثال جيثب**
--  يرجى زيارة[Aspose.Cells for Python via .NET مثال](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) جيثب لعرض المزيد من نماذج الرموز.
+## **مثال Python via .NET github**
+- يرجى زيارة [مثال Aspose.Cells لـ Python via .NET](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET) على github لعرض مزيد من أكواد العينات.
 
 

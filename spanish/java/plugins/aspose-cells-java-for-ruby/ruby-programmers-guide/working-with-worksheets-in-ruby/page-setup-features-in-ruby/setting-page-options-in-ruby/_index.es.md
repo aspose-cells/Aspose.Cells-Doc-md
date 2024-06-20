@@ -1,16 +1,17 @@
-﻿---
-title: Configuración de opciones de página en Ruby
+---
+title: Configuración de Opciones de Página en Ruby
 type: docs
 weight: 10
 url: /es/java/setting-page-options-in-ruby/
 ---
-## **Aspose.Cells - Configuración de opciones de página**
-### **Orientación de la página**
- Para aplicar la configuración de orientación de la página usando**Aspose.Cells Java para rubí** , llamada**orientación de la página** método de**configuración de página** módulo.
 
-**código rubí**
+## **Aspose.Cells - Configuración de Opciones de Página**
+### **Orientación de Página**
+Para aplicar configuraciones de orientación de página usando **Aspose.Cells Java para Ruby**, llama al método **page_orientation** del módulo **pagesetup**.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def page_orientation()
 
@@ -51,12 +52,12 @@ url: /es/java/setting-page-options-in-ruby/
 end   
 
 {{< /highlight >}}
-### **Factor de escala**
- Para aplicar la escala usando**Aspose.Cells Java para rubí** , llamada**escalada** método de**configuración de página** módulo.
+### **Factor de Escala**
+Para aplicar escala usando **Aspose.Cells Java para Ruby**, llama al método **scaling** del módulo **pagesetup**.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def scaling()
 
@@ -96,7 +97,7 @@ end
 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Configuración de opciones de página (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Configuración de Opciones de Página (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)

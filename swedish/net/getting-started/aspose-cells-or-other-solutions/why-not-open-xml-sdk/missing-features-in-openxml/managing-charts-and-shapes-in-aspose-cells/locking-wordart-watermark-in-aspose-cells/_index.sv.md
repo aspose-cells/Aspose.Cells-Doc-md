@@ -1,20 +1,21 @@
-﻿---
-title: Låser WordArt Watermark i Aspose.Cells
+---
+title: Låsa WordArt vattenstämpel i Aspose.Cells
 type: docs
 weight: 40
 url: /sv/net/locking-wordart-watermark-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells API:er gör det möjligt att lägga till WordArt-vattenstämplar på kalkylbladet på ett sätt så att WordArt blir ett objekt som du kan flytta och placera på kalkylbladet. Det är också möjligt att låsa WordArt-objektet för alla interaktioner som redigering, rörelse och markering. Den här artikeln förklarar användningen av metoden Shape.SetLockedProperty för att låsa några aspekter av vattenstämpeln.
+Aspose.Cells API:er tillåter att lägga till WordArt-vattenstämplar på arbetsbladet på ett sätt att WordArt blir ett objekt som du kan flytta och placera på arbetsbladet. Det är också möjligt att låsa WordArt-objektet för interaktioner som redigering, flyttning och val. Den här artikeln förklarar användningen av Shape.SetLockedProperty-metoden för att låsa några aspekter av vattenstämpeln.
 
 {{% /alert %}} 
 
-Aspose.Cells API:er tillåter låsning av vissa aspekter av vattenstämpeln så att användarinteraktionen kan begränsas eller helt blockeras. Följande kodavsnitt visar användningen av Aspose.Cells for .NET API för att låsa val, förflyttning, redigering och ändra storlek på vattenstämpeln genom att skapa ett kalkylblad från början.
+Aspose.Cells API:er tillåter att låsa vissa aspekter av vattenstämpeln så att användarinteraktionen kan vara begränsad eller helt blockerad. Följande kodsnutt demonstrerar användningen av Aspose.Cells for .NET API:et för att låsa val, rörelse, redigering och omformning av vattenstämpeln genom att skapa ett kalkylblad från grunden.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -73,7 +74,7 @@ lineFormat.IsVisible = false;
 workbook.Save(FileName);
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Locking%20WordArt%20Watermark)
-## **Ladda ner körningsexempel**
+## **Ladda ner exempel på körning**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

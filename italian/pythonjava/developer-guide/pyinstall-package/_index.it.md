@@ -1,43 +1,44 @@
 ---
-title: Utilizzo di PyInstaller per distribuire facilmente le applicazioni Python
-linktitle: Pacchetto utilizzando Pyinstaller
+title: Utilizzare PyInstaller per Distribuire Facilmente Applicazioni Python
+linktitle: Confezionare Utilizzando Pyinstaller
 type: docs
 weight: 10
 url: /it/python-java/pyinstaller-python/
-description: Pacchetto codice python in exe tramite pyinstaller.
+description: Confezionare codice Python in exe tramite pyinstaller.
 ---
-##  **A cosa serve PyInstaller?**
-PyInstaller legge uno script Python scritto da te. Analizza il tuo codice per scoprire ogni altro modulo e libreria di cui il tuo script ha bisogno per essere eseguito. Quindi raccoglie copie di tutti quei file, incluso l'interprete attivo Python!
 
-##  **Perché utilizzare Pyinstaller per il pacchetto Python?**
-PyInstaller viene utilizzato per impacchettare il codice Python in applicazioni eseguibili autonome per vari sistemi operativi. Prende uno script Python e genera un singolo file eseguibile che contiene tutte le dipendenze necessarie e può essere eseguito su computer che non hanno Python installato. Ciò consente una facile distribuzione e distribuzione delle applicazioni Python, poiché l'utente non ha bisogno di avere Python e tutti i moduli richiesti installati sul proprio sistema per eseguire l'applicazione. Inoltre, PyInstaller può anche essere utilizzato per creare eseguibili a un file, che sono singoli file eseguibili che contengono tutte le dipendenze richieste per l'applicazione. Ciò può rendere ancora più semplice la distribuzione dell'applicazione, poiché l'utente deve solo scaricare un singolo file.
+## **Per cosa viene utilizzato PyInstaller?**
+PyInstaller legge uno script Python scritto da te. Analizza il tuo codice per scoprire ogni altro modulo e libreria di cui lo script ha bisogno per eseguire. Poi raccoglie copie di tutti quei file, compreso l'interprete Python attivo!
 
-##  **Come installare PyInstaller**
- PyInstaller è disponibile come un normale pacchetto Python. Gli archivi di origine per le versioni rilasciate sono disponibili da[PyPi](https://pypi.org/project/pyinstaller/) , ma è più semplice installare l'ultima versione utilizzando[pippo](https://pip.pypa.io/en/stable/):
-{{< highlight "java" >}}
+## **Perché usare Pyinstaller per confezionare Python?**
+PyInstaller viene utilizzato per confezionare codice Python in applicazioni eseguibili standalone per vari sistemi operativi. Prende uno script Python e genera un singolo file eseguibile che contiene tutte le dipendenze necessarie e può essere eseguito su computer su cui non è installato Python. Ciò consente una distribuzione e implementazione semplici delle applicazioni Python, poiché l'utente non ha bisogno di installare Python e i moduli richiesti sul proprio sistema per eseguire l'applicazione. Inoltre, PyInstaller può essere utilizzato anche per creare eseguibili in un unico file, che sono file eseguibili unici che contengono tutte le dipendenze necessarie per l'applicazione. Ciò può rendere ancora più semplice la distribuzione dell'applicazione, poiché l'utente deve scaricare solo un file.
+
+## **Come installare PyInstaller**
+PyInstaller è disponibile come pacchetto Python regolare. Gli archivi sorgenti per le versioni rilasciate sono disponibili in [PyPi](https://pypi.org/project/pyinstaller/), ma è più facile installare l'ultima versione usando [pip](https://pip.pypa.io/en/stable/):
+{{< highlight java >}}
 
 C:\> pip install pyinstaller
 
 {{< /highlight >}}
 
-Per aggiornare l'installazione esistente di PyInstaller alla versione più recente, utilizzare:
-{{< highlight "java" >}}
+Per aggiornare un'installazione esistente di PyInstaller all'ultima versione, utilizzare:
+{{< highlight java >}}
 
 C:\> pip install --upgrade pyinstaller
 
 {{< /highlight >}}
-Per installare la versione di sviluppo corrente, utilizzare:
-{{< highlight "java" >}}
+Per installare la versione di sviluppo attuale, utilizzare:
+{{< highlight java >}}
 
 C:\> pip install https://github.com/pyinstaller/pyinstaller/tarball/
 
 {{< /highlight >}}
 
-##  **Come posso creare un EXE usando PyInstaller**
- Prenderemo un singolo file python come esempio per spiegare in dettaglio le fasi di impacchettamento. Prendi Python 3.11.0 come esempio dopo l'installazione[aspose.cells](https://pypi.org/project/aspose-cells/).
+## **Come creare un EXE utilizzando PyInstaller**
+Prenderemo un singolo file python come esempio per spiegare dettagliatamente i passaggi di confezionamento. Prendiamo Python 3.11.0 come esempio dopo aver installato [aspose.cells](https://pypi.org/project/aspose-cells/).
 
-1.  Crea un file di esempio Python denominato[esempio.py](example.py).
-{{< highlight "java" >}}
+1. Creare un file di esempio python chiamato [esempio.py](esempio.py).
+{{< highlight java >}}
 
 import os
 from jpype import *
@@ -61,20 +62,20 @@ workbook.save("output.xlsx")
 jpype.shutdownJVM()
 
 {{< /highlight >}}
-1. Crea una cartella come c:\app e copia example.py(allegato) in c:\app.
-1. Apri il prompt dei comandi ed esegui il comando pyinstaller example.py.
-{{< highlight "java" >}}
+1. Creare una cartella come c:\app, e copiare esempio.py(allegato) in c:\app.
+1. Apri il prompt dei comandi e esegui il comando pyinstaller example.py.
+{{< highlight java >}}
 
 C:\app> pyinstaller example.py
 
 {{< /highlight >}}
-1. Copia i jar (aspose-cells-xxx.jar, bcprov-jdk15on-160.jar, bcpkix-jdk15on-1.60.jar, JavaClassBridge.jar. Esistono nella cartella C:\Python311\Lib\site-packages\asposecells\lib ) a c:\app.
-1.  Modifica il file con il suffisso spec per aggiungere la sezione dati come[esempio.spec](example.spec).
-![cose da fare:image_alt_text](example.png)
-1. Eseguire pyinstaller example.spec nella finestra del prompt dei comandi.
-{{< highlight "java" >}}
+1. Copia i file jar (aspose-cells-xxx.jar, bcprov-jdk15on-160.jar, bcpkix-jdk15on-1.60.jar, JavaClassBridge.jar. Si trovano nella cartella C:\Python311\Lib\site-packages\asposecells\lib) in c:\app.
+1. Modifica il file con il suffisso spec per aggiungere una sezione datas come [example.spec](example.spec).
+![todo:image_alt_text](example.png)
+1. Esegui pyinstaller example.spec nella finestra del prompt dei comandi.
+{{< highlight java >}}
 
 C:\app> pyinstaller example.spec
 
 {{< /highlight >}}
-1. Cambia la directory in C:\app\dist\example e troverai il file example.exe.
+1. Passa alla directory C:\app\dist\example, e troverai il file example.exe.

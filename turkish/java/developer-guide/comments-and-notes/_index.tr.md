@@ -1,49 +1,50 @@
-﻿---
-title: Yorumları ve Notları Yönetin
+---
+title: Yorumları ve Notları Yönetme
 linktitle: Yorumlar ve Notlar
 type: docs
 weight: 128
 url: /tr/java/comments-and-notes/
-description: Java için Aspose.Cells ile yorumları veya notları ekleyin ve yönetin.
-keywords: insert comments, insert notes
+description: Aspose.Cells for Java ile yorumları veya notları ekleyin ve yönetin.
+keywords: yorum ekle, not ekle
 ---
+
 ## **Giriş**
 
-Yorumlar, hücrelere ek bilgi eklemek için kullanılır. Aspose.Cells, hücrelere yorum eklemek için iki yöntem sağlar. İlki, bir tasarımcı dosyasında manuel olarak yorumlar oluşturmaktır. Bu yorumlar daha sonra Aspose.Cells kullanılarak içe aktarılır. İkincisi, çalışma zamanında Aspose.Cells API kullanılarak yorum eklemektir. Bu konuda, Aspose.Cells API kullanılarak hücrelere yorum eklenmesi ele alınmaktadır. Yorumların biçimlendirilmesi de açıklanacaktır.
+Yorumlar, hücrelere ek bilgi eklemek için kullanılır. Aspose.Cells, hücrelere yorum eklemek için iki yöntem sağlar. İlk yöntem, tasarımcı dosyasında manuel olarak yorumlar oluşturmaktır. Bu yorumlar daha sonra Aspose.Cells kullanılarak içe aktarılır. İkinci yöntem, Aspose.Cells API'sını kullanarak çalışma zamanında yorum eklemektir. Bu konu, Aspose.Cells API'sını kullanarak hücrelere yorum eklemeyi tartışmaktadır. Yorumları biçimlendirmek de açıklanacaktır.
 
 ## **Yorum Ekleme**
 
- öğesini çağırarak bir hücreye yorum ekleyin.[**Yorumlar**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) koleksiyonun**Eklemek** yöntem (kapsüllenmiş[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) nesne). Yeni[**Yorum Yap**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) nesneden erişilebilir.[**Yorumlar**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) yorum dizinini geçirerek koleksiyon. eriştikten sonra[**Yorum Yap**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) kullanarak yorum notunu özelleştirin.[**Yorum Yap**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) nesnenin[**Not**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note)Emlak.
+Yeni bir yorum notunu [**Comments**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) koleksiyonundan alarak [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) nesnesine kapsüllenen [**Comments**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) koleksiyonunun **Ekle** yöntemini çağırarak bir hücreye yorum ekleyin. Yeni [**Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) nesnesi, yorum endeksini geçirerek [**Comments**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) koleksiyonundan erişilebilir. [**Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) nesnesine erişme sonrasında, [**Comment**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) nesnesinin [**Note**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note) özelliğini kullanarak yorum notunu özelleştirin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddingComment-1.java" >}}
 
 ## **Yorum Biçimlendirme**
 
-Yükseklik, genişlik ve yazı tipi ayarlarını yapılandırarak yorumların görünümünü biçimlendirmek de mümkündür.
+Yorumların görünümünü yükseklik, genişlik ve yazı tipi ayarlarıyla biçimlendirmek de mümkündür.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "CommentFormatting-1.java" >}}
 
-## **Yoruma Resim Ekleyin**
+## **Yoruma Resim Ekle**
 
-Microsoft Excel 2007 ile, bir hücre yorumunun arka planı olarak bir görüntüye sahip olmak da mümkündür. Excel 2007'de bu, aşağıdaki adımlar izlenerek gerçekleştirilir. (Zaten bir hücre yorumu eklediğinizi varsayarlar.)
+Microsoft Excel 2007 ile, bir hücre yorumuna arka plan olarak bir resim eklemek de mümkündür. Excel 2007'de bunu aşağıdaki adımları takip ederek başarabilirsiniz. (Zaten bir hücre yorumu eklediğinizi varsayarlar.)
 
-1. Açıklamayı içeren hücreye sağ tıklayın.
-1.  Seçme**Yorumları Göster/Gizle**, ve yorumdaki tüm metni temizleyin.
-1. Seçmek için yorumun kenarlığına tıklayın.
-1.  Seçme**Biçim** , o zamanlar**Yorum Yap**.
-1.  Üzerinde**Renkler ve Çizgiler** sekmesini genişletin**Renk** liste.
-1.  Tıklamak**Dolgu Efektleri**.
-1.  Üzerinde**Resim** sekme, tıklayın**Resim Seç**.
+1. Yorum içeren hücreye sağ tıklayın.
+1. **Yorumları Göster/Gizle**'yi seçin ve yorumdan herhangi bir metni temizleyin.
+1. Yorumun kenarına tıklayın.
+1. **Biçim**, ardından **Yorum**'u seçin.
+1. **Renk ve Çizgiler** sekmesinde, **Renk** listesini genişletin.
+1. **Dolgu Efektleri**'ni tıklayın.
+1. **Resim** sekmesinde, **Resim Seç**'i tıklayın.
 1. Resmi bulun ve seçin.
-1.  Tıklamak**Tamam** tüm diyaloglar kapanana kadar.
+1. Tüm iletiler kapatılıncaya kadar **Tamam**'ı tıklayın.
 
-Aspose.Cells de bu özelliği sağlıyor. Aşağıda, sıfırdan bir XLSX dosyası oluşturan ve "A1" hücresine arka planı resim olarak ayarlanmış bir yorum ekleyen bir kod örneği verilmiştir.
+Aspose.Cells ayrıca bu özelliği sağlar. Aşağıda, sıfırdan XLSX dosyası oluşturan ve "A1" hücresine resimli bir arka plan ekleyen bir kod örneği bulunmaktadır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddImageToComment-1.java" >}}
 
-## **ileri konular**
-- [Yorumun Metin Yönünü Değiştirme](/cells/tr/java/change-text-direction-of-the-comment/)
-- [Yorum Yazı Tipi Rengi nasıl değiştirilir?](/cells/tr/java/how-to-change-the-comment-font-color/)
-- [Yorum arka planı nasıl ayarlanır?](/cells/tr/java/how-to-set-comment-background/)
-- [Zincirleme Yorumlar](/cells/tr/java/threaded-comments/)
+## **Gelişmiş Konular**
+- [Yorumun Yazı Yönünü Değiştirme](/cells/tr/java/change-text-direction-of-the-comment/)
+- [Yorum Yazı Tipi Rengini Nasıl Değiştirilir](/cells/tr/java/how-to-change-the-comment-font-color/)
+- [Yorum arka planını nasıl ayarlarım](/cells/tr/java/how-to-set-comment-background/)
+- [İz bırakan Yorumlar](/cells/tr/java/threaded-comments/)
 

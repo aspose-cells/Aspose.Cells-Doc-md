@@ -1,40 +1,43 @@
-﻿---
+---
 title: كيفية استخدام FormulaBar مع Aspose.Cells.GridDesktop
 type: docs
 weight: 20
-url: /ar/net/how-to-use-formulabar-with-aspose-cells-griddesktop/
+url: /ar/net/aspose-cells-griddesktop/how-to-use-formulabar-with-aspose-cells-griddesktop/
+keywords: شريط الصيغة
+description: يقدم هذا المقال استخدام شريط الصيغة في GridDesktop.
 ---
+
 ## **استخدام FormulaBar مع Aspose.Cells.GridDesktop**
-### **الخطوة الأولى: إنشاء مشروع جديد**
-1. افتح Visual Studio 2019.
-1. من**ملف**القائمة ، حدد**جديد**، ومن بعد**مشروع**.
- يتم فتح مربع حوار إنشاء مشروع جديد.
-1. يختار**تطبيق نماذج Windows (إطار .NET)**من Visual Studio تثبيت قوالب المشروع وانقر فوق**التالي**.
+### **الخطوة 1: إنشاء مشروع جديد**
+1. قم بفتح برنامج Visual Studio 2019.
+1. من القائمة **ملف**, حدد **جديد**, ثم **مشروع**.
+   يتم فتح مربع حوار إنشاء مشروع جديد.
+1. حدد **تطبيق النوافذ النموذجية(.NET Framework)** من قوالب المشاريع المثبتة في Visual Studio وانقر على **التالي**.
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-formulabar-with-aspose-cells-griddesktop_1.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_1.jpg)
 
-1. حدد موقعًا حيث موقع واسم المشروع وانقر**خلق**.
+1. حدد موقعًا للمشروع واسم المشروع وانقر على **إنشاء**.
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-formulabar-with-aspose-cells-griddesktop_2.jpg)
-### **الخطوة 2: أضف عناصر تحكم إلى مربع الأدوات**
-1.  اضغط على**صندوق الأدوات**
-1.  أختر**الضوابط المشتركة**والنقر بزر الماوس الأيمن وتحديد "**اختر العناصر ...**"من قائمة السياق.
-1.  في ال**.NET مكونات الإطار** علامة التبويب**اختر عناصر صندوق الأدوات** نافذة ، قم بالتمرير وحدد**الشبكة** و**FormulaBar** عناصر.
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_2.jpg)
+### **الخطوة 2: إضافة عناصر تحكم إلى صندوق الأدوات**
+1. انقر على **صندوق الأدوات**
+1. اختر **العناصر الشائعة**, انقر بزر الماوس الأيمن، وحدد "**اختيار العناصر...**" من قائمة السياق.
+1. في علامة التبويب **مكونات إطار العمل.NET**, قم بالتمرير وتحديد مكونات **GridDesktop** و **FormulaBar**.
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)
-### **الخطوة 3: أضف عناصر تحكم إلى النموذج**
-1. اسحب GridDestop وعناصر تحكم FormulaBar إلى النموذج. يجب أن يضيف هذا المرجع إلى Aspose.Cells.GridDesktop.dll في مراجع المشروع. إذا لم تتم إضافة المرجع ، يمكنك إضافة المرجع يدويًا بالنقر بزر الماوس الأيمن فوق المراجع وتحديد خيار "إضافة مراجع". قم بالاستعراض إلى موقع Aspose.Cells.GridDesktop.dll وإضافته.
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)
+### **الخطوة 3: إضافة عناصر تحكم إلى النموذج**
+1. اسحب عناصر تحكم GridDestop و FormulaBar إلى النموذج. يجب أن يضيف هذا الإشارة إلى Aspose.Cells.GridDesktop.dll في مراجع المشروع. إذا لم يتم إضافة الإشارة، يمكنك إضافتها يدويًا بتحديد الإشارة بزر الماوس الأيمن واختيار خيار "إضافة مراجع". تصفح إلى موقع Aspose.Cells.GridDesktop.dll وأضفها.
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-formulabar-with-aspose-cells-griddesktop_4.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_4.jpg)
 
-1. بمجرد إضافة عناصر التحكم ، قم بتعيين اسم عنصر تحكم GridDesktop في علامة تبويب الخصائص. [هذا مطلوب لربط FormulaBar بـ GridDesktop]
+1. بمجرد إضافة العناصر التحكم، قم بتعيين اسم عنصر التحكم GridDesktop في علامة الخصائص.[هذا مطلوب لربط FormulaBar بـ GridDesktop]
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-formulabar-with-aspose-cells-griddesktop_5.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_5.jpg)
 
-1. اربط FormulaBar بعنصر تحكم GridDesktop كما هو موضح في الصورة التالية.
+1. ربط FormulaBar بعنصر تحكم GridDesktop كما هو موضح في الصورة التالية.
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-formulabar-with-aspose-cells-griddesktop_6.jpg)
-### **الخطوة 4: اختبر الضوابط**
-قم بتشغيل التطبيق واختبر عناصر التحكم. سيولد ناتجًا مشابهًا لما هو موضح في الصورة التالية. يمكنك أن ترى في صورة الإخراج أن FormulaBar و GridDesktop مرتبطان.
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_6.jpg)
+### **الخطوة 4: اختبار العناصر التحكم**
+قم بتشغيل التطبيق واختبار العناصر التحكم. سيتم إنشاء النتيجة المماثلة لتلك الموضحة في الصورة التالية. يمكنك رؤية في الصورة أن FormulaBar و GridDesktop مرتبطين.
 
-![ما يجب القيام به: image_بديل_نص](how-to-use-formulabar-with-aspose-cells-griddesktop_7.jpg)
+![todo:image_alt_text](how-to-use-formulabar-with-aspose-cells-griddesktop_7.jpg)

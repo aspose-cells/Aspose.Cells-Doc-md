@@ -1,10 +1,11 @@
-﻿---
+---
 title: Ändra diagramposition och storlek
 type: docs
 weight: 20
 url: /sv/java/change-chart-position-and-size/
 ---
-## **Aspose.Cells - Ändra diagramposition och storlek**
+
+## **Aspose.Cells – Ändra diagramposition och storlek**
 För att ändra diagrammets position (X, Y-koordinater) och storlek (höjd, bredd), använd dessa egenskaper med Aspose.Cells:
 
 1. Chart.getChartObject().get/setWidth()
@@ -14,7 +15,7 @@ För att ändra diagrammets position (X, Y-koordinater) och storlek (höjd, bred
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook(dataDir + "AsposeChart.xls");
 
@@ -37,13 +38,13 @@ chart.getChartObject().setX(250);
 chart.getChartObject().setY(150);
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/charts/AsposeChangeChartPositionAndSize.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Ändra diagramposition och storlek](/cells/sv/java/change-chart-position-and-size/).
+För mer detaljer, besök [Ändra diagrammets position och storlek](/cells/sv/java/change-chart-position-and-size/).
 
 {{% /alert %}}

@@ -1,21 +1,22 @@
-﻿---
+---
 title: Licenza
 type: docs
 weight: 40
 url: /it/jasperreports/licensing/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells for JasperReports è disponibile come valutazione gratuita a tempo illimitato dal[pagina di download](https://downloads.aspose.com/cells/jasperreports). Le versioni di valutazione e con licenza del prodotto sono lo stesso download.
+La versione Aspose.Cells for JasperReports è disponibile come valutazione gratuita e illimitata nel tempo dalla [pagina di download](https://downloads.aspose.com/cells/jasperreports). Le versioni di valutazione e con licenza del prodotto sono lo stesso download.
 
- Quando sei soddisfatto della versione di valutazione, puoi farlo[acquistare una licenza](https://purchase.aspose.com/). Assicurati di comprendere e accettare i termini della licenza.
+Quando sei soddisfatto della versione di valutazione, puoi [acquistare una licenza](https://purchase.aspose.com/). Assicurati di comprendere e accettare i termini della licenza.
 
-La licenza è disponibile per il download dalla pagina dell'ordine quando l'ordine è stato pagato. La licenza è un file XML con testo in chiaro e firma digitale. La licenza contiene informazioni come il nome del cliente, il prodotto acquistato e il tipo di licenza. Non modificare il contenuto del file di licenza: ciò invalida la licenza.
+La licenza è disponibile per il download dalla pagina dell'ordine una volta che l'ordine è stato pagato. La licenza è un file XML in chiaro firmato digitalmente. La licenza contiene informazioni come il nome del cliente, il prodotto acquistato e il tipo di licenza. Non modificare il contenuto del file di licenza: questo invalida la licenza.
 
 Ci sono due modi per applicare una licenza:
 
-- [Chiama setLicense](/cells/it/jasperreports/licensing/#call-setlicense)
-- [Impostare un parametro dell'esportatore in applicationContext.xml](/cells/it/jasperreports/licensing/#set-the-licensefile-exporter-parameter-in-applicationcontextxml)
+- [Chiamata a setLicense](/cells/it/jasperreports/licensing/#call-setlicense)
+- [Imposta un parametro dell'esportatore in applicationContext.xml](/cells/it/jasperreports/licensing/#set-the-licensefile-exporter-parameter-in-applicationcontextxml)
 
 Dopo aver installato la licenza,
 
@@ -23,18 +24,18 @@ Dopo aver installato la licenza,
 
 {{% /alert %}}
 
-## **Chiama setLicense**
+## **Chiamata a setLicense**
 
 {{% alert color="primary" %}}
 
-Questo metodo è applicabile per l'utilizzo con JasperReports.
+Questo metodo è applicabile all'uso con JasperReports.
 
 {{% /alert %}}
 
- Scarica la licenza sul tuo computer e copiala nella cartella appropriata (ad esempio la cartella della tua applicazione o**JasperReports\lib**).
+Scarica la licenza sul tuo computer e copiala nella cartella appropriata (ad esempio, nella cartella dell'applicazione o **JasperReports\lib**).
 Aggiungi il seguente codice al tuo progetto:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 import com.aspose.cells.jasperreports.*;
 
@@ -50,20 +51,20 @@ license.setLicense(fstream);
 
 {{< /highlight >}}
 
-## **Impostare il parametro LicenseFile Exporter in applicationContext.xml**
+## **Imposta il parametro del file di licenza nell'applicationContext.xml**
 
 {{% alert color="primary" %}}
 
-Questo metodo è applicabile per l'utilizzo con JasperServer.
+Questo metodo è applicabile all'uso con JasperServer.
 
 {{% /alert %}}
 
-1.  Scarica la licenza sul tuo computer e copiala sul file**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF**cartella, dove**\<DirInstall>** sta per la directory di installazione di JasperServer.
-1.  Individua il**\<DirInstall>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file e aggiungere le seguenti righe:
+1. Download the license to your computer and copy it to the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF** folder, where **\<InstallDir>** stands for the JasperServer installation directory.
+1. Locate the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file and add the following lines:
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   <bean id="excelACExportParameters" class="com.aspose.cells.jasperreports.ACXlsExportParametersBean">
 
@@ -75,12 +76,12 @@ Questo metodo è applicabile per l'utilizzo con JasperServer.
 
 ## **Verifica che la licenza funzioni**
 
-Esporta qualsiasi report nel formato XLS e controlla se il report contiene un messaggio di valutazione. Se non viene visualizzato alcun messaggio di valutazione, la licenza funziona correttamente.
+Esporta qualsiasi report in formato XLS e controlla se il report contiene un messaggio di valutazione. Se non c'è nessun messaggio di valutazione, allora la licenza funziona correttamente.
 
-**Aspose.Cells for JasperReports inserisce un foglio di lavoro di valutazione in modalità valutazione** 
+**Aspose.Cells for JasperReports inietta un foglio di lavoro di valutazione in modalità di valutazione** 
 
-![cose da fare:immagine_alt_testo](licensing_1.png)
+![todo:image_alt_text](licensing_1.png)
 
-**Quando una licenza valida non esiste un foglio di lavoro di valutazione** 
+**Quando c'è una licenza valida non c'è un foglio di lavoro di valutazione** 
 
-![cose da fare:immagine_alt_testo](licensing_2.png)
+![todo:image_alt_text](licensing_2.png)

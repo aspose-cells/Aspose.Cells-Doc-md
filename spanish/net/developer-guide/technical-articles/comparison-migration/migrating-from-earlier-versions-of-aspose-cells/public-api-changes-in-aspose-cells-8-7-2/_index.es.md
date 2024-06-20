@@ -1,39 +1,40 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.7.2
+---
+title: Cambios en la API pública en Aspose.Cells 8.7.2
 type: docs
 weight: 250
 url: /es/net/public-api-changes-in-aspose-cells-8-7-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.Cells API de la versión 8.7.1 a la 8.7.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, clases agregadas y eliminadas, etc., sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.7.1 hasta la 8.7.2 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo nuevos y actualizados métodos públicos, clases agregadas y eliminadas, etc., sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Extendió el motor de cálculo predeterminado**
-Las API Aspose.Cells tienen un potente motor de cálculo que puede calcular casi todas las funciones Microsoft de Excel. Además, las API Aspose.Cells ahora permiten ampliar el motor de cálculo predeterminado para cumplir con los requisitos de cálculo personalizados de cualquier aplicación.
+## **APIs Añadidas**
+### **Extendido el Motor de Cálculo Predeterminado**
+Las APIs de Aspose.Cells tienen un potente motor de cálculo que puede calcular casi todas las funciones de Microsoft Excel. Además, las APIs de Aspose.Cells ahora permiten extender el motor de cálculo predeterminado para satisfacer los requisitos de cálculo personalizados de cualquier aplicación.
 
-Se agregaron las siguientes API con el lanzamiento de Aspose.Cells for .NET 8.7.2.
+Las siguientes APIs se han agregado con la versión Aspose.Cells for .NET 8.7.2.
 
 1. Clase AbstractCalculationEngine
-1. Clase de datos de cálculo
+1. Clase CalculationData
 1. Propiedad CalculationOptions.CustomEngine
 
 {{% alert color="primary" %}} 
 
-Las API mencionadas anteriormente permiten implementar un motor de cálculo personalizado para todas las funciones (incluidas las funciones nativas de Excel) con más flexibilidad.
+Las APIs mencionadas anteriormente permiten implementar un motor de cálculo personalizado para todas las funciones (incluidas las funciones nativas de Excel) con más flexibilidad.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Implementación del motor de cálculo personalizado](/cells/es/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+Para más detalles sobre esta función, consulte el artículo detallado sobre [Implementación de un Motor de Cálculo Personalizado](/cells/es/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}} 
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class MyEngine : AbstractCalculationEngine
 
@@ -88,20 +89,20 @@ El siguiente es el escenario de uso simple.
 {{< /highlight >}}
 
 
-### **Indizador sobrecargado agregado para TextBoxCollection**
-Aspose.Cells for .NET 8.7.2 ha expuesto el índice sobrecargado para la clase TextBoxCollection para acceder a la instancia de TextBox usando su nombre como cadena.
+### **Añadido Indexador Sobrecargado para TextBoxCollection**
+Aspose.Cells for .NET 8.7.2 ha expuesto el indexador sobrecargado para la clase TextBoxCollection con el fin de acceder a la instancia de TextBox utilizando su nombre como cadena.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Acceder al cuadro de texto a través de su nombre](/cells/es/net/access-the-text-box-by-the-name/)
+Para obtener más detalles sobre esta característica, consulte el artículo detallado sobre [Acceder al cuadro de texto a través de su nombre](/cells/es/net/access-the-text-box-by-the-name/)
 
 {{% /alert %}} 
 
-El escenario de uso simple se ve de la siguiente manera.
+Un escenario de uso simple se ve como sigue.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -130,14 +131,14 @@ box = sheet.TextBoxes["MyTextBox"];
 {{< /highlight >}}
 
 
-### **Se agregó el evento OnAfterColumnFilter para GridWeb**
-Aspose.Cells.GridWeb for .NET 8.7.2 ha expuesto el evento OnAfterColumnFilter que sirve como devolución de llamada al mecanismo de filtrado realizado a través de la interfaz de usuario Aspose.Cells.GridWeb. Como sugiere el nombre, el evento se activa después de que se aplica el filtrado de columnas y se puede usar para obtener la información de filtrado, como el índice de columna en el que se aplicó el filtro y el valor de filtro seleccionado.
+### **Añadido evento OnAfterColumnFilter para GridWeb**
+Aspose.Cells.GridWeb para .NET 8.7.2 ha expuesto el evento OnAfterColumnFilter el cual sirve como devolución de llamada al mecanismo de filtrado realizado a través de la interfaz de usuario de Aspose.Cells.GridWeb. Como sugiere el nombre, el evento se activa después de que se aplica el filtrado de columna y se puede utilizar para obtener la información de filtrado, como el índice de columna en la que se aplicó el filtro y el valor del filtro seleccionado.
 
-El escenario de uso simple se ve de la siguiente manera.
+Un escenario de uso simple se ve como sigue.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void GridWeb1_AfterColumnFilter(object sender, Aspose.Cells.GridWeb.RowColumnEventArgs e)
 
@@ -151,6 +152,6 @@ El escenario de uso simple se ve de la siguiente manera.
 
 {{% alert color="primary" %}} 
 
-No olvide registrar el evento en el control GridWeb<acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
+Do not forget to register the event to GridWeb control <acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
 
 {{% /alert %}}

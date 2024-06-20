@@ -1,33 +1,34 @@
-﻿---
+---
 title: Экспорт данных из рабочих листов в xlsx4j
 type: docs
 weight: 20
 url: /ru/java/export-data-from-worksheets-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Экспорт данных из рабочих листов**
-Aspose.Cells не только позволяет своим пользователям импортировать данные в рабочие листы из внешних источников данных, но также позволяет им экспортировать данные рабочего листа в массив.
+Aspose.Cells позволяет пользователям не только импортировать данные в листы из внешних источников данных, но также экспортировать данные листа в массив.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Создание файлового потока, содержащего открываемый файл Excel
+ //Creating a file stream containing the Excel file to be opened
 
-FileInputStream fstream = новый FileInputStream (dataDir + "workbook.xls");
+FileInputStream fstream = new FileInputStream(dataDir + "workbook.xls");
 
-//Создание экземпляра объекта Workbook
+//Instantiating a Workbook object
 
-Книга рабочей книги = новая рабочая книга (fstream);
+Workbook workbook = new Workbook(fstream);
 
-//Доступ к первому рабочему листу в файле Excel
+//Accessing the first worksheet in the Excel file
 
-Рабочий лист = workbook.getWorksheets().get(0);
+Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//Экспорт содержимого 7 строк и 2 столбцов, начиная с 1-й ячейки, в массив.
+//Exporting the contents of 7 rows and 2 columns starting from 1st cell to Array.
 
-Объект dataTable [][]= worksheet.getCells().exportArray(4,0,7,8);
+Object dataTable [][] = worksheet.getCells().exportArray(4,0,7,8);
 
- для (int я = 0 ; я< dataTable.length ; i++)
+for (int i = 0 ; i < dataTable.length ; i++)
 
 {
 
@@ -36,13 +37,13 @@ FileInputStream fstream = новый FileInputStream (dataDir + "workbook.xls");
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/exportdatafromworksheets/AsposeExportDataFromWorksheets.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/exportdatafromworksheets/AsposeExportDataFromWorksheets.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Экспорт данных из рабочих листов](/java/exporting-data-from-worksheets).
+Дополнительные сведения см. по адресу [Экспорт данных из листов](/java/exporting-data-from-worksheets).
 
 {{% /alert %}}

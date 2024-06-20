@@ -1,6 +1,8 @@
-﻿---
-title: GridWeb Çalışma Sayfalarıyla Çalışma
+---
+title: GridWeb Çalışma Sayfaları İle Çalışmak
 type: docs
 weight: 40
-url: /tr/net/working-with-gridweb-worksheets/
+url: /tr/net/aspose-cells-gridweb/working-with-gridweb-worksheets/
 ---
+
+

@@ -1,12 +1,13 @@
-﻿---
+---
 title: Rutnät
 type: docs
 weight: 10
 url: /sv/reportingservices/gridlines/
 ---
- Gridlines är konfigurerade i**Aspose.Cells.ReportingServices.xml** så att du kan kontrollera om en exporterad Microsoft Excel-fil visar rutnätslinjer. Standardvärdet är**av**, vilket betyder att rutnätslinjer inte visas.
 
-{{< highlight "java" >}}
+Rutnätslinjer konfigureras i filen **Aspose.Cells.ReportingServices.xml** så att du kan styra om en exporterad Microsoft Excel-fil visar rutnätslinjer. Standardvärdet är **av**, vilket innebär att rutnätslinjer inte visas.
+
+{{< highlight java >}}
 
  <Aspose>
 

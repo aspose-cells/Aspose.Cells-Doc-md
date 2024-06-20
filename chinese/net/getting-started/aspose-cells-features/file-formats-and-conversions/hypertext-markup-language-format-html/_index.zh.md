@@ -1,5 +1,5 @@
 ---
-title: 超文本标记语言格式 - HTML
+title: 超文本标记语言格式  HTML
 type: docs
 weight: 50
 url: /zh/net/hypertext-markup-language-format/

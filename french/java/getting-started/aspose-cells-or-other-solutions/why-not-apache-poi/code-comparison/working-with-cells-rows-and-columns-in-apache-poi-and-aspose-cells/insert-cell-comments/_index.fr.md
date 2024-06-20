@@ -1,16 +1,17 @@
-﻿---
-title: Insérer Cell Commentaires
+---
+title: Insérer des commentaires de cellule
 type: docs
 weight: 40
 url: /fr/java/insert-cell-comments/
 ---
-## **Aspose.Cells - Insérer Cell Commentaires**
 
-Ajoutez un commentaire à une cellule en appelant la méthode addComments de la collection Shapes (encapsulée dans l'objet Worksheet). Le nouvel objet Comment est accessible à partir de la collection Comments en transmettant l'index de commentaire. Après avoir accédé à l'objet Comment, personnalisez la note de commentaire à l'aide de la méthode setNote de l'objet Comment.
+## **Aspose.Cells - Insérer des commentaires de cellules**
+
+Ajoutez un commentaire à une cellule en appelant la méthode addComments de la collection Shapes (encapsulée dans l'objet Worksheet). Le nouvel objet Comment peut être accédé depuis la collection Comments en passant l'index du commentaire. Après avoir accédé à l'objet Comment, personnalisez la note du commentaire en utilisant la méthode setNote de l'objet Comment.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -30,13 +31,13 @@ comment.setNote("Hello Aspose!");
 
 {{< /highlight >}}
 
-## **Apache POI SS - HSSF & XSSF - Insérer Cell Commentaires**
+## **Apache POI SS - HSSF & XSSF - Insérer des commentaires de cellule**
 
-Les exemples ci-dessous montrent comment les commentaires peuvent être insérés à l'aide d'Apache POI API
+Les exemples ci-dessous montrent comment insérer des commentaires à l'aide de l'API Apache POI
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook(); //or new HSSFWorkbook();
 
@@ -80,11 +81,11 @@ cell.setCellComment(comment);
 
 {{< /highlight >}}
 
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/addcomments)
 

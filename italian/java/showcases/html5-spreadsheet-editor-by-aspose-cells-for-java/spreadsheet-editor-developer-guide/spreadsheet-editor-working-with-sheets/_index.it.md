@@ -1,42 +1,43 @@
-﻿---
-title: Editor di fogli di calcolo - Lavorare con i fogli
+---
+title: Editor del foglio elettronico  Lavorare con i fogli
 type: docs
 weight: 20
 url: /it/java/spreadsheet-editor-working-with-sheets/
 ---
-**Sommario**
 
-- [Aggiungere e rimuovere fogli?](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
- - WorksheetView.onAddNewSheet
- - WorksheetView.onRemoveActiveSheet
-- [Rinomina Fogli](#SpreadsheetEditor-WorkingwithSheets-RenameSheets) 
- - WorksheetView.setActiveSheet
-- [Passa da un foglio all'altro](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
- - WorksheetView.setActiveSheet
-### **Aggiungere e rimuovere fogli?**
-Microsoft Excel consente più fogli in un unico file. HTML5 Spreadsheet Editor consente all'utente di aggiungere e rimuovere fogli. Nella scheda Fogli abbiamo un elenco a discesa di fogli. Il foglio selezionato è quello che viene aperto dall'editor.
+**Tabella dei contenuti**
 
-Per aggiungere un nuovo foglio:
+- [Aggiungere e Rimuovere schede?](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
+  - WorksheetView.onAddNewSheet
+  - WorksheetView.onRemoveActiveSheet
+- [Rinominare schede](#SpreadsheetEditor-WorkingwithSheets-RenameSheets) 
+  - WorksheetView.setActiveSheet
+- [Passa tra i fogli](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
+  - WorksheetView.setActiveSheet
+### **Aggiungere e Rimuovere schede?**
+Microsoft Excel consente più schede in un unico file. L'editor di fogli HTML5 consente all'utente di aggiungere e rimuovere schede. Sulla scheda Schede abbiamo un elenco a discesa delle schede. La scheda selezionata è quella aperta dall'editore.
 
-1.  Passa a**Scheda Fogli**.
-1. Fai clic sul pulsante **+** (più).
+Per aggiungere una nuova scheda:
 
-Verrà aggiunto un nuovo foglio e l'editor passerà ad esso.
+1. Passa a **schede foglio**.
+1. Fare clic sul pulsante **+** (più).
 
-Per rimuovere il foglio attualmente selezionato:
+Verrà aggiunta una nuova scheda e l'editore passerà ad essa.
 
-1.  Passa a**Scheda Fogli**.
+Per rimuovere la scheda attualmente selezionata:
+
+1. Passa a **schede foglio**.
 1. Fare clic sul pulsante **-** (meno).
 
-Il foglio attualmente selezionato verrà rimosso e l'editor passerà all'ultimo selezionato.
+La scheda attualmente selezionata verrà rimossa e l'editore passerà a quella selezionata per ultima.
 
-![cose da fare:immagine_alt_testo](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
 **Come funziona?**
 
- Quando l'utente fa clic su** +** (più) e**-** (meno) vengono cliccati, il bean backend JSF**Foglio di lavoroVisualizza** gestisce gli eventi utilizzando**WorksheetView.onAddNewSheet** e**Metodi WorksheetView.onRemoveActiveSheet**.
+Quando l'utente fa clic su **+** (più) e **-** (meno), il bean backend JSF **WorksheetView** gestisce gli eventi utilizzando i metodi **WorksheetView.onAddNewSheet** e **WorksheetView.onRemoveActiveSheet**.
 #### **WorksheetView.onAddNewSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onAddNewSheet() {
 
@@ -63,7 +64,7 @@ Il foglio attualmente selezionato verrà rimosso e l'editor passerà all'ultimo 
 {{< /highlight >}}
 
 #### **WorksheetView.onRemoveActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onRemoveActiveSheet() {
 
@@ -96,23 +97,23 @@ Il foglio attualmente selezionato verrà rimosso e l'editor passerà all'ultimo 
     }
 
 {{< /highlight >}}
-### **Rinomina Fogli**
-Per rinominare un foglio:
+### **Rinominare schede**
+Per rinominare una scheda:
 
-1.  Passa a**Scheda Fogli**.
-1. Fare clic sul nome del foglio nella casella di testo per modificarlo.
+1. Passa a **schede foglio**.
+1. Fare clic sul nome della scheda nella casella di testo per modificarlo.
 1. Cambia il nome del foglio.
-1. Al termine, premere il tasto INVIO o fare clic in un punto qualsiasi all'esterno della casella.
+1. Quando hai finito, premi il tasto INVIO, oppure fai clic altrove fuori dalla casella.
 
 Il foglio verrà rinominato.
 
-![cose da fare:immagine_alt_testo](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
 **Come funziona?**
 
- Quando il valore della casella di testo viene modificato, l'evento viene gestito sul server dal bean backend JSF**Foglio di lavoroVisualizza** utilizzando il metodo**WorksheetView.setActiveSheet**.
+Quando il valore della casella di testo viene modificato, l'evento è gestito sul server dal bean del backend JSF **WorksheetView** utilizzando il metodo **WorksheetView.setActiveSheet**.
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 
@@ -135,21 +136,21 @@ Il foglio verrà rinominato.
     }
 
 {{< /highlight >}}
-### **Passa da un foglio all'altro**
+### **Passa tra i fogli**
 Per passare a un altro foglio:
 
-1.  Passa a**Scheda Fogli**.
+1. Passa a **schede foglio**.
 1. Seleziona un foglio dal menu a discesa.
 
 L'editor passerà al foglio selezionato.
 
-![cose da fare:immagine_alt_testo](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
 **Come funziona?**
 
- Quando il valore del selettore a discesa viene modificato, l'evento viene gestito sul server dal bean backend JSF**Foglio di lavoroVisualizza** utilizzando il metodo**WorksheetView.setActiveSheet**.
+Quando il valore del selettore a discesa viene modificato, l'evento è gestito sul server dal bean del backend JSF **WorksheetView** utilizzando il metodo **WorksheetView.setActiveSheet**.
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 

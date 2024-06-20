@@ -1,16 +1,17 @@
-﻿---
-title: Çalışma Sayfasından Görüntüye - Oluşturulan Görüntü için Piksel Biçimini Ayarla
+---
+title: Resim Olarak Çalışma Sayfası  Oluşturulan Resim İçin Piksel Biçimini Ayarla
 type: docs
 weight: 200
 url: /tr/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen bir çalışma sayfasını görüntü formatına dönüştürürken piksel formatını belirtmek istersiniz. Varsayılan olarak Aspose.Cells, piksel başına 32 bit kullanır. Aspose.Cells, işlenmiş görüntü seçeneklerini kullanarak piksel biçimini (bit derinliği) özelleştirmenize olanak tanır.
+Bazı durumlarda çalışma sayfasını resim biçimine dönüştürürken piksel biçimini belirtmek isteyebilirsiniz. Aspose.Cells varsayılan olarak her piksel için 32 bit kullanır. Aspose.Cells, oluşturulan resmin piksel biçimini (bit derinliği) özelleştirmenize olanak tanır.
 
 {{% /alert %}} 
 
-Sayfaların görüntülerini işlerken istenen piksel biçiminin nasıl ayarlanacağını gösteren aşağıdaki örnek koda bakın.
+Aşağıdaki örnek kodu inceleyin, yaprakların resimlendiği sırada istenen piksel biçimini nasıl ayarlayacağınızı gösterir.
 
 
 

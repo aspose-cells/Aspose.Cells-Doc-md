@@ -1,25 +1,25 @@
 ---
-title: PivotOptions ile PivotChart nasıl yönetilir?
+title: PivotOptions ile PivotChart ı Yönetme
 linktitle: Pivot Seçenekleri
 type: docs
 weight: 10
 url: /tr/net/how-to-manage-pivotchart-with-pivotoptions/
-description: PivotOptions ile PivotChart nasıl yönetilir?
+description: PivotOptions ile PivotChart ı Yönetme.
 keywords: PivotChart
 ---
-##  PivotChart Nedir?
+## PivotChart Nedir
 
-Excel'deki PivotChart, PivotTable'dan oluşturulan verilerin grafiksel temsilidir. Bilgileri grafik biçiminde özetleyip görüntüleyerek kullanıcıların verileri dinamik olarak görselleştirmelerine ve analiz etmelerine olanak tanır. PivotChart'lar etkileşimlidir ve verilerin farklı perspektiflerini gösterecek şekilde kolayca değiştirilebilir; bu da onu Excel'de veri analizi ve sunumu için güçlü bir araç haline getirir.
+Excel'de bir PivotChart, bir PivotTable'dan oluşturulan verilerin grafiksel bir temsilidir. Kullanıcılara verileri dinamik olarak görselleştirmelerine ve analiz etmelerine olanak tanır. Veriyi özetleyerek ve bilgileri grafik formunda göstererek PivotChart'lar etkileşimlidir ve verinin farklı perspektiflerini göstermek için kolayca değiştirilebilir, bu da Excel'de veri analizi ve sunum için güçlü bir araç yapar.
 
-##  PivotOptions ile PivotChart nasıl yönetilir?
+## PivotOptions ile PivotChart'ı Yönetme
 
- Aspose.Cells'i kullanarak şunları kullanabilirsiniz:[**Aspose.Cells.Charts.PivotOptions**](https://reference.aspose.com/cells/net/aspose.cells.charts/pivotoptions/) PivotChart'ı yönetmek için.
+Aspose.Cells kullanarak, PivotChart'ı yönetmek için [**Aspose.Cells.Charts.PivotOptions**](https://reference.aspose.com/cells/net/aspose.cells.charts/pivotoptions/) kullanabilirsiniz.
 
 Örnek dosya ve kod:
 [Örnek Dosya](Sample.xlsx)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotOptions.cs" >}}
 
-Yukarıdaki örnek kodla, sonuç dosyasını şekilde gösterildiği gibi aşağıdaki efektle kontrol edebilirsiniz:
+Yukarıdaki örnek kodla sonuç dosyasını kontrol edebilir ve aşağıdaki etkiyi gösteren sonuç dosyasını inceleyebilirsiniz:
 
-**![Çıktı](Çıktı.png)**
+**![Çıktı](Output.png)**

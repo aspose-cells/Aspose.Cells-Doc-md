@@ -1,5 +1,5 @@
-﻿---
-title: Estilo y formato de datos
+---
+title: Estilo y Formato de Datos
 linktitle: Estilos
 type: docs
 weight: 60

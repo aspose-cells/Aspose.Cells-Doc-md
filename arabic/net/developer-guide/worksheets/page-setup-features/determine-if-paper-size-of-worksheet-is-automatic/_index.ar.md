@@ -1,35 +1,36 @@
 ---
-title: حدد ما إذا كان حجم الورق الخاص بورقة العمل تلقائيًا
+title: تحديد ما إذا كان حجم الورق للورقة التفاعلي
 type: docs
 weight: 90
 url: /ar/net/determine-if-paper-size-of-worksheet-is-automatic/
-description: تشرح هذه المقالة كيفية استخدام نموذج التعليمات البرمجية للمكتبة C# API أو .NET لتحديد ما إذا كان حجم ورقة ورقة العمل تلقائيًا برمجيًا.
-keywords: determine if paper size of worksheet automatic c#
+description: تشرح هذه المقالة كيفية استخدام واجهة برمجة التطبيقات C# أو مكتبة .NET الشيفرة العينية لتحديد ما إذا كان حجم الورق للورقة تلقائي برمجيًا.
+keywords: تحديد ما إذا كان حجم ورقة الورق تلقائيًا باستخدام c#
 ---
-##  **سيناريوهات الاستخدام الممكنة**
 
- في معظم الأحيان ، يكون حجم الورق الخاص بورقة العمل تلقائيًا. عندما يكون تلقائيًا ، غالبًا ما يتم تعيينه على أنه * Letter *. في بعض الأحيان يقوم المستخدم بتعيين حجم الورق لورقة العمل وفقًا لمتطلباته. في هذه الحالة ، لا يكون حجم الورق تلقائيًا. يمكنك معرفة ما إذا كان حجم ورقة العمل تلقائيًا أم لا باستخدام ملف[**ورقة العمل. PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize)ملكية.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **حدد ما إذا كان حجم الورق الخاص بورقة العمل تلقائيًا**
+في معظم الأحيان، يكون حجم ورقة الورق تلقائيًا. عندما يكون تلقائيًا، يتم تعيينه في كثير من الأحيان كـ *Letter*. أحيانًا يقوم المستخدم بتعيين حجم ورقة الورق حسب احتياجاته. في هذه الحالة، لا يكون حجم الورق تلقائيًا. يمكنك معرفة ما إذا كان حجم ورقة الورق للورقة تلقائيًا أم لا باستخدام خاصية [**Worksheet.PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize).
 
-يقوم نموذج التعليمات البرمجية المعطى أدناه بتحميل ملفي Excel التاليين
+## **تحديد ما إذا كان حجم الورق للورقة تلقائي**
+
+الشيفرة العينية المعطاة أدناه تحمل الملفات الإكسل التاليتين
 
 - [samplePageSetupIsAutomaticPaperSize-False.xlsx](48496681.xlsx)
 - [samplePageSetupIsAutomaticPaperSize-True.xlsx](48496682.xlsx)
 
-ومعرفة ما إذا كان حجم الورق لورقة العمل الأولى تلقائيًا أم لا. في Microsoft Excel ، يمكنك التحقق مما إذا كان حجم الورق تلقائيًا أم لا عبر نافذة إعداد الصفحة كما هو موضح في لقطة الشاشة هذه.
+ثم ابحث عما إذا كان حجم الورق لأول ورقة فيهما تلقائيًا أم لا. في Microsoft Excel، يمكنك التحقق ما إذا كان حجم الورق تلقائيًا أو لا من خلال نافذة إعداد الصفحة كما هو موضح في هذه لقطة الشاشة.
 
-![ما يجب القيام به: image_alt_text](determine-if-paper-size-of-worksheet-is-automatic_1.png)
+![todo:image_alt_text](determine-if-paper-size-of-worksheet-is-automatic_1.png)
 
-##  **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-DetermineIfPaperSizeOfWorksheetIsAutomatic.cs" >}}
 
-##  **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-فيما يلي إخراج وحدة التحكم لنموذج التعليمات البرمجية أعلاه عند تنفيذه باستخدام ملفات Excel النموذجية المحددة.
+هذا هو إخراج وحدة التحكم للشيفرة العينية أعلاه عند تنفيذها مع ملفات Excel العينية المعطاة.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 First Worksheet of First Workbook - IsAutomaticPaperSize: False
 

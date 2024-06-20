@@ -1,15 +1,16 @@
-﻿---
-title: Visa och dölj flikar i arbetsboken i xlsx4j
+---
+title: Visa och dölj flikar för arbetsbok i xlsx4j
 type: docs
 weight: 40
 url: /sv/java/display-and-hide-tabs-of-workbook-in-xlsx4j/
 ---
-## **Aspose.Cells - Visa och dölj flikar i arbetsboken**
-Aspose.Cells tillhandahåller en klass, arbetsbok, som representerar en Microsoft Excel-fil. Klassen Workbook tillhandahåller ett brett utbud av egenskaper och metoder för att hantera en Excel-fil. För att kontrollera synligheten för flikar i en Excel-fil kan utvecklare använda Workbook-klassens setShowTabs-metod.
+
+## **Aspose.Cells - Visa och dölj flikar för arbetsbok**
+Aspose.Cells tillhandahåller en klass, Workbook, som representerar en Microsoft Excel-fil. Workbook-klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera en Excel-fil. För att kontrollera synligheten av flikar i en Excel-fil kan utvecklare använda Workbook-klassens setShowTabs-metod.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object by excel file path
 
@@ -34,7 +35,7 @@ workbook.getSettings().setShowTabs(true);
 workbook.save(dataDir + "AsposeDisplayTabs.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/displayandhidetabs/AsposeDisplayAndHideTabs.java)

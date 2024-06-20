@@ -1,18 +1,19 @@
-﻿---
-title: HTML に保存する際にダウンレベルの公開コメントを無効にする
+---
+title: HTMLへの保存時にDownlevel表示されたコメントを無効にする
 type: docs
 weight: 20
 url: /ja/python-java/disable-downlevel-revealed-comments-while-saving-to/
 ---
-## **HTML に保存する際にダウンレベルの公開コメントを無効にする**
-Excel ファイルが HTML に変換されると、Aspose.Cells は、出力 HTML ファイルにダウンレベルが明らかにされた条件付きコメントを追加します。これらの条件付きコメントは主に古いバージョンの Internet Explorer に関連しており、最新のブラウザーには関係ありません。ダウンレベルが公開された条件付きコメントの詳細については、次のリンクにアクセスしてください。
 
-[条件付きコメント - ダウンレベルで明らかにされた条件付きコメント](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
+## **HTML への保存時にダウンレベルの表示されたコメントを無効にする**
+Excel ファイルを HTML に変換する際、Aspose.Cells は出力の HTML ファイルに Downlevel-revealed 条件付きコメントを追加します。これらの条件付きコメントは、主に古いバージョンの Internet Explorer に関連しており、モダンブラウザでは無関係です。Downlevel-revealed 条件付きコメントの詳細については、以下のリンクを参照してください
 
-ダウンレベルが明らかにされた条件付きコメントを削除するには、Aspose.Cells が[HtmlSaveOptions.DisableDownlevelRevealedComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#DisableDownlevelRevealedComments)財産。の設定[HtmlSaveOptions.DisableDownlevelRevealedComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#DisableDownlevelRevealedComments)プロパティへ**真実**出力 HTML ファイルで、Downlevel-revealed 条件付きコメントを削除します。
+[条件付きコメント - Downlevel-revealed conditional comment](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
 
-次の図は、出力 HTML ファイルで削除される、ダウンレベルが明らかにされた条件付きコメントを示しています。
+Downlevel-revealedの条件付きコメントを削除するには、Aspose.Cellsは[HtmlSaveOptions.DisableDownlevelRevealedComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#DisableDownlevelRevealedComments)プロパティを提供しています。[HtmlSaveOptions.DisableDownlevelRevealedComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#DisableDownlevelRevealedComments)プロパティを**True**に設定すると、出力HTMLファイルからDownlevel-revealedの条件付きコメントが削除されます。
 
-![todo:画像_代替_文章](Disable-Downlevel-Revealed-Comments.png)
+次のイメージは、出力HTMLファイルから削除されるDownlevel-revealedの条件付きコメントを示しています
+
+![todo:image_alt_text](Disable-Downlevel-Revealed-Comments.png)
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-DisableDownlevelRevealedCommentsWhileSavingToHTML.py" >}}

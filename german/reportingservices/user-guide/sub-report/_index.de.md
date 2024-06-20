@@ -1,24 +1,25 @@
-﻿---
+---
 title: Unterbericht
 type: docs
 weight: 90
 url: /de/reportingservices/sub-report/
 ---
+
 {{% alert color="primary" %}} 
 
-Ein Unterbericht kann in ein Tabellenelement eingebettet werden. Das Format ist: &=subreport{ReportName=Name Ihres Berichts; Parameter1-Name = Parameter1-Wert; Parameter2-Name = Parameter2-Wert; ...}
+Ein Unterbericht kann in einem Tabellenelement eingebettet werden. Das Format lautet: &=subreport{BerichtName=Ihr Berichtsname; Parameter1-Name = Parameter1-Wert; Parameter2-Name = Parameter2-Wert; ...}
 
 **Ein Unterbericht in einer Berichtsdefinition** 
 
-![todo: Bild_alt_Text](sub-report_1.png)
+![todo:image_alt_text](sub-report_1.png)
 
-Im Beispiel lautet der Name des Unterberichts „Sales Order Detail“. Es hat einen Parameter, SalesOrderNumber. Der Wert des Parameters ist EmpSalesDetail.SalesOrderNumber.
+Im Beispiel ist der Name des Unterberichts „Sales Order Detail“. Er hat einen Parameter, SalesOrderNumber. Der Wert des Parameters ist EmpSalesDetail.SalesOrderNumber.
 ### **Einschränkungen für Unterberichte**
-1. Der Unterbericht sollte mit Aspose.Cells.ReportingServices Designer gestaltet werden.
-1. Der Unterbericht kann nur in die Tabellengruppenzeile eingebettet werden, und die Gruppenzeile darf keine Elemente außer dem Unterbericht enthalten. Das Einbetten eines Unterberichts in die Tabellendetailzeilen oder Fußzeilen ist nicht zulässig.
-1. Derzeit wird das Verschachteln von mehr als einer Ebene nicht unterstützt. Der Unterbericht darf keinen eingebetteten Bericht enthalten.
+1. Der Unterbericht sollte mit Aspose.Cells.ReportingServices Designer erstellt werden.
+1. Der Unterbericht kann nur in der Gruppenzeilen der Tabelle eingebettet werden, und die Gruppenzeile darf keine Elemente außer dem Unterbericht enthalten. Das Einbetten eines Unterberichts in den Detailzeilen oder Fußzeilen der Tabelle ist nicht erlaubt.
+1. Derzeit wird keine Verschachtelung von mehr als einer Ebene unterstützt. Der Unterbericht kann keinen eingebetteten Bericht enthalten.
 
 {{% /alert %}} 
-###### **Dieser Abschnitt umfasst die folgenden Themen:**
-- [Tabellenelement erstellen](/cells/de/reportingservices/creating-table-item/)
-- [Unterberichtselement hinzufügen](/cells/de/reportingservices/add-sub-report-item/)
+###### **Dieser Abschnitt umfasst die folgenden Themen:** 
+- [Erstellen von Tabellenelementen](/cells/de/reportingservices/creating-table-item/)
+- [Untergeordnetes Berichtselement hinzufügen](/cells/de/reportingservices/add-sub-report-item/)

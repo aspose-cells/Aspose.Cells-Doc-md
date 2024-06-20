@@ -1,16 +1,17 @@
-﻿---
-title: Ruby'de Çalışma Sayfalarını Yönetme
+---
+title: Ruby de Çalışma Sayfalarını Yönetme
 type: docs
 weight: 10
 url: /tr/java/managing-worksheets-in-ruby/
 ---
+
 ## **Aspose.Cells - Çalışma Sayfalarını Yönetme**
-### **Çalışma Sayfalarını Yeni Bir Excel Dosyasına Ekleme**
- Çalışma Sayfası'nı kullanarak yeni bir Excel dosyasına eklemek için**Yakut için Aspose.Cells Java** , aramanız yeterli**add_worksheet** yöntemi**YönetimÇalışma Sayfaları** modül.
+### **Yeni bir Excel Dosyasına Çalışsayfalar Ekleme**
+Yeni bir Excel dosyasına çalışma sayfası eklemek için **Aspose.Cells Java for Ruby** kullanarak, **MangingWorksheets** modülünün **add_worksheet** yöntemini çağırın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet()
 
@@ -39,12 +40,12 @@ url: /tr/java/managing-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **Tasarımcı Elektronik Tablosuna Çalışma Sayfaları Ekleme**
-Bir tasarımcı elektronik tablosuna çalışma sayfaları ekleme süreci, Excel dosyasının zaten oluşturulmuş olması ve çalışma sayfasını eklemeden önce bu Excel dosyasını açmamız gerekmesi dışında, yukarıdaki yaklaşımla tamamen aynıdır.
+### **Tasarımcı Çalışsayfalara Çalışsayfalar Ekleme**
+Tasarımcı e-tabloya çalışma sayfaları eklemek süreci tamamen yukarıdaki yaklaşımla aynıdır, tek farkı Excel dosyasının zaten oluşturulmuş olması ve çalışma sayfasını eklemeden önce bu Excel dosyasını açmamız gerektiği.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet_to_designer_spreadsheet()
 
@@ -75,12 +76,12 @@ Bir tasarımcı elektronik tablosuna çalışma sayfaları ekleme süreci, Excel
 end  
 
 {{< /highlight >}}
-### **Sayfa Adını Kullanarak Çalışma Sayfalarına Erişme**
- Kullanarak çalışma sayfasına sayfa adına göre erişmek için**Yakut için Aspose.Cells Java** , aramanız yeterli**get_worksheet** yöntemi**YönetimÇalışma Sayfaları** modül.
+### **Sayfa Adını Kullanarak Çalışsayfalara Erişme**
+**Aspose.Cells Java for Ruby** kullanarak, **MangingWorksheets** modülünün **get_worksheet** yöntemini çağırarak sayfa adına göre çalışma sayfasına erişin.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_worksheet()
 
@@ -101,12 +102,12 @@ end  
 end
 
 {{< /highlight >}}
-### **Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma**
- Çalışma sayfasını kullanarak sayfa adına göre kaldırmak için**Yakut için Aspose.Cells Java** , aramanız yeterli**remove_worksheet_by_name** yöntemi**YönetimÇalışma Sayfaları** modül.
+### **Sayfa Adını Kullanarak Çalışsayfaları Kaldırma**
+**Aspose.Cells Java for Ruby** kullanarak, **MangingWorksheets** modülünün **remove_worksheet_by_name** yöntemini çağırarak sayfa adına göre çalışma sayfasını kaldırın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_name()
 
@@ -138,12 +139,12 @@ end
 
 
 {{< /highlight >}}
-### **Sayfa Dizini Kullanarak Çalışma Sayfalarını Kaldırma**
- Çalışma sayfasını kullanarak sayfa dizinine göre kaldırmak için**Yakut için Aspose.Cells Java** , aramanız yeterli**remove_worksheet_by_index** yöntemi**YönetimÇalışma Sayfaları** modül.
+### **Sayfa Dizinini Kullanarak Çalışma Sayfalarını Kaldırma**
+**Aspose.Cells Java for Ruby** kullanarak, **MangingWorksheets** modülünün **remove_worksheet_by_index** yöntemini çağırarak sayfa indeksine göre çalışma sayfasını kaldırın.
 
-**Yakut Kodu**
+**Ruby Kodu**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_index()
 
@@ -175,6 +176,6 @@ end 
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Çalışma Sayfalarını Yönetme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Yönetim Çalışma Sayfalarını (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

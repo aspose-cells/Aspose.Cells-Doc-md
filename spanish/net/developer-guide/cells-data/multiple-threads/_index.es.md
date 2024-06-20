@@ -1,31 +1,32 @@
 ---
-title: Lectura de valores Cell en varios subprocesos simultáneamente
-linktitle: Múltiples hilos
+title: Lectura de valores de celda en múltiples hilos simultáneamente
+linktitle: Hilos múltiples
 type: docs
 weight: 1800
 url: /es/net/reading-cell-values-in-multiple-threads-simultaneously/
-description: Aprenda a leer valores Cell en varios subprocesos simultáneamente a través de Aspose.Cells for .NET API.
-keywords: Read Cell Values in Multiple Threads Simultaneously, Aspose.Cells C# Multiple Threads, Read data in Multiple Threads
+description: Aprende cómo leer valores de celda en múltiples hilos simultáneamente a través de la API Aspose.Cells for .NET.
+keywords: Leer valores de celda en múltiples hilos simultáneamente, Aspose.Cells C# Múltiples Hilos, Leer datos en Múltiples Hilos
 ---
+
 {{% alert color="primary" %}}
 
-La necesidad de leer valores de celda en varios subprocesos simultáneamente es un requisito común. Este artículo explica cómo utilizar Aspose.Cells para este propósito.
+Necesitar leer valores de celda en múltiples hilos simultáneamente es un requisito común. Este artículo explica cómo usar Aspose.Cells para este propósito.
 
 {{% /alert %}}
 
- Para leer valores de celda en más de un hilo simultáneamente, configure[**Hoja de trabajo.Cells.Lectura multiproceso**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading)a *verdadero**. Si no lo hace, es posible que obtenga valores de celda incorrectos.
+Para leer valores de celda en más de un hilo simultáneamente, establece [**Worksheet.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading) a **verdadero**. Si no lo haces, podrías obtener valores de celda incorrectos.
 
 El siguiente código:
 
 1. Crea un libro de trabajo.
-1. Agrega una hoja de trabajo.
-1. Llena la hoja de trabajo con valores de cadena.
-1. Luego crea dos subprocesos que leen simultáneamente valores de celdas aleatorias.
- Si los valores leídos son correctos no pasa nada. Si los valores leídos son incorrectos, se muestra un mensaje.
+1. Agrega una hoja de cálculo.
+1. Rellena la hoja de cálculo con valores de cadena.
+1. Luego crea dos hilos que leen valores simultáneamente de celdas aleatorias.
+   Si los valores leídos son correctos, no sucede nada. Si los valores leídos son incorrectos, se muestra un mensaje.
 
 Si comentas esta línea:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  testWorkbook.Worksheets[0].Cells.MultiThreadReading = true;
 
@@ -33,7 +34,7 @@ Si comentas esta línea:
 
 entonces se muestra el siguiente mensaje:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  if (s != "R" + row + "C" + col)
 

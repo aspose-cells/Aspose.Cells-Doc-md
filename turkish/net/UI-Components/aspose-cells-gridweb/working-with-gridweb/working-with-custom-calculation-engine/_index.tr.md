@@ -1,20 +1,23 @@
-﻿---
-title: Özel hesaplama motoruyla çalışma
+---
+title: Özel hesaplama motoru ile çalışma
 type: docs
 weight: 70
-url: /tr/net/working-with-custom-calculation-engine/
+url: /tr/net/aspose-cells-gridweb/custom-calculation-engine/
+keywords: GridWeb, özel, hesaplama, CalculationEngine, GridAbstractCalculationEngine
+description: Bu makale, GridWeb de hesaplama sürecini özelleştirmek için GridAbstractCalculationEngine in nasıl kullanılacağını tanıtıyor.
 ---
-## **Özel Hesaplama Motorunu Uygulayın**
 
-Aspose.Cells.Gridweb, Microsoft Excel formüllerinin neredeyse tamamını hesaplayabilen güçlü bir hesaplama motoruna sahiptir. Buna rağmen, size daha fazla güç ve esneklik sağlayan varsayılan hesaplama motorunu genişletmenize de izin verir.
+## **Özel Hesaplama Motorunu Uygulama**
 
-Bu özelliğin uygulanmasında aşağıdaki özellik ve sınıflar kullanılır.
+Aspose.Cells.Gridweb, neredeyse tüm Microsoft Excel formüllerini hesaplayabilen güçlü bir hesaplama motoruna sahiptir. Buna rağmen, varsayılan hesaplama motorunu genişletmenize olanak tanır, bu da size daha fazla güç ve esneklik sağlar.
 
- 
-- **[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine)**
-- **[GridCalculationData](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridcalculationdata)**
+Bu özellik uygulamada kullanılan özellik ve sınıflar.
 
-Aşağıdaki kod, Özel Hesaplama Motorunu uygular. Arayüzü uygular**[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine)** olan bir**[Hesapla(GridCalculationData data)](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridabstractcalculationengine/methods/calculate)** yöntem. Bu yöntem, tüm formüllerinize karşı çağrılır. Bu yöntemin içinde,**MYTESTFUNC** formülünü seçin ve ilk parametre değeri için 2 ile çarpın.
+
+- [**GridAbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine)
+- [**GridCalculationData**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridcalculationdata)
+
+Aşağıdaki kod, Özel Hesaplama Motorunu uygular. Bir [**GridAbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine) arayüzünü uygular ve [**Calculate(GridCalculationData data)**](https://reference.aspose.com/cells/net/aspose-cells-gridweb/aspose.cells.gridweb.data/gridabstractcalculationengine/methods/calculate) yöntemine sahiptir. Bu yöntem, formüllerinizin tümüne karşı çağrılır. Bu yöntemin içinde, **MYTESTFUNC** formülünü yakalar ve ilk parametre değerini 2 ile çarpar.
 
 ### **Programlama Örneği**
 

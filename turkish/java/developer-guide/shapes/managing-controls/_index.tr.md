@@ -1,336 +1,337 @@
-﻿---
+---
 title: Kontrolleri Yönetme
 type: docs
 weight: 120
 url: /tr/java/managing-controls/
 ---
+
 ## **Giriş**
 
-Geliştiriciler, metin kutuları, onay kutuları, radyo düğmeleri, açılan kutular, etiketler, düğmeler, çizgiler, dikdörtgenler, yaylar, ovaller, döndürücüler, kaydırma çubukları, grup kutuları vb. gibi farklı çizim nesneleri ekleyebilir. tüm çizim nesneleri. Ancak, henüz desteklenmeyen birkaç çizim nesnesi veya şekli vardır. Bu çizim nesnelerini Microsoft Excel kullanarak bir tasarımcı elektronik tablosunda oluşturun ve ardından tasarımcı elektronik tablosunu Aspose.Cells'e aktarın. Aspose.Cells, bu çizim nesnelerini bir tasarımcı elektronik tablosundan yüklemenize ve oluşturulmuş bir dosyaya yazmanıza olanak tanır.
+Geliştiriciler metin kutuları, onay kutuları, radyo düğmeleri, açılır kutular, etiketler, düğmeler, çizgiler, dikdörtgenler, yarıçapları, ovaları, kaydırma çubuklarını, grup kutularını vb. gibi farklı çizim nesneleri ekleyebilir. Aspose.Cells, tüm çizim nesnelerini içeren Aspose.Cells.Drawing ad alanını sağlar. Ancak henüz desteklenmeyen bazı çizim nesneleri veya şekiller vardır. Bu çizim nesnelerini Microsoft Excel kullanarak bir tasarımcı çalışma sayfasında oluşturun ve ardından tasarımcı çalışma sayfasını Aspose.Cells'e aktarın. Aspose.Cells, bir tasarımcı çalışma sayfasından bu çizim nesnelerini yüklemenize ve bunları oluşturulan bir dosyaya yazmanıza olanak tanır.
 
-## **Çalışma Sayfasına Metin Kutusu Denetimi Ekleme**
+## **Çalışma Sayfasına Metin Kutusu Kontrolü Ekleme**
 
- Bir rapordaki önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya satışların en yüksek olduğu coğrafi bölgeyi vb. belirtmek için metin ekleyin. Aspose.Cells, koleksiyona yeni bir metin kutusu eklemek için kullanılan TextBoxes sınıfını sağlar. Başka bir sınıf var,[**Metin kutusu**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox)tüm ayar türlerini tanımlamak için kullanılan bir metin kutusunu temsil eder. Bazı önemli üyeleri vardır:
+Raporlarda önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya en yüksek satış yapılan coğrafi bölgeyi belirtmek için bir metin ekleyin. Aspose.Cells, yeni bir metin kutusu eklemek için kullanılan TextBoxes sınıfını sağlar. [**TextBox**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox) isminde başka bir sınıf vardır ve tüm türdeki ayarları tanımlamak için kullanılan bir metin kutusunu temsil eder. Bazı önemli üyeleri vardır:
 
--  bu[**getTextÇerçevesi**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) yöntem bir döndürür[**MsoTextÇerçevesi**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) metin kutusunun içeriğini ayarlamak için kullanılan nesne.
--  bu[**yerleşimi ayarla**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) method yerleştirme tipini belirtir.
--  bu[**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) method font özniteliklerini belirtir.
--  bu[**köprü ekle**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) yöntemi, metin kutusu için bir köprü ekler.
--  bu[**Doldurma Biçimi**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) mülkiyet iadeleri[**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) metin kutusu için dolgu formatını ayarlamak için kullanılan nesne.
--  bu[**Çizgi Biçimi**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) özellik döndürür[**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) genellikle metin kutusu satırının stilini ve ağırlığını belirlemek için kullanılan nesne.
--  bu[**Metin ayarla**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) method, metin kutusu için giriş metnini belirtir.
+- [**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) methodu, metin kutusunun içeriğini ayarlamak için kullanılan bir [**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) nesnesi döndürür.
+- [**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) methodu, yerleşim tipini belirtir.
+- [**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) methodu, yazı tipi özniteliklerini belirtir.
+- [**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) methodu, metin kutusu için bir bağlantıyı ekler.
+- [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) özelliği, metin kutusu için doldurma biçimini ayarlamak için kullanılan bir [**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) nesnesi döndürür.
+- [**LineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) özelliği, metin kutusu çizgisi için stil ve kalınlık genellikle kullanılan bir [**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) nesnesi döndürür.
+- [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) yöntemi metin kutusu için giriş metnini belirtir.
 
-Aşağıdaki örnek, çalışma kitabının ilk çalışma sayfasında iki metin kutusu oluşturur. İlk metin kutusu, farklı biçim ayarlarıyla iyi bir şekilde döşenmiştir. İkincisi basit bir tanesidir.
+Aşağıdaki örnek, çalışma kitabının ilk çalışma sayfasında iki metin kutusu oluşturur. İlk metin kutusu farklı biçim ayarlarıyla donatılmıştır. İkincisi ise basit bir tanedir.
 
-Aşağıdaki çıktı, kod yürütülerek oluşturulur:
+Kodun çalıştırılmasıyla oluşturulan aşağıdaki çıktı:
 
-**Çalışma sayfasında iki metin kutusu oluşturulur** 
+**İş sayfasında iki metin kutusu oluşturuldu** 
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_1.png)
+![todo:image_alt_text](managing-controls_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingTextBoxControl-1.java" >}}
 
-## **Tasarımcı Elektronik Tablolarında Metin Kutusu Kontrollerini Değiştirme**
+## **Tasarımcı İş Sayfalarında Metin Kutusu Kontrollerini Manipüle Etme**
 
- Aspose.Cells ayrıca tasarımcı çalışma sayfalarındaki metin kutularına erişmenizi ve bunları değiştirmenizi sağlar. Kullan[**Worksheet.getTextBoxes**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) sayfadaki metin kutuları koleksiyonunu alma özelliği.
+Aspose.Cells, ayrıca tasarımcı elektronik tablolardaki metin kutularına erişmenizi ve bunları manipüle etmenizi sağlar. Levhada metin kutuları koleksiyonunu almak için [**Worksheet.getTextBoxes**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) özelliğini kullanın.
 
-Aşağıdaki örnek, yukarıdaki örnekte oluşturduğumuz Microsoft Excel dosyasını – tsttextboxes.xls – kullanır. İki metin kutusunun metin dizelerini alır ve dosyayı kaydetmek için ikinci metin kutusunun metnini değiştirir.
+Aşağıdaki örnek yukarıdaki örnekte oluşturduğumuz Microsoft Excel dosyası olan - tsttextboxes.xls - kullanır. İki metin kutusunun metin dizelerini alır ve ikinci metin kutusunun metnini değiştirerek dosyayı kaydeder.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-ManipulatingTextBoxControls-1.java" >}}
 
-## **Çalışma Sayfasına CheckBox Denetimi Ekleme**
+## **İş Sayfasına Onay Kutusu Ekleme**
 
-Bir kullanıcıya doğru veya yanlış gibi iki seçenek arasında seçim yapması için bir yol sağlamak istiyorsanız, onay kutuları kullanışlıdır; Evet veya Hayır. Aspose.Cells, çalışma sayfalarında onay kutularını kullanmanıza izin verir. Örneğin, belirli bir satın almayı açıklayabileceğiniz ya da açıklamayabileceğiniz bir finansal projeksiyon çalışma sayfası geliştirmiş olabilirsiniz. Bu durumda, çalışma sayfasının en üstüne bir onay kutusu yerleştirmek isteyebilirsiniz. Daha sonra bu onay kutusunun durumunu başka bir hücreye bağlayabilirsiniz, böylece onay kutusu seçilirse hücrenin değeri True olur; seçili değilse hücrenin değeri False olur.
+Onay kutuları, bir kullanıcının doğru veya yanlış gibi iki seçenek arasında seçim yapmasına olanak tanımak istiyorsanız kullanışlıdır. Örneğin, belirli bir edinimi hesaba katıp katmayacağını belirtmek istediğiniz bir finansal projeksiyon çalışma sayfası geliştirdiniz. Bu durumda, çalışma sayfasının üst kısmına bir onay kutusu yerleştirmek isteyebilirsiniz. Daha sonra bu onay kutusunun durumunu başka bir hücreye bağlayabilirsiniz; böylece onay kutusu seçiliyken, hücrenin değeri True olur; seçilmediğinde, hücrenin değeri False olur.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
 Çalışma sayfanıza bir onay kutusu denetimi yerleştirmek için şu adımları izleyin:
 
 1. Formlar araç çubuğunun görüntülendiğinden emin olun.
-1.  Tıkla**Onay Kutusu** Formlar araç çubuğundaki aracı.
-1. Çalışma sayfası alanınızda, onay kutusunu ve onay kutusunun yanındaki etiketi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
-1. Onay kutusu yerleştirildikten sonra, fare imlecini etiket alanına getirin ve etiketi değiştirin.
-1.  İçinde**Cell Bağlantı**alanında, bu onay kutusunun bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**Tamam**.
+1. Formlar araç çubuğunda **Onay Kutusu** aracını tıklayın.
+1. Çalışma sayfanızda, onay kutusunu ve onay kutusunun yanındaki etiketi içerecek dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
+1. Onay kutusu yerleştirildikten sonra fare imleci etiket alanına kaydırın ve etiketi değiştirin.
+1. **Hücre Bağlantısı** alanında, bu onay kutusunun bağlanması gereken hücrenin adresini belirtin.
+1. **Tamam**'ı tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- Aspose.Cells şunları sağlar:[**Onay Kutusu Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/checkboxcollection) koleksiyona yeni bir onay kutusu eklemek için kullanılan sınıf. Başka bir sınıf var,[**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/java/com.aspose.cells/CheckBox), bir onay kutusunu temsil eder. Bazı önemli üyeleri vardır:
+Aspose.Cells, yeni bir onay kutusu eklemek için kullanılan [**CheckBoxCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/checkboxcollection) sınıfını sağlar. İşte onay kutusunu temsil eden başka bir sınıf olan [**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/java/com.aspose.cells/CheckBox). Önemli bazı üyelere sahiptir:
 
--  bu[**setLinkedCell**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#LinkedCell) yöntemi, onay kutusuna bağlı bir hücreyi belirtir.
--  bu[**Metin ayarla**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Text) yöntem, onay kutusuyla ilişkili metin dizesini belirtir. Onay kutusunun etiketidir.
--  bu[**değer ayarla**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Value) yöntem, onay kutusunun işaretlenip işaretlenmediğini belirtir.
+- [**setLinkedCell**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#LinkedCell) yöntemi onay kutusuna bağlı olan hücreyi belirtir.
+- [**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Text) yöntemi onay kutusu ile ilişkilendirilen metin dizisini belirtir. Bu, onay kutusunun etiketidir.
+- [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Value) yöntemi onay kutusunun işaretli olup olmadığını belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına bir onay kutusunun nasıl ekleneceğini gösterir. Aşağıdaki çıktı, kod yürütüldükten sonra oluşturulur.
+Aşağıdaki örnek, iş sayfasına bir onay kutusu eklemenin nasıl yapıldığını gösterir. Aşağıdaki çıktı kodun çalıştırılmasından sonra oluşturulur.
 
-**Çalışma sayfasına bir CheckBox eklendi** 
+**İş sayfasına bir Onay Kutusu eklendi** 
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_2.png)
+![todo:image_alt_text](managing-controls_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingCheckBoxControl-1.java" >}}
 
-## **Çalışma Sayfasına RadioButton Kontrolü Ekleme**
+## **İş Sayfasına Radyo Düğmesi Kontrolü Ekleme**
 
-Bir radyo düğmesi veya bir seçenek düğmesi, yuvarlak bir kutudan yapılmış bir kontroldür. Kullanıcı yuvarlak kutuyu seçerek kararını verir. Bir radyo düğmesine, her zaman olmasa da genellikle başkaları eşlik eder. Bu tür radyo düğmeleri bir grup olarak görünür ve davranır. Kullanıcı bunlardan sadece birini seçerek hangi butonun geçerli olduğuna karar verir. Kullanıcı bir düğmeyi tıkladığında, doldurulur. Gruptaki bir düğme seçildiğinde, aynı grubun düğmeleri boştur.
+Radyo düğmesi veya seçenek düğmesi, yuvarlak bir kutudan oluşan bir denetimdir. Kullanıcı, yuvarlak kutuyu seçerek kararını verir. Radyo düğmesi genellikle, diğerleri ile birlikte olacak şekilde, eğer her zaman değilse eşlik eder. Bu tür radyo düğmeleri grup olarak görünür ve davranır. Kullanıcı, sadece birini seçerek hangi düğmenin geçerli olduğuna karar verir. Kullanıcı bir düğmeye tıkladığında doldurulur. Grubun içindeki bir düğme seçildiğinde, aynı gruba ait düğmeler boş olur.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
 Çalışma sayfanıza bir Radyo Düğmesi denetimi yerleştirmek için şu adımları izleyin:
 
-1.  Emin ol**Formlar** araç çubuğu görüntülenir.
-1.  Tıkla**Seçenek tuşu** alet.
-1. Çalışma sayfasında, seçenek düğmesini ve seçenek düğmesinin yanındaki etiketi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
-1. Radyo düğmesi çalışma sayfasına yerleştirildikten sonra, fare imlecini etiket alanına getirin ve etiketi değiştirin.
-1.  İçinde**Cell Bağlantı** alanında, bu radyo düğmesinin bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**Tamam**.
+1. **Formlar** araç çubuğunun görüntülendiğinden emin olun.
+1. **Seçenek Düğmesi** aracına tıklayın.
+1. Çalışma sayfasında, seçenek düğmesini ve yanındaki etiketi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
+1. Radyo düğmesi çalışma sayfasına yerleştirildikten sonra, fare imleci etiket bölgesine hareket ettirin ve etiketi değiştirin.
+1. **Hücre Bağlantısı** alanında, bu radyo düğmesinin bağlanması gereken hücrenin adresini belirtin.
+1. **Tamam**'a tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class, bir çalışma sayfasına bir radyo düğmesi denetimi eklemek için kullanılabilecek addShape adlı bir yöntem sağlar. Yöntem, bir RadioButton nesnesi döndürebilir. RadioButton sınıfı, bir seçenek düğmesini temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) sınıfı, çalışma sayfasına bir radyo düğmesi denetimi eklemek için kullanılabilecek addShape adında bir metod sağlar. Metod bir RadioButton nesnesi döndürebilir. RadioButton sınıfı, bir seçenek düğmesini temsil eder. Bazı önemli üyelere sahiptir:
 
-- setLinkedCell yöntemi, radyo düğmesine bağlı bir hücreyi belirtir.
-- setText yöntemi, radyo düğmesiyle ilişkili metin dizesini belirtir. Radyo düğmesinin etiketidir.
-- Checked özelliği, radyo düğmesinin işaretli olup olmadığını belirtir.
-- setFillFormat yöntemi, radyo düğmesinin doldurma biçimini belirtir.
-- setLineFormat yöntemi, seçenek düğmesinin satır biçimi stillerini belirtir.
+- The setLinkedCell metodu, radyo düğmesine bağlı olan bir hücreyi belirtir.
+- The setText metodu, radyo düğmesiyle ilişkilendirilmiş metin dizisini belirtir. Bu radyo düğmesinin etiketidir.
+- The Checked özelliği, radyo düğmesinin işaretli olup olmadığını belirtir.
+- The setFillFormat metodu, radyo düğmesinin doldurma formatını belirtir.
+- The setLineFormat metodu, seçenek düğmesinin çizgi formatını belirtir.
 
-Aşağıdaki örnek, bir çalışma sayfasına radyo düğmelerinin nasıl ekleneceğini gösterir. Örnek, yaş gruplarını temsil eden üç radyo düğmesi ekler. Kod çalıştırıldıktan sonra aşağıdaki çıktı üretilecektir.
+Aşağıdaki örnek, çalışma sayfasına radyo düğmeleri eklemenin nasıl yapıldığını gösterir. Örnek, yaş gruplarını temsil eden üç radyo düğmesi ekler. Kodun çalıştırılmasından sonra aşağıdaki çıktı oluşturulur.
 
-**Çalışma sayfasına bazı Radyo Düğmeleri eklendi** 
+**Çalışma sayfasına bazı Radyo Düğmeleri eklenmiş** 
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_3.png)
+![todo:image_alt_text](managing-controls_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingRadioButtonControl-1.java" >}}
 
-## **Çalışma Sayfasına Birleşik Giriş Kutusu Denetimi Ekleme**
+## **Çalışma Sayfasına Kombinasyon Kutusu Denetimi Ekleme**
 
-Veri girişini kolaylaştırmak veya girişleri tanımladığınız belirli öğelerle sınırlamak için, çalışma sayfasının herhangi bir yerindeki hücrelerden derlenen geçerli girişlerin açılır listesini veya birleşik giriş kutusunu oluşturabilirsiniz. Bir hücre için açılır liste oluşturduğunuzda, o hücrenin yanında bir ok görüntülenir. Bu hücreye bilgi girmek için oku tıklatın ve ardından istediğiniz girişi tıklatın.
+Veri girişini kolaylaştırmak veya tanımladığınız belirli öğelerle girişleri sınırlamak için, işte çalışma sayfanızda başka yerlerdeki hücrelerden derlenen geçerli girişlerin bir combo kutusu veya açılır liste oluşturabilirsiniz. Bir hücre için bir açılır liste oluşturduğunuzda, o hücrenin yanında bir ok gösterilir. O hücredeki bilgiyi girmek için ok'a tıklayın ve ardından istediğiniz girişi tıklayın.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-Çalışma sayfanıza birleşik giriş kutusu denetimi yerleştirmek için şu adımları izleyin:
+Çalışma sayfanıza bir kombinasyon kutusu denetimi yerleştirmek için şu adımları izleyin:
 
-1.  Emin ol**Formlar** araç çubuğu görüntülenir.
-1.  Tıkla**Açılan kutu** alet.
-1. Çalışma sayfası alanınızda, birleşik giriş kutusunu tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
-1.  Birleşik giriş kutusu çalışma sayfasına yerleştirildikten sonra, kontrolü sağ tıklatarak**Biçim Kontrolü** ve giriş aralığını belirtin.
-1.  İçinde**Cell Bağlantı** alanında, bu açılan kutunun bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**Tamam**.
+1. **Formlar** araç çubuğunun görüntülendiğinden emin olun.
+1. **Kombo Kutusu** aracını tıklayın.
+1. Çalışma sayfanızda, kombo kutusunu içerecek dikdörtgeni tanımlamak için tıklayıp sürükleyin.
+1. Kombo kutusu çalışma sayfasına yerleştirildikten sonra, denetimi sağ tıklayarak **Format Kontrolü** tıklayın ve girdi aralığını belirtin.
+1. **Hücre Bağlantısı** alanında, bu kombo kutusunun bağlanacağı hücrenin adresini belirtin.
+1. **Tamam**'ı tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class, çalışma sayfasına birleşik giriş kutusu denetimi eklemek için kullanılabilen addShape adlı bir yöntem sağlar. Yöntem, ComboBox nesnesini döndürebilir. ComboBox sınıfı, bir açılan kutuyu temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) sınıfı, çalışma sayfasına bir combo box denetimi eklemek için kullanılabilecek addShape adında bir metod sağlar. Metod bir ComboBox nesnesi döndürebilir. ComboBox sınıfı, bir combo box'u temsil eder. Bazı önemli üyelere sahiptir:
 
-- setLinkedCell yöntemi, birleşik giriş kutusuna bağlı bir hücreyi belirtir.
-- setInputRange yöntemi, açılan kutuyu doldurmak için kullanılan çalışma sayfası hücre aralığını belirtir.
-- setDropDownLines yöntemi, birleşik giriş kutusunun açılır bölümünde görüntülenen liste satırlarının sayısını belirtir.
-- setShadow yöntemi, birleşik giriş kutusunun 3B gölgelendirmeye sahip olup olmadığını gösterir.
+- The setLinkedCell metodu, combo box'a bağlı olan bir hücreyi belirtir.
+- The setInputRange metodu, combo box'u doldurmak için kullanılan çalışma sayfası aralığını belirtir.
+- The setDropDownLines metodu, bir combo box'un açılır kısmında gösterilen liste satırlarının sayısını belirtir.
+- The setShadow metodu, combo box'un 3B gölgelendirmeye sahip olup olmadığını belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına birleşik giriş kutusunun nasıl ekleneceğini gösterir. Kod yürütülürken aşağıdaki çıktı oluşturulur.
+Aşağıdaki örnek, çalışma sayfasına bir combo box eklemenin nasıl yapıldığını gösterir. Kodun çalıştırılmasından sonra aşağıdaki çıktı oluşturulur.
 
-**Çalışma sayfasına açılan kutu eklendi** 
+**Çalışma sayfasına bir combobox eklenir** 
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_4.png)
+![todo:image_alt_text](managing-controls_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingComboBoxControl-1.java" >}}
 
-## **Çalışma Sayfasına Etiket Denetimi Ekleme**
+## **Etiket Denetimi Ekleme**
 
- Etiketler, kullanıcılara bir elektronik tablonun içeriği hakkında bilgi vermenin bir yoludur. Aspose.Cells, bir çalışma sayfasına etiket eklemeyi ve düzenlemeyi mümkün kılar. bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class, çalışma sayfasına bir etiket denetimi eklemek için kullanılan addShape adlı bir yöntem sağlar. Yöntem bir Label nesnesi döndürür. Label sınıfı, çalışma sayfasındaki bir etiketi temsil eder. Bazı önemli üyeleri vardır:
+Etiketler, bir elektronik tablonun içeriği hakkında kullanıcılara bilgi vermenin bir yoludur. Aspose.Cells, çalışma sayfasına etiket eklemeyi ve bunları manipüle etmeyi mümkün kılar. [**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) sınıfı, çalışma sayfasına etiket kontrolü eklemek için kullanılan addShape adında bir yöntem sağlar. Yöntem, bir Etiket nesnesi döndürür. Etiket sınıfı, çalışma sayfasındaki bir etiketi temsil eder. Bazı önemli üyelere sahiptir:
 
 - setText yöntemi, bir etiketin başlık dizesini belirtir.
-- setPlacement yöntemi, etiketin çalışma sayfasındaki hücrelere eklenme biçimi olan PlacementType'ı belirtir.
+- setPlacement yöntemi, etiketin çalışma sayfasındaki hücrelere bağlanma şeklini belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına nasıl etiket ekleneceğini gösterir. Kod yürütülürken aşağıdaki çıktı oluşturulur.
+Aşağıdaki örnek, çalışma sayfasına bir etiket eklemenin nasıl bir sonuç doğurduğunu gösterir. Kodu yürüttüğünüzde aşağıdaki çıktı oluşturulur.
 
 **Çalışma sayfasına bir etiket eklenir**
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_5.png)
+![todo:image_alt_text](managing-controls_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingLabelControl-1.java" >}}
 
-## **Bir Çalışma Sayfasına Liste Kutusu Denetimi Ekleme**
+## **Liste Kutusu Denetimi Ekleme**
 
-Liste kutusu denetimi, tekli veya çoklu öğe seçimine izin veren bir liste denetimi oluşturur.
+Bir liste kutusu denetimi, tek ya da çoklu öğe seçimine izin veren bir liste denetimi oluşturur.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-Çalışma sayfasına bir liste kutusu denetimi yerleştirmek için:
+Bir liste kutusu denetimini çalışma sayfasına yerleştirmek için:
 
-1.  Emin ol**Formlar** araç çubuğu görüntülenir.
-1.  Tıkla**Liste kutusu** alet.
-1. Çalışma sayfası alanınızda, liste kutusunu tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
-1.  Liste kutusu çalışma sayfasına yerleştirildikten sonra, kontrole sağ tıklayın.**Biçim Kontrolü** ve giriş aralığını belirtin.
-1.  İçinde**Cell Bağlantı**alanında, bu liste kutusunun bağlanması gereken hücrenin adresini belirtin ve seçim tipi (Tek, Çoklu, Genişlet) özniteliğini ayarlayın.
-1.  Tıklamak**Tamam**.
+1. **Formlar** araç çubuğunun görüntülendiğinden emin olun.
+1. **Liste Kutusu** aracını tıklayın.
+1. Çalışma sayfanızda, liste kutusunu içerecek dikdörtgeni tanımlamak için tıklayıp sürükleyin.
+1. Liste kutusu çalışma sayfasına yerleştirildikten sonra, denetimi sağ tıklayarak **Format Kontrolü** tıklayın ve girdi aralığını belirtin.
+1. **Hücre Bağlantısı** alanında, bu liste kutusunun bağlanacağı hücrenin adresini belirtin ve seçim tipi (Tekli, Çoklu, Genişlet) özniteliğini belirtin.
+1. **Tamam**'a tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class, bir çalışma sayfasına liste kutusu denetimi eklemek için kullanılan addShape adlı bir yöntem sağlar. Yöntem bir ListBox nesnesi döndürür. ListBox sınıfı bir liste kutusunu temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) sınıfı, çalışma sayfasına liste kutusu kontrolü eklemek için kullanılan addShape adında bir yöntem sağlar. Yöntem, bir ListBox nesnesi döndürür. ListBox sınıfı, bir liste kutusunu temsil eder. Bazı önemli üyelere sahiptir:
 
-- setLinkedCell yöntemi, liste kutusuna bağlı bir hücreyi belirtir.
-- setInputRange yöntemi, liste kutusunu doldurmak için kullanılan çalışma sayfası hücre aralığını belirtir.
+- setLinkedCell yöntemi, liste kutusu ile ilişkilendirilen bir hücre belirtir.
+- setInputRange yöntemi, liste kutusunu doldurmak için kullanılan çalışma sayfası aralığını belirtir.
 - setSelectionType yöntemi, liste kutusunun seçim modunu belirtir.
-- setShadow yöntemi, liste kutusunun 3B gölgelendirmeye sahip olup olmadığını gösterir.
+- setShadow yöntemi, liste kutusunun 3D gölge olup olmadığını belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına bir liste kutusunun nasıl ekleneceğini gösterir. Kod yürütülürken aşağıdaki çıktı oluşturulur.
+Aşağıdaki örnek, çalışma sayfasına bir liste kutusu eklemenin nasıl bir sonuç doğurduğunu gösterir. Kodu yürüttüğünüzde aşağıdaki çıktı oluşturulur.
 
-**Çalışma sayfasına bir liste kutusu eklendi** 
+**Çalışma sayfasına bir liste kutusu eklenir** 
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_6.png)
+![todo:image_alt_text](managing-controls_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingListBoxControl-1.java" >}}
 
-## **Bir Çalışma Sayfasına Düğme Denetimi Ekleme**
+## **Bir Çalışma Sayfasına Düğme Kontrolü Ekleme**
 
-Düğmeler, bazı eylemleri gerçekleştirmek için kullanışlıdır. Bazen, bir web sayfasını açmak için düğmeye bir VBA Makrosu atamak veya bir köprü atamak yararlı olabilir.
+Düğmeler bazı işlemleri gerçekleştirmek için kullanışlıdır. Bazen düğmeye VBA Makrosu atamak veya bir web sayfasını açmak için bir bağlantı atamak faydalı olabilir.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-Çalışma sayfanıza bir düğme denetimi yerleştirmek için:
+Bir düğme kontrolünü çalışma sayfanıza yerleştirmek için:
 
-1.  Emin ol**Formlar** araç çubuğu görüntülenir.
-1.  Tıkla**Buton** alet.
-1. Çalışma sayfası alanınızda, düğmeyi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
-1.  Liste kutusu çalışma sayfasına yerleştirildikten sonra, kontrole sağ tıklayın ve seçin.**Biçim Kontrolü**, ardından bir VBA Makrosu ve yazı tipi, hizalama, boyut, kenar boşluğu vb. ile ilgili öznitelikleri belirtin.
-1.  Tıklamak**Tamam**.
+1. **Formlar** araç çubuğunun görüntülendiğinden emin olun.
+1. **Düğme** aracını tıklayın.
+1. Çalışma sayfanızdaki alanda, düğmeyi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
+1. Liste kutusu çalışma sayfasına yerleştirildikten sonra, denetim üzerinde sağ tıklayın ve sonra **Denetim Biçimi'ni** seçin, ardından VBA Makrosunu ve ilgili yazı tipi, hizalama, boyut, kenar boşluğu vb. özellikleri belirtin.
+1. **Tamam**'ı tıklayın.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class, çalışma sayfasına düğme denetimi eklemek için kullanılan addShape adlı bir yöntem sağlar. Yöntem, bir Button nesnesi döndürebilir. Button sınıfı bir düğmeyi temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) sınıfı, çalışma sayfasına bir düğme denetimi eklemek için kullanılan addShape adında bir yöntem sağlar. Yöntem bir Düğme nesnesi döndürebilir. Düğme sınıfı bir düğmeyi temsil eder. Bazı önemli üyeleri vardır:
 
-- setText yöntemi, düğmenin başlığını belirtir.
-- setPlacement yöntemi, düğmenin çalışma sayfasındaki hücrelere eklenme biçimi olan PlacementType'ı belirtir.
-- addHyperlink yöntemi, düğme denetimi için bir köprü ekler. Düğmeye tıklandığında ilgili URL'ye gidilecektir.
+- setText yöntemi düğmenin başlığını belirtir.
+- setPlacement yöntemi, düğmenin çalışma sayfasındaki hücrelere bağlanma şeklini belirtir.
+- addHyperlink yöntemi, düğme denetimi için bir bağlantı ekler. Düğmeye tıklamak bağlantılı URL'ye gezinir.
 
-Aşağıdaki örnek, çalışma sayfasına nasıl düğme ekleneceğini gösterir. Kod yürütülürken aşağıdaki çıktı üretilir
+Aşağıdaki örnek, çalışma sayfasına bir düğme eklemenin nasıl yapılacağını gösterir. Kodu yürüttüğünüzde, aşağıdaki çıktı oluşturulur.
 
-**Çalışma sayfasına bir düğme eklendi**
+**Çalışma sayfasına bir düğme eklenir**
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_7.png)
+![todo:image_alt_text](managing-controls_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingButtonControl-1.java" >}}
 
-## **Çalışma Sayfasına Hat Kontrolü Ekleme**
+## **Çalışma sayfasına Satır Denetimi Ekleme**
 
-Aspose.Cells, çalışma sayfalarınıza otomatik şekiller çizmenizi sağlar. Kolayca bir çizgi oluşturabilirsiniz. Ayrıca satırı biçimlendirmenize de izin verilir. Örneğin ipin rengini değiştirebilir, ihtiyacınıza göre ipin ağırlığını ve stilini belirleyebilirsiniz.
+Aspose.Cells, çalışma sayfalarınızda otomatik şekiller çizmenize olanak tanır. Kolayca bir çizgi oluşturabilirsiniz. Ayrıca çizgiyi biçimlendirmenize izin verilir. Örneğin, çizginin rengini değiştirebilir, çizginin ağırlığını ve stiline göre belirleyebilirsiniz.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-1.  Üzerinde**Çizim** araç çubuğu, tıklayın**Otomatik Şekiller** , odaklan**çizgiler**ve istediğiniz çizgi stilini seçin.
-1. Çizgiyi çizmek için sürükleyin.
-1. Aşağıdakilerden birini veya her ikisini yapın:
- 1. Çizgiyi başlangıç noktasından 15 derecelik açılarla çizmek üzere sınırlamak için sürüklerken SHIFT tuşunu basılı tutun.
- 1. Çizgiyi ilk bitiş noktasından zıt yönlerde uzatmak için sürüklerken CTRL tuşunu basılı tutun.
+1. **Çizim** araç çubuğunda, **Şekiller**'e tıklayın, ardından **Satırlar**'a gelin ve istediğiniz çizgi stiline tıklayın.
+1. Çizmek için sürükleyin.
+1. Aşağıdakilerden birini veya her ikisinden birini yapın:
+   1. Çizginin başlangıç noktasından 15 derece açılarla çizilmesini sınırlamak için, sürüklerken **SHIFT** tuşunu basılı tutun.
+   1. İlk uç noktasından zıt yönlere doğru çizgiyi uzatmak için, sürüklerken **CTRL** tuşunu basılı tutun.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class, çalışma sayfasına bir çizgi şekli eklemek için kullanılan addShape adlı bir yöntem sağlar. Yöntem, bir LineShape nesnesi döndürebilir. LineShape sınıfı bir çizgiyi temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) sınıfı, çalışma sayfasına bir çizgi şekli eklemek için kullanılan addShape adında bir yöntem sağlar. Yöntem bir LineShape nesnesi döndürebilir. LineShape sınıfı bir çizgiyi temsil eder. Bazı önemli üyeleri vardır:
 
-- setDashStyle yöntemi, bir satırın biçimini belirtir.
-- setPlacement yöntemi, satırın çalışma sayfasındaki hücrelere eklenme biçimi olan PlacementType'ı belirtir.
+- setDashStyle yöntemi, bir çizginin biçimini belirtir.
+- setPlacement yöntemi, çizginin çalışma sayfasındaki hücrelere bağlanma şeklini belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına nasıl satır ekleneceğini gösterir. Farklı stillerde üç çizgi oluşturur. Aşağıdaki çıktı kodu yürüttükten sonra oluşturulur
+Aşağıdaki örnek, çalışma sayfasına çizgiler eklemenin nasıl yapılacağını gösterir. Farklı stillerde üç çizgi oluşturur. Kodu yürüttüğünüzde, aşağıdaki çıktı oluşturulur.
 
-**Çalışma sayfasına birkaç satır eklenir** 
+**Çalışma sayfasına birkaç çizgi eklenir** 
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_8.png)
+![todo:image_alt_text](managing-controls_8.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingLineControl-1.java" >}}
 
-### **Bir Çizgiye Ok Başı Ekleme**
+### **Çizgiye Yön Gösteren Başlık Ekleme**
 
-Aspose.Cells ayrıca ok çizgileri çizmenize de olanak tanır. Bir satıra ok ucu eklemek ve satırı biçimlendirmek mümkündür. Örneğin, çizginin rengini değiştirebilir veya çizginin ağırlığını ve stilini belirleyebilirsiniz.
+Aspose.Cells, oklu satırlar çizmenize de olanak tanır. Bir satıra bir ok başlığı eklemek ve satırın biçimlendirilmesi mümkündür. Örneğin, satırın rengini değiştirebilir veya satırın ağırlığını ve stilini belirtebilirsiniz.
 
-Aşağıdaki örnek, bir satıra ok ucunun nasıl ekleneceğini gösterir. Kod yürütülürken aşağıdaki çıktı oluşturulur.
+Aşağıdaki örnek, bir çizgiye başlık eklemenin nasıl yapılacağını gösterir. Kodu yürüttüğünüzde, aşağıdaki çıktı oluşturulur.
 
-**Çalışma sayfasına ok başlı bir satır eklenir** 
+**Ok başlıklı bir çizgi çalışma sayfasına eklenir** 
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_9.png)
+![todo:image_alt_text](managing-controls_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddinganArrowHead.java" >}}
 
-## **Çalışma Sayfasına Dikdörtgen Denetimi Ekleme**
+## **Çalışma Sayfasına Dikdörtgen Kontrolü Ekleme**
 
-Aspose.Cells, çalışma sayfalarınıza dikdörtgen şekiller çizmenizi sağlar. Dikdörtgen, kare vb. oluşturabilirsiniz. Ayrıca kontrolün dolgu rengini ve kenar çizgisi rengini biçimlendirmenize izin verilir. Örneğin dikdörtgenin rengini değiştirebilir, gölgelendirme rengini ayarlayabilir, dikdörtgenin ağırlığını ve stilini ihtiyacınıza göre belirleyebilirsiniz.
+Aspose.Cells, çalışma sayfalarınızda dikdörtgen şekilleri çizmenize olanak tanır. Bir dikdörtgen, kare vb. oluşturabilirsiniz. Ayrıca kontrolün doldurma rengini, sınır çizgisi rengini biçimlendirmenize izin verilir. Örneğin, dikdörtgenin rengini değiştirebilir, gölgelendirme rengini ayarlayabilir veya dikdörtgenin ağırlığını ve stilini belirleyebilirsiniz.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-1.  Üzerinde**Çizim** araç çubuğu, tıklayın**Dikdörtgen**.
-1. Dikdörtgeni çizmek için sürükleyin.
-1. Aşağıdakilerden birini veya her ikisini yapın:
- 1. Dikdörtgeni başlangıç noktasından kare çizmeye zorlamak için sürüklerken SHIFT tuşunu basılı tutun.
- 1. Merkez noktadan bir dikdörtgen çizmek için sürüklerken CTRL tuşunu basılı tutun.
+1. **Çizim** araç çubuğunda, **Dikdörtgen**'e tıklayın.
+1. Dikdörtgen çizmek için sürükleyin.
+1. Aşağıdakilerden birini veya her ikisinden birini yapın:
+   1. Dikdörtgeni başlangıç noktasından karesel çizmeyi kısıtlamak için sürükleme sırasında SHIFT tuşunu basılı tutun.
+   1. Dikdörtgeni merkez noktasından çizmek için sürükleme sırasında CTRL tuşunu basılı tutun.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class, çalışma sayfasına bir dikdörtgen şekli eklemek için kullanılan addShape adlı bir yöntem sağlar. Yöntem bir RectangleShape nesnesi döndürebilir. RectangleShape sınıfı bir dikdörtgeni temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) sınıfı, çalışma sayfasına dikdörtgen şekli eklemek için kullanılan addShape adında bir yöntem sağlar. Yöntem, bir RectangleShape nesnesi döndürebilir. RectangleShape sınıfı bir dikdörtgeni temsil eder. Bazı önemli üyelere sahiptir:
 
-- setLineFormat yöntemi, bir dikdörtgenin çizgi biçimi özniteliklerini belirtir.
-- setPlacement yöntemi, dikdörtgenin çalışma sayfasındaki hücrelere eklenme biçimi olan PlacementType'ı belirtir.
-- FillFormat özelliği, bir dikdörtgenin dolgu biçimi stillerini belirtir.
+- setLineFormat metodu bir dikdörtgenin çizgi biçim özelliklerini belirtir.
+- setPlacement metodu, dikdörtgenin çalışma sayfasındaki hücrelere bağlanma şeklini belirtir.
+- FillFormat özelliği, bir dikdörtgenin doldurma biçim stillerini belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına bir dikdörtgenin nasıl ekleneceğini gösterir. Kod yürütülürken aşağıdaki çıktı oluşturulur.
+Aşağıdaki örnek, çalışma sayfasına bir dikdörtgen eklemenin nasıl olduğunu göstermektedir. Kodu yürüttüğünüzde aşağıdaki çıktı üretilir.
 
 **Çalışma sayfasına bir dikdörtgen eklenir** 
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_10.png)
+![todo:image_alt_text](managing-controls_10.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingRectangleControl-1.java" >}}
 
 ## **Çalışma Sayfasına Yay Kontrolü Ekleme**
 
-Aspose.Cells, çalışma sayfalarınıza yay şekilleri çizmenizi sağlar. Basit ve dolgun yaylar oluşturabilirsiniz. Kontrolün dolgu rengini ve kenar çizgisi rengini biçimlendirmenize izin verilir. Örneğin, yayın rengini belirleyebilir / değiştirebilir, gölgeleme rengini ayarlayabilir, şeklin ağırlığını ve stilini ihtiyacınıza göre belirleyebilirsiniz.
+Aspose.Cells, çalışma sayfalarında yay şekilleri çizmenize olanak tanır. Basit ve dolu yaylar oluşturabilirsiniz. Kontrolün doldurma rengini ve sınır çizgisi rengini biçimlendirmenize izin verilir. Örneğin, yayın rengini belirleyebilir, gölgelendirme rengini ayarlayabilir veya şeklin ağırlığını ve stilini belirleyebilirsiniz.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-1.  Üzerinde**Çizim** araç çubuğu, tıklayın**ark** içinde**Otomatik Şekiller**.
-1. Yayı çizmek için sürükleyin.
+1. **Çizim** araç çubuğunda, **Otomatik Şekiller** içinde **Yay**'e tıklayın.
+1. Yay çizmek için sürükleyin.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class, çalışma sayfasına bir yay şekli eklemek için kullanılan addShape adlı bir yöntem sağlar. Yöntem bir ArcShape nesnesi döndürebilir. ArcShape sınıfı bir yayı temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) sınıfı, çalışma sayfasına yay şekli eklemek için kullanılan addShape adında bir yöntem sağlar. Yöntem, bir ArcShape nesnesi döndürebilir. ArcShape sınıfı bir yayı temsil eder. Bazı önemli üyelere sahiptir:
 
-- setLineFormat yöntemi, bir yay şeklinin çizgi formatı niteliklerini belirtir.
-- setPlacement yöntemi, yayın çalışma sayfasındaki hücrelere eklenme biçimi olan PlacementType'ı belirtir.
-- FillFormat özelliği, şeklin dolgu biçimi stillerini belirtir.
+- setLineFormat metodu, yay şeklinin çizgi biçim özelliklerini belirtir.
+- setPlacement metodu, yayın çalışma sayfasındaki hücrelere bağlanma şeklini belirtir.
+- FillFormat özelliği, şeklin doldurma biçimi stillerini belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına yay şekillerinin nasıl ekleneceğini gösterir. Örnek iki yay şekli oluşturur: biri dolu, diğeri basit. Kod yürütülürken aşağıdaki çıktı üretilir
+Aşağıdaki örnek, çalışma sayfasına yay şekilleri nasıl eklenir göstermektedir. Örnek, iki yay şekli oluşturur: biri dolu ve diğeri basittir. Kodu yürüttüğünüzde aşağıdaki çıktı üretilir
 
 **Çalışma sayfasına iki yay şekli eklenir** 
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_11.png)
+![todo:image_alt_text](managing-controls_11.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingArcControl-1.java" >}}
 
-## **Çalışma Sayfasına Oval Kontrol Ekleme**
+## **Çalışma Sayfasına Oval Kontrolü Ekleme**
 
-Aspose.Cells, çalışma sayfalarında oval şekiller çizmenizi sağlar. Basit ve doldurulmuş oval şekiller oluşturun ve kontrolün dolgu rengini ve kenar çizgisi rengini biçimlendirin. Örneğin ovalin rengini belirleyebilir / değiştirebilir, gölgeleme rengini ayarlayabilir, şeklin ağırlığını ve stilini belirleyebilirsiniz.
+Aspose.Cells, çalışma sayfalarında oval şekilleri çizmenize olanak tanır. Basit ve dolu oval şekiller oluşturun ve kontrolün doldurma rengini ve kenar çizgisi rengini biçimlendirin. Örneğin, ovalin rengini belirleyebilir, gölgelendirme rengini ayarlayabilir, şeklin ağırlığını ve stilini belirleyebilirsiniz.
 
-### **Microsoft Excel'i kullanma**
+### **Microsoft Excel Kullanımı**
 
-1.  Üzerinde**Çizim** araç çubuğu, tıklayın**Oval** .
-1. Oval çizmek için sürükleyin.
-1. Aşağıdakilerden birini veya her ikisini yapın:
- 1. Ovali başlangıç noktasından bir daire çizmeye zorlamak için sürüklerken SHIFT tuşunu basılı tutun.
-1. Bir merkez noktadan oval çizmek için sürüklerken CTRL tuşunu basılı tutun.
+1. **Çizim** araç çubuğunda, **Oval** 'e tıklayın.
+1. Ovalı çizmek için sürükleyin.
+1. Aşağıdakilerden birini veya her ikisinden birini yapın:
+   1. Ovalı çizmek için başlangıç noktasından çember çizmek için sürüklerken SHIFT tuşunu basılı tutun.
+   1. Bir merkez noktasından oval çizmek için sürüklerken CTRL tuşuna basılı tutun.
 
-### **Aspose.Cells'i kullanma**
+### **Aspose.Cells Kullanımı**
 
- bu[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class, çalışma sayfasına oval bir şekil eklemek için kullanılan addShape adlı bir yöntem sağlar. Yöntem bir Oval nesnesi döndürebilir. Oval sınıfı, oval bir şekli temsil eder. Bazı önemli üyeleri vardır:
+[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) sınıfı, bir çalışma sayfasına oval şekli eklemek için kullanılan addShape adında bir yöntem sağlar. Yöntem, bir Oval nesnesi döndürebilir. Oval sınıfı, bir oval şekli temsil eder. Önemli bazı üyelere sahiptir:
 
-- setLineFormat yöntemi, bir oval şeklin çizgi formatı niteliklerini belirtir.
--  setPlacement yöntemi şunu belirtir:**Yerleşim Türü** , ovalin çalışma sayfasındaki hücrelere bağlanma biçimi.
-- FillFormat özelliği, şeklin dolgu biçimi stillerini belirtir.
+- setLineFormat yöntemi, bir oval şeklinin çizgi biçimi özniteliklerini belirtir.
+- setPlacement yöntemi, ovalın çalışma sayfasındaki hücrelere bağlandığı yer olan PlacementType'u belirtir.
+- FillFormat özelliği, şeklin doldurma biçimi stillerini belirtir.
 
-Aşağıdaki örnek, çalışma sayfasına oval şekillerin nasıl ekleneceğini gösterir. Örnek iki oval şekil oluşturur: biri dolu oval, diğeri basit bir dairedir. Kod yürütülürken aşağıdaki çıktı oluşturulur.
+Aşağıdaki örnek, çalışma sayfasına oval şekiller eklemeyi gösterir. Örnek, iki oval şekil oluşturur: biri dolu oval, diğeri basit bir daire. Kodu çalıştırdığınızda aşağıdaki çıktı oluşturulur.
 
-**Çalışma sayfasına iki oval şekil eklendi** 
+**Çalışma sayfasına iki oval şekil eklenmiştir** 
 
-![yapılacaklar:resim_alternatif_metin](managing-controls_12.png)
+![todo:image_alt_text](managing-controls_12.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddinganOvalControl-1.java" >}}
 
-## **ileri konular**
-- [Aspose.Cells'i kullanarak ActiveX Denetimleri ekleyin](/cells/tr/java/add-activex-controls-using-aspose-cells/)
-- [ActiveX Denetimini Kaldır](/cells/tr/java/remove-activex-control/)
+## **Gelişmiş Konular**
+- [Aspose.Cells Kullanarak ActiveX Kontrolleri Ekleme](/cells/tr/java/add-activex-controls-using-aspose-cells/)
+- [ActiveX Kontrolü Kaldırma](/cells/tr/java/remove-activex-control/)

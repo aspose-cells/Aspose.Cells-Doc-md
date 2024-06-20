@@ -1,18 +1,19 @@
-﻿---
-title: Подтвердите пароль зашифрованных файлов
+---
+title: Проверить пароль зашифрованных файлов
 type: docs
 weight: 10
 url: /ru/java/verify-password-of-encrypted-excel-and-ods-files/
-description: Проверьте пароль зашифрованных файлов Excel (xlsx, xlsb, xls, xlsm) и Open Office (ODS), используя коды Java.
+description: Проверьте пароль зашифрованного Excel (xlsx, xlsb, xls, xlsm) и файлов Open office (ODS) с помощью Java кода.
 ---
+
 {{% alert color="primary" %}}
-Если файлы Excel (xlsx, xlsb, xls, xlsm) и Open office (ODS) заблокированы паролем, Aspose.Cells for Java поддерживает простую проверку пароля без анализа конкретных данных файлов.
+Если файлы Excel (xlsx, xlsb, xls, xlsm) и файлы Open office (ODS) заблокированы паролем, Aspose.Cells for Java поддерживает простую проверку пароля без анализа конкретных данных файлов.
 {{% /alert %}}
 
 ## **Проверьте пароль зашифрованного файла**
 
- Чтобы проверить пароль зашифрованного файла, Aspose.Cells for Java предоставляет[**Подтвердите пароль**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String))метод. Методы принимают два параметра: файловый поток и пароль, который необходимо проверить.
- Следующий фрагмент кода демонстрирует использование[**Подтвердите пароль**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) для проверки правильности предоставленного пароля.
+Для проверки пароля зашифрованного файла Aspose.Cells for Java предоставляет метод [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)). Метод принимает два параметра: поток файла и пароль, который необходимо проверить.
+Следующий фрагмент кода демонстрирует использование метода [**VerifyPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) для проверки, является ли предоставленный пароль допустимым или нет.
 
 ### **Образец кода:**
 

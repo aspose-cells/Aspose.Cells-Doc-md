@@ -1,18 +1,19 @@
-﻿---
-title: Exporte un estilo de borde similar cuando los navegadores web no admitan el estilo de borde
+---
+title: Exportar un Estilo de Borde Similar cuando el Estilo de Borde no es compatible con los Navegadores Web
 type: docs
 weight: 70
 url: /es/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/
 ---
-## **Posibles escenarios de uso**
 
-Microsoft Excel admite algún tipo de bordes discontinuos que no son compatibles con los navegadores web. Cuando convierte un archivo de Excel de este tipo en HTML usando Aspose.Cells, dichos bordes se eliminan. Sin embargo, Aspose.Cells también puede admitir mostrar bordes similares con[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle)propiedad. Por favor, establezca su valor como**verdadero**y los bordes no admitidos también se exportarán al archivo HTML.
+## **Escenarios de uso posibles**
 
-## **Exporte un estilo de borde similar cuando los navegadores web no admitan el estilo de borde**
+Microsoft Excel admite ciertos tipos de bordes discontinuos que no son compatibles con los navegadores web. Cuando conviertes un archivo de Excel en HTML usando Aspose.Cells, esos bordes son eliminados. Sin embargo, Aspose.Cells también puede mostrar bordes similares con la propiedad [**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle). Por favor establece su valor en **true** y los bordes no admitidos también se exportarán al archivo HTML.
 
-El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](64716832.xlsx)que contiene algunos bordes no admitidos, como se muestra en la siguiente captura de pantalla. La captura de pantalla ilustra aún más el efecto de[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle)propiedad dentro de la[salida HTML](64716831.zip).
+## **Exportar un estilo de borde similar cuando el estilo de borde no es soportado por los navegadores web**
 
-![todo:imagen_alternativa_texto](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
+El siguiente código de muestra carga el [archivo de Excel de muestra](64716832.xlsx) que contiene algunos bordes no admitidos como se muestra en la siguiente captura de pantalla. La captura de pantalla ilustra aún más el efecto de la propiedad [**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportSimilarBorderStyle) dentro del [HTML de salida](64716831.zip).
+
+![todo:image_alt_text](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
 
 ## **Código de muestra**
 

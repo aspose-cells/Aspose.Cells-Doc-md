@@ -1,26 +1,27 @@
-﻿---
-title: Системные Требования
+---
+title: Системные требования
 type: docs
 weight: 40
 url: /ru/sharepoint/system-requirements/
 ---
-### **Требования к серверу**
-Чтобы установить Aspose.Cells for SharePoint, вам нужен компьютер с одной из следующих версий:
 
-- Windows Службы SharePoint 3.0
-- Microsoft Сервер Office SharePoint 2007
-- Microsoft Сервер SharePoint 2010
-- Microsoft Сервер SharePoint 2013
+### **Требования к серверу**
+Для установки Aspose.Cells for SharePoint вам потребуется компьютер, работающий на одной из следующих систем:
+
+- Windows SharePoint Services 3.0
+- Microsoft Office SharePoint Server 2007
+- Microsoft SharePoint Server 2010
+- Microsoft SharePoint Server 2013
 
 {{% alert color="primary" %}} 
 
-МЫ рекомендуем вам установить Service Pack 2 или более позднюю версию для этих продуктов.
+Мы рекомендуем установить Service Pack 2 или более позднюю версию для этих продуктов.
 
 {{% /alert %}}
-### **Требования клиента**
-Для доступа к сайтам SharePoint необходим браузер. Aspose.Cells for SharePoint тестируется с:
+### **Требования к клиенту**
+Для доступа к сайтам SharePoint вам понадобится браузер. Aspose.Cells for SharePoint протестирован с:
 
 - Microsoft Internet Explorer
-- Мозилла ФаерФокс
-- Google Хром
-- Сафари
+- Mozilla FireFox
+- Google Chrome
+- Safari

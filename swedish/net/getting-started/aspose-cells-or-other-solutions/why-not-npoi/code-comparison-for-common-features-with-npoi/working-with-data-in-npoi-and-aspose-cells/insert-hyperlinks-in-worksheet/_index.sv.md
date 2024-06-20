@@ -1,17 +1,18 @@
-﻿---
-title: Infoga hyperlänkar i arbetsbladet
+---
+title: Infoga Hyperlänkar i Arbeitsblad
 type: docs
 weight: 20
 url: /sv/net/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Infoga hyperlänkar i arbetsblad**
-**Lägga till en länk till en Cell i samma fil**
 
-Det är möjligt att lägga till hyperlänkar till celler i samma Excel-fil genom att anropa Hyperlänksamlingens Add-metod. Add-metoden fungerar för både interna och externa hyperlänkar.
+## **Aspose.Cells - Infoga Hyperlänkar i Arbeitsblad**
+**Lägga till en länk till en cell i samma fil**
+
+Det är möjligt att lägga till hyperlänkar i celler i samma Excel-fil genom att anropa Hyperlink-samlingens Add-metod. Add-metoden fungerar för både interna och externa hyperlänkar.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -66,16 +67,16 @@ workbook.Save("test.xlsx");
 
 **Lägga till en länk till en extern fil**
 
-Det är möjligt att lägga till hyperlänkar till celler i samma Excel-fil genom att anropa Hyperlänksamlingens Add-metod. Add-metoden fungerar för både interna och externa hyperlänkar. En version av den överbelastade metoden tar följande parametrar:
+Det är möjligt att lägga till hyperlänkar i celler i samma Excel-fil genom att anropa Hyperlink-samlingens Add-metod. Add-metoden fungerar för både interna och externa hyperlänkar. En version av den överbelastade metoden tar följande parametrar:
 
-- Cell namn, namnet på cellen som hyperlänken kommer att läggas till.
-- Antal rader, antalet rader i detta hyperlänksområde.
-- Antal kolumner, antalet kolumner i detta hyperlänkintervall.
+- Cellnamn, namnet på den cell som hyperlänken kommer att läggas till.
+- Antal rader, antalet rader i detta hyperrlänksområde.
+- Antal kolumner, antalet kolumner i detta hyperrlänksområde.
 - URL, adressen till målcellen.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -96,10 +97,10 @@ worksheet.Hyperlinks.Add("B3", 1, 1, "Sheet2!B9");
 workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Infoga hyperlänkar i kalkylblad**
+## **NPOI - HSSF XSSF - Infoga Hyperlänkar i Arbeitsblad**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -192,13 +193,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Infoga hyperlänkar i arbetsbladet** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Hämta **Infoga Hyperlänkar i Arbeitsblad** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Lägga till hyperlänkar till länkdata](/cells/sv/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
+För mer detaljer, besök [Lägga till Hyperlänkar för att Länka Data](/cells/sv/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
 
 {{% /alert %}}

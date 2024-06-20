@@ -1,34 +1,35 @@
-﻿---
-title: Crea un grafico a torta
+---
+title: Creare un grafico a torta
 type: docs
 weight: 110
 url: /it/net/create-a-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-I grafici presentano i dati in modo facile da capire. Gli utenti che lavorano con Microsoft Excel possono creare diversi grafici e personalizzarli. Le stesse funzionalità sono disponibili per gli sviluppatori che lavorano con Aspose.Cells for .NET.
+I grafici presentano i dati in modo facile da capire. Gli utenti che lavorano con Microsoft Excel possono creare diverse tipologie di grafici e personalizzarli. Le stesse funzionalità sono disponibili per i developer che lavorano con Aspose.Cells for .NET.
 
 {{% /alert %}}
 
 ## **Creazione di un grafico a torta**
 
-In questo articolo viene confrontato il modo in cui creare un grafico a torta utilizzando Office Automation e VSTO con l'utilizzo di Aspose.Cells for .NET. I passaggi per la creazione di un grafico a torta sono:
+Questo articolo confronta come creare un grafico a torta utilizzando l'Automazione Office e VSTO rispetto all'utilizzo del Aspose.Cells for .NET. I passaggi per la creazione di un grafico a torta sono:
 
-1. Creazione di una cartella di lavoro e di un foglio di lavoro.
+1. Creazione di un workbook e di un foglio di lavoro.
 1. Aggiunta di dati di esempio.
-1. Prodotti di riferimentoGrafico.
-1. Aggiunta di un grafico a torta, definizione dell'intervallo di dati e titolo del grafico.
-1. Salvataggio foglio di calcolo.
+1. Riferimento a productsChart.
+1. Aggiunta di un grafico a torta, definizione dell'intervallo di dati e del titolo del grafico.
+1. Salvataggio del foglio di calcolo.
 
- Gli esempi di codice in questo articolo mostrano come aggiungere un grafico a torta con[VSTO](/cells/it/net/create-a-pie-chart/) , utilizzando C# o Visual Basic, rispetto alla creazione di uno con[Aspose.Cells](/cells/it/net/create-a-pie-chart/), sempre usando C# o Visual Basic.
+I campioni di codice in questo articolo mostrano come aggiungere un grafico a torta con [VSTO](/cells/it/net/create-a-pie-chart/), utilizzando C# o Visual Basic, rispetto alla creazione di uno con [Aspose.Cells](/cells/it/net/create-a-pie-chart/), ancora utilizzando C# o Visual Basic.
 
 ### **Creazione di un grafico a torta con VSTO**
 
-Gli esempi di codice che seguono mostrano come aggiungere un grafico a torta a un foglio di calcolo utilizzando VSTO.
+I campioni di codice che seguono mostrano come aggiungere un grafico a torta a un foglio di calcolo utilizzando VSTO.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void PieChart()
 
@@ -100,15 +101,15 @@ Gli esempi di codice che seguono mostrano come aggiungere un grafico a torta a u
 
 **Un grafico a torta creato con VSTO** 
 
-![cose da fare:immagine_alt_testo](create-a-pie-chart_1.png)
+![todo:image_alt_text](create-a-pie-chart_1.png)
 
 ### **Creazione di un grafico a torta con Aspose.Cells for .NET**
 
-Gli esempi di codice che seguono mostrano come aggiungere un grafico a torta a un foglio di calcolo utilizzando Aspose.Cells.
+I campioni di codice che seguono mostrano come aggiungere un grafico a torta a un foglio di calcolo utilizzando Aspose.Cells.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void PieChart()
 
@@ -180,4 +181,4 @@ Gli esempi di codice che seguono mostrano come aggiungere un grafico a torta a u
 
 **Grafico a torta creato con Aspose.Cells for .NET** 
 
-![cose da fare:immagine_alt_testo](create-a-pie-chart_2.png)
+![todo:image_alt_text](create-a-pie-chart_2.png)

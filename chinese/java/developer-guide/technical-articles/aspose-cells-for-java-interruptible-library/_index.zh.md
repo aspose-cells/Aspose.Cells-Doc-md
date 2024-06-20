@@ -1,5 +1,5 @@
 ---
-title: Aspose.Cells for Java - 可中断库
+title: Aspose.Cells for Java  可中断库
 type: docs
 weight: 1090
 url: /zh/java/aspose-cells-for-java-interruptible-library/

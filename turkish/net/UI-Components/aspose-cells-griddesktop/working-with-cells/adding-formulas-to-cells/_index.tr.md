@@ -1,22 +1,25 @@
-﻿---
-title: Cells'e Formüller Ekleniyor
+---
+title: Hücreye Formül Ekleme
 type: docs
 weight: 30
-url: /tr/net/adding-formulas-to-cells/
+url: /tr/net/aspose-cells-griddesktop/adding-formula-to-cell/
+keywords: GridDesktop, formül
+description: Bu makale, GridDesktop ta Çalışma Sayfasındaki hücreye formül eklemenin nasıl yapılacağını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Bir hücre yalnızca sayısal bir şekil veya bazı metinler gibi basit bir değer içeremez, aynı zamanda bir hücreye değeri olarak bir formül de ekleyebiliriz. Bazı hesaplamalardan sonra bir hücrenin değerinin belirlenmesi gerektiğinde, hücrede bir formül kullanılır. Bu konuda, bir hücrede uygulanan bir formüle nasıl erişebileceğimizi ve değiştirebileceğimizi tartışacağız.
+Bir hücre, sadece bir sayısal değer veya bazı metin gibi basit bir değer içermekle kalmaz, aynı zamanda değeri hesaplamalardan sonra belirlenecek bir formül de içerebilir. Bir hücreye bir formül uygulandığında formül kullanılır. Bu konuda, bir hücreye uygulanan bir formülü nasıl erişebileceğimizi ve değiştirebileceğimizi tartışacağız.
 
 {{% /alert %}} 
-## **Cell'e Formül Ekleme**
- Bir hücreye formül eklemek, önceki konumuzda tartıştığımız gibi, hücrenin değerini ayarlamak gibidir:[Bir Cell Değerine Erişme ve Değeri Değiştirme](/cells/tr/net/accessing-and-modifying-the-value-of-a-cell/) ancak bu durumda, hücrelere sadece basit değerler ekledik. Şimdi formülleri ekleyeceğiz. Geliştiriciler, formüle erişmek ve formülde değişiklik yapmak veya başka bir şekilde değiştirmek için bir hücrenin Value özelliğini kullanabilir.**Hücre Değerini Ayarla** hücre yöntemi, bir hücreye formül eklemek veya değiştirmek için de kullanılabilir.
+## **Hücreye Formül Ekleme**
+Hücreye formül eklemek, önceki konumuzda tartıştığımız şekilde hücrenin değerini ayarlamak gibi, yalnızca hücrelere basit değerler eklemek yerine formüller eklemektir. Geliştiriciler, bir hücrenin **Value** özelliğini kullanarak formüle erişebilir ve değiştirebilir veya aksi takdirde hücrenin **SetCellValue** metodu kullanılarak bir hücrede formül eklemek veya değiştirmek için de kullanabilir.
 
-**ÖNEMLİ:** Value özelliğini kullanma arasındaki temel fark veya**Hücre Değerini Ayarla** bir hücrenin yöntemi, Value özelliğinin çağırmasıdır.**Tüm Formülleri Çalıştır** durumunda olduğu gibi tüm formüllerin değerlerini yeniden hesaplamak için Grid yöntemi**Hücre Değerini Ayarla** yöntem geliştiricilerin araması gerekir**Tüm Formülleri Çalıştır** yöntemi açıkça formüller hücrelere eklendikten sonra. Aslında, kullandığımızda**Hücre Değerini Ayarla** bir hücre yöntemi, daha sonra bu yöntem hücrenin değerini şu şekilde ayarlar:**Formül Türü** sadece ve formülü hesaplamayın. Üstelik arama**Tüm Formülleri Çalıştır**yöntem her zaman gerekli değildir. Bir çalışma sayfasının hücrelerine çok sayıda formül eklemek istiyorsanız, arayabilirsiniz.**Tüm Formülleri Çalıştır** sonunda sadece bir kez yöntem.
+**ÖNEMLİ:** Bir hücrenin **Value** özelliği veya **SetCellValue** metodu kullanımı arasındaki temel fark, **Value** özelliğinin otomatik olarak Grid'in tüm formüllerinin değerlerini yeniden hesaplamak için **RunAllFormulas** metodunu çağırmasıdır. **SetCellValue** metodunu kullandığımızda geliştiricilerin formülleri ekledikten sonra **RunAllFormulas** metodu çağırması gerekli değildir. Aslında, bir çalışma sayfasındaki birçok formül eklemek istiyorsanız, formülleri ekledikten sonra sadece bir kez **RunAllFormulas** metodu çağırabilirsiniz.
 
- Bir hücreye dize değeri olarak bir formül eklenir. Ayrıca formül yapısı MS Excel'in formül yapısı ile uyumlu olmalıdır. Tüm formüller bir ile başlamalıdır**Eşittir İşareti (=)**.
+Bir formül, bir dize değeri olarak bir hücreye eklenir. Ayrıca, formül yapısı MS Excel'deki formül yapısıyla uyumlu olmalıdır. Tüm formüllerin bir **Eşitlik İşareti (=)** ile başlaması gerekir.
 
- Aşağıda verilen örnekte, çalışma sayfasının iki hücresinin değerlerini çarpmak ve sonucu başka bir hücreye kaydetmek için bir formül ekledik.**Tüm Formülleri Çalıştır** yöntem ayrıca sonunda çağrılır.
+Aşağıdaki örnekte, çalışma sayfasındaki iki hücrenin değerlerini çarparak sonucu başka bir hücrede saklayan bir formül ekledik. Son olarak **RunAllFormulas** metodu da çağrılmıştır.
 
 
 
@@ -24,10 +27,10 @@ Bir hücre yalnızca sayısal bir şekil veya bazı metinler gibi basit bir değ
 
 
 
-Şimdi uygulamayı çalıştırın. Formülün eklendiği hücreye çift tıklarsanız, değerin arka uçta değeri gerçekten hesaplayan formülle değiştirileceğini fark edeceksiniz.
+Şimdi uygulamayı çalıştırın. Formül eklenen hücreye çift tıkladığınızda, değerin aslında arka planda hesaplama yapan formülle değiştirildiğini fark edeceksiniz.
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridDesktop, MS Excel'in yaygın olarak kullanılan işlevlerinin çoğunu destekler. Desteklenen işlevlerin listesi hakkında daha fazla ayrıntı için lütfen[buraya tıklayın.](/cells/tr/net/list-of-supported-functions/)
+Aspose.Cells.GridDesktop MS Excel'in yaygın olarak kullanılan çoğu işlevini destekler. Desteklenen işlevlerin listesi hakkında daha fazla bilgi için lütfen [buraya tıklayın.](/cells/tr/net/list-of-supported-functions/)
 
 {{% /alert %}}

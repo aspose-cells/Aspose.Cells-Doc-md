@@ -1,13 +1,14 @@
-﻿---
-title: Känn igen självstängande taggar
+---
+title: Känna igen självstängande taggar
 type: docs
 weight: 50
 url: /sv/python-java/recognize-self-closing-tags/
 ---
-HTML kan ha olika taggformatering för tomma taggar som \<td>\</td> eller \<td/>. Aspose.Cells stöder båda dessa format. Denna funktion kan testas genom att konvertera den bifogade exempelfilen HTML till Excel-fil. Exempelfilen HTML och utdatafiler kan laddas ner från följande länkar för testning.
 
-[Källfilen](sampleSelfClosingTags.zip)
+HTML can have variety of tags formatting for empty tags like \<td>\</td> or \<td/>. Aspose.Cells supports both these formats. This feature can be tested by converting the attached sample HTML file to Excel file. The sample HTML file and output files can be downloaded from the following links for testing.
 
-[Utdatafil](106365184.xlsx)
+[Källfil](sampleSelfClosingTags.zip)
+
+[Utmatningsfil](106365184.xlsx)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-RecognizeSelfClosingTags.py" >}}

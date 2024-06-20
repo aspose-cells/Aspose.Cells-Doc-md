@@ -1,17 +1,18 @@
-﻿---
-title: ワークシートにハイパーリンクを挿入
+---
+title: ワークシートにハイパーリンクを挿入する
 type: docs
 weight: 20
 url: /ja/net/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - ワークシートにハイパーリンクを挿入する**
-**同じファイルに Cell へのリンクを追加する**
 
-Hyperlink コレクションの Add メソッドを呼び出すことで、同じ Excel ファイル内のセルにハイパーリンクを追加できます。 Add メソッドは、内部ハイパーリンクと外部ハイパーリンクの両方に対して機能します。
+## **Aspose.Cells - ワークシートにハイパーリンクを挿入する**
+同一ファイル内のセルにリンクを追加する
+
+セルにハイパーリンクを追加するには、HyperlinkコレクションのAddメソッドを呼び出します。Addメソッドは、内部および外部の両方のハイパーリンクに対して機能します。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -64,18 +65,18 @@ workbook.Save("test.xlsx");
 
 {{< /highlight >}}
 
-**外部ファイルへのリンクの追加**
+外部ファイルへのリンクを追加する
 
-Hyperlink コレクションの Add メソッドを呼び出すことで、同じ Excel ファイル内のセルにハイパーリンクを追加できます。 Add メソッドは、内部ハイパーリンクと外部ハイパーリンクの両方に対して機能します。オーバーロードされたメソッドの 1 つのバージョンは、次のパラメーターを取ります。
+ハイパーリンクコレクションのAddメソッドを呼び出すことで、同じExcelファイルのセルにハイパーリンクを追加することが可能です。オーバーロードされたメソッドのバージョンの1つは、次のパラメータを取ります:
 
-- Cell name,ハイパーリンクが追加されるセルの名前。
+- セル名、ハイパーリンクが追加されるセルの名前。
 - 行数、このハイパーリンク範囲の行数。
-- 列数、このハイパーリンク範囲内の列数。
-- URL、ターゲット セルのアドレス。
+- 列数、このハイパーリンク範囲の列数。
+- URL、対象セルのアドレス。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -96,10 +97,10 @@ worksheet.Hyperlinks.Add("B3", 1, 1, "Sheet2!B9");
 workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - ワークシートへのハイパーリンクの挿入**
+## **NPOI - HSSF XSSF - ワークシートにハイパーリンクを挿入する**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -192,13 +193,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートにハイパーリンクを挿入**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**Insert Hyperlinks in Worksheet**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[リンク データへのハイパーリンクの追加](/cells/ja/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
+詳細については、[Adding Hyperlinks to Link Data](/cells/ja/net/adding-hyperlinks-to-link-data-in-aspose-cells/)を参照してください。
 
 {{% /alert %}}

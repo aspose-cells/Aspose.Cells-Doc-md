@@ -1,15 +1,16 @@
-﻿---
-title: Importieren Sie Daten in Arbeitsblätter mit Aspose.Cells
+---
+title: Daten in Arbeitsblätter mit Aspose.Cells importieren
 type: docs
 weight: 30
 url: /de/java/import-data-to-worksheets-using-aspose-cells/
 ---
-## **Aspose.Cells – Importieren von Daten in Arbeitsblätter**
+
+## **Aspose.Cells - Daten in Arbeitsblätter importieren**
 Daten aus Arrays importieren
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -25,7 +26,7 @@ Worksheet worksheet= workbook.getWorksheets().get(sheetIndex);
 
 //Creating an array containing names as string values
 
-String[]names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
+String[] names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -39,7 +40,7 @@ Daten aus ArrayList importieren
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  ArrayList<String> list = new ArrayList<String>();
 
@@ -62,7 +63,7 @@ cells.importArrayList(list,2,0,true);
 workbook.save(dataDir + "AsposeDataImport.xls");
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**

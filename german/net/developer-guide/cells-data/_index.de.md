@@ -1,86 +1,87 @@
 ---
-title: Daten von Excel-Dateien verwalten
-linktitle: Cells Daten
+title: Verwalten von Daten von Excel Dateien
+linktitle: Zellendaten
 type: docs
 weight: 110
 url: /de/net/view-and-edit-excel-data/
-description: In diesem Artikel wird beschrieben, wie Sie Daten von Excel-Dateien mit der Bibliothek Aspose.Cells anzeigen und bearbeiten.
-keywords: Aspose.Cells C# Manage data of Excel file, add data to Excel file, get data from excel file, How to Improve Efficiency of adding data, manage cells data, update cells data, get cells data, insert cells data
+description: Dieser Artikel beschreibt, wie Daten von Excel Dateien mit der Aspose.Cells Bibliothek angezeigt und bearbeitet werden können.
+keywords: Aspose.Cells C# Verwaltung von Excel Dateidaten, Daten zu Excel Datei hinzufügen, Daten aus Excel Datei abrufen, Optimierung der Effizienz bei der Datenablage, Verwalten von Zellendaten, Aktualisieren von Zellendaten, Abrufen von Zellendaten, Einfügen von Zellendaten
 ---
+
 {{% alert color="primary" %}}
 
- In[Zugriff auf Cells eines Arbeitsblatts](/cells/de/net/accessing-cells-of-a-worksheet/)haben wir grundlegende Ansätze für den Zugriff auf Zellen in einem Arbeitsblatt besprochen. In diesem Artikel wird einer dieser Ansätze verwendet, um Zellen verschiedene Datentypen hinzuzufügen.
+In [Zugriff auf Zellen eines Arbeitsblatts](/cells/de/net/accessing-cells-of-a-worksheet/) haben wir grundlegende Ansätze zur Zugriff auf Zellen in einem Arbeitsblatt besprochen. In diesem Artikel wird einer dieser Ansätze verwendet, um verschiedene Arten von Daten in Zellen hinzuzufügen.
 
 {{% /alert %}}
 
-##  **So fügen Sie Daten zu Cells hinzu**
+## **Wie man Daten zu Zellen hinzufügt**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , das eine Microsoft Excel-Datei darstellt. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Jedes Element in der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Die Sammlung stellt ein Objekt dar[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse.
+Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), die eine Microsoft Excel-Datei repräsentiert. Die [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält eine [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-Sammlung, die Zugriff auf jede Arbeitsmappe in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-Klasse repräsentiert. Die [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-Klasse bietet eine [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-Sammlung. Jedes Element in der [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-Sammlung stellt ein Objekt der [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-Klasse dar.
 
- Aspose.Cells ermöglicht Entwicklern das Hinzufügen von Daten zu den Zellen in Arbeitsblättern durch Aufrufen von[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse'[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) Methode. Aspose.Cells bietet überladene Versionen von[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) Methode, mit der Entwickler Zellen verschiedene Arten von Daten hinzufügen können. Mit diesen überladenen Versionen von[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)Mit der Methode ist es möglich, der Zelle boolesche, Zeichenfolgen-, Doppel-, Ganzzahl- oder Datums-/Uhrzeitwerte usw. hinzuzufügen.
+Mit Aspose.Cells können Entwickler Daten in Zellen von Arbeitsmappen hinzufügen, indem sie die [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-Methode der [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)-Klasse aufrufen. Aspose.Cells bietet überladene Versionen der [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)-Methode, mit denen Entwickler verschiedene Arten von Daten zu Zellen hinzufügen können. Unter Verwendung dieser überladenen Versionen der [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)-Methode ist es möglich, Boolesche, Zeichenfolgen, Dezimalzahlen, Ganzzahlen oder Datum/Zeit usw. Werte der Zelle hinzuzufügen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
-##  **So verbessern Sie die Effizienz**
+## **Wie man die Effizienz verbessert**
 
- Wenn du benutzt[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)Wenn Sie mit dieser Methode eine große Datenmenge in ein Arbeitsblatt einfügen möchten, sollten Sie Werte zu den Zellen hinzufügen, zuerst nach Zeilen und dann nach Spalten. Dieser Ansatz verbessert die Effizienz Ihrer Anwendungen erheblich.
+Wenn Sie die Methode [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) verwenden, um eine große Menge an Daten in ein Arbeitsblatt einzufügen, sollten Sie zuerst Werte in die Zellen nach Zeilen und dann nach Spalten einfügen. Dieser Ansatz verbessert die Effizienz Ihrer Anwendungen erheblich.
 
-##  **So rufen Sie Daten von Cells ab**
+## **Wie man Daten von Zellen abruft**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf Arbeitsblätter in der Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Jedes Element in der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Die Sammlung stellt ein Objekt dar[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse.
+Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), die eine Microsoft Excel-Datei darstellt. Die [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-Klasse enthält eine [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-Sammlung, die den Zugriff auf Arbeitsblätter in der Datei ermöglicht. Ein Arbeitsblatt wird durch die [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-Klasse dargestellt. Die [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-Klasse bietet eine [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-Sammlung. Jedes Element in der [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)-Sammlung stellt ein Objekt der [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-Klasse dar.
 
- Der[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Die Klasse stellt mehrere Eigenschaften bereit, die es Entwicklern ermöglichen, Werte aus den Zellen entsprechend ihrem Datentyp abzurufen. Zu diesen Eigenschaften gehören:
+Die Klasse [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) bietet mehrere Eigenschaften, die es Entwicklern ermöglichen, Werte aus den Zellen gemäß ihren Datentypen abzurufen. Diese Eigenschaften umfassen:
 
-- [**StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue): Gibt den String-Wert der Zelle zurück.
-- [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): Gibt den doppelten Wert der Zelle zurück.
-- [**BoolWert**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/boolvalue): Gibt den booleschen Wert der Zelle zurück.
-- [**DateTimeValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/datetimevalue): Gibt den Datums-/Uhrzeitwert der Zelle zurück.
-- [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue): Gibt den Float-Wert der Zelle zurück.
-- [**IntValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/intvalue): Gibt den ganzzahligen Wert der Zelle zurück.
+- [**StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue): gibt den String-Wert der Zelle zurück.
+- [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): gibt den Double-Wert der Zelle zurück.
+- [**BoolValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/boolvalue): gibt den Boolean-Wert der Zelle zurück.
+- [**DateTimeValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/datetimevalue): gibt den Datum/Uhrzeit-Wert der Zelle zurück.
+- [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue): gibt den Float-Wert der Zelle zurück.
+- [**IntValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/intvalue): gibt den Integer-Wert der Zelle zurück.
 
- Wenn ein Feld nicht gefüllt ist, werden Zellen mit[**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) oder[**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)löst eine Ausnahme aus.
+Wenn ein Feld nicht ausgefüllt ist, wirft die Zelle mit [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) oder [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue) eine Ausnahme.
 
- Der Typ der in einer Zelle enthaltenen Daten kann auch mithilfe von überprüft werden[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse'[**Typ**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) Eigentum. Tatsächlich ist die[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse'[**Typ**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) Die Eigenschaft basiert auf der[**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)Aufzählung, deren vordefinierte Werte unten aufgeführt sind:
+Der Typ der in einer Zelle enthaltenen Daten kann auch über die Eigenschaft [**Type**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) der Klasse [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) überprüft werden. Tatsächlich basiert die Eigenschaft [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) der Klasse [**Type**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) auf der Enumeration [**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype), deren vordefinierte Werte unten aufgeführt sind:
 
-|**Cell Werttypen**|**Beschreibung**|
+|**Zellwerttypen**|**Beschreibung**|
 | :- | :- |
-|IsBool|Gibt an, dass der Zellenwert boolesch ist.|
-|IsDateTime|Gibt an, dass der Zellenwert Datum/Uhrzeit ist.|
-|Ist Null|Stellt eine leere Zelle dar.|
-|IsNumeric|Gibt an, dass der Zellenwert numerisch ist.|
-|IsString|Gibt an, dass der Zellenwert eine Zeichenfolge ist.|
-|Ist unbekannt|Gibt an, dass der Zellenwert unbekannt ist.|
+|IsBool| Gibt an, dass der Zellenwert Boolean ist.|
+|IsDateTime| Gibt an, dass der Zellenwert Datum/Uhrzeit ist.|
+|IsNull| Stellt eine leere Zelle dar.|
+|IsNumeric| Gibt an, dass der Zellenwert numerisch ist.|
+|IsString| Gibt an, dass der Zellenwert eine Zeichenfolge ist.|
+|IsUnknown| Gibt an, dass der Zellenwert unbekannt ist.|
 
-Sie können auch die oben vordefinierten Zellwerttypen verwenden, um sie mit dem in jeder Zelle vorhandenen Datentyp zu vergleichen.
+Sie können auch die oben vordefinierten Zellwerttypen verwenden, um sie mit dem Datentyp in jeder Zelle zu vergleichen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-RetrievingDataFromCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Während der Arbeit an Arbeitsblättern können Benutzer den Zellen verschiedene Arten von Daten hinzufügen. Diese Datentypen können boolesche, ganzzahlige, Gleitkomma-, Text- oder Datums-/Uhrzeitwerte umfassen. Mit Aspose.Cells können Sie entsprechend ihrem Datentyp die entsprechenden Werte aus den Zellen abrufen.
+Beim Arbeiten mit Arbeitsblättern können Benutzer verschiedene Arten von Daten in den Zellen hinzufügen. Diese Datentypen können Boolesche, Ganzzahlen, Gleitkommazahlen, Text- oder Datum-/Uhrzeitwerte umfassen. Mit Aspose.Cells können Sie die entsprechenden Werte basierend auf ihren Datentypen aus den Zellen abrufen.
 
 {{% /alert %}}
 
-##  **Vorabthemen**
-- [Zugriff auf Cells eines Arbeitsblatts](/cells/de/net/accessing-cells-of-a-worksheet/)
-- [Konvertieren Sie numerische Textdaten in Zahlen](/cells/de/net/convert-text-numeric-data-to-number/)
-- [Zwischensummen erstellen](/cells/de/net/creating-subtotals/)
-- [Datenfilterung](/cells/de/net/data-filtering/)
-- [Datensortierung](/cells/de/net/sort-data-of-excel/)
-- [Datenvalidierung](/cells/de/net/data-validation/)
-- [Daten aus Arbeitsblatt exportieren](/cells/de/net/export-data-from-worksheet/)
+## **Erweiterte Themen**
+- [Zellen eines Arbeitsblatts zugreifen](/cells/de/net/accessing-cells-of-a-worksheet/)
+- [Text numerische Daten in Nummer konvertieren](/cells/de/net/convert-text-numeric-data-to-number/)
+- [Teilergebnisse erstellen](/cells/de/net/creating-subtotals/)
+- [Daten filtern](/cells/de/net/data-filtering/)
+- [Daten sortieren](/cells/de/net/sort-data-of-excel/)
+- [Datenüberprüfung](/cells/de/net/data-validation/)
+- [Daten aus dem Arbeitsblatt exportieren](/cells/de/net/export-data-from-worksheet/)
 - [Daten suchen oder suchen](/cells/de/net/find-or-search-data/)
-- [Erhalten Sie den String-Wert Cell mit und ohne Formatierung](/cells/de/net/get-cell-string-value-with-and-without-formatting/)
-- [Hinzufügen von HTML Rich Text innerhalb der Cell](/cells/de/net/adding-html-rich-text-inside-the-cell/)
-- [Fügen Sie Hyperlinks in Excel oder OpenOffice ein](/cells/de/net/insert-hyperlinks-to-excel/)
+- [Zellzeichenfolgenwert mit und ohne Formatierung abrufen](/cells/de/net/get-cell-string-value-with-and-without-formatting/)
+- [Hinzufügen von HTML-Rich-Text in die Zelle](/cells/de/net/adding-html-rich-text-inside-the-cell/)
+- [Hyperlinks in Excel oder OpenOffice einfügen](/cells/de/net/insert-hyperlinks-to-excel/)
 - [Daten in Arbeitsblatt importieren](/cells/de/net/import-data-into-worksheet/)
-- [Wie und wo Enumeratoren verwendet werden](/cells/de/net/how-and-where-to-use-enumerators/)
-- [Messen Sie die Breite und Höhe des Werts Cell in der Einheit Pixel](/cells/de/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)
-- [Cell-Werte in mehreren Threads gleichzeitig lesen](/cells/de/net/reading-cell-values-in-multiple-threads-simultaneously/)
-- [Konvertierung zwischen Zellenname und Zeilen-/Spaltenindex](/cells/de/net/names-and-indices/)
-- [Füllen Sie die Daten zuerst nach Zeile und dann nach Spalte aus](/cells/de/net/populate-data-first-by-row-then-by-column/)
-- [Behalten Sie das einfache Anführungszeichen-Präfix des Werts oder Bereichs Cell bei](/cells/de/net/preserve-single-quote-prefix-of-cell-value-or-range/)
-- [Greifen Sie auf die Rich-Text-Teile von Cell zu und aktualisieren Sie sie](/cells/de/net/access-and-update-the-portions-of-rich-text-of-cell/)
+- [Verwendung und Platzierung von Enumeratoren](/cells/de/net/how-and-where-to-use-enumerators/)
+- [Breite und Höhe des Zellenwerts in Pixeln messen](/cells/de/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/)
+- [Lesen von Zellenwerten in mehreren Threads gleichzeitig](/cells/de/net/reading-cell-values-in-multiple-threads-simultaneously/)
+- [Umwandlung zwischen Zellnamen und Zeilen-/Spaltenindex](/cells/de/net/names-and-indices/)
+- [Daten erst nach Zeile und dann nach Spalte ausfüllen](/cells/de/net/populate-data-first-by-row-then-by-column/)
+- [Einzelnes Anführungszeichen-Prefix des Zellenwerts oder -bereichs beibehalten](/cells/de/net/preserve-single-quote-prefix-of-cell-value-or-range/)
+- [Teile des Rich-Texts der Zelle zugreifen und aktualisieren](/cells/de/net/access-and-update-the-portions-of-rich-text-of-cell/)
 
 
 

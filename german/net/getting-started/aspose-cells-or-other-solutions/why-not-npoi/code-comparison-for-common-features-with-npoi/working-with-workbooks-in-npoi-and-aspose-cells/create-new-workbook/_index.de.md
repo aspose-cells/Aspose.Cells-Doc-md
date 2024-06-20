@@ -1,27 +1,28 @@
-﻿---
-title: Neue Arbeitsmappe erstellen
+---
+title: Neues Arbeitsblatt erstellen
 type: docs
 weight: 20
 url: /de/net/create-new-workbook/
 ---
-## **Aspose.Cells – Neue Arbeitsmappe erstellen**
+
+## **Aspose.Cells - Neues Arbeitsblatt erstellen**
 Die Workbook-Klasse ist für die einfache Verwendung verfügbar
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
 workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many formats
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Neue Arbeitsmappe erstellen**
-Erstellen Sie eine neue Arbeitsmappe mit der Workbook-Klasse und speichern Sie sie mit FileOutputStream.
+## **NPOI - HSSF XSSF - Neuer Arbeitsbereich erstellen**
+Erstellen Sie ein neues Arbeitsblatt mit der Workbook-Klasse und speichern Sie es mithilfe von FileOutputStream.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -38,7 +39,7 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Neue Arbeitsmappe erstellen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie das Formular **Neuen Arbeitsbereich erstellen** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Create.New.Workbook.Aspose.Cells.zip)

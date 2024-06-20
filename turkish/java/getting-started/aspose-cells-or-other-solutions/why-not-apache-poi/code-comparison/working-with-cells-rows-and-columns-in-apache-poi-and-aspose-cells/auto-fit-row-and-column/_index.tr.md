@@ -1,19 +1,20 @@
 ---
-title: Satırı ve Sütunu Otomatik Sığdır
+title: Satır ve Sütunu Otomatik Ayarla
 type: docs
 weight: 10
 url: /tr/java/auto-fit-row-and-column/
-description: Aspose.Cells for Java API numaralı telefondan Satır ve Sütunları nasıl otomatik olarak sığdıracağınızı öğrenin.
-keywords: How to Autofit Row and Column in Java, Autofit Row Data in workbook using Java, Java Autofit Column Data. 
+description: Aspose.Cells for Java API sını kullanarak Satır ve Sütunun Otomatik Ayarlanmasını öğrenin.
+keywords: Java da Satır ve Sütunu Otomatik Ayarlamak, Java da çalışma kitabında Satır Verilerini Otomatik Ayarlamak, Java da Sütun Verilerini Otomatik Ayarlamak. 
 ---
-##  **Aspose.Cells for Java Kullanılarak Satır ve Sütun Nasıl Otomatik Sığdırılır**
-Bir satırın genişliğini ve yüksekliğini otomatik olarak boyutlandırmaya yönelik en basit yaklaşım Worksheet.autoFitRow yöntemini çağırmaktır. autoFitRow yöntemi, parametre olarak (yeniden boyutlandırılacak satırın) satır dizinini alır.
 
-**Lütfen aklınızda bulundurun:**Java'i kullanarak Excel e-tablolarındaki satırları ve sütunları otomatik olarak sığdırmak istiyorsanız lütfen şu adresi ziyaret edin:[Satırları ve Sütunları Otomatik Sığdır](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+## **Aspose.Cells for Java Kullanarak Satır ve Sütunu Otomatik Ayarlamak**
+Bir satırın genişliğini ve yüksekliğini otomatik olarak ayarlamanın en basit yöntemi, Worksheet.autoFitRow metodunu çağırmaktır. AutoFitRow metodu, yeniden boyutlandırılacak olan satırın dizinini parametre olarak alır.
+
+**Lütfen dikkat:** Java kullanarak Excel elektronik tablolarında satır ve sütunları otomatik ayarlamak istiyorsanız, lütfen [Satır ve Sütunları Otomatik Ayarlama](https://docs.aspose.com/cells/java/autofit-rows-and-columns/) adresini ziyaret edin.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook("workbook.xls");
 
@@ -31,12 +32,12 @@ workbook.save("AutoFit_Aspose.xls");
 
 
 {{< /highlight >}}
-##  **Apache POI SS - HSSF XSSF - Satırı ve Sütunu Otomatik Sığdır**
-Apache POI SS - HSSF ve XSSF, sütunların otomatik olarak sığdırılması için Sheet.autoSizeColumn'u sağlar
+## **Apache POI SS - HSSF XSSF - Satır ve Sütunu Otomatik Ayarla**
+Apache POI SS - HSSF ve XSSF, Sütunları otomatik şekilde ayarlamak için Sheet.autoSizeColumn sağlar
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  InputStream inStream = new FileInputStream("workbook.xls");
 
@@ -57,7 +58,7 @@ workbook.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-##  **Çalışan Kodu İndir**
+## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-##  **Örnek Kodu İndirin**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/Java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)
+## **Örnek Kod İndir**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)

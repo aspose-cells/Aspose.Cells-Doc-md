@@ -1,46 +1,47 @@
-﻿---
-title: テーブルの基本情報を追加する
+---
+title: テーブルに基本情報を追加
 type: docs
 weight: 20
 url: /ja/reportingservices/adding-base-information-for-table/
 ---
+
 新しいテーブルを作成するには:
 
 1. Microsoft Excel を開きます。
-1. クリック**レポートを開く** 
+1. **レポートを開く** をクリックします。 
 
-![todo:画像_代替_文章](adding-base-information-for-table_1)
+![todo:image_alt_text](adding-base-information-for-table_1)
 
- Aspose.Cells.Report.Designer ツールバーの `  ` をクリックして、事前に作成されたデータ ソース、データセット、およびレポート パラメーターを含む RDL レポート ファイルを開きます。ファイルが正常に開かれると、そのすべての情報が使用できるようになります。たとえば、そのデータセットが関連する DataSet コンボ ボックスに一覧表示されます。
+事前に作成されたデータソース、データセット、およびレポートパラメータが含まれるRDLレポートファイルを開くには、Aspose.Cells.Report.Designerツールバーの` `をクリックします。ファイルが正常に開かれると、その情報全てが利用可能になります。例えば、そのデータセットは該当のデータセットコンボボックスでリストされます。 
 
-![todo:画像_代替_文章](adding-base-information-for-table_2.png)
+![todo:image_alt_text](adding-base-information-for-table_2.png)
 
-1. Microsoft Excel スプレッドシートを開き、テーブル ヘッダーを次のように設計します。
+1. Microsoft Excelスプレッドシートを開き、次のようにテーブルヘッダーをデザインします: 
 
-   **テーブル ヘッダーの設計** 
+   **テーブルヘッダーのデザイン** 
 
-![todo:画像_代替_文章](adding-base-information-for-table_3.png)
+![todo:image_alt_text](adding-base-information-for-table_3.png)
 
-1. 関連するデータセット コンボ ボックス コントロールからデータセット「EmpSalesDetail」を選択します。
+1. 適切なデータセットコンボボックスからデータセット「EmpSalesDetail」を選択します。 
 
    **データセットの選択** 
 
-![todo:画像_代替_文章](adding-base-information-for-table_4.png)
+![todo:image_alt_text](adding-base-information-for-table_4.png)
 
-1. データセット「EmpSalesDetail」のすべてのフィールドが、フィールド コンボ ボックスに一覧表示されます。 OrderNumber 列 Cell の下のセルを選択し、フィールド コンボ ボックスから「SalesOrderNumber」フィールドを選択して、セルにデータ マーカーを挿入します。
+1. データセット「EmpSalesDetail」のすべてのフィールドがフィールドコンボボックスにリストされます。OrderNumber列セルの下のセルを選択し、フィールドコンボボックスから「SalesOrderNumber」フィールドを選択してデータマーカーを挿入します。 
 
    **フィールドの挿入** 
 
-![todo:画像_代替_文章](adding-base-information-for-table_5.png)
+![todo:image_alt_text](adding-base-information-for-table_5.png)
 
 
 
-**フィールド コードは、フィールドが挿入された場所を示します。** 
+**フィールドコードは、フィールドが挿入された場所を示します**。 
 
-![todo:画像_代替_文章](adding-base-information-for-table_6.png)
+![todo:image_alt_text](adding-base-information-for-table_6.png)
 
-1. 手順 5 を繰り返して、ProdCat フィールドと SubCat フィールドを挿入します。
+1. ステップ5を繰り返し、ProdCatおよびSubCatフィールドを挿入します。 
 
    **挿入されたすべてのフィールド** 
 
-![todo:画像_代替_文章](adding-base-information-for-table_7.png)
+![todo:image_alt_text](adding-base-information-for-table_7.png)

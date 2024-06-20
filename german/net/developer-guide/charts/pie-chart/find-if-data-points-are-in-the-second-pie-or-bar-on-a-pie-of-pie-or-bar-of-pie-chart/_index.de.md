@@ -1,27 +1,28 @@
 ---
-title: Finden Sie heraus, ob sich Datenpunkte im zweiten Kreis oder Balken eines Kreisdiagramms oder Balkendiagramms befinden
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET herausfinden, ob sich Datenpunkte im zweiten Kreis oder Balken eines Kreisdiagramms oder Balkendiagramms befinden. Unser Leitfaden zeigt, wie Sie den sekundären Kreis oder Balken in einem zusammengesetzten Diagramm identifizieren und darauf zugreifen, sodass Sie die Daten effektiv analysieren und bearbeiten können.
-keywords: Aspose.Cells for .NET, Pie of Pie Chart, Bar of Pie Chart, Secondary Pie, Secondary Bar, Data Analysis, Data Manipulation.
+title: Feststellen, ob Datenauswahl in der zweiten Torte oder Balken in einem Tortendiagramm oder Balkendiagramm aufgeführt ist
+description: Erfahren Sie, wie Sie Aspose.Cells for .NET verwenden, um festzustellen, ob Datenauswahlen in der zweiten Torte oder Balken in einem Tortendiagramm oder Balkendiagramm enthalten sind. Unser Leitfaden wird zeigen, wie Sie die sekundäre Torte oder den Balken in einem zusammengesetzten Diagramm identifizieren und darauf zugreifen können, um die Daten effektiv zu analysieren und zu manipulieren.
+keywords: Aspose.Cells for .NET, Pie of Pie Chart, Bar of Pie Chart, Sekundäre Pie, Sekundäre Bar, Datenanalyse, Datenmanipulation.
 type: docs
 weight: 180
 url: /de/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/
 ---
-##  **Mögliche Nutzungsszenarien**
- Sie können herausfinden, ob sich Datenpunkte einer Reihe im zweiten Kreis befinden*Kuchen vom Kuchen* Diagramm oder in der Leiste von*Stück Kuchen* Diagramm unter Aspose.Cells. Bitte verwenden Sie die[ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)Eigenschaft, es zu bestimmen.
 
- Bitte laden Sie die herunter[Beispiel-Excel-Datei](5115193.xlsx)Wird im folgenden Beispielcode verwendet und sehen Sie sich die Konsolenausgabe an. Wenn Sie die öffnen[Beispiel-Excel-Datei](5115193.xlsx) Sie werden feststellen, dass alle Datenpunkte, die kleiner als 10 sind, innerhalb der Leiste von liegen*Stück Kuchen*Diagramm, wie auch in der Konsolenausgabe angezeigt.
-##  **Finden Sie heraus, ob sich Datenpunkte im zweiten Kreis oder Balken eines Kreisdiagramms oder Balkendiagramms befinden**
- Der folgende Beispielcode zeigt, wie Sie herausfinden, ob sich Datenpunkte im zweiten Kreis oder Balken auf a befinden*Kuchen vom Kuchen* oder*Stück Kuchen*Diagramm.
+## **Mögliche Verwendungsszenarien**
+Sie können mit Aspose.Cells herausfinden, ob Datenpunkte einer Serie im zweiten Kuchen auf einem *Kuchen aus Kuchen* oder in der Leiste des *Balken aus Kuchen* mit der Eigenschaft [ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) sind.
+
+Bitte laden Sie die [Beispiel-Excel-Datei](5115193.xlsx) herunter, die im folgenden Beispielcode verwendet wird, und sehen Sie sich dessen Konsolenausgabe an. Wenn Sie die [Beispiel-Excel-Datei](5115193.xlsx) öffnen, finden Sie alle Datenpunkte, die kleiner als 10 sind, innerhalb der Leiste des *Balken aus Kuchen*, wie auch von der Konsolenausgabe angezeigt.
+## **Herausfinden, ob Datenpunkte in der zweiten Torte oder Balken in einem Tortendiagramm der Torten oder Balken sind**
+Der folgende Beispielcode zeigt, wie Sie herausfinden können, ob Datenpunkte im zweiten Kuchen oder Balken auf einem *Kuchen aus Kuchen* oder *Balken aus Kuchen* vorhanden sind.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindDataPointsInPieBar-FindDataPointsInPieBar.cs" >}}
-##  **Konsolenausgabe**
- Sehen Sie sich bitte die folgende Konsolenausgabe an, die nach der Ausführung des obigen Beispielcodes mit generiert wurde[Beispiel-Excel-Datei](5115193.xlsx) . Wenn[IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)Ist *falsch**, liegt der Datenpunkt innerhalb des Kuchens, oder wenn *wahr**, dann liegt der Datenpunkt innerhalb des Balkens.
+## **Konsolenausgabe**
+Bitte beachten Sie die folgende Konsolenausgabe, die nach der Ausführung des obigen Beispielcodes mit der [Beispiel-Excel-Datei](5115193.xlsx) generiert wurde. Wenn [IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) **false** ist, befindet sich der Datenpunkt im Kuchen, und wenn **true**, dann befindet sich der Datenpunkt im Balken.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Value: 15
 

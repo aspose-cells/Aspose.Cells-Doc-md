@@ -1,35 +1,38 @@
-﻿---
-title: قم بإضافة ورقة عمل أو إدراجها
+---
+title: إضافة أو إدراج ورقة عمل
 type: docs
 weight: 20
-url: /ar/net/add-or-insert-a-worksheet/
+url: /ar/net/aspose-cells-griddesktop/add-or-insert-a-worksheet/
+keywords: GridDesktop ، إدراج ، ورقة عمل ، إدراج ورقة عمل
+description: يقدم هذا المقال كيفية إضافة أو إدراج ورقة عمل في GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-في هذا الموضوع ، سنناقش تقنيات إضافة أوراق العمل أو إدراجها في ملف Excel باستخدام Aspose.Cells.GridDesktop. الفرق بين إضافة أوراق العمل وإدراجها هو أنه بالإضافة إلى ذلك ، تتم إضافة ورقة العمل ببساطة في نهاية مجموعة أوراق العمل الخاصة بملف Excel ، لكن الإدراج يعني إضافة ورقة عمل إلى موضع معين في مجموعة أوراق العمل.
+في هذا الموضوع، سنناقش التقنيات لإضافة أو إدراج ورقات عمل في ملف Excel باستخدام Aspose.Cells.GridDesktop. الفرق بين إضافة وإدراج الورقات العمل هو أنه بالإضافة، يتم ببساطة إضافة ورقة عمل في نهاية مجموعة ورقات العمل من ملف Excel، بينما إدراج يعني إضافة ورقة عمل إلى موقع محدد في مجموعة ورقات العمل.
 
 {{% /alert %}} 
 ## **إضافة ورقة عمل**
-لإضافة ورقة عمل باستخدام Aspose.Cells.GridDesktop ، يرجى اتباع الخطوات التالية:
+لإضافة ورقة عمل باستخدام Aspose.Cells.GridDesktop، يُرجى اتباع الخطوات التالية:
 
-1. أضف Aspose.Cells.GridDesktop control إلى نموذج.
-1. قم باستدعاء الأسلوب Add الخاص بمجموعة ورقة العمل في عنصر تحكم GridDesktop.
+1. أضف تحكم Aspose.Cells.GridDesktop إلى نموذج.
+2. استدعاء طريقة Add في مجموعة الورقات في تحكم GridDesktop.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddInsertWorksheet-AddingWorksheet.cs" >}}
 
 
-تتوفر العديد من الإصدارات المحملة بشكل زائد من طريقة Add. باستخدام الإصدار الزائد أعلاه ، على سبيل المثال ، تتم إضافة ورقة عمل إلى ملف Excel باسم ورقة افتراضي. باستخدام إصدارات أخرى محملة بشكل زائد من طريقة Add ، من الممكن تحديد الاسم كما هو موضح أدناه في المثال.
+تتوفر العديد من الإصدارات المتحملة لطريقة Add. باستخدام الإصدار المتحمل أعلاه، على سبيل المثال، يتم إضافة ورقة عمل إلى ملف Excel باسم ورقة افتراضي. باستخدام إصدارات أخرى من طريقة Add، من الممكن تعريف الاسم كما هو موضح أدناه في المثال.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddInsertWorksheet-AddingWorksheetWithName.cs" >}}
 ## **إدراج ورقة عمل**
-لإدراج ورقة عمل باستخدام Aspose.Cells.GridDesktop ، يرجى اتباع الخطوات التالية:
+لإدراج ورقة عمل باستخدام Aspose.Cells.GridDesktop، يرجى اتباع الخطوات التالية:
 
-1. قم باضافة Aspose.Cells.GridDesktop control الى نموذج.
-1. قم باستدعاء الأسلوب Insert الخاص بمجموعة أوراق العمل في عنصر تحكم GridDesktop.
+1. أضف تحكم Aspose.Cells.GridDesktop إلى نموذج.
+1. استدعاء طريقة الإدراج في مجموعة الأوراق داخل عنصر التحكم GridDesktop.
 
 
 
@@ -37,6 +40,6 @@ url: /ar/net/add-or-insert-a-worksheet/
 
 {{% alert color="primary" %}} 
 
-هام: يدعم Microsoft Excel (97-2003 XLS) أوراق Excel التي تحتوي على 65536 صفاً و 256 عموداً. Aspose.Cells.GridDesktop يتبع نفس المعايير. في Aspose.Cells.GridDesktop control ، يمكن للمطورين إضافة أو إدراج أوراق عمل تحتوي على صفوف وأعمدة أكثر من الحد القياسي ولكن عندما يحاولون حفظ بيانات الشبكة في ملف Excel ، سيتم طرح استثناء. هذا يعني أنه يمكن حفظ البيانات الموجودة في 65536 صفاً و 256 عموداً فقط في ملف Excel XLS باستخدام Aspose.Cells.GridDesktop ، إذا كنت تستخدم تنسيق ملف XLSX (MS Excel 2007/2010) ، فلا يوجد مثل هذا القيد.
+مهم: يدعم Microsoft Excel (XLS 97-2003) أوراق Excel بحتى 65,536 صف و 256 عمود. تتبع Aspose.Cells.GridDesktop نفس المعايير. في عنصر التحكم Aspose.Cells.GridDesktop، يمكن للمطورين إضافة أو إدراج أوراق عمل بمزيد من الصفوف والأعمدة من الحد القياسي ولكن عند محاولة حفظ بيانات الشبكة إلى ملف Excel، سيتم رمي استثناء. يعني ذلك أنه يمكن حفظ البيانات فقط التي تحتوي على 65,536 صف و 256 عمود إلى ملف Excel XLS باستخدام عنصر التحكم Aspose.Cells.GridDesktop. إذا استخدمت XLSX (MS Excel 2007/2010)، فليس هناك قيد من هذا القبيل.
 
 {{% /alert %}}

@@ -3,17 +3,18 @@ title: 行と列の自動調整
 type: docs
 weight: 10
 url: /ja/java/auto-fit-row-and-column/
-description: Aspose.Cells for Java API を通じて行と列を自動調整する方法を学びます。
-keywords: How to Autofit Row and Column in Java, Autofit Row Data in workbook using Java, Java Autofit Column Data. 
+description: Aspose.Cells for Java API を使用して行と列の自動調整方法を学びます。
+keywords: Javaで行と列の自動調整方法、ワークブック内の行データの自動調整方法、Javaで列データの自動調整方法の方法について学ぶ。 
 ---
-##  **Aspose.Cells for Java を使用して行と列を自動調整する方法**
-行の幅と高さを自動調整する最も簡単な方法は、Worksheet.autoFitRow メソッドを呼び出すことです。 autoFitRow メソッドは、(サイズ変更される行の) 行インデックスをパラメータとして受け取ります。
 
-**ご注意ください：**Java を使用して Excel スプレッドシートの行と列を自動調整する場合は、次のサイトにアクセスしてください。[行と列の自動調整](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+## **Aspose.Cells for Javaを使用して行と列の自動調整方法**
+行の幅と高さを自動調整するもっとも簡単な方法は、Worksheet.autoFitRow メソッドを呼び出すことです。autoFitRow メソッドは、変更する行のインデックスをパラメータとして取ります。
+
+Javaを使用してExcelスプレッドシート内の行と列を自動調整する場合は、[行と列の自動調整](https://docs.aspose.com/cells/java/autofit-rows-and-columns/)をご覧ください。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook("workbook.xls");
 
@@ -31,12 +32,12 @@ workbook.save("AutoFit_Aspose.xls");
 
 
 {{< /highlight >}}
-##  **Apache POI SS - HSSF XSSF - 行と列の自動調整**
-Apache POI SS - HSSF および XSSF は列を自動調整するための Sheet.autoSizeColumn を提供します
+## **Apache POI SS - HSSF XSSF - 行と列の自動調整**
+Apache POI SS - HSSF and XSSF は、Sheet.autoSizeColumn を使用して列を自動調整します
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  InputStream inStream = new FileInputStream("workbook.xls");
 
@@ -57,7 +58,7 @@ workbook.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-##  **実行コードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-##  **サンプルコードをダウンロード**
+## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)

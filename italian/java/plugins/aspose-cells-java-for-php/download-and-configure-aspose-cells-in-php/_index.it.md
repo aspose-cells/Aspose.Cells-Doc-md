@@ -1,100 +1,103 @@
-﻿---
-title: Scarica e configura Aspose.Cells in PHP
+---
+title: Scarica e Configura Aspose.Cells in PHP
 type: docs
 weight: 10
 url: /it/java/download-and-configure-aspose-cells-in-php/
 ---
-## **Scarica le librerie richieste**
-Scarica le librerie richieste menzionate di seguito. Questi sono i requisiti per l'esecuzione degli esempi Aspose.Cells Java for PHP.
+
+## **Scarica le librerie necessarie**
+Scarica le librerie necessarie indicate di seguito. Queste sono necessarie per eseguire gli esempi Aspose.Cells Java in PHP.
 
 - **Aspose:** [Aspose.Cells for Java Componente](https://downloads.aspose.com/cells/java/)
-- [PHP/Java Ponte](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip/download/)
-## **Scarica esempi dai siti di codifica sociale**
-Le seguenti versioni di esempi in esecuzione sono disponibili per il download sui siti di social coding sotto indicati:
+- [Bridge PHP/Java](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip/download/)
+## **Scarica esempi dai siti di codice sociale**
+Le versioni in esecuzione degli esempi disponibili per il download sono disponibili sui siti di codici sociali di seguito menzionati:
 
 -----
-### **Git Hub**
-- **Aspose.Cells Java for PHP Esempi** 
+### **GitHub**
+- **Esempi Aspose.Cells Java in PHP** 
   - [Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP)
-## **Come configurare il codice sorgente su piattaforma Linux**
-Si prega di seguire questi semplici passaggi per aprire ed estendere il codice sorgente durante l'utilizzo:
+## **Come configurare il codice sorgente sulla piattaforma Linux**
+Si prega di seguire questi semplici passaggi per aprire ed estendere il codice sorgente durante l'uso:
 ## **1. Installa il server Tomcat**
- Per installare il server Tomcat, emettere il seguente comando sulla console Linux. Questo installerà correttamente il server Tomcat.
+Per installare il server Tomcat, emettere il seguente comando sulla console Linux. Ciò installerà con successo il server Tomcat. 
 
-{{< highlight "actionscript3" >}}
+{{< highlight actionscript3 >}}
 
  sudo apt-get install tomcat8
 
 {{< /highlight >}}
-## **2. Scarica e configura PHP/JavaBridge**
- Per scaricare i binari PHP/JavaBridge, emettere il seguente comando sulla console Linux.
+## **2. Scarica e Configura PHP/JavaBridge**
+Per scaricare i binari di PHP/JavaBridge, emettere il seguente comando sulla console Linux. 
 
-{{< highlight "actionscript3" >}}
+{{< highlight actionscript3 >}}
 
   wget https://iweb.dl.sourceforge.net/project/php-java-bridge/Binary%20package/php-java-bridge_6.2.1/php-java-bridge_6.2.1_documentation.zip
 
 {{< /highlight >}}
 
 
-Decomprimi i binari PHP/JavaBridge emettendo il seguente comando sulla console Linux.
+Estrai i binari di PHP/JavaBridge emettendo il seguente comando sulla console Linux. 
 
-{{< highlight "actionscript3" >}}
+{{< highlight actionscript3 >}}
 
   unzip -d php-java-bridge_6.2.1_documentation.zip 
 
 {{< /highlight >}}
 
 
-Questo estrarrà**JavaBridge.war**file. Copialo in Tomcat88**webapp** folder emettendo il seguente comando sulla console Linux.
+Questo estrarrà il file **JavaBridge.war**. Copialo nella cartella **webapps** di tomcat88 emettendo il seguente comando sulla console Linux. 
 
-{{< highlight "actionscript3" >}}
+{{< highlight actionscript3 >}}
 
   sudo cp JavaBridge.war /var/lib/tomcat8/webapps/JavaBridge.war 
 
 {{< /highlight >}}
 
 
-Copiando, Tomcat8 creerà automaticamente una nuova cartella "**JavaBridge**" in**webapp**. Una volta creata la cartella, assicurati che Tomcat8 sia in esecuzione, quindi controlla<http://localhost:8080/JavaBridge> nel browser, dovrebbe aprire una pagina predefinita di JavaBridge.
+By copying, tomcat8 will automatically create a new folder "**JavaBridge**" in **webapps**. Once the folder is created, make sure your tomcat8 is running and then check <http://localhost:8080/JavaBridge> in browser, it should open a default page of JavaBridge. 
 
- Se viene visualizzato un messaggio di errore, installare**FastCGI**immettendo il seguente comando sulla console Linux.
+Se compare un messaggio di errore, installa **FastCGI** emettendo il seguente comando sulla console Linux.
 
-{{< highlight "actionscript3" >}}
+{{< highlight actionscript3 >}}
 
   sudo apt-get install php55-cgi 
 
 {{< /highlight >}}
 
-Dopo aver installato php5.5 cgi, riavvia il server Tomcat8 e controlla<http://localhost:8080/JavaBridge>nuovamente nel browser.
+After installing php5.5 cgi, restart tomcat8 server and check <http://localhost:8080/JavaBridge> again in the browser.
 
-Se**JAVA_HOME**viene visualizzato l'errore, quindi aprire il file /etc/default/tomcat8 e rimuovere il commento dalla riga che imposta JAVA_HOME. Controlla di nuovo <http://localhost:8080/JavaBridge> nel browser, dovrebbe venire con la pagina degli esempi PHP/JavaBridge.
-## **3. Configura Aspose.Cells Java for PHP Esempi**
- Clona, esempi PHP immettendo i seguenti comandi all'interno della cartella webapps/JavaBridge.
+If **JAVA_HOME** error is displayed, then open /etc/default/tomcat8 file and uncomment the line that sets the JAVA_HOME. Check <http://localhost:8080/JavaBridge> in browser again, it should come with PHP/JavaBridge Examples page. 
+## **3. Configura gli esempi Aspose.Cells Java in PHP**
+Clonare, esempi PHP emettendo i seguenti comandi all'interno della cartella webapps/JavaBridge.  
 
-{{< highlight "actionscript3" >}}
+{{< highlight actionscript3 >}}
 
  $ git init&nbsp;
 
-$ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP]{{< /highlight >}}
+$ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP] 
 
-## **Come configurare il codice sorgente sulla piattaforma Windows**
-Si prega di seguire i semplici passaggi seguenti per configurare PHP/Java Bridge sulla piattaforma Windows
+{{< /highlight >}}
 
-\1. Installa PHP5 e configura come fai normalmente
-\2. Installa JRE 6 (Java Runtime Environment) se non lo hai già. Puoi verificarlo in C:\Program Files ecc. Puoi scaricarlo qui . Sto usando JRE 6 in quanto è compatibile con PHP Java Bridge (PJB).
+## **Come configurare il codice sorgente su Windows Platform**
+Si prega di seguire i seguenti passaggi semplici per configurare PHP/Java Bridge su Windows Platform
 
-\3. Installa Apache Tomcat 8.0. Potete scaricarlo qui
+1. Installa PHP5 e configurarlo come fai normalmente
+2. Installa JRE 6 (Java Runtime Environment) se non lo hai già. Puoi controllare questo in C:\Programmi etc. Puoi scaricarlo qui. Sto usando JRE 6 in quanto è compatibile con PHP Java Bridge (PJB).
 
- 4.Scarica[JavaBridge.war](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download). Copia questo file nella directory webapps di Tomcat.
-(es: C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps )
+3. Installa Apache Tomcat 8.0. Puoi scaricarlo qui
 
-\5. Riavvia il servizio Tomcat Apache.
+4. Scarica [JavaBridge.war](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download). Copia questo file nella directory webapps di tomcat.
+(ad esempio: C:\Programmi\Apache Software Foundation\Tomcat 8.0\webapps)
 
- 6.Vai a<http://localhost:8080/JavaBridge/test.php> per verificare se php funziona. Puoi trovare altri esempi lì dentro
+5. Riavvia il servizio tomcat apache.
 
-7.Copiare il file jar Aspose.Cells Java in C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\WEB-INF\lib
+6.Go to <http://localhost:8080/JavaBridge/test.php> to check if php works. You can find other examples in there
 
- \8. Clone[Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) esempi all'interno della cartella C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\.
+7. Copia il file jar di Aspose.Cells Java in C:\Programmi\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\WEB-INF\lib
 
-\8. Copia la cartella C:\Programmi\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java nella cartella degli esempi Aspose.Cells Java for PHP.
+8. Clona gli esempi [Aspose.Cells Java for PHP](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP) all'interno della cartella C:\Programmi\Apache Software Foundation\Tomcat 8.0\webapps\.
 
- \10. Riavvia il servizio Apache Tomcat e inizia a utilizzare gli esempi.
+8. Copia la cartella C:\Programmi\Apache Software Foundation\Tomcat 8.0\webapps\JavaBridge\java nella cartella degli esempi di Aspose.Cells Java for PHP.
+
+10. Riavvia il servizio apache tomcat e inizia a utilizzare gli esempi. 

@@ -1,40 +1,41 @@
-﻿---
-title: Importa Esporta i dati dal documento
+---
+title: Importa ed esporta dati dal documento
 type: docs
 weight: 10
 url: /it/net/import-export-data-from-document/
 ---
-## **Importa i dati dal documento**
 
-dati sono la raccolta di fatti grezzi e creiamo fogli di calcolo o report per presentare questi fatti grezzi in modo più significativo. Normalmente, aggiungiamo i dati ai fogli di calcolo da soli, ma a volte abbiamo bisogno di riutilizzare le risorse di dati esistenti e qui nasce la necessità di importare i dati nei fogli di calcolo da diverse fonti di dati. In questo argomento verranno illustrate alcune tecniche per importare dati in fogli di lavoro da diverse origini dati.
+## **Importa dati dal documento**
 
-## **Importazione dei dati utilizzando Aspose.Cells**
+I dati sono la raccolta di fatti grezzi e creiamo documenti di fogli di calcolo o report per presentare questi fatti grezzi in modo più significativo. Normalmente aggiungiamo dati ai fogli di calcolo da soli, ma a volte dobbiamo riutilizzare risorse dati esistenti e qui nasce la necessità di importare dati nei fogli di lavoro da diverse fonti di dati. In questo argomento, discuteremo alcune tecniche per importare dati nei fogli di lavoro da diverse fonti di dati.
 
- Quando usi**Aspose.Cells** per aprire un file Excel, tutti i dati nel file vengono importati automaticamente ma Aspose.Cells supporta anche l'importazione di dati da diverse fonti di dati. Alcune di queste fonti di dati sono elencate di seguito:
+## **Importare dati utilizzando Aspose.Cells**
 
-- **Vettore**
-- **Lista di array**
-- **Tabella dati**
-- **Colonna dati**
-- **Visualizzazione dati**
+Quando si utilizza **Aspose.Cells** per aprire un file Excel, tutti i dati nel file vengono importati automaticamente ma Aspose.Cells supporta anche l'importazione di dati da diverse fonti di dati. Alcune di queste fonti di dati sono elencate di seguito:
+
+- **Array**
+- **ArrayList**
+- **DataTable**
+- **DataColumn**
+- **DataView**
 - **DataGrid**
 - **DataReader**
-- **Vista a griglia**
+- **GridView**
 
- Aspose.Cells offre un corso,**Cartella di lavoro** che rappresenta un file Excel. La classe Workbook contiene una raccolta di fogli di lavoro che consente di accedere a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe Worksheet. La classe del foglio di lavoro fornisce una raccolta Cells.
+Aspose.Cells fornisce una classe, **Workbook** che rappresenta un file Excel. La classe Workbook contiene una raccolta di Worksheets che consente di accedere a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe Worksheet. La classe Worksheet fornisce una raccolta di celle.
 
-La raccolta Cells fornisce metodi molto utili per importare dati da diverse fonti di dati.
+La raccolta di celle fornisce metodi molto utili per importare dati da diverse fonti di dati.
 
-### **Importazione dall'array**
+### **Importazione da Array**
 
- Gli sviluppatori possono importare dati da un array nei propri fogli di lavoro chiamando il metodo**ImportArray** metodo della raccolta Cells. Esistono molte versioni di overload del metodo ImportArray, ma un tipico overload accetta i seguenti parametri:
+Gli sviluppatori possono importare dati da un array nei loro fogli di lavoro chiamando il metodo **ImportArray** della raccolta Cells. Ci sono molte versioni sovraccaricate del metodo ImportArray ma un sovraccarico tipico richiede i seguenti parametri:
 
-- Array, rappresenta l'oggetto array il cui contenuto deve essere importato
-- Numero di riga, rappresenta il numero di riga della prima cella in cui verranno importati i dati
-- Numero colonna, rappresenta il numero di colonna della prima cella in cui verranno importati i dati
-- È verticale, un valore booleano che specifica di importare i dati verticalmente o orizzontalmente
+- Array, rappresenta l'oggetto array i cui contenuti devono essere importati
+- Numero di riga, rappresenta il numero di riga della prima cella dove i dati saranno importati
+- Numero di colonna, rappresenta il numero di colonna della prima cella dove i dati saranno importati
+- È Verticale, un valore booleano che specifica di importare i dati verticalmente o orizzontalmente
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -50,7 +51,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 //Creating an array containing names as string values
 
-string[]names = new string[]{ "laurence chen", "roman korchagin", "kyle huang" };
+string[] names = new string[] { "laurence chen", "roman korchagin", "kyle huang" };
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -64,13 +65,13 @@ workbook.Save(MyDir+"DataImport from Array.xls");
 
 ### **Importazione da ArrayList**
 
- Gli sviluppatori possono importare dati da un ArrayList ai propri fogli di lavoro chiamando il metodo**ImportArrayList** metodo della raccolta Cells. Il metodo ImportArray accetta i seguenti parametri:**Lista di array** , rappresenta l'oggetto ArrayList di cui è necessario importare il contenuto
+Gli sviluppatori possono importare dati da un ArrayList nei loro fogli di lavoro chiamando il metodo **ImportArrayList** della raccolta Cells. Il metodo ImportArray richiede i seguenti parametri: **ArrayList** , rappresenta l'oggetto ArrayList i cui contenuti devono essere importati
 
-- Row Number , rappresenta il numero di riga della prima cella in cui verranno importati i dati
-- Numero colonna , rappresenta il numero di colonna della prima cella in cui verranno importati i dati
-- Is Vertical , un valore booleano che specifica di importare i dati verticalmente o orizzontalmente
+- Numero di riga, rappresenta il numero di riga della prima cella dove i dati saranno importati
+- Numero di colonna, rappresenta il numero di colonna della prima cella dove i dati saranno importati
+- È Verticale, un valore booleano che specifica di importare i dati verticalmente o orizzontalmente
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -108,11 +109,11 @@ workbook.Save(MyDir + "DataImport from Array List.xls");
 
 {{< /highlight >}}
 
-### **Importazione da oggetti personalizzati**
+### **Importazione da Oggetti Personalizzati**
 
- Gli sviluppatori possono importare i dati dalla raccolta di oggetti in un foglio di lavoro utilizzando**Importa oggetti personalizzati**. È possibile fornire un elenco di colonne/proprietà al metodo per visualizzare l'elenco di oggetti desiderato.
+Gli sviluppatori possono importare dati da una collezione di oggetti in un foglio di lavoro usando **ImportCustomObjects**. È possibile fornire una lista di colonne/proprietà al metodo per visualizzare la lista desiderata di oggetti.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate a new Workbook
 
@@ -142,7 +143,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 
@@ -170,12 +171,12 @@ book.Save(MyDir+"ImportedCustomObjects.xls");
 
 ### **Importazione da DataTable**
 
- Gli sviluppatori possono importare dati da a**Tabella dati** ai loro fogli di lavoro chiamando il**Importa tabella dati** metodo della raccolta Cells. Esistono molte versioni sovraccaricate di**Importa tabella dati** metodo ma un sovraccarico tipico accetta i seguenti parametri:**Tabella dati** , rappresenta il**Tabella dati** oggetto i cui contenuti devono essere importati
+Gli sviluppatori possono importare dati da un **DataTable** nei loro fogli di lavoro chiamando il metodo **ImportDataTable** della raccolta Cells. Ci sono molte versioni sovraccaricate del metodo **ImportDataTable** ma un sovraccarico tipico richiede i seguenti parametri:**DataTable** , rappresenta l'oggetto **DataTable** i cui contenuti devono essere importati
 
-- **Viene visualizzato il nome del campo**, specifica se i nomi delle colonne di DataTable devono essere importati o meno nel foglio di lavoro come prima riga
-- **Inizio Cell** rappresenta il nome della cella iniziale (es. "A1") da cui importare il contenuto della DataTable
+- **È Mostrato Nome Campo**, specifica se i nomi delle colonne del DataTable devono essere importati nel foglio di lavoro come prima riga o meno
+- **Cella di Inizio** , rappresenta il nome della cella di inizio (cioè "A1") da dove importare i contenuti del DataTable
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiating a Workbook object
 
@@ -207,11 +208,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -223,11 +224,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 
@@ -249,24 +250,24 @@ workbook.Save(MyDir+"Import From Data Table.xls");
 
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
 
-## **Esporta i dati dal documento**
+## **Esporta dati dal documento**
 
- Aspose.Cells non solo facilita ai suoi utenti l'importazione di dati in fogli di lavoro da fonti di dati esterne, ma consente anche loro di esportare i dati del foglio di lavoro in un**Tabella dati** . Come lo sappiamo**Tabella dati** è la parte di ADO.NET e viene utilizzato per contenere i dati. Una volta che i dati sono stati archiviati in un file**Tabella dati**, può essere utilizzato in qualsiasi modo in base alle esigenze degli utenti.
+Aspose.Cells non solo facilita ai suoi utenti l'importazione di dati nei fogli di lavoro da fonti dati esterne ma consente loro anche di esportare i dati del loro foglio di lavoro in un **DataTable**. Come sappiamo, **DataTable** fa parte di ADO.NET e viene utilizzato per contenere dati. Una volta che i dati sono memorizzati in un **DataTable**, possono essere utilizzati in qualsiasi modo secondo le esigenze degli utenti.
 
-## **Esportazione di dati in DataTable (.NET) utilizzando Aspose.Cells**
+## **Esportazione di dati su DataTable (.NET) utilizzando Aspose.Cells**
 
-Gli sviluppatori possono facilmente esportare i dati del foglio di lavoro in un oggetto DataTable chiamando il metodo ExportDataTable o ExportDataTableAsString della classe Cells. Entrambi i metodi vengono utilizzati in diversi scenari, descritti di seguito in modo più dettagliato.
+Gli sviluppatori possono facilmente esportare i dati del loro foglio di lavoro in un oggetto DataTable chiamando il metodo ExportDataTable o ExportDataTableAsString della classe Cells. Entrambi i metodi sono utilizzati in scenari diversi, che vengono discussi di seguito in maggior dettaglio.
 
 ### **Colonne contenenti dati fortemente tipizzati**
 
-Sappiamo che un foglio di calcolo memorizza i dati come una sequenza di righe e colonne. Se tutti i valori nelle colonne di un foglio di lavoro sono fortemente tipizzati (ciò significa che tutti i valori in una colonna devono avere lo stesso tipo di dati), allora possiamo esportare il contenuto del foglio di lavoro chiamando il**ExportDataTable** metodo della classe Cells.**ExportDataTable** Il metodo accetta i seguenti parametri per esportare i dati del foglio di lavoro come**Tabella dati** oggetto:**Numero riga** , rappresenta il numero di riga della prima cella da cui verranno esportati i dati
+Sappiamo che un foglio di calcolo memorizza i dati come una sequenza di righe e colonne. Se tutti i valori nelle colonne di un foglio di lavoro sono fortemente tipizzati (ciò significa che tutti i valori in una colonna devono avere lo stesso tipo di dati) allora possiamo esportare il contenuto del foglio di lavoro chiamando il metodo **ExportDataTable** della classe Cells. Il metodo **ExportDataTable** richiede i seguenti parametri per esportare i dati del foglio di lavoro come oggetto **DataTable**: **Numero di riga**, rappresenta il numero di riga della prima cella da cui verranno esportati i dati
 
-- **Numero di colonna** , rappresenta il numero di colonna della prima cella da cui verranno esportati i dati
-- **Numero di righe** , rappresenta il numero di righe da esportare
-- **Numero di colonne** rappresenta il numero di colonne da esportare
-- **Esporta nomi di colonne** , una proprietà booleana che indica se i dati nella prima riga del foglio di lavoro devono essere esportati o meno come nomi di colonna della DataTable
+- **Numero di colonna**, rappresenta il numero di colonna della prima cella da cui verranno esportati i dati
+- **Numero di righe**, rappresenta il numero di righe da esportare
+- **Numero di colonne**, rappresenta il numero di colonne da esportare
+- **Esporta Nomi Colonne**, una proprietà booleana che indica se i dati nella prima riga del foglio di lavoro dovrebbero essere esportati come nomi delle colonne del DataTable o meno
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Creating a file stream containing the Excel file to be opened
 
@@ -298,9 +299,9 @@ fstream.Close();
 
 ### **Colonne contenenti dati non fortemente tipizzati**
 
- Se tutti i valori nelle colonne di un foglio di lavoro non sono fortemente tipizzati (ciò significa che i valori in una colonna possono avere i diversi tipi di dati), allora possiamo esportare il contenuto del foglio di lavoro chiamando il metodo**ExportDataTableAsString** metodo della classe Cells.**ExportDataTableAsString** Il metodo accetta lo stesso set di parametri di quello di**ExportDataTable** metodo per esportare i dati del foglio di lavoro come**Tabella dati** oggetto.
+Se tutti i valori nelle colonne di un foglio di lavoro non sono fortemente tipizzati (ciò significa che i valori in una colonna possono avere tipi di dati diversi) allora possiamo esportare il contenuto del foglio di lavoro chiamando il metodo **ExportDataTableAsString** della classe Cells. Il metodo **ExportDataTableAsString** prende lo stesso set di parametri del metodo **ExportDataTable** per esportare i dati del foglio di lavoro come oggetto **DataTable**.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Creating a file stream containing the Excel file to be opened
 

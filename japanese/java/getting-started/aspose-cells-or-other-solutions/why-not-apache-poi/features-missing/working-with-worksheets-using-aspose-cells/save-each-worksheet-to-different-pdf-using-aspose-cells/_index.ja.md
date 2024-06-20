@@ -1,33 +1,34 @@
-﻿---
-title: Aspose.Cells を使用して、各ワークシートを別の PDF に保存します
+---
+title: Aspose.Cells を使用して各ワークシートを異なる PDF に保存
 type: docs
 weight: 80
 url: /ja/java/save-each-worksheet-to-different-pdf-using-aspose-cells/
 ---
-## **Aspose.Cells - 各ワークシートを別の PDF に保存**
-Aspose.Cells は、XLS ファイル (画像、チャートなどを含む) を PDF ドキュメントに変換することをサポートします。 Aspose.Cells for Java は独立してスプレッドシートを Pdf ドキュメントに変換することができ、変換に Aspose.Pdf for Java を使用する必要がなくなりました。プロセス全体をメモリ内で実行できるため、変換では一時ファイルを作成/使用する必要はありません。
+
+## **Aspose.Cells - 各ワークシートを異なる PDF に保存**
+Aspose.Cellsでは、画像、チャートなどが含まれるXLSファイルをPDFドキュメントに変換する機能がサポートされています。Aspose.Cells for JavaでスプレッドシートをPDFドキュメントに変換することができ、この変換にはAspose.Pdf for Javaを使用する必要はありません。変換には一時ファイルの作成/使用も必要ありません。全プロセスはメモリ内で行うことができます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Excelファイルのパスを取得
+ //Get the Excel file path
 
-文字列 filePath = dataDir + "workbook.xlsx";
+String filePath = dataDir + "workbook.xlsx";
 
-//新しいワークブックをインスタンス化し、Excel を開く
+//Instantiate a new workbook and open the Excel
 
-//その場所からのファイル
+//File from its location
 
-ワークブック ワークブック = 新しいワークブック(ファイルパス);
+Workbook workbook = new Workbook(filePath);
 
-//ブック内のワークシートの数を取得します
+//Get the count of the worksheets in the workbook
 
 int sheetCount = workbook.getWorksheets().getCount();
 
-//最初のワークシートを除くすべてのシートを非表示にします
+//Make all sheets invisible except first worksheet
 
-for (int i = 1; i< workbook.getWorksheets().getCount(); i++)
+for (int i = 1; i < workbook.getWorksheets().getCount(); i++)
 
 {
 
@@ -58,12 +59,12 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/SaveEachWorksheetToDifferentPDF.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[各ワークシートを別の PDF ファイルに保存する](/cells/ja/java/save-each-worksheet-to-a-different-pdf-file).
+詳細については、[各ワークシートを別々のPDFファイルに保存](/cells/ja/java/save-each-worksheet-to-a-different-pdf-file)をご覧ください。
 
 {{% /alert %}}

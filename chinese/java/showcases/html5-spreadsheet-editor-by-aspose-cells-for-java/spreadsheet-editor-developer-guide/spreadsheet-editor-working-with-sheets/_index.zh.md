@@ -1,5 +1,5 @@
 ---
-title: 表格编辑器 - 与工作表一起工作
+title: 表格编辑器  与工作表一起工作
 type: docs
 weight: 20
 url: /zh/java/spreadsheet-editor-working-with-sheets/

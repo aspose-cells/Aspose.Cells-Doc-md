@@ -1,13 +1,14 @@
-﻿---
-title: استبدال النص في مصنف باستخدام التعبير العادي
+---
+title: استبدال النص في دفتر العمل باستخدام التعبير العادي
 type: docs
 weight: 90
 url: /ar/net/replace-text-in-a-workbook-using-regular-expression/
 ---
- يوفر Aspose.Cells خاصية لاستبدال نص في مصنف باستخدام تعبير عادي. لهذا ، يوفر API[**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey)ممتلكات[**ReplaceOptions**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions) صف دراسي. وضع[**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) إلى**حقيقي** يشير إلى أن المفتاح الذي تم البحث عنه سيكون تعبيرًا عاديًا.
 
-يوضح مقتطف الشفرة التالي استخدام ملف[**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) الملكية باستخدام[نموذج ملف اكسل](101089318.xlsx) . ال[ملف إلاخراج](101089319.xlsx) تم إنشاؤها بواسطة مقتطف الشفرة التالي مرفق كمرجع.
+توفر Aspose.Cells ميزة استبدال النص في دفتر العمل باستخدام تعبير عادي. لهذا الغرض، يوفر الـ API خاصية [**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) لفئة [**ReplaceOptions**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions). تعيين [**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) إلى **true** يشير إلى أن المفتاح المبحث سيكون تعبيرًا عاديًا.
 
-## **عينة من الرموز**
+يوضح مقتطف الكود التالي استخدام خاصية [**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) باستخدام [ملف إكسل عيني](101089318.xlsx). يتم إرفاق [ملف الإخراج](101089319.xlsx) الذي تم إنشاؤه بواسطة مقتطف الكود التالي للإشارة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-RegexReplace-1.cs" >}}

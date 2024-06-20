@@ -1,18 +1,21 @@
-﻿---
-title: Fogli di lavoro in movimento
+---
+title: Spostamento dei fogli di lavoro
 type: docs
 weight: 150
-url: /it/net/moving-worksheets/
+url: /it/net/aspose-cells-griddesktop/move-worksheets/
+keywords: GridDesktop, spostamento, foglio di lavoro
+description: Questo articolo introduce come lavorare con i fogli di lavoro in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop supporta lo spostamento dei fogli di lavoro all'interno della cartella di lavoro.
+Aspose.Cells.GridDesktop supporta lo spostamento dei fogli di lavoro all'interno del documento di lavoro.
 
 {{% /alert %}} 
-## **Sposta i fogli di lavoro all'interno di una cartella di lavoro**
-Aspose.Cells.GridDesktop fornisce un metodo, Aspose.Cells.GridDesktop.WorksheetCollection.MoveTo(), utilizzato per spostare un foglio di lavoro nell'indice specificato. Prende gli indici (in base zero) del foglio di lavoro di origine e del foglio di lavoro di destinazione come parametri. Fondamentalmente viene utilizzato per spostare un foglio di lavoro in un'altra posizione nello stesso foglio di calcolo.
+## **Spostare i fogli di lavoro all'interno di un libro**
+Aspose.Cells.GridDesktop fornisce un metodo, Aspose.Cells.GridDesktop.WorksheetCollection.MoveTo(), che viene utilizzato per spostare un foglio di lavoro all'indice specificato. Prende gli indici (a base zero) del foglio di lavoro di origine e del foglio di lavoro di destinazione come parametri. Viene utilizzato fondamentalmente per spostare un foglio di lavoro in un'altra posizione nello stesso foglio di calcolo.
 
-L'esempio seguente mostra come spostare un foglio di lavoro in un'altra posizione all'interno della cartella di lavoro.
+L'esempio seguente mostra come spostare un foglio di lavoro in un'altra posizione all'interno del libro di lavoro.
 
 
 

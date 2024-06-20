@@ -1,16 +1,17 @@
-﻿---
-title: Estrai immagini da fogli di lavoro
+---
+title: Estrai immagini dai fogli di lavoro
 type: docs
 weight: 240
 url: /it/java/extract-images-from-worksheets/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Gli utenti di Excel possono aggiungere immagini ai fogli di calcolo. Con Aspose.Cells, è possibile leggere immagini da file Excel Microsoft e salvarle su un'unità locale. Questo articolo mostra come raggiungere questo obiettivo utilizzando Aspose.Cells for Java API.
+Gli utenti di Microsoft Excel possono aggiungere immagini ai fogli di calcolo. Con Aspose.Cells, è possibile leggere immagini dai file di Microsoft Excel e salvarle su un drive locale. Questo articolo mostra come farlo utilizzando l'API Aspose.Cells for Java.
 
 {{% /alert %}} 
 
-Il codice di esempio seguente mostra come estrarre le immagini da un file Excel e salvarle.
+Il codice di esempio di seguito mostra come estrarre immagini da un file di Excel e salvarle.
 
 
 

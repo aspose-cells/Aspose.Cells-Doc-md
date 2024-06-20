@@ -1,11 +1,12 @@
-﻿---
-title: Aspose.Cells for Android via Java の使用例
+---
+title: Aspose.Cells for Android via Javaの使用方法
 type: docs
 weight: 50
 url: /ja/java/how-to-use-the-aspose-cells-for-android-via-java-examples/
 ---
-最初に、ADT バンドルがインストールされていること、および最新バージョンの Aspose.Cells for Android via Java がダウンロードされていることを確認してください。
 
-- を抽出します**aspose-cells-XXXjar**を最新リリースのアーカイブからダウンロードし、実行するサンプルの下の新しいフォルダーに追加します。というフォルダーの下にファイルを追加します**ライブラリ**.
-- Eclipse と ADT を使用して、ワークスペースでプロジェクトを開きます。
-- クリック**走る**パッケージを実行する適切なエミュレーターを起動して選択します。
+まず、ADTバンドルがインストールされており、Aspose.Cells for Android via Javaの最新バージョンをダウンロードしていることを確認してください。
+
+- 最新のリリースアーカイブから**aspose-cells-X.X.X.jar**を抽出し、実行したい例の下に**libs**というフォルダを作成して追加します。
+- ADTを使用してEclipseでワークスペース内のプロジェクトを開きます。
+- [Run]をクリックして、実行するエミュレータを選択してパッケージを実行します。

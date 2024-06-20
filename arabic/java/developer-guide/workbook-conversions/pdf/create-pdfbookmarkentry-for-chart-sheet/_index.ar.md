@@ -1,26 +1,27 @@
-﻿---
-title: قم بإنشاء PdfBookmarkEntry لورقة الرسم البياني
+---
+title: إنشاء إدخال PdfBookmarkEntry لورقة الرسم البياني
 type: docs
 weight: 50
 url: /ar/java/create-pdfbookmarkentry-for-chart-sheet/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-في وقت سابق ، كان من الممكن إنشاء Aspose.Cells[**Pdf المرجعية الدخول**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) للحصول على ورقة عادية. ولكن الآن يمكن إنشاء Aspose.Cells أيضًا[**Pdf المرجعية الدخول**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) لورقة الرسم البياني. نظرًا لأن ورقة المخطط لا تحتوي على أي خلية أخرى باستثناء الخلية A1 ، فسيتم إنشاؤها[**Pdf المرجعية الدخول**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry)للخلية A1 فقط.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **قم بإنشاء PdfBookmarkEntry لورقة الرسم البياني**
+سابقًا، كانت Aspose.Cells تقوم بإنشاء [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) لورقة عادية. ولكن الآن يمكن لـ Aspose.Cells أيضًا إنشاء [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) لورقة الرسم البياني. نظرًا لعدم وجود ورقة الرسم البياني أي خلية أخرى إلا الخلية A1، فسيقوم بإنشاء [**PdfBookmarkEntry**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfBookmarkEntry) لـ الخلية A1 فقط.
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](61767772.xlsx)الذي يحتوي على أربع أوراق. اثنتان منهما أوراق عادية والاثنان الآخران عبارة عن أوراق مخططات. يقوم بإنشاء أربعة مداخل مرجعية على النحو التالي
+## **إنشاء PdfBookmarkEntry لورقة الرسم البياني**
 
-- المرجعية- أنا
-- المرجعية- II- الرسم البياني 1
-- المرجعية- III
-- المرجعية- IV- الرسم البياني 2
+الشفرة النموذجية التالية تحمل [ملف إكسل عيني](61767772.xlsx) الذي يحتوي على أربع ورقات. ورقتان منها عاديتان والأخرتان ورقتان رسم بياني. فإنه يخلق أربعة مدخلات للوسم كما يلي
 
-تُظهر لقطة الشاشة التالية ملف[الإخراج PDF](61767771.pdf)تم إنشاؤها بواسطة رمز عينة كمرجع.
+- إشارة-I
+- إشارة-II-Chart1
+- إشارة-III
+- إشارة-IV-Chart2
 
-![ما يجب القيام به: image_بديل_نص](create-pdfbookmarkentry-for-chart-sheet_1.png)
+تُظهر اللقطة الشاشية التالية [ملف بي دي إف الناتج](61767771.pdf) الذي تم إنشاؤه بواسطة الشفرة النموذجية للرجوع إليها.
 
-## **عينة من الرموز**
+![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-CreatePdfBookmarkEntryForChartSheet.java" >}}

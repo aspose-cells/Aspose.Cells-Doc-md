@@ -1,16 +1,17 @@
-﻿---
-title: Rasterlinien in Ruby ein- oder ausblenden
+---
+title: Anzeigen oder Ausblenden von Gitterlinien in Ruby
 type: docs
 weight: 10
 url: /de/java/display-or-hide-gridlines-in-ruby/
 ---
-## **Aspose.Cells – Rasterlinien anzeigen oder ausblenden**
-### **Ausblenden von Gitternetzlinien**
- Arbeitsblatt ausblenden mit**Aspose.Cells Java für Rubin** , Anruf**Rasterlinien ausblenden** Modul.
+
+## **Aspose.Cells - Rasterspalten anzeigen oder ausblenden**
+### **Rasterspalten ausblenden**
+Um ein Arbeitsblatt mit **Aspose.Cells Java für Ruby** auszublenden, rufen Sie das Modul **displayhidegridlines** auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -37,19 +38,19 @@ workbook.save(data_dir + "output.xls")
 puts "Gridlines are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Rasterlinien sichtbar machen**
-Um Rasterlinien sichtbar zu machen, verwenden Sie die setGridlinesVisible(true)-Methode der Worksheet-Klasse.
+### **Anzeigen von Rasterlinien**
+Um Gitterlinien sichtbar zu machen, verwenden Sie die Methode setGridlinesVisible(true) der Klasse Worksheet.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the gridlines of the worksheet
 
 worksheet.setGridlinesVisible(true)
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Rasterlinien ein- oder ausblenden (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Anzeigen oder Ausblenden von Gitternetzlinien (Aspose.Cells)** von einer der unten aufgeführten Social-Coding-Sites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)

@@ -1,40 +1,43 @@
-﻿---
-title: Aspose.Grid.Web'i Aspose.Cells.GridWeb'e yükseltin
+---
+title: Aspose.Grid.Web i Aspose.Cells.GridWeb e Yükselt
 type: docs
 weight: 30
-url: /tr/net/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
+url: /tr/net/aspose-cells-gridweb/upgrade-aspose-grid-web-to-aspose-cells-gridweb/
+keywords: GridWeb 
+description: Bu makale, GridWeb in nasıl yükseltileceğini tanıtmaktadır.
 ---
-{{% alert color="primary" %}}
-
-Yükseltmeyi kolaylaştırmak için, özellikle eski Aspose.Grid.Web'i kullanmış ve birleştirilmiş Aspose.Cells.GridWeb'e yükseltmesi gereken mevcut kullanıcılar için kritik bilgileri açıklayan bir belge tutuyoruz.
-
- Bunların kısa notlar olması amaçlanmıştır ve kitabın bölümlerine bakarak daha fazla bilgi bulabilmeniz gerekir.[Geliştirici Kılavuzu](/cells/tr/net/developer-guide/).
-
-{{% /alert %}}
-
-## **Aspose.Cells.GridWeb'e yükseltme**
-
- Aspose.Grid.Web kullanıcıları, yükseltme yaptıklarında yeni Aspose.Cells.GridWeb'i kullanırken sorunlarla karşılaşabilirler. Aspose.Grid.Web'in yeniden adlandırıldığına ve Aspose.Cells'in bir parçası haline geldiğine dikkat edilmelidir, bu nedenle kontrolün eski sürümlerine devam etmeyeceğiz veya bu sürümlerde değişiklik yapmayacağız.
-
-En son Aspose.Cells.GridWeb bileşenine yükseltmek zor değil.
 
 {{% alert color="primary" %}}
 
-API'de üyeler, yapılar, numaralandırmalar vb. ile sınıflar aynı kaldığından birkaç değişiklik vardır. Değişikliklerin çoğu, kontrolün ad alanlarında ve diğer etiketlerde veya niteliklerde yapılmıştır.
+Yükseltmeyi kolaylaştırmak için, mevcut kullanıcılar için kritik bilgileri açıklayan bir belge sağlıyoruz, özellikle eski Aspose.Grid.Web kullananlar ve Aspose.Cells.GridWeb'a yükseltme yapması gerekenler için.
+
+Bu kısa notlar olması amaçlanmıştır ve [Geliştirici Kılavuzu](/cells/tr/net/aspose-cells-gridweb/developer-guide/) bölümlerine bakarak daha fazla bilgi bulmanız gerektiğini düşünüyoruz.
 
 {{% /alert %}}
 
-Aşağıda, şimdi değiştirilen ad alanları listesi ve diğer nitelikler/etiketler yer almaktadır:
+## **Aspose.Cells.GridWeb'e Yükseltme**
 
-1. Aspose.Grid.Web ad alanı, Aspose.Cells.GridWeb olarak yeniden adlandırıldı.
-1. Aspose.Grid.Web.Data ad alanı, Aspose.Cells.GridWeb.Data olarak yeniden adlandırıldı.
-1. Aspose.Grid.Web.Design ad alanı, Aspose.Cells.GridWeb.Design olarak yeniden adlandırıldı.
-1. Aspose.Grid.Formula ad alanı, Aspose.Cells.GridFormula olarak yeniden adlandırıldı ve bileşenin son sürümleriyle, söz konusu ad alanı genel API'den tamamen kaldırıldı.
-1. agw:GridWeb etiketi, aspx biçiminde acw:GridWeb olarak değiştirildi.
-1. Eski Aspose.Grid.Web istemci yolu, agw_istemci, acw olarak değişti_Aspose.Cells.GridWeb için istemci.
-1.  Web.config dosyasındaki istemci yolu ayarı, örneğin:
+Aspose.Grid.Web kullanıcıları, Aspose.Cells.GridWeb'e yükselttiklerinde yeni sorunlarla karşılaşabilirler. Aspose.Grid.Web'in adının değiştiği ve Aspose.Cells'in bir parçası haline geldiği unutulmamalıdır, bu nedenle kontrolün eski sürümlerine devam etmeyeceğiz veya değişiklikler yapmayacağız. 
 
-{{< highlight "java" >}}
+En yeni Aspose.Cells.GridWeb bileşenine yükseltmek zor değildir.
+
+{{% alert color="primary" %}}
+
+Sınıfların, yapılar, numaralandırmalar vb. üyeleriyle ilgili bazı değişiklikler yapılmış olmasına rağmen, API'de birkaç değişiklik bulunmaktadır. Çoğu değişiklik, kontrolün ad uzayları ve diğer etiketler veya özniteliklerine yapılmıştır.
+
+{{% /alert %}}
+
+Aşağıdaki, şu anda değiştirilmiş olan ad uzayları listesi ve diğer öznitelikler/etiketler listesidir:
+
+1. Aspose.Grid.Web ad uzayı Aspose.Cells.GridWeb olarak değiştirildi.
+1. Aspose.Grid.Web.Data ad uzayı Aspose.Cells.GridWeb.Data olarak değiştirildi.
+1. Aspose.Grid.Web.Design ad uzayı Aspose.Cells.GridWeb.Design olarak değiştirildi.
+1. Aspose.Grid.Formula ad uzayı Aspose.Cells.GridFormula olarak değiştirildi ve bileşenin en son sürümleriyle, söz konusu ad uzayı tamamen genel API'den kaldırıldı.
+1. aspx formunda tag agw:GridWeb, acw:GridWeb olarak değiştirildi.
+1. Eski Aspose.Grid.Web istemci yolu, agw_client, Aspose.Cells.GridWeb için acw_client olarak değiştirildi.
+1. Örneğin web.config dosyasında istemci yol ayarı: 
+
+{{< highlight java >}}
 
  <appSettings> 
 
@@ -48,9 +51,9 @@ Aşağıda, şimdi değiştirilen ad alanları listesi ve diğer nitelikler/etik
 
 {{< /highlight >}}
 
- olarak değişti
+olarak değiştirildi 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <appSettings>
 

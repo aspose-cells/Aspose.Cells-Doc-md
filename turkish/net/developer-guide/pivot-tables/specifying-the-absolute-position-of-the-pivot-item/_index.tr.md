@@ -1,25 +1,26 @@
-﻿---
-title: Pivot Öğesinin Mutlak Konumunu Belirleme
+---
+title: Pivot Öğesinin Mutlak Konumunu Belirtme
 type: docs
 weight: 50
 url: /tr/net/specifying-the-absolute-position-of-the-pivot-item/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen, kullanıcının pivot öğelerinin mutlak konumunu belirtmesi gerekir, Aspose.Cells API birkaç yeni özelliği ve kullanıcı gereksinimini karşılamak için bir yöntemi kullanıma sunmuştur.
+Bazı durumlarda, kullanıcı pivot öğelerinin mutlak konumunu belirmek isteyebilir, Aspose.Cells API'sı, kullanıcı gereksinimini karşılamak için birkaç yeni özellik ve bir yöntem sunar.
 
--  Katma[**Özet Öğe. Konum**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position) üst düğümden bağımsız olarak tüm PivotItem'lerdeki konum dizinini belirtmek için kullanılabilen özellik. Katma[**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) aynı üst düğüm altındaki PivotItems içindeki konum dizinini belirtmek için kullanılabilen özellik.
--  Katma[**PivotItem.Move(int sayısı, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move)count değerine göre öğeyi yukarı veya aşağı taşımak için kullanılan yöntem; burada count, PivotItem'i yukarı veya aşağı hareket ettirmek için konum sayısıdır. Sayım değeri sıfırdan küçükse, öğe yukarı taşınır, burada sayım değeri sıfırdan büyükse, PivotItem aşağı hareket eder, Boolean tipi isSameParent parametresi, taşıma işleminin aynı üst düğümde gerçekleştirilip gerçekleştirilmeyeceğini belirtir. ya da değil.
--  Eskimiş*PivotItem.Move(int sayısı)* yöntemi bu nedenle yeni eklenen yöntemin kullanılması önerilir.[**PivotItem.Move(int sayısı, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) yerine.
+- Tüm ebeveyn düğümün bağımsızında PivotItems içindeki pozisyon indeksini belirlemek için kullanılabilecek [**PivotItem.Position**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position) özelliği eklendi. - Aynı ebeveyn düğümdeki PivotItems içindeki pozisyon indeksini belirlemek için kullanılabilecek [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) özelliği eklendi.
+- PivotItem'ı yukarı veya aşağı hareket ettirmek için [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) metodu eklendi, burada sayım değeri tarafından yapılacak PivotItem'ın yukarı veya aşağı hareket etme sayısını belirtir; Eğer sayım değeri sıfırdan küçükse, öğe yukarı hareket ettirilecek, eğer sayım değeri sıfırdan büyükse, PivotItem aşağı hareket eder, Boolean türünde olan isSameParent parametresi, hareket işleminin aynı ebeveyn düğümünde gerçekleştirilip gerçekleştirilmeyeceğini belirtir.
+- *PivotItem.Move(int count)* yöntemi kullanım dışı bırakıldı bu nedenle tavsiye edilen, yerine yeniden eklenen yöntemi [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) kullanmaktır.
 
 {{% /alert %}}
 
- Aşağıdaki örnek kod, bir Pivot Tablo oluşturur ve ardından aynı üst düğümdeki Pivot Öğeleri konumlarını belirtir. indirebilirsiniz[kaynak Excel](5112632.xlsx) ve[Excel çıktısı](5112619.xlsx) referansınız için dosyalar. Çıktı Excel dosyasını açarsanız, "4H12" Pivot Öğesinin "K11" ebeveyninde 0. konumda ve "DIF400" 3. konumda olduğunu göreceksiniz. Benzer şekilde, CA32 1 konumunda ve AAA3 2 konumunda
+Aşağıdaki örnek kod, bir Pivot Tablo oluşturur ve ardından aynı ebeveyn düğümdeki Pivot Öğelerinin konumlarını belirtir. Referansınız için [kaynak Excel](5112632.xlsx) ve [çıktı Excel](5112619.xlsx) dosyalarını indirebilirsiniz. Çıktı Excel dosyasını açarsanız, Pivot Öğesi "4H12"'nin "K11" üst ebeveynindeki 0. pozisyonda olduğunu ve "DIF400"'in 3. pozisyonda olduğunu göreceksiniz. Benzer şekilde, CA32 1. pozisyonda ve AAA3 2. pozisyonda.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-SpecifyAbsolutePositionOfPivotItem-SpecifyAbsolutePositionOfPivotItem.cs" >}}
 
 {{% alert color="primary" %}}
 
-Lütfen unutmayın, kullanmadan önce PivotTable.RefreshData ve PivotTable.CalculateData yöntemlerini çağırmak gerekir.[**Özet Öğe. Konum**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position), [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) özellikler ve[**PivotItem.Move(int sayısı, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) yöntem.
+Lütfen dikkat, [**PivotItem.Position**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position), [**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) özellikleri ve [**PivotItem.Move(int count, bool isSameParent)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) metodu kullanmadan önce PivotTable.RefreshData ve PivotTable.CalculateData yöntemlerini çağırmak gereklidir.
 
 {{% /alert %}}

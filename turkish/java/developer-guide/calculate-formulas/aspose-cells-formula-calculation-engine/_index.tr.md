@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Cells Formül Hesaplama Motoru
 type: docs
 weight: 70

@@ -1,14 +1,15 @@
-﻿---
-title: Excel を SVG に変換
+---
+title: Excel を SVG に変換する
 type: docs
 weight: 60
 url: /ja/python-java/convert-excel-to-svg/
 ---
-## **Excel を SVG に変換**
-SVG(**スケーラブル ベクター グラフィックス)**2 次元ベクター グラフィックスの XML 標準に基づく仕様です。これは、1999 年から World Wide Web Consortium (W3C) によって開発されているオープン標準です。
 
-Aspose.Cells for Python via Java は、Excel ファイルの SVG 画像への変換をサポートしています。このために、API は[シートレンダリング](https://reference.aspose.com/cells/python/asposecells.api/SheetRender), [ImageOrPrintOptions](https://reference.aspose.com/cells/python/asposecells.api/ImageOrPrintOptions)、 と[WorkbookRender](https://reference.aspose.com/cells/python/asposecells.api/WorkbookRender)クラス。
+## **Excel を SVG に変換する**
+SVG（**スケーラブル ベクター グラフィックス**）は、2次元ベクターグラフィックススペックであり、XML 標準に基づいています。1999 年以来、World Wide Web Consortium (W3C) によって開発されているオープンスタンダードです。
 
-次のコード スニペットは、Excel ワークシートを SVG 画像に変換する方法を示しています。
+Aspose.Cells for Python via Java では、Excel ファイルを SVG 画像に変換する機能をサポートしています。そのために、API は [SheetRender](https://reference.aspose.com/cells/python/asposecells.api/SheetRender)、[ImageOrPrintOptions](https://reference.aspose.com/cells/python/asposecells.api/ImageOrPrintOptions)、および [WorkbookRender](https://reference.aspose.com/cells/python/asposecells.api/WorkbookRender) クラスを提供しています。
+
+以下のコードスニペットは、Excel ワークシートを SVG 画像に変換する方法を示しています。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-ConvertingToSVG.py" >}}

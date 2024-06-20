@@ -1,18 +1,19 @@
-﻿---
-title: Exportieren Sie Kommentare beim Speichern einer Excel-Datei unter HTML
+---
+title: Export von Kommentaren beim Speichern von Excel Datei in HTML
 type: docs
 weight: 40
 url: /de/java/export-comments-while-saving-excel-file-to-html/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn Sie Ihre Excel-Datei in HTML speichern, werden Kommentare nicht exportiert. Aspose.Cells bietet diese Funktion jedoch über die[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments)Eigentum. Wenn Sie es einstellen**wahr**dann zeigt HTML auch Kommentare an, die in Ihrer Excel-Datei vorhanden sind.
+## **Mögliche Verwendungsszenarien**
 
-## **Exportieren Sie Kommentare, während Sie eine Excel-Datei in HTML speichern**
+Wenn Sie Ihre Excel-Datei in HTML speichern, werden Kommentare nicht exportiert. Aspose.Cells bietet jedoch diese Funktion unter Verwendung der [**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments)-Eigenschaft. Wenn Sie es auf **true** setzen, werden in HTML auch Kommentare aus Ihrer Excel-Datei angezeigt.
 
-Der folgende Beispielcode erläutert die Verwendung von[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments) Eigentum. Der Screenshot zeigt die Auswirkung des Codes auf die HTML, wenn die Eigenschaft auf gesetzt ist**wahr**. Bitte laden Sie die herunter[Beispiel-Excel-Datei](50528270.xlsx)und die[generiert HTML](50528269)für eine Referenz.
+## **Kommentare beim Speichern einer Excel-Datei in Html exportieren**
 
-![todo: Bild_alt_Text](export-comments-while-saving-excel-file-to-html_1.png)
+Der folgende Beispielcode erläutert die Verwendung der [**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments)-Eigenschaft. Der Screenshot zeigt die Auswirkung des Codes auf das HTML, wenn die Eigenschaft auf **true** gesetzt ist. Laden Sie bitte die [Beispiel-Excel-Datei](50528270.xlsx) und das [generierte HTML](50528269) zur Referenz herunter.
+
+![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
 
 ## **Beispielcode**
 

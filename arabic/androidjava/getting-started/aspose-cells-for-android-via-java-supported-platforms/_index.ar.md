@@ -1,11 +1,12 @@
-﻿---
-title: Aspose.Cells for Android via Java المنصات المدعومة
+---
+title: Aspose.Cells لـ Android via Java المنصات المدعومة
 type: docs
 weight: 20
 url: /ar/java/aspose-cells-for-android-via-java-supported-platforms/
 ---
-Aspose.Cells for Android via Java مكتوب بالكامل في Java ، ويعتمد فقط على المكتبات القياسية Java ، ويمكن استخدامه في أي تطبيق Java على أي منصة يدعمها Java. يتم توفير via Java for Android via Java كتنزيل ZIP ويحتوي على ما يلي:
 
-- Aspose.Cells for Android via Java مكتبة جرة.
-- أمثلة المشاريع.
-- Aspose.Cells توثيق بتنسيق HTML.
+تمت كتابة Aspose.Cells لـ Android via Java بالكامل بلغة Java فقط، وتعتمد فقط على مكتبات Java القياسية، ويمكن استخدامها في أي تطبيق Java على أي منصة مدعومة بواسطة Java. تتوفر Aspose.Cells لـ Android via Java كتنزيل ZIP وتحتوي على ما يلي:
+
+- مكتبة jar لـ Aspose.Cells لـ Android via Java.
+- مشاريع مثالية.
+- توثيق Aspose.Cells في تنسيق HTML.

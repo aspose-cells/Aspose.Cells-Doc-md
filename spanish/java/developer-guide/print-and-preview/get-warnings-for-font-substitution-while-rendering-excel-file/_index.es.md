@@ -1,35 +1,36 @@
-﻿---
-title: Obtenga advertencias para la sustitución de fuentes mientras procesa un archivo de Excel
+---
+title: Obtener Advertencias por Sustitución de Fuentes al Renderizar un Archivo de Excel
 type: docs
 weight: 120
 url: /es/java/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
+
 {{% alert color="primary" %}}
 
-A veces, al renderizar Microsoft archivos de Excel a PDF, Aspose.Cells sustituye las fuentes. Aspose.Cells proporciona una función que les permite a los desarrolladores saber que una fuente en particular ha sido sustituida al activar una advertencia. Esta es una característica útil que puede ayudarlo a identificar por qué Aspose.Cells representado PDF es diferente al archivo de Excel real y luego puede tomar las medidas apropiadas. Por ejemplo, puede instalar las fuentes que faltan para que los resultados de la representación tengan el mismo aspecto.
+A veces, al renderizar archivos de Microsoft Excel a PDF, Aspose.Cells sustituye las fuentes. Aspose.Cells proporciona una función que permite a los desarrolladores saber que una fuente en particular ha sido sustituida mediante la emisión de una advertencia. Esta es una característica útil que puede ayudarte a identificar por qué el PDF renderizado por Aspose.Cells es diferente al archivo de Excel actual y luego puedes tomar acciones apropiadas. Por ejemplo, puedes instalar las fuentes faltantes para que los resultados del renderizado se vean iguales.
 
-Si desea obtener las advertencias para la sustitución de fuentes mientras procesa un archivo de Excel en PDF, implemente la interfaz IWarningCallback y configure el método PdfSaveOptions.setWarningCallback() con su interfaz implementada.
+Si deseas obtener las advertencias por sustitución de fuentes al renderizar un archivo de Excel a PDF, implementa la interfaz IWarningCallback y establece el método setWarningCallback() de PdfSaveOptions con tu interfaz implementada.
 
 {{% /alert %}}
 
-La siguiente captura de pantalla muestra el archivo fuente de Excel utilizado en el siguiente código. Tiene algo de texto en las celdas A6 y A7 en fuentes que Microsoft Excel no representa bien.
+La captura de pantalla a continuación muestra el archivo de Excel fuente utilizado en el siguiente código. Tiene algo de texto en las celdas A6 y A7 en fuentes que no son renderizadas correctamente por Microsoft Excel.
 
-![todo:imagen_alternativa_texto](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)
+![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_1.png)
 
 Aspose.Cells sustituirá las fuentes en las celdas A6 y A7 con fuentes adecuadas como se muestra a continuación.
 
-![todo:imagen_alternativa_texto](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
+![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
 
-## **Descargar archivo fuente y salida PDF**
+## **Descargar Archivo Fuente y PDF de Salida**
 
-Puede descargar el archivo fuente de Excel y la salida PDF desde los siguientes enlaces
+Puedes descargar el archivo de Excel fuente y el PDF de salida desde los siguientes enlaces
 
-- [fuente.xlsx](5472700.xlsx)
-- [salida.pdf](5472699.pdf)
+- [source.xlsx](5472700.xlsx)
+- [output.pdf](5472699.pdf)
 
- El siguiente código implementa el[**IAdvertenciaDevolución de llamada**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) y establecer el[**PdfSaveOptions.setWarningCallback()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#WarningCallback) método con la interfaz implementada. Ahora, cada vez que se sustituya una fuente en cualquier celda, Aspose.Cells activará una advertencia dentro del método WarningCallback.warning().
+El siguiente código implementa el [**IWarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) y establece el método [**PdfSaveOptions.setWarningCallback()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#WarningCallback) con la interfaz implementada. Ahora, cada vez que se sustituya alguna fuente en cualquier celda, Aspose.Cells emitirá una advertencia dentro del método WarningCallback.warning().
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public class WarningCallback implements IWarningCallback {
 
@@ -69,20 +70,20 @@ static void Run() throws Exception
 
 {{< /highlight >}}
 
-## **Salida de advertencias**
+## **Salida de Advertencias**
 
-Después de convertir el archivo de origen, se envían las siguientes advertencias a la consola de depuración:
+Después de convertir el archivo fuente, las siguientes advertencias se emiten en la consola de depuración:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
-WARNING INFO: Font substitution: Font [ Athene Logos; Regular ]has been substituted in Cell [ A6 ]in Sheet [ Sheet1 ].
+WARNING INFO: Font substitution: Font [ Athene Logos; Regular ] has been substituted in Cell [ A6 ] in Sheet [ Sheet1 ].
 
-WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted in Cell [ A7 ]in Sheet [ Sheet1 ].
+WARNING INFO: Font substitution: Font [ B Traffic; Regular ] has been substituted in Cell [ A7 ] in Sheet [ Sheet1 ].
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
 
- Si su hoja de cálculo contiene fórmulas, es mejor llamar al método Workbook.calculateFormula justo antes de convertir la hoja de cálculo al formato PDF. Si lo hace, se asegurará de que los valores dependientes de la fórmula se vuelvan a calcular y los valores correctos se representen en el PDF.
+Si tu hoja de cálculo contiene fórmulas, es mejor llamar al método Workbook.calculateFormula justo antes de renderizar la hoja de cálculo al formato PDF. Al hacerlo, te asegurarás de que los valores dependientes de la fórmula se recalculen y los valores correctos se rendericen en el PDF. 
 
 {{% /alert %}}

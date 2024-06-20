@@ -1,42 +1,43 @@
-﻿---
+---
 title: SpreadsheetML - XLSX, XML
 type: docs
 weight: 10
 url: /de/net/spreadsheetml-xlsx-xml/
 ---
+
 ## **Über SpreadsheetML**
-SpreadsheetML ist ein Name für eine Familie von XML-basierten Formaten für Tabellenkalkulationsdokumente. Es gibt mehrere Versionen von SpreadsheetML:
+SpreadsheetML ist ein Name für eine Familie von XML-basierten Formaten für Tabellendokumente. Es gibt mehrere Versionen von SpreadsheetML:
 
-1. SpreadsheetML Version 2003 wurde in Microsoft Word 2003 eingeführt. SpreadsheetML war ein bedeutender Schritt von Microsoft in Richtung Offenheit des Dokumentformats.
-1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) ist das neue XML-basierte Format, das in Microsoft Office 2007-Anwendungen eingeführt wurde. Office Open XML ist ein Containerformat für mehrere spezialisierte XML-basierte Auszeichnungssprachen. SpreadsheetML Version 2007 ist die Auszeichnungssprache, die von Microsoft Office Excel 2007 zum Speichern seiner Dokumente verwendet wird.
-1. Microsoft Excel 2010 speichert Dokumente in der SpreadsheetML Version 2010, wie im aktualisierten OOXML-Standard definiert.
+1. Die Version 2003 von SpreadsheetML wurde in Microsoft Word 2003 eingeführt. SpreadsheetML war ein bedeutender Schritt von Microsoft, um das Dokumentenformat offen zu gestalten.
+1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) ist das neue XML-basierte Format, das in den Anwendungen von Microsoft Office 2007 eingeführt wurde. Office Open XML ist ein Containerformat für mehrere spezialisierte XML-basierte Auszeichnungssprachen. Die Version 2007 von SpreadsheetML ist die Auszeichnungssprache, die von Microsoft Office Excel 2007 verwendet wird, um seine Dokumente zu speichern.
+1. Microsoft Excel 2010 speichert Dokumente im SpreadsheetML-Format 2010, wie es im aktualisierten OOXML-Standard definiert ist.
 ## **SpreadsheetML in Aspose.Cells**
-Es sind drei "Versionen" von SpreadsheetML verfügbar:
+Es gibt drei "Versionen" von SpreadsheetML verfügbar:
 
-|**SpreadsheetML „Fassung“**|**Anwendbare Norm/Spezifikation**|**Unterstützt in Aspose.Cells for .NET**|
-|:- |:- |:- |
-|MicrosoftExcel 2003|[Microsoft Excel 2003-XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Ja|
-|MicrosoftExcel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|Ja|
-|MicrosoftExcel 2010|OOXML ISO/IEC DIS 29500|Ja|
-|MicrosoftExcel 2013|OOXML ISO/IEC DIS 29500|Ja|
-OOXML SpreadsheetML-Dokumente kommen meistens als XLSX-Dateien, die ZIP-Pakete sind. Zusätzlich zu XLSX. Aspose.Cells bietet umfangreiche Unterstützung für das Laden, Speichern und Konvertieren von SpreadsheetML-Dokumenten. Eine solche allumfassende Implementierung ist möglich, weil Aspose.Cells mit Blick auf die Struktur von Microsoft-Excel-Dokumenten entworfen wurde (und SpreadsheetML dafür bekannt ist, die interne Darstellung von Microsoft-Excel-Dokumenten nachzuahmen).
-### **OOXML ist offen, warum Aspose.Cells verwenden?**
-Es stimmt, dass die Office Open XML-Technologie das Erstellen von Dokumentenverarbeitung und Generieren von Anwendungen nur mithilfe der XML-Klassen ermöglicht, ohne auf Bibliotheken von Drittanbietern wie Aspose.Cells angewiesen zu sein. Wir sind jedoch der festen Überzeugung, dass es immer noch sehr vorteilhaft ist, Aspose.Cells zu verwenden, wenn Sie dies getan haben um mit OOXML-Dokumenten umzugehen, anstatt mit XML oder anderen Bibliotheken zu arbeiten.
+|**SpreadsheetML „Version“**|**Anwendbarer Standard/ Spezifikation**|**Unterstützt in Aspose.Cells for .NET**|
+| :- | :- | :- |
+|Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Ja|
+|Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|Ja|
+|Microsoft Excel 2010|OOXML ISO/IEC DIS 29500|Ja|
+|Microsoft Excel 2013|OOXML ISO/IEC DIS 29500|Ja|
+OOXML SpreadsheetML-Dokumente kommen meistens als XLSX-Dateien, die ZIP-Pakete sind. Neben XLSX bietet Aspose.Cells umfassende Unterstützung zum Laden, Speichern und Konvertieren von SpreadsheetML-Dokumenten. Eine solch umfassende Implementierung ist möglich, weil Aspose.Cells mit der Struktur von Microsoft Excel-Dokumenten im Hinterkopf entworfen wurde (und SpreadsheetML soll die interne Repräsentation von Microsoft Excel-Dokumenten nachahmen).
+### **OOXML ist offen, warum also Aspose.Cells verwenden?**
+Es ist wahr, dass die Office Open XML-Technologie es ermöglicht, Dokumentenverarbeitungs- und -generierungsanwendungen nur mit den XML-Klassen zu erstellen, ohne auf Drittanbieter-Bibliotheken wie Aspose.Cells angewiesen zu sein. Wir glauben jedoch nachdrücklich, dass es immer noch sehr vorteilhaft ist, Aspose.Cells zu verwenden, wenn Sie mit OOXML-Dokumenten umgehen müssen, anstatt über XML oder andere Bibliotheken zu arbeiten.
 
-Die OOXML-Spezifikation ist mehrere tausend Seiten lang. Offen und standardisiert zu sein bedeutet nicht, einfach zu sein. Um OOXML-Dokumente korrekt zu verarbeiten oder zu generieren, muss man in das Erlernen des Formats investieren.
+Die OOXML-Spezifikation umfasst mehrere tausend Seiten. Offen und standardisiert zu sein bedeutet nicht, dass es einfach ist. Um OOXML-Dokumente richtig zu verarbeiten oder zu generieren, muss man viel Zeit investieren, um das Format gut zu verstehen.
 
-Neben der Vereinfachung der korrekten Verarbeitung und Generierung gültiger Dokumente bietet Aspose.Cells die folgenden wichtigen Funktionen, die Sie bei der Arbeit mit OOXML-Dateien direkt über XML oder andere Bibliotheken von Drittanbietern nicht hätten:
+Neben der Vereinfachung der korrekten Verarbeitung und Generierung von gültigen Dokumenten bietet Aspose.Cells die folgenden wichtigen Funktionen, die Sie nicht haben würden, wenn Sie direkt mit OOXML-Dateien über XML oder andere Drittanbieter-Bibliotheken arbeiten:
 
-- Hochwertige Konvertierungen zwischen vielen gängigen Excel-Formaten, einschließlich Konvertierung in PDF, HTML, TIFF und Drucken.
-- Fähigkeit, Dokumente aus Fragmenten, aus einem oder mehreren Dokumenten zu erstellen, während Daten durch stilistische Formatierung, Diagramme und Grafiken automatisch zusammengeführt werden.
-- High-Level-Funktionen wie das Importieren von Daten aus verschiedenen Datenquellen, einschließlich Array, ArrayList, DataTable, DataColumn, DataGrid, DataView und DataReader, oder das Exportieren von Daten, um eine DataTable oder ein Array mit nur einer Codezeile zu füllen.
-- Robustes Formelberechnungsmodul, das fast alle standardmäßigen und erweiterten Microsoft-Excel-Funktionen unterstützt.
+- Qualitativ hochwertige Konvertierungen zwischen vielen beliebten Excel-Formaten, einschließlich der Umwandlung in PDF, HTML, TIFF und dem Drucken.
+- Fähigkeit, Dokumente aus Fragmenten aufzubauen, aus einem oder mehreren Dokumenten, während Daten automatisch nach stilistischer Formatierung, Diagrammen und Grafiken verschmolzen werden.
+- Hochrangige Funktionen, wie das Importieren von Daten aus verschiedenen Datenquellen, einschließlich Array, ArrayList, DataTable, DataColumn, DataGrid, DataView und DataReader oder das Exportieren von Daten, um eine DataTable oder ein Array mit nur einer Codezeile zu füllen.
+- Robuste Formel-Berechnungs-Engine, die fast alle Standard- und erweiterten Microsoft Excel Funktionen unterstützt.
 
-Betrachten Sie das folgende Beispiel. Einige Zellen enthalten den Text „Hello World“ in Fettschrift. Stellen Sie sich nun vor, Sie müssten ein Programm schreiben, das nach allen „Hello World“-Phrasen im Arbeitsblatt sucht und sie durch „Goodbye Earth“ ersetzt.
+Betrachten Sie das folgende Beispiel. Einige Zellen enthalten den Text "Hallo Welt" fettgedruckt. Stellen Sie sich nun vor, Sie müssen ein Programm schreiben, das alle "Hallo Welt"-Phrasen im Arbeitsblatt sucht und durch "Auf Wiedersehen Erde" ersetzt.
 ### **Ein Fragment eines Office Open XML-Dokuments**
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
@@ -169,4 +170,4 @@ Betrachten Sie das folgende Beispiel. Einige Zellen enthalten den Text „Hello 
 {{< /highlight >}}
 
 
-Selbst die Implementierung eines einfachen Such- und Ersetzungsvorgangs in einem Office Open XML-Dokument ist schwierig. Unser Rat: Denken Sie daran, dass offen und Standard nicht einfach bedeutet, und verwenden Sie Aspose.Cells.
+Die Implementierung selbst einer einfachen Suchen- und Ersetzen-Operation in einem Office Open XML-Dokument ist schwierig. Unser Rat: Bedenken Sie, dass offen und standardisiert nicht einfach bedeutet, und verwenden Sie Aspose.Cells.

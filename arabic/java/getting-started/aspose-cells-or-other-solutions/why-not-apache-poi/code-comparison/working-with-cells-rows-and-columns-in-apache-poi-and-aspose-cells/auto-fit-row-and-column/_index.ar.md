@@ -1,19 +1,20 @@
 ---
-title: الاحتواء التلقائي للصف والعمود
+title: تناسب الصف والعمود تلقائيًا
 type: docs
 weight: 10
 url: /ar/java/auto-fit-row-and-column/
-description: تعرف على كيفية الاحتواء التلقائي للصف والعمود من خلال Aspose.Cells for Java API.
-keywords: How to Autofit Row and Column in Java, Autofit Row Data in workbook using Java, Java Autofit Column Data. 
+description: تعلم كيفية تناسب الصف والعمود من خلال واجهة برمجة التطبيقات Aspose.Cells for Java.
+keywords: كيفية تناسب الصف والعمود في جافا، تناسب بيانات الصف في جدول العمل باستخدام جافا، تناسب بيانات العمود في جافا. 
 ---
-##  **كيفية الاحتواء التلقائي للصف والعمود باستخدام Aspose.Cells for Java**
-الطريقة الأكثر مباشرة للتحجيم التلقائي لعرض الصف وارتفاعه هي استدعاء الأسلوب Worksheet.autoFitRow. تأخذ الطريقة autoFitRow فهرس الصف (الصف الذي سيتم تغيير حجمه) كمعلمة.
 
-**يرجى الملاحظة:**إذا كنت تريد الاحتواء التلقائي للصفوف والأعمدة في جداول بيانات Excel باستخدام Java، فيرجى زيارة[الاحتواء التلقائي للصفوف والأعمدة](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+## **كيفية ضبط تلقائي للصف والعمود باستخدام Aspose.Cells for Java**
+أبسط طريقة لتحديد عرض وارتفاع صف بشكل تلقائي هي استدعاء الطريقة autoFitRow في ورقة العمل. تأخذ طريقة autoFitRow مؤشر الصف (الصف الذي سيتم تغيير حجمه) كمعلمة.
+
+**يرجى ملاحظة:** إذا كنت ترغب في ضبط صفوف وأعمدة تلقائيًا في جداول بيانات Excel باستخدام Java، يرجى زيارة [ضبط تلقائي للصفوف والأعمدة](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook workbook = new Workbook("workbook.xls");
 
@@ -31,12 +32,12 @@ workbook.save("AutoFit_Aspose.xls");
 
 
 {{< /highlight >}}
-##  **Apache POI SS - HSSF XSSF - التناسب التلقائي للصف والعمود**
-Apache POI SS - يوفر HSSF وXSSF Sheet.autoSizeColumn لملاءمة الأعمدة تلقائيًا
+## **Apache POI SS - HSSF XSSF - ضبط تلقائي للصف والعمود**
+Apache POI SS - HSSF و XSSF يوفر Sheet.autoSizeColumn لضبط الأعمدة تلقائيًا
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  InputStream inStream = new FileInputStream("workbook.xls");
 
@@ -57,7 +58,7 @@ workbook.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-##  **تحميل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-##  **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/Java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)

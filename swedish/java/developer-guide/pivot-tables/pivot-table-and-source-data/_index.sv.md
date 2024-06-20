@@ -1,49 +1,50 @@
-﻿---
-title: Pivottabell och källdata
+---
+title: Pivot tabell och källdata
 type: docs
 weight: 110
 url: /sv/java/pivot-table-and-source-data/
 ---
-## **Pivottabellens källdata**
-Det finns tillfällen då du vill skapa Microsoft Excel-rapporter med pivottabeller som tar data från olika datakällor (som en databas) som inte är kända vid designtillfället. Den här artikeln ger en metod för att dynamiskt ändra en pivottabells datakälla.
-## **Ändra en pivottabells källdata**
-1. Skapa en ny designermall.
-1. Skapa en ny designermallfil enligt skärmdumpen nedan.
- 1. Definiera sedan ett namngivet intervall,**Datakälla** , som hänvisar till detta cellområde.
 
-      **Skapa en designermall och definiera ett namngivet intervall, DataSource** 
+## **Pivot-tabellens källdata**
+Det finns tillfällen när du vill skapa Microsoft Excel-rapporter med pivot-tabeller som hämtar data från olika datakällor (såsom en databas) som inte är kända vid design-tid. Den här artikeln presenterar ett tillvägagångssätt för dynamiskt att ändra en pivot-tabells datakälla.
+## **Ändra en pivot-tabells källdata**
+1. Skapa en ny designer-mall.
+   1. Skapa en ny designer-mallfil enligt skärmbilden nedan.
+   1. Definiera sedan ett namngivet område, **Datakälla**, som hänvisar till detta cellområde. 
+
+      **Skapa en designer-mall & definiera ett namngivet område, Datakälla** 
 
 ![todo:image_alt_text](pivot-table-and-source-data_1.png)
 
-1. Skapa en pivottabell baserat på detta namngivna intervall.
- 1. Välj i Microsoft Excel**Data** , då**Pivottabell** och**Pivotdiagramrapport**.
- 1. Skapa en pivottabell baserat på det namngivna intervallet som skapades i det första steget.
+1. Skapa en pivot-tabell baserad på detta namngivna område.
+   1. I Microsoft Excel, välj **Data**, sedan **Pivottabell** och **PivotDiagramrapport**.
+   1. Skapa en pivottabell baserad på det namngivna området som skapats i det första steget. 
 
-      **Skapa en pivottabell baserad på det namngivna intervallet, DataSource** 
+      **Skapa en pivottabell baserad på det namngivna området, DataSource** 
 
 ![todo:image_alt_text](pivot-table-and-source-data_2.png)
 
-1.  Dra motsvarande fält för att pivotera tabellens rad och kolumn och skapa sedan den resulterande pivottabellen som i skärmdumpen nedan.
+1. Dra det motsvarande fältet till pivottabellraden och kolumnen, skapa sedan den resulterande pivottabellen enligt skärmdumpen nedan. 
 
-   **Skapa en pivottabell baserat på ett motsvarande fält** 
+   **Skapa en pivottabell baserad på ett motsvarande fält** 
 
 ![todo:image_alt_text](pivot-table-and-source-data_3.png)
 
-1.  Högerklicka på pivottabellen och välj**Tabellalternativ**.
- 1. Kontrollera**Uppdatera vid öppen** i**Dataalternativ** inställningar.
+1. Högerklicka på pivottabellen och välj **Tabelloptioner**.
+   1. Markera **Uppdatera vid öppning** i inställningarna för **Dataalternativ**. 
 
-      **Ställa in alternativen för pivottabellen** 
+      **Inställning av pivottabellalternativ** 
 
 ![todo:image_alt_text](pivot-table-and-source-data_4.png)
 
 
 
-Nu kan du spara den här filen som din designermallfil.
+Nu kan du spara den här filen som din designer-mallfil.
 
-1. Fylla på nya data och ändra källdata för en pivottabell.
-1. När designmallen har skapats använder du följande kod för att ändra källdata för pivottabellen.
+1. Försörjning av ny data och ändring av källdata för en pivottabell.
+   1. När den designer-mall är skapad, använd följande kod för att ändra källan till pivottabellen.
 
-Genom att köra exempelkoden nedan ändras källdata för pivottabellen och pivottabellen kommer att se ut som den nedan.
+Genom att köra exempelkoden nedan ändras källan till datan för pivottabellen och pivottabellen kommer att se ut som nedan.
 
 **Dynamiskt ändrad pivottabell** 
 

@@ -1,17 +1,18 @@
-﻿---
+---
 title: Diziden İçe Aktarma
 type: docs
 weight: 10
 url: /tr/net/importing-from-array/
 ---
- Geliştiriciler, çağırarak bir diziden çalışma sayfalarına veri aktarabilir.**İçe Aktarma Dizisi** Cells koleksiyonunun yöntemi. ImportArray yönteminin birçok aşırı yüklenmiş sürümü vardır, ancak tipik bir aşırı yükleme aşağıdaki parametreleri alır:
 
-- Dizi, içeriğinin içe aktarılması gereken dizi nesnesini temsil eder
-- Satır Numarası, verilerin içe aktarılacağı ilk hücrenin satır numarasını gösterir.
-- Sütun Numarası, verilerin içe aktarılacağı ilk hücrenin sütun numarasını gösterir.
-- Is Vertical, verilerin dikey veya yatay olarak içe aktarılacağını belirten bir boole değeri
+Geliştiriciler, hücreler koleksiyonunun **ImportArray** yöntemini çağırarak verileri diziden çalışma sayfalarına aktarabilirler. **ImportArray** yönteminin birçok aşırı yüklenmiş versiyonu bulunmaktadır ancak tipik bir aşırı yüklenme aşağıdaki parametreleri alır:
 
-{{< highlight "csharp" >}}
+- Dizi, içeri aktarılacak dizi nesnesini temsil eder
+- Satır Numarası, verilerin içeri aktarılacağı ilk hücrenin satır numarasını temsil eder
+- Sütun Numarası, verilerin içeri aktarılacağı ilk hücrenin sütun numarasını temsil eder
+- Dikey, verinin dikey veya yatay olarak alınmasını belirten boolean bir değerdir.
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -27,7 +28,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 //Creating an array containing names as string values
 
-string[]names = new string[]{ "laurence chen", "roman korchagin", "kyle huang" };
+string[] names = new string[] { "laurence chen", "roman korchagin", "kyle huang" };
 
 //Importing the array of names to 1st row and first column vertically
 

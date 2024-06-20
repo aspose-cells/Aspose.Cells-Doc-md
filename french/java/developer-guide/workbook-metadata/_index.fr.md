@@ -1,18 +1,19 @@
-﻿---
-title: Utilisation des métadonnées du classeur
+---
+title: Utiliser les métadonnées du classeur
 linktitle: Métadonnées du classeur
 type: docs
 weight: 390
 url: /fr/java/using-workbookmetadata/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells vous permet de charger une version allégée du classeur en mémoire pour modifier ses informations de métadonnées. Veuillez utiliser le[com.aspose.cells.WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata) classe pour charger le classeur.
+Aspose.Cells vous permet de charger une version allégée du classeur en mémoire pour éditer ses informations de métadonnées. Veuillez utiliser la classe [com.aspose.cells.WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata) pour charger le classeur.
 
 {{% /alert %}} 
-## **Utilisation des métadonnées du classeur**
- L'exemple de code suivant utilise[Métadonnées du classeur](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata) classe pour modifier les propriétés de document personnalisées d'un classeur. Une fois que vous avez ouvert le classeur à l'aide de[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) class, vous pourrez lire les propriétés du document.
+## **Utilisation de WorkbookMetadata**
+Le code d'exemple suivant utilise la classe [WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata) pour modifier les propriétés de document personnalisées d'un classeur. Une fois que vous ouvrez le classeur en utilisant la classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), vous pourrez lire les propriétés du document.
 
- Voici un exemple de code utilisant le[Métadonnées du classeur](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata)classe.
+Voici un exemple de code utilisant la classe [WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingWorkbookMetadata-UsingWorkbookMetadata.java" >}}

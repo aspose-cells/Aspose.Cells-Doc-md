@@ -1,73 +1,74 @@
-﻿---
-title: Fusione e Separazione Cells
+---
+title: Unione e separazione di celle
 type: docs
 weight: 140
 url: /it/java/merging-and-unmerging-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Non vuoi sempre lo stesso numero di celle in ogni riga o colonna. Ad esempio, potresti voler inserire un titolo in una cella che si estende su più colonne. Oppure, se crei una fattura, potresti volere meno colonne per il totale. Per creare una cella da due o più celle, uniscile. Microsoft Excel consente agli utenti di selezionare le celle e unirle per strutturare il foglio di calcolo nel modo desiderato.
+Non sempre si desidera lo stesso numero di celle in ogni riga o colonna. Ad esempio, si potrebbe voler inserire un titolo in una cella che si estende su più colonne. O se si sta creando una fattura, si potrebbero volere meno colonne per il totale. Per fare una cella da due o più celle, uniscile. Microsoft Excel consente agli utenti di selezionare le celle e unirle per strutturare il foglio elettronico come desiderano.
 
-**Il risultato dell'unione e quindi della divisione di un intervallo di celle formattato come le celle a sinistra in Microsoft Excel** 
+**Il risultato di unire e poi dividere un intervallo di celle formattate come le celle a sinistra in Microsoft Excel** 
 
-![cose da fare:immagine_alt_testo](merging-and-unmerging-cells_1.png)
+![todo:image_alt_text](merging-and-unmerging-cells_1.png)
 
-Aspose.Cells supporta questa funzione e può anche unire celle in un foglio di lavoro. Puoi separare o dividere anche le celle unite. Il riferimento di cella di una cella unita è il riferimento per la cella in alto a sinistra nell'intervallo originariamente selezionato.
+Aspose.Cells supporta questa funzione e può anche unire celle in un foglio di lavoro. È possibile anche dividere le celle unite. Il riferimento della cella unita è il riferimento della cella in alto a sinistra nell'intervallo originariamente selezionato.
 
-Tieni presente che quando le celle vengono unite, vengono conservati solo i dati nella cella in alto a sinistra. Se sono presenti dati nelle altre celle dell'intervallo, tali dati vengono eliminati.
+Si noti che quando le celle vengono unite, viene conservato solo il dato nella cella in alto a sinistra. Se ci sono dati nelle altre celle nell'intervallo, quei dati vengono eliminati.
 
-La formattazione, allo stesso modo, si basa sulla cella di riferimento in modo che quando si uniscono le celle, le impostazioni di formattazione della cella in alto a sinistra nell'intervallo vengono applicate alla cella unita. Quando la cella viene divisa, le nuove celle mantengono le impostazioni del formato originale.
+Anche la formattazione si basa sulla cella di riferimento in modo che quando si uniscono le celle, le impostazioni di formattazione della cella in alto a sinistra nell'intervallo vengono applicate sulla cella unita. Quando la cella viene divisa, le nuove celle mantengono le loro impostazioni di formato originali.
 
 {{% /alert %}}
 
-## **Unire Cells in un foglio di lavoro.**
+## **Unione di celle in un foglio di lavoro.**
 
 ### **Utilizzando Microsoft Excel**
 
 I seguenti passaggi descrivono come unire le celle nel foglio di lavoro utilizzando Microsoft Excel.
 
-1. Copia i dati desiderati nella cella in alto a sinistra all'interno dell'intervallo.
-1. Seleziona le celle che desideri unire.
-1.  Per unire le celle in una riga o colonna e centrare il contenuto della cella, fare clic su**Unisci e centra** icona sul**Formattazione** barra degli strumenti.
+1. Copiare i dati che si desidera nella cella in alto a sinistra nell'intervallo.
+1. Selezionare le celle che si desidera unire.
+1. Per unire le celle in una riga o colonna e centrare i contenuti della cella, fare clic sull'icona **Unisci e centrato** sulla barra degli strumenti **Formattazione**.
 
-### **Utilizzando Aspose.Cells**
+### **Usare Aspose.Cells**
 
- Il[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) class ha alcuni metodi utili per l'attività. Ad esempio, il metodo[**unire()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) unisce le celle in una singola cella all'interno di un intervallo di celle specificato.
+La classe [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) dispone di alcuni metodi utili per il compito. Ad esempio, il metodo [**merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) unisce le celle in una singola cella all'interno di un intervallo specificato di celle.
 
-Il seguente output viene generato dopo l'esecuzione del codice seguente.
+L'output seguente è generato dopo aver eseguito il codice sottostante.
 
 **Le celle (C6:E7) sono state unite** 
 
-![cose da fare:immagine_alt_testo](merging-and-unmerging-cells_2.png)
+![todo:image_alt_text](merging-and-unmerging-cells_2.png)
 
 #### **Esempio di codice**
 
-L'esempio seguente mostra come unire le celle (C6:E7) in un foglio di lavoro.
+Nell'esempio seguente viene mostrato come unire le celle (C6:E7) in un foglio di lavoro.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-MergingCellsInWorksheet-MergingCellsInWorksheet.java" >}}
 
-## **Unmerging (Splitting) Unificato Cells**
+## **Dividere (Separare) celle unite**
 
 ### **Utilizzando Microsoft Excel**
 
-I seguenti passaggi descrivono come dividere le celle unite utilizzando Microsoft Excel.
+I seguenti passaggi descrivono come dividere le celle unite usando Microsoft Excel.
 
-1.  Seleziona la cella unita.
- Quando le celle sono state combinate,**Unisci e centra** è selezionato sul**Formattazione** barra degli strumenti.
-1.  Clic**Unisci e centra** sul**Formattazione** barra degli strumenti.
+1. Seleziona la cella unita. 
+   Quando le celle sono state unite, **Unisci e centra** è selezionato sulla barra degli strumenti **Formattazione**.
+1. Fai clic su **Unisci e centra** sulla barra degli strumenti **Formattazione**.
 
-#### **Utilizzando Aspose.Cells**
+#### **Usare Aspose.Cells**
 
- Il[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) class ha un metodo chiamato[**separare()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) che divide le cellule nel loro stato originale. Il metodo separa le celle utilizzando il riferimento della cella nell'intervallo di celle unite.
+La classe [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) ha un metodo chiamato [**unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) che divide le celle nel loro stato originale. Il metodo divide le celle utilizzando il riferimento della cella nell'intervallo della cella unita.
 
 #### **Esempio di codice**
 
-L'esempio seguente mostra come dividere le celle unite (C6). L'esempio usa il file creato nell'esempio precedente e divide le celle unite.
+L'esempio seguente mostra come dividere le celle unite (C6). L'esempio utilizza il file creato nel precedente esempio e divide le celle unite.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UnMergingCellsInWorksheet-UnMergingCellsInWorksheet.java" >}}
 
-## **articoli Correlati**
+## **Articoli Correlati**
 
-- [Trovare e dividere le celle unite](/cells/it/java/detect-merged-cells-in-a-worksheet/).
-- [Unire e dividere un intervallo di celle utilizzando i metodi Range.merge() e Range.unMerge()](/cells/it/java/merge-or-unmerge-range-of-cells/).
+- [Trova e divide le celle unite](/cells/it/java/detect-merged-cells-in-a-worksheet/).
+- [Unisci e divide un intervallo di celle utilizzando i metodi Range.merge() e Range.unMerge()](/cells/it/java/merge-or-unmerge-range-of-cells/).
 

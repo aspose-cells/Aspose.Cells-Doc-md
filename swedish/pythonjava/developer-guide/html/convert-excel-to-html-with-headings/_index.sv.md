@@ -1,14 +1,15 @@
-﻿---
+---
 title: Konvertera Excel till HTML med rubriker
 type: docs
 weight: 10
 url: /sv/python-java/convert-excel-to-html-with-headings/
 ---
+
 ## **Konvertera Excel till HTML med rubriker**
-Aspose.Cells ger möjlighet att exportera rad- och kolumnrubriker samtidigt som Excel konverteras till HTML. Detta kan uppnås genom att använda[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings)egenskapen tillhandahållen av API. Standardvärdet för[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) är**Falsk** . Passera**Sann** som parameter för att rendera rubriker i utdatafilen HTML. Följande bild visar utdatafilen som genereras av följande kod.
+Aspose.Cells tillhandahåller alternativet att exportera rad- och kolumnrubriker vid konvertering av Excel till HTML. Detta kan åstadkommas genom att använda egenskapen [HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) som tillhandahålls av API:et. Standardvärdet för [HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) är **Falskt**. Ange **Sant** som parameter för att rendera rubriker i den genererade HTML-filen. Det följande exemplet visar den resulterande filen som genereras av koden.
 
 ![todo:image_alt_text](PrintHeadings.jpg)
 
-Följande exempelkod visar hur du använder[HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings)egenskap för att återge rubriker i utdatafilen HTML.
+Följande kodexempel visar användning av egenskapen [HtmlSaveOptions.ExportHeadings](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportHeadings) för att rendera rubriker i den genererade HTML-filen.
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-GetHTML5StringFromCell.py" >}}

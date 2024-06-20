@@ -1,85 +1,86 @@
 ---
-title: Randeinstellungen
-description: So verwenden Sie die Bibliothek Aspose.Cells in C#, um den Rahmenstil und die Farbe von Zellen festzulegen. Durch Anpassen der Breite, des Stils und der Farbe des Rahmens haben Sie mehr Kontrolle darüber, wie Zellen aussehen und angezeigt werden.
-keywords: Aspose.Cells, Cell Border Settings, C#, Border Width, Border Style, Border Color
+title: Rahmeneinstellungen
+description: So verwenden Sie die Aspose.Cells Bibliothek in C#, um den Rahmenstil und die Farbe von Zellen festzulegen. Durch Anpassung der Breite, des Stils und der Farbe des Rahmens haben Sie mehr Kontrolle darüber, wie Zellen aussehen und erscheinen.
+keywords: Aspose.Cells, Zellrahmeneinstellungen, C#, Rahmenbreite, Rahmenstil, Rahmenfarbe
 type: docs
 weight: 40
 url: /de/net/cells-border-settings/
 ---
-##  **Hinzufügen von Rändern zu Cells**
 
-Microsoft Excel ermöglicht Benutzern das Formatieren von Zellen durch Hinzufügen von Rändern. Die Art des Rahmens hängt davon ab, wo er hinzugefügt wird. Beispielsweise wird ein oberer Rand an der oberen Position einer Zelle hinzugefügt. Benutzer können auch den Linienstil und die Farbe der Rahmen ändern.
+## **Rahmen zu Zellen hinzufügen**
 
-Mit Aspose.Cells können Entwickler Rahmen hinzufügen und deren Aussehen auf die gleiche flexible Weise anpassen wie in Microsoft Excel.
+Microsoft Excel ermöglicht es Benutzern, Zellen durch Hinzufügen von Rahmen zu formatieren. Die Art des Rahmens hängt davon ab, wo er hinzugefügt wird. Zum Beispiel ist ein oberer Rahmen einer, der an der oberen Position einer Zelle hinzugefügt wird. Benutzer können auch den Linienstil und die Farbe der Rahmen ändern.
 
-###  **Hinzufügen von Rändern zu Cells**
+Mit Aspose.Cells können Entwickler Rahmen hinzufügen und anpassen, wie sie in der gleichen flexiblen Weise wie in Microsoft Excel aussehen.
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet die[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung. Jedes Element in der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Die Sammlung stellt ein Objekt dar[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse.
+### **Rahmen zu Zellen hinzufügen**
 
- Aspose.Cells bietet die[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)Methode in der[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse. Der[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)Die Methode wird verwendet, um den Formatierungsstil einer Zelle festzulegen. Der[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)Die Klasse stellt Eigenschaften zum Hinzufügen von Rahmen zu Zellen bereit.
+Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), die eine Microsoft Excel-Datei repräsentiert. Die Klasse [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) enthält eine Sammlung von [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets), die den Zugriff auf jede Arbeitsmappe in der Excel-Datei ermöglicht. Eine Arbeitsmappe wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) repräsentiert. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) bietet die Sammlung [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Jedes Element in der Sammlung [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) repräsentiert ein Objekt der Klasse [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell).
 
-####  **Hinzufügen von Rändern zu einer Cell**
+Aspose.Cells bietet die Methode [**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) in der Klasse [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell). Die Methode [**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) wird verwendet, um den Formatierungsstil einer Zelle festzulegen. Die Klasse [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) bietet Eigenschaften zum Hinzufügen von Rahmen zu Zellen.
 
-Entwickler können einer Zelle Rahmen hinzufügen, indem sie die verwenden[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Objekt[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Sammlung. Der Rahmentyp wird als Index an übergeben[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Sammlung. Alle Rahmentypen sind im vordefiniert[**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) Aufzählung.
+#### **Rahmen zu einer Zelle hinzufügen**
 
-**Grenzaufzählung**
+Entwickler können Rahmen zu einer Zelle hinzufügen, indem sie die [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)-Objektsammlung [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) verwenden. Der Rahmentyp wird als Index an die Sammlung [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) übergeben. Alle Rahmentypen sind in der Aufzählung [**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) vordefiniert.
 
-|**Randtypen**|**Beschreibung**|
+**Rahmen-Aufzählung**
+
+|**Rahmentypen**|**Beschreibung**|
 | :- | :- |
-|Untere Grenze|Eine untere Grenzlinie|
-|DiagonalDown|Eine diagonale Linie von links oben nach rechts unten|
-|DiagonalUp|Eine diagonale Linie von links unten nach rechts oben|
-|Linker Rand|Eine linke Grenzlinie|
-|RightBorder|Eine rechte Grenzlinie|
-|TopBorder|Eine obere Grenzlinie|
+|BottomBorder|Eine untere Rahmenlinie
+|DiagonalDown|Eine diagonale Linie von oben links nach rechts unten
+|DiagonalUp|Eine diagonale Linie von unten links nach oben rechts|
+|LeftBorder|Eine Linie am linken Rand|
+|RightBorder|Eine Linie am rechten Rand|
+|TopBorder|Eine Linie am oberen Rand|
 
-Der[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders)Die Sammlung speichert alle Grenzen. Jede Grenze in der[**Grenzen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Die Sammlung wird durch a repräsentiert[**Grenze**](https://reference.aspose.com/cells/net/aspose.cells/border) Objekt, das zwei Eigenschaften bereitstellt,[**Farbe**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) Und[**Linienstil**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle)um die Linienfarbe und den Linienstil eines Rahmens festzulegen.
+The [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection stores all borders. Each border in the [**Borders**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) collection is represented by a [**Border**](https://reference.aspose.com/cells/net/aspose.cells/border) object which provides two properties, [**Color**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) and [**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) to set a border's line color and style respectively.
 
-Um die Linienfarbe eines Rahmens festzulegen, wählen Sie mithilfe der Color-Enumeration (Teil des .NET-Frameworks) eine Farbe aus und weisen Sie sie der Color-Eigenschaft des Border-Objekts zu.
+Um die Linienfarbe eines Rahmens festzulegen, wählen Sie eine Farbe aus der Color-Enumeration (Teil des .NET Frameworks) aus und weisen Sie sie der Eigenschaft Color des Rahmenobjekts zu.
 
- Der Linienstil des Rahmens wird durch Auswahl eines Linienstils aus festgelegt[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)Aufzählung.
+Der Linienstil des Rahmens wird festgelegt, indem ein Linienstil aus der [**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)-Enumeration ausgewählt wird.
 
-**CellBorderType-Aufzählung**
+**Zellrahmentyp-Enumeration**
 
 |**Linienstile**|**Beschreibung**|
 | :- | :- |
-|Strich Punkt|Dünne strichpunktierte Linie|
-|DashDotDot|Dünne Strich-Punkt-Punkt-Linie|
-|Gestrichelt|Gestrichelte Linie|
-|Gepunktet|Gepunktete Linie|
-|Doppelt|Doppelte Linie|
-|Haar|Haaransatz|
-|MediumDashDot|Mittlere strichpunktierte Linie|
-|MediumDashDotDot|Mittlere Strich-Punkt-Punkt-Linie|
+|DashDot|Dünne gestrichelt-punktierte Linie|
+|DashDotDot|Dünne gestrichelt-punkt-punktierte Linie|
+|Dashed|Gestrichelte Linie|
+|Dotted|Gepunktete Linie|
+|Double|Doppelte Linie|
+|Hair|Haarlinie|
+|MediumDashDot|Mittlere gestrichelt-punktierte Linie|
+|MediumDashDotDot|Mittlere gestrichelt-punkt-punktierte Linie|
 |MediumDashed|Mittlere gestrichelte Linie|
-|Keiner|Keine Linie|
-|Mittel|Mittlere Linie|
-|SlantedDashDot|Schräge mittlere strichpunktierte Linie|
-|Dick|Dicke Linie|
-|Dünn|Dünne Linie|
-Wählen Sie einen der Linienstile aus und weisen Sie ihn dann dem zu[**Grenze**](https://reference.aspose.com/cells/net/aspose.cells/border) Objekt[**Linienstil**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) Eigentum.
+|None|Keine Linie|
+|Medium|Mittlere Linie|
+|SlantedDashDot|Geneigte mittlere Strichpunktlinie|
+|Thick|Dicke Linie|
+|Thin|Dünne Linie|
+Wählen Sie einen der Linienstile aus undweisen Sie ihn dann der [**Border**](https://reference.aspose.com/cells/net/aspose.cells/border) Eigenschaft des [**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) Objekts zu.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBordersToCells-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-Sie sollten sowohl den Linienstil als auch die Farbe gleichzeitig festlegen. Die beiden diagonalen Randlinien sollten den gleichen Linienstil und die gleiche Farbe haben.
+Sie sollten sowohl den Linienstil als auch die Farbe gleichzeitig festlegen. Die beiden diagonalen Rahmenlinien sollten denselben Linienstil und dieselbe Farbe haben.
 
 {{% /alert %}}
 
-####  **Hinzufügen von Grenzen zu einem Bereich von Cells**
+#### **Hinzufügen von Rahmen zu einem Zellenbereich**
 
- Es ist auch möglich, Rahmen zu einem Bereich von Zellen statt nur zu einer einzelnen Zelle hinzuzufügen. Erstellen Sie dazu zunächst einen Zellbereich, indem Sie den aufrufen[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) Methode. Es werden folgende Parameter benötigt:
+Sie können auch einem Zellenbereich Rahmen hinzufügen, anstatt nur einer einzelnen Zelle. Dazu erstellen Sie zunächst einen Zellenbereich, indem Sie die [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Methode der [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) Sammlung aufrufen. Sie nimmt die folgenden Parameter an:
 
 - Erste Zeile, die erste Zeile des Bereichs.
-- Erste Spalte stellt die erste Spalte des Bereichs dar.
+- Erste Spalte, stellt die erste Spalte des Bereichs dar.
 - Anzahl der Zeilen, die Anzahl der Zeilen im Bereich.
 - Anzahl der Spalten, die Anzahl der Spalten im Bereich.
 
- Der[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) Methode gibt a zurück[**Reichweite**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt, das den angegebenen Zellbereich enthält. Der[**Reichweite**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt bietet a[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) Methode, die die folgenden Parameter verwendet, um dem Zellbereich einen Rahmen hinzuzufügen:
+Die [**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) Methode gibt ein [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt zurück, das den angegebenen Zellenbereich enthält. Das [**Range**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt bietet eine [**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) Methode an, die die folgenden Parameter annimmt, um einem Zellenbereich einen Rahmen hinzuzufügen:
 
--  *Rahmentyp**, der Rahmentyp, ausgewählt aus[**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)Aufzählung.
--  *Linienstil**, der Rahmenlinienstil, ausgewählt aus[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)Aufzählung.
-- *Farbe**, die Linienfarbe, ausgewählt aus der Color-Enumeration.
+- **Rahmentyp**, der aus der [**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) Aufzählung ausgewählte Rahmentyp.
+- **Linienstil**, der aus der [**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype) Aufzählung ausgewählte Linienstil.
+- **Farbe**, die aus der Farb-Aufzählung ausgewählte Linienfarbe.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBorderstoRange-1.cs" >}}

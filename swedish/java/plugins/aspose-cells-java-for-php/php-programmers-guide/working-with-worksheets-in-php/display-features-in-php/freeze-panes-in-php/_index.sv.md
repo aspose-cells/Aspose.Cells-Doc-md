@@ -1,15 +1,16 @@
-﻿---
+---
 title: Frys rutor i Php
 type: docs
 weight: 40
 url: /sv/java/freeze-panes-in-php/
 ---
+
 ## **Aspose.Cells - Frys rutor**
- För att frysa rutor i kalkylarksdokumentet med**Aspose.Cells Java for PHP** , helt enkelt åberopa**FreezePanes** modul.
+För att frysa rutor i kalkyldokumentet med **Aspose.Cells Java for PHP**, kalla helt enkelt **FreezePanes**-modulen.
 
 **PHP-kod**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -30,7 +31,7 @@ $worksheet->freezePanes(3,2,3,2);
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Frys rutor (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Frys rutor (Aspose.Cells)** från någon av sociala kodningsplatserna nedan:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/FreezePanes.php)

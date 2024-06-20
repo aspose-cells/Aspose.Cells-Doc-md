@@ -1,20 +1,21 @@
-﻿---
-title: Finden Sie heraus, ob das Arbeitsblatt ein Dialogblatt ist
+---
+title: Feststellen, ob das Arbeitsblatt ein Dialogblatt ist
 type: docs
 weight: 100
 url: /de/java/find-if-the-worksheet-is-dialog-sheet/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Dialogblatt ist ein altes Blattformat, das ein Dialogfeld enthält. Ein solches Blatt könnte von einer älteren Version von Microsoft Excel zB 2003 eingefügt werden, wie in diesem Screenshot gezeigt. In neueren Versionen zB Microsoft Excel 2016 kann es auch mit VBA eingefügt werden.
+## **Mögliche Verwendungsszenarien**
 
-![todo: Bild_alt_Text](find-if-the-worksheet-is-dialog-sheet_1.png)
+Dialogblatt ist ein altes Format des Blatts, das eine Dialogbox enthält. Ein solches Blatt könnte von einer älteren Version von Microsoft Excel, z.B. 2003, wie in diesem Screenshot gezeigt, eingefügt werden. Es kann auch mit VBA in neueren Versionen, z.B. Microsoft Excel 2016, eingefügt werden.
 
-Sie können feststellen, ob das Blatt ein Dialogblatt oder ein anderer Blatttyp ist[**Arbeitsblatt.Typ**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)Eigenschaft, die von Aspose.Cells bereitgestellt wird. Wenn sie den Aufzählungswert zurückgibt[**SheetType.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG), dann handelt es sich um ein Dialogblatt.
+![todo:image_alt_text](find-if-the-worksheet-is-dialog-sheet_1.png)
 
-## **Finden Sie heraus, ob das Arbeitsblatt ein Dialogblatt ist**
+Sie können feststellen, ob das Blatt ein Dialogblatt oder eine andere Art von Blatt ist, indem Sie die Eigenschaft [**Worksheet.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type) verwenden, die von Aspose.Cells bereitgestellt wird. Wenn sie den Enumerationwert [**SheetType.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG) zurückgibt, bedeutet dies, dass es sich um ein Dialogblatt handelt.
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](64716841.xlsx)die ein Dialogblatt enthält. Es prüft die[**Arbeitsblatt.Typ**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Type)Eigenschaft vergleicht es mit[**SheetType.DIALOG**](https://reference.aspose.com/cells/java/com.aspose.cells/sheettype#DIALOG)und druckt dann die Nachricht. Weitere Hilfe finden Sie in der Konsolenausgabe des unten angegebenen Beispielcodes.
+## **Feststellen, ob das Arbeitsblatt ein Dialogblatt ist**
+
+Der folgende Beispielcode lädt die [Beispieldatei](64716841.xlsx), die ein Dialogblatt enthält. Er überprüft die Eigenschaft {0, vergleicht sie mit {1} und gibt dann die Meldung aus. Bitte sehen Sie unten die Konsolenausgabe des Beispielcodes für weitere Hilfe.
 
 ## **Beispielcode**
 
@@ -22,7 +23,7 @@ Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](64716841.xlsx)die ein 
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Worksheet is a Dialog Sheet.
 

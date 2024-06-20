@@ -1,39 +1,40 @@
-﻿---
+---
 title: Aspose.Cells for Java ve PHP
 type: docs
 weight: 20
 url: /tr/java/aspose-cells-for-java-and-php/
 ---
+
 {{% alert color="primary" %}} 
 
- PHP geliştiricileri PHP uygulamalarında Aspose.Cells for Java kullanabilirler. Aspose.Cells for Java ve PHP ile çalışmak için PHP sürüm 5'i (PHP5 olarak bilinir) kullanın. PHP4, Aspose.Cells for Java'e erişmek için de kullanılabilir, ancak PHP5 kullanmaktan daha karmaşıktır.
+PHP geliştiricileri Aspose.Cells for Java'yi PHP uygulamalarında kullanabilir. Aspose.Cells for Java ve PHP ile çalışmak için PHP sürümü 5 (PHP5 olarak bilinir) kullanın. PHP4 de Aspose.Cells for Java'yi erişmek için kullanılabilir ancak PHP5 kullanmaktan daha karmaşıktır. 
 
 {{% /alert %}} 
-## **PHP ile çalışmak**
-### **PHP5'i Kullanma**
- Aspose.Cells for Java, geliştiricilerin doğrudan Java sınıflarıyla çalışmadan Aspose.Cells kitaplığını kullanmasını kolaylaştıran PHP5 sarmalayıcı sınıfları sağlar.
+## **PHP ile Çalışmak**
+### **PHP5 Kullanımı**
+Aspose.Cells for Java, geliştiricilerin Java sınıflarıyla doğrudan çalışmadan Aspose.Cells kitaplığını kullanmalarını sağlayan PHP5 sarmalayıcı sınıflarını sağlar. 
 
- Bu sarmalayıcı sınıfları, bir PHP dosyası biçiminde aspose.cells.zip arşivinin PHP dizininde bulunabilir.
-## **PHP4'ü kullanma**
- PHP4, Aspose.Cells for Java ile de çalışır, ancak bu durumda, geliştiricilerin doğrudan Java sınıflarıyla çalışması gerekir.
+Bu sarmalayıcı sınıflar, aspose.cells.zip arşivinin PHP dizininde bir PHP dosyası biçiminde bulunabilir. 
+## **PHP4 Kullanımı**
+PHP4 de Aspose.Cells for Java ile çalışır ancak bu durumda geliştiricilerin Java sınıflarıyla doğrudan çalışmaları gerekir. 
 
 {{% alert color="primary" %}} 
 
- php.ini dosyasındaki java.class.path'e aspose.cells.jar'ı eklemeyi unutmayın.
+php.ini dosyasında java.class.path'e aspose.cells.jar'ı eklemeyi unutmayın. 
 
- PHP sarmalayıcı sınıfları, ClassFactory'de createXXX() imzasıyla karşılık gelen Java sınıfı için PHP sınıfları oluşturmak için bazı statik yöntemler sağlar. Yapıcılar aşırı yüklenirse, ClassFactory'deki karşılık gelen tüm yöntemler create+seri numarası+sınıf adı olarak tanımlanır, örneğin: ((createXXX()}}, create1XXX(args...), create2XXX(args...), ve bunun gibi.
+PHP sarmalayıcı sınıfları, ClassFactory'de createXXX() imzası ile karşılık gelen PHP sınıfları oluşturmak için bazı sabit metotlar sağlar. Yapıcılar aşırı yüklü ise, ClassFactory'de tüm karşılık gelen metotlar create+sıra numarası+class adı olarak tanımlanır, örneğin: ((createXXX()}}, create1XXX(args...), create2XXX(args...), ve benzeri. 
 
-Tüm sabitler PHP'de ClassName+" "+SabitAd olarak tanımlanır, örneğin BorderLineType.NONE, PHP'de BorderLineType NONE olarak tanımlanır.
+Tüm sabitler PHP'de ClassName+" "+ConstantName olarak tanımlanır, örneğin, BorderLineType.NONE PHP'de BorderLineType NONE olarak tanımlanmıştır. 
 
- Yöntemler aşırı yüklenirse, yöntem adı + seri numarası olarak tanımlanırlar, örneğin cell.setValue, cell.setValue1(), cell.setValue2(), vb.
+Eğer metotlar aşırı yüklü ise, method adı + sıra numarası olarak tanımlanır, örneğin cell.setValue, cell.setValue1(), cell.setValue2(), ve benzeri. 
 
- clone() yöntemi cloneObject() olarak tanımlanır.
+clone() metodu cloneObject() olarak tanımlanmıştır. 
 
 {{% /alert %}} 
 
 **PHP**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?php
 

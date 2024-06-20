@@ -1,21 +1,22 @@
-﻿---
-title: API العام التغييرات في Aspose.Cells 8.6.2
+---
+title: تغييرات في واجهة برمجة التطبيقات العامة في Aspose.Cells 8.6.2
 type: docs
 weight: 210
 url: /ar/net/public-api-changes-in-aspose-cells-8-6-2/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.6.1 إلى 8.6.2 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة ، ولكن أيضًا وصف أي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات ل Aspose.Cells من الإصدار 8.6.1 إلى 8.6.2 التي قد تكون مثيرة للاهتمام لمطوري الوحدات/التطبيقات. فهو يتضمن ليس فقط الطرق العامة الجديدة والمحدثة والفصول المضافة، ولكن أيضًا وصفًا لأي تغييرات في السلوك الذي يكمن وراء الكواليس في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم معاودة الاتصال باستخدام العلامات الذكية**
- كشف هذا الإصدار من Aspose.Cells for .NET API عن خاصية WorkbookDesigner.CallBack وواجهة ISmartMarkerCallBack التي تسمح معًا[الحصول على إشعارات حول مرجع الخلية و / أو العلامة الذكية قيد المعالجة](/cells/ar/net/getting-notifications-while-merging-data-with-smart-markers/). يوضح الجزء التالي من التعليمات البرمجية استخدام واجهة ISmartMarkerCallBack لتحديد فئة جديدة تتعامل مع استدعاء أسلوب WorkbookDesigner.Process.
+## **واجهات برمجة التطبيقات الجديدة**
+### **دعم معاودة الاتصال مع علامات Smart Markers**
+قد قام هذا الإصدار من API Aspose.Cells for .NET بعرض خاصية WorkbookDesigner.CallBack وواجهة ISmartMarkerCallBack التي تسمح سويًا بالتنبيهات حول مرجع الخلية و / أو العلامة الذكية التي يتم معالجتها. يظهر الكود التالي استخدام واجهة ISmartMarkerCallBack لتحديد فئة جديدة تدير الاستدعاء لطريقة WorkbookDesigner.Process.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class SmartMarkerCallBack : ISmartMarkerCallBack
 
@@ -47,11 +48,11 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-6-2/
 
 
 
-تتضمن بقية العملية تحميل جدول بيانات المصمم الذي يحتوي على العلامات الذكية باستخدام WorkbookDesigner ومعالجته عن طريق تعيين مصدر البيانات. ومع ذلك ، لتمكين الإعلامات ، من الضروري تعيين خاصية WorkbookDesigner.CallBack قبل استدعاء طريقة WorkbookDesigner.Process كما هو موضح أدناه.
+بقية العملية تتضمن تحميل جدول البيانات التصميمي الذي يحتوي على علامات ذكية باستخدام WorkbookDesigner ومعالجته عن طريق تعيين مصدر البيانات. ومع ذلك، من الضروري تعيين خاصية WorkbookDesigner.CallBack لتمكين الإشعارات قبل استدعاء طريقة WorkbookDesigner.Process كما يُوضح أدناه.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loading the designer spreadsheet in an instance of Workbook
 
@@ -76,14 +77,14 @@ designer.Process(false);
 {{< /highlight >}}
 
 
-### **طريقة الرسم البياني. toPdf مضاف**
- كشف Aspose.Cells for .NET 8.6.2 الرسم البياني. طريقة toPdf التي يمكن استخدامها[تقديم شكل المخطط مباشرة إلى تنسيق PDF](/cells/ar/net/convert-an-excel-chart-to-image/). تقبل الطريقة المذكورة حاليًا معلمة من سلسلة النوع كموقع مسار الملف لتخزين الملف الناتج على القرص.
+### **تمت إضافة طريقة Chart.ToPdf**
+قد عرض الإصدار 8.6.2 لـ Aspose.Cells for .NET طريقة Chart.ToPdf التي يمكن استخدامها لعرض الشكل البياني مباشرة إلى تنسيق PDF. تقبل الطريقة المذكورة حاليًا معلمة من نوع سلسلة كموقع لملف لتخزين الملف الناتج على القرص.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet containing charts
 
@@ -104,14 +105,14 @@ chart.ToPdf(outputFilePath);
 {{< /highlight >}}
 
 
-### **أسلوب المصنف. تمت إضافة RemoveUnusedStyles**
- كشف Aspose.Cells for .NET 8.6.2 المصنف. طريقة RemoveUnusedStyles التي يمكن استخدامها[قم بإزالة كافة كائنات النمط غير المستخدمة من مجموعة الأنماط](/cells/ar/net/remove-unused-styles-inside-the-workbook/).
+### **أضيفت طريقة Workbook.RemoveUnusedStyles**
+Aspose.Cells for .NET 8.6.2 قد عرضت طريقة Workbook.RemoveUnusedStyles التي يمكن استخدامها لـ [إزالة جميع كائنات النمط غير المستخدمة من مجموعة أنماط](/cells/ar/net/remove-unused-styles-inside-the-workbook/).
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet
 
@@ -124,14 +125,14 @@ workbook.RemoveUnusedStyles();
 {{< /highlight >}}
 
 
-### **الخاصية Cells. تمت إضافة النمط**
-يمكن استخدام الخاصية Cells.Style للوصول إلى النمط الخاص بورقة العمل الذي يمثل النمط الافتراضي.
+### **تمت إضافة خاصية Cells.Style**
+يمكن استخدام خاصية Cells.Style للوصول إلى النمط لورقة العمل التي تمثل النمط الافتراضي.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -145,7 +146,7 @@ Style style = book.Worksheets[0].Cells.Style;
 
 
 ### **تمت إضافة الأحداث لـ GridWeb**
-Aspose.Cells.GridWeb for .NET 8.6.2 كشف الحدثين الجديدين التاليين.
+أصبح في Aspose.Cells.GridWeb for .NET 8.6.2 تعريض الحدثين الجديدين التاليين.
 
-1. AjaxCallFinished: يتم إطلاقه عند انتهاء تحديث AJAX لعنصر التحكم. (يجب تعيين EnableAJAX على صحيح).
-1. CellModifiedOnAjax: الحرائق عندما يتم تعديل الخلية في استدعاء AJAX.
+1. AjaxCallFinished: يُطلق عند اكتمال التحديث بتقنية AJAX للتحكم. (يجب تعيين EnableAJAX إلى true).
+1. CellModifiedOnAjax: يتم إطلاق الحدث عند تعديل الخلية في استدعاء AJAX.

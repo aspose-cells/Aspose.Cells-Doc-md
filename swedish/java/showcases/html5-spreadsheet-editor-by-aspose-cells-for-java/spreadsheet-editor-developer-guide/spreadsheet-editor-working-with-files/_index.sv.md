@@ -1,29 +1,30 @@
-﻿---
-title: Kalkylarksredigerare - Arbeta med filer
+---
+title: Kalkylbladsredigerare  Arbeta med filer
 type: docs
 weight: 10
 url: /sv/java/spreadsheet-editor-working-with-files/
 ---
-**Innehållsförteckning**
 
-- [Filer som stöds](#SpreadsheetEditor-WorkingwithFiles-SupportedFiles)
-- [Öppna Lokala filer](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
+Innehållsförteckning
+
+- [Understödda filer](#SpreadsheetEditor-WorkingwithFiles-SupportedFiles)
+- [Öppna Lokala Filer](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
 - [Öppna från Dropbox](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
 - [Öppna från URL](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
- - LoaderService.fromUrl
- - LoaderService.buildCellsCache
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
-- [Skapa ett nytt kalkylblad](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
- - LoaderService.fromBlank
- - buildCellsCache
- - buildColumnWidthCache
- - buildRowHeightCache
+  - LoaderService.fromUrl
+  - LoaderService.buildCellsCache
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
+- [Skapa en ny kalkylblad](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
+  - LoaderService.fromBlank
+  - buildCellsCache
+  - buildColumnWidthCache
+  - buildRowHeightCache
 - [Exportera till olika format](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
-### **Filer som stöds**
-HTML5 Spreadsheet Editor kan öppna filer i följande format:
+### **Understödda filer**
+HTML5 Kalkylbladsredigerare kan öppna filer i följande format:
 
 - Excel 1997-2003 XLS
 - Excel 2007-2013 XLSX
@@ -32,27 +33,27 @@ HTML5 Spreadsheet Editor kan öppna filer i följande format:
 - XLTX
 - SpreadsheetML
 - CVS
-- Öppna Dokument
-### **Öppna Lokala filer**
-Så här laddar du upp en fil från en lokal dator:
+- OpenDocument
+### **Öppna Lokala Filer**
+För att ladda upp en fil från lokal dator:
 
-1.  Byta till**Fliken Arkiv** överst.
-1.  Klick**Öppna från datorn** för att öppna dialogrutan Bläddra.
-1. Gå till önskad plats för filen.
-1. Klicka på önskad fil för att välja den.
-1.  Klick**Öppen**.
+1. Byt till fliken **Arkiv** högst upp.
+1. Klicka på **Öppna från datorn** för att öppna dialogrutan Bläddra.
+1. Gå till den önskade filens plats.
+1. Klicka på den önskade filen för att välja den.
+1. Klicka på **Öppna**.
 
-Filen kommer att öppnas i editorn.
+Filen öppnas i redigeraren.
 
 ![todo:image_alt_text](bwyl3xi.png)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
 **Filuppladdning**
 
- Användaren väljer en fil från den lokala datorn som laddas upp från webbläsaren till servern och tas emot av[Ladda upp PrimeFaces-fil](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) komponent.
+Användaren väljer en fil från den lokala datorn som laddas upp från webbläsaren till servern och tas emot av [PrimeFaces fileUpload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) komponent.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <p:fileUpload fileUploadListener="#\{workbook.onFileUpload\}" update=":ribbon :intro :sheet" />
 
@@ -60,7 +61,7 @@ Filen kommer att öppnas i editorn.
 
 **Hantera arbetsbok**
 
- Så snart filen har laddats upp helt, träder metoden WorkbookService.onFileUpload till handling för att hantera situationen. WorkbookService tar emot händelser från webbläsaren och håller reda på tillståndet för hela arbetsboken. WorkbookService.onFileUpload överför kontrollen till LoaderService för att ladda arbetsboken i minnet. Som den***filuppladdning*** komponenten tillhandahåller den uppladdade filen som en[InputStream](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html), laddar LoaderService den med metoden LoaderService.fromInputStream.
+Så snart filen är helt uppladdad, träder WorkbookService.onFileUpload-metoden i kraft för att hantera situationen. WorkbookService tar emot händelser från webbläsaren och håller koll på hela arbetsbokens status. WorkbookService.onFileUpload skickar kontrollen vidare till LoaderService för att ladda arbetsboken i minnet. Eftersom ***fileUpload***-komponenten tillhandahåller den uppladdade filen som en [InputStream](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html), laddar LoaderService in den med hjälp av LoaderService.fromInputStream-metoden.
 
 
 
@@ -68,7 +69,7 @@ Filen kommer att öppnas i editorn.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public void onFileUpload(FileUploadEvent e) {
 
@@ -84,17 +85,17 @@ Filen kommer att öppnas i editorn.
 
 
 
-**Lasta och lasta av**
+**Laddning och lossning**
 
- Metoden***LoaderService.fromInputStream*** läser***InputStream*** tillhandahålls av fileUpload***komponent*** skapa instans av***com.aspose.cells.Workbook***klass. Denna instans sparas i minnet så länge användaren fortsätter att visa eller redigera kalkylarket i webbläsaren. När användaren lämnar editorn eller stänger webbläsaren laddas de oanvända instanserna automatiskt bort från minnet för att hålla servern ren.
-
-
+Metoden ***LoaderService.fromInputStream*** läser ***InputStream*** som tillhandahålls av fileUpload ***komponenten*** och skapar en instans av klassen ***com.aspose.cells.Workbook***. Denna instans hålls i minnet så länge användaren fortsätter att visa eller redigera kalkylarket i webbläsaren. När användaren lämnar redigeraren eller stänger webbläsaren läses de oanvända instanserna automatiskt ut från minnet för att hålla servern ren.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
  public String fromInputStream(InputStream s, String name) {
 
@@ -134,7 +135,7 @@ Filen kommer att öppnas i editorn.
 
 **Cachning**
 
-Cachning är mycket viktigt för HTML5 Spreadsheet Editor. Det gör att allt fungerar smidigt. CellsService behåller cache-rader, kolumner, celler och egenskaper för alla arbetsböcker som laddas av redigeraren. När LoaderService laddar ett kalkylark helt läser det uppifrån och ned och fyller cachen genom att anropa LoaderService.buildCellsCache, LoaderService.buildColumnWidthCache, LoaderService.buildRowHeightCache
+Cachning är väldigt viktigt för HTML5 Kalkylbladsredigeraren. Det får allting att fungera smidigt. CellsService behåller cache-rader, kolumner, celler och egenskaper för alla arbetsböcker som laddats av redigeraren. När LoaderService laddar ett kalkylblad helt, läser den igenom det från början till slut och fyller upp cachen genom att anropa LoaderService.buildCellsCache, LoaderService.buildColumnWidthCache, LoaderService.buildRowHeightCache
 
 
 
@@ -142,7 +143,7 @@ Cachning är mycket viktigt för HTML5 Spreadsheet Editor. Det gör att allt fun
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -210,7 +211,7 @@ Cachning är mycket viktigt för HTML5 Spreadsheet Editor. Det gör att allt fun
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -236,7 +237,7 @@ Cachning är mycket viktigt för HTML5 Spreadsheet Editor. Det gör att allt fun
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -264,25 +265,25 @@ Cachning är mycket viktigt för HTML5 Spreadsheet Editor. Det gör att allt fun
 
 
 ### **Öppna från Dropbox**
-Så här öppnar du filer från Dropbox:
+För att öppna filer från Dropbox:
 
-1.  Byta till**Fliken Arkiv** överst.
-1.  Klick**Öppna från Dropbox** för att öppna Dropbox-filväljaren.
-1. Om du inte redan är inloggad måste du logga in på ditt Dropbox-konto.
+1. Byt till fliken **Arkiv** högst upp.
+1. Klicka på **Öppna från Dropbox** för att öppna Dropbox-filväljaren.
+1. Om du inte redan är inloggad kommer du att behöva logga in på ditt Dropbox-konto.
 1. Navigera till önskad fil och klicka för att välja den.
-1.  Klick**Välja** på botten.
+1. Klicka på **Välj** längst ned.
 
-Din valda fil kommer att öppnas från Dropbox.
+Din valda fil öppnas från Dropbox.
 
 ![todo:image_alt_text](1e2sfo0.png)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- De**Öppna från Dropbox** knappen använder**Dropbox JavaScript-väljare API** för att öppna dialogrutan Dropbox Väljare. Väljaren tillhandahåller URL till den valda filen, som fångas upp av återuppringningsfunktionen och skickas tillbaka till servern. Servern skapar en instans av kalkylblad från URL, initierar några hushållsgrejer och skickar DOM-uppdateringar tillbaka till webbläsaren. Webbläsaren renderar och uppdaterar HTML och användaren är redo att redigera det laddade dokumentet.
+Knappen **Öppna från Dropbox** använder **Dropbox JavaScript Chooser API** för att öppna Dropbox väljardialogen. Väljaren tillhandahåller URL till vald fil, som fångas av callback-funktionen och skickas tillbaka till servern. Servern skapar en instans av kalkylblad från URL, initierar vissa administrationssaker och skickar tillbaka DOM-uppdateringar till webbläsaren. Webbläsaren renderar och uppdaterar HTML och användaren är redo att redigera det inlästa dokumentet.
 ### **Öppna från URL**
- Filer kan öppnas direkt från URL:er. Detta tillåter användaren att redigera alla offentligt tillgängliga filer på Internet. För att öppna filen lägg till**?url=plats** parameter med värdet på önskat värde**plats** medan du laddar redigeraren. Till exempel:
+Filer kan öppnas direkt från webbadresser. Detta gör att användaren kan redigera vilken offentligt tillgänglig fil som helst på internet. För att öppna filen lägger du till parameteren **?url=plats** med värdet av din önskade **plats** vid inladdningen av redigeraren. Till exempel:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  http://editor.aspose.com/?url=http://example.com/Sample.xlsx
 
@@ -290,19 +291,19 @@ Din valda fil kommer att öppnas från Dropbox.
 
 ![todo:image_alt_text](exc9ckp.png)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
-**Instantiera under uppstart**
+**Instantiate vid start**
 
- När**Arbetsbladsvy** backend bean instansieras av JSF**PostConstruct** metod**i det** kallas som laddar kalkylarket med LoaderService.fromUrl.
+När **WorksheetView** backend-beanen instantieras av JSF, anropas metoden **init** av **PostConstruct** vilket laddar kalkylarket med hjälp av LoaderService.fromUrl.
 
 **Cachning**
 
- Cachning sker direkt efter att kalkylarket har laddats. De**LoaderService** samtal**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och**LoaderService.buildRowHeightCache** en efter en för att cachelagra innehållet i kalkylarket och hålla alla operationer snabba och smidiga.
+Cachning sker direkt efter att kalkylbladet har laddats. **LoaderService** anropar **LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och **LoaderService.buildRowHeightCache** var för sig för att cacha innehållet i kalkylbladet och hålla alla operationer snabba och smidiga.
 
 **DOM-uppdateringar**
 
-När kalkylbladet är klart på serversidan används JSF-komponenter för att generera nya HTML och skicka DOM-uppdateringar till användaren som renderas av webbläsaren.
+När kalkylbladet är redo på serverns sida används JSF-komponenter för att generera ny HTML och skicka DOM-uppdateringar till användaren, vilka renderas av webbläsaren.
 
 
 
@@ -310,7 +311,7 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      @PostConstruct
 
@@ -342,7 +343,7 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 #### **LoaderService.fromUrl**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromUrl(String url) {
 
@@ -378,7 +379,7 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 #### **LoaderService.buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -446,7 +447,7 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -472,7 +473,7 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -499,29 +500,29 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 
-### **Skapa ett nytt kalkylblad**
-Så här skapar du ett nytt tomt kalkylblad:
+### **Skapa en ny kalkylblad**
+För att skapa ett nytt tomt kalkylblad:
 
-1.  Byta till**Fliken Arkiv**.
-1.  Klicka på**Ny** knapp.
+1. Byt till fliken **Arkiv**.
+1. Klicka på **Ny**-knappen.
 
-Redaktören stänger det öppnade kalkylarket, om det finns, och öppnar ett nytt.
+Redigeraren stänger det öppnade kalkylbladet, om något, och öppnar ett nytt.
 
 ![todo:image_alt_text](lnydmmf.png)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
-**Instantiera ett nytt objekt**
+**Instansiera ett nytt objekt**
 
- När**Ny** knappen klickas av användaren,**WorksheetView.loadBlank** , som så småningom ringer**LoaderService.fromBlank**. LoaderService skapar en ny instans av tomt kalkylblad.
+När användaren klickar på **Ny**-knappen, **WorksheetView.loadBlank** aktiveras, vilket slutligen anropar **LoaderService.fromBlank**. LoaderService skapar en ny instans av tomt kalkylblad.
 
 **Cachning**
 
- Cachning sker direkt efter att kalkylarket har laddats. De**LoaderService** samtal**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och**LoaderService.buildRowHeightCache** en efter en för att cachelagra innehållet i kalkylarket och hålla alla operationer snabba och smidiga.
+Cachning sker direkt efter att kalkylbladet har laddats. **LoaderService** anropar **LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och **LoaderService.buildRowHeightCache** var för sig för att cacha innehållet i kalkylbladet och hålla alla operationer snabba och smidiga.
 
 **DOM-uppdateringar**
 
-När kalkylbladet är klart på serversidan används JSF-komponenter för att generera nya HTML och skicka DOM-uppdateringar till användaren som renderas av webbläsaren.
+När kalkylbladet är redo på serverns sida används JSF-komponenter för att generera ny HTML och skicka DOM-uppdateringar till användaren, vilka renderas av webbläsaren.
 
 
 
@@ -529,7 +530,7 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void loadBlank() {
 
@@ -543,7 +544,7 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 #### **LoaderService.fromBlank**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromBlank() {
 
@@ -569,7 +570,7 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 #### **buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -637,7 +638,7 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 #### **buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -663,7 +664,7 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 #### **buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -691,13 +692,13 @@ När kalkylbladet är klart på serversidan används JSF-komponenter för att ge
 
 
 ### **Exportera till olika format**
-Efter att ha redigerat filer vill användaren spara ändringarna. Redaktören låter användaren exportera och ladda ner det modifierade kalkylarket till den lokala datorn. Så här exporterar du filen:
+Efter att ha redigerat filer vill användaren spara ändringar. Redigeraren tillåter användaren att exportera och ladda ner det modifierade kalkylbladet till den lokala datorn. För att exportera filen:
 
-1.  Byta till**Fliken Arkiv** överst.
-1.  Klick**Exportera** som knapp.
+1. Byt till fliken **Arkiv** högst upp.
+1. Klicka på **Exportera som**-knappen.
 1. Välj önskat format från rullgardinsmenyn.
 
-Den ändrade filen kommer att exporteras för nedladdning. Följande format stöds för export:
+Den modifierade filen kommer att exporteras för nedladdning. Följande format stöds för export:
 
 - Excel 2007-2013 XLSX
 - Excel 1997-2003 XLS
@@ -706,20 +707,20 @@ Den ändrade filen kommer att exporteras för nedladdning. Följande format stö
 - Excel XLTX
 - Excel XLTM
 - SpreadsheetML
-- Portabelt dokumentformat (PDF)
-- OpenDocument Spreadsheet (ODS)
+- Bärbar dokumentformat (PDF)
+- OpenDocument kalkylblad (ODS)
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- Det öppnade kalkylarket konverteras till användarspecificerat format med hjälp av**WorksheetView.getOutputFile**.
-
-
+Det öppnade kalkylbladet konverteras till det användarspecificerade formatet med hjälp av **WorksheetView.getOutputFile**.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public StreamedContent getOutputFile(int saveFormat) {
 

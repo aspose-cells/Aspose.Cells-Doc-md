@@ -1,53 +1,54 @@
 ---
-title: Ändra en befintlig stil
-description: Aspose.Cells är ett .NET-bibliotek för att arbeta med kalkylbladsfiler som tillåter användare att ändra befintliga cellstilar. Den här artikeln kommer att introducera hur man ändrar en befintlig cellstil med Aspose.Cells-biblioteket så att användare kan ändra utseendet på cellerna efter behov.
-keywords: Modify existing styles, customize the look and feel of your application, guides, tutorials, help documentation, development documentation, API references, sample code, downloads, support.
+title: Modifiera en befintlig stil
+description: Aspose.Cells är ett .NET bibliotek för att arbeta med kalkylbladsfiler som tillåter användare att modifiera befintliga cellstilar. Den här artikeln kommer att introducera hur man modifierar en befintlig cellstil med Aspose.Cells biblioteket så att användare kan ändra utseendet på cellerna efter behov.
+keywords: Modifiera befintliga stilar, anpassa utseendet på din applikation, guider, handledningar, hjälpdokumentation, utvecklingsdokumentation, API referenser, exempelkod, nedladdningar, support.
 type: docs
 weight: 90
 url: /sv/net/modify-an-existing-style/
 ---
+
 {{% alert color="primary" %}}
 
-Om du vill använda samma formateringsalternativ på celler skapar du ett nytt formateringsobjekt. Ett formateringsstilsobjekt är en kombination av formateringsegenskaper, såsom teckensnitt, teckenstorlek, indrag, nummer, kantlinje, mönster etc., namngivna och lagrade som en uppsättning. När den tillämpas tillämpas all formatering i den stilen.
+För att tillämpa samma formatering på celler, skapa ett ny formateringsstilobjekt. Ett formateringsstilobjekt är en kombination av formateringsegenskaper, såsom font, fontstorlek, indragning, nummer, kant, mönster etc., namngivet och lagrat som en uppsättning. När den appliceras tillämpas alla formatmallar i den stilen.
 
-Du kan också använda en befintlig stil, spara den med arbetsboken och använda för att formatera information med samma attribut.
+Du kan också använda en befintlig stil, spara den med arbetsboken och använda den för att formatera information med samma egenskaper.
 
- När celler inte är explicit formaterade,**Vanligt** stil (arbetsbokens standardstil) tillämpas. Microsoft Excel fördefinierar flera stilar utöver stilen Normal, inklusive komma, valuta och procent.
+När celler inte är explicit formaterade, tillämpas den **Normal** stilen (arbetsbokens standardstil). Microsoft Excel fördefinierar flera stilar förutom Normal-stilen, inklusive Komma, Valuta och Procent.
 
-Aspose.Cells tillåter modifiering av någon av dessa stilar eller någon annan stil som du definierar med dina önskade attribut.
+Aspose.Cells tillåter att modifiera någon av dessa stilar eller någon annan stil som du definierar med önskade attribut.
 
 {{% /alert %}}
 
-##  **Använder Microsoft Excel**
+## **Använda Microsoft Excel**
 
-Så här uppdaterar du en stil i Microsoft Excel 97-2003:
+För att uppdatera en stil i Microsoft Excel 97-2003:
 
-1.  På**Formatera** menyn, klicka på *Stil**.
-1.  Välj den stil du vill ändra från**Stilnamn** lista.
-1. Klicka på *Ändra**.
-1. Välj de stilalternativ du vill använda med flikarna i dialogrutan Format Cells.
-1. Klicka på *OK**.
-1. Under *Stil inkluderar** anger du de stilegenskaper du vill ha.
-1.  Klick**OK** för att spara stilen och tillämpa den på det valda intervallet.
+1. På **Format**-menyn, klicka på **Stil**.
+1. Välj den stil du vill modifiera från listan över **Stilnamn**.
+1. Klicka på **Ändra**.
+1. Välj de stilalternativ du vill använda med flikarna i dialogrutan Formatcells.
+1. Klicka på **OK**.
+1. Under **Stilen innehåller**, ange stilfunktionerna du vill använda.
+1. Klicka på **OK** för att spara stilen och tillämpa den på det valda området.
 
-##  **Använder Aspose.Cells**
+## **Använda Aspose.Cells**
 
- Följande exempel visar hur man använder[**Style.Update**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/update)metod.
+Följande exempel demonstrerar hur man använder [**Style.Update**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/update)-metoden.
 
-###  **Skapa och ändra en stil**
+### **Skapa och modifiera en stil**
 
- Detta exempel skapar en[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt, tillämpar det på ett cellintervall och ändrar[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)objekt. Ändringarna tillämpas automatiskt på cellen och det område som stilen tillämpades på.
+Detta exempel skapar en [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)-objekt, tillämpar det på en cellomfattning och modifierar [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)-objektet. Modifieringarna tillämpas automatiskt på cellen och området som stilen applicerades på.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughStyleObject-1.cs" >}}
 
-###  **Ändra en befintlig stil**
+### **Modifiera en befintlig stil**
 
-Det här exemplet använder en enkel mall i Excel-fil där en stil som heter Procent redan har tillämpats på ett intervall. Exemplet:
+Detta exempel använder en enkel mall Excel-fil där en stil som heter Procent redan har tillämpats på en omfattning. Exemplet:
 
-1. får stilen,
-1. skapar ett stilobjekt och
-1. ändrar stilformateringen.
+1. hämtar stilen,
+1. skapar en stilobjekt och
+1. modifierar stilformatering.
 
-Ändringarna tillämpas automatiskt på det område som stilen tillämpades på.
+Modifieringarna tillämpas automatiskt på området där stilen applicerades.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughSampleExcelFile-1.cs" >}}

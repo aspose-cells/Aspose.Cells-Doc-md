@@ -1,20 +1,21 @@
-﻿---
-title: Обновите элемент управления ActiveX ComboBox
+---
+title: Обновить элемент управления ActiveX ComboBox
 type: docs
 weight: 170
 url: /ru/net/update-activex-combobox-control/
 ---
+
 ## **Возможные сценарии использования**
- Вы можете прочитать или записать значения элемента управления ActiveX ComboBox, используя Aspose.Cells. Получите доступ к элементу управления ActiveX через[Shape.ActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol) свойство и проверьте его тип через[ActiveXControl.Type](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/activexcontrolbase/properties/type) свойство, оно должно возвращаться[ControlType.ComboBox](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype) значение, а затем введите его в[ComboBoxActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol)объект и читать или изменять его различные свойства.
+С помощью Aspose.Cells вы можете читать или записывать значения элементов управления ActiveX ComboBox. Пожалуйста, получите доступ к элементу ActiveX Control через свойство [Shape.ActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol) и проверьте его тип через свойство [ActiveXControl.Type](https://reference.aspose.com/cells/net/aspose.cells.drawing/activexcontrols/activexcontrolbase/properties/type), оно должно возвращать значение [ControlType.ComboBox](https://reference.aspose.com/cells/net/aspose.cells.drawing/activexcontrols/controltype), а затем выполнить приведение типа к объекту [ComboBoxActiveXControl](https://reference.aspose.com/cells/net/aspose.cells.drawing/activexcontrols/comboboxactivexcontrol) и прочитать или изменить его различные свойства.
 
- Пожалуйста, загрузите[образец эксель файла](5115124.xlsx) используется в следующем примере кода.
-## **Обновите элемент управления ActiveX ComboBox**
- На следующем снимке экрана показано влияние примера кода на[образец эксель файла](5115124.xlsx)Как видите, значение ActiveX ComboBox было обновлено до «Это элемент управления полем со списком».
+Пожалуйста, загрузите [образец файла Excel](5115124.xlsx), используемый в следующем примере кода.
+## **Обновление элемента управления ComboBox ActiveX**
+На следующем скриншоте показан эффект примера кода на [образец файла Excel](5115124.xlsx). Как видно, значение элемента управления ActiveX ComboBox было обновлено на "This is combo box control".
 
-|![дело:изображение_альтернативный_текст](update-activex-combobox-control_1.png)|
-|:- |
+|![todo:image_alt_text](update-activex-combobox-control_1.png)|
+| :- |
 ## **Образец кода**
- Следующий пример кода обновляет значение элемента управления ActiveX ComboBox, присутствующего внутри[образец эксель файла](5115124.xlsx).
+Следующий образец кода обновляет значение элемента управления ActiveX ComboBox, находящегося внутри [образца файла Excel](5115124.xlsx).
 
 
 

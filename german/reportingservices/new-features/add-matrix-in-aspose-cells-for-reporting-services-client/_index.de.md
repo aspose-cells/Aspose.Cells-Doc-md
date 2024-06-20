@@ -1,17 +1,18 @@
-﻿---
-title: Matrix in Aspose.Cells for Reporting Services Client hinzufügen
+---
+title: Füge Matrix in Aspose.Cells for Reporting Services Client ein
 type: docs
 weight: 80
 url: /de/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/
 ---
+
 {{% alert color="primary" %}} 
 
- Wir haben Unterstützung zum Erstellen eines Matrixberichtselements in einen Bericht integriert. Der Matrixkontext umfasst Ecken, Spaltengruppierungen, Zeilengruppierungen und Matrixzeilen. Legen Sie Matrixberichtsattribute fest, die Name, Bereich usw. umfassen**Attribut festlegen** Schaltfläche in der Befehlsleiste Aspose.Cells in Excel.
+Wir haben Unterstützung zum Erstellen eines Matrix-Berichtselements in einem Bericht integriert. Der Matrix-Kontext umfasst Ecken, Spaltengruppen, Zeilengruppen und Matrixzeilen. Legen Sie Matrix-Berichtsattribute wie Name, Bereich usw. über die Schaltfläche **Attribut festlegen** in der Befehlsleiste von Aspose.Cells in Excel fest.
 
-Im folgenden Screenshot ist der Matrixbereich beispielsweise E9:G11.
+Zum Beispiel ist im folgenden Screenshot der Matrixbereich E9:G11.
 
-**Ein Matrixberichtselement** 
+**Ein Matrix-Berichtselement** 
 
-![todo: Bild_alt_Text](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
+![todo:image_alt_text](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
 
 {{% /alert %}}

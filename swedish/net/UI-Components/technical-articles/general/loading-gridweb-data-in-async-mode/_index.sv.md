@@ -1,18 +1,21 @@
-﻿---
-title: Laddar GridWeb-data i Async Mode
+---
+title: Ladda GridWeb data i Async läge
 type: docs
 weight: 40
-url: /sv/net/loading-gridweb-data-in-async-mode/
+url: /sv/net/aspose-cells-gridweb/loading-data-in-async-mode/
+description: Denna artikel beskriver hur man använder async läge för att få bättre prestanda i GridWeb.
+keywords: GridWeb,prestanda,async,async läge
 ---
+
 {{% alert color="primary" %}} 
 
-När du skapar en arbetsbok med stora datamängder, eller läser en stor Microsoft Excel-fil, kommer det säkert att ta mer tid och resurser att göra det. Det totala minnet som processen kommer att ta är alltid ett problem. Det finns åtgärder som kan vidtas för att hantera utmaningen. Aspose.Cells.GridWeb tillhandahåller några relevanta alternativ och API:er för att sänka, minska och optimera minnesanvändningen. Det kan också hjälpa processen att fungera mer effektivt och köras snabbare. För ett kalkylblad som innehåller data med stora celler kan du ladda datamängden asynkront, vilket kan förbättra den övergripande prestandan för användarens upplevelse.
+När du skapar en arbetsbok med stora datamängder eller läser in en stor Microsoft Excel-fil tar det säkerligen längre tid och resurser att göra det. Den totala minnesanvändningen är alltid en oro. Det finns åtgärder som kan vidtas för att hantera utmaningen. Aspose.Cells.GridWeb tillhandahåller några relevanta alternativ och API: er för att sänka, minska och optimera minnesanvändningen. Det kan också hjälpa processen att arbeta mer effektivt och snabbare. För en kalkylblad som innehåller stora celler med data kan du ladda in datasetet asynkront vilket kan förbättra den övergripande prestandan för användarupplevelsen.
 
 {{% /alert %}} 
 
-Använd alternativet GridWeb.EnableAsync för att optimera minne och prestanda för celldata. När du bygger en stor datamängd för celler. När du ställer in alternativet på sant kommer dataladdningen att baseras på det aktuella synliga området Windows endast. Kort sagt, när du rullar i kalkylbladets cellers data i GridWeb, kommer det att ladda ny Windows-data endast baserat på den aktuella rullningspositionen.
+Använd alternativet GridWeb.EnableAsync för att optimera minnet och prestandan för celldata. När du bygger en stor datamängd för celler. När du anger alternativet som true kommer dataladdningen att baseras på det aktuella synliga fönsterområdet endast. Kort sagt, när du bläddrar i kalkylbladets celldata i GridWeb kommer det att ladda nya fönsterdata baserat på den aktuella scrollpositionen endast.
 
-Följande exempel visar hur du aktiverar GridWebs asynkroniseringsläge.
+Följande exempel visar hur du aktiverar GridWebs async-läge.
 
 
 

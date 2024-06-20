@@ -1,12 +1,13 @@
-﻿---
-title: Unterstützung für XAdES-Signatur
+---
+title: Unterstützung für XAdES Signatur
 type: docs
 weight: 110
 url: /de/java/support-for-xades-signature/
 ---
-Aspose.Cells unterstützt das Signieren von Arbeitsmappen mit XAdES-Signatur. Dafür sorgt die API[**Digitale Unterschrift**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature)Klasse und[**XAdESType**](https://reference.aspose.com/cells/java/com.aspose.cells/XAdESType)Aufzählung.
 
-Das folgende Code-Snippet demonstriert die Verwendung von[**Digitale Unterschrift**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature)Klasse zu unterzeichnen[Quelle](sourceFile.xlsx)Arbeitsmappe.
+Aspose.Cells unterstützt das Signieren von Arbeitsmappen mit XAdES-Signatur. Hierfür bietet die API die Klasse [**DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature) und die Enumeration [**XAdESType**](https://reference.aspose.com/cells/java/com.aspose.cells/XAdESType) an.
+
+Der folgende Code-Ausschnitt demonstriert die Verwendung der Klasse [**DigitalSignature**](https://reference.aspose.com/cells/java/com.aspose.cells/DigitalSignature), um die Arbeitsmappe [Quelle](sourceFile.xlsx) zu signieren.
 
 ## **Beispielcode**
 

@@ -1,15 +1,16 @@
-﻿---
+---
 title: Skapa nytt arbetsblad
 type: docs
 weight: 10
 url: /sv/java/create-new-worksheet/
 ---
+
 ## **Aspose.Cells - Skapa nytt arbetsblad**
-Lägga till ett arbetsblad i arbetsboken
+Lägga till ett arbetsblad i arbetsbok
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -26,12 +27,12 @@ Worksheet worksheet = worksheets.add("My Worksheet");
 workbook.save("newWorksheet.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Skapa nytt arbetsblad**
-Lägga till ett arbetsblad i arbetsboken
+## **Apache POI SS - HSSF XSSF - Skapa nytt kalkylblad**
+Lägga till ett arbetsblad i arbetsbok
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook(); // or new XSSFWorkbook();
 
@@ -77,7 +78,7 @@ fileOut.close();
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/createnewworksheet)

@@ -1,45 +1,46 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 17.1.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 17.1.0
 type: docs
 weight: 370
 url: /de/net/public-api-changes-in-aspose-cells-17-1-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 16.12.0 zu 17.1.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 16.12.0 auf 17.1.0, die für Modulentwickler/Anwendungs-Entwickler interessant sein könnten. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung etwaiger Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Unterstützung für Excel 2016-Diagramme**
-Aspose.Cells APIs haben die Unterstützung für einige Excel 2016-Diagramme hinzugefügt, indem sie die ChartType-Enumeration erweitert haben. Die folgenden neuen Felder wurden mit der Veröffentlichung von Aspose.Cells 17.1.0 hinzugefügt.
+## **Hinzugefügte APIs**
+### **Unterstützung für Excel 2016 Diagramme**
+Aspose.Cells APIs haben die Unterstützung für einige Excel 2016 Diagramme hinzugefügt, indem sie die ChartType-Enumeration verbessert haben. Mit der Veröffentlichung von Aspose.Cells 17.1.0 wurden folgende neue Felder hinzugefügt.
 
-- ChartType.BoxWhisker: Die Reihe ist als Box und Whisker angelegt.
-- ChartType.Funnel: Die Reihe ist als Trichter angelegt.
-- ChartType.ParetoLine: Die Reihe wird als Pareto-Linien angelegt.
-- ChartType.Sunburst: Die Reihe wird als Sunburst angelegt.
-- ChartType.Treemap: Die Serie wird als Treemap angelegt.
-- ChartType.Waterfall: Die Reihe wird als Wasserfall angelegt.
-- ChartType.Histogram: Die Reihe wird als Histogramm angelegt.
+- ChartType.BoxWhisker: Die Serie ist als Box und Whisker angeordnet.
+- ChartType.Funnel: Die Serie ist als Trichter angeordnet.
+- ChartType.ParetoLine: Die Serie ist als Pareto-Linien angeordnet.
+- ChartType.Sunburst: Die Serie ist als Sunburst angeordnet.
+- ChartType.Treemap: Die Serie ist als TreeMap angeordnet.
+- ChartType.Waterfall: Die Serie ist als Wasserfall angeordnet.
+- ChartType.Histogram: Die Serie ist als Histogramm angeordnet.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Diagrammtypen in Excel 2016 lesen](/cells/de/net/read-and-manipulate-excel-2016-charts/)
+Überprüfen Sie den ausführlichen Artikel zu [Lesen von Excel 2016 Diagrammtypen](/cells/de/net/read-and-manipulate-excel-2016-charts/)
 
 {{% /alert %}} 
-### **Setter für LoadFilter.LoadDataFilterOptions-Eigenschaft hinzugefügt**
-Aspose.Cells 17.1.0 hat Setter für die Eigenschaft LoadFilter.LoadDataFilterOptions hinzugefügt, um die Instanzvariable m_LoadDataFilterOptions zu ersetzen. Benutzer können die LoadDataFilterOptions-Eigenschaft in ihrer eigenen Implementierung der LoadFilter-Klasse ändern, um das Verhalten beim Laden von Vorlagendateien zu ändern.
+### **Hinzugefügter Setter für LoadFilter.LoadDataFilterOptions Eigenschaft**
+Aspose.Cells 17.1.0 hat einen Setter für die LoadFilter.LoadDataFilterOptions-Eigenschaft hinzugefügt, um die Instanzvariable m_LoadDataFilterOptions zu ersetzen. Benutzer können die LoadDataFilterOptions-Eigenschaft in ihrer eigenen Implementierung der LoadFilter-Klasse ändern, um das Ladeverhalten von Vorlagendateien zu ändern.
 
-Hier ist ein einfaches Nutzungsszenario.
+Hier ist ein einfaches Anwendungsbeispiel.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Benutzerdefinierte Vorlagenfilterung](/cells/de/net/filter-objects-while-loading-workbook-or-worksheet/)
+Überprüfen Sie den ausführlichen Artikel zu [Benutzerdefinierter Vorlagenfilterung](/cells/de/net/filter-objects-while-loading-workbook-or-worksheet/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomFilter : Aspose.Cells.LoadFilter
 
@@ -76,20 +77,20 @@ Hier ist ein einfaches Nutzungsszenario.
 {{< /highlight >}}
 
 
-### **CellsHelper.SignificantDigits-Eigenschaft hinzugefügt**
-Aspose.Cells 17.1.0 hat die SignificantDigits-Eigenschaft der CellsHelper-Klasse verfügbar gemacht, die es ermöglicht, die Anzahl signifikanter Stellen für numerische Werte in einer Tabelle abzurufen oder festzulegen. Der Standardwert der Eigenschaft CellsHelper.SignificantDigits ist 17, wobei er nur anwendbar ist, wenn das Ergebnis im Dateiformat XLSX gespeichert werden muss.
+### **Hinzugefügte CellsHelper.SignificantDigits Eigenschaft**
+Aspose.Cells 17.1.0 hat die SignificantDigits-Eigenschaft aus der CellsHelper-Klasse freigelegt, die es erlaubt, die Anzahl der signifikanten Stellen für numerische Werte in einer Tabellenkalkulation zu erhalten oder festzulegen. Der Standardwert der CellsHelper.SignificantDigits-Eigenschaft beträgt 17 und ist nur anwendbar, wenn das Ergebnis im XLSX-Dateiformat gespeichert werden soll.
 
-Hier ist ein einfaches Szenario, um die Verwendung der Eigenschaft CellsHelper.SignificantDigits zu demonstrieren.
+Hier ist ein einfaches Szenario zur Demonstration der Verwendung der CellsHelper.SignificantDigits-Eigenschaft.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Einstellen der Anzahl signifikanter Stellen](/cells/de/net/specifying-significant-digits-to-be-stored-in-excel-file/)
+Überprüfen Sie den ausführlichen Artikel zur [Festlegung der Anzahl von signifikanten Stellen](/cells/de/net/specifying-significant-digits-to-be-stored-in-excel-file/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Specify the number of significant digits
 
@@ -98,20 +99,20 @@ CellsHelper.SignificantDigits = 15;
 {{< /highlight >}}
 
 
-### **GlowEffect.Color-Eigenschaft hinzugefügt**
-Aspose.Cells 17.1.0 hat die Eigenschaft GlowEffect.Color hinzugefügt, die verwendet werden kann, um die Farbe des Glüheffekts abzurufen.
+### **Hinzugefügtes GlowEffect.Color-Eigenschaft**
+Aspose.Cells 17.1.0 hat die GlowEffect.Color-Eigenschaft hinzugefügt, die zur Abrufung der Farbe des Leuchteffekts verwendet werden kann.
 
-Das folgende Snippet verwendet die GlowEffect.Color-Eigenschaft.
+Der folgende Ausschnitt verwendet die GlowEffect.Color-Eigenschaft.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Lesen der Leuchtfarbe der Form](/cells/de/net/read-color-of-shape-s-glow-effect/)
+Überprüfen Sie den ausführlichen Artikel zu [Lesen der Glanzfarbe der Form](/cells/de/net/read-color-of-shape-s-glow-effect/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Read the source excel file
 
@@ -134,26 +135,26 @@ var color = glow.Color;
 {{< /highlight >}}
 
 
-### **PageSetup.PaperWidth- und PaperHeight-Eigenschaften hinzugefügt**
-Aspose.Cells 17.1.0 hat die PaperWidth- und PaperHeight-Eigenschaften für die PageSetup-Klasse verfügbar gemacht. Die Eigenschaften PageSetup.PaperWidth und PageSetup.PaperHeight sind vom Typ Double und repräsentieren die Papierbreite und -höhe in der Einheit Zoll, wobei die Seitenausrichtung berücksichtigt wird.
+### **Hinzugefügte PaperWidth- & PaperHeight-Eigenschaften für PageSetup**
+Aspose.Cells 17.1.0 hat die PaperWidth- und PaperHeight-Eigenschaften für die PageSetup-Klasse freigegeben. Die PaperWidth- und PaperHeight-Eigenschaften von PageSetup sind vom Typ double und repräsentieren die Papierbreite und -höhe in Zoll, unter Berücksichtigung der Seitenorientierung.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Abrufen der Papiergröße des Arbeitsblatts](/cells/de/net/get-paper-width-and-height-of-page-setup-of-worksheet/)
+Überprüfen Sie den ausführlichen Artikel zu [Abrufen der Papiergröße des Arbeitsblatts](/cells/de/net/get-paper-width-and-height-of-page-setup-of-worksheet/)
 
 {{% /alert %}} 
-### **WorkbookSettings.CheckCustomNumberFormat-Eigenschaft hinzugefügt**
-Aspose.Cells 17.1.0 hat die CheckCustomNumberFormat-Eigenschaft zur WorkbookSettings-Klasse hinzugefügt. Das CheckCustomNumberFormat ist nützlich, um zu überprüfen, ob die Style.Custom-Eigenschaft richtig festgelegt wurde oder nicht. Falls die Style.Custom-Eigenschaft falsch eingestellt wurde, das heißt; Der Wert entspricht keinem gültigen Muster, dann lösen die Aspose.Cells-APIs CellsException mit der entsprechenden Meldung aus.
+### **Hinzugefügtes CheckCustomNumberFormat-Eigenschaft für WorkbookSettings**
+Aspose.Cells 17.1.0 hat die CheckCustomNumberFormat-Eigenschaft für die WorkbookSettings-Klasse hinzugefügt. Die CheckCustomNumberFormat ist nützlich, um zu überprüfen, ob die Style.Custom-Eigenschaft ordnungsgemäß festgelegt wurde oder nicht. Falls die Style.Custom-Eigenschaft auf unkorrekte Weise festgelegt wurde, d.h. der Wert nicht dem gültigen Muster entspricht, werden die Aspose.Cells-APIs eine CellsException mit entsprechender Meldung auslösen.
 
 {{% alert color="primary" %}} 
 
- Überprüfen Sie den ausführlichen Artikel auf[Überprüfen des benutzerdefinierten Formats](/cells/de/net/check-custom-number-format-when-setting-style-custom-property/)
+Überprüfen Sie den ausführlichen Artikel zur [Überprüfung des benutzerdefinierten Formats](/cells/de/net/check-custom-number-format-when-setting-style-custom-property/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -192,8 +193,8 @@ cell.SetStyle(style);
 {{< /highlight >}}
 
 
-### **DisplayUnitType.Prozentfeld hinzugefügt**
-Aspose.Cells 17.1.0 hat auch das Prozentfeld für die DisplayUnitType-Enumeration verfügbar gemacht. Das Feld DisplayUnitType.Percentage gibt an, dass die Werte im Diagramm durch 0,01 dividiert werden sollen.
+### **Hinzugefügtes DisplayUnitType.Percentage Feld**
+Aspose.Cells 17.1.0 hat auch das Percentage Feld der DisplayUnitType Enumeration freigegeben. Das DisplayUnitType.Percentage Feld gibt an, dass die Werte im Diagramm durch 0,01 geteilt werden sollen.
 ## **Entfernte APIs**
-### **Instanzvariable m_LoadDataFilterOptions entfernt**
-In dieser Version wurde die Instanzvariable m_LoadDataFilterOptions entfernt. Es wird empfohlen, stattdessen die Eigenschaft LoadFilter.LoadDataFilterOptions zu verwenden.
+### **Instanzvariable m_LoadDataFilterOptions wurde entfernt**
+In diesem Release wurde die Instanzvariable m_LoadDataFilterOptions entfernt. Es wird empfohlen, stattdessen die LoadFilter.LoadDataFilterOptions-Eigenschaft zu verwenden.

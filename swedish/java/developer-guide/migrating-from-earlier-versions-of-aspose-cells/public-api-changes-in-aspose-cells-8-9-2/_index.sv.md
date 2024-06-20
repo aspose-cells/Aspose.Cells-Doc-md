@@ -1,27 +1,28 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.9.2
+---
+title: Offentliga API ändringar i Aspose.Cells 8.9.2
 type: docs
 weight: 330
 url: /sv/java/public-api-changes-in-aspose-cells-8-9-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.9.1 till 8.9.2 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Det här dokumentet beskriver ändringarna i Aspose.Cells API från version 8.9.1 till 8.9.2 som kan vara av intresse för modul/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Kontrollera också[Offentlig API Ändringar införda i Aspose.Cells for Java 8.9.1](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1)
+Vänligen kontrollera även [Offentliga API-ändringar som introducerades i Aspose.Cells for Java 8.9.1](http://aspose.com/docs/display/cellsjava/Public+API+Changes+in+Aspose.Cells+8.9.1)
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Lagt till TextOptions Class & FontSettings.TextOptions Property**
-Aspose.Cells for Java har exponerat TextOptions-klassen tillsammans med FontSettings.TextOptions-egenskapen för att kontrollera utseendet på textdelar av en Shape.
+## **Tillagda API:er**
+### **Tillagd TextOptions Klass & FontSettings.TextOptions Egendom**
+Aspose.Cells for Java har exponerat TextOptions-klassen tillsammans med FontSettings.TextOptions egendomen för att styra utseendet på textdelar av en form.
 
-Här är ett enkelt användningsscenario för FontSettings.TextOptions-egenskapen.
+Här är det enkla användningscenariot för FontSettings.TextOptions egendomen.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -44,14 +45,14 @@ shape.setText("Aspose");
 TextOptions textOptions =  ((FontSetting)shape.getCharacters().get(0)).getTextOptions();
 
 {{< /highlight >}}
-### **Lade till TextOptions.Fill, Outline & Shadow Properties**
- Aspose.Cells for Java 8.9.2 har exponerat egenskaperna TextOptions.Fill, TextOptions.Outline och TextOptions.Shadow som gör det möjligt att kontrollera aspekterna av textinnehållet i formen, såsom fyllning, skugga och kontur respektive.
+### **Tillagd TextOptions.Fill, Outline & Shadow Egenskaper**
+Aspose.Cells for Java 8.9.2 har exponerat TextOptions.Fill, TextOptions.Outline & TextOptions.Shadow egenskaperna som tillåter att styra aspekterna av textinnehållet i formen, såsom fyllning, skugga & kontur respektive. 
 
-Här är ett enkelt användningsscenario för ovannämnda egenskaper.
+Här är det enkla användningscenariot för ovanstående egenskaper.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -88,14 +89,14 @@ textOptions.getFill().getSolidFill().setColor(Color.getRed());
 textOptions.getOutline().setOneColorGradient(Color.getBlue(), 0.3, GradientStyleType.HORIZONTAL, 2);
 
 {{< /highlight >}}
-### **Lade till Shape.Line-egenskap**
-Aspose.Cells for Java har exponerat egenskapen Shape.Line som returnerar en instans av LineFormat för att kontrollera utseendet på konturerna av en Shape.
+### **Tillagd Shape.Line Egendom**
+Aspose.Cells for Java har exponerat Shape.Line egendomen som returnerar en instans av LineFormat för att styra utseendet på konturerna av en form.
 
-Här är ett enkelt användningsscenario för Shape.Line-egenskapen.
+Här är ett enkelt användningsscenariot för Shape.Line-egenskapen.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -118,14 +119,14 @@ LineFormat line = shape.getLine();
 line.setWeight(4);
 
 {{< /highlight >}}
-### **Lade till egenskapen Shape.Fill**
-Aspose.Cells for Java 8.9.2 har exponerat egenskapen Shape.Fill som returnerar en instans av FillFormat för att kontrollera de olika aspekterna av formområdet.
+### **Tillagd Shape.Fill Egendom**
+Aspose.Cells for Java 8.9.2 har exponerat Shape.Fill egendomen som returnerar en instans av FillFormat för att styra olika aspekter av formområdet.
 
-Följande är det enkla användningsscenariot för Shape.Fill-egenskapen.
+Följande är det enkla användningscenariot för Shape.Fill egendomen.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initialize Workbook instance
 
@@ -150,16 +151,16 @@ fill.setFillType(FillType.SOLID);
 fill.getSolidFill().setColor(Color.getBlue());
 
 {{< /highlight >}}
-## **Föråldrade API:er**
-### **Föråldrad ShapeFont Class**
-Använd TextOptions-klassen istället.
-### **Föråldrad ShapeFormat Class**
-Använd egenskaperna Shape.Fill och Shape.Line direkt.
-### **Föråldrad Shape.Format Property**
-Använd egenskaperna Shape.Fill och Shape.Line direkt.
-### **Föråldrad Shape.LineFormat-egenskap**
-Använd egenskapen Shape.Line istället.
-### **Föråldrad Shape.FillFormat-egenskap**
+## **Obsoletterade API:er**
+### **Föråldrad ShapeFont Klass**
+Använd istället TextOptions-klassen.
+### **Föråldrad ShapeFormat Klass**
+Använd direkt Shape.Fill- och Shape.Line-egenskaper.
+### **Obsolet Shape.Format-egenskap**
+Använd direkt Shape.Fill- och Shape.Line-egenskaper.
+### **Obsolet Shape.LineFormat-egenskap**
+Använd Shape.Line-egenskapen istället.
+### **Obsolet Shape.FillFormat-egenskap**
 Använd Shape.Fill-egenskapen istället.
-### **Föråldrad FontSetting.ShapeFont-egenskap**
-Använd egenskapen FontSetting.TextOptions istället.
+### **Obsolet FontSetting.ShapeFont-egenskap**
+Använd FontSetting.TextOptions-egenskapen istället.

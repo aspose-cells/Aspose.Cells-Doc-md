@@ -1,15 +1,16 @@
-﻿---
-title: Trouver la valeur dans Cells en utilisant Aspose.Cells
+---
+title: Trouver des valeurs dans les cellules avec Aspose.Cells
 type: docs
 weight: 10
 url: /fr/java/find-value-in-cells-using-aspose-cells/
 ---
-## **Aspose.Cells - Trouver la valeur dans Cells**
-Dans Microsoft Excel, les utilisateurs peuvent rechercher des cellules contenant des données spécifiques. Par exemple, en cliquant**Éditer**et puis**Trouver**ouvre la boîte de dialogue Rechercher. Les utilisateurs entrent une valeur et cliquent**D'ACCORD**pour le chercher. Excel met en évidence les champs correspondants.
+
+## **Aspose.Cells - Trouver des valeurs dans les cellules**
+Dans Microsoft Excel, les utilisateurs peuvent rechercher des cellules contenant des données spécifiques. Par exemple, en cliquant sur **Modifier** puis sur **Rechercher**, cela ouvre la boîte de dialogue de recherche. Les utilisateurs saisissent une valeur et cliquent sur **OK** pour la rechercher. Excel met en surbrillance les champs correspondants.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -38,14 +39,14 @@ Cell cell = cells.find("SH",null,findOptions);
 System.out.println("Name of the cell containing String: " + cell.getName());
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/search/AsposeFindCellsWithString.java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Rechercher ou rechercher des données](/cells/fr/java/find-or-search-data).
+Pour plus de détails, visitez [Rechercher ou trouver des données](/cells/fr/java/find-or-search-data).
 
 {{% /alert %}}

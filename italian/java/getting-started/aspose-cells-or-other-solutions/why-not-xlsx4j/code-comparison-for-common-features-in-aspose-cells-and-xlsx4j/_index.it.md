@@ -1,24 +1,25 @@
-﻿---
-title: Confronto di codici per caratteristiche comuni in Aspose.Cells e xlsx4j
+---
+title: Confronto del Codice per le Funzionalità Comuni in Aspose.Cells e xlsx4j
 type: docs
 weight: 10
 url: /it/java/code-comparison-for-common-features-in-aspose-cells-and-xlsx4j/
 ---
-Gli sviluppatori alla ricerca di librerie per l'elaborazione di fogli di calcolo potrebbero dover esaminare le funzionalità fornite dalle librerie disponibili sul mercato. Principalmente, alcuni fattori vengono considerati quando si sceglie un'opzione:
+
+Gli sviluppatori in cerca di librerie di elaborazione dei fogli di calcolo potrebbero dover esaminare le funzionalità fornite dalle librerie disponibili sul mercato. Principalmente, vengono considerati alcuni fattori nella scelta di un'opzione:
 
 - Caratteristiche
-- Sforzi necessari per utilizzare la biblioteca
-- Prestazione
+- Sforzi necessari per utilizzare la libreria
+- Prestazioni
 
-Se sei uno sviluppatore Java che cerca di scegliere una libreria di elaborazione di fogli di calcolo per elaborare fogli di calcolo, potresti voler confrontare xlsx4j con Aspose.Cells. In questo caso, proprio questo progetto ti aiuterà a confrontare funzionalità e codice utilizzando entrambe le librerie.
+Se sei un programmatore Java alla ricerca di una libreria di elaborazione dei fogli di calcolo per processare i fogli di calcolo, potresti voler confrontare xlsx4j con Aspose.Cells. In questo caso, questo progetto ti aiuterà a confrontare le funzionalità e il codice utilizzando entrambe le librerie.
 
-Questa sezione include i seguenti esempi di confronto del codice:
+Questa sezione include i seguenti Esempi di Confronto del Codice:
 
-- [Lavorare con il foglio di calcolo in xlsx4j](/cells/it/java/working-with-spreadsheet-in-xlsx4j/)
-  - [Aggiungi commenti nel foglio di calcolo in xlsx4j](/cells/it/java/add-comments-in-spreadsheet-in-xlsx4j/)
-  - [Aggiungi immagini nel foglio di calcolo in xlsx4j](/cells/it/java/add-images-in-spreadsheet-in-xlsx4j/)
-  - [Crea un nuovo foglio di calcolo in xlsx4j](/cells/it/java/create-new-spreadsheet-in-xlsx4j/)
-  - [Apri e salva foglio di calcolo in xlsx4j](/cells/it/java/open-and-save-spreadsheet-in-xlsx4j/)
-  - [Regolazione altezza colonna riga in xlsx4j](/cells/it/java/row-column-height-adjustment-in-xlsx4j/)
+- [Lavorare con il Foglio di Calcolo in xlsx4j](/cells/it/java/working-with-spreadsheet-in-xlsx4j/)
+  - [Aggiungere Commenti nel Foglio di Calcolo in xlsx4j](/cells/it/java/add-comments-in-spreadsheet-in-xlsx4j/)
+  - [Aggiungere Immagini nel Foglio di Calcolo in xlsx4j](/cells/it/java/add-images-in-spreadsheet-in-xlsx4j/)
+  - [Creare un Nuovo Foglio di Calcolo in xlsx4j](/cells/it/java/create-new-spreadsheet-in-xlsx4j/)
+  - [Aprire e Salvare il Foglio di Calcolo in xlsx4j](/cells/it/java/open-and-save-spreadsheet-in-xlsx4j/)
+  - [Regolazione dell'Altezza della Riga e della Colonna in xlsx4j](/cells/it/java/row-column-height-adjustment-in-xlsx4j/)
 
-**Nota:**Molti altri confronti di codice devono ancora essere disponibili a breve.
+**Nota:** Molti altri confronti di codice saranno presto disponibili. 

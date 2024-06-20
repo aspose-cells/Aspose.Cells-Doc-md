@@ -1,39 +1,40 @@
-﻿---
+---
 title: クエリの編集
 type: docs
 weight: 40
 url: /ja/reportingservices/editing-query/
 ---
-Aspose.Cells.Report.Designer でクエリを編集するには:
 
-1. Microsoft エクセルを開きます。
-1. クリック**DataSet の構築**Aspose.Cells.Report.Designer ツールバー (
+Aspose.Cells.Report.Designerでクエリを編集するには:
 
-![todo:画像_代替_文章](editing-query_1.png)
+1. Microsoft Excel を開きます。
+1. Aspose.Cells.Report.Designerツールバーの**Build DataSet**をクリックします(
+
+![todo:image_alt_text](editing-query_1.png)
 
 ).
 
-1. ダイアログ ボックスで、データ セットを選択します。**EmpSalesDetail**.
-1. クリック**編集**. 
+1. ダイアログボックスでデータセットを選択します。例えば、**EmpSalesDetail**を選択します。
+1. **編集**をクリックします。 
 
    **データセットの選択** 
 
-![todo:画像_代替_文章](editing-query_2.png)
+![todo:image_alt_text](editing-query_2.png)
 
 
 
 
-1.  Aspose.Cell.Report.Designer は Microsoft クエリを開始し、編集のためにクエリを開きます。
+1. Aspose.Cell.Report.DesignerはMicrosoft Queryを起動し、クエリを編集します。 
 
-   **Microsoft クエリでクエリを編集する** 
+   **Microsoft Queryでクエリを編集** 
 
-![todo:画像_代替_文章](editing-query_3.png)
-
-
+![todo:image_alt_text](editing-query_3.png)
 
 
-1.  Microsoftからお問い合わせ**ファイル**メニュー、選択**Aspose.Cells.Report.Designerに戻る** 
 
-   **レポート デザイナーに戻る** 
 
-![todo:画像_代替_文章](editing-query_4.png)
+1. Microsoft Queryの**ファイル**メニューから**Aspose.Cells.Report.Designerに戻る**を選択します 
+
+   **レポートデザイナーに戻る** 
+
+![todo:image_alt_text](editing-query_4.png)

@@ -1,23 +1,24 @@
-﻿---
-title: パブリック API Aspose.Cells 16.12.0 の変更点
+---
+title: Aspose.Cells 16.12.0でのパブリックAPIの変更
 type: docs
 weight: 370
 url: /ja/java/public-api-changes-in-aspose-cells-16-12-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 16.11.0 から 16.12.0 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントでは、バージョン16.11.0から16.12.0へのAspose.Cells APIの変更について説明します。これは、モジュール/アプリケーション開発者にとって興味深い変更だけでなく、新しいメソッドや更新された公開メソッド、追加および削除されたクラスなどを含むものです。
 
 {{% /alert %}} 
-## **追加された API**
-### **読み込み時にオブジェクトをフィルタリングする**
-Aspose.Cells 16.12.0 は、テンプレート ファイルから Workbook のインスタンスを初期化する際にロードするデータのタイプを一緒に制御できる LoadOptions.LoadFilter プロパティと共に LoadFilter クラスを公開しました。
+## **APIの追加**
+### **ロード時のオブジェクトフィルタ**
+Aspose.Cells 16.12.0 では、テンプレートファイルからワークブックのインスタンスを初期化する際にロードされるデータの種類を制御する LoadFilter クラスと LoadOptions.LoadFilter プロパティが公開されました
 
-テンプレート ファイルからドキュメント プロパティのみを読み込む簡単な使用シナリオを次に示します。
+ここには、テンプレートファイルからドキュメントプロパティのみをロードするシンプルな使用シナリオがあります
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions class
 
@@ -39,11 +40,11 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 
-次のスニペットは、チャートを除く既存のスプレッドシートからすべてを読み込みます。
+以下のスニペットは、チャートを除く既存のスプレッドシートからすべてをロードします
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions class
 
@@ -65,11 +66,11 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 
-次のコードは、既存のスプレッドシートからセル データ (数式と共に) と書式設定のみを読み込みます。
+以下のコードは、既存のスプレッドシートからセルデータ（および数式）および書式のみをロードします
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions class
 
@@ -90,14 +91,14 @@ options.setLoadFilter(filter);
 Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
-### **FileFormatType.OTS 列挙を追加**
-Aspose.Cells 16.12.0 では、OTS ファイルの形式を検出するために、FileFormatType 列挙に OTS エントリが追加されました。
+### **FileFormatType.OTS 列挙型が追加されました**
+Aspose.Cells 16.12.0 では、OTS ファイルの形式を検出するために FileFormatType 列挙型に OTS エントリが追加されました
 
-次のスニペットは、FileFormatType.OTS を利用しています。
+次のスニペットは FileFormatType.OTS を利用します
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Detect the format of the file
 
@@ -116,20 +117,20 @@ if(fileFormatInfo.getFileFormatType() == FileFormatType.OTS);
 }
 
 {{< /highlight >}}
-### **BuiltInDocumentPropertyCollection.ScaleCrop プロパティを追加**
-Aspose.Cells 16.12.0 では、ScaleCrop プロパティが BuiltInDocumentPropertyCollection クラスに追加されました。 ScaleCrop は、ドキュメント サムネイルの表示モードを示します。この要素を true に設定すると、ディスプレイごとにドキュメント サムネイルのスケーリングが有効になります。false に設定すると、ドキュメント サムネイルのトリミングが有効になり、ディスプレイに合わせてセクションが表示されます。
-### **BuiltInDocumentPropertyCollection.LinksUpToDate プロパティを追加**
-Aspose.Cells 16.12.0 では、BuiltInDocumentPropertyCollection クラスの LinksUpToDate プロパティも公開されています。 LinksUpToDate プロパティは、ドキュメント内のハイパーリンクが最新かどうかを示します。
-### **Workbook.exportXml メソッドを追加**
-Aspose.Cells 16.12.0 では、指定したファイル パスに XML マップ データを保存できる Workbook.exportXml メソッドが公開されました。 Workbook.exportXml メソッドは 2 つのパラメーターを受け入れます。最初の文字列型のパラメーターは XML マップ名で、2 番目のパラメーターは XML データを保存するファイル パスの場所である必要があります。
-### **WorksheetCollection.createRange メソッドを追加**
-Aspose.Cells 16.12.0 では、アドレス (セル領域参照) とワークシート インデックスに基づいて範囲を作成できる WorksheetCollection.createRange メソッドが追加されました。
+### **BuiltInDocumentPropertyCollection.ScaleCrop プロパティが追加されました**
+Aspose.Cells 16.12.0 では、BuiltInDocumentPropertyCollection クラスに ScaleCrop プロパティが追加されました。ScaleCrop はドキュメントサムネイルの表示モードを示します。この要素を true に設定すると、ドキュメントサムネイルの表示に応じてスケーリングが有効になり、false に設定すると、表示に適合するセクションをトリミングしてドキュメントサムネイルを表示します
+### **BuiltInDocumentPropertyCollection.LinksUpToDate プロパティが追加されました**
+Aspose.Cells 16.12.0 では、BuiltInDocumentPropertyCollection クラスに LinksUpToDate プロパティも公開されました。LinksUpToDate プロパティは、ドキュメント内のハイパーリンクが最新かどうかを示します 
+### **Workbook.exportXml メソッドが追加されました**
+Aspose.Cells 16.12.0 では、XML マップデータを指定されたファイルパスに保存するための Workbook.exportXml メソッドが公開されました。Workbook.exportXml メソッドは、第1パラメータとして XML マップ名であるべき文字列型のパラメータと、XML データを保存するファイルパスのパラメータとして2つのパラメータを受け取ります
+### **WorksheetCollection.createRange メソッドが追加されました**
+Aspose.Cells 16.12.0 では、アドレス（セルエリア参照）およびワークシートインデックスに基づいて範囲を作成するための WorksheetCollection.createRange メソッドが追加されました
 
-次のスニペットでは、WorksheetCollection.createRange メソッドを使用して、最初の (既定の) ワークシートで A1 から A2 にまたがるセル範囲を作成します。
+次のスニペットは、WorksheetCollection.createRange メソッドを使用して、最初（デフォルト）のワークシートにおいて A1 から A2 までのセルの範囲を作成します
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -146,29 +147,29 @@ WorksheetCollection sheets = book.getWorksheets();
 Range range = sheets.createRange("A1:A2", 0);
 
 {{< /highlight >}}
-## **廃止された API**
-### **廃止された LoadOptions.LoadDataOptions プロパティ**
-代わりに LoadOptions.LoadFilter プロパティを使用してください。
-### **廃止された LoadOptions.LoadDataFilterOptions プロパティ**
-代わりに LoadOptions.LoadFilter プロパティを使用してください。
-### **廃止された LoadOptions.OnlyLoadDocumentProperties プロパティ**
-代わりに LoadOptions.LoadFilter プロパティを使用してください。
-### **廃止された LoadOptions.LoadDataAndFormatting プロパティ**
-代わりに LoadOptions.LoadFilter プロパティを使用してください。
+## **非推奨API**
+### **LoadOptions.LoadDataOptions プロパティが非推奨になりました**
+代替として LoadOptions.LoadFilter プロパティを使用してください
+### **LoadOptions.LoadDataFilterOptions プロパティは廃止されました**
+代わりに LoadOptions.LoadFilter プロパティを使用してください
+### **LoadOptions.OnlyLoadDocumentProperties プロパティは廃止されました**
+代替として LoadOptions.LoadFilter プロパティを使用してください
+### **LoadOptions.LoadDataAndFormatting プロパティは廃止されました**
+代わりに LoadOptions.LoadFilter プロパティを使用してください
 
 {{% alert color="primary" %}} 
 
-廃止されたすべての API のコード スニペットは上記で共有されています。
+廃止されたAPIのコードスニペットが上で共有されています
 
 {{% /alert %}}
-## **削除された API**
-### **削除された DataLabels.Rotation プロパティ**
-代わりに DataLabels.RotationAngle プロパティを使用してください。
-### **削除された Title.Rotation プロパティ**
-代わりに Title.RotationAngle プロパティを使用してください。
-### **削除された DataLabels.Background プロパティ**
-代わりに DataLabels.BackgroundMode プロパティを使用することをお勧めします。
-### **DisplayUnitLabel.Rotation プロパティを削除**
-同じ目標を達成するために DisplayUnitLabel.RotationAngle プロパティの使用を検討してください。
-### **Title.getCharacters メソッドの削除**
-代わりに Title.characters メソッドを使用してください。
+## **削除されたAPI**
+### **DataLabels.Rotation プロパティは削除されました**
+代わりに DataLabels.RotationAngle プロパティを使用してください
+### **Title.Rotation プロパティは削除されました**
+代替として Title.RotationAngle プロパティを使用してください
+### **DataLabels.Background プロパティは削除されました**
+代わりに DataLabels.BackgroundMode プロパティを使用することをお勧めします
+### **DisplayUnitLabel.Rotation プロパティは削除されました**
+同じ目的を達成するために DisplayUnitLabel.RotationAngle プロパティを使用することを検討してください
+### **Title.getCharacters メソッドは削除されました**
+代わりに Title.characters メソッドを使用してください

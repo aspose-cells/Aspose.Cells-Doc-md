@@ -1,19 +1,20 @@
-﻿---
-title: Создание сводных таблиц с помощью Apache POI и Aspose.Cells
+---
+title: Создать сводные таблицы с использованием Apache POI и Aspose.Cells
 type: docs
 weight: 40
 url: /ru/java/create-pivot-tables-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Создать сводную таблицу**
-Чтобы создать сводную таблицу с помощью Aspose.Cells:
 
-1. Добавьте некоторые данные в ячейки рабочего листа, используя метод setValue объекта Cell. Вы также используете файл шаблона, уже заполненный данными. Данные будут использоваться в качестве источника данных сводной таблицы.
-1. Добавьте сводную таблицу на лист, вызвав метод добавления PivotTableCollection (инкапсулированный в объекте {{Worksheet }}).
-1. Получите доступ к новому объекту сводной таблицы из коллекции PivotTableCollection, передав его индекс.
+## **Aspose.Cells - Создание сводной таблицы**
+Для создания сводной таблицы с использованием Aspose.Cells:
+
+1. Добавьте некоторые данные в ячейки листа с использованием метода setValue объекта Cell. Вы также можете использовать файл шаблона, уже заполненный данными. Данные будут использоваться в качестве источника данных сводной таблицы.
+1. Добавьте сводную таблицу на лист, вызвав метод add коллекции PivotTableCollection (инкапсулирован в объекте {{Worksheet }}).
+1. Получите доступ к новому объекту PivotTable из коллекции PivotTableCollection, передав его индекс.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -152,10 +153,10 @@ pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);
 pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF) — создание сводных таблиц**
+## **Apache POI SS (HSSF + XSSF) - Создание сводных таблиц**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  XSSFWorkbook wb = new XSSFWorkbook();
 
@@ -186,17 +187,17 @@ pivotTable.addColumnLabel(DataConsolidateFunction.AVERAGE, 2);
 pivotTable.addReportFilter(3);
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать примеры работы для**Создание сводных таблиц с помощью Apache POI и Aspose.Cells** с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать примеры запущенных программ для **Создание сводных таблиц с использованием Apache POI и Aspose.Cells** с любого из социальных сайтов для кодинга, указанных ниже:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **Скачать исходный код**
- Скачать исходный код для**Создание сводных таблиц с помощью Apache POI и Aspose.Cells** с любого из нижеперечисленных сайтов социального кодирования:
+Скачать исходный код для **Создание сводных таблиц с использованием Apache POI и Aspose.Cells** с любого из социальных сайтов для кодинга, указанных ниже:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Создание сводных таблиц и сводных диаграмм](/cells/ru/java/create-pivot-tables-and-pivot-charts/).
+Дополнительные сведения см. на странице [Создание сводной таблицы и сводных диаграмм](/cells/ru/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}

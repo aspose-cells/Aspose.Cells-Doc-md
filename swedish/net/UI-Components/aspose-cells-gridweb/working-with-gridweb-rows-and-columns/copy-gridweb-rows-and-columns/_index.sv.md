@@ -1,39 +1,42 @@
-﻿---
+---
 title: Kopiera GridWeb rader och kolumner
 type: docs
 weight: 80
-url: /sv/net/copy-gridweb-rows-and-columns/
+url: /sv/net/aspose-cells-gridweb/copy-gridweb-rows-and-columns/
+keywords: GridWeb, kopiera
+description: Denna artikel beskriver hur man kopierar rader och kolumner i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb-komponenten erbjuder möjligheten att kopiera rader och kolumner medan du använder GridCells-klassen. Den här artikeln visar användningen av API:er som exponeras av Aspose.Cells.GridWeb för att kopiera rader och kolumner i GridWeb-gränssnittet.
+Komponenten Aspose.Cells.GridWeb erbjuder möjligheten att kopiera rad och kolumn med hjälp av GridCells-klassen. Denna artikel demonstrerar användningen av de API: er som tillhandahålls av Aspose.Cells.GridWeb för att kopiera rader och kolumner på GridWeb-gränssnittet. 
 
-Metoderna GridCells.CopyRow, GridCells.CopyColumn, GridCells.CopyRows & GridCells.CopyColumns kopierar innehållet, stilen och formlerna från källraden och kolumnen till destinationen.
+Metoderna GridCells.CopyRow, GridCells.CopyColumn, GridCells.CopyRows och GridCells.CopyColumns kommer att kopiera innehållet, stilen och formlerna från källraden och kolumnen till destinationen.
 
 {{% /alert %}} 
 ## **Kopiera rader och kolumner**
- Om du inte redan är bekant med Aspose.Cells.GridWeb-komponenten rekommenderar vi starkt att du kontrollerar[Introduktion till Aspose.Cells.GridWeb](https://docs.aspose.com/cells/net/browsers-capabilities/) och detaljerad artikel om[Hur man lägger till Aspose.Cells.GridWeb-komponent i en WebForms-applikation](https://docs.aspose.com/cells/net/add-gridweb-to-web-form/).
-### **Kopiera en rad**
-För att hålla exemplet enkelt använder artikeln ett befintligt kalkylblad med en rad och en enkel formel som summerar alla värden i raden. Så här visas kalkylarket i Aspose.Cells.GridWeb-gränssnittet innan du kopierar raden.
+Om du inte redan är bekant med Aspose.Cells.GridWeb-komponenten rekommenderar vi starkt att du kontrollerar [Introduktion till Aspose.Cells.GridWeb](https://docs.aspose.com/cells/net/aspose-cells-gridweb/browsers-capabilities/) och detaljerad artikel om [Så här lägger du till Aspose.Cells.GridWeb-komponenten i en webbformsapplikation](https://docs.aspose.com/cells/net/aspose-cells-gridweb/add-gridweb-to-web-form/).
+### **Kopiera enstaka rad**
+För att hålla exemplet enkelt använder artikeln en befintlig kalkylblad med en rad och en enkel formel som summerar alla värden i raden. Här är hur kalkylbladet visas i gränssnittet Aspose.Cells.GridWeb före kopieringen av raden.
 
 ![todo:image_alt_text](copy-gridweb-rows-and-columns_1.png)
 
-Kodavsnittet är enkelt som visas nedan. Den kommer åt GridCells objekt i aktiv kalkylbladsordning för att göra en kopia av den första raden till den efterföljande raden.
+Kodexemplet är enkelt som visas nedan. Det används GridCells-objektet för aktivt arbetsblad för att kopiera den första raden till den efterföljande raden.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-RowsAndColumns-CopyRowsColumns.aspx-CopyRow.cs" >}}
 
 
-Så här ser Aspose.Cells.GridWeb ut efter kopieringsradoperation.
+Så här ser Aspose.Cells.GridWeb ut efter kopieringsoperationen av raden.
 
 ![todo:image_alt_text](copy-gridweb-rows-and-columns_2.png)
-### **Kopiera en kolumn**
-Följande exempel använder ett befintligt kalkylblad med en kolumn och en enkel formel som summerar alla värden i kolumnen. Så här visas kalkylarket i Aspose.Cells.GridWeb-gränssnittet innan du kopierar kolumnen.
+### **Kopiera enstaka kolumn**
+I det följande exemplet används en befintlig kalkylblad med en kolumn och en enkel formel som summerar alla värden i kolumnen. Så här visas kalkylbladet i gränssnittet Aspose.Cells.GridWeb före kopiering av kolumnen.
 
 ![todo:image_alt_text](copy-gridweb-rows-and-columns_3.png)
 
-I likhet med exemplet ovan får följande kodavsnitt åtkomst till GridCells-objektet i aktiv kalkylbladsordning för att göra en kopia av den första kolumnen till den efterföljande kolumnen.
+På samma sätt som det tidigare exemplet, använder följande kodsnutt GridCells-objektet för aktivt arbetsblad för att kopiera den första kolumnen till den efterföljande kolumnen.
 
 
 
@@ -41,17 +44,17 @@ I likhet med exemplet ovan får följande kodavsnitt åtkomst till GridCells-obj
 
 
 
-Så här ser Aspose.Cells.GridWeb ut efter kopieringskolumnen.
+Så här ser Aspose.Cells.GridWeb ut efter kopiering av kolumnen.
 
 ![todo:image_alt_text](copy-gridweb-rows-and-columns_4.png)
 
 {{% alert color="primary" %}} 
 
-Du kan använda metoderna GridCells.CopyRow & GridCells.CopyColumn i loop för att kopiera källraden och kolumnen till flera respektive rader och kolumner.
+Du kan använda metoderna GridCells.CopyRow och GridCells.CopyColumn i en loop för att kopiera källraden och kolumnen till flera rader och kolumner.
 
 {{% /alert %}} 
 ### **Kopiera flera rader**
-Det är också möjligt att kopiera flera rader till en ny destination medan du använder metoden GridCells.CopyRows, som kräver en extra parameter av typen heltal för att specificera antalet källrader som ska kopieras.
+Det är också möjligt att kopiera flera rader till en ny destination med metoden GridCells.CopyRows, som tar ett ytterligare parameter av typen int för att ange antalet källrader som ska kopieras.
 
 
 
@@ -59,13 +62,13 @@ Det är också möjligt att kopiera flera rader till en ny destination medan du 
 
 
 
-Så här ser Aspose.Cells.GridWeb ut före och efter operation av kopieringsrader.
+Här är hur Aspose.Cells.GridWeb ser ut före och efter kopiering av rader.
 
 ![todo:image_alt_text](copy-gridweb-rows-and-columns_5.png)
 
 ![todo:image_alt_text](copy-gridweb-rows-and-columns_6.png)
 ### **Kopiera flera kolumner**
-GridCells-klassen tillhandahåller också CopyColumns-metoden, som kräver en extra parameter av typen heltal för att ange antalet källkolumner som ska kopieras.
+GridCells-klassen tillhandahåller också metoden CopyColumns, vilken tar en extra parameter av typ integer för att specificera antalet källekolumner som ska kopieras.
 
 
 
@@ -73,7 +76,7 @@ GridCells-klassen tillhandahåller också CopyColumns-metoden, som kräver en ex
 
 
 
-Så här ser Aspose.Cells.GridWeb ut före och efter operation av kopieringsrader.
+Här är hur Aspose.Cells.GridWeb ser ut före och efter kopiering av rader.
 
 ![todo:image_alt_text](copy-gridweb-rows-and-columns_7.png)
 

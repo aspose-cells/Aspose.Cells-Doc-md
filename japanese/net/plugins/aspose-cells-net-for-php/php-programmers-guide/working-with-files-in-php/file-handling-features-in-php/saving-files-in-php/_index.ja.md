@@ -1,16 +1,17 @@
-﻿---
-title: PHP でファイルを保存する
+---
+title: PHPでファイルを保存する
 type: docs
 weight: 20
 url: /ja/net/saving-files-in-php/
 ---
-## **Aspose.Cells - Excel ファイルの保存**
-### **パスを介して開く**
-ファイルのパスを参照して Microsoft Excel ファイルを保存する
 
-**PHP コード**
+## **Aspose.Cells - Excelファイルを保存する**
+### **ファイルのパスを通じて開く**
+Microsoft Excelファイルをファイルのパスを参照して保存する
 
-{{< highlight "php" >}}
+**PHPコード**
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -31,7 +32,7 @@ url: /ja/net/saving-files-in-php/
         print "File saved successfully!" . PHP_EOL;
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ファイルの保存 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**ファイルを保存する（Aspose.Cells）**をダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

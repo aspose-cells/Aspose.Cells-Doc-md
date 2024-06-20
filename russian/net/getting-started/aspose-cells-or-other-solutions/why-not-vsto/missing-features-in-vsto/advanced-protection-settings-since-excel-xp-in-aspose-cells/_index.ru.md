@@ -1,48 +1,49 @@
-﻿---
-title: Дополнительные параметры защиты начиная с Excel XP в Aspose.Cells
+---
+title: Продвинутые настройки защиты начиная с Excel XP в Aspose.Cells
 type: docs
 weight: 20
 url: /ru/net/advanced-protection-settings-since-excel-xp-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
 - Удалить строки или столбцы.
-- Редактируйте содержимое, объекты или сценарии.
-- Отформатируйте ячейки, строки или столбцы.
-- Вставьте строки, столбцы или гиперссылки.
-- Выберите заблокированные или разблокированные ячейки.
-- Используйте сводные таблицы и многое другое.
+- Изменить содержимое, объекты или сценарии.
+- Форматировать ячейки, строки или столбцы.
+- Вставить строки, столбцы или гиперссылки.
+- Выбирать заблокированные или разблокированные ячейки.
+- Использовать сводные таблицы и многое другое.
 
-Aspose.Cells поддерживает все параметры расширенной защиты, предлагаемые в Excel XP или более поздних версиях.
+Aspose.Cells поддерживает все продвинутые настройки защиты, предлагаемые Excel XP или более поздними версиями.
 
 {{% /alert %}}
 
-## **Параметры дополнительной защиты с использованием Excel XP и более поздних версий**
+## **Настройки расширенной защиты с использованием Excel XP и более поздних версий**
 
-Чтобы просмотреть параметры защиты, доступные в Excel XP:
+Чтобы просмотреть доступные настройки защиты в Excel XP:
 
-1.  От**Инструменты** меню, выберите**Защита** с последующим**Защитить лист**.
- Отображается диалоговое окно.
+1. Из меню **Инструменты** выберите **Защита**, а затем **Защита листа**.
+   Отображается диалоговое окно.
 
-   **Диалоговое окно для отображения параметров защиты в Excel XP**
+   **Диалог для отображения вариантов защиты в Excel XP**
 
-![дело:изображение_альтернативный_текст](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
+![todo:image_alt_text](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
 
-1. Разрешить или ограничить функции рабочих листов или применить пароль.
+1. Разрешите или ограничьте функции листов или примените пароль.
 
-### **Параметры дополнительной защиты с использованием Aspose.Cells**
+### **Настройки расширенной защиты с использованием Aspose.Cells**
 
-Aspose.Cells поддерживают все расширенные настройки защиты.
+Aspose.Cells поддерживает все расширенные настройки защиты.
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) содержит коллекцию [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets), позволяющую получить доступ к каждому листу в файле Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
 
-[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс обеспечивает[**Защита**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)свойство, которое используется для применения этих дополнительных параметров защиты.[**Защита**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) Собственность фактически является объектом[**Защита**](https://reference.aspose.com/cells/net/aspose.cells/protection) класс, который инкапсулирует несколько логических свойств для отключения или включения ограничений.
+Класс [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) предоставляет свойство [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection), которое используется для применения этих расширенных настроек защиты. Свойство [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) является объектом класса [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/protection), который инкапсулирует несколько булевых свойств для отключения или включения ограничений.
 
-Ниже приведен небольшой пример приложения. Он открывает файл Excel и использует большинство дополнительных параметров защиты, поддерживаемых Excel XP и более поздних версиях.
+Ниже приведен небольшой пример приложения. Он открывает файл Excel и использует большинство поддерживаемых Excel XP и более поздних версий настроек защиты.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -128,8 +129,8 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Advanced%20Protection%20Settings)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Advanced%20Protection%20Settings)
 
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

@@ -1,19 +1,20 @@
 ---
 title: Изменение источника данных диаграммы на целевой лист при копировании строк или диапазона
-description: Узнайте, как изменить источник данных диаграммы на целевой лист при копировании строк или диапазона в Aspose.Cells for .NET. Наше руководство покажет вам, как обновить диапазон данных диаграммы и связать его с целевым листом, гарантируя, что скопированные строки или Диапазон точно отражен на графике.
-keywords: Aspose.Cells for .NET, charting, data source, destination worksheet, rows, range, copy, update, data range, linkage.
+description: Узнайте, как изменить источник данных диаграммы на целевой лист при копировании строк или диапазона в Aspose.Cells for .NET. Наш руководство покажет вам, как обновить диапазон данных диаграммы и связать его с целевым листом, обеспечивая точное отображение скопированных строк или диапазона в диаграмме.
+keywords: Aspose.Cells for .NET, построение диаграмм, источник данных, целевой лист, строки, диапазон, копирование, обновление, диапазон данных, связь.
 type: docs
 weight: 440
 url: /ru/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/
 ---
-##  **Возможные сценарии использования**
 
-Когда вы копируете строки или диапазон, содержащие диаграммы, на новый лист, источник данных диаграммы не меняется. Например, если источником данных диаграммы является =Sheet1!$A$1:$B$4, то после копирования строк или диапазона на новый лист источник данных останется прежним, т.е. =Sheet1!$A$1:$B$4. Это по-прежнему относится к старому листу, т.е. Листу1. То же самое происходит и в Microsoft Excel. Но если вы хотите, чтобы он ссылался на новый лист назначения, используйте[**CopyOptions.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet)свойство и установите его в**истинный** во время звонка в[**Cells.CopyRows()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)метод. Теперь, если вашим целевым листом является DestSheet, источник данных вашей диаграммы изменится с =Sheet1!$A$1:$B$4 на =DestSheet!$A$1:$B$4.
+## **Возможные сценарии использования**
 
-##  **Изменение источника данных диаграммы на целевой лист при копировании строк или диапазона**
+Когда вы копируете строки или диапазон, содержащий диаграммы, на новый лист, источник данных диаграммы не меняется. Например, если источником данных диаграммы является =Лист1!$A$1:$B$4, то после копирования строк или диапазона на новый лист, источник данных останется тем же, т.е. =Лист1!$A$1:$B$4. Это по-прежнему ссылается на старый лист, т.е. Лист1. Это также поведение в Microsoft Excel. Но если вы хотите, чтобы он ссылался на новый целевой лист, то, пожалуйста, используйте свойство [**CopyOptions.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet) и установите его в **true** при вызове метода [**Cells.CopyRows()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index). Теперь, если ваш целевой лист называется ЦелевойЛист, то источник данных вашей диаграммы изменится с =Лист1!$A$1:$B$4 на =ЦелевойЛист!$A$1:$B$4.
 
-В следующем примере кода объясняется использование[**CopyOptions.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet) свойство при копировании строк или диапазона, содержащего диаграммы, на новый лист. В коде используется[образец файла Excel](5113699.xlsx) и генерирует[выходной файл Excel](5113697.xlsx).
+## **Изменение источника данных диаграммы на целевой лист при копировании строк или диапазона**
 
-![задача: image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
+В следующем образце кода поясняется использование свойства [**CopyOptions.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet) при копировании строк или диапазона, содержащего диаграммы, на новый лист. Код использует [образец файла Excel](5113699.xlsx) и генерирует [файл Excel на выходе](5113697.xlsx).
+
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ChangeChartDataSource-1.cs" >}}

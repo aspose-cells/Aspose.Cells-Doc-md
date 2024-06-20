@@ -4,34 +4,35 @@ type: docs
 weight: 30
 url: /es/cpp/grouping-ungrouping-rows-and-columns/
 ---
-##  **Introducción**
-En un archivo Excel Microsoft, puede crear un esquema para los datos que le permita mostrar y ocultar niveles de detalle con un solo clic del mouse.
 
-Haga clic en *Símbolos de esquema**, 1,2,3, + y - para mostrar rápidamente solo las filas o columnas que proporcionan resúmenes o encabezados para las secciones de una hoja de trabajo, o puede usar los símbolos para ver detalles en un resumen individual o título.
-##  **Gestión grupal de filas y columnas**
- Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) que representa un archivo Excel Microsoft. El[Libro de trabajo](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) la clase contiene un[Hojas de trabajo](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) colección que permite el acceso a cada hoja de cálculo del archivo Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) clase. El[Hoja de cálculo](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) clase proporciona una[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)colección que representa todas las celdas de la hoja de trabajo.
+## **Introducción**
+En un archivo de Microsoft Excel, puedes crear un esquema para los datos que te permita mostrar y ocultar niveles de detalle con un solo clic de ratón.
 
- El[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)La colección proporciona varios métodos para administrar filas o columnas en una hoja de trabajo; algunos de ellos se analizan a continuación con más detalle.
-###  **Agrupación de filas y columnas**
- Es posible agrupar filas o columnas llamando al[Filas de grupo](https://reference.aspose.com/cells/cpp/aspose.cells/cells/grouprows/) y[Columnas de grupo](https://reference.aspose.com/cells/cpp/aspose.cells/cells/groupcolumns/) métodos de la[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/)recopilación. Ambos métodos toman los siguientes parámetros:
+Haz clic en los **Símbolos de resumen**, 1,2,3, + y - para mostrar rápidamente solo las filas o columnas que proporcionan resúmenes o encabezados de secciones en una hoja de cálculo, o puedes usar los símbolos para ver detalles bajo un resumen o encabezado individual.
+## **Gestión de Agrupación de Filas y Columnas**
+Aspose.Cells proporciona una clase, [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) que representa un archivo de Microsoft Excel. La clase [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) contiene una colección [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/) que permite el acceso a cada hoja de cálculo en el archivo de Excel. Una hoja de cálculo está representada por la clase [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). La clase [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) proporciona una colección [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) que representa todas las celdas en la hoja de cálculo.
 
-- El índice de la primera fila/columna, la primera fila o columna del grupo.
-- El último índice de fila/columna, la última fila o columna del grupo.
-- Está oculto, un parámetro booleano que especifica si se deben ocultar filas/columnas después de agrupar o no.
+La colección [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) proporciona varios métodos para gestionar filas o columnas en una hoja de cálculo, algunos de estos se discuten a continuación con más detalle.
+### **Agrupación de Filas y Columnas**
+Es posible agrupar filas o columnas llamando a los métodos [GroupRows](https://reference.aspose.com/cells/cpp/aspose.cells/cells/grouprows/) y [GroupColumns](https://reference.aspose.com/cells/cpp/aspose.cells/cells/groupcolumns/) de la colección [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/). Ambos métodos toman los siguientes parámetros:
+
+- El índice de la primera fila/columna, la primera fila o columna en el grupo.
+- El índice de la última fila/columna, la última fila o columna en el grupo.
+- Está oculto, un parámetro booleano que especifica si ocultar o no filas/columnas después de agrupar.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-GroupingUngroupingRowsAndColumns-GroupingRowsColumns-new.cpp" >}}
-####  **Configuración de grupo**
-Microsoft Excel le permite configurar ajustes de grupo para mostrar:
+#### **Configuración de Grupo**
+Microsoft Excel te permite configurar la configuración de grupo para mostrar:
 
-- Filas de resumen debajo de los detalles.
+- Filas resumen debajo del detalle.
 - Columnas de resumen a la derecha del detalle.
-##  **Desagrupar filas y columnas**
- Para desagrupar cualquier fila o columna agrupada, llame al[Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/) colección[Desagrupar filas](https://reference.aspose.com/cells/cpp/aspose.cells/cells/ungrouprows/) y[DesagruparColumnas](https://reference.aspose.com/cells/cpp/aspose.cells/cells/ungroupcolumns/)métodos. Ambos métodos toman dos parámetros:
+## **Desagrupar Filas y Columnas**
+Para desagrupar filas o columnas agrupadas, llame a los métodos [UngroupRows](https://reference.aspose.com/cells/cpp/aspose.cells/cells/ungrouprows/) y [UngroupColumns](https://reference.aspose.com/cells/cpp/aspose.cells/cells/ungroupcolumns/) de la colección [Cells](https://reference.aspose.com/cells/cpp/aspose.cells/cells/). Ambos métodos toman dos parámetros:
 
-- El índice de la primera fila o columna, la primera fila/columna que se desagrupará.
-- El índice de la última fila o columna, la última fila/columna que se desagrupará.
+- El índice de la primera fila o columna que se desagrupará.
+- El índice de la última fila o columna que se desagrupará.
 
 
 

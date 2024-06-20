@@ -3,15 +3,16 @@ title: Erste Schritte
 type: docs
 weight: 10
 url: /de/java/getting-started/
-description: In diesem Artikel wird beschrieben, wie Sie aspose herunterladen und installieren sowie Beispielcodes erstellen und ausführen.
+description: In diesem Artikel wird beschrieben, wie Sie Aspose herunterladen und installieren und Beispielscodes erstellen und ausführen.
 ---
+
 {{% alert color="primary" %}} 
 
-Auf dieser Seite erfahren Sie, wie Sie Aspose Cells for Java installieren und eine Hello World-Anwendung erstellen.
+In diesem Artikel wird beschrieben, wie Sie Aspose Cells für Java installieren und eine 'Hello World'-Anwendung erstellen.
 
 {{% /alert %}}
 
-##  **System Anforderungen**
+## **Systemanforderungen**
 
 Aspose.Cells for Java unterstützt die folgenden Java-Versionen:
 
@@ -19,35 +20,35 @@ Aspose.Cells for Java unterstützt die folgenden Java-Versionen:
 - J2SE 7.0 (1.7)
 - oder höher
 
-[Mehr Details](/cells/de/java/system-requirements/)
+[Weitere Details](/cells/de/java/system-requirements/)
 
-##  **Installation**
+## **Installation**
 
-###  **Installieren Sie Aspose Cells for Java aus dem Maven-Repository**
+### **Installieren Sie Aspose Cells für Java aus dem Maven Repository**
 
- Maven ist der einfachste Weg, Aspose.Cells for Java herunterzuladen und zu installieren.
+Maven ist der einfachste Weg, um Aspose.Cells for Java herunterzuladen und zu installieren. 
 
-1.  Geben Sie Aspose Maven Repository-Konfiguration/-Speicherort in Ihrer Maven pom.xml an.
- 2. Definieren Sie die Abhängigkeit Aspose.Cells for Java API in Ihrer pom.xml.
+1. Geben Sie die Aspose Maven-Repository-Konfiguration/Position in Ihrem Maven pom.xml an. 
+2. Definieren Sie die Aspose.Cells for Java API-Abhängigkeit in Ihrem pom.xml. 
 
 [Weitere Schritte für Details](/cells/de/java/installation/)
 
-###  **Installieren Sie Aspose Cells for Java manuell**
+### **Installieren Sie Aspose Cells für Java manuell**
 
-1. [Laden Sie Aspose-Cells-Gläser herunter](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/) in einen Ordner.
+1. [Laden Sie die aspose-cells JAR-Dateien](https://releases.aspose.com/java/repo/com/aspose/aspose-cells/) in einen Ordner herunter.
 1. Geben Sie den Ordner ein und installieren Sie die JAR-Pakete manuell mit Eclipse oder Intellij.
 
-Installieren Sie Aspose Cells for Java mit Eclipse:
+Aspose Cells für Java mit Eclipse installieren:
 
-**![Eclipse-Installation Aspose Cells for Java](Eclipse_install.png)**
+**![Eclipse installiert Aspose Cells für Java](Eclipse_install.png)**
 
-Installieren Sie Aspose Cells for Java mit Intellij:
+Aspose Cells für Java mit Intellij installieren:
 
-**![IntelliJ install Aspose Cells for Java](IntelliJ_install.png)**
+**![IntelliJ installiert Aspose Cells für Java](IntelliJ_install.png)**
 
-##  **Erstellen der Hello World-Anwendung**
+## **Erstellen der Hello World-Anwendung**
 
-Mit den folgenden Schritten wird die Anwendung Hello World unter Verwendung von Aspose.Cells API erstellt:
+Die folgenden Schritte erstellen die Hello World-Anwendung unter Verwendung der Aspose.Cells API:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelloWorld.java" >}}
 

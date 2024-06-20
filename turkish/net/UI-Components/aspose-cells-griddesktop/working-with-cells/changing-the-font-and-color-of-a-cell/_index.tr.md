@@ -1,22 +1,25 @@
-﻿---
-title: Cell'in Yazı Tipini ve Rengini Değiştirme
+---
+title: Bir Hücrede Font ve Rengi Değiştirme
 type: docs
 weight: 40
-url: /tr/net/changing-the-font-and-color-of-a-cell/
+url: /tr/net/aspose-cells-griddesktop/change-the-font-and-color-of-a-cell/
+keywords: GridDesktop,font,color,change font,change color
+description: Bu makale, GridDesktop ta Bir Çalışma Kitabında bir hücrede font ve rengi nasıl güncelleneceğini tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konuda, bir hücrenin yazı tipini ve yazı tipi rengini değiştirme hakkında konuşacağız. Bu özellik, geliştiricilere çalışma sayfalarının daha derinlemesine kontrolünü sağlar. Bu özelliği kullanarak, geliştiriciler istenen herhangi bir hücrenin yazı tipini ve rengini özelleştirebilir.
+Bu konuda, GridDesktop'ta bir hücrenin fontunu ve font rengini değiştirme konusunu ele alacağız. Bu özellik geliştiricilere çalışma kitapları üzerinde daha derin kontrol imkanı sağlar. Bu özellik sayesinde, geliştiriciler istedikleri herhangi bir hücrenin fontunu ve rengini özelleştirebilirler.
 
 {{% /alert %}} 
-## **Cell'in Yazı Tipi ve Rengini Değiştirme**
-Aspose.Cells.GridDesktop kullanarak bir hücrenin yazı tipini ve rengini değiştirmek için lütfen aşağıdaki adımları izleyin:
+## **Bir Hücrenin Fontunu ve Rengini Değiştirme**
+Aspose.Cells.GridDesktop kullanarak bir hücrenin fontunu ve rengini değiştirmek için lütfen aşağıdaki adımları izleyin:
 
--  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Erişim**Cell** yazı tipi ve rengi değiştirilecek olan
--  özelleştirilmiş oluşturun**Yazı tipi**
--  Yı kur**Yazı tipi** arasında**Cell** özelleştirilmiş olana
--  Son olarak ayarla**Yazı rengi** arasında**Cell** istenilen herhangi**Renk**
+- Herhangi bir istenen **Çalışma Sayfası**'na erişin
+- Fontu ve rengi değiştirilecek bir **Hücreye** erişin
+- Özelleştirilmiş bir **Yazı Tipi** oluşturun
+- **Hücrenin** Fontunu özelleştirilmiş olana ayarlayın
+- Son olarak, **Hücrenin** **Font Rengini** istenilen **Renk**'e ayarlayın
 
 
 
@@ -24,6 +27,6 @@ Aspose.Cells.GridDesktop kullanarak bir hücrenin yazı tipini ve rengini deği�
 
 {{% alert color="primary" %}} 
 
- Yalnızca hücrenin yazı tipi veya yazı tipi rengi hakkında bilgi almanız gerekiyorsa, o zaman da kullanabilirsiniz.**GetFont** ve**GetFontColor** hücre yöntemleri.
+Eğer sadece hücrenin fontu veya font rengi hakkında bilgi almanız gerekiyorsa, hücrenin **GetFont** ve **GetFontColor** yöntemlerini de kullanabilirsiniz.
 
 {{% /alert %}}

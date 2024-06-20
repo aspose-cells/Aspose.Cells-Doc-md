@@ -1,302 +1,303 @@
-﻿---
+---
 title: ميزات إعداد الصفحة
 type: docs
 weight: 40
 url: /ar/java/page-setup-features/
 ---
-في بعض الأحيان ، من الضروري تكوين إعدادات إعداد الصفحة لأوراق العمل للتحكم في الطباعة. توفر إعدادات إعداد الصفحة هذه خيارات متنوعة.
 
-**خيارات الصفحة** 
+في بعض الأحيان، من الضروري تكوين إعدادات إعداد الصفحة لورقات العمل للتحكم في الطباعة. توفر هذه الإعدادات خيارات مختلفة.
 
-![ما يجب القيام به: image_بديل_نص](page-setup-features_1.png)
+خيارات الصفحة 
 
-خيارات إعداد الصفحة مدعومة بالكامل في Aspose.Cells. تشرح هذه المقالة كيفية تعيين خيارات الصفحة مع Aspose.Cells.
+![todo:image_alt_text](page-setup-features_1.png)
+
+تدعم خيارات إعداد الصفحة بشكل كامل في Aspose.Cells. يوضح هذا المقال كيفية تعيين خيارات الصفحة باستخدام Aspose.Cells.
 
 ## **ضبط خيارات الصفحة**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) ، يمثل ملف Excel Microsoft. تحتوي فئة المصنف على مجموعة أوراق عمل تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي.
+يوفر Aspose.Cells فئة، [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)، التي تمثل ملف Microsoft Excel. تحتوي فئة Workbook على مجموعة Worksheets التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. تمثل ورقة العمل بواسطة فئة [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
-توفر فئة ورقة العمل خاصية PageSetup المستخدمة لتعيين خيارات إعداد الصفحة. في الواقع ، تعد خاصية PageSetup أحد عناصر فئة PageSetup التي تجعل من الممكن تعيين خيارات تخطيط الصفحة لورقة عمل مطبوعة. توفر فئة PageSetup خصائص متنوعة تُستخدم لتعيين خيارات إعداد الصفحة. تمت مناقشة بعض هذه الخصائص أدناه.
+توفر فئة Worksheet خاصية PageSetup، المستخدمة لتعيين خيارات إعداد الصفحة. في الواقع، تعتبر خاصية PageSetup كائنًا من فئة PageSetup الذي يجعل من الممكن تعيين خيارات تخطيط الصفحة لورقة عمل مطبوعة. توفر فئة PageSetup مجموعة متنوعة من الخصائص المستخدمة لتعيين خيارات إعداد الصفحة. تُناقش بعض هذه الخصائص أدناه.
 
 ### **اتجاه الصفحة**
 
-يمكن ضبط اتجاه الصفحة على عمودي أو أفقي باستخدام امتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setOrientation (PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) طريقة. ال[**setOrientation (PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) طريقة يأخذ[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) التعداد كمعامل. أعضاء[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) التعداد مذكور أدناه.
+يمكن تعيين اتجاه الصفحة إلى الوضع الطولي أو الأفقي باستخدام أسلوب [**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) في فئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). يأخذ الأسلوب [**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) تعداد [**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) كمعلمة. يتم سرد أعضاء تعداد [**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) أدناه.
 
-|**أنواع اتجاه الصفحة**|**وصف**|
-|:- |:- |
-|[**المناظر الطبيعيه**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#LANDSCAPE)|اتجاه أفقي|
-|[**لَوحَة**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#PORTRAIT)|اتجاه عمودي|
+|**أنواع توجيه الصفحة**|**الوصف**|
+| :- | :- |
+|[**LANDSCAPE**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#LANDSCAPE)|توجيه أفقي|
+|[**PORTRAIT**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#PORTRAIT)|توجيه طولي|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageOrientation-PageOrientation.java" >}}
 
-### **عامل التحجيم**
+### **عامل التحليل**
 
- من الممكن تصغير حجم ورقة العمل أو تكبيره عن طريق ضبط عامل التحجيم بامتداد[**setZoom**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Zoom) طريقة[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي.
+من الممكن تصغير أو تكبير حجم ورقة العمل عن طريق ضبط عامل التحجيم باستخدام أسلوب [**setZoom**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Zoom) في فئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ScalingFactor-ScalingFactor.java" >}}
 
 ### **خيارات FitToPages**
 
- لملاءمة محتويات ورقة العمل مع عدد محدد من الصفحات ، استخدم ملحق[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) و[**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) أساليب. تُستخدم هذه الطرق أيضًا لتوسيع نطاق أوراق العمل.
+لتناسب محتويات الورقة إلى عدد معين من الصفحات، استخدم أساليب [**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) و [**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) في فئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). تُستخدم هذه الأساليب أيضًا لتحجيم الورقة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FitToPagesOptions-FitToPagesOptions.java" >}}
 
-### **حجم الورق**
+### **حجم ورق**
 
- عيّن حجم الورق الذي ستتم طباعة أوراق العمل عليه باستخدام ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**حجم الورق**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize) خاصية. تقبل الخاصية PaperSize إحدى القيم المحددة مسبقًا في ملف[**حجم الورق**](https://reference.aspose.com/cells/java/com.aspose.cells/PaperSizeType) التعداد ، المدرجة أدناه.
+قم بتعيين حجم الورق الذي ستتم الطباعة إليه بواسطة خاصية [**PaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize) في فئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). تقبل خاصية PaperSize واحدة من القيم المحددة مسبقًا في تعداد [**PaperSizeType**](https://reference.aspose.com/cells/java/com.aspose.cells/PaperSizeType)، المُدرجة أدناه.
 
-|**أنواع أحجام الورق**|**وصف**|
-|:- |:- |
-|ورق|10 بوصة × 14 بوصة.|
-|ورق|11 بوصة × 17 بوصة.|
-|الورق|A3 (297 مم × 420 مم)|
-|الورق|A4 (210 مم × 297 مم)|
-|PaperA4Small|A4 صغير (210 مم × 297 مم)|
-|الورق|A5 (148 مم × 210 مم)|
-|الورق|B3 (13.9 × 19.7 بوصة)|
-|الورق|B4 (250 مم × 354 مم)|
-|الورق|B5 (182 مم × 257 مم)|
-|PaperBusinessCard|بطاقة عمل (90 مم × 55 مم)|
-|PaperCSheet|ورقة بحجم C.|
-|ورقة|ورقة بحجم D|
-|مغلف الورق 10|مغلف رقم 10 (4-1 / 8 بوصة × 9-1 / 2 بوصة)|
-|مغلف الورق 11|مغلف رقم 11 (4-1 / 2 بوصة × 10-3 / 8 بوصة)|
-|مغلف الورق 12|مغلف رقم 12 (4-1 / 2 بوصة × 11 بوصة)|
-|مغلف الورق 14|مغلف رقم 14 (5 بوصة × 11-1 / 2 بوصة)|
-|مغلف الورق 9|مغلف رقم 9 (3-7 / 8 بوصة × 8-7 / 8 بوصة)|
-|PaperEnvelopeB4|مغلف B4 (250 مم × 353 مم)|
-|PaperEnvelopeB5|مغلف B5 (176 مم × 250 مم)|
-|PaperEnvelopeB6|مغلف B6 (176 مم × 125 مم)|
-|PaperEnvelopeC3|Envelope C3 (324 مم × 458 مم)|
-|PaperEnvelopeC4|مغلف C4 (229 مم × 324 مم)|
-|PaperEnvelopeC5|مغلف C5 (162 ملم × 229 ملم)|
-|PaperEnvelopeC6|مغلف C6 (114 مم × 162 مم)|
-|PaperEnvelopeC65|مغلف C65 (114 مم × 229 مم)|
-|PaperEnvelopeDL|مغلف DL (110 ملم × 220 ملم)|
-|PaperEnvelope إيطاليا|مغلف إيطاليا (110 مم × 230 مم)|
-|PaperEnvelopeMonarch|Envelope Monarch (3-7 / 8 بوصة × 7-1 / 2 بوصة)|
-|PaperEnvelope شخصية|مغلف (3-5 / 8 بوصة × 6-1 / 2 بوصة)|
-|ورقة|ورقة حجم E|
-|ورق تنفيذي|تنفيذي (7-1 / 2 بوصة × 10-1 / 2 بوصة)|
-|PaperFanfold قانوني ألماني|مروحة قانونية ألمانية (8-1 / 2 بوصة × 13 بوصة)|
-|PaperFanfoldStdGerman|مروحة قياسية ألمانية (8-1 / 2 بوصة × 12 بوصة)|
-|طي الورق|مروحة قياسية أمريكية (14-7 / 8 بوصة × 11 بوصة)|
-|PaperFolio|فوليو (8-1 / 2 بوصة × 13 بوصة)|
-|PaperLedger|ليدجر (17 بوصة × 11 بوصة)|
-|PaperLegal|Legal (8-1 / 2 بوصة × 14 بوصة)|
-|رسالة ورقية|Letter (8-1 / 2 بوصة × 11 بوصة)|
-|PaperLetterSmall|حرف صغير (8-1 / 2 بوصة × 11 بوصة)|
-|ملاحظة الورق|ملاحظة (8-1 / 2 بوصة × 11 بوصة)|
-|PaperQuarto|Quarto (215 مم × 275 مم)|
-|البيان الورقي|بيان (5-1 / 2 بوصة × 8-1 / 2 بوصة)|
-|PaperTabloid|Tabloid (11 بوصة × 17 بوصة)|
+|**أنواع حجم الورق**|**الوصف**|
+| :- | :- |
+|Paper10x14|10 in. x 14 in.|
+|Paper11x17|11 in. x 17 in.|
+|PaperA3|A3 (297 mm x 420 mm)|
+|PaperA4|A4 (210 mm x 297 mm)|
+|PaperA4Small|A4 Small (210 mm x 297 mm)|
+|PaperA5|A5 (148 mm x 210 mm)|
+|PaperB3|B3 (13.9 x 19.7 inches)|
+|PaperB4|B4 (250 mm x 354 mm)|
+|PaperB5|B5 (182 mm x 257 mm)|
+|PaperBusinessCard|Business Card (90 mm x 55 mm)|
+|PaperCSheet|C size sheet|
+|PaperDSheet|D size sheet|
+|PaperEnvelope10|Envelope #10 (4-1/8 in. x 9-1/2 in.)|
+|PaperEnvelope11|Envelope #11 (4-1/2 in. x 10-3/8 in.)|
+|PaperEnvelope12|Envelope #12 (4-1/2 in. x 11 in.)|
+|PaperEnvelope14|Envelope #14 (5 in. x 11-1/2 in.)|
+|PaperEnvelope9|Envelope #9 (3-7/8 in. x 8-7/8 in.)|
+|PaperEnvelopeB4|Envelope B4 (250 mm x 353 mm)|
+|PaperEnvelopeB5|Envelope B5 (176 mm x 250 mm)|
+|PaperEnvelopeB6|Envelope B6 (176 mm x 125 mm)|
+|PaperEnvelopeC3|Envelope C3 (324 mm x 458 mm)|
+|PaperEnvelopeC4|Envelope C4 (229 mm x 324 mm)|
+|PaperEnvelopeC5|Envelope C5 (162 mm x 229 mm)|
+|PaperEnvelopeC6|Envelope C6 (114 mm x 162 mm)|
+|PaperEnvelopeC65|Envelope C65 (114 mm x 229 mm)|
+|PaperEnvelopeDL|Envelope DL (110 mm x 220 mm)|
+|PaperEnvelopeItaly|Envelope Italy (110 mm x 230 mm)|
+|PaperEnvelopeMonarch|Envelope Monarch (3-7/8 in. x 7-1/2 in.)|
+|PaperEnvelopePersonal|Envelope (3-5/8 in. x 6-1/2 in.)|
+|PaperESheet|E size sheet|
+|PaperExecutive|Executive (7-1/2 in. x 10-1/2 in.)|
+|PaperFanfoldLegalGerman|German Legal Fanfold (8-1/2 in. x 13 in.)|
+|PaperFanfoldStdGerman|German Standard Fanfold (8-1/2 in. x 12 in.)|
+|PaperFanfoldUS|U.S. Standard Fanfold (14-7/8 in. x 11 in.)|
+|PaperFolio|Folio (8-1/2 in. x 13 in.)|
+|PaperLedger|Ledger (17 in. x 11 in.)|
+|PaperLegal|Legal (8-1/2 in. x 14 in.)|
+|PaperLetter|Letter (8-1/2 in. x 11 in.)|
+|PaperLetterSmall|Letter Small (8-1/2 in. x 11 in.)|
+|PaperNote|Note (8-1/2 in. x 11 in.)|
+|PaperQuarto|Quarto (215 mm x 275 mm)|
+|PaperStatement|Statement (5-1/2 in. x 8-1/2 in.)|
+|PaperTabloid|Tabloid (11 in. x 17 in.)|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ManagePaperSize-ManagePaperSize.java" >}}
 
 ### **جودة الطباعة**
 
- اضبط جودة طباعة أوراق العمل التي ستتم طباعتها بامتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**تعيين طباعة الجودة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintQuality) طريقة. وحدة قياس جودة الطباعة هي نقطة في البوصة (DPI).
+قم بتعيين جودة الطباعة لصفحات العمل التي سيتم طباعتها باستخدام طريقة [**setPrintQuality**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintQuality) لفئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). وحدة قياس جودة الطباعة هي النقاط في البوصة (DPI).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintQuality-SetPrintQuality.java" >}}
 
 ### **رقم الصفحة الأولى**
 
- ابدأ ترقيم صفحات ورقة العمل باستخدام ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setFirstPageNumber**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FirstPageNumber) طريقة. تحدد طريقة setFirstPageNumber رقم صفحة صفحة ورقة العمل الأولى ويتم ترقيم الصفحات التالية بترتيب تصاعدي.
+ابدأ ترقيم صفحات ورقة العمل باستخدام طريقة [**setFirstPageNumber**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FirstPageNumber) لفئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). تقوم طريقة setFirstPageNumber بتعيين رقم الصفحة الخاص بالورقة الأولى وترقيم الصفحات التالية بترتيب تصاعدي.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetFirstPageNumber-SetFirstPageNumber.java" >}}
 
-## **تحديد الهوامش**
+## **ضبط الهوامش**
 
-Aspose.Cells يدعم Microsoft خيارات إعداد صفحة Excel بشكل كامل. قد يحتاج المطورون إلى تكوين إعدادات إعداد الصفحة لأوراق العمل للتحكم في عملية الطباعة. يناقش هذا الموضوع كيفية استخدام Aspose.Cells لتكوين هوامش الصفحة.
+تدعم Aspose.Cells تماماً خيارات إعداد الصفحة في Microsoft Excel. قد يحتاج المطورون إلى تكوين إعدادات إعداد الصفحة للوظائف للتحكم في عملية الطباعة. يناقش هذا الموضوع كيفية استخدام Aspose.Cells لتكوين هوامش الصفحة.
 
-**هوامش الصفحة في Microsoft Excel**
+**الهوامش في Microsoft Excel**
 
-![ما يجب القيام به: image_بديل_نص](page-setup-features_2.png)
+![todo:image_alt_text](page-setup-features_2.png)
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل ملف Excel Microsoft. تحتوي فئة المصنف على مجموعة أوراق العمل التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي.
+توفر Aspose.Cells فئة [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) التي تمثل ملف Microsoft Excel. تحتوي فئة Workbook على مجموعة من ورقات العمل التي تسمح بالوصول إلى كل ورقة عمل في ملف Excel. ورقة العمل تُمثل بفئة [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet).
 
- توفر فئة ورقة العمل خاصية PageSetup المستخدمة لتعيين خيارات إعداد الصفحة. السمة PageSetup هي كائن من[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) فئة تجعل من الممكن تعيين خيارات مختلفة لتخطيط الصفحة لورقة عمل مطبوعة. توفر فئة PageSetup العديد من الخصائص والأساليب المستخدمة لتعيين خيارات إعداد الصفحة.
+توفر فئة Worksheet خاصية PageSetup، يُستخدم لتعيين خيارات إعداد الصفحة. PageSetup هو كائن من فئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) مما يجعل من الممكن تعيين خيارات تخطيط الصفحة المختلفة لورقة عمل مطبوعة. توفر فئة PageSetup خصائص وأساليب مختلفة تُستخدم لتعيين خيارات إعداد الصفحة.
 
 ### **هوامش الصفحة**
 
- عيّن الهوامش (يسار ، يمين ، أعلى ، أسفل) الصفحة باستخدام[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) أعضاء الفصل. يتم سرد بعض الطرق المستخدمة لتحديد هوامش الصفحة أدناه:
+قم بتعيين الهوامش (اليسارية، والصحيحة، والعلوية، والسفلية) لصفحة باستخدام أعضاء فئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). يتم سرد بعض الأساليب المستخدمة لتحديد الهوامش أدناه:
 
-- [**setLeftMargin (int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#LeftMargin)
-- [**setRightMargin (int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#RightMargin)
-- [**setTopMargin (int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#TopMargin)
-- [**setBottomMargin (int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#BottomMargin)
+- [**setLeftMargin(int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#LeftMargin)
+- [**setRightMargin(int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#RightMargin)
+- [**setTopMargin(int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#TopMargin)
+- [**setBottomMargin(int)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#BottomMargin)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetMargins-SetMargins.java" >}}
 
-### **توسيط في الصفحة**
+### **توسيط على الصفحة**
 
- من الممكن توسيط شيء ما على الصفحة أفقيًا ورأسيًا. ال[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) الصف لديه أعضاء لهذا الغرض:[**setCenter أفقيًا**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) و[**عموديا**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
+من الممكن توسيط شيء ما على الصفحة أفقيًا ورأسيًا. فئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) تحتوي على أعضاء لهذا الغرض: [**setCenterHorizontally**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) و [**setCenterVertically**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-CenterOnPage-CenterOnPage.java" >}}
 
 ### **هوامش الرأس والتذييل**
 
- تعيين هوامش الرأس والتذييل باستخدام[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) أعضاء مثل[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) و[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+قم بتعيين هوامش الرأس والتذييل بأعضاء [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) مثل [**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) و [**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 
-## **تعيين الرؤوس والتذييلات**
+## **ضبط رؤساء الصفحات وتذايلها**
 
-الرؤوس والتذييلات هي أقسام النص والصور أعلى الهامش العلوي أو أسفل الهامش السفلي في الصفحة. من الممكن إضافة رؤوس وتذييلات إلى أوراق العمل أيضًا. يمكن استخدام الرؤوس والتذييلات لعرض أي نوع من المعلومات المفيدة ، على سبيل المثال رقم الصفحة أو اسم المؤلف أو عنوان المستند أو التاريخ والوقت. تتم أيضًا إدارة الرؤوس والتذييلات باستخدام مربع حوار إعداد الصفحة.
+الرؤوس والتذاييل هي أقسام النصوص والصور فوق الهامش العلوي أو أسفل الهامش السفلي على الصفحة. من الممكن إضافة رؤوس وأذيال إلى ورقات العمل أيضًا. يمكن استخدام الرؤوس والأذيال لعرض أي نوع من المعلومات المفيدة، على سبيل المثال رقم الصفحة، اسم المؤلف، عنوان المستند أو التاريخ والوقت. كما يتم إدارة الرؤوس والتذاييل باستخدام مربع حوار إعداد الصفحة.
 
 **مربع حوار إعداد الصفحة** 
 
-![ما يجب القيام به: image_بديل_نص](page-setup-features_3.png)
+![todo:image_alt_text](page-setup-features_3.png)
 
-يسمح Aspose.Cells بإضافة رؤوس وتذييلات إلى أوراق العمل في وقت التشغيل ولكن يوصى بتعيين الرؤوس والتذييلات يدويًا في ملف مصمم مسبقًا للطباعة. يمكنك استخدام Microsoft Excel كأداة واجهة المستخدم الرسومية لضبط الرؤوس والتذييلات بسهولة لتقليل وقت التطوير. يمكن Aspose.Cells استقبال الملف وحجز هذه المحددات.
+يسمح Aspose.Cells بإضافة رؤوس وتذاييل إلى ورقات العمل في وقت التشغيل ولكن من المستحسن تعيين الرؤوس والتذاييل يدويًا في ملف مصمم مسبقًا للطباعة. يمكنك استخدام Microsoft Excel كأداة واجهة المستخدم الرسومية لتعيين رؤوس وتذاييل بسهولة لتقليل وقت التطوير. يمكن لـ Aspose.Cells استيراد الملف واحتفاظ به بهذه الإعدادات.
 
-لإضافة رؤوس وتذييلات في وقت التشغيل ، يوفر Aspose.Cells فئات خاصة وبعض أوامر البرنامج النصي للتحكم في التنسيق.
+لإضافة رؤوس وأذيال في وقت التشغيل، يوفر Aspose.Cells فئات خاصة وبعض الأوامر النصية للتحكم في التنسيق.
 
-### **أوامر البرنامج النصي**
+### **أوامر السكريبت**
 
-أوامر البرنامج النصي هي أوامر خاصة يوفرها Aspose.Cells تسمح للمطورين بتنسيق الرؤوس والتذييلات.
+أوامر النص هي أوامر خاصة توفرها Aspose.Cells التي تسمح للمطورين بتنسيق رؤوس الصفحات وتذييلها.
 
-|**أوامر البرنامج النصي**|**وصف**|
-|:- |:- |
-|& ص|رقم الصفحة الحالية.|
-|& ج|صورة.|
-|&ن|العدد الإجمالي للصفحات.|
-|&د|التاريخ الحالي.|
-|& ت|الوقت الحالي.|
-|&أ|اسم ورقة العمل.|
-|&F|اسم الملف بدون المسار.|
-|&"\<FontName>"|اسم الخط. على سبيل المثال: & "Arial"|
-|&"\<FontName>, \<FontStyle>"|اسم خط بنمط. على سبيل المثال: & "Arial، Bold"|
-|&\<FontSize>|يمثل حجم الخط. على سبيل المثال: "& 14abc". ولكن ، إذا كان هذا الأمر متبوعًا برقم عادي ليتم طباعته في الرأس ، فيجب فصله بمسافة عن حجم الخط. على سبيل المثال: "& 14123".|
+| **أوامر السكريبت** | **الوصف** |
+| :- | :- |
+|&P|رقم الصفحة الحالي.
+|&G|صورة.
+|&N|إجمالي عدد الصفحات.
+|&D|التاريخ الحالي.
+|&T|الوقت الحالي.
+|&A|اسم ورقة العمل.
+|&F|اسم الملف بدون المسار.
+|&"\<FontName>"|اسم الخط. على سبيل المثال: &"Arial"|
+|&"\<FontName>, \<FontStyle>"|اسم الخط مع النمط. على سبيل المثال: &"Arial،Bold"|
+|&\<FontSize>| - يمثل حجم الخط. على سبيل المثال: “&14abc”. ولكن، إذا تبعت هذه الأمر برقم عادي يتم طباعته في الرأس، يجب أن يتم فصله بحرف مسافة عن حجم الخط. على سبيل المثال: “&14 123”.
 
-### **تعيين الرؤوس والتذييلات**
+### **تعيين رؤوس وتذييلات**
 
- ال[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) فئة توفر الطريقة[**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String) لإضافة رأس و[**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) لإضافة تذييل إلى ورقة العمل. يستخدم البرنامج النصي كوسيطة لجميع الأساليب المذكورة أعلاه. يمثل البرنامج النصي الذي سيتم استخدامه للرأس أو التذييل. يحتوي هذا البرنامج النصي على أوامر نصية لتنسيق الرؤوس أو التذييلات.
+توفر الـ [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) طريقة [**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String)) لإضافة رأس و [**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) لإضافة تذييل إلى صفحة العمل. يتم استخدام البرنامج النصي كوسيط لجميع الطرق المذكورة أعلاه. يُمثّل البرنامج النصي البرنامج النصي الذي سيُستخدم في رأس أو تذييل. يحتوي هذا البرنامج النصي على أوامر برمجية لتنسيق الرؤوس أو التذايلات.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
-### **قم بإدراج رسم في رأس أو تذييل الصفحة**
+### **إدراج رسم بياني في رأس أو تذييل**
 
- ال[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) الصف لديه الأساليب[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]) ) و[**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) لإضافة صور إلى رأس ورقة العمل وتذييلها. تأخذ هذه الطرق معلمتين:
+تحتوي الـ [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) على الطرق [**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[])) و [**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) لإضافة صور إلى رأس وتذييل صفحة العمل. تأخذ هذه الطرق معلمتين:
 
-- **الجزء**، قسم الرأس أو التذييل حيث سيتم وضع الصورة. هناك ثلاثة أقسام: اليسار والوسط واليمين ممثلة بالقيم الرقمية 0 و 1 و 2 على التوالي.
-- **ملف InputStream**، البيانات الرسومية. يجب كتابة البيانات الثنائية في المخزن المؤقت لصفيف بايت.
+- **القسم**, قسم الرأس أو التذييل الذي سيتم وضع الصورة فيه. هناك ثلاثة أقسام: اليسار، الوسط، واليمين، يتمثل في القيم الرقمية 0، 1، و2 على التوالي.
+- **مدخل ملف التدفق**, البيانات الرسومية. يجب كتابة البيانات الثنائية في مخزن مصفوفة بايت.
 
-بعد تنفيذ الكود وفتح الملف ، تحقق من رأس ورقة العمل في Microsoft Excel:
+بعد تنفيذ الشيفرة وفتح الملف، تحقق من رأس ورقة العمل في برنامج Microsoft Excel:
 
-1.  على ال**ملف** القائمة ، حدد**اعداد الصفحة**.
-1.  في مربع الحوار إعداد الصفحة ، حدد ملف**تذييل الرأس** التبويب.
+1. في قائمة **ملف**, حدد **إعداد الصفحة**.
+1. في مربع حوار إعداد الصفحة، حدد علامة التبويب **رأس/تذييل**.
 
-**إدراج رسم في رأس / تذييل الصفحة** 
+**إدراج رسم بياني في رأس/تذييل** 
 
-![ما يجب القيام به: image_بديل_نص](page-setup-features_4.png)
+![todo:image_alt_text](page-setup-features_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertImageInHeaderFooter-InsertImageInHeaderFooter.java" >}}
 
-### **قم بإدراج رسم في رأس الصفحة الأولى فقط**
+### **إدراج رسم بياني في رأس الصفحة الأولى فقط**
 
- ال[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) يحتوي class أيضًا على طرق مفيدة أخرى ، على سبيل المثال[**تعيين الصورة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)) ، لإضافة الصور إلى رأس / تذييل الصفحة الأولى لورقة العمل. الصفحة الأولى هي صفحة خاصة: من الشائع أن تريد أن تعرض معلومات خاصة ، على سبيل المثال شعار شركة.
+تحتوي الـ [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) أيضاً على طرق مفيدة أخرى، على سبيل المثال [**setPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[]))، [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String))، [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String))، لإضافة الصور إلى رأس/تذييل صفحة العمل الأولى. الصفحة الأولى هي صفحة خاصة: فمن مشترك أن ترغب في إظهار معلومات خاصة بها، على سبيل المثال شعار الشركة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
 ## **ضبط خيارات الطباعة**
 
-توفر إعدادات إعداد صفحة Microsoft في Excel العديد من خيارات الطباعة (يشار إليها أيضًا بخيارات الورقة) التي تسمح للمستخدمين بالتحكم في كيفية طباعة صفحات ورقة العمل. تتيح خيارات الطباعة هذه للمستخدمين:
+إعدادات صفحة Microsoft Excel توفر العديد من خيارات الطباعة (المشار إليها أيضًا بخيارات الورقة) التي تتيح للمستخدمين التحكم في كيفية طباعة صفحات جداول البيانات. تتيح هذه الخيارات الطباعة للمستخدمين:
 
-- حدد منطقة طباعة معينة في ورقة العمل.
+- تحديد منطقة طباعة معينة على ورقة عمل.
 - طباعة العناوين.
 - طباعة خطوط الشبكة.
-- طباعة عناوين الصفوف والأعمدة
-- تحقيق جودة المسودة.
+- طباعة رؤوس الأعمدة والصفوف
+- تحقيق جودة مسودة.
 - طباعة التعليقات.
 - طباعة أخطاء الخلية.
-- تحديد ترتيب الصفحة.
+- تعريف ترتيب الصفحات.
 
-كل خيارات الطباعة هذه موضحة أدناه.
+تم إظهار جميع هذه خيارات الطباعة أدناه.
 
 **خيارات الطباعة (الورقة)** 
 
-![ما يجب القيام به: image_بديل_نص](page-setup-features_5.png)
+![todo:image_alt_text](page-setup-features_5.png)
 
 ### **ضبط خيارات الطباعة والورقة**
 
- spose.Cells يدعم جميع خيارات الطباعة التي يقدمها Microsoft Excel ويمكن للمطورين بسهولة تكوين هذه الخيارات لأوراق العمل باستخدام الخصائص التي تقدمها[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)صف دراسي. تتم مناقشة كيفية استخدام هذه الخصائص أدناه بمزيد من التفصيل.
+تدعم spose.Cells جميع خيارات الطباعة المقدمة من Microsoft Excel ويمكن للمطورين تكوين هذه الخيارات بسهولة لجداول البيانات باستخدام الخصائص التي تقدمها فئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). يتم مناقشة كيفية استخدام هذه الخصائص بشيء من التفصيل أدناه.
 
-### **تعيين ناحية الطباعة**
+### **تعيين منطقة الطباعة**
 
-بشكل افتراضي ، تدمج منطقة الطباعة فقط جميع مناطق ورقة العمل التي تحتوي على بيانات. يمكن للمطورين إنشاء منطقة طباعة معينة من ورقة العمل.
+بشكل افتراضي، تشمل منطقة الطباعة فقط جميع مناطق ورق العمل التي تحتوي على بيانات. يمكن للمطورين إنشاء منطقة طباعة محددة لورق العمل.
 
- لتحديد منطقة طباعة معينة ، استخدم ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setPrintArea**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea) خاصية. قم بتعيين نطاق خلايا يحدد منطقة الطباعة لهذه الخاصية.
+لتحديد منطقة طباعة محددة، استخدم خاصية [**setPrintArea**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea) لفئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup). قم بتعيين نطاق الخلايا الذي يحدد منطقة الطباعة لهذه الخاصية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintArea-SetPrintArea.java" >}}
 
-### **تعيين عناوين الطباعة**
+### **تحديد عناوين الطباعة**
 
- Aspose.Cells يسمح لك بتعيين رؤوس الصفوف والأعمدة لتكرارها على كل صفحات ورقة العمل المطبوعة. للقيام بذلك ، استخدم ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) و[**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) الخصائص.
+تسمح Aspose.Cells لك بتعيين تكرار رؤوس الصف والعمود على جميع الصفحات من ورقة العمل المطبوعة. للقيام بذلك، استخدم خاصيتي [**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) و [**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) لفئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup).
 
-يتم تحديد الصفوف أو الأعمدة التي سيتم تكرارها عن طريق تمرير أرقام الصفوف أو الأعمدة. على سبيل المثال ، يتم تعريف الصفوف على أنها $ 1: $ 2 ويتم تعريف الأعمدة على أنها $ A: $ B.
+يتم تعريف الصفوف أو الأعمدة التي ستتكرر عن طريق تمرير أرقامها. على سبيل المثال، يتم تعريف الصفوف كـ $1:$2 والأعمدة كـ $A:$B.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintTitle-SetPrintTitle.java" >}}
 
-### **قم بتعيين خيارات الطباعة الأخرى**
+### **تحديد خيارات الطباعة الأخرى**
 
- ال[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) توفر class أيضًا العديد من الخصائص الأخرى لتعيين خيارات الطباعة العامة على النحو التالي:
+توفر فئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) أيضًا عدة خصائص أخرى لتعيين خيارات الطباعة العامة على النحو التالي:
 
-- [**setPrintGridlines**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintGridlines)، وهي خاصية منطقية تحدد ما إذا كنت تريد طباعة خطوط الشبكة أم لا.
-- [*setPrintHeadings*](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintHeadings)، خاصية منطقية تحدد ما إذا كنت تريد طباعة عناوين الصفوف والأعمدة أم لا.
-- [**setBlackAndWhite**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#BlackAndWhite)، خاصية منطقية تحدد ما إذا كنت تريد طباعة ورقة العمل في الوضع الأسود والأبيض أم لا.
-- [**setPrint التعليقات**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments)، يحدد ما إذا كان سيتم عرض تعليقات الطباعة في ورقة العمل أو في نهاية ورقة العمل.
-- [**setPrintDraft**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintDraft)، خاصية منطقية تحدد ما إذا كنت تريد طباعة ورقة العمل بجودة المسودة أم لا.
-- [**setPrintErors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors)، يحدد ما إذا كان سيتم طباعة أخطاء الخلية كما هي معروضة أو فارغة أو شرطة أو غير متوفرة.
+- [**setPrintGridlines**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintGridlines)، خاصية بوليانية تحدد ما إذا كان سيتم طباعة خطوط الشبكة أم لا.
+- [*setPrintHeadings*](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintHeadings)، خاصية بوليانية تحدد ما إذا كان سيتم طباعة رؤوس الصف والعمود أم لا.
+- [**setBlackAndWhite**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#BlackAndWhite)، خاصية بوليانية تحدد ما إذا كان سيتم طباعة ورقة العمل في وضع أبيض وأسود أم لا.
+- [**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments)، يحدد ما إذا كان سيتم عرض التعليقات على الورقة أم عند نهاية الورقة.
+- [**setPrintDraft**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintDraft)، خاصية بوليانية تحدد ما إذا كان سيتم طباعة ورقة العمل في جودة المسودة أم لا.
+- [**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors)، يحدد ما إذا كان سيتم طباعة أخطاء الخلية كما هو معروض، فارغ، شرطة أو N/A.
 
- لتعيين[**PrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) و[**أخطاء الطباعة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) الخصائص ، يوفر Aspose.Cells أيضًا عددين ،[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) و[**نوع الطباعة**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) التي تحتوي على قيم محددة مسبقًا ليتم تعيينها إلى[**setPrint التعليقات**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) و[**setPrintErors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) خصائص على التوالي.
+لتعيين الخصائص [**PrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) و [**PrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors)، توفر Aspose.Cells أيضًا تعدادين، [**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) و [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) التي تحتوي على قيم محددة مسبقًا لتعيين الخصائص [**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) و [**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) على التوالي.
 
- القيم المحددة مسبقًا في ملف[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) التعداد موصوف أدناه.
+توصف القيم المحددة مسبقاً في تعداد [**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) أدناه.
 
-|**طباعة أنواع التعليقات**|**وصف**|
-|:- |:- |
-|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|يُحدد لطباعة التعليقات كما هو معروض في ورقة العمل.|
+|**أنواع التعليقات المطبوعة**|**الوصف**|
+| :- | :- |
+|[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|يحدد طباعة التعليقات كما هي معروضة على ورقة العمل.|
 |[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|يحدد عدم طباعة التعليقات.|
-|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|يُحدد لطباعة التعليقات في نهاية ورقة العمل.|
+|[**PRINT_SHEET_END**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_SHEET_END)|يحدد طباعة التعليقات في نهاية ورقة العمل.|
 
- القيم المحددة مسبقًا لـ[**نوع الطباعة**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) التعداد موصوف أدناه.
+توصف القيم المحددة مسبقاً في تعداد [**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) أدناه.
 
-|**أنواع أخطاء الطباعة**|**وصف**|
-|:- |:- |
-|[*PRINT_ERRORS_BLANK*](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|يحدد عدم طباعة الأخطاء.|
-|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|يُحدد طباعة الأخطاء كـ "-".|
-|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|يُحدد لطباعة الأخطاء كما هو معروض.|
-|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|يُحدد طباعة الأخطاء كـ "# N / A".|
+| **أنواع أخطاء الطباعة** | **الوصف** |
+| :- | :- |
+|[**PRINT_ERRORS_BLANK**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|تحدد عدم طباعة الأخطاء.|
+|[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|تحدد طباعة الأخطاء على شكل علامة "--".|
+|[**PRINT_ERRORS_DISPLAYED**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DISPLAYED)|تحدد طباعة الأخطاء كما هي معروضة.|
+|[**PRINT_ERRORS_NA**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_NA)|تحدد طباعة الأخطاء على شكل "#N/A".|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-OtherPrintOptions-OtherPrintOptions.java" >}}
 
-### **تعيين ترتيب الصفحة**
+### **تحديد ترتيب الصفحة**
 
- ال[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) فئة توفر[**سن أمرا**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) الخاصية المستخدمة لطلب طباعة صفحات متعددة من ورقة العمل الخاصة بك. هناك احتمالان لترتيب الصفحات على النحو التالي:
+توفر فئة [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) خاصية [**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) التي تُستخدم لترتيب عدة صفحات من ورقة العمل الخاصة بك ليتم طباعتها. هناك احتمالين لترتيب الصفحات كما يلي:
 
-- **ثم إلى أسفل** يطبع كل الصفحات لأسفل قبل طباعة أي صفحات على اليمين.
-- **مر ثم لأسفل** يطبع الصفحات من اليسار إلى اليمين قبل طباعة أية صفحات أدناه.
+- **أسفل ثم يمين** يطبع كل الصفحات لأسفل قبل طباعة أي صفحات لليمين.
+- **يمين ثم أسفل** يطبع الصفحات من اليسار إلى اليمين قبل طباعة أي صفحات أسفل.
 
- يوفر Aspose.Cells تعداد ،[**PrintOrderType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType) ، التي تحتوي على جميع أنواع الطلبات المحددة مسبقًا التي سيتم تعيينها لها[**سن أمرا**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) طريقة.
+توفر Aspose.Cells تعدادًا، [**PrintOrderType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType)، يحتوي على جميع أنواع ترتيب محددة مسبقًا لتعيينها لوسيطة [**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order).
 
- القيم المحددة مسبقًا لـ[**PrintOrderType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType) التعداد موصوف أدناه.
+تُوصف القيم المحددة مسبقًا لتعداد [**PrintOrderType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType) أدناه.
 
-|**أنواع أوامر الطباعة**|**وصف**|
-|:- |:- |
-|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|اطبع لأسفل ، ثم أكرر.|
-|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|اطبع ثم لأسفل.|
+| **أنواع ترتيب الطباعة** | **الوصف** |
+| :- | :- |
+|[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|الطباعة لأسفل، ثم يمين.|
+|[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|الطباعة يمينًا، ثم أسفل.|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPageOrder-SetPageOrder.java" >}}
 
-## **قم بإزالة إعدادات PrinterSettings الموجودة من أوراق العمل في ملف Excel**
+## **إزالة إعدادات الطابعة الحالية لورقات العمل في ملف Excel**
 
-يرجى الاطلاع على هذه المقالة المتعلقة بهذا الموضوع.
+يرجى الاطلاع على هذه المقالة ذات الصلة بهذا الموضوع.
 
-## **موضوعات مسبقة**
-- [حساب عامل تحجيم إعداد الصفحة](/cells/ar/java/calculate-page-setup-scaling-factor/)
-- [انسخ إعدادات إعداد الصفحة من ورقة عمل المصدر إلى ورقة عمل الوجهة](/cells/ar/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/)
-- [حدد ما إذا كان حجم الورق الخاص بورقة العمل تلقائيًا](/cells/ar/java/determine-if-paper-size-of-worksheet-is-automatic/)
-- [احصل على عرض الورق وارتفاعه من PageSetup of Worksheet](/cells/ar/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
-- [تنفيذ حجم الورق المخصص لورقة العمل للعرض](/cells/ar/java/implement-custom-paper-size-of-worksheet-for-rendering/)
-- [خيارات إعداد الصفحة والطباعة](/cells/ar/java/page-setup-and-printing-options/)
-- [قم بإزالة إعدادات PrinterSettings الموجودة من أوراق العمل في ملف Excel](/cells/ar/java/remove-existing-printersettings-of-worksheets-in-excel-file/)
+## **مواضيع متقدمة**
+- [حساب معامل تكبير إعداد الصفحة](/cells/ar/java/calculate-page-setup-scaling-factor/)
+- [نسخ إعدادات إعداد الصفحة من ورقة العمل المصدر إلى ورقة العمل الوجهة](/cells/ar/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/)
+- [تحديد ما إذا كان حجم الورق للورقة تلقائي](/cells/ar/java/determine-if-paper-size-of-worksheet-is-automatic/)
+- [الحصول على عرض وارتفاع الورقة من تهيئة الصفحة لورقة العمل](/cells/ar/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
+- [تنفيذ حجم ورق مخصص لورقة العمل للتقديم](/cells/ar/java/implement-custom-paper-size-of-worksheet-for-rendering/)
+- [إعداد الصفحة وخيارات الطباعة](/cells/ar/java/page-setup-and-printing-options/)
+- [إزالة إعدادات الطابعة الحالية لورقات العمل في ملف Excel](/cells/ar/java/remove-existing-printersettings-of-worksheets-in-excel-file/)

@@ -1,12 +1,13 @@
-﻿---
-title: Få ett unikt kalkylblads-id
+---
+title: Få arbetsbladets unika id
 type: docs
 weight: 200
 url: /sv/java/get-worksheet-unique-id/
 ---
-## **Få ett unikt kalkylblads-id**
 
-Aspose.Cells ger möjligheten att få det unika ID:t för ett kalkylblad genom att använda[**Arbetsblad.UniqueId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId)fast egendom. Följande kodavsnitt visar användningen av[**Arbetsblad.UniqueId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId)egenskap för att skriva ut det unika ID:t för ett kalkylblad. Följande kodavsnitt använder detta[exempel på excel-fil](Book1.xlsx).
+## **Få arbetsbladets unika id**
+
+Aspose.Cells ger möjligheten att få en unik id för ett arbetsblad genom att använda [**Worksheet.UniqueId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId) egenskapen. Följande kodsnutt demonstrerar användningen av [**Worksheet.UniqueId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId) egenskapen för att skriva ut den unika id för ett arbetsblad. Följande kodsnutt använder denna [prov-Excel-fil](Book1.xlsx).
 
 ## Exempelkod
 

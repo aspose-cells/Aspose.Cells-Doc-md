@@ -1,54 +1,54 @@
 ---
-title: Gantt şeması nasıl oluşturulur
-linktitle: Gantt şeması nasıl oluşturulur
+title: Gantt grafiği nasıl oluşturulur
+linktitle: Gantt grafiği nasıl oluşturulur
 type: docs
 weight: 72
 url: /tr/net/how-to-create-gantt-chart/
-description: Aspose.Cells'de Gantt şeması nasıl oluşturulur?
-keywords: create/insert Gantt Chart Excel Aspose
+description: Aspose.Cells ta Gantt grafiği nasıl oluşturulur.
+keywords: Aspose ile Excel e Gantt Grafiği oluşturma/ekleme
 ---
-##  Gantt şeması nedir
+## Gantt grafiği nedir
 
-Gantt şeması proje görevlerinizi planlamanıza ve ardından ilerlemenizi izlemenize yardımcı olur.
+Gantt grafiği, projenizdeki görevleri zamanlamaya yardımcı olur ve ilerlemenizi izlemenize yardımcı olur.
 
-##  Excel'e Gantt grafiği ekleme
+## Excel'e Gantt grafiği ekleme
 
-Gantt şemasıyla basit bir proje zamanlaması için durumu göstermeniz mi gerekiyor? Excel'de önceden tanımlanmış bir Gantt grafiği türü olmasa da, görevlerin başlangıç ve bitiş tarihlerini gösterecek şekilde yığılmış bir çubuk grafiği özelleştirerek bir benzetim yapabilirsiniz:
+Basit bir proje zaman çizelgesi için bir Gantt grafiği ile durumu göstermek mi gerekiyor? Excel'de önceden tanımlanmış bir Gantt grafik türü olmasa da, görevlerin başlangıç ve bitiş tarihlerini göstermek için bir yığın çubuk grafiğini özelleştirebilirsiniz.
 
-![yapılacak şey:image_alt_text](00.png)
+![todo:image_alt_text](00.png)
 
-![yapılacak şey:image_alt_text](0.png)
+![todo:image_alt_text](0.png)
 
-##  Nasıl oluşturulurum
+## Nasıl oluşturulur
 
--  Grafiği oluşturmak istediğiniz verileri seçin. Örneğimizde bu B1:B7 ve ardından Ekle**Yığılmış Çubuk** çizelge.
+- Grafik olarak görmek istediğiniz verileri seçin. Örneğimizde, bu B1:B7 ve sonra **Yığın Çubuk** grafiği ekleyin.
 
-![yapılacak şey:image_alt_text](1.png)
+![todo:image_alt_text](1.png)
 
-- Grafiği seçin,**Veri Seç**->****Ekle**, **Seri adını ayarlayın** Ve**Seri değerleri** aşağıdaki gibi
+- Grafiği seçin, **Veri Seçimi**->**Ekle**'yi seçin, **Seri adı** ve **Seri değerleri**'ni aşağıdaki gibi ayarlayın
 
-![yapılacak şey:image_alt_text](2.png)
+![todo:image_alt_text](2.png)
 
--  Grafiği seçin, Düzenleyin**Yatay(Kategori) Eksen Etiketleri**
+- Grafiği seçin, **Yatay(Kategori) Eksen Etiketleri**'ni Düzenleyin
 
-![yapılacak şey:image_alt_text](3.png)
+![todo:image_alt_text](3.png)
 
-- **Ekseni Biçimlendir** Y Ekseni'ni seçin**Kategoriler ters sırada**
--  Şunu seçin:**Mavi Serisi** ve ayarlayın**Doldur->Doldurma YOK**
-- **Ekseni Biçimlendir** X Ekseni, *Minimum ve Maksimum**'u ayarlayın(1/5/2019:43470,1/30/2019:43494)
+- **Y Eksenini Biçimlendir**'in, **Kategorileri ters sırada seçin**
+- **Mavi Seriyi** seçin ve **Doldur->Doldur Yok** olarak ayarlayın
+- **X Eksenini Biçimlendir**'in, **Minimum ve Maksimum**'u ayarlayın (1/5/2019: 43470, 1/30/2019: 43494)
 
-![yapılacak şey:image_alt_text](4.png)
+![todo:image_alt_text](4.png)
 
-- **Veri dosyaları ekle** grafik için
-Artık bir gantt grafiği elde ediyorsunuz.
+- Grafiğe **Veri Etiketleri Ekle**
+Şimdi bir Gantt grafiğiniz var.
 
-## Aspose.Cells'e Gantt şemasını ekleyin
+## Aspose.Cells'ta Gantt grafiği ekleme
 
- Aşağıdaki örnek kod, bir Gantt grafiği açarak bir Gantt grafiği oluşturur.[örnek dosya](sample.xlsx)
+Aşağıdaki örnek kod, [örnek dosyayı](örnek.xlsx) açarak bir Gantt grafiği oluşturur.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-gantt-chart.cs" >}}
 
- Şuna benzer bir dosya alacaksınız[sonuç dosyası](result.xlsx).Dosyada aşağıdakileri göreceksiniz:
+Benzer bir dosya olan [sonuç dosyasını](sonuç.xlsx) alacaksınız. Dosyada aşağıdakileri göreceksiniz:
 
-![yapılacak şey:image_alt_text](5.png)
+![todo:image_alt_text](5.png)
 

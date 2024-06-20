@@ -1,13 +1,14 @@
-﻿---
+---
 title: Come installare libgdiplus su macOS
 type: docs
-description: Questo articolo spiega come installare libgdiplus in macOS, come Monterey 12.4
+description: "Questo articolo spiega come installare libgdiplus in macOS, come Monterey 12.4."
 weight: 150
 url: /it/net/how-to-install-libgdiplus-in-macos/
 ---
-## Installa Homebrew su macOS
 
-Puoi installare Homebrew in macOS eseguendo il seguente comando in Terminale.
+## Installare Homebrew in macOS
+
+È possibile installare Homebrew in macOS eseguendo il seguente comando in Terminale.
 
 ```cs
 
@@ -15,9 +16,9 @@ Puoi installare Homebrew in macOS eseguendo il seguente comando in Terminale.
 
 ```
 
-## Installa libgdiplus in macOS
+## Installare libgdiplus in macOS
 
-Dopo aver installato Homebrew, puoi installare libgdiplus in macOS:
+Dopo aver installato Homebrew, è possibile installare libgdiplus in macOS:
 
 ```cs
 

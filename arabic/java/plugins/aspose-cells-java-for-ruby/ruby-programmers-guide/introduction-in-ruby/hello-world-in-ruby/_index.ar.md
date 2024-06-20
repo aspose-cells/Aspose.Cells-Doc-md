@@ -1,15 +1,16 @@
-﻿---
-title: Hello World في روبي
+---
+title: مرحبا بالعالم في روبي
 type: docs
 weight: 10
 url: /ar/java/hello-world-in-ruby/
 ---
+
 ## **Aspose.Cells - Hello World**
-لكتابة أي شيء في مستند جدول البيانات باستخدام Aspose.Cells for Java في Ruby ، ما عليك سوى استدعاء وحدة HelloWorld.
+لكتابة أي شيء في مستند جدول بيانات باستخدام Aspose.Cells for Java في روبي، قم ببساطة بإستدعاء وحدة HelloWorld.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -42,7 +43,7 @@ workbook.save(data_dir + "HelloWorld.xls", file_format_type.EXCEL_97_TO_2003)
 puts "Document has been saved, please check the output file."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**Hello World (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **مرحبا بالعالم (Aspose.Cells)** من  أي من المواقع المذكورة أدناه لتواصل الترميز:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/helloworld.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/helloworld.rb)

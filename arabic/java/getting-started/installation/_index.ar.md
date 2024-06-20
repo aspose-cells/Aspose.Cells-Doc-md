@@ -1,16 +1,17 @@
 ---
-title: Installation
+title: التثبيت
 type: docs
 weight: 20
 url: /ar/java/installation/
 ---
-##  **تثبيت Aspose.Cells for Java من مستودع Maven**
 
-Aspose يستضيف جميع واجهات برمجة التطبيقات Java[مستودع Maven](https://releases.aspose.com/java/repo/) . يمكنك استخدامها بسهولة[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) مباشرة في مشاريعك Maven بتكوينات بسيطة.
+## **تثبيت Aspose.Cells for Java من مستودع Maven**
 
-أولاً، تحتاج إلى تحديد Aspose Maven تكوين/موقع المستودع في Maven pom.xml الخاص بك على النحو التالي:
+تستضيف Aspose جميع واجهات برمجة تطبيقات Java على [مستودع Maven](https://releases.aspose.com/java/repo/). يمكنك استخدام [Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) مباشرة في مشاريعك Maven بتكوينات بسيطة.
 
-{{< highlight "java" >}}
+أولاً، يجب عليك تحديد موقع تكوين / مستودع Aspose Maven في Maven pom.xml الخاص بك كما يلي:
+
+{{< highlight java >}}
 
  <repositories>
 
@@ -28,8 +29,8 @@ Aspose يستضيف جميع واجهات برمجة التطبيقات Java[م�
 
 {{< /highlight >}}
 
-لـ Gradle في البرنامج النصي build.gradle الخاص بك على النحو التالي:
-{{< highlight "java" >}}
+لـ Gradle في نص build.gradle الخاص بك كما يلي:
+{{< highlight java >}}
 //Add Aspose maven repository
 repositories {
     mavenCentral()
@@ -39,9 +40,9 @@ repositories {
 }
 {{< /highlight >}}
 
-ثم قم بتعريف التبعية Aspose.Cells for Java API في pom.xml الخاص بك على النحو التالي (سيشمل هذا كل شيء، على سبيل المثال ملف jar الرئيسي، Java Docs، والمكتبات الأخرى وفقًا لذلك):
+ثم حدد تبعية Aspose.Cells for Java API في pom.xml الخاص بك على النحو التالي (سيتم ذلك بما في ذلك كل شيء، على سبيل المثال، الملف الرئيسي القابل للتطبيق، وثنائيات JavaDocs وغيرها من المكتبات وفقًا لذلك):
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      <dependencies>
 
@@ -51,7 +52,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.2</version>
+            <version>24.6</version>
 
         </dependency>
 
@@ -61,7 +62,7 @@ repositories {
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.2</version>
+            <version>24.6</version>
 
             <classifier>javadoc</classifier>
 
@@ -91,10 +92,18 @@ repositories {
 
 {{< /highlight >}}
 
-تهانينا! لقد نجحت في تحديد التبعية Aspose.Cells for Java Maven في مشروعك Maven.
+تهانينا! لقد قمت بتحديد تبعية Aspose.Cells for Java Maven بنجاح في مشروعك Maven.
 
-##  **يدعم**
+## **تحميل صورة WebP**
 
-يرجى التحقق مما يلي للحصول على الدعم الفني السريع
+WebP هو تنسيق صور حديث. تم تصميمه لإنتاج أحجام ملفات أصغر، مع الحفاظ على جودة الصورة البصرية العالية.
 
-[Aspose.Cells - المنتديات](https://forum.aspose.com/c/cells/9)
+حالياً، في Microsoft Excel، لا يُسمح بإدراج صور WebP مباشرة. ومع ذلك، هناك حالات يتم فيها إدراج صور WebP في ملفات مصدر Excel مباشرة عن طريق بعض مكتبات الطرف الثالث.
+
+عموماً، يستخدم Aspose.Cells for Java ImageIO لجافا لتحميل الصور النقطية، وحالياً لا يدعم JDK نفسه تحميل صور WebP. يتطلب الأمر بعض الإضافات أو الامتدادات الإضافية (مثل [إضافة imageio-webp](https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-webp)) لـ ImageIO لجافا لتحميل الصور WebP.
+
+## **الدعم**
+
+يرجى التحقق من ما يلي للحصول على دعم فني سريع
+
+[منتديات Aspose.Cells](https://forum.aspose.com/c/cells/9)

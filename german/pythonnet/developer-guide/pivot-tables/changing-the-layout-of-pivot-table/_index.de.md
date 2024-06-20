@@ -1,23 +1,24 @@
 ---
-title: Ändern des Layouts der Pivot-Tabelle
+title: Layout der Pivot Tabelle ändern
 type: docs
 weight: 10
 url: /de/python-net/changing-the-layout-of-pivot-table/
-description: So ändern Sie das Layout der Pivot-Tabelle mit Aspose.Cells for Python via .NET.
-keywords: Change the Layout of Pivot Table.
+description: Wie ändere ich das Layout der Pivot Tabelle mit Aspose.Cells für Python via .NET
+keywords: Aspose.Cells für Python Excel, Excel Python Bibliothek, Ändern des Layouts der Pivot Tabelle mit Aspose.Cells für Python Excel Bibliothek
 ---
-{{% alert color="primary" %}}
 
- Microsoft Mit Excel können Sie das Layout der Pivot-Tabelle ändern*PivotTable-Tools > Design > Berichtslayout* Menübefehle. Sie können das Layout in diesen drei Formularen ändern
+## **So ändern Sie das Layout der Pivot-Tabelle in MS-Excel**
+Microsoft Excel ermöglicht es Ihnen, das Layout der Pivot-Tabelle mithilfe der Menübefehle *PivotTable-Tools > Entwurf > Berichtslayout* zu ändern. Sie können das Layout in drei Formen ändern
 
-- In kompakter Form anzeigen
-- In Gliederungsform anzeigen
-- In tabellarischer Form anzeigen
+- Im kompakten Formular anzeigen
+- Im Gliederungsformular anzeigen
+- Im tabellarischen Formular anzeigen
 
- Aspose.Cells bietet auch[**PivotTable.show_in_compact_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_compact_form/#), [**PivotTable.show_in_outline_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_outline_form/#) Und[**PivotTable.show_in_tabular_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_tabular_form/#) Methoden zum Ändern des Layouts der Pivot-Tabelle in diesen drei Formen.
+## **Wie ändere ich das Layout der Pivot-Tabelle mit Aspose.Cells für Python Excel-Bibliothek**
+Die Aspose.Cells für Python Excel-Bibliothek bietet auch [**PivotTable.show_in_compact_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_compact_form/#), [**PivotTable.show_in_outline_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_outline_form/#) und [**PivotTable.show_in_tabular_form()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/show_in_tabular_form/#) Methoden, um das Layout der Pivot-Tabelle in diesen drei Formen zu ändern.
 
-{{% /alert %}}
 
- Der folgende Beispielcode zeigt zunächst die Pivot-Tabelle in**Kompaktes Formular**, dann wird die Pivot-Tabelle im **Gliederungsformular angezeigt** und schließlich wird die Pivot-Tabelle in *Tabellarform** angezeigt.
+## **Beispielcode**
+Der folgende Beispielcode zeigt zunächst die Pivot-Tabelle im **kompakten Formular**, dann zeigt sie die Pivot-Tabelle im **Gliederungsformular** und zuletzt zeigt sie die Pivot-Tabelle im **tabellarischen Formular**.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ChangingLayoutOfPivotTable.py" >}}

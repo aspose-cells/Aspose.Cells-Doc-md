@@ -1,16 +1,19 @@
-﻿---
-title: Copiar una hoja de trabajo
+---
+title: Copiar una hoja de cálculo
 type: docs
 weight: 50
-url: /es/net/copy-a-worksheet/
+url: /es/net/aspose-cells-gridweb/copy-a-worksheet/
+keywords: GridWeb, copiar, GridWorksheet
+description: Este artículo presenta cómo copiar una hoja de cálculo (GridWorksheet) en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-[Agregar hojas de trabajo](/cells/es/net/add-worksheets/) describe cómo agregar nuevas hojas de trabajo a Aspose.Cells.GridWeb. También es posible agregar una copia (o réplica) de otra hoja de cálculo al control Aspose.Cells.GridWeb. Esta característica puede ser útil cuando también se requieren datos idénticos o similares en una hoja de trabajo en otra hoja de trabajo. Cuando ese es el caso, es más fácil copiar una hoja de trabajo existente y agregarla a Aspose.Cells.GridWeb como una nueva hoja de trabajo en lugar de crearla desde cero.
+[Agregar hojas de cálculo](/cells/es/net/aspose-cells-gridweb/add-worksheets/) describe cómo agregar nuevas hojas de cálculo a Aspose.Cells.GridWeb. También es posible agregar una copia (o réplica) de otra hoja de cálculo al control Aspose.Cells.GridWeb. Esta función puede ser útil cuando datos idénticos o similares de una hoja de cálculo también se requieren en otra hoja de cálculo. En ese caso, es más fácil copiar una hoja de cálculo existente y agregarla a Aspose.Cells.GridWeb como una nueva hoja de cálculo en lugar de crearla desde cero.
 
 {{% /alert %}} 
-## **Copiar una hoja de trabajo**
-### **Uso del índice de hoja**
+## **Copiando una hoja de cálculo**
+### **Usando el índice de hoja**
 El siguiente código de ejemplo muestra cómo agregar una copia de una hoja de cálculo al control GridWeb especificando el índice de la hoja de cálculo en el método AddCopy de GridWorksheetCollection.
 
 
@@ -25,6 +28,6 @@ El siguiente código de ejemplo muestra cómo agregar una copia de una hoja de c
 
 {{% alert color="primary" %}} 
 
- El método AddCopy devuelve el índice de la hoja de trabajo recién agregada que se puede usar para acceder a la instancia de la hoja de trabajo. Para obtener más detalles sobre cómo acceder a las hojas de trabajo, lea[Acceder a hojas de trabajo](/cells/es/net/access-worksheets/).
+El método AddCopy devuelve el índice de la hoja de cálculo recién agregada que se puede usar para acceder a la instancia de la hoja de cálculo. Para obtener más detalles sobre cómo acceder a las hojas de cálculo, lea [Acceder a hojas de cálculo](/cells/es/net/aspose-cells-gridweb/access-worksheets/).
 
 {{% /alert %}}

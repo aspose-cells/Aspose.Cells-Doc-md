@@ -1,41 +1,42 @@
-﻿---
-title: Agregar hipervínculos a Cells
+---
+title: Agregar hipervínculos a celdas
 type: docs
 weight: 60
 url: /es/net/add-hyperlinks-to-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET le permite realizar casi cualquier tarea a través de su aplicación que un usuario puede realizar en Microsoft Excel. Este artículo compara cómo agregar un hipervínculo a una celda en una hoja de trabajo usando VSTO y Aspose.Cells for .NET.
+Aspose.Cells for .NET te permite realizar casi cualquier tarea a través de tu aplicación que un usuario puede realizar en Microsoft Excel. Este artículo compara cómo agregar un hipervínculo a una celda en una hoja de cálculo usando VSTO y Aspose.Cells for .NET.
 
 {{% /alert %}}
 
-## **Adición de hipervínculos a Cells**
+## **Agregando hipervínculos a celdas**
 
-Para agregar hipervínculos a las celdas de una hoja de cálculo, siga los siguientes pasos:
+Para agregar hipervínculos a celdas en una hoja de cálculo, siga los siguientes pasos:
 
-1. Configure la hoja de trabajo:
- 1. Cree una instancia de un objeto de aplicación.
- (Solo VSTO).
- 1. Agregue un libro de trabajo.
- 1. Obtenga la primera hoja.
- 1. Agregue texto a las celdas a las que agregará un hipervínculo.
-1. Añadir hipervínculo.
-1. Guarde el documento.
+1. Configurar la hoja de cálculo:
+   1. Instancia un objeto de Aplicación.
+      (Solo VSTO.)
+   1. Agregar un libro.
+   1. Obtener la primera hoja.
+   1. Agregar texto a las celdas a las que se agregará un hipervínculo.
+1. Agregar hipervínculo.
+1. Guardar el documento.
 
- Estos pasos se muestran en los ejemplos de código a continuación. Los primeros ejemplos muestran cómo usar[VSTO](/cells/es/net/add-hyperlinks-to-cells/) con C# o Visual Basic para agregar un hipervínculo a una celda. Los ejemplos que siguen muestran cómo hacer lo mismo usando[Aspose.Cells for .NET](/cells/es/net/add-hyperlinks-to-cells/), nuevamente usando C# o Visual Basic.
+Estos pasos se muestran en los ejemplos de código a continuación. Los primeros ejemplos muestran cómo usar [VSTO](/cells/es/net/add-hyperlinks-to-cells/) con C# o Visual Basic para agregar un hipervínculo a una celda. Los ejemplos que siguen muestran cómo hacer lo mismo usando [Aspose.Cells for .NET](/cells/es/net/add-hyperlinks-to-cells/), nuevamente usando C# o Visual Basic.
 
-Los ejemplos de código generan un archivo de Excel que tiene un hipervínculo en la celda A1 de la primera hoja de cálculo.
+Los ejemplos de código generan un archivo de Excel que tiene un hipervínculo en la celda A1 de la primera hoja de trabajo.
 
-![todo:imagen_alternativa_texto](add-hyperlinks-to-cells_1.png)
+![todo:image_alt_text](add-hyperlinks-to-cells_1.png)
 
 **Se agrega un hipervínculo a la celda A1.**
 
-### **Adición de hipervínculos a Cells con VSTO**
+### **Agregando hipervínculos a celdas con VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -87,11 +88,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Agregar hipervínculos a Cells con Aspose.Cells for .NET**
+### **Agregando hipervínculos a celdas con Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

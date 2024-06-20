@@ -1,5 +1,5 @@
 ---
-title: 限制生成的页面数量 - 将Excel转换为PDF
+title: 限制生成的页面数量  将Excel转换为PDF
 type: docs
 weight: 60
 url: /zh/java/limit-the-number-of-pages-generated-excel-to-pdf-conversion/

@@ -1,28 +1,29 @@
-﻿---
-title: Hesap Tablosu Düzenleyicisi - Cells ile çalışma
+---
+title: Elektronik Tablo Düzenleyici  Hücrelerle Çalışmak
 type: docs
 weight: 40
 url: /tr/java/spreadsheet-editor-working-with-cells/
 ---
+
 **İçindekiler**
 
-- [Cell seçilmesi](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
- - Cell seçim geri araması
-- [Cell'i silin](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
- - WorksheetView.removeCellShiftUp
- - WorksheetView.removeCellShiftLeft
-- [Cell'i temizle](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- WorksheetView.clearCurrentCellFormatting
- - WorksheetView.clearCurrentCellContents
- - WorksheetView.clearCurrentCell
-### **Cell seçilmesi**
-Bir hücreye işaret etmek için fare işaretçinizi kullanın. Seçmek için bir hücreye tıklayın. Seçilen hücre kalın bir dikdörtgenle vurgulanır.
+- [Bir Hücre Seçmek](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
+  - Hücre seçim geri araması
+- [Bir Hücreyi Silmek](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
+  - WorksheetView.removeCellShiftUp
+  - WorksheetView.removeCellShiftLeft
+- [Bir Hücreyi Temizle](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
+  - WorksheetView.clearCurrentCellFormatting
+  - WorksheetView.clearCurrentCellContents
+  - WorksheetView.clearCurrentCell
+### **Bir Hücre Seçmek**
+Fare işaretçinizi bir hücreye doğrultun. Bir hücreyi seçmek için tıklayın. Seçilen hücre kalın bir dikdörtgen ile vurgulanır.
 
 **Nasıl çalışır?**
 
-Kullanıcı bir hücreyi tıkladığında, olay Primefaces bileşenine eklenen JavaScript geri arama işlevi tarafından işlenir.
-#### **Cell seçim geri arama**
-{{< highlight "java" >}}
+Kullanıcı bir hücreye tıkladığında, olay JavaScript geri arama işlevi tarafından ele alınır ve Primefaces bileşenine bağlanır.
+#### **Hücre seçim geri araması**
+{{< highlight java >}}
 
                      var columnId = $(this).find('.ui-cell-editor-input input').attr('data-columnid');
 
@@ -91,21 +92,21 @@ Kullanıcı bir hücreyi tıkladığında, olay Primefaces bileşenine eklenen J
                     $this.selectedCell = this;
 
 {{< /highlight >}}
-### **Cell'i silin**
+### **Bir Hücreyi Silmek**
 Bir hücreyi silmek için:
 
-1. Silmek istediğiniz bir hücreye tıklayın.
-1.  Çevirmek**Biçim sekmesi**.
-1.  Tıklamak**Cell'i sil** buton.
-1.  Seçmek**Shift Cells Yukarı** veya**Shift Cells Sola** buton.
+1. Sileceğiniz hücreye tıklayın.
+1. **Biçim** sekmesine geçin.
+1. **Hücreyi Sil** düğmesine tıklayın.
+1. **Hücreleri Yukarı Kaydır** veya **Hücreleri Sola Kaydır** düğmesini seçin.
 
-Düzenleyici seçilen hücreyi siler. Bitişik hücreler, alanı ayarlamak için otomatik olarak yatay veya dikey olarak kaydırılacaktır.
+Düzenleyici, seçili hücreyi silecektir. Yanındaki hücreler, boşluğu ayarlamak için otomatik olarak yatay veya dikey olarak kaydırılacaktır.
 
 **Nasıl çalışır?**
 
- bu**Shift Cells Yukarı** ve**Shift Cells Sola** JSF arka uç çekirdeği tarafından işlenir**Çalışma Sayfası Görünümü**. İlgili yöntemlerin kaynak kodu aşağıdaki gibidir:
+**Üstteki Hücreleri Kaydır** ve **Soldaki Hücreleri Kaydır** JSF arka uç fasıl tanımı **WorksheetView** tarafından işlenir. İlgili yöntemlerin kaynak kodları şöyle:
 #### **WorksheetView.removeCellShiftUp**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftUp() {
 
@@ -124,7 +125,7 @@ Düzenleyici seçilen hücreyi siler. Bitişik hücreler, alanı ayarlamak için
 {{< /highlight >}}
 
 #### **WorksheetView.removeCellShiftLeft**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftLeft() {
 
@@ -141,21 +142,21 @@ Düzenleyici seçilen hücreyi siler. Bitişik hücreler, alanı ayarlamak için
     }
 
 {{< /highlight >}}
-### **Cell'i temizle**
+### **Bir Hücreyi Temizle**
 Bir hücreyi temizlemek için:
 
-1. Temizlemek istediğiniz bir hücreye tıklayın.
-1.  Çevirmek**Biçim sekmesi**.
-1.  Tıklamak**Temizle Cell** buton.
-1.  Seçmek**formatlar**, **İçindekiler** veya**Her ikisi de** seçenek.
+1. Temizlemek istediğiniz hücreye tıklayın.
+1. **Biçim** sekmesine geçin.
+1. **Hücreyi Temizle** düğmesine tıklayın.
+1. **Biçimler**, **İçerikler** veya **Her İkisi** seçeneğini seçin.
 
-Düzenleyici seçilen hücreyi temizleyecektir.
+Düzenleyici, seçili hücreyi temizleyecektir.
 
 **Nasıl çalışır?**
 
- bu**formatlar**, **İçindekiler** ve**Her ikisi de** JSF arka uç çekirdeği tarafından işlenir**Çalışma Sayfası Görünümü**. İlgili yöntemlerin kaynak kodu aşağıdaki gibidir:
-#### **WorksheetView.clearCurrentCellBiçimlendirme**
-{{< highlight "java" >}}
+**Biçimler**, **İçerikler** ve **Her İkisi** JSF arka uç fasıl tanımı **WorksheetView** tarafından işlenir. İlgili yöntemlerin kaynak kodları şöyle:
+#### **WorksheetView.clearCurrentCellFormatting**
+{{< highlight java >}}
 
      public void clearCurrentCellFormatting() {
 
@@ -176,7 +177,7 @@ Düzenleyici seçilen hücreyi temizleyecektir.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCellContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellContents() {
 
@@ -197,7 +198,7 @@ Düzenleyici seçilen hücreyi temizleyecektir.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCell**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCell() {
 

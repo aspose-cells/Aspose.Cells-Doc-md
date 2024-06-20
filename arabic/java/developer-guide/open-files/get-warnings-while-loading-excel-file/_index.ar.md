@@ -1,30 +1,31 @@
-﻿---
-title: احصل على تحذيرات أثناء تحميل ملف Excel
+---
+title: الحصول على تحذيرات أثناء تحميل ملف إكسل
 type: docs
 weight: 60
 url: /ar/java/get-warnings-while-loading-excel-file/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يحاول المستخدم أحيانًا تحميل المصنف التالف إلى حد ما ولكنه قابل للتحميل. في مثل هذه الحالة ، يقوم Aspose.Cells بإصدار تحذيرات أثناء تحميل المصنف. يمكنك التقاط هذه التحذيرات من خلال تنفيذ**[IWarningCallback] (https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback)** الواجهة والإعداد**[LoadOptions.WarningCallback] (https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback)**خاصية.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **احصل على تحذيرات أثناء تحميل ملف Excel**
+في بعض الأحيان يحاول المستخدم تحميل دفتر العمل الذي يكون غير صالح إلى حد ما ولكنه قابل للتحميل. في مثل هذه الحالة، يقوم Aspose.Cells بإلقاء تحذيرات أثناء تحميل دفتر العمل. يمكنك التقاط هذه التحذيرات من خلال تنفيذ واجهة [**IWarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) وتعيين خاصية [**LoadOptions.WarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback).
 
- يوضح نموذج التعليمات البرمجية التالي كيفية الحصول على تحذيرات أثناء تحميل ملف Excel. يقوم الكود بتحميل ملف[نموذج ملف اكسل](sampleDuplicateDefinedName.xlsx) الذي يرمي**[DuplicateDefinedName] (https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME)** تحذير عند التحميل. هذا التحذير تم القبض عليه بعد ذلك**[IWarningCallback.Warning ()] (https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning (com.aspose.cells.WarningInfo))** طريقة طباعة رسائل التحذير على وحدة التحكم. ثم يحفظ الكود المصنف باسم[ملف اكسل الناتج](outputDuplicateDefinedName.xlsx)إذا قمت بفتح نموذج ملف Excel في Microsoft Excel ، فسوف يعرض لك أيضًا هذا التحذير كما هو موضح في لقطة الشاشة هذه. يرجى أيضًا التحقق من إخراج وحدة التحكم للرمز الوارد أدناه لمزيد من الفهم.
+## **الحصول على تحذيرات أثناء تحميل ملف إكسل**
 
-![ما يجب القيام به: image_بديل_نص](get-warnings-while-loading-excel-file_1.png)
+يشرح الكود العيني التالي كيفية الحصول على التحذيرات أثناء تحميل ملف Excel. يقوم الكود بتحميل [ملف Excel العيني](sampleDuplicateDefinedName.xlsx) الذي يلقي التحذير [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME) أثناء التحميل. بعد ذلك يتم التقاط هذا التحذير بواسطة الطريقة [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)) التي تطبع رسائل التحذير على وحدة التحكم. يتم حفظ دفتر العمل بعد ذلك كـ [ملف Excel الناتج](outputDuplicateDefinedName.xlsx). إذا قمت بفتح ملف Excel العيني في Microsoft Excel، سيعرض لك هذا التحذير كما هو موضح في هذا اللقط. يرجى أيضًا التحقق من إخراج وحدة التحكم للكود الناتج أدناه لمزيد من الفهم.
 
-## **عينة من الرموز**
+![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-WarningCallback-WarningCallback.java" >}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-GetWarningLoadingAnExcel-GetWarningLoadingAnExcel.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
- هنا هو إخراج وحدة التحكم من الكود أعلاه عند تنفيذه مع المقدمة[نموذج ملف اكسل](sampleDuplicateDefinedName.xlsx).
+إليك مخرجات وحدة التحكم للكود أعلاه عند تنفيذه مع [ملف إكسل عيني](sampleDuplicateDefinedName.xlsx) المقدم.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Introduction!$D$16:$D$17
 

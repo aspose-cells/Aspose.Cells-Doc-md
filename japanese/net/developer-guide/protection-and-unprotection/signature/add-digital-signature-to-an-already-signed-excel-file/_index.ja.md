@@ -1,24 +1,27 @@
-﻿---
-title: 署名済みの Excel ファイルにデジタル署名を追加する
+---
+title: すでに署名されたExcelファイルにデジタル署名を追加する
 type: docs
 weight: 20
 url: /ja/net/add-digital-signature-to-an-already-signed-excel-file/
+description: この記事では、Aspose.Cells for .Netを使用してC#コードですでに署名されたExcelファイルにデジタル署名を追加する方法について説明します。
+keywords: すでに署名されたExcelファイルにデジタル署名を追加する方法
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells は[**Workbook.AddDigitalSignature(デジタル署名コレクション デジタル署名コレクション)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature)署名済みの Excel ファイルにデジタル署名を追加するために使用できる方法。
+## **可能な使用シナリオ**
+
+Aspose.Cellsは、すでに署名されたExcelファイルにデジタル署名を追加するために使用できる[**Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature)メソッドを提供します。
 
 {{% alert color="primary" %}}
 
-元のドキュメントが Aspose.Cells で生成されたドキュメントである場合、署名済みの Excel ドキュメントにデジタル署名を追加する際に注意してください。ただし、元のドキュメントが他のエンジン (例: Microsoft Excel など) によって生成された場合、Aspose.Cells は、ファイルを読み込んで再保存した後、ファイルを同じ状態に保つことができず、元の署名が無効になります。
+すでに署名されたExcel文書にデジタル署名を追加する際に、元の文書がAspose.Cellsで生成された文書であれば問題ありません。ただし、元の文書が他のエンジン（例：Microsoft Excelなど）で生成された場合、Aspose.Cellsはファイルを読み込んで再保存した後、元の署名が無効になります。
 
 {{% /alert %}}
 
-## **署名済みの Excel ファイルにデジタル署名を追加する**
+## **すでに署名されたExcelファイルにデジタル署名を追加する方法**
 
-次のサンプル コードは、[**Workbook.AddDigitalSignature(デジタル署名コレクション デジタル署名コレクション)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature)署名済みの Excel ファイルにデジタル署名を追加する方法。を確認してください[サンプル Excel ファイル](50528280.xlsx)このコードで使用されます。このファイルはすでにデジタル署名されています。を確認してください[出力エクセルファイル](50528281.xlsx)コードによって生成されます。という名前のデモ証明書を使用しました[AsposeDemo.pfx](50528279.pfx)パスワードを持つこのコードで**アポーズ**.スクリーンショットは、実行後のサンプル Excel ファイルに対するサンプル コードの効果を示しています。
+次のサンプルコードは、[**Workbook.AddDigitalSignature(DigitalSignatureCollection digitalSignatureCollection)**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/adddigitalsignature)メソッドを使用してすでに署名されたExcelファイルにデジタル署名を追加する方法を示しています。このコードで使用されているサンプルExcelファイルについては、[サンプルExcelファイル](50528280.xlsx)をご確認ください。このファイルはすでにデジタルで署名されています。コードでデモ証明書である[AsposeDemo.pfx](50528279.pfx)を使用し、そのパスワードは **aspose** です。スクリーンショットは、コードの実行後にサンプルExcelファイルに与える効果を示しています。
 
-![todo:画像_代替_文章](add-digital-signature-to-an-already-signed-excel-file_1.png)
+![todo:image_alt_text](add-digital-signature-to-an-already-signed-excel-file_1.png)
 
 ## **サンプルコード**
 

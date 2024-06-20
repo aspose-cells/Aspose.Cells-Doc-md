@@ -1,15 +1,16 @@
-﻿---
-title: Zwischensummen berechnen
+---
+title: Berechnen Sie die Teilsummen
 type: docs
 weight: 10
 url: /de/net/calculate-sub-totals/
 ---
-## **Aspose.Cells - Zwischensummen berechnen**
-Sie können automatisch Zwischensummen für sich wiederholende Werte in einer Tabelle erstellen. Aspose.Cells bietet API-Funktionen, mit denen Sie programmgesteuert Zwischensummen zu Tabellenkalkulationen hinzufügen können.
+
+## **Aspose.Cells - Teilsummenberechnung**
+Sie können automatisch Teilergebnisse für beliebige wiederholende Werte in einem Tabellenblatt erstellen. Aspose.Cells bietet API-Funktionen, die Ihnen helfen, Teilergebnisse programmgesteuert zu Tabellenblättern hinzuzufügen.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -35,20 +36,20 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[]{ 1 });
+cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
 
 //Save the excel file
 
 workbook.Save("AsposeTotal.xls"); 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Zwischensummen berechnen** Bilden Sie eine der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie **Berechnen von Teilsummen** von einer der unten aufgeführten sozialen Code-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Erstellen von Zwischensummen](/cells/de/net/creating-subtotals/).
+Für weitere Details besuchen Sie [Erstellen von Teilsummen](/cells/de/net/creating-subtotals/).
 
 {{% /alert %}}

@@ -1,18 +1,19 @@
-﻿---
-title: Speichern Sie die Arbeitsmappe im strikt offenen XML-Tabellenformat
+---
+title: Arbeitsmappe im strengen Open XML Tabellenformat speichern
 type: docs
 weight: 100
 url: /de/java/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells ermöglicht Ihnen das Speichern der Arbeitsmappe in*Strikte offene XML-Tabelle*Format. Dafür stellt sie die**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**Eigentum. Wenn Sie seinen Wert als festlegen**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** dann wird die ausgegebene Excel-Datei gespeichert*Strikte offene XML-Tabelle* Format.
+## **Mögliche Verwendungsszenarien**
 
-## **Speichern Sie die Arbeitsmappe im strikt offenen XML-Tabellenformat**
+Aspose.Cells ermöglicht es Ihnen, die Arbeitsmappe im *Strict Open XML Spreadsheet* Format zu speichern. Zu diesem Zweck bietet es die [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)-Eigenschaft. Wenn Sie ihren Wert als [**OoxmlCompliance.ISO_29500_2008_STRICT**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT) setzen, wird die Ausgabe-Excel-Datei im *Strict Open XML Spreadsheet*-Format gespeichert.
 
-Der folgende Beispielcode erstellt eine Arbeitsmappe und legt den Wert von fest**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**Eigentum als**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)**und speichert es als[Excel-Datei ausgeben](outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx). Wenn Sie die Excel-Ausgabedatei in Microsoft Excel öffnen und die*Speichern als...*Dialogfeld, sehen Sie sein Format als*Strikte offene XML-Tabelle*wie in diesem Screenshot gezeigt.
+## **Arbeitsmappe im Strict Open XML-Tabellenkalkulationsformat speichern**
 
-![todo: Bild_alt_Text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
+Der folgende Beispielscode erstellt eine Arbeitsmappe und setzt den Wert der [**Workbook.Settings.Compliance**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)-Eigenschaft als [**OoxmlCompliance.ISO_29500_2008_STRICT**](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT) und speichert sie als [Ausgabe-Excel-Datei](outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx). Wenn Sie die Ausgabe-Excel-Datei in Microsoft Excel öffnen und das *Speichern unter...* Dialogfeld öffnen, wird ihr Format als *Strict Open XML Spreadsheet*-Format angezeigt, wie in diesem Screenshot gezeigt.
+
+![todo:image_alt_text](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 
 ## **Beispielcode**
 

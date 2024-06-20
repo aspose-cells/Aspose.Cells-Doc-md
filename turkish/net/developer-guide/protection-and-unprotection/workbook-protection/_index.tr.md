@@ -1,34 +1,36 @@
-﻿---
-title: Çalışma Kitabı Yapısını Koru ve Korumayı Kaldır
+---
+title: Çalışma Kitabı Yapısını Koruma Altına Alma ve Korumasız Yapma
 type: docs
 weight: 40
 url: /tr/net/protect-and-unprotect-workbook-structure/
-description: CSharp kodlarını kullanarak Excel dosyalarının çalışma kitabı yapısını koruyun ve korumasını kaldırın.
+description: CSharp kodlarıyla Excel dosyalarının çalışma kitabı yapısını koruma altına alma ve korumasız yapma
 ---
+
+
 {{% alert color="primary" %}}
-Diğer kullanıcıların gizli çalışma sayfalarını görüntülemesini, çalışma sayfalarını eklemesini, taşımasını, silmesini veya gizlemesini ve çalışma sayfalarını yeniden adlandırmasını engellemek için, Excel çalışma kitabınızın yapısını bir parola ile koruyabilirsiniz.
+Diğer kullanıcıların gizli çalışma sayfalarını görüntülemesini, çalışma sayfalarını ekleme, taşıma, silme veya gizleme işlemlerini yapmalarını engellemek ve çalışma sayfalarını yeniden adlandırmak için Excel çalışma kitabınızın yapısını bir şifre ile koruyabilirsiniz.
 {{% /alert %}}
 
 
-## **MS Excel'de Çalışma Kitabı Yapısını koruma ve korumayı kaldırma**
+## **MS Excel'de Çalışma Kitabı Yapısını Koruma ve Kaldırma**
 
-**![çalışma kitabı yapısını koru ve korumayı kaldır](koru-ve-korumayı kaldır-çalışma kitabı-yapısı.png)**
+**![çalışma kitabı yapısını koruma ve kaldırma](protect-and-unprotect-workbook-structure.png)**
 
-1.  Tıklamak**Gözden Geçir > Çalışma Kitabını Koru**.
-1.  içine bir şifre girin**Parola kutusu**.
-1.  Seçme**Tamam** , onaylamak için parolayı yeniden girin ve ardından öğesini seçin.**Tamam** Yeniden.
+1. Tıklayın **İncele > Çalışma Kitabını Koru**.
+1. **Şifre kutusuna** bir şifre girin.
+1. **Tamam**'ı seçin, şifreyi teyit etmek için tekrar girin, ardından tekrar **Tamam**'ı seçin.
 
 
-## **.Net için Aspose.Cell Kullanarak Çalışma Kitabı Yapısını Koruyun**
-Excel dosyalarının koruma çalışma kitabı yapısını uygulamak için yalnızca aşağıdaki basit kod satırlarına ihtiyaç vardır.
+## **Aspose.Cell for .Net kullanarak Çalışma Kitabı Yapısını Koruma**
+Excel dosyalarının çalışma sayfasını korumak için sadece aşağıdaki basit kod satırlarına ihtiyaç vardır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Example-Protect-Workbook-Structure.cs" >}}
 
-## **.Net için Aspose.Cell Kullanarak Çalışma Kitabı Yapısının Korumasını Kaldırın**
-Aspose.Cells API ile çalışma kitabı yapısını korumadan kaldırmak kolaydır.
+## **Aspose.Cell for .Net kullanarak Çalışma Kitabı Yapısını Kaldırma**
+Aspose.Cells API ile çalışma kitabı yapısını korumak kolaydır.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-Unprotect-Workbook-Structure.cs" >}}
 
 {{% alert color="primary" %}}
-Not: doğru bir şifre gereklidir.
+Not: Doğru bir şifre gerekli.
 {{% /alert %}}

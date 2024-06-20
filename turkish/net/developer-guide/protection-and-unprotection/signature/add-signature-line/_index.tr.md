@@ -1,23 +1,23 @@
-﻿---
-title: Çalışma sayfasına İmza satırı ekleyin
+---
+title: Çalışma Sayfasına İmza Satırı Eklemek
 type: docs
 weight: 200
 url: /tr/net/add-signature-line/
+description: Bu makale, C# kodlarıyla Aspose.Cells for .Net kullanarak çalışma sayfasına imza çizgisi eklemeyi açıklar.
+keywords: Çalışma sayfasına imza çizgisi eklemek, çalışma sayfasına imza çizgisi eklemenin ve çalışma sayfasına imza çizgisi eklemenin nasıl yapılacağını açıklar.
 ---
-## **Olası Kullanım Senaryoları**
 
-{{% alert color="primary" %}}
+## **Giriş**
 
- Aspose.Cells şunları sağlar:[**Resim.İmza Satırı**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) çalışma sayfasının imza satırını ekleme özelliği.
+Aspose.Cells, çalışma sayfasına imza satırı eklemek için [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) özelliğini sağlar.
 
-{{% /alert %}}
 
-## **Çalışma sayfasına İmza Satırı ekleyin**
+## **Çalışma Sayfasına İmza Çizgisi Eklemek**
 
- Aşağıdaki örnek kod, nasıl kullanılacağını gösterdi[**Resim.İmza Satırı**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)çalışma sayfasının imza satırını ekleme özelliği. Ekran görüntüsü, yürütmeden sonra örnek kodun örnek Excel dosyası üzerindeki etkisini gösterir.
+Aşağıdaki örnek kod, çalışma sayfasına imza satırı eklemek için [**Picture.SignatureLine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline) özelliğini nasıl kullanacağını göstermektedir. Ekran görüntüsü, örnek kodun örnek Excel dosyası üzerindeki etkisini gösterir.
 
-![yapılacaklar:resim_alternatif_metin](add-signature-line.png)
+![todo:image_alt_text](add-signature-line.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Add-Signature-Line.cs" >}}

@@ -1,86 +1,89 @@
-﻿---
-title: Lägger till Cell kontroller i kalkylblad
+---
+title: Lägg till cellkontroller i arbetsblad
 type: docs
 weight: 120
-url: /sv/net/adding-cell-controls-in-worksheets/
+url: /sv/net/aspose-cells-griddesktop/add-cell-controls-in-worksheets/
+keywords: GridDesktop,add,control,button,checkbox,combobox
+description: Den här artikeln introducerar hur man lägger till kontroller i ett arbetsblad i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
- Cell kontroller är i själva verket de kontroller som kan läggas till i kalkylblad. Vi kallar dem**Cell Kontroller** eftersom dessa kontroller visas i celler. I det här ämnet kommer vi att diskutera hur man lägger till och hanterar händelserna för dessa cellkontroller.
+Cellkontroller är faktiskt de kontroller som kan läggas till i arbetsblad. Vi kallar dem **Cellkontroller** eftersom dessa kontroller visas i celler. I det här ämnet kommer vi att diskutera att lägga till och hantera händelserna för dessa cellkontroller.
 
 {{% /alert %}} 
 ## **Introduktion**
-För närvarande stöder Aspose.Cells.GridDesktop att lägga till tre typer av cellkontroller, som inkluderar följande:
+För närvarande stödjer Aspose.Cells.GridDesktop att lägga till tre typer av cellkontroller, vilket inkluderar följande:
 
 - **Knapp**
 - **Kryssruta**
-- **Kombinationsrutan**
+- **Kombinationsruta**
 
-Alla dessa kontroller är härledda från en abstrakt klass,**CellControl**Varje arbetsblad innehåller en samling av**Kontroller**. Nya cellkontroller kan läggas till och befintliga kan nås med detta**Kontroller**insamling enkelt.
+Alla dessa kontroller härstammar från en abstrakt klass, **CellControl**. Varje arbetsblad innehåller en samling av **Kontroller**. Nya cellkontroller kan läggas till och befintliga kan kommas åt med hjälp av denna **Kontroller**-samling enkelt.
 
-**VIKTIG:**Om du vill lägga till cellkontroller till alla celler i en kolumn istället för att lägga till en efter en kan du referera till[Hantera Cell kontroller i kolumner.](/cells/sv/net/adding-cell-controls-in-worksheets/)
-### **Lägga till knapp**
-För att lägga till en knapp i kalkylbladet med Aspose.Cells.GridDesktop, följ stegen nedan:
+**VIKTIGT:** Om du vill lägga till cellkontroller i alla celler i en kolumn istället för att lägga till en i taget kan du hänvisa till [Hantera cellkontroller i kolumner.](/cells/sv/net/aspose-cells-griddesktop/adding-cell-controls-in-worksheets/)
+### **Lägga till en knapp**
+För att lägga till en knapp i arbetsbladet med Aspose.Cells.GridDesktop, följ stegen nedan:
 
-- Lägg till Aspose.Cells.GridDesktop-kontroll till din**Form**
-- Få åtkomst till alla önskade**Arbetsblad**
-- Lägg till**Knapp**till**Kontroller**samling av**Arbetsblad**
+- Lägg till Aspose.Cells.GridDesktop-kontroll till din **Form**
+- Öppna valfritt **Arbetsblad**
+- Lägg till **Knapp** i **Kontroller**-samlingen för **Arbetsbladet**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingButton.cs" >}}
 
 
-Medan du lägger till**Knapp**, kan vi ange cellens plats (var den ska visas), bredd och höjd och rubriken för knappen.
-#### **Händelsehantering av knappen**
-Vi har diskuterat om att lägga till**Knapp**kontroll till**Arbetsblad**men vad är fördelen med att bara ha en knapp i kalkylbladet om vi inte kan använda den. Så här kommer behovet av händelsehantering av knappen.
+Vid tillägg av **Knapp** kan vi ange cellens plats (där den ska visas), bredd och höjd samt knappens text.
+#### **Händelsehantering av knapp**
+Vi har diskuterat att lägga till **Knapp**-kontroll i **Arbetsbladet** men vad är fördelen med att ha en knapp i arbetsbladet om vi inte kan använda den. Så här kommer behovet av händelsehantering av knappen.
 
-Att hantera**Klick**händelse av**Knapp**kontroll, Aspose.Cells.GridDesktop ger**CellButtonClick**händelse som bör genomföras av utvecklarna enligt deras behov. Till exempel har vi precis visat ett meddelande när knappen klickas som visas nedan:
+För att hantera händelsen **Klick** av **Knappen**-kontrollen, tillhandahåller Aspose.Cells.GridDesktop händelsen **CellButtonClick** som bör implementeras av utvecklarna enligt deras behov. Till exempel har vi just visat ett meddelande när knappen klickas enligt nedan:
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-HandlingButton.cs" >}}
 #### **Ange en bakgrundsbild för knappkontrollen**
-Vi kan ställa in bakgrundsbild/bild för knappkontrollen med dess etikett/text som visas i koden nedan:
+Vi kan ställa in en bakgrundsbild/foto för knappkontrollen med dess etikett/text enligt koden nedan:
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-SetBackground.cs" >}}
 
 
-**VIKTIG:**Alla händelser av cellkontroller innehåller en**CellControlEventArgs**argument som ger rad- och kolumnnumren för cellen som innehåller cellkontrollen (vars händelse utlöses).
+**VIKTIGT:** Alla händelser för cellkontroller innehåller en **CellControlEventArgs**-argument som ger rad- och kolumnnummer för den cell som innehåller cellkontrollen (vars händelse utlöses).
 ### **Lägger till kryssruta**
-För att lägga till en kryssruta i kalkylbladet med Aspose.Cells.GridDesktop, följ stegen nedan:
+För att lägga till en kryssruta i arbetsbladet med hjälp av Aspose.Cells.GridDesktop, följ stegen nedan:
 
-- Lägg till Aspose.Cells.GridDesktop-kontroll till din**Form**
-- Få åtkomst till alla önskade**Arbetsblad**
-- Lägg till**Kryssruta**till**Kontroller**samling av**Arbetsblad**
+- Lägg till Aspose.Cells.GridDesktop-kontroll till din **Form**
+- Öppna valfritt **Arbetsblad**
+- Lägg till **CheckBox** i **Controls**-samlingen av **Arbetsbladet**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingCheckbox.cs" >}}
 
 
-Medan du lägger till**Kryssruta**, kan vi ange cellens plats (var den ska visas) och status för kryssrutan.
-#### **Händelsehantering av CheckBox**
-Aspose.Cells.GridDesktop tillhandahåller**CellCheckedChanged**händelse som utlöses när**Kontrollerade**status för kryssrutan ändras. Utvecklare kan hantera denna händelse enligt deras krav. Till exempel har vi precis visat ett meddelande för att visa**Kontrollerade**status för kryssrutan i koden nedan:
+Vid läggning av **CheckBox** kan vi ange cellens plats (där den ska visas) och kryssrutans status.
+#### **Händelshantering av checkbox**
+Aspose.Cells.GridDesktop tillhandahåller en **CellCheckedChanged**-händelse som utlöses när kryssrutans **Checked**-status ändras. Utvecklare kan hantera denna händelse enligt sina krav. Till exempel har vi bara visat ett meddelande för att visa kryssrutans **Checked**-status i koden nedan:
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-HandlingCheckbox.cs" >}}
-### **Lägger till ComboBox**
-För att lägga till en kombinationsruta i kalkylbladet med Aspose.Cells.GridDesktop, följ stegen nedan:
+### **Lägger till Combobox**
+För att lägga till en combobox i arbetsbladet med hjälp av Aspose.Cells.GridDesktop, följ stegen nedan:
 
-- Lägg till Aspose.Cells.GridDesktop-kontroll till din**Form**
-- Få åtkomst till alla önskade**Arbetsblad**
-- Skapa en uppsättning objekt (eller värden) som kommer att läggas till**Kombinationsrutan**
-- Lägg till**Kombinationsrutan**till**Kontroller**samling av**Arbetsblad**genom att ange platsen för cellen (där kombinationsrutan kommer att visas) och objekten/värdena som kommer att visas när kombinationsrutan ska klickas
+- Lägg till Aspose.Cells.GridDesktop-kontroll till din **Form**
+- Öppna valfritt **Arbetsblad**
+- Skapa en array av element (eller värden) som ska läggas till i **ComboBox**
+- Lägg till **ComboBox** i **Controls**-samlingen av **Arbetsbladet** genom att ange platsen för cellen (där comboboxen ska visas) och elementen/värden som ska visas när comboboxen klickas på
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingCombobox.cs" >}}
-#### **Händelsehantering av ComboBox**
-Aspose.Cells.GridDesktop tillhandahåller**CellSelectedIndexChanged**händelse som utlöses när**Valt index**av kombinationsrutan ändras. Utvecklare kan hantera denna händelse enligt deras önskemål. Till exempel har vi precis visat ett meddelande för att visa**Valt objekt**av kombinationsrutan:
+#### **Händelshantering av Combobox**
+Aspose.Cells.GridDesktop tillhandahåller en **CellSelectedIndexChanged**-händelse som utlöses när **Selected Index** för comboboxen ändras. Utvecklare kan hantera denna händelse enligt sina önskemål. Till exempel har vi bara visat ett meddelande för att visa det **Selected Item** för comboboxen:
 
 
 

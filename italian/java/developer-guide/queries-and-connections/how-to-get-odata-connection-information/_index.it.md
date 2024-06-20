@@ -1,31 +1,36 @@
-﻿---
+---
 title: Come ottenere informazioni sulla connessione OData
 type: docs
 weight: 60
 url: /it/java/how-to-get-odata-connection-information/
 ---
-## **Ottieni informazioni sulla connessione OData**
 
-Potrebbero esserci casi in cui gli sviluppatori devono estrarre le informazioni OData dal file excel. Aspose.Cells fornisce il[**Cartella di lavoro.DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup)proprietà che restituisce le informazioni DataMashup presenti nel file Excel. Queste informazioni sono rappresentate dalla classe DataMashup. La classe DataMashup fornisce la proprietà PowerQueryFormulas che restituisce la raccolta PowerQueryFormulaCollction. Da PowerQueryFormulaCollction è possibile accedere a PowerQueryFormula e PowerQueryFormulaItem.
+## **Ottenere informazioni sulla connessione OData**
 
-Il frammento di codice seguente illustra l'utilizzo di queste classi per recuperare le informazioni OData.
+Potrebbero esserci casi in cui gli sviluppatori devono estrarre informazioni OData dal file excel. Aspose.Cells fornisce la proprietà [**Workbook.DataMashup**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#DataMashup) che restituisce le informazioni sulla DataMashup presenti nel file Excel. Queste informazioni sono rappresentate dalla classe DataMashup. La classe DataMashup fornisce la proprietà PowerQueryFormulas che restituisce la raccolta PowerQueryFormulaCollction. Dalla PowerQueryFormulaCollction, puoi accedere a PowerQueryFormula e PowerQueryFormulaItem.
 
-Il file di origine utilizzato nel seguente frammento di codice è allegato come riferimento.
+Il seguente frammento di codice dimostra l'uso di queste classi per recuperare le informazioni OData.
 
-[File sorgente](ODataSample.xlsx)
+Il file di origine utilizzato nello snippet di codice seguente è allegato per il tuo riferimento.
 
-### **Codice d'esempio**
+File di origine (ODataSample.xlsx)
+
+### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-GetOdataDetails-1.java" >}}
 
-### **Uscita console**
+### **Output della console**
 
-Nome connessione: Ordini
+{{< highlight java >}}
 
-Nome: Fonte
+Connection Name: Orders
 
-Valore: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
+Name: Source
 
-Nome: Orders_table
+Value: OData.Feed("https://services.odata.org/V3/Northwind/Northwind.svc/", null, [Implementation="2.0"])
 
-Valore: Fonte{[Name="Ordini",Signature="tabella"]}[Dati]
+Name: Orders_table
+
+Value: Source{[Name="Orders",Signature="table"]}[Data]
+
+{{< /highlight >}}

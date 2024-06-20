@@ -1,18 +1,19 @@
-﻿---
-title: Hitta den absoluta positionen av formen i arbetsbladet
+---
+title: Hitta absolut position av formen innanför arbetsbladet
 type: docs
 weight: 8000
 url: /sv/net/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
- Ibland behöver du veta den absoluta positionen för en form i ett kalkylblad. Aspose.Cells tillhandahåller[**Shape.LeftToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) och[**Shape.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner) fastigheter för detta ändamål. Dessa egenskaper returnerar den absoluta positionen för formen inuti kalkylbladet i pixlar.
+Ibland behöver du veta den absoluta positionen av en form i ett arbetsblad. Aspose.Cells tillhandahåller [**Shape.LeftToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) och [**Shape.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner) egenskaper för detta ändamål. Dessa egenskaper returnerar den absoluta positionen för formen inuti arbetsbladet i pixlar.
 
 {{% /alert %}}
 
-Följande exempelkod visar den absoluta positionen för den första formen i kalkylbladet i pixlar. Exempelkoden visar följande konsolutgång:
+Följande exempel på kod visar den absoluta positionen för den första formen i arbetsbladet i pixlar. Exempelkoden visar följande konsolresultat:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Absolute Position of this Shape is (320 , 183)
 

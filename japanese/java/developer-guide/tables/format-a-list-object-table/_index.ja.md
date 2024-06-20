@@ -1,27 +1,28 @@
-﻿---
-title: リスト オブジェクトの書式設定 - テーブル
+---
+title: リストオブジェクトの書式設定  テーブル
 type: docs
 weight: 50
 url: /ja/java/format-a-list-object-table/
 ---
+
 {{% alert color="primary" %}}
 
-関連するデータのグループを管理および分析するために、セルの範囲をリスト オブジェクト (Excel テーブルとも呼ばれます) に変換することができます。テーブルは、他の行や列のデータとは独立して管理される関連データを含む一連の行と列です。既定では、テーブルのすべての列のヘッダー行でフィルター処理が有効になっているため、リスト オブジェクト データをすばやくフィルター処理または並べ替えることができます。各合計行セルの集計関数のドロップダウン リストを提供するリスト オブジェクトに、合計行 (数値データの操作に役立つ集計関数の選択を提供するリスト内の特別な行) を追加できます。 Aspose.Cells は、リスト (またはテーブル) を作成および管理するためのオプションを提供します。
+関連するデータのグループを管理および分析するには、セル範囲をリストオブジェクト（またはExcelテーブルとも呼ばれる）に変換することができます。 テーブルは、他の行や列のデータから独立して管理される関連データを含む行と列のシリーズです。 テーブルの各列には、ヘッダー行でフィルタリングが有効になっており、リストオブジェクトデータを迅速にフィルタリングまたは並べ替えることができます。 リストオブジェクトには特別な行（数値データで作業するために有用な集計関数の選択を提供するリスト内の特別な行）を追加することができます。 Aspose.Cellsには、リスト（またはテーブル）の作成と管理のためのオプションが用意されています。
 
 {{% /alert %}}
 
-## **リスト オブジェクトの書式設定**
+## **リストオブジェクトの書式設定**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)、Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)Excel ファイル内の各ワークシートにアクセスできるコレクション。
+Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスを提供します。 [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには、Excelファイルの各ワークシートにアクセスできる[**Worksheets**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)コレクションが含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。を作成するには[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)ワークシートで、使用[**リストオブジェクト**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ListObjects)のコレクション プロパティ[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラス。各[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)実際には、[**ListObjectCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/listobjectcollection)このクラスは、List オブジェクトを追加し、それが包含するセルの範囲を指定する add メソッドをさらに提供します。指定されたセル範囲に従って、[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)は Aspose.Cells によってワークシートに作成されます。属性を使用します (たとえば、[**表スタイルの種類**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#TableStyleType) ) の[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)クラスを使用して、要件に合わせてテーブルをフォーマットします。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスで表されます。 [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)クラスには、ワークシートを管理するための多くのプロパティとメソッドが提供されています。 ワークシート内に[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)を作成するには、ワークシートクラスの[**ListObjects**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ListObjects)コレクションプロパティを使用します。 各[**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)は実際には[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)クラスのオブジェクトであり、さらにはリストオブジェクトを追加し、リストオブジェクトの範囲を指定するためのaddメソッドを提供しています。 指定したセル範囲に応じて、Aspose.Cellsによって[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)がワークシートに作成されます。 テーブルをコントロールするための[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)クラスの属性（たとえば、[**TableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#TableStyleType)）を使用して、テーブルを独自の要件に応じて書式設定します。
 
-以下の例では、サンプル データをワークシートに追加し、[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)デフォルトのスタイルを適用します。[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)スタイルは、Microsoft Excel 2007/2010 でサポートされています。
+以下の例では、ワークシートにサンプルデータを追加し、[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)を追加し、そのデフォルトスタイルを適用します。 Microsoft Excel 2007/2010でサポートされる[**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)スタイルがサポートされます。
 
-コードを実行すると、次の出力が生成されます。
+コードを実行すると、以下の出力が生成されます。
 
-**書式設定されたテーブルがワークシートに作成されます** 
+**ワークシートにフォーマットされたテーブルが作成されます** 
 
-![todo:画像_代替_文章](format-a-list-object-table_1.png)
+![todo:image_alt_text](format-a-list-object-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-FormataListObject-FormataListObject.java" >}}

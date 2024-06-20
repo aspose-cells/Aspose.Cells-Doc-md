@@ -1,16 +1,17 @@
-﻿---
-title: Cell コメントを挿入
+---
+title: セルコメントの挿入
 type: docs
 weight: 40
 url: /ja/java/insert-cell-comments/
 ---
-## **Aspose.Cells - Cell コメントを挿入**
 
-Shapes コレクションの addComments メソッド (Worksheet オブジェクトにカプセル化されている) を呼び出して、セルにコメントを追加します。新しい Comment オブジェクトには、コメント インデックスを渡すことによって、Comments コレクションからアクセスできます。 Comment オブジェクトにアクセスした後、Comment オブジェクトの setNote メソッドを使用してコメント ノートをカスタマイズします。
+## **Aspose.Cells - セルコメントの挿入**
+
+セルにコメントを追加するには、ShapesコレクションのaddCommentsメソッド（ワークシートオブジェクトでカプセル化されています）を呼び出します。新しいCommentオブジェクトは、コメントインデックスを渡すことでCommentsコレクションからアクセスできます。Commentオブジェクトにアクセスした後は、CommentオブジェクトのsetNoteメソッドを使用してコメントをカスタマイズできます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -30,13 +31,13 @@ comment.setNote("Hello Aspose!");
 
 {{< /highlight >}}
 
-## **Apache POI SS - HSSF & XSSF - Cell コメントを挿入**
+## **Apache POI SS - HSSFおよびXSSF - セルコメントの挿入**
 
-以下の例は、Apache POI API を使用してコメントを挿入する方法を示しています。
+以下の例では、Apache POI APIを使用してコメントを挿入する方法が示されています
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook(); //or new HSSFWorkbook();
 
@@ -80,7 +81,7 @@ cell.setCellComment(comment);
 
 {{< /highlight >}}
 
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 

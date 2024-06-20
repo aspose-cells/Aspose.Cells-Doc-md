@@ -1,30 +1,31 @@
-﻿---
-title: バージョン番号の確認
+---
+title: バージョン番号を確認
 type: docs
 weight: 80
 url: /ja/net/check-version-number/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells のどのバージョンを使用しているのだろうか?新しい機能を導入し、問題を修正するために、Aspose.Cells の新しいバージョンを定期的に公開しています。バージョン番号は、メジャー バージョン番号、マイナー バージョン番号、および修正プログラム バージョン番号で構成されます。各数値は 0 以上の整数でなければなりません。形式は次のとおりです。
+お使いのAspose.Cellsのバージョンを知りたいですか？ 当社は定期的に新しいAspose.Cellsのバージョンをリリースし、新機能を導入したり問題を修正したりしています。バージョン番号は、メジャー バージョン番号とマイナー バージョン番号、ホットフィックス バージョン番号で構成されます。各番号は0以上の整数である必要があります。書式は次のとおりです:
 
-メジャー.マイナー.ホットフィックス
+major.minor.hotfix
 
-Aspose.Cells の新しいビルドをリリースすると、バージョン番号が更新されます。
+新しいAspose.Cellsのビルドをリリースすると、バージョン番号を更新します。
 
-この記事では、システムにインストールされている Aspose.Cells のバージョンを手動で確認する方法と、Aspose.Cells API を使用する方法について説明します。
+この記事では、システムにインストールされているAspose.Cellsのバージョンを手動で確認する方法とAspose.Cells APIを使用した方法について説明します。
 
 {{% /alert %}}
 
 ## **バージョン番号を手動で確認する**
 
-使用している Aspose.Cells のバージョンを手動で確認するには:
+手動でAspose.Cellsのバージョンを確認するには:
 
-1.  Aspose.Cells.dll ファイルを右クリックして、**プロパティ**.
-1. [バージョン] (または [詳細]) タブをクリックして、バージョン番号を確認します。
+1. Aspose.Cells.dllファイルを右クリックし、**プロパティ**を選択します。
+1. バージョン（または詳細）タブをクリックしてバージョン番号を確認します。
 
-## **Aspose.Cells API を使用してバージョン番号を確認します**
+## **Aspose.Cells APIを使用したバージョン番号の確認**
 
-API を使用して、使用している Aspose.Cells のバージョンを確認するには、[セルヘルパー](https://reference.aspose.com/cells/net/aspose.cells/cellshelper)クラス GetVersion 静的メソッドを使用して、Aspose.Cell のバージョン番号を取得します。
+APIを介してAspose.Cellsのバージョンを確認するには、[CellsHelper](https://reference.aspose.com/cells/net/aspose.cells/cellshelper)クラスのGetVersion静的メソッドを使用してAspose.Cellsのバージョン番号を取得します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-CheckVersionNumber-1.cs" >}}

@@ -1,16 +1,17 @@
-﻿---
+---
 title: Показать или скрыть линии сетки в Php
 type: docs
 weight: 10
 url: /ru/java/display-or-hide-gridlines-in-php/
 ---
-## **Aspose.Cells — Показать или скрыть линии сетки**
+
+## **Aspose.Cells - Отображение или скрытие линий сетки**
 ### **Скрытие линий сетки**
- Чтобы скрыть рабочий лист, используя**Aspose.Cells Java for PHP** , вызов**displayhidegridlines** модуль.
+Чтобы скрыть лист документа с помощью **Aspose.Cells Java для PHP**, вызовите модуль **displayhidegridlines**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ $workbook->save($dataDir . "output.xls");
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Показать или скрыть линии сетки (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Показать или скрыть сетку (Aspose.Cells)** с любого из нижеприведенных социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideGridlines.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideGridlines.php)

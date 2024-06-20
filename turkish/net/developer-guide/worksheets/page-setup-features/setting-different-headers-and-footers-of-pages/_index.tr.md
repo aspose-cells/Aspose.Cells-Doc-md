@@ -1,29 +1,30 @@
 ---
-title: Farklı Sayfalar İçin Farklı Üstbilgiler ve Altbilgiler Ayarlama
+title: Farklı Sayfalar için Farklı Üstbilgi ve Altbilgileri Ayarlama
 type: docs
 weight: 35
 url: /tr/net/setting-different-headers-and-footers-for-pages-to-Excel/
-description: Bu makale, C# Kitaplığı ve .NET API kullanılarak Excel çalışma sayfası Sayfa Yapısı ayarlarının çeşitli üstbilgilerinin ve altbilgilerinin programlı olarak nasıl ayarlanacağını gösteren örnek kod sağlar. Üstbilgileri ve altbilgileri ilk sayfa, tek sayfalar ve çift sayfalar için ayarlayabilirsiniz.
-keywords: set excel header footer first page c#, set excel header footer odd pages c#, set excel header footer even pages c#
+description: Bu makale, Excel çalışma sayfası Sayfa Ayarı ayarlarını programlı olarak çeşitli üstbilgi ve altbilgiler ayarlayan örnek kodları sağlar. İlk sayfa, tek sayfalar ve çift sayfalar için üstbilgi ve altbilgileri ayarlayabilirsiniz.
+keywords: c# da excel üstbilgi altbilgi ilk sayfa, c# da excel üstbilgi altbilgi tek sayfalar, c# da excel üstbilgi altbilgi çift sayfalar ayarlama
 ---
+
 {{% alert color="primary" %}}
 
-MS Excel, Excel 2007'den bu yana ilk sayfa, tek sayfalar ve çift sayfalar için farklı üst bilgiler ve alt bilgiler ayarlamayı destekler.
+MS Excel, Excel 2007'den beri ilk sayfa, tek sayfalar ve çift sayfalar için farklı üstbilgi ve altbilgi ayarlama desteği sunmaktadır.
 Aspose.Cells aynı özelliği destekler.
 
 {{% /alert %}}
 
-##  **MS Excel'de Farklı Üstbilgiler ve Altbilgiler Ayarlama**
+## **MS Excel'de Farklı Üstbilgi ve Altbilgiler Ayarlama**
 
-**![Farklı Üstbilgileri ve Altbilgileri Ayarlama](difpage.png)**
+**![Farklı Üstbilgi ve Altbilgiler Ayarlama](difpage.png)**
 
-1. *sayfa Düzeni > Başlıkları Yazdır > Üstbilgi/Altbilgi**'ye tıklayın.
-1.  Kontrol etmek**Farklı Tek ve Çift Sayfalar** veya *Farklı köknar sayfası**.
-1. Farklı üst bilgiler ve alt bilgiler girin.
+1. **Sayfa Düzeni > Başlık ve Alt Bilgi > Üstbilgi/Altbilgi**'ye tıklayın.
+1. **Farklı Tek ve Çift Sayfalar** veya **Farklı ilk sayfa**'yı işaretleyin.
+1. Farklı başlık ve altbilgileri girin.
 
-##  **Aspose.Cells ile Farklı Üstbilgiler ve Altbilgiler Ayarlama**
+## **Aspose.Cells ile Farklı Üstbilgi ve Altbilgi Ayarlama**
 
-Aspose.Cells, Excel ile aynı şekilde davranır.
-1.  Bayrakları ayarlar[PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) Ve[PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 
-1. Farklı üst bilgiler ve alt bilgiler girin.
+Aspose.Cells, Excel ile aynı davranışı sergiler.
+1. [PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) ve [PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) bayraklarını ayarlar 
+1. Farklı başlık ve altbilgileri girin.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DiffHeaderFooter.cs" >}}

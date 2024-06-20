@@ -1,18 +1,19 @@
-﻿---
-title: xlsx4j でピボット グラフを作成する
+---
+title: xlsx4j でピボットチャートを作成する
 type: docs
 weight: 30
 url: /ja/java/create-pivot-charts-in-xlsx4j/
 ---
-## **Aspose.Cells - ピボット チャートの作成**
-ピボット テーブルは、レコードのインタラクティブな要約です。たとえば、ワークシートのリストに何百もの請求書エントリがあるとします。ピボット テーブルは、顧客、製品、または日付ごとに請求書を合計できます。 Microsoft Excel では、ボタンを新しい位置にドラッグすることで、ピボット テーブル内の情報をすばやく再配置できます。
-ピボット チャートは、ピボット テーブル内のデータをインタラクティブにグラフィカルに表現したものです。ピボット グラフは、Excel 2000 で導入されました。ピボット テーブルを使用すると、小計と合計が自動的に作成されるため、データをさらに理解しやすくなります。
 
-Aspose.Cells は、ピボット テーブルとピボット チャートをサポートします。
+## **Aspose.Cells - ピボットチャートを作成する**
+ピボットテーブルは、レコードのインタラクティブな集計です。たとえば、ワークシートのリストには数百の請求書エントリがあります。ピボットテーブルは、顧客、製品、または日付別に請求書を合計することができます。Microsoft Excelを使用すると、ピボットテーブル内の情報をボタンをドラッグするだけで素早く再配置することが可能です。
+ピボットチャートは、ピボットテーブルのデータのインタラクティブなグラフィカルな表現です。ピボットチャートはExcel 2000で導入されました。ピボットテーブルが自動的に小計と合計を作成するため、ピボットチャートを使用することでデータを理解することがさらに容易になります。
+
+Aspose.Cells は、ピボットテーブルとピボットチャートをサポートしています。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating an Workbook object
 
@@ -46,13 +47,13 @@ workbook.save(dataDir + "Aspose_PivotChart_Out.xls");
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/charts/createpivotcharts/AsposePivotChart.java)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ピボット テーブルとピボット チャートを作成する](/cells/ja/java/create-pivot-tables-and-pivot-charts/).
+詳細については、[ピボットテーブルとピボットチャートの作成](/cells/ja/java/create-pivot-tables-and-pivot-charts/) をご覧ください。
 
 {{% /alert %}}

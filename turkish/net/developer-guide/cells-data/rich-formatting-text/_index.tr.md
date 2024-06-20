@@ -1,31 +1,32 @@
 ---
-title: Cell Zengin Metin Bölümlerine Erişin ve Güncelleyin
+title: Hücrenin Zengin Metin Kısımlarına Erişim ve Güncelleme
 linktitle: Zengin Biçimlendirme Metni
 type: docs
 weight: 40
 url: /tr/net/access-and-update-the-portions-of-rich-text-of-cell/
-description: Cell ile Aspose.Cells for .NET API arasındaki Zengin Metin Bölümlerine nasıl erişeceğinizi ve bunları güncelleyeceğinizi öğrenin.
-keywords: Access and Update Rich Text of Cell, Get Rich Text of Cell, Edit Rich Text of Cell, Access Rich Text of Cell, Update Rich Text of Cell, Change Rich Text of Cell
+description: Hücrenin zengin metin bölümlerine erişme ve güncelleme ve Aspose.Cells for .NET API si üzerinden nasıl yapıldığını öğrenin.
+keywords: Hücrenin zengin metin bölümlerine erişme ve güncelleme, Hücrenin zengin metnini alma, Hücrenin zengin metnini düzenleme, Hücrenin zengin metnine erişme, Hücrenin zengin metnini güncelleme, Hücrenin zengin metnini değiştirme
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells, hücrenin zengin metninin bölümlerine erişmenizi ve bunları güncellemenizi sağlar. Bu amaçla kullanabilirsiniz[**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) Ve[**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) yöntemler. Bu yöntemler geri dönecek ve diziyi kabul edecektir.[**Yazı Tipi Ayarı**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting)yazı tipi adı, yazı tipi rengi, kalınlık vb. gibi yazı tipinin çeşitli özelliklerine erişmek ve bunları güncellemek için kullanabileceğiniz nesneler.
+Aspose.Cells, hücrenin zengin metin bölümlerine erişmenize ve güncellemenize izin verir. Bu amaçla, [**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) ve [**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) yöntemlerini kullanabilirsiniz. Bu yöntemler, font adı, font rengi, kalın olma gibi çeşitli özelliklere erişmek ve bunları güncellemek için kullanabileceğiniz [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) nesnesi dizisini döndürecek ve kabul edecektir.
 
 {{% /alert %}}
 
-##  **Cell Zengin Metin Bölümlerine Erişin ve Güncelleyin**
+## **Zengin Metnin Kısımlarına Erişme ve Güncelleme**
 
- Aşağıdaki kod kullanımını gösterir[**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) Ve[**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) yöntemini kullanarak[kaynak excel dosyası](5112369.xlsx) verilen bağlantıdan indirebilirsiniz. Kaynak excel dosyasının A1 hücresinde zengin bir metin var. 3 bölümden oluşur ve her bölüm farklı bir yazı tipine sahiptir. Aşağıdaki kod parçacığı bu bölümlere erişir ve ilk bölümü yeni bir yazı tipi adıyla günceller. Son olarak çalışma kitabını şu şekilde kaydeder:[excel dosyasının çıktısını almak](5112366.xlsx). Açtığınızda metnin ilk kısmının yazı tipinin *"Arial"** olarak değiştiğini göreceksiniz.
+Aşağıdaki kod, [kaynak excel dosyası](5112369.xlsx) kullanarak [**Cell.GetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) ve [**Cell.SetCharacters()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) yöntemlerinin kullanımını göstermektedir. Kaynak excel dosyasında hücre A1'de zengin metin bulunmaktadır. 3 bölümü vardır ve her bölümün farklı bir fontu bulunmaktadır. Aşağıdaki kod parçacığı, bu bölümlere erişir ve ilk bölümü yeni bir font adı ile günceller. Son olarak, workbook'u [çıktı excel dosyası](5112366.xlsx) olarak kaydeder. Açtığınızda, metnin ilk bölümünün fontunun **"Arial"** olarak değiştiğini göreceksiniz.
 
-###  Cell Zengin Metin bölümlerine erişmek ve bunları güncellemek için C# kodu
+### Hücrenin Zengin Metin Kısımlarına Erişme ve Güncelleme için C# kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UpdateRichTextCells-1.cs" >}}
 
 ### Örnek kod tarafından oluşturulan konsol çıktısı
 
- Yukarıdaki örnek kodun konsol çıktısı şu şekildedir:[kaynak excel dosyası](5112369.xlsx).
+Yukarıdaki örnek kodun [kaynak excel dosyası](5112369.xlsx) kullanılarak oluşturulan konsol çıktısı aşağıda verilmiştir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Before updating the font settings....
 

@@ -1,57 +1,58 @@
-﻿---
-title: Hinzufügen von Berichtsparametern zum Bericht
+---
+title: Reportparameter zum Bericht hinzufügen
 type: docs
 weight: 60
 url: /de/reportingservices/adding-report-parameters-to-report/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells'-Berichtsvorlage unterstützt Reporting Services-Berichtsparameter als Datenquelle für Zellen, die eine Reporting Services-Parametermarkierung enthalten. Bitte beziehen Sie sich auf[Aspose.Cells Schablone und intelligente Marker](/cells/de/reportingservices/aspose-cells-template-and-smart-markers/) um mehr über Reporting Services-Parametermarkierungen zu erfahren. Berichtsparameter werden normalerweise im Textbereich der Tabellenkopf- oder -fußzeile platziert.
+Aspose.Cells' Report-Template unterstützt Reporting-Services-Berichtsparameter als Datenquelle für Zellen, die einen Reporting-Services-Parametermarker enthalten. Bitte lesen Sie [Aspose.Cells-Template und Smart Marker](/cells/de/reportingservices/aspose-cells-template-and-smart-markers/) für Informationen zu Reporting-Services-Parametermarkern. Berichtsparameter werden in der Regel im Textbereich des Tabellenkopfes oder -fußes platziert.
 
 {{% /alert %}} 
 ### **Hinzufügen eines Berichtsparameters**
-So fügen Sie Berichtsparameter zu Berichten hinzu:
+Um Berichtsparameter zu Berichten hinzuzufügen:
 
-1.  Wählen Sie eine Zelle aus.
+1. Wählen Sie eine Zelle aus. 
 
-   **Auswählen einer Zelle** 
+   **Auswahl einer Zelle** 
 
-![todo: Bild_alt_Text](adding-report-parameters-to-report_1.png)
-
-
+![todo:image_alt_text](adding-report-parameters-to-report_1.png)
 
 
-1. Klicken Sie in der Symbolleiste Aspose.Cells.Report.Designer (
 
-![todo: Bild_alt_Text](adding-report-parameters-to-report_2.png)
+
+1. Klicken Sie auf Formel einfügen in der Aspose.Cells.Report.Designer-Symbolleiste (
+
+![todo:image_alt_text](adding-report-parameters-to-report_2.png)
 
 ).
 
-1.  Wählen**Parameter** aus dem Parameterbereich auf der linken Seite.
- Alle Parameter sind im rechten Bereich aufgelistet.
-1. Wählen Sie einen Parameter aus, im Beispiel haben wir EmpID ausgewählt.
-1. Doppelklicken Sie auf den Parameter, damit der Ausdruck im Editor oben im Formular angezeigt wird.
- Ein Parameter hat zwei Datenattribute: Bezeichnung und Wert (das Standardattribut ist Wert).
+1. Wählen Sie **Parameter** aus dem linken Bereich des Parametersymbols aus.
+   Alle Parameter sind im rechten Bereich aufgeführt. 
+1. Wählen Sie einen Parameter aus. Im Beispiel haben wir EmpID ausgewählt.
+1. Doppelklicken Sie auf den Parameter, um den Ausdruck im Editor oben im Formular anzuzeigen.
+   Ein Parameter hat zwei Datenattribute: Label und Wert (das Standardattribut ist Wert). 
 
    **Auswahl eines Parameters** 
 
-![todo: Bild_alt_Text](adding-report-parameters-to-report_3.png)
+![todo:image_alt_text](adding-report-parameters-to-report_3.png)
 
 
 
 
-1.  Im Beispiel sollte die Bezeichnung des Parameters im Bericht angezeigt werden, also ändern Sie den Ausdruck in Parameters!EmpID.Label.
+1. Im Beispiel sollte das Label des Parameters im Bericht angezeigt werden. Ändern Sie daher den Ausdruck in Parameters!EmpID.Label. 
 
    **Ändern des Parameters** 
 
-![todo: Bild_alt_Text](adding-report-parameters-to-report_4.png)
+![todo:image_alt_text](adding-report-parameters-to-report_4.png)
 
 
 
 
-1.  Klicken**OK**.
- Die ausgewählte Zelle enthält eine Markierung für Berichtsparameter.
+1. Klicken Sie auf **OK**.
+   Die ausgewählte Zelle enthält einen Berichtsparameter-Marker. 
 
-   **Ein in die Zelle eingefügter Berichtsparameter** 
+   **Ein Berichtsparameter in die Zelle eingefügt** 
 
-![todo: Bild_alt_Text](adding-report-parameters-to-report_5.png)
+![todo:image_alt_text](adding-report-parameters-to-report_5.png)

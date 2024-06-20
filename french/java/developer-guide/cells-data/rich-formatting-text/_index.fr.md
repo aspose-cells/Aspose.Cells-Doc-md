@@ -1,17 +1,18 @@
-﻿---
-title: Accéder et mettre à jour les portions de texte enrichi de Cell
-linktitle: Texte de mise en forme enrichi
+---
+title: Accéder et mettre à jour les parties du texte enrichi de la cellule
+linktitle: Texte enrichi avec formatage
 type: docs
 weight: 440
 url: /fr/java/access-and-update-the-portions-of-rich-text-of-cell/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells vous permet d'accéder et de mettre à jour les parties du texte enrichi de la cellule. Pour cela, vous pouvez utiliser les méthodes Cell.getCharacters() et Cell.setCharacters(). Ces méthodes renverront et accepteront le tableau d'objets FontSetting que vous pouvez utiliser pour accéder et mettre à jour diverses propriétés de police telles que le nom de la police, la couleur de la police, l'audace, etc.
+Aspose.Cells vous permet d'accéder et de mettre à jour les portions de texte enrichi de la cellule. À cette fin, vous pouvez utiliser les méthodes Cell.getCharacters() et Cell.setCharacters(). Ces méthodes retourneront et accepteront un tableau d'objets FontSetting que vous pouvez utiliser pour accéder et mettre à jour diverses propriétés de police telles que le nom de la police, la couleur de la police, la graisse, etc.
 
 {{% /alert %}} 
-## **Accéder et mettre à jour les portions de texte enrichi de Cell**
- Le code suivant illustre l'utilisation des méthodes Cell.getCharacters() et Cell.setCharacters() à l'aide de la méthode[fichier excel source](5472937.xlsx) que vous pouvez télécharger à partir du lien fourni. Le fichier Excel source contient un texte enrichi dans la cellule A1. Il comporte 3 parties et chaque partie a une police différente. Nous allons accéder à ces parties et mettre à jour la première partie avec le nouveau nom de police. Enfin, il enregistre le classeur sous[fichier excel de sortie](5472930.xlsx) . Lorsque vous l'ouvrirez, vous constaterez que la police de la première partie du texte a changé pour**"Ariel"**.
+## **Accéder et mettre à jour les parties du texte enrichi de la cellule**
+Le code suivant démontre l'utilisation des méthodes Cell.getCharacters() et Cell.setCharacters() en utilisant le [fichier Excel source](5472937.xlsx) que vous pouvez télécharger à partir du lien fourni. Le fichier Excel source contient un texte enrichi dans la cellule A1. Il a 3 portions et chaque portion a une police différente. Nous accéderons à ces portions et mettrons à jour la première portion avec un nouveau nom de police. Enfin, il enregistre le classeur sous le nom de [fichier Excel de sortie](5472930.xlsx). Lorsque vous l'ouvrirez, vous constaterez que la police de la première portion du texte a changé en **"Arial"**.
 
 
 
@@ -25,9 +26,9 @@ Aspose.Cells vous permet d'accéder et de mettre à jour les parties du texte en
 
 
 ## **Sortie console**
- Voici la sortie de la console de l'exemple de code ci-dessus en utilisant le[fichier excel source](5472937.xlsx).
+Voici la sortie console du code d'exemple ci-dessus en utilisant le [fichier Excel source](5472937.xlsx).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Before updating the font settings....
 

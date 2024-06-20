@@ -1,26 +1,29 @@
-﻿---
+---
 title: Congelar y descongelar paneles
 type: docs
 weight: 50
-url: /es/net/freeze-and-unfreeze-panes/
+url: /es/net/aspose-cells-gridweb/freeze-and-unfreeze-panes/
+keywords: GridWeb, congelar, descongelar
+description: Este artículo introduce cómo congelar y descongelar en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Este tema explica cómo congelar y descongelar filas y columnas. La congelación de columnas o filas permite a los usuarios mantener visibles los encabezados de las columnas o los títulos de las filas mientras se desplazan a otras partes de la hoja de cálculo. Esta característica es muy útil cuando se trabaja con hojas de cálculo que contienen grandes volúmenes de datos. Cuando los usuarios se desplazan solo los datos se desplazan hacia abajo y los encabezados permanecen en su lugar, lo que facilita la lectura de la fecha. La característica de congelar paneles solo es compatible con Internet Explorer 6.0 o superior.
+Este tema explica cómo congelar y descongelar filas y columnas. Congelar columnas o filas permite a los usuarios mantener visibles los encabezados de columna o los títulos de fila mientras se desplazan a otras partes de la hoja de trabajo. Esta función es muy útil al trabajar con hojas de cálculo que contienen grandes volúmenes de datos. Cuando los usuarios se desplazan, solo los datos se desplazan hacia abajo y los encabezados permanecen en su lugar, facilitando la lectura de los datos. La función de paneles de congelación solo es compatible con Internet Explorer 6.0 o superior.
 
 {{% /alert %}} 
-## **Congelación de filas y columnas**
+## **Congelar filas y columnas**
 Para congelar un número específico de filas y columnas:
 
-1. Agregue el control Aspose.Cells.GridWeb a un formulario web.
-1. Accede a una hoja de trabajo.
-1. Congele un número de filas y columnas.
+1. Agregue el control Aspose.Cells.GridWeb a un Formulario Web.
+1. Acceder a una hoja de cálculo.
+1. Congelar un número de filas y columnas.
 
 
 
 {{% alert color="primary" %}} 
 
- También es posible congelar un número específico de filas y columnas usando la interfaz. Haga clic derecho en una celda donde desea congelar filas y columnas y seleccione**Congelar** de la lista.
+También es posible congelar un número específico de filas y columnas usando la interfaz. Haga clic derecho en una celda donde desea congelar filas y columnas y seleccione **Congelar** de la lista.
 
 {{% /alert %}} 
 
@@ -28,9 +31,9 @@ Para congelar un número específico de filas y columnas:
 ## **Descongelar filas y columnas**
 Para descongelar filas y columnas:
 
-1. Agregue el control Aspose.Cells.GridWeb a un formulario web.
-1. Accede a una hoja de trabajo.
-1. Descongele filas y columnas.
+1. Agregue el control Aspose.Cells.GridWeb a un Formulario Web.
+1. Acceder a una hoja de cálculo.
+1. Descongelar filas y columnas.
 
 
 

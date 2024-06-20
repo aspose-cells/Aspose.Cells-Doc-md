@@ -1,28 +1,29 @@
 ---
-title: Çalışma Sayfasının Sayfa Yapısının Kağıt Genişliğini ve Yüksekliğini Alın
+title: Çalışma Sayfası Sayfa Ayarları Kağıt Genişliğini ve Yüksekliğini Alma
 type: docs
 weight: 50
 url: /tr/net/get-paper-width-and-height-of-page-setup-of-worksheet/
-description: .NET API veya Kitaplık ile programlı olarak C# kodunu kullanarak Excel Çalışma Sayfası Sayfa Yapısı Kağıt Genişliği ve Kağıt Yüksekliğini nasıl alacağınızı bu makalede keşfedeceksiniz.
-keywords: excel page setup paper width c#, excel page setup paper height c#
+description: Bu makalede, C# kodu kullanarak Excel Çalışma Sayfası Sayfa Ayarı Kağıt Genişliği ve Kağıt Yüksekliğini .NET API veya Kütüphane ile nasıl programlı olarak alacağınızı keşfedeceksiniz.
+keywords: excel sayfa ayarı kağıt genişliği c#, excel sayfa ayarı kağıt yüksekliği c#
 ---
-##  **Olası Kullanım Senaryoları**
 
-Bazen, çalışma sayfasının sayfa düzeninde ayarlandığı için kağıt boyutunun genişliğini ve yüksekliğini bilmeniz gerekir. lütfen[**Sayfa Kurulumu.Kağıt Genişliği**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)Ve[**Sayfa Kurulumu.Kağıt Yüksekliği**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)Bu amaç için özellikler.
+## **Olası Kullanım Senaryoları**
 
-##  **Çalışma Sayfasının Sayfa Yapısının Kağıt Genişliğini ve Yüksekliğini Alın**
+Bazen, çalışma sayfasının sayfa ayarlarında ayarlanan kağıt boyutunun genişliğini ve yüksekliğini bilmek isteyebilirsiniz. Bu amaçla lütfen [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) ve [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) özelliklerini kullanın.
 
- Aşağıdaki örnek kod, kullanımını açıklar[**Sayfa Kurulumu.Kağıt Genişliği**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) Ve[**Sayfa Kurulumu.Kağıt Yüksekliği**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) özellikler. Önce kağıt boyutunu şu şekilde değiştirir:*A2*ve sonra kağıdın enini ve yüksekliğini bulur, sonra onu şu şekilde değiştirir:*A3*, *A4*, *Mektup*sırasıyla kağıdın enini ve yüksekliğini bulur.
+## **Çalışma Sayfası Sayfa Ayarları Kağıt Genişliği ve Yüksekliğini Alma**
 
-###  **Basit kod**
+Aşağıdaki örnek kod, [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) ve [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) özelliklerinin nasıl kullanıldığını açıklar. İlk önce kağıt boyutunu *A2* olarak değiştirir ve ardından kağıdın genişliğini ve yüksekliğini bulur, sonra *A3*, *A4*, *Mektup* olarak değiştirir ve sırayla kağıdın genişliğini ve yüksekliğini bulur.
+
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-GetPageDimensions.cs" >}}
 
-###  **Konsol Çıkışı**
+### **Konsol Çıktısı**
 
-İşte yukarıdaki örnek kodun konsol çıktısı.
+Yukarıdaki örnek kodun konsol çıktısı burada gösterilmektedir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 PaperA2: 16.54x23.39
 

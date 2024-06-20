@@ -1,20 +1,21 @@
-﻿---
-title: إضافة وحدة VBA والكود باستخدام Aspose.Cells
+---
+title: إضافة وحدة VBA وكود باستخدام Aspose.Cells
 type: docs
 weight: 20
 url: /ar/java/adding-vba-module-and-code-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- يسمح لك Aspose.Cells بإضافة وحدة جديدة لـ VBA وكود ماكرو باستخدام Aspose.Cells. الرجاء استخدام[**Workbook.getVbaProject (). getModules (). add (**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) لإضافة وحدة VBA النمطية الجديدة داخل المصنف
+تُسمح لك Aspose.Cells بإضافة وحدة VBA جديدة ورمز ماكرو باستخدام Aspose.Cells. يرجى استخدام الطريقة [**Workbook.getVbaProject().getModules().add(**)](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#add(com.aspose.cells.Worksheet)) لإضافة وحدة VBA جديدة داخل الدفتر.
 
 {{% /alert %}}
 
-## **إضافة وحدة VBA والكود باستخدام Aspose.Cells**
+## **إضافة وحدة VBA وكود باستخدام Aspose.Cells**
 
-ينشئ نموذج التعليمات البرمجية التالي مصنفًا جديدًا ويضيف وحدة VBA النمطية الجديدة ورمز الماكرو ويحفظ الإخراج بتنسيق XLSM. بمجرد فتح ملف الإخراج XLSM في Microsoft Excel والنقر فوق**المطور> Visual Basic** أوامر القائمة ، سترى وحدة تسمى "TestModule" وداخلها ، سترى رمز الماكرو التالي.
+يُنشئ رمز العينة التالي مصنف عمل جديد ويضيف وحدة VBA جديدة وكود الماكرو الجديد ويحفظ الإخراج بتنسيق XLSM. بمجرد فتحك لملف الإكسيل الناتج XLSM والنقر على أوامر **تطوير > الأساسيات المرئية**، سترى وحدة تسمى "الوحدة الاختبارية" وبداخلها سترى كود الماكرو التالي.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -24,8 +25,8 @@ End Sub
 
 {{< /highlight >}}
 
-## عينة من الرموز
+## كود عينة
 
-فيما يلي نموذج التعليمات البرمجية لإنشاء ملف الإخراج XLSM باستخدام وحدة VBA وكود الماكرو.
+إليك كود عينة لإنشاء ملف XLSM الناتج بوحدة VBA ورمز ماكرو.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}

@@ -1,18 +1,21 @@
-﻿---
-title: Cell データ検証を追加
+---
+title: セルデータの検証を追加する
 type: docs
 weight: 90
-url: /ja/net/add-cell-data-validations/
+url: /ja/net/aspose-cells-gridweb/add-cell-data-validations/
+keywords: GridWeb,検証,データ検証,グリッド検証
+description: この記事では、GridWebでデータ検証（GridValidation）を追加する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb を使用すると、追加できます**データ検証**GridWorksheet.Validations.Add() メソッドを使用します。このメソッドを使用して、指定する必要があります**Cell 範囲**.ただし、単一の GridCell でデータ検証を作成する場合は、GridCell.CreateValidation() メソッドを使用して直接行うことができます。同様に、あなたは削除することができます**データ検証**GridCell.RemoveValidation() メソッドを使用して GridCell から。
+Aspose.Cells.GridWebを使用して、GridWorksheet.Validations.Add()メソッドを使用して**データ検証**を追加することができます。このメソッドを使用すると、**セル範囲**を指定する必要があります。ただし、単一のGridCellにデータ検証を作成したい場合は、GridCell.CreateValidation()メソッドを直接使用できます。同様に、GridCell.RemoveValidation()メソッドを使用して、GridCellから**データ検証**を削除することもできます。
 
 {{% /alert %}} 
-## **GridWeb の GridCell でデータ検証を作成する**
-次のサンプル コードは、**データ検証**セル B3 に20 ～ 40 以外の値を入力すると、セル B3 が表示されます。**検証エラー**の形で**赤XXXX**このスクリーンショットに示すように。
+## **GridWebのGridCellにデータの妥当性を作成する**
+次のサンプルコードは、セルB3に**データの妥当性**を作成します。20から40の範囲外の値を入力すると、このスクリーンショットに示されているように、セルB3に**バリデーションエラー**が**赤のXXXX**の形で表示されます。
 
-![todo:画像_代替_文章](add-cell-data-validations_1.png)
+![todo:image_alt_text](add-cell-data-validations_1.png)
 
 
 

@@ -1,30 +1,31 @@
-﻿---
-title: Укажите, как пересекать строку в выводе PDF и изображении
+---
+title: Указание того, как пересекать строку в выходном PDF и изображении
 type: docs
 weight: 110
 url: /ru/java/specify-how-to-cross-string-in-output-pdf-and-image/
 ---
+
 ## **Возможные сценарии использования**
 
-Когда ячейка содержит текст или строку, но она больше, чем ширина ячейки, строка переполняется, если следующая ячейка в следующем столбце пуста или пуста. Когда вы сохраняете файл Excel в PDF/Image, вы можете управлять этим переполнением, указав перекрестный тип с помощью[**ТекстКроссТип**](https://reference.aspose.com/cells/java/com.aspose.cells/TextCrossType)перечисление. Он имеет следующие значения
+Когда ячейка содержит текст или строку, но она больше ширины ячейки, то строка переполняется, если следующая ячейка в следующем столбце пуста или пуста. При сохранении вашего файла Excel в формат PDF/изображение вы можете контролировать этот переполнение, указав тип пересечения с использованием перечисления [**TextCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextCrossType). У него следующие значения
 
-- [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT): Отображение как в MS Excel, зависит от следующей ячейки. Если следующая ячейка пуста, строка будет пересекаться или будет усечена.
+- [**TextCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#DEFAULT): Отображение как MS Excel, зависит от следующей ячейки. Если следующая ячейка пуста, строка будет перечеркнута или обрезана.
 
-- [**ТекстКроссТип. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP): Отобразить строку, например экспорт MS Excel PDF/Image.
+- [**TextCrossType. CROSS_KEEP**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_KEEP): Отображение строки как при экспорте PDF/изображения MS Excel
 
-- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE): отображать весь текст, пересекая другие ячейки, и переопределять текст пересеченных ячеек.
+- [**TextCrossType.CROSS_OVERRIDE**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#CROSS_OVERRIDE): Отображение всего текста, пересекая другие ячейки и перезаписывая текст пересекаемых ячеек
 
-- [**ТекстКроссТип.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL): Отображает только строку в пределах ширины ячейки.
+- [**TextCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL): Отображение только строки в пределах ширины ячейки.
 
-## **Укажите, как пересекать строку в выходных данных PDF/Image, используя TextCrossType.**
+## **Указание того, как пересекать строку в выходном PDF/изображении с использованием TextCrossType**
 
-Следующий пример кода загружает образец файла Excel и сохраняет его в формате PDF/Image, указав разные[**ТекстКроссТип**](https://reference.aspose.com/cells/java/com.aspose.cells/TextCrossType). Образец файла Excel и выходные файлы можно загрузить по следующим ссылкам:
+В следующем примере кода загружается образец файла Excel и сохраняется в формат PDF/изображение, указав разные [**TextCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextCrossType). Образец файла Excel и выходные файлы можно скачать по следующим ссылкам:
 
-[образецCrossType.xlsx](sampleCrossType.xlsx)
+[sampleCrossType.xlsx](sampleCrossType.xlsx)
 
 [outputCrossType.pdf](outputCrossType.pdf)
 
-[выводCrossType.png](outputCrossType.png)
+[outputCrossType.png](outputCrossType.png)
 
 ## **Образец кода**
 

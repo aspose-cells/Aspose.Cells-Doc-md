@@ -1,20 +1,21 @@
-﻿---
-title: ファイルをマージ
+---
+title: ファイルの結合
 type: docs
 weight: 20
 url: /ja/net/merge-files/
 ---
-## **序章**
 
-Aspose.Cells は、ファイルをマージするためのさまざまな方法を提供します。データ、フォーマット、数式を含む単純なファイルの場合、[**Workbook.Combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine)メソッドを使用して、複数のワークブックを組み合わせることができます。[**Worksheet.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index)メソッドを使用して、ワークシートを新しいブックにコピーできます。これらの方法は使いやすく効果的ですが、マージするファイルが多数ある場合は、多くのシステム リソースが必要になることがあります。これを回避するには、[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)静的メソッド、複数のファイルをマージするより効率的な方法。
+## **紹介**
 
-## **Aspose.Cells を使用してファイルをマージする**
+Aspose.Cellsでは、ファイルを結合するための異なる方法が提供されています。データ、書式、数式を含む単純なファイルの場合は、[**Workbook.Combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine)メソッドを使用して複数のブックを結合し、[**Worksheet.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index)メソッドを使用してワークシートを新しいブックにコピーすることができます。これらの方法は使いやすく効果的ですが、多くのファイルを結合する場合は、多くのシステムリソースを消費する可能性があります。このような場合は、より効率的な方法である[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)静的メソッドを使用します。
 
-次のサンプル コードは、[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)方法。 Book1.xls と Book2.xls という 2 つの単純ですが大きなファイルが必要です。ファイルには、書式設定されたデータと数式のみが含まれています。
+## **Aspose.Cellsを使用してファイルをマージする**
+
+次のサンプルコードは、[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)メソッドを使用して大きなファイルを結合する方法を説明しています。単純ながらも大きなBook1.xlsとBook2.xlsという2つの大きなファイルが含まれています。これらのファイルには、フォーマット済みのデータと数式のみが含まれています。
 
 {{% alert color="primary" %}}
 
-の[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)メソッドは、データ、スタイル、書式設定、および数式のマージのみをサポートします。チャート、写真、コメント、その他のオブジェクトなどのオブジェクトは、この方法では結合されない場合があります。さらに、キャッシュされたファイルは、プロセスの一時データを格納するために使用されます。
+[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)メソッドは、データ、スタイル、書式、数式の結合のみをサポートしています。チャート、図、コメントなどのオブジェクトは、このメソッドを使用して結合することはできません。さらに、一時的なデータを処理するためのキャッシュファイルが使用されます。
 
 {{% /alert %}}
 

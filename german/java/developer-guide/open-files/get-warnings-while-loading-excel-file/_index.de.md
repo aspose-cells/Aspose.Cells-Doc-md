@@ -1,18 +1,19 @@
-﻿---
-title: Erhalten Sie Warnungen beim Laden einer Excel-Datei
+---
+title: Warnungen beim Laden einer Excel Datei erhalten
 type: docs
 weight: 60
 url: /de/java/get-warnings-while-loading-excel-file/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Manchmal versucht der Benutzer, die Arbeitsmappe zu laden, die etwas beschädigt, aber ladbar ist. In diesem Fall gibt Aspose.Cells beim Laden der Arbeitsmappe Warnungen aus. Sie können diese Warnungen abfangen, indem Sie die implementieren**[IWarningCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback)** Schnittstelle und Einstellung**[LoadOptions.WarningCallback](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback)**Eigentum.
+## **Mögliche Verwendungsszenarien**
 
-## **Erhalten Sie Warnungen beim Laden einer Excel-Datei**
+Manchmal versucht der Benutzer, die Arbeitsmappe zu laden, die etwas beschädigt, aber ladbar ist. In einem solchen Fall gibt Aspose.Cells beim Laden der Arbeitsmappe Warnungen aus. Sie können diese Warnungen einfangen, indem Sie die Schnittstelle [**IWarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback) implementieren und die Eigenschaft [**LoadOptions.WarningCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback) festlegen.
 
- Der folgende Beispielcode erläutert, wie Warnungen beim Laden einer Excel-Datei angezeigt werden. Der Code lädt die[Excel-Beispieldatei](sampleDuplicateDefinedName.xlsx) der wirft**[DuplicateDefinedName](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME)** Warnung beim Laden. Diese Warnung wird dann abgefangen**[IWarningCallback.Warning()](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo))** Methode, die die Warnmeldungen auf der Konsole ausgibt. Der Code speichert dann die Arbeitsmappe als[Excel-Datei ausgeben](outputDuplicateDefinedName.xlsx)Wenn Sie die Beispiel-Excel-Datei in Microsoft Excel öffnen, wird Ihnen auch diese Warnung angezeigt, wie in diesem Screenshot gezeigt. Bitte überprüfen Sie zum besseren Verständnis auch die Konsolenausgabe des unten angegebenen Codes.
+## **Warnungen beim Laden von Excel-Dateien erhalten**
 
-![todo: Bild_alt_Text](get-warnings-while-loading-excel-file_1.png)
+Der folgende Beispielcode zeigt, wie Sie Warnungen beim Laden einer Excel-Datei erhalten. Der Code lädt die [beispielhafte Excel-Datei](sampleDuplicateDefinedName.xlsx), die beim Laden eine [**DuplicateDefinedName**](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME) Warnung auslöst. Diese Warnung wird dann von der Methode [**IWarningCallback.Warning()**](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo)) eingefangen, die die Warnmeldungen in der Konsole ausgibt. Der Code speichert dann die Arbeitsmappe als [Ausgabe-Excel-Datei](outputDuplicateDefinedName.xlsx). Wenn Sie die beispielhafte Excel-Datei in Microsoft Excel öffnen, wird Ihnen diese Warnung ebenfalls angezeigt, wie im Screenshot gezeigt. Bitte überprüfen Sie auch die Konsolenausgabe des unten stehenden Codes für ein besseres Verständnis.
+
+![todo:image_alt_text](get-warnings-while-loading-excel-file_1.png)
 
 ## **Beispielcode**
 
@@ -22,9 +23,9 @@ Manchmal versucht der Benutzer, die Arbeitsmappe zu laden, die etwas beschädigt
 
 ## **Konsolenausgabe**
 
- Hier ist die Konsolenausgabe des obigen Codes, wenn er mit dem bereitgestellten ausgeführt wird[Excel-Beispieldatei](sampleDuplicateDefinedName.xlsx).
+Hier ist die Konsolenausgabe des obigen Codes bei Ausführung mit der bereitgestellten [Beispiel-Excel-Datei](sampleDuplicateDefinedName.xlsx).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Duplicate Defined Name Warning: Name:PRINT_AREA;ReferTo:Introduction!$D$16:$D$17
 

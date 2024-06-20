@@ -1,6 +1,8 @@
-﻿---
-title: Trabajar con la secuencia de comandos del lado del cliente de GridWeb
+---
+title: Trabajando con Script del Lado del Cliente de GridWeb
 type: docs
 weight: 30
-url: /es/net/working-with-gridweb-client-side-script/
+url: /es/net/aspose-cells-gridweb/working-with-gridweb-client-side-script/
 ---
+
+

@@ -1,21 +1,24 @@
-﻿---
+---
 title: Arbeitsblätter hinzufügen
 type: docs
 weight: 20
-url: /de/net/add-worksheets/
+url: /de/net/aspose-cells-gridweb/add-worksheet/
+keywords: GridWeb,add,worksheet,add GridWorksheet
+description: In diesem Artikel wird erläutert, wie Arbeitsblätter (GridWorksheet) in GridWeb hinzugefügt werden.
 ---
+
 {{% alert color="primary" %}} 
 
-Arbeitsblätter sind fester Bestandteil von Aspose.Cells.GridWeb. Alle Daten werden in Form von Arbeitsblättern verwaltet und gespeichert. Aspose.Cells.GridWeb ermöglicht Entwicklern das Hinzufügen eines oder mehrerer Arbeitsblätter zum Aspose.Cells.GridWeb-Steuerelement. Dieses Thema zeigt einfache Ansätze zum Hinzufügen von Arbeitsblättern zu Aspose.Cells.GridWeb.
+Arbeitsblätter sind ein integraler Bestandteil von Aspose.Cells.GridWeb. Alle Daten werden in Form von Arbeitsblättern verwaltet und gespeichert. Aspose.Cells.GridWeb ermöglicht Entwicklern, ein oder mehrere Arbeitsblätter der Aspose.Cells.GridWeb-Steuerung hinzuzufügen. Dieses Thema zeigt einfache Ansätze zum Hinzufügen von Arbeitsblättern zu Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
-## **Hinzufügen eines Arbeitsblatts**
+## **Ein Arbeitsblatt hinzufügen**
 ### **Ohne Angabe des Blattnamens**
-Die einfachste Methode zum Hinzufügen eines Arbeitsblatts zu Aspose.Cells.GridWeb besteht darin, die Add-Methode der GridWorksheetCollection-Auflistung im GridWeb-Steuerelement aufzurufen. Dadurch werden Arbeitsblätter erstellt, die Standardnamen verwenden (dh Sheet1, Sheet2, Sheet3 usw.) und dem GridWeb-Steuerelement hinzugefügt.
+Der einfachste Weg, ein Arbeitsblatt zu Aspose.Cells.GridWeb hinzuzufügen, besteht darin, die Add-Methode der GridWorksheetCollection-Steuerung in der GridWeb-Steuerung aufzurufen. Dadurch werden Arbeitsblätter mit Standardnamen (wie Blatt1, Blatt2, Blatt3 usw.) erstellt und der GridWeb-Steuerung hinzugefügt.
 
-**Ausgabe: GridWeb wurde ein Arbeitsblatt mit Standardnamen hinzugefügt** 
+**Ausgabe: Ein Arbeitsblatt mit Standardnamen wurde zu GridWeb hinzugefügt** 
 
-![todo: Bild_alt_Text](add-worksheets_1.png)
+![todo:image_alt_text](add-worksheets_1.png)
 
 
 
@@ -23,15 +26,15 @@ Die einfachste Methode zum Hinzufügen eines Arbeitsblatts zu Aspose.Cells.GridW
 
 {{% alert color="primary" %}} 
 
- Die Add-Methode gibt den Index des neuen Arbeitsblatts zurück, der verwendet werden kann, um auf die Instanz dieses Arbeitsblatts zuzugreifen. Weitere Informationen zum Zugriff auf Arbeitsblätter finden Sie unter[Greifen Sie auf Arbeitsblätter zu](/cells/de/net/access-worksheets/).
+Die Add-Methode gibt den Index des neuen Arbeitsblatts zurück, der verwendet werden kann, um auf die Instanz dieses Arbeitsblatts zuzugreifen. Für weitere Details zum Zugriff auf Arbeitsblätter, lesen Sie [Arbeitsblätter zugreifen](/cells/de/net/aspose-cells-gridweb/access-worksheets/).
 
 {{% /alert %}} 
 ### **Mit angegebenem Blattnamen**
-Um dem GridWeb-Steuerelement ein Arbeitsblatt mit einem bestimmten Namen hinzuzufügen, anstatt das standardmäßige Benennungsschema zu verwenden, rufen Sie eine überladene Version der Add-Methode auf, die den angegebenen SheetName annimmt. Für eine Instanz fügt das folgende Beispiel ein Arbeitsblatt mit dem Namen Invoice hinzu.
+Um ein Arbeitsblatt mit einem bestimmten Namen zum GridWeb-Control hinzuzufügen, anstatt das Standardbenennungsschema zu verwenden, rufen Sie eine überlastete Version der Add-Methode auf, die den angegebenen SheetName verwendet. Zum Beispiel fügt das folgende Beispiel ein Arbeitsblatt mit dem Namen Rechnung hinzu.
 
-**Ausgabe: GridWeb wurde ein Arbeitsblatt mit einem bestimmten Namen hinzugefügt** 
+**Ausgabe: Ein Arbeitsblatt mit angegebenem Namen wurde zu GridWeb hinzugefügt** 
 
-![todo: Bild_alt_Text](add-worksheets_2.png)
+![todo:image_alt_text](add-worksheets_2.png)
 
 
 

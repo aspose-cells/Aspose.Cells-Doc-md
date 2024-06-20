@@ -1,18 +1,19 @@
-﻿---
-title: Insertar o eliminar filas o columnas
+---
+title: Insertar o Eliminar Filas o Columnas
 type: docs
 weight: 20
 url: /es/net/insert-or-delete-rows-or-columns/
 ---
-Ya sea que estemos creando una nueva hoja de trabajo desde cero o estemos trabajando en una hoja de trabajo existente, es posible que necesitemos agregar filas o columnas adicionales en la hoja de trabajo para acomodar más datos o por alguna otra razón. A la inversa, también puede ser necesario eliminar filas o columnas de posiciones específicas de la hoja de trabajo.
-## **Gestión de filas/columnas**
-**Aspose.Cells** proporciona una clase, Libro de trabajo que representa un archivo de Excel. La clase de libro de trabajo contiene una colección de hojas de trabajo que permite acceder a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por la clase Worksheet. La clase Worksheet proporciona una colección Cells que representa todas las celdas de la hoja de trabajo.
 
-**Cells**collection proporciona varios métodos para administrar filas o columnas en una hoja de trabajo, algunos de estos se analizan a continuación con más detalle.
-## **Insertar una fila**
- Los desarrolladores pueden insertar una fila en la hoja de trabajo en cualquier lugar llamando al método InsertRow de la colección Cells.**Insertar fila** El método toma el índice de la fila donde se insertará la nueva fila.
+Ya sea que estemos creando una nueva hoja de cálculo desde cero o trabajando en una hoja de cálculo existente, es posible que necesitemos agregar filas o columnas adicionales en la hoja de cálculo para acomodar más datos o por alguna otra razón. Inversamente, también puede ser necesario eliminar filas o columnas de posiciones especificadas de la hoja de cálculo.
+## **Administración de Filas/Columnas**
+**Aspose.Cells** proporciona una clase, Workbook, que representa un archivo de Excel. La clase Workbook contiene una colección de Worksheets que permite acceder a cada hoja de cálculo en el archivo de Excel. Una hoja de cálculo está representada por la clase Worksheet. La clase Worksheet proporciona una colección de Cells que representa todas las celdas de la hoja de cálculo.
 
-{{< highlight "csharp" >}}
+La colección de **Cells** proporciona varios métodos para administrar filas o columnas en una hoja de cálculo, de los cuales se discuten algunos a continuación con más detalle.
+## **Insertar una Fila**
+Los desarrolladores pueden insertar una fila en la hoja de cálculo en cualquier ubicación llamando al método InsertRow de la colección Cells. El método **InsertRow** toma el índice de la fila donde se insertará la nueva fila.
+
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -41,13 +42,13 @@ workbook.Save(MyDir + "Inserting Row.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Insertar varias filas**
-A veces, los desarrolladores pueden necesitar insertar varias filas en la hoja de trabajo. Se puede hacer llamando al método InsertRows de la colección Cells. El método InsertRows toma dos parámetros:
+## **Insertar Múltiples Filas**
+A veces, los desarrolladores pueden necesitar insertar múltiples filas en la hoja de cálculo. Esto se puede hacer llamando al método InsertRows de la colección Cells. El método InsertRows toma dos parámetros:
 
-- **Índice de fila**, el índice de la fila desde donde se insertarán las nuevas filas
-- **Número de filas**, número total de filas que deben insertarse
+- **Índice de la Fila**, el índice de la fila desde donde se insertarán las nuevas filas
+- **Número de Filas**, número total de filas que se deben insertar
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -76,10 +77,10 @@ workbook.Save(MyDir + "Inserting Mutiple Rows.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Eliminación de una fila**
- Los desarrolladores pueden eliminar una fila de la hoja de trabajo en cualquier ubicación llamando al**Borrar fila** método de la colección Cells.**Borrar fila** El método toma el índice de la fila que debe eliminarse.
+## **Eliminar una Fila**
+Los desarrolladores pueden eliminar una fila de la hoja de cálculo en cualquier ubicación llamando al método **DeleteRow** de la colección Cells. El método **DeleteRow** toma el índice de la fila que se desea eliminar.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -108,13 +109,13 @@ workbook.Save(MyDir + "Deleting Rows.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Eliminación de varias filas**
-Si los desarrolladores necesitan eliminar varias filas de la hoja de cálculo, también pueden hacerlo llamando al método DeleteRows de la colección Cells. El método DeleteRows toma dos parámetros:
+## **Eliminar Múltiples Filas**
+Si los desarrolladores necesitan eliminar múltiples filas de la hoja de cálculo, también se puede hacer llamando al método DeleteRows de la colección Cells. El método DeleteRows toma dos parámetros:
 
-- **Índice de fila**, el índice de la fila desde donde se eliminarán las filas.
-- **Número de filas**, número total de filas que deben eliminarse.
+- **Índice de la Fila**, el índice de la fila desde donde se eliminarán las filas.
+- **Número de Filas**, número total de filas que se deben eliminar.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -144,9 +145,9 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **Insertar una columna**
-Los desarrolladores también pueden insertar una columna en la hoja de trabajo en cualquier ubicación llamando al método InsertColumn de la colección Cells. El método InsertColumn toma el índice de la columna donde se insertará la nueva columna.
+Los desarrolladores también pueden insertar una columna en la hoja de cálculo en cualquier ubicación llamando al método InsertColumn de la colección Cells. El método InsertColumn toma el índice de la columna donde se insertará la nueva columna.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -175,10 +176,10 @@ workbook.Save(MyDir + "Inserting Column.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Eliminación de una columna**
-Para eliminar una columna de la hoja de trabajo en cualquier ubicación, los desarrolladores pueden llamar al método DeleteColumn de la colección Cells. El método DeleteColumn toma el índice de la columna a eliminar.
+## **Eliminar una columna**
+Para eliminar una columna de la hoja de cálculo en cualquier ubicación, los desarrolladores pueden llamar al método DeleteColumn de la colección Cells. El método DeleteColumn toma el índice de la columna a eliminar.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -207,6 +208,6 @@ workbook.Save(MyDir + "Deleting Column.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Work%20with%20Rows%20n%20Columns%20%28Aspose.Cells%29.zip)

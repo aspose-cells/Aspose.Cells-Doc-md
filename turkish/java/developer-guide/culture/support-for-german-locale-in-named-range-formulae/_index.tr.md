@@ -1,10 +1,11 @@
-﻿---
-title: Adlandırılmış Aralık Formüllerinde Almanca Yerel Ayar Desteği
+---
+title: Adlandırılmış Aralık Formüllerinde Alman Locale Desteği
 type: docs
 weight: 70
 url: /tr/java/support-for-german-locale-in-named-range-formulae/
 ---
-İngilizce formüller adlandırılmış bölgeye yazılır. Bu Excel dosyası, sistemin Almanca Yerel Ayarına göre yapılandırıldığı bir ortamda açılabilir, ancak İngilizce formülün Almanca diline çevrilmesi gerekir. Aşağıdaki örnek bu özelliği gösterir, ancak Excel'in Almanca olarak yüklenmesini ve sistem yerel ayarının da Almanca olarak ayarlanmasını gerektirir.
+
+İngilizce formül, adlandırılan bölgeye yazılır. Bu Excel dosyası, sistem Alman Lokalize olarak yapılandırılmış bir ortamda açılabilir, ancak İngilizce formül Almanca'ya çevrilecektir. Aşağıdaki örnek, bu özelliği göstermektedir, ancak Almanca olarak Excel kurulu ve sistem yereli de Alman olarak ayarlanmış olmalıdır.
 
 Bu özelliği test etmek için örnek dosya aşağıdaki bağlantıdan indirilebilir:
 

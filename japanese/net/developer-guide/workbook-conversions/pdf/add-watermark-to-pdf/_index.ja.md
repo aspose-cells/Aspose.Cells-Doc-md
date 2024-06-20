@@ -1,20 +1,21 @@
 ---
-title: PDF に透かしを追加
+title: PDFに透かしを追加する
 type: docs
 weight: 9
 url: /ja/net/add-watermark-to-pdf/
 ---
-Excel ファイルを PDF に変換する際、PDF ファイルに透かしを追加する必要がある場合があります。次の例は、PDF へのレンダリング中に PDF にテキストと画像の透かしを追加する方法を示しています。
 
-##   **PDF にテキストの透かしを追加**
+ExcelファイルをPDFに変換する際、PDFファイルに透かしを追加する要件がある場合があります。次の例では、PDFに変換する際にテキストや画像の透かしを追加する方法が示されています。
 
-テキストと対応するフォントを指定することで、PDF にテキストの透かしを簡単に追加できます。また、配置、オフセット、回転、不透明度、前景/背景、ページのスケールを設定することもできます。[レンダリング透かし](https://reference.aspose.com/cells/net/aspose.cells.rendering/renderingwatermark/).
+## **PDFにテキスト透かしを追加する**
+
+特定のテキストと対応するフォントを指定して、PDF にテキストウォーターマークを簡単に追加できます。また、[RenderingWatermark](https://reference.aspose.com/cells/net/aspose.cells.rendering/renderingwatermark/)を使用して、配置、オフセット、回転、不透明度、前景色/背景色、およびページへのスケールを設定できます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-AddTextWatermarkToPdf.cs" >}}
 
-##  **画像の透かしを PDF に追加**
+## **PDFに画像透かしを追加する**
 
-画像の画像バイトを指定するだけで、PDF に画像の透かしを追加できます。また、配置、オフセット、回転、不透明度、前景/背景、ページのスケールを設定することもできます。[レンダリング透かし](https://reference.aspose.com/cells/net/aspose.cells.rendering/renderingwatermark/).
+画像のバイトを指定するだけで、PDF に画像ウォーターマークを追加できます。また、[RenderingWatermark](https://reference.aspose.com/cells/net/aspose.cells.rendering/renderingwatermark/)を使用して、配置、オフセット、回転、不透明度、前景色/背景色、およびページへのスケールを設定できます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Docs-Pdf-AddImageWatermarkToPdf.cs" >}}
 

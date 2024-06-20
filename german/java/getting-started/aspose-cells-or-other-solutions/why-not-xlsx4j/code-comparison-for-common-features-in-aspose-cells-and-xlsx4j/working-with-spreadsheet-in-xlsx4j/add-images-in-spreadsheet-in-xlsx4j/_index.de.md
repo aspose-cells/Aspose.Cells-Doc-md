@@ -1,15 +1,16 @@
-﻿---
-title: Fügen Sie Bilder in der Tabelle in xlsx4j hinzu
+---
+title: Bilder in Tabellenkalkulation in xlsx4j hinzufügen
 type: docs
 weight: 20
 url: /de/java/add-images-in-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells – Bilder in Tabellenkalkulation hinzufügen**
-Die Bildklasse ist verfügbar, um mit Bildern im Arbeitsblatt umzugehen
+
+## **Aspose.Cells - Bilder in Tabellenkalkulation hinzufügen**
+Die Picture-Klasse steht zur Verfügung, um Bilder im Arbeitsblatt zu bearbeiten
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -27,13 +28,13 @@ Picture picture = sheet.getPictures().get(pictureIndex);
 
 {{< /highlight >}}
 ## **xlsx4j - Bilder in Tabellenkalkulation hinzufügen**
-Für den Umgang mit Bildern im Arbeitsblatt steht eine Zeichenklasse zur Verfügung
+Die Drawing-Klasse steht zur Verfügung, um Bilder im Arbeitsblatt zu bearbeiten
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "AddImage-Xlsx4j.xlsx";
 
@@ -406,13 +407,13 @@ public static CTDrawing buildDrawingPartContentFromXmlString(String imageRelID) 
 }
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addimage)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Fügen Sie Bild-Hyperlinks hinzu](/java/add-image-hyperlinks).
+Für weitere Details besuchen Sie [Bild-Hyperlinks hinzufügen](/java/bild-hyperlinks-hinzufügen).
 
 {{% /alert %}}

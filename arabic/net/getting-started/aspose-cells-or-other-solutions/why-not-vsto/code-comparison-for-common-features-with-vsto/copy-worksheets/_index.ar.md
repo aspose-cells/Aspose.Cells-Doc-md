@@ -1,17 +1,18 @@
-﻿---
+---
 title: نسخ أوراق العمل
 type: docs
 weight: 60
 url: /ar/net/copy-worksheets/
 ---
+
 ## **نصيحة الهجرة:**
-\ 1. إنشاء كائن المصنف والحصول على ورقة العمل.
-\ 2. أدخل نصًا في ورقة العمل.
-\ 3. قم بإنشاء ورقة عمل جديدة وانسخها إلى ورقة عمل سابقة الصنع.
+\1.  إنشاء كائن الورقة العمل والحصول على ورقة العمل.
+\2.  إدراج نص في ورقة العمل.
+\3.  إنشاء ورقة العمل الجديدة ونسخها إلى الورقة السابقة قبل إتمام ورقة العمل.
 ### **VSTO**
-خطأ في عرض الماكرو 'code': تم تحديد قيمة غير صالحة للمعامل lang
+خطا في المقاطعة 'الكود' : قيمة غير صالحة محددة لمعامل اللغة
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   private static string fileName ="CopyWorksheets.xlsx";
 
@@ -31,4 +32,4 @@ url: /ar/net/copy-worksheets/
 
 {{< /highlight >}}
 ## **تحميل**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)

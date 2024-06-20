@@ -1,18 +1,19 @@
-﻿---
+---
 title: Insertar línea de tiempo
-linktitle: Cronologías
+linktitle: Líneas de tiempo
 type: docs
 weight: 170
 url: /es/java/create-timeline/
-description: Aprenda a crear una línea de tiempo con Aspose.Cells para java.
+description: Aprenda cómo crear una línea de tiempo con Aspose.Cells para Java.
 ---
-## **Posibles escenarios de uso**
 
- En lugar de ajustar los filtros para mostrar las fechas, puede usar una línea de tiempo de tabla dinámica, una opción de filtro dinámico que le permite filtrar fácilmente por fecha/hora y acercar el período que desee con un control deslizante. Microsoft Excel le permite crear una línea de tiempo seleccionando una tabla dinámica y luego haciendo clic en el*Insertar > Línea de tiempo*. Aspose.Cells para java también le permite crear una línea de tiempo utilizando el método [**Worksheet.getTimelines.add()**].
+## **Escenarios de uso posibles**
 
-## **Crear línea de tiempo en una tabla dinámica**
+En lugar de ajustar filtros para mostrar fechas, puede usar una línea de tiempo de tabla dinámica: una opción de filtro dinámico que le permite filtrar fácilmente por fecha/hora y hacer zoom sobre el período que desee con un control deslizante. Microsoft Excel le permite crear una línea de tiempo seleccionando una tabla dinámica y haciendo clic en *Insertar > Línea de tiempo*. Aspose.Cells para Java también le permite crear líneas de tiempo usando el método [**Worksheet.getTimelines.add()**].
 
- Consulte el siguiente código de ejemplo. carga el[ejemplo de archivo de Excel](input.xlsx) que contiene la tabla dinámica. A continuación, crea la línea de tiempo basada en el campo pivote de la primera base. Finalmente, guarda el libro de trabajo en[salida XLSX](output.xlsx) formato. La siguiente captura de pantalla muestra la línea de tiempo creada por Aspose.Cells en el archivo de salida de Excel.
+## **Crear una línea de tiempo para una Tabla Dinámica**
+
+Por favor, consulta el siguiente código de muestra. Carga el [archivo Excel de muestra](input.xlsx) que contiene la tabla dinámica. Luego crea la línea de tiempo basada en el primer campo pivote base. Finalmente, guarda el libro de trabajo en formato [XLSX de salida](output.xlsx). La siguiente captura de pantalla muestra la línea de tiempo creada por Aspose.Cells en el archivo Excel de salida.
 
 <img src="create-timeline-to-a-pivot-table_1.png" width="60%">
 

@@ -1,27 +1,28 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.9.2
+---
+title: Offentliga API ändringar i Aspose.Cells 8.9.2
 type: docs
 weight: 320
 url: /sv/net/public-api-changes-in-aspose-cells-8-9-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.9.1 till 8.9.2 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Det här dokumentet beskriver ändringarna i Aspose.Cells API från version 8.9.1 till 8.9.2 som kan vara av intresse för modul/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Kontrollera också[Offentlig API Ändringar införda i Aspose.Cells for .NET 8.9.1](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1)
+Vänligen kontrollera även [Offentliga API-ändringar introducerade i Aspose.Cells for .NET 8.9.1](http://aspose.com/docs/display/cellsnet/Public+API+Changes+in+Aspose.Cells+8.9.1)
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Lagt till TextOptions Class & FontSettings.TextOptions Property**
-Aspose.Cells for .NET har exponerat TextOptions-klassen tillsammans med FontSettings.TextOptions-egenskapen för att kontrollera utseendet på textdelar av en Shape.
+## **Tillagda API:er**
+### **Tillagd TextOptions Klass & FontSettings.TextOptions Egendom**
+Aspose.Cells for .NET har exponerat TextOptions-klassen tillsammans med FontSettings.TextOptions egenskap för att kontrollera utseendet på textdelarna av en form.
 
-Här är ett enkelt användningsscenario för FontSettings.TextOptions-egenskapen.
+Här är det enkla användningscenariot för FontSettings.TextOptions egendomen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -42,14 +43,14 @@ var textOptions = shape.TextBody[1].TextOptions;
 {{< /highlight >}}
 
 
-### **Lade till TextOptions.Fill, Outline & Shadow Properties**
-Aspose.Cells for .NET 8.9.2 har exponerat egenskaperna TextOptions.Fill, TextOptions.Outline och TextOptions.Shadow som gör det möjligt att kontrollera aspekterna av textinnehållet i formen, såsom fyllning, skugga och kontur respektive.
+### **Tillagd TextOptions.Fill, Outline & Shadow Egenskaper**
+Aspose.Cells for .NET 8.9.2 har exponerat TextOptions.Fill, TextOptions.Outline & TextOptions.Shadow egenskaper som möjliggör kontroll av aspekterna av de textuella innehållen i formen, såsom fyllnad, skugga & kontur.
 
-Här är ett enkelt användningsscenario för ovannämnda egenskaper.
+Här är det enkla användningscenariot för ovanstående egenskaper.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -88,14 +89,14 @@ textOptions.Outline.SetOneColorGradient(Color.Blue, 0.3, GradientStyleType.Horiz
 {{< /highlight >}}
 
 
-### **Lade till Shape.Line-egenskap**
-Aspose.Cells for .NET har exponerat egenskapen Shape.Line som returnerar en instans av LineFormat för att kontrollera utseendet på konturerna av en Shape.
+### **Tillagd Shape.Line Egendom**
+Aspose.Cells for .NET har exponerat Shape.Line-egenskapen som returnerar en instans av LineFormat för att styra utseendet på konturer av en form.
 
-Här är ett enkelt användningsscenario för Shape.Line-egenskapen.
+Här är ett enkelt användningsscenariot för Shape.Line-egenskapen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -120,14 +121,14 @@ line.Weight = 1;
 {{< /highlight >}}
 
 
-### **Lade till egenskapen Shape.Fill**
-Aspose.Cells for .NET 8.9.2 har exponerat egenskapen Shape.Fill som returnerar en instans av FillFormat för att kontrollera de olika aspekterna av formområdet.
+### **Tillagd Shape.Fill Egendom**
+Aspose.Cells for .NET 8.9.2 har exponerat Shape.Fill-egenskapen som returnerar en instans av FillFormat för att styra olika aspekter av formområdet.
 
-Följande är det enkla användningsscenariot för Shape.Fill-egenskapen.
+Följande är det enkla användningscenariot för Shape.Fill egendomen.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize Workbook instance
 
@@ -150,16 +151,16 @@ var fill = shape.Fill;
 fill.SetOneColorGradient(Color.Red, 0.1, GradientStyleType.Horizontal, 2);
 
 {{< /highlight >}}
-## **Föråldrade API:er**
-### **Föråldrad ShapeFont Class**
-Använd TextOptions-klassen istället.
-### **Föråldrad ShapeFormat Class**
-Använd egenskaperna Shape.Fill och Shape.Line direkt.
-### **Föråldrad Shape.Format Property**
-Använd egenskaperna Shape.Fill och Shape.Line direkt.
-### **Föråldrad Shape.LineFormat-egenskap**
-Använd egenskapen Shape.Line istället.
-### **Föråldrad Shape.FillFormat-egenskap**
+## **Obsoletterade API:er**
+### **Föråldrad ShapeFont Klass**
+Använd istället TextOptions-klassen.
+### **Föråldrad ShapeFormat Klass**
+Använd direkt Shape.Fill- och Shape.Line-egenskaper.
+### **Obsolet Shape.Format-egenskap**
+Använd direkt Shape.Fill- och Shape.Line-egenskaper.
+### **Obsolet Shape.LineFormat-egenskap**
+Använd Shape.Line-egenskapen istället.
+### **Obsolet Shape.FillFormat-egenskap**
 Använd Shape.Fill-egenskapen istället.
-### **Föråldrad FontSetting.ShapeFont-egenskap**
-Använd egenskapen FontSetting.TextOptions istället.
+### **Obsolet FontSetting.ShapeFont-egenskap**
+Använd FontSetting.TextOptions-egenskapen istället.

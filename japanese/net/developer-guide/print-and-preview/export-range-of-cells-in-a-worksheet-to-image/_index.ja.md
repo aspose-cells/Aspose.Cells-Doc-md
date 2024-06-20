@@ -1,22 +1,23 @@
-﻿---
-title: ワークシートの Cells の範囲を画像にエクスポート
+---
+title: ワークシート内のセルの範囲をイメージにエクスポート
 type: docs
 weight: 60
 url: /ja/net/export-range-of-cells-in-a-worksheet-to-image/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells を使用してワークシートの画像を作成できます。ただし、ワークシート内のセルの範囲のみを画像にエクスポートする必要がある場合があります。この記事では、これを実現する方法について説明します。
+## **可能な使用シナリオ**
 
-## **ワークシートの Cells の範囲を画像にエクスポート**
+Aspose.Cellsを使用してワークシートのイメージを作成できます。ただし、ワークシート内のセルの範囲をイメージにエクスポートする必要がある場合があります。この記事では、これをどのように行うかについて説明します。
 
-範囲の画像を取得するには、印刷領域を目的の範囲に設定し、すべての余白を 0 に設定します。[**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet)に**真実** .次のコードは、範囲 D8:G16 の画像を取得します。以下は、[サンプル Excel ファイル](47153160.xlsx)コードで使用されます。任意の Excel ファイルでコードを試すことができます。
+## **ワークシートのセルの範囲をイメージにエクスポート**
 
-## **サンプル Excel ファイルとエクスポートされた画像のスクリーンショット**
+範囲のイメージを取得するには、印刷範囲を所定の範囲に設定し、すべての余白を0に設定し、さらに[**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet) を **true**に設定します。次のコードは、範囲D8:G16のイメージを取得します。下のスクリーンショットは、コードで使用される[サンプルExcelファイル](47153160.xlsx)のイメージです。任意のExcelファイルでコードを試すことができます。
 
-**![todo:image_alt_text](export-range-of-cells in a worksheet-to-image_1.png)**
+## **サンプルExcelファイルのスクリーンショットとそのエクスポートされたイメージ**
 
-コードを実行すると、範囲 D8:G16 のみのイメージが作成されます。
+**![todo:image_alt_text](export-range-of-cells-in-a-worksheet-to-image_1.png)**
+
+コードを実行すると、範囲D8:G16のイメージが作成されます。
 
 **![todo:image_alt_text](Output-Image.png)**
 

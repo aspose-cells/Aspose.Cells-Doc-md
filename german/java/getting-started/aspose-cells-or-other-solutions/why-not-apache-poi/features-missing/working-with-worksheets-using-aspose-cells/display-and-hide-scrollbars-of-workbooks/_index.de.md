@@ -1,15 +1,16 @@
-﻿---
-title: Bildlaufleisten von Arbeitsmappen anzeigen und ausblenden
+---
+title: Anzeigen und Ausblenden von Bildlaufleisten in Arbeitsmappen
 type: docs
 weight: 40
 url: /de/java/display-and-hide-scrollbars-of-workbooks/
 ---
-## **Aspose.Cells – Bildlaufleisten von Arbeitsmappen anzeigen und ausblenden**
- Aspose.Cells bietet eine Klasse,**Arbeitsmappe** die eine Excel-Datei darstellt.**Arbeitsmappe** -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten einer Excel-Datei. Aber um die Sichtbarkeit der Bildlaufleisten in der Excel-Datei zu steuern, können Entwickler verwenden**setVScrollBarVisible** & **setHScrollBarVisible** Methoden der**Arbeitsmappe** Klasse.
+
+## **Aspose.Cells - Anzeigen und Ausblenden von Bildlaufleisten von Arbeitsmappen**
+Aspose.Cells bietet eine Klasse, **Workbook**, die eine Excel-Datei repräsentiert. Die Klasse **Workbook** bietet eine Vielzahl von Eigenschaften und Methoden zur Verwaltung einer Excel-Datei. Um jedoch die Sichtbarkeit der Bildlaufleisten in der Excel-Datei zu steuern, können Entwickler die Methoden **setVScrollBarVisible** und **setHScrollBarVisible** der Klasse **Workbook** verwenden.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -43,7 +44,7 @@ workbook.save(dataDir + "AsposeDisplaySrollbars.xls");
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Beispielcode herunterladen**

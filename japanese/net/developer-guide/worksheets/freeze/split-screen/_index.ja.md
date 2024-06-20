@@ -1,56 +1,53 @@
 ---
-title: Excelワークシートの分割画面
-linktitle: 画面を分割
+title: Excelワークシートの画面分割
+linktitle: 画面分割
 type: docs
 weight: 190
 url: /ja/net/how-to-split-screen-of-excel-worksheet
-description: この記事では、C# Library with .NET API を使用して、プログラムでワークシートを 2 つまたは 4 つの部分に分割し、特定の行や列を別のペインに表示する方法を学習します。
-keywords: Freeze top rows, Feeze top row.
+description: この記事では、C#ライブラリと.NET APIを使用して、ワークシートをプログラムで2つまたは4つの部分に分割して特定の行と/または列を別のペインに表示する方法を学びます。
+keywords: 上部行を固定、上部行を固定
 ---
-{{% alert color="primary" %}}
 
-この記事では、ワークシートを 2 つまたは 4 つの部分に分割して、特定の行や列を別のペインに表示する方法を学びます。
-大規模なデータセットを扱う場合、データの異なるサブセットを比較するには、一度に同じワークシートのいくつかの領域を表示する必要があります。
-画面分割機能はあなたのニーズを満たすことができます。
+## **紹介**
 
-{{% /alert %}}
+この記事では、ワークシートを2つまたは4つの部分に分割し、特定の行や列を別々のウィンドウで表示する方法について学びます。大規模なデータセットを扱うときには、同じワークシートのいくつかの領域を同時に見る必要があることがあります。分割表示機能を使用して、必要な領域を比較するために同じワークシートの異なる部分を見ることができます。
 
-##  **Excelで画面を分割する方法**
-ワークシートを 2 つまたは 4 つの部分に分割するには、次の手順を実行します。
+## **Excelで画面を分割する方法**
+ワークシートを2つまたは4つの部分に分割するには、次のようにします:
 
-1. 分割を配置する前にある行/列/セルを選択します。
-2. [表示] タブの Windows グループで、[分割] ボタンをクリックします。
+1. 分割を配置したい行/列/セルを選択します。
+2. [表示]タブの[ウィンドウ]グループで、[分割]ボタンをクリックします。
 
-**![画面分割](画面分割.png)**
+**![画面分割](Split-Screen.png)**
 
-##  **ワークシートを列ごとに垂直に分割します**
+## **列単位でワークシートを分割**
 
-スプレッドシートの 2 つの領域を垂直に分割するには、分割を表示する列の右側の列を選択し、Excel で [分割] ボタンをクリックします。
+スプレッドシートの2つの領域を垂直に分割するには、分割を表示したい列の右側の列を選択し、Excelの[分割]ボタンをクリックします。
 
-.Net の Aspose.Cells を使用すると、プログラムでワークシートを列ごとに垂直に分割するのが簡単です。一番上の行の 1 つのセルをアクティブ セルとして選択するだけで済みます。
-と分割[**ワークシート.分割**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/)方法。
+.NetのAspose.Cellsを使用して、プログラムで縦にスプレッドシートを簡単に分割することができます。上部行で1つのセルをアクティブセルとして選択し、次に
+method [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) で分割します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Vertically-Split.cs" >}}
 
-##  **ワークシートを行ごとに水平に分割します**
-Excel ウィンドウを水平方向に分割するには、Excel で分割したい行の下の行を選択します。
+## **行単位でワークシートを分割**
+Excelウィンドウを水平に分割するには、Excelで分割が発生する行の下の行を選択します。
 
-.Net の Aspose.Cells を使用すると、プログラム的にワークシートを行ごとに水平に分割するのが簡単です。左側の列の 1 つのセルをアクティブ セルとして選択するだけで済みます。
-と分割[**ワークシート.分割**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/)方法。
+.NetのAspose.Cellsを使用して、プログラムで行単位のスプレッドシートを簡単に分割することができます。最初の行と列のセルで1つのセルをアクティブセルとして選択し、次に
+method [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) で分割します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Horizontally-Split.cs" >}}
 
-##  **ワークシートを 4 つの部分に分割する**
-同じワークシートの 4 つの異なるセクションを同時に表示するには、Excel で画面を垂直方向と水平方向の両方に分割します。
+## **ワークシートを4つの部分に分割する**
+同じワークシートの4つの異なるセクションを同時に表示するには、Excelで画面を縦横に分割します。
 
-.Net の Aspose.Cells を使用すると、プログラムでワークシートを列ごとに垂直に分割するのが簡単です。最初の行と列にない 1 つのセルをアクティブ セルとして選択するだけで済みます。
-と分割[**ワークシート.分割**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/)方法。
+.NetのAspose.Cellsを使用して、プログラムで縦にスプレッドシートを簡単に分割することができます。最初の行と列以外のセルで1つのセルをアクティブセルとして選択し、次に
+method [**Worksheet.Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/split/) で分割します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Split-Four.cs" >}}
 
-##  **分割を解除する方法**
-ワークシートの分割を解除するには、「分割」ボタンを再度クリックします。
+## **分割を削除する方法**
+ワークシートの分割を解除するには、再び分割ボタンをクリックします。
 
- .Net の場合は Aspose.Cells が提供します。[**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/)分割設定を解除する方法です。
+Aspose.Cells for .Net は、分割設定を削除するための [**Worksheet.RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/removesplit/) メソッドを提供しています。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Remove-Split.cs" >}}

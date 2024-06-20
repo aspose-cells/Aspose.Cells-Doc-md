@@ -1,15 +1,16 @@
-﻿---
-title: Anteprima dell'interruzione di pagina in Php
+---
+title: Anteprima di interruzioni di pagina in Php
 type: docs
 weight: 60
 url: /it/java/page-break-preview-in-php/
 ---
-## **Aspose.Cells - Anteprima interruzione di pagina**
- Per impostare il foglio di lavoro sull'anteprima dell'interruzione di pagina utilizzando**Aspose.Cells Java for PHP** , semplicemente invocare**Anteprima interruzione di pagina** modulo.
+
+## **Aspose.Cells - Anteprima interruz. pagina**
+Per impostare il foglio di lavoro in anteprima delle interruzioni di pagina usando **Aspose.Cells Java per PHP**, invoca semplicemente il modulo **PageBreakPreview**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -31,6 +32,6 @@ $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Anteprima interruzione di pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Anteprima interruzioni di pagina (Aspose.Cells)** da uno qualsiasi dei siti di codici sociali menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/PageBreakPreview.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/PageBreakPreview.php)

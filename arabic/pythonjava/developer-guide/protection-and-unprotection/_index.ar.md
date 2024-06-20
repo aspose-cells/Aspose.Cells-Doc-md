@@ -1,21 +1,23 @@
-﻿---
-title: حماية وإلغاء الحماية
-linktitle: حماية
+---
+title: حماية وفك الحماية
+linktitle: الحماية
 type: docs
 weight: 40
 url: /ar/python-java/protect-and-unprotect/
-description: يقدم هذا المقتطف كيفية تشفير وفك تشفير ملفات Excel ، وحماية وإلغاء حماية البيانات في ملفات Excel باستخدام أكواد Python.
+description: يقدم هذا المقتطف كيفية تشفير وفك تشفير ملفات Excel، وحماية وفك حماية البيانات في ملفات Excel باستخدام رموز Python.
 ---
+
+
 {{% alert color="primary" %}}
-Aspose.Cells for Python يقدم مجموعة واسعة من الحماية وإلغاء الحماية من ملف إلى مستوى البيانات مثل MS Excel:
+يقدم Aspose.Cells for Python مجموعة واسعة من الحماية وفك الحماية من مستوى الملف إلى مستوى البيانات مثل MS Excel:
 {{% /alert %}}
 
 
-## [**تشفير وفك تشفير ملفات Excel**](/cells/ar/python-java/encrypt-and-decrypt-excel-files/)
-لمنع الآخرين من الوصول إلى البيانات في ملفات Excel ، قم بحماية ملف Excel بكلمة مرور.
+## [**Encrypt and decrypt Excel files**](/cells/ar/python-java/encrypt-and-decrypt-excel-files/)
+لمنع الآخرين من الوصول إلى البيانات في ملفات Excel، قم بحماية ملف Excel بكلمة مرور.
 
-## [**حماية وإلغاء حماية المصنف**](/cells/ar/python-java/protect-and-unprotect-workbook-structure/)
-لمنع المستخدمين الآخرين من عرض أوراق العمل المخفية أو إضافة أوراق العمل أو نقلها أو حذفها أو إخفائها وإعادة تسمية أوراق العمل ، يمكنك حماية بنية مصنف Excel بكلمة مرور.
+## [**Protect and unprotect workbook**](/cells/ar/python-java/protect-and-unprotect-workbook-structure/)
+لمنع المستخدمين الآخرين من عرض أوراق عمل مخفية، أو إضافتها، أو نقلها، أو حذفها، أو إخفاءها، أو إعادة تسميتها، يمكنك حماية هيكل دفتر العمل الخاص بك بكلمة مرور.
 
-## [**حماية وإلغاء حماية ورقة العمل**](/cells/ar/python-java/protect-and-unprotect-worksheet/)
-لمنع المستخدمين الآخرين من تغيير البيانات في ورقة عمل أو نقلها أو حذفها عن طريق الخطأ أو عن عمد ، يمكنك قفل الخلايا في ورقة عمل Excel ثم حماية الورقة بكلمة مرور.
+## [**Protect and unprotect worksheet**](/cells/ar/python-java/protect-and-unprotect-worksheet/)
+لمنع مستخدمين آخرين من تغيير البيانات في ورقة العمل عن طريق الخطأ أو بشكل متعمد، يمكنك قفل الخلايا في ورقة العمل الخاصة بك ثم حماية الورقة بكلمة مرور. 

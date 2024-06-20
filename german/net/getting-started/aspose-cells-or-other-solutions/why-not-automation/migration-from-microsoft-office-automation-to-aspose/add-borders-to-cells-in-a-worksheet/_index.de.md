@@ -1,46 +1,47 @@
-﻿---
-title: Fügen Sie Grenzen zu Cells in einem Arbeitsblatt hinzu
+---
+title: Rahmen zu Zellen in einem Arbeitsblatt hinzufügen
 type: docs
 weight: 50
 url: /de/net/add-borders-to-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Mit Aspose.Cells for .NET können Sie fast alle Aufgaben über Ihre Anwendung ausführen, die ein Benutzer in Microsoft Excel ausführen kann. Aspose.Cells ist leistungsstark und robust und hat den zusätzlichen Vorteil, unabhängig von Microsoft Automation zu arbeiten. Dieser Artikel zeigt, wie Sie Zellen in einem Arbeitsblatt mithilfe von Aspose.Cells for .NET im Vergleich zu VSTO Rahmen hinzufügen.
+Aspose.Cells for .NET ermöglicht es Ihnen, nahezu alle Aufgaben in Ihrer Anwendung durchzuführen, die ein Benutzer in Microsoft Excel ausführen kann. Aspose.Cells ist leistungsstark und robust und hat den zusätzlichen Vorteil, unabhängig von Microsoft Automation zu arbeiten. Dieser Artikel zeigt, wie Sie Rahmen zu Zellen in einem Arbeitsblatt hinzufügen können, und vergleicht dies mit VSTO.
 
 {{% /alert %}}
 
-## **Grenzen zu Cells hinzufügen**
+## **Rahmen zu Zellen hinzufügen**
 
-Führen Sie die folgenden Schritte aus, um Rahmen zu Zellen in einer Tabelle hinzuzufügen:
+Um Rahmen zu Zellen in einem Tabellenblatt hinzuzufügen, befolgen Sie die folgenden Schritte:
 
-1. Erstellen Sie das Arbeitsblatt:
- 1. Instanziieren Sie ein Anwendungsobjekt.
- (Nur VSTO.)
- 1. Fügen Sie eine Arbeitsmappe hinzu.
- 1. Holen Sie sich das erste Blatt.
- 1. Fügen Sie Text zu den Zellen hinzu, denen Sie Rahmen hinzufügen möchten.
-1. Grenzen hinzufügen:
- 1. Definieren Sie einen Bereich.
-1. Wenden Sie einen Rahmenstil auf den Bereich an.
- Wiederholen Sie dies für jeden Bereich und jeden Rahmenstil, den Sie festlegen möchten. Dieses Beispiel wendet Haarlinien, dünne, mittlere und dicke Linien an.
-1. Fertig:
- 1. Passen Sie die Spalte, in der sich die Zellen befinden, automatisch an den Text an.
- 1. Speichern Sie das Dokument.
+1. Richten Sie das Arbeitsblatt ein:
+   1. Instanziieren Sie ein Application-Objekt.
+      (Nur VSTO.)
+   1. Fügen Sie ein Arbeitsbuch hinzu.
+   1. Holen Sie sich das erste Blatt.
+   1. Fügen Sie Text zu den Zellen hinzu, denen Sie Rahmen hinzufügen werden.
+1. Füge Rahmen hinzu:
+   1. Definieren Sie einen Bereich.
+   1. Wenden Sie einen Rahmenstil auf den Bereich an.
+      Wiederholen Sie für jeden Bereich und jeden Rahmenstil, den Sie festlegen möchten. Dieses Beispiel wendet Haargrenzen, dünne, mittlere und dicke Linien an.
+1. Beenden:
+   1. Passen Sie die Spalte an, in der sich die Zellen befinden, automatisch an, um den Text ordentlich zu passen.
+   1. Speichern Sie das Dokument.
 
- Diese Schritte sind im folgenden Code dargestellt. Die ersten Codebeispiele zeigen, wie man sie mit implementiert[VSTO](/cells/de/net/add-borders-to-cells-in-a-worksheet/) entweder mit C# oder Visual Basic. Nach den VSTO-Beispielen folgen Beispiele, die zeigen, wie dieselben Schritte mit ausgeführt werden[Aspose.Cells for .NET](/cells/de/net/add-borders-to-cells-in-a-worksheet/), wiederum entweder mit C# oder Visual Basic. Die Codebeispiele für Aspose.Cells sind viel kürzer, da Aspose.Cells für effizientes Codieren optimiert ist.
+Diese Schritte sind im unten stehenden Code dargestellt. Die ersten Codebeispiele zeigen, wie Sie sie mithilfe von [VSTO](/cells/de/net/add-borders-to-cells-in-a-worksheet/) mit entweder C# oder Visual Basic implementieren. Nach den VSTO-Beispielen folgen Beispiele, die zeigen, wie Sie dieselben Schritte mithilfe von [Aspose.Cells for .NET](/cells/de/net/add-borders-to-cells-in-a-worksheet/) durchführen, wiederum unter Verwendung von C# oder Visual Basic. Die Aspose.Cells-Codebeispiele sind viel kürzer, weil Aspose.Cells für effizientes Codieren optimiert ist.
 
-Der Code generiert eine Excel-Datei mit einer Reihe von Zellen auf dem ersten Blatt, jede mit einem anderen Rahmen:
+Der Code generiert eine Excel-Datei mit einer Anzahl von Zellen auf dem ersten Blatt, von denen jede einen anderen Rahmen hat:
 
-![todo: Bild_alt_Text](add-borders-to-cells-in-a-worksheet_1.png)
+![todo:image_alt_text](add-borders-to-cells-in-a-worksheet_1.png)
 
-**Cells mit aufgebrachten Rändern.**
+**Zellen mit angewendeten Rahmen.**
 
-### **Hinzufügen von Grenzen mit VSTO**
+### **Hinzufügen von Rahmen mit VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -70,13 +71,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -186,11 +187,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Rahmen hinzufügen mit Aspose.Cells for .NET**
+### **Hinzufügen von Rahmen mit Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

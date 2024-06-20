@@ -1,19 +1,20 @@
-﻿---
-title: Excel を PDF に標準サイズまたは最小サイズで保存
+---
+title: Excelを標準サイズまたは最小サイズのPDFに保存する
 type: docs
 weight: 340
 url: /ja/net/save-excel-into-pdf-with-standard-or-minimum-size/
 ---
+
 {{% alert color="primary" %}} 
 
-デフォルトでは、Aspose.Cells は Excel を PDF に標準サイズで保存します。ただし、を使用して最小サイズで保存することもできます[PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype)財産。次の値を受け入れます
+デフォルトでは、Aspose.CellsはExcelを標準サイズでPDFに保存します。ただし、[PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype)プロパティを使用して、最小サイズで保存することもできます。次の値が受け入れられます
 
 - PdfOptimizationType.Standard
 - PdfOptimizationType.MinimumSize
 
 {{% /alert %}} 
-## **Aspose.Cells を使用して、標準サイズまたは最小サイズで Excel を PDF に保存します。**
-次のサンプル コードは、Excel を標準サイズまたは最小サイズで PDF に保存する方法を示しています。[PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype)財産。
+## **Aspose.Cellsを使用してExcelを標準サイズまたは最小サイズのPDFに保存する**
+[PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype)プロパティを使用して、Excelを標準サイズまたは最小サイズでPDFに保存する方法を示すサンプルコードが以下に示されています。
 
 
 

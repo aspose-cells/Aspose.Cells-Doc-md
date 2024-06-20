@@ -1,18 +1,19 @@
-﻿---
-title: Tabelleneditor-Wissensdatenbank
+---
+title: Wissensdatenbank des Tabellen Editors
 type: docs
 weight: 30
 url: /de/java/spreadsheet-editor-knowledge-base/
 ---
-## **Betten Sie den HTML5-Tabellen-Editor überall ein**
 
-Der HTML5-Tabellen-Editor kann in jede Website, jeden Blog und jedes Forum eingebettet werden, um Tabellen über das Internet zu teilen. Es kann als eigenständiger Editor eingebettet oder mit einer Tabellenkalkulationsdatei geladen werden.
+## **Einbetten des HTML5 Tabellen-Editors überall**
 
-**Als eigenständiger Editor einbetten**
+Der HTML5 Tabellen-Editor kann in jede Webseite, Blog und Foren eingebettet werden, um Tabellen über das Internet zu teilen. Er kann als eigenständiger Editor eingebettet werden oder Sie können ihn mit einer Tabellendatei laden.
 
-Verwenden Sie zum Einbetten als eigenständiger Editor das IFRAME-Tag HTML, um es der Website hinzuzufügen. Zum Beispiel:
+**Als eigenständigen Editor einbetten**
 
-{{< highlight "html" >}}
+Um als eigenständiger Editor eingebettet zu werden, verwenden Sie das HTML IFRAME-Tag, das in die Webseite eingefügt wird. Zum Beispiel:
+
+{{< highlight html >}}
 
  <iframe src="http://spreadsheet-editor.aspose.com/" width="800" height="600">
 
@@ -24,9 +25,9 @@ Verwenden Sie zum Einbetten als eigenständiger Editor das IFRAME-Tag HTML, um e
 
 **Mit einer Tabelle einbetten**
 
- So laden Sie eine Tabelle in einen eingebetteten Editor**URL** Parameter. Zum Beispiel:
+Um eine Tabelle in einen eingebetteten Editor zu laden, verwenden Sie den **url**-Parameter. Zum Beispiel:
 
-{{< highlight "html" >}}
+{{< highlight html >}}
 
  <iframe src="http://spreadsheet-editor.aspose.com/?url=http://example.com/Sample.xlsx" width="800" height="600">
 

@@ -1,13 +1,14 @@
-﻿---
-title: リスト オブジェクトの書式設定
+---
+title: リストオブジェクトの整形
 type: docs
 weight: 30
 url: /ja/python-java/formatting-list-object/
 ---
-## **リスト オブジェクトの書式設定**
-テーブルは、他の行や列のデータとは独立して管理される関連データを含む一連の行と列です。既定では、テーブルのすべての列のヘッダー行でフィルター処理が有効になっているため、リスト オブジェクト データをすばやくフィルター処理または並べ替えることができます。各合計行セルの集計関数のドロップダウン リストを提供するリスト オブジェクトに、合計行 (数値データの操作に役立つ集計関数の選択を提供するリスト内の特別な行) を追加できます。
 
-Aspose.Cells は、List オブジェクトの書式設定をサポートしています。このために、あなた API は[ListObject](https://reference.aspose.com/cells/python/asposecells.api/ListObject)と[表スタイルの種類](https://reference.aspose.com/cells/python/asposecells.api/TableStyleType)クラス。の[表スタイルの種類](https://reference.aspose.com/cells/python/asposecells.api/TableStyleType)クラスには、組み込みのテーブル スタイルを表す定数が含まれています。次のコード スニペットは、新しい List オブジェクトを作成し、テーブル スタイル タイプを[テーブル_スタイル_MEDIUM_10](https://reference.aspose.com/cells/python/asposecells.api/tablestyletype#TABLE_STYLE_MEDIUM_10)
+## **リストオブジェクトの整形**
+テーブルとは、関連するデータを独立して管理する一連の行と列です。テーブルの各列は、ヘッダー行でフィルタリングが有効になっているため、リストオブジェクトデータを素早くフィルタリングまたはソートできます。リストオブジェクトに合計行（数値データで作業するために役立つ集計関数の選択肢を提供するリスト内の特別な行）を追加して、各合計行セルに集計関数のドロップダウンリストを提供することができます。
+
+Aspose.Cellsはリストオブジェクトの整形をサポートしています。これには、[ListObject](https://reference.aspose.com/cells/python/asposecells.api/ListObject)クラスと[TableStyleType](https://reference.aspose.com/cells/python/asposecells.api/TableStyleType)クラスが提供されています。[TableStyleType](https://reference.aspose.com/cells/python/asposecells.api/TableStyleType)クラスには、組み込みのテーブルスタイルを表す定数が含まれています。次のコードスニペットは新しいリストオブジェクトを作成し、テーブルスタイルタイプを[TABLE_STYLE_MEDIUM_10](https://reference.aspose.com/cells/python/asposecells.api/tablestyletype#TABLE_STYLE_MEDIUM_10)に設定します。
 
 
 

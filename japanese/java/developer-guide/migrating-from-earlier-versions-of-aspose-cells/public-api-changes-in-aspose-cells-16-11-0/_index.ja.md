@@ -1,26 +1,27 @@
-﻿---
-title: パブリック API Aspose.Cells 16.11.0 の変更点
+---
+title: Aspose.Cells 16.11.0 での Public API 変更
 type: docs
 weight: 360
 url: /ja/java/public-api-changes-in-aspose-cells-16-11-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 16.10.0 から 16.11.0 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントでは、モジュール/アプリケーション開発者に関連がある可能性のある Aspose.Cells API のバージョン 16.10.0 から 16.11.0 への変更について説明しています。新しいおよび更新された public メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の内部の挙動の変更についても説明しています。
 
 {{% /alert %}} 
-## **追加された API**
+## **APIの追加**
 ### **グローバリゼーション設定のサポート**
-Aspose.Cells 16.11.0 は、WorkbookSettings.GlobalizationSettings プロパティと共に GlobalizationSettings クラスを公開し、Aspose.Cells API で小計にカスタム ラベルを使用するように強制しました。 GlobalizationSettings クラスには次のメソッドがあり、カスタム実装でオーバーライドしてラベルに目的の名前を付けることができます**合計** & **総計**.
+Aspose.Cells 16.11.0 は、Subtotals にカスタム ラベルを使用するように Aspose.Cells API を強制するために GlobalizationSettings クラスと WorkbookSettings.GlobalizationSettings プロパティを公開しました。GlobalizationSettings クラスには、カスタム実装で望ましい名前を指定するためにオーバーライドできる次のメソッドがあります **Total** と **Grand Total**。
 
-- GlobalizationSettings.getTotalName: 関数の完全な名前を取得します。
-- GlobalizationSettings.getGrandTotalName: 関数の総計名を取得します。
+- GlobalizationSettings.getTotalName: 関数の合計名を取得します。
+- GlobalizationSettings.getGrandTotalName: 関数の合計名を取得します。
 
-以下は、GlobalizationSettings クラスを拡張し、前述のメソッドをオーバーライドして統合関数 Average のカスタム ラベルを返す単純なカスタム クラスです。
+GlobalizationSettings クラスを拡張し、前述のメソッドをオーバーライドしてコンソリデーション関数 Average のカスタム ラベルを返す単純なカスタムクラスは次のとおりです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomSettings extends GlobalizationSettings
 
@@ -72,11 +73,11 @@ Aspose.Cells 16.11.0 は、WorkbookSettings.GlobalizationSettings プロパテ�
 
 {{< /highlight >}}
 
-次のスニペットは、既存のスプレッドシートを読み込み、ワークシートで既に使用可能なデータにタイプ Average の小計を追加します。 CustomSettings クラスとその getTotalName および getGrandTotalName メソッドは、小計をワークシートに追加するときに呼び出されます。
+次のコード片は既存のスプレッドシートを読み込み、ワークシートにすでにあるデータに平均の Subtotal を追加します。追加時に CustomSettings クラスとその getTotalName、getGrandTotalName メソッドが呼び出されます。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing some data
 
@@ -96,7 +97,7 @@ Worksheet sheet = book.getWorksheets().get(0);
 
 //Adds SubTotal of type Average to the worksheet
 
-sheet.getCells().subtotal(CellArea.createCellArea("A2", "B9"), 0, ConsolidationFunction.AVERAGE, new int[]{ 0,1 });
+sheet.getCells().subtotal(CellArea.createCellArea("A2", "B9"), 0, ConsolidationFunction.AVERAGE, new int[] { 0,1 });
 
 //Calculates Formulas
 
@@ -112,11 +113,11 @@ book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
 
-GlobalizationSettings クラスは、円グラフの「その他」ラベルの名前を取得するのに役立つ getOtherName メソッドも提供します。以下は、GlobalizationSettings.getOtherName メソッドの簡単な使用シナリオです。
+GlobalizationSettings クラスは Pie チャートの "Other" ラベルの名前を取得するのに役立つ getOtherName メソッドも提供しています。GlobalizationSettings.getOtherName メソッドの簡単な使用シナリオは次のとおりです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomSettings extends GlobalizationSettings
 
@@ -160,11 +161,11 @@ GlobalizationSettings クラスは、円グラフの「その他」ラベルの�
 
 {{< /highlight >}}
 
-次のスニペットは、円グラフを含む既存のスプレッドシートを読み込み、上で作成した CustomSettings クラスを利用しながら、グラフを画像にレンダリングします。
+次のコード片は、Pie チャートを含む既存のスプレッドシートを読み込み、上記で作成した CustomSettings クラスを利用しながらチャートを画像にレンダリングします。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing a pie chart
 
@@ -193,14 +194,14 @@ chart.calculate();
 chart.toImage(dir + "output.png", new ImageOrPrintOptions());
 
 {{< /highlight >}}
-### **CellsFactory クラスを追加**
-Aspose.Cells 16.11.0 は、現在 1 つのメソッドを持つ CellsFactory クラスを公開しました。スタイルを作成します。 CellsFactory.createStyle メソッドを使用すると、ワークブック スタイルのプールに追加せずに Style クラスのインスタンスを作成できます。
+### **CellsFactory クラスを追加しました**
+Aspose.Cells 16.11.0 は、現在 createStyle という1つのメソッドを持つ CellsFactory クラスを公開しました。CellsFactory.createStyle メソッドは、ワークブックのスタイルのプールに追加せずに Style クラスのインスタンスを作成するために使用できます。
 
-CellsFactory.createStyle メソッドの簡単な使用シナリオを次に示します。
+CellsFactory.createStyle メソッドの簡単な使用シナリオは次のとおりです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initializes the CellsFactory class
 
@@ -211,22 +212,22 @@ CellsFactory factory = new CellsFactory();
 Style style = factory.createStyle();
 
 {{< /highlight >}}
-### **Workbook.AbsolutePath プロパティを追加**
-Aspose.Cells 16.11.0 では、workbook.xml ファイルに格納されているブックの絶対パスを取得または設定できる Workbook.AbsolutePath プロパティが公開されました。このプロパティは、外部リンクのみを更新する場合に役立ちます。
-### **GridHyperlinkCollection.getHyperlink メソッドを追加**
-Aspose.Cells.GridWeb 16.11.0 は、インスタンス GridCell または行の列インデックスに対応する整数のペアを渡すことによって GridHyperlink のインスタンスを取得できる GridHyperlinkCollection クラスに getHyperlink メソッドを公開しました。
+### **Workbook.AbsolutePath プロパティを追加しました**
+Aspose.Cells 16.11.0 は、workbook.xml ファイルに保存された絶対ワークブック パスを取得または設定するための Workbook.AbsolutePath プロパティを公開しました。このプロパティは、外部リンクの更新時に便利です。
+### **GridHyperlinkCollection.getHyperlink メソッドを追加しました**
+Aspose.Cells.GridWeb 16.11.0 では、GridHyperlinkCollection クラスに getHyperlink メソッドが公開され、GridCell のインスタンスまたは行列インデックスのペアを渡すことで GridHyperlink のインスタンスを取得することができます。
 
 {{% alert color="primary" %}} 
 
-指定されたセルにハイパーリンクが見つからない場合、getHyperlink メソッドは null を返します。
+指定したセルにハイパーリンクが見つからない場合、getHyperlink メソッドは null を返します。
 
 {{% /alert %}} 
 
-getHyperlink メソッドの簡単な使用シナリオを次に示します。
+getHyperlink メソッドの簡単な使用シナリオは次のとおりです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Gets the active worksheet from the collection
 
@@ -245,17 +246,17 @@ GridHyperlink link = links.getHyperlink(sheet.getCells().get("A1"));
 link = links.getHyperlink(0, 3);
 
 {{< /highlight >}}
-## **廃止された API**
-### **廃止されたスタイル コンストラクター**
-代わりに、cellsFactory.createStyle メソッドを使用してください。
-## **削除された API**
-### **Cell.getConditionalStyle メソッドを削除**
-代わりに Cell.getConditionalFormattingResult メソッドを使用してください。
-### **Cells.getMaxDataRowInColumn(int column) メソッドを削除**
-代わりに Cells.getLastDataRow(int) メソッドを使用してください。
-### **削除された PageSetup.Draft プロパティ**
-代わりに PageSetup.PrintDraft プロパティを使用することをお勧めします。
-### **AutoFilter.FilterColumnCollection プロパティの削除**
-同じ目標を達成するために AutoFilter.FilterColumns プロパティの使用を検討してください。
-### **削除された TickLabels.Rotation プロパティ**
-代わりに TickLabels.RotationAngle プロパティを使用してください。
+## **非推奨API**
+### **廃止された Style コンストラクタ**
+代わりに cellsFactory.createStyle メソッドを使用してください。
+## **削除されたAPI**
+### **Cell.getConditionalStyle メソッドが削除されました**
+代わりに Cell.getConditionalFormattingResult メソッドを使用してください
+### **Cells.getMaxDataRowInColumn(int column) メソッドが削除されました**
+代替として Cells.getLastDataRow(int) メソッドを使用してください
+### **PageSetup.Draft プロパティが削除されました**
+代わりに PageSetup.PrintDraft プロパティを使用することをお勧めします
+### **AutoFilter.FilterColumnCollection プロパティが削除されました**
+同じ目標を達成するためには AutoFilter.FilterColumns プロパティを考慮してください
+### **TickLabels.Rotation プロパティが削除されました**
+代わりに TickLabels.RotationAngle プロパティを使用してください

@@ -1,17 +1,18 @@
-﻿---
-title: Печать рабочих тетрадей в Aspose.Cells
+---
+title: Печать рабочих книг в Aspose.Cells
 type: docs
 weight: 20
 url: /ru/net/printing-workbooks-in-aspose-cells/
 ---
-## **Aspose.Cells - Печать рабочих тетрадей**
-После того, как вы закончите создание электронной таблицы, вы, вероятно, захотите распечатать бумажную копию листа для своих нужд. Когда вы печатаете, MS Excel предполагает, что вы хотите напечатать всю область рабочего листа, если вы не укажете свой выбор.
 
-Печать рабочего листа
+## **Aspose.Cells - Печать книг**
+После того, как вы закончите создание своей электронной таблицы, вам, вероятно, захочется напечатать твердую копию листа по своему усмотрению. Когда вы печатаете, MS Excel предполагает, что вы хотите напечатать всю область листа, если не сделано какого-либо выбор.
+
+Печать Листа
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -34,13 +35,13 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 sr.ToPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Печать рабочих тетрадей** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Печать рабочих книг** с любого из упомянутых ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Печать рабочих тетрадей](/cells/ru/net/printing-workbooks/).
+Для получения более подробной информации посетите [Печать рабочих книг](/cells/ru/net/printing-workbooks/).
 
 {{% /alert %}}

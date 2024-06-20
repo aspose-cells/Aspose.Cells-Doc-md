@@ -1,27 +1,28 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.5.0
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.5.0
 type: docs
 weight: 170
 url: /de/java/public-api-changes-in-aspose-cells-8-5-0/
 ---
+
 {{% alert color="primary" %}} 
 
- Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.4.2 zu 8.5.0, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden,[zusätzliche Klassen usw.](/cells/de/java/public-api-changes-in-aspose-cells-8-5-0/), sondern auch eine Beschreibung etwaiger Verhaltensänderungen hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 8.4.2 auf 8.5.0, die für Modul-/Anwendungsentwickler von Interesse sein können. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, [hinzugefügte Klassen usw.](/cells/de/java/public-api-changes-in-aspose-cells-8-5-0/), sondern auch eine Beschreibung von Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
+## **Hinzugefügte APIs**
 ### **Die ICustomFunction.CalculateCustomFunction-Parameter wurden geändert**
-Wenn ein Parameter für die benutzerdefinierte Funktion ein Zellbezug ist, wurden APIs in der alten Version Aspose.Cells verwendet, um den Zellbezug in einen Zellwert oder ein Objekt-Array aller Zellwerte im referenzierten Bereich zu konvertieren. Für viele Funktionen und Benutzer ist jedoch das Zellenwerte-Array für alle Zellen im referenzierten Bereich nicht erforderlich, sie benötigen nur eine einzelne Zelle, die der Position der Formel entspricht, oder benötigen nur die Referenz selbst anstelle des Zellenwerts oder des Wertearrays . In einigen Situationen erhöhte das Abrufen aller Zellenwerte sogar das Risiko eines zirkulären Referenzfehlers.
+Wenn ein Parameter für die benutzerdefinierte Funktion ein Zellbezug ist, hat die alte Version der Aspose.Cells-APIs den Zellbezug in einen Zellwert oder ein Objektarray aller Zellwerte im bezogenen Bereich umgewandelt. Jedoch ist für viele Funktionen und Benutzer das Zellwert-Array für alle Zellen im bezogenen Bereich nicht erforderlich, sie benötigen nur eine einzelne Zelle, die der Position der Formel entspricht, oder benötigen nur den Verweis selbst anstelle des Zellwerts oder des Wertearrays. In manchen Situationen erhöhte das Abrufen aller Zellwerte sogar das Risiko eines zirkulären Bezugsfehlers.
 
-Um solche Anforderungen zu unterstützen, hat Aspose.Cells for Java 8.5.0 den Parameterwert in „paramsList“ für den angegebenen Bereich geändert. Seit v8.5.0 fügt API das ReferredArea-Objekt einfach in die „paramsList“ ein, wenn der entsprechende Parameter eine Referenz ist oder sein berechnetes Ergebnis eine Referenz ist. Wenn Sie die Referenz selbst benötigen, können Sie die ReferredArea direkt verwenden. Wenn Sie einen einzelnen Zellenwert aus der Referenz abrufen müssen, die der Position der Formel entspricht, können Sie die Methode ReferredArea.getValue(rowOffset, int colOffset) verwenden. Wenn Sie ein Zellenwerte-Array für den gesamten Bereich benötigen, können Sie die Methode ReferredArea.getValues verwenden.
+Um eine solche Anforderung zu unterstützen, hat Aspose.Cells for Java 8.5.0 den Parameterwert in die "paramsList" für den bezogenen Bereich geändert. Seit Version 8.5.0 legt die API einfach das ReferredArea-Objekt in die "paramsList", wenn der entsprechende Parameter ein Bezug ist oder dessen berechnetes Ergebnis ein Bezug ist. Wenn Sie den Verweis selbst benötigen, können Sie direkt ReferredArea verwenden. Wenn Sie einen einzelnen Zellwert aus dem Verweis benötigen, der der Position der Formel entspricht, können Sie die Methode ReferredArea.getValue(rowOffset, int colOffset) verwenden. Wenn Sie das Zellwert-Array für den gesamten Bereich benötigen, können Sie die Methode ReferredArea.getValues verwenden.
 
-Jetzt, da Aspose.Cells for Java 8.5.0 die ReferredArea in „paramsList“ angibt, wird die ReferredAreaCollection in „contextObjects“ nicht mehr benötigt (in alten Versionen konnte sie den Parametern der benutzerdefinierten Funktion nicht immer eine Eins-zu-Eins-Zuordnung geben), Daher hat diese Version es jetzt auch aus "contextObjects" entfernt.
+Da Aspose.Cells for Java 8.5.0 den ReferredArea in "paramsList" gibt, wird die ReferredAreaCollection in "contextObjects" nicht mehr benötigt (in alten Versionen konnte es nicht immer die parameter der benutzerdefinierten Funktion eins zu eins abbilden), daher wurde diese Version auch aus "contextObjects" entfernt.
 
-Diese Änderung erfordert geringfügige Änderungen am Code der Implementierung für ICustomFunction, wenn Sie den Wert/die Werte des Referenzparameters benötigen.
+Diese Änderung erfordert einige Änderungen im Code der Implementierung für ICustomFunction, wenn Sie den Wert/Werte des Referenzparameters benötigen.
 
 **Alte Implementierung**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
@@ -49,7 +50,7 @@ Diese Änderung erfordert geringfügige Änderungen am Code der Implementierung 
 
 **Neue Implementierung**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public object CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
@@ -98,31 +99,31 @@ Diese Änderung erfordert geringfügige Änderungen am Code der Implementierung 
 }
 
 {{< /highlight >}}
-### **Klassenberechnungsoptionen hinzugefügt**
- Aspose.Cells for Java 8.5.0 hat die CalculationOptions-Klasse verfügbar gemacht, um mehr Flexibilität und Erweiterbarkeit für die Formelberechnungs-Engine hinzuzufügen. Die neu hinzugefügte Klasse hat die folgenden Eigenschaften.
+### **Klasse CalculationOptions hinzugefügt**
+Aspose.Cells for Java 8.5.0 hat die CalculationOptions-Klasse freigelegt, um der Formelberechnungsmaschine mehr Flexibilität und Erweiterbarkeit zu bieten. Die neu hinzugefügte Klasse hat die folgenden Eigenschaften. 
 
-1. CalculationOptions.CalcStackSize: Gibt die Stapelgröße für die rekursive Berechnung von Zellen an. -1 gibt an, dass die Berechnung WorkbookSettings.CalcStackSize der entsprechenden Arbeitsmappe verwendet.
-1. CalculationOptions.CustomFunction: Erweitert die Formelberechnungs-Engine um eine benutzerdefinierte Formel.
-1. CalculationOptions.IgnoreError: Der Wert vom Typ Boolean gibt an, ob Fehler beim Berechnen der Formeln ausgeblendet werden sollen, wobei die Fehler auf die nicht unterstützte Funktion, den externen Link oder mehr zurückzuführen sein könnten.
-1. CalculationOptions.PrecisionStrategy: CalculationPrecisionStrategy-Typwert, der die Strategie für die Verarbeitungsgenauigkeit der Berechnung angibt.
-### **AufzählungsberechnungPrecisionStrategy Hinzugefügt**
-Aspose.Cells for Java 8.5.0 hat die Enumeration CalculationPrecisionStrategy verfügbar gemacht, um der Formelberechnungs-Engine mehr Flexibilität zu verleihen, um die gewünschten Ergebnisse zu erzielen. Diese Aufzählung behandelt die Handhabung der Berechnungsgenauigkeit. Aufgrund des Genauigkeitsproblems der IEEE 754-Gleitkommaarithmetik werden einige scheinbar einfache Formeln möglicherweise nicht berechnet, um die erwarteten Ergebnisse zu liefern. Daher hat der neueste API-Build die folgenden Felder verfügbar gemacht, um die gewünschten Ergebnisse gemäß der Auswahl zu erhalten.
+1. CalculationOptions.CalcStackSize: Gibt die Stackgröße für die rekursive Berechnung von Zellen an. -1 gibt an, dass die Berechnung die WorkbookSettings.CalcStackSize des entsprechenden Arbeitsmappen verwendet.
+1. CalculationOptions.CustomFunction: Erweitert die Formelberechnungsmaschine mit benutzerdefinierter Formel.
+1. CalculationOptions.IgnoreError: Ein boolescher Wert gibt an, ob Fehler beim Berechnen der Formeln ausgeblendet werden sollen, wobei die Fehler aufgrund der nicht unterstützten Funktion, externen Verknüpfung oder mehr sein könnten.
+1. CalculationOptions.PrecisionStrategy: CalculationPrecisionStrategy-Typwert, der die Strategie für die Verarbeitung der Genauigkeit der Berechnung angibt.
+### **Enumeration CalculationPrecisionStrategy hinzugefügt**
+Aspose.Cells for Java 8.5.0 hat die Enumeration CalculationPrecisionStrategy freigelegt, um der Formelberechnungsmaschine mehr Flexibilität zu bieten, um die gewünschten Ergebnisse zu erzielen. Diese Enumeration ermöglicht die Behandlung der Berechnungsgenauigkeit. Aufgrund des Genauigkeitsproblems der IEEE 754 Floating-Point-Arithmetik können einige scheinbar einfache Formeln möglicherweise nicht berechnet werden, um die erwarteten Ergebnisse zu liefern. Daher hat die neueste API-Build die folgenden Felder freigelegt, um die gewünschten Ergebnisse gemäß der Auswahl zu erhalten.
 
-1. CalculationPrecisionStrategy.DECIMAL: Verwendet nach Möglichkeit Dezimalzahlen als Operanden und ist aus Leistungsgründen am ineffizientesten.
-1. CalculationPrecisionStrategy.ROUND: Rundet die Berechnungsergebnisse nach signifikanten Stellen.
-1. CalculationPrecisionStrategy.NONE: Es wird keine Strategie angewendet, daher verwendet die Engine während der Berechnung den ursprünglichen Double-Wert als Operanden und gibt das Ergebnis direkt zurück. Diese Option ist am effizientesten und in den meisten Fällen anwendbar.
-### **Methoden Hinzugefügt, um CalculationOptions zu verwenden**
-Mit der Veröffentlichung von v8.5.0 hat Aspose.Cells API Überladungsversionen der Methode computeFormula wie unten aufgeführt hinzugefügt.
+1. CalculationPrecisionStrategy.DECIMAL: Verwendet Dezimalzahl als Operand, wo möglich, und ist aus Effizienzgründen am ineffizientesten.
+1. CalculationPrecisionStrategy.ROUND: Rundet die Berechnungsergebnisse gemäß der signifikanten Ziffer.
+1. CalculationPrecisionStrategy.NONE: Es wird keine Strategie angewendet, daher verwendet die Berechnungsmaschine während der Berechnung den ursprünglichen Double-Wert als Operand und gibt das Ergebnis direkt zurück. Diese Option ist am effizientesten und gilt für die meisten Fälle.
+### **Hinzugefügte Methoden zur Verwendung von CalculationOptions**
+Mit der Veröffentlichung von v8.5.0 hat die Aspose.Cells-API Überladungsversionen der calculateFormula-Methode hinzugefügt, wie unten aufgeführt.
 
-- Workbook.calculateFormula(Berechnungsoptionen)
-- Worksheet.calculateFormula (Optionen für Berechnungsoptionen, bool rekursiv)
-- Cell.calculate(Berechnungsoptionen)
-### **Aufzählungsfeld PasteType.ROW_HEIGHTS Hinzugefügt**
-Aspose.Cells APIs haben PasteType.ROW bereitgestellt_HEIGHTS-Aufzählungsfeld zum Kopieren der Zeilenhöhen beim Kopieren der Bereiche. Beim Festlegen der PasteOptions.PasteType-Eigenschaft auf ((PasteType.ROW_HEIGHTS}} werden die Höhen aller Zeilen innerhalb des Quellbereichs in den Zielbereich kopiert.
+- Workbook.calculateFormula(CalculationOptions)
+- Worksheet.calculateFormula(CalculationOptions options, bool recursive)
+- Cell.calculate(CalculationOptions)
+### **Enumerationsfeld PasteType.ROW_HEIGHTS hinzugefügt**
+Aspose.Cells-APIs haben das Enumerationsfeld PasteType.ROW_HEIGHTS für das Kopieren der Zeilenhöhen beim Kopieren der Bereiche bereitgestellt. Wenn die PasteOptions.PasteType-Eigenschaft auf ((PasteType.ROW_HEIGHTS} eingestellt wird, werden die Höhen aller Zeilen innerhalb des Quellbereichs in den Zielbereich kopiert.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -169,12 +170,12 @@ dstSheet.getCells().get("D4").putValue("Row heights of source range copied to de
 workbook.save("output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-### **Eigenschaft SheetRender.PageScale Hinzugefügt**
-Wenn Sie die Seiteneinrichtungsskalierung mit festlegen**Anpassen an n Seite(n) breit und m hoch** Option Microsoft Excel berechnet den Skalierungsfaktor für die Seiteneinrichtung. Dasselbe kann mit der SheetRender.PageScale-Eigenschaft erreicht werden, die von Aspose.Cells for Java 8.5.0 verfügbar gemacht wird. Diese Eigenschaft gibt einen Double-Wert zurück, der in einen Prozentwert konvertiert werden kann. Wenn beispielsweise 0,507968245 zurückgegeben wird, bedeutet dies, dass der Skalierungsfaktor 51 % beträgt.
+### **Eigenschaft SheetRender.PageScale hinzugefügt**
+Wenn Sie die Seiteneinrichtungsskalierung mit der Option **Passen Sie n Seite(n) in der Breite um m in der Höhe an.**, festlegen, berechnet Microsoft Excel den Skalierungsfaktor der Seiteneinrichtung. Das Gleiche kann mit der von Aspose.Cells for Java 8.5.0 freigegebenen SheetRender.PageScale-Eigenschaft erreicht werden. Diese Eigenschaft gibt einen doppelten Wert zurück, der in einen Prozentwert umgerechnet werden kann. Wenn beispielsweise 0,507968245 zurückgegeben wird, bedeutet dies, dass der Skalierungsfaktor 51 % beträgt.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -207,20 +208,20 @@ SheetRender sr = new SheetRender(worksheet, new ImageOrPrintOptions());
 System.out.println(sr.getPageScale());
 
 {{< /highlight >}}
-### **Enumeration CellValueFormatStrategy Hinzugefügt**
- Aspose.Cells for Java 8.5.0 hat eine neue Aufzählung CellValueFormatStrategy hinzugefügt, um Situationen zu handhaben, in denen Zellwerte mit oder ohne angewendete Formatierung extrahiert werden müssen. Enumeration CellValueFormatStrategy hat folgende Felder.
+### **Aufzählung CellValueFormatStrategy hinzugefügt**
+Aspose.Cells for Java 8.5.0 hat eine neue Aufzählung CellValueFormatStrategy hinzugefügt, um Situationen zu behandeln, in denen Zellenwerte mit oder ohne Formatierung extrahiert werden müssen. Aufzählung CellValueFormatStrategy mit folgenden Feldern. 
 
-1. CellValueFormatStrategy.CELL_STYLE: Nur mit dem Originalformat der Zelle formatiert.
-1. CellValueFormatStrategy.DISPLAY_STYLE: Formatiert mit dem angezeigten Stil der Zelle.
+1. CellValueFormatStrategy.CELL_STYLE: Nur mit der ursprünglichen Formatierung der Zelle formatiert.
+1. CellValueFormatStrategy.DISPLAY_STYLE: Mit der angezeigten Formatierung der Zelle formatiert.
 1. CellValueFormatStrategy.NONE: Nicht formatiert.
 ### **Methode Cell.getStringValue hinzugefügt**
-Um die CellValueFormatStrategy-Enumeration zu verwenden, hat v8.5.0 die Cell.getStringValue-Methode verfügbar gemacht, die einen Parameter des Typs CellValueFormatStrategy akzeptieren kann und den Wert abhängig von der angegebenen Option zurückgibt.
+Um die Aufzählung CellValueFormatStrategy zu verwenden, hat v8.5.0 die Methode Cell.getStringValue freigegeben, die einen Parameter vom Typ CellValueFormatStrategy akzeptieren und den Wert je nach angegebener Option zurückgeben könnte.
 
-Der folgende Codeausschnitt zeigt, wie die neu bereitgestellte Methode Cells.getStringValue verwendet wird.
+Im folgenden Codeausschnitt wird gezeigt, wie die neu freigegebene Methode Cells.getStringValue verwendet werden kann.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook
 

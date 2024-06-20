@@ -1,25 +1,28 @@
-﻿---
-title: Zugreifen auf und Ändern des Werts von Cell
+---
+title: Zugriff und Änderung des Werts einer Zelle
 type: docs
 weight: 20
-url: /de/net/accessing-and-modifying-the-value-of-a-cell/
+url: /de/net/aspose-cells-griddesktop/accessing-and-modifying-the-value-of-a-cell/
+keywords: GridDesktop,cell,modify cell,get cell,modify cell value,get cell value
+description: Dieser Artikel zeigt, wie der Zellwert in einem GridDesktop abgerufen und geändert werden kann.
 ---
+
 {{% alert color="primary" %}} 
 
-In unserem vorherigen Thema haben wir über den Zugriff auf Zellen eines Arbeitsblatts gesprochen. In diesem Thema erweitern wir dieses Thema einfach, um Entwicklern zu zeigen, wie sie mithilfe von API von Aspose.Cells.GridDesktop auf die Werte von Zellen zugreifen und diese ändern können.
+In unserem vorherigen Thema haben wir darüber gesprochen, auf Zellen eines Arbeitsblatts zuzugreifen. In diesem Thema erweitern wir einfach dieses Thema, um Entwicklern zu zeigen, wie sie die Werte von Zellen mithilfe der API von Aspose.Cells.GridDesktop abrufen und ändern können.
 
 {{% /alert %}} 
-## **Greifen Sie mit Aspose.Cells.GridDesktop auf den Wert Cell zu und ändern Sie ihn**
- Bevor wir auf den Wert einer Zelle zugreifen und ihn ändern, sollten wir wissen, wie man auf Zellen zugreift. Es gibt drei Ansätze, um auf Zellen eines Arbeitsblatts zuzugreifen. Weitere Einzelheiten zu diesen drei Ansätzen finden Sie hier[Zugriff auf Cells in einem Arbeitsblatt.](/cells/de/net/accessing-cells-in-a-worksheet/)
+## **Zugriff und Änderung des Zellwerts mithilfe von Aspose.Cells.GridDesktop**
+Bevor Sie den Wert einer Zelle abrufen und ändern, sollten Sie wissen, wie Sie auf Zellen zugreifen können. Es gibt drei Ansätze, um auf Zellen eines Arbeitsblatts zuzugreifen. Weitere Details zu diesen drei Ansätzen finden Sie unter [Zugriff auf Zellen in einem Arbeitsblatt.](/cells/de/net/zugriff-auf-zellen-in-einem-arbeitsblatt/)
 
-Jede Zelle hat eine Eigenschaft namens Value . Sobald also auf eine Zelle zugegriffen wird, können Entwickler auf den Inhalt der Value-Eigenschaft zugreifen und diesen ändern, um auf den Wert einer Zelle zuzugreifen und ihn zu ändern.
+Jede Zelle hat eine Eigenschaft namens Wert. Sobald eine Zelle abgerufen wurde, können Entwickler auf die Inhalte der Wert-Eigenschaft zugreifen und diese ändern, um den Wert einer Zelle abzurufen und zu ändern.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-AccessAndModifyCells-UsingValue.cs" >}}
 
 
-**WICHTIG:**Die Verwendung der Value-Eigenschaft einer Zelle zum Ändern ihres Werts ist ein guter Ansatz, um den Wert einer einzelnen oder weniger Zellen festzulegen. Wenn Sie die Werte vieler Zellen festlegen müssen, wäre die Leistung dieses Ansatzes nicht gut. Um also die Werte vieler Zellen festzulegen, sollten Sie verwenden**SetCellValue** Methode der Zelle zur Leistungssteigerung Ihrer Anwendungen. Eine modifizierte Version des obigen Code-Snippets mit**SetCellValue** Methode ist unten gezeigt.
+**WICHTIG:** Die Verwendung der Wert-Eigenschaft einer Zelle zur Änderung ihres Werts ist ein guter Ansatz, um den Wert einer einzelnen oder weniger Zellen festzulegen. Wenn Sie die Werte vieler Zellen setzen müssen, ist die Leistung dieses Ansatzes jedoch nicht gut. Um die Werte vieler Zellen zu setzen, sollten Sie die **SetCellValue**-Methode der Zelle verwenden, um die Leistung Ihrer Anwendungen zu verbessern. Eine modifizierte Version des obigen Code-Snippets unter Verwendung der **SetCellValue**-Methode wird unten angezeigt.
 
 
 

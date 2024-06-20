@@ -1,57 +1,58 @@
-﻿---
-title: Aspose.Cells'de Emsallerin ve Bağımlıların İzlenmesi
+---
+title: Aspose.Cells te Öncül ve Bağımlıları İzleme
 type: docs
 weight: 130
 url: /tr/net/tracing-precedents-and-dependents-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Karmaşık finansal çalışma sayfaları, özellikle işbirliği içinde geliştirilenler, en utanç verici hataları gizleyebilir. Formüllerin doğruluğunu kontrol etmek ve bir hatanın kaynağını bulmak, formül emsal hücreler ve bağımlı hücreler kullandığında zor olabilir.
+Özellikle ortak geliştirilen karmaşık finansal çalışma tabloları, en utanç verici hataları saklayabilir. Formüllerin doğruluğunu kontrol etmek ve bir hatanın kaynağını bulmak, öncü hücreler ve bağımlı hücreleri kullanan formülün olduğu durumlarda zor olabilir.
 
-- **emsal hücreler** başka bir Cell'deki bir formülle başvurulan hücrelerdir. Örneğin, D10 hücresi =B5 formülünü içeriyorsa, B5 hücresi D10 hücresinin emsalidir.
-- **Bağımlı hücreler** diğer hücrelere başvuran formüller içerir. Örneğin, D10 hücresi =B5 formülünü içeriyorsa, D10 hücresi B5 hücresinin bağımlısıdır.
+- **Öncül hücreler**, başka bir Hücredeki bir formül tarafından başvurulan hücrelerdir. Örneğin, eğer D10 hücresi =B5 formülünü içeriyorsa, B5 hücresi D10 hücresinin öncül hücresidir.
+- **Bağımlı hücreler**, diğer hücrelere başvuran formülleri içerir. Örneğin, eğer D10 hücresi =B5 formülünü içeriyorsa, D10 hücresi B5 hücresinin bağımlısıdır.
 
-Elektronik tablonun okunmasını kolaylaştırmak için, formülde elektronik tablodaki hangi hücrelerin kullanıldığını açıkça göstermek isteyebilirsiniz. Benzer şekilde, diğer hücrelerin bağımlı hücrelerini çıkarmak isteyebilirsiniz.
+Elektronik tabloyu okunabilir hale getirmek için belki de bir formülde kullanılan hangi hücreleri açıkça göstermek istersiniz. Benzer şekilde, diğer hücrelerin bağımlı hücrelerini çıkarmak isteyebilirsiniz.
 
-Aspose.Cells, hücreleri izlemenizi ve hangilerinin bağlantılı olduğunu bulmanızı sağlar.
+Aspose.Cells, hücreleri izlemenize ve hangi hücrelerin bağlı olduğunu bulmanıza olanak tanır.
 
 {{% /alert %}} 
-## **Emsal ve Bağımlı İzleme Cells: Microsoft Excel**
-Formüller, bir müşteri tarafından yapılan değişikliklere bağlı olarak değişebilir. Örneğin, C1 hücresi bir formül içeren C3 ve C4'e bağımlıysa ve C1 değiştirilirse (bu nedenle formül geçersiz kılınır), C3 ve C4 veya diğer hücrelerin, elektronik tabloyu iş kurallarına göre dengelemek için değişmesi gerekir.
+## **Öncekileri ve Bağımlı Hücreleri İzleme: Microsoft Excel**
+Formüller, bir müşteri tarafından yapılan değişikliklere bağlı olarak değişebilir. Örneğin, C1 hücresi C3 ve C4 içeren bir formüle bağımlı ise ve C1 değiştirilirse (böylece formül geçersiz kılınırsa), C3 ve C4 veya diğer hücreler, iş kurallarına göre elektronik tabloyu dengelemek için değişmelidir.
 
-Benzer şekilde, C1'in "=(B1*22)/(M2*N32)". C1'in bağlı olduğu hücreleri, yani öncül B1, M2 ve N32 hücrelerini bulmak istiyorum.
+Benzer şekilde, C1'in "=(B1*22)/(M2*N32)" formülünü içerdiğini varsayalım. C1'e bağımlı olan yani önce gelen B1, M2 ve N32 hücrelerini bulmak istiyorum.
 
-Belirli bir hücrenin diğer hücrelere bağımlılığını izlemeniz gerekebilir. İş kuralları formüllere gömülüyse, bağımlılığı bulmak ve buna dayalı olarak bazı kurallar uygulamak isteriz. Benzer şekilde, belirli bir hücrenin değeri değiştirilirse, çalışma sayfasındaki hangi hücreler bu değişiklikten etkilenir?
+Belirli bir hücrenin bağımlılığını diğer hücrelere takip etmeniz gerekebilir. İş kuralları formüllere gömülü ise, bağımlılığı bulmak ve buna göre bazı kuralları uygulamak isteriz. Benzer şekilde belirli bir hücrenin değeri değiştirildiğinde, çalışma sayfasında bu değişiklikten etkilenen hücreler hangileridir?
 
-Microsoft Excel, kullanıcıların emsalleri ve bağımlıları izlemesine olanak tanır.
+Microsoft Excel, öncekileri ve bağımlıları izlemek için kullanıcılara olanak sağlar.
 
-1.  Üzerinde**Araç Çubuğunu Görüntüle** , seçme**Formül Denetimi**.
- Formül Denetimi iletişim kutusu görüntülenir.
+1. **Görünüm Araç Çubuğu**'nda **Formül Denetimi**'ni seçin.
+   Formül Denetimi iletişim kutusu görüntülenir. 
    **Formül Denetimi iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_metin](tracing-precedents-and-dependents-in-aspose-cells_1.png)
+![todo:image_alt_text](tracing-precedents-and-dependents-in-aspose-cells_1.png)
 
-1. Emsalleri İzleyin:
-1. Emsal hücreleri bulmak istediğiniz formülü içeren hücreyi seçin.
- 1. Etkin hücreye doğrudan veri sağlayan her hücreye bir izleme oku görüntülemek için,**Emsalleri İzleyin** üzerinde**Formül Denetimi** araç çubuğu.
-1. Belirli bir hücreye başvuran formülleri izleme (bağımlı olanlar)
- 1. Bağımlı hücreleri belirlemek istediğiniz hücreyi seçin.
- 1. Etkin hücreye bağımlı olan her hücreye bir izleme oku görüntülemek için Formül Denetimi araç çubuğunda Bağımlıları İzle'ye tıklayın.
-## **Emsal ve Bağımlı İzleme Cells: Aspose.Cells**
-### **Emsallerin İzini Sürmek**
-Aspose.Cells, emsal hücreleri almayı kolaylaştırır. Yalnızca basit bir formül emsallerine veri sağlayan hücreleri almakla kalmaz, aynı zamanda adlandırılmış aralıklara sahip karmaşık bir formül emsallerine veri sağlayan hücreleri de bulabilir.
+1. Önceden Gelenleri İzleme:
+   1. Önceden gelen hücreleri bulmak istediğiniz formül içeren hücreyi seçin.
+   1. Doğrudan veri sağlayan her hücreye izleyici okunu göstermek için **Formül Denetimi** araç çubuğunda **Önceden Gelenleri İzle**'yi tıklatın.
+1. Belirli bir hücreyi referans olarak alan formülleri izle (bağımlılar)
+   1. Bağımlı hücreleri belirlemek istediğiniz hücreyi seçin.
+   1. Aktif hücreye bağımlı olan her hücreye izleyici okunu göstermek için **Formül Denetimi** araç çubuğunda **Bağımlıları İzle**'yi tıklatın.
+## **Öncekileri ve Bağımlı Hücreleri İzleme: Aspose.Cells**
+### **Öncüleri İzleme**
+Aspose.Cells, öncelikli hücreleri almayı kolaylaştırır. Sadece basit bir formülün öncekilerini değil, adlandırılmış aralıklarla karmaşık bir formülün önceliklerini de bulabilir.
 
-Aşağıdaki örnekte, Book1.xls adlı bir şablon excel dosyası kullanılmıştır. Elektronik tablonun ilk Çalışma Sayfasında veriler ve formüller bulunur.
+Aşağıdaki örnekte, bir şablon excel dosyası olan Book1.xls kullanılmıştır. Elektronik tabloda veri ve formüller bulunmaktadır.
 
-**Giriş e-tablosu** 
+**Giriş elektronik tablosu** 
 
-![yapılacaklar:resim_alternatif_metin](tracing-precedents-and-dependents-in-aspose-cells_2.png)
+![todo:image_alt_text](tracing-precedents-and-dependents-in-aspose-cells_2.png)
 
-Aspose.Cells, Cell sınıfının bir hücrenin emsallerini izlemek için kullanılan GetPrecedents yöntemini sağlar. Bir ReferredAreaCollection döndürür. Yukarıda görebileceğiniz gibi, Book1.xls'de B7 hücresi "=SUM(A1:A3)" formülünü içerir. Yani A1:A3 hücreleri, B7 hücresinin öncül hücreleridir. Aşağıdaki örnek, Book1.xls şablon dosyasını kullanan emsalleri izleme özelliğini göstermektedir.
+Aspose.Cells, bir hücrenin önceliklerini izlemek için kullanılan Cell sınıfının GetPrecedents yöntemini sağlar. Bir ReferredAreaCollection döndürür. Yukarıda gördüğünüz gibi, Book1.xls'de B7 hücresi "=SUM(A1:A3)" formülünü içerir. Bu nedenle A1:A3 hücreleri, B7 hücresinin öncelikli hücreleridir. Aşağıdaki örnek, şablon dosya Book1.xls kullanılarak öncekileri izleme özelliğini göstermektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -120,13 +121,13 @@ if(ret != null)
 
 {{< /highlight >}}
 ### **Bağımlıları İzleme**
-Aspose.Cells, elektronik tablolarda bağımlı hücreler almanızı sağlar. Aspose.Cells, yalnızca basit bir formülle ilgili veri sağlayan hücreleri almakla kalmaz, aynı zamanda adlandırılmış aralıklara sahip karmaşık bir formül bağımlılarına veri sağlayan hücreleri de bulabilir.
+Aspose.Cells, elektronik tablolardaki bağımlı hücreleri almanıza olanak sağlar. Aspose.Cells, yalnızca basit bir formülle ilgili veri sağlayan hücreleri alabilir, aynı zamanda adlandırılmış aralıklarla karmaşık bir formülün bağımlılarını da bulabilir.
 
-Aspose.Cells, bir hücrenin bağımlılarını izlemek için kullanılan Cell sınıfının GetDependents yöntemini sağlar. Örneğin, Book1.xlsx'te B2 ve C2 hücrelerinde sırasıyla "=A1+20" ve "=A1+30" formülleri vardır. Aşağıdaki örnek, Book1.xlsx şablon dosyası kullanılarak A1 hücresi için bağımlıların nasıl izleneceğini gösterir.
+Aspose.Cells, bir hücrenin bağımlılarını izlemek için kullanılan Cell sınıfının GetDependents yöntemini sağlar. Örneğin, Book1.xlsx dosyasında B2 ve C2 hücrelerinde sırasıyla "=A1+20" ve "=A1+30" formülleri bulunmaktadır. A1 hücresinin bağımlılarını izlemenin örneğini aşağıdaki örnek göstermektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string path = "Book1.xlsx";
 
@@ -149,6 +150,6 @@ foreach (var dependent in dependents)
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Tracing%20Precedents%20and%20Dependents)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
 

@@ -1,16 +1,17 @@
-﻿---
-title: Ruby でワークシートを非表示または再表示する
+---
+title: Rubyでワークシートを非表示または表示する
 type: docs
 weight: 60
 url: /ja/java/hide-or-unhide-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells - ワークシートを非表示または再表示する**
+
+## **Aspose.Cells - ワークシートを非表示または表示する**
 ### **ワークシートを非表示にする**
-Ruby で Aspose.Cells Java を使用してワークシートを非表示にするには、次のように呼び出します。**hideunhideワークシート**モジュール。
+Aspose.Cells Java for Rubyを使用してモジュール**hideunhideworksheet**を呼び出してワークシートを非表示にします。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -35,19 +36,19 @@ workbook.save(data_dir + "output.xls")
 puts "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
-### **ワークシートの表示**
-開発者は、*setVisible(* *真実* *)*の方法**ワークシート**クラス。
+### **ワークシートを表示する**
+開発者は、WorksheetクラスのsetVisible(true)メソッドを設定することで、ワークシートを表示できます。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the worksheet of the Excel file
 
 worksheet.setVisible(true)
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートを非表示または再表示する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、Aspose.Cellsのワークシートの非表示または表示をダウンロードする
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/hideunhideworksheet.rb)

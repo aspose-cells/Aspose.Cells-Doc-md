@@ -1,19 +1,20 @@
-﻿---
-title: Ta bort befintliga skrivarinställningar för arbetsblad i Excel-fil
+---
+title: Ta bort befintliga utskriftsinställningar för kalkylblad i Excel filen
 type: docs
 weight: 40
 url: /sv/java/remove-existing-printersettings-of-worksheets-in-excel-file/
 ---
-## **Möjliga användningsscenarier**
-Ibland vill utvecklare hindra Excel från att inkludera*.bin* filer med skrivarinställningar i de sparade XLSX-filerna. Skrivarinställningar finns under*“[fil "root"]\xl\skrivarinställningar”*. Det här dokumentet förklarar hur du tar bort befintliga skrivarinställningar med Aspose.Cells API:er.
-## **Ta bort befintliga skrivarinställningar för arbetsblad i Excel-fil**
-Aspose.Cells låter dig ta bort befintliga skrivarinställningar som anges för olika ark i Excel-filen. Följande exempelkod illustrerar hur du tar bort befintliga skrivarinställningar för alla kalkylblad i arbetsboken. Vänligen se den[exempel på Excel-fil](45056023.xlsx), [utdata Excel-fil](45056024.xlsx), konsolutgång samt en skärmdump som referens.
+
+## **Möjliga användningsscenario**
+Ibland vill utvecklare förhindra att Excel inkluderar *.bin* -filer för skrivareinställningar i de sparade XLSX-filerna. Skrivareinställningsfiler finns under *"[fil "rot"]\xl\printerSettings"*. Denna dokumentation förklarar hur man tar bort befintliga utskriftsinställningar med Aspose.Cells API: er.
+## **Ta bort befintliga skrivareinställningar för arbetsblad i Excel-fil**
+Aspose.Cells tillåter dig att ta bort befintliga utskriftsinställningar specificerade för olika blad i Excel-filen. Följande exempelkod illustrerar hur man tar bort befintliga utskriftsinställningar för alla kalkylbladen i arbetsboken. Se dess [prov Excel-fil](45056023.xlsx), [utmatnings Excel-fil](45056024.xlsx), konsolresultat samt en skärmdump för referens.
 ## **Skärmdump**
 ![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.java" >}}
-## **Konsolutgång**
-{{< highlight "java" >}}
+## **Konsoloutput**
+{{< highlight java >}}
 
  PrinterSettings of this worksheet exist.
 

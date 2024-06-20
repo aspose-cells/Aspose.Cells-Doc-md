@@ -1,73 +1,76 @@
-﻿---
+---
 title: Buscar y reemplazar en GridWeb
 type: docs
 weight: 90
-url: /es/net/search-and-replace-in-gridweb/
+url: /es/net/aspose-cells-gridweb/search-and-replace-in-gridweb/
+keywords: GridWeb,búsqueda,reemplazo
+description: Este artículo presenta cómo buscar y reemplazar en GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Una de las formas más rápidas de realizar cambios repetitivos en una hoja de cálculo grande es usar la función de buscar y reemplazar. Find lo ayuda a ubicar una cadena de texto o datos y replace los sustituye con un nuevo valor. Aspose.Cells. GridWeb proporciona esta característica. Le permite buscar y reemplazar con una cadena de texto o valor específico en el lado del cliente de la hoja de trabajo a través de un cuadro de diálogo simple. Incluso te permite buscar datos parciales.
+Una de las formas más rápidas de realizar cambios repetitivos en una hoja de cálculo grande es utilizar la función de buscar y reemplazar. Encontrar te ayuda a localizar una cadena de texto o datos y reemplazarla por un nuevo valor. Aspose.Cells.GridWeb proporciona esta función. Te permite buscar y reemplazar una cadena de texto específica o un valor en la hoja de cálculo del lado del cliente a través de un diálogo sencillo. Incluso te permite buscar datos parciales.
 
 {{% /alert %}} 
-## **Trabajar con Buscar/Reemplazar**
-### **El cuadro de diálogo Buscar/Reemplazar**
-Hay dos formas de abrir el cuadro de diálogo Buscar/Reemplazar:
+## **Trabajando con Buscar/Reemplazar**
+### **Diálogo de Buscar/Reemplazar**
+Hay dos formas de abrir el diálogo de Buscar/Reemplazar:
 
-1.  Cuando el control esté activo, presione**CTRL+F** para abrir el cuadro de diálogo, o presione**CTRL+R** tecla para abrir el cuadro de diálogo con la**Reemplazar** botón habilitado.
-1.  Mueva el cursor al área de la celda en la hoja de trabajo, luego haga clic con el botón derecho. Seleccione**Encontrar** o**Reemplazar** del menú.
+1. Cuando el control está activo, presiona **CTRL+F** para abrir el diálogo, o presiona la tecla **CTRL+R** para abrir el diálogo con el botón **Reemplazar** habilitado.
+1. Mueve el cursor al área de la celda en la hoja de cálculo, luego haz clic derecho. Selecciona **Buscar** o **Reemplazar** en el menú. 
 
-   **Seleccionando Buscar** 
+   **Seleccionar Buscar** 
 
-![todo:imagen_alternativa_texto](search-and-replace-in-gridweb_1.png)
-
-
+![todo:image_alt_text](search-and-replace-in-gridweb_1.png)
 
 
- Se muestra un cuadro de diálogo de estilo.
+
+
+Se muestra un cuadro de diálogo de estilo. 
 
 **El cuadro de diálogo Buscar/Reemplazar** 
 
-![todo:imagen_alternativa_texto](search-and-replace-in-gridweb_2.png)
-### **Uso de Buscar**
-Buscar:
+![todo:image_alt_text](search-and-replace-in-gridweb_2.png)
+### **Usando Buscar**
+Para buscar:
 
-1. Abra el cuadro de diálogo Buscar/Reemplazar.
-1.  Escriba la cadena que desea buscar en el**Encontrar que** campo.
-1.  Hacer clic**Buscar siguiente** buscar.
+1. Abrir el cuadro de diálogo Buscar/Reemplazar.
+1. Escriba la cadena que desea buscar en el campo **Buscar**.
+1. Haga clic en **Buscar siguiente** para buscar.
 
-Se resalta la siguiente celda que coincide con su condición de búsqueda.
+Se resalta la siguiente celda que coincide con tu condición de búsqueda.
 
 {{% alert color="primary" %}} 
 
-Si no se encuentra su criterio de búsqueda, se muestra un cuadro de diálogo para informarle.
+Si tu criterio de búsqueda no se encuentra, se muestra un cuadro de diálogo para informarte.
 
 {{% /alert %}} 
 ### **Opciones de búsqueda**
-Hay algunas opciones de búsqueda que puede personalizar en el cuadro de diálogo. La siguiente tabla los enumera.
+Hay algunas opciones de búsqueda que puedes personalizar en el cuadro de diálogo. La tabla a continuación las enumera.
 
-|**No.** |**Nombre de la opción** |**Descripción** |
-|:- |:- |:- |
-|1 | Caso de partido| Indica si se debe distinguir entre mayúsculas y minúsculas en la búsqueda.|
-|2 | Compare la palabra completa| Indica si hacer coincidir la palabra completa en la búsqueda.|
-|3 | buscar|Indica si la búsqueda se realizará de abajo hacia arriba.|
-|4 | Expresión regular| Cuando está marcado, el control tratará la cadena en el cuadro de texto Buscar como una expresión regular en el proceso de búsqueda.|
-|5 | Buscar en fórmulas/valores| Cuando se selecciona Fórmulas, el control coincidirá con la fórmula o el valor sin formato de las celdas si la fórmula o el valor sin formato están presentes. Cuando se seleccionan los valores, el control solo coincidirá con el valor mostrado de las celdas.|
+|**No.** |**Nombre de la Opción** |**Descripción** |
+| :- | :- | :- |
+|1 |Coincidir mayúsculas/minúsculas |Indica si se debe usar sensibilidad a mayúsculas en la búsqueda. |
+|2 |Coincidir palabra completa |Indica si la búsqueda debe coincidir con la palabra completa. |
+|3 |Buscar hacia arriba |Indica si la búsqueda se realizará de abajo hacia arriba. |
+|4 |Expresión regular |Cuando está marcado, el control tratará la cadena en el cuadro de texto "Buscar qué" como una expresión regular en el proceso de búsqueda. |
+|5 |Buscar en Fórmulas/Valores |Cuando se selecciona Fórmulas, el control coincidirá con la fórmula o el valor sin formato de las celdas si la fórmula o el valor sin formato está presente. Cuando se selecciona Valores, el control solo coincidirá con el valor mostrado de las celdas. |
 ### **Usando Reemplazar**
 Para reemplazar texto o valores:
 
-1.  Abra el cuadro de diálogo Buscar/Reemplazar presionando**CTRL+F** , o seleccione haga clic con el botón derecho en una celda y seleccione**Encontrar** antes de hacer clic**Reemplazar**.
-1.  Escriba la cadena de reemplazo en el**Reemplazar con** campo.
-1.  Hacer clic**Reemplazar**.
+1. Abra el cuadro de diálogo Buscar/Reemplazar presionando **CTRL+F**, o seleccione hacer clic con el botón derecho en una celda y luego seleccione **Buscar** antes de hacer clic en **Reemplazar**.
+1. Escriba la cadena de reemplazo en el campo **Reemplazar con**.
+1. Haga clic en **Reemplazar**.
 
 Para reemplazar texto:
 
 1. Abra el cuadro de diálogo.
-1.  Introduzca el texto que desea buscar en el**Encontrar que** campo, y el texto con el que desea reemplazarlo en el**Reemplazar con** campo.
-1.  Reemplace una aparición a la vez haciendo clic en**Buscar siguiente** seguido por**Reemplazar**.
-1.  Si está muy seguro de lo que contiene la hoja de cálculo, haga clic en**Reemplaza todo**.
+1. Ingrese el texto que desea encontrar en el campo **Buscar qué**, y el texto con el que desea reemplazarlo en el campo **Reemplazar con**.
+1. Reemplace una ocurrencia a la vez haciendo clic en **Buscar siguiente** seguido de **Reemplazar**.
+1. Si está seguro de lo que contiene la hoja de cálculo, haga clic en **Reemplazar todo**.
 
 {{% alert color="primary" %}} 
 
- Si la hoja de cálculo no está en modo de edición, el**Reemplazar** el botón no se muestra.
+Si la hoja de cálculo no está en modo de edición, el botón **Reemplazar** no se muestra.
 
 {{% /alert %}}

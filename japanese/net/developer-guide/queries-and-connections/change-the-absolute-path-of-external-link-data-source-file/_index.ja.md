@@ -1,20 +1,21 @@
-﻿---
-title: 外部リンク データ ソース ファイルの絶対パスを変更する
+---
+title: 外部リンクデータソースファイルの絶対パスを変更する
 type: docs
 weight: 290
 url: /ja/net/change-the-absolute-path-of-external-link-data-source-file/
 ---
-## 考えられる使用シナリオ
 
-外部リンク データ ソース ファイルの絶対パスを変更する場合は、[**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)財産。最初に、このプロパティは、Excel ファイルが読み込まれた場所からのパスに設定されます。ただし、空の文字列に設定することも、ローカル フォルダー パスまたはリモート ネットワーク パスに設定することもできます。このプロパティを変更すると、外部リンク データ ソース ファイルのパスも変更されます。
+## 可能な使用シナリオ
 
-## 外部リンク データ ソース ファイルの絶対パスを変更する
+外部リンクデータソースファイルの絶対パスを変更したい場合は、[**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath) プロパティを使用してください。最初はこのプロパティは、Excelファイルの読み込み元のパスに設定されます。しかし、空の文字列に設定するか、ローカルフォルダパスまたはリモートネットワークパスに設定できます。このプロパティを変更すると、外部リンクデータソースファイルのパスも変更されます。
 
-次のサンプル コードは、[サンプルエクセルファイル](5115146.xlsx)外部リンクが含まれています。最初に、リモート パスを出力する外部リンク データ ソースを出力します。次に、リモート パスを削除して再度出力します。今回は、ローカル パスを使用して外部リンク データ ソースを出力します。次に、[**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)プロパティをローカルおよびリモート パスに追加し、外部リンク データ ソースを再度出力すると、変更がコンソール出力に反映されます。
+## 外部リンクデータソースファイルの絶対パスを変更する
 
-以下は、上記のサンプル コードを実行した後のコンソールまたはデバッグ出力です。[サンプルエクセルファイル](5115146.xlsx).
+以下のサンプルコードは、外部リンクを含む [サンプルExcelファイル](5115146.xlsx) をロードします。最初にリモートパスを出力し、次にリモートパスを削除して、今度はローカルパスを出力します。その後、[**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath) プロパティをローカルパスとリモートパスに変更し、再度外部リンクデータソースを出力し、変更がコンソール出力に反映されます。
 
-{{< highlight "java" >}}
+上記のサンプルコードを実行した後のコンソールまたはデバッグ出力は、[サンプルExcelファイル](5115146.xlsx) で示されています。
+
+{{< highlight java >}}
 
 External Link Data Source: http:\\ws874dmErit\WebFiles\Files\300\ExternalAccounts.xlsx
 

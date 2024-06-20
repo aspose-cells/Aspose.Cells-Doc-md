@@ -1,15 +1,16 @@
-﻿---
+---
 title: Arbeitsblätter in Ruby schützen
 type: docs
 weight: 10
 url: /de/java/protecting-worksheets-in-ruby/
 ---
-## **Aspose.Cells – Arbeitsblätter schützen**
- Arbeitsblatt mit schützen**Aspose.Cells Java für Rubin** , Anruf**protect_worksheet** Methode von**Schutz** Modul.
+
+## **Aspose.Cells - Arbeitsblätter schützen**
+Um ein Arbeitsblatt mit **Aspose.Cells Java for Ruby** zu schützen, rufen Sie die Methode **protect_worksheet** des Moduls **protection** auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def protect_worksheet()
 
@@ -54,7 +55,7 @@ url: /de/java/protecting-worksheets-in-ruby/
 end   
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Arbeitsblätter schützen (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Laden Sie das **Schützen von Arbeitsblättern (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunter:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

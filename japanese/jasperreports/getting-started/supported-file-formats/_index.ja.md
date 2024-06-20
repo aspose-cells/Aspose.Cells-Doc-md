@@ -1,16 +1,17 @@
-﻿---
+---
 title: サポートされているファイル形式
 type: docs
 weight: 60
 url: /ja/jasperreports/supported-file-formats/
 ---
-|**フォーマット**|**説明**|**ロード**|**セーブ**|
-|:- |:- |:- |:- |
-|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|ドキュメントを Microsoft Excel 97-2003 ブックに保存します。||{{< emoticons/tick >}}|
-|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|ドキュメントを Office Open XML SpreadsheetML ブックまたはテンプレート ファイルに、マクロの有無にかかわらず保存します。||{{< emoticons/tick >}}|
-|[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ドキュメントを ODS (OpenDocument スプレッドシート) に保存します。||{{< emoticons/tick >}}|
-|[XML](https://docs.fileformat.com/web/xml/)|拡張マークアップ言語||{{< emoticons/tick >}}|
-|[PDF](https://docs.fileformat.com/pdf/)|アドビ ポータブル ドキュメント形式。||{{< emoticons/tick >}}|
-|[CSV](https://docs.fileformat.com/spreadsheet/csv/)|ドキュメントを CSV (カンマ区切り値) ファイルに保存します。||{{< emoticons/tick >}}|
-|[TSV](https://docs.fileformat.com/spreadsheet/tsv/)|ドキュメントを TSV (タブ区切り値) ファイルに保存します。||{{< emoticons/tick >}}|
-|TabDelimited|文書を TSV ファイルと同じタブ区切りのテキスト ファイルに保存します。||{{< emoticons/tick >}}|
+
+|**形式**|**説明**|**ロード**|**保存**|
+| :- | :- | :- | :- |
+|[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Microsoft Excel 97-2003ブックでドキュメントを保存します。| |{{< emoticons/tick >}}|
+|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Office Open XMLスプレッドシートMLファイル形式でドキュメントを保存します。| |{{< emoticons/tick >}}|
+|[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS（OpenDocument Spreadsheet）でドキュメントを保存します。| |{{< emoticons/tick >}}|
+|[XML](https://docs.fileformat.com/web/xml/)|拡張可能マークアップ言語| |{{< emoticons/tick >}}|
+|[PDF](https://docs.fileformat.com/pdf/)|アドビポータブルドキュメントフォーマット。 |{{< emoticons/tick >}}|
+|[CSV](https://docs.fileformat.com/spreadsheet/csv/)|CSV（カンマ区切り値）ファイルでドキュメントを保存します。| |{{< emoticons/tick >}}|
+|[TSV](https://docs.fileformat.com/spreadsheet/tsv/)|TSV（タブ区切り値）ファイルでドキュメントを保存します。| |{{< emoticons/tick >}}|
+|TabDelimited|タブ区切りのテキストファイルとしてドキュメントを保存します。TSVファイルと同じです。| |{{< emoticons/tick >}}|

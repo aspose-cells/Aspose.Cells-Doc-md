@@ -1,30 +1,31 @@
-﻿---
-title: Controllare la password da modificare utilizzando Aspose.Cells
+---
+title: Verificare la password per la modifica utilizzando Aspose.Cells
 type: docs
 weight: 190
 url: /it/java/check-password-to-modify-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- Puoi assegnare un**Password per aprire** e un**Password da modificare** durante la creazione delle cartelle di lavoro in Microsoft Excel. Si prega di vedere questo screenshot che mostra l'interfaccia Microsoft fornita da Excel per specificare queste password.
+Puoi assegnare una **Password per l'apertura** e una **Password per la modifica** mentre crei i tuoi fogli di lavoro in Microsoft Excel. Si prega di vedere questa schermata che mostra l'interfaccia con cui Microsoft Excel consente di specificare queste password.
 
-![cose da fare:immagine_alt_testo](check-password-to-modify-using-aspose-cells_1.png)
+![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)
 
- A volte, è necessario verificare se la password fornita corrisponde al file**Password da modificare** programmaticamente. Aspose.Cells fornisce[**cartella di lavoro.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)) metodo che puoi usare per verificare se la password data da modificare è corretta o meno.
+A volte è necessario verificare se la password fornita corrisponde alla **Password per la modifica** in modo programmatico. Aspose.Cells fornisce il metodo [**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)) che puoi utilizzare per verificare se la password fornita per la modifica è corretta o meno.
 
 {{% /alert %}}
 
-## Java codice da controllare Password da modificare utilizzando Aspose.Cells
+## Codice Java per verificare la Password per la modifica utilizzando Aspose.Cells
 
- I seguenti codici di esempio caricano il file[fonte Excel](5473057.xlsx) file. Ha una password per aprire come*1234* e password da modificare come*5678* . Il codice prima controlla se*567* è la password corretta da modificare e ritorna**falso** e poi controlla se*5678* è la password da modificare e ritorna**VERO**.
+I seguenti codici di esempio caricano il [file Excel di origine](5473057.xlsx). Ha una password per l'apertura come *1234* e una password per la modifica come *5678*. Il codice prima controlla se *567* è la password corretta per la modifica e restituisce **false**, quindi controlla se *5678* è la password per la modifica e restituisce **true**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CheckPassword-CheckPassword.java" >}}
 
-## Console Output generato dal codice Java
+## Output della Console generato dal codice Java
 
- Ecco l'output della console del codice di esempio precedente dopo aver caricato il file[fonte Excel](5473057.xlsx) file.
+Ecco l'output della Console del codice di esempio sopra dopo aver caricato il [file Excel di origine](5473057.xlsx).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is 567 correct Password to modify: false
 

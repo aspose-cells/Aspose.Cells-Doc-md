@@ -1,19 +1,20 @@
-﻿---
-title: تجاهل الأخطاء أثناء تقديم Excel إلى PDF
+---
+title: تجاهل الأخطاء أثناء تحويل Excel إلى PDF
 type: docs
 weight: 70
 url: /ar/java/ignore-errors-while-rendering-excel-to-pdf/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-في بعض الأحيان عندما تقوم بتحويل ملف Excel إلى PDF ، تحدث أخطاء أو استثناءات وتنتهي عملية التحويل. يمكنك تجاهل كل هذه الأخطاء أثناء عملية التحويل باستخدام ملف[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IgnoreError)خاصية. بهذه الطريقة ، ستكتمل عملية التحويل بسلاسة دون إلقاء أي خطأ أو استثناء ولكن قد يحدث فقدان للبيانات. لذلك ، يرجى استخدام هذه الخاصية فقط إذا لم يكن فقدان البيانات أمرًا بالغ الأهمية بالنسبة لك.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **تجاهل الأخطاء أثناء تقديم Excel إلى PDF**
+في بعض الأحيان، عند تحويل ملف Excel إلى PDF، تحدث أخطاء أو استثناءات ويتوقف عملية التحويل. يمكنك تجاهل كل هذه الأخطاء أثناء عملية التحويل باستخدام الخاصية [**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IgnoreError) . وبهذه الطريقة، ستكتمل عملية التحويل بسلاسة دون أن تقذف أي خطأ أو استثناء ولكن قد يحدث فقدان للبيانات. لذا يرجى استخدام هذه الخاصية فقط إذا كان فقدان البيانات غير حرج بالنسبة لك.
 
-الكود التالي يقوم بتحميل ملف[نموذج لملف Excel](55541813.xlsx)لكن ملف Excel النموذجي خاطئ ويحدث خطأ أثناء ملف[التحويل إلى PDF](55541814.pdf)في 17.11 ولكن بما أننا نستخدم[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IgnoreError)الملكية ، فإنه لا يلقي خطأ. ومع ذلك ، يتم فقد شكل دائري يشبه السهم الأحمر كما هو موضح في لقطة الشاشة هذه.
+## **تجاهل الأخطاء أثناء تحويل Excel إلى PDF**
 
-![ما يجب القيام به: image_بديل_نص](ignore-errors-while-rendering-excel-to-pdf_1.png)
+يلتقط الكود التالي [ملف Excel عينة](55541813.xlsx) ولكن ملف Excel العينة به خطأ يُقذف خلال [التحويل إلى PDF](55541814.pdf) في 17.11 ولكن نظرًا لاستخدامنا للخاصية [**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IgnoreError) ، لا يتم رمي خطأ. ومع ذلك، يتم فقدان شكل أحمر مستدير يشبه السهم كما هو موضح في لقطة الشاشة هذه.
 
-## **عينة من الرموز**
+![todo:image_alt_text](ignore-errors-while-rendering-excel-to-pdf_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-IgnoreErrorsWhileRenderingExcelToPdf.java" >}}

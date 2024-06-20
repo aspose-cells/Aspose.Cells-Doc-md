@@ -1,21 +1,22 @@
 ---
-title: Pivot Tabloyu Yönetme
+title: Pivot Tablo İşleme
 type: docs
 weight: 20
 url: /tr/cpp/manipulate-pivot-table/
 ---
-##  **Olası Kullanım Senaryoları**
-Yeni pivot tablolar oluşturmanın yanı sıra yeni ve mevcut pivot tabloları da değiştirebilirsiniz. Pivot tablonun kaynak aralığındaki verileri değiştirebilir, ardından yenileyip hesaplayabilir ve pivot tablo hücrelerinin yeni değerlerine ulaşabilirsiniz. Lütfen kullan[PivotTable.RefreshData()](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/refreshdata/) Ve[PivotTable.CalculateData()](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/calculatedata/)Pivot tabloyu yenilemek için pivot tablonun kaynak aralığındaki değerleri değiştirdikten sonra yöntemleri kullanın.
-##  **Pivot Tabloyu Yönetme**
- Aşağıdaki örnek kod,[örnek excel dosyası](23167013.xlsx) ve ilk çalışma sayfasındaki mevcut pivot tabloya erişir. Pivot tablonun kaynak aralığı içindeki B3 hücresinin değerini değiştirir ve ardından pivot tabloyu yeniler. Pivot tabloyu yenilemeden önce pivot tablo hücresi H8'in 15 olan değerine erişir ve pivot tablo yenilendikten sonra değeri 6 olarak değişir.[excel dosyasının çıktısını almak](23167014.xlsx)Bu kod ve örnek kodun örnek excel dosyası üzerindeki etkisini gösteren ekran görüntüsü ile oluşturulmuştur. Lütfen ayrıca pivot tablonun yenilenmesinden önce ve sonra pivot tablo hücresi H8'in değerini gösteren aşağıdaki konsol çıktısına bakın.
 
-![yapılacak şey:image_alt_text](manipulate-pivot-table_1.png)
-##  **Basit kod**
+## **Olası Kullanım Senaryoları**
+Yeni pivot tablo oluşturmanın yanı sıra, yeni ve mevcut pivot tablolarının üzerinde çalışabilirsiniz. Pivot tablosunun kaynak aralığındaki verileri değiştirebilir ve ardından pivot tablosunu yenileyebilir ve hesaplayabilir ve pivot tablosu hücrelerinin yeni değerlerine ulaşabilirsiniz. Pivot tablosunun kaynak aralığındaki değerleri değiştirdikten sonra, lütfen yenilemek için [PivotTable.RefreshData()](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/refreshdata/) ve [PivotTable.CalculateData()](https://reference.aspose.com/cells/cpp/aspose.cells.pivot/pivottable/calculatedata/) yöntemlerini kullanın.
+## **Pivot Tablo İşleme**
+Aşağıdaki örnek kod, [örnek excel dosyasını](23167013.xlsx) yükler ve ilk çalışma sayfasındaki mevcut pivot tablosuna erişir. Pivot tablosunun kaynak aralığındaki B3 hücresinin değerini değiştirir ve ardından pivot tablosunu yeniler. Pivot tablosunu yenilemeden önce, pivot tablosu hücresi H8'in değerine erişir, bu değer 15'tir ve pivot tablosunu yeniledikten sonra, değeri 6'ya değişir. Lütfen bu kod ile oluşturulmuş [çıktı excel dosyasını](23167014.xlsx) ve örnek excel dosyası üzerinde örnek kodun etkisini gösteren ekran görüntüsünü kontrol edin. Ayrıca aşağıda, pivot tablosunun yenilenmesinden önce ve sonra pivot tablosu hücresinin H8 değerini gösteren konsol çıktısına da bakınız.
+
+![todo:image_alt_text](manipulate-pivot-table_1.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-PivotTables-ManipulatePivotTable-new.cpp" >}}
-##  **Konsol Çıkışı**
- Aşağıda, yukarıdaki örnek kodun sağlanan kodla çalıştırıldığında konsol çıktısı verilmiştir.[örnek excel dosyası](23167013.xlsx).
+## **Konsol Çıktısı**
+Aşağıda, sağlanan [örnek excel dosyası](23167013.xlsx) ile birlikte yürütüldüğünde yukarıdaki örnek kodun konsol çıktısı bulunmaktadır.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Before refreshing Pivot Table value of cell H8: 15
 

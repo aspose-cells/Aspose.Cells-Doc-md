@@ -3,17 +3,20 @@ title: スライサーの更新
 type: docs
 weight: 50
 url: /ja/python-net/updating-slicer/
+description: Aspose.Cells for Python via .NETでスライサーを更新する方法を学ぶ。
+keywords: PythonライブラリAspose.Cells for Python Excelを使用したExcelのスライサーの更新、Aspose.Cells for Pythonを使ってExcelなしでスライサーを更新する。
 ---
-##  **考えられる使用シナリオ**
 
-Microsoft Excel でスライサーを更新する場合は、その項目を選択または選択解除すると、それに応じてスライサー テーブルまたはピボット テーブルが更新されます。使ってください[**スライサー.スライサー_キャッシュ.スライサー_キャッシュ_アイテム**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicercache/slicer_cache_items/)Aspose.Cells for Python via .NET を使用してスライサー項目を選択または選択解除してから呼び出します[**スライサー.refresh()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/refresh/#)スライサー テーブルまたはピボット テーブルを更新するメソッド。
+## **可能な使用シナリオ**
 
-##  **スライサーの更新**
+Microsoft Excelでスライサーを更新する場合、そのアイテムを選択または選択解除すると、スライサーテーブルまたはピボットテーブルが更新されます。Aspose.Cells for Python via .NETを使用してスライサーアイテムを選択または選択解除し、その後[**Slicer.refresh()**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/refresh/#)メソッドを呼び出してスライサーテーブルまたはピボットテーブルを更新してください。
 
-次のサンプルコードは、[サンプル Excel ファイル](67338475.xlsx)既存のスライサーが含まれています。スライサーの 2 番目と 3 番目の項目の選択を解除し、スライサーを更新します。次に、ワークブックを次のように保存します。[Excelファイルを出力](67338476.xlsx)。次のスクリーンショットは、サンプル Excel ファイルに対するサンプル コードの効果を示しています。スクリーンショットでわかるように、選択した項目でスライサーを更新すると、それに応じてピボット テーブルも更新されます。
+## **Aspose.Cells for Python Excel Libraryを使用したスライサーの更新方法**
+
+次のサンプルコードは、既存のスライサーを含む [サンプルExcelファイル](67338475.xlsx) を読み込みます。スライサーの2番目と3番目の項目を選択解除し、スライサーを更新します。それからワークブックを[出力Excelファイル](67338476.xlsx)として保存します。スクリーンショットには、サンプルコードがサンプルExcelファイルに与えた影響が示されています。スクリーンショットでは、選択された項目を持つスライサーを更新することでピボットテーブルも更新されていることがわかります。
 
 ![todo:image_alt_text](updating-slicer_1.png)
 
-##  **サンプルコード**
+## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-UpdatingSlicer.py" >}}

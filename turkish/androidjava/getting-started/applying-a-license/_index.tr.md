@@ -1,32 +1,33 @@
-﻿---
-title: Bir Lisansın Uygulanması
+---
+title: Lisans Başvurusu
 type: docs
 weight: 40
 url: /tr/java/applying-a-license/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells ile yaptığınız değerlendirmeden memnun kaldığınızda,[lisans satın al](https://purchase.aspose.com/buy) Aspose web sitesinde. Kendinizi farklı olana alıştırın[lisans türleri](https://purchase.aspose.com/policies/license-types/) teklif edildi. Herhangi bir sorunuz varsa, çekinmeyin[Aspose satış ekibiyle iletişime geçin](https://about.aspose.com/contact).
+Aspose.Cells'in değerlendirmesinden memnunsanız, Aspose web sitesinden [lisans satın al](https://purchase.aspose.com/buy). Sunulan farklı [lisans türleriyle](https://purchase.aspose.com/policies/license-types/) tanışın. Herhangi bir sorunuz varsa, çekinmeden [Aspose satış ekibiyle iletişime geçin](https://about.aspose.com/contact).
 
-Her Aspose lisansı, bu süre içinde çıkan tüm yeni sürümlere veya düzeltmelere ücretsiz yükseltmeler için bir yıllık abonelik içerir. Teknik destek ücretsiz ve sınırsızdır ve hem lisanslı hem de değerlendirme kullanıcılarına sağlanır.
+Her Aspose lisansı, bu süre zarfında ortaya çıkan yeni sürümlere veya düzeltmelere ücretsiz yükseltmeler için bir yıllık abonelik içerir. Teknik destek, lisanslı ve değerlendirme kullanıcılara ücretsiz ve sınırsız olarak sağlanır.
 
-Lisans, ürün adı, lisanslı geliştirici sayısı, abonelik bitiş tarihi vb. gibi ayrıntıları içeren düz metin bir XML dosyasıdır. Dosya dijital olarak imzalanmıştır, bu nedenle dosyayı değiştirmeyin: dosyaya fazladan bir satır sonu eklemek bile dosyayı geçersiz kılar.
+Lisans, ürün adı, lisanslı geliştiricilerin sayısı, abonelik sona erme tarihi vb. gibi ayrıntıları içeren düz metin XML dosyasıdır. Dosya dijital olarak imzalanmıştır, bu nedenle dosyayı değiştirmeyin: dosyaya ek bir satır kesme bile onu geçersiz kılacaktır.
 
-Belgelerle herhangi bir işlem yapmadan önce bir lisans ayarlamanız gerekir. Belge nesnesi oluşturmadan önce bunu yaptığınızdan emin olun. Uygulama veya işlem başına yalnızca bir kez lisans ayarlamanız gerekir.
+Belgelerle herhangi bir işlem yapmadan önce bir lisans ayarlamanız gerekir. Bu işlemi bir kez uygulamanız veya işlem başına bir kez uygulamanız yeterlidir.
 
 {{% /alert %}}
 
-## **Lisans dosyasının yüklenmesi**
+## **Lisans dosyasını yüklemeniz gerekmektedir**
 
- Aspose.Cells for Android via Java numaralı telefondan ruhsat alınabilir.[kaynak olarak gömülü](/cells/tr/java/applying-a-license/#applying-a-license-from-an-embedded-resource)veya bir akıştan yüklendi:
+Aspose.Cells için Android via Java'te lisans, [bir kaynak olarak gömülü](/cells/tr/java/applying-a-license/#applying-a-license-from-an-embedded-resource) veya bir akıştan yüklenebilir:
 
-1.  Lisans dosyasını herhangi bir yere koyun**/mnt/sdkart/**.
-1. Dosyaya başvuran bir akış oluşturun.
-1. Akışı (lisans dosyasını içeren) SetLicense yöntemine geçirin.
+1. Lisans dosyasını **/mnt/sdcard/** dizinine yerleştirin.
+1. Dosyayı referans alan bir akış oluşturun.
+1. (Lisans dosyasını içeren) akışı SetLicense yöntemine iletebilirsiniz.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  String dataDir = Environment.getExternalStorageDirectory().getPath() + "/";
 
@@ -44,17 +45,17 @@ license.setLicense(fstream);
 
 {{< /highlight >}}
 
-### **Gömülü Kaynaktan Lisans Uygulama**
+### **Gömülü Bir Kaynaktan Lisans Başvurusu**
 
-Lisansa bir Android paket dosyasından ada göre kaynak olarak erişmek için:
+Android paket dosyasından bir kaynak olarak lisansa erişmek için:
 
-1.  Lisans dosyasını uygulamanıza bir kaynak olarak ekleyin.**res/ham** Klasör.
- Lisans dosyası,**res/ham** Klasör.
-1. Aşağıdaki kod örneğiyle kaynaktan lisansa erişin/yükleyin.
+1. Lisans dosyasını uygulamanızın **res/raw** klasörüne bir kaynak olarak ekleyin.
+   Lisans dosyası **res/raw** klasöründe görünür olmalıdır.
+1. Aşağıdaki kod örneği ile kaynaktan lisansa erişin/yükleyin.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  License license = new License();
 

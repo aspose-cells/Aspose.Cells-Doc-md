@@ -1,29 +1,30 @@
-﻿---
-title: Veri Etiketleri Olarak Cell Aralığı Gösteriliyor
+---
+title: Veri Etiketleri olarak Hücre Aralığını Gösterme
 type: docs
 weight: 110
 url: /tr/java/showing-cell-range-as-the-data-labels/
 ---
-## Hücre aralığını MS Excel'de veri etiketleri olarak göster
 
-Microsoft Excel 2013'te, Veri Etiketleri için Cell Aralığı görüntüleyebilirsiniz. Aşağıdaki adımları izleyerek bu seçeneği seçebilirsiniz.
+MS Excel'de hücre aralığını veri etiketleri olarak göster
 
-- Serinin Veri Etiketleri'ni seçin ve açılır menüyü açmak için sağ tıklayın.
--  Tıkla**Veri Etiketlerini Biçimlendir...** ve gösterecek**Etiket Seçenekleri**.
--  Onay kutusunu işaretleyin veya işaretini kaldırın**Etiket İçeriği - Cells'den itibaren değer**.
+Microsoft Excel 2013'te Veri Etiketleri için Hücre Aralığını gösterebilirsiniz. Bu seçeneği aşağıdaki adımları takip ederek seçebilirsiniz.
 
-### **Cell Aralığını Veri Etiketleri olarak göstermek için onay kutusu**
+- Serinin Veri Etiketlerini seçin ve sağ tıklayarak açılan menüyü açın.
+- **Veri Etiketlerini Biçimlendir...**'i tıklayın ve **Etiket Seçenekleri**'ü gösterecektir.
+- **Etikette - Hücre Değerinden** kutusunu işaretleyin veya işareti kaldırın.
 
-Aşağıdaki ekran görüntüsü, referansınız için bu seçeneği vurgulamaktadır.
+### **Hücre Aralığını Veri Etiketleri olarak göstermek için onay kutusu**
 
-![yapılacaklar:resim_alternatif_metin](showing-cell-range-as-the-data-labels_1.png)
+Aşağıdaki ekran görüntüsü bu seçeneği vurgulamaktadır.
 
-## Aspose.Cells ile hücre aralığını veri etiketleri olarak göster
+![todo:image_alt_text](showing-cell-range-as-the-data-labels_1.png)
 
- Aspose.Cells şunları sağlar:[**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) onay kutusunu işaretleme veya işaretini kaldırma yöntemi**Etiket İçeriği - Cells'den itibaren değer** yukarıdaki ekran görüntüsünde gösterildiği gibi.
+Aspose.Cells ile hücre aralığını veri etiketleri olarak gösterme
 
-## Hücre aralığını veri etiketleri olarak göstermek için Java kodu
+Aspose.Cells, yukarıdaki ekran görüntüsünde gösterildiği gibi **Etiket İçerir - Hücre Değerini** işaretleyip işaretini kaldırmak için [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) yöntemini sağlar.
 
- Aşağıdaki örnek kod, Grafik Serisinin Veri Etiketlerine erişir ve ardından[**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) kontrol etmek için true yöntemi**Etiket İçeriği - Cells'den itibaren değer** seçenek.
+Hücre aralığını veri etiketleri olarak göstermek için Java kodu
+
+Aşağıdaki örnek kod, Grafik Serisinin Veri Etiketlerine erişir ve sonra **Etikette - Hücre Değerinden** seçeneğini kontrol etmek için [**DataLabels.setShowCellRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShowCellRange) yöntemini true olarak ayarlar.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowCellRangeAsTheDataLabels-ShowCellRangeAsTheDataLabels.java" >}}

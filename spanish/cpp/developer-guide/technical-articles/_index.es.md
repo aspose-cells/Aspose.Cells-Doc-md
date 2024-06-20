@@ -1,4 +1,4 @@
-﻿---
+---
 title: Artículos Técnicos
 type: docs
 weight: 90

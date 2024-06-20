@@ -1,96 +1,97 @@
 ---
-title: Ställa in utskriftsalternativ
+title: Inställning av utskriftsalternativ
 type: docs
 weight: 40
 url: /sv/net/setting-print-options/
-description: Den här artikeln visar hur du programmässigt ställer in utskriftsalternativen för Excel-kalkylbladsutskriftsfunktionen med hjälp av biblioteket C# API och .NET. Du kan ställa in utskriftsområde, utskriftsrubriker och sidordning.
-keywords: set excel print area c#, set exce print titles c#, set excel page order c#
+description: Denna artikel visar hur man via C# API och .NET biblioteket programpreparativt ställer in utskriftsalternativen för Excel Arborgruppsfunktionen. Du kan ställa in utskriftssektorn, utskriftstitlar och sidordning.
+keywords: ställa in excel utskriftsområde c#, ställa excel utskriftstitlar c#, ställa excel sidordning c#
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excels sidinställningar ger flera utskriftsalternativ (även kallade arkalternativ) som låter användare styra hur kalkylbladssidor skrivs ut.
+Microsoft Excels sidoinställningsinställningar ger flera utskriftsalternativ (även kallade kalkylblad) som låter användare styra hur kalkylbladssidor skrivs ut.
 
 {{% /alert %}}
 
-##  **Ställa in utskriftsalternativ**
+## **Ställa in utskriftsalternativ**
 
-Dessa utskriftsalternativ tillåter användare att:
+Dessa utskriftsalternativ låter användare:
 
-- Välj ett specifikt utskriftsområde på ett kalkylblad.
-- Skriv ut titlar.
+- Välja ett specifikt utskriftsområde på en arbetsbok.
+- Skriv ut rubriker.
 - Skriv ut rutnät.
 - Skriv ut rad-/kolumnrubriker.
-- Uppnå dragkvalitet.
+- Uppnå utkasts kvalitet
 - Skriv ut kommentarer.
-- Utskriftscellfel.
+- Skriv ut cellfel.
 - Definiera sidordning.
 
- Aspose.Cells stöder alla utskriftsalternativ som erbjuds av Microsoft Excel och utvecklare kan enkelt konfigurera dessa alternativ för kalkylblad med hjälp av egenskaperna som erbjuds av[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)klass. Hur dessa egenskaper används diskuteras mer i detalj nedan.
+Aspose.Cells stöder alla utskriftsalternativ som erbjuds av Microsoft Excel och utvecklare kan enkelt konfigurera dessa alternativ för kalkylblad med hjälp av egenskaperna som erbjuds av klassen [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). Hur dessa egenskaper används diskuteras nedan mer i detalj.
 
-###  **Ställ in utskriftsområde**
+### **Ange utskriftsområde**
 
-Som standard innehåller utskriftsområdet alla delar av kalkylbladet som innehåller data. Utvecklare kan skapa ett specifikt utskriftsområde i kalkylbladet.
+Som standard omfattar utskriftsområdet alla områden på kalkylbladet som innehåller data. Utvecklare kan skapa ett specifikt utskriftsområde för kalkylbladet.
 
- För att välja ett specifikt utskriftsområde, använd[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass'[**PrintArea**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea)fast egendom. Tilldela den här egenskapen ett cellområde som definierar utskriftsområdet.
+För att välja ett specifikt utskriftsområde, använd klassens [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) [**PrintArea**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea)-egenskap. Tilldela en cellintervall som definierar utskriftsområdet till denna egenskap.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintArea-1.cs" >}}
 
-###  **Ställ in utskriftsrubriker**
+### **Ställ in utskriftstitlar**
 
- Aspose.Cells låter dig ange rad- och kolumnrubriker som ska upprepas på alla sidor i ett utskrivet kalkylblad. För att göra det, använd[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass'[**PrintTitleColumns**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) och[**PrintTitleRows**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows)egenskaper.
+Aspose.Cells låter dig ange rad- och kolumnrubriker som ska upprepas på alla sidor av ett utskrivet kalkylblad. Gör så genom att använda klassens [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) [**PrintTitleColumns**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) och [**PrintTitleRows**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows)-egenskaper.
 
-Raderna eller kolumnerna som kommer att upprepas definieras genom att skicka deras rad- eller kolumnnummer. Till exempel definieras rader som $1:$2 och kolumner definieras som $A:$B.
+Rader eller kolumner som kommer att upprepas definieras genom att ange deras rad- eller kolumnnummer. Till exempel definieras rader som $1:$2 och kolumner definieras som $A:$B.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintTitle-1.cs" >}}
 
-###  **Ställ in andra utskriftsalternativ**
+### **Ange andra utskriftsalternativ**
 
- De[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class tillhandahåller även flera andra egenskaper för att ställa in allmänna utskriftsalternativ enligt följande:
+Klassen [**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) erbjuder också flera andra egenskaper för att ställa in generella utskriftsalternativ enligt följande:
 
 - [**PrintGridlines**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printgridlines): en boolesk egenskap som definierar om rutnät ska skrivas ut eller inte.
-- [**Utskriftsrubriker**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings): en boolesk egenskap som definierar om rad- och kolumnrubriker ska skrivas ut eller inte.
-- [**Svartvitt**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/blackandwhite): en boolesk egenskap som definierar om kalkylbladet ska skrivas ut i svartvitt läge eller inte.
-- [**Skriv ut Kommentarer**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments): definierar om utskriftskommentarerna ska visas på kalkylbladet eller i slutet av kalkylbladet.
-- [**PrintDraft**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printdraft): en boolesk egenskap som definierar om arket ska skrivas ut utan grafik.
-- [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors): definierar om cellfel ska skrivas ut som visas, tomt, streck eller ej.
+- [**PrintHeadings**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings): en boolesk egenskap som definierar om rad- och kolumnrubriker ska skrivas ut eller inte.
+- [**BlackAndWhite**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/blackandwhite): en boolesk egenskap som definierar om kalkylbladet ska skrivas ut i svartvitt läge eller inte.
+- [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments): definierar om utskriftskommentarerna ska visas på kalkylbladet eller i slutet av kalkylbladet.
+- [**PrintDraft**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printdraft): en boolesk egenskap som definierar om kalkylbladet ska skrivas ut utan grafik.
+- [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors): definierar om cellfel ska skrivas ut som visas, tom, streck eller N/A.
 
- För att ställa in[**Skriv ut Kommentarer**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) och[**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)egenskaper, Aspose.Cells ger också två uppräkningar,[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) , och[**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) som innehåller fördefinierade värden som ska tilldelas till[**Skriv ut Kommentarer**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) och[**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)fastigheter respektive.
+För att ställa in [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) och [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)-egenskaperna tillhandahåller även Aspose.Cells två uppräkningar, [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) och [**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) som innehåller fördefinierade värden att tilldela till [**PrintComments**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) och [**PrintErrors**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)-egenskaperna respektive.
 
- De fördefinierade värdena i[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)uppräkningar listas nedan med deras beskrivningar.
+De fördefinierade värdena i uppräkningen [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) listas nedan med deras beskrivningar.
 
-|**Skriv ut Kommentarstyper**|**Beskrivning**|
+|**Kommentarstyper för utskrift**|**Beskrivning**|
 | :- | :- |
-|PrintInPlace|Anger att kommentarer ska skrivas ut som de visas på kalkylbladet.|
-|Skriv ut Inga kommentarer|Anger att kommentarer inte ska skrivas ut.|
-|PrintSheetEnd|Anger att kommentarer ska skrivas ut i slutet av kalkylbladet.|
+|PrintInPlace|Specificerar att skriva ut kommentarer som visas på kalkylbladet.|
+|PrintNoComments|Specificerar att inte skriva ut kommentarer.|
+|PrintSheetEnd|Specificerar att skriva ut kommentarer i slutet av kalkylbladet.|
 
- De fördefinierade värdena för[**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype)uppräkningar listas nedan med deras beskrivningar.
+De fördefinierade värdena i uppräkningen [**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) listas nedan med deras beskrivningar.
 
 
 
-|**Typer av utskriftsfel**|**Beskrivning**|
+|**Feltyper för utskrift**|**Beskrivning**|
 | :- | :- |
-|PrintErrorsBlank|Anger att inte skriva ut fel.|
-|PrintErrorsDash|Anger utskriftsfel som "--".|
-|PrintErrorsVisade|Anger utskriftsfel som visas.|
-|PrintErrorsNA|Anger utskriftsfel som "#N/A".|
+|PrintErrorsBlank|Anger inte att skriva ut felmeddelanden.|
+|PrintErrorsDash|Anger att skriva ut fel som "--".|
+|PrintErrorsDisplayed|Anger att skriva ut fel som visas.|
+|PrintErrorsNA|Anger att skriva ut fel som "#N/A".|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-OtherPrintOptions-1.cs" >}}
 
-###  **Ställ in sidordning**
+### **Ange sidordning**
 
- De[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass ger[**Beställa**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)egenskap som används för att beställa flera sidor i ditt kalkylblad som ska skrivas ut. Det finns två möjligheter att beställa sidorna enligt följande.
+[**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klassen tillhandahåller [**Order**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order) egenskapen som används för att ordna flera sidor av din kalkyl att skrivas ut. Det finns två möjligheter att beställa sidorna enligt följande.
 
-- **Ner och sedan över:** skriver ut alla sidor innan du skriver ut några sidor till höger.
-- **Över sedan ner:** skriver ut sidor från vänster till höger innan du skriver ut sidorna nedan.
+- **Nedåt sedan över:** skriver ut alla sidor nedåt innan några sidor till höger skrivs ut.
+- **Över sedan nedåt:** skriver sidor från vänster till höger innan sidorna nedanför skrivs ut.
 
- Aspose.Cells tillhandahåller en uppräkning,[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)som innehåller alla fördefinierade ordertyper.
+Aspose.Cells tillhandahåller en uppräkning, [**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype) som innehåller alla fördefinierade ordningstyper.
 
- De fördefinierade värdena för[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)uppräkningar listas nedan.
+De fördefinierade värdena i [**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype) uppräkningen listas nedan.
 
-|**Skriv ut beställningstyper**|**Beskrivning**|
+|**Utskriftsordningstyper**|**Beskrivning**|
 | :- | :- |
-|DownThenOver|Representerar utskriftsorder som nedåt sedan över.|
-|ÖverThenDown|Representerar utskriftsorder som över sedan ner.|
+|DownThenOver|Representerar utskriftsordning nedåt och sedan över.|
+|OverThenDown|Representerar utskriftsordning över och sedan nedåt.|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPageOrder-1.cs" >}}

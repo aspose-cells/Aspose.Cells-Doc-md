@@ -1,18 +1,19 @@
-﻿---
-title: 共有数式の最大行を指定する
+---
+title: 共有式の最大行数を指定
 type: docs
 weight: 40
 url: /ja/java/specify-maximum-rows-of-shared-formula/
 ---
-## **考えられる使用シナリオ**
 
-共有数式のデフォルトの最大行数は 64 です。これは、1000 など、任意の数にすることができます。共有数式のパフォーマンスは、行数によって異なります。したがって、Aspose.Cells は[**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#MaxRowsOfSharedFormula)共有数式の最大行を指定するために使用できるプロパティ。次のスクリーンショットに示すように、共有数式の合計行がそれより多い場合、共有数式は複数の共有数式に分割されます。
+## **可能な使用シナリオ**
 
-![todo:画像_代替_文章](specify-maximum-rows-of-shared-formula_1.png)
+共有数式のデフォルトの最大行数は64です。これは1000などの任意の数値にできます。共有数式のパフォーマンスは、行数の異なる数で変化します。そのため、Aspose.Cellsは共有数式の最大行数を指定するのに使用できる [0] プロパティを提供しています。共有数式は、共有数式の総行数がそれよりも大きい場合、次のスクリーンショットに示されているように、複数の共有数式に分割されます。
 
-## **共有数式の最大行を指定する**
+![todo:image_alt_text](specify-maximum-rows-of-shared-formula_1.png)
 
-次のサンプル コードは、[**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#MaxRowsOfSharedFormula)財産。共有数式の最大行数を 5 に設定し、共有数式をセル D1 に 100 行追加して、[出力エクセルファイル](61767869.xlsx).出力されたExcelファイルの内容を抽出して確認すると、*sheet1.xml*、上記のスクリーンショットで強調表示されているように、共有数式が 5 行ごとに分割されていることがわかります。
+## **共有式の最大行数を指定**
+
+以下のサンプルコードは、[出力Excelファイル](61767869.xlsx)に100行の共有数式をセルD1に追加し、共有数式の最大行数を5に設定して保存する方法を説明しています。出力Excelファイルの内容を抽出して、*sheet1.xml*をチェックすると、上記のスクリーンショットでハイライトされた部分の後に共有数式が分割されているのが見えます。
 
 ## **サンプルコード**
 

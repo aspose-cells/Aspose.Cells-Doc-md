@@ -1,19 +1,20 @@
-﻿---
-title: معاينة الوثيقة
+---
+title: معاينة المستند
 type: docs
 weight: 30
 url: /ar/sharepoint/preview-document/
 ---
-لمعاينة مستند Excel Microsoft في مكتبة المستندات:
 
-1.  يختار**معاينة الوثيقة مع Aspose.Cells** من تحرير كتلة التحكم في المستند (ECB).
+لمعاينة مستند Microsoft Excel في مكتبة المستندات:
 
-   **تحديد معاينة الوثيقة من القائمة** 
+1. حدد **معاينة المستند بواسطة Aspose.Cells** من قائمة التحكم في تحرير المستند (ECB). 
 
-![ما يجب القيام به: image_بديل_نص](preview-document_1.png)
+   **تحديد معاينة المستند من القائمة** 
+
+![todo:image_alt_text](preview-document_1.png)
 
 
 
 **معاينة المستند** 
 
-![ما يجب القيام به: image_بديل_نص](preview-document_2.png)
+![todo:image_alt_text](preview-document_2.png)

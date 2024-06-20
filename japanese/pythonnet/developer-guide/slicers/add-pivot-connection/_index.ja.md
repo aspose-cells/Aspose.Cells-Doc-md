@@ -1,20 +1,21 @@
 ---
-title: ピボット接続の追加
+title: ピボット接続を追加する
 type: docs
 weight: 30
 url: /ja/python-net/add-pivot-connection/
-description: Aspose.Cells for Python via .NET ライブラリを使用してピボット接続を追加する方法を学習します。
-keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Aspose.Cells for Python via .NETでピボットコネクションの追加方法を学びます。
+keywords: Aspose.Cells for Python Excel、Excel Pythonライブラリ、ExcelなしでのPythonピボットコネクションの追加、ExcelなしでのPythonスライサとピボットテーブルの関連付け、Aspose.Cells for Python excelライブラリを使用したピボットコネクションの追加。
 ---
-##  **考えられる使用シナリオ**
 
-Excelでスライサーとピボットテーブルを関連付ける場合は、スライサーを右クリックし、「レポート接続...」項目を選択する必要があります。オプションリストでは、チェックボックスを操作できます。同様に、プログラムで Aspose.Cells for Python via .NET API を使用してスライサーとピボット テーブルを関連付ける場合は、[**Slicer.add_pivot_connection(ピボット)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable)方法。スライサーとピボットテーブルを関連付けます。
+## **可能な使用シナリオ**
 
-##  **スライサーとピボットテーブルを関連付ける**
+Excelでスライサとピボットテーブルを関連付けたい場合は、スライサを右クリックし、「レポートの接続...」項目を選択する必要があります。オプションリストでチェックボックスで操作できます。同様に、Aspose.Cells for Python via .NET APIを使用してプログラム的にスライサとピボットテーブルを関連付けたい場合は、[**Slicer.add_pivot_connection(pivot)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable)メソッドを使用してください。これにより、スライサとピボットテーブルが関連付けられます。
 
-次のサンプルコードは、[サンプル Excel ファイル](add-pivot-connection.xlsx)既存のスライサーが含まれています。スライサーにアクセスし、スライサーとピボットテーブルを関連付けます。最後に、ワークブックを次のように保存します。[Excelファイルを出力](add-pivot-connection-out.xlsx). 
+## **Aspose.Cells for Python Excelライブラリを使用してスライサとピボットテーブルを関連付ける方法**
+
+次のサンプルコードは、既存のスライサーが含まれる[sample Excelファイル](add-pivot-connection.xlsx)を読み込みます。次に、スライサーにアクセスしてスライサーとピボットテーブルを関連付けます。最後に、ワークブックを[output Excelファイル](add-pivot-connection-out.xlsx)として保存します。 
 
 
-##  **サンプルコード**
+## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-Adding-Pivot-Connection.py" >}}

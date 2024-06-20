@@ -1,11 +1,12 @@
-﻿---
-title: Ottieni un'intestazione di colonna
+---
+title: Ottieni l intestazione di una colonna
 type: docs
 weight: 40
 url: /it/net/get-a-column-heading/
 ---
-## **Excel OpenXML**
-{{< highlight "csharp" >}}
+
+## **OpenXML Excel**
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -131,7 +132,7 @@ return uint.Parse(match.Value);
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -171,6 +172,6 @@ private static string GetColumnHeading(string docName, string worksheetName, str
 
 {{< /highlight >}}
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [SourceForge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20a%20column%20heading%20\(Aspose.Cells\).zip/scarica)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20a%20column%20heading%20\(Aspose.Cells\).cerniera lampo)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Get%20a%20column%20heading%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Get%20a%20column%20heading%20\(Aspose.Cells\).zip)

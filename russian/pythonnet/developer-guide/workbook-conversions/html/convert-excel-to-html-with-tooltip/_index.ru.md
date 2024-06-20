@@ -1,20 +1,21 @@
 ---
-title: Преобразовать Excel в HTML с помощью подсказки
+title: Преобразовать Excel в HTML c всплывающей подсказкой
 type: docs
 weight: 200
 url: /ru/python-net/convert-excel-to-html-with-tooltip/
-description: В этом разделе показано, как преобразовать Excel в HTML с помощью всплывающей подсказки, используя Aspose.Cells, for Python через NET.
-keywords: Python Convert Excel to HTML with tooltip, Convert Excel to HTML with tooltip Python via NET, Python via NET Excel to HTML with tooltip, Python Workbook to HTML with tooltip.
+description: В этой теме показано, как преобразовать Excel в HTML с подсказкой, используя Aspose.Cells для Python via NET.
+keywords: Преобразовать Excel в HTML с подсказкой Python, Преобразовать Excel в HTML с подсказкой Python via NET, Python via NET Excel в HTML с подсказкой, Python Рабочая книга в HTML с подсказкой.
 ---
-##  **Преобразовать Excel в HTML с помощью подсказки**
 
-Могут быть случаи, когда текст в сгенерированном HTML обрезан, и вы хотите отобразить полный текст в виде всплывающей подсказки при событии наведения. Aspose.Cells поддерживает это, предоставляя**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** свойство. Установка**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** собственность**истинный** добавит полный текст в виде всплывающей подсказки в сгенерированный HTML.
+## **Преобразование Excel в HTML со всплывающей подсказкой**
 
-На следующем изображении показана всплывающая подсказка в сгенерированном файле HTML.
+Могут быть случаи, когда текст обрезается в сгенерированном HTML, и вы хотите отобразить полный текст в виде подсказки при событии наведения. Aspose.Cells поддерживает это, предоставляя свойство [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/). Установка свойства [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/) в **true** добавит полный текст в виде подсказки в сгенерированное HTML.
 
-![задача: image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
+На следующем изображении показана всплывающая подсказка в сгенерированном HTML файле.
 
- Следующий пример кода загружает[исходный файл Excel](98107416.xlsx) и генерирует[выходной файл HTML](98107417.zip) с подсказкой.
+![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
+
+В следующем коде загружается [исходный файл Excel](98107416.xlsx) и создается [файл HTML вывода](98107417.zip) с подсказкой.
 
 Образец кода
 

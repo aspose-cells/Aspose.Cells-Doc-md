@@ -1,4 +1,4 @@
-﻿---
+---
 title: Polices
 type: docs
 weight: 110

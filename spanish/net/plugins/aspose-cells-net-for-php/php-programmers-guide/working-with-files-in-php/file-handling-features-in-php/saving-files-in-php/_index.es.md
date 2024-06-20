@@ -1,16 +1,17 @@
-﻿---
-title: Guardar archivos en PHP
+---
+title: Guardando Archivos en PHP
 type: docs
 weight: 20
 url: /es/net/saving-files-in-php/
 ---
-## **Aspose.Cells - Guardar archivos de Excel**
-### **Apertura a través de Camino**
-Guardar un archivo de Excel Microsoft haciendo referencia a la ruta del archivo
+
+## **Aspose.Cells - Guardar Archivos de Excel**
+### **Apertura a través de la Ruta**
+Guardar un archivo de Microsoft Excel haciendo referencia a la ruta del archivo
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -31,7 +32,7 @@ Guardar un archivo de Excel Microsoft haciendo referencia a la ruta del archivo
         print "File saved successfully!" . PHP_EOL;
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Guardar archivos (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Guardando Archivos (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

@@ -1,28 +1,29 @@
-﻿---
-title: Rendert Unicode-Ergänzungszeichen in der Ausgabe PDF durch Aspose.Cells
+---
+title: Unicode Supplementary Zeichen im Ausgabe PDF durch Aspose.Cells rendern
 type: docs
 weight: 350
 url: /de/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Normale Unicode-Zeichen sind 2 Byte lang, während Unicode-Ergänzungszeichen 4 Byte lang sind. Aspose.Cells unterstützt jetzt die Wiedergabe dieser 4-Byte-Unicode-Zeichen.
+Normale Unicode-Zeichen sind 2 Byte lang, während Unicode-Supplementary-Zeichen 4 Byte lang sind. Aspose.Cells unterstützt jetzt das Rendern dieser 4-Byte-Unicode-Zeichen.
 
-Im Unicode-Zeichenstandard sind ergänzende Zeichen die Zeichen, denen Codepunkte von U+10000 bis U+10FFFF zugewiesen wurden. Mit anderen Worten, dies sind die Unicode-Zeichen, die größer als U+FFFF sind.
+Im Unicode-Standard für Zeichen handelt es sich bei den Supplementary-Zeichen um Zeichen, denen die Codepunkte von U+10000 bis U+10FFFF zugewiesen sind. Mit anderen Worten, dies sind die Unicode-Zeichen größer als U+FFFF.
 
-- In UTF-8 sind diese Zeichen jeweils 4 Byte lang.
-- In UTF-16 erfordern diese Zeichen 2 Ersatzzeichen (16-Bit-Einheiten).
+- In UTF-8 sind diese Zeichen jeweils 4 Bytes lang.
+- In UTF-16 benötigen diese Zeichen 2 Ersatzzeichen (16-Bit-Einheiten).
 
 {{% /alert %}}
 
-## Rendert Unicode-Ergänzungszeichen in der Ausgabe PDF durch Aspose.Cells
+## Rendern von Unicode-Zusatzzeichen im Ausgabepdf von Aspose.Cells
 
- Der folgende Screenshot zeigt, wie Aspose.Cells die gerendert[Excel-Quelldatei](5115563.xlsx) in die[Ausgang PDF](5115564.pdf). Wie Sie sehen können, wurden alle drei Unicode-Ergänzungszeichen genau so gerendert wie von Microsoft Excel.
+Der folgende Screenshot zeigt, wie Aspose.Cells die [Quellexceldatei](5115563.xlsx) in die [Ausgabepdf](5115564.pdf) gerendert hat. Wie Sie sehen können, wurden alle drei Unicode-Zusatzzeichen genau so gerendert wie von Microsoft Excel durchgeführt.
 
-![todo: Bild_alt_Text](output.png)
+![todo:image_alt_text](output.png)
 
 ## Beispielcode
 
- Sie können diesen Beispielcode zum Konvertieren verwenden[Excel-Quelldatei](5115563.xlsx) hinein[Ausgang PDF](5115564.pdf).
+Sie können diesen Beispiellcode verwenden, um die [Quellexceldatei](5115563.xlsx) in die [Ausgabepdf](5115564.pdf) zu konvertieren.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}

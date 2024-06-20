@@ -1,44 +1,45 @@
-﻿---
-title: テーブル フッターの追加
+---
+title: 表フッターの追加
 type: docs
 weight: 50
 url: /ja/reportingservices/adding-table-footers/
 ---
-テーブル フッターを追加するには:
 
-1. テーブルの最初の列のすぐ左にあるフッター タグ セルを選択しますが、テーブル グループ データ行 (テーブルにテーブル グループが含まれていない場合はテーブル データ行) の下にあります。
+表フッターを追加するには:
 
-   **フッタータグセルの選択** 
+1. テーブルの最初の列のすぐ左側のフッタータグセルを選択しますが、テーブルグループデータ行（またはテーブルにテーブルグループが含まれていない場合はテーブルデータ行）の下です。 
 
-![todo:画像_代替_文章](adding-table-footers_1.png)
+   **フッタータグセルを選択する** 
+
+![todo:image_alt_text](adding-table-footers_1.png)
 
 
 
 
-1. クリック**フッターを設定**Aspose.Cells.Report.Designer ツールバー (
+1. Aspose.Cells.Report.Designerツールバーの**フッターの設定**をクリックします（
 
-![todo:画像_代替_文章](adding-table-footers_2.png)
+![todo:image_alt_text](adding-table-footers_2.png)
 
 ). 
 
 **フッタータグセット** 
 
-![todo:画像_代替_文章](adding-table-footers_3.png)
+![todo:image_alt_text](adding-table-footers_3.png)
 
 
 
 
-1. フッター データ行を追加します。
-フッター データ行には、静的テキスト、データ マーカー、Reporting Services 式などを含めることができます。ここでは、マージされた静的テキスト セルと Reporting Services 数式セルを含むフッター行を追加しました。
+1. フッターデータ行を追加します。
+   フッターデータ行には静的テキスト、データマーカー、Reporting Servicesの数式などが含まれることができます。ここでは、マージされた静的テキストセルとReporting Servicesの数式セルを含むフッター行を追加しました。 
 
    **完成したフッター** 
 
-![todo:画像_代替_文章](adding-table-footers_4.png)
+![todo:image_alt_text](adding-table-footers_4.png)
 
 
 
-テーブルには複数のフッター データ行を使用できます。
+1つのテーブルに複数のフッターデータ行を追加できます。
 
-**2 番目のフッター行** 
+**2番目のフッターデータ行** 
 
-![todo:画像_代替_文章](adding-table-footers_5.png)
+![todo:image_alt_text](adding-table-footers_5.png)

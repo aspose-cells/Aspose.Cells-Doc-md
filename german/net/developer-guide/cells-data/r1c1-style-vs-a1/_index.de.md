@@ -1,59 +1,58 @@
 ---
-title: Excel – R1C1-Referenzstil vs. A1
+title: Excel – R1C1 Referenzstil vs. A1
 type: docs
 weight: 30
 url: /de/net/r1c1-reference-style-vs-a1/
-description: R1C1 Referenzstil VS. A1-Stil mit Aspose.Cells for Python via .NET API.
-keywords: R1C1 Reference Style VS. A1 style, R1C1 Reference Style, How to switch between R1C1 Reference Style and A1 Reference Style, A1 Reference style.
+description: R1C1 Referenzstil VS. A1 Stil mit Hilfe der Aspose.Cells für Python via .NET API.
+keywords: R1C1 Bezugsstil gegen A1 Stil, R1C1 Bezugsstil, Wie man zwischen R1C1 Bezugsstil und A1 Bezugsstil wechselt, A1 Bezugsstil
 ---
-{{% alert color="primary" %}}
 
-In Excel sind R1C1 und A1 zwei verschiedene Referenzstile, die zum Identifizieren von Zellen in einem Arbeitsblatt verwendet werden. Beachten Sie, dass die Wahl zwischen A1 und R1C1 weitgehend eine Frage der persönlichen Präferenz ist. Die meisten Benutzer sind mit dem A1-Stil besser vertraut, aber R1C1 kann in bestimmten Situationen nützlich sein, insbesondere beim Arbeiten mit Formeln und Berechnungen.
+## **Einführung**
 
-{{% /alert %}}
+In Excel sind A1 und R1C1 zwei verschiedene Referenzstile, die zur Identifizierung von Zellen in einem Arbeitsblatt verwendet werden. Beachten Sie, dass die Wahl zwischen A1 und R1C1 weitgehend eine Frage des persönlichen Geschmacks ist. Die meisten Benutzer sind eher mit dem A1-Stil vertraut, aber R1C1 kann in bestimmten Situationen nützlich sein, insbesondere bei der Arbeit mit Formeln und Berechnungen.
 
-##  **A1-Referenzstil**
+## **A1 Referenzstil**
 
-Dies ist der Standardreferenzstil in Excel. Im A1-Stil werden Spalten durch Buchstaben (A, B, C, ..., Z, AA, AB, ..., ZZ, AAA, AAB, ...) und Zeilen durch Zahlen (1, 2, 3, ...).
-Beispielsweise wird die Zelle in der ersten Spalte und der zweiten Zeile als A2 bezeichnet.
+Dies ist der Standard-Bezugsstil in Excel. Im A1-Stil werden Spalten durch Buchstaben (A, B, C, ..., Z, AA, AB, ..., ZZ, AAA, AAB, ...) und Zeilen durch Zahlen (1, 2, 3, ...) identifiziert.
+Zum Beispiel wird die Zelle in der ersten Spalte und der zweiten Zeile als A2 bezeichnet.
 
-##  **R1C1-Referenzstil**
+## **R1C1-Bezugsstil**
 
-Im R1C1-Stil werden sowohl Zeilen als auch Spalten durch Nummern gekennzeichnet. Der Buchstabe „R“ steht für die Zeilennummer und der Buchstabe „C“ für die Spaltennummer. R2C1 bezieht sich beispielsweise auf die Zelle in der zweiten Zeile und der ersten Spalte.
+Im R1C1-Stil werden sowohl Zeilen als auch Spalten durch Zahlen identifiziert. Der Buchstabe "R" repräsentiert die Zeilennummer und der Buchstabe "C" repräsentiert die Spaltennummer. Zum Beispiel bezieht sich R2C1 auf die Zelle in der zweiten Zeile und der ersten Spalte.
 
-Alle Zahlen in eckigen Klammern beziehen sich auf den relativen Abstand von der aktuellen Zelle. Im Gegensatz zu A1, das sich auf Spalten gefolgt von der Zeilennummer bezieht, macht R1C1 das Gegenteil: Zeilen gefolgt von Spalten (was etwas gewöhnungsbedürftig ist). Positive Zahlen beziehen sich auf Zellen darunter und/oder rechts davon. Negative Zahlen beziehen sich auf Zellen darüber und/oder links.
+Alle Zahlen in eckigen Klammern beziehen sich auf den relativen Abstand von der aktuellen Zelle. Im Gegensatz zu A1, das sich auf Spalten und dann auf Zeilennummer bezieht, macht R1C1 das Gegenteil: Zeilen gefolgt von Spalten (was etwas Übung erfordert). Positive Zahlen beziehen sich auf Zellen unterhalb und/oder rechts. Negative Zahlen beziehen sich auf Zellen oberhalb und/oder links.
 
-Zum Beispiel ist R[2]C[3] eine Zelle 2 Zeilen tiefer und 3 Spalten rechts. R[-1]C[-4] ist eine Zelle 1 Zeile oben und 4 Spalten links. Wenn in Klammern keine Zahl angezeigt wird, beziehen Sie sich auf dieselbe Zeile oder Spalte, dh R[3]C ist eine Zelle 3 Zeilen unter der aktuellen Zelle in derselben Spalte.
+Zum Beispiel steht R[2]C[3] für eine Zelle 2 Zeilen nach unten und 3 Spalten nach rechts. R[-1]C[-4] ist eine Zelle 1 Zeile nach oben und 4 Spalten nach links. Wenn keine Zahl in Klammern angegeben ist, beziehen Sie sich auf dieselbe Zeile oder Spalte, d.h. R[3]C bezieht sich auf eine Zelle 3 Zeilen unterhalb der aktuellen Zelle in derselben Spalte.
 <br>
 <image src="2.png" width="70%" />
 
-##  **Vergleich für R1C1-Referenzstil und A1-Referenzstil**
-Hier ein kurzer Vergleich:
+## **Vergleich des R1C1-Bezugsstils und des A1-Bezugsstils**
+Hier ist ein schneller Vergleich:
 |**A1-Stil**|**R1C1-Stil**|
-| :- | :- |
-|A1|
-|B3|
-|G10|
-|AA25|
+| :- | :- |	
+|A1|R1C1
+|B3|R3C2
+|G10|R10C7
+|AA25|R25C27
 
-##  **So wechseln Sie zwischen dem R1C1-Referenzstil und dem A1-Referenzstil**
-Sie können in den Excel-Einstellungen zwischen diesen Referenzstilen wechseln. So ändern Sie den Referenzstil:
+## **Wie man zwischen dem R1C1-Bezugsstil und dem A1-Bezugsstil wechselt**
+Sie können zwischen diesen Bezugsstilen in den Excel-Einstellungen wechseln. Um den Bezugsstil zu ändern:
 
-1. Gehen Sie zur Registerkarte „Datei“.
-1. Wählen Sie unten „Optionen“.
-1. Gehen Sie im Dialogfeld „Excel-Optionen“ zur Kategorie „Formeln“.
-1. Aktivieren oder deaktivieren Sie im Abschnitt „Mit Formeln arbeiten“ die Option „R1C1-Referenzstil“.
-1. Klicken Sie auf „OK“, um die Änderungen zu übernehmen.
+1. Gehen Sie zum "Datei"-Tab.
+1. Wählen Sie unten "Optionen" aus.
+1. In dem Dialogfeld Excel-Optionen gehen Sie zur Kategorie "Formeln".
+1. Unter dem Abschnitt "Formeln bearbeiten" aktivieren oder deaktivieren Sie die Option "R1C1-Bezugsstil".
+1. Klicken Sie auf "OK", um die Änderungen zu übernehmen.
 <br>
 <image src="1.png" width="70%" />
 
-##  **So verwenden Sie den R1C1-Referenzstil und den A1-Referenzstil in Excel**
-Das folgende Beispiel zeigt, wie die Summe zweier Zellwerte in zwei Stilen berechnet wird.
+## **Wie man den R1C1-Bezugsstil und den A1-Bezugsstil in Excel verwendet**
+Das folgende Beispiel zeigt, wie die Summe von zwei Zellwerten auf zwei verschiedene Arten berechnet wird.
 <br>
-A1-Referenzstil:
+A1-Bezugsstil:
 <br>
 <image src="4.png" width="70%" />
 
-R1C1-Referenzstil:
+R1C1-Bezugsstil:
 <br>
 <image src="3.png" width="70%" />

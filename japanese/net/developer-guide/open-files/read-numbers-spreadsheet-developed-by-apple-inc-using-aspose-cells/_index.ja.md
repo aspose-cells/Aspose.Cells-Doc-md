@@ -1,16 +1,17 @@
-﻿---
-title: 読み取り Numbers スプレッドシート Apple Inc. が Aspose.Cells を使用して開発
+---
+title: Apple Inc. が開発したNumbersスプレッドシートの読み取り
 type: docs
 weight: 140
 url: /ja/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/
 ---
-## **考えられる使用シナリオ**
 
-Numbers は Apple Inc. が開発したスプレッドシート アプリケーションです。Aspose.Cells は Numbers スプレッドシートを読み取ることができますが、書き込みはサポートしていません。 Numbers スプレッドシートのデータ、スタイル、数式を読み取ることができます。
+## **可能な使用シナリオ**
 
-## **読み取り Numbers スプレッドシート Apple Inc. が Aspose.Cells を使用して開発**
+NumbersはApple Inc.によって開発されたスプレッドシートアプリケーションですが、Aspose.CellsはNumbersスプレッドシートの読み取りをサポートしていますが、書き込みはサポートしていません。Numbersスプレッドシートのデータ、スタイル、および数式を読み取ることができます。
 
-次のサンプル コードは、[サンプル Numbers スプレッドシート](sampleNumbersByAppleInc.numbers)そしてそれをに変換します[出力 PDF フォーマット](outputNumbersByAppleInc.pdf).使用する必要があります**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**クラスと指定**[LoadFormat.Numbers](https://reference.aspose.com/cells/net/aspose.cells/loadformat)**コンストラクターのパラメーターとして、正常にロードします。どちらも指定のリンクからダウンロードしてください。 Numbers スプレッドシートでコードを試すことができます。詳細については、コードのコメントもお読みください。
+## **Aspose.Cellsを使用してApple Inc.が開発したNumbersスプレッドシートを読む**
+
+次のサンプルコードは、[Apple Inc.からのサンプルNumbersスプレッドシート](sampleNumbersByAppleInc.numbers)を読み込んで、[出力PDF形式](outputNumbersByAppleInc.pdf)に変換する方法を示しています。読み込みに成功するためには、[**LoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)クラスを使用し、そのコンストラクタのパラメータに[**LoadFormat.Numbers**](https://reference.aspose.com/cells/net/aspose.cells/loadformat)を指定する必要があります。提供されたリンクからそれぞれをダウンロードしてください。任意のNumbersスプレッドシートでコードを試すことができます。詳しい説明については、コードのコメントもご覧ください。
 
 ## **サンプルコード**
 

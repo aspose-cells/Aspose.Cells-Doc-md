@@ -1,22 +1,26 @@
 ---
-title: GridWeb'de Özel Doğrulama
+title: GridWeb de Özel Doğrulama
 type: docs
 weight: 90
-url: /tr/net/custom-validation-in-gridweb/
-keywords: validation,custom,server
+url: /tr/net/aspose-cells-gridweb/custom-validation-in-gridweb/
+keywords: GridWeb,validation,custom,server
+description: Bu makale, GridWeb de özel doğrulamayı tanıtır.
+
 ---
-##  **Olası Kullanım Senaryoları**
-Aspose.Cells.GridWeb, hücre doğrulama API'sinde tanımlanan normal doğrulama türlerinden daha fazlasını sağlar.
-hücrelerdeki normal doğrulama türü:<https://docs.aspose.com/cells/net/data-validation/>
 
- GridWeb demosunda normal doğrulama kullanımı:<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/GridWeb.Net4/CSharp/Miscellaneous/Common/DataValidation.aspx.cs>
 
- burada GridValidationType'ı kontrol edebiliriz:<https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridvalidationtype/>
+## **Olası Kullanım Senaryoları**
+Aspose.Cells.GridWeb, hücre doğrulama api'sinde normalden farklı doğrulama türleri sağlar.
+the normal validation type in cells :<https://docs.aspose.com/cells/net/data-validation/>
 
-GridWeb'de kullanabileceğimiz genişletilmiş doğrulama aşağıdadır
- 
+the normal validation usage in GridWeb demo: <https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridWeb/GridWeb.Net4/CSharp/Miscellaneous/Common/DataValidation.aspx.cs>
 
-##  **GridValidationType.DropDownList**
+here we can check GridValidationType: <https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/gridvalidationtype/>
+
+Aşağıda, GridWeb'de kullanabileceğimiz genişletilmiş doğrulamalar bulunmaktadır.
+
+
+## **GridValidationType.DropDownList**
 kod:
 ```C#
             // ExStart:AddDropDownListValidation
@@ -32,7 +36,7 @@ kod:
 
             // Creating DropDownList validation for the "C1" cell
             var validation = cell.CreateValidation(GridValidationType.DropDownList, true);
-                        
+
             // Adding values to DropDownList validation
             var values = new System.Collections.Specialized.StringCollection();
             values.Add("Bachelor");
@@ -42,9 +46,9 @@ kod:
 ```
 
 sonuç:
-![yapılacak şey:doğrulama sonucu](gridvalidation_dropdownlist.png) 
+![todo:the validation result](gridvalidation_dropdownlist.png) 
 
-##  **GridValidationType.FreeList**
+## **GridValidationType.FreeList**
 kod:
 ```C#
              GridValidation validationOfList = this.GridWeb1.ActiveSheet.Validations.Add("c1");
@@ -60,24 +64,24 @@ kod:
 ```
 
 sonuç:
-![yapılacak şey:doğrulama sonucu](gridvalidation_freelist.png)  
+![todo:the validation result](gridvalidation_freelist.png)  
 
-##  **GridValidationType.CustomExpression**
+## **GridValidationType.CustomExpression**
 kod:
 ```C#
              var sheet = GridWeb1.ActiveSheet;
              GridCell cell = sheet.Cells["B1"];
              cell.PutValue("Please enter Date in cell C3 e.g. 2018-02-18");
-	    
+
              //Access cell B3 and add the Date Pattern
              cell = sheet.Cells["B3"];
              cell.PutValue("Date (yyyy-mm-dd):");
-	    
+
              // Access cell C3 and add to it custom expression validation to accept dates in yyyy-mm-dd format
              cell = sheet.Cells["C3"];
              var validation = cell.CreateValidation(GridValidationType.CustomExpression, true);
              validation.RegEx = @"\d{4}-\d{2}-\d{2}";
-	    
+
              //Set the column widths
              sheet.Cells.SetColumnWidth(1, 40);
              sheet.Cells.SetColumnWidth(2, 30);
@@ -86,22 +90,22 @@ kod:
 	     // Assigning the name of JavaScript function to OnCellErrorClientFunction property of GridWeb
              GridWeb1.OnCellErrorClientFunction = "ValidationErrorFunction";
 ```
-istemci sayfasına javascript işlevi ekleyin
+istemci sayfasına javascript işlevi ekle
 ```javascript
-   
+
          function ValidationErrorFunction()
         {
             // Showing an alert message where "this" refers to GridWeb
             console.log(this.id + ": Please correct your input error.");
         }
-   
+
 ```
 
 sonuç:
-geçersiz değer girdikten sonra
-![yapılacak şey:doğrulama sonucu](gridvalidation_customexpression.png)  
+geçersiz değer girildikten sonra
+![yapılacaklar: doğrulama sonucu](gridvalidation_customexpression.png)  
 
-##  **GridValidationType.Boolean**
+## **GridValidationType.Boolean**
 kod:
 ```C#
  //add boolean validation at d1
@@ -109,13 +113,13 @@ kod:
 ```
 
 sonuç:
- geçersiz değer girdikten sonra
-![yapılacak şey:doğrulama sonucu](gridvalidation_bool.png)  
+geçersiz değer girildikten sonra 
+![todo:doğrulama sonucu](gridvalidation_bool.png)  
 
- gerçek değeri girdikten sonra
-![yapılacak şey:doğrulama sonucu](gridvalidation_bool2.png)  
+true değeri girildikten sonra 
+![todo:doğrulama sonucu](gridvalidation_bool2.png)  
 
-##  **GridValidationType.DateTime**
+## **GridValidationType.DateTime**
 kod:
 ```C#
   //add DateTime validation at d3
@@ -123,9 +127,9 @@ kod:
 ```
 
 sonuç:
-![yapılacak şey:doğrulama sonucu](gridvalidation_datetime.png)  
+![todo:doğrulama sonucu](gridvalidation_datetime.png)  
 
-##  **GridValidationType.CheckBox**
+## **GridValidationType.CheckBox**
 kod:
 ```C#
    //add checkbox validation at d1
@@ -133,19 +137,19 @@ kod:
 ```
 
 sonuç:
-![yapılacak şey:doğrulama sonucu](gridvalidation_checkbox.png)  
+![todo:doğrulama sonucu](gridvalidation_checkbox.png)  
 
 
-##  **GridValidationType.CustomFunction**
+## **GridValidationType.CustomFunction**
 kod:
 ```C#
       //add boolean validation at d4
      GridValidation customValidation= GridWeb1.ActiveSheet.Cells[3, 3].CreateValidation(GridValidationType.CustomFunction, true);
      customValidation.ClientValidationFunction = "MyClientValidation";
 ```
-istemci sayfasına javascript işlevi ekleyin
+istemci sayfasına javascript işlevi ekle
 ```javascript
-   
+
         function MyClientValidation(source, value)
         {
             if (Number(value) > 10000)
@@ -153,13 +157,13 @@ istemci sayfasına javascript işlevi ekleyin
             else
                 return false;
         }
-   
+
 ```
 
 sonuç: d4'te geçersiz değer girildikten sonra
-![yapılacak şey:doğrulama sonucu](gridvalidation_customfunction.png)  
+![todo:doğrulama sonucu](gridvalidation_customfunction.png)  
 
-##  **GridValidationType.CustomServerFunction**
+## **GridValidationType.CustomServerFunction**
 kod:
 ```C#
   //define server side validation class which implment GridCustomServerValidation and ISerializable
@@ -169,7 +173,7 @@ kod:
         string s;
        void ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
        {
-         
+
            info.AddValue("s",s);
        }
        protected myservervalid(SerializationInfo info, StreamingContext context)
@@ -195,7 +199,7 @@ kod:
             }
         }
     }
-         
+
         //add CustomServerFunction validation at G5 to G8
          GridValidation val = this.GridWeb1.ActiveSheet.Validations.Add(new GridCellArea(5,6, 8, 6));
          val.ValidationType = GridValidationType.CustomServerFunction;
@@ -204,9 +208,9 @@ kod:
          val.ErrorMessage=("error message is here");
          val.ErrorTitle=("this is error title");
 ```
-istemci sayfasına javascript işlevi ekleyin
+istemci sayfasına javascript işlevi ekle
 ```javascript
-   
+
         var lastselectvalue = null;
         var localvalue = {};
         function ValidationErrorClientFunctionCallback(cell,msg)
@@ -231,8 +235,8 @@ istemci sayfasına javascript işlevi ekleyin
             lastselectvalue = localvalue[key];
             setInnerText(cell.children[0], lastselectvalue);
         }
-   
+
 ```
-sonuç: g6'da değer girdikten sonra
-![yapılacak şey:doğrulama sonucu](gridvalidation_customserverfunction.png) 
+sonuç: g6'da değer girildikten sonra
+![todo:doğrulama sonucu](gridvalidation_customserverfunction.png) 
 

@@ -1,26 +1,27 @@
-﻿---
-title: Convert-Excel-to-JSON
+---
+title: Konvertieren Sie Excel in JSON
 type: docs
 weight: 300
 url: /de/net/convert-excel-to-json/
-description: Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells in json konvertieren.
-keywords: Exporting Workbook to json without office 2013, office 2016, office 2019 and office 365
+description: Lernen Sie, wie Sie Excel Datei in JSON mit Aspose.Cells konvertieren.
+keywords: Exportieren von Arbeitsmappe nach JSON ohne Office 2013, Office 2016, Office 2019 und Office 365
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells unterstützt die Konvertierung einer Arbeitsmappe in eine Json-Datei (JavaScript Object Notation).
+Aspose.Cells unterstützt die Umwandlung einer Arbeitsmappe in eine JSON (JavaScript Object Notation)-Datei.
 
 {{% /alert %}}
 
-## **Konvertieren Sie die Excel-Arbeitsmappe in JSON**
+## **Excel-Arbeitsmappe in JSON konvertieren**
 
-Sie müssen sich nicht fragen, wie Sie eine Excel-Arbeitsmappe in JSON konvertieren können, da die Bibliothek Apose.Cells for .NET die beste Entscheidung trifft. Die Aspose.Cells API bietet Unterstützung für die Konvertierung von Tabellenkalkulationen in das JSON-Format. Um die Arbeitsmappe nach JSON zu exportieren, pass[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) als zweiter Parameter von[**Arbeitsmappe.Speichern**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) Methode. Sie können auch verwenden[**JsonSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) Klasse, um zusätzliche Einstellungen für den Export von Arbeitsblättern nach JSON anzugeben.
+Sie müssen sich keine Gedanken darüber machen, wie Sie eine Excel-Arbeitsmappe in JSON konvertieren sollen, denn die Apose.Cells für die .NET-Bibliothek hat die beste Lösung. Die Aspose.Cells-API bietet Unterstützung für die Konvertierung von Tabellenkalkulationen in das JSON-Format. Um die Arbeitsmappe in JSON zu exportieren, geben Sie [**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat) als zweiten Parameter der Methode [**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3) an. Sie können auch die Klasse [**JsonSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions) verwenden, um zusätzliche Einstellungen für den Export des Arbeitsblatts in JSON festzulegen.
 
- Das folgende Codebeispiel veranschaulicht das Exportieren einer Excel-Arbeitsmappe in Json. Bitte sehen Sie sich den Code zum Konvertieren an[Quelldatei](sample.xlsx) in die Json-Datei, die vom Referenzcode generiert wurde.
+Das folgende Codebeispiel zeigt das Exportieren einer Excel-Arbeitsmappe nach Json. Bitte beachten Sie den Code, um die [Quelldatei](sample.xlsx) in die vom Code generierte Json-Datei zu konvertieren.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON-New.cs" >}}
 
- Das folgende Codebeispiel, das die JsonSaveOptions-Klasse verwendet, um zusätzliche Einstellungen anzugeben, veranschaulicht das Exportieren von Excel-Arbeitsmappen in Json. Bitte sehen Sie sich den Code zum Konvertieren an[Quelldatei](sample.xlsx) in die JSON-Datei, die vom Referenzcode generiert wurde.
+Das folgende Codebeispiel, das die Klasse JsonSaveOptions verwendet, um zusätzliche Einstellungen festzulegen, zeigt, wie man eine Excel-Arbeitsmappe in Json exportiert. Bitte sehen Sie sich den Code zur Konvertierung der [Quelldatei](sample.xlsx) in die mit dem Code generierte Json-Datei als Referenz an.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON-New2.cs" >}}
 

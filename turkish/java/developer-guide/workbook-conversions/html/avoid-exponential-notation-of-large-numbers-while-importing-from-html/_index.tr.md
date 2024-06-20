@@ -1,16 +1,17 @@
-﻿---
-title: HTML'den içe aktarırken büyük sayıların üstel gösteriminden kaçının
+---
+title: Html den içe aktarırken büyük sayıların üstel gösterimini önleme
 type: docs
 weight: 600
 url: /tr/java/avoid-exponential-notation-of-large-numbers-while-importing-from/
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen HTML'iniz 1234567890123456 gibi 15 basamaktan uzun sayılar içerir ve HTML'inizi excel dosyasına aktardığınızda bu sayılar 1.23457E+15 gibi üstel gösterime dönüşür. İsterseniz numaranız olduğu gibi içe aktarılmalı ve üstel gösterime dönüştürülmemelidir, o zaman lütfen kullanın.[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision) özellik ve ayarlayın**doğru** HTML'inizi yüklerken.
+HTML'niz bazen 1234567890123456 gibi 15 basamaktan uzun sayılar içerebilir ve HTML'nizi excel dosyasına aktardığınızda bu sayılar 1.23457E+15 gibi üs tabanındaki gösterime dönüşebilir. Eğer istiyorsanız, sayınızın üs tabanında gösterilmesi yerine olduğu gibi alınmasını istiyorsanız, lütfen [HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision) özelliğini kullanın ve yüklerken bunu **true** olarak ayarlayın.
 
 {{% /alert %}} 
-## **HTML'den içe aktarırken büyük sayıların üstel gösteriminden kaçının**
- Aşağıdaki örnek kod, kullanımını açıklar[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision)Emlak. Sayıyı üstel gösterime dönüştürmeden olduğu gibi içe aktaracaktır.
+## **HTML'den alınan büyük sayıların üs tabanındaki gösterimini önleme**
+Aşağıdaki örnek kod, [HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision) özelliğinin kullanımını açıklar. Bu özellik sayıyı üs tabanındaki gösterime dönüştürmeden alır.
 
 
 

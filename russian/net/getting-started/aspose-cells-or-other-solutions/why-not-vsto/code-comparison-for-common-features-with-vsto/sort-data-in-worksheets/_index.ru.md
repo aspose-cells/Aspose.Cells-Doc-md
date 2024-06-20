@@ -1,12 +1,13 @@
-﻿---
-title: Сортировка данных в рабочих листах
+---
+title: Сортировка данных на листах
 type: docs
 weight: 230
 url: /ru/net/sort-data-in-worksheets/
 ---
-Ниже приведен пример кода сравнения для VSTO и Aspose.Cells.
-## **ВСТО**
-{{< highlight "csharp" >}}
+
+Ниже приведен предложенный пример сравнения кода для VSTO и Aspose.Cells.
+## **VSTO**
+{{< highlight csharp >}}
 
    Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -36,7 +37,7 @@ url: /ru/net/sort-data-in-worksheets/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -54,4 +55,4 @@ url: /ru/net/sort-data-in-worksheets/
 
 {{< /highlight >}}
 ## **Скачать
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)

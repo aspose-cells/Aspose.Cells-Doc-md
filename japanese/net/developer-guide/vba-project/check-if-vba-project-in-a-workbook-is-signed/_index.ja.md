@@ -1,17 +1,18 @@
-﻿---
-title: ワークブック内の VBA プロジェクトが署名されているかどうかを確認する
+---
+title: ブックのVBAプロジェクトが署名されているかどうかを確認
 type: docs
 weight: 70
 url: /ja/net/check-if-vba-project-in-a-workbook-is-signed/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel を使用して、VBA プロジェクトが署名されているかどうかを確認できます。**ツール > デジタル署名...**メニューコマンド。同様に、Aspose.Cells を使用してプログラムで確認できます。[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned)財産。
+Microsoft Excelでは、**ツール > デジタル署名...**メニューコマンドを使用してVBAプロジェクトが署名されているかどうかを確認できます。同様に、Aspose.Cellsの[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned)プロパティを使用してプログラムで確認することも可能です。
 
 {{% /alert %}}
 
-## **ワークブック内の VBA プロジェクトが C# で署名されているかどうかを確認する**
+## **C#でワークブックのVBAプロジェクトが署名されているかどうかを確認する**
 
-次のコードは、ワークブックを読み込み、その VBA プロジェクトが次の方法で署名されているかどうかを確認します。[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned)財産。物件が戻ってくる**真実**プロジェクトが署名されている場合、それ以外の場合は返されます**間違い**.
+以下のコードは、ワークブックをロードし、[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned)プロパティを使用してそのVBAプロジェクトが署名されているかどうかをチェックします。プロパティはプロジェクトが署名されている場合は**true**を返し、それ以外の場合は**false**を返します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaProjectSigned-1.cs" >}}

@@ -1,37 +1,38 @@
 ---
-title: Excel を CSV,TSV および Txt に変換
-linktitle: CSV,TSV および Txt として保存
+title: ExcelをCSV、TSV、およびTxtに変換する
+linktitle: CSV、TSV、およびTxtとして保存
 type: docs
 weight: 40
 url: /ja/python-net/convert-excel-to-csv-tsv-and-txt/
-description: Aspose.Cells for Python via .NET API を使用して、Excel を CSV、TSV および Txt に変換します。
-keywords: Python Convert Excel to CSV,TSV and Txt, Convert Excel to CSV,TSV and Txt in Python via NET, Python Convert Workbook to CSV,TSV and Txt.
+description: Aspose.Cells for Python via .NET APIを使用してExcelをCSV、TSV、Txtに変換する方法を学ぶ。
+keywords: PythonでExcelをCSV、TSV、およびTxtに変換する, PythonでExcelをCSV、TSV、およびTxtに変換する via NET, PythonでワークブックをCSV、TSV、およびTxtに変換する。
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET を使用すると、excel、ods、json などの形式のファイルを CSV、TSV、TXT に変換できます。
+Aspose.Cells for Python via .NETを使用して、Excel、ods、jsonなどのファイルをCSV、TSV、およびTXTに変換できます。
 
 {{% /alert %}}
 
-##  **ワークブックをテキストまたは CSV 形式で保存する**
+## **ワークブックをテキストまたはCSV形式で保存**
 
-場合によっては、複数のワークシートを含むワークブックをテキスト形式に変換または保存したい場合があります。テキスト形式 (TXT、TabDelim、CSV など) の場合、デフォルトでは、Microsoft Excel と Aspose.Cells for Python via .NET の両方がアクティブなワークシートの内容のみを保存します。
+時には、複数のワークシートが含まれたワークブックをテキスト形式に変換または保存したいと思うことがあります。テキスト形式（たとえば、TXT、TabDelim、CSVなど）の場合、デフォルトでは、Microsoft ExcelとAspose.Cells for Python via .NETの両方がアクティブなワークシートの内容のみを保存します。
 
-次のコード例は、ブック全体をテキスト形式で保存する方法を説明します。任意の数のワークシートを含むソース ワークブック (Microsoft Excel または OpenOffice スプレッドシート ファイル (つまり、XLS、XLSX、XLSM、XLSB、ODS など)) を読み込みます。
+以下のコード例では、ワークブック全体をテキスト形式で保存する方法について説明しています。任意のMicrosoft ExcelまたはOpenOfficeスプレッドシートファイル（XLS、XLSX、XLSM、XLSB、ODSなど）を読み込み、任意の数のワークシートを含めることができます。
 
-コードが実行されると、ブック内のすべてのシートのデータが TXT 形式に変換されます。
+コードを実行すると、ワークブックのすべてのシートのデータがTXT形式に変換されます。
 
-同じ例を変更して、ファイルを CSV に保存できます。デフォルトでは、**[TxtSaveOptions.separator](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/separator/)**はカンマなので、CSV 形式で保存する場合は区切り文字を指定しないでください。
+同じ例を修正してファイルをCSV形式で保存することもできます。デフォルトでは、[**TxtSaveOptions.separator**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/separator/)はコンマなので、CSV形式に保存する場合は区切り文字を指定しないでください。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CSV-TSV-TXT-SaveWorkbookToTextCSVFormat-1.py" >}}
 
-##  **カスタムセパレータを使用してテキストファイルを保存する**
+## **カスタム区切り文字でテキストファイルを保存**
 
-テキスト ファイルには、書式設定されていないスプレッドシート データが含まれています。このファイルは、データ間にカスタマイズされた区切り文字を含めることができる一種のプレーン テキスト ファイルです。
+テキストファイルには書式がないスプレッドシートデータが含まれます。ファイルは、データ間にいくつかのカスタマイズされた区切り記号があるプレーンテキストファイルの種類です。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CSV-TSV-TXT-SavingTextFilewithCustomSeparator-1.py" >}}
 
 
-##  **アドバンストトピック**
-- [スプレッドシートを CSV 形式にエクスポートする際に空白行の区切り文字を維持する](/cells/ja/python-net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
-- [スプレッドシートを CSV 形式にエクスポートする際に、先頭の空白の行と列をトリミングする](/cells/ja/python-net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+## **高度なトピック**
+- [CSV形式へのスプレッドシートのエクスポート時に空行の区切り記号を保持する](/cells/ja/python-net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
+- [スプレッドシートをCSV形式にエクスポートする際に先行する空白行と列をトリミングします。](/cells/ja/python-net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)

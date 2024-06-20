@@ -1,15 +1,16 @@
-﻿---
-title: IFilePathProvider arabirimi aracılığıyla dışa aktarılan çalışma sayfası html dosyası yolu sağlayın
+---
+title: IFilePathProvider arabirimini kullanarak dışa aktarılan çalışma sayfasının HTML dosya yolunu sağlayın
 type: docs
 weight: 70
 url: /tr/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
-## **Olası Kullanım Senaryoları**
- Birden fazla sayfa içeren bir excel dosyanız olduğunu ve her bir sayfayı ayrı HTML dosyasına aktarmak istediğinizi varsayalım. Sayfalarınızdan herhangi birinin diğer sayfalara bağlantıları varsa, bu bağlantılar dışa aktarılan HTML'de kırılacaktır. Bu sorunu çözmek için Aspose.Cells şunları sağlar:[IFilePathSağlayıcı](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)bozuk bağlantıları düzeltmek için uygulayabileceğiniz arayüz.
-## **IFilePathProvider arabirimi aracılığıyla dışa aktarılan çalışma sayfası HTML dosya yolunu sağlayın**
- Lütfen indirin[örnek excel dosyası](5115213.zip)aşağıdaki kodda ve dışa aktarılan HTML dosyalarında kullanılır. Tüm bu dosyalar Temp dizininin içindedir. C: sürücüsüne çıkartmalısınız. Sonra C:\Temp dizini olur. Ardından Sheet1.html dosyasını tarayıcıda açacak ve içindeki iki bağlantıya tıklayacaksınız. Bu bağlantılar, C:\Temp\OtherSheets dizininde bulunan, dışa aktarılan bu iki HTML çalışma sayfasına atıfta bulunur.
 
-{{< highlight "java" >}}
+## **Olası Kullanım Senaryoları**
+Örneğin, her bir sayfanın ayrı bir HTML dosyasına dışa aktarılmak istediği bir Excel dosyanız var. Herhangi bir sayfanızın diğer sayfalara bağlantıları varsa, o bağlantılar dışa aktarılan HTML'de bozulur. Bu sorunu çözmek için, Aspose.Cells [IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider) arayüzünü sağlar, bu arayüzü uygulayarak bozulmuş bağlantıları düzeltebilirsiniz.
+## **IFilePathProvider arayüzü aracılığıyla dışa aktarılan çalışma sayfası HTML dosya yolunu sağlayın**
+Aşağıdaki kodda kullanılan [örnek excel dosyasını](5115213.zip) ve dışa aktarılan HTML dosyalarını indirin. Tüm bu dosyalar Temp dizini içindedir. Onu C: sürücüsüne çıkarmanız gerekmektedir. Daha sonra C:\Temp dizini haline gelecektir. Ardından tarayıcıda Sheet1.html dosyasını açacak ve içindeki iki bağlantıya tıklayacaksınız. Bu bağlantılar, C:\Temp\OtherSheets dizini içerisinde bulunan iki dışa aktarılmış HTML çalışma sayfasına işaret eder.
+
+{{< highlight java >}}
 
  file:///C:/Temp/OtherSheets/Sheet2.html#RANGE!A1
 
@@ -17,23 +18,23 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 {{< /highlight >}}
 
-Aşağıdaki ekran görüntüsü, C:\Temp\Sheet1.html ve bağlantılarının nasıl göründüğünü gösterir.
+Aşağıdaki ekran görüntüsü, C:\Temp\Sheet1.html ve bağlantılarının nasıl göründüğünü göstermektedir
 
-![yapılacaklar:resim_alternatif_metin](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
+![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
- Aşağıdaki ekran görüntüsü HTML kaynağını göstermektedir. Gördüğünüz gibi bağlantılar artık C:\Temp\OtherSheets dizinine atıfta bulunuyor. Bu, kullanılarak elde edildi[IFilePathSağlayıcı](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)arayüz.
+Aşağıdaki ekran görüntüsü, HTML kaynağını göstermektedir. Bağlantıların şimdi C:\Temp\OtherSheets dizinine işaret ettiğini görebilirsiniz. Bu, [IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider) arayüzünü kullanarak başarılmıştır.
 
-![yapılacaklar:resim_alternatif_metin](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
-## **Basit kod**
- Lütfen C:\Temp dizininin yalnızca açıklama amaçlı olduğunu unutmayın. İstediğiniz herhangi bir dizini ve yeri kullanabilirsiniz.[örnek excel dosyası](5115211.xlsx)orada ve verilen örnek kodu yürütün. Daha sonra dizininizde OtherSheets alt dizini oluşturacak ve içindeki ikinci ve üçüncü çalışma sayfalarını HTML dışa aktaracaktır. Lütfen sağlanan kodun içindeki dirPath değişkenini değiştirin ve çalıştırmadan önce onu istediğiniz dizine yönlendirin.
+![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
+## **Örnek Kod**
+Lütfen unutmayın, C:\Temp dizini sadece gösterim amaçlıdır. Kendi seçtiğiniz herhangi bir dizini kullanabilir ve [örnek excel dosyasını](5115211.xlsx) içeriye yerleştirebilir ve sağlanan örnek kodu çalıştırabilirsiniz. Ardından, kendi dizininiz içerisine OtherSheets alt dizinini oluşturacak ve ikinci ve üçüncü sayfa HTML'lerini içerisine dışa aktaracaktır. Lütfen kod içerisinde dirPath değişkenini değiştirerek ve çalıştırmadan önce kendi seçtiğiniz dizine yönlendirdiğinizden emin olun.
 
 {{% alert color="primary" %}} 
 
-Örnek kod sadece Aspose.Cells lisansı ayarladığınızda çalışacaktır. Lisans ayarlamadan kodu çalıştırmayı denerseniz sonsuz döngüye girecektir. Bu nedenle, lisans ayarlanmadığında bir mesaj yazdırmak ve yürütmeyi durdurmak için bir kontrol ekledik. Aspose.Purchase ekibinden lisans satın alabilir veya 30 günlük geçici lisans talebinde bulunabilirsiniz.
+Örnek kod sadece Aspose.Cells lisansını ayarlarsanız çalışacaktır. Lisansı ayarlamadan kodu çalıştırmaya çalışırsanız, sonsuz bir döngüye girecektir. Bu nedenle, lisans ayarlanmadığında bir mesaj yazdırmak ve işlemi durdurmak için bir kontrol ekledik. Lisans satın alabilir veya Aspose.Purchase ekibinden 30 günlük geçici bir lisans talep edebilirsiniz.
 
 {{% /alert %}} 
 
-Lütfen kodun içindeki bu satırları yorumlamaya bakın Sheet1.html ve Sheet2.html'deki linkleri kıracak veya Sheet1.html içindeki linklere tıklandığında Sheet3.html açılmayacak
+Lütfen bu satırların kod içerisinde yorum satırı olarak işaretlenmesi, Sheet1.html içindeki bağlantıları bozacaktır ve Sheet2.html veya Sheet3.html, içindeki bağlantılara tıklandığında açılmayacaktır.
 
 
 
@@ -41,7 +42,7 @@ Lütfen kodun içindeki bu satırları yorumlamaya bakın Sheet1.html ve Sheet2.
 
 
 
- Sağlananlarla çalıştırabileceğiniz tam örnek kod[örnek excel dosyası](5115211.xlsx).
+Aşağıdaki, [örnek excel dosyası](5115211.xlsx) ile birlikte çalıştırabileceğiniz tam örnek kod bulunmaktadır.
 
 
 

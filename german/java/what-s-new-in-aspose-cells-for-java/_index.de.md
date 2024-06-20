@@ -1,171 +1,195 @@
 ---
-title: Was ist neu in Aspose.Cells for Java
+title: Neuigkeiten zu Aspose.Cells for Java
 type: docs
-description: Aspose.Cells for Java wird täglich erweitert und verbessert. Auf dieser Seite erfahren Sie mehr über die großen und interessantesten Funktionen des Produkts
+description: "Aspose.Cells for Java wird ständig erweitert und verbessert. Auf dieser Seite können Sie die umfassenden und interessantesten Funktionen des Produkts kennenlernen."
 weight: 5
 url: /de/java/what-s-new-in-aspose-cells-for-java/
 ---
-Auf dieser Seite werden die interessantesten neuen Aspose.Cells-Funktionen beschrieben, die in den letzten Versionen eingeführt wurden.
 
-##  Aspose.Cells for Java 24.2
-* Unterstützt neue Funktionen: TEXTAFTER, TEXTBEFORE, TEXTSPLIT, TOROW, TOCOL
-* Unterstützt die Erkennung des Oxps-Formats
-* Verbessern Sie die Leistung beim Sortieren großer Datensätze
+Diese Seite beschreibt die interessantesten neuen Aspose.Cells-Funktionen, die in den letzten Versionen eingeführt wurden.
 
-##  Aspose.Cells for Java 24.1
+## Aspose.Cells for Java 24.6
+* Verbesserungen für die Darstellung: Farbsättigung und Farbtemperaturanpassung, Duotones, Webp-Bilder
+* Verbesserungen für PivotTable: Bereichsmerge, "Werte anzeigen als" von PivotField
+* Unterstützung von Range.ToHtml()/ToImage() zur Bequemlichkeit des Benutzers bei der Bearbeitung von Bereichsdaten
 
-* Unterstützen Sie jakarta.servlet für GridWeb
-* Unterstützung für den Import von CSV-Daten mit benutzerdefinierten Kopfzeilen/-spalten und der Gesamtzahl der Zeilen/Spalten pro Blatt
-* Unterstützung für den Export von HTML mit benutzerdefinierten Stilen
-* Unterstützt das automatische Ausfüllen zusammengeführter Bereiche
-* Unterstützt das automatische Ausfüllen von Daten von rechts nach links und von unten nach oben
+## Aspose.Cells for Java 24.5
+* Unterstützung neuer Funktionen: XMATCH, XOR
+* Unterstützung zum Transponieren von Daten des Bereichs
+* Unterstützung zum Abrufen von Eigenschaften der erweiterten Filtereinstellungen
+* Unterstützung beim Rendern von Bildern in Zellen zu PDF/Bild
 
-##  Aspose.Cells for Java 23.12
+## Aspose.Cells for Java 24.4
+* Bereitstellung einfacher Implementierungen eines Unterbrechungsmonitors zur Benutzerfreundlichkeit
+* Unterstützung zum Einbetten von Anhängen beim Konvertieren von OLE-Objekten in PDF
+* Unterstützung beim Rendern von Autoformen von ChartX zu Bildern
+* Unterstützung beim Einbetten von Bildern in Zellen ("Platz in Zelle"-Operation für Bilder in MS Excel)
+* Verbesserungen beim Import von Numbers-Dateien: Zusammengeführte Zellen, ausgeblendete Zeilen/Spalten usw.
 
-* Unterstützung für die Einhaltung von PDF/A-2 und PDF/A-3 beim Konvertieren in PDF
-* Unterstützt die Berechnung der diskreten Gruppierung der Pivot-Tabelle
-* Unterstützung für den Export von Zelldaten in eine generische Liste
-* Unterstützung für den Import von Querverweisen mithilfe verknüpfter Tabellen für Smart Marker
-* Unterstützt die MAKEARRAY-Funktion für Formeln
+## Aspose.Cells for Java 24.3
+* Unterstützung zum Importieren von AZW3-Dateien
+* Unterstützung zum Speichern von ODS im ODF 1.3-Standard
+* Unterstützung bei der Berechnung der EVALUATE-Funktion
 
-##  Aspose.Cells for Java 23.11
+## Aspose.Cells for Java 24.2
+* Unterstützung neuer Funktionen: TEXTAFTER, TEXTBEFORE, TEXTSPLIT, TOROW, TOCOL
+* Unterstützung der Erkennung des OXPS-Formats
+* Leistungsverbesserungen für das Sortieren großer Datensätze
 
-* Unterstützung für die Konvertierung von Tabellenkalkulationen in die Dateiversion PDF, Version 1.7 (ISO32000-1:2008)
+## Aspose.Cells for Java 24.1
 
-##  Aspose.Cells for Java 23.10
+* Unterstützung von jakarta.servlet für GridWeb
+* Unterstützung zum Importieren von CSV-Daten mit benutzerdefinierten Kopfzeilen/Spalten und Gesamtzeilen/Spalten pro Blatt
+* Unterstützung beim Exportieren von HTML mit benutzerdefinierten Stilen
+* Unterstützung beim automatischen Ausfüllen von zusammengeführten Bereichen
+* Unterstützung beim automatischen Ausfüllen von Daten von rechts nach links und von unten nach oben
 
-* Unterstützung für das direkte Setzen von Hyperlinks auf einen Bereich
-* Unterstützung für das gleichzeitige Kopieren mehrerer Arbeitsblätter
-* Unterstützung zur Überprüfung, ob ein Bereich für Zelldaten leer ist
+## Aspose.Cells for Java 23.12
 
-##  Aspose.Cells for Java 23.9
+* Unterstützung für PDF/A-2 und PDF/A-3-Konformität beim Konvertieren in PDF
+* Unterstützung bei der Berechnung diskreter Gruppierungen in Pivot-Tabellen
+* Unterstützung beim Exportieren von Zellendaten in eine generische Liste
+* Unterstützung für den Import von Querverweisen mithilfe von verknüpften Tabellen für Smart-Marker
+* Unterstützung der MAKEARRAY-Funktion für Formeln
 
-* Unterstützung zur Berechnung neuer Funktionen in der Formel: LAMBDA,LET,MAP,SCAN
-* Unterstützung für den Import/Export von EPUB-Dateien
-* Unterstützung zum Filtern von Diagrammreihen
+## Aspose.Cells for Java 23.11
 
-##  Aspose.Cells for Java 23.8
+* Unterstützung beim Konvertieren von Tabellenkalkulationen in PDF-Datei Version 1.7 (ISO32000-1:2008)
 
-* Unterstützung, um Füllraum in Formeln beizubehalten
-* Unterstützung zum Ersetzen/Einfügen von Text durch Formatierung für Richtext der Zelle
+## Aspose.Cells for Java 23.10
 
-##  Aspose.Cells for Java 23.7
+* Unterstützung beim direkten Setzen von Hyperlinks auf einen Bereich
+* Unterstützung beim gleichzeitigen Kopieren mehrerer Arbeitsblätter
+* Unterstützung zur Überprüfung, ob ein Bereich leer ist für Zellendaten
+
+## Aspose.Cells for Java 23.9
+
+* Unterstützung bei der Berechnung neuer Funktionen in Formel: LAMBDA, LET, MAP, SCAN
+* Unterstützung zum Importieren/Exportieren von EPUB-Dateien
+* Unterstützung zum Filtern von Diagrammserien
+
+## Aspose.Cells for Java 23.8
+
+* Unterstützung zum Erhalten des Padding-Spaces bei Formeln
+* Unterstützung zum Ersetzen/Einfügen von Text mit Formatierung für Rich-Textzellen
+
+## Aspose.Cells for Java 23.7
 
 * Verbesserte Dateiformaterkennung für einige neue Formate wie Visio-Datei, OneNote-Paketdatei.
 
-##  Aspose.Cells for Java 23.6
+## Aspose.Cells for Java 23.6
 
-* Unterstützung für den Export und die Hervorhebung von Revisionsprotokollen
-* Unterstützung für das Durchlaufen vorhandener Row-Objekte aus RowCollection in umgekehrter Reihenfolge
-* Unterstützung zum Aktualisieren mehrerer Konsolidierungsbereiche von Pivottable
+* Unterstützung zum Exportieren und Hervorheben von Überarbeitungsprotokollen
+* Unterstützung zum Durchlaufen vorhandener Row-Objekte von RowCollection in umgekehrter Reihenfolge
+* Unterstützung zum Aktualisieren mehrerer Konsolidierungsbereiche von Pivottabelle
 
-##  Aspose.Cells for Java 23.5
+## Aspose.Cells for Java 23.5
 
-* Unterstützung für die Aktualisierung externer Verweise externer Blattdaten auf das lokale Blatt der aktuellen Arbeitsmappe
-* Unterstützung für die Darstellung des Kontrollkästchen-Steuerelements als interaktives Steuerelement anstelle eines statischen Bilds in GridWeb
-* Unterstützung für die Auswahl und Formatierung von PivotArea
-* Unterstützung für das Hinzufügen von Wasserzeichen beim Konvertieren in PDF
+* Unterstützung zum Aktualisieren externer Bezüge von externen Tabellendaten zum lokalen Blatt des aktuellen Arbeitsblatts
+* Unterstützung zum Rendern von Kontrollkästchen als interaktive Steuerelemente anstelle von statischen Bildern in GridWeb
+* Unterstützung zum Auswählen von PivotArea und Formatieren
+* Unterstützung zum Hinzufügen von Wasserzeichen beim Konvertieren in PDF
 
-##  Aspose.Cells for Java 23.4
+## Aspose.Cells for Java 23.4
 
-* Unterstützung zur Berechnung der Funktion ENCODEURL
-* Unterstützung beim Abschluss der Konstruktion einer Gleichungsform durch schrittweises Einfügen relevanter Knoten
-* Unterstützung für die Berechnung des Formelausdrucks als Array-Formel, ohne ihn auf ein Zellobjekt festzulegen
-* Unterstützung zum Speichern von XLSB-Dateien im LightCells-Modus
-* Unterstützung zur Überprüfung, ob eine Schriftart installiert oder verfügbar ist
-* Unterstützung zum Festlegen der Formel auf die angegebene Zelle im ListObject
-* Unterstützung zum Speichern von Arbeitsmappen als XML
-* Unterstützung zum Rendern von ActiveX-Steuerung und Formularsteuerung für GridWeb
+* Unterstützung zum Berechnen der Funktion ENCODEURL
+* Unterstützung zum Abschließen des Aufbaus einer Gleichungsformel durch schrittweises Einfügen relevanter Knoten
+* Unterstützung zum Berechnen von Formelausdrücken als Arrayformel, ohne sie auf ein Zellenobjekt zu setzen
+* Unterstützung zum Speichern von xlsb-Dateien im LightCells-Modus
+* Unterstützung, zu überprüfen, ob eine Schriftart installiert oder verfügbar ist
+* Unterstützung zum Festlegen einer Formel für eine bestimmte Zelle in der ListObject
+* Unterstützung zum Speichern einer Arbeitsmappe als xhtml
+* Unterstützung zum Rendern von ActiveX-Steuerelementen und Formularsteuerelementen für GridWeb
 
-##  Aspose.Cells for Java 23.3
+## Aspose.Cells for Java 23.3
 
-* Unterstützung zum Festlegen/Lesen/Speichern neuer Funktionen: LET, ENCODEURL
-* Unterstützung für die Verknüpfung von Datenquellen mit externen Links beim Aufrufen der Formelberechnung
+* Unterstützung zum Setzen/Lesen/Speichern neuer Funktionen: LET, ENCODEURL
+* Unterstützung zum Verknüpfen von Datenquellen mit externen Links beim Aufrufen der Formelberechnung
 
-##  Aspose.Cells for Java 23.2
+## Aspose.Cells for Java 23.2
 
-* Unterstützung zum Festlegen/Lesen/Speichern neuer Funktionen: SCAN, LAMBDA
-* Unterstützung für den Export von Stilen nach JSON
+* Unterstützung zum Setzen/Lesen/Speichern neuer Funktionen: SCAN, LAMBDA
+* Unterstützung zum Exportieren von Stilen in JSON
 
-##  Aspose.Cells for Java 23.1
+## Aspose.Cells for Java 23.1
 
-* Unterstützt neue Funktionen: CHOOSEROWS, CHOOSECOLS, HSTACK, VSTACK
-* Unterstützung beim Abrufen von Autor und Datum/Uhrzeit aus Revisionen
+* Unterstützung neuer Funktionen: CHOOSEROWS, CHOOSECOLS, HSTACK, VSTACK
+* Unterstützung zum Abrufen von Autor und Datum/Uhrzeit aus Überarbeitungen
 
-##  Aspose.Cells for Java 22.12
+## Aspose.Cells for Java 22.12
 
-* Unterstützung für den Excel-Export nach JSON mit mehrschichtiger Hierarchiestruktur
+* Unterstützung zum Exportieren von Excel in JSON mit mehrschichtiger Hierarchiestruktur
 
-##  Aspose.Cells for Java 22.11
+## Aspose.Cells for Java 22.11
 
-* Unterstützung zur Unterscheidung zwischen dynamischer Array-Formel und Legacy-Array-Formel
-* Unterstützung zum Lesen/Speichern dynamischer Array-Formeln für das XLSB-Dateiformat
+* Unterstützung zur Unterscheidung zwischen einer dynamischen Arrayformel und einer veralteten Arrayformel
+* Unterstützung zum Lesen/Speichern dynamischer Arrayformeln im xlsb-Dateiformat
 
-##  Aspose.Cells for Java 22.10
+## Aspose.Cells for Java 22.10
 
-* Unterstützung für das Hinzufügen und Aktualisieren von Diagrammen mit der CRTX-Vorlagendatei
+* Unterstützung zum Hinzufügen und Aktualisieren von Diagrammen mit CRTX-Vorlagendatei
 
-##  Aspose.Cells for Java 22.9
+## Aspose.Cells for Java 22.9
 
-* Unterstützung zum Festlegen von Tabellenformeln für Zellen
-* Unterstützung für die Festlegung dynamischer Array-Formeln mit benutzerdefinierter Funktion und Berechnungs-Engine
-* Unterstützung zum Festlegen voreingestellter Verlaufseinstellungen für das Verlaufsfüllformat
-* Unterstützung für die Anwendung von Umrissrändern mit Designfarben für den Bereich
+* Unterstützung zum Festlegen der Tabellenformel für Zellen
+* Unterstützung zum Festlegen der dynamischen Array-Formel mit benutzerdefinierter Funktion und Berechnungsmaschine
+* Unterstützung beim Festlegen von voreingestellten Gradienteneinstellungen für den Gradientenfüllformat
+* Unterstützung beim Anwenden von Umrissgrenzen mit Designs für Bereichsfarben
 
-##  Aspose.Cells for Java 22.8
+## Aspose.Cells for Java 22.8
 
-* Unterstützt den Export von Kommentaren und Notizen, wie sie auf dem Blatt angezeigt werden, in HTML
-* Unterstützt die Angabe der auszugebenden Arbeitsblätter beim Konvertieren in PDF/XPS
+* Unterstützung beim Exportieren von Kommentaren und Notizen, wie sie auf dem Blatt angezeigt werden, in html
+* Unterstützung beim Festlegen von Arbeitsblättern zur Ausgabe beim Konvertieren in pdf/xps
 
-##  Aspose.Cells for Java 22.7
+## Aspose.Cells for Java 22.7
 
-* Unterstützung für das Lesen von Vorlagendateien im OOXML-Format, die ungewöhnliche ZIP-Daten enthalten und nicht von Javas ZipInputStream verarbeitet werden können
-* Unterstützung für den Export von HTML in eine einzelne Datei mit Seitenkopf/-fußzeile
-* Unterstützung zum Ermitteln der absoluten Position und Größe des Bereichs (in Punkten)
+* Unterstützung beim Lesen von OOXML-Formatvorlagendateien, die abnormale Zip-Daten enthalten und nicht von Java's ZipInputStream verarbeitet werden können
+* Unterstützung beim Exportieren von html in eine einzige Datei mit Kopf-/Fußzeile
+* Unterstützung zum Abrufen der absoluten Position und Größe des Bereichs (in Punkten)
 
-##  Aspose.Cells for Java 22.6
+## Aspose.Cells for Java 22.6
 
-* Verbesserung zur Berechnung und Nachverfolgung von Formeln mit der Formelberechnungskette
+* Verbesserung bei Berechnung und Nachverfolgung von Formeln mit Formelberechnungskette
 
-##  Aspose.Cells for Java 22.5
+## Aspose.Cells for Java 22.5
 
-* Verbesserung der Speicherleistung beim Festlegen der Zellformel beim Speichern der Arbeitsmappe im LightCells-Modus
+* Verbesserung der Speicherleistung beim Festlegen von Zellenformeln beim Speichern der Arbeitsmappe im LightCells-Modus
 
-##  Aspose.Cells for Java 22.4
+## Aspose.Cells for Java 22.4
 
-* Erweiterte Optionen zur Steuerung leerer Zellen für den Export von CSV.
-* Unterstützt komplizierte Aufteilung und Aktualisierung der bedingten Formatierung für Einfüge-/Löschvorgänge
+* Erweiterte Optionen zur Steuerung leerer Zellen beim Exportieren von CSV.
+* Unterstützung für komplizierte Aufteilung und Aktualisierung der bedingten Formatierung für Einfüge-/Löschvorgänge
 
-##  Aspose.Cells for Java 22.3
+## Aspose.Cells for Java 22.3
 
-* Unterstützung für die Neuberechnung von Zellen, die vom definierten Namen abhängen, wenn der definierte Name geändert wird und die Berechnungskette der Arbeitsmappe aktiviert ist.
-* Unterstützung für das rekursive Abrufen der Zellblätter entsprechend der Berechnungskette der Formeln
+* Unterstützung beim Neu-Berechnen von Zellen, die von einem definierten Namen abhängen, wenn der definierte Name geändert wird und die Kalkulationskette der Arbeitsmappe aktiviert ist.
+* Unterstützung beim rekursiven Abfragen der Blattzellen gemäß der Formel-Kalkulationskette
 
-##  Aspose.Cells for Java 22.2
+## Aspose.Cells for Java 22.2
 
-* Unterstützung zum Extrahieren definierter Namen aus NameCollection durch einen bestimmten Bereichsfilter
+* Unterstützung beim Extrahieren von definierten Namen aus der Namenssammlung nach einem spezifizierten Umfangsfilter
 
-##  Aspose.Cells for Java 22.1
+## Aspose.Cells for Java 22.1
 
-* Unterstützung für die Generierung bearbeitbarer PPTX
-* Unterstützung für den Import großer CSV-Dateien in mehrere Arbeitsblätter, wenn die Datenzeile/-spalte den Grenzwert überschreitet
-* Unterstützung für den CSV-Import mit LightCells
-* Unterstützung zum Entfernen des angegebenen externen Links
-* Unterstützung für die Beibehaltung von Formeln beim Entfernen externer Links
+* Unterstützung beim Generieren von bearbeitbaren pptx
+* Unterstützung beim Importieren großer CSV-Dateien in mehrere Arbeitsblätter, wenn die Datenzeile/-spalte die Grenze überschreitet
+* Unterstützung beim Importieren von CSV-Dateien mit LightCells
+* Unterstützung beim Entfernen spezifizierter externer Links
+* Unterstützung beim Beibehalten von Formeln beim Entfernen externer Links
 
-##  Aspose.Cells for Java 21.12
+## Aspose.Cells for Java 21.12
 
-* Unterstützt die Konvertierung von Excel- in SQL-Skripts
-* Unterstützt den Import und Export einfacher XML-Daten
-* Unterstützt das Lesen so vieler Daten wie möglich aus einer beschädigten XLS-Datei
-* Unterstützung zum Unterbrechen des SmartMarker-Prozesses
-* Verbessern Sie die Leistung beim Hinzufügen von Bereichen für die bedingte Formatierung und Validierung
-* Stellen Sie die Priorität für die neu hinzugefügte Formatbedingung auf die höchste ein, genau wie das Verhalten von MS Excel
+* Unterstützung beim Konvertieren von Excel in SQL-Skripte
+* Unterstützung beim Importieren und Exportieren von reinen XML-Daten
+* Unterstützung beim Lesen von so vielen Daten wie möglich aus beschädigten XLS-Dateien
+* Unterstützung beim Unterbrechen des SmartMarker-Prozesses
+* Verbesserung der Leistung beim Hinzufügen von Bereichsangaben für bedingte Formatierung und Validierung
+* Setzen der höchsten Priorität für die neu hinzugefügte Formatbedingung, ähnlich dem Verhalten von MS Excel
 
-##  Aspose.Cells for Java 21.11
+## Aspose.Cells for Java 21.11
 
-* Unterstützt die Berechnung der XLookup-Formel/-Funktion.
-* Integrieren Sie das Speichern von JSON und Bildern in das Speichern der Arbeitsmappe.
-* Verbessern Sie die Leistung beim Konvertieren von Excel in HTML.
+* Unterstützung bei der Berechnung der XLookup-Formel/Funktion
+* Integration des Speicherns von JSON und Bildern in die Arbeitsmappe zum Speichern.
+* Verbesserung der Leistung bei der Konvertierung von Excel in HTML.
 
 

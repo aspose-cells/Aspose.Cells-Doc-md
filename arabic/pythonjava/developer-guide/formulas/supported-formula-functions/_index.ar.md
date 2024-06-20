@@ -1,215 +1,216 @@
-﻿---
-title: وظائف الصيغ المدعومة
+---
+title: الوظائف العاملة المدعومة
 type: docs
 weight: 10
 url: /ar/python-java/supported-formula-functions/
 ---
+
 {{% alert color="primary" %}} 
 
-تدعم واجهات برمجة التطبيقات Aspose.Cells معظم الوظائف القياسية والصيغة المضمنة في Excel. أدناه ، يمكنك العثور على جميع الوظائف المدعومة بترتيب أبجدي.
+تدعم واجهات برمجة التطبيقات ل Aspose.Cells معظم الوظائف القياسية والصيغ المدمجة في Excel. فيما يلي، يمكنك العثور على كل الوظائف المدعومة بترتيب ألفبائي.
 
 {{% /alert %}} 
 ### **تعيين وقراءة وحساب في وقت التشغيل**
-يتيح لك محرك حساب الصيغة Aspose.Cells 'ضبط نتائج الصيغ والوظائف التالية وقراءتها وحسابها.
-#### **أ**
-- عضلات المعدة
-- قبول
+يسمح محرك حساب الصيغ في Aspose.Cells بتعيين وقراءة وحساب نتائج الصيغ والوظائف التالية.
+#### **A**
+- ABS
+- ACCRINT
 - ACCRINTM
 - ACOS
 - ACOSH
-- تبوك
-- مجموع
+- ADDRESS
+- AGGREGATE
 - AMORDEGRC
-- امورلينك
-- و
-- المناطق
+- AMORLINC
+- AND
+- AREAS
 - ASC
 - ASIN
 - ASINH
 - ATAN
 - ATAN2
-- أتانه
-- افيديف
-- معدل
-- متوسط
-- متوسط
-- المتوسطات
-#### **ب**
-- بيسلي
-- بسيلج
-- بيسلك
-- بصلي
-- بيتا ديست
-- بيتا
-- أفضل
-- بيتينف
+- ATANH
+- AVEDEV
+- AVERAGE
+- AVERAGEA
+- AVERAGEIF
+- AVERAGEIFS
+#### **B**
+- BESSELI
+- BESSELJ
+- BESSELK
+- BESSELY
+- BETA.DIST
+- BETA.INV
+- BETADIST
+- BETAINV
 - BIN2DEC
 - BIN2HEX
-- بين 2 أوكت
-- قائمة BINOM.DIST
-- بينومديست
-- البت
+- BIN2OCT
+- BINOM.DIST
+- BINOMDIST
+- BITAND
 - BITLSHIFT
-- بيتور
+- BITOR
 - BITRSHIFT
-- بيتكسور
-#### ** ج **
-- السقف
-- السقف
-- السقف
-- زنزانة
-- شار
+- BITXOR
+#### **C**
+- CEILING
+- CEILING.MATH
+- CEILING.PRECISE
+- CELL
+- CHAR
 - CHIDIST
-- شينف
+- CHIINV
 - CHISQ.DIST
 - CHISQ.DIST.RT
 - CHISQ.INV.RT
 - CHISQ.TEST
-- شيتست
-- أختر
-- ينظف
-- الشفرة
-- عمود
-- الأعمدة
-- الجمع
-- مركب
+- CHITEST
+- CHOOSE
+- CLEAN
+- CODE
+- COLUMN
+- COLUMNS
+- COMBIN
+- COMPLEX
 - CONCAT
-- سلسل
-- الثقة
-- الثقة
-- يتحول
-- كوريل
+- CONCATENATE
+- CONFIDENCE
+- CONFIDENCE.NORM
+- CONVERT
+- CORREL
 - COS
-- ضرب بالعصا
-- عدد
-- كونتا
-- كونتبلانك
-- كونتيف
+- COSH
+- COUNT
+- COUNTA
+- COUNTBLANK
+- COUNTIF
 - COUNTIFS
-- قسائم
-- قروض
-- قسائم
+- COUPDAYBS
+- COUPDAYS
+- COUPDAYSNC
 - COUPNCD
-- كوبنوم
+- COUPNUM
 - COUPPCD
-- كوفار
-- تغطية
-- التباين
-- الحرج
-- كوميبمت
-- كومبرينك
-#### **د**
-- تاريخ
+- COVAR
+- COVARIANCE.P
+- COVARIANCE.S
+- CRITBINOM
+- CUMIPMT
+- CUMPRINC
+#### **D**
+- DATE
 - DATEDIF
-- التاريخ
-- الجفاف
-- يوم
-- أيام
-- الأيام 360
+- DATEVALUE
+- DAVERAGE
+- DAY
+- DAYS
+- DAYS360
 - DB
 - DCOUNT
-- دكونتا
+- DCOUNTA
 - DDB
 - DEC2BIN
 - DEC2HEX
 - DEC2OCT
-- درجات
-- دلتا
+- DEGREES
+- DELTA
 - DEVSQ
 - DGET
-- قرص
+- DISC
 - DMAX
 - DMIN
-- دولار
-- دولارد
-- دولار
-- الإنتاج
+- DOLLAR
+- DOLLARDE
+- DOLLARFR
+- DPRODUCT
 - DSTDEV
 - DSTDEVP
 - DSUM
-- المدة الزمنية
+- DURATION
 - DVAR
 - DVARP
-#### ** ه **
+#### **E**
 - EDATE
-- تأثير
+- EFFECT
 - EOMONTH
 - ERF
 - ERFC
-- نوع الخطأ
-- حتى في
-- بالضبط
+- ERROR.TYPE
+- EVEN
+- EXACT
 - EXP
 - EXPONDIST
 #### **F**
 - F.DIST
 - F.DIST.RT
 - F.INV.RT
-- حقيقة
-- حقيقة
+- FACT
+- FACTDOUBLE
 - FDIST
-- منقي
-- تجد
+- FILTER
+- FIND
 - FINDB
 - FINV
-- فيشر
-- فيشيرينف
-- مُثَبَّت
-- الأرض
+- FISHER
+- FISHERINV
+- FIXED
+- FLOOR
 - FLOOR.MATH
-- تنبؤ بالمناخ
+- FORECAST
 - FORECAST.LINEAR
-- الصيغة
-- تردد ، FV
+- FORMULATEXT
+- FREQUENCY, FV
 - FVSCHEDULE
-- خاطئة
-#### ** ز **
-- جاما
+- FALSE
+#### **G**
+- GAMMA.DIST
 - GAMMA.INV
 - GAMMADIST
-- جاماينف
+- GAMMAINV
 - GAMMALN
 - GCD
 - GEOMEAN
-- الحصول على البيانات
+- GETPIVOTDATA
 - GESTEP
-- نمو
-#### ** ح **
-- حرمان
+- GROWTH
+#### **H**
+- HARMEAN
 - HEX2BIN
 - HEX2DEC
 - HEX2OCT
-- هلوكوب
-- ساعة
-- رابط تشعبي
+- HLOOKUP
+- HOUR
+- HYPERLINK
 - HYPGEOM.DIST
-- طبيب مختص
-#### **أنا**
-- إذا
+- HYPGEOMDIST
+#### **I**
+- IF
 - IFERROR
 - IFNA
 - IFS
 - IMABS
-- خيال
-- هام
-- تحرر
+- IMAGINARY
+- IMARGUMENT
+- IMCONJUGATE
 - IMCOS
 - IMDIV
 - IMEXP
 - IMLN
 - IMLOG10
 - IMLOG2
-- المستورد
-- تحسين
+- IMPOWER
+- IMPRODUCT
 - IMREAL
 - IMSIN
 - IMSQRT
 - IMSUB
 - IMSUM
-- فهرس
-- غير مباشر
-- ذكاء
-- تقاطع
+- INDEX
+- INDIRECT
+- INT
+- INTERCEPT
 - INTRATE
 - IPMT
 - IRR
@@ -217,234 +218,234 @@ url: /ar/python-java/supported-formula-functions/
 - ISERR
 - ISERROR
 - ISEVEN
-- إسلامي
+- ISLOGICAL
 - ISNA
 - ISNONTEXT
-- هو رقم
-- أمر غريب
+- ISNUMBER
+- ISODD
 - ISOWEEKNUM
 - ISPMT
 - ISREF
 - ISTEXT
-#### **ك**
-- كورت
-#### ** لام **
-- كبير
+#### **K**
+- KURT
+#### **L**
+- LARGE
 - LCM
-- اليسار
-- اليسار
-- لين
+- LEFT
+- LEFTB
+- LEN
 - LENB
 - LINEST
 - LN
-- سجل
-- السجل 10
-- سجل
-- تسجيل الدخول
-- قائمة LOGNORM.DIST
+- LOG
+- LOG10
+- LOGEST
+- LOGINV
+- LOGNORM.DIST
 - LOGNORMDIST
-- ابحث عن
-- أدنى
-#### ** م **
-- تطابق
-- الأعلى
-- ماكسا
-- ماكسيفس
+- LOOKUP
+- LOWER
+#### **M**
+- MATCH
+- MAX
+- MAXA
+- MAXIFS
 - MDETERM
 - MDURATION
-- الوسيط
-- منتصف
+- MEDIAN
+- MID
 - MIDB
-- دقيقة
-- مينا
+- MIN
+- MINA
 - MINIFS
-- اللحظة
+- MINUTE
 - MINVERSE
 - MIRR
 - MMULT
-- عصري
-- الوضع
-- الوضع
-- الوضع
-- شهر
+- MOD
+- MODE
+- MODE.MULT
+- MODE.SNGL
+- MONTH
 - MROUND
-- متعددة
-#### **ن**
-- ن
-- غير متوفر
+- MULTINOMIAL
+#### **N**
+- N
+- NA
 - NEGBINOM.DIST
 - NEGBINOMDIST
 - NETWORKDAYS
 - NETWORKDAYS.INTL
-- اسمى، صورى شكلى، بالاسم فقط
+- NOMINAL
 - NORM.DIST
-- قائمة نورم
-- NORM.SINV
-- نورمديست
-- نورمينف
+- NORM.S.DIST
+- NORM.S.INV
+- NORMDIST
+- NORMINV
 - NORM.INV
-- نورمينف
+- NORMINV
 - NORMSDIST
-- ليس
-- الآن
+- NOT
+- NOW
 - NPER
-- صافي القيمة الحالية
+- NPV
 - NUMBERVALUE
-#### ** يا **
+#### **O**
 - OCT2BIN
 - OCT2DEC
 - OCT2HEX
-- الفردية
+- ODD
 - ODDFPRICE
 - ODDFYIELD
-- سعر ODDL
-- أودلييلد
-- عوض
-- أو
-#### ** ف **
-- بيرسون
-- النسبة المئوية
+- ODDLPRICE
+- ODDLYIELD
+- OFFSET
+- OR
+#### **P**
+- PEARSON
+- PERCENTILE
 - PERCENTILE.EXC
 - PERCENTILE.INC
-- بيرسينترانك
+- PERCENTRANK
 - PERCENTRANK.EXC
 - PERCENTRANK.INC
-- بيرموت
+- PERMUT
 - PI
 - PMT
-- بويسون
+- POISSON
 - POISSON.DIST
-- قوة
+- POWER
 - PPMT
-- سعر
+- PRICE
 - PRICEDISC
 - PRICEMAT
-- اختبار
-- المنتج
-- لائق
+- PROB
+- PRODUCT
+- PROPER
 - PV
-#### ** س **
-- الربع
+#### **Q**
+- QUARTILE
 - QUARTILE.EXC
 - QUARTILE.INC
-- حاصل القسمة
-#### ** ص **
-- راديان
-- راند
-- راندبيتوين
-- رانداري
-- مرتبة
-- الترتيب. AVG
-- الترتيب
-- معدل
-- استلمو
-- يحل محل
-- استبدال
+- QUOTIENT
+#### **R**
+- RADIANS
+- RAND
+- RANDBETWEEN
+- RANDARRAY
+- RANK
+- RANK.AVG
+- RANK.EQ
+- RATE
+- RECEIVED
+- REPLACE
+- REPLACEB
 - REPT
-- حقا
-- الحق ب
-- رومان
-- مستدير
-- المستدير لأسفل
-- جمع الشمل
-- صف
-- الصفوف
+- RIGHT
+- RIGHTB
+- ROMAN
+- ROUND
+- ROUNDDOWN
+- ROUNDUP
+- ROW
+- ROWS
 - RSQ
-#### **س**
-- بحث
-- بحث
-- ثانيا
-- تسلسل
-- سيروم
-- إشارة
-- خطيئة
+#### **S**
+- SEARCH
+- SEARCHB
+- SECOND
+- SEQUENCE
+- SERIESSUM
+- SIGN
+- SIN
 - SINH
 - SKEW
 - SLN
-- ميل
-- صغير
+- SLOPE
+- SMALL
 - SQRT
-- صنف حسب
+- SORTBY
 - SQRTPI
-- التوحيد
+- STANDARDIZE
 - STDEV
 - STDEV.P
 - STDEV.S
 - STDEVA
 - STDEVP
 - STDEVPA
-- ستايكس
-- استبدل
-- المجموع الفرعي
-- مجموع
-- سوميف
-- موجزات
-- إنتاج
+- STEYX
+- SUBSTITUTE
+- SUBTOTAL
+- SUM
+- SUMIF
+- SUMIFS
+- SUMPRODUCT
 - SUMSQ
 - SUMX2MY2
 - SUMX2PY2
 - SUMXMY2
-- تحول
+- SWITCH
 - SYD
-#### ** تي **
-- تي
+#### **T**
+- T
 - T.DIST.2T
 - T.DIST.RT
 - T.INV.2T
-- TEST
-- تان
-- تان
+- T.TEST
+- TAN
+- TANH
 - TBILLEQ
 - TBILLPRICE
 - TBILLYIELD
 - TDIST
-- نص
+- TEXT
 - TEXTJOIN
-- الوقت
-- الوقت ثمين
+- TIME
+- TIMEVALUE
 - TINV
-- اليوم
-- تبديل موضع
-- اتجاه
-- تقليم
+- TODAY
+- TRANSPOSE
+- TREND
+- TRIM
 - TRIMMEAN
 - TRUNC
 - TTEST
-- اكتب
-- صحيح
-#### ** يو **
-- يونيكار
-- يونيكود
-- فريدة من نوعها
-- أعلى
-- الدولار الأمريكي
-#### **الخامس**
-- القيمة
+- TYPE
+- TRUE
+#### **U**
+- UNICHAR
+- UNICODE
+- UNIQUE
+- UPPER
+- USDOLLAR
+#### **V**
+- VALUE
 - VAR
 - VAR.P
 - VAR.S
-- فارا
+- VARA
 - VARP
-- فاربا
+- VARPA
 - VDB
 - VLOOKUP
-#### ** W **
+#### **W**
 - WEEKDAY
 - WEEKNUM
 - WEIBULL
 - WEIBULL.DIST
 - WIDECHAR
-- يوم عمل
+- WORKDAY
 - WORKDAY.INTL
-#### ** X **
+#### **X**
 - XIRR
 - XNPV
-#### ** نعم **
-- عام
+#### **Y**
+- YEAR
 - YEARFRAC
-- أَثْمَر
-- YIELDISC
+- YIELD
+- YIELDDISC
 - YIELDMAT
-#### ** Z **
+#### **Z**
 - Z.TEST
 - ZTEST

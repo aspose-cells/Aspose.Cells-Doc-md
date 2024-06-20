@@ -1,13 +1,14 @@
-﻿---
-title: Çalışma Sayfalarını Yeniden Sırala
+---
+title: Çalışma Sayfalarını Yeniden Sıralama
 type: docs
 weight: 70
 url: /tr/net/reorder-worksheets/
 ---
-## **Aspose.Cells - Çalışma Sayfalarını Yeniden Sırala**
+
+## **Aspose.Cells - Çalışma Sayfalarını Yeniden Sıralama**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook.
 
@@ -34,10 +35,10 @@ worksheet3.MoveTo(2);
 workbook.Save("../../data/AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Çalışma Sayfalarını Yeniden Sırala**
+## **NPOI - HSSF XSSF - Çalışma Sayfalarını Yeniden Sıralama**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -61,12 +62,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfalarını Yeniden Sırala** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Çalışma Sayfalarını Yeniden Sıralama** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/ReOrder.WorkSheets.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarıyla Çalışmak](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Daha fazla ayrıntı için [Çalışma Sayfaları İle Çalışma](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/) ziyaret edin.
 
 {{% /alert %}}

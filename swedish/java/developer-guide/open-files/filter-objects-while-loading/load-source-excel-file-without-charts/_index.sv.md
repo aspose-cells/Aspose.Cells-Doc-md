@@ -1,22 +1,23 @@
-﻿---
-title: Ladda källexcel-fil utan diagram
+---
+title: Ladda käll excel filen utan diagram
 type: docs
 weight: 750
 url: /sv/java/load-source-excel-file-without-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells låter dig ladda din excel-fil utan diagram. Använd egenskapen LoadOptions.LoadFilter för detta ändamål.
+Aspose.Cells tillåter dig att ladda din excelfil utan diagram. Använd LoadOptions.LoadFilter-egenskapen för detta ändamål.
 
 {{% /alert %}} 
-## **Ladda källexcel-fil utan diagram**
-Följande exempelkod laddar excel-exempelfilen utan diagram och sparar den i utdata-pdf-format.
+## **Ladda käll-excel-filen utan diagram**
+Följande kodexempel laddar käll-excel-filen utan diagram och sparar den i utmatnings-pdf-format.
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Specify the load options and filter the data
 

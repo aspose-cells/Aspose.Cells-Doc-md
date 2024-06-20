@@ -1,22 +1,23 @@
-﻿---
-title: Zaman Çizelgesi Ekle
-linktitle: Zaman Çizelgeleri
+---
+title: Zaman çizelgesi ekle
+linktitle: Zaman çizelgeleri
 type: docs
 weight: 170
 url: /tr/java/create-timeline/
-description: Java için Aspose.Cells ile bir zaman çizelgesi oluşturmayı öğrenin.
+description: Java için Aspose.Cells ile zaman çizelgesi oluşturmayı öğrenin.
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- Tarihleri göstermek için filtreleri ayarlamak yerine, PivotTable Zaman Çizelgesi'ni kullanabilirsiniz—tarih/saate göre kolayca filtrelemenize ve kaydırıcı kontrolüyle istediğiniz dönemi yakınlaştırmanıza olanak tanıyan dinamik bir filtre seçeneği. Microsoft Excel, bir pivot tablo seçip ardından*Ekle > Zaman Çizelgesi*. Java için Aspose.Cells, [**Worksheet.getTimelines.add()**]yöntemini kullanarak zaman çizelgesi oluşturmanıza da olanak tanır.
+Tarihleri göstermek için filtreleri ayarlamak yerine, dinamik bir filtre seçeneği olan PivotTable Timeline'ı kullanabilirsiniz - bu seçenekle tarih/saat bazında kolayca filtreleme yapabilir ve kaydırmalı denetimi kullanarak istediğiniz döneme yakınlaşabilirsiniz. Microsoft Excel, bir pivot tablosunu seçerek ve ardından *Ekle > Zaman Çizelgesi*'ne tıklayarak zaman çizelgesi oluşturmanıza olanak tanır. Aspose.Cells Java'da da **Worksheet.getTimelines.add()** yöntemini kullanarak zaman çizelgesi oluşturmanıza olanak tanır.
 
-## **Pivot Tablo için Zaman Çizelgesi Oluşturma**
+## **Bir Pivot Tablosuna Zaman Çizelgesi Oluştur**
 
- Lütfen aşağıdaki örnek koda bakın. o yükler[örnek excel dosyası](input.xlsx) pivot tabloyu içerir. Ardından, ilk temel pivot alanına dayalı olarak zaman çizelgesini oluşturur. Son olarak, çalışma kitabını şuraya kaydeder:[çıkış XLSX](output.xlsx) biçim. Aşağıdaki ekran görüntüsü, çıktı Excel dosyasında Aspose.Cells tarafından oluşturulan zaman çizelgesini gösterir.
+Aşağıdaki örnek kodu inceleyin. İçinde Pivot tablosu bulunan [örnek Excel dosyasını](input.xlsx) yükler. Ardından, ilk temel Pivot alanına dayalı olarak zaman çizelgesi oluşturur. Son olarak, çalışma kitabını [çıktı XLSX](output.xlsx) biçiminde kaydeder. Aşağıdaki ekran resmi, Aspose.Cells tarafından oluşturulan zaman çizelgesini çıktı Excel dosyasında göstermektedir.
 
 <img src="create-timeline-to-a-pivot-table_1.png" width="60%">
 
-### **Basit kod**
+### **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-CreateTimelineToPivotTable.java" >}}
 

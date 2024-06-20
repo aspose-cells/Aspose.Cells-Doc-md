@@ -1,31 +1,32 @@
 ---
-title: الكشف عن المرجع الدائري
-description: تقدم هذه المقالة كيفية استخدام مكتبة Aspose.Cells للكشف عن المراجع الدائرية في Microsoft Excel. من خلال تحميل ملف Excel موجود أو إنشاء ملف جديد، يمكننا استخدام الطريقة التي يوفرها Aspose.Cells للكشف عن المراجع الدائرية والحصول على النتائج. وأخيرًا، نقوم بحفظ ملف Excel المعدل على القرص.
-keywords: Aspose.Cells, Excel, circular references, detection
+title: كشف الإشارة المرجعية الدائرية
+description: تقدم هذه المقالة كيفية استخدام مكتبة Aspose.Cells لكشف الإشارات المرجعية الدائرية في Microsoft Excel. من خلال تحميل ملف Excel القائم أو إنشاء واحد جديد، يمكننا استخدام الطريقة المقدمة من Aspose.Cells لكشف الإشارات المرجعية الدائرية والحصول على النتائج. وأخيرًا، نقوم بحفظ ملف Excel المعدل على القرص.
+keywords: Aspose.Cells، Excel، إشارات مرجعية دائرية، كشف
 type: docs
 weight: 70
 url: /ar/net/detecting-circular-reference/
 ---
-##  **مقدمة**
 
-يمكن أن تحتوي المصنفات على مراجع دائرية وفي بعض الأحيان تكون هناك حاجة لاكتشاف ما إذا كانت المراجع الدائرية موجودة أم لا.
+## **مقدمة**
 
-##  **المفهوم الكامن وراء الكشف عن المرجع الدائري**
+يمكن أن تحتوي الدفاتر على إشارات مرجعية دائرية وأحيانًا هناك حاجة للكشف عما إذا كانت هناك إشارات مرجعية دائرية أم لا.
 
-لا يمكن اكتشاف المراجع الدائرية إلا عند حساب الصيغة لأن مراجع صيغة واحدة تعتمد عادةً على النتيجة المحسوبة لأجزاء أخرى أو صيغ أخرى. لذلك نقدم واجهات برمجة تطبيقات جديدة لهذا المطلب (لجمع الخلايا ذات المراجع الدائرية) في عملية حساب الصيغة:
+## **المفهوم الكامن وراء كشف الإشارة المرجعية الدائرية**
 
-[**CalculationCell**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell): يمثل حساب البيانات ذات الصلة حول خلية واحدة يتم حسابها
+يمكن فقط كشف الإشارات المرجعية الدائرية عند حساب الصيغة لأن الإشارات في صيغة واحدة تعتمد عادة على النتيجة المحسوبة لأجزاء أخرى أو صيغ أخرى. لذا نحن نوفر واجهات برمجة تطبيقات جديدة لهذا الاحتياج (لجمع الخلايا ذات الإشارات المرجعية الدائرية) في عملية حساب الصيغة:
 
-[**AbstractCalculationMonitor.OnCircular(IEnumerator CircularCellsData)**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular): سيتم استدعاؤه بواسطة محرك حساب الصيغة عند مواجهة مراجع دائرية، وهو العنصر الموجود في العداد[**CalculationCell**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell) الكائنات التي تمثل جميع الخلايا في دائرة واحدة. تشير القيمة التي تم إرجاعها إلى ما إذا كان محرك الصيغة يحتاج إلى حساب تلك الخلايا بشكل دائري بعد هذا الاستدعاء.
+[**CalculationCell**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell): يمثل حساب البيانات ذات الصلة حول خلية تتم حسابها
 
- يجوز للمستخدم جمع تلك المراجع الدائرية في تنفيذ[**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular) طريقة.
+[**AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular): سيتم استدعاؤها بواسطة محرك حساب الصيغ عند مواجهة الإشارات المرجعية، العنصر في عنصر التعداد هو [**CalculationCell**](https://reference.aspose.com/cells/net/aspose.cells/calculationcell) كائنات تمثل جميع الخلايا في دائرة واحدة. القيمة المُرجَعة تُحدد ما إذا كان محرك الصيغ يحتاج إلى حساب تلك الخلايا في الدائرة بعد هذا الاستدعاء.
+
+يمكن للمستخدم جمع تلك الإشارات المرجعية في تنفيذ الطريقة [**AbstractCalculationMonitor.OnCircular()**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor/methods/oncircular).
 
 يمكن تحميل ملف العينة المصدر من الرابط التالي:
 
-[الصيغ الدائرية.xls](77496332.xls)
+[Circular Formulas.xls](77496332.xls)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-1.cs" >}}
 
-تعريف ال*CircularMonitor* الطبقة التي تستمد من[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) الطبقة هي كما يلي:
+تعريف فئة *CircularMonitor* المشتقة من [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationmonitor) على النحو التالي:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DetectCircularReference-2.cs" >}}

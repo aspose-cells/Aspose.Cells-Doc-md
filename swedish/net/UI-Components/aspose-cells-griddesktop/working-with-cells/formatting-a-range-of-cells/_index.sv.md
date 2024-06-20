@@ -1,20 +1,23 @@
-﻿---
-title: Formatera ett intervall på Cells
+---
+title: Formatering av ett cellintervall
 type: docs
 weight: 60
-url: /sv/net/formatting-a-range-of-cells/
+url: /sv/net/aspose-cells-griddesktop/formatting-a-range-of-cells/
+keywords: GridDesktop, format, stil, celler
+description: Den här artikeln introducerar hur man tillämpar stilformat på celler i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Det här ämnet tillhör också serien av ämnen som är relaterade till tillämpningen av teckensnittsinställningar och andra formateringsstilar på celler. Våra senaste ämnen har täckt väl om hantering av sådana funktioner. Du kan till exempel hänvisa till[Ändra teckensnitt och färg för en Cell](/cells/sv/net/changing-the-font-and-color-of-a-cell/) och[Applicera stilar på Cells](/cells/sv/net/applying-styles-on-cells/) ämnen för att lära dig om samma funktioner. Vad är då nytt i detta ämne om vi redan har täckt dessa begrepp. Tja, den enda skillnaden mellan detta ämne och de tidigare är att vi kommer att tillämpa formateringsinställningar (relaterade till teckensnitt och andra stilar) på ett antal celler istället för bara en enda cell. Vi hoppas att du fortfarande kommer att finna detta ämne användbart för dig.
+Det här ämnet tillhör också serien ämnen som är relaterade till tillämpning av teckeninställningar och andra formateringsstilar på celler. Våra senaste ämnen har täckt väl om hantering av sådana funktioner. Till exempel kan du hänvisa till [Ändra teckensnitt & färg för en cell](/cells/sv/net/changing-the-font-and-color-of-a-cell/) och [Tillämpa stilar på celler](/cells/sv/net/applying-styles-on-cells/) för att lära dig om samma funktioner. Vad är då nytt i det här ämnet om vi redan har täckt dessa begrepp. Jo, den enda skillnaden med det här ämnet jämfört med de tidigare är att vi kommer att tillämpa formateringsinställningar (relaterade till teckensnitt och andra stilar) på ett cellintervall istället för bara en enskild cell. Vi hoppas att du fortfarande kommer att finna det här ämnet användbart för dig.
 
 {{% /alert %}} 
-## **Ställa in teckensnitt och stil för ett intervall på Cells**
- Innan vi pratar om formateringsinställningar (som vi redan har pratat mycket om i våra tidigare ämnen), bör vi veta om hur man skapar en rad celler. Tja, vi kan skapa en rad celler med hjälp av**CellRange** klass vars konstruktor tar några parametrar för att specificera cellintervallet. Vi kan specificera cellintervallet med hjälp av**Namn** eller**Rad- och kolumnindex** av start- och slutceller.
+## **Inställning av teckensnitt & stil i ett cellintervall**
+Innan vi pratar om formateringsinställningar (som vi redan har pratat mycket om i våra tidigare ämnen), bör vi veta hur man skapar ett cellintervall. Tja, vi kan skapa ett cellintervall med hjälp av **CellRange**-klassen vars konstruktor tar några parametrar för att ange cellintervall. Vi kan ange cellintervallet med hjälp av **Namn** eller **Rad & Kolumnindex** för start- och slutceller.
 
- När vi har skapat en**CellRange** objekt så kan vi använda de överbelastade versionerna av**SetStyle**, **SetFont** & **SetFontColor** metoder för arbetsblad som kan ta en**CellRange** objekt för att tillämpa formateringsinställningar på det angivna cellintervallet.
+När vi har skapat en **CellRange** objekt kan vi använda de överbelastade versionerna av **SetStyle**, **SetFont** & **SetFontColor** metoder av Worksheet som kan ta en **CellRange** objekt för att tillämpa formateringsinställningar på det angivna cellområdet.
 
-Låt oss kolla in ett exempel för att förstå detta grundläggande koncept.
+Låt oss kolla på ett exempel för att förstå denna grundläggande koncept.
 
 
 

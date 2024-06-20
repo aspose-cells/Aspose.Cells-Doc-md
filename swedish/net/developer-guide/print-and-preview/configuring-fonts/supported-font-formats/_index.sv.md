@@ -1,11 +1,12 @@
-﻿---
-title: Typsnittsformat som stöds
+---
+title: Stödda typsnittsformat
 type: docs
 weight: 5
 url: /sv/net/supported-font-formats/
 ---
-|**Formatera**|**Beskrivning**|
-|:- |:- |:- |:- |
-|**TTF**|TrueType-teckensnitt|
-|**TTC**|TrueType Collection|
-|**OTF**|OpenType-teckensnitt|
+
+|**Format**|**Beskrivning**|
+| :- | :- | :- | :- |
+|**TTF**|TrueType-typsnitt|
+|**TTC**|TrueType-samling|
+|**OTF**|OpenType-typsnitt|

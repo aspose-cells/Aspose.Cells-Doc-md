@@ -1,45 +1,49 @@
-﻿---
-title: Excel'in TIFF'e Dönüştürme İlerlemesini İzleyin
+---
+title: Excel den TIFF e Dönüşüm İlerlemesini İzle
 type: docs
 weight: 190
 url: /tr/net/track-conversion-progress-of-excel-to-tiff/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- Bazen büyük excel dosyalarının dönüştürülmesi biraz zaman alabilir. Bu süre zarfında, uygulamanızın kullanılabilirliğini artırmak için yalnızca bir yükleme ekranı yerine belge dönüştürme ilerlemesini göstermek isteyebilirsiniz. Aspose.Cells, aşağıdakileri sağlayarak izleme belgesi dönüştürme sürecini destekler:**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)** arayüz. bu**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**arayüz sağlar**[PageStartSaving](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pagestartsaving)**ve**[PageEndSaving](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pageendsaving)**özel sınıfınızda uygulayabileceğiniz yöntemler. T'de gösterildiği gibi hangi sayfaların oluşturulacağını da kontrol edebilirsiniz.*estPageSavingCallback*özel sınıf
+Bazı durumlarda büyük excel dosyalarını dönüştürmek biraz zaman alabilir. Bu süre zarfında, sadece bir yükleme ekranı yerine doküman dönüşüm ilerlemesini göstermek isteyebilirsiniz. Aspose.Cells, [**IPageSavingCallback**](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback) arayüzünü sağlayarak döküman dönüşüm sürecini takip etmeyi destekler. [**IPageSavingCallback**](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback) arayüzü, özel sınıfınızda uygulayabileceğiniz [**PageStartSaving**](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pagestartsaving) ve [**PageEndSaving**](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pageendsaving) metotlarını sağlar. Ayrıca hangi sayfaların nasıl işlendiğini kontrol edebilirsiniz, T*estPageSavingCallback* özel sınıfında gösterildiği gibi.
 
-## **Excel'in TIFF'e Dönüştürme İlerlemesini İzleyin**
+## **Excel'den TIFF'e Dönüşüm İlerlemesini İzle**
 
- Aşağıdaki kod örneği,[kaynak excel dosyası](95584311.xlsx) kullanarak dönüştürme ilerlemesini konsolda yazdırır.*TestPageSavingCallback* uygulayan özel sınıf**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**arayüz. Oluşturulan çıktı dosyası, referansınız için eklenmiştir.
+Aşağıdaki kod örneği, [kaynak excel dosyasını](95584311.xlsx) yükler ve dönüşüm ilerlemesini konsolda *TestPageSavingCallback* özel sınıfını kullanarak yazdırır. Oluşturulan çıktı dosyası referans için eklenmiştir.
 
-[Çıktı dosyası](95584312.tiff)
+[Output File](95584312.tiff)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-DocumentConversionProgressForTiff-1.cs" >}}
 
-için kod aşağıdadır*TestTiffPageSavingCallback*özel sınıf
+Aşağıdaki kod *TestTiffPageSavingCallback* özel sınıf için olan kodu içerir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-DocumentConversionProgressForTiff-2.cs" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-10. sayfanın 0. sayfa dizinini kaydetmeye başla</br>
-10. sayfaların sayfa dizini 0'ı kaydetmeyi sonlandır</br>
-10. sayfanın 1. sayfasını kaydetmeye başla</br>
-10. sayfanın 1. sayfa indeksini kaydetmeyi sonlandır</br>
-10. sayfanın 2. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa indeksi 2 sayfa 10</br>
-10. sayfanın 3. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa indeksi 3 sayfa 10</br>
-10. sayfanın 4. sayfa dizinini kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa dizini 4 sayfa 10</br>
-10. sayfanın 5. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa dizini 5 sayfa 10</br>
-10. sayfanın 6. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa indeksi 6 sayfa 10</br>
-10. sayfanın 7. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa dizini 7 / sayfa 10</br>
-10. sayfanın 8. sayfasını kaydetmeye başla</br>
-Kaydetmeyi sonlandır sayfa dizini 8 sayfa 10</br>
+{{< highlight java >}}
 
+Start saving page index 0 of pages 10</br>
+End saving page index 0 of pages 10</br>
+Start saving page index 1 of pages 10</br>
+End saving page index 1 of pages 10</br>
+Start saving page index 2 of pages 10</br>
+End saving page index 2 of pages 10</br>
+Start saving page index 3 of pages 10</br>
+End saving page index 3 of pages 10</br>
+Start saving page index 4 of pages 10</br>
+End saving page index 4 of pages 10</br>
+Start saving page index 5 of pages 10</br>
+End saving page index 5 of pages 10</br>
+Start saving page index 6 of pages 10</br>
+End saving page index 6 of pages 10</br>
+Start saving page index 7 of pages 10</br>
+End saving page index 7 of pages 10</br>
+Start saving page index 8 of pages 10</br>
+End saving page index 8 of pages 10</br>
+
+{{< /highlight >}}

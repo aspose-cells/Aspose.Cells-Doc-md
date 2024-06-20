@@ -1,5 +1,5 @@
-﻿---
-title: SmartArt'ı Yönetme
+---
+title: Akıllı Sanatı Yönetme
 type: docs
 weight: 100
 url: /tr/java/managing-smartart/

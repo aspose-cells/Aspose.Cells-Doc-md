@@ -1,28 +1,29 @@
 ---
-title: JSON'i Excel'e dönüştür
+title: JSON u Excel e dönüştür
 type: docs
 weight: 300
 url: /tr/python-net/convert-json-to-excel/
-description: Aspose.Cells for Python via .NET API ile json'u excel dosyasına nasıl dönüştüreceğinizi öğrenin.
-keywords: Python Convert json to excel, Convert json to excel Pyton via NET, Export json to excel, Convert json to excel
+description: Aspose.Cells for Python via .NET API ile json un excel dosyasına nasıl dönüştürüleceğini öğrenin.
+keywords: Python da json ı excel e dönüştürme, json u excel e dönüştürme Pyton via NET, json u excel e dışa aktarma, json ı excel e dönüştürme
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET, Json(JavaScript Object Notation) dosyasının Excel Çalışma Kitabına dönüştürülmesini destekler.
+Aspose.Cells for Python via .NET, Json(JavaScript Nesne Notasyonu) dosyasını Excel Çalışma Kitabına dönüştürmeyi destekler.
 
 {{% /alert %}}
 
-##  **JSON'i Excel Çalışma Kitabına dönüştürün**
-JSON'i Excel dosyasına nasıl dönüştüreceğinizi merak etmenize gerek yok, çünkü Aspose.Cells for Python via .NET kütüphanesi en iyi karara sahiptir. Aspose.Cells for Python via .NET API, JSON biçimini e-tablolara dönüştürme desteği sağlar. Kullanabilirsiniz**[JsonLoadOptions](https://reference.aspose.com/cells/python-net/aspose.cells/JsonLoadOptions)** JSON'i Çalışma Kitabı'na aktarmak için ek ayarları belirtmek üzere sınıf.
+## **JSON'u Excel Workbook'e dönüştür**
+JSON'un Excel'e nasıl dönüştürüleceği konusunda merak etmeye gerek yok, çünkü Aspose.Cells for Python via .NET kütüphanesinin en iyi kararı vardır. Aspose.Cells for Python via .NET API, JSON formatını elektronik tablolara dönüştürmeyi destekler. JSON'u Çalışma Kitabına aktarmak için [**JsonLoadOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/JsonLoadOptions) sınıfını kullanabilirsiniz.
 
- Aşağıdaki kod örneği, JSON'in Excel Çalışma Kitabına aktarılmasını gösterir. Lütfen dönüştürülecek koda bakın[Kaynak dosyası](sample.json) referans için kod tarafından oluşturulan xlsx dosyasına.
+Aşağıdaki kod örneği, JSON'u Excel Workbook'e içe aktarmanın bir örneğini göstermektedir. Referans için kodu görmek için [kaynak dosyayı](sample.json) kodla üretilen xlsx dosyası ile birlikte inceleyin.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-to-Excel-New.py" >}}
 
- Ek ayarları belirtmek için JsonLoadOptions sınıfını kullanan aşağıdaki kod örneği, JSON'in Excel Çalışma Kitabına içe aktarılmasını gösterir. Lütfen dönüştürülecek koda bakın[Kaynak dosyası](sample.json) referans kodu tarafından oluşturulan xlsx dosyasına.
+Ek ayarları belirtmek için JsonLoadOptions sınıfını kullanan JSON'u Excel Workbook'e içe aktarmanın bir örneğini gösteren aşağıdaki kod örneğini inceleyin. Referans için kodu görmek için [kaynak dosyayı](sample.json) kodla üretilen xlsx dosyası ile birlikte inceleyin.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-to-Excel-New2.py" >}}
 
-Aşağıdaki kod örneği, JSON dizesinin Excel Çalışma Kitabına aktarılmasını gösterir. JSON'i içe aktarırken düzenin konumunu da belirleyebilirsiniz. Lütfen referans olarak JSON dizesini kod tarafından oluşturulan xlsx dosyasına dönüştürme koduna bakın.
+Aşağıdaki kod örneği, JSON dizesini Excel Workbook'e içe aktarmanın bir örneğini göstermektedir. JSON'i içe aktarırken düzenin konumunu da belirleyebilirsiniz. Referans için kodu görmek için JSON dizesini, kodla üretilen xlsx dosyası ile birlikte inceleyin.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-JSON-String-to-Excel.py" >}}

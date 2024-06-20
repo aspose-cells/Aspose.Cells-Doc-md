@@ -3,32 +3,33 @@ title: Iterera rader och kolumner
 type: docs
 weight: 50
 url: /sv/java/iterate-rows-and-columns/
-description: "Lär dig hur du itererar rader och kolumner genom API:erna Aspose.Cells for Java."
-keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
+description: Lär dig hur man itererar rader och kolumner genom de Aspose.Cells for Java API erna.
+keywords: Hur man itererar rader och kolumner i Java, iterera rader med Java, Java itererar kolumner. 
 ---
-##  **Hur man itererar rader och kolumner med Aspose.Cells for Java**
 
-Rader och kolumner kan itereras med rader och kolumner.
+## **Hur man itererar rader och kolumner med hjälp av Aspose.Cells for Java**
+
+Rader och kolumner kan itereras med hjälp av rader och kolumner-samlingen.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Åtkomst till det maximala visningsintervallet
+ //Access the Maximum Display Range
 
-Range range = workheet.getCells().getMaxDisplayRange();
+Range range = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("Totalt antal rader:" + trows);
+System.out.println("Total Rows:" + trows);
 
-System.out.println("Totalt kol:" + tcols);
+System.out.println("Total Cols:" + tcols);
 
 RowCollection rows = cells.getRows();
 
- för (int i = 0 ; i< rows.getCount() ; i++)
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -46,13 +47,13 @@ RowCollection rows = cells.getRows();
 
 {{< /highlight >}}
 
-##  **Apache POI SS - HSSF XSSF - Iterera rader och kolumner**
+## **Apache POI SS - HSSF XSSF - Iterera rader och kolumner**
 
-Rader och Cells kan itereras på Kalkylark. Exempelkod nämns nedan:
+Rader och celler kan itereras på kalkylarket. Exempelkoden anges nedan:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = WorkbookFactory.create(inStream);
 
@@ -74,11 +75,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-##  **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-##  **Ladda ner provkod**
+## **Ladda ned provkoden**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

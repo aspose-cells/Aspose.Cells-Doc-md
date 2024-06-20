@@ -1,113 +1,114 @@
-﻿---
-title: ワークシート ビュー
+---
+title: ワークシートビュー
 type: docs
 weight: 40
 url: /ja/net/worksheet-views/
-description: この記事では、C# と .NET API を使用して、Excel ブックとワークシートの改ページ プレビューを操作する方法について説明します。分割されたペイン、固定されたペイン、ズーム倍率も操作できます。
+description: この記事では、C#および.NET APIを使用して、Excelワークブックとワークシートのページ休止プレビューとやり取りする方法について説明します。分割ウィンドウ、固定ウィンドウ、およびズームファクターを操作します。 
 ---
-## **改ページプレビュー**
 
-すべてのワークシートは、次の 2 つのモードで表示できます。
+## **ページブレークプレビュー**
 
-- 通常のビュー。
-- 改ページのプレビュー。
+すべてのワークシートは次の2つのモードで表示できます:
 
-標準ビューは、ワークシートの既定のビューです。改ページ プレビューは、印刷時にワークシートを表示する編集ビューです。改ページのプレビューでは、各ページにどのようなデータが表示されるかが表示されるため、印刷範囲と改ページを調整できます。 Aspose.Cells を使用すると、開発者は通常のビューまたは改ページ プレビュー モードを有効にできます。
+- 通常の表示。
+- ページブレークプレビュー。
+
+通常ビューはワークシートのデフォルトビューです。ページ休止プレビューは、ワークシートを印刷時の表示として編集するビューです。ページ休止プレビューでは、各ページに表示されるデータを表示して、印刷エリアとページ休止を調整できます。Aspose.Cellsを使用すると、通常ビューまたはページ休止プレビューモードを有効にできます。
 
 ### **表示モードの制御**
 
-Aspose.Cells は[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Microsoft Excel ファイルを表すクラス。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートにアクセスできるコレクション。
+Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスするための[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。通常または改ページのプレビュー モードを有効にするには、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)財産。[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)ブール型のプロパティです。つまり、格納できるのは**真実**または**間違い**価値。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するための多くのプロパティやメソッドが含まれています。通常またはページ休止プレビューモードを有効にするには、[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)プロパティを使用します。[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)はブールプロパティであり、**true** または **false** の値のいずれかを格納できるためです。
 
-#### **通常表示を有効にする**
+#### **通常の表示の有効化**
 
-を設定して、ワークシートを通常のビューに設定します。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)プロパティへ**間違い**.
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)プロパティを **false** に設定することで、ワークシートを通常ビューに設定します。
 
-#### **改ページプレビューを有効にする**
+#### **ページブレークプレビューの有効化**
 
-を設定して、任意のワークシートを改ページ プレビューに設定します。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)プロパティへ**真実**.これにより、ワークシートが通常のビューから改ページ プレビューに切り替わります。
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)プロパティを **true** に設定することで、任意のワークシートをページ休止プレビューに設定します。これにより、ワークシートが通常ビューからページ休止プレビューに切り替わります。
 
-の使用方法を示す完全な例を以下に示します。[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)プロパティを使用して、Excel ファイルの最初のワークシートの改ページ プレビュー モードを有効にします。
+次の例は、[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)プロパティを使用してExcelファイルの最初のワークシートのページ休止プレビューモードを有効にする方法を示しています。
 
-book1.xls ファイルは、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラス。ビューは、最初のワークシートの改ページ プレビューに切り替えられます。[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)プロパティへ**真実**.変更されたファイルは、output.xls として保存されます。
+book1.xlsファイルは、[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスのインスタンスを作成して開きます。最初のワークシートのビューは、[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)プロパティを**true**に設定することでページ休止プレビューに切り替えます。変更されたファイルは、output.xlsとして保存されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-PageBreakPreview-1.cs" >}}
 
-## **ズーム倍率**
+## **ズームファクター**
 
-### **Microsoft エクセルを使う**
+### **Microsoft Excel の使用**
 
-Microsoft Excel には、ユーザーがワークシートのズームまたは倍率を設定できる機能があります。この機能は、ユーザーがワークシートの内容を小さいビューまたは大きいビューで表示するのに役立ちます。ユーザーはズーム倍率を任意の値に設定できます。
+Microsoft Excel には、ワークシートのズームやスケーリング要素を設定する機能があります。この機能は、ユーザーがワークシートの内容を小さなビューまたは大きなビューで表示するのに役立ちます。ユーザーは、ズーム要素を任意の値に設定できます。
 
-### **Aspose.Cells & ズーム倍率**
+### **Aspose.Cells & ズーム要素**
 
-Aspose.Cells を使用すると、開発者はワークシートのズーム率を設定できます。
-Aspose.Cells は[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Microsoft Excel ファイルを表すクラス。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートにアクセスできるコレクション。
+Aspose.Cellsを使用すると、開発者はワークシートのズームファクタを設定できます。
+Aspose.CellsはMicrosoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスできる[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。ワークシートのズーム倍率を設定するには、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス'[**ズーム**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)財産。ズーム倍率は、数値 (整数) 値を[**ズーム**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)財産。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスで表されます。 [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するための多くのプロパティとメソッドが用意されています。ワークシートのズームファクタを設定するには、[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)プロパティを使用します。ズームファクタは、[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)プロパティに数値（整数）を割り当てることで設定されます。
 
-の使用方法を示す完全な例を以下に示します。[**ズーム**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)プロパティを使用して、Excel ファイルの最初のワークシートのズーム倍率を設定します。
+以下に、Excelファイルの最初のワークシートのズームファクタを設定する方法を示す完全な例が示されています。
 
-book1.xls ファイルは、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラス。最初のワークシートの倍率は 75 に設定され、変更されたファイルは output.xls として保存されます。
+book1.xlsファイルは、[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスのインスタンスを作成することで開かれます。最初のワークシートのズームファクタは75に設定され、変更されたファイルはoutput.xlsとして保存されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ZoomFactor-1.cs" >}}
 
-## **フリーズペイン**
+## **ウィンドウ枠の固定**
 
-### **Microsoft エクセルを使う**
+### **Microsoft Excel の使用**
 
-フリーズ ウィンドウは、Microsoft Excel によって提供される機能です。ペインをフリーズすると、ワークシートをスクロールするときにデータを選択して表示したままにすることができます。
+ウィンドウ枠の固定は、Microsoft Excel が提供する機能です。枠を固定すると、ワークシートをスクロールしても表示され続けるデータを選択できます。
 
-### **Aspose.Cells & フリーズペイン**
+### **Aspose.Cells & ウィンドウ枠の固定**
 
-Aspose.Cells を使用すると、開発者はフリーズ ペインを実行時にワークシートに適用できます。
+Aspose.Cellsを使用すると、開発者は実行時にワークシートにウィンドウ枠を適用できます。
 
-Aspose.Cells は[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Microsoft Excel ファイルを表すクラス。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートにアクセスできるコレクション。
+Aspose.CellsはMicrosoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスできる[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。フリーズ ペインを構成するには、Worksheet クラスを呼び出します。[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)方法。の[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)メソッドは次のパラメータを取ります。
+ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスで表されます。 [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するための多くのプロパティとメソッドが提供されています。ウィンドウ枠を構成するには、Worksheetクラスの[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)メソッドを呼び出します。 [**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)メソッドには、次のパラメータが指定されます:
 
-- **行**、フリーズが開始されるセルの行インデックス。
-- **桁**、フリーズが開始されるセルの列インデックス。
-- **凍結された行**、上部ペインに表示される行の数。
-- **冷凍列**、左ペインに表示される列の数
+- **行**、枠が開始するセルの行インデックス。
+- **列**、枠が開始するセルの列インデックス。
+- **固定行**、上部枠内に表示される行数。
+- **固定列**、左部枠内に表示される列数。
 
- book1.xls ファイルは、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)インスタンス化中のクラスのコンストラクターと、最初のワークシートでいくつかの行と列が固定されています。変更されたファイルは、output.xls として保存されます。
+book1.xlsファイルは、[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスのコンストラクタを呼び出してインスタンス化し、最初のワークシートでいくつかの行と列が固定されます。変更されたファイルはoutput.xlsとして保存されます。
 
-の使用方法を示す完全な例を以下に示します。[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)Excel ファイルの最初のワークシートの行と列 (行と列が 0 インデックスから始まる、4 行目と 3 列目で表される C4 から始まる) を固定するメソッド。
+以下に、Excelファイルの最初のワークシートの4行目および3列目（行と列は0から始まるインデックスで表される、C4から始まる）の行と列を固定する方法を示す完全な例が示されています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-FreezePanes-1.cs" >}}
 
-## **ペインの分割**
+## **画面の分割**
 
-同じワークシートに 2 つの異なるビューを表示するために画面を分割する必要がある場合は、ペインを分割します。 Microsoft Excel には、ワークシートの複数のコピーを表示したり、ワークシートの各ペインを個別にスクロールしたりできる非常に便利な機能、分割ペインがあります。
+ワークシート内で二つの異なるビューを取得するには、画面を分割する必要があります。Microsoft Excel は、ワークシートのコピーを複数表示し、各パネで独立してスクロールできる非常に便利な機能を提供しています：画面の分割。
 
-ペインは同時に機能します。一方を変更すると、同時に他方にも変更が反映されます。 Aspose.Cells は、ユーザーに分割ペイン機能を提供します。
+パネは同時に動作します。片方で変更を加えると、同時に他方にも変更が表示されます。Aspose.Cells は、ユーザーに対して画面の分割機能を提供しています。
 
-### **分割ペインの適用と削除**
+### **画面の分割の適用と解除**
 
-#### **ペインの分割**
+#### **画面の分割**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excel ファイルを管理するためのさまざまなプロパティとメソッドが用意されています。分割ビューを実装するには、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス'[**スプリット**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split) .分割ペインを削除するには、[**削除スプリット**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)方法。
+Aspose.CellsはMicrosoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。 [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイルを管理するための多くのプロパティとメソッドが提供されます。分割ビューを実装するには、[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**Split**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split)を使用します。パネルを解除するには、[**RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)メソッドを使用します。
 
-この例では、読み込まれた単純なテンプレート ファイルを使用し、分割ペインの設定機能が最初のワークシートのセルに適用されます。更新されたファイルが保存されます。
+例では、シンプルなテンプレート ファイルをロードして、最初のワークシートのセルに分割パネル機能を適用し、更新されたファイルを保存します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-SplitPanes-1.cs" >}}
 
-上記のコードを実行すると、生成されたファイルは分割ビューになります。
+上記のコードを実行すると、生成されたファイルには分割ビューが表示されます。
 
-#### **ペインの削除**
+#### **パネルの削除**
 
-を使用して分割ペインを削除します[**削除スプリット**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)方法。
+分割ペインを[**RemoveSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)メソッドを使用して削除します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-RemovePanes-1.cs" >}}
 
-## **先行トピック**
-- [ワークシートでゼロ値の表示を非表示にする](/cells/ja/net/hiding-the-display-of-zero-values-in-the-worksheet/)
-- [ワークシートのタブの色を設定](/cells/ja/net/set-worksheet-tab-color/)
-- [グリッド線と行の列ヘッダーの表示と非表示](/cells/ja/net/show-and-hide-gridlines-and-row-column-headers/)
-- [行、列、およびスクロール バーの表示と非表示](/cells/ja/net/show-and-hide-rows-columns-and-scroll-bars/)
+## **高度なトピック**
+- [ワークシートでゼロの値の表示を非表示にする](/cells/ja/net/hiding-the-display-of-zero-values-in-the-worksheet/)
+- [ワークシートタブの色を設定する](/cells/ja/net/set-worksheet-tab-color/)
+- [グリッド線と行列見出しの表示と非表示](/cells/ja/net/show-and-hide-gridlines-and-row-column-headers/)
+- [行と列、スクロールバーの表示と非表示](/cells/ja/net/show-and-hide-rows-columns-and-scroll-bars/)
 - [ワークシートとタブの表示と非表示](/cells/ja/net/show-and-hide-worksheets-and-tabs/)
-- [ワークシートに値の代わりに数式を表示する](/cells/ja/net/show-formulas-instead-of-values-in-a-worksheet/)
-- [エラー チェック オプションを使用する](/cells/ja/net/use-error-checking-options/)
+- [ワークシートで値の代わりに数式を表示する](/cells/ja/net/show-formulas-instead-of-values-in-a-worksheet/)
+- [エラーチェックオプションを使用する](/cells/ja/net/use-error-checking-options/)
 

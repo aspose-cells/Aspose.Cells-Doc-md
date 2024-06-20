@@ -1,26 +1,27 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.5.2
+---
+title: Изменения в публичном API в Aspose.Cells 8.5.2
 type: docs
 weight: 180
 url: /ru/net/public-api-changes-in-aspose-cells-8-5-2/
 ---
+
 {{% alert color="primary" %}} 
 
- В этом документе описаны изменения в Aspose.Cells API с версии 8.5.1 до 8.5.2, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы,[добавлены классы и т.д.](/cells/ru/net/public-api-changes-in-aspose-cells-8-5-2/), но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+В этом документе описаны изменения в общем API Aspose.Cells с версии 8.5.1 до 8.5.2, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные общедоступные методы, [добавленные классы и т. д.](/cells/ru/net/public-api-changes-in-aspose-cells-8-5-2/), но также описание любых изменений в поведении за кадром в Aspose.Cells.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Рендеринг рабочего листа в графическом контексте**
- В этом выпуске Aspose.Cells for .NET API представлены две новые перегрузки метода SheetRender.ToImage, которые теперь позволяют принимать экземпляр класса System.Drawing.Graphics для[визуализировать в графическом контексте](/cells/ru/net/render-worksheet-to-graphic-context/). Сигнатуры недавно добавленных методов следующие.
+## **Добавленные API**
+### **Отобразить Рабочий лист на графический контекст**
+Этот релиз API Aspose.Cells for .NET предоставил две новые перегрузки метода SheetRender.ToImage, которые теперь позволяют принять экземпляр класса System.Drawing.Graphics для [отрисовки в контексте графики](/cells/ru/net/render-worksheet-to-graphic-context/). Сигнатуры добавленных методов следующие.
 
 1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
-1. SheetRender.ToImage (int pageIndex, Graphics g, float x, float y, ширина float, высота float)
+1. SheetRender.ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source file
 
@@ -59,14 +60,14 @@ bmp.Save("test.png", ImageFormat.Png);
 {{< /highlight >}}
 
 
-### **Добавлен метод PivotTable.GetCellByDisplayName**
- Aspose.Cells for .NET 8.5.2 предоставил метод PivotTable.GetCellByDisplayName, который можно использовать для[получить объект Cell по имени PivotField](/cells/ru/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Этот метод может быть полезен в сценариях, когда вы хотите выделить или отформатировать заголовок PivotField.
+### **Добавлен метод PivotTable.GetCellByDisplayName.**
+Aspose.Cells for .NET 8.5.2 вывел метод PivotTable.GetCellByDisplayName, который можно использовать для [получения объекта Cell по имени поля отчетной таблицы](/cells/ru/net/get-the-cell-object-by-displayname-of-pivotfield-of-pivottable/). Этот метод может быть полезен в сценариях, где требуется выделить или форматировать заголовок поля отчетной таблицы.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -103,35 +104,35 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Свойство SaveOptions.MergeAreas добавлено**
-Aspose.Cells for .NET 8.5.2 предоставил свойство SaveOptions.MergeAreas, которое может принимать значение логического типа. Значение по умолчанию — false, однако, если установлено значение true, Aspose.Cells for .NET API пытается объединить отдельные CellArea перед сохранением файла.
+### **Добавлено свойство SaveOptions.MergeAreas**
+Aspose.Cells for .NET 8.5.2 вывел свойство SaveOptions.MergeAreas, которое принимает значение типа Boolean. Значение по умолчанию - false, однако, если установлено в true, API Aspose.Cells for .NET пытается объединить отдельные CellArea перед сохранением файла.
 
 {{% alert color="primary" %}} 
 
-Если в электронной таблице слишком много отдельных ячеек с примененной проверкой, есть вероятность, что результирующая электронная таблица может быть повреждена. Одним из возможных решений является объединение ячеек с идентичными правилами проверки, или теперь вы можете использовать свойство SaveOptions.MergeAreas, чтобы указать API для автоматического объединения ячеек CellAreas перед операцией сохранения.
+Если электронная таблица содержит слишком много индивидуальных ячеек с примененной проверкой или может быть повреждена. Одно из возможных решений — объединить ячейки с идентичными условиями проверки или теперь можно использовать свойство SaveOptions.MergeAreas для указания API автоматически объединять CellArea перед операцией сохранения.
 
 {{% /alert %}} 
-### **Добавлено свойство Shape.Geometry.ShapeAdjustValues**
- В выпуске v8.5.2 Aspose.Cells API предоставил свойство Shape.Geometry.ShapeAdjustValues, которое можно использовать для[вносить изменения в точки регулировки разных форм](/cells/ru/net/change-adjustment-values-of-the-shape/).
+### **Добавлено свойство Shape.Geometry.ShapeAdjustValues.**
+С выпуском v8.5.2 API Aspose.Cells предоставил свойство Shape.Geometry.ShapeAdjustValues, которое можно использовать для [внесения изменений в точки коррекции различных форм](/cells/ru/net/change-adjustment-values-of-the-shape/).
 
 {{% alert color="primary" %}} 
 
-В интерфейсе Excel Microsoft точки корректировки отображаются в виде желтых ромбовидных узлов.
+В интерфейсе Microsoft Excel точки коррекции отображаются как желтые ромбовидные узлы.
 
 {{% /alert %}} 
 
 Например,
 
-1. Прямоугольник со скругленными углами имеет настройку для изменения дуги.
-1. Треугольник имеет корректировку для изменения положения точки
-1. Трапеция имеет регулировку для изменения ширины верха.
-1. Стрелы имеют две регулировки для изменения формы головы и хвоста.
+1. У закругленного прямоугольника есть точка коррекции для изменения дуги
+1. У треугольника есть точка коррекции для изменения положения точки
+1. Трапеция имеет настройку для изменения ширины верхней части
+1. Стрелки имеют две настройки для изменения формы головы и хвоста
 
 Вот самый простой сценарий использования.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -164,18 +165,18 @@ workbook.Save("output.xls);
 {{< /highlight >}}
 
 
-### **Добавлено поле перечисления ConsolidationFunction.DistinctCount.**
- Aspose.Cells for .NET 8.5.2 предоставил поле ConsolidationFunction.DistinctCount, которое можно использовать для[применить функцию консолидации Distinct Count](/cells/ru/net/consolidation-function/) в поле данных сводной таблицы.
+### **Добавлено перечисление Field ConsolidationFunction.DistinctCount.**
+Aspose.Cells for .NET 8.5.2 предоставил поле ConsolidationFunction.DistinctCount, которое можно использовать для [применения функции консолидации Distinct Count](/cells/ru/net/consolidation-function/) к DataField отчетной таблицы.
 
 {{% alert color="primary" %}} 
 
-Функция консолидации Distinct Count поддерживается только в версии Microsoft Excel 2013.
+Функция сведения уникальных значений поддерживается только в Microsoft Excel 2013.
 
 {{% /alert %}} 
-### **Улучшенная обработка событий для GridDesktop**
-В этом выпуске Aspose.Cells.GridDesktop представлены 4 новых события. 2 из этих событий запускаются при различных состояниях загрузки файлов электронных таблиц в GridDesktop, тогда как другие 2 запускаются при вычислении формул.
+### **Улучшен обработчик событий для GridDesktop.**
+В этом выпуске Aspose.Cells.GridDesktop предоставил 4 новых события. 2 из них срабатывают в различных состояниях загрузки электронных таблиц в GridDesktop, в то время как другие 2 срабатывают при вычислении формул.
 
-События перечислены следующим образом.
+События перечислены ниже.
 
 1. GridDesktop.BeforeLoadFile
 1. GridDesktop.FinishLoadFile

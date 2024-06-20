@@ -1,20 +1,21 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.0.1
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.0.1
 type: docs
 weight: 20
 url: /de/net/public-api-changes-in-aspose-cells-8-0-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Diese Seiten listen öffentliche API-Änderungen auf, die in Aspose.Cells 8.0.1 eingeführt wurden. Es enthält nicht nur neue und veraltete öffentliche Methoden, sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells, die sich auf bestehenden Code auswirken können. Jedes eingeführte Verhalten, das als Rückschritt angesehen werden könnte und bestehendes Verhalten modifiziert, ist besonders wichtig und wird hier dokumentiert.
+Diese Seite listet öffentliche API-Änderungen auf, die in Aspose.Cells 8.0.1 eingeführt wurden. Es umfasst nicht nur neue und veraltete öffentliche Methoden, sondern auch eine Beschreibung von Änderungen im Verhalten hinter den Kulissen in Aspose.Cells, die bestehenden Code beeinflussen können. Jedes Verhalten, das als Regression betrachtet werden könnte und bestehendes Verhalten modifiziert, ist besonders wichtig und wird hier dokumentiert.
 
 {{% /alert %}} 
-## **MemorySetting-Eigenschaft zur Klasse Cells hinzugefügt**
-Cells-Klasse hat die MemorySetting-Eigenschaft verfügbar gemacht, die verwendet werden kann, um die Speichernutzung für Zellendaten zu optimieren und somit die Gesamtspeicherkosten zu senken. Das folgende Beispiel zeigt, wie große Datenmengen im optimierten Modus in ein Arbeitsblatt geschrieben werden.
+## **MemorySetting-Eigenschaft der Cells-Klasse hinzugefügt**
+Die Cells-Klasse hat die MemorySetting-Eigenschaft freigelegt, die zur Optimierung des Speicherverbrauchs für Zellendaten verwendet werden kann und somit die Gesamtspeicherkosten verringert. Das folgende Beispiel zeigt, wie große Daten im optimierten Modus in ein Arbeitsblatt geschrieben werden können.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -36,10 +37,10 @@ cells.MemorySetting = MemorySetting.MemoryPreference;
 
 {{< /highlight >}}
 
-Die Speichereinstellungen funktionieren nicht für das vom Workbook-Objekt automatisch erstellte Standardblatt. Um die Speichereinstellungen vorhandener Blätter zu ändern, wenden Sie die Speichereinstellung bitte manuell an, bevor Sie Daten manipulieren.
+Die Speichereinstellungen funktionieren standardmäßig nicht für das automatisch vom Workbook-Objekt erstellte Blatt. Um die Speichereinstellungen bestehender Blätter zu ändern, wenden Sie die Speichereinstellung manuell an, bevor Sie eine Datenmanipulation durchführen.
 
 {{% alert color="primary" %}} 
 
- Bitte lesen Sie den ausführlichen Artikel auf[Optimieren des Arbeitsspeichers beim Arbeiten mit großen Datensätzen](/cells/de/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
+Bitte überprüfen Sie den ausführlichen Artikel zu [Optimieren des Speichers bei der Arbeit mit großen Datensätzen](/cells/de/net/speichern-von-arbeitsspeicher-verwenden-mit-großen-dateien-die-große-datenbestände-haben/)
 
 {{% /alert %}}

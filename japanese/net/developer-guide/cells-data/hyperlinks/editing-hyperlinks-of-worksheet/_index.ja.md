@@ -1,17 +1,18 @@
 ---
-title: ワークシートのハイパーリンクの編集
+title: ワークシートのハイパーリンクを編集
 type: docs
 weight: 330
 url: /ja/net/editing-hyperlinks-of-worksheet/
-description: Aspose.Cells for .NET API を通じてワークシートのハイパーリンクを編集する方法を学びます。
-keywords: Edit Hyperlinks, Edit Hyperlinks of Worksheet, Edit hyperlink of Cell, Access all the hyperlinks of the worksheet
+description: Aspose.Cells for .NET APIを介してワークシートのハイパーリンクを編集する方法を学ぶ
+keywords: ハイパーリンクの編集、ワークシートのハイパーリンクの編集、セルのハイパーリンクの編集、ワークシートのすべてのハイパーリンクにアクセス
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells を使用すると、ワークシートのすべてのハイパーリンクにアクセスできます。[**ワークシート.ハイパーリンク**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks)コレクション。このコレクションの各ハイパーリンクに 1 つずつアクセスし、そのプロパティを編集できます。
+Aspose.Cellsを使用すると、[**Worksheet.Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks)コレクションを使用してワークシートのすべてのハイパーリンクにアクセスできます。このコレクションから1つずつハイパーリンクにアクセスしてそのプロパティを編集することができます。
 
 {{% /alert %}}
 
-次のサンプル コードは、ワークシートのすべてのハイパーリンクにアクセスし、そのハイパーリンクを変更します。[**ハイパーリンク.アドレス**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address)Aspose ウェブサイトにアクセスしてください。
+以下のサンプルコードでは、ワークシートのすべてのハイパーリンクにアクセスし、その[**Hyperlink.Address**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/address)プロパティをAsposeウェブサイトに変更します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-EditingHyperlinksOfWorksheet-EditingHyperlinksOfWorksheet.cs" >}}

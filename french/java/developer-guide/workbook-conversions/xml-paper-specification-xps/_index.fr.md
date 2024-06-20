@@ -1,21 +1,22 @@
-﻿---
-title: Spécification papier XML - XPS
+---
+title: XML Paper Specification - XPS
 linktitle: XPS
 type: docs
 weight: 30
 url: /fr/java/xml-paper-specification-xps/
 ---
+
 ## **À propos de XPS**
 
-|![tâche : image_autre_texte](xml-paper-specification-xps_1.png)| Le[Spécification papier XML](https://en.wikipedia.org/wiki/XML_Paper_Specification) est un langage de description de page et un format de document fixe développé à l'origine par Microsoft. Comme PDF, XPS est un format de document à mise en page fixe conçu pour préserver la fidélité du document et fournir une apparence de document indépendante de l'appareil.|
-|:- |:- |
-## **XPS à Aspose.Cells**
+|![todo:image_alt_text](xml-paper-specification-xps_1.png)|The [XML Paper Specification](https://en.wikipedia.org/wiki/XML_Paper_Specification) is a page description language and a fixed-document format originally developed by Microsoft. Like PDF, XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance.|
+| :- | :- |
+## **XPS dans Aspose.Cells**
 Tout document chargé dans Aspose.Cells peut être converti en XPS.
 
-Aspose.Cells utilise la même mise en page haute fidélité et le même moteur de rendu pour produire une sortie dans tous ses formats de mise en page fixes pris en charge, par exemple PDF, XPS, etc.
+Aspose.Cells utilise le même moteur de mise en page et de rendu haute fidélité pour produire une sortie dans tous ses formats à mise en page fixe pris en charge, tels que PDF, XPS, etc.
 
-**Les images ci-dessous montrent le haut degré de fidélité avec lequel Aspose.Cells a converti un document de XLS en XPS.**
+**Les images ci-dessous montrent le degré élevé de fidélité avec lequel Aspose.Cells a converti un document de XLS en XPS.**
 
-![tâche : image_autre_texte](xml-paper-specification-xps_2.png)
+![todo:image_alt_text](xml-paper-specification-xps_2.png)
 
-![tâche : image_autre_texte](xml-paper-specification-xps_3.png)
+![todo:image_alt_text](xml-paper-specification-xps_3.png)

@@ -1,18 +1,19 @@
-﻿---
-title: Konvertieren Sie Text in Spalten mit Aspose.Cells
+---
+title: Text in Spalten konvertieren mithilfe von Aspose.Cells
 type: docs
 weight: 30
 url: /de/net/convert-text-to-columns-using-aspose-cells/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Sie können Ihren Text mit Microsoft Excel in Spalten umwandeln. Diese Funktion ist ab verfügbar*Datenwerkzeuge* unter dem*Daten* Tab. Um den Inhalt einer Spalte auf mehrere Spalten aufzuteilen, sollten die Daten ein bestimmtes Trennzeichen wie ein Komma (oder ein beliebiges anderes Zeichen) enthalten, auf dessen Grundlage Microsoft Excel den Inhalt einer Zelle auf mehrere Zellen aufteilt. Aspose.Cells bietet diese Funktion auch über[**Arbeitsblatt.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)Methode.
+## **Mögliche Verwendungsszenarien**
 
-## **Konvertieren Sie Text in Spalten mit Aspose.Cells**
+Sie können Ihren Text in Spalten mit Microsoft Excel umwandeln. Diese Funktion ist unter dem Register *Daten* in den *Datentools* verfügbar. Um den Inhalt einer Spalte in mehrere Spalten aufzuteilen, sollte die Daten einen spezifischen Trennzeichen wie ein Komma (oder ein anderes Zeichen) enthalten, anhand dessen Microsoft Excel den Inhalt einer Zelle in mehrere Zellen aufteilt. Aspose.Cells bietet diese Funktion auch über die [**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)-Methode.
 
- Der folgende Beispielcode erläutert die Verwendung von[**Arbeitsblatt.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns) Methode. Der Code fügt zunächst einige Personennamen in Spalte A des ersten Arbeitsblatts hinzu. Vor- und Nachname werden durch Leerzeichen getrennt. Dann gilt es[**Arbeitsblatt.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns) Methode in Spalte A und speichern Sie sie als Ausgabe-Excel-Datei. Wenn Sie die öffnen[Excel-Datei ausgeben](25395213.xlsx), werden Sie sehen, dass sich Vornamen in Spalte A befinden, während Nachnamen in Spalte B stehen, wie in diesem Screenshot gezeigt.
+## **Text in Spalten konvertieren mit Aspose.Cells**
 
-![todo: Bild_alt_Text](convert-text-to-columns-using-aspose-cells_1.png)
+Der folgende Beispielscode erläutert die Verwendung der [**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns) Methode. Der Code fügt zuerst einige Personennamen in Spalte A des ersten Arbeitsblatts hinzu. Der Vor- und Nachname ist durch ein Leerzeichen getrennt. Dann wendet er die [**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns) Methode auf Spalte A an und speichert es als Ausgabedatei Excel. Wenn Sie die [Ausgabedatei Excel](25395213.xlsx) öffnen, sehen Sie, dass die Vornamen in Spalte A stehen, während die Nachnamen in Spalte B stehen, wie in diesem Screenshot gezeigt.
+
+![todo:image_alt_text](convert-text-to-columns-using-aspose-cells_1.png)
 
 ## **Beispielcode**
 

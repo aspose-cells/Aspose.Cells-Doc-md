@@ -1,54 +1,55 @@
-﻿---
-title: Creazione di una tabella
+---
+title: Creare una Tabella
 type: docs
 weight: 40
 url: /it/java/creating-a-list-object/
 ---
+
 {{% alert color="primary" %}}
 
-Uno dei vantaggi dei fogli di calcolo è che consentono di creare diversi tipi di elenchi, ad esempio elenchi telefonici, elenchi di attività, elenchi di transazioni, attività o passività. Diversi utenti possono lavorare insieme per utilizzare, creare e mantenere vari elenchi.
+Uno dei vantaggi dei fogli di calcolo è che consentono di creare diversi tipi di elenchi, ad esempio elenchi telefonici, elenchi delle attività, elenchi di transazioni, attivi o passivi. Diversi utenti possono lavorare insieme per utilizzare, creare e mantenere vari elenchi.
 
-Aspose.Cells supporta la creazione e la gestione di Liste.
+Aspose.Cells supporta la creazione e la gestione di elenchi.
 
 {{% /alert %}}
 
-## **Vantaggi di un tavolo**
+## **Vantaggi di una tabella**
 
-Ci sono alcuni vantaggi quando si converte un elenco di dati in un vero oggetto elenco:
+Ci sono diversi vantaggi quando si converte un elenco di dati in un vero oggetto lista:
 
-- Nuove righe e colonne vengono incluse automaticamente.
-- È possibile aggiungere facilmente una riga totale in fondo all'elenco per visualizzare SUM, AVERAGE, COUNT, ecc.
-- Le colonne aggiunte a destra vengono incorporate automaticamente nell'oggetto List.
+- Nuove righe e colonne vengono automaticamente incluse.
+- Una riga di totale in fondo al tuo elenco può essere facilmente aggiunta per visualizzare SOMMA, MEDIA, CONTEGGIO, ecc.
+- Le colonne aggiunte a destra vengono automaticamente incorporate nell'oggetto Elenco.
 - I grafici basati su righe e colonne verranno espansi automaticamente.
-- Gli intervalli denominati assegnati a righe e colonne verranno espansi automaticamente.
-- L'elenco è protetto dall'eliminazione accidentale di righe e colonne.
+- I nomi definiti assegnati a righe e colonne verranno espansi automaticamente.
+- L'elenco è protetto dalla cancellazione accidentale di righe e colonne.
 
 ## **Creazione di una tabella utilizzando Microsoft Excel**
 
-**Selezione dell'intervallo di dati per la creazione di un oggetto elenco** 
+**Selezione dell'intervallo di dati per la creazione di un oggetto lista** 
 
-![cose da fare:immagine_alt_testo](creating-a-list-object_1.png)
+![todo:image_alt_text](creating-a-list-object_1.png)
 
-Viene visualizzata la finestra di dialogo Crea elenco.
+Questo visualizza il dialogo Crea elenco.
 
-**Finestra di dialogo Crea elenco** 
+**Dialogo Crea elenco** 
 
-![cose da fare:immagine_alt_testo](creating-a-list-object_2.png)
+![todo:image_alt_text](creating-a-list-object_2.png)
 
- Implementando l'oggetto List e specificando Total Row (Select**Dati** , poi**Elenco** , seguito da**Riga totale**).
+Implementare l'oggetto Lista e specificare la Riga Totale (Selezionare **Dati**, quindi **Lista**, seguito da **Riga Totale**).
 
-**Creazione di un oggetto Elenco** 
+**Creazione di un oggetto Lista** 
 
-![cose da fare:immagine_alt_testo](creating-a-list-object_3.png)
+![todo:image_alt_text](creating-a-list-object_3.png)
 
-## **Creazione di una tabella utilizzando Using Aspose.Cells API**
+## **Creare una tabella utilizzando Aspose.Cells API**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel.
+Aspose.Cells fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), che rappresenta un file di Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contiene una raccolta di [**Worksheets**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) che consente l'accesso a ciascun foglio di calcolo in un file di Excel.
 
- Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fornisce un'ampia gamma di proprietà e metodi per la gestione di un foglio di lavoro. Per creare un[**ElencoOggetto**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) in un foglio di lavoro, usa[**ListObjects**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ListObjects) proprietà collection della classe Worksheet. A testa[**ElencoOggetto**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) è, infatti, un oggetto del[**ListObjectCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/listobjectcollection)class, che fornisce inoltre il metodo add per aggiungere un oggetto List e specificare un intervallo di celle per l'elenco.
+Un foglio di calcolo è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet). La classe [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fornisce una vasta gamma di proprietà e metodi per gestire un foglio di calcolo. Per creare un [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) in un foglio di calcolo, utilizzare la proprietà di raccolta [**ListObjects**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ListObjects) della classe FoglioCalcolo. Ogni [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) è, infatti, un oggetto della classe [**ListObjectCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/listobjectcollection), che fornisce ulteriormente il metodo add per aggiungere un oggetto Lista e specificare un intervallo di celle per l'elenco.
 
-In base all'intervallo di celle specificato, l'oggetto List viene creato nel foglio di lavoro da Aspose.Cells. Utilizzare gli attributi (ad esempio, ShowTotals, ListColumns ecc.) del[**ElencoOggetto**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)class per controllare l'elenco.
+Secondo l'intervallo specificato di celle, l'oggetto Lista viene creato nel foglio di calcolo da Aspose.Cells. Utilizzare gli attributi (ad esempio, MostraTotali, ColonneElenco ecc.) della classe [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) per controllare l'elenco.
 
- Nell'esempio fornito di seguito, abbiamo creato lo stesso[**ElencoOggetto**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject)utilizzando Aspose.Cells API come abbiamo creato utilizzando Microsoft Excel nella sezione precedente.
+Nell'esempio riportato di seguito, abbiamo creato lo stesso [**ListObject**](https://reference.aspose.com/cells/java/com.aspose.cells/ListObject) utilizzando l'API di Aspose.Cells come abbiamo creato utilizzando Microsoft Excel nella sezione precedente.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-CreatingListObject-CreatingListObject.java" >}}

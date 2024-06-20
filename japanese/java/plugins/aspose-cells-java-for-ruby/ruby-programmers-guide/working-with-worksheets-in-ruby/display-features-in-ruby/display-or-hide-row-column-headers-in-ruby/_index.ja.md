@@ -1,16 +1,17 @@
-﻿---
-title: Ruby で行の列ヘッダーを表示または非表示にする
+---
+title: Rubyで行列ヘッダーを表示または非表示にする
 type: docs
 weight: 20
 url: /ja/java/display-or-hide-row-column-headers-in-ruby/
 ---
-## **Aspose.Cells - 行の列ヘッダーの表示または非表示**
-### **行/列ヘッダーの非表示**
-を使用して行/列ヘッダーを非表示にするには**Aspose.Cells Ruby の場合は Java**、 電話**DisplayHideRowColumnHeaders**モジュール。
 
-**ルビーコード**
+## **Aspose.Cells - 行列ヘッダーの表示または非表示**
+### **行/列ヘッダーを非表示にする**
+Aspose.Cells Java for Rubyを使用して行/列ヘッダーを非表示にするには、DisplayHideRowColumnHeadersモジュールを呼び出します。
 
-{{< highlight "ruby" >}}
+**Ruby Code**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -38,18 +39,18 @@ puts "Headers of rows and columns are now hidden, please check the output file."
 
 {{< /highlight >}}
 ### **行/列ヘッダーを表示する**
-Worksheet クラスの setRowColumnHeadersVisible(true) メソッドを使用して、行と列のヘッダーを表示します。
+行列ヘッダーを表示するには、WorksheetクラスのsetRowColumnHeadersVisible(true)メソッドを使用します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the headers of rows and columns
 
 worksheet.setRowColumnHeadersVisible(true)
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**行の列ヘッダーを表示または非表示にする (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+**Aspose.Cells**のDisplay or Hide Row Column Headersを以下に示すソーシャルコーディングサイトからダウンロードする:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhiderowcolumnheaders.rb)

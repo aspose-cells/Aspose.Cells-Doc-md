@@ -3,27 +3,29 @@ title: Konvertera CSV till JSON
 type: docs
 weight: 220
 url: /sv/python-net/convert-csv-to-json/
-description: Konvertera CSV till JSON genom att använda Aspose.Cells for Python via .NET API.
-keywords: Convert CVS to JSON, Convert CSV to JSON in Python via NET, Python convert CSV to JSON, Save CSV to JSON
+description: Konvertera CSV till JSON genom att använda Aspose.Cells för Python via .NET API.
+keywords: Konvertera CVS till JSON, Konvertera CSV till JSON i Python via NET, Python konvertera CSV till JSON, Spara CSV till JSON
 ---
-##  **Konvertera CSV till JSON**
 
-Aspose.Cells for Python via .NET stöder konvertering av CSV till JSON. För detta tillhandahåller API**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**och**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)** klasser. De**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**klass ger alternativen för att exportera intervall till JSON. The**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**klass har följande egenskaper.
+## **Konvertera CSV till JSON**
 
-- *[export_as_string](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string/)**: Detta exporterar strängvärdet för cellerna till JSON.
-- *[has_header_row](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row/)**: Detta indikerar om intervallet innehåller en rubrikrad.
-- *[indrag](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/indent/)**: Indikerar indraget.
+Aspose.Cells för Python via .NET stöder konvertering av CSV till JSON. För detta tillhandahåller API:et [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) och [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility) klasser. [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) klassen tillhandahåller alternativen för att exportera område till JSON. [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) klassen har följande egenskaper.
 
-De**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)**klass exporterar JSON med hjälp av exportalternativen som ställts in med**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**klass.
+- [**export_as_string**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/export_as_string/): Detta exporterar cellernas strängvärde till JSON.
+- [**has_header_row**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/has_header_row/): Detta indikerar om området innehåller en rubrikrad.
+- [**indent**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions/indent/): Indikerar indrag.
 
-Följande kodexempel visar användningen av**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions)**och**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)** klasser för att ladda[källfil CSV](104398879.csv)och skriver ut JSON-utgången i konsolen.
+ [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility) klassen exporterar JSON med exportalternativen som anges med [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) klassen.
 
-###  **Exempelkod**
+Följande kodexempel demonstrerar användningen av [**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/exportrangetojsonoptions) och [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility) klasser för att läsa in den [ursprungliga CSV-filen](104398879.csv) och skriva ut JSON-utdata i konsollen.
+
+### **Exempelkod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "LoadingSavingConvertingAndManaging-ConvertCsvToJson-1.py" >}}
 
-###  **Konsolutgång**
-```json
+### **Konsoloutput**
+{{< highlight java >}}
+
 [
 {
 "id": 1,
@@ -56,4 +58,5 @@ Följande kodexempel visar användningen av**[ExportRangeToJsonOptions](https://
 "postalCode": 394221
 }
 ]
-```
+
+{{< /highlight >}}

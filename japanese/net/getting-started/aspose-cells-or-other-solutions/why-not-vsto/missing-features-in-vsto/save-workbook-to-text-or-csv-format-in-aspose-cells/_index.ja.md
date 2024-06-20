@@ -1,44 +1,45 @@
-﻿---
-title: ワークブックをテキストまたは CSV 形式で Aspose.Cells に保存
+---
+title: Aspose.CellsでワークブックをテキストまたはCSV形式に保存
 type: docs
 weight: 110
 url: /ja/net/save-workbook-to-text-or-csv-format-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-場合によっては、複数のワークシートを含むワークブックをテキスト形式に変換または保存する必要があります。テキスト形式 (例: TXT、TabDelim、CSV など) の場合、既定では、Microsoft Excel と Aspose.Cells の両方で、アクティブなワークシートの内容のみが保存されます。
+時々、複数のワークシートを持つワークブックをテキスト形式に変換または保存したいことがあります。テキスト形式（たとえばTXT、TabDelim、CSVなど）の場合、デフォルトでMicrosoft ExcelとAspose.Cellsの両方がアクティブなワークシートの内容のみを保存します。
 
 {{% /alert %}} 
 
-次のコード例は、ブック全体をテキスト形式で保存する方法を示しています。 Microsoft Excel または OpenOffice スプレッドシート ファイル (XLS、XLSX、XLSM、XLSB、ODS など) のソース ワークブックを任意の数のワークシートと共に読み込みます。
+以下のコード例では、ワークブック全体をテキスト形式で保存する方法について説明しています。任意のMicrosoft ExcelまたはOpenOfficeスプレッドシートファイル（XLS、XLSX、XLSM、XLSB、ODSなど）を読み込み、任意の数のワークシートを含めることができます。
 
-コードが実行されると、ブック内のすべてのシートのデータが TXT 形式に変換されます。
+コードが実行されると、ワークブックのすべてのシートのデータがTXT形式に変換されます。
 
-同じ例を変更して、ファイルを CSV に保存できます。デフォルトでは、TxtSaveOptions.Separator はコンマであるため、CSV 形式で保存する場合は区切り記号を指定しないでください。
+同じ例を変更して、ファイルをCSV形式で保存することもできます。デフォルトでは、TxtSaveOptions.Separator はカンマですので、CSV形式に保存する場合はセパレータを指定しないでください。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-string filePath = "source.xlsx";
+ string filePath = "source.xlsx";
 
-// ソース ワークブックを読み込む
+//Load your source workbook
 
-ワークブック ワークブック = 新しいワークブック(ファイルパス);
+Workbook workbook = new Workbook(filePath);
 
-//0 バイト配列
+//0-byte array
 
-byte[]workbookData = 新しい byte[0];
+byte[] workbookData = new byte[0];
 
-//テキスト保存オプション。任意のタイプのセパレータを使用できます
+//Text save options. You can use any type of separator
 
 TxtSaveOptions opts = new TxtSaveOptions();
 
 opts.Separator = '\t';
 
-//各ワークシート データをワークブック データ配列内のテキスト形式でコピーします
+//Copy each worksheet data in text format inside workbook data array
 
-for (int idx = 0; idx< workbook.Worksheets.Count; idx++)
+for (int idx = 0; idx < workbook.Worksheets.Count; idx++)
 
 {
 
@@ -74,7 +75,7 @@ File.WriteAllBytes(filePath + ".out.txt", workbookData);
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

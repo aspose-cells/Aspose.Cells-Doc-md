@@ -1,17 +1,18 @@
-﻿---
-title: Aspose.Cells でワークシートを画像に変換する
+---
+title: Aspose.Cellsでワークシートを画像に変換する
 type: docs
 weight: 20
 url: /ja/net/converting-worksheet-to-image-in-aspose-cells/
 ---
-このドキュメントは、ワークシートを画像ファイルに変換する方法と、複数のページを含むワークシートをページごとに画像ファイルに変換する方法について、開発者が詳細に理解できるようにすることを目的としています。
-たとえば、ワークシートをアプリケーションや Web ページで使用するために、ワークシートを画像として表示する必要がある場合があります。画像を Word 文書に挿入する必要がある場合があります。**PDF**ファイル、PowerPoint プレゼンテーション、または他のシナリオでそれらを使用します。単純に、ワークシートを画像としてレンダリングしたいだけです。 Aspose.Cells は、Microsoft Excel ファイルのワークシートを画像に変換することをサポートしています。また、**Aspose.Cells**ワークブックを複数の画像ファイル (ページごとに 1 つ) に変換することをサポートしています。
 
-Office オートメーションを使用してこれを実現することもできますが、Office オートメーションには独自の欠点があります。関連するいくつかの理由と問題があります。たとえば、セキュリティ、安定性、スケーラビリティ/速度、価格、および機能です。要するに、多くの理由がありますが、主な理由は、Microsoft 自身が Office オートメーションを強く推奨していないことです。
+このドキュメントは、ワークシートを画像ファイルに変換する方法について、詳細な理解を開発者に提供するよう設計されています。また、ワークシートをページごとの画像ファイルに変換する方法も説明しています。
+時々、アプリケーションやウェブページで使用するためにワークシートを画像として表示する必要があります。画像をワードドキュメント、**PDF**ファイル、パワーポイントプレゼンテーションに挿入したり、他のシナリオで使用したりする必要があります。単純に言えば、ワークシートを画像としてレンダリングしたいということです。Aspose.Cellsは、Microsoft Excelファイルのワークシートを画像に変換することをサポートしています。また、**Aspose.Cells**は、ワークブックを複数の画像ファイルに変換することもサポートしています。
 
-この記事では、Aspose.Cells API を使用して数行の最も単純なコード行を使用して、Visual Studio.Net でコンソール アプリケーションを作成し、ワークシートを画像に変換し、ワークシートを各ワークシートの 1 つの画像に変換する方法を示します。Aspose.Cells をインポートする必要があります。名前空間をプログラム/プロジェクトに追加します。たとえば、SheetRender、ImageOrPrintOptions、WorkbookRender など、いくつかの価値のあるクラスがあります。**イメージへ**ワークシートを、必要な属性またはオプションで指定された画像ファイルに直接変換できるメソッド。それは戻ることができます**System.Drawing.Bitmap**オブジェクトであり、画像ファイルをディスク/ストリームに保存できます。 .bmp、.png、.gif、.jpg、.jpeg、.tiff、.emf など、いくつかの画像フォーマットがサポートされています。
+これを達成するためには、Office Automationを使用することができますが、Office Automationには独自の欠点があります。セキュリティ、安定性、拡張性/処理速度、価格、機能など、いくつかの理由や問題があります。簡単に言えば、多くの理由がありますが、その中でも主な理由の1つは、Microsoft自体がOffice Automationを強く推奨していないことです。
 
-{{< highlight "csharp" >}}
+この記事では、Visual Studio.Netでコンソールアプリケーションを作成し、Aspose.Cells APIを使用して少数のコード行でワークシートを画像に変換し、ワークブックをワークシートごとに1枚の画像に変換する方法を示しています。プログラム/プロジェクトにAspose.Cells.Rendering名前空間をインポートする必要があります。SheetRender、ImageOrPrintOptions、WorkbookRenderなど、いくつかの貴重なクラスが含まれています。Aspose.Cells.Rendering.SheetRenderクラスは、ワークシートの画像をレンダリングするためのクラスであり、ワークシートを画像ファイルに直接変換する**ToImage**メソッドがオーバーロードされており、希望する属性やオプションで指定された画像ファイル（複数可）に変換することができます。System.Drawing.Bitmap**オブジェクトを返し、画像ファイルをディスク/ストリームに保存することができます。.bmp、.png、.gif、.jpg、.jpeg、.tiff、.emfなど、いくつかの画像形式がサポートされています。
+
+{{< highlight csharp >}}
 
  //Create a new Workbook object
 
@@ -45,5 +46,5 @@ bitmap.Save("SheetImage.jpg");
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.Image.Aspose.Cells.zip)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Worksheet%20to%20Image%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Worksheet.to.Image.Aspose.Cells.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Worksheet%20to%20Image%20%28Aspose.Cells%29.zip)

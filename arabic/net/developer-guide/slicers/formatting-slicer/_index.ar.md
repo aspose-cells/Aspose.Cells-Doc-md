@@ -1,19 +1,20 @@
-﻿---
-title: تنسيق القطاعة
+---
+title: تنسيق المنقي
 type: docs
 weight: 20
 url: /ar/net/formatting-slicer/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك تنسيق القطاعة في Microsoft Excel عن طريق تعيين عدد أعمدتها أو عن طريق تحديد نمطها وما إلى ذلك. كما يتيح لك Aspose.Cells القيام بذلك باستخدام[**القطاعة**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)و[**القطاعة**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)الخصائص.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **تنسيق القطاعة**
+يمكنك تنسيق المنقي في Microsoft Excel عن طريق ضبط عدد الأعمدة الخاصة به أو عن طريق تعيين نمطه وما إلى ذلك. تتيح Aspose.Cells أيضًا لك القيام بذلك باستخدام الخصائص [**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns) و [**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype).
 
-يرجى الاطلاع على الكود التالي ، حيث يقوم بتحميل ملف[نموذج لملف Excel](67338473.xlsx)الذي يحتوي على قطاعة. يصل إلى أداة التقطيع ويحدد عدد الأعمدة ونوع النمط ويحفظه كـ[إخراج ملف Excel](67338474.xlsx). تُظهر لقطة الشاشة كيف تبدو أداة التقطيع بعد تنفيذ نموذج التعليمات البرمجية.
+## **تنسيق المنقي**
 
-![ما يجب القيام به: image_بديل_نص](formatting-slicer_1.png)
+يرجى الاطلاع على الكود التالي، يحمل [ملف إكسل عينة](67338473.xlsx) الذي يحتوي على قالب تصفية. يدخل إلى قالب التصفية ويحدد عدد الأعمدة ونوع النمط الخاص به ثم يحفظه باسم [ملف إكسل الناتج](67338474.xlsx). يوضح اللقطة الشاشة مظهر قالب التصفية بعد تنفيذ الكود العينة.
 
-## **عينة من الرموز**
+![todo:image_alt_text](formatting-slicer_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-FormattingSlicer.cs" >}}

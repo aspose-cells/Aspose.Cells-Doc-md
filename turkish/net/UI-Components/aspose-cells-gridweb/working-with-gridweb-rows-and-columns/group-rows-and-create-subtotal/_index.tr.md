@@ -1,39 +1,42 @@
-﻿---
-title: Satırları Gruplandırma ve Ara Toplam Oluşturma
+---
+title: Satırları Grupla ve Ara Toplam Oluştur
 type: docs
 weight: 70
-url: /tr/net/group-rows-and-create-subtotal/
+url: /tr/net/aspose-cells-gridweb/group-rows-and-create-subtotal/
+keywords: GridWeb,subtotal,group,ungroup
+description: Bu makale, satırlar/sütunları gruplandırma/ayrıştırma ve GridWeb de ara toplamlarla nasıl çalışılacağını tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb, verileriniz için bir taslak oluşturabilir. Bu, yalnızca bir çalışma sayfasındaki bölümler için özetler veya başlıklar sağlayan satırları görüntülemek için "+" ve "-" anahat simgelerini tıklatarak ayrıntı düzeylerini göstermenizi ve gizlemenizi sağlar. Ayrıntıları ayrı bir özet veya başlık altında görmek için sembolleri kullanabilirsiniz.
+Aspose.Cells.GridWeb, verileriniz için bir anahat oluşturabilir. Bu, çalışma sayfasındaki bölümlerin özetlerini veya başlıklarını göstermek ve gizlemek için özet simgelerini tıklatarak ayrıntıların düzeylerini gösterme ve gizleme izni verir. Özet simgelerini kullanarak yalnızca özetlerin veya başlıkların sunulduğu satırları görüntülemek için simgeleri kullanabilirsiniz. İlgili özet satırını dahil etmeyin. Örneğin, 6. satır 3 ile 5 arasındaki verilerin toplamlarını içeriyorsa, grup tanımlamak için yalnızca 3 ile 5 arasındaki satırları seçmelisiniz. Aspose.Cells.GridWeb kontrolü, çalışma sayfasındaki grupları belirten satır başlıklarının yanına **detayları göster** (+) ve **detayları gizle** (-) simgelerini görüntüler.
 
-Satırları gruplandırırken sadece grubu oluşturan detay satırlarını seçmek önemlidir. İlgili özet satırını dahil etmeyin. Örneğin, 6. satır 3 ile 5 arasındaki veriler için toplamları içeriyorsa, grubu tanımlamak için yalnızca 3 ile 5 arasındaki satırları seçin. Aspose.Cells.GridWeb denetimi,**detayları göster** (+) ve**ayrıntıyı gizle** Çalışma sayfasındaki grupları belirten satır başlıklarının yanındaki (-) simgeleri.
+Satırları grupladığınızda, grup oluşturan ayrıntı satırlarını seçmek önemlidir. İlgili özet satırı dahil etmeyin. Örneğin, 6. satır, 3 ile 5 arasındaki verilerin toplamlarını içeriyorsa, grubu tanımlamak için yalnızca 3 ile 5 arasındaki satırları seçin. Aspose.Cells.GridWeb kontrolü, çalışma sayfasındaki grupları belirten satır başlıklarının yanına **detayları göster** (+) ve **detayları gizle** (-) simgelerini görüntüler.
 
-Aspose.Cells.GridWeb, herhangi bir veri alanına dayalı ara toplamlar oluşturmanıza da olanak tanır. Ara toplam mutlaka bir toplam değildir: Ortalama, sayma, minimum, maksimum veya başka bir istatistiksel hesaplama olabilir.
+Aspose.Cells.GridWeb ayrıca herhangi bir veri alanına dayalı olarak ara toplamlar oluşturmanıza olanak tanır. Bir ara toplam mutlaka bir toplam olmak zorunda değildir: Ortalama, sayma, minimum, maksimum veya diğer istatistiksel hesaplama olabilir.
 
-Bu konu, Aspose.Cells.GridWeb API'i kullanarak satırları gruplandırmayı ve alt toplamlar oluşturmayı ele alır. Geliştiriciler, satırları herhangi bir iç içe geçme düzeyiyle gruplayabilir ve kolayca alt toplamlar oluşturabilir.
+Bu konu, Aspose.Cells.GridWeb API'sını kullanarak satırları gruplama ve ara toplamlar oluşturma üzerine tartışmaktadır. Geliştiriciler, herhangi bir yerleşik seviye ile satırları gruplayabilir ve ara toplamlar oluşturabilirler.
 
 {{% /alert %}} 
 ## **Satırları Gruplama**
-Belirli sayıda satırı gruplandırmak için:
+Belirli bir sayıdaki satırları gruplamak için:
 
 1. Aspose.Cells.GridWeb denetimini bir Web Formuna ekleyin.
-1. Bir çalışma sayfasına erişin.
-1. Satırlarda istenen hücre sayısını seçin.
-1. Satırları gruplandırın.
+1. Bir çalışsayı açın.
+1. Satırlardaki istenen hücreleri seçin.
+1. Satırları gruplayın.
 
-Satırlar gruplandığında, satırların Özet Satırı'nın üstünde bir genişlet/daralt düğmesi görüntülenir. Yön ayarını değiştirebilirsiniz. WebWorksheet.IsSummaryRowBelow özelliği bir Boolean özelliğidir. Bunu false (varsayılan) olarak ayarlayın, özet satırı ayrıntı satırlarının üzerinde olacaktır. Bunu true olarak ayarlayın ve özet satırı ayrıntı satırlarının altında olacaktır. Gruplandırılmış satırları genişletmek veya daraltmak için genişlet/daralt düğmesine tıklayın.
+Satırlar gruplandığında, satır Özet Satırının üstünde genişletme/daraltma düğmesi görüntülenir. Yön ayarını değiştirebilirsiniz. WebWorksheet.IsSummaryRowBelow özelliği bir Boole özelliğidir. Varsayılan olarak false (yanlış) olarak ayarlayın ve özet satır detay satırlarının üstünde olacaktır. True olarak ayarlayın ve özet satır detay satırlarının altında olacaktır. Gruplanmış satırları genişletmek veya daraltmak için genişletme/daraltma düğmesini tıklayın.
 
-Aşağıdaki örnek, satırları 2. sıradan 10. sıraya kadar gruplandırır.
+Aşağıdaki örnek, 2. sıradan 10. sıraya kadar olan satırları gruplar.
 
-**Satırları gruplama** 
+**Satırları Gruplama** 
 
-![yapılacaklar:resim_alternatif_metin](group-rows-and-create-subtotal_1.png)
+![todo:image_alt_text](group-rows-and-create-subtotal_1.png)
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -44,16 +47,16 @@ GridWorksheet sheet = GridWeb1.WorkSheets[GridWeb1.ActiveSheetIndex];
 sheet.Cells.GroupRows(1, 9);
 
 {{< /highlight >}}
-### **Gruplandırılmış Satırları İç İçe Yerleştirme**
-Bir dizi satırı gruplandırırken organizasyon seviyeleri oluşturabilirsiniz. Gruplandırılmış satırlar arasında satırları gruplandırabilirsiniz. Aşağıdaki örnek, iç içe geçmiş gruplandırılmış satırları göstermektedir.
+### **Yerleşik Satırların Gruplanması**
+Bir dizi satırı gruplarken düzen seviyeleri oluşturabilirsiniz. Gruplanmış satırlar arasında satırları gruplayabilirsiniz. Aşağıdaki örnek, yerleşik satırların gruplanmasını göstermektedir.
 
-**Satırları gruplama** 
+**Satırları Gruplama** 
 
-![yapılacaklar:resim_alternatif_metin](group-rows-and-create-subtotal_2.png)
+![todo:image_alt_text](group-rows-and-create-subtotal_2.png)
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -68,21 +71,21 @@ sheet.Cells.GroupRows(1, 9);
 sheet.Cells.GroupRows(4, 6);
 
 {{< /highlight >}}
-### **Dahili Süreç: Kontrol Nasıl Çalışır?**
-Sayfanın her satırının bir anahat numarası vardır. Ana hat numarasının varsayılan değeri sıfırdır. Satırları her grupladığınızda anahat numarası 1 artar. Anahat numarasını GridWorksheet.Cells.GetRowOutlineLevel() yöntemini çağırarak alabilirsiniz.
-## **Satırların Grubunu Çöz**
-Aspose.Cells.GridWeb, gruplandırılmış satırların grubunu çözmenizi sağlar.
+### **Dahili İşlem: Kontrol Nasıl Çalışır?**
+Sayfanın her satırında bir anahat numarası bulunmaktadır. Anahat numarasının varsayılan değeri sıfırdır. Satırları her grupladığınızda, anahat numarası 1 artar. GridWorksheet.Cells.GetRowOutlineLevel() yöntemini çağırarak anahat numarasını alabilirsiniz.
+## **Satırları Ayrıştırma**
+Aspose.Cells.GridWeb, gruplanmış satırları ayırmanıza olanak tanır.
 
-Belirli sayıda satırın grubunu çözmek için:
+Belirli bir sayıdaki satırları ayırmak için:
 
-1. Grubu çözmek için çalışma sayfasındaki satırlarda bir dizi hücre seçin.
-1. Satırların grubunu çözün.
+1. Çalışma sayfasındaki satırlardaki hücrelerin belirli bir sayısını seçin.
+1. Satırları ayırın.
 
-Aşağıdaki örnek, 2. satırdan 10. satıra kadar olan satırların grubunu çözer.
+Aşağıdaki örnek, 2. satırdan 10. satıra kadar olan satırları ayırır.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -96,15 +99,15 @@ sheet.Cells.UngroupRows(1, 9); 
 
 {{% alert color="primary" %}} 
 
-GridWorksheet.Cells.UngroupRows() yöntemini çağırdığınızda, gruplandırılmış satırların anahat numarası sıfır olarak ayarlanır.
+GridWorksheet.Cells.UngroupRows() yöntemini çağırdığınızda, gruplanmış satırların anahat numarası sıfırlanır.
 
 {{% /alert %}} 
 ## **Ara Toplam Oluşturma**
-Kontrolün ara toplam özelliği, sayfadaki satırları belirli bir sütunla gruplandırabilir ve sütunların özetini hesaplayabilir. Aspose.Cells.GridWeb, bir liste için ara toplam değerlerini otomatik olarak hesaplayabilir. Alt toplamları uyguladığınızda, kontrol, her bir alt toplam için ayrıntı satırlarını görüntüleyip gizleyebilmeniz için listenin ana hatlarını çizer. Ara toplamları eklemeden önce, ara toplam yapmak istediğiniz alana göre sıralayın. Ara toplamlar oluşturmak için aşırı yüklenmiş WebWorksheet.CreateSubtotal yönteminin herhangi bir sürümünü kullanın.
+Kontrolün ara toplam özelliği, belirli bir sütuna göre sayfaların satırlarını gruplayabilir ve sütunların özetini hesaplayabilir. Aspose.Cells.GridWeb, bir liste için otomatik olarak ara toplam değerlerini hesaplayabilir. Ara toplamları uygularken kontrol, her bir ara toplam için detay satırlarını göstermek veya gizlemek için listeyi açıklar. Ara toplamları eklemeden önce, ara toplamları oluşturmak istediğiniz alanı sıralayın. Ara toplamları oluşturmak için, WebWorksheet.CreateSubtotal yönteminin herhangi bir yüklenmiş sürümünü kullanın.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public void CreateSubtotal
 
@@ -118,51 +121,51 @@ Kontrolün ara toplam özelliği, sayfadaki satırları belirli bir sütunla gru
 
            SubtotalFunction subtotalFunction,
 
-           int[]subtotalColumnIndexList
+           int[] subtotalColumnIndexList
 
 );
 
 {{< /highlight >}}
 ### **Parametre Listesi**
 
-|**Numara.**|**Parametre adı**|**Açıklama**|
-|:- |:- |:- |
-|1|sütunAdıSatırIndex|Sütun adı satırının satır dizini.|
-|2|veriSatırları|Veri satırlarının sayısı.|
-|3|groupByColumnIndex|Gruplanacak sütunun sütun dizini.|
-|4|ara toplamFonksiyonu|Alt toplam işlev türü sıralaması.|
-|5|ara toplamSütunDizinListesi|Alt toplamı alınacak sütun dizinleri.|
-### **Özet Fonksiyon Listesi**
-{[SubtotalFunction}} numaralandırması tarafından desteklenen birkaç tür özet işlevi vardır:
+|**No.**|**Parametre Adı**|**Açıklama**|
+| :- | :- | :- |
+|1|columnNameRowIndex|Sütun adı satırının satır indeksi.|
+|2|dataRows|Veri satırlarının sayısı.|
+|3|groupByColumnIndex|Gruba alınacak sütunun sütun indeksi.|
+|4|subtotalFunction|Alt toplam fonksiyonu tipi numaralandırması.|
+|5|subtotalColumnIndexList|Alt toplama alınacak sütun indeksleri.|
+### **Özet Fonksiyonları Listesi**
+{[SubtotalFunction}} numaralandırması tarafından desteklenen çeşitli özet fonksiyon türleri bulunmaktadır:
 
-|**Numara.**|**Fonksiyon adı**|**Açıklama**|
-|:- |:- |:- |
-|1|ORTALAMA|Değerlerin ortalamasını hesaplar.|
-|2|SAYMAK|Hücrelerdeki sayısal değerleri sayar.|
-|3|SAYI|Hücrelerdeki sayısal olmayan verileri sayar.|
-|4|MAKS.|En büyük değeri hesaplar.|
-|5|DAK|En küçük değeri hesaplar.|
-|6|ÜRÜN|Değerlerin çarpımını hesaplar.|
-|7|TOPLAM|Değerlerin toplamını hesaplar.|
-Aşağıdaki örnek, çalışma sayfasındaki ikinci sütuna göre gruplandırılmış sayısal olmayan değerleri hesaplayan ara toplamları oluşturur.
+|**No.**|**Fonksiyon Adı**|**Açıklama**|
+| :- | :- | :- |
+|1|AVERAGE|Değerlerin ortalamasını hesaplar.|
+|2|COUNT|Hücrelerdeki sayısal değerleri sayar.|
+|3|COUNTA|Hücrelerdeki sayısal olmayan verileri sayar.|
+|4|MAX|En büyük değeri hesaplar.|
+|5|MIN|En küçük değeri hesaplar.|
+|6|PRODUCT|Değerlerin çarpımını hesaplar.|
+|7|SUM|Değerlerin toplamını hesaplar.|
+Aşağıdaki örnek, çalışma sayfasındaki ikinci sütuna göre gruplanan sayısal olmayan değerleri hesaplayan alt toplamları oluşturur.
 
-**ara toplamlar** 
+**Alt Toplamlar** 
 
-![yapılacaklar:resim_alternatif_metin](group-rows-and-create-subtotal_3.png)
+![todo:image_alt_text](group-rows-and-create-subtotal_3.png)
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- sheet.CreateSubtotal(0, sheet.Cells.MaxRow, 1, SubtotalFunction.COUNTA, new int[]{ 1, 2, 3, 4, 5 });
+ sheet.CreateSubtotal(0, sheet.Cells.MaxRow, 1, SubtotalFunction.COUNTA, new int[] { 1, 2, 3, 4, 5 });
 
 {{< /highlight >}}
-## **Ara Toplamı Kaldırma**
-Bir ara toplamı kaldırmak için WebWorksheet.RemoveSubtotal yöntemini kullanın. Aşağıdaki örnek, alt toplamları kaldırır.
+## **Alt Toplamı Kaldırma**
+Bir alt toplamı kaldırmak için WebWorksheet.RemoveSubtotal yöntemini kullanın. Aşağıdaki örnek alt toplamları kaldırır.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -173,19 +176,19 @@ GridWorksheet sheet = GridWeb1.WorkSheets[GridWeb1.ActiveSheetIndex];
 sheet.RemoveSubtotal();
 
 {{< /highlight >}}
-## **ALT TOPLAM işlevi hakkında**
-GridWeb denetimi, ara toplam değerini hesaplamak için ALT TOPLAM formül işlevini kullanır.
+## **SUBTOTAL işlevi hakkında**
+GridWeb kontrolü, alt toplam değerini hesaplamak için formül işlevi SUBTOTAL'i kullanır.
 
-Sözdizimi: ALT TOPLAM(işlev_sayısı, başv1, başv2, ...)
+Sözdizimi: SUBTOTAL(fonksiyon_num, ref1, ref2, ...)
 
-işlev_num ara toplam hesaplamasında kullanılan işlevin türünü belirten bir sayıdır.
+function_num, alt toplam hesaplamasında kullanılan fonksiyon türünü belirten bir numaradır.
 
 |**1**|**ORTALAMA**|
-|:- |:- |
-|2|SAYMAK|
-|3|SAYI|
-|4|MAKS.|
-|5|DAK|
-|6|ÜRÜN|
-|7|TOPLAM|
-ref1, ref2, alt toplamı alınacak alanlardır. ref1, ref2, ... başka ara toplam işlevleri içeriyorsa, yinelenen hesaplamayı önlemek için başvurulan hücreler dikkate alınmaz.
+| :- | :- |
+|2|COUNT|
+|3|COUNTA|
+|4|MAX|
+|5|MIN|
+|6|PRODUCT|
+|7|SUM|
+ref1, ref2, ..., alt toplam işlevleri içeriyorsa, referans alınan hücreler, çift hesaplama önlemek için yok sayılır.

@@ -1,37 +1,38 @@
-﻿---
-title: Modifica la direzione dell'etichetta di spunta
+---
+title: Cambiare la direzione delle etichette degli intervalli
 type: docs
 weight: 90
 url: /it/java/change-tick-label-direction/
 ---
-## **Modifica la direzione dell'etichetta di spunta**
 
-Aspose.Cells offre la possibilità di modificare la direzione dell'etichetta del segno di spunta del grafico utilizzando il[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) proprietà. Il[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType)proprietà accetta il[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) valore di enumerazione. Il[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)enumerazione fornisce i seguenti membri
+## **Cambia la direzione delle etichette di graduazione**
 
-- [**ORIZZONTALE**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
-- [**VERTICALE**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
-- [**RUOTA_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
-- [**RUOTA_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
-- [**IMPILATE**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
+Aspose.Cells ti permette di cambiare la direzione dell'etichetta delle tacche del grafico utilizzando la proprietà [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType). La proprietà [**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) accetta il valore di enumerazione [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType). L'enumerazione [**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) fornisce i seguenti membri
 
-L'immagine seguente confronta i file di origine e di output
+- [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
+- [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)
+- [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)
+- [**ROTATE_270**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_270)
+- [**STACKED**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#STACKED)
 
-### **Immagine del file di origine**
+L'immagine seguente confronta i file sorgente e di output
 
-![cose da fare:immagine_alt_testo](change-tick-label-direction_1.jpg)
+### **Immagine del file sorgente**
+
+![todo:image_alt_text](change-tick-label-direction_1.jpg)
 
 ### **Immagine del file di output**
 
-![cose da fare:immagine_alt_testo](change-tick-label-direction_2.jpg)
+![todo:image_alt_text](change-tick-label-direction_2.jpg)
 
- Il seguente frammento di codice modifica la direzione dell'etichetta del segno di spunta da[**RUOTA_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) a[**ORIZZONTALE**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+Il frammento di codice seguente cambia la direzione dell'etichetta delle tacche da [**ROTATE_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) a [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
-### **Codice d'esempio**
+### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-ChangeTickLabelDirection-1.java" >}}
 
-I file di origine e di output possono essere scaricati dai seguenti collegamenti.
+I file sorgente e di output possono essere scaricati dai seguenti link.
 
-[File sorgente](SampleChangeTickLabelDirection.xlsx)
+[File di origine](SampleChangeTickLabelDirection.xlsx)
 
-[File di uscita](outputChangeChartDataLableDirection.xlsx)
+[File di Output](outputChangeChartDataLableDirection.xlsx)

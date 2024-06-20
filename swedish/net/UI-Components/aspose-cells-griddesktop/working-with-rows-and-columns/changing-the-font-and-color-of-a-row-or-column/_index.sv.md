@@ -1,26 +1,29 @@
-﻿---
-title: Ändra teckensnitt och färg för en rad eller kolumn
+---
+title: Ändra font och färg på en rad eller kolumn
 type: docs
 weight: 110
-url: /sv/net/changing-the-font-and-color-of-a-row-or-column/
+url: /sv/net/aspose-cells-griddesktop/change-the-font-and-color-of-a-row-or-column/
+keywords: GridDesktop, font, färg
+description: Den här artikeln introducerar hur man ändrar fonten och färgen i en rad eller kolumn i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-I det här ämnet kommer vi att diskutera hur du ändrar teckensnitt och teckensnittsfärg på rader och kolumner i ett kalkylblad. Detta är en grundläggande formateringsfunktion som erbjuds av Aspose.Cells.GridDesktop som ger utvecklare möjlighet att anpassa synen på sina kalkylblad för att göra dem mer presentabla.
+I det här ämnet kommer vi att diskutera hur man ändrar fonten och fontfärgen för rader och kolumner i en kalkylblad. Detta är en grundläggande formateringsfunktion som erbjuds av Aspose.Cells.GridDesktop och som ger utvecklare möjlighet att anpassa visningen av sina kalkylblad för att göra dem mer presentabla.
 
 {{% /alert %}} 
-## **Ändra teckensnitt och färg för en kolumn**
-För att ändra teckensnitt och färg på en kolumn med Aspose.Cells.GridDesktop, följ stegen nedan:
+## **Ändra fonten och färgen på en kolumn**
+För att ändra fonten och färgen på en kolumn med Aspose.Cells.GridDesktop, följ stegen nedan:
 
--  Få åtkomst till alla önskade**Arbetsblad**
--  Tillgång a**Kolumn** vars teckensnitt och färg ska ändras
--  Skapa en anpassad**Font**
--  Ställ in**Font** av**Kolumn** till den skräddarsydda
--  Slutligen, ställ in**Fontfärg** av**Kolumn** till någon önskad**Färg**
+- Kom åt något önskat **Kalkylblad**
+- Öppna en **Kolumn** vars font och färg ska ändras
+- Skapa en anpassad **Font**
+- Ange **Fonten** för **Kolumnen** till den anpassade
+- Slutligen, ange **Fontfärgen** för **Kolumnen** till önskad **Färg**
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 
@@ -43,16 +46,16 @@ column.SetFont(font);
 column.SetFontColor(Color.Blue);
 
 {{< /highlight >}}
-## **Ändra teckensnitt och färg på en rad**
--  Få åtkomst till alla önskade**Arbetsblad**
--  Tillgång a**Rad** vars teckensnitt och färg ska ändras
--  Skapa en anpassad**Font**
--  Ställ in**Font** av**Rad** till den skräddarsydda
--  Slutligen, ställ in**Fontfärg** av**Rad** till någon önskad**Färg**
+## **Ändra fonten och färgen på en rad**
+- Kom åt något önskat **Kalkylblad**
+- Öppna en **Rad** vars font och färg ska ändras
+- Skapa en anpassad **Font**
+- Ange **Fonten** för **Rad** till den anpassade
+- Slutligen, ange **Fontfärgen** för **Rad** till önskad **Färg**
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 

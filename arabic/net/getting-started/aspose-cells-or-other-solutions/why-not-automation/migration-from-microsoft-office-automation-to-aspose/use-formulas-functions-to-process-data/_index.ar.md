@@ -1,12 +1,13 @@
-﻿---
-title: استخدم وظائف الصيغ لمعالجة البيانات
+---
+title: استخدام الصيغ والوظائف لمعالجة البيانات
 type: docs
 weight: 140
 url: /ar/net/use-formulas-functions-to-process-data/
 ---
+
 {{% alert color="primary" %}}
 
- ستوضح هذه النصيحة الفنية كيف يمكنك استخدام الصيغ / الوظائف لمعالجة البيانات باستخدام**VSTO** و**Aspose.Cells for .NET** من خلال الكود.
+سيوضح هذا النص الفني كيف يمكنك استخدام الصيغ/الوظائف لمعالجة البيانات مع **VSTO** و **Aspose.Cells for .NET** من خلال الشيفرة. 
 
 {{% /alert %}}
 
@@ -17,7 +18,7 @@ url: /ar/net/use-formulas-functions-to-process-data/
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -89,7 +90,7 @@ void AddingCellFormula()
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void AddingCellFormula()
 
@@ -147,16 +148,16 @@ void AddingCellFormula()
 
 {{< /highlight >}}
 
-## **انتاج |**
+## **الناتج**
 
 ### **1) VSTO**
 
-![ما يجب القيام به: image_بديل_نص](use-formulas-functions-to-process-data_1.png)
+![todo:image_alt_text](use-formulas-functions-to-process-data_1.png)
 
-**شكل 1:** الإخراج باستخدام الصيغ مع VSTO
+**الشكل 1:** الناتج باستخدام الصيغ مع VSTO
 
 ### **2) Aspose.Cells for .NET**
 
-![ما يجب القيام به: image_بديل_نص](use-formulas-functions-to-process-data_2.png)
+![todo:image_alt_text](use-formulas-functions-to-process-data_2.png)
 
 **الشكل 2:** الإخراج باستخدام الصيغ مع Aspose.Cells for .NET

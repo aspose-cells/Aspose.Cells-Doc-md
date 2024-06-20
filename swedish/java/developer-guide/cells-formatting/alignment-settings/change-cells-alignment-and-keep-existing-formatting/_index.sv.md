@@ -1,16 +1,17 @@
-﻿---
-title: Ändra Cells Justering och behåll befintlig formatering
+---
+title: Ändra cells justering och behåll befintlig formatering
 type: docs
 weight: 260
 url: /sv/java/change-cells-alignment-and-keep-existing-formatting/
 ---
-## **Möjliga användningsscenarier**
 
-Ibland vill du ändra justeringen av flera celler men vill också behålla befintlig formatering. Aspose.Cells låter dig göra det med hjälp av[**StyleFlag.Alignments**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments) fast egendom. Om du vill ställa in det**Sann** , kommer ändringar i anpassningen att ske annars inte. Vänligen notera,[**StilFlagga**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) objekt skickas som en parameter till[**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) metod som faktiskt tillämpar formateringen på cellintervallet.
+## **Möjliga användningsscenario**
 
-## **Ändra Cells Justering och behåll befintlig formatering**
+Ibland vill du ändra justeringen av flera celler men behålla den befintliga formateringen. Aspose.Cells låter dig göra det genom egenskapen [**StyleFlag.Alignments**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments). Om du ställer in den som **true** kommer ändringar i justering att ske annars inte. Observera att [**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag)-objektet skickas som parameter till [**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag))-metoden som faktiskt tillämpar formateringen på cellområdet.
 
-Följande exempelkod laddar[exempel på Excel-fil](67338592.xlsx), skapar intervallet och mittjusterar det horisontellt och vertikalt och behåller den befintliga formateringen intakt. Följande skärmdump jämför exemplet på Excel-filen och[utdata Excel-fil](67338591.xlsx)och visar att all befintlig formatering av cellerna är densamma förutom att cellerna nu är centrerade horisontellt och vertikalt.
+## **Ändra cellers justering och behåll befintlig formatering**
+
+Följande provkod laddar den [provdatabladet Excel-fil](67338592.xlsx), skapar området och centrering fastnar den horisontellt och vertikalt och behåller den befintliga formateringen intakt. Följande skärmbild jämför provdatabladet Excel-fil och [utdata Excel-filent](67338591.xlsx) och visar att all befintlig formatering av cellerna är densamma förutom att cellerna nu är centrerad horisontellt och vertikalt.
 
 ![todo:image_alt_text](change-cells-alignment-and-keep-existing-formatting_1.png)
 

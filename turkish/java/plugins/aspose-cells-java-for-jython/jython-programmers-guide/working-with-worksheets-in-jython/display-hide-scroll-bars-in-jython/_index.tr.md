@@ -1,15 +1,16 @@
-﻿---
-title: Jython'da Kaydırma Çubuklarını Gizle'yi Görüntüle
+---
+title: Jython da Kaydırma Çubuklarını Gizleme Gösterme
 type: docs
 weight: 40
 url: /tr/java/display-hide-scroll-bars-in-jython/
 ---
-## **Aspose.Cells - Gizle Kaydırma Çubuklarını Görüntüle**
- Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
+
+## **Aspose.Cells - Kaydırma Çubuklarını Gizleme Gösterme**
+**Aspose.Cells Java for Jython** ile belgeler eklemek için. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -52,6 +53,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Belgeleri Ekleyin (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Append Documents (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/DisplayHideScrollBars.py)

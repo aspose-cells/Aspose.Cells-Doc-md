@@ -1,45 +1,46 @@
 ---
-title: Üstbilgileri veya Altbilgileri Alma
+title: Başlık veya Altlık Alınması
 type: docs
 weight: 30
 url: /tr/net/get-headers-or-footers/
-description: Bu makalede, C# API veya .NET Kitaplığı'nı kullanarak Excel veya OpenOffice dosyalarından üstbilgi ve altbilgilerin programlı olarak nasıl alınacağı açıklanmaktadır.
+description: Bu makale, C# API veya .NET Kitaplığı nı kullanarak Excel veya OpenOffice dosyalarından başlık ve altlıkları nasıl programlı olarak alacağınızı açıklar.
 ---
+
 {{% alert color="primary" %}}
 
- Üstbilgiler ve altbilgiler yalnızca Sayfa Düzeni görünümünde, Baskı Önizleme'de ve yazdırılan sayfalarda görüntülenir.
+Başlıklar ve altlıklar yalnızca Sayfa Düzeni görünümünde, Baskı Önizleme'de ve yazdırılan sayfalarda gösterilir. 
 
- Aynı anda birden fazla çalışma sayfasının üstbilgilerini veya altbilgilerini görüntülemek istiyorsanız Sayfa Yapısı iletişim kutusunu da kullanabilirsiniz.
+Ayrıca, birden fazla çalışma sayfasında başlıkları veya altlıkları görüntülemek istiyorsanız, Sayfa Düzeni iletişim kutusunu da kullanabilirsiniz. 
 
-Grafik sayfaları veya grafikler gibi diğer sayfa türleri için üstbilgileri ve altbilgileri yalnızca Sayfa Yapısı iletişim kutusunu kullanarak ekleyebilirsiniz.
+Grafik sayfaları veya grafikler gibi diğer sayfa türleri için, başlık ve altyazıları yalnızca Sayfa Düzeni iletişim kutusunu kullanarak ekleyebilirsiniz.
 
 {{% /alert %}}
 
-##  **MS Excel'de Üstbilgi ve Altbilgi Alma**
-1. Üst bilgileri veya alt bilgileri görüntülemek veya değiştirmek istediğiniz çalışma sayfasını tıklayın.
-2. Görünüm sekmesinin Çalışma Kitabı Görünümleri grubunda Sayfa Düzeni'ni tıklayın.
-Excel, çalışma sayfasını Sayfa Düzeni görünümünde görüntüler.
-3. Bir üstbilgiyi veya altbilgiyi görüntülemek veya düzenlemek için, çalışma sayfası sayfasının üst veya alt kısmındaki (Üstbilgi altında veya Altbilginin üstünde) sol, orta veya sağ üstbilgi veya altbilgi metin kutusunu tıklayın.
+## **MS Excel'de Başlık ve Altlıkların Alınması**
+1. Başlık veya altyazıları görüntülemek veya değiştirmek istediğiniz çalışma sayfasına tıklayın.
+2. Grup içinde Vie sekmesinde, Sayfa Düzeni'ne tıklayın.
+  Excel, çalışma sayfasını Sayfa Düzeni görünümünde gösterir.
+3. Bir başlık veya altlık görüntülemek veya düzenlemek için, çalışma sayfasının üstünde veya altında (Üstbilgi altında) sol, orta veya sağ başlık veya altlık metin kutusuna tıklayın.
 
 
-##  **.Net için Aspose.Cells'i kullanarak Üstbilgileri ve Altbilgileri Alma**
- İle[**Çalışma Sayfası.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) Ve[**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/) yöntemleri kullanarak, .Net geliştiricisi dosyadan üstbilgileri veya altbilgileri kolayca alabilir.
+## **Aspose.Cells for .Net ile Başlık ve Altlıkların Alınması**
+[**Worksheet.GetHeader**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetHeader/) ve [**Worksheet.GetFooter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetFooter/) yöntemleri ile, .Net geliştiricileri dosyalardan başlık veya altlık alabilir.
 
-1. Dosyayı açmak için Çalışma Kitabı oluşturun.
-2. Çalışma sayfasını üstbilgi veya altbilgiyi almak istediğiniz yere getirir.
-3. Belirli bölüm kimliğine sahip üstbilgi veya altbilgiyi alır.
+1. Dosyayı açmak için Workbook'u oluşturun.
+2. Başlık veya altlık almak istediğiniz çalışma sayfasını alır.
+3. Belirli bir bölüm kimliği ile başlık veya altlık alır.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Gets-Header-Footer.cs" >}}
 
-##  **Üstbilgileri ve Altbilgileri Komut Listesine Ayrıştırın**
-Üstbilgi veya altbilgi metni, örneğin sayfa numarası, geçerli tarih veya metin biçimlendirme nitelikleri için yer tutucu gibi özel komutlar içerebilir.
+## **Başlık ve Altlıkları Komut Listesine Ayrıştır**
+Başlık veya altlık metni özel komutları içerebilir, örneğin sayfa numarası, geçerli tarih veya metin biçimlendirme öznitelikleri için bir yer tutucu.
 
-Özel komutlar, başında ve işareti ("&") bulunan tek harfle temsil edilir.
+Özel komutlar başında bir tek harf ve başında bir et ile temsil edilir ("&").
 
-Üstbilgi ve altbilgi dizeleri ABNF dilbilgisi kullanılarak oluşturulur. İzleyici olmadan anlaşılması kolay değil.
+Başlık ve altlık dizeleri ABNF gramerini kullanarak oluşturulur. Görüntüleyici olmadan anlamak kolay değildir.
 
- .Net için Aspose.Cells şunları sağlar[**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/)Üstbilgileri ve altbilgileri komut listesi olarak ayrıştırma yöntemi.
+Aspose.Cells for .Net, başlık ve altlıkları komut listesi olarak ayrıştırmak için [**Worksheet.GetCommands**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/GetCommands/) metodu sağlar.
 
-Aşağıdaki kodlar, üstbilgi veya altbilginin komut listesi ve işlem komutları olarak nasıl ayrıştırılacağını kodlar:
+Aşağıdaki kodlar başlık veya altlığı komut listesi olarak ayrıştırmayı ve komutları işlemeyi açıklar:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Parses-Header-Footer.cs" >}}

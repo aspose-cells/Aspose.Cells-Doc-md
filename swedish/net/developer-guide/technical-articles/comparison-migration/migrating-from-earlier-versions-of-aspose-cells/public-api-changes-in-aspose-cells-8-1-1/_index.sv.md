@@ -1,32 +1,33 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.1.1
+---
+title: Offentliga API förändringar i Aspose.Cells 8.1.1
 type: docs
 weight: 50
 url: /sv/net/public-api-changes-in-aspose-cells-8-1-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.1.0 till 8.1.1, som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver förändringar av Aspose.Cells API från version 8.1.0 till 8.1.1, som kan vara av intresse för modul/apputvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **HtmlSaveOptions.PresentationPreference Property har lagts till**
-Klassen HtmlSaveOptions har exponerat egenskapen PresentationPreference som kan användas för att återge resultaten med bättre layout vid export av kalkylblad till HTML eller MHTML. Standardvärdet är falskt. medan om satt till sant, kommer Aspose.Cells API att exportera kalkylbladets innehåll med bättre presentation.
+## **Tillagd HtmlSaveOptions.PresentationPreference Egenskap**
+HtmlSaveOptions-klassen har exponerat PresentationPreference-egenskapen som kan användas för att rendera resultaten med bättre layout vid export av kalkylblad till HTML eller MHTML. Standardvärdet är false. om det är inställt på true, kommer Aspose.Cells API att exportera kalkylbladets innehåll med bättre presentation.
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera den detaljerade artikeln om[Använd PresentationPreference Option för bättre layout](/cells/sv/net/excel-to-html-use-presentationpreference-option-for-better-layout/)
+Kontrollera den detaljerade artikeln om [Använd PresentationPreference-alternativ för bättre layout](/cells/sv/net/excel-to-html-use-presentationpreference-option-for-better-layout/)
 
 {{% /alert %}}
-## **Tillagt stöd för arbetsbladsscenarier**
- Ett scenario kallas vad-om-modellen som inkluderar variabla indataceller länkade samman med en eller flera formler i enlighet därmed. Aspose.Cells API har exponerat egendomen Worksheet.Scenarios tillsammans med följande klasser för att underlätta för användarna att skapa, manipulera och ta bort scenarier från kalkylblad,
+## **Tillagt stöd för kalkylblads-scenarier**
+Ett scenario är en s.k. om-prov-modell som inkluderar variabla inmatningsceller kopplade av ett eller flera formler. Aspose.Cells API har exponerat Worksheet.Scenarios-egenskapen tillsammans med följande klasser för att underlätta användarna att skapa, manipulera och ta bort scenarier från kalkylblad, 
 
 1. Scenario: Representerar ett individuellt scenario.
 1. ScenarioCollection: Representerar en samling scenarier.
-1. ScenarioInputCellCollection: Representerar en lista med indataceller för ett visst scenario.
-1. ScenarioInputCell: Representerar en ingångscell från samlingen av indataceller för ett visst scenario.
+1. ScenarioInputCellCollection: Representerar en lista med inmatningsceller för ett specifikt scenario.
+1. ScenarioInputCell: Representerar en inmatningscell från samlingen med inmatningsceller för ett specifikt scenario.
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera den detaljerade artikeln om[Hur man skapar, manipulerar eller tar bort scenarier från arbetsblad](/cells/sv/net/create-manipulate-or-remove-scenarios-from-worksheets/).
+Kontrollera den detaljerade artikeln om [Hur man skapar, manipulerar eller tar bort scenarier från kalkylblad](/cells/sv/net/create-manipulate-or-remove-scenarios-from-worksheets/).
 
 {{% /alert %}}

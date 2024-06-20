@@ -1,16 +1,17 @@
-﻿---
-title: Ange språket för Excel-filen med inbyggda dokumentegenskaper
+---
+title: Ange språket för Excel filen med hjälp av inbyggda dokumentegenskaper
 type: docs
 weight: 30
 url: /sv/net/specify-the-language-of-the-excel-file-using-builtin-document-properties/
 ---
-## **Möjliga användningsscenarier**
 
-Du kan ändra språket för Excel-filen genom att högerklicka på filen och sedan välja Egenskaper > Detaljer och sedan redigera fältet Språk. Snälla använd[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)egenskap för att ändra den programmatiskt med Aspose.Cells API:er.
+## **Möjliga användningsscenario**
 
-## **Ange språket för Excel-filen med inbyggda dokumentegenskaper**
+Du kan ändra språket på Excel-filen genom att högerklicka på filen och sedan välja Egenskaper > Detaljer och sedan redigera **Språk**-fältet. Använd [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)-egenskapen för att ändra det programmatiskt med Aspose.Cells API:er.
 
- Följande exempelkod skapar en arbetsbok och ändrar dess inbyggda dokumentegenskap som heter Language. Vänligen se[utdata Excel-fil](64716891.xlsx) genereras av koden och skärmdumpen som visar det ändrade språkfältet av[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)fast egendom.
+## **Ange språket för Excel-filen med hjälp av inbyggda dokumentegenskaper**
+
+Följande exempelkod skapar en arbetsbok och ändrar dess inbyggda dokumentegenskap som heter Språk. Se den [utdataexcel-fil](64716891.xlsx) genererad med koden och skärmbild som visar den modifierade **Språk**-fältet av [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)-egenskapen.
 
 ![todo:image_alt_text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 

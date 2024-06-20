@@ -1,61 +1,62 @@
-﻿---
-title: البحث عن البيانات أو البحث عنها
+---
+title: البحث عن البيانات أو البحث
 type: docs
 weight: 120
 url: /ar/java/find-or-search-data/
 ---
+
 {{% alert color="primary" %}} 
 
- في Microsoft Excel ، يمكن للمستخدمين البحث عن الخلايا التي تحتوي على بيانات محددة. على سبيل المثال ، النقر فوق**تعديل** وثم**يجد** يفتح مربع حوار البحث. يقوم المستخدمون بإدخال قيمة والنقرات**نعم** للبحث عنه. يبرز Excel الحقول المتطابقة.
+في Microsoft Excel، يمكن للمستخدمين البحث عن الخلايا التي تحتوي على بيانات محددة. على سبيل المثال، بالنقر على **تحرير** ثم **العثور** يفتح مربع البحث. يدخل المستخدم قيمة وينقر على **موافق** للبحث عنها. يقوم Excel بتحديد الحقول المطابقة.
 
-**استخدام مربع الحوار "بحث" للعثور على الخلايا التي تحتوي على قيمة محددة** 
+**استخدام مربع البحث للعثور على الخلايا التي تحتوي على قيمة معينة** 
 
-![ما يجب القيام به: image_بديل_نص](find-or-search-data_1.png)
+![todo:image_alt_text](find-or-search-data_1.png)
 
-في هذا المثال ، قيمة البحث هي "Oranges".
+في هذا المثال، قيمة البحث هي "البرتقال".
 
-Aspose.Cells يسمح للمطورين بالبحث خلال الخلايا في ورقة العمل للعثور على تلك التي تحتوي على قيمة معينة.
+تسمح Aspose.Cells للمطورين بالبحث من خلال الخلايا في ورقة العمل للعثور على تلك التي تحتوي على قيمة معينة.
 
 {{% /alert %}} 
-## **ايجاد Cells الذي يحتوي على بيانات محددة**
- Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) ، يمثل ملف Excel. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) فئة تحتوي على[ورقة العمل](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) ، مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)صف دراسي.
+## **العثور على الخلايا التي تحتوي على بيانات محددة**
+توفر Aspose.Cells فئة، [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)، التي تمثل ملف Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) على [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)، وهي مجموعة تسمح بالوصول إلى كل ورقة العمل في ملف Excel. تمثل ورقة العمل بواسطة فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
 
- ال[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة تقدم[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) ، مجموعة تمثل جميع الخلايا في ورقة العمل[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)توفر المجموعة عدة طرق للبحث عن الخلايا في ورقة عمل تحتوي على بيانات محددة من قبل المستخدم. تتم مناقشة عدد قليل من هذه الأساليب أدناه بمزيد من التفصيل.
+توفر فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)، مجموعة تمثل جميع الخلايا في ورقة العمل. توفر مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) العديد من الأساليب للعثور على الخلايا في ورقة العمل التي تحتوي على بيانات تحددها المستخدم. يتم مناقشة بعض هذه الأساليب أدناه بتفصيل أكثر.
 
-تُرجع جميع طرق البحث مراجع الخلايا لأي خلايا تحتوي على قيمة البحث المحددة.
-## **البحث عن صيغة**
- يمكن للمطورين العثور على صيغة محددة في ورقة العمل عن طريق استدعاء[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) المجموعة[تجد](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\) ) طريقة تحديد[FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) إلى[LookInType.FormULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS)وتمريره كمعامل إلى[تجد](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) طريقة.
+تُرجع جميع أساليب البحث مراجع الخلايا التي تحتوي على قيمة البحث المحددة.
+## **البحث عن تحتوي على صيغة**
+يمكن للمطورين العثور على صيغة محددة في ورقة العمل عن طريق استدعاء [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) مجموعة البحث's [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\))، ضبط [FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) إلى [LookInType.FORMULAS](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) وتمريرها كمعلمة إلى الطريق [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)).
 
- عادةً ما يكون ملف[تجد](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) يقبل الأسلوب معلمتين أو أكثر:
+عادةً، تقبل طريق [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) معلمتين أو أكثر:
 
-- كائن للبحث: يمثل كائنًا مطلوبًا للبحث عنه في ورقة العمل.
-- Cell السابق: يمثل الخلية السابقة بنفس الصيغة. يمكن ضبط هذه المعلمة على قيمة خالية عند البحث من البداية.
-- خيارات البحث: تمثل معايير البحث. في الأمثلة أدناه ، تُستخدم بيانات ورقة العمل التالية لممارسة طرق البحث:
+- الكائن المطلوب البحث عنه: يمثل كائنًا مطلوب العثور عليه في ورقة العمل.
+- الخلية السابقة: تمثل الخلية السابقة بنفس الصيغة. يمكن تعيين هذا المعلمة على قيمة الفراغ عند البحث من البداية.
+- خيارات البحث: تمثل معايير البحث. في الأمثلة أدناه ، يتم استخدام بيانات ورق العمل التالية لممارسة طرق البحث:
 
-**نموذج بيانات ورقة العمل** 
+**بيانات ورق العمل العينة** 
 
-![ما يجب القيام به: image_بديل_نص](find-or-search-data_2.png)
+![todo:image_alt_text](find-or-search-data_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsContainingFormula-FindingCellsContainingFormula.java" >}}
-## **البحث عن سلاسل**
-يعد البحث عن الخلايا التي تحتوي على قيمة سلسلة أمرًا سهلاً ومرنًا. توجد طرق مختلفة للبحث ، على سبيل المثال ، البحث عن الخلايا التي تحتوي على سلاسل تبدأ بحرف معين أو مجموعة من الأحرف.
-### **البحث عن سلاسل تبدأ بأحرف معينة**
- للبحث عن الحرف الأول في السلسلة ، قم باستدعاء[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) المجموعة[تجد](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) الطريقة ، اضبط ملف[FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) إلى[LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START_WITH)وتمريره كمعامل إلى[تجد](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) طريقة.
+## **البحث عن السلاسل**
+البحث عن الخلايا التي تحتوي على قيمة نصية سهل ومرن. هناك طرق مختلفة للبحث ، على سبيل المثال ، البحث عن الخلايا التي تحتوي على سلاسل تبدأ بحرف معين أو مجموعة من الأحرف.
+### **البحث عن السلاسل التي تبدأ بأحرف معينة**
+للبحث عن الحرف الأول في سلسلة ، ادعوا مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) لل[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) الأسلوب ، ثم ضبط [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) إلى [LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START_WITH) وتمريرها كمعلمة إلى [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) الأسلوب.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsWithStringOrNumber-FindingCellsWithStringOrNumber.java" >}}
-### **البحث عن سلاسل تنتهي بأحرف معينة**
- يمكن أن يقوم Aspose.Cells أيضًا بإيجاد سلاسل تنتهي بحروف معينة. للبحث عن الأحرف الأخيرة في السلسلة ، قم باستدعاء[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) المجموعة[تجد](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) الطريقة ، اضبط ملف[FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) إلى[LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END_WITH)وتمريره كمعامل إلى[تجد](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) طريقة.
+### **البحث عن السلاسل التي تنتهي بأحرف محددة**
+Aspose.Cells يمكن أيضًا العثور على السلاسل التي تنتهي بأحرف محددة. للبحث عن الأحرف الأخيرة في سلسلة ، ادعوا مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) لل[find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) الأسلوب ، ثم ضبط [FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) إلى [LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END_WITH) وتمريرها كمعلمة إلى [find](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) الأسلوب.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsEndWithSpecificCharacters-FindingCellsEndWithSpecificCharacters.java" >}}
-## **البحث باستخدام التعبيرات العادية: ميزة RegEx**
-يوفر التعبير العادي وسيلة موجزة ومرنة لمطابقة (تحديد والتعرف على) سلاسل النص ، مثل أحرف أو كلمات أو أنماط معينة.
+## **البحث بتعابير منتظمة: ميزة RegEx**
+توفر التعبير المنتظم وسيلة موجزة ومرنة لمطابقة (تحديد واعتراف) سلاسل نصية ، مثل الأحرف الخاصة أو الكلمات أو الأنماط.
 
-على سبيل المثال ، نمط التعبير العادي abc-* ~~ xyz ~~ تطابق السلاسل "abc-123-xyz" و "abc-985-xyz" و "abc-pony-xyz".* هي حرف بدل لذا فإن النمط يطابق أي سلاسل تبدأ بـ "abc" وتنتهي بـ "-xyz" ، بغض النظر عن الأحرف الموجودة في المنتصف.
+على سبيل المثال ، يطابق نمط التعبير المنتظم abc-*~~xyz~~ السلاسل "abc-123-xyz" ، "abc-985-xyz" و "abc-pony-xyz". العلامة * هي بطاقة وبالتالي يتطابق النمط مع أي سلاسل تبدأ بـ "abc" وتنتهي بـ "-xyz" ، بغض النظر عما إذا كانت الأحرف هي في الوسط.
 
-يسمح لك Aspose.Cells بالبحث باستخدام التعابير النمطية.
+Aspose.Cells تتيح لك البحث باستخدام التعابير المنتظمة.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingwithRegularExpressions-FindingwithRegularExpressions.java" >}}
 
-## **موضوعات مسبقة**
-- [ابحث عن خلايا ذات نمط محدد](/cells/ar/java/find-cells-with-specific-style/)
-- [البحث في البيانات باستخدام القيم الأصلية](/cells/ar/java/search-data-using-original-values/)
+## **مواضيع متقدمة**
+- [العثور على الخلايا ذات النمط المحدد](/cells/ar/java/find-cells-with-specific-style/)
+- [البحث عن البيانات باستخدام القيم الأصلية](/cells/ar/java/search-data-using-original-values/)

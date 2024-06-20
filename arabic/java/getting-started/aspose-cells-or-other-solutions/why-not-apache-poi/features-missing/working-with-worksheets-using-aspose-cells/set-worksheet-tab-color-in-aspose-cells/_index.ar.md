@@ -1,20 +1,21 @@
-﻿---
-title: قم بتعيين لون علامة تبويب ورقة العمل في Aspose.Cells
+---
+title: تعيين لون علامة تبويب الورقة من Aspose.Cells
 type: docs
 weight: 90
 url: /ar/java/set-worksheet-tab-color-in-aspose-cells/
 ---
-## **Aspose.Cells - تعيين لون علامة تبويب ورقة العمل**
-Aspose.Cells يسمح لك بتغيير لون علامات تبويب أوراق العمل الفردية لجعلها بارزة من البقية. على سبيل المثال ، يمكنك جعل المصاريف باللون الأحمر ، والمبيعات الخضراء ، والأصول زرقاء ، وما إلى ذلك.
-#### **ضبط لون علامة تبويب ورقة العمل باستخدام Microsoft Excel**
-1. انقر بزر الماوس الأيمن فوق علامة تبويب في ورقة الجدولة أسفل ورقة العمل الحالية.
-1. يختار**لون علامة التبويب**.
+
+## **Aspose.Cells - تعيين لون علامة تبويب ورق العمل**
+تسمح Aspose.Cells لك بتغيير لون علامات تبويب ورق العمل الفردية لتمييزها عن البقية. على سبيل المثال، يمكنك جعل تكاليف بلون أحمر، ومبيعات بلون أخضر، وأصول بلون أزرق، وما إلى ذلك.
+#### **ضبط لون علامة تبويب ورق العمل باستخدام Microsoft Excel**
+1. انقر بزر الماوس الأيمن فوق علامة تبويب في ورقة العلامات في أسفل ورقة العمل الحالية.
+1. حدد **لون العلامة التبويب**.
 1. حدد لونًا من اللوحة.
-1. انقر**نعم**.
+1. انقر على **موافق**.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new Workbook
 
@@ -33,14 +34,14 @@ worksheet.setTabColor(Color.getRed());
 workbook.save(dataPath + "AsposeColoredTab_Out.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل رمز التشغيل**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/SetWorksheetTabColor.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/SetWorksheetTabColor.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[تعيين لون علامة تبويب ورقة العمل](/java/set-worksheet-tab-color).
+لمزيد من التفاصيل، قم بزيارة [تعيين لون علامة ورقة العمل](/java/set-worksheet-tab-color).
 
 {{% /alert %}}

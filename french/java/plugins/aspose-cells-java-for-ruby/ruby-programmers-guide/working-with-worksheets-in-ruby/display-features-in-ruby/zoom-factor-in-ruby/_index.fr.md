@@ -1,15 +1,16 @@
-﻿---
-title: Facteur de zoom dans Ruby
+---
+title: Facteur de zoom en Ruby
 type: docs
 weight: 90
 url: /fr/java/zoom-factor-in-ruby/
 ---
+
 ## **Aspose.Cells - Facteur de zoom**
- Pour définir le facteur de zoom à l'aide de**Aspose.Cells Java pour rubis** , invoquez simplement**Facteur de zoom** module.
+Pour définir le facteur de zoom en utilisant Aspose.Cells Java pour Ruby, il suffit d'invoquer le module ZoomFactor.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ workbook.save(data_dir + "output.xls")
 puts "Set zoom factor, please check the output file."
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Facteur de zoom (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez Zoom Factor (Aspose.Cells) à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/zoomfactor.rb)

@@ -1,16 +1,17 @@
-﻿---
-title: Afficher ou masquer le quadrillage dans Ruby
+---
+title: Afficher ou masquer les lignes de grille en Ruby
 type: docs
 weight: 10
 url: /fr/java/display-or-hide-gridlines-in-ruby/
 ---
-## **Aspose.Cells - Afficher ou masquer le quadrillage**
-### **Masquer le quadrillage**
- Pour masquer la feuille de calcul à l'aide de**Aspose.Cells Java pour rubis** , téléphoner à**affichermasquerleslignesdegrille** module.
 
-**Code rubis**
+## **Aspose.Cells - Afficher ou Masquer les lignes de la grille**
+### **Masquer les quadrillages**
+Pour masquer une feuille de calcul en utilisant **Aspose.Cells Java pour Ruby**, appelez le module **displayhidegridlines**.
 
-{{< highlight "ruby" >}}
+**Code Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -37,19 +38,19 @@ workbook.save(data_dir + "output.xls")
 puts "Gridlines are now hidden, please check the output file."
 
 {{< /highlight >}}
-### **Rendre le quadrillage visible**
-Pour rendre le quadrillage visible, utilisez la méthode setGridlinesVisible(true) de la classe Worksheet.
+### **Rendre les quadrillages visibles**
+Pour rendre les lignes de grille visibles, utilisez la méthode **setGridlinesVisible(true)** de la classe **Worksheet**.
 
-**Code rubis**
+**Code Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the gridlines of the worksheet
 
 worksheet.setGridlinesVisible(true)
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Afficher ou masquer le quadrillage (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Afficher ou Masquer les lignes de grille (Aspose.Cells)** sur l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)

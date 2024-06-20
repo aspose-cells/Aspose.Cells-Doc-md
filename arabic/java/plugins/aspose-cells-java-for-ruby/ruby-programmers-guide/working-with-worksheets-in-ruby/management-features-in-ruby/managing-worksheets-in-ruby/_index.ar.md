@@ -1,16 +1,17 @@
-﻿---
-title: إدارة أوراق العمل في روبي
+---
+title: إدارة ورق العمل في Ruby
 type: docs
 weight: 10
 url: /ar/java/managing-worksheets-in-ruby/
 ---
-## **Aspose.Cells - إدارة أوراق العمل**
-### **إضافة أوراق عمل إلى ملف Excel جديد**
- لإضافة ورقة عمل إلى ملف Excel جديد باستخدام**Aspose.Cells Java لروبي** ، ببساطة اتصل**add_worksheet** طريقة**أوراق العمل** وحدة.
 
-**كود روبي**
+## **Aspose.Cells - إدارة ورق العمل**
+### **إضافة ورقات العمل إلى ملف Excel جديد**
+لإضافة ورقة عمل إلى ملف Excel جديد باستخدام برنامج **Aspose.Cells Java for Ruby**, قم ببساطة بإستدعاء الطريقة **add_worksheet** من وحدة **MangingWorksheets**.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  def add_worksheet()
 
@@ -39,12 +40,12 @@ url: /ar/java/managing-worksheets-in-ruby/
 end 
 
 {{< /highlight >}}
-### **إضافة أوراق عمل إلى جدول بيانات المصمم**
-تتشابه عملية إضافة أوراق العمل إلى جدول بيانات المصمم تمامًا مع الطريقة المذكورة أعلاه باستثناء أن ملف Excel قد تم إنشاؤه بالفعل ونحن بحاجة إلى فتح ملف Excel هذا أولاً قبل إضافة ورقة العمل إليه.
+### **إضافة ورقات عمل إلى جدول التصميم**
+إن عملية إضافة أوراق العمل إلى جدول بيانات المصمم متطابقة تمامًا مع الطريقة المذكورة أعلاه باستثناء أن ملف Excel تم إنشاؤه بالفعل ونحتاج إلى فتح ذلك الملف أولاً قبل إضافة ورقة عمل إليه.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_worksheet_to_designer_spreadsheet()
 
@@ -75,12 +76,12 @@ end 
 end  
 
 {{< /highlight >}}
-### **الوصول إلى أوراق العمل باستخدام اسم الورقة**
- للوصول إلى ورقة العمل باستخدام اسم الورقة**Aspose.Cells Java لروبي** ، ببساطة اتصل**get_worksheet** طريقة**أوراق العمل** وحدة.
+### **الوصول إلى الأوراق العمل باستخدام اسم الورقة**
+للوصول إلى ورقة العمل بواسطة اسم الورقة باستخدام **Aspose.Cells Java for Ruby**, قم ببساطة بإستدعاء الطريقة **get_worksheet** من وحدة **MangingWorksheets**.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def get_worksheet()
 
@@ -101,12 +102,12 @@ end  
 end
 
 {{< /highlight >}}
-### **إزالة أوراق العمل باستخدام اسم الورقة**
- لإزالة ورقة العمل حسب اسم الورقة باستخدام**Aspose.Cells Java لروبي** ، ببساطة اتصل**remove_worksheet_by_name** طريقة**أوراق العمل** وحدة.
+### **إزالة الأوراق العمل باستخدام اسم الورقة**
+لإزالة ورقة العمل بواسطة اسم الورقة باستخدام **Aspose.Cells Java for Ruby**, قم ببساطة بإستدعاء الثريقة **remove_worksheet_by_name** من وحدة **MangingWorksheets**.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_name()
 
@@ -138,12 +139,12 @@ end
 
 
 {{< /highlight >}}
-### **إزالة أوراق العمل باستخدام فهرس الورقة**
- لإزالة ورقة العمل عن طريق فهرس الورقة باستخدام**Aspose.Cells Java لروبي** ، ببساطة اتصل**remove_worksheet_by_index** طريقة**أوراق العمل** وحدة.
+### **إزالة الأوراق العمل باستخدام فهرس الورقة**
+لإزالة ورقة العمل حسب فهرس الورقة باستخدام **Aspose.Cells Java for Ruby**، قم ببساطة بالاستدعاء **remove_worksheet_by_index** لوحدة **MangingWorksheets**.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_worksheet_by_index()
 
@@ -174,7 +175,7 @@ end
 end 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**إدارة أوراق العمل (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+قم بتنزيل  **إدارة الورقة (Aspose.Cells)**  من أي من مواقع التعاون البرمجي الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/managingworksheets.rb)

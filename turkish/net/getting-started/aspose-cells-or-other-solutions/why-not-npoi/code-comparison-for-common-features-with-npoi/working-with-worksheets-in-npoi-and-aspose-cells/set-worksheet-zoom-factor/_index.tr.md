@@ -1,13 +1,14 @@
-﻿---
-title: Çalışma Sayfası Yakınlaştırma Faktörünü Ayarla
+---
+title: Çalışma Sayfası Yakınlaştırma Faktörünü Ayarlama
 type: docs
 weight: 80
 url: /tr/net/set-worksheet-zoom-factor/
 ---
-## **Aspose.Cells - Çalışma Sayfası Yakınlaştırma Faktörünü Ayarla**
+
+## **Aspose.Cells - Çalışma Sayfası Yakınlaştırma Faktörünü Ayarlama**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -27,10 +28,10 @@ workbook.Save("../../data/newWorksheet.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Çalışma Sayfası Yakınlaştırma Faktörünü Ayarla**
+## **NPOI - HSSF XSSF - Çalışma Sayfası Yakınlaştırma Faktörünü Ayarlama**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -46,12 +47,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfası Yakınlaştırma Faktörünü Ayarla** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Çalışma Sayfası Yakınlaştırma Faktörünü Ayarlama** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Zoom.Factor.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarıyla Çalışmak](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Daha fazla ayrıntı için [Çalışma Sayfaları İle Çalışma](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/) ziyaret edin.
 
 {{% /alert %}}

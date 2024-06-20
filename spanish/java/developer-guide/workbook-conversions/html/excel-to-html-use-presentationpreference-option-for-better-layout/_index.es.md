@@ -1,12 +1,13 @@
-﻿---
-title: "Excel a HTML: use la opción PresentationPreference para un mejor diseño"
+---
+title: De Excel a HTML  Usa la Opción PresentationPreference para un Mejor Diseño
 type: docs
 weight: 110
 url: /es/java/excel-to-html-use-presentationpreference-option-for-better-layout/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells proporciona una propiedad útil,[**HtmlSaveOptions.PresentationPreference**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#PresentationPreference) , que los desarrolladores pueden usar para obtener un mejor diseño al guardar un archivo de Excel Microsoft en formato HTML o MHT. El valor predeterminado de la propiedad es**falso** . Recomendamos establecer esta propiedad en**verdadero** para obtener presentaciones más atractivas a partir de un informe de Excel.
+Aspose.Cells proporciona una propiedad útil, [**HtmlSaveOptions.PresentationPreference**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#PresentationPreference), que los desarrolladores pueden usar para obtener un mejor diseño al guardar un archivo de Microsoft Excel en formato HTML o MHT. El valor predeterminado de la propiedad es **false**. Recomendamos establecer esta propiedad en **true** para obtener presentaciones más atractivas a partir de un informe de Excel.
 
 {{% /alert %}}
 
@@ -14,8 +15,8 @@ Aspose.Cells proporciona una propiedad útil,[**HtmlSaveOptions.PresentationPref
 
 Puede encontrar útiles los siguientes artículos sobre la conversión de Excel a HTML
 
-- [Impedir la exportación de contenido oculto de la hoja de cálculo al guardar en HTML](/cells/es/java/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
-- [Exportar hoja de trabajo CSS por separado en la salida HTML](/cells/es/java/export-worksheet-css-separately-in-output-html/)
-- [Deshabilite los comentarios revelados de nivel inferior al guardar en HTML](/cells/es/java/disable-downlevel-revealed-comments-while-saving-to-html/)
-- [Exportar propiedades del libro de trabajo y de la hoja de trabajo del documento en Excel a la conversión HTML](/cells/es/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
-- [Exportar rango de área de impresión a HTML](/cells/es/java/export-print-area-range-to-html/)
+- [Evitar la exportación del contenido oculto de la hoja de cálculo al guardar en HTML](/cells/es/java/prevent-exporting-hidden-worksheet-contents-on-saving-to/)
+- [Exportar la hoja de estilos CSS por separado en el HTML de salida](/cells/es/java/export-worksheet-css-separately-in-output-html/)
+- [Desactivar Comentarios Revelados de Niveles Inferiores al guardar en HTML](/cells/es/java/disable-downlevel-revealed-comments-while-saving-to-html/)
+- [Exportar propiedades del libro y la hoja de cálculo del documento en la conversión de Excel a HTML](/cells/es/java/export-document-workbook-and-worksheet-properties-in-excel-to-html-conversion/)
+- [Exportar rango del área de impresión a HTML](/cells/es/java/export-print-area-range-to-html/)

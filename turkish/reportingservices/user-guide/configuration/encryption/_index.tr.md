@@ -1,14 +1,15 @@
-﻿---
-title: şifreleme
+---
+title: Şifreleme
 type: docs
 weight: 40
 url: /tr/reportingservices/encryption/
 ---
-Aspose.Cells for Reporting Services, üç tür şifrelemeyi destekler: XOR, WEAK ENCRYPTION ve Microsoft Strong Cryptographic Provider. bölümündeki şifreleme yapılandırma bilgilerine bakın.**Aspose.Cells.ReportingServices.xml** dosya.
 
- Şifreleme değeri şu olduğunda**kapalı**, Aspose.Cells for Reporting Services şifreleme özelliklerini kapatır.
+Aspose.Cells for Reporting Services, XOR, ZAYIF ŞİFRELEME ve Microsoft Güçlü Kriptografik Sağlayıcı olmak üzere üç çeşit şifrelemeyi destekler. Şifreleme yapılandırma bilgileri için **Aspose.Cells.ReportingServices.xml** dosyasına bakınız.
 
-{{< highlight "java" >}}
+Şifreleme değeri **kapalı** olduğunda, Aspose.Cells for Reporting Services şifreleme özelliklerini kapatır.
+
+{{< highlight java >}}
 
    < Encryption value="off">
 
@@ -26,22 +27,22 @@ Aspose.Cells for Reporting Services, üç tür şifrelemeyi destekler: XOR, WEAK
 
 {{< /highlight >}}
 
- Şifreleme değeri şu olduğunda**üzerinde**, Aspose.Cells for Reporting Services şifrelemeyi açar.
+Şifreleme değeri **açık** olduğunda, Aspose.Cells for Reporting Services şifrelemeyi açar.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-Şifreleme bölümünde dört parametre vardır:
+Şifreleme bölümünde dört parametre bulunmaktadır:
 
-- **Rapor Adı**: şifreleme gerektiren bir rapora işaret eder. Parametre boş bırakılırsa tüm raporlar aynı şifreleme yöntemini kullanır.
-- **Parola**: şifreyi ayarlar. Boş bırakılamaz.
-- **Şifreleme tipi**: bir şifreleme türü ayarlar. Boş bırakılamaz.
-- **Anahtar Uzunluğu**: anahtar uzunluğunu ayarlar. Boş bırakılamaz.
+- **RaporAdı**: şifreleme gerektiren bir raporu işaret eder. Parametre boş bırakıldığında, tüm raporlar aynı şifreleme yöntemini kullanır.
+- **Parola**: parolayı ayarlar. Boş olamaz.
+- **Şifreleme Türü**: şifreleme türünü ayarlar. Boş olamaz.
+- **Anahtar Uzunluğu**: anahtar uzunluğunu ayarlar. Boş olamaz.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 

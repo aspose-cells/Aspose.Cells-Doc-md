@@ -1,14 +1,15 @@
-﻿---
+---
 title: Trova e sostituisci nel foglio di calcolo
 type: docs
 weight: 30
 url: /it/net/find-and-replace-in-spreadsheet/
 ---
-![cose da fare:immagine_alt_testo](Find_and_Replace.png)
 
-Quando clicchiamo sul pulsante Trova, segue il codice:
+![todo:image_alt_text](Find_and_Replace.png)
 
-{{< highlight "csharp" >}}
+Quando facciamo clic sul pulsante Trova, ecco il codice:
+
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "")
 
@@ -54,9 +55,9 @@ Quando clicchiamo sul pulsante Trova, segue il codice:
 
 {{< /highlight >}}
 
-Facendo clic sul pulsante Sostituisci viene eseguito il seguente codice:
+Fare clic sul pulsante Sostituisci esegue il seguente codice:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  if (TXBX_Find.Text != "" && TXBX_Replace.Text!="")
 

@@ -1,29 +1,30 @@
 ---
 title: Konvertera diagram till bild för japansk region
-description: Lär dig hur du använder Aspose.Cells for .NET ställer in den japanska konfigurationen för diagrammet. Vår guide kommer att visa hur du konfigurerar diagram för att stödja japanska tecken och formatering, inklusive teckensnitt, storlek, textriktning och mer.
-keywords: Aspose.Cells for .NET, Charts, Japanese configuration, font, font size, text direction, support.
+description: Lär dig hur man använder Aspose.Cells for .NET sätter den japanska konfigurationen för diagrammet. Vår guide kommer att demonstrera hur man konfigurerar diagram för att stödja japanska tecken och formatering, inklusive teckensnitt, storlek, textriktning och mer.
+keywords: Aspose.Cells for .NET, Diagram, Japansk konfiguration, teckensnitt, teckenstorlek, textriktning, stöd.
 linktitle: Ställ in japansk region
 type: docs
 weight: 10
 url: /sv/net/convert-chart-to-image-for-japanese-region/
 alias: [/net/set-japanese-configuration-for-chart/]
 ---
+
 {{% alert color="primary" %}}
 
-I det här avsnittet kommer vi att visa dig hur du ställer in japansk region för ett diagram.
+I det här ämnet kommer vi att visa dig hur du ställer in japansk region för ett diagram.
 
 {{% /alert %}}
 
-##  **Definierar en arvsklass**
+## **Definierar en arvs klass**
 
- Första steget måste du definiera en klass "ChartJapaneseSettings" som ärver från[**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
-Sedan, genom att skriva om de relaterade funktionerna, kan du ställa in texten i diagramelementen på ditt eget språk.
+Första steget, du behöver definiera en klass "ChartJapaneseSetttings" som ärver från [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
+Sedan, genom att omdefiniera relaterade funktioner, kan du ange texten i diagramelementen på ditt eget sprak.
 Kodexempel:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChartJapaneseSetttings.cs" >}}
 
-##  **Konfigurera japansk inställning för diagram**
+## **Konfigurera japanska inställningar för diagram**
 
-det här steget kommer du att använda klassen "ChartJapaneseSettings" som du definierade i föregående steg.
+I detta steg kommer du att använda klassen "ChartJapaneseSetttings" som du definierade i det föregående steget.
 Kodexempel:
 
 ```
@@ -33,20 +34,20 @@ Kodexempel:
 	chart0.ToImage("Output.png");
 ```
 
-Sedan kan du se effekten i utdatabilden, elementen i diagrammet kommer att renderas enligt dina inställningar.
+Sedan kan du se effekten i utdata bilden, elementen i diagrammet kommer att renderas enligt dina inställningar.
 
-##  **Slutsats**
+## **Slutsats**
 
-I det här exemplet, om du inte anger japansk region för ett diagram, kan följande diagramelement återges på standardspråket, till exempel engelska.
-Efter ovanstående operation kan vi få en utdatadiagrambild med japansk region.
+I det här exemplet, om du inte anger japansk region för ett diagram, kan följande diagramelement renderas på standardspråket, såsom engelska.
+Efter ovanstående operation kan vi få en utdata-diagrambild med japansk region.
 
-|**Element som stöds**|**Värde i detta exempel**|**standardvärde i engelsk miljö**|
+|**Stödda element**|**Värde i detta exempel**|**Standardvärde i den engelska miljön**|
 | :- | :- | :- |
-|Axeltitelnamn|軸タイトル|Axeltitel|
-|Axelenhetsnamn|百,千...|Hundra, tusentals...|
-|Diagramtitelnamn|グラフ タイトル|Diagramtitel|
-|Förklaring Öka namn|ぞうか|Öka|
-|Förklaring Minska namn|削減|Minska|
-|Legend Totalt namn|すべての|Total|
-|Annat namn|その他|Övrig|
-|Seriens namn|シリーズ|Serier|
+|axeltitelnamn|軸タイトル|Axeltitel|
+|axelenhetsnamn|百,千...|Hundratals, Tusentals...|
+|diagramtitelnamn|グラフ タイトル|Diagramtitel|
+|legend öka namn|ぞうか|Ökning|
+|legend minskning namn|削減|Minskning|
+|legend totalt namn|すべての|Totalt|
+|annat namn|その他|Övrigt|
+|Serienamn|シリーズ|Serie|

@@ -1,15 +1,16 @@
-﻿---
-title: أضف التعليقات في جدول البيانات بتنسيق xlsx4j
+---
+title: اضافة تعليقات في جدول بيانات في xlsx4j
 type: docs
 weight: 10
 url: /ar/java/add-comments-in-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - إضافة تعليقات في جدول البيانات**
-أضف تعليقًا إلى خلية عن طريق استدعاء طريقة addComments الخاصة بمجموعة الأشكال (مغلفة في كائن ورقة العمل). يمكن الوصول إلى كائن التعليق الجديد من مجموعة التعليقات بتمرير فهرس التعليقات. بعد الوصول إلى الكائن Comment ، قم بتخصيص ملاحظة التعليق باستخدام طريقة setNote للكائن Comment.
+
+## **Aspose.Cells - إضافة تعليقات في جدول بيانات**
+أضف تعليقًا إلى خلية عن طريق استدعاء طريقة addComments في مجموعة Shapes (المغلفة في كائن ورقة العمل). يمكن الوصول إلى كائن Comment الجديد من مجموعة Comments عن طريق تمرير فهرس التعليق. بعد الوصول إلى كائن Comment، قم بتخصيص ملاحظة التعليق باستخدام طريقة setNote في كائن Comment.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -30,14 +31,14 @@ Comment comment = worksheet.getComments().get(commentIndex);
 comment.setNote("Hello Aspose!");
 
 {{< /highlight >}}
-## **xlsx4j - أضف تعليقات في جدول البيانات**
-تتوفر فئة الجزء لإضافة تعليقات في جدول البيانات باستخدام xlsx4j.
+## **xlsx4j - إضافة تعليقات في جدول بيانات**
+الفئة CommentsPart متاحة لإضافة تعليقات في الجدول الخلية باستخدام xlsx4j.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) {
+ public static void main(String[] args) {
 
     try {
 
@@ -238,13 +239,13 @@ public static org.docx4j.vml.root.Xml getVml(int row, int col) throws JAXBExcept
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addcomments)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/worksheet/addcomments)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إضافة التعليقات](/java/adding-comments).
+لمزيد من التفاصيل، قم بزيارة [إضافة التعليقات](/java/adding-comments).
 
 {{% /alert %}}

@@ -1,19 +1,20 @@
-﻿---
-title: Einstellungsformel für den benannten Bereich
+---
+title: Formel für benanntes Bereich setzen
 type: docs
 weight: 20
 url: /de/net/setting-formula-for-named-range/
 ---
-## **Einstellungsformel für den benannten Bereich**
- Wie die Excel-Anwendung bieten Aspose.Cells-APIs die Möglichkeit, eine Formel für einen benannten Bereich anzugeben, während sie verwendet werden[Bezieht sich auf](https://reference.aspose.com/cells/net/aspose.cells/range/properties/refersto)Eigentum. Es könnte zahlreiche Nutzungsszenarien für diese Funktion geben, von denen einige im Folgenden detailliert beschrieben werden.
-### **Festlegen einer einfachen Formel für einen benannten Bereich**
-Eine einfache Formel könnte ein Verweis auf eine andere Zelle in demselben (oder einem anderen) Arbeitsblatt sein. Das folgende Beispiel erstellt einen benannten Bereich in einer neuen Tabelle und legt seinen Verweis auf eine andere Zelle fest.
+
+## **Formel für benanntes Bereich setzen**
+Wie die Excel-Anwendung bieten auch die Aspose.Cells APIs die Möglichkeit, eine Formel für einen benannten Bereich spezifisch zu benennen und dabei die [RefersTo](https://reference.aspose.com/cells/net/aspose.cells/range/properties/refersto)-Eigenschaft zu verwenden. Es gibt zahlreiche Anwendungsszenarien für diese Funktion, von denen einige im Folgenden näher erläutert werden.
+### **Eine einfache Formel für benannten Bereich setzen**
+Eine einfache Formel könnte eine Referenz auf eine andere Zelle im gleichen (oder anderen) Arbeitsblatt sein. Das folgende Beispiel erstellt einen benannten Bereich in einem neuen Tabellenblatt und setzt seine Referenz auf eine andere Zelle.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-SettingSimpleFormula-SettingSimpleFormulaForNamedRanges.cs" >}}
-### **Festlegen einer komplexen Formel für einen benannten Bereich**
-Eine komplexe Formel kann beispielsweise ein dynamischer Bereich oder eine Formel sein, die sich über mehrere Zellen in verschiedenen Arbeitsblättern erstreckt. Im folgenden Beispiel wird mithilfe der INDEX-Funktion ein dynamischer Bereich erstellt, um den Wert anhand seiner Position aus einer Liste abzurufen.
+### **Eine komplexe Formel für benannten Bereich setzen**
+Eine komplexe Formel könnte alles Mögliche sein, zum Beispiel ein dynamischer Bereich oder eine Formel über mehrere Zellen in verschiedenen Arbeitsblättern. Das folgende Beispiel erstellt einen dynamischen Bereich mit der INDEX-Funktion, um den Wert aus einer Liste basierend auf seiner Position zu erhalten.
 
 
 

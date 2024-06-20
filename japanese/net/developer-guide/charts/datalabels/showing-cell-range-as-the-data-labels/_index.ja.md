@@ -1,25 +1,26 @@
 ---
-title: Cell 範囲をデータラベルとして表示
-description: Aspose.Cells for .NET を使用してグラフのデータ ラベルとしてセルの範囲を表示する方法を学びます。このガイドでは、ラベルをデータ ソースにリンクし、グラフに正確で意味のある情報を提供するように書式設定する方法を説明します。
-keywords: Aspose.Cells for .NET, charting, data labels, cell range, data source, formatting, accuracy, meaningful information.
+title: データラベルとしてのセル範囲を表示
+description: Aspose.Cells for .NETを使用して、チャートでセルの範囲をデータラベルとして表示する方法を学習してください。当ガイドでは、ラベルをデータソースにリンクし、正確で意味のある情報を提供するためにフォーマットする方法を実証します。
+keywords: Aspose.Cells for .NET、チャート作成、データラベル、セル範囲、データソース、フォーマット、正確性、意味のある情報。
 type: docs
 weight: 130
 url: /ja/net/showing-cell-range-as-the-data-labels/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel 2013 では、データ ラベルのセル範囲を表示できます。 Aspose.Cells はこの機能をサポートしています。
+Microsoft Excel 2013では、データラベルにセル範囲を表示することができます。Aspose.Cellsはこの機能をサポートしています。
 
 {{% /alert %}}
 
-##  **Cell 範囲をデータラベルとして表示するチェックボックス**
+## **セル範囲をデータラベルとして表示するためのチェックボックス**
 
-Microsoft Excel でセル範囲をデータ ラベルとして表示するには:
+Microsoft Excelでセルの範囲をデータラベルとして表示するには：
 
-1. シリーズ データ ラベルを選択し、右クリックしてコンテキスト メニューを開きます。
-1. *データ ラベルのフォーマット** を選択します。ラベルのオプションが表示されます。
-1. [*ラベルに含まれる値 - Cells からの値**] オプションを選択または選択解除します。
+1. シリーズのデータラベルを選択して、コンテキストメニューを開くために右クリックします。
+1. **データラベルの書式設定**を選択します。ラベルのオプションが表示されます。
+1. **ラベルに値を含める**オプションを選択またはクリアします。
 
-以下のサンプル コードは、グラフ シリーズのデータ ラベルにアクセスし、[**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange)財産を**真実**を選択するには**ラベルに含まれる値 - Cells からの値**オプション。
+以下のサンプルコードは、チャートシリーズのデータラベルにアクセスし、**true**に**ラベルに値を含める**オプションを選択するための[**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange)プロパティを設定します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ShowCellRangeAsDataLabels-ShowCellRangeAsDataLabels.cs" >}}

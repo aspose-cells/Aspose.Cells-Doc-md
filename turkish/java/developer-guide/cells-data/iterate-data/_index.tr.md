@@ -1,42 +1,43 @@
-﻿---
-title: Yineleyiciler Nasıl ve Nerede Kullanılır?
+---
+title: Iterator ların Nasıl ve Nerede Kullanılacağı
 linktitle: Verileri Yinele
 type: docs
 weight: 640
 url: /tr/java/how-and-where-to-use-iterators/
 ---
+
 {{% alert color="primary" %}} 
 
-Yineleyici arabiriminin bir nesnesi, bir koleksiyonun tüm öğeleri arasında gezinmek için kullanılabilir. Yineleyiciler, bir koleksiyondaki verileri incelemek için kullanılabilir, ancak temeldeki koleksiyonu değiştirmek için kullanılamaz. Genel olarak, bir koleksiyonun içerikleri arasında geçiş yapmak üzere bir yineleyici kullanmak için aşağıdaki adımlar atılmalıdır:
+Iterator arabirimine ait bir nesne, bir koleksiyonun tüm elemanlarında dolaşmak için kullanılabilir. Iterator'lar bir koleksiyondaki verileri incelemek için kullanılabilir, ancak temel koleksiyonu değiştirmek için kullanılamazlar. Genel olarak, bir koleksiyonun içeriğinde döngü yapmak için şu adımlar izlenmelidir:
 
-1. Koleksiyonun yineleyici yöntemini çağırarak koleksiyonun başlangıcına bir yineleyici edinin.
-1. hasNext yöntemine çağrı yapan bir döngü kurun. HasNext yöntemi true değerini döndürdüğü sürece döngünün yinelenmesini sağlayın.
-1. Döngü içinde, sonraki yöntemi çağırarak her bir öğeyi elde edin.
+1. Koleksiyonun iterator yöntemini çağırarak koleksiyonun başlangıcına bir iterator elde edin.
+1. hasNext yöntemini çağıran bir döngü kurun. Döngünün hasNext yöntemi true döndüğü sürece devam etmesini sağlayın.
+1. Döngü içinde next yöntemini çağırarak her bir elemanı alın.
 
-Aspose.Cells API'ler bir dizi yineleyici sağlar, ancak bu makale temel olarak aşağıda listelenen üç türü tartışır.
+Aspose.Cells API'leri birçok iterator sağlar, ancak bu makale ağırlıklı olarak aşağıda listelenen üç türü tartışmaktadır.
 
-1. Cells Yineleyici
-1. Satır Yineleyici
-1. Sütunlar Yineleyici
+1. Hücreler Iterator'ı
+1. Satırlar Iterator'ı
+1. Sütunlar Iterator'ı
 
 {{% /alert %}} 
-## **Yineleyiciler nasıl kullanılır?**
-### **Cells Yineleyici**
-Hücrelerin yineleyicisine erişmenin çeşitli yolları vardır ve uygulama gereksinimlerine göre bu yöntemlerden herhangi biri kullanılabilir. İşte hücrelerin yineleyicisini döndüren yöntemler.
+## **Iterator'ların Nasıl Kullanılacağı**
+### **Hücreler Iterator'ı**
+Hücrelerin iterator'una erişmenin çeşitli yolları vardır ve uygulama gereksinimlerine bağlı olarak herhangi birini kullanabilirsiniz. İşte hücrelerin iterator'ını döndüren yöntemler:
 
 1. Cells.iterator
-1. Satır.yineleyici
+1. Row.iterator
 1. Range.iterator
 
-Yukarıda belirtilen yöntemlerin tümü, başlatılmış olan hücrelerin koleksiyonunda gezinmeye izin veren yineleyiciyi döndürür.
+Yukarıda bahsedilen tüm yöntemler, başlatılmış hücreler koleksiyonunu dolaşmaya izin veren iterator'ı döndürür.
 
 {{% alert color="primary" %}} 
 
-Hücreler arasında gezinirken koleksiyon değiştirilmemelidir (yeni bir Cell'in başlatılmasına veya mevcut Cell'in silinmesine neden olacak işlemler). Aksi takdirde, yineleyici tüm hücreleri doğru bir şekilde geçemeyebilir (bazı öğeler tekrar tekrar geçilebilir veya atlanabilir).
+Hücreleri dolaşırken koleksiyonun değiştirilmemesi gerekir (yeni bir Hücre oluşturan veya mevcut bir Hücreyi silen işlemler). Aksi takdirde iterator tüm hücreleri düzgün bir şekilde dolaşamayabilir (bazı elemanlar tekrarlanabilir veya atlanabilir).
 
 {{% /alert %}} 
 
-Aşağıdaki kod örneği, bir hücre koleksiyonu için Iterator sınıfının uygulanmasını gösterir.
+Aşağıdaki kod örneği, bir hücre koleksiyonu için Iterator sınıfının uygulanmasını göstermektedir.
 
 
 
@@ -49,8 +50,8 @@ Aşağıdaki kod örneği, bir hücre koleksiyonu için Iterator sınıfının u
 
 
 
-##### **Satır Yineleyici**
-Rows Iterator'a RowCollection.iterator yöntemi kullanılırken erişilebilir. Aşağıdaki kod örneği, Iterator for RowCollection sınıfının uygulanmasını gösterir.
+##### **Satırlar Iterator'ı**
+Satırlar Iterator'ı, RowCollection.iterator yöntemi kullanılırken erişilebilir. Aşağıdaki kod örneği, RowCollection sınıfı için Iterator'ın uygulanmasını göstermektedir.
 
 
 
@@ -61,8 +62,8 @@ Rows Iterator'a RowCollection.iterator yöntemi kullanılırken erişilebilir. A
 
 
 
-##### **Sütunlar Yineleyici**
-Columns Iterator'a ColumnCollection.iterator yöntemi kullanılırken erişilebilir. Aşağıdaki kod örneği, Iterator for ColumnCollection sınıfının uygulanmasını gösterir.
+##### **Sütunlar Iterator'ı**
+Sütunlar Iterator'ı, ColumnCollection.iterator yöntemi kullanılırken erişilebilir. Aşağıdaki kod örneği, ColumnCollection sınıfı için Iterator'ın uygulanmasını göstermektedir.
 
 
 
@@ -73,11 +74,11 @@ Columns Iterator'a ColumnCollection.iterator yöntemi kullanılırken erişilebi
 
 
 
-#### **Yineleyiciler nerede kullanılır?**
-Yineleyici kullanmanın avantajlarını tartışmak için gerçek zamanlı bir örnek alalım.
+#### **Iterator'ların Nerede Kullanılacağı**
+Iterator'ların kullanılmasının avantajlarını tartışmak için gerçek bir örnek ele alalım.
 ##### **Senaryo**
-Bir uygulama gereksinimi, değerlerini okumak için belirli bir Çalışma Sayfasındaki tüm hücreleri geçmektir. Bu hedefi gerçekleştirmenin birkaç yolu olabilir. Birkaçı aşağıda gösterilmiştir.
-###### **Görüntüleme Aralığını Kullanma**
+Bir uygulama gereksinimi, belirli bir Çalışma Sayfasındaki tüm hücreleri gezinerek değerlerini okumaktır. Bu hedefi uygulamanın birkaç yolu olabilir. Bazıları aşağıda gösterilmiştir.
+###### **Görüntü Aralığı Kullanarak**
 
 
 
@@ -87,7 +88,7 @@ Bir uygulama gereksinimi, değerlerini okumak için belirli bir Çalışma Sayfa
 
 
 
-###### **MaxDataRow ve MaxDataColumn'u Kullanma**
+###### **MaxDataRow & MaxDataColumn Kullanarak**
 
 
 
@@ -98,14 +99,14 @@ Bir uygulama gereksinimi, değerlerini okumak için belirli bir Çalışma Sayfa
 
 
 
-Yukarıda bahsedilen yaklaşımların her ikisinin de aşağı yukarı benzer bir mantık kullandığını gözlemleyebileceğiniz gibi; hücre değerlerini okumak için koleksiyondaki tüm hücreler üzerinde döngü yapın. Bu, aşağıda tartışıldığı gibi birkaç nedenden dolayı sorunlu olabilir.
+Yukarıda bahsedilen her iki yaklaşımın da oldukça benzer mantığı kullandığını görebilirsiniz; yani, koleksiyondaki tüm hücrelerin üzerinden dolaşmak. Bu, aşağıda tartışılan birkaç nedenle sorunlu olabilir.
 
-1. MaxRow, MaxDataRow, MaxColumn, MaxDataColumn ve MaxDisplayRange gibi API'ler ilgili istatistikleri toplamak için fazladan zaman gerektirir. Veri matrisinin (satır x sütun) büyük olması durumunda, bu API'lerin kullanılması performans düşüşüne neden olabilir.
-1. Çoğu durumda, belirli bir aralıktaki tüm hücreler örneklenmez. Bu gibi durumlarda, matristeki her hücreyi kontrol etmek, yalnızca başlatılmış hücreleri kontrol etmeye kıyasla o kadar verimli değildir.
-1. Bir döngüdeki bir hücreye Cells.get(rowIndex, columnIndex) olarak erişilmesi, bir aralıktaki tüm hücre nesnelerinin somutlaştırılmasına neden olur ve bu da sonunda OutOfMemoryError'a neden olabilir.
-##### **Çözüm**
-Yukarıda belirtilen gerçeklere dayanarak, yineleyicilerin kullanılması gereken olası senaryolar aşağıdadır.
+1. MaxRow, MaxDataRow, MaxColumn, MaxDataColumn & MaxDisplayRange gibi API'ler, ilgili istatistikleri toplamak için ekstra zaman gerektirir. Veri matrisi (satır x sütun) büyükse, bu API'leri kullanmak performans cezası getirebilir.
+1. Çoğu durumda, verilen bir aralıktaki tüm hücreler oluşturulmamıştır. Bu tür durumlarda, matristeki her hücreyi kontrol etmek, yalnızca başlatılmış hücreleri kontrol etmekten daha verimli değildir.
+1. Bir döngü içinde Cells.get(rowIndex, columnIndex) gibi bir hücreye erişmek, bir aralıktaki tüm hücre nesnelerinin oluşturulmasına neden olur, bu da sonunda OutOfMemoryError'a neden olabilir.
+##### **Sonuç**
+Yukarıda belirtilen gerçeklere dayanarak, yineleyicilerin kullanılması gereken olası senaryolar aşağıda belirtilmiştir.
 
-1. Hücre koleksiyonuna salt okunur erişim gereklidir, yani; gereksinim sadece hücreleri incelemektir.
-1. Çok sayıda hücre geçilecek.
-1. Yalnızca başlatılmış hücreler/satırlar/sütunlar geçilmelidir.
+1. Hücre koleksiyonunun salt okunur erişimi gereklidir; yani, yalnızca hücreleri denetlemek gereklidir.
+1. Büyük sayıda hücre gezilmelidir.
+1. Yalnızca başlatılmış hücreler/satırlar/sütunlar gezilmelidir.

@@ -1,15 +1,16 @@
-﻿---
-title: التحويل إلى MHTML ملفات في PHP
+---
+title: تحويل إلى ملفات MHTML في PHP
 type: docs
 weight: 40
 url: /ar/java/converting-to-mhtml-files-in-php/
 ---
-## **Aspose.Cells - التحويل إلى ملفات MHTML**
-لتحويل ورقة العمل إلى ملف MHTML باستخدام Aspose.Cells for Java في PHP ، ما عليك سوى استدعاء ورقة العمل_إلى_mhtml () طريقة وحدة المحول.
+
+## **Aspose.Cells - تحويل ملفات MHTML**
+لتحويل ورقة العمل إلى ملف MHTML باستخدام رمز Aspose.Cells for Java في PHP، قم ببساطة باستدعاء طريقة worksheet_to_mhtml() من وحدة Converter.
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $sveFormat = new SaveFormat();
 
@@ -30,7 +31,7 @@ $wb = new Workbook($filePath);
 $wb->save($filePath . ".out.mht", $sv);
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**التحويل إلى ملفات MHTML (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **تحويل ملفات MHTML (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingToMhtmlFiles.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingToMhtmlFiles.php)

@@ -1,17 +1,18 @@
-﻿---
-title: كيفية تغيير لون خط التعليق
+---
+title: كيفية تغيير لون الخط في التعليق
 type: docs
 weight: 180
 url: /ar/java/how-to-change-the-comment-font-color/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft يسمح Excel للمستخدمين بإضافة تعليقات إلى الخلايا لإضافة معلومات إضافية وإبراز البيانات. قد يحتاج المطورون إلى تخصيص التعليق لتحديد إعدادات المحاذاة ، واتجاه النص لون الخط ، وما إلى ذلك. يوفر Aspose.Cells واجهات برمجة التطبيقات (API) لإنجاز المهمة.
+يسمح Microsoft Excel للمستخدمين بإضافة تعليقات إلى الخلايا لإضافة معلومات إضافية وتسليط الضوء على البيانات. قد تحتاج المطورون إلى تخصيص التعليق لتحديد إعدادات المحاذاة واتجاه النص ولون الخط وما إلى ذلك. توفر Aspose.Cells واجهات برمجة التطبيقات لإنجاز المهمة.
 
 {{% /alert %}}
 
-يوفر Aspose.Cells أ[**الشكل والنص الجسم**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody)خاصية لون خط التعليق. يوضح نموذج التعليمات البرمجية التالي استخدام[**الشكل والنص الجسم**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody)لتعيين اتجاه النص للتعليق.
+تقدم Aspose.Cells خاصية [**Shape.TextBody**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody) للون الخط في التعليق. يظهر الكود العينة التالي استخدام الخاصية [**Shape.TextBody**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody) لتعيين اتجاه النص لتعليق.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeCommentFontColor-1.java" >}}
 
-ال[ملف إلاخراج](outputChangeCommentFontColor.xlsx)التي تم إنشاؤها بواسطة الكود أعلاه مرفقة للرجوع اليها.
+يتم إرفاق [ملف الإخراج](outputChangeCommentFontColor.xlsx) الذي تم إنشاؤه بواسطة الشفرة المرفقة لمراجعتك.

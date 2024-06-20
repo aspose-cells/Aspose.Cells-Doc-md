@@ -1,18 +1,19 @@
-﻿---
-title: Asignar macro al control de formulario
+---
+title: Asigna Macro a Control de Formulario
 type: docs
 weight: 60
 url: /es/net/assign-macro-to-form-control/
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells le permite asignar un código de macro a un control de formulario como un botón. Por favor use el[**Forma.MarcoNombre**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname) propiedad para asignar un nuevo código de macro a un control de formulario dentro del libro de trabajo.
+Aspose.Cells te permite asignar un Código de Macro a un Control de Formulario como un Botón. Por favor utiliza la propiedad [**Shape.MarcoName**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/macroname) para asignar un nuevo Código de Macro a un Control de Formulario dentro del libro.
 
 {{% /alert %}}
 
-El siguiente código de ejemplo crea un nuevo libro de trabajo, asigna un código de macro a un botón de formulario y guarda el resultado en el formato XLSM. Una vez, abrirá el archivo de salida XLSM en Microsoft Excel y verá el siguiente código de macro.
+El siguiente código de muestra crea un nuevo libro, asigna un Código de Macro a un Botón de Formulario y guarda la salida en formato XLSM. Una vez que abras el archivo XLSM de salida en Microsoft Excel, verás el siguiente código de macro.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -22,8 +23,8 @@ End Sub
 
 {{< /highlight >}}
 
-## **Asignar macro a control de formulario en C#**
+## **Asigna Macro a Control de Formulario en C#**
 
-Aquí está el código de muestra para generar el archivo de salida XLSM con código macro.
+Aquí está el código de muestra para generar el archivo de salida XLSM con Código de Macro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}

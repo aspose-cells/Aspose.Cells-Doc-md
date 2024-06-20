@@ -1,43 +1,44 @@
-﻿---
-title: Arbeitsblätter in einer Arbeitsmappe ein- und ausblenden
+---
+title: Arbeitsblätter in einer Arbeitsmappe ausblenden und einblenden
 type: docs
 weight: 80
 url: /de/net/hide-and-unhide-worksheets-in-a-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Wenn Sie Kunden Arbeitsmappen präsentieren oder eine Präsentation halten, kann es hilfreich sein, Arbeitsblätter in einer Arbeitsmappe auszublenden. Ein strukturierter Ansatz für die Tabellenkalkulationsmodellierung legt nahe, dass Daten, Formeln und Visualisierungen wie Diagramme auf separaten Blättern aufbewahrt werden. Dieser Ansatz hält das Layout sauber und einfach und erleichtert die Navigation in der Arbeitsmappe. Beim Präsentieren von Ergebnissen möchten Sie möglicherweise die Daten oder Formelblätter ausblenden, um Ablenkungen zu vermeiden.
+Beim Präsentieren von Arbeitsmappen für Kunden oder bei einer Präsentation kann es nützlich sein, Arbeitsblätter in einer Arbeitsmappe auszublenden. Ein strukturierter Ansatz zur Modellierung von Tabellenkalkulationen legt nahe, dass Daten, Formeln und Visualisierungen wie Diagramme auf separaten Blättern aufbewahrt werden. Dieser Ansatz hält das Layout sauber und einfach und erleichtert die Navigation in der Arbeitsmappe. Wenn Sie Ergebnisse präsentieren, möchten Sie möglicherweise die Daten- oder Formelblätter ausblenden, um Ablenkungen zu vermeiden.
 
-Benutzer, die in Microsoft Excel arbeiten, können Arbeitsblätter einfach ein- und ausblenden (anzeigen). Die gleichen Funktionen stehen Entwicklern zur Verfügung, die mit Excel-Tabellen programmieren. Es gibt verschiedene Möglichkeiten, mit Tabellenkalkulationen innerhalb von Softwareanwendungen zu arbeiten. Eine Methode ist die Verwendung von VSTO, eine andere ist Aspose.Cells for .NET.
+Benutzer, die mit Microsoft Excel arbeiten, können Arbeitsblätter ganz einfach ausblenden und dann wieder einblenden. Die gleichen Funktionen stehen auch Entwicklern zur Verfügung, die mit Excel-Tabellenkalkulationen programmieren. Es gibt verschiedene Möglichkeiten, mit Tabellenkalkulationen aus Softwareanwendungen heraus zu arbeiten. Eine Methode besteht darin, VSTO zu verwenden, eine andere ist Aspose.Cells for .NET.
 
 {{% /alert %}}
 
-## **Arbeitsblätter ein- und ausblenden**
+## **Arbeitsblätter ausblenden und einblenden**
 
- Dieser Artikel vergleicht[versteckt](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/) und[Einblenden](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/) Arbeitsblätter mit[VSTO](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/) , entweder mit C# oder Visual Basic, um dieselbe Aufgabe auszuführen[Aspose.Cells](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/), wiederum entweder mit C# oder Visual Basic. Mit Aspose.Cells können Sie arbeiten, ohne dass Microsoft Excel installiert ist.
+In diesem Artikel werden [Ausblenden](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/) und [Einblenden](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/) von Arbeitsblättern mit [VSTO](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/), unter Verwendung von entweder C# oder Visual Basic, verglichen, um dieselbe Aufgabe mit [Aspose.Cells](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/) mit wiederum entweder C# oder Visual Basic durchzuführen. Aspose.Cells ermöglicht es Ihnen, ohne Microsoft Excel zu arbeiten.
 
-Die Schritte zum Ausblenden eines Arbeitsblatts sind:
+Die Schritte zum Ausblenden eines Arbeitsblatts lauten:
 
-1. Öffne einen Ordner.
+1. Öffnen Sie eine Datei.
 1. Holen Sie sich ein Arbeitsblatt.
 1. Blenden Sie das Arbeitsblatt aus.
-1. Speicher die Datei.
+1. Speichern Sie die Datei.
 
- Zu[einblenden](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/) wieder ein Arbeitsblatt, schalten Sie einfach die Sichtbarkeit für das ausgeblendete Blatt ein.
+Um das Arbeitsblatt wieder [einzublenden](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/), schalten Sie einfach die Sichtbarkeit für das ausgeblendete Blatt um.
 
- Die folgenden Codebeispiele zeigen zunächst, wie ein Arbeitsblatt ausgeblendet wird. Die ersten Muster zeigen den Prozess mit[VSTO](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/) , entweder mit C# oder Visual Basic, im Vergleich zur Verwendung von[Aspose.Cells](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/), wiederum entweder mit C# oder Visual Basics.
+Die nachfolgenden Codebeispiele zeigen zuerst, wie man ein Arbeitsblatt ausblendet. Die ersten Beispiele zeigen den Prozess mit [VSTO](/cells/de/net/Arbeitsblätter-in-einer-Arbeitsmappe-ausblenden-und-einblenden/), entweder in C# oder Visual Basic, im Vergleich zur Verwendung von [Aspose.Cells](/cells/de/net/Arbeitsblätter-in-einer-Arbeitsmappe-ausblenden-und-einblenden/), wiederum unter Verwendung von C# oder Visual Basics.
 
- Der zweite Satz von Codebeispielen zeigt die Zeile, die zum Einblenden des Arbeitsblatts verwendet wird[VSTO](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/) oder[Aspose.Cells](/cells/de/net/hide-and-unhide-worksheets-in-a-workbook/).
+Die zweite Gruppe von Codebeispielen zeigt die Zeile, die zum Einblenden des Arbeitsblatts in [VSTO](/cells/de/net/Arbeitsblätter-in-einer-Arbeitsmappe-ausblenden-und-einblenden/) oder [Aspose.Cells](/cells/de/net/Arbeitsblätter-in-einer-Arbeitsmappe-ausblenden-und-einblenden/) verwendet wird.
 
-## **Arbeitsblätter ausblenden**
+## **Ausblenden von Arbeitsblättern**
 
-Unten finden Sie Codebeispiele für VSTO und Aspose.Cells, die veranschaulichen, wie ein Arbeitsblatt in einer Arbeitsmappe ausgeblendet wird.
+Im Folgenden sind Codebeispiele für VSTO und Aspose.Cells aufgeführt, die zeigen, wie ein Arbeitsblatt in einem Workbook ausgeblendet wird.
 
-### **Ausblenden von Arbeitsblättern mit VSTO**
+### **Arbeitsblätter ausblenden mit VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -108,11 +109,11 @@ excelApp.Quit();
 {{< /highlight >}}
 
 
-### **Ausblenden von Arbeitsblättern mit Aspose.Cells for .NET**
+### **Arbeitsblätter mit Aspose.Cells for .NET ausblenden**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -156,15 +157,15 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 
-## **Arbeitsblätter einblenden**
+## **Arbeitsblätter wieder einblenden**
 
-Unten finden Sie Codebeispiele für VSTO und Aspose.Cells, die veranschaulichen, wie ein Arbeitsblatt in einer Arbeitsmappe eingeblendet wird.
+Nachfolgend finden Sie Codedemonstrationen für VSTO und Aspose.Cells, die zeigen, wie ein Arbeitsblatt in einer Arbeitsmappe eingeblendet wird.
 
-### **Einblenden eines Arbeitsblatts mit VSTO**
+### **Ein Arbeitsblatt mit VSTO wieder einblenden**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -177,11 +178,11 @@ objSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
 {{< /highlight >}}
 
 
-### **Einblenden eines Arbeitsblatts mit Aspose.Cells for .NET**
+### **Ein Arbeitsblatt mit Aspose.Cells for .NET wieder einblenden**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Unhide the worksheet.
 

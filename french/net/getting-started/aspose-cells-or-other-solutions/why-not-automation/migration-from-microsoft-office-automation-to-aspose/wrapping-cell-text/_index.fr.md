@@ -1,41 +1,42 @@
-﻿---
-title: Habillage du texte Cell
+---
+title: Enrouler le texte de la cellule
 type: docs
 weight: 130
 url: /fr/net/wrapping-cell-text/
 ---
+
 {{% alert color="primary" %}}
 
-L'habillage du texte facilite la lecture : une cellule avec du texte enveloppé s'agrandit pour s'adapter au texte afin que le texte ne s'affiche pas par-dessus d'autres cellules.
+L'enroulement du texte rend la lecture plus facile : une cellule avec un texte enroulé s'élargit pour s'adapter au texte de sorte que le texte ne soit pas affiché sur d'autres cellules.
 
-Avec Aspose.Cells for .NET, les développeurs peuvent effectuer la plupart des tâches dans leurs applications que les utilisateurs peuvent effectuer avec Microsoft Excel, y compris l'habillage du texte dans les cellules. Cet article explique comment et compare la tâche en utilisant VSTO et Aspose.Cells. Aspose.Cells est optimisé pour un codage efficace et fonctionne sans Microsoft Automation.
+Avec Aspose.Cells for .NET, les développeurs peuvent effectuer la plupart des tâches dans leurs applications que les utilisateurs peuvent effectuer avec Microsoft Excel, y compris l'enroulement du texte dans les cellules. Cet article explique comment, et compare la tâche à l'aide de VSTO et Aspose.Cells. Aspose.Cells est optimisé pour un codage efficace et fonctionne sans Automation Microsoft.
 
 {{% /alert %}}
 
-## **Habillage du texte Cell**
+## **Enrouler le texte de la cellule**
 
-Pour créer une feuille de calcul avec deux cellules, une avec du texte enveloppé et une sans :
+Pour créer une feuille de calcul avec deux cellules, une avec du texte enveloppé et une sans:
 
-1. Configurez la feuille de calcul :
- 1. Créez un classeur.
- 1. Accédez à la première feuille de calcul.
-1. Ajouter du texte:
- 1. Ajoutez du texte à la cellule A1.
- 1. Ajoutez du texte enveloppé à la cellule A5.
+1. Mettez en place la feuille de calcul:
+   1. Créer un classeur.
+   1. Accédez à la première feuille de calcul.
+1. Ajoutez du texte:
+   1. Ajoutez du texte à la cellule A1.
+   1. Ajoutez du texte enveloppé à la cellule A5.
 1. Enregistrez la feuille de calcul.
 
- Les exemples de code ci-dessous montrent comment effectuer ces étapes à l'aide de[VSTO](/cells/fr/net/wrapping-cell-text/) avec C# ou Visual Basic. Exemples de code qui montrent comment faire la même chose en utilisant[Aspose.Cells for .NET](/cells/fr/net/wrapping-cell-text/), en utilisant à nouveau C# ou Visual Basic suivre immédiatement après.
+Les exemples de code ci-dessous montrent comment effectuer ces étapes à l'aide de [VSTO](/cells/fr/net/wrapping-cell-text/) avec soit C# ou Visual Basic. Des exemples de code montrant comment faire la même chose à l'aide de [Aspose.Cells for .NET](/cells/fr/net/wrapping-cell-text/), à nouveau à l'aide de C# ou Visual Basic, suivent immédiatement après.
 
-L'exécution du code donne une feuille de calcul avec deux cellules, une avec du texte qui n'a pas été encapsulé et une avec :
+L'exécution du code donne comme résultat une feuille de calcul avec deux cellules, l'une ayant un texte qui n'a pas été enveloppé et l'autre qui l'a été:
 
-|<p>**Sortie du texte de cellule d'habillage avec VSTO** </p><p>![tâche : image_autre_texte](wrapping-cell-text_1.png)</p>|<p>**Texte de cellule d'emballage de sortie avec Aspose.Cells for .NET** </p><p>![tâche : image_autre_texte](wrapping-cell-text_2.png)</p>|
-|:- |:- |
+|<p>**Output wrapping cell text with VSTO** </p><p>![todo:image_alt_text](wrapping-cell-text_1.png)</p>|<p>**Output wrapping cell text with Aspose.Cells for .NET** </p><p>![todo:image_alt_text](wrapping-cell-text_2.png)</p>|
+| :- | :- |
 
-### **Habillage du texte Cell à l'aide de VSTO**
+### **Enrouler le texte de la cellule à l'aide de VSTO**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Note: To help you better, the code uses full namespacing
 
@@ -85,11 +86,11 @@ void WrappingCellText()
 
 {{< /highlight >}}
 
-### **Habillage du texte Cell avec Aspose.Cells for .NET**
+### **Enrouler le texte de la cellule à l'aide de Aspose.Cells for .NET**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  void WrappingCellText()
 

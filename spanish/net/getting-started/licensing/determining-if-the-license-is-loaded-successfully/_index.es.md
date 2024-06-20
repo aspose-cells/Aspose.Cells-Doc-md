@@ -3,26 +3,27 @@ title: Determinar si la licencia se cargó correctamente
 type: docs
 weight: 260
 url: /es/net/determining-if-the-license-is-loaded-successfully/
-description: Aprenda a detectar si la licencia se cargó correctamente a través de Aspose.Cells para las API NET.
-keywords: How to Detect if the License is loaded successfully in C#, Determine if the License is loaded successfully using C#, Check if the License is loaded successfully via C#, check the status of license.
+description: Aprenda cómo Detectar si la Licencia se cargó correctamente a través de las API Aspose.Cells for NET.
+keywords: Cómo Detectar si la Licencia se cargó correctamente en C#, Determinar si la Licencia se cargó correctamente usando C#, Verificar si la Licencia se cargó correctamente a través de C#, comprobar el estado de la licencia.
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells proporciona[**Libro de trabajo. Tiene licencia**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) propiedad que puede utilizar para determinar si la licencia se cargó correctamente o no. Si accede a esta propiedad antes de configurar la licencia, le devolverá**FALSO** y si llama a esta propiedad después de configurar la licencia, volverá**verdadero** indicando que la licencia se ha cargado exitosamente.
+Aspose.Cells proporciona la propiedad [**Workbook.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) que puede usar para determinar si la licencia se cargó correctamente o no. Si accede a esta propiedad antes de establecer la licencia, devolverá **falso**, y si llama a esta propiedad después de establecer la licencia, devolverá **verdadero**, lo que indica que la licencia se ha cargado correctamente.
 
 {{% /alert %}}
 
-##  Código C# para determinar si la licencia se cargó correctamente
+## Código de C# para determinar si la Licencia se cargó correctamente
 
- El siguiente código accede al[**Libro de trabajo. Tiene licencia**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed)propiedad antes de establecer una licencia y devuelve *falso**. Luego carga la licencia y accede nuevamente a la propiedad, que ahora devuelve *verdadero**.
+El siguiente código accede a la propiedad [**Workbook.IsLicensed**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/islicensed) antes de establecer una licencia y devuelve **falso**. Luego carga la licencia y accede a la propiedad nuevamente, que ahora devuelve **verdadero**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-DeterminingLicenseLoading-DeterminingLicenseLoading.cs" >}}
 
-##  **Salida de consola**
+## **Salida de la consola**
 
-Aquí está el resultado de la consola (depuración) del código de muestra anterior.
+Aquí está la salida de consola (depuración) del código de ejemplo anterior
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 False
 

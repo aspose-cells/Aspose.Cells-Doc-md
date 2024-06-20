@@ -1,15 +1,18 @@
-﻿---
-title: Bindande arbetsblad till en datauppsättning vid körning med GridWeb
+---
+title: Bindning av arbetsblad till en DataSet vid körning med hjälp av GridWeb
 type: docs
 weight: 70
-url: /sv/net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
+url: /sv/net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
+keywords: GridWeb,bind,DataSet
+description: Den här artikeln introducerar hur man binder arbetsblad till en DataSet i GridWeb.
 ---
-## **Möjliga användningsscenarier**
-Aspose.Cells.GridWeb tillhandahåller ett enkelt API som kan användas för att dynamiskt binda en datamängd till arbetsblad.
-## **Bindning av ett kalkylblad till datauppsättning**
-Följande exempelkod förklarar hur man binder ett kalkylblad till en datauppsättning vid körning.
+
+## **Möjliga användningsscenario**
+Aspose.Cells.GridWeb tillhandahåller en enkel API som kan användas för att dynamiskt binda en DataSet till arbetsblad.
+## **Bind ett arbetsblad till DataSet**
+Följande exemplarkod förklarar hur man binder ett arbetsblad till en DataSet vid körning.
 ## **Exempelkod**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Implementing Page_Load event handler
 
@@ -80,7 +83,7 @@ public partial class GridBind : System.Web.UI.Page
 }
 
 {{< /highlight >}}
-## **Utdata skärmdump**
-Följande skärmdump visar GridWeb efter exekveringen av ovanstående exempelkod.
+## **Utmatningsskärmbild**
+Följande skärmbild visar GridWeb efter utförandet av ovanstående exemplarkod.
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

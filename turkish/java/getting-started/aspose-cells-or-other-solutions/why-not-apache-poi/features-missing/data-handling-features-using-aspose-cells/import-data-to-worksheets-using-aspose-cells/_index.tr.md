@@ -1,15 +1,16 @@
-﻿---
-title: Aspose.Cells kullanarak Çalışma Sayfalarına Veri Aktarın
+---
+title: Aspose.Cells Kullanarak Çalışma Sayfalarına Veri Aktarımı
 type: docs
 weight: 30
 url: /tr/java/import-data-to-worksheets-using-aspose-cells/
 ---
-## **Aspose.Cells - Verileri Çalışma Sayfalarına Aktar**
-Dizilerden Verileri İçe Aktar
+
+## **Aspose.Cells - Çalışan Kodu İçe Aktar**
+Dizilerden Veri İçe Aktar
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -25,7 +26,7 @@ Worksheet worksheet= workbook.getWorksheets().get(sheetIndex);
 
 //Creating an array containing names as string values
 
-String[]names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
+String[] names = new String[]{"laurence chen", "roman korchagin", "kyle huang"};
 
 //Importing the array of names to 1st row and first column vertically
 
@@ -35,11 +36,11 @@ cells.importArray(names,0,0,false);
 
 {{< /highlight >}}
 
-ArrayList'ten Verileri İçe Aktar
+ArrayList'ten Veri İçe Aktar
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  ArrayList<String> list = new ArrayList<String>();
 
@@ -65,5 +66,5 @@ workbook.save(dataDir + "AsposeDataImport.xls");
 ## **Çalışan Kodu İndir**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/ImportDataToWorksheets.java)

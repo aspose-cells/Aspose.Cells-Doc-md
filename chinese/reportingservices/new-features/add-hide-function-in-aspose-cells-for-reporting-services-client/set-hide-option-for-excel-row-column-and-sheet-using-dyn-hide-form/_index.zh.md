@@ -1,5 +1,5 @@
 ---
-title: 使用Dyn-Hide表单为Excel行、列和工作表设置隐藏选项
+title: 使用Dyn Hide表单为Excel行、列和工作表设置隐藏选项
 type: docs
 weight: 20
 url: /zh/reportingservices/set-hide-option-for-excel-row-column-and-sheet-using-dyn-hide-form/

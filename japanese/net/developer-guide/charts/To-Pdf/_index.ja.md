@@ -1,21 +1,22 @@
 ---
-title: PDF へのチャート
-description: Aspose.Cells for .NET を使用してグラフを PDF ドキュメントに変換する方法を学びます。私たちのガイドでは、Microsoft Excel からグラフをエクスポートし、その後の配布やアーカイブのために PDF として保存する方法を説明します。
-keywords: Aspose.Cells for .NET, Chart to PDF, Microsoft Excel, PDF Conversion, Export, Distribution, Archiving.
+title: グラフをPDFに変換する 
+description: Aspose.Cells for .NETを使用して、Microsoft ExcelからグラフをPDFドキュメントに変換する方法を学びます。当ガイドでは、Microsoft Excelからグラフをエクスポートし、PDFとして保存する手順を示します。
+keywords: Aspose.Cells for .NET, グラフをPDF, Microsoft Excel, PDF変換, エクスポート, 配布, アーカイブ
 type: docs
 weight: 47
 url: /ja/net/chart-to-pdf/
 ---
-##  **PDFまでのレンダリングチャート**
 
-チャートを PDF 形式でレンダリングするために、Aspose.Cells API は[**チャート.PDFへ**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)結果の PDF をディスク パスまたはストリームに保存する機能を備えたメソッド。
+## **PDFへのチャートのレンダリング**
+
+Aspose.CellsのAPIは、結果のPDFをディスクパスまたはストリームに保存する能力を持つ [**Chart.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index) メソッドを公開しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 
-##  **希望のページ サイズでグラフ PDF を作成する**
-Aspose.Cells を使用して希望のページ サイズでチャート PDF を作成し、ページ内でチャートを上、下、中央、左、右などに配置する方法を指定できます。また、出力チャートはストリームまたはディスク上に作成できます。をロードする次のサンプルコードを参照してください。[サンプル Excel ファイル](64716906.xlsx) 、ワークシート内の最初のグラフにアクセスし、それを次のように変換します。[PDFを出力](64716907.pdf)希望のページサイズで。次のスクリーンショットは、出力 PDF のページ サイズがコード内で指定されているように 7x7 であり、グラフが水平方向と垂直方向の両方で中央揃えであることを示しています。
+## **希望のページサイズでチャートPDFを作成**
+Aspose.Cellsを使用して、指定のページサイズでグラフのPDFを作成し、ページ内でのグラフの配置方法を上部、下部、センター、左、右などで指定することができます。また、出力されたグラフはストリームまたはディスク上に作成することができます。以下は、サンプルコードです。[サンプルExcelファイル](64716906.xlsx)を読み込み、ワークシート内の最初のチャートにアクセスし、指定のページサイズで[出力PDF](64716907.pdf)に変換するコードです。このスクリーンショットは、出力PDFのページサイズがコード内で指定されたように7x7であり、グラフが水平および垂直の両方向で中央に配置されていることを示しています。 
 
 ![todo:image_alt_text](create-chart-pdf-with-desired-page-size_1.png)
-##  **サンプルコード**
+## **サンプルコード**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
 

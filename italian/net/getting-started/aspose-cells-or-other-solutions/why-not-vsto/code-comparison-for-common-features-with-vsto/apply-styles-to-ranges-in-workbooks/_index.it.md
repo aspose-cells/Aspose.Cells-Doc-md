@@ -1,12 +1,13 @@
-﻿---
-title: Applica stili agli intervalli nelle cartelle di lavoro
+---
+title: Applicare stili a intervalli in cartelle di lavoro
 type: docs
 weight: 40
 url: /it/net/apply-styles-to-ranges-in-workbooks/
 ---
-Di seguito è riportato il confronto del codice dell'applicazione dello stile a righe e colonne di cartelle di lavoro:
+
+Di seguito è riportato il confronto del codice per applicare stili a righe e colonne di cartelle di lavoro:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -30,7 +31,7 @@ Di seguito è riportato il confronto del codice dell'applicazione dello stile a 
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -81,5 +82,5 @@ Di seguito è riportato il confronto del codice dell'applicazione dello stile a 
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Scaricamento**
-- [Git Hub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)
+## **Scarica**
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)

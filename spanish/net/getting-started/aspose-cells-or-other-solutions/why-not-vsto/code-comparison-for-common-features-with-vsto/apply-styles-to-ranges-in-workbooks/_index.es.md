@@ -1,12 +1,13 @@
-﻿---
+---
 title: Aplicar estilos a rangos en libros de trabajo
 type: docs
 weight: 40
 url: /es/net/apply-styles-to-ranges-in-workbooks/
 ---
-A continuación se muestra la comparación de código de la aplicación de estilo a las filas y columnas de los libros de trabajo:
+
+A continuación se muestra la comparación de código para aplicar estilo a filas y columnas de libros de trabajo:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -30,7 +31,7 @@ A continuación se muestra la comparación de código de la aplicación de estil
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

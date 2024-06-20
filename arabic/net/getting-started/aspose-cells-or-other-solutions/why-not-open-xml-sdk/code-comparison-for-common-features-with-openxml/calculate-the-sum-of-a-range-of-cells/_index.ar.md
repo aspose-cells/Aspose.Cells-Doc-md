@@ -1,13 +1,14 @@
-﻿---
-title: احسب مجموع نطاق من الخلايا
+---
+title: حساب مجموع مجموعة من الخلايا
 type: docs
 weight: 10
 url: /ar/net/calculate-the-sum-of-a-range-of-cells/
 ---
-## **برنامج OpenXML Excel**
-فيما يلي مساحات الأسماء التي نحتاج إلى استخدامها في الكود:
 
-{{< highlight "csharp" >}}
+## **OpenXML Excel**
+فيما يلي الفضاءات الاسمية التي نحتاج إلي استخدامها في الكود:
+
+{{< highlight csharp >}}
 
  using DocumentFormat.OpenXml;
 
@@ -17,9 +18,9 @@ using DocumentFormat.OpenXml.Spreadsheet;
 
 {{< /highlight >}}
 
-يوجد أدناه الرمز:
+أدناه هو الكود:
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -334,7 +335,7 @@ private static Cell InsertCellInWorksheet(string columnName, uint rowIndex, Work
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -381,7 +382,7 @@ private static void CalculateSumOfCellRange(string docName, string worksheetName
 }
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-- [سورس فورج](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).zip / تنزيل)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).أَزِيز)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
+- [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Calculate%20the%20sum%20of%20a%20range%20of%20cells%20\(Aspose.Cells\).zip)

@@ -1,28 +1,29 @@
 ---
-title: Få pappersbredd och höjd på sidinställningar för arbetsblad
+title: Hämta papperets bredd och höjd för sidbildningsinställningen för arket
 type: docs
 weight: 50
 url: /sv/net/get-paper-width-and-height-of-page-setup-of-worksheet/
-description: Du kommer att upptäcka i den här artikeln hur du får Excel-arbetsbladet Sidinställning Pappersbredd och pappershöjd med C#-koden programmatiskt med .NET API eller bibliotek.
-keywords: excel page setup paper width c#, excel page setup paper height c#
+description: Du kommer att upptäcka i den här artikeln hur man får Excel arket Sidlayout Pappersbredd och Papperens höjd med C# kod programmatiskt med .NET API eller Bibliotek.
+keywords: excel sidlayout pappersbredd c#, excel sidlayout papperens höjd c#
 ---
-##  **Möjliga användningsscenarier**
 
-Ibland behöver du veta bredden och höjden på pappersstorleken som den har ställts in i sidinställningarna i kalkylbladet. Vänligen använd[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)och[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)fastigheter för detta ändamål.
+## **Möjliga användningsscenario**
 
-##  **Få pappersbredd och höjd på sidinställningar för arbetsblad**
+Ibland behöver du veta bredd och höjd för pappersstorleken som har ställts in i sidlayouten för arket. Använd [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) och [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)-egenskaperna för detta ändamål.
 
- Följande exempelkod förklarar användningen av[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) och[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) egenskaper. Den ändrar först pappersstorleken till*A2*och sedan hittar papprets bredd och höjd, sedan ändras det till*A3*, *A4*, *Brev*och hittar bredd respektive höjd på papper.
+## **Hämta pappersbredd och höjd i sidinställningen för kalkylblad**
 
-###  **Exempelkod**
+Följande exempelkod förklarar användningen av [**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) och [**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)-egenskaperna. Det ändrar först pappersstorleken till *A2* och sedan hittar bredden och höjden för pappret, ändrar det sedan till *A3*, *A4*, *Brev* och hittar bredden och höjden för papperet respektive.
+
+### **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-GetPageDimensions.cs" >}}
 
-###  **Konsolutgång**
+### **Konsoloutput**
 
-Här är konsolutgången för ovanstående exempelkod.
+Här är konsoloutputen från ovanstående exempelkod.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 PaperA2: 16.54x23.39
 

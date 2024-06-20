@@ -1,16 +1,17 @@
-﻿---
-title: CRM 更新インポート ツールの拡張と提供
+---
+title: CRM更新インポートツールの拡張と貢献
 type: docs
 weight: 10
 url: /ja/net/extend-and-contribute-to-crm-update-import-tool/
 ---
-最新のソース コードは、次の場所からダウンロードできます。
+
+最新のソースコードを以下からダウンロードできます:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Plugins.UpdateImportTool).
 
-CRM から Excel へのデータのエクスポート
+CRMからExcelへのデータエクスポート
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
   SaveFileDialog fileDialog = new SaveFileDialog();
 
@@ -71,9 +72,9 @@ CRM から Excel へのデータのエクスポート
 
 {{< /highlight >}}
 
-Excel から CRM へのデータのインポート
+ExcelからCRMへのデータインポート
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
   if (ctrl.CrmConnectionMgr != null && ctrl.CrmConnectionMgr.CrmSvc != null && ctrl.CrmConnectionMgr.CrmSvc.IsReady)
 

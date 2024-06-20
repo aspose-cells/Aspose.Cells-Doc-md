@@ -1,31 +1,34 @@
-﻿---
-title: تصدير ملف إكسل Microsoft
+---
+title: تصدير ملف Microsoft Excel
 type: docs
 weight: 50
-url: /ar/net/export-microsoft-excel-file/
+url: /ar/net/aspose-cells-gridweb/export-microsoft-excel-file/
+keywords: GridWeb، تصدير
+description: يقدم هذا المقال كيفية تصدير الملف في GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-من الممكن إنشاء ملفات Excel جديدة أو معالجة Microsoft موجودة ، على مواقع الويب في وضع واجهة المستخدم الرسومية باستخدام Aspose.Cells.GridWeb control. يمكن بعد ذلك حفظ الملفات في ملفات Excel. Aspose.Cells.GridWeb يعمل بشكل فعال كمحرر جداول بيانات على الإنترنت. يصف هذا الموضوع كيفية حفظ محتوى الشبكة في ملفات Excel.
+من الممكن إنشاء ملفات Microsoft Excel جديدة أو تلاعب الملفات الحالية على مواقع الويب في وضع واجهة المستخدم الرسومية باستخدام عنصر تحكم Aspose.Cells.GridWeb. يمكن حفظ الملفات ثم في ملفات Excel. يعمل Aspose.Cells.GridWeb بشكل فعال كمحرر جداول بيانات عبر الإنترنت. يصف هذا الموضوع كيفية حفظ محتوى الجدول في ملفات Excel.
 
 {{% /alert %}} 
 ## **تصدير ملفات Excel**
 ### **تصدير كملف**
-لحفظ محتوى عنصر تحكم Aspose.Cells.GridWeb كملف Excel:
+لحفظ محتوى عنصر تحكم Aspose.Cells.GridWeb كملف إكسل:
 
-1. قم بإضافة عنصر تحكم Aspose.Cells.GridWeb إلى نموذج الويب الخاص بك.
-1. احفظ عملك كملف Excel في مسار محدد.
+1. أضف عنصر تحكم Aspose.Cells.GridWeb إلى نموذج الويب الخاص بك.
+1. احفظ عملك كملف إكسل في مسار محدد.
 1. قم بتشغيل التطبيق.
 
 {{% alert color="primary" %}} 
 
- إذا كنت لا تعرف كيفية إضافة Aspose.Cells.GridWeb control إلى نموذج الويب الخاص بك ، فعليك الرجوع إلى[أضف GridWeb إلى نموذج الويب](/cells/ar/net/add-gridweb-to-web-form/)
+إذا لم تكن تعرف كيفية إضافة عنصر تحكم Aspose.Cells.GridWeb إلى نموذج الويب الخاص بك، فيجب عليك الرجوع إلى [إضافة GridWeb إلى نموذج الويب](/cells/ar/net/aspose-cells-gridweb/add-gridweb-to-web-form/)
 
 {{% /alert %}} 
 
-عند إضافة عنصر تحكم ويب Aspose.Cells.GridWeb إلى نموذج windows ، يتم إنشاء عنصر التحكم تلقائيًا وإضافته إلى النموذج بالحجم الافتراضي. ليس عليك إنشاء عنصر تحكم Aspose.Cells.GridWeb ، كل ما عليك فعله هو سحب عنصر التحكم وإفلاته والبدء في استخدامه.
+عندما يتم إضافة عنصر تحكم Aspose.Cells.GridWeb إلى نموذج نافذة، يتم إنشاء العنصر تلقائيًا وإضافته إلى النموذج بحجم افتراضي. لا يلزمك إنشاء كائن عنصر تحكم Aspose.Cells.GridWeb، كل ما عليك فعله هو سحب العنصر التحكم وإفلاته وبدء استخدامه.
 
-يوضح مثال الكود أدناه كيفية حفظ محتوى الشبكة في ملف Excel.
+يوضح المثال البرمجي أدناه كيفية حفظ محتوى الجدول في ملف إكسل.
 
 
 
@@ -33,27 +36,27 @@ url: /ar/net/export-microsoft-excel-file/
 
 {{% alert color="primary" %}} 
 
-إذا كان نظام الملفات لديك هو NTFS ، امنح حق الوصول للقراءة / الكتابة إلى حسابات المستخدمين ASPNET أو Everyone أو ستحصل على استثناء مرفوض في وقت التشغيل.
+إذا كان نظام الملفات الخاص بك NTFS، قم بمنح صلاحيات القراءة/الكتابة لحسابات ASPNET أو الجميع، وإلا فسوف تواجه استثناء الوصول مرفوض أثناء التشغيل.
 
 {{% /alert %}} 
 
-يمكن استخدام مقتطف الشفرة أعلاه بعدة طرق. من الطرق الشائعة إضافة زر يحفظ محتوى الشبكة في ملف Excel عند النقر فوقه. Aspose.Cells.GridWeb يقدم طريقة أسهل للمهمة. Aspose.Cells.GridWeb له حدث يسمى SaveCommand. يمكن إضافة مقتطف الشفرة أعلاه إلى معالج الحدث SaveCommand والذي يسمح للمستخدمين بحفظ عملهم بالنقر فوق Aspose.Cells.GridWeb's المدمج**يحفظ** زر.
+يمكن استخدام مقتطف الكود أعلاه بعدة طرق. الطريقة الشائعة هي إضافة زر يقوم بحفظ محتوى الجدول في ملف إكسل عند النقر. عنصر تحكم Aspose.Cells.GridWeb يقدم نهجًا أسهل لهذه المهمة. يتوفر عنصر تحكم Aspose.Cells.GridWeb بحدث يسمى SaveCommand. يمكن إضافة مقتطف الكود أعلاه إلى معالج حدث SaveCommand مما يسمح للمستخدمين بحفظ عملهم عن طريق النقر على زر **حفظ** المدمج في Aspose.Cells.GridWeb.
 
-**حدث SaveCommand الخاص بـ GridWeb** 
+**حدث SaveCommand في GridWeb** 
 
-![ما يجب القيام به: image_بديل_نص](export-microsoft-excel-file_1.jpg)
+![todo:image_alt_text](export-microsoft-excel-file_1.jpg)
 
-**حفظ محتوى الشبكة في Excel عن طريق النقر فوق الزر حفظ المدمج في GridWeb** 
+**حفظ محتوى الجدول إلى Excel عن طريق النقر على زر الحفظ المدمج في GridWeb** 
 
-![ما يجب القيام به: image_بديل_نص](export-microsoft-excel-file_2.png)
+![todo:image_alt_text](export-microsoft-excel-file_2.png)
 
 {{% alert color="primary" %}} 
 
- إذا كنت تعمل في Visual Studio ، يمكنك بسهولة إنشاء معالج حدث SaveCommand الخاص بالحدث عن طريق النقر نقرًا مزدوجًا فوق الحدث في**ملكيات** جزء. لمعرفة المزيد حول هذا ، يرجى الرجوع إلى[العمل مع أحداث GridWeb](/cells/ar/net/working-with-gridweb-events/)
+إذا كنت تعمل في بيئة Visual Studio، يمكنك بسهولة إنشاء معالج حدث SaveCommand عن طريق النقر المزدوج على الحدث في لوحة الخصائص. لمعرفة المزيد حول هذا، يرجى الرجوع إلى [العمل مع أحداث GridWeb](/cells/ar/net/aspose-cells-gridweb/working-with-gridweb-events/)
 
 {{% /alert %}} 
-### **تصدير كتيار**
-من الممكن أيضًا حفظ محتوى الشبكة إلى دفق (على سبيل المثال MemoryStream).
+### **تصدير كمسار**
+من الممكن أيضًا حفظ محتوى الجدول في تدفق (على سبيل المثال MemoryStream).
 
 
 

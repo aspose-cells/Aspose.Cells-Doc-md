@@ -1,15 +1,16 @@
-﻿---
+---
 title: تشفير الملفات في PHP
 type: docs
 weight: 10
 url: /ar/net/encrypting-files-in-php/
 ---
-## **Aspose.Cells - تشفير ملفات Excel**
-تشفير ملف إكسل Microsoft
+
+## **Aspose.Cells - تشفير ملفات الإكسل**
+تشفير ملف Excel لمايكروسوفت
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -40,7 +41,7 @@ url: /ar/net/encrypting-files-in-php/
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**تشفير الملفات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **تشفير الملفات (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/EncryptingFiles.php)

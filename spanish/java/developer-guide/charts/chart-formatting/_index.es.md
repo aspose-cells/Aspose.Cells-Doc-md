@@ -1,232 +1,233 @@
-﻿---
-title: Formato de gráfico
+---
+title: Formato del gráfico
 type: docs
 weight: 20
 url: /es/java/chart-formatting/
 ---
-## **Configuración de la apariencia del gráfico**
 
- En[Tipos de gráficos](/cells/es/java/chart-types/), dimos una breve introducción a los tipos de gráficos y objetos de gráficos que ofrece Aspose.Cells.
+## **Configurar la apariencia del gráfico**
+
+En [Tipos de gráficos](/cells/es/java/chart-types/), dimos una breve introducción a los tipos de gráficos y objetos de gráficos ofrecidos por Aspose.Cells.
 
 En este artículo, discutimos cómo personalizar la apariencia de los gráficos configurando una serie de propiedades diferentes:
 
 - [Configuración del área del gráfico](/cells/es/java/chart-formatting/#setting-chart-area).
 - [Configuración de líneas de gráfico](/cells/es/java/chart-formatting/#setting-chart-lines).
 - [Aplicar temas](/cells/es/java/chart-formatting/#applying-microsoft-excel-20072010-themes-to-charts).
-- [Establecer títulos para gráficos y ejes](/cells/es/java/chart-formatting/#setting-the-titles-of-charts-or-axes).
+- [Configurar títulos para gráficos y ejes](/cells/es/java/chart-formatting/#setting-the-titles-of-charts-or-axes).
 - [Trabajar con líneas de cuadrícula](/cells/es/java/chart-formatting/#setting-major-gridlines).
-- [Configuración de bordes para paredes traseras y laterales](/cells/es/java/chart-formatting/#setting-borders-for-back-and-side-walls).
+- [Configurar bordes para paredes traseras y laterales](/cells/es/java/chart-formatting/#setting-borders-for-back-and-side-walls).
 
-### **Configuración del área del gráfico**
+### **Configurando el área del gráfico**
 
-Hay diferentes tipos de áreas en un gráfico y Aspose.Cells brinda la flexibilidad de modificar la apariencia de cada área. Los desarrolladores pueden aplicar diferentes configuraciones de formato en un área cambiando su color de primer plano, color de fondo y formato de relleno, etc.
+Hay diferentes tipos de áreas en un gráfico y Aspose.Cells proporciona la flexibilidad de modificar la apariencia de cada área. Los desarrolladores pueden aplicar diferentes configuraciones de formato en un área cambiando su color de primer plano, color de fondo y formato de relleno, etc.
 
-En el ejemplo que se muestra a continuación, hemos aplicado diferentes configuraciones de formato en diferentes tipos de áreas de un gráfico. Estas áreas incluyen:
+En el ejemplo dado a continuación, hemos aplicado diferentes configuraciones de formato en diferentes tipos de áreas de un gráfico. Estas áreas incluyen:
 
-- área de parcela
-- Área de gráfico
-- [**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) zona
-- El área de un solo punto en un[**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
+- Área de trazado
+- Área del gráfico
+- [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) área
+- El área de un solo punto en un [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
 
 Después de ejecutar el código de ejemplo, se agregará un gráfico de columnas a la hoja de trabajo como se muestra a continuación:
 
 **Un gráfico de columnas con áreas rellenas** 
 
-![todo:imagen_alternativa_texto](chart-formatting_1.png)
+![todo:image_alt_text](chart-formatting_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartArea-SettingChartArea.java" >}}
 
-### **Configuración de líneas de gráfico**
+### **Configurando las líneas del gráfico**
 
- Los desarrolladores también pueden aplicar diferentes tipos de estilos en las líneas o marcadores de datos del[**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)como se muestra a continuación en el ejemplo. Al ejecutar el código de ejemplo, se agrega un gráfico de columnas a la hoja de trabajo, como se muestra a continuación:
+Los desarrolladores también pueden aplicar diferentes tipos de estilos en las líneas o marcadores de datos del [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) como se muestra a continuación en el ejemplo. Al ejecutar el código de ejemplo, se agrega un gráfico de columnas a la hoja de trabajo como se muestra a continuación:
 
 **Gráfico de columnas después de aplicar estilos de línea** 
 
-![todo:imagen_alternativa_texto](chart-formatting_2.png)
+![todo:image_alt_text](chart-formatting_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartLines-SettingChartLines.java" >}}
 
-### **Aplicar Microsoft temas de Excel 2007/2010 a los gráficos**
+### **Aplicando temas de Microsoft Excel 2007/2010 a gráficos**
 
-Los desarrolladores pueden aplicar diferentes Microsoft temas y colores de Excel al[**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)u otros objetos del gráfico, como se muestra en el siguiente ejemplo.
+Los desarrolladores pueden aplicar diferentes temas y colores de Microsoft Excel al [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) u otros objetos de gráficos como se muestra en el ejemplo a continuación.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
-### **Configuración de los títulos de gráficos o ejes**
+### **Configuración de los Títulos de Gráficos o Ejes**
 
-Puede usar Microsoft Excel para configurar los títulos de un gráfico y sus ejes en un entorno WYSIWYG como se muestra a continuación.
+Puedes usar Microsoft Excel para establecer los títulos de un gráfico y sus ejes en un entorno WYSIWYG como se muestra a continuación.
 
-**Establecer títulos de un gráfico y sus ejes usando Microsoft Excel** 
+**Configuración de títulos de un gráfico y sus ejes utilizando Microsoft Excel** 
 
-![todo:imagen_alternativa_texto](chart-formatting_3.png)
+![todo:image_alt_text](chart-formatting_3.png)
 
- Aspose.Cells también permite a los desarrolladores establecer los títulos de un gráfico y sus ejes en tiempo de ejecución. Todos los gráficos y sus ejes contienen un[**Título.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)método que se puede utilizar para establecer sus títulos como se muestra a continuación en un ejemplo. Después de ejecutar el código de ejemplo, se agregará un gráfico de columnas a la hoja de trabajo como se muestra a continuación:
+Aspose.Cells también permite a los desarrolladores establecer los títulos de un gráfico y sus ejes en tiempo de ejecución. Todos los gráficos y sus ejes contienen un método [**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text) que se puede usar para establecer sus títulos como se muestra en el siguiente ejemplo. Después de ejecutar el código de ejemplo, se agregará un gráfico de columnas a la hoja de cálculo como se muestra a continuación:
 
-**Gráfico de columnas después de configurar títulos** 
+**Gráfico de columnas después de establecer los títulos** 
 
-![todo:imagen_alternativa_texto](chart-formatting_4.png)
+![todo:image_alt_text](chart-formatting_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingTitlesAxes-SettingTitlesAxes.java" >}}
 
-### **Configuración de líneas de cuadrícula principales**
+### **Configuración de Líneas de Rejilla Principales**
 
 #### **Ocultar líneas de cuadrícula principales**
 
- Los desarrolladores pueden controlar la visibilidad de las principales líneas de cuadrícula mediante el[**conjuntoVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible) metodo de la[**Línea**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)objeto. Después de ocultar las líneas de cuadrícula principales, un gráfico de columnas agregado a la hoja de trabajo tiene la siguiente apariencia:
+Los desarrolladores pueden controlar la visibilidad de las líneas de rejilla principales mediante el uso del método [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible) del objeto [**Line**](https://reference.aspose.com/cells/java/com.aspose.cells/Line). Después de ocultar las líneas de rejilla principales, un gráfico de columnas agregado a la hoja de cálculo tendrá el siguiente aspecto:
 
-**Un gráfico de columnas con líneas de cuadrícula principales ocultas** 
+**Un gráfico de columnas con líneas de rejilla principales ocultas** 
 
-![todo:imagen_alternativa_texto](chart-formatting_5.png)
+![todo:image_alt_text](chart-formatting_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-MajorGridlines-1.java" >}}
 
-#### **Cambio de la configuración de las líneas de cuadrícula principales**
+#### **Cambiando la configuración de las líneas de cuadrícula principales**
 
-Los desarrolladores no solo pueden controlar la visibilidad de las principales líneas de cuadrícula, sino también otras propiedades, incluido su color, etc. Después de establecer el color de las principales líneas de cuadrícula, un gráfico de columnas agregado a la hoja de trabajo tendrá la siguiente apariencia:
+Los desarrolladores no solo pueden controlar la visibilidad de las líneas de rejilla principales, sino también otras propiedades como su color, etc. Después de establecer el color de las líneas de rejilla principales, un gráfico de columnas agregado a la hoja de cálculo tendrá el siguiente aspecto:
 
-**Gráfico de columnas con líneas de cuadrícula principales coloreadas** 
+**Gráfico de columnas con líneas de rejilla principales coloreadas** 
 
-![todo:imagen_alternativa_texto](chart-formatting_6.png)
+![todo:image_alt_text](chart-formatting_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-ChangingMajorGridlines-1.java" >}}
 
-### **Configuración de bordes para paredes traseras y laterales**
+### **Configuración de Bordes para Paredes Delanteras y Laterales**
 
- Desde el lanzamiento de Microsoft Excel 2007, las paredes de un gráfico 3D se han dividido en dos partes: pared lateral y pared trasera, por lo que tenemos que usar dos[**Paredes**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) objetos para representarlos por separado y puede acceder a ellos usando[**Gráfico.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) y[**Gráfico.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall).
+Desde el lanzamiento de Microsoft Excel 2007, las paredes de un gráfico 3D se han dividido en dos partes: pared lateral y pared trasera, por lo que tenemos que usar dos objetos [**Walls**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) para representarlas por separado y puedes acceder a ellas mediante [**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) y [**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall).
 
-El ejemplo que se muestra a continuación muestra cómo establecer el borde de la pared lateral usando diferentes atributos.
+El ejemplo a continuación muestra cómo establecer el borde de la pared lateral utilizando diferentes atributos.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-SettingBorders-1.java" >}}
 
-## **Cambiar la posición y el tamaño del gráfico**
+## **Cambiar la Posición y el Tamaño del Gráfico**
 
- A veces, desea cambiar la posición o el tamaño del gráfico nuevo o existente dentro de la hoja de trabajo. Aspose.Cells proporciona el[**Gráfico.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)propiedad para lograrlo. Puede usar sus subpropiedades para cambiar el tamaño del gráfico con nuevos**altura** y**ancho** o reubicarlo con nuevo** X** y**Coordenadas Y**.
+A veces, quieres cambiar la posición o tamaño del gráfico nuevo o existente dentro de la hoja de cálculo. Aspose.Cells proporciona la propiedad [**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject) para lograr esto. Puedes usar sus subpropiedades para cambiar el tamaño del gráfico con una nueva **altura** y **ancho** o reposicionarlo con nuevas coordenadas **X** y **Y**.
 
-### **Modificación de la posición y el tamaño del gráfico**
+### **Modificación de la Posición y el Tamaño del Gráfico**
 
-Para cambiar la posición del gráfico (coordenadas X, Y) y el tamaño (alto, ancho), use estas propiedades:
+Para cambiar la posición (coordenadas X, Y) y el tamaño (altura, ancho) del gráfico, usa estas propiedades:
 
-1. [**Gráfico.getChartObject().get/setWidth()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Width)
-1. [**Gráfico.getChartObject().get/setHeight()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Height)
-1. [**Gráfico.getChartObject().get/setX()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#X)
-1. [**Gráfico.getChartObject().get/setY()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Y)
+1. [**Chart.getChartObject().get/setWidth()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Width)
+1. [**Chart.getChartObject().get/setHeight()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Height)
+1. [**Chart.getChartObject().get/setX()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#X)
+1. [**Chart.getChartObject().get/setY()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Y)
 
-El siguiente ejemplo explica el uso de las propiedades anteriores. Carga el libro de trabajo existente que contiene un gráfico en su primera hoja de trabajo. Luego, cambia el tamaño y la posición del gráfico y guarda el libro de trabajo.
+El siguiente ejemplo explica el uso de las propiedades anteriores. Carga el libro de trabajo existente que contiene un gráfico en su primera hoja de trabajo. Luego redimensiona y reposiciona el gráfico y guarda el libro de trabajo.
 
-Antes de la ejecución del código de muestra, el archivo fuente se ve así:
+Antes de la ejecución del código de ejemplo, el archivo fuente se ve así:
 
-**Tamaño y posición del gráfico antes de la ejecución del código de muestra** 
+**Tamaño y posición del gráfico antes de la ejecución del código de ejemplo** 
 
-![todo:imagen_alternativa_texto](chart-formatting_7.png)
+![todo:image_alt_text](chart-formatting_7.png)
 
 Después de la ejecución, el archivo de salida se ve así:
 
-**Tamaño y posición del gráfico después de la ejecución del código de muestra** 
+**Tamaño y posición del gráfico después de la ejecución del código de ejemplo** 
 
-![todo:imagen_alternativa_texto](chart-formatting_8.png)
+![todo:image_alt_text](chart-formatting_8.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChangeChartPositionAndSize-ChangeChartPositionAndSize.java" >}}
 
 ## **Manipulación de gráficos de diseñador**
 
-Hay un momento en el que es posible que necesite manipular o modificar los gráficos en los archivos de plantilla de su diseñador. Aspose.Cells es totalmente compatible con la manipulación de gráficos de diseño con sus contenidos y elementos. Los datos, el contenido del gráfico, la imagen de fondo y el formato se pueden conservar con precisión.
+Hay momentos en los que es posible que necesite manipular o modificar los gráficos en sus archivos de plantilla de diseñador. Aspose.Cells da soporte total para manipular gráficos de diseñador con sus contenidos y elementos. Los datos, contenidos del gráfico, imagen de fondo y formato se pueden conservar con precisión.
 
-### **Manipulación de gráficos de Designer en los archivos de plantilla**
+### **Manipulación de gráficos de diseñador en los archivos de plantilla**
 
- Para manipular gráficos de diseñador en un archivo de plantilla, use todas las llamadas relacionadas con gráficos API. Por ejemplo, use[**Hoja de trabajo.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts) propiedad para obtener la colección de gráficos existente en el archivo de plantilla.
+Para manipular gráficos de diseñador en un archivo de plantilla, utilice todas las llamadas a la API relacionadas con el gráfico. Por ejemplo, use la propiedad [**Worksheet.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts) para obtener la colección de gráficos existente en el archivo de plantilla.
 
-#### **Crear un gráfico**
+#### **Creación de un gráfico**
 
-El siguiente ejemplo muestra cómo crear un gráfico circular. Manipularemos este gráfico más adelante. El siguiente resultado es generado por el código.
+El siguiente ejemplo muestra cómo crear un gráfico circular. Más adelante manipularemos este gráfico. El siguiente resultado es generado por el código.
 
 **El gráfico circular de entrada** 
 
-![todo:imagen_alternativa_texto](chart-formatting_9.png)
+![todo:image_alt_text](chart-formatting_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
 #### **Manipulación del gráfico**
 
-El siguiente ejemplo muestra cómo manipular el gráfico existente. En este ejemplo modificamos el gráfico creado anteriormente. El siguiente resultado es generado por el código. Tenga en cuenta que el color del título del gráfico ha cambiado de azul a negro y que 'Inglaterra 30000' se ha cambiado a 'Reino Unido, 30K'.
+El siguiente ejemplo muestra cómo manipular el gráfico existente. En este ejemplo, modificamos el gráfico creado previamente. El siguiente resultado es generado por el código. Tenga en cuenta que el color del título del gráfico ha cambiado de azul a negro y 'Inglaterra 30000' se ha cambiado a 'Reino Unido, 30K'.
 
-**El gráfico circular ha sido modificado.** 
+**El gráfico circular ha sido modificado** 
 
-![todo:imagen_alternativa_texto](chart-formatting_10.png)
+![todo:image_alt_text](chart-formatting_10.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyPieChart-ModifyPieChart.java" >}}
 
-#### **Manipulación de un gráfico de líneas en la plantilla del diseñador**
+#### **Manipulación de un gráfico de líneas en la plantilla de diseñador**
 
 En este ejemplo, manipularemos un gráfico de líneas. Agregaremos algunas series de datos al gráfico existente y cambiaremos sus colores de línea.
 
-Primero, eche un vistazo al gráfico de líneas del diseñador.
+Primero, echa un vistazo al gráfico de líneas del diseñador.
 
 **El gráfico de líneas de entrada** 
 
-![todo:imagen_alternativa_texto](chart-formatting_11.png)
+![todo:image_alt_text](chart-formatting_11.png)
 
- Ahora manipulamos el gráfico de líneas (que está contenido en el**gráfico de líneas.xls** archivo) usando el siguiente código. El siguiente resultado es generado por el código.
+Ahora manipulamos el gráfico de líneas (que se encuentra en el archivo **linechart.xls**) usando el siguiente código. La siguiente salida es generada por el código.
 
 **El gráfico de líneas manipulado** 
 
-![todo:imagen_alternativa_texto](chart-formatting_12.png)
+![todo:image_alt_text](chart-formatting_12.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyLineChart-ModifyLineChart.java" >}}
 
-## **Uso de minigráficos**
+## **Usando Sparklines**
 
-Microsoft Excel 2010 puede analizar la información de más formas que nunca. Permite a los usuarios rastrear y resaltar tendencias de datos importantes con nuevas herramientas de visualización y análisis de datos. Los minigráficos son minigráficos que puede colocar dentro de las celdas para poder ver los datos y el gráfico en la misma tabla. Cuando los minigráficos se utilizan correctamente, el análisis de datos es más rápido y más preciso. También brindan una vista simple de la información, evitando hojas de trabajo abarrotadas con muchos gráficos ocupados.
+Microsoft Excel 2010 puede analizar la información de más maneras que nunca. Permite a los usuarios realizar un seguimiento y resaltar tendencias importantes de datos con nuevas herramientas de análisis y visualización de datos. Las sparklines son mini gráficos que se pueden colocar dentro de las celdas para que puedas ver los datos y el gráfico en la misma tabla. Cuando se usan sparklines de manera adecuada, el análisis de datos es más rápido y preciso. También proporcionan una vista simple de la información, evitando hojas de cálculo sobrecargadas con una gran cantidad de gráficos ocupados.
 
-Aspose.Cells proporciona un API para manipular minigráficos en hojas de cálculo.
+Aspose.Cells proporciona una API para manipular sparklines en hojas de cálculo.
 
-### **Minigráficos en Microsoft Excel**
+### **Sparklines en Microsoft Excel**
 
-Para insertar minigráficos en Microsoft Excel 2010:
+Para insertar sparklines en Microsoft Excel 2010:
 
-1. Seleccione las celdas donde desea que aparezcan los minigráficos. Para que sean fáciles de ver, seleccione celdas al lado de los datos.
-1.  Hacer clic**Insertar** en la cinta y luego elija**columna** en el**minigráficos** grupo.
+1. Selecciona las celdas donde quieres que aparezcan las sparklines. Para que sean fáciles de ver, selecciona las celdas al lado de los datos.
+1. Haz clic en **Insertar** en la cinta y luego elige **columna** en el grupo de **Sparklines**.
 
-![todo:imagen_alternativa_texto](chart-formatting_13.png)
+![todo:image_alt_text](chart-formatting_13.png)
 
-1. Seleccione o ingrese el rango de celdas en la hoja de cálculo que contiene los datos de origen.
- Aparecen los gráficos.
+1. Selecciona o ingresa el rango de celdas en la hoja de cálculo que contenga los datos fuente.
+   Los gráficos aparecen.
 
-Los minigráficos lo ayudan a ver tendencias, por ejemplo, o el registro de victorias o derrotas de una liga de softbol. Los minigráficos pueden incluso resumir la temporada completa de cada equipo de la liga.
+Las sparklines te ayudan a ver tendencias, por ejemplo, el récord de victorias o derrotas de una liga de softbol. Las sparklines incluso pueden resumir toda la temporada de cada equipo en la liga.
 
-![todo:imagen_alternativa_texto](chart-formatting_14.png)
+![todo:image_alt_text](chart-formatting_14.png)
 
-### **Minigráficos usando Aspose.Cells**
+### **Sparklines usando Aspose.Cells**
 
-Los desarrolladores pueden crear, eliminar o leer minigráficos (en el archivo de plantilla) utilizando el API proporcionado por Aspose.Cells. Al agregar gráficos personalizados para un rango de datos determinado, los desarrolladores tienen la libertad de agregar diferentes tipos de gráficos diminutos a áreas de celdas seleccionadas.
+Los desarrolladores pueden crear, eliminar o leer sparklines (en el archivo de plantilla) usando la API proporcionada por Aspose.Cells. Al agregar gráficos personalizados para un rango de datos dado, los desarrolladores tienen la libertad de agregar diferentes tipos de pequeños gráficos a áreas de celdas seleccionadas.
 
-El siguiente ejemplo demuestra la función Minigráficos. El ejemplo muestra cómo:
+El siguiente ejemplo demuestra la función de Sparklines. El ejemplo muestra cómo:
 
-1. Abra un archivo de plantilla simple.
-1. Leer información de minigráficos para una hoja de trabajo.
-1. Agregue nuevos minigráficos para un rango de datos dado a un área de celda.
-1. Guarda el archivo de Excel en el disco.
+1. Abrir un archivo de plantilla simple.
+1. Leer la información de sparklines para una hoja de cálculo.
+1. Agregar nuevas miniaturas para un rango de datos dado a un área de celdas.
+1. Guardar el archivo de Excel en disco.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-UsingSparklines-UsingSparklines.java" >}}
 
-## **Aplicar formato 3D al gráfico**
+## **Aplicación de formato 3D al gráfico**
 
-Es posible que necesite estilos de gráficos en 3D para poder obtener solo los resultados de su escenario. Las API Aspose.Cells proporcionan el API relevante para aplicar el formato 3D Microsoft de Excel 2007 como se muestra en este artículo.
+Es posible que necesite estilos de gráficos en 3D para obtener solo los resultados necesarios para su escenario. Las API de Aspose.Cells proporcionan la API relevante para aplicar el formato 3D de Microsoft Excel 2007, como se demuestra en este artículo.
 
-### **Configuración del formato 3D en el gráfico**
+### **Estableciendo formato 3D al gráfico**
 
-continuación se proporciona un ejemplo completo para demostrar cómo crear un gráfico y aplicar el formato 3D Microsoft Excel 2007. Después de ejecutar el código de ejemplo anterior, se agregará un gráfico de columnas (con efectos 3D) a la hoja de trabajo, como se muestra a continuación.
+A continuación se proporciona un ejemplo completo para demostrar cómo crear un gráfico y aplicar el formato 3D de Microsoft Excel 2007. Después de ejecutar el código de ejemplo anterior, se agregará un gráfico de columnas (con efectos 3D) a la hoja de cálculo como se muestra a continuación.
 
 **Un gráfico de columnas con formato 3D**
 
-![todo:imagen_alternativa_texto](chart-formatting_15.png)
+![todo:image_alt_text](chart-formatting_15.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-Applying3DFormat-Applying3DFormat.java" >}}
 
 {{% alert color="primary" %}}
 
- Para obtener una lista completa de los gráficos 2D y 3D compatibles, consulte[Tipos de gráficos admitidos para la representación](/cells/es/java/chart-rendering/#supported-chart-types-for-rendering).
+Para obtener una lista completa de los tipos de gráficos 2D y 3D admitidos, consulte [Tipos de gráficos admitidos para renderizar](/cells/es/java/chart-rendering/#supported-chart-types-for-rendering).
 
 {{% /alert %}}
 
 ## **Temas avanzados**
-- [Establecer imagen como fondo Rellenar el gráfico](/cells/es/java/set-picture-as-background-fill-in-the-chart/)
+- [Establecer una imagen como relleno de fondo en el gráfico](/cells/es/java/set-picture-as-background-fill-in-the-chart/)

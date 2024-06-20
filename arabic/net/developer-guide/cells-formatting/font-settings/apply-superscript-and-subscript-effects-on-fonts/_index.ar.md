@@ -1,27 +1,28 @@
-﻿---
-title: تطبيق تأثيرات الكتابة المرتفعة والمنخفضة على الخطوط
+---
+title: تطبيق تأثيرات فوق السطر وتحت السطر على الخطوط
 type: docs
 weight: 80
 url: /ar/net/apply-superscript-and-subscript-effects-on-fonts/
-description: الكود C# لتطبيق التأثير المرتفع والمنخفض على النص في Excel باستخدام Aspose.Cells for .NET API.
-keywords: excel superscript c#, excel subscript c#, excel superscript and subscript c#, insert subscript and superscript in excel c#, add subscript and superscript in excel c#, add superscript and subscript excel c#, add superscript excel c#, add subscript excel c#
+description: شيفرة C# لتطبيق تأثيرات حرف فوقي وحرف تحتي على نص في إكسل باستخدام واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: إكسل فوقي الخط سي شارب، إكسل تحتي الخط سي شارب، إكسل فوقي وتحتي الخط سي شارب، إدراج تحتي وفوقي الخط في إكسل سي شارب، إضافة تحتي وفوقي الخط في إكسل سي شارب، إضافة فوقي وتحتي الخط إكسل سي شارب، إضافة فوقي اكسل سي شارب، إضافة تحتي اكسل سي شارب
 ---
+
 {{% alert color="primary" %}}
 
-يوفر Aspose.Cells الوظيفة لتطبيق تأثيرات الكتابة المرتفعة (النص أعلى الخط الأساسي) والتأثيرات المنخفضة (النص الموجود أسفل الخط الأساسي) على النص.
+توفر Aspose.Cells الوظيفة لتطبيق تأثيرات فوق السطر (نص فوق الخط الأساسي) وتحت السطر (نص تحت الخط الأساسي) على النص.
 
 {{% /alert %}}
 
-## **العمل مع مرتفع و منخفض**
+## **العمل مع تأثير فوق السطر وتحت السطر**
 
- قم بتطبيق التأثير المرتفع عن طريق تعيين[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/font) أشياء[**هو مرتفع**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) ملكية ل**حقيقي** . لتطبيق منخفض ، قم بتعيين[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/font) أشياء[**IsSubscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) ملكية ل**حقيقي**.
+تطبيق تأثير الحرف الفوقي عن طريق ضبط [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) خاصية الكائن [**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) إلى **صحيح**. لتطبيق التحتي، قم بتعيين خاصية [**IsSubscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) للكائن [**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) إلى **صحيح**.
 
-توضح أمثلة التعليمات البرمجية التالية كيفية تطبيق سوبر ومكتوب على النص.
+تظهر أمثلة الشيفرة التالية كيفية تطبيق حالة فوقية وتحتية على النص.
 
-### كود C# لتطبيق تأثير Superscript على النص
+### شيفرة C# لتطبيق تأثير فوقي على النص
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSuperscripteffect-1.cs" >}}
 
-### C# كود لتطبيق تأثير Subscript على النص
+### شيفرة C# لتطبيق تأثير تحتي على النص
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ApplySuperscriptAndSubscript-SettingSubscriptEffect-1.cs" >}}

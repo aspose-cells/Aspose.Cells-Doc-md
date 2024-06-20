@@ -1,17 +1,18 @@
-﻿---
-title: Stampa di cartelle di lavoro utilizzando Aspose.Cells
+---
+title: Stampare Cartelle di Lavoro utilizzando Aspose.Cells
 type: docs
 weight: 20
 url: /it/java/printing-workbooks-using-aspose-cells/
 ---
-## **Aspose.Cells - Stampa Quaderni**
-Dopo aver finito di creare il tuo foglio di calcolo, probabilmente vorrai stampare una copia cartacea del foglio per le tue necessità. Quando si stampa, MS Excel presuppone che si desideri stampare l'intera area del foglio di lavoro a meno che non si specifichi la selezione.
 
-Foglio di lavoro per la stampa
+## **Aspose.Cells - Stampa dei workbook**
+Dopo aver terminato la creazione del foglio di lavoro, probabilmente vorrai stampare una copia cartacea del foglio per le tue esigenze. Durante la stampa, MS Excel presume che si voglia stampare l'intera area del foglio di lavoro a meno che non si specifichi la selezione.
+
+Stampa del foglio di lavoro
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,11 +36,11 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 
-Cartella di lavoro di stampa
+Stampare Cartella di Lavoro
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a WorkbookRender object with respect to your workbook
 
@@ -52,12 +53,12 @@ wr.toPrinter("Samsung ML-1520 Series");
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/print/AsposePrintWorkbook.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/print/AsposePrintWorkbook.java)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Stampa di cartelle di lavoro](/cells/it/java/printing-workbooks).
+Per maggiori dettagli, visita [Stampa dei Quaderni](/cells/it/java/printing-workbooks).
 
 {{% /alert %}}

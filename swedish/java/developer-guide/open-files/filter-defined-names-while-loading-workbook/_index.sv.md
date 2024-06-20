@@ -1,16 +1,17 @@
-﻿---
+---
 title: Filtrera definierade namn när arbetsboken laddas
 type: docs
 weight: 50
 url: /sv/java/filter-defined-names-while-loading-workbook/
 ---
-## **Möjliga användningsscenarier**
 
-Aspose.Cells låter dig filtrera eller ta bort definierade namn som finns i arbetsboken. Snälla använd[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)för att ladda definierade namn och använda ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)för att ta bort dem medan du laddar arbetsboken. Observera att om du tar bort definierade namn kan formler i arbetsboken gå sönder.
+## **Möjliga användningsscenario**
 
-## **Filtrera definierade namn när arbetsboken laddas**
+Aspose.Cells tillåter dig att filtrera eller ta bort definierade namn som finns i arbetsboken. Använd [**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES) för att ladda de definierade namnen och använd ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES) för att ta bort dem när du laddar arbetsboken. Observera att om du tar bort definierade namn kan formler inne i arbetsboken brytas.
 
-Följande exempelkod laddar[exempel på Excel-fil](61767873.xlsx)som har en formel i cell C1 som innehåller de definierade namnen, dvs*=SUMMA(Mitt Namn1, Mitt Namn2)*. Eftersom vi använder ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)för att ta bort de definierade namnen när du laddar arbetsboken, formeln i cell C1 in[utdata Excel-fil](61767872.xlsx)bryter upp och du ser*#NAME?*istället. Se följande skärmdump som visar effekten av koden på exemplet på Excel-filen.
+## **Filtrera Definierade namn vid inläsning av arbetsbok**
+
+Följande exempelkod laddar [sample Excel fil](61767873.xlsx) som har en formel i cell C1 som innehåller de definerade namnen det vill säga *=SUM(MyName1, MyName2)*. Eftersom vi använder ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES) för att ta bort de definierade namnen vid inläsningen av arbetsboken, bryts formeln i cell C1 i [output Excel fil](61767872.xlsx) upp och du ser *#NAME?* istället. Se följande skärmdump som visar effekten av koden på den exempel Excel filen.
 
 ![todo:image_alt_text](filter-defined-names-while-loading-workbook_1.png)
 

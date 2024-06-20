@@ -1,30 +1,31 @@
-﻿---
-title: أضف ارتباطات تشعبية إلى Cells في VSTO و Aspose.Cells
+---
+title: إضافة ارتباطات تشعبية للخلايا في VSTO و Aspose.Cells
 type: docs
 weight: 20
 url: /ar/net/add-hyperlinks-to-cells-in-vsto-and-aspose-cells/
 ---
-لإضافة ارتباطات تشعبية إلى خلايا في جدول بيانات ، اتبع الخطوات التالية:
 
-1.  قم بإعداد ورقة العمل:
- 1. إنشاء كائن تطبيق. (VSTO فقط.)
- 1. إضافة مصنف.
- 1. احصل على الورقة الأولى.
- 1. أضف نصًا إلى الخلايا التي ستضيف ارتباطًا تشعبيًا إليها.
-1. أضف ارتباط تشعبي.
-1. احفظ المستند.
+لإضافة ارتباطات تشعبية للخلايا في ورق جدول بيانات، اتبع الخطوات التالية:
 
-يتم عرض هذه الخطوات في أمثلة التعليمات البرمجية أدناه. توضح الأمثلة الأولى كيفية استخدام VSTO مع C# لإضافة ارتباط تشعبي إلى خلية. توضح الأمثلة التالية كيفية القيام بنفس الشيء باستخدام Aspose.Cells for .NET ، مرة أخرى باستخدام C#.
+1. إعداد الورقة العمل: 
+   1. قم بتثبيت كائن التطبيق. (VSTO فقط.)
+   1. أضف كتاب عمل.
+   1. احصل على الورقة الأولى.
+   1. أضف نصًا إلى الخلايا التي ستضيف ارتباطًا تشعبيًا لها.
+1. أضف ارتباطًا تشعبيًا.
+1. حفظ المستند.
 
-تنشئ نماذج التعليمات البرمجية ملف Excel يحتوي على ارتباط تشعبي في الخلية A1 في ورقة العمل الأولى.
+يتم عرض هذه الخطوات في أمثلة الكود أدناه. تُظهر الأمثلة الأولى كيفية استخدام VSTO باستخدام إما C# لإضافة ارتباط تشعبي إلى خلية. الأمثلة التي تليها تُظهر كيفية فعل نفس الشيء باستخدام Aspose.Cells for .NET، مرة أخرى باستخدام C#.
 
-![ما يجب القيام به: image_بديل_نص](picture1.png)
+تقوم عينات الرمز بإنشاء ملف Excel يحتوي على رابط تشعبي في الخلية A1 على ورقة العمل الأولى.
 
-تمت إضافة ارتباط تشعبي إلى الخلية A1.
+![todo:image_alt_text](picture1.png)
+
+يتم إضافة رابط تشعبي إلى الخلية A1.
 
 ## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -60,7 +61,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook object.
 
@@ -88,8 +89,8 @@ workbook.Save("Hyperlink_test.xls");
 
 {{< /highlight >}}
 
-## **تنزيل نموذج التعليمات البرمجية**
+## **تحميل رمز عينة**
 
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
-- [سورس فورج](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip / تنزيل)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).أَزِيز)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip)

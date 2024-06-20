@@ -1,36 +1,37 @@
 ---
-title: HTML'i PDF'e Dönüştürme
+title: HTML i PDF e nasıl dönüştürülür
 type: docs
 weight: 80
 url: /tr/python-net/convert-html-to-pdf/
-description: Bu konu, Aspose.Cells for Python'i kullanarak NET'i kullanarak HTML'i PDF saveformat'a ve MHTML'i PDF saveformat'a nasıl dönüştüreceğinizi gösterir.
-keywords: convert HTML to PDF saveformat and MHTML to PDF saveformat.
+description: Bu konu, Aspose.Cells Python via NET kullanarak HTML yi PDF kayıt biçimi ve MHTML yi PDF kayıt biçimi olarak nasıl dönüştüreceğinizi göstermektedir.
+keywords: HTML yi PDF kayıt biçimi ve MHTML yi PDF kayıt biçimine dönüştürme.
 ---
-##  **Genel Bakış**
-<b>Aspose.Cells for Python NET aracılığıyla</b> web sayfalarından PDF dosyası ve uygulamalarınızda ham HTML kodu oluşturmanıza olanak sağlayan profesyonel bir çözümdür.
 
- Bu makalede nasıl yapılacağı açıklanmaktadır<b>HTML'i PDF'e dönüştür</b>. Aşağıdaki konuları kapsamaktadır.
+## **Genel Bakış**
+<b>Aspose.Cells for Python via NET</b> is a professional solution that allows you to generate PDF files from web pages and raw HTML code in your applications. 
+
+This article explains how to <b>HTML'i PDF'e dönüştür</b>. It covers the following topics.
 
 <ul>
-<li><a href="#python-convert-html-to-pdf">Python via NET HTML ila PDF</a></li>
-<li><a href="#python-convert-html-to-pdf">Python via NET HTML'i PDF'e dönüştür</a></li>
-<li><a href="#python-convert-html-to-pdf">Python via NET HTML'i PDF'e nasıl dönüştürebilirim?</a></li>
+<li><a href="#python-convert-html-to-pdf">Python via NET HTML'yi PDF'ye dönüştürme</a></li>
+<li><a href="#python-convert-html-to-pdf">Python via NET HTML'yi PDF'ye Dönüştürme</a></li>
+<li><a href="#python-convert-html-to-pdf">Python via NET HTML'yi PDF'ye Dönüştürme Nasıl Yapılır</a></li>
 </ul>
 
-##  **HTML ila PDF Python'de dönüştürme**
- HTML'i PDF'e nasıl dönüştürebilirim? İle[Aspose.Cells for Python NET aracılığıyla](https://pypi.org/project/aspose-cells-python/) Kütüphanede, birkaç satır kodla HTML'i programlı olarak PDF'e kolayca dönüştürebilirsiniz. Aspose.Cells for Python aracılığıyla NET, tüm Excel dosyalarını oluşturma, değiştirme, dönüştürme, işleme ve yazdırma becerisine sahip çapraz platform uygulamaları oluşturma yeteneğine sahiptir.
+## **Python'da HTML'den PDF'ye Dönüşüm**
+HTML'yi PDF'ye nasıl dönüştürülür? [Aspose.Cells Python via NET](https://pypi.org/project/aspose-cells-python/) kütüphanesi ile HTML'yi bazı kod satırlarıyla programatik olarak kolayca PDF'ye dönüştürebilirsiniz. Aspose.Cells Python via NET, tüm Excel dosyalarını üretme, değiştirme, dönüştürme, oluşturma ve yazdırma yeteneğine sahip olan çok platformlu uygulamalar oluşturabilir.
 
-##  **Python HTML'i PDF'e dönüştür**
-Aşağıdaki C# kod örneği, HTML belgesinin PDF belgesine nasıl dönüştürüleceğini gösterir.[Aspose.Cells for Python NET aracılığıyla](https://pypi.org/project/aspose-cells-python/).
+## **Python HTML'yi PDF'ye Dönüştürme**
+Aşağıdaki C# kod örneği, bir HTML belgesini [Aspose.Cells Python via NET](https://pypi.org/project/aspose-cells-python/) kullanarak PDF'ye dönüştürmenin nasıl yapıldığını göstermektedir.
 
-1.  Bir örneğini oluşturun[HtmlLoadOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/) sınıf.
-1.  Başlat[Çalışma kitabı](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) nesne.
+1. [HtmlLoadOptions](https://reference.aspose.com/cells/python-net/aspose.cells/htmlloadoptions/) sınıfının bir örneği oluşturun.
+1. [Workbook](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/) nesnesini başlatın.
 1. Workbook.save() yöntemini çağırarak çıktı PDF belgesini kaydedin.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-save-to-pdf.py" >}}
 
-##  **HTML'i çevrimiçi olarak PDF'e dönüştürmeyi deneyin**
+## **HTML'i PDF'e çevirmeyi deneyin**
 
-[Aspose.Cells for Python NET aracılığıyla](https://pypi.org/project/aspose-cells-python/) size çevrimiçi ücretsiz uygulama sunuyor<a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">“HTML ila PDF”</a>Çalıştığı işlevselliği ve kaliteyi araştırmaya çalışabileceğiniz yer.
+[Aspose.Cells for Python via NET](https://pypi.org/project/aspose-cells-python/) presents you online free application <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf">“HTML'den PDF'e”</a>, where you may try to investigate the functionality and quality it works.
 <br>
 <a href="https://products.aspose.app/cells/en/conversion/html-to-pdf"><img src="htmltopdf.png" width=80%></a>

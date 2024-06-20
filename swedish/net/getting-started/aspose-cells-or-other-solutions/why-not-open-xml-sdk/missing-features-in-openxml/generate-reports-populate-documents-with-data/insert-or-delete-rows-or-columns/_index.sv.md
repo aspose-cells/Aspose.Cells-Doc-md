@@ -1,18 +1,19 @@
-﻿---
+---
 title: Infoga eller ta bort rader eller kolumner
 type: docs
 weight: 20
 url: /sv/net/insert-or-delete-rows-or-columns/
 ---
-Oavsett om vi skapar ett nytt kalkylblad från början eller om vi arbetar med ett befintligt kalkylblad, kan vi behöva lägga till extra rader eller kolumner i kalkylbladet för att ta emot mer data eller av någon annan anledning. Omvänt kan det också krävas att rader eller kolumner tas bort från angivna positioner i kalkylbladet.
-## **Hantera rader/kolumner**
-**Aspose.Cells** tillhandahåller en klass, arbetsbok som representerar en Excel-fil. Arbetsboksklass innehåller en kalkylbladssamling som gör det möjligt att komma åt varje kalkylblad i Excel-filen. Ett kalkylblad representeras av klassen Worksheet. Kalkylbladsklassen tillhandahåller en Cells-samling som representerar alla celler i kalkylbladet.
 
-**Cells**samling innehåller flera metoder för att hantera rader eller kolumner i ett kalkylblad, några av dessa diskuteras mer i detalj nedan.
+Oavsett om vi skapar ett nytt kalkylblad från grunden eller arbetar med ett befintligt kalkylblad kan det hända att vi behöver lägga till extra rader eller kolumner i kalkylbladet för att rymma mer data eller av någon annan anledning. Å andra sidan kan det också vara nödvändigt att ta bort rader eller kolumner från angivna positioner i kalkylbladet.
+## **Hantering av rader/kolumner**
+**Aspose.Cells** tillhandahåller en klass, Workbook, som representerar en Excel-fil. Workbook-klassen innehåller en Worksheets-samling som gör det möjligt att komma åt varje kalkylblad i Excel-filen. Ett kalkylblad representeras av Worksheet-klassen. Worksheet-klassen tillhandahåller en Cells-samling som representerar alla celler i kalkylbladet.
+
+Cells-samlingen tillhandahåller flera metoder för att hantera rader eller kolumner i ett kalkylblad, några av dessa diskuteras nedan i mer detalj.
 ## **Infoga en rad**
- Utvecklare kan infoga en rad i kalkylbladet var som helst genom att anropa metoden InsertRow i samlingen Cells.**Infoga rad** metoden tar indexet för raden där den nya raden kommer att infogas.
+Utvecklare kan infoga en rad i kalkylbladet vid valfri plats genom att anropa InsertRow-metoden i Cells-samlingen. InsertRow-metoden tar index för raden där den nya raden ska infogas.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -42,12 +43,12 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **Infoga flera rader**
-Ibland kan utvecklare behöva infoga flera rader i kalkylbladet. Det kan göras genom att anropa metoden InsertRows i samlingen Cells. Metoden InsertRows tar två parametrar:
+Ibland kan utvecklare behöva infoga flera rader i kalkylbladet. Det kan göras genom att anropa InsertRows-metoden i Cells-samlingen. InsertRows-metoden tar två parametrar:
 
-- **Radindex**, indexet för raden där de nya raderna kommer att infogas
+- **Radindex**, index för raden varifrån de nya raderna ska infogas
 - **Antal rader**, totalt antal rader som behöver infogas
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -77,9 +78,9 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **Ta bort en rad**
- Utvecklare kan ta bort en rad från kalkylbladet var som helst genom att anropa**Ta bort rad** metoden för samlingen Cells.**Ta bort rad** metoden tar indexet för raden som måste raderas.
+Utvecklare kan ta bort en rad från kalkylbladet vid valfri plats genom att anropa **DeleteRow**-metoden i Cells-samlingen. **DeleteRow**-metoden tar index för den rad som ska tas bort.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -109,12 +110,12 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **Ta bort flera rader**
-Om utvecklare behöver ta bort flera rader från kalkylbladet kan det också göras genom att anropa metoden DeleteRows i samlingen Cells. DeleteRows-metoden tar två parametrar:
+Om utvecklare behöver ta bort flera rader från kalkylbladet kan det också göras genom att anropa DeleteRows-metoden i Cells-samlingen. DeleteRows-metoden tar två parametrar:
 
-- **Radindex**, indexet för raden där raderna kommer att tas bort.
-- **Antal rader**, totalt antal rader som måste tas bort.
+- **Radindex**, index för raden varifrån raderna ska tas bort.
+- **Antal rader**, totalt antal rader som behöver tas bort.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -144,9 +145,9 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **Infoga en kolumn**
-Utvecklare kan också infoga en kolumn i kalkylbladet var som helst genom att anropa metoden InsertColumn i samlingen Cells. Metoden InsertColumn tar indexet för den kolumn där den nya kolumnen kommer att infogas.
+Utvecklare kan också infoga en kolumn i kalkylbladet vid valfri plats genom att anropa InsertColumn-metoden i Cells-samlingen. InsertColumn-metoden tar index för den kolumn där den nya kolumnen ska infogas.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -176,9 +177,9 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **Ta bort en kolumn**
-För att ta bort en kolumn från kalkylbladet på valfri plats kan utvecklare anropa metoden DeleteColumn för samlingen Cells. Metoden DeleteColumn tar indexet för den kolumn som ska tas bort.
+För att ta bort en kolumn från kalkylbladet vid valfri plats kan utvecklare anropa DeleteColumn-metoden i Cells-samlingen. DeleteColumn-metoden tar index för kolumnen som ska tas bort.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -207,6 +208,6 @@ workbook.Save(MyDir + "Deleting Column.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Work%20with%20Rows%20n%20Columns%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Work%20with%20Rows%20n%20Columns%20%28Aspose.Cells%29.zip)

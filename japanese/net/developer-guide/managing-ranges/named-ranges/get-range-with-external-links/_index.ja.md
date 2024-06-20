@@ -1,23 +1,24 @@
-﻿---
-title: 外部リンクで範囲を取得
+---
+title: 外部リンクを含む範囲を取得
 type: docs
 weight: 120
 url: /ja/net/get-range-with-external-links/
 ---
-## **外部リンクで範囲を取得**
 
-多くの場合、Excel ファイルは外部リンクを使用して他の Excel ファイルのデータにアクセスします。 Aspose.Cells を使用すると、これらの外部リンクを取得するオプションが提供されます。[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)方法。の[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)メソッドは型の配列を返します[**参照エリア**](https://reference.aspose.com/cells/net/aspose.cells/referredarea).の[**参照エリア**](https://reference.aspose.com/cells/net/aspose.cells/referredarea)クラスは[**外部ファイル名**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename)外部ファイルの名前を返すプロパティ。の[**参照エリア**](https://reference.aspose.com/cells/net/aspose.cells/referredarea)クラスは次のメンバーを公開します。
+## **外部リンク付きの範囲を取得する**
 
-- [**EndColumn**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endcolumn): エリアの終了列
-- [**行末**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endrow)エリアの最後の行
-- [**外部ファイル名**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename)これが外部参照の場合、外部ファイル名を取得します
-- [**IsArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isarea): 領域かどうかを示します
-- [**IsExternalLink**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isexternallink): 外部リンクかどうかを示します
-- [**シート名**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/sheetname)この参照がどのシートにあるかを示します
-- [**開始列**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startcolumn)エリアの開始列
-- [**開始行**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startrow)エリアの開始行
+多くの場合、Excel ファイルは外部リンクを使用して他の Excel ファイルからデータにアクセスします。Aspose.Cells では、[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas) メソッドを使用してこれらの外部リンクを取得することができます。[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas) メソッドは、[**ReferredArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea) タイプの配列を返します。[**ReferredArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea) クラスでは、外部ファイル名を返す [**ExternalFileName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename) プロパティが提供されています。[**ReferredArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea) クラスでは、次のようなメンバーを公開しています。
 
-以下のサンプル コードは、[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)外部リンクで範囲を取得するメソッド。
+- [**EndColumn**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endcolumn)：領域の終了列
+- [**EndRow**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/endrow)：領域の終了行
+- [**ExternalFileName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/externalfilename)：これが外部参照である場合は外部ファイル名を取得します
+- [**IsArea**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isarea)：これが領域であるかどうかを示します
+- [**IsExternalLink**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/isexternallink)：これが外部リンクであるかどうかを示します
+- [**SheetName**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/sheetname)：この参照が存在するシートを示します
+- [**StartColumn**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startcolumn)：領域の開始列
+- [**StartRow**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startrow)：エリアの開始行
+
+以下のサンプルコードは、[**Name.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas) メソッドを使用して外部リンクを持つ範囲を取得する方法を示しています。
 
 ## **サンプルコード**
 

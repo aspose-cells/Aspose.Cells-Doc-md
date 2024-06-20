@@ -1,35 +1,36 @@
-﻿---
-title: Genel API Aspose.Cells 8.3.2'deki değişiklikler
+---
+title: Aspose.Cells 8.3.2 de Genel API Değişiklikleri
 type: docs
 weight: 130
 url: /tr/java/public-api-changes-in-aspose-cells-8-3-2/
 ---
-{{% alert color="primary" %}} 
-
- Bu belge, Aspose.Cells API sürümünde 8.3.1'den 8.3.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-3-2/) ve[kaldırılan sınıflar vb.](/cells/tr/java/public-api-changes-in-aspose-cells-8-3-2/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
-
-{{% /alert %}} 
-## **Eklenen API'ler**
-### **PivotItem'in Mutlak Konumunu Ayarlama Mekanizması**
- Özelliği sağlamak için[PivotItem'in Mutlak Konumlandırması](/cells/tr/java/specifying-the-absolute-position-of-the-pivot-item/)Aspose.Cells for Java 8.3.2, aşağıda listelenen bir dizi özelliği ve yöntemi ortaya çıkardı.
-
-- PivotItem.setPosition, üst düğümden bağımsız olarak tüm PivotItem'lerde konum dizinini ayarlamak için kullanılabilir.
-- PivotItem.setPositionInSameParentNode, aynı üst düğüm altındaki PivotItems içindeki konum dizinini ayarlamak için kullanılabilir.
-- PivotItem.move(int count, bool isSameParent) yöntemi, count değerine göre öğeyi yukarı veya aşağı taşımak için kullanılabilir; burada count, PivotItem öğesini yukarı veya aşağı hareket ettirecek konum sayısıdır. Sayım değeri sıfırdan küçükse, öğe yukarı taşınır, burada sayım değeri sıfırdan büyükse, PivotItem aşağı hareket eder, Boolean tipi isSameParent parametresi, taşıma işleminin aynı üst düğümde gerçekleştirilip gerçekleştirilmeyeceğini belirtir. ya da değil.
 
 {{% alert color="primary" %}} 
 
-Lütfen dikkat, PivotItem.setPosition, PivotItem.setPositionInSameParentNode özellikleri ve PivotItem.move(int count, bool isSameParent) yöntemini kullanmadan önce PivotTable.refreshData ve PivotTable.calculateData yöntemlerini çağırmak gerekir.
+Bu belge, Aspose.Cells API'sinde 8.3.1'den 8.3.2'ye olan değişiklikleri açıklar ve modül / uygulama geliştiricileri için ilginç olabilecek sadece yeni ve güncellenmiş genel yöntemleri, [eklenmiş sınıfları vs.](/cells/tr/java/aspose-cells-8-3-2-surecinde-genel-api-degisiklikleri/) ve [kaldırılmış sınıfları vs.](/cells/tr/java/aspose-cells-8-3-2-surecinde-genel-api-degisiklikleri/) değil, aynı zamanda Aspose.Cells'in arka planda olan değişikliklerinin de açıklamasını içerir.
 
 {{% /alert %}} 
-### **Sınıf İmza Satırı Eklendi**
-Aspose.Cells 8.3.2, İmza Satırının MS Excel'in eşdeğer özelliğini taklit etmesi için destek sağlar. Bu yayın, SignatureLine sınıfını ve Picture.SignatureLine özelliğini bu amaçla kullanıma sunmuştur.
+## **Eklenen API'lar**
+### **PivotItem'ın Mutlak Konumunu Ayarlama Mekanizması**
+[PivotItem'ın Mutlak Konumlandırması](/cells/tr/java/specifying-the-absolute-position-of-the-pivot-item/) özelliğini sağlamak için, Aspose.Cells for Java 8.3.2 aşağıda listelenen bir dizi özellik ve bir yöntemi açığa çıkarmıştır.
 
-Aşağıdaki örnek kod, çalışma kitabına Picture.SignatureLine özelliğini kullanarak bir İmza Satırı ekler.
+- PivotItem.setPosition, ebeveyn düğümünden bağımsız olarak tüm PivotItem'ların konum indeksini ayarlamak için kullanılabilir.
+- PivotItem.setPositionInSameParentNode, aynı ebeveyn düğümü altındaki PivotItem'ın konum indeksini ayarlamak için kullanılabilir.
+- PivotItem.move(int count, bool isSameParent) yöntemi, PivotItem'ı, count değerine göre yukarı veya aşağı taşımak için kullanılabilir. Count değeri, PivotItem'ı yukarı veya aşağı taşımak için hareket edilecek konum sayısını belirtir. Eğer count değeri sıfırdan küçükse, öğe yukarı taşınır; eğer count değeri sıfırdan büyükse, PivotItem aşağı taşınır. Boolean tipindeki isSameParent parametresi, taşıma işleminin aynı ebeveyn düğümünde gerçekleştirilip gerçekleştirilmeyeceğini belirtir.
+
+{{% alert color="primary" %}} 
+
+Lütfen, PivotItem.setPosition, PivotItem.setPositionInSameParentNode özellikleri ve PivotItem.move(int count, bool isSameParent) yöntemi kullanmadan önce PivotTable.refreshData ve PivotTable.calculateData yöntemlerini çağırmak gereklidir.
+
+{{% /alert %}} 
+### **Class SignatureLine Eklendi**
+Aspose.Cells 8.3.2, MS Excel'in karşılık gelen özelliğini taklit etmek için Signature Line desteği sağlamaktadır. Bu sürüm, bu amaçla SignatureLine sınıfını ve Picture.SignatureLine özelliğini açığa çıkarmıştır.
+
+Aşağıdaki örnek kod, Picture.SignatureLine özelliğini kullanarak bir İmza Satırı ekler.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -58,14 +59,14 @@ s.setEmail("john.doe@aspose.com");
 pic.setSignatureLine(s);
 
 {{< /highlight >}}
-### **Yöntem Chart.hasAxis Eklendi**
-v8.3.2 sürümüyle birlikte Aspose.Cells API, grafiğin belirli bir ekseni olup olmadığını belirlemek için Chart.hasAxis(AxisType eksenType, bool isPrimary) yöntemini sağladı.
+### **Chart.hasAxis Yöntemi Eklendi**
+v8.3.2'nin yayınlanmasıyla, Aspose.Cells API'ı, belirli bir ekseni içeren bir grafik olup olmadığını belirlemek için Chart.hasAxis(EksenTürü eksenTürü, bool isPrimary) yöntemini sağlamıştır.
 
-Aşağıdaki örnek kod, örnek grafiğin Birincil, İkincil ve Değer eksenine sahip olup olmadığını belirlemek için Chart.hasAxis yönteminin kullanımını gösterir.
+Aşağıdaki örnek kod, Chart.hasAxis yönteminin kullanımını göstermektedir, örnek grafikte Birincil, İkincil ve Değer ekseni olup olmadığını belirlemek için.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -98,12 +99,12 @@ ret = chart.hasAxis(AxisType.VALUE, false);
 System.out.println("Has Seconary Value Axis: " + ret);
 
 {{< /highlight >}}
-### **Yöntem WorkbookSettings.checkWriteProtectedPassword Eklendi**
-Yöntem WorkbookSettings.checkWriteProtectedPassword, geliştiricilerin elektronik tabloyu değiştirmek için verilen parolanın doğru olup olmadığını kontrol etmelerini sağlar.
+### **WorkbookSettings.checkWriteProtectedPassword Yöntemi Eklendi**
+Method WorkbookSettings.checkWriteProtectedPassword, elektronik tabloyu değiştirmek için verilen şifrenin doğru olup olmadığını kontrol etmeye olanak tanımaktadır.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify password to open inside the load options
 
@@ -122,14 +123,14 @@ boolean ret = workbook.checkWriteProtectedPassword("567");
 System.out.println("Is 567 correct Password to modify: " + ret);
 
 {{< /highlight >}}
-### **Aşırı Yükleme Yöntemleri WorkbookRender.toPrinter & SheetRender.toPrinter Eklendi**
-Aspose.Cells 8.3.2, sırasıyla çalışma kitabı ve çalışma sayfasının sayfa aralığını yazdırmak için WorkbookRender.toPrinter(string printerName, int printPageIndex, int printPageCount) ve SheetRender.toPrinter(string printerName, int printPageIndex, int printPageCount) yöntemlerini sağlamıştır.
+### **Overload Metotlar WorkbookRender.toPrinter ve SheetRender.toPrinter Eklendi**
+Aspose.Cells 8.3.2, belirli bir aralığın sayfalarını yazdırmak için WorkbookRender.toPrinter(string printerName, int printPageIndex, int printPageCount) ve SheetRender.toPrinter(string printerName, int printPageIndex, int printPageCount) yöntemlerini sağlamıştır.
 
-Aşağıdaki örnek kod, çalışma kitabının ve çalışma sayfasının 2-5 sayfalarını yazdırmak için yukarıda belirtilen yöntemlerin kullanımını göstermektedir.
+Aşağıdaki örnek kod, belirtilen yöntemlerin kullanımını, elektronik tablonun ve çalışma sayfasının 2-5 sayfalarını yazdırmak için göstermektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook from source Excel file
 
@@ -156,30 +157,30 @@ SheetRender sr = new SheetRender(worksheet, new ImageOrPrintOptions());
 sr.toPrinter(printerName, 1, 4);
 
 {{< /highlight >}}
-### **Yöntem Worksheet.refreshPivotTables Eklendi**
-Yeni eklenen Worksheet.refreshPivotTables yöntemi, belirli bir elektronik tablodaki tüm Pivot Tabloları tek bir çağrıda yenilemeye olanak tanır.
+### **Worksheet.refreshPivotTables Yöntemi Eklendi**
+Yeniden eklenen Worksheet.refreshPivotTables yöntemi, verilen elektronik tablodaki tüm Pivot Tablolarını tek bir çağrıda yenilemeye olanak tanır.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  worksheet.refreshPivotTables();
 
 {{< /highlight >}}
-### **Yöntem Workbook.getNamedStyle Eklendi**
-Aspose.Cells 8.3.2, dizeyi parametre olarak kabul eden ve iletilen parametreye göre Style nesnesini alan Workbook.getNamedStyle yöntemini kullanıma sundu.
-### **Yöntem Cells.importTwoDimensionArray Eklendi**
-Aspose.Cells API, Cells.importTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions) yöntemini göstererek iki boyutlu dizileri elektronik tablo hücrelerine içe aktarmayı mümkün kıldı. Bahsedilen yöntem, iki boyutlu bir veri dizisini, TxtLoadOptions'da tanımlanan daha esnek seçeneklerle bir çalışma sayfasına aktarır.
-### **Özellikler OnePagePerSheet, PageIndex & PageCount Eklendi**
-Aspose.Cells for Java 8.3.2, XpsSaveOptions sınıfı için OnePagePerSheet, PageIndex & PageCount özelliklerini kullanıma sundu. Kullanıcı, OnePagePerSheet özelliğini kullanarak bir elektronik tablonun tüm içeriğini tek bir XPS sayfasına sığdırabilir ve/veya PageCount özelliğini kullanarak yazdırılacak sayfa sayısını alabilir. PageIndex özelliği, kaydedilecek ilk sayfanın 0 tabanlı dizinini alır/ayarlar.
-### **Özellikler NumberDecimalSeparator & NumberGroupSeparator Eklendi**
-Aspose.Cells for Java 8.3.2, elektronik tablolardaki sayısal değerleri biçimlendirmek ve ayrıştırmak için kullanılan özel ayırıcıları alabilen/ayarlayabilen NumberDecimalSeparator & NumberGroupSeparator özelliklerini tanıttı.
+### **Workbook.getNamedStyle Yöntemi Eklendi**
+Aspose.Cells 8.3.2, string parametre kabul eden ve geçilen parametreye göre Style nesnesini alabilen Workbook.getNamedStyle yöntemini açığa çıkarmıştır.
+### **Cells.importTwoDimensionArray Yöntemi Eklendi**
+Aspose.Cells API, Cells.importTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions) yöntemi ile iki boyutlu dizilerin elektronik tablo hücrelerine aktarılmasını mümkün kılmıştır. Söz konusu yöntem, TxtLoadOptions'da belirtilen daha esnek seçeneklerle verilerin iki boyutlu dizisini bir elektronik tabloya aktarır.
+### **OnePagePerSheet, PageIndex ve PageCount Özellikleri Eklendi**
+Aspose.Cells for Java 8.3.2, XpsSaveOptions sınıfı için OnePagePerSheet, PageIndex ve PageCount özelliklerini açığa çıkarmıştır. Kullanıcı, OnePagePerSheet özelliğini kullanarak elektronik tablonun tüm içeriğini bir XPS sayfasına sığdırabilir ve/veya PageCount özelliğini kullanarak yazdırılacak sayfa sayısını alabilir. PageIndex özelliği, kaydedilecek ilk sayfanın 0 tabanlı dizinini alır/ayarlar.
+### **NumberDecimalSeparator ve NumberGroupSeparator Özellikleri Eklendi**
+Aspose.Cells for Java 8.3.2, sayısal değerleri biçimlendirme ve ayrıştırmak için kullanılan özel ayırıcıları alabilen/getirebilen NumberDecimalSeparator ve NumberGroupSeparator özelliklerini tanıtmıştır.
 
-Aşağıdaki örnek kod, Aspose.Cells API kullanılarak özel ayırıcıların nasıl belirtileceğini gösterir. Aşağıdaki kod, özel Ondalık ve Grup ayırıcılarını sırasıyla nokta ve boşluk olarak belirtir.
+Aşağıdaki örnek kod, Aspose.Cells API'i kullanarak özel ayırıcıları nasıl belirteceği göstermektedir. Aşağıdaki kod, özel Nokta ve Boşluk ayırıcılarını belirtir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook();
 
@@ -190,12 +191,12 @@ workbook.getSettings().setNumberDecimalSeparator('.');
 workbook.getSettings().setNumberGroupSeparator(' ');
 
 {{< /highlight >}}
-### **Özellik PdfSaveOptions.setFontSubstitutionCharGranularity Eklendi**
-Aspose.Cells for Java 8.3.2, bazı Unicode karakterlerinin belirli bir yazı tipi ailesi kullanılarak görüntülenememesi sorununun üstesinden gelmek için PdfSaveOptions.setFontSubstitutionCharGranularity özelliğini kullanıma sunmuştur. PdfSaveOptions.setFontSubstitutionCharGranularity özelliği true olarak ayarlandığında, yalnızca belirli bir karakterin görüntülenemeyen yazı tipi görüntülenebilir yazı tipine değiştirilir ve kelimenin veya cümlenin geri kalanı orijinal yazı tipinde kalmalıdır.
+### **PdfSaveOptions.setFontSubstitutionCharGranularity Özelliği Eklendi**
+Aspose.Cells for Java 8.3.2, PdfSaveOptions.setFontSubstitutionCharGranularity özelliği, bazı Unicode karakterlerinin belirli bir font ailesi kullanılarak görüntülenememesi sorununu aşmak için ortaya çıkmıştır. PdfSaveOptions.setFontSubstitutionCharGranularity özelliği true olarak ayarlandığında, sadece görüntülenemeyen belirli karakterin fontu değiştirilir ve geri kalan kelime veya cümlenin orijinal fontta kalması gerekmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Save to PDF after setting PdfSaveOptions.setFontSubstitutionCharGranularity
 
@@ -204,17 +205,17 @@ PdfSaveOptions opts = new PdfSaveOptions();
 opts.setFontSubstitutionCharGranularity(true);
 
 {{< /highlight >}}
-## **Kaldırılan API'ler**
+## **Removed APIs**
 ### **Kaldırılan Eski Yöntemler**
-Aşağıdaki yöntemler Kamudan kaldırıldı API.
+Aşağıdaki yöntemler Genel API'dan kaldırılmıştır.
 
-- Workbook.open & Workbook.save yöntemleri.
+- Workbook.open ve Workbook.save yöntemleri.
 - Workbook.setOleSize yöntemi.
 - Workbook.loadData yöntemi.
-- WorkbookDesigner.open & WorkbookDesigner.save yöntemleri.
+- WorkbookDesigner.open ve WorkbookDesigner.save yöntemleri.
 - WorksheetCollection.deleteName yöntemi.
-### **Eski Mülkler Kaldırıldı**
-Aşağıdaki mülkler Kamudan kaldırıldı API.
+### **Kaldırılan Eski Özellikler**
+Aşağıdaki özellikler Genel API'dan kaldırılmıştır.
 
 - Workbook.isProtected özelliği.
 - Workbook.Language özelliği.
@@ -251,9 +252,9 @@ Aşağıdaki mülkler Kamudan kaldırıldı API.
 - SaveOptions.PdfImageCompression özelliği.
 - TxtSaveOptions.AlwaysQuoted özelliği.
 ## **Eski API'ler**
-### **Workbook.saveOptions Özelliği Kullanımdan Kaldırıldı**
- Uygun SaveOptions özellikleri ayarlandıktan sonra, bir SaveOptions nesnesinin Workbook.Save yöntemine iletilmesi gerekir.
-### **Property Workbook.Styles & Class StyleCollection Kullanımdan Kaldırıldı**
-StyleCollection.add yöntemiyle bir Stil oluşturmak yerine Workbook örneği için stil oluşturmak ve değiştirmek üzere Workbook.createStyle yönteminin kullanılması önerilir. Ayrıca, StyleCollection.get(string) yerine Workbook.getNamedStyle(string) yöntemi kullanılarak stil adı verilir.
-### **Yöntem PivotItem.move(int sayısı) Eskimiş**
- Aspose.Cells 8.3.2'nin piyasaya sürülmesiyle API, PivotItem'i üst düğüm içinde taşımak için count için tamsayı parametresini ve boolean parametresini kabul eden PivotItem.move yöntemine başka bir aşırı yükleme getirdi.
+### **Kaldırılan Workbook.saveOptions Özelliği**
+SaveOptions'un uygun SaveOptions özelliklerini ayarladıktan sonra Workbook.Save yöntemine geçirilmesi gereken bir SaveOptions nesnesi. 
+### **Kaldırılan Workbook.Styles & Class StyleCollection Özelliği**
+Workbook.createStyle yönteminin, StyleCollection.add yöntemiyle Stil oluşturmak yerine ve StyleCollection.get(string) yerine Workbook.getNamedStyle(string) yönteminin adlandırılmış stil almak için kullanılması tavsiye edilir.
+### **Kaldırılan PivotItem.move(int count) Yöntemi**
+Aspose.Cells 8.3.2'nin piyasaya sürülmesiyle, API, PivotItem.move yönteminde bir PivotItem'ı ebeveyn düğümü içinde taşımak için sağlayan başka bir aşırı yükleme yöntemi tanıttı. 

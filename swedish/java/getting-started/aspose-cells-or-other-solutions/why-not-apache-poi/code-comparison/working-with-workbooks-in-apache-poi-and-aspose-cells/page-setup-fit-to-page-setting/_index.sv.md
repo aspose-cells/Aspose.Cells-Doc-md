@@ -1,15 +1,16 @@
-﻿---
-title: Sidinställning - Anpassa till sida
+---
+title: Sidinställning  Anpassa till sidan inställning
 type: docs
 weight: 30
 url: /sv/java/page-setup-fit-to-page-setting/
 ---
-## **Aspose.Cells - Sidinställning - Anpassa till sida**
-För att anpassa innehållet i kalkylbladet till ett visst antal sidor, använd[Utskriftsformat](/cells/sv/java/page-setup-fit-to-page-setting/)class' metoderna setFitToPagesTall och setFitToPagesWide. Dessa metoder används också för att skala kalkylblad.
+
+## **Aspose.Cells - Sidinställning - Anpassa till sidan-inställning**
+För att anpassa innehållet i kalkylbladet till ett specifikt antal sidor, använd klassen [PageSetup](/cells/sv/java/page-setup-fit-to-page-setting/) metoder setFitToPagesTall och setFitToPagesWide. Dessa metoder används också för att skala kalkylblad.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -36,12 +37,12 @@ pageSetup.setFitToPagesTall(1);
 pageSetup.setFitToPagesWide(1);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF & XSSF - Sidinställning - Anpassa till sida**
-Apache POI SS använder metoderna setFitHeight och setFitWidth för att anpassa till sidan.
+## **Apache POI SS - HSSF & XSSF - Sidinställning - Anpassa till sidan-inställning**
+Apache POI SS använder setFitHeight och setFitWidth metoder för inställningar för anpassning till sidan.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new XSSFWorkbook();  //or new HSSFWorkbook();
 
@@ -56,13 +57,13 @@ ps.setFitHeight((short) 1);
 ps.setFitWidth((short) 1);
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/fittoonepage)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Ställa in sidalternativ](http://www.aspose.com/docs/display/cellsjava/Setting+Page+Options).
+För mer information, besök [Inställning av sida alternativ](http://www.aspose.com/docs/display/cellsjava/Setting+Page+Options).
 
 {{% /alert %}}

@@ -1,19 +1,20 @@
-﻿---
-title: 業界レビュー
+---
+title: 業界のレビュー
 type: docs
 weight: 30
 url: /ja/net/industry-reviews/
 ---
+
 {{% alert color="primary" %}} 
 
-このトピックでは、IT プロフェッショナルが実施した Aspose.Cells のテクニカル レビューをいくつか収集します。
+このトピックでは、ITプロフェッショナルによるAspose.Cellsの技術的なレビューを数点まとめています。
 
 {{% /alert %}} 
-## **スティーブ・C・オール**
-Steve C. Orr は、Microsoft 認定ソリューション開発者 (MCSD) であり、Microsoft ASP.NET の MVP です。彼は 10 年以上にわたり、シアトル地域の大手企業向けにソフトウェア ソリューションを開発してきました。ソフトウェア システムの設計やそれに関する執筆に追われていないときは、ローカル ユーザー グループに参加し、貢献者およびアドバイザーとして ASP.NET ニュースグループを支援しています。 Steve は asp.netPRO マガジンの頻繁な執筆者および寄稿者でもあります。
+## **Steve C. Orr**
+Steve C. OrrはMicrosoft Certified Solution Developer（MCSD）であり、ASP.NETのMicrosoft MVPです。彼はシアトル地域の主要企業向けにソフトウェアソリューションを開発してきました。ソフトウェアシステムの設計や執筆に忙しいとき以外にも、地元のユーザーグループで見かけ、ASP.NETのニュースグループで貢献者兼アドバイザーとして活躍しています。Steveはasp.netPRO誌の頻繁な著者および寄稿者でもあります。
 
-**公開されたレビュー**: [Aspose.Excel](https://www.itprotoday.com/development-techniques-and-management/asposeexcel)
-## **デビッド・マカミス**
-David McAmis は Builder AU のテクニカル エディターです。彼は現在、オーストラリアのシドニーに住み、働いており、「トークンアメリカン」であることを楽しんでおり、楽しみのためにカンガルーやワラビーを追いかけています.デビッドは、多数の本と、雑誌やジャーナルに掲載された 100 以上の記事を執筆しています。
+**レビュー公開**: [Aspose.Excel](https://www.itprotoday.com/development-techniques-and-management/asposeexcel)
+## **David McAmis**
+David McAmisはBuilder AUのテクニカルエディターです。現在はシドニー、オーストラリアに住み、"トークン・アメリカン"として暮らしながらカンガルーやワラビーを追いかけて楽しんでいます。Davidは多くの書籍を執筆し、雑誌やジャーナルに100以上の記事が掲載されています。
 
-**公開されたレビュー**: [ファーストルック: Aspose.Excel](https://www.zdnet.com/article/first-look-aspose-excel/)
+**レビュー公開**: [First Look: Aspose.Excel](https://www.zdnet.com/article/first-look-aspose-excel/)

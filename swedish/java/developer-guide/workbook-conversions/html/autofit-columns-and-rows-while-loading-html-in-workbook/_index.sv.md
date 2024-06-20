@@ -1,16 +1,17 @@
-﻿---
-title: Autopassa kolumner och rader när HTML laddas i arbetsboken
+---
+title: Justera kolumner och rader automatiskt vid inläsning av HTML i arbetsboken
 type: docs
 weight: 70
 url: /sv/java/autofit-columns-and-rows-while-loading-html-in-workbook/
 ---
-## **Möjliga användningsscenarier**
 
- Du kan automatiskt anpassa kolumner och rader medan du laddar din HTML-fil inuti**[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/Arbetsbok)**objekt. Vänligen ställ in**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)** egendom till**Sann**för detta ändamål.
+## **Möjliga användningsscenario**
 
-## **Autopassa kolumner och rader när HTML laddas i arbetsboken**
+Du kan justera kolumner och rader automatiskt vid inläsning av din HTML-fil i objektet [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook). Vänligen ställ in egenskapen [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) till **true** för detta ändamål.
 
- Följande exempelkod läser först in exemplet HTML i arbetsboken utan några laddningsalternativ och sparar det i formatet XLSX. Den laddar sedan återigen provet HTML i arbetsboken men den här gången laddar den HTML efter att ha ställt in**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)** egendom till**Sann**och sparar den i XLSX-format. Ladda ner båda utdata Excel-filerna, dvs[Utdata Excel-fil utan AutoFitColsAndRows](outputWithout_AutoFitColsAndRows.xlsx) och[Utdata Excel-fil med AutoFitColsAndRows](outputWith_AutoFitColsAndRows.xlsx) . Följande skärmdump visar effekten av**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)**egenskap på båda utdata Excel-filerna.
+## **Justera kolumner och rader automatiskt vid inläsning av HTML i arbetsboken**
+
+Följande kodexempel laddar först det provisoriska HTML-filen into arbetsboken utan några laddningsalternativ och sparar den i XLSX-format. Sedan laddar den igen det provisoriska HTML-filen in i arbetsboken, men den här gången laddas HTML-filen efter att ha ställt in egenskapen [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) till **true** och sparar den i XLSX-format. Vänligen ladda ner båda utdataexcel-filerna, dvs. [Utfil utan AutoFitColsAndRows](outputWithout_AutoFitColsAndRows.xlsx) och [Utfil med AutoFitColsAndRows](outputWith_AutoFitColsAndRows.xlsx). Följande skärmbild visar effekten av egenskapen [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) på båda utdataexcel-filerna.
 
 ![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
 

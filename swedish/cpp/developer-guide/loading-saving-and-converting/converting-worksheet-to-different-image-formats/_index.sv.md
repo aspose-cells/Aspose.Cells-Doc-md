@@ -1,43 +1,44 @@
 ---
-title: Konvertera arbetsblad till olika bildformat
+title: Konvertera Kalkylblad till Olika Bildformat
 type: docs
 weight: 90
 url: /sv/cpp/converting-worksheet-to-different-image-formats/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells låter dig exportera ett kalkylblad från en arbetsbok och konvertera det till olika bildformat. Den här artikeln förklarar hur du konverterar ett kalkylblad till olika bildformat.
+Aspose.Cells tillåter dig att exportera ett kalkylblad från en arbetsbok och konvertera det till olika bildformat. Den här artikeln förklarar hur man konverterar ett kalkylblad till olika bildformat.
 
 {{% /alert %}} 
-##  **Konvertera arbetsblad till bild**
-Arbetsblad innehåller data som du vill analysera. Ett kalkylblad kan till exempel innehålla parametrar, summor, procentsatser, undantag och beräkningar.
+## **Konvertera Kalkylblad till Bild**
+Kalkylblad innehåller data som du vill analysera. Till exempel kan ett kalkylblad innehålla parametrar, totaler, procenttal, undantag och beräkningar.
 
-Som utvecklare kan du behöva presentera kalkylblad som bilder. Till exempel kan du behöva använda en bild av ett kalkylblad i ett program eller en webbsida. Du kanske vill infoga en bild i ett Microsoft Word-dokument, en PDF-fil, en PowerPoint-presentation eller någon annan dokumenttyp. Enkelt uttryckt vill du att ett kalkylblad ska renderas som en bild så att du kan använda det någon annanstans.
+Som utvecklare kan det hända att du behöver presentera kalkylblad som bilder. Till exempel kan det hända att du behöver använda en bild av ett kalkylblad i en applikation eller webbsida. Du kan vilja infoga en bild i ett Microsoft Word-dokument, en PDF-fil, en PowerPoint-presentation eller någon annan dokumenttyp. Med andra ord vill du att ett kalkylblad ska renderas som en bild så att du kan använda det någon annanstans.
 
-Aspose.Cells stöder konvertering av Excel-kalkylblad till bilder. För att använda den här funktionen måste du importera[Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/)namnutrymme till ditt program eller projekt. Den har flera värdefulla klasser för rendering och utskrift, till exempel,[SheetRender](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [ImageOrPrintOptions](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/)och andra.
+Aspose.Cells stödjer konvertering av Excel-kalkylblad till bilder. För att använda den här funktionen måste du importera [Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/) namespace till ditt program eller projekt. Det har flera värdefulla klasser för rendering och utskrift, till exempel [SheetRender](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/), [ImageOrPrintOptions](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/imageorprintoptions/) och andra.
 
-Klassen `Aspose.Cells.Rendering.ISheetRender` representerar ett kalkylblad att rendera som bilder. Den har en överbelastad metod,[Att föreställa sig](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/), som kan konvertera ett kalkylblad till bildfil(er) med olika attribut eller alternativ. Flera bildformat stöds, till exempel BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.
+Klassen `Aspose.Cells.Rendering.ISheetRender` representerar ett kalkylblad att rendera som bilder. Den har en överbelastad metod, [ToImage](https://reference.aspose.com/cells/cpp/aspose.cells.rendering/sheetrender/toimage/), som kan konvertera ett kalkylblad till bildfiler med olika attribut eller alternativ. Flera bildformat stöds, till exempel BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.
 
-Följande kodavsnitt visar hur man konverterar ett kalkylblad i en Excel-fil till en bildfil.
-###  **PNG Format**
- Se följande exempelkod, dess[exempel på Excel-fil](67338402.xlsx) , och den[utgång PNG Bilder](67338401.zip).
+Följande kodsnutt visar hur man konverterar ett kalkylblad i en Excel-fil till en bildfil.
+### **PNG-format**
+Se följande exempelkod, dess [exempel Excel-fil](67338402.xlsx) and [utmatnings PNG-bilder](67338401.zip) för din referens.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG-new.cpp" >}}
 
-###  **TIFF Format**
- Se följande exempelkod, dess[exempel på Excel-fil](67338402.xlsx) , och den[utgång TIFF Bild](67338419.zip).
+### **TIFF-format**
+Se följande exempelkod, dess [exempel Excel-fil](67338402.xlsx) och [utmatnings TIFF-bild](67338419.zip) för din referens.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF-new.cpp" >}}
 
-##  **Konvertera arbetsblad till SVG**
-SVG står för Scalable Vector Graphics. SVG är en specifikation baserad på XML-standarder för tvådimensionell vektorgrafik. Det är en öppen standard som har varit under utveckling av World Wide Web Consortium (W3C) sedan 1999.
+## **Konvertera Kalkylblad till SVG**
+SVG står för Skalbara Vektorgrafik. SVG är en specifikation baserad på XML-standarder för tvådimensionell vektorgrafik. Det är en öppen standard som har varit under utveckling av World Wide Web Consortium (W3C) sedan 1999.
 
-Aspose.Cells for C++ har kunnat konvertera kalkylblad till SVG bild sedan version 18.5.0.
+Aspose.Cells for C++ har kunnat konvertera kalkylblad till SVG-bild sedan version 18.5.0.
 
-För att använda den här funktionen, importera namnområdet `Aspose.Cells.Rendering` till ditt program eller projekt. Den har flera värdefulla klasser för rendering och utskrift, till exempel `ISheetRender`, `IImageOrPrintOptions` och andra.
+För att använda den här funktionen, importera `Aspose.Cells.Rendering` namespace till ditt program eller projekt. Det har flera värdefulla klasser för rendering och utskrifter, till exempel `ISheetRender`, `IImageOrPrintOptions` och andra.
 
-Klassen `Aspose.Cells.Rendering.IImageOrPrintOptions` anger att kalkylbladet kommer att sparas i formatet SVG. Följande kodsnutt visar hur man konverterar ett kalkylblad i en Excel-fil till en SVG-bildfil
+Klassen `Aspose.Cells.Rendering.IImageOrPrintOptions` specificerar att kalkylbladet kommer att sparas i SVG-format. Följande kodsnutt visar hur man konverterar ett kalkylblad i en Excel-fil till en SVG-bildfil
 
- Se följande exempelkod, dess[exempel på Excel-fil](67338402.xlsx) , och den[utgång SVG Bilder](67338403.zip).
+Se följande exempelkod, dess [exempel Excel-fil](67338402.xlsx) and [utmatnings SVG-bilder](67338403.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG-new.cpp" >}}

@@ -1,23 +1,24 @@
-﻿---
+---
 title: サブレポート
 type: docs
 weight: 20
 url: /ja/reportingservices/sub-reports/
 ---
+
 {{% alert color="primary" %}} 
 
-テーブル グループ行にサブレポートを埋め込むためのサポートが組み込まれました。形式は次のとおりです。
+テーブルグループ行にサブレポートを埋め込むサポートを組み込みました。フォーマットは次のとおりです:
 
-&=subreport{ReportName=レポート名;パラメータ 1 の名前 = パラメータ 1 の値。パラメータ 2 の名前 = パラメータ 2 の値;......} 
+&=subreport{ReportName=your report name; parameter1 name = parameter1 value; parameter2 name = parameter2 value;......} 
 
 {{% /alert %}} 
 ### **例**
 **テーブル内のサブレポート** 
 
-![todo:画像_代替_文章](sub-reports_1.png)
+![todo:image_alt_text](sub-reports_1.png)
 
-例では、サブレポートの名前は「Sales Order Detail」です。パラメータは1つ、*受注番号*.パラメータの値は*EmpSalesDetail.SalesOrderNumber.*
-#### **サブレポートの使用に関する制限**
-- サブレポートは、Aspose.Cells.Reporting Services Designer ツールを使用して設計する必要があります。
-- サブレポートはテーブル グループ行にのみ埋め込むことができ、グループ行にはサブレポート以外の要素を含めることはできません。表の詳細行またはフッター行にサブレポートを埋め込むことはできません。
-- 現在、複数レベルのネストはサポートされていません。サブレポートに埋め込みレポートを含めることはできません。
+例では、サブレポートの名前は「売上詳細」です。1つのパラメータ、*SalesOrderNumber* を持っています。パラメータの値は *EmpSalesDetail.SalesOrderNumber* です。
+#### **サブレポートを使用する制限事項**
+- サブレポートはAspose.Cells.Reporting Services Designerツールで設計する必要があります。
+- サブレポートはテーブルグループ行にのみ埋め込むことができ、グループ行にはサブレポート以外の要素を含めることはできません。テーブルの詳細行やフッター行にサブレポートを埋め込むことはできません。
+- 現在、1つ以上のレベルのネストはサポートされていません。サブレポートには埋め込みレポートを含めることはできません。

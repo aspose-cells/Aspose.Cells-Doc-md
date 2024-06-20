@@ -1,17 +1,18 @@
-﻿---
-title: تعيين ناحية الطباعة
+---
+title: تحديد منطقة الطباعة
 type: docs
 weight: 30
 url: /ar/net/set-print-area/
 ---
-## **Aspose.Cells - تعيين ناحية الطباعة**
-بشكل افتراضي ، تدمج منطقة الطباعة فقط جميع مناطق ورقة العمل التي تحتوي على بيانات. يمكن للمطورين إنشاء منطقة طباعة معينة من ورقة العمل.
 
-لتحديد منطقة طباعة معينة ، استخدم ملف[اعداد الصفحة](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)فئة PrintArea الخاصة بالفئة. قم بتعيين نطاق خلايا يحدد منطقة الطباعة لهذه الخاصية.
+## **Aspose.Cells - تحديد منطقة الطباعة**
+بشكل افتراضي، تشمل منطقة الطباعة فقط جميع مناطق ورق العمل التي تحتوي على بيانات. يمكن للمطورين إنشاء منطقة طباعة محددة لورق العمل.
+
+لتحديد منطقة طباعة محددة، استخدم خاصية PrintArea لفئة [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). قم بتعيين مجموعة خلايا تحدد منطقة الطباعة لهذه الخاصية.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -60,12 +61,12 @@ pageSetup.PrintArea = "A1:F20";
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - ضبط منطقة الطباعة**
-تتوفر طريقة Workbook.setPrintArea لتعيين خصائص الصفحة الخاصة بمنطقة الطباعة.
+## **NPOI - HSSF XSSF - تحديد منطقة الطباعة**
+تتوفر طريقة Workbook.setPrintArea لتعيين خصائص الصفحة لمنطقة الطباعة
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -123,13 +124,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**تعيين ناحية الطباعة** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **تحديد منطقة الطباعة** من أي من مواقع التعديل الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[ضبط خيارات الطباعة](/cells/ar/net/setting-print-options/).
+للحصول على مزيد من التفاصيل، قم بزيارة [ضبط خيارات الطباعة](/cells/ar/net/setting-print-options/).
 
 {{% /alert %}}

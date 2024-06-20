@@ -1,54 +1,55 @@
-﻿---
+---
 title: Formül Listesi
 type: docs
 weight: 10
 url: /tr/reportingservices/formula-list/
 ---
+
 **Rapor alanları**
 
-|**Set Adı** |**Formül Adı**|**Açıklama**|
-|:- |:- |:- |
-| Küresel alanlar| Uygulama vakti| Raporun çalışmaya başladığı tarih ve saat.|
-|| RaporSunucuUrl'si| Raporun çalıştırıldığı rapor sunucusunun URL'si.|
-|| Rapor Adı|Raporun, rapor sunucusu veritabanında saklandığı şekliyle adı.|
-|| Rapor Klasörü| Raporu içeren klasörün tam yolu. Bu, rapor sunucusu URL'sini içermez.|
-| kullanıcı| Kullanıcı kimliği| Raporu çalıştıran kullanıcının kimliği.|
-|| Dil| Raporu çalıştıran kullanıcının dil kimliği.|
+|**Ad Kümesi**|**Formül Adı**|**Açıklama**|
+| :- | :- | :- |
+|Global alanlar |ExecutionTime |Raporun çalışmaya başladığı tarih ve saat. |
+| |ReportServerUrl |Raporun çalıştırıldığı rapor sunucusunun URL'si. |
+| |ReportName |Raporun rapor sunucusu veritabanında depolandığı ad. |
+| |ReportFolder |Raporu içeren klasörün tam yolu. Bu, rapor sunucusu URL'sini içermez. |
+|Kullanıcı |UserID |Raporu çalıştıran kullanıcının kimlik numarası. |
+| |Language |Raporu çalıştıran kullanıcının dil kimliği. |
 **Rapor alanları**
 
-|**Set Adı**|**Açıklama**|
-|:- |:- |
-| parametreler| Parametreler koleksiyonu, rapor içindeki rapor parametrelerini içerir. Parametreler sorgulara iletilebilir, filtrelerde kullanılabilir veya parametreye göre raporun görünümünü değiştiren diğer işlevlerde kullanılabilir.|
-| alanlar| Fields koleksiyonu, geçerli veri kümesindeki alanları içerir.|
-| Veri Kümesi||
+|**Ad Kümesi**|**Açıklama**|
+| :- | :- |
+|Parameters |Parametreler koleksiyonu, raporun içindeki rapor parametrelerini içerir. Parametreler sorgulara iletilerek, filtrelerde kullanılarak veya parametreye bağlı olarak raporun görünümünü değiştiren diğer işlevlerde kullanılabilir. |
+|Alanlar |Geçerli veri kümesindeki alanları içeren Alanlar koleksiyonu. |
+|Veri Seti ||
 **Operatörler**
-Aritmetik işleçler, başka bir sayı elde etmek için sayıları, sayısal değişkenleri, sayısal alanları ve sayısal işlevleri birleştirmek için kullanılır. Karşılaştırma işleçleri genellikle If ifadesi gibi bir kontrol yapısındaki bir koşul için işlenenleri karşılaştırmak için kullanılır. Boole işleçleri, genellikle kontrol yapıları için koşullar oluşturmak üzere karşılaştırma işleçleriyle birlikte kullanılır.
+Aritmetik operatörler, başka bir sayı elde etmek için sayıları, sayısal değişkenleri, sayısal alanları ve sayısal işlevleri birleştirmek için kullanılır. Karşılaştırma operatörleri genellikle bir If ifadesi gibi bir kontrol yapısındaki koşul için operatlarları karşılaştırmak için kullanılır. Boolean operatörler genellikle kontrol yapıları için koşullar oluşturmak için karşılaştırma operatörleri ile birlikte kullanılır.
 
-|**Set Adı**|**formül adı**|**Açıklama**|
-|:- |:- |:- |
-| Aritmetik|^ | Üs alma, örneğin 2^3.|
-||* | Çarpma, örneğin 2*3.|
-||/ | Bölme, örneğin 2/3.|
-||\\\ | Tamsayı bölümü, örneğin 2\\\3.|
-|| Mod| Modül, örneğin 4 Mod 3.|
-||+ | Toplama, örneğin 4 + 3.|
-||- | Çıkarma, örneğin 4 – 3.|
-| Karşılaştırmak|< | Daha az, örneğin 4< 3 false. |
-||<= | Küçük veya eşittir, örneğin 4<= 3 false. |
-||> | Büyüktür, örneğin 4 > 3 doğrudur.|
-||>= | Büyüktür veya eşittir, örneğin 4 >= 3 doğru.|
-||= | Eşit, örneğin 4 = 3 yanlış.|
-||<> | Eşit değil, örneğin 4<> 3 doğru.|
-|| Sevmek|Bir diziyi bir modelle karşılaştırır. Örneğin sonuç = string Benzer kalıp.|
-|| Dır-dir| İki nesne referans değişkenini karşılaştırır, örneğin asp Is aspose.|
-| birleştirme|& | İki ifadeden oluşan bir dizi birleştirme oluşturur.|
-||+ | İki sayı ekler veya bir sayısal ifadenin pozitif değerini döndürür. İki dize ifadesini birleştirmek için de kullanılabilir.|
-| Mantıksal/Bitsel| Ve| İki Boole ifadesinde mantıksal bağlaç veya iki sayısal ifadede bit düzeyinde bağlaç gerçekleştirir.|
-|| Olumsuzluk| Bir Boole ifadesinde mantıksal olumsuzlama veya sayısal bir ifadede bit düzeyinde olumsuzlama gerçekleştirir.|
-|| Veya| İki Boole ifadesinde mantıksal ayırma veya iki sayısal ifadede bit düzeyinde ayırma gerçekleştirir.|
-|| Xor| İki Boole ifadesinde mantıksal bir dışlama veya iki sayısal ifadede bit düzeyinde bir dışlama gerçekleştirir.|
-|| Ve ayrıca| İki ifade üzerinde kısa devre yapan mantıksal bağlaç gerçekleştirir.|
-|| VeyaBaşka|İki ifade üzerinde kısa devre yapan kapsayıcı mantıksal ayırma gerçekleştirir.|
-| Bit Kaydırma|>> | Bir bit modelinde aritmetik bir sola kaydırma gerçekleştirir.|
-||<< | Bir bit örüntüsünde aritmetik sağa kaydırma gerçekleştirir.|
+|**Ad Kümesi**|**Formül adı**|**Açıklama**|
+| :- | :- | :- |
+|Aritmetik |^ |Üs alma, örneğin 2^3. |
+| |* |Çarpma, örneğin 2*3. |
+| |/ |Bölme, örneğin 2/3. |
+| |\\\ |Tam bölme, örneğin 2\\\3. |
+| |Mod |Modulus, örneğin 4 Mod 3. |
+| |+ |Toplama, örneğin 4 + 3. |
+| |- |Çıkarma, örneğin 4 – 3. |
+|Karşılaştırma |< |Daha az, örneğin 4 < 3 yanlış. |
+| |<= |Daha az veya eşit, örneğin 4 <= 3 yanlış. |
+|>| |Örneğin 4 > 3 doğrudur. |
+|>=| |Örneğin 4 >= 3 doğrudur. |
+|=| |Örneğin 4 = 3 yanlıştır. |
+|<>| |Örneğin 4 <> 3 doğrudur. |
+|Like| |Bir dizeyi desene karşılaştırır. Örneğin sonuç = dize desen. |
+|Is| |İki nesne referans değişkenini karşılaştırır, örneğin asp aspose'dur. |
+|Concatenation|& |İki ifadenin bir dize birleşimi oluşturur. |
+|+| |İki sayıyı ekler veya sayısal bir ifadenin pozitif değerini döndürür. Ayrıca iki dize ifadesini birleştirmek için de kullanılabilir. |
+Mantıksal/Bit Düzeyinde |And| |İki Boolean ifadesinde mantıksal birleşme veya iki sayısal ifadede bit düzeyinde birleşme yapar. |
+|Not| |Bir Boolean ifadesinde mantıksal değillemeyi gerçekleştirir veya sayısal ifadede bit düzeyinde değillemeyi gerçekleştirir. |
+|Or| |İki Boolean ifadesinde mantıksal ayrıma veya iki sayısal ifadede bit düzeyinde ayrıma yapar. |
+|Xor| |İki Boolean ifadesinde mantıksal dışlama veya iki sayısal ifadede bit düzeyinde dışlama yapar. |
+|AndAlso| |İki ifadede kısa devre mantıksal birleşme gerçekleştirir. |
+|OrElse| |İki ifadede kısa devre dahil mantıksal ayrım yapar. |
+Bit Kaydırma |>>| |Bir bit deseninde aritmetik sola kaydırma gerçekleştirir. |
+|<<| |Bir bit deseninde aritmetik sağa kaydırma gerçekleştirir. |
 

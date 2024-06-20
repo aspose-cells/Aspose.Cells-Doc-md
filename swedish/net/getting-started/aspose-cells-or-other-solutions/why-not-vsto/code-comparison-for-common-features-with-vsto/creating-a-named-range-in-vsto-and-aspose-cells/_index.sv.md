@@ -1,23 +1,24 @@
-﻿---
-title: Skapa ett namngivet intervall i VSTO och Aspose.Cells
+---
+title: Skapa en namngiven omfattning i VSTO och Aspose.Cells
 type: docs
 weight: 90
 url: /sv/net/creating-a-named-range-in-vsto-and-aspose-cells/
 ---
-Så här skapar du ett namngivet intervall:
 
-1.  Konfigurera arbetsbladet:
- 1. Instantiera ett applikationsobjekt.(endast VSTO.)
- 1. Lägg till en arbetsbok.
- 1. Skaffa det första arket.
-1.  Skapa ett namngivet intervall:
- 1. Definiera ett intervall.
- 1. Namnge intervallet.
- 1. Spara filen.
+För att skapa en namngiven omfattning:
+
+1. Ställ in kalkylbladet: 
+   1. Instantiera en Application-objekt. (Endast VSTO)
+   1. Lägg till en arbetsbok.
+   1. Hämta det första arket.
+1. Skapa en namngiven omfattning: 
+   1. Definiera en omfattning.
+   1. Namnge omfattningen.
+   1. Spara filen.
 
 Kodexemplen nedan visar hur man utför dessa steg med VSTO med antingen C#. Kodexemplen som följer visar hur man gör samma sak med Aspose.Cells for .NET, igen med antingen C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create Excel Object
 
@@ -63,25 +64,25 @@ xl.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Instantiering av ett arbetsboksobjekt
+ //Instantiating a Workbook object
 
-Arbetsbok arbetsbok = ny arbetsbok();
+Workbook workbook = new Workbook();
 
-//Åtkomst till det första kalkylbladet i Excel-filen
+//Accessing the first worksheet in the Excel file
 
-Arbetsblad arbetsblad = arbetsbok. Arbetsblad[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Skapa ett namngivet intervall
+//Creating a named range
 
-Områdesområde = kalkylblad.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Ställa in namnet på det namngivna området
+//Setting the name of the named range
 
 range.Name = "Test_Range";
 
- för (int rad = 0; rad< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 
@@ -101,7 +102,7 @@ workbook.Save("Test_Range.xls");
 
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/download)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).blixtlås)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip)

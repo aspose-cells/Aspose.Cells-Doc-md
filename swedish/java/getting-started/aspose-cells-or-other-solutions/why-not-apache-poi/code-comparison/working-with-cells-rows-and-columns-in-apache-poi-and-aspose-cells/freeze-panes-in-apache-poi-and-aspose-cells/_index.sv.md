@@ -1,34 +1,35 @@
-﻿---
-title: Frys rutor i Apache POI och Aspose.Cells
+---
+title: Frysa rutor i Apache POI och Aspose.Cells
 type: docs
 weight: 80
 url: /sv/java/freeze-panes-in-apache-poi-and-aspose-cells/
 ---
+
 ## **Aspose.Cells - Frys rutor**
-Aspose.Cells tillhandahåller en klass,[Arbetsbok](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)som representerar en Microsoft Excel-fil. Klassen Workbook innehåller en WorksheetCollection som ger åtkomst till varje kalkylblad i en Excel-fil.
+Aspose.Cells tillhandahåller en klass, [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook) som representerar en Microsoft Excel-fil. Workbook-klassen innehåller en WorksheetCollection som tillåter åtkomst till varje kalkylblad i en Excel-fil.
 
-Ett arbetsblad representeras av[Arbetsblad](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)klass. Klassen Worksheet tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att konfigurera frysa rutor, anrop Worksheet-klassens freezePanes-metod. FreezePanes-metoden tar följande parametrar:
+Ett kalkylblad representeras av [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)-klassen. Worksheet-klassen tillhandahåller ett brett utbud av egenskaper och metoder för att hantera kalkylblad. För att konfigurera frysrutor, anropa freezePanes-metoden i Worksheet-klassen. FreezePanes-metoden tar följande parametrar:
 
-- **Rad**, radindexet för cellen som frysningen börjar från.
-- **Kolumn**, kolumnindex för cellen som frysningen startar från.
-- **Frysta rader**, antalet synliga rader i den övre rutan.
-- **Frysta kolonner**, antalet synliga kolumner i den vänstra rutan
+- **Rad**, radindexet för cellen som frysen ska starta från.
+- **Kolumn**, kolumnindexet för cellen som frysen ska starta från.
+- **Frusna rader**, antalet synliga rader i toppfönstret.
+- **Frusna kolumner**, antalet synliga kolumner i vänstra fönstret.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  worksheet1.freezePanes(0,2,0,2); // Freezing Columns
 
 worksheet2.freezePanes(2,0,2,0); // Freezing Rows
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Frys rutor**
-sheet.createFreezePane är tillgängligt för att uppnå FreezePane-funktionalitet när du använder Apache POI SS - HSSF och XSSF
+## **Apache POI SS - HSSF XSSF - Frysa rutor**
+sheet.createFreezePane finns tillgänglig för att uppnå FreezePane-funktionalitet när du använder Apache POI SS - HSSF och XSSF
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Freeze just one row
 
@@ -43,13 +44,13 @@ sheet2.createFreezePane( 2, 0, 2, 0 );
 sheet3.createFreezePane( 2, 2 );
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/freezepanes)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Frys rutor](http://docs.aspose.com:8082/docs/display/cellsjava/Freeze+Panes).
+För mer information, besök [Frys rutor](http://docs.aspose.com:8082/docs/display/cellsjava/Freeze+Panes).
 
 {{% /alert %}}

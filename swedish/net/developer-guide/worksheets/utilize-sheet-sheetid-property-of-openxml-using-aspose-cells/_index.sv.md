@@ -1,28 +1,29 @@
 ---
-title: Använd egenskapen Sheet.SheetId för OpenXml med Aspose.Cells
+title: Använd Sheet.SheetId egenskapen i OpenXml med hjälp av Aspose.Cells
 type: docs
 weight: 200
 url: /sv/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
-description: Den här artikeln visar hur du använder Sheet.SheetId-egenskapen för OpenXml med Excel-manipulation .NET API eller C# Library programmatiskt.
-keywords: sheet id property of openxml c#, sheet id excel worksheet c#
+description: Den här artikeln visar hur man använder Sheet.SheetId egenskapen i OpenXml med hjälp av Excel manipulation .NET API eller C# biblioteket programmatiskt.
+keywords: sheet id egenskap för openxml c#, sheet id excel arbetsblad c#
 ---
-##  **Möjliga användningsscenarier**
 
-*Sheet.SheetId*egendom finns inuti*DocumentFormat.OpenXml.Spreadsheet* namnutrymme och är en del av OpenXml. Du kan se den här egenskapen och dess värde inuti*arbetsbok.xml* som visas i följande skärmdump. Aspose.Cells tillhandahåller motsvarande egendom som[**Arbetsblad.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid).
+## **Möjliga användningsscenario**
+
+Egenskapen *Sheet.SheetId* finns inom *DocumentFormat.OpenXml.Spreadsheet*-namnrymden och ingår i OpenXml. Du kan se denna egenskap och dess värde i *workbook.xml* som visas på följande skärmdump. Aspose.Cells tillhandahåller motsvarande egenskap som [**Worksheet.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid).
 
 ![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
-##  **Använd egenskapen Sheet.SheetId för OpenXml med Aspose.Cells**
+## **Använd Sheet.SheetId-egenskapen i OpenXml med hjälp av Aspose.Cells**
 
- Följande exempelkod laddar[exempel på Excel-fil](51740716.xlsx) , läser dess ark- eller flik-ID, tilldelar den sedan nytt flik-id och sparar den som[utdata Excel-fil](51740717.xlsx). Se även konsolutgången för koden nedan för en referens.
+Följande exempelkod laddar [provs-exelfilen](51740716.xlsx), läser av dess flik- eller flik-id, tilldelar det ett nytt flik-id och sparar det som [utdata-exelfil](51740717.xlsx). Se även konsolens utmatning för kodreferens.
 
-##  **Exempelkod**
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UtilizeSheet_SheetId_PropertyOfOpenXml.cs" >}}
 
-##  **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet or Tab Id: 1297
 

@@ -1,15 +1,18 @@
-﻿---
-title: Liaison de feuille de calcul à un ensemble de données lors de l'exécution à l'aide de GridWeb
+---
+title: Liaison de la feuille de calcul à un DataSet au moment de l exécution à l aide de GridWeb
 type: docs
 weight: 70
-url: /fr/net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
+url: /fr/net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
+keywords: GridWeb,bind,DataSet
+description: Cet article présente comment lier une feuille de calcul à un DataSet dans GridWeb.
 ---
+
 ## **Scénarios d'utilisation possibles**
-Aspose.Cells.GridWeb fournit un API simple qui peut être utilisé pour lier dynamiquement un DataSet à une feuille de travail.
-## **Liaison d'une feuille de calcul à DataSet**
-L'exemple de code suivant explique comment lier une feuille de calcul à un DataSet au moment de l'exécution.
-## **Exemple de code**
-{{< highlight "java" >}}
+Aspose.Cells.GridWeb fournit une API facile à utiliser pour lier dynamiquement un DataSet à une feuille de calcul.
+## **Lier une feuille de calcul à un DataSet**
+Le code d'exemple suivant explique comment lier une feuille de calcul à un DataSet au moment de l'exécution.
+## **Code d'exemple**
+{{< highlight java >}}
 
  // Implementing Page_Load event handler
 
@@ -81,6 +84,6 @@ public partial class GridBind : System.Web.UI.Page
 
 {{< /highlight >}}
 ## **Capture d'écran de sortie**
-La capture d'écran suivante montre le GridWeb après l'exécution de l'exemple de code ci-dessus.
+La capture d'écran suivante montre le GridWeb après l'exécution du code d'exemple ci-dessus.
 
-![tâche : image_autre_texte](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

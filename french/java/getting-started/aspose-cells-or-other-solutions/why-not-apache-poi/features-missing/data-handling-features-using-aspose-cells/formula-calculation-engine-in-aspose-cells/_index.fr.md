@@ -1,15 +1,16 @@
-﻿---
-title: Moteur de calcul de formule dans Aspose.Cells
+---
+title: Moteur de calcul de formules dans Aspose.Cells
 type: docs
 weight: 50
 url: /fr/java/formula-calculation-engine-in-aspose-cells/
 ---
-## **Aspose.Cells - Moteur de calcul de formule**
-Le moteur de calcul de formule est intégré dans Aspose.Cells. Il peut non seulement recalculer la formule importée à partir d'un fichier de feuille de calcul de concepteur, mais prend également en charge le calcul des résultats des formules ajoutées au moment de l'exécution.
+
+## **Aspose.Cells - Moteur de calcul de formules**
+Le moteur de calcul de formules est intégré dans Aspose.Cells. Il peut non seulement recalculer la formule importée à partir d'un fichier de feuille de calcul conçu, mais prend également en charge le calcul des résultats des formules ajoutées à l'exécution.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -58,14 +59,14 @@ book.calculateFormula();
 book.save(dataDir + "AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/formula/AsposeFormulaCalculationEngine.java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Moteur de calcul de formule](/cells/fr/java/aspose-cells-formula-calculation-engine).
+Pour plus de détails, visitez [Moteur de calcul de formules](/cells/fr/java/aspose-cells-formula-calculation-engine).
 
 {{% /alert %}}

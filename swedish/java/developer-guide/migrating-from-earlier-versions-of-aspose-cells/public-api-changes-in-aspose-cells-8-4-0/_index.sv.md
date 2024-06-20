@@ -1,35 +1,36 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.4.0
+---
+title: Offentliga API ändringar i Aspose.Cells 8.4.0
 type: docs
 weight: 140
 url: /sv/java/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.3.2 till 8.4.0 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder,[lagt till klasser etc.](/cells/sv/java/public-api-changes-in-aspose-cells-8-4-0/) och[borttagna klasser osv.](/cells/sv/java/public-api-changes-in-aspose-cells-8-4-0/), men också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+Detta dokument beskriver ändringar i Aspose.Cells API från version 8.3.2 till 8.4.0 som kan vara av intresse för modul/apputvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, [tillagda klasser etc.](/cells/sv/java/public-api-changes-in-aspose-cells-8-4-0/) och [borttagna klasser etc.](/cells/sv/java/public-api-changes-in-aspose-cells-8-4-0/), men också en beskrivning av eventuella ändringar i beteendet bakom kulisserna i Aspose.Cells.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Mekanism för att ändra VBA/makrokoden i kalkylblad**
- För att ge funktionen av[VBA/makrokodshantering](/cells/sv/java/modifying-vba-or-macro-code-using-aspose-cells/), Aspose.Cells for Java 8.4.0 har exponerat en serie nya klasser och egenskaper i paketet com.aspose.cells.Vba. Några av de viktiga detaljerna i dessa nya klasser är följande.
+## **Tillagda API:er**
+### **Mekanism för att ändra VBA/Makronkod i kalkylblad**
+För att tillhandahålla funktionen [VBA/Macro Code Manipulation](/cells/sv/java/modifying-vba-or-macro-code-using-aspose-cells/), har Aspose.Cells for Java 8.4.0 exponerat en serie nya klasser och egenskaper i paketet com.aspose.cells.Vba. Några av de viktiga detaljerna för dessa nya klasser är som följer.
 
 - VbaProject-klassen kan användas för att hämta VBA-projektet från ett givet kalkylblad.
-- Klassen VbaModuleCollection representerar samlingen av VBA-moduler som är en del av ett givet VbaProject.
-- VbaModule-klassen representerar en enda modul från VbaModuleCollection.
+- VbaModuleCollection-klassen representerar samlingen av VBA-moduler som ingår i ett givet VbaProject.
+- VbaModule-klassen representerar en enskild modul från VbaModuleCollection.
 
-Följande kodavsnitt visar hur du dynamiskt ändrar VBA-kodsegmenten.
+Följande kodsnutt visar hur du dynamiskt modifierar VBA-kodsegmenten.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook workbook = new Workbook("source.xlsm");
 
-//Ändra VBA-modulkoden
+//Change the VBA Module Code
 
 VbaModuleCollection modules = workbook.getVbaProject().getModules();
 
- for(int i=0; i< modules.getCount(); i++)
+for(int i=0; i < modules.getCount(); i++)
 
 {
 
@@ -57,16 +58,16 @@ workbook.save("output.xlsm");
 
 {{< /highlight >}}
 ### **Möjlighet att ta bort pivottabell**
-Aspose.Cells for Java 8.4.0 har visat två metoder för PivotTableCollection för att tillhandahålla funktionen för borttagning av pivottabell från ett givet kalkylblad. Detaljerna för ovannämnda metoder är som följer.
+Aspose.Cells for Java 8.4.0 har exponerat två metoder för PivotTableCollection för att tillhandahålla funktionen för att ta bort Pivot-tabell från ett givet kalkylblad. Detaljer för ovan nämnda metoder är som följer.
 
-- Metoden PivotTableCollection.remove accepterar ett objekt från PivotTable och tar bort det från samlingen.
-- PivotTableCollection.removeAt-metoden accepterar ett nollindexbaserat heltalsvärde och tar bort den specifika pivottabellen från samlingen.
+- PivotTableCollection.remove metoden accepterar ett objekt av typen PivotTable, och tar bort den från samlingen.
+- PivotTableCollection.removeAt metoden accepterar ett nollindexbaserat heltal och tar bort den särskilda Pivot-tabellen från samlingen.
 
-Följande kodavsnitt visar hur du tar bort pivottabellen med båda ovan nämnda metoder.
+Följande kodsnutt visar hur du tar bort pivottabellen med båda ovan nämnda metoderna.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -93,16 +94,16 @@ worksheet.getPivotTables().removeAt(0);
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Stöd för olika pivottabellslayouter**
-Aspose.Cells for Java 8.4.0 ger stöd för olika fördefinierade layouter för pivottabeller. För att tillhandahålla den här funktionen har API:erna Aspose.Cells exponerat tre metoder för PivotTable-klassen som beskrivs nedan.
+### **Stöd för olika pivottabellayouts**
+Aspose.Cells for Java 8.4.0 tillhandahåller stöd för olika fördefinierade layouter för Pivot-tabeller. För att tillhandahålla denna funktion har Aspose.Cells API:erna exponerat tre metoder för klassen PivotTable enligt nedan.
 
-- Metoden PivotTable.showInCompactForm återger pivottabellen i kompakt layout.
-- Metoden PivotTable.showInOutlineForm återger pivottabellen i Outline-layouten.
-- Metoden PivotTable.showInTabularForm återger pivottabellen i tabelllayout.
+- PivotTable.showInCompactForm metoden renderar Pivot-tabellen i kompakt layout.
+- PivotTable.showInOutlineForm metoden renderar Pivot-tabellen i översiktslayout.
+- Metoden PivotTable.showInTabularForm renderar pivottabellen i tabellayout.
 
 {{% alert color="primary" %}} 
 
- Det är viktigt att anropa PivotTable.refreshData & PivotTable.calculateData efter att ha ställt in någon av de ovan nämnda layouterna.
+Det är viktigt att ringa PivotTable.refreshData & PivotTable.calculateData efter att ha ställt in någon av ovan nämnda layouter. 
 
 {{% /alert %}} 
 
@@ -110,7 +111,7 @@ Följande exempelkod ställer in olika layouter för en pivottabell och lagrar r
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -167,19 +168,19 @@ pivotTable.calculateData();
 workbook.save("TabularForm.xlsx");
 
 {{< /highlight >}}
-### **Klass TxtLoadStyleStrategy & Property TxtLoadOptions.LoadStyleStrategy tillagd**
-Aspose.Cells for Java 8.4.0 har exponerat klassen TxtLoadStyleStrategy och TxtLoadOptions.LoadStyleStrategy-egenskapen för att specificera strategin för att formatera de analyserade värdena samtidigt som strängvärdet konverteras till nummer eller datum och tid.
-### **Metod DataBar.ToImage tillagd**
-Med lanseringen av v8.4.0 har Aspose.Cells API tillhandahållit DataBar.toImage-metoden för att spara den villkorligt formaterade DataBar i bildformat. Metoden {DataBar.toImage}} accepterar två parametrar som beskrivs nedan.
+### **Klass TxtLoadStyleStrategy & Egenskap TxtLoadOptions.LoadStyleStrategy Tillagd**
+Aspose.Cells for Java 8.4.0 har exponerat klassen TxtLoadStyleStrategy och egenskapen TxtLoadOptions.LoadStyleStrategy för att ange strategin för att formatera de parserade värdena vid konvertering av strängvärde till nummer eller datumtid.
+### **Tillagd DataBar.ToImage Metod**
+Med utgivningen av v8.4.0 har Aspose.Cells API tillhandahållit metoden DataBar.toImage för att spara villkorligt formaterade DataBar i bildformat. {DataBar.toImage}} metoden accepterar två parametrar enligt nedan.
 
 - Den första parametern är av typen com.aspose.cells.Cell på vilken villkorlig formatering har tillämpats.
-- Den andra parametern är av typen com.aspose.cells.rendering.ImageOrPrintOptions för att ställa in olika parametrar för den resulterande bilden.
+- Den andra parametern är av typen com.aspose.cells.rendering.ImageOrPrintOptions för att ange olika parametrar för den resulterande bilden.
 
 Följande exempelkod visar användningen av DataBar.toImage-metoden för att rendera DataBar i bildformat.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -209,7 +210,7 @@ opts.setImageFormat(ImageFormat.getPng());
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.toImage(cell, opts);
+byte[] imgBytes = dbar.toImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -220,12 +221,12 @@ out.write(imgBytes);
 out.close();
 
 {{< /highlight >}}
-### **Egenskap Border.ThemeColor tillagd**
-Aspose.Cells API:er gör det möjligt att extrahera temarelaterade data från kalkylarken. Med lanseringen av Aspose.Cells for Java 8.4.0 har API exponerat egenskapen Border.ThemeColor som kan användas för att hämta temafärgsattributen för Cell kanter.
-### **Egenskapen DrawObject.ImageBytes tillagd**
-Aspose.Cells for Java 8.4.0 har exponerat egenskapen DrawObject.ImageBytes för att hämta bilddata från Chart eller Shape.
-### **Egenskapen HtmlSaveOptions.ExportBogusRowData tillagd**
- Aspose.Cells for Java 8.4.0 har tillhandahållit egenskapen {HtmlSaveOptions.ExportBogusRowData}}. Egenskapen boolesk typ avgör om API kommer att injicera falska nedre raddata när kalkylark exporteras till formatet HTML.
+### **Tillagd Border.ThemeColor Egenskap**
+Aspose.Cells API:er tillåter att extrahera temarelaterade data från kalkylbladen. Med utgivningen av Aspose.Cells for Java 8.4.0 har API:et exponerat Border.ThemeColor-egenskapen som kan användas för att hämta temafärgattributen för cellgränser.
+### **Tillagd DrawObject.ImageBytes Egenskap**
+Aspose.Cells for Java 8.4.0 har exponerat DrawObject.ImageBytes egenskapen för att hämta bilddata från diagram eller form.
+### **Tillagd HtmlSaveOptions.ExportBogusRowData Egenskap**
+Aspose.Cells for Java 8.4.0 har tillhandahållit {HtmlSaveOptions.ExportBogusRowData}} egenskapen. Boolesk typ egenskapen bestämmer om API kommer att infoga falska bottenradsdata vid export av kalkylblad till HTML-format. 
 
 {{% alert color="primary" %}} 
 
@@ -233,11 +234,11 @@ Standardvärdet är sant.
 
 {{% /alert %}} 
 
-Följande exempelkod illustrerar användningen av ovannämnda egendom.
+Följande exempelkod illustrerar användningen av ovan nämnda egenskap.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -256,16 +257,16 @@ Workbook workbook = new Workbook("source.xlsx");
 workbook.save("output.xlsx");
 
 {{< /highlight >}}
-### **Egenskapen HtmlSaveOptions.CellCssPrefix har lagts till**
-Nyligen tillagd egenskap HtmlSaveOptions.CellCssPrefix gör det möjligt att ställa in prefixet för CSS-filerna samtidigt som kalkylblad exporteras till formatet HTML.
+### **Tillagd HtmlSaveOptions.CellCssPrefix Egenskap**
+Nyinlagd egenskap HtmlSaveOptions.CellCssPrefix låter dig ange prefix för CSS-filer vid export av kalkylblad till HTML-format.
 
 {{% alert color="primary" %}} 
 
 Standardvärdet är "" (tom sträng).
 
 {{% /alert %}}
-## **Föråldrade API:er**
-### **Metoder Cells.getCellByIndex & Row.getCellByIndex Obsoleted**
-Använd metoden getEnumerator för att iterera alla celler istället.
-### **Egenskapen DrawObject.Image Obsoleted**
-Använd egenskapen DrawObject.ImageBytes för att hämta bilddata istället.
+## **Obsoletterade API:er**
+### **Utgångna Cells.getCellByIndex & Row.getCellByIndex Metoder**
+Använd getEnumerator-metoden för att iterera alla celler istället.
+### **Utgånget DrawObject.Image Egenskap**
+Använd DrawObject.ImageBytes-egenskapen för att hämta bilddata istället.

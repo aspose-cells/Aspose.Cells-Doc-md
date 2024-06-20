@@ -1,16 +1,17 @@
-﻿---
-title: Convertir gráfico en imágenes
+---
+title: Convertir gráfico a imágenes
 type: docs
 weight: 10
 url: /es/net/convert-chart-to-images/
 ---
-## **Aspose.Cells - Convertir gráfico en imágenes**
+
+## **Aspose.Cells - Convertir gráfico a imágenes**
 Los gráficos son visualmente atractivos y facilitan que los usuarios vean comparaciones, patrones y tendencias en los datos.
-El método toImage de la clase Chart convierte el gráfico en un archivo de imagen, que se puede guardar en el disco o transmitir.
+El método toImage de la clase Chart convierte el gráfico en un archivo de imagen que se puede guardar en disco o en un flujo de datos.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -63,13 +64,13 @@ Chart chart = charts[chartIndex];
 chart.ToImage("AsposeChartImage.png", ImageFormat.Png);
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Convertir gráfico en imágenes** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Convertir gráfico a imágenes** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Convertir gráfico en imagen](/cells/es/net/converting-chart-to-image-in-svg-format/).
+Para más detalles, visita [Convertir gráfico a imagen](/cells/es/net/converting-chart-to-image-in-svg-format/).
 
 {{% /alert %}}

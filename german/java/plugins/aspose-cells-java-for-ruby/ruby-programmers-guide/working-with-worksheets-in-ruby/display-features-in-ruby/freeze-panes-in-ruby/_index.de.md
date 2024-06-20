@@ -1,15 +1,16 @@
-﻿---
-title: Einfrieren von Fenstern in Ruby
+---
+title: Bereiche in Ruby einfrieren
 type: docs
 weight: 50
 url: /de/java/freeze-panes-in-ruby/
 ---
-## **Aspose.Cells - Fenster einfrieren**
- So frieren Sie Fenster im Tabellenkalkulationsdokument ein**Aspose.Cells Java für Rubin** , einfach aufrufen**FreezePanes** Modul.
+
+## **Aspose.Cells - Spalten einfrieren**
+Um Bereiche im Tabellendokument mit Aspose.Cells Java für Ruby einzufrieren, rufen Sie einfach das Modul FreezePanes auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ workbook.save(data_dir + "output.xls")
 puts "Apply freeze panes settings, please check the output file."
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
-Download**Fenster einfrieren (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+Download von **Freeze Panes (Aspose.Cells)** von einer der unten genannten sozialen Coding-Seiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)

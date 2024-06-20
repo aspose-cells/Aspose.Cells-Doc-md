@@ -1,20 +1,21 @@
-﻿---
+---
 title: Arbeta med glödeffekten av form eller diagram
 type: docs
 weight: 960
 url: /sv/java/working-with-the-glow-effect-of-shape-or-chart/
 ---
-## **Möjliga användningsscenarier**
-Aspose.Cells tillhandahåller egenskapen Shape.Glow för att arbeta med glödeffekten av form eller diagram. Den innehåller följande underegenskaper som du kan ställa in för att uppnå olika resultat enligt dina krav.
+
+## **Möjliga användningsscenario**
+Aspose.Cells tillhandahåller egenskapen Shape.Glow för att arbeta med glödeffekten av form eller diagram. Den innehåller följande underegenskaper som du kan ställa in för att uppnå olika resultat efter dina krav.
 
 - GlowEffect.Size
 - GlowEffect.Transparency
 
-Följande skärmdump visar Microsoft Excel-gränssnitt för att ställa in formens glödeffekt.
+Följande skärmdump visar Microsoft Excel-gränssnittet för att ställa in glödeffekten av formen.
 
 ![todo:image_alt_text](working-with-the-glow-effect-of-shape-or-chart_1.png)
 ## **Arbeta med glödeffekten av form eller diagram**
- Följande exempelkod laddar[source excel-fil](5472520.xlsx)och kommer åt den första formen i det första kalkylbladet och ställer in underegenskaperna för Shape.Glow-egenskapen och sparar sedan arbetsboken i[output excel-fil](5472527.xlsx).
+Följande kodexempel laddar [käll-excel-filen](5472520.xlsx) och får åtkomst till den första formen i den första arbetsboken och anger underegenskaperna för Shape.Glow-egenskapen och sparar sedan arbetsboken i [utdata-excel-filen](5472527.xlsx).
 ## **Exempelkod**
 
 

@@ -1,18 +1,19 @@
-﻿---
-title: Добавьте XML-карту в книгу с помощью метода XmlMapCollection.Add.
+---
+title: Добавить XML отображение внутри книги с использованием метода XmlMapCollection.Add
 type: docs
 weight: 10
 url: /ru/java/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
 ---
+
 ## **Возможные сценарии использования**
 
-Aspose.Cells предоставляет[**XmlMapCollection.Добавить()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object)), который вы можете использовать для импорта своей XML-карты в книгу.
+Aspose.Cells предоставляет метод [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object)), который можно использовать для импортирования XML-карты внутри книги.
 
-## **Добавьте XML-карту в книгу с помощью метода XmlMapCollection.Add.**
+## **Добавить XML-отображение внутри книги с использованием метода XmlMapCollection.Add**
 
- Следующий пример кода добавляет XML-карту в книгу с помощью[**XmlMapCollection.Добавить()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object) ) метод и сохраняет его как[выходной файл excel](5472533.xlsx) . На снимке экрана показана XML-карта, импортированная из[образец.xml](5472532.xml) внутри выходного файла Excel.
+Нижеприведенный образец кода добавляет XML-карту внутри книги, используя метод [**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object)) и сохраняет его как [выходной файл Excel](5472533.xlsx). Снимок экрана показывает импортированную из [sample.xml](5472532.xml) XML-карту в выходном файле Excel.
 
-![дело:изображение_альтернативный_текст](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
+![todo:image_alt_text](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
 
 ## **Образец кода**
 

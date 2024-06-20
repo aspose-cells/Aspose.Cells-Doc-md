@@ -1,15 +1,16 @@
-﻿---
-title: Объединить или отменить объединение Cells на листе в VSTO и Aspose.Cells
+---
+title: Слияние или разъединение ячеек в листе Excel в VSTO и Aspose.Cells
 type: docs
 weight: 170
 url: /ru/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
-Откройте существующий файл Excel, объедините несколько ячеек на первом листе книги и сохраните файл Excel.
-## **Объединение Cells**
-### **ВСТО**
-Ниже приведены фрагменты параллельного кода для VSTO (C#) и Aspose.Cells for .NET (C#).
 
-{{< highlight "csharp" >}}
+Откройте существующий файл Excel, объедините некоторые ячейки на первом листе в книге Excel и сохраните файл Excel.
+## **Объединение ячеек**
+### **VSTO**
+Ниже приведены параллельные фрагменты кода для VSTO (C#) и Aspose.Cells for .NET (C#).
+
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -55,7 +56,7 @@ url: /ru/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -82,10 +83,10 @@ url: /ru/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
   workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **Разъединение Cells**
-Чтобы разъединить ячейки, используйте следующие строки кода для VSTO (C#) и Aspose.Cells for .NET (C#).
-### **ВСТО**
-{{< highlight "csharp" >}}
+## **Разъединение ячеек**
+Для разъединения ячейки(ок) используйте следующие строки кода для VSTO (C#) и Aspose.Cells for .NET (C#).
+### **VSTO**
+{{< highlight csharp >}}
 
  //UnMerge the cell.
 
@@ -93,7 +94,7 @@ url: /ru/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
    Cells rng = workbook.Worksheets[0].Cells;
 
@@ -102,7 +103,7 @@ url: /ru/net/merge-or-unmerge-cells-in-a-worksheet-in-vsto-and-aspose-cells/
   rng.UnMerge(0, 0, 1, 3);
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Merge.or.UnMerge.Cells.in.a.Worksheet.Aspose.Cells.zip)
-- [Источникфорж](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/скачать)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)
+## **Загрузить образец кода**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Merge.or.UnMerge.Cells.in.a.Worksheet.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

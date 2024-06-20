@@ -1,41 +1,42 @@
-﻿---
-title: Aspose.Cells'deki Akıllı İşaretçiler özelliği
+---
+title: Aspose.Cells teki Akıllı İşaretçiler özelliği
 type: docs
 weight: 30
 url: /tr/net/smart-markers-feature-in-aspose-cells/
 ---
-**akıllı işaretçiler** Aspose.Cells'in bir Microsoft Excel tasarımcı elektronik tablosuna hangi bilgilerin yerleştirileceğini bilmesini sağlamak için kullanılır. Akıllı işaretçiler, yalnızca belirli bilgileri ve biçimlendirmeyi içeren şablonlar oluşturmanıza olanak tanır.
-## **Tasarımcı Elektronik Tablosu ve Akıllı İşaretleyiciler**
-Tasarımcı elektronik tabloları, görsel biçimlendirme, formüller ve akıllı işaretçiler içeren standart Excel dosyalarıdır. Bir projeden gelen bilgiler ve ilgili ilgili kişiler için bilgiler gibi bir veya daha fazla veri kaynağına başvuran akıllı işaretçiler içerebilirler. Akıllı işaretçiler, bilgiyi istediğiniz hücrelere yazılır.
 
-Tüm akıllı işaretçiler &= ile başlar. Veri işaretçisine örnek olarak &=Party.FullName verilebilir. Veri işaretçisi birden fazla öğeyle, örneğin tam bir satırla sonuçlanırsa, sonraki satırlar tüm yeni bilgilere yer açmak için otomatik olarak aşağı taşınır. Böylece ara toplamlar ve toplamlar, eklenen verilere dayalı hesaplamalar yapmak için veri işaretçisinden hemen sonra satıra yerleştirilebilir. Girilen satırlarda hesaplamalar yapmak için dinamik formüller kullanın.
+Tasarımcı Elektronik Tablosu ve Akıllı İşaretleyiciler
+## **Tasarım Elektronik Tablosu & Akıllı İşaretçiler**
+Tasarımcı elektronik tablolar, görsel biçimlendirme, formüller ve akıllı işaretçiler içeren standart Excel dosyalarıdır. Bağlantılı bir ya da daha fazla veri kaynağını, örneğin proje bilgilerini ve ilgili kişilerin bilgilerini içerebilir. Akıllı işaretçiler, bilgilerin yer almasını istediğiniz hücrelere yazılır.
 
- Akıllı işaretçiler şunlardan oluşur:**veri kaynağı** ve**alan adı**çoğu bilgi için parçalar. Değişkenler ve değişken dizileri ile özel bilgiler de iletilebilir. Değişkenler her zaman yalnızca bir hücreyi doldururken, değişken dizileri birkaç hücreyi doldurabilir. Hücre başına yalnızca bir veri işaretçisi kullanın. Kullanılmayan akıllı işaretçiler kaldırılır.
+Tüm akıllı işaretçiler &= ile başlar. Bir veri işaretçisi örneği &=Party.FullName şeklindedir. Veri işaretçisi birden fazla öğe sonucuna yol açarsa, örneğin tam bir satır, o zaman yeni bilgiler için yer açmak amacıyla aşağıdaki satırlar otomatik olarak hareket eder. Böylece alt toplamlar ve toplamlar, eklenen verilere dayalı hesaplamalar yapmak üzere veri işaretçisinin hemen ardındaki satıra yerleştirilebilir. Eklenen satırlarda hesaplama yapmak için dinamik formüller kullanın.
 
-Akıllı işaretleyici ayrıca parametreler içerebilir. Parametreler, bilgilerin nasıl düzenleneceğini değiştirmenize izin verir. Akıllı işaretleyicinin sonuna parantez içinde virgülle ayrılmış bir liste olarak eklenirler.
-### **Akıllı İşaretleyici Seçenekleri**
-- &=DataSource.FieldName
+Akıllı işaretçiler çoğu bilgi için **veri kaynağı** ve **alan adı** bölümlerinden oluşur. Özel bilgi, değişkenler ve değişken dizileri ile de iletilmiş olabilir. Değişkenler her zaman sadece bir hücreyi doldururken, değişken dizileri birkaç hücreyi doldurabilir. Bir hücre başına yalnızca bir veri işareti kullanın. Kullanılmayan akıllı işaretçiler kaldırılır.
+
+Akıllı işaretçi ayrıca parametre içerebilir. Parametreler, bilgilerin nasıl düzenleneceğini değiştirmenize izin verir. Virgülle ayrılmış bir liste olarak parantez içinde akıllı işaretçinin sonuna eklenirler.
+### **Akıllı İşaretçi Seçenekleri**
+- &=VeriKaynağı.AlanAdı
 - &=Veri Kaynağı.Alan Adı
-- &=$DeğişkenAdı
-- &=$Değişken Dizisi
-- &==Dinamik Formül
-- &=&=Tekrar DinamikFormül
-### **parametreler**
-Aşağıdaki parametrelere izin verilir:
+- &=$VariableName
+- &=$VariableArray
+- &==DynamicFormula
+- &=&=RepeatDynamicFormula
+### **Parametreler**
+Aşağıdaki parametreler kabul edilir:
 
-- noadd - Verileri sığdırmak için fazladan satır eklemeyin.
-- ski:n - Her veri satırı için n sayıda satırı atla.
-- artan:n veya azalan:n - Verileri akıllı işaretçilerde sıralayın. n 1 ise sütun sıralayıcının ilk anahtarıdır. Veri kaynağı işlendikten sonra veriler sıralanır. Örn. &=Tablo1.Alan3(artan:1).
-- yatay - Verileri yukarıdan aşağıya yazmak yerine soldan sağa yazın.
-- sayısal - Mümkünse metni sayıya dönüştürün. Yalnızca .NET sürümünde desteklenir.
-- shift - Verileri sığdırmak için fazladan satırlar veya sütunlar oluşturarak aşağı veya sağa kaydırın. Shift parametresi, Microsoft Excel'dekiyle aynı şekilde çalışır. Örneğin, MS Excel'de, bir hücre aralığı seçtiğinizde, sağ tıklayın ve Ekle'yi seçin ve hücreleri aşağı kaydır, hücreleri sağa kaydır ve diğer seçenekleri belirtin. Kısacası, kaydırma parametresi dikey/normal (yukarıdan aşağıya) veya yatay (soldan sağa) akıllı işaretçiler için aynı işlevi yerine getirir.
-- copystyle - Temel hücrenin stilini o sütundaki tüm hücrelere kopyalayın.
+- noadd - Veri uyumlu hücre eklemek için kullanılmaz.
+- skip:n - Her bir veri satırı için n sayısında satır atla.
+- ascending:n veya descending:n - Akıllı işaretçide verileri sırala. n 1 ise, sütun sıralayıcının ilk anahtarıdır. Veri kaynağı işlemlendikten sonra veri sıralanır. Örneğin &=Tablo1.Alan3(ascending:1).
+- horizontal - Veriyi yukarıdan aşağıya değil, soldan sağa yazın.
+- numeric - Mümkünse metni sayıya dönüştür. Yalnızca .NET sürümünde desteklenir.
+- shift - Veriyi sığdırmak için aşağıya veya sağa kaydırın, ekstra satır veya sütunlar oluşturun. Kaydırma parametresi, Microsoft Excel'de olduğu gibi çalışır. Örneğin MS Excel'de bir hücre aralığı seçtiğinizde sağ tıklayıp İçerik'ten Seç ve aşağıya kaydır, sağa kaydır ve diğer seçenekleri belirtin. Kısacası, kaydırma parametresi dikey/normal (yukarıdan aşağıya) veya yatay (soldan sağa) akıllı işaretçiler için aynı işlevi doldurur.
+- copystyle - Temel hücrenin stiline sütundaki tüm hücreleri kopyala.
 
- parametreler**ekleme** ve atlama, değişen satırlara veri eklemek için birleştirilebilir. Şablon aşağıdan yukarıya doğru işlendiği için, alternatif satırın önüne fazladan satır eklenmesini önlemek için ilk satıra noadd eklemelisiniz.
+Parametreler **noadd** ve skip birleştirilerek veriyi sırayla satırlara eklemek için kullanılabilir. Şablon aşağıdan yukarıya doğru işlendiğinden, alternatif satırın önünde ekstra satırların eklenmesini önlemek için ilk satıra noadd eklemelisiniz.
 
 Bu bölüm aşağıdaki konuları içerir
 
-- [Aspose.Cells'de Verileri Gruplandırma](/cells/tr/net/grouping-data-in-aspose-cells/)
-- [Aspose.Cells'deki Görüntü İşaretçileri](/cells/tr/net/image-markers-in-aspose-cells/)
-- [Aspose.Cells'de Anonim Türler veya Özel Nesneler Kullanma](/cells/tr/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
-- [Aspose.Cells'de Yuvalanmış Nesneleri Kullanma](/cells/tr/net/using-nested-objects-in-aspose-cells/)
+- [Aspose.Cells'te Verileri Gruplama](/cells/tr/net/grouping-data-in-aspose-cells/)
+- [Aspose.Cells'te Resim İmleri](/cells/tr/net/image-markers-in-aspose-cells/)
+- [Aspose.Cells’te Anonim Tür veya Özel Nesneler Kullanma](/cells/tr/net/using-anonymous-types-or-custom-objects-in-aspose-cells/)
+- [Aspose.Cells'te Gömülü Nesneler Kullanma](/cells/tr/net/using-nested-objects-in-aspose-cells/)

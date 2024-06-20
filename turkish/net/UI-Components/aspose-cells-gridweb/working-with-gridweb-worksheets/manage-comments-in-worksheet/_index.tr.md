@@ -1,37 +1,40 @@
-﻿---
-title: Çalışma Sayfasındaki Yorumları Yönetin
+---
+title: Çalışma Sayfasında Yorumları Yönet
 type: docs
 weight: 110
-url: /tr/net/manage-comments-in-worksheet/
+url: /tr/net/aspose-cells-gridweb/manage-comment-in-worksheet/
+keywords: GridWeb,comment
+description: Bu makale, GridWeb deki yorumlarla çalışmayı tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konuda, çalışma sayfalarına yorum ekleme, çalışma sayfalarına erişme ve çalışma sayfalarından yorum kaldırma anlatılmaktadır. Yorumlar, sayfa ile çalışacak kullanıcılar için notlar veya faydalı bilgiler eklemek için kullanışlıdır. Geliştiriciler, çalışma sayfasının herhangi bir hücresine yorum ekleme esnekliğine sahiptir.
+Bu konu, çalışsayfalardan yorum eklemeyi, erişmeyi ve kaldırmayı tartışır. Yorumlar, çalışsayfa ile çalışacak olan kullanıcılar için not veya kullanışlı bilgiler eklemek için kullanışlıdır. Geliştiriciler, çalışsayfanın herhangi bir hücresine yorum eklemekte esneklik sahip olurlar.
 
 {{% /alert %}} 
-## **Yorumlarla Çalışmak**
+## **Yorumlarla Çalışma**
 ### **Yorum Ekleme**
-Çalışma sayfasına yorum eklemek için lütfen aşağıdaki adımları izleyin:
+Bir çalışsayfaya yorum eklemek için lütfen aşağıdaki adımları izleyin:
 
 1. Aspose.Cells.GridWeb denetimini Web Formuna ekleyin.
-1. Yorum eklediğiniz çalışma sayfasına erişin.
+2. Yorum eklemek istediğiniz çalışsayfaya erişin.
 1. Bir hücreye yorum ekleyin.
-1. Yeni yorum için bir not ayarlayın.
+4. Yeni yorum için bir not ayarlayın.
 
-**Çalışma sayfasına bir yorum eklendi** 
+**Çalışsayfaya bir yorum eklenmiştir** 
 
-![yapılacaklar:resim_alternatif_metin](manage-comments-in-worksheet_1.png)
+![todo:image_alt_text](manage-comments-in-worksheet_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-ManageComments.aspx-AddComments.cs" >}}
-### **Yorumlara Erişim**
+### **Yorumlara Erişme**
 Bir yoruma erişmek için:
 
-1. Yorumu içeren hücreye erişin.
-1. Hücrenin referansını alın.
-1. Yoruma erişmek için referansı Yorum koleksiyonuna iletin.
-1. Yorumun özelliklerini değiştirmek artık mümkün.
+1. Yorum içeren hücreye erişin.
+2. Hücrenin referansını alın.
+3. Yoruma erişmek için referansı Comment koleksiyonuna iletil.
+1. Artık yorumun özelliklerini değiştirmek mümkün.
 
 
 
@@ -40,7 +43,7 @@ Bir yoruma erişmek için:
 Bir yorumu kaldırmak için:
 
 1. Yukarıda açıklandığı gibi hücreye erişin.
-1. Yorumu kaldırmak için Yorum koleksiyonunun RemoveAt yöntemini kullanın.
+1. Yorum koleksiyonunun RemoveAt yöntemini kullanarak yorumu kaldırın.
 
 
 

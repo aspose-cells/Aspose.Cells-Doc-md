@@ -1,17 +1,18 @@
 ---
-title: Ignorieren Sie ausgeblendete Spalten beim Exportieren von Arbeitsblattdaten in eine Datentabelle
+title: Ausgeblendete Spalten beim Exportieren von Arbeitsblattdaten in eine Datentabelle ignorieren
 type: docs
 weight: 330
 url: /de/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/
-description: Erfahren Sie, wie Sie ausgeblendete Spalten beim Exportieren von Arbeitsblattdaten in eine Datentabelle über Aspose.Cells for .NET API ignorieren.
-keywords: Export Visible Columns Data to DataTable, Export unhidden Columns Data to DataTable, Export Columns Data to DataTable and Exclude hidden Columns, Ignore Hidden Columns while Exporting Worksheet Data to Data Table
+description: Erfahren Sie, wie Sie beim Exportieren von Arbeitsblattdaten in eine Datentabelle durch die API Aspose.Cells for .NET lernen, ausgeblendete Spalten ignorieren können.
+keywords: Sichtbare Spaltendaten in DataTable exportieren, unversteckte Spaltendaten in DataTable exportieren, Spaltendaten in DataTable exportieren und versteckte Spalten ausschließen, beim Exportieren von Arbeitsblattdaten in eine Datentabelle ausgeblendete Spalten ignorieren
 ---
+
 {{% alert color="primary" %}}
 
- Manchmal möchten Sie ausgeblendete Spalten ignorieren, während Sie Arbeitsblattdaten in eine Datentabelle exportieren. Sie können dies mit Aspose.Cells erreichen, indem Sie Folgendes festlegen[**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) Zu**WAHR**. Standardmäßig ist der Wert **false**, daher müssen Sie ihn auf **true setzen** um die ausgeblendeten Spalten zu ignorieren.
+Manchmal möchten Sie beim Exportieren von Arbeitsblattdaten in eine Datentabelle ausgeblendete Spalten ignorieren. Dies kann mit Aspose.Cells erreicht werden, indem Sie [**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) auf **true** setzen. Standardmäßig ist sein Wert **false**, daher müssen Sie es auf **true** setzen, um die ausgeblendeten Spalten zu ignorieren.
 
 {{% /alert %}}
 
-Der folgende Beispielcode erläutert die Verwendung von[**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns)Eigenschaft, die ausgeblendeten Spalten zu ignorieren, während die gesamten Daten des Arbeitsblatts in die Datentabelle exportiert werden.
+Im folgenden Beispielcode wird die Verwendung der [**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) Eigenschaft beim Ignorieren der ausgeblendeten Spalten beim Exportieren der gesamten Arbeitsblattdaten in die Datentabelle erläutert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-IgnoreHiddenColumnsDataTable-1.cs" >}}

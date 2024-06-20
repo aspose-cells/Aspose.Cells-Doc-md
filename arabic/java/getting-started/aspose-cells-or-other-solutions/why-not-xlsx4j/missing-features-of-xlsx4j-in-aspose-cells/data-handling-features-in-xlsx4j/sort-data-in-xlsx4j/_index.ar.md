@@ -1,16 +1,17 @@
-﻿---
-title: فرز البيانات في xlsx4j
+---
+title: ترتيب البيانات في xlsx4j
 type: docs
 weight: 60
 url: /ar/java/sort-data-in-xlsx4j/
 ---
-## **Aspose.Cells - فرز البيانات**
-لفرز البيانات في جدول بيانات باستخدام Aspose.Cells ، ما عليك سوى استدعاء طريقة DataSorter.sorter () بعد تعيين عدد قليل من خصائص منطقة الخلية سهلة التعيين.
-Java كود مذكور أدناه:
+
+## **Aspose.Cells - ترتيب البيانات**
+لترتيب البيانات في ورق العمل باستخدام Aspose.Cells ، قم ببساطة باستدعاء الأسلوب DataSorter.sorter() بعد ضبط بضع خصائص سهلة الضبط لمنطقة الخلية.
+يتم ذكر الشيفرة الخاصة بجافا أدناه:
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -73,13 +74,13 @@ sorter.sort(cells, ca);
 workbook.save(dataDir + "AsposeSortedData_Out.xls");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/sortdata/AsposeDataSort.java)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/sortdata/AsposeDataSort.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[فرز البيانات](/java/sort-data) أو[فرز البيانات](/cells/ar/java/data-sorting).
+لمزيد من التفاصيل، قم بزيارة [ترتيب البيانات](/java/sort-data) أو [فرز البيانات](/cells/ar/java/data-sorting).
 
 {{% /alert %}}

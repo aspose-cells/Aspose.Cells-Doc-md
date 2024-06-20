@@ -1,33 +1,34 @@
-﻿---
-title: Cell'den Tabloya Erişmek ve Satır ve Sütun Ofsetlerini Kullanarak İçerisine Değerler Eklemek
+---
+title: Hücreden Tablo Erişimi ve Satır ve Sütun Ofsetleri Kullanarak Değerler Eklemek
 type: docs
 weight: 230
 url: /tr/net/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/
 ---
+
 {{% alert color="primary" %}}
 
- Normal olarak, Tablo veya Liste Nesnesinin içindeki değerleri şunu kullanarak eklersiniz:[**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)yöntem. Ancak bazen, satır ve sütun uzaklıklarını kullanarak Tablo veya Liste Nesnesi içine değerler eklemeniz gerekebilir.
+Normalde, Tablo veya List Objesi içine değerleri [**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) yöntemini kullanarak eklersiniz. Ancak bazen, Tablo veya List Objesi içine değerleri satır ve sütun ofsetleri kullanarak eklemeniz gerekebilir.
 
-Bir hücreden Tablo veya Liste Nesnesine erişmek için,[**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) yöntem. Satır ve sütun ofsetlerini kullanarak içine değerler eklemek için[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) yöntem.
+Hücreden Tablo veya List Objesine erişmek için [**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) yöntemini kullanın. Satır ve sütun ofsetleri kullanarak içine değerler eklemek için [**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) yöntemini kullanın.
 
 {{% /alert %}}
 
- Aşağıdaki ekran görüntüsü, kodun içinde kullanılan kaynak Excel dosyasını göstermektedir. Boş tabloyu içerir ve tablonun içinde bulunan D5 hücresini vurgular. Bu tabloya D5 hücresinden şunu kullanarak erişeceğiz:[**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) yöntemini kullanın ve ardından her ikisini de kullanarak içindeki değerleri ekleyin.[**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) ve[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue)yöntemler.
+Aşağıdaki ekran görüntüsü, koddaki kullanılan kaynak Excel dosyasını gösterir. Boş tabloyu içerir ve tablonun içinde bulunan D5 hücresini vurgular. Bu tabloya D5 hücresinden [**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) yöntemini kullanarak erişeceğiz ve ardından [**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) ve [**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) yöntemlerini kullanarak içine değerler ekleyeceğiz.
 
-## Örnek vermek
+## Örnek
 
 ### Kaynak ve çıktı dosyalarını karşılaştıran ekran görüntüleri
 
-|![yapılacaklar:resim_alternatif_metin](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)|
-|:- |
+|![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)|
+| :- |
 
-Aşağıdaki ekran görüntüsü, kod tarafından oluşturulan çıktı Excel dosyasını gösterir. Görüldüğü gibi D5 hücresi bir değere sahiptir ve tablonun 2,2 konumunda bulunan F6 hücresi bir değere sahiptir.
+Aşağıdaki ekran görüntüsü, kod tarafından oluşturulan çıktı Excel dosyasını göstermektedir. D5 hücresinin bir değeri olduğunu ve tablonun 2,2 ofsetindeki F6 hücresinin bir değeri olduğunu görebilirsiniz.
 
-|![yapılacaklar:resim_alternatif_metin](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)|
-|:- |
+|![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)|
+| :- |
 
-### C# kodu, hücreden tabloya erişmek ve satır ve sütun ofsetlerini kullanarak içine değerler eklemek için
+### Hücreden tabloya erişme ve satır ve sütun ofsetleri kullanarak içine değer eklemek için C# kodu
 
-Aşağıdaki örnek kod, yukarıdaki ekran görüntüsünde gösterildiği gibi kaynak Excel dosyasını yükler ve tablonun içindeki değerleri ekler ve yukarıda gösterildiği gibi çıktı Excel dosyasını oluşturur.
+Yukarıdaki ekran görüntüsünde gösterildiği gibi kaynak Excel dosyasını yükleyen ve tablo içine değer ekleyen ve yukarıda gösterilen çıktı Excel dosyasını oluşturan aşağıdaki örnek kod verilmiştir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-AccessTableFromCellAndAddValue-AccessTableFromCellAndAddValue.cs" >}}

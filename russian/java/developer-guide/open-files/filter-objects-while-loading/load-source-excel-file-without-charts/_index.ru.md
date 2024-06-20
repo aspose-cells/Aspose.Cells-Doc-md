@@ -1,22 +1,23 @@
-﻿---
-title: Загрузить исходный файл Excel без диаграмм
+---
+title: Загрузить исходный файл Excel без графиков
 type: docs
 weight: 750
 url: /ru/java/load-source-excel-file-without-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells позволяет загружать файл Excel без диаграмм. Для этой цели используйте свойство LoadOptions.LoadFilter.
+Aspose.Cells позволяет загружать файл Excel без графиков. Пожалуйста, используйте свойство LoadOptions.LoadFilter для этой цели.
 
 {{% /alert %}} 
-## **Загрузить исходный файл Excel без диаграмм**
-Следующий пример кода загружает образец файла Excel без диаграмм и сохраняет его в выходном формате PDF.
+## **Загрузить исходный файл Excel без графиков**
+В следующем образце кода загружается образцовый файл Excel без графиков и сохраняется в формате выходного PDF.
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Specify the load options and filter the data
 

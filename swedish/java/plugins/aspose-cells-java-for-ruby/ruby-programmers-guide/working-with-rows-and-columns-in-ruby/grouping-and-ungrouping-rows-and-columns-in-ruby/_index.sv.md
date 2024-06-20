@@ -1,20 +1,21 @@
-﻿---
-title: Gruppera och dela upp rader och kolumner i Ruby
+---
+title: Gruppering och avgruppering av rader och kolumner i Ruby
 type: docs
 weight: 40
 url: /sv/java/grouping-and-ungrouping-rows-and-columns-in-ruby/
 ---
-## **Aspose.Cells - Koncernledning av rader och kolumner**
-### **Gruppera rader och kolumner**
-Det är möjligt att gruppera rader eller kolumner genom att anropa metoderna groupRows och groupColumns i samlingen Cells. Båda metoderna tar följande parametrar:
 
-- Första rad-/kolumnindex, den första raden eller kolumnen i gruppen.
-- Sista raden/kolumnindex, den sista raden eller kolumnen i gruppen.
-- Är dold, en boolesk parameter som anger om rader/kolumner ska döljas efter gruppering eller inte.
+## **Aspose.Cells - Gruphantering av rader & kolumner**
+### **Gruppering av rader och kolumner**
+Det är möjligt att gruppera rader eller kolumner genom att anropa metoderna groupRows och groupColumns i Cells-samlingen. Båda metoderna tar följande parametrar:
 
-**Ruby kod**
+- Första radens/kolumnens index, den första raden eller kolumnen i gruppen.
+- Sista radens/kolumnens index, den sista raden eller kolumnen i gruppen.
+- Är dold, en boolesk parameter som specificerar om rader/kolumner ska döljas efter gruppering eller inte.
 
-{{< highlight "ruby" >}}
+**Ruby-kod**
+
+{{< highlight ruby >}}
 
  def group_rows_columns()
 
@@ -49,15 +50,15 @@ Det är möjligt att gruppera rader eller kolumner genom att anropa metoderna gr
 end  
 
 {{< /highlight >}}
-### **Dela upp rader och kolumner**
-Dela upp grupperade rader eller kolumner genom att anropa Cells-samlingens metoder för UgroupRows och UngroupColumns. Båda metoderna tar samma parametrar:
+### **Avgruppering av rader och kolumner**
+Avgruppera grupperade rader eller kolumner genom att anropa Cells-samlingens UngroupRows och UngroupColumns metoder. Båda metoderna tar samma parametrar:
 
-- Första raden eller kolumnindex, den första raden/kolumnen som ska delas upp.
-- Sista raden eller kolumnindex, den sista raden/kolumnen som ska delas upp.
+- Första radens/kolumnens index, den första raden/kolumnen att avgrupperas.
+- Sista radens/kolumnens index, den sista raden/kolumnen att avgrupperas.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def ungroup_rows_columns()
 
@@ -92,7 +93,7 @@ Dela upp grupperade rader eller kolumner genom att anropa Cells-samlingens metod
 end
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Gruppera och dela upp rader och kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner Grupp- och avgruppera rader och kolumner (Aspose.Cells) från någon av de nedan nämnda sociala kodsajterna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

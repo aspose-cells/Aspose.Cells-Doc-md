@@ -1,55 +1,56 @@
-﻿---
-title: Sayfa Sonlarını Yönetme
+---
+title: Sayfa Kesmelerinin Yönetimi
 type: docs
 weight: 30
 url: /tr/java/managing-page-breaks/
 ---
+
 {{% alert color="primary" %}}
 
-Sayfa sonu, metinde bir sayfanın bittiği ve bir sonrakinin başladığı bir yerdir. Microsoft Excel, bir çalışma sayfasında seçilen herhangi bir hücreye sayfa sonları ekleyebilir.
-Sayfa, sayfa sonunun eklendiği hücrede biter ve sayfa sonundan sonraki tüm veriler bir sonraki sayfada yazdırılır. Basit bir ifadeyle, sayfa bölünmüş çalışma sayfalarını birden çok sayfaya ayırır. Aspose.Cells'i kullanarak çalışma zamanında çalışma sayfalarına sayfa sonları eklemek de mümkündür. Aspose.Cells iki tür sayfa sonunu destekler:
+Sayfa kesmesi, metnin bir sayfanın bittiği ve bir sonrakinin başladığı yerdir. Microsoft Excel, çalışma sayfasında herhangi bir seçili hücreye sayfa kesmeleri ekleyebilir.
+Sayfa, sayfa kesme eklenen hücrede biter ve sayfa kesmesinden sonra tüm veriler bir sonraki sayfada yazdırılır. Basitçe, sayfa kesmeleri çalışma sayfalarını birden çok sayfaya böler. Aspose.Cells, iki tür sayfa kesmesini destekler:
 
 - yatay
 - dikey.
 
-Bu makalede, Aspose.Cells kullanılarak çalışma sayfalarına yatay veya dikey sayfa sonlarının nasıl ekleneceği açıklanmaktadır.
+Bu makale, Aspose.Cells kullanarak çalışma sayfalarına yatay veya dikey sayfa kesmeleri nasıl ekleyeceğinizi açıklar.
 
 {{% /alert %}}
 
-## **Aspose.Cells & Sayfa Sonları**
+## **Aspose.Cells & Sayfa Kesmeleri**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Bu bir Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)Excel dosyasındaki her çalışma sayfasına erişim sağlar.
+Aspose.Cells, bir Excel dosyasını temsil eden [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) içerir.
 
- Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)Çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlayan sınıf. Sayfa sonlarını eklemek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf'[**Yatay Sayfa Sonları**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) ve[**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks)özellikler.
+Bir çalışma sayfası [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir ve çalışma sayfalarını yönetmek için geniş bir özellik ve yöntem yelpazesi sağlar. Sayfa kesmelerini eklemek için, [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfının [**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) ve [**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks) özelliklerini kullanın.
 
- bu[**Yatay Sayfa Sonları**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) ve[**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks)özellikler aslında birkaç sayfa sonu içerebilen koleksiyonlardır. Her koleksiyon, yatay ve dikey sayfa sonlarını yönetmek için çeşitli yöntemler içerir. Bu yöntemlerin nasıl kullanıldığı aşağıda tartışılmaktadır.
+[**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) ve [**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks) özellikleri aslında birkaç sayıda sayfa kesmesi içerebilecek koleksiyonlardır. Her koleksiyon, yatay ve dikey sayfa kesmelerini yönetmek için birçok yöntem içerir. Bu yöntemlerin nasıl kullanıldığı aşağıda tartışılmaktadır.
 
-## **Sayfa Sonları Ekleme**
+## **Sayfa Kesmeleri Eklemek**
 
- Bir çalışma sayfasına sayfa sonu eklemek için belirtilen hücreye dikey ve yatay sayfa sonları ekleyin.[**Yatay Sayfa Sonları**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) ve[**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) koleksiyonlar'**Eklemek** yöntemler. Her biri**Eklemek**method sayfa sonunun ekleneceği hücre adını alır.
+Bir çalışma sayfasına sayfa kesmesi eklemek için, [**HorizontalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) ve [**VerticalPageBreaks**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) koleksiyonlarının **Ekle** yöntemlerini çağırarak belirtilen hücreye dikey ve yatay sayfa kesmeleri ekleyin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingPageBreaks-AddingPageBreaks.java" >}}
 
 {{% alert color="primary" %}}
 
-Sayfa sonu önizleme veya baskı önizleme modlarında, bu sayfa sonlarının nasıl çalıştığını görebilirsiniz.
+Sayfa kesmeleri önizleme veya yazdırma önizleme modlarında, bu sayfa kesmelerinin nasıl çalıştığını görebilirsiniz.
 
 {{% /alert %}}
 
-## **Tüm Sayfa Sonlarını Temizleme**
+## **Tüm Sayfa Kesmelerini Temizleme**
 
- Bir çalışma sayfasındaki tüm sayfa sonlarını temizlemek için[**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) ve[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) koleksiyonlar'**Temizlemek**yöntemler.
+Bir çalışma sayfasındaki tüm sayfa kesmelerini temizlemek için, [**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) ve [**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) koleksiyonlarının **Temizle** yöntemlerini çağırın.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ClearAllPageBreaks-ClearAllPageBreaks.java" >}}
 
-## **Belirli Sayfa Sonunu Kaldırma**
+## **Belirli Sayfa Kesmesini Kaldırma**
 
- Çalışma sayfasındaki belirli bir sayfa sonunu kaldırmak için[**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) ve[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) koleksiyonlar'**kaldırAt** yöntemler. Her biri**kaldırAt**yöntem, kaldırılacak sayfa sonunun dizinini alacaktır.
+Çalışma sayfasından belirli bir sayfa kesmesini kaldırmak için, [**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/HorizontalPageBreakCollection) ve [**VerticalPageBreakCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/VerticalPageBreakCollection) koleksiyonlarının **removeAt** yöntemini çağırın. Her **removeAt** yöntemi, kaldırılacak sayfa kesmesinin endeksini alacaktır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemoveSpecificPageBreak-RemoveSpecificPageBreak.java" >}}
 
 {{% alert color="primary" %}}
 
-**bilmek önemli** : Sayfaya sığdır özelliklerini ayarladığınızda (yani[**Sayfalara SığdırUzun**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) ve[**Sayfalara SığdırGeniş**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) sayfa yapısı ayarlarında, sayfa sonu ayarları etkilenir, bu nedenle, çalışma sayfasını yazdırırsanız, dosyada hala var olmalarına rağmen sayfa sonu ayarları dikkate alınmaz.
+**Bilinmesi Gerekenler**: Sayfa düzeni ayarlarındaki sığdırma özellikleri (yani [**FitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) ve [**FitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide)) ayarlandığında, sayfa kesme ayarları etkilenir, bu nedenle çalışma sayfasını yazdırırsanız, sayfa kesme ayarları dikkate alınmaz, ancak dosyada hala mevcuttur.
 
 {{% /alert %}}

@@ -1,13 +1,14 @@
-﻿---
-title: Reordenar hojas de trabajo
+---
+title: Reordenar Hojas de Trabajo
 type: docs
 weight: 70
 url: /es/net/reorder-worksheets/
 ---
-## **Aspose.Cells - Reordenar hojas de trabajo**
+
+## **Aspose.Cells - Reordenar Hojas de Trabajo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook.
 
@@ -34,10 +35,10 @@ worksheet3.MoveTo(2);
 workbook.Save("../../data/AsposeMoveSheet.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Reordenar hojas de trabajo**
+## **NPOI - HSSF XSSF - Reordenar Hojas de Trabajo**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -60,13 +61,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Reordenar hojas de trabajo** formar cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar Reordenar Hojas de Trabajo de cualquier de los siguientes sitios de codificación social:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/ReOrder.WorkSheets.zip)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Trabajar con hojas de trabajo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Para más detalles, visita [Trabajando con Hojas de Cálculo](/cells/es/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

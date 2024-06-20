@@ -1,16 +1,17 @@
-﻿---
-title: Bestäm om Shape är Smart Art Shape
+---
+title: Avgöra om en form är Smart Art Shape
 type: docs
 weight: 400
 url: /sv/net/determine-if-shape-is-smart-art-shape/
 ---
-## **Möjliga användningsscenarier**
 
- Smart Art Shapes är speciella former i Microsoft Excel som låter dig skapa komplexa diagram automatiskt. Du kan se om formen är en smart konstform eller normal form med hjälp av[**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart)fast egendom.
+## **Möjliga användningsscenario**
 
-## **Bestäm om Shape är Smart Art Shape**
+Smart Art Shapes är speciella former i Microsoft Excel som gör att du kan skapa komplexa diagram automatiskt. Du kan ta reda på om formen är en smart konstform eller vanlig form med [**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart) egenskapen.
 
- Följande exempelkod laddar[exempel på Excel-fil](55541792.xlsx)som innehåller en smart konstform som visas i den här skärmdumpen. Den skriver sedan ut värdet på[**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart)egenskapen hos den första formen. Se konsolutgången för exempelkoden nedan.
+## **Avgör om formen är en SmartArt-form**
+
+Följande kodexempel laddar [exempel Excel-filen](55541792.xlsx) som innehåller en smart konstform som visas på den här bilden. Sedan skriver den ut värdet på [**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart) egenskapen för den första formen. Se konsoloutputen från det angivna kodexemplet nedan.
 
 ![todo:image_alt_text](determine-if-shape-is-smart-art-shape_1.png)
 
@@ -18,9 +19,9 @@ url: /sv/net/determine-if-shape-is-smart-art-shape/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-DetermineIfShapeIsSmartArtShape.cs" >}}
 
-## **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: True
 

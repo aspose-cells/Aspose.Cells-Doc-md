@@ -1,88 +1,91 @@
-﻿---
-title: Wenden Sie Stile auf GridWeb an
+---
+title: Stile auf GridWeb anwenden
 type: docs
 weight: 20
-url: /de/net/apply-styles-to-gridweb/
+url: /de/net/aspose-cells-gridweb/apply-styles-to-gridweb/
+keywords: GridWeb, Stil, Stile
+description: Dieser Artikel zeigt, wie man Stile in GridWeb anwendet oder einstellt.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells. GridWeb hat sein eigenes Standard-Look & Feel, aber es ist möglich, sein Aussehen zu ändern. Aspose.Cells.GridWeb bietet mehrere Eigenschaften, mit denen Entwickler das Erscheinungsbild vollständig steuern können. In diesem Thema werden einige dieser Eigenschaften erläutert.
+Aspose.Cells.GridWeb hat sein eigenes Standardaussehen, aber es ist möglich, sein Erscheinungsbild zu ändern. Aspose.Cells.GridWeb bietet mehrere Eigenschaften, um Entwicklern die vollständige Kontrolle über sein Aussehen zu ermöglichen. Dieses Thema erörtert einige dieser Eigenschaften.
 
 {{% /alert %}} 
-## **Anwenden von voreingestellten oder benutzerdefinierten Stilen auf Aspose.Cells.GridWeb**
+## **Anwendung voreingestellter oder benutzerdefinierter Stile auf Aspose.Cells.GridWeb**
 ### **Voreingestellte Stile**
-Um Entwicklern den Aufwand zu ersparen, bietet Aspose.Cells.GridWeb einige voreingestellte Stile. Wählen Sie einfach einen Stil aus der Liste aus, um den Stil anzuwenden.
+Um den Aufwand der Entwickler zu reduzieren, bietet Aspose.Cells.GridWeb einige voreingestellte Stile an. Wählen Sie einfach einen Stil aus der Liste aus, um ihn anzuwenden.
 
 |**Stile**|**Farbschema**|
-|:- |:- |
-|Standard|Silber|
-|Bunt1|Rose|
-|Bunt2|Blau|
-|Profi1|Cyan|
-|Profi2|Wieder Cyan|
-|Traditionell1|Dunkel|
-|Traditionell2|Grau|
-|Brauch|Angepasst|
-Wenn ein bestimmter Stil ausgewählt wird, ändert er das gesamte Erscheinungsbild des GridWeb-Steuerelements. Entwickler können einen voreingestellten Stil auswählen, der während der Entwurfszeit auf Grid angewendet werden soll, aber diese Aufgabe kann auch zur Laufzeit mit dem flexiblen API von Aspose.Cells.GridWeb ausgeführt werden.
+| :- | :- |
+|Standard|Silver|
+|Colorful1|Rose|
+|Colorful2|Blue|
+|Professional1|Cyan|
+|Professional2|Cyan again|
+|Traditional1|Dark|
+|Traditional2|Gray|
+|Custom|Customized|
+Wenn ein bestimmter Stil ausgewählt ist, ändert er das gesamte Erscheinungsbild des GridWeb-Steuer elements. Entwickler können einen voreingestellten Stil auswählen, der zur Entwurfszeit auf das Raster angewendet wird, diese Aufgabe kann jedoch auch zur Laufzeit mit der flexiblen API von Aspose.Cells.GridWeb durchgeführt werden.
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells. Das GridWeb-Steuerelement wird durch die GridWeb-Klasse dargestellt.
+Das Aspose.Cells.GridWeb-Steuer element wird durch die GridWeb-Klasse repräsentiert.
 
 {{% /alert %}} 
 
-So wählen Sie einen voreingestellten Stil aus:
+Um einen voreingestellten Stil auszuwählen:
 
-1. Fügen Sie einem Webformular das Aspose.Cells.GridWeb-Steuerelement hinzu.
-1. Wählen Sie einen voreingestellten Stil aus, der auf das Steuerelement angewendet werden soll.
+1. Fügen Sie dem Webformular das Aspose.Cells.GridWeb-Steuer element hinzu.
+1. Wählen Sie einen voreingestellten Stil aus, der auf das Steuer element angewendet werden soll.
 
-Das GridWeb-Steuerelement stellt die PresetStyle-Eigenschaft bereit, der Entwickler jeden gewünschten voreingestellten Stil zuweisen können.
+Die GridWeb-Steuerung bietet die Eigenschaft PresetStyle, der Entwickler einen beliebigen voreingestellten Stil zuweisen können.
 
- Die Ausgabe des folgenden Code-Snippets ist unten dargestellt.
+Der Ausgang des folgenden Code-Schnipsels wird unten angezeigt. 
 
-**GridWeb-Steuerelement mit darauf angewendetem Colorful1-Stil** 
+**GridWeb-Steuerung mit angewendetem Colorful1-Stil** 
 
-![todo: Bild_alt_Text](apply-styles-to-gridweb_1.png)
+![todo:image_alt_text](apply-styles-to-gridweb_1.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyPresetStyle.aspx-ApplyPresetStyle.cs" >}}
-### **Kopfleistenstil**
-Wenn Sie sich das GridWeb-Steuerelement ansehen, werden Sie zwei Kopfleisten bemerken. Eine für Spalten (also A, B, C, D etc.) und eine für Zeilen (also 1, 2, 3, 4 etc.). Aspose.Cells.GridWeb ermöglicht es Entwicklern, das Erscheinungsbild dieser Kopfleisten zu steuern. Entwickler können den Stil von Kopfleisten entweder zur Entwurfszeit oder zur Laufzeit festlegen.
+### **Kopfzeilen-Stil**
+Wenn Sie das GridWeb-Steuer element betrachten, werden Sie feststellen, dass es zwei Kopfzeilen gibt. Eine für Spalten (d.h. A, B, C, D usw.) und eine andere für Zeilen (d.h. 1, 2, 3, 4 usw.). Aspose.Cells.GridWeb ermöglicht es Entwicklern, das Aussehen dieser Kopfzeilen zu steuern. Entwickler können das Aussehen der Kopfzeilen entweder zur Entwurfszeit oder zur Laufzeit festlegen.
 
 {{% alert color="primary" %}} 
 
-Das GridWeb-Steuerelement stellt die HeaderBarStyle-Eigenschaft bereit, die einen Stil auf beide Kopfleisten des Steuerelements anwendet.
+Die GridWeb-Steuerung bietet die Eigenschaft HeaderBarStyle, die einen Stil auf beide Kopfzeilen der Steuerung anwendet.
 
 {{% /alert %}} 
 
- Die Ausgabe des Beispielcodes unten wird hier gezeigt.
+Der Ausgang des unten stehenden Beispielcodes wird hier angezeigt. 
 
-**Modifizierter Stil der Kopfleiste** 
+**Geänderter Stil der Kopfzeile** 
 
-![todo: Bild_alt_Text](apply-styles-to-gridweb_2.png)
+![todo:image_alt_text](apply-styles-to-gridweb_2.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyHeaderBarStyle.aspx-ApplyHeaderBarStyle.cs" >}}
-### **Registerkartenleistenstil**
- Es ist möglich, den Stil der Registerkartenleiste festzulegen.
+### **Tab-Leistenstil**
+Es ist möglich, den Stil der Registerkarte zu ändern. 
 
-**Modifizierte Stile aktiver und nicht aktiver Registerkartenleisten** 
+**Geänderte Stile der aktiven und inaktiven Registerkarten** 
 
-![todo: Bild_alt_Text](apply-styles-to-gridweb_3.png)
+![todo:image_alt_text](apply-styles-to-gridweb_3.png)
 
-In der obigen Abbildung ist Sheet4 die aktive Registerkarte, daher unterscheidet sich ihr Erscheinungsbild von den anderen Registerkarten, wie im folgenden Beispielcode definiert.
+Im obigen Bild ist Sheet4 die aktive Registerkarte, daher unterscheidet sich ihr Erscheinungsbild von den anderen Registerkarten, wie im Beispielcode unten definiert.
 
 
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-ApplyTabBarStyle.aspx-ApplyTabBarStyle.cs" >}}
-### **Wiederverwendbare benutzerdefinierte Stildatei**
-Aspose.Cells. GridWeb unterstützt auch das Beibehalten seiner Darstellungs- oder Stileinstellungen in einer Datei. Wenn Sie alle Darstellungseigenschaften des GridWeb-Steuerelements festgelegt haben, können Sie diese Eigenschaften oder Einstellungen in einer Datenträgerdatei speichern. Dieser Ansatz ist sehr nützlich für Entwickler, um Zeit und Mühe zu sparen, indem sie ihre alten Stilkonfigurationen aus einer Stildatei wiederverwenden, anstatt alle Stil- (oder Darstellungs-)Eigenschaften des Steuerelements einzeln festzulegen.
+### **Wiederverwendbare benutzerdefinierte Stil-Datei**
+Aspose.Cells.GridWeb unterstützt auch die Speicherung ihrer Erscheinungs- oder Stil einstellungen in einer Datei. Wenn Sie alle Erscheinungseigenschaften des GridWeb-Steuer elements festgelegt haben, können Sie diese Eigenschaften oder Einstellungen in einer Datei auf dem Datenträger speichern. Dieser Ansatz ist sehr nützlich für Entwickler, um Zeit und Mühe zu sparen, indem sie ihre alten Stil konfigurationen aus einer Stil datei wiederverwenden anstatt alle Stil (oder Erscheinungs-) eigenschaften des Steuer elements einzeln festzulegen.
 ### **Stildatei speichern**
-Nachdem Sie die Stileigenschaften festgelegt haben, können Sie Ihre Stilkonfigurationseinstellungen in Form einer XML-Datei speichern (weil diese Stildatei als XML-Datei gespeichert wird), indem Sie die SaveCustomStyleFile-Methode des GridWeb-Steuerelements aufrufen.
+Nachdem Sie die Stil eigenschaften festgelegt haben, können Sie Ihre Stil konfigurationseinstellungen in Form einer XML-Datei (weil die Stil datei als XML-Datei gespeichert ist) speichern, indem Sie die Methode SaveCustomStyleFile des GridWeb-Steuer elements aufrufen.
 
 
 
@@ -90,15 +93,15 @@ Nachdem Sie die Stileigenschaften festgelegt haben, können Sie Ihre Stilkonfigu
 
 {{% alert color="primary" %}} 
 
-Die gespeicherte Stildatei ist im XML-Format, sodass Entwickler diese Datei bei Bedarf auch mit einem beliebigen Texteditor bearbeiten können.
+Die gespeicherte Stil datei liegt im XML-Format vor, so dass Entwickler diese Datei bei Bedarf auch mit einem Texteditor bearbeiten können.
 
 {{% /alert %}} 
-### **Style-Datei wird geladen**
-Um Stileinstellungen aus einer vorhandenen Stildatei auf das GridWeb-Steuerelement anzuwenden, können Entwickler den Pfad der Stildatei auf die CustomStyleFileName-Eigenschaft des Steuerelements festlegen. Aber bevor Sie dies tun, müssen Sie die PresetStyle-Eigenschaft des Steuerelements auf Custom setzen. Dies liegt daran, dass diese Stildatei benutzerdefinierte Stilinformationen enthält, die bereits von einem Entwickler definiert wurden.
+### **Stil-Datei laden**
+Um style-Einstellungen aus einer bestehenden Style-Datei auf das GridWeb-Steuerelement anzuwenden, können Entwickler den Pfad der Style-Datei auf die CustomStyleFileName-Eigenschaft des Steuerlements setzen. Bevor dies geschieht, muss jedoch die PresetStyle-Eigenschaft des Steuerelements auf Benutzerdefiniert gesetzt werden. Dies liegt daran, dass die Style-Datei benutzerdefinierte Style-Informationen enthält, die bereits von einem Entwickler definiert wurden.
 
 {{% alert color="primary" %}} 
 
-Es ist auch möglich, Stildateien mit Aspose.Cells.GridWeb Designer zu laden oder zu speichern.
+Es ist auch möglich, eine Style-Datei mit dem Aspose.Cells.GridWeb Designer zu laden oder zu speichern.
 
 {{% /alert %}} 
 
@@ -106,11 +109,11 @@ Es ist auch möglich, Stildateien mit Aspose.Cells.GridWeb Designer zu laden ode
 
 {{% alert color="primary" %}} 
 
-WICHTIG: Das Laden der Stildatei in das GridWeb-Steuerelement wirkt sich nicht auf die Formatierungseinstellungen der Zellen des Steuerelements aus.
+WICHTIG: Das Laden einer Stil-Datei in das GridWeb-Steuerelement hat keine Auswirkungen auf die Formatierungseinstellungen der Zellen des Steuerelements.
 
 {{% /alert %}} 
-### **Standardformat der XML-Stilvorlage**
-{{< highlight "java" >}}
+### **Standardformat der XML-Style-Vorlage**
+{{< highlight java >}}
 
  <ViewerStyleTemplate SelectCellColor="Black" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LayoutFixed="Fixed" FrameTableStyle-BorderWidth="1px" FrameTableStyle-BorderColor="Gray" FrameTableStyle-BorderCollapse="Collapse" FrameTableStyle-BackColor="White" SelectCellBgColor="#EEEEFF" HeaderBarWidth="30pt" ScrollBarBaseColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-Font-Names="Arial" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" HeaderBarStyle-Wrap="False" ActiveHeaderColor="Black" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarHeight="15pt" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-Font-Names="Arial" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-BorderStyle="Solid" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-BackColor="White" ActiveTabStyle-Wrap="False" ActiveCellColor="Black" DefaultGridLineColor="Silver" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-BorderWidth="0px" ViewTableStyle-BorderCollapse="Collapse" ActiveCellBgColor="#DDDDFF" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-Font-Names="Arial" TabStyle-BorderColor="Gray" TabStyle-BorderStyle="Solid" TabStyle-ForeColor="Black" TabStyle-BackColor="#E0E0E0" TabStyle-Wrap="False" ActiveHeaderBgColor="#F2F2F2" ScrollBarArrowColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-Height="20pt" BottomTableStyle-BorderWidth="0px" BottomTableStyle-BorderCollapse="Collapse" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BackColor="#F0F0F0" />
 

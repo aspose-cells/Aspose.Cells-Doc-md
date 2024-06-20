@@ -1,29 +1,30 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.7.1
+---
+title: Förändringar i offentligt API i Aspose.Cells 8.7.1
 type: docs
 weight: 240
 url: /sv/net/public-api-changes-in-aspose-cells-8-7-1/
 ---
-{{% alert color="primary" %}} 
-
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.7.0 till 8.7.1 som kan vara av intresse för modul-/applikationsutvecklare. Den innehåller inte bara nya och uppdaterade offentliga metoder, tillagda och borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
-
-{{% /alert %}} 
-## **Lade till API:er**
-### **Lade till LookInType.OriginalValues-egenskap**
- Aspose.Cells API:er stöder redan[Hitta eller sök data](/cells/sv/net/find-or-search-data/)funktion för kalkylblad för att hitta ett visst innehåll i cellvärde och formel. Den här funktionen saknade dock aspekten av formatering som applicerades på cellen som kan ändra utseendet såväl som värdet på innehållet, vilket gör texten osökbar med det ursprungliga värdet. Med denna utgåva av Aspose.Cells API:er har en annan konstant vid namn LookInType.OriginalValues exponerats för allmänheten API vilket gör det möjligt att övervinna situationen som diskuterats ovan.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Sök efter data med hjälp av ursprungliga värden](/cells/sv/net/search-data-using-original-values/)
+Det här dokumentet beskriver förändringarna i Aspose.Cells API från version 8.7.0 till 8.7.1 som kan vara av intresse för modul-/applikationsutvecklare. Det inkluderar inte bara nya och uppdaterade offentliga metoder, tillagda & borttagna klasser etc., utan också en beskrivning av eventuella förändringar i beteendet bakom kulisserna i Aspose.Cells.
+
+{{% /alert %}} 
+## **Tillagda API:er**
+### **Lagt till LookInType.OriginalValues Egenskap**
+Aspose.Cells API:er stöder redan [Sök eller Sök Data](/cells/sv/net/find-or-search-data/) funktionen för kalkylblad för att hitta något speciellt innehåll i cellvärde & formel. Dock saknade denna funktion aspekten på formatering som tillämpades på cellen som kan ändra utseendet samt värdet på innehållet, följaktligen gör texten osoekbar med det ursprungliga värdet. Med denna version av Aspose.Cells API:er har en annan konstant vid namn LookInType.OriginalValues exponerats till den offentliga API: n vilket tillåter att övervinna situationen som diskuterats ovan.
+
+{{% alert color="primary" %}} 
+
+För mer detaljer om denna funktion, vänligen granska den detaljerade artikeln om [Sök Data Med Ursprungliga Värden](/cells/sv/net/search-data-using-original-values/)
 
 {{% /alert %}} 
 
-Följande är det enkla användningsscenariot.
+Följande är det enkla användningscenariot.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -84,14 +85,14 @@ Console.WriteLine(foundCell);
 {{< /highlight >}}
 
 
-### **Lade till OnBeforeColumnFilter Event för GridWeb**
-Aspose.Cells.GridWeb for .NET 8.7.1 har avslöjat händelsen OnBeforeColumnFilter som fungerar som återuppringning till filtreringsmekanismen som görs via GridWeb UI. Som namnet antyder utlöses händelsen innan kolumnfiltreringen tillämpas och kan användas för att få filtreringsinformation som kolumnindex och värde på vilket filter måste tillämpas.
+### **Lagt till OnBeforeColumnFilter Händelse för GridWeb**
+Aspose.Cells.GridWeb för .NET 8.7.1 har exponerat OnBeforeColumnFilter händelsen som fungerar som återkoppling till filtermekanismen som utförs genom GridWeb UI. Som namnet antyder aktiveras händelsen innan kolumnfiltreringen tillämpas och kan användas för att få information om filtrering såsom kolumnindex och värde på vilket filter ska appliceras.
 
-Enkelt användningsscenario ser ut som följer.
+Enkelt användningsscenarie ser ut som följande.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void GridWeb1_ColumnFilter(object sender, Aspose.Cells.GridWeb.RowColumnEventArgs e)
 
@@ -105,6 +106,6 @@ Enkelt användningsscenario ser ut som följer.
 
 {{% alert color="primary" %}} 
 
-Glöm inte att registrera evenemanget till GridWeb control<acw:gridweb OnBeforeColumnFilter="GridWeb1_ColumnFilter"/>
+Do not forget to register the event to GridWeb control <acw:gridweb OnBeforeColumnFilter="GridWeb1_ColumnFilter"/>
 
 {{% /alert %}}

@@ -1,23 +1,24 @@
-﻿---
-title: Public API Changements dans Aspose.Cells 8.6.3
+---
+title: Modifications de l API publique dans Aspose.Cells 8.6.3
 type: docs
 weight: 230
 url: /fr/java/public-api-changes-in-aspose-cells-8-6-3/
 ---
+
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.Cells API de la version 8.6.2 à 8.6.3 qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement des méthodes publiques nouvelles et mises à jour, des classes ajoutées, mais également une description de tout changement de comportement en coulisse dans Aspose.Cells.
+Ce document décrit les changements apportés à l'API Aspose.Cells de la version 8.6.2 à la version 8.6.3 qui pourraient intéresser les développeurs de modules/applications. Il inclut non seulement les nouvelles méthodes publiques et mises à jour, les classes ajoutées, mais aussi une description de tout changement dans le comportement en arrière-plan dans Aspose.Cells.
 
 {{% /alert %}} 
-## **API ajoutées**
+## **APIs ajoutées**
 ### **Prise en charge de l'analyse HTML lors de l'importation de données**
-Cette version de Aspose.Cells for Java API a exposé l'attribut ImportTableOptions.setHtmlString qui ordonne au API d'analyser les balises HTML lors de l'importation de données dans la feuille de calcul et de définir le résultat analysé comme valeur de cellule. Veuillez noter que les API Aspose.Cells fournissent déjà l'attribut Cell.setHtmlString pour effectuer cette tâche pour une seule cellule, cependant, lors de l'importation de données en bloc, l'attribut ImportTableOptions.setHtmlString (lorsqu'il est défini sur true) essaie d'analyser toutes les balises et ensembles HTML pris en charge. les résultats analysés dans les cellules correspondantes.
+Cette version de l'API Aspose.Cells for Java expose l'attribut ImportTableOptions.setHtmlString qui permet à l'API d'analyser les balises HTML lors de l'importation de données sur la feuille de calcul et de définir le résultat analysé comme valeur de cellule. Veuillez noter que les API Aspose.Cells fournissent déjà l'attribut Cell.setHtmlString pour effectuer cette tâche pour une seule cellule, cependant, lors de l'importation de données en vrac, l'attribut ImportTableOptions.setHtmlString (lorsqu'il est défini sur true) tente d'analyser toutes les balises HTML prises en charge et définit les résultats analysés dans les cellules correspondantes.
 
 Voici le scénario d'utilisation le plus simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //create an instance of ImportTableOptions
 
@@ -32,14 +33,14 @@ importOptions.setHtmlString(true);
 cells.importData(iTable, 0, 0, importOptions);
 
 {{< /highlight >}}
-### **Méthode Workbook.createBuiltinStyle ajoutée**
- Aspose.Cells for Java 8.6.3 a exposé la méthode Workbook.createBuiltinStyle qui peut être utilisée pour créer un objet de la classe Style qui correspond à l'un des[styles intégrés offerts par l'application Excel](/cells/fr/java/using-built-in-styles/)La méthode Workbook.createBuiltinStyle accepte une constante de l'énumération BuiltinStyleType. Veuillez noter qu'avec les versions précédentes des API Aspose.Cells, la même tâche pouvait être accomplie via la méthode StyleCollection.createBuiltinStyle, mais comme les versions récentes des API Aspose.Cells ont supprimé la classe StyleCollection, la méthode Workbook.createBuiltinStyle nouvellement exposée peut être considérée comme une approche alternative pour réaliser la même chose.
+### **Ajout de la méthode Workbook.createBuiltinStyle**
+Aspose.Cells for Java 8.6.3 a exposé la méthode Workbook.createBuiltinStyle qui peut être utilisée pour créer un objet de la classe Style correspondant à l'un des [styles intégrés offerts par l'application Excel](/cells/fr/java/using-built-in-styles/). La méthode Workbook.createBuiltinStyle accepte une constante de l'énumération BuiltinStyleType. Veuillez noter qu'avec les versions précédentes des API Aspose.Cells, la même tâche pouvait être accomplie via la méthode StyleCollection.createBuiltinStyle mais comme les versions récentes des API Aspose.Cells ont supprimé la classe StyleCollection, la méthode Workbook.createBuiltinStyle nouvellement exposée peut être considérée comme une approche alternative pour atteindre le même objectif.
 
 Voici le scénario d'utilisation simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -52,14 +53,14 @@ Workbook book = new Workbook();
 Style style = book.createBuiltinStyle(BuiltinStyleType.TITLE);
 
 {{< /highlight >}}
-### **Propriété LoadDataOption.OnlyVisibleWorksheet ajoutée**
-Aspose.Cells for Java 8.6.3 a exposé la propriété LoadDataOption.OnlyVisibleWorksheet qui, lorsqu'elle est définie sur true, influencera le mécanisme de chargement de Aspose.Cells for Java API, par conséquent, seules les feuilles de calcul visibles d'une feuille de calcul donnée seront chargées.
+### **Ajout de la propriété LoadDataOption.OnlyVisibleWorksheet**
+Aspose.Cells for Java 8.6.3 a exposé la propriété LoadDataOption.OnlyVisibleWorksheet qui, lorsqu'elle est définie sur true, influencera le mécanisme de chargement de l'API Aspose.Cells for Java, permettant ainsi de charger uniquement les feuilles de calcul visibles d'une feuille de calcul donnée.
 
 Voici le scénario d'utilisation simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadDataOption
 
@@ -84,8 +85,8 @@ loadOptions.setLoadDataOptions(loadDataOptions);
 Workbook book = new Workbook(inputFilePath, loadOptions);
 
 {{< /highlight >}}
-## **API obsolètes**
-### **Méthode Worksheet.copyConditionalFormatting Obsolète**
+## **APIs obsolètes**
+### **Méthode Worksheet.copyConditionalFormatting obsolète**
 Comme alternative à la méthode Worksheet.copyConditionalFormatting, il est conseillé d'utiliser l'une des méthodes Cells.copyRows ou Range.copy.
-### **Propriété Cells.Fin Obsolète**
-Veuillez utiliser la propriété Cells.LastCell comme alternative à la propriété Cells.End.
+### **Propriété Cells.End obsolète**
+Veuillez utiliser la propriété Cells.LastCell en remplacement de la propriété Cells.End.

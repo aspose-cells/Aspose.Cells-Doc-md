@@ -1,19 +1,20 @@
 ---
-title: Отключить перенос текста для меток данных диаграммы
-description: Узнайте, как отключить перенос текста для меток данных на диаграммах, используя Aspose.Cells for .NET. Наше руководство покажет вам, как предотвратить перекрытие длинных меток и обеспечить более читаемое и четкое отображение диаграмм.
-keywords: Aspose.Cells for .NET, charting, data labels, text wrapping, overlapping, readability, displays.
+title: Отключение переноса текста для меток данных диаграммы
+description: Узнайте, как отключить перенос текста для меток данных на диаграммах с помощью Aspose.Cells for .NET. Наше руководство покажет вам, как предотвратить перекрытие длинных меток и обеспечить более читаемое и понятное отображение диаграмм.
+keywords: Aspose.Cells for .NET, построение диаграмм, метки данных, перенос текста, перекрытие, читаемость, отображение.
 type: docs
 weight: 70
 url: /ru/net/disable-text-wrapping-for-data-labels-of-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel 2013 позволяет пользователям переносить или разворачивать текст внутри меток данных диаграммы. По умолчанию текст внутри меток данных диаграммы находится в завернутом состоянии.
+Microsoft Excel 2013 позволяет пользователям включать или отключать перенос текста в метках данных диаграммы. По умолчанию текст в метках данных диаграммы находится в перенесенном состоянии.
 
- Aspose.Cells предоставляет[**DataLabels.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/istextwrapped) свойство, для которого вы можете установить значение True или False для включения или отключения текстового переноса меток данных соответственно.
+Aspose.Cells предоставляет свойство [**DataLabels.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/istextwrapped), которое можно установить в True или False для включения или отключения переноса текста меток данных соответственно.
 
 {{% /alert %}}
 
-В приведенном ниже примере кода показано, как отключить перенос текста для меток данных диаграммы.
+Ниже приведен образец кода, показывающий, как отключить перенос текста для меток данных диаграммы.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DisableTextWrappingForDataLabels-DisableTextWrappingForDataLabels.cs" >}}

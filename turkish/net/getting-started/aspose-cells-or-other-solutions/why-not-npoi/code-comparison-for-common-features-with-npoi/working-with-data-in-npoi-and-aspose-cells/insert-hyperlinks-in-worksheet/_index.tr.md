@@ -1,17 +1,18 @@
-﻿---
-title: Çalışma Sayfasına Köprü Ekleme
+---
+title: Çalışma Sayfasında Bağlantı Ekleme
 type: docs
 weight: 20
 url: /tr/net/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Çalışma Sayfasına Köprüler Ekle**
-**Aynı Dosyada Cell'e Bağlantı Ekleme**
 
-Hyperlink koleksiyonunun Add yöntemini çağırarak aynı Excel dosyasındaki hücrelere köprü eklemek mümkündür. Add yöntemi hem iç hem de dış köprüler için çalışır.
+## **Aspose.Cells - Çalışma Sayfasında Bağlantı Ekleme**
+**Aynı Dosyada Bir Hücreye Bağlantı Ekleme**
+
+Bir hücreye hem iç hem de dış bağlantılar eklemek için, Hyperlink koleksiyonunun Add yöntemini çağırmak mümkündür. Add yöntemi, iç ve dış bağlantılar için çalışır.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -64,18 +65,18 @@ workbook.Save("test.xlsx");
 
 {{< /highlight >}}
 
-**Harici Dosyaya Bağlantı Ekleme**
+**Harici Bir Dosyaya Bağlantı Ekleme**
 
-Hyperlink koleksiyonunun Add yöntemini çağırarak aynı Excel dosyasındaki hücrelere köprü eklemek mümkündür. Add yöntemi hem iç hem de dış köprüler için çalışır. Aşırı yüklenmiş yöntemin bir sürümü aşağıdaki parametreleri alır:
+Aynı Excel dosyasındaki hücrelere hyperlink eklemek için Hyperlink koleksiyonunun Add yöntemini çağırarak mümkündür. Add yöntemi, hem iç hem de dış hyperlink'ler için çalışır. Aşırı yüklenmiş yöntemin bir sürümü aşağıdaki parametreleri alır:
 
-- Cell ad, köprünün ekleneceği hücrenin adı.
-- Satır sayısı, bu köprü aralığındaki satır sayısı.
-- Sütun sayısı, bu köprü aralığındaki sütun sayısı.
+- Hücre adı, hyperlink'in eklenmesi gereken hücrenin adı.
+- Satır sayısı, bu hyperlink aralığındaki satır sayısı.
+- Sütun sayısı, bu hyperlink aralığındaki sütun sayısı.
 - URL, hedef hücrenin adresi.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -96,10 +97,10 @@ worksheet.Hyperlinks.Add("B3", 1, 1, "Sheet2!B9");
 workbook.Save("C:\\book1.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Çalışma Sayfasına Köprüler Ekle**
+## **NPOI - HSSF XSSF - Çalışma Sayfasına Hyperlink Eklemek**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -193,12 +194,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfasına Köprü Ekleme** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden **Çalışma Sayfasına Hyperlink Ekleme** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Insert.Hyperlinks.In.Worksheet.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Bağlantı Verilerine Köprü Ekleme](/cells/tr/net/adding-hyperlinks-to-link-data-in-aspose-cells/).
+Daha fazla ayrıntı için [Veri Bağlantılarını Linkleme](/cells/tr/net/adding-hyperlinks-to-link-data-in-aspose-cells/) adresini ziyaret edin.
 
 {{% /alert %}}

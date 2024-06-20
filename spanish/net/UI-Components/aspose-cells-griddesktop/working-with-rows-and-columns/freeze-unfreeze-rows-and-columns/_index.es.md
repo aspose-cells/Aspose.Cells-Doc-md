@@ -1,46 +1,49 @@
-﻿---
+---
 title: Congelar Descongelar Filas y Columnas
 type: docs
 weight: 70
-url: /es/net/freeze-unfreeze-rows-and-columns/
+url: /es/net/aspose-cells-griddesktop/freeze-unfreeze-rows-and-columns/
+keywords: GridDesktop, descongelar, congelar
+description: Este artículo introduce cómo congelar/descongelar fila/columna en GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Este tema trata la información sobre congelar y descongelar filas y columnas de una hoja de trabajo. La congelación de columnas o filas permite a los usuarios mantener visibles los encabezados de las columnas o los títulos de las filas mientras se desplazan a otras partes de la hoja de cálculo. Esta función es muy útil para desplazarse por las hojas de trabajo que contienen grandes volúmenes de datos. Porque, en tales casos, cuando los usuarios desplacen los datos, solo los datos se desplazarán hacia abajo y los encabezados permanecerán allí para aumentar la legibilidad de los datos.
+Este tema trata sobre la información acerca de congelar y descongelar filas y columnas de una hoja de cálculo. Congelar columnas o filas permite a los usuarios mantener visibles los encabezados de columna o títulos de fila mientras se desplazan a otras partes de la hoja de cálculo. Esta característica es muy útil para desplazarse por hojas de cálculo que contienen grandes volúmenes de datos. Porque, en tales casos, cuando los usuarios desplacen datos, solo los datos se desplazarán hacia abajo y los encabezados permanecerán allí para aumentar la legibilidad de los datos.
 
 {{% /alert %}} 
-## **Columnas de congelación**
-Para congelar columnas de una hoja de trabajo usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
+## **Congelar Columnas**
+Para congelar columnas de una hoja de cálculo utilizando Aspose.Cells.GridDesktop, siga los siguientes pasos:
 
--  Accede a cualquier deseado**Hoja de cálculo**
--  Establecer el número de**Columnas Congeladas** en el**hoja de trabajo**
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Establecer el número de **Columnas congeladas** en la **Hoja de cálculo**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-FreezeColumns.cs" >}}
-## **Columnas descongelantes**
-Para descongelar columnas de una hoja de trabajo usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
+## **Descongelar Columnas**
+Para descongelar columnas de una hoja de cálculo utilizando Aspose.Cells.GridDesktop, siga los siguientes pasos:
 
--  Accede a cualquier deseado**Hoja de cálculo**
--  Establecer el número de**Columnas Congeladas** en el**hoja de trabajo** a cero (0). Producirá el efecto de columnas descongeladas.
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Establecer el número de **Columnas congeladas** en la **Hoja de cálculo** en Cero (0). Esto producirá el efecto de descongelar las columnas
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-UnFreezeColumns.cs" >}}
-## **Congelación de filas**
-Para congelar filas de una hoja de trabajo usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
+## **Congelar Filas**
+Para congelar filas de una hoja de cálculo utilizando Aspose.Cells.GridDesktop, siga los siguientes pasos:
 
--  Accede a cualquier deseado**Hoja de cálculo**
--  Establecer el número de**filas congeladas** en el**hoja de trabajo**
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Establecer el número de **Filas congeladas** en la **Hoja de cálculo**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-FreezeUnfreezeRowsColumns-FreezeRows.cs" >}}
 ## **Descongelar filas**
-Para descongelar filas de una hoja de trabajo usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
+Para descongelar filas de una hoja de cálculo usando Aspose.Cells.GridDesktop, siga los siguientes pasos:
 
--  Accede a cualquier deseado**Hoja de cálculo**
--  Establecer el número de**filas congeladas** en el**hoja de trabajo** a cero (0). Producirá el efecto de filas descongeladas.
+- Acceda a cualquier **Hoja de Cálculo** deseada
+- Establezca el número de **Filas congeladas** en la **Hoja de cálculo** en cero (0). Esto producirá el efecto de filas descongeladas
 
 
 

@@ -1,14 +1,15 @@
 ---
-title: FAQ
+title: الأسئلة الشائعة (FAQ)
 type: docs
 weight: 100
 url: /ar/cpp/faq/
 ---
-##  **ليس بعد**
+
+## **ليس بعد**
 
 <!--
-## **Encryption and decryption are not supported for Aspose.Cells for C++ now**
-Now, encryption and decryption are not supported for Aspose.Cells for C++, so if you want to open a file with password the code will throw exception.
+## **التشفير والفك تشفير غير مدعومة الآن لـ Aspose.Cells for C++**
+الآن، الشفرة التشفير وفك تشفير غير مدعومة لـ Aspose.Cells for C++، لذا إذا كنت تريد فتح ملف بكلمة مرور فإن الشفرة ستقذف استثناء.
 
 
 

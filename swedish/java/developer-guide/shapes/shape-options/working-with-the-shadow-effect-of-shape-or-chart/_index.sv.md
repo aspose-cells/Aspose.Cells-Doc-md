@@ -1,11 +1,12 @@
-﻿---
-title: Arbeta med skuggeffekten av form eller diagram
+---
+title: Att arbeta med skuggeffekten i formen eller diagrammet
 type: docs
 weight: 940
 url: /sv/java/working-with-the-shadow-effect-of-shape-or-chart/
 ---
-## **Möjliga användningsscenarier**
- Aspose.Cells tillhandahåller[Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect)egenskap för att arbeta med skuggeffekten av form eller diagram. Den innehåller följande underegenskaper som du kan ställa in för att uppnå olika resultat enligt dina krav.
+
+## **Möjliga användningsscenario**
+Aspose.Cells tillhandahåller egenskapen [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) för att arbeta med skuggeffekten i formen eller diagrammet. Den innehåller följande underegenskaper som du kan ställa in för att uppnå olika resultat enligt dina behov.
 
 - [ShadowEffect.Angle](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Angle)
 - [ShadowEffect.Blur](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Blur)
@@ -15,10 +16,10 @@ url: /sv/java/working-with-the-shadow-effect-of-shape-or-chart/
 - [ShadowEffect.Size](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Size)
 - [ShadowEffect.Transparency](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#Transparency)
 
- Följande skärmdump visar Microsoft Excel-gränssnittet för att ställa in*Skuggeffekt*av form.
+Följande skärmbild visar Microsoft Excels gränssnitt för att ställa in *skugeffekten* i formen.
 
 ![todo:image_alt_text](working-with-the-shadow-effect-of-shape-or-chart_1.png)
-## **Arbeta med skuggeffekten av form eller diagram**
- Följande exempelkod laddar[source excel-fil](5472531.xlsx) och kommer åt den första formen i det första kalkylbladet och ställer in underegenskaperna för[Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect)egenskapen och sparar sedan arbetsboken i[output excel-fil](5472530.xlsx).
+## **Att arbeta med skuggeffekten i formen eller diagrammet**
+Följande kodexempel laddar [käll-excel-filen](5472531.xlsx) och får åtkomst till den första formen i den första arbetsboken och anger underegenskaperna för [Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect) egenskapen och sparar sedan arbetsboken i [utdata-excel-filen](5472530.xlsx).
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithShadowEffect-WorkingWithShadowEffect.java" >}}

@@ -1,19 +1,20 @@
-﻿---
-title: Tri personnalisé dans le tableau croisé dynamique
+---
+title: Tri personnalisé dans la table pivotante
 type: docs
 weight: 130
 url: /fr/net/custom-sorting-in-pivot-table/
 ---
-## **Tri personnalisé dans le tableau croisé dynamique**
-En utilisant le Aspose.Cells API, vous pouvez trier les tableaux croisés dynamiques sur les valeurs de champ. L'extrait de code suivant charge l'exemple de fichier Excel et ajoute trois tableaux croisés dynamiques. Le premier tableau croisé dynamique est sans tri personnalisé, le deuxième tableau croisé dynamique est trié sur les valeurs de champ de ligne "SeaFood" et le troisième tableau croisé dynamique est trié sur les valeurs de champ de colonne "28/07/2000".
 
-Un exemple de fichier source et de fichiers de sortie peut être téléchargé ici pour tester l'exemple de code :
+## **Tri personnalisé dans le tableau croisé dynamique**
+En utilisant l'API Aspose.Cells, vous pouvez trier les tables croisées dynamiques sur les valeurs des champs. L'extrait de code suivant charge le fichier excel d'exemple et ajoute trois tables croisées dynamiques. La première table croisée dynamique est sans tri personnalisé, la deuxième table croisée dynamique est triée sur les valeurs du champ "SeaFood" et la troisième table croisée dynamique est triée sur les valeurs du champ de colonne "28/07/2000".
+
+Le fichier source d'exemple et les fichiers de sortie peuvent être téléchargés ici pour tester le code d'exemple :
 
 [Fichier Excel source](98107428.xlsx)
 
 [Fichier Excel de sortie](98107429.xlsx)
 
-[Fichier de sortie PDF](98107430.pdf)
+[Fichier PDF de sortie](98107430.pdf)
 
 
 

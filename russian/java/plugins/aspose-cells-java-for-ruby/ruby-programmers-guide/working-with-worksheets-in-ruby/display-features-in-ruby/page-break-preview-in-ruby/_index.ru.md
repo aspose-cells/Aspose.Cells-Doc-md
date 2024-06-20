@@ -1,15 +1,16 @@
-﻿---
+---
 title: Предварительный просмотр разрыва страницы в Ruby
 type: docs
 weight: 70
 url: /ru/java/page-break-preview-in-ruby/
 ---
+
 ## **Aspose.Cells - Предварительный просмотр разрыва страницы**
- Чтобы настроить рабочий лист для предварительного просмотра разрыва страницы, используя**Aspose.Cells Java для рубина** , просто вызовите**PageBreakПредварительный просмотр** модуль.
+Чтобы установить лист для предварительного просмотра разрыва страницы с помощью **Aspose.Cells Java для Ruby**, просто вызовите модуль **PageBreakPreview**.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -36,7 +37,7 @@ workbook.save(data_dir + "output.xls")
 puts "Set page break preview, please check the output file."
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Предварительный просмотр разрыва страницы (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **Предварительный просмотр разрыва страницы (Aspose.Cells)** с любого из нижеуказанных сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreakpreview.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreakpreview.rb)

@@ -1,24 +1,25 @@
 ---
 title: Управление легендой диаграмм Excel
-description: Узнайте, как использовать Aspose.Cells for .NET для эффективного использования и настройки легенд диаграмм в Microsoft Excel. В нашем подробном руководстве объясняется функциональность легенды, способы доступа к ней и ее изменения, а также способы улучшения визуализации и понимания данных с помощью легенд.
-keywords: Aspose.Cells for .NET, Chart Legends, Microsoft Excel, Visualization, Data Understanding.
+description: Узнайте, как эффективно использовать Aspose.Cells for .NET для настройки и оптимизации легенд диаграмм в Microsoft Excel. Наш исчерпывающий руководство объясняет функциональность легенды, как получить доступ к ней и изменить ее, а также как улучшить визуализацию и понимание данных с помощью легенды.
+keywords: Aspose.Cells for .NET, Легенды диаграмм, Microsoft Excel, Визуализация, Понимание данных.
 linktitle: Легенда
 type: docs
 weight: 50
 url: /ru/net/chart-legend/
 ---
-##  **Параметры легенды**
- Aspose.Cells также позволяет управлять легендой диаграммы во время выполнения, с помощью[Легенда](https://reference.aspose.com/cells/net/aspose.cells.charts/legend/) объект, легенду можно перемещать, обновлять и форматировать.
 
-|![задача: image_alt_text](chart_legend.png)|
+## **Параметры легенды**
+Aspose.Cells также позволяет управлять легендой диаграммы во время выполнения, с помощью объекта [Legend](https://reference.aspose.com/cells/net/aspose.cells.charts/legend/), легенду можно перемещать, обновлять и форматировать.
 
-##  **Установка легенды диаграммы**
- Управлять легендой диаграммы просто с помощью Aspose.Cells.[Легенда](https://reference.aspose.com/cells/net/aspose.cells.charts/legend/).
+|![todo:image_alt_text](chart_legend.png)|
+
+## **Установка легенды диаграммы**
+Управлять легендой диаграммы с помощью Aspose.Cells [Legend](https://reference.aspose.com/cells/net/aspose.cells.charts/legend/) просто.
 
 Следующий фрагмент кода демонстрирует, как управлять легендой:
 
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "chart_legend.cs" >}}
 
-##  **Предварительные темы**
-- [Установите для текста легенды диаграммы значение «Нет», используя Aspose.Cells.](/cells/ru/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)
+## **Продвинутые темы**
+- [Установите текст заливки записи легенды диаграммы на отсутствие с использованием Aspose.Cells](/cells/ru/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/)

@@ -1,20 +1,21 @@
 ---
-title: Hacim-Yüksek-Düşük-Kapanış(VHLC) Hisse Senedi Grafiği Oluştur
+title: Hacim Yüksek Düşük Kapanış(VYDK) Hisse Senedi Grafiği Oluşturma
 type: docs
 weight: 183
 url: /tr/java/create-volume-high-low-close-stock-chart/
-description: Hacim-Yüksek-Düşük-Kapanış(VHLC) Hisse Senedi Grafiği nasıl oluşturulur, Hacim-Yüksek-Düşük-Kapanış(VHLC) Hisse Senedi Grafiği nasıl eklenir, Hacim-Yüksek-Düşük-Kapanış(VHLC) Hisse Senedi Grafiği nasıl oluşturulur .
-keywords: Add Volume-High-Low-Close(VHLC) Stock Chart, Create Volume-High-Low-Close(VHLC) Stock Chart, Generate Volume-High-Low-Close(VHLC) Stock Chart.
+description: Hacim Yüksek Düşük Kapanış(VYDK) Hisse Senedi Grafiği nasıl oluşturulur, Hacim Yüksek Düşük Kapanış(VYDK) Hisse Senedi Grafiği nasıl eklenir, Hacim Yüksek Düşük Kapanış(VYDK) Hisse Senedi Grafiği nasıl oluşturulur.
+keywords: Hacim Yüksek Düşük Kapanış(VYDK) Hisse Senedi Grafiği Ekle, Hacim Yüksek Düşük Kapanış(VYDK) Hisse Senedi Grafiği Oluştur, Hacim Yüksek Düşük Kapanış(VYDK) Hisse Senedi Grafiği Oluştur.
 ---
-##  **Olası Kullanım Senaryoları**
-Bakacağımız üçüncü hisse senedi grafiği Hacim Yüksek Düşük Kapanış grafiğidir. Verilerin doğru sırada olması gerektiğini bir kez daha tekrarlamak önemlidir. Veri tablonuzu yeniden düzenlemeniz gerekiyorsa bunu grafiğinizi oluşturmadan önce yapmalısınız.
-Bu grafik, ilk (kategori) sütunun hemen ardından hacim için bir sütun içerir ve grafikler, ana eksende bu hacmi gösteren bir sütun grafiği içerir, fiyatlar ise ikincil eksene taşınır.
 
-![yapılacak şey:image_alt_text](data.png)
-##  **Hacim-Yüksek-Düşük-Kapanış (VHLC) hisse senedi grafiği**
+## **Olası Kullanım Senaryoları**
+İnceleyeceğimiz üçüncü hisse senedi grafiği Hacim Yüksek Düşük Kapanış grafik. Yine doğru sıraya sahip verilere sahip olmanın önemli olduğunu tekrarlamak önemlidir. Veri tablonuzu yeniden düzenlemeniz gerekiyorsa, şematınızı kurmadan önce bunu yapmalısınız.
+Bu grafik, ilk (kategori) sütunun hemen ardından bir hacim sütunu içerir ve grafikler, bu hacmi gösteren birincil eksende bir sütun grafiği içerirken fiyatlar ikincil eksene taşınır.
 
-![yapılacak şey:image_alt_text](sample.png)
-##  **Basit kod**
- Aşağıdaki örnek kod,[örnek Excel dosyası](Volume-High-Low-Close.xlsx) ve üretir[Excel dosyasının çıktısı](out.xlsx).
+![todo:image_alt_text](data.png)
+## **Hacim-Yüksek-Düşük-Kapanış (VYDK) hisse senedi grafiği**
+
+![todo:image_alt_text](sample.png)
+## **Örnek Kod**
+Aşağıdaki örnek kod [örnek Excel dosyasını](Volume-High-Low-Close.xlsx) yükler ve [çıktı Excel dosyasını](out.xlsx) oluşturur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-create-volume-high-low-close-stock-chart.java" >}}

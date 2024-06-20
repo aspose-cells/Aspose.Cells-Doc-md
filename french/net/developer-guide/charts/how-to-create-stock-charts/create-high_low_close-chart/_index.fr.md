@@ -1,20 +1,21 @@
 ---
-title: Créer un graphique boursier haut-bas-clôture (HLC)
-description: Apprenez à créer un graphique boursier haut-bas-clôture en utilisant le Aspose.Cells for .NET. Notre guide étape par étape vous montrera comment tracer les données boursières, y compris les prix haut, bas et de clôture, sur un graphique pour une meilleure analyse et visualisation. .
-keywords: Aspose.Cells for .NET, High-Low-Close Stock Chart, Stock Market Data, Analysis, Visualization.
+title: Créer un graphique de stocks High Low Close (HLC)
+description: Apprenez à créer un graphique de stocks high low close en utilisant Aspose.Cells for .NET. Notre guide étape par étape démontrera comment tracer les données du marché boursier, y compris les prix élevés, bas et de clôture, sur un graphique pour une meilleure analyse et visualisation.
+keywords: Aspose.Cells for .NET, Graphique de stocks High Low Close, Données du marché boursier, Analyse, Visualisation.
 type: docs
 weight: 181
 url: /fr/net/create-high-low-close-stock-chart/
 ---
-##  **Scénarios d'utilisation possibles**
-Le graphique boursier High-Low-Close (HLC) utilise quatre colonnes de données. La première colonne est une catégorie, généralement une date, mais les noms de titres peuvent également être utilisés. Les trois colonnes suivantes, dans l'ordre, concernent les prix élevés, bas et de clôture. La fourchette de prix pour chaque catégorie est indiquée par une ligne verticale allant du plus bas au plus haut, et le cours de clôture est indiqué à l'aide d'une coche s'étendant à droite de cette ligne.
 
-![tâche : image_alt_text](sample.png)
-##  **Améliorations de la visibilité dans le graphique**
-Parfois, pour rendre le graphique plus intuitif, on peut modifier l'apparence du marqueur (fermer), ou le faire afficher sur l'axe secondaire.
+## **Scénarios d'utilisation possibles**
+Le graphique boursier High-Low-Close (HLC) utilise quatre colonnes de données. La première colonne est une catégorie, généralement une date, mais les noms des actions peuvent aussi être utilisés. Les trois colonnes suivantes sont, dans l'ordre, pour les prix élevés, bas et de clôture. La plage de prix pour chaque catégorie est indiquée par une ligne verticale allant du bas au haut, et le prix de clôture est montré à l'aide d'une marque s'étendant vers la droite de cette ligne.
 
-![tâche : image_alt_text](sample2.png)
-##  **Exemple de code**
- L'exemple de code suivant charge le[exemple de fichier Excel](High-Low-Close.xlsx) et génère le[sortie du fichier Excel](out.xlsx).
+![todo:image_alt_text](sample.png)
+## **Améliorations de la visibilité dans le graphique**
+Parfois, pour rendre le graphique plus intuitif, nous pouvons modifier l'apparence du marqueur (clôture), ou le faire s'afficher sur l'axe secondaire.
+
+![todo:image_alt_text](sample2.png)
+## **Code d'exemple**
+Le code d'exemple suivant charge le [fichier Excel d'exemple](High-Low-Close.xlsx) et génère le [fichier Excel de sortie](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-high-low-close-stock-chart.cs" >}}

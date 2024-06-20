@@ -1,30 +1,33 @@
-﻿---
-title: Associazione del foglio di lavoro a un oggetto raccolta personalizzato utilizzando GridWeb
+---
+title: Associazione del Foglio di Lavoro a un Oggetto di Collezione Personalizzato utilizzando GridWeb
 type: docs
 weight: 130
-url: /it/net/binding-worksheet-to-a-customized-collection-object-using-gridweb/
+url: /it/net/aspose-cells-gridweb/bind-worksheet-to-a-customized-collection-object-using-gridweb/
+keywords: GridWeb,bind
+description: Questo articolo introduce come associare un foglio di lavoro a una collezione in GridWeb. 
 ---
+
 {{% alert color="primary" %}} 
 
- Il framework Microsoft .NET offre molte classi di raccolta ma a volte non soddisfano i requisiti di sviluppo, quindi gli sviluppatori creano**collezioni personalizzate**e potrebbe essere necessario associare tali raccolte personalizzate a Aspose.Cells.GridWeb.
+Il framework Microsoft .NET offre molte classi di collezioni ma talvolta non soddisfano i requisiti di sviluppo, quindi gli sviluppatori creano **collezioni personalizzate**, e è possibile associare un foglio di lavoro a tali collezioni personalizzate in GridWeb.
 
 {{% /alert %}} 
-## **Associare un foglio di lavoro con una raccolta personalizzata**
-Per illustrare questa funzionalità, questo articolo spiega come creare un'applicazione di esempio, passo dopo passo. Innanzitutto, crea una raccolta personalizzata e quindi utilizza tale raccolta per associare con un foglio di lavoro.
-### **Passaggio 1: creazione di un record personalizzato**
-Prima di creare una raccolta personalizzata, creare una classe per contenere i record personalizzati che verranno archiviati nella raccolta. Lo scopo di questo articolo è dare un'idea di come creare le tue raccolte personalizzate e associarle a Aspose.Cells.GridWeb, quindi come creare il record personalizzato dipende da te.
+## **Associazione di un foglio di lavoro con una raccolta personalizzata**
+Per illustrare questa funzionalità, questo articolo illustra come creare un'applicazione di esempio passo dopo passo. Prima, creare una raccolta personalizzata e poi utilizzare quella raccolta per associarla a un foglio di lavoro.
+### **Passaggio 1: Creazione di un record personalizzato**
+Prima di creare una raccolta personalizzata, creare una classe per contenere i record personalizzati che verranno memorizzati nella raccolta. Lo scopo di questo articolo è quello di dare un'idea su come creare le tue raccolte personalizzate e associarle a GridWeb, quindi come crei il record personalizzato dipende da te.
 
-L'esempio seguente utilizza la classe MyCustomRecord che contiene cinque campi privati e cinque proprietà pubbliche che controllano l'accesso ai campi privati. Ecco la struttura delle proprietà:
+L'esempio di seguito utilizza la classe MyCustomRecord che contiene cinque campi privati e cinque proprietà pubbliche che controllano l'accesso ai campi privati. Ecco la struttura delle proprietà:
 
--  La proprietà StringField1 da leggere e scrivere**campostringa1** (corda).
--  La proprietà ReadonlyField2 di sola lettura**campostringa2** (corda).
--  Proprietà DateField1 da leggere e scrivere**campodata1** (Appuntamento).
--  La proprietà IntField1 da leggere e scrivere**intfield1** (numero intero).
--  La proprietà DoubleField1 da leggere e scrivere**doublefield1** (Doppio).
+- La proprietà StringField1 per leggere e scrivere **stringfield1** (stringa).
+- La proprietà ReadonlyField2 per leggere solo **stringfield2** (stringa).
+- La proprietà DateField1 per leggere e scrivere **datefield1** (DateTime).
+- La proprietà IntField1 per leggere e scrivere **intfield1** (intero).
+- La proprietà DoubleField1 per leggere e scrivere **doublefield1** (double).
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a class that will act as record for the custom collection
 
@@ -105,12 +108,12 @@ public class MyCustomRecord
 }
 
 {{< /highlight >}}
-### **Passaggio 2: creazione di una raccolta personalizzata**
-Ora, crea una raccolta personalizzata a cui aggiungere i record dei clienti e da cui accedervi. Per semplificare, questo esempio utilizza la classe MyCollection che contiene un indicizzatore di sola lettura. Utilizzando questo indicizzatore, possiamo ottenere qualsiasi record personalizzato archiviato nella raccolta.
+### **Passaggio 2: Creazione di una raccolta personalizzata**
+Ora, creare una raccolta personalizzata a cui aggiungere i record dei clienti e accedervi. Per semplificare, questo esempio utilizza la classe MyCollection che contiene un indice di sola lettura. Utilizzando questo indice, possiamo ottenere qualsiasi record personalizzato memorizzato nella raccolta.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a custom collection
 
@@ -141,23 +144,23 @@ public class MyCollection : CollectionBase
 }
 
 {{< /highlight >}}
-### **Passaggio 3: associazione di un foglio di lavoro con una raccolta personalizzata**
-Il processo di creazione di una raccolta personalizzata è completo. Utilizzare ora la raccolta personalizzata per associare a un foglio di lavoro in Aspose.Cells.GridWeb . Per prima cosa crea un modulo Web, aggiungi il controllo GridWeb e aggiungi del codice.
+### **Passaggio 3: Associazione di un foglio di lavoro con una raccolta personalizzata**
+Il processo di creazione di una raccolta personalizzata è completo. Ora utilizzare la raccolta personalizzata per associarla a un foglio di lavoro in Aspose.Cells.GridWeb. Prima creare un modulo web, aggiungere il controllo GridWeb ad esso e aggiungere del codice.
 
-Per utilizzare la raccolta personalizzata per l'associazione, creare innanzitutto un oggetto della classe MyCollection (creata nel passaggio precedente).
-Quindi creare e aggiungere oggetti MyCustomRecord all'oggetto MyCollection.
+Per utilizzare la raccolta personalizzata per l'associazione, creare prima un oggetto della classe MyCollection (creato nel passaggio precedente).
+Quindi creare e aggiungere gli oggetti MyCustomRecord all'oggetto MyCollection.
 
 {{% alert color="primary" %}} 
 
-Ti stai chiedendo perché non c'era un metodo nella classe MyCollection per aggiungere un oggetto MyCustomRecord alla collezione. Dai un'altra occhiata al codice sopra e noterai che la classe MyCollection è ereditata dalla classe CollectionBase (che ha implementato l'interfaccia IList che fornisce un metodo Add per aggiungere un oggetto alla collezione). Utilizzare il metodo Add della classe IList eseguendo l'upcast dell'oggetto MyCollection in IList.
+Ti stai chiedendo perché nella classe MyCollection non c'era un metodo per aggiungere un oggetto MyCustomRecord alla raccolta. Dai un'altra occhiata al codice sopra e noterai che la classe MyCollection eredita dalla classe CollectionBase (che ha implementato l'interfaccia IList che fornisce un metodo Add per aggiungere un oggetto alla raccolta). Utilizza il metodo Add della classe IList tramite l'upcasting dell'oggetto MyCollection a IList.
 
 {{% /alert %}} 
 
-Infine, imposta l'oggetto MyCollection come origine dati del foglio di lavoro e associa il foglio di lavoro alla raccolta. A questo punto, puoi anche creare regole di convalida per le colonne associate del foglio di lavoro.
+Infine, impostare l'oggetto MyCollection come origine dati del foglio di lavoro e associare il foglio di lavoro alla raccolta. A questo punto, è anche possibile creare regole di convalida per le colonne associate del foglio di lavoro.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Implementing Page_Load event handler
 
@@ -232,16 +235,16 @@ protected void Page_Load(object sender, EventArgs e)
 }
 
 {{< /highlight >}}
-### **Passaggio 4: gestione dell'evento InitializeNewBindRow del foglio di lavoro**
-Nel codice precedente, potresti aver notato una riga di codice aggiuntiva utilizzata per assegnare il gestore dell'evento GridWeb1_InitializeNewBindRow all'InitializeNewBindRow del foglio di lavoro. Questo evento viene attivato ogni volta che una nuova riga associata viene aggiunta al foglio di lavoro. Abbiamo creato un gestore eventi per questo evento a causa della proprietà DateField1 dell'oggetto MyCustomRecord.
+### **Passaggio 4: Gestione dell'evento InitializeNewBindRow del foglio di lavoro**
+Nel codice sopra, potresti aver notato una riga di codice aggiuntiva utilizzata per assegnare l'handler event GridWeb1_InitializeNewBindRow al InitializeNewBindRow del foglio di lavoro. Questo evento viene attivato ogni volta che viene aggiunta una nuova riga associata al foglio di lavoro. Abbiamo creato un gestore dell'evento per questo evento a causa della proprietà DateField1 dell'oggetto MyCustomRecord.
 
- Aspose.Cells.GridWeb si inizializza automaticamente**int** e**Doppio** valori con**zero (0)**ogni volta che una nuova riga associata viene aggiunta al controllo GridWeb. Per le date, vorremmo che il controllo GridWeb aggiungesse automaticamente la data corrente dal sistema. Per fare ciò, abbiamo creato il gestore dell'evento GridWeb1_InitializeNewBindRow per l'evento InitializeNewBindRow.
+Aspose.Cells.GridWeb inizializza automaticamente i valori **int** e **double** con **zero (0)** ogniqualvolta viene aggiunta una nuova riga vincolata al controllo GridWeb. Per le date, vogliamo che il controllo GridWeb aggiunga automaticamente la data corrente dal sistema. A tal scopo, abbiamo creato l'handler dell'evento GridWeb1_InitializeNewBindRow per l'evento InitializeNewBindRow.
 
-Accedere a una particolare istanza della classe MyCustomRecord da GridWeb utilizzando l'argomento bindObject e quindi assegnare la data di sistema corrente alla relativa proprietà DateField1.
+Accedi a un'istanza particolare della classe MyCustomRecord da GridWeb utilizzando l'argomento bindObject e quindi assegna la data corrente di sistema alla proprietà DateField1.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating GridWeb1_InitializeNewBindRow event handler
 
@@ -260,39 +263,39 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 }
 
 {{< /highlight >}}
-### **Passaggio 5: eseguire l'applicazione**
- Eseguire l'applicazione premendo uno dei due**Ctrl+F5** o facendo clic sul**Inizio** pulsante in VS.NET. Il modulo Web viene aperto in una nuova finestra del browser.
+### **Passo 5: Esecuzione dell'Applicazione**
+Esegui l'applicazione premendo **Ctrl+F5** o facendo clic sul pulsante **Start** in VS.NET. Il modulo web viene aperto in una nuova finestra del browser. 
 
-**Foglio di lavoro rilegato con una raccolta personalizzata** 
+**Foglio di lavoro vincolato con una collezione personalizzata** 
 
-![cose da fare:immagine_alt_testo](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
-
-
-
- Fare clic con il pulsante destro del mouse sul controllo GridWeb per aggiungere o eliminare un record. Ad esempio, aggiungi un nuovo record al foglio di lavoro selezionando**Aggiungi riga** opzione.
-
-**Selezionando l'opzione Aggiungi riga dal menu** 
-
-![cose da fare:immagine_alt_testo](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
 
 
 
- Quando una nuova riga viene aggiunta al foglio di lavoro, le celle contengono dati predefiniti inclusa la data di sistema corrente.
+Fai clic con il pulsante destro del mouse sul controllo GridWeb per aggiungere o eliminare un record. Ad esempio, aggiungi un nuovo record al foglio di lavoro selezionando l'opzione **Aggiungi Riga**. 
+
+**Selezionare l'opzione Aggiungi Riga dal menu** 
+
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
+
+
+
+Quando viene aggiunta una nuova riga al foglio di lavoro, le celle contengono dati predefiniti inclusa la data corrente di sistema. 
 
 **Nuova riga aggiunta al foglio di lavoro con dati predefiniti** 
 
-![cose da fare:immagine_alt_testo](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
 
 
 
-Dopo aver apportato modifiche ai dati, fare clic su**Salva** o**Invia** per salvare le modifiche.
+Dopo aver apportato modifiche ai dati, fare clic su **Salva** o **Invia** per salvare le modifiche. 
 
-**Salvataggio delle modifiche facendo clic sul pulsante Salva** 
+**Salvataggio delle modifiche cliccando sul pulsante Salva** 
 
-![cose da fare:immagine_alt_testo](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
-## **Conclusione**
+![todo:image_alt_text](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
+## **Conclusioni**
 {{% alert color="primary" %}} 
 
-Questo articolo ha mostrato come associare un foglio di lavoro a una raccolta personalizzata creata. Utilizzando Aspose.Cells.GridWeb, gli sviluppatori possono associare i fogli di lavoro a un database o a raccolte personalizzate tramite Worksheets Designer in modalità GUI o tramite codifica. Ciò offre agli sviluppatori un'ampia gamma di opzioni per la creazione di applicazioni.
+Questo articolo ha mostrato come vincolare un foglio di lavoro a una collezione personalizzata creata. Utilizzando Aspose.Cells.GridWeb, gli sviluppatori possono vincolare i fogli di lavoro sia a un database che a collezioni personalizzate tramite il Designer dei Fogli di Lavoro in modalità GUI o tramite codice. Questo fornisce una vasta gamma di opzioni agli sviluppatori per la creazione di applicazioni.
 
 {{% /alert %}}

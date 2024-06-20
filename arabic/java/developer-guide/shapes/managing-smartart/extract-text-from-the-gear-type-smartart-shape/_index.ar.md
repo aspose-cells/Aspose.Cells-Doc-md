@@ -1,24 +1,25 @@
-﻿---
-title: استخراج النص من نوع العتاد شكل SmartArt
+---
+title: استخراج النص من شكل SmartArt نوع الحركة
 type: docs
 weight: 130
 url: /ar/java/extract-text-from-the-gear-type-smartart-shape/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكن Aspose.Cells استخراج نص من نوع Gear Smart Art Shape. للقيام بذلك ، يجب عليك أولاً تحويل Smart Art Shape إلى Group Shape باستخدام ملف[**Shape.getResultOfSmartArt ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt()) طريقة. ثم يجب أن تحصل على مجموعة من جميع الأشكال الفردية التي تشكل شكل المجموعة باستخدام[**GroupShape.getGroupedShapes ()**](https://reference.aspose.com/cells/java/com.aspose.cells/groupshape#getGroupedShapes()) طريقة. أخيرًا ، يمكنك تكرار كل الأشكال الفردية واحدًا تلو الآخر في حلقة واستخراج نصها باستخدام ملف[**الشكل والنص**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text)خاصية.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **استخراج النص من نوع العتاد شكل SmartArt**
+يمكن لـ Aspose.Cells استخراج النص من شكل Gear Type Smart Art. للقيام بذلك ، يجب عليك أولاً تحويل Smart Art Shape إلى Group Shape باستخدام الطريقة [**Shape.getResultOfSmartArt()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#getResultOfSmartArt--). ثم يجب عليك الحصول على مجموعة من جميع الأشكال الفردية التي تشكل Group Shape باستخدام الطريقة [**GroupShape.getGroupedShapes()**](https://reference.aspose.com/cells/java/com.aspose.cells/groupshape#getGroupedShapes--). في النهاية ، يمكنك تكرار جميع الأشكال الفردية واحدة تلو الأخرى في حلقة واحدة واستخراج نصوصهم باستخدام الخاصية [**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text).
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](67338510.xlsx)الذي يحتوي على نوع Gear Smart Art Shape. ثم يستخرج النص من أشكاله الفردية كما تمت مناقشته أعلاه. يرجى الاطلاع على إخراج وحدة التحكم من الكود الوارد أدناه كمرجع.
+## **استخراج النص من شكل SmartArt نوع الحركة**
 
-## **عينة من الرموز**
+يحمل الكود المصدري التالي [ملف Excel عيني](67338510.xlsx) الذي يحتوي على شكل Smart Art Type. ثم يستخرج النص من أشكاله الفردية كما هو مناقش أعلاه. يُرجى الاطلاع على مخرجات واجهة التحكم للكود المصدري المعطى أدناه للإشارة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-ExtractTextFromGearTypeSmartArtShape.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Gear Type Shape Text: Nice Gear Type Shape Text: Good Gear Type Shape Text: Excellent
 

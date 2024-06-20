@@ -1,23 +1,24 @@
-﻿---
+---
 title: Erstellen eines benannten Bereichs in VSTO und Aspose.Cells
 type: docs
 weight: 90
 url: /de/net/creating-a-named-range-in-vsto-and-aspose-cells/
 ---
-So erstellen Sie einen benannten Bereich:
 
-1.  Erstellen Sie das Arbeitsblatt:
- 1. Instanziieren Sie ein Anwendungsobjekt. (Nur VSTO.)
- 1. Fügen Sie eine Arbeitsmappe hinzu.
- 1. Holen Sie sich das erste Blatt.
-1.  Erstellen Sie einen benannten Bereich:
- 1. Definieren Sie einen Bereich.
- 1. Benennen Sie den Bereich.
- 1. Speichern Sie die Datei.
+Um einen benannten Bereich zu erstellen:
 
-Die folgenden Codebeispiele zeigen, wie diese Schritte unter Verwendung von VSTO mit entweder C# ausgeführt werden.
+1. Richten Sie das Arbeitsblatt ein: 
+   1. Instanziieren Sie ein Application-Objekt (nur VSTO).
+   1. Fügen Sie ein Arbeitsbuch hinzu.
+   1. Holen Sie sich das erste Blatt.
+1. Erstellen Sie einen benannten Bereich: 
+   1. Definieren Sie einen Bereich.
+   1. Benennen Sie den Bereich.
+   1. Speichern Sie die Datei.
+
+Die untenstehenden Codebeispiele zeigen, wie diese Schritte mithilfe von VSTO und entweder C# durchgeführt werden. Die nachfolgenden Codebeispiele zeigen, wie dasselbe mit Aspose.Cells for .NET, ebenfalls mit C#, erreicht werden kann.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create Excel Object
 
@@ -63,25 +64,25 @@ xl.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Instanziieren eines Workbook-Objekts
+ //Instantiating a Workbook object
 
-Arbeitsmappe Arbeitsmappe = neue Arbeitsmappe();
+Workbook workbook = new Workbook();
 
-//Auf das erste Arbeitsblatt in der Excel-Datei zugreifen
+//Accessing the first worksheet in the Excel file
 
-Arbeitsblatt Arbeitsblatt = Arbeitsmappe.Arbeitsblätter[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Einen benannten Bereich erstellen
+//Creating a named range
 
-Bereichsbereich = Arbeitsblatt.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Festlegen des Namens des benannten Bereichs
+//Setting the name of the named range
 
-Bereich.Name = "Testbereich";
+range.Name = "Test_Range";
 
- for (int zeile = 0; zeile< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 
@@ -102,6 +103,6 @@ workbook.Save("Test_Range.xls");
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
-- [Quellenschmiede](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/herunterladen)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).Postleitzahl)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip)

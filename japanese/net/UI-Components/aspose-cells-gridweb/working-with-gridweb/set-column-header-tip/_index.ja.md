@@ -1,20 +1,23 @@
-﻿---
-title: 列ヘッダーのヒントを設定する
+---
+title: 列ヘッダーチップを設定する
 type: docs
 weight: 150
-url: /ja/net/set-column-header-tip/
+url: /ja/net/aspose-cells-gridweb/set-column-header-tip/
+keywords: GridWeb,column,header,tip
+description: この記事では、GridWebで列ヘッダーチップを設定する方法を紹介します。
 ---
-## **考えられる使用シナリオ**
-ワークシートでテーブルを作成するときに、カスタム列のツールヒントを設定する必要がある場合があります。 Aspose.Cells.GridWeb では、列のキャプションの名前を変更したり、列にツールチップを設定したりできるため、ユーザーは列の目的を簡単に理解できます。
-## **列ヘッダーのヒントの設定**
-列のキャプションを変更し、ツールチップ テキストを適用する方法を示す完全な例を以下に示します。上記のサンプル コードを実行した後、指定した列のヘッダーにマウス カーソルを合わせると、次のようにツールヒント テキストが表示されます。
 
-![todo:画像_代替_文章](set-column-header-tip_1.png)
+## **可能な使用シナリオ**
+ワークシートでテーブルを作成する際に、カスタムカラムのツールヒントを設定する必要があるかもしれません。Aspose.Cells.GridWebを使用すると、列の見出しを変更し、ツールヒントを設定することができます。これにより、ユーザーがカラムの用途を簡単に理解できます。
+## **列見出しヒントの設定**
+列の見出しを変更してツールヒントテキストを適用する方法を示す完全な例が以下に示されています。上記のコードを実行した後、指定した列の見出しにマウスカーソルを置くとツールヒントが表示されます。
+
+![todo:image_alt_text](set-column-header-tip_1.png)
 ## **サンプルコード**
-のサンプル スクリプトは次のとおりです。**ASPXページ**.
+こちらは**ASPXページ**のサンプルスクリプトです。
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-SetColumnHeaderTip.aspx" >}}
 
-のサンプルコードはこちら**ASPX コード ビハインド CS ファイル**.
+こちらは**ASPXコードビハインドCSファイル**のサンプルコードです。
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-SetColumnHeaderTip.aspx.cs" >}}

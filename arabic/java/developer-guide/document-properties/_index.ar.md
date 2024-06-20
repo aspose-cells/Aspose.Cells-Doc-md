@@ -1,4 +1,4 @@
-﻿---
+---
 title: خصائص المستند
 type: docs
 weight: 59

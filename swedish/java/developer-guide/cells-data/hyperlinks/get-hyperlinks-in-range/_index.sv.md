@@ -1,12 +1,13 @@
-﻿---
-title: Få hyperlänkar inom räckvidd
+---
+title: Få hyperlänkar inom intervall
 type: docs
 weight: 130
 url: /sv/java/get-hyperlinks-in-range/
 ---
-## **Få hyperlänkar inom räckvidd**
 
-De[**Räckvidd**](https://reference.aspose.com/cells/java/com.aspose.cells/range) klass ger en[**getHyperlinks()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#Hyperlinks) egenskapsgetter som får alla hyperlänkar i det valda intervallet. Du kan också ta bort hyperlänken genom att ringa till[**Hyperlink.delete()**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#delete()) metod.
+## **Hämta hyperlänkar i omfånget**
+
+Klassen [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/range) tillhandahåller en [**getHyperlinks()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#Hyperlinks)-egenskapshämtare som hämtar alla hyperlänkar i det valda området. Du kan också ta bort hyperlänken genom att anropa [**Hyperlink.delete()**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#delete--)-metoden.
 
 ## Exempelkod
 

@@ -1,40 +1,41 @@
-﻿---
-title: Läser CSV Fil med flera kodningar
+---
+title: Läsning av CSV fil med flera kodningar
 type: docs
 weight: 140
 url: /sv/java/reading-csv-file-with-multiple-encodings/
 ---
+
 {{% alert color="primary" %}} 
 
-Ibland innehåller din CSV-fil flera kodningar (Unicode, ANSI, UTF8, UTF7 etc). Aspose.Cells låter dig ladda sådana CSV-filer och konvertera dem till andra format, till exempel PDF eller XLSX.
+Ibland innehåller din CSV-fil flera kodningar (Unicode, ANSI, UTF8, UTF7 osv). Aspose.Cells tillåter dig att ladda sådana CSV-filer och konvertera dem till andra format, till exempel PDF eller XLSX.
 
 {{% /alert %}} 
 
- Aspose.Cells tillhandahåller metoden TxtLoadOptions.setMultiEncoded() som du måste ställa in på**Sann** för att ladda din CSV-fil med flera kodningar korrekt.
+Aspose.Cells tillhandahåller metoden TxtLoadOptions.setMultiEncoded(), som du behöver sätta till **true** för att korrekt ladda din CSV-fil med flera kodningar.
 
- Följande skärmdump visar ett exempel på CSV-fil som innehåller två rader. Första raden är inne**ANSI** kodning och den andra raden är inne**Unicode** kodning
+Följande skärmdump visar en exempel-CSV-fil som innehåller två rader. Första raden är i **ANSI**-kodning och andra raden är i **Unicode**-kodning.
 
-**Indatafil** 
+**Ingångsfil** 
 
 ![todo:image_alt_text](reading-csv-file-with-multiple-encodings_1.png)
 
-Följande skärmdump visar XLSX-filen konverterad från ovanstående CSV-fil utan att ställa in metoden TxtLoadOptions.setMultiEncoded() till true. Som du kan se konverterades inte Unicode-texten korrekt.
+Följande skärmdump visar XLSX-filen konverterad från ovanstående CSV-fil utan att ha satt TxtLoadOptions.setMultiEncoded() metoden till true. Som du kan se blev den Unicode-texten inte korrekt konverterad.
 
-**Utdatafil 1: inget boende gjort för multipelkodning** 
+**Utdata fil 1: ingen hänsyn tas till flera kodningar** 
 
 ![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)
 
-Följande skärmdump visar XSLX-filen konverterad från ovanstående CSV-fil efter att ha ställt in metoden TxtLoadOptions.setMultiEncoded() till true. Som du kan se är Unicode-texten nu konverterad på rätt sätt.
+Följande skärmdump visar XSLX-filen konverterad från ovanstående CSV-fil efter att ha satt TxtLoadOptions.setMultiEncoded() metoden till true. Som du kan se, är nu Unicode-texten korrekt konverterad.
 
-**Utdatafil 2: IsMultiEncoded är satt till true** 
+**Utgångsfil 2: IsMultiEncoded är inställd på true** 
 
 ![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)
 
-Nedan är exempelkoden som konverterar ovanstående CSV-fil till XLSX-format korrekt.
+Nedan är det exempelkod som konverterar ovanstående CSV-fil till XLSX-format korrekt.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  String filePath = "F:\\Downloads\\MutliEncoded.csv";
 

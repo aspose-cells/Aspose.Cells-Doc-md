@@ -1,20 +1,21 @@
-﻿---
-title: Загрузить Html в Excel с помощью StreamProvider
+---
+title: Загрузка HTML в Excel с помощью поставщика потока
 type: docs
 weight: 80
 url: /ru/java/convert-html-to-excel-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-При загрузке html, содержащего внешние ресурсы, мы часто сталкиваемся со следующими двумя проблемами:
-1. При загрузке html-потока изображения и внешние ресурсы, на которые ссылается html-файл, не могут быть получены по относительным путям.
-1. Пути к внешним ресурсам, на которые есть ссылки в html-файлах, должны быть сопоставлены.
+При загрузке html, который содержит внешние ресурсы, мы часто сталкиваемся с двумя следующими проблемами:
+1. При загрузке потока html изображения и внешние ресурсы, на которые ссылаются файлы html, не могут быть получены через относительные пути.
+1. Внешние пути к ресурсам, на которые ссылаются в файлах html, должны быть отображены.
 
- В этой статье объясняется, как реализовать[**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) интерфейс для настройки[**Хтмллоадоптионс. StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider) имущество. Реализуя этот интерфейс, вы сможете загружать внешние ресурсы во время загрузки потоков Html или эти внешние ресурсы являются относительными.
+В этой статье объясняется, как реализовать интерфейс [**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) для установки свойства [**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider). Реализуя этот интерфейс, вы сможете загружать внешние ресурсы во время загрузки потоков Html или эти внешние ресурсы будут относительными.
 
 {{% /alert %}} 
 
-Это основной код, показывающий использование[**Хтмллоадоптионс. StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
+Это основной код, показывающий использование [**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
 
 
 

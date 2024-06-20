@@ -1,12 +1,13 @@
-﻿---
+---
 title: استخدام أنواع مجهولة أو كائنات مخصصة في Aspose.Cells
 type: docs
 weight: 30
 url: /ar/net/using-anonymous-types-or-custom-objects-in-aspose-cells/
 ---
-يدعم Aspose.Cells أيضًا الأنواع المجهولة أو العناصر المهيأة في العلامات الذكية. في المثال أدناه ، يجب تحديد فئة المنتج قبل الاستخدام.
 
-{{< highlight "csharp" >}}
+تدعم Aspose.Cells أيضًا أنواع مجهولة أو كائنات مخصصة في العلامات الذكية. في المثال أدناه ، يجب تحديد فئة المنتج قبل الاستخدام.
+
+{{< highlight csharp >}}
 
  //Instantiate the workbookdesigner object.
 
@@ -47,5 +48,5 @@ report.Process(false);
 report.Workbook.Save("Smart Marker Customobjects.xls");
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
+## **تحميل رمز عينة**
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)

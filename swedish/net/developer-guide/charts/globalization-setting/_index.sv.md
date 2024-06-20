@@ -1,47 +1,48 @@
 ---
 title: Konvertera diagram till lokaliserad bild
-description: Lär dig hur du ställer in globaliseringskonfigurationer för diagram med Aspose.Cells for .NET. Vår guide visar hur du konfigurerar diagrammet för att stödja flera språk och regionala format för att korrekt visa text, datum och siffror på olika språk.
-keywords: Aspose.Cells for .NET, Charts, Globalization Settings, Multiple Languages, Regional Formats, Display, Text, Dates, Numbers.
+description: Lär dig hur du konfigurerar globaliseringsinställningar för diagram med hjälp av Aspose.Cells for .NET. Vår guide demonstrerar hur du konfigurerar diagrammet för att stödja flera språk och regionala format för att korrekt visa text, datum och siffror på olika språk.
+keywords: Aspose.Cells for .NET, Diagram, Globaliseringsinställningar, Flera språk, Regionala format, Visning, Text, Datum, Siffror.
 linktitle: Ställ in lokaliserad region
 type: docs
 weight: 50
 url: /sv/net/convert-chart-to-localized-image/
 alias: [/net/how-to-set-globalization-configuration-for-chart/]
 ---
+
 {{% alert color="primary" %}}
 
-I det här ämnet kommer vi att visa dig hur du konverterar diagram till lokaliserad bild, du kommer att veta hur du ställer in lokaliserad region för ett diagram.
+I det här avsnittet kommer vi att visa dig hur du konverterar diagram till lokaliserad bild, du kommer att lära dig hur du ställer in lokaliserad region för ett diagram.
 
 {{% /alert %}}
 
-##  **Scenario**
+## **Scenario**
 
- I vilket scenario skulle vi behöva ställa in lokaliserad region för ett diagram?
+I vilket scenario skulle vi behöva ställa in lokaliserad region för ett diagram? 
 
-När du öppnar en xlsx-fil med ett diagram i Excel, i det här fallet, antar du att du öppnar den med en spansk regional inställning i Excel, kan du se elementen i diagramområdet, som diagramrubrik, förlängning, de är översatta till spanska. Men när du sparar det här diagrammet som en bild med Aspose.Cells kan du stöta på följande problem:
+När du öppnar en xlsx-fil med ett diagram i Excel, i det här fallet, anta att du öppnar den med en spansk regional inställning i Excel, kan du se elementen i diagramområdet, som diagramtitel, förklaring, de är översatta till spanska. Men när du sparar detta diagram som en bild med Aspose.Cells, kan du stöta på följande problem: 
 
-**![Global Issue](GlobalIssue.png)**
+**![Globalt problem](GlobalIssue.png)**
 
-I det här scenariot är diagramförlängningen i utdatabilden inte densamma som i Excel, de förblir på engelska som standard. Nu kan du lösa det här problemet genom att ställa in lokaliserad region för diagram. Med rätt inställningar kommer följande element att renderas enligt dina lokaliseringsinställningar.
+I det här scenariot är inte diagramförklaringen i utmatningsbilden samma som i Excel, de förblir visas på engelska som standard. Nu kan du lösa detta problem genom att ställa in lokaliserad region för diagram. Med de korrekta inställningarna kommer följande element att renderas enligt dina lokaliseringsinställningar.
 
-##  **Element som stöds**
+## **Stödda element**
 
-Följande element i diagrammet kan renderas enligt dina lokaliseringsinställningar.
+Följande element i diagram kan renderas enligt dina lokaliseringsinställningar.
 
-|**Element som stöds**|**standardvärde i engelsk miljö**|
+|**Stödda element**|**standardvärde i engelska miljö**|
 | :- | :- |
-|Axeltitelnamn|Axeltitel|
-|Axelenhetsnamn|Hundra, tusentals...|
+|Titel på axel|Axeltitel|
+|Namn på axelenhet|Hundratals, tusentals...|
 |Diagramtitelnamn|Diagramtitel|
-|Förklaring Öka namn|Öka|
-|Förklaring Minska namn|Minska|
-|Legend Totalt namn|Total|
-|Annat namn|Övrig|
-|Seriens namn|Serier|
+|Förklara ökning Namn|Ökning|
+|Förklara minskning Namn|Minskning|
+|Förklara totalt Namn|Totalt|
+|Andra Namn|Andra|
+|Serienamn|Serie|
 
-##  **Driftssteg**
+## **Operationssteg**
 
-Följande exempel visar dig i detalj hur du ställer in lokaliserad region för att uppnå den effekt du vill ha.
+Det följande exemplet kommer att visa dig i detalj hur du ställer in lokaliserad region för att uppnå den effekt du vill ha.
 
 - [Hur man ställer in kinesisk region för diagram](/cells/sv/net/convert-chart-to-image-for-chinese-region/)
 - [Hur man ställer in japansk region för diagram](/cells/sv/net/convert-chart-to-image-for-japanese-region/)

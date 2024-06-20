@@ -1,80 +1,81 @@
-﻿---
-title: Présentation du produit - Aspose.Cells for Android via Java
+---
+title: Aperçu du produit  Aspose.Cells pour Android via Java
 type: docs
 weight: 60
 url: /fr/java/product-overview-aspose-cells-for-android-via-java/
 ---
+
 {{% alert color="primary" %}} 
 
-![logo-cellules](50528297.png)
+![cells-logo](50528297.png)
 
-Bienvenue dans la documentation Aspose.Cells for Android via Java !
+Bienvenue dans la documentation Aspose.Cells pour Android via Java!
 
-Aspose.Cells est un composant flexible qui permet aux applications Android de créer et de gérer des feuilles de calcul Excel sans nécessiter l'installation de Microsoft Excel sur le système. Contrairement aux produits similaires d'autres fournisseurs, Aspose.Cells prend en charge non seulement la génération de feuilles de calcul et d'autres fonctionnalités de formatage de fichiers de base, mais également un certain nombre de fonctionnalités avancées. Ces fonctionnalités avancées permettent aux développeurs de manipuler facilement le contenu des feuilles de calcul, le formatage des cellules et la protection des fichiers. Aspose.Cells vous permet également d'importer des données dans des feuilles de calcul à partir de différentes sources de données, d'ajouter des formules et des fonctions mathématiques, de date et d'heure, financières ou textuelles courantes et complexes. Il prend également en charge la manipulation de graphiques, d'images, de commentaires, d'objets de dessin et de contrôles.
+Aspose.Cells est un composant flexible qui permet aux applications Android de créer et gérer des feuilles de calcul Excel sans avoir besoin de Microsoft Excel installé sur le système. Contrairement à des produits similaires d'autres fournisseurs, Aspose.Cells prend en charge non seulement la génération de feuilles de calcul et d'autres fonctionnalités de base de mise en forme de fichiers, mais aussi un certain nombre de fonctionnalités avancées. Ces fonctionnalités avancées rendent facile pour les développeurs de manipuler le contenu de la feuille de calcul, la mise en forme des cellules et la protection des fichiers. Aspose.Cells vous permet également d'importer des données dans des feuilles de calcul à partir de différentes sources de données, d'ajouter des formules et des fonctions mathématiques, date et heure, financières ou textuelles courantes et complexes. Il prend en charge en outre la manipulation de graphiques, d'images, de commentaires, d'objets de dessin et de contrôles.
 
 {{% /alert %}} 
-## **Caractéristiques des documents**
-- Ouvrez des fichiers Excel bruts ou cryptés (Excel97 - Excel2007 et versions ultérieures) à partir de différentes sources
-- Enregistrez les fichiers Excel (Excel97 - Excel2007 et versions ultérieures) dans différents formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, HTML etc.)
-- Convertir le fichier Excel en document PDF
+## **Fonctionnalités du document**
+- Ouvrir des fichiers Excel simples ou chiffrés (Excel97 - Excel2007 et versions ultérieures) à partir de différentes sources
+- Enregistrer des fichiers Excel (Excel97 - Excel2007 et versions ultérieures) dans différents formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tabulation, HTML etc.)
+- Convertir un fichier Excel en document PDF
 - Convertir une feuille de calcul Excel en document XPS
-- Lire et écrire le format de feuille de calcul OpenDocument (ODS)
-- Modifier les propriétés de document des fichiers Excel
+- Lire et écrire au format OpenDocument Spreadsheet (ODS)
+- Modifier les propriétés du document des fichiers Excel
 ## **Fonctionnalités de la feuille de calcul**
-## **Option d'affichage**
+## **Options d'affichage**
 - Masquer ou afficher une feuille de calcul
-- Affichez ou masquez les onglets, les barres de défilement, le quadrillage et les en-têtes de lignes et de colonnes.
+- Afficher ou masquer les onglets, les barres de défilement, les quadrillages, ainsi que les en-têtes de lignes et de colonnes.
 - Aperçu des sauts de page.
 - Définir le niveau de zoom d'une feuille de calcul.
-- Faites en sorte que les données sélectionnées restent visibles pendant le défilement à l'aide des volets de gel.
-## **Protection des feuilles de calcul**
-- Protégez le contenu, les objets et les scénarios des feuilles de calcul.
+- Rendre des données sélectionnées visibles en figeant les volets lors du défilement.
+## **Protection de la feuille de calcul**
+- Protéger le contenu, les objets et les scénarios de la feuille de calcul.
 ## **Options de mise en page**
-- Définissez l'orientation de la page, la mise à l'échelle, le format du papier et la qualité d'impression.
-- Définissez les marges de la page pour le haut, la gauche, la droite et le bas.
-- Définissez les en-têtes et les pieds de page.
-- Définissez la zone d'impression et le titre d'impression.
+- Définir l'orientation de la page, l'échelle, le format de papier et la qualité d'impression.
+- Définir les marges de la page (haut, gauche, droite, bas).
+- Définir les en-têtes et pieds de page.
+- Définir la zone d'impression et le titre de l'impression.
 ## **Sauts de page**
-- Insérer des sauts de page horizontaux et verticaux dans une cellule spécifiée.
-## **Fonctionnalités des lignes et des colonnes**
-- Ajustez la largeur de la colonne.
-- Dimensionner automatiquement la largeur et la hauteur des cellules.
-- Ajoutez ou supprimez des lignes et des colonnes.
-- Masquez ou affichez des lignes et des colonnes.
-- Regroupez ou dissociez des lignes et des colonnes.
+- Insérer des sauts de page horizontaux et verticaux à une cellule spécifiée.
+## **Fonctionnalités des lignes et colonnes**
+- Ajuster la largeur de la colonne.
+- Ajuster automatiquement la largeur et la hauteur des cellules.
+- Ajouter ou supprimer des lignes et des colonnes.
+- Masquer ou afficher des lignes et des colonnes.
+- Grouper ou dégrouper des lignes et des colonnes.
 ## **Fonctionnalités de gestion des données**
-- Ajouter des données au Cells souhaité lors de l'exécution
+- Ajouter des données aux cellules désirées à l'exécution
 - **Importer des données dans des feuilles de calcul** à partir de différentes sources de données
-- Récupérer les données des cellules en fonction de leurs types de données
-- **Exporter les données des cellules vers Array**
-- Rechercher ou rechercher des données spécifiques dans des cellules
--  Ensemble**Formules avec fonctions intégrées ou complémentaires**
+- Récupérer des données des cellules selon leurs types de données
+- **Exporter des données de cellules vers un tableau**
+- Trouver ou rechercher des données spécifiques dans les cellules
+- Définir des **formules avec des fonctions intégrées ou des compléments**
 - Ajouter différents types d'hyperliens
 - Créer ou accéder à des plages nommées
--  Appliquer**La validation des données** et**Filtrage automatique**
--  Appliquer**Sous-totaux** aux tableaux de feuille de calcul
+- Appliquer une **validation des données** et un **filtre automatique**
+- Appliquer des **sous-totaux** aux tableaux de feuilles de calcul
 ## **Fonctionnalités de formatage**
--  Appliquer**Paramètres de format de nombre** pour le Cells
-- Formater Cell comme date
--  Ensemble**Alignement du texte**
-- Fusionner plusieurs Cells en un seul
-- Appliquer différents types de**Paramètres de police** pour le Cells
-- Appliquez différentes couleurs à Cells, polices, quadrillages, objets graphiques, etc.
--  Ensemble**Texte riche** dans un seul Cell
--  Appliquer différent**Paramètres de bordure** au Cells
--  Appliquer différent**Motifs de fond** au Cells
--  Appliquer**Paramètres de mise en forme** sur une feuille de calcul, une ligne ou une colonne, etc.
--  Appliquer**Mise en forme conditionnelle** au Cells
-## **Fonctionnalités graphiques et graphiques**
-- Créez facilement différents types de graphiques
--  Personnaliser**Graphiques** en définissant leurs différentes propriétés
--  Ensemble**Données pour les graphiques** dynamiquement
--  Ajouter**Graphiques personnalisés** aux feuilles de travail en utilisant API
--  Ajouter**Des photos** aux feuilles de calcul au moment de l'exécution
--  Créer et ajouter**commentaires** aux cellules
-- Convertir le graphique en fichier image
+- Appliquer des **paramètres de format numérique** pour les cellules
+- Formater la cellule comme une date
+- Définir **l'alignement du texte**
+- Fusionner plusieurs cellules en une seule
+- Appliquer différents types de **paramètres de police** pour les cellules
+- Appliquer différentes couleurs aux cellules, polices, quadrillages, objets graphiques, etc.
+- Définir un **texte enrichi** dans une seule cellule
+- Appliquer différents **paramètres de bordure** sur les cellules
+- Appliquer différents **motifs d'arrière-plan** sur les cellules
+- Appliquer des **paramètres de format** sur une feuille de calcul, une ligne ou une colonne, etc.
+- Appliquer une **mise en forme conditionnelle** sur les cellules
+## **Fonctionnalités de graphiques et de diagrammes**
+- Créer différents types de graphiques facilement
+- Personnaliser les **graphiques** en définissant leurs différentes propriétés
+- Définir les **données pour les graphiques** de manière dynamique
+- Ajouter des **graphiques personnalisés** aux feuilles de calcul à l'aide de l'API
+- Ajouter des **images** aux feuilles de calcul à l'exécution
+- Créer et ajouter des **commentaires** aux cellules
+- Convertir un graphique en fichier image
 - Convertir une feuille de calcul en fichier image
 ## **Fonctionnalités avancées**
--  Les soutiens**Calculs de formule** en utilisant un moteur de calcul de formule robuste
--  Changement**Données source d'un tableau croisé dynamique** lors de l'exécution
+- Prise en charge du calcul de **formules** à l'aide d'un moteur de calcul de formules robuste
+- Changer les **données source d'un tableau croisé dynamique** à l'exécution
 - Créer et manipuler des tableaux croisés dynamiques

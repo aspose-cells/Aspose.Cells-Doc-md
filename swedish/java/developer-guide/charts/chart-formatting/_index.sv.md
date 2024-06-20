@@ -1,106 +1,107 @@
-﻿---
+---
 title: Diagramformatering
 type: docs
 weight: 20
 url: /sv/java/chart-formatting/
 ---
-## **Ställa in diagrammets utseende**
 
- I[Diagramtyper](/cells/sv/java/chart-types/), gav vi en kort introduktion till de typer av diagram och kartobjekt som erbjuds av Aspose.Cells.
+## **Ställa in diagramens utseende**
 
-I den här artikeln diskuterar vi hur du anpassar diagrammets utseende genom att ställa in ett antal olika egenskaper:
+I [Diagramtyper](/cells/sv/java/chart-types), gav vi en kort introduktion till diagramtyperna och diagramobjekt som erbjuds av Aspose.Cells.
 
-- [Ställa in sjökortsområdet](/cells/sv/java/chart-formatting/#setting-chart-area).
-- [Ställa in diagramlinjer](/cells/sv/java/chart-formatting/#setting-chart-lines).
-- [Tillämpa teman](/cells/sv/java/chart-formatting/#applying-microsoft-excel-20072010-themes-to-charts).
-- [Ställa in titlar till diagram och axlar](/cells/sv/java/chart-formatting/#setting-the-titles-of-charts-or-axes).
-- [Arbeta med rutnät](/cells/sv/java/chart-formatting/#setting-major-gridlines).
-- [Inställning av bårder för bak- och sidoväggar](/cells/sv/java/chart-formatting/#setting-borders-for-back-and-side-walls).
+I den här artikeln diskuterar vi hur man anpassar utseendet på diagrammen genom att ställa in ett antal olika egenskaper:
 
-### **Inställning av sjökortsområde**
+- [Ställa in diagramområdet](/cells/sv/java/chart-formatting/#setting-chart-area).
+- [Inställning av diagramlinjer](/cells/sv/java/diagramformattering/#inställning-av-diagramlinjer).
+- [Tillämpning av teman](/cells/sv/java/diagramformattering/#tillämpa-microsoft-excel-20072010-teman-på-diagram).
+- [Inställning av titlar för diagram och axlar](/cells/sv/java/diagramformattering/#inställning-av-titlar-för-diagram-eller-axlar).
+- [Arbete med rutnät](/cells/sv/java/diagramformattering/#inställa-stora-rutnät).
+- [Inställning av gränser för bak- och sidoväggar](/cells/sv/java/diagramformattering/#inställa-gränser-för-bak-och-sidoväggar).
 
-Det finns olika typer av områden i ett diagram och Aspose.Cells ger flexibiliteten att ändra utseendet på varje område. Utvecklare kan tillämpa olika formateringsinställningar på ett område genom att ändra dess förgrundsfärg, bakgrundsfärg och fyllningsformat etc.
+### **Inställning av diagramområde**
 
-I exemplet nedan har vi tillämpat olika formateringsinställningar på olika typer av områden i ett diagram. Dessa områden inkluderar:
+Det finns olika typer av områden i ett diagram och Aspose.Cells tillhandahåller flexibiliteten att modifiera utseendet på varje område. Utvecklare kan tillämpa olika formateringsinställningar på ett område genom att ändra dess förgrundsfärg, bakgrundsfärg och fyllnad etc.
 
-- Tomtområde
-- Kartområde
-- [**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) område
-- Arean av en enda punkt i en[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
+I det givna exemplet har vi tillämpat olika formateringsinställningar på olika typer av områden i ett diagram. Dessa områden inkluderar:
 
-Efter exekvering av exempelkoden kommer ett kolumndiagram att läggas till i kalkylbladet enligt nedan:
+- Plotområde
+- Diagramområde
+- [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) område
+- Området hos en enda punkt i en [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
 
-**Ett kolumndiagram med fyllda områden** 
+Efter att exempelkoden har exekverats kommer en kolumnutskrift att läggas till arbetsbladet enligt nedan:
+
+**En kolumnutskrift med fyllda områden** 
 
 ![todo:image_alt_text](chart-formatting_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartArea-SettingChartArea.java" >}}
 
-### **Ställa in sjökortslinjer**
+### **Inställning av diagramlinjer**
 
- Utvecklare kan också tillämpa olika typer av stilar på linjerna eller datamarkörerna för[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)som visas nedan i exemplet. Genom att köra exempelkoden läggs ett kolumndiagram till i kalkylbladet som visas nedan:
+Utvecklare kan också tillämpa olika typer av stilar på linjerna eller datamarkörerna för [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) enligt exemplet nedan. Genom att exekvera exempelkoden läggs en kolumnutskrift till arbetsbladet enligt nedan:
 
-**Kolumndiagram efter applicering av linjeformat** 
+**Kolumnutskrift efter tillämpning av linjestilar** 
 
 ![todo:image_alt_text](chart-formatting_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartLines-SettingChartLines.java" >}}
 
-### **Tillämpa Microsoft Excel 2007/2010-teman på diagram**
+### **Tillämpning av Microsoft Excel 2007/2010 teman på diagram**
 
-Utvecklare kan tillämpa olika Microsoft Excel-teman och färger på[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)eller andra diagramobjekt som visas i exemplet nedan.
+Utvecklare kan tillämpa olika Microsoft Excel-teman och färger på [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) eller andra diagramobjekt enligt exemplet nedan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
-### **Ställa in titlar på diagram eller axlar**
+### **Inställning av diagram- eller axeltitlar**
 
-Du kan använda Microsoft Excel för att ställa in titlarna på ett diagram och dess axlar i en WYSIWYG-miljö som visas nedan.
+Du kan använda Microsoft Excel för att ställa in titlarna på ett diagram och dess axlar i en WYSIWYG-miljö enligt nedan.
 
-**Ställa in titlar för ett diagram och dess axlar med Microsoft Excel** 
+**Inställning av titlar för ett diagram & dess axlar med hjälp av Microsoft Excel** 
 
 ![todo:image_alt_text](chart-formatting_3.png)
 
- Aspose.Cells tillåter också utvecklare att ställa in titlarna på ett diagram och dess axlar under körning. Alla diagram och deras axlar innehåller en[**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)metod som kan användas för att ställa in deras titlar som visas nedan i ett exempel. Efter exekvering av exempelkoden kommer ett kolumndiagram att läggas till i kalkylbladet enligt nedan:
+Aspose.Cells tillåter också utvecklare att ställa in titlarna på ett diagram och dess axlar vid körning. Alla diagram och deras axlar innehåller en [**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)-metod som kan användas för att ställa in deras titlar enligt exemplet nedan. Efter att exempelkoden har exekverats kommer en kolumnutskrift att läggas till arbetsbladet enligt nedan:
 
-**Kolumndiagram efter inställning av titlar** 
+**Kolumnutskrift efter inställning av titlar** 
 
 ![todo:image_alt_text](chart-formatting_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingTitlesAxes-SettingTitlesAxes.java" >}}
 
-### **Ställa in stora rutnät**
+### **Inställning av stora rutnät**
 
-#### **Döljer stora rutnät**
+#### **Dölja stora rutnät**
 
- Utvecklare kan kontrollera synligheten för större rutnät genom att använda[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible) metod för[**Linje**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)objekt. Efter att ha gömt de stora rutnätslinjerna har ett kolumndiagram som lagts till i kalkylbladet följande utseende:
+Utvecklare kan kontrollera synligheten för stora rutnät genom att använda [**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible)-metoden för [**Line**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)-objektet. Efter att ha dolt de stora rutnäten kommer en kolumnutskrift som lagts till arbetsbladet att se ut enligt följande:
 
-**Ett kolumndiagram med dolda större rutnät** 
+**En kolumnutskrift med dolda stora rutnät** 
 
 ![todo:image_alt_text](chart-formatting_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-MajorGridlines-1.java" >}}
 
-#### **Ändra större rutnätsinställningar**
+#### **Ändra inställningar för stora rutnät**
 
-Utvecklare kan inte bara kontrollera synligheten för större rutnätslinjer utan även andra egenskaper inklusive dess färg etc. Efter att ha ställt in färgen på större rutnätslinjer kommer ett kolumndiagram som läggs till i kalkylbladet att se följande ut:
+Utvecklare kan inte bara kontrollera synligheten för stora rutnät utan också andra egenskaper inklusive dess färg etc. Efter att ha ställt in färgen på stora rutnät kommer en kolumnutskrift som lades till arbetsbladet att se ut enligt nedan:
 
-**Kolumndiagram med färgade stora rutnät** 
+**Kolumnutskrift med färgade stora rutnät** 
 
 ![todo:image_alt_text](chart-formatting_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-ChangingMajorGridlines-1.java" >}}
 
-### **Ställa in kanter för bak- och sidoväggar**
+### **Inställning av ramar för bak- och sidoväggar**
 
- Sedan släppet av Microsoft Excel 2007 har väggarna i ett 3D-diagram delats upp i två delar: sidovägg och bakvägg, så vi måste använda två[**Väggar**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) objekt för att representera dem separat och du kan komma åt dem genom att använda[**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) och[**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall).
+Sedan utgivningen av Microsoft Excel 2007 har väggarna i en 3D-diagram delats in i två delar: sidovägg och bakvägg, så vi måste använda två [**Walls**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls) objekt för att representera dem separat och du kan komma åt dem genom att använda [**Chart.getBackWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#BackWall) och [**Chart.getSideWall()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SideWall).
 
 Exemplet nedan visar hur man ställer in sidoväggens kant genom att använda olika attribut.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-SettingBorders-1.java" >}}
 
-## **Ändra diagramposition och storlek**
+## **Ändra diagrammets position och storlek**
 
- Ibland vill du ändra positionen eller storleken på det nya eller befintliga diagrammet i kalkylbladet. Aspose.Cells tillhandahåller[**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)egendom för att uppnå detta. Du kan använda dess underegenskaper för att ändra storlek på diagrammet med nytt**höjd** och**bredd** eller placera om den med ny** X** och**Y** koordinater.
+Ibland vill du ändra positionen eller storleken på det nya eller befintliga diagrammet i arbetsbladet. Aspose.Cells tillhandahåller [**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)-egenskapen för att uppnå detta. Du kan använda dess underegenskaper för att ändra diagrammet med ny **höjd** och **bredd** eller ompositionera det med nya **X** och **Y**-koordinater.
 
 ### **Ändra diagrammets position och storlek**
 
@@ -111,35 +112,35 @@ För att ändra diagrammets position (X, Y-koordinater) och storlek (höjd, bred
 1. [**Chart.getChartObject().get/setX()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#X)
 1. [**Chart.getChartObject().get/setY()**](https://reference.aspose.com/cells/java/com.aspose.cells/chartshape#Y)
 
-Följande exempel förklarar användningen av ovanstående egenskaper. Den laddar den befintliga arbetsboken som innehåller ett diagram i sitt första kalkylblad. Sedan ändrar den storleken och placerar om diagrammet och sparar arbetsboken.
+Följande exempel förklarar användningen av ovanstående egenskaper. Det laddar den befintliga arbetsboken som innehåller ett diagram i dess första arbetsblad. Sedan ändrar det storlek och position på diagrammet och sparar arbetsboken.
 
-Innan exekveringen av exempelkoden ser källfilen ut så här:
+Innan körning av provkoden ser källfilen ut så här:
 
-**Diagramstorlek och position före exekvering av exempelkod** 
+**Diagramstorlek och position före körning av provkoden** 
 
 ![todo:image_alt_text](chart-formatting_7.png)
 
-Efter körningen ser utdatafilen ut så här:
+Efter körning ser utdatafilen ut så här:
 
-**Diagramstorlek och position efter exekvering av exempelkod** 
+**Diagramstorlek och position efter körning av provkoden** 
 
 ![todo:image_alt_text](chart-formatting_8.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChangeChartPositionAndSize-ChangeChartPositionAndSize.java" >}}
 
-## **Manipulera designerdiagram**
+## **Manipulering av Designerdiagram**
 
-Det finns en tid då du kan behöva manipulera eller modifiera diagrammen i dina designermallfiler. Aspose.Cells har fullt stöd för att manipulera designerdiagram med dess innehåll och element. Data, diagraminnehåll, bakgrundsbild och formatering kan bevaras med noggrannhet.
+Det finns stunder när du kanske behöver manipulera eller ändra diagrammen i dina designer mallfiler. Aspose.Cells stöder fullständigt att manipulera designerdiagram med dess innehåll och element. Data, diagraminnehåll, bakgrundsbild och formatering kan bevaras med precision.
 
 ### **Manipulera designerdiagram i mallfilerna**
 
- För att manipulera designerdiagram i en mallfil, använd alla diagramrelaterade API-anrop. Använd till exempel[**Worksheet.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts) egenskap för att få den befintliga diagramsamlingen i mallfilen.
+För att manipulera designerdiagram i en mallfil, använd alla diagramrelaterade API-anrop. Använd till exempel [**Worksheet.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts)-egenskapen för att hämta den befintliga diagramssamlingen i mallfilen.
 
 #### **Skapa ett diagram**
 
 Följande exempel visar hur man skapar ett cirkeldiagram. Vi kommer att manipulera detta diagram senare. Följande utdata genereras av koden.
 
-**Ingångscirkeldiagrammet** 
+**Det inmatade cirkeldiagrammet** 
 
 ![todo:image_alt_text](chart-formatting_9.png)
 
@@ -147,7 +148,7 @@ Följande exempel visar hur man skapar ett cirkeldiagram. Vi kommer att manipule
 
 #### **Manipulera diagrammet**
 
-Följande exempel visar hur man manipulerar det befintliga diagrammet. I det här exemplet ändrar vi diagrammet som skapats ovan. Följande utdata genereras av koden. Observera att färgen på sjökortstiteln har ändrats från blå till svart och 'England 30000' har ändrats till 'United Kingdom, 30K'.
+Följande exempel visar hur man manipulerar det befintliga diagrammet. I det här exemplet modifierar vi diagrammet som skapades ovan. Följande utdata genereras av koden. Observera att färgen på diagramtiteln har ändrats från blå till svart, och 'England 30000' har ändrats till 'United Kingdom, 30K'.
 
 **Cirkeldiagrammet har ändrats** 
 
@@ -155,17 +156,17 @@ Följande exempel visar hur man manipulerar det befintliga diagrammet. I det hä
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyPieChart-ModifyPieChart.java" >}}
 
-#### **Manipulera ett linjediagram i designermallen**
+#### **Manipulera ett linjediagram i designmallen**
 
-I det här exemplet kommer vi att manipulera ett linjediagram. Vi kommer att lägga till några dataserier till det befintliga diagrammet och ändra deras linjefärger.
+I det här exemplet kommer vi att manipulera ett linjediagram. Vi kommer att lägga till några data-serier i det befintliga diagrammet och ändra deras linjefärger.
 
-Ta först en titt på designerns linjediagram.
+Först, ta en titt på designlinjediagrammet.
 
-**Ingångslinjediagrammet** 
+**Det inmatade linjediagrammet** 
 
 ![todo:image_alt_text](chart-formatting_11.png)
 
- Nu manipulerar vi linjediagrammet (som finns i**linjediagram.xls** fil) med följande kod. Följande utdata genereras av koden.
+Nu manipulerar vi linjediagrammet (som finns i filen **linechart.xls**) med följande kod. Följande utdata genereras av koden.
 
 **Det manipulerade linjediagrammet** 
 
@@ -173,50 +174,50 @@ Ta först en titt på designerns linjediagram.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyLineChart-ModifyLineChart.java" >}}
 
-## **Använder Sparklines**
+## **Användning av sparklines**
 
-Microsoft Excel 2010 kan analysera information på fler sätt än någonsin tidigare. Det låter användare spåra och lyfta fram viktiga datatrender med nya verktyg för dataanalys och visualisering. Sparklines är minidiagram som du kan placera inuti celler så att du kan se data och diagram på samma tabell. När sparklines används på rätt sätt går dataanalysen snabbare och mer rakt på sak. De ger också en enkel bild av information, och undviker överfulla kalkylblad med många upptagna diagram.
+Microsoft Excel 2010 kan analysera information på fler sätt än någonsin tidigare. Det låter användarna spåra och markera viktiga datatrender med nya verktyg för dataanalys och visualisering. Sparklines är minidiagram som du kan placera i celler så att du kan se data och diagram på samma tabell. När sparklines används på rätt sätt blir dataanalys snabbare och mer fokuserad. De ger också en enkel vy av information och undviker överfyllda arbetsblad med många upptagna diagram.
 
-Aspose.Cells tillhandahåller en API för att manipulera sparklines i kalkylblad.
+Aspose.Cells erbjuder en API för att manipulera sparklines i kalkylblad.
 
 ### **Sparklines i Microsoft Excel**
 
-Så här infogar du sparklines i Microsoft Excel 2010:
+För att infoga sparklines i Microsoft Excel 2010:
 
-1. Markera cellerna där du vill att gnistlinjerna ska visas. För att göra dem enkla att se, markera celler vid sidan av data.
-1.  Klick**Föra in** på bandet och välj sedan**kolumn** i**Sparklines** grupp.
+1. Välj cellerna där du vill att sparklines ska visas. För att göra dem enkla att visa, välj celler bredvid datan.
+1. Klicka på **Infoga** på menyn och välj sedan **kolumn** i **Sparklines** gruppen.
 
 ![todo:image_alt_text](chart-formatting_13.png)
 
-1. Välj eller ange cellintervallet i kalkylbladet som innehåller källdata.
- Diagrammen visas.
+1. Välj eller ange området med celler i arbetsbladet som innehåller källdatan.
+   Diagrammen visas.
 
-Sparklines hjälper dig att se trender, till exempel, eller vinst- eller förlustrekordet för en softballliga. Sparklines kan till och med summera hela säsongen för varje lag i ligan.
+Sparklines hjälper dig att se trender, till exempel, eller vinst- eller förlustrekord för en softbolliga. Sparklines kan till och med summera hela säsongen för varje lag i ligan.
 
 ![todo:image_alt_text](chart-formatting_14.png)
 
-### **Sparklines med Aspose.Cells**
+### **Sparklines med användning av Aspose.Cells**
 
-Utvecklare kan skapa, ta bort eller läsa sparklines (i mallfilen) med hjälp av API som tillhandahålls av Aspose.Cells. Genom att lägga till anpassad grafik för ett givet dataintervall har utvecklarna friheten att lägga till olika typer av små diagram till utvalda cellområden.
+Utvecklare kan skapa, ta bort eller läsa sparklines (i mallfilen) med hjälp av API:et som tillhandahålls av Aspose.Cells. Genom att lägga till anpassade grafik för en given dataserie har utvecklare friheten att lägga till olika typer av små diagram i valda cellområden.
 
-Exemplet nedan visar Sparklines-funktionen. Exemplet visar hur man:
+Exemplet nedan demonstrerar funktionen Sparklines. Exemplet visar hur man:
 
 1. Öppna en enkel mallfil.
-1. Läs sparklines-information för ett kalkylblad.
-1. Lägg till nya sparklines för ett givet dataintervall till ett cellområde.
-1. Sparar Excel-filen på disk.
+1. Läs sparklinesinformation för ett arbetsblad.
+1. Lägg till nya gnistrande linjer för ett givet datintervall till ett cellområde.
+1. Sparar Excel-filen på disken.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-UsingSparklines-UsingSparklines.java" >}}
 
 ## **Tillämpa 3D-format på diagram**
 
-Du kanske behöver 3D-diagramstilar så att du kan få precis resultaten för ditt scenario. Aspose.Cells API:er tillhandahåller relevant API för att tillämpa Microsoft Excel 2007 3D-formatering som visas i den här artikeln.
+Du kan behöva 3D-diagramstilar så att du kan få just resultat för ditt scenario. Aspose.Cells API:er tillhandahåller relevant API för att tillämpa Microsoft Excel 2007 3D-formatering som demonstreras i den här artikeln.
 
-### **Ställa in 3D-format till diagram**
+### **Ange 3D-format på diagram**
 
-Ett komplett exempel ges nedan för att visa hur man skapar ett diagram och tillämpar Microsoft Excel 2007 3D-formatering. Efter exekvering av ovanstående exempelkod kommer ett kolumndiagram (med 3D-effekter) att läggas till i kalkylbladet enligt nedan.
+Ett komplett exempel ges nedan för att demonstrera hur man skapar ett diagram och tillämpar Microsoft Excel 2007 3D-formatering. Efter att ovanstående exempelkod har utförts kommer ett kolumn diagram (med 3D-effekter) att läggas till i arbetsbladet som visas nedan.
 
-**Ett kolumndiagram med 3D-formatering**
+**Ett kolumn diagram med 3D-formatering**
 
 ![todo:image_alt_text](chart-formatting_15.png)
 
@@ -224,9 +225,9 @@ Ett komplett exempel ges nedan för att visa hur man skapar ett diagram och till
 
 {{% alert color="primary" %}}
 
- För en fullständig lista över vilka 2D- och 3D-diagram som stöds, se[Diagramtyper som stöds för rendering](/cells/sv/java/chart-rendering/#supported-chart-types-for-rendering).
+För en fullständig lista över vilka 2D- och 3D-diagram som stöds, se [Stödda diagramtyper för rendering](/cells/sv/java/chart-rendering/#supported-chart-types-for-rendering).
 
 {{% /alert %}}
 
-## **Förhandsämnen**
-- [Ställ in bild som bakgrund Fyll i diagrammet](/cells/sv/java/set-picture-as-background-fill-in-the-chart/)
+## **Fortsatta ämnen**
+- [Ange bild som bakgrundsfyllning i diagrammet.](/cells/sv/java/set-picture-as-background-fill-in-the-chart/)

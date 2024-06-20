@@ -1,28 +1,29 @@
-﻿---
-title: Holen Sie sich das Arbeitsblatt des Diagramms
+---
+title: Arbeitsblatt des Diagramms abrufen
 type: docs
 weight: 80
 url: /de/java/get-worksheet-of-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Manchmal möchten Sie über die Referenz eines Diagramms auf ein Arbeitsblatt zugreifen. Aspose.Cells bietet die[**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) -Eigenschaft, die den Verweis auf das Arbeitsblatt zurückgibt, das das Diagramm enthält.
+Manchmal möchten Sie auf ein Arbeitsblatt über einen Diagrammverweis zugreifen. Aspose.Cells bietet die [**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet)-Eigenschaft, die den Verweis auf das Arbeitsblatt zurückgibt, das das Diagramm enthält.
 
 {{% /alert %}}
 
 ## Beispiel
 
- Das folgende Beispiel zeigt, wie Sie die verwenden[**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) Eigentum. Der Code gibt zuerst den Namen des Arbeitsblatts aus und greift dann auf das erste Diagramm auf dem Arbeitsblatt zu. Anschließend wird der Arbeitsblattname erneut unter Verwendung von gedruckt[**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet)Eigentum.
+Im folgenden Beispiel ist gezeigt, wie die [**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet)-Eigenschaft verwendet wird. Der Code druckt zunächst den Namen des Arbeitsblatts, greift dann auf das erste Diagramm auf dem Arbeitsblatt zu. Danach wird erneut der Arbeitsblattname gedruckt, mithilfe der [**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet)-Eigenschaft.
 
-### Java Code, um auf das Arbeitsblatt des Diagramms zuzugreifen
+### Java-Code zum Zugreifen auf das Arbeitsblatt des Diagramms
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetWorksheetOfChart-GetWorksheetOfChart.java" >}}
 
-### Vom Beispielcode generierte Konsolenausgabe
+### Von der Beispiellösung generierte Konsolenausgabe
 
-Unten sehen Sie die Konsolenausgabe, zu der der Beispielcode führt. Wie Sie sehen können, wird beide Male derselbe Arbeitsblattname gedruckt.
+Nachfolgend finden Sie die Konsolenausgabe, die der Beispielcode ergibt. Wie Sie sehen können, gibt es sowohl beim ersten als auch beim zweiten Mal den gleichen Arbeitsblattnamen aus.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet Name: Portfolio
 

@@ -1,12 +1,13 @@
-﻿---
-title: Infoga webbbild från en URL i ett Excel-kalkylblad
+---
+title: Infoga en WebImage från en URL i ett Excel regneark
 type: docs
 weight: 240
 url: /sv/java/insert-web-image-from-a-url-into-an-excel-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
- Den här artikeln visar hur du kan infoga en webbbild direkt i en[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)Kodavsnittet nedan använder namnområdena java.net & java.io tillsammans med com.aspose.cells för att uppnå önskat resultat.
+Denna artikel visar hur du kan sätta in en webb-bild direkt i en [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Koden nedan använder java.net och java.io namespace tillsammans med com.aspose.cells för att uppnå önskat resultat.
 
 {{% /alert %}}
 

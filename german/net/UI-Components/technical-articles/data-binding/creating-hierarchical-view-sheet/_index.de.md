@@ -1,73 +1,76 @@
-﻿---
-title: Hierarchisches Ansichtsblatt erstellen
+---
+title: Erstellen einer hierarchischen Ansichtstabelle
 type: docs
 weight: 30
-url: /de/net/creating-hierarchical-view-sheet/
+url: /de/net/aspose-cells-gridweb/create-hierarchical-view-sheet/
+keywords: GridWeb, hierarchisch
+description: Dieser Artikel zeigt, wie man eine hierarchische Ansicht in GridWeb erstellt.
 ---
+
 {{% alert color="primary" %}} 
 
- Die Datenbindung ist eine leistungsstarke und benutzerfreundliche GridWeb-Funktion. In Datenbanktabellen gespeicherte Daten werden in ein DataSet geholt und mit Daten gefüllt
+Die Datenbindung ist eine leistungsstarke und benutzerfreundliche Funktion von GridWeb. Daten, die in Datenbanktabellen gespeichert sind, werden in ein DataSet abgerufen und mit Daten gefüllt 
 
- die Datentabellen darstellen. Mit der Datenbindungsfunktion können Sie eine hierarchische Ansicht (eine Master-Child-Ansicht) von miteinander verknüpften Daten erstellen und
+und die Datentabellen darstellen. Mit der Datenbindungs-Funktion können Sie eine hierarchische Ansicht (eine Master-Kind-Ansicht) von verknüpften Daten erstellen und 
 
- Zeigen Sie es im Steuerelement an, um es eleganter zu machen.
+sie im Steuerelement anzeigen, um sie eleganter zu gestalten. 
 
- In diesem Thema wird das Erstellen eines hierarchischen Ansichtsblatts erläutert. Einige der Zeilen im Blatt haben untergeordnete Ansichten. Wenn ein Benutzer auf die Zeile klickt**Erweitern**
+Dieses Thema befasst sich mit der Erstellung einer hierarchischen Ansichtstabelle. Einige der Zeilen in der Tabelle haben Kindansichten. Wenn ein Benutzer auf den Link **Erweitern** in der Zeile klickt
 
- Knopf{{< emoticons/cross >}} , wird die untergeordnete Ansichtstabelle dieser Zeile nach unten erweitert. Diese Funktion ist sehr hilfreich beim Erstellen eines hierarchischen Ansichtsberichts.
+button {{< emoticons/cross >}}, the child view table of that row is expanded down. This feature is very helpful for building a hierarchical view report. 
 
-**Eine Tabelle mit einer hierarchischen Ansicht** 
+**Eine Tabelle mit hierarchischer Ansicht** 
 
-![todo: Bild_alt_Text](creating-hierarchical-view-sheet_1.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
-## **Erstellen Sie Beziehungen für DataTables**
-Sie verwenden beispielsweise ADO.Net API und extrahieren Daten aus den Datenbanktabellen. Um ein hierarchisches Ansichtsblatt zu erstellen, müssen Sie ein DataSet entwerfen
+## **Relations für DataTables erstellen**
+Zum Beispiel verwenden Sie die ADO.Net-API und extrahieren Daten aus den Datenbanktabellen. Um eine hierarchische Ansichtstabelle zu erstellen, müssen Sie ein DataSet entwerfen
 
- Objekt basierend auf einigen Tabellen und erstellen Sie zuerst eine Beziehung zwischen ihnen. Verwenden Sie die VS.NET**DataSet-Designer** um die Beziehung herzustellen. In
+Objekt basierend auf einigen Tabellen entwerfen und zunächst eine Beziehung zwischen ihnen herstellen. Verwenden Sie den **DataSet Designer** des VS.NET, um die Beziehung zu erstellen. In 
 
- In diesem Beispiel gibt es drei DataTables: Kunden, Bestellungen, Bestelldetails. Das Blatt zeigt standardmäßig alle Kundeninformationen an. Wann
+diesem Beispiel gibt es drei DataTables: Kunden, Aufträge, Auftragsdetails. Die Tabelle zeigt standardmäßig alle Kundeninformationen an. Wenn 
 
- erweitert der Benutzer einen Kunden, zeigt das Raster alle Bestellungen, die der Kunde aufgegeben hat. Wenn der Benutzer eine Bestellung erweitert, zeigt das Raster die Details an
+der Benutzer einen Kunden erweitert, zeigt die Tabelle alle Bestellungen an, die dieser Kunde getätigt hat. Wenn der Benutzer eine Bestellung erweitert, zeigt die Tabelle die Details 
 
-dieser Reihenfolge. Die Daten sind hierarchisch: Bestelldetails werden unter Bestellungen und Bestellungen unter Kunden aufgeführt.
+dieser Bestellung an. Die Daten sind hierarchisch: Auftragsdetails sind unter Aufträgen und Aufträge sind unter Kunden aufgeführt.
 
-Damit dies funktioniert, müssen folgende Beziehungen zwischen den Datentabellen hergestellt werden:
+Damit dies funktioniert, müssen die folgenden Beziehungen zwischen den Datentabellen hergestellt werden:
 
-1.  Erstellen Sie einen Fremdschlüssel für DataTable Orders, das Schlüsselfeld ist CustomerID
+1. Erstellen Sie einen Fremdschlüssel auf der DataTable Orders, das Schlüsselfeld ist CustomerID 
 
-![todo: Bild_alt_Text](creating-hierarchical-view-sheet_2.png)
-
-
-
-
-1. Erstellen Sie einen Fremdschlüssel für DataTable Order Details, das Schlüsselfeld ist OrderID.
-
-![todo: Bild_alt_Text](creating-hierarchical-view-sheet_3.png)
+![todo:image_alt_text](creating-hierarchical-view-sheet_2.png)
 
 
 
- Der DataSet Designer sieht nun so aus:
 
-![todo: Bild_alt_Text](creating-hierarchical-view-sheet_4.png)
+2. Erstellen Sie einen Fremdschlüssel auf der DataTable Order Details, das Schlüsselfeld ist OrderID. 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_3.png)
+
+
+
+Der DataSet Designer sieht jetzt so aus: 
+
+![todo:image_alt_text](creating-hierarchical-view-sheet_4.png)
 ### **Arbeitsblatt binden**
- Verwenden Sie jetzt die**Arbeitsblatt-Designer** , um die DataSource und DataMember für das Arbeitsblatt festzulegen und die Datenfeldbindungsspalten zu konfigurieren.
+Verwenden Sie nun den **Arbeitsblätter Designer**, um die DataSource und das DataMember für das Arbeitsblatt festzulegen und die Datenfelder zu konfigurieren. 
 
- Das Steuerelement fügt automatisch ein +-Symbol für jede Zeile hinzu, die einem Datensatz entspricht, dessen Bindungsobjekt (im Allgemeinen ein DataRowView-Objekt) hat
+Die Steuerung fügt automatisch ein + Symbol für jede Zeile hinzu, die einem Datensatz entspricht, dessen Bindungsobjekt (in der Regel ein DataRowView-Objekt) hat 
 
- kindliche Ansichten. Wenn auf das Symbol + geklickt wird, wird der Datensatz erweitert, um die untergeordnete Ansicht anzuzeigen. Das folgende Beispiel verwendet die**Arbeitsblatt-Designer** zu binden
+Kindansichten. Wenn auf das + Symbol geklickt wird, wird der Datensatz erweitert, um die Kindansicht anzuzeigen. Das folgende Beispiel verwendet den **Worksheets Designer**, um die 
 
- Arbeitsblatt zum übergeordneten Root DataTable Customers.
+Tabelle an das übergeordnete Stamm-Datentabelle Kunden zu binden. 
 
-![todo: Bild_alt_Text](creating-hierarchical-view-sheet_5.png)
-### **Passen Sie die Bindungsspalten der untergeordneten Tabellen an**
- Das Steuerelement stellt ein Ereignis namens GridWeb.BindingChildView bereit, das Entwickler verwenden, um die Bindungsspalten der untergeordneten Tabellen anzupassen. Dieses Beispiel
+![todo:image_alt_text](creating-hierarchical-view-sheet_5.png)
+### **Anpassen der Spalten für gebundene Kindtabellen**
+Die Steuerung bietet ein Ereignis namens GridWeb.BindingChildView, das von Entwicklern verwendet wird, um die Spalten für gebundene Kindtabellen anzupassen. Dieses Beispiel 
 
- muss die Bestelldetails anzeigen**Einzelpreis** Feld in einem Währungsformat. Fügen Sie einen Ereignishandler hinzu, um das Zahlenformat der Bindungsspalte zu ändern.
+muss das **UnitPrice**-Feld der Bestelldetails im Währungsformat anzeigen. Fügen Sie einen Ereignishandler hinzu, um das Zahlenformat der gebundenen Spalte zu ändern. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Handles the BindingChildView event to set the UnitPrice column.
 
@@ -93,7 +96,7 @@ private void GridWeb1_BindingChildView(Aspose.Cells.GridWeb.GridWeb childGrid, A
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  'Handles the BindingChildView event to set the UnitPrice column.
 
@@ -114,38 +117,38 @@ End Sub
 
 
 {{< /highlight >}}
-### **Daten aus Datenbank und Bindung laden**
-Wie beschrieben in[Binden des Arbeitsblatts an ein DataSet mit dem Arbeitsblatt-Designer von GridWeb](/cells/de/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
- Sie müssen dem Page_Load-Block Code hinzufügen, um Daten aus einer Datenbank in das DataSet zu laden, und das DataSet an das Blatt in der binden
+### **Daten aus der Datenbank laden und binden**
+Wie in [Arbeitsblattbindung an ein DataSet mithilfe des Worksheet-Designers von GridWeb](/cells/de/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/) beschrieben, müssen Sie
+Code zum Laden von Daten aus einer Datenbank in den Page_Load-Block hinzufügen und das DataSet im nächsten Schritt an das Arbeitsblatt binden. 
 
- nächster Schritt.
+Der Asppose.Grid.Web.Data.WebWorksheet-Klasse verfügt über einige nützliche Eigenschaften. 
 
 Die Klasse Asppose.Grid.Web.Data.WebWorksheet hat einige nützliche Eigenschaften.
 
-- Beispielsweise wird die Eigenschaft EnableCreateBindColumnHeader verwendet, um die Überschriften der gebundenen Spalte innerhalb des Blatts oder der Spalte zu erstellen
+- Beispielsweise wird die Eigenschaft EnableCreateBindColumnHeader verwendet, um die Überschriften der gebundenen Spalte im Arbeitsblatt zu erstellen oder die Spalte
 
- headers zeigt die gebundenen Spaltennamen an. Es nimmt die Werte**wahr** oder**FALSCH**. 
+Kopfzeilen zeigen die Namen der gebundenen Spalten. Sie nimmt die Werte **true** oder **false** an. 
 
-- Die Eigenschaften BindStartRow und BindStartColumn geben die Position im Blatt des GridWeb-Steuerelements an, an das die Quelle gebunden werden soll.
-- Die Eigenschaft EnableExpandChildView wird verwendet, um die erweiterte untergeordnete Ansicht für das Arbeitsblatt zu deaktivieren. Standardmäßig ist es auf true gesetzt.
+- Die Eigenschaften BindStartRow und BindStartColumn geben die Position im Arbeitsblatt des GridWeb-Steuerung an, an die die Quelle gebunden werden soll.
+- Die Eigenschaft EnableExpandChildView wird verwendet, um die erweiterte Kindansicht für das Arbeitsblatt zu deaktivieren. Standardmäßig ist sie auf true gesetzt.
 
- Die Klasse hat auch einige nützliche Methoden.
+Die Klasse hat auch einige nützliche Methoden. 
 
-- Die Methode DataBind() bindet ein Blatt an die Quelle.
-- Die CreateNewBindRow() fügt eine neue Zeile hinzu und bindet sie an die Datenquelle.
-- DeleteBindRow() löscht eine gebundene Zeile.
+- Die Methode DataBind() bindet ein Arbeitsblatt mit der Quelle.
+- Die Methode CreateNewBindRow() fügt eine neue Zeile hinzu und bindet sie an die Datenquelle.
+- Die Methode DeleteBindRow() löscht eine gebundene Zeile.
 - Die Methode SetRowExpand() legt die erweiterte Zeile fest und zeigt den Inhalt der untergeordneten Ansicht im Datenbindungsmodus an.
-- Die Methode GetRowExpand() erhält einen booleschen Wert, der angibt, ob die Zeile erweitert ist oder nicht.
+- Die Methode GetRowExpand() gibt einen Booleschen Wert zurück, der angibt, ob die Zeile erweitert ist oder nicht.
 
- Im folgenden Code wird das DataSet-Objekt „dataSet21“ mit Daten gefüllt, die auf drei Tabellen basieren. Die Customers-Tabelle wird gefiltert, um sie zu machen
+Im folgenden Code wird das DataSet-Objekt "dataSet21" basierend auf drei Tabellen mit Daten gefüllt. Die Kunden-Tabelle wird gefiltert, um sie zur ersten Tabelle in der hierarchischen Ansicht zu machen. Ein WebWorksheet-Objekt mit dem Namen "sheet" wird erstellt, das zuerst das Blatt löscht und dann mit der Datenquelle verknüpft. 
 
- erste Tabelle in der hierarchischen Darstellung. Ein WebWorksheet-Objekt mit dem Namen "sheet" wird erstellt, das das Blatt zuerst löscht und dann festlegt
+**VB.NET** 
 
- mit der Datenquelle verknüpft.
+mit der Datenquelle verknüpft. 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -199,7 +202,7 @@ private void BindWithoutInSheetHeaders()
 
         dataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'";
 
-        WebWorksheet sheet = GridWeb1.WebWorksheets[0];
+        WebWorksheet sheet = GridWeb1.WorkSheets[0];
 
         // Clears the sheet.
 
@@ -235,53 +238,53 @@ private void BindWithoutInSheetHeaders()
 
 **VB.NET**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Behandelt MyBase.Load
+ Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
- 'Benutzercode zum Initialisieren der Seite hier eingeben
+    'Put user code to initialize the page here
 
- Wenn nicht IsPostBack Then
+    If Not IsPostBack Then
 
- BindWithoutInSheetHeaders()
+        BindWithoutInSheetHeaders()
 
- Ende Wenn
+    End If
 
 End Sub
 
-Private UnterbindungOhneInSheetHeaders()
+Private Sub BindWithoutInSheetHeaders()
 
- Dim db As DemoDatabase2 = Neue DemoDatabase2()
+    Dim db As DemoDatabase2 = New DemoDatabase2()
 
-Dim path As String = MapPath(".")
+    Dim path As String = MapPath(".")
 
- path = path.Substring(0, path.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- path = path.Substring(0, path.LastIndexOf("\"))
+    path = path.Substring(0, path.LastIndexOf("\"))
 
- db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Datenquelle=" + Pfad + "\Database\Northwind.mdb"
+    db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + path + "\Database\Northwind.mdb"
 
- Versuchen
+    Try
 
- ' Stellt eine Verbindung zur Datenbank her und ruft Daten ab.
+        ' Connects to database and fetches data.
 
- ' Kundentabelle.
+        ' Customers Table.
 
- db.OleDbDataAdapter1.Fill(DataSet21)
+        db.OleDbDataAdapter1.Fill(DataSet21)
 
- ' Bestelltabelle.
+        ' Orders Table.
 
- db.OleDbDataAdapter2.Fill(DataSet21)
+        db.OleDbDataAdapter2.Fill(DataSet21)
 
- ' OrderDetailTable.
+        ' OrderDetailTable.
 
- db.OleDbDataAdapter3.Fill(DataSet21)
+        db.OleDbDataAdapter3.Fill(DataSet21)
 
- ' Daten filtern
+        ' Filter data
 
- DataSet21.Customers.DefaultView.RowFilter = "Kunden-ID<'BSAAA'"
+        DataSet21.Customers.DefaultView.RowFilter = "CustomerID<'BSAAA'"
 
-        Dim sheet As WebWorksheet = GridWeb1.WebWorksheets(0)
+        Dim sheet As WebWorksheet = GridWeb1.WorkSheets(0)
 
         ' Clears the sheet.
 

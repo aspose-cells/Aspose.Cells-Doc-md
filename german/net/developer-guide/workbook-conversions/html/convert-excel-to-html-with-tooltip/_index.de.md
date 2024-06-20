@@ -1,18 +1,19 @@
-﻿---
-title: Konvertieren Sie Excel in HTML mit Tooltip
+---
+title: Excel in HTML mit Tooltip konvertieren
 type: docs
 weight: 200
 url: /de/net/convert-excel-to-html-with-tooltip/
 ---
-## **Konvertieren Sie Excel in HTML mit Tooltip**
 
-Es kann Fälle geben, in denen der Text im generierten HTML abgeschnitten ist und Sie den vollständigen Text als Tooltip auf dem Hover-Ereignis anzeigen möchten. Aspose.Cells unterstützt dies durch Bereitstellung**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** Eigentum. Einstellung der**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** Eigentum zu**wahr** fügt den vollständigen Text als Tooltip in die generierte HTML ein.
+## **Excel in HTML mit Tooltip konvertieren**
 
-Das folgende Bild zeigt den Tooltip in der generierten Datei HTML.
+Es kann Fälle geben, in denen der Text in dem generierten HTML abgeschnitten ist und Sie den vollständigen Text als Tooltip bei einem Hover-Ereignis anzeigen möchten. Aspose.Cells unterstützt dies durch Bereitstellung der [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)-Eigenschaft. Wenn die [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)-Eigenschaft auf **true** gesetzt wird, wird der vollständige Text als Tooltip im generierten HTML hinzugefügt.
 
-![todo: Bild_alt_Text](convert-excel-to-html-with-tooltip_1.jpg)
+Das folgende Bild zeigt den Tooltip in der generierten HTML-Datei.
 
- Das folgende Codebeispiel lädt die[Excel-Quelldatei](98107416.xlsx) und generiert die[Ausgabedatei HTML](98107417.zip) mit dem Tooltip.
+![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
+
+Das folgende Beispielskript lädt die [Quell-Excel-Datei](98107416.xlsx) und generiert die [Ausgabe-HTML-Datei](98107417.zip) mit dem Tooltip.
 
 Beispielcode
 

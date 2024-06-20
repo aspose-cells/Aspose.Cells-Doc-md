@@ -1,19 +1,20 @@
-﻿---
-title: حدد المؤلف أثناء كتابة حماية المصنف
+---
+title: تحديد المؤلف أثناء حماية كتاب العمل
 type: docs
 weight: 40
 url: /ar/net/specify-author-while-write-protecting-workbook/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك تحديد اسم المؤلف أثناء الكتابة لحماية المصنف الخاص بك باستخدام Aspose.Cells API. الرجاء استخدام[**المصنف ، الإعدادات ، الكتابة ، الحماية ، المؤلف**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)خاصية لهذا الغرض.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **حدد المؤلف أثناء كتابة حماية المصنف**
+يمكنك تحديد اسم المؤلف أثناء حماية كتاب العمل باستخدام واجهة برمجة التطبيقات Aspose.Cells. يُرجى استخدام متغير [**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author) لهذا الغرض.
 
-يشرح نموذج التعليمات البرمجية التالي استخدام[**المصنف ، الإعدادات ، الكتابة ، الحماية ، المؤلف**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)خاصية. يقوم الكود بإنشاء مصنف فارغ ، والكتابة تحميه بكلمة مرور ، ويحدد اسم المؤلف ويحفظه[إخراج ملف Excel](67338582.xlsx). توضح لقطة الشاشة التالية تأثير نموذج التعليمات البرمجية على ملف Excel الناتج للرجوع إليه.
+## **تحديد المؤلف أثناء حماية كتاب العمل**
 
-![ما يجب القيام به: image_بديل_نص](specify-author-while-write-protecting-workbook_1.png)
+يشرح الكود النموذجي التالي استخدام الخصائص [**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author). يقوم الكود بإنشاء ورقة عمل فارغة، يحميها من الكتابة بكلمة مرور، يحدد اسم المؤلف ويحفظها كملف إكسل الناتج (67338582.xlsx). يوضح اللقطة الشاشية التالية تأثير الكود النموذجي على ملف إكسل الناتج لرجاحتكم.
 
-## **عينة من الرموز**
+![todo:image_alt_text](specify-author-while-write-protecting-workbook_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-Security-SpecifyAuthorWhileWriteProtectingWorkbook.cs" >}}

@@ -1,37 +1,38 @@
 ---
-title: Обрезайте начальные пустые строки и столбцы при экспорте электронных таблиц в формат CSV.
+title: Обрезать ведущие пустые строки и столбцы при экспорте электронных таблиц в формат CSV
 type: docs
 weight: 100
 url: /ru/python-net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/
-description: Обрежьте начальные пустые строки и столбцы при экспорте электронных таблиц в формат CSV, используя Aspose.Cells for Python via .NET API.
-keywords: Python Trim Leading Blank Rows and Columns while exporting spreadsheets to CSV format, Trim Leading Blank Rows and Columns while saving excel to CSV format in Python via NET, Python Trim Leading Blank Rows and Columns exporting excel to CSV format.
+description: Удаление ведущих пустых строк и столбцов при экспорте таблиц в формат CSV с помощью Aspose.Cells для Python via .NET API.
+keywords: Python Удаление ведущих пустых строк и столбцов при экспорте таблиц в формат CSV, Удаление ведущих пустых строк и столбцов при сохранении эксель в формат CSV в Python via NET, Python Удаление ведущих пустых строк и столбцов при экспорте Excel в формат CSV.
 ---
-##  **Возможные сценарии использования**
 
-Иногда в вашем файле Excel или CSV есть пустые столбцы или строки. Например, рассмотрим эту строку
+## **Возможные сценарии использования**
 
-{{< highlight "java" >}}
+Иногда ваш файл Excel или CSV имеет ведущие пустые столбцы или строки. Например, рассмотрим эту строку
+
+{{< highlight java >}}
 
  ,,,data1,data2
 
 {{< /highlight >}}
 
-Здесь первые три ячейки или столбца пусты. Когда вы открываете такой файл CSV в Microsoft Excel, Excel Microsoft отбрасывает эти начальные пустые строки и столбцы.
+Здесь первые три ячейки или столбца пусты. Когда вы открываете такой файл CSV в Microsoft Excel, то Microsoft Excel отбрасывает эти ведущие пустые строки и столбцы.
 
- По умолчанию Aspose.Cells for Python via .NET не отбрасывает начальные пустые столбцы и строки при сохранении, но если вы хотите удалить их так же, как это делает Microsoft Excel, тогда Aspose.Cells for Python via .NET предоставляет**[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)** свойство. Пожалуйста, установите его на**истинный**и тогда все ведущие пустые строки и столбцы будут отброшены при сохранении.
+По умолчанию Aspose.Cells для Python via .NET не удаляет ведущие пустые столбцы и строки при сохранении, но если вы хотите удалить их, как это делает Microsoft Excel, то Aspose.Cells для Python via .NET предоставляет свойство [**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/). Пожалуйста, установите его в **true**, и затем все ведущие пустые строки и столбцы будут удалены при сохранении.
 
 {{% alert color="primary" %}}
 
- До выпуска Aspose.Cells for Python via .NET 20.4 значение по умолчанию**[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)**был**ЛОЖЬ**. Начиная с версии 20.4, значение по умолчанию **[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)** является**истинный.**
+До выпуска Aspose.Cells для Python via .NET 20.4 значение по умолчанию для [**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/) было **false**. С момента выпуска 20.4 значение по умолчанию для [**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/) - **true**.
 
 {{% /alert %}}
 
-##  **Обрезайте начальные пустые строки и столбцы при экспорте электронных таблиц в формат CSV.**
+## **Обрезать ведущие пустые строки и столбцы при экспорте электронных таблиц в формат CSV**
 
- Следующий пример кода загружает[исходный файл Excel](sampleTrimBlankColumns.xlsx) который имеет два ведущих пустых столбца. Сначала он сохраняет файл Excel в формате CSV без каких-либо изменений, а затем устанавливает**[TxtSaveOptions.trim_leading_blank_row_and_column](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/)** собственность**истинный** и сохраняет его снова. На скриншоте показано[исходный файл Excel](sampleTrimBlankColumns.xlsx), [вывести файл CSV без обрезки](outputWithoutTrimBlankColumns.csv)и[вывод CSV файл с обрезкой](outputTrimBlankColumns.csv).
+Приведенный ниже образец кода загружает [исходный файл Excel](sampleTrimBlankColumns.xlsx), в котором есть два ведущих пустых столбца. Сначала он сохраняет файл Excel в формате CSV без изменений, а затем устанавливает свойство [**TxtSaveOptions.trim_leading_blank_row_and_column**](https://reference.aspose.com/cells/python-net/aspose.cells/txtsaveoptions/trim_leading_blank_row_and_column/) в **true** и сохраняет его снова. Снимок экрана показывает [исходный файл Excel](sampleTrimBlankColumns.xlsx), [выходной файл CSV без обрезки](outputWithoutTrimBlankColumns.csv) и выходной файл CSV с обрезкой(outputTrimBlankColumns.csv).
 
-![задача: image_alt_text](result.png)
+![todo:image_alt_text](result.png)
 
-##  **Образец кода**
+## **Образец кода**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CSV-TSV-TXT-TrimLeadingBlankRowsAndColumns.py" >}}

@@ -1,16 +1,17 @@
-﻿---
-title: Guardar informes
+---
+title: Guardando Informes
 type: docs
 weight: 80
 url: /es/reportingservices/saving-reports/
 ---
+
 {{% alert color="primary" %}} 
 
- Para guardar un informe, haga clic en**Guardar reporte**en la barra de herramientas Aspose.Cells.Report.Designer (
+Para guardar un informe, haga clic en **Guardar informe** en la barra de herramientas de diseño Aspose.Cells.Report.
 
-![todo:imagen_alternativa_texto](saving-reports_1.png)
+![todo:image_alt_text](saving-reports_1.png)
 
 ). 
-El informe (Microsoft plantilla de Excel) se guarda como un archivo RDL.
+El informe (plantilla de Microsoft Excel) se guarda como un archivo RDL.
 
 {{% /alert %}}

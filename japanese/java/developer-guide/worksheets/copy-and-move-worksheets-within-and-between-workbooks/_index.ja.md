@@ -1,62 +1,63 @@
-﻿---
+---
 title: ワークブック内およびワークブック間でワークシートをコピーおよび移動する
 type: docs
 weight: 20
 url: /ja/java/copy-and-move-worksheets-within-and-between-workbooks/
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、共通の書式設定とデータ入力を備えた多数のワークシートが必要になることがあります。たとえば、四半期ごとの予算を扱う場合、同じ列見出し、行見出し、および数式を含むシートを含むワークブックを作成できます。これを行う方法があります: 1 つのシートを作成し、それを 3 回コピーします。
+時には、共通の書式設定およびデータ入力の複数のワークシートが必要なことがあります。例えば、四半期予算を扱う場合、同じ列見出し、行見出し、および数式を含むシートを作成したいかもしれません。これを行う方法があります。1つのシートを作成し、それを3回コピーすることです。
 
-Aspose.Cells は、ワークブック内またはワークブック間でのワークシートのコピーまたは移動をサポートしています。データ、フォーマット、テーブル、マトリックス、チャート、画像、その他のオブジェクトを含むワークシートは、最高の精度でコピーされます。
+Aspose.Cellsは、ワークブック内またはワークブック間でワークシートを最高の精度でコピーまたは移動する機能をサポートします。データ、書式設定、テーブル、行列、グラフ、画像、その他のオブジェクトを含むワークシートがコピーされます。
 
 {{% /alert %}}
 
-## **ワークシートのコピーと移動**
+## **ワークシートのコピーおよび移動**
 
-この記事では、Aspose.Cells を使用して次のことを行う方法について説明します。
+この記事では、Aspose.Cellsを使用して次の操作を行う方法について説明しています:
 
-- [ワークブック内でワークシートをコピーする](/cells/ja/java/copy-and-move-worksheets-within-and-between-workbooks/#copying-a-worksheet-within-a-workbook).
-- [ワークブック内でワークシートを移動する](/cells/ja/java/copy-and-move-worksheets-within-and-between-workbooks/#moving-a-worksheet-with-in-a-workbook).
-- [ワークブック間でワークシートをコピーする](/cells/ja/java/copy-and-move-worksheets-within-and-between-workbooks/#copying-a-worksheet-between-workbooks).
-- [ワークブック間でワークシートを移動する](/cells/ja/java/copy-and-move-worksheets-within-and-between-workbooks/#moving-a-worksheet-between-workbooks).
+- ワークブック内でのワークシートのコピー[/cells/ja/java/copy-and-move-worksheets-within-and-between-workbooks/#copying-a-worksheet-within-a-workbook]。
+- ワークブック内でのワークシートの移動[/cells/ja/java/copy-and-move-worksheets-within-and-between-workbooks/#moving-a-worksheet-with-in-a-workbook]。
+- ワークブック間でのワークシートのコピー[/cells/ja/java/copy-and-move-worksheets-within-and-between-workbooks/#copying-a-worksheet-between-workbooks]。
+- ワークブック間でのワークシートの移動[/cells/ja/java/copy-and-move-worksheets-within-and-between-workbooks/#moving-a-worksheet-between-workbooks]。
 
-### **ワークブック内でワークシートをコピーする**
+### **ワークブック内のワークシートのコピー**
 
-最初の手順はすべての例で同じです。
+すべての例で最初のステップは同じです。
 
-1. Microsoft Excel でいくつかのデータを含む 2 つのワークブックを作成します。この例では、Microsoft Excel で 2 つの新しいワークブックを作成し、ワークシートにいくつかのデータを入力しました。
+1. Microsoft Excelにデータを含む2つのワークブックを作成します。この例では、Microsoft Excelで新しいワークブックを2つ作成し、ワークシートにデータを入力しました。
 
-- FirstWorkbook.xls (3 つのワークシート)
-- SecondWorkbook.xls (1 ワークシート)。
+- FirstWorkbook.xls (3つのワークシート)
+- SecondWorkbook.xls (1つのワークシート)
 
   **FirstWorkbook.xls**
 
-![todo:画像_代替_文章](copy-and-move-worksheets-within-and-between-workbooks_1.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_1.png)
 
 **SecondWorkbook.xls**
 
-![todo:画像_代替_文章](copy-and-move-worksheets-within-and-between-workbooks_2.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_2.png)
 
-1. Aspose.Cells をダウンロードしてインストールします。
-   1. [ダウンロード Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
-1. 開発用コンピューターで解凍します。
-全て[Aspose](http://www.aspose.com/)コンポーネントがインストールされると、評価モードで動作します。評価モードには時間制限がなく、生成されたドキュメントに透かしを挿入するだけです。
+1. Aspose.Cellsをダウンロードしてインストールします。
+   1. [Aspose.Cells for Javaをダウンロード](https://downloads.aspose.com/cells/java)します。
+   1. 開発コンピュータにそれを解凍します。
+      すべての[Aspose](http://www.aspose.com/)コンポーネントは、インストールされると評価モードで動作します。評価モードには時間制限がなく、生成された文書にウォーターマークしか挿入されません。
 1. プロジェクトを作成します。
- 1. Eclipse などの Java エディターを使用してプロジェクトを作成するか、テキスト エディターを使用して簡単なプログラムを作成します。
+   1. EclipseなどのJavaエディタを使用してプロジェクトを作成するか、テキストエディタを使用して簡単なプログラムを作成します。
 1. クラスパスを追加します。
-1. Aspose.Cells.zip から Aspose.Cells.jar と dom4j_1.6.1.jar を抽出します。
- 1. Eclipse でプロジェクトのクラスパスを設定します。
- 1. Eclipse でプロジェクトを選択し、メニューをクリックします**計画**、 それから**プロパティ**.
-1. 選択**Java ビルド パス**ダイアログの左側で、[ライブラリ] タブを選択します。
- 1. クリック**JAR を追加する**また**外部 JAR を追加する**Aspose.Cells.jar と dom4j_1.6.1.jar を選択してビルド パスに追加します。
+   1. Aspose.Cells.zipからAspose.Cells.jarとdom4j_1.6.1.jarを抽出します。
+   1. Eclipseでプロジェクトのクラスパスを設定します。
+      1. Eclipseでプロジェクトを選択し、**Project**、次に**Properties**をクリックします。
+      1. ダイアログの左側で**Java Build Path**を選択し、Librariesタブを選択します。
+      1. **Add JARs**または**Add External JARs**をクリックしてAspose.Cells.jarとdom4j_1.6.1.jarを選択し、ビルドパスに追加します。
 
 {{% alert color="primary" %}}
 
-または、実行時に Windows の DOS プロンプトでクラスパスを設定できます。
-例えば：
+または、WindowsのDOSプロンプトで実行時にクラスパスを設定できます。
+例:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath %classpath%;e:\Aspose.Cells.jar; ClassName
 
@@ -64,50 +65,50 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 
 {{% /alert %}}
 
-1. ワークブック内でワークシートをコピー:
-以下は、タスクを実行するために によって使用されるコードです。ワークシート Copy を FirstWorkbook.xls 内にコピーします。
+1. ワークブック内でワークシートをコピーします。
+   以下は、このタスクを達成するために使用されるコードです。これにより、ワークブックFirstWorkbook.xls内のワークシートCopyがコピーされます。
 
-コードを実行すると、Copy という名前のワークシートが FirstWorkbook.xls 内に移動し、Last Sheet という新しい名前が付けられます。
+コードを実行すると、新しい名前のワークシートLast Sheetが付いたFirstWorkbook.xls内のワークシートCopyが移動します。
 
 **出力ファイル**
 
-![todo:画像_代替_文章](copy-and-move-worksheets-within-and-between-workbooks_3.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWithinWorkbook-1.java" >}}
 
-### **ワークブック内でのワークシートの移動**
+### **ワークブック内でワークシートを移動する**
 
-以下は、タスクを実行するために使用されるコードです。
+以下は、このタスクを達成するために使用されるコードです。
 
-コードを実行すると、ワークシート Move が FirstWorkbook.xls のインデックス 1 からインデックス 2 に移動します。
+コードを実行すると、FirstWorkbook.xls内のインデックス1からインデックス2にワークシートMoveが移動します。
 
 **出力ファイル**
 
-![todo:画像_代替_文章](copy-and-move-worksheets-within-and-between-workbooks_4.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
 
 ### **ワークブック間でワークシートをコピーする**
 
-コードを実行すると、ワークシート Copy が新しい名前 Sheet2 で SecondWorkbook.xls にコピーされます。
+コードを実行すると、ワークブックSecondWorkbook.xlsにワークシートCopyがSheet2という新しい名前でコピーされます。
 
 **出力ファイル**
 
-![todo:画像_代替_文章](copy-and-move-worksheets-within-and-between-workbooks_5.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWorksheetsBetweenWorkbooks-1.java" >}}
 
 ### **ワークブック間でワークシートを移動する**
 
-コードを実行すると、移動ワークシートが FirstWorkbook.xls から SecondWorkbook.xls に新しい名前 Sheet3 で移動します。
+コードを実行すると、FirstWorkbook.xlsからSecondWorkbook.xlsにシートを移動し、新しい名前をSheet3に変更します。
 
-**FirstWorkbook.xls を出力**
+**FirstWorkbook.xlsの出力**
 
-![todo:画像_代替_文章](copy-and-move-worksheets-within-and-between-workbooks_6.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_6.png)
 
-**出力 SecondWorkbook.xls**
+**SecondWorkbook.xlsの出力**
 
-![todo:画像_代替_文章](copy-and-move-worksheets-within-and-between-workbooks_7.png)
+![todo:image_alt_text](copy-and-move-worksheets-within-and-between-workbooks_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
 
@@ -115,8 +116,8 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 
 {{% alert color="primary" %}}
 
-この記事では、Aspose.Cells を使用して、ブック内およびブック間でワークシートをコピーおよび移動する方法について説明します。
+この記事では、Aspose.Cellsを使用してブック間およびブック内でワークシートをコピーおよび移動する方法について説明します。
 
- Aspose.Cells は、何年にもわたる研究、設計、慎重な調整の恩恵を受けてきました。ご質問、ご意見、ご提案は、[Aspose.Cells フォーラム](https://forum.aspose.com/c/cells/9).迅速な返信を保証します。
+Aspose.Cellsは、長年の研究、設計、丁寧なチューニングによって恩恵を受けています。[Aspose.Cellsフォーラム](https://forum.aspose.com/c/cells/9)でのお問い合わせ、コメント、提案を歓迎します。迅速な返信を保証します。
 
 {{% /alert %}}

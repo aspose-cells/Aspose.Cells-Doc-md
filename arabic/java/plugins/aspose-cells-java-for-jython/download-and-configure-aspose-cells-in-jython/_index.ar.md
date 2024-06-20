@@ -1,31 +1,32 @@
-﻿---
-title: تنزيل وتهيئة Aspose.Cells في جايثون
+---
+title: تنزيل وتكوين Aspose.Cells في Jython
 type: docs
 weight: 10
 url: /ar/java/download-and-configure-aspose-cells-in-jython/
 ---
-## **جارى التحميل**
 
-**تنزيل أمثلة من مواقع الترميز الاجتماعي**
+## **التحميل**
 
-الإصدارات التالية من الأمثلة قيد التشغيل متاحة للتنزيل على جميع مواقع الترميز الاجتماعي المذكورة أدناه:
+**تنزيل الأمثلة من مواقع التعاون الاجتماعي للترميز**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython)
+إصدارات تشغيل الأمثلة التي يمكن تنزيلها على جميع المواقع المذكورة أدناه على مواقع التعاون الاجتماعي:
 
-**تنزيل Aspose.Cells for Java المكون**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython)
+
+**تحميل مكون Aspose.Cells for Java**
 
 - [Aspose.Cells for Java](https://downloads.aspose.com/cells/java)
 
 ## **التثبيت**
 
-- ضع ملف جرة Aspose.Cells for Java الذي تم تنزيله في دليل "lib".
-- استبدل "your-lib" باسم ملف jar الذي تم تنزيله في ملف _ * init * _. py.
+- ضع ملف جرار Aspose.Cells for Java الذي تم تحميله في دليل "lib".
+- استبدل "your-lib" باسم ملف الجرار المحمل في ملف _*init*_.py.
 
 ## **استخدام**
 
-يمكنك إنشاء مستند HelloWorld باستخدام رمز المثال التالي:
+يمكنك إنشاء مستند HelloWorld باستخدام الكود المثال التالي:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells  import Settings
 

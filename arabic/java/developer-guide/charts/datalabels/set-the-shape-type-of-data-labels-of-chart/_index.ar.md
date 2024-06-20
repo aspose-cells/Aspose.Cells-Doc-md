@@ -1,14 +1,15 @@
-﻿---
-title: قم بتعيين نوع شكل تسميات البيانات للمخطط
+---
+title: تعيين نوع الشكل لتسميات بيانات الرسم البياني
 type: docs
 weight: 70
 url: /ar/java/set-the-shape-type-of-data-labels-of-chart/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك تغيير نوع شكل تسميات البيانات للمخطط باستخدام[**تصنيفات البيانات**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)خاصية. يأخذ قيمة[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)تعداد وتغيير نوع شكل تسميات البيانات وفقًا لذلك. بعض قيمها
+## **سيناريوهات الاستخدام المحتملة**
 
-{{< highlight "java" >}}
+يمكنك تغيير نوع الشكل لتسميات بيانات الرسم البياني باستخدام الخاصية [**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType). يأخذ قيمة التعداد [**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType) ويغير نوع الشكل لتسميات البيانات وفقًا لذلك. بعض قيمه هي
+
+{{< highlight java >}}
 
 DataLabelShapeType.BENT_LINE_CALLOUT
 
@@ -24,12 +25,12 @@ etc.
 
 {{< /highlight >}}
 
-## **قم بتعيين نوع شكل تسميات البيانات للمخطط**
+## **تعيين نوع الشكل لتسميات بيانات الرسم البياني**
 
-يغير نموذج التعليمات البرمجية التالي نوع شكل تسميات البيانات في المخطط إلى[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). الرجاء مراجعة[نموذج لملف Excel](60489794.xlsx)المستخدمة في هذا الرمز و[إخراج ملف Excel](60489793.xlsx)ولدت به. تُظهر لقطة الشاشة تأثير الكود على نموذج ملف Excel.
+الشيفرة المرجعية التالية تغيير نوع الشكل لتسميات بيانات الرسم البياني إلى [**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). يرجى الاطلاع على الملف الاكسل المرجعي المستخدم في هذه الشيفرة والملف الاكسل الناتج الذي تم إنشاؤه منه. تُظهر اللقطة الشاشية تأثير الشيفرة على ملف الاكسل المرجعي.
 
-![ما يجب القيام به: image_بديل_نص](set-the-shape-type-of-data-labels-of-chart_1.png)
+![todo:image_alt_text](set-the-shape-type-of-data-labels-of-chart_1.png)
 
-## **عينة من الرموز**
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-SetShapeTypeOfDataLabelsOfChart.java" >}}

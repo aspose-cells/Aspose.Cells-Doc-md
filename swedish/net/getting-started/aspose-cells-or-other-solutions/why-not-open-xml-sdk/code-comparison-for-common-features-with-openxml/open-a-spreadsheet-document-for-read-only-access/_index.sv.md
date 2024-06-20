@@ -1,11 +1,12 @@
-﻿---
-title: Öppna ett kalkylark för skrivskyddad åtkomst
+---
+title: Öppna ett kalkylbladsdokument i endast läsläge
 type: docs
 weight: 100
 url: /sv/net/open-a-spreadsheet-document-for-read-only-access/
 ---
+
 ## **OpenXML Excel**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\..\Sample Files\";
 
@@ -39,7 +40,7 @@ using (SpreadsheetDocument spreadsheetDocument = SpreadsheetDocument.Open(filepa
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -61,7 +62,7 @@ public static void OpenSpreadsheetDocumentReadonly(string filepath)
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code Exempel**
+## **Hämta körande kodexempel**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
 ## **Exempelkod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Open%20read-only%20access)

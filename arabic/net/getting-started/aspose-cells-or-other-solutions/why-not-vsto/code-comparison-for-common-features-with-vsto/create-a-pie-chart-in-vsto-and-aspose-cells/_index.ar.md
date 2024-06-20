@@ -1,19 +1,20 @@
-﻿---
-title: قم بإنشاء مخطط دائري في VSTO و Aspose.Cells
+---
+title: إنشاء رسم بياني دائري في VSTO و Aspose.Cells
 type: docs
 weight: 80
 url: /ar/net/create-a-pie-chart-in-vsto-and-aspose-cells/
 ---
-تقارن هذه المقالة كيفية إنشاء مخطط دائري باستخدام Office Automation و VSTO باستخدام Aspose.Cells for .NET. خطوات إنشاء مخطط دائري هي:
 
-1. إنشاء مصنف وورقة عمل.
-1. إضافة بيانات العينة.
-1. الرجوع إلى المنتجات
-1. إضافة مخطط دائري ، وتحديد نطاق البيانات وعنوان المخطط.
+يقارن هذا المقال كيفية إنشاء رسم بياني دائري باستخدام الأتمتة المكتبية و VSTO باستخدام Aspose.Cells for .NET.  الخطوات الخاصة بإنشاء رسم بياني دائري هي:
+
+1. إنشاء عمل ورقة.
+1. إضافة بيانات عينة.
+1. الإشارة إلى منتجاتشارت.
+1. إضافة رسم بياني دائري، تحديد نطاق البيانات وعنوان الرسم البياني.
 1. حفظ جدول البيانات.
-توضح عينات الكود في هذه المقالة كيفية إضافة مخطط دائري باستخدام VSTO ، باستخدام C# ، مقارنةً بإنشاء مخطط مع Aspose.Cells ، مرة أخرى باستخدام إما C#.
+   تظهر أمثلة الكود في هذا المقال كيفية إضافة رسم بياني دائري مع VSTO، باستخدام إما C#، مقارنةً بإنشاء واحد مع Aspose.Cells، مرة أخرى باستخدام إما C#.
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private void PieChart()
 
@@ -89,7 +90,7 @@ workbook.SaveCopyAs("OutputVsto.xlsx");
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private static void PieChart()
 
@@ -159,7 +160,7 @@ workbook.SaveCopyAs("OutputVsto.xlsx");
 
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create.a.Pie.Chart.Aspose.Cells.zip)
-- [سورس فورج](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip / تنزيل)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).أَزِيز)
+## **تحميل رمز عينة**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create.a.Pie.Chart.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Create%20a%20Pie%20Chart%20\(Aspose.Cells\).zip)

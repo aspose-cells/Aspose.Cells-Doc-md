@@ -1,15 +1,16 @@
-﻿---
-title: أضف أوراق عمل إلى ملف Excel جديد في PHP
+---
+title: إضافة أوراق العمل إلى ملف إكسل جديد باستخدام البي إتش بي
 type: docs
 weight: 20
 url: /ar/net/add-worksheets-to-new-excel-file-in-php/
 ---
-## **أضف أوراق عمل إلى ملف Excel جديد**
-أضف أوراق عمل إلى ملف Excel جديد
+
+## **إضافة أوراق العمل إلى ملف إكسل جديد**
+إضافة أوراق العمل إلى ملف إكسل جديد
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -36,7 +37,7 @@ url: /ar/net/add-worksheets-to-new-excel-file-in-php/
         print "Completed." . PHP_EOL;
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إضافة أوراق عمل إلى ملف Excel جديد (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **إضافة أوراق العمل إلى ملف إكسل جديد (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddingWorksheetsToNewExcelFile.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddingWorksheetsToNewExcelFile.php)

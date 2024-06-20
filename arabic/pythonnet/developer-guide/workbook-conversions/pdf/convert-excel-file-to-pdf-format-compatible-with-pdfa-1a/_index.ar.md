@@ -1,25 +1,26 @@
 ---
-title: تحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA-1a
+title: تحويل ملف Excel إلى صيغة PDF متوافقة مع PDFA 1a
 type: docs
 weight: 130
 url: /ar/python-net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/
-description: تعرف على كيفية تحويل ملف Excel إلى تنسيق PDF المتوافق مع PDFA-1a مع Aspose.Cells for Python via .NET API.
-keywords: Python Convert Excel file to PDF format compatible with PDFA-1a, PDFA-1a, PDFA-1b, PDF14, PDF15, PDF16, PDF17
+description: تعلم كيفية تحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA 1a باستخدام Aspose.Cells لـ Python via .NET API.
+keywords: تحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA 1a باستخدام Python, PDFA 1a, PDFA 1b, PDF14, PDF15, PDF16, PDF17
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-PDF/A هو نكهة فريدة من PDF مصممة لحفظ المستندات على المدى الطويل. PDF/A هو إصدار قياسي من ISO لتنسيق المستندات المحمولة (PDF) وهو تنسيق أرشيفي لـ PDF يتضمن جميع الخطوط المستخدمة في المستند داخل الملف PDF. يختلف PDF/A عن PDF من خلال حظر الميزات، مثل ربط الخط (بدلاً من تضمين الخط) والتشفير. Aspose.Cells for Python via .NET يمكّنك من حفظ ملفات Excel إلى ملفات PDF/A المتوافقة مع PDF (يتم دعم كل من PdfA1a وPdfA1b). يصف هذا الموضوع كيفية حفظ مصنف Excel في ملف PDF/A المتوافق (PdfA1a) PDF.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **تحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA-1a**
+PDF/A هو نكهة فريدة من PDF مصممة لحفظ الوثائق لفترات طويلة. PDF/A هو إصدار موحد من تنسيق المستند المحمول (PDF) الذي هو تنسيق أرشيفي للـ PDF يضم جميع الخطوط المستخدمة في المستند داخل ملف PDF. يختلف PDF/A عن PDF من خلال منع ميزات مثل ربط الخطوط (بدلاً من تضمين الخطوط) والتشفير. تتيح لك Aspose.Cells لـ Python via .NET حفظ ملفات Excel كملفات PDF متوافقة مع PDF/A (يتم دعم كلاً من PdfA1a و PdfA1b). توضح هذه الموضوعة كيفية حفظ كتاب العمل في Excel كملف PDF/A متوافق مع (PdfA1a).
 
-يمكن للمطورين استخدام**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/)**class لتعيين سمات مختلفة للتحويل. تحديد خصائص مختلفة لل**[PdfSaveOptions](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/)**تمنحك الفئة التحكم في إعدادات الطباعة والخط والأمان والضغط للإخراج PDF. الخاصية الأكثر أهمية هي**[PdfSaveOptions.compliance](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/)**التي تمكنك من حفظ ملفات Excel إلى ملفات PDF/A المتوافقة مع PDF.
+## **تحويل ملف Excel إلى صيغة PDF متوافقة مع PDFA-1a**
 
-يشرح نموذج التعليمات البرمجية التالي كيفية تحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA-1a. يرجى الاطلاع عليه[الإخراج PDF](outputCompliancePdfA1a.pdf) وكذلك لقطة الشاشة كمرجع.
+قد يستخدم المطورون فئة الـ [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/) لضبط خصائص مختلفة للتحويل. يمنحك ضبط خصائص مختلفة لفئة الـ [**PdfSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/) السيطرة على الطباعة والخط وإعدادات الأمان والضغط لملفات PDF الناتجة. الخاصية الأهم هي [**PdfSaveOptions.compliance**](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/compliance/) التي تمكنك من حفظ ملفات الإكسيل إلى ملفات PDF ذات التوافق مع معيار PDF/A.
 
-##  **لقطة شاشة**
+توضح الشفرة النموذجية التالية كيفية تحويل ملف Excel إلى صيغة PDF متوافقة مع PDFA-1a. يرجى الاطلاع على [ملف PDF الناتج](outputCompliancePdfA1a.pdf) بالإضافة إلى اللقطة الشاشة كمرجع.
 
-![ما يجب القيام به:image_alt_text](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
+## **لقطة شاشة**
 
-##  **عينة من الرموز**
+![todo:image_alt_text](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-ConvertExcelFileToPDFA_1a.py" >}}

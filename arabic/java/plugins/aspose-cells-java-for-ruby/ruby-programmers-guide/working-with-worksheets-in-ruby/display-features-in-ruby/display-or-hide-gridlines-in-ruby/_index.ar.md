@@ -1,16 +1,17 @@
-﻿---
-title: إظهار خطوط الشبكة أو إخفاؤها في Ruby
+---
+title: عرض أو إخفاء خطوط الشبكة في روبي
 type: docs
 weight: 10
 url: /ar/java/display-or-hide-gridlines-in-ruby/
 ---
+
 ## **Aspose.Cells - عرض أو إخفاء خطوط الشبكة**
 ### **إخفاء خطوط الشبكة**
- لإخفاء ورقة العمل باستخدام**Aspose.Cells Java لروبي** ، مكالمة**displayhidegridlines** وحدة.
+لإخفاء ورقة العمل باستخدام **Aspose.Cells Java for Ruby**, اتصل بوحدة **displayhidegridlines**.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -38,18 +39,18 @@ puts "Gridlines are now hidden, please check the output file."
 
 {{< /highlight >}}
 ### **جعل خطوط الشبكة مرئية**
-لجعل خطوط الشبكة مرئية ، استخدم طريقة setGridlinesVisible (true) لفئة ورقة العمل.
+لجعل خطوط الشبكة مرئية، استخدم الوسيطة setGridlinesVisible(true) في فئة Worksheet.
 
-**كود روبي**
+**كود Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Displaying the gridlines of the worksheet
 
 worksheet.setGridlinesVisible(true)
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**عرض خطوط الشبكة أو إخفاؤها (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **عرض أو إخفاء خطوط الشبكة (Aspose.Cells)** من أي من المواقع المشفرة المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidegridlines.rb)

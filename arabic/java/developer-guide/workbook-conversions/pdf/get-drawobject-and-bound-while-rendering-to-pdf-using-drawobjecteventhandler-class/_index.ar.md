@@ -1,36 +1,37 @@
-﻿---
-title: احصل على DrawObject و Bound أثناء التقديم إلى PDF باستخدام فئة DrawObjectEventHandler
+---
+title: الحصول على كائن الرسم وBound أثناء التقديم إلى PDF باستخدام فئة DrawObjectEventHandler
 type: docs
 weight: 60
 url: /ar/java/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-يوفر Aspose.Cells فئة مجردة[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) الذي يحتوي على[**رسم()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) طريقة. يمكن للمستخدم تنفيذ[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)والاستفادة من[**رسم()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) طريقة للحصول على ملف[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)و**مقيد**أثناء تحويل Excel إلى PDF أو Image. فيما يلي وصف موجز لمعلمات ملف[**رسم()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) طريقة.
+## **سيناريوهات الاستخدام المحتملة**
 
--  رسم:[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)ستتم تهيئته وإعادته عند التقديم
+توفر Aspose.Cells فئة مجردة [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) التي تحتوي على طريقة [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)). يمكن للمستخدم تنفيذ [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) واستخدام الطريقة [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) للحصول على [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) و**Bound** أثناء تقديم Excel إلى PDF أو صورة. هنا وصف موجز لمعلمات الطريقة [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)).
 
-- x: يسار[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- drawObject: [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) ستتم تهيئتها وإرجاعها عند العرض
 
-- ص: الجزء العلوي من[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- x: اليسار من [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-- العرض: عرض[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- y: الأعلى من [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-- الارتفاع: ارتفاع[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- width: عرض [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-إذا كنت تقوم بتقديم ملف Excel إلى PDF ، فيمكنك الاستفادة منه[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)فئة مع[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler). وبالمثل ، إذا كنت تقوم بتحويل ملف Excel إلى صورة ، فيمكنك الاستفادة من ملفات[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)فئة مع[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DrawObjectEventHandler).
+- height: ارتفاع [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-## **احصل على DrawObject و Bound أثناء التقديم إلى Pdf باستخدام فئة DrawObjectEventHandler**
+إذا كنت تعرض ملف Excel إلى PDF، فإنه يمكنك استخدام فئة [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) مع [**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler). بالمثل، إذا كنت تقوم بعرض ملف Excel إلى صورة، يمكنك استخدام فئة [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) مع [**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DrawObjectEventHandler).
 
-يرجى الاطلاع على نموذج التعليمات البرمجية التالي. يقوم بتحميل ملف[نموذج لملف Excel](64716843.xlsx)ويحفظها باسم[الإخراج PDF](64716842.pdf). أثناء التقديم إلى PDF ، فإنه يستخدم[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler)الملكية ويلتقط[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) و**مقيد**من الخلايا والكائنات الموجودة مثل الصور وما إلى ذلك. إذا كان نوع drawObject هو Cell ، فإنه يطبع Bound و StringValue. وإذا كان نوع drawObject هو صورة ، فسيتم طباعة اسم Bound و Shape. يرجى الاطلاع على إخراج وحدة التحكم لعينة التعليمات البرمجية الواردة أدناه للحصول على مزيد من المساعدة.
+## **الحصول على كائن الرسم وBound أثناء التقديم إلى Pdf باستخدام فئة DrawObjectEventHandler**
 
-## **عينة من الرموز**
+يرجى رؤية كود العينة التالي. يحمل [ملف Excel عينة](64716843.xlsx) ويحفظه كـ [PDF الناتج](64716842.pdf). أثناء العرض إلى PDF، يستخدم الخاصية [**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler) ويأخذ للخلايا والكائنات الموجودة (مثل الصور وما إلى ذلك) قيمة Bound و**القيمة المنسوخة**. إذا كان نوع drawObject هو Cell، فإنه يطبع Bound والقيمة المنسوخة. وإذا كان نوع drawObject هو Image، فإنه يطبع Bound واسم الشكل. يرجى رؤية مخرجات وحدة التحكم من كود العينة المعطاة أدناه لمزيد من المساعدة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-GetDrawObjectAndBoundUsingDrawObjectEventHandler.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 [X]: 153.60349 [Y]: 82.94118 [Width]: 103.203476 [Height]: 14.470589 [Cell Value]: This is sample text.
 

@@ -1,30 +1,31 @@
-﻿---
-title: Системные Требования
+---
+title: Системные требования
 type: docs
 weight: 10
 url: /ru/java/system-requirements/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Java не требует установки Microsoft Excel, так как Aspose.Cells сам по себе является механизмом создания, преобразования и рендеринга электронных таблиц Excel. Для просмотра документов Excel, созданных Aspose.Cells, у вас должно быть установлено как минимум Microsoft средство просмотра Excel.
+Aspose.Cells for Java не требует установки Microsoft Excel, так как сам по себе Aspose.Cells - это механизм создания, конвертации и визуализации электронных таблиц Excel. Для просмотра документов Excel, созданных Aspose.Cells, необходимо установить хотя бы Microsoft Excel Viewer.
 
 {{% /alert %}} 
 ## **Поддерживаемые операционные системы**
-Aspose.Cells for Java поддерживает любую операционную систему, на которой работает среда выполнения Java, включая, помимо прочего:
+Aspose.Cells for Java поддерживает любую операционную систему, на которой работает Java runtime, включая, но не ограничиваясь:
 ### **Windows**
-- Microsoft Windows 2000 (x64, x86)
-- Microsoft Windows XP (x64, x86)
-- Microsoft Windows Сервер 2003 (x64, x86)
-- Microsoft Windows Сервер 2008 (x64, x86)
-- Microsoft Windows Сервер 2012 (x64, x86)
-- Microsoft Windows Перспектива (x64, x86)
-- Microsoft Windows 7 ( х64, х86)
-- Microsoft Windows 8 ( х64, х86)
-- Microsoft Windows 10 (х64, х86)
-### **линукс**
+- Microsoft Windows 2000 ( x64, x86)
+- Microsoft Windows XP ( x64, x86)
+- Microsoft Windows Server 2003 ( x64, x86)
+- Microsoft Windows Server 2008 ( x64, x86)
+- Microsoft Windows Server 2012 ( x64, x86)
+- Microsoft Windows Vista ( x64, x86)
+- Microsoft Windows 7 ( x64, x86)
+- Microsoft Windows 8 ( x64, x86)
+- Microsoft Windows 10 ( x64, x86)
+### **Linux**
 - Linux (Ubuntu, openSUSE, CentOS и другие)
-### **Мак**
-- Mac OS X и др.
+### **Mac**
+- Mac OS X и т.д.
 ## **Поддерживаемые версии Java**
 Aspose.Cells for Java поддерживает следующие версии Java:
 

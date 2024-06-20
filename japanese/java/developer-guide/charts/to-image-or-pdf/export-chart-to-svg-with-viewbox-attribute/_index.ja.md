@@ -1,14 +1,15 @@
-﻿---
-title: viewBox属性を使用してグラフをSVGにエクスポートします
+---
+title: viewBox属性を使用してチャートをSVG形式にエクスポート
 type: docs
 weight: 190
 url: /ja/java/export-chart-to-svg-with-viewbox-attribute/
 ---
-デフォルトでは、グラフを SVG 形式でエクスポートすると、**ビューボックス**属性はその XML に含まれていません。ただし、Aspose.Cells は提供します[**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort)に設定されたときのプロパティ**真実**viewBox 属性を使用してチャートを SVG にエクスポートします。
 
-チャートの SVG をメモ帳で開くと、**ビューボックス**これに似た属性。
+デフォルトでは、チャートをSVG形式でエクスポートするときには、そのXMLに**viewBox**属性は含まれません。しかし、Aspose.Cellsは[**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort)プロパティを提供しており、それを**true**に設定すると、**viewBox**属性を含めたSVG形式でチャートをエクスポートできます。
 
-{{< highlight "java" >}}
+チャートのSVGをNotepadで開くと、次のような**viewBox**属性が見つかります。
+
+{{< highlight java >}}
 
  <svg xmlns="http://www.w3.org/2000/svg"
 
@@ -26,5 +27,5 @@ url: /ja/java/export-chart-to-svg-with-viewbox-attribute/
 
 ## 関連記事
 
-- [チャートのレンダリング](/cells/ja/java/chart-rendering/)
-- [ワークシートまたはチャートを目的の幅と高さの画像にエクスポート](/cells/ja/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
+- [グラフのレンダリング](/cells/ja/java/chart-rendering/)
+- [希望の幅と高さでワークシートまたはチャートを画像にエクスポート](/cells/ja/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)

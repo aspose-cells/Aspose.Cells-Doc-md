@@ -1,19 +1,20 @@
-﻿---
-title: Загрузите и настройте Aspose.Cells в Struts
+---
+title: Скачать и настроить Aspose.Cells в Struts
 type: docs
 weight: 10
 url: /ru/java/download-and-configure-aspose-cells-in-struts/
 ---
-- 
-## **Сборка Aspose.Cells Java для Struts 1.3 из исходных кодов**
-После проверки исходных кодов из любого из вышеуказанных репозиториев примените следующие команды mvn:
 
-{{< highlight "java" >}}
+- 
+## **Построение Aspose.Cells Java для Struts 1.3 из исходных кодов**
+После проверки исходных кодов из любого из вышеперечисленных репозиториев примените следующие команды mvn:
+
+{{< highlight java >}}
 
  $ mvn -U clean package 
 
 {{< /highlight >}}
 
-Это создаст «Strutsbookapp.war» в целевом файле.
+Это создаст "Strutsbookapp.war" в целевой папке.
 
-Чтобы развернуть файл .war, просто скопируйте его в каталог webapp работающего сервера Apache Tomcat.
+Для развертывания .war-файла просто скопируйте его в папку веб-приложений запущенного сервера Apache Tomcat.

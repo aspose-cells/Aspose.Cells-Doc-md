@@ -1,14 +1,15 @@
-﻿---
-title: Yuvalanmış Nesneleri Kullanma
+---
+title: Yerleşik Nesneler Kullanma
 type: docs
 weight: 50
 url: /tr/net/using-nested-objects/
 ---
-Aspose.Cells, akıllı işaretleyicilerdeki iç içe nesneleri destekler, iç içe nesneler basit olmalıdır.**Bireysel** Aşağıdaki kod için sınıfın kullanıcı tarafından tanımlanması gerekir.
 
-Basit bir şablon dosyası kullanıyoruz. Bazı iç içe akıllı işaretçileri içeren tasarımcı elektronik tablosuna bakın.
+Aspose.Cells akıllı işaretçilerde yerleşik nesneleri destekler, yerleşik nesneler basit olmalıdır. Aşağıdaki kod için **Bireysel** sınıfı kullanıcı tarafından tanımlanmalıdır.
 
-{{< highlight "csharp" >}}
+Basit bir şablon dosyası kullanıyoruz. Yerleşik akıllı işaretçiler içeren tasarım elektronik tablo dosyasına bakın.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -62,6 +63,6 @@ designer.Workbook.Save(FileName);
 
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)

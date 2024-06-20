@@ -1,26 +1,27 @@
-﻿---
-title: Web Adresinden Bağlantılı Resim Ekleme
+---
+title: Web Adresinden Bağlantılı Bir Resim Eklemek
 type: docs
 weight: 450
 url: /tr/net/insert-a-linked-picture-from-web-address/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen web'den (http://) bir çalışma sayfasına bir resim eklemeniz gerekir. Bunu yapmak için resmin URL'sini belirtin ve resim, elektronik tablo Microsoft Excel'de her açıldığında indirilecektir. Görüntü fiziksel olarak Excel belgesine gömülü değildir, ancak bir web kaynağına işaret eder.
+Bazen bir elektronik tabloya (http://) web'den bir resim eklemeniz gerekebilir. Bunu yapmak için resmin URL'sini belirtin ve resim, Microsoft Excel'de her açıldığında indirilir. Resim fiziksel olarak Excel belgesine gömülmez, ancak bir web kaynağına işaret eder.
 
 {{% /alert %}}
 
-## **Microsoft Excel'i kullanma**
+## **Microsoft Excel Kullanımı**
 
 Microsoft Excel'de (örneğin 2007):
 
-1.  Tıkla**Sokmak** menü ve seçin**Resim**.
+1. **Ekle** menüsünü tıklayın ve **Resim**'i seçin.
 1. Resim Ekle iletişim kutusunda resmin web adresini belirtin.
 
-## **Aspose.Cells for .NET'i kullanma**
+## **Aspose.Cells for .NET Kullanımı**
 
- Aspose.Cells for .NET, şunu kullanarak bağlantılı bir resim eklemeyi destekler:[**ShapeCollection.AddLinkedPicture(int UpperLeftRow, int UpperLeftColumn, int heightPixels, int widthPixels, string sourceFullName)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlinkedpicture) . Yöntem bir döndürür[**Resim**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)nesne.
+Aspose.Cells for .NET, [**ShapeCollection.AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heightPixels, int widthPixels, string sourceFullName)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlinkedpicture) kullanarak bağlantılı bir resim eklemeyi destekler. Bu yöntem bir [**Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) nesnesi döndürür.
 
-Aşağıdaki örnek, bağlantılı resmin web adresinden bir çalışma sayfasına nasıl ekleneceğini gösterir.
+Aşağıdaki örnek, bir elektronik tabloya hücre referansı üzerinden bağlantılı resim eklemenin nasıl yapılacağını göstermektedir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertLinkedPicture-1.cs" >}}

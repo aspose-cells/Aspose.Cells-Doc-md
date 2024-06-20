@@ -1,33 +1,34 @@
-﻿---
-title: Copia foglio all'interno della cartella di lavoro
+---
+title: Copia foglio all interno del libro
 type: docs
 weight: 40
 url: /it/java/copy-sheet-within-workbook/
 ---
-## **Microsoft Excel - Spostamento o copia di fogli all'interno della cartella di lavoro**
-Di seguito sono riportati i passaggi necessari per copiare e spostare i fogli di lavoro all'interno o tra le cartelle di lavoro.
 
-1. Per spostare o copiare fogli all'interno o tra cartelle di lavoro, aprire la cartella di lavoro che riceverà i fogli.
-1. Passare alla cartella di lavoro che contiene i fogli che si desidera spostare o copiare e quindi selezionare i fogli.
-1.  Sul**Modificare** menu, fare clic**Sposta o copia foglio**.
-1. Nella casella Per prenotare fare clic sulla cartella di lavoro per ricevere i fogli.
-1.  Per spostare o copiare i fogli selezionati in una nuova cartella di lavoro, fare clic su**nuovo libro**.
-1.  Nel**Prima foglio** fare clic sul foglio prima del quale si desidera inserire i fogli spostati o copiati.
-1.  Per copiare i fogli invece di spostarli, seleziona il file**Crea una copia** casella di controllo.
-## **Aspose.Cells - Copia foglio all'interno della cartella di lavoro**
+## **Microsoft Excel - Spostare o Copiare fogli all'interno del libro**
+Di seguito sono riportati i passaggi coinvolti per copiare e spostare i fogli di lavoro all'interno o tra cartelle di lavoro.
+
+1. Per spostare o copiare i fogli all'interno o tra cartelle di lavoro, apri la cartella di lavoro che riceverà i fogli.
+1. Passare al libro che contiene i fogli da spostare o copiare, e quindi selezionare i fogli.
+1. Nel menu **Modifica**, fare clic su **Sposta o Copia Foglio**.
+1. Nella casella Di libro, fare clic sul libro che riceverà i fogli.
+1. Per spostare o copiare i fogli selezionati in un nuovo libro, fare clic su **nuovo libro**.
+1. Nella casella **Prima del foglio**, fare clic sul foglio prima del quale si desidera inserire i fogli spostati o copiati.
+1. Per copiare i fogli invece di spostarli, seleziona la casella di controllo **Crea una copia**.
+## **Aspose.Cells - Copia foglio all'interno del libro**
 {{% alert color="primary" %}} 
 
-Aspose.Cells fornisce un metodo di overload, WorksheetCollection.addCopy(), utilizzato per aggiungere un foglio di lavoro alla raccolta e copiare i dati da un foglio di lavoro esistente. Una versione del metodo accetta l'indice del foglio di lavoro di origine come parametro. L'altra versione prende il nome del foglio di lavoro di origine.
+Aspose.Cells fornisce un metodo sovraccaricato, WorksheetCollection.addCopy(), che viene utilizzato per aggiungere un foglio di lavoro alla raccolta e copiare i dati da un foglio di lavoro esistente. Una versione del metodo richiede l'indice del foglio di lavoro di origine come parametro. L'altra versione richiede il nome del foglio di lavoro di origine.
 
-L'esempio seguente mostra come copiare un foglio di lavoro esistente all'interno di una cartella di lavoro.
+Nell'esempio seguente viene mostrato come copiare un foglio di lavoro esistente all'interno di un libro.
 
 {{% /alert %}} 
 
-Copiare fogli utilizzando Aspose.Cells
+Copia fogli utilizzando Aspose.Cells
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a new Workbook by excel file path
 
@@ -42,18 +43,18 @@ WorksheetCollection sheets = wb.getWorksheets();
 sheets.addCopy("Sheet1");
 
 {{< /highlight >}}
-## **Apache POI SS - Copia foglio all'interno della cartella di lavoro**
+## **Apache POI SS - Copia foglio all'interno del workbook**
 {{% alert color="primary" %}} 
 
-Workbook.cloneSheet() viene utilizzato per copiare i fogli con la cartella di lavoro.
+Workbook.cloneSheet() è utilizzato per copiare fogli all'interno del workbook.
 
 {{% /alert %}} 
 
-Copia i fogli utilizzando Apache POI SS
+Copia fogli utilizzando Apache POI SS
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -65,12 +66,12 @@ Sheet cloneSheet = wb.cloneSheet(0);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featuresconfrontison/worksheets/copysheetwithinworkbook)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/copysheetwithinworkbook)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Copiare e spostare fogli di lavoro](/cells/it/java/copying-and-moving-worksheets).
+Per ulteriori dettagli, visitare [Copia e Spostamento dei Fogli di Lavoro](/cells/it/java/copying-and-moving-worksheets).
 
 {{% /alert %}}

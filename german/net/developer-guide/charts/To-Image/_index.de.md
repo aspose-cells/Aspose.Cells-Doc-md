@@ -1,119 +1,120 @@
 ---
-title: Vom Diagramm zum Bild
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET ein Diagramm in ein Bildformat wie JPEG oder PNG konvertieren. Unser Leitfaden zeigt, wie Sie ein Diagramm aus Microsoft Excel exportieren und es als eigenständiges Bild zur weiteren Verwendung und Bearbeitung speichern.
-keywords: Aspose.Cells for .NET, Chart to Image, Microsoft Excel, Image Conversion, Export, Standalone Image.
-linktitle: Vom Diagramm zum Bild
+title: Diagramm als Bild
+description: Erfahren Sie, wie Sie Aspose.Cells for .NET verwenden können, um ein Diagramm in ein Bildformat wie JPEG oder PNG zu konvertieren. Unser Leitfaden zeigt, wie Sie ein Diagramm aus Microsoft Excel exportieren und als eigenständiges Bild speichern können, um es weiter zu verwenden und zu bearbeiten.
+keywords: Aspose.Cells for .NET, Diagramm als Bild, Microsoft Excel, Bildkonvertierung, Export, eigenständiges Bild.
+linktitle: Diagramm als Bild
 type: docs
 weight: 46
 url: /de/net/chart-to-image/
 ---
-##  **Rendering-Diagramme**
 
- Aspose.Cells APIs unterstützen die Konvertierung von Excel-Diagrammen in Bildformate, ohne dass zusätzliche Tools oder Anwendungen erforderlich sind. Um Rendering-Unterstützung bereitzustellen, muss die[**Diagramm**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) Klasse hat ausgesetzt[**Vorstellen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) Methoden mit einer Vielzahl von Überladungen, um den Anwendungsanforderungen am besten gerecht zu werden.
+## **Diagramme darstellen**
 
-###  **Rendern von Diagrammen in Bilder**
+Aspose.Cells APIs unterstützen die Konvertierung der Excel-Diagramme in Bildformate, ohne zusätzliche Tools oder Anwendungen zu benötigen. Um Renderunterstützung bereitzustellen, hat die [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) Klasse [**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) Methoden mit einer Vielzahl von Überladungen freigelegt, um den Anforderungen der Anwendung am besten zu entsprechen.
 
- Der[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) Die Methode verfügt über eine Vielzahl von Überladungen, um sowohl einfaches als auch erweitertes Rendering zu unterstützen. Wenn die Anwendungsanforderung darin besteht, das Diagramm in seinen Standardabmessungen darzustellen, empfehlen wir die Verwendung von[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)Methode wie folgt.
+### **Grafiken in Bilder umwandeln**
+
+Die [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)-Methode verfügt über eine Vielzahl von Überladungen, um sowohl einfache als auch erweiterte Renderings zu unterstützen. Wenn die Anforderung der Anwendung darin besteht, das Diagramm in seinen Standardabmessungen zu rendern, empfehlen wir die Verwendung der [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)-Methode, wie im Folgenden gezeigt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
- Es ist auch möglich, die Diagramme mit erweiterten Einstellungen in Bilder zu rendern. Aspose.Cells APIs haben eine Überlastungsversion von aufgedeckt[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) Methode, die eine Instanz von akzeptieren könnte[**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)wobei Parameter wie Auflösung, Glättungsmodus, Bildformat usw. angegeben werden können.
+Es ist auch möglich, die Diagramme mit erweiterten Einstellungen als Bilder zu rendern. Aspose.Cells APIs haben eine Überladungsversion der [**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)-Methode freigelegt, die eine Instanz von [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions) akzeptieren und gleichzeitig Parameter wie Auflösung, Glättungsmodus, Bildformat usw. festlegen kann.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-##  **Unterstützte Diagrammtypen für das Rendering**
+## **Unterstützte Diagrammtypen für die Darstellung**
 
- Es gibt einige Diagrammtypen, deren Darstellung derzeit nicht unterstützt wird. Solche Diagrammtypen enthalten**N** in der Kategorie **Unterstützt** Spalte der folgenden Tabelle.
+Einige Diagrammtypen werden derzeit nicht für die Darstellung unterstützt. Solche Diagrammtypen enthalten ein **N** in der **Unterstützt**-Spalte der unten stehenden Tabelle.
 
-|**Diagramm Typ**|**Untertyp des Diagramms**|**Unterstützt**|
+|**Diagrammtyp**|**Diagramm-Subtyp**|**Unterstützt**|
 | :- | :- | :- |
-|**Spalte**|Spalte|*J**|
-| |ColumnStacked|*J**|
-| |Column100PercentStacked|*J**|
-| |Column3DClustered|*J**|
-| |Column3DStacked|*J**|
-| |Column3D100PercentStacked|*J**|
-| |Column3D|*J**|
-|**Bar**|Bar|*J**|
-| |BarStacked|*J**|
-| |Bar100PercentStacked|*J**|
-| |Bar3DClustered|*J**|
-| |Bar3DStacked|*J**|
-| |Bar3D100PercentStacked|*J**|
-|**Linie**|Linie|*J**|
-| |LineStacked|*J**|
-| |Line100PercentStacked|*J**|
-| |LineWithDataMarkers|*J**|
-| |LineStackedWithDataMarkers|*J**|
-| |Line100PercentStackedWithDataMarkers|*J**|
-| |Line3D|*J**|
-|**Kuchen**|Kuchen|*J**|
-| |Pie3D|*J**|
-| |PiePie|*J**|
-| |PieExploded|*J**|
-| |Pie3DEExploded|*J**|
-| |PieBar|*J**|
-|**Streuen**|Streuen|*J**|
-| |ScatterConnectedByCurvesWithDataMarker|*J**|
-| |ScatterConnectedByCurvesWithoutDataMarker|*J**|
-| |ScatterConnectedByLinesWithDataMarker|*J**|
-| |ScatterConnectedByLinesWithoutDataMarker|*J**|
-|**Bereich**|Bereich|*J**|
-| |BereichGestapelt|*J**|
-| |Fläche100PercentStacked|*J**|
-| |Area3D|*J**|
-| |Area3DStacked|*J**|
-| |Area3D100PercentStacked|*J**|
-|**Krapfen**|Krapfen|*J**|
-| |DonutExplodiert|*J**|
-|**Radar**|Radar|*J**|
-| |RadarWithDataMarkers|*J**|
-| |Radargefüllt|*J**|
-|**Oberfläche**|Surface3D|N|
-| |OberflächeWireframe3D|N|
-| |Oberflächenkontur|N|
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
 | |SurfaceContourWireframe|N|
-|**Blase**|Blase|*J**|
+|**Bubble**|Bubble|**Y**|
 | |Bubble3D|N|
-|**Aktie**|StockHighLowClose|*J**|
-| |StockOpenHighLowClose|*J**|
-| |StockVolumeHighLowClose|*J**|
-| |StockVolumeOpenHighLowClose|*J**|
-|**Zylinder**|Zylinder|*J**|
-| |Zylindergestapelt|*J**|
-| |Zylinder100PercentStacked|*J**|
-| |Zylindrischer Balken|*J**|
-| |CylindricalBarStacked|*J**|
-| |CylindricalBar100PercentStacked|*J**|
-| |Zylindrische Spalte3D|*J**|
-|**Kegel**|Kegel|*J**|
-| |Kegelgestapelt|*J**|
-| |Cone100PercentStacked|*J**|
-| |ConicalBar|*J**|
-| |ConicalBarStacked|*J**|
-| |ConicalBar100PercentStacked|*J**|
-| |ConicalColumn3D|*J**|
-|**Pyramide**|Pyramide|*J**|
-| |PyramidStacked|*J**|
-| |Pyramid100PercentStacked|*J**|
-| |PyramidBar|*J**|
-| |PyramidBarStacked|*J**|
-| |PyramidBar100PercentStacked|*J**|
-| |PyramidColumn3D|*J**|
+|**Stock**|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
 |**BoxWhisker**|BoxWhisker|Y|
-|**Trichter**|Trichter|*J**|
-|**ParetoLinie**|ParetoLinie|*J**|
-|**Sonnendurchbruch**|Sonnendurchbruch|*J**|
-|**Baumkarte**|Baumkarte|*J**|
-|**Wasserfall**|Wasserfall|*J**|
-|**Histogramm**|Histogramm|Y|
-|**Karte**|Karte|*N**|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-Wenn Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF zu rendern, erhalten Sie möglicherweise Bilder der Größe 0 oder leere PDF.
+Wenn Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF darzustellen, erhalten Sie möglicherweise Bilder mit der Größe 0 oder leere PDFs.
 
 {{% /alert %}}
 
-##  **Vorabthemen**
-- [Konvertieren Sie das Diagramm in PDF](/cells/de/net/chart-to-pdf/)
+## **Erweiterte Themen**
+- [Diagramm in PDF umwandeln](/cells/de/net/chart-to-pdf/)

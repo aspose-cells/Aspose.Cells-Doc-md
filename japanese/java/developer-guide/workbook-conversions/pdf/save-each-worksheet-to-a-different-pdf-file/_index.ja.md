@@ -1,21 +1,22 @@
 ---
-title: 各ワークシートを別の PDF ファイルに保存
+title: 異なるPDFファイルにそれぞれのワークシートを保存する
 type: docs
 weight: 50
 url: /ja/java/save-each-worksheet-to-a-different-pdf-file/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells は、スプレッドシート ファイル (画像、グラフなどが含まれる) から PDF ドキュメントへの変換をサポートしています。 Aspose.Cells for Java は独立して機能してスプレッドシートを PDF ドキュメントに変換できるため、変換に Aspose.PDF for Java を使用する必要はなくなりました。プロセス全体がメモリ内で実行できるため、変換には一時ファイルを作成/使用する必要もありません。
+Aspose.Cellsは、（画像、グラフなどを含む）スプレッドシートファイルをPDFドキュメントに変換することをサポートしています。Aspose.Cells for JavaはスプレッドシートをPDFドキュメントに変換するためにAspose.PDF for Javaを使用する必要はなく、独立して機能します。変換には一時ファイルを作成したり使用したりする必要もありません。全体のプロセスはメモリ内で行うことができます。
 
 {{% /alert %}}
 
-各ワークシートをテンプレート Excel ファイルに保存して、異なる PDF ファイルを生成する必要がある場合。これは簡単に達成できます。 1 つのシートのインデックスを次のように設定してみるとよいでしょう。**[`PdfSaveOptions.SheetSet`](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)**オプションを一度に PDF にレンダリングします。
+テンプレートのExcelファイル内の各ワークシートを異なるPDFファイルに保存する必要がある場合、これは簡単に実現できます。[**PdfSaveOptions.SheetSet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions/#setSheetSet-com.aspose.cells.SheetSet-)オプションを使用して、1つのシートインデックスを1回に設定してPDFにレンダリングすることができます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveEachWorksheettoDifferentPDF-SaveEachWorksheettoDifferentPDF.java" >}}
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) メソッドを、スプレッドシートを PDF にレンダリングする直前に実行します。これにより、式に依存する値が再計算され、正しい値が PDF にレンダリングされます。
+スプレッドシートに数式が含まれている場合は、スプレッドシートをPDF形式にレンダリングする直前に[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula--)メソッドを呼び出すことが最善です。これにより、数式に依存する値が再計算され、PDFに正しい値がレンダリングされます。
 
 {{% /alert %}}

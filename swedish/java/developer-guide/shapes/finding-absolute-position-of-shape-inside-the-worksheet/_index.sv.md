@@ -1,28 +1,29 @@
 ---
-title: Hitta den absoluta positionen av formen i arbetsbladet
+title: Hitta absolut position av formen innanför arbetsbladet
 type: docs
 weight: 7000
 url: /sv/java/finding-absolute-position-of-shape-inside-the-worksheet/
-description: "Lär dig hur du hittar den absoluta positionen av form i kalkylbladet genom API:erna Aspose.Cells for Java."
-keywords: How to Find Absolute Position of Shape in Java, Get Absolute Position of Shape using Java, Obtain Absolute Position of Shape inside the Worksheet via Java, Measure absolute position of Shape with Java.
+description: Lär dig hur man hittar absolut position av formen innanför arbetsbladet genom Aspose.Cells for Java API er.
+keywords: Hitta absolut position av formen i Java, Få absolut position av formen med Java, Få absolut position av formen innanför arbetsbladet via Java, Mäta absolut position av formen med Java.
 ---
+
 {{% alert color="primary" %}}
 
- Ibland behöver du veta den absoluta positionen för en form på ett kalkylblad. Aspose.Cells tillhandahåller[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) och[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) fastigheter för detta ändamål. Dessa egenskaper returnerar den absoluta positionen för en form i ett kalkylblad i pixlar.
+Ibland behöver du veta formens absoluta position på ett arbetsblad. Aspose.Cells tillhandahåller egenskaperna [**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) och [**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) för detta ändamål. Dessa egenskaper returnerar formens absoluta position på ett arbetsblad i pixlar.
 
 {{% /alert %}}
 
-##  **Förklaring av egenskaperna Shape.getLeftToCorner() och Shape.getTopToCorner()**
+## **Förklaring av egenskaperna Shape.getLeftToCorner() och Shape.getTopToCorner()**
 
- Den här skärmdumpen förklarar vilka avstånd[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) och[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)egenskaper mått.
+Denna skärmbild förklarar vilka avstånd egenskaperna [**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) och [**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) mäter.
 
 **Hur man mäter absolut position**
 
 ![todo:image_alt_text](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
 
-Följande exempelkod visar den absoluta positionen för den första formen i ett kalkylblad i pixlar. Koden visar följande utdata i konsolen:
+Följande exempelkod visar den absoluta positionen för den första formen på ett arbetsblad i pixlar. Koden visar följande utdata i konsolen:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Absolute Position of this Shape is (320, 180)
 

@@ -1,15 +1,16 @@
-﻿---
-title: Unisci Cells
+---
+title: Unisci Celle
 type: docs
 weight: 60
 url: /it/java/merge-cells/
 ---
-## **Aspose.Cells - Unisci Cells**
-La classe Cells ha alcuni metodi utili per l'attività. Ad esempio, il metodo di unione unisce le celle in una singola cella all'interno di un intervallo specificato delle celle.
+
+## **Aspose.Cells - Unisci Celle**
+La classe Cells ha alcuni metodi utili per il compito. Ad esempio, il metodo merge unisce le celle in una singola cella all'interno di un intervallo specificato delle celle.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a Workbook.
 
@@ -36,12 +37,12 @@ worksheet.getCells().get(5,2).setValue("This is a test of merging");
 wbk.save(dataDir + "merge_Aspose.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Unisci Cells**
-Sheet.addMergedRegion può essere utilizzato per unire Cells.
+## **Apache POI SS - HSSF XSSF - Unione celle**
+Sheet.addMergedRegion può essere utilizzato per unire le celle.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -67,12 +68,12 @@ sheet.addMergedRegion(new CellRangeAddress(
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/mergecells)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/mergecells)
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Fusione e separazione (scissione) Cells](/cells/it/java/merging-and-unmerging-cells).
+Per maggiori dettagli, visita [Unione e divisione (divisione) celle](/cells/it/java/unione-e-divisione-celle).
 
 {{% /alert %}}

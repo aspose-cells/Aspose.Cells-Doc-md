@@ -1,26 +1,27 @@
-﻿---
-title: Используйте свойство Sheet.SheetId OpenXml, используя Aspose.Cells
+---
+title: Использование свойства Sheet.SheetId из OpenXml с помощью Aspose.Cells
 type: docs
 weight: 80
 url: /ru/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 ---
+
 ## **Возможные сценарии использования**
 
-*Лист.SheetId*имущество находится внутри*DocumentFormat.OpenXml.Spreadsheet*пространство имен и является частью OpenXml. Вы можете увидеть это свойство и его значение внутри*рабочая книга.xml*как показано на следующем снимке экрана. Aspose.Cells обеспечивает эквивалентное свойство как[**Рабочий лист.TabId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TabId).
+Свойство *Sheet.SheetId* находится в пространстве имен *DocumentFormat.OpenXml.Spreadsheet* и является частью OpenXml. Вы можете увидеть это свойство и его значение внутри *workbook.xml*, как показано на следующем скриншоте. Aspose.Cells предоставляет аналогичное свойство как [**Worksheet.TabId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TabId).
 
-![дело:изображение_альтернативный_текст](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
+![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
-## **Используйте свойство Sheet.SheetId OpenXml, используя Aspose.Cells**
+## **Использование свойства Sheet.SheetId из OpenXml с помощью Aspose.Cells**
 
-Следующий пример кода загружает[образец файла Excel](51740740.xlsx), считывает свой идентификатор листа или вкладки, затем присваивает ему новый идентификатор вкладки и сохраняет его как[выходной файл Excel](51740739.xlsx). Также см. консольный вывод кода, приведенного ниже, для справки.
+В приведенном ниже образце кода загружается [образец Excel-файла](51740740.xlsx), считывается его идентификатор листа (Sheet или Tab Id), затем ему присваивается новый идентификатор листа и сохраняется в [выходной файл Excel](51740739.xlsx). Также обратите внимание на вывод в консоль, показанный ниже, для справки.
 
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-UtilizeSheet_SheetId_PropertyOfOpenXml.java" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet or Tab Id: 1297
 

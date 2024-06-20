@@ -1,18 +1,19 @@
-﻿---
-title: XmlMapCollection.Add メソッドを使用して、ワークブック内に XML マップを追加します。
+---
+title: XmlMapCollection.Addメソッドを使用してワークブックにXML Mapを追加する
 type: docs
 weight: 10
 url: /ja/java/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells提供[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object)) メソッドを使用して、ワークブック内に XML マップをインポートできます。
+## **可能な使用シナリオ**
 
-## **XmlMapCollection.Add メソッドを使用して、ワークブック内に XML マップを追加します。**
+Aspose.CellsはXML Mapをワークブックにインポートするために使用できる[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object))メソッドを提供します。
 
-次のサンプル コードは、XML マップをワークブック内に追加します。[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object) ) メソッドとして保存します。[出力エクセルファイル](5472533.xlsx) .スクリーンショットは、からインポートされた XML マップを示しています。[サンプル.xml](5472532.xml)出力Excelファイル内。
+## **XmlMapCollection.Addメソッドを使用してワークブックにXML Mapを追加する**
 
-![todo:画像_代替_文章](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
+以下のサンプルコードは、[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object))メソッドを使用してワークブック内にXML Mapを追加し、[出力エクセルファイル](5472533.xlsx)として保存します。スクリーンショットは、[sample.xml](5472532.xml)からインポートされたXML Mapを出力エクセルファイル内で示しています。
+
+![todo:image_alt_text](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
 
 ## **サンプルコード**
 

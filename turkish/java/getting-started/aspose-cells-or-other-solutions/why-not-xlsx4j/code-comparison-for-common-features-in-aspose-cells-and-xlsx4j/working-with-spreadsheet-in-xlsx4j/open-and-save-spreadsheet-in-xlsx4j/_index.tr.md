@@ -1,17 +1,18 @@
-﻿---
-title: Elektronik Tabloyu xlsx4j'de Açın ve Kaydedin
+---
+title: xlsx4j de Elektronik Tablo Açma ve Kaydetme
 type: docs
 weight: 40
 url: /tr/java/open-and-save-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - Elektronik Tabloyu Aç ve Kaydet**
-Geliştiriciler, dosyaları farklı amaçlarla açmak için Aspose.Cells'i kullanır. Örneğin, bir dosyadan veri almak için açın veya geliştirme sürecinizi hızlandırmak için önceden tanımlanmış bir tasarımcı elektronik tablo dosyası kullanın. Aspose.Cells, geliştiricilerin farklı türde kaynak dosyaları açmasına olanak tanır. Bu kaynak dosyalar Microsoft Excel raporları, SpreadsheetML, CSV veya Sekmeyle Ayrılmış dosyalar olabilir.
 
-**Aspose.Cells**geliştiricilerin esnek API'i kullanarak sıfırdan Excel dosyaları oluşturmasına olanak tanır. Excel dosyalarını oluşturduktan sonra çalışma kitabınızı (dosyayı) da kaydetmeniz gerekir. Aspose.Cells, bu dosyaları kaydetmenin çeşitli yollarını sunar.
+## **Aspose.Cells - Elektronik Tablo Açma ve Kaydetme**
+Geliştiriciler, farklı amaçlar için Aspose.Cells'i kullanır. Örneğin, bir dosyayı verileri almak için açabilir veya geliştirme sürecinizi hızlandırmak için önceden tanımlanmış bir tasarımcı elektronik tablo dosyasını kullanabilirsiniz. Aspose.Cells, geliştiricilere farklı türdeki kaynak dosyalarını açmalarına olanak tanır. Bu kaynak dosyaları Microsoft Excel raporları, Elektronik Tablo Dili, CSV veya Sekme Aralıklı dosyalar olabilir. 
+
+**Aspose.Cells**, esnek API'si kullanılarak sıfırdan Excel dosyaları oluşturmak için geliştiricilere olanak tanır. Excel dosyaları oluşturduktan sonra, çalışma kitabınızı (dosyayı) kaydetmeniz de gerekecektir. Aspose.Cells, bu dosyaları kaydetmek için çeşitli yöntemler sunar.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Creating an Workbook object with an Excel file path
 
@@ -22,12 +23,12 @@ Workbook workbook = new Workbook(dataDir + "pivot.xlsm");
 workbook.save(dataDir + "pivot-rtt-Aspose.xlsm");
 
 {{< /highlight >}}
-## **xlsx4j - Elektronik Tabloyu Aç ve Kaydet**
-Aşağıdaki örnek, xlsx4j kullanırken elektronik tabloların nasıl açılacağını ve kaydedileceğini gösterir.
+## **xlsx4j - Elektronik Tablo Açma ve Kaydetme**
+Aşağıdaki örnek, xlsx4j kullanarak elektronik tabloları nasıl açıp kaydedebileceğinizi göstermektedir.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  String inputfilepath  = dataDir + "pivot.xlsm";
 
@@ -54,5 +55,5 @@ if (save) {
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/opensavespreadsheet)

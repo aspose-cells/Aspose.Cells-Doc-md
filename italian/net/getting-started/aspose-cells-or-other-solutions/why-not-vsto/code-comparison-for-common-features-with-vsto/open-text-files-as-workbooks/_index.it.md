@@ -1,12 +1,13 @@
-﻿---
-title: Apri file di testo come cartelle di lavoro
+---
+title: Aprire i file di testo come cartelle di lavoro
 type: docs
 weight: 180
 url: /it/net/open-text-files-as-workbooks/
 ---
-Di seguito sono riportati esempi di codici di confronto per l'apertura di file di testo come cartelle di lavoro:
+
+Di seguito un esempio di codice di confronto per aprire file di testo come cartelle di lavoro:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
      this.Application.Workbooks.OpenText(@"OpenTextFilesAsWorkbooks.txt",
 
@@ -22,7 +23,7 @@ Di seguito sono riportati esempi di codici di confronto per l'apertura di file d
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
     private static string fileName = "OpenTextFilesAsWorkbooks.xlsx";
 
@@ -37,5 +38,5 @@ Di seguito sono riportati esempi di codici di confronto per l'apertura di file d
    newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Scaricamento**
-- [Git Hub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)
+##**Scarica**
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

@@ -1,63 +1,64 @@
-﻿---
-title: Excel ファイルの画像と図形を挿入します。
-linktitle: 形
+---
+title: Excelファイルの画像と図形を挿入する
+linktitle: シェイプ
 type: docs
 weight: 140
 url: /ja/net/insert-shapes/
-description: 写真、オブジェクト、図形を Excel ファイルで管理します。
+description: Excelファイルに写真、OLEオブジェクト、図形を管理する
 ---
+
 {{% alert color="primary" %}}
 
-必要な図形をワークシートに挿入する必要がある場合があります。ワークシートの異なる位置に同じ図形を挿入する必要がある場合があります。または、ワークシートに図形を一括挿入する必要がある場合もあります。
+時々、ワークシートに必要な形状を挿入する必要があります。ワークシートの異なる位置に同じ形状を挿入する必要があったり、ワークシートに複数の形状を一括挿入する必要があるかもしれません。
 
-心配しないでください！[Aspose.Cells](https://products.aspose.com/cells/)これらすべての操作をサポートします。
+心配しないでください！[Aspose.Cells](https://products.aspose.com/cells/)はこれらの操作をすべてサポートしています。
 
 {{% /alert %}}
 
-Excel の図形は、主に次の種類に分類されます。
-- **ピクチャー**
-- **OleObjects**
-- **ライン**
-- **長方形**
-- **基本形状**
+Excelの形状は主に以下の種類に分かれています：
+- **写真**
+- **OLEオブジェクト**
+- **直線**
+- **四角形**
+- **基本図形**
 - **ブロック矢印**
-- **方程式の形**
+- **数式図形**
 - **フローチャート**
-- **星と旗**
+- **星とバナー**
 - **吹き出し**
 
-このガイド ドキュメントでは、各タイプから 1 つまたは 2 つの形状を選択してサンプルを作成します。これらの例を通じて、使用方法を学習します。[Aspose.Cells](https://products.aspose.com/cells/)指定した形状をワークシートに挿入します。
+このガイド文書では、各タイプから1つか2つの図形を選択してサンプルを作成します。これらの例を通じて、指定の形状をワークシートに挿入する方法を学ぶことができます。[Aspose.Cells](https://products.aspose.com/cells/)を使用しています。
 
-## **C# の Excel ワークシートに画像を追加する**
+## **C#でExcelワークシートに画像を追加する**
 
-スプレッドシートに画像を追加するのはとても簡単です。数行のコードしか必要ありません。
-単純に[**追加**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)の方法[**ピクチャー**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection)コレクション ([**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)物体）。の[**追加**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)メソッドは次のパラメータを取ります。
+スプレッドシートに写真を追加するのは非常に簡単です。わずかなコード行だけで済みます:
+単純に、[**Pictures**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection)コレクション（[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)オブジェクトでカプセル化）の[**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)メソッドを呼び出します。[**Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)メソッドには以下のパラメータが必要です:
 
-- **左上行インデックス**、左上の行のインデックス。
+- **左上の行インデックス**、左上の行のインデックス。
 - **左上の列インデックス**、左上の列のインデックス。
 - **画像ファイル名**、パスを含む画像ファイルの名前。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-AddingPictures-1.cs" >}}
 
 
-## **C# の Excel ワークシートに OLE オブジェクトを挿入する**
+## **C#でExcelワークシートにOLEオブジェクトを挿入する**
 
-Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、抽出、および操作をサポートしています。このため、Aspose.Cells には[**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection)コレクション リストに新しい OLE オブジェクトを追加するために使用されるクラス。別のクラス、[**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject)、OLE オブジェクトを表します。いくつかの重要なメンバーがあります。
+Aspose.Cellsはワークシート内のOLEオブジェクトの追加、抽出、および操作をサポートしています。そのため、Aspose.Cellsには新しいOLEオブジェクトをコレクションリストに追加するために使用される[**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection)クラスがあります。また、[**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject)という別のクラスはOLEオブジェクトを表します。いくつかの重要なメンバーがあります。
 
-- の[**画像データ**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)プロパティは、バイト配列型のイメージ (アイコン) データを指定します。画像が表示され、ワークシートに OLE オブジェクトが表示されます。
-- の[**オブジェクトデータ**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)プロパティは、バイト配列の形式でオブジェクト データを指定します。このデータは、OLE オブジェクト アイコンをダブルクリックすると、関連するプログラムに表示されます。
+- [**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)プロパティはバイト配列型の画像（アイコン）データを指定します。画像はOLEオブジェクトを示すために表示されます。
+- [**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)プロパティはバイト配列形式のオブジェクトデータを指定します。このデータは、OLEオブジェクトアイコンをダブルクリックすると関連するプログラムに表示されます。
 
-次の例は、OLE オブジェクトをワークシートに追加する方法を示しています。
+以下の例は、ワークシートにOLEオブジェクトを追加する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
-## **C# の Excel ワークシートに行を挿入する**
+## **C#でExcelワークシートに行を挿入する**
 
-線の形はに属します**行**カテゴリー。
+線の形状は**線**のカテゴリに属します。
 
-***Microsoft Excel (例: 2007):***
+***Microsoft Excel（例: 2007年）***
 
-- 行を挿入するセルを選択します
+- 線を挿入するセルを選択します
 - [挿入] メニューをクリックし、[図形] をクリックします。
 - 次に、「最近使用した図形」または「線」から線を選択します
 
@@ -65,24 +66,17 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 
 ***Aspose.Cells を使用***
 
-次のメソッドを使用して、ワークシートに行を挿入できます。
+ワークシートに線を挿入するために以下の方法を使用できます。
 
 {{% alert color="primary" %}}
 
-[public LineShape AddLine(
- int upperLeftRow、
-整数トップ、
- int upperLeftColumn、
-整数左、
-整数の高さ、
-整数幅
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
-メソッドは[線の形状](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape)物体。
+このメソッドは[LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape)オブジェクトを返します。
 
 {{% /alert %}}
 
-次の例は、ワークシートに行を挿入する方法を示しています。
+次の例では、ワークシートに線を挿入する方法が示されています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Line.cs" >}}
 
@@ -92,38 +86,31 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 
 
 
-## **C# の Excel ワークシートに線矢印を挿入する**
+## **C#でExcelワークシートに矢印の形の直線を挿入する**
 
-線矢印の形状は、**ライン**カテゴリ。ラインの特殊なケースです。
+直線矢印の形状は**直線**のカテゴリに属します。これは直線の特別な場合です。
 
-***Microsoft Excel (例: 2007):***
+***Microsoft Excel（例: 2007年）***
 
-- 線の矢印を挿入するセルを選択します
+- 矢印を挿入するセルを選択します
 - [挿入] メニューをクリックし、[図形] をクリックします。
-- 次に、「最近使用した図形」または「線」から線の矢印を選択します
+- 次に、「最近使用した図形」または「線」から直線矢印を選択します
 
 ![](line_arrow1.png)
 
 ***Aspose.Cells を使用***
 
-次のメソッドを使用して、ワークシートに線の矢印を挿入できます。
+ワークシートに直線矢印を挿入するために以下の方法を使用できます。
 
 {{% alert color="primary" %}}
 
-[public LineShape AddLine(
- int upperLeftRow、
-整数トップ、
- int upperLeftColumn、
-整数左、
-整数の高さ、
-整数幅
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
+[**public LineShape AddLine(int upperLeftRow, int top, int upperLeftColumn,	int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
-メソッドは[線の形状](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape)物体。
+このメソッドは[LineShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape)オブジェクトを返します。
 
 {{% /alert %}}
 
-次の例は、ワークシートに線矢印を挿入する方法を示しています。
+次の例では、ワークシートに直線矢印を挿入する方法が示されています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-LineArrow.cs" >}}
 
@@ -133,38 +120,31 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 
 
 
-## **C# の Excel ワークシートに四角形を挿入する**
+## **C#でExcelワークシートに長方形を挿入する**
 
-長方形の形状は、**長方形**カテゴリー。
+長方形の形状は**矩形**のカテゴリに属します。
 
-***Microsoft Excel (例: 2007):***
+***Microsoft Excel（例: 2007年）***
 
-- 四角形を挿入するセルを選択します
+- 長方形を挿入するセルを選択します
 - [挿入] メニューをクリックし、[図形] をクリックします。
-- 次に、「最近使用した形状」または「長方形」から長方形を選択します
+- 次に、「最近使用した形」または「長方形」から長方形を選択します。
 
 ![](rectangle.png)
 
 ***Aspose.Cells を使用***
 
-次のメソッドを使用して、ワークシートに四角形を挿入できます。
+ワークシートに長方形を挿入するには、次のメソッドを使用できます。
 
 {{% alert color="primary" %}}
 
-[public RectangleShape AddRectangle(
- int upperLeftRow、
-整数トップ、
- int upperLeftColumn、
-整数左、
-整数の高さ、
-整数幅
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
+[**public RectangleShape AddRectangle(int upperLeftRow,	int top, int upperLeftColumn, int left,	int height,	int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
 
-メソッドは[長方形の形](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape)物体。
+このメソッドは、[RectangleShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) オブジェクトを返します。
 
 {{% /alert %}}
 
-次の例は、四角形をワークシートに挿入する方法を示しています。
+次の例では、ワークシートに長方形を挿入する方法が示されています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Rectangle.cs" >}}
 
@@ -174,39 +154,31 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 
 
 
-## **C# の Excel ワークシートにキューブを挿入する**
+## **C# で Excel ワークシートに立方体を挿入する**
 
-立方体の形状は、**基本形状**カテゴリー。
+キューブの形は**Basic Shapes**カテゴリに属しています。
 
-***Microsoft Excel (例: 2007):***
+***Microsoft Excel（例: 2007年）***
 
-- 立方体を挿入するセルを選択します
+- キューブを挿入したいセルを選択します
 - [挿入] メニューをクリックし、[図形] をクリックします。
-- 次に、からキューブを選択します**基本形状**
+- 次に、「基本形」からキューブを選択します
 
 ![](cube.png)
 
 ***Aspose.Cells を使用***
 
-次のメソッドを使用して、ワークシートにキューブを挿入できます。
+ワークシートにキューブを挿入するには、次のメソッドを使用できます。
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType タイプ、
- int upperLeftRow、
-整数トップ、
- int upperLeftColumn、
-整数左、
-整数の高さ、
-整数幅
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-メソッドは[形](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)物体。
+このメソッドは[Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)オブジェクトを返します。
 
 {{% /alert %}}
 
-次の例は、キューブをワークシートに挿入する方法を示しています。
+次の例では、ワークシートにキューブを挿入する方法が示されています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Cube.cs" >}}
 
@@ -216,39 +188,31 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 
 
 
-## **C# の Excel ワークシートに吹き出し四角矢印を挿入する**
+## **C# で Excel ワークシートに吹き出し四角矢印を挿入する**
 
-吹き出しの四角形矢印の形状は、**ブロック矢印**カテゴリー。
+コールアウト四角矢印の形は**Block Arrows**カテゴリに属しています。
 
-***Microsoft Excel (例: 2007):***
+***Microsoft Excel（例: 2007年）***
 
-- 吹き出しの四角形矢印を挿入するセルを選択します
+- コールアウト四角矢印を挿入したいセルを選択します
 - [挿入] メニューをクリックし、[図形] をクリックします。
-- 次に、吹き出しのクワッド矢印を選択します。**ブロック矢印**
+- 次に、「ブロック矢印」からコールアウト四角矢印を選択します
 
 ![](callout_quad_arrow.png)
 
 ***Aspose.Cells を使用***
 
-次の方法を使用して、ワークシートに四角形吹き出し矢印を挿入できます。
+ワークシートにコールアウト四角矢印を挿入するには、次のメソッドを使用できます。
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType タイプ、
- int upperLeftRow、
-整数トップ、
- int upperLeftColumn、
-整数左、
-整数の高さ、
-整数幅
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-メソッドは[形](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)物体。
+このメソッドは[Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)オブジェクトを返します。
 
 {{% /alert %}}
 
-次の例は、吹き出し四角形矢印をワークシートに挿入する方法を示しています。
+次の例では、ワークシートにコールアウト四角矢印を挿入する方法が示されています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-CalloutQuadArrow.cs" >}}
 
@@ -258,39 +222,31 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 
 
 
-## **C# の Excel ワークシートに乗算記号を挿入する**
+## **C# で Excel ワークシートに掛け算記号を挿入する**
 
-乗算記号の形状は、**方程式の形**カテゴリー。
+乗算記号の形は**Equation Shapes**カテゴリに属しています。
 
-***Microsoft Excel (例: 2007):***
+***Microsoft Excel（例: 2007年）***
 
-- 乗算記号を挿入するセルを選択します
+- 乗算記号を挿入したいセルを選択します
 - [挿入] メニューをクリックし、[図形] をクリックします。
-- 次に、から乗算記号を選択します**方程式の形**
+- その後、**数式図形**から乗算記号を選択します
 
 ![](multiplication_sign.png)
 
 ***Aspose.Cells を使用***
 
-次のメソッドを使用して、ワークシートに乗算記号を挿入できます。
+次の方法を使用してワークシートに乗算記号を挿入できます。
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType タイプ、
- int upperLeftRow、
-整数トップ、
- int upperLeftColumn、
-整数左、
-整数の高さ、
-整数幅
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-メソッドは[形](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)物体。
+このメソッドは[Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)オブジェクトを返します。
 
 {{% /alert %}}
 
-次の例は、乗算記号をワークシートに挿入する方法を示しています。
+次の例は、ワークシートに乗算記号を挿入する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-MultiplicationSign.cs" >}}
 
@@ -300,39 +256,31 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 
 
 
-## **マルチドキュメントを C# の Excel ワークシートに挿入する**
+## **C#でExcelワークシートに多重ドキュメントを挿入する**
 
-multidocument の形状は、**フローチャート**カテゴリー。
+多重ドキュメントの形状は**フローチャート**カテゴリに属しています。
 
-***Microsoft Excel (例: 2007):***
+***Microsoft Excel（例: 2007年）***
 
-- マルチドキュメントを挿入するセルを選択します
+- 多重ドキュメントを挿入するセルを選択します
 - [挿入] メニューをクリックし、[図形] をクリックします。
-- 次に、マルチドキュメントを選択します**フローチャート**
+- その後、**フローチャート**から多重ドキュメントを選択します
 
 ![](multidocument.png)
 
 ***Aspose.Cells を使用***
 
-次のメソッドを使用して、マルチドキュメントをワークシートに挿入できます。
+次の方法を使用してワークシートに多重ドキュメントを挿入できます。
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType タイプ、
- int upperLeftRow、
-整数トップ、
- int upperLeftColumn、
-整数左、
-整数の高さ、
-整数幅
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-メソッドは[形](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)物体。
+このメソッドは[Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)オブジェクトを返します。
 
 {{% /alert %}}
 
-次の例は、マルチドキュメントをワークシートに挿入する方法を示しています。
+次の例は、ワークシートに多重ドキュメントを挿入する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Multidocument.cs" >}}
 
@@ -342,39 +290,31 @@ multidocument の形状は、**フローチャート**カテゴリー。
 
 
 
-## **C# の Excel ワークシートに五芒星を挿入する**
+## **C#でExcelワークシートに五角星を挿入する**
 
-五芒星の形状は、**星と旗**カテゴリー。
+五角星の形状は**星とバナー**カテゴリに属しています。
 
-***Microsoft Excel (例: 2007):***
+***Microsoft Excel（例: 2007年）***
 
-- 五芒星を挿入したいセルを選択
+- 五角星を挿入したいセルを選択します
 - [挿入] メニューをクリックし、[図形] をクリックします。
-- 次に五芒星を選択します。**星と旗**
+- その後、**星とバナー**から五角星を選択します
 
 ![](star_5_points.png)
 
 ***Aspose.Cells を使用***
 
-次のメソッドを使用して、ワークシートに五芒星を挿入できます。
+この方法は [Shape](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) オブジェクトを返します。
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType タイプ、
- int upperLeftRow、
-整数トップ、
- int upperLeftColumn、
-整数左、
-整数の高さ、
-整数幅
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-メソッドは[形](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)物体。
+このメソッドは[Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)オブジェクトを返します。
 
 {{% /alert %}}
 
-次の例は、ワークシートに五芒星を挿入する方法を示しています。
+上記のコードを実行すると、次の結果が得られます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-FivePointedStar.cs" >}}
 
@@ -384,39 +324,31 @@ multidocument の形状は、**フローチャート**カテゴリー。
 
 
 
-## **C# の Excel ワークシートに吹き出し雲を挿入する**
+## **C#でExcelワークシートに思考バブルクラウドを挿入する**
 
-思考の泡の雲の形は、**吹き出し**カテゴリー。
+思考バブルクラウドの形状は**吹き出し**カテゴリに属しています。
 
-***Microsoft Excel (例: 2007):***
+***Microsoft Excel（例: 2007年）***
 
-- ふきだし雲を挿入するセルを選択します
+- 思考バブルクラウドを挿入したいセルを選択します
 - [挿入] メニューをクリックし、[図形] をクリックします。
-- 次に、から思考の泡の雲を選択します**吹き出し**
+- 次に、**吹き出し** から思考バブルクラウドを選択します。
 
 ![](thought_bubble_cloud.png)
 
 ***Aspose.Cells を使用***
 
-次の方法を使用して、ワークシートに吹き出しの雲を挿入できます。
+ワークシートに思考バブルクラウドを挿入するために次の方法を使用できます。
 
 {{% alert color="primary" %}}
 
-[public Shape AddAutoShape(
- AutoShapeType タイプ、
- int upperLeftRow、
-整数トップ、
- int upperLeftColumn、
-整数左、
-整数の高さ、
-整数幅
-)](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
+[**public Shape AddAutoShape(AutoShapeType type, int upperLeftRow, int top,	int upperLeftColumn, int left, int height, int width)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
-メソッドは[形](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)物体。
+このメソッドは[Shape](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape)オブジェクトを返します。
 
 {{% /alert %}}
 
-次の例は、吹き出しの雲をワークシートに挿入する方法を示しています。
+次の例は、ワークシートに思考バブルクラウドを挿入する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-ThoughtBubbleCloud.cs" >}}
 
@@ -424,22 +356,22 @@ multidocument の形状は、**フローチャート**カテゴリー。
 
 ![](thought_bubble_cloud2.png)
 
-## **先行トピック**
-- [シェイプの調整値を変更する](/cells/ja/net/change-adjustment-values-of-the-shape/)
+## **高度なトピック**
+- [図形の調整値を変更](/cells/ja/net/change-adjustment-values-of-the-shape/)
 - [ワークシート間で図形をコピーする](/cells/ja/net/copy-shapes-between-worksheets/)
 - [非プリミティブ形状のデータ](/cells/ja/net/data-in-non-primitive-shape/)
-- [ワークシート内の形状の絶対位置を見つける](/cells/ja/net/finding-absolute-position-of-shape-inside-the-worksheet/)
-- [シェイプから接続ポイントを取得する](/cells/ja/net/get-connection-points-from-shape/)
+- [ワークシート内の形状の絶対位置を検索する](/cells/ja/net/finding-absolute-position-of-shape-inside-the-worksheet/)
+- [形状から接続ポイントを取得する](/cells/ja/net/get-connection-points-from-shape/)
 - [コントロールの管理](/cells/ja/net/managing-controls/)
-- [ワークシートにアイコンを追加](/cells/ja/net/insert-svg-to-excel/)
+- [ワークシートにアイコンを追加する](/cells/ja/net/insert-svg-to-excel/)
 - [OLE オブジェクトの管理](/cells/ja/net/managing-ole-objects/)
 - [画像の管理](/cells/ja/net/managing-pictures/)
-- [スマート アートの管理](/cells/ja/net/managing-smartart/)
+- [Smart Art の管理](/cells/ja/net/managing-smartart/)
 - [テキストボックスの管理](/cells/ja/net/managing-textbox-of-excel/)
-- [ワードアートの透かしをワークシートに追加する](/cells/ja/net/add-wordart-watermark-to-worksheet/)
-- [リンクされた図形の値を更新](/cells/ja/net/refresh-values-of-linked-shapes/)
-- [ワークシート内の形状を前面または背面に送信](/cells/ja/net/send-shape-front-or-back-inside-the-worksheet/)
-- [形状オプションの管理](/cells/ja/net/managing-shape-options/)
-- [シェイプ テキスト オプションの管理](/cells/ja/net/managing-shape-text-options/)
-- [Web 拡張機能 - Office アドイン](/cells/ja/net/web-extensions-office-add-ins/)
+- [Aspose.Cells にワードアートウォーターマークを追加](/cells/ja/net/add-wordart-watermark-to-worksheet/)
+- [リンクされた図形の値を更新する](/cells/ja/net/refresh-values-of-linked-shapes/)
+- [ワークシート内でShape FrontまたはBackを送信する](/cells/ja/net/send-shape-front-or-back-inside-the-worksheet/)
+- [形状オプションを管理する](/cells/ja/net/managing-shape-options/)
+- [形状テキストオプションの管理](/cells/ja/net/managing-shape-text-options/)
+- [Web拡張 - Office アドイン](/cells/ja/net/web-extensions-office-add-ins/)
 

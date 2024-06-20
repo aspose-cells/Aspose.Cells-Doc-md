@@ -1,39 +1,40 @@
-﻿---
-title: Öffentlich API Änderungen in Aspose.Cells 8.7.2
+---
+title: Öffentliche API Änderungen in Aspose.Cells 8.7.2
 type: docs
 weight: 250
 url: /de/net/public-api-changes-in-aspose-cells-8-7-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.7.1 zu 8.7.2, die für Modul-/Anwendungsentwickler von Interesse sein könnten. Es enthält nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte und entfernte Klassen usw., sondern auch eine Beschreibung aller Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
+Dieses Dokument beschreibt die Änderungen an der Aspose.Cells-API von Version 8.7.1 auf 8.7.2, die für Modul-/Anwendungs-Entwickler interessant sein könnten. Es umfasst nicht nur neue und aktualisierte öffentliche Methoden, hinzugefügte & entfernte Klassen usw., sondern auch eine Beschreibung von Änderungen im Verhalten hinter den Kulissen in Aspose.Cells.
 
 {{% /alert %}} 
-## **APIs hinzugefügt**
-### **Standard-Berechnungsmodul erweitert**
-Aspose.Cells APIs verfügen über eine leistungsstarke Berechnungs-Engine, die fast alle Microsoft Excel-Funktionen berechnen kann. Darüber hinaus ermöglichen die Aspose.Cells-APIs jetzt die Erweiterung des Standard-Berechnungsmoduls, um benutzerdefinierte Berechnungsanforderungen jeder Anwendung zu erfüllen.
+## **Hinzugefügte APIs**
+### **Erweiterte den Standardberechnungs-Engine**
+Aspose.Cells-APIs verfügen über eine leistungsstarke Berechnungs-Engine, die fast alle Funktionen von Microsoft Excel berechnen kann. Darüber hinaus ermöglichen die Aspose.Cells-APIs nun die Erweiterung der Standardberechnungs-Engine, um individuelle Berechnungsanforderungen jeder Anwendung zu erfüllen.
 
-Die folgenden APIs wurden mit der Veröffentlichung von Aspose.Cells for .NET 8.7.2 hinzugefügt.
+Folgende APIs wurden mit der Veröffentlichung von Aspose.Cells for .NET 8.7.2 hinzugefügt.
 
-1. AbstractCalculationEngine-Klasse
-1. CalculationData-Klasse
-1. CalculationOptions.CustomEngine-Eigenschaft
+1. AbstractCalculationEngine Klasse
+1. CalculationData Klasse
+1. CalculationOptions.CustomEngine Eigenschaft
 
 {{% alert color="primary" %}} 
 
-Die oben genannten APIs ermöglichen die Implementierung einer benutzerdefinierten Berechnungsmaschine für alle Funktionen (einschließlich der nativen Funktionen von Excel) mit mehr Flexibilität.
+Die oben genannten APIs ermöglichen die Implementierung eines benutzerdefinierten Berechnungsmoduls für alle Funktionen (einschließlich der nativen Funktionen von Excel) mit mehr Flexibilität.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im ausführlichen Artikel unter[Implementieren einer benutzerdefinierten Berechnungs-Engine](/cells/de/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+Für weitere Details zu diesem Feature lesen Sie bitte den ausführlichen Artikel zu [Implementieren eines benutzerdefinierten Berechnungsmechanismus](/cells/de/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}} 
 
-Es folgt das einfache Nutzungsszenario.
+Im Folgenden wird das einfache Anwendungsszenario beschrieben.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class MyEngine : AbstractCalculationEngine
 
@@ -88,20 +89,20 @@ Es folgt das einfache Nutzungsszenario.
 {{< /highlight >}}
 
 
-### **Überladener Indexer für TextBoxCollection hinzugefügt**
-Aspose.Cells for .NET 8.7.2 hat den überladenen Index für die TextBoxCollection-Klasse verfügbar gemacht, um auf die Instanz von TextBox unter Verwendung ihres Namens als Zeichenfolge zuzugreifen.
+### **Hinzugefügter überladener Indexer für TextBoxCollection**
+Aspose.Cells for .NET 8.7.2 hat den überladenen Indexer für die TextBoxCollection-Klasse freigegeben, um auf die Instanz von TextBox anhand ihres Namens als Zeichenfolge zuzugreifen.
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im ausführlichen Artikel unter[Zugriff auf die TextBox über ihren Namen](/cells/de/net/access-the-text-box-by-the-name/)
+Für weitere Details zu diesem Feature lesen Sie bitte den ausführlichen Artikel zu [Zugreifen auf die TextBox über ihren Namen](/cells/de/net/access-the-text-box-by-the-name/)
 
 {{% /alert %}} 
 
-Ein einfaches Nutzungsszenario sieht wie folgt aus.
+Das einfache Anwendungsszenario sieht wie folgt aus.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -130,14 +131,14 @@ box = sheet.TextBoxes["MyTextBox"];
 {{< /highlight >}}
 
 
-### **OnAfterColumnFilter-Ereignis für GridWeb hinzugefügt**
-Aspose.Cells.GridWeb for .NET 8.7.2 hat das OnAfterColumnFilter-Ereignis verfügbar gemacht, das als Rückruf für den Filtermechanismus dient, der über die Aspose.Cells.GridWeb-Benutzeroberfläche ausgeführt wird. Wie der Name schon sagt, wird das Ereignis ausgelöst, nachdem die Spaltenfilterung angewendet wurde, und kann verwendet werden, um die Filterinformationen wie den Spaltenindex, auf den der Filter angewendet wurde, und den ausgewählten Filterwert abzurufen.
+### **Hinzugefügtes OnAfterColumnFilter-Ereignis für GridWeb**
+Aspose.Cells.GridWeb für .NET 8.7.2 hat das OnAfterColumnFilter-Ereignis freigelegt, das als Rückrufmechanismus für den Filtermechanismus dient, der über die Aspose.Cells.GridWeb-Benutzeroberfläche durchgeführt wurde. Wie der Name schon sagt, wird das Ereignis ausgelöst, nachdem der Spaltenfilter angewendet wurde, und kann verwendet werden, um die Filterinformationen wie den Spaltenindex, auf den der Filter angewendet wurde, und den ausgewählten Filterwert zu erhalten.
 
-Ein einfaches Nutzungsszenario sieht wie folgt aus.
+Das einfache Anwendungsszenario sieht wie folgt aus.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void GridWeb1_AfterColumnFilter(object sender, Aspose.Cells.GridWeb.RowColumnEventArgs e)
 
@@ -151,6 +152,6 @@ Ein einfaches Nutzungsszenario sieht wie folgt aus.
 
 {{% alert color="primary" %}} 
 
-Vergessen Sie nicht, das Ereignis im GridWeb-Steuerelement zu registrieren<acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
+Do not forget to register the event to GridWeb control <acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
 
 {{% /alert %}}

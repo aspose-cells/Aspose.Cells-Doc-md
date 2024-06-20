@@ -1,13 +1,14 @@
-﻿---
-title: Sostituisci il testo in una cartella di lavoro usando l'espressione regolare
+---
+title: Sostituire il testo in un libro di lavoro utilizzando le espressioni regolari
 type: docs
 weight: 90
 url: /it/net/replace-text-in-a-workbook-using-regular-expression/
 ---
- Aspose.Cells fornisce la funzione per sostituire il testo in una cartella di lavoro utilizzando un'espressione regolare. Per questo, lo API fornisce[**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey)proprietà del[**SostituisciOpzioni**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions) classe. Impostazione del[**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) a**VERO** indica che la chiave cercata sarà un'espressione regolare.
 
-Il seguente frammento di codice illustra l'uso di[**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) proprietà utilizzando il[file excel di esempio](101089318.xlsx) . Il[file di uscita](101089319.xlsx) generato dal seguente frammento di codice è allegato per riferimento.
+Aspose.Cells fornisce la funzionalità di sostituire il testo in un workbook utilizzando un'espressione regolare. A questo scopo, l'API fornisce la proprietà [**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) della classe [**ReplaceOptions**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions). Impostando [**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) su **true** indica che la chiave ricercata sarà un'espressione regolare.
 
-## **Codice d'esempio**
+Il frammento di codice seguente dimostra l'uso della proprietà [**RegexKey**](https://reference.aspose.com/cells/net/aspose.cells/replaceoptions/properties/regexkey) utilizzando il [file excel di esempio](101089318.xlsx). Il [file di output](101089319.xlsx) generato dal frammento di codice seguente è allegato per riferimento.
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-RegexReplace-1.cs" >}}

@@ -1,56 +1,57 @@
-﻿---
-title: 既存のデータ ソースを使用した新しいクエリの作成
+---
+title: 既存のデータソースを使用して新しいクエリを作成する
 type: docs
 weight: 30
 url: /ja/reportingservices/creating-new-query-using-existing-data-source/
 ---
-既存のデータ ソースを使用して新しいクエリを作成するには:
 
-1. Microsoft エクセルを開きます。
-1. クリック**DataSet の構築** Aspose.Cells.Report.Designer (
+既存のデータソースを使用して新しいクエリを作成するには:
 
-![todo:画像_代替_文章](creating-new-query-using-existing-data-source_1.png)
+1. Microsoft Excel を開きます。
+1. Aspose.Cells.Report.Designer で **Build DataSet** をクリックします (
+
+![todo:image_alt_text](creating-new-query-using-existing-data-source_1.png)
 
 ).
 
-1. ダイアログ ボックスで、左側のパネルにリストされているデータ ソースのいずれかを選択します。例えば、**SQLサーバー**.
-1. クリック**追加**. 
+1. ダイアログボックスで、左パネルにリストされているデータソースのうち 1 つを選択します。例えば、**SqlServer**。
+1. **追加** をクリックします。 
 
-   **データ ソースの選択** 
+   **データソースを選択する** 
 
-![todo:画像_代替_文章](creating-new-query-using-existing-data-source_2.png)
-
-
-
-
-1. ダイアログ ボックスで、SalesEmps などの新しいデータ セット名を入力します。
-1. クリック**次**. 
-
-   **新しいデータセットの命名** 
-
-![todo:画像_代替_文章](creating-new-query-using-existing-data-source_3.png)
-
-
-
-Aspose.Cells.Report.Designer が Microsoft クエリを開始し、選択したデータ ソースに接続します。 Microsoft クエリで新しいクエリを作成できるようになりました。
-
-**新しいクエリの作成** 
-
-![todo:画像_代替_文章](creating-new-query-using-existing-data-source_4.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_2.png)
 
 
 
 
-1.  Microsoftからお問い合わせ**ファイル**メニュー、選択**Aspose.Cells.Report.Designerに戻る**. 
+1. ダイアログボックスで、例えば SalesEmps のような新しいデータセット名を入力します。
+1. **次へ** をクリックします。 
 
-   **レポート デザイナーに戻る** 
+   **新しいデータセットの名前をつける** 
 
-![todo:画像_代替_文章](creating-new-query-using-existing-data-source_5.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_3.png)
 
 
 
-データ ソース SqlServer には 2 つのデータセットが含まれており、そのうちの 1 つは新しいデータセット SalesEmps です。
+Aspose.Cells.Report.Designer は Microsoft Query を起動し、選択したデータソースに接続します。これで Microsoft Query で新しいクエリを作成できます。 
+
+**新しいクエリの構築** 
+
+![todo:image_alt_text](creating-new-query-using-existing-data-source_4.png)
+
+
+
+
+1. Microsoft Query の**ファイル**メニューから**Aspose.Cells.Report.Designer に戻る**を選択します。 
+
+   **レポートデザイナーに戻る** 
+
+![todo:image_alt_text](creating-new-query-using-existing-data-source_5.png)
+
+
+
+データソースSqlServerには2つのデータセットが含まれており、そのうちの1つが新しいデータセットSalesEmpsです。 
 
 **新しいデータセット** 
 
-![todo:画像_代替_文章](creating-new-query-using-existing-data-source_6.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_6.png)

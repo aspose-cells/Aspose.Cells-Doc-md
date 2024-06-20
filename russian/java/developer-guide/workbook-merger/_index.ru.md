@@ -1,30 +1,31 @@
-﻿---
-title: Объединение нескольких рабочих книг в одну рабочую книгу
+---
+title: Объединить несколько книг в одну книгу
 linktitle: Слияние книг
 type: docs
 weight: 50
 url: /ru/java/combine-multiple-workbooks-into-a-single-workbook/
-description: Объедините несколько книг в одну книгу, используя код Java и Aspose.Cells for Java API.
-keywords: combine multiple workbooks into one, combine multiple workbooks into one java, combine multiple workbooks into one with java, combine multiple workbooks into single workbook with java, combine multiple workbooks into single workbook java, java code to combine multiple workbooks into single workbook, how to combine multiple workbooks into single workbook with java, how to combine multiple workbooks into one with java, merge multiple workbooks into one with java, how to merge multiple workbooks into one java, how to merge multiple workbooks into one with java
+description: Объедините несколько книг в одну книгу, используя Java код и Aspose.Cells for Java API.
+keywords: объединить несколько рабочих книг в одну, объединить несколько рабочих книг в одну java, объединить несколько рабочих книг в одну с помощью java, объединить несколько рабочих книг в одну рабочую книгу с помощью java, объединить несколько рабочих книг в одну рабочую книгу java, java код для объединения нескольких рабочих книг в одну рабочую книгу, как объединить несколько рабочих книг в одну рабочую книгу с помощью java, как объединить несколько рабочих книг в одну с помощью java, объединить несколько рабочих книг в одну с помощью java, как объединить несколько рабочих книг в одну java, как объединить несколько рабочих книг в одну с помощью java
 ---
+
 {{% alert color="primary" %}}
 
-Иногда вам нужно объединить книги с различным содержимым, таким как изображения, диаграммы и данные, в одну книгу. Aspose.Cells поддерживает эту функцию. В этой статье показано, как создать простое приложение для объединения книг с помощью нескольких простых строк кода с использованием Aspose.Cells.
+Иногда вам может понадобиться объединить рабочие книги с различным содержанием, таким как изображения, диаграммы и данные в одну рабочую книгу. Aspose.Cells поддерживает эту функцию. В этой статье показано, как создать простое приложение для объединения рабочих книг всего лишь с несколькими простыми строками кода, используя Aspose.Cells.
 
 {{% /alert %}}
 
-## **Объединение книг**
+## **Объединение рабочих книг**
 
- Пример кода объединяет две книги в одну книгу, используя Aspose.Cells for Java. Код загружает исходные книги, использует[**Рабочая книга.объединить()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)) для их объединения и сохранения выходной книги.
+В приведенном примере кода две рабочие книги объединяются в одну рабочую книгу с помощью Aspose.Cells for Java. Код загружает исходные рабочие книги, использует метод [**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook)), чтобы объединить их и сохраняет вывод рабочую книгу.
 
 ### **Исходные книги**
 
-- [диаграммы.xlsx](5473097.xlsx)
-- [картинка.xlsx](5473096.xlsx)
+- [charts.xlsx](5473097.xlsx)
+- [picture.xlsx](5473096.xlsx)
 
 ### **Выходные книги**
 
-- [комбинированный .xlsx](5473095.xlsx)
+- [combined.xlsx](5473095.xlsx)
 
 ### **Скриншоты**
 
@@ -32,27 +33,27 @@ keywords: combine multiple workbooks into one, combine multiple workbooks into o
 
 {{% alert color="primary" %}}
 
-Вы можете использовать любые исходные книги. Эти изображения предназначены только для иллюстрации.
+Вы можете использовать любые исходные книги. Эти изображения приведены только в целях иллюстрации.
 
 {{% /alert %}}
 
-**Первый рабочий лист рабочей книги диаграмм - стопка**
+**Первый лист книги с диаграммами - столбцы**
 
-![дело:изображение_альтернативный_текст](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
 
-**Второй рабочий лист рабочей книги диаграмм - строка**
+**Второй лист книги с диаграммами - линейный**
 
-![дело:изображение_альтернативный_текст](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
 
-**Первый рабочий лист рабочей тетради с картинками - картинка**
+**Первый лист книги с картинками - изображение**
 
-![дело:изображение_альтернативный_текст](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
 
-**Все три рабочих листа в объединенной рабочей книге - стопка, строка, картинка**
+**Все три листа в объединенной книге - столбцы, линейный, изображение**
 
-![дело:изображение_альтернативный_текст](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
-В следующем фрагменте кода показано, как объединить несколько книг в одну книгу.
+В следующем отрывке кода показано, как объединить несколько рабочих книг в одну рабочую книгу.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CombineMultipleWorkbooks-CombineMultipleWorkbooks.java" >}}
 
@@ -60,11 +61,11 @@ keywords: combine multiple workbooks into one, combine multiple workbooks into o
 
 {{% alert color="primary" %}}
 
- Вы можете найти[Объединение нескольких рабочих листов в один рабочий лист](/cells/ru/java/combine-multiple-worksheets-into-a-single-worksheet/) статья полезна для получения дополнительной информации.
+Вам могут пригодиться статья [Объединение нескольких листов в одном документе](/cells/ru/java/combine-multiple-worksheets-into-a-single-worksheet/), чтобы получить дополнительную информацию.
 
 {{% /alert %}}
 
-## **Предварительные темы**
-- [Объединить несколько рабочих листов в один рабочий лист](/cells/ru/java/combine-multiple-worksheets-into-a-single-worksheet/)
-- [Объединить файлы](/cells/ru/java/merge-files/)
+## **Продвинутые темы**
+- [Объединение нескольких листов в одном документе](/cells/ru/java/combine-multiple-worksheets-into-a-single-worksheet/)
+- [Объединение файлов](/cells/ru/java/merge-files/)
 

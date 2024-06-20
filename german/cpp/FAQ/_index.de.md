@@ -4,11 +4,12 @@ type: docs
 weight: 100
 url: /de/cpp/faq/
 ---
-##  **Noch nicht**
+
+## **Noch nicht**
 
 <!--
-## **Encryption and decryption are not supported for Aspose.Cells for C++ now**
-Now, encryption and decryption are not supported for Aspose.Cells for C++, so if you want to open a file with password the code will throw exception.
+## **Verschlüsselung und Entschlüsselung werden für Aspose.Cells for C++ derzeit nicht unterstützt**
+Derzeit werden Verschlüsselung und Entschlüsselung für Aspose.Cells for C++ nicht unterstützt, daher wirft der Code eine Ausnahme, wenn Sie eine Datei mit Passwort öffnen möchten.
 
 
 

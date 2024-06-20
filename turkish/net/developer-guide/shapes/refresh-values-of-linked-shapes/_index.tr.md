@@ -1,23 +1,24 @@
-﻿---
-title: Bağlantılı Şekillerin Değerlerini Yenile
+---
+title: Bağlı Şekillerin Değerlerini Yenile
 type: docs
 weight: 3200
 url: /tr/net/refresh-values-of-linked-shapes/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen, Excel dosyanızda bazı hücrelere bağlı bağlantılı bir şekle sahip olursunuz. Microsoft Excel'de bağlantılı hücrenin değerini değiştirmek, bağlantılı şeklin değerini de değiştirir. Çalışma kitabınızı XLS veya XLSX biçiminde kaydetmek istiyorsanız, bu Aspose.Cells ile de iyi çalışır. Ancak çalışma kitabınızı PDF veya HTML formatında kaydetmek isterseniz aramanız gerekecektir.[**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue) bağlantılı şeklin değerini yenileme yöntemi.
+Excel dosyanızda bazı hücrelere bağlı şekilleriniz olabilir. Microsoft Excel'de bağlı hücrenin değerini değiştirerek bağlı şeklin değerini değiştirebilirsiniz. Eğer Aspose.Cells ile çalışıyorsanız ve çalışma kitabınızı XLS veya XLSX biçiminde kaydetmek istiyorsanız, bağlı şeklin değerini yenilemek için [**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue) yöntemini çağırmanız gerekecektir.
 
 {{% /alert %}}
 
-## Örnek vermek
+## Örnek
 
- Aşağıdaki ekran görüntüsü, aşağıdaki örnek kodda kullanılan kaynak Excel dosyasını göstermektedir. A1 ila E4 hücrelerine bağlı bağlantılı bir resme sahiptir. B4 hücresinin değerini Aspose.Cells ile değiştirip sonra çağıracağız.[**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue)resmin değerini yenileme ve PDF formatında kaydetme yöntemi.
+Aşağıdaki ekran görüntüsü, örnek kodda kullanılan kaynak Excel dosyasını göstermektedir. A1'den E4'e kadar olan hücrelere bağlı bir resim içerir. Aspose.Cells ile B4 hücresinin değerini değiştirecek ve ardından [**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue) yöntemini çağırarak resmin değerini yenileyip PDF biçiminde kaydedeceğiz.
 
-![yapılacaklar:resim_alternatif_metin](refresh-values-of-linked-shapes_1.jpg)
+![todo:image_alt_text](refresh-values-of-linked-shapes_1.jpg)
 
-indirebilirsiniz[kaynak Excel dosyası](95584291.xlsx) ve[çıkış PDF](95584292.pdf) verilen linklerden
+Verilen bağlantılardan [kaynak Excel dosyasını](95584291.xlsx) ve [çıktı PDF'sini](95584292.pdf) indirebilirsiniz.
 
-### Bağlantılı şekillerin değerlerini yenilemek için C# kodu
+### Bağlı şekillerin değerlerini yenilemek için C# kodu
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RefreshValueOfLinkedShapes-1.cs" >}}

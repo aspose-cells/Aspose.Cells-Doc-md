@@ -1,19 +1,20 @@
-﻿---
-title: قم بإدراج صورة بناءً على مرجع Cell
+---
+title: إدراج صورة بناءً على مرجع الخلية
 type: docs
 weight: 150
 url: /ar/net/insert-a-picture-based-on-cell-reference/
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان يكون لديك صورة فارغة وتحتاج إلى إظهار البيانات أو المحتويات في الصورة عن طريق تعيين مرجع خلية في شريط الصيغة. يدعم Aspose.Cells هذه الميزة (Microsoft Excel 2010).
+أحيانًا يكون لديك صورة فارغة وتحتاج إلى عرض البيانات أو المحتويات في الصورة عن طريق تحديد إشارة للخلية في شريط الصيغة. تدعم Aspose.Cells هذه الميزة (Microsoft Excel 2010).
 
 {{% /alert %}}
 
-## إدراج صورة بناءً على مرجع Cell
+## إدراج صورة بناءً على إشارة الخلية
 
-يدعم Aspose.Cells عرض محتويات خلية ورقة العمل في شكل صورة. يمكنك ربط الصورة بالخلية التي تحتوي على البيانات التي تريد عرضها. نظرًا لأن الخلية أو نطاق الخلية مرتبط بكائن رسومي ، فإن التغييرات التي تجريها على البيانات الموجودة في تلك الخلية أو نطاق الخلايا تظهر تلقائيًا في الكائن الرسومي. أضف صورة إلى ورقة العمل عن طريق استدعاء[**إضافة الصورة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpicture/index) طريقة[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) مجموعة (مغلفة في ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) موضوع). حدد نطاق الخلايا باستخدام[**معادلة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/formula) سمة من سمات[**صورة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)موضوع.
+تدعم Aspose.Cells عرض محتوى خلية ورقة العمل في شكل صورة. يمكنك ربط الصورة بالخلية التي تحتوي على البيانات التي ترغب في عرضها. نظرًا لأن الخلية أو نطاق الخلية مرتبط بالكائن الرسومي، فإن التغييرات التي تقوم بها على البيانات في تلك الخلية أو نطاق الخلية تظهر تلقائيًا في الكائن الرسومي. أضف صورة إلى ورقة العمل عن طريق استدعاء الطريقة [**AddPicture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpicture/index) لمجموعة [**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) (المغلفة في كائن [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)). حدد نطاق الخلية باستخدام السمة [**Formula**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/formula) لكائن [**Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture).
 
-### مثال رمز
+### مثال على الكود
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-InsertPictureCellReference-1.cs" >}}

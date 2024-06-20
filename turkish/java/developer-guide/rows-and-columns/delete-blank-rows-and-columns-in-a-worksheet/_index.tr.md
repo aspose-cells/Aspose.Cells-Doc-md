@@ -1,17 +1,18 @@
-﻿---
-title: Çalışma Sayfasındaki Boş Satırları ve Sütunları Silme
+---
+title: Çalışma Sayfasındaki Boş Satır ve Sütunları Silme
 type: docs
 weight: 360
 url: /tr/java/delete-blank-rows-and-columns-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
-Bir çalışma sayfasındaki tüm boş satırları ve sütunları silmek mümkündür. Bu, örneğin bir Microsoft Excel dosyasından bir PDF dosyası oluştururken ve yalnızca veri içeren satırları ve sütunları dönüştürmek istediğinizde kullanışlıdır.
+Çalışma sayfasından tüm boş satır ve sütunları silmek mümkündür. Bu örneğin, Microsoft Excel dosyasından PDF dosyası oluştururken yalnızca veri içeren satır ve sütunları dönüştürmek istediğinizde kullanışlıdır.
 
-Boş satırları ve sütunları silmek için aşağıdaki Aspose.Cells yöntemlerini kullanın:
+Boş satır ve sütunları silmek için aşağıdaki Aspose.Cells yöntemlerini kullanın:
 
-1.  Boş satırları silmek için,[Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows\(\)) yöntem.
-1.  Boş sütunları silmek için[Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns\(\)) yöntem.
+1. Boş satırları silmek için [Cells.deleteBlankRows()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankRows\(\)) yöntemini kullanın.
+1. Boş sütunları silmek için [Cells.deleteBlankColumns()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#deleteBlankColumns\(\)) yöntemini kullanın.
 
 {{% /alert %}} 
 ## **Boş Satırları Silme**

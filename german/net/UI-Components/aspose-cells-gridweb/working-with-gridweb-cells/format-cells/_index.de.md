@@ -1,157 +1,160 @@
-﻿---
-title: Cells formatieren
+---
+title: Zellen formatieren
 type: docs
 weight: 40
-url: /de/net/format-grid-cells/
+url: /de/net/aspose-cells-gridweb/format-grid-cell/
+keywords: GridWeb, Format, Style
+description: Dieser Artikel führt ein, wie man einen Zellenstil für eine Zelle (GridCell) in GridWeb einrichtet oder anwendet.
 ---
+
 {{% alert color="primary" %}} 
 
-In diesem Thema wird ausführlich erläutert, wie Zellen formatiert werden.
+Dieses Thema bietet eine ausführliche Diskussion darüber, wie Zellen formatiert werden können.
 
-Es behandelt das Formatieren von Zellen im GUI-Modus mit dem Style-Dialog des Aspose.Cells.GridWeb-Steuerelements. Außerdem wird gezeigt, wie Zellen programmgesteuert formatiert werden. Unterschiedliche Formateinstellungen wie Schriftart, Rahmen und Zahlenformat werden besprochen und mit Beispielen illustriert.
+Es umfasst die Formatierung von Zellen im GUI-Modus unter Verwendung des Aspose.Cells.GridWeb-SteuerElements "Style". Es zeigt auch, wie Zellen programmgesteuert formatiert werden können. Unterschiedliche Formatierungseinstellungen wie Schriftart, Rahmen und Zahlenformat werden erläutert und anhand von Beispielen illustriert.
 
 {{% /alert %}} 
-## **Formatieren Cells Verwenden des Stildialogs**
- Cells kann formatiert werden[programmatisch](/cells/de/net/format-cells/)Aber der einfachste Weg, Zellen im Aspose.Cells.GridWeb-Steuerelement auf WYSIWYG-Weise zu formatieren, ist die Verwendung des Stil-Dialogfelds.
+## **Formatieren von Zellen unter Verwendung des Style-Dialogs**
+Zellen können auch [programmgesteuert](/cells/de/net/aspose-cells-gridweb/format-cells/) formatiert werden, aber der einfachste Weg, Zellen im Aspose.Cells.GridWeb-SteuerElement in einer WYSIWYG-Weise zu formatieren, ist die Verwendung des Style-Dialogs.
 
-So verwenden Sie das Dialogfeld „Stil“:
- Wählen Sie einen Bereich von Zellen aus, klicken Sie dann mit der rechten Maustaste und wählen Sie aus**Cell formatieren**. 
+Um den Style-Dialog zu verwenden:
+Markieren Sie einen Zellenbereich, klicken Sie mit der rechten Maustaste und wählen Sie **Format Cell**. 
 
-**Auswahl des Formats Cell** 
+**Auswahl von Format Cell** 
 
-![todo: Bild_alt_Text](format-cells_1.png)
+![todo:image_alt_text](format-cells_1.png)
 
 
 
- Das Dialogfeld „Stil“ wird angezeigt.
+Der Style-Dialog wird angezeigt. 
 
-**Der Stil-Dialog wird verwendet, um Zellen zu formatieren** 
+**Der Style-Dialog wird zum Formatieren von Zellen verwendet** 
 
-![todo: Bild_alt_Text](format-cells_2.png)
+![todo:image_alt_text](format-cells_2.png)
 
-Im Dialogfeld "Stil" können Benutzer Zellen formatieren, indem sie Schriftart- und Rahmeneinstellungen anpassen.
-### **Schrifteinstellungen anpassen**
-Sie können die folgenden Schriftarteinstellungen mithilfe des Dialogfelds „Stil“ anpassen:
+Der Style-Dialog ermöglicht es Benutzern, Zellen durch Anpassung von Schrift- und Rahmen-Einstellungen zu formatieren.
+### **Anpassen von Schrift-Einstellungen**
+Sie können die folgenden Schrift-Einstellungen mit dem Style-Dialog anpassen:
 
-- Schriftartname, wählen Sie eine gewünschte Schriftart aus der Liste aus.
+- Schriftart, wählen Sie eine gewünschte Schriftart aus der Liste.
 - Schriftstil, wenden Sie einen Schriftstil wie fett, kursiv usw. an.
-- Schriftgröße, wählen Sie eine Schriftgröße in Punkt aus.
+- Schriftgröße, wählen Sie eine Schriftgröße in Punkten.
 - Unterstreichen, Text unterstreichen.
-- Durchgestrichen, wenden Sie einen durchgestrichenen Effekt auf den Text an.
+- Durchgestrichen, einen Durchstreichungseffekt auf den Text anwenden.
 - Horizontale Ausrichtung, horizontale Ausrichtung auswählen.
 - Vertikale Ausrichtung, vertikale Ausrichtung auswählen.
-- Schriftfarbe, wählen Sie eine Schriftfarbe aus.
-- Hintergrund, wählen Sie eine Farbe für den Hintergrund aus.
+- Schriftfarbe, eine Schriftfarbe auswählen.
+- Hintergrund, eine Farbe für den Hintergrund auswählen.
 
-In einem kleinen Vorschaubereich können Sie die gewählten Schrifteinstellungen überprüfen.
+Sie können die ausgewählten Schrift-Einstellungen in einem kleinen Vorschaubereich überprüfen.
 
-**Benutzerdefinierte Schriftarteinstellungen** 
+**Angepasste Schrift-Einstellungen** 
 
-![todo: Bild_alt_Text](format-cells_3.png)
-### **Randeinstellungen anpassen**
-Das Steuerelement ermöglicht es Benutzern auch, einen Rahmen um Zellen zu ziehen, indem sie die Rahmeneinstellungen im Dialogfeld "Stil" anpassen.
+![todo:image_alt_text](format-cells_3.png)
+### **Anpassen von Rahmen-Einstellungen**
+Die Steuerung ermöglicht es Benutzern auch, einen Rahmen um Zellen zu zeichnen, indem sie Rahmen-Einstellungen im Style-Dialog anpassen.
 
-So zeigen Sie randbezogene Optionen an:
- Klicken**Grenzen** im Stildialog.
- Rahmenbezogene Optionen werden angezeigt.
+Um die Optionen für rahmenbezogene Einstellungen anzuzeigen:
+Klicken Sie auf **Rahmen** im Style-Dialog.
+Border-bezogene Optionen werden angezeigt. 
 
-**Rahmenoptionen im Stildialog** 
+**Randoptionen im Stil-Dialogfeld** 
 
-![todo: Bild_alt_Text](format-cells_4.png)
+![todo:image_alt_text](format-cells_4.png)
 
-Die folgenden Rahmenoptionen können im Dialogfeld „Stil“ ausgewählt werden:
+Die folgenden Randoptionen können im Stil-Dialogfeld ausgewählt werden:
 
-- Rahmenlinienstil, wählen Sie den Rahmenstil wie durchgehend, gestrichelt usw.
-- Rahmenlinienbreite, wählen Sie die Rahmenbreite in Pixel aus.
-- Grenzlinienfarbe, wählen Sie die Linienfarbe aus.
-- Grenzlinien, wählen Sie die Nummerierung und Positionierung der Grenzlinien aus.
+- Randlinienstil: Wählen Sie den Randstil wie durchgezogen, gestrichelt usw. aus.
+- Randlinienbreite: Wählen Sie die Randbreite in Pixel aus.
+- Randlinienfarbe: Wählen Sie die Linienfarbe aus.
+- Randleitungen: Wählen Sie die Nummerierung und Positionierung der Randleitungen aus.
 
-**Benutzerdefinierte Randeinstellungen** 
+**Benutzerdefinierte Rand-Einstellungen** 
 
-![todo: Bild_alt_Text](format-cells_5.png)
-### **Anwenden von Einstellungen**
- Klicken**OK** im Dialogfeld „Stil“, um die Änderungen zu übernehmen.
+![todo:image_alt_text](format-cells_5.png)
+### **Einstellungen anwenden**
+Klicken Sie auf **OK** im Stil-Dialog, um die Änderungen anzuwenden.
 
-**Schrift- und Randeinstellungen angewendet** 
+**Schrift- und Rand-Einstellungen angewandt** 
 
-![todo: Bild_alt_Text](format-cells_6.png)
+![todo:image_alt_text](format-cells_6.png)
 
 
-## **Formatieren von Cells Verwenden von API**
-Cells kann auch programmgesteuert mit Aspose.Cells.GridWeb API formatiert werden. Jede Zelle hat eine Style-Eigenschaft, die ein GridTableItemStyle-Objekt darstellt. Verwenden Sie die Style-Eigenschaft, um Schriftart- und Rahmeneinstellungen anzupassen.
-### **Schriftart einstellen**
-So passen Sie die Schriftarteinstellungen programmgesteuert an:
+## **Zellenformatierung mit API**
+Zellen können auch programmgesteuert mithilfe des Aspose.Cells.GridWeb API formatiert werden. Jede Zelle hat eine Style-Eigenschaft, die ein GridTableItemStyle-Objekt darstellt. Verwenden Sie die Style-Eigenschaft, um Schrift- und Rand-Einstellungen anzupassen.
+### **Schrift festlegen**
+Um Schrift-Einstellungen programmgesteuert anzupassen:
 
-1. Fügen Sie einem Webformular das Aspose.Cells.GridWeb-Steuerelement hinzu.
+1. Fügen Sie der Webformularsteuerung Aspose.Cells.GridWeb hinzu.
 1. Greifen Sie auf ein Arbeitsblatt zu.
-1. Greifen Sie auf die Zelle zu, die Sie formatieren.
-1. Greifen Sie auf den Stil der Zelle zu.
-1. Legen Sie die Schriftgröße in Punkt fest.
+1. Greifen Sie auf die zu formatierende Zelle zu.
+1. Greifen Sie auf den Zellenstil zu.
+1. Legen Sie die Schriftgröße in Punkten fest.
 1. Legen Sie den Schriftstil fest.
-1. Vorder- und Hintergrundfarbe festlegen.
-1. Legen Sie die horizontale und vertikale Ausrichtung fest.
+1. Setze Vordergrund- und Hintergrundfarben.
+1. Setzen Sie die horizontale und vertikale Ausrichtung.
 1. Setzen Sie den Stil zurück auf die Zelle.
 
-**Ausgabe: benutzerdefinierte Schriftarteinstellungen, die in A1 angezeigt werden** 
+**Ausgabe: Anpassung der Schriftarteneinstellungen in A1** 
 
-![todo: Bild_alt_Text](format-cells_7.png)
+![todo:image_alt_text](format-cells_7.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyFontStyles.cs" >}}
-### **Grenzen setzen**
+### **Rahmen einstellen**
 Rahmen können auf einzelne Zellen oder auf einen Bereich angewendet werden.
-#### **Einzeln Cell**
-So legen Sie die Grenzen einer einzelnen Zelle fest:
+#### **Einzelne Zelle**
+Um die Rahmen einer einzelnen Zelle zu setzen:
 
-1. Fügen Sie einem Webformular das Aspose.Cells.GridWeb-Steuerelement hinzu.
+1. Fügen Sie der Webformularsteuerung Aspose.Cells.GridWeb hinzu.
 1. Greifen Sie auf ein Arbeitsblatt zu.
 1. Greifen Sie auf die Zelle zu, die Sie formatieren möchten.
 1. Greifen Sie auf das Style-Objekt der Zelle zu.
-1. Legen Sie den Rahmenstil fest.
-1. Stellen Sie die Rahmenbreite in Pixel ein.
-1. Legen Sie die Rahmenfarbe fest.
-1. Legen Sie den Stil für die Zelle fest.
+1. Setzen Sie den Rahmenstil.
+1. Setzen Sie die Rahmenbreite in Pixeln.
+1. Setzen Sie die Rahmenfarbe.
+1. Setzen Sie den Stil auf die Zelle.
 
-**Benutzerdefinierte Rahmeneinstellungen für eine einzelne Zelle** 
+**Angepasste Rahmeneinstellungen auf einer einzelnen Zelle** 
 
-![todo: Bild_alt_Text](format-cells_8.png)
+![todo:image_alt_text](format-cells_8.png)
 
 {{% alert color="primary" %}} 
 
-Mit den Eigenschaften Style.TopBorderStyle, Style.BottomBorderStyle, Style.LeftBorderStyle, Style.RightBorderStyle der Zelle können für jede Rahmenlinie unterschiedliche Stile festgelegt werden.
+Es ist möglich, für jede Rahmenlinie unterschiedliche Stile mit den Eigenschaften Style.TopBorderStyle, Style.BottomBorderStyle, Style.LeftBorderStyle, Style.RightBorderStyle der Zelle zu setzen.
 
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyBorderStyles.cs" >}}
-#### **Bereich von Cells**
-So legen Sie Rahmen für einen Zellbereich fest:
+#### **Zellbereich**
+Um Rahmen in einem Zellbereich zu setzen:
 
-1. Fügen Sie Ihrem Webformular das Aspose.Cells.GridWeb-Steuerelement hinzu
+1. Fügen Sie der Webformularsteuerung Aspose.Cells.GridWeb hinzu.
 1. Greifen Sie auf ein gewünschtes Arbeitsblatt zu
-1. Instanziieren Sie ein Objekt der WebBorderStyle-Klasse
-1. Stellen Sie den Stil des Rahmens auf Voll oder Gestrichelt usw. ein.
-1. Stellen Sie die Breite des Rahmens in Pixel ein
-1. Legen Sie die Farbe des Rahmens fest
-1. Wenden Sie die im WebBorderStyle-Objekt gespeicherten Rahmeneinstellungen auf einen angegebenen Zellbereich an
+1. Instanziieren Sie ein Objekt der Klasse WebBorderStyle
+1. Setze den Stil des Randes auf Voll oder Gepunktet usw.
+1. Setze die Breite des Randes in Pixel
+1. Setze die Farbe des Randes
+1. Wenden Sie die in WebBorderStyle-Objekt gespeicherten Randeinstellungen auf einen bestimmten Zellenbereich an
 
-**Eine Reihe von Zellen mit benutzerdefinierten Randeinstellungen** 
+**Ein Zellenbereich mit benutzerdefinierten Randeinstellungen** 
 
-![todo: Bild_alt_Text](format-cells_9.png)
+![todo:image_alt_text](format-cells_9.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyRangeBorderStyles.cs" >}}
-### **Zahlenformate einstellen**
- Aspose.Cells. GridWeb unterstützt die Einstellung von Zahlenformaten. Es gibt 59 integrierte Zahlenformate. Um sie zu sehen, beziehen Sie sich bitte auf diese[Liste der unterstützten Zahlenformate](/cells/de/net/list-of-supported-number-formats/).
+### **Einstellen von Zahlenformaten**
+Aspose.Cells.GridWeb unterstützt das Festlegen von Zahlenformaten. Es gibt 59 eingebaute Zahlenformate. Um sie zu sehen, verweisen Sie bitte auf diese [Liste der unterstützten Zahlenformate](/cells/de/net/aspose-cells-gridweb/list-of-supported-number-formats/).
 
-Alle integrierten Zahlenformate befinden sich in der NumberType-Enumeration. Um ein integriertes Zahlenformat zu verwenden, legen Sie den NumberType mithilfe der SetNumberType-Methode eines Zellenobjekts auf ein Zahlenformat aus der NumberType-Enumeration fest.
+Alle eingebauten Zahlenformate befinden sich in der NumberType-Enumeration. Um ein eingebautes Zahlenformat zu verwenden, setzen Sie den NumberType mit der SetNumberType-Methode des Zellenobjekts auf ein Zahlenformat aus der NumberType-Enumeration.
 
-Um ein benutzerdefiniertes Zahlenformat festzulegen, verwenden Sie die SetCustom-Methode der Zelle.
+Verwenden Sie zum Festlegen eines benutzerdefinierten Zahlenformats die SetCustom-Methode der Zelle.
 
-**Auf B1 und B2 angewendete Zahlenformateinstellungen** 
+**Zahlenformat-Einstellungen auf B1 und B2 angewendet** 
 
-![todo: Bild_alt_Text](format-cells_10.png)
+![todo:image_alt_text](format-cells_10.png)
 
 
 

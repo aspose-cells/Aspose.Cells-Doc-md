@@ -1,24 +1,25 @@
-﻿---
-title: Dış Veri Bağlantılarıyla İlgili Sorgu Tablolarını ve Liste Nesnelerini Bulun
+---
+title: Dış Veri Bağlantılarıyla İlgili Sorgu Tabloları ve List Obje Bulma
 type: docs
 weight: 20
 url: /tr/net/find-query-tables-and-list-objects-related-to-external-data-connections/
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen, bazı Dış Veri Bağlantılarıyla ilgili Sorgu Tablolarını ve Liste Nesnelerini bulmanız gerekir. Sorgu Tabloları, Bağlantı Kimliği olan Dış Veri Bağlantısı nesnesiyle, Liste Nesneleri ise Sorgu Tablosu ile ilişkilidir.
+Bazı durumlarda, belirli bir Dış Veri Bağlantısı ile ilişkili Sorgu Tabloları ve List Objelerini bulmanız gerekebilir. Sorgu Tabloları, Bağlantı Kimliği ile ilişkili Dış Veri Bağlantısı nesnesi ile ilişkilidir, List Objeleri ise bir Sorgu Tablosu ile ilişkilidir.
 
 {{% /alert %}} 
-## **Dış Veri Bağlantılarıyla İlgili Sorgu Tablolarını ve Liste Nesnelerini Bulun**
- Aşağıdaki örnek kodlar ile[örnek excel dosyası](5115493.xlsm) Dış Veri Bağlantısı ile ilgili Sorgu Tablolarının ve Liste Nesnelerinin nasıl bulunacağını açıklar.
+## **Dış Veri Bağlantılarıyla İlgili Sorgu Tablolarını ve List Obje Bulma**
+Aşağıdaki örnek kodlar, [örnek excel dosyası](5115493.xlsm)'da Dış Veri Bağlantısı ile ilişkili Sorgu Tabloları ve List Obje nasıl bulacağınızı açıklar.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-FindQueryTablesAndListObjectsOfExternalDataConnections.cs" >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-PrintTables.cs" >}}
 
- Aşağıdaki, yukarıdaki örnek kodları bununla çalıştırmanın konsol çıktısıdır.[örnek excel dosyası](5115493.xlsm).
+Yukarıdaki örnek kodları bu [örnek excel dosyası](5115493.xlsm) ile çalıştırdığınızda konsol çıktısı aşağıdaki gibidir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  connection: AAPL Connection
 

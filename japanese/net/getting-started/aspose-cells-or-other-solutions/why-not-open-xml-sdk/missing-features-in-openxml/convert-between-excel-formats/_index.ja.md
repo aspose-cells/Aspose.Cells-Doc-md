@@ -1,30 +1,31 @@
-﻿---
-title: Excel 形式間の変換
+---
+title: Excel形式間の変換
 type: docs
 weight: 20
 url: /ja/net/convert-between-excel-formats/
 ---
-## **Excel を PDF に変換する**
 
-**PDF**ファイルは、組織、政府部門、および個人の間でドキュメントを交換するために広く使用されています。これは標準的なドキュメント形式であり、ソフトウェア開発者は Microsoft Excel ファイルを**PDF**ドキュメント。
-**Aspose.Cells**は、Excel ファイルを PDF に変換することをサポートし、変換で高い視覚的忠実度を維持します。
+## **ExcelをPDFに変換する**
 
-Aspose.Cells for .NET は、他のソフトウェアとは独立してスプレッドシートから PDF への変換をサポートします。 Workbook クラスの Save メソッドを使用して、Excel ファイルを PDF に保存します。 Save メソッドは、ネイティブ Excel ファイルを PDF 形式に変換する SaveFormat.Pdf 列挙型メンバーを提供します。
+**PDF** ファイルは、組織、政府セクター、個人間で文書を交換するために広く使用されています。これは標準的なドキュメント形式であり、ソフトウェア開発者は Microsoft Excel ファイルを **PDF** ドキュメントに変換する方法を求められることがあります。
+**Aspose.Cells** は、ExcelファイルをPDFに変換し、変換時の視覚的な忠実度を高く維持します。
 
-**変換中**サードパーティのツールや外部の API を使用する代わりに、スプレッドシートから直接 PDF に**利点**:
+Aspose.Cells for .NETは他のソフトウェアに依存せずに、表計算からPDFへの変換をサポートします。WorkbookクラスのSaveメソッドを使用して、ExcelファイルをPDF形式に変換します。Saveメソッドは、ネイティブのExcelファイルをPDF形式に変換するSaveFormat.Pdf列挙型メンバを提供します。
 
-1. 直接変換では、プロセス全体をメモリ内で実行できるため、一時ファイルは必要ありません。
-1. XML ファイルが不要なため、大きなファイルを簡単に変換できます。
-1. 変換速度ははるかに高速です。
+スプレッドシートから直接PDFに変換することは、サードパーティのツールや外部APIを使用しないで行うため、いくつかの**利点**があります。
 
-**ファイルを PDF に変換するには:**
+1. 直接変換は一時ファイルを必要としないため、全プロセスをメモリで完了できます。
+1. XMLファイルは不要なため、大きなファイルも簡単に変換できます。
+1. 変換速度ははるかに速くなります。
 
-1. のオブジェクトをインスタンス化する**ワークブック**空のコンストラクターを呼び出してクラスを作成します。
-1. してもいいです**開く/ロードする**既存のテンプレート ファイルを使用するか、ワークブックを最初から作成する場合はこの手順をスキップします。
-1. Aspose.Cells' API を使用して、スプレッドシートで目的の作業 (データの入力、書式の適用、数式の設定、画像やその他の描画オブジェクトの挿入など) を実行します。
-1. スプレッドシート コードが完成したら、**Workbook クラスの Save メソッド**スプレッドシートを保存します。ファイル形式は PDF である必要があるため、SaveFormat 列挙から Pdf (定義済みの値) を選択して、最終的な PDF ドキュメントを生成します。
+**ファイルをPDFに変換するには:**
 
-{{< highlight "csharp" >}}
+1. 空のコンストラクタを呼び出してWorkbookクラスのオブジェクトをインスタンス化します。
+1. 既存のテンプレートファイルを開いたりロードしたりするか、ワークブックをゼロから作成する場合は、この手順をスキップします。
+1. Aspose.CellsのAPIを使用して、スプレッドシートで必要な作業（データの入力、書式の適用、数式の設定、画像の挿入など）を行います。
+1. スプレッドシートコードが完成したら、WorkbookクラスのSaveメソッドを呼び出して、スプレッドシートを保存します。ファイル形式はPDFであるため、SaveFormat列挙型からPdf（事前定義された値）を選択して最終的なPDFドキュメントを生成します。
+
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 
@@ -32,12 +33,12 @@ Aspose.Cells for .NET は、他のソフトウェアとは独立してスプレ�
 
 {{< /highlight >}}
 
-## **Excel を MHTML に変換する**
+## **ExcelをMHTMLに変換**
 
-**MHTML**通常の HTML を外部リソース (つまり、画像、アニメーション、オーディオなど、通常はリンクされるコンテンツ) と組み合わせて 1 つのファイルにします。これらは、ファイル拡張子が .mht の電子メールに使用されます。
-Aspose.Cells は、MHTML ファイルの読み取りと書き込みをサポートします。
+**MHTML** は通常のHTMLと外部リソース（通常はリンクされた画像、アニメーション、音声などのコンテンツ）を1つのファイルに組み合わせたものです。.mhtのファイル拡張子を持つ電子メールで使用されます。
+Aspose.CellsはMHTMLファイルの読み書きをサポートしています。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 
@@ -49,11 +50,11 @@ Aspose.Cells は、MHTML ファイルの読み取りと書き込みをサポー�
 
 {{< /highlight >}}
 
-## **Excel を XPS に変換する**
+## **ExcelをXPSに変換**
 
-場合によっては、複数のワークシートを含むワークブックをテキスト形式に変換または保存する必要があります。テキスト形式 (例: TXT、TabDelim、CSV など) の場合、既定では、Microsoft Excel と Aspose.Cells の両方で、アクティブなワークシートの内容のみが保存されます。
+時々、複数のワークシートを持つワークブックをテキスト形式に変換または保存したいことがあります。テキスト形式（たとえばTXT、TabDelim、CSVなど）の場合、デフォルトでMicrosoft ExcelとAspose.Cellsの両方がアクティブなワークシートの内容のみを保存します。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook workbook = new Workbook(openFileDialog1.FileName);
 
@@ -63,5 +64,5 @@ Aspose.Cells は、MHTML ファイルの読み取りと書き込みをサポー�
 
 ## **サンプルコードをダウンロード**
 
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Convert%20between%20Excel%20formats%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Convert%20between%20Excel%20formats%20%28Aspose.Cells%29.zip)

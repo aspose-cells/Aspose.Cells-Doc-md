@@ -1,18 +1,19 @@
-﻿---
-title: Aspose.Cells for Android via Java Kurulum
+---
+title: Android via Java için Aspose.Cells Kurulumu
 type: docs
 weight: 30
 url: /tr/java/aspose-cells-for-android-via-java-installation/
 ---
-## **sistem gereksinimleri**
-Aspose.Cells for Android via Java, platformdan bağımsızdır ve Android Runtime ortamının kurulu olduğu herhangi bir platformda kullanılabilir ve Android OS 2.0 veya üstünü çalıştıran Android sistemlerinde çalışır. Şu anda, bileşen aşağıdakilerle test edilmiştir:
+
+## **Sistem Gereksinimleri**
+Android via Java için Aspose.Cells platformdan bağımsızdır ve Android Çalışma Zamanı ortamının kurulu olduğu herhangi bir platformda kullanılabilir ve Android OS 2.0 veya daha yüksek sürümünde çalışır. Şu anda, bileşen şunlarla test edilmiştir:
 
 - Android 5.1 v 22
-## **Aspose.Cells for Android via Java'i Maven Deposundan yükleyin**
-1. Derlemenize maven deposunu ekleyin.gradle
-1. Bağımlılık olarak 'Aspose.Cells for Android via Java' JAR'ı ekleyin
+## **Aspose.Cells for Android via Java'ü Maven Deposundan Yükle**
+1. maven deposunu **build.gradle** dosyanıza ekleyin. 
+1. 'Aspose.Cells for Android via Java' JAR'ı bağımlılık olarak ekleyin.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // 1. Add maven repository into your build.gradle 
 
@@ -37,57 +38,57 @@ dependencies {
 }
 
 {{< /highlight >}}
-## **Nasıl kullanılır Aspose.Cells for Android via Java**
-Bu konu, Android Studio IDE'de Aspose.Cells for Android via Java'i kurmak için gerekli adımlar konusunda size yol gösterecektir, makinenizde zaten Android Studio'nun en son sürümünün yüklü olduğunu ve ayrıca Aspose.Cells for Android via Java paketinin en son sürümünü edindiğinizi varsayarsak.
+## **Android via Java için Aspose.Cells'ı Nasıl Kullanılır**
+Bu konu, Aspose.Cells for Android via Java'ün Android Studio IDE'de kurulmasını ayarlamak için gerekli adımları rehberlik edecektir, varsayıyoruz ki makinenizde zaten Android Studio'nun en son sürümünü yüklediniz ve ayrıca en son sürüm Aspose.Cells for Android via Java'ü edindiniz.
 
 {{% alert color="primary" %}} 
 
-Android Studio'yu henüz yüklemediyseniz, önce Android Studio'nun kurulumunu edinmeniz ve makinenize yüklemeniz gerekir. Android Studio'nun en son sürümünü adresinden indirebilirsiniz.[Burada](https://developer.android.com/studio/index.html#win-bundle) oysa IDE'nin nasıl kurulacağına ilişkin ayrıntılar mevcuttur[Burada](https://developer.android.com/studio/install.html).
+Eğer henüz Android Studio'yu yüklemediyseniz, öncelikle Android Studio'nun kurulumunu edinip makinenize yüklemeniz gerekmektedir. Android Studio'nun en son sürümünü [buradan](https://developer.android.com/studio/index.html#win-bundle) indirebilirken, IDE'nin nasıl kurulacağına ilişkin detaylar [burada](https://developer.android.com/studio/install.html) bulunmaktadır.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Aspose.Cells for Android via Java paket adresinden indirilebilir.[Burada](https://downloads.aspose.com/cells/androidjava). Lütfen unutmayın, Aspose.Cells for Android via Java'in her bir sürüm paketi, aşağıda ayrıntıları verildiği gibi temel olarak 2 dosyadan oluşur.
+Aspose.Cells for Android via Java paketi [buradan](https://downloads.aspose.com/cells/androidjava) indirilebilir. Lütfen dikkat edin, Aspose.Cells for Android via Java'ün her yayın paketi genellikle aşağıda detaylandırıldığı gibi 2 dosyadan oluşmaktadır.
 
-- **aspose-hücreleri-xxxjar** Aspose.Cells for Android via Java API'den tüm ad alanlarını içeren ana kitaplık dosyasıdır.
-- **aspose-cells-xxx-libs.apk** Aspose.Cells for Android via Java API tarafından sunulan şifreleme ve şifre çözme olanakları için kullanılan 3. taraf bcprov-jdk15-146.jar'ı içeren APK'dır.
+- **aspose-cells-x.x.x.jar** Aspose.Cells for Android via Java API'den tüm namespace'leri içeren ana kütüphane dosyasıdır.
+- **aspose-cells-x.x.x-libs.apk** Aspose.Cells for Android via Java API tarafından sunulan şifreleme ve şifre çözme imkanlarını kullanmak üzere kullanılan 3. taraf bcprov-jdk15-146.jar'ı içeren APK'dir.
 
 {{% /alert %}} 
 ### **Android Studio'da Aspose.Cells for Android via Java ile Başlarken**
-Android Studio IDE yüklendikten sonra, aşağıda gösterildiği gibi Dosya > Yeni > Yeni Proje'ye tıklayın.
+Android Studio IDE yüklendiğinde, aşağıda gösterildiği gibi Dosya > Yeni > Yeni Proje'ye tıklayın.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_1.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_1.png)
 
-Aşağıda gösterildiği gibi Android Studio'nun Karşılama Ekranından da yeni bir proje oluşturabilirsiniz.
+Ayrıca, Android Studio'nun Hoşgeldiniz Ekranından yeni bir proje oluşturabilirsiniz, aşağıda gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_2.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_2.png)
 
-Ardından, proje dosyalarını depolamak için uygulama adını, etki alanını ve konumu belirtmeniz istenecektir. Varsayılan değerleri seçiminize göre değiştirmeyi veya olduğu gibi bırakmayı seçebilir ve İleri'ye tıklayabilirsiniz.
+Daha sonra, uygulama adı, alan ve projeyi depolayacağınız konumu belirtmek üzere isteneceksiniz. Varsayılan değerleri değiştirmeyi veya olduğu gibi bırakmayı seçebilir ve Sonraki'ye tıklayabilirsiniz.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_3.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_3.png)
 
-Bir sonraki adımda, uygulamanızı barındırmak/çalıştırmak istediğiniz Android Cihazı belirtmeniz gerekir. Seçildikten sonra İleri düğmesine tıklayın.
+Bir sonraki adımda, uygulamanızı barındırmak/çalıştırmak istediğiniz Android Cihazını belirtmelisiniz. Seçildikten sonra, İleri düğmesine tıklayın.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_4.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_4.png)
 
-Şimdi önceden tanımlanmış bir şablon listesinden Aktiviteyi seçmeniz gerekiyor. Gösterimi basit tutmak için aşağıda gösterildiği gibi Boş Etkinlik şablonunu seçtik.
+Şimdi önceden tanımlanmış şablonlar listesinden Etkinliği seçmeniz gerekmektedir. Gösterimi basit tutmak için, aşağıda boş Etkinlik şablonunu seçtik.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_5.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_5.png)
 
-Tüm varsayılan ayarları olduğu gibi koruyacağımız için Etkinliği Özelleştir iletişim kutusunda Bitir düğmesine tıklayın.
+Tüm varsayılan ayarları olduğu gibi bıraktığımızdan, Etkinlik özelleştirme ile İleri düğmesine tıklayın.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_6.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_6.png)
 
-Önceki adımda Bitir düğmesine tıkladığınız anda, IDE aşağıda gösterildiği gibi projeyi oluşturmaya başlayacaktır. Bitmesine izin verin veya İptal düğmesine tıklayın.
+Önceki adımdaki Bitir düğmesine tıklar tıklamaz IDE projeyi oluşturmaya başlayacaktır, izin verin ya da İptal düğmesine tıklayın.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_7.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_7.png)
 
-Artık proje IDE'ye yüklenmiştir, ancak, proje dosyalarının tüm hiyerarşisini görüntüleyebilmek için görünümü Proje olarak değiştirmek isteyebilirsiniz. Görünümü değiştirmek için lütfen aşağıdaki anlık görüntüyü kontrol edin.
+Artık proje IDE'de yüklendi, ancak proje dosyalarının tam hiyerarşisini görebilmek için Görünümü Projeye değiştirmek isteyebilirsiniz. Görünümü değiştirmek için lütfen aşağıdaki görüntüyü kontrol edin.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_8.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_8.png)
 
- Görünümü Proje olarak değiştirdikten sonra,**yapı.gradle** düzenleyicide dosya ve aşağıdaki parçacığı aşağıda gösterildiği gibi yapıştırın.
+Görünümü Projeye değiştirdikten sonra, editörde **build.gradle** dosyasını bulup yükle ve aşağıdaki parçacığı yapıştırın.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  dexOptions{
 
@@ -97,44 +98,44 @@ Artık proje IDE'ye yüklenmiştir, ancak, proje dosyalarının tüm hiyerarşis
 
 {{< /highlight >}}
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_9.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_9.png)
 
-Ardından Aspose.Cells for Android via Java Jar'ı projeye ekleyeceğiz. Aşağıda ayrıntıları verilen 2 önemli adım vardır.
+Sonraki olarak, Aspose.Cells for Android via Java Jar'ı projeye ekleyeceğiz. Aşağıda detaylandırıldığı gibi 2 önemli adım bulunmaktadır.
 
--  Aspose.Cells for Android via Java Jar'ı manuel olarak şuraya kopyalayın:**\app\libs** Klasör.
-- Aspose.Cells for Android via Java Jar as Library'yi aşağıda gösterildiği gibi modüle ekleyin.
+- Aspose.Cells for Android via Java Jar'ı manuel olarak **\app\libs** klasörüne kopyalayın.
+- Aspose.Cells for Android via Java Jar'ı modüle kütüphane olarak ekleyin, aşağıda gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_10.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_10.png)
 
-Aspose.Cells for Java.Android Jar'ı kütüphane olarak eklemek istediğiniz modülü seçmeniz istenecektir. Lütfen uygun olanı seçin ve Tamam'ı tıklayın.
+Aspose.Cells for Java.Android Jar'ı bir kitaplığa eklemek istediğiniz modülü seçmek için uygun şekilde seçileceğiniz ve Tamam'ı tıklamanız istenecektir.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_11.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_11.png)
 
- APK dosyasını da projeye eklemeniz gerekiyor. APK'yı şuraya kopyalamanız gerekir:**\app\src\main\varlıklar**Klasör. Ana klasörün altında varlıklar klasörünüz yoksa, Proje görünümünde ana düğüme sağ tıklayarak bir tane oluşturabilirsiniz. Yeni > Klasör > Varlık Klasörü'nü seçin.
+Ayrıca, APK dosyasını projeye eklemeniz de gerekiyor. APK'yi **\app\src\main\assets** klasörüne kopyalamalısınız. Main klasörünün altında assets klasörünüz yoksa, Project görünümünde main düğmesine sağ tıklayarak bir tane oluşturabilirsiniz. Yeni > Klasör > Asset Klasörü seçeneğini belirleyin.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_12.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_12.png)
 
-APK projeye eklendikten sonra proje tarafından yüklenmesi gerekir. APK'yı aşağıdaki gibi yüklemenin 2 yolu vardır.
+APK projeye eklenince, projede yüklenmesi gerekiyor. APK'yı yüklemenin 2 yolu bulunmaktadır.
 
-- Aşağıda sağlanan parçacığı kullanarak APK'yı özel bir uygulama sınıfına yükleyin ve özel uygulama sınıfını AndroidManifest.xml dosyasına kaydedin.
+- Özel bir uygulama sınıfında aşağıdaki kod parçasını kullanarak APK'yı yükleyin ve özel uygulama sınıfını AndroidManifest.xml'e kaydedin.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  LibsLoadHelper.loadLibs(this);
 
 {{< /highlight >}}
 
-- APK'yı MainActivity'nin OnCreate yöntemine yükleyin.
+- APK'yı MainActivity'in OnCreate yönteminde yükleyin.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  LibsLoadHelper.loadLibs(getApplicationContext());
 
 {{< /highlight >}}
 
-Artık kodu yazmaya hazırız. Gösterimi kolay anlaşılır kılmak için mizanpaja bir Button parçacığı ekledik ve tıklama olayını aşağıdaki gibi işleyeceğiz.
+Şimdi kod yazmaya hazırız. Gösterimi anlaşılır tutmak için bir Button bileşenini düzene ekledik ve tıklama etkinliğini aşağıdaki gibi ele alacağız.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  private class TestTask extends AsyncTask<Void, String, Boolean> {
 
@@ -172,14 +173,14 @@ Artık kodu yazmaya hazırız. Gösterimi kolay anlaşılır kılmak için mizan
 
 {{< /highlight >}}
 
-Uygulamayı IDE arayüzündeki oynat düğmesini kullanarak (veya SHIFT + F10 kullanarak) çalıştırdığınızda, öykünücü uygulamayı aşağıda gösterildiği gibi yükleyecektir.
+IDE arabirimindeki oynatma düğmesiyle (veya SHIFT + F10 kullanarak) uygulamayı çalıştırdığınızda, simulatör aşağıda gösterildiği gibi uygulamayı yükleyecektir.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_13.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_13.png)
 
-Öykünücü üzerindeki düğmeyi tıklatmak, öykünücünün harici depolama klasöründe yeni bir elektronik tablo oluşturmak için kodu yürütür. Dosyaya aşağıda gösterildiği gibi Android Cihaz Monitöründen erişebilirsiniz.
+Simülatördeki düğmeye tıklamak, simulatörün dış depolama klasörüne yeni bir elektronik tablo oluşturmak için kodu yürütecektir. Dosyaya aşağıda gösterildiği gibi Android Cihazı İzleyicisi'nden erişebilirsiniz.
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_14.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_14.png)
 
-![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_15.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_15.png)
 
 

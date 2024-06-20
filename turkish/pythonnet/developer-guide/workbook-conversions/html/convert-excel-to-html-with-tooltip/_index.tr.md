@@ -1,21 +1,22 @@
 ---
-title: Araç ipucuyla Excel'i HTML'e dönüştürün
+title: Excel i HTML e dönüştür ve açıklama metni ekleyin
 type: docs
 weight: 200
 url: /tr/python-net/convert-excel-to-html-with-tooltip/
-description: Bu konu, Aspose.Cells for Python aracılığıyla NET'i kullanarak araç ipucuyla Excel'i HTML'e nasıl dönüştüreceğinizi gösterir.
-keywords: Python Convert Excel to HTML with tooltip, Convert Excel to HTML with tooltip Python via NET, Python via NET Excel to HTML with tooltip, Python Workbook to HTML with tooltip.
+description: Bu konu, Aspose.Cells Python via NET kullanarak Excel i İpucuyla HTML ye Dönüştürmeyi nasıl yapacağınızı göstermektedir.
+keywords: Python Excel i İpucuyla HTML ye Dönüştür, Excel i İpucuyla HTML Dönüştürme Python via NET, Python via NET Excel den HTML ye İpucu ile, Python Çalışma Kitabı HTML ye İpucuyla.
 ---
-##  **Araç ipucuyla Excel'i HTML'e dönüştürün**
 
-Oluşturulan HTML'de metnin kesildiği durumlar olabilir ve metnin tamamını fareyle üzerine gelme olayında bir araç ipucu olarak görüntülemek isteyebilirsiniz. Aspose.Cells bunu sağlayarak destekliyor**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** mülk. ayarlamak**[HtmlSaveOptions.add_tooltip_text](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/)** mülkiyet**doğru** metnin tamamını oluşturulan HTML'e bir araç ipucu olarak ekleyecektir.
+## **Excel'i HTML'e dönüştür ve açıklama metni ekleyin**
 
-Aşağıdaki resimde oluşturulan HTML dosyasındaki araç ipucu gösterilmektedir.
+Oluşturulan HTML'de metnin kesilebileceği durumlar olabilir ve tam metni bir açıklama metni olarak görüntülemek isteyebilirsiniz. Aspose.Cells, bu işlemi sağlayarak [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/) özelliğini sağlar. [**HtmlSaveOptions.add_tooltip_text**](https://reference.aspose.com/cells/python-net/aspose.cells/htmlsaveoptions/add_tooltip_text/) özelliğini **true** olarak ayarlama, oluşturulan HTML'de tam metni açıklama olarak ekler.
 
-![yapılacak şey:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
+Aşağıdaki resim, oluşturulan HTML dosyasındaki açıklama metnini göstermektedir.
 
- Aşağıdaki kod örneği şunu yükler:[kaynak excel dosyası](98107416.xlsx) ve üretir[çıktı HTML dosyası](98107417.zip) araç ipucuyla.
+![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
-Basit kod
+Aşağıdaki kod örneği, [kaynak excel dosyasını](98107416.xlsx) yükler ve açıklama metinli [çıktı HTML dosyasını](98107417.zip) oluşturur.
+
+Örnek Kod
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "HTML-ConvertExcelFileToHtmlWithTooltip-1.py" >}}

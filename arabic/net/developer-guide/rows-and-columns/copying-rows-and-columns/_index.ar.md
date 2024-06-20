@@ -3,97 +3,98 @@ title: نسخ الصفوف والأعمدة
 type: docs
 weight: 40
 url: /ar/net/copying-rows-and-columns/
-description: يوضح هذا المقال كيفية نسخ الصفوف والأعمدة من خلال Aspose.Cells for .NET API.
-keywords: C# How to Copy Rows and Columns, Copy Rows in C#, Copy Columns using C#, How to Paste Rows and Columns using Aspose.Cells for .NET, Paste multiple rows and columns, How to Copy and paste Single Row or Column.
+description: يوضح هذا المقال كيفية نسخ الصفوف والأعمدة من خلال واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: C# كيفية نسخ الصفوف والأعمدة, نسخ الصفوف في C#, نسخ الأعمدة باستخدام C#, كيفية لصق الصفوف والأعمدة باستخدام Aspose.Cells for .NET, لصق صفوف وأعمدة متعددة, كيفية نسخ ولصق صف أو عمود فردى.
 ---
-##  **مقدمة**
 
-في بعض الأحيان، تحتاج إلى نسخ الصفوف والأعمدة في ورقة العمل دون نسخ ورقة العمل بأكملها. مع Aspose.Cells، من الممكن نسخ الصفوف والأعمدة داخل أو بين المصنفات.
-عند نسخ صف (أو عمود)، يتم أيضًا نسخ البيانات الموجودة فيه، بما في ذلك الصيغ - مع المراجع المحدثة - والقيم والتعليقات والتنسيقات والخلايا المخفية والصور والكائنات الرسومية الأخرى.
+## **مقدمة**
 
-##  **كيفية نسخ الصفوف والأعمدة باستخدام Microsoft إكسل**
+في بعض الأحيان, قد تحتاج إلى نسخ الصفوف والأعمدة في ورقة العمل دون نسخ الورقة بأكملها. مع Aspose.Cells, من الممكن نسخ الصفوف والأعمدة داخل المصنف أو بين المصنفات.
+عند نسخ صف (أو عمود), يتم نسخ البيانات الموجودة فيه, بما في ذلك الصيغ - بالمراجع المحدثة - والقيم, التعليقات, التنسيق, الخلايا المخفية, الصور, وغيرها من الكائنات التوضيحية.
 
-1. حدد الصف أو العمود الذي تريد نسخه.
-1.  لنسخ الصفوف أو الأعمدة، انقر فوق**ينسخ** على ال**معيار** شريط الأدوات، أو اضغط**CTRL**+*ج**.
-1. حدد صفًا أو عمودًا أسفل أو على يسار المكان الذي تريد نسخ تحديدك فيه.
-1.  عندما تقوم بنسخ الصفوف أو الأعمدة، انقر فوق**منقول Cells** على ال**إدراج** قائمة طعام.
+## **كيفية نسخ الصفوف والأعمدة باستخدام Microsoft Excel**
+
+1. حدد الصف أو العمود الذي ترغب في نسخه.
+1. لنسخ الصفوف أو الأعمدة, انقر **نسخ** على شريط الأدوات **قياسي**, أو اضغط **CTRL**+**C**.
+1. حدد صفًا أو عمودًا أسفل أو إلى اليمين من المكان الذي تريد نسخ تحديدك.
+1. عند نسخ الصفوف أو الأعمدة, انقر **الخلايا المنسوخة** على قائمة **إدراج**.
 
 {{% alert color="primary" %}}
 
- إذا قمت بالنقر فوق**معجون** على ال**معيار** شريط الأدوات أو اضغط**CTRL**+**V** بدلاً من النقر فوق أمر في **Insert**القائمة، يتم استبدال أي محتويات للخلايا الوجهة.
+إذا قمت بالنقر على **لصق** على شريط الأدوات **قياسي** أو ضغط **CTRL**+**V** بدلاً من النقر على أمر في قائمة **إدراج**, فإن أي محتويات خلايا الوجهة يتم استبدالها.
 
 {{% /alert %}}
 
-##  **كيفية لصق الصفوف والأعمدة باستخدام خيارات اللصق مع Microsoft إكسل**
+## **كيفية لصق الصفوف والأعمدة باستخدام خيارات اللصق مع Microsoft Excel**
 
 1. حدد الخلايا التي تحتوي على البيانات أو السمات الأخرى التي تريد نسخها.
-1. في علامة التبويب الصفحة الرئيسية، انقر فوق *نسخ**.
-1.  انقر فوق الخلية الأولى في المنطقة التي تريدها**معجون** ما نسخته.
-1.  في علامة التبويب الصفحة الرئيسية، انقر فوق السهم الموجود بجانب**لصق**، ثم حدد **لصق** خاص.
-1.  حدد**خيارات** انت تريد.
+1. في علامة التبويب الرئيسية, انقر **نسخ**.
+1. انقر على الخلية الأولى في المنطقة التي ترغب في **لصق** ما نسخته.
+1. على علامة التبويب الرئيسية، انقر فوق السهم المجاور لـ **لصق**, ثم حدد **لصق** خاص.
+1. حدد **الخيارات** التي تريدها.
 
-##  **كيفية نسخ الصفوف والأعمدة باستخدام Aspose.Cells for .NET**
+## **كيفية نسخ الصفوف والأعمدة باستخدام Aspose.Cells for .NET**
 
-##  **كيفية نسخ صفوف مفردة**
+## **كيفية نسخ صفوف فردية**
 
- Aspose.Cells يوفر[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) طريقة[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)فصل. تقوم هذه الطريقة بنسخ جميع أنواع البيانات بما في ذلك الصيغ والقيم والتعليقات وتنسيقات الخلايا والخلايا المخفية والصور والكائنات الرسومية الأخرى من الصف المصدر إلى الصف الوجهة.
+توفر Aspose.Cells الطريقة [**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) في الفئة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). تقوم هذه الطريقة بنسخ جميع أنواع البيانات بما في ذلك الصيغ والقيم والتعليقات وتنسيقات الخلايا والخلايا المخفية والصور وغيرها من العناصر الرسومية من الصف المصدر إلى الصف الوجهة.
 
- ال[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)تأخذ الطريقة المعلمات التالية:
+تأخذ الطريقة [**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) المعلمات التالية:
 
--  المصدر[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)هدف،
+-كائن المصدر [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells).
 - فهرس الصف المصدر، و
-- فهرس صف الوجهة.
+- فهرس الصف الوجهة.
 
- استخدم هذه الطريقة لنسخ صف داخل ورقة، أو إلى ورقة أخرى. ال[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)تعمل الطريقة بطريقة مشابهة لـ Microsoft Excel. لذلك، على سبيل المثال، لا تحتاج إلى تعيين ارتفاع الصف الوجهة بشكل صريح، حيث يتم نسخ هذه القيمة أيضًا.
+استخدم هذه الطريقة لنسخ صف داخل ورقة العمل، أو إلى ورقة عمل أخرى. تعمل الطريقة [**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) بنفس الطريقة كبرنامج Microsoft Excel. لذا، على سبيل المثال، لا تحتاج إلى ضبط ارتفاع الصف الوجهة بشكل صريح، تم نسخ تلك القيمة أيضًا.
 
-يوضح المثال التالي كيفية نسخ صف في ورقة العمل. يستخدم ملف Excel Microsoft قالبًا وينسخ الصف الثاني (مكتملًا بالبيانات والتنسيق والتعليقات والصور وما إلى ذلك) ويلصقه في الصف الثاني عشر في نفس ورقة العمل.
+المثال التالي يوضح كيفية نسخ صف في ورقة العمل. يستخدم قالب ملف Microsoft Excel وينسخ الصف الثاني (مع البيانات والتنسيق والتعليقات والصور وما إلى ذلك) وينسخه إلى الصف الثاني عشر في نفس ورقة العمل.
 
- يمكنك تخطي الخطوة التي تحصل على ارتفاع الصف المصدر باستخدام[**Cells.GetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getrowheight) الطريقة ثم قم بتعيين ارتفاع صف الوجهة باستخدام[**Cells.SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) الطريقة كما[**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)تهتم الطريقة تلقائيًا بارتفاع الصف.
+يمكنك تخطي الخطوة التي تحصل من خلالها على ارتفاع الصف المصدر باستخدام الطريقة [**Cells.GetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getrowheight) ومن ثم تحديد ارتفاع الصف الوجهة باستخدام الطريقة [**Cells.SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) حيث تعتني الطريقة [**CopyRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) تلقائيًا بارتفاع الصف.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-CopyingRows-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-عند نسخ الصفوف، من المهم ملاحظة الصور أو المخططات أو الكائنات الرسومية الأخرى ذات الصلة لأن هذا هو نفسه مع Microsoft Excel:
+عند نسخ الصفوف، من المهم ملاحظة الصور المتصلة، الرسوم البيانية أو العناصر الرسومية الأخرى لأن هذا هو نفس الأمر مع برنامج Microsoft Excel:
 
-1. إذا كان فهرس الصف المصدر هو 5، فسيتم نسخ الصورة والمخطط وما إلى ذلك إذا كان موجودًا في الصفوف الثلاثة (فهرس صف البداية هو 4 وفهرس صف النهاية هو 6).
-1. لن تتم إزالة الصور والمخططات وما إلى ذلك الموجودة في صف الوجهة.
+1. إذا كان مؤشر الصف الأصلي هو 5، فإن الصورة، الرسم البياني، إلخ، تُنسخ إذا كانت موجودة في الثلاثة صفوف (مؤشر الصف البداية هو 4 ومؤشر الصف النهاية هو 6).
+1. لن يتم إزالة الصور الموجودة، الرسوم البيانية، إلخ في الصف الوجهة.
 
 {{% /alert %}}
 
-##  **كيفية نسخ صفوف متعددة**
+## **كيفية نسخ عدة صفوف**
 
-يمكنك أيضًا نسخ صفوف متعددة إلى وجهة جديدة أثناء استخدام[**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)الطريقة التي تأخذ معلمة إضافية من النوع عدد صحيح لتحديد عدد صفوف المصدر المراد نسخها.
+يمكنك أيضًا نسخ صفوف متعددة على وجهة وجديدة أثناء استخدام طريقة [**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index) التي تأخذ معلمة إضافية من النوع صحيح لتحديد عدد الصفوف المصدر التي سيتم نسخها.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRowsColumns-CopyingMultipleRows-1.cs" >}}
 
 
-##  **كيفية نسخ الأعمدة**
+## **كيفية نسخ الأعمدة**
 
- Aspose.Cells يوفر[**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) طريقة[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)فئة، تقوم هذه الطريقة بنسخ جميع أنواع البيانات، بما في ذلك الصيغ - مع المراجع المحدثة - والقيم والتعليقات وتنسيقات الخلايا والخلايا المخفية والصور والكائنات الرسومية الأخرى من العمود المصدر إلى العمود الوجهة.
+توفر Aspose.Cells الطريقة [**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) في الفئة [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)، تقوم هذه الطريقة بنسخ جميع أنواع البيانات بما في ذلك الصيغ - مع الإشارات المحدثة - والقيم والتعليقات وتنسيقات الخلايا والخلايا المخفية والصور وغيرها من العناصر الرسومية من العمود المصدر إلى العمود الوجهة.
 
- ال[**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)تأخذ الطريقة المعلمات التالية:
+تأخذ الطريقة [**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) المعلمات التالية:
 
--  المصدر[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)هدف،
+-كائن المصدر [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells).
 - فهرس العمود المصدر، و
-- فهرس عمود الوجهة.
+- فهرس العمود الوجهة.
 
- استخدم ال[**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)طريقة لنسخ عمود داخل ورقة أو إلى ورقة أخرى.
+استخدم [**CopyColumn**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) لنسخ عمود داخل صفحة أو إلى صفحة أخرى.
 
-يقوم هذا المثال بنسخ عمود من ورقة عمل ولصقه في ورقة عمل في مصنف آخر.
+هذا المثال ينسخ عمودًا من ورقة العمل ويلصقه في ورقة عمل في دفتر عمل آخر.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-CopyingColumns-1.cs" >}}
 
-##  **كيفية نسخ أعمدة متعددة**
+## **كيفية نسخ عمود متعدد**
 
- مشابه ل[**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index) الطريقة، توفر واجهات برمجة التطبيقات Aspose.Cells أيضًا[**Cells.CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumns/index)طريقة لنسخ أعمدة مصدر متعددة إلى موقع جديد.
+على غرار الطريقة [**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)، توفر واجهات برمجة التطبيقات لـ Aspose.Cells أيضًا الطريقة [**Cells.CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumns/index) لنسخ عدة أعمدة مصدر إلى موقع جديد.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRowsColumns-CopyingMultipleColumns-1.cs" >}}
 
 
-##  **كيفية لصق الصفوف والأعمدة مع خيارات اللصق**
+## **كيفية لصق الصفوف والأعمدة مع خيارات اللصق**
 
- Aspose.Cells يوفر الآن[**خيارات اللصق**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions) أثناء استخدام الوظائف[**صفوف النسخ**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2) و[**نسخ الأعمدة**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1). يسمح بتعيين خيار اللصق المناسب المشابه لبرنامج Excel.
+توفر Aspose.Cells الآن [**PasteOptions**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions) أثناء استخدام الوظائف [**CopyRows**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2) و [**CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1). يسمح بضبط خيار اللصق المناسب بشكل مماثل لبرنامج Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.cs" >}}
 

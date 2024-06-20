@@ -1,16 +1,17 @@
-﻿---
-title: Ställ in externa länkar i formler
+---
+title: Ange externa länkar i formler
 type: docs
 weight: 20
 url: /sv/net/set-external-links-in-formulas/
 ---
+
 {{% alert color="primary" %}} 
 
-Ibland är det nödvändigt att inkludera länkar till externa filer i formler, till exempel för att utvärdera ett cell- eller områdesvärde mot dem. Aspose.Cells tillhandahåller den här funktionen och det här dokumentet förklarar hur du använder den.
+Ibland är det nödvändigt att inkludera länkar till externa filer i formler, till exempel för att utvärdera en cell- eller områdesvärde mot dem. Aspose.Cells tillhandahåller denna funktion och detta dokument förklarar hur man använder den.
 
 {{% /alert %}} 
 
-Exempelkoden nedan visar hur man inkluderar externa filer i formler.
+Det exempelkod nedan visar hur du inkluderar externa filer i formler.
 
 
 

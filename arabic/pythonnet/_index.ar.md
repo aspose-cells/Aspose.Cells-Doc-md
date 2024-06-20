@@ -1,29 +1,31 @@
-﻿---
+---
 title: Aspose.Cells for Python via .NET
 type: docs
 weight: 110
 url: /ar/python-net/
 is_root: true
-description: Aspose.Cells for Python يدعم تنسيقات ملفات جداول البيانات الشائعة (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) التي يستخدمها عملك كل يوم. كما يسمح بتصدير ملفات Excel® إلى PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML ، والنص العادي وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
+description: تدعم Aspose.Cells لـ Python الجدول النقدي الشائع (XLS، XLSX، XLSM، XLSB، XLTX، XLTM، CSV، SpreadsheetML، ODS) التي تستخدمها شركتك يوميًا. كما يسمح أيضًا بتصدير ملفات Excel® إلى PDF و DOCX و PPTX و JSON و XPS و HTML و MHTML ونص عادي وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
+keywords: Aspose.Cells لـ Python via .NET إنشاء وإصلاح وتعديل وتحليل ودمج وتحويل JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG ومزيد من التنسيقات.
 ---
+
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for Python via .NET Product Logo](home_1.png)**
+**![شعار المنتج via .NET Aspose.Cells for Python](home_1.png)**
 
-**مرحبا بكم في Aspose.Cells for Python via .NET**
+**مرحبًا بك في Aspose.Cells for Python via .NET**
 
-Aspose.Cells for Python via .NET يمكّن تطبيقاتك من أداء مجموعة كبيرة من مهام معالجة جداول البيانات. Aspose.Cells for Python via .NET يدعم تنسيقات ملفات جداول البيانات الشائعة (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) التي تستخدمها شركتك كل يوم. كما يسمح بتصدير ملفات Excel® إلى PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML و Plain Text وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
+يتيح Aspose.Cells for Python via .NET لتطبيقاتك أداء مجموعة كبيرة من مهام معالجة جداول البيانات. يدعم Aspose.Cells for Python via .NET تنسيقات ملفات جداول البيانات الشهيرة (XLS، XLSX، XLSM، XLSB، XLTX، XLTM، CSV، SpreadsheetML، ODS) التي يستخدمها عملك يوميًا. كما يسمح أيضًا بتصدير ملفات Excel® إلى PDF، DOCX، PPTX، JSON، XPS، HTML، MHTML، نص عادي وتنسيقات الصور الشائعة بما في ذلك TIFF، JPG، PNG، BMP وSVG.
 
 {{% /alert %}}
 
-## **Aspose.Cells for Python via .NET الموارد**
+## **موارد Aspose.Cells for Python via .NET**
 
-فيما يلي روابط لبعض الموارد المفيدة التي قد تحتاجها لإنجاز مهامك.
+ما يلي هي الروابط إلى بعض الموارد المفيدة التي قد تحتاجها لإنجاز مهامك.
 
-- [Aspose.Cells for .NET التوثيق عبر الإنترنت](/cells/ar/net/)(Aspose.Cells for Python via .NET مشابه جدًا لـ Aspose.Cells for .NET. لذلك ، يمكنك استخدام نفس الوثائق)
-- [Aspose.Cells for Python via .NET الميزات](/cells/ar/python-net/features/)
-- [Aspose.Cells for Python via .NET ملاحظات الإصدار](https://releases.aspose.com/cells/python-net/release-notes/)
-- [Aspose.Cells for Python via .NET صفحة المنتج](https://products.aspose.com/cells/python-net/)
+- [المستندات عبر الإنترنت Aspose.Cells for .NET](/cells/ar/net/) (Aspose.Cells for Python via .NET شبيه جدًا بـ Aspose.Cells for .NET. لذا ، يمكنك استخدام نفس المستندات)
+- [ميزات Aspose.Cells for Python via .NET](/cells/ar/python-net/features/)
+- [ملاحظات إصدار Aspose.Cells for Python via .NET](https://releases.aspose.com/cells/python-net/release-notes/)
+- [صفحة منتج Aspose.Cells for Python via .NET](https://products.aspose.com/cells/python-net/)
 - [تحميل Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
-- [Aspose.Cells for Python via .NET منتدى الدعم المجاني](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells for Python via .NET مكتب مساعدة الدعم المدفوع](https://helpdesk.aspose.com/)
+- [منتدى الدعم المجاني لـ Aspose.Cells for Python via .NET](https://forum.aspose.com/c/cells/9)
+- [مكتب المساعدة للدعم المدفوع لـ Aspose.Cells for Python via .NET](https://helpdesk.aspose.com/)

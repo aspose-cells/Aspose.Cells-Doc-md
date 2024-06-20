@@ -1,19 +1,20 @@
-﻿---
-title: قم بإضافة PDF إشارات مرجعية ذات الوجهات المحددة
+---
+title: إضافة إشارات مرجعية لملف PDF بأهداف مسماة
 type: docs
 weight: 20
 url: /ar/java/add-pdf-bookmarks-with-named-destinations/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-الوجهات المسماة هي أنواع خاصة من الإشارات المرجعية أو الروابط الموجودة في PDF والتي لا تعتمد على PDF صفحة. هذا يعني أنه إذا تمت إضافة صفحات أو حذفها من PDF ، فقد تصبح الإشارات المرجعية غير صالحة ولكن ستظل الوجهات المسماة سليمة. لإنشاء وجهة محددة ، يرجى تعيين[**PdfBookmarkEntry.DestinationName**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfbookmarkentry#DestinationName)خاصية.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **قم بإضافة PDF إشارات مرجعية ذات الوجهات المحددة**
+الوجهات المسماة هي أنواع خاصة من الإشارات المرجعية أو الروابط في ملفات PDF التي لا تعتمد على صفحات PDF. يعني ذلك، إذا تمت إضافة صفحات أو حذفها من PDF، فإن الإشارات المرجعية قد تصبح غير صالحة ولكن الوجهات المسماة ستظل سليمة. لإنشاء وجهة مسماة، يرجى تعيين الخاصية [**PdfBookmarkEntry.DestinationName**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfbookmarkentry#DestinationName).
 
-يرجى الاطلاع على نموذج التعليمات البرمجية التالي ، الخاص به[ملف Excel المصدر](50528370.xlsx)و له[ملف الإخراج PDF](50528369.pdf). تُظهر لقطة الشاشة الإشارات المرجعية والوجهات المسماة داخل الإخراج PDF. توضح لقطة الشاشة أيضًا كيفية عرض الوجهات المسماة وأنك بحاجة إلى إصدار احترافي من برنامج Acrobat Reader.
+## **إضافة علامات مرجعية لملف PDF باستخدام وجهات مسماة**
 
-![ما يجب القيام به: image_بديل_نص](add-pdf-bookmarks-with-named-destinations_1.png)
+يرجى رؤية كود العينة التالي ، [ملف Excel المصدر](50528370.xlsx)، و [ملف PDF الإخراج](50528369.pdf). يظهر اللقطة الشاشة الإشارات المرجعية والوجهات المسماة داخل ملف PDF الإخراج. كما تصف اللقطة الشاشة أيضًا كيفية عرض الوجهات المسماة وأنه يلزمك نسخة احترافية من Acrobat Reader.
 
-## **عينة من الرموز**
+![todo:image_alt_text](add-pdf-bookmarks-with-named-destinations_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-AddPDFBookmarksWithNamedDestinations.java" >}}

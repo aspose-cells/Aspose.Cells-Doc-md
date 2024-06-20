@@ -1,32 +1,33 @@
-﻿---
-title: ワークシート間で図形をコピーする
+---
+title: ワークシート間でシェイプをコピーする
 linktitle: シェイプをコピーする
 type: docs
 weight: 200
 url: /ja/net/copy-shapes-between-worksheets/
 ---
+
 {{% alert color="primary" %}}
 
-画像、グラフ、その他の描画オブジェクトなど、ワークシート上の要素をワークシート間でコピーする必要がある場合があります。 Aspose.Cells はこの機能をサポートしています。チャート、画像、その他のオブジェクトを最高の精度でコピーできます。
+時々、ワークシート上の要素（例えば、画像、グラフ、その他の図形オブジェクト）を他のワークシート間でコピーする必要があります。Aspose.Cells はこの機能をサポートしています。チャート、画像、その他のオブジェクトは高度な精度でコピーすることができます。
 
-この記事では、ワークシート間で図形をコピーする方法について詳しく説明します。
+この記事では、ワークシート間でシェイプをコピーする方法について詳しく説明します。
 
 {{% /alert %}}
 
-## **あるワークシートから別のワークシートに画像をコピーする**
+## **ワークシート間での画像のコピー**
 
-あるワークシートから別のワークシートに画像をコピーするには、[**ワークシート.写真.追加**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)以下のサンプルコードに示すようにメソッド。
+ワークシート間での画像のコピーには、以下のサンプルコードに示すように [**Worksheet.Pictures.Add**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) メソッドを使用します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyPictureBetweenWorksheets.cs" >}}
 
-## **あるワークシートから別のワークシートにグラフをコピーする**
+## **ワークシート間でのグラフのコピー**
 
-次のコードは、[**Worksheet.Shapes.AddCopy**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcopy)あるワークシートから別のワークシートにグラフをコピーするメソッド。
+次のコードは、[**Worksheet.Shapes.AddCopy**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcopy) メソッドを使用して、ワークシート間でのチャートのコピーを示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyChartBetweenWorksheets.cs" >}}
 
-## **コントロールとその他の描画オブジェクトをあるワークシートから別のワークシートにコピーする**
+## **ワークシート間でのコントロールおよびその他の図形オブジェクトのコピー**
 
-コントロールやその他の描画オブジェクトをコピーするには、[**Worksheet.Shapes.AddCopy**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcopy)以下の例に示す方法。
+コントロールやその他の図形オブジェクトをコピーするには、次の例に示すように [**Worksheet.Shapes.AddCopy**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addcopy) メソッドを使用します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CopyShapesBetweenWorksheets-CopyControlsAndOtherDrawingObjects.cs" >}}

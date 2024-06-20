@@ -1,25 +1,26 @@
-﻿---
-title: Shape または TextBox のテキスト効果の影の設定
+---
+title: シェイプまたはテキストボックスのテキスト効果の影の設定
 type: docs
 weight: 670
 url: /ja/java/setting-shadow-of-text-effects-of-shape-or-textbox/
 ---
+
 {{% alert color="primary" %}} 
 
-を設定できます。**影**の**テキスト効果**任意の Shape または TextBox の。をご利用ください[Shape.TextBody](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody)財産。シェイプのテキストの設定を表示して返します[フォント設定コレクション](https://reference.aspose.com/cells/java/com.aspose.cells/FontSettingCollection).アクセス後[フォント設定](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting)そこから、**影**経由[FontSetting.getTextOptions().getShadow().setPresetType()](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#PresetType)財産。このプロパティのタイプは[PresetShadowType](https://reference.aspose.com/cells/java/com.aspose.cells/PresetShadowType)これにはいくつかの値があります。これらのいくつかは
+任意の形状またはテキストボックスの**テキスト効果**の**影**を設定できます。[Shape.TextBody](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody)プロパティを使用してください。これは、形状のテキストの設定を表示し、[FontSettingCollection](https://reference.aspose.com/cells/java/com.aspose.cells/FontSettingCollection)を返します。 これから[FontSetting](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting)にアクセスした後、[FontSetting.getTextOptions().getShadow().setPresetType()](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#PresetType)プロパティを使用して**Shadow**を設定してください。 このプロパティは[PresetShadowType](https://reference.aspose.com/cells/java/com.aspose.cells/PresetShadowType)のタイプで、いくつかの値があります。その中には
 
-- [オフセット_対角線_右下](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_BOTTOM_RIGHT)
+- [OFFSET_DIAGONAL_BOTTOM_RIGHT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_BOTTOM_RIGHT)
 - [OFFSET_BOTTOM](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_BOTTOM)
-- [オフセット_対角線_右上](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_TOP_RIGHT)
+- [OFFSET_DIAGONAL_TOP_RIGHT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_TOP_RIGHT)
 - [INSIDE_LEFT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE_LEFT)
 - [INSIDE_CENTER](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE_CENTER)
-- [視点_対角線_左上](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_LEFT)
-- [視点_対角線_右上](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_RIGHT)
+- [PERSPECTIVE_DIAGONAL_UPPER_LEFT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_LEFT)
+- [PERSPECTIVE_DIAGONAL_UPPER_RIGHT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#PERSPECTIVE_DIAGONAL_UPPER_RIGHT)
 
 {{% /alert %}} 
-## **Shape または TextBox のテキスト効果の影の設定**
-次のスクリーンショットは、[出力エクセルファイル](5473446.xlsx)次のサンプル コードで生成されます。スクリーンショットは、**影**として設定されています**オフセット下**.
+## **シェイプまたはテキストボックスのテキスト効果の影の設定**
+次のサンプルコードで生成された[出力Excelファイル](5473446.xlsx)を次のスクリーンショットで確認できます。スクリーンショットには、**Shadow**の値が**Offset Bottom**として設定されているのが表示されています。
 
-![todo:画像_代替_文章](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
+![todo:image_alt_text](setting-shadow-of-text-effects-of-shape-or-textbox_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingTextEffectsShadowOfShapeOrTextbox-SettingTextEffectsShadowOfShapeOrTextbox.java" >}}

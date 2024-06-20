@@ -1,12 +1,13 @@
-﻿---
-title: カスタム オブジェクトからのインポート
+---
+title: カスタムオブジェクトからのインポート
 type: docs
 weight: 30
 url: /ja/net/importing-from-custom-objects/
 ---
-開発者は、オブジェクトのコレクションからワークシートにデータをインポートできます。**ImportCustomObjects**.メソッドに列/プロパティのリストを指定して、必要なオブジェクトのリストを表示できます。
 
-{{< highlight "csharp" >}}
+開発者は、**ImportCustomObjects** を使用して、オブジェクトのコレクションからワークシートにデータをインポートできます。このメソッドに自分の希望のオブジェクトリストを表示するための列/プロパティのリストを指定できます。
+
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -36,7 +37,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 

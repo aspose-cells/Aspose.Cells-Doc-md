@@ -1,32 +1,33 @@
 ---
-title: Güvenli PDF Belgeler
+title: Güvenli PDF Belgeleri
 type: docs
 weight: 120
 url: /tr/net/secure-pdf-documents/
 ---
+
 {{% alert color="primary" %}}
 
-Bazen geliştiricilerin şifrelenmiş PDF dosyalarıyla çalışması gerekir. Örneğin:
+Bazı durumlarda, geliştiriciler şifrelenmiş PDF dosyalarıyla çalışmak zorunda kalabilir. Örneğin:
 
-- Belgeleri sahip ve kullanıcı parolalarıyla koruyun, böylece herkes açamaz.
-- Belge açıldıktan sonra belgeye yönelik kısıtlamaları veya izinleri ayarlayın. örneğin belge içeriğinin yazdırılıp yazdırılamayacağını veya çıkartılabileceğini kısıtlayın.
+- Belgeleri sahip ve kullanıcı şifreleri ile güvence altına almak, böylece herkes tarafından açılamamasını sağlamak.
+- Doküman açıldıktan sonra kısıtlamalar veya izinler belirlemek. Örneğin: doküman içeriğinin yazdırılabilir veya çıkarılabilir olup olmadığını sınırlamak.
 
-Bu makalede, e-tabloları PDF'e kaydederken PDF güvenlik seçeneklerinin nasıl aktarılacağı açıklanmaktadır.
+Bu makale, elektronik tabloları PDF'ye kaydederken PDF güvenlik seçeneklerini nasıl geçireceğinizi açıklar.
 
 {{% /alert %}}
 
- Aspose.Cells sağlar[**PdfGüvenlikSeçenekleri**](https://reference.aspose.com/cells/net/aspose.cells.rendering.pdfsecurity/pdfsecurityoptions/)güvenlikle çalışmak için. PDF'e kaydederken sahip ve kullanıcı şifrelerini ayarlayabilirsiniz. Şifrelenmiş PDF belgesini görüntülemek üzere açmak için sahip şifresi veya kullanıcı şifresi gerekecektir.
+Aspose.Cells, güvenlikle çalışma imkanı sunar. PDF'ye kaydederken sahip ve kullanıcı şifrelerini ayarlayabilirsiniz. Şifrelenmiş PDF belgesini görüntülemek için sahip veya kullanıcı parolaları gereklidir.
 
-- Kullanıcı şifresi null veya boş dize olabilir, bu durumda PDF belgesini açarken kullanıcıdan şifre istenmeyecektir.
-- PDF numaralı belgenin doğru sahip şifresiyle açılması, belgeye tam erişime (herhangi bir erişim kısıtlaması belirtilmeden) olanak tanır.
-- PDF numaralı belgenin doğru kullanıcı şifresi ile açılması (veya kullanıcı şifresi olmayan bir belgenin açılması), belirtilen izinler doğrultusunda sınırlı erişime izin vermektedir.
+- Kullanıcı şifresi null veya boş dize olabilir, bu durumda kullanıcıdan PDF belgesini açarken herhangi bir parola gerekli olmayacaktır.
+- Doğru sahip parolasıyla PDF belgesinin doğru şekilde açılması belgeye tam erişim (belirtilen herhangi bir erişim kısıtlaması olmadan) sağlar.
+- Doğru kullanıcı parolasıyla PDF belgesinin doğru şekilde açılması (veya herhangi bir kullanıcı parolası olmayan bir belgenin açılması) belirtilen izinlerle sınırlı erişim sağlar.
 
-Aşağıdaki örnek kod, PDF'lerin Aspose.Cells ile nasıl güvence altına alınacağını açıklamaktadır.
+Aşağıdaki örnek kod, Aspose.Cells ile PDF'leri güvence altına alma işlemi hakkında bilgi verir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SecurePDFDocuments-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Elektronik tablo formüller içeriyorsa, aramak en iyisidir.[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) PDF'e dönüştürülmeden hemen önce. Bu, formüle bağlı değerlerin yeniden hesaplanmasını ve PDF'de doğru değerlerin oluşturulmasını sağlar.
+Eğer elektronik tablo formüller içeriyorsa, PDF olarak dışa aktarmadan hemen önce [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)çağrısı yapmak en iyisidir. Böylece formüle bağlı değerler yeniden hesaplanacak ve doğru değerler PDF'de gösterilecektir.
 
 {{% /alert %}}

@@ -1,17 +1,18 @@
-﻿---
-title: Nouvelle ligne au Cells
+---
+title: Nouvelle ligne dans les cellules
 type: docs
 weight: 30
 url: /fr/net/new-line-in-cells/
 ---
-## **Aspose.Cells - Nouvelle ligne en Cells**
-Pour s'assurer que le texte d'une cellule peut être lu, des sauts de ligne et des retours à la ligne explicites peuvent être appliqués. L'habillage du texte transforme une ligne en plusieurs dans une cellule, que les sauts de ligne explicites placent exactement là où vous le souhaitez.
 
-Pour envelopper du texte dans une cellule, utilisez la propriété Aspose.Cells.Style.IsTextWrapped.
+## **Aspose.Cells - Nouvelle ligne dans les cellules**
+Pour vous assurer que le texte dans une cellule peut être lu, des sauts de ligne explicites et un retour à la ligne du texte peuvent être appliqués. Le retour à la ligne du texte transforme une ligne en plusieurs dans une cellule, tandis que les sauts de ligne explicites insérés les mettent exactement où vous le souhaitez.
+
+Pour ajuster le texte dans une cellule, utilisez la propriété IsTextWrapped de Aspose.Cells.Style.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -34,12 +35,12 @@ sheet.Cells[2, 2].SetStyle(style);
 workbook.Save("test.xlsx");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Nouvelle ligne au Cells**
-CellStyle.setWrapText doit être vrai pour le texte enveloppé.
+## **NPOI - HSSF XSSF - Nouvelle ligne dans les cellules**
+CellStyle.setWrapText doit être true pour le texte enveloppé.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook workbook = new XSSFWorkbook();
 
@@ -66,13 +67,13 @@ workbook.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Nouvelle ligne au Cells** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez le formulaire **Nouvelle ligne dans les cellules** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Sauts de ligne et retour à la ligne](/cells/fr/net/line-breaks-and-text-wrapping/).
+Pour plus de détails, visitez [Sauts de ligne et retour à la ligne](/cells/fr/net/line-breaks-and-text-wrapping/).
 
 {{% /alert %}}

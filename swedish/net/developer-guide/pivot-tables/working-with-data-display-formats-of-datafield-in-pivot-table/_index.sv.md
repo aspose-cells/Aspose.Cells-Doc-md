@@ -1,22 +1,23 @@
-﻿---
-title: Arbeta med datavisningsformat för DataField i pivottabell
+---
+title: Att arbeta med dataformat för datarad i pivottabell
 type: docs
 weight: 140
 url: /sv/net/working-with-data-display-formats-of-datafield-in-pivot-table/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells stöder alla datavisningsformat i DataField.
+Aspose.Cells stöder alla dataradens dataformat.
 
 {{% /alert %}}
 
-## **"Rank minst till störst" och "Rank störst till minsta" visningsformatalternativ**
+## **Alternativ för "Rangordna minsta till största" och "Rangordna största till minsta" i displayformat**
 
-ASpose.Cells ger möjlighet att ställa in visningsformatalternativet för pivotfält. För detta tillhandahåller API[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) fast egendom. För att rangordna störst till minst kan du ställa in[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat)egendom till[**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). Följande kodavsnitt visar hur du ställer in alternativen för visningsformat.
+ASpose.Cells ger möjlighet att ställa in displayformatalternativet för pivottabellfält. För detta tillhandahåller API:en egenskapen [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat). För att rangordna största till minsta kan du ställa in egenskapen [**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) till [**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). Följande kodsnutt demonstrerar inställning av displayformatalternativen.
 
-Exempel på käll- och utdatafiler kan laddas ner härifrån för att testa exempelkoden:
+Provfil och utdatafiler kan laddas ner här för att testa provkoden:
 
-[Excel-källfil](101089332.xlsx)
+[Käll-Excel-fil](101089332.xlsx)
 
 [Utdata Excel-fil](101089333.xlsx)
 

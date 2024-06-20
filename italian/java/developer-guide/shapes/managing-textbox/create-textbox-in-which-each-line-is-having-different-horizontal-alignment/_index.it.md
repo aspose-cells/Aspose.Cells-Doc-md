@@ -1,16 +1,17 @@
-﻿---
-title: Crea una casella di testo in cui ogni riga ha un diverso allineamento orizzontale
+---
+title: Crea TextBox in cui ogni riga ha un diverso Allineamento Orizzontale
 type: docs
 weight: 800
 url: /it/java/create-textbox-in-which-each-line-is-having-different-horizontal-alignment/
 ---
+
 {{% alert color="primary" %}} 
 
-Puoi impostare l'allineamento orizzontale del testo del paragrafo utilizzando la proprietà TextParagraph.AlignmentType.
+Puoi impostare l'allineamento orizzontale del testo del tuo paragrafo utilizzando la proprietà TextParagraph.AlignmentType.
 
 {{% /alert %}} 
-## **Crea una casella di testo in cui ogni riga ha un diverso allineamento orizzontale**
- Il seguente codice di esempio crea tre righe e imposta l'allineamento orizzontale di ognuna di esse. Si prega di scaricare il[file excel di output](5473433.xlsx) generato dal codice per riferimento.
+## **Crea TextBox in cui ogni riga ha un diverso Allineamento Orizzontale**
+Il seguente codice di esempio crea tre righe e imposta l'allineamento orizzontale di ciascuna di esse. Si prega di scaricare il [file excel di output](5473433.xlsx) generato dal codice per il tuo riferimento.
 
 
 

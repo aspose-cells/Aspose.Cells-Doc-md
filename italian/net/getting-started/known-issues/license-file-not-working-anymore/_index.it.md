@@ -1,29 +1,30 @@
-﻿---
+---
 title: Il file di licenza non funziona più
 type: docs
 weight: 60
 url: /it/net/license-file-not-working-anymore/
 ---
+
 ## **Sintomo**
 
- A volte, gli utenti si sentono frustrati perché i loro file di licenza non funzionano più quando spostano/pubblicano i loro progetti web su un nuovo server. Si sentono sconvolti perché i loro file di licenza funzionavano correttamente sul loro (vecchio) server precedente, ma ora ottengono un extra**Valutazione Avviso sul copyright** filigrana Foglio di lavoro (ogni volta che generano report utilizzando il componente) nel nuovo ambiente server.
+A volte gli utenti si sentono frustrati perché i loro file di licenza non funzionano più quando spostano / pubblicano i loro progetti web su un nuovo server. Si sentono sconvolti perché i loro file di licenza funzionavano correttamente sul loro server precedente (vecchio), ma ora ottengono un **Evaluation Copyright Warning** aggiuntivo nel foglio di lavoro (ogni volta che generano report usando il componente) nell'ambiente del nuovo server.
 
 ### **Uno Scenario**
 
-"Stiamo utilizzando Aspose.Cells sul nostro progetto web ASP.NET per generare/manipolare report Excel, abbiamo ottenuto una licenza valida che stiamo utilizzando. Alcuni giorni fa, abbiamo spostato il sito Web su un nuovo server; non ci sono stati aggiornamenti o modifiche di sorta, abbiamo si sono assicurati e hanno semplicemente spostato tutti i file sul nuovo server, inclusi Aspose.Cells.dll e i relativi file .lic. Ora, quando proviamo a generare report Excel nel nuovo ambiente server, otteniamo un**Valutazione Avviso sul copyright** foglio di filigrana sui nostri rapporti. Abbiamo provato a scaricare e installare un nuovo file di licenza dalla sezione I miei ordini del sito, ma non ha risolto affatto il problema. Cordiali saluti, implementiamo la licenza inserendo il file Aspose.Cells.lic nella cartella bin del sito insieme al file del componente Aspose.Cells.dll, che, come ho detto, funzionava senza problemi sul vecchio server."
+"Abbiamo usato Aspose.Cells nel nostro progetto web ASP.NET per generare/manipolare report di Excel, abbiamo ottenuto una licenza valida che stiamo utilizzando. Alcuni giorni fa, abbiamo spostato il sito web su un nuovo server; non ci sono state aggiornamenti o modifiche in alcun modo, ci siamo assicurati e abbiamo semplicemente spostato ogni singolo file sul nuovo server, inclusi i file Aspose.Cells.dll e lic correlati. Ora quando cerchiamo di generare report di Excel nell'ambiente del nuovo server, otteniamo un foglio con un watermark di **Avviso di Copyright di Valutazione** sui nostri report. Abbiamo provato a scaricare e installare un nuovo file di licenza dalla sezione I miei ordini del sito, ma non ha risolto il problema affatto. A proposito, abbiamo implementato la licenza inserendo il file Aspose.Cells.lic nella cartella bin del sito insieme al file del componente Aspose.Cells.dll, che, come ho menzionato, ha funzionato senza problemi sul vecchio server."
 
 ### **Soluzione**
 
-Aspose ha un meccanismo di licenza pulito e affidabile. In generale, il problema dovrebbe essere correlato al problema di distribuzione. Se un file di licenza funziona bene (su un server), dovrebbe funzionare altrettanto bene anche su altri server/ambienti. Normalmente gli utenti utilizzano Application_Inizio o sessione_Avvia eventi ecc. nel file global.asax per inserire lì il codice di licenza. Quindi, è del tutto possibile che Application_Inizio / Sessione_Gli eventi di avvio non vengono attivati per elaborare il codice di licenza nelle nuove posizioni. Va notato qui che Aspose.Cells genererà sempre un'eccezione se il componente non riesce a trovare il file di licenza in un percorso. Gli utenti devono assicurarsi che il codice di licenza (ovunque lo posizionino) venga elaborato e che vengano attivati eventi in cui inserire il codice di licenza. L'utente può riavviare il servizio correlato, ad esempio "Pubblicazione sul World Wide Web" e provare a tracciare se Application_Inizio / Sessione_Gli eventi di avvio vengono attivati quando visitano i loro progetti nel nuovo ambiente server.
+Aspose ha un meccanismo di licenza pulito e affidabile. Generalmente, il problema dovrebbe essere correlato a un problema di distribuzione. Se un file di licenza funziona correttamente (su un server), dovrebbe funzionare altrettanto bene su altri server / ambienti. Normalmente gli utenti utilizzano eventi Application_Start o Session_Start ecc. nel file global.asax per inserire il codice di licenza lì. Quindi, è molto possibile che l'evento Application_Start / Session_Start non venga attivato per elaborare il codice di licenza nelle loro nuove posizioni. È da notare qui, Aspose.Cells genererà sempre un'eccezione se il componente non trova il file di licenza in un percorso. Gli utenti dovrebbero assicurarsi che il codice di licenza (ovunque lo collocano) venga elaborato e che gli eventi dovrebbero essere innescati in cui inseriscono il codice di licenza. L'utente può riavviare il servizio correlato cioè, "Pubblicazione nel Web" e provare a tracciare se gli eventi Application_Start / Session_Start vengono attivati quando visitano i loro progetti nell'ambiente del nuovo server.
 
 ### **Conferma**
 
-Assicurati anche che...
+Si prega inoltre di assicurarsi che…
 
 - Stai utilizzando un file di licenza valido nel tuo progetto.
-- Tu o qualcun altro non dovreste modificare / modificare il file di licenza almeno il file di licenza non funzionerà.
-- Dovresti essere a conoscenza della scadenza dell'abbonamento alla tua licenza (puoi semplicemente aprire il file lic nel blocco note e controllare la data di scadenza).
--  Non stai utilizzando una versione (Aspose.Cells.dll) rilasciata dopo la scadenza dell'abbonamento della licenza. Va notato qui che un file di licenza non scade mai, ma se stai utilizzando la versione del componente che viene rilasciata dopo la scadenza dell'abbonamento, otterrai un extra**Valutazione Avviso sul copyright** foglio di filigrana ogni volta che crei un file excel.
+- Tu o qualcun altro non dovrebbe modificare il file di licenza altrimenti il file di licenza non funzionerà.
+- Dovresti essere consapevole della scadenza della tua sottoscrizione alla licenza (puoi semplicemente aprire il file lic con il blocco note e controllare la data di scadenza).
+- Non stai utilizzando una versione (Aspose.Cells.dll) rilasciata dopo la scadenza della tua sottoscrizione alla licenza. È da notare qui, un file di licenza non scade mai, ma se stai utilizzando la versione del componente rilasciata dopo la scadenza della tua sottoscrizione, otterrai un foglio con watermark di **Avviso di Copyright di Valutazione** aggiuntivo ogni volta che crei un file Excel.
 
 ### **Riferimenti**
 

@@ -1,16 +1,17 @@
-﻿---
-title: Dosyaları PHP'de Açmak
+---
+title: PHP de Dosyaları Açma
 type: docs
 weight: 10
 url: /tr/net/opening-files-in-php/
 ---
-## **Aspose.Cells - Excel Dosyalarını Aç**
-### **Yoldan Açma**
-Dosyanın yoluna başvurarak bir Microsoft Excel dosyasını açmanız yeterlidir
 
-**PHP Kodu**
+## **Aspose.Cells - Excel Dosyalarını Açma**
+### **Yoluyla Açma**
+Bir Microsoft Excel dosyasını basitçe dosyanın yolunu referans vererek açın
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -28,6 +29,6 @@ Dosyanın yoluna başvurarak bir Microsoft Excel dosyasını açmanız yeterlidi
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Dosyaları Açma (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden **Dosyaları Açma (Aspose.Cells)** örneğini indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/OpeningFiles.php)

@@ -1,14 +1,15 @@
-﻿---
+---
 title: XML Paper Specification - XPS
 type: docs
 weight: 30
 url: /sv/net/xml-paper-specification-xps/
 ---
-## **Cirka XPS**
 
-|![todo:image_alt_text](xml-paper-specification-xps_1.png)| De[XML-pappersspecifikation](https://en.wikipedia.org/wiki/XML_Paper_Specification) är ett sidbeskrivningsspråk och ett format med fasta dokument som ursprungligen utvecklats av Microsoft. Liksom PDF är XPS ett dokumentformat med fast layout utformat för att bevara dokumenttrohet och ge enhetsoberoende dokumentutseende.|
-|:- |:- |
+## **Om XPS**
+
+|![todo:image_alt_text](xml-paper-specification-xps_1.png)|The [XML Paper Specification](https://en.wikipedia.org/wiki/XML_Paper_Specification) is a page description language and a fixed-document format originally developed by Microsoft. Like PDF, XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance.|
+| :- | :- |
 ## **XPS i Aspose.Cells**
-Alla dokument som laddas in i Aspose.Cells kan konverteras till XPS. Aspose.Cells använder samma sidlayout och renderingsmotor med hög kvalitet för att producera utdata i alla dess stödda format med fast layout, t.ex. PDF, XPS etc.
+Vilket dokument som helst som laddas in i Aspose.Cells kan konverteras till XPS. Aspose.Cells använder samma högkvalitativa sidlayout- och renderingsmotor för att producera utdata i alla sina stödda fastlayout-format, t.ex. PDF, XPS osv.
 
-Det är värt att notera att Aspose.Cells genererar XPS direkt (inklusive underinställning av TrueType-teckensnitt), utan att förlita sig på Windows Presentation Foundation-klasserna som finns i .NET Framework 3.5, vilket tillåter 43417 versioner av 6418 eller 54176 från 43417 eller 34176. på helt andra plattformar.
+Det är värt att notera att Aspose.Cells genererar XPS direkt (inklusive submängd av TrueType-typsnitt), utan att förlita sig på klasserna i Windows Presentation Foundation som finns i .NET Framework 3.5, vilket gör att Aspose.Cells kan producera XPS på maskiner som kör .NET av äldre versioner eller på helt olika plattformar.

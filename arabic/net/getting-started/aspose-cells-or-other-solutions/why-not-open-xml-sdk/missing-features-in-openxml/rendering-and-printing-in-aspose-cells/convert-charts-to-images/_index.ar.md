@@ -1,12 +1,13 @@
-﻿---
+---
 title: تحويل الرسوم البيانية إلى صور
 type: docs
 weight: 10
 url: /ar/net/convert-charts-to-images/
 ---
-**الرسوم البيانية**جذابة بصريًا وتسهل على المستخدمين رؤية المقارنات والأنماط والاتجاهات في البيانات. على سبيل المثال ، بدلاً من الاضطرار إلى تحليل عدة أعمدة من أرقام أوراق العمل ، يمكنك أن ترى في لمحة ما إذا كانت المبيعات تنخفض أو ترتفع خلال فترات ربع سنوية ، أو كيف تقارن المبيعات الفعلية بالمبيعات المتوقعة. في تطبيقاتك أو صفحات الويب الخاصة بك. قد تحتاج إلى إدراجه في مستند Word أو ملف PDF أو عرض تقديمي لـ Power Point أو في بعض السيناريوهات الأخرى. ما عليك سوى عرض المخطط كصورة ، بحيث يمكنك لصقه في تطبيقاتك بسهولة. الصورة تستحق العناء. في كثير من الأحيان ، أثناء العمل ، يتعين على المرء أن يقدم معلومات إحصائية ورسومية بطريقة سهلة الفهم وسهلة الصيانة. يمكنك تجربة أتمتة المكاتب ولكن أتمتة المكاتب لها عيوبها الخاصة. هناك عدة أسباب ومشكلات متضمنة: على سبيل المثال ، الأمان ، والاستقرار ، وقابلية التوسع / السرعة ، والسعر ، والميزات وما إلى ذلك. باختصار ، هناك العديد من الأسباب ، أهمها أن Microsoft أنفسهم يوصون بشدة ضد أتمتة Office من حلول البرامج: أتمتة Office من جانب الخادم: هناك خيار آخر يمكنك استخدامه لتحويل مخطط Excel إلى صورة باستخدام**Aspose.Cells**.
+
+**الرسوم البيانية** جذابة بصرياً وتجعل من السهل بالنسبة للمستخدمين رؤية المقارنات والنماذج والاتجاهات في البيانات. على سبيل المثال، بدلاً من الحاجة إلى تحليل عدة أعمدة من الأرقام في ورقة العمل، يمكنك رؤية على الفور ما إذا كانت المبيعات تتراجع أم ترتفع على مدى فترات الربع، أو كيف تقارن المبيعات الفعلية بالمبيعات المتوقعة. في بعض الأحيان، قد تحتاج إلى عرض الرسم البياني في تطبيقاتك أو صفحات الويب الخاصة بك. قد تحتاج إلى إدراجه في مستند Word، ملف PDF، عرض PowerPoint أو في سيناريو آخر ما. ببساطة ترغب في أن يتم عرض الرسم البياني كصورة، بحيث يمكنك لصقه في تطبيقاتك بسهولة. الصورة تستحق. في كثير من الأحيان، في مجرى العمل، يجب على الشخص عرض المعلومات الإحصائية والرسومية بطريقة سهلة الفهم وسهلة الصيانة. قد تجرب Office Automation ولكن Office Automation تحتوي على عيوبها الخاصة. هناك عدة أسباب وقضايا تتعلق بها: على سبيل المثال، الأمان، الاستقرار، القابلية للتوسيع/السرعة، السعر، الميزات وما إلى ذلك. باختصار، هناك العديد من الأسباب، والأهم منها هو أن شركة Microsoft نفسها توصي بشدة بعدم استخدام Office automation من حلول البرمجيات: الاعتبارات لأتمتة Office على الخادم. هناك خيار آخر يمكنك استخدامه لتحويل رسم بياني Excel إلى صورة باستخدام **Aspose.Cells**.
 ## **تحويل الرسم البياني إلى EMF**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -65,7 +66,7 @@ chart.ToImage(MyDir + "Chart to EMF Image.Emf", System.Drawing.Imaging.ImageForm
 
 {{< /highlight >}}
 ## **تحويل الرسم البياني إلى BMP**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -123,7 +124,7 @@ chart.ToImage(MyDir + "Chart to BMP Image.Bmp", System.Drawing.Imaging.ImageForm
 
 {{< /highlight >}}
 ## **تحويل الرسم البياني إلى JPEG**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -182,7 +183,7 @@ chart.ToImage(MyDir + "Chart to JPEG Image.Jpeg", System.Drawing.Imaging.ImageFo
 
 {{< /highlight >}}
 ## **تحويل الرسم البياني إلى PNG**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -241,7 +242,7 @@ chart.ToImage(MyDir + "Chart to PNG Image.Png", System.Drawing.Imaging.ImageForm
 
 {{< /highlight >}}
 ## **تحويل الرسم البياني إلى TIFF**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -299,8 +300,8 @@ chart.ToImage(MyDir + "Chart to Tiff Image.Tiff", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **تحويل المخطط إلى متعدد الصفحات TIFF**
-{{< highlight "csharp" >}}
+## **تحويل الرسم البياني إلى TIFF متعدد الصفحات**
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -371,6 +372,6 @@ options.OnePagePerSheet = true;
 chart.ToImage(MyDir + "Chart to Tiff Image.tiff", options);
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+## **تحميل رمز عينة**
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Converting%20Chart%20to%20Image%20%28Aspose.Cells%29.zip)

@@ -1,11 +1,12 @@
-﻿---
-title: Afficher la chaîne dans la feuille de calcul Cell
+---
+title: Afficher une chaîne dans la cellule de la feuille de calcul
 type: docs
 weight: 110
 url: /fr/net/display-string-in-worksheet-cell/
 ---
+
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -17,7 +18,7 @@ url: /fr/net/display-string-in-worksheet-cell/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

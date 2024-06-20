@@ -1,18 +1,19 @@
-﻿---
-title: Utilizzo dei metadati della cartella di lavoro
-linktitle: Metadati della cartella di lavoro
+---
+title: Utilizzo di WorkbookMetadata
+linktitle: Metadati del foglio di lavoro
 type: docs
 weight: 390
 url: /it/java/using-workbookmetadata/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells consente di caricare in memoria una versione leggera della cartella di lavoro per modificarne le informazioni sui metadati. Si prega di utilizzare il[com.aspose.cells.WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata) class per caricare la cartella di lavoro.
+Aspose.Cells ti consente di caricare una versione leggera del libro di lavoro in memoria per modificare le informazioni dei metadati. Si prega di utilizzare la classe [com.aspose.cells.WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata) per caricare il libro di lavoro.
 
 {{% /alert %}} 
-## **Utilizzo dei metadati della cartella di lavoro**
- Il codice di esempio seguente utilizza[Metadati della cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata) class per modificare le proprietà del documento personalizzate di una cartella di lavoro. Una volta aperta la cartella di lavoro utilizzando[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) class, sarai in grado di leggere le proprietà del documento.
+## **Usando WorkbookMetadata**
+Il codice di esempio seguente utilizza la classe [WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata) per modificare le proprietà personalizzate di un libro di lavoro. Una volta aperto il libro utilizzando la classe [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), sarai in grado di leggere le proprietà del documento.
 
- Ecco un codice di esempio che utilizza il[Metadati della cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata)classe.
+Ecco un codice di esempio che utilizza la classe [WorkbookMetadata](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookMetadata).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingWorkbookMetadata-UsingWorkbookMetadata.java" >}}

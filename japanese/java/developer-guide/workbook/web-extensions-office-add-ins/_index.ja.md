@@ -1,26 +1,27 @@
-﻿---
-title: Web 拡張機能 - Office アドイン
+---
+title: Web拡張機能  Officeアドイン
 type: docs
 weight: 120
 url: /ja/java/web-extensions-office-add-ins/
 ---
-Web 拡張機能は、Office アプリケーションを拡張し、Office ドキュメントのコンテンツと対話します。 Web 拡張機能は、Office クライアントに機能を追加して、ユーザー エクスペリエンスと生産性を向上させます。
 
-Aspose.Cells は、Web 拡張機能を操作する機能も提供します。
+Web拡張機能は、Officeアプリケーションを拡張し、Office文書のコンテンツとやり取りします。Web拡張機能は、ユーザーエクスペリエンスと生産性を向上させるためにOfficeクライアントに追加機能を提供します。
 
-## **Web 拡張機能を追加**
+Aspose.CellsもWeb拡張機能と連携する機能を提供しています。
 
-をクリックして、Excel に Web 拡張機能 (Office アドイン) を追加できます。**入れる**タブをクリックし、**店**/**アドインを入手する**リンク。 [アドイン] ボックスで、必要なアドインを参照して追加します。
+## **Web拡張機能の追加**
 
-Aspose.Cells は、WebExtension および WebExtensionTaskPane クラスを使用して Web 拡張機能を追加する機能も提供します。次のコード サンプルは、WebExtension および WebExtensionTaskPane クラスを使用して Web 拡張機能を Excel ファイルに追加する方法を示しています。をご覧ください[出力エクセルファイル](AddWebExtension_Out.xlsx)参照用のコードによって生成されます。
+ExcelにWeb拡張機能（Officeアドイン）を追加するには、**挿入**タブをクリックし、**ストア**/**アドインの取得**リンクをクリックしてください。アドインボックスで、追加したいアドインを参照して追加します。
+
+Aspose.Cellsは、**WebExtension**および**WebExtensionTaskPane**クラスを使用してWeb拡張機能を追加する機能も提供しています。以下のコードサンプルは、**WebExtension**および**WebExtensionTaskPane**クラスを使用してExcelファイルにWeb拡張機能を追加する方法を示しています。参照のためにコードによって生成されたExcelファイルは、[出力Excelファイル](AddWebExtension_Out.xlsx)で確認できます。
 
 ### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AddWebExtension-1.java" >}}
 
-## **Web 拡張情報へのアクセス**
+## **Web拡張機能情報へのアクセス**
 
-Aspose.Cells は、Excel ファイル内の Web 拡張機能の情報にアクセスする機能を提供します。次のコード サンプルは、[サンプル Excel ファイル](WebExtensionsSample.xlsx).コードによって生成されたコンソール出力を参照してください。
+Aspose.Cellsは、Excelファイル内のWeb拡張機能の情報にアクセスする機能を提供しています。以下のコードサンプルは、[サンプルExcelファイル](WebExtensionsSample.xlsx)をロードしてWeb拡張機能情報にアクセスする方法を示しています。参照のためにコードによって生成されたコンソール出力も確認できます。
 
 ### **サンプルコード**
 
@@ -28,16 +29,20 @@ Aspose.Cells は、Excel ファイル内の Web 拡張機能の情報にアク�
 
 ### **コンソール出力**
 
-幅: 350
+{{< highlight java >}}
 
-IsVisible: 真
+Width: 350
+
+IsVisible: True
 
 IsLocked: False
 
-DockState: 右
+DockState: right
 
-ストア名: en-US
+StoreName: en-US
 
-店舗タイプ: OMEX
+StoreType: OMEX
 
 WebExtension.Id: 95D7ECE8-1355-492B-B6BF-27D25D0B0EEF
+
+{{< /highlight >}}

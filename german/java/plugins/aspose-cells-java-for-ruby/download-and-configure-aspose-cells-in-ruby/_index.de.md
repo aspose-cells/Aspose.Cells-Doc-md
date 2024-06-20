@@ -1,33 +1,34 @@
-﻿---
-title: Laden Sie Aspose.Cells in Ruby herunter und konfigurieren Sie es
+---
+title: Aspose.Cells in Ruby herunterladen und konfigurieren
 type: docs
 weight: 10
 url: /de/java/download-and-configure-aspose-cells-in-ruby/
 ---
-## **Erforderliche Bibliotheken herunterladen**
-Laden Sie die unten aufgeführten erforderlichen Bibliotheken herunter. Diese sind für die Ausführung von Aspose.Cells Java für Ruby-Beispiele erforderlich.
 
-- [Aspose.Cell for Java Komponente](https://downloads.aspose.com/cells/java/)
-## **Laden Sie Beispiele von Social-Coding-Sites herunter**
-Die folgenden Versionen von Laufbeispielen stehen auf den unten genannten Social-Coding-Sites zum Download zur Verfügung:
+## **Erforderliche Bibliotheken herunterladen**
+Laden Sie die unten genannten erforderlichen Bibliotheken herunter. Diese sind erforderlich, um die Aspose.Cells Java für Ruby Beispiele auszuführen.
+
+- [Aspose.Cell für Java Komponente](https://downloads.aspose.com/cells/java/)
+## **Beispiele von Social Coding Sites herunterladen**
+Folgende Versionen von laufenden Beispielen können auf den unten genannten Social Coding Sites heruntergeladen werden:
 
 **GitHub**
 
-- [Aspose.Cells Java für Rubin](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Ruby)
-## **Installieren**
-Es ist sehr einfach und leicht, Aspose.cells Java für Ruby Gem zu installieren, bitte folgen Sie diesen einfachen Schritten:
+- [Aspose.Cells Java for Ruby](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Ruby)
+## **Installation**
+Es ist sehr einfach und leicht, das Aspose.cells Java für Ruby Gem zu installieren. Bitte befolgen Sie diese einfachen Schritte:
 
-1.  Fügen Sie diese Zeile dem Gemfile Ihrer Anwendung hinzu.
+1. Fügen Sie diese Zeile zur Gemfile Ihrer Anwendung hinzu. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  gem 'aspose-cellsjava'
 
 {{< /highlight >}}
 
-1. Und dann ausführen
+1. Und dann ausführen 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  $ bundle
 
@@ -35,17 +36,17 @@ Es ist sehr einfach und leicht, Aspose.cells Java für Ruby Gem zu installieren,
 
 **ODER**
 
-1.  Führen Sie folgenden Befehl aus.
+1. Führen Sie den folgenden Befehl aus. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  $ gem install aspose-cellsjava
 
 {{< /highlight >}}
-## **Verwenden**
-Fügen Sie die erforderlichen Dateien für die Arbeit mit dem helloworld-Beispiel hinzu.
+## **Verwendung**
+Fügen Sie die erforderlichen Dateien hinzu, um mit dem helloworld Beispiel zu arbeiten.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  require require File.dirname(File.dirname(File.dirname(__FILE__))) + '/lib/aspose-cellsjava'
 
@@ -59,6 +60,6 @@ initialize_aspose_cells
 
 Lassen Sie uns den obigen Code verstehen.
 
-1. Die erste Zeile stellt sicher, dass die Aspose-Zellen geladen und verfügbar sind.
-1. Schließen Sie die Dateien ein, die für den Zugriff auf die Aspose-Zellen erforderlich sind.
-1. Initialisieren Sie die Bibliotheken. Die aspose-JAVA-Klassen werden aus dem Pfad geladen, der in der Datei aspose.yml angegeben ist/
+1. Die erste Zeile stellt sicher, dass Aspose Cells geladen und verfügbar ist.
+1. Fügen Sie die Dateien hinzu, die erforderlich sind, um auf Aspose Cells zuzugreifen.
+1. Initialisieren Sie die Bibliotheken. Die Aspose JAVA-Klassen werden aus dem im aspose.yml-Datei bereitgestellten Pfad geladen/

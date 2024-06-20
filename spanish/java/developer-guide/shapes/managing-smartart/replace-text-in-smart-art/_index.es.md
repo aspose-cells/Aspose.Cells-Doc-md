@@ -1,12 +1,13 @@
-﻿---
-title: Reemplazar texto en arte inteligente
+---
+title: Reemplazar texto en el arte inteligente
 type: docs
 weight: 140
 url: /es/java/replace-text-in-smart-art/
 ---
-## **Posibles escenarios de uso**
 
-El arte inteligente es uno de los principales objetos de un libro de trabajo. Muchas veces es necesario actualizar el texto en el arte inteligente. Aspose.Cells proporciona esta función configurando[**Forma.Texto**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text) propiedad.
+## **Escenarios de uso posibles**
+
+Smart art es uno de los principales objetos en un libro de trabajo. Muchas veces hay necesidad de actualizar el texto en smart art. Aspose.Cells proporciona esta función estableciendo la propiedad [**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text).
 
 El archivo fuente de muestra se puede descargar desde el siguiente enlace:
 

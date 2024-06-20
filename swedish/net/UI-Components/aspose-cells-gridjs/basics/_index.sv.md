@@ -1,24 +1,27 @@
-﻿---
-title: Aspose.Cells.GridJs grunder
+---
+title: Aspose.Cells.GridJs grunderna
 type: docs
 weight: 250
 url: /sv/net/aspose-cells-gridjs/basics/
+keywords: GridJs
+description: Den här artikeln introducerar de grundläggande stegen för att ställa in en webbapplikation för GridJs.
 ---
-## Grunderna i GridJs
 
- Aspose.Cells.GridJs är ett .NET standardbibliotek som tillåter användare att utveckla webbapplikationer för att visa/redigera kalkylblad snabbt och enkelt.
+## GridJs-grunder
 
-Aspose.Cells.GridJs stöder import av det populära kalkylarket (XLS, XLSX, XLSM, XLSB, CSV, SpreadsheetML, 07161734) filformat.
+Aspose.Cells.GridJs är ett .NET-standardsbibliotek som låter användare utveckla webbapplikationer för att snabbt och enkelt visa/redigera kalkylblad. 
 
-Det tillåter också export av Excel-filer till PDF, HTML .etc. Nedan är de grundläggande processtegen för att utveckla en webbapplikation av GridJs.
+Aspose.Cells.GridJs stöder import av populära kalkylbladsfilformat (XLS, XLSX, XLSM, XLSB,  CSV, SpreadsheetML, ODS).
 
-- Implementera GridCacheForStream för att skriva din egen affärslogik för cachelagring.
-- Ställ in en kontrollåtgärd för att hämta json från kalkylarksfilen. Du kan använda GridJsWorkbook.ImportExcelFile och GridJsWorkbook.ExportToJson API:er, GridJs lagrar automatiskt spridningsfilen i cache.
-- Ställ in en kontrollåtgärd för att hämta json för uppdateringsåtgärden. Du kan använda GridJsWorkbook.UpdateCell API，GridJs kommer att utföra uppdateringsåtgärder i cachen och returnera den uppdaterade json.
-- Ställ in en kontrollåtgärd för att få bilderna/formfilernas url i kalkylarket, GridJs kommer automatiskt att zippa alla bilder/former i cachen. Den kommer att använda GridCacheForStream.GetFileUrl API.
-- Ställ in en kontrollåtgärd för att få filen i cache, så att vi kan få bilderna/formerna zip-filen eller kalkylarksfilen i cache. Den kommer att använda GridCacheForStream.LoadStream API.
-- Ställ in en kontrollåtgärd för att ladda ner kalkylarket. Du kan använda GridJsWorkbook.SaveToCacheWithFileName API.
+Det tillåter också export av Excel-filer till PDF, HTML etc. Nedan följer de grundläggande processstegen för att utveckla en webbapplikation för GridJs.
 
- Nedan finns en grundläggande demo för att visa användningen av Aspose.Cells.GridJs: https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs
+- Implementera GridCacheForStream för att skriva din egen affärslogik för cachestorage.
+- Ställ in en kontrolleråtgärd för att hämta json från kalkylbladsfilen. Du kan använda GridJsWorkbook.ImportExcelFile och GridJsWorkbook.ExportToJson API:er, GridJs kommer automatiskt lagra spridfilen i cache.
+- Ställ in en kontrolleråtgärd för att hämta json för uppdateringsoperationen. Du kan använda GridJsWorkbook.UpdateCell API, GridJs kommer att utföra uppdateringsoperationen i cachen och returnera den uppdaterade json.
+- Ställ in en kontrolleråtgärd för att hämta bildernas/formernas filadress i kalkylarket. GridJs kommer automatiskt att komprimera alla bilderna/formerna i cachen. Den kommer att använda API:n GridCacheForStream.GetFileUrl.
+- Ställ in en kontrolleråtgärd för att hämta filen i cachen, så att vi kan hämta zip-filen med bilderna/formerna eller kalkylarksfilen i cachen. Den kommer att använda API:n GridCacheForStream.LoadStream.
+- Ställ in en kontrolleråtgärd för att ladda ner kalkylarket. Du kan använda API:n GridJsWorkbook.SaveToCacheWithFileName.
 
-Om du har några frågor, krav eller behöver hjälp, vänligen återkoppla till följande webbplats https://forum.aspose.com/c/cells/9
+Nedan finns en grundläggande demo som visar användningen av Aspose.Cells.GridJs: https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs 
+
+Om du har några frågor, krav eller behöver hjälp, var god kontakta följande webbplats https://forum.aspose.com/c/cells/9

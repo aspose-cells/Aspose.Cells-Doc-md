@@ -1,20 +1,21 @@
-﻿---
-title: Proteger con contraseña o desproteger el libro de trabajo compartido
+---
+title: Proteger o Quitar Protección al Libro de Trabajo Compartido
 type: docs
 weight: 10
 url: /es/net/password-protect-or-unprotect-the-shared-workbook/
 ---
-## **Posibles escenarios de uso**
 
- Puede proteger o desproteger el libro de trabajo compartido con Microsoft Excel como se muestra en la siguiente captura de pantalla. Aspose.Cells también es compatible con esta característica con el[**Libro de trabajo.ProtectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) y[**Libro de trabajo.UnprotectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook)métodos.
+## **Escenarios de uso posibles**
 
-![todo:imagen_alternativa_texto](password-protect-or-unprotect-the-shared-workbook_1.png)
+Puedes proteger o quitar la protección al libro de trabajo compartido con Microsoft Excel como se muestra en la siguiente captura de pantalla. Aspose.Cells también ofrece esta función con los métodos [**Workbook.ProtectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) y [**Workbook.UnprotectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook).
 
-## **Proteger con contraseña o desproteger el libro de trabajo compartido**
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
-El siguiente código de muestra crea un libro de trabajo y lo protege mientras permite compartir y lo guarda como[archivo de salida de Excel](55541777.xlsx). La captura de pantalla muestra que cuando intenta desprotegerlo, Microsoft Excel le solicita que ingrese la contraseña para desprotegerlo.
+## **Proteger o Quitar Protección al Libro de Trabajo Compartido**
 
-![todo:imagen_alternativa_texto](password-protect-or-unprotect-the-shared-workbook_2.png)
+El siguiente código de ejemplo crea un libro de trabajo y lo protege mientras habilita el uso compartido y lo guarda como [archivo de Excel de salida](55541777.xlsx). La captura de pantalla muestra que cuando intentas quitar la protección, Microsoft Excel te pedirá que ingreses la contraseña para quitarla.
+
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)
 
 ## **Código de muestra**
 

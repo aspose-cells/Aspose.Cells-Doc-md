@@ -1,19 +1,20 @@
-﻿---
-title: تصدير التعليقات أثناء حفظ ملف Excel في HTML
+---
+title: تصدير التعليقات أثناء حفظ ملف Excel إلى HTML
 type: docs
 weight: 40
 url: /ar/net/export-comments-while-saving-excel-file-to/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-عند حفظ ملف Excel في HTML ، لا يتم تصدير التعليقات. ومع ذلك ، يوفر Aspose.Cells هذه الميزة باستخدام امتداد[**HtmlSaveOptions.SExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/) خاصية. إذا قمت بتعيينه**حقيقي**، ثم سيعرض HTML أيضًا التعليقات الموجودة في ملف Excel الخاص بك.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **تصدير التعليقات أثناء حفظ ملف Excel في HTML**
+عندما تقوم بحفظ ملف Excel الخاص بك في HTML ، فإن التعليقات لا تتم تصديرها. ومع ذلك ، يوفر Aspose.Cells هذه الميزة باستخدام الخاصية [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/). إذا قمت بتعيين القيمة **true** ، فسيعرض HTML أيضًا التعليقات الموجودة في ملف Excel الخاص بك.
 
-يشرح نموذج التعليمات البرمجية التالي استخدام[**HtmlSaveOptions.SExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/)خاصية. تُظهر لقطة الشاشة تأثير الكود على HTML عند ضبطه على**حقيقي** . يرجى تنزيل ملف[نموذج لملف Excel](50528260.xlsx) و ال[ولدت HTML](5052826.txt) كمرجع.
+## **تصدير التعليقات أثناء حفظ ملف Excel إلى HTML**
 
-![ما يجب القيام به: image_بديل_نص](export-comments-while-saving-excel-file-to-html_1.png)
+يشرح الكود العيني التالي استخدام الخاصية [**HtmlSaveOptions.IsExportComments**](https://docs.aspose.com/cells/net/export-comments-while-saving-excel-file-to/). توضح اللقطة الشاشية تأثير الكود على الHTML عندما يتم تعيينها إلى **true**. يرجى تحميل [ملف Excel العيني](50528260.xlsx) و[HTML المُنشئ](5052826.txt) للرجوع إليها.
 
-## **عينة من الرموز**
+![todo:image_alt_text](export-comments-while-saving-excel-file-to-html_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ExportCommentsWhileSavingExcelFileToHtml.cs" >}}

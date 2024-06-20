@@ -1,6 +1,7 @@
-﻿---
-title: تحويلات المصنف
+---
+title: تحويل المصنفات
 type: docs
 weight: 40
 url: /ar/java/convert-workbook-to-different-formats/
 ---
+

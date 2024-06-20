@@ -1,16 +1,17 @@
 ---
-title: Ställ in kommentaren för tabell eller listobjekt i kalkylbladet
+title: Ange kommentaren för tabellen eller lista objektet i arbetsbladet
 type: docs
 weight: 20
 url: /sv/cpp/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 ---
+
 {{% alert color="primary" %}} 
 
- Ange kommentaren för tabellen eller listobjektet i kalkylbladet med hjälp av[ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/) metod. Kommentaren kommer att vara synlig i filen xl/tables/tableName.xml.
+Ange kommentaren till tabellen eller List-objektet inne i kalkylbladet med hjälp av metoden [ListObject.SetComment](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setcomment/). Kommentaren kommer att synas inuti xl/tables/tableName.xml filen.
 
 {{% /alert %}} 
-##  **Ställ in kommentaren för tabell eller listobjekt i kalkylbladet**
-Följande exempelkod laddar källexcelfilen och ställer in kommentaren för det första tabell- eller listobjektet i kalkylbladet.
+## **Ange kommentaren för tabell eller listobjekt inne i kalkylbladet**
+Följande exempelkod laddar den källa excel filen och ställer in kommentaren på den första tabellen eller listobjektet inne i kalkylbladet.
 
 
 

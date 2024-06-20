@@ -1,16 +1,17 @@
-﻿---
-title: Php'de Kılavuz Çizgilerini Görüntüleme veya Gizleme
+---
+title: PHP de Izgaraları Göster veya Gizle
 type: docs
 weight: 10
 url: /tr/java/display-or-hide-gridlines-in-php/
 ---
-## **Aspose.Cells - Kılavuz Çizgilerini Görüntüle veya Gizle**
-### **Kılavuz Çizgilerini Gizleme**
- kullanarak çalışma sayfasını gizlemek için**Aspose.Cells Java for PHP** , Arama**displayhidegridlines** modül.
 
-**PHP Kodu**
+## **Aspose.Cells - ızgaraları Göster veya Gizle**
+### **Izgaraları Gizleme**
+Aspose.Cells Java for PHP kullanarak çalışma sayfasını gizlemek için **displayhidegridlines** modülünü çağırın.
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -35,6 +36,6 @@ $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Kılavuz Çizgilerini Görüntüle veya Gizle (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+**Aspose.Cells** ile **Izgaraları Göster veya Gizle**'yı aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideGridlines.php)

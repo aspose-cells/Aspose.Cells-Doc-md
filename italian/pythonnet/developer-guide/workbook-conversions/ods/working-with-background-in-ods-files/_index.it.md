@@ -3,41 +3,46 @@ title: Lavorare con lo sfondo nei file ODS
 type: docs
 weight: 150
 url: /it/python-net/working-with-background-in-ods-files/
-description: Come lavorare con lo sfondo nei file ODS con Aspose.Cells for Python via .NET API.
-keywords: Python work with Background in ODS Files, Read Background Information from ODS file Pyton via NET, Add Colored Background to ODS file using Python via NET, Python via NET Add Graphic Background to ODS file.
+description: Come lavorare con lo sfondo nei file ODS con Aspose.Cells per Python via .NET API.
+keywords: Python lavora con lo sfondo nei file ODS, Leggere le informazioni sullo sfondo dal file ODS Pyton via NET, Aggiungere uno sfondo colorato al file ODS usando Python via NET, Python via NET Aggiungi uno sfondo grafico al file ODS.
 ---
-##  **Sfondo nei file ODS**
 
-Lo sfondo può essere aggiunto ai fogli nei file ODS. Lo sfondo può essere uno sfondo colorato o uno sfondo grafico. Lo sfondo non è visibile quando il file è aperto ma se il file viene stampato come PDF, lo sfondo è visibile nel file PDF generato. Lo sfondo è visibile anche nella finestra di dialogo dell'anteprima di stampa.
+## **Sfondo nei file ODS**
 
-Aspose.Cells for Python via .NET offre la possibilità di leggere le informazioni di sfondo e aggiungere lo sfondo nei file ODS.
+Lo sfondo può essere aggiunto ai fogli dei file ODS. Lo sfondo può essere di colore o grafico. Lo sfondo non è visibile quando il file è aperto ma se il file viene stampato come PDF, lo sfondo è visibile nel PDF generato. Lo sfondo è anche visibile nella visualizzazione anteprima di stampa.
 
-##  **Leggi le informazioni di base dal file ODS**
+Aspose.Cells per Python via .NET fornisce la possibilità di leggere le informazioni sullo sfondo e aggiungere lo sfondo nei file ODS.
 
-Aspose.Cells for Python via .NET fornisce il[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) classe per gestire lo sfondo nei file ODS. Nell'esempio di codice seguente viene illustrato l'utilizzo di[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) classe caricando il file[fonte ODS](90112030.ods) file e leggere le informazioni di base. Si prega di consultare l'output della console generato dal codice come riferimento.
+## **Leggi informazioni di sfondo dal file ODS**
 
-###  **Codice d'esempio**
+Aspose.Cells per Python via .NET fornisce la classe [**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) per gestire lo sfondo nei file ODS. Il seguente esempio di codice dimostra l'uso della classe [**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) caricando il file ODS di origine e leggendo le informazioni sullo sfondo. Si prega di vedere l'output della console generato dal codice per riferimento.
+
+### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-ReadODSBackground-1.py" >}}
 
-###  **Uscita della console**
+### **Output della console**
 
-Tipo di sfondo: grafico
+{{< highlight java >}}
 
-Posizione di sfondo: CenterCenter
+Background Type: Graphic
 
-##  **Aggiungi sfondo colorato al file ODS**
+Backgorund Position: CenterCenter
 
-Aspose.Cells for Python via .NET fornisce il[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)classe per gestire lo sfondo nei file ODS. Nell'esempio di codice seguente viene illustrato l'utilizzo di[**OdsPageBackground.color**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/color/) proprietà per aggiungere uno sfondo colorato al file ODS. Si prega di consultare il[uscita ODS](90112031.ods) file generato dal codice come riferimento.
+{{< /highlight >}}
 
-###  **Codice d'esempio**
+## **Aggiungere uno sfondo colorato al file ODS**
+
+Aspose.Cells per Python via .NET fornisce la classe [**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) per gestire lo sfondo nei file ODS. Il seguente esempio di codice dimostra l'uso della proprietà [**OdsPageBackground.color**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/color/) per aggiungere uno sfondo colorato al file ODS. Si prega di vedere il file ODS di output generato dal codice per riferimento.
+
+### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-SetODSColoredBackground-1.py" >}}
 
-##  **Aggiungi sfondo grafico al file ODS**
+## **Aggiungere uno sfondo grafico al file ODS**
 
-Aspose.Cells for Python via .NET fornisce il[**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground)classe per gestire lo sfondo nei file ODS. Nell'esempio di codice seguente viene illustrato l'utilizzo di[**OdsPageBackground.graphic_data**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/graphic_data/)proprietà per aggiungere uno sfondo grafico al file ODS. Si prega di consultare il[uscita ODS](90112030.ods)file generato dal codice come riferimento.
+Aspose.Cells per Python via .NET fornisce la classe [**OdsPageBackground**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground) per gestire lo sfondo nei file ODS. Il seguente esempio di codice dimostra l'uso della proprietà [**OdsPageBackground.graphic_data**](https://reference.aspose.com/cells/python-net/aspose.cells.ods/odspagebackground/graphic_data/) per aggiungere uno sfondo grafico al file ODS. Si prega di vedere il file ODS di output generato dal codice per riferimento.
 
-###  **Codice d'esempio**
+### **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Worksheets-SetODSGraphicBackground-1.py" >}}

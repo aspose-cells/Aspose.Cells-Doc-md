@@ -1,28 +1,29 @@
-﻿---
-title: Platformu ve Diğer Birlikte Çalışabilirlik Teknolojisini Seçin
+---
+title: Platformu ve Diğer Entegrasyon Teknolojisini Seçin
 type: docs
 weight: 10
 url: /tr/java/choose-the-platform-and-other-interoperability-technology/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells, Microsoft Excel® kullanmadan Excel® elektronik tabloları oluşturmanıza, okumanıza, değiştirmenize ve yazmanıza olanak tanıyan bir elektronik tablo işleme bileşenidir.
+Aspose.Cells, Microsoft Excel® kullanmadan Excel® elektronik tablolarını oluşturmanıza, okumanıza, değiştirmenize ve yazmanıza olanak tanıyan bir elektronik tablo işleme bileşenidir. 
 
-- Aspose.Cells for Java - Java sınıfı bir kütüphanedir ve Java uygulamalarında çalışacak şekilde tasarlanmıştır.
+- Aspose.Cells for Java - bir Java sınıf kütüphanesidir ve Java uygulamalarında çalışması için tasarlanmıştır.
 
 {{% /alert %}} 
 
- Diğer platformlar için özel Aspose.Cells sürümleri olmasa da, Aspose.Cells'i aşağıdakiler dahil (ancak bunlarla sınırlı olmamak üzere) diğer birçok programlama dilinde kullanmak mümkündür:
+Diğer platformlar için özel Aspose.Cells sürümleri olmasa da, Aspose.Cells'in (ancak bununla sınırlı olmamak üzere) birçok başka programlama dilinde kullanılması mümkündür. 
 
-|**Programlama dili** |**Kullanmak için Aspose.Cells** |**Birlikte Çalışabilirlik Teknolojisi** |
-|:- |:- |:- |
-| perl|Java | Satır içi::Java|
-| PHP|Java |Java Köprü|
-|Python |Java | JPype|
- Yukarıdaki tablodan bazı programlama dilleri için Aspose.Cells for Java kullanmanın mümkün olduğunu görebilirsiniz. Aşağıdaki tablo seçim yapmanıza yardımcı olabilir:
+|**Programlama Dili** |**Kullanılacak Aspose.Cells** |**Etkileşim Teknolojisi** |
+| :- | :- | :- |
+|Perl |Java |Inline::Java |
+|PHP |Java |Java Bridge |
+|Python |Java |JPype |
+Yukarıdaki tablodan bazı programlama dillerinde Aspose.Cells for Java kullanmanın mümkün olduğunu görebilirsiniz. Aşağıdaki tablo sizin seçmenize yardımcı olabilir: 
 
-|**Senaryo** |**Ne Zaman Kullanılır?** |
-|:- |:- |
-| Aspose.Cells for Java via Java Köprü veya Satır İçi::Java|<p>**Artıları**:</p><p>- Java'in mevcut olduğu herhangi bir platformda mevcuttur.</p><p>- Çağrılması kolay statik yöntemler, parametreli yapıcılar, aşırı yüklenmiş yöntemler ve numaralandırılmış değerleri kullanın.</p>|
-||<p>**Eksileri**: </p><p>- Aspose.Cells for .NET'den daha seyrek sürümlere ve daha az özelliğe sahiptir.</p>|
- Lütfen Aspose.Cells for Java'in for Java uygulamaları olarak tasarlandığını ve diğer programlama dillerinde kullanılmasının bazı teknik sınırlamalara veya geçici çözümlere tabi olduğunu unutmayın.
+|**Senaryo** |**Ne Zaman Kullanılır** |
+| :- | :- |
+|Aspose.Cells for Java via Java Köprü veya İçe Aktar::Java |<p>**Artıları**:</p><p>- Java'nın bulunduğu herhangi bir platformda mevcuttur.</p><p>- Sabit metodları, parametreli kurucuları, aşırı yüklenmiş metotları ve numaralanmış değerleri çağırmak kolaydır.</p>|
+| |<p>**Eksiler**: </p><p>- Daha az sık yayınlanır ve Aspose.Cells for .NET'den daha az özelliğe sahiptir.</p>|
+Lütfen dikkat Aspose.Cells for Java Java uygulamaları için tasarlanmış olup, diğer programlama dillerinde kullanımı bazı teknik kısıtlamalara veya çalışma yöntemlerine tabidir. 

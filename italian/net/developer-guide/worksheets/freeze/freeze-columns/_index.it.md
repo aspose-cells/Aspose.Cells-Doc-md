@@ -1,45 +1,44 @@
 ---
-title: Blocca le prime colonne del foglio di lavoro Excel
-linktitle: Blocca colonne
+title: Congela la prima colonna(o) del foglio di lavoro di Excel
+linktitle: Congelare le colonne
 type: docs
 weight: 190
 url: /it/net/how-to-freeze-columns-of-excel-worksheet
-description: In questo articolo imparerai come bloccare le colonne di sinistra dei fogli di lavoro Excel a livello di codice utilizzando la libreria C# con .NET API.
-keywords: Freeze left columns, Feeze first columns, Lock the column(s)
+description: In questo articolo, imparerai come congelare le colonne di sinistra dei fogli di lavoro di Excel in modo programmato utilizzando la libreria C# con API .NET.
+keywords: Congela le colonne di sinistra, congela le prime colonne, blocca la/e colonna/e
 ---
-{{% alert color="primary" %}}
 
-In questo articolo impareremo come bloccare le colonne di sinistra.
-Quando hai un'enorme quantità di dati in una riga, non riesci a vedere le colonne di sinistra quando scorri orizzontalmente il foglio di lavoro. Puoi bloccare e bloccare le prime colonne in modo da poter vedere quella parte congelata anche quando viene fatto scorrere il resto dei dati. Puoi facilmente vedere le intestazioni nelle colonne di sinistra.
+## **Introduzione**
 
-{{% /alert %}}
-
-##  **Blocca colonne in Excel**
-
-**![Blocca le colonne di sinistra in Excel](freeze-columns.png)**
+In questo articolo, impareremo come bloccare (freezare) colonne a sinistra. Quando hai una grande quantità di dati in una riga, e non riesci a vedere le colonne a sinistra quando scorri orizzontalmente, puoi bloccare e fissare la prima colonna in modo da poter vedere quella parte fissa anche quando si scorrono il resto dei dati. In questo modo, puoi vedere facilmente le intestazioni nelle colonne a sinistra.
 
 
-1. Se desideri bloccare le colonne di sinistra, seleziona prima la colonna sotto la colonna che deve essere bloccata
+## **Congela le colonne In Excel**
+
+**![Congelare la/e colonna/e di sinistra in Excel](freeze-columns.png)**
+
+
+1. Se vuoi congelare la/e colonna/e di sinistra, seleziona prima la colonna sotto la colonna che deve essere congelata
 2. Fare clic su Visualizza > Blocca riquadri.
-3. Nel menu a discesa, fare clic su Blocca prima colonna.
-4. Se scorri verso il basso, la prima colonna è sempre nella vista di sinistra.
+3. Nel menu a discesa, fare clic su Congela la prima colonna.
+4. Se si scorre verso il basso, la prima colonna è sempre nella vista sinistra.
 
-**![Colonna Fonzen](frozen-columns.png)**
+**![Colonna congelata](frozen-columns.png)**
 
-Come puoi vedere la prima colonna è bloccata, la prima colonna è sempre bloccata nella parte superiore della vista quando scorri in orizzontale.
+Come si può vedere, la prima colonna è congelata, è sempre bloccata in alto nella vista quando si scorre orizzontalmente.
 
-Blocca colonne ti consente di visualizzare i tuoi dati lunghi senza tenere traccia della prima colonna.
-
-
+Le colonne fisse ti consentono di visualizzare i tuoi dati lunghi senza tenere traccia della prima colonna.
 
 
-##  **Blocca colonne con Aspose.Cells per .Net**
-È semplice bloccare le prime colonne con Aspose.Cells per .Net.
- Si prega di utilizzare il[**Foglio di lavoro.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/)metodo per tariffare le colonne nella colonna selezionata.
-1. Costruisci cartella di lavoro per aprire il file o creare un file vuoto.
-2. Blocca la prima colonna con il metodo Worksheet.FreezePanes().
+
+
+## **Congelare colonne con Aspose.Cells per .Net**
+È semplice congelare la prima colonna(i) con Aspose.Cells per .Net. 
+Si prega di utilizzare il metodo [**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/) per congelare la/e colonna/e alla colonna selezionata.
+1. Costruire un libro di lavoro per aprire il file o creare un file vuoto.
+2. Congelare la prima colonna con il metodo Worksheet.FreezePanes().
 3. Salvare il file.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Column.cs" >}}
 
- Allegato[file Excel di origine del campione](Freeze.xlsx).
+File Excel di esempio allegato (Freeze.xlsx).

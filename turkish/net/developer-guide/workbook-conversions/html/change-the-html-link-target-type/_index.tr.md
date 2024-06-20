@@ -1,20 +1,21 @@
-﻿---
-title: HTML Bağlantı Hedefi Türünü değiştirin
+---
+title: HTML Bağlantısı Hedef Türünü Değiştirme
 type: docs
 weight: 320
 url: /tr/net/change-the-html-link-target-type/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, HTML bağlantı hedefi türünü değiştirmenizi sağlar. HTML bağlantısı şuna benziyor
+Aspose.Cells, HTML bağlantı hedef türünü değiştirmenize olanak tanır. HTML bağlantısı şuna benzer
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <a href="http://www.aspose.com/" target="_self">
 
 {{< /highlight >}}
 
-Yukarıdaki HTML bağlantısındaki hedef özniteliği görebileceğiniz gibi **_self** şeklindedir. [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) özelliğini kullanarak bu hedef niteliğini kontrol edebilirsiniz. Bu özellik, aşağıdaki değerlere sahip [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) sıralamasını alır.
+Yukarıdaki HTML bağlantısında hedef özniteliği **_self** olarak gösterilir. Bu hedef özniteliğini [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) özelliğini kullanarak kontrol edebilirsiniz. Bu özellik, aşağıdakileri içeren [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) enumunu alır.
 
 - HtmlLinkTargetType.Blank
 - HtmlLinkTargetType.Parent
@@ -23,6 +24,6 @@ Yukarıdaki HTML bağlantısındaki hedef özniteliği görebileceğiniz gibi **
 
 {{% /alert %}}
 
- Aşağıdaki kod kullanımını göstermektedir[**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) Emlak. Bağlantı hedefi türünü şu şekilde değiştirir:**boşluk**. Varsayılan olarak,**ebeveyn**.
+Aşağıdaki kod, [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) özelliğinin kullanımını gösterir. Bağlantı hedef türünü varsayılan olarak **parent** olarak değiştirir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}

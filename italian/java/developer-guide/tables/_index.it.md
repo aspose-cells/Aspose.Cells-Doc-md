@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabelle
 type: docs
 weight: 160

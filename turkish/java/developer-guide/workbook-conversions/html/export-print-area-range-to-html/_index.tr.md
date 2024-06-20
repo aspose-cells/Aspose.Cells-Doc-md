@@ -1,16 +1,17 @@
-﻿---
-title: Yazdırma alanı aralığını HTML olarak dışa aktar
+---
+title: HTML ye Baskı Alanı Aralığını Dışa Aktar
 type: docs
 weight: 60
 url: /tr/java/export-print-area-range-to-html/
 ---
+
 ## Olası Kullanım Senaryoları
 
-Bu, yalnızca yazdırma alanını, yani tüm sayfa yerine seçilen hücre aralığını HTML'e aktarmamız gereken çok yaygın bir senaryodur. Bu özellik, PDF oluşturma için zaten mevcuttur, ancak, şimdi bu görevi HTML için de gerçekleştirebilirsiniz. İlk olarak, çalışma sayfasının sayfa düzeni nesnesinde yazdırma alanını ayarlayın. Daha sonra kullanım[**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportPrintAreaOnly)yalnızca seçilen aralığı dışa aktarma özelliği.
+Bu, sadece baskı alanını yani seçili hücre aralığını tüm sayfa yerine HTML'e dışa aktarmamız gereken çok yaygın bir senaryodur. Bu özellik zaten PDF dönüşümü için kullanılabilir, ancak artık bu görevi HTML için de gerçekleştirebilirsiniz. İlk olarak, çalışsayfa sayfa düzeni nesnesinde baskı alanını ayarlayın. Daha sonra yalnızca seçili aralığı dışa aktarmak için [**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportPrintAreaOnly) özelliğini kullanın.
 
-## Yazdırma alanı aralığını HTML olarak dışa aktarmak için Java kodu
+## Baskı alanı aralığını HTML'e dışa aktarmak için Java kodu
 
-Aşağıdaki örnek kod bir çalışma kitabı yükler ve ardından yazdırma alanını HTML'e verir. Bu özelliği test etmek için örnek dosya aşağıdaki bağlantıdan indirilebilir:
+Aşağıdaki örnek kod, bir çalışma kitabı yükler ve ardından baskı alanını HTML'e dışa aktarır. Bu özelliği test etmek için örnek dosyayı aşağıdaki bağlantıdan indirebilirsiniz:
 
 [sampleInlineCharts.xlsx](79527960.xlsx)
 

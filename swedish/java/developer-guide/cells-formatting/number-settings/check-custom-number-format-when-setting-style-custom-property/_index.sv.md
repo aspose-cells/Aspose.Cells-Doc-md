@@ -1,16 +1,17 @@
-﻿---
-title: Kontrollera Custom Number Format när du ställer in Style.Custom Property
+---
+title: Kontrollera anpassad nummerformatering vid inställning av Style.Custom egenskap
 type: docs
 weight: 160
 url: /sv/java/check-custom-number-format-when-setting-style-custom-property/
 ---
-## **Möjliga användningsscenarier**
 
- Om du tilldelar ogiltigt anpassat nummerformat till[**Style.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)egendom så kommer Aspose.Cells inte att ge något undantag. Men om du vill att Aspose.Cells ska kontrollera om det tilldelade anpassade nummerformatet är giltigt eller inte, ställ in[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) egendom till**Sann**.
+## **Möjliga användningsscenario**
 
-## **Kontrollera Custom Number Format när du ställer in Style.Custom-egenskapen**
+Om du tilldelar ogiltigt anpassat nummerformat till [**Style.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) egenskapen kommer Aspose.Cells inte att kasta något undantag. Men om du vill att Aspose.Cells ska kontrollera om det tilldelade anpassade nummerformatet är giltigt eller inte, vänligen ställ in [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) egenskapen till **true**.
 
- Följande exempelkod tilldelar ett ogiltigt anpassat nummerformat till[**Style.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) fast egendom. Eftersom vi redan har satt[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) egendom till**Sann** , därför kommer API att kasta CellsException t.ex*Ogiltigt nummerformat*.
+## **Kontrollera det anpassade nummerformatet när du ställer in Style.Custom-egenskapen**
+
+Det följande kodexemplet tilldelar ett ogiltigt anpassat nummerformat till [**Style.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) egenskapen. Eftersom vi redan har ställt in [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) egenskapen till **true**, kommer API:et att kasta CellsException t.ex. *Ogiltigt nummerformat*.
 
 ## **Exempelkod**
 

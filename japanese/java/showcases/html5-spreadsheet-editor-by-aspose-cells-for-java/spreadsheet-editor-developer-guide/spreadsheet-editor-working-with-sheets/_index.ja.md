@@ -1,42 +1,43 @@
-﻿---
-title: スプレッドシート エディター - シートの操作
+---
+title: スプレッドシートエディタ  シートの操作
 type: docs
 weight: 20
 url: /ja/java/spreadsheet-editor-working-with-sheets/
 ---
+
 **目次**
 
-- [シートを追加および削除しますか?](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
- - WorksheetView.onAddNewSheet
- - WorksheetView.onRemoveActiveSheet
+- [シートの追加と削除は?](#SpreadsheetEditor-WorkingwithSheets-AddandRemoveSheets?) 
+  - WorksheetView.onAddNewSheet
+  - WorksheetView.onRemoveActiveSheet
 - [シートの名前を変更](#SpreadsheetEditor-WorkingwithSheets-RenameSheets) 
- WorksheetView.setActiveSheet
-- [シートを切り替える](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
- WorksheetView.setActiveSheet
-### **シートを追加および削除しますか?**
-Microsoft Excel では、1 つのファイルに複数のシートを含めることができます。 HTML5 スプレッドシート エディターを使用すると、ユーザーはシートを追加および削除できます。 [シート] タブには、シートのドロップダウン リストがあります。選択したシートは、エディターによって開かれるシートです。
+  - WorksheetView.setActiveSheet
+- [シート間を切り替える](#SpreadsheetEditor-WorkingwithSheets-SwitchbetweenSheets) 
+  - WorksheetView.setActiveSheet
+### **シートの追加と削除は?**
+Microsoft Excel では単一ファイル内に複数のシートを持つことができます HTML5 スプレッドシートエディタではユーザーがシートを追加または削除することができます。シートタブにはシートのドロップダウンリストがあります。選択したシートは、エディタによって開かれるシートです。
 
 新しいシートを追加するには:
 
-1. 切り替える**シート タブ**.
-1. **+** (プラス) ボタンをクリックします。
+1. **シートタブ**に切り替えます。
+1. **+**(プラス)ボタンをクリックします。
 
-新しいシートが追加され、エディターがそれに切り替わります。
+新しいシートが追加され、エディタはそれに切り替わります。
 
 現在選択されているシートを削除するには:
 
-1. 切り替える**シート タブ**.
-1. **-** (マイナス) ボタンをクリックします。
+1. **シートタブ**に切り替えます。
+1. **-**(マイナス)ボタンをクリックします。
 
-現在選択されているシートが削除され、エディターは最後に選択されたシートに切り替わります。
+現在選択されているシートが削除され、エディタは前回選択された物に切り替わります。
 
-![todo:画像_代替_文章](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**使い方？**
+**動作仕様**
 
-ユーザーがクリックすると**+** (プラス) と**-**(マイナス) ボタンがクリックされると、JSF バックエンド Bean**ワークシート ビュー**を使用してイベントを処理します**WorksheetView.onAddNewSheet**と**WorksheetView.onRemoveActiveSheet** メソッド。
+ユーザが**+** (プラス) および **-** (マイナス) ボタンをクリックすると、JSFバックエンドビーン**WorksheetView**が**WorksheetView.onAddNewSheet**および**WorksheetView.onRemoveActiveSheet**メソッドを使用してイベントを処理します。
 #### **WorksheetView.onAddNewSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onAddNewSheet() {
 
@@ -63,7 +64,7 @@ Microsoft Excel では、1 つのファイルに複数のシートを含める�
 {{< /highlight >}}
 
 #### **WorksheetView.onRemoveActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void onRemoveActiveSheet() {
 
@@ -99,20 +100,20 @@ Microsoft Excel では、1 つのファイルに複数のシートを含める�
 ### **シートの名前を変更**
 シートの名前を変更するには:
 
-1. 切り替える**シート タブ**.
-1. テキスト ボックス内のシート名をクリックして編集します。
+1. **シートタブ**に切り替えます。
+1. テキストボックス内のシート名をクリックして編集します。
 1. シートの名前を変更します。
-1. 終了したら、ENTER キーを押すか、ボックスの外側をクリックします。
+1. 終了したら、ENTERキーを押すか、ボックスの外をクリックします。
 
 シートの名前が変更されます。
 
-![todo:画像_代替_文章](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**使い方？**
+**動作仕様**
 
-テキストボックスの値が変更されると、イベントはサーバー上で JSF バックエンド Bean によって処理されます**ワークシート ビュー**メソッドを使用して**WorksheetView.setActiveSheet**.
+テキストボックスの値が変更されると、イベントはサーバ上でJSFバックエンドビーン**WorksheetView**によって**WorksheetView.setActiveSheet**メソッドを使用して処理されます。
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 
@@ -135,21 +136,21 @@ Microsoft Excel では、1 つのファイルに複数のシートを含める�
     }
 
 {{< /highlight >}}
-### **シートを切り替える**
+### **シート間を切り替える**
 別のシートに切り替えるには:
 
-1. 切り替える**シート タブ**.
-1. ドロップダウン メニューからシートを選択します。
+1. **シートタブ**に切り替えます。
+1. ドロップダウンメニューからシートを選択します。
 
 エディタが選択したシートに切り替わります。
 
-![todo:画像_代替_文章](4wgvmu8.png)
+![todo:image_alt_text](4wgvmu8.png)
 
-**使い方？**
+**動作仕様**
 
-ドロップダウン セレクターの値が変更されると、イベントはサーバー上で JSF バックエンド Bean によって処理されます。**ワークシート ビュー**メソッドを使用して**WorksheetView.setActiveSheet**.
+ドロップダウンセレクタの値が変更されると、イベントはサーバ上でJSFバックエンドビーン**WorksheetView**によって**WorksheetView.setActiveSheet**メソッドを使用して処理されます。
 #### **WorksheetView.setActiveSheet**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setActiveSheet(String name) {
 

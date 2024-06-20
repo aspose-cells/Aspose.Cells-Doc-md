@@ -1,30 +1,31 @@
 ---
-title: Licensing
+title: Licensiering
 type: docs
 weight: 120
 url: /sv/net/licensing/
-description: Aspose.Cells for .NET tillhandahåller olika planer för köp eller erbjuder en gratis provperiod och en 30-dagars tillfällig licens för utvärdering med Licensing och prenumerationspolicyer i C#.
-keywords: C# Apply License from Disk or Stream. C# Set License from Disk or Stream. Apply License in Aspose.Cells for NET.
+description: Aspose.Cells for .NET erbjuder olika planer för köp eller erbjuder en Gratis test och en 30 dagars provlicens för utvärdering med licensiering och prenumerationspolicyer i C#.
+keywords: C# Tillämpa licens från disk eller ström. C# Ange licens från disk eller ström. Tillämpa licens i Aspose.Cells for NET.
 ---
-##  **Hur man ansöker om en licens i Aspose.Cells-komponenten**
 
-Licensen är en XML-fil i vanlig text som innehåller detaljer som produktnamn, antal utvecklare den är licensierad till, prenumerationsutgångsdatum och så vidare. Filen är digitalt signerad, så ändra inte filen. Även oavsiktligt tillägg av en extra radbrytning i filen kommer att ogiltigförklara den. Du måste ställa in en licens innan du använder Aspose.Cells om du vill undvika dess utvärderingsbegränsning. Det krävs bara att ställa in en licens en gång per ansökan (eller process). Licensen kan laddas från en fil, stream eller en inbäddad resurs.
+## **Hur man ansöker om en licens i Aspose.Cells-komponenten**
+
+Licensen är en vanlig XML-fil som innehåller detaljer som produktens namn, antal utvecklare som det är licensierat till, prenumerationens utgångsdatum och så vidare. Filen är digitalt signerad, så ändra inte filen. Även oavsiktlig tillägg av en extra radbrytning i filen kommer att ogiltigförklara den. Du behöver ange en licens innan du använder Aspose.Cells om du vill undvika dess utvärderingsbegränsning. Det krävs endast att ange en licens en gång per applikation (eller process). Licensen kan laddas från en fil, ström eller en inbäddad resurs.
 
 Aspose.Cells försöker hitta licensen på följande platser:
 
-- Explicit väg
+- Explicit sökväg
 - Mappen som innehåller Aspose.Cells.dll
-- Mappen som innehåller sammansättningen som anropade Aspose.Cells.dll
-- Mappen som innehåller postsammansättningen (din .exe)
-- En inbäddad resurs i sammansättningen som anropade Aspose.Cells.dll
+- Mappen som innehåller sammansättningen som kallade Aspose.Cells.dll
+- Mappen som innehåller ingångsammansättningen (din .exe)
+- En inbäddad resurs i sammansättningen som kallade Aspose.Cells.dll
 
-Det finns två vanliga metoder för att tillämpa en licens, från fil eller stream, eller som en inbäddad resurs.
+Det finns två vanliga metoder för att tillämpa en licens, från en fil eller ström, eller som en inbäddad resurs.
 
-###  **Hur man ansöker om en licens från disk eller stream**
+### **Hur man tillämpar en licens från disk eller ström**
 
-Det enklaste sättet att ställa in en licens är att lägga licensfilen i samma mapp som den för Aspose.Cells.dll och ange bara filnamnet utan dess sökväg.
+Det enklaste sättet att ange en licens är att placera licensfilen i samma mapp som Aspose.Cells.dll och ange bara filnamnet utan dess sökväg.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate an instance of license and set the license file through its path
 
@@ -36,13 +37,13 @@ license.SetLicense("Aspose.Cells.lic");
 
 {{% alert color="primary" %}}
 
-När du anropar SetLicense-metoden bör licensnamnet vara detsamma som för ditt licensfilnamn. Du kan till exempel ändra licensfilens namn till *Aspose.Cells.lic.xml**. Sedan ska du i din kod använda det modifierade licensnamnet (**Aspose.Cells.lic.xml**) för SetLicense-metoden.
+När du anropar SetLicense-metoden bör licensnamnet vara samma som namnet på din licensfil. Till exempel kan du ändra licensfilens namn till **Aspose.Cells.lic.xml**. Sedan i din kod ska du använda det modifierade licensnamnet (**Aspose.Cells.lic.xml**) för SetLicense-metoden.
 
 {{% /alert %}}
 
-Det är också möjligt att ladda en licens från en stream.
+Det är också möjligt att ladda en licens från en ström.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate an instance of license and set the license through a stream
 
@@ -52,13 +53,13 @@ license.SetLicense(myStream);
 
 {{< /highlight >}}
 
-###  **Hur man ansöker om mätlicens**
+### **Hur man ansöker om ett metered licens**
 
-Aspose.Cells tillåter utvecklare att använda uppmätt nyckel. Det är en ny licensmekanism. Den nya licensmekanismen kommer att användas tillsammans med den befintliga licensmetoden. De kunder som vill bli fakturerade baserat på användningen av API-funktionerna kan använda den uppmätta licensen. För mer information, se[Mät Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered)sektion.
+Aspose.Cells tillåter utvecklare att tillämpa meterednyckel. Det är en ny licensieringsmekanism. Den nya licensieringsmekanismen kommer att användas tillsammans med den befintliga licensieringsmetoden. De kunder som vill faktureras utifrån användningen av API-funktionerna kan använda den metered licensieringen. För mer information, vänligen hänvisa till [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) avsnittet.  
 
-En ny klass[Uppmätt](https://reference.aspose.com/cells/net/aspose.cells/metered)har införts för att tillämpa mätt nyckel. Följande är exempelkoden som visar hur man ställer in mätt offentlig och privat nyckel.
+En ny klass [Metered](https://reference.aspose.com/cells/net/aspose.cells/metered) har introducerats för att tillämpa en mätad nyckel. Följande är exempelkoden som demonstrerar hur man ställer in en mättad offentlig och privat nyckel.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Set metered public and private keys
 
@@ -98,16 +99,16 @@ Console.WriteLine(amountAfter);
 
 {{< /highlight >}}
 
-###  **Hur man använder en inbäddad resurs**
+### **Hur man använder en inbäddad resurs**
 
-Ett annat snyggt sätt att paketera licensen med din applikation och se till att den inte går förlorad, är att inkludera den som en inbäddad resurs i en av sammansättningarna som anropar Aspose.Cells. För att inkludera licensfilen som en inbäddad resurs, utför följande steg :
+Ett annat bra sätt att paketera licensen med din applikation och se till att den inte går förlorad, är att inkludera den som en inbäddad resurs i en av sammansättningarna som kallar Aspose.Cells. För att inkludera licensfilen som en inbäddad resurs, utför följande steg:
 
-1.  I Visual Studio .NET, inkludera licensfilen (.lic) i projektet genom att välja**Lägg till befintligt objekt** från**Fil** meny.
-1.  Välj filen i Solution Explorer och ställ in**Bygg Action** till**Inbäddad resurs** i fönstret Egenskaper
+1. I Visual Studio .NET, inkludera licensen (.lic) filen i projektet genom att välja **Lägg till befintligt objekt** från **Arkiv**-menyn.
+1. Välj filen i Lösningen Utforskaren och ställ in **Byggåtgärd** till **Inbäddad resurs** i Egenskapsfönstret
 
-För att få åtkomst till licensen som är inbäddad i sammansättningen (som inbäddad resurs) behövs det inte anropas GetExecutingAssembly och GetManifestResourceStream metoder för System.Reflection.Assembly klass Microsoft .NET Framework. Allt du behöver göra är att bara lägga till licensfilen som en inbäddad resurs till ditt projekt och skicka in namnet på licensfilen till SetLicense-metoden. De**Aspose.Cells.License** class hittar automatiskt licensfilen i de inbäddade resurserna. Vänligen granska exemplet nedan för att förstå denna metod för att ställa in licens (inbäddad) i dina applikationer.
+För att komma åt licensen som är inbäddad i sammansättningen (som inbäddad resurs) behövs det inte att använda System.Reflection.Assembly-klassens GetExecutingAssembly- och GetManifestResourceStream-metoder i Microsoft .NET Framework. Allt som behövs att göra är att helt enkelt lägga till licensfilen som en inbäddad resurs i ditt projekt och skicka namnet på licensfilen till SetLicense-metoden. **Aspose.Cells.License**-klassen hittar automatiskt licensfilen i de inbäddade resurserna. Vänligen granska exemplet nedan för att förstå denna metod för att ställa in licensen (inbäddad) i dina applikationer.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the License class
 
@@ -119,27 +120,27 @@ license.SetLicense("Aspose.Cells.lic");
 
 {{< /highlight >}}
 
-##  **Hur man ställer in licens i Aspose.Cells Grid Controls**
+## **Hur man ställer in licensen i Aspose.Cells Rutsystem**
 
 I Aspose.Cells Grid Suite kan licensen laddas från en fil, ström eller en inbäddad resurs. Aspose.Cells.GridDesktop / Aspose.Cells.GridWeb försöker hitta licensen på följande platser:
 
-1. Explicit väg
-1. Mappen som innehåller komponentens dll (ingår i Aspose.Cells.GridDesktop eller Aspose.Cells.GridWeb)
-1. Mappen som innehåller sammansättningen som anropade komponentens dll (ingår i Aspose.Cells.GridDesktop eller Aspose.Cells.GridWeb)
-1. Mappen som innehåller postsammansättningen (din .exe)
-1. En inbäddad resurs i sammansättningen som anropade komponentens dll (ingår i Aspose.Cells.GridDesktop eller Aspose.Cells.GridWeb)
+1. Explicit sökväg
+1. Mappen som innehåller dll för komponenten (inkluderad i Aspose.Cells.GridDesktop eller Aspose.Cells.GridWeb)
+1. Mappen som innehåller sammansättningen som kallade dll för komponenten (inkluderad i Aspose.Cells.GridDesktop eller Aspose.Cells.GridWeb)
+1. Mappen som innehåller ingångsammansättningen (din .exe)
+1. En inbäddad resurs i sammansättningen som kallade dll för komponenten (inkluderad i Aspose.Cells.GridDesktop eller Aspose.Cells.GridWeb)
 
 {{% alert color="primary" %}}
 
-Om du använder Aspose.Cells.GridDesktop-kontroll kommer licensklassen att användas som Aspose.Cells.GridDesktop.License men om du använder Aspose.Cells.GridWeb-kontroll kommer Aspose.Cells.GridWeb.License-klassen att användas för att ställa in licensen.
+Om du använder Aspose.Cells.GridDesktop kontrollen kommer licensklassen att användas som Aspose.Cells.GridDesktop.License men om du använder Aspose.Cells.GridWeb kontrollen kommer Aspose.Cells.GridWeb.License klassen att användas för att ställa in licensen.
 
 {{% /alert %}}
 
-###  **Hur man ansöker om en licens från disk eller stream**
+### **Hur man tillämpar en licens från disk eller ström**
 
-Det enklaste sättet att ställa in en licens är att lägga licensfilen i samma mapp som den för komponentens dll (ingår i Aspose.Cells.GridWeb) och ange bara filnamnet utan dess sökväg.
+Det enklaste sättet att ange en licens är att placera licensfilen i samma mapp som dll för komponenten (inkluderad i Aspose.Cells.GridWeb) och ange bara filnamnet utan dess sökväg.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate an instance of license and set the license file through its path
 
@@ -151,13 +152,13 @@ license.SetLicense("MyLicense.lic");
 
 {{% alert color="primary" %}}
 
-När du anropar SetLicense-metoden bör licensnamnet vara detsamma som för ditt licensfilnamn. Du kan till exempel ändra licensfilens namn till "MyLicense.lic.xml". Sedan ska du i din kod använda det modifierade licensnamnet (det vill säga MyLicense.lic.xml) för SetLicense-metoden.
+När du anropar SetLicense-metoden bör licensnamnet vara samma som namnet på din licensfil. Till exempel kan du ändra licensfilens namn till "MyLicense.lic.xml". Sedan i din kod ska du använda det modifierade licensnamnet (det vill säga MyLicense.lic.xml) för SetLicense-metoden.
 
 {{% /alert %}}
 
-Det är också möjligt att ladda en licens från en stream.
+Det är också möjligt att ladda en licens från en ström.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Instantiate an instance of license and set the license through a stream
 
@@ -167,17 +168,17 @@ license.SetLicense(myStream);
 
 {{< /highlight >}}
 
-###  **Hur man ansöker om en licens som en inbäddad resurs**
+### **Hur man tillämpar en licens som en inbäddad resurs**
 
-Ett annat snyggt sätt att paketera licensen med din applikation och se till att den inte går förlorad, är att inkludera den som en inbäddad resurs i en av assemblyerna som anropar komponentens dll (ingår i Aspose.Cells.GridDesktop). För att inkludera licensfilen som en inbäddad resurs, utför följande steg:
+Ett annat bra sätt att paketera licensen med din applikation och se till att den inte försvinner är att inkludera den som en inbäddad resurs i en av de assemblys som anropar dll för komponenten (inkluderad i Aspose.Cells.GridDesktop). För att inkludera licensfilen som en inbäddad resurs, utför följande steg:
 
-1.  I Visual Studio .NET, inkludera licensfilen (.lic) i projektet med hjälp av**Lägg till befintligt objekt** alternativ på**Fil** meny.
-1. Välj filen i Solution Explorer och ställ in Build Action till Embedded Resource i fönstret Egenskaper.
-1. För att få åtkomst till licensen som är inbäddad i sammansättningen (som inbäddad resurs) behövs det inte anropas metoderna GetExecutingAssembly och GetManifestResourceStream för klassen System.Reflection.Assembly av Microsoft .NET Framework. Lägg istället till licensfilen som en inbäddad resurs som en inbäddad resurs. projekt och skicka namnet på licensfilen till SetLicense-metoden. Klassen License hittar automatiskt licensfilen i de inbäddade resurserna.
+1. I Visual Studio .NET, inkludera licensen (.lic) filen i projektet med hjälp av alternativet **Lägg till befintlig post** i menyn **Fil**.
+1. Välj filen i Lösning Utforskaren och ställ in Byggåtgärd till Inbäddad Resurs i Egenskapsfönstret.
+1. För att komma åt licensen inbäddad i assemblyn (som inbäddad resurs) behöver du inte anropa GetExecutingAssembly och GetManifestResourceStream metoder i Microsoft .NET Framework.System.Reflection.Assembly klass. Lägg istället till licensfilen som en inbäddad resurs i ditt projekt och skicka namnet på licensfilen till SetLicense metoden. Licensklassen hittar automatiskt licensfilen i de inbäddade resurserna.
 
-Vänligen granska exemplet nedan för att förstå denna metod för att tillämpa en licens som en inbäddad resurs till dina applikationer.
+Vänligen granska exemplet nedan för att förstå denna metod att tillämpa en licens som en inbäddad resurs för dina applikationer.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the License class
 
@@ -189,11 +190,11 @@ license.SetLicense("Aspose.Total.lic");
 
 {{< /highlight >}}
 
-##  **Hur man ansöker om en licens i Aspose.Cells.GridDesktop för en WinForm-applikation**
+## **Hur man tillämpar en licens i Aspose.Cells.GridDesktop för en WinForm-applikation**
 
-Det rekommenderas att du lägger in din licenskod innan din ansökan startar och att du bara använder den en gång. Till exempel, för ett Windows C#-program, lägg in licenskoden i huvudmetoden.
+Det rekommenderas att du placerar din licensieringskod innan din applikation startar och tillämpar den endast en gång. Till exempel, för en Windows C#-applikation, placera licensieringskoden i Main-metoden.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 public class Form1 : System.Windows.Forms.Form
 
@@ -277,11 +278,11 @@ gridDesktop1.ActiveSheetIndex = 1;
 
 {{< /highlight >}}
 
-##  **Anmärkningar om att tillämpa en licens i Aspose.Cells.GridWeb**
+## **Noteringar om att tillämpa en licens i Aspose.Cells.GridWeb**
 
-Det rekommenderas att du lägger in licenskoden i Global.asax.cs för din webbapplikation (denna licensfil antas vara placerad på " d:\ "-enheten):
+Det rekommenderas att placera licensieringskoden i Global.asax.cs för din webbapplikation (den här licensfilen antas vara placerad på "d:\ " enheten):
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void Application_Start(Object sender, EventArgs e)
 
@@ -295,9 +296,9 @@ Det rekommenderas att du lägger in licenskoden i Global.asax.cs för din webbap
 
 {{< /highlight >}}
 
-Laddar en licens från en ström
+Ladda en licens från en ström
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void Application_Start(Object sender, EventArgs e)
 

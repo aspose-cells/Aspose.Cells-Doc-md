@@ -1,17 +1,20 @@
-﻿---
-title: GridCell コメントの削除と取得の作成
+---
+title: GridCellコメントの作成、削除、取得
 type: docs
 weight: 100
-url: /ja/net/create-remove-and-get-gridcell-comments/
+url: /ja/net/aspose-cells-gridweb/manage-comment/
+keywords: GridWeb,comment
+description: この記事では、GridWeb内のコメントの処理方法について紹介しています。
 ---
-## **考えられる使用シナリオ**
-次の記事では、GridWeb ワークシート内で GridCell コメントを作成、削除、および取得する方法について説明します。このスクリーンショットに示すように、セルの上にマウスを移動すると、MS-Excel のように GridWeb がコメントをツールチップとして表示することに注意してください。
 
-![todo:画像_代替_文章](create-remove-and-get-gridcell-comments_1.png)
-## **Cell 内に Comment オブジェクトを作成する**
-GridCell.CreateComment メソッドを使用して、セル内にコメント オブジェクトを作成してください。次のサンプル コードは、GridWeb の最初のワークシートのセル B4 にサンプル コメントを作成します。
+## **可能な使用シナリオ**
+次の記事では、GridWebワークシート内のセル（GridCell）からコメントを作成、削除、取得する方法について説明します。GridWebは、セル上でマウスをホバーすると、MS-Excelのようにコメントをツールチップとして表示します。
 
-{{< highlight "java" >}}
+![todo:image_alt_text](create-remove-and-get-gridcell-comments_1.png)
+## **セル内にコメントオブジェクトを作成**
+セル内にコメントオブジェクトを作成するには、GridCell.CreateCommentメソッドを使用してください。次のサンプルコードは、GridWebの最初のワークシートのセルB4にサンプルコメントを作成します。
+
+{{< highlight java >}}
 
  //Access first worksheet of GridWeb
 
@@ -28,12 +31,12 @@ GridCell cell = sheet.Cells["B4"];
 cell.CreateComment("This is a B4 note.", "Peter", true);
 
 {{< /highlight >}}
-## **Cell から Comment オブジェクトを削除します**
-GridCell.RemoveComment メソッドを使用して、セルからコメント オブジェクトを削除してください。次のサンプル コードは、GridWeb の最初のワークシート内のセル B4 コメントを削除します。
+## **セルからコメントオブジェクトを削除**
+セルからコメントオブジェクトを削除するには、GridCell.RemoveCommentメソッドを使用してください。次のサンプルコードは、GridWebの最初のワークシートのセルB4のコメントを削除します。
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Access first worksheet of GridWeb
 
@@ -48,10 +51,10 @@ GridCell cell = sheet.Cells["B4"];
 cell.RemoveComment();
 
 {{< /highlight >}}
-## **Cell からコメントオブジェクトを取得**
-GridCell.GetComment() メソッドを使用して、セルからコメント オブジェクトを取得してください。次のサンプル コードは、セル B4 からコメント オブジェクトを取得し、Author、Note、Visibility などのさまざまなプロパティにアクセスします。
+## **セルからコメントオブジェクトを取得**
+セルからコメントオブジェクトを取得するには、GridCell.GetComment()メソッドを使用してください。次のサンプルコードは、セルB4からコメントオブジェクトを取得し、その作者、ノート、表示などのさまざまなプロパティにアクセスします。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Access first worksheet of GridWeb
 

@@ -1,16 +1,17 @@
-﻿---
-title: Php'de Çalışma Sayfalarını Yönetme
+---
+title: Php de Çalışma Sayfalarını Yönetme
 type: docs
 weight: 10
 url: /tr/java/managing-worksheets-in-php/
 ---
+
 ## **Aspose.Cells - Çalışma Sayfalarını Yönetme**
-### **Çalışma Sayfalarını Yeni Bir Excel Dosyasına Ekleme**
- Çalışma Sayfası'nı kullanarak yeni bir Excel dosyasına eklemek için**Aspose.Cells Java for PHP** , aramanız yeterli**add_worksheet** yöntemi**YönetimÇalışma Sayfaları** modül.
+### **Yeni bir Excel Dosyasına Çalışsayfalar Ekleme**
+Yeni bir Excel dosyasına **Aspose.Cells Java for PHP** kullanarak Çalışsayfa eklemek için, **ManagingWorksheets** modülünün **add_worksheet** yöntemini çağırın.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Workbook object
 
@@ -33,12 +34,12 @@ $worksheet->setName("My Worksheet");
 $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
-### **Sayfa Adını Kullanarak Çalışma Sayfalarını Kaldırma**
- Çalışma sayfasını kullanarak sayfa adına göre kaldırmak için**Aspose.Cells Java for PHP** , aramanız yeterli**remove_worksheet_by_name** yöntemi**YönetimÇalışma Sayfaları** modül.
+### **Sayfa Adını Kullanarak Çalışsayfaları Kaldırma**
+**Aspose.Cells Java for PHP** kullanarak sayfa adını kullanarak çalışma sayfasını kaldırmak için **MangingWorksheets** modülünün **remove_worksheet_by_name** yöntemini çağırın.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,12 +62,12 @@ $workbook->save($dataDir . "book.out.xls");
 $fstream->close();
 
 {{< /highlight >}}
-### **Sayfa Dizini Kullanarak Çalışma Sayfalarını Kaldırma**
- Çalışma sayfasını kullanarak sayfa dizinine göre kaldırmak için**Aspose.Cells Java for PHP** , aramanız yeterli**remove_worksheet_by_index** yöntemi**YönetimÇalışma Sayfaları** modül.
+### **Sayfa Dizinini Kullanarak Çalışma Sayfalarını Kaldırma**
+**Aspose.Cells Java for PHP** kullanarak sayfa indeksini kullanarak çalışma sayfasını kaldırmak için **MangingWorksheets** modülünün **remove_worksheet_by_index** yöntemini çağırın.
 
-**PHP Kodu**
+PHP Kodu
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -90,6 +91,6 @@ $fstream->close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Çalışma Sayfalarını Yönetme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Yönetim Çalışma Sayfalarını (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

@@ -1,21 +1,22 @@
-﻿---
-title: Cell アライメント設定
+---
+title: セルの配置設定
 type: docs
 weight: 20
 url: /ja/java/cell-alignment-settings/
 ---
-## **Aspose.Cells - Cell アライメント設定**
-Aspose.Cells は、Excel ファイルを表すクラス Workbook を提供します。 Workbook クラスには、Excel ファイル内の各ワークシートへのアクセスを許可する WorksheetCollection が含まれています。ワークシートは Worksheet クラスによって表されます。
 
-Worksheet クラスは Cells コレクションを提供します。 Cells コレクションの各アイテムは、Cell クラスのオブジェクトを表します。
+## **Aspose.Cells - セルの配置設定**
+Aspose.Cells は、Excelファイルを表す Workbook クラスを提供します。Workbook クラスには、Excelファイル内の各ワークシートにアクセスできるWorksheetCollection が含まれています。ワークシートは Worksheet クラスで表されます。
 
-Aspose.Cells は、セルの書式設定に使用される Cell クラスの setStyle メソッドを提供します。 Style クラスは、フォント設定を構成するための便利なプロパティを提供します。
+Worksheet クラスは、Cells コレクションを提供します。Cells コレクション内の各アイテムは Cell クラスのオブジェクトを表します。
 
-TextAlignmentType 列挙体を使用して、任意のテキスト配置タイプを選択します。
+Aspose.Cells は Cell クラスの setStyle メソッドを提供しており、セルの書式設定に使用されます。スタイルクラスには、フォント設定を構成するための有用なプロパティが提供されています。
+
+TextAlignmentType 列挙型を使用して任意のテキスト配置タイプを選択します。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -48,14 +49,14 @@ style.setHorizontalAlignment(TextAlignmentType.CENTER);
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF & XSSF - Cell アライメント設定**
-HSSFCellStyle は、Apache POI API を使用して、セル内の配置のスタイルを提供します。
+## **Apache POI SS - HSSF & XSSF - セルの配置設定**
+HSSFCellStyle は Apache POI API を使用してセル内の配置のスタイルを提供します。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws IOException
+ public static void main(String[] args) throws IOException
 
 {
 
@@ -126,13 +127,13 @@ private static void createCell(HSSFWorkbook wb, HSSFRow row, int column, int ali
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/cellalignment)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[配置設定の構成](/cells/ja/java/data-formatting/).
+詳細については、[配置設定の構成](/cells/ja/java/data-formatting/)をご覧ください。
 
 {{% /alert %}}

@@ -1,17 +1,18 @@
-﻿---
-title: Conversione del foglio di lavoro in immagine in Aspose.Cells
+---
+title: Convertire un Foglio di Lavori in un Immagine in Aspose.Cells
 type: docs
 weight: 20
 url: /it/net/converting-worksheet-to-image-in-aspose-cells/
 ---
+
 Questo documento è progettato per fornire agli sviluppatori una comprensione dettagliata su come convertire un foglio di lavoro in un file immagine e un foglio di lavoro con più pagine in un file immagine per pagina.
- A volte, potrebbe essere necessario presentare i fogli di lavoro come immagini, ad esempio per utilizzarli in applicazioni o pagine Web. Potrebbe essere necessario inserire le immagini in un documento Word, a**PDF** file, una presentazione PowerPoint o usali in qualche altro scenario. Semplicemente, vuoi rendere il foglio di lavoro come un'immagine. Aspose.Cells supporta la conversione di fogli di lavoro in file Excel Microsoft in immagini. Anche,**Aspose.Cells** supporta la conversione di una cartella di lavoro in più file immagine, uno per pagina.
+A volte potresti avere bisogno di presentare i fogli di lavoro come immagini, ad esempio per utilizzarli in applicazioni o pagine web. Potresti aver bisogno di inserire le immagini in un documento Word, un file **PDF**, una presentazione PowerPoint o utilizzarle in qualche altro scenario. In poche parole, vuoi rendere il foglio di lavoro come un'immagine. Aspose.Cells supporta la conversione dei fogli di lavoro nei file di Microsoft Excel in immagini. Inoltre, **Aspose.Cells** supporta la conversione di un libro in più file immagine, uno per pagina.
 
-È possibile utilizzare Office Automation per raggiungere questo obiettivo, ma l'automazione di Office ha i suoi svantaggi. Ci sono diversi motivi e problemi coinvolti: ad esempio sicurezza, stabilità, scalabilità/velocità, prezzo e funzionalità. Insomma, i motivi sono tanti, ma il principale è che gli stessi Microsoft sconsigliano vivamente Office automation.
+Potresti usare l'automazione di Office per ottenere questo, ma l'automazione di Office ha i suoi svantaggi. Ci sono diversi motivi e problemi coinvolti: ad esempio sicurezza, stabilità, scalabilità/velocità, prezzo e funzionalità. In sintesi, ci sono molte ragioni, ma la principale è che Microsoft stessa sconsiglia fortemente l'automazione di Office.
 
-Questo articolo mostra come creare un'applicazione console in Visual Studio.Net, convertire un foglio di lavoro in un'immagine e un foglio di lavoro in un'immagine per ogni foglio di lavoro con poche e semplici righe di codice utilizzando Aspose.Cells API.È necessario importare Aspose.Cells.Rendering spazio dei nomi al tuo programma/progetto. Ha diverse classi preziose, ad esempio SheetRender, ImageOrPrintOptions, WorkbookRender ecc.Aspose.Cells.La classe Rendering.SheetRender rappresenta un foglio di lavoro per il rendering delle immagini per il foglio di lavoro, ha un sovraccarico**Immaginare** metodo che può convertire direttamente un foglio di lavoro in file immagine specificati con gli attributi o le opzioni desiderati. Può tornare**System.Drawing.Bitmap** oggetto e puoi salvare un file immagine sul disco/stream. Sono supportati diversi formati di immagine, ad esempio .bmp, .png, .gif, .jpg, .jpeg, .tiff, .emf ecc.
+Questo articolo mostra come creare un'applicazione console in Visual Studio.Net, convertire un foglio di lavoro in un'immagine e un foglio di lavoro in un'unica immagine per ogni foglio di lavoro con poche e semplici righe di codice utilizzando l'API Aspose.Cells. È necessario importare il namespace Aspose.Cells.Rendering nel tuo programma/progetto. Ha diverse classi importanti, ad esempio SheetRender, ImageOrPrintOptions, WorkbookRender ecc. La classe Aspose.Cells.Rendering.SheetRender rappresenta un foglio di lavoro per renderizzare immagini per il foglio di lavoro, ha un metodo sovraccaricato **ToImage** che può convertire direttamente un foglio di lavoro in un file immagine specificato con i tuoi attributi o opzioni desiderati. Può restituire un oggetto **System.Drawing.Bitmap** e puoi salvare un file immagine sul disco/stream. Ci sono diversi formati immagine supportati, ad esempio .bmp, .png, .gif, .jpg, .jpeg, .tiff, .emf ecc.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a new Workbook object
 

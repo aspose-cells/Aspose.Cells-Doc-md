@@ -1,21 +1,22 @@
-﻿---
-title: 円グラフまたは円グラフの棒グラフの 2 番目の円または棒にデータ ポイントがあるかどうかを調べる
+---
+title: パイオブパイチャートまたはバーオブパイチャートでデータポイントが第2パイまたは棒にあるかどうかを見つける
 type: docs
 weight: 910
 url: /ja/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/
 ---
-## **考えられる使用シナリオ**
-系列のデータ ポイントが 2 番目の円にあるかどうかを確認できます。*パイのパイ*チャートまたはバー*バー・オブ・パイ*Aspose.Cellsを使用したチャート。[ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot)それを決定するプロパティ。
 
-をダウンロードしてください[サンプルエクセルファイル](5473373.xlsx)次のサンプル コードで使用され、そのコンソール出力を参照してください。開くと[サンプルエクセルファイル](5473373.xlsx)、10未満のすべてのデータポイントがバーの内側にあることがわかります*バー・オブ・パイ*コンソール出力にも表示されるグラフ。
-## **円グラフまたは円グラフの棒グラフの 2 番目の円または棒にデータ ポイントがあるかどうかを調べる**
-次のサンプル コードは、データ ポイントがグラフの 2 番目の円グラフまたは棒グラフにあるかどうかを確認する方法を示しています。*パイのパイ*また*バー・オブ・パイ*チャート。
+## **可能な使用シナリオ**
+Aspose.Cellsを使用して、*Pie of Pie*チャートの第2パイまたは*Bar of Pie*チャートの棒にシリーズのデータポイントがあるかどうかを見つけることができます。[ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot)プロパティを使用してください。
+
+以下のサンプルコードを使用して、[sample excel file](5473373.xlsx)をダウンロードし、そのコンソール出力を確認してください。[sample excel file](5473373.xlsx)を開くと、コンソール出力によっても示されているように、10未満のすべてのデータポイントが*Bar of Pie*チャートの内側にあります。
+## **パイオブパイチャートまたはバーオブパイチャートでデータポイントが第2パイまたは棒にあるかどうかを見つける**
+以下のサンプルコードは、*Pie of Pie*または*Bar of Pie*チャートでデータポイントが第2パイまたは棒にあるかどうかを見つける方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindDataPoints-FindDataPoints.java" >}}
 ## **コンソール出力**
-上記のサンプル コードを実行した後に生成される次のコンソール出力を参照してください。[サンプルエクセルファイル](5473373.xlsx).もしも[IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot)は**間違い**の場合、データ ポイントは円の内側にあるか、円の内側にある場合**真実**の場合、データ ポイントはバーの内側にあります。
+以下は、上記のサンプルコードの実行後に生成されたコンソール出力です。[IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot)が**false**の場合、データポイントはパイの内側にあり、**true**の場合はデータポイントが棒の内側にあります。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Value: 15
 

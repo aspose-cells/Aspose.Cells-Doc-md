@@ -1,18 +1,19 @@
 ---
-title: システム要求
+title: システム要件
 type: docs
 weight: 30
 url: /ja/cpp/system-requirements/
 ---
-Aspose.Cells for C++ は、C++ 開発者が Office オートメーションや Microsoft Excel アプリケーションを必要とせずにプログラムでスプレッドシートを作成、操作、変換できるようにするネイティブ C++ ライブラリです。
 
-## サポートされているオペレーティング システム
+Aspose.Cells for C++は、Office AutomationまたはMicrosoft Excelアプリケーションを必要とせずに、C++開発者がプログラム的にスプレッドシートを作成、操作、および変換できるネイティブC++ライブラリです。
 
-Aspose.Cells for C++ は、次の 64 ビットまたは 32 ビットのオペレーティング システムとプラットフォームをサポートします。
+## サポートされているオペレーティングシステム
+
+Aspose.Cells for C++は、次の64ビットまたは32ビットのオペレーティングシステムおよびプラットフォームをサポートしています。
 
 <table>  
 	<tr>
-			<td style="font-weight: bold; width:400px">オペレーティング·システム</td>
+			<td style="font-weight: bold; width:400px">オペレーティングシステム</td>
 			<td style="font-weight: bold; width:400px">バージョン</td>
 		</tr>
   <tr>
@@ -22,21 +23,21 @@ Aspose.Cells for C++ は、次の 64 ビットまたは 32 ビットのオペレ
   </tr>
   <tr>
 			<td>Linux</td>
-			<td><ul><li>Linux x86_64</li><!---li>Ubuntu 20.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>ARM 用 Linux (aarch64)</li></ul></td>
+			<td><ul><li>Linux x86_64</li><!---li>Ubuntu 20.04以降</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li---><li>ARM向けLinux（aarch64）</li></ul></td>
 		</tr>
   <tr>
-			<td>マックOS</td>
-			<td><ul><li>macOS 11以降(arm64、x86_64)</li></ul></td>
+			<td>macOS</td>
+			<td><ul><li>macOS 11以降（arm64、x86_64）</li></ul></td>
 		</tr>
 </table>
 
 ## 開発環境
 
-Windows、Linux、または macOS 用のアプリケーションを開発する場合は、Aspose.Cells for C++ を使用できます。
+Windows、Linux、またはmacOS向けのアプリケーションを開発する際に、Aspose.Cells for C++を使用できます。
 
-###  Windows
+### Windows
 
- Aspose.Cells for C++ は、サポートする開発環境でアプリケーションを開発するために使用できます。[Microsoft Visual Studio v142 プラットフォーム ツールセット](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)ただし、次の表にリストされている環境は明示的にサポートされています。
+Aspose.Cells for C++は、[Microsoft Visual Studio v142 Platform Toolset](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)をサポートする開発環境でアプリケーションを開発する際に使用できますが、以下の表にリストされている環境が明示的にサポートされています。
 
 <table>  
 	<tr>
@@ -49,7 +50,7 @@ Windows、Linux、または macOS 用のアプリケーションを開発する�
 
 ### Linux
 
-Aspose.Cells for C++ は、C++11 以降をサポートする開発環境でアプリケーションを開発するために使用できますが、次のコンパイラとツールが明示的にサポートされています。
+Aspose.Cells for C++は、C++11以上をサポートする開発環境でアプリケーションを開発するために使用できますが、次のコンパイラとツールが明示的にサポートされています:
 
 <table>  
 	<tr>
@@ -60,15 +61,15 @@ Aspose.Cells for C++ は、C++11 以降をサポートする開発環境でア�
 			</tr>
 </table>
 
-### Linux への追加の依存関係
-Linux の Aspose.Cells for C++ は以下に依存します<a href="https://www.freedesktop.org/wiki/Software/fontconfig/">フォント設定</a>ダイナミック ライブラリとツールの両方のバイナリ。使用する前にインストールしてください:
+### Linux への追加依存関係
+Aspose.Cells for C++ on Linux depends on <a href="https://www.freedesktop.org/wiki/Software/fontconfig/">fontconfig</a> binaries both dynamic library and tool. Please install it before using:
 
-1. Ubuntu または Debian への fontconfig のインストール<br>
+1. Installing fontconfig on Ubuntu or Debian<br>
 `sudo apt install libfontconfig fontconfig`
-1. Fedora または CentOs への fontconfig のインストール<br>
+1. Installing fontconfig on Fedora or CentOs<br>
 `sudo yum install fontconfig`
 
-### マックOS
-Aspose.Cells for C++ は、次の開発環境でアプリケーションを開発するために使用できます。
+### macOS 
+Aspose.Cells for C++は、以下の開発環境でアプリケーションを開発するために使用できます:
 * Xcode 12.5.1以降
-* Clang および libc++ (デフォルトで Xcode に同梱されています)
+* Clangとlibc++（Xcodeとデフォルトで提供されています）

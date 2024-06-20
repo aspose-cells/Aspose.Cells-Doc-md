@@ -1,38 +1,39 @@
-﻿---
-title: Public API Changements dans Aspose.Cells 16.10.0
+---
+title: Changements de l API publique dans Aspose.Cells 16.10.0
 type: docs
 weight: 340
 url: /fr/net/public-api-changes-in-aspose-cells-16-10-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.Cells API de la version 9.0.0 à 16.10.0 qui peuvent intéresser les développeurs de modules/applications. Il inclut non seulement les méthodes publiques nouvelles et mises à jour, les classes ajoutées et supprimées, etc., mais également une description de tout changement de comportement dans les coulisses de Aspose.Cells.
+Ce document décrit les modifications apportées à l'API Aspose.Cells de la version 9.0.0 à 16.10.0 qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement les nouvelles méthodes publiques et mises à jour, les classes ajoutées et supprimées, etc., mais aussi une description de tout changement dans le comportement en coulisses dans Aspose.Cells.
 
 {{% /alert %}} 
-## **API ajoutées**
+## **APIs ajoutées**
 ### **Prise en charge des effets de réflexion**
-Aspose.Cells 16.10.0 a exposé la classe ReflectionEffect avec la propriété Shape.Reflection afin de contrôler les effets de réflexion d'un objet Shape. La classe ReflectionEffect a les propriétés suivantes.
+Aspose.Cells 16.10.0 a exposé la classe ReflectionEffect ainsi que la propriété Shape.Reflection afin de contrôler les effets de réflexion d'un objet Shape. La classe ReflectionEffect a les propriétés suivantes.
 
-- ReflectionEffect.Blur : obtient/définit le rayon de flou en unités de points.
-- ReflectionEffect.Direction : obtient/définit la direction de la rampe de dégradé alpha par rapport à la forme elle-même.
-- ReflectionEffect.Distance : obtient/définit la distance de la réflexion en unités de points.
-- ReflectionEffect.FadeDirection : Obtient/définit la direction pour décaler la réflexion.
-- ReflectionEffect.RotWithShape : Obtient/définit si la réflexion doit tourner avec la forme.
-- ReflectionEffect.Size : Obtient/définit la position finale (le long de la rampe de dégradé alpha) de la valeur alpha finale en unité de pourcentage .
-- ReflectionEffect.Transparency : obtient/définit le degré de transparence de la réflexion de départ sous la forme d'une valeur comprise entre 0,0 (opaque) et 1,0 (clair).
-- ReflectionEffect.Type : obtient/définit l'effet de réflexion prédéfini.
+- ReflectionEffect.Blur : Obtient/définit le rayon de flou en unité de points.
+- ReflectionEffect.Direction: Obtient/définit la direction du dégradé alpha par rapport à la forme elle-même.
+- ReflectionEffect.Distance: Obtient/définit la distance de la réflexion en unité de points.
+- ReflectionEffect.FadeDirection: Obtient/définit la direction pour décaler la réflexion.
+- ReflectionEffect.RotWithShape: Obtient/définit si la réflexion doit tourner avec la forme.
+- ReflectionEffect.Size: Obtient/définit la position finale (le long du dégradé alpha) de la valeur d'alpha finale en unité de pourcentage.
+- ReflectionEffect.Transparency: Obtient/définit le degré de transparence de la réflexion initiale en une valeur de 0.0 (opaque) à 1.0 (clair).
+- ReflectionEffect.Type: Obtient/définit l'effet de réflexion prédéfini.
 
 Voici un scénario d'utilisation simple de la propriété Shape.Reflection.
 
 {{% alert color="primary" %}} 
 
- Consultez l'article détaillé sur[Travailler avec des effets de réflexion](/cells/fr/net/working-with-the-reflection-effect-of-shape-or-chart/)
+Consultez l'article détaillé sur [Working with Reflection Effects](/cells/fr/net/working-with-the-reflection-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -70,27 +71,27 @@ book.Save("output.xlsx");
 
 
 ### **Prise en charge des effets d'ombre**
-Aspose.Cells 16.10.0 a exposé la propriété Shape.ShadowEffect avec la classe ShadowEffect qui, ensemble, permet de définir l'effet d'ombre sur un objet Shape. La classe ShadowEffect a les propriétés suivantes.
+Aspose.Cells 16.10.0 a exposé la propriété Shape.ShadowEffect ainsi que la classe ShadowEffect qui permettent ensemble de définir l'effet d'ombre sur un objet Shape. La classe ShadowEffect a les propriétés suivantes.
 
-- ShadowEffect.Angle : Obtient/définit l'angle d'éclairage allant de 0 à 359,9 degrés.
-- ShadowEffect.Blur : Obtient et définit le flou de l'ombre allant de 0 à 100 points.
-- ShadowEffect.Color : obtient/définit la couleur de l'ombre.
-- ShadowEffect.Distance : Obtient/définit la distance de l'ombre allant de 0 à 200 points.
-- ShadowEffect.PresetType : obtient/définit le type d'ombre prédéfini de l'ombre.
-- ShadowEffect.Size : Obtient/définit la taille de l'ombre allant de 0 à 2,0. Cela n'aura aucun sens en cas d'ombre intérieure.
-- ShadowEffect.Transparency : obtient/définit le degré de transparence de l'ombre allant de 0,0 (opaque) à 1,0 (clair).
+- ShadowEffect.Angle: Obtient/définit l'angle d'éclairage allant de 0 à 359,9 degrés.
+- ShadowEffect.Blur: Obtient et définit le flou de l'ombre allant de 0 à 100 points.
+- ShadowEffect.Color: Obtient/définit la couleur de l'ombre.
+- ShadowEffect.Distance: Obtient/définit la distance de l'ombre allant de 0 à 200 points.
+- ShadowEffect.PresetType: Obtient/définit le type d'ombre prédéfini de l'ombre.
+- ShadowEffect.Size: Obtient/définit la taille de l'ombre allant de 0 à 2.0. Cela n'aura pas de sens en cas d'ombre interne.
+- ShadowEffect.Transparency: Obtient/définit le degré de transparence de l'ombre allant de 0.0 (opaque) à 1.0 (clair).
 
 Voici un scénario d'utilisation simple de la propriété susmentionnée.
 
 {{% alert color="primary" %}} 
 
- Consultez l'article détaillé sur[Travailler avec des effets d'ombre](/cells/fr/net/working-with-the-shadow-effect-of-shape-or-chart/)
+Consultez l'article détaillé sur [Travailler avec des Effets d'Ombre](/cells/fr/net/working-with-the-shadow-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -129,23 +130,23 @@ book.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Prise en charge des effets lumineux**
-Aspose.Cells 16.10.0 a exposé la propriété Shape.Glow avec la classe GlowEffect qui, ensemble, permet de définir l'effet de lueur d'un objet Shape. La classe GlowEffect spécifie un effet de lueur, dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet à l'aide des propriétés suivantes.
+### **Prise en charge des effets de lumière**
+Aspose.Cells 16.10.0 a exposé la propriété Shape.Glow ainsi que la classe GlowEffect qui ensemble permettent de définir l'effet de lumière d'un objet Shape. La classe GlowEffect spécifie un effet de lumière, dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet en utilisant les propriétés suivantes.
 
-- GlowEffect.Size : Obtient/définit le rayon de la lueur en unités de points.
-- GlowEffect.Transparency : obtient/définit le degré de transparence de l'effet de lueur allant de 0,0 (opaque) à 1,0 (clair).
+- GlowEffect.Size: Obtient/définit le rayon de la lumière en points.
+- GlowEffect.Transparency: Obtient/définit le degré de transparence de l'effet de lumière allant de 0.0 (opaque) à 1.0 (clair).
 
 Voici un scénario d'utilisation simple de la propriété Shape.Glow.
 
 {{% alert color="primary" %}} 
 
- Consultez l'article détaillé sur[Travailler avec l'effet lumineux](/cells/fr/net/working-with-the-glow-effect-of-shape-or-chart/)
+Consultez l'article détaillé sur [Travailler avec l'Effet Lumineux](/cells/fr/net/working-with-the-glow-effect-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -179,40 +180,40 @@ book.Save("output.xlsx");
 
 
 ### **Prise en charge du format 3D**
-Aspose.Cells 16.10.0 a exposé la propriété Shape.ThreeDFormat avec la classe ThreeDFormat qui, ensemble, peuvent être utilisées pour contrôler la mise en forme 3D de l'objet Shape. La classe ThreeDFormat représente la mise en forme tridimensionnelle d'une forme et possède les propriétés suivantes.
+Aspose.Cells 16.10.0 a exposé la propriété Shape.ThreeDFormat ainsi que la classe ThreeDFormat qui peuvent être utilisées ensemble pour contrôler le format 3D de l'objet Shape. La classe ThreeDFormat représente la mise en forme tridimensionnelle d'une forme et possède les propriétés suivantes.
 
-- ThreeDFormat.BottomBevelHeight : obtient/définit la hauteur du biseau inférieur ou la distance à laquelle il est appliqué dans la forme, en unités de points.
-- ThreeDFormat.BottomBevelType : obtient/définit le type de biseau inférieur ou la distance à laquelle il est appliqué dans la forme, en unités de points.
-- ThreeDFormat.BottomBevelWidth : obtient/définit la largeur du biseau inférieur ou la distance à laquelle il est appliqué dans la forme, en unités de points.
-- ThreeDFormat.ContourColor : obtient/définit la couleur de contour d'une forme.
-- ThreeDFormat.ContourWidth : obtient/définit la largeur du contour de la forme, en unités de points.
-- ThreeDFormat.ExtrusionColor : Obtient la couleur d'extrusion sur une forme.
-- ThreeDFormat.ExtrusionHeight : Obtient/définit la hauteur d'extrusion appliquée à la forme, en unités de points.
-- ThreeDFormat.LightAngle : Obtient/définit l'angle des lumières d'extrusion.
-- ThreeDFormat.Lighting : Obtient/définit le type d'éclairage.
-- ThreeDFormat.LightingDirection : Obtient/définit la direction à partir de laquelle le système d'éclairage est orienté par rapport à la scène.
-- ThreeDFormat.Material : Représente le matériau prédéfini qui est combiné avec les propriétés d'éclairage pour donner l'aspect final d'une forme.
-- ThreeDFormat.Perspective : Obtient/définit l'angle auquel un objet ThreeDFormat peut être visualisé.
-- ThreeDFormat.PresetCameraType : Obtient/définit la caméra prédéfinie d'extrusion.
-- ThreeDFormat.RotationX : obtient/définit la rotation de la forme extrudée autour de l'axe X en degrés.
-- ThreeDFormat.RotationY : obtient/définit la rotation de la forme extrudée autour de l'axe Y en degrés.
-- ThreeDFormat.RotationZ : obtient/définit la rotation de la forme extrudée autour de l'axe Z en degrés.
-- ThreeDFormat.TopBevelHeight : obtient/définit la hauteur du biseau supérieur ou la distance à laquelle il est appliqué dans la forme, en unités de points.
-- ThreeDFormat.TopBevelType : obtient/définit le type de biseau supérieur ou la distance à laquelle il est appliqué dans la forme, en unités de points.
-- ThreeDFormat.TopBevelWidth : obtient/définit la largeur du biseau supérieur ou la distance à laquelle il est appliqué dans la forme, en unités de points.
-- ThreeDFormat.Z : Définit la distance du sol pour la forme 3D.
+- ThreeDFormat.BottomBevelHeight: Obtient/définit la hauteur de l'aplatissement inférieur ou la distance à laquelle il est appliqué sur la forme, en points.
+- ThreeDFormat.BottomBevelType: Obtient/définit le type de l'aplatissement inférieur ou la distance à laquelle il est appliqué, en points.
+- ThreeDFormat.BottomBevelWidth: Obtient/définit la largeur de l'aplatissement inférieur ou la distance à laquelle il est appliqué, en points.
+- ThreeDFormat.ContourColor: Obtient/définit la couleur du contour d'une forme.
+- ThreeDFormat.ContourWidth: Obtient/définit la largeur du contour sur la forme, en points.
+- ThreeDFormat.ExtrusionColor: Obtient la couleur d'extrusion sur une forme.
+- ThreeDFormat.ExtrusionHeight: Obtient/définit la hauteur d'extrusion appliquée à la forme, en points.
+- ThreeDFormat.LightAngle: Obtient/définit l'angle des lumières d'extrusion.
+- ThreeDFormat.Lighting: Obtient/définit le type de dispositif d'éclairage.
+- ThreeDFormat.LightingDirection : Obtient/définit la direction selon laquelle le système d'éclairage est orienté par rapport à la scène.
+- ThreeDFormat.Material : Représente le matériau prédéfini combiné aux propriétés d'éclairage pour donner l'aspect final d'une forme.
+- ThreeDFormat.Perspective : Obtient/définit l'angle sous lequel un objet ThreeDFormat peut être visualisé.
+- ThreeDFormat.PresetCameraType : Obtient/définit la caméra prédéfinie d'extrusion.
+- ThreeDFormat.RotationX : Obtient/définit la rotation de la forme extrudée autour de l'axe X en degrés.
+- ThreeDFormat.RotationY : Obtient/définit la rotation de la forme extrudée autour de l'axe Y en degrés.
+- ThreeDFormat.RotationZ : Obtient/définit la rotation de la forme extrudée autour de l'axe Z en degrés.
+- ThreeDFormat.TopBevelHeight : Obtient/définit la hauteur du biseau supérieur ou sa profondeur dans la forme, en points.
+- ThreeDFormat.TopBevelType : Obtient/définit le type du biseau supérieur ou sa profondeur dans la forme, en points.
+- ThreeDFormat.TopBevelWidth : Obtient/définit la largeur du biseau supérieur ou sa profondeur dans la forme, en points.
+- ThreeDFormat.Z : Définit la distance par rapport au sol pour la forme 3D.
 
 Voici le scénario d'utilisation simple de la propriété Shape.ThreeDFormat.
 
 {{% alert color="primary" %}} 
 
- Consultez l'article détaillé sur[Travailler avec le formatage 3D](/cells/fr/net/working-with-the-threedformat-of-shape-or-chart/)
+Consultez l'article détaillé sur [Travailler avec le format 3D](/cells/fr/net/working-with-the-threedformat-of-shape-or-chart/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet containing a shape
 
@@ -246,19 +247,19 @@ book.Save("output.xlsx");
 
 
 ### **Prise en charge des styles WordArt dans le texte de Shape**
-Aspose.Cells 16.10.0 a exposé les méthodes FontSettingCollection.SetWordArtStyle & FontSetting.SetWordArtStyle afin de définir le style WordArt prédéfini sur le texte de l'objet Shape.
+Aspose.Cells 16.10.0 a exposé les méthodes FontSettingCollection.SetWordArtStyle & FontSetting.SetWordArtStyle afin de définir le style WordArt prédéfini pour le texte de l'objet Shape.
 
-Voici un scénario d'utilisation simple des méthodes susmentionnées.
+Voici un scénario d'utilisation simple des méthodes mentionnées ci-dessus.
 
 {{% alert color="primary" %}} 
 
- Consultez l'article détaillé sur[Travailler avec des styles WordArt](/cells/fr/net/set-preset-wordart-style-to-the-text-of-the-shape/)
+Consultez l'article détaillé sur [Travailler avec les styles WordArt](/cells/fr/net/set-preset-wordart-style-to-the-text-of-the-shape/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create workbook object
 
@@ -278,27 +279,27 @@ textBox.Font.Size = 44;
 
 // Set preset WordArt style to the text of the shape
 
-FontSetting fntSetting = textBox.GetCharacters()[0]as FontSetting;
+FontSetting fntSetting = textBox.GetCharacters()[0] as FontSetting;
 
 fntSetting.SetWordArtStyle(PresetWordArtStyle.WordArtStyle3);
 
 {{< /highlight >}}
 
 
-### **Prise en charge des styles intégrés WordArt**
-Aspose.Cells 16.10.0 a exposé la méthode ShapeCollection.AddWordArt avec l'énumération PresetWordArtStyle afin de fournir la prise en charge de l'ajout d'objets WordArt prédéfinis depuis Excel 2007.
+### **Prise en charge des styles WordArt intégrés**
+Aspose.Cells 16.10.0 a exposé la méthode ShapeCollection.AddWordArt ainsi que l'énumération PresetWordArtStyle afin de prendre en charge l'ajout d'objets WordArt prédéfinis depuis Excel 2007.
 
 Voici un scénario d'utilisation simple de la méthode ShapeCollection.AddWordArt.
 
 {{% alert color="primary" %}} 
 
- Consultez l'article détaillé sur[Ajouter WordArt avec des styles intégrés](/cells/fr/net/add-word-art-text-with-built-in-styles/)
+Consultez l'article détaillé sur [Ajouter WordArt avec des styles intégrés](/cells/fr/net/add-word-art-text-with-built-in-styles/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -332,17 +333,17 @@ book.Save("output.xlsx");
 
 
 ### **Méthode XmlMapCollection.Add ajoutée**
-Aspose.Cells a exposé la méthode XmlMapCollection.Add qui permet d'ajouter Xml Map à une feuille de calcul. Voici un scénario d'utilisation simple de la méthode XmlMapCollection.Add.
+Aspose.Cells a exposé la méthode XmlMapCollection.Add qui permet d'ajouter une carte XML à une feuille de calcul. Voici un scénario d'utilisation simple de la méthode XmlMapCollection.Add.
 
 {{% alert color="primary" %}} 
 
- Consultez l'article détaillé sur[Ajouter une carte XML à la feuille de calcul](/cells/fr/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
+Consultez l'article détaillé sur [Ajouter une carte XML à la feuille de calcul](/cells/fr/net/add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -355,20 +356,20 @@ book.Worksheets.XmlMaps.Add("sample.xml");
 {{< /highlight >}}
 
 
-### **Ajout de la méthode Cells.LinkToXmlMap**
-Aspose.Cells a maintenant exposé la méthode Cells.LinkToXmlMap afin de lier les cellules aux éléments de carte XML.
+### **Méthode Cells.LinkToXmlMap ajoutée**
+Aspose.Cells a maintenant exposé la méthode Cells.LinkToXmlMap pour lier les cellules avec les éléments de la carte XML.
 
 Voici un scénario d'utilisation simple de la méthode Cells.LinkToXmlMap.
 
 {{% alert color="primary" %}} 
 
- Consultez l'article détaillé sur[Lien Cells vers les éléments de carte XML](/cells/fr/net/link-cells-to-xml-map-elements/)
+Consultez l'article détaillé sur [Lier les cellules aux éléments de la carte XML](/cells/fr/net/link-cells-to-xml-map-elements/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample spreadsheet in an instance of Workbook
 
@@ -403,20 +404,20 @@ sheet.Cells.LinkToXmlMap(map.Name, 5, 5, "/root/row/FIELD8");
 {{< /highlight >}}
 
 
-### **Ajout de la propriété ListColumn.Formula**
-Aspose.Cells 16.10.0 a exposé la propriété ListColumn.Formula afin de propager automatiquement la formule aux lignes nouvellement insérées.
+### **Propriété Formula de ListColumn ajoutée**
+Aspose.Cells 16.10.0 a exposé la propriété ListColumn.Formula pour propager automatiquement la formule aux nouvelles lignes insérées.
 
 Voici un scénario d'utilisation simple de la propriété ListColumn.Formula.
 
 {{% alert color="primary" %}} 
 
- Consultez l'article détaillé sur[Propager automatiquement la formule dans l'objet de liste](/cells/fr/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
+Consultez l'article détaillé sur [Propagation automatique de formule dans un objet de liste](/cells/fr/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -442,7 +443,7 @@ listObject.DisplayName = "Table";
 
 // Set the formula of second column so that it could automatically propagate to new rows while entering data
 
-listObject.ListColumns[1].Formula = "=[Column A]+ 1";
+listObject.ListColumns[1].Formula = "=[Column A] + 1";
 
 // Save the result in XLSX format
 
@@ -451,20 +452,20 @@ book.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Prise en charge du calcul de fonctions personnalisées avec GridWeb**
-Aspose.Cells.GridWeb 16.10.0 a exposé la propriété GridWeb.CustomCalculationEngine ainsi que la classe GridAbstractCalculationEngine qui, ensemble, permettent de définir et de calculer les fonctions personnalisées à partir du composant GridWeb.
+### **Prise en charge du calcul des fonctions personnalisées avec GridWeb**
+Aspose.Cells.GridWeb 16.10.0 a exposé la propriété GridWeb.CustomCalculationEngine avec la classe GridAbstractCalculationEngine, ce qui permet de définir et de calculer les fonctions personnalisées à partir du composant GridWeb.
 
 Voici un scénario d'utilisation simple des API susmentionnées.
 
 {{% alert color="primary" %}} 
 
- Consultez l'article détaillé sur[Calcul des fonctions personnalisées avec GridWeb](/cells/fr/net/calculate-custom-functions-in-gridweb/)
+Consultez l'article détaillé sur [Calcul des fonctions personnalisées avec GridWeb](/cells/fr/net/calculate-custom-functions-in-gridweb/)
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  private class GridWebCustomCalculationEngine : GridAbstractCalculationEngine
 

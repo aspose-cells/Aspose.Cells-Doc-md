@@ -1,45 +1,46 @@
 ---
-title: Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier
+title: Tillämpa avancerad filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier
 type: docs
 weight: 280
 url: /sv/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
-description: Lär dig hur du använder det avancerade filtret i Microsoft Excel för att visa poster som uppfyller komplexa kriterier genom att använda Aspose.Cells for .NET API.
-keywords: Apply Advanced Filter, Set Advanced Filter, Add Advanced Filter, Create Advanced Filter, How to add Advanced Filter to a range 
+description: Lär dig hur man tillämpar avancerat filter för Microsoft Excel för att visa poster som uppfyller komplexa kriterier med hjälp av API et Aspose.Cells for .NET.
+keywords: Tillämpa avancerat filter, Inställa avancerat filter, Lägg till avancerat filter, Skapa avancerat filter, Hur man lägger till avancerat filter till en serie 
 ---
-##  **Möjliga användningsscenarier**
 
- Microsoft Excel låter dig ansöka*Avancerat filter* på kalkylbladsdata för att visa poster som uppfyller komplexa kriterier. Du kan använda Advanced Filter med Microsoft Excel via dess*Data > Avancerat*kommandot som visas i den här skärmdumpen.
+## **Möjliga användningsscenario**
+
+Microsoft Excel tillåter dig att tillämpa *Avancerat filter* på kalkylbladsdata för att visa poster som uppfyller komplexa kriterier. Du kan tillämpa Avancerat filter i Microsoft Excel via dess *Data > Avancerat* kommando som visas i denna skärmbild.
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
 
-Aspose.Cells låter dig också tillämpa det avancerade filtret med hjälp av[**Worksheet.AdvancedFilter()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter)metod. Precis som Microsoft Excel accepterar den följande parametrar.
+Aspose.Cells tillåter också att tillämpa avancerat filter med hjälp av [**Worksheet.AdvancedFilter()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter) metoden. Precis som Microsoft Excel godtar den följande parametrar.
 
 **isFilter**
 
-Anger om filtrering av listan på plats.
+Anger om filtreringen av listan på plats.
 
 **listRange**
 
-Listomfånget.
+Listan intervall.
 
-**kriterierOmfång**
+**criteriaRange**
 
-Kriterierna varierar.
+Kriterieintervallet.
 
-**kopia till**
+**copyTo**
 
-Området dit kopiering av data till.
+Intervallet där data kopieras till.
 
-**Endast unikaRecord**
+**uniqueRecordOnly**
 
-Visar eller kopierar endast unika rader.
+Endast visa eller kopiera unika rader.
 
-##  **Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier**
+## **Tillämpa Avancerat Filter i Microsoft Excel för att Visa Poster som Uppfyller Komplexa Kriterier**
 
-Följande exempelkod tillämpar det avancerade filtret på[Exempel på Excel-fil](48496692.xlsx) och genererar[Utdata Excel-fil](48496691.xlsx). Skärmdumpen visar båda filerna för jämförelse. Som du kan se inuti skärmdumpen har data filtrerats in i Excel-utdatafilen enligt komplexa kriterier.
+Följande exempelkod tillämpar den avancerade filtreringen på [Sample Excel File](48496692.xlsx) och genererar [Output Excel File](48496691.xlsx). Skärmbilden visar båda filerna för jämförelse. Som du kan se på skärmbilden har data filtrerats i utdata-Excel-filen enligt komplexa kriterier.
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 
-##  **Exempelkod**
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ApplyAdvancedFilterOfMicrosoftExcel.cs" >}}

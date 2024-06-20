@@ -1,26 +1,27 @@
-﻿---
-title: 暗号化の構成
+---
+title: 暗号化の設定
 type: docs
 weight: 40
 url: /ja/reportingservices/configuring-encryption/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services は暗号化をサポートしており、暗号化された Microsoft Excel ファイルをレンダリングできます。
+Aspose.Cells for Reporting Servicesは暗号化をサポートしており、暗号化されたMicrosoft Excelファイルをレンダリングできます。 
 
 {{% /alert %}} 
 ### **暗号化の種類**
-Aspose.Cells for Reporting Services は、Excel ファイルをエクスポートする際の暗号化をサポートします。次の 3 つの暗号化タイプをサポートしています。
+Aspose.Cells for Reporting Servicesは、Excelファイルのエクスポート時に暗号化をサポートします。3つの暗号化タイプをサポートしています。
 
 - XOR
 - 弱い暗号化
-- Microsoft 強力な暗号化プロバイダー
-### **設定情報**
-に暗号化の構成情報があります。**Aspose.Cells.ReportingServices.xml**ファイル。 Encryption の値が「off」に設定されている場合、Aspose.Cells.ReportingServices は暗号化をオフにします。
+- Microsoft Strong Cryptographic Provider
+### **情報の構成**
+**Aspose.Cells.ReportingServices.xml**ファイルには、暗号化の構成情報があります。Encryptionの値が"off"に設定されていると、Aspose.Cells.ReportingServicesは暗号化を解除します。
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="off">
 
@@ -40,24 +41,24 @@ Aspose.Cells for Reporting Services は、Excel ファイルをエクスポー�
 
 {{< /highlight >}}
 
-暗号化が「オン」に設定されている場合、Aspose.Cells.ReportingServices は暗号化をオンにします。
+Encryptionが"on"に設定されている場合、Aspose.Cells.ReportingServicesは暗号化を有効にします。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-Encryption セクションには、ReportName、Password、EncryptionType、KeyLength の 4 つのパラメーターがあります。
+Encryptionセクションには4つのパラメータがあります: ReportName、Password、EncryptionType、KeyLength。
 
 - ReportName – 暗号化設定が必要なレポートを設定します。パラメータが空白の場合、レポートは同じ暗号化方法を使用します。
-- パスワード – パスワードを設定します。空欄にすることはできません。
-- EncryptionType – 暗号化タイプを設定します。空欄にすることはできません。
--  KeyLength – キーの長さを設定します。空欄にすることはできません。
+- パスワード - パスワードを設定します。空白のままにすることはできません。
+- 暗号化タイプ - 暗号化タイプを設定します。空白のままにすることはできません。
+- キー長 - キー長を設定します。空白のままにすることはできません。 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <Encryption value="on">
 

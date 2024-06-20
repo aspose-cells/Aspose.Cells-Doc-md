@@ -1,16 +1,17 @@
-﻿---
+---
 title: Sortera data i kolumn med anpassad sorteringslista
 type: docs
 weight: 210
 url: /sv/java/sort-data-in-column-with-custom-sort-list/
 ---
-## **Möjliga användningsscenarier**
 
-Du kan sortera data i kolumnen med hjälp av en anpassad lista. Detta kan göras med hjälp av[DataSorter.AddKey(int nyckel, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) metod. Den här metoden fungerar dock bara om objekten i den anpassade listan inte har kommatecken. Om de har kommatecken som "USA, USA", "Kina, CN" etc. måste du använda[DataSorter.AddKey(int nyckel, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) metod. Här är den sista parametern inte String utan en Array of Strings.
+## **Möjliga användningsscenario**
 
-## **Sortera data i kolumn med anpassad sorteringslista**
+Du kan sortera data i kolumnen med hjälp av en anpassad lista. Det kan göras med [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) metoden. Men denna metod fungerar endast om objekten i den anpassade listan inte har kommatecken inuti dem. Om de har kommatecken som "USA, US", "China, CN" osv., måste du använda [DataSorter.AddKey(int key, SortOrder order, String customList)](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#addKey(int,%20int,%20java.lang.String)) metoden. Här är det sista parametern inte en sträng utan en array av strängar.
 
-Följande exempelkod förklarar hur man använder metoden DataSorter.AddKey(int-nyckel, SortOrder order, String[]customList) för att sortera data med anpassad sorteringslista. Vänligen se[exempel på Excel-fil](50528359.xlsx)används i denna kod och[utdata Excel-fil](50528358.xlsx)genereras av det. Följande skärmdump visar effekten av koden på exemplet på Excel-filen vid exekvering.
+## **Sortera Data i Kolumn med Anpassad Sorteringslista**
+
+Följande provkod förklarar användningen av [DataSorter.AddKey(int key, SortOrder order, String[] customList)] metoden för att sortera data med anpassad sorteringslista. Se den [prov Excel-filen](50528359.xlsx) som används i denna kod och [utdata Excel-filen](50528358.xlsx) genererad av den. Följande skärmdump visar effekten av koden på prov Excel-filen vid körning.
 
 ![todo:image_alt_text](sort-data-in-column-with-custom-sort-list_1.png)
 

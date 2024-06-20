@@ -1,18 +1,19 @@
-﻿---
+---
 title: 行または列の挿入または削除
 type: docs
 weight: 20
 url: /ja/net/insert-or-delete-rows-or-columns/
 ---
-新しいワークシートをゼロから作成する場合でも、既存のワークシートで作業する場合でも、より多くのデータを収容するため、またはその他の理由で、ワークシートに余分な行または列を追加する必要がある場合があります。逆に、ワークシートの指定された位置から行または列を削除する必要がある場合もあります。
+
+新しいワークシートをゼロから作成している場合、または既存のワークシートで作業している場合、追加の行や列をワークシートに追加してデータを追加したり、他の理由でワークシートから行や列を削除する必要が生じることがあります。逆に、指定された位置から行または列を削除する必要があることもあります。
 ## **行/列の管理**
-**Aspose.Cells** Excel ファイルを表すクラス Workbook を提供します。 Workbook クラスには、Excel ファイル内の各ワークシートにアクセスできる Worksheets コレクションが含まれています。ワークシートは Worksheet クラスによって表されます。 Worksheet クラスは、ワークシート内のすべてのセルを表す Cells コレクションを提供します。
+**Aspose.Cells**は、Excelファイルを表すWorkbookクラスを提供します。Workbookクラスには、Excelファイル内の各ワークシートにアクセスできるWorksheetsコレクションが含まれています。ワークシートはWorksheetクラスで表されます。Worksheetクラスは、ワークシート内のすべてのセルを表すCellsコレクションを提供します。
 
-**Cells**collection は、ワークシートの行または列を管理するためのいくつかの方法を提供します。これらのいくつかについては、以下で詳しく説明します。
+**Cells**コレクションには、ワークシート内の行や列を管理するためのいくつかのメソッドが用意されており、そのうちいくつかについて以下で詳しく説明します。
 ## **行の挿入**
-開発者は、Cells コレクションの InsertRow メソッドを呼び出して、ワークシートの任意の場所に行を挿入できます。**行の挿入**メソッドは、新しい行が挿入される行のインデックスを取ります。
+開発者は、CellsコレクションのInsertRowメソッドを呼び出すことで、ワークシートに行を任意の場所に挿入することができます。**InsertRow**メソッドは、新しい行が挿入される行のインデックスを取ります。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -41,13 +42,13 @@ workbook.Save(MyDir + "Inserting Row.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **複数行の挿入**
-開発者は、ワークシートに複数の行を挿入する必要がある場合があります。これは、Cells コレクションの InsertRows メソッドを呼び出すことで実行できます。 InsertRows メソッドは、次の 2 つのパラメーターを取ります。
+## **複数の行の挿入**
+時には、開発者はワークシートに複数の行を挿入する必要があります。これは、CellsコレクションのInsertRowsメソッドを呼び出すことで行うことができます。InsertRowsメソッドは、2つのパラメータを取ります：
 
-- **行インデックス**、新しい行が挿入される行のインデックス
-- **行の数**、挿入する必要がある行の総数
+- **行のインデックス**、新しい行が挿入される行のインデックス
+- **行数**、挿入する必要がある行の総数
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -77,9 +78,9 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **行の削除**
-開発者は、を呼び出して、ワークシートの任意の場所から行を削除できます。**行の削除** Cells コレクションのメソッド。**行の削除**メソッドは、削除する必要がある行のインデックスを取得します。
+開発者は、Cellsコレクションの**DeleteRow**メソッドを呼び出すことで、ワークシートから任意の位置の行を削除することができます。**DeleteRow**メソッドは、削除する行のインデックスを取ります。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -108,13 +109,13 @@ workbook.Save(MyDir + "Deleting Rows.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **複数行の削除**
-開発者がワークシートから複数の行を削除する必要がある場合は、Cells コレクションの DeleteRows メソッドを呼び出して行うこともできます。 DeleteRows メソッドは、次の 2 つのパラメーターを取ります。
+## **複数の行の削除**
+開発者がワークシートから複数の行を削除する必要がある場合、CellsコレクションのDeleteRowsメソッドを呼び出すことでも行うことができます。DeleteRowsメソッドは、2つのパラメータを取ります：
 
-- **行インデックス**、行が削除される行のインデックス。
-- **行の数**、削除する必要がある行の総数。
+- **行のインデックス**、削除する行のインデックス
+- **行数**、削除する必要がある行の総数
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -144,9 +145,9 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **列の挿入**
-開発者は、Cells コレクションの InsertColumn メソッドを呼び出して、ワークシートの任意の場所に列を挿入することもできます。 InsertColumn メソッドは、新しい列が挿入される列のインデックスを取得します。
+開発者は、CellsコレクションのInsertColumnメソッドを呼び出すことで、ワークシートに列を任意の場所に挿入することができます。**InsertColumn**メソッドは、新しい列が挿入される列のインデックスを取ります。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -176,9 +177,9 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **列の削除**
-ワークシートの任意の場所から列を削除するには、開発者は Cells コレクションの DeleteColumn メソッドを呼び出すことができます。 DeleteColumn メソッドは、削除する列のインデックスを受け取ります。
+開発者は、CellsコレクションのDeleteColumnメソッドを呼び出すことで、ワークシートから任意の位置の列を削除することができます。**DeleteColumn**メソッドは、削除する列のインデックスを取ります。
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -208,5 +209,5 @@ fstream.Close();
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Work%20with%20Rows%20n%20Columns%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Work%20with%20Rows%20n%20Columns%20%28Aspose.Cells%29.zip)

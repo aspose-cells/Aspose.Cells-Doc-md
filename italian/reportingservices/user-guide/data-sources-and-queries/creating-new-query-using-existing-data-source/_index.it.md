@@ -1,56 +1,57 @@
-﻿---
-title: Creazione di una nuova query utilizzando un'origine dati esistente
+---
+title: Creazione di una nuova query utilizzando una sorgente dati esistente
 type: docs
 weight: 30
 url: /it/reportingservices/creating-new-query-using-existing-data-source/
 ---
-Per creare una nuova query utilizzando un'origine dati esistente:
 
-1. Apri Microsoft Excel.
-1.  Clic**Crea set di dati** nel Aspose.Cells.Report.Designer (
+Per creare una nuova query utilizzando una sorgente dati esistente:
 
-![cose da fare:immagine_alt_testo](creating-new-query-using-existing-data-source_1.png)
+1. Aprire Microsoft Excel.
+1. Fare clic su **Build DataSet** nel Aspose.Cells.Report.Designer (
+
+![todo:image_alt_text](creating-new-query-using-existing-data-source_1.png)
 
 ).
 
-1.  Nella finestra di dialogo, seleziona una delle origini dati elencate nel riquadro a sinistra. Per esempio,**Server SQL**.
-1.  Clic**Aggiungere**. 
+1. Nella finestra di dialogo, selezionare una delle origini dati elencate nel pannello di sinistra. Ad esempio, **SqlServer**.
+1. Fare clic su **Aggiungi**. 
 
-   **Selezione di un'origine dati** 
+   **Selezione di una sorgente dati** 
 
-![cose da fare:immagine_alt_testo](creating-new-query-using-existing-data-source_2.png)
-
-
-
-
-1. Nella finestra di dialogo digitare un nuovo nome del set di dati, ad esempio SalesEmps.
-1.  Clic**Prossimo**. 
-
-   **Denominazione di un nuovo set di dati** 
-
-![cose da fare:immagine_alt_testo](creating-new-query-using-existing-data-source_3.png)
-
-
-
- Aspose.Cells.Report.Designer avvia Microsoft Query e si connette all'origine dati selezionata. È ora possibile creare una nuova query con Microsoft Query.
-
-**Creazione di una nuova query** 
-
-![cose da fare:immagine_alt_testo](creating-new-query-using-existing-data-source_4.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_2.png)
 
 
 
 
-1.  Da Microsoft Query**File** menù, selezionare**Torna a Aspose.Cells.Report.Designer**. 
+1. Nella finestra di dialogo, digitare un nuovo nome per il set di dati, ad esempio SalesEmps.
+1. Fare clic su **Avanti**. 
 
-   **Ritorna al Report Designer** 
+   **Dare un nome al nuovo set di dati** 
 
-![cose da fare:immagine_alt_testo](creating-new-query-using-existing-data-source_5.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_3.png)
 
 
 
- L'origine dati SqlServer contiene due set di dati, uno dei quali è il nuovo set di dati SalesEmps.
+Aspose.Cells.Report.Designer avvia Microsoft Query e si connette alla sorgente dati selezionata. Una nuova query può ora essere creata con Microsoft Query. 
+
+**Creare una nuova query** 
+
+![todo:image_alt_text](creating-new-query-using-existing-data-source_4.png)
+
+
+
+
+1. Dal menu **File** di Microsoft Query, selezionare **Ritorna a Aspose.Cells.Report.Designer**. 
+
+   **Torna al Designer del Report** 
+
+![todo:image_alt_text](creating-new-query-using-existing-data-source_5.png)
+
+
+
+La sorgente dati SqlServer contiene due set di dati, uno dei quali è il nuovo set di dati SalesEmps. 
 
 **Il nuovo set di dati** 
 
-![cose da fare:immagine_alt_testo](creating-new-query-using-existing-data-source_6.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_6.png)

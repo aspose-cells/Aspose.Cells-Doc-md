@@ -1,12 +1,13 @@
-﻿---
-title: افتح ملفات نصية كمصنفات
+---
+title: فتح ملفات النص كجداول بيانات
 type: docs
 weight: 180
 url: /ar/net/open-text-files-as-workbooks/
 ---
-فيما يلي مثال على رمز المقارنة لفتح ملف نصي كمصنفات:
+
+إليك مقارنة لمثال الكود لفتح ملف النص كجدول بيانات:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
      this.Application.Workbooks.OpenText(@"OpenTextFilesAsWorkbooks.txt",
 
@@ -22,7 +23,7 @@ url: /ar/net/open-text-files-as-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
     private static string fileName = "OpenTextFilesAsWorkbooks.xlsx";
 
@@ -37,5 +38,5 @@ url: /ar/net/open-text-files-as-workbooks/
    newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **تحميل**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)
+##**تحميل**
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

@@ -1,27 +1,28 @@
-﻿---
-title: إضافة وظيفة المجموعة في Aspose.Cells for Reporting Services عميل
+---
+title: إضافة وظيفة مجموعة في Aspose.Cells for Reporting Services Client
 type: docs
 weight: 120
 url: /ar/reportingservices/add-group-function-in-aspose-cells-for-reporting-services-client/
 ---
-يقوم بتعيين سمات المجموعة لعنصر تقرير الجدول من خلال تعديل السمات. تتضمن المعلمات النوع والاسم والمستوى والإخفاء.
 
-- النوع يمثل نوع المجموعة. يتضمن مجموعة الصفوف ومجموعة الأعمدة.
+يضبط سمات المجموعة الخاصة بجدول عنصر التقرير من خلال تعديل السمات. وتشمل المعلمات النوع والاسم والمستوى والإخفاء.
+
+- النوع يمثل نوع المجموعة. يشمل مجموعة الصف ومجموعة العمود.
 - الاسم يمثل اسم المجموعة.
-- يمثل المستوى مستوى المجموعة.
-- يمثل إخفاء مجموعة إخفاء.
+- المستوى يمثل مستوى المجموعة.
+- الإخفاء يمثل إخفاء المجموعة.
 
-يتضمن تعديل التقرير الخطوات التالية:
-افتح مربع الحوار "تعديل التقرير" واختر علامة التبويب "مخطط تفصيلي".
+تعديل التقرير يشمل الخطوات التالية:
+افتح مربع حوار "تعديل التقرير" واختر علامة التبويب المخطط.
 
-![ما يجب القيام به: image_بديل_نص](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
-
-
- انقر**يُعدِّل** زر وتحديث إخفاء التكوين.
-
-![ما يجب القيام به: image_بديل_نص](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
 
 
- انقر**يقترف** زر وحفظ إخفاء التكوينات.
+انقر فوق زر **تعديل** وقم بتحديث تكوين الإخفاء. 
 
-![ما يجب القيام به: image_بديل_نص](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
+
+
+انقر فوق زر **تأكيد** واحفظ تكوينات الإخفاء. 
+
+![todo:image_alt_text](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)

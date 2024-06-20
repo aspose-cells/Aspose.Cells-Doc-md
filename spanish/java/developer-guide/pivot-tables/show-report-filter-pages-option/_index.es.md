@@ -1,22 +1,23 @@
-﻿---
+---
 title: Opción Mostrar páginas de filtro de informe
 type: docs
 weight: 140
 url: /es/java/show-report-filter-pages-option/
 ---
-## **Mostrar opción de páginas de filtro de informe**
 
-Excel admite la creación de tablas dinámicas, la adición de filtros de informe y habilita la opción "Mostrar páginas de filtro de informe". Aspose.Cells también admite esta función para habilitar la opción "Mostrar páginas de filtro de informes" en la tabla dinámica creada. La siguiente es la pantalla que muestra la opción en Excel.
+## **Mostrar opción de páginas de filtro de reporte**
 
-![todo:imagen_alternativa_texto](show-report-filter-pages-option_1.png)
+Excel admite la creación de tablas dinámicas, agregar filtros de informe y habilitar la opción "Mostrar páginas de filtro de informe". Aspose.Cells también admite esta función para habilitar la opción "Mostrar páginas de filtro de informe" en la tabla dinámica creada. A continuación se muestra la pantalla que muestra la opción en Excel.
 
-Como resultado de esta opción, el libro de trabajo creado contiene más hojas de trabajo. Divide todos los valores posibles del filtro de informe en una hoja de trabajo separada. En este ejemplo, tiene un filtro en "Posición" y los datos tienen tres posiciones distintas (A, B, C). Esta característica agrega 3 hojas de trabajo adicionales llamadas A, B, C que son la misma tabla dinámica pero con la opción preseleccionada A, B y C.
+![todo:image_alt_text](show-report-filter-pages-option_1.png)
 
-El archivo de muestra y el archivo de salida se pueden descargar desde los siguientes enlaces:
+Como resultado de esta opción, el libro creado contiene más hojas de cálculo. Divide cada valor posible del filtro de informes en una hoja de cálculo separada. En este ejemplo, tiene un filtro en "Posición" y los datos tienen tres posiciones distintas (A, B, C). Esta función agrega 3 hojas de cálculo adicionales llamadas A, B, C que son la misma tabla dinámica pero con la opción preseleccionada A, B y C.
 
-[muestratabla dinámica.xlsx](81920917.xlsx)
+Se pueden descargar el archivo de muestra y el archivo de salida desde los siguientes enlaces:
 
-[salidaMuestraTablaDinámica.xls](81920918.xlsx)
+[samplePivotTable.xlsx](81920917.xlsx)
+
+[outputSamplePivotTable.xls](81920918.xlsx)
 
 ## Código fuente
 

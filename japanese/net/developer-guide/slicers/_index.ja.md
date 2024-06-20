@@ -1,37 +1,38 @@
-﻿---
-title: スライサーを挿入
+---
+title: スライサーの挿入
 linktitle: スライサー
 type: docs
 weight: 170
 url: /ja/net/create-slicer/
-description: Aspose.Cells で Excel ファイルのスライサーを管理します。
+description: Aspose.Cellsを使用してExcelファイルのスライサーを管理します。
 ---
-## **考えられる使用シナリオ**
 
-スライサーは、データをすばやくフィルター処理するために使用されます。テーブルまたはピボット テーブルの両方でデータをフィルター処理するために使用できます。 Microsoft Excel では、テーブルまたはピボット テーブルを選択してから、*挿入 > スライサー*Aspose.Cells を使用してスライサーを作成することもできます[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index)方法。
+## **可能な使用シナリオ**
 
-## **ピボット テーブルにスライサーを作成する**
+スライサはデータを素早くフィルタリングするために使用されます。テーブルまたはピボットテーブルの両方のデータをフィルタリングするために使用できます。Microsoft Excelでは、テーブルまたはピボットテーブルを選択し、*挿入＞スライサ*をクリックしてスライサを作成できます。Aspose.Cellsでは、[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index)メソッドを使用してスライサを作成することができます。
 
-以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](67338470.xlsx)ピボットテーブルが含まれています。次に、最初のベース ピボット フィールドに基づいてスライサーを作成します。最後に、ワークブックを[出力 XLSX](67338471.xlsx)と[出力 XLSB](67338472.xlsb)フォーマット。次のスクリーンショットは、出力 Excel ファイルで Aspose.Cells によって作成されたスライサーを示しています。
+## **ピボットテーブルにスライサーを作成する**
 
-![todo:画像_代替_文章](create-slicer-to-a-pivot-table_1.png)
+次のサンプルコードを参照してください。ピボットテーブルを含む[サンプルExcelファイル](67338470.xlsx)を読み込みます。その後、最初の基本ピボットフィールドに基づいてスライサーを作成します。最後に、[output XLSX](67338471.xlsx)および[output XLSB](67338472.xlsb)形式でブックを保存します。次のスクリーンショットは、Aspose.Cellsによって出力Excelファイルに作成されたスライサーを示しています。
+
+![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
 
 ### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-CreateSlicerToPivotTable.cs" >}}
 
-## **Excel テーブルへのスライサーの作成**
+## **Excelテーブルにスライサーを作成する**
 
-以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](sampleCreateSlicerToExcelTable.xlsx)テーブルが含まれています。次に、最初の列に基づいてスライサーを作成します。最後に、ワークブックを[出力 XLSX](outputCreateSlicerToExcelTable.xlsx)フォーマット。
+次のサンプルコードをご覧ください。これは、テーブルを含む[サンプルExcelファイル](sampleCreateSlicerToExcelTable.xlsx)を読み込みます。それから最初の列に基づいてスライサーを作成します。最後に、ブックを[出力XLSX](outputCreateSlicerToExcelTable.xlsx)形式で保存します。
 
 ### **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.cs" >}}
 
-## **先行トピック**
-- [スライサーのプロパティを変更する](/cells/ja/net/change-slicer-properties/)
-- [Excel を PDF にレンダリングしながらスライサーを描画する](/cells/ja/net/draw-slicer-while-rendering-excel-to-pdf/)
+## **高度なトピック**
+- [スライサープロパティを変更する](/cells/ja/net/change-slicer-properties/)
+- [ExcelをPDFにレンダリングする際にスライサーを描画する](/cells/ja/net/draw-slicer-while-rendering-excel-to-pdf/)
 - [スライサーの書式設定](/cells/ja/net/formatting-slicer/)
 - [スライサーの削除](/cells/ja/net/removing-slicer/)
-- [レンダリング スライサー](/cells/ja/net/rendering-slicer/)
-- [スライサーの更新](/cells/ja/net/updating-slicer/)
+- [スライサーをレンダリングする](/cells/ja/net/rendering-slicer/)
+- [スライサーを更新する](/cells/ja/net/updating-slicer/)

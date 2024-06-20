@@ -1,19 +1,20 @@
-﻿---
-title: Экспорт Excel в HTML с помощью GridLines
+---
+title: Экспорт Excel в HTML с сеткой
 type: docs
 weight: 760
 url: /ru/java/export-excel-to-html-with-gridlines/
 ---
+
 {{% alert color="primary" %}} 
 
- Если вы хотите экспортировать файл Excel в HTML с помощью GridLines, используйте[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) свойство и установить его**истинный**.
+Если вы хотите экспортировать свой файл Excel в HTML с сеткой, то используйте свойство [HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) и установите его в **true**.
 
 {{% /alert %}} 
-## **Экспорт Excel в HTML с помощью GridLines**
-Следующий пример кода создает книгу и заполняет ее лист некоторыми значениями, а затем сохраняет ее в формате HTML после установки[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) к**истинный**.
+## **Экспорт Excel в HTML с сеткой**
+Следующий образец кода создает книгу и заполняет ее лист некоторыми значениями, а затем сохраняет его в формате HTML после установки значения [HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) в **true**.
 
-На следующем снимке экрана показан вывод HTML, созданный с помощью этого примера кода. Как видите, он также отображает линии сетки в выводе HTML.
+На следующем снимке экрана показано сгенерированное этим образцом кода выходное HTML. Как видно, он также отображает сетку в выходном HTML.
 
-![дело:изображение_альтернативный_текст](export-excel-to-html-with-gridlines_1.png)
+![todo:image_alt_text](export-excel-to-html-with-gridlines_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExportExceltoHTML-ExportExceltoHTML.java" >}}

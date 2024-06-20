@@ -3,18 +3,19 @@ title: Aggiungi connessione pivot
 type: docs
 weight: 30
 url: /it/python-net/add-pivot-connection/
-description: Scopri come aggiungere una connessione pivot con la libreria Aspose.Cells for Python via .NET.
-keywords: Add pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Scopri come aggiungere una connessione pivot con Aspose.Cells for Python via .NET.
+keywords: Aspose.Cells for Python Excel, Libreria Excel Python, Aggiungi Connessione Pivot senza Excel, Associa Slicer e Tabella Pivot senza Excel in Python, Aggiungi Connessione Pivot utilizzando la libreria excel Aspose.Cells for Python.
 ---
-##  **Possibili scenari di utilizzo**
 
-Se si desidera associare l'affettatrice e la tabella pivot in Excel, è necessario fare clic con il pulsante destro del mouse sull'affettatrice e selezionare la voce "Connessioni report...". Nell'elenco delle opzioni è possibile agire sulla casella di controllo. Allo stesso modo, se si desidera associare l'affettatrice e la tabella pivot utilizzando Aspose.Cells for Python via .NET API a livello di codice, utilizzare il comando[**Slicer.add_pivot_connection(pivot)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable)metodo. Assocerà l'affettatrice e la tabella pivot.
+## **Possibili Scenari di Utilizzo**
 
-##  **Associa filtro dati e tabella pivot**
+Se desideri associare slicer e tabella pivot in Excel, devi fare clic con il pulsante destro del mouse sullo slicer e selezionare l'elemento "Connessioni Rapporto...". Nell'elenco delle opzioni, puoi operare sulla casella di controllo. Allo stesso modo, se desideri associare slicer e tabella pivot utilizzando Aspose.Cells for Python via .NET API in modo programmato, utilizza il metodo [**Slicer.add_pivot_connection(pivot)**](https://reference.aspose.com/cells/python-net/aspose.cells.slicers/slicer/add_pivot_connection/#aspose.cells.pivot.PivotTable). Si assocerà slicer e tabella pivot.
 
-Il codice di esempio seguente carica il file[file Excel di esempio](add-pivot-connection.xlsx)che contiene un'affettatrice esistente. Accede al filtro dei dati e quindi associa il filtro dei dati e la tabella pivot. Infine, salva la cartella di lavoro come[file Excel di output](add-pivot-connection-out.xlsx). 
+## **Come Associare Slicer e Tabella Pivot Utilizzando la Libreria Excel Aspose.Cells for Python**
+
+Il seguente codice di esempio carica il [file Excel di esempio](add-pivot-connection.xlsx) che contiene un slicer esistente. Accede al Slicer e quindi associa Slicer e Tabella pivot. Infine, salva il workbook come [output Excel file](add-pivot-connection-out.xlsx). 
 
 
-##  **Codice d'esempio**
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Slicers-Adding-Pivot-Connection.py" >}}

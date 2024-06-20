@@ -1,15 +1,16 @@
-﻿---
-title: Ruby でワークシートの保護を解除する
+---
+title: Rubyでワークシートの保護を解除する
 type: docs
 weight: 20
 url: /ja/java/unprotect-a-worksheet-in-ruby/
 ---
+
 ## **Aspose.Cells - ワークシートの保護を解除する**
-を使用してワークシートを保護するには**Aspose.Cells Ruby の場合は Java**、 電話**unprotect_worksheet**方法**保護**モジュール。
+Aspose.Cells Java for Rubyを使用してワークシートを保護するには、**protection**モジュールの**unprotect_worksheet**メソッドを呼び出します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def unprotect_worksheet()
 
@@ -54,7 +55,7 @@ url: /ja/java/unprotect-a-worksheet-in-ruby/
 end   
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートの保護を解除する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のどちらかのソーシャルコーディングサイトから、**Aspose.Cells**の**ワークシートの保護を解除する**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

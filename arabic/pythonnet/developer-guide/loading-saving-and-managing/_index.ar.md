@@ -1,6 +1,6 @@
-﻿---
-title: فتح ملفات Excel وحفظها وإدارتها
-linktitle: التحميل والحفظ والإدارة
+---
+title: فتح، حفظ وإدارة ملفات إكسل
+linktitle: تحميل، حفظ وإدارة
 type: docs
 weight: 20
 url: /ar/python-net/loading-saving-and-managing/

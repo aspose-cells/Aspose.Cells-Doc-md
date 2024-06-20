@@ -1,12 +1,15 @@
-﻿---
-title: Text flödar över från GridDesktop-cellen om den är för lång
+---
+title: Texten överskrider GridDesktop cell om den är för lång
 type: docs
 weight: 140
-url: /sv/net/text-overflows-from-griddesktop-cell-if-it-is-too-long/
+url: /sv/net/aspose-cells-griddesktop/text-overflows-from-griddesktop-cell-if-it-is-too-long/
+keywords: GridDesktop,overflow
+description: Denna artikel introducerar textöverskridning i GridDesktop.
 ---
-## **Möjliga användningsscenarier**
-Microsoft Excel fyller över texten när nästa intilliggande celler är tomma och texten är för lång för att passa in i cellen. Aspose.Cells för GridDesktop stöder också den här funktionen. Den här funktionen stöddes dock inte i tidigare versioner av GridDesktop t.ex. 17.11, 17.10 etc. De nyare versionerna från 17.12 och framåt stöder denna funktion.
-## **Text flödar över från GridDesktop-cellen om den är för lång**
-Följande skärmdump visar att texten svämmar över från GridDesktop-cellen när den är för lång för att passa inuti cellbredden. Skärmdumpen visar beteendet hos nyare och äldre versioner av GridDesktop relaterat till textspillet. Som du kan se på skärmdumpen stöds funktionen från 17.12 och framåt.
+
+## **Möjliga användningsscenario**
+Microsoft Excel överskrider texten när de närliggande cellerna är tomma och texten är för lång för att passa inuti cellen. Aspose.Cells for GridDesktop stöder också denna funktion. Dock stöddes den här funktionen inte i tidigare versioner av GridDesktop, t.ex. 17.11, 17.10 osv. De nyare versionerna från 17.12 och framåt stöder denna funktion.
+## **Texten överskrider GridDesktop-cell om den är för lång**
+Följande skärmbild visar att texten överskrider GridDesktop-cell när den är för lång för att passa inuti cellbredden. Skärmbilden visar beteendet hos nyare och äldre versioner av GridDesktop i relation till textöverskridning. Som du kan se i skärmbilden stöds funktionen från 17.12 och framåt.
 ## **Skärmdump**
 ![todo:image_alt_text](text-overflows-from-griddesktop-cell-if-it-is-too-long_1.png)

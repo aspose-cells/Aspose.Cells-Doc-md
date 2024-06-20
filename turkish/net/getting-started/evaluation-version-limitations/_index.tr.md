@@ -3,55 +3,56 @@ title: Değerlendirme Sürümü Sınırlamaları
 type: docs
 weight: 110
 url: /tr/net/evaluation-version-limitations/
-description: Aspose.Cells for .NET, farklı satın alma planları sunar veya C#'deki Lisanslama ve Abonelik politikalarını kullanarak değerlendirme için Ücretsiz Deneme ve 30 günlük Geçici Lisans sunar.
-keywords: Evaluation Version Limitations, Number of Opened Files in Evaluation Version, Evaluation Watermark using Evaluation Version.
+description: Aspose.Cells for .NET, C# Lisanslama ve Abonelik politikaları kullanarak satın alma için farklı planlar veya Ücretsiz Deneme ve değerlendirme için 30 günlük Geçici Lisans sunar.
+keywords: Değerlendirme Sürümü Sınırlamaları, Değerlendirme Sürümünde Açılan Dosya Sayısı, Değerlendirme Sürümü Kullanarak Değerlendirme Filigranı
 ---
-##  **Aspose.Cells Değerlendirme Sürümü Nasıl Alınır?**
 
-Değerlendirme sürümünü indirebilirsiniz.**Aspose.Cells** NET için[indirme sayfası](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) @ Maven repo. Değerlendirme sürümü, ürünün lisanslı sürümüyle tamamen aynı yetenekleri sağlar. Ayrıca, bir lisans satın aldığınızda ve lisansı uygulamak için birkaç satır kod eklediğinizde değerlendirme sürümü kolayca lisanslanır.
+## ****Aspose.Cells**'in Değerlendirme Sürümünü Nasıl Alınır**
 
- *Aspose.Cells** değerlendirmenizden memnun kaldığınızda,[lisans satın al](https://purchase.aspose.com) Aspose web sitesinde. Sunulan farklı abonelik türlerine aşina olun. Herhangi bir sorunuz varsa Aspose satış ekibiyle iletişime geçmekten çekinmeyin.
+**Aspose.Cells**'in .NET için değerlendirme sürümünü [indirme sayfasından](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) indirebilirsiniz. Değerlendirme sürümü, lisanslı sürümü ile tamamen aynı yetenekleri sunar. Ayrıca, değerlendirme sürümü, lisans satın aldığınızda ve lisansı uygulamak için birkaç satır kod eklediğinizde lisanslı hale gelir.
 
-Her Aspose lisansı, bu süre içinde çıkan tüm yeni sürümlere veya düzeltmelere yönelik ücretsiz yükseltmeler için bir yıllık abonelik taşır. Teknik destek ücretsiz ve sınırsızdır ve hem lisanslı hem de değerlendirme kullanıcılarına sağlanır.
+**Aspose.Cells** değerlendirmenizden memnun kalırsanız, Aspose web sitesinden [lisans satın alabilirsiniz](https://purchase.aspose.com). Sunulan farklı abonelik türleri hakkında bilgi edinin. Herhangi bir sorunuz varsa, Aspose satış ekibiyle iletişime geçmekten çekinmeyin.
 
-##  **Değerlendirme Sürümü Sınırlamaları Olmadan Aspose.Cells Nasıl Test Edilir**
+Her Aspose lisansı, bu süre zarfında ortaya çıkan yeni sürümlere veya düzeltmelere ücretsiz yükseltmeler için bir yıllık abonelik içerir. Teknik destek, lisanslı ve değerlendirme kullanıcılara ücretsiz ve sınırsız olarak sağlanır.
 
- Test etmek istiyorsanız**Aspose.Cells**değerlendirme sürümü sınırlaması olmaksızın 30 günlük geçici lisans isteyin. Bakınız[Geçici Lisans nasıl alınır?](https://purchase.aspose.com/temporary-license) daha fazla bilgi için.
+## **Değerlendirme Sürümü Sınırlamaları olmadan Aspose.Cells'ı Nasıl Test Edebilirsiniz**
+
+**Aspose.Cells**'i değerlendirme sınırlamaları olmadan test etmek istiyorsanız, 30 günlük geçici bir lisans isteyin. Daha fazla bilgi için [Geçici Lisans Nasıl Alınır?](https://purchase.aspose.com/temporary-license) sayfasına başvurun.
 
 
-##  **Değerlendirme Sürümü Sınırlamaları**
+## **Değerlendirme Sürümü Kısıtlamaları**
 
- Değerlendirme sürümü**Aspose.Cells** ürün (lisans belirtilmeden) tam ürün işlevselliği sağlar, ancak bir programda 100 dosya ve değerlendirme filigranı içeren ekstra bir çalışma sayfası açmakla sınırlıdır.
+Lisans belirtilmeden **Aspose.Cells** ürününün değerlendirme sürümü, tam ürün işlevselliği sağlar, ancak bir programda 100 dosyayı açmak ve ek bir çalışma sayfası ile sınırlıdır.
 
 Sınırlamalar aşağıda gösterilmiştir:
 
-###  **1. Sınırlama: Açılan Dosya Sayısı**
+### **1. Sınırlama: Açılan Dosya Sayısı**
 
-Programınızı çalıştırırken yalnızca 100 adet Excel dosyasını açabilirsiniz. Başvurunuz bu sayıyı aşarsa bir istisna atılacaktır.
+Programınızı çalıştırdığınızda, yalnızca 100 Excel dosyasını açabilirsiniz. Uygulamanız bu sayıyı aşarsa, bir istisna fırlatılacaktır.
 
-###  **2. Sınırlılık: Değerlendirme Filigranı İçeren Çalışma Sayfası**
-Bu çalışma sayfası her zaman etkin çalışma sayfası olarak gösterilecektir. Yalnızca lisanslı sürümde etkin çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz.
+### **2. Sınırlama: Değerlendirme Filigranı ile Çalışma Sayfası**
+Bu çalışma sayfası her zaman etkin çalışma sayfası olarak gösterilir. Yalnızca lisanslı sürümde etkin çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz.
 <br>
 <image src="1.png" width="70%" />
 <br>
 
-###  **3. Sınırlama: Değerlendirme Bilgilerini İçeren Düz Metin**
-Aspose.Cells numaralı çıktı Düz Metin dosyasında, belgenin sonuna bir değerlendirme bilgisi eklenecektir.
+### **3. Sınırlama: Değerlendirme bilgileriyle Düz Metin**
+Aspose.Cells tarafından üretilen çıktı Düz Metin dosyasında, bir değerlendirme bilgisi belgenin sonuna eklenecektir.
 <br>
 <image src="2.png" width="70%" />
 <br>
 
-###  **4. Sınırlama: PDF ve Değerlendirme Filigranı İçeren Resim**
-PDF çıktısında veya Aspose.Cells görüntü dosyasında, belgenin/görüntünün üst kısmına bir değerlendirme filigranı yapıştırılır. Değerlendirme Telif Hakkı Uyarısını (ek çalışma sayfası) GridWeb kontrolünde de gizleyemezsiniz, her zaman eklenecektir (çalışma sayfası sekmelerinin sonunda) kontrolde.
+### **4. Sınırlama: PDF ve Değerlendirme Filigranı içeren Görüntü**
+Aspose.Cells tarafından üretilen çıktı PDF veya görüntü dosyasında, bir değerlendirme filigranı belgenin/ görüntünün üstüne yapıştırılacaktır. Ayrıca Değerlendirme Telif Uyarısı (ek çalışma sayfası) GridWeb kontrolünde gizlenemez, her zaman kontrolde (çalışma sayfası sekmelerinde sona eklenecek şekilde) olacaktır.
 <br>
 <image src="3.png" width="70%" />
 <br>
 
-###  **5. Sınırlama: Yapılandırma dosyası ayarları (Aspose.Cells.GridWeb)**
-Aşağıdaki kod satırlarını yapılandırma bölümüne (örneğin web.config dosyasına) ekleyerek komut dosyasının yolunu yeniden belirleyemezsiniz. Acw_client, dosyaları içeren bir klasördür ve Aspose.Cells.GridWeb, dahili yapılandırmasını yönetmek için bu klasörü kullanır. İçinde GridWeb'in davranışını belirlemek ve diğer işlemleri ayarlamak için komut dosyaları, görüntü dosyaları ve diğer dosyalar bulunur. Yapılandırma dosyası, kontrolün bazı durumlarda/senaryolarda yararlı olan gömülü istemci kaynaklarını (resimler, komut dosyaları vb.) kullanmasını önlemek için kullanılır. Ayrıca web.config dosyasındaki bu yapılandırma ayarları yalnızca kontrolün LİSANSLI sürümünde geçerli olacaktır.
+### **5. Sınırlama: Yapılandırma dosyası ayarları (Aspose.Cells.GridWeb)**
+Aşağıdaki kod satırlarını ekleyerek (örneğin web.config dosyasında) betik yolunu yeniden belirtemezsiniz. acw_client, dosya ve Aspose.Cells.GridWeb'in iç konfigürasyonunu yönetmek için kullandığı betik dosyaları, görüntü dosyaları ve GridWeb'in davranışını belirlemek ve diğer işlemleri ayarlamak için bu klasörü içeren bir klasördür. Yapılandırma dosyası, gömülü istemci kaynaklarının (görüntüler, betikler vb.) denetimin kullanımını engellemek için kullanılır, bu bazı durumlarda / senaryolarda kullanışlıdır. Dahası, web.config dosyasındaki bu yapılandırma ayarları sadece denetimin LİSANSLI sürümü ile etki edecektir.
 
 **XML**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 <appSettings>
 
 <add key="aspose.cells.gridweb.acw_client_path" value="/acw_client/" />
@@ -64,6 +65,6 @@ Aşağıdaki kod satırlarını yapılandırma bölümüne (örneğin web.config
 
 {{% alert color="primary" %}}
 
-Dosya Sistemi Web Sitelerinde veya MS Ajax uzantılarında vb. Aspose.Cells.GridWeb kontrolünü kullanıyorsanız bazı durumlarda/senaryolarda bu ayarlar zorunlu olabilir.
+Bu ayarlar, dosya sistemli web sitelerinde veya MS Ajax uzantıları vb. kullanıyorsanız bazı durumlarda zorunlu olabilir.
 
 {{% /alert %}}

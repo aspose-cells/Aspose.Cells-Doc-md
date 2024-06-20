@@ -1,12 +1,13 @@
-﻿---
-title: Çalışma Kitaplarındaki Aralıklara Stiller Uygulayın
+---
+title: Çalışma Kitaplarındaki Aralıklara Stil Uygulayın
 type: docs
 weight: 40
 url: /tr/net/apply-styles-to-ranges-in-workbooks/
 ---
-Çalışma kitaplarının satırlarına ve sütunlarına stil uygulamanın kod karşılaştırması aşağıdadır:
+
+Aşağıda çalışma kitaplarının satır ve sütunlarına stil uygulama kod karşılaştırması bulunmaktadır:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -30,7 +31,7 @@ url: /tr/net/apply-styles-to-ranges-in-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -81,5 +82,5 @@ url: /tr/net/apply-styles-to-ranges-in-workbooks/
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **İndirmek**
+## **İndir**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)

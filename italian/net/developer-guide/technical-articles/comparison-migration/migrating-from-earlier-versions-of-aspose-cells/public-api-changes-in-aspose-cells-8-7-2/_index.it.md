@@ -1,19 +1,20 @@
-﻿---
-title: Pubblico API Modifiche Aspose.Cells 8.7.2
+---
+title: Modifiche all API pubblica in Aspose.Cells 8.7.2
 type: docs
 weight: 250
 url: /it/net/public-api-changes-in-aspose-cells-8-7-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.7.1 alla 8.7.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API di Aspose.Cells dalla versione 8.7.1 alla 8.7.2 che potrebbero interessare agli sviluppatori di moduli/applicazioni. Include non solo nuovi metodi pubblici e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
-### **Esteso il motore di calcolo predefinito**
-Aspose.Cells Le API hanno un potente motore di calcolo in grado di calcolare quasi tutte le Microsoft funzioni di Excel. Inoltre, le API Aspose.Cells ora consentono di estendere il motore di calcolo predefinito per soddisfare i requisiti di calcolo personalizzati di qualsiasi applicazione.
+### **Esteso il Motore di Calcolo Predefinito**
+Le API di Aspose.Cells hanno un potente motore di calcolo che può calcolare quasi tutte le funzioni di Microsoft Excel. Inoltre, le API di Aspose.Cells consentono ora di estendere il motore di calcolo predefinito per soddisfare i requisiti di calcolo personalizzati di qualsiasi applicazione.
 
-Le seguenti API sono state aggiunte con il rilascio di Aspose.Cells for .NET 8.7.2.
+Le API seguenti sono state aggiunte con il rilascio di Aspose.Cells for .NET 8.7.2.
 
 1. Classe AbstractCalculationEngine
 1. Classe CalculationData
@@ -21,19 +22,19 @@ Le seguenti API sono state aggiunte con il rilascio di Aspose.Cells for .NET 8.7
 
 {{% alert color="primary" %}} 
 
-Le API sopra menzionate consentono di implementare un motore di calcolo personalizzato per tutte le funzioni (incluse le funzioni native di Excel) con maggiore flessibilità.
+Le API sopra menzionate consentono di implementare un motore di calcolo personalizzato per tutte le funzioni (incluso le funzioni native di Excel) con maggiore flessibilità.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Per maggiori dettagli su questa funzione, consultare l'articolo dettagliato su[Implementazione del motore di calcolo personalizzato](/cells/it/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
+Per ulteriori dettagli su questa funzione, consulta l'articolo dettagliato su [Implementazione di un Motore di Calcolo Personalizzato](/cells/it/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/)
 
 {{% /alert %}} 
 
-Di seguito è riportato il semplice scenario di utilizzo.
+Di seguito è riportato il semplice scenario d'uso.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class MyEngine : AbstractCalculationEngine
 
@@ -88,20 +89,20 @@ Di seguito è riportato il semplice scenario di utilizzo.
 {{< /highlight >}}
 
 
-### **Aggiunto indicizzatore sovraccarico per TextBoxCollection**
-Aspose.Cells for .NET 8.7.2 ha esposto l'indicizzazione in overload per la classe TextBoxCollection per poter accedere all'istanza di TextBox utilizzandone il nome come stringa.
+### **Aggiunto Indicizzatore Sovraccaricato per TextBoxCollection**
+Aspose.Cells for .NET 8.7.2 ha esposto l'indicizzatore sovraccaricato per la classe TextBoxCollection al fine di accedere all'istanza di TextBox utilizzando il suo nome come stringa.
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli su questa funzione, consultare l'articolo dettagliato su[Accesso al TextBox tramite il suo nome](/cells/it/net/access-the-text-box-by-the-name/)
+Per ulteriori dettagli su questa funzione, consulta l'articolo dettagliato su [Accesso al TextBox tramite il suo Nome](/cells/it/net/access-the-text-box-by-the-name/)
 
 {{% /alert %}} 
 
-Lo scenario di utilizzo semplice è il seguente.
+Lo scenario di utilizzo semplice appare come segue.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -130,14 +131,14 @@ box = sheet.TextBoxes["MyTextBox"];
 {{< /highlight >}}
 
 
-### **Aggiunto l'evento OnAfterColumnFilter per GridWeb**
-Aspose.Cells.GridWeb for .NET 8.7.2 ha esposto l'evento OnAfterColumnFilter che funge da callback al meccanismo di filtro eseguito tramite l'interfaccia utente Aspose.Cells.GridWeb. Come suggerisce il nome, l'evento viene attivato dopo l'applicazione del filtro della colonna e può essere utilizzato per ottenere informazioni sul filtro come l'indice della colonna su cui è stato applicato il filtro e il valore del filtro selezionato.
+### **Aggiunto evento OnAfterColumnFilter per GridWeb**
+Aspose.Cells.GridWeb per .NET 8.7.2 ha esposto l'evento OnAfterColumnFilter che funge da callback per il meccanismo di filtro effettuato tramite l'interfaccia utente di Aspose.Cells.GridWeb. Come suggerisce il nome, l'evento viene attivato dopo che il filtro delle colonne è stato applicato e può essere utilizzato per ottenere informazioni sul filtro come l'indice della colonna su cui è stato applicato il filtro e il valore del filtro selezionato.
 
-Lo scenario di utilizzo semplice è il seguente.
+Lo scenario di utilizzo semplice appare come segue.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void GridWeb1_AfterColumnFilter(object sender, Aspose.Cells.GridWeb.RowColumnEventArgs e)
 
@@ -151,6 +152,6 @@ Lo scenario di utilizzo semplice è il seguente.
 
 {{% alert color="primary" %}} 
 
-Non dimenticare di registrare l'evento nel controllo GridWeb<acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
+Do not forget to register the event to GridWeb control <acw:gridweb OnAfterColumnFilter="GridWeb1_AfterColumnFilter"/>
 
 {{% /alert %}}

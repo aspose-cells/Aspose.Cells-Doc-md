@@ -1,14 +1,15 @@
-﻿---
-title: Sposta i fogli di lavoro all'interno della cartella di lavoro
+---
+title: Sposta i fogli all interno del workbook
 type: docs
 weight: 30
 url: /it/net/move-worksheets-within-workbook/
 ---
-Aspose.Cells fornisce un metodo, Aspose.Cells.Worksheet.MoveTo(), utilizzato per spostare un foglio di lavoro in un'altra posizione nel foglio di calcolo. Il metodo accetta l'indice del foglio di lavoro di destinazione come parametro.
 
-L'esempio seguente mostra come spostare un foglio di lavoro in un'altra posizione all'interno della cartella di lavoro.
+Aspose.Cells fornisce un metodo, Aspose.Cells.Worksheet.MoveTo(), utilizzato per spostare un foglio di lavoro in un'altra posizione nel foglio di calcolo. Il metodo prende l'indice del foglio di lavoro di destinazione come parametro.
 
-{{< highlight "csharp" >}}
+L'esempio seguente mostra come spostare un foglio di lavoro in un'altra posizione all'interno del libro di lavoro.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 

@@ -1,39 +1,42 @@
-﻿---
-title: Raggruppa righe e crea subtotale
+---
+title: Raggruppare righe e creare subtotali
 type: docs
 weight: 70
-url: /it/net/group-rows-and-create-subtotal/
+url: /it/net/aspose-cells-gridweb/group-rows-and-create-subtotal/
+keywords: GridWeb,subtotal,group,ungroup
+description: Questo articolo introduce come raggruppare/suddividere righe/colonne e come lavorare con il subtotali in GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb può creare uno schema per i tuoi dati. Ciò consente di mostrare e nascondere i livelli di dettaglio facendo clic sui simboli di contorno "+" e "-" per visualizzare solo le righe che forniscono riepiloghi o intestazioni per le sezioni in un foglio di lavoro. È possibile utilizzare i simboli per visualizzare i dettagli sotto un singolo riepilogo o titolo.
+Aspose.Cells.GridWeb può creare un sommario per i tuoi dati. Ciò ti consente di mostrare e nascondere livelli di dettaglio facendo clic sui simboli di sommario "+" e "-" per visualizzare solo le righe che forniscono riepiloghi o intestazioni per le sezioni in un foglio di lavoro. È possibile utilizzare i simboli per visualizzare i dettagli sotto un singolo riepilogo o intestazione.
 
-Quando si raggruppano le righe, è importante selezionare solo le righe di dettaglio che compongono il gruppo. Non includere la riga di riepilogo correlata. Ad esempio, se la riga 6 contiene i totali per i dati nelle righe da 3 a 5, selezionare solo le righe da 3 a 5 per definire il gruppo. Il controllo Aspose.Cells.GridWeb visualizza il**mostra i dettagli** (+) e**nascondere dettaglio** (-) simboli accanto alle intestazioni di riga che specificano i gruppi nel foglio di lavoro.
+Quando si raggruppano le righe, è importante selezionare solo le righe di dettaglio che compongono il gruppo. Non includere la riga di riepilogo correlata. Ad esempio, se la riga 6 contiene totali per i dati dalla riga 3 alla 5, selezionare solo dalla riga 3 alla 5 per definire il gruppo. Il controllo di Aspose.Cells.GridWeb visualizza i simboli **mostra dettagli** (+) e **nascondi dettagli** (-) accanto alle intestazioni di riga specificando i gruppi nel foglio di lavoro.
 
-Aspose.Cells.GridWeb consente inoltre di creare subtotali basati su qualsiasi campo di dati. Un subtotale non è necessariamente una somma: può essere una media, un conteggio, un minimo, un massimo o un altro calcolo statistico.
+Aspose.Cells.GridWeb consente anche di creare subtotali basati su qualsiasi campo di dati. Un subtotali non è necessariamente una somma: può essere una media, conteggio, minimo, massimo o altro calcolo statistico.
 
-Questo argomento illustra il raggruppamento di righe e la creazione di totali parziali utilizzando Aspose.Cells.GridWeb API. Gli sviluppatori possono raggruppare le righe con qualsiasi livello di nidificazione e creare facilmente totali parziali.
+Questo argomento discute il raggruppamento delle righe e la creazione dei subtotali utilizzando l'API di Aspose.Cells.GridWeb. Gli sviluppatori possono raggruppare le righe con qualsiasi livello di annidamento e creare subtotali facilmente.
 
 {{% /alert %}} 
-## **Raggruppamento di righe**
+## **Raggruppamento righe**
 Per raggruppare un numero specifico di righe:
 
-1. Aggiungere il controllo Aspose.Cells.GridWeb a un Web Form.
+1. Aggiungi il controllo Aspose.Cells.GridWeb a un modulo Web.
 1. Accedi a un foglio di lavoro.
 1. Seleziona il numero desiderato di celle nelle righe.
 1. Raggruppa le righe.
 
-Quando le righe sono raggruppate, viene visualizzato un pulsante espandi/comprimi nella parte superiore della riga di riepilogo delle righe. È possibile modificare l'impostazione della direzione. La proprietà WebWorksheet.IsSummaryRowBelow è una proprietà booleana. Impostalo su false (predefinito) e la riga di riepilogo sarà sopra le righe di dettaglio. Impostalo su true e la riga di riepilogo sarà sotto le righe di dettaglio. Fare clic sul pulsante Espandi/Comprimi per espandere o comprimere le righe raggruppate.
+Quando le righe sono raggruppate, viene visualizzato un pulsante di espansione/contrazione in cima alla riga di sommario delle righe. È possibile modificare l'impostazione di direzione. La proprietà Booleana WebWorksheet.IsSummaryRowBelow è un Booleano. Impostalo su false (predefinito) e la riga di sommario sarà sopra le righe di dettaglio. Impostalo su true e la riga di sommario sarà sotto le righe di dettaglio. Fai clic sul pulsante di espansione o contrazione per espandere o contrarre le righe raggruppate.
 
-L'esempio seguente raggruppa le righe dalla seconda alla decima riga.
+Nell'esempio seguente vengono raggruppate le righe dalla 2a alla 10a riga.
 
-**Righe di raggruppamento** 
+**Raggruppamento righe** 
 
-![cose da fare:immagine_alt_testo](group-rows-and-create-subtotal_1.png)
+![todo:image_alt_text](group-rows-and-create-subtotal_1.png)
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -44,16 +47,16 @@ GridWorksheet sheet = GridWeb1.WorkSheets[GridWeb1.ActiveSheetIndex];
 sheet.Cells.GroupRows(1, 9);
 
 {{< /highlight >}}
-### **Nidificazione di righe raggruppate**
-Puoi creare livelli di organizzazione mentre raggruppi un insieme di righe. È possibile raggruppare le righe tra le righe raggruppate. L'esempio seguente mostra l'annidamento di righe raggruppate.
+### **Raggruppamento nidificato di righe**
+È possibile creare livelli di organizzazione durante il raggruppamento di un insieme di righe. È possibile raggruppare righe tra le righe già raggruppate. Nell'esempio seguente vengono mostrate righe raggruppate nidificate.
 
-**Righe di raggruppamento** 
+**Raggruppamento righe** 
 
-![cose da fare:immagine_alt_testo](group-rows-and-create-subtotal_2.png)
+![todo:image_alt_text](group-rows-and-create-subtotal_2.png)
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -68,21 +71,21 @@ sheet.Cells.GroupRows(1, 9);
 sheet.Cells.GroupRows(4, 6);
 
 {{< /highlight >}}
-### **Processo interno: come funziona il controllo?**
-Ogni riga del foglio ha un numero di contorno. Il valore predefinito del numero di struttura è zero. Ogni volta che si raggruppano le righe, il numero di struttura viene aumentato di 1. È possibile ottenere il numero di struttura chiamando il metodo GridWorksheet.Cells.GetRowOutlineLevel().
-## **Separa righe**
-Aspose.Cells.GridWeb consente di separare le righe raggruppate.
+### **Processo interno: Come funziona il controllo?**
+Ogni riga del foglio ha un numero di struttura. Il valore predefinito del numero di struttura è zero. Ogni volta che si raggruppano le righe, il numero di struttura aumenta di 1. È possibile ottenere il numero di struttura chiamando il metodo GridWorksheet.Cells.GetRowOutlineLevel().
+## **Annulla raggruppamento righe**
+Aspose.Cells.GridWeb ti consente di annullare il raggruppamento delle righe.
 
-Per separare un numero specifico di righe:
+Per annullare il raggruppamento di un numero specifico di righe:
 
-1. Selezionare un numero di celle nelle righe del foglio di lavoro da separare.
-1. Separa le righe.
+1. Seleziona un numero di celle nelle righe del foglio di lavoro da annullare.
+1. Annulla il raggruppamento delle righe.
 
-L'esempio seguente separa le righe dalla seconda alla decima riga.
+Nell'esempio seguente vengono annullate le righe dalla 2a alla 10a riga.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -96,15 +99,15 @@ sheet.Cells.UngroupRows(1, 9); 
 
 {{% alert color="primary" %}} 
 
-Quando si chiama il metodo GridWorksheet.Cells.UngroupRows(), il numero di struttura delle righe raggruppate viene impostato su zero.
+Quando si chiama il metodo GridWorksheet.Cells.UngroupRows(), il numero di struttura delle righe raggruppate viene impostato a zero.
 
 {{% /alert %}} 
-## **Creazione di subtotale**
-La funzione di totale parziale del controllo può raggruppare le righe nel foglio con una colonna specificata e calcolare il riepilogo delle colonne. Aspose.Cells.GridWeb può calcolare automaticamente i valori subtotali per un elenco. Quando si implementano i totali parziali, il controllo delinea l'elenco in modo da poter visualizzare e nascondere le righe di dettaglio per ogni totale parziale. Prima di aggiungere i subtotali, ordina in base al campo su cui desideri eseguire il subtotale. Per creare totali parziali, utilizzare qualsiasi versione del metodo WebWorksheet.CreateSubtotal sottoposto a overload.
+## **Creazione subtotali**
+La funzionalità subtotale del controllo può raggruppare le righe nel foglio con una colonna specificata e calcolare il riepilogo delle colonne. Aspose.Cells.GridWeb può calcolare automaticamente i valori subtotali per un elenco. Quando si implementano i subtotali, il controllo evidenzia l'elenco in modo da poter visualizzare e nascondere le righe di dettaglio per ciascun totale parziale. Prima di aggiungere i subtotali, ordinare sul campo su cui si desidera fare il totale parziale. Per creare i subtotali, utilizzare qualsiasi versione del metodo sovraccaricato WebWorksheet.CreateSubtotal.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public void CreateSubtotal
 
@@ -118,7 +121,7 @@ La funzione di totale parziale del controllo può raggruppare le righe nel fogli
 
            SubtotalFunction subtotalFunction,
 
-           int[]subtotalColumnIndexList
+           int[] subtotalColumnIndexList
 
 );
 
@@ -126,43 +129,43 @@ La funzione di totale parziale del controllo può raggruppare le righe nel fogli
 ### **Elenco dei parametri**
 
 |**No.**|**Nome parametro**|**Descrizione**|
-|:- |:- |:- |
-|1|columnNameRowIndex|L'indice di riga della riga del nome di colonna.|
-|2|dataRows|Il numero delle righe di dati.|
-|3|groupByColumnIndex|L'indice di colonna della colonna da raggruppare.|
-|4|subtotaleFunzione|L'enumerazione del tipo di funzione subtotale.|
-|5|subtotaleColumnIndexList|Gli indici di colonna di cui eseguire il subtotale.|
+| :- | :- | :- |
+|1|columnNameRowIndex| Indice di riga della riga del nome della colonna.|
+| 2|dataRows| Il numero delle righe dati.|
+| 3|groupByColumnIndex| L'indice di colonna della colonna da raggruppare.|
+| 4|subtotalFunction| L'enumerazione del tipo di funzione parziale.|
+| 5|subtotalColumnIndexList| Gli indici di colonna da sottoporre a totale parziale.|
 ### **Elenco delle funzioni di riepilogo**
 Esistono diversi tipi di funzioni di riepilogo supportate dall'enumerazione {[SubtotalFunction}}:
 
 |**No.**|**Nome funzione**|**Descrizione**|
-|:- |:- |:- |
-|1|MEDIA|Calcola la media dei valori.|
-|2|CONTARE|Conta i valori numerici nelle celle.|
-|3|CONTA|Conta i dati non numerici nelle celle.|
-|4|MASSIMO|Calcola il valore più grande.|
-|5|MIN|Calcola il valore più piccolo.|
-|6|PRODOTTO|Calcola il prodotto dei valori.|
-|7|SOMMA|Calcola la somma dei valori.|
-L'esempio seguente genera i subtotali che calcolano i valori non numerici raggruppati in base alla seconda colonna del foglio di lavoro.
+| :- | :- | :- |
+| 1|AVERAGE| Calcola la media dei valori.|
+| 2|COUNT| Conta i valori numerici nelle celle.|
+| 3|COUNTA| Conta i dati non numerici nelle celle.|
+| 4|MAX| Calcola il valore più grande.|
+| 5|MIN| Calcola il valore più piccolo.|
+| 6|PRODUCT| Calcola il prodotto dei valori.|
+| 7|SUM| Calcola la somma dei valori.|
+L'esempio seguente genera i subtotali che calcolano i valori non numerici raggruppati dalla seconda colonna nel foglio di lavoro.
 
 **Subtotali** 
 
-![cose da fare:immagine_alt_testo](group-rows-and-create-subtotal_3.png)
+![todo:image_alt_text](group-rows-and-create-subtotal_3.png)
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- sheet.CreateSubtotal(0, sheet.Cells.MaxRow, 1, SubtotalFunction.COUNTA, new int[]{ 1, 2, 3, 4, 5 });
+ sheet.CreateSubtotal(0, sheet.Cells.MaxRow, 1, SubtotalFunction.COUNTA, new int[] { 1, 2, 3, 4, 5 });
 
 {{< /highlight >}}
 ## **Rimozione del subtotale**
-Per rimuovere un totale parziale, utilizzare il metodo WebWorksheet.RemoveSubtotal. L'esempio seguente rimuove i subtotali.
+Per rimuovere un subtotale, utilizzare il metodo WebWorksheet.RemoveSubtotal. Nell'esempio seguente vengono rimossi i subtotali.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing the reference of the worksheet that is currently active
 
@@ -174,18 +177,18 @@ sheet.RemoveSubtotal();
 
 {{< /highlight >}}
 ## **Informazioni sulla funzione SUBTOTALE**
-Il controllo GridWeb utilizza la funzione formula SUBTOTAL per calcolare il valore del subtotale.
+Il controllo GridWeb fa uso della funzione di formula SUBTOTALE per calcolare il valore del subtotale.
 
-Sintassi: SUBTOTALE(num_funzione, ref1, ref2, ...)
+Sintassi: SUBTOTALE(numero_funzione, ref1, ref2, ...)
 
-function_num è un numero che specifica il tipo di funzione utilizzata nel calcolo del subtotale.
+La funzione_num è un numero che specifica il tipo di funzione utilizzata nel calcolo del subtotale.
 
 |**1**|**MEDIA**|
-|:- |:- |
-|2|CONTARE|
-|3|CONTA|
-|4|MASSIMO|
+| :- | :- |
+|2|COUNT|
+|3|COUNTA|
+|4|MAX|
 |5|MIN|
-|6|PRODOTTO|
-|7|SOMMA|
-ref1, ref2, sono le aree da subtotare. Se ref1, ref2, ... contengono altre funzioni di subtotale, le celle di riferimento vengono ignorate per evitare calcoli duplicati.
+|6|PRODUCT|
+|7|SUM|
+ref1, ref2, sono le aree da sottoporre a subtotali. Se ref1, ref2, ... contengono altre funzioni di subtotale, le celle referenziate vengono ignorate per evitare il calcolo duplicato.

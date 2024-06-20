@@ -1,15 +1,16 @@
-﻿---
-title: Crear nueva hoja de cálculo en xlsx4j
+---
+title: Crear Nueva Hoja de Cálculo en xlsx4j
 type: docs
 weight: 30
 url: /es/java/create-new-spreadsheet-in-xlsx4j/
 ---
+
 ## **Aspose.Cells - Crear nueva hoja de cálculo**
-La clase Workbook está disponible para un uso simple.
+La clase Workbook está disponible para un uso sencillo.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -35,13 +36,13 @@ workbook.save(dataDir + "newWorksheet_Aspose.xls");
 
 {{< /highlight >}}
 ## **xlsx4j - Crear nueva hoja de cálculo**
-El siguiente ejemplo muestra cómo se puede crear una nueva hoja de cálculo mientras se usa xlsx4j.
+El siguiente ejemplo muestra cómo se puede crear una nueva hoja de cálculo al utilizar xlsx4j.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "newWorksheet_Xlsx4j.xlsx";
 
@@ -114,7 +115,7 @@ private static Cell createCell(String content) {
 }
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/createnewspreadsheet)

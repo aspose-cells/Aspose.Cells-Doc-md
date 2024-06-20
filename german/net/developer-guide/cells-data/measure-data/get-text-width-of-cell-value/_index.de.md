@@ -1,19 +1,20 @@
 ---
-title: Ermitteln Sie die Textbreite mit dem Wert Cell
+title: Textbreite des Zellenwerts erhalten
 type: docs
 weight: 50
 url: /de/net/get-text-width-of-cell-value/
-description: Erfahren Sie, wie Sie die Textbreite des Werts Cell über Aspose.Cells for .NET API erhalten.
-keywords: Get Text Width of Cell Value, Obtain Text Width of Cell Value
+description: Erfahren Sie, wie Sie die Textbreite des Zellenwerts über die API Aspose.Cells for .NET erhalten können.
+keywords: Textbreite des Zellenwerts erhalten, Textbreite des Zellenwerts erhalten
 ---
-##  **Ermitteln Sie die Textbreite mit dem Wert Cell**
 
- Manchmal müssen die Entwickler möglicherweise die Breite des Zellenwerts berechnen, um Daten in einem bestimmten Layout anzuordnen. Aspose.Cells bietet die[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/gettextwidth) Methode, mit der Entwickler die Textbreite des Zellenwerts ermitteln können. Der folgende Beispielcode veranschaulicht die Verwendung[**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/gettextwidth)um auf die Textbreite des Zellenwerts zuzugreifen.
+## **Breite des Zellenwerts abrufen**
 
-Die im folgenden Codeausschnitt verwendete Quelldatei ist als Referenz beigefügt.
+Manchmal müssen Entwickler die Breite des Zellenwerts berechnen, um Daten in einem Layout anzuordnen. Aspose.Cells bietet die Methode [**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/gettextwidth), mit der Entwickler die Textbreite des Zellenwerts erhalten können. Der folgende Beispielscode veranschaulicht, wie man [**CellsHelper.GetTextWidth**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/gettextwidth) verwendet, um die Textbreite des Zellenwerts zu erhalten.
+
+Die im folgenden Code-Ausschnitt verwendete Quelldatei ist zur Referenz angehängt.
 
 [Quelldatei](96928090.xlsx)
 
-##  Beispielcode
+## Beispielcode
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelper-GetTextWidth-1.cs" >}}

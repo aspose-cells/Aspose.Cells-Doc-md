@@ -1,15 +1,18 @@
-﻿---
-title: Enlace de la hoja de trabajo a un conjunto de datos en tiempo de ejecución usando GridWeb
+---
+title: Vinculación de hoja de cálculo a un DataSet en tiempo de ejecución usando GridWeb
 type: docs
 weight: 70
-url: /es/net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
+url: /es/net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
+keywords: GridWeb,bind,DataSet
+description: Este artículo presenta cómo vincular una hoja de cálculo a un DataSet en GridWeb.
 ---
-## **Posibles escenarios de uso**
-Aspose.Cells.GridWeb proporciona un API sencillo que se puede usar para vincular dinámicamente un conjunto de datos a una hoja de trabajo.
-## **Vincular una hoja de trabajo a un conjunto de datos**
-El siguiente código de ejemplo explica cómo vincular una hoja de trabajo a un conjunto de datos en tiempo de ejecución.
+
+## **Escenarios de uso posibles**
+Aspose.Cells.GridWeb proporciona una API sencilla que se puede utilizar para vincular dinámicamente un DataSet a una hoja de cálculo.
+## **Vincular una hoja de cálculo a un DataSet**
+El siguiente código de muestra explica cómo vincular una hoja de cálculo a un DataSet en tiempo de ejecución.
 ## **Código de muestra**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Implementing Page_Load event handler
 
@@ -81,6 +84,6 @@ public partial class GridBind : System.Web.UI.Page
 
 {{< /highlight >}}
 ## **Captura de pantalla de salida**
-La siguiente captura de pantalla muestra GridWeb después de la ejecución del código de ejemplo anterior.
+La siguiente captura de pantalla muestra GridWeb después de la ejecución del código de muestra anterior.
 
-![todo:imagen_alternativa_texto](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

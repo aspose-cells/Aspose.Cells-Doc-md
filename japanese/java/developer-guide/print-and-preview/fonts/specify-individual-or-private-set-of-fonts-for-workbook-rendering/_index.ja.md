@@ -1,18 +1,19 @@
-﻿---
-title: ワークブックのレンダリング用に個別またはプライベートのフォント セットを指定する
+---
+title: ワークブックのレンダリング用に個々またはプライベートなフォントセットを指定する
 type: docs
 weight: 40
 url: /ja/java/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 ---
-## **考えられる使用シナリオ**
 
-通常、すべてのワークブックに対してフォント ディレクトリまたはフォントのリストを指定しますが、ワークブックに対して個別のフォント セットまたはプライベート フォント セットを指定する必要がある場合もあります。 Aspose.Cells提供[**個々のフォント構成**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)ワークブックのフォントの個別またはプライベート セットを指定するために使用できるクラス。
+## **可能な使用シナリオ**
 
-## **ワークブックのレンダリング用に個別またはプライベートのフォント セットを指定する**
+通常、すべてのワークブックに対してフォントディレクトリまたはフォントのリストを指定しますが、時には個別またはプライベートなフォントセットをワークブックに指定する必要があります。Aspose.Cellsは、[**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)クラスを提供し、これを使用してワークブックに個別またはプライベートなフォントセットを指定することができます。
 
-次のサンプル コードは、[サンプル Excel ファイル](67338304.xlsx)を使用して指定された個々のまたはプライベートなフォントのセットで[**個々のフォント構成**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)クラス。をご覧ください[サンプルフォント](67338302.zip)コード内だけでなく、[出力 PDF](67338303.pdf)それによって生成されます。次のスクリーンショットは、フォントが正常に見つかった場合の出力 PDF がどのように見えるかを示しています。
+## **ワークブックのレンダリング用に個々またはプライベートなフォントセットを指定する**
 
-![todo:画像_代替_文章](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
+以下のサンプルコードは、[**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)クラスを使用して指定されたワークブックの個々またはプライベートなフォントセットを読み込みます。コード内で使用されているサンプルフォント（67338302.zip）およびそれによって生成された出力PDF（67338303.pdf）も参照してください。次のスクリーンショットは、フォントが正常に見つかった場合の出力PDFの外観を示しています。
+
+![todo:image_alt_text](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
 
 ## **サンプルコード**
 

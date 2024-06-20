@@ -1,14 +1,15 @@
-﻿---
-title: Controle los recursos externos mediante WorkbookSetting.StreamProvider
+---
+title: Controlar Recursos Externos usando WorkbookSetting.StreamProvider
 type: docs
 weight: 10
 url: /es/java/control-external-resources-using-workbooksetting-streamprovider/
 ---
-## **Posibles escenarios de uso**
-A veces, su archivo de Excel contiene recursos externos, por ejemplo, imágenes vinculadas, etc. Aspose.Cells le permite controlar estos recursos externos usando[Libro de trabajo.Configuración.StreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#StreamProvider)que lleva la implementación de[IStreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)interfaz. Cada vez que intente representar su hoja de trabajo que contiene recursos externos, por ejemplo, imágenes vinculadas, los métodos de[IStreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)Se invocará la interfaz que le permitirá tomar las medidas adecuadas para sus recursos externos.
-## **Controle los recursos externos mediante WorkbookSetting.StreamProvider**
-El siguiente código de ejemplo explica el uso de[Libro de trabajo.Configuración.StreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#StreamProvider). carga el[ejemplo de archivo de Excel](61767877.xlsx)que contiene una imagen vinculada. El código reemplaza la imagen vinculada con[Aspose Logotipo](61767874.png)y convierte toda la hoja en una sola imagen usando[HojaRenderizar](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)clase. La siguiente captura de pantalla muestra el archivo de ejemplo de Excel y su[imagen de salida renderizada](61767874.png)para una referencia. Como puede ver, la imagen vinculada rota se reemplaza con el logotipo Aspose.
 
-![todo:imagen_alternativa_texto](control-external-resources-using-workbooksetting-streamprovider_1.png)
+## **Escenarios de uso posibles**
+A veces, su archivo de Excel contiene recursos externos, como imágenes vinculadas, etc. Aspose.Cells le permite controlar estos recursos externos utilizando [Workbook.Settings.StreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#StreamProvider), que toma la implementación de [IStreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) interfaz. Cada vez que intente mostrar su hoja de cálculo que contiene recursos externos, como imágenes vinculadas, se invocarán los métodos de [IStreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) interfaz, lo que le permitirá tomar medidas apropiadas para sus recursos externos.
+## **Controlar Recursos Externos usando WorkbookSetting.StreamProvider**
+El siguiente código de muestra explica el uso de [Workbook.Settings.StreamProvider](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#StreamProvider). Carga el [archivo Excel de muestra](61767877.xlsx) que contiene una imagen vinculada. El código reemplaza la imagen vinculada con el [logotipo de Aspose](61767874.png) y representa toda la hoja en una sola imagen usando la clase [SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender). La siguiente captura de pantalla muestra el archivo Excel de muestra y su [imagen de salida representada](61767874.png) para su referencia. Como puede ver, la imagen vinculada rota se reemplaza con el logo de Aspose.
+
+![todo:image_alt_text](control-external-resources-using-workbooksetting-streamprovider_1.png)
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-WorkbookSettings-ControlExternalResourcesUsingWorkbookSetting_StreamProvider-1.java" >}}

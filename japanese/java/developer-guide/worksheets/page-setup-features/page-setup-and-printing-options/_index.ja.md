@@ -1,101 +1,102 @@
-﻿---
-title: ページ設定と印刷オプション
+---
+title: ページ設定および印刷オプション
 type: docs
 weight: 10
 url: /ja/java/page-setup-and-printing-options/
 ---
+
 {{% alert color="primary" %}}
 
-開発者は、印刷プロセスを制御するためにページ設定と印刷設定を構成する必要がある場合があります。ページ設定と印刷設定にはさまざまなオプションがあり、Aspose.Cells で完全にサポートされています。
+開発者は、印刷プロセスを制御するためにページ設定と印刷設定を構成する必要があります。Aspose.Cellsではページ設定と印刷設定を制御するためのさまざまなオプションがサポートされています。
 
-この記事では、コンソール アプリケーションを作成し、Aspose.Cells API.
+この記事では、Aspose.Cells APIを使用して、数行のコードでコンソールアプリケーションを作成し、ワークシートにページの設定と印刷オプションを適用する方法を紹介しています。
 
 {{% /alert %}}
 
-## **ページおよび印刷設定の操作**
+## **ページ設定および印刷設定の操作**
 
-この例では、Microsoft Excel でワークブックを作成し、Aspose.Cells を使用してページ設定と印刷オプションを設定しました。
+この例では、Microsoft Excelでワークブックを作成し、Aspose.Cellsを使用してページ設定と印刷オプションを設定しました。
 
-### **ページ設定オプションの設定**
+### **ページの設定オプションを設定する**
 
-まず、Microsoft Excel で簡単なワークシートを作成します。次に、ページ設定オプションを適用します。コードを実行すると、下のスクリーンショットのようにページ設定オプションが変更されます。
+まず、Microsoft Excelで簡単なワークシートを作成します。次に、ページ設定オプションを適用します。コードを実行すると、以下のスクリーンショットのようにページ設定オプションが変更されます。
 
 **出力ファイル** 
 
-![todo:画像_代替_文章](page-setup-and-printing-options_1.png)
+![todo:image_alt_text](page-setup-and-printing-options_1.png)
 
-1. Microsoft Excel でいくつかのデータを含むワークシートを作成します。
- 1. Microsoft Excel で新しいワークブックを開きます。
- 1. データを追加します。
-以下はファイルのスクリーンショットです。
+1. Microsoft Excelのワークシートにいくつかのデータを作成します。
+   1. Microsoft Excelで新しいブックを開きます。
+   1. いくつかのデータを追加します。
+      以下はファイルのスクリーンショットです。
 
       **入力ファイル**
 
-![todo:画像_代替_文章](page-setup-and-printing-options_2.png)
+![todo:image_alt_text](page-setup-and-printing-options_2.png)
 
 1. ページ設定オプションを設定します。
-ページ設定オプションをファイルに適用します。以下は、新しいオプションが適用される前のデフォルト オプションのスクリーンショットです。
+   ファイルにページ設定オプションを適用します。以下は、新しいオプションが適用される前のデフォルトオプションのスクリーンショットです。
 
-   **デフォルトのページ設定オプション**
+   デフォルトのページ設定オプション
 
-![todo:画像_代替_文章](page-setup-and-printing-options_3.png)
+![todo:image_alt_text](page-setup-and-printing-options_3.png)
 
-1. Aspose.Cells をダウンロードしてインストールします。
-   1. [ダウンロード](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
-1. 開発用コンピューターで解凍します。
-全て[Aspose](http://www.aspose.com/)コンポーネントがインストールされると、評価モードで動作します。評価モードには時間制限がなく、生成されたドキュメントに透かしを挿入するだけです。
-1. プロジェクトを作成します。
-Java エディター (Eclipse など) を使用してプロジェクトを作成するか、テキスト エディターを使用して簡単なプログラムを作成します。
+1. Aspose.Cellsをダウンロードしてインストールします。
+   1. [ダウンロード](https://downloads.aspose.com/cells/java) Aspose.Cells for Java。
+   1. 開発コンピュータにそれを解凍します。
+      すべての[Aspose](http://www.aspose.com/)コンポーネントは、インストールされると評価モードで動作します。評価モードには時間制限がなく、生成された文書にウォーターマークしか挿入されません。
+1. プロジェクトを作成してください。
+   Javaエディタ（たとえばEclipse）を使用してプロジェクトを作成するか、テキストエディタを使用して簡単なプログラムを作成してください。
 1. クラスパスを追加します。
-1. Aspose.Cells.zip から Aspose.Cells.jar と dom4j_1.6.1.jar を抽出します。
- 1. Eclipse でプロジェクトのクラスパスを設定します。
- 1. Eclipse でプロジェクトを選択し、**計画**に続く**プロパティ**.
- 1. 選択**Java ビルド パス**ダイアログの左側にあります。
- 1. [ライブラリ] タブを選択し、**JAR を追加する**また**外部 JAR を追加する** Aspose.Cells.jar と dom4j_1.6.1.jar を選択してビルド パスに追加します。
-または、Windows の DOS プロンプトで実行時に設定することもできます。
+   1. Aspose.Cells.zipからAspose.Cells.jarとdom4j_1.6.1.jarを抽出します。
+   1. Eclipseでプロジェクトのクラスパスを設定します。
+   1. Eclipse でプロジェクトを選択し、**プロジェクト** をクリックしてから **プロパティ** をクリックします。
+   1. ダイアログの左側で **Javaビルドパス** を選択します。
+   1. ライブラリタブを選択し、**JARの追加** または **外部JARの追加** をクリックして、Aspose.Cells.jar と dom4j_1.6.1.jar を選択してビルドパスに追加します。
+      または、Windows のコマンドプロンプトで実行時に設定することもできます。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  javac \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava \-classpath %classpath%;e:\Aspose.Cells.jar; ClassName
 
 {{< /highlight >}}
 
 1. API を呼び出すアプリケーションを作成します。
-以下は、この例のコンポーネントで使用されるコードです。
+   以下は、この例でコンポーネントで使用されるコードです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPageSetupOptions-SettingPageSetupOptions.java" >}}
 
 ### **印刷オプションの設定**
 
-ページ設定には、ユーザーがワークシート ページの印刷方法を制御できるいくつかの印刷オプション (シート オプションとも呼ばれます) も用意されています。ユーザーは次のことができます。
+ページ設定設定には、ワークシートページの印刷方法を制御するいくつかの印刷オプション（シートオプションとも呼ばれる）も提供されます。これにより、ユーザーは次のような操作ができます。
 
-- ワークシートの特定の印刷領域を選択します。
-- タイトルを印刷します。
-- グリッド線を印刷します。
-- 行/列の見出しを印刷します。
-- ドラフト品質を実現します。
-- コメントを印刷します。
-- セル エラーを出力します。
-- ページの順序を定義します。
+- ワークシートの特定の印刷エリアを選択します。
+- タイトルを印刷する。
+- グリッド線を印刷する。
+- 行/列見出しを印刷します。
+- 下書き品質を実現する。
+- コメントを印刷する。
+- セルエラーを印刷する。
+- ページ順序を定義する。
 
-次の例では、上記の例で作成したファイル (PageSetup.xls) に印刷オプションを適用します。以下のスクリーンショットは、新しいオプションが適用される前のデフォルトの印刷オプションを示しています。
-**入力文書**
+次の例では、上記の例（PageSetup.xls）で作成されたファイルに印刷オプションを適用します。以下のスクリーンショットは、新しいオプションが適用される前のデフォルトの印刷オプションを示しています。
+**入力ドキュメント**
 
-![todo:画像_代替_文章](page-setup-and-printing-options_4.png)
+![todo:image_alt_text](page-setup-and-printing-options_4.png)
 
 コードを実行すると、印刷オプションが変更されます。
 **出力ファイル**
 
-![todo:画像_代替_文章](page-setup-and-printing-options_5.png)
+![todo:image_alt_text](page-setup-and-printing-options_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPrintoptions-SettingPrintoptions.java" >}}
 
-## **概要**
+## **まとめ**
 
 {{% alert color="primary" %}}
 
-この記事では、Aspose.Cells を使用してページ設定とシート印刷オプションを設定する方法を示します。うまくいけば、いくつかの洞察が得られ、これらのオプションを独自のシナリオで使用できます。
+本文では、Aspose.Cellsを使用してページ設定およびシート印刷オプションを設定する方法について説明します。お役に立てれば幸いです。お客様のご質問、コメント、提案を[Apose.Cells Forum](https://forum.aspose.com/c/cells/9)で心よりお待ちしております。きめ細やかな対応を保証いたします。
 
- Aspose.Cells は、長年にわたる研究、設計、慎重なチューニングの恩恵を受けています。ご質問、ご意見、ご提案をお待ちしております。[Aspose.Cells フォーラム](https://forum.aspose.com/c/cells/9).迅速な返信を保証します。
+Aspose.Cellsは長年にわたる研究、設計、慎重な調整の成果を受けています。ご質問、コメント、提案を心より歓迎いたします。
 
 {{% /alert %}}

@@ -1,15 +1,16 @@
-﻿---
-title: Преобразование рабочего листа в изображение в PHP
+---
+title: Преобразование листа в изображение в PHP
 type: docs
 weight: 40
 url: /ru/net/worksheet-to-image-conversion-in-php/
 ---
-## **Aspose.Cells - Преобразование рабочего листа в изображение**
-Преобразование рабочего листа Excel Microsoft в файл изображения
+
+## **Aspose.Cells - Преобразование листа в изображение**
+Преобразование листа Microsoft Excel в изображение
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -44,7 +45,7 @@ url: /ru/net/worksheet-to-image-conversion-in-php/
         print "Conversion to Image(s) completed!" . PHP_EOL;
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Рабочий лист в изображение (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Лист в изображение (Aspose.Cells)** c любого из указанных ниже социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

@@ -1,56 +1,57 @@
-﻿---
-title: Mevcut Veri Kaynağını Kullanarak Yeni Sorgu Oluşturma
+---
+title: Varolan Veri Kaynağı Kullanarak Yeni Sorgu Oluşturma
 type: docs
 weight: 30
 url: /tr/reportingservices/creating-new-query-using-existing-data-source/
 ---
+
 Mevcut bir veri kaynağını kullanarak yeni bir sorgu oluşturmak için:
 
 1. Microsoft Excel'i açın.
-1.  Tıklamak**Veri Kümesi Oluştur** Aspose.Cells.Report.Designer'da (
+1. Aspose.Cells.Report.Designer'da **Build DataSet**'i tıklayın (
 
-![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_1.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_1.png)
 
 ).
 
-1.  İletişim kutusunda, sol panelde listelenen veri kaynaklarından birini seçin. Örneğin,**SQL Server**.
-1.  Tıklamak**Eklemek**. 
+1. İletişim kutusunda, sol panelde listelenen veri kaynaklarından birini seçin. Örneğin, **SqlServer**'ı seçin.
+1. **Ekle**'ye tıklayın. 
 
    **Veri kaynağı seçme** 
 
-![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_2.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_2.png)
 
 
 
 
-1. İletişim kutusunda yeni bir veri kümesi adı yazın, örneğin SalesEmps.
-1.  Tıklamak**Sonraki**. 
+1. İletişim kutusunda, örneğin SatışlarPersoneller adında yeni bir veri kümesi adı yazın.
+1. **Sonraki**'ye tıklayın. 
 
-   **Yeni bir veri kümesini adlandırma** 
+   **Yeni bir veri kümesi adlandırma** 
 
-![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_3.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_3.png)
 
 
 
- Aspose.Cells.Report.Designer, Microsoft Sorgusunu başlatır ve seçilen veri kaynağına bağlanır. Microsoft Sorgu ile artık yeni bir sorgu oluşturulabilir.
+Aspose.Cells.Report.Designer, Microsoft Query'yi başlatır ve seçilen veri kaynağına bağlanır. Artık Microsoft Query ile yeni bir sorgu oluşturulabilir. 
 
 **Yeni bir sorgu oluşturma** 
 
-![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_4.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_4.png)
 
 
 
 
-1.  Microsoft sorgusundan**Dosya** menü, seç**Aspose.Cells.Report.Designer'a Dön**. 
+1. Microsoft Query'nin **Dosya** menüsünden **Aspose.Cells.Report.Designer**'a **Geri Dön**'ü seçin. 
 
-   **Rapor Tasarımcısına Dön** 
+   **Rapor Tasarımcısına Geri Dön** 
 
-![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_5.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_5.png)
 
 
 
- SqlServer veri kaynağı, biri yeni SalesEmps veri kümesi olan iki veri kümesi içerir.
+Veri kaynağı SqlServer, SalesEmps adında yeni bir veri kümesini içeren iki veri seti içermektedir. 
 
-**yeni veri seti** 
+**Yeni veri kümesi** 
 
-![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_6.png)
+![todo:image_alt_text](creating-new-query-using-existing-data-source_6.png)

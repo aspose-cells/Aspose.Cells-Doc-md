@@ -1,23 +1,24 @@
 ---
-title: Legen Sie die Farbe der Arbeitsblattregisterkarte fest
+title: Registerkartenfarbe des Arbeitsblatts festlegen
 type: docs
 weight: 120
 url: /de/net/set-worksheet-tab-color/
-description: Dieser Artikel zeigt Beispielcode, der die Tab-Farbe eines Excel-Arbeitsblatts programmgesteuert mithilfe der Bibliothek C#, API oder .NET festlegt.
-keywords: set excel tab color c#, code to set excel tab color c#
+description: In diesem Artikel wird ein Beispielscode gezeigt, der die Excel Arbeitsblattregisterkarte programmgesteuert mit Hilfe der C# API oder .NET Bibliothek festlegt.
+keywords: Excel Registerkartenfarbe in C# festlegen, Code zum Festlegen der Excel Registerkartenfarbe in C#
 ---
+
 {{% alert color="primary" %}} 
 
-Mit Aspose.Cells können Sie die Farbe einzelner Arbeitsblattregisterkarten ändern, um sie vom Rest hervorzuheben. Beispielsweise können Sie „Ausgaben“ rot, „Verkäufe“ grün, „Vermögenswerte“ blau usw. festlegen.
+Aspose.Cells ermöglicht es Ihnen, die Farbe einzelner Arbeitsblattregisterkarten zu ändern, um sie von anderen hervorzuheben. Zum Beispiel können Sie Ausgaben rot, Verkäufe grün, Vermögenswerte blau usw. machen.
 
 {{% /alert %}} 
-##  **Festlegen der Farbe der Arbeitsblattregisterkarte mit Microsoft Excel**
-1. Klicken Sie mit der rechten Maustaste auf eine Registerkarte im Registerkartenblatt unten im aktuellen Arbeitsblatt.
-1. Wählen Sie *Tab-Farbe**.
-1. Wählen Sie eine Farbe aus der Palette aus.
-1. OK klicken**.
-##  **Festlegen der Farbe der Arbeitsblattregisterkarte mit Aspose.Cells**
-Der folgende Beispielcode zeigt, wie Sie die Tab-Farbe mit Aspose.Cells festlegen.
+## **Verwenden von Microsoft Excel zur Festlegung der Registerkartenfarbe des Arbeitsblatts**
+1. Klicken Sie mit der rechten Maustaste auf eine Registerkarte im Registerblatt am unteren Rand des aktuellen Arbeitsblatts.
+1. Wählen Sie **Registerkartenfarbe**.
+1. Wählen Sie eine Farbe aus der Palette.
+1. Klicken Sie auf **OK**.
+## **Festlegen der Registerkartenfarbe mit Aspose.Cells**
+Der folgende Beispielscode zeigt, wie Sie die Registerkartenfarbe mit Aspose.Cells festlegen können.
 
 
 

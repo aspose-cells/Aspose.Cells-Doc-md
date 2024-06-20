@@ -1,29 +1,30 @@
 ---
-title: Çin Bölgesi için Grafiği Resme Dönüştür
-description: Grafikler için Aspose.Cells for .NET set Çince yapılandırmasını nasıl kullanacağınızı öğrenin. Kılavuzumuz, yazı tipleri, boyutlar, metin yönleri ve daha fazlası dahil olmak üzere Çince karakterleri ve formatları destekleyecek şekilde grafiklerin nasıl yapılandırılacağını gösterecektir.
-keywords: Aspose.Cells for .NET, Charts, Chinese Configuration, Fonts, Font Size, Text Direction, Support.
-linktitle: Çin Bölgesini Ayarla
+title: Çin Bölgesi için Grafikleri Görüntüye Dönüştür
+description: Aspose.Cells for .NET ayarlarının Çin yapılandırmasını nasıl yapılacağını öğrenin. Rehberimiz, fontlar, boyutlar, metin yönleri ve daha fazlasını içeren Çince karakterleri ve formatları desteklemek için grafikleri nasıl yapılandıracağınızı gösterecektir.
+keywords: Aspose.Cells for .NET, Grafikler, Çin Yapılandırması, Yazı Tipleri, Yazı Tipi Boyutu, Metin Yönü, Destek.
+linktitle: Çin Bölgesi Ayarla
 type: docs
 weight: 9
 url: /tr/net/convert-chart-to-image-for-chinese-region/
 alias: [/net/set-chinese-configuration-for-chart/]
 ---
+
 {{% alert color="primary" %}}
 
-Bu başlıkta size bir grafik için Çin Bölgesini nasıl ayarlayacağınızı göstereceğiz.
+Bu konuda, bir grafiğe Çin Bölgesi nasıl ayarlanacağını göstereceğiz.
 
 {{% /alert %}}
 
-##  **Bir miras sınıfını tanımlar**
+## **Bir miras sınıfı tanımlar**
 
- İlk adım, miras alan bir "ChartChineseSettings" sınıfını tanımlamanız gerekir.[**GrafikKüreselleşmeAyarlar**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/). 
-Daha sonra ilgili fonksiyonları yeniden yazarak grafik elemanlarının metnini kendi dilinizde ayarlayabilirsiniz.
+İlk adım olarak, [**ChartGlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartglobalizationsettings/) tarafından kalıtım alınan "ChartChineseSetttings" adlı bir sınıf tanımlamanız gerekir. 
+Ardından ilgili işlevleri yeniden yazarak grafik öğelerinin metnini kendi dilinize göre belirleyebilirsiniz.
 Kod örneği:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "ChartChineseSetttings.cs" >}}
 
-##  **Grafik İçin Çince Ayarını Yapılandırma**
+## **Grafik İçin Çin Ayarı Yapın**
 
-Bu adımda bir önceki adımda tanımladığınız "ChartChineseSettings" sınıfını kullanacaksınız.
+Bu adımda, önceki adımda tanımladığınız "ChartChineseSetttings" sınıfını kullanacaksınız.
 Kod örneği:
 
 ```
@@ -33,20 +34,20 @@ Kod örneği:
 	chart0.ToImage("Output.png");
 ```
 
-Daha sonra çıktı görüntüsündeki efekti görebilirsiniz; grafikteki öğeler ayarlarınıza göre oluşturulacaktır.
+Ardından çıktı görüntüsünde etkiyi görebilirsiniz, grafikteki unsurlar ayarlarınıza göre yeniden oluşturulur.
 
-##  **Çözüm**
+## **Sonuç**
 
-Bu örnekte, bir grafik için Çin Bölgesini ayarlamazsanız aşağıdaki grafik öğeleri İngilizce gibi varsayılan dilde görüntülenebilir.
-Yukarıdaki işlemden sonra Çin Bölgesi ile çıktı grafiği resmi elde edebiliriz.
+Bu örnekte, bir grafiğe Çin Bölgesi ayarlamazsanız, aşağıdaki grafik öğelerinin varsayılan dilde, örneğin İngilizce olarak render edilebileceğini göreceksiniz.
+Yukarıdaki işlemden sonra, Çin Bölgesi ayarlamazsak, bir çıktı grafik resmi elde edebiliriz.
 
-|**Desteklenen öğeler**|**Bu örnekteki değer**|**İngilizce ortamında varsayılan değer**|
+|**Desteklenen unsurlar**|**Bu örnekteki değer**|**İngilizce ortamındaki varsayılan değer**|
 | :- | :- | :- |
-|Eksen Başlığı Adı|坐标轴标题|Eksen Başlığı|
-|Eksen Birimi Adı|百,千...|Yüzlerce, binlerce...|
-|Grafik Başlığı Adı|图表标题|Grafik başlığı|
-|Efsane Artış Adı|增加|Arttırmak|
-|Açıklama Adı Azaltma|减少|Azaltmak|
-|Efsane Toplam Adı|汇总|Toplam|
-|Diğer Ad|其他|Diğer|
-|Seri Adı|系列|Seri|
+|Eksen Başlık Adı|坐标轴标题|Eksen Başlığı|
+|Eksen Birimi Adı|百,千...|Yüz, Bin...|
+|Grafik Başlık Adı|图表标题|Grafik Başlığı|
+|Açıklama Artışı Adı|增加|Artış|
+|Açıklama Azalışı Adı|减少|Azalma|
+|Legend Total Name|汇总|Toplam|
+|Other Name|其他|Diğer|
+|Series Name|系列|Seri|

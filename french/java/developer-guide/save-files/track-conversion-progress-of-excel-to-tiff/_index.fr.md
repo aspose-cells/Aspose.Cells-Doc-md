@@ -1,44 +1,48 @@
-﻿---
-title: Suivre la progression de la conversion d'Excel vers TIFF
+---
+title: Suivre la progression de la conversion d Excel en TIFF
 type: docs
 weight: 140
 url: /fr/java/track-conversion-progress-of-excel-to-tiff/
 ---
+
 ## **Scénarios d'utilisation possibles**
 
-Parfois, la conversion de gros fichiers Excel peut prendre un certain temps. Pendant ce temps, vous souhaiterez peut-être afficher la progression de la conversion du document au lieu d'un simple écran de chargement pour améliorer la convivialité de votre application. Aspose.Cells prend en charge le processus de conversion de documents de suivi en fournissant le**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**interface. Le**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**l'interface fournit**[PageStartSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs))**et**[PageEndSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs))** méthodes que vous pouvez implémenter dans votre classe personnalisée. Vous pouvez également contrôler quelles pages sont rendues comme indiqué dans le*TestTiffPageSavingCallback*classe personnalisée.
+Parfois, la conversion de grands fichiers Excel peut prendre du temps. Pendant ce temps, vous voudrez peut-être afficher la progression de la conversion du document plutôt qu'un simple écran de chargement pour améliorer l'utilisabilité de votre application. Aspose.Cells prend en charge le suivi du processus de conversion de document en fournissant l'interface [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). L'interface [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) fournit les méthodes [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) et [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) que vous pouvez implémenter dans votre classe personnalisée. Vous pouvez également contrôler quelles pages sont rendues comme le montre la classe personnalisée *TestTiffPageSavingCallback*.
 
-## **Suivre la progression de la conversion d'Excel vers TIFF**
+## **Suivre la progression de la conversion d'Excel en TIFF**
 
-L'exemple de code suivant charge le[fichier excel source](sampleUseWorkbookRenderForImageConversion.xlsx) et imprime sa progression de conversion dans la console en utilisant le*TestTiffPageSavingCallback*classe personnalisée qui implémente**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**interface. Le fichier de sortie généré est joint pour votre référence.
+Le code d'exemple suivant charge le [fichier Excel source](sampleUseWorkbookRenderForImageConversion.xlsx) et affiche sa progression de conversion dans la console en utilisant la classe personnalisée *TestTiffPageSavingCallback* qui implémente l'interface [**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback). Le fichier de sortie généré est joint à titre d'information.
 
-[Fichier de sortie](DocumentConversionProgressForTiff_out.tiff)
+[Fichier de Sortie](DocumentConversionProgressForTiff_out.tiff)
 
-## **Exemple de code**
+## **Code d'exemple**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgressForTiff-1.java" >}}
 
-Voici le code pour le*TestTiffPageSavingCallback*classe personnalisée.
+Ce qui suit est le code de la classe personnalisée *TestTiffPageSavingCallback*.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgressForTiff-2.java" >}}
 
 ## **Sortie console**
 
-Commencer à enregistrer l'index de page 0 des pages 10</br>
-Fin de l'enregistrement de l'index de page 0 des pages 10</br>
-Commencer à enregistrer l'index de page 1 des pages 10</br>
-Fin de l'enregistrement page index 1 des pages 10</br>
-Commencer à enregistrer l'index de page 2 des pages 10</br>
-Fin de l'enregistrement page index 2 des pages 10</br>
-Commencer à enregistrer l'index de la page 3 des pages 10</br>
-Fin de l'enregistrement page index 3 des pages 10</br>
-Commencer à enregistrer l'index de la page 4 des pages 10</br>
-Fin de l'enregistrement page index 4 des pages 10</br>
-Commencer à enregistrer l'index de page 5 des pages 10</br>
-Fin de l'enregistrement page index 5 des pages 10</br>
-Commencer à enregistrer l'index de la page 6 des pages 10</br>
-Fin de l'enregistrement page index 6 des pages 10</br>
-Commencer à enregistrer l'index de la page 7 des pages 10</br>
-Fin de l'enregistrement page index 7 des pages 10</br>
-Commencer à enregistrer l'index de la page 8 des pages 10</br>
-Fin de l'enregistrement page index 8 des pages 10
+{{< highlight java >}}
+Start saving page index 0 of pages 10</br>
+End saving page index 0 of pages 10</br>
+Start saving page index 1 of pages 10</br>
+End saving page index 1 of pages 10</br>
+Start saving page index 2 of pages 10</br>
+End saving page index 2 of pages 10</br>
+Start saving page index 3 of pages 10</br>
+End saving page index 3 of pages 10</br>
+Start saving page index 4 of pages 10</br>
+End saving page index 4 of pages 10</br>
+Start saving page index 5 of pages 10</br>
+End saving page index 5 of pages 10</br>
+Start saving page index 6 of pages 10</br>
+End saving page index 6 of pages 10</br>
+Start saving page index 7 of pages 10</br>
+End saving page index 7 of pages 10</br>
+Start saving page index 8 of pages 10</br>
+End saving page index 8 of pages 10
+
+{{< /highlight >}}

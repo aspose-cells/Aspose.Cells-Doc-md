@@ -1,27 +1,28 @@
-﻿---
-title: PDF'e kaydederken Yorumları Yazdır
+---
+title: PDF ye kaydederken Yorumları Yazdır
 type: docs
 weight: 10
 url: /tr/net/print-comments-while-saving-to-pdf/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel, aşağıdaki seçeneklerle PDF biçiminde yazdırırken veya kaydederken yorumları yazdırmanıza olanak tanır
+Microsoft Excel, aşağıdaki seçeneklerle PDF biçimine yazdırırken veya kaydederken yorumları yazdırmanıza izin verir
 
 - Hiçbiri
-- sayfanın sonunda
+- Sayfa sonunda
 - Sayfada gösterildiği gibi
 
- Aspose.Cells sağlayın[**YazdırYorum Türü**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) aynı özelliği desteklemek için enum. bu[**YazdırYorum Türü**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)enum aşağıdaki üyelere sahiptir
+Aspose.Cells, aynı özelliği desteklemek için[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) numarasını sağlar. [**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) numarası aşağıdaki üyelere sahiptir
 
-- YazdırYorum Yok
-- Yerinde Yazdır
+- PrintNoComments
+- PrintInPlace
 - PrintSheetEnd
 
 {{% /alert %}}
 
-## **PDF'e kaydederken Yorumları Yazdır**
+## **PDF'ye kaydederken yorumları yazdır**
 
- Aşağıdaki örnek kod, nasıl kullanılacağını gösterir[**YazdırYorum Türü**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)PDF'e kaydederken yorumları yazdırmak için.
+Aşağıdaki örnek kod, PDF'ye kaydederken yorumları yazdırmak için[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) nasıl kullanılacağını gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintCommentWhileSavingToPdf-PrintCommentWhileSavingToPdf.cs" >}}

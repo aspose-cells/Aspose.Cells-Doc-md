@@ -1,49 +1,50 @@
-﻿---
-title: Aspose.Cells for Java'i Perl ile kullanma
+---
+title: Perl ile Aspose.Cells for Java Kullanımı
 type: docs
 weight: 30
 url: /tr/java/using-aspose-cells-for-java-with-perl/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Java, Perl ile kullanılabilen saf bir Java bileşenidir. Bileşeni kullanmak, Perl'deki diğer yaygın Java API'lerini çağırmakla aynıdır. Perl'de herhangi bir Java kitaplığını çağırmak için önce Perl için Java-Perl uzantısını yüklemeniz gerekir. JVM'ye erişmek için bu gereklidir.
+Aspose.Cells for Java, Perl ile kullanılabilen saf bir Java bileşenidir. Bileşeni kullanmak, Perl'de diğer yaygın Java API'leri çağırmakla aynıdır. Perl'de herhangi bir Java kütüphanesini çağırmak için öncelikle Perl için Java-Perl uzantısını yüklemeniz gerekmektedir. Bu, JVM'e erişmek için gereklidir.
 
 {{% /alert %}} 
-## **Gerekli Yazılım ve Kitaplıklar**
- Aşağıdaki yazılım ve kitaplıklar gereklidir.
+## **Gerekli Yazılım ve Kütüphaneler**
+Aşağıdaki yazılım ve kütüphaneler gereklidir. 
 
 - Perl.
 - Aspose.Cells for Java.
 - Java - Perl uzantısı.
-- Java Aspose.Cells for Java ve Java-Perl uzantısının gereksinimlerini karşılayan çalışma zamanı.
-### **Rehberlik etmek**
- Perl'de bir Java API'i aramak için, önce Perl için Java-Perl uzantısını kurmanız gerekir. (Bu makalenin amaçları doğrultusunda, Perl'in düzgün bir şekilde kurulduğunu ve ayarlandığını varsayıyoruz.) Java-Perl uzantısını adresinden edinebilirsiniz.[Metzzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7)
+- Aspose.Cells for Java'nin gereksinimlerini karşılayan Java çalıştırma zamanı ve Java-Perl uzantısı.
+### **Rehber**
+Bir Java API'sını Perl'de çağırmak için önce Perl için Java-Perl uzantısını kurmanız gerekir. (Bu makalede, Perl'in kurulduğunu ve doğru bir şekilde ayarlandığını varsayıyoruz.) Java-Perl uzantısını [Metzzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7) adresinden alabilirsiniz.
 
- Bu belgenin sonunda, Aspose.Cells for Java'i çağıran bir Perl betiği örneği bulunmaktadır. Çalıştırmak için aşağıdaki adımları izleyin:
+Bu belgenin sonunda, Aspose.Cells for Java'yi çağıran bir Perl betiği örneği bulunmaktadır. Çalıştırmak için aşağıdaki adımları izleyin: 
 
 1. Java-4.7.tar.gz dosyasını indirin ve yerel sürücünüze açın.
-1. Perl için bu paketi yükleyin.
-1.  JavaServer'ı başlatın. Komut şöyle olacaktır:
+1. Bu paketi Perl için yükleyin.
+1. JavaServer'ı başlatın. Komut şu şekilde olacaktır: 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  java -classpath ...  com.zzo.javaserver.JavaServer 
 
 {{< /highlight >}}
 
- burada ..., uygulamanızın gerektirdiği tüm kitaplıkları içermesi gereken sınıf yoludur.
+burada ... uygulamanız tarafından gereken tüm kütüphaneleri içermesi gereken classpath'tir. 
 
- Aspose.Cells for Java'i kullanmak için en az iki JAR dosyası içermelidir:
+Aspose.Cells for Java'yi kullanmak için en az iki JAR dosyası içermelidir: 
 
-1. **Aspose.Cells.jar** Aspose.Cells for Java den
-1. **Java Sunucusu.jar** Java-4.7.tar.gz adresinden
-1. Aspose.Cells for Java API'i çağıran Perl betiğini çalıştırın.
+1. Aspose.Cells for Java'den **Aspose.Cells.jar**
+1. Java-4.7.tar.gz dosyasından **JavaServer.jar**
+1. Aspose.Cells for Java API'sini çağıran Perl betiğini çalıştırın.
 
- Perl'de Java ile nasıl çalışılacağı hakkında daha fazla bilgi için adresindeki Java - Perl uzantısı belgelerine bakın.<https://metacpan.org/release/METZZO/Java-4.7>
+For more information on how to work with Java in Perl, see documentation of Java - Perl extension at <https://metacpan.org/release/METZZO/Java-4.7>
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  my $ok = 0;
 
@@ -81,7 +82,7 @@ $ok++;
 
 print "workbook $ok\n";
 
-# $workbook->open("t.xls");
+#$workbook->open("t.xls");
 
 $ok++;
 

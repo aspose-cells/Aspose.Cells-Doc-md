@@ -1,29 +1,30 @@
-﻿---
-title: Получение Cell Содержание
+---
+title: Получение содержимого ячейки
 type: docs
 weight: 10
 url: /ru/net/getting-cell-contents/
 ---
-## **Aspose.Cells - Получение Cell Содержание**
-Для доступа к ячейкам доступен метод Cells[0]или Cells[имя].
+
+## **Aspose.Cells - Получение содержимого ячейки**
+Метод Cells[0] или Cells[name] доступен для доступа к ячейкам.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
- Рабочая книга рабочая книга = новая рабочая книга("../../data/test.xlsx");
+ Workbook workbook = new Workbook("../../data/test.xlsx");
 
-Рабочий лист1 = рабочая книга.Рабочие листы[0];
+Worksheet sheet1 = workbook.Worksheets[0];
 
-Cells ячеек = лист1.Cells;
+Cells cells = sheet1.Cells;
 
-Диапазон диапазона = лист1.Cells.MaxDisplayRange;
+Range range = sheet1.Cells.MaxDisplayRange;
 
-int tcols = диапазон.СчетчикКолонок;
+int tcols = range.ColumnCount;
 
-int trows = диапазон.RowCount;
+int trows = range.RowCount;
 
- для (int я = 0 ; я< trows; i++)
+for (int i = 0 ; i < trows; i++)
 
 {
 
@@ -44,18 +45,18 @@ int trows = диапазон.RowCount;
 }
 
 {{< /highlight >}}
-## **NPOI — HSSF XSSF — Получение Cell Содержание**
+## **NPOI - HSSF XSSF - Получение содержимого ячейки**
 NPOI предоставляет класс Cell для доступа к различным свойствам ячеек.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook("../../data/test.xlsx");
 
-ISheet лист1 = wb.GetSheetAt(0);
+ISheet sheet1 = wb.GetSheetAt(0);
 
- for (индекс int = 0; индекс<= sheet1.LastRowNum; index++)
+for (int index = 0; index <= sheet1.LastRowNum; index++)
 
 {
 
@@ -114,13 +115,13 @@ ISheet лист1 = wb.GetSheetAt(0);
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Получение Cell Содержание** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузить **Получение содержимого ячейки** с любого из указанных ниже сайтов социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Getting.Cell.Contents.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Getting.Cell.Contents.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Особенности обработки данных](/cells/ru/net/data-handling-features-in-aspose-cells/).
+Для получения более подробной информации посетите страницу [Функции обработки данных](/cells/ru/net/data-handling-features-in-aspose-cells/).
 
 {{% /alert %}}

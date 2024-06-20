@@ -1,28 +1,29 @@
-﻿---
-title: Configuración del tipo de cifrado fuerte
+---
+title: Establecer Tipo de Cifrado Fuerte
 type: docs
 weight: 60
 url: /es/net/setting-strong-encryption-type/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel (97-2007/2010) le permite cifrar y proteger con contraseña las hojas de cálculo. Utiliza algoritmos proporcionados por un proveedor de servicios criptográficos. Un proveedor de servicios criptográficos (o CSP) es un conjunto de algoritmos criptográficos con diferentes propiedades. El CSP predeterminado es "Compatible con Office 97/2000". Este es un CSP con algunos problemas de seguridad conocidos públicamente. Las hojas de cálculo protegidas con el "cifrado débil (XOR)" o con el tipo de cifrado "Compatible con Office 97/2000" se pueden descifrar fácilmente.
+Microsoft Excel (97-2007/2010) te permite cifrar y proteger con contraseña hojas de cálculo. Utiliza algoritmos proporcionados por un Proveedor de Servicios Criptográficos. Un Proveedor de Servicios Criptográficos (o CSP) es un conjunto de algoritmos criptográficos con diferentes propiedades. El CSP predeterminado es "Compatible con Office 97/2000". Este es un CSP con algunos problemas de seguridad conocidos públicamente. Las hojas de cálculo aseguradas con el cifrado "débil (XOR)" o con el tipo de cifrado "Compatible con Office 97/2000" pueden ser descifradas fácilmente.
 
-Para superar este problema, utilice uno de los tipos de encriptación fuertes proporcionados por Microsoft Excel. Puede cambiar el tipo de cifrado al CSP más fuerte disponible. Para un cifrado fuerte, se requiere una longitud de clave mínima de 128 bits, por ejemplo, 'Microsoft Proveedor criptográfico fuerte'.
+Para superar este problema, utiliza uno de los tipos de cifrado fuerte proporcionados por Microsoft Excel. Puedes cambiar el tipo de cifrado al CSP más fuerte disponible. Para el cifrado fuerte, se requiere una longitud mínima de clave de 128 bits, por ejemplo, 'Proveedor Criptográfico Fuerte de Microsoft'.
 
-También puede cifrar y proteger con contraseña los archivos de Excel con un tipo de cifrado fuerte utilizando el Aspose.Cells API.
+También puedes cifrar y proteger con contraseña archivos de Excel con un tipo de cifrado fuerte utilizando la API de Aspose.Cells.
 
 {{% /alert %}} 
-## **Aplicación de cifrado con Microsoft Excel**
-Para implementar el cifrado de archivos en Microsoft Excel (por ejemplo, 2007):
+## **Aplicar cifrado con Microsoft Excel**
+Para implementar el cifrado de archivos en Microsoft Excel (por ejemplo 2007):
 
-1.  Desde el**Herramientas** menú, seleccione**Opciones**.
-1.  Selecciona el**Seguridad** pestaña.
-1.  Introduzca un valor para el**Contraseña para abrir** campo.
-1.  Hacer clic**Avanzado**.
-1. Elija el tipo de encriptación y confirme la contraseña.
-## **Aplicación de cifrado con Aspose.Cells**
-Los ejemplos de código a continuación aplican un cifrado fuerte en un archivo y establecen una contraseña.
+1. Desde el menú **Herramientas**, selecciona **Opciones**.
+1. Selecciona la pestaña **Seguridad**.
+1. Ingresa un valor para el campo **Contraseña para abrir**.
+1. Haz clic en **Avanzado**.
+1. Elige el tipo de cifrado y confirma la contraseña.
+## **Aplicar cifrado con Aspose.Cells**
+Los ejemplos de código a continuación aplican cifrado fuerte en un archivo y establecen una contraseña.
 
 
 

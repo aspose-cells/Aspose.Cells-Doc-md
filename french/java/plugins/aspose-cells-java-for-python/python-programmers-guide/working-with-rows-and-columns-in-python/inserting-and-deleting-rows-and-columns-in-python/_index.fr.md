@@ -1,23 +1,24 @@
-﻿---
-title: Insertion et suppression de lignes et de colonnes dans Python
+---
+title: Insérer et Supprimer des Lignes et des Colonnes en Python
 type: docs
 weight: 60
 url: /fr/java/inserting-and-deleting-rows-and-columns-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel pytho
-description: Utilisez Python Excel API pour créer des feuilles de calcul Excel dans Python. Insérez ou supprimez des lignes de XLSX ou XLS dans vos applications Python sans MS Office.
+keywords: Créer XLSX en Python, créer XLS en Python, XLS python, XLSX python, XLT python, XLTX python, insérer une ligne en python, insérer une colonne en python, Excel en python
+description: Utilisez l API Excel de Python pour créer des feuilles de calcul Excel en Python. Insérez ou supprimez des lignes de XLSX ou XLS dans vos applications Python sans MS Office.
 ---
-## **Créer des feuilles de calcul Excel dans Python - Gestion des lignes/colonnes**
-### **Insertion d'une ligne**
-Insérez une ligne à n'importe quel emplacement en appelant la méthode insertRows de la collection Cells. La méthode insertRows prend l'index de la ligne où la nouvelle ligne sera insérée comme premier argument, et le nombre de lignes à insérer comme deuxième argument. Voici les étapes :
+
+## **Créer des feuilles de calcul Excel en Python - Gérer les lignes/colonnes**
+### **Insérer une ligne**
+Insérez une ligne à n'importe quel emplacement en appelant la méthode insertRows de la collection Cells. La méthode insertRows prend l'index de la ligne où la nouvelle ligne sera insérée comme premier argument, et le nombre de lignes à insérer comme second argument. Voici les étapes :
 
 - Charger le classeur XLS ou XLSX
-- Accéder à la feuille de travail
+- Accéder à la feuille de calcul
 - Insérer la ligne
-- Enregistrer sous le classeur XLS ou XLSX
+- Enregistrer en tant que classeur XLS ou XLSX
 
 **Code Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_row(self):
 
@@ -41,14 +42,14 @@ print "Insert Row Successfully."
 
 {{< /highlight >}}
 ### **Insertion de plusieurs lignes**
-Pour insérer plusieurs lignes dans la feuille de calcul, appelez la méthode insertRows de la collection Cells. La méthode InsertRows prend deux paramètres :
+Pour insérer plusieurs lignes dans la feuille de calcul, appelez la méthode InsertRows de la collection Cells. La méthode InsertRows prend deux paramètres :
 
-- Index de ligne, l'index de la ligne à partir de laquelle les nouvelles lignes seront insérées.
+- Index de la ligne, l'index de la ligne à partir de laquelle les nouvelles lignes seront insérées.
 - Nombre de lignes, nombre total de lignes à insérer.
 
 **Code Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_multiple_rows(self):
 
@@ -73,14 +74,14 @@ print "Insert Multiple Rows Successfully."
 
 {{< /highlight >}}
 ### **Suppression d'une ligne**
-Pour supprimer une ligne à n'importe quel emplacement, appelez la méthode deleteRows de la collection Cells. La méthode DeleteRows prend deux paramètres :
+Pour supprimer une ligne à n'importe quel emplacement, appelez la méthode DeleteRows de la collection Cells. La méthode DeleteRows prend deux paramètres :
 
-- Index de ligne, l'index de la ligne à partir de laquelle les lignes seront supprimées.
+- Index de la ligne, l'index de la ligne à partir de laquelle les lignes seront supprimées.
 - Nombre de lignes, nombre total de lignes à supprimer.
 
 **Code Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_row(self):
 
@@ -104,14 +105,14 @@ print "Delete Row Successfully."
 
 {{< /highlight >}}
 ### **Suppression de plusieurs lignes**
-Pour supprimer plusieurs lignes d'une feuille de calcul, appelez la méthode deleteRows de la collection Cells. La méthode DeleteRows prend deux paramètres :
+Pour supprimer plusieurs lignes d'une feuille de calcul, appelez la méthode DeleteRows de la collection Cells. La méthode DeleteRows prend deux paramètres :
 
-- Index de ligne, l'index de la ligne à partir de laquelle les lignes seront supprimées.
+- Index de la ligne, l'index de la ligne à partir de laquelle les lignes seront supprimées.
 - Nombre de lignes, nombre total de lignes à supprimer.
 
 **Code Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_multiple_rows(self):
 
@@ -136,14 +137,14 @@ print "Delete Multiple Rows Successfully."
 
 {{< /highlight >}}
 ### **Insertion d'une colonne**
-Les développeurs peuvent également insérer une colonne dans la feuille de calcul à n'importe quel endroit en appelant la méthode insertColumns de la collection Cells. La méthode insertColumns prend deux paramètres :
+Les développeurs peuvent également insérer une colonne dans la feuille de calcul à n'importe quel emplacement en appelant la méthode InsertColumns de la collection Cells. La méthode InsertColumns prend deux paramètres :
 
-- Index de colonne, l'index de la colonne à partir de laquelle la colonne sera insérée
+- Index de colonne, l'index de la colonne à partir de laquelle la colonne sera insérée.
 - Nombre de colonnes, nombre total de colonnes à insérer
 
 **Code Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_column(self):
 
@@ -168,7 +169,7 @@ print "Insert Column Successfully."
 
 {{< /highlight >}}
 ### **Supprimer une colonne**
-Pour supprimer une colonne de la feuille de calcul à n'importe quel emplacement, appelez la méthode deleteColumns de la collection Cells. La méthode deleteColumns prend les paramètres suivants :
+Pour supprimer une colonne de la feuille de calcul à n'importe quel emplacement, appelez la méthode deleteColumns de la collection Cells. La méthode deleteColumns prend les paramètres suivants:
 
 - Index de colonne, l'index de la colonne à partir de laquelle la colonne sera supprimée.
 - Nombre de colonnes, nombre total de colonnes à supprimer.
@@ -176,7 +177,7 @@ Pour supprimer une colonne de la feuille de calcul à n'importe quel emplacement
 
 **Code Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_column(self):
 
@@ -200,7 +201,7 @@ print "Delete Column Successfully."
 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Gestion des lignes/colonnes (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Gestion des lignes/colonnes (Aspose.Cells)** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

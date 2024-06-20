@@ -1,17 +1,18 @@
-﻿---
-title: Aspose.Cells を使用したワークブックの印刷
+---
+title: Aspose.Cellsを使用したワークブックの印刷
 type: docs
 weight: 20
 url: /ja/java/printing-workbooks-using-aspose-cells/
 ---
+
 ## **Aspose.Cells - ワークブックの印刷**
-スプレッドシートの作成が完了したら、必要に応じてシートのハード コピーを印刷することをお勧めします。印刷するとき、MS Excel は、選択を指定しない限り、ワークシート領域全体を印刷すると想定します。
+スプレッドシートの作成が完了したら、必要に応じてシートの印刷を行いたいと思うでしょう。印刷を行う際、MS Excelは特定の選択を指定しない限り、ワークシート全体を印刷するものと見なします。
 
 ワークシートの印刷
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -39,7 +40,7 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a WorkbookRender object with respect to your workbook
 
@@ -50,7 +51,7 @@ WorkbookRender wr = new WorkbookRender(book, imgOptions);
 wr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
@@ -58,6 +59,6 @@ wr.toPrinter("Samsung ML-1520 Series");
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークブックの印刷](/cells/ja/java/printing-workbooks).
+詳細については、[ワークブックの印刷](/cells/ja/java/printing-workbooks)を参照してください。
 
 {{% /alert %}}

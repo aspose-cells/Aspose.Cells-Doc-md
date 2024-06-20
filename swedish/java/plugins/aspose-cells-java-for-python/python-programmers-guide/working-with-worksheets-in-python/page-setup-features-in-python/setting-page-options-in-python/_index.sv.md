@@ -1,16 +1,17 @@
-﻿---
-title: Ställa in sidalternativ i Python
+---
+title: Inställning av sidalternativ i Python
 type: docs
 weight: 10
 url: /sv/java/setting-page-options-in-python/
 ---
+
 ## **Aspose.Cells - Ställa in sidalternativ**
 ### **Sidorientering**
- För att tillämpa inställningar för sidorientering med**Aspose.Cells Java för Ruby** , ringa upp**page_orientation** metod av**utskriftsformat** modul.
+För att tillämpa sidorienteringsinställningar med **Aspose.Cells Java för Ruby**, anropa **page_orientation**-metoden i **pagesetup**-modulen.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def page_orientation(self):
 
@@ -42,12 +43,12 @@ print "Set page orientation, please check the output file."
 
 
 {{< /highlight >}}
-### **Skalningsfaktor**
- För att tillämpa skalning med hjälp av**Aspose.Cells Java for Python** , ringa upp**skalning** metod av**utskriftsformat** modul.
+### **Skalfaktor**
+För att tillämpa skalning med **Aspose.Cells Java för Python**, anropa **scaling** metoden inom **pagesetup** modulen.
 
-**Python Kod**
+**Python-kod**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def scaling(self):        
 
@@ -76,7 +77,7 @@ workbook.save(self.dataDir + "Scaling.xls")
 print "Set scaling, please check the output file."
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Ställa in sidalternativ (Aspose.Cells)** från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Inställning av sidalternativ (Aspose.Cells)** från någon av de nedan angivna sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

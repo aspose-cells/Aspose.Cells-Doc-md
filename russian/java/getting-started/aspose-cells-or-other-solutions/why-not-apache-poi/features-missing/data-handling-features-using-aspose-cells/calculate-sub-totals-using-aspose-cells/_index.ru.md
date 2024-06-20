@@ -1,15 +1,16 @@
-﻿---
-title: Рассчитать промежуточные итоги, используя Aspose.Cells
+---
+title: Расчет промежуточных итогов с использованием Aspose.Cells
 type: docs
 weight: 20
 url: /ru/java/calculate-sub-totals-using-aspose-cells/
 ---
-## **Aspose.Cells - Расчет промежуточных итогов**
-Вы можете автоматически создавать промежуточные итоги для любых повторяющихся значений в электронной таблице. Aspose.Cells предоставляет функции API, которые помогают программно добавлять промежуточные итоги в электронные таблицы.
+
+## **Aspose.Cells - Вычисление подытогов**
+Вы можете автоматически создавать подытоги для любых повторяющихся значений в электронной таблице. Aspose.Cells предоставляет API-функции, которые помогают вам программно добавлять подытоги в электронные таблицы.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,20 +36,20 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[]{ 1 });
+cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 
 //Save the excel file
 
 workbook.save("AsposeTotal.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/formula/AsposeCreateSubTotals.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/formula/AsposeCreateSubTotals.java)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Создание промежуточных итогов](/cells/ru/java/creating-subtotals).
+Дополнительные сведения см. по адресу [Создание итоговых итогов](/cells/ru/java/creating-subtotals).
 
 {{% /alert %}}

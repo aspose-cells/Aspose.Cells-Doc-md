@@ -1,12 +1,13 @@
-﻿---
-title: Stellen Sie die Spaltenbreite auf eine skalierbare Einheit wie em oder Prozent ein
+---
+title: Legen Sie die Spaltenbreite auf eine skalierbare Einheit wie em oder Prozent fest
 type: docs
 weight: 130
 url: /de/net/set-column-width-to-scalable-unit-like-em-or-percent/
 ---
-Das Generieren einer HTML-Datei aus einer Tabellenkalkulation ist weit verbreitet. Die Größe der Spalten wird in "pt" definiert, was in vielen Fällen funktioniert. Es kann jedoch einen Fall geben, in dem diese feste Größe nicht erforderlich ist. Wenn beispielsweise ein Container-Panel 600 Pixel breit ist und diese HTML-Seite angezeigt wird. In diesem Fall erhalten Sie möglicherweise eine horizontale Bildlaufleiste, wenn die generierte Tabellenbreite größer ist. Es war erforderlich, dass diese feste Größe in eine skalierbare Einheit wie em oder Prozent umgewandelt wird, um eine bessere Darstellung zu erhalten. Der folgende Beispielcode kann verwendet werden, wo[**HtmlSaveOptions.WidthScalable**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/widthscalable) ist eingestellt auf**wahr** zum Erstellen einer skalierbaren Breite.
 
-Beispielquelldatei und Ausgabedateien können über die folgenden Links heruntergeladen werden:
+Das Generieren einer HTML-Datei aus einer Tabellenkalkulation ist sehr verbreitet. Die Größe der Spalten ist in "pt" definiert, was in vielen Fällen funktioniert. Es kann jedoch der Fall eintreten, dass diese feste Größe nicht erforderlich ist. Zum Beispiel, wenn die Breite eines Containerpanels 600px beträgt, in dem diese HTML-Seite angezeigt wird. In diesem Fall kann ein horizontaler Bildlaufbalken angezeigt werden, wenn die Breite der generierten Tabelle größer ist. Es war erforderlich, dass diese feste Größe in eine skalierbare Einheit wie em oder Prozent umgewandelt wird, um eine bessere Darstellung zu erhalten. Der folgende Beispielcode kann verwendet werden, wobei [**HtmlSaveOptions.WidthScalable**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/widthscalable) auf **true** gesetzt ist, um eine skalierbare Breite zu erstellen.
+
+Beispiel-Quelldatei und Ausgabedateien können von folgenden Links heruntergeladen werden:
 
 [sampleForScalableColumns.xlsx](73990150.xlsx)
 

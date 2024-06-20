@@ -1,27 +1,28 @@
 ---
-title: Veri Noktalarının Pasta Pastası veya Pasta Çubuğu Grafiğindeki İkinci Pasta veya Çubukta olup olmadığını bulma
-description: Veri noktalarının bir pasta pastası veya pasta çubuğu grafiğindeki ikinci pasta veya çubukta olup olmadığını bulmak için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Kılavuzumuz, verileri etkili bir şekilde analiz etmenize ve değiştirmenize olanak tanıyacak şekilde, bileşik bir grafikte ikincil pasta veya çubuğun nasıl tanımlanacağını ve erişileceğini gösterecektir.
-keywords: Aspose.Cells for .NET, Pie of Pie Chart, Bar of Pie Chart, Secondary Pie, Secondary Bar, Data Analysis, Data Manipulation.
+title: Pasta Grafiklerinde veya Barlı Pasta veya Pasta Grafiğindeki İkinci Pastada veya Bar da Veri Noktalarını Bulma
+description: Veri noktalarının pasta grafiğindeki veya barlı pasta grafiğindeki ikinci pastada veya bar da olup olmadığını bulmayı öğrenin Aspose.Cells for .NET kullanın. Kılavuzumuz, bileşik bir grafikte ikincil pastayı veya barı tanımlamanın ve erişmenin nasıl olduğunu gösterecektir, böylece verileri etkin bir şekilde analiz edip manipüle edebilirsiniz.
+keywords: Aspose.Cells for .NET, Pasta Grafiği, Barlı Pasta Grafiği, İkincil Pasta, İkincil Bar, Veri Analizi, Veri Manipülasyonu.
 type: docs
 weight: 180
 url: /tr/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/
 ---
-##  **Olası Kullanım Senaryoları**
- Serinin veri noktalarının ikinci pastada olup olmadığını şu adreste bulabilirsiniz:*Turta Turtası* grafikte veya çubuğunda*Pasta Barı* Aspose.Cells numaralı tabloyu kullanın. Lütfen[ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)bunu belirleyecek özellik.
 
- Lütfen indirin[örnek excel dosyası](5115193.xlsx)aşağıdaki örnek kodda kullanıldı ve konsol çıktısına bakın. Eğer açarsan[örnek excel dosyası](5115193.xlsx) 10'dan küçük tüm veri noktalarının çubuğun içinde olduğunu göreceksiniz.*Pasta Barı*grafik konsol çıktısında da gösterildiği gibi.
-##  **Veri Noktalarının Pasta Pastası veya Pasta Çubuğu Grafiğindeki İkinci Pasta veya Çubukta olup olmadığını bulma**
- Aşağıdaki örnek kod, veri noktalarının bir veri kümesindeki ikinci pastada mı yoksa çubukta mı bulunduğunun nasıl bulunacağını gösterir.*Turta Turtası* veya*Pasta Barı*çizelge.
+## **Olası Kullanım Senaryoları**
+Aspose.Cells kullanarak *Pasta Grafiği* veya *Barlı Pasta* grafiklerinde serilerin veri noktalarının ikinci pastada veya ikinci barda olup olmadığını bulabilirsiniz. Lütfen [ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) özelliğini kullanarak bunu belirleyin.
+
+Lütfen aşağıdaki örnek kodda kullanılan [örnek excel dosyasını](5115193.xlsx) indirin ve konsol çıktısını görün. [Örnek excel dosyasını](5115193.xlsx) açarsanız, tüm veri noktalarının 10'dan az olduğunu, *Barlı Pasta* grafik içinde olduğunu, aynı zamanda konsol çıktısı tarafından da gösterildiğini bulacaksınız.
+## **Bir Pasta-grafik veya Çubuk-grafikte Veri Noktalarının İkinci Pasta'nın veya Pasta'nın Çubuğu'nun Üzerinde Olup Olmadığını Bulma**
+Aşağıdaki örnek kod, veri noktalarının *Pasta Grafiği* veya *Barlı Pasta* grafiklerinde ikinci pastada veya bar'da olup olmadığını nasıl bulacağınızı gösterir.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindDataPointsInPieBar-FindDataPointsInPieBar.cs" >}}
-##  **Konsol Çıkışı**
- Lütfen yukarıdaki örnek kodun çalıştırılmasından sonra oluşturulan aşağıdaki konsol çıktısına bakın.[örnek excel dosyası](5115193.xlsx) . Eğer[IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)*yanlış** ise veri noktası Pastanın içindedir veya *doğru** ise veri noktası Çubuğun içindedir.
+## **Konsol Çıktısı**
+Yukarıdaki örnek kodun çalıştırılmasından sonra oluşturulan aşağıdaki konsol çıktısını inceleyin. [IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) **false** ise, veri noktası pastanın içindedir; **true** ise, veri noktası bardadır.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Value: 15
 

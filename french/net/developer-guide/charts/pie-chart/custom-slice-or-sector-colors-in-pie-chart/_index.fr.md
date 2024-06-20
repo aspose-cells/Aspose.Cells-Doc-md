@@ -1,32 +1,33 @@
 ---
-title: Couleurs de tranche ou de secteur personnalisées dans un graphique à secteurs
-description: Découvrez comment utiliser Aspose.Cells for .NET pour personnaliser les couleurs des tranches et des secteurs dans un diagramme circulaire. Notre guide vous montrera comment attribuer des couleurs uniques à chaque tranche, secteur ou légion pour améliorer l'attrait visuel et la représentation des données.
-keywords: Aspose.Cells for .NET, Pie Chart, Custom Slice Colors, Custom Sector Colors, Visual Appeal, Data Representation.
+title: Couleurs personnalisées de tranche ou de secteur dans le diagramme circulaire
+description: Apprenez à utiliser Aspose.Cells for .NET pour personnaliser les couleurs de tranche et de secteur dans un diagramme circulaire. Notre guide vous montrera comment attribuer des couleurs uniques à chaque tranche, secteur ou légende pour une meilleure attractivité visuelle et une représentation des données améliorée.
+keywords: Aspose.Cells for .NET, Diagramme circulaire, Couleurs personnalisées des tranches, Couleurs personnalisées des secteurs, Attrait visuel, Représentation des données.
 type: docs
 weight: 60
 url: /fr/net/custom-slice-or-sector-colors-in-pie-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Cet article explique comment ajouter des couleurs personnalisées aux tranches/secteurs du graphique à secteurs. Par défaut, les diagrammes circulaires utilisent le modèle Excel par défaut Microsoft. Pour utiliser d'autres couleurs, redéfinissez les couleurs dans le graphique.
+Cet article explique comment ajouter des couleurs personnalisées aux tranches/secteurs d'un diagramme circulaire. Par défaut, les diagrammes circulaires utilisent le modèle par défaut de Microsoft Excel. Pour utiliser d'autres couleurs, redéfinissez les couleurs dans le diagramme.
 
 {{% /alert %}}
 
-Pour définir une couleur personnalisée pour les tranches ou secteurs individuels d'un graphique à secteurs :
+Pour définir une couleur personnalisée pour les tranches ou secteurs individuels d'un diagramme circulaire :
 
-1.  Accéder au[**Série**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) objets[**ChartPoint**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
-1. Attribuez la couleur de votre choix à l'aide du[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)propriété.
+1. Accédez à [**Series**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) l'objet [**ChartPoint**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
+1. Attribuez la couleur de votre choix en utilisant la propriété [**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor).
 
-Cet article explique également comment :
+Cet article explique également comment :
 
-- Données de catégorie d'un graphique.
-- Titre de graphique lié à une cellule.
-- Paramètres de police du titre du graphique.
+- Les données de catégorie d'un graphique.
+- Un titre de graphique lié à une cellule.
+- Les paramètres de police du titre du graphique.
 - La position de la légende.
 
 {{% alert color="primary" %}}
 
-[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor) n'est pas spécifique aux camemberts mais il peut être utilisé pour tous les types de graphiques.
+[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor) n'est pas spécifique aux diagrammes circulaires mais peut être utilisé pour tous les types de diagrammes.
 
 {{% /alert %}}
 

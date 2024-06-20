@@ -1,24 +1,25 @@
 ---
-title: Masquer l'affichage des valeurs zéro dans la feuille de calcul
+title: Masquer l affichage des valeurs zéro dans la feuille de calcul
 type: docs
 weight: 50
 url: /fr/net/hiding-the-display-of-zero-values-in-the-worksheet/
-description: Cet article vous montrera un exemple de code expliquant comment masquer par programmation les valeurs zéro dans une feuille de calcul Excel à l'aide de la bibliothèque C# ou .NET API.
-keywords: hide zero values of excel worksheet in c#
+description: Cet article vous montrera un code d exemple expliquant comment masquer de façon programmée les valeurs zéro dans une feuille Excel en utilisant la bibliothèque C# ou l API .NET.
+keywords: Masquer les valeurs zéro de la feuille de calcul Excel en C#
 ---
+
 {{% alert color="primary" %}} 
 
-Parfois, vous devez masquer les valeurs nulles dans une feuille de calcul. Il peut s'agir d'une préférence personnelle ou d'une norme de formatage.
+Parfois, vous devez masquer les valeurs zéro dans une feuille de calcul. Cela peut être une préférence personnelle ou une norme de formatage.
 
 {{% /alert %}} 
 
-Pour masquer les valeurs nulles dans une feuille de calcul dans Microsoft Excel (par exemple Microsoft Excel 2003) :
+Pour masquer les valeurs zéro dans une feuille de calcul dans Microsoft Excel (par exemple Microsoft Excel 2003) :
 
-1.  Du**Outils** menu, sélectionnez**Options**, puis sélectionnez **Afficher** languette.
-1.  Désélectionnez le**Valeurs nulles** option.
-1. Cliquez sur OK**.
+1. Dans le menu **Outils**, sélectionnez **Options**, puis sélectionnez l'onglet **Affichage**.
+1. Désélectionnez l'option **Zéro**.
+1. Cliquez sur **OK**.
 
-Veuillez consulter l'exemple de code suivant qui illustre le masquage des zéros à l'aide de Aspose.Cells.
+Veuillez consulter le code d'exemple suivant qui démontre comment masquer les zéros à l'aide d'Aspose.Cells.
 
 
 

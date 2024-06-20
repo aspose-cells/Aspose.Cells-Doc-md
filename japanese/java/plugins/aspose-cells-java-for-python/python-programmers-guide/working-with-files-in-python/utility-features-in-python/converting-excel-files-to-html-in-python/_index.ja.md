@@ -1,21 +1,22 @@
-﻿---
-title: Python で Excel ファイルを HTML に変換する
+---
+title: PythonでのExcelファイルをHTMLに変換
 type: docs
 weight: 10
 url: /ja/java/converting-excel-files-to-html-in-python/
 ---
-## **Aspose.Cells - Excel ファイルを HTML に変換しています**
-Python で Aspose.Cells for Java を使用して Excel を HTML に変換するには、ワークシートを呼び出すだけです。_に_Converter モジュールの html() メソッド。
 
-**Python コード**
+## **Aspose.Cells - ExcelファイルをHTMLに変換**
+PythonでAspose.Cells for Javaを使用してExcelをHTMLに変換するには、Converterモジュールのworksheet_to_html()メソッドを単純に呼び出します。
 
-{{< highlight "python" >}}
+**Pythonコード**
+
+{{< highlight python >}}
 
  saveFormat = self.SaveFormat
 
 workbook = self.Workbook(self.dataDir + "Book1.xls")
 
-# Save the document in PDF format
+#Save the document in PDF format
 
 workbook.save(self.dataDir + "OutBook1.html", saveFormat.HTML)
 
@@ -25,7 +26,7 @@ print "\n Excel to HTML conversion performed successfully."
 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**Excel ファイルを HTML に変換中 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**Aspose.Cells**の**ExcelファイルをHTMLに変換**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

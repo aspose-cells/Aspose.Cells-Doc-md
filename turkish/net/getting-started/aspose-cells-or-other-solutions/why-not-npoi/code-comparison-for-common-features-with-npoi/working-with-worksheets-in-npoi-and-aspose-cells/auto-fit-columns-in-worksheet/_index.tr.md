@@ -1,13 +1,14 @@
-﻿---
-title: Çalışma Sayfasına Sütunları Otomatik Sığdır
+---
+title: Çalışma Sayfasındaki Sütunları Otomatik Ayarla
 type: docs
 weight: 30
 url: /tr/net/auto-fit-columns-in-worksheet/
 ---
-## **Aspose.Cells - Çalışma Sayfasına Sütunları Otomatik Sığdır**
+
+## **Aspose.Cells - Çalışma Sayfasındaki Sütunları Otomatik Ayarla**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -48,10 +49,10 @@ worksheet.AutoFitColumn(3);
 workbook.Save("AutoFiltRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Sütunları Çalışma Sayfasına Otomatik Sığdır**
+## **NPOI - HSSF XSSF - Çalışma Sayfasındaki Sütunları Otomatik Ayarla**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -79,12 +80,12 @@ file.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Sütunu Otomatik Sığdır** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Herhangi bir sosyal kodlama sitesinden **Sütunu Otomatik Ayarla** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarıyla Çalışmak](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Daha fazla ayrıntı için [Çalışma Sayfaları İle Çalışma](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/) ziyaret edin.
 
 {{% /alert %}}

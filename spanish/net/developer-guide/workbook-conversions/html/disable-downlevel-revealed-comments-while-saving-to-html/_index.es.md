@@ -1,22 +1,23 @@
-﻿---
-title: Deshabilite los comentarios revelados de nivel inferior al guardar en HTML
+---
+title: Desactivar los Comentarios Revelados de Niveles Inferiores al guardar en HTML
 type: docs
 weight: 20
 url: /es/net/disable-downlevel-revealed-comments-while-saving-to/
 ---
-## **Posibles escenarios de uso**
 
-Cuando guarda su archivo de Excel en HTML, Aspose.Cells revela comentarios condicionales de nivel inferior. Estos comentarios condicionales son principalmente relevantes para versiones anteriores de Internet Explorer y son irrelevantes para los navegadores web modernos. Puedes leer sobre ellos en detalle en el siguiente enlace.
+## **Escenarios de uso posibles**
 
-- [Comentario condicional: comentario condicional revelado de nivel inferior](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
+Cuando guardas tu archivo de Excel en HTML, entonces Aspose.Cells revela Comentarios Condicionales de Niveles Inferiores. Estos comentarios condicionales son mayormente relevantes para versiones antiguas de Internet Explorer y son irrelevantes para navegadores web modernos. Puedes leer más sobre ellos en detalle en el siguiente enlace.
 
-Aspose.Cells le permite eliminar estos comentarios revelados de nivel inferior configurando el[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) propiedad a**verdadero**.
+- [Comentario condicional - comentario condicional revelado de niveles inferiores](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
 
-## **Deshabilite los comentarios revelados de nivel inferior al guardar en HTML**
+Aspose.Cells te permite eliminar estos Comentarios Revelados de Niveles Inferiores estableciendo la propiedad [**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) a **true**.
 
-El siguiente código de ejemplo muestra el uso de[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) propiedad. La captura de pantalla muestra el efecto de esta propiedad cuando no se establece en verdadero. Por favor descarga el[ejemplo de archivo de Excel](50528257.xlsx) utilizado en este código y el[salida HTML](50528258.zip) generado por él para una referencia.
+## **Desactivar Comentarios Revelados de Niveles Inferiores al guardar en HTML**
 
-![todo:imagen_alternativa_texto](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
+El siguiente código de muestra muestra el uso de la propiedad [**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments). La captura de pantalla muestra el efecto de esta propiedad cuando no está establecida en true. Por favor descarga el [archivo de Excel de muestra](50528257.xlsx) usado en este código y el [HTML de salida](50528258.zip) generado por él para una referencia.
+
+![todo:image_alt_text](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
 
 ## **Código de muestra**
 

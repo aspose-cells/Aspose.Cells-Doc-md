@@ -1,26 +1,27 @@
-﻿---
-title: Converti la Smart Art in Group Shape
+---
+title: Convertire l Arte intelligente in Forma di gruppo
 type: docs
 weight: 200
 url: /it/net/convert-the-smart-art-to-group-shape/
 ---
-## **Possibili scenari di utilizzo**
 
-Puoi convertire Smart Art Shape in Group Shape usando il file[**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart)metodo. Ti consentirà di gestire la forma artistica intelligente come una forma di gruppo. Di conseguenza, avrai accesso alle singole parti o forme della forma di gruppo.
+## **Possibili Scenari di Utilizzo**
 
-## **Converti la Smart Art in Group Shape**
+È possibile convertire la forma di Arte intelligente in Forma di gruppo utilizzando il metodo [**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart). Questo ti consentirà di gestire la forma di arte intelligente come una forma di gruppo. Di conseguenza, avrai accesso alle singole parti o forme della forma di gruppo.
 
-Il codice di esempio seguente carica il file[esempio di file Excel](55541793.xlsx)contenente una forma artistica intelligente come mostrato in questo screenshot. Quindi converte la forma smart art in una forma di gruppo e stampa la proprietà Shape.IsGroup. Si prega di vedere l'output della console del codice di esempio fornito di seguito.
+## **Convertire la SmartArt in una forma di gruppo**
 
-![cose da fare:immagine_alt_testo](convert-the-smart-art-to-group-shape_1.png)
+Il seguente codice di esempio carica il [file di Excel di esempio](55541793.xlsx) contenente una forma di arte intelligente come mostrato in questa schermata. Quindi converte la forma di arte intelligente in forma di gruppo e stampa la proprietà Shape.IsGroup. Si prega di consultare l'output della console del codice di esempio fornito di seguito.
 
-## **Codice d'esempio**
+![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ConvertSmartArtToGroupShape.cs" >}}
 
-## **Uscita console**
+## **Output della console**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: True
 

@@ -1,25 +1,26 @@
 ---
-title: Excel'i JSON'e dönüştür
+title: Excel i JSON a Dönüştür
 type: docs
 weight: 20
 url: /tr/java/convert-excel-to-json/
-description: Aspose.Cells for Java API'leri ile excel dosyasını json'a nasıl dönüştüreceğinizi öğrenin.
-keywords: Java Export Workbook to json, Convert Excel to JSON using Java, Save Excel to JSON in Java, Convert Workbook to JSON using Java, Save Workbook to JSON in Java, Export Excel to JSON via Java.
+description: Aspose.Cells for Java API lerini kullanarak Excel dosyasını JSON a nasıl dönüştüreceğinizi öğrenin.
+keywords: Java kullanarak Çalışma Kitabını json a dönüştürme, Excel i JSON olarak dönüştürme, Excel i JSON olarak kaydetme, Java kullanarak Çalışma Kitabını JSON a dönüştürme, Java kullanarak Çalışma Kitabını JSON olarak kaydetme, Excel i JSON olarak dışa aktarma via Java.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells, bir Çalışma Kitabının Json (JavaScript Object Notation) dosyasına dönüştürülmesini destekler.
+Aspose.Cells, bir Workbook'ü Json (JavaScript Object Notation) dosyasına dönüştürmeyi destekler.
 
 {{% /alert %}}
 
-##  **Excel Çalışma Kitabını JSON'e Dönüştürme**
+## **Excel Çalışma Kitabını JSON'a Dönüştürme**
 
- Excel Çalışma Kitabı'nı JSON'e nasıl dönüştüreceğinizi merak etmenize gerek yok, çünkü Aspose.Cells Java kütüphanesi en iyi karardır. Aspose.Cells Java API, e-tabloların JSON biçimine dönüştürülmesi için destek sağlar. Çalışma kitabını JSON'e aktarmak için şunu iletin:[**SaveFormat.JSON**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) ikinci parametre olarak[**Çalışma kitabı.kaydet**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int) ) yöntem. Ayrıca kullanabilirsiniz[**JsonSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonSaveOptions) Çalışma sayfasını JSON'e aktarmak için ek ayarları belirtmek üzere sınıf.
+Excel Çalışma Kitabını JSON'a nasıl dönüştüreceğinizi merak etmeyin, çünkü Aspose.Cells Java kütüphanesi en iyi kararı verir. Aspose.Cells Java API; elektronik tabloları JSON formatına dönüştürmeyi destekler. Çalışma kitabını JSON'a dışa aktarmak için, [**SaveFormat.JSON**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) parametresi olarak [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)) yönteminin ikinci parametresi olarak ekleyin. Ayrıca, çalışma sayfasını JSON'a dışa aktarıp ek ayarları belirtmek için [**JsonSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonSaveOptions) sınıfını da kullanabilirsiniz.
 
- Aşağıdaki kod örneği, Excel Çalışma Kitabının Json'a aktarılmasını gösterir. Lütfen dönüştürülecek koda bakın[Kaynak dosyası](sample.xlsx) referans için kod tarafından oluşturulan Json dosyasına.
+Aşağıdaki kod örneği, Excel Çalışma Kitabı'nın Json olarak dışa aktarılmasını gösterir. Referans için, kod tarafından oluşturulan Json dosyası için [örnek dosyayı](sample.xlsx) dönüştürme koduna bakın.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-Excel-to-JSON.java" >}}
 
- Ek ayarları belirtmek için JsonSaveOptions sınıfını kullanan aşağıdaki kod örneği, Excel Çalışma Kitabının Json'a aktarılmasını gösterir. Lütfen dönüştürülecek koda bakın[Kaynak dosyası](sample.xlsx) referans için kod tarafından oluşturulan Json dosyasına.
+Aşağıdaki kod örneği, ek ayarları belirtmek için JsonSaveOptions sınıfını kullanan Excel Workbook'ünü Json olarak dışa aktarmanın bir örneğini göstermektedir. Referans için kodu görmek için [kaynak dosyayı](sample.xlsx) kodla üretilen Json dosyası ile birlikte inceleyin.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-Excel-to-JSON2.java" >}}

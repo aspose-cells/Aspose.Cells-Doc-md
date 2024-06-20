@@ -1,15 +1,16 @@
-﻿---
-title: تجميد الألواح في روبي
+---
+title: تجميد الألواح في Ruby
 type: docs
 weight: 50
 url: /ar/java/freeze-panes-in-ruby/
 ---
-## **Aspose.Cells - تجميد الأجزاء**
- لتجميد الأجزاء في مستند جدول البيانات باستخدام**Aspose.Cells Java لروبي** ، ببساطة استدعاء**أجزاء التجميد** وحدة.
 
-**كود روبي**
+## **Aspose.Cells - تجميد الألواح**
+لتجميد الألواح في مستند الجدول النصي باستخدام **Aspose.Cells Java for Ruby**، قم ببساطة باستدعاء الوحدة **FreezePanes**.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ workbook.save(data_dir + "output.xls")
 puts "Apply freeze panes settings, please check the output file."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**تجميد الأجزاء (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **تجميد الألواح (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)

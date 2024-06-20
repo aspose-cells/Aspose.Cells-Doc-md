@@ -1,16 +1,17 @@
-﻿---
-title: Ruby で改ページを管理する
+---
+title: Rubyでページの区切りを管理する
 type: docs
 weight: 20
 url: /ja/java/managing-page-breaks-in-ruby/
 ---
-## **Aspose.Cells - 改ページの管理**
-### **改ページの追加**
-を使用して改ページを追加するには**Aspose.Cells Ruby の場合は Java**、 電話**add_page_breaks**方法**改ページ**モジュール。以下にコード例を示します。
 
-**ルビーコード**
+## **Aspose.Cells - ページの区切りを管理する**
+### **ページブレークの追加**
+**Aspose.Cells Java for Ruby**を使用してページ区切りを追加するには、**pagebreaks**モジュールの**add_page_breaks**メソッドを呼び出します。以下にコード例があります。
 
-{{< highlight "ruby" >}}
+**Ruby Code**
+
+{{< highlight ruby >}}
 
  def add_page_breaks(workbook)
 
@@ -37,12 +38,12 @@ url: /ja/java/managing-page-breaks-in-ruby/
 end   
 
 {{< /highlight >}}
-### **すべての改ページのクリア**
-を使用してすべての改ページをクリアするには**Aspose.Cells Ruby の場合は Java**、 電話**clear_all_page_breaks**方法**改ページ**モジュール。以下にコード例を示します。
+### **すべてのページの改ページをクリアする**
+**Aspose.Cells Java for Ruby**を使用して全てのページ区切りをクリアするには、**pagebreaks**モジュールの**clear_all_page_breaks**メソッドを呼び出します。以下にコード例があります。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def clear_all_page_breaks(workbook)
 
@@ -59,12 +60,12 @@ end   
 end 
 
 {{< /highlight >}}
-### **特定の改ページの削除**
-を使用して特定の改ページを削除するには**Aspose.Cells Ruby の場合は Java**、 電話**remove_page_break**方法**改ページ**モジュール。以下にコード例を示します。
+### **特定の改ページを削除する**
+Aspose.Cells Java for Rubyで特定の改ページを削除するには、**pagebreaks**モジュールの**remove_page_break**メソッドを呼び出します。以下にコード例を示します。
 
-**ルビーコード**
+**Ruby Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_page_break(workbook)
 
@@ -93,7 +94,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**改ページの管理 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**Managing Page Breaks (Aspose.Cells)**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreaks.rb)

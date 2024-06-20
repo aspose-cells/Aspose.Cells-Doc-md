@@ -1,22 +1,23 @@
-﻿---
-title: HTML に保存する際にダウンレベルの公開コメントを無効にする
+---
+title: HTMLへの保存時にDownlevel表示されたコメントを無効にする
 type: docs
 weight: 20
 url: /ja/java/disable-downlevel-revealed-comments-while-saving-to-html/
 ---
-## **考えられる使用シナリオ**
 
-Excel ファイルを HTML に保存すると、Aspose.Cells でダウンレベルの条件付きコメントが表示されます。これらの条件付きコメントは主に古いバージョンの Internet Explorer に関連しており、最新の Web ブラウザーには関連していません。それらについては、次のリンクで詳しく読むことができます。
+## **可能な使用シナリオ**
 
-- [条件付きコメント - ダウンレベルで明らかにされた条件付きコメント](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
+ExcelファイルをHTMLに保存すると、Aspose.CellsはDownlevel条件付きコメントを表示します。これらの条件付きコメントは、古いバージョンのInternet Explorerに関連することが多く、現代のWebブラウザには関係ありません。詳細については、次のリンクで詳しく説明しています。
 
-Aspose.Cells を設定すると、これらのダウンレベルの公開コメントを削除できます。[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DisableDownlevelRevealedComments)プロパティへ**真実**.
+- [条件付きコメント - Downlevel-revealed条件付きコメント](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
 
-## **HTML に保存する際にダウンレベルの公開コメントを無効にする**
+Aspose.Cellsを使用して、[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DisableDownlevelRevealedComments)プロパティを**true**に設定することで、これらのDownlevel Revealed Commentsを排除できます。
 
-次のサンプル コードは、[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DisableDownlevelRevealedComments)財産。スクリーンショットは、このプロパティが に設定されていない場合の効果を示しています。**真実**.をダウンロードしてください[サンプル Excel ファイル](50528267.xlsx)このコードと[出力 HTML](50528266.zip)参照用にそれによって生成されたファイル。
+## **HTML への保存時にダウンレベルの表示されたコメントを無効にする**
 
-![todo:画像_代替_文章](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
+以下のサンプルコードは、[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DisableDownlevelRevealedComments)プロパティの使用例を示しています。このプロパティを**true**に設定しない場合の効果を示すスクリーンショットをダウンロードしてください。
+
+![todo:image_alt_text](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
 
 ## **サンプルコード**
 

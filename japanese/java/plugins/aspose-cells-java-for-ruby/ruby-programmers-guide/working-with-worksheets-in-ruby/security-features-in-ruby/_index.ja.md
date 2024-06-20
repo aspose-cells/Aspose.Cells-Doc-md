@@ -1,10 +1,11 @@
-﻿---
-title: Ruby のセキュリティ機能
+---
+title: Ruby におけるセキュリティ機能
 type: docs
 weight: 40
 url: /ja/java/security-features-in-ruby/
 ---
-**このセクションには、次のトピックが含まれています。**
 
-- [Ruby でワークシートを保護する](/cells/ja/java/protecting-worksheets-in-ruby/)
-- [Ruby でワークシートの保護を解除する](/cells/ja/java/unprotect-a-worksheet-in-ruby/)
+**このセクションには次のトピックが含まれています:**
+
+- [Rubyにおけるワークシートの保護](/cells/ja/java/protecting-worksheets-in-ruby/)
+- [Rubyにおけるワークシートの保護解除](/cells/ja/java/unprotect-a-worksheet-in-ruby/)

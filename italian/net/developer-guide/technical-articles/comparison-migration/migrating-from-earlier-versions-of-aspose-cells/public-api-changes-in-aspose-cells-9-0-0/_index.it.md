@@ -1,23 +1,24 @@
-﻿---
-title: Pubblico API Modifiche in Aspose.Cells 9.0.0
+---
+title: Modifiche dell API pubblica in Aspose.Cells 9.0.0
 type: docs
 weight: 330
 url: /it/net/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.9.2 alla 9.0.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche all'API di Aspose.Cells dalla versione 8.9.2 a 9.0.0 che potrebbero interessare agli sviluppatori di moduli/applicazioni. Include non solo nuovi metodi pubblici aggiornati, classi aggiunte e rimosse, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
-### **Proprietà Shape.TextOptions aggiunta**
-Aspose.Cells for .NET ha esposto la proprietà TextOptions per la classe Shape per controllare l'aspetto delle parti testuali di una Shape.
+### **Aggiunta proprietà Shape.TextOptions**
+Aspose.Cells for .NET ha esposto la proprietà TextOptions per la classe Shape al fine di controllare l'aspetto delle parti testuali di una forma.
 
 Ecco un semplice scenario di utilizzo della proprietà Shape.TextOptions.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize an instance of Workbook
 
@@ -51,17 +52,17 @@ textbox.TextOptions.IsItalic = true;
 ### **Aggiunta proprietà LoadOptions.CultureInfo**
 Aspose.Cells for .NET 9.0.0 ha esposto la proprietà LoadOptions.CultureInfo che consente di iniettare un'istanza di CultureInfo al momento del caricamento di un documento in un'istanza di Workbook.
 
-Ecco un semplice scenario di utilizzo delle proprietà di cui sopra.
+Ecco un semplice scenario di utilizzo delle proprietà sopra menzionate.
 
 {{% alert color="primary" %}} 
 
- Controlla l'articolo dettagliato su[Caricamento foglio di calcolo con CultureInfo specifiche](/cells/it/net/load-the-workbook-with-specific-system-culture-info/).
+Consulta l'articolo dettagliato su [Caricamento del foglio di calcolo con CultureInfo specifica](/cells/it/net/load-the-workbook-with-specific-system-culture-info/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of CultureInfo and populate its properties
 
@@ -86,20 +87,20 @@ var book = new Workbook(dir + "input.html", options);
 {{< /highlight >}}
 
 
-### **Proprietà ChartPoint.IsInSecondaryPlot aggiunta**
-Aspose.Cells for .NET ha esposto la proprietà ChartPoint.IsInSecondaryPlot che può essere utilizzata per rilevare se un ChartPoint si trova su un grafico secondario di un grafico a torta oa barre.
+### **Aggiunta proprietà ChartPoint.IsInSecondaryPlot**
+Aspose.Cells for .NET ha esposto la proprietà ChartPoint.IsInSecondaryPlot che può essere utilizzata per rilevare se un ChartPoint risiede su un tracciato secondario di un grafico a torta o a barre.
 
-Ecco un semplice scenario di utilizzo della proprietà Shape.Line.
+Ecco un semplice scenario d'uso della proprietà Shape.Line.
 
 {{% alert color="primary" %}} 
 
- Controlla l'articolo dettagliato su[La ricerca di un punto dati risiede nel secondo grafico](/cells/it/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
+Controlla l'articolo dettagliato su [Ricerca di un DataPoint residente sul Secondo Plot](/cells/it/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load an existing spreadsheet containing a Pie chart
 
@@ -136,20 +137,20 @@ foreach (ChartPoint point in series.Points)
 {{< /highlight >}}
 
 
-### **Aggiunta proprietà OleObject.ClassIdentifier**
-Aspose.Cells for .NET 9.0.0 ha esposto la proprietà OleObject.ClassIdentifier che può essere utilizzata per specificare il comportamento dell'applicazione per caricare un OleObject. Ad esempio, un file PPT può essere incorporato in un foglio di calcolo con 2 viste diverse, ovvero; vista presentazione o vista diapositiva, mentre entrambe le viste hanno valori di identificatore di classe diversi.
+### **Aggiunta la proprietà OleObject.ClassIdentifier.**
+Aspose.Cells for .NET 9.0.0 ha esposto la proprietà OleObject.ClassIdentifier che può essere utilizzata per specificare il comportamento dell'applicazione per caricare un OleObject. Ad esempio, un file PPT può essere incorporato in un foglio di calcolo con 2 visualizzazioni diverse, cioè; visualizzazione presentazione o visualizzazione diapositiva, mentre entrambe le visualizzazioni hanno valori di identificatore di classe diversi.
 
-Di seguito è riportato il semplice scenario di utilizzo della proprietà OleObject.ClassIdentifier.
+Ecco il semplice scenario d'uso della proprietà OleObject.ClassIdentifier.
 
 {{% alert color="primary" %}} 
 
- Controlla l'articolo dettagliato su[Utilizzo di OleObject.ClassIdentifier](/cells/it/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/).
+Controlla l'articolo dettagliato su [Utilizzo di OleObject.ClassIdentifier](/cells/it/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/).
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a spreadsheet containing a presentation as OleObject
 
@@ -165,13 +166,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 string progID = "";
 
@@ -181,7 +182,7 @@ string sourceFullName = "";
 
 bool isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 // Get the first worksheet from the collection
 
@@ -266,24 +267,24 @@ if (classId != null)
 book.Save(dir  + "output.xls");
 
 {{< /highlight >}}
-## **API obsolete**
-### **Metodo Worksheet.SetBackground obsoleto**
-Utilizzare invece la proprietà Worksheet.BackgroundImage.
-### **Proprietà LineShape.BeginArrowheadStyle e ArcShape.BeginArrowheadStyle obsolete**
-Utilizzare la proprietà Shape.Line.BeginArrowheadStyle come alternativa.
-### **Proprietà LineShape.EndArrowheadStyle e ArcShape.EndArrowheadStyle obsolete**
-Utilizzare la proprietà Shape.Line.EndArrowheadStyle come alternativa.
-### **Proprietà LineShape.BeginArrowheadWidth e ArcShape.BeginArrowheadWidth obsolete**
-Utilizzare la proprietà Shape.Line.BeginArrowheadWidth come alternativa.
-### **Proprietà LineShape.BeginArrowheadLength e ArcShape.BeginArrowheadLength obsolete**
-Utilizzare invece la proprietà Shape.Line.BeginArrowheadLength.
-### **Proprietà LineShape.EndArrowheadWidth e ArcShape.EndArrowheadWidth obsolete**
-Utilizzare invece la proprietà Shape.Line.EndArrowheadWidth.
-### **Proprietà LineShape.EndArrowheadLength e ArcShape.EndArrowheadLength obsolete**
-Utilizzare invece la proprietà Shape.Line.EndArrowheadLength.
+## **API deprecate**
+### **Metodo Worksheet.SetBackground reso obsoleto**
+Si prega di utilizzare invece la proprietà Worksheet.BackgroundImage.
+### **Proprietà LineShape.BeginArrowheadStyle & ArcShape.BeginArrowheadStyle rese obsolete**
+Si prega di utilizzare la proprietà Shape.Line.BeginArrowheadStyle come alternativa.
+### **Proprietà LineShape.EndArrowheadStyle & ArcShape.EndArrowheadStyle rese obsolete**
+Si prega di utilizzare la proprietà Shape.Line.EndArrowheadStyle come alternativa.
+### **Proprietà LineShape.BeginArrowheadWidth & ArcShape.BeginArrowheadWidth rese obsolete**
+Si prega di utilizzare la proprietà Shape.Line.BeginArrowheadWidth come alternativa.
+### **Proprietà LineShape.BeginArrowheadLength & ArcShape.BeginArrowheadLength rese obsolete**
+Si prega di utilizzare la proprietà Shape.Line.BeginArrowheadLength invece.
+### **Proprietà LineShape.EndArrowheadWidth & ArcShape.EndArrowheadWidth rese obsolete**
+Si prega di utilizzare la proprietà Shape.Line.EndArrowheadWidth invece.
+### **Proprietà Obsoleta LineShape.EndArrowheadLength & ArcShape.EndArrowheadLength**
+Si prega di utilizzare la proprietà Shape.Line.EndArrowheadLength.
 ## **API eliminate**
-### **Metodo Worksheet.CopyConditionalFormatting eliminato**
-### **Metodo Workbook.CheckWriteProtectedPassword eliminato**
-## **API rinominate**
+### **Metodo Worksheet.CopyConditionalFormatting cancellato**
+### **Metodo Workbook.CheckWriteProtectedPassword cancellato**
+## **API Rinominate**
 ### **Metodo Workbook.RemoveDigitallySign rinominato**
 Il metodo Workbook.RemoveDigitallySign è stato rinominato in Workbook.RemoveDigitalSignature.

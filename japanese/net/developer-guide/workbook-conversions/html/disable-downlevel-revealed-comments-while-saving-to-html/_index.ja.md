@@ -1,22 +1,23 @@
-﻿---
-title: HTML に保存する際にダウンレベルの公開コメントを無効にする
+---
+title: HTMLへの保存時にDownlevel表示されたコメントを無効にする
 type: docs
 weight: 20
 url: /ja/net/disable-downlevel-revealed-comments-while-saving-to/
 ---
-## **考えられる使用シナリオ**
 
-Excel ファイルを HTML に保存すると、Aspose.Cells でダウンレベルの条件付きコメントが表示されます。これらの条件付きコメントは、主に古いバージョンの Internet Explorer に関連しており、最新の Web ブラウザーには関連していません。それらについては、次のリンクで詳しく読むことができます。
+## **可能な使用シナリオ**
 
-- [条件付きコメント - ダウンレベルで明らかにされた条件付きコメント](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
+ExcelファイルをHTMLに保存すると、Aspose.Cellsが下位レベルの条件付きコメントを公開します。これらの条件付きコメントは主に古いバージョンのInternet Explorerに関連しており、現代のWebブラウザには無関係です。以下のリンクで詳細をご覧いただけます。
 
-Aspose.Cells を設定すると、これらのダウンレベルの公開コメントを削除できます。[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments)プロパティへ**真実**.
+- [条件付きコメント - Downlevel-revealed条件付きコメント](https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment)
 
-## **HTML に保存する際にダウンレベルの公開コメントを無効にする**
+Aspose.Cellsを使用して、[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) プロパティを**true**に設定することで、これらの下位レベルの公開されたコメントを削除できます。
 
-次のサンプル コードは、[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments)財産。スクリーンショットは、このプロパティが true に設定されていない場合の効果を示しています。をダウンロードしてください[サンプル Excel ファイル](50528257.xlsx)このコードと[出力 HTML](50528258.zip)参照用にそれによって生成されます。
+## **HTML への保存時にダウンレベルの表示されたコメントを無効にする**
 
-![todo:画像_代替_文章](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
+[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/disabledownlevelrevealedcomments) プロパティの使用例を示す次のサンプルコードです。このプロパティが true に設定されていない場合のこのプロパティの効果をスクリーンショットで表示しています。このコードとそれによって生成される[サンプルExcelファイル](50528257.xlsx)および[出力HTML](50528258.zip)を参照してください。
+
+![todo:image_alt_text](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
 
 ## **サンプルコード**
 

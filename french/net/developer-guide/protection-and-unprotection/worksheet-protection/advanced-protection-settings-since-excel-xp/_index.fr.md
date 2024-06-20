@@ -1,67 +1,68 @@
-﻿---
-title: Paramètres de protection avancés depuis Excel XP
+---
+title: Paramètres de protection avancée depuis Excel XP
 type: docs
 weight: 30
 url: /fr/net/advanced-protection-settings-since-excel-xp/
 ---
+
 {{% alert color="primary" %}}
 
-Depuis la sortie d'Excel 2002 ou XP, Microsoft a ajouté de nombreux paramètres de protection avancés.
+Depuis la publication d'Excel 2002 ou XP, Microsoft a ajouté de nombreux paramètres de protection avancés.
 
 {{% /alert %}}
 
 ## **Introduction**
 
-Ces paramètres de protection limitent ou autorisent les utilisateurs à :
+Ces paramètres de protection restreignent ou permettent aux utilisateurs de:
 
 - Supprimer des lignes ou des colonnes.
-- Modifiez des contenus, des objets ou des scénarios.
-- Mettre en forme les cellules, les lignes ou les colonnes.
-- Insérez des lignes, des colonnes ou des hyperliens.
-- Sélectionnez les cellules verrouillées ou déverrouillées.
-- Utilisez des tableaux croisés dynamiques et bien plus encore.
+- Modifier le contenu, les objets ou les scénarios.
+- Formater les cellules, les lignes ou les colonnes.
+- Insérer des lignes, des colonnes ou des hyperliens.
+- Sélectionner des cellules verrouillées ou déverrouillées.
+- Utiliser des tableaux croisés dynamiques et bien plus encore.
 
 Aspose.Cells prend en charge tous les paramètres de protection avancés offerts par Excel XP ou les versions ultérieures.
 
-### **Paramètres de protection avancés à l'aide d'Excel XP et des versions ultérieures**
+### **Paramètres de protection avancés utilisant Excel XP et les versions ultérieures**
 
-Pour afficher les paramètres de protection disponibles dans Excel XP :
+Pour afficher les paramètres de protection disponibles dans Excel XP :
 
-1.  Du**Outils** menu, sélectionnez**protection** suivie par**Feuille de protection**. Une boîte de dialogue s'affiche.
+1. Dans le menu **Outils**, sélectionnez **Protection** puis **Protéger la feuille**. Une boîte de dialogue s'affiche.
 
 Pour afficher les paramètres de protection disponibles dans Excel 2016
 
-1.  Du**Dossier** menu, sélectionnez**Protéger le classeur** suivie par**Protéger la feuille actuelle**.
-1.  Sélectionnez le**Feuille de protection** dans le**Passer en revue** menu.
+1. Dans le menu **Fichier**, sélectionnez **Protéger le classeur** puis **Protéger la feuille en cours**.
+1. Sélectionnez **Protéger la feuille** dans le menu **Révision**.
 
-En suivant les étapes mentionnées ci-dessus, une boîte de dialogue s'affichera dans laquelle vous pourrez autoriser ou restreindre les fonctionnalités des feuilles de calcul ou appliquer un mot de passe à la feuille de calcul.
+Suivre les étapes mentionnées ci-dessus affichera une boîte de dialogue où vous pourrez autoriser ou restreindre les fonctionnalités des feuilles de calcul ou appliquer un mot de passe à la feuille de calcul.
 
-### **Paramètres de protection avancés à l'aide de Aspose.Cells**
+### **Paramètres de protection avancés utilisant Aspose.Cells**
 
 Aspose.Cells prend en charge tous les paramètres de protection avancés.
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
+Aspose.Cells fournit une classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), qui représente un fichier Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contient une collection [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
 
- Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fournit la[**protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) propriété utilisée pour appliquer ces paramètres de protection avancés. Le[**protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) la propriété est en fait un objet de la[**protection**](https://reference.aspose.com/cells/net/aspose.cells/protection)classe qui encapsule plusieurs propriétés booléennes pour désactiver ou activer des restrictions.
+La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fournit la propriété [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) qui est utilisée pour appliquer ces paramètres de protection avancés. La propriété [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) est en fait un objet de la classe [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/protection) qui encapsule plusieurs propriétés booléennes pour désactiver ou activer des restrictions.
 
-Ci-dessous un petit exemple d'application. Il ouvre un fichier Excel et utilise la plupart des paramètres de protection avancés pris en charge par Excel XP et les versions ultérieures.
+Voici un petit exemple d'application. Il ouvre un fichier Excel et utilise la plupart des paramètres de protection avancés pris en charge par Excel XP et les versions ultérieures.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-AdvancedProtectionSettings-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- S'il vous plaît, n'appelez pas le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe'[**Protéger**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) méthode lors de l'utilisation de la[**protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)la propriété. Enregistrez également le fichier au format Excel97To2003 ou Xlsx, car les paramètres de protection avancés ne sont pris en charge que par Excel XP et les versions ultérieures.
+Veuillez ne pas appeler la méthode [**Protect**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) de la classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) lors de l'utilisation de la propriété [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection). Enregistrez également le fichier au format Excel97To2003 ou Xlsx car les paramètres de protection avancés sont uniquement pris en charge par Excel XP et les versions ultérieures.
 
 {{% /alert %}}
 
-### **Cell Problème de verrouillage**
+### **Problème de verrouillage de cellules**
 
-Si vous souhaitez empêcher les utilisateurs de modifier des cellules, les cellules doivent être verrouillées avant que les paramètres de protection ne soient appliqués. Sinon, les cellules peuvent être modifiées même si la feuille de calcul est protégée. Dans Microsoft Excel XP, les cellules peuvent être verrouillées via la boîte de dialogue suivante :
+Si vous souhaitez empêcher les utilisateurs de modifier des cellules, les cellules doivent être verrouillées avant d'appliquer des paramètres de protection. Sinon, les cellules peuvent être modifiées même si la feuille de calcul est protégée. Dans Microsoft Excel XP, les cellules peuvent être verrouillées via la boîte de dialogue suivante:
 
 |**Boîte de dialogue pour verrouiller les cellules dans Excel XP**|
-|:- |
-|![tâche : image_autre_texte](advanced-protection-settings-since-excel-xp_1.png)|
+| :- |
+|![todo:image_alt_text](advanced-protection-settings-since-excel-xp_1.png)|
 
-Il est également possible de verrouiller les cellules en utilisant le Aspose.Cells API. Chaque cellule peut recevoir[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) formatage contenant une propriété booléenne,[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Met le[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propriété à**vrai** ou alors**faux** pour verrouiller ou déverrouiller la cellule.
+Il est possible de verrouiller des cellules en utilisant l'API Aspose.Cells également. Chaque cellule peut obtenir un formatage qui contient une propriété booléenne, [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked). Définissez la propriété [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) sur **true** ou **false** pour verrouiller ou déverrouiller la cellule.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}

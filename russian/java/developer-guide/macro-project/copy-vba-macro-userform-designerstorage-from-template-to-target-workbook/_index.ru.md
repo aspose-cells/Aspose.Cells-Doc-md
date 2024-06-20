@@ -1,25 +1,26 @@
-﻿---
-title: Скопируйте VBA Macro UserForm DesignerStorage из шаблона в целевую книгу
+---
+title: Копирование макроса VBA UserForm DesignerStorage из шаблона в целевую книгу
 type: docs
 weight: 60
 url: /ru/java/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/
 ---
+
 ## **Возможные сценарии использования**
 
-Aspose.Cells позволяет копировать проект VBA из одного файла Excel в другой файл Excel. Проект VBA состоит из различных типов модулей, т. е. документов, процедурных, конструкторов и т. д. Все модули можно скопировать с помощью простого кода, но для модуля конструктора есть некоторые дополнительные данные, называемые хранилищем конструктора, к которым необходимо получить доступ или скопировать. Следующие два метода относятся к Designer Storage.
+Aspose.Cells позволяет скопировать проект VBA из одного файла Excel в другой файл Excel. Проект VBA состоит из различных типов модулей, таких как Документ, Процедурный, Дизайнер и т.д. Все модули могут быть скопированы с помощью простого кода, но для модуля Дизайнера есть дополнительные данные, называемые Хранилищем дизайнера. Следующие два метода работают с Хранилищем дизайнера.
 
 - [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String))
 - [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[]))
 
-## **Скопируйте VBA Macro UserForm DesignerStorage из шаблона в целевую книгу**
+## **Копирование макроса VBA UserForm DesignerStorage из шаблона в целевую книгу**
 
-См. следующий пример кода. Он копирует проект VBA из[шаблон файла Excel](50528367.xlsm)в пустую книгу и сохраняет ее как[выходной файл Excel](50528366.xlsm). Если вы откроете проект VBA внутри файла шаблона Excel, вы увидите форму пользователя, как показано ниже. Пользовательская форма состоит из Designer Storage, поэтому она будет скопирована с помощью[**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)) и[**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[])) методы.
+Пожалуйста, ознакомьтесь с приведенным ниже образцом кода. Он копирует проект VBA из [шаблонного файла Excel](50528367.xlsm) в пустую книгу и сохраняет его как [выходной файл Excel](50528366.xlsm). Если вы откроете проект VBA внутри шаблонного файла Excel, вы увидите пользовательскую форму, как показано ниже. Пользовательская форма состоит из дизайнерского хранилища, поэтому она будет скопирована с использованием методов [**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)) и [**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[])).
 
-![дело:изображение_альтернативный_текст](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
+![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
 
-На следующем снимке экрана показан выходной файл Excel и его содержимое, скопированное из файла шаблона Excel. Когда вы нажимаете кнопку 1, она открывает форму пользователя VBA, которая сама имеет командную кнопку, которая показывает окно сообщения при нажатии.
+На следующем скриншоте показан файл Excel вывода и его содержимое, которое было скопировано из файла Excel-шаблона. При нажатии на Кнопку 1, открывается VBA User Form, который сам имеет кнопку команды, открывающую диалоговое окно при нажатии.
 
-![дело:изображение_альтернативный_текст](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
+![todo:image_alt_text](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
 
 ## **Образец кода**
 

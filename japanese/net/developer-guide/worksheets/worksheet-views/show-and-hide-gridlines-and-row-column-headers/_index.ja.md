@@ -1,58 +1,59 @@
-﻿---
-title: グリッド線と行の列ヘッダーの表示と非表示
+---
+title: グリッド線と行列ヘッダーの表示および非表示
 type: docs
 weight: 30
 url: /ja/net/show-and-hide-gridlines-and-row-column-headers/
-description: この記事では、C# API または .NET ライブラリを使用して、Excel ワークシートのグリッド線、行ヘッダー、列ヘッダーをプログラムで非表示または表示するためのサンプル コードを提供します。
+description: この記事では、C# APIまたは.NETライブラリを使用してExcelワークシートのグリッド線、行、列のヘッダーをプログラムで非表示または表示するサンプルコードを提供しています。
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells は、デフォルトで表示されるワークシートのグリッド線の表示と非表示をサポートします。また、ワークシートの行列ヘッダーの可視性を制御することもできます。
+Aspose.Cellsは、デフォルトで表示されているワークシートのグリッド線の非表示および表示をサポートしています。また、ワークシートの行列ヘッダーの表示を制御する機能も提供しています。
 
 {{% /alert %}}
 
 ## **グリッド線の表示と非表示**
 
-すべての Excel ワークシートには、既定でグリッド線があります。特定のセルにデータを簡単に入力できるように、セルの輪郭を描くのに役立ちます。グリッド線を使用すると、ワークシートをセルのコレクションとして表示でき、各セルを簡単に識別できます。
+すべてのExcelワークシートはデフォルトでグリッド線を持っています。これにより、特定のセルにデータを入力することが簡単になります。グリッド線により、ワークシートをセルのコレクションとして表示し、各セルを簡単に識別することができます。
 
-### **グリッド線の可視性の制御**
+### **グリッド線の表示の制御**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)、Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)開発者が Excel ファイル内の各ワークシートにアクセスできるようにするコレクション。ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。グリッド線の可視性を制御するには、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)財産。[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)ブール型のプロパティです。つまり、格納できるのは**真実**また**間違い**価値。
+Aspose.Cellsでは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスが提供されています。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスにはExcelファイル内の各ワークシートにアクセスできる[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティやメソッドが提供されています。グリッド線の表示を制御するには、[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)プロパティを使用します。[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)は真偽値プロパティであり、**true**または**false**の値のみを格納できます。
 
 #### **グリッド線を表示する**
 
-を設定して、グリッド線を表示します。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)プロパティへ**真実**.
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)プロパティを**true**に設定することでグリッド線を表示します。
 
 #### **グリッド線を非表示にする**
 
-を設定してグリッド線を非表示にします。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)プロパティへ**間違い**.
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)プロパティを**false**に設定することでグリッド線を非表示にします。
 
-の使用を示す完全な例を以下に示します。[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)Excel ファイル (book1.xls) を開き、最初のワークシートのグリッド線を非表示にして、変更したファイルを output.xls として保存します。
+以下に完全な例が示されており、[**IsGridlinesVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)のプロパティを使用して、Excelファイル（book1.xls）を開き、最初のワークシートでグリッド線を非表示にし、変更されたファイルをoutput.xlsとして保存する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideGridlines-1.cs" >}}
 
-## **行の列ヘッダーの表示と非表示**
+## **行列ヘッダーの表示および非表示**
 
-Excel ファイル内のすべてのワークシートは、行と列に配置されたセルで構成されています。すべての行と列には、それらを識別し、個々のセルを識別するために使用される一意の値があります。たとえば、行には 1、2、3、4 などの番号が付けられ、列は A、B、C、D などのアルファベット順に並べられます。行と列の値はヘッダーに表示されます。開発者は、Aspose.Cells を使用して、これらの行と列のヘッダーの表示を制御できます。
+Excelファイルのすべてのワークシートは、行と列で配置されたセルから構成されています。すべての行と列には、それぞれユニークな値があり、行と列、また個々のセルを識別するために使用されます。たとえば、行には数字が付いています- 1、2、3、4など- そして列はアルファベット順に並んでいます- A、B、C、Dなど- 行と列の値はヘッダーに表示されます。Aspose.Cellsを使用すると、これらの行列ヘッダーの表示を制御することができます。
 
-### **ワークシートの表示の制御**
+### **ワークシートの表示を制御する**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)、Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)開発者が Excel ファイル内の各ワークシートにアクセスできるようにするコレクション。ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスには、ワークシートを管理するためのさまざまなプロパティとメソッドが用意されています。行ヘッダーと列ヘッダーの表示を制御するには、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)財産。[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)ブール型のプロパティです。つまり、格納できるのは**真実**また**間違い**価値。
+Aspose.Cellsでは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスが提供されています。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスにはExcelファイル内の各ワークシートにアクセスできる[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスで表されます。[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスは、ワークシートを管理するための幅広いプロパティやメソッドが提供されています。行と列のヘッダーの表示を制御するには、[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)プロパティを使用します。[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)は真偽値プロパティであり、**true**または**false**の値のみを格納できます。
 
 #### **行/列ヘッダーを表示する**
 
-を設定して、行と列のヘッダーを表示します。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)プロパティへ**真実**.
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)プロパティを**true**に設定することで行と列のヘッダーを表示します。
 
-#### **行/列ヘッダーの非表示**
+#### **行/列ヘッダーを非表示にする**
 
-を設定して、行と列のヘッダーを非表示にします。[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)プロパティへ**間違い**.
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスの[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)プロパティを**false**に設定することで行と列のヘッダーを非表示にします。
 
-の使用方法を示す完全な例を以下に示します。[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)Excel ファイル (book1.xls) を開き、最初のワークシートの行ヘッダーと列ヘッダーを非表示にして、変更したファイルを output.xls として保存します。
+以下に完全な例が示されており、[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)のプロパティを使用して、Excelファイル（book1.xls）を開き、最初のワークシートで行と列のヘッダーを非表示にし、変更されたファイルをoutput.xlsとして保存する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-DisplayHideRowColumnHeaders-1.cs" >}}
 
 {{% alert color="primary" %}}
 
-を使用することも可能です[**再表示行**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows)と[**非表示の列**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)のメソッド[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)複数の行と列を表示するためのクラス。
+また、[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)クラスの[**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows)メソッドと[**UnhideColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)メソッドを使用して、複数の行と列を表示したり非表示にしたりすることも可能です。
 
 {{% /alert %}}

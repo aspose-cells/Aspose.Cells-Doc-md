@@ -1,98 +1,99 @@
-﻿---
-title: Gestión de propiedades de documentos
+---
+title: Gestión de Propiedades del Documento
 type: docs
 weight: 10
 url: /es/java/managing-document-properties/
 ---
+
 ## **Introducción**
 
-Microsoft Excel ofrece la posibilidad de agregar propiedades a los archivos de hojas de cálculo. Estas propiedades del documento brindan información útil y se dividen en 2 categorías, como se detalla a continuación.
+Microsoft Excel proporciona la capacidad de agregar propiedades a los archivos de hojas de cálculo. Estas propiedades del documento proporcionan información útil y se dividen en 2 categorías como se detalla a continuación.
 
-- Propiedades definidas por el sistema (integradas): las propiedades integradas contienen información general sobre el documento, como el título del documento, el nombre del autor, las estadísticas del documento, etc.
-- Propiedades definidas por el usuario (personalizadas): propiedades personalizadas definidas por el usuario final en forma de par nombre-valor.
+- Propiedades predeterminadas del sistema (integradas): Las propiedades integradas contienen información general sobre el documento, como el título del documento, el nombre del autor, estadísticas del documento, entre otros.
+- Propiedades definidas por el usuario (personalizadas): Propiedades personalizadas definidas por el usuario final en forma de par nombre-valor.
 
 {{% alert color="primary" %}}
 
-El punto más importante que debe conocer acerca de las propiedades integradas y personalizadas es que se puede acceder a las propiedades integradas y modificarlas, pero no se pueden crear ni eliminar; sin embargo, se pueden crear y administrar las propiedades personalizadas de los documentos.
+El punto más importante a tener en cuenta sobre las propiedades incorporadas y personalizadas es que las propiedades incorporadas pueden ser accedidas y modificadas, pero no pueden ser creadas o eliminadas, sin embargo, las propiedades de documento personalizadas pueden ser creadas y gestionadas.
 
 {{% /alert %}}
 
-## **Administrar las propiedades del documento usando Microsoft Excel**
+## **Gestión de Propiedades del Documento Utilizando Microsoft Excel**
 
- Microsoft Excel permite administrar las propiedades de los documentos de los archivos de Excel de manera WYSIWYG. Siga los pasos a continuación para abrir el**Propiedades** cuadro de diálogo en Excel 2016.
+Microsoft Excel permite gestionar las propiedades del documento de los archivos de Excel de manera WYSIWYG. Sigue los siguientes pasos para abrir el diálogo de **Propiedades** en Excel 2016.
 
-1.  Desde el**Archivo** menú, seleccione**Información**.
+1. Desde el menú **Archivo**, seleccione **Información**.
 
-|**Selección del menú de información**|
-|:- |
-|![todo:imagen_alternativa_texto](managing-document-properties_1.png)|
-1.  Haga clic en**Propiedades**encabezado y seleccione "Propiedades avanzadas".
+|**Seleccionar menú Información**|
+| :- |
+|![todo:image_alt_text](managing-document-properties_1.png)|
+1. Haga clic en el encabezado **Propiedades** y seleccione "Propiedades avanzadas".
 
-|**Hacer clic en Selección de propiedades avanzadas**|
-|:- |
-|![todo:imagen_alternativa_texto](managing-document-properties_2.png)|
+|**Haciendo clic en la selección de Propiedades avanzadas**|
+| :- |
+|![todo:image_alt_text](managing-document-properties_2.png)|
 1. Administre las propiedades del documento del archivo.
 
-|**Diálogo de propiedades**|
-|:- |
-|![todo:imagen_alternativa_texto](managing-document-properties_3.png)|
-En el cuadro de diálogo Propiedades, hay diferentes pestañas, como General, Resumen, Estadísticas, Contenido y Aduanas. Cada pestaña ayuda a configurar diferentes tipos de información relacionada con el archivo. La pestaña Personalizado se utiliza para administrar las propiedades personalizadas.
+|**Cuadro de propiedades**|
+| :- |
+|![todo:image_alt_text](managing-document-properties_3.png)|
+En el cuadro de propiedades, hay pestañas diferentes, como General, Resumen, Estadísticas, Contenidos y Aduanas. Cada pestaña ayuda a configurar diferentes tipos de información relacionada con el archivo. La pestaña Aduanas se usa para gestionar propiedades personalizadas.
 
-## **Trabajar con propiedades de documentos usando Aspose.Cells**
+## **Trabajando con las propiedades del documento usando Aspose.Cells**
 
-Los desarrolladores pueden administrar dinámicamente las propiedades del documento utilizando las API Aspose.Cells. Esta función ayuda a los desarrolladores a almacenar información útil junto con el archivo, como cuándo se recibió, procesó, marcó la hora, etc.
+Los desarrolladores pueden gestionar dinámicamente las propiedades del documento usando las APIs de Aspose.Cells. Esta característica ayuda a los desarrolladores a almacenar información útil junto con el archivo, como cuándo se recibió el archivo, se procesó, se marcó con la hora, y así sucesivamente.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java escribe directamente la información sobre API y el número de versión en los documentos de salida. Por ejemplo, al renderizar Documento a PDF, Aspose.Cells for Java se rellena**Solicitud** campo con valor 'Aspose.Cells' y**PDF Productor** campo con el valor, por ejemplo, 'Aspose.Cells for Java v17.9'.
+Aspose.Cells for Java escribe directamente la información sobre la API y el número de versión en los documentos de salida. Por ejemplo, al representar un documento a PDF, Aspose.Cells for Java rellena el campo **Aplicación** con el valor 'Aspose.Cells' y el campo **Productor de PDF** con el valor, por ejemplo, 'Aspose.Cells for Java v17.9'.
 
-Tenga en cuenta que no puede indicar al Aspose.Cells for Java que cambie o elimine esta información de los documentos de salida.
+Tenga en cuenta que no puede instruir a Aspose.Cells for Java para cambiar o eliminar esta información de los Documentos de salida.
 
 {{% /alert %}}
 
-### **Acceso a las propiedades del documento**
+### **Accediendo a las propiedades del documento**
 
-Aspose.Cells Las API admiten ambos tipos de propiedades de documentos, integradas y personalizadas. Aspose.Cells'[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) clase representa un archivo de Excel y, como un archivo de Excel, el[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) La clase puede contener varias hojas de trabajo, cada una representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) mientras que la colección de hojas de trabajo está representada por el[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)clase.
+Las APIs de Aspose.Cells admiten tanto tipos de propiedades de documentos integrados como personalizados. La clase [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) de Aspose.Cells representa un archivo de Excel y, al igual que un archivo de Excel, la clase [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) puede contener múltiples hojas de cálculo, cada uno representado por la clase [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet), mientras que la colección de hojas de cálculo es representada por la clase [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection).
 
- Utilizar el[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)para acceder a las propiedades del documento del archivo como se describe a continuación.
+Utilice el [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) para acceder a las propiedades del documento del archivo como se describe a continuación.
 
--  Para acceder a las propiedades del documento incorporado, utilice[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#BuiltInDocumentProperties).
--  Para acceder a las propiedades del documento personalizado, use el[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#CustomDocumentProperties).
+- Para acceder a las propiedades de documento integradas, use [**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#BuiltInDocumentProperties).
+- Para acceder a propiedades de documento personalizadas, utiliza el [**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#CustomDocumentProperties).
 
- Ambos[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#BuiltInDocumentProperties) y[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#CustomDocumentProperties) devolver una instancia de[**DocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentPropertyCollection) . Esta colección contiene[**DocumentoPropiedad**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)objetos, cada uno de los cuales representa una única propiedad de documento integrada o personalizada.
+Tanto el [**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#BuiltInDocumentProperties) como el [**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#CustomDocumentProperties) devuelven una instancia de [**DocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentPropertyCollection). Esta colección contiene objetos [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty), cada uno de los cuales representa una única propiedad de documento incorporada o personalizada.
 
- Queda a criterio de la solicitud cómo acceder a un inmueble, es decir; utilizando el índice o el nombre de la propiedad de la[**DocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentPropertyCollection)como se demuestra en el siguiente ejemplo.
+Depende de los requisitos de la aplicación cómo acceder a una propiedad, es decir; utilizando el índice o el nombre de la propiedad de [**DocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentPropertyCollection) como se demuestra en el ejemplo a continuación.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AccessingDocumentProperties.java" >}}
 
- Él[**DocumentoPropiedad**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)class permite recuperar el nombre, valor y tipo de la propiedad del documento:
+La clase [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty) permite recuperar el nombre, valor y tipo de la propiedad del documento:
 
--  Para obtener el nombre de la propiedad, utilice[**DocumentoPropiedad.Nombre**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Name).
--  Para obtener el valor de la propiedad, utilice[**DocumentoPropiedad.Valor**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Value). [**DocumentoPropiedad.Valor**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Value)devuelve el valor como un objeto.
--  Para obtener el tipo de propiedad, use[**DocumentProperty.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Type) . Esto devuelve uno de los[**Tipo de propiedad**](https://reference.aspose.com/cells/java/com.aspose.cells/PropertyType)valores de enumeración.
+- Para obtener el nombre de la propiedad, use [**DocumentProperty.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Name).
+- Para obtener el valor de la propiedad, use [**DocumentProperty.Value**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Value). [**DocumentProperty.Value**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Value) devuelve el valor como un Objeto.
+- Para obtener el tipo de propiedad, use [**DocumentProperty.Type**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Type). Esto devuelve uno de los valores de enumeración [**PropertyType**](https://reference.aspose.com/cells/java/com.aspose.cells/PropertyType).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AccessingDocumentPropertyValue.java" >}}
 
-### **Adición o eliminación de propiedades de documentos personalizados**
+### **Agregar o Quitar Propiedades de Documentos Personalizadas**
 
-Como describimos anteriormente al comienzo de este tema, los desarrolladores no pueden agregar o quitar propiedades integradas porque estas propiedades están definidas por el sistema, pero es posible agregar o quitar propiedades personalizadas porque están definidas por el usuario.
+Como hemos descrito anteriormente al principio de este tema, los desarrolladores no pueden agregar o eliminar propiedades integradas porque estas propiedades están definidas por el sistema, pero es posible agregar o eliminar propiedades personalizadas porque estas son definidas por el usuario.
 
-### **Adición de propiedades personalizadas**
+### **Agregar Propiedades Personalizadas**
 
- Aspose.Cells Las API han expuesto el[**agregar**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) método para el[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) class para agregar propiedades personalizadas a la colección. Él[**agregar**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) agrega la propiedad al archivo de Excel y devuelve una referencia para la propiedad del nuevo documento como un[**DocumentoPropiedad**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)objeto.
+Las APIs de Aspose.Cells han expuesto el método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) para la clase [**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) con el fin de agregar propiedades personalizadas a la colección. El método [**add**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean)) agrega la propiedad al archivo de Excel y devuelve una referencia para la nueva propiedad del documento como un objeto [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
-### **Configuración de la propiedad personalizada "Enlace al contenido"**
+### **Configurar la Propiedad Personalizada “Vincular al Contenido”**
 
- Para crear una propiedad personalizada vinculada al contenido de un rango determinado, llame al[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) ) método y pase el nombre de la propiedad y la fuente. Puede comprobar si una propiedad está configurada como vinculada a contenido utilizando el[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) propiedad. Además, también es posible obtener el rango de fuente usando el[**Fuente**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) propiedad de la[**DocumentoPropiedad**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)clase.
+Para crear una propiedad personalizada vinculada al contenido de un rango dado, llame al método [**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String)) y pase el nombre de la propiedad y la fuente. Puede verificar si una propiedad está configurada como vinculada con el contenido usando la propiedad [**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent). Además, también es posible obtener el rango de origen utilizando la propiedad [**Source**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) de la clase [**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)
 
- Usamos una plantilla simple Microsoft archivo de Excel en el ejemplo. El libro de trabajo tiene un rango con nombre definido etiquetado**MiRango** que se refiere a un valor de celda.
+Utilizamos un archivo de plantilla simple de Microsoft Excel en el ejemplo. El libro de trabajo tiene un rango con nombre definido etiquetado como **MiRango** que se refiere a un valor de celda.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConfiguringLinkToContentCustomProperty.java" >}}
 
-### **Eliminación de propiedades personalizadas**
+### **Eliminar Propiedades Personalizadas**
 
- Para eliminar propiedades personalizadas usando Aspose.Cells, llame al[**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove(java.lang.String)) y pase el nombre de la propiedad del documento que se eliminará.
+Para eliminar propiedades personalizadas mediante Aspose.Cells, llame al método [**DocumentPropertyCollection.remove**](https://reference.aspose.com/cells/java/com.aspose.cells/documentpropertycollection#remove(java.lang.String)) y pase el nombre de la propiedad del documento que se va a eliminar.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-RemovingCustomProperty.java" >}}

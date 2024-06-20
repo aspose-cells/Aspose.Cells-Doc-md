@@ -1,4 +1,4 @@
-﻿---
+---
 title: مقدمة
 type: docs
 weight: 10

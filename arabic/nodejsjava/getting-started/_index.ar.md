@@ -1,34 +1,35 @@
-﻿---
-title: ابدء
+---
+title: البدء
 type: docs
 weight: 5
 url: /ar/nodejs-java/getting-started/
-keywords: nodejs, excel, instal
-description: الإعداد Aspose.Cells for Node.js via Java وإرشادات التثبيت
+keywords: "nodejs, excel, install"
+description: "إعداد Aspose.Cells لـ Node.js via Java وإرشادات التثبيت."
 ---
+
 ## **متطلبات النظام**
- Aspose.Cells for Node.js via Java مستقل عن النظام الأساسي API ويمكن استخدامه على أي منصة (Windows و Linux و MacOS) حيث[Node.js](https://nodejs.org/en/download/) و[عقدة جافا](https://github.com/joeferner/node-java)يتم تثبيت الجسر. يجب أن يحتوي الجهاز على Oracle JDK 7 أو إصدارات أحدث قبل إعداد التثبيت.
+Aspose.Cells for Node.js via Java هو واجهة برمجية مستقلة عن المنصة ويمكن استخدامها على أي منصة (Windows، Linux و MacOS) حيث تم تثبيت [Node.js](https://nodejs.org/en/download/) وجسر [node-java](https://github.com/joeferner/node-java). يجب أن يكون لديك Oracle JDK بإصدار 7 أو أحدث قبل تثبيت التطبيق.
 ## **التثبيت من NPM**
- يمكنك بسهولة استخدام Aspose.Cells for Node.js via Java من[NPM](https://www.npmjs.com/package/aspose.cells) بالأمر التالي.
-{{< highlight "java" >}}
+يمكنك استخدام Aspose.Cells for Node.js via Java بسهولة من [NPM](https://www.npmjs.com/package/aspose.cells) باستخدام الأمر التالي.
+{{< highlight java >}}
 
  $ npm install aspose.cells
 
 {{< /highlight >}}
 
-إذا واجهت أي مشاكل أثناء عملية التثبيت ، فيرجى الرجوع إلى https://www.npmjs.com/package/java.
+إذا واجهت أي مشاكل أثناء عملية التثبيت، يرجى الرجوع إلى https://www.npmjs.com/package/java.
 
 ## **التثبيت من أرشيف ZIP**
-لتثبيت واستخدام Aspose.Cells for Node.js via Java من أرشيف ZIP ، اتبع الإرشادات التالية:
-### **لينكس:**
--  تنزيل وتثبيت[Node.js](https://nodejs.org/en/download/).
-- قم بتثبيت Oracle JDK (1.7 أو 1.8) لنظام Linux ، قم بتكوين متغير بيئة JAVA_HOME.
-- قم بتثبيت python 2.x.
--  ثَبَّتَ[عقدة جافا](https://github.com/joeferner/node-java) كوبري. يمكنك تشغيل الأوامر أدناه @ terminal:
+لتثبيت واستخدام Aspose.Cells for Node.js via Java من أرشيف ZIP، اتبع التعليمات التالية:
+### **Linux:**
+- قم بتنزيل وتثبيت [Node.js](https://nodejs.org/en/download/).
+- قم بتثبيت Oracle JDK (1.7 أو 1.8) لنظام Linux، وقم بتكوين متغير البيئة JAVA_HOME.
+- قم بتثبيت python 2.x
+- قم بتثبيت [node-java](https://github.com/joeferner/node-java) bridge. يمكنك تشغيل الأوامر التالية في الطرفية: 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  $ mkdir aspose.cells.js.java
 
@@ -40,10 +41,10 @@ $ npm install java
 
 
 
-- قم بتنزيل "Aspose.Cells for Node.js via Java" واستخرجه في "aspose.cells.js.java/node_modules".
-- قم بإنشاء ملف اختبار باسم**مرحبًا**باستخدام نموذج التعليمات البرمجية التالي في مجلد "aspose.cells.js.java":
+- قم بتنزيل "Aspose.Cells for Node.js via Java" واستخراجه في "aspose.cells.js.java/node_modules".
+- أنشئ ملف اختبار بالاسم **hello.js** باستخدام الكود النموذجي التالي في مجلد "aspose.cells.js.java":
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  var aspose = aspose || {};
 
@@ -59,17 +60,17 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- الآن قم بتشغيل "node hello.js" موجه الأوامر @ لتشغيله.
+- الآن قم بتشغيل "node hello.js" في سطر الأوامر لتشغيله.
 ### **Windows:**
-- قم بتثبيت Oracle JDK8 وتكوين متغير بيئة JAVA_HOME.
-- قم بتثبيت Node.js وإضافة node.exe إلى PATH.
-- تثبيت node-gyp.
-- قم بتثبيت Windows Build Tools.
--  ثَبَّتَ[جسر عقدة جافا](https://www.npmjs.com/package/java) وقم بتشغيل أوامر @ موجه الأوامر أدناه كمسؤول:
+- قم بتثبيت Oracle JDK8 وقم بتكوين متغير البيئة JAVA_HOME.
+- قم بتثبيت Node.js وأضف node.exe إلى المسار.
+- قم بتثبيت node-gyp.
+- قم بتثبيت أدوات بناء Windows.
+- قم بتثبيت [جسر node-java](https://www.npmjs.com/package/java) وتشغيل الأوامر التالية في سطر الأوامر كمسؤول:
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  > mkdir aspose.cells.js.java
 
@@ -83,10 +84,10 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- قم بتنزيل "Aspose.Cells for Node.js via Java" واستخرجه في "aspose.cells.js.java/node_modules".
--  قم بإنشاء ملف باسم**مرحبًا**في مجلد "aspose.cells.js.java" باستخدام نموذج التعليمات البرمجية التالي:
+- قم بتنزيل "Aspose.Cells for Node.js via Java" واستخراجه في "aspose.cells.js.java/node_modules".
+- قم بإنشاء ملف بالاسم **hello.js** في مجلد "aspose.cells.js.java" باستخدام رمز العينة التالي:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  var aspose = aspose || {};
 
@@ -102,15 +103,15 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- الآن قم بتشغيل "node hello.js" موجه الأوامر @ لتشغيله.
-### **ماك:**
+- الآن قم بتشغيل "node hello.js" في سطر الأوامر لتشغيله.
+### **Mac:**
 - قم بتنزيل وتثبيت Node.js ([*https://nodejs.org/en/download/*](https://nodejs.org/en/download/))
-- قم بتثبيت Oracle JDK 1.8 (موصى به) لنظام التشغيل Mac ، قم بتكوين متغير بيئة JAVA_HOME.
--  يُعدِّل<key>قدرات JVM</key> قسم في "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk / المحتويات / Info.plist "بامتياز الجذر. (" jdk1.8.0_152.jdk "يعتمد على إصدار jdk الخاص بك) ، اجعله يبدو كما يلي:
+- قم بتثبيت Oracle JDK 1.8 (الموصى به) لنظام Mac، قم بتكوين متغير البيئة JAVA_HOME.
+- Modify <key>قدرات JVM</key> section in "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Info.plist" with root privilege. ("jdk1.8.0_152.jdk" depends on your jdk version), make it looks like following:
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <key>JavaVM</key>
 
@@ -132,21 +133,21 @@ console.log("hello world");
 
 
 
-- قم بتثبيت python 2.x (إذا لم يكن مثبتًا).
-- تثبيت جسر عقدة جافا. يمكنك تشغيل الأوامر أدناه @ terminal:
+- قم بتثبيت python 2.x (إذا لم يكن مثبتًا بالفعل).
+- قم بتثبيت جسر node-java. يمكنك تشغيل الأوامر التالية في التيرمينال:
 
-`         ` $ mkdir aspose.cells.js.java
+`         `$ mkdir aspose.cells.js.java
 
-`         ` $ cd aspose.cells.js.java
+`         `$ cd aspose.cells.js.java
 
-`         ` $ npm تثبيت جافا
+`         `$ npm install java
 
-- قم بتنزيل "Aspose.Cells for Node.js via Java" واستخرجه في "aspose.cells.js.java/node_modules".
--  قم بإنشاء ملف اختبار باسم**مرحبًا** باستخدام نموذج التعليمات البرمجية التالي في مجلد "aspose.cells.js.java":
+- قم بتنزيل "Aspose.Cells for Node.js via Java" واستخراجه في "aspose.cells.js.java/node_modules".
+- قم بإنشاء ملف اختبار بالاسم **hello.js** باستخدام رمز العينة التالي في مجلد "aspose.cells.js.java":
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  var aspose = aspose || {};
 
@@ -162,5 +163,5 @@ console.log("hello world");
 
 {{< /highlight >}}
 
-- الآن قم بتشغيل "node hello.js" موجه الأوامر @ لتشغيله.
+- الآن قم بتشغيل "node hello.js" في سطر الأوامر لتشغيله.
 

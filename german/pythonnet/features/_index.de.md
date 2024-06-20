@@ -1,65 +1,66 @@
-﻿---
-title: Merkmale
+---
+title: Funktionen
 type: docs
 weight: 5
 url: /de/python-net/features/
-keywords: python, excel, api, feature
-description: Aspose.Cells for Python via .NET Merkmale
+keywords: "python, excel, api, merkmale"
+description: "Aspose.Cells for Python via .NET Merkmale."
 ---
+
 {{% alert color="primary" %}} 
 
-Diese Seite fasst die Funktionen von Aspose.Cells for Python via .NET zusammen.
+Diese Seite fasst die Merkmale von Aspose.Cells for Python via .NET zusammen.
 
 {{% /alert %}} 
 ## **Dateiformate und Konvertierungen**
-- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF , JPG, PNG, BMP und SVG.
+- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Komma-getrennte Werte (CSV), HTML, OpenDocument-Tabellenkalkulation (ODS), PDF, Tabstoppgetrennte Werte, reiner Text (TXT) und beliebte Bildformate wie TIFF, JPG, PNG, BMP und SVG.
 ## **Rendern und Drucken**
-- Tabellenkalkulation in Vektorgrafiken rendern (EMF)
-- Arbeitsblätter in Rasterbilder rendern (Multipage TIFF, GIF)
-- Arbeitsblätter in Rasterbilder rendern (PNG, JPEG usw.)
-- Rendern Sie die Tabelle mit hoher Wiedergabetreue auf PDF
-## **Inhaltsfunktionen für Tabellenkalkulationen**
-- Kopieren oder verschieben Sie Arbeitsblätter innerhalb oder zwischen Arbeitsmappen
-- Fügen Sie Bilder ein, erstellen Sie herkömmliche und benutzerdefinierte Diagramme und legen Sie mit API einen Verlaufshintergrund für Diagramme fest
+- Umwandeln von Tabellenkalkulationen in Vektorbilder (EMF)
+- Umwandeln von Arbeitsblättern in Rasterbilder (Mehrseitige TIFF, GIF)
+- Umwandeln von Arbeitsblättern in Rasterbilder (PNG, JPEG, usw.)
+- Umwandeln von Tabellenkalkulationen in PDF mit hoher Genauigkeit
+## **Tabelleninhalt Funktionen**
+- Arbeitsblätter innerhalb oder zwischen Arbeitsmappen kopieren oder verschieben
+- Bilder einfügen, konventionelle und benutzerdefinierte Diagramme erstellen und Verlaufsdiagrammhintergrund mit der API festlegen
 - Kommentare zu Zellen hinzufügen
-- Microsoft Designs und Farben für Excel 2007 und spätere Versionen
-- Erstellen Sie Autofilter
-- Implementieren Sie Datenvalidierungen
+- Microsoft Excel 2007 und spätere Versionen Themen und Farben
+- Automatische Filter erstellen
+- Datenvalidierungen implementieren
 - Datensortierung implementieren
-- Text suchen und ersetzen
-- Cells zusammenführen/aufteilen
-- Zeilen und Spalten gruppieren/Gruppierung aufheben
-- Erstellen Sie benutzerdefinierte Seitenumbrüche
-- Berechnen Sie komplexe Excel-Formeln
-- Unterstützt die erweiterte bedingte Formatierung, die in Microsoft Excel 2007 und späteren Versionen unterstützt wird
-- Bereiche einfrieren/auftauen
-- Fügen Sie Hyperlinks ein, um Daten zu verknüpfen
-- Implementieren Sie intelligente Markierungen
-- Geben Sie Einstellungen für Dokumenteigenschaften an
-- Arbeitsblätter schützen/Schutz aufheben
-- Geben Sie erweiterte Schutzoptionen an, die in Excel XP und späteren Versionen eingeführt wurden
+- Text finden und ersetzen
+- Zellen zusammenführen/teilen
+- Zeilen und Spalten gruppieren/entgruppieren
+- Benutzerdefinierte Seitenumbrüche erstellen
+- Komplexe Excel-Formeln berechnen
+- Unterstützung erweiterter bedingter Formatierung, die in Microsoft Excel 2007 und späteren Versionen unterstützt wird
+- Blattschutz einfrieren/aufheben
+- Hyperlinks einfügen zum Verknüpfen von Daten
+- Smart Marker implementieren
+- Dokumenteigenschaftseinstellungen festlegen
+- Arbeitsblätter schützen/aufheben
+- Erweiterte Schutzeinstellungen festlegen, die in Excel XP und späteren Versionen eingeführt wurden
 - Listenobjekt/Microsoft Excel-Tabellen erstellen
-- Zwischensummen bilden
-- Fügen Sie Formularsteuerelemente und andere Zeichnungsformen/-objekte ein
-- Erstellen Sie Pivot-Tabellen und Pivot-Diagramme
-- Beibehalten oder Entfernen von Add-Ins, VBA und Makros
-- Benannte Bereiche manipulieren
-- Hinzufügen, Beibehalten oder Extrahieren von OLE-Objekten aus den Tabellenkalkulationen.
-- Implementieren Sie Microsoft Excel-Sparklines
-- Dateien verschlüsseln
-## **Formatierungsfunktionen für Tabellenkalkulationen**
-- Wenden Sie alle Zeichenformatierungen in den Zellen an, einschließlich Schriftarten, Farben, Effekte, Rahmen und Schattierungen
-- Wenden Sie alle Zahlenformateinstellungen (unterstützt in Microsoft Excel) für die Zellen an
-- Legen Sie alle Arten von Textausrichtungseinstellungen fest
-- Wenden Sie verschiedene Arten von Schriftarteinstellungen für die Zellen an
-- Wenden Sie verschiedene Farben auf Zellen, Schriftarten, Gitterlinien, Grafikobjekte usw. an.
-- Wenden Sie verschiedene Rich-Text-Formatierungen in einer einzelnen Zelle an
-- Wenden Sie verschiedene Randeinstellungen auf Zellen an
-- Wenden Sie verschiedene Hintergrundmuster auf Zellen an
-- Wenden Sie Formateinstellungen auf ein Arbeitsblatt, eine Zeile, eine Spalte oder einen Zellbereich usw. an.
-## **PageSetup-Funktionen**
-- Passen Sie Ihre Seitenausrichtung, Skalierung und Papiergröße an
-- Geben Sie Ihre Ränder und Seitenzentrierung an
-- Erstellen oder bearbeiten Sie Ihre Kopf- und/oder Fußzeile
-- Legen Sie den Druckbereich fest, drucken Sie Titel oder aktivieren Sie Gitterlinien usw.
+- Zwischenergebnisse erstellen
+- Formularsteuerelemente und andere Zeichenobjekte/Objekte einfügen
+- Erstellen von Pivot-Tabellen und Pivot-Diagrammen
+- Hinzufügen, Entfernen oder Bewahren von Add-Ins, VBA, Makros
+- Verwalten von benannten Bereichen
+- Hinzufügen, Bewahren oder Extrahieren von OLE-Objekten aus den Tabellenkalkulationen
+- Implementieren von Microsoft Excel-Sparklines
+- Verschlüsselung von Dateien
+## **Tabellenkalkulation-Formatierungsfunktionen**
+- Anwenden aller Zeichenformatierungen in den Zellen, einschließlich Schriftarten, Farben, Effekten, Rahmen und Schattierungen
+- Anwenden aller Einstellungen für Zahlenformate (unterstützt in Microsoft Excel) für die Zellen
+- Setzen aller Arten von Textausrichtungseinstellungen
+- Anwenden verschiedener Arten von Schriftarteinstellungen für die Zellen
+- Anwenden verschiedener Farben auf Zellen, Schriftarten, Rasterlinien, Grafikobjekte usw.
+- Anwenden unterschiedlicher Rich-Text-Formatierung in einer einzelnen Zelle
+- Anwenden unterschiedlicher Rahmen-Einstellungen auf Zellen
+- Anwenden unterschiedlicher Hintergrundmuster auf Zellen
+- Anwenden von Formatierungseinstellungen auf ein Arbeitsblatt, eine Zeile, eine Spalte oder einen Bereich von Zellen usw.
+## **Seiteneinrichtungs-Funktionen**
+- Anpassen Ihrer Seitenausrichtung, Skalierung, Papiergröße
+- Festlegen Ihrer Ränder und Seitenzentrierung
+- Erstellen oder Bearbeiten Ihres Kopf- und/oder Fußzeilen
+- Festlegen des Druckbereichs, Drucktitel oder Anzeigen von Rasterlinien usw.
 

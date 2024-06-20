@@ -1,15 +1,16 @@
-﻿---
-title: Создание диаграмм
+---
+title: Создание графиков
 type: docs
 weight: 20
 url: /ru/net/create-charts/
 ---
-## **Aspose.Cells - Создание диаграмм**
-С помощью Aspose.Cells можно добавлять различные диаграммы в электронные таблицы. Aspose.Cells предоставляет множество гибких объектов диаграмм.
+
+## **Aspose.Cells - Создание графиков**
+С помощью Aspose.Cells можно добавить различные виды графиков в электронные таблицы. Aspose.Cells предоставляет множество гибких объектов для построения графиков.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -68,13 +69,13 @@ serieses.Add("A1:B3", true);
 workbook.Save("Chart_Aspose.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Создание диаграмм** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузить **Создание графиков** с любого из указанных ниже сайтов социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Как создать диаграмму](/cells/ru/net/create-charts/).
+Дополнительные сведения см. в разделе [Как создать график](/cells/ru/net/create-charts/).
 
 {{% /alert %}}

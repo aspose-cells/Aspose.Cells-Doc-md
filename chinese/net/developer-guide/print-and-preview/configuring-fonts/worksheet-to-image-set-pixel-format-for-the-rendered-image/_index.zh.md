@@ -1,5 +1,5 @@
 ---
-title: 工作表转图像 - 为渲染的图像设置像素格式
+title: 工作表转图像  为渲染的图像设置像素格式
 type: docs
 weight: 200
 url: /zh/net/worksheet-to-image-set-pixel-format-for-the-rendered-image/

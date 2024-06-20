@@ -1,4 +1,4 @@
-﻿---
+---
 title: إدارة SmartArt
 type: docs
 weight: 100

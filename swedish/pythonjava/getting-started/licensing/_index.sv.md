@@ -1,57 +1,58 @@
-﻿---
+---
 title: Licensiering
 type: docs
 weight: 50
 url: /sv/python-java/licensing/
 ---
+
 {{% alert color="primary" %}} 
 
- Du kan installera en utvärderingsversion av**Aspose.Cells** for Python via Java med `pip install aspose-cells`. Utvärderingsversionen ger absolut samma möjligheter som den licensierade versionen av produkten. Dessutom blir utvärderingsversionen helt enkelt licensierad när du köper en licens och lägger till ett par rader kod för att tillämpa licensen.
+Du kan installera en utvärderingsversion av **Aspose.Cells** för Python via Java med `pip install aspose-cells`. Utvärderingsversionen har exakt samma funktionalitet som den licensierade versionen av produkten. Dessutom blir utvärderingsversionen helt licensierad när du köper en licens och lägger till ett par rader kod för att tillämpa licensen.
 
- När du är nöjd med din utvärdering av**Aspose.Cells** , du kan[köpa en licens](https://purchase.aspose.com)på webbplatsen Aspose. Bekanta dig med de olika prenumerationstyperna som erbjuds. Om du har några frågor, tveka inte att kontakta Aspose säljteamet.
+När du är nöjd med din utvärdering av **Aspose.Cells**, kan du [köpa en licens](https://purchase.aspose.com) på Aspose-webbplatsen. Bli bekant med de olika prenumerationstyperna som erbjuds. Om du har några frågor, tveka inte att kontakta Aspose-försäljningsteamet.
 
-Varje Aspose-licens innehåller en ettårsprenumeration för gratis uppgraderingar till alla nya versioner eller korrigeringar som kommer ut under denna tid. Teknisk support är gratis och obegränsad och tillhandahålls både till licensierade användare och utvärderingsanvändare.
+Varje Aspose-licens har ett års prenumeration för gratis uppgraderingar till alla nya versioner eller fixar som kommer ut under denna tid. Teknisk support är gratis och obegränsad och tillhandahålls både till licensierade och utvärderingsanvändare.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Om du vill testa**Aspose.Cells** utan begränsningar i utvärderingsversionen, begär en 30-dagars tillfällig licens. Vänligen hänvisa till[Hur får man en tillfällig licens?](https://purchase.aspose.com/temporary-license) för mer information.
+Om du vill testa **Aspose.Cells** utan begränsningar i utvärderingsversionen, begär en 30-dagars tillfällig licens. Vänligen se [Hur man får en tillfällig licens?](https://purchase.aspose.com/temporary-license) för mer information.
 
 {{% /alert %}}
 
-## **Begränsningar för utvärderingsversion**
+## **Begränsningar för utvärderingsversionen**
 
- Utvärderingsversion av**Aspose.Cells** produkt (utan angiven licens) ger full produktfunktionalitet, men den är begränsad till att öppna 100 filer i ett program och ett extra kalkylblad med utvärderingsvattenstämpel.
+Utvärderingsversion av **Aspose.Cells**-produkten (utan specificerad licens) tillhandahåller full produktfunktionalitet, men är begränsad till att öppna 100 filer i ett program och en extra arbetsbok med utvärderingsvattenstämpel.
 
 Begränsningarna visas nedan:
 
-### **Första begränsningen: Antal öppnade filer**
+### **1: a Begränsning: Antal öppnade filer**
 
-När du kör ditt program kan du bara öppna 100 Excel-filer. Om din ansökan överstiger detta antal kommer ett undantag att kastas.
+Vid körning av ditt program kan du endast öppna 100 Excel-filer. Om din applikation överskrider detta antal kommer ett undantag kastas.
 
-### **2:a begränsningen: Arbetsblad med utvärderingsvattenstämpel**
+### **2: a Begränsning: Arbetsbok med utvärderingsvattenstämpel**
 
 ![todo:image_alt_text](licensing_1.png)
 
-Detta kalkylblad kommer alltid att visas som det aktiva kalkylbladet. Endast i licensierad version kan du ställa in det aktiva kalkylbladet till andra kalkylblad.
+Denna arbetsbok kommer alltid att visas som aktiv arbetsbok. Endast i licensierad version kan du ange den aktiva arbetsboken till andra arbetsböcker.
 
-## **Ställa in en licens**
+## **Inställning av en licens**
 
-Licensen är en XML-fil i vanlig text som innehåller detaljer som produktnamn, antal utvecklare den är licensierad till, prenumerationsutgångsdatum och så vidare. Filen är digitalt signerad, så ändra inte filen; även ett oavsiktligt tillägg av en extra radbrytning i filen kommer att ogiltigförklara den.
+Licensen är en vanlig text XML-fil som innehåller detaljer som produktens namn, antalet utvecklare den är licensierad till, prenumerations utgångsdatum och så vidare. Filen är digitalt signerad, så ändra inte filen; även det oavsiktliga tillskottet av en extra radbrytning i filen kommer ogiltigförklara den.
 
-Du måste ställa in en licens innan du använder Aspose.Cells om du vill undvika dess utvärderingsbegränsningar. Du behöver bara ange en licens en gång per ansökan eller process.
+Du behöver aktivera en licens innan du använder Aspose.Cells om du vill undvika dess utvärderingsbegränsningar. Du behöver bara aktivera en licens en gång per applikation eller process.
 
 Licensen kan laddas från en fil på följande platser:
 
-1. Explicit väg.
+1. Explicit sökväg.
 1. Arbetsmapp.
 
- Använd[License.setLicense](https://reference.aspose.com/cells/python-java/asposecells.api/License) metod för att licensiera komponenten. Ofta är det enklaste sättet att ställa in en licens att lägga licensfilen i samma mapp som Aspose.Cells.jar och ange bara filnamnet utan sökväg som visas i följande exempel:
+Använd metoden [License.setLicense](https://reference.aspose.com/cells/python-java/asposecells.api/License) för att licensiera komponenten. Ofta är det enklaste sättet att ange en licens att placera licensfilen i samma mapp som Aspose.Cells.jar och ange bara filnamnet utan sökväg enligt följande exempel:
 
 ### **Exempel**
 
- I detta exempel**Aspose.Cells** kommer att försöka hitta licensfilen i din arbetsmapp.
+I detta exempel kommer **Aspose.Cells** att försöka hitta licensfilen i din arbetsmapp.
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
 from asposecells.api import License
 

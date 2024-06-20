@@ -1,9 +1,10 @@
-﻿---
-title: Handbuch für Jython-Programmierer
+---
+title: Jython Programmierhandbuch
 type: docs
 weight: 20
 url: /de/java/jython-programmers-guide/
 ---
+
 **Dieser Abschnitt umfasst die folgenden Themen:**
 
 - [Schnellstart in Jython](/cells/de/java/quick-start-in-jython/)

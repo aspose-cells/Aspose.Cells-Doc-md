@@ -1,54 +1,57 @@
-﻿---
-title: Erstellen Sie dynamisch formatierte Excel-Berichte mit einem eleganten Diagramm
+---
+title: Dynamische Generierung von formatierten Excel Berichten mit einer eleganten Grafik
 type: docs
 weight: 130
-url: /de/net/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+url: /de/net/aspose-cells-gridweb/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
+keywords: GridWeb, Bericht generieren, Bericht
+description: Dieser Artikel stellt vor, wie ein Bericht in GridWeb generiert werden kann.
 ---
+
 {{% alert color="primary" %}} 
 
-Dieses Dokument soll die notwendigen Informationen liefern, wie wir Daten aus einer Datenquelle in ein hervorragendes rasterähnliches Steuerelement extrahieren, ein Diagramm darin einfügen und den Bericht mit Diagramm nach MS Excel exportieren können, um Analysen, Vergleiche und den Druck durchzuführen.
+Dieses Dokument soll die notwendigen Informationen bereitstellen, wie Daten aus einer Datenquelle extrahiert und in einer hervorragenden Gittersteuerelement ähnlichen Ansicht eingefügt werden können, einen Diagramm darin einfügen und den Bericht mit Graphik zur MS Excel exportieren, um Analysen, Vergleiche und Ausdrucken zu ermöglichen.
 
 {{% /alert %}} 
-## **Überblick**
-Es gibt bestimmte Webszenarien, die sowohl Berichterstellung als auch Präsentationen erfordern, eine Kombination aus Teilen oder Objekten, die gut zusammenarbeiten können. Der Artikel erklärt, wie einfach es ist, stilvolle Excel-Berichte dynamisch im WYSIWYG-Stil zu entwerfen und zu generieren. Es exportiert Daten aus einer XML-Datei (Sie können auch andere Datenquellen verwenden) in das Aspose.Cells.GridWeb-Steuerelement, das Ihnen die reale Umgebung bietet, die es Ihnen ermöglicht, reichhaltige und ansprechende Formate auf Daten anzuwenden und Formelergebnisse wie MS Excel zu berechnen. Es generiert auch ein ausgeklügeltes Diagramm basierend auf den Quelldaten des Arbeitsblatts[Aspose.Cells](https://products.aspose.com/cells/) Komponente und fügt das Diagrammbild in den Verkaufsbericht ein. Schließlich wird der Excel-Bericht mit angehängtem Diagramm mit der Komponente Aspose.Cells auf der Festplatte gespeichert.
+## **Übersicht**
+Es gibt bestimmte Web-Szenarien, die sowohl Berichterstattung als auch Präsentationen erfordern, eine Kombination von Teilen oder Objekten, die gut zusammenarbeiten können. Der Artikel erklärt, wie einfach es ist, stilvolle Excel-Berichte dynamisch und im WYSIWYG-Modus zu entwerfen und zu generieren. Er exportiert Daten aus einer XML-Datei (Sie können auch andere Datenquellen verwenden) zum Aspose.Cells.GridWeb-Steuerelement, das Ihnen die reale Umgebung bietet, um reiche und ansprechende Formate auf Daten anzuwenden und Formelergebnisse wie in MS Excel zu berechnen. Es generiert auch ein anspruchsvolles Diagramm basierend auf den Daten der Arbeitsblattquelle mithilfe der [Aspose.Cells](https://products.aspose.com/cells/) Komponente und fügt das Diagrammbild in den Verkaufsbericht ein. Schließlich wird der Excel-Bericht mit angefügter Graphik mithilfe der Aspose.Cells-Komponente auf der Festplatte gespeichert.
 
-Dieser Artikel enthält den Quellcode und das voll funktionsfähige Demoprojekt für diese Funktionalität.
+Dieser Artikel enthält den Quellcode und ein vollständig ausgestattetes Demo-Projekt für eine solche Funktionalität.
 
-Es ermöglicht den Benutzern mit einer detaillierten Vorstellung davon, wie man einen Geschäftsbericht erstellt, Daten in ein Arbeitsblatt des Rasters einzugeben und einige Formatierungen auf die Zellen in den Zeilen und Spalten anzuwenden, ein Diagramm basierend auf dem Quelldatenbereich einzubetten, bevor der gespeichert wird Excel-Bericht auf die Festplatte.
-## **Die Aspose Komponenten**
- Ich benutze drei davon[Aspose](http://www.aspose.com/) 's-Komponenten, um die Aufgabe mit Leichtigkeit auszuführen.[Aspose](http://www.aspose.com/) , Der .NET und Java Component Publisher, bietet eine Vielzahl von funktionsreichen Komponenten.[Aspose](http://www.aspose.com/) bietet eine große Auswahl an .NET- und Java-Komponenten. Die Produkte, auf die Tausende von Kunden weltweit vertrauen, umfassen Dateiformatkomponenten, Berichterstellungsprodukte, visuelle Komponenten und Hilfskomponenten, die das programmgesteuerte Öffnen, Ändern, Generieren, Speichern, Zusammenführen, Konvertieren usw. von Dokumenten in verschiedenen Formaten, einschließlich DOC, RTF, WordML, HTML, PDF, XLS, SpreadsheetML, Tabulatorgetrennt, CSV, PPT, SWF, EMF, WMF, MPX, MPD und andere Formate.
+Es ermöglicht den Benutzern eine detaillierte Einsicht, wie man einen Geschäftsbericht erstellen kann, um Daten in ein Arbeitsblatt des Gitters einzugeben und einige Formatierungen auf die Zellen in den Zeilen und Spalten anzuwenden, ein Diagramm basierend auf dem Quellenbereich der Daten einzubetten, bevor der Excel-Bericht auf der Festplatte gespeichert wird.
+## **Die Aspose-Komponenten**
+Ich verwende drei der [Aspose](http://www.aspose.com/)-Komponenten, um die Aufgabe leicht zu erledigen. [Aspose](http://www.aspose.com/), der .NET- und Java-Komponentenherausgeber, bietet eine Vielzahl von funktionsreichen Komponenten. [Aspose](http://www.aspose.com/) bietet eine großartige Auswahl an .NET- und Java-Komponenten. Vertrauenswürdig von Tausenden von Kunden weltweit, umfassen die Produkte Dateiformatkomponenten, Berichtsprodukte, visuelle Komponenten und Hilfskomponenten, die das programmgesteuerte Öffnen, Ändern, Generieren, Speichern, Zusammenführen, Konvertieren usw. von Dokumenten in verschiedenen Formaten ermöglichen, einschließlich DOC, RTF, WordML, HTML, PDF, XLS, SpreadsheetML, Tab-delimited, CSV, PPT, SWF, EMF, WMF, MPX, MPD und anderen Formaten.
 
-Ich möchte diese Gelegenheit nutzen, um Ihnen drei dieser Komponenten vorzustellen, die in dieser Suche verwendet wurden.
-## **Aspose.Cells Grid-Steuerelemente**
- Aspose.Cells Grid Controls sind eine vollständige Grid-Lösung. Aspose.Cells Grid Controls werden mit zwei verschiedenen .NET GUI-Komponenten (Aspose.Cells.GridDesktop und Aspose.Cells.GridWeb) geliefert: eine zur Unterstützung von Desktopanwendungen und eine zur Unterstützung von Webanwendungen. Beide Versionen sind gleichermaßen aufeinander abgestimmt, um die Implementierung auf beiden Plattformen zum Kinderspiel zu machen. Aspose.Cells.GridWeb bietet die Möglichkeit zum Importieren und Exportieren in Excel-Tabellen. Jeder, der mit Excel vertraut ist (sogar Endbenutzer), kann das Erscheinungsbild eines Rasters entwerfen. Aspose.Cells.GridWeb bietet auch ein benutzerfreundliches, funktionsreiches API, das Entwicklern die vollständige Kontrolle über das Aussehen, die Bedienung und das Verhalten ihres Grids gibt. Um mehr über das Produkt, seine Funktionen und einen Programmierleitfaden zu erfahren, lesen Sie bitte die Zusammenfassung der Funktionsliste, Aspose.Cells.GridWeb-Dokumentation und Online-Features[Demos](https://aspose.github.io/)
+Ich möchte diese Gelegenheit nutzen, um Ihnen drei dieser Komponenten vorzustellen, die bei dieser Aufgabe verwendet wurden.
+## **Aspose.Cells Grid Controls**
+Aspose.Cells Grid Controls sind eine vollständige Rasterlösung. Aspose.Cells Grid Controls werden mit zwei verschiedenen GUI .NET-Komponenten (Aspose.Cells.GridDesktop und Aspose.Cells.GridWeb) geliefert: eine zur Unterstützung von Desktopanwendungen und eine zur Unterstützung von Webanwendungen. Beide Versionen sind gleichermaßen geeignet, um die Implementierung in jeder Plattform zum Kinderspiel zu machen. Aspose.Cells.GridWeb bietet die Möglichkeit, Excel-Tabellen zu importieren und zu exportieren. So kann jeder, der mit Excel vertraut ist (sogar Endbenutzer), das Aussehen und das Verhalten eines Rasters entwerfen. Aspose.Cells.GridWeb bietet auch eine benutzerfreundliche, funktionsreiche API, die Entwicklern die vollständige Kontrolle über das Aussehen, das Verhalten und die Funktionalität ihres Rasters bietet. Um mehr über das Produkt, seine Funktionen und einen Programmierleitfaden zu erfahren, prüfen Sie bitte die Zusammenfassung der Funktionsliste, die Aspose.Cells.GridWeb-Dokumentation und die online vorgestellten [Demos](https://aspose.github.io/)
 ## **Aspose.Cells**
-**Aspose.Cells**ist eine Berichterstellungskomponente für Excel-Tabellen, mit der Sie Excel-Tabellen lesen und schreiben können, ohne dass Microsoft Excel auf der Client- oder Serverseite installiert werden muss.**Aspose.Cells** ist eine funktionsreiche Komponente, die viel mehr bietet als nur das einfache Exportieren von Daten. Mit**Aspose.Cells** Entwickler können Daten exportieren, Tabellen bis ins kleinste Detail und auf jeder Ebene formatieren, Bilder importieren, Diagramme importieren, Diagramme erstellen, Diagramme manipulieren, Excel-Daten streamen, in verschiedenen Formaten speichern, einschließlich XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/) integriert) und viele mehr.**Aspose.Cells** bietet eine einfach zu bedienende, funktionsreiche**API** für die Programmierer. Es hat eine riesige Liste von Funktionen. Um mehr über das Produkt, seine Funktionen und eine Programmieranleitung zu erfahren, lesen Sie bitte die Zusammenfassung von**Funktionsliste**, **Aspose.Cells Dokumentation** und online vorgestellte Demos. Sie können[Download](https://downloads.aspose.com/cells) seine Evaluierungsversion kostenlos.
-## **Entwerfen der Schnittstelle**
+**Aspose.Cells** ist eine Excel-Tabellenberichtskomponente, mit der Sie Excel-Tabellen lesen und schreiben können, ohne dass Microsoft Excel auf dem Client- oder Servercomputer installiert werden muss. **Aspose.Cells** ist eine funktionsreiche Komponente, die weit mehr als nur das einfache Exportieren von Daten bietet. Mit **Aspose.Cells** können Entwickler Daten exportieren, Tabellenkalkulationen bis ins kleinste Detail und auf jeder Ebene formatieren, Bilder importieren, Diagramme importieren, Diagramme erstellen, Diagramme manipulieren, Excel-Daten streamen, in verschiedenen Formaten wie XLS, CSV, SpreadsheetML, Tabellarisch, TXT, XML (integriert mit [Aspose.Pdf](https://products.aspose.com/pdf/)) und viele weitere speichern. **Aspose.Cells** bietet eine benutzerfreundliche, funktionsreiche **API** für die Programmierer. Es hat eine lange Liste von Funktionen. Um mehr über das Produkt, seine Funktionen und einen Programmierleitfaden zu erfahren, überprüfen Sie bitte die Zusammenfassung der **Funktionsliste**, die **Aspose.Cells-Dokumentation** und die online vorgestellten Demos. Sie können die Evaluierungsversion [herunterladen](https://downloads.aspose.com/cells) und kostenlos testen.
+## **Gestaltung der Benutzeroberfläche**
 Wir beginnen mit der Erstellung einer neuen Asp.Net-Webanwendung in Visual Studio.Net.
 
- ich**Referenz hinzufügen**zu den drei Komponenten dh Aspose.Cells.GridWeb.dll, Aspose.Chart.dll und Aspose.Cells.dll zum Projekt zuerst. Ich platziere einige Steuerelemente auf der Seite und lege ihre Eigenschaften fest, dh eine Dropdown-Liste, eine Befehlsschaltfläche und ein Label. Ich stelle dann**Aspose.Cells.GridWeb****Kontrolle**(**GridWeb**) aus der Toolbox hinzufügen, da nach dem Hinzufügen von Verweisen auf die drei Komponenten die**GridWeb**Steuerelement wird in der Toolbox angezeigt. Die anderen beiden Komponenten (**Aspose.Chart**und**Aspose.Cells**) sind nur Bibliotheken, die nur auf das Projekt verweisen.
+Ich füge zunächst dem Projekt **Verweise** auf die drei Komponenten hinzu, d.h. Aspose.Cells.GridWeb.dll, Aspose.Chart.dll und Aspose.Cells.dll. Ich platziere einige Steuerelemente auf der Seite und setze ihre Eigenschaften, d.h. eine Dropdown-Liste, eine Befehlsschaltfläche und ein Label. Dann füge ich das **Aspose.Cells.GridWeb-Steuerelement** (**GridWeb**) aus der Werkzeugleiste ein, da nach dem Hinzufügen von Verweisen zu den drei Komponenten das **GridWeb-Steuerelement** in der Werkzeugleiste angezeigt wird. Die anderen beiden Komponenten (**Aspose.Chart** und **Aspose.Cells**) sind nur Bibliotheken, die dem Projekt als Referenzen hinzugefügt werden.
 
-Ich erstelle auch zwei Ordner "file" und "images", füge diesen Ordnern jeweils "Products.xml" und "chart.gif" hinzu. Die XML-Datei ist eine Datenquelldatei, aus der die Daten extrahiert werden, um die zu füllen**GridWeb**Arbeitsblatt. Die Bilddatei stellt ein Bild für eine benutzerdefinierte Schaltfläche bereit, die auf der platziert wird**GridWeb**Kontrolle.
+Ich erstelle auch zwei Ordner namens "file" und "images" und füge die Dateien "Products.xml" und "chart.gif" hinzu. Die XML-Datei ist eine Datenquelle, aus der die Daten extrahiert werden, um das **GridWeb-Arbeitsblatt** zu füllen. Die Bilddatei wird ein Bild für eine benutzerdefinierte Schaltfläche auf dem **GridWeb-Steuerelement** bereitstellen.
 
-Ich erstelle jetzt eine benutzerdefinierte Befehlsschaltfläche. Ich klicke einfach mit der rechten Maustaste auf die**GridWeb**Steuerelement und klicken Sie auf die Option „Benutzerdefinierte Befehlsschaltflächen…“.
+Ich erstelle nun eine benutzerdefinierte Befehlsschaltfläche. Ich klicke einfach mit der rechten Maustaste auf das **GridWeb-Steuerelement** und wähle die Option "Benutzerdefinierte Befehlsschaltflächen...".
 
-Dadurch wird der Editor für benutzerdefinierte Befehlsschaltflächen aktiviert. Der Editor ermöglicht es Ihnen, benutzerdefinierte Bildschaltflächen mit angehängtem Tooltip zu erstellen. Ich gebe die Werte für einige Eigenschaften der Schaltfläche an, zB Command (Name) -> "btnChart", ImageUrl -> gebe den Pfad zur Bilddatei an ("chart.gif") und ToolTip -> gebe den Tooltip an.
+Dadurch wird der Editor für benutzerdefinierte Befehlsschaltflächen aktiviert. Der Editor ermöglicht es Ihnen, benutzerdefinierte Befehlsschaltflächen mit angehängtem Tooltiptext zu erstellen. Ich gebe die Werte für einige Eigenschaften der Schaltfläche an, z.B. Befehl (Name) -> "btnChart", ImageUrl -> geben Sie den Pfad zur Bilddatei ("chart.gif") an und ToolTip -> fügen Sie den Tooltiptext hinzu.
 
-Die benutzerdefinierte Befehlsschaltfläche wird also hinzugefügt, wie Sie sie im folgenden Screenshot sehen können (mit roter Farbe eingekreist).
+So wird die benutzerdefinierte Befehlsschaltfläche hinzugefügt, wie Sie sie im folgenden Screenshot sehen können (umrandet mit roter Farbe).
 
-|![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
-|:- |
+|![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
+| :- |
 
 
-Schließlich setze ich einige Schriftattribute (fett) für die Beschriftung und die Befehlsschaltfläche. Ich passe auch die Größe der Steuerelemente an, um das endgültige Aussehen zu erhalten.
+Schließlich setze ich einige Schriftattribute (fett) für das Label und die Befehlsschaltfläche. Ich passe auch die Größe der Steuerelemente an, um den endgültigen Look zu erhalten.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
 ## **Abrufen von Daten aus einer XML-Datei**
-Es folgt die XML-Dateistruktur, die im Projekt verwendet wird.
+Nachfolgend finden Sie die in dem Projekt verwendete XML-Dateistruktur.
 ### **XML-Dateistruktur**
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <?xml version="1.0" standalone="yes"?>
 
@@ -76,7 +79,7 @@ Es folgt die XML-Dateistruktur, die im Projekt verwendet wird.
 
 {{< /highlight >}}
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  private void Page_Load(object sender, System.EventArgs e)
 
@@ -160,7 +163,7 @@ if (!IsPostBack)
 
 //This method is used to filter distinct values from CategoryName field in the datatable.
 
-private object[]GetDistinctValues(DataTable dtable, string colName)
+private object[] GetDistinctValues(DataTable dtable, string colName)
 
 {
 
@@ -193,12 +196,12 @@ private object[]GetDistinctValues(DataTable dtable, string colName)
 }
 
 {{< /highlight >}}
-## **Füllen des Arbeitsblatts des Steuerelements Aspose.Cells.GridWeb mit Daten**
-Ich verwende einige der API**GridWeb**-Steuerelement, um ein Arbeitsblatt mit Daten aus der XML-Quelldatei zu füllen. Ich schreibe Code in den Click-Event-Handler der Befehlsschaltfläche (mit der Bezeichnung „Show Report“). Der Datenbericht wird basierend auf dem ausgewählten Element aus der Dropdown-Liste gefiltert.
+## **Füllen des Arbeitsblatts des Aspose.Cells.GridWeb-Steuerelements mit Daten**
+Ich verwende einige APIs des **GridWeb-Steuerelements**, um ein Arbeitsblatt mit Daten aus der Quell-XML-Datei zu füllen. Ich schreibe den Code im Click-Ereignishandler der Befehlsschaltfläche (beschriftet mit "Bericht anzeigen"). Der Datenbericht wird basierend auf dem aus der Dropdown-Liste ausgewählten Element gefiltert.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Clears datasheets of the GridWeb control.
 
@@ -231,46 +234,46 @@ dv.RowFilter = "CategoryName ='" + DropDownList1.SelectedItem.Text + "'";
 GridWeb1.WebWorksheets.ImportDataView(dv, null, null,"Products",3,0);
 
 {{< /highlight >}}
-## **Formatieren von Daten in Cells**
-Um zwischen verschiedenen Arten von Informationen auf einem Arbeitsblatt zu unterscheiden, die Daten auf Ihrem Arbeitsblatt optimal anzuzeigen und ein Arbeitsblatt einfacher scannen zu können, formatieren Sie das Arbeitsblatt. EIN**Format**stellt einen Stil dar und ist definiert als eine Reihe von Merkmalen, wie z. B. Schriftarten und Schriftgrößen, Zahlenformate, Zellenumrandungen, Zellenschattierung mit einfarbiger Hintergrundfarbe oder einem bestimmten Farbmuster, Einzug, Ausrichtung und Textausrichtung in den Zellen.
+## **Formatieren von Daten in den Zellen**
+Um zwischen verschiedenen Arten von Informationen in einem Arbeitsblatt zu unterscheiden, für die optimale Anzeige der Daten auf Ihrem Arbeitsblatt und um ein Arbeitsblatt leichter zu scannen, formatieren Sie das Arbeitsblatt. Ein**Format**repräsentiert einen Stil und ist definiert als eine Reihe von Merkmalen, wie Schriftarten und Schriftgrößen, Zahlenformate, Zellenrahmen, Zellenschattierung mit einfarbiger Hintergrundfarbe oder einem spezifischen Farbmuster, Einrückung, Ausrichtung und Textausrichtung in den Zellen.
 
-Ich füge einige weitere Codezeilen zu oben zusammen. Ich platziere den Titel/Untertitel des Berichts, formatiere Titel, Untertitel und Detailzellen. Ich wende auch die Zahlenformatierung auf die beiden Felder an (stellen Sie das Währungszahlenformat auf die Felder UnitPrice und Sale ein) und passen Sie die Höhe/Breite von Zeilen und Spalten an**Aspose.Cells.GridWeb**API.
+Ich füge einige weitere Zeilen Code zu oben hinzu. Ich platziere den Titel/Untertitel des Berichts, führe einige Formatierungen für Titel, Untertitel und Detailzellen durch. Ich wende auch einen Zahlenformatierung auf die beiden Felder an (setze das Währungsnummernformat auf die Felder UnitPrice und Sale) und passe die Höhe/Breite der Zeilen und Spalten mit**Aspose.Cells.GridWeb**API an.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- // Titelzelle (A1) im Blatt erstellen und Formatierungen anwenden.
+ //Create the title cell (A1) in the sheet and apply formattings.
 
-//Die folgenden Zeilen geben einen Zeichenfolgenwert in die Zelle ein, angeben
+//The following lines input a string value to the cell, specify
 
-//Schriftgröße, horizontale und vertikale Ausrichtungseinstellungen festlegen, festlegen
+//font size, specify horizontal and vertical align settings, set
 
-//Vordergrund- und Hintergrundfarben und Zellen verbinden (A1:E2).
+//foreground and background colors and merge cells (A1:E2).
 
-WebWorksheet-Blatt = GridWeb1.WebWorksheets[0];
+WebWorksheet sheet = GridWeb1.WebWorksheets[0];
 
-sheet.Cells["A1"].PutValue("Produktverkäufe nach Kategorie");
+sheet.Cells["A1"].PutValue("Product Sales By Category");
 
 sheet.Cells["A1"].Style.Font.Size = new FontUnit("20pt");
 
-Blatt.Cells["A1"].Style.HorizontalAlign = HorizontalAlign.Center;
+sheet.Cells["A1"].Style.HorizontalAlign = HorizontalAlign.Center;
 
 sheet.Cells["A1"].Style.VerticalAlign = VerticalAlign.Middle;
 
-Blatt.Cells["A1"].Style.BackColor = Color.SkyBlue;
+sheet.Cells["A1"].Style.BackColor = Color.SkyBlue;
 
-Blatt.Cells["A1"].Style.ForeColor = Farbe.Blau;
+sheet.Cells["A1"].Style.ForeColor = Color.Blue;
 
 sheet.Cells.Merge(0, 0, 2, 5);
 
-//Untertitelzelle (A3) im Blatt erstellen und Formatierungen anwenden.
+//Create the subtitle cell (A3) in the sheet and apply formattings.
 
-//Die folgenden Zeilen geben einen Zeichenfolgenwert in die Zelle ein, angeben
+//The following lines input a string value to the cell, specify
 
-//Schriftgröße mit Attributen, horizontale und vertikale Ausrichtung angeben
+//font size with attributes, specify horizontal and vertical align
 
-//Einstellungen, Vordergrund- und Hintergrundfarben festlegen und Zellen verbinden
+//settings, set foreground and background colors and merge cells
 
 //(A3:E3).
 
@@ -282,35 +285,35 @@ sheet.Cells["A3"].Style.Font.Bold = true;
 
 sheet.Cells["A3"].Style.Font.Italic = true;
 
-Blatt.Cells["A3"].Style.HorizontalAlign = HorizontalAlign.Left;
+sheet.Cells["A3"].Style.HorizontalAlign = HorizontalAlign.Left;
 
-Blatt.Cells["A3"].Style.VerticalAlign = VerticalAlign.Middle;
+sheet.Cells["A3"].Style.VerticalAlign = VerticalAlign.Middle;
 
-Blatt.Cells["A3"].Style.BackColor = Color.SeaGreen;
+sheet.Cells["A3"].Style.BackColor = Color.SeaGreen;
 
-Blatt.Cells["A3"].Style.ForeColor = Color.Yellow;
+sheet.Cells["A3"].Style.ForeColor = Color.Yellow;
 
 sheet.Cells.Merge(2, 0, 1, 5);
 
-//Letzte Zeilen- und Spaltenindizes (die Daten enthalten) abrufen.
+//Obtain the last row and column (which contain data) indexes.
 
-int Gesamtzeile = Blatt.Cells.MaxRow +1;
+int totalrow = sheet.Cells.MaxRow +1;
 
-int totalcol = Blatt.Cells.MaxColumn;
+int totalcol = sheet.Cells.MaxColumn;
 
-// Holen Sie sich die Blatt Cells Sammlungen
+//Get the sheet Cells collections
 
-WebCells-Zellen = Blatt.Cells;
+WebCells cells = sheet.Cells;
 
-//Objekt Cell definieren.
+//Define the Cell object.
 
-WebCell-Zelle;
+WebCell cell;
 
-//Durchlaufen Sie die Daten im Blatt und formatieren Sie zwei Felder mit
+//Loop through the data in the sheet and format two fields with
 
-//Währungszahlenstil.
+//Currency number style.
 
-für (int i = 4;i<=totalrow;i++)
+for (int i = 4;i<=totalrow;i++)
 
 {
 
@@ -363,14 +366,14 @@ cells.SetColumnWidth(4, new Unit("50pt"));
 
 
 {{< /highlight >}}
-## **Erstellen des formatierten Berichts (.XLS-Datei) mit Graph unter Verwendung der Aspose.Cells-Komponente**
-Jetzt werde ich etwas Code schreiben, um den formatierten Bericht mit Diagramm auf der Festplatte zu speichern. Ich nutze**GridWeb** 's**Speichern**Knopf, der**GridWeb** 's**SaveCommand**Das Ereignis wird ausgelöst, wenn Sie auf die Schaltfläche Speichern klicken, also werde ich es handhaben. Hier benutze ich**Aspose.Cells**Komponente, um den formatierten Bericht nach MS Excel zu exportieren, ein Diagramm zu erstellen und es in die Excel-Ausgabedatei einzubetten. Ich habe das Diagrammbild nicht eingefügt (erstellt von**Aspose.Chart**Komponente) erstellen Sie stattdessen das ähnliche Diagramm mit der API von**Aspose.Cells**damit Sie das Diagramm in MS Excel nach Bedarf bearbeiten können.
+## **Erstellung des formatierten Berichts (.XLS-Datei) mit Diagramm unter Verwendung des Aspose.Cells-Bausteins**
+Nun werde ich einige Codes schreiben, um den formatierten Bericht mit Diagramm auf der Festplatte zu speichern. Ich nutze die**Speichern**Schaltfläche von**GridWeb**, das**Speichern**Ereignis von**GridWeb**wird ausgelöst, wenn Sie auf die Speichern-Schaltfläche klicken, daher werde ich es bearbeiten. Hier verwende ich den**Aspose.Cells**-Baustein, um den formatierten Bericht in MS Excel zu exportieren, ein Diagramm zu erstellen und es in die Ausgabedatei von Excel einzubetten. Ich habe das Diagrammbild (erstellt von**Aspose.Chart**-Baustein) nicht eingefügt, sondern das ähnliche Diagramm mithilfe der API von**Aspose.Cells**erstellt, sodass Sie das Diagramm in MS Excel nach Ihren Bedürfnissen bearbeiten können.
 
 
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //This GridWeb control event is fired when you click on the "Save" button
 
@@ -534,52 +537,52 @@ chartIndex = sheet.Charts.Add(Aspose.Cells.ChartType.Pie,maxrow,0,maxrow+28,5);
 ## **Ausführen der Anwendung**
 Jetzt führe ich die Anwendung aus. Die Dropdown-Liste wird mit den unterschiedlichen Kategorien gefüllt.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
 
-Ich wähle eine Kategorie aus, nach der ich den Verkaufsbericht anzeigen möchte, und klicke auf die Schaltfläche "Bericht anzeigen".
+Ich wähle eine Kategorie aus, für die ich den Verkaufsbericht anzeigen möchte, und klicke auf die Schaltfläche "Bericht anzeigen".
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
 
-Der Bericht wird also in angezeigt**GridWeb**basierend auf der ausgewählten Kategorie. Der Bericht wird standardmäßig basierend auf dem (zuvor geschriebenen) Code formatiert.
+Der Bericht wird dann auf der**GridWeb**basierend auf der ausgewählten Kategorie angezeigt. Der Bericht wird standardmäßig basierend auf dem vorher geschriebenen Code formatiert.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
 
-Wenn Sie Daten in einigen der Zellen in WYSIWYG-Manier formatieren möchten, können Sie dies ganz einfach tun.**Aspose.Cells.GridWeb**bietet**Cells formatieren**Editor, wählen Sie die gewünschte(n) Zelle(n) aus und klicken Sie mit der rechten Maustaste darauf, klicken Sie auf die Option „Format Cell…“.
+Wenn Sie Daten in einigen Zellen in WYSIWYG-Manier formatieren möchten, können Sie dies recht einfach tun.**Aspose.Cells.GridWeb**bietet einen**Format Cells**-Editor, wählen Sie die gewünschten Zellen aus und klicken Sie mit der rechten Maustaste darauf, wählen Sie die Option "Zelle formatieren…".
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
 
-Der Dialog Format Cell wird angezeigt.
+Der Dialog zur Zellenformatierung wird angezeigt.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
 
-Ich gebe einige Schriftattribute an und klicke auf OK.
+Ich gebe einige Schriftattributen an und klicke auf OK.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
 
-Und erhalten Sie das Ergebnis.
+Und erhalte das Ergebnis.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
 
-Neben der Zellenformatierung können Sie auch Ihre Zellenwerte bearbeiten. Doppelklicken Sie auf die gewünschte(n) Zelle(n) und bearbeiten Sie den Wert.
+Neben der Zellformatierung können Sie auch die Zellwerte bearbeiten. Doppelklicken Sie auf die gewünschten Zellen und bearbeiten Sie den Wert.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
 
-Um das Bearbeitungsergebnis zu übermitteln und die gesamte Formel neu zu berechnen, klicke ich auf die entsprechende Schaltfläche (rot eingekreist), um den Bericht zu aktualisieren.
+Um das Bearbeitungsergebnis zu übermitteln und alle Formeln neu zu berechnen, klicke ich auf die entsprechende Schaltfläche (mit roter Farbe umrandet), um den Bericht zu aktualisieren.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
 
-Jetzt erstelle ich das Diagramm und füge es in das Steuerelement ein. Ich klicke auf die benutzerdefinierte Befehlsschaltfläche (rot eingekreist), um das Kreisdiagramm basierend auf dem Datenbereich zu erstellen.
+Nun werde ich das Diagramm erstellen und in die Steuerung einfügen. Ich klicke auf die benutzerdefinierte Befehlsschaltfläche (mit roter Farbe umrandet), um das Kuchendiagramm basierend auf dem Datenbereich zu erstellen.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
 
-Schließlich werde ich diesen Datenbericht mit Diagramm nach MS Excel exportieren. Ich klicke auf die**Speichern**Schaltfläche (mit roter Farbe eingekreist). Ein Klick auf die**Speichern**Schaltfläche wird angezeigt**Datei download**Dialog, Sie können entweder**Offen**den resultierenden Bericht (Ausgabe-Excel-Datei mit Diagramm) in MS Excel oder auf der Festplatte speichern.
+Schließlich werde ich diesen Datenausweis mit Diagramm nach MS Excel exportieren. Ich klicke auf die**Speichern**Schaltfläche (mit roter Farbe umrandet). Beim Klicken auf die**Speichern**Schaltfläche wird der**Dateidownload**-Dialog angezeigt, Sie können entweder den resultierenden Bericht (Ausgabedatei von Excel mit Diagramm) in MS Excel öffnen oder ihn auf der Festplatte speichern.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
 
-Wenn ich auf die Schaltfläche „Öffnen“ (Dialogfeld „Dateidownload“) klicke, wird der Excel-Bericht mit Diagramm nach MS Excel exportiert. Der obere Teil des Berichts wird angezeigt.
+Wenn ich auf die Schaltfläche "Öffnen" (Dateidownload-Dialog) klicke, wird der Excel-Bericht mit Diagramm nach MS Excel exportiert. Der obere Teil des Berichts wird angezeigt.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
 
 Der untere Teil des Excel-Berichts wird angezeigt.
 
-![todo: Bild_alt_Text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)
+![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)

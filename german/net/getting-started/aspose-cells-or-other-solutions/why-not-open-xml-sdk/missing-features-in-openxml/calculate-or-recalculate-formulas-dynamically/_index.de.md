@@ -1,18 +1,19 @@
-﻿---
+---
 title: Formeln dynamisch berechnen oder neu berechnen
 type: docs
 weight: 10
 url: /de/net/calculate-or-recalculate-formulas-dynamically/
 ---
-**Formelberechnung** Motor ist eingebettet**Aspose.Cells**. Es kann nicht nur die aus der Designerdatei importierte Formel neu berechnen, sondern unterstützt auch die Berechnung der Ergebnisse von zur Laufzeit hinzugefügten Formeln.
-## **Formeln hinzufügen und Ergebnisse berechnen**
-Aspose.Cells unterstützt die meisten Formeln oder Funktionen, die Teil von Microsoft Excel sind. Entwickler können diese Formeln mit API oder Designer Spreadsheets verwenden. Aspose.Excel unterstützt eine Vielzahl von mathematischen, Zeichenfolgen-, booleschen, Datums-/Uhrzeit-, statistischen, Datenbank-, Such- und Referenzformeln.
 
-Verwenden Sie die Formula-Eigenschaft der Cell-Klasse, um einer Zelle eine Formel hinzuzufügen. Wenn Sie eine Formel auf eine Zelle anwenden, beginnen Sie die Zeichenfolge immer mit einem Gleichheitszeichen (=), wie Sie es auch beim Erstellen einer Formel in Microsoft Excel tun. Verwenden Sie ein Komma (,), um Funktionsparameter zu begrenzen.
+**Formelberechnung**: Der Motor für die Formelberechnung ist in **Aspose.Cells** eingebettet. Es kann nicht nur die Formel aus der Designerdatei neu berechnen, sondern es unterstützt auch die Berechnung von Formelergebnissen, die zur Laufzeit hinzugefügt wurden.
+## **Hinzufügen von Formeln & Berechnen von Ergebnissen**
+Aspose.Cells unterstützt die meisten Formeln oder Funktionen, die Teil von Microsoft Excel sind. Entwickler können diese Formeln über die API oder Designer-Tabellenkalkulation verwenden. Aspose.Excel unterstützt eine große Menge mathematischer, string-, boolescher, Datum-/Zeit-, statistischer, Datenbank-, Such- und Verweisformeln.
 
- Um die Ergebnisse der Formeln zu berechnen, rufen Sie die CalculateFormula-Methode der Excel-Klasse auf, die alle in einer Excel-Datei eingebetteten Formeln verarbeitet. Lies das[url:Liste der Funktionen, die von der CalculateFormula-Methode unterstützt werden](/cells/de/net/supported-formula-functions/).
+Verwenden Sie die Formel-Eigenschaft der Zellenklasse, um einer Zelle eine Formel hinzuzufügen. Wenn Sie eine Formel auf eine Zelle anwenden, beginnen Sie die Zeichenkette immer mit einem Gleichheitszeichen (=), genauso wie beim Erstellen einer Formel in Microsoft Excel. Verwenden Sie ein Komma (,) zur Trennung von Funktionsparametern.
 
-{{< highlight "csharp" >}}
+Um die Ergebnisse der Formeln zu berechnen, rufen Sie die CalculateFormula-Methode der Excel-Klasse auf, die alle in einer Excel-Datei eingebetteten Formeln verarbeitet. Lesen Sie die [URL: Liste der Funktionen, die von der CalculateFormula-Methode unterstützt werden](/cells/de/net/supported-formula-functions/).
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -55,15 +56,15 @@ string value = worksheet.Cells["A4"].Value.ToString();
 workbook.Save("Adding Formula.xls");
 
 {{< /highlight >}}
-## **Formeln nur einmal berechnen**
-Wenn der Benutzer Workbook.CalculateFormula() aufruft, um die Werte der Formeln in der Arbeitsmappenvorlage zu berechnen, erstellt Aspose.Cells eine Berechnungskette. Es erhöht die Leistung, wenn Formeln zum zweiten oder dritten Mal berechnet werden usw.
-Wenn die Benutzervorlage jedoch viele verschiedene Formeln enthält, kann die erste Formelberechnung viel CPU-Verarbeitungszeit und Speicher verbrauchen.
+## **Einmaliges Berechnen von Formeln**
+Wenn der Benutzer Workbook.CalculateFormula() aufruft, um die Werte der Formeln innerhalb der Arbeitsmappenvorlage zu berechnen, erstellt Aspose.Cells eine Berechnungskette. Dies erhöht die Leistung, wenn Formeln zum zweiten oder dritten Mal berechnet werden usw.
+Wenn die Benutzervorlage viele verschiedene Formeln enthält, kann die erste Berechnung der Formel viel CPU-Verarbeitungszeit und Speicher verbrauchen.
 
-Mit Aspose.Cells können Sie das Erstellen einer Berechnungskette deaktivieren, was in Szenarien nützlich ist, in denen Sie Formeln Ihrer Datei nur einmal berechnen möchten.
+Aspose.Cells ermöglicht es Ihnen, die Erstellung einer Berechnungskette zu deaktivieren, was in Szenarien nützlich ist, in denen Sie die Formeln Ihrer Datei nur einmal berechnen möchten.
 
- Wenn Sie die Leistung von Formelberechnungen durch Aspose.Cells verbessern möchten und keine Formelberechnungskette erstellen möchten, dann stellen Sie dies bitte ein**FormulaSettings.EnableCalculationChain** als**FALSCH** . Standardmäßig ist es eingestellt als**wahr**.
+Wenn Sie die Leistung der Formelberechnungen mit Aspose.Cells verbessern möchten und keine Formelberechnungskette erstellen möchten, setzen Sie bitte **FormulaSettings.EnableCalculationChain** auf **false**. Standardmäßig ist es auf **true** gesetzt.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -92,13 +93,13 @@ Console.WriteLine(DateTime.Now);
 workbook.Save(FileName);
 
 {{< /highlight >}}
-## **Direkte Berechnung der Formel**
-Die Formelberechnungs-Engine ist in Aspose.Cells eingebettet. Neben der Neuberechnung der aus der Designer-Datei importierten Formel unterstützt Aspose.Cells auch die direkte Berechnung der Ergebnisse von Formeln.
-Manchmal müssen Sie die Ergebnisse von Formeln direkt berechnen, ohne sie tatsächlich in ein Arbeitsblatt einzufügen. Die Werte der in Formeln verwendeten Zellen sind bereits in einem Arbeitsblatt vorhanden, und alles, was Sie brauchen, ist, das Ergebnis dieser Werte basierend auf einer MS-Excel-Formel zu finden, ohne die Formel in einem Arbeitsblatt hinzuzufügen.
+## **Direkte Berechnung von Formeln**
+Die Formel-Berechnungs-Engine ist in Aspose.Cells eingebettet. Neben der Neuberechnung der aus der Designer-Datei importierten Formel unterstützt Aspose.Cells auch die direkte Berechnung der Formelergebnisse.
+Manchmal müssen Sie die Ergebnisse von Formeln direkt berechnen, ohne sie tatsächlich in einem Arbeitsblatt hinzuzufügen. Die Werte der in der Formel verwendeten Zellen existieren bereits in einem Arbeitsblatt, und alles, was Sie benötigen, ist das Ergebnis dieser Werte basierend auf einigen MS-Excel-Formeln zu finden, ohne die Formel in einem Arbeitsblatt hinzuzufügen.
 
- Sie können Aspose.Cells Formula Calculation Engine API verwenden, dh**Arbeitsblatt.Berechnen (String-Formel)**um die Ergebnisse solcher Formeln zu berechnen, ohne sie tatsächlich in das Arbeitsblatt einzufügen.
+Sie können die Aspose.Cells Formula Calculation Engine API d.h. **worksheet.Calculate(string formula)** verwenden, um die Ergebnisse solcher Formeln zu berechnen, ohne sie tatsächlich in einem Arbeitsblatt hinzuzufügen.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create a workbook
 
@@ -140,5 +141,5 @@ workbook.Save("Calulate Any Formulae.xls");
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Direct%20Formulae%20Call%20%28Aspose.Cells%29.zip)

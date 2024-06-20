@@ -1,17 +1,20 @@
 ---
-title: حفظ الجدول المحوري في ملف ODS
+title: حفظ الجدول الدوري في ملف ODS
 type: docs
 weight: 150
 url: /ar/python-net/save-pivot-table-in-ods-file/
-description: توضح هذه المقالة كيفية حفظ الجدول المحوري في ملف ODS مع Aspose.Cells for Python via .NET.
-keywords: Save pivot table in ODS file
+description: يظهر هذا المقال كيفية حفظ جدول الدوران في ملف ODS باستخدام Aspose.Cells لـ Python via .NET.
+keywords: Aspose.Cells لـ Python Excel، مكتبة Excel Python، حفظ جدول الدوران في ملف ODS باستخدام Aspose.Cells لـ Python Excel Library.
 ---
- Aspose.Cells for Python via .NET يوفر إمكانية حفظ الجدول المحوري في ملفات ODS. للقيام بذلك، ما عليك سوى تحويل مصنف باستخدام جدول محوري موجود أو إنشاء جدول محوري جديد وحفظ الملف بتنسيق ODS. تأكد من الاتصال[**PivotTable.calculate_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/calculate_data/#)قبل الحفظ للتأكد من عرض الجدول المحوري في ملف الإخراج ODS. يوضح مقتطف التعليمات البرمجية التالي حفظ الجدول المحوري في ملف ODS.
 
-##  عينة من الرموز
+## **كيفية حفظ جدول الدوران في ملف ODS**
+
+توفر Aspose.Cells لـ Python via .NET القدرة على حفظ جدول الدوران في ملفات ODS. للقيام بذلك، يجب عليك فقط تحويل مصنف يحتوي على جدول دوران موجود أو إنشاء جدول دوران جديد وحفظ الملف بتنسيق ODS. تأكد من استدعاء [**PivotTable.calculate_data**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/calculate_data/#) قبل الحفظ لضمان أن جدول الدوران يتم عرضه في ملف ODS الناتج. يظهر الكود التالي كيفية حفظ جدول الدوران في ملف ODS.
+
+## كود عينة
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableSaveInODS-1.py" >}}
 
-تم إرفاق ملف الإخراج الذي تم إنشاؤه بالكود أعلاه للرجوع إليه.
+تم إرفاق الملف الناتج المولوظ بالكود أعلاه للرجوع إليه.
 
-[إخراج ODS ملف](PivotTableSaveInODS_out.ods)
+[ملف ODS الناتج](PivotTableSaveInODS_out.ods)

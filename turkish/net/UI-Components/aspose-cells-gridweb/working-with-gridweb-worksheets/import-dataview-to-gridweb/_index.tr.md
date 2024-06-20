@@ -1,28 +1,31 @@
-﻿---
-title: DataView'u GridWeb'e Aktarın
+---
+title: GridWeb de DataView İçe Aktar
 type: docs
 weight: 60
-url: /tr/net/import-dataview-to-gridweb/
+url: /tr/net/aspose-cells-gridweb/import-dataview-to-gridweb/
+keywords: GridWeb, içe aktar
+description: Bu makale, GridWeb de veri içe aktarmanın nasıl yapıldığını tanıtıyor.
 ---
-{{% alert color="primary" %}} 
-
-Microsoft .NET Framework'ün piyasaya sürülmesiyle, yeni bir veri depolama yöntemi tanıtıldı. Artık verileri çevrimdışı modda depolayan DataSet, DataTable ve DataView nesneleri. Bu nesneler, veri havuzları olarak çok kullanışlıdır. Aspose.Cells.GridWeb kullanarak DataTable veya DataView nesnelerinden çalışma sayfalarına veri aktarmak mümkündür. Aspose.Cells.GridWeb yalnızca bir DataView'dan veri almayı destekler. nesne ancak bir DataTable nesnesi de dolaylı olarak kullanılabilir. Bu özelliği ayrıntılı olarak tartışalım.
-
-{{% /alert %}} 
-## **DataView'dan Verileri İçe Aktarma**
-GridWeb denetiminde GridWorsheetCollection'ın ImportDataView yöntemini kullanarak bir DataView nesnesinden verileri içe aktarın. Verileri içe aktarmak istediğiniz DataView nesnesini ImportDataView yöntemine iletin. İçe aktarma sırasında sütun başlığı ve veri stilleri belirtmek mümkündür.
 
 {{% alert color="primary" %}} 
 
-Veriler bir DataView nesnesinden içe aktarıldığında, içe aktarılan verileri tutmak için yeni bir çalışma sayfası oluşturulur. Çalışma sayfası, DataTable ile aynı şekilde adlandırılır.
+Microsoft .NET Framework'ün piyasaya sürülmesiyle verileri depolamanın yeni bir yolu tanıtıldı. Şimdi, verileri çevrimdışı modda depolayan DataSet, DataTable ve DataView nesneleri mevcut. Bu nesneler veri depoları olarak çok kullanışlıdır. Aspose.Cells.GridWeb kullanarak, DataTable veya DataView nesnelerinden herhangi birini çalışma sayfalarına içe aktarmak mümkündür. Aspose.Cells.GridWeb yalnızca DataView nesnesinden veri içe aktarmayı destekler, ancak DataTable nesnesi dolaylı olarak da kullanılabilir. Bu özelliği detaylı olarak tartışalım.
+
+{{% /alert %}} 
+## **DataView'den Veri İçe Aktarma**
+GridWeb kontrolünde GridWorsheetCollection'ın ImportDataView yöntemini kullanarak DataView nesnesinden veri içe aktarın. ImportDataView yöntemine veri içe aktarılacak DataView nesnesini iletebilirsiniz. İçe aktarma sırasında sütun başlığı ve veri stilleri belirtmek mümkündür.
+
+{{% alert color="primary" %}} 
+
+Bir DataView nesnesinden veri içe aktarıldığında, içe aktarılan veriyi tutmak için yeni bir çalışma sayfası oluşturulur. Çalışma sayfasının adı, DataTable ile aynıdır.
 
 {{% /alert %}} 
 
-**Çıktı: DataView'dan yeni bir çalışma sayfasına aktarılan veriler** 
+**Çıktı: DataView'dan içe aktarılan veriler yeni bir çalışma sayfasına** 
 
-![yapılacaklar:resim_alternatif_metin](import-dataview-to-gridweb_1.png)
+![todo:image_alt_text](import-dataview-to-gridweb_1.png)
 
- Sütunların genişlikleri, içerdikleri tüm verileri gösterecek şekilde ayarlanır. Veriler DataView'dan içe aktarıldığında, sütun genişlikleri otomatik olarak ayarlanmaz. Kullanıcıların bunları kendileri ayarlaması gerekir. Sütun genişliklerini programlı olarak ayarlamak için bkz.[Satırları ve Sütunları Yeniden Boyutlandırma](/cells/tr/net/resize-rows-and-columns/).
+Sütun genişlikleri içerdikleri tüm verileri göstermek için ayarlanır. DataView'dan veri içe aktarıldığında, sütun genişlikleri otomatik olarak ayarlanmaz. Kullanıcıların bunu kendileri ayarlamaları gerekir. Sütun genişliklerini programatik olarak ayarlamak için, [Satırları ve Sütunları Yeniden Boyutlandır](/cells/tr/net/aspose-cells-gridweb/resize-rows-and-columns/) sayfasına bakınız.
 
 
 
@@ -30,6 +33,6 @@ Veriler bir DataView nesnesinden içe aktarıldığında, içe aktarılan verile
 
 {{% alert color="primary" %}} 
 
-ImportDataView yönteminin aşırı yüklenmiş bir sürümü, geliştiricilerin, içe aktarılan verileri tutan sayfanın adını ve DataView nesnesinden içe aktarılacak belirli sayıda satır ve sütunu belirtmesine olanak tanır.
+ImportDataView yönteminin aşırı yüklenmiş bir sürümü, geliştiricilere içe aktarılan verileri tutan çalışma sayfasının adını ve DataView nesnesinden kaç satır ve sütunun içe aktarılacağını belirtme olanağı sağlar.
 
 {{% /alert %}}

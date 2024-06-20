@@ -1,30 +1,31 @@
-﻿---
-title: Lassen Sie sich die Validierung auf Cell anwenden
+---
+title: Angewendete Validierung auf einer Zelle erhalten.
 type: docs
 weight: 80
 url: /de/java/get-validation-applied-on-a-cell/
-description: Dieser Artikel zeigt, wie Sie die Validierung auf eine Cell mit Java anwenden
-keywords: apply cell validation in excel with java, apply validation on a cell in excel with java, apply validation in excel with java, cell validation in excel with java, java apply cell validation in excel, java apply validation on a cell in excel, java cell validation in excel, java cell validation
+description: In diesem Artikel wird erläutert, wie Sie mit Java die Validierung auf einer Zelle anwenden können.
+keywords: Zellvalidierung in Excel mit Java anwenden, Validierung auf einer Zelle in Excel mit Java anwenden, Validierung in Excel mit Java anwenden, Zellvalidierung in Excel mit Java, Java Zellvalidierung in Excel anwenden, Java Validierung auf einer Zelle in Excel anwenden, Java Zellvalidierung in Excel, Java Zellvalidierung
 ---
+
 {{% alert color="primary" %}}
 
- Sie können Aspose.Cells API verwenden, um die Validierung auf eine beliebige Zelle anzuwenden. Aspose.Cells bietet die[**Cell.getValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation() ) Methode zu diesem Zweck. Wenn es keine Validierung für die Zelle gibt, gibt sie null zurück. Ebenso können Sie die verwenden[**Worksheet.getValidations().getValidationInCell (int-Zeile, int-Spalte)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int))-Methode zum Erfassen der auf eine Zelle angewendeten Validierung durch Bereitstellen ihrer Zeilen- und Spaltenindizes.
+Sie können die Aspose.Cells API verwenden, um die Validierung an einer Zelle anzuwenden. Aspose.Cells bietet die Methode [**Cell.getValidation()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation--) für diesen Zweck. Wenn keine Validierung an der Zelle vorliegt, gibt sie null zurück. Ebenso können Sie die Methode [**Worksheet.getValidations().getValidationInCell(int row, int column)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)) verwenden, um die validierung an einer Zelle zu erhalten, indem Sie ihre Zeilen- und Spaltenindizes bereitstellen.
 
 {{% /alert %}}
 
- Der folgende Schnappschuss zeigt die Excel-Beispieldatei Microsoft, die im Beispielcode unten verwendet wird. Cell**C1** hat**dezimale Validierung** angewendet und kann nur Werte annehmen**zwischen 10 und 20**.
+Die folgende Momentaufnahme zeigt die Beispiel-Microsoft-Excel-Datei, die im folgenden Beispielcode verwendet wird. Die Zelle **C1** hat eine **Dezimalvalidierung** und kann nur Werte **zwischen 10 und 20** annehmen.
 
 **Eine Zelle mit Validierung**
 
-![todo: Bild_alt_Text](get-validation-applied-on-a-cell_1.png)
+![todo:image_alt_text](get-validation-applied-on-a-cell_1.png)
 
-Der folgende Beispielcode ruft die auf C1 angewendete Validierung ab und liest seine verschiedenen Eigenschaften.
+Der folgende Beispielcode erhält die Validierung, die auf C1 angewendet wird, und liest ihre verschiedenen Eigenschaften.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetValidationAppliedonCell-GetValidationAppliedonCell.java" >}}
 
-Hier ist die Konsolenausgabe des Beispielcodes, der mit der im obigen Schnappschuss gezeigten Beispieldatei ausgeführt wird.
+Hier ist die Konsolenausgabe des Beispielcodes, der mit der oben gezeigten Beispieldatei ausgeführt wurde.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Reading Properties of Validation
 
@@ -42,6 +43,6 @@ Ignore blank: true
 
 {{< /highlight >}}
 
-## Zum Thema passende Artikel
+## Verwandte Artikel
 
-- [Datenvalidierung](/cells/de/java/data-validation/)
+- [Datenüberprüfung](/cells/de/java/data-validation/)

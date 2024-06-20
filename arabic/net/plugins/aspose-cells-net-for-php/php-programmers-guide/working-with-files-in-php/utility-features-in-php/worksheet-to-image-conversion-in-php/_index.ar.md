@@ -1,15 +1,16 @@
-﻿---
-title: ورقة العمل لتحويل الصورة في PHP
+---
+title: تحويل ورقة العمل إلى صورة في PHP
 type: docs
 weight: 40
 url: /ar/net/worksheet-to-image-conversion-in-php/
 ---
+
 ## **Aspose.Cells - تحويل ورقة العمل إلى صورة**
-قم بتحويل ورقة عمل Excel Microsoft إلى ملف صورة
+تحويل ورقة عمل Microsoft Excel إلى ملف صورة
 
 **كود PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -44,7 +45,7 @@ url: /ar/net/worksheet-to-image-conversion-in-php/
         print "Conversion to Image(s) completed!" . PHP_EOL;
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**ورقة العمل على الصورة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تحميل **ورقة العمل إلى صورة (Aspose.Cells)** من أي من مواقع البرمجة الاجتماعية المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

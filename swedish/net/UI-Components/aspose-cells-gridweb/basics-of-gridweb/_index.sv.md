@@ -1,17 +1,19 @@
 ---
-title: Grunderna i GridWeb
+title: Grundläggande om GridWeb
 type: docs
 weight: 10
-url: /sv/net/basics-of-gridweb/
+url: /sv/net/aspose-cells-gridweb/basics-of-gridweb/
+keywords: GridWeb
+description: Den här artikeln introducerar GridWeb.
 ---
-##  Grunderna i GridWeb
-GridWeb är en enkel att använda .net/java webbkontroll för att visa och redigera kalkylarksfil.
+## Grundläggande om GridWeb
+GridWeb är en enkel att använda .net/java-webkontroll för att visa och redigera kalkylblad.
 {{% alert color="primary" %}} 
 
-Det är lätt och enkelt att använda.
+Det är enkelt och enkelt att använda.
 
-Det hjälper dig att snabbt bygga webbredigerare online för kalkylarksfiler.
+Det hjälper dig att snabbt bygga en online webbredigerare för kalkylbladsfil.
 
-Det stöder också import och export av alla typer av kalkylarksformatfiler som är 100% kompatibla med MS Excel-filen.
+Det stöder också import och export av alla typer av kalkylbladsformatfiler som är 100% kompatibla med MS Excel-filer.
 
 

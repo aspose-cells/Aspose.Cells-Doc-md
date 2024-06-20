@@ -1,33 +1,34 @@
-﻿---
-title: الوصول إلى الجدول من Cell وإضافة القيم بداخله باستخدام إزاحة الصف والعمود
+---
+title: الوصول إلى الجدول من الخلية وإضافة القيم داخله باستخدام إزاحة الصف والعمود
 type: docs
 weight: 230
 url: /ar/net/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/
 ---
+
 {{% alert color="primary" %}}
 
- عادة ، يمكنك إضافة القيم داخل الجدول أو باستخدام كائن القائمة[**Cell.PutValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)طريقة. لكن في بعض الأحيان ، قد تحتاج إلى إضافة قيم داخل الجدول أو كائن القائمة باستخدام إزاحة الصف والعمود.
+عادةً ما تضيف القيم داخل الجدول أو كائن القائمة باستخدام الطريقة [**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index). ولكن في بعض الأحيان، قد تحتاج إلى إضافة القيم داخل الجدول أو كائن القائمة باستخدام إزاحة الصف والعمود.
 
-من أجل الوصول إلى جدول أو قائمة كائن من خلية ، استخدم[**Cell. GetTable ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) طريقة. لإضافة قيم بداخله باستخدام إزاحة الصفوف والعمود ، استخدم ملحق[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue) طريقة.
+للوصول إلى جدول أو كائن القائمة من خلية، استخدم الطريقة [**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable). لإضافة القيم داخلها باستخدام إزاحة الصف والعمود، استخدم الطريقة [**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue).
 
 {{% /alert %}}
 
- تُظهر لقطة الشاشة التالية ملف Excel المصدر المستخدم داخل الكود. يحتوي على الجدول الفارغ ويبرز الخلية D5 الموجودة داخل الجدول. سنصل إلى هذا الجدول من الخلية D5 باستخدام[**Cell. GetTable ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) الطريقة ثم قم بإضافة القيم بداخلها باستخدام كليهما[**Cell.PutValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) و[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue)أساليب.
+تُظهر اللقطة الشاشية التالية ملف Excel المصدر المستخدم داخل الكود. يحتوي على جدول فارغ ويبرز الخلية D5 التي تقع داخل الجدول. سنتمكن من الوصول إلى هذا الجدول من الخلية D5 باستخدام الطريقة [**Cell.GetTable()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) ثم إضافة القيم داخله باستخدام كل من الطريقة [**Cell.PutValue()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) و [**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue).
 
 ## مثال
 
-### لقطات تقارن المصدر والملفات الناتجة
+### لقطات شاشة تقارن الملفات المصدرية والإخراجية
 
-|![ما يجب القيام به: image_بديل_نص](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)|
-|:- |
+|![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)|
+| :- |
 
-تُظهر لقطة الشاشة التالية ملف Excel الناتج الذي تم إنشاؤه بواسطة الكود. كما ترى ، تحتوي الخلية D5 على قيمة والخلية F6 الموجودة في الإزاحة 2،2 من الجدول لها قيمة.
+اللقطة الشاشية التالية تُظهر ملف Excel الناتج الذي تم إنشاؤه بواسطة الكود. كما يمكنك رؤية الخلية D5 التي تحتوي على قيمة والخلية F6 والتي تقع في الإزاحة 2،2 من الجدول وتحتوي على قيمة.
 
-|![ما يجب القيام به: image_بديل_نص](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)|
-|:- |
+|![todo:image_alt_text](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_2.png)|
+| :- |
 
-### كود C# للتوصل إلى الجدول من الخلية ولإضافة قيم بداخله باستخدام إزاحة الصف والعمود
+### كود C# للوصول إلى الجدول من الخلية وإضافة القيم داخلها باستخدام إزاحة الصف والعمود
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف Excel المصدر كما هو موضح في لقطة الشاشة أعلاه ويضيف قيمًا داخل الجدول وينشئ ملف Excel الناتج كما هو موضح أعلاه.
+يقوم الكود النموذجي التالي باستخدام ملف Excel المصدر كما هو موضح في اللقطة الشاشية أعلاه ويضيف القيم داخل الجدول ويولد ملف Excel الناتج كما هو موضح أعلاه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-AccessTableFromCellAndAddValue-AccessTableFromCellAndAddValue.cs" >}}

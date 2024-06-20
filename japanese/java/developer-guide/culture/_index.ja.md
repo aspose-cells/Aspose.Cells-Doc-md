@@ -1,6 +1,6 @@
-﻿---
-title: 文化
+---
+title: グローバリゼーションとローカライゼーション
 type: docs
 weight: 2000
-url: /ja/java/language/
+url: /ja/java/globalization-and-localization/
 ---

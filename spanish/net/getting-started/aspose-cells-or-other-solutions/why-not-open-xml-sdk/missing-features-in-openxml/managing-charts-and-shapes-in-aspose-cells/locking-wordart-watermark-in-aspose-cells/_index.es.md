@@ -1,20 +1,21 @@
-﻿---
-title: Bloqueo de marca de agua de WordArt en Aspose.Cells
+---
+title: Bloquear una Marca de Agua de WordArt en Aspose.Cells
 type: docs
 weight: 40
 url: /es/net/locking-wordart-watermark-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells Las API permiten agregar marcas de agua de WordArt en la hoja de trabajo de manera que WordArt se convierte en un objeto que se puede mover y colocar en la hoja de trabajo. También es posible bloquear el objeto de WordArt para cualquier interacción, como edición, movimiento y selección. Este artículo explica el uso del método Shape.SetLockedProperty para bloquear algunos aspectos de la marca de agua.
+Los APIs de Aspose.Cells permiten agregar marcas de agua de WordArt en la hoja de cálculo de manera que el WordArt se convierta en un objeto que se puede mover y posicionar en la hoja de cálculo. También es posible bloquear el objeto WordArt para cualquier interacción, como la edición, el movimiento y la selección. Este artículo explica el uso del método Shape.SetLockedProperty para bloquear algunos aspectos de la marca de agua.
 
 {{% /alert %}} 
 
-Aspose.Cells Las API permiten bloquear ciertos aspectos de la marca de agua para que la interacción del usuario pueda limitarse o bloquearse por completo. El siguiente fragmento de código demuestra el uso de Aspose.Cells for .NET API para bloquear la selección, el movimiento, la edición y el cambio de tamaño de la marca de agua mediante la creación de una hoja de cálculo desde cero.
+Los APIs de Aspose.Cells permiten bloquear ciertos aspectos de la marca de agua para que la interacción del usuario pueda ser limitada o completamente bloqueada. El siguiente fragmento de código demuestra el uso del API Aspose.Cells for .NET para bloquear la selección, el movimiento, la edición y el redimensionamiento de la marca de agua mediante la creación de una hoja de cálculo desde cero.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -73,7 +74,7 @@ lineFormat.IsVisible = false;
 workbook.Save(FileName);
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Locking%20WordArt%20Watermark)
-## **Descargar ejemplo de ejecución**
+## **Descargar Ejemplo en Ejecución**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

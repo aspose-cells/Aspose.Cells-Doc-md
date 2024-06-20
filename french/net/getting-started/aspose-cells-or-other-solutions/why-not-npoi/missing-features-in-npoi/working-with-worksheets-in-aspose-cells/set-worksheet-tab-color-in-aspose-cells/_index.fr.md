@@ -1,20 +1,21 @@
-﻿---
-title: Définir la couleur de l'onglet de la feuille de calcul dans Aspose.Cells
+---
+title: Définir la couleur d onglet de feuille de calcul dans Aspose.Cells
 type: docs
 weight: 20
 url: /fr/net/set-worksheet-tab-color-in-aspose-cells/
 ---
-## **Aspose.Cells - Définir la couleur de l'onglet de la feuille de calcul**
-Aspose.Cells vous permet de changer la couleur des onglets de feuille de calcul individuels pour les faire ressortir du reste. Par exemple, vous pouvez rendre les dépenses rouges, les ventes vertes, les actifs bleus, etc.
-### **Définition de la couleur de l'onglet de la feuille de calcul avec Microsoft Excel**
-1. Cliquez avec le bouton droit sur un onglet dans la feuille à onglets au bas de la feuille de calcul actuelle.
-1. Sélectionner**Couleur de l'onglet**.
+
+## **Aspose.Cells - Définir la couleur d'onglet de feuille de calcul**
+Aspose.Cells vous permet de changer la couleur des onglets de feuille de calcul individuels pour les rendre plus visibles par rapport au reste. Par exemple, vous pouvez mettre Dépenses en rouge, Ventes en vert, Actifs en bleu, etc.
+### **Définition de la couleur de l'onglet de feuille de calcul avec Microsoft Excel**
+1. Cliquez avec le bouton droit sur un onglet dans la feuille d'onglets en bas de la feuille de calcul actuelle.
+1. Sélectionnez **Couleur de l'onglet**.
 1. Sélectionnez une couleur dans la palette.
-1. Cliquez sur**D'ACCORD**.
+1. Cliquez sur **OK**.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiate a new Workbook
 
@@ -33,13 +34,13 @@ worksheet.TabColor = Color.Red;
 workbook.Save("AsposeColoredTab_Out.xls");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Définir la couleur de l'onglet de la feuille de calcul** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez le formulaire **Définir la couleur d'onglet de feuille de calcul** sur l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Worksheet.Tab.Color.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Définir la couleur de l'onglet de la feuille de calcul](/cells/fr/net/set-worksheet-tab-color/).
+Pour plus de détails, visitez [Définir la couleur d'onglet de feuille de calcul](/cells/fr/net/set-worksheet-tab-color/).
 
 {{% /alert %}}

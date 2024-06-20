@@ -1,47 +1,48 @@
-﻿---
-title: دعم صيغ متعددة
+---
+title: دعم عدة تنسيقات
 type: docs
 weight: 10
 url: /ar/sharepoint/multiple-format-support/
 ---
+
 {{% alert color="primary" %}}
 
-باستخدام Aspose.Cells for SharePoint ، يمكنك تحويل المستندات بين العديد من تنسيقات مستندات Office الشائعة من مكتبة مستندات SharePoint. تتم معظم التحويلات بدقة عالية ودقة عالية.
+يمكنك تحويل المستندات بين العديد من تنسيقات المستندات المكتبية الشهيرة باستخدام Aspose.Cells for SharePoint من خلال مكتبة مستندات SharePoint. يتم إجراء معظم التحويلات بدقة ودقة عالية.
 
 {{% /alert %}}
 
 ## **تنسيقات الإدخال المدعومة**
 
-Aspose.Cells for SharePoint يدعم تنسيقات الإدخال التالية:
+يدعم Aspose.Cells for SharePoint التنسيقات الإدخال التالية:
 
-- XLS-Microsoft Excel 97 ~ 2003
-- XLSX - Office Open XML
-- XLSM، XLTX، XLTM - Office Open XML
-- CSV - مستند ورقة عمل القيم المفصولة بفواصل
-- ODS - OpenDocument
-- XML - Microsoft Excel SpreadsheetML
+- XLS – Microsoft Excel 97~2003
+- XLSX – Office Open XML
+- XLSM, XLTX, XLTM – Office Open XML
+- CSV – مستند ورقة بيانات القيم المفصولة بواسطة الفواصل
+- ODS – OpenDocument
+- XML – Microsoft Excel SpreadsheetML
 
- لإنشاء المستندات ، يعتمد Aspose.Cells for SharePoint على نسخة مضمنة من[Aspose.Cells for .NET](https://products.aspose.com/cells/net/)، مكون معالجة جداول البيانات الرائد في السوق من Aspose. Microsoft لا يتم استخدام Excel لإنشاء المستندات.
+لإنشاء المستندات، يعتمد Aspose.Cells for SharePoint على نسخة مدمجة من [Aspose.Cells for .NET](https://products.aspose.com/cells/net/)، وهي عنصر معالجة جداول البيانات الرائد في السوق من Aspose. لا يتم استخدام Microsoft Excel لإنشاء المستندات.
 
 ## **تنسيقات الإخراج المدعومة**
 
-القائمة الكاملة لتنسيقات الإخراج التي يدعمها Aspose.Cells for SharePoint هي:
+القائمة الكاملة لتنسيقات الإخراج المدعومة بواسطة Aspose.Cells for SharePoint هي:
 
-- PDF - مستند Adobe المحمول
-- XLS-Microsoft إكسل 97-2003
-- XLSX - Office Open XML
-- XLSM - تم تمكين Office Open XML لوحدات الماكرو
-- TXT - نص عادي
-- XML - Microsoft Excel SpreadsheetML
-- ODS - OpenDocument
-- CSV - قيم مفصولة بفواصل
-- XLSB-Microsoft إكسل ثنائي 2007
-- MHTML - ملحق بريد الإنترنت متعدد الأغراض HTML
-- XPS - مواصفات ورق XML
-- TIFF - تنسيق ملف الصورة الموسوم
-- SVG - رسومات موجهة قابلة للتحجيم
-- DIF - تنسيق تبادل الرسم
+- PDF – مستند محمول من أدوبي
+- XLS – Microsoft Excel 97 - 2003
+- XLSX – Office Open XML
+- XLSM – Office Open XML for macros enabled
+- TXT – Plain Text
+- XML – Microsoft Excel SpreadsheetML
+- ODS – OpenDocument
+- CSV – Comma Separated Values
+- XLSB – Microsoft Excel Binary 2007
+- MHTML – Multipurpose Internet Mail Extension HTML
+- XPS – XML Paper Specification
+- TIFF – Tagged Image File Format
+- SVG – Scalable Vector Graphics
+- DIF – Drawing Interchange Format
 
-**يتم سرد تنسيقات التحويل المدعومة المتوفرة لملف** 
+**التنسيقات التحويلية المدعومة المتاحة لملف معين مُدرجة** 
 
-![ما يجب القيام به: image_بديل_نص](multiple-format-support_1.png)
+![todo:image_alt_text](multiple-format-support_1.png)

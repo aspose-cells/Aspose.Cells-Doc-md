@@ -1,30 +1,31 @@
 ---
 title: Bestäm vilken axel som finns i diagrammet
-description: Lär dig hur du avgör vilken axel som finns i ett diagram skapat med Aspose.Cells for .NET. Vår guide hjälper dig att förstå hur du identifierar och kommer åt de olika axlarna i ett diagram, inklusive kategori, värde och sekundära axlar.
-keywords: Aspose.Cells for .NET, chart, axis, existence, category, value, secondary.
+description: Lär dig hur du bestämmer vilken axel som finns i ett diagram som skapats med Aspose.Cells for .NET. Vår guide hjälper dig att förstå hur du identifierar och får åtkomst till de olika axlarna i ett diagram, inklusive kategori , värde och sekundära axlar.
+keywords: Aspose.Cells for .NET, diagram, axel, existens, kategori, värde, sekundär.
 type: docs
 weight: 140
 url: /sv/net/determine-which-axis-exists-in-the-chart/
 ---
+
 {{% alert color="primary" %}}
 
-Ibland behöver användaren veta om en viss axel finns i diagrammet. Till exempel vill han veta om en sekundär värdeaxel finns i diagrammet eller inte. Vissa diagram som Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded, etc. har ingen axel.
+Ibland behöver användaren veta om en särskild axel finns i diagrammet. Till exempel vill han veta om det finns en sekundär värdeaxel i diagrammet eller inte. Vissa diagram som tartdiagram, uppdelat tårtordiagram, sammanfogat tårtordiagram, tårt- stapeldiagram, 3D-tartdiagram, 3D-uppdelat tårtordiagram, ringdiagram, uppdelat ringdiagram, etc. har inte en axel.
 
- Aspose.Cells tillhandahåller[**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) metod för att avgöra om diagrammet har en viss axel eller inte.
+Aspose.Cells tillhandahåller [**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) metod för att avgöra om diagrammet har en specifik axel eller inte.
 
 {{% /alert %}}
 
- Följande exempelkod visar användningen av[**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis)för att avgöra om provdiagrammet har primär och sekundär kategori och värdeaxel.
+Följande exempelkodvisar användningen av [**Chart.HasAxis(AxisType axisType, bool isPrimary)**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/hasaxis) för att avgöra om det provisoriska diagrammet har primära och sekundära kategori- och värdeaxlar.
 
-##  C# kod för att avgöra vilken axel som finns i diagrammet
+## C#-kod för att avgöra vilken axel som finns i diagrammet
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-DetermineAxisInChart-DetermineAxisInChart.cs" >}}
 
-## Konsolutdata genererad av exempelkoden
+## Konsolutdata som genereras av exempelkoden
 
-Konsolutmatningen av koden har visats nedan som visar sant för primär kategori och värdeaxel och falskt för sekundär kategori och värdeaxel.
+Konsolens utmatning av koden visas nedan, vilket visar true för primär kategori- och värdeaxel och false för sekundär kategori- och värdeaxel.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Has Primary Category Axis: True
 

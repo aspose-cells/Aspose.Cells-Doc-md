@@ -1,14 +1,15 @@
-﻿---
-title: Kopiera arbetsblad i en arbetsbok
+---
+title: Kopiera kalkylblad inom en arbetsbok
 type: docs
 weight: 20
 url: /sv/net/copy-worksheets-within-a-workbook/
 ---
-**Aspose.Cells** ger en överbelastad metod,**Aspose.Cells.WorksheetCollection.AddCopy()**, som används för att lägga till ett kalkylblad till samlingen och kopierar data från ett befintligt kalkylblad. En version av metoden tar källarkets index som en parameter. Den andra versionen tar namnet på källarbetsbladet som parameter.
 
-Följande exempel visar hur man kopierar ett befintligt kalkylblad i en arbetsbok.
+**Aspose.Cells** tillhandahåller en överlagrad metod, **Aspose.Cells.WorksheetCollection.AddCopy()**, som används för att lägga till ett kalkylblad i samlingen och kopiera data från ett befintligt kalkylblad. En version av metoden tar index för källkalkylbladet som parameter. Den andra versionen tar namnet på källkalkylbladet som parameter.
 
-{{< highlight "csharp" >}}
+Det följande exemplet visar hur man kopierar ett befintligt kalkylblad inom en arbetsbok.
+
+{{< highlight csharp >}}
 
  //Create a new Workbook.
 
@@ -33,6 +34,6 @@ sheets.AddCopy("MySheet");
 wb.Save("Copy Worksheet.xls");
 
 {{< /highlight >}}
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Copy%20Worksheet%20%28Aspose.Cells%29.zip)

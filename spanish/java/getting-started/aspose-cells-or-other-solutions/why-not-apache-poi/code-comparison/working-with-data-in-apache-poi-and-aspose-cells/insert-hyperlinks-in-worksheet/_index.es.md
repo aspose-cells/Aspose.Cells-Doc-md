@@ -1,17 +1,18 @@
-﻿---
+---
 title: Insertar hipervínculos en la hoja de trabajo
 type: docs
 weight: 20
 url: /es/java/insert-hyperlinks-in-worksheet/
 ---
-## **Aspose.Cells - Insertar hipervínculos en la hoja de trabajo**
-**Agregar un enlace a un Cell en el mismo archivo**
 
-Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al método Add de la colección Hyperlink. El método Agregar funciona tanto para hipervínculos internos como externos.
+## **Aspose.Cells - Insertar hipervínculos en la hoja de trabajo**
+**Agregar un enlace a una celda en el mismo archivo**
+
+Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al método Agregar de la colección de hipervínculos. El método Agregar funciona tanto para hipervínculos internos como externos.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Obtaining the reference of the first worksheet.
 
@@ -50,16 +51,16 @@ hyperlinks.add("A2",1 ,1, "Sheet1!B9");
 
 **Agregar un enlace a un archivo externo**
 
-Es posible agregar hipervínculos a archivos de Excel externos llamando al método Agregar de la colección Hipervínculos. El método Add toma los siguientes parámetros:
+Es posible agregar hipervínculos a archivos externos de Excel llamando al método Add de la colección Hyperlinks. El método Add toma los siguientes parámetros:
 
-- Cell nombre, el nombre de la celda a la que se agregará el hipervínculo.
+- Nombre de la celda, el nombre de la celda a la que se agregará el hipervínculo.
 - Número de filas, el número de filas en este rango de hipervínculo.
 - Número de columnas, el número de columnas en este rango de hipervínculo.
-- URL, la dirección del destino, archivo de Excel externo.
+- URL, la dirección del destino, archivo externo de Excel.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  cell = cells.get("A3");
 
@@ -74,10 +75,10 @@ hyperlinks = sheet.getHyperlinks();
 hyperlinks.add("A3", 1, 1, "book1.xls");
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Insertar hipervínculos en la hoja de trabajo**
+## **Apache POI SS - HSSF XSSF - Insertar hipervínculos en la hoja de cálculo**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  CellStyle hlink_style = wb.createCellStyle();
 
@@ -158,8 +159,8 @@ cell.setHyperlink(link2);
 cell.setCellStyle(hlink_style);
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/hyperlink)
 

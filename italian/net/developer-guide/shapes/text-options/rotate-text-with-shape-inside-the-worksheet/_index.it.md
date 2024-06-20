@@ -1,19 +1,20 @@
-﻿---
-title: Ruota il testo con la forma all'interno del foglio di lavoro
+---
+title: Ruota il testo con la forma all interno del foglio di lavoro
 type: docs
 weight: 1300
 url: /it/net/rotate-text-with-shape-inside-the-worksheet/
 ---
-## **Possibili scenari di utilizzo**
 
-Puoi aggiungere testo all'interno di qualsiasi forma utilizzando Microsoft Excel. Se aggiungi la forma usando il vecchio Excel 2003 Microsoft, il testo non ruoterà con la forma. Ma se aggiungi la forma utilizzando le versioni più recenti di Microsoft Excel, ad esempio 2007, 2010, 2013 o 2016, ecc., il testo ruoterà con la forma. Puoi controllare se il testo deve ruotare con la forma o meno usando il[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape) proprietà. Il valore predefinito è**VERO**il che significa che il testo ruoterà con la forma ma se lo imposti come**falso**, il testo non ruoterà con la forma.
+## **Possibili Scenari di Utilizzo**
+
+È possibile aggiungere del testo all'interno di qualsiasi forma utilizzando Microsoft Excel. Se si aggiunge la forma utilizzando la vecchissima Microsoft Excel 2003, il testo non ruoterà con la forma. Ma se si aggiunge la forma utilizzando le versioni più recenti di Microsoft Excel come ad esempio 2007, 2010, 2013 o 2016, ecc., allora il testo ruoterà con la forma. È possibile controllare se il testo deve ruotare con la forma o meno utilizzando la proprietà [**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape). Il valore predefinito è **true**, il che significa che il testo ruoterà con la forma, ma se lo imposti su **false**, il testo non ruoterà con la forma.
 
 ## **Ruota il testo con la forma all'interno del foglio di lavoro**
 
- Il codice di esempio seguente carica il file[esempio di file Excel](64716896.xlsx) che ha una forma triangolare e il suo testo ruota con la forma. Se apri il file Excel di esempio in Microsoft Excel e ruoti la forma triangolare, anche il testo ruoterà con esso. Il codice quindi imposta il[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape) proprietà come**falso** e lo salva come[file Excel di output](64716897.xlsx). Se ora apri il file Excel di output in Microsoft Excel e ruoti la forma triangolare, il testo non ruoterà con esso. Si prega di vedere lo screenshot seguente che mostra l'effetto del codice sul file Excel di esempio per un riferimento.
+Il seguente codice di esempio carica il [file di Excel di esempio](64716896.xlsx) che contiene una forma triangolare e il suo testo ruota con la forma. Se apri il file di Excel di esempio in Microsoft Excel e ruoti la forma triangolare, il testo ruoterà anche con essa. Il codice imposta quindi la proprietà [**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape) su **false** e lo salva come [file di Excel di output](64716897.xlsx). Se apri ora il file di Excel di output in Microsoft Excel e ruoti la forma triangolare, il testo non ruoterà con essa. Si prega di vedere la seguente schermata che mostra l'effetto del codice sul file di Excel di esempio per riferimento.
 
-![cose da fare:immagine_alt_testo](rotate-text-with-shape-inside-the-worksheet_1.png)
+![todo:image_alt_text](rotate-text-with-shape-inside-the-worksheet_1.png)
 
-## **Codice d'esempio**
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-RotateTextWithShapeInsideWorksheet.cs" >}}

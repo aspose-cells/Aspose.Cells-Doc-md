@@ -1,16 +1,17 @@
-﻿---
-title: Excel の変換の進行状況を TIFF に追跡する
+---
+title: ExcelからTIFFへの変換の進行状況を追跡
 type: docs
 weight: 140
 url: /ja/java/track-conversion-progress-of-excel-to-tiff/
 ---
-## **考えられる使用シナリオ**
 
-大きな Excel ファイルの変換には時間がかかる場合があります。この間、ロード画面だけでなく、ドキュメント変換の進行状況を表示して、アプリケーションの使いやすさを向上させたい場合があります。 Aspose.Cells は、ドキュメント変換プロセスの追跡をサポートします。**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**インターフェース。の**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**インターフェイスが提供する**[PageStartSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipage Savingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs))**と**[PageEndSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipage Savingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs))**カスタム クラスに実装できるメソッド。で示されているように、どのページをレンダリングするかを制御することもできます。*TestTiffPageSavingCallback*カスタムクラス。
+## **可能な使用シナリオ**
 
-## **Excel の変換の進行状況を TIFF に追跡する**
+大きなExcelファイルを変換するときは時間がかかることがあります。この間、アプリケーションの使いやすさを向上させるために、単なるローディング画面ではなく文書変換の進行状況を表示したいと思うかもしれません。Aspose.Cellsは、[**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) インターフェースを提供することで文書変換の進行状況を追跡できます。[**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) インターフェースは、カスタムクラスで実装することができる [**PageStartSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs)) と [**PageEndSaving**](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs)) のメソッドを提供します。また、*TestTiffPageSavingCallback* カスタムクラスで示されているように、どのページをレンダリングするかを制御することもできます。
 
-次のコード サンプルは、[ソースエクセルファイル](sampleUseWorkbookRenderForImageConversion.xlsx)を使用して、変換の進行状況をコンソールに出力します。*TestTiffPageSavingCallback*を実装するカスタムクラス**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**インターフェース。参照用に、生成された出力ファイルを添付します。
+## **ExcelからTIFFへの変換の進行状況を追跡**
+
+次のコードサンプルは、*TestTiffPageSavingCallback* カスタムクラスを実装して、[**IPageSavingCallback**](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback) インターフェースを使用して、[ソースのExcelファイル](sampleUseWorkbookRenderForImageConversion.xlsx)をロードし、変換の進行状況をコンソールに印刷します。生成された出力ファイルは添付しています。
 
 [出力ファイル](DocumentConversionProgressForTiff_out.tiff)
 
@@ -18,27 +19,30 @@ url: /ja/java/track-conversion-progress-of-excel-to-tiff/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgressForTiff-1.java" >}}
 
-以下は、*TestTiffPageSavingCallback*カスタムクラス。
+以下は*TestTiffPageSavingCallback* カスタムクラスのコードです。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-DocumentConversionProgressForTiff-2.java" >}}
 
 ## **コンソール出力**
 
-ページ 10 のページ インデックス 0 の保存を開始します</br>
-ページ 10 のページ インデックス 0 の保存を終了します</br>
-ページ 10 のページ インデックス 1 の保存を開始します</br>
-10 ページ中のページ インデックス 1 の保存を終了</br>
-ページ 10 のページ インデックス 2 の保存を開始します</br>
-ページ 10 のページ インデックス 2 の保存を終了します</br>
-10 ページのページ インデックス 3 の保存を開始します</br>
-ページ 10 のページ インデックス 3 の保存を終了します</br>
-ページ 10 のページ インデックス 4 の保存を開始します</br>
-ページ 10 のページ インデックス 4 の保存を終了します</br>
-ページ 10 のページ インデックス 5 の保存を開始します</br>
-ページ 10 のページ インデックス 5 の保存を終了します</br>
-ページ 10 のページ インデックス 6 の保存を開始します</br>
-ページ 10 のページ インデックス 6 の保存を終了します</br>
-ページ 10 のページ インデックス 7 の保存を開始します</br>
-ページ 10 のページ インデックス 7 の保存を終了します</br>
-ページ 10 のページ インデックス 8 の保存を開始します</br>
-ページ 10 のページ インデックス 8 の保存を終了します
+{{< highlight java >}}
+Start saving page index 0 of pages 10</br>
+End saving page index 0 of pages 10</br>
+Start saving page index 1 of pages 10</br>
+End saving page index 1 of pages 10</br>
+Start saving page index 2 of pages 10</br>
+End saving page index 2 of pages 10</br>
+Start saving page index 3 of pages 10</br>
+End saving page index 3 of pages 10</br>
+Start saving page index 4 of pages 10</br>
+End saving page index 4 of pages 10</br>
+Start saving page index 5 of pages 10</br>
+End saving page index 5 of pages 10</br>
+Start saving page index 6 of pages 10</br>
+End saving page index 6 of pages 10</br>
+Start saving page index 7 of pages 10</br>
+End saving page index 7 of pages 10</br>
+Start saving page index 8 of pages 10</br>
+End saving page index 8 of pages 10
+
+{{< /highlight >}}

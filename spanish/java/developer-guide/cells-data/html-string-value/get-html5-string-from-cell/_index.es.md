@@ -1,24 +1,25 @@
-﻿---
-title: Obtener cadena HTML5 de Cell
+---
+title: Obtener cadena HTML5 de la Celda
 type: docs
 weight: 90
 url: /es/java/get-html5-string-from-cell/
 ---
-## **Posibles escenarios de uso**
 
-Aspose.Cells devuelve la cadena HTML de la celda usando el[**getHtmlString(booleano html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)método. si pasas**falso**como parámetro te devolverá Normal HTML pero si pasas**verdadero**como parámetro, devolverá una cadena HTML5.
+## **Escenarios de uso posibles**
 
-## **Obtener cadena HTML5 de Cell**
+Aspose.Cells devuelve la cadena HTML de la celda usando el método [**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString). Si pasas **false** como parámetro, te devolverá HTML Normal pero si pasas **true** como parámetro, te devolverá la cadena HTML5.
 
-El código de ejemplo siguiente crea un objeto de libro y agrega texto en la celda A1 de la primera hoja de cálculo. Luego obtiene la cadena Normal HTML y HTML5 de la celda A1 usando el[**getHtmlString(booleano html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)método y los imprime en la consola.
+## **Obtener cadena HTML5 de la Celda**
+
+El siguiente código de muestra crea un objeto workbook y agrega texto en la celda A1 de la primera hoja de trabajo. Luego obtiene la cadena HTML Normal y HTML5 de la celda A1 usando el método [**getHtmlString(boolean html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) e imprime en la consola.
 
 ## **Código de muestra**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-GetHTML5StringFromCell.java" >}}
 
-## **Salida de consola**
+## **Salida de la consola**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Normal:
 

@@ -1,21 +1,22 @@
-﻿---
-title: Agregue una referencia de biblioteca al proyecto VBA en el libro de trabajo
+---
+title: Agregar una referencia de biblioteca al proyecto VBA en el libro
 type: docs
 weight: 80
 url: /es/net/add-a-library-reference-to-vba-project-in-workbook/
 ---
+
 {{% alert color="primary" %}}
 
- A veces, debe agregar o registrar la referencia de la biblioteca al proyecto de VBA a través del código. Puedes hacerlo usando el Aspose.Cells[**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference) método.
+A veces, es necesario agregar o registrar la referencia de la biblioteca en el proyecto VBA a través del código. Puedes hacerlo usando el método [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference) de Aspose.Cells.
 
 {{% /alert %}}
 
-## **Agregue una referencia de biblioteca al proyecto VBA en Microsoft Excel**
+## **Agrega una referencia de la biblioteca al proyecto VBA en Microsoft Excel**
 
- En Microsoft Excel, puede agregar una referencia de biblioteca al proyecto de VBA haciendo clic en el**Herramientas > Referencias...** a mano.
+En Microsoft Excel, puedes agregar una referencia de la biblioteca al proyecto VBA haciendo clic en **Herramientas > Referencias...** manualmente.
 
-## **Agregue una referencia de biblioteca al proyecto de VBA en un libro de trabajo usando Aspose.Cells**
+## **Agrega una referencia de la biblioteca al proyecto VBA en un libro usando Aspose.Cells**
 
- El siguiente código de muestra agrega o registra dos referencias de biblioteca al proyecto de VBA del libro de trabajo usando[**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference)método.
+El siguiente código de muestra agrega o registra dos referencias de biblioteca al proyecto VBA del libro usando el método [**VbaProject.References.AddRegisteredReference()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaprojectreferencecollection/methods/addregisteredreference).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddLibraryReferenceToVbaProject-1.cs" >}}

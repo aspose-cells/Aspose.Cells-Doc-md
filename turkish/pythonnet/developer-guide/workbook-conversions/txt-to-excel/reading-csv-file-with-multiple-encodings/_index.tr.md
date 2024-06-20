@@ -1,37 +1,38 @@
 ---
-title: CSV Dosyasını Çoklu Kodlamalarla Okumak
+title: Birden Fazla Kodlama ile CSV Dosyasını Okuma
 type: docs
 weight: 200
 url: /tr/python-net/reading-csv-file-with-multiple-encodings/
-description: Aspose.Cells for Python via .NET API kullanarak CSV Çoklu Kodlamalı Dosyayı Okuma.
-keywords: Python Reading CSV File with Multiple Encodings, Convert CSV File with Multiple Encodings to Excel in Python via NET, Python convert CSV File with Multiple Encodings to xlsx, Load CSV File with Multiple Encodings to Excel file.
+description: Aspose.Cells for Python via .NET API sını kullanarak Birden Fazla Kod Çözme Biçimine Sahip CSV Dosyasını Okuma.
+keywords: Python da Birden Fazla Kod Çözme Biçimine Sahip CSV Dosyasını Okuma, Python da Birden Fazla Kod Çözme Biçimine Sahip CSV Dosyasını Excel e dönüştürme via NET, Python da Birden Fazla Kod Çözme Biçimine Sahip CSV Dosyasını xlsx ye dönüştürme, Excel dosyasına Birden Fazla Kod Çözme Biçimine Sahip CSV Dosyası Yükleme
 ---
+
 {{% alert color="primary" %}}
 
-Bazen CSV dosyanız birden fazla Kodlama (Unicode, ANSI, UTF8, UTF7 vb.) içerir. Aspose.Cells, bu tür CSV dosyalarını yüklemenize ve bunları diğer formatlara (örneğin PDF veya XLSX) dönüştürmenize olanak tanır.
+Bazı durumlarda, CSV dosyanız birden fazla Kodlama (Unicode, ANSI, UTF8, UTF7, vb.) içerir. Aspose.Cells, bu tür CSV dosyalarını yüklemenize ve bunları diğer formatlara, örneğin PDF veya XSLX'ye dönüştürmenize izin verir.
 
 {{% /alert %}}
 
- Aspose.Cells şunları sağlar[**TxtLoadOptions.is_multi_encoded**](https://reference.aspose.com/cells/python-net/aspose.cells/txtloadoptions/is_multi_encoded/) ayarlamanız gereken özellik**doğru** CSV dosyanızı birden fazla kodlamayla düzgün şekilde yüklemek için.
+Aspose.Cells, CSV dosyanızı çoklu kodlamalarla doğru şekilde yüklemek için [**TxtLoadOptions.is_multi_encoded**](https://reference.aspose.com/cells/python-net/aspose.cells/txtloadoptions/is_multi_encoded/) özelliğini **true** olarak ayarlamalısınız.
 
- Aşağıdaki ekran görüntüsünde iki satır içeren örnek bir CSV dosyası gösterilmektedir. İlk satır içeride**ANSI** kodlama ve ikinci satır**Unicode** kodlama
+Aşağıdaki ekran görüntüsü, iki satır içeren örnek bir CSV dosyasını gösterir. İlk satır **ANSI** kodlamasındadır ve ikinci satır **Unicode** kodlamasındadır
 
 |**Giriş dosyası**|
 | :- |
-|![yapılacak şey:image_alt_text](reading-csv-file-with-multiple-encodings_1.png)|
+|![todo:image_alt_text](reading-csv-file-with-multiple-encodings_1.png)|
 
-Aşağıdaki ekran görüntüsü, yukarıdaki CSV dosyasından dönüştürülen XLSX dosyasını,[**TxtLoadOptions.is_multi_encoded**](https://reference.aspose.com/cells/python-net/aspose.cells/txtloadoptions/is_multi_encoded/)özelliği *true** olarak değiştirin. Gördüğünüz gibi Unicode metni düzgün şekilde dönüştürülmedi.
+Yukarıdaki CSV dosyasından dönüştürülen XLSX dosyasını gösteren aşağıdaki ekran görüntüsü, [**TxtLoadOptions.is_multi_encoded**](https://reference.aspose.com/cells/python-net/aspose.cells/txtloadoptions/is_multi_encoded/) özelliğinin **true** olarak ayarlanmaması durumunda Unicode metninin düzgün şekilde dönüştürülmediğini gösterir.
 
-|**Çıkış dosyası 1: çoklu kodlama için herhangi bir düzenleme yapılmadı**|
+|**Çıktı dosyası 1: çoklu kodlamalar için herhangi bir düzenleme yapılmamıştır**|
 | :- |
-|![yapılacak şey:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)|
+|![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)|
 
- Aşağıdaki ekran görüntüsü, yukarıdaki CSV dosyasından dönüştürülen XSLX dosyasını göstermektedir.[**TxtLoadOptions.is_multi_encoded**](https://reference.aspose.com/cells/python-net/aspose.cells/txtloadoptions/is_multi_encoded/)özelliği *true** olarak değiştirin. Gördüğünüz gibi Unicode metni artık düzgün bir şekilde dönüştürüldü.
+Aşağıdaki ekran görüntüsü, [**TxtLoadOptions.is_multi_encoded**](https://reference.aspose.com/cells/python-net/aspose.cells/txtloadoptions/is_multi_encoded/) özelliğinin **true** olarak ayarlandıktan sonra yukarıdaki CSV dosyasından dönüştürülen XSLX dosyasını gösterir. Bu ekran görüntüsünde, Unicode metninin düzgün şekilde dönüştürüldüğünü görebilirsiniz.
 
-|**Çıkış dosyası 2: IsMultiEncoded true olarak ayarlandı**|
+|**Çıktı dosyası 2: IsMultiEncoded true olarak ayarlandı**|
 | :- |
-|![yapılacak şey:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)|
+|![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)|
 
-Yukarıdaki CSV dosyasını düzgün bir şekilde XLSX formatına dönüştüren örnek kod aşağıdadır.
+Aşağıdaki örnek kod, yukarıdaki CSV dosyasını XLSX formatına uygun bir şekilde dönüştürür.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Txt-ReadingCSVMultipleEncodings-1.py" >}}

@@ -1,28 +1,29 @@
-﻿---
-title: Genel API Aspose.Cells 8.6.1'deki değişiklikler
+---
+title: Aspose.Cells 8.6.1 de Genel API Değişiklikleri
 type: docs
 weight: 210
 url: /tr/java/public-api-changes-in-aspose-cells-8-6-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürümünde 8.6.0'dan 8.6.1'e modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen sınıfları değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek Aspose.Cells API'sındaki değişiklikleri, sürüm 8.6.0'dan 8.6.1'e, yeni ve güncellenmiş genel yöntemler, eklenecek sınıflar ve ayrıca Aspose.Cells arka plandaki davranışındaki herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **HTML Bağlantı Hedefi Türü Desteği**
- Aspose.Cells for Java API'in bu sürümü, birlikte izin veren yeni bir özellik olan HtmlSaveOptions.LinkTargetType ile birlikte HtmlLinkTargetType adında bir numaralandırma ortaya çıkardı.[HTML formatına dönüştürürken e-tablodaki bağlantılar için hedef tipini ayarlayın](/cells/tr/java/change-the-html-link-target-type/). Varsayılan değerin SELF olduğu HtmlLinkTargetType numaralandırmasının olası değerleri aşağıdaki gibidir.
+## **Eklenen API'lar**
+### **HTML Bağlantı Hedef Türü Desteği**
+Bu Aspose.Cells for Java API sürümü, HTML biçimine dönüştürülürken elektronik tablolardaki bağlantılar için HTMLLinkTargetType adlı bir numaralandırmayı ortaya çıkardı ve HtmlSaveOptions.LinkTargetType adlı yeni bir özelliği hem de bağlantıların hedef türünü ayarlamayı sağlar. HTMLLinkTargetType numaralandırmasının mümkün değerleri şunlardır ve varsayılan değer SELF'tir.
 
-1. HtmlLinkTargetType.BLANK: Bağlantı verilen belgeyi/sayfayı yeni bir pencerede veya sekmede açar.
-1. HtmlLinkTargetType.PARENT: Bağlı belgeyi/sayfayı ana çerçevede açar.
-1. HtmlLinkTargetType.SELF: Bağlantı verilen belgeyi/sayfayı, bağlantının tıklandığı çerçevede açar.
-1. HtmlLinkTargetType.TOP: Bağlantılı belgeyi/sayfayı pencerenin tam gövdesinde açar.
+1. HtmlLinkTargetType.BLANC: Bağlantıdaki belge/sayfayı yeni bir pencerede veya sekmede açar.
+1. HtmlLinkTargetType.PARENT: Bağlantıdaki belge/sayfayı üst çerçevede açar.
+1. HtmlLinkTargetType.SELF: Bağlantıdaki belge/sayfayı, bağlantının tıklandığı çerçevede açar.
+1. HtmlLinkTargetType.TOP: Bağlantıdaki belge/sayfayı pencerenin tam gövdesinde açar.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -42,14 +43,14 @@ options.setLinkTargetType(HtmlLinkTargetType.BLANK);
 workbook.save(outputFilePath, options);
 
 {{< /highlight >}}
-### **Yöntem VbaModuleCollection.remove Eklendi**
-Aspose.Cells for Java 8.6.1, VbaModuleCollection.remove yönteminin başka bir aşırı yüklemesini ortaya çıkardı ve artık belirtilen Çalışma Sayfası ile ilişkili tüm VBA modüllerini kaldırmak için bir Çalışma Sayfası örneğini kabul edebilir.
+### **VbaModuleCollection.remove Yöntemi Eklendi**
+Aspose.Cells for Java 8.6.1, VbaModuleCollection.remove yönteminin başka bir aşırı yüklemesini ortaya çıkardı; bu yöntem, belirtilen Çalışsayfa ile ilişkili tüm VBA modüllerini kaldırmak için bir Worksheet örneğini kabul edebilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -64,14 +65,14 @@ VbaModuleCollection modules = workbook.getVbaProject().getModules();
 modules.remove(workbook.getWorksheets().get(0));
 
 {{< /highlight >}}
-### **Yöntem RangeCollection.add Eklendi**
-Aspose.Cells for Java 8.6.1, belirli bir Çalışma Sayfası için aralık koleksiyonuna Range nesneleri eklemek için kullanılabilecek RangeCollection.Add yöntemini kullanıma sundu.
+### **RangeCollection.add Yöntemi Eklendi**
+Aspose.Cells for Java 8.6.1, RangeCollection.Add yöntemini ortaya çıkardı; bu yöntem, belirli bir Çalışsayfa için bir aralık nesneleri koleksiyonuna aralık nesneleri eklemek için kullanılabilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -90,14 +91,14 @@ RangeCollection ranges = cells.getRanges();
 ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
-### **Yöntem Cell.setCharacters Eklendi**
- Cell.setCharacters yöntemi şu amaçlarla kullanılabilir:[zengin metnin bölümlerini güncelleme](/cells/tr/java/access-and-update-the-portions-of-rich-text-of-cell/) belirli bir Cell nesnesinin. Cell.getCharacters metodu ile metnin bölümlerine ulaşılır ve sonrasında Cell.setCharacters metodu ile değişiklikler yapılabilir.**elde etmek** yöntemi, yazı tipi adı, yazı tipi rengi, kalınlık vb. çeşitli özellikleri ayarlamak için kullanılabilecek bir FontSetting nesneleri dizisi döndürür ve**ayarlamak** Yöntem, değişiklikleri uygulamak için kullanılabilir.
+### **Cell.setCharacters Yöntemi Eklendi**
+Cell.setCharacters yöntemi, bir verilen Cell öğesinin zengin metnin kısımlarını güncellemek için kullanılabilir. Cell.getCharacters yöntemi, metnin kısımlarına erişmek için kullanılır ve ardından değişiklikler Cell.setCharacters yöntemiyle yapılabilirken **get** yöntemi, farklı özellikler font adı, font rengi, kalınlık vb. ayarlamak için manipüle edilebilecek bir FontSetting nesneleri dizisi döndürür ve **set** yöntemi, değişiklikleri uygulamak için kullanılabilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -113,7 +114,7 @@ Cell cell = worksheet.getCells().get("A1");
 
 //Retrieve the array of FontSetting from the cell
 
-FontSetting[]settings = cell.getCharacters();
+FontSetting[] settings = cell.getCharacters();
 
 //Modify the Font Name for the first FontSetting 
 
@@ -124,14 +125,14 @@ settings[0].getFont().setName("Arial");
 cell.setCharacters(settings);
 
 {{< /highlight >}}
-### **Özellik VbaProject.isSigned Eklendi**
- Aspose.Cells for Java 8.6.1, şu amaçlarla kullanılabilecek VbaProject.isSigned özelliğini kullanıma sundu:[Çalışma Kitabındaki bir VbaProject'in imzalanıp imzalanmadığını test edin](/cells/tr/java/check-if-vba-project-in-a-workbook-is-signed/)Boole tipi özelliği, proje imzalanmışsa true değerini döndürür.
+### **VbaProject.isSigned Özelliği Eklendi**
+Aspose.Cells for Java 8.6.1, VbaProject.isSigned özelliğini ortaya çıkardı; bu özellik, bir Workbook içindeki bir VbaProject'in imzalı olup olmadığını test etmek için kullanılabilir. Boolean tipinde özellik, proje imzalanmışsa true döndürür.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -160,9 +161,9 @@ else
 }
 
 {{< /highlight >}}
-## **Değiştirilmiş API'ler**
-### **Yöntem Cell.getFormatConditions Değiştirildi**
-v8.6.1 sürümüyle, Aspose.Cells for Java API, artık FormatConditionCollection türünde bir dizi döndüren Cell.getFormatConditions yönteminin dönüş türünü değiştirdi.
-## **Eski API'ler**
-### **Yöntem Workbook.checkWriteProtectedPassword Eskimiş**
-v8.6.1 sürümüyle birlikte, Workbook.checkWriteProtectedPassword yöntemi amortismana tabi tutuldu olarak işaretlendi. Bir String değerini parametre olarak kabul edebilen ve parola elektronik tablonun önceden ayarlanmış parolasıyla eşleşirse Boolean döndüren WorkbookSettings.WriteProtection.validatePassword yönteminin kullanılması önerilir.
+## **Değiştirilmiş API'lar**
+### **Modified Cell.getFormatConditions Metodu**
+V8.6.1 sürümüyle birlikte, Aspose.Cells for Java API, Cell.getFormatConditions metodunun dönüş türünü değiştirmiştir ve artık FormatConditionCollection türünde bir dizi döndürmektedir.
+## **Eskimiş API'lar**
+### **Eski Workbook.checkWriteProtectedPassword Metodu**
+V8.6.1 sürümüyle birlikte, Workbook.checkWriteProtectedPassword metodu iptal edilmiştir. İt is advised to use the WorkbookSettings.WriteProtection.validatePassword method that can accept a String value as parameter and returns Boolean if password matches the preset password of the spreadsheet.

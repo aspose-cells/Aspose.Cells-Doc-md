@@ -1,15 +1,16 @@
-﻿---
-title: Jthon でファイルを開く
+---
+title: Jython でファイルを開く
 type: docs
 weight: 70
 url: /ja/java/opening-files-in-jython/
 ---
+
 ## **Aspose.Cells - ファイルを開く**
-を使用してドキュメントを追加するには**Aspose.Cells Jython の場合は Java**.ここでサンプルコードを見ることができます。
+**Aspose.Cells Java for Jython**を使用してドキュメントを追加します。ここでは例を示します。
 
-**Jython コード**
+**Jythonコード**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -189,7 +190,7 @@ if __name__ == '__main__':
     OpeningFiles()
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**添付書類 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下に示すいずれかのソーシャルコーディングサイトから**Aspose.Cellsのドキュメントを追加する**をダウンロード:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/OpeningFiles.py)

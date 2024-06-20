@@ -1,28 +1,29 @@
-﻿---
-title: Conserva il prefisso delle virgolette singole del valore o intervallo Cell
+---
+title: Conserva il prefisso apice singolo del valore della cella o dell intervallo
 type: docs
 weight: 1900
 url: /it/java/preserve-single-quote-prefix-of-cell-value-or-range/
 ---
-## **Possibili scenari di utilizzo**
 
-Quando inserisci un valore all'interno della cella che ha l'apostrofo iniziale o le virgolette singole, Microsoft Excel lo nasconde, ma quando selezioni la cella, visualizza l'apostrofo iniziale o le virgolette singole in una barra della formula come mostrato nello screenshot seguente.
+## **Possibili Scenari di Utilizzo**
 
-![cose da fare:immagine_alt_testo](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
+Quando si inserisce un valore dentro la cella che ha un apice iniziale o un simbolo di apice singolo, Microsoft Excel lo nasconde, ma quando si seleziona la cella, visualizza il prefisso apice in un formula bar come mostrato nella seguente schermata.
 
-Aspose.Cells nasconde anche l'apostrofo iniziale o le virgolette singole come Microsoft Excel ma imposta il[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) come**VERO** per quella cella Se imposti uno stile vuoto della cella, allora[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) diventa**falso** ancora. Per far fronte a questo problema, Aspose.Cells fornisce[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) proprietà, quando è impostata**falso**, poi[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)non viene affatto aggiornato e il suo vecchio valore viene preservato. Significa se il vecchio valore di[**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)proprietà era**VERO**, rimarrà vero e se il vecchio valore era falso, rimarrà falso.
+![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-## **Conserva il prefisso delle virgolette singole del valore o intervallo Cell**
+Aspose.Cells nasconde anche l'apostrofo iniziale o il singolo segno di citazione come Microsoft Excel ma imposta il [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) come **true** per quella cella. Se si imposta uno stile vuoto della cella, allora [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) diventa nuovamente **false**. Per affrontare questo problema, Aspose.Cells fornisce la proprietà [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix), quando impostata su **false**, allora [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) non viene affatto aggiornata e il suo vecchio valore viene preservato. Significa che se il vecchio valore della proprietà [**Style.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix) era **true**, rimarrà true e se il vecchio valore era false, rimarrà false.
 
-Il seguente codice di esempio spiega l'utilizzo di[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix)proprietà come descritto in precedenza. Si prega di leggere i commenti all'interno del codice e vedere l'output della console del codice indicato di seguito per ulteriore aiuto.
+## **Conserva il prefisso apice singolo del valore della cella o dell'intervallo**
 
-## **Codice d'esempio**
+Il seguente codice di esempio spiega l'utilizzo della proprietà [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#QuotePrefix) come descritto in precedenza. Si prega di leggere i commenti all'interno del codice e vedere l'output della console del codice qui sotto per ulteriori dettagli.
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.java" >}}
 
-## **Uscita console**
+## **Output della console**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Quote Prefix of Cell A1: false
 

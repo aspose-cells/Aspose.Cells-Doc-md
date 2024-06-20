@@ -1,25 +1,26 @@
-﻿---
-title: Implementieren Sie das 1904-Datumssystem
+---
+title: Implementieren Sie das 1904 Datensystem
 type: docs
 weight: 2000
 url: /de/java/implement-1904-date-system/
 ---
+
 {{% alert color="primary" %}} 
 
-Microsoft Excel unterstützt zwei Datumssysteme: 1900-Datumssystem (das Standarddatumssystem, das in Excel für Windows implementiert ist) und 1904-Datumssystem. Das 1904-Datumssystem wird normalerweise verwendet, um Kompatibilität mit Macintosh-Excel-Dateien bereitzustellen, und ist das Standardsystem, wenn Sie Excel für Macintosh verwenden. Sie können das 1904-Datumssystem für Excel-Dateien mit Aspose.Cells einstellen.
+Microsoft Excel unterstützt zwei Datensysteme: das 1900-Datensystem (das Standarddatensystem in Excel für Windows) und das 1904-Datensystem. Das 1904-Datensystem wird normalerweise verwendet, um die Kompatibilität mit Macintosh Excel-Dateien zu gewährleisten und ist das Standard-System, wenn Sie Excel für Macintosh verwenden. Sie können das 1904-Datensystem für Excel-Dateien mit Aspose.Cells einstellen.
 
 {{% /alert %}} 
 
-So implementieren Sie das 1904-Datumssystem in Microsoft Excel (z. B. Microsoft Excel 2003):
+Um das 1904-Datensystem in Microsoft Excel zu implementieren (zum Beispiel Microsoft Excel 2003):
 
-1.  Von dem**Werkzeug** Menü, auswählen**Optionen** , und wählen Sie die aus**Berechnung** Tab.
-1.  Wähle aus**1904 Datumssystem** Möglichkeit.
-1.  Klicken**OK**.
+1. Wählen Sie im **Extras**-Menü die Option **Optionen** und wählen Sie den Tab **Berechnung**.
+1. Wählen Sie die Option **1904-Datensystem** aus.
+1. Klicken Sie auf **OK**.
 
-   **Auswahl des Datumssystems 1904 in Microsoft Excel** 
+   **Auswählen des Datumsformats 1904 in Microsoft Excel** 
 
-![todo: Bild_alt_Text](implement-1904-date-system_1.png)
+![todo:image_alt_text](implement-1904-date-system_1.png)
 
-Im folgenden Beispielcode erfahren Sie, wie Sie dies mit Aspose.Cells-APIs erreichen.
+Sehen Sie sich den folgenden Beispielcode an, wie Sie dies mit Aspose.Cells-APIs erreichen können.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Implement1904DateSystem-Implement1904DateSystem.java" >}}

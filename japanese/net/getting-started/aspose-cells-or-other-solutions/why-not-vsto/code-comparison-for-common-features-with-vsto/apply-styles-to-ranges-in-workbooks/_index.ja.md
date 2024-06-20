@@ -1,12 +1,13 @@
-﻿---
-title: ワークブックの範囲にスタイルを適用する
+---
+title: ワークブック内の範囲にスタイルを適用
 type: docs
 weight: 40
 url: /ja/net/apply-styles-to-ranges-in-workbooks/
 ---
-以下は、ブックの行と列にスタイルを適用するコードの比較です。
+
+ワークブックの行と列にスタイルを適用するコードの比較は次のとおりです：
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -30,7 +31,7 @@ url: /ja/net/apply-styles-to-ranges-in-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 

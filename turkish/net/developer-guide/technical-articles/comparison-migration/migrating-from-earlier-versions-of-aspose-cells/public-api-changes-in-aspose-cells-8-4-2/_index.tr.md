@@ -1,23 +1,24 @@
-﻿---
-title: Genel API Aspose.Cells 8.4.2'deki değişiklikler
+---
+title: Aspose.Cells 8.4.2 de Genel API Değişiklikleri
 type: docs
 weight: 150
 url: /tr/net/public-api-changes-in-aspose-cells-8-4-2/
 ---
+
 {{% alert color="primary" %}} 
 
- Bu belge, Aspose.Cells API sürümünde 8.4.1'den 8.4.2'ye modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-4-2/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
+Bu belge, Aspose.Cells API'sinde 8.4.1'den 8.4.2'ye yapılan değişiklikleri, modül/uygulama geliştiricilerinin ilgisini çekebilecek herhangi yeni ve güncellenmiş genel yöntemleri [eklendi sınıflar, vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-4-2/) ve aynı zamanda Aspose.Cells'in arka planındaki herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **Geliştirilmiş Grafik Oluşturma Mekanizması**
-Aspose.Cells.Charts.Chart sınıfı, grafik oluşturma görevini kolaylaştırmak için SetChartDataRange yöntemini kullanıma sunmuştur. SetChartDataRange yöntemi iki parametre kabul eder; burada ilk parametre, veri serisinin çizileceği hücre alanını belirten dize türündedir. İkinci parametre, çizim yönünü belirten Boolean türündedir, yani; grafik veri serisinin bir dizi hücre değeri aralığından satıra mı yoksa sütunlara göre mi çizileceğini belirler.
+Aspose.Cells.Charts.Chart sınıfı, grafik oluşturmanın görevini kolaylaştırmak için SetChartDataRange yöntemini açığa çıkardı. SetChartDataRange yöntemi, veri serilerini çizmek için hücre alanını belirten string türünde ilk parametre ve grafik veri serilerini işaret eden hücre değerlerinin satır veya sütun tarafından çizilip çizilmeyeceğini belirten Boolean türünde ikinci bir parametre kabul eder.
 
-Aşağıdaki kod parçacığı, grafiğin arsa serisi verilerinin A1 hücresinden D4'e kadar aynı çalışma sayfasında bulunduğunu varsayarak birkaç satır kod içeren bir sütun grafiğinin nasıl oluşturulacağını gösterir.
+Aşağıdaki kod parçası, grafik sütunu oluşturmanın bir kaç satır kodla nasıl yapılacağını gösterir. Bu durumda çizelgenin grafiği hücre A1'den D4'e kadar aynı çalışma sayfasında bulunmalıdır.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Add a new chart of type Column to chart collection
 
@@ -34,14 +35,14 @@ chart.SetChartDataRange("A1:D4", true);
 {{< /highlight >}}
 
 
-### **Yöntem VbaModuleCollection.Add Eklendi**
-Aspose.Cells for .NET 8.4.2, Workbook örneğine yeni bir VBA modülü eklemek için VbaModuleCollection.Add yöntemini kullanıma sundu. VbaModuleCollection.Add yöntemi, çalışma sayfasına özel bir modül eklemek için Worksheet türünde bir parametre kabul eder.
+### **VbaModuleCollection.Add Method Eklendi**
+Aspose.Cells for .NET 8.4.2, Bir çalışma kitabı örneğine yeni bir VBA modül eklemek için VbaModuleCollection.Add yöntemini kullanıma sunmuştur. VbaModuleCollection.Add yöntemi, eklenecek bir Çalışsayfaları türündeki parametreyi kabul eder.
 
-Aşağıdaki kod parçacığı, VbaModuleCollection.Add yönteminin nasıl kullanılacağını gösterir.
+Aşağıdaki kod bloğu, VbaModuleCollection.Add yöntemini nasıl kullanacağını gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create new workbook
 
@@ -74,14 +75,14 @@ workbook.Save(output, SaveFormat.Xlsm);
 {{< /highlight >}}
 
 
-### **Aşırı Yüklenmiş Yöntem Cells.CopyColumns Eklendi**
-Aspose.Cells for .NET 8.4.2, kaynak sütunları hedefte tekrarlamak için Cells.CopyColumns yönteminin aşırı yüklenmiş bir sürümünü kullanıma sundu. Yeni kullanıma sunulan yöntem toplamda 5 parametre kabul eder ve ilk 4 parametre ortak Cells.CopyColumns yöntemiyle aynıdır. Ancak int türündeki son parametre, kaynak sütunların üzerinde tekrarlanması gereken hedef sütunların sayısını belirtir.
+### **Overloaded Method Cells.CopyColumns Eklendi**
+Aspose.Cells for .NET 8.4.2, Kaynak sütunları hedefe tekrarlamak için Cells.CopyColumns yönteminin aşırı yüklenmiş bir sürümünü kullanıma sunmuştur. Yeni eklenen yöntem, toplamda 5 parametre kabul eder, ilk 4 parametre ortak Cells.CopyColumns yöntemiyle aynıdır. Ancak, tamsayı türünden son parametre, kaynak sütunlarının tekrarlanacağı hedef sütunların sayısını belirtir.
 
-Aşağıdaki kod parçacığı, yeni kullanıma sunulan Cells.CopyColumns yönteminin nasıl kullanılacağını gösterir.
+Aşağıdaki kod bloğu, yeni eklenen Cells.CopyColumns yöntemini nasıl kullanacağını gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -112,17 +113,17 @@ workbook.Save(output);
 {{< /highlight >}}
 
 
-### **Numaralandırma Alanları PasteType.Default & PasteType.DefaultExceptBorders Eklendi**
-v8.4.2 sürümüyle birlikte Aspose.Cells API, PasteType için aşağıda ayrıntıları verilen 2 yeni numaralandırma alanı ekledi.
+### **Enumerasyon Fields PasteType.Default & PasteType.DefaultExceptBorders Eklendi**
+V8.4.2'nin yayınlanmasıyla, Aspose.Cells API'si PasteType için 2 yeni numaralandırma alanı ekledi.
 
-- PasteType.Default: Hücre aralığını yapıştırmak için Excel'in "Tümü" işlevine benzer şekilde çalışır.
-- PasteType.DefaultExceptBorders: Hücre aralığını yapıştırmak için Excel'in "Kenarlıklar hariç tümü" işlevine benzer şekilde çalışır.
+- PasteType.Default: Hücre aralığını yapıştırma işlevselliği Excel'in "Tümü" işlevselliğine benzer şekilde çalışır.
+- PasteType.DefaultExceptBorders: Hücre aralığını yapıştırma işlevselliği Excel'in "Kenarlıklar hariç tümü" işlevselliğine benzer şekilde çalışır.
 
 Aşağıdaki örnek kod, PasteType.Default alanının kullanımını gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load an existing workbook
 
@@ -154,6 +155,6 @@ workbook.Save(output);
 
 {{% alert color="primary" %}} 
 
-Aspose.Cells for .NET 8.4.2 sürümünden başlayarak, PasteType.All dosyalanan numaralandırma, hücre aralığını yapıştırmak için Excel'in "Tümü" işlevine kıyasla farklı davranır. Şimdi PasteType.All, Excel'in "Tümü" işlevselliğinin aksine sütun genişliklerini hedef aralığa da kopyalar. Excel'in "Tümü" davranışını taklit etmek için lütfen PasteType.Default'u kullanın.
+Aspose.Cells for .NET 8.4.2'den başlayarak, PasteType.All enumerasyon alanı, Excel'in "Tümü" işlevselliğine kıyasla farklı şekilde davranır. Artık PasteType.All, hedef aralığa sütun genişliklerini de kopyalar, Excel'in "Tümü" işlevselliğinin aksine. Excel'in "Tümü" davranışını taklit etmek için, lütfen PasteType.Default'i kullanın.
 
 {{% /alert %}}

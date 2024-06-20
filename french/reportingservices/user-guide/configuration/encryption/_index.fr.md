@@ -1,14 +1,15 @@
-﻿---
+---
 title: Chiffrement
 type: docs
 weight: 40
 url: /fr/reportingservices/encryption/
 ---
-Aspose.Cells for Reporting Services prend en charge trois types de chiffrement : XOR, WEAK ENCRYPTION et Microsoft Strong Cryptographic Provider. Consultez les informations de configuration du chiffrement dans le**Aspose.Cells.ReportingServices.xml** dossier.
 
- Lorsque la valeur de Chiffrement est**à l'arrêt**, Aspose.Cells for Reporting Services désactive les fonctionnalités de cryptage.
+Aspose.Cells for Reporting Services prend en charge trois types de chiffrement : XOR, WEAK ENCRYPTION et Microsoft Strong Cryptographic Provider. Voir les informations de configuration de chiffrement dans le fichier **Aspose.Cells.ReportingServices.xml**.
 
-{{< highlight "java" >}}
+Lorsque la valeur de Encryption est **off**, Aspose.Cells for Reporting Services désactive les fonctionnalités de chiffrement.
+
+{{< highlight java >}}
 
    < Encryption value="off">
 
@@ -26,22 +27,22 @@ Aspose.Cells for Reporting Services prend en charge trois types de chiffrement :
 
 {{< /highlight >}}
 
- Lorsque la valeur de Chiffrement est**au**, Aspose.Cells for Reporting Services active le cryptage.
+Lorsque la valeur du chiffrement est **activée**, Aspose.Cells for Reporting Services active le chiffrement.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 
 {{< /highlight >}}
 
-Il y a quatre paramètres dans la section de chiffrement :
+Il y a quatre paramètres dans la section chiffrement:
 
-- **NomRapport**: pointe vers un rapport nécessitant un chiffrement. Si le paramètre est laissé vide, tous les rapports utilisent la même méthode de cryptage.
-- **Mot de passe**: définit le mot de passe. Ne peut être vide.
-- **Type de chiffrement**: définit un type de cryptage. Ne peut être vide.
-- **Longueur de la clé**: définit la longueur de la clé. Ne peut être vide.
+- **ReportName**: pointe vers un rapport qui nécessite un chiffrement. Si le paramètre est laissé en blanc, tous les rapports utilisent la même méthode de chiffrement.
+- **Mot de passe**: définit le mot de passe. Ne peut pas être laissé en blanc.
+- **Type de chiffrement**: définit un type de chiffrement. Ne peut pas être laissé en blanc.
+- **Longueur de la clé**: définit la longueur de la clé. Ne peut pas être laissé en blanc.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Encryption value="on">
 

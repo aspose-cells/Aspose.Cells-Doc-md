@@ -1,30 +1,31 @@
 ---
-title: Conserva il prefisso delle virgolette singole del valore o intervallo Cell
+title: Conserva il prefisso apice singolo del valore della cella o dell intervallo
 type: docs
 weight: 310
 url: /it/net/preserve-single-quote-prefix-of-cell-value-or-range/
-description: Scopri come preservare il prefisso delle virgolette singole del valore o dell'intervallo Cell tramite Aspose.Cells for .NET API.
-keywords: Preserve Single Quote Prefix of Cell Value or Range, Hide leading apostrophe or single quote mark, Show leading apostrophe or single quote mark
+description: Scopri come conservare il prefisso di apostrofo singolo del valore della cella o dell intervallo tramite l API Aspose.Cells for .NET.
+keywords: Conserva il prefisso di apostrofo singolo del valore della cella o dell intervallo, Nascondi l apostrofo singolo iniziale, Mostra l apostrofo singolo iniziale
 ---
-##  **Possibili scenari di utilizzo**
 
-Quando inserisci un valore all'interno della cella che contiene un apostrofo iniziale o una virgoletta singola, Microsoft Excel lo nasconde, ma quando selezioni la cella, visualizza l'apostrofo iniziale o la virgoletta singola in una barra della formula come mostrato nello screenshot seguente.
+## **Possibili Scenari di Utilizzo**
 
-![cose da fare:immagine_alt_testo](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
+Quando si inserisce un valore dentro la cella che ha un apice iniziale o un simbolo di apice singolo, Microsoft Excel lo nasconde, ma quando si seleziona la cella, visualizza il prefisso apice in un formula bar come mostrato nella seguente schermata.
 
-Aspose.Cells nasconde anche l'apostrofo iniziale o la virgoletta singola come Microsoft Excel ma imposta il[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) COME**VERO** per quella cella. Se imposti uno stile vuoto della cella, allora[**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) diventa**falso** Ancora. Per far fronte a questa problematica lo Aspose.Cells mette a disposizione[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) proprietà, quando è impostata**false**, quindi [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) non viene aggiornato affatto e il suo vecchio valore viene conservato . Significa che se il vecchio valore della proprietà [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) era **true**, rimarrà **vero** e se il vecchio valore era *false**, rimarrà *false**.
+![todo:image_alt_text](preserve-single-quote-prefix-of-cell-value-or-range_1.png)
 
-##  **Conserva il prefisso delle virgolette singole del valore o intervallo Cell**
+Anche Aspose.Cells nasconde l'apostrofo singolo iniziale come Microsoft Excel, ma imposta il [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) come vero per quella cella. Se si imposta uno stile vuoto della cella, allora [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) diventa di nuovo falso. Per affrontare questo problema, Aspose.Cells fornisce la proprietà [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix), quando è impostata su falso, allora [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) non viene aggiornato affatto e conserva il suo vecchio valore. Ciò significa che se il vecchio valore della proprietà [**Style.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix) era vero, rimarrà vero e se il vecchio valore era falso, rimarrà falso.
 
-Il seguente codice di esempio spiega l'utilizzo di[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)proprietà come descritto in precedenza. Per ulteriore assistenza, leggere i commenti all'interno del codice e vedere l'output della console del codice fornito di seguito.
+## **Conserva il prefisso apice singolo del valore della cella o dell'intervallo**
 
-##  **Codice d'esempio**
+Il seguente codice di esempio spiega l'uso della proprietà [**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix) come descritto in precedenza. Si prega di leggere i commenti all'interno del codice e di vedere l'output della console del codice sottostante per ulteriore aiuto.
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
 
-##  **Uscita della console**
+## **Output della console**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Quote Prefix of Cell A1: False
 

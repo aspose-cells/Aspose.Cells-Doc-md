@@ -1,27 +1,28 @@
-﻿---
-title: حدد كيفية عبور السلسلة في الإخراج HTML باستخدام HtmlCrossType
+---
+title: تحديد كيفية عبور النص في ملف الـHTML الناتج باستخدام HtmlCrossType
 type: docs
 weight: 140
 url: /ar/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-عندما تحتوي الخلية على نص أو سلسلة ولكنها أكبر من عرض الخلية ، فإن السلسلة تتجاوز إذا كانت الخلية التالية في العمود التالي فارغة أو فارغة. عند حفظ ملف Excel الخاص بك في HTML ، يمكنك التحكم في هذا الفائض عن طريق تحديد النوع المتقاطع باستخدام[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) تعداد. لديها القيم التالية
+## **سيناريوهات الاستخدام المحتملة**
 
-- **HtmlCrossType. الافتراضي**: العرض مثل MS Excel ، يعتمد على الخلية التالية. إذا كانت الخلية التالية خالية ، فستتقاطع السلسلة أو سيتم اقتطاعها.
+عندما تحتوي الخلية على نص أو سلسلة نصية ولكنها أكبر من عرض الخلية، ثم يتجاوز النص إذا كانت الخلية التالية في العمود التالي فارغة. عندما تحفظ ملف الإكسل الخاص بك في ملف HTML، يمكنك التحكم في هذا التجاوز عن طريق تحديد نوع العبور باستخدام تصنيف الصنف [**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). له القيم التالية
 
-- **HtmlCrossType.MSExport**: اعرض السلسلة مثل تصدير MS Excel HTML.
+- **HtmlCrossType.Default**: عرض مثل برنامج MS Excel، يعتمد على الخلية التالية. إذا كانت الخلية التالية فارغة، سيتجاوز النص أو سيتم قصه.
 
-- **HtmlCrossType**: عرض HTML سلسلة متقاطعة ، سيكون أداء إنشاء ملفات HTML الكبيرة أسرع بعشر مرات من تعيين القيمة إلى افتراضي أو FitToCell.
+- **HtmlCrossType.MSExport**: عرض النص كما في تصدير HTML من برنامج MS Excel.
 
-- **HtmlCrossType.FitToCell**: عرض السلسلة فقط في عرض الخلية.
+- **HtmlCrossType.Cross**: عرض النص المتقاطع في ملف الـHTML، سيكون الأداء لإنشاء ملفات HTML الكبيرة أكثر من عشر مرات أسرع من تعيين القيمة على الافتراضي أو FitToCell.
 
-## **حدد كيفية عبور السلسلة في الإخراج HTML باستخدام HtmlCrossType**
+- **HtmlCrossType.FitToCell**: عرض النص فقط داخل عرض الخلية.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](51740732.xlsx) ويحفظه بتنسيق HTML بتحديد مختلف[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) . يرجى تنزيل ملف[إخراج HTMLs](51740734.zip) ولدت مع هذا الرمز. يحتوي ملف Excel النموذجي على صورة ذات لون أحمر كما هو موضح في لقطة الشاشة هذه التي توضح تأثير ملف[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) القيم على الإخراج HTML.
+## **تحديد كيفية تقاطع السلسلة في HTML الناتج باستخدام HtmlCrossType**
 
-![ما يجب القيام به: image_بديل_نص](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
+الكود العيني التالي يقوم بتحميل [ملف الإكسل العيني](51740732.xlsx) ويقوم بحفظه في تنسيق الـHTML بتحديد مختلف لـ[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). يُرجى تحميل [ملفات الـHTML الناتجة](51740734.zip) التي تم إنشاءها بهذا الكود. يحتوي ملف الـإكسل العيني على الصورة المحاطة باللون الأحمر كما هو موضح في هذه اللقطة الشاشية التي تُظهر تأثير قيم [**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) على ملف الـHTML الناتج.
 
-## **عينة من الرموز**
+![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.cs" >}}

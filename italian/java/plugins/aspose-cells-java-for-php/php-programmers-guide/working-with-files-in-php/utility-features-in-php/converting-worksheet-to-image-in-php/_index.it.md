@@ -1,15 +1,16 @@
-﻿---
+---
 title: Conversione del foglio di lavoro in immagine in PHP
 type: docs
 weight: 50
 url: /it/java/converting-worksheet-to-image-in-php/
 ---
-## **Aspose.Cells - Conversione del foglio di lavoro in immagine**
-Per convertire il foglio di lavoro in immagine utilizzando Aspose.Cells for Java in PHP, è sufficiente richiamare il modulo Converter.
+
+## **Aspose.Cells - Conversione di un foglio di lavoro in immagine**
+Per convertire il foglio di lavoro in immagine usando Aspose.Cells for Java in PHP, basta invocare il modulo Converter.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $imageFormat = new ImageFormat();
 
@@ -45,6 +46,6 @@ for ($j = 0; $j < $sr->getPageCount(); $j++)
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Conversione del foglio di lavoro in immagine (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Conversione di un foglio di lavoro in immagine (Aspose.Cells)** da uno qualsiasi dei siti di codice sociale sotto elencati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

@@ -1,21 +1,22 @@
-﻿---
-title: Proteggi con password o rimuovi la protezione della cartella di lavoro condivisa
+---
+title: Proteggere o sbloccare la cartella di lavoro condivisa
 type: docs
 weight: 10
 url: /it/net/password-protect-or-unprotect-the-shared-workbook/
 ---
-## **Possibili scenari di utilizzo**
 
- È possibile proteggere o rimuovere la protezione della cartella di lavoro condivisa con Microsoft Excel come mostrato nello screenshot seguente. Aspose.Cells supporta anche questa funzione con il[**Workbook.ProtectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) e[**Cartella di lavoro.UnprotectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook)metodi.
+## **Possibili Scenari di Utilizzo**
 
-![cose da fare:immagine_alt_testo](password-protect-or-unprotect-the-shared-workbook_1.png)
+È possibile proteggere o sbloccare la cartella di lavoro condivisa con Microsoft Excel come mostrato nella seguente schermata. Aspose.Cells supporta anche questa funzionalità con i metodi [**Workbook.ProtectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) e [**Workbook.UnprotectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook).
 
-## **Proteggi con password o rimuovi la protezione della cartella di lavoro condivisa**
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_1.png)
 
-Il codice di esempio seguente crea una cartella di lavoro e la protegge mentre abilita la condivisione e la salva con nome[file Excel di output](55541777.xlsx). Lo screenshot mostra che quando si tenta di rimuovere la protezione, Microsoft Excel richiede di inserire la password per rimuovere la protezione.
+## **Proteggi o rimuovi la protezione con password dalla cartella di lavoro condivisa**
 
-![cose da fare:immagine_alt_testo](password-protect-or-unprotect-the-shared-workbook_2.png)
+Il seguente codice di esempio crea una cartella di lavoro e la protegge abilitando la condivisione, quindi la salva come [file Excel di output](55541777.xlsx). La schermata mostra che quando si tenta di sbloccarla, Microsoft Excel richiede di inserire la password per sbloccarla.
 
-## **Codice d'esempio**
+![todo:image_alt_text](password-protect-or-unprotect-the-shared-workbook_2.png)
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-PasswordProtectOrUnprotectSharedWorkbook.cs" >}}

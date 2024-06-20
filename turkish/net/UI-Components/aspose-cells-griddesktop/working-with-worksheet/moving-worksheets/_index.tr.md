@@ -1,18 +1,21 @@
-﻿---
-title: Çalışma Sayfalarını Taşıma
+---
+title: Çalışma Sayfalarını Taşımak
 type: docs
 weight: 150
-url: /tr/net/moving-worksheets/
+url: /tr/net/aspose-cells-griddesktop/move-worksheets/
+keywords: GridDesktop, taşı, çalışma sayfası
+description: Bu makale, GridDesktop ta çalışma sayfası ile nasıl çalışılacağını tanıtır.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridDesktop, çalışma kitabı içinde çalışma sayfalarının taşınmasını destekler.
+Aspose.Cells.GridDesktop, çalışma kitabı içindeki çalışma sayfalarını taşımayı destekler.
 
 {{% /alert %}} 
-## **Çalışma Sayfalarını Çalışma Kitabı İçinde Taşıma**
-Aspose.Cells.GridDesktop, bir çalışma sayfasını belirtilen dizine taşımak için kullanılan Aspose.Cells.GridDesktop.WorksheetCollection.MoveTo() yöntemini sağlar. Kaynak çalışma sayfasının ve hedef çalışma sayfasının dizinlerini (sıfır tabanlı) parametre olarak alır. Temel olarak bir çalışma sayfasını aynı elektronik tabloda başka bir konuma taşımak için kullanılır.
+## **Çalışma Kitabı İçinde Çalışma Sayfalarını Taşıma**
+Aspose.Cells.GridDesktop, Aspose.Cells.GridDesktop.WorksheetCollection.MoveTo() adlı bir yöntem sağlar. Bu yöntem, bir çalışma sayfasını belirtilen dizine taşımak için kullanılır. Parametre olarak kaynak çalışma sayfasının indeksini (sıfıra dayalı) ve hedef çalışma sayfasının indeksini alır. Temelde, aynı elektronik tabloda çalışma sayfasını başka bir konuma taşımak için kullanılır.
 
-Aşağıdaki örnek, bir çalışma sayfasının çalışma kitabı içinde başka bir konuma nasıl taşınacağını gösterir.
+Aşağıdaki örnek, bir çalışma kitabı içinde bir çalışma sayfasının başka bir konuma nasıl taşınacağını gösterir.
 
 
 

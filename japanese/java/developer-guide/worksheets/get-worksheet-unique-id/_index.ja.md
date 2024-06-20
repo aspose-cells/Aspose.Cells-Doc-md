@@ -1,12 +1,13 @@
-﻿---
-title: ワークシートの一意の ID を取得する
+---
+title: ワークシートの一意のIDを取得
 type: docs
 weight: 200
 url: /ja/java/get-worksheet-unique-id/
 ---
-## **ワークシートの一意の ID を取得する**
 
-Aspose.Cells を使用すると、ワークシートの一意の ID を取得できます。[**Worksheet.UniqueId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId)財産。次のコード スニペットは、[**Worksheet.UniqueId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId)ワークシートの一意の ID を出力するプロパティ。次のコード スニペットはこれを使用します。[サンプルエクセルファイル](Book1.xlsx).
+## **ワークシートの一意のIDを取得**
+
+Aspose.Cellsは、ワークシートの一意のIDを取得する機能を提供します。次のコードスニペットは、[**Worksheet.UniqueId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId)プロパティを使用してワークシートの一意のIDを印刷する方法を示しています。このコードスニペットでは、この*サンプルExcelファイル*(Book1.xlsx)を使用します。
 
 ## サンプルコード
 

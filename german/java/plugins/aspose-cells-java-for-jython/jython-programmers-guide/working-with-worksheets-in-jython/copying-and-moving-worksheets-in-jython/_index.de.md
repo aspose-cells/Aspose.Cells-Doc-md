@@ -1,15 +1,16 @@
-﻿---
+---
 title: Kopieren und Verschieben von Arbeitsblättern in Jython
 type: docs
 weight: 20
 url: /de/java/copying-and-moving-worksheets-in-jython/
 ---
-## **Aspose.Cells – Kopieren und Verschieben von Arbeitsblättern**
- Zum Anhängen von Dokumenten mit**Aspose.Cells Java für Jython**. Hier sehen Sie Beispielcode.
+
+## **Aspose.Cells - Kopieren und Verschieben von Arbeitsblättern**
+Zum Anfügen von Dokumenten mit **Aspose.Cells Java für Jython**. Hier sehen Sie Beispielscode.
 
 **Jython-Code**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  from aspose-cells import Settings
 
@@ -97,7 +98,7 @@ if __name__ == '__main__':
     CopyingAndMovingWorksheets()
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Dokumente anhängen (Aspose.Cells)** aus einer der unten genannten sozialen Kodierungen
+## **Laufenden Code herunterladen**
+Laden Sie **Append-Dokumente (Aspose.Cells)** von einer der unten genannten Social-Coding-Websites herunter: 
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)

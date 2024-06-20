@@ -1,25 +1,26 @@
 ---
-title: Converti-Excel-in-JSON
+title: Convert Excel to JSON
 type: docs
 weight: 20
 url: /it/java/convert-excel-to-json/
-description: Scopri come convertire un file Excel in JSON con le API Aspose.Cells for Java.
-keywords: Java Export Workbook to json, Convert Excel to JSON using Java, Save Excel to JSON in Java, Convert Workbook to JSON using Java, Save Workbook to JSON in Java, Export Excel to JSON via Java.
+description: Scopri come convertire un file excel in json con Aspose.Cells for Java API.
+keywords: Esportazione di Workbook in json Java, Convertire Excel in JSON usando Java, Salvare Excel in JSON in Java, Convertire Workbook in JSON usando Java, Salvare Workbook in JSON in Java, Esportare Excel in JSON via Java.
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells supporta la conversione di una cartella di lavoro in un file Json (JavaScript Object Notation).
+Aspose.Cells supporta la conversione di un Workbook in un file Json(JavaScript Object Notation).
 
 {{% /alert %}}
 
-##  **Come convertire la cartella di lavoro di Excel in JSON**
+## **Come convertire un Workbook Excel in JSON**
 
- Non c'è bisogno di chiedersi come convertire la cartella di lavoro di Excel in JSON, perché la libreria Aspose.Cells Java ha la decisione migliore. Aspose.Cells Java API fornisce supporto per la conversione dei fogli di calcolo nel formato JSON. Per esportare la cartella di lavoro su JSON, passare[**Salva formato.JSON**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) come secondo parametro di[**Cartella di lavoro.salva**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int) ) metodo. Puoi anche usare[**JsonSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonSaveOptions) class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro su JSON.
+Non c'è bisogno di chiedersi come convertire un Workbook Excel in JSON, perché la libreria Aspose.Cells Java ha la migliore soluzione. L'API Java Aspose.Cells fornisce il supporto per la conversione dei fogli di calcolo in formato JSON. Per esportare il workbook in JSON, passa [**SaveFormat.JSON**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) come secondo parametro del metodo [**Workbook.save**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)). È anche possibile utilizzare la classe [**JsonSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonSaveOptions) per specificare impostazioni aggiuntive per esportare il foglio di lavoro in JSON.
 
- Nell'esempio di codice seguente viene illustrata l'esportazione della cartella di lavoro di Excel in JSON. Si prega di consultare il codice per convertire[file sorgente](sample.xlsx) al file Json generato dal codice come riferimento.
+L'esempio di codice seguente mostra l'esportazione del foglio di lavoro di Excel in JSON. Si prega di consultare il codice per convertire il [file di origine](sample.xlsx) nel file JSON generato dal codice per riferimento.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-Excel-to-JSON.java" >}}
 
- L'esempio di codice seguente che utilizza la classe JsonSaveOptions per specificare impostazioni aggiuntive illustra l'esportazione della cartella di lavoro di Excel in Json. Si prega di consultare il codice per convertire[file sorgente](sample.xlsx) al file Json generato dal codice come riferimento.
+Il seguente esempio di codice che utilizza la classe JsonSaveOptions per specificare impostazioni aggiuntive dimostra l'esportazione di un Workbook Excel in Json. Si prega di vedere il codice per convertire il [file di origine](sample.xlsx) nel file Json generato dal codice per riferimento.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-Excel-to-JSON2.java" >}}

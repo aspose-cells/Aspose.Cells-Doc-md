@@ -1,17 +1,18 @@
-﻿---
-title: ImageOrPrintOptions の PageIndex および PageCount プロパティを使用したページのシーケンスのレンダリング
+---
+title: ImageOrPrintOptionsのPageIndexおよびPageCountプロパティを使用してページのシーケンスをレンダリングする
 type: docs
 weight: 10
 url: /ja/python-java/render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions/
 ---
-## **ImageOrPrintOptions の PageIndex および PageCount プロパティを使用したページのシーケンスのレンダリング**
-Aspose.Cells を使用して、Excel ファイルの一連のページを画像にレンダリングできます。[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex)と[ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount)プロパティ。これらのプロパティは、ワークシートに非常に多くのページ (たとえば数千ページ) があり、その一部のみをレンダリングしたい場合に役立ちます。これにより、処理時間が節約されるだけでなく、レンダリング プロセスのメモリ消費も節約されます。
 
-次のサンプル コードは、サンプル Excel ファイルを読み込み、[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex)と[ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount)プロパティ。以下は、サンプル コードによって生成されたレンダリングされたページのイメージです。
+## **ImageOrPrintOptionsのPageIndexおよびPageCountプロパティを使用したページのシーケンスをレンダリングする**
+Aspose.Cellsを使用してExcelファイルのページを画像にレンダリングするときに、[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex) および [ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount) プロパティが役立ちます。これらのプロパティを使用すると、ワークシートに何千ものページがある場合でも、一部のページのみをレンダリングしたい場合に便利です。これにより処理時間の節約だけでなく、レンダリングプロセスのメモリ消費も節約できます。
 
-|![todo:画像_代替_文章](outputImage-4.png)|![todo:画像_代替_文章](outputImage-5.png)|
-|:- |:- |
-|![todo:画像_代替_文章](outputImage-6.png)|![todo:画像_代替_文章](outputImage-7.png)|
+次のサンプルコードは、サンプルExcelファイルをロードし、[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex) および [ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount) プロパティを使用してページ4、5、6、7をレンダリングします。以下は、サンプルコードによって生成されたレンダリングされたページの画像です。
+
+|![todo:image_alt_text](outputImage-4.png)|![todo:image_alt_text](outputImage-5.png)|
+| :- | :- |
+|![todo:image_alt_text](outputImage-6.png)|![todo:image_alt_text](outputImage-7.png)|
 
 
 

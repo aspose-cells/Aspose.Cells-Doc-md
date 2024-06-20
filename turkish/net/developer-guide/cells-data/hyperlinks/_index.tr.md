@@ -1,28 +1,29 @@
 ---
-title: Köprüleri Excel veya OpenOffice'e Ekleme
-linktitle: Köprüleri Yönetme
+title: Excel veya OpenOffice a Hyperlink Ekleme
+linktitle: Hyperlinkleri Yönetme
 type: docs
 weight: 45
 url: /tr/net/insert-hyperlinks-to-excel/
-description: MS Excel olmadan Aspose.Cells kitaplığıyla Excel dosyasına köprüler nasıl eklenir?
-keywords: Insert Hyperlinks into Excel, Add or Insert Hyperlinks, Add or Insert link to a URL, Add or Insert a Link to a Cell, Add a Link to an External File
+description: Aspose.Cells kütüphanesi kullanılarak Excel dosyasına nasıl bağlantı eklenir.
+keywords: Excel e Hyperlink Ekleme, Bağlantı Ekleme, URL ye Bağlantı Ekleme, Bir Hücreye Bağlantı Ekleme, Bir Dış Dosyaya Bağlantı Ekleme
 ---
+
 {{% alert color="primary" %}} 
 
-İki varlık arasında bağlantı oluşturmak için köprü kullanılır. Herkes, özellikle web sitelerinde hiper bağlantıların kullanımına aşinadır.
-Geliştiriciler, Aspose.Cells'i kullanarak Microsoft Excel dosyalarında farklı türde köprüler oluşturabilir. Bu konu, Aspose.Cells tarafından hangi tür köprülerin desteklendiğini ve bunların Excel dosyalarımızda nasıl kullanılabileceğini açıklamaktadır.
+Bir bağlantı, iki varlık arasında bir bağlantı oluşturmak için kullanılır. Herkes, özellikle web sitelerinde bağlantıların kullanımı hakkında bilgilidir.
+Aspose.Cells kullanarak, geliştiriciler Microsoft Excel dosyalarında farklı türde bağlantılar oluşturabilir. Bu konu, Aspose.Cells tarafından desteklenen bağlantı türlerini ve bunların Excel dosyalarımızda nasıl kullanılabileceğini tartışmaktadır.
 
 {{% /alert %}} 
-##  **Köprü Ekleme**
-Aspose.Cells, geliştiricilerin API veya tasarımcı elektronik tablolarını (köprü bağlantılarının manuel olarak oluşturulduğu ve bunları diğer elektronik tablolara aktarmak için Aspose.Cells'in kullanıldığı elektronik tablolar) kullanarak Excel dosyalarına köprüler eklemesine olanak tanır.
+## **Hyperlinkler Ekleme**
+Aspose.Cells, geliştiricilere Excel dosyalarına bağlantı ekleme olanağı tanır. Bu, API veya tasarımcı elektronik tablolar kullanılarak yapılabilir(elle bağlantılar oluşturulan elektronik tablolar ve Aspose.Cells'in bunları diğer elektronik tablolara aktarmak için kullanılması).
 
- Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder.[Çalışma kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)Bu, Excel dosyasındaki her çalışma sayfasına erişime izin verir. Bir çalışma sayfası şu şekilde temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[Çalışma kağıdı](https://reference.aspose.com/cells/net/aspose.cells/worksheet)sınıfı, Excel dosyalarına farklı köprüler eklemek için farklı yöntemler sağlar.
-##  **Bir URL'ye Bağlantı Ekleme**
-[Çalışma kağıdı](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf bir içerir[Köprüler](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) Toplamak. İçindeki her öğe[Köprüler](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) koleksiyon bir temsil eder[Köprü](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) . çağırarak URL'lere köprüler ekleyin.[Köprüler](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) Koleksiyonun[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntem.[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)yöntem aşağıdaki parametreleri alır:
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook) adlı bir sınıf sağlar. [Workbook](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her bir çalışma sayfasına erişim sağlayan bir [WorksheetCollection](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) içerir. Bir çalışma sayfası, [Worksheet](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, Excel dosyalarına farklı hiperbağlantı eklemek için farklı yöntemler sağlar.
+## **URL'ye Bağlantı Ekleme**
+[Worksheet](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, bir [Hyperlinks](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) koleksiyonunu içerir. [Hyperlinks](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) koleksiyonundaki her öğe bir [Hyperlink](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) temsil eder. URL'lere hiperbağlantı eklemek için [Hyperlinks](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) koleksiyonunun [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntemini çağırarak ekleyin. [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntemi şu parametreleri alır:
 
-- Cell ad, köprünün ekleneceği hücrenin adı.
-- Satır sayısı, bu köprü aralığındaki satır sayısı.
-- Sütun sayısı, bu köprü aralığındaki sütun sayısı
+- Hücre adı, bağlantı eklenecek hücrenin adı.
+- Satır sayısı, bu hyperlink aralığındaki satır sayısı.
+- Sütun sayısı, bu bağlantı aralığındaki sütun sayısı
 - URL, URL adresi.
 
 
@@ -31,35 +32,35 @@ Aspose.Cells, geliştiricilerin API veya tasarımcı elektronik tablolarını (k
 
 {{% alert color="primary" %}} 
 
-Yukarıdaki örnekte, *A1** boş hücresindeki bir URL'ye bir köprü eklenmiştir. Bu gibi durumlarda, eğer bir hücre boşsa URL adresi de o boş hücreye değer olarak eklenir. Hücre boş değilse ve köprü eklenmişse hücrenin değeri düz metin gibi görünür. Köprü gibi görünmesini sağlamak için o hücreye uygun biçimlendirme ayarlarını uygulayın.
+Yukarıdaki örnekte, bir hiper bağlantı boş bir hücre olan **A1**'e eklenir. Bu tür durumlarda, hücre boşsa, URL adresi de boş hücreye değeri olarak eklenir. Hücre dolu değilse ve bir hiper bağlantı eklenmişse, hücrenin değeri düz metin olarak görünür. Onu bir hiper bağlantı gibi görünmesini sağlamak için o hücreye uygun biçimlendirme ayarlarını uygulayın.
 
 {{% /alert %}} 
-##  **Aynı Dosyadaki Cell'e Bağlantı Ekleme**
- Aynı Excel dosyasındaki hücrelere köprüleri çağırmak mümkündür.[Köprüler](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) Koleksiyonun[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntem.[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)yöntem hem iç hem de dış köprüler için çalışır. Aşırı yüklenmiş yöntemin bir sürümü aşağıdaki parametreleri alır:
+## **Aynı Dosyadaki Bir Hücreye Bağlantı Ekleme**
+Aynı Excel dosyasındaki hücrelere hiperbağlantı eklemek mümkündür, [Hyperlinks](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) koleksiyonunun [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntemini çağırarak. [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntemi, hem iç hem de dış hiperbağlantılar için çalışır. Aşırı yüklenmiş yöntemin bir sürümü şu parametreleri alır:
 
-- Cell ad,köprü bağlantısının ekleneceği hücrenin adı.
-- Satır sayısı, bu köprü aralığındaki satır sayısı.
-- Sütun sayısı, bu köprü aralığındaki sütun sayısı.
+- Hücre adı, hyperlink'in eklenmesi gereken hücrenin adı.
+- Satır sayısı, bu hyperlink aralığındaki satır sayısı.
+- Sütun sayısı, bu hyperlink aralığındaki sütun sayısı.
 - URL, hedef hücrenin adresi.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToAnotherCell-1.cs" >}}
-##  **Harici Dosyaya Bağlantı Ekleme**
- çağrılarak harici Excel dosyalarına köprüler eklemek mümkündür.[Köprüler](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) Koleksiyonun[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntem.[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)yöntem aşağıdaki parametreleri alır:
+## **Harici Bir Dosyaya Bağlantı Ekleme**
+Harici Excel dosyalarına hiperbağlantı eklemek mümkündür, [Hyperlinks](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) koleksiyonunun [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntemini çağırarak. [Add](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntemi şu parametreleri alır:
 
-- Cell ad, köprünün ekleneceği hücrenin adı.
-- Satır sayısı, bu köprü aralığındaki satır sayısı.
-- Sütun sayısı, bu köprü aralığındaki sütun sayısı.
-- URL, hedefin adresi, harici Excel dosyası.
+- Hücre adı, bağlantı eklenecek hücrenin adı.
+- Satır sayısı, bu hyperlink aralığındaki satır sayısı.
+- Sütun sayısı, bu hyperlink aralığındaki sütun sayısı.
+- URL, hedef harici Excel dosyasının adresi.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToExternalFile-1.cs" >}}
 
-##  **İleri konular**
-- [Resim Köprüleri Ekle](/cells/tr/net/add-image-hyperlinks/)
-- [Köprü Türünü Algıla](/cells/tr/net/detect-hyperlink-type/)
-- [Çalışma Sayfasının Köprülerini Düzenleme](/cells/tr/net/editing-hyperlinks-of-worksheet/)
-- [Menzildeki Köprüleri Alın](/cells/tr/net/get-hyperlinks-in-range/)
+## **Gelişmiş Konular**
+- [Görüntü Bağlantılarını Eklemek](/cells/tr/net/add-image-hyperlinks/)
+- [Bağlantı Türünü Algılamak](/cells/tr/net/detect-hyperlink-type/)
+- [Çalışma Sayfasının Bağlantılarını Düzenleme](/cells/tr/net/editing-hyperlinks-of-worksheet/)
+- [Aralıktaki Bağlantıları Al](/cells/tr/net/get-hyperlinks-in-range/)
 

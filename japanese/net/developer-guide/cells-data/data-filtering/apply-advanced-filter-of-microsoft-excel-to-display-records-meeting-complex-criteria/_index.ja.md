@@ -1,45 +1,46 @@
 ---
-title: Microsoft Excel の高度なフィルターを適用して、複雑な基準を満たすレコードを表示する
+title: 複雑な基準を満たすレコードを表示するためにMicrosoft Excelの高度なフィルタを適用する方法
 type: docs
 weight: 280
 url: /ja/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
-description: Microsoft Excel の高度なフィルターを適用して、Aspose.Cells for .NET API を使用して複雑な条件を満たすレコードを表示する方法を説明します。
-keywords: Apply Advanced Filter, Set Advanced Filter, Add Advanced Filter, Create Advanced Filter, How to add Advanced Filter to a range 
+description: Microsoft Excelの高度なフィルターを使用して、複雑な基準を満たすレコードを表示するためにAspose.Cells for .NET APIを使用する方法について学びます。
+keywords: 高度なフィルターを適用し、高度なフィルターを設定し、高度なフィルターを追加し、高度なフィルターを作成し、範囲に高度なフィルターを追加する方法 
 ---
-##  **考えられる使用シナリオ**
 
- Microsoft Excelで申請できます*高度なフィルター*ワークシート データに基づいて、複雑な基準を満たすレコードを表示します。 Microsoft Excel で高度なフィルターを適用できます。*データ > 詳細*このスクリーンショットに示すように、コマンドを実行します。
+## **可能な使用シナリオ**
+
+Microsoft Excelでは、ワークシートデータに*高度なフィルタ*を適用して複雑な基準を満たすレコードを表示できます。このスクリーンショットに示すように、Microsoft Excelでは*データ > 高度なフィルタ*のコマンドを使用して高度なフィルタを適用できます。
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
 
-Aspose.Cells を使用すると、高度なフィルターを適用することもできます。[**Worksheet.AdvancedFilter()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter)方法。 Microsoft Excel と同様に、次のパラメーターを受け入れます。
+Aspose.Cellsでは、[**Worksheet.AdvancedFilter()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter)メソッドを使用してAdvanced Filterを適用することもできます。Microsoft Excelと同様に、以下のパラメーターを受け入れます。
 
 **isFilter**
 
-リストを適切にフィルタリングするかどうかを示します。
+リストをその場でフィルタ処理するかどうかを示します。
 
-**リスト範囲**
+**listRange**
 
-リスト範囲。
+リストの範囲。
 
-**基準範囲**
+**criteriaRange**
 
-基準の範囲です。
+基準の範囲。
 
-**コピー先**
+**copyTo**
 
-データのコピー先の範囲。
+データをコピーする範囲。
 
-**固有のレコードのみ**
+**uniqueRecordOnly**
 
-一意の行のみを表示またはコピーします。
+唯一の行を表示またはコピーします。
 
-##  **Microsoft Excel の高度なフィルターを適用して、複雑な基準を満たすレコードを表示する**
+## **複雑な基準を満たすレコードを表示するMicrosoft Excelの高度なフィルタの適用**
 
-次のサンプル コードでは、高度なフィルターを適用します。[サンプル Excel ファイル](48496692.xlsx)そして、[Excelファイルの出力](48496691.xlsx)。スクリーンショットには、比較のために両方のファイルが示されています。スクリーンショット内にあるように、出力 Excel ファイル内でデータが複雑な基準に従ってフィルター処理されています。
+次のサンプルコードは、[サンプルエクセルファイル](48496692.xlsx)に高度なフィルタを適用し、[出力エクセルファイル](48496691.xlsx)を生成します。スクリーンショットでは、両方のファイルが比較のために表示されています。スクリーンショット内でわかるように、出力エクセルファイル内でデータが複雑な基準に従ってフィルタ処理されています。
 
 ![todo:image_alt_text](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 
-##  **サンプルコード**
+## **サンプルコード**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ApplyAdvancedFilterOfMicrosoftExcel.cs" >}}

@@ -1,41 +1,42 @@
-﻿---
-title: تعيين معلمات الاستعلام لتقرير المعلمات
+---
+title: ربط معلمات الاستعلام بمعلمات التقرير
 type: docs
 weight: 30
 url: /ar/reportingservices/mapping-query-parameters-to-report-parameters/
 ---
-1. افتح Microsoft Excel.
-1.  انقر**بناء مجموعة البيانات**على Aspose.Cells.Report.Designer شريط الأدوات (
 
-![ما يجب القيام به: image_بديل_نص](mapping-query-parameters-to-report-parameters_1.png)
+1. افتح Microsoft Excel.
+1. انقر فوق **بناء مجموعة البيانات** على شريط أدوات Aspose.Cells.Report.Designer
+
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_1.png)
 
 ).
 
-1.  حدد مجموعة بيانات في اللوحة اليسرى ، على سبيل المثال**EmpSalesDetail**. 
+1. حدد مجموعة بيانات في اللوحة اليسرى، على سبيل المثال **EmpSalesDetail**. 
 
-   **اختيار مجموعة البيانات** 
+   **اختيار مجموعة بيانات** 
 
-![ما يجب القيام به: image_بديل_نص](mapping-query-parameters-to-report-parameters_2.png)
-
-
-
-
-1. انقر فوق علامة التبويب المعلمات في اللوحة اليمنى لسرد معلمات مجموعة البيانات.
-1.  انقر على**معلمة تقرير ملزمة** عمود.
- يتم سرد كافة معلمات التقرير التي تم إنشاؤها مسبقًا.
-1.  حدد معلمة.
-
-   **تعيين المعلمات** 
-
-![ما يجب القيام به: image_بديل_نص](mapping-query-parameters-to-report-parameters_3.png)
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_2.png)
 
 
 
 
-1.  كرر لتعيين جميع معلمات الاستعلام لتقرير المعلمات.
+1. انقر فوق علامة التبويب المعلمة في اللوحة اليمنى لعرض معلمات مجموعة البيانات.
+1. انقر على عمود **تعيين معلمة التقرير**.
+   يتم عرض جميع معلمات التقرير التي تم إنشاؤها مسبقًا. 
+1. حدد معلمة ما. 
 
-   **اكتمل التعيين** 
+   **مطابقة المعلمات** 
 
-![ما يجب القيام به: image_بديل_نص](mapping-query-parameters-to-report-parameters_4.png)
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_3.png)
 
-1.  انقر**قريب**.
+
+
+
+1. كرر لربط جميع معلمات الاستعلام بمعلمات التقرير. 
+
+   **اكتمال المطابقة** 
+
+![todo:image_alt_text](mapping-query-parameters-to-report-parameters_4.png)
+
+1. انقر على **إغلاق**.

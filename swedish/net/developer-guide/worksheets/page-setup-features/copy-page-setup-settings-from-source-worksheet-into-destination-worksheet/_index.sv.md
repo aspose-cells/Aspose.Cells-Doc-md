@@ -1,26 +1,27 @@
 ---
-title: Kopiera inställningar för sidinställningar från källarbetsbladet till målarbetsbladet
+title: Kopiera siduppsättning inställningar från kälark till destinationsark
 type: docs
 weight: 80
 url: /sv/net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
-description: Den här artikeln förklarar hur du använder C# API eller .NET biblioteksexempelkod för att kopiera inställningar för utskriftsformat från källarbetsbladet till målarbetsbladet programmatiskt.
-keywords: copy page setup settings c#, copy page setup settings to target worksheet c#
+description: Den här artikeln förklarar hur man använder C# API eller .NET bibliotekets exempelkod för att kopiera sidlayoutinställningar från källark till destinationsark programmatiskt.
+keywords: kopiera sidlayoutinställningar c#, kopiera sidlayoutinställningar till målock c#
 ---
-##  **Möjliga användningsscenarier**
 
-När du lägger till ett nytt ark i en arbetsbok innehåller det standardinställningarna för *Sidinställningar*. Det kan finnas tillfällen då du behöver överföra inställningarna ([**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)) från ett kalkylblad till ett annat kalkylblad. Det här dokumentet förklarar hur du kopierar inställningar för sidinställningar från ett kalkylblad till ett annat med hjälp av Aspose.Cells API:er.
+## **Möjliga användningsscenario**
 
-##  **Kopiera inställningar för sidinställningar från källarbetsbladet till målarbetsbladet**
+När du lägger till ett nytt blad i en arbetsbok innehåller den standard *Sidlayoutinställningar*. Det kan finnas tillfällen när du behöver överföra inställningarna ([**PageSetup**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)) från ett blad till ett annat blad. Detta dokument förklarar hur man kopierar sidlayoutinställningar från ett blad till ett annat med hjälp av Aspose.Cells API:er.
 
-Följande exempelkod illustrerar hur du kopierar*Utskriftsinställningar*från ett kalkylblad till ett annat med hjälp av[**PageSetup.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/copy)metod. Se följande exempelkod och dess konsolutgång för en referens.
+## **Kopiera siduppsättning inställningar från källkalkylblad till destinations kalkylblad**
 
-##  **Exempelkod**
+Följande exempelkod illustrerar hur man kopierar *sidlayoutinställningar* från ett blad till ett annat med hjälp av [**PageSetup.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/copy)-metoden. Se följande exempelkod och dess konsolresultat som referens.
+
+## **Exempelkod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet.cs" >}}
 
-##  **Konsolutgång**
+## **Konsoloutput**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Before Paper Size: PaperA3ExtraTransverse
 

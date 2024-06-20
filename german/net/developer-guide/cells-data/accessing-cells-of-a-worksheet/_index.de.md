@@ -1,57 +1,58 @@
 ---
-title: Zugriff auf Cells eines Arbeitsblatts
+title: Zugriff auf Zellen eines Arbeitsblatts
 type: docs
 weight: 10
 url: /de/net/accessing-cells-of-a-worksheet/
-description: In diesem Artikel wird gezeigt, wie Sie über Aspose.Cells for .NET API den maximalen Anzeigebereich von Arbeitsblättern und Zugriffszellen erreichen.
-keywords: Get Cell object, Access Cells, Get maximum display range of worksheet. 
+description: Dieser Artikel zeigt, wie Sie den maximalen Anzeigebereich des Arbeitsblatts erhalten und auf die Zellen über die Aspose.Cells for .NET API zugreifen.
+keywords: Hol Cell Objekt, Zugriff auf Zellen, Holen Sie sich den maximalen Anzeigebereich des Arbeitsblatts. 
 ---
+
 {{% alert color="primary" %}}
 
-Wir wissen, dass alle Arbeitsblätter Daten enthalten können, die grundsätzlich in Zellen gespeichert sind (aus denen ein Arbeitsblatt besteht). Eine Zelle ist ein grundlegender Teil eines Arbeitsblatts, der zum Aufbau des gesamten Arbeitsblatts als Folge von Zeilen und Spalten verwendet wird. Bevor wir versuchen, auf Daten aus einem Arbeitsblatt zuzugreifen, müssen wir Zugriff auf seine Zellen erhalten. In diesem Thema besprechen wir daher einige grundlegende Ansätze für den Zugriff auf Arbeitsblattzellen zur Laufzeit mithilfe von Aspose.Cells.
+Wir wissen, dass alle Arbeitsblätter Daten enthalten können, die im Wesentlichen in Zellen gespeichert sind (aus denen ein Arbeitsblatt besteht). Eine Zelle ist ein grundlegender Bestandteil eines Arbeitsblatts, der dazu verwendet wird, das gesamte Arbeitsblatt als Abfolge von Zeilen und Spalten aufzubauen. Bevor wir versuchen, Daten aus einem Arbeitsblatt abzurufen, müssten wir Zugriff auf seine Zellen erhalten. Daher werden wir in diesem Thema einige grundlegende Ansätze zur Laufzeitzugriff auf Arbeitsblattzellen erörtern, die Aspose.Cells verwendet.
 
 {{% /alert %}}
 
-##  **So erreichen Sie Cells**
+## **Wie man auf Zellen zugreift**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) das eine Excel-Datei darstellt. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Klasse enthält a[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)Dies ermöglicht den Zugriff auf jedes Arbeitsblatt in der Excel-Datei. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Sammlung, die alle Zellen im Arbeitsblatt darstellt.
+Aspose.Cells bietet eine Klasse, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), die eine Excel-Datei repräsentiert. Die [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-Klasse enthält ein [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection), das den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) repräsentiert. Die Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) bietet eine [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung, die alle Zellen im Arbeitsblatt repräsentiert.
 
- Wir können benutzen[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Sammlung, um auf Zellen in einem Arbeitsblatt zuzugreifen. Aspose.Cells bietet drei grundlegende Ansätze für den Zugriff auf Zellen in einem Arbeitsblatt:
+Wir können die [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung verwenden, um auf Zellen in einem Arbeitsblatt zuzugreifen. Aspose.Cells bietet drei grundlegende Ansätze, um auf Zellen in einem Arbeitsblatt zuzugreifen:
 
-1. Verwendung des Zellennamens.
-1. Verwenden des Zeilen- und Spaltenindex einer Zelle.
-1.  Verwenden eines Zellindex im[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Sammlung
+1. Verwenden des Zellnamens
+2. Verwendung von Zeilen- und Spaltenindex einer Zelle.
+1. Verwenden eines Zellindexes in der [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung
 
-**WICHTIG:**Wir haben erwähnt, dass der 3. Ansatz der schnellste und der 1. Ansatz der langsamste ist. Der Leistungsunterschied zwischen den Ansätzen ist sehr gering. Machen Sie sich also keine Sorgen über Leistungseinbußen, egal welchen Ansatz Sie verwenden.
+**WICHTIG:** Es wurde erwähnt, dass der 3. Ansatz der schnellste und der 1. Ansatz der langsamste ist. Der Leistungsunterschied zwischen den Ansätzen ist sehr gering, daher müssen Sie sich keine Sorgen um Leistungsverluste machen, egal welchen Ansatz Sie verwenden.
 
-###  **So erhalten Sie das Cell-Objekt anhand des Cell-Namens**
+### **So erhalten Sie ein Zellenobjekt anhand des Zellnamens**
 
- Entwickler können auf jede bestimmte Zelle zugreifen, indem sie ihren Zellennamen an übergeben[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Klasse als Index.
+Entwickler können auf eine beliebige bestimmte Zelle zugreifen, indem sie ihren Zellnamen als Index an die [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung der Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) übergeben.
 
- Wenn Sie zu Beginn ein leeres Arbeitsblatt erstellen, beträgt die Anzahl der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Sammlung ist Null. Wenn Sie diesen Ansatz verwenden, um auf eine Zelle zuzugreifen, wird geprüft, ob diese Zelle in der Sammlung vorhanden ist oder nicht. Wenn ja, wird das Zellobjekt in der Sammlung zurückgegeben, andernfalls wird ein neues erstellt[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Objekt, fügt das Objekt dem hinzu[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Sammlung und gibt dann das Objekt zurück. Dieser Ansatz ist der einfachste Weg, auf die Zelle zuzugreifen, wenn Sie mit Microsoft Excel vertraut sind, aber im Vergleich zu anderen Ansätzen ist er der langsamste.
+Wenn Sie zu Beginn ein leeres Arbeitsblatt erstellen, ist die Anzahl der [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung null. Wenn Sie diesen Ansatz zum Zugriff auf eine Zelle verwenden, wird überprüft, ob diese Zelle in der Sammlung vorhanden ist oder nicht. Wenn ja, wird das Zellenobjekt in der Sammlung zurückgegeben; andernfalls wird ein neues [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-Objekt erstellt, das Objekt der [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung hinzugefügt und dann das Objekt zurückgegeben. Dieser Ansatz ist die einfachste Möglichkeit, auf die Zelle zuzugreifen, wenn Sie mit Microsoft Excel vertraut sind, aber er ist im Vergleich zu anderen Ansätzen der langsamste.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellName-1.cs" >}}
 
-###  **So erhalten Sie den Cell-Objekt-nach-Zeilen- und Spaltenindex von Cell**
+### **So erhalten Sie ein Zellenobjekt anhand des Zeilen- und Spaltenindexes der Zelle**
 
- Entwickler können auf jede bestimmte Zelle zugreifen, indem sie die Indizes ihrer Zeile und Spalte an die übergeben[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Klasse.
+Entwickler können auf eine beliebige bestimmte Zelle zugreifen, indem sie die Indizes ihrer Zeile und Spalte an die [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung der Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) übergeben.
 
-Dieser Ansatz funktioniert auf die gleiche Weise wie der erste Ansatz.
+Dieser Ansatz funktioniert genauso wie der erste Ansatz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingRowAndColumnIndexOfCell-1.cs" >}}
 
-###  **So erhalten Sie das Cell-Objekt nach Cell-Index in der Cells-Sammlung**
+### **So erhalten Sie ein Zellenobjekt anhand des Zellindexes in der Zellensammlung**
 
- Auf eine Zelle kann auch zugegriffen werden, indem der numerische Index der Zelle an übergeben wird[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Sammlung.
+Eine Zelle kann auch durch Übergabe des numerischen Index der Zelle an die [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung abgerufen werden.
 
-Wenn Sie diesen Ansatz für den Zugriff auf Zellen verwenden, kann eine Ausnahme ausgelöst werden, wenn der numerische Index der Zelle außerhalb des gültigen Bereichs liegt. Dieser Ansatz ist der schnellste, um auf die Zellen zuzugreifen. Es ist jedoch wichtig zu wissen, dass sich der numerische Index ändern kann, wenn Sie diesen Ansatz für den Zugriff auf ein Zellobjekt verwenden, nachdem dem Objekt neue Zellen hinzugefügt wurden[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) Sammlung. Die Zellobjekte in der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Die Sammlung wird intern nach Zeilen- und Spaltenindizes sortiert.
+Wenn Sie diesen Ansatz zum Zugriff auf Zellen verwenden, kann eine Ausnahme ausgelöst werden, wenn der numerische Index der Zelle außerhalb des gültigen Bereichs liegt. Dieser Ansatz ist der schnellste, um auf die Zellen zuzugreifen, aber eine wichtige Sache zu wissen ist, dass der numerische Index nach Hinzufügen neuer Zellen zur [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung geändert werden kann. Die Zellenobjekte in der [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)-Sammlung sind intern nach Zeilen- und Spaltenindizes sortiert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-UsingCellIndexInCellsCollection-1.cs" >}}
 
-##  **So erhalten Sie den maximalen Anzeigebereich des Arbeitsblatts**
+## **So erhalten Sie die maximale Anzeigebereich des Arbeitsblatts**
 
-Aspose.Cells ermöglicht Entwicklern den Zugriff auf den maximalen Anzeigebereich eines Arbeitsblatts. Der maximale Anzeigebereich – der Zellbereich zwischen der ersten und der letzten Zelle mit Inhalt – ist nützlich, wenn Sie den gesamten Inhalt eines Arbeitsblatts kopieren, auswählen oder in einem Bild anzeigen müssen.
+Aspose.Cells ermöglicht Entwicklern den Zugriff auf den maximalen Anzeigebereich eines Arbeitsblatts. Der maximale Anzeigebereich - der Bereich der Zellen zwischen der ersten und der letzten Zelle mit Inhalt - ist nützlich, wenn Sie den gesamten Inhalt eines Arbeitsblatts in einem Bild kopieren, auswählen oder anzeigen müssen.
 
-Den maximalen Anzeigebereich eines Arbeitsblatts können Sie über erreichen[**Arbeitsblatt.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) . Der folgende Beispielcode veranschaulicht den Zugriff auf[**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)Eigentum.
+Sie können den maximalen Anzeigebereich eines Arbeitsblatts mithilfe von [**Worksheet.Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) abrufen. Der folgende Beispielcode veranschaulicht, wie auf die [**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)-Eigenschaft zugegriffen wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}

@@ -1,24 +1,25 @@
-﻿---
-title: Aspose.Cells ve xlsx4j'deki Ortak Özellikler için Kod Karşılaştırması
+---
+title: Aspose.Cells ve xlsx4j de Ortak Özellikler İçin Kod Karşılaştırması
 type: docs
 weight: 10
 url: /tr/java/code-comparison-for-common-features-in-aspose-cells-and-xlsx4j/
 ---
-Elektronik tablo işleme kitaplıkları arayan geliştiricilerin, piyasada bulunan kitaplıklar tarafından sağlanan özellikleri gözden geçirmesi gerekebilir. Temel olarak, bir seçenek belirlenirken birkaç faktör dikkate alınır:
 
-- Özellikleri
-- Kütüphaneyi kullanmak için gereken çabalar
-- Verim
+Elektronik Tablo İşleme kütüphaneleri arayan geliştiriciler, piyasada bulunan kütüphanelerin sunduğu özelliklere göz atabilirler. Genellikle, bir seçenek seçerken birkaç faktör göz önünde bulundurulur:
 
-Elektronik tabloları işlemek için bir elektronik tablo işleme kitaplığı seçmek isteyen bir Java geliştiricisiyseniz, xlsx4j'yi Aspose.Cells ile karşılaştırmak isteyebilirsiniz. Bu durumda, bu proje, her iki kitaplığı kullanarak özellikleri ve kodu karşılaştırmanıza yardımcı olacaktır.
+- Özellikler
+- Kütüphaneyi kullanmak için gereken çaba
+- Performans
 
-Bu bölüm aşağıdaki Kod Karşılaştırma Örneklerini içerir:
+Elektronik tabloları işlemek için bir kütüphane seçmek isteyen bir Java geliştiricisi, xlsx4j'yi Aspose.Cells ile karşılaştırmak isteyebilir. Bu durumda, bu proje, her iki kütüphaneyi de kullanarak özellikleri ve kodları karşılaştırmanıza yardımcı olacaktır.
 
-- [xlsx4j'de Elektronik Tablo ile Çalışma](/cells/tr/java/working-with-spreadsheet-in-xlsx4j/)
-  - [xlsx4j'de Elektronik Tabloya Yorum Ekleme](/cells/tr/java/add-comments-in-spreadsheet-in-xlsx4j/)
-  - [xlsx4j'de E-tabloya Resim Ekleme](/cells/tr/java/add-images-in-spreadsheet-in-xlsx4j/)
-  - [xlsx4j'de Yeni Elektronik Tablo Oluştur](/cells/tr/java/create-new-spreadsheet-in-xlsx4j/)
-  - [Elektronik Tabloyu xlsx4j'de Açın ve Kaydedin](/cells/tr/java/open-and-save-spreadsheet-in-xlsx4j/)
-  - [xlsx4j'de Satır Sütun Yükseklik Ayarı](/cells/tr/java/row-column-height-adjustment-in-xlsx4j/)
+Bu bölüm aşağıdaki kod karşılaştırma örneklerini içerir:
 
-**Not:**Çok daha fazla kod karşılaştırması yakında kullanıma sunulacaktır.
+- [xlsx4j ile Elektronik Tablo Çalışmak](/cells/tr/java/working-with-spreadsheet-in-xlsx4j/)
+  - [xlsx4j ile Elektronik Tabloya Yorum Ekleme](/cells/tr/java/add-comments-in-spreadsheet-in-xlsx4j/)
+  - [xlsx4j ile Elektronik Tabloya Resim Ekleme](/cells/tr/java/add-images-in-spreadsheet-in-xlsx4j/)
+  - [xlsx4j ile Yeni Elektronik Tablo Oluşturma](/cells/tr/java/create-new-spreadsheet-in-xlsx4j/)
+  - [xlsx4j ile Elektronik Tabloyu Açma ve Kaydetme](/cells/tr/java/open-and-save-spreadsheet-in-xlsx4j/)
+  - [xlsx4j'de Satır ve Sütun Yüksekliğini Ayarlama](/cells/tr/java/row-column-height-adjustment-in-xlsx4j/)
+
+**Not:** Daha fazla kod karşılaştırması yakında kullanılabilir olacak. 

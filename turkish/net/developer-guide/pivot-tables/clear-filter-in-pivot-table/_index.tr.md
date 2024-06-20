@@ -1,30 +1,31 @@
 ---
-title: Pivot Tabloda filtreyi temizle
+title: Pivot Tablosunda Filtreyi Temizle
 type: docs
 weight: 130
 url: /tr/net/clear-filter-in-pivot-table/
-description: Aspose.Cells ile pivot tablodaki belirli PivotField'den PivotFilter nasıl temizlenir.
-keywords: Clear PivotFilter in pivot table.
+description: Aspose.Cells ile pivot tablosundaki belirli bir PivotField dan PivotFilter ı nasıl temizleyeceğinizi öğrenin.
+keywords: Pivot tablosundaki PivotFilter ı temizleyin.
 ---
-##  **Olası Kullanım Senaryoları**
- Bilinen verilerle bir pivot tablo oluşturduğunuzda ve pivot tabloyu filtrelemek istediğinizde, filtreyi öğrenmeniz ve kullanmanız gerekir. İstediğiniz verileri etkili bir şekilde filtrelemenize yardımcı olabilir. Aspose.Cells API ile Pivot Tablolarda alan değerlerine göre filtreleme yapabilirsiniz.
 
-##  **Excel'deki Pivot Tablodaki filtreyi temizle**
-Excel'deki Özet Tablo'da filtreyi temizleyin, şu adımları izleyin:
+## **Olası Kullanım Senaryoları**
+Bilinen verilerle pivot tablosu oluşturduğunuzda ve tabloyu filtrelemek istediğinizde filtreyi öğrenip kullanmanız gerekir. Bu, istediğiniz veriyi etkili bir şekilde filtrelemenize yardımcı olabilir. Aspose.Cells API'sini kullanarak Pivot Tablolarında alan değerlerinde filtreleme yapabilirsiniz. 
 
-1.  Filtreyi temizlemek istediğiniz PivotTable'ı seçin.
-2. Pivot tabloda temizlemek istediğiniz filtre için açılır oka tıklayın.
-3. Açılır menüden "Filtreyi Temizle"yi seçin.
+## **Excel'de Pivot Tablosundaki filtrelemeyi temizle**
+Excel'de Pivot Tablosundaki filtrelemeyi temizleme adımları şunlardır:
+
+1. Temizlemek istediğiniz PivotTablosunu seçin. 
+2. Pivot tablosundaki temizlemek istediğiniz filtre için açılır ok'a tıklayın.
+3. Açılır menüden "Filtreyi Temizle" seçeneğini seçin.
 <img src="1.png" width=80% />
-4. Pivot tablodaki tüm filtreleri temizlemek isterseniz, Excel'de şeritte bulunan PivotTable Analizi sekmesindeki "Filtreleri Temizle" düğmesine de tıklayabilirsiniz.
+4. PivotTablosunda tüm filtreleri temizlemek isterseniz, Excel'in Ribbon'ındaki PivotTable Analyze sekmesindeki "Filtreleri Temizle" düğmesine de tıklayabilirsiniz.
 <img src="2.png" width=80% />
 
-##  **C# Kullanarak Pivot Tablodaki filtreyi temizleyin**
- Aspose.Cells kullanarak Özet Tablodaki filtreyi temizleyin. Lütfen aşağıdaki örnek koda bakın.
-1.  Verileri ayarlayın ve buna göre bir PivotTable oluşturun.
-2. Pivot tablonun satır alanına bir filtre ekleyin.
- 3. Çalışma kitabını şuraya kaydedin:[çıkış XLSX](out_add.xlsx) biçim. Örnek kodu çalıştırdıktan sonra, çalışma sayfasına top10 filtreli bir pivot tablo eklenir.
- 4. Belirli bir pivot alanındaki filtreyi temizleyin. Filtreyi temizleme kodunu çalıştırdıktan sonra, belirli pivot alanındaki filtre temizlenecektir. lütfen kontrol ediniz[çıkış XLSX](out_delete.xlsx).
+## **C# Kullanarak Pivot Tablosunda Filtreyi Temizleme**
+Aspose.Cells'i kullanarak Pivot Tablosundaki filtreleri temizleyin. Lütfen aşağıdaki örnek kodu inceleyin. 
+1. Verileri ayarlayın ve bunlara dayalı bir PivotTablo oluşturun. 
+2. Pivot tablosunun sıra alanına bir filtre ekleyin. 
+3. İşlem örneği kodunu çalıştırdıktan sonra, [çıktı XLSX](out_add.xlsx) biçimindeki bir çalışma kitabına bir pivot tablosu ve üst10 filtresi eklenir. 
+4. Belirli bir pivot alanındaki filtreyi temizleyin. Filtreyi temizlemek için kodu çalıştırdıktan sonra, belirli pivot alanındaki filtre temizlenecektir. Lütfen [çıktı XLSX](out_delete.xlsx) dosyasını kontrol edin.
 
-##  **Basit kod**
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-Clear-filter-in-PivotTable.cs" >}}

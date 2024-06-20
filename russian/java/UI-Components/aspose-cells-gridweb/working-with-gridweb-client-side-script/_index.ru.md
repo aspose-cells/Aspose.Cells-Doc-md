@@ -1,8 +1,9 @@
 ---
-title: Работа со скриптом на стороне клиента GridWeb
+title: Работа с клиентским скриптом GridWeb
 type: docs
 weight: 100
 url: /ru/java/working-with-gridweb-client-side-script/
 ---
-##  **Статьи в этом разделе**
+
+## **Статьи в этом разделе**
 

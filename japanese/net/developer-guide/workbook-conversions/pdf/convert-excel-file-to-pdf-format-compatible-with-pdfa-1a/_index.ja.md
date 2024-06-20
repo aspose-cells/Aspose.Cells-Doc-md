@@ -1,22 +1,23 @@
-﻿---
-title: Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換します
+---
+title: ExcelファイルをPDFA 1aに対応したPDF形式に変換
 type: docs
 weight: 130
 url: /ja/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/
 ---
-## **考えられる使用シナリオ**
 
-PDF/A は、PDF のユニークなフレーバーで、ドキュメントの長期保存用に設計されています。 PDF/A は、Portable Document Format (PDF) の ISO 標準化バージョンであり、PDF のアーカイブ形式であり、PDF ファイル内のドキュメントで使用されるすべてのフォントが埋め込まれています。 PDF/A は、フォントのリンク (フォントの埋め込みではなく) や暗号化などの機能を禁止する点で PDF とは異なります。 Aspose.Cells では、Excel ファイルを PDF/A 準拠の PDF ファイルに保存できます (PdfA1a と PdfA1b の両方がサポートされています)。このトピックでは、Excel ブックを PDF/A 準拠 (PdfA1a) PDF ファイルに保存する方法について説明します。
+## **可能な使用シナリオ**
 
-## **Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換します**
+PDF/Aは、文書の長期保存のために設計されたPDFの特別な仕様です。PDF/Aは、Portable Document Format（PDF）のISO標準化バージョンであり、文書内で使用されるすべてのフォントをPDFファイルに埋め込むアーカイブ形式のPDFです。Aspose.Cellsを使用して、ExcelファイルをPDF/A準拠のPDFファイル（PDF/A-1a、PDF/A-1b、PDF/A-2a、PDF/A-2b、PDF/A-2u、PDF/A-3a、PDF/A-2ab、およびPDF/A-3uがサポートされています）に保存することができます。このトピックでは、ExcelワークブックをPDF/A準拠（PDF/A-1a）のPDFファイルに保存する方法について説明します。
 
-開発者は、**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**クラスを使用して、変換用にさまざまな属性を設定します。のさまざまなプロパティの設定**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**クラスを使用すると、出力 PDF の印刷、フォント、セキュリティ、および圧縮設定を制御できます。最も重要なプロパティは次のとおりです。**[PdfSaveOptions.Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**これにより、Excel ファイルを PDF/A 準拠の PDF ファイルに保存できます。
+## **ExcelファイルをPDF形式に変換して、PDF/A-1aと互換性がある形式にする方法**
 
-次のサンプル コードでは、Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換する方法について説明します。ご覧ください[出力 PDF](outputCompliancePdfA1a.pdf)参照用のスクリーンショットと同様に。
+開発者は変換の様々な属性を設定するために [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) クラスを使用できます。出力 PDF の印刷、フォント、セキュリティおよび圧縮設定について、[**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) クラスの異なるプロパティを設定することで制御できます。最も重要なプロパティは、Excel ファイルを PDF/A 準拠の PDF ファイルに保存できるようにする [**PdfSaveOptions.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance) です。
+
+次のサンプルコードは、ExcelファイルをPDF/A-1aに対応する形式に変換する方法を説明しています。参照用の[outpur PDF](outputCompliancePdfA1a.pdf)およびスクリーンショットをご覧ください。
 
 ## **スクリーンショット**
 
-![todo:画像_代替_文章](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
+![todo:image_alt_text](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
 
 ## **サンプルコード**
 

@@ -1,20 +1,21 @@
-﻿---
+---
 title: دمج الملفات
 type: docs
 weight: 20
 url: /ar/net/merge-files/
 ---
+
 ## **مقدمة**
 
- يوفر Aspose.Cells طرقًا مختلفة لدمج الملفات. بالنسبة إلى الملفات البسيطة التي تحتوي على بيانات وتنسيقات وصيغ ، فإن ملف[**المصنف. الجمع بين ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) يمكن استخدام الطريقة لدمج العديد من المصنفات ، و[**ورقة العمل. نسخة ()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index)يمكن استخدام الأسلوب لنسخ أوراق العمل إلى مصنف جديد. هذه الطرق سهلة الاستخدام وفعالة ، ولكن إذا كان لديك الكثير من الملفات لدمجها ، فقد تجد أنها تتطلب الكثير من موارد النظام. لتجنب ذلك ، استخدم ملف[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)طريقة ثابتة ، طريقة أكثر فعالية لدمج عدة ملفات.
+توفر Aspose.Cells طرقًا مختلفة لدمج الملفات. يمكن استخدام الطريقة [**Workbook.Combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) لدمج عدة دفاتر عمل بيانات وتنسيقات وصيغ، كما يمكن استخدام الطريقة [**Worksheet.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index) لنسخ أوراق العمل إلى دفتر عمل جديد. تُستخدم هذه الطرق بسهولة وهي فعالة، ولكن إذا كنت تمتلك الكثير من الملفات لدمجها، قد تجد أنها تستهلك الكثير من موارد النظام. لتجنب ذلك، استخدم الطريقة الثابتة [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)، وهي الطريقة الأكثر كفاءة لدمج العديد من الملفات.
 
 ## **دمج الملفات باستخدام Aspose.Cells**
 
- يوضح نموذج التعليمات البرمجية التالي كيفية دمج الملفات الكبيرة باستخدام ملحق[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)طريقة. يستغرق الأمر ملفين بسيطين لكن كبيرين ، Book1.xls و Book2.xls. تحتوي الملفات على بيانات وصيغ منسقة فقط.
+يوضح الكود العيني التالي كيفية دمج الملفات الكبيرة باستخدام الطريقة [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles). يأخذ ملفين بسيطين ولكن كبيرين فقط، Book1.xls و Book2.xls. يتضمن الملفات بيانات مهيأة وصيغ فقط.
 
 {{% alert color="primary" %}}
 
- ال[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) الأسلوب يدعم فقط دمج البيانات والأنماط والتنسيق والصيغ. قد لا يتم دمج الكائنات مثل المخططات أو الصور أو التعليقات أو الكائنات الأخرى باستخدام هذه الطريقة. علاوة على ذلك ، يتم استخدام ملف مخبأ لتخزين البيانات المؤقتة للعملية.
+تدعم الطريقة [**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) فقط دمج البيانات والأنماط والتنسيقات والصيغ. قد لا يتم دمج الكائنات مثل الرسوم البيانية والصور والتعليقات أو الكائنات الأخرى باستخدام هذه الطريقة. علاوة على ذلك، يتم استخدام ملف مخزن مؤقت لتخزين البيانات المؤقتة للعملية.
 
 {{% /alert %}}
 

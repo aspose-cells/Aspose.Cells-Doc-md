@@ -1,18 +1,19 @@
-﻿---
-title: Преобразование Excel в HTML с помощью всплывающей подсказки
+---
+title: Преобразовать Excel в HTML c всплывающей подсказкой
 type: docs
 weight: 200
 url: /ru/net/convert-excel-to-html-with-tooltip/
 ---
-## **Преобразование Excel в HTML с помощью всплывающей подсказки**
 
-Могут быть случаи, когда текст обрезается в сгенерированном HTML, и вы хотите отобразить полный текст в виде всплывающей подсказки при наведении курсора. Aspose.Cells поддерживает это, предоставляя**[HtmlSaveOptions.AddTooltipText] (https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** имущество. Настройка**[HtmlSaveOptions.AddTooltipText] (https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** собственность на**истинный** добавит полный текст в качестве всплывающей подсказки в сгенерированном HTML.
+## **Преобразование Excel в HTML со всплывающей подсказкой**
 
-На следующем изображении показана всплывающая подсказка в сгенерированном файле HTML.
+Могут быть случаи, когда текст обрезается в сгенерированном HTML, и вы хотите отобразить полный текст в виде подсказки при событии наведения. Aspose.Cells поддерживает это, предоставляя свойство [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext). Установка свойства [**HtmlSaveOptions.AddTooltipText**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext) в **true** добавит полный текст в виде подсказки в сгенерированное HTML.
 
-![дело:изображение_альтернативный_текст](convert-excel-to-html-with-tooltip_1.jpg)
+На следующем изображении показана всплывающая подсказка в сгенерированном HTML файле.
 
- Следующий пример кода загружает[исходный файл excel](98107416.xlsx) и генерирует[выходной файл HTML](98107417.zip) с подсказкой.
+![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
+
+В следующем коде загружается [исходный файл Excel](98107416.xlsx) и создается [файл HTML вывода](98107417.zip) с подсказкой.
 
 Образец кода
 

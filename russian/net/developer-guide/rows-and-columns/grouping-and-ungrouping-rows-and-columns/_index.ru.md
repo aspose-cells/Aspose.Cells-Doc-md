@@ -1,63 +1,64 @@
-﻿---
-title: Группировка и разгруппировка строк и столбцов
+---
+title: Группировка и расгруппировка строк и столбцов
 type: docs
 weight: 50
 url: /ru/net/grouping-and-ungrouping-rows-and-columns/
 ---
-## **Вступление**
 
-В файле Excel Microsoft можно создать структуру данных, позволяющую отображать и скрывать уровни детализации одним щелчком мыши.
+## **Введение**
 
- Нажмите на**Контурные символы**, 1,2,3, + и -, чтобы быстро отобразить только строки или столбцы, которые содержат сводки или заголовки для разделов на листе, или вы можете использовать символы, чтобы увидеть подробности под отдельной сводкой или заголовком, как показано ниже на рисунке. :
+В файле Microsoft Excel можно создать контур для данных, чтобы можно было показать и скрыть уровни детализации одним щелчком мыши.
+
+Щелкните на **Символы сводки**, 1,2,3, + и -, чтобы быстро отобразить только строки или столбцы, которые предоставляют сводки или заголовки для разделов в листе, или можно использовать символы, чтобы увидеть детали под отдельной сводкой или заголовком, как показано ниже на рисунке:
 
 |**Группировка строк и столбцов.**|
-|:- |
-|![дело:изображение_альтернативный_текст](grouping-and-ungrouping-rows-and-columns_1.png)|
+| :- |
+|![todo:image_alt_text](grouping-and-ungrouping-rows-and-columns_1.png)|
 
-## **Групповое управление строками и столбцами**
+## **Управление группировкой строк и столбцов**
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) который представляет собой файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочий листКоллекция**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) который позволяет получить доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс предоставляет[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)коллекция, представляющая все ячейки рабочего листа.
+Aspose.Cells предоставляет класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), который представляет файл Microsoft Excel. Класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) содержит [**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection), что позволяет получить доступ к каждому листу в файле Excel. Лист представлен классом [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Класс [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) обеспечивает коллекцию [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells), которая представляет все ячейки в листе.
 
-[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection предоставляет несколько методов для управления строками или столбцами на листе, некоторые из них более подробно обсуждаются ниже.
+Коллекция [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) предоставляет несколько методов для управления строками или столбцами на листе, ниже подробно рассмотрены некоторые из них.
 
 ### **Группировка строк и столбцов**
 
- Можно сгруппировать строки или столбцы, вызвав метод[**ГруппРовс**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/grouprows/index) и[**Групповые столбцы**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/groupcolumns/index) методы[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) коллекция. Оба метода принимают следующие параметры:
+Возможно сгруппировать строки или столбцы, вызвав методы [**GroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/grouprows/index) и [**GroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/groupcolumns/index) коллекции [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Оба метода принимают следующие параметры:
 
-- Индекс первой строки/столбца, первая строка или столбец в группе.
-- Индекс последней строки/столбца, последняя строка или столбец в группе.
-- Скрыт, логический параметр, указывающий, следует ли скрывать строки/столбцы после группировки или нет.
+- Индекс первой строки/столбца в группе.
+- Индекс последней строки/столбца в группе.
+- Скрыто, логический параметр, указывающий, нужно ли скрыть строки/столбцы после группировки.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-GroupingRowsAndColumns-1.cs" >}}
 
-#### **Настройки группы**
+#### **Настройки группировки**
 
-Microsoft Excel позволяет настроить параметры группы для отображения:
+Microsoft Excel позволяет настроить параметры группировки для отображения:
 
 - Сводные строки под деталями.
-- Сводные столбцы справа от подробностей.
+- Сводные столбцы справа от деталей.
 
- Разработчики могут настроить эти групповые параметры с помощью[**Контур**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) собственность[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)учебный класс.
+Разработчики могут настроить параметры группы, используя свойство [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) класса [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
 
-### **Сводные строки ниже детализации**
+### **Итоговые строки под деталями**
 
- Можно контролировать, будут ли сводные строки отображаться под деталями, установив параметр[**Контур**](https://reference.aspose.com/cells/net/aspose.cells/outline) учебный класс'[**РезюмеСтрокаНиже**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) собственность на**истинный** или же**ЛОЖЬ**.
+Возможно управлять отображением итоговых строк под деталями, установив свойство [**SummaryRowBelow**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) класса [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/outline) в **true** или **false**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
-### **Сводные столбцы справа от подробностей**
+### **Итоговые столбцы справа от деталей**
 
- Разработчики также могут управлять отображением сводных столбцов справа от подробностей, установив параметр[**РезюмеСтолбецПравый**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) собственностью[**Контур**](https://reference.aspose.com/cells/net/aspose.cells/outline) класс для**истинный** или же**ЛОЖЬ**.
+Разработчики могут также управлять отображением итоговых столбцов справа от деталей, установив свойство [**SummaryColumnRight**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) класса [**Outline**](https://reference.aspose.com/cells/net/aspose.cells/outline) в **true** или **false**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
 
 ## **Разгруппировка строк и столбцов**
 
- Чтобы разгруппировать любые сгруппированные строки или столбцы, вызовите метод[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) коллекция[**Разгруппировать ряды**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) и[**Разгруппировать столбцы**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns)методы. Оба метода принимают два параметра:
+Чтобы разгруппировать любые сгруппированные строки или столбцы, вызовите методы [**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) и [**UngroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns) коллекции [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells). Оба метода принимают два параметра:
 
-- Индекс первой строки или столбца, первая строка/столбец, подлежащий разгруппировке.
-- Индекс последней строки или столбца, последняя строка/столбец для разгруппировки.
+- Индекс первой строки/столбца, которую нужно разгруппировать.
+- Индекс последней строки/столбца, которую нужно разгруппировать.
 
-[**Разгруппировать ряды**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) имеет перегрузку, которая принимает логический третий параметр. Установка его на**истинный**удаляет всю сгруппированную информацию. В противном случае удаляется только информация о внешней группе.
+[**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) имеет перегрузку, принимающую третий параметр логического типа. Установка его в **true** удаляет всю группированную информацию. В противном случае удаляется только внешняя информация о группе.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}

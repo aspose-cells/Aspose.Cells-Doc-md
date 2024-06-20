@@ -1,26 +1,27 @@
 ---
-title: Преобразовать-Excel-в-JSON
+title: Конвертировать Excel в JSON
 type: docs
 weight: 300
 url: /ru/python-net/convert-excel-to-json/
 description: Узнайте, как преобразовать файл Excel в JSON с помощью Aspose.Cells for Python via .NET API.
-keywords: Python Convert excel to json, Convert excel to json Pyton via NET, Export Workbook to json, Convert excel file to json
+keywords: Python Преобразование Excel в json, Преобразование Excel в json Pyton via NET, Экспорт рабочей книги в json, Преобразование файла Excel в json
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via .NET поддерживает преобразование книги в файл Json (нотация объектов JavaScript).
+Aspose.Cells для Python via .NET поддерживает преобразование рабочей книги в файл Json (JavaScript Object Notation).
 
 {{% /alert %}}
 
-##  **Преобразовать книгу Excel в JSON**
+## **Конвертировать книгу Excel в JSON**
 
-Не нужно задаваться вопросом, как преобразовать книгу Excel в JSON, потому что библиотека Aspose.Cells for Python via .NET имеет лучшее решение. Aspose.Cells API обеспечивает поддержку преобразования электронных таблиц в формат JSON. Чтобы экспортировать книгу на номер JSON, введите[**СохранитьФормат.JSON**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat) в качестве второго параметра[**Рабочая книга.Сохранить**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveOptions) метод. Вы также можете использовать[**JsonSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/JsonSaveoptions) class, чтобы указать дополнительные настройки для экспорта листа в JSON.
+Не нужно задумываться, как преобразовать рабочую книгу Excel в JSON, потому что у библиотеки Aspose.Cells для Python via .NET есть лучшее решение. API Aspose.Cells предоставляет поддержку преобразования электронных таблиц в формат JSON. Для экспорта рабочей книги в JSON передайте [**SaveFormat.JSON**](https://reference.aspose.com/cells/python-net/aspose.cells/saveformat) вторым параметром метода [**Workbook.save**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/save/#str-aspose.cells.SaveOptions). Также можно использовать класс [**JsonSaveOptions**](https://reference.aspose.com/cells/python-net/aspose.cells/JsonSaveoptions), чтобы указать дополнительные настройки для экспорта листа в JSON.
 
- В следующем примере кода показан экспорт книги Excel в Json. Пожалуйста, посмотрите код для конвертации[исходный файл](sample.xlsx) в файл Json, созданный кодом для справки.
+Приведенный ниже код демонстрирует экспорт книги Excel в Json. Пожалуйста, ознакомьтесь с кодом для конвертации [исходного файла](sample.xlsx) в файл Json, сгенерированный кодом, для ознакомления.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-JSON-New.py" >}}
 
- В следующем примере кода, в котором для указания дополнительных параметров используется класс JsonSaveOptions, показан экспорт книги Excel в Json. Пожалуйста, посмотрите код для конвертации[исходный файл](sample.xlsx) в файл Json, созданный кодом, для справки.
+Приведенный ниже пример кода, который использует класс JsonSaveOptions для указания дополнительных настроек, демонстрирует экспорт рабочей книги Excel в Json. Пожалуйста, ознакомьтесь с кодом для конвертации [исходного файла](sample.xlsx) в Json-файл, сгенерированный кодом, для справки.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Convert-Excel-to-JSON-New2.py" >}}
 

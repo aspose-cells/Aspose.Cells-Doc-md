@@ -3,21 +3,22 @@ title: Konsolideringsfunktion
 type: docs
 weight: 20
 url: /sv/python-net/consolidation-function/
-description: Så här applicerar du ConsolidationFunction på datafält i pivottabellen med Aspose.Cells for Python via .NET.
-keywords: ConsolidationFunction to Data Fields of Pivot Table.
+description: Hur man tillämpar konsolideringsfunktion på datapunkterna i pivottabellen med Aspose.Cells för Python via .NET.
+keywords: Aspose.Cells for Python Excel, Excel Python bibliotek, konsolideringsfunktion till datapunkterna i pivottabellen med hjälp av Aspose.Cells för Python Excel Library.
 ---
-##  **Konsolideringsfunktion**
 
- Aspose.Cells for Python via .NET kan användas för att tillämpa ConsolidationFunction på datafält (eller värdefält) i pivottabellen. I Microsoft Excel kan du högerklicka på värdefältet och sedan välja**Inställningar för värdefält...** och välj sedan fliken *Sammanfatta värden efter**. Därifrån kan du välja valfri konsolideringsfunktion som Summa, Antal, Genomsnitt, Max, Min, Produkt, Distinkt antal, etc.
+## **Konsolideringsfunktion**
 
- Aspose.Cells for Python via .NET tillhandahåller[**Konsolideringsfunktion**](https://reference.aspose.com/cells/python-net/aspose.cells/consolidationfunction/) uppräkning för att stödja följande konsolideringsfunktioner.
+Aspose.Cells for Python via .NET kan användas för att tillämpa konsolideringsfunktion på datapunkterna (eller värdespunkterna) i pivottabellen. I Microsoft Excel kan du högerklicka på värdefältet och sedan välja **Alternativ för värdefält...** och sedan välja fliken **Summera värden efter**. Där kan du välja valfri konsolideringsfunktion som Summa, Antal, Medel, Max, Min, Produkt, Unikt antal, osv.
+
+Aspose.Cells för Python via .NET tillhandahåller [**ConsolidationFunction**](https://reference.aspose.com/cells/python-net/aspose.cells/consolidationfunction/) uppräkning för att stödja följande konsolideringsfunktioner.
 
 - ConsolidationFunction.AVERAGE
 - ConsolidationFunction.COUNT
-- Consolidation Function.COUNT_NUMS
+- ConsolidationFunction.COUNT_NUMS
 - ConsolidationFunction.DISTINCT_COUNT
 - ConsolidationFunction.MAX
-- Consolidation Function.MIN
+- ConsolidationFunction.MIN
 - ConsolidationFunction.PRODUCT
 - ConsolidationFunction.STD_DEV
 - ConsolidationFunction.STD_DEVP
@@ -25,9 +26,9 @@ keywords: ConsolidationFunction to Data Fields of Pivot Table.
 - ConsolidationFunction.VAR
 - ConsolidationFunction.VARP
 
-###  **Tillämpa ConsolidationFunction på datafält i pivottabellen**
+## **Hur man tillämpar konsolideringsfunktion på datapunkterna i pivottabellen med hjälp av Aspose.Cells för Python Excel-bibliotek**
 
- Följande kod gäller**AVERAGE** konsolideringsfunktion till det första datafältet (eller värdefältet) och**DISTINCT_COUNT** konsolideringsfunktion till det andra datafältet (eller värdefältet).
+Följande kod tillämpar **MEDEL** konsolideringsfunktion på det första datapunkten (eller värdespunkten) och **DISTINCT_COUNT** konsolideringsfunktion på den andra datapunkten (eller värdespunkten).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ConsolidationFunctions-1.py" >}}
 

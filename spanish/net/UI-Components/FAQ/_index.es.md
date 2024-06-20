@@ -1,25 +1,40 @@
-﻿---
-title: Preguntas más frecuentes
+---
+title: Preguntas frecuentes (FAQ)
 type: docs
 weight: 400
 url: /es/net/grid-faq/
 ---
-## **¿Existe alguna limitación en la versión de evaluación de Aspose.Cells Grid Controls?**
- No, no hay limitación de funciones en la versión de evaluación de Aspose.Cells Grid Controls. La versión de evaluación proporciona funciones completas de la versión con licencia, excepto que agrega una hoja de trabajo adicional (que contiene**Evaluación Advertencia de derechos de autor** ) a los archivos de salida.
-## **Hay tantos controles Grid disponibles en el mercado. ¿Por qué debería comprar Aspose.Cells Grid Controls?**
- Bueno, Aspose.Cells Grid Controls tienen un precio muy bueno para ser asequible para todo tipo de usuarios. A un precio muy razonable, le brinda un conjunto de dos controles para trabajar en Windows y aplicaciones web. Además, no es solo una simple cuadrícula, es su**Visor, editor y creador de hojas de cálculo** al mismo tiempo. No solo puede vincularlo con cualquier tipo de fuente de datos (como los controles de cuadrícula normales), sino también crear y administrar archivos de Excel. También proporciona un fuerte y rico**Motor de cálculo de fórmulas** para calcular no solo funciones integradas (compatibles con Aspose.Cells Grid Controls), sino también fórmulas personalizadas definidas por usted. Hay muchas más características de Aspose.Cells Grid Suite que no se pueden cubrir aquí, consulte la página Tipos de edición para obtener una lista de características más detallada.
-## **Recientemente compré mi licencia para Aspose.Cells Grid Controls. ¿Cómo puedo usar esa licencia en mi aplicación con Aspose.Cells Grid Control?**
-por favor refiérase a[Licencia](/cells/es/net/licensing/) página de Aspose.Cells Grid Controls. Proporciona detalles completos sobre cómo usar la licencia con Aspose.Cells Grid Controls en sus aplicaciones.
-## **¿Se admiten los controles de cuadrícula Aspose.Cells en Visual Studio.NET 2005?**
-Sí, Aspose.Cells Grid Controls son totalmente compatibles con Visual Studio.NET 2005 y versiones posteriores.
-## **Estoy usando el control Aspose.Cells.GridWeb en mi sitio web usando Visual Studio.NET 2005. Pero no funciona en absoluto. ¿Cuál es el problema?**
- Aspose.Cells. GridWeb admite ambos**Sistema de archivos** y**HTTP** modos de Visual Studio.NET 2005. Si todavía está confundido, consulte la guía paso a paso para Trabajar con Aspose.Cells.GridWeb usando Visual Studio.NET 2005.
+
+## **¿Hay alguna limitación en la versión de evaluación de los controles de cuadrícula de Aspose.Cells?**
+No, no hay limitación de funciones en la versión de evaluación de esos controles.
+
+La versión de evaluación proporciona todas las funciones de la versión con licencia excepto que agrega una hoja de cálculo adicional (que contiene **Advertencia de Derechos de Autor de Evaluación**) a los archivos de salida.
+
+
+## **Hay tantos controles de cuadrícula disponibles en el mercado. ¿Por qué debería comprar los controles de cuadrícula de Aspose.Cells?**
+Bueno, los controles de cuadrícula de Aspose.Cells tienen un precio muy razonable para ser asequible para todo tipo de usuarios. Por un precio muy asequible,
+
+proporciona un conjunto de dos controles para trabajar en aplicaciones de Windows y Web. 
+
+Además, no es simplemente una cuadrícula, es su **Visor, Editor y Creador de Hojas de Cálculo** al mismo tiempo. 
+
+No solo puedes vincularlo con cualquier tipo de fuente de datos (como los controles de cuadrícula normales) sino también crear y gestionar archivos de Excel. También proporciona un **Motor de Cálculo de Fórmulas** sólido y rico para calcular no solo funciones integradas (compatibles con los controles de cuadrícula de Aspose.Cells) sino también fórmulas personalizadas definidas por ti. Hay muchas más características del conjunto de cuadrícula de Aspose.Cells que no se pueden detallar aquí, por favor consulta la página de Tipos de Edición para obtener una lista de características más detallada.
+
+## **Recientemente compré mi licencia para los controles de cuadrícula de Aspose.Cells. ¿Cómo puedo usar esa licencia en mi aplicación con el Control de Cuadrícula de Aspose.Cells?**
+Consulta la página de [Licencias](/cells/es/net/licensing/) de los controles de cuadrícula de Aspose.Cells. 
+
+Proporciona detalles completos sobre cómo utilizar la licencia con los controles de cuadrícula de Aspose.Cells en tus aplicaciones.
+
+
+
 ## **¿Cómo puedo implementar mi proyecto/solución web basado en Aspose.Cells.GridWeb en el servidor?**
-Si necesita implementar la aplicación web con el control de GridWeb, debe copiar el archivo "acw_client" en la carpeta de su proyecto, al menos su aplicación web (implementada en el servidor) no pudo encontrarlo. Siempre puede especificar la ruta de secuencias de comandos agregando las siguientes líneas de código en la sección de configuración (por ejemplo, en el archivo web.config en su Proyecto VS.NET). El "acw_client" es una carpeta que contiene archivos y Aspose.Cells. GridWeb usa esta carpeta para administrar su configuración interna, tiene archivos de secuencias de comandos, archivos de imagen y otros archivos para especificar el comportamiento de GridWeb y establecer otras operaciones. El archivo de configuración se usa para evitar que el control utilizando los recursos del cliente incorporados (imágenes, scripts, etc.), lo cual es útil en algunos casos/escenarios.
+Si necesitas implementar la aplicación web con control GridWeb, copiarías el directorio "acw_client" en la carpeta de tu proyecto como mínimo, ya que tu aplicación web (implementada en el servidor) no podría encontrarlo.
+
+Siempre puedes especificar la ruta de scripts agregando las siguientes líneas de código en la sección de configuración (por ejemplo, en el archivo web.config de tu proyecto VS.NET). El "acw_client" es una carpeta que contiene archivos y Aspose.Cells.GridWeb utiliza esta carpeta para gestionar su configuración interna, tiene archivos de scripts, archivos de imagen y otros archivos para especificar el comportamiento de GridWeb y configurar otras operaciones. El archivo de configuración se utiliza para evitar que el control utilice los recursos del cliente incrustados (imágenes, scripts, etc.), lo cual es útil en algunos casos o escenarios.
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <appSettings>
 
@@ -35,13 +50,12 @@ Si necesita implementar la aplicación web con el control de GridWeb, debe copia
 
 {{% alert color="primary" %}} 
 
-La ruta siempre está relacionada con el directorio del proyecto. No debe usar ningún directorio que esté fuera del directorio del proyecto. Por lo tanto, es necesario copiar el directorio "acw_client" (@ su carpeta de instalación de GridWeb) en el directorio del proyecto.
+La ruta siempre está relacionada con el directorio del proyecto. No debe usar ningún directorio que esté fuera del directorio del proyecto. Por lo tanto, es necesario copiar el directorio "acw_client" (en su carpeta de instalación de GridWeb) en el directorio del proyecto.
 
 {{% /alert %}} 
-## **Ejecutando Aspose.Cell.GridWeb en Internet Explorer 10 u 11**
- Actualmente, Aspose.Cells.GridWeb no funciona muy bien en Internet Explorer 10 u 11, por lo que debe usar el modo de compatibilidad de IE8/9 para trabajar con él en el tipo de navegador IE10/11. Debe agregar la siguiente línea de**<meta>** etiqueta en la sección de encabezado en**.aspx** página:
+## **Ejecutando Aspose.Cell.GridWeb en Internet Explorer**
+Actualmente, Aspose.Cells.GridWeb ya no es compatible con Internet Explorer, es un navegador muy antiguo. 
+Soportamos Chrome, Edge, Firefox, Safari, Opera
 
 
-
-{{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-KnowledgeBase-FAQ-RunGridWebInIE-RunGridWebIE.aspx" >}}
 

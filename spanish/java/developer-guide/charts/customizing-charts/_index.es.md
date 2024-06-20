@@ -5,189 +5,190 @@ weight: 15
 url: /es/java/creating-and-customizing-charts/
 alias: [/java/customizing-charts/]
 ---
-##  **Crear gráficos**
 
-Es posible agregar una variedad de gráficos a las hojas de cálculo con Aspose.Cells. Aspose.Cells proporciona muchos objetos de gráficos flexibles. En este tema se analizan los objetos de gráficos Aspose.Cells'.
+## **Creando gráficos**
 
-###  **Simplemente creando un gráfico**
+Es posible agregar una variedad de gráficos a hojas de cálculo con Aspose.Cells. Aspose.Cells proporciona muchos objetos de gráficos flexibles. Este tema discute los objetos de gráficos de Aspose.Cells.
 
-Es sencillo crear un gráfico con Aspose.Cells con los siguientes códigos de ejemplo:
+### **Simplemente creando un gráfico**
+
+Es simple crear un gráfico con Aspose.Cells con los siguientes códigos de ejemplo:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-Charts-ManipulateChart-HowToCreateColumnChart-1.java" >}}
 
 
-###  **Cosas que debe saber para crear un gráfico**
+### **Cosas que debes saber para crear un gráfico**
 
-Antes de crear gráficos, es importante comprender algunos conceptos básicos que resultan útiles al crear gráficos utilizando Aspose.Cells.
+Antes de crear gráficos es importante comprender algunos conceptos básicos que son útiles al crear gráficos con Aspose.Cells.
 
-####  **Objetos gráficos**
+#### **Objetos de gráficos**
 
-Aspose.Cells proporciona un conjunto especial de clases que se utilizan para crear todo tipo de gráficos. Estas clases se utilizan para crear *objetos de gráficos**, que actúan como bloques de construcción del gráfico. Los objetos de gráficos se enumeran a continuación:
+Aspose.Cells proporciona un conjunto especial de clases utilizadas para crear todo tipo de gráficos. Estas clases se usan para crear **objetos de gráficos**, que actúan como bloques de construcción del gráfico. A continuación se enumeran los objetos de gráficos:
 
-- [**Eje**](https://reference.aspose.com/cells/java/com.aspose.cells/Axis), el eje de un gráfico.
-- [**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart), un único gráfico de Excel.
-- [**Área del gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartArea), el área del gráfico en la hoja de trabajo.
-- [**Tabla de datos del gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartDataTable), una tabla de datos del gráfico.
-- [**Marco de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartFrame), el objeto de marco en un gráfico.
-- [**Punto de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), un solo punto en una serie en un gráfico.
-- [**Colección ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPointCollection), una colección que contiene todos los puntos de una serie.
-- [**Colección de gráficos**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) , una coleccion de[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)objetos.
--  DataLabels, DataLabels para lo especificado[**Serie**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**Punto de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**Línea de tendencia**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), etc.
-- [**Formato de relleno**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat), rellena el formato de una forma.
-- [**Piso**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor)el suelo de un gráfico 3D.
-- [**Leyenda**](https://reference.aspose.com/cells/java/com.aspose.cells/Legend), la leyenda del gráfico.
-- [**Línea**](https://reference.aspose.com/cells/java/com.aspose.cells/Line), la línea del gráfico.
-- [**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) , una coleccion de[**Serie**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)objetos.
-- [**Serie**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), representa una única serie de datos en un gráfico.
-- [**Etiquetas de marca**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels), las etiquetas de marcas asociadas con las marcas en un eje del gráfico.
-- [**Título**](https://reference.aspose.com/cells/java/com.aspose.cells/Title), el título de un gráfico o eje.
-- [**Línea de tendencia**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), una línea de tendencia en un gráfico.
-- [**Colección Trendline**](https://reference.aspose.com/cells/java/com.aspose.cells/TrendlineCollection), una colección de todos los objetos Trendline para la serie de datos especificada.
-- [**Paredes**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls), las paredes de un gráfico 3D.
+- [**Axis**](https://reference.aspose.com/cells/java/com.aspose.cells/Axis), eje de un gráfico.
+- [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart), un solo gráfico de Excel.
+- [**ChartArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartArea), el área del gráfico en la hoja de cálculo.
+- [**ChartDataTable**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartDataTable), una tabla de datos del gráfico.
+- [**ChartFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartFrame), el objeto marco en un gráfico.
+- [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), un solo punto en una serie de un gráfico.
+- [**ChartPointCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPointCollection), una colección que contiene todos los puntos en una serie.
+- [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection), una colección de [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objetos.
+- DataLabels, etiquetas de datos para el [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) especificado, [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**Trendline**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), etc.
+- [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat), formato de relleno para una forma.
+- [**Floor**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor), el piso de un gráfico 3D.
+- [**Legend**](https://reference.aspose.com/cells/java/com.aspose.cells/Legend), la leyenda del gráfico.
+- [**Line**](https://reference.aspose.com/cells/java/com.aspose.cells/Line), la línea del gráfico.
+- [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection), una colección de [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) objetos.
+- [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), representa una sola serie de datos en un gráfico.
+- [**TickLabels**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels), las etiquetas de marcas de graduación asociadas con marcas de graduación en un eje de gráfico.
+- [**Title**](https://reference.aspose.com/cells/java/com.aspose.cells/Title), el título de un gráfico o eje.
+- [**Trendline**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), una línea de tendencia en un gráfico.
+- [**TrendlineCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/TrendlineCollection), una colección de todos los objetos de línea de tendencia para la serie de datos especificada.
+- [**Walls**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls), las paredes de un gráfico 3D.
 
-####  **Usar objetos de gráficos**
+#### **Usar objetos de gráficos**
 
-Como se mencionó anteriormente, todos los objetos de gráficos son instancias de sus respectivas clases y proporcionan propiedades y métodos específicos para realizar tareas específicas. Utilice objetos de gráficos para crear gráficos.
+Como se mencionó anteriormente, todos los objetos de gráficos son instancias de sus clases respectivas y proporcionan propiedades y métodos específicos para realizar tareas específicas. Use objetos de gráficos para crear gráficos.
 
- Agregue cualquier tipo de gráfico a una hoja de trabajo usando el[**Colección de gráficos**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) recopilación. Cada elemento en el[**Colección de gráficos**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) colección representa un[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objeto. A[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)El objeto encapsula todos los objetos de gráficos necesarios para personalizar la apariencia del gráfico. La siguiente sección muestra cómo utilizar algunos objetos gráficos básicos para crear un gráfico simple.
+Agregue cualquier tipo de gráfico a una hoja de cálculo utilizando la colección [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection). Cada elemento en la colección [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) representa un objeto [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart). Un objeto [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) engloba todos los Objetos de Gráficos necesarios para personalizar la apariencia del gráfico. La siguiente sección muestra cómo utilizar algunos objetos de gráficos básicos para crear un gráfico simple.
 
-###  **Crear un gráfico simple**
+### **Creando un Gráfico Simple**
 
-Es posible crear muchos tipos diferentes de gráficos con Aspose.Cells. Todos los gráficos estándar admitidos por Aspose.Cells están predefinidos en una enumeración denominada[**Tipo de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType). Los tipos de gráficos predefinidos son:
+Es posible crear muchos tipos diferentes de gráficos con Aspose.Cells. Todos los gráficos estándar admitidos por Aspose.Cells están predefinidos en una enumeración llamada [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType). Los tipos de gráfico predefinidos son:
 
-|**Tipos de gráficos**|**Descripción**|
+|**Tipos de Gráficos**|**Descripción**|
 | :- | :- |
-|Columna|Representa el gráfico de columnas agrupadas|
-|Columna Apilada|Representa un gráfico de columnas apiladas|
-|Columna100PorcentajeApilada|Representa un gráfico de columnas 100% apiladas|
-|Columna3DClustered|Representa un gráfico de columnas agrupadas en 3D|
-|Columna3DSapilada|Representa un gráfico de columnas apiladas en 3D|
-|Columna3D100PorcentajeApilado|Representa un gráfico de columnas 100 % apiladas en 3D|
-|Columna3D|Representa un gráfico de columnas 3D|
-|Bar|Representa un gráfico de barras agrupadas|
-|barra apilada|Representa un gráfico de barras apiladas|
-|Barra100PorCientoApilados|Representa un gráfico de barras apiladas al 100 %.|
-|Bar3DClustered|Representa un gráfico de barras agrupadas en 3D|
-|Barra3DSapilada|Representa un gráfico de barras apiladas en 3D|
-|Bar3D100PorcentajeApilado|Representa un gráfico de barras 100 % apiladas en 3D|
-|Línea|Representa un gráfico de líneas|
-|líneaapilada|Representa un gráfico de líneas apiladas|
-|Línea100PorcentajeApilado|Representa un gráfico de líneas 100% apiladas|
-|Línea con marcadores de datos|Representa un gráfico de líneas con marcadores de datos.|
-|Línea apilada con marcadores de datos|Representa un gráfico de líneas apiladas con marcadores de datos|
-|Línea 100 por ciento apilada con marcadores de datos|Representa un gráfico de líneas 100 % apiladas con marcadores de datos|
-|Línea 3D|Representa un gráfico de líneas 3D|
-|Tarta|Representa un gráfico circular|
-|pastel3D|Representa un gráfico circular 3D|
-|Pastel Pastel|Representa un gráfico circular|
-|PastelExplotado|Representa un gráfico circular desglosado|
-|pastel3DExplotado|Representa un gráfico circular despiezado en 3D|
-|Barra de pastel|Representa la barra del gráfico circular|
-|Dispersión|Representa el gráfico de dispersión|
-|Dispersión conectada por curvas con marcador de datos|Representa el gráfico de dispersión conectado por curvas, con marcadores de datos.|
-|Dispersión conectada por curvas sin marcador de datos|Representa el gráfico de dispersión conectado por curvas, sin marcadores de datos.|
-|DispersiónConnectedByLinesWithDataMarker|Representa el gráfico de dispersión conectado por líneas, con marcadores de datos.|
-|DispersiónConectadoPorLineasSinMarcadorDeDatos|Representa el gráfico de dispersión conectado por líneas, sin marcadores de datos.|
-|Área|Representa un gráfico de áreas|
-|ÁreaApilada|Representa un gráfico de áreas apiladas|
-|Área100PorCientoApilado|Representa un gráfico de áreas 100% apiladas|
-|Área3D|Representa un gráfico de áreas 3D|
-|Área3DSapiladas|Representa un gráfico de áreas apiladas en 3D|
-|Área3D100PorcentajeApilado|Representa un gráfico de áreas 100% apiladas en 3D|
-|Rosquilla|Representa el gráfico de anillos|
-|DonutExplotado|Representa un gráfico de anillos desglosado|
-|Radar|Representa el gráfico de radar|
-|RadarConMarcadores De Datos|Representa el gráfico radial con marcadores de datos.|
-|RadarLleno|Representa un gráfico de radar lleno|
-|Superficie3D|Representa un gráfico de superficie 3D|
-|SuperficieAlámbrica3D|Representa el gráfico de superficie 3D de estructura alámbrica.|
-|Contorno de superficie|Representa un gráfico de contorno|
-|SuperficieContornoEstructura Alámbrica|Representa un gráfico de contorno de estructura alámbrica|
-|Burbuja|Representa gráfico de burbujas|
-|burbuja3d|Representa gráfico de burbujas 3D|
-|Cilindro|Representa el gráfico de cilindros.|
-|CilindroApilado|Representa un gráfico de cilindros apilados|
-|Cilindro100PorCientoApilado|Representa un gráfico de cilindros 100 % apilados.|
-|Barra cilíndrica|Representa un gráfico de barras cilíndricas.|
-|CilíndricoBarApilados|Representa un gráfico de barras cilíndricas apiladas|
-|CilíndricoBarra100PorCientoApilado|Representa un gráfico de barras cilíndricas 100% apiladas|
-|CilíndricoColumna3D|Representa un gráfico de columnas cilíndricas 3D|
-|Cono|Representa el gráfico de conos|
-|ConoApilado|Representa un gráfico de conos apilados|
-|Cono100PorCientoApilados|Representa un gráfico de conos 100% apilados|
-|Barra cónica|Representa un gráfico de barras cónicas|
-|Barra CónicaApiladas|Representa un gráfico de barras cónicas apiladas|
-|Barra cónica 100 por ciento apilada|Representa un gráfico de barras cónicas 100% apiladas|
-|Columna Cónica3D|Representa un gráfico de columnas cónicas 3D|
-|Pirámide|Representa el gráfico piramidal|
-|pirámideapilada|Representa un gráfico piramidal apilado|
-|Pirámide100PorCientoApilados|Representa un gráfico piramidal 100% apilado|
-|Barra Pirámide|Representa el gráfico de barras piramidal.|
-|PirámideBarApilados|Representa un gráfico de barras piramidales apiladas|
-|PyramidBar100PorcentajeApilado|Representa un gráfico de barras piramidal 100% apilado|
-|PirámideColumna3D|Representa un gráfico de columnas piramidal 3D|
+|Column|Representa el Gráfico de Columnas Agrupadas|
+|ColumnStacked|Representa Gráfico de Columnas Apiladas|
+|Column100PercentStacked|Representa Gráfico de Columnas Apiladas al 100%|
+|Column3DClustered|Representa Gráfico de Columnas Agrupadas en 3D|
+|Column3DStacked|Representa Gráfico de Columnas Apiladas en 3D|
+|Column3D100PercentStacked|Representa Gráfico de Columnas Apiladas al 100% en 3D|
+|Column3D|Representa Gráfico de Columnas en 3D|
+|Bar|Representa Gráfico de Barras Agrupadas|
+|BarStacked|Representa Gráfico de Barras Apiladas|
+|Bar100PercentStacked|Representa Gráfico de Barras Apiladas al 100%|
+|Bar3DClustered|Representa Gráfico de Barras Agrupadas en 3D|
+|Bar3DStacked|Representa Gráfico de Barras Apiladas en 3D|
+|Bar3D100PercentStacked|Representa Gráfico de Barras Apiladas al 100% en 3D|
+|Line|Representa Gráfico de Líneas|
+|LineStacked|Representa Gráfico de Líneas Apiladas|
+|Line100PercentStacked|Representa Gráfico de Líneas Apiladas al 100%|
+|LineWithDataMarkers|Representa Gráfico de Líneas con marcadores de datos|
+|LineStackedWithDataMarkers|Representa Gráfico de Líneas Apiladas con marcadores de datos|
+|Line100PercentStackedWithDataMarkers|Representa Gráfico de Líneas Apiladas al 100% con marcadores de datos|
+|Line3D|Representa Gráfico de Líneas en 3D|
+|Pie|Representa Gráfico Circular|
+|Pie3D|Representa Gráfico Circular en 3D|
+|PiePie|Representa Gráfico de Pastel de Pastel|
+|PieExploded|Representa Gráfico de Pastel Explodido|
+|Pie3DExploded|Representa Gráfico de Pastel Explodido en 3D|
+|PieBar|Representa Gráfico de Barras de Pastel|
+|Scatter|Representa el gráfico de dispersión|
+|ScatterConnectedByCurvesWithDataMarker|Representa el gráfico de dispersión conectado por curvas, con marcadores de datos|
+|ScatterConnectedByCurvesWithoutDataMarker|Representa el gráfico de dispersión conectado por curvas, sin marcadores de datos|
+|ScatterConnectedByLinesWithDataMarker|Representa el gráfico de dispersión conectado por líneas, con marcadores de datos|
+|ScatterConnectedByLinesWithoutDataMarker|Representa el gráfico de dispersión conectado por líneas, sin marcadores de datos|
+|Area|Representa un gráfico de área|
+|AreaStacked|Representa un gráfico de área apilada|
+|Area100PercentStacked|Representa un gráfico de área apilada al 100%|
+|Area3D|Representa un gráfico de área 3D|
+|Area3DStacked|Representa un gráfico de área 3D apilada|
+|Area3D100PercentStacked|Representa un gráfico de área 3D apilada al 100%|
+|Doughnut|Representa un gráfico de rosquilla|
+|DoughnutExploded|Representa un gráfico de rosquilla explosionada|
+|Radar|Representa un gráfico de radar|
+|RadarWithDataMarkers|Representa un gráfico de radar con marcadores de datos|
+|RadarFilled|Representa un gráfico radar relleno|
+|Surface3D|Representa un gráfico de superficie 3D|
+|SurfaceWireframe3D|Representa un gráfico de superficie en 3D con alambre de contorno|
+|SurfaceContour|Representa un gráfico de contorno|
+|SurfaceContourWireframe|Representa un gráfico de contorno con estructura de alambre|
+|Bubble|Representa un gráfico de burbujas|
+|Bubble3D|Representa Gráfico de Burbujas 3D|
+|Cylinder|Representa Gráfico de Cilindro|
+|CylinderStacked|Representa Gráfico de Cilindro Apilado|
+|Cylinder100PercentStacked|Representa Gráfico de Cilindro Apilado al 100%|
+|CylindricalBar|Representa el gráfico de barras cilíndricas.
+|CylindricalBarStacked|Representa el gráfico de barras cilíndricas apiladas.
+|CylindricalBar100PercentStacked|Representa el gráfico de barras cilíndricas apiladas al 100%.
+|CylindricalColumn3D|Representa el gráfico de columnas cilíndricas en 3D.
+|Cone|Representa Gráfico de Cono|
+|ConeStacked|Representa Gráfico de Cono Apilado|
+|Cone100PercentStacked|Representa Gráfico de Cono Apilado al 100%|
+|ConicalBar|Representa Gráfico de Barras Cónicas|
+|ConicalBarStacked|Representa Gráfico de Barras Cónicas Apiladas|
+|ConicalBar100PercentStacked|Representa Gráfico de Barras Cónicas Apiladas al 100%|
+|ConicalColumn3D|Representa Gráfico de Columnas Cónicas 3D|
+|Pyramid|Representa Gráfico de Pirámide|
+|PyramidStacked|Representa Gráfico de Pirámide Apilada|
+|Pyramid100PercentStacked|Representa Gráfico de Pirámide Apilada al 100%|
+|PyramidBar|Representa el gráfico de barras piramidales.
+|PyramidBarStacked|Representa Gráfico de Barras de Pirámide Apiladas|
+|PyramidBar100PercentStacked|Representa un gráfico de barras de pirámide apilada al 100%|
+|PyramidColumn3D|Representa un gráfico de columnas de pirámide 3D|
 Para crear un gráfico usando Aspose.Cells:
 
-1. Agregue algunos datos a las celdas de la hoja de trabajo con el[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) objetos[**valor ajustado**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)método.
- Esto se utilizará como fuente de datos para el gráfico.
-1.  Agregue un gráfico a la hoja de trabajo llamando al[**Colección de gráficos**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) colección[*agregar*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) ) método, encapsulado en el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)objeto.
-1.  Especifique el tipo de gráfico con el[**Tipo de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)enumeración.
- Por ejemplo, el ejemplo utiliza el[**Tipo de gráfico.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID)valor como tipo de gráfico.
-1.  Accede a lo nuevo[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objeto de la[**Colección de gráficos**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)colección pasando su índice.
-1.  Utilice cualquiera de los objetos de gráficos encapsulados en el[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)Objeto para gestionar el gráfico.
- El siguiente ejemplo utiliza el[**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)objeto de gráfico para especificar la fuente de datos del gráfico.
+1. Agregue algunos datos a las celdas de la hoja de cálculo con el método [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) del objeto [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell).
+   Esto se utilizará como fuente de datos para el gráfico.
+1. Agregue un gráfico a la hoja de cálculo llamando al método [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)) de la colección [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection), encapsulado en el objeto [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet).
+1. Especifique el tipo de gráfico con la enumeración [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType).
+   Por ejemplo, el ejemplo utiliza el valor [**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) como tipo de gráfico.
+1. Acceda al nuevo objeto [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) de la colección [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) pasando su índice.
+1. Utilice cualquiera de los objetos de gráficos encapsulados en el objeto [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) para gestionar el gráfico.
+   El ejemplo a continuación utiliza el objeto de gráficos [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) para especificar la fuente de datos del gráfico.
 
-Al agregar datos de origen al gráfico, el origen de datos puede ser un rango de celdas (como "A1:C3"), una secuencia de celdas no contiguas (como "A1, A3, A5") o una secuencia de valores (como "1,2,3").
+Cuando se agrega datos de origen al gráfico, la fuente de datos puede ser un rango de celdas (como "A1:C3"), o una secuencia de celdas no contiguas (como "A1, A3, A5"), o una secuencia de valores (como "1,2,3").
 
 {{% alert color="primary" %}}
 
-Cuando asigna un rango de celdas como fuente de datos, solo puede establecer el rango desde la parte superior izquierda hasta la parte inferior derecha. Por ejemplo, "A1:C3" es válido mientras que "C3:A1" no es válido.
+Cuando asigna un rango de celdas como fuente de datos, solo puede establecer el rango de arriba a la izquierda a abajo a la derecha. Por ejemplo, "A1:C3" es válido mientras que "C3:A1" es inválido.
 
 {{% /alert %}}
 
-Estos pasos generales le permiten crear cualquier tipo de gráfico. Utilice diferentes objetos de gráficos para crear diferentes gráficos.
+Estos pasos generales le permiten crear cualquier tipo de gráfico. Utilice diferentes objetos de gráficos para crear distintos gráficos.
 
-Cuando se ejecuta el código de ejemplo, se agrega un gráfico piramidal a la hoja de trabajo como se muestra a continuación.
+Cuando se ejecuta el código de ejemplo, se agrega un gráfico de pirámide a la hoja de cálculo como se muestra a continuación.
 
-**Gráfico piramidal con su fuente de datos.**
+**Gráfico de pirámide con su fuente de datos**
 
 ![todo:image_alt_text](creating-and-customizing-charts_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreatePyramidChart-HowToCreatePyramidChart.java" >}}
 
- Para crear un gráfico de burbujas, el[**Tipo de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)tiene que estar configurado en[**Tipo de gráfico.BURBUJA**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#BUBBLE)algunas propiedades adicionales, como BubbleSizes, Values y XValues, deben configurarse en consecuencia. Al ejecutar el siguiente código, se agrega un gráfico de burbujas a la hoja de trabajo como se muestra a continuación.
+Para crear un gráfico de burbujas, el [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) debe establecerse en [**ChartType.BUBBLE**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#BUBBLE) y se deben establecer algunas propiedades adicionales como BubbleSizes, Values & XValues en consecuencia. Al ejecutar el código siguiente, se agrega un gráfico de burbujas a la hoja de cálculo como se muestra a continuación.
 
-**Gráfico de burbujas con su fuente de datos.**
+**Gráfico de burbujas con su fuente de datos**
 
 ![todo:image_alt_text](creating-and-customizing-charts_2.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreateBubbleChart-HowToCreateBubbleChart.java" >}}
 
-####  **Línea con gráfico de marcador de datos**
+#### **Gráfico de líneas con marcadores de datos**
 
-Para crear una línea con un gráfico de marcador de datos, el[**Tipo de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)tiene que estar configurado en[**Tipo de gráfico.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) y algunas propiedades adicionales, como el área de fondo, los marcadores de serie, los valores y los valores XV, deben configurarse en consecuencia. Al ejecutar el siguiente código, se agrega una línea con un gráfico de marcador de datos a la hoja de trabajo.
+Para crear un gráfico de línea con marcador de datos, el [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) debe establecerse en [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) y se deben establecer algunas propiedades adicionales como área de fondo, marcadores de serie, valores y XValues en consecuencia. Al ejecutar el código siguiente, se agrega un gráfico de línea con marcador de datos a la hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
-##  **Crear gráficos personalizados**
+## **Creación de gráficos personalizados**
 
-Hasta ahora, cuando hemos analizado los gráficos, hemos analizado los gráficos estándar que tienen sus configuraciones de formato estándar. Solo definimos la fuente de datos, configuramos algunas propiedades y el gráfico se crea con su configuración de formato predeterminada. Pero Aspose.Cells también admite la creación de gráficos personalizados que permiten a los desarrolladores crear gráficos con sus propias configuraciones de formato.
+Hasta ahora, cuando hemos discutido sobre gráficos, hemos visto gráficos estándar que tienen su configuración de formato estándar. Solo definimos la fuente de datos, configuramos algunas propiedades y el gráfico se crea con su configuración de formato predeterminada. Pero Aspose.Cells también admite la creación de gráficos personalizados que permite a los desarrolladores crear gráficos con su propia configuración de formato.
 
-###  **Crear gráficos personalizados**
+### **Creación de gráficos personalizados**
 
-Los desarrolladores pueden crear gráficos personalizados en tiempo de ejecución usando Aspose.Cells simple API.
+Los desarrolladores pueden crear gráficos personalizados en tiempo de ejecución utilizando la sencilla API de Aspose.Cells.
 
- Un gráfico se compone de una serie de datos. Cada serie de datos en Aspose.Cells está representada por un[**Serie**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) objeto mientras que el[**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) objeto sirve como una colección de[**Serie**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)objetos. Al crear un gráfico personalizado, los desarrolladores tienen la libertad de utilizar diferentes tipos de gráficos para diferentes series de datos (recopilados en un[**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)objeto).
+Un gráfico está compuesto por una serie de datos. Cada serie de datos en Aspose.Cells está representada por un objeto [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), mientras que el objeto [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) sirve como una colección de objetos [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series). Al crear un gráfico personalizado, los desarrolladores tienen la libertad de utilizar diferentes tipos de gráficos para diferentes series de datos (recopilados en un objeto [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)).
 
 {{% alert color="primary" %}}
 
- Actualmente, Aspose.Cells solo admite gráficos personalizados que combinan gráficos circulares, de líneas, de columnas y de pila de columnas, pero en futuras versiones se admitirán más gráficos. Para obtener una lista completa de los gráficos estándar que admite Aspose.Cells, lea el[Tipos de gráficos](/cells/es/java/chart-types/) artículo.
+Actualmente Aspose.Cells solo admite gráficos personalizados que combinan gráficos circulares, de líneas, de columnas y de columnas apiladas, pero se admitirán más gráficos en futuras versiones. Para ver una lista completa de los gráficos estándar que admite Aspose.Cells, consulte el artículo [Tipos de gráficos](/cells/es/java/chart-types/).
 
 {{% /alert %}}
 
-El siguiente código de ejemplo demuestra cómo crear gráficos personalizados. En este ejemplo, usaremos un gráfico de columnas para la primera serie de datos y un gráfico de líneas para la segunda serie. El resultado es que agregamos un gráfico de columnas, combinado con un gráfico de líneas, a la hoja de trabajo.
+El código de ejemplo a continuación demuestra cómo crear gráficos personalizados. En este ejemplo, vamos a usar un gráfico de columnas para la primera serie de datos y un gráfico de líneas para la segunda serie. El resultado es que agregamos un gráfico de columnas, combinado con un gráfico de líneas, a la hoja de cálculo.
 
-**Gráfico personalizado que combina gráficos de columnas y líneas**
+**Gráfico personalizado que combina gráficos de columnas y de líneas**
 
 ![todo:image_alt_text](creating-and-customizing-charts_3.png)
 
@@ -197,7 +198,7 @@ El siguiente código de ejemplo demuestra cómo crear gráficos personalizados. 
 
 {{% alert color="primary" %}}
 
-Para ver una lista de los tipos de gráficos admitidos, lea el[Tipos de gráficos](/cells/es/java/chart-types/) artículo.
+Para ver una lista de tipos de gráficos admitidos, lea el artículo [Tipos de gráficos](/cells/es/java/chart-types/).
 
 {{% /alert %}}
 

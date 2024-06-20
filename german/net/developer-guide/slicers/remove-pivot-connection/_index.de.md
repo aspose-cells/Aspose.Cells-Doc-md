@@ -1,18 +1,19 @@
-﻿---
-title: Entfernen Sie die Pivot-Verbindung
+---
+title: Pivot Verbindung entfernen
 type: docs
 weight: 30
 url: /de/net/remove-pivot-connection/
-description: Erfahren Sie, wie Sie die Pivot-Verbindung mit der Bibliothek Aspose.Cells entfernen.
-keywords: Remove pivot connection without office 2013, office 2016, office 2019 and office 365.
+description: Erfahren Sie, wie Sie die Pivot Verbindung mit der Aspose.Cells Bibliothek entfernen.
+keywords: Entfernen Sie die Pivot Verbindung ohne Office 2013, Office 2016, Office 2019 und Office 365.
 ---
-## **Mögliche Nutzungsszenarien**
 
-Wenn Sie Slicer und Pivot-Tabelle in Excel trennen möchten, müssen Sie mit der rechten Maustaste auf Slicer klicken und das Element "Verbindungen melden..." auswählen. In der Optionsliste können Sie das Kontrollkästchen bearbeiten. Wenn Sie Slicer und Pivot-Tabelle mithilfe von Aspose.Cells API programmgesteuert trennen möchten, verwenden Sie bitte die[**Slicer.RemovePivotConnection (PivotTable-Pivot)**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/removepivotconnection/)Methode. Es wird Slicer und Pivot-Tabelle trennen.
+## **Mögliche Verwendungsszenarien**
 
-## **Slicer und Pivot-Tabelle trennen**
+Wenn Sie den Slicer und die Pivot-Tabelle in Excel trennen möchten, müssen Sie mit der rechten Maustaste auf den Slicer klicken und das Element "Berichtsverbindungen..." auswählen. In der Optionsliste können Sie das Kontrollkästchen bedienen. Ebenso, wenn Sie den Slicer und die Pivot-Tabelle mithilfe der Aspose.Cells-API programmgesteuert trennen möchten, verwenden Sie bitte die Methode [**Slicer.RemovePivotConnection(PivotTable pivot)**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/removepivotconnection/). Es wird den Slicer und die Pivot-Tabelle trennen.
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](remove-pivot-connection.xlsx)die einen vorhandenen Slicer enthält. Es greift auf die Slicer zu und trennt dann Slicer und Pivot-Tabelle. Schließlich speichert es die Arbeitsmappe als[Excel-Datei ausgeben](remove-pivot-connection-out.xlsx). 
+## **Slicer und Pivot-Tabelle dissoziieren**
+
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](remove-pivot-connection.xlsx), die einen vorhandenen Slicer enthält. Es greift auf die Slicer zu und entkoppelt dann den Slicer und die Pivot-Tabelle. Schließlich speichert er die Arbeitsmappe als [Ausgabe-Excel-Datei](remove-pivot-connection-out.xlsx). 
 
 
 ## **Beispielcode**

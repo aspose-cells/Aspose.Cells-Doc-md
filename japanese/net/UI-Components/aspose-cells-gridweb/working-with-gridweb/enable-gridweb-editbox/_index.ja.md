@@ -1,22 +1,25 @@
-﻿---
-title: GridWeb EditBox を有効にする
+---
+title: Aspose.Cells.GridWebのEditBoxを有効にする
 type: docs
 weight: 110
-url: /ja/net/enable-gridweb-editbox/
+url: /ja/net/aspose-cells-gridweb/enable-gridweb-editbox/
+keywords: GridWeb,editbox,フォーミュラバーを有効にする
+description: この記事では、GridWebでフォーミュラバーまたは編集ボックスを使用する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-GridWeb の編集ボックスは、データ/式をセルに表示/入力またはコピーするために使用できるコントロールの上部に表示されるツールバーです。また、編集中のセルの名前も表示されます。フレームをクリックした後、またはデータの書き込みを開始するか、等号 (=) 記号を入力すると、編集ボックスがアクティブになります。
+GridWebのEdit Box（Excelではフォーミュラバーと呼ばれる）は、コントロールの上部にレンダリングされるツールバーで、フォーカスされたセルの値を表示したり入力したり、データや式をコピーしたりすることができます。また、現在編集しているセルの名前も表示されます。枠をクリックした後やデータを書き込み始めたり等号（＝）を入力したときに、Edit Boxが有効になります。
 
 {{% /alert %}} 
-## **Aspose.Cells.GridWebのエディットボックスの設定**
-GridWeb コントロールは、開発者がそれを "True" に割り当ててツールバーをオンにできる ShowCellEditBox プロパティを提供します。この属性のデフォルト値は False です。その値を「True」に設定すると、編集ボックスが GridWeb コントロールの上部に表示されます。
+## **Aspose.Cells.GridWebのEdit Boxを設定する**
+GridWebコントロールには、開発者が"True"に割り当てることができるShowCellEditBoxプロパティがあります。 この属性のデフォルト値はFalseです。 値を"True"に設定すると、GridWebコントロールの上部に編集ボックスが表示されます。
 
 {{% alert color="primary" %}} 
 
-この機能を有効にするには、「jquery.js」ファイルをプロジェクトにインポートし、.aspx ページで参照して機能させる必要があります。 jQuery アーカイブは次の場所からダウンロードできます。<https://jqueryui.com/download/all/>ライブラリファイルをプロジェクト内のフォルダーに配置し、ライブラリファイルへの参照を追加します<script>次のように .aspx Web フォームにタグを付けます。最新の jQuery バージョンはすべて問題ありません。
+To enable this feature, you need to import "jquery.js" file to your project and refer it in your .aspx page(s) to make it work. You may download the jQuery archive from <https://jqueryui.com/download/all/> and put the library file(s) into some folder in the project and add reference to the library file via <script> tag in your .aspx web form as following. All the latest jQuery versions are OK.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <head id="Head1" runat="server">
 
@@ -32,9 +35,9 @@ GridWeb コントロールは、開発者がそれを "True" に割り当てて�
 
 {{% /alert %}} 
 
-**編集ボックスを使用した GridWeb コントロール** 
+**編集ボックス付きのGridWebコントロール** 
 
-![todo:画像_代替_文章](enable-gridweb-editbox_1.png)
+![todo:image_alt_text](enable-gridweb-editbox_1.png)
 ### **例**
 
 

@@ -1,35 +1,36 @@
 ---
-title: カスタム計算エンジンを実装して、Aspose.Cells のデフォルト計算エンジンを拡張します。
-description: この記事では、Aspose.Cells ライブラリを使用してカスタム計算エンジンを実装することにより、デフォルトの計算エンジンを拡張する方法について説明します。既存の Excel ファイルをロードするか、新しい Excel ファイルを作成することで、Aspose.Cells が提供するメソッドを使用してカスタム計算エンジンを実装し、結果を取得できます。最後に、変更した Excel ファイルをディスクに保存します。
-keywords: Aspose.Cells, Excel, Custom Calculation Engine, extends the default calculation engine
+title: Aspose.Cellsのデフォルトの計算エンジンを拡張するためにカスタム計算エンジンを実装する
+description: Aspose.Cellsライブラリを使用してカスタム計算エンジンを実装し、デフォルトの計算エンジンを拡張する方法について説明します。既存のExcelファイルを読み込むか、新しいファイルを作成することで、Aspose.Cellsが提供するメソッドを使用してカスタム計算エンジンを実装し、結果を取得し、最後に変更されたExcelファイルをディスクに保存します。
+keywords: Aspose.Cells, Excel, カスタム計算エンジン、デフォルト計算エンジンの拡張
 type: docs
 weight: 80
 url: /ja/net/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/
 ---
-##  **カスタム計算エンジンの実装**
 
-Aspose.Cells には、ほぼすべての Microsoft Excel 式を計算できる強力な計算エンジンがあります。それにもかかわらず、デフォルトの計算エンジンを拡張することもでき、より優れた能力と柔軟性を提供します。
+## **カスタム計算エンジンの実装**
 
-この機能の実装には、次のプロパティとクラスが使用されます。
+Aspose.CellsにはほとんどすべてのMicrosoft Excel式を計算できる強力な計算エンジンがあります。それにもかかわらず、デフォルトの計算エンジンを拡張することが可能であり、より大きな力と柔軟性を提供します。
 
-- **[CalculationOptions.CustomEngine](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/customengine)**
-- **[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)**
-- **[計算データ](https://reference.aspose.com/cells/net/aspose.cells/calculationdata)**
+この機能の実装に使用される次のプロパティとクラスは次のとおりです。
 
-次のコードはカスタム計算エンジンを実装します。インターフェイスを実装します**[AbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)**を持っている**[Calculate(CalculationData データ)](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/methods/calculate)**方法。このメソッドはすべての数式に対して呼び出されます。このメソッド内で、**TODAY**関数を使用して、システム日付に 1 日を追加します。したがって、現在の日付が 27/07/2023 の場合、カスタム エンジンは TODAY() を 28/07/2023 として計算します。
+- [**CalculationOptions.CustomEngine**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/customengine)
+- [**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)
+- [**CalculationData**](https://reference.aspose.com/cells/net/aspose.cells/calculationdata)
 
-###  **プログラミングサンプル**
+以下のコードは、カスタム計算エンジンを実装しています。そのエンジンは[**AbstractCalculationEngine**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine)インターフェースを実装しており、[**Calculate(CalculationData data)**](https://reference.aspose.com/cells/net/aspose.cells/abstractcalculationengine/methods/calculate)メソッドを持っています。このメソッドはすべての数式に対して呼び出されます。このメソッド内で、**TODAY**関数をキャプチャし、システムの日付に1日を追加します。したがって、現在の日付が2023年07月27日である場合、カスタムエンジンはTODAY()を2023年07月28日として計算します。
+
+### **プログラミングサンプル**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ImplementCustomCalculationEngine-ImplementCustomCalculationEngine.cs" >}}
 
-###  **結果**
+### **結果**
 
-上記のサンプルコードのコンソール出力を確認してください。カスタム エンジンを使用した場合の A1 の値(日付時刻)は、カスタム エンジンを使用しない場合の結果より 1 日遅れているはずです。
+上記のサンプルコードのコンソール出力を確認してください。カスタムエンジンを使用した場合、A1の値（日時）はカスタムエンジンを使用しなかった場合の結果よりも1日後になるはずです。
 
-###  **関連記事**
+### **関連記事**
 
 {{% alert color="primary" %}}
 
-[カスタム関数をワークシートに記述せずに直接計算](/cells/ja/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
+[ワークブックの数式計算を書き込むことなく直接計算するカスタム関数](/cells/ja/net/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}

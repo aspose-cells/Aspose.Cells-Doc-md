@@ -1,49 +1,50 @@
 ---
-title: Blazor'da Aspose.Cells Nasıl Çalıştırılır
+title: Blazor da Aspose.Cells ı Nasıl Çalıştırılır
 type: docs
 weight: 138
 url: /tr/net/how-to-run-aspose-cells-in-blazor/
-description: Blazor'da Aspose.Cells'in nasıl çalıştırılacağını öğrenin.
-keywords: C# Run Aspose.Cells in Blazor, Use Aspose.Cells in Blazor
+description: Blazor da Aspose.Cells ı Nasıl Çalıştırılır ı Öğrenin.
+keywords: C# Blazor da Aspose.Cells ı Çalıştırma, Blazor da Aspose.Cells Kullanma, Aspose.Cells ile Blazor Sunucu Uygulaması
 ---
-##  Genel Bakış
 
- Blazor'da Aspose.Cells'i çalıştırmak için .NET6 (veya üstü) platformlarına ihtiyacınız vardır, önceki platformlarla (.netcore31 veya öncesi) karşılaştırıldığında, önemli bir fark grafik kitaplığıyla ilgilidir. Bu resmi makamda[Microsoft Belge](https://learn.microsoft.com/en-gb/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only).NET6 veya üzeri sürümler için "System.Drawing.Common" grafik kitaplığının yalnızca Windows'de destekleneceğini açıklar ve grafik kitaplığının değiştirilmesine ilişkin öneriler verir.
+## Genel Bakış
 
-Apose.Cells ürünü için değerlendirmeyi gerçekleştirdik ve grafik kütüphanesinin geçişini tamamladık. Microsoft'in resmi belgelerinde önerildiği gibi, Windows olmayan sistemlerde System.Drawing.Common yerine SkiaSharp'ı kullanıyoruz. Bu kritik değişikliğin .Net6 için Aspose.Cells 22.10.1 veya sonrasında geçerli olacağını lütfen unutmayın.
+Blazor'da Aspose.Cells'ı çalıştırmak için .NET6 (veya daha sonraki) platformlarına ihtiyacınız olacak, önceki platformlarla (.netcore31 veya önceki) karşılaştırıldığında önemli bir fark grafik kütüphanesi ile ilgilidir. Bu resmi [Microsoft Belgesinde](https://learn.microsoft.com/en-gb/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only)'de .NET6 veya sonraki sürümler için grafik kütüphanesi "System.Drawing.Common"'ın yalnızca Windows'ta destekleneceği açıklanmakta ve grafik kütüphanesini değiştirmek için önerilerde bulunmaktadır.
 
-##  Aspose.Cells ile İlk Blazor Uygulaması
+Apose.Cells ürünü için değerlendirmeyi gerçekleştirdik ve grafik kütüphanesinin göçünü tamamladık. Microsoft'un resmi belgesinde önerildiği gibi, .Net6 için Windows dışı sistemlerde System.Drawing.Common yerine SkiaSharp kullanıyoruz. Lütfen bu kritik değişikliğin Aspose.Cells 22.10.1 veya sonrasında .Net6 için geçerli olacağını unutmayın.
 
-Bu örnekte, bazı veriler ve grafikler ekleyen ve bunları web sayfasında görüntülenecek görüntülere dönüştüren basit bir blazor sunucu uygulaması oluşturacaksınız. Proje oluşturma sürecinde seçenekleri kendi ihtiyaçlarınıza göre yapılandırabilirsiniz. Örneğin, "Docker'ı Etkinleştir" seçeneğini işaretlediğinizde, blazor uygulaması daha sonra Docker'da oluşturulabilir ve çalıştırılabilir.
+## Aspose.Cells ile Blazor Sunucu Uygulaması
 
-###  İlk Blazor Uygulamasını Oluşturun
+Bu örnekte, bir blazor sunucu uygulaması oluşturarak bazı veri ve grafikler ekler ve bunları web sayfasında görüntülemek için görüntülere dönüştürürsünüz. Proje oluşturma aşamasında, kendi ihtiyaçlarınıza göre seçenekleri yapılandırabilirsiniz. Örneğin,"Enable Docker" seçeneğini işaretlediğinizde, blazor uygulaması Docker'da oluşturulabilir ve çalıştırılabilir.
 
-Aspose.Cells ile ilk blazor uygulamasını oluşturmak için VS2022 aracını örnek olarak kullanalım, aşağıdaki adımları izleyin:
-1. İlgili proje şablonunu seçmek için Dosya ->Yeni ->Proje'yi seçin ve blazer anahtar sözcüğünü kullanarak filtreleyin.
+### Blazor Sunucu Uygulaması Oluşturma
+
+İlk blazor uygulamasını Aspose.Cells ile oluşturmak için aşağıdaki adımları izleyin:
+1. Dosya -> Yeni -> Proje'yi seçin ve blazer anahtar kelimesini kullanarak ilgili proje şablonunu seçin.
 <br>
 <img src="1.png" width=70% />
-1. Proje adını "BlazorTest" olarak ayarlayın ve yolu seçin.
+1. Proje adını "BlazorTest" olarak ayarlayın ve yolunu seçin.
 <br>
 <img src="2.png" width=70% />
-1. Projede kullanılan kitaplıkları ve diğer seçenekleri yapılandırın. Son olarak, ilk blazer projenizi oluşturmak için "Oluştur" düğmesine tıklayın.
+1. Proje kullanılan kütüphaneleri ve diğer seçenekleri yapılandırın. Son olarak,"Oluştur" düğmesini tıklayarak ilk blazer projenizi oluşturun.
 <br>
 <img src="3.png" width=70% />
-1. Projeye giriş yaptıktan sonra projenin altındaki "Bağımlılıklar"a tıklayın ve "NuGet Paketlerini Yönet..." seçeneğini seçerek Aspose.Cells kütüphanesini ekleyin.
+1. Projeye girdikten sonra, projenin altındaki "Bağımlılıklar"a tıklayın ve "NuGet Paketlerini Yönet..."'i seçerek Aspose.Cells kütüphanesini ekleyin.
 <br>
 <img src="4.png" width=70% />
-1. Filtrelemek için anahtar sözcükleri girin ve en son Aspose.Cells kitaplığını yükleyin. SkiaSharp gibi eş zamanlı olarak bağımlı kütüphaneler de birlikte kurulacaktır.
+1. Filtreleme için anahtar kelimeleri girin ve en son Aspose.Cells kütüphanesini yükleyin. Aynı anda SkiaSharp gibi bağımlı kütüphaneler de birlikte yüklenecektir.
 <br>
 <img src="5.png" width=70% />
-1. Gerekli kütüphaneyi düzenlemek ve içe aktarmak için "Index.razor" dosyasına çift tıklayın. Bazı veriler ve grafikler ekleyin ve bunları görüntülenmek üzere grafiklere dönüştürün.
+1. Gerekli kütüphaneyi içe aktarmak için "Index.razor" dosyasını çift tıklatın ve düzenleyin. Bir miktar veri ve grafik ekleyin ve bunları görüntülemek için grafiklere dönüştürün.
 <br>
 <img src="5.png" width=70% />
-1. Projeyi derleyip çalıştırdığınızda aşağıdaki sonuçları elde edeceksiniz.
+1. Projeyi derleyip çalıştırın ve aşağıdaki sonuçları elde edeceksiniz.
 <br>
 <img src="7.png" width=70% />
 
-###  İlk Blazor Uygulamasındaki Örnek Kod
+### Blazor Sunucu Uygulamasında Örnek Kod
 
-Aşağıdaki örnek kod Index.razor dosyasında bulunur:
+Aşağıdaki örnek kod, Index.razor dosyasına dahil edilmiştir:
 ```
 @page "/"
 @using SkiaSharp;

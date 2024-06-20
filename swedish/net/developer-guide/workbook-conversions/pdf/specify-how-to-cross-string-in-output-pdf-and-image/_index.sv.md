@@ -1,24 +1,25 @@
-﻿---
-title: Ange hur strängen ska korsas i utgång PDF och bild
+---
+title: Ange hur du ska korsa strängen i utdata PDF och bild
 type: docs
 weight: 120
 url: /sv/net/specify-how-to-cross-string-in-output-pdf-and-image/
 ---
-## **Möjliga användningsscenarier**
 
-När en cell innehåller text eller sträng men den är större än cellens bredd, svämmar strängen över om nästa cell i nästa kolumn är null eller tom. När du sparar din Excel-fil i PDF/Image kan du kontrollera detta överflöde genom att ange korstypen med hjälp av[**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype)uppräkning. Den har följande värden
+## **Möjliga användningsscenario**
 
-- **TextCrossType.Default**: Visa text som MS Excel som beror på nästa cell. Om nästa cell är null kommer strängen att korsas eller trunkeras.
+När en cell innehåller text eller sträng men den är större än bredden på cellen, då överflödar strängen om nästa cell i nästa kolumn är tom eller tom. När du sparar din Excelfil till PDF/bild kan du styra det här flödet genom att specificera korsningsunikt med [**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype)-uppräkning. Det har följande värden
 
-- **TextCrossType.CrossKeep**: Visa strängen som MS Excel som exporterar PDF/bild
+- **TextCrossType.Default**: Visar text som MS Excel vilket beror på nästa cell. Om nästa cell är null korsar strängen eller så kommer den att bli avkortad.
 
-- **TextCrossType.CrossOverride**: Visa all text genom att korsa andra celler och åsidosätta texten i korsade celler
+- **TextCrossType.CrossKeep**: Visar strängen som MS Excel exporterar PDF/Bild
 
-- **TextCrossType.StrictInCell**: Visa endast strängen inom cellens bredd.
+- **TextCrossType.CrossOverride**: Visar all text genom att korsa andra celler och ersätta texten i korsade celler
 
-## **Ange hur strängen ska korsas i utdata PDF/Bild med TextCrossType**
+- **TextCrossType.StrictInCell**: Visar endast strängen inom cellens bredd.
 
-Följande exempelkod laddar exemplet i Excel-filen och sparar den i PDF/bildformat genom att ange olika[**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype). Exemplet på Excel-filen och utdatafilerna kan laddas ner från följande länkar:
+## **Ange hur du ska korsa strängen i utdata PDF/Bild med hjälp av TextCrossType**
+
+Följande exempelkod laddar den prov Excel-filen och sparar den i PDF/Bildformat genom att specificera olika [**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype). Provfilen och utdatafilerna kan laddas ner från följande länkar:
 
 [sampleCrossType.xlsx](81920905.xlsx)
 

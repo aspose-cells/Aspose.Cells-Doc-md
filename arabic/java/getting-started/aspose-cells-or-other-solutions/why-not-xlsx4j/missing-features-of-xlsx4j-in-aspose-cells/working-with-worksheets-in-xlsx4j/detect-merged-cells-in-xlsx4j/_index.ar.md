@@ -1,16 +1,17 @@
-﻿---
-title: كشف Cells مدمج في xlsx4j
+---
+title: كشف الخلايا المدمجة في xlsx4j
 type: docs
 weight: 20
 url: /ar/java/detect-merged-cells-in-xlsx4j/
 ---
-## **Aspose.Cells - كشف مدمج Cells**
-في Microsoft Excel ، يمكن دمج عدة خلايا في خلية واحدة. يُستخدم هذا غالبًا لإنشاء جداول معقدة ، أو لإنشاء خلية تحتوي على عنوان يمتد على عدة أعمدة.
-Aspose.Cells يسمح لك بتعريف مساحات الخانات المدمجة في ورقة العمل. يمكنك إلغاء دمجهم أيضًا.
+
+## **Aspose.Cells - كشف الخلايا المدمجة**
+في Microsoft Excel، يمكن دمج العديد من الخلايا في خلية واحدة. ويتم ذلك غالبًا لإنشاء جداول معقدة، أو لإنشاء خلية تحتوي على عنوان يمتد عبر عدة أعمدة.
+تسمح Aspose.Cells لك بتحديد مناطق الخلايا المدمجة في ورقة العمل. يمكنك أيضًا فك دمجها.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Get the merged cells list to put it into the arraylist object
 
@@ -53,13 +54,13 @@ for(int i = al.size()-1 ; i > -1; i--)
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/detectmergecells/AsposeDetectMergeCells.java)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/detectmergecells/AsposeDetectMergeCells.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[كشف Cells مدمج في ورقة عمل](/cells/ar/java/detect-merged-cells-in-a-worksheet).
+لمزيد من التفاصيل، قم بزيارة [كشف الخلايا المدمجة في ورقة عمل](/cells/ar/java/detect-merged-cells-in-a-worksheet).
 
 {{% /alert %}}

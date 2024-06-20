@@ -1,19 +1,20 @@
-﻿---
-title: Recensioni di settore
+---
+title: Recensioni del settore
 type: docs
 weight: 30
 url: /it/net/industry-reviews/
 ---
+
 {{% alert color="primary" %}} 
 
-Questo argomento raccoglie alcune revisioni tecniche di Aspose.Cells condotte da professionisti IT.
+Questo argomento raccoglie alcune recensioni tecniche su Aspose.Cells condotte da professionisti IT.
 
 {{% /alert %}} 
-## **Steve C.Orr**
-Steve C. Orr è un Certified Solution Developer (MCSD) Microsoft e un MVP Microsoft in ASP.NET. Sviluppa soluzioni software per aziende leader nell'area di Seattle da più di un decennio. Quando non è impegnato a progettare sistemi software oa scriverne, può essere trovato nei gruppi di utenti locali e assistere nel newsgroup ASP.NET sia come collaboratore che come consulente. Steve è anche un frequente autore e collaboratore della rivista asp.netPRO.
+## **Steve C. Orr**
+Steve C. Orr è uno sviluppatore di soluzioni certificato Microsoft (MCSD) e un Microsoft MVP in ASP.NET. Ha sviluppato soluzioni software per importanti aziende nell'area di Seattle per più di un decennio. Quando non è occupato a progettare sistemi software o a scriverne, lo si può trovare nei gruppi utenti locali e ad aiutare nel newsgroup di ASP.NET sia come contributore che come consulente. Steve è anche un autore e contributore frequente alla rivista asp.netPRO.
 
-**Recensione pubblicata**: [Aspose.Excel](https://www.itprotoday.com/development-techniques-and-management/asposeexcel)
+**Recensione Pubblicata**: [Aspose.Excel](https://www.itprotoday.com/development-techniques-and-management/asposeexcel)
 ## **David McAmis**
-David McAmis è il redattore tecnico di Builder AU. Attualmente vive e lavora a Sydney, in Australia, dove gli piace essere il "token americano" e inseguire canguri e wallaby per divertimento. David ha scritto numerosi libri e più di 100 articoli che sono apparsi su riviste e periodici.
+David McAmis è il redattore tecnico presso Builder AU. Attualmente vive e lavora a Sydney, in Australia, dove si diverte a essere il "token americano" e a inseguire canguri e wallaby per divertimento. David ha scritto diversi libri e più di 100 articoli apparsi in riviste e giornali.
 
-**Recensione pubblicata**: [Primo sguardo: Aspose.Excel](https://www.zdnet.com/article/first-look-aspose-excel/)
+**Recensione Pubblicata**: [Primo Sguardo: Aspose.Excel](https://www.zdnet.com/article/first-look-aspose-excel/)

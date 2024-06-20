@@ -4,10 +4,11 @@ type: docs
 weight: 20
 url: /ru/cpp/using-icustomfunction-feature/
 ---
-##  **Устаревший**
-Вместо этого используйте AbstractCalculationEngine.
 
-**В новой версии этот класс был заменен на AbstractCalculationEngine, но функция все еще совершенствуется, поэтому следите за обновлениями.**
+## **Устарело**
+Используйте вместо этого функцию AbstractCalculationEngine.
 
-**Ссылаться на** [Использование функции AbstractCalculationEngine](../using-abstractcalculationengine-feature/)
+**Этот класс был заменен функцией AbstractCalculationEngine в новой версии, но функционал все еще совершенствуется, поэтому оставайтесь на связи.**
+
+**см. также** [Использование функции AbstractCalculationEngine](../using-abstractcalculationengine-feature/)
 

@@ -1,18 +1,19 @@
-﻿---
-title: Excel ファイルの読み込み中にピボット キャッシュ レコードを解析する
+---
+title: Excelファイルをロードする際にPivotキャッシュレコードを解析する
 type: docs
 weight: 100
 url: /ja/java/parsing-pivot-cached-records-while-loading-excel-file/
 ---
-## **考えられる使用シナリオ**
 
-ピボット テーブルを作成すると、Microsoft Excel はソース データのコピーを取得し、ピボット キャッシュに保存します。ピボット キャッシュは、Microsoft Excel のメモリ内に保持されます。見ることはできませんが、ピボット テーブルを作成したり、スライサーの選択を変更したり、行/列を移動したりするときに、ピボット テーブルが参照するデータです。これにより、Microsoft Excel がピボット テーブルの変更に非常に反応しやすくなりますが、ファイルのサイズが 2 倍になることもあります。結局、ピボット キャッシュはソース データの単なる複製であるため、ファイル サイズが潜在的に 2 倍になることは理にかなっています。
+## **可能な使用シナリオ**
 
-Workbook オブジェクト内に Excel ファイルをロードするときに、ピボット キャッシュのレコードもロードするかどうかを決定できます。[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)財産。このプロパティのデフォルト値は**間違い**.ピボット キャッシュが非常に大きい場合は、パフォーマンスが向上する可能性があります。ただし、Pivot Cache のレコードもロードする場合は、このプロパティを次のように設定する必要があります。**真実**.
+Pivot Tableを作成する際に、Microsoft Excelは元のデータのコピーを取り、それをPivot Cacheに保存します。Pivot CacheはMicrosoft Excelのメモリ内に保持されます。それを見ることはできませんが、それがPivot Tableが構築されたりSlicerの選択が変更されたり行または列が移動されたりするときに参照するデータです。これにより、Microsoft ExcelはPivot Tableの変更に非常に敏感になりますが、ファイルのサイズが2倍になる可能性もあります。つまり、Pivot Cacheはソースデータの単なるコピーなので、ファイルサイズが潜在的に2倍になるのは理にかなっています。
 
-## **Excel ファイルの読み込み中にピボット キャッシュ レコードを解析する**
+Workbookオブジェクト内でExcelファイルをロードするとき、Pivot Cacheのレコードも同時にロードするかどうかを決定することができます。それには[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)プロパティを使用します。このプロパティのデフォルト値は**false**です。Pivot Cacheがかなり大きい場合、これはパフォーマンスを向上させることができます。ただし、Pivot Cacheのレコードもロードする場合は、このプロパティを**true**に設定する必要があります。
 
-次のサンプル コードは、[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)財産。それは[サンプル Excel ファイル](61767786.xlsx)ピボット キャッシュ レコードの解析中。次に、ピボット テーブルを更新して、[出力エクセルファイル](61767785.xlsx).
+## **Excelファイルをロードする際にPivotキャッシュレコードを解析する**
+
+以下のサンプルコードでは、[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#ParsingPivotCachedRecords)プロパティの使用方法を説明しています。Pivot Cacheのレコードを解析しながら、[サンプルExcelファイル](61767786.xlsx)をロードし、その後、ピボットテーブルを更新して、[出力Excelファイル](61767785.xlsx)として保存しています。
 
 ## **サンプルコード**
 

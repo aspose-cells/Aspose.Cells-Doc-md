@@ -1,31 +1,32 @@
-﻿---
-title: Conversione in file MHTML in Python
+---
+title: Conversione dei file in MHTML in Python
 type: docs
 weight: 30
 url: /it/java/converting-to-mhtml-files-in-python/
 ---
+
 ## **Aspose.Cells - Conversione in MHTML**
-Per convertire il foglio di lavoro nel file MHTML utilizzando Aspose.Cells for Java in Python, è sufficiente richiamare il foglio di lavoro_a_mhtml() del modulo Converter.
+Per convertire il foglio di lavoro in un file MHTML utilizzando Aspose.Cells for Java in Python, basta invocare il metodo worksheet_to_mhtml() del modulo Converter.
 
-**Python Cod**
+**Codice Python**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  saveFormat = self.SaveFormat
 
-# Specify the file path
+#Specify the file path
 
 filePath = self.dataDir + "Book1.xlsx"
 
-# Specify the HTML saving options
+#Specify the HTML saving options
 
 sv = self.HtmlSaveOptions(saveFormat.M_HTML)
 
-# Instantiate a workbook and open the template XLSX file
+#Instantiate a workbook and open the template XLSX file
 
 wb = self.Workbook(filePath)
 
-# Save the MHT file
+#Save the MHT file
 
 wb.save(filePath + ".out.mht", sv)
 
@@ -35,6 +36,6 @@ print "Excel to MHTML conversion performed successfully."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scaricamento**Conversione in MHTML (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Conversione in MHTML (Aspose.Cells)** da uno qualsiasi dei siti di codice sociale menzionati di seguito:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

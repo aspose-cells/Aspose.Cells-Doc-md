@@ -1,20 +1,21 @@
-﻿---
-title: Återge diagramobjekt från vald rapport till Excel-diagram
+---
+title: Rendera utvalda rapportdiagramobjekt till Excel diagram
 type: docs
 weight: 20
 url: /sv/reportingservices/render-chart-items-of-selected-report-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Så här återger du diagramobjekt till Microsoft Excel-diagram:
+För att rendera diagramobjekt till Microsoft Excel-diagram:
 
-1. Öppna**Aspose.Cells.ReportingServices.xml** fil.
-1.  Ändra konfigurationsparametrarna i**Aspose.Cells.ReportingServices.xml** fil.
+1. Öppna filen **Aspose.Cells.ReportingServices.xml**.
+1. Ändra konfigurationsparametrarna i filen **Aspose.Cells.ReportingServices.xml**.
 1. Lägg till önskad rapports konfigurationsinformation.
 
-Till exempel:
+Exempelvis:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 

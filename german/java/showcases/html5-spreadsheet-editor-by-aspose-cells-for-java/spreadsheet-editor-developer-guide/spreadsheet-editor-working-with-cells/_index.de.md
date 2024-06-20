@@ -1,28 +1,29 @@
-﻿---
-title: Tabelleneditor - Arbeiten mit Cells
+---
+title: Tabellenkalkulation Editor  Arbeiten mit Zellen
 type: docs
 weight: 40
 url: /de/java/spreadsheet-editor-working-with-cells/
 ---
+
 **Inhaltsverzeichnis**
 
-- [Auswahl einer Cell](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
- - Cell Auswahl Rückruf
-- [Löschen Sie eine Cell](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
- - WorksheetView.removeCellShiftUp
- - WorksheetView.removeCellShiftLeft
-- [Löschen Sie eine Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- WorksheetView.clearCurrentCellFormatting
- - WorksheetView.clearCurrentCellContents
- - WorksheetView.clearCurrentCell
-### **Auswahl einer Cell**
-Verwenden Sie Ihren Mauszeiger, um auf eine Zelle zu zeigen. Klicken Sie auf eine Zelle, um sie auszuwählen. Die ausgewählte Zelle wird durch ein dickes Rechteck hervorgehoben.
+- [Auswahl einer Zelle](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
+  - Callback für die Auswahl einer Zelle
+- [Löschen einer Zelle](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
+  - WorksheetView.removeCellShiftUp
+  - WorksheetView.removeCellShiftLeft
+- [Eine Zelle löschen](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
+  - WorksheetView.clearCurrentCellFormatting
+  - WorksheetView.clearCurrentCellContents
+  - WorksheetView.clearCurrentCell
+### **Auswahl einer Zelle**
+Verwenden Sie Ihren Mauszeiger, um auf eine Zelle zu zeigen. Klicken Sie auf eine Zelle, um sie auszuwählen. Die ausgewählte Zelle wird durch ein fett gedrucktes Rechteck hervorgehoben.
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
-Wenn der Benutzer auf eine Zelle klickt, wird das Ereignis von der JavaScript-Callback-Funktion verarbeitet, die an die Primefaces-Komponente angehängt ist.
-#### **Cell Auswahl Rückruf**
-{{< highlight "java" >}}
+Wenn der Benutzer auf eine Zelle klickt, wird das Ereignis von der JavaScript-Callback-Funktion behandelt, die an das Primefaces-Komponente angehängt ist.
+#### **Callback zur Zellenauswahl**
+{{< highlight java >}}
 
                      var columnId = $(this).find('.ui-cell-editor-input input').attr('data-columnid');
 
@@ -91,21 +92,21 @@ Wenn der Benutzer auf eine Zelle klickt, wird das Ereignis von der JavaScript-Ca
                     $this.selectedCell = this;
 
 {{< /highlight >}}
-### **Löschen Sie eine Cell**
-So löschen Sie eine Zelle:
+### **Löschen einer Zelle**
+Um eine Zelle zu löschen:
 
-1. Klicken Sie auf eine Zelle, die Sie löschen möchten.
-1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Cell löschen** Knopf.
-1.  Wählen**Schicht Cells Hoch** oder**Schicht Cells Links** Knopf.
+1. Klicken Sie auf die Zelle, die Sie löschen möchten.
+1. Wechseln Sie zum **Format-Tab**.
+1. Klicken Sie auf die Schaltfläche **Zelle löschen**.
+1. Wählen Sie die Schaltfläche **Zellen nach oben verschieben** oder **Zellen nach links verschieben**.
 
-Der Editor löscht die ausgewählte Zelle. Die angrenzenden Zellen werden automatisch entweder horizontal oder vertikal verschoben, um den Abstand anzupassen.
+Der Editor wird die ausgewählte Zelle löschen. Die benachbarten Zellen werden automatisch entweder horizontal oder vertikal verschoben, um den Platz anzupassen.
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Das**Schicht Cells Hoch** und**Schicht Cells Links** werden von der JSF-Backend-Bean verarbeitet**Arbeitsblattansicht**. Der Quellcode der jeweiligen Methoden sieht wie folgt aus:
+Das Verschieben von Zellen nach oben und nach links wird vom JSF-Backend-Bean **WorksheetView** behandelt. Der Quellcode der entsprechenden Methoden lautet wie folgt:
 #### **WorksheetView.removeCellShiftUp**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftUp() {
 
@@ -124,7 +125,7 @@ Der Editor löscht die ausgewählte Zelle. Die angrenzenden Zellen werden automa
 {{< /highlight >}}
 
 #### **WorksheetView.removeCellShiftLeft**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftLeft() {
 
@@ -141,21 +142,21 @@ Der Editor löscht die ausgewählte Zelle. Die angrenzenden Zellen werden automa
     }
 
 {{< /highlight >}}
-### **Löschen Sie eine Cell**
-So löschen Sie eine Zelle:
+### **Eine Zelle löschen**
+Um eine Zelle zu löschen:
 
 1. Klicken Sie auf eine Zelle, die Sie löschen möchten.
-1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Klar Cell** Knopf.
-1.  Wählen**Formate**, **Inhalt** oder**Beide** Möglichkeit.
+1. Wechseln Sie zum **Format-Tab**.
+1. Klicken Sie auf die Schaltfläche **Zelle löschen**.
+1. Wählen Sie die Option **Formate**, **Inhalte** oder **Beides**.
 
-Der Editor löscht die ausgewählte Zelle.
+Der Editor wird die ausgewählte Zelle löschen.
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Das**Formate**, **Inhalt** und**Beide** werden von der JSF-Backend-Bean verarbeitet**Arbeitsblattansicht**. Der Quellcode der jeweiligen Methoden sieht wie folgt aus:
+Die **Formate**, **Inhalte** und **Beides** werden von der JSF-Back-End-Bean **WorksheetView** behandelt. Der Quellcode der entsprechenden Methoden lautet wie folgt:
 #### **WorksheetView.clearCurrentCellFormatting**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellFormatting() {
 
@@ -176,7 +177,7 @@ Der Editor löscht die ausgewählte Zelle.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCellContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellContents() {
 
@@ -197,7 +198,7 @@ Der Editor löscht die ausgewählte Zelle.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCell**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCell() {
 

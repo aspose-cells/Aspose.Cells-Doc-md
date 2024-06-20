@@ -1,21 +1,22 @@
-﻿---
-title: スマート マーカーを使用してデータを結合する際の通知の取得
+---
+title: Smart Markers でデータをマージする際の通知の取得
 type: docs
 weight: 460
 url: /ja/java/getting-notifications-while-merging-data-with-smart-markers/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells API は、[WorkbookDesigner](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookDesigner)クラスへ[スマート マーカーの操作](/cells/ja/java/smart-markers/)フォーマットと数式が配置されている場所[デザイナー スプレッドシート](/cells/ja/java/what-is-a-designer-spreadsheet/)で処理し、[WorkbookDesigner](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookDesigner)クラスを使用して、指定されたスマート マーカーに従ってデータを入力します。場合によっては、セル参照または処理中の特定のスマート マーカーに関する通知を取得する必要がある場合があります。これは、[WorkbookDesigner.CallBack](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#CallBack)プロパティと[ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)Aspose.Cells for Java 8.6.2 のリリースで公開されたインターフェース。
+Aspose.CellsのAPIは[WorkbookDesigner](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookDesigner)クラスを提供しており、[スマートマーカー](/cells/ja/java/smart-markers/)を使用する際に、フォーマットや数式が[デザイナースプレッドシート](/cells/ja/java/what-is-a-designer-spreadsheet/)に配置され、[WorkbookDesigner](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookDesigner)クラスによって指定されたスマートマーカーに従ってデータが入力されます。時々、セル参照や特定のスマートマーカーの処理に関する通知が必要になることがあります。これは[WorkbookDesigner.CallBack](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#CallBack)プロパティと[リリースAspose.Cells for Java 8.6.2](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)インターフェースとして公開されたISmartMarkerCallBackを使用することで実現できます。
 
 {{% /alert %}} 
-## **スマート マーカーを使用してデータをマージする際に通知を受け取る**
-次のコードは、[ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)コールバックを処理する新しいクラスを定義するインターフェース[WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\)） 方法。
+## **スマートマーカーを使用してデータをマージする際の通知の取得**
+以下のコードは、[ISmartMarkerCallBack](https://reference.aspose.com/cells/java/com.aspose.cells/ISmartMarkerCallBack)インターフェースの使用例を示し、新しいクラスを定義し、[WorkbookDesigner.process](https://reference.aspose.com/cells/java/com.aspose.cells/workbookdesigner#process\(\))メソッドのコールバックを処理します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SmartMarkerCallBack-SmartMarkerCallBack.java" >}}
 
 
-例を簡潔かつ簡潔にするために、次のスニペットでは、空のデザイナー スプレッドシートを作成し、スマート マーカーを挿入して、動的に作成されたデータ ソースで処理します。
+例をシンプルかつ明確にするために、次のスニペットでは空のデザイナースプレッドシートを作成し、スマートマーカーを挿入し、動的に作成されたデータソースで処理します。
 
 
 

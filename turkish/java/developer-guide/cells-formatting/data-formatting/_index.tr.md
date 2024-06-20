@@ -1,17 +1,18 @@
-﻿---
+---
 title: Veri Biçimlendirme
 type: docs
 weight: 80
 url: /tr/java/data-formatting/
 ---
-## **Cells'de Verileri Biçimlendirme Yaklaşımları**
-Çalışma sayfası hücreleri düzgün biçimlendirilirse, kullanıcıların hücrenin içeriğini (verilerini) okumasının daha kolay hale geldiği yaygın bir gerçektir. Hücreleri ve içeriklerini biçimlendirmenin birçok yolu vardır. En basit yol, Tasarımcı Elektronik Tablosu oluştururken WYSIWYG ortamında Microsoft Excel kullanarak hücreleri biçimlendirmektir. Tasarımcı e-tablosu oluşturulduktan sonra, e-tablo ile kaydedilen tüm biçim ayarlarını koruyarak Aspose.Cells'i kullanarak elektronik tabloyu açabilirsiniz. Hücreleri ve içeriklerini biçimlendirmenin başka bir yolu da Aspose.Cells API'i kullanmaktır. Bu konuda, Aspose.Cells API kullanarak hücreleri ve içeriklerini biçimlendirmek için iki yaklaşım açıklayacağız.
-### **biçimlendirme Cells**
- Geliştiriciler, Aspose.Cells'in esnek API'ini kullanarak hücreleri ve içeriklerini biçimlendirebilir. Aspose.Cells, bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) Bu, bir Excel dosyasındaki her çalışma sayfasına erişim sağlar. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class bir Cells koleksiyonu sağlar. İçindeki her öğe[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells)koleksiyon bir nesneyi temsil eder**Cell** sınıf.
 
- Aspose.Cells şunları sağlar:[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) mülkiyet[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıf, bir hücrenin biçimlendirme stilini ayarlamak için kullanılır. Ayrıca, Aspose.Cells ayrıca bir[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) Aynı amaca hizmet etmek için kullanılan sınıf. Arka plan veya ön plan renklerini, kenarlıkları, yazı tiplerini, yatay ve dikey hizalamaları, girinti düzeyini, metin yönünü, döndürme açısını ve çok daha fazlasını ayarlamak için hücrelere farklı biçimlendirme stilleri uygulayın.
-#### **setStyle Yöntemini Kullanma**
- Farklı hücrelere farklı biçimlendirme stilleri uygularken setStyle yöntemini kullanmak daha iyidir.[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıf. Bir hücrede çeşitli biçimlendirme ayarlarını uygulamak için setStyle yönteminin kullanımını gösteren bir örnek aşağıda verilmiştir.
+## **Hücre Verilerini Biçimlendirme Yaklaşımları**
+Çalışma sayfası hücreleri uygun şekilde biçimlendirildiğinde, hücre içeriğini okuyan kullanıcılar için işlerin daha kolay hale geldiği yaygın bir gerçektir. Hücreleri ve içeriklerini biçimlendirmenin birçok yolu vardır. En basit yol, bir Tasarımcı Elektronik Tablo oluştururken Microsoft Excel'i kullanarak hücreleri biçimlendirmektir. Tasarımcı elektronik tablo oluşturulduktan sonra Aspose.Cells kullanarak bu elektronik tabloyu açabilir ve tüm biçim ayarlarını kaydedebilirsiniz. Hücreleri ve içeriklerini biçimlendirmenin diğer bir yolu ise Aspose.Cells API'sini kullanmaktır. Bu konuda, Aspose.Cells API'nin kullanımıyla hücreleri ve içeriklerini biçimlendirmenin iki yaklaşımını açıklayacağız.
+### **Hücreleri Biçimlendirme**
+Geliştiriciler, Aspose.Cells'in esnek API'sini kullanarak hücreleri ve içeriklerini biçimlendirebilir. Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)'ı içerir. Bir çalışma sayfası, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı bir Hücreler koleksiyonu sağlar. [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells) koleksiyonundaki her öğe, **Cell** sınıfının bir nesnesini temsil eder.
+
+Aspose.Cells, [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıfında, bir hücrenin biçimlendirme stili ayarlamak için kullanılan [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) özelliğini sağlar. Ayrıca, aynı amaca hizmet eden bir [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) sınıfı da sağlar. Hücrelere farklı türde biçimlendirme stilleri uygulayarak arka plan veya ön plan renklerini, kenarlıkları, yazı tiplerini, yatay ve dikey hizalamaları, girinti seviyesini, metin yönünü, döndürme açısını ve çok daha fazlasını ayarlayabilirsiniz.
+#### **setStyle Yöntemi Kullanma**
+Farklı hücrelere farklı biçimlendirme stilleri uygularken, [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıfının setStyle yöntemini kullanmak daha iyidir. Aşağıda, bir hücreye çeşitli biçimlendirme ayarları uygulamak için setStyle yönteminin nasıl kullanılacağını gösteren bir örnek verilmiştir.
 
 
 
@@ -22,15 +23,15 @@ url: /tr/java/data-formatting/
 
 
 
-#### **Stil Nesnesini Kullanma**
- Aynı biçimlendirme stilini farklı hücrelere uygularken,[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesne.
+#### **Stil Nesnesi Kullanma**
+Aynı biçimlendirme stiline farklı hücrelere uygularken, [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnesini kullanın.
 
-1.  Ekle[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) Styles koleksiyonuna nesne[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Workbook sınıfının createStyle yöntemini çağırarak sınıfı.
-1. Yeni eklenen Style nesnesine Styles koleksiyonundan erişin.
-1. İstenen biçimlendirme ayarlarını uygulamak için Style nesnesinin istenen özelliklerini ayarlayın.
-1. Yapılandırılan Style nesnesini istenen herhangi bir hücrenin Style özelliğine atayın.
+1. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfının Styles koleksiyonuna, Workbook sınıfının createStyle metodunu çağırarak [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnesi ekleyin.
+1. Styles koleksiyonundan yeni eklenen Style nesnesine erişin.
+1. Style nesnesinin istenen özelliklerini ayarlayarak istenen biçimlendirme ayarlarını uygulayın.
+1. Konfigure edilmiş Style nesnesini istenen hücrenin Style özelliğine atayın.
 
-Bu yaklaşım, uygulamalarınızın verimliliğini büyük ölçüde artırabilir ve bellek tasarrufu da sağlayabilir.
+Bu yaklaşım uygulamalarınızın verimliliğini büyük ölçüde artırabilir ve aynı zamanda bellek tasarrufu sağlayabilir.
 
 
 
@@ -41,14 +42,14 @@ Bu yaklaşım, uygulamalarınızın verimliliğini büyük ölçüde artırabili
 
 
 
-#### **Degrade Dolgu Efektlerini Uygulama**
-İstediğiniz Degrade Dolgu Efektlerini hücreye uygulamak için, buna göre Style nesnesinin setTwoColorGradient yöntemini kullanın.
+#### **Gradyan Dolgu Efektleri Uygulama**
+Hücreye istenen Gradyan Dolgu Efektlerini uygulamak için, Style nesnesinin setTwoColorGradient metodu uygun şekilde kullanılır.
 #### **Kod Örneği**
- Aşağıdaki çıktı aşağıdaki kod çalıştırılarak elde edilir.
+Aşağıdaki çıktı, aşağıdaki kodu çalıştırarak elde edilir. 
 
-**Degrade Dolgu Efektlerini Uygulama** 
+**Gradyan Dolgu Efektlerinin Uygulanması** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_1.png)
+![todo:image_alt_text](data-formatting_1.png)
 
 
 
@@ -59,56 +60,56 @@ Bu yaklaşım, uygulamalarınızın verimliliğini büyük ölçüde artırabili
 
 
 
-## **Hizalama Ayarlarını Yapılandırma**
-Hücreleri biçimlendirmek için Microsoft Excel'i kullanan herkes, Microsoft Excel'deki hizalama ayarlarına aşina olacaktır.
+## **Hizalama Ayarlarının Yapılandırılması**
+Hücreleri biçimlendirmek için Microsoft Excel kullanan herkes, Microsoft Excel'deki hizalama ayarlarına aşinadır.
 
-**Microsoft Excel'deki hizalama ayarları** 
+**Microsoft Excel'deki Hizalama Ayarları** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_2.png)
+![todo:image_alt_text](data-formatting_2.png)
 
-Yukarıdaki şekilde görebileceğiniz gibi, farklı hizalama seçenekleri vardır:
+Yukarıdaki şekilden görebileceğiniz gibi, farklı türde hizalama seçenekleri bulunmaktadır:
 
-- [Metin hizalama](/cells/tr/java/data-formatting/) (yatay dikey)
-- [Girinti](/cells/tr/java/data-formatting/).
-- [Oryantasyon](/cells/tr/java/data-formatting/).
-- [Metin kontrolü](/cells/tr/java/data-formatting/).
-- [Metin yönü](/cells/tr/java/data-formatting/).
+- [Metin hizalama](/cells/tr/java/data-formatting/) (yatay & dikey)
+- [Girinti](/cells/tr/java/data-formatting/)
+- [Yönlendirme](/cells/tr/java/data-formatting/)
+- [Metin kontrolü](/cells/tr/java/data-formatting/)
+- [Metin yönü](/cells/tr/java/data-formatting/)
 
-Bu hizalama ayarlarının tümü Aspose.Cells tarafından tam olarak desteklenmektedir ve aşağıda daha ayrıntılı olarak ele alınmıştır.
-### **Hizalama Ayarlarını Yapılandırma**
- Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , bu bir Excel dosyasını temsil eder. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf.
+Bu tüm hizalama ayarları, Aspose.Cells tarafından tamamen desteklenir ve aşağıda daha detaylı olarak tartışılmaktadır.
+### **Hizalama Ayarlarının Yapılandırılması**
+Aspose.Cells, bir Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) adında bir sınıf sağlar. Workbook sınıfı, Excel dosyasındaki her bir çalışma sayfasına erişime izin veren bir WorksheetCollection'a sahiptir. Bir çalışma sayfası, [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir.
 
- Worksheet sınıfı bir Cells koleksiyonu sağlar. Cells koleksiyonundaki her öğe, bir nesneyi temsil eder.[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıf.
+Worksheet sınıfı bir Cells koleksiyonu sağlar. Cells koleksiyonundaki her öğe, [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıfının bir nesnesini temsil eder.
 
-Aspose.Cells, setStyle yöntemini sağlar.[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) bir hücrenin biçimlendirmesi için kullanılan sınıf. bu[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) class, yazı tipi ayarlarını yapılandırmak için yararlı özellikler sağlar.
+Aspose.Cells, [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıfındaki setStyle metodu sağlar. Bu metot, bir hücrenin biçimlendirilmesi için kullanılır. [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) sınıfı, yazı tiplerini yapılandırmak için kullanışlı özellikler sağlar.
 
-TextAlignmentType numaralandırmasını kullanarak herhangi bir metin hizalama türünü seçin. TextAlignmentType numaralandırmasındaki önceden tanımlanmış metin hizalama türleri şunlardır:
+MetinAlignmentType numaralandırmasını kullanarak herhangi bir metin hizalama türünü seçin. MetinAlignmentType numaralandırmasındaki önceden tanımlanmış metin hizalama tipleri şunlardır:
 
 |**Metin Hizalama Türleri**|**Açıklama**|
-|:- |:- |
-|Alt kısım|Alt metin hizalamasını temsil eder|
-|merkez|Merkez metin hizalamasını temsil eder|
-|Merkez Boyunca|Metin hizalaması boyunca merkezi temsil eder|
-|dağıtılmış|Dağıtılmış metin hizalamasını temsil eder|
-|Doldurmak|Dolgu metni hizalamasını temsil eder|
-|Genel|Genel metin hizalamasını temsil eder|
-|Savunmak|Yaslanmış metin hizalamasını temsil eder|
-|Sol|Sola metin hizalamasını temsil eder|
-|Doğru|Doğru metin hizalamasını temsil eder|
-|Tepe|Üst metin hizalamasını temsil eder|
+| :- | :- |
+|Bottom|, alt metin hizalamasını temsil eder
+|Center|, merkez metin hizalamasını temsil eder
+|CenterAcross|, metin hizalamasını çapraz merkezlemeyi temsil eder
+|Distributed|, dağıtılmış metin hizalamasını temsil eder
+|Fill|, doldurma metin hizalamasını temsil eder
+|General|, genel metin hizalamasını temsil eder
+|Justify|, düzgün metin hizalamasını temsil eder
+|Left|, sol metin hizalamasını temsil eder
+|Right|, sağ metin hizalamasını temsil eder
+|Top|, üst metin hizalamasını temsil eder
 {{% alert color="primary" %}} 
 
-Justify dağıtılmış ayarını Style.setJustifyDistributed() yöntemini kullanarak da uygulayabilirsiniz.
+Style.setJustifyDistributed() yöntemini kullanarak dağıtılmış hizalamayı da uygulayabilirsiniz.
 
 {{% /alert %}} 
-#### **Yatay hizalama**
- Kullan[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) Metni yatay olarak hizalamak için nesnenin setHorizontalAlignment yöntemi.
+#### **Yatay Hizalama**
+Metni yatay olarak hizalamak için [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnesinin setHorizontalAlignment yöntemini kullanın.
 
 Aşağıdaki çıktı, aşağıdaki örnek kodu çalıştırarak elde edilir:
 
-**Metni yatay olarak hizalama** 
+**Metni yatay olarak hizalamak** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_3.png)
+![todo:image_alt_text](data-formatting_3.png)
 
 
 
@@ -119,14 +120,14 @@ Aşağıdaki çıktı, aşağıdaki örnek kodu çalıştırarak elde edilir:
 
 
 
-#### **Dikey hizalama**
- Kullan[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) Metni dikey olarak hizalamak için nesnenin setVerticalAlignment yöntemi.
+#### **Dikey Hizalama**
+Metni dikey olarak hizalamak için [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnesinin setVerticalAlignment yöntemini kullanın.
 
-VerticalAlignment merkeze ayarlandığında aşağıdaki çıktı elde edilir.
+Dikey Hizalama merkeze ayarlandığında aşağıdaki çıktı elde edilir.
 
-**Metni dikey olarak hizalama** 
+**Metni dikey olarak hizalamak** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_4.png)
+![todo:image_alt_text](data-formatting_4.png)
 
 
 
@@ -138,13 +139,13 @@ VerticalAlignment merkeze ayarlandığında aşağıdaki çıktı elde edilir.
 
 
 ### **Girinti**
- Kullanarak bir hücredeki metnin girinti düzeyini ayarlamak mümkündür.[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnenin setIndentLevel yöntemi.
+Hücredeki metnin girinti düzeyini ayarlamak için [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnesinin setIndentLevel yöntemini kullanabilirsiniz.
 
-IndentLevel 2 olarak ayarlandığında aşağıdaki çıktı elde edilir.
+Girinti Düzeyi 2 olarak ayarlandığında aşağıdaki çıktı elde edilir.
 
-**Girinti seviyesi 2'ye ayarlandı** 
+**Girinti düzeyi 2'ye ayarlandı** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_5.png)
+![todo:image_alt_text](data-formatting_5.png)
 
 
 
@@ -155,14 +156,14 @@ IndentLevel 2 olarak ayarlandığında aşağıdaki çıktı elde edilir.
 
 
 
-### **Oryantasyon**
- ile bir hücredeki metnin yönünü (döndürme) ayarlayın.[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnenin setRotationAngle yöntemi.
+### **Yönlendirme**
+Hücredeki metnin yönlendirmesini (dönüş) [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnesinin setRotationAngle yöntemiyle ayarlayın.
 
-Dönme açısı 25 olarak ayarlandığında aşağıdaki çıkış elde edilir.
+Yönlendirme açısı 25'e ayarlandığında aşağıdaki çıktı elde edilir.
 
-**Dönüş açısı 25 olarak ayarlandı** 
+**Yönlendirme açısı 25'e ayarlandı** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_6.png)
+![todo:image_alt_text](data-formatting_6.png)
 
 
 
@@ -174,17 +175,17 @@ Dönme açısı 25 olarak ayarlandığında aşağıdaki çıkış elde edilir.
 
 
 ### **Metin Kontrolü**
-Aşağıdaki bölümde, metin kaydırma, sığdırmak için küçültme ve diğer biçimlendirme seçeneklerini ayarlayarak metnin nasıl kontrol edileceği anlatılmaktadır.
+Aşağıdaki bölüm metin kaydırma, sığdırmayı daraltma ve diğer biçimlendirme seçeneklerini ayarlayarak metni nasıl kontrol edeceğinizi tartışmaktadır.
 #### **Metni Kaydırma**
-Metni bir hücreye kaydırmak okumayı kolaylaştırır: Hücrenin yüksekliği, onu kesmek veya bitişik hücrelere dökmek yerine tüm metne sığacak şekilde ayarlanır.
+Bir hücrede metni sarmak, metni okumayı kolaylaştırır: hücrenin yüksekliği, metnin tümünü sığdırmak için ayarlanır, onu kesmez veya bitişik hücrelere taşmaz.
 
- ile metin kaydırmayı açık veya kapalı olarak ayarlayın.[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnenin setTextWrapped yöntemi.
+[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnesinin setTextWrapped yöntemiyle metni sarmayı açın veya kapatın.
 
-Metin kaydırma etkinleştirildiğinde aşağıdaki çıktı elde edilir.
+Metni sarma etkinleştirildiğinde aşağıdaki çıktı elde edilir.
 
-**Hücrenin içine sarılmış metin** 
+**Hücre içindeki metin** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_7.png)
+![todo:image_alt_text](data-formatting_7.png)
 
 
 
@@ -195,14 +196,14 @@ Metin kaydırma etkinleştirildiğinde aşağıdaki çıktı elde edilir.
 
 
 
-#### **Sığdırmak İçin Küçültmek**
- Metni bir alana kaydırma seçeneği, metin boyutunu bir hücrenin boyutlarına sığacak şekilde küçültmektir. Bu ayarlanarak yapılır.[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnenin IsTextWrapped özelliği**doğru**.
+#### **Sığdırmayı Daraltma**
+Bir alanı sarmak için bir seçenek, hücre boyutlarına sığdırmak için metin boyutunu küçültmektir. Bunun için [Stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnesinin IsTextWrapped özelliği **true** olarak ayarlanır.
 
-Metin hücreye sığacak şekilde küçültüldüğünde aşağıdaki çıktı elde edilir.
+Metin hücreye sığdırılmak için aşağıdaki çıktıya ulaşılır.
 
-**Metin, hücrenin sınırları içine sığacak şekilde küçültüldü** 
+**Hücre sınırları içine sığdırılmış metin** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_8.png)
+![todo:image_alt_text](data-formatting_8.png)
 
 
 
@@ -213,19 +214,19 @@ Metin hücreye sığacak şekilde küçültüldüğünde aşağıdaki çıktı e
 
 
 
-#### **Birleştirme Cells**
-Microsoft Excel gibi, Aspose.Cells de birkaç hücrenin tek hücrede birleştirilmesini destekler.
+#### **Hücreleri Birleştirme**
+Microsoft Excel gibi, Aspose.Cells birçok hücreyi bir araya getirerek tek bir hücre oluşturmayı destekler.
 
-İlk satırdaki üç hücre birleştirilerek büyük bir tek hücre oluşturulursa aşağıdaki çıktı elde edilir.
+İlk satırdaki üç hücrenin birleştirilmesiyle büyük tek bir hücre oluşturulursa aşağıdaki çıktı elde edilir.
 
 **Büyük bir hücre oluşturmak için üç hücre birleştirildi** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_9.png)
+![todo:image_alt_text](data-formatting_9.png)
 
- Kullan[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells) koleksiyonun Hücreleri birleştirmek için Merge yöntemi. Merge yöntemi aşağıdaki parametreleri alır:
+Hücreleri birleştirmek için [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells) koleksiyonunun Merge yöntemini kullanın. Birleştirme yöntemi aşağıdaki parametreleri alır:
 
-- İlk sıra, birleştirmeye nereden başlayacağınız ilk sıra.
-- İlk sütun, birleştirmeye nereden başlayacağınız ilk sütun.
+- İlk satır, birleştirmeye başlamak için ilk satır.
+- İlk sütun, birleştirmeye başlamak için ilk sütun.
 - Satır sayısı, birleştirilecek satır sayısı.
 - Sütun sayısı, birleştirilecek sütun sayısı.
 
@@ -238,16 +239,16 @@ Microsoft Excel gibi, Aspose.Cells de birkaç hücrenin tek hücrede birleştiri
 
 
 
-### **Metin yönü**
-Hücrelerdeki metnin okuma sırasını ayarlamak mümkündür. Okuma sırası, karakterlerin, kelimelerin vb. görüntülendiği görsel sıradır. Örneğin, İngilizce soldan sağa bir dilken, Arapça sağdan sola bir dildir.
+### **Metin Yönü**
+Hücrelerde metnin okuma sırasını ayarlamak mümkündür. Okuma sırası, karakterlerin, kelimelerin vb. gösterildiği görsel sıradır. Örneğin, İngilizce soldan sağa bir dil iken Arapça sağdan sola bir dildir.
 
- Okuma sırası ile ayarlanır[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnenin TextDirection özelliği. Aspose.Cells, TextDirectionType numaralandırmasında önceden tanımlanmış metin yönü türleri sağlar.
+Okuma sırası [Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnesinin TextDirection özelliği ile ayarlanır. Aspose.Cells, TextDirectionType numaralandırmasında önceden tanımlanmış metin yönü tiplerini sağlar.
 
 |**Metin Yönü Türleri**|**Açıklama**|
-|:- |:- |
-|Bağlam|İlk girilen karakterin diliyle tutarlı okuma sırası|
-|Soldan sağa|Soldan sağa okuma sırası|
-|Sağdan sola|Sağdan sola okuma sırası|
+| :- | :- |
+|Context|Girilen ilk karakterin diline uygun okuma sırası|
+|LeftToRight|Soldan sağa okuma sırası|
+|RightToLeft|Sağdan sola okuma sırası|
 
 
 
@@ -260,28 +261,28 @@ Hücrelerdeki metnin okuma sırasını ayarlamak mümkündür. Okuma sırası, k
 
 
 
-Metnin okuma sırası sağdan sola doğru ayarlanırsa aşağıdaki çıktı elde edilir.
+Metnin okuma sırası sağdan sola olarak ayarlandığında aşağıdaki çıktı elde edilir.
 
-**Metin okuma sırasını sağdan sola ayarlama** 
+**Metin okuma sırası sağdan sola ayarlanıyor** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_10.png)
-## **Cell'de Seçili Karakterleri Biçimlendirme**
-[Yazı Tipi Ayarlarıyla Başa Çıkma](/cells/tr/java/dealing-with-font-settings/)hücrelerin nasıl biçimlendirileceğini, ancak yalnızca tüm hücrelerin içeriğinin nasıl biçimlendirileceğini açıkladı. Yalnızca seçili karakterleri biçimlendirmek isterseniz ne olur?
+![todo:image_alt_text](data-formatting_10.png)
+## **Hücredeki Seçili Karakterleri Biçimlendirme**
+[Yazı Tipi Ayarlarıyla İlgilenme](/cells/tr/java/dealing-with-font-settings/) sadece hücreleri nasıl biçimlendireceğini açıklar, ancak yalnızca seçili karakterleri biçimlendirmek istersen ne yapacaksın?
 
-Aspose.Cells bu özelliği destekler. Bu konuda, bu özelliğin nasıl kullanılacağı açıklanmaktadır.
-### **Seçilen Karakterleri Biçimlendirme**
- Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir Worksheets koleksiyonu içerir. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf. Worksheet sınıfı bir Cells koleksiyonu sağlar. Cells koleksiyonundaki her öğe, bir nesneyi temsil eder.[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıf.
+Aspose.Cells bu özelliği destekler. Bu konu bu özelliği nasıl kullanacağınızı açıklar.
+### **Seçili Karakterleri Biçimlendirme**
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) adlı bir sınıf sağlar. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan Worksheets koleksiyonunu içerir. Bir çalışma sayfası [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı tarafından temsil edilir. Worksheet sınıfı bir Cells koleksiyonu sağlar. Hücreler koleksiyonundaki her bir öğe, [Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıfının bir nesnesini temsil eder.
 
-Cell sınıfı, bir hücrede bir dizi karakter seçmek için aşağıdaki parametreleri alan karakter yöntemini sağlar:
+Cell sınıfı, bir hücredeki karakterleri seçmek için aşağıdaki parametreleri alan characters yöntemi sağlar:
 
-- **Dizini başlat**, seçimin başlatılacağı karakterin dizini.
-- **Karakter sayısı**, seçilecek karakter sayısı.
+- **Başlangıç Dizini**, seçimin başlayacağı karakterin dizini.
+- **Karakter Sayısı**, seçilecek karakterlerin sayısı.
 
-Çıktı dosyasında, A1" hücresinde, 'Ziyaret' sözcüğü varsayılan yazı tipiyle biçimlendirilmiştir ancak 'Aspose!' kalın ve mavidir.
+Çıktı dosyasında, A1 hücresindeki 'Visit' kelimesi varsayılan yazı tipi ile biçimlendirilir ancak 'Aspose!' kalın ve mavi renklidir.
 
-**Seçilen karakterleri biçimlendirme** 
+**Seçili karakterleri biçimlendirme** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_11.png)
+![todo:image_alt_text](data-formatting_11.png)
 
 
 
@@ -297,23 +298,23 @@ Cell sınıfı, bir hücrede bir dizi karakter seçmek için aşağıdaki parame
 
 {{% alert color="primary" %}} 
 
- Eğer ilgileniyorsanız[[hücre] içindeki Zengin Metnin bir bölümünü biçimlendirme](/cells/tr/java/access-and-update-the-portions-of-rich-text-of-cell/) , Cell.getCharacters & Cell.setCharacters yöntemlerini kullanmayı düşünün. Cell.getCharacters metodu ile metnin bölümlerine ulaşılır ve sonrasında Cell.setCharacters metodu ile değişiklikler yapılabilir.**elde etmek** yöntemi, yazı tipi adı, yazı tipi rengi, kalınlık vb. çeşitli özellikleri ayarlamak için kullanılabilecek bir FontSetting nesneleri dizisi döndürür ve**ayarlamak** Yöntem, değişiklikleri uygulamak için kullanılabilir.
+Eğer [hücre](/hücreler/tr/java/hücrenin-bölümlerini-erişme-ve-güncelleme/) içerisindeki Zengin Metin'in bir kısmını biçimlendirmek istiyorsanız, Cell.getCharacters & Cell.setCharacters yöntemlerini kullanmayı düşünebilirsiniz. Cell.getCharacters yöntemi, metnin parçalarını erişmek için kullanılır ve ardından değişiklikler, Cell.setCharacters yöntemi kullanılarak yapılabilirken **get** yöntemi, yazı tipi adı, yazı tipi rengi, kalınlık vb. gibi çeşitli özellikleri ayarlamak için manipüle edilebilen FontSetting nesnelerinin bir dizisini döndürür ve **set** yöntemi, değişiklikleri uygulamak için kullanılabilir.
 
 {{% /alert %}} 
-## **Sayfaları Etkinleştirme ve Cell Etkinleştirme veya Çalışma Sayfasında Cells Aralık Seçme**
-Bazen, birisi dosyayı Microsoft Excel'de açtığında ilk görüntülenen sayfa olması için belirli bir çalışma sayfasını etkinleştirmeniz gerekebilir. Belirli bir hücreyi, kaydırma çubukları etkin hücreye kaydırılarak açıkça görülebilecek şekilde etkinleştirmeniz de gerekebilir. Aspose.Cells yukarıda sayılan tüm görevleri yapabilecek kapasitededir.
+## **Çalışma Kitabını Etkinleştirme ve Çalışma Sayfasındaki Etkin Bir Hücreyi veya Hücre Aralığını Seçme**
+Bazen, bir dosyayı Microsoft Excel'de birisi açtığında ilk olarak görünen sayfanın belirli bir çalışma sayfası olmasını isteyebilirsiniz. Ayrıca, belirli bir hücreyi etkinleştirmeniz ve bu hücreye girilmeye başlandığında kaydırma çubuklarının etkin hücreye kaydırılmasını isteyebilirsiniz. Aspose.Cells, yukarıda bahsedilen tüm görevleri yapabilir.
 
-Etkin sayfa, çalışma kitabında üzerinde çalıştığınız sayfadır. Etkin sayfanın sekmesindeki ad varsayılan olarak kalındır. Bu arada etkin hücre, siz yazmaya başladığınızda seçilen ve içine verilerin girildiği hücredir. Aynı anda yalnızca bir hücre etkindir. Aktif hücre, diğer hücrelere karşı görünmesini sağlamak için kalın bir sınırla çevrilidir. Aspose.Cells, çalışma sayfasında bir hücre aralığı seçmenize de olanak tanır.
-### **Bir Sayfayı Etkinleştirme ve Cell'i Etkinleştirme**
-Aspose.Cells, bu görevler için belirli bir API sağlar. Örneğin, WorksheetCollection.setActiveSheetIndex yöntemi, etkin bir sayfa ayarlamak için kullanışlıdır. Benzer şekilde, Worksheet.setActiveCell yöntemi, bir çalışma sayfasında etkin bir hücreyi ayarlamak ve almak için kullanılır.
+Etkin bir sayfa, bir çalışma kitabı içinde çalıştığınız sayfadır. Etkin sayfanın sekmesindeki adı varsayılan olarak kalındır. Etkin hücre ise seçili olan ve veri girilmeye başlandığında içine veri girilen hücredir. Aynı anda yalnızca bir hücre etkindir. Etkin hücre, diğer hücrelere karşı açıkça görünmesi için kalın bir kenarlıkla çevrilmiştir. Aspose.Cells ayrıca çalışma sayfasındaki bir hücre aralığını seçmenize de olanak tanır.
+### **Bir Sayfayı Etkinleştirme ve Bir Hücreyi Etkin Hale Getirme**
+Aspose.Cells, bu görevler için belirli bir API sağlar. Örneğin, WorksheetCollection.setActiveSheetIndex yöntemi, etkin bir sayfa ayarlamak için kullanışlıdır. Benzer şekilde, Worksheet.setActiveCell yöntemi bir çalışma sayfasındaki etkin hücreyi ayarlamak ve almak için kullanılır.
 
-Dosya Microsoft Excel'de açıldığında seçilen verilerin iyi bir görünümünü vermek için yatay ve dikey kaydırma çubuklarının satır ve sütun dizini konumuna kaydırılmasını istiyorsanız, Worksheet.setFirstVisibleRow ve Worksheet.setFirstVisibleColumn özelliklerini kullanın.
+Dosya Microsoft Excel'de açıldığında yatay ve dikey kaydırma çubuklarının seçilen veriyi güzel bir görüntü sağlamak için satır ve sütun dizin konumuna kaydırılmasını istiyorsanız, Worksheet.setFirstVisibleRow ve Worksheet.setFirstVisibleColumn özelliklerini kullanın.
 
-Aşağıdaki örnek, bir çalışma sayfasının nasıl etkinleştirileceğini ve içindeki bir hücrenin nasıl etkinleştirileceğini gösterir. Kaydırma çubukları, 2. satırı ve 2. sütunu ilk görünür satır ve sütunları yapmak için kaydırılır.
+Aşağıdaki örnek, bir çalışma sayfasını etkinleştirme ve içindeki bir hücreyi etkin hale getirme şeklini gösterir. Kaydırma çubukları, 2. satırı ve 2. sütunu ilk görünür satır ve sütun olarak kaydırılmıştır.
 
-**B2 hücresini aktif hücre olarak ayarlama** 
+**B2 hücresini etkin hücre olarak ayarlama** 
 
-![yapılacaklar:resim_alternatif_metin](data-formatting_12.png)
+![todo:image_alt_text](data-formatting_12.png)
 
 
 
@@ -324,10 +325,10 @@ Aşağıdaki örnek, bir çalışma sayfasının nasıl etkinleştirileceğini v
 
 
 
-#### **Çalışma Sayfasında Cells Aralığı Seçme**
-Aspose.Cells, Worksheet.selectRange(int startRow, int startColumn, int totalRows, int totalColumns, bool removeOthers) yöntemini sağlar. Son parametre - removeOthers - true olarak kullanıldığında, sayfadaki diğer hücre veya hücre aralığı seçimleri kaldırılır.
+#### **Çalışma Sayfasında Bir Hücre Aralığı Seçme**
+Aspose.Cells, int startRow, int startColumn, int totalRows, int totalColumns, bool removeOthers parametrelerini kullanan Worksheet.selectRange(int startRow, int startColumn, int totalRows, int totalColumns, bool removeOthers) yöntemini sağlar. removeOthers parametresini true olarak kullanarak, çalışma sayfasındaki diğer hücre ya da hücre aralığı seçimleri kaldırılır.
 
-Aşağıdaki örnek, etkin çalışma sayfasında bir hücre aralığının nasıl seçileceğini gösterir.
+Aşağıdaki örnek, etkin çalışma sayfasında bir hücre aralığı seçme şeklini gösterir.
 
 
 
@@ -343,23 +344,23 @@ Aşağıdaki örnek, etkin çalışma sayfasında bir hücre aralığının nas�
 
 {{% alert color="primary" %}} 
 
-Yukarıdaki tüm sınıflar ve yöntemler, Aspose.Cells lisanslı sürümünde mevcuttur.
+Yukarıdaki tüm sınıflar ve yöntemler, Aspose.Cells'in lisanslı sürümü ile kullanılabilir.
 
 {{% /alert %}} 
-## **Satırları ve Sütunları Biçimlendirme**
-Rapora bir görünüm vermek için bir elektronik tablodaki satırları ve sütunları biçimlendirmek, muhtemelen Excel uygulamasının en yaygın kullanılan özelliğidir. Aspose.Cells API'ler ayrıca, yazı tipi ve öznitelikleri, metnin hizalanması, arka plan/ön plan renkleri, kenarlıklar, sayılar ve tarih değişmezleri için görüntüleme formatı vb. . Aspose.Cells API'lerinin sağladığı diğer bir yararlı sınıf, Style nesnesinin yeniden kullanılabilirliğini sağlayan StyleFlag'dır.
+## **Satır ve Sütunların Biçimlendirilmesi**
+Raporun görünümünü sağlamak için elektronik tablo içindeki satır ve sütunları biçimlendirmek, Excel uygulamasının muhtemelen en yaygın kullanılan özelliklerindendir. Aspose.Cells API'leri de veri modeli aracılığıyla bu işlevselliği sunar ve özellikle yazı tipi ve özellikleri, metnin hizalaması, arka plan/önrenkleri, kenarlıkları, sayıların ve tarihsel dizelerin görüntü biçimlendirmesini ele alan Style sınıfını açığa çıkarır. Aspose.Cells API'lerinin sağladığı diğer faydalı bir sınıf ise StyleFlag'dir ve Style nesnesinin tekrar kullanılmasını sağlar. 
 
-Bu yazımızda satır ve sütunlara biçimlendirme uygulamak için Aspose.Cells for Java API nasıl kullanılacağını açıklamaya çalışacağız.
+Bu makalede, satır ve sütunlara biçimlendirme uygulamak için Aspose.Cells for Java API'sını nasıl kullanacağımızı açıklamaya çalışacağız. 
 ### **Satırları ve Sütunları Biçimlendirme**
- Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası, Worksheet sınıfı tarafından temsil edilir. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class Cells koleksiyonunu sağlar. Cells koleksiyonu bir Rows koleksiyonu sağlar.
-#### **Satır Biçimlendirme**
-Rows koleksiyonundaki her öğe bir Row nesnesini temsil eder. Row nesnesi, bir satıra biçimlendirme uygulamak için kullanılan ApplyStyle yöntemini sunar.
+Aspose.Cells, bir Microsoft Excel dosyasını temsil eden [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfını sağlar. [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası, Worksheet sınıfı tarafından temsil edilir. [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıfı, Cells koleksiyonunu sağlar. Cells koleksiyonu, Row koleksiyonunu sağlar.
+#### **Bir Satırı Biçimlendirme**
+Row koleksiyonundaki her öğe, bir Satır nesnesini temsil eder. Satır nesnesi, bir satıra biçimlendirme uygulamak için kullanılan applyStyle yöntemini sunar.
 
-Aynı biçimlendirmeyi bir satıra uygulamak için Style nesnesini kullanın:
+Aynı biçimlendirmeyi bir satıra uygulamak için Style objesini kullanın:
 
-1. CreateStyle yöntemini çağırarak Workbook sınıfına bir Style nesnesi ekleyin.
-1. Biçimlendirme ayarlarını uygulamak için Stil nesnesi özelliklerini ayarlayın.
-1. Yapılandırılan Style nesnesini bir Row nesnesinin ApplyStyle yöntemine atayın.
+1. createStyle yöntemini çağırarak Style objesini Workbook sınıfına ekleyin.
+1. Biçimlendirme ayarlarını uygulamak için Style objesi özelliklerini ayarlayın.
+1. Yapılandırılmış Style objesini Satır nesnesinin applyStyle yöntemine atayın.
 
 
 
@@ -371,7 +372,7 @@ Aynı biçimlendirmeyi bir satıra uygulamak için Style nesnesini kullanın:
 
 
 #### **Bir Sütunu Biçimlendirme**
-Cells koleksiyonu, bir Sütun koleksiyonu sağlar. Columns koleksiyonundaki her öğe bir Column nesnesini temsil eder. Row nesnesine benzer şekilde Column nesnesi, sütun biçimlendirmesini ayarlamak için kullanılan ApplyStyle yöntemini sunar. Bir sütunu satırla aynı şekilde biçimlendirmek için Column nesnesinin ApplyStyle yöntemini kullanın.
+Cells koleksiyonu, Columns koleksiyonunu sağlar. Columns koleksiyonundaki her öğe, bir Sütun nesnesini temsil eder. Satır nesnesi gibi, Sütun nesnesi de sütun biçimlendirmesi yapmak için applyStyle yöntemini sunar. Sütun nesnesinin applyStyle yöntemini kullanarak bir sütunu satır biçimleriyle aynı şekilde biçimlendirebilirsiniz.
 
 
 
@@ -382,8 +383,8 @@ Cells koleksiyonu, bir Sütun koleksiyonu sağlar. Columns koleksiyonundaki her 
 
 
 
-#### **Satırlar ve Sütunlar için Numbers ve Tarihlerin Görüntüleme Biçimini Ayarlama**
-Gereksinim, tam bir satır veya sütun için sayıların ve tarihlerin görüntülenme biçimini ayarlamaksa, süreç aşağı yukarı yukarıda tartışılanla aynıdır, ancak metin içerikleri için parametreler ayarlamak yerine, sayılar için biçimlendirmeyi ayarlıyor olacaksınız. ve Style.Number veya Style.Custom kullanarak tarihler. Lütfen unutmayın, Style.Number özelliği tamsayı türündedir ve yerleşik sayı ve tarih biçimlerini ifade eder, oysa Style.Custom özelliği dize türündedir ve geçerli kalıpları kabul eder.
+#### **Satırlar ve Sütunlar için Sayı ve Tarihlerin Görüntü Biçimini Ayarlama**
+Eğer tam bir satır veya sütunun ekran biçimini sayı ve tarihler için ayarlamanız gerekiyorsa, süreç yukarıda tartışıldığı gibi daha veya daha az aynıdır, ancak metin içeriği için parametreleri ayarlamak yerine, Style.Number veya Style.Custom'ı kullanarak sayılar ve tarihler için biçimlendirme ayarlayacaksınız. Lütfen dikkat edin, Style.Number özelliği tamsayı türündedir ve yerleşik sayı ve tarih biçimlerine işaret ederken, Style.Custom özelliği dize türündedir ve geçerli desenleri kabul eder.
 
 
 
@@ -399,6 +400,6 @@ Gereksinim, tam bir satır veya sütun için sayıların ve tarihlerin görünt�
 
 {{% alert color="primary" %}} 
 
- Lütfen adresindeki ayrıntılı makaleyi kontrol edin.[Numbers ve [Tarihler] Ekran Formatlarını Ayarlama](/cells/tr/java/data-formatting/).
+[Sayıların ve [Tarihlerin Gösterim Biçimlerinin Ayarlanması](/cells/tr/java/data-formatting/) hakkında detaylı makaleyi kontrol edin.
 
 {{% /alert %}}

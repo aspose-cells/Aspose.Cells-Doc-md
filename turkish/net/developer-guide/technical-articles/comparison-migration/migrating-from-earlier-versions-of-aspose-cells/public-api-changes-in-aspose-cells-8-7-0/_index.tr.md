@@ -1,25 +1,26 @@
-﻿---
-title: Genel API Aspose.Cells 8.7.0'daki değişiklikler
+---
+title: Aspose.Cells 8.7.0 da Genel API Değişiklikleri
 type: docs
 weight: 230
 url: /tr/net/public-api-changes-in-aspose-cells-8-7-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 8.6.3 sürümünden 8.7.0 sürümüne Aspose.Cells API üzerindeki değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
+Bu belge, modül/uçbirim geliştiricilerin ilgisini çekebilecek Aspose.Cells API'sindeki değişiklikleri, 8.6.3 sürümünden 8.7.0 sürümüne kadar açıklar. Yeni ve güncellenmiş genel yöntemler, eklenen ve kaldırılan sınıflar vb. yanı sıra Aspose.Cells'in arka plandaki davranışında herhangi bir değişikliği de içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **VBA Projesi Dijital İmzalama, Algılama ve Çıkarma Desteği**
-Aspose.Cells for .NET numaralı bu sürüm, kullanıcılara bir VBA projesini dijital olarak imzalama, bir VBA projesinin imzalanıp imzalanmadığını ve geçerli olup olmadığını belirleme gibi görevlerde yardımcı olacak bazı yeni özellikler ve yöntemler ortaya çıkardı. Ayrıca yeni API, sertifikanın Workbook'ta dijital olarak imzalanmış VBA projesinden ham veri olarak çıkarılmasına izin verir.
-###### **VBA Projesini Dijital Olarak İmzalayın**
- Aspose.Cells for .NET 8.7.0, kullanılabilecek VbaProject.Sign yöntemini kullanıma sundu.[VBA projesini bir Çalışma Kitabında dijital olarak imzalayın](/cells/tr/net/digitally-sign-a-vba-code-project-with-certificate/). Bahsedilen yöntem, Aspose.Cells.DigitalSignatures ad alanında bulunan DigitalSignature sınıfının bir örneğini kabul eder.
+Bu sürümde, Aspose.Cells for .NET, VBA projesini dijital imzalama, bir VBA projesinin imzalı ve geçerli olup olmadığını algılama gibi görevlerde kullanıcılarına yardımcı olmak için bazı yeni özellikleri ve yöntemleri açığa çıkardı. Ayrıca, yeni API, dijital imzalı VBA projesinden sertifikayı ham veri olarak çıkarmaya olanak tanımaktadır.
+###### **VBA Projesini Dijital İmzala**
+Aspose.Cells for .NET 8.7.0, VbaProject.Sign yöntemi açığa çıkardı, bu [Bir Worbook'taki VBA projesini dijital olarak imzalamak](/cells/tr/net/digitally-sign-a-vba-code-project-with-certificate/) için kullanılabilir. Söz konusu yöntem, Aspose.Cells.DigitalSignatures ad alanında bulunan DigitalSignature sınıfının bir örneğini kabul eder.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -38,14 +39,14 @@ vbaProject.Sign(new DigitalSignature(new System.Security.Cryptography.X509Certif
 {{< /highlight >}}
 
 
-###### **Dijital Olarak İmzalanmış VBA Projesinin Tespiti**
- Yeni ortaya çıkan VbaProject.IsSigned özelliği,[Çalışma Kitabındaki VBA projesinin dijital olarak imzalanıp imzalanmadığını tespit edin](/cells/tr/net/check-if-vba-code-is-signed/). VbaProject.IsSigned özelliği Boolean türündedir ve VBA projesi dijital olarak imzalanmışsa veya tersi geçerliyse doğru değerini döndürür.
+###### **Dijital İmzalı VBA Projesinin Algılanması**
+Yeni açığa çıkarılan VbaProject.IsSigned özelliği, bir Workbook'taki VBA projesinin [dijital olarak imzalanıp imzalanmadığını tespit etmek](/cells/tr/net/check-if-vba-code-is-signed/) için kullanılabilir. VbaProject.IsSigned özelliği, Boolean türünde olup, VBA projesi dijital olarak imzalanmışsa true değerini döndürür, aksi halde söz konusu özellik null olacaktır.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -76,14 +77,14 @@ else
 {{< /highlight >}}
 
 
-###### **VBA Projesinden Dijital İmza Çıkarma**
-API'in bu revizyonu, aşağıdakilere izin veren VbaProject.CertRawData özelliğini de ortaya çıkardı.[dijital sertifikanın ham verilerini VBA projesinden çıkarın](/cells/tr/net/export-vba-certificate-to-file-or-stream/). VbaProject.CertRawData özelliği, VBA projesi dijital olarak imzalanmışsa ham sertifika verilerini içerecek bayt dizisi türündedir, aksi takdirde söz konusu özellik boş olacaktır.
+###### **VBA Projesinden Dijital İmza Çıkarılması**
+Bu API'nin bu revizyonunda ayrıca VbaProject.CertRawData özelliği açığa çıkarılmıştır. Bu özellik, bir Woorkbook'tan [dijital sertifikanın ham verilerini çıkarmak](/cells/tr/net/export-vba-certificate-to-file-or-stream/) için kullanılabilir. VbaProject.CertRawData özelliği, eğer VBA projesi dijital olarak imzalanmışsa, raw sertifika verilerini içeren bayt dizisi türündedir, aksi halde söz konusu özellik null olacaktır.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -100,14 +101,14 @@ var cert = vbaProject.CertRawData;
 {{< /highlight >}}
 
 
-###### **VBA Projesinin Dijital İmzasını Doğrulayın**
- Genel API'e bir başka ekleme de yararlı olabilecek VbaProject.IsValidSigned özelliğidir.[VBA projesinin dijital imzasının doğrulanması](/cells/tr/net/check-if-digital-signature-of-vba-code-is-valid/). Söz konusu özellik, dijital imza geçerliyse true, geçersizse false döndürür.
+###### **VBA Projesinin Dijital İmzasının Doğrulanması**
+Genel API'ye eklenen diğer bir özellik VbaProject.IsValidSigned özelliğidir, bu özellik VBA projesinin [dijital imzasının doğrulanmasında](/cells/tr/net/check-if-digital-signature-of-vba-code-is-valid/) kullanışlı olabilir. Söz konusu özellik, dijital imzanın geçerli ise true değerini, aksi halde geçersiz ise false değerini geri döndürür.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -138,14 +139,14 @@ if (vbaProject.IsSigned)
 {{< /highlight >}}
 
 
-### **Yöntem Protection.VerifyPassword Eklendi**
- Aspose.Cells for .NET 8.7.0, şu işlemler için kullanılabilecek Protection.VerifyPassword yöntemini kullanıma sundu[Çalışma Sayfasını korumak için kullanılan parolayı doğrulayın](/cells/tr/net/verify-password-used-to-protect-the-worksheet/)Bu yöntem, bir dize örneğini parametre olarak kabul eder ve belirtilen parola, Çalışma Sayfasını korumak için kullanılan parolayla eşleşirse true değerini döndürür.
+### **Protection.VerifyPassword Yöntemi Eklendi**
+Aspose.Cells for .NET 8.7.0, Koruma.VerifyPassword yöntemini açığa çıkardı, bu [Çalışsayı Korumak İçin Kullanılan Şifrenin Doğrulanması](/cells/tr/net/verify-password-used-to-protect-the-worksheet/) için kullanılabilir. Bu yöntem, bir dize örneğini parametre olarak kabul eder ve belirtilen şifrenin çalışsayı korumak için kullanılan şifre ile eşleşmesi durumunda true değerini döndürür.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -180,14 +181,14 @@ else
 {{< /highlight >}}
 
 
-### **Property Protection.IsProtectedWithPassword Eklendi**
- Aspose.Cells for .NET API'in bu sürümü, şu alanlarda yararlı olabilecek Protection.IsProtectedWithPassword özelliğini de kullanıma sunmuştur.[bir Çalışma Sayfasının parola korumalı olup olmadığını tespit etme](/cells/tr/net/detect-if-worksheet-is-password-protected/).
+### **Protection.IsProtectedWithPassword Özelliği Eklendi**
+Bu Aspose.Cells for .NET'nın bu sürümü ayrıca Protection.IsProtectedWithPassword özelliğini açığa çıkardı, Bu özellik, bir Worlsheet'in [şifre ile korunup korunmadığını tespit etmek](/cells/tr/net/detect-if-worksheet-is-password-protected/) için kullanışlı olabilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -222,14 +223,14 @@ else
 {{< /highlight >}}
 
 
-### **Özellik ColorScale.Is3ColorScale Eklendi**
- Aspose.Cells for .NET 8.7.0, 2-Renk Ölçeği koşullu biçimi oluşturmak için kullanılabilecek ColorScale.Is3ColorScale özelliğini ortaya çıkardı. Bahsedilen özellik, varsayılan değeri true olan Boolean türündedir; bu, koşullu formatın varsayılan olarak 3-Renk Ölçeği olacağı anlamına gelir. Ancak, ColorScale.Is3ColorScale özelliğinin yanlış olarak değiştirilmesi,[2 Renkli Ölçekli bir koşullu format oluşturun](/cells/tr/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/).
+### **Eklendi ColorScale.Is3ColorScale Özelliği**
+Aspose.Cells for .NET 8.7.0, ColorScale.Is3ColorScale özelliğini açığa çıkardı, bu özellik [2 Renkli Ölçekli koşullu biçimlendirme oluşturmak](/cells/tr/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/) için kullanılabilir. Söz konusu özellik, varsayılan değeri true olan Boolean türündedir, bunun anlamı, koşullu biçimlendirme varsayılan olarak 3 Renkli Ölçekli olacaktır. Bununla birlikte, ColorScale.Is3ColorScale özelliğini false olarak değiştirme, 2 Renkli Ölçekli bir koşullu biçimlendirme [oluşturacaktır](/cells/tr/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/).
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -274,14 +275,14 @@ formatCondition.ColorScale.Is3ColorScale = false;
 {{< /highlight >}}
 
 
-### **Özellik TxtLoadOptions.HasFormula Eklendi**
- Aspose.Cells for .NET 8.7.0 desteği sağladı[sınırlandırılmış düz verilere sahip CSV/TXT dosyaları yüklenirken formülleri tanımlayın ve ayrıştırın](/cells/tr/net/load-or-import-csv-file-with-formulas/). Yeni kullanıma sunulan TxtLoadOptions.HasFormula özelliği true olarak ayarlandığında, API'i formülleri girişle ayrılmış dosyadan ayrıştırmaya ve herhangi bir ek işlem gerektirmeden ilgili hücrelere ayarlamaya yönlendirir.
+### **Added TxtLoadOptions.HasFormula Property**
+Aspose.Cells for .NET 8.7.0, CSV/TXT dosyalarını yüklerken [formülleri tanımlamaya ve ayrılmış düz veriye formülleri ayrıştırmaya](/cells/tr/net/load-or-import-csv-file-with-formulas/) olanak tanıdı. Yeni başlayan TxtLoadOptions.HasFormula özelliği, true olarak ayarlandığında, API'yi girdi ayrılmış dosyadan formülleri ayrıştırmak ve bunları ilgili hücrelere eklemek için yönlendirirken herhangi ek işlem gerektirmez.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of TxtLoadOptions
 
@@ -310,14 +311,14 @@ book.Save(outFilePath);
 {{< /highlight >}}
 
 
-### **Özellik DataLabels.IsResizeShapeToFitText Eklendi**
- Aspose.Cells for .NET 8.7.0'ın kullanıma sunduğu bir başka kullanışlı özellik de şu özelliği etkinleştirebilen DataLabels.IsResizeShapeToFitText özelliğidir.[Metni sığdırmak için şekli yeniden boyutlandırma](/cells/tr/net/resize-chart-s-data-label-shape-to-fit-text/)grafiğin veri etiketleri için Excel uygulamasının özelliği.
+### **DataLabels.IsResizeShapeToFitText Özelliği Eklendi**
+Aspose.Cells for .NET 8.7.0'nin açığa çıkardığı bir diğer kullanışlı özellik, DataLabels.IsResizeShapeToFitText özelliğidir, bu özellik, Excel uygulaması için [Grafik veri etiketlerinin şeklini metne sığdırma](/cells/tr/net/resize-chart-s-data-label-shape-to-fit-text/) özelliğini etkinleştirebilir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook containing the Chart
 
@@ -346,17 +347,17 @@ chart.Calculate();
 {{< /highlight >}}
 
 
-### **Özellik PdfSaveOptions.OptimizationType Eklendi**
-Aspose.Cells for .NET 8.7.0, kullanıcıların şunları yapmasını kolaylaştırmak için PdfSaveOptions.OptimizationType özelliğini ve PdfOptimizationType numaralandırmasını kullanıma sundu.[e-tabloları PDF formatına dışa aktarırken istenen optimizasyon algoritmasını seçin](/cells/tr/net/save-excel-into-pdf-with-standard-or-minimum-size/). PdfSaveOptions.OptimizationType özelliği için aşağıda ayrıntıları verilen 2 olası değer vardır.
+### **PdfSaveOptions.OptimizationType Özelliği Eklendi**
+Aspose.Cells for .NET 8.7.0, PdfSaveOptions.OptimizationType özelliğini ve PdfOptimizationType numaralandırmasını kullanıcıların, [çalışsayfalarını PDF biçimine dönüştürürken istedikleri optimizasyon algoritmasını seçmelerini](/cells/tr/net/save-excel-into-pdf-with-standard-or-minimum-size/) kolaylaştırmak üzere açığa çıkardı. PdfSaveOptions.OptimizationType özelliğinin 2 mümkün değeri aşağıda ayrıntılı olarak belirtilmiştir.
 
-1. PdfOptimizationType.MinimumSize: Ortaya çıkan dosya boyutu için kaliteden ödün verilir.
-1. PdfOptimizationType.Standard: Kaliteden ödün verilmez, bu nedenle ortaya çıkan dosya boyutu büyük olur.
+1. PdfOptimizationType.MinimumSize: Sonuç dosya boyutu için kalite feda edilmektedir.
+2. PdfOptimizationType.Standard: Kalite feda edilmez bu nedenle sonuç dosya boyutu büyük olacaktır.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of PdfSaveOptions
 
@@ -377,6 +378,6 @@ var book = new Workbook(inFilePath);
 book.Save(outFilePath, pdfSaveOptions);
 
 {{< /highlight >}}
-## **Kaldırılan API'ler**
-### **Workbook.SaveOptions Özelliği Kaldırıldı**
-Workbook.SaveOptions özelliği bir süre önce geçersiz olarak işaretlendi. Bu sürümle birlikte, genel kullanımdan tamamen kaldırıldı API bu nedenle alternatif olarak Workbook.Save(Stream, SaveOptions) veya Workbook.Save(string, SaveOptions) yönteminin kullanılması tavsiye edilir.
+## **Removed APIs**
+### **Property Workbook.SaveOptions Kaldırıldı**
+Workbook.SaveOptions özelliği bir süre önce işaretlenmişti. Bu sürümle birlikte, bu özellik tamamen genel API'den kaldırıldı, bu nedenle alternatif olarak Workbook.Save(Stream, SaveOptions) veya Workbook.Save(string, SaveOptions) yöntemini kullanmanız önerilir.

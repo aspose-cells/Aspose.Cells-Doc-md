@@ -1,12 +1,13 @@
-﻿---
-title: ActiveX コントロールを削除する
+---
+title: ActiveXコントロールを削除
 type: docs
 weight: 1000
 url: /ja/net/remove-activex-control/
 ---
-## **ActiveX コントロールを削除する**
 
- Aspose.Cells は、ワークブックから ActiveX コントロールを削除する機能を提供します。このために、API は[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol)方法。次のコード スニペットは、[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol)メソッドを使用して ActiveX コントロールを削除します。
+## **ActiveXコントロールを削除**
+
+Aspose.CellsはワークブックからActiveXコントロールを削除する機能を提供します。このために、APIは[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol)メソッドを提供します。次のコードスニペットは、[**Shape.RemoveActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/removeactivexcontrol)メソッドの使用を示しています。
 
 ## **サンプルコード**
 

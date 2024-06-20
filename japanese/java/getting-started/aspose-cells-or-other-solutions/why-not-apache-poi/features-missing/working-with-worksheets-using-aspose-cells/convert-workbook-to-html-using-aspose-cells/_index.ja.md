@@ -1,15 +1,16 @@
-﻿---
-title: Aspose.Cells を使用してワークブックを HTML に変換します
+---
+title: Aspose.Cellsを使用してワークブックをHTMLに変換する
 type: docs
 weight: 20
 url: /ja/java/convert-workbook-to-html-using-aspose-cells/
 ---
-## **Aspose.Cells - ワークブックを HTML に変換**
-Aspose.Cells API は、スプレッドシートを HTML 形式にエクスポートするためのサポートを提供します。この目的のために、**Aspose.Cells**を使用します**HtmlSaveOptions**開発者が出力 HTML のいくつかの側面を制御できるようにするクラス。
+
+## **Aspose.Cells - ワークブックをHTMLに変換する**
+Aspose.Cells のAPIは、スプレッドシートをHTML形式にエクスポートするサポートを提供しています。この目的のために、Aspose.CellsはHTMLSaveOptionsクラスを使用し、開発者が出力HTMLのさまざまな側面を制御することができます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Specify the HTML Saving Options
 
@@ -24,7 +25,7 @@ Workbook book = new Workbook(dataDir + "book1.xls");
 book.save(dataDir + "AsposeHTMLSpreadsheet.html", save);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
@@ -32,6 +33,6 @@ book.save(dataDir + "AsposeHTMLSpreadsheet.html", save);
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[Excel ファイルを HTML に変換する](/cells/ja/java/converting-workbook-to-different-formats/).
+詳細については、[ExcelファイルをHTMLに変換](/cells/ja/java/converting-workbook-to-different-formats/)をご覧ください。
 
 {{% /alert %}}

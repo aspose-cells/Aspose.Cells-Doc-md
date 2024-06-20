@@ -1,26 +1,27 @@
-﻿---
-title: إخفاء أوراق العمل وإظهارها في مصنف في VSTO و Aspose.Cells
+---
+title: إخفاء وإظهار أوراق عمل في كتاب عمل في VSTO و Aspose.Cells
 type: docs
 weight: 140
 url: /ar/net/hide-and-unhide-worksheets-in-a-workbook-in-vsto-and-aspose-cells/
 ---
-تقارن هذه المقالة الإخفاء وإظهار أوراق العمل مع VSTO ، باستخدام C# أو Visual Basic ، لأداء نفس المهمة مع Aspose.Cells ، مرة أخرى باستخدام إما C# أو Visual Basic. Aspose.Cells يتيح لك العمل بدون تثبيت Microsoft Excel.
 
-خطوات إخفاء ورقة العمل هي:
+يقارن هذا المقال بين إخفاء وإظهار الأوراق العمل بـ VSTO، باستخدام كل من C# أو الفيجوال بيزك، لأداء نفس المهمة باستخدام Aspose.Cells، مرة أخرى باستخدام C# أو الفيجوال بيزك. Aspose.Cells تتيح لك العمل بدون تثبيت Microsoft Excel.
+
+خطوات إخفاء الورقة العمل هي:
 
 1. فتح ملف.
-1. احصل على ورقة عمل.
-1. إخفاء ورقة العمل.
-1. حفظ الملف.
- لإظهار ورقة العمل مرة أخرى ، ما عليك سوى تبديل الرؤية للورقة المخفية.
+2. الحصول على ورقة العمل.
+3. إخفاء الورقة العمل.
+4. حفظ الملف.
+   لإظهار الورقة العمل مرة أخرى، ما عليك سوى تبديل الرؤية للورقة المخفية.
 
-توضح نماذج التعليمات البرمجية أدناه أولاً كيفية إخفاء ورقة العمل. توضح العينات الأولى العملية باستخدام VSTO ، باستخدام C# ، مقارنة باستخدام Aspose.Cells ، مرة أخرى باستخدام إما C#.
+توضح الأمثلة البرمجية أدناه كيفية إخفاء ورقة عمل. تظهر الأمثلة الأولى العملية باستخدام VSTO، بإستخدام إما C#، مقارنة بإستخدام Aspose.Cells، مرة أخرى باستخدام إما C#.
 
-تُظهر المجموعة الثانية من نماذج التعليمات البرمجية السطر المستخدم لإظهار ورقة العمل في VSTO أو Aspose.Cells.
-## **أوراق العمل المخفية**
-فيما يلي نماذج التعليمات البرمجية لـ VSTO و Aspose.Cells التي توضح كيفية إخفاء ورقة عمل في مصنف.
+تظهر مجموعة الأمثلة البرمجية الثانية السطر المستخدم لإظهار الورقة العمل في VSTO أو Aspose.Cells.
+## **إخفاء الأوراق العمل**
+أدناه أمثلة برمجية لـ VSTO و Aspose.Cells توضح كيفية إخفاء ورقة عمل في سجل عمل.
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -65,7 +66,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -92,10 +93,10 @@ objSheet.IsVisible = false;
 workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **ورقة عمل غير مخفية**
-فيما يلي نماذج التعليمات البرمجية لـ VSTO و Aspose.Cells التي توضح كيفية إظهار ورقة عمل في مصنف.
+## **إظهار الورقة العمل**
+أدناه أمثلة برمجية لـ VSTO و Aspose.Cells توضح كيفية إظهار ورقة العمل في سجل عمل.
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
@@ -103,14 +104,14 @@ workbook.Save("Book1.xls");
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
 objSheet.IsVisible = true;
 
 {{< /highlight >}}
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Hide.and.Unhide.Worksheets.in.a.Workbook.Aspose.Cells.zip)
-- [سورس فورج](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip / تنزيل)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).أَزِيز)
+## **تحميل رمز عينة**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Hide.and.Unhide.Worksheets.in.a.Workbook.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip)

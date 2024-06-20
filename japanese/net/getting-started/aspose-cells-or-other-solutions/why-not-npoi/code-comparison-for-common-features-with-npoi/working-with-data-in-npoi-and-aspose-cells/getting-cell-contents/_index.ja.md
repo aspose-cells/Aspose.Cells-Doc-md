@@ -1,29 +1,30 @@
-﻿---
-title: Cell コンテンツの取得
+---
+title: セルの内容の取得
 type: docs
 weight: 10
 url: /ja/net/getting-cell-contents/
 ---
-## **Aspose.Cells - Cell コンテンツの取得**
-Cells[0]または Cells[name]メソッドを使用して、セルにアクセスできます。
+
+## **Aspose.Cells - セルの内容の取得**
+Cells[0]またはCells[name]メソッドを使用してセルにアクセスすることができます。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook("../../data/test.xlsx");
 
-ワークシート sheet1 = workbook.Worksheets[0];
+Worksheet sheet1 = workbook.Worksheets[0];
 
-Cells セル = sheet1.Cells;
+Cells cells = sheet1.Cells;
 
-範囲範囲 = sheet1.Cells.MaxDisplayRange;
+Range range = sheet1.Cells.MaxDisplayRange;
 
 int tcols = range.ColumnCount;
 
-int トロウ = range.RowCount;
+int trows = range.RowCount;
 
- for (int i = 0 ; i< trows; i++)
+for (int i = 0 ; i < trows; i++)
 
 {
 
@@ -44,18 +45,18 @@ int トロウ = range.RowCount;
 }
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - 取得 Cell 目次**
-NPOI は、セルのさまざまなプロパティにアクセスするための Cell クラスを提供します。
+## **NPOI - HSSF XSSF - セルの内容の取得**
+NPOIは、セルのさまざまなプロパティにアクセスするためのCellクラスを提供しています。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook("../../data/test.xlsx");
 
 ISheet sheet1 = wb.GetSheetAt(0);
 
- for (int インデックス = 0; インデックス<= sheet1.LastRowNum; index++)
+for (int index = 0; index <= sheet1.LastRowNum; index++)
 
 {
 
@@ -114,13 +115,13 @@ ISheet sheet1 = wb.GetSheetAt(0);
 }
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**Cell コンテンツの取得**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから**Getting Cell Contents**をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Getting.Cell.Contents.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[データ処理機能](/cells/ja/net/data-handling-features-in-aspose-cells/).
+詳細については、[Data Handling Features](/cells/ja/net/data-handling-features-in-aspose-cells/)を参照してください。
 
 {{% /alert %}}

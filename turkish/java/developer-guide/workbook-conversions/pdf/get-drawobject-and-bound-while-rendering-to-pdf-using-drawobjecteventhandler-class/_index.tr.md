@@ -1,36 +1,37 @@
-﻿---
-title: DrawObjectEventHandler sınıfını kullanarak PDF'e işlerken DrawObject ve Bound'u alın
+---
+title: DrawObjectEventHandler sınıfını kullanarak PDF ye render ederken DrawObject ve Bound almak
 type: docs
 weight: 60
 url: /tr/java/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells soyut bir sınıf sağlar[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) olan bir[**Berabere()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) yöntem. Kullanıcı uygulayabilir[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)ve kullanmak[**Berabere()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) elde etme yöntemi[**Nesne Çiz**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)ve**Ciltli**Excel'i PDF'e veya Görüntüye dönüştürürken. İşte parametrelerin kısa bir açıklaması[**Berabere()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) yöntem.
+Aspose.Cells, bir [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) soyut sınıf sağlar, bu sınıfın bir [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) yöntemi bulunur. Kullanıcı, [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) uygulayabilir ve Excel'in PDF veya görüntüye render edilirken [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) yöntemini ve [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) ve **Bound**'u alabilir. Aşağıda, [**draw()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) yönteminin parametrelerine kısa bir açıklaması bulunmaktadır.
 
--  nesne çizmek:[**Nesne Çiz**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)oluşturulurken başlatılacak ve iade edilecektir
+- drawObject: Render edilirken başlatılacak ve döndürülecek [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-- x: Solu[**Nesne Çiz**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- x: [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)'nın solu
 
-- y: Üstü[**Nesne Çiz**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- y: [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)'nın üstü
 
-- genişlik: genişliği[**Nesne Çiz**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- width:[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)'nın genişliği
 
-- yükseklik: Yükseklik[**Nesne Çiz**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
+- height: [**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)'nın yüksekliği
 
-Excel dosyasını PDF'e dönüştürüyorsanız, kullanabilirsiniz[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)ile sınıf[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler). Benzer şekilde, Excel dosyasını Görüntüye dönüştürüyorsanız, kullanabilirsiniz.[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)ile sınıf[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DrawObjectEventHandler).
+Eğer Excel dosyanızı PDF'ye render ediyorsanız, [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) sınıfını [**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler) ile kullanabilirsiniz. Benzer şekilde, Excel dosyanızı Görüntü'ye render ediyorsanız, [**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) sınıfını [**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler) ile kullanabilirsiniz.
 
-## **DrawObjectEventHandler sınıfını kullanarak PDF'ye işlerken DrawObject ve Bound'u alın**
+## **DrawObjectEventHandler sınıfını kullanarak PDF'ye render ederken DrawObject ve Bound almak**
 
-Lütfen aşağıdaki örnek koda bakın. o yükler[örnek excel dosyası](64716843.xlsx)olarak kaydeder ve[çıkış PDF](64716842.pdf). PDF'e işlerken şunu kullanır:[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler)mülkiyet ve yakalar[**Nesne Çiz**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) ve**Ciltli**varolan hücrelerin ve nesnelerin, örneğin resimler vb. DrawObject türü Cell ise, Bound ve StringValue değerlerini yazdırır. DrawObject türü Image ise Bound ve Shape Name'i yazdırır. Lütfen daha fazla yardım için aşağıda verilen örnek kodun konsol çıktısına bakın.
+Lütfen aşağıdaki örnek kodu inceleyin. Bu, [örnek Excel dosyasını](64716843.xlsx) yükler ve bu dosyayı [çıktı PDF'si](64716842.pdf) olarak kaydeder. PDF'ye render edilirken, [**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler) özelliğini kullanır ve mevcut hücrelerin ve nesnelerin (örneğin resimler vb.) **Bound**'unu ve **Bound**'unu yakalar. drawObject türü Cell ise, Bound'unu ve StringValue'sunu yazdırır. Ve eğer drawObject türü Image ise, Bound'unu ve Şekil Adını yazdırır. Yardım için lütfen aşağıdaki örnek kodun konsol çıktısına bakın.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-GetDrawObjectAndBoundUsingDrawObjectEventHandler.java" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 [X]: 153.60349 [Y]: 82.94118 [Width]: 103.203476 [Height]: 14.470589 [Cell Value]: This is sample text.
 

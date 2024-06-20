@@ -1,27 +1,28 @@
-﻿---
-title: Tabelleneditor - Arbeiten mit Dateien
+---
+title: Tabellenkalkulations Editor – Arbeiten mit Dateien
 type: docs
 weight: 10
 url: /de/java/spreadsheet-editor-working-with-files/
 ---
+
 **Inhaltsverzeichnis**
 
 - [Unterstützte Dateien](#SpreadsheetEditor-WorkingwithFiles-SupportedFiles)
-- [Lokale Dateien öffnen](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
+- [Öffnen Sie lokale Dateien](#SpreadsheetEditor-WorkingwithFiles-OpenLocalFiles) 
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
 - [Aus Dropbox öffnen](#SpreadsheetEditor-WorkingwithFiles-OpenfromDropbox)
 - [Von URL öffnen](#SpreadsheetEditor-WorkingwithFiles-OpenfromURL) 
- - LoaderService.fromUrl
- - LoaderService.buildCellsCache
- - LoaderService.buildColumnWidthCache
- - LoaderService.buildRowHeightCache
-- [Erstellen Sie eine neue Tabelle](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
- - LoaderService.fromBlank
- - buildCellsCache
- - buildColumnWidthCache
- - buildRowHeightCache
-- [Export in verschiedene Formate](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
+  - LoaderService.fromUrl
+  - LoaderService.buildCellsCache
+  - LoaderService.buildColumnWidthCache
+  - LoaderService.buildRowHeightCache
+- [Neue Tabelle erstellen](#SpreadsheetEditor-WorkingwithFiles-CreateaNewSpreadsheet) 
+  - LoaderService.fromBlank
+  - buildCellsCache
+  - buildColumnWidthCache
+  - buildRowHeightCache
+- [Exportieren in verschiedene Formate](#SpreadsheetEditor-WorkingwithFiles-ExporttoVariousFormats)
 ### **Unterstützte Dateien**
 Der HTML5-Tabellen-Editor kann Dateien in den folgenden Formaten öffnen:
 
@@ -31,44 +32,44 @@ Der HTML5-Tabellen-Editor kann Dateien in den folgenden Formaten öffnen:
 - XLSB
 - XLTX
 - SpreadsheetML
-- Lebenslauf
+- CVS
 - OpenDocument
-### **Lokale Dateien öffnen**
-So laden Sie eine Datei vom lokalen Computer hoch:
+### **Öffnen Sie lokale Dateien**
+Um eine Datei vom lokalen Computer hochzuladen:
 
-1.  Wechseln zu**Registerkarte Datei** oben drauf.
-1.  Klicken**Vom Computer öffnen** , um das Dialogfeld „Durchsuchen“ zu öffnen.
-1. Gehen Sie zum gewünschten Speicherort der Datei.
+1. Wechseln Sie zum **Datei-Tab** oben.
+1. Klicken Sie auf **Von Computer öffnen**, um den Dialog zum Durchsuchen zu öffnen.
+1. Gehen Sie zu Ihrem gewünschten Speicherort der Datei.
 1. Klicken Sie auf die gewünschte Datei, um sie auszuwählen.
-1.  Klicken**Offen**.
+1. Klicken Sie auf **Öffnen**.
 
 Die Datei wird im Editor geöffnet.
 
-![todo: Bild_alt_Text](bwyl3xi.png)
+![todo:image_alt_text](bwyl3xi.png)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
 **Datei-Upload**
 
- Der Benutzer wählt eine Datei vom lokalen Computer aus, die vom Webbrowser auf den Server hochgeladen und empfangen wird[PrimeFaces-DateiUpload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) Komponente.
+Der Benutzer wählt eine Datei vom lokalen Computer aus, die vom Webbrowser auf den Server hochgeladen und vom [PrimeFaces-Datei-Upload](https://www.primefaces.org/showcase/ui/file/upload/basic.xhtml) Komponent empfangen wird.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <p:fileUpload fileUploadListener="#\{workbook.onFileUpload\}" update=":ribbon :intro :sheet" />
 
 {{< /highlight >}}
 
-**Arbeitsbuch verwalten**
+**Arbeitsmappe verwalten**
 
- Sobald die Datei vollständig hochgeladen ist, tritt die WorkbookService.onFileUpload-Methode in Aktion, um die Situation zu behandeln. WorkbookService empfängt Ereignisse vom Webbrowser und verfolgt den Status der gesamten Arbeitsmappe. WorkbookService.onFileUpload übergibt die Steuerung an LoaderService, um die Arbeitsmappe in den Arbeitsspeicher zu laden. Als die***Datei-Upload*** Komponente stellt die hochgeladene Datei als[Eingabestrom](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html), der LoaderService lädt es mit der Methode LoaderService.fromInputStream.
-
-
+Sobald die Datei vollständig hochgeladen ist, wird die WorkbookService.onFileUpload-Methode aktiviert, um die Situation zu behandeln. Der WorkbookService erhält Ereignisse vom Webbrowser und behält den Zustand der gesamten Arbeitsmappe im Auge. Der WorkbookService.onFileUpload übergibt die Kontrolle an den LoaderService, um die Arbeitsmappe in den Speicher zu laden. Da die ***fileUpload*** Komponente die hochgeladene Datei als [InputStream](https://docs.oracle.com/javase/8/docs/api/index.html?java/io/InputStream.html) bereitstellt, lädt der LoaderService sie mithilfe der Methode LoaderService.fromInputStream.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
  public void onFileUpload(FileUploadEvent e) {
 
@@ -86,7 +87,7 @@ Die Datei wird im Editor geöffnet.
 
 **Laden und Entladen**
 
- Die Methode***LoaderService.fromInputStream*** liest die***Eingabestrom*** bereitgestellt von fileUpload***Komponente*** Instanz erstellen von***com.aspose.cells.Workbook***Klasse. Diese Instanz wird gespeichert, solange der Benutzer die Tabelle im Webbrowser anzeigt oder bearbeitet. Wenn der Benutzer den Editor verlässt oder den Browser schließt, werden die nicht verwendeten Instanzen automatisch aus dem Speicher entfernt, um den Server sauber zu halten.
+Die Methode ***LoaderService.fromInputStream*** liest den ***InputStream***, den die fileUpload ***Komponente*** bereitstellt, erstellt eine Instanz der ***com.aspose.cells.Workbook*** Klasse. Diese Instanz wird im Speicher behalten, solange der Benutzer die Tabelle im Webbrowser ansieht oder bearbeitet. Wenn der Benutzer den Editor verlässt oder den Browser schließt, werden die unbenutzten Instanzen automatisch aus dem Speicher entfernt, um den Server sauber zu halten.
 
 
 
@@ -94,7 +95,7 @@ Die Datei wird im Editor geöffnet.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  public String fromInputStream(InputStream s, String name) {
 
@@ -132,17 +133,17 @@ Die Datei wird im Editor geöffnet.
 
 
 
-**Caching**
+**Zwischenspeicherung**
 
-Caching ist für den HTML5-Tabellen-Editor sehr wichtig. Damit funktioniert alles reibungslos. Der CellsService speichert Zeilen, Spalten, Zellen und Eigenschaften aller vom Editor geladenen Arbeitsmappen im Cache. Wenn LoaderService eine Tabelle vollständig lädt, liest es sie von oben nach unten und füllt den Cache durch Aufrufen von LoaderService.buildCellsCache, LoaderService.buildColumnWidthCache, LoaderService.buildRowHeightCache
-
-
+Caching ist für den HTML5-Tabellenkalkulationseditor sehr wichtig. Es sorgt für reibungslosen Ablauf. Der CellsService speichert Zwischenspeicherzeilen, -spalten, -zellen und -eigenschaften aller Arbeitsmappen, die vom Editor geladen wurden. Wenn der LoaderService eine Tabelle vollständig lädt, liest er sie von oben nach unten und füllt den Cache, indem er LoaderService.buildCellsCache, LoaderService.buildColumnWidthCache, LoaderService.buildRowHeightCache aufruft.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -210,7 +211,7 @@ Caching ist für den HTML5-Tabellen-Editor sehr wichtig. Damit funktioniert alle
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -236,7 +237,7 @@ Caching ist für den HTML5-Tabellen-Editor sehr wichtig. Damit funktioniert alle
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -264,53 +265,53 @@ Caching ist für den HTML5-Tabellen-Editor sehr wichtig. Damit funktioniert alle
 
 
 ### **Aus Dropbox öffnen**
-So öffnen Sie Dateien aus Dropbox:
+Um Dateien von Dropbox zu öffnen:
 
-1.  Wechseln zu**Registerkarte Datei** oben drauf.
-1.  Klicken**Aus Dropbox öffnen** um die Dropbox-Dateiauswahl zu öffnen.
-1. Wenn Sie noch nicht angemeldet sind, müssen Sie sich bei Ihrem Dropbox-Konto anmelden.
+1. Wechseln Sie zum **Datei-Tab** oben.
+1. Klicken Sie auf **Von Dropbox öffnen**, um den Dateiauswähler von Dropbox zu öffnen.
+1. Falls Sie nicht bereits angemeldet sind, müssen Sie sich in Ihrem Dropbox-Konto anmelden.
 1. Navigieren Sie zur gewünschten Datei und klicken Sie darauf, um sie auszuwählen.
-1.  Klicken**Wählen** unten.
+1. Klicken Sie unten auf **Auswählen**.
 
-Ihre ausgewählte Datei wird von Dropbox geöffnet.
+Die ausgewählte Datei wird von Dropbox geöffnet.
 
-![todo: Bild_alt_Text](1e2sfo0.png)
+![todo:image_alt_text](1e2sfo0.png)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Das**Aus Dropbox öffnen** Schaltfläche verwendet**Dropbox-JavaScript-Auswahl API** , um das Dropbox-Auswahldialogfeld zu öffnen. Die Auswahl stellt die URL der ausgewählten Datei bereit, die von der Rückruffunktion erfasst und an den Server zurückgesendet wird. Der Server erstellt eine Instanz der Tabelle aus der URL, initialisiert einige Verwaltungsaufgaben und sendet DOM-Aktualisierungen an den Browser zurück. Der Browser rendert und aktualisiert HTML und der Benutzer ist bereit, das geladene Dokument zu bearbeiten.
+Der **Von Dropbox öffnen**-Button verwendet die **Dropbox JavaScript Chooser API**, um den Dropbox-Auswählerdialog zu öffnen. Der Auswähler stellt die URL der ausgewählten Datei bereit, die von der Callback-Funktion erfasst und an den Server gesendet wird. Der Server erstellt eine Instanz der Tabelle aus der URL, initialisiert einige Verwaltungsaufgaben und sendet DOM-Updates zurück an den Browser. Der Browser rendert und aktualisiert das HTML, und der Benutzer kann das geladene Dokument bearbeiten.
 ### **Von URL öffnen**
- Dateien können direkt aus URLs geöffnet werden. Dadurch kann der Benutzer jede öffentlich verfügbare Datei im Internet bearbeiten. Zum Öffnen der Datei anhängen**?url=Standort** Parameter mit dem gewünschten Wert**Lage** beim Laden des Editors. Zum Beispiel:
+Dateien können direkt von URLs geöffnet werden. Dies ermöglicht es dem Benutzer, jede öffentlich verfügbare Datei im Internet zu bearbeiten. Um die Datei zu öffnen, fügen Sie beim Laden des Editors den Parameter **?url=Standort** mit dem Wert Ihres gewünschten **Standorts** hinzu. Zum Beispiel:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  http://editor.aspose.com/?url=http://example.com/Sample.xlsx
 
 {{< /highlight >}}
 
-![todo: Bild_alt_Text](exc9ckp.png)
+![todo:image_alt_text](exc9ckp.png)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
-**Instanziieren Sie während des Starts**
+**Beim Start instanziieren**
 
- Wann**Arbeitsblattansicht** Backend-Bean wird von JSF instanziiert**PostKonstrukt** Methode**drin** aufgerufen, die die Tabelle mit LoaderService.fromUrl lädt.
+Wenn das Backend-Bean **WorksheetView** von JSF instanziiert wird, wird die Methode **init** von **PostConstruct** aufgerufen, um die Tabelle mithilfe von LoaderService.fromUrl zu laden.
 
-**Caching**
+**Zwischenspeicherung**
 
- Das Caching erfolgt direkt nach dem Laden der Tabelle. Das**LoaderService** Anrufe**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** und**LoaderService.buildRowHeightCache** eins nach dem anderen, um den Inhalt der Tabelle zwischenzuspeichern und alle Vorgänge schnell und reibungslos zu halten.
+Das Caching erfolgt direkt nachdem die Tabelle geladen ist. Der **LoaderService** ruft nacheinander **LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** und **LoaderService.buildRowHeightCache** auf, um den Inhalt der Tabelle zu zwischenspeichern und alle Operationen schnell und reibungslos zu halten.
 
-**DOM-Updates**
+**DOM-Aktualisierungen**
 
-Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um neue HTML zu generieren und DOM-Aktualisierungen an den Benutzer zu senden, die vom Webbrowser gerendert werden.
-
-
+Wenn die Tabelle auf der Serverseite bereit ist, werden JSF-Komponenten verwendet, um ein neues HTML zu generieren und DOM-Aktualisierungen an den Benutzer zu senden, die vom Webbrowser gerendert werden.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      @PostConstruct
 
@@ -342,7 +343,7 @@ Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um n
 
 
 #### **LoaderService.fromUrl**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromUrl(String url) {
 
@@ -378,7 +379,7 @@ Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um n
 
 
 #### **LoaderService.buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -446,7 +447,7 @@ Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um n
 
 
 #### **LoaderService.buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -472,7 +473,7 @@ Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um n
 
 
 #### **LoaderService.buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -499,37 +500,37 @@ Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um n
 
 
 
-### **Erstellen Sie eine neue Tabelle**
-So erstellen Sie eine neue leere Tabelle:
+### **Neue Tabelle erstellen**
+Um eine neue leere Tabelle zu erstellen:
 
-1.  Wechseln zu**Registerkarte Datei**.
-1.  Drücke den**Neu** Knopf.
+1. Wechseln Sie zum **Datei-Tab**.
+1. Klicken Sie auf die Schaltfläche **Neu**.
 
-Der Editor schließt die geöffnete Tabelle, falls vorhanden, und öffnet eine neue.
+Der Editor wird die geöffnete Tabelle schließen, falls vorhanden, und eine neue öffnen.
 
-![todo: Bild_alt_Text](lnydmmf.png)
+![todo:image_alt_text](lnydmmf.png)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
 **Instanziieren Sie ein neues Objekt**
 
- Wenn die**Neu** Schaltfläche wird vom Benutzer angeklickt,**WorksheetView.loadBlank** , die schließlich anruft**LoaderService.fromBlank**. LoaderService erstellt eine neue Instanz einer leeren Tabelle.
+Wenn der Benutzer auf die Schaltfläche **Neu** klickt, wird **WorksheetView.loadBlank** aufgerufen, was letztendlich **LoaderService.fromBlank** aufruft. LoaderService erstellt eine neue Instanz einer leeren Tabelle.
 
-**Caching**
+**Zwischenspeicherung**
 
- Das Caching erfolgt direkt nach dem Laden der Tabelle. Das**LoaderService** Anrufe**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** und**LoaderService.buildRowHeightCache** eins nach dem anderen, um den Inhalt der Tabelle zwischenzuspeichern und alle Vorgänge schnell und reibungslos zu halten.
+Das Caching erfolgt direkt nachdem die Tabelle geladen ist. Der **LoaderService** ruft nacheinander **LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** und **LoaderService.buildRowHeightCache** auf, um den Inhalt der Tabelle zu zwischenspeichern und alle Operationen schnell und reibungslos zu halten.
 
-**DOM-Updates**
+**DOM-Aktualisierungen**
 
-Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um neue HTML zu generieren und DOM-Aktualisierungen an den Benutzer zu senden, die vom Webbrowser gerendert werden.
-
-
+Wenn die Tabelle auf der Serverseite bereit ist, werden JSF-Komponenten verwendet, um ein neues HTML zu generieren und DOM-Aktualisierungen an den Benutzer zu senden, die vom Webbrowser gerendert werden.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public void loadBlank() {
 
@@ -543,7 +544,7 @@ Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um n
 
 
 #### **LoaderService.fromBlank**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public String fromBlank() {
 
@@ -569,7 +570,7 @@ Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um n
 
 
 #### **buildCellsCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildCellsCache(String key) {
 
@@ -637,7 +638,7 @@ Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um n
 
 
 #### **buildColumnWidthCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildColumnWidthCache(String key) {
 
@@ -663,7 +664,7 @@ Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um n
 
 
 #### **buildRowHeightCache**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void buildRowHeightCache(String key) {
 
@@ -690,14 +691,14 @@ Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um n
 
 
 
-### **Export in verschiedene Formate**
-Nach dem Bearbeiten von Dateien möchte der Benutzer die Änderungen speichern. Der Editor ermöglicht es dem Benutzer, die modifizierte Tabelle zu exportieren und auf den lokalen Computer herunterzuladen. So exportieren Sie die Datei:
+### **Exportieren in verschiedene Formate**
+Nachdem Dateien bearbeitet wurden, möchte der Benutzer die Änderungen speichern. Der Editor ermöglicht es dem Benutzer, die modifizierte Tabelle zu exportieren und auf seinen lokalen Computer herunterzuladen. Um die Datei zu exportieren:
 
-1.  Wechseln zu**Registerkarte Datei** oben drauf.
-1.  Klicken**Export** als Knopf.
+1. Wechseln Sie zum **Datei-Tab** oben.
+1. Klicken Sie auf **Export** als Schaltfläche.
 1. Wählen Sie Ihr gewünschtes Format aus der Dropdown-Liste.
 
-Die geänderte Datei wird zum Download exportiert. Die folgenden Formate werden für den Export unterstützt:
+Die modifizierte Datei wird zum Download exportiert. Folgende Formate werden für den Export unterstützt:
 
 - Excel 2007-2013 XLSX
 - Excel 1997-2003 XLS
@@ -706,20 +707,20 @@ Die geänderte Datei wird zum Download exportiert. Die folgenden Formate werden 
 - Excel XLTX
 - Excel XLTM
 - SpreadsheetML
-- Portables Dokumentenformat (PDF)
-- OpenDocument-Tabelle (ODS)
+- Portable Document Format (PDF)
+- OpenDocument-Tabellenkalkulation (ODS)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Die geöffnete Tabelle wird mit in ein benutzerdefiniertes Format konvertiert**WorksheetView.getOutputFile**.
-
-
+Die geöffnete Tabelle wird in das vom Benutzer angegebene Format über **WorksheetView.getOutputFile** konvertiert.
 
 
 
 
 
-{{< highlight "java" >}}
+
+
+{{< highlight java >}}
 
      public StreamedContent getOutputFile(int saveFormat) {
 

@@ -1,18 +1,19 @@
-﻿---
-title: Остановите преобразование или загрузку с помощью InterruptMonitor, если это занимает слишком много времени
+---
+title: Прекратите преобразование или загрузку с использованием объекта InterruptMonitor, если это занимает слишком много времени
 type: docs
 weight: 100
 url: /ru/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/
 ---
+
 ## **Возможные сценарии использования**
 
-Aspose.Cells позволяет остановить преобразование рабочей книги в различные форматы, такие как PDF, HTML и т. д., с помощью[**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) объект, когда это занимает слишком много времени. Процесс преобразования часто интенсивно использует как ЦП, так и память, и часто бывает полезно остановить его, когда ресурсы ограничены. Ты можешь использовать[**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor)как для остановки преобразования, так и для остановки загрузки огромной книги. Пожалуйста, используйте[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/interruptmonitor) свойство для остановки преобразования и[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/interruptmonitor) свойство для загрузки огромной книги.
+Aspose.Cells позволяет остановить преобразование рабочей книги в различные форматы, такие как PDF, HTML и т. д., используя объект [**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor), когда оно занимает слишком много времени. Процесс преобразования часто интенсивно использует ресурсы ЦП и памяти, поэтому полезно останавливать его, когда ресурсы ограничены. Вы можете использовать [**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) как для остановки преобразования, так и для остановки загрузки большой рабочей книги. Пожалуйста, используйте свойство [**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/interruptmonitor) для остановки преобразования и свойство [**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/interruptmonitor) для загрузки большой рабочей книги.
 
-## **Остановите преобразование или загрузку с помощью InterruptMonitor, если это занимает слишком много времени**
+## **Прекратите преобразование или загрузку с использованием объекта InterruptMonitor, если это занимает слишком много времени**
 
-В следующем примере кода объясняется использование[**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) объект. Код преобразует довольно большой файл Excel в PDF. Это займет несколько секунд (т.е.*более 30 секунд*), чтобы преобразовать его из-за этих строк кода.
+В следующем образце кода объясняется использование объекта [**InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor). Код преобразует довольно большой файл Excel в PDF. Это займет несколько секунд (т.е. *более 30 секунд*) для преобразования из-за этих строк кода.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Access cell J1000000 and add some text inside it.
 
@@ -22,9 +23,9 @@ cell.PutValue("This is text.");
 
 {{< /highlight >}}
 
- Как вы видите**J1000000** это довольно дальняя ячейка в файле XLSX. Однако**Ждать для пока и потом прерывать ()**метод прерывает преобразование через 10 секунд, и программа завершается/завершается. Пожалуйста, используйте следующий код для выполнения примера кода.
+Как видите, **J1000000** находится довольно далеко от ячейки в файле XLSX. Однако метод **WaitForWhileAndThenInterrupt()** прерывает преобразование после 10 секунд, и программа завершается. Пожалуйста, используйте следующий код для выполнения образца кода.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  new StopConversionOrLoadingUsingInterruptMonitor().TestRun();
 

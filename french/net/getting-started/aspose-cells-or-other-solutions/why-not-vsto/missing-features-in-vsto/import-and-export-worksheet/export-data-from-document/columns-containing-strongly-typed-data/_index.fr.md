@@ -1,17 +1,18 @@
-﻿---
+---
 title: Colonnes contenant des données fortement typées
 type: docs
 weight: 20
 url: /fr/net/columns-containing-strongly-typed-data/
 ---
-Nous savons qu'une feuille de calcul stocke les données sous la forme d'une séquence de lignes et de colonnes. Si toutes les valeurs des colonnes d'une feuille de calcul sont fortement typées (cela signifie que toutes les valeurs d'une colonne doivent avoir le même type de données), nous pouvons exporter le contenu de la feuille de calcul en appelant le**ExporterTableDeDonnées** méthode de la classe Cells.**ExporterTableDeDonnées** prend les paramètres suivants pour exporter les données de la feuille de calcul en tant que**Tableau de données** objet:**Numéro de ligne** , représente le numéro de ligne de la première cellule à partir de laquelle les données seront exportées
+
+Nous savons qu'une feuille de calcul stocke des données sous forme de séquence de lignes et de colonnes. Si toutes les valeurs des colonnes d'une feuille de calcul sont fortement typées (ce qui signifie que toutes les valeurs d'une colonne doivent avoir le même type de données), alors nous pouvons exporter le contenu de la feuille de calcul en appelant la méthode **ExportDataTable** de la classe Cells. La méthode **ExportDataTable** prend les paramètres suivants pour exporter les données de la feuille de calcul sous forme d'objet **DataTable** : **Numéro de ligne** , représente le numéro de ligne de la première cellule à partir de laquelle les données seront exportées
 
 - **Numéro de colonne** , représente le numéro de colonne de la première cellule à partir de laquelle les données seront exportées
-- **Nombre de rangées** , représente le nombre de lignes à exporter
-- **Le nombre de colonnes** représente le nombre de colonnes à exporter
-- **Exporter les noms de colonne** , une propriété booléenne qui indique si les données de la première ligne de la feuille de calcul doivent être exportées en tant que noms de colonne du DataTable ou non
+- **Nombre de lignes** , représente le nombre de lignes à exporter
+- **Nombre de colonnes** , représente le nombre de colonnes à exporter
+- **Export des noms de colonnes** , une propriété booléenne qui indique si les données de la première ligne de la feuille de calcul doivent être exportées en tant que noms de colonnes du DataTable ou non
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 

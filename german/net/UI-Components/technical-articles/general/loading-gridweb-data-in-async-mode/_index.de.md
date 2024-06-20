@@ -1,18 +1,21 @@
-﻿---
-title: Laden von GridWeb-Daten im Async-Modus
+---
+title: Laden von GridWeb Daten im asynchronen Modus
 type: docs
 weight: 40
-url: /de/net/loading-gridweb-data-in-async-mode/
+url: /de/net/aspose-cells-gridweb/loading-data-in-async-mode/
+description: Dieser Artikel beschreibt, wie man den asynchronen Modus verwendet, um eine bessere Leistung in GridWeb zu erzielen.
+keywords: GridWeb, Leistung, asynchron, asynchroner Modus
 ---
+
 {{% alert color="primary" %}} 
 
-Wenn Sie eine Arbeitsmappe mit großen Datensätzen erstellen oder eine große Microsoft-Excel-Datei lesen, wird dies sicherlich mehr Zeit und Ressourcen in Anspruch nehmen. Der Gesamtspeicher, den der Prozess benötigt, ist immer ein Problem. Es gibt Maßnahmen, die zur Bewältigung der Herausforderung ergriffen werden können. Aspose.Cells.GridWeb bietet einige relevante Optionen und APIs zum Senken, Reduzieren und Optimieren der Speichernutzung. Außerdem kann es dazu beitragen, dass der Prozess effizienter arbeitet und schneller abläuft. Für ein Arbeitsblatt, das Daten aus großen Zellen enthält, können Sie das Dataset asynchron laden, was die Gesamtleistung für die Benutzererfahrung verbessern kann.
+Beim Erstellen eines Arbeitsblatts mit großen Datensätzen oder beim Lesen einer großen Microsoft Excel-Datei dauert es sicherlich länger und benötigt mehr Ressourcen. Der Gesamtspeicherbedarf des Prozesses ist immer von Bedenken. Es gibt Maßnahmen, die zur Bewältigung dieser Herausforderung ergriffen werden können. Aspose.Cells.GridWeb bietet einige relevante Optionen und APIs zur Senkung, Reduzierung und Optimierung des Speicherverbrauchs. Außerdem kann es dazu beitragen, dass der Prozess effizienter arbeitet und schneller läuft. Für ein Arbeitsblatt, das große Zelldatensätze enthält, können Sie den Datensatz asynchron laden, was die Gesamtleistung der Benutzererfahrung verbessern kann.
 
 {{% /alert %}} 
 
-Verwenden Sie die GridWeb.EnableAsync-Option, um Speicher und Leistung für Zellendaten zu optimieren. Beim Erstellen eines großen Datensatzes für Zellen. Wenn Sie die Option auf „true“ setzen, basiert das Laden der Daten nur auf dem aktuell sichtbaren Windows-Bereich. Kurz gesagt, wenn Sie in den Zellendaten des Arbeitsblatts in GridWeb scrollen, werden neue Windows-Daten nur basierend auf der aktuellen Scrollposition geladen.
+Verwenden Sie die Option GridWeb.EnableAsync, um Speicher und Leistung für Zelldaten zu optimieren. Beim Erstellen eines großen Datensatzes für Zellen. Wenn Sie die Option auf true setzen, wird das Laden der Daten nur auf dem aktuellen sichtbaren Fensterbereich basieren. Kurz gesagt, wenn Sie im Zelldatensatz des Arbeitsblatts in GridWeb scrollen, werden neue Fensterdaten basierend auf der aktuellen Scrollposition geladen.
 
-Das folgende Beispiel zeigt, wie der asynchrone Modus von GridWeb aktiviert wird.
+Das folgende Beispiel zeigt, wie der Async-Modus von GridWeb aktiviert wird.
 
 
 

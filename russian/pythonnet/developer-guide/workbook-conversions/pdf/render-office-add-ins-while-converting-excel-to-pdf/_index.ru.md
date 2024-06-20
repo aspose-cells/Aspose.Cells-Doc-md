@@ -1,19 +1,20 @@
 ---
-title: Отображение надстроек Office при преобразовании Excel в PDF
+title: Рендеринг офисных надстроек при преобразовании Excel в PDF
 type: docs
 weight: 100
 url: /ru/python-net/render-office-add-ins-while-converting-excel-to-pdf/
-description: Узнайте, как визуализировать надстройки Office при преобразовании Excel в PDF с помощью Aspose.Cells for Python via .NET API.
-keywords: Python Print Office Add-Ins while saving file to PDF, Print Office Add-Ins while saving Excel to PDF using Python, Python Export Office Add-Ins when converting Excel to PDF, Output Office Add-Ins for Excel to PDF in python, Render Office Add-Ins while saving excel to PDF
+description: Узнайте, как отображать офисные надстроки при преобразовании Excel в PDF с помощью Aspose.Cells для Python via .NET API.
+keywords: Вывод офисных надстроек при сохранении файла в PDF с помощью Python, Вывод офисных надстроек при сохранении Excel в PDF с помощью Python, Экспорт офисных надстроек при преобразовании Excel в PDF с помощью Python, Вывод офисных надстроек для Excel в PDF в Python, Отображение офисных надстроек при сохранении Excel в PDF
 ---
-##  **Возможные сценарии использования**
 
-Ранее Aspose.Cells for Python via .NET не мог отображать надстройки Office, когда файл Excel был сохранен в формате PDF. Теперь Aspose.Cells for Python via .NET отображает это нормально. Вам не нужно использовать какой-либо специальный метод или свойство для отображения надстроек Office в выходном номере PDF. Просто сохраните файл Excel в формате PDF, и он отобразит надстройки Office.
+## **Возможные сценарии использования**
 
-##  **Отображение надстроек Office при преобразовании Excel в PDF**
+Ранее, Aspose.Cells для Python via .NET не мог отображать офисные надстройки при сохранении файла Excel в формат PDF. Теперь Aspose.Cells для Python via .NET отображает их корректно. Вам не нужно использовать какие-либо специальные методы или свойства для отображения офисных надстроек в выходном PDF. Просто сохраните свой файл Excel в формате PDF, и офисные надстройки будут отображены.
 
- Следующий пример кода сохраняет[образец файла Excel](60489769.xlsx) который содержит надстройки Office. Пожалуйста, ознакомьтесь с[вывод PDF, сгенерированный с помощью предыдущей версии, т.е. 17.11.](60489770.pdf) и[вывод PDF сгенерирован для более новой версии, т.е. 17.12 и более поздних версий.](60489771.pdf). Выходные данные предыдущей версии PDF пусты, но выходные данные более новой версии PDF показывают надстройку Office.
+## **Рендеринг офисных надстроек при преобразовании Excel в PDF**
 
-##  **Образец кода**
+Следующий пример кода сохраняет [образец файла Excel](60489769.xlsx), который содержит дополнения Office. Пожалуйста, ознакомьтесь с [выходным PDF, созданным с предыдущей версией, т. е. 17.11](60489770.pdf) и [выходным PDF, созданным с более новой версией, т. е. 17.12 и выше](60489771.pdf). PDF на выходе в предыдущей версии пуст, но PDF на выходе в новой версии показывает дополнение Office.
+
+## **Образец кода**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-RenderOfficeAdd_InsWhileConvertingExcelToPdf.py" >}}

@@ -1,30 +1,31 @@
-﻿---
-title: توصيف Aspose.Cells.ReportingServices Client Report Server URL
+---
+title: تكوين مسار عميل Aspose.Cells.ReportingServices لخادم التقارير
 type: docs
 weight: 40
 url: /ar/reportingservices/configuring-aspose-cells-reportingservices-client-report-server-url/
 ---
-لتكوين عنوان URL لخادم التقارير الخاص بالعميل:
 
-1.  انقر على**فتح تقرير عن بعد** الزر والحصول على**استرجاع التقرير** صندوق المحادثة.
+لتكوين مسار خادم تقارير عميل:
 
-![ما يجب القيام به: image_بديل_نص](configuring-aspose-cells-reportingservices-client-report-server-url_1.png)
+1. انقر على الزر **فتح تقرير عن بعد** واحصل على صندوق حوار **استرداد التقرير**. 
 
-1.  انقر على**التكوين** زر والحصول على**إعداد عنوان URL لخادم التقرير** الحوار.
+![todo:image_alt_text](configuring-aspose-cells-reportingservices-client-report-server-url_1.png)
 
-![ما يجب القيام به: image_بديل_نص](configuring-aspose-cells-reportingservices-client-report-server-url_2.png)
+1. انقر فوق الزر **تكوين** واحصل على مربع حوار **إعداد مسار خادم التقرير الخاص**. 
 
-1. معلومات تكوين خادم تقرير الإدخال (URL واسم المستخدم وكلمة المرور).
- 1. يجب أن يكون عنوان URL لخادم التقارير بالتنسيق http: // host / ReportServer. على سبيل المثال http://172.16.204.11/ReportServer.
-1. اسم المستخدم هو اسم مستخدم Window Server. على سبيل المثال ، المسؤول.
- 1. كلمة المرور هي كلمة مرور مستخدم Window Server. على سبيل المثال ، 123456.
- 1. القيمة الافتراضية للمجال خالية.
-1.  انقر على**امتحان** زر للتحقق من معلومات التكوين.
-1.  انقر**يحفظ** وحفظ معلومات تكوين خادم التقرير.
+![todo:image_alt_text](configuring-aspose-cells-reportingservices-client-report-server-url_2.png)
 
-![ما يجب القيام به: image_بديل_نص](configuring-aspose-cells-reportingservices-client-report-server-url_3.png)
+1. أدخل معلومات تكوين خادم التقارير (الرابط، اسم المستخدم وكلمة المرور).
+   1. يجب أن يكون مسار خادم التقارير في التنسيق http://host/ReportServer. على سبيل المثال http://172.16.204.11/ReportServer.
+   1. اسم المستخدم هو اسم مستخدم خادم النافذة. على سبيل المثال، المسؤول.
+   1. كلمة المرور هي كلمة مرور مستخدم خادم النافذة. على سبيل المثال، 123456.
+   1. القيمة الافتراضية للنطاق (Domain) هي القيمة الخالية (null).
+1. انقر على الزر **اختبار** للتحقق من معلومات التكوين.
+1. انقر على **حفظ** واحفظ معلومات تكوين خادم التقارير.
+
+![todo:image_alt_text](configuring-aspose-cells-reportingservices-client-report-server-url_3.png)
 
 
 
 
-1.  انقر**يُعدِّل** زر لتعديل معلومات التكوين.
+1. انقر فوق زر **تعديل** لتعديل معلومات التكوين.

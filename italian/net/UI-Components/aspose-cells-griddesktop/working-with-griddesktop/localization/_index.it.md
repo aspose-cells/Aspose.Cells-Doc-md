@@ -2,20 +2,22 @@
 title: localizzazione personalizzata
 type: docs
 weight: 40
-url: /it/net/griddesktop-localization/
-keywords: custom,localization,translation,globalization
+url: /it/net/aspose-cells-griddesktop/griddesktop-localization/
+keywords: GridDesktop, personalizzato, localizzazione, traduzione, globalizzazione
+description: Questo articolo illustra come personalizzare la localizzazione in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Se dobbiamo localizzare tutti i menu/suggerimenti sui messaggi ecc. in GridDesktop, possiamo definire il file di risorse e utilizzare GridDesktop.SetCustomResourceManager per caricare questa risorsa.
+Se abbiamo bisogno di localizzare tutti i menu/suggerimenti dei messaggi etc. in GridDesktop, possiamo definire il file di risorse e utilizzare GridDesktop.SetCustomResourceManager per caricare questa risorsa.
 
 {{% /alert %}} 
-##  **esempio**
+## **esempio**
 
-aggiungere prima un nuovo file di risorse: customtest.resx
+aggiungi prima un nuovo file di risorse: customtest.resx
 
 
-![risorsa-personalizzata](managing-griddesktops-custom-res.png)
+![custom-resource](managing-griddesktops-custom-res.png)
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-customtest.Designer.cs" >}}
 
@@ -27,7 +29,7 @@ aggiungere prima un nuovo file di risorse: customtest.resx
    gridDesktop1.SetCustomResourceManager(rm);
 ```
 
-Dopo aver eseguito il codice precedente, le voci di menu mostrano:
+Dopo aver eseguito il codice precedente, gli elementi di menu mostrano:
 
-![mostra il menu](managing-griddesktops-show-custom.png)
- 
+![show menu](managing-griddesktops-show-custom.png)
+

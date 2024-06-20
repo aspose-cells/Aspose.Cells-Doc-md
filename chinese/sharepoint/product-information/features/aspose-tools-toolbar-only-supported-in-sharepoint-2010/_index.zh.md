@@ -1,5 +1,5 @@
 ---
-title: Aspose工具工具栏- 仅支持SharePoint 2010
+title: Aspose工具工具栏 仅支持SharePoint 2010
 type: docs
 weight: 50
 url: /zh/sharepoint/aspose-tools-toolbar-only-supported-in-sharepoint-2010/

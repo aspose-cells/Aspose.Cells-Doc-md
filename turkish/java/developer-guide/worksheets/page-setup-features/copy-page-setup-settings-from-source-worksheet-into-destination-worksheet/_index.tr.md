@@ -1,24 +1,25 @@
-﻿---
-title: Sayfa Yapısı Ayarlarını Kaynak Çalışma Sayfasından Hedef Çalışma Sayfasına Kopyalayın
+---
+title: Kaynak Çalışma Sayfasından Hedef Çalışma Sayfasına Sayfa Ayarı Ayarlarını Kopyala
 type: docs
 weight: 10
 url: /tr/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-Çalışma kitabına yeni bir sayfa eklediğinizde, varsayılan Sayfa Yapısı ayarlarını içerir. Ayarları aktarmanız gereken zamanlar olabilir ([**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)) bir çalışma sayfasından başka bir çalışma sayfasına. Bu belge, Aspose.Cells API'leri kullanılarak Sayfa Yapısı ayarlarının bir çalışma sayfasından diğerine nasıl kopyalanacağını açıklar.
+Bir çalışma kitabına yeni bir sayfa eklediğinizde, varsayılan Sayfa Düzeni ayarlarını içerir. Bazı durumlarda, bu ayarları başka bir çalışma sayfasına aktarmanız gerekebilir. Bu belge, Aspose.Cells API'lerini kullanarak bir çalışma sayfasından diğerine Sayfa Düzeni ayarlarını nasıl kopyalayacağınızı açıklar.
 
-## **Sayfa Yapısı Ayarlarını Kaynak Çalışma Sayfasından Hedef Çalışma Sayfasına Kopyalayın**
+## **Kaynak Çalışma Sayfasından Hedef Çalışma Sayfasına Sayfa Ayarı Ayarlarını Kopyala**
 
-Aşağıdaki örnek kod, Sayfa Yapısı ayarlarının bir çalışma sayfasından diğerine nasıl kopyalanacağını gösterir.[**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)) yöntem. Lütfen referans için aşağıdaki örnek koda ve konsol çıktısına bakın.
+Aşağıdaki örnek kod, [**PageSetup.Copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#copy(com.aspose.cells.PageSetup,%20com.aspose.cells.CopyOptions)) yöntemini kullanarak bir çalışma sayfasındaki Sayfa Düzeni ayarlarını başka bir sayfaya kopyalamanın nasıl yapıldığını göstermektedir. Lütfen örnek kodu ve ilgili konsol çıktısını referans için inceleyin.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet.java" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Before Paper Size: PAPER_A_3_EXTRA_TRANSVERSE
 

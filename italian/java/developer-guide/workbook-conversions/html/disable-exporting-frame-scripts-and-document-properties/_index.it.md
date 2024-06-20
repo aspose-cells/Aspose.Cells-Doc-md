@@ -1,16 +1,17 @@
-﻿---
-title: Disattiva l'esportazione degli script dei frame e delle proprietà del documento
+---
+title: Disabilita l Esportazione degli Script Frame e delle Proprietà del Documento
 type: docs
 weight: 410
 url: /it/java/disable-exporting-frame-scripts-and-document-properties/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells esporta gli script dei frame e le proprietà del documento durante la conversione di una cartella di lavoro in HTML. La versione 8.6.0 di Aspose.Cells for Java introduce un'opzione che consente facoltativamente di disabilitare l'esportazione degli script dei frame e delle proprietà del documento. Si prega di utilizzare il[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) property per disabilitare l'esportazione.
+Aspose.Cells esporta gli script frame e le proprietà del documento durante la conversione di un workbook in HTML. La versione 8.6.0 di Aspose.Cells for Java introduce un'opzione che ti consente di disabilitare facoltativamente l'esportazione degli script frame e delle proprietà del documento. Si prega di utilizzare la proprietà [HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) per disabilitare l'esportazione.
 
 {{% /alert %}} 
-## **Disattiva l'esportazione degli script dei frame e delle proprietà dei documenti**
-Il seguente codice di esempio consente di disabilitare l'esportazione di script di frame e proprietà del documento. Dopo aver convertito una cartella di lavoro in HTML, il file di output non conterrà script di frame e proprietà del documento.
+## **Disabilita l'esportazione degli script frame e delle proprietà del documento**
+Il seguente codice di esempio ti permette di disabilitare l'esportazione degli script frame e delle proprietà del documento. Una volta convertito un workbook in HTML, il file di output non conterrà alcuno script frame o proprietà del documento.
 
 Ecco un codice di esempio.
 

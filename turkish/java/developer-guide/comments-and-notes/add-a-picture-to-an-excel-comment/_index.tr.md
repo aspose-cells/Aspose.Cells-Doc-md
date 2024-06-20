@@ -1,43 +1,44 @@
-﻿---
-title: Excel Yorumuna Resim Ekleme
+---
+title: Excel Yorumuna Resim Ekle
 type: docs
 weight: 60
 url: /tr/java/add-a-picture-to-an-excel-comment/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel, kullanıcıların elektronik tabloların görünümünü ve hissini büyük ölçüde özelleştirmesine olanak tanır. Yorumlara arka plan resimleri eklemek bile mümkündür.
+Microsoft Excel, elektronik tabloların görünümünü geniş ölçüde özelleştirme olanağı sunar. Yorumlara arka plan resmi eklemek bile mümkündür.
 
-Yorumlar, bir formülün nasıl çalıştığına, bir değerin nereden geldiğine veya gözden geçirenlerin sorularına ilişkin ayrıntılara kadar her şeyi kaydetmek için hücrelere yorumlar eklenir. Arka plan resmi eklemek estetik bir seçim olabilir veya marka bilincini güçlendirmek için kullanılabilir.
+Yorumlar, formülün nasıl çalıştığından bir değerin nereden geldiğine veya inceleyicilerden gelen sorulara kadar her şeyi kaydetmek için hücrelere eklenir. Arka plan resmi eklemek estetik bir tercih olabilir veya markalaşmayı güçlendirmek için kullanılabilir.
 
 {{% /alert %}}
 
-## Microsoft Excel ile Excel Yorumuna resim ekleme
+## Microsoft Excel ile Excel Yorumuna Resim Ekleme
 
-Microsoft Excel 2007 ile, bir hücre yorumuna arka plan olarak bir görüntüye sahip olmak mümkündür. Excel 2007'de bu şu şekilde gerçekleştirilir (yorumun zaten eklenmiş olduğu varsayılarak):
+Microsoft Excel 2007 ile bir hücre yorumuna bir resim arka plan olarak eklemek mümkündür. Excel 2007'de bu (yorum zaten eklenmişse) şu şekilde gerçekleşir:
 
-1. Açıklamayı içeren hücreye sağ tıklayın.
-1.  Seçmek**Yorumları Göster/Gizle** ve yorumdaki tüm metni temizleyin.
-1. Seçmek için yorumun kenarlığına tıklayın.
-1.  Seçmek**Biçim** , o zamanlar**Yorum Yap**.
-1.  Renkler ve Çizgiler sekmesinde,**Renk**.
-1.  Tıklamak**Dolgu Efektleri**.
-1.  Resim sekmesinde,**Resim Seç**.
+1. Yorum içeren hücreye sağ tıklayın.
+1. **Yorumları Göster/Gizle**'yi seçin ve yorumdan herhangi bir metni temizleyin.
+1. Yorumun kenarına tıklayın.
+1. **Biçim**, ardından **Yorum**'u seçin.
+1. Renkler ve Çizgiler sekmesinde, **Renk** için oku tıklayın.
+1. **Dolgu Efektleri**'ni tıklayın.
+1. Resim sekmesinde, **Resim Seç**'i tıklayın.
 1. Resmi bulun ve seçin
-1.  Tıklamak**Tamam**.
+1. **Tamam**'a tıklayın.
 
-## Aspose.Cells ile Excel Yorumuna resim ekleyin
+## Aspose.Cells ile Excel Yorumuna Resim Ekleme
 
 Aspose.Cells bu değerli özelliği sağlar.
 
-Aşağıdaki örnek kod, sıfırdan bir XLSX dosyası oluşturur ve A1 hücresine resim arka planıyla bir yorum ekler.
+Aşağıdaki örnek kod, baştan bir XLSX dosyası oluşturur ve A1 hücresine arka plan resimli bir yorum ekler.
 
-Kodu çalıştırdıktan sonra A1, arka plan resmi olan bir yoruma sahip olur.
+Kodun çalıştırılmasından sonra, A1'in arka plan resimli bir yorumu vardır.
 
-**çıktı dosyası**
+**Çıkış dosyası**
 
-![yapılacaklar:resim_alternatif_metin](add-a-picture-to-an-excel-comment_1.png)
+![todo:image_alt_text](add-a-picture-to-an-excel-comment_1.png)
 
-## Basit kod
+## Örnek Kod
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPicturetoExcelComment-AddPicturetoExcelComment.java" >}}

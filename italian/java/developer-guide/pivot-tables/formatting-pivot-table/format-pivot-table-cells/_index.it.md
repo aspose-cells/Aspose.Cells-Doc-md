@@ -1,25 +1,26 @@
-﻿---
-title: Formato tabella pivot Cells
+---
+title: Formattare le celle della tabella pivot
 type: docs
 weight: 20
 url: /it/java/format-pivot-table-cells/
 ---
+
 {{% alert color="primary" %}}
 
- A volte, vuoi formattare le celle della tabella pivot. Ad esempio, vuoi applicare un colore di sfondo alle celle della tabella pivot. Aspose.Cells fornisce due metodi[**Tabella pivot.formatAll()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#formatAll(com.aspose.cells.Style) ) e[**PivotTable.format()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#format(int,%20int,%20com.aspose.cells.Style)), che puoi utilizzare a tale scopo.
+A volte si desidera formattare le celle della tabella pivot. Ad esempio, si desidera applicare un colore di sfondo alle celle della tabella pivot. Aspose.Cells fornisce due metodi [**PivotTable.formatAll()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#formatAll(com.aspose.cells.Style)) e [**PivotTable.format()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#format(int,%20int,%20com.aspose.cells.Style)), che è possibile utilizzare a questo scopo.
 
-[**Tabella pivot.formatAll()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#formatAll(com.aspose.cells.Style) ) applica lo stile all'intera tabella pivot while[**PivotTable.format()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#format(int,%20int,%20com.aspose.cells.Style)) applica lo stile a una singola cella della tabella pivot.
+[**PivotTable.formatAll()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#formatAll(com.aspose.cells.Style)) applica lo stile all'intera tabella pivot mentre [**PivotTable.format()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#format(int,%20int,%20com.aspose.cells.Style)) applica lo stile a una singola cella della tabella pivot.
 
 {{% /alert %}}
 
-Il seguente codice di esempio formatta l'intera tabella pivot con un colore azzurro e quindi formatta la seconda riga della tabella in giallo.
+Il codice di esempio seguente formatta l'intera tabella pivot con un colore blu chiaro e poi formatta la seconda riga della tabella con il colore giallo.
 
-**La tabella pivot di input, prima dell'esecuzione del codice**
+**La tabella pivot di input, prima di eseguire il codice**
 
-![cose da fare:immagine_alt_testo](format-pivot-table-cells_1.png)
+![todo:image_alt_text](format-pivot-table-cells_1.png)
 
-**La tabella pivot di output, dopo l'esecuzione del codice**
+**La tabella pivot in uscita, dopo l'esecuzione del codice**
 
-![cose da fare:immagine_alt_testo](format-pivot-table-cells_2.png)
+![todo:image_alt_text](format-pivot-table-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FormatPivotTableCells-FormatPivotTableCells.java" >}}

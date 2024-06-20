@@ -1,18 +1,19 @@
-﻿---
-title: Geben Sie die Sprache der Excel-Datei mithilfe der integrierten Dokumenteigenschaften an
+---
+title: Festlegen der Sprache der Excel Datei unter Verwendung eingebauter Dokumenteigenschaften
 type: docs
 weight: 30
 url: /de/java/specify-the-language-of-the-excel-file-using-builtin-document-properties/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Sie können die ändern*Sprache*der Excel-Datei, indem Sie mit der rechten Maustaste auf die Datei klicken und dann auswählen*Eigenschaften > Details*und dann Bearbeiten der*Sprache*Gebiet. Bitte verwende[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)-Eigenschaft, um sie programmgesteuert mithilfe von Aspose.Cells-APIs zu ändern.
+## **Mögliche Verwendungsszenarien**
 
-## **Geben Sie die Sprache der Excel-Datei mithilfe der integrierten Dokumenteigenschaften an**
+Sie können die *Sprache* der Excel-Datei ändern, indem Sie mit der rechten Maustaste auf die Datei klicken und dann *Eigenschaften > Details* auswählen und dann das *Sprache* Feld bearbeiten. Verwenden Sie bitte das [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language) Eigenschaft, um es programmgesteuert mithilfe von Aspose.Cells APIs zu ändern.
 
-Der folgende Beispielcode erstellt eine Arbeitsmappe und ändert ihre integrierte Dokumenteigenschaft namens*Sprache*. Bitte sehen Sie sich ... an[Excel-Datei ausgeben](outputSpecifyLanguageOfExcelFile.xlsx)generiert durch den Code und Screenshot, der die geänderte zeigt*Sprache*Feld durch[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)Eigentum.
+## **Festlegen der Sprache der Excel-Datei unter Verwendung eingebauter Dokumenteigenschaften**
 
-![todo: Bild_alt_Text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+Der folgende Beispielcode erstellt eine Arbeitsmappe und ändert die eingebaute Dokumenteigenschaft namens *Sprache*. Bitte sehen Sie die [Ausgabedatei Excel](outputSpecifyLanguageOfExcelFile.xlsx), die vom Code generiert wurde, und den Screenshot, der das modifizierte *Sprache*-Feld durch [**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language) Eigenschaft zeigt.
+
+![todo:image_alt_text](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 
 ## **Beispielcode**
 

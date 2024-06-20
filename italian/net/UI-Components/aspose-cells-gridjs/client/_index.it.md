@@ -1,16 +1,18 @@
 ---
-title: Lavorare con il lato client di GridJs
+title: Lavorare con GridJs lato client
 type: docs
 weight: 250
 url: /it/net/aspose-cells-gridjs/client/
-keywords: custom,logo,setting,api
+keywords: GridJs, personalizzato, logo, impostazione, API
+description: Questo articolo introduce le API o le funzioni JavaScript client in GridJs.
 ---
-#  Lavorare con il lato client di GridJs
- Abbiamo sviluppato il client GridJs basato su[x-foglio di calcolo](https://github.com/myliang/x-spreadsheet).
 
-##  i passaggi principali sono:
+# Lavorare con GridJs Client Side
+Abbiamo sviluppato GridJs client basato su [x-spreadsheet](https://github.com/myliang/x-spreadsheet).
 
-- crea un'istanza x_spreadsheet
+## i passaggi principali sono:
+
+- crea istanza di x_spreadsheet
 ```javascript
 xs = x_spreadsheet(id, options)
     // the parameters are:
@@ -43,27 +45,27 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
-    
--  caricare con dati JSON
+
+-  carica con dati json
 ```javascript
 xs.loadData(data)
 // the parameters is:
 	data: the json data which describ the data structure for the worksheets
 ```
--  imposta il foglio attivo in base al nome del foglio
+-  imposta foglio attivo per nome del foglio
 ```javascript
 xs.setActiveSheetByName(sheetname)
 // the parameters is:
 	sheetname: the sheet name 
 ```
--  imposta il foglio attivo tramite ID
+-  imposta foglio attivo per id
 ```javascript
 xs.setActiveSheet(id)
 // the parameters is:
 	sheetname: the sheet id 
 ```
 
--  imposta la cella attiva
+-  imposta cella attiva
 ```javascript
 xs.setActiveCell(row,col);
 // the parameters are:
@@ -71,7 +73,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- imposta le informazioni per il funzionamento di forme/immagini per l'azione lato server
+- imposta info per l'operazione di shape/immagini per l'azione lato server
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -90,18 +92,18 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
-- impostare le informazioni per l'operazione di download per l'azione lato server
+- imposta info per l'operazione di download per l'azione lato server
 ```javascript
 xs.setFileDownloadInfo(downloadActionUrl);
 // the parameters are:
 	downloadActionUrl: the get download file action URL in the server side controller
-	 
+
     for example: 
             const fileDownloadUrl = "/GridJs2/Download";
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- impostare le informazioni per il funzionamento dell'oggetto oleo per l'azione lato server
+- imposta info per l'operazione di oggetto ole per l'azione lato server
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -110,35 +112,47 @@ xs.setOleDownloadInfo(oleActionUrl);
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
 ```
-  
 
-_
-##  altre API utili
--  Rendering della vista
+
+___
+## altre utili api
+-  Renderizza la vista
 ```javascript
 xs.reRender()
 ```
 
--  ottieni l'ID del foglio attivo
+-  ottieni id del foglio attivo
 ```javascript
 xs.getActiveSheet()
 ```
 
--  Imposta il livello di zoom
+-   Imposta livello di zoom
 ```javascript
 xs.setZoomLevel(zoom)
 // the parameters is:
 	zoom:the zoom level ,can be number ,for example 0.5 for zoom out, or 2 for zoom in
 ```
 
--  Imposta il nome del file
+-   Imposta Nome File 
 ```javascript
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
 ```
 
-- se abilitare l'evento chiave finestra per GridJs
+- Funzione di callback per la funzionalità di invio email.
+```javascript
+xs.setEmailSendCallFunction(callback)
+// the parameters is:
+	callback: the callback function to handle email sending, receives a mailObj parameter
+		callback: function(mailObj) {
+			// mailObj properties:
+			// mailObj.receiver: the email address of the receiver, e.g., 'example@gmail.com'
+			// mailObj.type: the format of the file to be sent, can be 'html', 'xlsx', or 'pdf'
+		}
+```
+
+-   se abilitare l'evento tasto finestra per GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -146,13 +160,13 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
--  separa tutti gli eventi allegati a GridJs, inclusi l'evento chiave finestra e l'evento ridimensionamento finestra.
+-  scollega tutti gli eventi collegati a GridJs, inclusi l'evento tasto finestra e l'evento di ridimensionamento finestra.
 ```javascript
 xs.destroy()
 ```
 
 
--  imposta il filtro visibile per immagine/forma
+-  impostare filtro visibile per immagine/shape
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
@@ -168,12 +182,12 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
--  Ottieni l'immagine/forma selezionata, se non viene selezionata nulla verrà restituito null
+- Ottieni l'immagine/forma selezionata, se nulla selezionata restituirà null
 ```javascript
 xs.sheet.selector.getObj()
 ```
 
--  imposta lo stato selezionabile per l'immagine/forma
+- Imposta lo stato selezionabile per l'immagine/forma 
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -181,21 +195,21 @@ shape.setControlable(isenable)
       isenable: when set to true,the image or shape can be selectable and movable/resizeable
 ```
 
--  Ottieni l'oggetto cella
+- Ottieni l'oggetto di cella
 ```javascript
 xs.sheet.data.getCell(ri,ci)
     // the parameters are:
 	ri:row index 
 	ci:column index
 ```
--  Ottieni lo stile della cella
+- Ottieni lo stile della cella
 ```javascript
 xs.sheet.data.getCellStyle(ri,ci)
     // the parameters are:
 	ri:row index 
 	ci:column index
 ```
--  Imposta il valore della cella
+- Imposta il valore della cella
 ```javascript
 xs.sheet.data.setCellText(ri,ci,value,state)
     // the parameters are:
@@ -205,17 +219,17 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	state: input | finished ,if finished ,it will do update action to servside
 ```
 
--  Ottieni/imposta l'intervallo di celle selezionato
+- Ottieni/imposta la gamma di celle selezionate
 ```javascript
 xs.sheet.data.selector.range
 ```
--  Imposta il valore della cella per la cella o l'area della cella selezionata
+- Imposta il valore della cella per la cella selezionata o l'area della cella
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
--  Imposta lo stile per la cella o l'area della cella selezionata
+- Imposta lo stile per la cella selezionata o l'area della cella
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
@@ -223,22 +237,22 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
--  Unisci l'area della cella selezionata
+- Unisci l'area della cella selezionata
 ```javascript
 xs.sheet.data.merge()
 ```
 
--  Separa l'area della cella selezionata
+- Dividi l'area della cella selezionata
 ```javascript
 xs.sheet.data.unmerge()
 ```
--  Elimina la cella selezionata
+- Elimina la cella selezionata  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  Imposta il riquadro di blocco
+- Imposta il riquadro congelato
 ```javascript
 xs.sheet.data.setFreeze(ri,ci)
     // the parameters are:
@@ -246,28 +260,28 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
--  Inserisci riga o colonne nella cella selezionata
+- Inserisci righe o colonne nella cella selezionata  
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
 	type: row | column
 	n:the row or column number
 ```
--  Elimina riga o colonne nella cella selezionata
+- Elimina righe o colonne nella cella selezionata  
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
 	type: row | column
 ```
 
--  Imposta la larghezza della colonna
+- Imposta la larghezza per la colonna
 ```javascript
 xs.sheet.data.setColWidth(ci,width)
     // the parameters are:
 	ci:column index
 	width:the width for the column
 ```
--  Imposta la larghezza delle colonne
+- Imposta la larghezza per le colonne
 ```javascript
 xs.sheet.data.setColsWidth(sci,eci,width)
     // the parameters are:
@@ -276,14 +290,14 @@ xs.sheet.data.setColsWidth(sci,eci,width)
 	width:the width for the column
 ```
 
--  Imposta la larghezza per tutte le colonne
+- Imposta la larghezza per tutte le colonne
 ```javascript
 xs.sheet.data.setAllColsWidth(width)
     // the parameters are:
 	width:the width for the columns
 ```
 
--  Ottieni la larghezza della colonna
+- Ottieni la larghezza per la colonna 
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
     // the parameters are:
@@ -291,14 +305,14 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  Imposta l'altezza della riga
+- Imposta l'altezza per la riga
 ```javascript
 xs.sheet.data.setRowHeight(ri,height)
     // the parameters are:
 	ri:row index
 	height:the height for the row
 ```
--  Imposta l'altezza delle righe
+- Imposta l'altezza per le righe
 ```javascript
 xs.sheet.data.setRowsHeight(sri,eri,height)
     // the parameters are:
@@ -315,7 +329,7 @@ xs.sheet.data.setAllRowsHeight(height)
 ```
 
 
--  Ottieni l'altezza della riga
+- Ottieni l'altezza della riga 
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
     // the parameters are:
@@ -323,13 +337,13 @@ xs.sheet.data.rows.sumHeight(min,max)
 	max:the end row index,not include
 ```
 
--  Ottieni/imposta la direzione di visualizzazione
+- Ottieni/imposta la direzione di visualizzazione
 ```javascript
 xs.sheet.data.displayRight2Left
 ```
 
-##  richiamata dell'evento
--  possiamo tenere traccia degli eventi seguenti
+## Richiamata dell'evento
+- Possiamo tracciare gli eventi seguenti
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
                 console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
@@ -352,9 +366,9 @@ xs.sheet.data.displayRight2Left
             });
 ```
 
-##  personalizzazione
+## Personalizzazione
 
--  imposta l'icona e il collegamento home
+- Imposta icona iniziale e link
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -363,21 +377,56 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 	for example ,the below code will set the new logo and with link to google.com
 	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
 ```
--  mostrare la barra dei menu
+- Mostra la barra dei menu
 ```javascript
 xs.sheet.menubar.show()
 ```
 
--  nascondere la barra dei menu
+- Nascondi la barra dei menu
 ```javascript
 xs.sheet.menubar.hide()
 ```
 
+
+## API per l'oggetto TextBox
+TextBox è un tipo speciale di forma il cui tipo di proprietà è: "TextBox"
+ad esempio: il codice seguente mostrerà quale forma è la casella di testo
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+
+- Cambia il colore di sfondo per l'oggetto casella di testo
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+- Cambia automaticamente il colore di sfondo e il colore del testo per ottenere un effetto attivo visivo
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+- Nascondi/mostra il contenuto testuale nell'oggetto casella di testo
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
 
 per informazioni dettagliate, puoi controllare l'esempio qui
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 
 
- 
- 
+
+

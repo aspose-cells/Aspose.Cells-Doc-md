@@ -1,23 +1,24 @@
-﻿---
-title: Excel dosyasını PDFA-1a ile uyumlu PDF biçimine dönüştürün
+---
+title: Excel Dosyasını PDFA 1a Uyumlu PDF Biçimine Dönüştürme
 type: docs
 weight: 130
 url: /tr/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
-PDF/A, belgelerin uzun süreli saklanması için tasarlanmış PDF'in eşsiz bir aromasıdır. PDF/A, belgede kullanılan tüm yazı tiplerini PDF dosyasına gömen, PDF arşiv biçimi olan Taşınabilir Belge Biçiminin (PDF) ISO standardize edilmiş bir sürümüdür. PDF/A, yazı tipi bağlama (yazı tipi gömme yerine) ve şifreleme gibi özellikleri yasaklayarak PDF'den farklıdır. Aspose.Cells, Excel dosyalarını PDF/A uyumlu PDF dosyalarına kaydetmenizi sağlar (hem PdfA1a hem de PdfA1b desteklenir). Bu konu, Excel çalışma kitabının PDF/A uyumlu (PdfA1a) PDF dosyasına nasıl kaydedileceğini açıklamaktadır.
+PDF/A, belgelerin uzun süreli korunması için tasarlanmış benzersiz bir PDF türüdür. PDF/A, belgede kullanılan tüm fontları PDF dosyası içine gömmek için kullanılan bir ISO-standartlı Portable Document Format (PDF) sürümüdür. PDF/A, font bağlama (gömülme yerine) ve şifreleme gibi özellikleri yasaklayarak PDF'den farklılık gösterir. Aspose.Cells, Excel dosyalarını PDF/A uyumlu PDF dosyalarına kaydetmenizi sağlar (PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-2u, PDF/A-3a, PDF/A-2ab ve PDF/A-3u desteklenir). Bu konu, Excel çalışma kitabını PDF/A uyumlu (PDF/A-1a) PDF dosyasına kaydetmenin nasıl yapıldığını açıklar.
 
-## **Excel dosyasını PDFA-1a ile Uyumlu PDF Formatına Dönüştürün**
+## **Excel dosyasını PDF/A-1a uyumlu PDF formatına dönüştürme**
 
-Geliştiriciler kullanabilir**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**dönüşüm için farklı öznitelikler ayarlamak için sınıf. Farklı özelliklerin ayarlanması**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**class, PDF çıktısı için yazdırma, yazı tipi, güvenlik ve sıkıştırma ayarları üzerinde kontrol sağlar. En önemli özellik şudur:**[PdfSaveOptions.Compliance](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance)**Excel dosyalarını PDF/A uyumlu PDF dosyalarına kaydetmenizi sağlar.
+Geliştiriciler, dönüşüm için [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) sınıfını kullanarak farklı özellikler belirleyebilir. Çeşitli [**PdfSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions) sınıfı özelliklerini ayarlamak, çıktı PDF için yazdırma, yazı tipi, güvenlik ve sıkıştırma ayarları üzerinde kontrol sağlar. En önemli özellik, Excel dosyalarını PDF/A uyumlu PDF dosyalarına kaydetmenize olanak tanıyan [**PdfSaveOptions.Compliance**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/compliance) özelliğidir.
 
-Aşağıdaki örnek kod, Excel dosyasının PDFA-1a ile uyumlu PDF biçimine nasıl dönüştürüleceğini açıklar. Lütfen bakın[çıkış PDF](outputCompliancePdfA1a.pdf) referans için ekran görüntüsünün yanı sıra.
+Aşağıdaki örnek kod, Excel dosyasını PDF/A-1a uyumlu PDF formatına dönüştürmenin nasıl yapıldığını açıklar. Lütfen [çıktı PDF](outputCompliancePdfA1a.pdf) ve referans için ekran görüntüsünü inceleyin.
 
-## **Ekran görüntüsü**
+## **Ekran Görüntüsü**
 
-![yapılacaklar:resim_alternatif_metin](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
+![todo:image_alt_text](convert-excel-file-to-pdf-format-compatible-with-pdfa-1a_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-ConvertExcelFileToPDFA_1a.cs" >}}

@@ -1,18 +1,19 @@
-﻿---
-title: Análisis de registros en caché de pivote al cargar un archivo de Excel
+---
+title: Análisis de registros en caché del pivote al cargar archivos de Excel
 type: docs
 weight: 70
 url: /es/net/parsing-pivot-cached-records-while-loading-excel-file/
 ---
-## **Posibles escenarios de uso**
 
-Cuando crea una tabla dinámica, Microsoft Excel toma una copia de los datos de origen y la almacena en la memoria caché dinámica. El Pivot Cache se encuentra dentro de la memoria de Microsoft Excel. No puede verlo, pero esos son los datos a los que hace referencia la tabla dinámica cuando crea su tabla dinámica o cambia una selección de segmentación o mueve filas/columnas. Esto permite que Microsoft Excel responda muy bien a los cambios en la tabla dinámica, pero también puede duplicar el tamaño de su archivo. Después de todo, Pivot Cache es solo un duplicado de sus datos de origen, por lo que tiene sentido que el tamaño de su archivo sea potencialmente el doble.
+## **Escenarios de uso posibles**
 
-Cuando carga su archivo de Excel dentro del objeto Workbook, puede decidir si también desea cargar los registros de Pivot Cache o no, utilizando el[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/parsingpivotcachedrecords) propiedad. El valor predeterminado de esta propiedad es**falso** . Si Pivot Cache es bastante grande, puede aumentar el rendimiento. Pero si también desea cargar los registros de Pivot Cache, debe establecer esta propiedad como**verdadero**.
+Cuando creas una tabla dinámica, Microsoft Excel toma una copia de los datos fuente y los almacena en la Caché del pivote. La Caché del pivote se encuentra dentro de la memoria de Microsoft Excel. No puedes verla, pero esos son los datos a los que hace referencia la tabla dinámica cuando construyes tu tabla dinámica o cambias una selección de filtro o mueves filas/columnas. Esto permite a Microsoft Excel ser muy receptivo a los cambios en la tabla dinámica, pero también puede duplicar el tamaño de tu archivo. Después de todo, la Caché del pivote es solo un duplicado de tus datos fuente, así que tiene sentido que el tamaño de tu archivo potencialmente se duplique.
 
-## **Análisis de registros en caché de pivote al cargar un archivo de Excel**
+Cuando cargas tu archivo de Excel dentro del objeto Libro, puedes decidir si también deseas cargar los registros de la Caché de Pivot o no, usando la propiedad [**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/parsingpivotcachedrecords). El valor predeterminado de esta propiedad es **falso**. Si la Caché de Pivot es bastante grande, puede aumentar el rendimiento. Pero si también deseas cargar los registros de la Caché de Pivot, debes configurar esta propiedad como **verdadero**.
 
-El siguiente código de ejemplo explica el uso de[**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/parsingpivotcachedrecords) propiedad. carga el[ejemplo de archivo de Excel](61767773.xlsx) mientras analiza los registros almacenados en caché de pivote. Luego actualiza la tabla dinámica y la guarda como el[archivo de salida de Excel](61767774.xlsx).
+## **Analizar registros en caché de la tabla dinámica al cargar el archivo de Excel**
+
+El siguiente código de muestra explica el uso de la propiedad [**LoadOptions.ParsingPivotCachedRecords**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/parsingpivotcachedrecords). Carga el [archivo de Excel de muestra](61767773.xlsx) mientras analiza los registros en caché de pivot. Luego actualiza la tabla dinámica y la guarda como el [archivo de Excel de salida](61767774.xlsx).
 
 ## **Código de muestra**
 

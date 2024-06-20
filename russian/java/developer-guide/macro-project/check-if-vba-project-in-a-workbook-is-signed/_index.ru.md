@@ -1,18 +1,19 @@
-﻿---
-title: Проверьте, подписан ли проект VBA в рабочей книге
+---
+title: Проверка подписан ли проект VBA в книге Excel
 type: docs
 weight: 40
 url: /ru/java/check-if-vba-project-in-a-workbook-is-signed/
 ---
+
 {{% alert color="primary" %}}
 
- Вы можете проверить, подписан ли ваш проект VBA или нет, используя Microsoft Excel через**Инструменты > Цифровые подписи...** команда меню. Точно так же вы можете проверить это программно, используя Aspose.Cells.[**Рабочая книга.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) метод.
+Вы можете проверить, подписан ли ваш проект VBA, используя Microsoft Excel через команду меню **Инструменты > Цифровые подписи...**. Аналогично, вы можете проверить это программно, используя метод [**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) Aspose.Cells.
 
 {{% /alert %}}
 
-## **Проверьте, подписан ли проект VBA в рабочей книге**
+## **Проверить, подписан ли проект VBA в книге Excel**
 
- Следующий код загружает книгу и проверяет, подписан ли ее проект VBA с помощью[**Рабочая книга.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) имущество. Имущество вернется**истинный** если проект подписан иначе он вернется**ЛОЖЬ**.
+Следующий код загружает книгу и проверяет, подписан ли ее проект VBA, используя свойство [**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned). Свойство вернет **true**, если проект подписан, в противном случае оно вернет **false**.
 
 ## Образец кода
 

@@ -2,65 +2,66 @@
 title: Форматирование сводной таблицы
 type: docs
 weight: 10
-url: /ru/net/formatting-pivot-table/
-description: Как отформатировать сводную таблицу с помощью Aspose.Cells for Python via .NET.
-keywords: Format pivot table.
+url: /ru/python-net/formatting-pivot-table/
+description: Как форматировать сводную таблицу с помощью Aspose.Cells для Python via .NET.
+keywords: Форматирование сводной таблицы.
 ---
-##  **Внешний вид сводной таблицы**
 
-Как создать сводную таблицу объясняет, как создать простую сводную таблицу. В этой статье описывается, как настроить внешний вид сводной таблицы, задав различные свойства:
+## **Внешний вид сводной таблицы**
 
-- Параметры формата сводной таблицы
-- Параметры формата сводных полей
-- Параметры формата поля данных
+Как создать сводную таблицу объясняет, как создать простую сводную таблицу. В этой статье описано, как настроить внешний вид сводной таблицы, устанавливая различные свойства:
 
-###  **Настройка параметров формата сводной таблицы**
+- Опции формата сводной таблицы
+- Опции формата полей сводной таблицы
+- Опции формата данных поля
 
-[**Сводная таблица**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/)Класс управляет всей сводной таблицей и может быть отформатирован несколькими способами.
+### **Как установить параметры форматирования сводной таблицы**
 
-####  **Установка типа автоформата**
+Класс [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/) контролирует общую сводную таблицу и может быть отформатирован различными способами.
 
-Microsoft Excel предлагает ряд различных предустановленных форматов отчетов. Aspose.Cells for Python via .NET также поддерживают эти параметры форматирования. Чтобы получить к ним доступ:
+#### **Как установить тип автоформата**
 
-1.  Набор[**PivotTable.is_auto_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_auto_format/)на *истину**.
-1.  Назначьте параметр форматирования из[**PivotTableAutoFormatType**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottableautoformattype/)перечисление.
+Microsoft Excel предлагает несколько различных предустановленных форматов отчетов. Aspose.Cells for Python via .NET также поддерживает эти варианты форматирования. Чтобы получить к ним доступ:
+
+1. Установите [**PivotTable.is_auto_format**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/is_auto_format/) в **true**.
+1. Назначьте опцию форматирования из перечисления [**PivotTableAutoFormatType**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottableautoformattype/).
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingAutoFormat-1.py" >}}
 
-####  **Настройка параметров формата**
+#### **Как устанавливать параметры форматирования**
 
-В приведенном ниже примере кода показано, как отформатировать сводную таблицу для отображения общих итогов по строкам и столбцам, а также как установить порядок полей отчета. Он также показывает, как установить строку клиента для нулевых значений.
+Приведенный ниже пример кода показывает, как отформатировать сводную таблицу для отображения общих итогов для строк и столбцов, а также как установить порядок полей отчета. Он также показывает, как установить пользовательскую строку для пустых значений.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingFormatOptions-1.py" >}}
 
-####  **Форматирование внешнего вида вручную**
+#### **Форматирование внешнего вида вручную**
 
-Чтобы отформатировать внешний вид отчета сводной таблицы вручную, вместо использования заранее установленных форматов отчета, используйте команду[**PivotTable.format_all(стиль)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) и[**PivotTable.format(строка, столбец, стиль)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/)методы. Создайте объект стиля для желаемого форматирования, например:
+Чтобы вручную форматировать отчет сводной таблицы, вместо использования предустановленных форматов отчетов, используйте методы [**PivotTable.format_all(style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format_all/) и [**PivotTable.format(row, column, style)**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/format/). Создайте объект стиля для желаемого форматирования, например:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-FormattingLook-1.py" >}}
 
-###  **Настройка параметров формата сводного поля**
+### **Как установить параметры форматирования поля сводной таблицы**
 
-[**Сводное поле**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/)class представляет поле в сводной таблице и может быть отформатирован несколькими способами. В приведенном ниже примере кода показано, как:
+Класс [**PivotField**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfield/) представляет собой поле в сводной таблице и может быть отформатировано несколькими способами. Приведенный ниже образец кода показывает, как:
 
-- Доступ к полям строк.
-- Установка промежуточных итогов.
-- Настройка автосортировки.
-- Настройка автошоу.
+- Получить строковые поля.
+- Настроить итоги.
+- Настроить автосортировку.
+- Настроить автоотображение.
 
-####  **Настройка формата полей строки/столбца/страницы**
+#### **Как установить формат полей строк/столбцов/страниц**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingPageFieldFormat-1.py" >}}
 
-###  **Настройка формата полей данных**
+### **Как установить формат полей данных**
 
-В приведенном ниже примере кода показано, как настроить форматы отображения и числовой формат для полей данных.
+Приведенный ниже образец кода показывает, как установить формат отображения и числовой формат для полей данных.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-SettingDataFieldFormat-1.py" >}}
 
-###  **Очистка сводных полей**
+### **Как очистить поля сводной таблицы**
 
-[**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/) имеет метод с именем[**clear()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#)это позволяет очищать поля сводной таблицы. Используйте его, если хотите очистить все сводные поля в областях, например, на странице, столбце, строке или данных.
-В приведенном ниже примере кода показано, как очистить все поля сводной таблицы в области данных.
+У класса [**PivotFieldCollection**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/) есть метод с именем [**clear()**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivotfieldcollection/clear/#), который позволяет очистить поля сводной таблицы. Используйте его, когда вам нужно очистить все поля сводной таблицы в областях, например страница, столбец, строка или данные.
+Приведенный ниже образец кода показывает, как очистить все поля сводной таблицы в области данных.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-ClearPivotFields-1.py" >}}

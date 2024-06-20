@@ -1,21 +1,22 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.6.2
+---
+title: Aspose.Cells 8.6.2の公開API変更
 type: docs
 weight: 220
 url: /ja/java/public-api-changes-in-aspose-cells-8-6-2/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.6.1 から 8.6.2 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加されたクラスだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントでは、Aspose.Cells APIの8.6.1から8.6.2への変更について記載されています。これはモジュール/アプリケーション開発者に関心がある可能性のある新しいおよび更新された公開メソッド、追加されたクラスだけでなく、Aspose.Cellsの内部の動作に関する変更の説明も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **スマートマーカーによるコールバックのサポート**
-Aspose.Cells for Java API のこのリリースでは、WorkbookDesigner.CallBack フィールドと ISmartMarkerCallBack インターフェイスが公開されました。[処理中のセル参照および/またはスマート マーカーに関する通知を取得する](/cells/ja/java/getting-notifications-while-merging-data-with-smart-markers/).次のコードは、 ISmartMarkerCallBack インターフェイスを使用して WorkbookDesigner.process メソッドのコールバックを処理する新しいクラスを定義する方法を示しています。
+## **APIの追加**
+### **Smart Markersのコールバックのサポート**
+このリリースのAspose.Cells for Java APIでは、WorkbookDesigner.CallBackフィールドとISmartMarkerCallBackインタフェースが公開され、それらを共に使用して、セル参照や/または処理されているスマートマーカーに関する通知を取得できます。 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class SmartMarkerCallBack implements ISmartMarkerCallBack 
 
@@ -49,11 +50,11 @@ Aspose.Cells for Java API のこのリリースでは、WorkbookDesigner.CallBac
 
 {{< /highlight >}}
 
-プロセスの残りの部分には、スマート マーカーを含むデザイナー スプレッドシートを WorkbookDesigner でロードするか、ゼロから作成してデータ ソースを設定して処理することが含まれます。ただし、通知を有効にするには、以下に示すように WorkbookDesigner.process メソッドを呼び出す前に WorkbookDesigner.CallBack プロパティを設定する必要があります。
+プロセスの残りは、デザイナースプレッドシートのロード（WorkbookDesignerを使用）またはゼロから作成し、データソースを設定して処理することが含まれます。ただし、通知を有効にするには、WorkbookDesigner.processメソッドを呼び出す前にWorkbookDesigner.CallBackプロパティを設定する必要があります。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook designer
 
@@ -71,7 +72,7 @@ sheet.getCells().get("A1").putValue("&=$VariableArray");
 
 //Set the data source for the marker(s)
 
-report.setDataSource("VariableArray", new String[]{ "English", "Arabic", "Hindi", "Urdu", "French" });
+report.setDataSource("VariableArray", new String[] { "English", "Arabic", "Hindi", "Urdu", "French" });
 
 //Set the CallBack property
 
@@ -82,14 +83,14 @@ report.setCallBack(new SmartMarkerCallBack(report.getWorkbook()));
 report.process(false);
 
 {{< /highlight >}}
-### **メソッド Chart.toPdf が追加されました**
-Aspose.Cells for Java 8.6.2 は、Chart 形状を PDF 形式に直接レンダリングするために使用できる Chart.toPdf メソッドを公開しました。上記のメソッドは現在、結果のファイルをディスクに保存するためのファイル パスの場所として String 型のパラメーターを受け入れます。
+### **Chart.toPdfメソッドの追加**
+Aspose.Cells for Java 8.6.2では、Chart.toPdfメソッドが公開され、Chartの形状を直接PDF形式にレンダリングするために使用できます。このメソッドは現在、ファイルの保存先としてString型のパラメータを受け入れます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet containing charts
 
@@ -108,14 +109,14 @@ Chart chart = worksheet.getCharts().get(0);
 chart.toPdf(outputFilePath);
 
 {{< /highlight >}}
-### **メソッド Workbook.removeUnusedStyles が追加されました**
-Aspose.Cells for Java 8.6.2 は Workbook.removeUnusedStyles メソッドを公開しました。[スタイルのプールからすべての未使用の Style オブジェクトを削除します](/cells/ja/java/remove-unused-styles-inside-the-workbook/). 
+### **Workbook.removeUnusedStylesメソッドの追加**
+Aspose.Cells for Java 8.6.2では、Workbook.removeUnusedStylesメソッドが公開され、ブック内の未使用のスタイルオブジェクトをすべて削除できます。 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet
 
@@ -126,14 +127,14 @@ Workbook workbook = new Workbook(inputFilePath);
 workbook.removeUnusedStyles();
 
 {{< /highlight >}}
-### **プロパティ Cells.スタイルが追加されました**
-Cells.Style プロパティを使用して、デフォルト スタイルを表すワークシートのスタイルにアクセスできます。
+### **Cells.Styleプロパティの追加**
+Cells.Styleプロパティは、デフォルトのスタイルを示すワークシートのスタイルにアクセスするために使用できます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -144,8 +145,8 @@ Workbook book = new Workbook(inputFilePath);
 Style style = book.getWorksheets().get(0).getCells().getStyle();
 
 {{< /highlight >}}
-### **GridWeb に追加されたイベント**
-Aspose.Cells.GridWeb for Java 8.6.2 では、次の 2 つの新しいイベントが公開されました。
+### **GridWebのためのイベントの追加**
+Aspose.Cells.GridWeb for Java 8.6.2では、次の2つの新しいイベントが公開されています。
 
-1. AjaxCallFinished: コントロールの AJAX 更新が完了したときに発生します。 (EnableAJAX を true に設定する必要があります)。
-1. CellModifiedOnAjax: AJAX 呼び出しでセルが変更されたときに発生します。
+1. AjaxCallFinished：コントロールのAjax更新が終了したときに発生します。（EnableAJAXはtrueに設定する必要があります）。
+1. CellModifiedOnAjax: セルがAJAX呼び出しで変更されたときに発生します。

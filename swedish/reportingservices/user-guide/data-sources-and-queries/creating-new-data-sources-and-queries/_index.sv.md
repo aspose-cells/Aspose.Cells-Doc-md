@@ -1,35 +1,36 @@
-﻿---
-title: Skapa nya datakällor och frågor
+---
+title: Skapar nya datakällor och frågor
 type: docs
 weight: 20
 url: /sv/reportingservices/creating-new-data-sources-and-queries/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells.Report.Designer integreras med MS Query och använder MS Query som ett verktyg för att skapa datakällor och frågor. För att skapa en ny datakälla och fråga i Aspose.Cells.Report.Designer, följ stegen nedan:.
+Aspose.Cells.Report.Designer integreras med MS Query och använder MS Query som ett verktyg för att skapa datakällor och frågor. För att skapa en ny datakälla och fråga i Aspose.Cells.Report.Designer, följ stegen nedan:. 
 
 {{% /alert %}} 
 
-Så här skapar du en ny datakälla och fråga i Aspose.Cells.Report.Designer:
+För att skapa en ny datakälla och fråga i Aspose.Cells.Report.Designer:
 
 1. Öppna Microsoft Excel.
-1.  Klick**Bygg datauppsättning** i verktygsfältet Aspose.Cells.Report.Designer:
+1. Klicka på **Bygg dataset** i verktygsfältet Aspose.Cells.Report.Designer: 
 
 ![todo:image_alt_text](creating-new-data-sources-and-queries_1.png)
 
 
-Alla datakällor och frågor listas i dialogrutan.
+Alla datakällor och frågor listas i dialogrutan. 
 
-1.  En datakällanod:
+1. En datakällnod: 
 
 ![todo:image_alt_text](creating-new-data-sources-and-queries_2.png)
 
-1.  En datamängdsnod:
+1. En datamängdnod: 
 
 ![todo:image_alt_text](creating-new-data-sources-and-queries_3.png)
 
-1. Välj trädets rotnod.
-1.  Klick**Lägg till**. 
+1. Välj trädrotsnoden.
+1. Klicka på **Lägg till**. 
 
    **Lägga till datakällor och datamängder** 
 
@@ -38,8 +39,8 @@ Alla datakällor och frågor listas i dialogrutan.
 
 
 
-1.  Anropa datakällan i dialogrutan**SQLServer** och datamängden**EmpsSalesDetail**.
-1.  Klick**Nästa**. 
+1. I dialogrutan, kalla datakällan **SqlServer** och datamängden **EmpsSalesDetail**.
+1. Klicka på **Nästa**. 
 
    **Lägga till datamängder och datakällor** 
 
@@ -47,21 +48,21 @@ Alla datakällor och frågor listas i dialogrutan.
 
 
 
- Aspose.Cells.Report.Designer startar Microsoft Fråga.
+Aspose.Cells.Report.Designer startar Microsoft Query. 
 
-1.  Välj i dialogrutan Välj datakälla**Ny datakälla**.
-1.  Klick**OK**.
- Du kan också välja en befintlig datakälla.
+1. I dialogrutan Välj datakälla, välj **Ny datakälla**.
+1. Klicka på **OK**.
+   Du kan också välja en befintlig datakälla. 
 
-   **Att välja en datakälla** 
+   **Välja en datakälla** 
 
 ![todo:image_alt_text](creating-new-data-sources-and-queries_6.png)
 
 
 
 
-1. Ange ett datakällas namn och välj SQL Server från rullgardinsmenyn med databasdrivrutiner.
-1.  Klick**Ansluta**. 
+1. Ange ett namn för datakällan och välj SQL Server från rullgardinsmenyn för databasdrivrutiner.
+1. Klicka på **Anslut**. 
 
    **Skapa en ny datakälla** 
 
@@ -70,28 +71,28 @@ Alla datakällor och frågor listas i dialogrutan.
 
 
 
-1. I dialogrutan SQL Server Login väljer du lämpligt värde för varje objekt.
- Till exempel, ställ in server till lokal, välj AdventureWorks-databasen och välj**Använd Trusted Connection**.
-1.  Klick**OK**. 
+1. I SQL Server Login-dialogrutan, välj rätt värde för varje objekt.
+   Till exempel, ange server till lokal, välj AdventureWorks-databasen och välj **Använd pålitlig anslutning**.
+1. Klicka på **OK**. 
 
-   **Loggar in på SQL-servern** 
+   **Logga in på SQL-servern** 
 
 ![todo:image_alt_text](creating-new-data-sources-and-queries_8.png)
 
 
 
 
-1.  Klick**OK**. 
+1. Klicka på **OK**. 
 
-   **Observera att vi nu är inloggade på SQL-servern** 
+   **Observera att vi nu är inloggad på SQL-servern** 
 
 ![todo:image_alt_text](creating-new-data-sources-and-queries_9.png)
 
 
 
-Den nya datakällan visas i**Välj Datakälla** dialog.
+Den nya datakällan visas i dialogrutan **Välj datakälla**. 
 
-1.  Välj den nya datakällan.
+1. Välj den nya datakällan. 
 
    **Den nya datakällan** 
 
@@ -100,20 +101,20 @@ Den nya datakällan visas i**Välj Datakälla** dialog.
 
 
 
-1.  Klick**OK** för att öppna Microsoft Fråga.
-1.  För att skapa en fråga i Microsoft Query, se Microsoft Query Helper. I följande exempel skapar vi en fråga med parametrar.
+1. Klicka på **OK** för att öppna Microsoft Query.
+1. För att skapa en fråga i Microsoft Query, hänvisa till Microsoft Query Helper. I följande exempel skapar vi en fråga med parametrar. 
 
-   **Skapa en fråga** 
+   **Bygga en fråga** 
 
 ![todo:image_alt_text](creating-new-data-sources-and-queries_11.png)
 
 
 
- SQL är som följer:
+SQL:en är följande: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT C.FirstName + ' ' + C.LastName AS Employee,
 
@@ -180,19 +181,19 @@ P.Name, PS.Name, SOD.UnitPrice, PC.Name
 {{< /highlight >}}
 
 
-Frågan har tre parametrar: ReportYear, ReportMonth och EmpID.
+Frågan har tre parametrar: Rapportår, Rapportmånad och EmpID.
 
-1.  Från Microsoft Query's**Fil** menyn, välj**Återgå till Aspose.Cells.Report.Designer**. 
+1. Från Microsoft Query's **Arkiv**-meny väljer du **Återgå till Aspose.Cells.Report.Designer**. 
 
-   **Återgår till rapportdesignern** 
+   **Återgå till rapportdesignern** 
 
 ![todo:image_alt_text](creating-new-data-sources-and-queries_12.png)
 
 
 
- Datakällan och frågan som skapats ovan listas i dialogrutan.
+Datakällan och frågan som skapats ovan listas i dialogrutan. 
 
-1.  Klicka på datakällan**SQLServer** för att se dess detaljerade information.
+1. Klicka på datakällan **SqlServer** för att visa dess detaljer. 
 
    **Den nya datakällan** 
 
@@ -201,7 +202,7 @@ Frågan har tre parametrar: ReportYear, ReportMonth och EmpID.
 
 
 
-1.  Klicka på frågan EmpSalesDetails för att se dess detaljerade information.
+1. Klicka på frågan EmpSalesDetails för att se dess detaljerad information. 
 
    **Klicka på SQL-fliken för att se sql för frågan** 
 
@@ -209,13 +210,13 @@ Frågan har tre parametrar: ReportYear, ReportMonth och EmpID.
 
 
 
-**Klicka på fliken Kolumner för att se kolumnerna i frågan** 
+**Klicka på kolumnfliken för att se kolumnerna i frågan** 
 
 ![todo:image_alt_text](creating-new-data-sources-and-queries_15.png)
 
 
 
-**Klicka på fliken Parametrar för att se parametrarna för frågan** 
+**Klicka på parametrar-fliken för att se parametrarna i frågan** 
 
 ![todo:image_alt_text](creating-new-data-sources-and-queries_16.png)
 

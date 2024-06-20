@@ -1,26 +1,27 @@
-﻿---
-title: Ange hur strängen ska korsas i utdata HTML med HtmlCrossType
+---
+title: Ange hur texten ska korsas i utdata HTML med HtmlCrossType
 type: docs
 weight: 140
 url: /sv/java/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
 ---
-## **Möjliga användningsscenarier**
 
-När cellen innehåller text eller sträng men den är större än cellens bredd, svämmar strängen över om nästa cell i nästa kolumn är null eller tom. När du sparar din Excel-fil i HTML kan du kontrollera detta överflöde genom att ange korstypen med hjälp av[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)uppräkning. Den har följande värden
+## **Möjliga användningsscenario**
 
-- [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): Visa som MS Excel vilket beror på nästa cell. Om nästa cell är null kommer strängen att korsas eller trunkeras.
+När cellen innehåller text eller sträng men den är större än cellens bredd, då överlappar strängen om nästa cell i nästa kolumn är null eller tom. När du sparar din Excel-fil till HTML kan du kontrollera detta överlapp genom att ange korsnings-typen med [**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)-uppräkningen. Den har följande värden
 
-- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT): Visa strängen som MS Excel som exporterar HTML.
+- [**HtmlCrossType.DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT): Visa som i MS Excel som beror på nästa cell. Om nästa cell är null, kommer strängen att korsas eller den kommer att avkortas.
 
-- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS) : Visa HTML korssträng, prestandan för att skapa stora HTML-filer kommer att vara mer än tio gånger snabbare än att ställa in värdet på[**STANDARD**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) eller[**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL).
+- [**HtmlCrossType.MS_EXPORT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#MS_EXPORT): Visa strängen som vid MS Excel vid export av HTML.
 
-- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): Visa HTML korssträng och dölj den högra strängen när texterna överlappar varandra.
+- [**HtmlCrossType.CROSS**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS): Visa HTML-korsningssträngen, prestandan för att skapa stora HTML-filer kommer att vara mer än tio gånger snabbare än att ställa in värdet till [**DEFAULT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#DEFAULT) eller [**FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL).
 
-- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL)Visar endast strängen inom cellens bredd.
+- [**HtmlCrossType.CROSS_HIDE_RIGHT**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#CROSS_HIDE_RIGHT): Visa HTML-korsningssträng och dölj den högra strängen när texterna överlappar.
 
-## **Ange hur strängen ska korsas i utdata HTML med HtmlCrossType**
+- [**HtmlCrossType.FIT_TO_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlcrosstype#FIT_TO_CELL): Visar endast strängen inom cellens bredd.
 
-Följande exempelkod laddar[exempel på Excel-fil](51740747.xlsx)och sparar den till HTML-format genom att ange olika[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType). Vänligen ladda ner[utgång HTML](51740745.zip) filer genererade med denna kod. Exemplet i Excel-filen innehåller bilden kantad med röd färg som visas i den här skärmdumpen som visar effekten av[**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType)värden på utgång HTML.
+## **Ange hur man korsar sträng i utmatnings-HTML med HtmlCrossType**
+
+Följande exempelkod laddar [inledande Excel-fil](51740747.xlsx) och sparar den i HTML-format genom att specificera olika [**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType). Vänligen ladda ner [utdata-HTML](51740745.zip) filerna genererade med denna kod. Den inledande Excel-filen innehåller bilden med röd ram som visas i detta skärmbild som visar effekten av [**HtmlCrossType**](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlCrossType) värden på utdata-HTML.
 
 ![todo:image_alt_text](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 

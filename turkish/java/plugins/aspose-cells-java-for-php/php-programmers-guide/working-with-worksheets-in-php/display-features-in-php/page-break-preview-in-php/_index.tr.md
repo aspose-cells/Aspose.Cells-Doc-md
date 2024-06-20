@@ -1,15 +1,16 @@
-﻿---
-title: Php'de Sayfa Sonu Önizlemesi
+---
+title: Php de Sayfa Aralığı Önizleme
 type: docs
 weight: 60
 url: /tr/java/page-break-preview-in-php/
 ---
-## **Aspose.Cells - Sayfa Sonu Önizlemesi**
- Çalışma sayfasını kullanarak sayfa sonu önizlemesini ayarlamak için**Aspose.Cells Java for PHP** , sadece çağırmak**PageBreakÖnizleme** modül.
 
-**PHP Kodu**
+## **Aspose.Cells - Sayfa Kesme Önizlemesi**
+**Aspose.Cells Java for PHP** kullanarak çalışma sayfasını sayfa aralığı önizlemesi olarak ayarlamak için **PageBreakPreview** modülünü çağırın.
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -31,6 +32,6 @@ $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Sayfa Sonu Önizlemesi (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+İndirin **Sayfa Kesme Önizlemesi (Aspose.Cells)**	any of the aşağıda bahsedilen sosyal kodlama sitelerinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/PageBreakPreview.php)

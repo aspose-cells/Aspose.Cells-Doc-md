@@ -1,45 +1,44 @@
 ---
-title: Congelar las primeras columnas de la hoja de cálculo de Excel
-linktitle: Congelar columnas
+title: Congelar la Primera(s) Columna(s) de una Hoja de Cálculo de Excel
+linktitle: Congelar Columnas
 type: docs
 weight: 190
 url: /es/net/how-to-freeze-columns-of-excel-worksheet
-description: En este artículo, aprenderá cómo congelar las columnas izquierdas de las hojas de cálculo de Excel mediante programación utilizando la biblioteca C# con .NET API.
-keywords: Freeze left columns, Feeze first columns, Lock the column(s)
+description: En este artículo, aprenderás a congelar las columnas izquierdas de las Hojas de Cálculo de Excel de forma programática utilizando la Biblioteca C# con API .NET.
+keywords: Congelar columnas izquierdas, Congelar primeras columnas, Bloquear la(s) columna(s)
 ---
-{{% alert color="primary" %}}
 
-En este artículo, aprenderemos cómo congelar las columnas de la izquierda.
-Cuando tiene una gran cantidad de datos en una fila, no puede ver las columnas de la izquierda cuando se desplaza horizontalmente hacia abajo en la hoja de trabajo. Puede congelar y bloquear las primeras columnas para poder ver esa parte congelada incluso cuando se desplaza el resto de los datos. Puede ver fácilmente los encabezados en las columnas de la izquierda.
+## **Introducción**
 
-{{% /alert %}}
-
-##  **Congelar columnas en Excel**
-
-**![Congelar columna(s) izquierda(s) en Excel](freeze-columns.png)**
+En este artículo, aprenderemos cómo congelar la(s) columna(s) izquierda(s). Cuando tienes una gran cantidad de datos en una fila, es imposible ver las columnas izquierdas al desplazar horizontalmente la hoja de cálculo. Puedes congelar y bloquear la(s) primera(s) columna(s) para poder ver esa porción congelada incluso al desplazarte por el resto de los datos. Podrás ver fácilmente los encabezados en las columnas izquierdas.
 
 
-1. Si desea congelar las columnas de la izquierda, primero seleccione la columna debajo de la columna que necesita congelarse
-2. Haga clic en Ver > Congelar paneles.
-3. En el menú desplegable, haga clic en Congelar primera columna.
-4. Si se desplaza hacia abajo, la primera columna siempre está en la vista izquierda.
+## **Congelar Columnas en Excel**
 
-**![Columna Fonzen](columnas-congeladas.png)**
+**![Congelar columnas izquierdas en Excel](freeze-columns.png)**
 
-Como puede ver, la primera columna está congelada, la primera columna siempre está bloqueada en la parte superior de la vista cuando se desplaza horizontalmente.
 
-Congelar columnas le permite ver sus datos extensos sin realizar un seguimiento de la primera columna.
+1. Si deseas congelar la(s) columna(s) izquierda(s), primero selecciona la columna debajo de la que se debe congelar.
+2. Haz clic en Ver > Congelar paneles.
+3. En el menú desplegable, haz clic en Congelar Primera columna.
+4. Si te desplazas hacia abajo, la primera columna siempre estará en la vista izquierda.
 
+**![Columna congelada](frozen-columns.png)**
+
+Como se puede ver, la primera columna está congelada, así estará siempre bloqueada en la parte superior de la vista al desplazarte horizontalmente.
+
+Congelar Columnas te permite ver tus datos largos sin necesidad de hacer un seguimiento de la primera columna.
 
 
 
-##  **Congelar columnas con Aspose.Cells para .Net**
-Es sencillo congelar las primeras columnas con Aspose.Cells para .Net.
- Por favor use el[**Hoja de trabajo.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/)método para dividir la(s) columna(s) en la columna seleccionada.
-1. Construya un libro de trabajo para abrir el archivo o crear un archivo vacío.
-2. Congele la primera columna con el método Worksheet.FreezePanes().
-3. Guarde el archivo.
+
+## **Congelar Columnas con Aspose.Cells para .Net**
+Es sencillo congelar la(s) primera(s) columna(s) con Aspose.Cells para .Net. 
+Por favor, utiliza el método [**Worksheet.FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/freezepanes/) para congelar la(s) columna(s) en la columna seleccionada.
+1. Construir un libro de trabajo para abrir el archivo o crear un archivo vacío.
+2. Congelar la primera columna con el método Worksheet.FreezePanes().
+3. Guarda el archivo.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Freeze-Column.cs" >}}
 
- Adjunto[archivo Excel fuente de muestra](Freeze.xlsx).
+Adjunto [archivo de Excel de origen de muestra](Freeze.xlsx).

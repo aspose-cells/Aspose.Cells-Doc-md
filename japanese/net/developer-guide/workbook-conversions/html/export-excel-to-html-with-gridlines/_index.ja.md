@@ -1,16 +1,17 @@
-﻿---
-title: Excel を HTML に GridLines でエクスポート
+---
+title: グリッドライン付きでExcelをHTMLにエクスポートする
 type: docs
 weight: 40
 url: /ja/net/export-excel-to-html-with-gridlines/
 ---
+
 {{% alert color="primary" %}} 
 
-GridLines を使用して Excel ファイルを HTML にエクスポートする場合は、[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines)プロパティと設定**真実**.
+ExcelファイルをHTMLにエクスポートする際にGridLinesを表示する場合は、[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines)プロパティを使用し、**true**に設定してください。
 
 {{% /alert %}} 
-## **Excel を HTML に GridLines でエクスポート**
-次のサンプル コードでは、ワークブックを作成し、そのワークシートにいくつかの値を入力し、設定後に HTML 形式で保存します。[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines)に**真実**.
+## **グリッドライン付きでExcelをHTMLにエクスポートする**
+次のサンプルコードでは、ワークブックを作成し、ワークシートに値を入力し、[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) を**true**に設定した後、HTML形式で保存します。
 
 
 

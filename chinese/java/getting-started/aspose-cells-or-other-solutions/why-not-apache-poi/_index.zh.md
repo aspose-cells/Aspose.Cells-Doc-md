@@ -1,10 +1,10 @@
 ---
-title: Aspose.Cells Java 适用于 Apache POI SS - HSSF 和 XSSF
+title: Aspose.Cells Java 适用于 Apache POI SS  HSSF 和 XSSF
 linktitle: 为什么不使用Apache POI
 type: docs
 weight: 40
 url: /zh/java/aspose-cells-java-for-apache-poi-ss-hssf-and-xssf/
-description: 为什么不使用Apache POI SS - HSSF和XSSF
+description: 为什么不使用Apache POI SS  HSSF和XSSF
 ---
 
 {{% alert color="primary" %}}

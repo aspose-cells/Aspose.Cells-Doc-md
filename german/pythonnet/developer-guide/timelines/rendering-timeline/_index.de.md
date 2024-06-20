@@ -1,18 +1,19 @@
 ---
-title: Rendering-Zeitleiste
+title: Zeitachse rendern
 type: docs
 weight: 40
 url: /de/python-net/rendering-timeline/
-description: Verwalten Sie Zeitleisten von Excel-Dateien mit Aspose.Cells for Python via .NET.
-keywords: Rendering timeline without office 2013, office 2016, office 2019 and office 365
+description: Zeitleisten von Excel Dateien mit Aspose.Cells für Python via .NET verwalten.
+keywords: Zeitleisten von Excel Dateien mit Aspose.Cells für Python via .NET verwalten.
 ---
-##  **Mögliche Nutzungsszenarien**
-Aspose.Cells for Python via .NET unterstützt das Rendern von Zeitleistenformen ohne Verwendung von Office 2013, Office 2016, Office 2019 und Office 365. Wenn Sie Ihr Arbeitsblatt in ein Bild konvertieren oder Ihre Arbeitsmappe in den Formaten PDF oder HTML speichern, werden Sie sehen, dass Zeitleisten ordnungsgemäß gerendert werden .
 
-##  **Rendering-Zeitleiste**
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](input.xlsx) das eine vorhandene Zeitleiste enthält. Rufen Sie das Formobjekt entsprechend dem Namen der Zeitleiste ab und rendern Sie es dann mit der Methode Shape.to_image() in ein Bild. Das fließende Bild ist das[Ausgabebild](out.png) Das zeigt die gerenderte Zeitleiste. Wie Sie sehen können, wurde die Zeitleiste ordnungsgemäß gerendert und sieht genauso aus wie in der Beispiel-Excel-Datei.
+## **Mögliche Verwendungsszenarien**
+Aspose.Cells für Python via .NET unterstützt die Darstellung einer Zeitleistenform ohne Verwendung von Office 2013, Office 2016, Office 2019 und Office 365. Wenn Sie Ihr Arbeitsblatt in ein Bild konvertieren oder Ihre Arbeitsmappe in PDF- oder HTML-Formate speichern, sehen Sie, dass die Zeitleisten ordnungsgemäß gerendert werden.
+
+## **Zeitachse mit der Aspose.Cells für Python Excel-Bibliothek rendern**
+Der folgende Beispielscode lädt die [Beispiel-Excel-Datei](input.xlsx), die eine vorhandene Zeitachse enthält. Erhalten Sie das Formularelement entsprechend dem Namen der Zeitachse und rendert es dann in ein Bild durch die Methode Shape.to_image(). Das resultierende Bild ist das [Ausgabebild](out.png), das die gerenderte Zeitachse zeigt. Wie Sie sehen können, wurde die Zeitachse ordnungsgemäß gerendert und sieht genauso aus wie in der Beispiel-Excel-Datei.
 
 ![todo:image_alt_text](out.png)
-###  **Beispielcode**
+### **Beispielcode**
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Timelines-RenderingTimeline.py" >}}
 

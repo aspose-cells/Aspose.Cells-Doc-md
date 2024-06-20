@@ -1,16 +1,17 @@
-﻿---
-title: Copiar y mover hojas de trabajo en Python
+---
+title: Copiar y Mover Hojas de Cálculo en Python
 type: docs
 weight: 10
 url: /es/java/copying-and-moving-worksheets-in-python/
 ---
-## **Aspose.Cells - Copiar y mover hojas de trabajo**
-### **Copiar hojas de trabajo dentro de un libro de trabajo**
- Para copiar la hoja de trabajo usando**Aspose.Cells for Java en rubí** , llamada**copiar_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
+
+## **Aspose.Cells - Copiar y Mover hojas de cálculo**
+### **Copiar Hojas de Cálculo dentro de un Libro de Trabajo**
+Para copiar una hoja de cálculo usando **Aspose.Cells for Java en Ruby**, llama al método **copy_worksheet** del módulo **copyworksheets**. A continuación puedes ver un ejemplo de código.
 
 **Código Python**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  def copy_worksheet(self):  
 
@@ -62,7 +63,7 @@ workbook.save(self.dataDir + "Move_Worksheet.xls")
 print "Move worksheet, please check the output file."
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Copiar y mover hojas de trabajo (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Copiar y Mover Hojas de Cálculo (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -1,33 +1,36 @@
-﻿---
-title: GridDesktop'ta Çalışma Sayfasında Yakınlaştırma veya Uzaklaştırma
+---
+title: GridDesktop ta Çalışma Sayfasında Yakınlaşma veya Uzaklaşma
 type: docs
 weight: 160
-url: /tr/net/zooming-in-or-out-on-the-worksheet-in-griddesktop/
+url: /tr/net/aspose-cells-griddesktop/zoom-in-or-out-on-the-worksheet-in-griddesktop/
+keywords: GridDesktop, yakınlaştırma, yakınlaştırma, uzaklaştırma
+description: Bu makale, GridDesktop da yakınlaştırma veya uzaklaştırma nasıl yapılır konusunu ele almaktadır.
 ---
+
 {{% alert color="primary" %}} 
 
-Bazen verilerinizle çalışırken yazı tipi boyutunu gerçekten değiştirmeden ekrandaki içeriği büyütmek isteyebilirsiniz. Örneğin, metninizi küçük bir yazı tipi kullanacak şekilde biçimlendirmiş olabilirsiniz. (Bu genellikle tüm bilgilerinizi bir çıktıda almak için gereklidir.) Bununla birlikte, çalışma sayfasında çalışırken yazı tipi çok küçük olduğu için okunması zordur.
+Verilerinizle çalışırken bazen gerçekten yazı tipi boyutunu değiştirmeden ekran üzerindeki içeriği genişletmek isteyebilirsiniz. Örneğin, metnin tüm bilgilerinizi bir çıktıda almak için küçük bir yazı tipi kullanması gerekebilir. Ancak, çalışma sayfasında yazı tipi çok küçük olduğu için okuması zor olabilir.
 
-Microsoft Excel'de, belgeleri hızlı ve kolay bir şekilde yakınlaştırmak ve uzaklaştırmak için bir yakınlaştırma kaydırıcısı mevcuttur. Yakınlaştırma kaydırıcısı genellikle yazılım penceresinin sağ alt köşesindedir.
+Microsoft Excel'de belgelerin hızlı ve kolay bir şekilde yakınlaştırılmasını ve uzaklaştırılmasını sağlayan bir yakınlaştırma kaydırıcısı bulunmaktadır. Yakınlaştırma kaydırıcısı genellikle yazılım penceresinin sağ alt köşesinde bulunur.
 
-Aspose.Cells ayrıca geliştiricilerin çalışma sayfasının yakınlaştırma faktörünü ayarlamasına olanak tanır, böylece içerikler istediğiniz yüzde değerine göre görünmelidir.
+Aspose.Cells ayrıca geliştiricilere çalışma sayfasının yakınlaştırma faktörünü belirlemelerine izin verir, böylece içerikler istediğiniz yüzde değerine göre görüntülenir.
 
 {{% /alert %}} 
 ## **Aspose.Cells.GridDesktop Kullanarak Yakınlaştırma veya Uzaklaştırma**
-Aspose.Cells, çalışma sayfalarını yönetmek için çok çeşitli özelliklere ve yöntemlere sahip Aspose.Cells.GridDesktop.Worksheet sınıfını sağlar. Bir çalışma sayfasının yakınlaştırma faktörünü ayarlamak için Worksheet sınıfının Yakınlaştırma özelliğini kullanın. Yakınlaştırma faktörü, Yakınlaştırma özelliğine sayısal (tamsayı) bir değer atanarak ayarlanır.
+Aspose.Cells, ASP.NET web formlarına diğer Microsoft .NET Framework tarafından sağlanan web denetimleri gibi GridWeb'i gömülebilen bir GUI tabanlı web denetimi olan Aspose.Cells.GridWeb'i sağlar. Bir web denetimi hakkındaki en önemli şey, çapraz tarayıcı desteği sağlamaktır. Aspose.Cells.GridWeb çapraz tarayıcı desteği sağlar.
 
-TrackBar (.NET) kontrolünü kullanarak yakınlaştırma kaydırıcısı benzeri bir MS Excel oluşturuyoruz. Bir WinForm projesinde, Toolbox'tan Aspose.Cells.GridDesktop kontrolünü forma yerleştirir ve adını, boyutunu veya diğer yönlerini buna göre ayarlamak için bazı özellikler belirtiriz. Şimdi TrackBar kontrolünü @ sağ alt köşeye GridDesktop kontrolünün altına yerleştiriyoruz, ayrıca TrackBar kontrolünün tutamacı aracılığıyla belirttiğiniz yüzde değerini gösterecek bir Etiket kontrolü koyuyoruz. TrackBar'ın Scroll olayına göreli kod satırları ekliyoruz, böylece Trackbar kontrolünü kaydırdığınızda, GridDesktop içindeki verileri/içeriği göstermek için yakınlaştırmalı veya uzaklaştırmalıdır.
+Biz, TrackBar (.NET) kontrolünü kullanarak bir MS Excel benzeri yakınlaştırma kaydı oluşturuyoruz. Bir WinForm projesinde, Toolbox'tan Aspose.Cells.GridDesktop kontrolünü forma yerleştirir ve adını, boyutunu veya diğer yönlerini ayarlamak için bazı özellikler belirleriz. Şimdi, GridDesktop kontrolünün alt sağ köşesine TrackBar kontrolünü yerleştiriyoruz ve alttaki Label kontrolünü de TrackBar kontrolünün sapı aracılığıyla belirttiğiniz yüzde değerini gösterecek şekilde koyuyoruz. TrackBar'ın Scroll etkinliğine ilgili kod satırlarını ekleriz, böylece TrackBar kontrolünü kaydırdığınızda, GridDesktop'ın verilerini/ içeriklerini gösterecek şekilde yakınlaştırabilir veya uzaklaştırabilirsiniz.
 
-Aşağıda, GridDesktop'un etkin çalışma sayfasının yakınlaştırma faktörünü ayarlamak için Yakınlaştırma özelliğinin nasıl kullanılacağını gösteren eksiksiz bir örnek verilmiştir. Öncelikle bir şablon Excel dosyasını GridDesktop'a aktarıyoruz.
+Etkinleştirme tablosunun zoom özelliğini kullanarak GridDesktop'ın etkin çalışma sayfasının yakınlaştırma faktörünü ayarlamayı gösteren aşağıdaki tam örnek verilmiştir. İlk olarak, bir şablon Excel dosyasını GridDesktop'a içe aktarıyoruz.
 
-Şablon Excel dosyasını GridDesktop'ta ve izleme çubuğu değerini ayarlamak için formun Load olayına aşağıdaki kodu yazın.
+Formun Yükleme etkinliğine aşağıdaki kodu yazın ve şablon Excel dosyasını GridDesktop'a ayarlayın ve izli çubuk değerini belirleyin.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ZoomingInOut-LoadEvent.cs" >}}
 
 
-Şimdi track scroll olayının içindeki aşağıdaki kodu kopyalayın ve uygulamayı çalıştırın. Hareket eden izleme çubuğunun çalışma sayfasının yakınlaştırma özelliğini değiştireceğini fark edeceksiniz.
+Şimdi, aşağıdaki kodu izle kaydırma etkinliği içine kopyalayın ve uygulamayı çalıştırın. İzli çubuğu hareket ettirdiğinizde, çalışma sayfasının zoom özelliğinin değiştiğini fark edeceksiniz.
 
 
 

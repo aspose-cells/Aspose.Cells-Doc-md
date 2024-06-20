@@ -1,155 +1,158 @@
-﻿---
-title: Format Cells
+---
+title: Formatera cell
 type: docs
 weight: 40
-url: /sv/net/format-grid-cells/
+url: /sv/net/aspose-cells-gridweb/format-grid-cell/
+keywords: GridWeb, format, stil
+description: Den här artikeln introducerar hur man ställer in eller tillämpar stilformat för en cell (GridCell) i GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-Det här ämnet ger en detaljerad diskussion om hur man formaterar celler.
+Detta ämne ger en detaljerad diskussion om hur man formaterar celler.
 
-Den täcker formatering av celler i GUI-läge med hjälp av Aspose.Cells.GridWeb-kontrollens stildialog. Den visar också hur man formaterar celler programmatiskt. Olika formatinställningar som typsnitt, ram och talformat diskuteras, illustrerade med exempel.
+Det täcker formatering av celler i GUI-läge med hjälp av Aspose.Cells.GridWeb-kontrollens stil-dialog. Det visar också hur man formaterar celler programmatiskt. Olika formatinställningar som typsnitt, ram och nummerformat diskuteras, illustreras med exempel.
 
 {{% /alert %}} 
-## **Formatering Cells Använda stildialogrutan**
- Cells kan formateras[programmatiskt](/cells/sv/net/format-cells/)men det enklaste sättet att formatera celler i Aspose.Cells.GridWeb-kontrollen på ett WYSIWYG-sätt är att använda dialogrutan Stil.
+## **Formatering av celler med hjälp av stil-dialogen**
+Celler kan formateras [programmatiskt](/cells/sv/net/aspose-cells-gridweb/format-cells/) men det enklaste sättet att formatera celler i Aspose.Cells.GridWeb-kontrollen på ett WYSIWYG-sätt är att använda stil-dialogen.
 
-Så här använder du dialogrutan Stil:
- Välj ett cellintervall och högerklicka sedan och välj**Format Cell**. 
+För att använda stil-dialogen:
+Välj ett cellintervall och högerklicka sedan för att välja **Formatera cell**. 
 
-**Välj format Cell** 
+**Välja Formatera cell** 
 
 ![todo:image_alt_text](format-cells_1.png)
 
 
 
- Dialogrutan Stil visas.
+Dialogrutan för stil visas. 
 
-**Formatdialogen används för att formatera celler** 
+**Stil dialogrutan används för att formatera celler** 
 
 ![todo:image_alt_text](format-cells_2.png)
 
-Dialogrutan Stil låter användarna formatera celler genom att anpassa teckensnitt och raminställningar.
-### **Anpassa teckensnittsinställningar**
-Du kan anpassa följande teckensnittsinställningar med hjälp av dialogrutan Stil:
+Dialogrutan för stil låter användare formatera celler genom att anpassa font- och kantinställningar.
+### **Anpassa fontinställningar**
+Du kan anpassa följande fontinställningar med hjälp av stil dialogrutan:
 
-- Teckensnittsnamn, välj önskat teckensnitt i listan.
-- Teckensnittsstil, använd en typsnittsstil som fetstil, kursiv etc.
-- Teckenstorlek, välj en teckenstorlek i punkter.
-- Understryka, understryka text.
-- Genomstruken, tillämpa en genomstruken effekt på text.
+- Fontnamn, välj en önskad font från listan.
+- Fontstil, tillämpa en fontstil som fet, kursiv etc.
+- Fontstorlek, välj en fontstorlek i punkter.
+- Understrykning, understryk text.
+- Genomstrykning, tillämpa en genomstryknings effekt på text.
 - Horisontell justering, välj horisontell justering.
 - Vertikal justering, välj vertikal justering.
-- Teckensnittsfärg, välj en teckensnittsfärg.
+- Fontfärg, välj en fontfärg.
 - Bakgrund, välj en färg för bakgrunden.
 
-Du kan kontrollera de valda teckensnittsinställningarna i ett litet förhandsvisningsområde.
+Du kan kontrollera de valda fontinställningarna i en liten förhandsgransknings area.
 
-**Anpassade teckensnittsinställningar** 
+**Anpassade fontinställningar** 
 
 ![todo:image_alt_text](format-cells_3.png)
-### **Anpassa gränsinställningar**
-Kontrollen tillåter också användare att rita en ram runt celler genom att anpassa raminställningarna i dialogrutan Stil.
+### **Anpassa kantinställningar**
+Kontrollen tillåter också användare att rita en kant runt celler genom att anpassa kantinställningarna i stil dialogrutan.
 
-Så här visar du gränsrelaterade alternativ:
- Klick**Gränser** i dialogrutan Stil.
- Kantrelaterade alternativ visas.
+För att visa kantrelaterade alternativ:
+Klicka på **Kanter** i stil dialogrutan.
+Kantrelaterade alternativ visas. 
 
-**Kantalternativ i stildialogrutan** 
+**Kantalternativ i stil dialogrutan** 
 
 ![todo:image_alt_text](format-cells_4.png)
 
-Följande kantalternativ kan väljas från dialogrutan Stil:
+Följande kantalternativ kan väljas från stil dialogrutan:
 
-- Kantlinjestil, välj kantstil som heldragen, streckad etc.
+- Kantlinjestil, välj kantstilen som solid, streckad etc.
 - Kantlinjebredd, välj kantbredd i pixlar.
 - Kantlinjefärg, välj linjefärg.
 - Kantlinjer, välj numrering och placering av kantlinjer.
 
-**Anpassade gränsinställningar** 
+**Anpassade kantinställningar** 
 
 ![todo:image_alt_text](format-cells_5.png)
-### **Tillämpa inställningar**
- Klick**OK** i dialogrutan Stil för att tillämpa ändringarna.
+### **Tillämpar inställningar**
+Klicka på **OK** i Stil-dialogrutan för att tillämpa ändringarna.
 
-**Teckensnitt och kantinställningar tillämpas** 
+**Teckensnitts- och kantinställningar har tillämpats** 
 
 ![todo:image_alt_text](format-cells_6.png)
 
 
-## **Formatera Cells med API**
-Cells kan också formateras programmatiskt med Aspose.Cells.GridWeb API. Varje cell har en Style-egenskap, som representerar ett GridTableItemStyle-objekt. Använd egenskapen Style för att anpassa teckensnitts- och raminställningar.
-### **Ställa in teckensnitt**
-Så här anpassar du teckensnittsinställningar programmatiskt:
+## **Formaterar celler med hjälp av API:et**
+Celler kan också formateras programmatiskt med hjälp av Aspose.Cells.GridWeb API. Varje cell har en Style-egenskap som representerar ett GridTableItemStyle-objekt. Använd Style-egenskapen för att anpassa teckensnitts- och kantinställningar.
+### **Inställning av teckensnitt**
+För att anpassa teckensnittsinställningar programmatiskt:
 
-1. Lägg till Aspose.Cells.GridWeb-kontrollen till ett webbformulär.
-1. Få tillgång till ett arbetsblad.
-1. Gå till cellen du formaterar.
-1. Få åtkomst till cellens stil.
-1. Ställ in teckenstorleken i punkter.
-1. Ställ in teckensnittsstilen.
-1. Ställ in förgrunds- och bakgrundsfärger.
-1. Ställ in horisontell och vertikal justering.
-1. Ställ tillbaka stilen till cellen.
+1. Lägg till Aspose.Cells.GridWeb-kontrollen i en webbformulär.
+2. Hämta ett arbetsblad.
+1. Öppna den cell du formaterar.
+1. Öppna cellens stil.
+1. Ange teckensnittets storlek i punkter.
+1. Ange teckensnittets stil.
+1. Ange bakgrundsfärg och förgrundsfärg.
+1. Ange horisontell och vertikal justering.
+1. Återställ stilen till cellen.
 
-**Utdata: anpassade teckensnittsinställningar som visas i A1** 
+**Resultat: anpassade teckensnittsinställningar visas i A1** 
 
 ![todo:image_alt_text](format-cells_7.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyFontStyles.cs" >}}
-### **Ställa in gränser**
+### **Inställning av kanter**
 Kanter kan tillämpas på enskilda celler eller på ett område.
-#### **Singel Cell**
-Så här ställer du in gränserna för en enskild cell:
+#### **Enskild cell**
+För att ställa in kanterna på en enskild cell:
 
-1. Lägg till Aspose.Cells.GridWeb-kontrollen till ett webbformulär.
-1. Få tillgång till ett arbetsblad.
-1. Gå till cellen du ska formatera.
-1. Öppna cellens stilobjekt.
-1. Ställ in kantstilen.
-1. Ställ in kantens bredd i pixlar.
-1. Ställ in kantfärgen.
-1. Ställ in stilen på cellen.
+1. Lägg till Aspose.Cells.GridWeb-kontrollen i en webbformulär.
+2. Hämta ett arbetsblad.
+1. Öppna den cell du ska formatera.
+1. Öppna cellens Style-objekt.
+1. Ange kanter stil.
+1. Ange kanternas bredd i pixlar.
+1. Ange kanternas färg.
+1. Ange stilen till cellen.
 
-**Anpassade kantinställningar på en enda cell** 
+**Anpassade kantinställningar på en enskild cell** 
 
 ![todo:image_alt_text](format-cells_8.png)
 
 {{% alert color="primary" %}} 
 
-Det är möjligt att ställa in olika stilar för varje kantlinje med cellens egenskaper Style.TopBorderStyle, Style.BottomBorderStyle, Style.LeftBorderStyle, Style.RightBorderStyle.
+Det är möjligt att ange olika stilar för varje kantlinje med cellens Style.TopBorderStyle, Style.BottomBorderStyle, Style.LeftBorderStyle, Style.RightBorderStyle egenskaper.
 
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyBorderStyles.cs" >}}
-#### **Räckvidd Cells**
-Så här ställer du in gränser för ett cellintervall:
+#### **Intervall av celler**
+För att ställa in kanter på en rad celler:
 
-1. Lägg till Aspose.Cells.GridWeb-kontroll till ditt webbformulär
-1. Öppna ett önskat arbetsblad
-1. Instantiera ett objekt av klassen WebBorderStyle
-1. Ställ in gränsens stil till solid eller streckad etc.
-1. Ställ in kantens bredd i pixlar
-1. Ställ in färg på gränsen
-1. Tillämpa kantinställningar lagrade i WebBorderStyle-objektet på ett specificerat cellområde
+1. Lägg till Aspose.Cells.GridWeb-kontroll i din webbformulär
+1. Åtkomst till önskad arbetsblad
+1. Instantiera en objekt av klassen WebBorderStyle
+1. Ställ in stil på kanten till Solid eller Dashed etc.
+1. Ställ in bredd på kanten i pixlar
+1. Ställ in färg på kanten
+1. Tillämpa kantinställningar som är lagrade i WebBorderStyle-objektet på en angiven cellradsintervall
 
-**En rad celler med anpassade raminställningar** 
+**Ett cellrad med anpassade kantinställningar** 
 
 ![todo:image_alt_text](format-cells_9.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-FormatCells.aspx-ApplyRangeBorderStyles.cs" >}}
-### **Ställa in talformat**
- Aspose.Cells.GridWeb stöder inställning av nummerformat. Det finns 59 inbyggda talformat. För att se dem, se detta[lista över talformat som stöds](/cells/sv/net/list-of-supported-number-formats/).
+### **Inställning av nummerformat**
+Aspose.Cells.GridWeb stödjer inställning av nummerformat. Det finns 59 inbyggda nummerformat. För att se dem, var god hänvisa till denna [lista över stödda nummerformat](/cells/sv/net/aspose-cells-gridweb/list-of-supported-number-formats/).
 
-Alla inbyggda talformat finns i NumberType-uppräkningen. För att använda ett inbyggt talformat, ställ in NumberType med SetNumberType-metoden för en cells objekt till ett talformat från NumberType-uppräkningen.
+Alla inbyggda nummerformat finns i NumberType-uppräkningen. För att använda ett inbyggt nummerformat, ställ in NumberType med hjälp av SetNumberType-metoden i cellens objekt till ett nummerformat från NumberType-uppräkningen.
 
-Använd cellens SetCustom-metod för att ställa in anpassat talformat.
+För att ställa in anpassat nummerformat, använd cellens SetCustom-metod.
 
-**Inställningar för nummerformat tillämpas på B1 och B2** 
+**Nummerformatinställningar som tillämpas på B1 och B2** 
 
 ![todo:image_alt_text](format-cells_10.png)
 

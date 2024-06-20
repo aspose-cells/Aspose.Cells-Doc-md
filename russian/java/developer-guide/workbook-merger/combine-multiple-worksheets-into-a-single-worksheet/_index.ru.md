@@ -1,60 +1,61 @@
 ---
-title: Объединение нескольких рабочих листов в один рабочий лист
+title: Объединение нескольких листов в один лист
 type: docs
 weight: 70
 url: /ru/java/combine-multiple-worksheets-into-a-single-worksheet/
-description: Объедините несколько листов в один, используя код Java и Aspose.Cells for Java API.
-keywords: combine multiple worksheets into one, combine multiple worksheets into one java, combine multiple worksheets into one with java, combine multiple worksheets into single worksheet with java, combine multiple worksheets into single worksheet java, java code to combine multiple worksheets into single worksheet, how to combine multiple worksheets into single worksheet with java, how to combine multiple worksheets into one with java, merge multiple worksheets into one with java, how to merge multiple worksheets into one java, how to merge multiple worksheets into one with java
+description: Объединение нескольких листов в один лист с использованием кода Java и API Aspose.Cells for Java.
+keywords: объединить несколько листов в один, объединить несколько листов в один java, объединить несколько листов в один с помощью java, объединить несколько листов в один лист с помощью java, объединить несколько листов в один лист java, java код для объединения нескольких листов в один лист, как объединить несколько листов в один лист с помощью java, как объединить несколько листов в один с помощью java, объединить несколько листов в один с помощью java, как объединить несколько листов в один java, как объединить несколько листов в один с помощью java
 ---
+
 {{% alert color="primary" %}}
 
-Иногда вам нужно объединить несколько листов в один. Этого можно легко добиться, используя Aspose.Cells API. В этой статье будет показан пример кода, который считывает исходную книгу и объединяет данные всех исходных листов в один лист внутри целевой книги.
+Иногда вам нужно объединить несколько листов в один. Это легко сделать с помощью API Aspose.Cells. В этой статье будет показан пример кода, который читает исходную книгу и объединяет данные всех исходных листов в один лист внутри целевой книги.
 
 {{% /alert %}}
 
-##  **Как объединить рабочие листы**
+## **Как объединить листы**
 
- В приведенном ниже примере используется[**Диапазон.копия()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) метод для копирования всех исходных листов на один лист внутри целевой книги.
+В приведенном ниже образце использован метод [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) для копирования всех исходных листов в один лист внутри целевой книги.
 
-###  **Исходная книга**
+### **Исходная рабочая книга**
 
-Вы можете использовать любую исходную книгу. В этом примере мы используем исходную книгу, содержащую три листа.
+Вы можете использовать любую исходную рабочую книгу. В этом примере мы используем исходную рабочую книгу, в которой есть три листа.
 
-**Рабочий лист 1**
+**Лист 1**
 
-![задача: image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_1.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_1.jpg)
 
-**Рабочий лист 2**
+**Лист 2**
 
-![задача: image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_2.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_2.jpg)
 
-**Рабочий лист 3**
+**Лист 3**
 
-![задача: image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_3.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_3.jpg)
 
-###  **Выходная книга**
+### **Выходная рабочая книга**
 
-Выполнение следующего кода создает книгу с одним листом, содержащим данные всех трех листов.
+Запуск следующего кода создает рабочую книгу с одним листом, содержащим данные всех трех листов.
 
-**Выходной лист теперь содержит данные всех трех исходных листов.**
+**На выходном листе теперь содержатся данные всех 3 исходных листов**
 
-![задача: image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
 
-##  **Загрузка исходной книги и выходной книги**
+## **Загрузить исходную рабочую книгу и выходную рабочую книгу**
 
-- [Исходная книга](5473078.xlsx)
-- [Выходная книга](5473079.xlsx)
+- [Исходная рабочая книга](5473078.xlsx)
+- [Выходная рабочая книга](5473079.xlsx)
 
-###  **Пример кода для объединения нескольких листов в один лист**
+### **Пример кода для объединения нескольких листов в один лист**
 
-В следующем фрагменте кода показано, как объединить несколько листов в один.
+Приведенный ниже фрагмент кода показывает, как объединить несколько листов в один лист.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CombineMultipleWorksheets-CombineMultipleWorksheets.java" >}}
 
-##  **Дополнительные ресурсы**
+## **Дополнительные ресурсы**
 
 {{% alert color="primary" %}}
 
- Вы можете найти[Объединение нескольких книг в одну книгу](/cells/ru/java/combine-multiple-workbooks-into-a-single-workbook/) статья полезна для получения дополнительной информации.
+Вы можете найти полезной статью [Объединение нескольких рабочих книг в одну рабочую книгу](/cells/ru/java/combine-multiple-workbooks-into-a-single-workbook/) для получения дополнительной информации.
 
 {{% /alert %}}

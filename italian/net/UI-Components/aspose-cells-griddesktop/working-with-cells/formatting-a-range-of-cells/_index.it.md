@@ -1,20 +1,23 @@
-﻿---
-title: Formattazione di un intervallo di Cells
+---
+title: Formattazione di un Intervallo di Celle
 type: docs
 weight: 60
-url: /it/net/formatting-a-range-of-cells/
+url: /it/net/aspose-cells-griddesktop/formatting-a-range-of-cells/
+keywords: GridDesktop, formattazione, stile, celle
+description: Questo articolo introduce come applicare lo stile di formattazione alle celle in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Questo argomento appartiene anche alla serie di argomenti relativi all'applicazione delle impostazioni dei caratteri e di altri stili di formattazione sulle celle. I nostri ultimi argomenti hanno trattato bene la gestione di tali funzionalità. Ad esempio, puoi fare riferimento a[Modifica del carattere e del colore di un Cell](/cells/it/net/changing-the-font-and-color-of-a-cell/) e[Applicazione di stili su Cells](/cells/it/net/applying-styles-on-cells/) argomenti per conoscere le stesse caratteristiche. Allora cosa c'è di nuovo in questo argomento se abbiamo già trattato questi concetti. Bene, l'unica differenza di questo argomento rispetto ai precedenti è che applicheremo le impostazioni di formattazione (relative a caratteri e altri stili) su un intervallo di celle invece che su una singola cella. Speriamo che troverai ancora questo argomento utile per te.
+Questo argomento fa parte della serie di argomenti relativi all'applicazione delle impostazioni del carattere e altri stili di formattazione alle celle. I nostri ultimi argomenti hanno trattato ampiamente su come gestire tali funzionalità. Ad esempio, puoi fare riferimento ai [Cambiamenti del Carattere e Colori di una Cella](/cells/it/net/changing-the-font-and-color-of-a-cell/) e [Applicare Stili alle Celle](/cells/it/net/applying-styles-on-cells/) per apprendere le stesse funzionalità. Qual è la novità di questo argomento se abbiamo già trattato questi concetti. Beh, l'unica differenza di questo argomento rispetto ai precedenti è che applicheremo le impostazioni di formattazione (relative a caratteri e altri stili) a un intervallo di celle anziché solo a una singola cella. Speriamo che troverai comunque utile questo argomento.
 
 {{% /alert %}} 
-## **Impostazione di carattere e stile di un intervallo di Cells**
- Prima di parlare delle impostazioni di formattazione (di cui abbiamo già parlato molto nei nostri argomenti precedenti), dovremmo sapere come creare un intervallo di celle. Bene, possiamo creare un intervallo di celle usando**CellRange** classe il cui costruttore accetta alcuni parametri per specificare l'intervallo di celle. Possiamo specificare l'intervallo di celle utilizzando il**Nomi** o**Indici di riga e colonna** delle celle di inizio e di fine.
+## **Impostazione del Carattere e dello Stile di un Intervallo di Celle**
+Prima di parlare delle impostazioni di formattazione (di cui abbiamo già parlato molto nei nostri argomenti precedenti), dovremmo sapere come creare un intervallo di celle. Bene, possiamo creare un intervallo di celle utilizzando la classe **CellRange** il cui costruttore richiede alcuni parametri per specificare l'intervallo di celle. Possiamo specificare l'intervallo di celle utilizzando i **Nomi** o gli **Indici di Riga e Colonna** delle celle di inizio e fine.
 
- Una volta creato un file**CellRange** oggetto quindi possiamo usare le versioni sovraccaricate di**Imposta stile**, **ImpostaFont** & **ImpostaColoreFont** metodi di Foglio di lavoro che possono richiedere a**CellRange** oggetto per applicare le impostazioni di formattazione all'intervallo di celle specificato.
+Una volta creato un oggetto **CellRange** possiamo utilizzare le versioni sovraccaricate dei metodi **SetStyle**, **SetFont** e **SetFontColor** di Worksheet che possono prendere un oggetto **CellRange** per applicare le impostazioni di formattazione all'intervallo specificato di celle.
 
-Diamo un'occhiata a un esempio per comprendere questo concetto di base.
+Diamo un'occhiata a un esempio per capire questo concetto di base.
 
 
 

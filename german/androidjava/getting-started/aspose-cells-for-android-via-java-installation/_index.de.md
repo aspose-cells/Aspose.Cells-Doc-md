@@ -1,18 +1,19 @@
-﻿---
-title: Aspose.Cells for Android via Java Installation
+---
+title: Aspose.Cells für Android via Java Installation
 type: docs
 weight: 30
 url: /de/java/aspose-cells-for-android-via-java-installation/
 ---
-## **System Anforderungen**
-Aspose.Cells for Android via Java ist plattformunabhängig und kann auf jeder Plattform verwendet werden, auf der die Android-Laufzeitumgebung installiert ist, und läuft auf Android-Systemen mit Android OS 2.0 oder höher. Derzeit wurde das Bauteil getestet mit:
 
-- Android 5.1 Version 22
-## **Installieren Sie Aspose.Cells for Android via Java aus dem Maven-Repository**
-1. Fügen Sie das Repository maven zu Ihrem Build hinzu.gradle
-1. Fügen Sie 'Aspose.Cells for Android via Java' JAR als Abhängigkeit hinzu
+## **Systemanforderungen**
+Aspose.Cells für Android via Java ist plattformunabhängig und kann auf jeder Plattform verwendet werden, auf der die Android-Laufzeitumgebung installiert ist und auf Android-Systemen mit Android OS 2.0 oder höher ausgeführt wird. Derzeit wurde das Komponente mit folgendem getestet:
 
-{{< highlight "java" >}}
+- Android 5.1 v 22
+## **Installieren Sie Aspose.Cells für Android via Java aus dem Maven-Repository**
+1. Fügen Sie das Maven-Repository in Ihre build.gradle-Datei ein 
+1. Fügen Sie 'Aspose.Cells für Android via Java' JAR als Abhängigkeit hinzu
+
+{{< highlight java >}}
 
  // 1. Add maven repository into your build.gradle 
 
@@ -37,57 +38,57 @@ dependencies {
 }
 
 {{< /highlight >}}
-## **So verwenden Sie Aspose.Cells for Android via Java**
-Dieses Thema führt Sie durch die erforderlichen Schritte zum Einrichten von Aspose.Cells for Android via Java in Android Studio IDE, vorausgesetzt, Sie haben bereits die neueste Version von Android Studio auf Ihrem Computer installiert und Sie haben auch die neueste Version des Pakets Aspose.Cells for Android via Java erworben.
+## **Verwendung von Aspose.Cells für Android via Java**
+Dieses Thema führt Sie durch die notwendigen Schritte zur Einrichtung von Aspose.Cells für Android via Java in der Android Studio-IDE, vorausgesetzt, dass Sie bereits die neueste Version von Android Studio auf Ihrem Rechner installiert haben und auch die neueste Version des Aspose.Cells für Android via Java-Pakets erworben haben.
 
 {{% alert color="primary" %}} 
 
-Wenn Sie Android Studio noch nicht installiert haben, müssen Sie zuerst das Setup von Android Studio erwerben und auf Ihrem Computer installieren. Sie können die neueste Version von Android Studio von herunterladen[Hier](https://developer.android.com/studio/index.html#win-bundle) während die Details zur Installation der IDE verfügbar sind[Hier](https://developer.android.com/studio/install.html).
+Wenn Sie das Android Studio noch nicht installiert haben, müssen Sie zuerst das Setup von Android Studio erwerben und auf Ihrem Rechner installieren. Sie können die neueste Version von Android Studio von [hier](https://developer.android.com/studio/index.html#win-bundle) herunterladen, während die Details zur Installation der IDE [hier](https://developer.android.com/studio/install.html) verfügbar sind.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Aspose.Cells for Android via Java Paket kann heruntergeladen werden[Hier](https://downloads.aspose.com/cells/androidjava). Bitte beachten Sie, dass jedes Release-Paket von Aspose.Cells for Android via Java hauptsächlich aus 2 Dateien besteht, wie unten beschrieben.
+Das Aspose.Cells für Android via Java-Paket kann von [hier](https://downloads.aspose.com/cells/androidjava) heruntergeladen werden. Bitte beachten Sie, dass jedes Veröffentlichungspaket von Aspose.Cells für Android via Java hauptsächlich aus 2 Dateien besteht, wie unten detailliert.
 
-- **aspose-cells-xxxjar** ist die Hauptbibliotheksdatei, die alle Namespaces von Aspose.Cells for Android via Java API enthält.
-- **aspose-cells-xxx-libs.apk** ist das APK, das die Drittanbieterdatei bcprov-jdk15-146.jar enthält, die für Verschlüsselungs- und Entschlüsselungsfunktionen verwendet wird, die von Aspose.Cells for Android via Java API angeboten werden.
+- **aspose-cells-x.x.x.jar** ist die Hauptbibliotheksdatei, die alle Namespaces der Aspose.Cells für Android via Java-API enthält.
+- **aspose-cells-x.x.x-libs.apk** ist die APK, die die 3rd-Party-Datei bcprov-jdk15-146.jar enthält, die für die Verschlüsselungs- und Entschlüsselungsfunktionen der Aspose.Cells für Android via Java-API verwendet wird.
 
 {{% /alert %}} 
-### **Erste Schritte mit Aspose.Cells for Android via Java in Android Studio**
-Sobald die Android Studio IDE geladen ist, klicken Sie wie unten gezeigt auf Datei > Neu > Neues Projekt.
+### **Erste Schritte mit Aspose.Cells für Android via Java in Android Studio**
+Sobald die Android Studio IDE geladen ist, klicken Sie auf Datei > Neu > Neues Projekt, wie unten gezeigt.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_1.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_1.png)
 
-Sie können auch ein neues Projekt über den Begrüßungsbildschirm von Android Studio erstellen, wie unten gezeigt.
+Sie können auch ein neues Projekt von dem Begrüßungsbildschirm von Android Studio aus erstellen, wie unten gezeigt.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_2.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_2.png)
 
-Als Nächstes werden Sie aufgefordert, den Anwendungsnamen, die Domäne und den Speicherort zum Speichern der Projektdateien anzugeben. Sie können die Standardwerte nach Ihrer Wahl ändern oder sie unverändert lassen und auf Weiter klicken.
+Als nächstes werden Sie aufgefordert, den Anwendungsnamen, den Domainnamen und den Speicherort für die Projektdateien anzugeben. Sie können wählen, die Standardwerte nach Ihrem Wunsch zu ändern oder sie so zu belassen, wie sie sind, und auf Weiter klicken.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_3.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_3.png)
 
-Im nächsten Schritt müssen Sie das Android-Gerät angeben, auf dem Sie Ihre Anwendung hosten/ausführen möchten. Klicken Sie nach der Auswahl auf die Schaltfläche Weiter.
+Im nächsten Schritt müssen Sie das Android-Gerät auswählen, auf dem Sie Ihre Anwendung hosten/ausführen möchten. Nach der Auswahl klicken Sie auf die Schaltfläche Weiter.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_4.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_4.png)
 
-Jetzt müssen Sie die Aktivität aus einer vordefinierten Liste von Vorlagen auswählen. Um die Demonstration einfach zu halten, haben wir die Vorlage „Leere Aktivität“ ausgewählt, wie unten gezeigt.
+Sie müssen nun die Aktivität aus einer vordefinierten Liste von Vorlagen auswählen. Um die Demonstration einfach zu halten, haben wir die Vorlage für eine Leere Aktivität ausgewählt, wie unten gezeigt.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_5.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_5.png)
 
-Klicken Sie im Dialogfeld "Aktivität anpassen" auf die Schaltfläche "Fertig stellen", da alle Standardeinstellungen unverändert bleiben.
+Klicken Sie auf die Schaltfläche Fertig stellen im Dialogfeld zur Anpassung der Aktivität, da wir alle Standardeinstellungen beibehalten werden.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_6.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_6.png)
 
-Sobald Sie im vorherigen Schritt auf die Schaltfläche „Fertig stellen“ geklickt haben, beginnt die IDE mit dem Erstellen des Projekts, wie unten gezeigt. Lassen Sie es fertig oder klicken Sie auf die Schaltfläche Abbrechen.
+Sobald Sie auf die Schaltfläche Fertig stellen im vorherigen Schritt klicken, beginnt die IDE mit dem Aufbau des Projekts, wie unten gezeigt. Lassen Sie es fertig stellen oder klicken Sie auf die Schaltfläche Abbrechen.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_7.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_7.png)
 
-Jetzt wurde das Projekt in die IDE geladen, aber vielleicht möchten Sie die Ansicht auf Projekt ändern, damit Sie die vollständige Hierarchie der Projektdateien sehen können. Um die Ansicht zu ändern, überprüfen Sie bitte den folgenden Schnappschuss.
+Das Projekt wurde nun in der IDE geladen, jedoch möchten Sie möglicherweise die Ansicht auf Projekt ändern, um die vollständige Hierarchie der Projektdateien anzuzeigen. Um die Ansicht zu ändern, überprüfen Sie bitte den folgenden Schnappschuss.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_8.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_8.png)
 
- Nachdem Sie die Ansicht auf Projekt geändert haben, suchen und laden Sie die**bau.gradle** Datei im Editor und fügen Sie das folgende Snippet wie unten gezeigt ein.
+Nachdem Sie die Ansicht auf Projekt geändert haben, finden Sie die **build.gradle**-Datei im Editor und fügen Sie das folgende Snippet wie unten gezeigt ein.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  dexOptions{
 
@@ -97,44 +98,44 @@ Jetzt wurde das Projekt in die IDE geladen, aber vielleicht möchten Sie die Ans
 
 {{< /highlight >}}
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_9.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_9.png)
 
-Als Nächstes fügen wir dem Projekt das Glas Aspose.Cells for Android via Java hinzu. Es gibt 2 wichtige Schritte, wie unten beschrieben.
+Als nächstes fügen wir das Aspose.Cells for Android via Java Jar dem Projekt hinzu. Es gibt 2 wichtige Schritte, wie unten beschrieben.
 
--  Kopieren Sie das Glas Aspose.Cells for Android via Java manuell in die**\app\libs** Mappe.
-- Fügen Sie Aspose.Cells for Android via Java Jar als Bibliothek zum Modul hinzu, wie unten gezeigt.
+- Kopieren Sie manuell das Aspose.Cells for Android via Java-Jar in den **\app\libs**-Ordner.
+- Fügen Sie das Aspose.Cells for Android via Java Jar als Bibliothek zum Modul hinzu, wie unten gezeigt.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_10.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_10.png)
 
-Sie werden aufgefordert, das Modul auszuwählen, dem Sie das Aspose.Cells for Java.Android Jar als Bibliothek hinzufügen möchten. Bitte treffen Sie eine entsprechende Auswahl und klicken Sie auf OK.
+Sie werden aufgefordert, das Modul auszuwählen, zu dem Sie das Aspose.Cells for Java.Android Jar als Bibliothek hinzufügen möchten. Bitte wählen Sie entsprechend aus und klicken Sie auf OK.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_11.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_11.png)
 
- Sie müssen auch die APK-Datei zum Projekt hinzufügen. Du musst die APK in die kopieren**\app\src\main\assets**Mappe. Wenn Sie den Assets-Ordner nicht unter dem Hauptordner haben, können Sie einen erstellen, indem Sie mit der rechten Maustaste auf den Hauptknoten in der Projektansicht klicken. Wählen Sie Neu > Ordner > Asset-Ordner.
+Sie müssen auch die APK-Datei zum Projekt hinzufügen. Sie müssen die APK in den **\app\src\main\assets**-Ordner kopieren. Wenn Sie den assets-Ordner unter dem main-Ordner nicht haben, können Sie einen erstellen, indem Sie mit der rechten Maustaste auf den Hauptknoten in der Projektansicht klicken. Wählen Sie Neu > Ordner > Asset-Ordner.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_12.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_12.png)
 
-Nachdem das APK zum Projekt hinzugefügt wurde, muss es vom Projekt geladen werden. Es gibt zwei Möglichkeiten, die APK wie folgt zu laden.
+Sobald die APK dem Projekt hinzugefügt wurde, muss sie vom Projekt geladen werden. Es gibt 2 Möglichkeiten, die APK wie folgt zu laden.
 
-- Laden Sie das APK mithilfe des unten bereitgestellten Snippets in eine benutzerdefinierte Anwendungsklasse und registrieren Sie die benutzerdefinierte Anwendungsklasse in AndroidManifest.xml.
+- Laden Sie die APK in einer benutzerdefinierten Anwendungsklasse mithilfe des unten bereitgestellten Snippets und registrieren Sie die benutzerdefinierte Anwendungsklasse in der AndroidManifest.xml.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  LibsLoadHelper.loadLibs(this);
 
 {{< /highlight >}}
 
-- Laden Sie das APK in die OnCreate-Methode von MainActivity.
+- Laden Sie die APK in der OnCreate-Methode der MainActivity.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  LibsLoadHelper.loadLibs(getApplicationContext());
 
 {{< /highlight >}}
 
-Jetzt können wir den Code schreiben. Um die Demonstration leicht verständlich zu halten, haben wir dem Layout ein Schaltflächen-Widget hinzugefügt und behandeln dessen Klick-Ereignis wie folgt.
+Nun sind wir bereit, den Code zu schreiben. Um die Demonstration einfach zu verstehen, haben wir ein Schaltflächen-Widget zum Layout hinzugefügt und werden dessen Klickereignis behandeln, wie unten beschrieben.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  private class TestTask extends AsyncTask<Void, String, Boolean> {
 
@@ -172,14 +173,14 @@ Jetzt können wir den Code schreiben. Um die Demonstration leicht verständlich 
 
 {{< /highlight >}}
 
-Wenn Sie die Anwendung mit der Play-Schaltfläche auf der IDE-Oberfläche (oder mit SHIFT + F10) ausführen, lädt der Emulator die Anwendung wie unten gezeigt.
+Wenn Sie die Anwendung mithilfe der Wiedergabeschaltfläche in der IDE-Benutzeroberfläche starten (oder mit SHIFT + F10), lädt der Emulator die Anwendung, wie unten gezeigt.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_13.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_13.png)
 
-Durch Klicken auf die Schaltfläche im Emulator wird der Code ausgeführt, um eine neue Tabelle im externen Speicherordner des Emulators zu erstellen. Sie können wie unten gezeigt über den Android Device Monitor auf die Datei zugreifen.
+Durch Klicken der Schaltfläche auf dem Emulator wird der Code ausgeführt, um eine neue Arbeitsmappe im externen Speicherordner des Emulators zu erstellen. Sie können auf die Datei vom Android Device Monitor aus zugreifen, wie unten gezeigt.
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_14.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_14.png)
 
-![todo: Bild_alt_Text](aspose-cells-for-android-via-java-installation_15.png)
+![todo:image_alt_text](aspose-cells-for-android-via-java-installation_15.png)
 
 

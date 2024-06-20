@@ -1,34 +1,35 @@
-﻿---
+---
 title: Konsolidasyon Fonksiyonu
 type: docs
 weight: 20
 url: /tr/java/consolidation-function/
-description: Pivot tablonun veri alanlarına ConsolidationFunction uygulayın.
+description: Pivot tablosundaki veri alanlarına KonsolidasyonFonksiyonu uygula
 ---
-## **Konsolidasyon işlevi**
 
- Aspose.Cells, pivot tablonun veri alanlarına (veya değer alanlarına) ConsolidationFunction uygulamak için kullanılabilir. Microsoft Excel'de, değer alanına sağ tıklayıp ardından**Değer Alanı Ayarları...** seçeneği ve ardından sekmeyi seçin**Değerleri Şuna Göre Özetle**. Oradan, Toplam, Sayı, Ortalama, Maks, Min, Ürün, Ayrı Sayım vb. gibi istediğiniz herhangi bir BirleştirmeFonksiyonunu seçebilirsiniz.
+## **Konsolidasyon fonksiyonu**
 
- Aspose.Cells sağlar[**KonsolidasyonFonksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) aşağıdaki konsolidasyon işlevlerini desteklemek için numaralandırma.
+Aspose.Cells, Pivot tablosunun veri alanlarına (veya değer alanlarına) KonsolidasyonFonksiyonu uygulamak için kullanılabilir. Microsoft Excel'de, değer alanına sağ tıkladıktan sonra **Değer Alanı Ayarları...** seçeneğini seçebilir ve ardından **Değerleri Nasıl Özetleyeceğinizi Seçin** sekmesini seçebilirsiniz. Oradan, Sum, Count, Average, Max, Min, Product, DistinctCount vb. gibi istediğiniz herhangi bir KonsolidasyonFonksiyonunu seçebilirsiniz.
 
-- KonsolidasyonFonksiyonu.SUM
-- Konsolidasyonİşlevi.COUNT
-- KonsolidasyonFonksiyonu.ORTALAMA
-- KonsolidasyonFonksiyonu.MAX
-- KonsolidasyonFonksiyonu.MIN
-- KonsolidasyonFonksiyonu.ÜRÜN
-- Birleştirme İşlevi.COUNT_NUMS
-- Konsolidasyon İşlevi.STD_DEV
-- KonsolidasyonFonksiyonu.STD_DEVP
-- KonsolidasyonFonksiyonu.VAR
-- KonsolidasyonFonksiyonu.VARP
-- Konsolidasyonİşlevi.DISTINCT_COUNT
+Aspose.Cells, aşağıdaki konsolidasyon işlevlerini desteklemek için [**ConsolidationFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) numaralı sıralamayı sağlamaktadır.
 
-### **Pivot Tablonun Veri Alanlarına ConsolidationFunction Uygulama**
+- ConsolidationFunction.SUM
+- ConsolidationFunction.COUNT
+- ConsolidationFunction.AVERAGE
+- ConsolidationFunction.MAX
+- ConsolidationFunction.MIN
+- ConsolidationFunction.PRODUCT
+- ConsolidationFunction.COUNT_NUMS
+- ConsolidationFunction.STD_DEV
+- ConsolidationFunction.STD_DEVP
+- ConsolidationFunction.VAR
+- ConsolidationFunction.VARP
+- ConsolidationFunction.DISTINCT_COUNT
 
- Aşağıdaki kod geçerlidir**ORTALAMA** ilk veri alanına (veya değer alanına) konsolidasyon işlevi ve**STD_DEV** ikinci veri alanına (veya değer alanına) konsolidasyon işlevi.
+### **Döndürme Tablosunun Veri Alanlarına Konsolidasyon İşlevi Uygulama**
 
-Örnek kodu test etmek için örnek kaynak dosyası ve çıktı dosyaları buradan indirilebilir:
+Aşağıdaki kod, ilk veri alanına (veya değer alanına) **ORTALAMA** konsolidasyon fonksiyonunu ve ikinci veri alanına (veya değer alanına) **STD_DEV** konsolidasyon fonksiyonunu uygular.
+
+Örnek kaynak dosyası ve çıktı dosyaları test etmek için buradan indirilebilir:
 
 [Kaynak Excel Dosyası](source.xlsx)
 
@@ -38,7 +39,7 @@ description: Pivot tablonun veri alanlarına ConsolidationFunction uygulayın.
 
 {{% alert color="primary" %}}
 
-DistinctCount konsolidasyon işlevi yalnızca Microsoft Excel 2013 tarafından desteklenir.
+Farklı Sayı Sayımı konsolidasyon işlevi sadece Microsoft Excel 2013 tarafından desteklenmektedir.
 
 {{% /alert %}}
 

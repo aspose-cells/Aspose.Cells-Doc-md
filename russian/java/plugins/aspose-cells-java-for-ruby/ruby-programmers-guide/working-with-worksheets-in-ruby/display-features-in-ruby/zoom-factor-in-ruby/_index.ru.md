@@ -1,15 +1,16 @@
-﻿---
-title: Коэффициент масштабирования в Ruby
+---
+title: Масштабный коэффициент в Ruby
 type: docs
 weight: 90
 url: /ru/java/zoom-factor-in-ruby/
 ---
-## **Aspose.Cells - Коэффициент масштабирования**
- Чтобы установить коэффициент масштабирования с помощью**Aspose.Cells Java для рубина** , просто вызовите**ZoomFactor** модуль.
 
-**Рубиновый код**
+## **Aspose.Cells - Масштабный коэффициент**
+Для установки масштабного коэффициента с использованием **Aspose.Cells Java для Ruby**, просто вызовите модуль **ZoomFactor**.
 
-{{< highlight "ruby" >}}
+**Код на Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ workbook.save(data_dir + "output.xls")
 puts "Set zoom factor, please check the output file."
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Коэффициент масштабирования (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Скачать **Zoom Factor (Aspose.Cells)** с любого из упомянутых ниже сайтов для социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/zoomfactor.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/zoomfactor.rb)

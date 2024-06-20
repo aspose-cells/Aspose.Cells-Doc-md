@@ -1,19 +1,20 @@
-﻿---
-title: Aggiorna giorni conservando la cronologia dei registri di revisione nella cartella di lavoro condivisa
+---
+title: Aggiorna i giorni preservando la cronologia dei log di revisione in un libro di lavoro condiviso
 type: docs
 weight: 80
 url: /it/net/update-days-preserving-history-of-revision-logs-in-shared-workbook/
 ---
-## **Possibili scenari di utilizzo**
 
- Quando condividi una cartella di lavoro, ottieni un'opzione che dice***Conserva la cronologia delle modifiche per N giorni*** come mostrato nello screenshot seguente. È possibile aggiornare il numero di giorni per la conservazione della cronologia utilizzando Aspose.Cells con[**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/net/aspose.cells.revisions/revisionlogcollection/properties/dayspreservinghistory)proprietà.
+## **Possibili Scenari di Utilizzo**
 
-![cose da fare:immagine_alt_testo](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
+Quando condividi un workbook, ottieni un'opzione che dice ***Mantieni la cronologia delle modifiche per N giorni*** come mostrato nella seguente schermata. Puoi aggiornare il numero di giorni per conservare la cronologia usando Aspose.Cells con la proprietà [**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/net/aspose.cells.revisions/revisionlogcollection/properties/dayspreservinghistory).
 
-## **Aggiorna giorni conservando la cronologia dei registri di revisione nella cartella di lavoro condivisa**
+![todo:image_alt_text](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
 
- Il seguente codice di esempio crea una cartella di lavoro vuota, quindi la condivide e aggiorna i giorni dei registri di revisione conservando la cronologia a 7 giorni, che normalmente è di 30 giorni. Si prega di consultare il[file Excel di output](60489773.xlsx) generato dal codice per un riferimento.
+## **Aggiornare i giorni di conservazione della cronologia delle revisioni nel workbook condiviso**
 
-## **Codice d'esempio**
+Il seguente codice di esempio crea un workbook vuoto, quindi lo condivide e aggiorna i giorni di registro di revisione preservando la cronologia a 7 giorni, di solito 30 giorni. Consulta il [file Excel di output](60489773.xlsx) generato dal codice per un riferimento.
+
+## **Codice di Esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.cs" >}}

@@ -4,24 +4,25 @@ type: docs
 weight: 30
 url: /sv/cpp/ways-to-calculate-formulas/
 ---
-##  **Introduktion**
-Aspose.Cells har en inbäddad formelberäkningsmotor. Det kan inte bara räkna om formler som importerats från designermallar utan stöder också beräkning av resultaten av formler som lagts till vid körning.
-##  **Lägga till formler och beräkna resultat**
-Aspose.Cells stöder de flesta formler eller funktioner som ingår i Microsoft Excel. de kan användas via API eller med hjälp av designerkalkylblad. Aspose.Cells stöder en enorm uppsättning matematiska formler, sträng-, booleska-, datum/tid-, statistiska, uppslags- och referensformler.
 
-Använd metoden Cell.SetFormula för att lägga till en formel i en cell. När du tillämpar en formel på en cell, börja alltid strängen med ett likhetstecken (=) som du gör när du skapar en formel i Microsoft Excel. Använd ett kommatecken (,) för att avgränsa funktionsparametrar.
+## **Introduktion**
+Aspose.Cells har en inbyggd formelberäkningsmotor. Den kan inte bara omberäkna formler som importerats från mallar utan stöder också beräkning av resultaten av formler som läggs till vid runtime.
+## **Lägga till formler och beräkna resultat**
+Aspose.Cells stöder de flesta av formlerna eller funktionerna som är en del av Microsoft Excel. De kan användas via API eller genom att använda designerkalkylblad. Aspose.Cells stöder en stor mängd matematiska, sträng-, booleska, datum-/tid-, statistiska, sök- och referensformler.
 
-För att beräkna resultatet av formler, anrop Workbook.CalculateFormula()-metoden som bearbetar alla formler som är inbäddade i en Excel-fil. Se följande exempelkod som lägger till formeln och beräknar dess resultat. Vänligen kontrollera[output excel-fil](38109185.xlsx) genereras med denna kod.
+Använd Cell.SetFormula-metoden för att lägga till en formel i en cell. När du applicerar en formel på en cell ska du alltid börja strängen med ett likhetstecken (=) precis som när du skapar en formel i Microsoft Excel. Använd ett kommatecken (,) för att avgränsa funktionsparametrarna.
+
+För att beräkna resultaten av formler, anropa Workbook.CalculateFormula() -metoden som bearbetar alla formler som är inbäddade i en Excel-fil. Var god se följande exempelkod som lägger till formeln och beräknar dess resultat. Var god kontrollera den [utdata excel-fil](38109185.xlsx) som genererats med denna kod.
 
 **Exempelkod**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-AddingFormulasAndCalculatingResults-new.cpp" >}}
-<!---## **Direct Calculation of Formula**
-Sometimes, you need to calculate formula results directly without adding them into a worksheet. The values of the cells used in the formula already exist in a worksheet and all you need is to find the result of those values based on some Microsoft Excel formula without adding the formula in a worksheet.
+<!---## **Direkt beräkning av formel**
+Ibland behöver du beräkna formelresultat direkt utan att lägga till dem i ett kalkylblad. Värdena för cellerna som används i formeln finns redan i ett kalkylblad och allt du behöver göra är att hitta resultatet av dessa värden baserat på några Microsoft Excel-formler utan att lägga till formeln i ett kalkylblad.
 
-You can use Worksheet.CalculateFormula(String formula) method to calculate the results of such formulas without adding them to worksheet.
+Du kan använda metoden Worksheet.CalculateFormula(String formula) för att beräkna resultaten av sådana formler utan att lägga till dem i kalkylbladet.
 
-The code below produces the following output.
+Koden nedan genererar följande utdata.
 
 {{< highlight java >}}
 
@@ -33,17 +34,17 @@ Result of Sum(A1:A2): 50
 
 {{< /highlight >}}
 
-**Sample Code**
+**Exempelkod**
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-WaysToCalculateFormulas-DirectCalculationOfFormula.cpp" >}}   --->
-##  **Beräknar formler endast en gång**
-När Workbook.CalculateFormula() anropas för att beräkna värdena för formler i en arbetsboksmall, skapar Aspose.Cells en beräkningskedja. Det ökar prestandan när formler beräknas för andra eller tredje gången.
+## **Beräkna formler endast en gång**
+När Workbook.CalculateFormula() kallas för att beräkna värdena för formler i en arbetsboksmall skapar Aspose.Cells en beräkningskedja. Det ökar prestandan när formler beräknas för andra eller tredje gången.
 
-Men om mallen innehåller många formler kan första gången formeln beräknas ta mycket CPU-bearbetningstid och minne.
+Men om mallen innehåller många formler kan den första gången formeln beräknas förbruka mycket CPU-processortid och minne.
 
-Aspose.Cells låter dig stänga av att skapa en beräkningskedja, vilket är användbart när du bara vill beräkna formler en gång.
+Aspose.Cells tillåter dig att stänga av skapandet av en beräkningskedja vilket är användbart när du vill beräkna formler endast en gång.
 
- Vänligen anrop Workbook.GetISettings().SetCreateCalcChain() med false parameter. Du kan använda[tillhandahållit excel-fil](38109186.xlsx) för att testa den här koden.
+Var god ring Workbook.GetISettings().SetCreateCalcChain() med falskt parameter. Du kan använda den [medföljande Excel-filen](38109186.xlsx) för att testa denna kod.
 
 **Exempelkod**
 

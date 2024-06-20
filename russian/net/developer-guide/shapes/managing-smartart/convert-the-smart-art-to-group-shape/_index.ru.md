@@ -1,26 +1,27 @@
-﻿---
-title: Преобразование смарт-арта в форму группы
+---
+title: Преобразовать умное изображение в групповую форму
 type: docs
 weight: 200
 url: /ru/net/convert-the-smart-art-to-group-shape/
 ---
+
 ## **Возможные сценарии использования**
 
-Вы можете преобразовать фигуру Smart Art Shape в фигуру группы, используя[**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart)метод. Это позволит вам обрабатывать интеллектуальные художественные формы, такие как групповые формы. Следовательно, у вас будет доступ к отдельным частям или формам групповой формы.
+Вы можете преобразовать Smart Art Shape в Group Shape, используя метод [**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart). Это позволит вам обрабатывать Smart Art Shape как Group Shape. Следовательно, у вас будет доступ к отдельным частям или элементам Group Shape.
 
-## **Преобразование смарт-арта в форму группы**
+## **Преобразование SmartArt в форму группы**
 
-Следующий пример кода загружает[образец файла Excel](55541793.xlsx)содержащий фигуру смарт-арта, как показано на этом снимке экрана. Затем он преобразует фигуру смарт-арта в фигуру группы и печатает свойство Shape.IsGroup. Пожалуйста, посмотрите консольный вывод примера кода, приведенного ниже.
+В следующем образце кода загружается [образцовый файл Excel](55541793.xlsx), содержащий форму Smart Art, показанную на этом скриншоте. Затем форма Smart Art преобразуется в групповую форму и печатается свойство Shape.IsGroup. Пожалуйста, ознакомьтесь с консольным выводом образцового кода, указанного ниже.
 
-![дело:изображение_альтернативный_текст](convert-the-smart-art-to-group-shape_1.png)
+![todo:image_alt_text](convert-the-smart-art-to-group-shape_1.png)
 
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ConvertSmartArtToGroupShape.cs" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Is Smart Art Shape: True
 

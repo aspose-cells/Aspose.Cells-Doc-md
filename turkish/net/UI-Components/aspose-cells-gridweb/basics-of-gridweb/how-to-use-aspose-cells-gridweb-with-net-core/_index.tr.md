@@ -1,40 +1,43 @@
-﻿---
-title: Aspose.Cells.GridWeb'i .NET Core ile kullanma
+---
+title: Aspose.Cells.GridWeb ı .NET Core ile nasıl kullanılır
 type: docs
 weight: 40
-url: /tr/net/how-to-use-aspose-cells-gridweb-with-net-core/
+url: /tr/net/aspose-cells-gridweb/how-to-use-aspose-cells-gridweb-with-net-core/
+keywords: GridWeb,dotnetcore
+description: Bu makale, .net core web uygulamasında GridWeb ın nasıl kullanılacağını tanıtır
 ---
+
 {{% alert color="primary" %}} 
 
-Bu konuda, Visual Studio.NET 2019 kullanılarak Aspose.Cells.GridWeb'in .NET Core uygulamalarıyla nasıl kullanılacağı açıklanmaktadır. Bu konu, Aspose.Cells.GridWeb ile çalışan başlangıç düzeyindeki geliştiriciler için yararlıdır.
+Bu konu, Visual Studio.NET 2019'u kullanarak .NET Core uygulamalarında Aspose.Cells.GridWeb'ı nasıl kullanacağını açıklar. Bu konu, Aspose.Cells.GridWeb ile çalışan başlangıç düzeyi geliştiriciler için faydalıdır.
 
 {{% /alert %}} 
-## **Aspose.Cells.GridWeb'i .NET Core ile kullanın**
-Bu konu, Visual Studio 2019'da örnek bir web sitesi yaparak Aspose.Cells.GridWeb'in nasıl kullanılacağını gösterir. İşlem, adımlara ayrılmıştır.
-### **1. Adım: Yeni Bir Proje Oluşturma**
+## **.NET Core ile Aspose.Cells.GridWeb Kullanımı**
+Bu konu, Visual Studio 2019'da örnek bir web sitesi oluşturarak Aspose.Cells.GridWeb'in nasıl kullanılacağını göstermektedir. İşlem adımlara ayrılmıştır.
+### **Adım 1: Yeni Bir Proje Oluşturma**
 1. Visual Studio 2019'u açın.
-1.  itibaren**Dosya** menü, seç**Yeni** , o zamanlar**Proje**.
- Yeni bir proje oluştur iletişim kutusu açılır.
-1.  Seçme**ASP.NET Temel Web Uygulaması** Visual Studio yüklü proje şablonlarından ve tıklayın**Sonraki**.
+1. **Dosya** menüsünden **Yeni**'yi seçin, ardından **Proje**'yi seçin.
+   Yeni proje iletişim kutusu açılır.
+1. Visual Studio yüklü proje şablonlarından **ASP.NET Core Web Uygulaması**'nı seçin ve **İleri**'ye tıklayın.
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_1.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_1.jpg)
 
-1.  Projenin yeri ve adının bulunduğu bir yer belirleyin ve tıklayın.**Yaratmak**.
+1. Projenin konumunu ve adını belirtin ve **Oluştur**'a tıklayın.
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_2.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_2.jpg)
 
-1.  seçin**Web Uygulaması (Model-View-Controller)** şablon ve emin olun**ASP .NET Çekirdek 2.1** seçildi.
+1. **Web Uygulaması (Model-Görünüm-Kontrolcü)** şablonunu seçin ve **ASP .NET Core 2.1**'in seçili olduğundan emin olun. 
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_3.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_3.jpg)
 
-1.  Tıklamak**Yaratmak**.
-### **2. Adım: İlk görünümün kontrol edilmesi**
-Yeni oluşturulan projeyi çalıştırmak, aşağıdaki resimde gösterildiği gibi tarayıcıda varsayılan şablonu gösterir.
+1. **Oluştur**'a tıklayın.
+### **Adım 2: Başlangıç görünümünü kontrol etme**
+Yeni oluşturulan proje tarayıcıda varsayılan şablonu gösterir.
 
 
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_4.jpg)
-### **3. Adım: Aspose.Cells.GridWeb ekleme**
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_4.jpg)
+### **Adım 3: Aspose.Cells.GridWeb Ekleme**
 1. Aşağıdaki Nuget Paketlerini projeye ekleyin
 
 <PackageReference Include="Microsoft.AspNetCore.App" />
@@ -43,57 +46,57 @@ Yeni oluşturulan projeyi çalıştırmak, aşağıdaki resimde gösterildiği g
 <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
 <PackageReference Include="System.Text.Encoding.CodePages" Version="4.7.0" />
 
-1. Aspose.Cells.GridWeb Paketi ekleyin
+1. Aspose.Cells.GridWeb Paketi Ekle
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_5.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_5.jpg)
 
-1. Görünümler klasöründeki **_ViewImports.cshtml** dosyasına aşağıdakileri ekleyin.
+1. Görünümler klasöründeki **_ViewImports.cshtml** dosyasına aşağıdakileri ekleyin.
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-ViewImports.cs" >}}
 
-Değişikliklerden sonra dosya böyle görünecek
+Değişikliklerden sonra dosya aşağıdaki gibi görünecektir
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_6.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_6.jpg)
 
-1. Aşağıdaki kodu HomeController'ın Index yöntemine koyun.
+1. HomeController'ın Index metoduna aşağıdaki kodu ekleyin.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-HomeController.cs" >}}
 
 {{% alert color="primary" %}} 
 
-SessionStorePath ve ImportExcelFile yolunu güncellemeyi unutmayın.
+SessionStorePath ve ImportExcelFile yolunu güncellemeyi unutmayın.
 
 {{% /alert %}} 
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_7.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_7.jpg)
 
-1.  içine aşağıdaki kodu ekleyin**index.cshtml** Görünüm > Giriş dizinindeki dosya.
+1. **Index.cshtml** dosyasına aşağıdaki kodu ekleyin, Görünüm > Ana dizininde.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-IndexView.cs" >}}
 
-Değişiklikten sonra dosya bu şekilde görünecektir.
+Değişikliklerden sonra dosya aşağıdaki gibi görünecektir.
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_8.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_8.jpg)
 
-1. Startup.cs dosyasına Oturum desteği ve GridScheduedService ekleyin
- 1. Aşağıdaki kod parçacığını ConfigureServices yöntemine ekleyin.
+1. Session desteği ve GridScheduedService'ı Startup.cs dosyasına ekleyin
+   1. ConfigureServices yöntemine aşağıdaki kod parçacığını ekleyin.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-Startup1.cs" >}}
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_9.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_9.jpg)
 
-1. Aşağıdaki kod parçacığını Configure yöntemine ekleyin.
+1. Configure yöntemine aşağıdaki kod parçacığını ekleyin.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-Startup2.cs" >}}
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_10.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_10.jpg)
 
-1. En son acw_client'i şu dizine koyun: **wwwroot/js** {{% alert color="primary" %}} {{% /alert %}}
-1.  Eklemek**Acw Denetleyici**Genel düzenleme eylemi için tüm varsayılan işlemleri sağlayabilen acw rota haritasıyla ilgilenmek için Denetleyicilerde.
+1. **wwwroot/js** dizinine en son acw_client'i yerleştirin {{% alert color="primary" %}}   {{% /alert %}}
+1. Tüm genel düzen eylemleri için varsayılan işlemleri sağlayabilen acw rotası haritasıyla başa çıkmak için **AcwController**'i Denetleyicilere ekleyin.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-AcwController.cs" >}}
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_11.jpg)
-### **4. Adım: Uygulamayı Test Edin**
-Uygulamayı çalıştırmak, aşağıdaki resimde gösterilene benzer bir çıktı verecektir.
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_11.jpg)
+### **Adım 4: Uygulamayı Test Etme**
+Uygulama çalıştırıldığında aşağıdaki resimde gösterildiği gibi çıktı alınır.
 
-![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-gridweb-with-net-core_12.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_12.jpg)

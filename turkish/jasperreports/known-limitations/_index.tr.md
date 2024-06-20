@@ -1,14 +1,15 @@
-﻿---
+---
 title: Bilinen Sınırlamalar
 type: docs
 weight: 50
 url: /tr/jasperreports/known-limitations/
 ---
+
 {{% alert color="primary" %}} 
 
-Şu anda Aspose.Cells for JasperReports tarafından desteklenmeyen özelliklerin listesi aşağıdadır:
+Aşağıda, Aspose.Cells for JasperReports tarafından şu anda desteklenmeyen özelliklerin bir listesi bulunmaktadır:
 
-- **Otomatik yükleyici yok** . Aspose.Cells for JasperReports ZIP arşivi olarak dağıtılmaktadır.[Yüklemek](/cells/tr/jasperreports/installation/), dosyaları ayıklayın ve uygun konuma kopyalayın ve muhtemelen bazı XML yapılandırma dosyalarını düzenleyin. Gelecekte otomatik bir yükleyici sağlanacaktır.
-- **Excel, tüm JasperReports grafik türlerini desteklemez**JasperReports'taki bazı grafik türleri Microsoft Excel grafikleriyle uyumsuzdur, örneğin: XYBarChart, XYAreaChart, ThermometerChart, CandlestickChart, HighLowChart, MultipleAxisChart ve MeterChart. Bu grafikler, orijinal JasperReports XLS ihracatçısının grafikleri yönetmesiyle aynı şekilde, görüntü olarak dışa aktarılır. (Diğer grafikler düzenlenebilir grafikler olarak dışa aktarılır.)
+- **Otomatik kurulum yok**. Aspose.Cells for JasperReports bir ZIP arşivi olarak dağıtılır. [Yüklemek için](/cells/tr/jasperreports/installation/) dosyaları çıkartın ve uygun konuma kopyalayın ve bazı XML yapılandırma dosyalarını düzenlemeniz gerekebilir. Gelecekte otomatik bir kurulum sağlanacaktır.
+- **Excel tüm JasperReports grafik tiplerini desteklemiyor**. JasperReports'taki bazı grafik türleri Microsoft Excel grafikleriyle uyumlu değildir, örneğin: XYBarChart, XYAreaChart, ThermometerChart, CandlestickChart, HighLowChart, MultipleAxisChart ve MeterChart. Bu grafikler, orijinal JasperReports XLS dönüştürücüsünün grafikleri nasıl yönettiğiyle aynı şekilde görüntü olarak aktarılır. (Diğer grafikler düzenlenebilir grafikler olarak aktarılır.)
 
 {{% /alert %}}

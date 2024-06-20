@@ -1,15 +1,16 @@
-﻿---
+---
 title: Importazione da DataTable
 type: docs
 weight: 40
 url: /it/net/importing-from-datatable/
 ---
- Gli sviluppatori possono importare dati da a**Tabella dati** ai loro fogli di lavoro chiamando il**Importa tabella dati** metodo della raccolta Cells. Esistono molte versioni sovraccaricate di**Importa tabella dati** metodo ma un sovraccarico tipico accetta i seguenti parametri:**Tabella dati** , rappresenta il**Tabella dati** oggetto i cui contenuti devono essere importati
 
-- **Viene visualizzato il nome del campo**, specifica se i nomi delle colonne di DataTable devono essere importati o meno nel foglio di lavoro come prima riga
-- **Inizio Cell** rappresenta il nome della cella iniziale (es. "A1") da cui importare il contenuto della DataTable
+Gli sviluppatori possono importare dati da un **DataTable** nei loro fogli di lavoro chiamando il metodo **ImportDataTable** della raccolta Cells. Ci sono molte versioni sovraccaricate del metodo **ImportDataTable** ma un sovraccarico tipico richiede i seguenti parametri:**DataTable** , rappresenta l'oggetto **DataTable** i cui contenuti devono essere importati
 
-{{< highlight "csharp" >}}
+- **È Mostrato Nome Campo**, specifica se i nomi delle colonne del DataTable devono essere importati nel foglio di lavoro come prima riga o meno
+- **Cella di Inizio** , rappresenta il nome della cella di inizio (cioè "A1") da dove importare i contenuti del DataTable
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -41,11 +42,11 @@ DataRow dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 1;
+dr[0] = 1;
 
-dr[1]= "Aniseed Syrup";
+dr[1] = "Aniseed Syrup";
 
-dr[2]= 15;
+dr[2] = 15;
 
 //Adding filled row to the DataTable object
 
@@ -57,11 +58,11 @@ dr = dataTable.NewRow();
 
 //Adding data to the row
 
-dr[0]= 2;
+dr[0] = 2;
 
-dr[1]= "Boston Crab Meat";
+dr[1] = "Boston Crab Meat";
 
-dr[2]= 123;
+dr[2] = 123;
 
 //Adding filled row to the DataTable object
 

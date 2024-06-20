@@ -1,17 +1,18 @@
-﻿---
-title: Utilisation des couleurs dans Apache POI et Aspose.Cells
+---
+title: Travailler avec les couleurs dans Apache POI et Aspose.Cells
 type: docs
 weight: 20
 url: /fr/java/working-with-colors-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Travailler avec les couleurs**
-Aspose.Cells fournit une classe,[Cahier](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook), qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe Worksheet fournit une Cellscollection. Chaque pièce de la collection Cells représente un objet de la[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe.
 
-Aspose.Cells fournit la méthode setStyle dans la classe Cell qui est utilisée pour définir la mise en forme d'une cellule. En outre, l'objet Style de la classe Style peut être utilisé pour configurer les paramètres de police.
+## **Aspose.Cells - Travailler avec les couleurs**
+Aspose.Cells fournit une classe, [Workbook](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook), qui représente un fichier Microsoft Excel. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par la classe [Worksheet](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet). La classe Worksheet fournit une collection de Cells. Chaque élément de la collection Cells représente un objet de la classe [Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell).
+
+Aspose.Cells fournit la méthode setStyle dans la classe Cell qui est utilisée pour définir la mise en forme d'une cellule. De plus, l'objet Style de la classe Style peut être utilisé pour configurer les paramètres de police.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Accessing cell from the worksheet
 
@@ -64,7 +65,7 @@ La classe CellStyle est disponible pour définir les paramètres d'arrière-plan
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Aqua background
 
@@ -95,13 +96,13 @@ cell.setCellValue("X");
 cell.setCellStyle(style);
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/formatting/colors)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Couleurs et motifs de fond](http://docs.aspose.com:8082/docs/display/cellsjava/Colors+and+Background+Patterns).
+Pour plus de détails, visitez [Couleurs et motifs d'arrière-plan](http://docs.aspose.com:8082/docs/display/cellsjava/Colors+and+Background+Patterns).
 
 {{% /alert %}}

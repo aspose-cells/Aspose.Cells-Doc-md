@@ -1,38 +1,39 @@
-﻿---
-title: Establezca la propiedad DefaultFont de PdfSaveOptions e ImageOrPrintOptions para que tenga prioridad
+---
+title: Establecer la propiedad DefaultFont de PdfSaveOptions y ImageOrPrintOptions para tener prioridad
 type: docs
 weight: 30
 url: /es/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/
 ---
-## **Posibles escenarios de uso**
 
- Mientras se configura el**Fuente predeterminada** propiedad de[**PdfGuardarOpciones**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) y[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) , es de esperar que al guardar en PDF o en la imagen se establezca que**Fuente predeterminada** a todo el texto del libro al que le falte una fuente (no instalada).
+## **Escenarios de uso posibles**
 
- Por lo general, al guardar en PDF o imagen, Aspose.Cells primero intentará establecer la fuente predeterminada del Libro de trabajo (es decir,[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) ). Si la fuente predeterminada del libro de trabajo aún no puede mostrar/representar el texto correctamente, entonces Aspose.Cells intentará representar con la fuente mencionada en contra**Fuente predeterminada** atributo en[**PdfGuardarOpciones**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+Al establecer la propiedad DefaultFont de [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) y [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), es posible que espere que al guardar como PDF o imagen, se establezca ese DefaultFont para todo el texto en el libro de trabajo que tenga una fuente faltante (no instalada).
 
-Para hacer frente a sus expectativas, tenemos una propiedad booleana llamada "**CheckWorkbookDefaultFont** " en[**PdfGuardarOpciones**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) . Puede establecerlo en falso para deshabilitar la fuente predeterminada del libro de trabajo o dejar que el**Fuente predeterminada** instalándose[**PdfGuardarOpciones**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) tener prioridad.
+Generalmente, al guardar como PDF o imagen, Aspose.Cells primero intentará establecer la fuente predeterminada del libro de trabajo (es decir, [**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)). Si la fuente predeterminada del libro de trabajo aún no puede mostrar/renderizar el texto correctamente, entonces Aspose.Cells intentará renderizar con la fuente mencionada en el atributo DefaultFont de [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+
+Para cumplir con sus expectativas, tenemos una propiedad booleana llamada "CheckWorkbookDefaultFont" en [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions). Puede establecerla en false para deshabilitar el intento de usar la fuente predeterminada del libro de trabajo o permitir que la configuración DefaultFont en [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) tenga prioridad.
 
 ## **Establecer la propiedad DefaultFont de PdfSaveOptions/ImageOrPrintOptions**
 
-El siguiente código de ejemplo abre un archivo de Excel. La celda A1 (en la primera hoja de trabajo) tiene un texto establecido en "Texto de fuente de Navidad". El nombre de la fuente es "Uso personal de Christmas Time" que no está instalado en la máquina. Nosotros fijamos**Fuente predeterminada**atributo de[**PdfGuardarOpciones**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)a "Times New Roman". también establecemos**CheckWorkbookDefaultFont**propiedad booleana a "**falso**", lo que garantiza que el texto de la celda A1 se represente con la fuente "Times New Roman" y no debe usar la fuente predeterminada del libro de trabajo ("Calibri" en este caso). El código representa la primera hoja de trabajo en los formatos de imagen PNG y TIFF. Finalmente se renderiza al formato de archivo PDF.
+El siguiente código de muestra abre un archivo de Excel. La celda A1 (en la primera hoja de cálculo) tiene un texto configurado como "Texto de Fuente de Tiempo de Navidad". El nombre de la fuente es "Uso Personal de Tiempo de Navidad" que no está instalado en la máquina. Configuramos el atributo DefaultFont de [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) en "Times New Roman". También establecemos la propiedad booleana CheckWorkbookDefaultFont en "false" que garantiza que el texto de la celda A1 se represente con la fuente "Times New Roman" y no use la fuente predeterminada del libro de trabajo ("Calibri" en este caso). El código renderiza la primera hoja de cálculo a los formatos de imagen PNG y TIFF. Finalmente, se renderiza en el formato de archivo PDF.
 
 {{% alert color="primary" %}}
 
- El valor predeterminado de***CheckWorkbookDefaultFont*** el atributo es**verdadero**.
+El valor predeterminado de la propiedad ***CheckWorkbookDefaultFont*** es **true**.
 
 {{% /alert %}}
 
-Esta es la captura de pantalla del[archivo de plantilla](49446914.xlsx)utilizado en el código de ejemplo.
+Esta es la captura de pantalla del [archivo de plantilla](49446914.xlsx) utilizado en el código de ejemplo.
 
-![todo:imagen_alternativa_texto](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-Esta es la imagen de salida PNG después de configurar el[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)propiedad a "Times New Roman".
+Esta es la imagen PNG de salida después de establecer la propiedad [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) en "Times New Roman".
 
-![todo:imagen_alternativa_texto](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-Ver la salida[TIFF](out1_imageTIFF.tiff)imagen después de configurar el[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)propiedad a "Times New Roman".
+Vea la imagen [TIFF](out1_imageTIFF.tiff) de salida después de configurar la propiedad [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) en "Times New Roman".
 
-Ver la salida[PDF](out1_pdf.pdf)archivo después de configurar el[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont)propiedad a "Times New Roman".
+Vea el archivo [PDF](out1_pdf.pdf) de salida después de configurar la propiedad [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont) en "Times New Roman".
 
 ## **Código de muestra**
 

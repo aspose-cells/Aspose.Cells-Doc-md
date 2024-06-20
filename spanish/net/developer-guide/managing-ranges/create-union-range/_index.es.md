@@ -1,16 +1,17 @@
-﻿---
+---
 title: Crear rango de unión
 type: docs
 weight: 360
 url: /es/net/create-union-range/
 ---
-## **Crear rango de unión**
- Aspose.Cells ofrece la posibilidad de crear Union Range utilizando el[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange)método. Él[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange)El método acepta dos parámetros, la dirección para crear el rango de unión y el índice de la hoja de trabajo. Él[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) método devuelve un[UnionRange](https://reference.aspose.com/cells/net/aspose.cells/unionrange) objeto.
 
-El siguiente fragmento de código demuestra la creación de un rango de unión utilizando el[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange)método. El archivo de salida generado por el código se adjunta como referencia.
+## **Crear rango de unión**
+Aspose.Cells proporciona la capacidad de crear un Rango de Unión usando el método [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange). El método [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) acepta dos parámetros, la dirección para crear el rango de unión y el índice de la hoja de cálculo. El método [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange) devuelve un objeto [UnionRange](https://reference.aspose.com/cells/net/aspose.cells/unionrange).
+
+El siguiente fragmento de código muestra cómo crear un Rango de Unión usando el método [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/createunionrange). El archivo de salida generado por el código está adjunto para referencia.
 
 - [Archivo de salida](106364952.xlsx)
 
 
 
-{{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-UpdatePowerQueryFormulaItem-1.cs" >}}
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CreateUnionRange.cs" >}}

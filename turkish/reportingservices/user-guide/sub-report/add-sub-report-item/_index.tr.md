@@ -1,66 +1,67 @@
-﻿---
+---
 title: Alt Rapor Öğesi Ekle
 type: docs
 weight: 20
 url: /tr/reportingservices/add-sub-report-item/
 ---
+
 Alt rapor öğesi eklemek için:
 
-1. Alt rapor öğesine referans verecek hücreyi seçin.
-1.  Tıklamak**Alt Rapor** (
+1. Alt rapor öğesine referans olacak hücreyi seçin.
+1. **Alt Rapor**'a tıklayın (
 
-![yapılacaklar:resim_alternatif_metin](add-sub-report-item_1.png)
+![todo:image_alt_text](add-sub-report-item_1.png)
 
 ).
- Alt rapor formu gösterilir.
+Alt rapor formu gösterilir. 
 
 **Alt Rapor formu** 
 
-![yapılacaklar:resim_alternatif_metin](add-sub-report-item_2.png)
+![todo:image_alt_text](add-sub-report-item_2.png)
 
 
 
 
-1.  Tıklamak**Alt Rapor Ekle**.
- Rapor Al formu görüntülenir.
-1.  Bir rapor seçin.
+1. **Alt Rapor Ekle**'ye tıklayın.
+   Rapor Alma formu görüntülenir.
+1. Bir rapor seçin. 
 
    **Bir rapor seçme** 
 
-![yapılacaklar:resim_alternatif_metin](add-sub-report-item_3.png)
+![todo:image_alt_text](add-sub-report-item_3.png)
 
 
 
 
-1.  Tıklamak**Kapalı**. 
+1. **Kapat**'a tıklayın. 
 
    **Bir alt rapor seçildi** 
 
-![yapılacaklar:resim_alternatif_metin](add-sub-report-item_4.png)
+![todo:image_alt_text](add-sub-report-item_4.png)
 
 
 
 
-1.  Formülü Düzenle iletişim kutusunu göstermek için parametre listesine çift tıklayın.
+Parametre listesini çift tıklayarak Düzenle Formülü iletişim kutusunu görüntüleyin. 
 
-   **Formülü Düzenle iletişim kutusu** 
+   **Düzenle Formülü iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_metin](add-sub-report-item_5.png)
-
-
+![todo:image_alt_text](add-sub-report-item_5.png)
 
 
-1.  Bir parametre değerini düzenleyin ve/veya güncelleyin.
+
+
+1. Parametre değerini düzenleyin ve/veya güncelleyin. 
 
    **Alt raporu adlandırma** 
 
-![yapılacaklar:resim_alternatif_metin](add-sub-report-item_6.png)
+![todo:image_alt_text](add-sub-report-item_6.png)
 
 
 
 
-1.  Tıklamak**Alt Rapor Ekle**. 
+1. **Alt Rapor Ekle**'ye tıklayın. 
 
-   **Bir rapor tablosuna eklenen alt rapor** 
+   **Rapor tablosuna eklenmiş alt rapor** 
 
-![yapılacaklar:resim_alternatif_metin](add-sub-report-item_7.png)
+![todo:image_alt_text](add-sub-report-item_7.png)

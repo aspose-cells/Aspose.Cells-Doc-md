@@ -1,15 +1,16 @@
-﻿---
-title: Hello World in Rubin
+---
+title: Hallo Welt in Ruby
 type: docs
 weight: 10
 url: /de/java/hello-world-in-ruby/
 ---
+
 ## **Aspose.Cells - Hello World**
-Um etwas in das Spreadsheet-Dokument mit Aspose.Cells for Java in Ruby zu schreiben, rufen Sie einfach das HelloWorld-Modul auf.
+Um in Ruby etwas in das Tabellendokument mit der Nummer Aspose.Cells for Java zu schreiben, rufen Sie einfach das HelloWorld-Modul auf.
 
 **Ruby-Code**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -42,7 +43,7 @@ workbook.save(data_dir + "HelloWorld.xls", file_format_type.EXCEL_97_TO_2003)
 puts "Document has been saved, please check the output file."
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
- Download**Hello World (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+## **Laufenden Code herunterladen**
+**Hello World (Aspose.Cells)** herunterladen von einer der unten genannten sozialen Programmierseiten:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/helloworld.rb)

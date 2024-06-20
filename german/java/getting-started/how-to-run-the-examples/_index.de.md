@@ -1,33 +1,34 @@
-﻿---
+---
 title: So führen Sie die Beispiele aus
 type: docs
 weight: 100
 url: /de/java/how-to-run-the-examples/
 ---
+
 ## **Von GitHub herunterladen**
- Alle Beispiele von Aspose.Cells for Java werden gehostet[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java) . Sie können das Repository entweder mit Ihrem bevorzugten GitHub-Client klonen oder die ZIP-Datei von herunterladen[Hier](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
+Alle Beispiele für Aspose.Cells for Java werden auf [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java) gehostet. Sie können entweder das Repository mit Ihrem bevorzugten GitHub-Client klonen oder die ZIP-Datei von [hier](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip) herunterladen.
 
- Extrahieren Sie den Inhalt der ZIP-Datei in einen beliebigen Ordner auf Ihrem Computer. Alle Beispiele befinden sich in der**Beispiele** Mappe.
+Extrahieren Sie den Inhalt der ZIP-Datei in einen beliebigen Ordner auf Ihrem Computer. Alle Beispiele befinden sich im **Beispiele**-Ordner.
 
- Das**Ressourcen** Ordner enthält Eingabedokumente oder Dateien, die in den Beispielen verwendet werden.
+Der **Ressourcen**-Ordner enthält Eingabedokumente oder -dateien, die in den Beispielen verwendet werden.
 
-Sie können diese Beispiele mit jeder IDE Ihrer Wahl ausführen/ausführen, wir verwenden sie jedoch zu Demonstrationszwecken**Finsternis** . Verwenden Sie die**Datei -> Importieren** Möglichkeit, das Beispiel Ihrer Wahl zu importieren und den Pfad anzugeben.
+Sie können diese Beispiele mit einer IDE Ihrer Wahl ausführen, jedoch verwenden wir **Eclipse** zu Demonstrationszwecken. Verwenden Sie die Option **Datei -> Import**, um das gewünschte Beispiel zu importieren und den Pfad anzugeben.
 
-Fügen Sie die erforderlichen JAR-Dateien (Bibliotheken) im Projekt hinzu.
+Fügen Sie die erforderlichen Jar-Dateien (Bibliotheken) dem Projekt hinzu.
 
-Jedes Beispiel wird als separate ausführbare Klasse bereitgestellt. Klicken Sie mit der rechten Maustaste auf die Datei und wählen Sie Datei ausführen.
+Jedes Beispiel wird als separate ausführbare Klasse bereitgestellt. Klicken Sie mit der rechten Maustaste auf die Datei und wählen Sie "Datei ausführen".
 
 {{% alert color="primary" %}} 
 
- Beispiele sind in Form von**Eclipse-Projekt** . Bitte öffnen Sie die Beispiele in Eclipse mit der**Datei > Projekte aus Dateisystem öffnen...** Menübefehl und befolgen Sie die Schritte. Jetzt sollten Sie die Beispiele problemlos ausführen können.
+Die Beispiele liegen in Form eines **Eclipse-Projekts** vor. Öffnen Sie die Beispiele in Eclipse mit dem Befehl **Datei > Projekte aus Dateisystem öffnen...** und folgen Sie den Schritten. Nun sollten Sie die Beispiele problemlos ausführen können.
 
 {{% /alert %}} 
 ## **Führen Sie das Beispiel aus**
-Sobald Sie die Beispiele in der Eclipse-IDE öffnen, wählen Sie dann eine beliebige .java-Datei aus. Wählen Sie zum Beispiel diesen aus.
+Sobald Sie die Beispiele in der Eclipse-IDE geöffnet haben, wählen Sie eine .java-Datei aus. Wählen Sie beispielsweise diese aus.
 
 TilePictureAsTextureInsideShape.java
 
-im Inneren gefunden
+zu finden in
 
 Beispiele>src>AsposeCellsExamples>DrawingObjects-Verzeichnis
 
@@ -35,14 +36,14 @@ oder im Paket
 
 AsposeCellsExamples.DrawingObjects
 
-und führe es aus.
-## **Bildschirmfoto**
-Weitere Hilfe finden Sie im folgenden Screenshot und in den hervorgehobenen Bereichen.
+und führen Sie es aus.
+## **Screenshot**
+Bitte beachten Sie den folgenden Screenshot und die markierten Bereiche für weitere Hilfe.
 
-![todo: Bild_alt_Text](how-to-run-the-examples_1.png)
+![todo:image_alt_text](how-to-run-the-examples_1.png)
 
-## **Dazu beitragen**
-Wenn Sie ein Beispiel hinzufügen oder verbessern möchten, ermutigen wir Sie, zum Projekt beizutragen. Alle Beispiele und Vorzeigeprojekte in diesem Repository sind Open Source und können in Ihren eigenen Anwendungen frei verwendet werden.
+## **Beitragen**
+Wenn Sie ein Beispiel hinzufügen oder verbessern möchten, ermutigen wir Sie, zum Projekt beizutragen. Alle Beispiele und Showcase-Projekte in diesem Repository sind Open Source und können frei in Ihren eigenen Anwendungen verwendet werden.
 
-Um einen Beitrag zu leisten, können Sie das Repository forken, den Quellcode bearbeiten und eine Pull-Anforderung erstellen. Wir werden die Änderungen überprüfen und bei Bedarf in das Repository aufnehmen.
+Um beizutragen, können Sie das Repository forken, den Quellcode bearbeiten und einen Pull-Request erstellen. Wir werden die Änderungen überprüfen und sie in das Repository aufnehmen, wenn sie hilfreich sind.
 

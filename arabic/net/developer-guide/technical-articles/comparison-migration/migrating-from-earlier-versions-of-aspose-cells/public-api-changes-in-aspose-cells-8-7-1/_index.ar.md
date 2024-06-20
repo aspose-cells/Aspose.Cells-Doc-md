@@ -1,21 +1,22 @@
-﻿---
-title: عام API التغييرات في Aspose.Cells 8.7.1
+---
+title: تغييرات الواجهة العامة في Aspose.Cells 8.7.1
 type: docs
 weight: 240
 url: /ar/net/public-api-changes-in-aspose-cells-8-7-1/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 8.7.0 إلى 8.7.1 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+توضح هذه الوثيقة التغييرات التي طرأت على واجهة برمجة التطبيقات Aspose.Cells من الإصدار 8.7.0 إلى 8.7.1 التي قد تكون مثيرة لاهتمام مطوري الوحدات/التطبيقات. تتضمن ليس فقط الأساليب العامة الجديدة والمحدثة، وإضافة وإزالة الفئات وما إلى ذلك، ولكن أيضًا وصفاً لأي تغييرات في السلوك الخلفي في Aspose.Cells.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
+## **واجهات برمجة التطبيقات الجديدة**
 ### **تمت إضافة خاصية LookInType.OriginalValues**
- Aspose.Cells تدعم واجهات برمجة التطبيقات بالفعل[البحث عن البيانات أو البحث عنها](/cells/ar/net/find-or-search-data/)ميزة لجداول البيانات من أجل العثور على جزء معين من المحتويات في قيمة الخلية وصيغتها. ومع ذلك ، كانت هذه الميزة تفتقر إلى جانب التنسيق المطبق على الخلية والذي قد يغير المظهر بالإضافة إلى قيمة المحتويات ، وبالتالي يجعل النص غير قابل للبحث باستخدام القيمة الأصلية. مع هذا الإصدار من Aspose.Cells APIs ، تم الكشف عن ثابت آخر باسم LookInType.OriginalValues للجمهور API مما يسمح بالتغلب على الموقف كما تمت مناقشته أعلاه.
+تدعم APIs لـ Aspose.Cells بالفعل [البحث أو العثور على البيانات](/cells/ar/net/find-or-search-data/) لجداول البيانات بهدف إيجاد جزء معين من المحتويات في قيمة الخلية والصيغة. ومع ذلك، كان هذا الميزة يفتقد جانب التنسيق المطبق على الخلية الذي قد يغير المظهر وكذلك قيمة المحتويات، مما يجعل النص غير قابل للبحث باستخدام القيمة الأصلية. مع هذا الإصدار من APIs لـ Aspose.Cells، تمت إضافة ثابت آخر باسم LookInType.OriginalValues إلى الواجهة البرمجية العامة والذي يسمح بالتغلب على الوضع كما هو مناقش أعلاه.
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة التفصيلية على[البحث في البيانات باستخدام القيم الأصلية](/cells/ar/net/search-data-using-original-values/)
+لمزيد من التفاصيل حول هذه الميزة، يُرجى مراجعة المقالة المفصلة حول [البحث عن البيانات باستخدام القيم الأصلية](/cells/ar/net/search-data-using-original-values/)
 
 {{% /alert %}} 
 
@@ -23,7 +24,7 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-7-1/
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -85,13 +86,13 @@ Console.WriteLine(foundCell);
 
 
 ### **تمت إضافة حدث OnBeforeColumnFilter لـ GridWeb**
-Aspose.Cells.GridWeb for .NET كشف 8.7.1 عن حدث OnBeforeColumnFilter الذي يعمل بمثابة رد اتصال لآلية التصفية التي تتم من خلال GridWeb UI. كما يوحي الاسم ، يتم تشغيل الحدث قبل تطبيق تصفية العمود ويمكن استخدامه للحصول على معلومات التصفية مثل فهرس العمود والقيمة التي يجب تطبيق الفلتر عليها.
+تمتكن Aspose.Cells.GridWeb for .NET 8.7.1 الـ OnBeforeColumnFilter والتي تعمل كإشارة إلى آلية التصفية التي تتم من خلال واجهة GridWeb UI. كما يوحي الاسم، يتم تشغيل الحدث قبل تطبيق تصفية العمود ويُمكن استخدامه للحصول على معلومات التصفية مثل فهرس العمود والقيمة التي يجب تطبيق التصفية عليها.
 
-يبدو سيناريو الاستخدام البسيط على النحو التالي.
+سيناريو الاستخدام البسيط يبدو كما يلي.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  protected void GridWeb1_ColumnFilter(object sender, Aspose.Cells.GridWeb.RowColumnEventArgs e)
 
@@ -105,6 +106,6 @@ Aspose.Cells.GridWeb for .NET كشف 8.7.1 عن حدث OnBeforeColumnFilter ال
 
 {{% alert color="primary" %}} 
 
-لا تنس تسجيل الحدث في GridWeb control<acw:gridweb OnBeforeColumnFilter="GridWeb1_ColumnFilter"/>
+Do not forget to register the event to GridWeb control <acw:gridweb OnBeforeColumnFilter="GridWeb1_ColumnFilter"/>
 
 {{% /alert %}}

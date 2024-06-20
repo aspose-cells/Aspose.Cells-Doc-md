@@ -1,78 +1,79 @@
-﻿---
-title: インストール Aspose.Cells for SharePoint
+---
+title: Aspose.Cells for SharePoint のインストール
 type: docs
 weight: 10
 url: /ja/sharepoint/installing-aspose-cells-for-sharepoint/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for SharePoint は、Aspose.Cells.SharePoint.zip アーカイブとしてダウンロードできます。
+Aspose.Cells for SharePointはAspose.Cells.SharePoint.zipアーカイブとしてダウンロードできます。 
 
 {{% /alert %}} 
-### **アーカイブの内容**
-Aspose.Cells.SharePoint.zip アーカイブには次のものが含まれます。
+### **アーカイブ内容**
+Aspose.Cells.SharePoint.zipアーカイブには次のものが含まれています:
 
-- Aspose.Cells.SharePoint.wsp – SharePoint ソリューション ファイル。 Aspose.Cells for SharePoint は、SharePoint ソリューションとしてパッケージ化されており、サーバー ファーム全体で展開/撤回および機能のアクティブ化/非アクティブ化を容易にします。
-- Aspose_LicenseAgreement.rtf – エンド ユーザー ライセンス契約
-- Aspose.Cells for SharePoint.pdf – ユーザードキュメント
-- Aspose.Cells for SharePoint Documentation.chm – パブリック API リファレンスを含むユーザー ドキュメント
-- setup.exe – セットアップ プログラム
+- Aspose.Cells.SharePoint.wsp – SharePointソリューションファイル。Aspose.Cells for SharePointはSharePointソリューションとしてパッケージ化されており、サーバーファーム全体でのデプロイ/取り消しや機能の有効化/無効化を容易にします。
+- Aspose_LicenseAgreement.rtf – エンドユーザーライセンス契約
+- Aspose.Cells for SharePoint.pdf – ユーザー向けドキュメント
+- Aspose.Cells for SharePoint Documentation.chm – パブリックAPIリファレンス付きユーザー向けドキュメント
+- setup.exe – セットアッププログラム
 - setup.exe.config – セットアップ構成ファイル
 
-セットアップ プログラムは、インストールを続行する前に次の条件をチェックします。
+インストールの前にセットアッププログラムは次の条件をチェックします:
 
-- WSS 3.0、MOSS 2007 または SharePoint 2010 がインストールされている。
-- ユーザーには、SharePoint ソリューションをインストールする権限があります。
-- SharePoint データベースはオンラインです。
-- WSS 管理サービスが開始されます。
-- WSS タイマー サービスが開始されます。
+- WSS 3.0、MOSS 2007、またはSharePoint 2010がインストールされている。
+- ユーザーがSharePointソリューションをインストールする権限を持っている。
+- SharePointデータベースがオンラインである。
+- WSS管理サービスが開始されている。
+- WSSタイマーサービスが開始されている。
 
-一部のセットアップ アクションはタイマー ジョブに依存してサーバー ファーム内のすべてのサーバーに伝達されるため、WSS Administration サービスと Timer サービスが必要です。
-#### **インストールするには Aspose.Cells for SharePoint**
-1. Aspose.Cells.SharePoint zip を MOSS 7.0 または WSS 3.0 サーバーのローカル ドライブに解凍します。
-1. setup.exe を実行し、画面の指示に従います。
+WSS管理サービスとタイマーサービスは、いくつかのセットアップアクションがすべてのサーバーに展開されるためにタイマージョブに依存するため必要です。 
+#### **Aspose.Cells for SharePointをインストールするには**
+1. Aspose.Cells.SharePoint zipをMOSS 7.0またはWSS 3.0サーバーのローカルドライブに展開します。
+1. setup.exeを実行し、画面の指示に従います。
 
-セットアップ プログラムは、次のアクションを実行します。
+セットアッププログラムは以下のアクションを実行します:
 
-1. インストールの前提条件を確認します。いずれかのチェックが失敗した場合、セットアップは続行されません。
+1. インストールの前提条件をチェックします。チェックに合格しない場合、セットアップは続行しません。 
 
    **システムチェック** 
 
-![todo:画像_代替_文章](installing-aspose-cells-for-sharepoint_1.png)
+![todo:image_alt_text](installing-aspose-cells-for-sharepoint_1.png)
 
 
 
 
-1. 使用許諾契約書を表示します。続行するには、ユーザーは契約に同意する必要があります。
+1. エンドユーザーライセンス契約を表示します。ユーザーは合意しなければアクションを実行できません。 
 
-   **EULA** 
+   **エンドユーザーライセンス契約** 
 
-![todo:画像_代替_文章](installing-aspose-cells-for-sharepoint_2.png)
-
-
-
-
-1. 配置先選択ダイアログを表示します。ユーザーは、機能を有効にする Web アプリケーションとサイト コレクションを選択します。下の図を参照してください。
-
-   **導入対象** 
-
-![todo:画像_代替_文章](installing-aspose-cells-for-sharepoint_3.png)
+![todo:image_alt_text](installing-aspose-cells-for-sharepoint_2.png)
 
 
 
 
-1. 機能をサーバー ファームに展開します。
+1. デプロイ先選択ダイアログを表示します。ユーザーが機能をアクティブ化するWebアプリケーションとサイトコレクションを選択します。下の図を参照してください。 
 
-   **インストールの実行** 
+   **デプロイ先** 
 
-![todo:画像_代替_文章](installing-aspose-cells-for-sharepoint_4.png)
-
-
+![todo:image_alt_text](installing-aspose-cells-for-sharepoint_3.png)
 
 
-1. 選択したサイト コレクションの機能をアクティブ化し、それらの親 Web アプリケーションを構成します。
-1. 機能が展開され、アクティブ化されている Web アプリケーションとサイト コレクションのリストを表示します。
 
-   **インストールが完了** 
 
-![todo:画像_代替_文章](installing-aspose-cells-for-sharepoint_5.png)
+1. サーバーファームに機能を展開します。 
+
+   **インストール実行中** 
+
+![todo:image_alt_text](installing-aspose-cells-for-sharepoint_4.png)
+
+
+
+
+1. 選択したサイトコレクションの機能をアクティブ化し、親Webアプリケーションを構成します。
+1. 機能が展開およびアクティブ化されたWebアプリケーションとサイトコレクションの一覧を表示します。 
+
+   **インストール完了** 
+
+![todo:image_alt_text](installing-aspose-cells-for-sharepoint_5.png)

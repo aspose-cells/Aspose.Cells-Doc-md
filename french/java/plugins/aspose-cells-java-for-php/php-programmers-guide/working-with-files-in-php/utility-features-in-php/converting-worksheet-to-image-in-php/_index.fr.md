@@ -1,15 +1,16 @@
-﻿---
-title: Conversion d'une feuille de calcul en image en PHP
+---
+title: Conversion de feuille de calcul en image en PHP
 type: docs
 weight: 50
 url: /fr/java/converting-worksheet-to-image-in-php/
 ---
-## **Aspose.Cells - Conversion de la feuille de calcul en image**
-Pour convertir une feuille de calcul en image en utilisant Aspose.Cells for Java en PHP, appelez simplement le module Converter.
+
+## **Aspose.Cells - Conversion de feuille de calcul en image**
+Pour convertir une feuille de calcul en image à l'aide du Aspose.Cells for Java en PHP, il suffit d'appeler le module Converter.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $imageFormat = new ImageFormat();
 
@@ -44,7 +45,7 @@ for ($j = 0; $j < $sr->getPageCount(); $j++)
 }
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Conversion d'une feuille de calcul en image (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Converting Worksheet to Image (Aspose.Cells)** depuis l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

@@ -1,24 +1,25 @@
-﻿---
-title: Извлечение текста из формы SmartArt типа шестеренки
+---
+title: Извлечение текста из формы SmartArt типа Gear
 type: docs
 weight: 500
 url: /ru/net/extract-text-from-the-gear-type-smartart-shape/
 ---
+
 ## **Возможные сценарии использования**
 
- Aspose.Cells может извлекать текст из формы Smart Art Shape Gear Type. Для этого сначала нужно преобразовать фигуру Smart Art Shape в фигуру группы с помощью[**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) метод. Затем вы должны получить массив всех индивидуальных фигур, образующих групповую фигуру, используя[**GroupShape.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes) метод. Наконец, вы можете повторять все отдельные фигуры одну за другой в цикле и извлекать их текст, используя[**Форма.Текст**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)имущество.
+Aspose.Cells может извлекать текст из умной формы Gear Type Smart Art. Для этого сначала нужно преобразовать умную форму в групповую форму, используя метод [**Shape.GetResultOfSmartArt()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart). Затем следует получить массив всех индивидуальных форм, составляющих групповую форму, с помощью метода [**GroupShape.GetGroupedShapes()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes). Наконец, можно перебрать все индивидуальные формы по одной в цикле и извлечь их текст, используя свойство [**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text).
 
-## **Извлечение текста из формы SmartArt типа шестеренки**
+## **Извлечение текста из формы SmartArt с шестеренчатым типом**
 
- Следующий пример кода загружает[образец файла Excel](67338483.xlsx) который содержит Gear Type Smart Art Shape. Затем он извлекает текст из отдельных фигур, как обсуждалось выше. См. консольный вывод кода, приведенного ниже, для справки.
+В следующем примере кода загружается [образец файла Excel](67338483.xlsx), содержащий умную форму Gear Type Smart Art. Затем извлекается текст из ее индивидуальных форм, как обсуждалось выше. Пожалуйста, ознакомьтесь с выводом консоли в приведенном ниже примере кода в качестве примера.
 
 ## **Образец кода**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-ExtractTextFromGearTypeSmartArtShape.cs" >}}
 
-## **Консольный вывод**
+## **Вывод в консоль**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Gear Type Shape Text: Nice
 

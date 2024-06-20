@@ -1,15 +1,16 @@
-﻿---
-title: Преобразование рабочего листа в изображение в PHP
+---
+title: Преобразование листа в изображение в PHP
 type: docs
 weight: 50
 url: /ru/java/converting-worksheet-to-image-in-php/
 ---
-## **Aspose.Cells - Преобразование рабочего листа в изображение**
-Чтобы преобразовать рабочий лист в изображение с помощью Aspose.Cells for Java в PHP, просто вызовите модуль Converter.
+
+## **Aspose.Cells - Преобразование Листа в изображение**
+Для преобразования листа в изображение с использованием Aspose.Cells for Java в PHP просто вызовите модуль Converter.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $imageFormat = new ImageFormat();
 
@@ -44,7 +45,7 @@ for ($j = 0; $j < $sr->getPageCount(); $j++)
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Преобразование рабочего листа в изображение (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Преобразование Листа в изображение (Aspose.Cells)** с любого из указанных ниже сайтов для социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

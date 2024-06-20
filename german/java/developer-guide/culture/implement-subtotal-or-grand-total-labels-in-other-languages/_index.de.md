@@ -1,15 +1,16 @@
-﻿---
-title: Implementieren Sie Beschriftungen für Zwischensummen oder Gesamtsummen in anderen Sprachen
+---
+title: Subtotal oder Gesamtsummenbeschriftungen in anderen Sprachen implementieren
 type: docs
 weight: 40
 url: /de/java/implement-subtotal-or-grand-total-labels-in-other-languages/
 ---
-## **Mögliche Nutzungsszenarien**
-Manchmal möchten Sie Zwischensummen- und Gesamtsummenbeschriftungen in nicht-englischen Sprachen wie Chinesisch, Japanisch, Arabisch, Hindi usw. anzeigen. Aspose.Cells ermöglicht Ihnen dies mit der[Globalisierungseinstellungen](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) Klasse und[WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) Eigentum. Bitte lesen Sie diesen Artikel zur Verwendung von[Globalisierungseinstellungen](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)Klasse
 
-- [Verwenden der GlobalizationSettings-Klasse für benutzerdefinierte Zwischensummenbeschriftungen und andere Beschriftungen von Kreisdiagrammen](/cells/de/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
-## **Implementieren Sie Beschriftungen für Zwischensummen oder Gesamtsummen in anderen Sprachen**
- Der folgende Beispielcode lädt die[Excel-Beispieldatei](5472584.xlsx) und implementiert Zwischensummen- und Gesamtsummennamen in der*Chinesisch* Sprache. Bitte überprüfen Sie die[Excel-Datei ausgeben](5472587.xlsx) generiert von diesem Code für Ihre Referenz.
+## **Mögliche Verwendungsszenarien**
+Manchmal möchten Sie Summen- und Gesamtsummen-Bezeichnungen in nicht englischen Sprachen wie Chinesisch, Japanisch, Arabisch, Hindi usw. anzeigen. Mit Aspose.Cells können Sie dies mithilfe der Klasse [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) und der Eigenschaft [WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) tun. Bitte lesen Sie diesen Artikel darüber, wie die Klasse [GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) verwendet wird.
+
+- [Verwendung der GlobalizationSettings-Klasse für benutzerdefinierte Teilergebnisbeschriftungen und andere Beschriftungen des Kuchendiagramms](/cells/de/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
+## **Implementierung von Teilergebnisse oder Gesamtergebnisbezeichnungen in anderen Sprachen**
+Der folgende Beispielscode lädt die [Beispieldatei](5472584.xlsx) und implementiert die Beschriftungen für Zwischensumme und Gesamtsumme in chinesischer Sprache. Bitte überprüfen Sie die von diesem Code erstellte [Ausgabedatei](5472587.xlsx) als Referenz.
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GlobalizationSettingsImp-GlobalizationSettingsImp.java" >}}
 

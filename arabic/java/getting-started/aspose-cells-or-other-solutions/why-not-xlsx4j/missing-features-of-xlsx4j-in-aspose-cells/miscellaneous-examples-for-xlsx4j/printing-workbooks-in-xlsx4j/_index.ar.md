@@ -1,17 +1,18 @@
-﻿---
-title: طباعة مصنفات في xlsx4j
+---
+title: طباعة صفحات العمل في xlsx4j
 type: docs
 weight: 30
 url: /ar/java/printing-workbooks-in-xlsx4j/
 ---
-## **Aspose.Cells - طباعة دفاتر العمل**
-بعد الانتهاء من إنشاء جدول البيانات ، قد ترغب في طباعة نسخة ورقية من الورقة حسب حاجتك. عندما تقوم بالطباعة ، يفترض MS Excel أنك تريد طباعة منطقة ورقة العمل بأكملها ما لم تحدد اختيارك.
 
-**ورقة عمل الطباعة**
+## **Aspose.Cells - طباعة دفاتر العمل**
+بعد الانتهاء من إنشاء ورقة البيانات الخاصة بك، من المحتمل أن ترغب في طباعة نسخة ورقية من الورقة لحاجتك. عند الطباعة، يفترض MS Excel أنك تريد طباعة منطقة ورقة العمل بأكملها ما لم تحدد تحديدك.
+
+**طباعة ورقة العمل**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiate a new workbook
 
@@ -35,11 +36,11 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 
-**كتاب الطباعة**
+**طباعة صفحات العمل**
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Create a WorkbookRender object with respect to your workbook
 
@@ -50,13 +51,13 @@ WorkbookRender wr = new WorkbookRender(book, imgOptions);
 wr.toPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/print/printworkbook/AsposePrintWorkbook.java)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/print/printworkbook/AsposePrintWorkbook.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[ دفاتر الطباعة](/cells/ar/java/printing-workbooks).
+لمزيد من التفاصيل، قم بزيارة [طباعة الدفاتر ](/cells/ar/java/printing-workbooks).
 
 {{% /alert %}}

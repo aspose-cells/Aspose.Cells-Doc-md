@@ -1,16 +1,17 @@
-﻿---
-title: Ställa in sidalternativ i Ruby
+---
+title: Inställning av sidalternativ i Ruby
 type: docs
 weight: 10
 url: /sv/java/setting-page-options-in-ruby/
 ---
+
 ## **Aspose.Cells - Ställa in sidalternativ**
 ### **Sidorientering**
- För att tillämpa inställningar för sidorientering med**Aspose.Cells Java för Ruby** , ringa upp**page_orientation** metod av**utskriftsformat** modul.
+För att tillämpa sidorienteringsinställningar med **Aspose.Cells Java för Ruby**, anropa **page_orientation**-metoden i **pagesetup**-modulen.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def page_orientation()
 
@@ -51,12 +52,12 @@ url: /sv/java/setting-page-options-in-ruby/
 end   
 
 {{< /highlight >}}
-### **Skalningsfaktor**
- För att tillämpa skalning med hjälp av**Aspose.Cells Java för Ruby** , ringa upp**skalning** metod av**utskriftsformat** modul.
+### **Skalfaktor**
+För att tillämpa skalning med **Aspose.Cells Java för Ruby**, anropa **scaling**-metoden i **pagesetup**-modulen.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def scaling()
 
@@ -96,7 +97,7 @@ end
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Ställa in sidalternativ (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner **Inställning av sidalternativ (Aspose.Cells)** från någon av nedan nämnda sociala kodbaser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)

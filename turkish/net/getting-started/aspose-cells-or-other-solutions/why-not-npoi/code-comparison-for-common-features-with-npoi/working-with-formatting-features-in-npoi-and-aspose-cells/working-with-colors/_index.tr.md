@@ -1,13 +1,14 @@
-﻿---
+---
 title: Renklerle Çalışmak
 type: docs
 weight: 20
 url: /tr/net/working-with-colors/
 ---
-## **Aspose.Cells - Renklerle Çalışma**
+
+## **Aspose.Cells - Renklerle Çalışmak**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook(); // Creating a Workbook object
 
@@ -53,10 +54,10 @@ workbook.Save("test.xlsx", SaveFormat.Xlsx); //Workbooks can be saved in many fo
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Renklerle Çalışma**
+## **NPOI - HSSF XSSF - Renklerle Çalışmak**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -103,12 +104,12 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Renklerle Çalışmak** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen sosyal kodlama sitelerinden herhangi birinden **Renklerle Çalışmak** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.With.Colors.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Veri Biçimlendirme Özellikleri](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting).
+Daha fazla bilgi için [Veri Biçimlendirme Özellikleri](http://www.aspose.com/docs/display/cellsjava/Working+with+Data+Formatting)ne bakın.
 
 {{% /alert %}}

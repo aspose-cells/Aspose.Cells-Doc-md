@@ -1,21 +1,22 @@
-﻿---
+---
 title: Créer un tableau en utilisant des lignes de bordure pour une plage
 type: docs
 weight: 50
 url: /fr/java/create-table-by-using-border-lines-for-a-range/
-description: Comment créer un tableau avec plage en utilisant des lignes de bordure. Aspose.Cells for Java fournit un API simple à utiliser qui peut être utilisé pour ajouter des bordures à une plage.
-keywords: create table, range to table, range to table excel, excel range to table, range to table with borders, how to create table from range, convert range to table, excel convert range to table, excel create table, range to table java 
+description: Comment créer une table avec une plage en utilisant des lignes de bordure. Aspose.Cells for Java fournit une API simple à utiliser qui peut être utilisée pour ajouter des bordures à une plage.
+keywords: créer un tableau, plage en tableau, plage en tableau excel, plage en tableau avec bordures, comment créer un tableau à partir d une plage, convertir une plage en tableau, excel convertir une plage en tableau, excel créer un tableau, plage en tableau java 
 ---
+
 {{% alert color="primary" %}}
 
- Parfois, vous souhaitez créer un tableau en ajoutant des lignes de bordure pour un**Intervalle**/**ZoneCellule** en fonction de l'adresse des cellules que vous avez. Vous pouvez utiliser[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) méthode pour créer une plage de cellules. Le[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) La méthode renvoie un[**Intervalle**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) objet. Vous pouvez créer un[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objet et spécifiez les options de bordures (haut, gauche, bas, droite) en conséquence. Plus tard, vous pouvez obtenir les cellules de la[**Intervalle**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)et appliquez la mise en forme souhaitée aux cellules.
+Parfois, vous voulez créer un tableau en ajoutant des lignes de bordure pour une **Plage**/**Zone de cellules** en fonction de l'adresse des cellules que vous avez. Vous pouvez utiliser la méthode [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) pour créer une plage de cellules. La méthode [**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean)) renvoie un objet [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range). Vous pouvez créer un objet [**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) et spécifier les options de bordures (haut, gauche, bas, droite) en conséquence. Plus tard, vous pouvez obtenir les cellules de la [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) et appliquer la mise en forme souhaitée aux cellules.
 
 {{% /alert %}}
 
- L'exemple suivant montre comment créer un[**Intervalle**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)et spécifiez les limites des cellules de la plage.
+L'exemple suivant montre comment créer un [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) et spécifier les limites pour les cellules de la plage.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateTableforRange-CreateTableforRange.java" >}}
 
-Après avoir exécuté le code ci-dessus, nous pouvons avoir le fichier Excel généré contenant le tableau formaté ; voici la capture d'écran du fichier.
+Après avoir exécuté le code ci-dessus, nous pouvons obtenir le fichier Excel généré contenant le tableau formaté; voici la capture d'écran du fichier.
 
-![tâche : image_autre_texte](create-table-by-using-border-lines-for-a-range_1.png)
+![todo:image_alt_text](create-table-by-using-border-lines-for-a-range_1.png)

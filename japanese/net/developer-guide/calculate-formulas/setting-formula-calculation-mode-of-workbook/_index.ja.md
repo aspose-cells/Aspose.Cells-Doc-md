@@ -1,27 +1,28 @@
 ---
-title: ワークブックの数式計算モードの設定
-description: この記事では、Aspose.Cells ライブラリを使用して Microsoft Excel でブックの数式計算モードを設定する方法を紹介します。既存の Excel ファイルをロードするか、新しい Excel ファイルを作成することで、Aspose.Cells が提供するメソッドを使用して数式計算モードを設定し、結果を取得できます。最後に、変更した Excel ファイルをディスクに保存します。
-keywords: Aspose.Cells, Excel, workbook, formula calculation mode, settings
+title: ワークブックの式の計算モードを設定する
+description: この記事では、Aspose.Cellsライブラリを使用してMicrosoft Excelでブックの式計算モードを設定する方法について紹介しています。既存のExcelファイルを読み込むか新しいExcelファイルを作成し、Aspose.Cellsが提供するメソッドを使用して式計算モードを設定し、結果を取得することができます。最後に、変更したExcelファイルをディスクに保存します。
+keywords: Aspose.Cells、Excel、ブック、式計算モード、設定
 type: docs
 weight: 110
 url: /ja/net/setting-formula-calculation-mode-of-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel では、数式の計算モード、つまり数式の計算方法を設定できます。可能な値は次の 3 つです。
+Microsoft Excelでは、フォーミュラ計算モード、つまりフォーミュラの計算方法を設定できます。3つの可能な値があります。
 
-- 自動 - 何かが変更されるたび、およびワークブックが開かれるたびに再計算します。
-- データ テーブルを除いて自動 - 何かが変更されるたびに再計算されますが、データ テーブルは除外されます。
-- 手動 - ユーザーが F9 キーまたは CTRL+ALT+F9 キーを押して明示的に要求した場合、またはワークブックが保存された場合にのみ再計算します。
+- 自動 - 何かが変更されるたびに再計算し、ワークブックが開かれるたびに再計算します。
+- データテーブル以外自動 - 何かが変更されるたびに再計算しますが、データテーブルを除外します。
+- マニュアル - ユーザーがF9またはCTRL+ALT+F9を押すか、ワークブックが保存されたときにのみ再計算します。
 
 {{% /alert %}}
 
-Microsoft Excel で数式計算モードを設定するには:
+Microsoft Excelでの式計算モードを設定するには:
 
-1. 選択する**数式**次に、*計算オプション** を選択します。
-1. いずれかのオプションを選択します。
+1. **式**、次に**計算オプション**を選択します。
+1つのオプションを選択します。
 
- Aspose.Cells を使用すると、**数式計算モード**を使用して[**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/properties/calculationmode)モードプロパティ。それに割り当てることができます[**CalcModeType**](https://reference.aspose.com/cells/net/aspose.cells/calcmodetype)次のいずれかの値を持つ列挙:
+Aspose.Cellsでは、**Formula Calculation Mode**を設定することもできます。 [**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/properties/calculationmode) モードプロパティを使用します。これに [**CalcModeType**](https://reference.aspose.com/cells/net/aspose.cells/calcmodetype) 列挙型を割り当てることができます。この列挙型には次のいずれかの値が含まれています:
 
 - CalcModeType.Automatic
 - CalcModeType.AutomaticExceptTable

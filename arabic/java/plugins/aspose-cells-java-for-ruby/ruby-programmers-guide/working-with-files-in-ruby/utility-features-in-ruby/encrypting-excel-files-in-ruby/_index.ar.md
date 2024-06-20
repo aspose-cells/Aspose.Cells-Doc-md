@@ -1,15 +1,16 @@
-﻿---
-title: تشفير ملفات اكسل في روبي
+---
+title: تشفير ملفات إكسل في روبي
 type: docs
 weight: 80
 url: /ar/java/encrypting-excel-files-in-ruby/
 ---
-## **Aspose.Cells - تشفير ملفات اكسل**
-لتطبيق التشفير على ملفات Excel باستخدام Aspose.Cells for Java في Ruby ، ما عليك سوى استدعاء وحدة التشفير.
 
-**كود روبي**
+## **Aspose.Cells - تشفير ملفات إكسل**
+لتطبيق تشفير على ملفات Excel باستخدام Aspose.Cells for Java في Ruby ، ما عليك سوى استدعاء وحدة التشفير.
 
-{{< highlight "ruby" >}}
+**كود Ruby**
+
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -38,7 +39,7 @@ workbook.save(data_dir + "encrypt.xls")
 puts "Apply encryption, please check the output file."
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-تحميل**تشفير ملفات Excel (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل ** تشفير ملفات Excel (Aspose.Cells) ** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/encrypt.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/encrypt.rb)

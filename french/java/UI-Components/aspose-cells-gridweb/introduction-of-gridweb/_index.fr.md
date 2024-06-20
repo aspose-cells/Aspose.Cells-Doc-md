@@ -4,57 +4,57 @@ type: docs
 weight: 10
 url: /fr/java/introduction-of-gridweb/
 ---
-##  **Bases de GridWeb**
- Aspose.Cells.GridWeb est un contrôle Web basé sur une interface graphique qui peut être intégré dans des pages Web JSP ou dans n'importe quelle page HTML du serveur Java.
+## **Fondamentaux de GridWeb**
+Aspose.Cells.GridWeb est un contrôle web basé sur une interface graphique qui peut être intégré dans des pages web JSP ou toute page html en java server. 
 {{% alert color="primary" %}} 
 
 Il est facile et simple à utiliser.
 
-Il vous aide à créer rapidement un éditeur Web en ligne pour un fichier de feuille de calcul.
+Il vous aide à construire rapidement un éditeur de feuilles de calcul en ligne.
 
-Il prend également en charge l'importation et l'exportation de toutes sortes de fichiers au format tableur, 100 % compatibles avec les fichiers MS Excel.
+Il prend également en charge l'importation et l'exportation de tous types de fichiers de formats de feuilles de calcul qui sont 100% compatibles avec les fichiers MS Excel.
 
-##  **Aspose.Cells.GridWeb - Démos**
+## **Aspose.Cells.GridWeb - Démos**
 {{% alert color="primary" %}} 
 
-Pour vous permettre d'être opérationnel rapidement, nous fournissons un certain nombre d'exemples de code et de démos qui montrent comment utiliser Aspose.Cells.GridWeb API.
+Pour vous permettre de démarrer rapidement, nous fournissons un certain nombre d'exemples de code et de démos qui montrent comment utiliser l'API Aspose.Cells.GridWeb.
 
-Veuillez télécharger les démos à partir du lien ci-dessous :
+Veuillez télécharger les démos à partir du lien ci-dessous :
 [Aspose.Cells.GridWeb Démos](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb)
 
 
-##  **Comment exécuter Aspose.Cells pour les démos GridWeb Java**
+## **Comment exécuter les démos Aspose.Cells pour GridWeb Java**
 {{% alert color="primary" %}} 
 
- Aspose.Cells pour les démos GridWeb Java sont faciles à exécuter. Il vous suffit de déployer**grillewebdemo.war** dans votre serveur Web. Veuillez télécharger les démos à partir de ceci[lien](https://forum.aspose.com/uploads/discourse_instance3/22292).
+Les démos Aspose.Cells pour GridWeb Java sont faciles à exécuter. Vous avez juste besoin de déployer **gridwebdemo.war** dans votre serveur Web. Veuillez télécharger les démos à partir de ce [lien](https://forum.aspose.com/uploads/discourse_instance3/22292).
 
-Cet article décrit comment exécuter Aspose.Cells pour les démos GridWeb Java sur le serveur Apache Tomcat.
+Cet article décrit comment exécuter les démos Aspose.Cells pour GridWeb Java dans le serveur Apache Tomcat.
 
 {{% /alert %}} 
-###  **Guide étape par étape pour exécuter les démos GridWeb Java**
-1.  Extrait**apache-tomcat-7.0.52.zip** dans n'importe quel répertoire, par exemple C:\Tomcat
+### **Guide pas à pas pour exécuter les démos GridWeb Java**
+1. Extraire **apache-tomcat-7.0.52.zip** dans n'importe quel répertoire, par exemple C:\Tomcat 
 
-![tâche : image_alt_text](introduction-of-gridweb_1.png)
-
-
-
- L'instantané suivant montre les répertoires et fichiers extraits du serveur Apache Tomcat
-
-![tâche : image_alt_text](introduction-of-gridweb_2.png)
+![todo:image_alt_text](introduction-of-gridweb_1.png)
 
 
 
- Vous devrez peut-être également définir la variable d'environnement**CATALINA_HOME** 
+La capture d'écran suivante montre les répertoires et fichiers extraits du serveur Apache Tomcat 
 
-![tâche : image_alt_text](introduction-of-gridweb_3.png)
+![todo:image_alt_text](introduction-of-gridweb_2.png)
 
-1.  Ouvrez le**tomcat-users.xml** déposer.
 
-![tâche : image_alt_text](introduction-of-gridweb_4.png)
 
-1. Ajoutez cet utilisateur :
+Vous devrez peut-être également définir la variable d'environnement **CATALINA_HOME** 
 
-{{< highlight "java" >}}
+![todo:image_alt_text](introduction-of-gridweb_3.png)
+
+1. Ouvrir le fichier **tomcat-users.xml** 
+
+![todo:image_alt_text](introduction-of-gridweb_4.png)
+
+1. Ajouter cet utilisateur :
+
+{{< highlight java >}}
 
    <role rolename="manager-gui"/>
 
@@ -64,105 +64,105 @@ Cet article décrit comment exécuter Aspose.Cells pour les démos GridWeb Java 
 
 
 
-**Ici le nom d'utilisateur est Tomcat et le mot de passe est secret** 
+**Ici, le nom d'utilisateur est tomcat et le mot de passe est secret** 
 
-![tâche : image_alt_text](introduction-of-gridweb_5.png)
+![todo:image_alt_text](introduction-of-gridweb_5.png)
 
-1.  Exécutez le**démarrage.bat** déposer.
- Il exécutera le serveur Apache Tomcat.
+1. Exécuter le fichier **startup.bat**
+   Cela lancera le serveur Apache Tomcat. 
 
-![tâche : image_alt_text](introduction-of-gridweb_6.png)
-
-
-
-**Serveur Tomcat s'exécutant dans une fenêtre de commande** 
-
-![tâche : image_alt_text](introduction-of-gridweb_7.png)
-
-1. Ouvrez maintenant le navigateur et tapez *localhost:8080**.
- La page Web Apache Tomcat s'affiche.
-
-   **La page Web d'Apache Tomcat** 
-
-![tâche : image_alt_text](introduction-of-gridweb_8.png)
-
-1.  Cliquez sur**Application de gestion** et saisissez le nom d'utilisateur et le mot de passe. (Comme ci-dessus : matou, secret)
-
-![tâche : image_alt_text](introduction-of-gridweb_9.png)
-
-1.  Faites défiler jusqu'à la section**Fichier WAR à déployer** et parcourez le**grillewebdemo.war** déposer.
-1.  Cliquez sur *Déployer**.
-
-![tâche : image_alt_text](introduction-of-gridweb_10.png)
-
-1. Parcourir**grillewebdemo.war** déposer.
-
-![tâche : image_alt_text](introduction-of-gridweb_11.png)
-
-1.  Cliquez sur *Déployer**.
-
-![tâche : image_alt_text](introduction-of-gridweb_12.png)
-
-1.  Une fois déployé, cliquez sur**/gridwebdemo** et commencez à exécuter des démos.
-
-![tâche : image_alt_text](introduction-of-gridweb_13.png)
+![todo:image_alt_text](introduction-of-gridweb_6.png)
 
 
- La page de démonstration GridWeb s'affiche.
+
+**Serveur Tomcat en cours d'exécution dans une fenêtre de commande** 
+
+![todo:image_alt_text](introduction-of-gridweb_7.png)
+
+1. Ouvrez maintenant le navigateur et saisissez **localhost:8080**
+   La page Web d'Apache Tomcat est affichée. 
+
+   **La page Web Apache Tomcat** 
+
+![todo:image_alt_text](introduction-of-gridweb_8.png)
+
+1. Cliquez sur **Manager App** et saisissez le nom d'utilisateur et le mot de passe. (Comme ci-dessus : tomcat, secret) 
+
+![todo:image_alt_text](introduction-of-gridweb_9.png)
+
+1. Faites défiler vers la section **Fichier WAR à déployer** et parcourez le fichier **gridwebdemo.war**.
+1. Cliquez sur **Déployer**. 
+
+![todo:image_alt_text](introduction-of-gridweb_10.png)
+
+1. Parcourez le fichier **gridwebdemo.war**. 
+
+![todo:image_alt_text](introduction-of-gridweb_11.png)
+
+1. Cliquez sur **Déployer**. 
+
+![todo:image_alt_text](introduction-of-gridweb_12.png)
+
+1. Une fois déployé, cliquez sur **/gridwebdemo** et lancez les démos. 
+
+![todo:image_alt_text](introduction-of-gridweb_13.png)
+
+
+La page de démonstration GridWeb est affichée. 
 
 **La page de démonstration GridWeb** 
 
-![tâche : image_alt_text](introduction-of-gridweb_14.png)
+![todo:image_alt_text](introduction-of-gridweb_14.png)
 
-1.  Cliquez sur n’importe quelle démo et exécutez-la.
+1. Cliquez sur n'importe quelle démo et exécutez-la. 
 
-   **Démo de création de contenu en cours d'exécution** 
+   **Création de démonstration de contenu en cours d'exécution** 
 
-![tâche : image_alt_text](introduction-of-gridweb_15.png)
+![todo:image_alt_text](introduction-of-gridweb_15.png)
 
 
 
 **Démo de feuilles de calcul en cours d'exécution** 
 
-![tâche : image_alt_text](introduction-of-gridweb_16.png)
+![todo:image_alt_text](introduction-of-gridweb_16.png)
 
 
 
-**Démo HeaderBar et CommandButton en cours d'exécution** 
+**Démo de HeaderBar et CommandButton en cours d'exécution** 
 
-![tâche : image_alt_text](introduction-of-gridweb_17.png)
+![todo:image_alt_text](introduction-of-gridweb_17.png)
 
 
 {{% /alert %}} 
-##  **Capacités des navigateurs et Aspose.Cells.GridWeb**
-Aspose.Cells.GridWeb est un contrôle Web basé sur une interface graphique qui peut être intégré dans des pages Web JSP comme d'autres contrôles Web. La chose la plus importante à propos du contrôle Web est la prise en charge de plusieurs navigateurs. Aspose.Cells.GridWeb fournit une prise en charge multi-navigateurs.
-###  **Comparaison**
-Aspose.Cells.GridWeb est entièrement pris en charge sur Internet Explorer (IE) de Microsoft. Cependant, sur d'autres navigateurs, il présente des limitations mineures. Cette rubrique fournit une comparaison détaillée des fonctionnalités prises en charge par différents navigateurs.
+## **Capacités des navigateurs et Aspose.Cells.GridWeb**
+Aspose.Cells.GridWeb est un contrôle Web basé sur une interface graphique pouvant être intégré dans des pages Web JSP comme d'autres contrôles Web. La chose la plus importante pour le contrôle Web est de fournir une prise en charge multi-navigateurs. Aspose.Cells.GridWeb fournit une prise en charge multi-navigateurs.
+### **Comparaison**
+Aspose.Cells.GridWeb est entièrement pris en charge sur Internet Explorer (IE) de Microsoft. Cependant, sur d'autres navigateurs, il présente des limitations mineures. Ce sujet fournit une comparaison détaillée des fonctionnalités prises en charge par différents navigateurs.
 
-|**Fonctionnalités côté client**|**Microsoft Internet Explorer**|**Google Chromé**|**Mozilla Firefox**|**Opéra**|
+|**Fonctionnalités côté client**|**Microsoft Internet Explorer**|**Google Chrome**|**Mozilla Firefox**|**Opera**|
 | :- | :- | :- | :- | :- |
-|Menu contextuel du Cell|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Menu contextuel de cellule|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Validation côté client|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Événement Double-Clic|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| La liste déroulante (*Mode ComboBox* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| La liste déroulante (*Mode menu contextuel* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Entrée/Modification de formule|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Geler ou débloquer des lignes/colonnes|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Liens hypertextes (*Mode Commande Cellulaire* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-| Liens hypertextes (*Mode URL* )|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Fusionner ou annuler la fusion Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Multiple Cells Copier/Coller|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Entrée/modification multiple Cells, publication unique|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Format de nombre|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Pagination de feuille|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Lecture seule Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Lignes/colonnes en lecture seule|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Validation des données à l'aide d'expressions régulières|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Redimensionner la largeur de la colonne|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Redimensionner la hauteur de la ligne|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Insérer/Supprimer des lignes et des colonnes|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Faire défiler le contenu|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Faire défiler les onglets de la feuille|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Définir les bordures de Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Définir les paramètres de police de Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-{{< emoticons/cross >}} Le menu contextuel d'une cellule ne peut être activé qu'en cliquant sur le bouton Menu côté client.
+|Événement Double-clic| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|DropDownList (*Mode ComboBox*)| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|DropDownList (*Mode Menu contextuel*)| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Saisie/Modification de formule| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Geler ou dégeler lignes/colonnes| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Hyperliens (*Mode CommandeCellule*)| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Hyperliens (*Mode URL*)| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Fusionner ou séparer des cellules| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Copier/Coller de plusieurs cellules| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Saisie/Modification de plusieurs cellules, un seul renvoi| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Format de nombre| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Pagination de feuille| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Cellules en lecture seule| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Lignes/colonnes en lecture seule| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Validation de données en utilisant des expressions régulières| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Redimensionner la largeur de la colonne| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Redimensionner la hauteur de la ligne| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Insérer/Supprimer lignes et colonnes| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Défilement du contenu| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Défilement des onglets de feuille| {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | 
+|Définir les bordures des cellules|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Définir les paramètres de la police des cellules|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+{{< emoticons/cross >}} Context menu of a cell can only be activated by clicking the Client side menu button.

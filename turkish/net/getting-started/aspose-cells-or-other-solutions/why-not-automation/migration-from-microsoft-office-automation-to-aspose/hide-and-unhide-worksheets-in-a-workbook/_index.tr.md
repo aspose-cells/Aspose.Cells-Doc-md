@@ -1,43 +1,44 @@
-﻿---
-title: Bir Çalışma Kitabında Çalışma Sayfalarını Gizle ve Göster
+---
+title: Bir Çalışma Kitabında Çalışsayfaları Gizlemek ve Göstermek
 type: docs
 weight: 80
 url: /tr/net/hide-and-unhide-worksheets-in-a-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-Çalışma kitaplarını müşterilere sunarken veya sunum yaparken, çalışma kitaplarını çalışma kitabında gizlemek yararlı olabilir. Elektronik tablo modellemeye yönelik yapılandırılmış bir yaklaşım, grafikler gibi verilerin, formüllerin ve görselleştirmelerin ayrı sayfalarda tutulmasını önerir. Bu yaklaşım, düzeni temiz ve basit tutar ve çalışma kitabında gezinmeyi kolaylaştırır. Sonuçları sunarken dikkatin dağılmasını önlemek için verileri veya formül sayfalarını gizlemek isteyebilirsiniz.
+Müşterilere çalışma kitapları sunulurken veya sunum yaparken, çalışma kitaplarında çalışsayfaları gizlemek faydalı olabilir. Yapılandırılmış bir elektronik tablo modelleme yaklaşımı, verilerin, formüllerin ve grafikler gibi görselleştirmelerin ayrı çalışma sayfalarında tutulmasını önerir. Bu yaklaşım, düzeni temiz ve basit tutar ve çalışma kitabını gezinmeyi daha kolay hale getirir. Sonuçları sunarken, verileri veya formül sayfalarını dikkat dağıtmamak için gizlemek isteyebilirsiniz.
 
-Microsoft Excel'de çalışan kullanıcılar, çalışma sayfalarını kolayca gizleyebilir ve ardından gösterebilir (gösterebilir). Aynı özellikler, Excel elektronik tablolarıyla programlama yapan geliştiriciler tarafından kullanılabilir. Yazılım uygulamalarının içinden elektronik tablolarla çalışmanın farklı yolları vardır. Bir yöntem VSTO kullanmak, diğeri ise Aspose.Cells for .NET.
+Microsoft Excel'de çalışan kullanıcılar, çalışsayfalarını kolayca gizleyebilir ve ardından gösterebilir (gösteremez) çalışabilirler. Aynı özellikler, Excel elektronik tablolarla programlama yapan geliştiriciler için de mevcuttur. Yazılım uygulamaları içinde elektronik tablolarla çalışmanın farklı yolları bulunmaktadır. Bir yöntem, VSTO'nun kullanılmasıdır, diğer bir yöntem de Aspose.Cells for .NET'nin kullanılmasıdır.
 
 {{% /alert %}}
 
-## **Çalışma Sayfalarını Gizleme ve Gösterme**
+## **Çalışsayfalarını Gizleme ve Gösterme**
 
- Bu makale karşılaştırır[saklanmak](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) ve[gizleme](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) ile çalışma sayfaları[VSTO](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) ile aynı görevi gerçekleştirmek için C# veya Visual Basic kullanarak[Aspose.Cells](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/), yine C# veya Visual Basic kullanarak. Aspose.Cells, Microsoft Excel yüklü olmadan çalışmanıza izin verir.
+Bu makale, [VSTO ile](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) veya C# veya Visual Basic kullanarak çalışmayı [gizleme](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) ve [gösterme](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) işlemlerini [Aspose.Cells ile](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) yine C# veya Visual Basic kullanarak karşılaştırmaktadır. Aspose.Cells, Microsoft Excel yüklü olmadan çalışmanızı sağlar.
 
-Bir çalışma sayfasını gizleme adımları şunlardır:
+Bir çalışsayfayı gizlemek için izlenmesi gereken adımlar:
 
-1. Bir dosya aç.
-1. Bir çalışma sayfası alın.
-1. Çalışma sayfasını gizleyin.
-1. Dosya 'yı kaydet.
+1. Bir dosyayı açın.
+1. Bir çalışsayfayı alın.
+1. Çalışsayfayı gizleyin.
+1. Dosyayı kaydedin.
 
- İle[göster](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) tekrar bir çalışma sayfası, sadece gizli sayfa için görünürlüğü açın.
+Bir çalışsayfayı [gizledikten](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) sonra tekrar görünür hale getirmek için sadece gizlenen çalışsayfanın görünürlüğünü açın.
 
- Aşağıdaki kod örnekleri öncelikle bir çalışma sayfasının nasıl gizleneceğini gösterir. İlk örnekler ile süreci gösterir[VSTO](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) C# veya Visual Basic kullanarak, kullanmaya kıyasla[Aspose.Cells](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/), yine C# veya Visual Basics kullanarak.
+Aşağıdaki kod örnekleri ilk olarak bir çalışma sayfasını gizlemeyi nasıl gösterir. İlk örnekler, [VSTO ile](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/), yine C# veya Visual Basic kullanarak, aynı görevi [Aspose.Cells ile](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) yine C# veya Visual Basic kullanarak karşılaştırır.
 
- İkinci kod örnekleri grubu, çalışma sayfasını göstermek için kullanılan satırı gösterir.[VSTO](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) veya[Aspose.Cells](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/).
+İkinci kod örnekleri, [VSTO'da](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) veya [Aspose.Cells'da](/cells/tr/net/hide-and-unhide-worksheets-in-a-workbook/) çalışma sayfasını göstermek için kullanılan satırı gösterir.
 
-## **Çalışma Sayfalarını Gizleme**
+## **Çalışsayfaları Gizleme**
 
-Aşağıda, çalışma kitabında bir çalışma sayfasının nasıl gizleneceğini gösteren VSTO ve Aspose.Cells kod örnekleri bulunmaktadır.
+Aşağıda, çalışma kitabında bir çalışsayfayı gizlemek için VSTO ve Aspose.Cells için çözümlemeleri gösteren kod örnekleri bulunmaktadır.
 
-### **Çalışma Sayfalarını VSTO ile Gizleme**
+### **VSTO ile Çalışma Sayfalarını Gizleme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -112,7 +113,7 @@ excelApp.Quit();
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -158,13 +159,13 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 ## **Çalışma Sayfalarını Gösterme**
 
-Aşağıda, çalışma kitabında bir çalışma sayfasının nasıl gösterileceğini gösteren VSTO ve Aspose.Cells kod örnekleri bulunmaktadır.
+Aşağıda, çalışma kitabında bir çalışsayfayı yeniden göstermek için VSTO ve Aspose.Cells için kod örnekleri bulunmaktadır.
 
-### **Bir Çalışma Sayfasını VSTO ile Gösterme**
+### **VSTO ile Bir Çalışma Sayfasını Gösterme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 
 
@@ -177,11 +178,11 @@ objSheet.Visible = Excel.XlSheetVisibility.xlSheetVisible;
 {{< /highlight >}}
 
 
-### **Aspose.Cells for .NET ile Çalışma Sayfasını Gösterme**
+### **Aspose.Cells for .NET ile Bir Çalışma Sayfasını Gösterme**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
 //Unhide the worksheet.
 

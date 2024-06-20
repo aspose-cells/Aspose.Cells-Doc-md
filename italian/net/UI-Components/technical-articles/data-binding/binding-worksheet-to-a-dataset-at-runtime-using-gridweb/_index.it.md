@@ -1,15 +1,18 @@
-﻿---
-title: Associazione del foglio di lavoro a un set di dati in fase di esecuzione tramite GridWeb
+---
+title: Collegamento del foglio di lavoro a un set di dati in fase di esecuzione utilizzando GridWeb
 type: docs
 weight: 70
-url: /it/net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
+url: /it/net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
+keywords: GridWeb,bind,DataSet
+description: Questo articolo introduce come collegare il foglio di lavoro a un set di dati in GridWeb.
 ---
-## **Possibili scenari di utilizzo**
-Aspose.Cells.GridWeb fornisce un semplice API che può essere utilizzato per associare dinamicamente un DataSet al foglio di lavoro.
-## **Associazione di un foglio di lavoro a DataSet**
-Il codice di esempio seguente illustra come associare un foglio di lavoro a un DataSet in fase di esecuzione.
-## **Codice d'esempio**
-{{< highlight "java" >}}
+
+## **Possibili Scenari di Utilizzo**
+Aspose.Cells.GridWeb fornisce un'API semplice che può essere utilizzata per collegare dinamicamente un set di dati al foglio di lavoro.
+## **Collegare un foglio di lavoro a un set di dati**
+Il seguente codice di esempio spiega come collegare un foglio di lavoro a un set di dati in fase di esecuzione.
+## **Codice di Esempio**
+{{< highlight java >}}
 
  // Implementing Page_Load event handler
 
@@ -80,7 +83,7 @@ public partial class GridBind : System.Web.UI.Page
 }
 
 {{< /highlight >}}
-## **Schermata di uscita**
-Lo screenshot seguente mostra GridWeb dopo l'esecuzione del codice di esempio precedente.
+## **Screenshot di output**
+Lo screenshot seguente mostra il GridWeb dopo l'esecuzione del codice di esempio sopra.
 
-![cose da fare:immagine_alt_testo](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

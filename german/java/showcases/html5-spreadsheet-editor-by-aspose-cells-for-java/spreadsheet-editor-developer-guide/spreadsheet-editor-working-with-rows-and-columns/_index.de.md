@@ -1,44 +1,45 @@
-﻿---
-title: Tabelleneditor - Arbeiten mit Zeilen und Spalten
+---
+title: Tabellenkalkulations Editor  Arbeiten mit Zeilen und Spalten
 type: docs
 weight: 30
 url: /de/java/spreadsheet-editor-working-with-rows-and-columns/
 ---
+
 **Inhaltsverzeichnis**
 
-- [Zeile hinzufügen](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
- - WorksheetView.addRowAbove
- - WorksheetView.addRowBelow
-- [Spalte hinzufügen](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
- - WorksheetView.addColumnBefore
- - WorksheetView.addColumnAfter
-- [Löschen Sie eine Zeile](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
- - WorksheetView.deleteRow
-- [Löschen Sie eine Spalte](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
- - WorksheetView.deleteColumn
+- [Eine Zeile hinzufügen](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaRow) 
+  - WorksheetView.addRowAbove
+  - WorksheetView.addRowBelow
+- [Eine Spalte hinzufügen](#SpreadsheetEditor-WorkingwithRowsandColumns-AddaColumn) 
+  - WorksheetView.addColumnBefore
+  - WorksheetView.addColumnAfter
+- [Eine Zeile löschen](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaRow) 
+  - WorksheetView.deleteRow
+- [Eine Spalte löschen](#SpreadsheetEditor-WorkingwithRowsandColumns-DeleteaColumn) 
+  - WorksheetView.deleteColumn
 - [Spaltenbreite und Zeilenhöhe](#SpreadsheetEditor-WorkingwithRowsandColumns-ColumnWidthandRowHeight) 
- - WorksheetView.setCurrentRowHeight
- - WorksheetView.setCurrentColumnWidth
-- [Geben Sie eine Cell ein](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
- - WorksheetView.addCellShiftRight
- - WorksheetView.addCellShiftDown
-### **Zeile hinzufügen**
-So fügen Sie eine neue Zeile hinzu:
+  - WorksheetView.setCurrentRowHeight
+  - WorksheetView.setCurrentColumnWidth
+- [Eine Zelle einfügen](#SpreadsheetEditor-WorkingwithRowsandColumns-InsertaCell) 
+  - WorksheetView.addCellShiftRight
+  - WorksheetView.addCellShiftDown
+### **Eine Zeile hinzufügen**
+Um eine neue Zeile hinzuzufügen:
 
-1. Klicken Sie auf eine Zelle, in der Sie eine Zeile hinzufügen möchten.
-1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Zeile oben hinzufügen** , um eine Zeile über der ausgewählten Zelle hinzuzufügen.
-1.  Klicken**Zeile unten hinzufügen** , um eine Zeile unter der ausgewählten Zelle hinzuzufügen.
+1. Klicken Sie auf eine Zelle, an der Sie eine Zeile hinzufügen möchten.
+1. Wechseln Sie zum **Format-Tab**.
+1. Klicken Sie auf **Zeile oben hinzufügen**, um eine Zeile über der ausgewählten Zelle hinzuzufügen.
+1. Klicken Sie auf **Zeile unten hinzufügen**, um eine Zeile unter der ausgewählten Zelle hinzuzufügen.
 
 Der Editor fügt an der ausgewählten Stelle eine neue Zeile hinzu.
 
-![todo: Bild_alt_Text](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Das**Zeile oben hinzufügen** und**Zeile unten hinzufügen** werden von der JSF-Backend-Bean verarbeitet**Arbeitsblattansicht**. Der Quellcode der jeweiligen Methoden sieht wie folgt aus:
+Das **Hinzufügen einer Zeile oben** und **Hinzufügen einer Zeile unten** wird vom JSF-Backend-Bean **WorksheetView** verarbeitet. Der Quellcode der entsprechenden Methoden lautet wie folgt:
 #### **WorksheetView.addRowAbove**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowAbove() {
 
@@ -63,7 +64,7 @@ Der Editor fügt an der ausgewählten Stelle eine neue Zeile hinzu.
 {{< /highlight >}}
 
 #### **WorksheetView.addRowBelow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addRowBelow() {
 
@@ -96,23 +97,23 @@ Der Editor fügt an der ausgewählten Stelle eine neue Zeile hinzu.
     }
 
 {{< /highlight >}}
-### **Spalte hinzufügen**
-So fügen Sie eine neue Spalte hinzu:
+### **Eine Spalte hinzufügen**
+Um eine neue Spalte hinzuzufügen:
 
-1. Klicken Sie auf eine Zelle, in der Sie eine Spalte hinzufügen möchten.
-1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Spalte davor hinzufügen** um eine Spalte vor der ausgewählten Zelle hinzuzufügen.
-1.  Klicken**Spalte danach hinzufügen** , um eine Spalte nach der ausgewählten Zelle hinzuzufügen.
+1. Klicken Sie auf die Zelle, in der Sie eine Spalte hinzufügen möchten.
+1. Wechseln Sie zum **Format-Tab**.
+1. Klicken Sie auf **Spalte davor hinzufügen**, um eine Spalte vor der ausgewählten Zelle hinzuzufügen.
+1. Klicken Sie auf **Spalte danach hinzufügen**, um eine Spalte nach der ausgewählten Zelle hinzuzufügen.
 
-Der Editor fügt an der ausgewählten Stelle eine neue Spalte hinzu.
+Der Editor fügt eine neue Spalte an der ausgewählten Position hinzu.
 
-![todo: Bild_alt_Text](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Das**Spalte davor hinzufügen** und**Spalte danach hinzufügen** werden von der JSF-Backend-Bean verarbeitet**Arbeitsblattansicht**. Der Quellcode der jeweiligen Methoden sieht wie folgt aus:
+Das **Spalte davor hinzufügen** und **Spalte danach hinzufügen** werden vom JSF-Backend-Bean **WorksheetView** verwaltet. Der Quellcode der entsprechenden Methoden lautet wie folgt:
 #### **WorksheetView.addColumnBefore**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnBefore() {
 
@@ -137,7 +138,7 @@ Der Editor fügt an der ausgewählten Stelle eine neue Spalte hinzu.
 {{< /highlight >}}
 
 #### **WorksheetView.addColumnAfter**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addColumnAfter() {
 
@@ -162,22 +163,22 @@ Der Editor fügt an der ausgewählten Stelle eine neue Spalte hinzu.
     }
 
 {{< /highlight >}}
-### **Löschen Sie eine Zeile**
-So löschen Sie eine Zeile:
+### **Eine Zeile löschen**
+Um eine Zeile zu löschen:
 
 1. Klicken Sie auf eine Zelle in der Zeile, die Sie löschen möchten.
-1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Zeile löschen** Knopf.
+1. Wechseln Sie zum **Format-Tab**.
+1. Klicken Sie auf die Schaltfläche **Zeile löschen**.
 
-Der Editor löscht die Zeile, die die ausgewählte Zelle enthält.
+Der Editor wird die Zeile löschen, die die ausgewählte Zelle enthält.
 
-![todo: Bild_alt_Text](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Das**Zeile löschen** Die Schaltfläche wird von der JSF-Backend-Bean verarbeitet**Arbeitsblattansicht** Methode verwenden**WorksheetView.deleteRow**:
+Die **Zeile löschen**-Schaltfläche wird vom JSF-Backend-Bean **WorksheetView** mit der Methode **WorksheetView.deleteRow** verwendet:
 #### **WorksheetView.deleteRow**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteRow() {
 
@@ -202,22 +203,22 @@ Der Editor löscht die Zeile, die die ausgewählte Zelle enthält.
     }
 
 {{< /highlight >}}
-### **Löschen Sie eine Spalte**
-So löschen Sie eine Spalte:
+### **Eine Spalte löschen**
+Um eine Spalte zu löschen:
 
 1. Klicken Sie auf eine Zelle in der Spalte, die Sie löschen möchten.
-1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Spalte löschen** Knopf.
+1. Wechseln Sie zum **Format-Tab**.
+1. Klicken Sie auf die Schaltfläche **Spalte löschen**.
 
 Der Editor löscht die Spalte, die die ausgewählte Zelle enthält.
 
-![todo: Bild_alt_Text](jjsornm.png)
+![todo:image_alt_text](jjsornm.png)
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Das**Spalte löschen** Die Schaltfläche wird von der JSF-Backend-Bean verarbeitet**Arbeitsblattansicht** Methode verwenden**WorksheetView.deleteColumn**:
+Die Schaltfläche **Spalte löschen** wird vom JSF-Backend-Bean **WorksheetView** mit der Methode **WorksheetView.deleteColumn** behandelt:
 #### **WorksheetView.deleteColumn**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void deleteColumn() {
 
@@ -243,33 +244,33 @@ Der Editor löscht die Spalte, die die ausgewählte Zelle enthält.
 
 {{< /highlight >}}
 ### **Spaltenbreite und Zeilenhöhe**
-So ändern Sie die Breite einer Spalte:
+Um die Breite einer Spalte zu ändern:
 
-1. Klicken Sie auf eine beliebige Zelle innerhalb der Spalte.
-1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Spaltenbreite** Taste zum Öffnen**Spaltenbreite** Dialog.
-1. Geben Sie im Dialogfeld einen neuen Wert ein.
-1.  Klicken**Nahe**.
+1. Klicken Sie auf eine Zelle in der Spalte.
+1. Wechseln Sie zum **Format-Tab**.
+1. Klicken Sie auf die Schaltfläche **Spaltenbreite**, um den **Spaltenbreite**-Dialog zu öffnen.
+1. Geben Sie einen neuen Wert im Dialogfeld ein.
+1. Klicken Sie auf **Schließen**.
 
-Der Editor ändert die Spaltenbreite.
+Der Editor ändert die Breite der Spalte.
 
 **Wie ändert man die Zeilenhöhe?**
 
-So ändern Sie die Höhe einer Zeile:
+Um die Höhe einer Zeile zu ändern:
 
-1. Klicken Sie auf eine beliebige Zelle innerhalb der Zeile.
-1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Zeilenhöhe** Taste zum Öffnen**Zeilenhöhe** Dialog.
-1. Geben Sie im Dialogfeld einen neuen Wert ein.
-1.  Klicken**Nahe**.
+1. Klicken Sie auf eine Zelle in der Zeile.
+1. Wechseln Sie zum **Format-Tab**.
+1. Klicken Sie auf die Schaltfläche **Zeilenhöhe**, um den **Zeilenhöhe**-Dialog zu öffnen.
+1. Geben Sie einen neuen Wert im Dialogfeld ein.
+1. Klicken Sie auf **Schließen**.
 
-Der Editor ändert die Zeilenhöhe.
+Der Editor wird die Höhe der Zeile ändern.
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Wenn der Benutzer den Wert für Breite und Höhe übermittelt, werden diese Werte serverseitig verarbeitet von**setCurrentRowHeight** und**setCurrentColumnWidth** Methoden der JSF-Backend-Bean**Arbeitsblattansicht**.
+Wenn der Benutzer den Wert von Breite und Höhe eingibt, werden diese Werte auf der Serverseite von den Methoden **setCurrentRowHeight** und **setCurrentColumnWidth** des JSF-Backend-Beans **WorksheetView** verarbeitet.
 #### **WorksheetView.setCurrentRowHeight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentRowHeight(int height) {
 
@@ -290,7 +291,7 @@ Der Editor ändert die Zeilenhöhe.
 {{< /highlight >}}
 
 #### **WorksheetView.setCurrentColumnWidth**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void setCurrentColumnWidth(int width) {
 
@@ -309,21 +310,21 @@ Der Editor ändert die Zeilenhöhe.
     }
 
 {{< /highlight >}}
-### **Geben Sie eine Cell ein**
-So fügen Sie eine neue Zelle hinzu:
+### **Eine Zelle einfügen**
+Um eine neue Zelle hinzuzufügen:
 
-1. Klicken Sie auf eine Zelle, in die Sie neu möchten.
-1.  Wechseln zu**Registerkarte einfügen**.
-1.  Klicken**Cell** Knopf.
-1.  Wählen**Verschiebung Cells Rechts** oder**Schicht Cells Runter** Knopf.
+1. Klicken Sie auf eine Zelle, in der Sie eine neue möchten.
+1. Wechseln Sie zu **Einfügen**Registerkarte.
+1. Klicken Sie auf die Schaltfläche **Zelle**.
+1. Wählen Sie die Schaltfläche **Zellen rechts verschieben** oder **Zellen nach unten verschieben**.
 
-Der Editor fügt an der ausgewählten Stelle eine neue Zelle hinzu. Die angrenzenden Zellen werden automatisch entweder horizontal oder vertikal verschoben, um Platz für die neue zu schaffen.
+Der Editor fügt eine neue Zelle an der ausgewählten Position hinzu. Die benachbarten Zellen werden automatisch horizontal oder vertikal verschoben, um Platz für die neue zu schaffen.
 
-**Wie es funktioniert?**
+**Wie funktioniert es?**
 
- Das**Verschiebung Cells Rechts** und**Schicht Cells Runter** werden von der JSF-Backend-Bean verarbeitet**Arbeitsblattansicht**. Der Quellcode der jeweiligen Methoden sieht wie folgt aus:
+Das Verschieben von Zellen rechts und das Verschieben von Zellen nach unten werden vom JSF-Backend-Bean **WorksheetView** gehandhabt. Der Quellcode der entsprechenden Methoden lautet wie folgt:
 #### **WorksheetView.addCellShiftRight**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftRight() {
 
@@ -348,7 +349,7 @@ Der Editor fügt an der ausgewählten Stelle eine neue Zelle hinzu. Die angrenze
 {{< /highlight >}}
 
 #### **WorksheetView.addCellShiftDown**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void addCellShiftDown() {
 

@@ -1,29 +1,30 @@
 ---
-title: PDF に保存中にコメントを印刷
+title: PDFへ保存する際にコメントを印刷する
 type: docs
 weight: 10
 url: /ja/python-net/print-comments-while-saving-to-pdf/
-description: Aspose.Cells for Python via .NET API を使用して PDF に保存するときにコメントを印刷する方法を学びます。
-keywords: Python Print Comments while saving file to PDF, Print Comments while saving Excel to PDF using Python, Python Export Comments when converting Excel to PDF, Output Comments for Excel to PDF in python, Render Comments while saving excel to PDF
+description: Aspose.Cells for Python via .NET APIを使用してPDFに保存する際にコメントを表示する方法を学びます。
+keywords: Pythonを使用してPDFにファイルを保存する際にコメントを表示し、Pythonを使用してExcelをPDFに保存する際にコメントを表示し、PythonでExcelをPDFに変換する際にコメントをエクスポートし、PythonでExcelをPDFに変換する際にコメントを出力し、ExcelをPDFに変換する際にコメントを表示します。
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel では、次のオプションを使用して、印刷または PDF 形式で保存するときにコメントを印刷できます。
+Microsoft Excelでは、印刷またはPDF形式への保存時にコメントを印刷する機能が以下のオプションで提供されています
 
 - なし
-- シートの最後に
-- シートに表示されているとおり
+- シートの末尾
+- シートに表示されている通り
 
- Aspose.Cells for Python via .NET を提供してください[**印刷コメントタイプ**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)同じ機能をサポートする列挙型。の[**印刷コメントタイプ**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)enum には次のメンバーがあります
+Aspose.Cells for Python via .NETは、同じ機能をサポートするために[**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)列挙型を提供します。[**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)列挙型には、次のメンバーが含まれています。
 
-- 印刷なしコメント
-- インプレイスで印刷
-- プリントシート終了
+- PrintNoComments
+- PrintInPlace
+- PrintSheetEnd
 
 {{% /alert %}}
 
-##  **PDF に保存中にコメントを印刷**
+## **PDFへ保存する際にコメントを印刷する**
 
-次のサンプル コードは、使用方法を示しています。[**印刷コメントタイプ**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)PDF に保存するときにコメントを印刷するには。
+以下のサンプルコードは、[**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)を使用してPDFに保存する際にコメントを印刷する方法を示しています。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-PrintCommentWhileSavingToPdf.py" >}}

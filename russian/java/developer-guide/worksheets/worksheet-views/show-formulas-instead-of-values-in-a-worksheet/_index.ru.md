@@ -1,27 +1,28 @@
-﻿---
-title: Показывать формулы вместо значений на листе
+---
+title: Показ формул вместо значений на листе
 type: docs
 weight: 100
 url: /ru/java/show-formulas-instead-of-values-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-В Microsoft Excel можно отобразить формулы вместо расчетных значений, используя t*Показать формулы* вариант из**Формулы**лента. Когда отображаются формулы, Microsoft Excel отображает формулы на листе. Вы можете добиться того же, используя Aspose.Cells.
+В Microsoft Excel можно показать формулы вместо вычисленных значений, используя опцию *Показать формулы* из меню **Формулы**. Если формулы отображаются, то Microsoft Excel отображает формулы на листе. Это также можно сделать с помощью Aspose.Cells.
 
 {{% /alert %}} 
 
-Aspose.Cells предоставляет[**Рабочий лист.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) имущество. Установите это на**истинный**установить Microsoft Excel для отображения формул.
+Aspose.Cells предоставляет свойство [**Worksheet.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas). Установите его в **true**, чтобы указать Microsoft Excel отображать формулы.
 
-На следующем изображении показан рабочий лист с формулой в ячейке A3: = Сумма (A1: A2).
+На следующем изображении показан лист, на котором в ячейке A3 есть формула: =Сумма(A1:A2).
 
-**Рабочий лист с формулой в ячейке A3**
+**Лист с формулой в ячейке A3**
 
-![дело:изображение_альтернативный_текст](show-formulas-instead-of-values-in-a-worksheet_1.png)
+![todo:image_alt_text](show-formulas-instead-of-values-in-a-worksheet_1.png)
 
- На следующем изображении показана формула вместо расчетного значения, доступного при установке параметра[**Рабочий лист.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) собственность на**истинный** с Aspose.Cells.
+На следующем изображении показана формула вместо вычисленного значения, активированная установкой свойства [**Worksheet.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) в **true** с помощью Aspose.Cells.
 
-**На рабочем листе теперь отображается формула вместо расчетного значения.**
+**Теперь на листе отображается формула вместо вычисленного значения**
 
-![дело:изображение_альтернативный_текст](show-formulas-instead-of-values-in-a-worksheet_2.png)
+![todo:image_alt_text](show-formulas-instead-of-values-in-a-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowFormulas-ShowFormulas.java" >}}

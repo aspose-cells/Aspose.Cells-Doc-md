@@ -1,14 +1,15 @@
 ---
-title: Yalnızca güncellenen hücreleri doğrulamak yerine tüm çalışma sayfasını doğrulayın
+title: Yalnızca güncellenen hücrelerin değil, tüm çalışma sayfasını doğrulamak
 type: docs
 weight: 80
 url: /tr/java/validate-entire-worksheet-instead-of-only-the-updated-cells/
 ---
-##  **Olası Kullanım Senaryoları**
-GridWeb varsayılan olarak yalnızca güncellenen hücreleri doğrular ve çalışma sayfasının tamamını doğrulamaz. Ancak GridWeb isteği sunucuya göndermeden önce çalışma sayfasının tamamını istemci tarafında doğrulamak istiyorsanız acwmain.js içindeki needValidateall değişkenini true olarak ayarlamanız gerekir.
-##  **Yalnızca güncellenen hücreleri doğrulamak yerine tüm çalışma sayfasını doğrulayın**
-Aşağıdaki ekran görüntüsü acwmain.js'deki needValidateall değişkenini göstermektedir. Lütfen bunu true olarak ayarlayın; GridWeb artık yalnızca güncellenen hücreleri değil tüm çalışma sayfanızı doğrulayacaktır.
 
-![yapılacak şey:image_alt_text](validate-entire-worksheet-instead-of-only-the-updated-cells_1.png)
+## **Olası Kullanım Senaryoları**
+Varsayılan olarak, GridWeb yalnızca güncellenen hücreleri doğrular ve tüm çalışma sayfasını doğrulamaz. Bununla birlikte, sunucuya istek göndermeden önce GridWeb'in istemci tarafında tüm çalışma sayfasını doğrulamak istiyorsanız, acwmain.js içinde needValidateall değişkenini true olarak ayarlamanız gerekmektedir.
+## **Yalnızca güncellenen hücrelerin değil, tüm çalışma sayfasını doğrulamak**
+Aşağıdaki ekran görüntüsü, acwmain.js içindeki needValidateall değişkenini göstermektedir. Lütfen true olarak ayarlayın ve artık GridWeb tüm çalışma sayfanızı, sadece güncellenen hücreler değil, doğrulayacaktır.
+
+![todo:image_alt_text](validate-entire-worksheet-instead-of-only-the-updated-cells_1.png)
 
 

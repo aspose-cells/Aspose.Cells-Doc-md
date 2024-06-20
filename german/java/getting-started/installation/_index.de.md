@@ -4,13 +4,14 @@ type: docs
 weight: 20
 url: /de/java/installation/
 ---
-##  **Installation von Aspose.Cells for Java aus dem Maven-Repository**
 
-Aspose hostet alle Java-APIs auf[Maven-Repository](https://releases.aspose.com/java/repo/) . Sie können es problemlos verwenden[Aspose.Cells for Java API](https://releases.aspose.com/cells/java/) direkt in Ihren Maven Projekten mit einfachen Konfigurationen.
+## **Installation von Aspose.Cells for Java aus dem Maven-Repository**
 
-Zuerst müssen Sie die Aspose Maven Repository-Konfiguration/den Speicherort in Ihrer Maven pom.xml wie folgt angeben:
+Aspose hostet alle Java-APIs auf [In Maven Repository](https://releases.aspose.com/java/repo/). Sie können die API [Aspose.Cells for Java](https://releases.aspose.com/cells/java/) einfach direkt in Ihren Maven-Projekten mit einfachen Konfigurationen verwenden.
 
-{{< highlight "java" >}}
+Zuerst müssen Sie die Aspose Maven Repository-Konfiguration/Ort in Ihrer Maven pom.xml wie unten angegeben festlegen:
+
+{{< highlight java >}}
 
  <repositories>
 
@@ -29,7 +30,7 @@ Zuerst müssen Sie die Aspose Maven Repository-Konfiguration/den Speicherort in 
 {{< /highlight >}}
 
 für Gradle in Ihrem build.gradle-Skript wie folgt:
-{{< highlight "java" >}}
+{{< highlight java >}}
 //Add Aspose maven repository
 repositories {
     mavenCentral()
@@ -39,9 +40,9 @@ repositories {
 }
 {{< /highlight >}}
 
-Definieren Sie dann die Abhängigkeit Aspose.Cells for Java API in Ihrer pom.xml wie folgt (dies umfasst alles, z. B. die Haupt-JAR-Datei, Java-Dokumente und andere Bibliotheken entsprechend):
+Definieren Sie dann die Aspose.Cells for Java-API-Abhängigkeit in Ihrer pom.xml wie folgt (Dies wird alles einschließen, z.B. Haupt-Jar-Datei, Java-Dokumentationen und andere entsprechende Bibliotheken):
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      <dependencies>
 
@@ -51,7 +52,7 @@ Definieren Sie dann die Abhängigkeit Aspose.Cells for Java API in Ihrer pom.xml
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.2</version>
+            <version>24.6</version>
 
         </dependency>
 
@@ -61,7 +62,7 @@ Definieren Sie dann die Abhängigkeit Aspose.Cells for Java API in Ihrer pom.xml
 
             <artifactId>aspose-cells</artifactId>
 
-            <version>24.2</version>
+            <version>24.6</version>
 
             <classifier>javadoc</classifier>
 
@@ -91,10 +92,18 @@ Definieren Sie dann die Abhängigkeit Aspose.Cells for Java API in Ihrer pom.xml
 
 {{< /highlight >}}
 
-Glückwunsch! Sie haben die Abhängigkeit Aspose.Cells for Java Maven in Ihrem Maven-Projekt erfolgreich definiert.
+Herzlichen Glückwunsch! Sie haben die Aspose.Cells for Java Maven-Abhängigkeit in Ihrem Maven-Projekt erfolgreich definiert.
 
-##  **Unterstützung**
+## **WebP-Bild Laden**
 
-Bitte überprüfen Sie Folgendes, um schnellen technischen Support zu erhalten
+WebP ist ein modernes Bildformat. Es ist darauf ausgelegt, kleinere Dateigrößen zu erzeugen, während die hohe visuelle Qualität beibehalten wird.
 
-[Aspose.Cells – Foren](https://forum.aspose.com/c/cells/9)
+Aktuell sind in Microsoft Excel keine WebP-Bilder direkt einfügbar. Es gibt jedoch Fälle, in denen WebP-Bilder direkt von einigen Drittanbieter-Bibliotheken in Excel-Quelldateien eingefügt werden.
+
+In der Regel verwendet Aspose.Cells for Java Javas ImageIO zum Laden von Rasterbildern, derzeit unterstütkt das JDK selbst das Laden von WebP-Bildern nicht. Für das Laden von WebP-Bildern mit Javas ImageIO sind zusätzliche Plugins oder Erweiterungen (z.B. [imageio-webp Plugin](https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-webp)) erforderlich.
+
+## **Unterstützung**
+
+Bitte überprüfen Sie das Folgende, um schnelle technische Unterstützung zu erhalten
+
+[Aspose.Cells - Foren](https://forum.aspose.com/c/cells/9)

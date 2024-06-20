@@ -1,11 +1,12 @@
-﻿---
-title: Tabella pivot Nascondi e ordina i dati
+---
+title: Nascondere e ordinare i dati della tabella pivot
 type: docs
 weight: 120
 url: /it/java/pivot-table-hide-and-sort-data/
 ---
-## **Tabella pivot Nascondi e ordina i dati**
-Aspose.Cells supporta l'occultamento e l'ordinamento dei dati nella tabella pivot. Il seguente frammento di codice illustra questa funzionalità ordinando la colonna Punteggio in ordine decrescente e quindi nascondendo le righe con un punteggio inferiore a 60.
+
+## **Nascondi e ordina i datidelle tabelle pivot**
+Aspose.Cells supporta la possibilità di nascondere e ordinare i dati nella tabella pivot. Il seguente frammento di codice dimostra questa funzionalità ordinando la colonna Score in ordine decrescente e quindi nascondendo le righe con un punteggio inferiore a 60.
 
 
 
@@ -13,6 +14,6 @@ Aspose.Cells supporta l'occultamento e l'ordinamento dei dati nella tabella pivo
 
 I file excel di origine e di output utilizzati nello snippet di codice sono allegati per riferimento.
 
-[File sorgente](PivotTableHideAndSortSample.xlsx)
+[File Sorgente](PivotTableHideAndSortSample.xlsx)
 
-[File di uscita](PivotTableHideAndSort_out.xlsx)
+[File di output](PivotTableHideAndSort_out.xlsx)

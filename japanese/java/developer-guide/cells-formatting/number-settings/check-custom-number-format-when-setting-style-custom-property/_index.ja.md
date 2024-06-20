@@ -1,16 +1,17 @@
-﻿---
-title: Style.Custom プロパティの設定時にカスタム数値形式を確認する
+---
+title: スタイル.Customプロパティを設定する際にカスタム番号書式をチェックする
 type: docs
 weight: 160
 url: /ja/java/check-custom-number-format-when-setting-style-custom-property/
 ---
-## **考えられる使用シナリオ**
 
-に無効なカスタム数値形式を割り当てた場合[**スタイル.カスタム**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)プロパティの場合、Aspose.Cells は例外をスローしません。ただし、Aspose.Cells が割り当てられたカスタム数値形式が有効かどうかを確認する必要がある場合は、次のように設定してください。[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat)プロパティへ**真実**.
+## **可能な使用シナリオ**
 
-## **Style.Custom プロパティを設定するときは、カスタム数値形式を確認してください**
+Aspose.Cellsに無効なカスタム番号書式を割り当てると、Aspose.Cellsは例外をスローしません。ただし、Aspose.Cellsが割り当てられたカスタム番号書式が有効かどうかをチェックする場合は、[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat)プロパティを**true**に設定してください。
 
-次のサンプル コードは、無効なカスタム数値形式を[**スタイル.カスタム**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)財産。すでに設定していますので、[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat)プロパティへ**真実**したがって、API は CellsException をスローします。*数値形式が無効です*.
+## **Style.Customプロパティを設定する際のカスタム番号書式をチェックする**
+
+次のサンプルコードでは、[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat)プロパティを**true**に設定しているため、無効なカスタム番号書式を[**Style.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)プロパティに割り当てます。そのため、APIはCellsException（無効な番号書式）をスローします。
 
 ## **サンプルコード**
 

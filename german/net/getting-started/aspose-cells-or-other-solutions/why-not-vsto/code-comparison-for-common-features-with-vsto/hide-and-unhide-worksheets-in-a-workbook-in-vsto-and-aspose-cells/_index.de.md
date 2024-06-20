@@ -1,26 +1,27 @@
-﻿---
-title: Ausblenden und Einblenden von Arbeitsblättern in einer Arbeitsmappe in VSTO und Aspose.Cells
+---
+title: Arbeitsblätter in einem Workbook in VSTO und Aspose.Cells ausblenden und einblenden
 type: docs
 weight: 140
 url: /de/net/hide-and-unhide-worksheets-in-a-workbook-in-vsto-and-aspose-cells/
 ---
-Dieser Artikel vergleicht das Aus- und Einblenden von Arbeitsblättern mit VSTO unter Verwendung von C# oder Visual Basic mit dem Ausführen derselben Aufgabe mit Aspose.Cells, wiederum unter Verwendung von C# oder Visual Basic. Mit Aspose.Cells können Sie arbeiten, ohne dass Microsoft Excel installiert ist.
 
-Die Schritte zum Ausblenden eines Arbeitsblatts sind:
+Dieser Artikel vergleicht das Ausblenden und Einblenden von Arbeitsblättern mit VSTO unter Verwendung von C# oder Visual Basic mit der Ausführung derselben Aufgabe mit Aspose.Cells unter Verwendung von C# oder Visual Basic. Aspose.Cells ermöglicht es Ihnen, auch ohne Microsoft Excel installiert zu arbeiten.
 
-1. Öffne einen Ordner.
+Die Schritte zum Ausblenden eines Arbeitsblatts lauten:
+
+1. Öffnen Sie eine Datei.
 1. Holen Sie sich ein Arbeitsblatt.
 1. Blenden Sie das Arbeitsblatt aus.
-1. Speicher die Datei.
- Um ein Arbeitsblatt wieder einzublenden, schalten Sie einfach die Sichtbarkeit für das ausgeblendete Blatt ein.
+1. Speichern Sie die Datei.
+   Um ein Arbeitsblatt erneut anzuzeigen, schalten Sie einfach die Sichtbarkeit für das versteckte Arbeitsblatt um.
 
-Die folgenden Codebeispiele zeigen zunächst, wie ein Arbeitsblatt ausgeblendet wird. Die ersten Beispiele zeigen den Prozess mit VSTO, wobei entweder C# verwendet wird, im Vergleich zur Verwendung von Aspose.Cells, wiederum mit entweder C#.
+Die unten stehenden Codebeispiele zeigen zunächst, wie man ein Arbeitsblatt ausblendet. Die ersten Beispiele zeigen den Prozess mit VSTO unter Verwendung von C#, im Vergleich zur Verwendung von Aspose.Cells, erneut unter Verwendung von C#.
 
-Der zweite Satz von Codebeispielen zeigt die Zeile, die zum Einblenden des Arbeitsblatts in VSTO oder Aspose.Cells verwendet wird.
-## **Arbeitsblätter ausblenden**
-Unten finden Sie Codebeispiele für VSTO und Aspose.Cells, die veranschaulichen, wie ein Arbeitsblatt in einer Arbeitsmappe ausgeblendet wird.
+Die zweite Reihe von Codebeispielen zeigt die Zeile, die zum Einblenden des Arbeitsblatts in VSTO oder Aspose.Cells verwendet wird.
+## **Ausblenden von Arbeitsblättern**
+Im Folgenden sind Codebeispiele für VSTO und Aspose.Cells aufgeführt, die zeigen, wie ein Arbeitsblatt in einem Workbook ausgeblendet wird.
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -65,7 +66,7 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook.
 
@@ -92,10 +93,10 @@ objSheet.IsVisible = false;
 workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **Einblenden des Arbeitsblatts**
-Unten finden Sie Codebeispiele für VSTO und Aspose.Cells, die veranschaulichen, wie ein Arbeitsblatt in einer Arbeitsmappe eingeblendet wird.
+## **Arbeitsblatt ausblenden**
+Nachfolgend finden Sie Codedemonstrationen für VSTO und Aspose.Cells, die zeigen, wie ein Arbeitsblatt in einer Arbeitsmappe eingeblendet wird.
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
@@ -103,7 +104,7 @@ Unten finden Sie Codebeispiele für VSTO und Aspose.Cells, die veranschaulichen,
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Unhide the worksheet.
 
@@ -111,6 +112,6 @@ objSheet.IsVisible = true;
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Hide.and.Unhide.Worksheets.in.a.Workbook.Aspose.Cells.zip)
-- [Quellenschmiede](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/herunterladen)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).Postleitzahl)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Hide.and.Unhide.Worksheets.in.a.Workbook.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Hide%20and%20Unhide%20Worksheets%20in%20a%20Workbook%20\(Aspose.Cells\).zip)

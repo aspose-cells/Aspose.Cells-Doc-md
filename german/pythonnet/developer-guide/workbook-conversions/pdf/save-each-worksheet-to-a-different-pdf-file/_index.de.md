@@ -1,23 +1,24 @@
 ---
-title: Speichern Sie jedes Arbeitsblatt in einer anderen PDF-Datei
+title: Jede Arbeitsblatt in eine separate PDF Datei speichern
 type: docs
 weight: 130
 url: /de/python-net/save-each-worksheet-to-a-different-pdf-file/
-description: Erfahren Sie, wie Sie jedes Arbeitsblatt mit Aspose.Cells for Python via .NET API in einer anderen PDF-Datei speichern.
-keywords: Python Save Each Worksheet to a Different PDF File
+description: Lernen Sie, wie Sie mit der Aspose.Cells für Python via .NET API jede Arbeitsmappe in eine separate PDF Datei speichern.
+keywords: Python Jede Arbeitsmappe in eine separate PDF Datei speichern
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Python via .NET unterstützt die Konvertierung von XLS-Dateien (die Bilder, Diagramme usw. enthalten) in PDF-Dokumente. Aspose.Cells for Python via .NET kann unabhängig arbeiten, um eine Tabelle in PDF zu konvertieren, und Sie müssen Aspose.PDF for .NET nicht für die Konvertierung verwenden. Für die Konvertierung ist es nicht erforderlich, dass die Software temporäre Dateien erstellt oder verwendet, da der gesamte Vorgang im Speicher durchgeführt werden kann.
+Aspose.Cells für Python via .NET unterstützt die Konvertierung von XLS-Dateien (die Bilder, Diagramme usw. enthalten) in PDF-Dokumente. Aspose.Cells für Python via .NET kann unabhängig arbeiten, um eine Tabelle in PDF zu konvertieren, und Sie müssen Aspose.PDF für die Konvertierung nicht verwenden. Der Vorgang erfordert keine temporären Dateien, da der gesamte Prozess im Speicher durchgeführt werden kann.
 
 {{% /alert %}} 
-##  **Speichern Sie jedes Arbeitsblatt in einer anderen PDF-Datei**
- Wenn Sie jedes Arbeitsblatt in Ihrer Excel-Vorlagedatei speichern müssen, um verschiedene PDF-Dateien zu generieren, können Sie dies problemlos erreichen. Sie können versuchen, einen Blattindex auf festzulegen**[`PdfSaveOptions.sheet_set`](https://reference.aspose.com/cells/python-net/aspose.cells/paginatedsaveoptions/sheet_set/)** Option nacheinander zum Rendern auf PDF.
+## **Jedes Arbeitsblatt in eine separate PDF-Datei speichern**
+Wenn Sie jedes Arbeitsblatt in Ihrer Vorlagen-Excel-Datei speichern möchten, um verschiedene PDF-Dateien zu generieren, können Sie dies einfach erreichen. Sie können versuchen, eine Blattindexierungsoption auf [**PdfSaveOptions.sheet_set**](https://reference.aspose.com/cells/python-net/aspose.cells/paginatedsaveoptions/sheet_set/) festzulegen, um es einzeln in PDF zu rendern.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-SaveEachWorksheetToDifferentPDF-1.py" >}}
 
 {{% alert color="primary" %}} 
 
- Wenn Ihre Tabelle Formeln enthält, rufen Sie am besten an[**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) kurz vor dem Rendern der Tabelle in das Format PDF. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet werden und die richtigen Werte im PDF gerendert werden.
+Wenn Ihre Tabelle Formeln enthält, ist es am besten, [**Workbook.calculate_formula()**](https://reference.aspose.com/cells/python-net/aspose.cells/workbook/calculate_formula/#) kurz vor dem Rendern der Tabelle im PDF-Format aufzurufen. Auf diese Weise wird sichergestellt, dass die von Formeln abhängigen Werte neu berechnet und die richtigen Werte im PDF gerendert werden.
 
 {{% /alert %}}

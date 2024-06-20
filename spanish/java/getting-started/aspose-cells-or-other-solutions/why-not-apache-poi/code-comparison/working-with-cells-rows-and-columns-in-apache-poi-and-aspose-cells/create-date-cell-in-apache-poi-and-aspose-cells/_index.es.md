@@ -1,13 +1,14 @@
-﻿---
-title: Fecha de creación Cell en Apache POI y Aspose.Cells
+---
+title: Crear celda de fecha en Apache POI y Aspose.Cells
 type: docs
 weight: 90
 url: /es/java/create-date-cell-in-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Fecha de creación Cell**
+
+## **Aspose.Cells - Crear celda de fecha**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -34,10 +35,10 @@ style.setCustom("d-mmm-yy");
 cell.setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS (HSSF + XSSF): fecha de creación Cell**
+## **Apache POI SS (HSSF + XSSF) - Crear celda de fecha**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -86,17 +87,17 @@ cell.setCellValue(Calendar.getInstance());
 cell.setCellStyle(cellStyle);
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar ejemplos de ejecución para**Fecha de creación Cell en Aspose.Cells y Apache POI** de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar ejemplos en ejecución para **Crear celda de fecha en Aspose.Cells y Apache POI** desde cualquiera de los siguientes sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **Descargar código fuente**
- Descarga el código fuente de**Fecha de creación Cell en Aspose.Cells y Apache POI** de cualquiera de los sitios de codificación social mencionados a continuación:
+Descargar código fuente para **Crear celda de fecha en Aspose.Cells y Apache POI** desde cualquiera de los siguientes sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Agregando datos al Cells](/cells/es/java/add-data-in-cells/).
+Para más detalles, visita [Agregar datos a celdas](/cells/es/java/agregar-datos-en-celdas/).
 
 {{% /alert %}}

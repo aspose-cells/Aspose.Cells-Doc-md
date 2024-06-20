@@ -1,4 +1,4 @@
-﻿---
+---
 title: إدارة الفن الذكي
 type: docs
 weight: 200

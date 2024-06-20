@@ -1,65 +1,70 @@
 ---
-title: Konvertering mellan cellnamn och rad-/kolumnindex
-linktitle: Cell Namn och indexkonvertering
+title: Omvandling mellan cellnamn och rad/kolumnindex
+linktitle: Cellnamn och Index Omvandling
 type: docs
 weight: 5
 url: /sv/java/names-and-indices/
-description: "Lär dig hur du får konverteringsresultat mellan cellnamn och rad-/kolumnindex med Aspose.Cells for Java API:er."
-keywords: Java Convert cell index to name, Convert cell name to row/column index using java apis, How to Get Cell Name from Row and Column Indices with java, Java How to Get Row and Column Indices from Cell Name.
+description: Lär dig hur man får omvandlingsresultat mellan cellnamn och rad/kolumnindex med Aspose.Cells for Java API er.
+keywords: Java Konvertera cellindex till namn, Konvertera cellnamn till rad/kolumnindex med java api er, Hur man får cellnamn från rad och kolumnindex med java, Java Hur man får rad och kolumnindex från cellnamn.
 ---
-##  **Hur man får Cell-namn från rad- och kolumnindex**
-Det är möjligt att hitta en cells namn med tanke på rad- och kolumnindex. Den här artikeln förklarar hur.
 
- Aspose.Cells tillhandahåller[CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) metod som tillåter utvecklare att få en cells namn om de tillhandahåller rad- och kolumnindex.
+## **Hur man får cellnamn från rad- och kolumnindex**
+Det är möjligt att hitta ett cells namn med rad- och kolumnindex. Den här artikeln förklarar hur.
+
+Aspose.Cells tillhandahåller metoden [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) som tillåter utvecklare att få namnet på en cell om de tillhandahåller rad- och kolumnindex.
 
 {{% alert color="primary" %}} 
 
-Till skillnad från Microsoft Excel, där rad- och kolumnindexen börjar från 1, börjar Aspose.Cells räkna rad- och kolumnindex från 0.
+Till skillnad från Microsoft Excel, där rad- och kolumnindex börjar från 1, börjar Aspose.Cells räkna rad- och kolumnindex från 0.
 
 {{% /alert %}} 
 
- Följande exempelkod illustrerar hur du använder[CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) för att komma åt cellens namn som anges i ett känt rad- och kolumnindex. Koden genererar följande utdata.
+Följande exempelkod illustrerar hur man använder [CellsHelper.cellIndexToName](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellIndexToName\(int,%20int\)) för att komma åt cellens namn vid ett känt rad- och kolumnindex. Koden genererar följande utdata.
 
 
 
-Cell Namn på [0, 0]: A1
+Cellnamn vid [0, 0]: A1
 
-Cell Namn på [4, 0]: A5
+Cellnamn vid [4, 0]: A5
 
-Cell Namn på [0, 4]: E1
+Cellnamn vid [0, 4]: E1
 
-Cell Namn på [2, 2]: C3
+Cellnamn vid [2, 2]: C3
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-IndexToName-1.java" >}}
-##  **Hur man får rad- och kolumnindex från Cell Namn**
-Det är möjligt att hitta ett rad- och kolumnindex för cellen från dess namn. Den här artikeln förklarar hur.
+## **Hur man får rad- och kolumnindex från cellnamn**
+Det är möjligt att hitta en rad- och kolumnindex för cellen från dess namn. Denna artikel förklarar hur.
 
- Aspose.Cells tillhandahåller[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) metod som låter utvecklare få ett rad- och kolumnindex från cellens namn.
+Aspose.Cells tillhandahåller metoden [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) som tillåter utvecklare att få rad- och kolumnindex från cellens namn.
 
 {{% alert color="primary" %}} 
 
-Till skillnad från Microsoft Excel, där rad- och kolumnindexen börjar från 1, börjar Aspose.Cells räkna rad- och kolumnindex från 0.
+Till skillnad från Microsoft Excel, där rad- och kolumnindex börjar från 1, börjar Aspose.Cells räkna rad- och kolumnindex från 0.
 
 {{% /alert %}} 
 
- Följande exempelkod illustrerar hur du använder[CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) för att hämta rad- och kolumnindex från cellens namn. Koden genererar följande utdata.
+Följande exempelkod illustrerar hur man använder [CellsHelper.cellNameToIndex](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#cellNameToIndex\(java.lang.String\)) för att få rad- och kolumnindex från cellens namn. Koden genererar följande utdata.
 
 
 
-Radindex för Cell C6: 5
+Radindex för cellen C6: 5
 
-Kolumnindex för Cell C6: 2
+Kolumnindex för cellen C6: 2
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-NameToIndex-1.java" >}}
-##  **Hur man skapar säkra arknamn**
- Ibland finns det ett behov av att tilldela arknamnet vid körning. I det här scenariot kan det finnas arknamn som kan innehålla några ytterligare tecken som<>+(?”. Det finns ett behov av att ersätta alla sådana tecken, som inte är tillåtna som ett arknamn med något förinställt tecken som tillhandahålls av användaren. På samma sätt kan längden öka till mer än 31 tecken som måste trunkeras. Apache POI tillhandahåller vissa funktioner för att skapa säkra namn, därför tillhandahålls liknande funktion av Aspose.Cells för att hantera alla dessa problem. Följande exempelkod visar denna funktion:
+## **Hur man skapar säkra kalkylbladsnamn**
+Ibland finns det ett behov av att tilldela kalkylbladsnamnet under körningstid. I detta scenario kan det finnas kalkylbladsnamn som kan innehålla vissa ytterligare tecken som <>+(?”. Det finns ett behov av att ersätta sådana tecken, som inte är tillåtna som ett kalkylbladsnamn, med något förinställt tecken som tillhandahålls av användaren. På samma sätt kan längden öka till mer än 31 tecken vilket behöver bli avkortat. Apache POI tillhandahåller vissa funktioner för att skapa säkra namn, därför erbjuds liknande funktion av Aspose.Cells för att hantera alla dessa problem. Följande exempelkod demonstrerar denna funktion:
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-CellsHelperClass-CreateSafeSheetName.java" >}}
 
-**Konsolutgång**
+**Konsolutdata**
 
-detta är förnamn som är cre
+Det här är det första namnet som skapas
 
-` `<> + (adj.Privat _ "Privat"
+{{< highlight java >}}
+
+` `<> + (adj.Private _ " Private"
+
+{{< /highlight >}}

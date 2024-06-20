@@ -1,13 +1,14 @@
-﻿---
+---
 title: Skapa Union Range
 type: docs
 weight: 270
 url: /sv/java/create-union-range/
 ---
-## **Skapa Union Range**
-Aspose.Cells ger möjligheten att skapa Union Range genom att använda[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) metod. De[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\))-metoden accepterar två parametrar, adressen för att skapa unionsintervallet och indexet för kalkylbladet. De[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) metod returnerar en[UnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/UnionRange)objekt.
 
-Följande kodavsnitt visar hur man skapar en Union Range med hjälp av[WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) metod. Utdatafilen som genereras av koden bifogas som referens.
+## **Skapa unionsspann**
+Aspose.Cells tillhandahåller möjligheten att skapa Union Range genom att använda metoden [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)). Metoden [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) accepterar två parametrar, adressen för att skapa Union Range och index för kalkylbladet. Metoden [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)) returnerar ett [UnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/UnionRange) objekt.
+
+Följande kodsippet visar hur man skapar en Union Range med hjälp av metoden [WorksheetCollection.CreateUnionRange](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#createUnionRange\(java.lang.String,%20int\)). Den medföljande kalkylbladsfilen genererad av koden är bifogad för referens.
 
 - [Utdatafil](CreateUnionRange_out.xlsx)
 

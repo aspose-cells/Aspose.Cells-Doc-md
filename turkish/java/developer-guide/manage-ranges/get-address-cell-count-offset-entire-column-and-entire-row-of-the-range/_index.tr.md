@@ -1,44 +1,45 @@
-﻿---
-title: Al Adresi Cell Sayı Aralığının Tüm Sütununu ve Tüm Satırını Uzaklaştır
+---
+title: Aralığın Adres Hücre Sayısı Ofset Tüm Sütun ve Tüm Sıra Sayısını Al
 type: docs
 weight: 250
 url: /tr/java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- Aspose.Cells şunları sağlar:[**Menzil**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)kullanıcının Excel Aralıkları ile kolayca çalışmasını kolaylaştıran çeşitli yardımcı yöntemlere sahip nesne. Bu makale, aşağıdaki yöntemlerin veya özelliklerin kullanımını göstermektedir.[**Menzil**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)nesne.
+Aspose.Cells, kullanıcının Excel Aralıkları ile kolayca çalışmasını sağlayan çeşitli yardımcı yöntemlere sahip [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) nesnesini sunar. Bu makale, [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) nesnesinin aşağıdaki yöntemlerini veya özelliklerini kullanımını anlatır.
 
 - **Adres**
 
 Aralığın adresini alır.
 
-- **Cell Kont**
+- **Hücre Sayısı**
 
 Aralıktaki tüm hücre sayısını alır.
 
-- **Telafi etmek**
+- **Ofset**
 
-Uzaklığa göre menzil alır.
+Ofset ile aralığı alır.
 
 - **Tüm Sütun**
 
 Belirtilen aralığı içeren tüm sütunu (veya sütunları) temsil eden bir Range nesnesi alır.
 
-- **Tüm satır**
+- **Tüm Satır**
 
 Belirtilen aralığı içeren tüm satırı (veya satırları) temsil eden bir Range nesnesi alır.
 
-## **Al Adresi, Cell Sayı, Ofset, Tüm Sütun ve Aralığın Tüm Satırı**
+## **Aralığın Adresini, Hücre Sayısını, Kaydırmayı, Tüm Sütunu ve Tüm Satırı Al**
 
-Aşağıdaki örnek kod, yukarıda açıklanan yöntemlerin ve özelliklerin kullanımını açıklar. Lütfen referans için aşağıda verilen kodun konsol çıktısına bakın.
+Aşağıda verilen örnek kod, yukarıda tartışılan yöntemlerin ve özelliklerin kullanımını açıklar. Referans için aşağıdaki kodun konsol çıktısını inceleyin.
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.java" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Creating Range A1:B3
 

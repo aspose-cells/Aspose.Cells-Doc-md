@@ -1,28 +1,29 @@
-﻿---
+---
 title: Öppna filer i Ruby
 type: docs
 weight: 10
 url: /sv/java/opening-files-in-ruby/
 ---
+
 ## **Aspose.Cells - Enkla sätt att öppna Excel-filer**
-### **Öppning genom vägen**
-Öppna helt enkelt en Microsoft Excel-fil genom att referera till filens sökväg
+### **Öppning genom sökväg**
+Öppna en Microsoft Excel-fil genom att referera till filens sökväg
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
 workbook = Rjb::import('com.aspose.cells.Workbook').new(data_dir + 'Book1.xls')
 
 {{< /highlight >}}
-### **Öppnas genom Stream**
-Ibland lagras Excel-filen som du vill öppna som en ström. Använd i så fall en överbelastad version av Open-metoden som tar Stream-objektet som innehåller Excel-filen för att öppna filen.
+### **Öppning genom Ström**
+Ibland är Excel-filen som du vill öppna lagrad som en ström. I så fall använd en överlagrad version av **Open** metoden som tar **Stream** objektet som innehåller Excel-filen för att öppna filen.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 

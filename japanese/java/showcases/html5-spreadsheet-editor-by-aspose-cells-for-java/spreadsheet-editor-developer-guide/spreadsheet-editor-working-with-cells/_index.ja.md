@@ -1,28 +1,29 @@
-﻿---
-title: スプレッドシート エディター - Cells での作業
+---
+title: スプレッドシートエディター  セルでの作業
 type: docs
 weight: 40
 url: /ja/java/spreadsheet-editor-working-with-cells/
 ---
+
 **目次**
 
-- [Cellの選択](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
- Cell 選択コールバック
-- [Cellを削除](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
- WorksheetView.removeCellShiftUp
- - WorksheetView.removeCellShiftLeft
-- [Cellをクリア](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- WorksheetView.clearCurrentCellFormatting
- - WorksheetView.clearCurrentCellContents
- - WorksheetView.clearCurrentCell
-### **Cellの選択**
-マウス ポインタを使用してセルをポイントします。セルをクリックして選択します。選択したセルは、太い四角形で強調表示されます。
+- [セルの選択](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
+  - セル選択のコールバック
+- [セルの削除](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
+  - WorksheetView.removeCellShiftUp
+  - WorksheetView.removeCellShiftLeft
+- [セルのクリア](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
+  - WorksheetView.clearCurrentCellFormatting
+  - WorksheetView.clearCurrentCellContents
+  - WorksheetView.clearCurrentCell
+### **セルの選択**
+マウスポインターを使用してセルを指します。セルをクリックして選択します。選択したセルは太字の四角形で強調表示されます。
 
-**使い方？**
+**動作仕様**
 
-ユーザーがセルをクリックすると、イベントは Primefaces コンポーネントに添付された JavaScript コールバック関数によって処理されます。
-#### **Cell 選択コールバック**
-{{< highlight "java" >}}
+ユーザーがセルをクリックすると、PrimefacesコンポーネントにアタッチされたJavaScriptコールバック関数がイベントを処理します。
+#### **セル選択コールバック**
+{{< highlight java >}}
 
                      var columnId = $(this).find('.ui-cell-editor-input input').attr('data-columnid');
 
@@ -91,21 +92,21 @@ url: /ja/java/spreadsheet-editor-working-with-cells/
                     $this.selectedCell = this;
 
 {{< /highlight >}}
-### **Cellを削除**
-セルを削除するには:
+### **セルの削除**
+セルを削除するには：
 
 1. 削除したいセルをクリックします。
-1. 切り替える**フォーマットタブ**.
-1. クリック**Cellを削除**ボタン。
-1. 選ぶ**シフト Cells 上**また**シフト Cells 左**ボタン。
+1. **フォーマットタブ** に切り替えます。
+1. **セルを削除**ボタンをクリックします。
+1. **セルを上にシフト**または**セルを左にシフト**ボタンを選択します。
 
-エディターは、選択したセルを削除します。隣接するセルは、スペースを調整するために水平または垂直に自動的にシフトされます。
+エディタは選択したセルを削除します。隣接するセルは自動的に水平または垂直にシフトされ、スペースが調整されます。
 
-**使い方？**
+**動作仕様**
 
-の**シフト Cells 上**と**シフト Cells 左** JSF バックエンド Bean によって処理されます**ワークシート ビュー**.それぞれのメソッドのソース コードは次のとおりです。
+**セルを上にシフト**と**セルを左にシフト**はJSFバックエンドビーン**WorksheetView**によって処理されます。該当するメソッドのソースコードは次のとおりです：
 #### **WorksheetView.removeCellShiftUp**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftUp() {
 
@@ -124,7 +125,7 @@ url: /ja/java/spreadsheet-editor-working-with-cells/
 {{< /highlight >}}
 
 #### **WorksheetView.removeCellShiftLeft**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftLeft() {
 
@@ -141,21 +142,21 @@ url: /ja/java/spreadsheet-editor-working-with-cells/
     }
 
 {{< /highlight >}}
-### **Cellをクリア**
-セルをクリアするには:
+### **セルのクリア**
+セルをクリアするには：
 
 1. クリアしたいセルをクリックします。
-1. 切り替える**フォーマットタブ**.
-1. クリック**クリア Cell**ボタン。
-1. 選ぶ**フォーマット**, **コンテンツ**また**両方**オプション。
+1. **フォーマットタブ** に切り替えます。
+1. **セルをクリア**ボタンをクリックします。
+1. **フォーマット**、**内容**、または**両方**のオプションを選択します。
 
-エディターは、選択したセルをクリアします。
+エディタは選択したセルをクリアします。
 
-**使い方？**
+**動作仕様**
 
-の**フォーマット**, **コンテンツ**と**両方** JSF バックエンド Bean によって処理されます**ワークシート ビュー**.それぞれのメソッドのソース コードは次のとおりです。
+**フォーマット**、**内容**、および**両方**はJSFバックエンドビーン**WorksheetView**によって処理されます。該当するメソッドのソースコードは次のとおりです：
 #### **WorksheetView.clearCurrentCellFormatting**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellFormatting() {
 
@@ -176,7 +177,7 @@ url: /ja/java/spreadsheet-editor-working-with-cells/
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCellContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellContents() {
 
@@ -197,7 +198,7 @@ url: /ja/java/spreadsheet-editor-working-with-cells/
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCell**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCell() {
 

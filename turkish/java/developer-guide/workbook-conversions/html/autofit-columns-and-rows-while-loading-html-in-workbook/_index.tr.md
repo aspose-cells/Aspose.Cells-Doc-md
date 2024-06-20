@@ -1,19 +1,20 @@
-﻿---
-title: Çalışma Kitabında HTML yüklenirken Sütunları ve Satırları Otomatik Sığdır
+---
+title: Çalışma Kitabında HTML yüklenirken Sütunları ve Satırlar Otomatik Uydurma
 type: docs
 weight: 70
 url: /tr/java/autofit-columns-and-rows-while-loading-html-in-workbook/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- HTML dosyanızı yüklerken sütunları ve satırları otomatik sığdırabilirsiniz.**[Çalışma Kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**nesne. Lütfen ayarlayın**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)** mülkiyet**doğru**bu amaç için.
+[**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) nesnesine HTML dosyanızı yüklerken sütunları ve satırları otomatik ayarlayabilirsiniz. Bu amaçla [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) özelliğini **true** olarak ayarlayın lütfen.
 
-## **Çalışma Kitabında HTML yüklenirken Sütunları ve Satırları Otomatik Sığdır**
+## **HTML yüklenirken Sütunları ve Satırları Otomatik Uydurma**
 
- Aşağıdaki örnek kod, önce HTML örneğini herhangi bir yükleme seçeneği olmadan Çalışma Kitabı'na yükler ve XLSX biçiminde kaydeder. Daha sonra HTML örneğini tekrar Çalışma Kitabı'na yükler, ancak bu sefer, ayarladıktan sonra HTML'i yükler.**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)** mülkiyet**doğru**ve XLSX formatında kaydeder. Lütfen her iki çıktı excel dosyasını da indirin, yani[Excel Dosyasını AutoFitColsAndRows Olmadan Çıkarın](outputWithout_AutoFitColsAndRows.xlsx) ve[AutoFitColsAndRows ile Çıktı Excel Dosyası](outputWith_AutoFitColsAndRows.xlsx) . Aşağıdaki ekran görüntüsü etkisini göstermektedir**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows)**her iki çıktı excel dosyasındaki özellik.
+Aşağıdaki örnek kod önce örnek HTML'i herhangi bir yükleme seçeneği olmadan Workbook'a yükler ve onu XLSX formatında kaydeder. Daha sonra örnek HTML'i tekrar Workbook'a yükler, ancak bu sefer [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) özelliğini **true** olarak ayarlayarak ve onu XLSX formatında kaydeder. Lütfen hem otomatik ayarlanmayan sütunlara ve satırlara sahip çıktı excel dosyasını ([Otomatik Olarak AyarlanmayanSutunlarVeSatirlar çıktısı](outputWithout_AutoFitColsAndRows.xlsx)) hem de otomatik ayarlanan sütunlara ve satırlara sahip çıktı excel dosyasını([Otomatik Olarak AyarlananSutunlarVeSatirlar çıktısı](outputWith_AutoFitColsAndRows.xlsx)) indirin. Aşağıdaki ekran görüntüsü [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#AutoFitColsAndRows) özelliğinin her iki çıktı excel dosyası üzerindeki etkisini göstermektedir.
 
-![yapılacaklar:resim_alternatif_metin](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-AutoFitColumnsRowsLoadingHTML-1.java" >}}

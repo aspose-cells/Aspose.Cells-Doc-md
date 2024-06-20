@@ -1,27 +1,28 @@
 ---
-title: Görünür Satır Verilerini Çalışma Sayfasından Dışa Aktarma
+title: Çalışma Sayfasından Görünür Satırların Verilerini Aktar
 type: docs
 weight: 10
 url: /tr/net/export-visible-rows-data-from-worksheet/
-description: Aspose.Cells for .NET API numaralı telefondan Görünür Satır Verilerini Çalışma Sayfasından Nasıl Dışa Aktaracağınızı öğrenin.
-keywords: Export Visible Rows Data to DataTable, Export unhidden Rows Data to DataTable, Export Rows Data to DataTable and Exclude hidden rows, Ignore Hidden Rows while Exporting Worksheet Data to Data Table
+description: Aspose.Cells for .NET API si aracılığıyla Çalışma Sayfasından Görünür Satırların Verilerini Nasıl Aktarılacağını Öğrenin
+keywords: Görünen Satırların Verilerini DataTable a Aktar, Gizlenmemiş Satırların Verilerini DataTable a Aktar, Satırların Verilerini DataTable a Aktar ve Gizli satırları hariç tut, Çalışma Sayfasından Veri Tablosuna Veri Aktarırken Gizli Satırları Yoksay
 ---
+
 {{% alert color="primary" %}}
 
- Aspose.Cells'i kullanarak çalışma sayfalarındaki verileri veri tablolarına aktarabilirsiniz. Bazen yalnızca görünür satırların verilerini dışa aktarmak isteyebilirsiniz. Aspose.Cells bunu başarmanın bir yolunu sunuyor. Kullan[**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows)yalnızca görünür satır verilerini dışa aktarmak istediğinizi belirtmek için.
+Aspose.Cells kullanarak çalışma sayfasından verileri veri tablolarına aktarabilirsiniz. Bazı durumlarda yalnızca görünür satırların verilerini aktarmak isteyebilirsiniz. Aspose.Cells, bunu gerçekleştirmenin bir yolunu sağlar. Yalnızca görünür satırlar verilerini aktarmak istediğinizi belirtmek için [**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows) kullanın
 
 {{% /alert %}}
 
-Bu örnek, aşağıdaki çalışma sayfasındaki verilerin nasıl dışarı aktarılacağını gösterir. 5, 6 ve 7. satırlar gizlidir.
+Bu örnek, aşağıdaki çalışma sayfasından verileri nasıl aktaracağını göstermektedir. 5, 6 ve 7. satırlar gizlidir.
 
-|**Çalışma sayfasındaki örnek veriler, 5, 6 ve 7. satırlar gizlendi**|
+|**Çalışma sayfasındaki örnek veri, 5, 6 ve 7. satırlar gizlidir**|
 | :- |
-|![yapılacak şey:image_alt_text](export-visible-rows-data-from-worksheet_1.png)|
+|![todo:image_alt_text](export-visible-rows-data-from-worksheet_1.png)|
 
- Veriler kullanılarak bir veri tablosuna aktarıldıktan sonra[**Çalışma Sayfası.Cells.ExportDataTable()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) yöntemi ile[**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows)seçeneği şu şekilde görünecektir. Gizli satırlar boş satırlar olarak çizilir
+Veri [**Worksheet.Cells.ExportDataTable()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) yöntemi ve [**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows) seçeneği ile veri tablosuna aktarıldığında, aşağıdaki gibi olacaktır. Gizli satırlar boş satırlar olarak çizilmiştir
 
 |**Gizli satırlar veri tablosuna boş satırlar olarak aktarılır**|
 | :- |
-|![yapılacak şey:image_alt_text](export-visible-rows-data-from-worksheet_2.png)|
+|![todo:image_alt_text](export-visible-rows-data-from-worksheet_2.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExportVisibleRowsData-1.cs" >}}

@@ -1,107 +1,108 @@
-﻿---
-title: Aspose.Cells Özellikler
+---
+title: Aspose.Cells Özellikleri
 type: docs
 weight: 30
 url: /tr/java/aspose-cells-features/
-description: Aspose.Cells for Java özelliklerini özetleyin ve ayrıntılı özellik açıklamalarına bağlantılar sağlayın.
+description: Aspose.Cells for Java özellikleri özetle ve detaylı özellik açıklamaları için bağlantılar sağlar.
 ---
+
 {{% alert color="primary" %}} 
 
-Aşağıdaki tablolar Aspose.Cells for Java özelliklerini özetlemekte ve ayrıntılı özellik açıklamalarına bağlantılar sağlamaktadır.
+Aşağıdaki tablolar Aspose.Cells for Java özelliklerini özetler ve detaylı özellik açıklamaları için bağlantılar sağlar.
 
 {{% /alert %}} 
 ## **Desteklenen Platformlar**
-Aspose.Cells for Java ürünü, Java'i destekleyen popüler geliştirme ortamlarının ve dağıtım platformlarının çoğunu kapsar.
+Aspose.Cells for Java ürünü, Java'yı destekleyen popüler geliştirme ortamlarını ve dağıtım platformlarının çoğunu kapsar.
 
 |**Özellik**|**Açıklama**|
-|:- |:- |
-|[Java](/cells/tr/java/installation/)|Aspose.Cells for Java, 1.6 ve sonraki sürümler için mevcuttur ve Java'in kurulu olduğu her yerde çalışır.|
+| :- | :- |
+|[Java](/cells/tr/java/installation/)|Aspose.Cells for Java, 1.6 ve sonraki sürümler için mevcuttur ve Java'nın kurulu olduğu her yerde çalışır.|
 ## **Dosya Biçimleri ve Dönüşümler**
-Dünya çapındaki birçok müşteri, Aspose.Cells for Java tarafından sağlanan kapsamlı belge içe ve dışa aktarma özelliklerine güveniyor.
+Dünya çapında birçok müşteri, Aspose.Cells for Java tarafından sağlanan kapsamlı belge içe ve dışa aktarma özelliklerine güvenir.
 
 |**Özellik**|**Açıklama**|**Aspose.Cells for Java**|
-|:- |:- |:- |
-|Yüksek Kaliteli Dönüşümler|Birkaç popüler belge formatı arasında hızlı ve güvenilir bir şekilde dönüştürün.|Evet|
-|Microsoft Excel Çalışma Kitabı (XLS)|Bulabileceğiniz en hızlı ve en eksiksiz XLS format uygulaması.|Evet|
-|SpreadsheetML (XLSX, XML)| Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'i destekler. Dahası,<br>bileşen, tüm önemli Excel 2007 ve sonraki sürümlerin dosya formatlarını destekler, örneğin XLSX, XLTX, XLSM, XLTM, XLSB vb.|Evet|
-|Virgülle Ayrılmış Değer (CSV)|Çeşitli uygulamalarla etkileşim için CSV biçiminin kapsamlı desteği.|Evet|
-|HTML|HTML olarak kaydet kullanılabilir.|Evet|
-|Açık Belge (ODS)|Aspose.Cells, belgeleri OpenDocument Elektronik Tablo (.ods) biçiminde yükleyebilir ve kaydedebilir.|Evet|
-|Adobe Taşınabilir Belge Biçimi (PDF)|Herhangi bir Elektronik Tabloyu yüksek doğrulukla PDF'e dönüştürün.|Evet|
-|Sekmeyle Ayrılmış|Belgeleri sekmeyle ayrılmış dosya biçiminde yükleyin ve kaydedin.|Evet|
-|Düz Metin (TXT)|Düz metin biçiminde kaydederek metni kolayca çıkarın.|Evet|
-## **Oluşturma ve Yazdırma**
-Aspose.Cells for Java artık elektronik tablo sayfalarının aslına uygun olarak işlenmesini sağlıyor.
+| :- | :- | :- |
+|Yüksek Kaliteli Dönüşümler|Hızlı ve güvenilir bir şekilde, birkaç popüler belge formatı arasında dönüşüm yapın.|Evet|
+|Microsoft Excel Çalışma Kitabı (XLS)|Bulabileceğiniz en hızlı ve en eksiksiz XLS formatı uygulaması.|Evet|
+|SpreadsheetML (XLSX, XML)|Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'i destekler. Ayrıca, bileşen tüm ana Excel 2007 ve sonraki sürüm dosya biçimlerini destekler: XLSX, XLTX, XLSM, XLTM, XLSB vb.|Evet|
+|Virgülle Ayrılmış Değer (CSV)|CSV formatına kapsamlı destek, çeşitli uygulamalarla etkileşim için mevcuttur.|Evet|
+|HTML|HTML olarak kaydetme mevcuttur.|Evet|
+|OpenDocument (ODS)|Aspose.Cells, OpenDocument Spreadsheet (.ods) formatında belgeleri yükleyebilir ve kaydedebilir.|Evet|
+|Adobe Portable Document Format (PDF)|Yüksek sadakatle herhangi bir elektronik tabloyu PDF'ye dönüştürün.|Evet|
+|Sekme Ayırıcı|Belgeleri sekme ayırıcı dosya formatında yükleyebilir ve kaydedebilir.|Evet|
+|Düz Metin (TXT)|Düz metin formatında kaydederek metni kolayca çıkarabilirsiniz.|Evet|
+## **Rendere Alma ve Yazdırma**
+Aspose.Cells for Java artık elektronik tablo sayfalarını yüksek sadakatle renderlayabilir.
 
 |**Özellik**|**Aspose.Cells for Java**|
-|:- |:- |
-|Belgeyi Microsoft Excel®'e yüksek doğrulukla sayfalara yerleştirin (aynı Microsoft Excel®'in yapacağı gibi).|Evet|
-|Çalışma sayfası sayfalarını raster görüntülere dönüştürün (PNG, JPEG, BMP vb.).|Evet|
-|Elektronik tablo sayfalarını vektör görüntülere dönüştürün (EMF).|Evet|
-|Görüntü çözünürlüğünü, kalitesini, sıkıştırmayı ve diğer seçenekleri belirtin.|Evet|
-|Java yazdırma altyapısını kullanarak elektronik tabloları yazdırın. Bileşen, yazdırmak için yerleşik yazdırma yöntemine sahiptir<br>Microsoft Excel'in baskı önizlemesinde gösterildiği gibi çalışma sayfaları.|Evet|
-|Oluşturmadan veya yazdırmadan önce sayfa numaralarını ve diğer alanları güncelleyin.|Evet|
+| :- | :- |
+|Belgeyi, Microsoft Excel®'in tam olarak yapacağı gibi, yüksek sadakatle sayfalara yerleştirin.|Evet|
+|Çalışsayfa sayfalarını rastgele görüntülere (PNG, JPEG, BMP vb.) renderlayın.|Evet|
+|Elektronik tablo sayfalarını vektör görüntülere (EMF) çizdirin.|Evet|
+|Görüntü çözünürlüğü, kalitesi, sıkıştırma ve diğer seçenekleri belirtin.|Evet|
+|Java yazdırma altyapısını kullanarak elektronik tabloları yazdırın. Bileşenin, Microsoft Excel'ın yazdırma önizleme ekranında gösterildiği gibi çalışsayfalarını yazdırmak için yerleşik bir yazdırma yöntemi vardır.|Evet|
+|Render veya yazdırma öncesi sayfa numaralarını ve diğer alanları güncelleyin.|Evet|
 ## **Elektronik Tablo İçeriği Özellikleri**
-Aspose.Cells for Java, yüklü elektronik tabloları programlı olarak oluşturmanıza, birleştirmenize, değiştirmenize, ayrıştırmanıza veya başka bir şekilde incelemenize izin veren 100'ün üzerinde genel sınıftan/arabirimden oluşan zengin bir nesne modeli sağlar. Bazı temel özellikler aşağıdaki tabloda verilmiştir.
+Aspose.Cells for Java, yüklenmiş elektronik tabloları programlı bir şekilde oluşturmanıza, birleştirmenize, değiştirmenize, ayrıştırmanıza veya başka şekilde incelemenize olanak tanıyan 100'den fazla genel sınıf/arayüzden oluşan zengin bir nesne modeline sahiptir. Bazı temel özellikler aşağıdaki tabloda verilmiştir.
 
 |**Özellik**|**Aspose.Cells for Java**|
-|:- |:- |
-|Array, ArrayList, ResultSet vb.'den verileri içe/dışa aktarın.|Evet|
-|Mevcut çalışma sayfasının bir kopyasını ekleyin (resimler, grafikler, diğer nesneler vb. dahil tüm içerikler)|Evet|
-|Çalışma sayfalarını çalışma kitaplarının içinde veya arasında kopyalama veya taşıma|Evet|
-|resim ekle|Evet|
+| :- | :- |
+|Bir Dizi, ArrayList, ResultSet vb. veri alıp/veri çıkarın.|Evet|
+|Mevcut çalışsayfanın bir kopyasını ekleyin (resimler, grafikler, diğer nesneler vb. dahil)|Evet|
+|Çalışsayfaları kopyalayın veya taşıyın (çalışkitapları içinde veya arasında)|Evet|
+|Resimler ekleyin|Evet|
 |Grafikler oluşturun|Evet|
-|API'i kullanarak grafikler için gradyan arka planı ayarlayın|Evet|
-|Hücrelere yorum ekleme|Evet|
-|Microsoft Excel 2007 ve sonraki sürümlerin temaları ve renkleri|Evet|
-|Otomatik filtreler oluştur|Evet|
-|Veri doğrulamalarını uygulama|Evet|
-|Veri sıralamayı uygulama|Evet|
-|Metni bul ve değiştir|Evet|
-|Birleştir/böl Cells|Evet|
-|Satırları ve sütunları gruplandırma/grubu çözme|Evet|
-|Özel sayfa sonları oluşturun|Evet|
-|Satırları, sütunları ve sayfaları ekleyin/silin veya gizleyin|Evet|
-|Karmaşık Excel formüllerini hesaplayın|Evet|
-|Microsoft Excel 2007 ve sonraki sürümlerde desteklenen gelişmiş koşullu biçimlendirme desteği|Evet|
-|Bölmeleri Dondur / Çöz|Evet|
-|Verileri bağlamak için köprüler ekleyin|Evet|
-|Akıllı İşaretleyicileri Uygulayın|Evet|
-|Belge özellikleri ayarlarını belirtin|Evet|
-|Çalışma sayfalarını koruma/korumayı kaldırma|Evet|
-|Excel XP ve sonraki sürümlerde sunulan gelişmiş koruma seçeneklerini belirtin|Evet|
-|Liste nesnesi oluştur/Microsoft Excel tabloları|Evet|
+|API kullanarak grafikler için gradyan arka plan ayarlayın|Evet|
+|Hücrelere yorumlar ekleyin|Evet|
+|Microsoft Excel 2007 ve sonrası sürümlerin temaları ve renkleri|Evet|
+|Otomatik filtreler oluşturun|Evet|
+|Veri doğrulamaları uygulayın|Evet|
+|Veri sıralaması uygulayın|Evet|
+|Metni bulun ve değiştirin|Evet|
+|Hücreleri birleştirin/ayırın|Evet|
+|Satır ve sütunları gruplayın/çözün|Evet|
+|Özel sayfa kesmeleri oluştur|Evet|
+|Satır, sütun ve sayfaları ekle/sil ya da gizle|Evet|
+|Karmaşık Excel formüllerini hesapla|Evet|
+|Microsoft Excel 2007 ve sonraki sürümlerde desteklenen gelişmiş koşullu biçimlendirmeyi destekle|Evet|
+|Pano dondurma/çözme|Evet|
+|Veri bağlamak için hiperbağlantılar ekle|Evet|
+|Akıllı İşaretleyicileri uygula|Evet|
+|Belge özellikleri ayarlarını belirt|Evet|
+|Çalışma tablolarını koru/koruma|Evet|
+|Excel XP ve sonraki sürümlerde tanıtılan gelişmiş koruma seçeneklerini belirt|Evet|
+|Liste nesnesi/Microsoft Excel tabloları oluştur|Evet|
 |Ara toplamlar oluştur|Evet|
-|Form kontrollerini ve diğer çizim şekillerini/nesnelerini ekleyin|Evet|
-|Pivot tablolar ve pivot grafikler oluşturun|Evet|
-|Eklenti, VBA, makroları koruyun veya kaldırın|Evet|
-|Adlandırılmış aralıkları işleyin|Evet|
-|Özel grafikler oluşturun|Evet|
-|Elektronik tablolardan OLE nesneleri ekleyin, koruyun veya çıkarın.|Evet|
-|Mini grafikleri uygulama|Evet|
+|Form kontrolleri ve diğer çizim şekilleri/nesneleri ekle|Evet|
+|Pivot tabloları ve pivot grafikleri oluştur|Evet|
+|Eklenti, VBA, makroları koru veya kaldır|Evet|
+|Adlandırılmış aralıkları manipüle et|Evet|
+|Özel grafikler oluştur|Evet|
+|Tablolardan OLE nesneleri ekleyin, koruyun veya çıkarın.|Evet|
+|Kısa çizgi uygula|Evet|
 |Dosyaları şifrele|Evet|
-## **Elektronik Tablo Biçimlendirme Özellikleri**
-Aspose.Cells for Java, tüm elektronik tablo öğelerinin biçimlendirme özelliklerine ayrıntılı programlı erişim sağlar.
+## **Çalışma Tablosu Biçimlendirme Özellikleri**
+Aspose.Cells for Java tüm elektronik tablo öğelerinin biçimlendirme özelliklerine programatik erişim sağlar.
 
 |**Özellik**|**Aspose.Cells for Java**|
-|:- |:- |
-|Yazı tipleri, renkler, efektler, kenarlıklar ve gölgeleme dahil olmak üzere hücrelerdeki tüm karakter biçimlendirmesini uygulayın.|Evet|
-|Hücreler için tüm sayı biçimi ayarlarını (Microsoft Excel'de desteklenir) uygulayın.|Evet|
-|Tüm metin hizalama ayarlarını yapın.|Evet|
-|Hücreler için farklı Yazı Tipi Ayarları uygulayın.|Evet|
-|Hücrelere, yazı tiplerine, kılavuz çizgilerine, grafik nesnelerine vb. farklı renkler uygulayın.|Evet|
-|Tek bir hücrede farklı zengin metin biçimlendirmesi uygulayın.|Evet|
-|Hücrelere farklı kenarlık ayarları uygulayın.|Evet|
+| :- | :- |
+|Hücrelerdeki tüm karakter biçimlendirmelerini uygula, dahil olmak üzere fontlar, renkler, efektler, kenarlıklar ve gölgelendirme.|Evet|
+|Hücreler için Microsoft Excel'de desteklenen tüm sayı biçimi ayarlarını uygula.|Evet|
+|Tüm metin hizalama ayarlarını ayarla.|Evet|
+|Hücreler için farklı Font Ayarları uygula.|Evet|
+|Hücrelere, fontlara, ızgaralara, grafik nesnelerine vb. farklı renkler uygula.|Evet|
+|Tek hücrede farklı zengin metin biçimlendirmeleri uygula.|Evet|
+|Hücrelere farklı kenar ayarları uygula.|Evet|
 |Hücrelere farklı arka plan desenleri uygulayın.|Evet|
-|Biçim ayarlarını bir çalışma sayfasına, satıra, sütuna veya bir hücre aralığına vb. uygulayın.|Evet|
-## **Sayfa Kurulumu Özellikleri**
-Çalışma sayfaları için sayfa düzeni seçeneklerini uygulamak için Aspose.Cells for Java'i kullanabilirsiniz.
+|Çalışma sayfasına, satıra, sütuna veya hücre aralığına biçim ayarları uygulayın vs.|Evet|
+## **Sayfa Ayarı Özellikleri**
+Çalışma sayfaları için sayfa ayarı seçeneklerini uygulamak için Aspose.Cells for Java kullanabilirsiniz.
 
 |**Özellik**|**Aspose.Cells for Java**|
-|:- |:- |
-|Sayfa yönünü, ölçeklemeyi, kağıt boyutunu ayarlayın.|Evet|
-|Kenar boşluklarınızı ve sayfa merkezlemenizi belirtin.|Evet|
-|Üstbilginizi ve/veya altbilginizi oluşturun veya düzenleyin.|Evet|
-|Yazdırma alanını ayarlayın, başlıkları yazdırın veya kılavuz çizgilerini vb. açın.|Evet|
+| :- | :- |
+|Sayfa yönlendirmenizi, ölçeklendirmenizi, kağıt boyutunuzu ayarlayın.|Evet|
+|Marjlarınızı ve sayfa merkezlemenizi belirtin.|Evet|
+|Başlık ve/veya altbilgi oluşturun veya düzenleyin.|Evet|
+|Baskı alanı, baskı başlıkları belirleyin veya kılavuz çizgileri vs. açın.|Evet|
 
 

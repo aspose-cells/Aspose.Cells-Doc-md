@@ -1,18 +1,19 @@
-﻿---
-title: Detectar formato de archivo de XML abierto de Office cifrado - Archivos OOXML
+---
+title: Detectar formato de archivo de XML abierto de oficina encriptado archivos OOXML
 type: docs
 weight: 1080
 url: /es/java/detect-file-format-of-encrypted-office-open-xml-ooxml-files/
 ---
+
 {{% alert color="primary" %}} 
 
-**XML abierto de Office**(también conocido como**OOXML**o**Microsoft XML abierto**(MOX)) es un formato de archivo basado en XML desarrollado por Microsoft para representar documentos de oficina como hojas de cálculo, gráficos, presentaciones y documentos de procesamiento de texto.
+**Office Open XML** (también conocido como **OOXML** o **Microsoft Open XML** (MOX)) es un formato de archivo basado en XML desarrollado por Microsoft para representar documentos de oficina como hojas de cálculo, gráficos, presentaciones y documentos de procesamiento de palabras.
 
 {{% /alert %}} 
 
 
 
-Aspose.Cells proporciona una forma de detectar el formato de archivo de cifrado**Microsoft XML abierto**archivos Para identificar el tipo de archivo, utilice el[FileFormatUtil.detectFileFormat](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#detectFileFormat\(java.lang.String,%20java.lang.String\)) como se muestra a continuación en el ejemplo de código.
+Aspose.Cells proporciona una forma de detectar el formato de archivo de los archivos **Microsoft Open XML** cifrados. Para identificar el tipo de archivo, use el método [FileFormatUtil.detectFileFormat](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#detectFileFormat\(java.lang.String,%20java.lang.String\)) como se muestra a continuación en el ejemplo de código.
 
 
 

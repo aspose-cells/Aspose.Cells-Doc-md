@@ -1,60 +1,61 @@
 ---
-title: 複数のワークシートを 1 つのワークシートに結合する
+title: 複数のワークシートを単一のワークシートにマージする
 type: docs
 weight: 70
 url: /ja/java/combine-multiple-worksheets-into-a-single-worksheet/
-description: Java コードと Aspose.Cells for Java API を使用して、複数のワークシートを 1 つのワークシートに結合します。
-keywords: combine multiple worksheets into one, combine multiple worksheets into one java, combine multiple worksheets into one with java, combine multiple worksheets into single worksheet with java, combine multiple worksheets into single worksheet java, java code to combine multiple worksheets into single worksheet, how to combine multiple worksheets into single worksheet with java, how to combine multiple worksheets into one with java, merge multiple worksheets into one with java, how to merge multiple worksheets into one java, how to merge multiple worksheets into one with java
+description: JavaコードとAspose.Cells for Java APIを使用して複数のワークシートを単一のワークシートに結合する
+keywords: 複数のワークシートを単一のワークシートに結合するには、Aspose.Cells APIを使用します。この記事では、ソースブックを読み込み、すべてのソースワークシートのデータを宛先ブック内の単一のワークシートに結合するコード例を示します。
 ---
+
 {{% alert color="primary" %}}
 
-場合によっては、複数のワークシートを 1 つのワークシートに結合する必要があります。これは、Aspose.Cells API を使用して簡単に実現できます。この記事では、ソース ワークブックを読み取り、すべてのソース ワークシートのデータを宛先ワークブック内の 1 つのワークシートに結合するコード例を示します。
+複数のワークシートを1つのワークシートに結合する必要がある場合があります。Aspose.Cells APIを使用すれば簡単に実現できます。この記事では、ソースブックを読み込み、すべてのソースワークシートのデータを目的のワークブック内の単一のワークシートに結合するコード例を紹介します。
 
 {{% /alert %}}
 
-##  **ワークシートを結合する方法**
+## **ワークシートを結合する方法**
 
-以下のサンプルでは、[**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) メソッドを使用して、すべてのソース ワークシートを宛先ワークブック内の 1 つのシートにコピーします。
+以下のサンプルは、[**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range))メソッドを使用してすべてのソースワークシートを宛先ブック内の単一シートにコピーします。
 
-###  **ソースワークブック**
+### **ソースワークブック**
 
-任意のソース ワークブックを使用できます。この例では、3 つのワークシートがあるソース ワークブックを使用しています。
+任意のソースブックが使用できます。この例では、3つのワークシートを持つソースブックを使用しています。
 
-**ワークシート 1**
+**ワークシート1**
 
 ![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_1.jpg)
 
-**ワークシート 2**
+**ワークシート2**
 
 ![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_2.jpg)
 
-**ワークシート 3**
+**ワークシート3**
 
 ![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_3.jpg)
 
-###  **出力ワークブック**
+### **出力ワークブック**
 
-次のコードを実行すると、3 つのワークシートすべてのデータを含む 1 つのワークシートを含むワークブックが提供されます。
+次のコードを実行すると、すべての3つのワークシートのデータが含まれた単一のワークシートを持つワークブックが作成されます。
 
-**出力ワークシートには、3 つのソース ワークシートすべてのデータが含まれるようになりました。**
+**出力ワークシートには今や3つのソースワークシートのデータが含まれています**
 
 ![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
 
-##  **ソースワークブックと出力ワークブックをダウンロード**
+## **ソースワークブックおよび出力ワークブックのダウンロード**
 
 - [ソースワークブック](5473078.xlsx)
 - [出力ワークブック](5473079.xlsx)
 
-###  **複数のワークシートを 1 つのワークシートに結合するサンプル コード**
+### **複数のワークシートを1つのワークシートにマージするためのサンプルコード**
 
-次のコード スニペットは、複数のワークシートを 1 つのワークシートに結合する方法を示しています。
+次のコードスニペットは、複数のワークシートを1つのワークシートに結合する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CombineMultipleWorksheets-CombineMultipleWorksheets.java" >}}
 
-##  **追加リソース**
+## **追加リソース**
 
 {{% alert color="primary" %}}
 
-見つかるかもしれません[複数のワークブックを 1 つのワークブックに結合する](/cells/ja/java/combine-multiple-workbooks-into-a-single-workbook/)詳細については役立つ記事をご覧ください。
+[1つのワークブックに複数のワークブックを結合](/cells/ja/java/combine-multiple-workbooks-into-a-single-workbook/)」記事でより詳しい情報を得るために役立つかもしれません。
 
 {{% /alert %}}

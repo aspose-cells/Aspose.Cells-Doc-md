@@ -1,12 +1,13 @@
-﻿---
-title: Colonne contenenti dati non fortemente tipizzati
+---
+title: Colonne che contengono dati non fortemente tipizzati
 type: docs
 weight: 10
 url: /it/net/columns-containing-non-strongly-typed-data/
 ---
- Se tutti i valori nelle colonne di un foglio di lavoro non sono fortemente tipizzati (ciò significa che i valori in una colonna possono avere i diversi tipi di dati), allora possiamo esportare il contenuto del foglio di lavoro chiamando il metodo**ExportDataTableAsString** metodo della classe Cells.**ExportDataTableAsString** Il metodo accetta lo stesso set di parametri di quello di**ExportDataTable** metodo per esportare i dati del foglio di lavoro come**Tabella dati** oggetto.
 
-{{< highlight "csharp" >}}
+Se tutti i valori nelle colonne di un foglio di lavoro non sono fortemente tipizzati (ciò significa che i valori in una colonna possono avere tipi di dati diversi) allora possiamo esportare il contenuto del foglio di lavoro chiamando il metodo **ExportDataTableAsString** della classe Cells. Il metodo **ExportDataTableAsString** prende lo stesso set di parametri del metodo **ExportDataTable** per esportare i dati del foglio di lavoro come oggetto **DataTable**.
+
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -36,11 +37,11 @@ fstream.Close();
 
 {{< /highlight >}}
 
-Di seguito gli screenshot:
+Di seguito sono riportate le schermate:
 
-![cose da fare:immagine_alt_testo](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-![cose da fare:immagine_alt_testo](picture2.png)
+![todo:image_alt_text](picture2.png)
 
 ## **Scarica il codice di esempio**
 

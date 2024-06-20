@@ -1,45 +1,46 @@
-﻿---
-title: Genel API Aspose.Cells 17.1.0'daki değişiklikler
+---
+title: Aspose.Cells 17.1.0 da Genel API Değişiklikleri
 type: docs
 weight: 380
 url: /tr/java/public-api-changes-in-aspose-cells-17-1-0/
 ---
-{{% alert color="primary" %}} 
-
-Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 16.12.0 sürümünden 17.1.0 sürümüne Aspose.Cells API değişikliklerini açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri, eklenen ve kaldırılan sınıfları vb. değil, aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklamasını da içerir.
-
-{{% /alert %}} 
-## **Eklenen API'ler**
-### **Excel 2016 Grafikleri Desteği**
-Aspose.Cells API'ler, ChartType numaralandırmasını geliştirerek birkaç Excel 2016 grafiği için destek ekledi. Aspose.Cells 17.1.0 sürümü ile aşağıdaki yeni alanlar eklenmiştir.
-
-- ChartType.BOX_WHISKER: Seri, kutu ve bıyık olarak düzenlenmiştir.
-- ChartType.FUNNEL: Seri, huni şeklinde düzenlenmiştir.
-- ChartType.PARETO_LINE: Seri, pareto çizgiler olarak düzenlenmiştir.
-- ChartType.SUNBURST: Seri, güneş patlaması olarak düzenlenmiştir.
-- ChartType.TREEMAP: Seri, bir ağaç haritası olarak düzenlenmiştir.
-- ChartType.WATEFALL: Seri bir şelale olarak düzenlenmiştir.
-- ChartType.HISTOGRAM: Seri, histogram olarak düzenlenir.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Excel 2016 Grafik Türlerini Okuma](/cells/tr/java/read-and-manipulate-excel-2016-charts/)
+Bu belge, sürüm 16.12.0'den 17.1.0'a Aspose.Cells API'sindeki değişiklikleri açıklar ve modül/uygulama geliştiricileri için ilgi çekebilecek değişiklikleri içerir. Yalnızca yeni ve güncellenmiş genel yöntemler, eklenen ve kaldırılan sınıflar vb. değil, aynı zamanda Aspose.Cells'in arka planda davranışında herhangi bir değişikliğin açıklamasını içerir.
 
 {{% /alert %}} 
-### **LoadFilter.LoadDataFilterOptions Özelliği için Ayarlayıcı Eklendi**
-Aspose.Cells 17.1.0, m_LoadDataFilterOptions örnek değişkenini değiştirmek için LoadFilter.LoadDataFilterOptions özelliği için ayarlayıcı ekledi. Kullanıcılar, şablon dosyalarını yükleme davranışını değiştirmek için kendi LoadFilter sınıfı uygulamalarında LoadDataFilterOptions özelliğini değiştirebilir.
+## **Eklenen API'lar**
+### **Excel 2016 Grafikleri için Destek**
+Aspose.Cells API'leri, ChartType numaralandırmasını geliştirerek birkaç Excel 2016 grafiği için destek ekledi. Aspose.Cells 17.1.0 sürümüyle şu yeni alanlar eklenmiştir.
+
+- ChartType.BOX_WHISKER: Seri, kutu ve çıtalar olarak yerleştirilir.
+- ChartType.FUNNEL: Seri, huni olarak yerleştirilir.
+- ChartType.PARETO_LINE: Seri, pareto çizgileri olarak yerleştirilir.
+- ChartType.SUNBURST: Seri, güneş patlaması olarak yerleştirilir.
+- ChartType.TREEMAP: Seri, ağaç haritası olarak yerleştirilir.
+- ChartType.WATERFALL: Seri bir şelale olarak düzenlenir.
+- ChartType.HISTOGRAM: Seri bir histogram olarak düzenlenir.
+
+{{% alert color="primary" %}} 
+
+[Reading Excel 2016 Chart Types](/cells/tr/java/read-and-manipulate-excel-2016-charts/) hakkındaki detaylı makaleye göz atın
+
+{{% /alert %}} 
+### **LoadFilter.LoadDataFilterOptions Özelliği için Setter eklendi**
+Aspose.Cells 17.1.0, LoadFilter.LoadDataFilterOptions özelliği için setter ekledi ve m_LoadDataFilterOptions örnek değişkenini değiştirmek üzere LoadFilter sınıfının kendi uygulamasında LoadDataFilterOptions özelliğini değiştirebilecek olan kullanıcılar, yük şablonu dosyalarının davranışını değiştirebilir.
 
 İşte basit bir kullanım senaryosu.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Özel Şablon Filtreleme](/cells/tr/java/filter-objects-while-loading-workbook-or-worksheet/)
+[Özel Şablon Filtreleme](/cells/tr/java/filter-objects-while-loading-workbook-or-worksheet/) hakkındaki detaylı makaleye göz atın
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomLoadFilter extends LoadFilter {
 
@@ -74,39 +75,39 @@ Aspose.Cells 17.1.0, m_LoadDataFilterOptions örnek değişkenini değiştirmek 
 }
 
 {{< /highlight >}}
-### **CellsHelper.SignificantDigits Özelliği Eklendi**
-Aspose.Cells 17.1.0, bir elektronik tablodaki sayısal değerler için önemli basamak sayısını almaya veya ayarlamaya izin veren CellsHelper sınıfından SignificantDigits özelliğini kullanıma sundu. CellsHelper.SignificantDigits özelliğinin varsayılan değeri 17'dir, ancak yalnızca sonucun XLSX dosya biçiminde saklanması gerekiyorsa uygulanabilir.
+### **Added CellsHelper.SignificantDigits Özelliği**
+Aspose.Cells 17.1.0, CellsHelper sınıfından SignificantDigits özelliğini açığa çıkardı ve elektronik tablodaki sayısal değerler için anlamlı basamak sayısını almak veya ayarlamak için kullanılmasını sağlar. CellsHelper.SignificantDigits özelliğinin varsayılan değeri 17'dir ve yalnızca sonucun XLSX dosya formatında depolanması gerektiğinde geçerlidir.
 
-İşte CellsHelper.SignificantDigits özelliğinin kullanımını gösteren basit bir senaryo.
+CellsHelper.SignificantDigits özelliğinin kullanımını gösteren basit bir senaryo burada.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Anlamlı Basamak Sayısını Ayarlama](/cells/tr/java/specifying-significant-digits-to-be-stored-in-excel-file/)
+[Depolanacak Yapılan Anlamlı Basamak Sayısını Belirtme](/cells/tr/java/specifying-significant-digits-to-be-stored-in-excel-file/) hakkındaki detaylı makaleye göz atın
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the number of significant digits
 
 CellsHelper.setSignificantDigits(15);
 
 {{< /highlight >}}
-### **GlowEffect.Color Özelliği Eklendi**
-Aspose.Cells 17.1.0, ışıma efektinin rengini almak için kullanılabilecek GlowEffect.Color özelliğini ekledi.
+### **Added GlowEffect.Color Özelliği**
+Aspose.Cells 17.1.0, GlowEffect.Color özelliğini eklediği ve ışıltı efektinin rengini almak için kullanılabileceği.
 
-Aşağıdaki kod parçacığı, GlowEffect.Color özelliğini kullanır.
+Işıl Işıl Efektin Rengini Okuma](/cells/tr/java/read-color-of-the-shape-s-glow-effect/) hakkındaki detaylı makaleye göz atın
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Şeklin Parıltı Rengini Okuma](/cells/tr/java/read-color-of-the-shape-s-glow-effect/)
+[Şeklin Parlama Rengini Okuma](/cells/tr/java/read-color-of-the-shape-s-glow-effect/) konusundaki detaylı makaleyi kontrol edin
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Read the source Excel file
 
@@ -127,26 +128,26 @@ GlowEffect glow = shape.getGlow();
 CellsColor color = glow.getColor();
 
 {{< /highlight >}}
-### **PageSetup.PaperWidth & PaperHeight Özellikleri Eklendi**
-Aspose.Cells 17.1.0, PageSetup sınıfı için PaperWidth & PaperHeight özelliklerini kullanıma sundu. PageSetup.PaperWidth & PageSetup.PaperHeight özellikleri, sayfa yönünü dikkate alırken kağıt genişliğini ve yüksekliğini inç biriminde temsil eden double türündedir.
+### **Added PageSetup.PaperWidth ve PaperHeight Özellikleri**
+Aspose.Cells 17.1.0, PageSetup sınıfı için PaperWidth ve PaperHeight özelliklerini açığa çıkardı. PageSetup.PaperWidth ve PageSetup.PaperHeight özellikleri, sayfa yönlendirmesini dikkate alarak inç biriminde kağıt genişliğini ve yüksekliğini temsil eden double türündendir.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Çalışma Sayfasının Kağıt Boyutunu Alma](/cells/tr/java/get-paper-width-and-height-from-pagesetup-of-worksheet/)
+[Çalışma Sayfasının Kağıt Boyutunu Alın](/cells/tr/java/get-paper-width-and-height-from-pagesetup-of-worksheet/) hakkındaki detaylı makaleye göz atın
 
 {{% /alert %}} 
-### **WorkbookSettings.CheckCustomNumberFormat Özelliği Eklendi**
-Aspose.Cells 17.1.0, WorkbookSettings sınıfına CheckCustomNumberFormat özelliğini ekledi. CheckCustomNumberFormat, Style.Custom özelliğinin doğru ayarlanıp ayarlanmadığını kontrol etmede kullanışlıdır. Style.Custom özelliği yanlış ayarlanmışsa yani; değer geçerli kalıba karşılık gelmiyorsa Aspose.Cells API'leri uygun mesajla CellsException atar.
+### **Added WorkbookSettings.CheckCustomNumberFormat Özelliği**
+Aspose.Cells 17.1.0, WorkbookSettings sınıfına CheckCustomNumberFormat özelliğini ekledi. CheckCustomNumberFormat, Style.Custom özelliğinin uygun şekilde ayarlanıp ayarlanmadığını kontrol etmede kullanışlıdır. Eğer Style.Custom özelliği yanlış şekilde ayarlanmışsa yani; değer geçerli bir desene karşılık gelmiyorsa, Aspose.Cells API'ları uygun mesajla CellsException fırlatacaktır.
 
 {{% alert color="primary" %}} 
 
- Ayrıntılı makaleyi kontrol edin[Özel Formu Doğrulama](/cells/tr/java/check-custom-number-format-when-setting-style-custom-property/)
+[Özel Formayı Doğrulama](/cells/tr/java/check-custom-number-format-when-setting-style-custom-property/) hakkındaki detaylı makaleye göz atın
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -183,8 +184,8 @@ style.setCustom("ggg @ fff");
 cell.setStyle(style);
 
 {{< /highlight >}}
-### **DisplayUnitType.PERCENTAGE Alanı Eklendi**
-Aspose.Cells 17.1.0 ayrıca PERCENTAGE alanını DisplayUnitType numaralandırmasına maruz bıraktı. DisplayUnitType.PERCENTAGE alanı, tablodaki değerlerin 0,01'e bölünmesi gerektiğini belirtir.
-## **Kaldırılan API'ler**
-### **Örnek Değişkeni m_LoadDataFilterOptions Kaldırıldı**
-Bu sürüm, m_LoadDataFilterOptions örnek değişkenini kaldırmıştır. Bunun yerine LoadFilter.LoadDataFilterOptions özelliğinin kullanılması önerilir.
+### **Eklenen DisplayUnitType.PERCENTAGE Alanı**
+Aspose.Cells 17.1.0, DisplayUnitType numaralandırmasına aynı zamanda PERCENTAGE alanını da açığa çıkardı. DisplayUnitType.PERCENTAGE alanı, grafikteki değerlerin 0,01 ile bölüneceğini belirtir.
+## **Removed APIs**
+### **Örnek Değişken m_LoadDataFilterOptions Kaldırıldı**
+Bu sürüm, m_LoadDataFilterOptions örnek değişkenini kaldırdı. LoadFilter.LoadDataFilterOptions özelliğini kullanmanız önerilir.

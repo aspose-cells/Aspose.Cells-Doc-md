@@ -1,16 +1,17 @@
-﻿---
-title: Excel テーブルへのスライサーの作成
+---
+title: Excelテーブルにスライサーを作成する
 type: docs
 weight: 15
 url: /ja/java/create-slicer-to-excel-table/
 ---
-## **考えられる使用シナリオ**
 
-スライサーは、データをすばやくフィルター処理するために使用されます。テーブルまたはピボット テーブルの両方でデータをフィルター処理するために使用できます。 Microsoft Excel では、テーブルまたはピボット テーブルを選択してから、*挿入 > スライサー*Aspose.Cells を使用してスライサーを作成することもできます[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#add(com.aspose.cells.ListObject,%20com.aspose.cells.ListColumn,%20int,%20int)） 方法。
+## **可能な使用シナリオ**
 
-## **Excel テーブルへのスライサーの作成**
+スライサはデータを素早くフィルタリングするために使用されます。テーブルまたはピボットテーブルの両方のデータをフィルタリングするために使用できます。Microsoft Excelでは、テーブルまたはピボットテーブルを選択し、*挿入＞スライサ*をクリックしてスライサを作成できます。Aspose.Cellsでは、[**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#add(com.aspose.cells.ListObject,%20com.aspose.cells.ListColumn,%20int,%20int))メソッドを使用してスライサを作成することができます。
 
-以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](sampleCreateSlicerToExcelTable.xlsx)テーブルが含まれています。次に、最初の列に基づいてスライサーを作成します。最後に、ワークブックを[出力 XLSX](outputCreateSlicerToExcelTable.xlsx)フォーマット。
+## **Excelテーブルにスライサーを作成する**
+
+次のサンプルコードをご覧ください。これは、テーブルを含む[サンプルExcelファイル](sampleCreateSlicerToExcelTable.xlsx)を読み込みます。それから最初の列に基づいてスライサーを作成します。最後に、ブックを[出力XLSX](outputCreateSlicerToExcelTable.xlsx)形式で保存します。
 
 ## **サンプルコード**
 

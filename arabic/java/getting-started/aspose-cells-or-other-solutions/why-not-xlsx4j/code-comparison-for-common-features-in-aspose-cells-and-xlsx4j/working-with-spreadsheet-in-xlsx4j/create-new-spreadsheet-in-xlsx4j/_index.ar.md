@@ -1,15 +1,16 @@
-﻿---
-title: قم بإنشاء جدول بيانات جديد في xlsx4j
+---
+title: إنشاء جدول بيانات جديد في xlsx4j
 type: docs
 weight: 30
 url: /ar/java/create-new-spreadsheet-in-xlsx4j/
 ---
-## **Aspose.Cells - تكوين جدول جديد**
-فئة المصنف متاحة للاستخدام البسيط.
+
+## **Aspose.Cells - إنشاء جدول بيانات جديد**
+فئة الورقة العمل متاحة للاستخدام البسيط
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -35,13 +36,13 @@ workbook.save(dataDir + "newWorksheet_Aspose.xls");
 
 {{< /highlight >}}
 ## **xlsx4j - إنشاء جدول بيانات جديد**
-يوضح النموذج أدناه كيف يمكن إنشاء جدول بيانات جديد أثناء استخدام xlsx4j.
+النموذج أدناه يوضح كيف يمكن إنشاء جدول بيانات جديد باستخدام xlsx4j.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- public static void main(String[]args) throws Exception {
+ public static void main(String[] args) throws Exception {
 
     String outputfilepath = dataDir + "newWorksheet_Xlsx4j.xlsx";
 
@@ -114,7 +115,7 @@ private static Cell createCell(String content) {
 }
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/createnewspreadsheet)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/createnewspreadsheet)

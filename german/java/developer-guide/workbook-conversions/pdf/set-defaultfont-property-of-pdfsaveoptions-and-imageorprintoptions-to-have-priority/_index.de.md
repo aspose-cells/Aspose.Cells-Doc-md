@@ -1,38 +1,39 @@
-﻿---
-title: Setzen Sie die DefaultFont-Eigenschaft von PdfSaveOptions und ImageOrPrintOptions auf Priorität
+---
+title: StandardFont Eigenschaft von PdfSaveOptions und ImageOrPrintOptions Priorität einräumen
 type: docs
 weight: 30
 url: /de/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Beim Einstellen der**Standardschriftart** Eigentum von[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) und[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) , könnten Sie erwarten, dass das Speichern auf PDF oder Bild dies festlegen würde**Standardschriftart** auf den gesamten Text in der Arbeitsmappe, der eine fehlende (nicht installierte) Schriftart enthält.
+## **Mögliche Verwendungsszenarien**
 
- Im Allgemeinen versucht Aspose.Cells beim Speichern in PDF oder Bild zuerst, die Standardschriftart von Workbook festzulegen (dh[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) ). Wenn die Standardschriftart der Arbeitsmappe den Text immer noch nicht richtig anzeigen/rendern kann, versucht Aspose.Cells, mit der erwähnten Schriftart zu rendern**Standardschriftart** Attribut ein[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
+Beim Setzen der **DefaultFont**-Eigenschaft von [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) und [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) könnte man erwarten, dass das Speichern in PDF oder Bild diese **DefaultFont** für den gesamten Text in der Arbeitsmappe setzt, der eine fehlende (nicht installierte) Schriftart hat.
 
-Um Ihrer Erwartung gerecht zu werden, haben wir eine boolesche Eigenschaft namens "**CheckWorkbookDefaultFont** " in[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) . Sie können es auf "false" setzen, um die Standardschriftart der Arbeitsmappe zu deaktivieren, oder die**Standardschriftart** Einstellung in[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) Vorrang haben.
+Im Allgemeinen versucht Aspose.Cells bei der Speicherung in PDF oder Bild zunächst, die Standardschriftart der Arbeitsmappe (d.h. [**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)) festzulegen. Wenn die Standardschriftart der Arbeitsmappe den Text immer noch nicht ordnungsgemäß anzeigen/rendern kann, versucht Aspose.Cells, mit der im **DefaultFont**-Attribut in [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) angegebenen Schriftart zu rendern.
 
-## **Legen Sie die DefaultFont-Eigenschaft von PdfSaveOptions/ImageOrPrintOptions fest**
+Um Ihren Erwartungen gerecht zu werden, haben wir eine boolesche Eigenschaft namens "**CheckWorkbookDefaultFont**" in [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions). Sie können diese auf false setzen, um das Festlegen der Standardschriftart der Arbeitsmappe zu deaktivieren, oder die Einstellung **DefaultFont** in [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) priorisieren.
 
-Der folgende Beispielcode öffnet eine Excel-Datei. Die A1-Zelle (im ersten Arbeitsblatt) hat einen Text, der auf „Schriftarttext für die Weihnachtszeit“ eingestellt ist. Der Schriftartname ist „Christmas Time Personal Use“, der nicht auf dem Computer installiert ist. Legen wir fest**Standardschriftart**Attribut von[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)zu "Times New Roman". Wir setzen auch**CheckWorkbookDefaultFont**Boolesche Eigenschaft zu "**FALSCH**", wodurch sichergestellt wird, dass der Text der A1-Zelle mit der Schriftart "Times New Roman" gerendert wird und nicht die Standardschriftart der Arbeitsmappe (in diesem Fall "Calibri") verwenden sollte. Der Code rendert das erste Arbeitsblatt in den Bildformaten PNG und TIFF. Es rendert schließlich in das Dateiformat PDF.
+## **StandardFont-Eigenschaft von PdfSaveOptions/ImageOrPrintOptions festlegen**
+
+Der folgende Beispielcode öffnet eine Excel-Datei. Die Zelle A1 (im ersten Arbeitsblatt) enthält einen Text, der auf "Weihnachtszeit-Schrifttext" festgelegt ist. Der Schriftname lautet "Weihnachtszeit Persönlich", der nicht auf dem Rechner installiert ist. Wir setzen das **DefaultFont**-Attribut von [**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) auf "Times New Roman". Außerdem setzen wir die boolesche Eigenschaft **CheckWorkbookDefaultFont** auf "**false**", um sicherzustellen, dass der Text der Zelle A1 mit der Schriftart "Times New Roman" gerendert wird und nicht die Standardschriftart der Arbeitsmappe (in diesem Fall "Calibri") verwendet wird. Der Code rendert das erste Arbeitsblatt in PNG- und TIFF-Bilddateiformaten. Schließlich wird in das PDF-Dateiformat gerendert.
 
 {{% alert color="primary" %}}
 
- Der Standardwert von***CheckWorkbookDefaultFont*** Attribut ist**wahr**.
+Der Standardwert des ***CheckWorkbookDefaultFont***-Attributs ist **true**.
 
 {{% /alert %}}
 
-Dies ist der Screenshot der[Vorlagendatei](49446914.xlsx)im Beispielcode verwendet.
+Dies ist der Screenshot der [Vorlagendatei](49446914.xlsx), die im Beispielcode verwendet wurde.
 
-![todo: Bild_alt_Text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-Dies ist das ausgegebene Bild PNG nach dem Einstellen von[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)Eigentum an "Times New Roman".
+Dies ist das Ausgabe-PNG-Bild nach Einstellung der Eigenschaft [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) auf "Times New Roman".
 
-![todo: Bild_alt_Text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
+![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
-Siehe Ausgabe[TIFF](out1_imageTIFF.tiff)Bild nach dem Einstellen der[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)Eigentum an "Times New Roman".
+Sehen Sie das Ausgabe [TIFF](out1_imageTIFF.tiff)-Bild nach Einstellung der Eigenschaft [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) auf "Times New Roman".
 
-Siehe Ausgabe[PDF](out1_pdf.pdf)Datei nach dem Festlegen der[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont)Eigentum an "Times New Roman".
+Sehen Sie die Ausgabe [PDF](out1_pdf.pdf)-Datei nach Einstellung der Eigenschaft [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DefaultFont) auf "Times New Roman".
 
 ## **Beispielcode**
 

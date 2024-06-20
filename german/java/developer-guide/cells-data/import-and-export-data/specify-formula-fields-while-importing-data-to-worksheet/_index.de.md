@@ -1,18 +1,19 @@
-﻿---
-title: Geben Sie beim Importieren von Daten in ein Arbeitsblatt Formelfelder an
+---
+title: Formelfelder beim Importieren von Daten in das Arbeitsblatt angeben
 type: docs
 weight: 220
 url: /de/java/specify-formula-fields-while-importing-data-to-worksheet/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Sie können Formelfelder angeben, wenn Sie Daten mithilfe von in Ihr Arbeitsblatt importieren[**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#IsFormulas) Methode. Diese Methode nimmt das boolesche Array, wo der Wert ist**wahr**bedeutet, dass das Feld ein Formelfeld ist. Wenn das dritte Feld beispielsweise ein Formelfeld ist, dann ist der dritte Wert im Array**wahr**.
+## **Mögliche Verwendungsszenarien**
 
-## **Geben Sie beim Importieren von Daten in ein Arbeitsblatt Formelfelder an**
+Sie können Formelfelder angeben, wenn Sie Daten in Ihr Arbeitsblatt importieren, indem Sie die [**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#IsFormulas)-Methode verwenden. Diese Methode nimmt das Boolesche Array entgegen, in dem der Wert **true** bedeutet, dass das Feld ein Formelfeld ist. Wenn beispielsweise das dritte Feld ein Formelfeld ist, ist der dritte Wert im Array **true**.
 
- Bitte sehen Sie sich den folgenden Beispielcode an, der erklärt, wie das Formelfeld beim Importieren von Daten in ein Arbeitsblatt angegeben wird. Bitte sehen Sie sich ... an[Excel-Datei ausgeben](61767850.xlsx) generiert durch den Code und den Screenshot, der die Auswirkung des Codes auf die Excel-Ausgabedatei zeigt.
+## **Formelfelder beim Import von Daten in ein Arbeitsblatt angeben**
 
-![todo: Bild_alt_Text](specify-formula-fields-while-importing-data-to-worksheet_1.png)
+Bitte beachten Sie den folgenden Beispielcode, der erklärt, wie das Formelfeld beim Importieren von Daten in ein Arbeitsblatt angegeben wird. Bitte sehen Sie sich die [Ausgabedatei Excel](61767850.xlsx) an, die durch den Code generiert wurde, sowie den Screenshot, der die Auswirkung des Codes auf die Ausgabedatei Excel zeigt.
+
+![todo:image_alt_text](specify-formula-fields-while-importing-data-to-worksheet_1.png)
 
 ## **Beispielcode**
 

@@ -1,35 +1,36 @@
 ---
-title: الأسماء والمؤشرات
+title: الأسماء والفهارس
 type: docs
 weight: 10
 url: /ar/cpp/names-and-indices/
 ---
-##  **احصل على اسم Cell من فهارس الصفوف والأعمدة**
-من الممكن العثور على اسم الخلية بالنظر إلى فهرس الصف والعمود. يشرح هذا المقال كيف.
- Aspose.Cells يوفر[CellsHelper::CellIndexToName](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellindextoname/) الطريقة التي تسمح للمطورين بالحصول على اسم الخلية إذا قاموا بتوفير فهرس الصف والعمود.
+
+## **الحصول على اسم الخلية من مؤشرات الصف والعمود**
+من الممكن العثور على اسم الخلية مع الاعتماد على مؤشرات الصف والعمود. يشرح هذا المقال كيفية ذلك.
+توفر Aspose.Cells [CellsHelper::CellIndexToName](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellindextoname/) الأسلوب الذي يسمح للمطورين بالحصول على اسم الخلية إذا قدموا فهرس الصف والعمود.
 
 {{% alert color="primary" %}} 
 
-على عكس Microsoft Excel، حيث تبدأ مؤشرات الصفوف والأعمدة من 1، يبدأ Aspose.Cells في حساب مؤشرات الصفوف والأعمدة من 0.
+على عكس Microsoft Excel، حيث تبدأ فهارس الصف والعمود من 1، تبدأ Aspose.Cells في عد فهارس الصف والعمود من 0.
 
 {{% /alert %}} 
 
- يوضح نموذج التعليمات البرمجية التالي كيفية الاستخدام[CellsHelper::CellIndexToName](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellindextoname/) للوصول إلى اسم الخلية بالنظر إلى فهرس الصفوف والأعمدة المعروفة. ينشئ الكود الإخراج التالي.
+يوضح الشيفرة النموذجية التالية كيفية استخدام [CellsHelper::CellIndexToName](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellindextoname/) للوصول إلى اسم الخلية مع مؤشر الصف والعمود المعروف. تولد الشيفرة النموذجية الناتج التالي.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-GetCellNameFromRowAndColumn-new.cpp" >}}
-##  **احصل على فهارس الصفوف والأعمدة من الاسم Cell**
-من الممكن العثور على فهرس الصف والعمود للخلية من اسمها. يشرح هذا المقال كيف.
- Aspose.Cells يوفر[CellsHelper.CellNameToIndex](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellnametoindex/) الطريقة التي تسمح للمطورين بالحصول على فهرس الصفوف والأعمدة من اسم الخلية.
+## **الحصول على فهارس الصفوف والأعمدة من اسم الخلية**
+من الممكن العثور على فهرس الصف والعمود للخلية من اسمها. يشرح هذا المقال كيفية ذلك.
+يوفر Aspose.Cells [CellsHelper.CellNameToIndex](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellnametoindex/) الأسلوب الذي يسمح للمطورين بالحصول على فهرس الصف والعمود من اسم الخلية.
 
 {{% alert color="primary" %}} 
 
-على عكس Microsoft Excel، حيث تبدأ مؤشرات الصفوف والأعمدة من 1، يبدأ Aspose.Cells في حساب مؤشرات الصفوف والأعمدة من 0.
+على عكس Microsoft Excel، حيث تبدأ فهارس الصف والعمود من 1، تبدأ Aspose.Cells في عد فهارس الصف والعمود من 0.
 
 {{% /alert %}} 
 
- يوضح نموذج التعليمات البرمجية التالي كيفية الاستخدام[CellsHelper::CellNameToIndex](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellnametoindex/)للحصول على فهرس الصف والعمود من اسم الخلية. ينشئ الكود الإخراج التالي.
+الشيفرة النموذجية التالية توضح كيفية استخدام [CellsHelper::CellNameToIndex](https://reference.aspose.com/cells/cpp/aspose.cells/cellshelper/cellnametoindex/) للحصول على فهرس الصف والعمود من اسم الخلية. تولد الشيفرة النموذجية الناتج التالي.
 
 
 

@@ -1,26 +1,29 @@
-﻿---
-title: Modifica del carattere e del colore di una riga o di una colonna
+---
+title: Modifica del carattere e del colore di una riga o colonna
 type: docs
 weight: 110
-url: /it/net/changing-the-font-and-color-of-a-row-or-column/
+url: /it/net/aspose-cells-griddesktop/change-the-font-and-color-of-a-row-or-column/
+keywords: GridDesktop, carattere, colore
+description: Questo articolo introduce come cambiare il font e il colore in riga o colonna in GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-In questo argomento, discuteremo della modifica del carattere e del colore del carattere di righe e colonne di un foglio di lavoro. Questo è un livello base di funzionalità di formattazione offerto da Aspose.Cells.GridDesktop che consente agli sviluppatori di personalizzare la visualizzazione dei loro fogli di lavoro per renderli più presentabili.
+In questo argomento, discuteremo del cambiamento del font e del colore del font delle righe e delle colonne di un foglio di lavoro. Si tratta di una funzionalità di formattazione di base offerta da Aspose.Cells.GridDesktop che consente agli sviluppatori di personalizzare la visualizzazione dei propri fogli di lavoro per renderli più presentabili.
 
 {{% /alert %}} 
-## **Modifica del carattere e del colore di una colonna**
-Per modificare il carattere e il colore di una colonna utilizzando Aspose.Cells.GridDesktop, procedi nel seguente modo:
+## **Cambiare il Font e il Colore di una Colonna**
+Per cambiare il font e il colore di una colonna usando Aspose.Cells.GridDesktop, seguire i passaggi seguenti:
 
--  Accedi a qualsiasi desiderato**Foglio di lavoro**
--  Accedi a**Colonna** il cui carattere e colore devono essere modificati
--  Crea un file personalizzato**Font**
--  Impostare il**Font** del**Colonna** a quello personalizzato
--  Finalmente, set**Colore del carattere** del**Colonna** a qualsiasi desiderato**Colore**
+- Accedere a qualsiasi **Foglio di lavoro** desiderato
+- Accedere a una **Colonna** di cui si desidera cambiare il font e il colore
+- Creare un **Font** personalizzato
+- Impostare il **Font** della **Colonna** su quello personalizzato
+- Infine, impostare il **Colore del Font** della **Colonna** su un qualsiasi **Colore** desiderato
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 
@@ -43,16 +46,16 @@ column.SetFont(font);
 column.SetFontColor(Color.Blue);
 
 {{< /highlight >}}
-## **Modifica del carattere e del colore di una riga**
--  Accedi a qualsiasi desiderato**Foglio di lavoro**
--  Accedi a**Riga** il cui carattere e colore devono essere modificati
--  Crea un file personalizzato**Font**
--  Impostare il**Font** del**Riga** a quello personalizzato
--  Finalmente, set**Colore del carattere** del**Riga** a qualsiasi desiderato**Colore**
+## **Cambiare il Font & il Colore di una Riga**
+- Accedere a qualsiasi **Foglio di lavoro** desiderato
+- Accedere a una **Riga** di cui si desidera cambiare il font e il colore
+- Creare un **Font** personalizzato
+- Impostare il **Font** della **Riga** su quello personalizzato
+- Infine, impostare il **Colore del Font** della **Riga** su un qualsiasi **Colore** desiderato
 
 
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Accessing the worksheet of the Grid that is currently active
 

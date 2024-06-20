@@ -1,60 +1,61 @@
-﻿---
-title: Dynamics CRM için İçe Aktarma Aracını Güncelle
+---
+title: Dynamics CRM için Güncelleme İçe Aktarma Aracı
 type: docs
 weight: 10
 url: /tr/net/update-import-tool-for-dynamics-crm/
 ---
-**İçindekiler Özeti**
+
+**İçerik Özeti**
 
 - [Giriş](#UpdateImportToolforDynamicsCRM-Introduction)
 - [Sistem Gereksinimleri ve Desteklenen Platformlar](#UpdateImportToolforDynamicsCRM-SystemRequirementsandSupportedPlatforms) 
-  - [sistem gereksinimleri](#UpdateImportToolforDynamicsCRM-SystemRequirements)
+  - [Sistem Gereksinimleri](#UpdateImportToolforDynamicsCRM-SystemRequirements)
   - [Desteklenen Platformlar](#UpdateImportToolforDynamicsCRM-SupportedPlatforms)
-- [indiriliyor](#UpdateImportToolforDynamicsCRM-Downloading)
-- [Yükleme veya Kaldırma](#UpdateImportToolforDynamicsCRM-InstallingorUninstalling) 
-  - [Başvuru Lisansı](#UpdateImportToolforDynamicsCRM-ApplyingLicense)
-- [kullanma](#UpdateImportToolforDynamicsCRM-Using)
-- [Destek olmak](#UpdateImportToolforDynamicsCRM-Support)
-- [Genişletin ve Katkıda Bulunun](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
+- [İndirme](#UpdateImportToolforDynamicsCRM-Downloading)
+- [Kurulum veya Kaldırma](#UpdateImportToolforDynamicsCRM-InstallingorUninstalling) 
+  - [Lisans Kullanımı](#UpdateImportToolforDynamicsCRM-ApplyingLicense)
+- [Kullanarak](#UpdateImportToolforDynamicsCRM-Using)
+- [Destek](#UpdateImportToolforDynamicsCRM-Support)
+- [Genişletme ve Katkı Sağlama](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
 ## **Giriş**
-Aspose Güncelleme İçe Aktarma Aracı, Microsoft Dinamik CRM'de kullanılacak açık kaynaklı bir eklentidir. Bu eklenti, verileri CRM'den Aspose.Cells Elektronik Tablolara otomatik olarak Güncelleme ve/veya Dışa Aktarma yeteneğine sahiptir. Manuel olarak hiçbir şey yapmamıza ve bu eklentiyi yüklememize gerek yoktur ve işimizi daha kolay ve daha hızlı hale getirir.
+Aspose Güncelleme İçe Aktarma Aracı, Microsoft Dynamic CRM'de kullanılan açık kaynaklı bir eklentidir. Bu eklenti, CRM'den Aspose.Cells Elektronik Tablolara veri otomatik olarak Güncelleme ve/veya Dışa Aktarmak için kullanılır. Elle herhangi bir şey yapmamıza gerek yoktur, bu eklentiyi yükleyebilir ve işimizi daha kolay ve hızlı hale getirebiliriz.
 
-Bu eklenti, CRM'den otomatik olarak Güncelleme ve/veya Dışa Aktarma işlevi sağlar. Tek bir tıklama, kaydı CRM'ye/CRM'den İçe/Dışa Aktarır.
+Bu eklenti, CRM'den Otomatik Olarak Güncelleme ve/veya Dışa Aktarma işlevselliği sağlar. Bir tıklama, Kaydı CRM'den içe/dışa aktarır.
 
-Bu Eklentinin başlıca özellikleri şunlardır:
+Bu ekonun önemli özellikleri şunlardır:
 
-- İstenen CRM ile bağlantıyı kurun.
-- Kullanıcının istenen Varlık ve Alanları seçmesine izin verin.
-- Izgarada CRM ekranından kayıt alma.
-- Kaydı Aspose.Cells Elektronik Tabloya aktarın.
-- Aspose.Cells'den kaydı ızgarada elektronik tablo görüntüsünden alın.
-- Kaydı kılavuzdan CRM'ye aktarın.
+- İstenen CRM'ye bağlantı kurma.
+- Kullanıcının istenen Varlık ve Alanları seçmesine izin verme.
+- CRM'den kayıtları alıp ızgarada gösterme.
+- Kaydı Aspose.Cells Elektronik Tablo üzerinde dışa aktarma.
+- Kaydı Aspose.Cells Elektronik Tabloda ızgarada gösterme.
+- Kaydı ızgara üzerinden CRM'ye dışa aktar.
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
-### **sistem gereksinimleri**
-Aspose .Net Update Import Tool for Microsoft Dynamics CRM'yi yüklemek ve kullanmak için aşağıdaki CRM sürümlerinden birinin kurulu olması gerekir
+### **Sistem Gereksinimleri**
+Microsoft Dynamics CRM için Aspose .Net Güncelleme İçe Aktarma Aracını yüklemek ve kullanmak için aşağıdaki CRM sürümlerinden birine sahip olmanız gerekmektedir
 
-- Microsoft Dinamik CRM 2013.
-- Microsoft Dinamik CRM 2015.
-- Microsoft Dynamics CRM Çevrimiçi.
+- Microsoft Dynamics CRM 2013.
+- Microsoft Dynamics CRM 2015.
+- Microsoft Dynamics CRM Online.
 
-Bu Eklentiyi yüklerken veya kullanırken herhangi bir sorunla karşılaşırsanız lütfen bizimle iletişime geçmekten çekinmeyin.
+Kurulumu veya kullanımında herhangi bir sorunla karşılaşırsanız lütfen bizimle iletişime geçin.
 ### **Desteklenen Platformlar**
-Bu eklenti, Microsoft Dynamics CRM'nin tüm sürümleriyle çalışır:
+Bu eklenti Microsoft Dynamics CRM'in tüm sürümleriyle çalışacaktır:
 
-- Microsoft Dinamik CRM 2013.
-- Microsoft Dinamik CRM 2015.
-- Microsoft Dynamics CRM Çevrimiçi.
-## **indiriliyor**
-Aspose .NET Document Generator for CRM'yi aşağıdaki konumlardan birinden indirebilirsiniz:
+- Microsoft Dynamics CRM 2013.
+- Microsoft Dynamics CRM 2015.
+- Microsoft Dynamics CRM Online.
+## **İndirme**
+Aspose .NET Doküman Oluşturucu'yu aşağıdaki konumlardan birinden indirebilirsiniz:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeNETUpdateExportTool)
-## **Yükleme veya Kaldırma**
-Özel olarak geliştirilmiş bir araçtır ve herhangi bir kurulum veya kaldırma gerektirmez.
-Aracı indirmeniz ve sürücünüze çıkartmanız yeterlidir; araç kullanıma hazırdır.
-### **Başvuru Lisansı**
-Lisans dosyasının yolunu sağlayarak forma aşağıdaki kodu ekleyin:
+## **Kurulum veya Kaldırma**
+Özel geliştirilmiş bir araçtır ve herhangi bir kurulum veya kaldırma gerektirmez.
+Araçları indirmeniz ve sürücünüzde çıkartmanız yeterlidir, kullanıma hazır olacaktır.
+### **Lisans Kullanımı**
+Lisans dosyasının yolunu belirterek formda aşağıdaki kodu ekleyin:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
   if (LicenseFilePath != "" && File.Exists(LicenseFilePath))
 
@@ -67,14 +68,14 @@ Lisans dosyasının yolunu sağlayarak forma aşağıdaki kodu ekleyin:
  }
 
 {{< /highlight >}}
-## **kullanma**
- Talimatları izleyerek Aspose .NET Update Import Tool for Dynamics CRM'yi kolayca yapılandırın ve kullanın[Burada](/cells/tr/net/using-and-configuring-crm-update-import-tool/).
-## **Destek olmak**
-Ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
+## **Kullanarak**
+Aspose .NET Güncelleme İçe Aktarma Aracını nasıl yapılandırılacağını ve kullanılacağını [buradan](/cells/tr/net/using-and-configuring-crm-update-import-tool/)instructuion'u takip ederek kolayca yapılandırın.
+## **Destek**
+Ücretsiz destek sunuyoruz. Ürünlerimizi kullanan herkes, ürünleri satın almış olsalar da, değerlendirmekte olanlar da, tam dikkatimizi ve saygımızı hak ediyor.
 
-Aspose .Net Güncelleme İçe Aktarma Aracı ile ilgili sorunları veya önerileri aşağıdaki platformlardan herhangi birini kullanarak günlüğe kaydedebilirsiniz:
+Aspose .Net Güncelleme İçe Aktarma Aracına ilişkin herhangi bir sorunu veya öneriyi şu platformlardan herhangi biri kullanarak kaydedebilirsiniz:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/wiki/Aspose-.NET-Update-Import-Tool)
-## **Genişletin ve Katkıda Bulunun**
-Bu Eklenti Açık kaynaktır. Oluşturduğumuz ve sorunu çözdüğümüz Senaryo, son kullanıcıdan farklı olabilir. En son kaynak kodunu indirebilir ve iş ihtiyaçlarınıza göre güncelleyebilirsiniz.
- Lütfen en son Kaynak Kodunu ve Kod Örneği'ni bulun[Burada](/cells/tr/net/extend-and-contribute-to-crm-update-import-tool/).
+## **Genişletme ve Katkı Sağlama**
+Bu Add-on açık kaynaklıdır. Oluşturduğumuz senaryo ve çözülen sorun kullanıcıdaki senaryodan farklılık gösterebilir. En son kaynak kodunu indirebilir ve iş gereksinimlerinize göre güncelleyebilirsiniz.
+Lütfen en son Kaynak Kodunu ve Kod Örneğini [(buradan)](/cells/tr/net/extend-and-contribute-to-crm-update-import-tool/)bulun.

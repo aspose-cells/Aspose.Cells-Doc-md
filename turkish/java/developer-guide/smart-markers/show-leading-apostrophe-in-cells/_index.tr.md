@@ -1,27 +1,28 @@
-﻿---
-title: Hücrelerde baştaki kesme işaretini göster
+---
+title: Hücrelerde öncü apostrofu gösterme
 type: docs
 weight: 20
 url: /tr/java/show-leading-apostrophe-in-cells/
 ---
-## **Hücrelerde baştaki kesme işaretini göster**
 
-Microsoft Excel'de, hücrenin değerindeki baştaki kesme işareti gizlenmiştir. Aspose.Cells kesme işaretini varsayılan olarak görüntüleme özelliği sağlar. Bunun için API şunları sağlar:[**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)Emlak. Bu özellik, ayarlanıp ayarlanmadığını gösterir.[**AlıntıÖnek**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix)hücreye tek bir alıntı ile başlayan dize değeri girerken özelliği. ayarlamak[**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)mülkiyet**YANLIŞ**çıktı excel dosyasında önde gelen kesme işaretini görüntüler.
+## **Hücrelerde Öncü Apostrof Göster**
 
-Aşağıdaki ekran görüntüsü, görünür kesme işaretiyle çıktı excel dosyasını gösterir.
+Microsoft Excel'de, hücrenin değerindeki öncü apostrof gizlidir. Aspose.Cells, varsayılan olarak apostrofu görüntülemek için özellik sağlar. Bu amaçla API, [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle) özelliğini sağlar. Bu özellik, hücreye tek tırnakla başlayan dize değeri girilirken [**QuotePrefix**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix) özelliğini ayarlayıp ayarlamamamızı gösterir. [**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle) özelliğini **false** olarak ayarlamak, çıktı Excel dosyasında öncü apostrofu gösterir.
 
-![yapılacaklar:resim_alternatif_metin](show-leading-apostrophe-in-cells_1.jpg)
+Aşağıdaki ekran görüntüsü, çıkış excel dosyasını görünen öncü apostrofla göstermektedir.
 
-Aşağıdaki kod parçacığı, kaynak excel dosyasına Akıllı İşaretleyiciler ile veri ekleyerek bunu gösterir. Kaynak ve çıktı excel dosyaları referans için eklenmiştir.
+![todo:image_alt_text](show-leading-apostrophe-in-cells_1.jpg)
 
-[Kaynak dosyası](AllowLeadingApostropheSample.xlsx)
+Aşağıdaki kod parçası, kaynak excel dosyasına Akıllı İmlerle veri ekleyerek bunu gösterir. Kaynak ve çıkış excel dosyaları referans için ekte verilmiştir.
 
-[Çıktı dosyası](AllowLeadingApostropheSample_out.xlsx)
+[Kaynak Dosya](AllowLeadingApostropheSample.xlsx)
 
-## **Basit kod**
+[Çıktı Dosyası](AllowLeadingApostropheSample_out.xlsx)
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-AllowLeadingApostrophe-1.java" >}}
 
-uygulanması*Veri Nesnesi*sınıf aşağıda verilmiştir
+*DataObject* sınıfının uygulaması aşağıda verilmiştir
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HelperClasses-DataObject-1.java" >}}

@@ -1,15 +1,16 @@
-﻿---
-title: Hitta värde i Cells i xlsx4j
+---
+title: Hitta värde i celler i xlsx4j
 type: docs
 weight: 30
 url: /sv/java/find-value-in-cells-in-xlsx4j/
 ---
-## **Aspose.Cells - Hitta värde i Cells**
-I Microsoft Excel kan användare söka efter celler som innehåller specifika data. Till exempel att klicka**Redigera**och då**Hitta**öppnar dialogrutan Sök. Användare anger ett värde och klickar**OK**att söka efter det. Excel markerar matchande fält.
+
+## **Aspose.Cells - Hitta värde i celler**
+I Microsoft Excel kan användare söka efter celler som innehåller specifik data. Till exempel, att klicka på **Redigera** och sedan **Sök** öppnar sökdialogen. Användarna anger ett värde och klickar på **OK** för att söka efter det. Excel markerar matchande fält.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -38,13 +39,13 @@ Cell cell = cells.find("SH",null,findOptions);
 System.out.println("Name of the cell containing String: " + cell.getName());
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/findvalueincells/AsposeFindValueInCells.java)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Hitta eller sök data](/cells/sv/java/find-or-search-data).
+För mer detaljer, besök [Hitta eller Sök Data](/cells/sv/java/hitta-eller-sok-data).
 
 {{% /alert %}}

@@ -1,5 +1,5 @@
-﻿---
-title: Excel dosyalarını açın, kaydedin ve yönetin
+---
+title: Excel dosyalarını Açma, Kaydetme ve Yönetme
 linktitle: Yükleme, Kaydetme ve Yönetme
 type: docs
 weight: 20

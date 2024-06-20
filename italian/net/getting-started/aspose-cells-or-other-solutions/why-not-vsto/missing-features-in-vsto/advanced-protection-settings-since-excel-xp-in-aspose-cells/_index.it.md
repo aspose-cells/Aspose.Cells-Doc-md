@@ -1,48 +1,49 @@
-﻿---
-title: Impostazioni di protezione avanzata da Excel XP in Aspose.Cells
+---
+title: Impostazioni di protezione avanzate dal Excel XP in Aspose.Cells
 type: docs
 weight: 20
 url: /it/net/advanced-protection-settings-since-excel-xp-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-- Elimina righe o colonne.
-- Modifica contenuti, oggetti o scenari.
-- Formatta celle, righe o colonne.
-- Inserisci righe, colonne o collegamenti ipertestuali.
-- Seleziona le celle bloccate o sbloccate.
-- Usa le tabelle pivot e molto altro.
+- Eliminare righe o colonne.
+- Modificare contenuti, oggetti o scenari.
+- Formattare celle, righe o colonne.
+- Inserire righe, colonne o collegamenti ipertestuali.
+- Selezionare celle bloccate o sbloccate.
+- Usare tabelle pivot e molto altro.
 
 Aspose.Cells supporta tutte le impostazioni di protezione avanzate offerte da Excel XP o versioni successive.
 
 {{% /alert %}}
 
-## **Impostazioni di protezione avanzata tramite Excel XP e versioni successive**
+## **Impostazioni di protezione avanzate utilizzando Excel XP e versioni successive**
 
 Per visualizzare le impostazioni di protezione disponibili in Excel XP:
 
-1.  Dal**Utensili** menù, selezionare**Protezione** seguito da**Proteggi Foglio**.
- Viene visualizzata una finestra di dialogo.
+1. Dal menu **Strumenti**, seleziona **Protezione** seguito da **Proteggi foglio**.
+   Viene visualizzata una finestra di dialogo.
 
    **Finestra di dialogo per mostrare le opzioni di protezione in Excel XP**
 
-![cose da fare:immagine_alt_testo](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
+![todo:image_alt_text](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
 
-1. Consenti o limita le funzionalità dei fogli di lavoro o applica una password.
+1. Consentire o limitare le funzionalità dei fogli di lavoro o applicare una password.
 
-### **Impostazioni di protezione avanzata utilizzando Aspose.Cells**
+### **Impostazioni di protezione avanzate utilizzando Aspose.Cells**
 
-Aspose.Cells supporta tutte le impostazioni di protezione avanzate.
+Aspose.Cells supporta tutte le impostazioni avanzate di protezione.
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe.
+Aspose.Cells fornisce una classe, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), che rappresenta un file Microsoft Excel. La classe [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) contiene una raccolta [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet).
 
- Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce il[**Protezione**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)proprietà utilizzata per applicare queste impostazioni di protezione avanzate. Il[**Protezione**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) la proprietà è infatti un oggetto del[**Protezione**](https://reference.aspose.com/cells/net/aspose.cells/protection) classe che incapsula diverse proprietà booleane per disabilitare o abilitare le restrizioni.
+La classe [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce la proprietà [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) che viene utilizzata per applicare queste impostazioni di protezione avanzate. La proprietà [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) è infatti un oggetto della classe [**Protection**](https://reference.aspose.com/cells/net/aspose.cells/protection) che incapsula diverse proprietà booleane per disattivare o attivare restrizioni.
 
-Di seguito è riportato un piccolo esempio di applicazione. Apre un file Excel e utilizza la maggior parte delle impostazioni di protezione avanzate supportate da Excel XP e versioni successive.
+Di seguito è riportato un piccolo esempio di applicazione. Apre un file Excel e utilizza la maggior parte delle impostazioni avanzate di protezione supportate da Excel XP e versioni successive.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -129,7 +130,7 @@ fstream.Close();
 {{< /highlight >}}
 
 ## **Scarica il codice in esecuzione**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Advanced%20Protection%20Settings)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Advanced%20Protection%20Settings)
 
 ## **Scarica il codice di esempio**
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

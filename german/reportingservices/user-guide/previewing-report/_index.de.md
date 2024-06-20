@@ -1,34 +1,35 @@
-﻿---
-title: Vorschau des Berichts
+---
+title: Berichtsvorschau
 type: docs
 weight: 130
 url: /de/reportingservices/previewing-report/
 ---
+
 {{% alert color="primary" %}} 
 
-Durch die Vorschau eines Berichts können Sie sicher sein, dass es sich um den gewünschten Bericht handelt.
+Die Vorschau eines Berichts hilft Ihnen sicherzustellen, dass es der Bericht ist, den Sie möchten.
 
 {{% /alert %}} 
 
-So zeigen Sie einen Bericht in der Vorschau an:
+Um einen Bericht zu Vorschau:
 
-1.  Klicken**Sicht** 
+1. Klicken Sie auf **Anzeigen** 
 
-![todo: Bild_alt_Text](previewing-report_1.png)
+![todo:image_alt_text](previewing-report_1.png)
 
 auf der Aspose.Cells.Report.Designer-Symbolleiste.
 
-1.  Geben Sie die URL des Berichtsservers ein und klicken Sie auf die**Aktualisierung** Knopf.
+1. Geben Sie die URL des Berichtsservers ein und klicken Sie auf die **Aktualisieren**-Schaltfläche.
 
-![todo: Bild_alt_Text](previewing-report_2.png)
-
-
+![todo:image_alt_text](previewing-report_2.png)
 
 
-1.  Wählen Sie einen Bericht aus und klicken Sie auf**Vorschau** Knopf.
 
-![todo: Bild_alt_Text](previewing-report_3.png)
 
-1.  Geben Sie im Dialogfeld die Berichtsparameter ein und wählen Sie das Exportdateiformat aus. Drücke den**OK** Schaltfläche zum Exportieren des Berichts.
+1. Wählen Sie einen Bericht aus und klicken Sie auf die **Vorschau**-Schaltfläche. 
 
-![todo: Bild_alt_Text](previewing-report_4.png)
+![todo:image_alt_text](previewing-report_3.png)
+
+1. Geben Sie im Dialogfeld die Berichtsparameter ein und wählen Sie das Exportdateiformat aus. Klicken Sie auf die **OK**-Schaltfläche, um den Bericht zu exportieren.
+
+![todo:image_alt_text](previewing-report_4.png)

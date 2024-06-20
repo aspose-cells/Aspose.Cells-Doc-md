@@ -1,37 +1,38 @@
-﻿---
-title: Aspose.Cells でスクロール バーを表示または非表示にする
+---
+title: Aspose.Cellsでのスクロールバーの表示または非表示
 type: docs
 weight: 70
 url: /ja/net/display-or-hide-scroll-bars-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-スクロール バーは、ファイルの内容をナビゲートするためによく使用されます。通常、スクロール バーには次の 2 種類があります。
+スクロールバーは、ファイルの内容を移動するために非常によく使用されます。通常、次の2種類のスクロールバーがあります。
 
-- 垂直スクロール バー
-- 水平スクロール バー
+- 垂直スクロールバー
+- 水平スクロールバー
 
-Microsoft Excel には、ユーザーがワークシートの内容をスクロールできるように、水平および垂直のスクロール バーも用意されています。 Aspose.Cells を使用すると、開発者は Excel ファイルで両方のタイプのスクロール バーの表示を制御できます。
+Microsoft Excelは、ユーザーがワークシートの内容をスクロールできるように、水平および垂直のスクロールバーを提供しています。Aspose.Cellsを使用すると、Excelファイルの両方のタイプのスクロールバーの表示/非表示を制御することができます。
 
 {{% /alert %}}
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)これは Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excel ファイルを管理するためのさまざまなプロパティとメソッドが用意されています。スクロール バーの表示を制御するには、[**ワークブック設定**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings)クラス'[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)と[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)プロパティ。[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)と[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)はブール型のプロパティです。つまり、これらのプロパティは格納のみ可能です。**真実**また**間違い**値。
+Aspose.Cellsは、Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスは、Excelファイルの管理に幅広いプロパティとメソッドを提供します。スクロールバーの表示を制御するには、[**WorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings)クラスの[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)および[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)プロパティを使用します。[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)と[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)はブール値のプロパティであり、これらのプロパティは**true**または**false**の値のみを格納できます。
 
-以下は、Excel ファイル book1.xls を開き、両方のスクロール バーを非表示にしてから、変更したファイルを output.xls として保存する完全なコードです。
+以下は、Excelファイル（book1.xls）を開き、両方のスクロールバーを非表示にして変更したファイルをoutput.xlsとして保存する完全なコードです。
 
-以下のスクリーンショットは、両方のスクロール バーを含む Book1.xls ファイルを示しています。変更されたファイルは output.xls ファイルとして保存されます。これも以下に示します。
+下のスクリーンショットは、スクロールバーが含まれているBook1.xlsファイルを示しています。変更されたファイルはoutput.xlsファイルとして保存され、下にも表示されています。
 
-**Book1.xls: 変更前の Excel ファイル**
+**Book1.xls: 修正前のExcelファイル**
 
-![todo:画像_代替_文章](display-or-hide-scroll-bars-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-scroll-bars-in-aspose-cells_1.png)
 
-**output.xls：修正後のExcelファイル**
+**output.xls: 修正後のExcelファイル**
 
-![todo:画像_代替_文章](display-or-hide-scroll-bars-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-scroll-bars-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,7 +62,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Scroll%20Bars)
 

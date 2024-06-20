@@ -1,15 +1,16 @@
-﻿---
-title: PHP'de Formülleri Hesaplamak
+---
+title: PHP de Formülleri Hesaplama
 type: docs
 weight: 10
 url: /tr/net/calculating-formulas-in-php/
 ---
-## **Hesaplama Formülleri**
-Hesaplama Formülleri
 
-**PHP Kodu**
+## **Formülleri Hesaplama**
+Formülleri Hesaplama
 
-{{< highlight "php" >}}
+PHP Kodu
+
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -65,6 +66,6 @@ Hesaplama Formülleri
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Hesaplama Formülleri (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Formülleri Hesaplama (Aspose.Cells)**'i indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingwithFormulas/CalculatingFormulas.php)

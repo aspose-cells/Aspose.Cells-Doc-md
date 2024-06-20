@@ -1,21 +1,22 @@
-﻿---
-title: إدارة أكواد VBA لمصنف Excel Macro-Enabled.
-linktitle: مشروع ماكرو
+---
+title: إدارة رموز VBA لمصنف العمل ذو الماكرو الممكن تمكينه.
+linktitle: مشروع الماكرو
 type: docs
 weight: 200
 url: /ar/net/manage-vba-project/
-description: إضافة وحدة VBA النمطية وتعديل VBA أو ماكرو مع مكتبة Aspose.Cells.
+description: إضافة وحدة VBA وتعديل VBA أو الماكرو بمكتبة Aspose.Cells.
 ---
-## **أضف وحدة VBA النمطية في C#**
+
+## **إضافة وحدة VBA في C#**
 {{% alert color="primary" %}}
 
- يسمح لك Aspose.Cells بإضافة وحدة جديدة لـ VBA وكود ماكرو باستخدام Aspose.Cells. الرجاء استخدام[**Workbook.VbaProject.Modules.Add ()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/add/index) طريقة لإضافة وحدة VBA النمطية الجديدة داخل المصنف
+Aspose.Cells تسمح لك بإضافة وحدة VBA جديدة وكود الماكرو باستخدام Aspose.Cells. يُرجى استخدام الطريقة [**Workbook.VbaProject.Modules.Add()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/add/index) لإضافة وحدة VBA جديدة داخل المصنف.
 
 {{% /alert %}}
 
-ينشئ نموذج التعليمات البرمجية التالي مصنفًا جديدًا ويضيف وحدة VBA النمطية الجديدة ورمز الماكرو ويحفظ الإخراج بتنسيق XLSM. بمجرد فتح ملف الإخراج XLSM في Microsoft Excel والنقر فوق**المطور> Visual Basic** أوامر القائمة ، سترى وحدة تسمى "TestModule" وداخلها ، سترى رمز الماكرو التالي.
+يُنشئ رمز العينة التالي مصنف عمل جديد ويضيف وحدة VBA جديدة وكود الماكرو الجديد ويحفظ الإخراج بتنسيق XLSM. بمجرد فتحك لملف الإكسيل الناتج XLSM والنقر على أوامر **تطوير > الأساسيات المرئية**، سترى وحدة تسمى "الوحدة الاختبارية" وبداخلها سترى كود الماكرو التالي.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub ShowMessage()
 
@@ -25,28 +26,28 @@ End Sub
 
 {{< /highlight >}}
 
-فيما يلي نموذج التعليمات البرمجية لإنشاء ملف الإخراج XLSM باستخدام وحدة VBA وكود الماكرو.
+فيما يلي رمز العينة لإنشاء ملف إكسيل الناتج بتنسيق XLSM مع وحدة VBA وكود الماكرو.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
 
-## **قم بتعديل VBA أو Macro في C#**
+## **تعديل VBA أو الماكرو في C#**
 
 {{% alert color="primary" %}} 
 
-يمكنك تعديل VBA أو Macro Code باستخدام Aspose.Cells. قام Aspose.Cells بإضافة مساحة الاسم والفئات التالية لقراءة وتعديل مشروع VBA في ملف Excel.
+يمكنك تعديل الكود الخاص ب VBA أو الماكرو باستخدام Aspose.Cells. لقد قامت Aspose.Cells بإضافة مساحة الاسم التالية والفئات لقراءة وتعديل مشروع VBA في ملف الإكسيل.
 
 - Aspose.Cells.Vba
 - VbaProject
-- مجموعة VbaModuleCollection
+- VbaModuleCollection
 - VbaModule
 
-ستوضح لك هذه المقالة كيفية تغيير VBA أو Macro Code داخل ملف Excel المصدر باستخدام Aspose.Cells.
+سيعرض هذا المقال لك كيفية تغيير رمز VBA أو الماكرو داخل ملف Excel المصدر باستخدام Aspose.Cells.
 
 {{% /alert %}} 
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف Excel المصدر الذي يحتوي على رمز VBA أو Macro التالي بداخله
+يقوم الرمز الخاص المعروض أدناه بتحميل ملف Excel المصدر الذي يحتوي على رمز VBA أو ماكرو التالي داخله
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -56,9 +57,9 @@ End Sub
 
 {{< /highlight >}}
 
-بعد تنفيذ رمز عينة Aspose.Cells ، سيتم تعديل رمز VBA أو ماكرو بهذا الشكل
+بعد تنفيذ رمز عينات Aspose.Cells، سيتم تعديل رمز VBA أو الماكرو مثل هذا
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sub Button1_Click()
 
@@ -68,23 +69,23 @@ End Sub
 
 {{< /highlight >}}
 
- يمكنك تنزيل ملف[ملف Excel المصدر](5112508.xlsm) و ال[إخراج ملف Excel](5112511.xlsm) من الروابط المعطاة.
+يمكنك تنزيل [ملف Excel المصدر](5112508.xlsm) و[ملف Excel الناتج](5112511.xlsm) من الروابط المعطاة.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-ModifyingVBAOrMacroCode-ModifyingVBAOrMacroCode.cs" >}}
 
-## **موضوعات مسبقة**
-- [أضف مرجع مكتبة إلى مشروع VBA في المصنف](/cells/ar/net/add-a-library-reference-to-vba-project-in-workbook/)
-- [تعيين ماكرو للتحكم في النموذج](/cells/ar/net/assign-macro-to-form-control/)
-- [تحقق مما إذا كان التوقيع الرقمي لرمز VBA صالحًا](/cells/ar/net/check-if-digital-signature-of-vba-code-is-valid/)
-- [تحقق مما إذا كان رمز VBA قد تم توقيعه](/cells/ar/net/check-if-vba-code-is-signed/)
-- [تحقق مما إذا كان مشروع VBA في مصنف تم توقيعه](/cells/ar/net/check-if-vba-project-in-a-workbook-is-signed/)
-- [تحقق مما إذا كان VBA Project محميًا ومؤمنًا للعرض](/cells/ar/net/check-if-vba-project-is-protected-and-locked-for-viewing/)
-- [نسخ VBA ماكرو UserForm DesignerStorage من قالب إلى المصنف الهدف](/cells/ar/net/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
-- [قم بالتوقيع رقميًا على مشروع رمز VBA باستخدام الشهادة](/cells/ar/net/digitally-sign-a-vba-code-project-with-certificate/)
-- [تصدير شهادة VBA إلى ملف أو دفق](/cells/ar/net/export-vba-certificate-to-file-or-stream/)
-- [قم بتصفية مشروع VBA أثناء تحميل مصنف](/cells/ar/net/filter-vba-project-while-loading-a-workbook/)
-- [اكتشف ما إذا كان VBA Project محميًا](/cells/ar/net/find-out-if-vba-project-is-protected/)
-- [حماية كلمة المرور لمشروع VBA من مصنف Excel](/cells/ar/net/password-protect-the-vba-project-of-excel-workbook/)
+## **مواضيع متقدمة**
+- [إضافة مرجع مكتبة إلى مشروع VBA في مصنف العمل](/cells/ar/net/add-a-library-reference-to-vba-project-in-workbook/)
+- [تعيين الماكرو إلى عنصر تحكم النموذج](/cells/ar/net/assign-macro-to-form-control/)
+- [التحقق مما إذا كان التوقيع الرقمي لرمز VBA صالحًا](/cells/ar/net/check-if-digital-signature-of-vba-code-is-valid/)
+- [فحص ما إذا كان رمز VBA موقعًا](/cells/ar/net/check-if-vba-code-is-signed/)
+- [التحقق مما إذا كان مشروع VBA في مصنف عمل موقعًا](/cells/ar/net/check-if-vba-project-in-a-workbook-is-signed/)
+- [فحص ما إذا كان مشروع VBA محميًا ومقفلاً للعرض](/cells/ar/net/check-if-vba-project-is-protected-and-locked-for-viewing/)
+- [نسخ تصميم الاستوديو Form UserForm VBA Macro من القالب إلى دفتر العمل الهدف](/cells/ar/net/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
+- [توقيع رقمي لمشروع رمز VBA باستخدام شهادة](/cells/ar/net/digitally-sign-a-vba-code-project-with-certificate/)
+- [تصدير شهادة VBA إلى ملف أو تيار](/cells/ar/net/export-vba-certificate-to-file-or-stream/)
+- [تصفية مشروع VBA أثناء تحميل مصنف عمل](/cells/ar/net/filter-vba-project-while-loading-a-workbook/)
+- [معرفة ما إذا كان مشروع VBA محميًا](/cells/ar/net/find-out-if-vba-project-is-protected/)
+- [حماية كلمة المرور لمشروع VBA لمصنف عمل Excel](/cells/ar/net/password-protect-the-vba-project-of-excel-workbook/)
 

@@ -1,35 +1,36 @@
-﻿---
+---
 title: نظرة عامة على المنتج
 type: docs
 weight: 10
 url: /ar/sharepoint/product-overview/
 ---
+
 {{% alert color="primary" %}} 
 
-![ما يجب القيام به: image_بديل_نص](product-overview_1)
-### **مرحبًا بكم في التوثيق Aspose.Cells for SharePoint!**
-Aspose.Cells for SharePoint هو حل مرن يدعم تحويل جداول البيانات الذي يجعل من الممكن تحويل مستندات MS Excel ضمن تطبيقات SharePoint Microsoft.
+![todo:image_alt_text](product-overview_1)
+### **مرحبًا بك في وثائق Aspose.Cells for SharePoint!**
+Aspose.Cells for SharePoint هو حلاً مرنًا يدعم تحويل أوراق العمل الإلكترونية مما يجعل من الممكن تحويل مستندات MS Excel ضمن تطبيقات Microsoft SharePoint.
 
 {{% /alert %}} 
 
-يمكنك تحويل تنسيقات مستندات متعددة ، مثل:
+يمكنك تحويل عدة تنسيقات وثيقة، مثل:
 
-- PDF - مستند Adobe المحمول
-- XLS - MS Excel 97 ~ 2003
+- PDF - مستند نقله المحمول من Adobe
+- XLS - MS Excel 97~2003
 - XLSX - Office Open XML
-- XLSM - تم تمكين Office Open XML لوحدات الماكرو
+- XLSM - Office Open XML للوظائف التلقائية
 - TXT - نص عادي
-- XML - Microsoft Excel SpreadsheetML
-- ODS - جدول بيانات OpenDocument
-- CSV - قيم مفصولة بفواصل
-- XLSB - Excel Binary 2007
-- MHtml - ملحق بريد الإنترنت متعدد الأغراض HTML
-- XPS - مواصفات ورق XML
-- TIFF - تنسيق ملف الصورة الموسوم
-- SVG - رسومات موجهة قابلة للتحجيم
-- DIF - تنسيق تبادل الرسم
+- XML - جدول بيانات Microsoft Excel
+- ODS - جدول الوثيقة المفتوح
+- CSV - قيم مفصولة بفاصلة
+- XLSB - تنسيق ملف Excel الثنائي 2007
+- MHtml - تمديد بريد الإنترنت المتعددة الأغراض للعناصر الجذابة بواسطة HTML
+- XPS - XML Paper Specification
+- TIFF - Tagged Image File Format
+- SVG - Scalable Vector Graphics
+- DIF - Drawing Interchange Format
 
-تم تصميم Aspose.Cells for SharePoint ليتم استخدامه مع المنتجات التالية:
+Aspose.Cells for SharePoint يتم تصميمه ليتم استخدامه مع المنتجات التالية:
 
 - Windows SharePoint Services 3.0 (WSS)
 - Microsoft Office SharePoint Server 2007 (MOSS) Standard
@@ -41,13 +42,13 @@ Aspose.Cells for SharePoint هو حل مرن يدعم تحويل جداول ال
 - Microsoft Office SharePoint Server 2016 (MOSS) Standard
 - Microsoft Office SharePoint Server 2016 (MOSS) Enterprise
 
-لا توجد متطلبات نظام إضافية بخلاف المنتجات المذكورة أعلاه.
+لا توجد متطلبات نظام إضافية وراء المنتجات المذكورة أعلاه.
 
- تصف هذه الوثائق[الميزات](/cells/ar/sharepoint/features/), [التركيب](/cells/ar/sharepoint/install-aspose-cells-for-sharepoint/), [تقييم](/cells/ar/sharepoint/evaluate-aspose-cells/), [الترخيص](/cells/ar/sharepoint/license-aspose-cells-for-sharepoint/)وحالات الاستخدام الشائعة وإعدادات Aspose.Cells for SharePoint.
+توضح هذه الوثائق [الميزات](/cells/ar/sharepoint/features/), [التثبيت](/cells/ar/sharepoint/install-aspose-cells-for-sharepoint/), [التقييم](/cells/ar/sharepoint/evaluate-aspose-cells/), [الترخيص](/cells/ar/sharepoint/license-aspose-cells-for-sharepoint/), حالات الاستخدام الشائعة والإعدادات لـ Aspose.Cells for SharePoint.
 
-**استخدم Aspose.Cells for SharePoint من مكتبة مستندات SharePoint لتحويل المستندات**
+**استخدم Aspose.Cells for SharePoint من مكتبة الوثائق الخاصة بـ SharePoint لتحويل المستندات**
 
-**! [todo: image_alt_text] (product-Overview_2.png)**
+**![todo:image_alt_text](product-overview_2.png)**
 
 
 

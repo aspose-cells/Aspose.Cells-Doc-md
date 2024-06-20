@@ -1,12 +1,13 @@
-﻿---
-title: Verwenden von anonymen Typen oder benutzerdefinierten Objekten
+---
+title: Verwendung anonymer Typen oder benutzerdefinierter Objekte
 type: docs
 weight: 40
 url: /de/net/using-anonymous-types-or-custom-objects/
 ---
-Aspose.Cells unterstützt auch anonyme Typen oder benutzerdefinierte Objekte in Smartmarkern. Im folgenden Beispiel muss die Produktklasse vor der Verwendung definiert werden.
 
-{{< highlight "csharp" >}}
+Aspose.Cells unterstützt auch anonyme Typen oder benutzerdefinierte Objekte in Smart-Markierungen.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -56,5 +57,5 @@ report.Workbook.Save(FileName);
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Custom%20Objects%20%28Aspose.Cells%29.zip)

@@ -1,54 +1,54 @@
 ---
-title: Come creare un diagramma di Gantt
-linktitle: Come creare un diagramma di Gantt
+title: Come creare un grafico di Gantt
+linktitle: Come creare un grafico di Gantt
 type: docs
 weight: 72
 url: /it/net/how-to-create-gantt-chart/
-description: Come creare un diagramma di Gantt in Aspose.Cells.
-keywords: create/insert Gantt Chart Excel Aspose
+description: Come creare un grafico di Gantt in Aspose.Cells.
+keywords: creare/inserire un grafico di Gantt Excel Aspose
 ---
-##  Cos'è il diagramma di Gantt
+## Che cos'è un grafico di Gantt
 
-Un diagramma di Gantt ti aiuta a pianificare le attività del tuo progetto e quindi a monitorare i tuoi progressi.
+Un grafico di Gantt ti aiuta a pianificare le attività del tuo progetto e poi ti aiuta a monitorare il tuo progresso.
 
-##  Aggiungi il diagramma di Gantt in Excel
+## Aggiungere un diagramma di Gantt in Excel
 
-Hai bisogno di mostrare lo stato di una semplice pianificazione del progetto con un diagramma di Gantt? Sebbene Excel non disponga di un tipo di diagramma di Gantt predefinito, puoi simularne uno personalizzando un grafico a barre in pila per mostrare le date di inizio e fine delle attività, in questo modo:
+Hai bisogno di mostrare lo stato per un semplice programma di progetto con un diagramma di Gantt? Anche se Excel non ha un tipo di diagramma di Gantt predefinito, è possibile simulare uno personalizzando un grafico a barre in pila per mostrare le date di inizio e fine dei compiti, come mostrato qui:
 
-![cose da fare:immagine_alt_testo](00.png)
+![todo:image_alt_text](00.png)
 
-![cose da fare:immagine_alt_testo](0.png)
+![todo:image_alt_text](0.png)
 
-##  Come creare
+## Come creare
 
--  Seleziona i dati che desideri rappresentare nel grafico. Nel nostro esempio, è B1:B7, quindi Inserisci**Barra impilata** grafico.
+- Seleziona i dati che vuoi rappresentare graficamente. Nel nostro esempio, cioè B1:B7, e poi inserisci **Grafico a barre in pila**.
 
-![cose da fare:immagine_alt_testo](1.png)
+![todo:image_alt_text](1.png)
 
-- Seleziona il grafico,**Seleziona dati**->**Aggiungi**, imposta il **nome della serie** E**Valori di serie** come segue
+- Seleziona il grafico, **Seleziona dati** -> **Aggiungi**, imposta il **Nome della serie** e i **Valori della serie** come segue
 
-![cose da fare:immagine_alt_testo](2.png)
+![todo:image_alt_text](2.png)
 
--  Seleziona il grafico, Modifica il**Etichette dell'asse orizzontale (categoria).**
+- Seleziona il grafico, Modifica le **Etichette asse orizzontale (categoria)**
 
-![cose da fare:immagine_alt_testo](3.png)
+![todo:image_alt_text](3.png)
 
-- **Formato Asse** l'asse Y, seleziona**Categorie in ordine inverso**
--  Seleziona il**Serie Blu** e impostare il**Riempi->NO Riempi**
-- **Formato Asse** l'asse X, imposta il *minimo e il massimo**(5/1/2019:43470,30/1/2019:43494)
+- **Formatta l'asse** Y, seleziona **Categorie in ordine inverso**
+- Seleziona la **Serie blu** e imposta il **Riempimento → Nessun riempimento**
+- **Formatta l'asse** X, imposta il **Minimo e Massimo**(1/5/2019:43470,1/30/2019:43494)
 
-![cose da fare:immagine_alt_testo](4.png)
+![todo:image_alt_text](4.png)
 
-- **Aggiungi file dati** per il grafico
-Ora ottieni un diagramma di Gantt.
+- **Aggiungi etichette dati** per il grafico
+Ora hai ottenuto un diagramma di Gantt.
 
-## Aggiungi il diagramma di Gantt in Aspose.Cells
+## Aggiungere un diagramma di Gantt in Aspose.Cells
 
- Il codice di esempio seguente crea un diagramma di Gantt aprendo a[file di esempio](sample.xlsx)
+Il seguente codice di esempio crea un diagramma di Gantt aprendo un [file di esempio](sample.xlsx)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-gantt-chart.cs" >}}
 
- Otterrai un file simile a[file dei risultati](result.xlsx).Nel file vedrai quanto segue:
+Otterrai un file simile a [file di risultato](result.xlsx). Nel file, vedrai quanto segue:
 
-![cose da fare:immagine_alt_testo](5.png)
+![todo:image_alt_text](5.png)
 

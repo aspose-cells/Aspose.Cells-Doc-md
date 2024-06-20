@@ -1,84 +1,85 @@
-﻿---
-title: Pivot-Tabelle formatieren
+---
+title: Formatieren der Pivot Tabelle
 type: docs
 weight: 60
 url: /de/java/formatting-pivot-table/
 ---
+
 ## **Aussehen der Pivot-Tabelle**
 
-[So erstellen Sie eine Pivot-Tabelle](/cells/de/java/create-pivot-table/) zeigte, wie man eine einfache Pivot-Tabelle erstellt. Dieser Artikel geht weiter und erläutert, wie Sie das Erscheinungsbild einer Pivot-Tabelle anpassen, indem Sie Eigenschaften festlegen.
+[Wie man eine Pivot-Tabelle erstellt](/cells/de/java/create-pivot-table/) zeigt, wie man eine einfache Pivot-Tabelle erstellt. Dieser Artikel geht weiter und erörtert, wie das Erscheinungsbild einer Pivot-Tabelle durch das Festlegen von Eigenschaften angepasst werden kann.
 
-### **Formatoptionen für Pivot-Tabellen festlegen**
+### **Einstellen der Pivot-Tabellenformatoptionen**
 
- Das[**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) -Klasse können Sie verschiedene Formatierungsoptionen für eine Pivot-Tabelle festlegen.
+Die Klasse [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) ermöglicht das Einstellen verschiedener Formatierungsoptionen für eine Pivot-Tabelle.
 
-#### **Festlegen der AutoFormat- und PivotTableStyle-Typen**
+#### **Einstellen der AutoFormat- und PivotTableStyle-Typen**
 
- Das folgende Codebeispiel veranschaulicht, wie Sie den automatischen Formattyp und den Pivot-Tabellenstiltyp mithilfe von festlegen[**AutoFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType) und[**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType) Eigenschaften.
+Das folgende Codebeispiel veranschaulicht, wie man den Autoformat-Typ und den Pivot-Tabellenstil-Typ unter Verwendung der Eigenschaften [**AutoFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType) und [**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType) festlegt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SetAutoFormatandPivotTableStyleTypes-SetAutoFormatandPivotTableStyleTypes.java" >}}
 
-#### **Formatoptionen einstellen**
+#### **Einstellen von Formatoptionen**
 
-Das folgende Codebeispiel veranschaulicht, wie Sie eine Reihe von Formatierungsoptionen für einen Pivot-Tabellenbericht festlegen, einschließlich des Hinzufügens von Gesamtsummen für Zeilen und Spalten.
+Das folgende Codebeispiel zeigt, wie eine Reihe von Formatierungsoptionen für einen Pivot-Tabellenbericht eingestellt werden können, einschließlich dem Hinzufügen von Gesamtsummen für Zeilen und Spalten.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SettingFormatOptions-SettingFormatOptions.java" >}}
 
-### **Festlegen von PivotFields-Formatoptionen**
+### **Formatierungsoptionen für PivotFields einstellen**
 
-Neben der Steuerung der Formatierung der gesamten Pivot-Tabelle ermöglicht Aspose.Cells for Java eine fein abgestimmte Steuerung der Formatierung für Zeilenfelder, Spaltenfelder und Seitenfelder.
+Neben der Steuerung der Formatierung der Gesamtpivottabelle ermöglicht Aspose.Cells for Java eine feinabgestimmte Steuerung der Formatierung für Zeilenfelder, Spaltenfelder und Seitenelemente.
 
-#### **Festlegen des Zeilen-, Spalten- und Seitenfeldformats**
+#### **Formatierung für Zeilen-, Spalten- und Seitenelemente einstellen**
 
-Das folgende Codebeispiel zeigt, wie Sie auf Zeilenfelder zugreifen, auf eine bestimmte Zeile zugreifen, Zwischensummen festlegen, die automatische Sortierung anwenden und die Option autoShow verwenden.
+Das folgende Codebeispiel zeigt, wie auf Zeilenfelder zugegriffen, eine bestimmte Zeile festgelegt, Teilergebnisse festgelegt, eine automatische Sortierung angewendet und die autoShow-Option verwendet werden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SetRowColumnPageFieldsFormat-SetRowColumnPageFieldsFormat.java" >}}
 
-### **Festlegen des Datenfeldformats**
+### **Formatierungsoptionen für Datenfelder einstellen**
 
-Die folgenden Codezeilen veranschaulichen, wie Datenfelder formatiert werden.
+Die folgenden Codezeilen veranschaulichen, wie Datenfelder formatiert werden können.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SettingDataFieldFormat-SettingDataFieldFormat.java" >}}
 
-### **Ändern Sie den Schnellstil einer Pivot-Tabelle**
+### **Ein Schnellformat für eine Pivot-Tabelle bearbeiten**
 
-Die folgenden Codebeispiele zeigen, wie der auf eine Pivot-Tabelle angewendete Schnellstil geändert wird.
+Die folgenden Codebeispiele zeigen, wie das Schnellformat, das auf eine Pivot-Tabelle angewendet wird, geändert werden kann.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ModifyPivotTableQuickStyle-ModifyPivotTableQuickStyle.java" >}}
 
-### **Pivot-Felder löschen**
+### **Löschen von Pivot-Feldern**
 
-[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) hat eine Methode namens[**klar()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear()), die Pivot-Felder löscht. Verwenden Sie es, um Pivot-Felder in allen Bereichen zu löschen, z. B. Seite, Spalte, Zeile oder Daten.
-Das folgende Codebeispiel zeigt, wie alle Pivot-Felder im Datenbereich gelöscht werden.
+[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) hat eine Methode namens [**clear()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear--), die die Pivot-Felder löscht. Verwenden Sie sie, um zum Beispiel Seiten-, Spalten-, Zeilen- oder Daten-Pivot-Felder zu löschen.
+Das unten stehende Code-Beispiel zeigt, wie alle Pivot-Felder im Datenbereich gelöscht werden können.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ClearPivotFields-ClearPivotFields.java" >}}
 
 ## **Konsolidierungsfunktion**
 
-### **ConsolidationFunction auf Datenfelder der Pivot-Tabelle anwenden**
+### **Anwendung von ConsolidationFunction auf Datenfelder des Pivot-Tabellen**
 
- Aspose.Cells kann verwendet werden, um ConsolidationFunction auf Datenfelder (oder Wertfelder) der Pivot-Tabelle anzuwenden. In Microsoft Excel können Sie mit der rechten Maustaste auf das Wertefeld klicken und dann auswählen**Wertfeldeinstellungen...** Option und wählen Sie dann die Registerkarte aus**Werte zusammenfassen nach**. Von dort aus können Sie eine beliebige Konsolidierungsfunktion Ihrer Wahl auswählen, z. B. Summe, Anzahl, Durchschnitt, Max, Min, Produkt, Distinct Count usw.
+Aspose.Cells kann verwendet werden, um die Konsolidierungsfunktion auf Datenfelder (oder Wertefelder) des Pivot-Tables anzuwenden. In Microsoft Excel können Sie mit der rechten Maustaste auf das Wertefeld klicken und dann die Option **Feldwerteinstellungen...** auswählen und dann den Tab **Werte zusammenfassen nach** wählen. Von dort aus können Sie eine beliebige Konsolidierungsfunktion Ihrer Wahl wie Summe, Anzahl, Durchschnitt, Max, Min, Produkt, Unterschiedliche Anzahl usw. auswählen.
 
- Aspose.Cells bietet[**Konsolidierungsfunktion**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction) Enumeration zur Unterstützung der folgenden Konsolidierungsfunktionen.
+Aspose.Cells bietet die Aufzählung [**ConsolidationFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ConsolidationFunction), um die folgenden Konsolidierungsfunktionen zu unterstützen.
 
-- [**Konsolidierungsfunktion.AVERAGE**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#AVERAGE)
-- [**Konsolidierungsfunktion.COUNT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT)
-- [**Konsolidierungsfunktion.COUNT_NUMS**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT_NUMS)
-- [**Konsolidierungsfunktion.DISTINCT_COUNT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#DISTINCT_COUNT)
-- [**Konsolidierungsfunktion.MAX**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#MAX)
-- [**Konsolidierungsfunktion.MIN**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#MIN)
-- [**Konsolidierungsfunktion.PRODUKT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#PRODUCT)
-- [**Konsolidierungsfunktion.STD_DEV**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#STD_DEV)
-- [**Konsolidierungsfunktion.STD_DEVP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#STD_DEVP)
-- [**Konsolidierungsfunktion.SUM**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#SUM)
-- [**Konsolidierungsfunktion.VAR**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VAR)
-- [**Konsolidierungsfunktion.VARP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VARP)
+- [**ConsolidationFunction.AVERAGE**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#AVERAGE)
+- [**ConsolidationFunction.COUNT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT)
+- [**ConsolidationFunction.COUNT_NUMS**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#COUNT_NUMS)
+- [**ConsolidationFunction.DISTINCT_COUNT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#DISTINCT_COUNT)
+- [**ConsolidationFunction.MAX**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#MAX)
+- [**ConsolidationFunction.MIN**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#MIN)
+- [**ConsolidationFunction.PRODUCT**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#PRODUCT)
+- [**ConsolidationFunction.STD_DEV**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#STD_DEV)
+- [**ConsolidationFunction.STD_DEVP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#STD_DEVP)
+- [**ConsolidationFunction.SUM**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#SUM)
+- [**ConsolidationFunction.VAR**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VAR)
+- [**ConsolidationFunction.VARP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VARP)
 
- Es gilt der folgende Code**Durchschnitt** Konsolidierungsfunktion zum ersten Datenfeld (oder Wertfeld) und**DistinctCount** Konsolidierungsfunktion auf zweites Datenfeld (oder Wertefeld).
+Der folgende Code wendet die Konsolidierungsfunktion **Durchschnitt** auf das erste Datenfeld (oder Wertfeld) und die Konsolidierungsfunktion **Unterschiedliche Anzahl** auf das zweite Datenfeld (oder Wertfeld) an.
 
 {{% alert color="primary" %}}
 
-Die DistinctCount-Konsolidierungsfunktion wird nur von Microsoft Excel 2013 unterstützt.
+Die Konsolidierungsfunktion DistinctCount wird nur von Microsoft Excel 2013 unterstützt.
 
 {{% /alert %}}
 

@@ -1,57 +1,58 @@
-﻿---
-title: الجمع بين مصنفات متعددة في مصنف واحد
-linktitle: دمج المصنفات
+---
+title: دمج العديد من سجلات العمل في سجل عمل واحد
+linktitle: مدمج السجل
 type: docs
 weight: 66
 url: /ar/net/combine-multiple-workbooks-into-a-single-workbook/
 ---
+
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، تحتاج إلى دمج المصنفات مع محتويات مختلفة مثل الصور والمخططات والبيانات في مصنف واحد. Aspose.Cells يدعم هذه الميزة. يوضح هذا المقال كيفية إنشاء تطبيق وحدة التحكم في Visual Studio والجمع بين المصنفات مع بضعة سطور بسيطة من التعليمات البرمجية باستخدام Aspose.Cells.
+في بعض الأحيان، تحتاج إلى دمج أسجل العمل مع محتوى متنوع مثل الصور والرسوم البيانية والبيانات في سجل عمل واحد. Aspose.Cells يدعم هذه الميزة. يوضح هذا المقال كيفية إنشاء تطبيق وحدة تحكم في الرسم البياني ودمج السجلات مع بضعة أسطر برمجية بسيطة باستخدام Aspose.Cells.
 
 {{% /alert %}}
 
-## **الجمع بين المصنفات والصور والرسوم البيانية**
+## **دمج أسجل العمل مع الصور والرسوم البيانية**
 
-يجمع رمز المثال بين مصنفين في مصنف واحد باستخدام Aspose.Cells. يقوم الرمز بتحميل المصنفات المصدر ، ويستخدم[**Workbook.combine ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine)طريقة لدمجها وحفظ مصنف الإخراج.
+يقوم الكود المثالي بدمج سجلي عمل في سجل عمل واحد باستخدام Aspose.Cells. الكود يحمل سجلي العمل المصدر ويستخدم الطريقة [**Workbook.combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) لدمجهم ويحفظ سجل العمل الناتج.
 
-### **المصنفات المصدر**
+### **السجلات المصدر**
 
-- [الرسوم البيانية. xlsx](5473097.xlsx)
-- [الصورة. xlsx](5473096.xlsx)
+- [charts.xlsx](5473097.xlsx)
+- [picture.xlsx](5473096.xlsx)
 
 ### **مصنفات الإخراج**
 
-- [مجتمعة. xlsx](5473095.xlsx)
+- [combined.xlsx](5473095.xlsx)
 
-### **لقطات**
+### **لقطات الشاشة**
 
-فيما يلي لقطات شاشة للمصنفات المصدر والمخرجات.
+أدناه تظهر لقطات من المصنفات الأصلية والمخرّجة.
 
 {{% alert color="primary" %}}
 
-يمكنك استخدام أي مصنفات مصدر. هذه الصور هي فقط لأغراض التوضيح.
+يمكنك استخدام أي مصنف أصلي. هذه الصور مجرد لأغراض توضيحية.
 
 {{% /alert %}}
 
-**ورقة العمل الأولى من مصنف المخططات - مكدسة** 
+**الورقة العمل الأولى لمصنف الرسوم البيانية - مكدسة** 
 
-![ما يجب القيام به: image_بديل_نص](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
 
-**ورقة العمل الثانية من مصنف المخططات - سطر** 
+**الورقة العمل الثانية لمصنف الرسوم البيانية - خطية** 
 
-![ما يجب القيام به: image_بديل_نص](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
 
-**أول ورقة عمل من مصنف صورة - صورة** 
+**الورقة العمل الأولى لمصنف الصور - صورة** 
 
-![ما يجب القيام به: image_بديل_نص](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
 
-**جميع أوراق العمل الثلاثة في المصنف المدمج - مكدسة ، خطية ، صورة** 
+**كل الورقات الثلاثة في مصنف الدمج - مكدسة، خطية، صورة** 
 
-![ما يجب القيام به: image_بديل_نص](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
+![todo:image_alt_text](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CombineMultipleWorkbooksSingleWorkbook-1.cs" >}}
 
-## **موضوعات مسبقة**
-- [اجمع أوراق عمل متعددة في ورقة عمل واحدة](/cells/ar/net/combine-multiple-worksheets-into-a-single-worksheet/)
+## **مواضيع متقدمة**
+- [دمج الورقات المتعددة في ورقة عمل واحدة](/cells/ar/net/combine-multiple-worksheets-into-a-single-worksheet/)
 - [دمج الملفات](/cells/ar/net/merge-files/)

@@ -1,23 +1,24 @@
-﻿---
-title: VSTO ve Aspose.Cells'de Adlandırılmış Aralık Oluşturma
+---
+title: VSTO ve Aspose.Cells te Adlandırılmış Aralık Oluşturma
 type: docs
 weight: 90
 url: /tr/net/creating-a-named-range-in-vsto-and-aspose-cells/
 ---
-Adlandırılmış bir aralık oluşturmak için:
 
-1.  Çalışma sayfasını ayarlayın:
- 1. Bir Uygulama nesnesinin örneğini oluşturun. (Yalnızca VSTO.)
- 1. Bir Çalışma Kitabı ekleyin.
- 1. İlk sayfayı alın.
-1.  Adlandırılmış bir aralık oluşturun:
- 1. Bir aralık tanımlayın.
- 1. Aralığı adlandırın.
- 1. Dosyayı kaydedin.
+Bir adlandırılmış aralık oluşturmak için:
 
-Aşağıdaki kod örnekleri, C# ile VSTO kullanarak bu adımların nasıl gerçekleştirileceğini gösterir. Aşağıdaki kod örnekleri, Aspose.Cells for .NET kullanılarak, yine C# ile aynı şeyin nasıl yapılacağını gösterir.
+1. Çalışma sayfasını kurun: 
+   1. Bir Uygulama nesnesi örneği oluşturun.(Sadece VSTO.)
+   1. Bir çalışma kitabı ekleyin.
+   1. İlk sayfayı alın.
+1. Adlandırılmış bir aralık oluşturun: 
+   1. Bir aralık tanımlayın.
+   1. Aralığa isim verin.
+   1. Dosyayı kaydedin.
+
+Aşağıdaki kod örnekleri, bu adımları VSTO kullanarak C# ile gerçekleştirmenin nasıl yapıldığını göstermektedir. Aynı işlemi Aspose.Cells for .NET kullanarak, yine C# ile nasıl yapıldığını gösteren kod örnekleri aşağıdadır
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create Excel Object
 
@@ -63,25 +64,25 @@ xl.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- //Çalışma Kitabı nesnesinin somutlaştırılması
+ //Instantiating a Workbook object
 
-Çalışma kitabı çalışma kitabı = yeni Çalışma Kitabı();
+Workbook workbook = new Workbook();
 
-//Excel dosyasındaki ilk çalışma sayfasına erişim
+//Accessing the first worksheet in the Excel file
 
-Çalışma sayfası çalışma sayfası = çalışma kitabı.Çalışma Sayfaları[0];
+Worksheet worksheet = workbook.Worksheets[0];
 
-//Adlandırılmış bir aralık oluşturma
+//Creating a named range
 
-Aralık aralığı = worksheet.Cells.CreateRange("A1", "B4");
+Range range = worksheet.Cells.CreateRange("A1", "B4");
 
-//Adlandırılmış aralığın adını ayarlıyoruz
+//Setting the name of the named range
 
-range.Name = "Test_Aralığı";
+range.Name = "Test_Range";
 
- için (int satır = 0; satır< range.RowCount; row++)
+for (int row = 0; row < range.RowCount; row++)
 
 {
 
@@ -101,7 +102,7 @@ workbook.Save("Test_Range.xls");
 
 
 {{< /highlight >}}
-## **Örnek Kodu İndir**
+## **Örnek Kod İndir**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Creating.a.Named.Range.Aspose.Cells.zip)
-- [kaynak forge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/indir)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip/download)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Creating%20a%20Named%20Range%20\(Aspose.Cells\).zip)

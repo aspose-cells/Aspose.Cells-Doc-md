@@ -1,19 +1,20 @@
 ---
-title: تحقق من تنسيق الأرقام المخصص عند تعيين خاصية Style.Custom
-description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جداول البيانات، والتي تدعم التحقق من تنسيقات الأرقام المخصصة عند التصميم. ستوضح لك هذه المقالة كيفية استخدام مكتبة Aspose.Cells للتحقق من تنسيقات الأرقام المخصصة للتأكد من صحة التصميم.
-keywords: Aspose.Cells, NET libraries, spreadsheets, styling, custom number formatting, checking, validation
+title: تحقق من تنسيق الرقم المخصص عند ضبط خاصية Style.Custom
+description: Aspose.Cells هي مكتبة .NET للعمل مع ملفات جدول البيانات، تدعم فحص تنسيقات الأرقام المخصصة عند التنسيق. سيوضح هذا المقال كيفية استخدام مكتبة Aspose.Cells لفحص تنسيقات الأرقام المخصصة لضمان صحة التنسيق.
+keywords: Aspose.Cells، مكتبات NET، جداول البيانات، تنسيق، تنسيق رقم مخصص، فحص، التحقق
 type: docs
 weight: 170
 url: /ar/net/check-custom-number-format-when-setting-style-custom-property/
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
- إذا قمت بتعيين تنسيق رقم مخصص غير صالح لـ[**مخصص**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) الملكية، فإن Aspose.Cells لن يرمي أي استثناء. ولكن إذا كنت تريد أن يتحقق Aspose.Cells مما إذا كان تنسيق الرقم المخصص صالحًا أم لا، فيرجى تعيين[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat) الخاصية إلى *صحيح**.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **تحقق من تنسيق الأرقام المخصص عند تعيين خاصية Style.Custom**
+إذا قمت بتعيين تنسيق رقم مخصص غير صالح لخاصية [**Style.Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)، فلن تقوم Aspose.Cells بإلقاء أي استثناء. ولكن إذا كنت ترغب في أن تقوم Aspose.Cells بالتحقق مما إذا كان التنسيق رقم مخصص المعين صالحًا أم لا، فيرجى ضبط الخاصية [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat) إلى **صحيح**.
 
- يقوم نموذج التعليمات البرمجية التالي بتعيين تنسيق أرقام مخصص غير صالح إلى[**مخصص**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) ملكية. منذ ذلك الحين، قمنا بتعيين بالفعل[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat) الخاصية إلى *صحيح**، وبالتالي فإنها تطرح استثناءً، على سبيل المثال، تنسيق أرقام غير صالح. يرجى قراءة التعليقات داخل الكود لمزيد من المساعدة.
+## **فحص تنسيق الرقم المخصص عند ضبط خاصية Style.Custom**
 
-##  **عينة من الرموز**
+الكود العيني التالي يعين تنسيق رقم مخصص غير صالح لخاصية [**Style.Custom**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom). نظرًا لأننا قمنا بالفعل بضبط الخاصية [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat) إلى **صحيح**، لذلك يلقي استثناء مثل تنسيق رقم غير صالح. يرجى قراءة التعليقات داخل الكود للمزيد من المساعدة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-CheckCustomFormatPattern.cs" >}}

@@ -1,64 +1,65 @@
-﻿---
-title: Aspose.Cells o Onlus
-linktitle: Perché no NPOI
-description: Esegui un gran numero di attività con i file Excel in modo più rapido e conveniente rispetto a NPOI utilizzando C#
+---
+title: Aspose.Cells o NPOI
+linktitle: Perché non NPOI
+description: Eseguire un gran numero di attività con i file Excel più velocemente e in modo più conveniente rispetto a NPOI utilizzando C#.
 type: docs
 weight: 40
 url: /it/net/why-not-npoi
 ---
-A volte riceviamo la seguente domanda: perché dovremmo usare i prodotti Aspose piuttosto che il NPOI? È facile rispondere a questa domanda: caratteristiche e funzionalità.
 
-NPOI (versione NET del progetto POI Java) è un progetto open source che può aiutarti a leggere o scrivere file nei formati Microsoft Office. Come parte dell'attuale confronto, considera i seguenti componenti NPOI: HSSF e XSSF:
+A volte ci viene posta la seguente domanda: perché dovremmo usare i prodotti Aspose anziché NPOI? Questa domanda è facile da rispondere: funzionalità e capacità.
 
-**HSSF** è la pura Java implementazione del progetto POI del formato di file Excel 97(-2007).
+NPOI (versione NET del progetto Java POI) è un progetto open source che può aiutarti a leggere o scrivere file nei formati di Microsoft Office. Come parte del confronto attuale, considera i seguenti componenti NPOI: HSSF e XSSF:
 
-**XSSF** è la pura Java implementazione del progetto POI del formato di file Excel 2007 OOXML (.xlsx).
+**HSSF** è l'implementazione puramente Java del formato file Excel 97(-2007) del Progetto POI.
 
-HSSF e XSSF forniscono modi per leggere fogli di calcolo creare, modificare, leggere e scrivere fogli di calcolo XLS. Loro forniscono:
+**XSSF** è l'implementazione puramente Java del progetto POI del formato file Excel 2007 OOXML (.xlsx).
 
-- strutture di basso livello per persone con bisogni speciali
-- un'API eventmodel per un accesso efficiente in sola lettura
-- un'API usermodel completa per creare, leggere e modificare i file XLS
+HSSF e XSSF forniscono modi per leggere, creare, modificare, leggere e scrivere fogli di calcolo XLS. Forniscono:
 
-Sia HSSF che XSSF forniscono l'estrazione del testo di base, l'estrazione del testo specifico, l'accesso a intestazioni e piè di pagina e le funzioni di modifica del testo. Sebbene HSSF e XSSF forniscano funzionalità simili, attualmente non dispongono di un'interfaccia comune. Ha un nucleo abbastanza stabile API che fornisce accesso in lettura o scrittura alle parti principali dei file .xlsx, ma non è completo.
+- strutture a basso livello per coloro con esigenze speciali
+- un api di eventmodel per un accesso efficiente in sola lettura
+- un'api di usermodel completa per la creazione, la lettura e la modifica dei file XLS
 
-Aspose.Cells è una libreria di elaborazione dei documenti molto utile che fornisce un ottimo supporto per tutti i Microsoft Excel e altri formati di documenti. Con Aspose.Cells puoi leggere, generare, modificare, convertire, renderizzare e stampare documenti senza utilizzare Microsoft Excel.
+Sia HSSF che XSSF forniscono Estrazione di testo di base, Estrazione di testo specifico, Accesso a Testate e Piè di pagina, e funzionalità di Modifica del testo. Anche se HSSF e XSSF forniscono funzionalità simili, attualmente non hanno un'interfaccia comune. Ha un'API di base abbastanza stabile che fornisce accesso in lettura o scrittura alle parti principali dei file .xlsx, ma non è completa.
+
+Aspose.Cells è una libreria di elaborazione documenti molto utile che fornisce un grande supporto per tutti i formati di documenti di Microsoft Excel e altri documenti. Con Aspose.Cells puoi leggere, generare, modificare, convertire, rendere e stampare documenti senza utilizzare Microsoft Excel.
 
 In questo articolo, vedremo quando ha senso preferire Aspose.Cells.
 
-## Perché no NPOI
+## Perché non NPOI
 
-Vale la pena notare che alcuni compiti possono essere raggiunti con Aspose.Cells, ma non possono essere eseguiti con NPOI. Ad esempio, se devi convertire i file Excel in Pdf, JSON e immagini, non puoi utilizzare solo NPOI, hai bisogno anche di Microsoft Excel 365 o altri strumenti.
+È importante notare che alcune attività possono essere realizzate con Aspose.Cells, ma non possono essere realizzate con NPOI. Ad esempio, se hai bisogno di convertire file Excel in Pdf, JSON e immagini, allora non puoi utilizzare solo NPOI, hai bisogno anche di Microsoft Excel 365 o altri strumenti.
 
-Puoi confrontare NPOI con Aspose.Cells Per fare ciò, ti suggeriamo di familiarizzare con il progetto Aspose.Cells per NPOI (HSSF e XSSF) – mostra come diverse attività possono essere eseguite utilizzando Aspose.Cells for .NET API rispetto a NPOI. Il progetto copre anche funzionalità per lavorare con documenti di testo che sono disponibili solo in Aspose.Cells, ma non in NPOI.
+Puoi confrontare NPOI con Aspose.Cells. Per fare ciò, ti suggeriamo di familiarizzare con il progetto Aspose.Cells for NPOI (HSSF e XSSF) - mostra come diverse attività possono essere svolte utilizzando l'API Aspose.Cells for .NET rispetto a NPOI. Il progetto copre anche le funzionalità per lavorare con documenti di testo disponibili solo in Aspose.Cells, ma non in NPOI.
 
-Questo progetto è utile anche per gli sviluppatori che desiderano migrare da NPOI a Aspose.Cells.
+Questo progetto è anche utile per gli sviluppatori che cercano di migrare da NPOI a Aspose.Cells.
 
 {{% alert color="primary" %}}
 
- Esplorare[il plug-in con esempi di codice sorgente delle caratteristiche Aspose.Cells for .NET rispetto a NPOI](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/NPOI).
+Esplora [il plugin con esempi di codice sorgente delle funzionalità Aspose.Cells for .NET in confronto con NPOI](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/NPOI).
 
- Questo plugin utilizza la versione di valutazione di Aspose.Cells. Quando sei soddisfatto della tua valutazione, puoi acquistare una licenza dal[Aspose sito web](https://purchase.aspose.com/buy) . Per rimuovere il messaggio di valutazione e le limitazioni delle funzionalità, è necessario applicare una licenza del prodotto. Dopo aver acquistato il prodotto, riceverai un file di licenza. Si prega di seguire le istruzioni in["Licenza e abbonamento"](/cells/it/net/licensing/) articolo per farlo.
+Questo plugin utilizza la versione di valutazione di Aspose.Cells. Quando sei soddisfatto della tua valutazione, puoi acquistare una licenza dal [sito Web di Aspose](https://purchase.aspose.com/buy). Per rimuovere il messaggio di valutazione e le limitazioni delle funzionalità, è necessario applicare una licenza del prodotto. Dopo l'acquisto del prodotto, riceverai un file di licenza. Segui le istruzioni nell'articolo ["Licensing and Subscription"](/cells/it/net/licensing/) per farlo.
 
 {{% /alert %}}
 
-Nelle sezioni e negli articoli seguenti, daremo un'occhiata più da vicino ad alcune delle funzionalità e abilità fornite da Aspose.Cells.
+Nelle sezioni e negli articoli seguenti, approfondiremo alcune delle funzionalità e delle capacità fornite da Aspose.Cells.
 
 ### Stabilità
 
-Aspose i componenti sono accuratamente testati. Poiché i componenti Aspose sono impacchettati in una singola DLL, non sarà mai necessario installare parti o pezzi aggiuntivi per il loro funzionamento. Ciò consente non solo di fornire un lavoro stabile con Aspose.Cells, ma anche di ridurre praticamente a zero il rischio di situazioni impreviste.
+I componenti Aspose sono stati ampiamente testati. Poiché i componenti Aspose sono confezionati in un singolo file DLL, non ci sarà mai bisogno di installare parti o pezzi aggiuntivi affinché funzionino. Questo non solo permette di garantire un lavoro stabile con Aspose.Cells, ma riduce anche il rischio di situazioni impreviste a praticamente zero.
 
-### Scalabilità e velocità
+### Scalabilità e Velocità
 
-Aspose sono altamente scalabili e velocissimi. Sono una vera soluzione .NET e funzionano in modo impeccabile su un singolo server che alimenta una singola applicazione o su una web farm con bilanciamento del carico che alimenta un'applicazione aziendale.
+I componenti Aspose sono altamente scalabili e veloci. Sono una vera soluzione .NET e si comportano in modo impeccabile sia su un singolo server che alimenta un'applicazione singola, sia su un web farm bilanciato che alimenta un'applicazione aziendale.
 
-### Caratteristiche
+### Funzionalità
 
-I componenti Aspose forniscono tutto il necessario per gestire i file di Office e molto altro ancora. Sono progettati con la filosofia di consentire agli sviluppatori di ottenere i massimi risultati con la minima quantità di lavoro.
+I componenti Aspose forniscono tutto ciò di cui hai bisogno per gestire i file di Office, e molto altro ancora. Sono progettati con la filosofia di consentire ai programmatori di ottenere i risultati migliori con il minor sforzo possibile.
 
- componenti Aspose forniscono molte potenti funzioni per risparmiare tempo. Per esempio,[Aspose.Cells](https://products.aspose.com/cells/net/) offre una funzionalità che consente agli sviluppatori di importare JSON in file Excel. Vale la pena notare che ogni componente della famiglia Aspose offre il proprio set di funzionalità uniche e potenti.
+I componenti Aspose offrono molte potenti funzioni di risparmio di tempo. Ad esempio, [Aspose.Cells](https://products.aspose.com/cells/net/) offre una funzionalità che consente ai programmatori di importare JSON nei file di Excel. È degno di nota il fatto che ogni componente della famiglia Aspose offre il proprio set di funzionalità uniche e potenti.
 
-## Guarda anche
+## Vedi Anche
 
 * [Maggiori informazioni su Apache POI](https://poi.apache.org/)
 

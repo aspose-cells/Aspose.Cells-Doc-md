@@ -1,26 +1,27 @@
-﻿---
-title: قم بإنشاء PdfBookmarkEntry لورقة الرسم البياني
+---
+title: إنشاء إدخال PdfBookmarkEntry لورقة الرسم البياني
 type: docs
 weight: 50
 url: /ar/net/create-pdfbookmarkentry-for-chart-sheet/
 ---
-## **سيناريوهات الاستخدام الممكنة**
 
-في وقت سابق ، كان من الممكن إنشاء Aspose.Cells[**Pdf المرجعية الدخول**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) للحصول على ورقة عادية. ولكن الآن يمكن إنشاء Aspose.Cells أيضًا[**Pdf المرجعية الدخول**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) لورقة الرسم البياني. نظرًا لأن ورقة المخطط لا تحتوي على أي خلية أخرى باستثناء الخلية A1 ، فسيتم إنشاؤها[**Pdf المرجعية الدخول**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) للخلية A1 فقط.
+## **سيناريوهات الاستخدام المحتملة**
 
-## **قم بإنشاء PdfBookmarkEntry لورقة الرسم البياني**
+سابقًا، كان Aspose.Cells سيقوم بإنشاء [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) لورقة عادية. ولكن الآن يمكن لـ Aspose.Cells أيضًا إنشاء [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) لورقة الرسم البياني. نظرًا لعدم وجود خلية أخرى غير الخلية A1 في رقم الرسم البياني، سيقوم بإنشاء [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) للخلية A1 فقط.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](61767756.xlsx) الذي يحتوي على أربع أوراق. اثنتان منهما أوراق عادية والاثنان الآخران عبارة عن أوراق مخططات. يقوم بإنشاء أربعة مداخل مرجعية على النحو التالي
+## **إنشاء PdfBookmarkEntry لورقة الرسم البياني**
 
-- المرجعية- أنا
-- المرجعية- II- الرسم البياني 1
-- المرجعية- III
-- المرجعية- IV- الرسم البياني 2
+يقوم الكود النموذجي التالي بتحميل [ملف Excel عينة](61767756.xlsx) الذي يحتوي على أربع صفحات. اثنتان منها عادية والأخرتان صفحات رسم بياني. ويقوم بإنشاء أربعة إدخالات للإشارة كما يلي
 
-تُظهر لقطة الشاشة التالية ملف[الإخراج PDF](61767757.pdf)تم إنشاؤها بواسطة رمز عينة كمرجع.
+- إشارة-I
+- إشارة-II-Chart1
+- إشارة-III
+- إشارة-IV-Chart2
 
-![ما يجب القيام به: image_بديل_نص](create-pdfbookmarkentry-for-chart-sheet_1.png)
+تظهر الصورة الملتقطة التالية [PDF المولد](61767757.pdf) بواسطة الكود النموذجي للإشارة.
 
-## **عينة من الرموز**
+![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rendering-CreatePdfBookmarkEntryForChartSheet.cs" >}}

@@ -1,15 +1,16 @@
-﻿---
+---
 title: Beräkna delsummor
 type: docs
 weight: 10
 url: /sv/net/calculate-sub-totals/
 ---
+
 ## **Aspose.Cells - Beräkna delsummor**
-Du kan automatiskt skapa delsummor för alla återkommande värden i ett kalkylblad. Aspose.Cells tillhandahåller API-funktioner som hjälper dig att lägga till delsummor till kalkylark programmatiskt.
+Du kan automatiskt skapa delsummer för vilka återkommande värden som helst i en kalkyl. Aspose.Cells tillhandahåller API-funktioner som hjälper dig att lägga till delsummer till kalkylblad programmatiskt.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -35,20 +36,20 @@ ca.EndColumn = 2;
 
 //Second column (C) in the list
 
-cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[]{ 1 });
+cells.Subtotal(ca, 0, ConsolidationFunction.Sum, new int[] { 1 });
 
 //Save the excel file
 
 workbook.Save("AsposeTotal.xls"); 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Beräkna delsummor** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner **Beräkna delsummor** från någon av nedan nämnda sociala kodningsplatser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Skapa delsummor](/cells/sv/net/creating-subtotals/).
+För mer information, besök [Skapa delsummor](/cells/sv/net/creating-subtotals/).
 
 {{% /alert %}}

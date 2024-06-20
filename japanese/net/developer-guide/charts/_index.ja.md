@@ -1,195 +1,196 @@
 ---
-title: グラフの作成と管理
-description: Aspose.Cells for .NET を使用して Microsoft Excel でグラフを作成する方法を学びます。このガイドでは、作成できるさまざまな種類のグラフと、その外観と書式をカスタマイズする方法を説明します。
-keywords: Aspose.Cells for .NET, Chart Creation, Microsoft Excel, Chart Types, Customization, Appearance, Formatting.
+title: チャートの作成と管理
+description: Microsoft ExcelでAspose.Cells for .NETを使用してチャートを作成する方法を学びます。当ガイドでは作成可能なさまざまな種類のチャートと、外観やフォーマットのカスタマイズ方法を実証します。
+keywords: Aspose.Cells for .NET、チャート作成、Microsoft Excel、チャートの種類、カスタマイズ、外観、フォーマット。
 linktitle: チャート
 type: docs
 weight: 130
 url: /ja/net/creating-charts/
-description: CSharp で Excel および ODS ファイル用のグラフを作成します。
-keywords: create a chart, make a graph 
+description: ExcelおよびODSファイルのCSharpでチャートを作成します。
+keywords: チャートを作成し、グラフを作成します 
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells を使用すると、さまざまなグラフをスプレッドシートに追加できます。Aspose.Cells は、多くの柔軟なグラフ オブジェクトを提供します。このトピックでは、Aspose.Cells' グラフ作成オブジェクトについて説明します。
+Aspose.Cellsでさまざまなチャートをスプレッドシートに追加できます。Aspose.Cellsは多くの柔軟なチャートオブジェクトを提供します。このトピックでは、Aspose.Cellsのチャートオブジェクトについて説明します。
 
 {{% /alert %}}
 
-##  **チャートの作成**
+## **チャートの作成**
 
-###  **単純にグラフを作成する**
-次のコード例を使用すると、Aspose.Cells のグラフを簡単に作成できます。
+### **単純なチャートの作成**
+Aspose.Cellsで次の例コードを使用して簡単にチャートを作成できます：
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateColumnChart-1.cs" >}}
 
-###  **グラフを作成するために知っておくべきこと**
+### **チャート作成のための注意事項**
 
-グラフを作成する前に、Aspose.Cells を使用してグラフを作成するときに役立ついくつかの基本概念を理解することが重要です。
+Aspose.Cellsを使用してチャートを作成する際に役立ついくつかの基本的な概念を理解することが重要です。
 
-####  **オブジェクトのグラフ化**
+#### **チャートオブジェクト**
 
-Aspose.Cells は、特別なクラスのセットを提供します。[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts)Aspose.Cells でサポートされるグラフを作成するために使用される名前空間。これらのクラスは、グラフの構成要素として機能する *グラフ オブジェクト** を作成するために使用されます。グラフ作成オブジェクトを以下に示します。
+Aspose.Cellsは、Aspose.Cellsでサポートされているチャートを作成するために使用される[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts)ネームスペース内の特別なクラスを提供します。これらのクラスは、**チャートオブジェクト**として機能するチャートの構築ブロックとして使用されます。以下に、チャートオブジェクトがリストされています:
 
-- シリーズ。グラフ内の単一のデータ系列。
+- シリーズ、チャート内の単一のデータシリーズ。
 - 軸、チャートの軸。
-- グラフ、単一の Excel グラフ。
-- ChartArea、ワークシート内のグラフ領域。
-- ChartDataTable、グラフ データ テーブル。
-- ChartFrame、チャート内のフレーム オブジェクト。
-- ChartPoint: チャート内の一連の単一ポイント。
-- ChartPointCollection。1 つの系列内のすべてのポイントを含むコレクション。
-- Charts、Chart オブジェクトのコレクション。
-- DataLabels。指定されたシリーズのすべての DataLabel オブジェクトのコレクション。
-- FillFormat、形状の塗りつぶし形式。
-- Floor、3D チャートのフロア。
-- レジェンド、チャートのレジェンド。
-- ライン、チャートの線。
-- SeriesCollection、Series オブジェクトのコレクション。
-- TickLabels、チャート軸上の目盛りに関連付けられた目盛りラベル。
-- タイトル、チャートまたは軸のタイトル。
-- トレンドライン、チャート内のトレンドライン。
-- TrendlineCollection は、指定されたデータ シリーズのすべての Trendline オブジェクトのコレクションです。
-- 壁、3D チャートの壁。
+- Chart, 単一のExcelグラフ。
+- ChartArea, ワークシート内のグラフエリア。
+- ChartDataTable, グラフデータテーブル。
+- ChartFrame, グラフ内のフレームオブジェクト。
+- ChartPoint, グラフ内のシリーズの単一のポイント。
+- ChartPointCollection, 1つのシリーズ内のすべてのポイントを含むコレクション。
+- Charts, Chartオブジェクトのコレクション。
+- DataLabels, 指定されたシリーズのすべてのDataLabelオブジェクトのコレクション。
+- FillFormat, シェイプの塗りつぶし形式。
+- Floor, 3Dグラフの床。
+- Legend, グラフの凡例。
+- Line, グラフの線。
+- SeriesCollection, Seriesオブジェクトのコレクション。
+- TickLabels, グラフ軸の目盛りのラベル。
+- Title, グラフまたは軸のタイトル。
+- Trendline, グラフ内のトレンドライン。
+- TrendlineCollection, 指定されたデータシリーズのすべてのTrendlineオブジェクトのコレクション。
+- Walls, 3Dグラフの壁。
 
-####  **チャートオブジェクトの使用**
+#### **Chartingオブジェクトの使用**
 
-前述したように、すべてのグラフ オブジェクトはそれぞれのクラスのインスタンスであり、特定のタスクを実行するための特定のプロパティとメソッドを提供します。グラフオブジェクトを使用してグラフを作成します。
+上記のように、すべてのチャートオブジェクトはそれぞれのクラスのインスタンスであり、特定のタスクを実行するための特定のプロパティとメソッドを提供します。チャートオブジェクトを使用して、チャートを作成します。
 
-を使用して、任意のタイプのグラフをワークシートに追加します。[**チャート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)コレクション。の各項目[**チャート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)コレクションは、[**チャート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)物体。あ[**チャート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)object は、チャートの外観をカスタマイズするために必要な他のすべてのチャート オブジェクトをカプセル化します。次のセクションでは、いくつかの基本的なグラフ オブジェクトを使用して単純なグラフを作成する方法を示します。
+ワークシートに任意の種類のチャートを追加するには、[**Charts**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)のコレクションを使用します。[**Charts**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)のコレクション内の各アイテムは[**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)オブジェクトを表します。[**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)オブジェクトはグラフの外観をカスタマイズするために必要な他のすべてのチャートオブジェクトをカプセル化します。次のセクションでは、いくつかの基本的なチャートオブジェクトを使用して、単純なチャートを作成する方法を示します。
 
-###  **Aspose.Cellsを使用してグラフを作成**
+### **Aspose.Cellsを使用したチャートの作成**
 
 **手順:**
 
-1. 次のコマンドを使用して、ワークシートのセルにデータを追加します。[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)オブジェクトの[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)方法。
-これはグラフのデータ ソースとして使用されます。
-1. を呼び出して、ワークシートにグラフを追加します。[**チャート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)コレクションの[**追加**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add)メソッドにカプセル化されている[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)物体。
-1. チャートの種類を指定します。[**グラフの種類**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)列挙。
-たとえば、以下の例では、[**ChartType.Pyramid**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)グラフの種類として値を指定します。
-1. 新しいものにアクセスする[**チャート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)からのオブジェクト[**チャート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)インデックスを渡すことによってコレクションを作成します。
-1. にカプセル化されたグラフ オブジェクトのいずれかを使用します。[**チャート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)チャートを管理するオブジェクト。
-以下の例では、[**シリーズコレクション**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)チャート オブジェクトを使用してチャートのデータ ソースを指定します。
+1. [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)オブジェクトの[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)メソッドを使用してワークシートセルにデータを追加します。
+   これはグラフのデータソースとして使用されます。
+1. [**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)コレクションの[**Add**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add)メソッドを呼び出してワークシートにチャートを追加します。これは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)オブジェクトにカプセル化されています。
+1. [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)列挙型を使用してチャートのタイプを指定します。
+   たとえば、以下の例では、[**ChartType.Pyramid**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)値をチャートの種類として使用しています。
+1. インデックスを渡して[**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)コレクションから新しい[**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)オブジェクトをアクセスします。
+1. [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)オブジェクトにカプセル化されたチャートの管理に使用できるいずれかのチャートオブジェクトを使用します。
+   以下の例では、[**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)チャートオブジェクトを使用して、チャートのデータソースを指定します。
 
-ソース データをグラフに追加する場合、データ ソースはセル範囲 (「A1:C3」など)、連続しない一連のセル (「A1、A3、A5」など)、または一連のセルにすることができます。値 (「1、2、3」など)。
+チャートにソースデータを追加する場合、データソースはセルの範囲（"A1:C3"など）、非連続セルのシーケンス（"A1, A3, A5"など）、値のシーケンス（"1,2,3"など）のいずれかです。
 
-これらの一般的な手順により、あらゆるタイプのグラフを作成できます。さまざまなグラフ オブジェクトを使用して、さまざまなグラフを作成します。
+これらの一般的な手順を使用すると、任意のタイプのチャートを作成できます。異なるチャートオブジェクトを使用して、異なるチャートを作成します。
 
-Aspose.Cells を使用して、さまざまな種類のグラフを作成できます。Aspose.Cells でサポートされるすべての標準グラフは、という名前の列挙で事前定義されています。[**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype).
+Aspose.Cellsでさまざまな種類のチャートを作成することが可能です。Aspose.Cellsでサポートされているすべての標準チャートは、[**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)という名前の列挙型で事前定義されています。
 
-事前定義されたグラフのタイプは次のとおりです。
+事前定義されたチャートの種類は:
 
-|**グラフの種類**|**説明**|
+|**チャートの種類**|**説明**|
 | :- | :- |
-|カラム|集合縦棒グラフを表します|
-|列積み上げ|積み上げ縦棒グラフを表します|
-|列100パーセント積み上げ|100% 積み上げ縦棒グラフを表します|
-|列3Dクラスター化|3D 集合縦棒グラフを表します|
-|列 3D 積み上げ|3D 積み上げ縦棒グラフを表します|
-|列 3D100 パーセント積み上げ|3D 100% 積み上げ縦棒グラフを表します|
-|コラム3D|3D 縦棒グラフを表します|
-|バー|集合棒グラフを表します|
-|バー積み上げ|積み上げ棒グラフを表します|
-|バー100パーセント積み上げ|100% 積み上げ棒グラフを表します|
-|バー3Dクラスター化|3D 集合棒グラフを表します|
-|Bar3D積み上げ|3D 積み上げ棒グラフを表します|
-|Bar3D100パーセント積み上げ|3D 100% 積み上げ棒グラフを表します|
-|ライン|折れ線グラフを表します|
-|ラインスタック|積み上げ折れ線グラフを表します|
-|線100パーセント積み上げ|100% 積み上げ折れ線グラフを表します|
-|LineWithDataMarkers|データマーカーを使用して折れ線グラフを表します|
-|LineStackedWithDataMarkers|データ マーカーを使用して積み上げ折れ線グラフを表します|
-|Line100PercentStackedWithDataMarkers|データ マーカー付きの 100% 積み上げ折れ線グラフを表します|
-|ライン3D|3D 折れ線グラフを表します|
-|パイ|円グラフを表します|
-|パイ3D|3D 円グラフを表します|
-|パイパイ|円グラフを表す|
-|パイ爆発|展開円グラフを表します|
-|パイ3D分解|3D 分解円グラフを表します|
-|パイバー|円グラフの棒グラフを表します|
-|散布|散布図を表します|
-|ScatterConnectedByCurvesWithDataMarker|データ マーカーを使用して曲線で接続された散布図を表します|
-|データマーカーなしの曲線による散乱接続|データ マーカーのない、曲線で接続された散布図を表します。|
-|ScatterConnectedByLinesWithDataMarker|データ マーカーを使用して線で接続された散布図を表します|
-|ScatterConnectedByLinesWithoutDataMarker|データマーカーのない、線で結ばれた散布図を表します。|
-|エリア|面グラフを表します|
-|積み上げられたエリア|積み上げ面グラフを表します|
-|面積100パーセント積み上げ|100% 積み上げ面グラフを表します|
-|エリア3D|3D 面グラフを表します|
-|エリア3D積み上げ|3D 積み上げ面グラフを表します|
-|エリア3D100パーセント積み上げ|3D 100% 積み上げ面グラフを表します|
-|ドーナツ|ドーナツ チャートを表します|
-|ドーナツ爆発|展開されたドーナツ グラフを表します|
-|レーダー|レーダーチャートを表します|
-|レーダーとデータマーカー|レーダー チャートをデータ マーカーで表します|
-|レーダー充填済み|塗りつぶされたレーダー チャートを表します|
-|表面3D|3D 平面図を表します|
-|表面ワイヤーフレーム3D|ワイヤーフレーム 3D 曲面チャートを表します|
-|表面輪郭|等高線図を表します|
-|表面輪郭ワイヤーフレーム|ワイヤーフレーム等高線チャートを表します|
-|バブル|バブルチャートを表します|
-|バブル3D|3D バブル チャートを表します|
-|シリンダー|円柱グラフを表します|
-|シリンダー積み上げ|積み上げ円柱グラフを表します|
-|シリンダー100パーセント積み上げ|100% 積み上げ円柱グラフを表します|
-|円筒形バー|円柱棒グラフを表します。|
-|円筒形バー積み上げ|積み上げ円筒棒グラフを表します|
-|円柱バー100パーセント積み上げ|100% 積み上げ円筒棒グラフを表します|
-|円柱柱3D|3D 円柱柱グラフを表します|
-|円錐|円錐グラフを表します|
-|コーン積み上げ|積み上げ円錐グラフを表します|
-|コーン100パーセント積み上げ|100% 積み上げ円錐グラフを表します|
-|コニカルバー|円錐棒グラフを表します|
-|円錐形バー積み上げ|積み上げ円錐棒グラフを表します|
-|円錐バー100パーセント積み上げ|100% 積み上げ円錐棒グラフを表します|
-|円錐柱3D|3D 円錐縦棒グラフを表します|
-|ピラミッド|ピラミッドチャートを表します|
-|ピラミッド積み上げ|積み上げピラミッド チャートを表します|
-|ピラミッド100パーセント積み上げ|100% 積み上げピラミッド チャートを表します|
-|ピラミッドバー|ピラミッド棒グラフを表します|
-|ピラミッドバー積み上げ|積み上げピラミッド棒グラフを表します|
-|ピラミッドバー100パーセント積み上げ|100% 積み上げピラミッド棒グラフを表します|
-|ピラミッド柱3D|3D ピラミッド縦棒グラフを表します|
+|Column| クラスタ化された列チャートを表します。
+|ColumnStacked| 積み上げ列チャートを表します。
+|Column100PercentStacked| 100% 積み上げ列チャートを表します。
+|Column3DClustered| 3D クラスタ化された列チャートを表します。
+|Column3DStacked| 3D 積み上げ列チャートを表します。
+|Column3D100PercentStacked| 3D 100% 積み上げ列チャートを表します。
+|Column3D| 3D 列チャートを表します。
+|Bar| クラスタ化された棒チャートを表します。
+|BarStacked| 積み上げ棒チャートを表します。
+|Bar100PercentStacked| 100% 積み上げ棒チャートを表します。
+|Bar3DClustered| 3D クラスタ化された棒チャートを表します。
+|Bar3DStacked| 3D 積み上げ棒チャートを表します。
+|Bar3D100PercentStacked| 3D 100% 積み上げ棒チャートを表します。
+|Line| 折れ線チャートを表します。
+|LineStacked| 積み上げ折れ線チャートを表します。
+|Line100PercentStacked| 100% 積み上げ折れ線チャートを表します。
+|LineWithDataMarkers| データマーカー付きの折れ線チャートを表します。
+|LineStackedWithDataMarkers| データマーカー付きの積み上げ折れ線チャートを表します。
+|Line100PercentStackedWithDataMarkers| データマーカー付きの100% 積み上げ折れ線チャートを表します。
+|Line3D| 3D 折れ線チャートを表します。
+|Pie| 円グラフを表します。
+|Pie3D| 3D 円グラフを表します。
+|PiePie| パイ オブ パイ チャートを表します。
+|PieExploded| 分解された円グラフを表します。
+|Pie3DExploded| 3Dエクスプロード円グラフを表します|
+|PieBar| パイチャートのバーを表します|
+|Scatter| 散布図を表します|
+|ScatterConnectedByCurvesWithDataMarker| データマーカー付きの曲線で接続された散布図を表します|
+|ScatterConnectedByCurvesWithoutDataMarker| データマーカーなしの曲線で接続された散布図を表します|
+|ScatterConnectedByLinesWithDataMarker| データマーカー付きの線で接続された散布図を表します|
+|ScatterConnectedByLinesWithoutDataMarker| データマーカーなしの線で接続された散布図を表します|
+|Area| エリアチャートを表します|
+|AreaStacked| 積み上げエリアチャートを表します|
+|Area100PercentStacked| 100% 積み上げエリアチャートを表します|
+|Area3D| 3Dエリアチャートを表します|
+|Area3DStacked| 3D積み上げエリアチャートを表します|
+|Area3D100PercentStacked| 3D 100% 積み上げエリアチャートを表します|
+|Doughnut| ドーナツチャートを表します|
+|DoughnutExploded| 分裂したドーナツチャートを表します|
+|Radar| レーダーチャートを表します|
+|RadarWithDataMarkers| データマーカー付きのレーダーチャートを表します|
+|RadarFilled| 塗りつぶしのレーダーチャートを表します|
+|Surface3D| 3Dサーフェスチャートを表します|
+|SurfaceWireframe3D| ワイヤーフレーム3Dサーフェスチャートを表します|
+|SurfaceContour| 等高線チャートを表します|
+|SurfaceContourWireframe| ワイヤーフレーム等高線チャートを表します|
+|Bubble| バブルチャートを表します|
+|Bubble3D| 3Dバブルチャートを表します|
+|Cylinder| シリンダーチャートを表します|
+|CylinderStacked| 積み上げシリンダーチャートを表します|
+|Cylinder100PercentStacked| 100% 積み上げシリンダーチャートを表します|
+|CylindericalBar| 円柱形バーチャートを表します|
+|CylindericalBarStacked| 積み上げ円柱形バーチャートを表します|
+|CylindericalBar100PercentStacked| 100% 積み上げ円柱形バーチャートを表します|
+|CylindericalColumn3D| 3D円柱チャートを表します
+|Cone| 円錐チャートを表します
+|ConeStacked| 積み重ね円錐チャートを表します
+|Cone100PercentStacked| 100% 積み重ね円錐チャートを表します
+|ConicalBar| 円錐バーチャートを表します
+|ConicalBarStacked 積み重ね円錐バーチャートを表します
+|ConicalBar100PercentStacked| 100% 積み重ね円錐バーチャートを表します
+|ConicalColumn3D| 3D円錐柱チャートを表します
+|Pyramid| ピラミッドチャートを表します
+|PyramidStacked| 積み重ねピラミッドチャートを表します
+|Pyramid100PercentStacked| 100% 積み重ねピラミッドチャートを表します
+|PyramidBar| ピラミッドバーチャートを表します
+|PyramidBarStacked| 積み重ねピラミッドバーチャートを表します
+|PyramidBar100PercentStacked| 100% 積み重ねピラミッドバーチャートを表します
+|PyramidColumn3D| 3Dピラミッド柱チャートを表します
 {{% alert color="primary" %}}
 
-セル範囲をデータ ソースとして割り当てる場合は、左上から右下までの範囲のみを設定できます。たとえば、「A1:C3」は有効ですが、「C3:A1」は無効です。
+セルの範囲をデータソースとして割り当てると、左上から右下までの範囲を設定できます。例えば、"A1:C3"は有効ですが、"C3:A1"は無効です。
 
 {{% /alert %}}
 
-####  **ピラミッドチャート**
+#### **ピラミッドチャート**
 
-サンプル コードを実行すると、ピラミッド グラフがワークシートに追加されます。
+例のコードを実行すると、ワークシートにピラミッドチャートが追加されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreatePyramidChart-1.cs" >}}
 
-####  **折れ線グラフ**
+#### **折れ線グラフ**
 
-上記の例では、単純に[**グラフの種類**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)に*ライン*折れ線グラフを作成します。完全なソースは以下に提供されます。コードが実行されると、折れ線グラフがワークシートに追加されます。
+上記の例では、[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)を*Line*に変更するだけで、折れ線グラフが作成されます。完全なソースは以下に提供されています。コードを実行すると、ワークシートに折れ線グラフが追加されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
 
-####  **バブルチャート**
+#### **バブルチャート**
 
-バブル チャートを作成するには、[**グラフの種類**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)に設定する必要があります[**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)それに応じて、BubbleSizes、Values、XValues などのいくつかの追加プロパティを設定する必要があります。次のコードを実行すると、バブル チャートがワークシートに追加されます。
+バブルチャートを作成するには、[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)を[**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)に設定し、BubbleSizes、Values、XValuesなどの追加のプロパティを適切に設定する必要があります。次のコードを実行すると、ワークシートにバブルチャートが追加されます。
 
-####  **データマーカー付き折れ線グラフ**
+#### **データマーカー付きラインチャート**
 
-データマーカーチャートでラインを作成するには、[**グラフの種類**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)に設定する必要があります*ChartType.LineWithDataMarkers*それに応じて、背景領域、シリーズ マーカー、値、XValue などのいくつかの追加プロパティを設定する必要があります。次のコードを実行すると、データ マーカー グラフを含む行がワークシートに追加されます。
+データマーカー付きラインチャートを作成するには、[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)を*ChartType.LineWithDataMarkers*に設定し、バックグラウンドエリア、シリーズマーカー、Values、XValuesなどの追加のプロパティを適切に設定する必要があります。次のコードを実行すると、ワークシートにデータマーカー付きラインチャートが追加されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
 
-##  **アドバンストトピック**
-- [Excel 2016 グラフの読み取りと操作](/cells/ja/net/read-and-manipulate-excel-2016-charts/)
-- [Excel グラフの軸を管理する](/cells/ja/net/chart-axes/)
-- [チャートの外観の設定](/cells/ja/net/setting-chart-appearance/)
-- [グラフの種類](/cells/ja/net/chart-types/)
-- [グラフのカスタマイズ](/cells/ja/net/customizing-charts/)
-- [グラフのデータソースを設定する](/cells/ja/net/data-formatting-in-charts/)
-- [Excel グラフのデータラベルを管理する](/cells/ja/net/insert-datalabels-to-chart/)
-- [スマートマーカーを処理してチャートを生成](/cells/ja/net/generate-chart-by-processing-smart-markers/)
+## **高度なトピック**
+- [Excel 2016のチャートの読み込みと操作](/cells/ja/net/read-and-manipulate-excel-2016-charts/)
+- [Excelチャートの軸の管理](/cells/ja/net/chart-axes/)
+- [グラフの外観設定](/cells/ja/net/setting-chart-appearance/)
+- [チャートタイプ](/cells/ja/net/chart-types/)
+- [チャートのカスタマイズ](/cells/ja/net/customizing-charts/)
+- [チャートのデータソースを設定する](/cells/ja/net/data-formatting-in-charts/)
+- [Excelチャートのデータラベルの管理](/cells/ja/net/insert-datalabels-to-chart/)
+- [スマートマーカーの処理によるチャートの生成](/cells/ja/net/generate-chart-by-processing-smart-markers/)
 - [チャートのワークシートを取得する](/cells/ja/net/get-worksheet-of-the-chart/)
-- [Excel グラフの凡例の管理](/cells/ja/net/chart-legend/)
-- [ポジションサイズとデザイナーチャートの操作](/cells/ja/net/manipulate-position-size-and-designer-chart/)
-- [引き出し線付きの円グラフの作成](/cells/ja/net/creating-pie-chart-with-leader-lines/)
-- [グラフの形状](/cells/ja/net/controls-in-charts/)
-- [Excel グラフのタイトルを管理する](/cells/ja/net/chart-and-axis-titles/)
-- [チャートのレンダリング](/cells/ja/net/chart-rendering/)
-- [チャート近似曲線の数式テキストを取得](/cells/ja/net/get-equation-text-of-chart-trendline/)
+- [Excelチャートの凡例の管理](/cells/ja/net/chart-legend/)
+- [チャートの位置、サイズ、デザインの操作](/cells/ja/net/manipulate-position-size-and-designer-chart/)
+- [リーダーライン付き円グラフの作成](/cells/ja/net/creating-pie-chart-with-leader-lines/)
+- [グラフ内の図形](/cells/ja/net/controls-in-charts/)
+- [Excelグラフのタイトルの管理](/cells/ja/net/chart-and-axis-titles/)
+- [グラフのレンダリング](/cells/ja/net/chart-rendering/)
+- [グラフトレンドラインの方程式テキストを取得](/cells/ja/net/get-equation-text-of-chart-trendline/)

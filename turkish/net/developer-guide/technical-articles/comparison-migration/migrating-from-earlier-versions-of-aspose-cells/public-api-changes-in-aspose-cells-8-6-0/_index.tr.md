@@ -1,23 +1,24 @@
-﻿---
-title: Genel API Aspose.Cells 8.6.0'daki değişiklikler
+---
+title: Aspose.Cells 8.6.0 de Yapılan Genel API Değişiklikleri
 type: docs
 weight: 190
 url: /tr/net/public-api-changes-in-aspose-cells-8-6-0/
 ---
+
 {{% alert color="primary" %}} 
 
- Bu belge, Aspose.Cells API sürüm 8.5.2'den 8.6.0'a modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-6-0/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
+Bu belge, sürüm 8.5.2'den 8.6.0'a Aspose.Cells API'daki değişiklikleri açıklar ve modül / uygulama geliştiricileri için ilgi çekici olabilecek herhangi bir değişikliği içerir. Yeni ve güncellenmiş genel methodlar, eklenmiş sınıflar vb. gibi sadece yeni ve güncellenmiş genel yöntemleri değil, aynı zamanda Aspose.Cells'in arka plandaki davranışındaki herhangi bir değişikliğin de açıklamasını içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
-### **Çalışma Kitabı Nesnesi Oluşturmadan Meta Veri Manipülasyonu Desteği**
-Aspose.Cells for .NET API'in bu sürümü, WorkbookMetadata & MetadataOptions adlı iki yeni sınıfı ve artık bir Workbook örneği oluşturmadan belge özelliklerini (meta veriler) manipüle etmeye izin veren yeni bir MetadataType numaralandırmasını ortaya çıkardı. WorkbookMetadata sınıfı hafiftir ve kullanımı çok kolay, etkili bir mekanizma sağlar.[genel performansı etkilemeden belge özelliklerini okuyun, yazın ve güncelleyin](/cells/tr/net/using-workbookmetadata/).
+## **Eklenen API'lar**
+### **Belge Oluşturmadan Metaveri Manipülasyon Desteği**
+Bu sürümde Aspose.Cells for .NET API, WorkbookMetadata ve MetadataOptions adlı iki yeni sınıfı ve belge özelliklerini (meta veri) oluşturma gereksinimi olmaksızın manipüle etmeye izin veren MetadataType adlı yeni bir numaralandırmayı ortaya çıkarmıştır. WorkbookMetadata sınıfı hafif ve kullanımı çok kolay, etkili bir mekanizma sağlar. Performansı etkilemeden belge özelliklerini okuma, yazma ve güncellemeyi sağlar.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet with WorkbookMetadata while specifying appropriate MetadataType
 
@@ -36,14 +37,14 @@ metadata.Save(filePath);
 {{< /highlight >}}
 
 
-### **Özellik HtmlSaveOptions.ExportFrameScriptsAndProperties Eklendi**
-Aspose.Cells for .NET 8.6.0, elektronik tabloları HTML biçimine dönüştürürken ek komut dosyalarının oluşturulmasını etkilemek için kullanılabilecek HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğini kullanıma sundu. Varsayılan ayarlarla, Aspose.Cells API'leri, Excel uygulamasının dışa aktarımı yaptığı gibi elektronik tabloyu HTML biçiminde dışa aktarır, yani; ortaya çıkan HTML, tarayıcı türünü algılayan ve düzeni buna göre ayarlayan çerçeveleri ve koşullu yorumları içerir. HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğinin varsayılan değeri true'dur, yani; dışa aktarma Excel standartlarına göre yapılır. Ancak özellik false olarak ayarlanırsa API[çerçeveler ve koşullu yorumlarla ilgili komut dosyalarını oluşturun](/cells/tr/net/disable-exporting-frame-scripts-and-document-properties/). Bu durumda, ortaya çıkan HTML herhangi bir tarayıcıda doğru bir şekilde görüntülenebilir, ancak Aspose.Cells API'leri kullanılarak geri alınamaz.
+### **HtmlSaveOptions.ExportFrameScriptsAndProperties Özelliği Eklendi**
+Aspose.Cells for .NET 8.6.0, spreadsheets'leri HTML biçimine dönüştürürken ek script'lerin oluşturulmasını etkileyebilen HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğini ortaya çıkarmıştır. Varsayılan ayarlarla, Aspose.Cells API'leri, sonuçta HTML'nin çerçeveleri ve koşulsal yorumları içerdiği standart Excel uygulamasının yapacağı gibi, yani; sonuçta HTML, tarayıcı türünü algılar ve düzeni buna göre ayarlar. HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğinin varsayılan değeri true'dur, yani; dönüşüm Excel standartlarına göre yapılır. Ancak, özellik false olarak ayarlanırsa, API [script'lerin ve koşulsal yorumların oluşturulmayacağı](/cells/tr/net/disable-exporting-frame-scripts-and-document-properties/) anlamına gelir. Bu durumda, sonuçta HTML herhangi bir tarayıcıda doğru şekilde görüntülenebilir, ancak Aspose.Cells API'leri kullanılarak içeri aktarılamaz.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load the spreadsheet
 
@@ -62,14 +63,14 @@ book.Save("output.html", options);
 {{< /highlight >}}
 
 
-### **Özellik Shape.MarcoName Eklendi**
-Aspose.Cells for .NET 8.6.0, kullanılabilecek Shape.MarcoName özelliğini kullanıma sundu.[herhangi bir VBA modülünü bir form kontrolüne atayın](/cells/tr/net/assign-macro-to-form-control/) etkileşimi sağlamak için böyle bir Düğme. Özellik string türündedir, bu nedenle modül adını kabul edebilir ve onu kontrole atar.
+### **Shape.MarcoName Özelliği Eklendi**
+Aspose.Cells for .NET 8.6.0, form kontrollerine (örneğin, bir Düğme) herhangi bir VBA modülünü [atamak için kullanılan Shape.MarcoName özelliğini ortaya çıkarmıştır](/cells/tr/net/assign-macro-to-form-control/). Özellik, bir dize türündedir, bu nedenle modül adını kabul eder ve kontrolle ilişkilendirir.
 
-Basit kullanım senaryosu aşağıdadır.
+Basit kullanım senaryosu aşağıda gösterilmektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -122,5 +123,5 @@ workbook.Save("output.xlsm");
 {{< /highlight >}}
 
 
-### **Özellik OoxmlSaveOptions.UpdateZoom Eklendi**
-v8.6.0'ın piyasaya sürülmesiyle, Aspose.Cells for .NET API, Çalışma Sayfası ölçeklendirmesini kontrol etmek için PageSetup.FitToPagesWide ve/veya PageSetup.FitToPagesTall özellikleri kullanılmışsa PageSetup.Zoom'u güncellemek için kullanılabilecek OoxmlSaveOptions.UpdateZoom özelliğini kullanıma sundu.
+### **OoxmlSaveOptions.UpdateZoom Özelliği Eklendi**
+v8.6.0 ile, Aspose.Cells for .NET API, OoxmlSaveOptions.UpdateZoom özelliğini PageSetup.Zoom'u güncellemek için ortaya çıkarmıştır. PageSetup.FitToPagesWide ve/veya PageSetup.FitToPagesTall özelliklerinin Worksheet ölçeklendirmesini kontrol etmek için kullanılabilir.

@@ -1,29 +1,30 @@
 ---
-title: Imprimer les commentaires lors de l'enregistrement au PDF
+title: Imprimer les commentaires lors de l enregistrement au format PDF
 type: docs
 weight: 10
 url: /fr/python-net/print-comments-while-saving-to-pdf/
-description: Apprenez à imprimer des commentaires tout en enregistrant au PDF avec Aspose.Cells for Python via .NET API.
-keywords: Python Print Comments while saving file to PDF, Print Comments while saving Excel to PDF using Python, Python Export Comments when converting Excel to PDF, Output Comments for Excel to PDF in python, Render Comments while saving excel to PDF
+description: Apprenez comment afficher les commentaires lors de l enregistrement en PDF avec l API Aspose.Cells for Python via .NET.
+keywords: Afficher les commentaires avec Python lors de l enregistrement en PDF, Afficher les commentaires lors de l enregistrement Excel en PDF en utilisant Python, Exporter les commentaires en convertissant Excel en PDF avec Python, Afficher les commentaires lors de l enregistrement Excel en PDF
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel vous permet d'imprimer des commentaires lors de l'impression ou de l'enregistrement au format PDF avec les options suivantes
+Microsoft Excel permet d'imprimer les commentaires lors de l'impression ou de l'enregistrement au format PDF avec les options suivantes
 
 - Aucun
-- En fin de feuille
+- À la fin de la feuille
 - Tel qu'affiché sur la feuille
 
- Aspose.Cells for Python via .NET fournir le[**ImprimerCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) enum pour prendre en charge la même fonctionnalité. Le[**ImprimerCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)enum a les membres suivants
+Aspose.Cells for Python via .NET fournit l'énumération [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) pour prendre en charge cette fonctionnalité. L'énumération [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) contient les membres suivants
 
-- ImprimerAucun commentaire
-- Imprimer sur place
-- ImprimerFeuilleFin
+- PrintNoComments
+- PrintInPlace
+- PrintSheetEnd
 
 {{% /alert %}}
 
-##  **Imprimer les commentaires lors de l'enregistrement au PDF**
+## **Imprimer les commentaires lors de l'enregistrement au format PDF**
 
- L'exemple de code suivant illustre comment utiliser[**ImprimerCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)pour imprimer les commentaires tout en enregistrant au PDF.
+Le code d'exemple suivant illustre comment utiliser [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) pour imprimer les commentaires lors de l'enregistrement au format PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-PrintCommentWhileSavingToPdf.py" >}}

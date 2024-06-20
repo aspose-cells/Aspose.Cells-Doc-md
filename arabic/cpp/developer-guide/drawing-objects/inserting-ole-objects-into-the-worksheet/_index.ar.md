@@ -4,9 +4,10 @@ type: docs
 weight: 20
 url: /ar/cpp/inserting-ole-objects-into-the-worksheet/
 ---
-##  **سيناريوهات الاستخدام المحتملة**
- Aspose.Cells يسمح لك بإدراج كائن OLE داخل ورقة العمل. الرجاء استخدام[ورقة العمل->GetOleObjects()->إضافة()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oleobjectcollection/add/)طريقة لهذا الغرض. ستحتاج إلى صفيف بايت صورة سيتم استخدامه لإدراج كائن OLE داخل ورقة العمل ووحدات بايت بيانات كائن Ole التي ستكون كائنك الفعلي. لإدراج كائن Ole داخل ورقة العمل.
-##  **إدراج كائنات OLE في ورقة العمل**
- نموذج التعليمات البرمجية التالي يقوم بإنشاء كائن المصنف وإدراج كائن Ole داخل ورقة العمل الأولى وحفظه باسم[إخراج ملف إكسل](66519074.xlsx) . الرجاء مراجعة<a href="66519075.png" download="66519075.png">Aspose الشعار</a> تستخدم بايت الصورة و[إدخال ملف إكسل](66519081.xlsx)تستخدم كبيانات كائن Ole داخل الكود كمرجع.
-##  **عينة من الرموز**
+
+## **سيناريوهات الاستخدام المحتملة**
+يتيح Aspose.Cells لك إدراج كائن OLE داخل ورقة العمل. يرجى استخدام [Worksheet->GetOleObjects()->Add()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oleobjectcollection/add/) لهذا الغرض. ستحتاج إلى مصفوفة بايتات صورة ستُستخدم لإدراج كائن OLE داخل ورقة العمل وبايتات بيانات الكائن Ole التي ستكون كائنك الفعلي لإدراج كائن Ole داخل ورقة العمل. 
+## **إدراج كائنات OLE في ورقة العمل**
+The following sample code creates the workbook object and inserts the Ole object inside the first worksheet and saves it as [output Excel file](66519074.xlsx). Please see the <a href="66519075.png" download="66519075.png">شعار Aspose</a> used as image bytes and [input Excel file](66519081.xlsx) used as Ole object data inside the code for reference.
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "DrawingObjects-InsertingOLEObjectsIntoWorksheet-new.cpp" >}}

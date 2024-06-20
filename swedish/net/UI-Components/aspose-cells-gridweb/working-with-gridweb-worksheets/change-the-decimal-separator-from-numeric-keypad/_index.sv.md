@@ -1,13 +1,16 @@
-﻿---
-title: Ändra decimalavgränsaren från det numeriska tangentbordet
+---
+title: Ändra decimalavskiljaren från numeriskt tangentbord
 type: docs
 weight: 150
-url: /sv/net/change-the-decimal-separator-from-numeric-keypad/
+url: /sv/net/aspose-cells-gridweb/change-the-decimal-separator-from-numeric-keypad/
+keywords: GridWeb, decimal, decimalavskiljare
+description: Den här artikeln introducerar hur man ändrar decimalavskiljaren i GridWeb.
 ---
-## **Möjliga användningsscenarier**
-Som standard visar Aspose.Cells.GridWeb numeriska data baserat på lokala/regionala inställningar på maskinen. Du kan ändra decimalavgränsaren från det numeriska tangentbordet programmatiskt med Aspose.Cells.GridWeb API. Så när en fil importeras till GridWeb-matrisen eller när du matar in några numeriska data (från det numeriska tangentbordet) i en ny kalkylbladscell, bör den ha önskad decimal separator inställd visuellt.
-## **Ändra decimalavgränsaren från det numeriska tangentbordet**
-Använda**GridWorksheetCollection.NumberDecimalSeparator**egenskap, kan du ändra decimalavgränsaren från den numeriska knappsatsen programmatiskt. Se skärmdumparna som visar hur det fungerar
+
+## **Möjliga användningsscenario**
+Som standard visar Aspose.Cells.GridWeb numeriska data i enlighet med inställningarna för språk och region på maskinen. Du kan ändra decimalavgränsaren från den numeriska tangentbordet genom att använda Aspose.Cells.GridWeb API. Så när en fil importeras till GridWeb-matrisen eller när du anger några numeriska data (från det numeriska tangentbordet) i en ny kalkylbladscell, ska det se ut enligt önskad decimalavgränsare. 
+## **Ändra decimalavgränsaren från den numeriska tangentbordet**
+Genom att använda egenskapen **GridWorksheetCollection.NumberDecimalSeparator** kan du ändra decimalavgränsaren från den numeriska tangentbordet programmatiskt. Se gärna skärmbilderna som visar hur det fungerar
 
 ![todo:image_alt_text](change-the-decimal-separator-from-numeric-keypad_1.png)
 
@@ -17,6 +20,6 @@ Använda**GridWorksheetCollection.NumberDecimalSeparator**egenskap, kan du ändr
 
 {{% alert color="primary" %}} 
 
-Observera att ändring av decimalavgränsare endast är för användarnas visuella upplevelse i GridWeb. När du redigerar och sparar din arbetsbok kommer den fortfarande att lagra de numeriska värdena (i kalkylarket) enligt din lokala/regionala decimalavgränsare.
+Observera att ändringen av decimalavgränsaren endast gäller för användarnas visuella upplevelse i GridWeb. När du redigerar och sparar din arbetsbok lagras numeriska värden (i kalkylarket) fortfarande enligt din språk- eller regionsavgränsare.
 
 {{% /alert %}}

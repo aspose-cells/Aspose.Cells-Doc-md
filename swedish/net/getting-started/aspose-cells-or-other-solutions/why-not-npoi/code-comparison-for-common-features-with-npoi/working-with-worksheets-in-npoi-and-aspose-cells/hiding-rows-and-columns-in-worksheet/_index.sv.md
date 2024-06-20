@@ -1,13 +1,14 @@
-﻿---
-title: Döljer rader och kolumner i kalkylblad
+---
+title: Dölja rader och kolumner i arbetsbladet
 type: docs
 weight: 60
 url: /sv/net/hiding-rows-and-columns-in-worksheet/
 ---
-## **Aspose.Cells - Döljer rader och kolumner i kalkylblad**
+
+## **Aspose.Cells - Dölja rader och kolumner i arbetsbladet**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook();
 
@@ -34,10 +35,10 @@ worksheet.Cells.HideColumn(0);
 workbook.Save("Output-HideRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Döljer rader och kolumner i kalkylblad**
+## **NPOI - HSSF XSSF - Dölja rader och kolumner i arbetsbladet**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -63,13 +64,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Döljer rader och kolumner i kalkylblad** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner formuläret **Dölja rader och kolumner i arbetsbladet** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Hiding.Rows.and.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Arbeta med arbetsblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+För mer information, besök [Arbeta med kalkylblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

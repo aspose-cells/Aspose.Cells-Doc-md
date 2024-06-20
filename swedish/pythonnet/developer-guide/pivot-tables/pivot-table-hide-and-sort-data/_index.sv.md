@@ -1,20 +1,21 @@
 ---
-title: Pivottabell Dölj och sortera data
+title: Pivottabell Dölj och Sortera data
 type: docs
 weight: 120
 url: /sv/python-net/pivot-table-hide-and-sort-data/
-description: Den här artikeln visar hur du döljer och sorterar data i pivottabellen med Aspose.Cells for Python via .NET.
-keywords: Pivot Table Hide and Sort data
+description: Den här artikeln visar hur man döljer och sorterar data i en pivottabell med Aspose.Cells för Python via .NET.
+keywords: Aspose.Cells för Python Excel, Excel Python bibliotek, Pivottabell Dölj och Sortera data.
 ---
-##  **Pivottabell Dölj och sortera data**
-Aspose.Cells for Python via .NET stöder att dölja och sortera data i pivottabellen. Följande kodavsnitt demonstrerar denna funktion genom att sortera kolumnen Poäng i fallande ordning och sedan dölja raderna med en poäng mindre än 60.
+
+## **Pivottabell Dölj och Sortera data med hjälp av Aspose.Cells för Python Excel-bibliotek**
+Aspose.Cells för Python via .NET stödjer att dölja och sortera data i pivottabellen. Följande kodsnutt demonstrerar denna funktion genom att sortera kolumnen Score i fallande ordning och sedan dölja raderna med ett poäng mindre än 60.
 
 
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableSortAndHide-1.py" >}}
 
-Käll- och utdata Excel-filerna som används i kodavsnittet bifogas som referens.
+Käll- och utdata-excelfilerna som används i kodsnutten är bifogade för referens.
 
-[Källfilen](96928093.xlsx)
+[Källfil](96928093.xlsx)
 
-[Utdatafil](96928094.xlsx)
+[Utgångsfil](96928094.xlsx)

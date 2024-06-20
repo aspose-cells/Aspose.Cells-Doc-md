@@ -1,28 +1,29 @@
-﻿---
-title: Вставить диапазоны
+---
+title: Вставка диапазонов
 type: docs
 weight: 20
 url: /ru/java/insert-ranges-to-Excel/
 ---
-## **Вступление**
 
-В Excel вы можете выбрать диапазон, затем вставить диапазон и сдвинуть другие данные вправо или вниз.
+## **Введение**
 
-**![Параметры сдвига](InsertRange.png)**
+В Excel можно выбрать диапазон, а затем вставить диапазон и сдвинуть другие данные вправо или вниз.
 
-## **Вставьте диапазоны, используя Aspose.Cells**
+**![Опции сдвига](InsertRange.png)**
 
- Aspose.Cells предоставляет[Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) для вставки диапазона.
+## **Вставка диапазонов с помощью Aspose.Cells**
 
-## **Вставить диапазоны и сдвинуть Cells вправо**
+Aspose.Cells предоставляет метод [Cells.InsertRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRange(com.aspose.cells.CellArea,%20int)) для вставки диапазона.
 
-Вставьте диапазон и сдвиньте ячейки правильно, как следующие коды с Aspose.Cells:
+## **Вставка диапазонов и сдвиг ячеек вправо**
+
+Вставить диапазон и сдвинуть ячейки вправо, как показано в следующих кодах с использованием Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Right.java" >}}
 
-## **Вставить диапазоны и сдвинуть Cells вниз**
+## **Вставка диапазонов и сдвиг ячеек вниз**
 
-Вставьте диапазон и сдвиньте ячейки вниз как следующие коды с Aspose.Cells:
+Вставить диапазон и сдвинуть ячейки вниз, как показано в следующих кодах с использованием Aspose.Cells:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Insert-Range-Down.java" >}}
 

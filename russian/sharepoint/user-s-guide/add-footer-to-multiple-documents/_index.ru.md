@@ -1,29 +1,30 @@
-﻿---
+---
 title: Добавить нижний колонтитул к нескольким документам
 type: docs
 weight: 80
 url: /ru/sharepoint/add-footer-to-multiple-documents/
 ---
-Если вы хотите добавить нижний колонтитул в несколько файлов Excel, выберите параметр «Добавить нижний колонтитул с Aspose.Cells» на панели ленты.
 
-![дело:изображение_альтернативный_текст](add-footer-to-multiple-documents_1.png)
+Если вы хотите добавить нижний колонтитул в несколько файлов Excel, выберите опцию «Добавить нижний колонтитул с помощью Aspose.Cells» на панели Ribbon.
 
-
-
-Получите все файлы Excel из папки источника данных и создайте таблицу списка файлов.
-
- Выберите файл, в который необходимо добавить нижний колонтитул, нажмите**Добавить нижний колонтитул** кнопка, чтобы добавить нижний колонтитул для выбранных файлов.
-
-![дело:изображение_альтернативный_текст](add-footer-to-multiple-documents_2.png)
+![todo:image_alt_text](add-footer-to-multiple-documents_1.png)
 
 
 
-При добавлении нижнего колонтитула доступны следующие параметры:
+Получить все файлы Excel из исходной папки и создать таблицу списка файлов.
+
+Выберите файл, к которому нужно добавить нижний колонтитул, нажмите кнопку **Добавить нижний колонтитул**, чтобы добавить нижний колонтитул для выбранных файлов. 
+
+![todo:image_alt_text](add-footer-to-multiple-documents_2.png)
+
+
+
+Во время настройки добавления нижнего колонтитула доступны следующие варианты:
 
 **Раздел**
 
-Добавьте положение нижнего колонтитула: левая часть, центральная часть и правая часть.
+Добавить позицию нижнего колонтитула: Левый раздел, Центральный раздел и Правый раздел.
 
-**Скрипт нижнего колонтитула**
+**Сценарий нижнего колонтитула**
 
-Он представляет собой скрипт форматирования нижнего колонтитула. Команды скрипта: Команда | Описание| &P Номер текущей страницы| &N Количество страниц|&D Текущая дата| &T Текущее время &A Имя листа &F Имя файла без пути &"<FontName>" Название шрифта, например: &"Arial" &"<FontName>, <FontStyle>" Название и стиль шрифта, например: &"Arial,Bold" &<FontSize>Размер шрифта. Если за этой командой следует простое число, которое будет напечатано в заголовке, оно будет отделено от высоты шрифта символом пробела. &G Сценарий изображения Например: "&Arial,Bold&8Footer Note".
+It represents Footer formatting script. Script commands: Command | Description| &P Current page number| &N Page count|&D Current date| &T Current time &A Sheet name &F File name without path &"<FontName>" Font name, for example: &"Arial" &"<FontName>, <FontStyle>" Font name and font style, for example: &"Arial,Bold" &<FontSize> Font size. If this command is followed by a plain number to be printed in the header, it will be separated from the font height with a space character. &G Image script For example: "&Arial,Bold&8Footer Note".

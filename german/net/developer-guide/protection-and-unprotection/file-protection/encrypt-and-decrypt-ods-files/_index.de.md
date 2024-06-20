@@ -1,28 +1,29 @@
-﻿---
-title: ODS-Dateien verschlüsseln und entschlüsseln
+---
+title: ODS Dateien verschlüsseln und entschlüsseln
 type: docs
 weight: 10
 url: /de/net/encrypt-and-decrypt-ods-files/
-description: Schützen und verschlüsseln Sie ODS-Dateien mit einem Kennwort, indem Sie Aspose.Cells für .Net verwenden, das eine reine Netzbibliothek ist.
+description: Passwortschutz und Verschlüsselung von ODS Dateien mit Aspose.Cells für .Net, das eine reine .NET Bibliothek ist.
 ---
+
 {{% alert color="primary" %}}
-OpenOffice.org ist eine Office-Suite mit vollem Funktionsumfang, die den Passwortschutz und die Verschlüsselung von Dateien unterstützt. Die verschlüsselte ODS-Datei kann jedoch nur von OpenOffice geöffnet werden, nachdem das Kennwort angegeben wurde. Excel kann die verschlüsselte ODS-Datei nicht öffnen und gibt möglicherweise eine Warnmeldung aus. Die Verschlüsselungsoptionen gelten im Gegensatz zu anderen Dateitypen nicht für die ODS-Datei.
- Aspose.Cells ermöglicht das Verschlüsseln und Entschlüsseln der Datei ODS. Die entschlüsselte ODS-Datei kann sowohl in Excel als auch in OpenOffice geöffnet werden,
+OpenOffice.org ist eine voll ausgestattete Office-Suite, die die Passwortschutz und Verschlüsselung von Dateien unterstützt. Jedoch kann eine verschlüsselte ODS-Datei nur von OpenOffice geöffnet werden, nachdem das Passwort eingegeben wurde. Excel kann die verschlüsselte ODS-Datei nicht öffnen und möglicherweise eine Warnmeldung anzeigen. Die Verschlüsselungsoptionen sind nicht für ODS-Dateien wie für andere Dateitypen anwendbar. 
+Aspose.Cells ermöglicht es, ODS-Dateien zu verschlüsseln und zu entschlüsseln. Entschlüsselte ODS-Dateien können sowohl in Excel als auch in OpenOffice geöffnet werden. 
 {{% /alert %}}
 
-## **Verschlüsseln mit OpenOffice Calc**
-1.  Wählen**Speichern als** und Klicken Sie auf die**Mit Passwort speichern** Kasten.
-1.  Drücke den**Speichern** Knopf.
-1.  Geben Sie Ihr gewünschtes Passwort in beide ein**Geben Sie das Passwort zum Öffnen ein** und**Kennwort bestätigen** Felder im sich öffnenden Fenster Passwort festlegen.
-1.  Drücke den**OK** Schaltfläche, um die Datei zu speichern.
+## **Mit OpenOffice Calc verschlüsseln**
+1. Wählen Sie **Speichern unter** und aktivieren Sie das Kästchen **Mit Passwort speichern**.
+1. Klicken Sie auf die **Speichern**-Schaltfläche.
+1. Geben Sie Ihr gewünschtes Passwort in die Felder **Kennwort eingeben zum Öffnen** und **Kennwort bestätigen** im Fenster **Passwort festlegen** ein, das geöffnet wird. 
+1. Klicken Sie auf die Schaltfläche **OK**, um die Datei zu speichern.
 
 ## **ODS-Datei mit Aspose.Cells für .Net verschlüsseln**
- Um eine ODS-Datei zu verschlüsseln, laden Sie die Datei und stellen Sie die[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) Wert auf das eigentliche Passwort, bevor Sie es speichern. Die verschlüsselte Ausgabedatei ODS kann nur in OpenOffice geöffnet werden.
+Für die Verschlüsselung einer ODS-Datei laden Sie die Datei und setzen Sie den Wert [**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) auf das tatsächliche Passwort, bevor Sie sie speichern. Die verschlüsselte Ausgabedatei im ODS-Format kann nur in OpenOffice geöffnet werden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 
-## **Entschlüsseln Sie die ODS-Datei mit Aspose.Cells für .Net**
+## **ODS-Datei mit Aspose.Cells für .Net entschlüsseln**
 
- Um eine ODS-Datei zu entschlüsseln, laden Sie die Datei, indem Sie ein Passwort in der[**LoadOptions.Passwort**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password) . Sobald die Datei geladen ist, legen Sie die[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) Zeichenfolge auf null.
+Für das Entschlüsseln einer ODS-Datei laden Sie die Datei, indem Sie ein Passwort in [**LoadOptions.Password**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/password) angeben. Sobald die Datei geladen ist, setzen Sie den Wert [**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) auf null.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-DecryptingODSFiles-1.cs" >}}

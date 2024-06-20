@@ -1,21 +1,22 @@
 ---
-title: So erstellen Sie ein Kombinationsdiagramm
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET ein Kombinationsdiagramm erstellen. Unser umfassender Leitfaden zeigt, wie Sie verschiedene Diagrammtypen für eine effektivere Datenpräsentation in einem Kombinationsdiagramm kombinieren.
-keywords: Aspose.Cells for .NET, Combo Chart, Combining Chart Types, Data Presentation, Effective Visualization.
+title: Wie man ein Kombinationsdiagramm erstellt
+description: Erfahren Sie, wie Sie ein Kombinationsdiagramm mit Aspose.Cells for .NET erstellen. Unser umfassender Leitfaden wird zeigen, wie man verschiedene Diagrammtypen zu einem Kombinationsdiagramm für eine effektivere Datendarstellung kombiniert.
+keywords: Aspose.Cells for .NET, Kombinationsdiagramm, Kombinieren von Diagrammtypen, Datendarstellung, Effektive Visualisierung.
 type: docs
 weight: 73
 url: /de/net/create-combo-chart/
 ---
-##  **Mögliche Nutzungsszenarien**
-Mit Kombinationsdiagrammen in Excel können Sie diese Option nutzen, da Sie problemlos zwei oder mehr Diagrammtypen kombinieren können, um Ihre Daten verständlich zu machen. Kombinationsdiagramme sind hilfreich, wenn Ihre Daten mehrere Arten von Werten enthalten, einschließlich Preis und Volumen. Darüber hinaus sind Kombinationsdiagramme möglich, wenn sich Ihre Datenzahlen von Serie zu Serie stark ändern.
- Am Beispiel des folgenden Datensatzes können wir beobachten, dass diese Daten den in erwähnten Daten ziemlich ähnlich sind[**VHCL**](https://docs.aspose.com/cells/net/create-volume-high-low-close-stock-chart/). Wie gehen wir vor, wenn wir die Serie0, die dem „Gesamtumsatz“ entspricht, als Liniendiagramm visualisieren möchten?
+
+## **Mögliche Verwendungsszenarien**
+Kombinationsdiagramme in Excel ermöglichen es Ihnen, diese Option zu nutzen, da Sie problemlos zwei oder mehr Diagrammtypen kombinieren können, um Ihre Daten verständlich zu machen. Kombinationsdiagramme sind hilfreich, wenn Ihre Daten verschiedene Arten von Werten enthalten, einschließlich Preis und Volumen. Darüber hinaus sind Kombinationsdiagramme sinnvoll, wenn sich Ihre Datenwerte von Serie zu Serie stark ändern.
+Anhand des folgenden Datensatzes können wir beobachten, dass diese Daten denen in [**VHCL**](https://docs.aspose.com/cells/net/create-volume-high-low-close-stock-chart/) ähnlich sind. Wenn wir die Serie0, die "Gesamterlös" entspricht, als Liniendiagramm visualisieren möchten, wie sollten wir vorgehen?
 
 ![todo:image_alt_text](sample.png)
-##  **Kombinationsdiagramm**
-Nachdem Sie den folgenden Code ausgeführt haben, sehen Sie das unten gezeigte Kombinationsdiagramm.
+## **Kombinationsdiagramm**
+Nach Ausführung des unten stehenden Codes sehen Sie das Kombinationsdiagramm wie unten gezeigt.
 
 ![todo:image_alt_text](result.png)
-##  **Beispielcode**
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](combo.xlsx) und erzeugt die[Excel-Datei ausgeben](out.xlsx).
+## **Beispielcode**
+Der folgende Beispielscode lädt die [Beispieldatei](combo.xlsx) und erstellt die [Ausgabedatei](out.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "create-combo-chart.cs" >}}

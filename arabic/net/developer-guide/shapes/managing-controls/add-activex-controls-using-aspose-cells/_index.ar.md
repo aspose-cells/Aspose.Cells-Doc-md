@@ -1,30 +1,31 @@
-﻿---
-title: أضف عناصر تحكم ActiveX باستخدام Aspose.Cells
+---
+title: إضافة عناصر التحكم ActiveX باستخدام Aspose.Cells
 type: docs
 weight: 260
 url: /ar/net/add-activex-controls-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
- يمكنك إضافة عناصر تحكم ActiveX باستخدام Aspose.Cells باستخدام ملف[**ShapeCollection.AddActiveXControl ()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addactivexcontrol) طريقة. هذه الطريقة تأخذ معلمة[**نوع التحكم**](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype)الذي يوضح نوع عنصر تحكم ActiveX الذي يجب إضافته داخل ورقة العمل. لديها القيم التالية.
+يمكنك إضافة أشرطة التحكم ActiveX باستخدام طريقة [**ShapeCollection.AddActiveXControl()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addactivexcontrol). تأخذ هذه الطريقة معلمة [**ControlType**](https://reference.aspose.com/cells/net/aspose.cells.drawing.activexcontrols/controltype) التي تخبر ما نوع أشرطة تحكم ActiveX التي يجب إضافتها داخل ورقة عمل. لديها القيم التالية.
 
-- نوع التحكم
-- نوع التحكم
+- ControlType.CheckBox
+- ControlType.ComboBox
 - ControlType.CommandButton
-- نوع التحكم
-- نوع التحكم
-- نوع التحكم
-- نوع التحكم. زر راديو
-- نوع التحكم. شريط التمرير
-- نوع التحكم
+- ControlType.Image
+- ControlType.Label
+- ControlType.ListBox
+- ControlType.RadioButton
+- ControlType.ScrollBar
+- ControlType.SpinButton
 - ControlType.TextBox
-- نوع التحكم
-- نوع التحكم. غير معروف
+- ControlType.ToggleButton
+- ControlType.Unknown
 
- بمجرد إضافة عنصر تحكم ActiveX داخل مجموعة الأشكال ، يمكنك بعد ذلك الوصول إلى كائن عنصر تحكم ActiveX عبر[**الشكل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol) ثم قم بتعيين خصائصها المختلفة.
+بمجردإضافتكلتحكمActiveX داخلمجموعةالشكل، يمكنكمنثمالوصولإلىكائنتحكمActiveXعبرخاصية[**Shape.ActiveXControl**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/activexcontrol)ثمتعيينخصائصه(متغيراته) المختلفة.
 
 {{% /alert %}}
 
-يضيف نموذج التعليمات البرمجية التالي عنصر تحكم ActiveX للزر تبديل باستخدام Aspose.Cells.
+يقومالكودالمصدرالتاليبإضافةزرتبديلتحكمActiveXباستخدامAspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddActiveXControls-1.cs" >}}

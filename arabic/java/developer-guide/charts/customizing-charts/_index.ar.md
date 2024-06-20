@@ -1,203 +1,204 @@
 ---
-title: تخصيص الرسوم البيانية
+title: تخصيص المخططات
 type: docs
 weight: 15
 url: /ar/java/creating-and-customizing-charts/
 alias: [/java/customizing-charts/]
 ---
-##  **إنشاء الرسوم البيانية**
 
-من الممكن إضافة مجموعة متنوعة من المخططات إلى جداول البيانات باستخدام Aspose.Cells. يوفر Aspose.Cells العديد من كائنات الرسوم البيانية المرنة. يناقش هذا الموضوع كائنات التخطيط Aspose.Cells.
+## **إنشاء الرسوم البيانية**
 
-###  **ببساطة إنشاء مخطط**
+من الممكن إضافة مجموعة متنوعة من الرسوم البيانية إلى جداول البيانات باستخدام Aspose.Cells. توفر Aspose.Cells العديد من كائنات الرسم البياني المرنة. يتناول هذا الموضوع كائنات الرسم البياني في Aspose.Cells.
 
-من السهل إنشاء مخطط بالرقم Aspose.Cells باستخدام رموز الأمثلة التالية:
+### **ببساطة إنشاء رسم بياني**
+
+من السهل إنشاء مخطط باستخدام Aspose.Cells مع أمثلة الشفرة التالية:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-Charts-ManipulateChart-HowToCreateColumnChart-1.java" >}}
 
 
-###  **أشياء يجب معرفتها لإنشاء مخطط**
+### **أشياء يجب معرفتها لإنشاء مخطط**
 
 قبل إنشاء المخططات، من المهم فهم بعض المفاهيم الأساسية التي تكون مفيدة عند إنشاء المخططات باستخدام Aspose.Cells.
 
-####  **رسم الكائنات**
+#### **كائنات المخطط**
 
-Aspose.Cells يوفر مجموعة خاصة من الفئات المستخدمة لإنشاء جميع أنواع المخططات. تُستخدم هذه الفئات لإنشاء *كائنات الرسم البياني**، والتي تعمل كعناصر بناء للرسم البياني. كائنات التخطيط مدرجة أدناه:
+توفر Aspose.Cells مجموعة خاصة من الفئات المستخدمة لإنشاء جميع أنواع المخططات. تُستخدم هذه الفئات لإنشاء **كائنات المخططات**، التي تعمل كبناء المخطط. يتم سرد كائنات المخططات أدناه:
 
-- [**محور**](https://reference.aspose.com/cells/java/com.aspose.cells/Axis)، محور المخطط.
-- [**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)، مخطط Excel واحد.
-- [**منطقة الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartArea)، منطقة المخطط في ورقة العمل.
-- [**ChartDataTable**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartDataTable)، جدول بيانات الرسم البياني.
-- [**إطار الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartFrame)، كائن الإطار في المخطط.
-- [**تشارتبوينت**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint)، نقطة واحدة في سلسلة في المخطط.
+- [**Axis**](https://reference.aspose.com/cells/java/com.aspose.cells/Axis)، محور للمخطط.
+- [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)، مخطط Excel واحد.
+- [**ChartArea**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartArea)، منطقة المخطط في ورقة العمل.
+- [**ChartDataTable**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartDataTable)، جدول بيانات المخطط.
+- [**ChartFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartFrame)، كائن الإطار في الرسم البياني.
+- [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint)، نقطة واحدة في سلسلة في رسم بياني.
 - [**ChartPointCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPointCollection)، مجموعة تحتوي على جميع النقاط في سلسلة واحدة.
-- [**مجموعة الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) ، مجموعة من[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)أشياء.
--  DataLabels، DataLabels للمحدد[**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**تشارتبوينت**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**خط الاتجاه**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline)، إلخ.
-- [**تنسيق التعبئة**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat)، تعبئة التنسيق للشكل.
-- [**أرضية**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor)، أرضية مخطط ثلاثي الأبعاد.
-- [**أسطورة**](https://reference.aspose.com/cells/java/com.aspose.cells/Legend)، وسيلة إيضاح الرسم البياني.
-- [**خط**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)، خط الرسم البياني.
-- [**مجموعة السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) ، مجموعة من[**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)أشياء.
-- [**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)يمثل سلسلة بيانات واحدة في مخطط.
-- [**علامات التجزئة**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels)، تسميات علامات التجزئة المرتبطة بعلامات التجزئة على محور المخطط.
-- [**عنوان**](https://reference.aspose.com/cells/java/com.aspose.cells/Title)، عنوان المخطط أو المحور.
-- [**خط الاتجاه**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline)، خط الاتجاه في الرسم البياني.
-- [**TrendlineCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/TrendlineCollection)، مجموعة من كافة كائنات خط الاتجاه لسلسلة البيانات المحددة.
-- [**الجدران**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls)، جدران مخطط ثلاثي الأبعاد.
+- [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)، مجموعة من [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) كائن.
+- DataLabels، تسميات البيانات لل [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) المحدد، [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint)، [**Trendline**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline)، وما إلى ذلك.
+- [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat)، تنسيق التعبئة لشكل.
+- [**Floor**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor)، الطابق في الرسم البياني ثلاثي الأبعاد.
+- [**Legend**](https://reference.aspose.com/cells/java/com.aspose.cells/Legend)، أسطورة الرسم البياني.
+- [**Line**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)، خط الرسم البياني.
+- [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)، مجموعة من [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) كائن.
+- [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)، يمثل سلسلة بيانات واحدة في الرسم البياني.
+- [**TickLabels**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels)، تسميات علامات الصح عندما يرتبطون بعلامات على محور الرسم البياني.
+- [**Title**](https://reference.aspose.com/cells/java/com.aspose.cells/Title)، عنوان الرسم البياني أو المحور.
+- [**Trendline**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline)، خط اتجاه في الرسم البياني.
+- [**TrendlineCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/TrendlineCollection)، مجموعة من جميع كائنات خط الاتجاه لسلسلة البيانات المحددة.
+- [**Walls**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls)، الجدران في رسم بياني ثلاثي الأبعاد.
 
-####  **استخدام كائنات التخطيط**
+#### **استخدام كائنات الرسم البياني**
 
-كما هو مذكور أعلاه، فإن كافة كائنات التخطيط هي مثيلات لفئاتها الخاصة وتوفر خصائص وأساليب محددة لتنفيذ مهام محددة. استخدم كائنات التخطيط لإنشاء المخططات.
+كما ذكر أعلاه، جميع كائنات الرسم البياني هي حالات من فئاتها الخاصة وتوفر خصائص وأساليب محددة لأداء مهام محددة. استخدم كائنات الرسم البياني لإنشاء رسوم بيانية.
 
- أضف أي نوع من المخططات إلى ورقة العمل باستخدام[**مجموعة الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) مجموعة. كل عنصر في[**مجموعة الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) جمع يمثل أ[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) هدف. أ[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)يقوم الكائن بتغليف كافة كائنات التخطيط المطلوبة لتخصيص مظهر المخطط. يوضح القسم التالي كيفية استخدام بعض كائنات التخطيط الأساسية لإنشاء مخطط بسيط.
+أضف أي نوع من الرسوم البيانية إلى ورقة العمل باستخدام مجموعة [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) . كل عنصر في مجموعة [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) يمثل كائن [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) . يكتنف كائن [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) جميع أجسام الرسم البياني المطلوبة لتخصيص مظهر الرسم البياني. توضح القسم التالي كيفية استخدام بعض أجسام الرسم البياني الأساسية لإنشاء رسم بياني بسيط.
 
-###  **إنشاء مخطط بسيط**
+### **إنشاء رسم بياني بسيط**
 
-من الممكن إنشاء العديد من أنواع المخططات المختلفة باستخدام Aspose.Cells. جميع المخططات القياسية التي يدعمها Aspose.Cells محددة مسبقًا في تعداد يسمى[**نوع التخطيط**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType). أنواع المخططات المحددة مسبقًا هي:
+من الممكن إنشاء العديد من أنواع مختلفة من الرسوم البيانية باستخدام Aspose.Cells. جميع الرسوم البيانية القياسية المدعومة بواسطة Aspose.Cells محددة مسبقا في تعداد يسمى [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType). أنواع الرسوم البيانية المحددة مسبقا هي:
 
-|**أنواع المخططات**|**وصف**|
+|**أنواع الرسوم البيانية**|**الوصف**|
 | :- | :- |
-|عمود|يمثل المخطط العمودي متفاوت المسافات|
-|عمود مكدس|يمثل مخططًا عموديًا مكدسًا|
-|عمود100%مكدس|يمثل مخططًا عموديًا مكدسًا بنسبة 100%|
-|Column3Dمجمع|يمثل مخططًا عموديًا متفاوت المسافات ثلاثي الأبعاد|
-|Column3DStacked|يمثل مخططًا عموديًا مكدسًا ثلاثي الأبعاد|
-|العمود3D100٪مكدس|يمثل مخططًا عموديًا مكدسًا ثلاثي الأبعاد بنسبة 100%|
-|عمود3D|يمثل مخططًا عموديًا ثلاثي الأبعاد|
-|حاجِز|يمثل مخطط شريطي متفاوت المسافات|
-|BarStacked|يمثل مخطط شريطي مكدس|
-|شريط مكدس بنسبة 100%|يمثل مخططًا شريطيًا مكدسًا بنسبة 100%|
-|Bar3Dمجمع|يمثل مخطط شريطي متفاوت المسافات ثلاثي الأبعاد|
-|Bar3DStacked|يمثل مخطط شريطي مكدس ثلاثي الأبعاد|
-|شريط3D100%مكدس|يمثل مخططًا شريطيًا مكدسًا ثلاثي الأبعاد بنسبة 100%|
-|خط|يمثل الرسم البياني الخطي|
-|LineStacked|يمثل مخططًا خطيًا مكدسًا|
-|Line100%مكدس|يمثل مخططًا خطيًا مكدسًا بنسبة 100%|
-|LineWithDataMarkers|يمثل مخططًا خطيًا مع علامات البيانات|
-|LineStackedWithDataMarkers|يمثل مخططًا خطيًا مكدسًا مع علامات البيانات|
-|Line100%مكدس مع علامات البيانات|يمثل مخططًا خطيًا مكدسًا بنسبة 100% مع علامات البيانات|
-|Line3D|يمثل مخطط خطي ثلاثي الأبعاد|
-|فطيرة|يمثل الرسم البياني الدائري|
-|فطيرة3D|يمثل مخططًا دائريًا ثلاثي الأبعاد|
-|فطيرة فطيرة|يمثل فطيرة الرسم البياني الدائري|
-|فطيرة انفجرت|يمثل مخطط دائري انفجر|
-|Pie3DExploded|يمثل مخطط دائري انفجر ثلاثي الأبعاد|
-|بيبار|يمثل شريط الرسم البياني الدائري|
-|مبعثر|يمثل المخطط المبعثر|
-|مبعثر متصل بواسطة منحنيات مع DataMarker|يمثل المخطط المبعثر المتصل بالمنحنيات، مع علامات البيانات|
-|مبعثر متصل بواسطة منحنيات بدون علامة البيانات|يمثل المخطط المبعثر المتصل بواسطة المنحنيات، بدون علامات البيانات|
-|ScatterConnectedByLinesWithDataMarker|يمثل المخطط المبعثر المتصل بالخطوط، مع علامات البيانات|
-|ScatterConnectedByLinesWithoutDataMarker|يمثل المخطط المبعثر المتصل بالخطوط، بدون علامات البيانات|
-|منطقة|يمثل مخطط المنطقة|
-|منطقة مكدسة|يمثل مخططًا مساحيًا مكدسًا|
-|المساحة 100%مكدسة|يمثل مخططًا مساحيًا مكدسًا بنسبة 100%|
-|منطقة3D|يمثل مخطط منطقة ثلاثي الأبعاد|
-|Area3DStacked|يمثل مخططًا مساحيًا مكدسًا ثلاثي الأبعاد|
-|المساحة 3D100%مكدسة|يمثل مخططًا مساحيًا ثلاثي الأبعاد مكدسًا بنسبة 100%|
-|كعكة محلاة|يمثل مخطط الدونات|
-|دوناتانفجرت|يمثل مخطط الدونات المنفجر|
-|رادار|يمثل مخطط الرادار|
-|الرادار مع علامات البيانات|يمثل مخطط الرادار مع علامات البيانات|
-|رادار معبأ|يمثل مخطط الرادار المملوء|
-|سطح3D|يمثل مخطط سطحي ثلاثي الأبعاد|
-|SurfaceWireframe3D|يمثل المخطط السطحي ثلاثي الأبعاد للإطار السلكي|
-|SurfaceContour|يمثل مخطط كفاف|
-|SurfaceContourWireframe|يمثل مخطط محيطي سلكي|
-|فقاعة|يمثل مخطط الفقاعة|
-|Bubble3D|يمثل مخطط فقاعي ثلاثي الأبعاد|
-|اسطوانة|يمثل مخطط الاسطوانة|
-|CylinderStacked|يمثل مخطط اسطوانة مكدسة|
-|الأسطوانة مكدسة بنسبة 100%|يمثل مخططًا أسطوانيًا مكدسًا بنسبة 100%|
-|شريط اسطواني|يمثل مخطط شريطي أسطواني.|
-|CylindricalBarStacked|يمثل مخطط شريطي أسطواني مكدس|
-|شريط أسطواني مكدس بنسبة 100%|يمثل مخططًا شريطيًا أسطوانيًا مكدسًا بنسبة 100%|
-|عمود أسطواني3D|يمثل مخططًا عموديًا أسطوانيًا ثلاثي الأبعاد|
-|مخروط|يمثل مخطط المخروط|
-|ConeStacked|يمثل مخططًا مخروطيًا مكدسًا|
-|مخروطي100%مكدس|يمثل مخططًا مخروطيًا مرصوفًا بنسبة 100%|
-|ConicalBar|يمثل مخطط شريطي مخروطي|
-|ConicalBarStacked|يمثل مخطط شريطي مخروطي مكدس|
-|شريط مخروطي بنسبة 100% مكدس|يمثل مخططًا شريطيًا مخروطيًا مكدسًا بنسبة 100%|
-|ConicalColumn3D|يمثل مخطط عمود مخروطي ثلاثي الأبعاد|
-|هرم|يمثل مخطط الهرم|
-|الهرممكدس|يمثل مخطط الهرم المكدس|
-|الهرم مكدس بنسبة 100%|يمثل مخططًا هرميًا مرصوفًا بنسبة 100%|
-|PyramidBar|يمثل مخطط شريط الهرم|
-|PyramidBarStacked|يمثل مخطط شريطي هرمي مكدس|
-|PyramidBar100%مكدس|يمثل مخططًا شريطيًا هرميًا مكدسًا بنسبة 100%|
-|الهرم العمود3D|يمثل مخطط عمود الهرم ثلاثي الأبعاد|
-لإنشاء مخطط باستخدام Aspose.Cells:
+|Column| يمثل مخطط العمود المتجمع
+|ColumnStacked| يمثل مخطط الأعمدة المكدسة
+|Column100PercentStacked| يمثل مخطط الأعمدة المكدسة بنسبة 100%
+|Column3DClustered| يمثل مخطط الأعمدة المتجانبة ثلاثي الأبعاد
+|Column3DStacked| يمثل مخطط الأعمدة المكدسة ثلاثي الأبعاد
+|Column3D100PercentStacked| يمثل مخطط الأعمدة المكدسة بنسبة 100% ثلاثي الأبعاد
+|Column3D| يمثل مخطط الأعمدة ثلاثي الأبعاد
+|Bar| يمثل مخطط الأعمدة المتجانبة الأفقية
+|BarStacked| يمثل مخطط الأعمدة المكدسة الأفقية
+|Bar100PercentStacked| يمثل مخطط الأعمدة المكدسة بنسبة 100% الأفقية
+|Bar3DClustered| يمثل مخطط الأعمدة المتجانبة ثلاثي الأبعاد الأفقية
+|Bar3DStacked| يمثل مخطط الأعمدة المكدسة ثلاثي الأبعاد الأفقية
+|Bar3D100PercentStacked| يمثل مخطط الأعمدة المكدسة بنسبة 100% ثلاثي الأبعاد الأفقية
+|Line| يمثل مخطط الخطوط
+|LineStacked| يمثل مخطط الخطوط المكدسة
+|Line100PercentStacked| يمثل مخطط الخطوط المكدسة بنسبة 100%
+|LineWithDataMarkers| يمثل مخطط الخط مع علامات البيانات
+|LineStackedWithDataMarkers|تمثل مخطط خطوط مكدسة مع علامات البيانات|
+|Line100PercentStackedWithDataMarkers|تمثل مخطط خطوط مكدسة 100% مع علامات البيانات|
+|Line3D|تمثل مخطط خطوط ثلاثي الأبعاد|
+|Pie|تمثل مخطط دائري|
+|Pie3D|تمثل مخطط دائري ثلاثي الأبعاد|
+|PiePie|تمثل مخطط دائري فوق الدائرة|
+|PieExploded|تمثل مخطط دائري منفجر|
+|Pie3DExploded|تمثل مخطط دائري منفجر ثلاثي الأبعاد|
+|PieBar|تمثل مخطط بارز فوق القطعة من البيتزا|
+|Scatter| تمثل مخطط النقاط|
+|ScatterConnectedByCurvesWithDataMarker|تمثل مخطط النقاط المتصل بالمنحنيات مع علامات البيانات|
+|ScatterConnectedByCurvesWithoutDataMarker|تمثل مخطط النقاط المتصل بالمنحنيات بدون علامات البيانات|
+|ScatterConnectedByLinesWithDataMarker|تمثل مخطط النقاط المتصل بالخطوط مع علامات البيانات|
+|ScatterConnectedByLinesWithoutDataMarker|تمثل مخطط النقاط المتصل بالخطوط بدون علامات البيانات|
+|Area|تمثل مخطط المساحة|
+|AreaStacked|تمثل مخطط المساحة المكدسة|
+|Area100PercentStacked|تمثل مخطط المساحة المكدسة 100%|
+|Area3D|تمثل مخطط المساحة ثلاثي الأبعاد|
+|Area3DStacked|تمثل مخطط المساحة المكدسة ثلاثي الأبعاد|
+|Area3D100PercentStacked|تمثل مخطط المساحة المكدسة 100% ثلاثي الأبعاد|
+|Doughnut|يمثل مخطط الدونات|
+|DoughnutExploded|يمثل مخطط الدونات المتفجر|
+|Radar|يمثل تخطيط الرادار|
+|RadarWithDataMarkers|يمثل تخطيط الرادار مع علامات البيانات|
+|RadarFilled|يمثل مخطط الرادار المملوء|
+|Surface3D|يمثل مخطط السطح ثلاثي الأبعاد|
+|SurfaceWireframe3D|يمثل تخطيط السطح ثلاثي الأبعاد الشبكي|
+|SurfaceContour|يمثل مخطط التكهف|
+|SurfaceContourWireframe|يمثل مخطط التكهف بالأسلاك|
+|Bubble|يمثل مخطط الفقاعات|
+|Bubble3D|يمثل مخطط الفقاعات ثلاثي الأبعاد|
+|Cylinder|يمثل مخطط الأسطوانة|
+|CylinderStacked|يمثل مخطط الأسطوانة المكدسة|
+|Cylinder100PercentStacked|يمثل المخطط الأسطواني المكدس بنسبة 100٪|
+|CylindricalBar|يمثل تخطيط الشريط الأسطواني|
+|CylindricalBarStacked|يمثل تخطيط الشريط الأسطواني المكدس|
+|CylindricalBar100PercentStacked|يمثل تخطيط الشريط الأسطواني المكدس بنسبة 100%|
+|CylindricalColumn3D|يمثل تخطيط الأعمدة الأسطوانية ثلاثية الأبعاد|
+|Cone|يمثل مخطط المخروط|
+|ConeStacked|يمثل مخطط المخروط المكدس|
+|Cone100PercentStacked|يمثل 100% حجم الرسم البياني المكدس المخروطي|
+|ConicalBar|يمثل رسم بياني شريطي مخروطي|
+|ConicalBarStacked|يمثل رسم بياني شريطي مكدس مخروطي|
+|ConicalBar100PercentStacked|يمثل رسم بياني شريطي مخروطي مكدس بنسبة 100%|
+|ConicalColumn3D|يمثل رسم بياني أعمدة مخروطي ثلاثي الأبعاد|
+|Pyramid|يمثل رسم بياني الهرم|
+|PyramidStacked|يمثل رسم بياني الهرم المكدس|
+|Pyramid100PercentStacked|يمثل رسم بياني الهرم المكدس بنسبة 100%|
+|PyramidBar|تمثل رسم بياني بشكل هرمي مخروطي|
+|PyramidBarStacked|يمثل رسم بياني شريطي هرمي مكدس|
+|PyramidBar100PercentStacked|يمثل رسم بياني شريطي هرمي مكدس بنسبة 100%|
+|PyramidColumn3D|يمثل رسم بياني أعمدة هرمي ثلاثي الأبعاد|
+لا إنشاء رسم بياني باستخدام Aspose.Cells:
 
-1. أضف بعض البيانات إلى خلايا ورقة العمل باستخدام الملحق[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) أشياء[**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)طريقة.
- سيتم استخدام هذا كمصدر بيانات للمخطط.
-1.  أضف مخططًا إلى ورقة العمل عن طريق استدعاء[**مجموعة الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) المجموعة[*يضيف*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) ) الطريقة، مغلفة في[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)هدف.
-1.  حدد نوع المخطط باستخدام[**نوع التخطيط**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)تعداد.
- على سبيل المثال، يستخدم المثال[**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID)القيمة كنوع المخطط.
-1.  الوصول إلى الجديد[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) كائن من[**مجموعة الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)جمع عن طريق تمرير فهرسها.
-1.  استخدم أيًا من كائنات التخطيط المغلفة في[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)كائن لإدارة المخطط.
- يستخدم المثال أدناه[**مجموعة السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)كائن التخطيط لتحديد مصدر بيانات المخطط.
+1. أضف بعض البيانات إلى خلايا ورقة العمل باستخدام الطريقة [**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value) لكائن [**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell).
+   سيتم استخدام هذا كمصدر بيانات للرسم البياني.
+1. إضافة رسم بياني إلى ورقة العمل عن طريق استدعاء *add* الكائن المجموعة [*add*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int)) الطريقة، مغلفة في [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) الكائن.
+1. حدد نوع الرسم البياني بتعداد [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType).
+   على سبيل المثال، يستخدم المثال قيمة [**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID) كنوع رسم بياني.
+1. اصطحب الكائن [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) المكون حديثًا من مجموعة [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) عن طريق تمرير فهرسه.
+1. استخدم أي من كائنات الرسم البياني المغلفة في الكائن [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) لإدارة الرسم البياني.
+   يستخدم المثال أدناه كائن الرسم البياني [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) لتحديد مصدر بيانات الرسم البياني.
 
-عند إضافة بيانات المصدر إلى المخطط، يمكن أن يكون مصدر البيانات عبارة عن نطاق من الخلايا (مثل "A1:C3")، أو تسلسل من الخلايا غير المتجاورة (مثل "A1، A3، A5")، أو تسلسل من الخلايا القيم (مثل "1،2،3").
+عند إضافة بيانات المصدر إلى الرسم البياني، يمكن أن يكون مصدر البيانات مجموعة من الخلايا (مثل "A1:C3")، أو تسلسل من الخلايا غير المتصلة (مثل "A1، A3، A5")، أو تسلسل من القيم (مثل "1،2،3").
 
 {{% alert color="primary" %}}
 
-عندما تقوم بتعيين نطاق من الخلايا كمصدر بيانات، يمكنك فقط تعيين النطاق من أعلى اليسار إلى أسفل اليمين. على سبيل المثال، "A1:C3" صالح بينما "C3:A1" غير صالح.
+عندما تخصص مجموعة من الخلايا كمصدر للبيانات، يمكنك فقط تحديد المدى من أعلى اليسار إلى أسفل اليمين. على سبيل المثال، "A1:C3" هو صحيح بينما "C3:A1" غير صالح.
 
 {{% /alert %}}
 
-تسمح لك هذه الخطوات العامة بإنشاء أي نوع من المخططات. استخدم كائنات تخطيطية مختلفة لإنشاء مخططات مختلفة.
+تتيح لك هذه الخطوات العامة إنشاء أي نوع من الرسم البياني. استخدم كائنات الرسم البياني المختلفة لإنشاء رسوم بيانية مختلفة.
 
-عند تنفيذ رمز المثال، تتم إضافة مخطط هرمي إلى ورقة العمل كما هو موضح أدناه.
+عند تنفيذ كود المثال، يتم إضافة رسم بياني هرمي إلى ورقة العمل كما هو مبين أدناه.
 
-**مخطط هرمي مع مصدر البيانات الخاص به**
+**رسم بياني هرمي مع مصدر بياناته**
 
-![ما يجب القيام به:image_alt_text](creating-and-customizing-charts_1.png)
+![todo:image_alt_text](creating-and-customizing-charts_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreatePyramidChart-HowToCreatePyramidChart.java" >}}
 
- لإنشاء مخطط فقاعي، استخدم[**نوع التخطيط**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)يجب أن يتم ضبطه على[**ChartType.BUBBLE**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#BUBBLE)ويجب تعيين بعض الخصائص الإضافية مثل BubbleSizes وValues وXValues وفقًا لذلك. عند تنفيذ التعليمات البرمجية التالية، تتم إضافة مخطط فقاعي إلى ورقة العمل كما هو موضح أدناه.
+لإنشاء رسم بياني فقاعة، يجب ضبط [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) ليكون [**ChartType.BUBBLE**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#BUBBLE)، ويجب ضبط بعض الخصائص الإضافية مثل BubbleSizes, Values & XValues على هذا النحو. عند تنفيذ الكود التالي، يتم إضافة رسم بياني فقاعة إلى ورقة العمل كما هو مبين أدناه.
 
-**مخطط فقاعي مع مصدر البيانات الخاص به**
+**رسم بياني فقاعة مع مصدر بياناته**
 
-![ما يجب القيام به:image_alt_text](creating-and-customizing-charts_2.jpg)
+![todo:image_alt_text](creating-and-customizing-charts_2.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreateBubbleChart-HowToCreateBubbleChart.java" >}}
 
-####  **يتماشى مع مخطط علامة البيانات**
+#### **رسم بياني خطي بمؤشرات البيانات**
 
-لإنشاء خط باستخدام مخطط علامة البيانات، قم بإنشاء خط[**نوع التخطيط**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)يجب أن يتم ضبطه على[**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) ويجب تعيين عدد قليل من الخصائص الإضافية مثل منطقة الخلفية وعلامات السلسلة والقيم وقيم X وفقًا لذلك. عند تنفيذ التعليمات البرمجية التالية، تتم إضافة سطر به مخطط علامة البيانات إلى ورقة العمل.
+لإنشاء رسم بياني خطي بعلامة بيانات، يجب ضبط ال [**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType) على أن يكون [**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) ويجب ضبط بعض الخصائص الإضافية مثل منطقة الخلفية، علامات السلسلة، القيم وXValues بحسب ما هو مطلوب. عند تنفيذ الكود التالي، يتم إضافة رسم بياني خطي بعلامة بيانات إلى ورقة العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
-##  **إنشاء مخططات مخصصة**
+## **إنشاء مخططات مخصصة**
 
-حتى الآن، عندما ناقشنا المخططات، نظرنا إلى المخططات القياسية التي تحتوي على إعدادات التنسيق القياسية الخاصة بها. نقوم فقط بتعريف مصدر البيانات، وتعيين بعض الخصائص، ويتم إنشاء المخطط باستخدام إعدادات التنسيق الافتراضية الخاصة به. لكن Aspose.Cells يدعم أيضًا إنشاء مخططات مخصصة تسمح للمطورين بإنشاء مخططات باستخدام إعدادات التنسيق الخاصة بهم.
+حتى الآن، عندما تم مناقشة الرسوم البيانية، نظرنا إلى الرسوم البيانية القياسية التي لديها إعدادات تنسيق قياسية. نعرف فقط مصدر البيانات، ونضبط بعض الخصائص ويتم إنشاء الرسم البياني بإعدادات تنسيقه الافتراضية. ولكن Aspose.Cells تدعم أيضا إنشاء رسوم بيانية مخصصة تتيح للمطورين إنشاء رسوم بيانية بإعدادات تنسيق خاصة بهم.
 
-###  **إنشاء مخططات مخصصة**
+### **إنشاء مخططات مخصصة**
 
-يمكن للمطورين إنشاء مخططات مخصصة في وقت التشغيل باستخدام Aspose.Cells بسيط API.
+يمكن للمطورين إنشاء رسوم بيانية مخصصة في وقت التشغيل باستخدام واجهة برمجة التطبيقات البسيطة لـ Aspose.Cells.
 
- يتكون المخطط من سلسلة بيانات. يتم تمثيل كل سلسلة بيانات في Aspose.Cells بواسطة أ[**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) الكائن في حين أن[**مجموعة السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) الكائن بمثابة مجموعة من[**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)أشياء. عند إنشاء مخطط مخصص، يتمتع المطورون بحرية استخدام أنواع مختلفة من المخططات لسلاسل بيانات مختلفة (يتم جمعها في ملف[**مجموعة السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)هدف).
+يتألف الرسم البياني من سلسلة بيانات. كل سلسلة بيانات في Aspose.Cells تُمثلها [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) بينما [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) يعمل كمجموعة من [**Series**](https://reference.aspose.com/cells/java/com.aspose.cells/Series). عند إنشاء رسم بياني مخصص، يحظى المطورون بحرية استخدام أنواع مختلفة من الرسوم البيانية لسلاسل البيانات المختلفة (التي يتم جمعها في [**SeriesCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)).
 
 {{% alert color="primary" %}}
 
- يدعم Aspose.Cells حاليًا فقط المخططات المخصصة التي تجمع بين المخططات الدائرية والخطية والعمودية ومكدس الأعمدة ولكن سيتم دعم المزيد من المخططات في الإصدارات المستقبلية. للحصول على قائمة كاملة بالمخططات القياسية التي يدعمها Aspose.Cells، اقرأ[أنواع المخططات](/cells/ar/java/chart-types/) شرط.
+حالياً، تدعم Aspose.Cells فقط الرسوم البيانية المخصصة التي تجمع بين رسوم الدائرة، الخط، العمود والعمود المكدس ولكن سيتم دعم المزيد من الرسوم في الإصدارات المستقبلية. للحصول على قائمة كاملة بأنواع الرسوم البيانية القياسية التي تدعمها Aspose.Cells، اقرأ مقالة [أنواع الرسوم](/cells/ar/java/chart-types/).
 
 {{% /alert %}}
 
-يوضح رمز المثال أدناه كيفية إنشاء مخططات مخصصة. في هذا المثال، سنستخدم مخططًا عموديًا لسلسلة البيانات الأولى ومخططًا خطيًا للسلسلة الثانية. والنتيجة هي أننا نضيف مخططًا عموديًا، مقترنًا بمخطط خطي، إلى ورقة العمل.
+الكود المثال أدناه يوضح كيفية إنشاء مخططات مخصصة. في هذا المثال، سنستخدم مخطط عمودي لأول سلسلة بيانات ومخطط خطي للسلسلة الثانية. النتيجة هي أننا نضيف مخطط عمودي، مع مخطط خطي، إلى ورقة العمل.
 
-**مخطط مخصص يجمع بين المخططات العمودية والخطية**
+**رسم بياني مخصص يجمع بين رسوم العمود والخط**
 
-![ما يجب القيام به:image_alt_text](creating-and-customizing-charts_3.png)
+![todo:image_alt_text](creating-and-customizing-charts_3.png)
 
-**مثال البرمجة**
+**مثال برمجي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreateCustomChart-HowToCreateCustomChart.java" >}}
 
 {{% alert color="primary" %}}
 
-للاطلاع على قائمة بأنواع المخططات المدعومة، اقرأ[أنواع المخططات](/cells/ar/java/chart-types/) شرط.
+لرؤية قائمة بأنواع الرسوم البيانية المدعومة، اقرأ مقالة [أنواع الرسوم](/cells/ar/java/chart-types/).
 
 {{% /alert %}}
 

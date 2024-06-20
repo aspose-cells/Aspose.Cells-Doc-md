@@ -1,44 +1,45 @@
-﻿---
-title: 小計の作成
+---
+title: 集計の作成
 type: docs
 weight: 50
 url: /ja/java/creating-subtotals/
 ---
+
 {{% alert color="primary" %}}
 
-スプレッドシートで繰り返される値の小計を自動的に作成できます。 Aspose.Cells は、小計をスプレッドシートにプログラムで追加するのに役立つ API 機能を提供します。
+スプレッドシートに繰り返し値のサブトータルを自動的に作成できます。Aspose.Cellsは、プログラムでサブトータルを追加するのに役立つAPI機能を提供しています。
 
 {{% /alert %}}
 
-## **Microsoft エクセルを使う**
+## **Microsoft Excel の使用**
 
-Microsoft Excel で小計を作成するには:
+Microsoft Excelでサブトータルを作成するには：
 
-1. ワークブックの最初のワークシートに簡単なデータ リストを作成し (下図を参照)、ファイルを Book1.xls として保存します。
+1. ブック1.xlsとして保存、ブックの最初のワークシートに簡単なデータリストを作成します（以下の図を参照）。
 1. リスト内の任意のセルを選択します。
-1. から**データ**メニュー、選択**小計**.
-小計ダイアログが表示されます。使用する関数と小計を配置する場所を定義します。
+1. **データ** メニューから **集計** を選択します。
+   サブトータルダイアログが表示されます。使用する機能やサブトータルを配置する場所を定義します。
 
-   **小計を追加するデータ範囲の選択**
+   **サブトータルを追加するデータ範囲を選択**
 
-![todo:画像_代替_文章](creating-subtotals_1.png)
+![todo:image_alt_text](creating-subtotals_1.png)
 
-**小計ダイアログ** 
+**サブトータルダイアログ** 
 
-![todo:画像_代替_文章](creating-subtotals_2.png)
+![todo:image_alt_text](creating-subtotals_2.png)
 
-## **Aspose.Cells API を使用**
+## **Aspose.Cells APIを使用する**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)クラスには[**ワークシート コレクション**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)これにより、Excel ファイル内の各ワークシートにアクセスできます。
+Aspose.Cellsには、Microsoft Excelファイルを表すクラス [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) が提供されています。 [**Workbook**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) クラスには、Excelファイル内の各ワークシートにアクセスするのを可能にする [**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) が含まれています。
 
-ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)クラス。このクラスは、ワークシートやその他のオブジェクトを管理するための幅広いプロパティとメソッドを提供します。各ワークシートは、[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)コレクション。ワークシートで小計を作成するには、[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)クラスの小計メソッド。メソッドのパラメーターに適切な値を指定して、必要な結果を取得します。
+ワークシートは [**Worksheet**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) クラスで表されます。このクラスはワークシートや他のオブジェクトを管理するための多くのプロパティやメソッドを提供します。各ワークシートは [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) コレクションで構成されます。ワークシートでサブトータルを作成するには、[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) クラスのsubtotal メソッドを使用します。メソッドのパラメーターに適切な値を指定して、望む結果を得るために使用します。
 
-次の例は、Aspose.Cells API を使用して、テンプレート ファイル (Book1.xls) の最初のワークシートに小計を作成する方法を示しています。
+以下の例は、Aspose.Cells APIを使用してテンプレートファイル（Book1.xls）の最初のワークシートにサブトータルを作成する方法を示しています。
 
-コードが実行されると、小計を含むワークシートが作成されます。
+コードを実行すると、サブトータルが追加されたワークシートが作成されます。
 
-**小計の適用** 
+**サブトータルを適用** 
 
-![todo:画像_代替_文章](creating-subtotals_3.png)
+![todo:image_alt_text](creating-subtotals_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreatingSubtotals-CreatingSubtotals.java" >}}

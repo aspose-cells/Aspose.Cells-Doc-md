@@ -1,60 +1,61 @@
 ---
-title: Birden Çok Çalışma Sayfasını Tek Bir Çalışma Sayfasında Birleştirme
+title: Birden Fazla Çalışma Sayfasını Tek Bir Çalışma Sayfasına Birleştirme
 type: docs
 weight: 70
 url: /tr/java/combine-multiple-worksheets-into-a-single-worksheet/
-description: Java kodunu ve Aspose.Cells for Java API kodunu kullanarak birden fazla çalışma sayfasını tek bir çalışma sayfasında birleştirin.
-keywords: combine multiple worksheets into one, combine multiple worksheets into one java, combine multiple worksheets into one with java, combine multiple worksheets into single worksheet with java, combine multiple worksheets into single worksheet java, java code to combine multiple worksheets into single worksheet, how to combine multiple worksheets into single worksheet with java, how to combine multiple worksheets into one with java, merge multiple worksheets into one with java, how to merge multiple worksheets into one java, how to merge multiple worksheets into one with java
+description: Java kodunu kullanarak ve Aspose.Cells for Java API sini kullanarak birden fazla çalışma sayfasını tek bir çalışma sayfasına birleştirme.
+keywords: birden fazla çalışma sayfasını tek bir çalışma sayfasına birleştir, birden fazla çalışma sayfasını tek birleştirme, birden fazla çalışma sayfasını tek birleştirme java, birden fazla çalışma sayfasını tek birleştirme java ile, birden fazla çalışma sayfasını tek bir çalışma sayfasına birleştirme, birden fazla çalışma sayfasını tek bir çalışma sayfasına birleştirme java, java kodunu kullanarak birden fazla çalışma sayfasını tek bir çalışma sayfasına birleştirmek, java ile birden fazla çalışma sayfasını tek bir çalışma sayfasına birleştirmek, java ile birden fazla çalışma sayfasını tek birleştirme, birden fazla çalışma sayfasını tek birleştirmek için java, birden fazla çalışma sayfasını tek bir sayfada birleştirmek için java, birden fazla çalışma sayfasını tek birleştirmek için java
 ---
+
 {{% alert color="primary" %}}
 
-Bazen birden fazla çalışma sayfasını tek bir çalışma sayfasında birleştirmeniz gerekir. Bu, Aspose.Cells API kullanılarak kolayca gerçekleştirilebilir. Bu makalede, kaynak çalışma kitabını okuyan ve tüm kaynak çalışma sayfalarındaki verileri hedef çalışma kitabındaki tek bir çalışma sayfasında birleştiren bir kod örneği gösterilecektir.
+Bazen birden fazla çalışsayfayı tek bir çalışsayfada birleştirmeniz gerekebilir. Bu, Aspose.Cells API'sını kullanarak kolayca gerçekleştirilebilir. Bu makale, bir kaynak çalışma kitabını okuyan ve tüm kaynak çalışsayfaların verilerini bir hedef çalışma kitabının içinde tek bir çalışsayfada birleştiren bir kod örneği gösterecektir.
 
 {{% /alert %}}
 
-##  **Çalışma Sayfaları Nasıl Birleştirilir?**
+## **Çalışma Sayfalarını Birleştirme**
 
- Aşağıdaki örnek şunu kullanır:[**Aralık.kopya()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) tüm kaynak çalışma sayfalarını hedef çalışma kitabının içindeki tek bir sayfaya kopyalama yöntemini kullanın.
+Aşağıdaki örnek, tüm kaynak çalışma sayfalarını bir hedef çalışma kitabının içinde tek bir sayfaya kopyalamak için [**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) yöntemini kullanır.
 
-###  **Kaynak Çalışma Kitabı**
+### **Kaynak Çalışma Kitabı**
 
-Herhangi bir kaynak çalışma kitabını kullanabilirsiniz. Bu örnekte, üç çalışma sayfası olan bir kaynak çalışma kitabı kullanıyoruz.
+Herhangi bir kaynak çalışma kitabını kullanabilirsiniz. Bu örnek için, üç çalışma sayfası olan bir kaynak çalışma kitabı kullanıyoruz.
 
 **Çalışma Sayfası 1**
 
-![yapılacak şey:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_1.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_1.jpg)
 
 **Çalışma Sayfası 2**
 
-![yapılacak şey:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_2.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_2.jpg)
 
-**Çalışma Kağıdı 3**
+**Çalışma Sayfası 3**
 
-![yapılacak şey:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_3.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_3.jpg)
 
-###  **Çıktı Çalışma Kitabı**
+### **Çıktı Çalışma Kitabı**
 
-Aşağıdaki kodu çalıştırmak, üç çalışma sayfasının tümünün verilerini içeren tek bir çalışma sayfasına sahip bir çalışma kitabı sağlar.
+Aşağıdaki kodu çalıştırmak, üç çalışsayı içeren verileri içeren tek bir çalışsayı bulunan bir çalışma kitabı sağlar.
 
-**Çıktı çalışma sayfası artık 3 kaynak çalışma sayfasının tümünün verilerini içeriyor**
+**Çıktı çalışsayısı şimdi tüm 3 kaynak çalışsayının verilerini içerir**
 
-![yapılacak şey:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
+![todo:image_alt_text](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
 
-##  **Kaynak Çalışma Kitabını ve Çıktı Çalışma Kitabını İndirin**
+## **Kaynak Çalışma Kitabını İndir ve Çıktı Kitabını**
 
 - [Kaynak Çalışma Kitabı](5473078.xlsx)
 - [Çıktı Çalışma Kitabı](5473079.xlsx)
 
-###  **Birden Çok Çalışma Sayfasını Tek Bir Çalışma Sayfasında Birleştirmek için Örnek Kod**
+### **Birden Fazla Çalışsayıyı Tek Bir Çalışsayıya Birleştirme İçin Örnek Kod**
 
-Aşağıdaki kod parçacığı, birden çok çalışma sayfasının tek bir çalışma sayfasında nasıl birleştirileceğini gösterir.
+Aşağıdaki kod örneği, birden fazla çalışsayıyı tek bir çalışsayıya birleştirmenin nasıl yapılacağını gösterir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CombineMultipleWorksheets-CombineMultipleWorksheets.java" >}}
 
-##  **Ek kaynaklar**
+## **Ek Kaynaklar**
 
 {{% alert color="primary" %}}
 
- Bulabilirsin[Birden Çok Çalışma Kitabını Tek Bir Çalışma Kitabında Birleştirin](/cells/tr/java/combine-multiple-workbooks-into-a-single-workbook/) Daha fazla bilgi için yararlı makale.
+Daha fazla bilgi için [Birden Fazla Çalışma Kitabını Tek Bir Çalışma Kitabına Birleştirme](/cells/tr/java/combine-multiple-workbooks-into-a-single-workbook/) makalesi faydalı olabilirsiniz.
 
 {{% /alert %}}

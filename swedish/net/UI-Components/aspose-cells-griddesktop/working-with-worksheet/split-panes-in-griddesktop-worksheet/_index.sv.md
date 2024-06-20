@@ -1,14 +1,17 @@
-﻿---
-title: Dela paneler i GridDesktop-arbetsbladet
+---
+title: Dela panoramorna i GridDesktop arbetsbladet
 type: docs
 weight: 180
-url: /sv/net/split-panes-in-griddesktop-worksheet/
+url: /sv/net/aspose-cells-griddesktop/split-panes-in-griddesktop-worksheet/
+keywords: GridDesktop, dela, dela panoramor, panoramor
+description: Denna artikel introducerar hur man delar panoramor i GridDesktop.
 ---
-## **Möjliga användningsscenarier**
-Microsoft Excel låter dig dela fönster med hjälp av menykommandot Visa > Dela. Aspose.Cells tillhandahåller också denna funktion. Använd metoderna GridDesktop.DoSplit() och GridDesktop.UnDoSplit() för att dela och dela upp rutor i GridDesktop-kalkylbladet.
-## **Dela paneler i GridDesktop-arbetsbladet**
-Följande skärmdumpar visar GridDesktop före delade plan och efter delade plan.
-### **GridDesktop före delade paneler**
+
+## **Möjliga användningsscenario**
+Microsoft Excel tillåter dig att dela panoramor med hjälp av Visa > Dela-menyalternativet. Aspose.Cells tillhandahåller också denna funktion. Använd metoderna GridDesktop.DoSplit() och GridDesktop.UnDoSplit() för att dela och avdelaplanor i GridDesktop-arbetsbladet.
+## **Dela Panoramor i GridDesktop-arbetsbladet**
+Följande skärmbilder visar GridDesktop före delning av planer och efter delning av planer.
+### **GridDesktop Före Delning av Panoramor**
 ![todo:image_alt_text](split-panes-in-griddesktop-worksheet_1.png)
-### **GridDesktop efter delade paneler**
+### **GridDesktop Efter Delning av Panoramor**
 ![todo:image_alt_text](split-panes-in-griddesktop-worksheet_2.png)

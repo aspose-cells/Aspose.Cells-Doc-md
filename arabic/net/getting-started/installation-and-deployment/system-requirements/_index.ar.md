@@ -4,224 +4,225 @@ type: docs
 weight: 10
 url: /ar/net/system-requirements/
 ---
+
 {{% alert color="primary" %}} 
 
-لا تتطلب مكونات Aspose.Cells for .NET تثبيت Excel Microsoft سواء على العميل أو على جانب الخادم.
+يتطلب مكونات Aspose.Cells for .NET عدم وجود Microsoft Excel مثبتًا سواء على الجانب العميل أو على الخادم.
 
 {{% /alert %}} 
-##  **أنظمة التشغيل المدعومة**
-###  **Windows**
-- Microsoft Windows 2000 (x64, x86)
-- Microsoft Windows XP (x64, x86)
-- Microsoft Windows خادم 2003 (x64, x86)
-- Microsoft Windows خادم 2008 (x64, x86)
-- Microsoft Windows الخادم 2012 (x64, x86)
-- Microsoft Windows الخادم 2016 (x64, x86)
-- Microsoft Windows الخادم 2019 (x64, x86)
-- Microsoft Windows فيستا (x64, x86)
+## **أنظمة التشغيل المدعومة**
+### **Windows**
+- Microsoft Windows 2000 (x64، x86)
+- Microsoft Windows XP (x64، x86)
+- Microsoft Windows Server 2003 (x64، x86)
+- Microsoft Windows Server 2008 (x64، x86)
+- Microsoft Windows Server 2012 (x64، x86)
+- مايكروسوفت ويندوز سيرفر 2016 ( x64, x86)
+- مايكروسوفت ويندوز سيرفر 2019 ( x64, x86)
+- Microsoft Windows Vista (x64، x86)
 - Microsoft Windows 7 (x64, x86)
 - Microsoft Windows 8 (x64, x86)
 - Microsoft Windows 10 (x64, x86)
 - Microsoft Windows 11
-- Windows أزور
-###  **لينكس**
-- Linux (Ubuntu وopenSUSE وCentOS وDebian وAlpine وغيرها)
-###  **ماك**
-- نظام التشغيل Mac OS X، وmacOS High Sierra، وما إلى ذلك.
-##  **.NET إصدارات الإطار المدعومة**
-Aspose.Cells for .NET يدعم إطاري .NET و Mono على النحو التالي:
-###  **.NET أطر**
-- .NET الإطار 2.0
-- .NET الإطار 3.0
-- .NET الإطار 3.5
-- .NET الإطار 4.0
-- .NET الإطار 4.5
-- .NET الإطار 4.5.1
-- .NET الإطار 4.5.2
-- .NET الإطار 4.6
-- .NET الإطار 4.6.1
-- .NET الإطار 4.6.2
-- .NET الإطار 4.7.1
-- .NET الإطار 4.7.2
-- .NET الإطار 4.8
-- .NET الإطار 4.8.1
-###  **.NET قياسي**
-- .NET ستاندرد 2.0 (.NET كور 2.1/3.1).
+- Windows Azure
+### **Linux**
+- لينكس (أوبونتو، openSUSE، CentOS، Debian، Alpine وغيرها)
+### **Mac**
+- نظام التشغيل macOS X، macOS High Sierra، الخ
+## **الإصدارات المعتمدة من إطار العمل .NET**
+يدعم Aspose.Cells for .NET إطارات .NET ومونو على النحو التالي:
+### **إطارات .NET**
+- .NET Framework 2.0
+- .NET Framework 3.0
+- .NET Framework 3.5
+- .NET Framework 4.0
+- .NET Framework 4.5
+- .NET Framework 4.5.1
+- .NET Framework 4.5.2
+- .NET Framework 4.6
+- .NET Framework 4.6.1
+- .NET Framework 4.6.2
+- .NET Framework 4.7.1
+- .NET Framework 4.7.2
+- .NET Framework 4.8
+- .NET Framework 4.8.1
+### **.NET Standard**
+- .NET Standard 2.0 (.NET Core 2.1/3.1).
 - .NET 5.0
 - .NET 6.0
 - .NET 7.0
 - .NET 8.0
-####  **حزم nuget المشار إليها بواسطة Aspose.Cells لمعيار .NET**
-- System.Drawing.Common، 5.0.3.
-- System.Text.Encoding.CodePages، 4.7.0.
+#### **الحزم البيانية المشار إليها من قبل Aspose.Cells لـ .NET Standard**
+- System.Drawing.Common, 5.0.3.
+- System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 5.0.1.
-####  **حزم nuget المشار إليها بواسطة Aspose.Cells لـ .NET6 و.Net7 و.Net8**
-- System.Text.Encoding.CodePages، 4.7.0.
+#### **الحزم البيانية المشار إليها من قبل Aspose.Cells لـ .NET6، .Net7 و .Net8**
+- System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
-- System.Drawing.Common، 6.0.0 (على نظام ويندوز).
-- SkiaSharp، 2.88.3 (على الأنظمة التي لا تعمل بنظام Windows).
-###  **Mono الإطار**
-- Mono 1.2 أو أحدث.
-##  **بيئات التطوير**
-يمكنك استخدام Aspose.Cells for .NET لتطوير التطبيقات في أي بيئة تطوير تستهدف النظام الأساسي .NET، ولكن البيئات التالية مدعومة بشكل صريح:
+-System.Drawing.Common ، 6.0.0 (على نظام ويندوز)
+- SkiaSharp ، 2.88.3 (على أنظمة غير ويندوز)
+### **Mono Framework**
+- مونو 1.2 أو أحدث.
+## **بيئات التطوير**
+يمكنك استخدام Aspose.Cells for .NET لتطوير التطبيقات في أي بيئة تطوير تستهدف منصة .NET، ولكن البيئات التالية مدعومة صراحة:
 
-- Microsoft فيجوال ستوديو 2005
-- Microsoft فيجوال ستوديو 2008
-- Microsoft فيجوال ستوديو 2010
-- Microsoft فيجوال ستوديو 2012
-- Microsoft فيجوال ستوديو 2013
-- Microsoft فيجوال ستوديو 2015
-- Microsoft فيجوال ستوديو 2017
-- Microsoft فيجوال ستوديو 2019
-- Microsoft فيجوال ستوديو 2022
+- Microsoft Visual Studio 2005
+- Microsoft Visual Studio 2008
+- Microsoft Visual Studio 2010
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
 
 {{% alert color="primary" %}} 
 
-لاستخدام Aspose.Cells، لا يحتاج الجهاز إلى تثبيت Microsoft. يعد Excel مثبتًا للمكتبة نفسها وهو محرك لإدارة جداول البيانات. ومع ذلك، لعرض ملف Excel الذي تم إنشاؤه بواسطة المكون، يجب أن يكون لديك على الأقل Microsoft Excel Viewer مثبتًا على جهازك.
+لكي تستخدم Aspose.Cells ، لا يحتاج الجهاز إلى تثبيت Microsoft Excel حيث أن المكتبة نفسها هي محرك إدارة الجداول. ومع ذلك ، لعرض ملف Excel الذي تم إنشاؤه بواسطة المكون ، يجب أن يكون لديك على الأقل تثبيت Microsoft Excel Viewer على جهازك.
 
 {{% /alert %}} 
-##  **Aspose.Cells متطلبات نظام جناح الشبكة**
-يتكون جناح الشبكة Aspose.Cells من ثلاثة عناصر تحكم:
+## **متطلبات نظام Aspose.Cells Grid Suite**
+Aspose.Cells Grid Suite مكون من ثلاثة عناصر:
 
 - Aspose.Cells.GridDesktop
 - Aspose.Cells.GridWeb
 - Aspose.Cells.GridJs
 
-يتم وصف متطلبات النظام الخاصة بعناصر التحكم بشكل منفصل.
+متطلبات النظام للعناصر موصوفة بشكل منفصل.
 
 {{% alert color="primary" %}} 
 
-لاستخدام عناصر التحكم هذه، الجهاز الذي يقوم بتشغيل Aspose.Cells.GridDesktop وAspose.Cells.GridWeb لا يحتاج إلى تثبيت Microsoft Excel كـ Aspose.Cells.GridDesktop وAspose.Cells.GridWeb يمكنه فتح جداول بيانات Excel وحفظها دون الحاجة إلى Microsoft Excel.
+لكي تستخدم هذه العناصر، الجهاز الذي يعمل على Aspose.Cells.GridDesktop و Aspose.Cells.GridWeb لا يحتاج إلى تثبيت Microsoft Excel حيث يمكن لـ Aspose.Cells.GridDesktop و Aspose.Cells.GridWeb فتح وحفظ أوراق العمل في Excel دون الحاجة إلى Microsoft Excel.
 
 {{% /alert %}} 
-###  **Aspose.Cells.GridDesktop**
-####  **.NET الإطار**
-- .NET الإطار 2.0
-- .NET الإطار 3.0
-- .NET الإطار 3.5
-- .NET الإطار 4.0
-- .NET الإطار 4.5
-- .NET الإطار 4.5.1
-- .NET الإطار 4.5.2
-- .NET الإطار 4.6
-- .NET الإطار 4.6.1
-- .NET الإطار 4.6.2
-- .NET الإطار 4.7.1
-- .NET الإطار 4.7.2
-- .NET الإطار 4.8
-- .NET الإطار 4.8.1
-###  **.NET الأساسية**
--  .NET كور 3.1
-- .NET 7.0 شبابيك
-####  **حزم nuget المشار إليها بواسطة Aspose.Cells.GridDesktop لـ .NET Core 3.1**
-- System.Drawing.Common، 6.0.0.
-- System.Text.Encoding.CodePages، 4.7.0.
+### **Aspose.Cells.GridDesktop**
+#### **.NET Framework**
+- .NET Framework 2.0
+- .NET Framework 3.0
+- .NET Framework 3.5
+- .NET Framework 4.0
+- .NET Framework 4.5
+- .NET Framework 4.5.1
+- .NET Framework 4.5.2
+- .NET Framework 4.6
+- .NET Framework 4.6.1
+- .NET Framework 4.6.2
+- .NET Framework 4.7.1
+- .NET Framework 4.7.2
+- .NET Framework 4.8
+- .NET Framework 4.8.1
+### **.NET Core**
+- .NET Core 3.1 
+- .NET 7.0 windows
+#### **الحزم NuGet التي يشير إليها Aspose.Cells.GridDesktop For .NET Core 3.1**
+- System.Drawing.Common, 6.0.0.
+- System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 5.0.1.
-####  **حزم nuget المشار إليها بواسطة Aspose.Cells.GridDesktop لـ .Net7**
-- System.Text.Encoding.CodePages، 4.7.0.
+#### **حزم Nuget المُشار إليها بواسطة Aspose.Cells.GridDesktop لـ NET7**
+- System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
-- System.Drawing.Common، 7.0.0 (على نظام ويندوز).
-####  **ادوات التطوير**
-- Microsoft فيجوال ستوديو 2012
-- Microsoft فيجوال ستوديو 2013
-- Microsoft فيجوال ستوديو 2015
-- Microsoft فيجوال ستوديو 2017
-- Microsoft فيجوال ستوديو 2019
-- Microsoft فيجوال ستوديو 2022
-####  **نظام التشغيل**
+- System.Drawing.Common, 7.0.0 (على نظام Windows).
+#### **أدوات التطوير**
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
+#### **نظام التشغيل**
 - Microsoft Windows 2000
 - Microsoft Windows XP
-- Microsoft Windows سيرفر 2003
-- Microsoft Windows سيرفر 2008
-- Microsoft Windows سيرفر 2012
-- Microsoft Windows فيستا
+- Microsoft Windows Server 2003
+- Microsoft Windows Server 2008
+- Microsoft Windows Server 2012
+- Microsoft Windows Vista
 - Microsoft Windows 7, 
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
-###  **Aspose.Cells.GridWeb**
-####  **.NET الإطار**
-- .NET الإطار 2.0
-- .NET الإطار 3.0
-- .NET الإطار 3.5
-- .NET الإطار 4.0
-- .NET الإطار 4.5
-- .NET الإطار 4.5.1
-- .NET الإطار 4.5.2
-- .NET الإطار 4.6
-- .NET الإطار 4.6.1
-- .NET الإطار 4.6.2
-- .NET الإطار 4.7.1
-- .NET الإطار 4.7.2
-- .NET الإطار 4.8
-- .NET الإطار 4.8.1
-###  **.NET الأساسية**
--  .NET 6.0 شبابيك
-- .NET 7.0 شبابيك
-####  **حزم nuget المشار إليها بواسطة Aspose.Cells.GridWeb لـ .NET Core**
-- System.Drawing.Common، 7.0.0.
-- System.Text.Encoding.CodePages، 4.7.0.
+### **Aspose.Cells.GridWeb**
+#### **.NET Framework**
+- .NET Framework 2.0
+- .NET Framework 3.0
+- .NET Framework 3.5
+- .NET Framework 4.0
+- .NET Framework 4.5
+- .NET Framework 4.5.1
+- .NET Framework 4.5.2
+- .NET Framework 4.6
+- .NET Framework 4.6.1
+- .NET Framework 4.6.2
+- .NET Framework 4.7.1
+- .NET Framework 4.7.2
+- .NET Framework 4.8
+- .NET Framework 4.8.1
+### **.NET Core**
+- .NET 6.0 windows 
+- .NET 7.0 windows
+#### **حزم Nuget المشار إليها بواسطة Aspose.Cells.GridWeb For .NET Core**
+- System.Drawing.Common, 7.0.0.
+- System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.3.
-####  **ادوات التطوير**
-- Microsoft فيجوال ستوديو 2012
-- Microsoft فيجوال ستوديو 2013
-- Microsoft فيجوال ستوديو 2015
-- Microsoft فيجوال ستوديو 2017
-- Microsoft فيجوال ستوديو 2019
-- Microsoft فيجوال ستوديو 2022
-####  **المتصفحات**
-- كروم
-- حافة
-- متصفحات Mozilla (بما في ذلك Firefox وNetscape Browser وما إلى ذلك)
-- سفاري
--  الأوبرا
-####  **نظام التشغيل**
+#### **أدوات التطوير**
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
+#### **المتصفحات**
+- Chrome
+- Edge
+- Mozilla Browsers (بما في ذلك فايرفوكس، نيتسكيب، وما إلى ذلك)
+- Safari
+- Opera 
+#### **نظام التشغيل**
 - Microsoft Windows 2000
 - Microsoft Windows XP
-- Microsoft Windows سيرفر 2003
-- Microsoft Windows سيرفر 2008
-- Microsoft Windows سيرفر 2012
-- Microsoft Windows فيستا
+- Microsoft Windows Server 2003
+- Microsoft Windows Server 2008
+- Microsoft Windows Server 2012
+- Microsoft Windows Vista
 - Microsoft Windows 7, 
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
 
-###  **Aspose.Cells.GridJs**
-###  **.NET قياسي**
--  .NET ستاندرد 2.0
-####  **حزم nuget المشار إليها بواسطة Aspose.Cells.GridJs لمعيار .NET**
-- System.Drawing.Common، 6.0.0 (على نظام ويندوز).
-- SkiaSharp، 2.88.3 (على الأنظمة التي لا تعمل بنظام Windows).
-- System.Text.Encoding.CodePages، 4.7.0.
+### **Aspose.Cells.GridJs**
+### **.NET Standard**
+- .NET Standard 2.0  
+#### **الحزم المرجعة بواسطة Aspose.Cells.GridJs لـ .NET Standard**
+-System.Drawing.Common ، 6.0.0 (على نظام ويندوز)
+- SkiaSharp ، 2.88.3 (على أنظمة غير ويندوز)
+- System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs,5.0.1.
-- Aspose.Cells (احتفظ دائمًا بنفس الإصدار مع GridJs)
-####  **ادوات التطوير**
-- Microsoft فيجوال ستوديو 2012
-- Microsoft فيجوال ستوديو 2013
-- Microsoft فيجوال ستوديو 2015
-- Microsoft فيجوال ستوديو 2017
-- Microsoft فيجوال ستوديو 2019
-- Microsoft فيجوال ستوديو 2022
+- Aspose.Cells ،( يجب أن تظل نفس الإصدار مع GridJs)
+#### **أدوات التطوير**
+- Microsoft Visual Studio 2012
+- Microsoft Visual Studio 2013
+- Microsoft Visual Studio 2015
+- Microsoft Visual Studio 2017
+- Microsoft Visual Studio 2019
+- Microsoft Visual Studio 2022
 
-####  **المتصفحات**
-- كروم
-- حافة
-- متصفحات Mozilla (بما في ذلك Firefox وNetscape Browser وما إلى ذلك)
-- سفاري
--  الأوبرا
-####  **نظام التشغيل**
+#### **المتصفحات**
+- Chrome
+- Edge
+- Mozilla Browsers (بما في ذلك فايرفوكس، نيتسكيب، وما إلى ذلك)
+- Safari
+- Opera 
+#### **نظام التشغيل**
 - Microsoft Windows 2000
 - Microsoft Windows XP
-- Microsoft Windows سيرفر 2003
-- Microsoft Windows سيرفر 2008
-- Microsoft Windows سيرفر 2012
-- Microsoft Windows فيستا
+- Microsoft Windows Server 2003
+- Microsoft Windows Server 2008
+- Microsoft Windows Server 2012
+- Microsoft Windows Vista
 - Microsoft Windows 7, 
 - Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
-###  **لينكس**
-- Linux (Ubuntu وopenSUSE وCentOS وDebian وAlpine وغيرها)
-###  **ماك**
-- نظام التشغيل Mac OS X، وmacOS High Sierra، وما إلى ذلك.
+### **Linux**
+- لينكس (أوبونتو، openSUSE، CentOS، Debian، Alpine وغيرها)
+### **Mac**
+- نظام التشغيل macOS X، macOS High Sierra، الخ

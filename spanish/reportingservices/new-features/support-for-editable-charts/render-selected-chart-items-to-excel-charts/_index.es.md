@@ -1,21 +1,22 @@
-﻿---
-title: Representar elementos de gráficos seleccionados en gráficos de Excel
+---
+title: Renderizar elementos del gráfico seleccionado como gráficos de Excel
 type: docs
 weight: 30
 url: /es/reportingservices/render-selected-chart-items-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-Para representar solo algunos gráficos en un informe a gráficos de Excel:
+Para renderizar solo algunos gráficos en un informe a gráficos de Excel:
 
-1. Abre el**Aspose.Cells.ReportingServices.xml** expediente.
-1.  Modificar los parámetros de configuración del**Aspose.Cells.ReportingServices.xml** expediente.
-1. Agregue la información de configuración del informe deseado.
-1. Agregue la información de los elementos del gráfico que no desea exportar como gráficos editables. Estos elementos se exportan como imágenes estáticas.
+1. Abrir el archivo **Aspose.Cells.ReportingServices.xml**.
+1. Modificar los parámetros de configuración del archivo **Aspose.Cells.ReportingServices.xml**.
+1. Agregar la información de configuración del informe deseado.
+1. Agregar la información para los elementos del gráfico que no desea exportar como gráficos editables. Estos elementos se exportan como imágenes estáticas.
 
 Por ejemplo:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 
@@ -29,12 +30,12 @@ Por ejemplo:
 
 {{< /highlight >}}
 
-**Un gráfico exportado como una imagen** 
+**Un gráfico exportado como imagen** 
 
-![todo:imagen_alternativa_texto](render-selected-chart-items-to-excel-charts_1.png)
+![todo:image_alt_text](render-selected-chart-items-to-excel-charts_1.png)
 
-**Un gráfico exportado como un gráfico de Excel editable** 
+**Un gráfico exportado como gráfico editable de Excel** 
 
-![todo:imagen_alternativa_texto](render-selected-chart-items-to-excel-charts_2.png)
+![todo:image_alt_text](render-selected-chart-items-to-excel-charts_2.png)
 
 {{% /alert %}}

@@ -1,15 +1,16 @@
-﻿---
+---
 title: Congelar paneles en Ruby
 type: docs
 weight: 50
 url: /es/java/freeze-panes-in-ruby/
 ---
+
 ## **Aspose.Cells - Congelar paneles**
- Para congelar paneles en el documento de hoja de cálculo usando**Aspose.Cells Java para rubí** , simplemente invocar**FreezePanes** módulo.
+Para congelar paneles en el documento de hoja de cálculo usando **Aspose.Cells Java para Ruby**, simplemente llama al módulo **FreezePanes**.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
@@ -34,7 +35,7 @@ workbook.save(data_dir + "output.xls")
 puts "Apply freeze panes settings, please check the output file."
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Congelar paneles (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Congelar Paneles (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/freezepanes.rb)

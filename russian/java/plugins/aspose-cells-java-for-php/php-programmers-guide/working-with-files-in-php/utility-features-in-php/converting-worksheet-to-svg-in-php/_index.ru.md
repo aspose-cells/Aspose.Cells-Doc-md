@@ -1,15 +1,16 @@
-﻿---
-title: Преобразование рабочего листа в SVG в PHP
+---
+title: Преобразование листа в SVG в PHP
 type: docs
 weight: 60
 url: /ru/java/converting-worksheet-to-svg-in-php/
 ---
-## **Aspose.Cells - Преобразование рабочего листа в SVG**
-Чтобы преобразовать рабочий лист в SVG, используя Aspose.Cells for Java в PHP, просто вызовите рабочий лист_к_Метод svg() модуля Converter.
+
+## **Aspose.Cells - Преобразование Листа в SVG**
+Для преобразования листа в SVG с использованием Aspose.Cells for Java в PHP просто вызовите метод worksheet_to_svg() модуля Converter.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $saveFormat = new SaveFormat();
 
@@ -54,7 +55,7 @@ for($i=0; $i < $sheetCount; $i++)
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Преобразование рабочего листа в SVG (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Преобразование Листа в SVG (Aspose.Cells)** с любого из указанных ниже сайтов для социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingWorksheetToSVG.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingWorksheetToSVG.php)

@@ -1,12 +1,13 @@
-﻿---
-title: Rendu des compléments Office lors de la conversion d'Excel en PDF
+---
+title: Rendre les Compléments Office lors de la conversion d Excel en PDF
 type: docs
 weight: 90
 url: /fr/java/render-office-add-ins-while-converting-excel-to-pdf/
 ---
+
 ## **Scénarios d'utilisation possibles**
-Auparavant, Aspose.Cells ne pouvait pas afficher les compléments Office lorsque le fichier Excel était enregistré au format PDF. Maintenant, Aspose.Cells le rend bien. Vous n'avez pas besoin d'utiliser de méthode ou de propriété spéciale pour afficher les compléments Office dans la sortie PDF. Enregistrez simplement votre fichier Excel au format PDF et il affichera les compléments Office.
-## **Rendu des compléments Office lors de la conversion d'Excel en PDF**
-L'exemple de code suivant enregistre le[exemple de fichier Excel](60489783.xlsx)qui contient les compléments Office. Veuillez consulter le[sortie PDF générée avec la version précédente, c'est-à-dire 17.11](60489781.pdf)et le[sortie PDF générée avec une version plus récente, c'est-à-dire 17.12 et versions ultérieures](60489782.pdf)La sortie de la version précédente PDF est vide, mais la sortie de la version la plus récente PDF affiche le complément Office.
-## **Exemple de code**
+Auparavant, Aspose.Cells ne pouvait pas restituer les Compléments Office lorsque le fichier Excel était enregistré au format PDF. Maintenant, Aspose.Cells le restitue correctement. Vous n'avez pas besoin d'utiliser de méthode ou de propriété spéciale pour restituer les Compléments Office dans le PDF de sortie. Il suffit d'enregistrer votre fichier Excel au format PDF et les Compléments Office seront restitués.
+## **Rendre les compléments Office lors de la conversion Excel en PDF**
+Le code d'exemple suivant enregistre le [fichier Excel d'exemple](60489783.xlsx) qui contient les compléments Office. Veuillez consulter le [PDF de sortie généré avec la version précédente, c'est-à-dire 17.11](60489781.pdf) et le [PDF de sortie généré avec la nouvelle version, c'est-à-dire 17.12 et ultérieure](60489782.pdf). Le PDF de sortie de la version précédente est vide, mais le PDF de sortie de la nouvelle version montre le complément Office.
+## **Code d'exemple**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Rendering-RenderOfficeAdd_InsWhileConvertingExcelToPdf.java" >}}

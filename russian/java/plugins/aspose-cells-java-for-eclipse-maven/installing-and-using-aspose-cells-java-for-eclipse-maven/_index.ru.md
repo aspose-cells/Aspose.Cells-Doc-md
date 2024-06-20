@@ -1,70 +1,71 @@
-﻿---
-title: Установка и использование Aspose.Cells Java для Eclipse — Maven
+---
+title: Установка и использование Aspose.Cells Java для Eclipse  Maven
 type: docs
 weight: 10
 url: /ru/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 ---
+
 ## **Установка**
 
-**Aspose.Cells Java для Eclipse (Maven)** плагин можно легко установить из Доступных**Плагин** вкладку в диалоговом окне плагина.
+**Aspose.Cells Java для Eclipse (Maven)** можно легко установить из вкладки доступных **плагинов** в диалоговом окне **плагинов**.
 
-- Чтобы открыть его, выберите**Плагины**от**Инструменты** меню в Eclipse.
+- Чтобы открыть его, выберите **Плагины** в меню **Инструменты** в Eclipse.  
 
-![дело:изображение_альтернативный_текст](installing-and-using-aspose-cells-java-for-eclipse-maven_1)
+![todo:image_alt_text](installing-and-using-aspose-cells-java-for-eclipse-maven_1)
 
--  Это добавляет**Aspose.Cells Maven Проект** в мастере создания нового проекта и**Aspose.Cells Пример кода** в мастере New Other Eclipse IDE.
+- Это добавляет **Aspose.Cells Maven Project** в мастер создания нового проекта и **Aspose.Cells Code Example** в мастер создания нового другого мастера IDE Eclipse.  
 
-![дело:изображение_альтернативный_текст](project_1.png)
+![todo:image_alt_text](project_1.png)
 
-## **С использованием**
+## **Использование**
 
-### **Aspose.Cells Maven Проект (мастер)**
+### **Проект Maven Aspose.Cells (мастер)**
 
- Создавать**Maven Проект** мастером использования[Aspose.Cells for Java API](https://products.aspose.com/cells/java/):
+Чтобы создать **Maven Project** с помощью мастера для использования [Aspose.Cells for Java API](https://products.aspose.com/cells/java/):
 
-1. Выбирать**Новый -> Проект**.
-1. Выбирать**Aspose.Cells Maven Проект**в**Maven**категория.
-1. Нажмите**Следующий**.
+1. Выберите **Новый -> Проект**.
+1. Выберите **Aspose.Cells Maven Project** в категории **Maven**.
+1. Нажмите **Далее**.
 
-![дело:изображение_альтернативный_текст](project_2.png)
+![todo:image_alt_text](project_2.png)
 
-1. Предоставлять**Название проекта, местоположение, GroupId, ArtifactId**и**Версия**для вашего проекта Maven и нажмите**Заканчивать.**
+1. Укажите **Имя Проекта, Местоположение, GroupId, ArtifactId** и **Версию** для вашего проекта Maven, и нажмите **Готово**.
 
-![дело:изображение_альтернативный_текст](project_3.png)
+![todo:image_alt_text](project_3.png)
 
-1. Это позволит получить[Aspose.Cells for Java](https://products.aspose.com/cells/java/) последний[Maven Зависимость](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) ссылка от[Aspose Облако Maven Репозиторий](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) и настроить его в**пом.xml**. Если вы выбрали**Также загрузите примеры кода,** загрузка**Примеры кода** также начнется с[Aspose.Cells for Java API Хранилище примеров.](https://github.com/aspose-cells/Aspose.Cells-for-Java)
-1. Следующий**Maven** Проект будет создан на вашем**Затмение IDE** по завершению работы мастера:
+1. Это приведет к получению ссылки на последнюю [Maven Dependency](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) из [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) и настройке в **pom.xml**. Если вы выбрали **Также скачать Примеры Кода,** начнется скачивание **Примеров Кода** из репозитория примеров **Aspose.Cells for Java API.**
+1. После завершения мастера будет создан следующий **Maven** проект на вашем **Eclipse IDE**:  
 
-![дело:изображение_альтернативный_текст](project_4.png)
+![todo:image_alt_text](project_4.png)
 
-1.  Созданный**Maven Проект** настроен на использование**Aspose.Cells for Java API** и готов к расширению в соответствии с требованиями вашего проекта.
- Если вы решили скачать[Примеры кода](https://github.com/aspose-cells/Aspose.Cells-for-Java) , ты можешь использовать**Aspose.Cells Пример кода (мастер)**для импорта нужно**Примеры кода** из Aspose.Cells for Java API в свой проект.
+1. Созданный **Maven** проект настроен для использования **Aspose.Cells for Java API** и готов к настройке в соответствии с требованиями вашего проекта.
+   Если вы решили скачать [Примеры Кода](https://github.com/aspose-cells/Aspose.Cells-for-Java), вы можете использовать **Мастер Примеров Кода Aspose.Cells (wizard)** для импорта необходимых **Примеров Кода** Aspose.Cells for Java API в ваш проект.
 
-### **Aspose.Cells Пример кода (мастер)**
+### **Мастер Примеров Кода Aspose.Cells**
 
-**Aspose.Cells Мастер примеров кода** позволяет опробовать множество образцов, предоставленных по номеру Aspose.Cells for Java API.
+**Мастер Примеров Кода Aspose.Cells** позволяет ознакомиться с многими предоставленными примерами для Aspose.Cells for Java API.
 
 {{% alert color="primary" %}}
 
- Чтобы иметь возможность использовать**Aspose.Cells Мастер примеров кода**комфортно: рекомендуется всегда выбирать**Также загрузите примеры кода** при создании**Maven Проект**на**Aspose.Cells Maven Проект** **волшебник**,
+Чтобы удобно пользоваться **Мастером Примеров Кода Aspose.Cells**: рекомендуется всегда выбирать **Также скачать Примеры Кода** при создании **Мавен проекта** на **Мастере Aspose.Cells Maven Project**,
 
 {{% /alert %}}
 
-Чтобы использовать примеры, просто:
+Для использования примеров просто:
 
-1. Нажмите**Новое -> Другое** в**Затмение**.
-1. Выбирать**Aspose.Cells Пример кода**в**Java**категория.
-1. Нажмите**Следующий**.  
+1. Нажмите **Новый -> Другое** в **Eclipse**.
+1. Выберите **Aspose.Cells Code Example** в категории **Java**.
+1. Нажмите **Далее**.  
 
-![дело:изображение_альтернативный_текст](example_1.png)
+![todo:image_alt_text](example_1.png)
 
-1.  Выберите свой проект, а затем разверните дерево, чтобы выбрать**Пример кода** категорию и нажмите**Заканчивать**.
+1. Выберите ваш проект, затем разверните дерево, чтобы выбрать категорию **Пример Кода** и нажмите **Готово**.
 
-![дело:изображение_альтернативный_текст](example_2.png)
+![todo:image_alt_text](example_2.png)
 
-1.  Это скопирует выбранную категорию**Примеры кода**Java файлов в проект под**com.aspose.cells.examples**упаковка. Также любые необходимые ресурсы, необходимые для примеров кода, будут скопированы в**источник/основной/ресурсы**папку, как показано ниже:
+1. Это скопирует выбранные файлы Java категории **Примеры Кода** в проект в пакет **com.aspose.cells.examples.** Также будут скопированы все необходимые ресурсы, нужные для примеров кода, в папку **src/main/resources**, как показано ниже:
 
-![дело:изображение_альтернативный_текст](example_3.png)
+![todo:image_alt_text](example_3.png)
 
-1. Просмотрите пример кода, скомпилируйте и запустите.
-1. Теперь вы можете протестировать другие примеры и начать создавать собственное приложение, используя Aspose.Cells for Java API.
+1. Просмотрите примерный код, скомпилируйте и запустите.
+1. Теперь вы можете попробовать другие примеры и начать создание собственного приложения, используя Aspose.Cells for Java API.

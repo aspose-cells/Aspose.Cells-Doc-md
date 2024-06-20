@@ -1,41 +1,44 @@
-﻿---
-title: .NET コアで Aspose.Cells.GridWeb を使用する方法
+---
+title: .NET Core でAspose.Cells.GridWebを使用する方法
 type: docs
 weight: 40
-url: /ja/net/how-to-use-aspose-cells-gridweb-with-net-core/
+url: /ja/net/aspose-cells-gridweb/how-to-use-aspose-cells-gridweb-with-net-core/
+keywords: GridWeb,dotnetcore
+description: この記事では、.net core webアプリケーションでGridWebを使用する方法について紹介します。
 ---
+
 {{% alert color="primary" %}} 
 
-このトピックでは、Visual Studio.NET 2019 を使用して .NET コア アプリケーションで Aspose.Cells.GridWeb を使用する方法について説明します。
+このトピックでは、Visual Studio.NET 2019を使用して.NET CoreアプリケーションでAspose.Cells.GridWebを使用する方法について説明します。このトピックは、Aspose.Cells.GridWebで作業する初心者レベルの開発者に役立ちます。
 
 {{% /alert %}} 
-## **.NETコアでAspose.Cells.GridWebを使用**
-このトピックでは、Visual Studio 2019 でサンプル Web サイトを作成して、Aspose.Cells.GridWeb を使用する方法を示します。プロセスはステップに分割されています。
-### **ステップ 1: 新しいプロジェクトの作成**
-1. Visual Studio 2019 を開きます。
-1. から**ファイル**メニュー、選択**新しい**、 それから**計画**.
-新規プロジェクトの作成ダイアログが開きます。
-1. 選択する**ASP.NET コア Web アプリケーション**Visual Studio にインストールされたプロジェクト テンプレートから、**次**.
+## **.NET CoreでAspose.Cells.GridWebを使用する**
+このトピックでは、Visual Studio 2019でサンプルのウェブサイトを作成することで、Aspose.Cells.GridWebの使用方法を示します。プロセスはステップに分かれています。
+### **ステップ1：新しいプロジェクトの作成**
+1. Visual Studio 2019を開きます。
+1. **ファイル**メニューから**新規**、次に**プロジェクト**を選択します。
+   新しいプロジェクトダイアログが開きます。
+1. Visual Studioにインストールされたプロジェクトテンプレートから**ASP.NET Core Webアプリケーション**を選択し、**次へ**をクリックします。
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_1.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_1.jpg)
 
-1. プロジェクトの場所と名前を指定してクリックします**作成**.
+1. プロジェクトの場所と名前を指定し、**作成**をクリックします。
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_2.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_2.jpg)
 
-1. を選択**Web アプリケーション (Model-View-Controller)**テンプレートを作成し、**ASP .NET コア 2.1**が選択されます。
+1. **Webアプリケーション（モデル-ビュー-コントローラ）**テンプレートを選択し、**ASP .NET Core 2.1**が選択されていることを確認します。 
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_3.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_3.jpg)
 
-1. クリック**作成**.
-### **ステップ 2: 初期ビューの確認**
-新しく作成されたプロジェクトを実行すると、下の画像に示すように、ブラウザーに既定のテンプレートが表示されます。
+1. **作成**をクリックします。
+### **ステップ2：初期ビューの確認**
+新しく作成したプロジェクトを実行すると、ブラウザにデフォルトのテンプレートが表示されます。
 
 
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_4.jpg)
-### **ステップ 3: Aspose.Cells.GridWeb を追加する**
-1. 次の Nuget パッケージをプロジェクトに追加します
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_4.jpg)
+### **ステップ3：Aspose.Cells.GridWebの追加**
+1. 以下のNugetパッケージをプロジェクトに追加します
 
 <PackageReference Include="Microsoft.AspNetCore.App" />
 <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
@@ -43,57 +46,57 @@ url: /ja/net/how-to-use-aspose-cells-gridweb-with-net-core/
 <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
 <PackageReference Include="System.Text.Encoding.CodePages" Version="4.7.0" />
 
-1. Aspose.Cells.GridWeb パッケージを追加
+1. Aspose.Cells.GridWebパッケージを追加します
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_5.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_5.jpg)
 
-1. Views フォルダーの **_ViewImports.cshtml** ファイルに以下を追加します。
+1. **Views**フォルダの**_ViewImports.cshtml**ファイルに以下を追加します。
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-ViewImports.cs" >}}
 
-変更後のファイルは次のようになります
+変更後のファイルは以下のようになります
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_6.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_6.jpg)
 
-1. 次のコードを HomeController の Index メソッドに追加します。
+1. HomeControllerのIndexメソッドに以下のコードを入れます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-HomeController.cs" >}}
 
 {{% alert color="primary" %}} 
 
-SessionStorePath と ImportExcelFile パスを忘れずに更新してください。
+SessionStorePathとImportExcelFileのパスを更新することを忘れないでください。
 
 {{% /alert %}} 
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_7.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_7.jpg)
 
-1. に次のコードを追加します。**インデックス.cshtml** View > Home ディレクトリにあるファイル。
+1. **View > Home**ディレクトリの**Index.cshtml**ファイルに以下のコードを追加します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-IndexView.cs" >}}
 
-変更後のファイルは次のようになります。
+変更後のファイルは以下のようになります
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_8.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_8.jpg)
 
-1. Startup.cs ファイルにセッション サポートと GridScheduedService を追加します。
- 1. 次のコード スニペットを ConfigureServices メソッドに追加します。
+1. **Startup.cs**ファイルにSessionサポートとGridScheduedServiceを追加します
+   1. **ConfigureServices**メソッドに以下のコードスニペットを追加します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-Startup1.cs" >}}
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_9.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_9.jpg)
 
-1. 次のコード スニペットを Configure メソッドに追加します。
+1. **Configure**メソッドに以下のコードスニペットを追加します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-Startup2.cs" >}}
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_10.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_10.jpg)
 
-1. 最新の acw_client を次のディレクトリに置きます: **wwwroot/js** {{% alert color="primary" %}} {{% /alert %}}
-1. 追加**AcwController**コントローラーで、一般的な編集アクションのすべてのデフォルト操作を提供できる acw ルート マップを処理します。
+最新のacw_clientを**wwwroot/js**ディレクトリに置きます{{% alert color="primary" %}}   {{% /alert %}}
+一般的な編集操作のすべてのデフォルト操作を提供できるacwルートマップを処理する**AcwController**を追加します。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-AcwController.cs" >}}
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_11.jpg)
-### **ステップ 4: アプリをテストする**
-アプリを実行すると、下の画像に示すような出力が得られます。
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_11.jpg)
+### **ステップ4：アプリのテスト**
+アプリを実行すると、以下の画像に示すような出力が表示されます。
 
-![todo:画像_代替_文章](how-to-use-aspose-cells-gridweb-with-net-core_12.jpg)
+![todo:image_alt_text](how-to-use-aspose-cells-gridweb-with-net-core_12.jpg)

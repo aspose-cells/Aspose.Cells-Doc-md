@@ -1,15 +1,16 @@
-﻿---
-title: Conversión de hoja de trabajo a imagen en PHP
+---
+title: Conversión de Hoja de Cálculo a Imagen en PHP
 type: docs
 weight: 40
 url: /es/net/worksheet-to-image-conversion-in-php/
 ---
-## **Aspose.Cells - Convertir hoja de trabajo en imagen**
-Convierta una hoja de cálculo de Excel Microsoft en un archivo de imagen
+
+## **Aspose.Cells - Convertir Hoja de Cálculo a Imagen**
+Convertir una Hoja de Cálculo de Microsoft Excel a un Archivo de Imagen
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
          $dataDir = '';
 
@@ -44,7 +45,7 @@ Convierta una hoja de cálculo de Excel Microsoft en un archivo de imagen
         print "Conversion to Image(s) completed!" . PHP_EOL;
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
- Descargar**Hoja de trabajo a imagen (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Hoja de Cálculo a Imagen (Aspose.Cells)** de cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

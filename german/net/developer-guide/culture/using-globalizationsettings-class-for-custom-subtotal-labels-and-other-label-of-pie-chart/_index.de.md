@@ -1,43 +1,44 @@
-﻿---
-title: Verwenden der GlobalizationSettings-Klasse für benutzerdefinierte Zwischensummenbeschriftungen und andere Beschriftungen von Kreisdiagrammen
+---
+title: Verwendung der GlobalizationSettings Klasse für benutzerdefinierte Teilergebnisbezeichnungen und andere Beschriftungen des Kuchendiagramms
 type: docs
 weight: 70
 url: /de/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Aspose.Cells APIs haben die ausgesetzt[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)Klasse, um mit den Szenarien fertig zu werden, in denen der Benutzer benutzerdefinierte Beschriftungen für Zwischensummen in einer Tabelle verwenden möchte. Außerdem die[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) Klasse kann auch verwendet werden, um die zu ändern**Andere** Bezeichnung für das Kreisdiagramm beim Rendern des Arbeitsblatts oder Diagramms.
+## **Mögliche Verwendungsszenarien**
+
+Die Aspose.Cells-APIs haben die [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)-Klasse freigegeben, um mit Szenarien umzugehen, in denen der Benutzer benutzerdefinierte Bezeichnungen für Teilergebnisse in einer Tabellenkalkulation verwenden möchte. Außerdem kann die [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)-Klasse auch verwendet werden, um die **Andere**-Bezeichnung für das Kuchendiagramm beim Rendern des Arbeitsblatts oder Diagramms zu ändern.
 
 ## **Einführung in die GlobalizationSettings-Klasse**
 
- Das[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) Die Klasse bietet derzeit die folgenden 3 Methoden, die in einer benutzerdefinierten Klasse überschrieben werden können, um gewünschte Beschriftungen für die Zwischensummen zu erhalten oder benutzerdefinierten Text für die zu rendern**Andere** Beschriftung eines Tortendiagramms.
+Die [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)-Klasse bietet derzeit die folgenden 3 Methoden, die in einer benutzerdefinierten Klasse überschrieben werden können, um gewünschte Bezeichnungen für die Teilergebnisse zu erhalten oder benutzerdefinierten Text für die **Andere**-Bezeichnung eines Kuchendiagramms zu rendern.
 
-1. [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname): Ruft den Gesamtnamen der Funktion ab.
-1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname): Ruft den Gesamtsummennamen der Funktion ab.
-1. [**GlobalizationSettings.GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername): Ruft den Namen von „Anderen“ Beschriftungen für Kreisdiagramme ab.
+1. [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname): Gibt den Gesamtwertnamen der Funktion zurück.
+1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname): Gibt den Gesamtergebnisnamen der Funktion zurück.
+1. [**GlobalizationSettings.GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername): Ruft den Namen der "Andere"-Beschriftungen für Kreisdiagramme ab.
 
 ### **Benutzerdefinierte Beschriftungen für Zwischensummen**
 
- Das[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)-Klasse kann zum Anpassen der Zwischensummenbeschriftungen verwendet werden, indem die Klasse überschrieben wird[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)Methoden wie oben gezeigt.
+Die Klasse [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) kann verwendet werden, um die Zwischensummenbeschriftungen anzupassen, indem die Methoden [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname) wie weiter unten dargestellt überschrieben werden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 
- Um benutzerdefinierte Labels einzufügen, ist es erforderlich, die zuzuweisen[**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) Eigenschaft zu einer Instanz der**Benutzerdefinierte Einstellungen**oben definierte Klasse, bevor Sie die Zwischensummen zum Arbeitsblatt hinzufügen.
+Um benutzerdefinierte Beschriftungen einzufügen, muss die Eigenschaft [**WorkbookSettings.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) einer Instanz der oben definierten **CustomSettings**-Klasse zugewiesen werden, bevor die Zwischensummen zum Arbeitsblatt hinzugefügt werden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-UsingGlobalizationSettings.cs" >}}
 
 {{% alert color="primary" %}}
 
- Das[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)Klasse funktioniert nur zum Hinzufügen neuer Zwischensummen. Wenn eine Tabelle bereits Zwischensummen enthält, können ihre Bezeichnungen nicht geändert werden.
+Die Klasse [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) funktioniert nur für das Hinzufügen neuer Zwischensummen. Wenn ein Tabellenblatt bereits Zwischensummen enthält, können ihre Beschriftungen nicht geändert werden.
 
 {{% /alert %}}
 
-### **Benutzerdefinierter Text für andere Beschriftungen des Kreisdiagramms**
+### **Benutzerdefinierter Text für Andere Beschriftung im Kreisdiagramm**
 
- Das[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) Klasse Angebote[**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)Methode, die nützlich ist, um der Bezeichnung "Andere" von Kreisdiagrammen einen benutzerdefinierten Wert zuzuweisen. Der folgende Codeausschnitt definiert eine benutzerdefinierte Klasse und überschreibt die[**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)-Methode, um eine benutzerdefinierte Bezeichnung basierend auf dem Kulturbezeichner des Systems abzurufen.
+Die Klasse [**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) bietet eine Methode [**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername), die nützlich ist, um der "Andere"-Beschriftung von Kreisdiagrammen einen benutzerdefinierten Wert zu geben. Der folgende Code definiert eine benutzerdefinierte Klasse und überschreibt die Methode [**GetOtherName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername), um eine benutzerdefinierte Beschriftung basierend auf dem Kulturkennzeichen des Systems zu erhalten.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-GlobalizationSettings.cs" >}}
 
- Das folgende Snippet lädt eine vorhandene Tabelle, die ein Kreisdiagramm enthält, und rendert das Diagramm in ein Bild, während es verwendet wird**Benutzerdefinierte Einstellungen**oben erstellte Klasse.
+Der folgende Code lädt ein vorhandenes Tabellenblatt, das ein Kreisdiagramm enthält, und rendert das Diagramm zu einem Bild unter Verwendung der zuvor erstellten **CustomSettings**-Klasse.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-UsingGlobalizationSettings.cs" >}}

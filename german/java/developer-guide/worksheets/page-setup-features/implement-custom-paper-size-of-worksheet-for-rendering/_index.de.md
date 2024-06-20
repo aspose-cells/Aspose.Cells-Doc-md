@@ -1,20 +1,21 @@
-﻿---
-title: Implementieren Sie die benutzerdefinierte Papiergröße des Arbeitsblatts zum Rendern
+---
+title: Benutzerdefinierte Papiergröße des Arbeitsblatts für die Darstellung implementieren
 type: docs
 weight: 30
 url: /de/java/implement-custom-paper-size-of-worksheet-for-rendering/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Es gibt keine direkte Option zum Erstellen benutzerdefinierter Papiergrößen in MS Excel. Sie können jedoch benutzerdefinierte Papiergrößen Ihrer gewünschten Arbeitsblätter festlegen, wenn Sie eine Excel-Datei in das Dateiformat PDF rendern. In diesem Dokument wird erläutert, wie Sie mithilfe von Aspose.Cells-APIs ein benutzerdefiniertes Papierformat für ein Arbeitsblatt festlegen.
+## **Mögliche Verwendungsszenarien**
 
-## **Implementieren Sie die benutzerdefinierte Papiergröße des Arbeitsblatts zum Rendern**
+Es gibt keine direkte Option zum Erstellen von benutzerdefinierten Papiergrößen in MS Excel, jedoch können Sie die benutzerdefinierte Papiergröße Ihrer gewünschten Arbeitsblätter beim Rendern von Excel-Dateien im PDF-Dateiformat festlegen. Dieses Dokument erklärt, wie Sie mithilfe von Aspose.Cells APIs eine benutzerdefinierte Papiergröße eines Arbeitsblatts festlegen.
 
-Aspose.Cells ermöglicht es Ihnen, Ihr gewünschtes Papierformat des Arbeitsblatts zu implementieren, indem Sie die verwenden[**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double) ) Methode der[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) . Der folgende Beispielcode veranschaulicht, wie eine benutzerdefinierte Papiergröße für das erste Arbeitsblatt in der Arbeitsmappe angegeben wird. Bitte beachten Sie auch die[Ausgang PDF](45056030.pdf) generiert mit dem folgenden Code für eine Referenz.
+## **Benutzerdefinierte Papiergröße des Arbeitsblatts für die Darstellung implementieren**
 
-## **Bildschirmfoto**
+Aspose.Cells ermöglicht es Ihnen, die gewünschte Papiergröße des Arbeitsblatts mithilfe der Methode [**customPaperSize**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double)) der Klasse [**PageSetup**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) zu implementieren. Der folgende Beispielcode zeigt, wie Sie eine benutzerdefinierte Papiergröße für das erste Arbeitsblatt in der Arbeitsmappe festlegen. Sehen Sie sich auch das mit dem folgenden Code generierte [Ausgabe-PDF](45056030.pdf) als Referenz an.
 
-![todo: Bild_alt_Text](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+## **Screenshot**
+
+![todo:image_alt_text](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
 
 ## **Beispielcode**
 

@@ -1,19 +1,20 @@
 ---
-title: تسمية البيانات المخصصة للنص المنسق لنقطة المخطط
-description: تعرف على كيفية إضافة تسميات بيانات مخصصة للنص المنسق إلى نقاط المخطط في Aspose.Cells for .NET. سيوضح لك دليلنا كيفية تنسيق التسميات بخطوط وألوان وخيارات محاذاة مختلفة لتحسين مظهر مخططاتك وسهولة قراءتها.
-keywords: Aspose.Cells for .NET, charting, rich text, custom data labels, fonts, colors, alignment, appearance, readability.
+title: تسمية بيانات مخصصة نصية غنية الرسم البياني
+description: تعلم كيفية إضافة تسميات بيانات مخصصة بتنسيق نص غني لنقاط الرسم البياني في Aspose.Cells for .NET. سيوضح دليلنا لك كيفية تنسيق التسميات بأنواع الخطوط والألوان المختلفة وخيارات المحاذاة لتعزيز مظهر وقراءة الرسوم البيانية الخاصة بك.
+keywords: Aspose.Cells for .NET ، رسم بياني ، نص غني ، تسميات بيانات مخصصة ، خطوط ، ألوان ، محاذاة ، مظهر ، قراءة.
 type: docs
 weight: 10
 url: /ar/net/rich-text-custom-data-label-of-chart-point/
 ---
+
 {{% alert color="primary" %}}
 
- يمكنك استخدام Aspose.Cells لإنشاء تسمية بيانات مخصصة للنص المنسق لنقطة المخطط. Aspose.Cells يوفر[**DataLabels.Characters()**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/methods/characters) طريقة إرجاع[**إعداد الخط**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) كائن يمكن استخدامه لتعيين خصائص خط النص مثل اللون والجرأة وما إلى ذلك.
+يمكنك استخدام Aspose.Cells لإنشاء تسمية بيانات مخصصة بتنسيق نص غني لنقطة الرسم البياني. يوفّر Aspose.Cells الطريقة [**DataLabels.Characters()**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextframe/methods/characters) لإعادة ال [**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) الذي يمكن استخدامه لتعيين خصائص الخط للنص مثل لونه وسمكه وما إلى ذلك.
 
 {{% /alert %}}
 
-##  تسمية البيانات المخصصة للنص المنسق لنقطة المخطط
+## تسمية بيانات مخصصة بتنسيق نص غني لنقطة الرسم البياني
 
-يصل التعليمة البرمجية التالية إلى نقطة الرسم البياني الأولى من السلسلة الأولى، ويضبط نصها ثم يضبط خط الأحرف العشرة الأولى من خلال ضبط لونه على اللون الأحمر والخط الغامق على *صحيح**.
+الكود التالي يصل إلى نقطة الرسم البياني الأولى للسلسلة الأولى، يحدد نصها، ثم يعيّن خط العشرة أحرف الأولى بتغيير لونها إلى اللون الأحمر وجعلها غامقة **صحيحة**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}

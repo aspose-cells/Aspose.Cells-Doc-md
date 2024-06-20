@@ -1,23 +1,24 @@
-﻿---
+---
 title: Obtener o establecer el identificador de clase del objeto OLE incrustado
 type: docs
 weight: 920
 url: /es/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/
 ---
-## **Posibles escenarios de uso**
- Aspose.Cells proporciona el[OleObject.ClassIdentifier](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#ClassIdentifier)propiedad que puede usar para obtener o establecer el identificador de clase de un objeto ole incrustado. Los identificadores de clase de objetos antiguos son en realidad GUID, es decir, identificadores únicos globales. GUID siempre tiene una longitud de 16 bytes, por lo que los identificadores de clase también tienen una longitud de 16 bytes. A menudo se encuentran dentro del Registro Windows y brindan información a la aplicación host sobre cómo abrir un objeto ole incrustado que contiene varios recursos incrustados dentro de la aplicación cliente.
-## **Obtener o establecer el identificador de clase del objeto OLE incrustado**
- La siguiente captura de pantalla muestra el identificador de clase de objeto Ole, es decir, GUID, que se ha leído desde el[ejemplo de archivo de Excel](5473378.xls) que contiene el objeto ole incrustado PowerPoint.
 
-![todo:imagen_alternativa_texto](get-or-set-the-class-identifier-of-the-embedded-ole-object_1.png)
+## **Escenarios de uso posibles**
+Aspose.Cells proporciona la propiedad [OleObject.ClassIdentifier](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#ClassIdentifier) que puede utilizar para obtener o establecer el identificador de clase de un objeto ole incrustado. Los identificadores de clase de objetos Ole son GUID, es decir, Identificadores Únicos Globales. GUID siempre tiene 16 bytes de longitud, por lo tanto, los identificadores de clase también tienen 16 bytes de longitud. A menudo se encuentran dentro del Registro de Windows y proporcionan información a la aplicación host sobre cómo abrir el objeto ole incrustado que contiene varios recursos incrustados dentro de la aplicación cliente.
+## **Obtener o establecer el identificador de clase del objeto OLE incrustado**
+La siguiente captura de pantalla muestra el identificador de clase del objeto Ole, es decir, el GUID que se ha leído del [archivo de Excel de muestra](5473378.xls) que contiene el objeto ole de PowerPoint incrustado.
+
+![todo:image_alt_text](get-or-set-the-class-identifier-of-the-embedded-ole-object_1.png)
 ## **Código de muestra**
- Consulte el siguiente código de ejemplo ejecutado con[ejemplo de archivo de Excel](5473378.xls) y su salida de consola que imprime el*Identificador de clase*de Ole Object, es decir, GUID. El GUID impreso es exactamente el mismo que se muestra en la captura de pantalla.
+Consulte el siguiente código de muestra ejecutado con [archivo de Excel de ejemplo](5473378.xls) y su salida en consola que imprime el *Identificador de clase* del Objeto Ole, es decir, el GUID. El GUID impreso es exactamente el mismo que se muestra dentro de la captura de pantalla.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetSettheClassIdentifier-GetSettheClassIdentifier.java" >}}
-## **Salida de consola**
- Esta es la salida de la consola del código de muestra anterior cuando se ejecuta con el[ejemplo de archivo de Excel](5473378.xls).
+## **Salida de la consola**
+Esta es la salida en consola del código de muestra anterior cuando se ejecuta con el [archivo de Excel de ejemplo](5473378.xls).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  DC020317-E6E2-4A62-B9FA-B3EFE16626F4
 

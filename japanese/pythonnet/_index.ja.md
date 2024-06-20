@@ -1,29 +1,31 @@
-﻿---
+---
 title: Aspose.Cells for Python via .NET
 type: docs
 weight: 110
 url: /ja/python-net/
 is_root: true
-description: Aspose.Cells for Python は、ビジネスで毎日使用する一般的なスプレッドシート (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、および SVG を含む一般的な画像形式にエクスポートすることもできます。
+description: PythonのAspose.Cellsは、ビジネスで毎日使用されている人気のあるスプレッドシート（XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS）ファイル形式をサポートします。また、Excel®ファイルをPDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、プレーンテキストおよびTIFF、JPG、PNG、BMP、SVGなどの人気のある画像形式にエクスポートすることもできます。
+keywords: PythonのAspose.Cells via .NETは、JSON、Excel XML、PDF、HTML、TSV、SQL、TXT、PNG、JPEGなど多くの形式の作成、修復、変更、解析、マージ、変換が可能です。
 ---
+
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for Python via .NET 製品ロゴ](home_1.png)**
+**![PythonのAspose.Cells via .NET プロダクトロゴ](home_1.png)**
 
-**Aspose.Cells for Python via .NET へようこそ**
+**PythonのAspose.Cells via .NETへようこそ**
 
-Aspose.Cells for Python via .NET を使用すると、アプリケーションでさまざまなスプレッドシート処理タスクを実行できます。 Aspose.Cells for Python via .NET は、ビジネスで毎日使用する一般的なスプレッドシート (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、SVG などの一般的な画像形式にエクスポートすることもできます。
+PythonのAspose.Cells via .NETは、アプリケーションがさまざまなスプレッドシート処理タスクを実行できるようにします。Aspose.Cells for Python via .NETは、ビジネスで毎日使用されている人気のあるスプレッドシート（XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS）ファイル形式をサポートします。また、Excel®ファイルをPDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、プレーンテキストおよびTIFF、JPG、PNG、BMP、SVGなどの人気のある画像形式にエクスポートすることもできます。
 
 {{% /alert %}}
 
-## **Aspose.Cells for Python via .NET リソース**
+## **PythonのAspose.Cells via .NET リソース**
 
-以下は、タスクを遂行するために必要となる可能性があるいくつかの有用なリソースへのリンクです。
+以下は、タスクを達成するために必要ないくつかの便利なリソースへのリンクです。
 
-- [Aspose.Cells for .NET オンライン ドキュメント](/cells/ja/net/)(Aspose.Cells for Python via .NET は Aspose.Cells for .NET と非常によく似ています。したがって、同じドキュメントを使用できます)
-- [Aspose.Cells for Python via .NET 特徴](/cells/ja/python-net/features/)
-- [Aspose.Cells for Python via .NET リリースノート](https://releases.aspose.com/ja/cells/python-net/release-notes/)
-- [Aspose.Cells for Python via .NET 商品ページ](https://products.aspose.com/cells/python-net/)
-- [ダウンロード Aspose.Cells for Python via .NET](https://downloads.aspose.com/cells/python-net)
-- [Aspose.Cells for Python via .NET 無料サポートフォーラム](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells for Python via .NET 有料サポート ヘルプデスク](https://helpdesk.aspose.com/)
+- [Aspose.Cells for .NET オンラインドキュメント](/cells/ja/net/) (PythonのAspose.Cells via .NETはAspose.Cells for .NETと非常に似ています。そのため、同じドキュメントを使用できます)
+- [PythonのAspose.Cells via .NETの機能](/cells/ja/python-net/features/)
+- [PythonのAspose.Cells via .NETのリリースノート](https://releases.aspose.com/cells/python-net/release-notes/)
+- [PythonのAspose.Cells via .NETの製品ページ](https://products.aspose.com/cells/python-net/)
+- [PythonのAspose.Cells via .NETのダウンロード](https://downloads.aspose.com/cells/python-net)
+- [PythonのAspose.Cells via .NET無料サポートフォーラム](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells for Python via .NET 有料サポートヘルプデスク](https://helpdesk.aspose.com/)

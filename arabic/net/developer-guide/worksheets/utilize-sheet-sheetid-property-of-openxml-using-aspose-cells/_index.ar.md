@@ -1,28 +1,29 @@
 ---
-title: استخدم خاصية Sheet.SheetId الخاصة بـ OpenXml باستخدام Aspose.Cells
+title: استخدام خاصية Sheet.SheetId في OpenXml باستخدام Aspose.Cells
 type: docs
 weight: 200
 url: /ar/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
-description: توضح هذه المقالة كيفية استخدام خاصية Sheet.SheetId لـ OpenXml باستخدام معالجة Excel .NET API أو مكتبة C# برمجيًا.
-keywords: sheet id property of openxml c#, sheet id excel worksheet c#
+description: يوضح هذا المقال كيفية استخدام خاصية Sheet.SheetId في OpenXml باستخدام مكتبة Excel manipulation .NET API أو C# برمجياً.
+keywords: خاصية sheet id لـ openxml c#، sheet id ورقة عمل الإكسل c#
 ---
-##  **سيناريوهات الاستخدام الممكنة**
 
-*ورقة*تم العثور على الممتلكات داخل*DocumentFormat.OpenXml.Spreadsheet* مساحة الاسم وجزء من OpenXml. تستطيع أن ترى هذه الخاصية وقيمتها في الداخل*مصنف. xml* كما هو موضح في الصورة التالية. يوفر Aspose.Cells الخاصية المكافئة كـ[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid).
+## **سيناريوهات الاستخدام المحتملة**
 
-![ما يجب القيام به: image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
+يوجد الخاصية  *Sheet.SheetId* داخل *DocumentFormat.OpenXml.Spreadsheet* وهي جزء من OpenXml. يمكنك رؤية هذه الخاصية وقيمتها داخل *workbook.xml* كما هو موضح في اللقطة الشاشة التالية. توفر Aspose.Cells الخاصية المعادلة كـ [**Worksheet.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid).
 
-##  **استخدم خاصية Sheet.SheetId الخاصة بـ OpenXml باستخدام Aspose.Cells**
+![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](51740716.xlsx) ، يقرأ جدول البيانات أو معرف علامة التبويب الخاص به ، ثم يقوم بتعيين معرف علامة تبويب جديد له ويحفظه باسم[إخراج ملف Excel](51740717.xlsx). يرجى أيضًا الاطلاع على إخراج وحدة التحكم للرمز الوارد أدناه كمرجع.
+## **الاستفادة من خاصية Sheet.SheetId في الشكل المفتوحXML باستخدام Aspose.Cells**
 
-##  **عينة من الرموز**
+يقوم الكود البرمجي العيني التالي بتحميل [ملف Excel عيني](51740716.xlsx)، يقرأ تعريف معرف ورقتها أو تبويبها، ثم يعين له معرف تبويب جديد ويحفظه ك[ملف Excel الناتج](51740717.xlsx). يرجى أيضاً النظر إلى مخرجات الكونسول المعروضة في الكود أدناه للإشارة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UtilizeSheet_SheetId_PropertyOfOpenXml.cs" >}}
 
-##  **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet or Tab Id: 1297
 

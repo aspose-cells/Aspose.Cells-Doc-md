@@ -1,30 +1,32 @@
-﻿---
+---
 title: Aspose.Cells for Python via Java
 type: docs
 weight: 70
 url: /es/python-java/
 is_root: true
-description: Aspose.Cells for Python es compatible con los populares formatos de archivo de hoja de cálculo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa usa todos los días. También permite exportar archivos de Excel® a PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+description: Aspose.Cells para Python admite los formatos de archivo de hojas de cálculo populares (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa utiliza todos los días. También permite exportar archivos de Excel® a PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+keywords: Aspose.Cells for Python via Java puede crear, reparar, modificar, analizar, fusionar, convertir JSON Excel XML PDF HTML TSV SQL TXT PNG JPEG y más formatos.
 ---
+
 {{% alert color="primary" %}}
 
-**![todo:imagen_texto_alterno](inicio_1)**
+**![todo:image_alt_text](home_1)**
 
 **Bienvenido a Aspose.Cells for Python via Java**
 
-Aspose.Cells for Python via Java permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Python via Java es compatible con los populares formatos de archivo de hoja de cálculo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa usa todos los días. También permite exportar archivos de Excel® a PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+Aspose.Cells for Python via Java permite que tus aplicaciones realicen una amplia gama de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Python via Java admite los formatos de archivo de hojas de cálculo populares (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que tu empresa utiliza a diario. También permite exportar archivos de Excel a PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
 
 {{% /alert %}}
 
-## **Aspose.Cells for Python via Java Recursos**
+## **Recursos de Aspose.Cells for Python via Java**
 
-Los siguientes son los enlaces a algunos recursos útiles que puede necesitar para realizar sus tareas.
+A continuación se encuentran los enlaces a algunos recursos útiles que pueda necesitar para llevar a cabo sus tareas.
 
-- [Aspose.Cells for Java Documentación en línea](/cells/es/java/)(Aspose.Cells for Python via Java es muy similar a Aspose.Cells for Java. Entonces, puede usar la misma documentación)
-- [Aspose.Cells for Python via Java Características](/cells/es/pythonjava/features/)
-- [Aspose.Cells for Python via Java Notas de la versión](https://releases.aspose.com/es/cells/python-java/release-notes/)
-- [Aspose.Cells for Python via Java Página del producto](https://products.aspose.com/cells/python-java/)
-- [Descargar Aspose.Cells for Python via Java](https://downloads.aspose.com/cells/python-java)
-- [Aspose.Cells for Python via Java API Guía de referencia](https://reference.aspose.com/cells/python)
-- [Aspose.Cells for Python via Java Foro de soporte gratuito](https://forum.aspose.com/c/cells/9)
-- [Aspose.Cells for Python via Java Soporte técnico de pago](https://helpdesk.aspose.com/)
+- [Documentación en línea de Aspose.Cells for Java](/cells/es/java/) (Aspose.Cells for Python via Java es muy similar a Aspose.Cells for Java. Por lo tanto, puede utilizar la misma documentación)
+- [Características de Aspose.Cells for Python via Java](/cells/es/pythonjava/features/)
+- [Notas de la versión de Aspose.Cells para Python via Java](https://releases.aspose.com/cells/python-java/release-notes/)
+- [Página del producto Aspose.Cells para Python via Java](https://products.aspose.com/cells/python-java/)
+- [Descargar Aspose.Cells para Python via Java](https://downloads.aspose.com/cells/python-java)
+- [Guía de referencia de la API de Aspose.Cells para Python via Java](https://reference.aspose.com/cells/python)
+- [Foro de soporte gratuito de Aspose.Cells para Python via Java](https://forum.aspose.com/c/cells/9)
+- [Centro de ayuda de soporte pago de Aspose.Cells para Python via Java](https://helpdesk.aspose.com/)

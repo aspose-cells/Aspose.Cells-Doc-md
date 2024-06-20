@@ -1,21 +1,22 @@
 ---
-title: فرز البيانات في العمود باستخدام قائمة الفرز المخصصة
+title: فرز البيانات في العمود بقائمة فرز مخصصة
 type: docs
 weight: 290
 url: /ar/net/sort-data-in-column-with-custom-sort-list/
-description: تعرف على كيفية فرز البيانات في العمود باستخدام قائمة مخصصة باستخدام Aspose.Cells for .NET API.
-keywords: Sort Data in Column with Custom Sort List, Sort data by custom list.
+description: تعلم كيفية فرز البيانات في العمود باستخدام قائمة مخصصة باستخدام واجهة برمجة التطبيقات Aspose.Cells for .NET.
+keywords: فرز البيانات في العمود باستخدام قائمة الفرز المخصصة، فرز البيانات حسب القائمة المخصصة.
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
- يمكنك فرز البيانات في العمود باستخدام قائمة مخصصة. يمكن القيام بذلك باستخدام[**DataSorter.AddKey (مفتاح int، ترتيب SortOrder، قائمة سلسلة مخصصة)**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/2)طريقة. ومع ذلك، تعمل هذه الطريقة فقط إذا كانت العناصر الموجودة في القائمة المخصصة لا تحتوي على فواصل بداخلها. إذا كانت تحتوي على فواصل مثل "USA,US" و"China,CN" وما إلى ذلك، فيجب عليك استخدام [**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference. طريقة aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3). هنا، المعلمة الأخيرة ليست سلسلة ولكن مجموعة من السلاسل.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **فرز البيانات في العمود باستخدام قائمة الفرز المخصصة**
+يمكنك فرز البيانات في العمود باستخدام قائمة مخصصة. يمكن القيام بذلك باستخدام الطريقة [**DataSorter.AddKey(int key, SortOrder order, String customList)**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/2). ومع ذلك، تعمل هذه الطريقة فقط إذا كانت العناصر في القائمة المخصصة لا تحتوي على فواصل بينها. إذا كانت لديهم فواصل مثل "الولايات المتحدة الأمريكية، US"، "الصين، CN"، إلخ، فيجب عليك استخدام الطريقة [**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3). هنا، البرميتر الأخير ليس String بل مصفوفة من النصوص.
 
-يشرح نموذج التعليمات البرمجية التالي كيفية استخدام [**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey /methods/3) طريقة لفرز البيانات باستخدام قائمة الفرز المخصصة. الرجاء مراجعة[عينة من ملف إكسل](50528327.xlsx) المستخدمة في هذا الرمز و[إخراج ملف إكسل](50528328.xlsx) المتولدة عنها. توضح لقطة الشاشة التالية تأثير التعليمات البرمجية على نموذج ملف Excel عند التنفيذ.
+## **فرز البيانات في العمود بقائمة فرز مخصصة**
 
-![ما يجب القيام به:image_alt_text](sort-data-in-column-with-custom-sort-list_1.png)
+الكود المصدري التالي يشرح كيفية استخدام [**DataSorter.AddKey Method (Int32, SortOrder,String[])**)](https://reference.aspose.com/cells/net/aspose.cells.datasorter/addkey/methods/3) لفرز البيانات باستخدام قائمة مخصصة. يرجى الاطلاع على [ملف Excel عينة](50528327.xlsx) المستخدم في هذا الكود و [ملف الإخراج Excel](50528328.xlsx) الناتج عنه. توضح اللقطة الناتجة التأثير الناتج عن التعديل على ملف Excel عينة عند تنفيذ الكود.
 
-##  **عينة من الرموز**
+![todo:image_alt_text](sort-data-in-column-with-custom-sort-list_1.png)
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithCustomSortList.cs" >}}

@@ -1,19 +1,22 @@
-﻿---
-title: GridWeb'in OnAjaxCallFinishedClientFunction'ını Kullanma
+---
+title: GridWeb in OnAjaxCallFinishedClientFunction ını Kullanma
 type: docs
 weight: 20
-url: /tr/net/using-onajaxcallfinishedclientfunction-of-gridweb/
+url: /tr/net/aspose-cells-gridweb/using-onajaxcallfinishedclientfunction-of-gridweb/
+keywords: GridWeb,ajacall,onajaxcallfinishedclientfunction,OnAjaxCallFinishedClientFunction 
+description: Bu makale, GridWeb de OnAjaxCallFinishedClientFunction ile nasıl çalışılacağını tanıtır.
 ---
+
 ## **Olası Kullanım Senaryoları**
-OnAjaxCallFinishedClientFunction, kullanıcı bazı verileri GridWeb çalışma sayfasına kopyaladığında çağrılan bir istemci tarafı işlevidir. Bu işlev, hücrelerin büyük bir kısmı güncellendiğinde ve bu güncellenen hücrelerin izini istemci tarafında tutmak istediğinizde (örn. FireFox, Google Chrome vb. web tarayıcılarında) yararlıdır.
+OnAjaxCallFinishedClientFunction, kullanıcı GridWeb çalışma sayfasına veri kopyaladığında çağrılan bir client side fonksiyonudur. Bu fonksiyon, birden fazla hücre güncellendiğinde ve bu güncellenen hücrelerin izinini web tarayıcılarında (FireFox, Google Chrome vb.) tutmak istediğinizde (yani client side'da) faydalıdır.
 ## **GridWeb'in OnAjaxCallFinishedClientFunction'ını Kullanma**
-Aşağıdaki örnek kod, OnAjaxCallFinishedClientFunction istemci işlevinin nasıl kullanılacağını açıklar. Ekran görüntüleri, kod yürütüldüğünde Google Chrome ve FireFox'ta konsol çıktısını gösterir. Kodu çalıştırdıktan sonra, lütfen birden çok hücreye yayılan bazı verileri GridWeb çalışma sayfasına kopyalayın/yapıştırın ve ardından ekran görüntülerinde gösterildiği gibi Web Tarayıcı Konsolunu kontrol edin.
-## **Google Chrome Konsol Çıkışı**
-![yapılacaklar:resim_alternatif_metin](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
-## **FireFox Konsol Çıkışı**
-![yapılacaklar:resim_alternatif_metin](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
-## **Basit kod**
-{{< highlight "java" >}}
+Aşağıdaki örnek kod, OnAjaxCallFinishedClientFunction client fonksiyonundan nasıl yararlanılacağını açıklar. Ekran görüntüleri, kodun çalıştırıldığında Google Chrome ve FireFox'ta konsol çıktısını göstermektedir. Kodu çalıştırdıktan sonra, lütfen GridWeb çalışma sayfasında birden fazla hücreyi kapsayan bazı verileri kopyalayıp yapıştırın ve ardından ekran görüntülerinde gösterildiği gibi Web Tarayıcı Konsolunu kontrol edin.
+## **Google Chrome Konsol Çıktısı**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
+## **FireFox Konsolu Çıktısı**
+![todo:image_alt_text](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
+## **Örnek Kod**
+{{< highlight java >}}
 
  //-------------------------------------------------------
 

@@ -1,15 +1,16 @@
-﻿---
-title: Proteggere i fogli di lavoro in Php
+---
+title: Protezione dei fogli di lavoro in Php
 type: docs
 weight: 10
 url: /it/java/protecting-worksheets-in-php/
 ---
-## **Aspose.Cells - Fogli protettivi**
- Per proteggere il foglio di lavoro utilizzando**Aspose.Cells Java for PHP** , chiamata**proteggi_foglio di lavoro** metodo di**protezione** modulo.
+
+## **Aspose.Cells - Protezione dei fogli di lavoro**
+Per proteggere il foglio di lavoro utilizzando **Aspose.Cells Java per PHP**, chiamare il metodo **protect_worksheet** del modulo **protection**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -41,6 +42,6 @@ $excel->save($dataDir . "output.xls");  
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Protezione dei fogli di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Protezione dei fogli di lavoro (Aspose.Cells)** da uno dei siti di codice sociale di seguito indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/ProtectingWorksheet.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/ProtectingWorksheet.php)

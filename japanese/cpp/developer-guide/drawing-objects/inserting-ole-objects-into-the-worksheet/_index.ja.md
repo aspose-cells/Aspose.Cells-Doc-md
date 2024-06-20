@@ -1,12 +1,13 @@
 ---
-title: ワークシートへの OLE オブジェクトの挿入
+title: ワークシートにOLEオブジェクトを挿入する
 type: docs
 weight: 20
 url: /ja/cpp/inserting-ole-objects-into-the-worksheet/
 ---
-##  **考えられる使用シナリオ**
-Aspose.Cells を使用すると、ワークシート内に OLE オブジェクトを挿入できます。使ってください[ワークシート -> GetOleObjects() -> Add()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oleobjectcollection/add/)この目的のためのメソッド。ワークシート内に OLE オブジェクトを挿入するには、ワークシート内に OLE オブジェクトを挿入するために使用される画像バイト配列と、実際のオブジェクトとなる Ole オブジェクト データ バイトが必要です。ワークシート内に Ole オブジェクトを挿入するには。
-##  **ワークシートへの OLE オブジェクトの挿入**
-次のサンプル コードでは、ワークブック オブジェクトを作成し、最初のワークシート内に Ole オブジェクトを挿入し、それを次の名前で保存します。[Excelファイルを出力](66519074.xlsx) 。をご覧ください。<a href="66519075.png" download="66519075.png">Aspose ロゴ</a>画像バイトとして使用され、[Excelファイルを入力](66519081.xlsx)コード内で参照用の Ole オブジェクト データとして使用されます。
-##  **サンプルコード**
+
+## **可能な使用シナリオ**
+Aspose.Cellsを使用すると、ワークシート内にOLEオブジェクトを挿入できます。この目的のために[Worksheet->GetOleObjects()->Add()](https://reference.aspose.com/cells/cpp/aspose.cells.drawing/oleobjectcollection/add/)メソッドを使用してください。OLEオブジェクトをワークシート内に挿入するために使用されるイメージバイト配列と、実際のオブジェクトであるOleオブジェクトデータバイトが必要です。 
+## **ワークシートにOLEオブジェクトを挿入する**
+The following sample code creates the workbook object and inserts the Ole object inside the first worksheet and saves it as [output Excel file](66519074.xlsx). Please see the <a href="66519075.png" download="66519075.png">Aspose ロゴ</a> used as image bytes and [input Excel file](66519081.xlsx) used as Ole object data inside the code for reference.
+## **サンプルコード**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "DrawingObjects-InsertingOLEObjectsIntoWorksheet-new.cpp" >}}

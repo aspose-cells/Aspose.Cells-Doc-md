@@ -1,21 +1,22 @@
-﻿---
-title: Çalışma Sayfasını Python'de SVG'e Dönüştürme
+---
+title: Python da Çalışsayfayı SVG ye Dönüştürme
 type: docs
 weight: 50
 url: /tr/java/converting-worksheet-to-svg-in-python/
 ---
-## **Aspose.Cells - Çalışma Sayfası SVG'e dönüştürülüyor**
-Python'de Aspose.Cells for Java'i kullanarak Çalışma Sayfasını SVG'e dönüştürmek için çalışma sayfasını çağırmanız yeterlidir_ile_Dönüştürücü modülünün svg() yöntemi.
 
-**Python Kod**
+## **Aspose.Cells - Çalışma Sayfasını SVG'ye Dönüştürme**
+Python'da Aspose.Cells for Java kullanarak Çalışsayfayı SVG'ye dönüştürmek için, Converter modülünün worksheet_to_svg() yöntemini basitçe çağırın.
 
-{{< highlight "java" >}}
+**Python Kodu**
+
+{{< highlight java >}}
 
  saveFormat = self.SaveFormat
 
 workbook = self.Workbook(self.dataDir + "Book1.xls")
 
-# Convert each worksheet into svg format in a single page.
+#Convert each worksheet into svg format in a single page.
 
 imgOptions = ImageOrPrintOptions()
 
@@ -23,11 +24,11 @@ imgOptions.setSaveFormat(saveFormat.SVG)
 
 imgOptions.setOnePagePerSheet(True)
 
-# Convert each worksheet into svg format
+#Convert each worksheet into svg format
 
 sheetCount = workbook.getWorksheets().getCount()
 
-# for(i=0; i<sheetCount; i++)
+#for(i=0; i<sheetCount; i++)
 
 for i in range(sheetCount):
 
@@ -37,11 +38,11 @@ sr = SheetRender(sheet, imgOptions)
 
 pageCount = sr.getPageCount()
 
-# for (k = 0 k < pageCount k++)
+#for (k = 0 k < pageCount k++)
 
 for k in range(pageCount):
 
-# Output the worksheet into Svg image format
+#Output the worksheet into Svg image format
 
 sr.toImage(k, self.dataDir + sheet.getName() + ".out.svg")
 
@@ -53,6 +54,6 @@ print "Excel to SVG conversion completed successfully."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfası SVG(Aspose.Cells)'e Dönüştürülüyor** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Altta belirtilen sosyal kodlama sitelerinden herhangi birinden  **Çalışsayfayı SVG'ye Dönüştürme(Aspose.Cells)**'ı İndir
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

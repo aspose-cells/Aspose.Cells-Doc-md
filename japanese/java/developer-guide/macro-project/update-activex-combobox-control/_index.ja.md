@@ -1,18 +1,19 @@
-﻿---
-title: ActiveX ComboBox コントロールの更新
+---
+title: ActiveX ComboBoxコントロールを更新
 type: docs
 weight: 900
 url: /ja/java/update-activex-combobox-control/
 ---
-## **考えられる使用シナリオ**
-Aspose.Cells を使用して、ActiveX ComboBox コントロールの値を読み書きできます。次の方法で ActiveX コントロールにアクセスしてください。[Shape.ActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ActiveXControl)プロパティとそのタイプを介して確認します[ActiveXControl.Type](https://reference.aspose.com/cells/java/com.aspose.cells/activexcontrol#Type)プロパティ、それは返す必要があります[ControlType.ComboBox](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#COMBO_BOX)値を入力し、それを型キャストします[ComboBoxActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/ComboBoxActiveXControl)オブジェクトを取得し、そのさまざまなプロパティを読み取りまたは変更します。
 
-をダウンロードしてください[サンプルエクセルファイル](5473374.xlsx)次のサンプル コードと[出力エクセルファイル](5473375.xlsx)それによって生成されます。
-## **ActiveX ComboBox コントロールの更新**
-次のスクリーンショットは、サンプル コードの効果を示しています。[サンプルエクセルファイル](5473374.xlsx).ご覧のとおり、ActiveX ComboBox の値が「これはコンボ ボックス コントロールです」に更新されました。
+## **可能な使用シナリオ**
+Aspose.Cellsを使用して、ActiveX ComboBox Controlの値を読み取ったり、書き込んだりすることができます。[Shape.ActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ActiveXControl)プロパティを介してActiveX Controlにアクセスし、[ActiveXControl.Type](https://reference.aspose.com/cells/java/com.aspose.cells/activexcontrol#Type)プロパティを使用してそのタイプを確認します。これは[ControlType.ComboBox](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#COMBO_BOX)の値を返すはずであり、それを[ComboBoxActiveXControl](https://reference.aspose.com/cells/java/com.aspose.cells/ComboBoxActiveXControl)オブジェクトにキャストして、そのさまざまなプロパティを読み取ったり修正したりします。
 
-![todo:画像_代替_文章](update-activex-combobox-control_1.png)
+次のサンプルコードで使用される[サンプルエクセルファイル](5473374.xlsx)とその生成された[出力エクセルファイル](5473375.xlsx)をダウンロードしてください。
+## **ActiveX ComboBoxコントロールを更新**
+次のスクリーンショットは、[サンプルエクセルファイル](5473374.xlsx)に対するサンプルコードの効果を示しています。ご覧の通り、ActiveX ComboBoxの値が「これはコンボボックスコントロールです」と更新されています。
+
+![todo:image_alt_text](update-activex-combobox-control_1.png)
 ## **サンプルコード**
-次のサンプル コードは、内部にある ActiveX ComboBox コントロールの値を更新します。[サンプルエクセルファイル](5473374.xlsx).
+次のサンプルコードは、[サンプルエクセルファイル](5473374.xlsx)内のActiveX ComboBox Controlの値を更新します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UpdateActiveXComboBoxControl-UpdateActiveXComboBoxControl.java" >}}

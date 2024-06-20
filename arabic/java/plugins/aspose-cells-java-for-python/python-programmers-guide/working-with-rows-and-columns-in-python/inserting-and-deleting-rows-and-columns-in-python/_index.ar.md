@@ -1,23 +1,24 @@
-﻿---
-title: إدخال وحذف الصفوف والأعمدة في Python
+---
+title: إدراج وحذف الصفوف والأعمدة في Python
 type: docs
 weight: 60
 url: /ar/java/inserting-and-deleting-rows-and-columns-in-python/
-keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel pytho
-description: استخدم Python Excel API لإنشاء جداول بيانات Excel في Python. قم بإدراج أو حذف صفوف من XLSX أو XLS في تطبيقاتك Python بدون MS Office.
+keywords: "إنشاء XLSX في بايثون، إنشاء XLS في بايثون، XLS python، XLSX python، XLT python، XLTX python، إدراج صف بايثون، إدراج عمود بايثون، إكسل بايثون"
+description: استخدام واجهة برمجة تطبيقات إكسل في بايثون لإنشاء جداول بيانات إكسل في بايثون. إدراج أو حذف الصفوف من XLSX أو XLS في تطبيقاتك بايثون بدون MS Office.
 ---
-## **قم بإنشاء جداول بيانات Excel في Python - إدارة الصفوف / الأعمدة**
-### **إدخال صف**
-أدخل صفًا في أي مكان باستدعاء طريقة insertRows للمجموعة Cells. تأخذ طريقة insertRows فهرس الصف حيث سيتم إدراج الصف الجديد كوسيطة أولى ، وعدد الصفوف التي سيتم إدراجها كوسيطة ثانية. فيما يلي الخطوات:
 
-- قم بتحميل المصنف XLS أو XLSX
-- قم بالوصول إلى ورقة العمل
-- أدخل الصف
-- احفظ كمصنف XLS أو XLSX
+## **إنشاء جداول بيانات إكسل في بايثون - إدارة الصفوف/الأعمدة**
+### **إدراج صف**
+إدراج صف في أي موقع عن طريق استدعاء طريقة insertRows في مجموعة الخلايا. تأخذ الطريقة insertRows الفهرس للصف الذي سيتم إدراج الصف الجديد فيه كالمعامل الأول، وعدد الصفوف التي يجب إدراجها كالمعامل الثاني. فيما يلي الخطوات:
 
-**Python كود**
+- تحميل XLS أو مصحح XLSX
+- الوصول إلى ورقة العمل
+- إدراج الصف
+- حفظ مصحح XLS أو XLSX
 
-{{< highlight "python" >}}
+**كود Python**
+
+{{< highlight python >}}
 
  def insert_row(self):
 
@@ -41,14 +42,14 @@ print "Insert Row Successfully."
 
 {{< /highlight >}}
 ### **إدراج صفوف متعددة**
-لإدراج عدة صفوف في ورقة العمل ، قم باستدعاء الأسلوب insertRows للمجموعة Cells. تأخذ طريقة InsertRows معلمتين:
+لإدراج صفوف متعددة في الورقة العمل، اُناد الطريقة insertRows من مجموعة Cells. تأخذ طريقة InsertRows معها معلمتين:
 
-- فهرس الصف ، فهرس الصف حيث سيتم إدراج الصفوف الجديدة.
-- عدد الصفوف ، إجمالي عدد الصفوف التي يجب إدراجها.
+- فهرس الصف، الفهرس للصف من حيث إن الصفوف الجديدة ستدرج.
+- عدد الصفوف، العدد الإجمالي للصفوف التي يجب إدراجها.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_multiple_rows(self):
 
@@ -73,14 +74,14 @@ print "Insert Multiple Rows Successfully."
 
 {{< /highlight >}}
 ### **حذف صف**
-لحذف صف في أي مكان ، قم باستدعاء طريقة deleteRows للمجموعة Cells. تأخذ طريقة DeleteRows معلمتين:
+لحذف صف في أي مكان، اُناد الطريقة deleteRows من مجموعة Cells. تأخذ طريقة DeleteRows معها معلمتيتن:
 
-- فهرس الصف ، فهرس الصف الذي سيتم حذف الصفوف منه.
-- عدد الصفوف ، إجمالي عدد الصفوف التي يجب حذفها.
+- فهرس الصف، الفهرس للصف من حيث سيتم حذف الصفوف.
+- عدد الصفوف، العدد الإجمالي للصفوف التي يجب حذفها.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_row(self):
 
@@ -103,15 +104,15 @@ workbook.save(self.dataDir + "Delete Row.xls")
 print "Delete Row Successfully." 
 
 {{< /highlight >}}
-### **حذف عدة صفوف**
-لحذف عدة صفوف من ورقة العمل ، قم باستدعاء الأسلوب deleteRows للمجموعة Cells. تأخذ طريقة DeleteRows معلمتين:
+### **حذف صفوف متعددة**
+لحذف صفوف متعددة من ورقة العمل، اُناد الطريقة deleteRows من مجموعة Cells. تأخذ طريقة DeleteRows معها معلمتين:
 
-- فهرس الصف ، فهرس الصف الذي سيتم حذف الصفوف منه.
-- عدد الصفوف ، إجمالي عدد الصفوف التي يجب حذفها.
+- فهرس الصف، الفهرس للصف من حيث سيتم حذف الصفوف.
+- عدد الصفوف، العدد الإجمالي للصفوف التي يجب حذفها.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_multiple_rows(self):
 
@@ -135,15 +136,15 @@ print "Delete Multiple Rows Successfully."
 
 
 {{< /highlight >}}
-### **إدخال عمود**
-يمكن للمطورين أيضًا إدراج عمود في ورقة العمل في أي مكان عن طريق استدعاء طريقة insertColumns للمجموعة Cells. تأخذ طريقة insertColumns معلمتين:
+### **إدراج عمود**
+يُمكن للمطوِّرون أيضًا إدراج عمود في ورقة العمل في أي مكان عن طريق اُناد الطريقة insertColumns من مجموعة Cells. تأخذ طريقة insertColumns معها معلمتين:
 
-- فهرس العمود ، فهرس العمود حيث سيتم إدراج العمود
-- عدد الأعمدة ، إجمالي عدد الأعمدة التي يجب إدراجها
+- فهرس العمود، فهرس العمود الذي سيتم إدراج العمود منه
+- عدد الأعمدة، العدد الإجمالي للأعمدة التي يجب إدراجها
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def insert_column(self):
 
@@ -168,15 +169,15 @@ print "Insert Column Successfully."
 
 {{< /highlight >}}
 ### **حذف عمود**
-لحذف عمود من ورقة العمل في أي مكان ، قم باستدعاء طريقة deleteColumns للمجموعة Cells. تأخذ طريقة deleteColumns المعلمات التالية:
+لاحذف عمود من ورقة العمل في أي موقع، قم بإستدعاء طريقة الحذف الأعمدة من مجموعة الخلايا. تأخذ طريقة حذف الأعمدة المتغيرات التالية:
 
-- فهرس العمود ، فهرس العمود الذي سيتم حذف العمود منه.
-- عدد الأعمدة ، إجمالي عدد الأعمدة التي يجب حذفها.
-- تحول الخلايا ، المعلمة المنطقية للإشارة إلى ما إذا كان سيتم نقل الخلايا المتبقية بعد الحذف.
+- فهرس العمود، وهو فهرس العمود الذي سيتم حذفه.
+- عدد الأعمدة، العدد الإجمالي للأعمدة التي ينبغي حذفها.
+- تحريك الخلايا، المعلمة البولية للإشارة إذا كان يجب تحريك الخلايا لليسار بعد الحذف.
 
-**Python كود**
+**كود Python**
 
-{{< highlight "python" >}}
+{{< highlight python >}}
 
  def delete_column(self):
 
@@ -200,7 +201,7 @@ print "Delete Column Successfully."
 
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
- تحميل**إدارة الصفوف / الأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **تحميل رمز التشغيل**
+تنزيل **إدارة الصفوف/الأعمدة (Aspose.Cells)** من أي من المواقع التالية للبرمجة الاجتماعية:
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

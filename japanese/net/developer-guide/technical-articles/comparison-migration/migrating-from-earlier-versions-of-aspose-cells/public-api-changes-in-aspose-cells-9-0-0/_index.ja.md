@@ -1,23 +1,24 @@
-﻿---
-title: パブリック API Aspose.Cells 9.0.0 の変更点
+---
+title: Aspose.Cells 9.0.0での公開API変更
 type: docs
 weight: 330
 url: /ja/net/public-api-changes-in-aspose-cells-9-0-0/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.9.2 から 9.0.0 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントは、Aspose.Cells APIのバージョン8.9.2から9.0.0への変更点について、モジュール／アプリケーション開発者に興味を引くかもしれない情報を記載しています。新しいおよび更新された公開メソッド、追加および削除されたクラス等についてだけでなく、Aspose.Cellsの内部動作の変更についても記載しています。
 
 {{% /alert %}} 
-## **追加された API**
-### **Shape.TextOptions プロパティを追加**
-Aspose.Cells for .NET は、Shape のテキスト部分の外観を制御するために、Shape クラスの TextOptions プロパティを公開しました。
+## **APIの追加**
+### **Shape.TextOptionsプロパティが追加されました**
+Aspose.Cells for .NETでは、ShapeクラスのTextOptionsプロパティが公開され、Shapeのテキスト部分の外観を制御するために使用できます。
 
-Shape.TextOptions プロパティの簡単な使用シナリオを次に示します。
+以下はShape.TextOptionsプロパティの簡単な使用シナリオです。
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Initialize an instance of Workbook
 
@@ -48,20 +49,20 @@ textbox.TextOptions.IsItalic = true;
 {{< /highlight >}}
 
 
-### **LoadOptions.CultureInfo プロパティを追加**
-Aspose.Cells for .NET 9.0.0 は LoadOptions.CultureInfo プロパティを公開しました。これにより、Workbook のインスタンスにドキュメントをロードするときに CultureInfo のインスタンスを挿入できます。
+### **LoadOptions.CultureInfoプロパティが追加されました。**
+Aspose.Cells for .NET 9.0.0では、LoadOptions.CultureInfoプロパティが公開され、Workbookのインスタンスでドキュメントをロードする際にCultureInfoのインスタンスを注入することができます。
 
-前述のプロパティの簡単な使用シナリオを次に示します。
+前述のプロパティの簡単な使用シナリオは次のとおりです。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[特定の CultureInfo を含むスプレッドシートの読み込み](/cells/ja/net/load-the-workbook-with-specific-system-culture-info/).
+[特定のCultureInfoでスプレッドシートをロード](/cells/ja/net/load-the-workbook-with-specific-system-culture-info/)する詳細な記事をご覧ください。
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of CultureInfo and populate its properties
 
@@ -86,20 +87,20 @@ var book = new Workbook(dir + "input.html", options);
 {{< /highlight >}}
 
 
-### **ChartPoint.IsInSecondaryPlot プロパティを追加**
-Aspose.Cells for .NET は ChartPoint.IsInSecondaryPlot プロパティを公開しました。このプロパティを使用して、ChartPoint が円グラフまたは棒グラフの二次プロットにあるかどうかを検出できます。
+### **ChartPoint.IsInSecondaryPlotプロパティが追加されました**
+Aspose.Cells for .NETでは、ChartPoint.IsInSecondaryPlotプロパティが公開され、PieやBarのチャートのセカンダリープロットにChartPointが存在するかどうかを検出するために使用できます。
 
-Shape.Line プロパティの簡単な使用シナリオを次に示します。
+以下はShape.Lineプロパティの簡単な使用シナリオです。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[2 番目のプロットに存在する DataPoint を見つける](/cells/ja/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/).
+[データポイントがセカンダリプロットに存在するかどうかを見つける](/cells/ja/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)詳細な記事をご覧ください。
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load an existing spreadsheet containing a Pie chart
 
@@ -136,20 +137,20 @@ foreach (ChartPoint point in series.Points)
 {{< /highlight >}}
 
 
-### **OleObject.ClassIdentifier プロパティを追加しました**
-Aspose.Cells for .NET 9.0.0 は、OleObject をロードするアプリケーションの動作を指定するために使用できる OleObject.ClassIdentifier プロパティを公開しました。たとえば、PPT ファイルは 2 つの異なるビューを持つスプレッドシートに埋め込むことができます。どちらのビューも異なるクラス識別子の値を持っていますが、プレゼンテーション ビューまたはスライド ビューです。
+### **OleObject.ClassIdentifierプロパティが追加されました**
+Aspose.Cells for .NET 9.0.0では、OleObject.ClassIdentifierプロパティが公開され、オートエレメントをロードするためのアプリケーションの動作を指定するために使用できます。たとえば、PPTファイルをスプレッドシートに埋め込む場合、プレゼンテーションビューまたはスライドビューの2つの異なるビューがあり、両方のビューに異なるクラス識別子の値があります。
 
-以下は、OleObject.ClassIdentifier プロパティの簡単な使用シナリオです。
+以下はOleObject.ClassIdentifierプロパティの簡単な使用シナリオです。
 
 {{% alert color="primary" %}} 
 
-の詳細記事をチェック[OleObject.ClassIdentifier の使用](/cells/ja/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/).
+[OleObject.ClassIdentifierの使用](/cells/ja/net/get-or-set-the-class-identifier-of-the-embedded-ole-object/)に関する詳細な記事をご覧ください。
 
 {{% /alert %}} 
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a spreadsheet containing a presentation as OleObject
 
@@ -165,13 +166,13 @@ int height = 0;
 
 int width = 0;
 
-byte[]imageData = null;
+byte[] imageData = null;
 
 int x = 0;
 
 int y = 0;
 
-byte[]objData = null;
+byte[] objData = null;
 
 string progID = "";
 
@@ -181,7 +182,7 @@ string sourceFullName = "";
 
 bool isDisplayAsIcon = false;
 
-byte[]classId = null;
+byte[] classId = null;
 
 // Get the first worksheet from the collection
 
@@ -266,24 +267,24 @@ if (classId != null)
 book.Save(dir  + "output.xls");
 
 {{< /highlight >}}
-## **廃止された API**
-### **廃止された Worksheet.SetBackground メソッド**
-代わりに Worksheet.BackgroundImage プロパティを使用してください。
-### **廃止された LineShape.BeginArrowheadStyle および ArcShape.BeginArrowheadStyle プロパティ**
-代わりに Shape.Line.BeginArrowheadStyle プロパティを使用してください。
-### **廃止された LineShape.EndArrowheadStyle および ArcShape.EndArrowheadStyle プロパティ**
-代わりに Shape.Line.EndArrowheadStyle プロパティを使用してください。
-### **廃止された LineShape.BeginArrowheadWidth および ArcShape.BeginArrowheadWidth プロパティ**
-代わりに Shape.Line.BeginArrowheadWidth プロパティを使用してください。
-### **廃止された LineShape.BeginArrowheadLength および ArcShape.BeginArrowheadLength プロパティ**
-代わりに Shape.Line.BeginArrowheadLength プロパティを使用してください。
-### **廃止された LineShape.EndArrowheadWidth および ArcShape.EndArrowheadWidth プロパティ**
-代わりに Shape.Line.EndArrowheadWidth プロパティを使用してください。
-### **廃止された LineShape.EndArrowheadLength および ArcShape.EndArrowheadLength プロパティ**
-代わりに Shape.Line.EndArrowheadLength プロパティを使用してください。
-## **削除された API**
-### **削除された Worksheet.CopyConditionalFormatting メソッド**
-### **Workbook.CheckWriteProtectedPassword メソッドを削除しました**
-## **名前が変更された API**
-### **名前が変更された Workbook.RemoveDigitallySign メソッド**
-Workbook.RemoveDigitallySign メソッドの名前が Workbook.RemoveDigitalSignature に変更されました。
+## **非推奨API**
+### **非推奨のWorksheet.SetBackgroundメソッド**
+代わりにWorksheet.BackgroundImageプロパティを使用してください。
+### **非推奨のLineShape.BeginArrowheadStyleおよびArcShape.BeginArrowheadStyleプロパティ**
+代替としてShape.Line.BeginArrowheadStyleプロパティを使用してください。
+### **LineShape.EndArrowheadStyleおよびArcShape.EndArrowheadStyleプロパティは廃止されました**
+代替としてShape.Line.EndArrowheadStyleプロパティを使用してください。
+### **LineShape.BeginArrowheadWidthおよびArcShape.BeginArrowheadWidthプロパティは廃止されました**
+代替としてShape.Line.BeginArrowheadWidthプロパティを使用してください。
+### **LineShape.BeginArrowheadLengthおよびArcShape.BeginArrowheadLengthプロパティは廃止されました**
+代わりにShape.Line.BeginArrowheadLengthプロパティを使用してください。
+### **LineShape.EndArrowheadWidthおよびArcShape.EndArrowheadWidthプロパティは廃止されました**
+代わりにShape.Line.EndArrowheadWidthプロパティを使用してください。
+### **LineShape.EndArrowheadLengthおよびArcShape.EndArrowheadLengthプロパティは廃止されました**
+代わりにShape.Line.EndArrowheadLengthプロパティを使用してください。
+## **削除されたAPI**
+### **削除されたWorksheet.CopyConditionalFormattingメソッド**
+### **削除されたWorkbook.CheckWriteProtectedPasswordメソッド**
+## **改名されたAPI**
+### **Workbook.RemoveDigitallySignメソッドの名前が変更されました**
+Workbook.RemoveDigitallySignメソッドはWorkbook.RemoveDigitalSignatureに名前が変更されました。

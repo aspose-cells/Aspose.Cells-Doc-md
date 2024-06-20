@@ -1,17 +1,18 @@
-﻿---
-title: Excel'i PDF'e dönüştürürken Zaman Çizelgesi çizin
+---
+title: Excel i PDF ye dönüştürürken Zaman Çizelgesi çizin
 type: docs
 weight: 60
 url: /tr/java/draw-timeline-while-rendering-excel-to-pdf/
-description: Aspose.Cells ile Excel dosyalarının zaman çizelgelerini Java için yönetin.
-keywords: Rendering timeline to pdf without office 2013, office 2016, office 2019 and office 365
+description: Aspose.Cells For Java ile Excel dosyalarının zaman çizelgelerini yönetme.
+keywords: Ofis 2013, Ofis 2016, Ofis 2019 ve Ofis 365 olmadan zaman çizelgesini PDF ye dönüştürme
 ---
-## **Excel'i PDF'e dönüştürürken Zaman Çizelgesi çizin**
-Zaman çizelgesi uygulanmış bir Excel dosyanız varsa ve Excel'i zaman çizelgesi ayarlarıyla PDF'e aktarmak istiyorsanız, Aspose.Cells for Java artık onu varsayılan olarak desteklemektedir. Excel dosyasını zaman çizelgesiyle birlikte PDF'e aktarmanız yeterlidir, oluşturulan PDF, uygulanan zaman çizelgesini gösterecektir.
 
- Aşağıdaki örnek kod,[örnek excel dosyası](input.xlsx) mevcut bir zaman çizelgesini içerir. Daha sonra çalışma kitabını şu şekilde kaydeder:[çıktı PDF dosyası](out.pdf). Aşağıdaki ekran görüntüsü, kaynak Excel dosyasını ve oluşturulan PDF dosyasını karşılaştırır.
+## **Excel'i PDF'ye dönüştürürken Zaman Çizelgesi çizin**
+Zaman çizelgesi uygulanan bir Excel dosyasınız varsa ve bu zaman çizelgesi ayarları ile Excel dosyasını PDF olarak dışa aktarmak istiyorsanız, Aspose.Cells for Java artık bunu varsayılan olarak destekler. Zaman çizelgesi olan Excel dosyasını PDF olarak dışa aktarın, oluşturulan PDF, uygulanan zaman çizelgesini gösterecektir.
+
+Aşağıdaki örnek kod, var olan bir zaman çizelgesi içeren [örnek Excel dosyasını](input.xlsx) yükler. Ardından, çalışma kitabını [çıktı PDF dosyası](out.pdf) olarak kaydeder. Aşağıdaki ekran görüntüsü, kaynak Excel dosyasını ve oluşturulan PDF dosyasını karşılaştırır.
 
 <img src="out.png" width="60%">
 
-## **Basit kod**
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-DrawTimelinetoPdf.java" >}}

@@ -1,17 +1,18 @@
-﻿---
-title: Ny linje på Cells
+---
+title: Ny rad i celler
 type: docs
 weight: 30
 url: /sv/java/new-line-in-cells/
 ---
-## **Aspose.Cells - Ny linje i Cells**
-För att säkerställa att text i en cell kan läsas kan explicita radbrytningar och textbrytning tillämpas. Textbrytning förvandlar en rad till flera i en cell, vilka explicita radbrytningar sätts i brytningar precis där du vill ha dem.
 
-Om du vill radbryta text i en cell använder du metoden Style.setTextWrapped.
+## **Aspose.Cells - Ny rad i celler**
+För att säkerställa att texten i en cell kan läsas, kan explicita radbrytningar och textomslag appliceras. Textomslag gör att en rad blir flera i en cell, medan explicita radbrytningar sätts in precis där du vill ha dem.
+
+För att rada text i en cell, använd Style.setTextWrapped metoden.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Add Text to the First Cell with Explicit Line Breaks
 
@@ -30,12 +31,12 @@ style.setTextWrapped(true);
 cell.get(0, 0).setStyle(style);
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - Ny linje i Cells**
-CellStyle.setWrapText ska vara sant för radbruten text.
+## **Apache POI SS - HSSF XSSF - Ny rad i celler**
+CellStyle.setWrapText bör vara sann för vikta text.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Row row = sheet.createRow(2);
 
@@ -52,13 +53,13 @@ cs.setWrapText(true);
 cell.setCellStyle(cs);
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
+## **Ladda ned körbar kod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/newlineincells)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Radbrytningar och textbrytning](/java/line-breaks-and-text-wrapping).
+För mer information, besök [Radbrytningar och textomslag](/java/line-breaks-and-text-wrapping).
 
 {{% /alert %}}

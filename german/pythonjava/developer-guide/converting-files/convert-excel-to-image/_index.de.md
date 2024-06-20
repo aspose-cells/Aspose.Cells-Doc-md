@@ -1,12 +1,13 @@
-﻿---
-title: Konvertieren Sie Excel in ein Bild
+---
+title: Excel in Bild konvertieren
 type: docs
 weight: 20
 url: /de/python-java/convert-excel-to-image/
 ---
-## **Konvertieren Sie Excel in ein Bild**
-Aspose.Cells for Python via Java unterstützt die Konvertierung von Excel-Dateien in verschiedene Bildformen Bilder. Dafür sorgt die API[SheetRender](https://reference.aspose.com/cells/python/asposecells.api/SheetRender)und[ImageOrPrintOptions](https://reference.aspose.com/cells/python/asposecells.api/ImageOrPrintOptions) Klassen. Diese Klasse stellt das Arbeitsblatt dar, das in ein Bild gerendert wird. Das[SheetRender](https://reference.aspose.com/cells/python/asposecells.api/SheetRender)Klasse bietet die[vorstellen()](https://reference.aspose.com/cells/python/asposecells.api/sheetrender#toImage\(int,%20java.lang.String\)) Methode zum Konvertieren eines Arbeitsblatts in eine Bilddatei. Die Formate BMP, PNG, JPEG, TIFF und EMF werden unterstützt.
 
-Das folgende Code-Snippet veranschaulicht das Konvertieren eines Excel-Arbeitsblatts in ein PNG-Bild.
+## **Excel in Bild konvertieren**
+Aspose.Cells für Python via Java unterstützt die Konvertierung von Excel-Dateien in verschiedene Bildformate. Hierfür bietet die API die Klassen [SheetRender](https://reference.aspose.com/cells/python/asposecells.api/SheetRender) und [ImageOrPrintOptions](https://reference.aspose.com/cells/python/asposecells.api/ImageOrPrintOptions). Diese Klassen repräsentieren das Arbeitsblatt, das in ein Bild gerendert wird. Die Klasse [SheetRender](https://reference.aspose.com/cells/python/asposecells.api/SheetRender) bietet die Methode [toImage()](https://reference.aspose.com/cells/python/asposecells.api/sheetrender#toImage\(int,%20java.lang.String\)) zur Konvertierung eines Arbeitsblatts in eine Bilddatei. BMP, PNG, JPEG, TIFF und EMF-Formate werden unterstützt.
+
+Der folgende Code-Ausschnitt zeigt die Konvertierung eines Excel-Arbeitsblatts in ein PNG-Bild.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "LoadingSavingConvertingAndManaging-ConvertingToPNG.py" >}}

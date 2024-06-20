@@ -1,9 +1,9 @@
 ---
-title: Çalışma Kitabını Yönet
-linktitle: Çalışma kitabı
+title: Çalışma Kitabını Yönetme
+linktitle: Çalışma Kitabı
 type: docs
 weight: 60
 url: /tr/net/managing-workbooks-and-worksheets/
-description: Aspose.Cells for .NET API'leri aracılığıyla Çalışma Kitabını nasıl yöneteceğinizi öğrenin.
-keywords: How to Manage Workbook in C#, Manage Workbook and worksheets using C#, Operate workbook and worksheets in C#. 
+description: Aspose.Cells for .NET API leri aracılığıyla Çalışma Kitabını Nasıl Yöneteceğinizi Öğrenin.
+keywords: C#’da Çalışma Kitabı Yönetimi, C# kullanarak çalışma kitabı ve çalışma sayfalarını yönetme, C#’da çalışma kitabı ve çalışma sayfalarını işleme. 
 ---

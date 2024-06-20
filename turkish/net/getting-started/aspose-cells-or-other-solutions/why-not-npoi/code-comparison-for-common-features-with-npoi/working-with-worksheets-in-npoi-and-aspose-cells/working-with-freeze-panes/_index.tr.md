@@ -1,13 +1,14 @@
-﻿---
-title: Bölmeleri Dondur ile Çalışma
+---
+title: Dondurulmuş Panellerle Çalışma
 type: docs
 weight: 100
 url: /tr/net/working-with-freeze-panes/
 ---
-## **Aspose.Cells - Dondurulmuş Bölmelerle Çalışma**
+
+## **Aspose.Cells - Dondurulmuş Panellerle Çalışma**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -26,13 +27,13 @@ workbook.Save("output-FreezeFile-Aspose.Cells.xls");
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[FreezePanes Yöntemi](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index).
+Daha fazla bilgi için [FreezePanes Method](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index) sayfasını ziyaret edin.
 
 {{% /alert %}} 
-## **NPOI - HSSF XSSF - Dondurulmuş Bölmelerle Çalışma**
+## **NPOI - HSSF XSSF - Dondurulmuş Panellerle Çalışma**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -63,12 +64,12 @@ file.Close();
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Bölmeleri Dondur ile Çalışma** aşağıda belirtilen sosyal kodlama sitelerinden herhangi birini oluşturun:
+Aşağıda belirtilen sosyal kodlama sitelerinden **Dondurulmuş Panellerle Çalışma** formunu indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Freeze.Panes.zip)
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarıyla Çalışmak](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Daha fazla ayrıntı için [Çalışma Sayfaları İle Çalışma](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/) ziyaret edin.
 
 {{% /alert %}}

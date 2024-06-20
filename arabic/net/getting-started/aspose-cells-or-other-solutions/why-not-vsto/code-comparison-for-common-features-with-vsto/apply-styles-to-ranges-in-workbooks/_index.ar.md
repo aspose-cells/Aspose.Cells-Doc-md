@@ -1,12 +1,13 @@
-﻿---
-title: تطبيق الأنماط على النطاقات في المصنفات
+---
+title: تطبيق الأنماط على النطاقات في الدفاتر
 type: docs
 weight: 40
 url: /ar/net/apply-styles-to-ranges-in-workbooks/
 ---
-فيما يلي مقارنة التعليمات البرمجية لتطبيق النمط على صفوف وأعمدة المصنفات:
+
+أدناه مقارنة الكود لتطبيق النمط على صفوف وأعمدة الدفاتر:
 ## **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook myWorkbook = this.Application.Workbooks.Open(fileName);
 
@@ -30,7 +31,7 @@ url: /ar/net/apply-styles-to-ranges-in-workbooks/
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook myWorkbook = new Workbook(fileName);
 
@@ -82,4 +83,4 @@ url: /ar/net/apply-styles-to-ranges-in-workbooks/
 
 {{< /highlight >}}
 ## **تحميل**
-- [جيثب](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)
+- [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)

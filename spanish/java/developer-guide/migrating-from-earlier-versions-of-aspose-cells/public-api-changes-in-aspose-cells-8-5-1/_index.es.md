@@ -1,21 +1,22 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.5.1
+---
+title: Cambios en la API pública en Aspose.Cells 8.5.1
 type: docs
 weight: 180
 url: /es/java/public-api-changes-in-aspose-cells-8-5-1/
 ---
+
 {{% alert color="primary" %}} 
 
- Este documento describe los cambios al Aspose.Cells API de la versión 8.5.0 a la 8.5.1 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados,[Clases añadidas, etc.](/cells/es/java/public-api-changes-in-aspose-cells-8-5-1/), pero también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.5.0 hasta la 8.5.1 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo nuevos y actualizados métodos públicos, [clases añadidas, etc.](/cells/es/java/public-api-changes-in-aspose-cells-8-5-1/), sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Método Workbook.Dispose Agregado**
-Aspose.Cells for Java 8.5.1 ha expuesto el método Workbook.dispose para liberar los recursos no administrados del objeto Workbook. El patrón de eliminación se usa solo para objetos que acceden a recursos no administrados, como identificadores de archivos y conductos, identificadores de registro, identificadores de espera o punteros a bloques de memoria no administrada. Esto se debe a que el recolector de elementos no utilizados es muy eficaz para reclamar objetos administrados no utilizados, pero no puede reclamar objetos no administrados.
+## **APIs Añadidas**
+### **Método Workbook.Dispose añadido**
+Aspose.Cells for Java 8.5.1 ha expuesto el método Workbook.dispose para liberar los recursos no administrados del objeto Workbook. El patrón de disposición se usa solo para objetos que acceden a recursos no administrados, como manijas de archivos y tuberías, manijas de registro, manijas de espera o punteros a bloques de memoria no administrados. Esto se debe a que el recolector de basura es muy eficiente al volver a reclamar objetos administrados no utilizados, pero no puede reclamar objetos no administrados.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 
@@ -27,22 +28,22 @@ book.dispose();
 
 {{< /highlight >}}
 ### **Método Cell.getHeightOfValue añadido**
- Aspose.Cells for Java 8.5.1 ha expuesto el método Cell.getHeightOfValue para obtener la altura del valor de la celda. Al usar este método, puede calcular la altura del valor de la celda y luego establecer la altura de la fila de esa celda respectivamente. Consulte el artículo detallado sobre[cómo calcular la altura y el ancho de la celda](/cells/es/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
-### **Tabla de enumeraciónDataSourceType agregado**
-Aspose.Cells for Java 8.5.1 ha expuesto la enumeración com.aspose.cells.TableDataSourceType para recuperar el tipo de fuente de datos de ListObject. La enumeración TableDataSourceType como los siguientes campos.
+Aspose.Cells for Java 8.5.1 ha expuesto el método Cell.getHeightOfValue para obtener la altura del valor de la celda. Mediante este método, puedes calcular la altura del valor de la celda y luego ajustar la altura de la fila de esa celda respectivamente. Consulta el artículo detallado sobre [cómo calcular la altura y el ancho de la celda](/cells/es/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/).
+### **Añadida la enumeración TableDataSourceType**
+Aspose.Cells for Java 8.5.1 ha expuesto la enumeración com.aspose.cells.TableDataSourceType para recuperar el tipo de fuente de datos de un ListObject. La enumeración TableDataSourceType tiene los siguientes campos. 
 
 1. TableDataSourceType.QUERY_TABLE
 1. TableDataSourceType.SHARE_POINT
-1. TableDataSourceType.HOJA DE TRABAJO
+1. TableDataSourceType.WORKSHEET
 1. TableDataSourceType.XML
-### **Propiedad ListObject.DataSourceType agregado**
-Con el lanzamiento de v8.5.1, el Aspose.Cells API ha expuesto la propiedad ListObject.DataSourceType de solo lectura que se puede usar para detectar el tipo de fuente de datos de un ListObject.
+### **Añadida la propiedad ListObject.DataSourceType**
+Con el lanzamiento de v8.5.1, la API de Aspose.Cells ha expuesto la propiedad de solo lectura ListObject.DataSourceType que se puede utilizar para detectar el tipo de fuente de datos de un ListObject.
 
-Este es el escenario de uso más simple.
+Aquí se presenta el escenario de uso más simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("D:/book1.xlsx");
 

@@ -1,15 +1,16 @@
-﻿---
-title: Php でワークシートの保護を解除する
+---
+title: Phpでのワークシートの保護解除
 type: docs
 weight: 20
 url: /ja/java/unprotect-a-worksheet-in-php/
 ---
+
 ## **Aspose.Cells - ワークシートの保護を解除する**
-を使用してワークシートを保護するには**Aspose.Cells Java for PHP**、 電話**unprotect_worksheet**方法**保護**モジュール。
+ワークシートを保護解除するには、**Aspose.Cells Java for PHP** の **protection** モジュールの **unprotect_worksheet** メソッドを呼び出します。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $filesFormatType = new FileFormatType();
 
@@ -32,7 +33,7 @@ $worksheet->unprotect("aspose");
 $workbook->save($dataDir . "output.xls", $filesFormatType->EXCEL_97_TO_2003); 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートの保護を解除する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のどちらかのソーシャルコーディングサイトから、**Aspose.Cells**の**ワークシートの保護を解除する**をダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/UnprotectingPasswordProtectedWorksheet.php)

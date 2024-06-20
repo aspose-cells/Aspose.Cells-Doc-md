@@ -1,28 +1,29 @@
-﻿---
-title: Editor de hojas de cálculo - Trabajando con Cells
+---
+title: Editor de hojas de cálculo Trabajar con celdas
 type: docs
 weight: 40
 url: /es/java/spreadsheet-editor-working-with-cells/
 ---
-**Tabla de contenido**
 
-- [Seleccionando un Cell](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
- - Cell devolución de llamada de selección
-- [Eliminar un Cell](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
- - WorksheetView.removeCellShiftUp
- - WorksheetView.removeCellShiftLeft
-- [Borrar un Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- WorksheetView.clearCurrentCellFormatting
- - WorksheetView.clearCurrentCellContents
- - WorksheetView.clearCurrentCell
-### **Seleccionando un Cell**
-Use el puntero del mouse para señalar una celda. Haga clic en una celda para seleccionarla. La celda seleccionada se resalta con un rectángulo en negrita.
+**Tabla de contenidos**
+
+- [Seleccionar una Celda](#SpreadsheetEditor-WorkingwithCells-SelectingaCell) 
+  - Callback de selección de celda
+- [Eliminar una Celda](#SpreadsheetEditor-WorkingwithCells-DeleteaCell) 
+  - WorksheetView.removeCellShiftUp
+  - WorksheetView.removeCellShiftLeft
+- [Borrar una celda](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
+  - WorksheetView.clearCurrentCellFormatting
+  - WorksheetView.clearCurrentCellContents
+  - WorksheetView.clearCurrentCell
+### **Seleccionar una Celda**
+Usa el puntero de tu ratón para señalar una celda. Haz clic en una celda para seleccionarla. La celda seleccionada se resalta con un rectángulo en negrita.
 
 **¿Cómo funciona?**
 
-Cuando el usuario hace clic en una celda, el evento es manejado por la función de devolución de llamada de JavaScript que se adjunta al componente Primefaces.
-#### **Cell devolución de llamada de selección**
-{{< highlight "java" >}}
+Cuando el usuario hace clic en una celda, el evento es manejado por una función de devolución de llamada de JavaScript que está adjunta al componente Primefaces.
+#### **Callback de selección de celda**
+{{< highlight java >}}
 
                      var columnId = $(this).find('.ui-cell-editor-input input').attr('data-columnid');
 
@@ -91,21 +92,21 @@ Cuando el usuario hace clic en una celda, el evento es manejado por la función 
                     $this.selectedCell = this;
 
 {{< /highlight >}}
-### **Eliminar un Cell**
+### **Eliminar una Celda**
 Para eliminar una celda:
 
-1. Haz clic en una celda que quieras eliminar.
-1.  Cambiar a**Pestaña Formato**.
-1.  Hacer clic**Eliminar Cell** botón.
-1.  Escoger**Turno Cells Arriba** o**Turno Cells Izquierda** botón.
+1. Haz clic en la celda que deseas eliminar.
+1. Cambie a la pestaña **Formato**.
+1. Haz clic en el botón **Eliminar celda**.
+1. Elija el botón **Mover celdas hacia arriba** o **Mover celdas a la izquierda**.
 
 El editor eliminará la celda seleccionada. Las celdas adyacentes se desplazarán automáticamente ya sea horizontal o verticalmente para ajustar el espacio.
 
 **¿Cómo funciona?**
 
- Él**Turno Cells Arriba** y**Turno Cells Izquierda** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
+Los botones **Mover celdas hacia arriba** y **Mover celdas a la izquierda** son manejados por el bean de backend JSF **WorksheetView**. El código fuente de los métodos respectivos es el siguiente:
 #### **WorksheetView.removeCellShiftUp**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftUp() {
 
@@ -124,7 +125,7 @@ El editor eliminará la celda seleccionada. Las celdas adyacentes se desplazará
 {{< /highlight >}}
 
 #### **WorksheetView.removeCellShiftLeft**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void removeCellShiftLeft() {
 
@@ -141,21 +142,21 @@ El editor eliminará la celda seleccionada. Las celdas adyacentes se desplazará
     }
 
 {{< /highlight >}}
-### **Borrar un Cell**
+### **Borrar una celda**
 Para borrar una celda:
 
-1. Haz clic en una celda que quieras borrar.
-1.  Cambiar a**Pestaña Formato**.
-1.  Hacer clic**Claro Cell** botón.
-1.  Escoger**Formatos**, **Contenido** o**Ambos** opción.
+1. Haga clic en una celda que desee borrar.
+1. Cambie a la pestaña **Formato**.
+1. Haga clic en el botón **Borrar celda**.
+1. Elija la opción **Formatos**, **Contenidos** o **Ambos**.
 
 El editor borrará la celda seleccionada.
 
 **¿Cómo funciona?**
 
- Él**Formatos**, **Contenido** y**Ambos** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
+Los **Formatos**, **Contenidos** y **Ambos** son manejados por el bean de backend JSF **WorksheetView**. El código fuente de los métodos respectivos es el siguiente:
 #### **WorksheetView.clearCurrentCellFormatting**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellFormatting() {
 
@@ -176,7 +177,7 @@ El editor borrará la celda seleccionada.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCellContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCellContents() {
 
@@ -197,7 +198,7 @@ El editor borrará la celda seleccionada.
 {{< /highlight >}}
 
 #### **WorksheetView.clearCurrentCell**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
      public void clearCurrentCell() {
 

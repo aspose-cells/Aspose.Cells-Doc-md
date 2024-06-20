@@ -1,16 +1,17 @@
-﻿---
-title: عيّن نمط WordArt المعين مسبقًا على نص الشكل
+---
+title: تعيين نمط نص فني محدد مسبقًا لنص الشكل
 type: docs
 weight: 280
 url: /ar/net/set-preset-wordart-style-to-the-text-of-the-shape/
 ---
-## **سيناريوهات الاستخدام الممكنة**
-يمكنك تعيين نمط WordArt المعين مسبقًا على نص الشكل باستخدام Aspose.Cells. الرجاء استخدام[FontSetting.SetWordArtStyle ()](https://reference.aspose.com/cells/net/aspose.cells/fontsetting/methods/setwordartstyle)أو[FontSettingCollection.SetWordArtStyle ()](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/fontsettingcollection/methods/setwordartstyle)طرق لهذا الغرض.
-## **عيّن نمط WordArt المعين مسبقًا على نص الشكل**
- يقوم نموذج التعليمات البرمجية التالي بإنشاء مربع نص به بعض النص ثم يقوم بتعيين نمط WordArt المعين مسبقًا للنص الخاص به باستخدام[FontSetting.SetWordArtStyle ()](https://reference.aspose.com/cells/net/aspose.cells/fontsetting/methods/setwordartstyle) طريقة. هذه هي الطريقة التي يستخدمها ملف[ملف اكسل الناتج](5115445.xlsx)يبحث في Microsoft Excel.
+
+## **سيناريوهات الاستخدام المحتملة**
+يمكنك تعيين نمط نص فني محدد مسبقًا لنص الشكل باستخدام Aspose.Cells. يرجى استخدام [FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/net/aspose.cells/fontsetting/methods/setwordartstyle) أو [FontSettingCollection.SetWordArtStyle()](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/fontsettingcollection/methods/setwordartstyle) لهذا الغرض.
+## **تعيين نمط WordArt المحدد مسبقًا لنص الشكل**
+الكود النموذجي التالي ينشئ صندوق نص مع بعض النصوص ومن ثم يعين نمط نص فني محدد مسبقًا لنصه باستخدام طريقة [FontSetting.SetWordArtStyle()](https://reference.aspose.com/cells/net/aspose.cells/fontsetting/methods/setwordartstyle). هكذا يبدو [ملف الإكسل الناتج](5115445.xlsx) في Microsoft Excel.
 
 
 
-![ما يجب القيام به: image_بديل_نص](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
+![todo:image_alt_text](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetPresetWordArtStyle-1.cs" >}}

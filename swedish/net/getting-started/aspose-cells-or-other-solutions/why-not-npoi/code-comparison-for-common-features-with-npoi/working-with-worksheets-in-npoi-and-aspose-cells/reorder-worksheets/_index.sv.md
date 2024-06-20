@@ -1,13 +1,14 @@
-﻿---
+---
 title: Ordna om arbetsblad
 type: docs
 weight: 70
 url: /sv/net/reorder-worksheets/
 ---
-## **Aspose.Cells - Beställ om arbetsblad**
+
+## **Aspose.Cells - Ordna om arbetsblad**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Create a new Workbook.
 
@@ -37,7 +38,7 @@ workbook.Save("../../data/AsposeMoveSheet.xls");
 ## **NPOI - HSSF XSSF - Ordna om arbetsblad**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -60,13 +61,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
- Ladda ner**Ordna om arbetsblad** bilda någon av nedan nämnda sociala kodningswebbplatser:
+## **Ladda ned körbar kod**
+Ladda ner formuläret **Ordna om arbetsblad** från någon av de nedan nämnda sociala kodningssidorna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/ReOrder.WorkSheets.zip)
 
 {{% alert color="primary" %}} 
 
- För mer information, besök[Arbeta med arbetsblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+För mer information, besök [Arbeta med kalkylblad](/cells/sv/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

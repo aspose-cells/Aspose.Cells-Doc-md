@@ -1,20 +1,21 @@
-﻿---
-title: قراءة العنوان الفرعي للمخطط من ملف ODS
+---
+title: قراءة عنوان المخطط من ملف ODS
 type: docs
 weight: 120
 url: /ar/java/read-chart-subtitle-from-ods-file/
 ---
-## **قراءة العنوان الفرعي للمخطط من ملف ODS**
 
-يوفر لك Aspose.Cells القدرة على قراءة ترجمات المخطط في ملفات ODS باستخدام ملحق[**الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)خاصية. يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[عينة ملف ODS](SampleChart.ods)ويقرأ العنوان الفرعي للرسم البياني باستخدام[**الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)الملكية وطباعتها في نافذة وحدة التحكم. يرجى الاطلاع على إخراج وحدة التحكم من الكود الوارد أدناه كمرجع.
+## **قراءة عنوان الرسم البياني من ملف ODS**
 
-## **عينة من الرموز**
+توفر Aspose.Cells لك القدرة على قراءة عناوين الرسم البياني في ملفات ODS عن طريق استخدام الخاصية [**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle). يقوم الكود العينة التالي بتحميل [ملف ODS عيني](SampleChart.ods) وقراءة عنوان الرسم البياني باستخدام الخاصية [**Chart.SubTitle**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle) ثم يقوم بطباعته في شاشة الكونسول. يرجى الرجوع إلى ناتج الكونسول في الكود المعطى أدناه للإشارة.
+
+## **الكود المثالي**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-GetChartSubTitleForODSFile-1.java" >}}
 
-## **إخراج وحدة التحكم**
+## **مخرجات الوحدة**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Chart Subtitle: Sample Chart Subtitle
 

@@ -1,25 +1,26 @@
-﻿---
-title: Hyperlinktyp erkennen
+---
+title: Hyperlink Typ erkennen
 type: docs
 weight: 180
 url: /de/java/detect-hyperlink-type/
 ---
-## **Hyperlinktyp erkennen**
 
-Eine Excel-Datei kann verschiedene Arten von Hyperlinks enthalten, z. B. externe Links, Zellreferenzen, Dateipfade usw. Aspose.Cells unterstützt die Funktion zur Erkennung des Hyperlinktyps. Die Arten von Hyperlinks werden durch dargestellt[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Aufzählung. Das[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Die Aufzählung hat die folgenden Mitglieder.
+## **Hyperlink-Typ erkennen**
 
-- [**EXTERN**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Externer Link
-- [**DATEIPFAD**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Lokaler und vollständiger Pfad zu Dateien\Ordnern.
-- [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): Email
-- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): Link zu Zelle oder benanntem Bereich.
+Eine Excel-Datei kann verschiedene Arten von Hyperlinks wie externe, Zellbezug, Dateipfad usw. haben. Aspose.Cells unterstützt die Funktion, den Typ des Hyperlinks zu erkennen. Die Arten von Hyperlinks werden durch die [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)-Enumeration repräsentiert. Die [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)-Enumeration hat die folgenden Elemente.
 
-Um die Art des Hyperlinks zu überprüfen, muss die[**Hyperlinks**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) Klasse bietet a[**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) Eigenschaft mit einem Rückgabetyp von[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Das folgende Code-Snippet demonstriert die Verwendung von[**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)Eigenschaft, indem Sie diese verwenden[Excel-Quelldatei](LinkTypes.xlsx).
+- [**EXTERNAL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Externer Link
+- [**FILE_PATH**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Lokaler und voller Pfad zu Dateien/Ordnern.
+- [**EMAIL**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): E-Mail
+- [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE) : Link zur Zelle oder benanntem Bereich.
+
+Um den Typ des Hyperlinks zu überprüfen, bietet die [**Hyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink)-Klasse eine [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)-Eigenschaft mit einem Rückgabetyp von [**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Der folgende Codeausschnitt veranschaulicht die Verwendung der [**LinkType**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)-Eigenschaft unter Verwendung dieser [Excel-Quelldatei](LinkTypes.xlsx).
 
 ## Quellcode
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-DetectLinkTypes-1.java" >}}
 
-Das Folgende ist die Ausgabe, die durch das oben angegebene Code-Snippet generiert wird.
+Das folgende ist die Ausgabe, die durch den obigen Codeausschnitt generiert wird.
 
 ## Konsolenausgabe
 ```

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Diagram
 type: docs
 weight: 75

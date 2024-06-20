@@ -1,55 +1,56 @@
 ---
-title: Excel dosyalarının formüllerini yönetme
+title: Excel dosyalarının formüllerini yönetmek
 linktitle: Formüller
 type: docs
 weight: 122
 url: /tr/net/using-formulas-or-functions-to-process-data/
-description: Aspose.Cells excel dosyalarının formüllerini kolayca alabilir, ayarlayabilir ve hesaplayabilir.
-description: NET API'leri için Aspose.Cells aracılığıyla Excel dosyalarının formüllerini nasıl yöneteceğinizi öğrenin.
-keywords: How to calculate formulas in C#, Formulas and Functions using C#, C# Manage Built-in Functions, How to Use Add-in Functions with C#, How to Use Array Formula via C#, How to Use R1C1 Formula in C#.
+description: Aspose.Cells sadece Excel dosyalarının formüllerini alabilir, ayarlayabilir ve hesaplayabilir.
+description: Aspose.Cells for NET API leri aracılığıyla Excel dosyalarının formüllerini nasıl yöneteceğinizi öğrenin.
+keywords: C# da formülleri nasıl hesaplayacağınız, C# Kullanarak Formüller ve Fonksiyonlar, C# Kullanarak Yerleşik Fonksiyonları Yönetme, C# ile Eklenti Fonksiyonlarını Nasıl Kullanılır, C# ile Dizi Formülü Nasıl Kullanılır, C# ile R1C1 Formülü Nasıl Kullanılır.
 ---
-##  **giriiş**
 
-Microsoft Excel'in ilgi çekici özelliklerinden biri de verileri formüller ve işlevlerle işleyebilmesidir. Microsoft Excel, kullanıcıların karmaşık hesaplamaları hızla gerçekleştirmesine yardımcı olan bir dizi yerleşik işlev ve formül sağlar. Aspose.Cells ayrıca geliştiricilerin değerleri kolayca hesaplamasına yardımcı olan çok sayıda yerleşik işlev ve formül sağlar. Aspose.Cells ayrıca eklenti işlevlerini de destekler. Ayrıca Aspose.Cells, Aspose.Cells'deki diziyi ve R1C1 formüllerini destekler.
+## **Giriş**
 
-##  **Formüller ve İşlevler Nasıl Kullanılır?**
+Microsoft Excel'in etkileyici özelliklerinden biri, verileri formüller ve fonksiyonlarla işleme yeteneğidir. Microsoft Excel, karmaşık hesaplamaları hızlı bir şekilde yapabilmek için kullanıcıların yardımına koşan bir dizi yerleşik fonksiyon ve formül sağlar. Aspose.Cells ayrıca geliştiricilerin değerleri kolayca hesaplamalarına yardımcı olan büyük bir yerleşik fonksiyon ve formül seti sağlar. Aspose.Cells ayrıca eklenti fonksiyonları da destekler. Ayrıca, Aspose.Cells, Aspose.Cells içinde dizi ve R1C1 formüllerini destekler.
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Microsoft Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**Çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişime izin veren koleksiyon. Bir çalışma sayfası şu şekilde temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Toplamak. Cells koleksiyonundaki her öğe, bir nesneyi temsil eder.[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf.
+## **Formüller ve Fonksiyonları Nasıl Kullanılır**
 
- Programın sunduğu özellik ve yöntemlerle formüllerin hücrelere uygulanması mümkündür.[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf, aşağıda daha ayrıntılı olarak tartışılmıştır.
+Aspose.Cells, Microsoft Excel dosyasını temsil eden bir [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı sağlar. [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıfı, Excel dosyasındaki her çalışma sayfasına erişime izin veren bir [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) koleksiyonu içerir. Bir çalışma sayfası [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı tarafından temsil edilir. [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıfı, bir [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu sağlar. Hücreler koleksiyonundaki her öğe, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfından bir nesneyi temsil eder.
 
-- Yerleşik işlevleri kullanma.
-- Eklenti işlevlerini kullanma.
-- Dizi formülleriyle çalışma.
-- R1C1 formülü oluşturma.
+Aşağıda daha detaylı olarak tartışılan [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının özellikleri ve metotları kullanılarak hücrelere formül uygulamak mümkündür.
 
-##  **Yerleşik İşlevler Nasıl Kullanılır**
+- Yerleşik fonksiyonları kullanarak.
+- Eklenti fonksiyonlarını kullanarak.
+- Dizi formülleri ile çalışma.
+- Bir R1C1 formülü oluşturma.
 
-Yerleşik işlevler veya formüller, geliştiricilerin çabalarını ve zamanını azaltmak için hazır işlevler olarak sağlanır. Görmek[yerleşik işlevlerin listesi](/cells/tr/net/supported-formula-functions/) Aspose.Cells tarafından desteklenmektedir. İşlevler alfabetik sıraya göre listelenmiştir. Gelecekte daha fazla fonksiyon desteklenecektir.
+## **Yerleşik Fonksiyonları Nasıl Kullanılır**
 
- Aspose.Cells, Microsoft Excel tarafından sunulan formüllerin veya işlevlerin çoğunu destekler. Geliştiriciler bu formülleri API veya[tasarımcı elektronik tablosu](/cells/tr/net/what-is-a-designer-spreadsheet/). Aspose.Cells çok sayıda matematik, dize, Boolean, tarih/saat, istatistik, veritabanı, arama ve referans formüllerini destekler.
+Yerleşik fonksiyonlar veya formüller, geliştiricilerin çabalarını ve zamanını azaltmak için hazır işlevler olarak sunulur. Aspose.Cells tarafından desteklenen [yerleşik fonksiyonların listesine](/cells/tr/net/supported-formula-functions/) bakın. Fonksiyonlar alfabetik sırayla listelenir. Daha fazla fonksiyon gelecekte desteklenecektir.
 
- Kullan[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**Formül**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula) Hücreye formül ekleme özelliği. *Karmaşık formüller** örneğin
+Aspose.Cells, Microsoft Excel tarafından sunulan çoğu formülü veya fonksiyonu destekler. Geliştiriciler bu formülleri API veya [tasarımcı elektronik tablo](/cells/tr/net/what-is-a-designer-spreadsheet/) kullanarak kullanabilirler. Aspose.Cells, matematiksel, dize, Boolean, tarih/saat, istatistiksel, veritabanı, arama ve referans formüllerinin büyük bir kümesini destekler.
 
-{{< highlight "java" >}}
+[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının [**Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula) özelliğini kullanarak hücreye formül ekleyin. Örneğin **Karmaşık formüller**
+
+{{< highlight java >}}
 
  = H7*(1+IF(P7 = $L$3,$M$3, (IF(P7=$L$4,$M$4,0))))
 
 {{< /highlight >}}
 
-, Aspose.Cells'de de desteklenir. Bir hücreye formül uygularken, Microsoft Excel'de formül oluştururken yaptığınız gibi dizeye her zaman eşittir işaretiyle (=) başlayın ve işlev parametrelerini sınırlamak için virgül (,) kullanın.
+, Aspose.Cells'te de desteklenir. Bir hücreye formül uygularken, her zaman dizeye bir eşitlik işareti (=) ile başlayın (Microsoft Excel'de formül oluştururken olduğu gibi) ve bir virgül (,) kullanarak fonksiyon parametrelerini ayırın.
 
- Aşağıdaki örnekte, çalışma sayfasının ilk hücresine karmaşık bir formül uygulanmıştır.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Toplamak. Formül yerleşik bir formül kullanır**IF** Aspose.Cells tarafından sağlanan işlev.
+Aşağıdaki örnekte, bir çalışma sayfasının [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) koleksiyonunun ilk hücresine karmaşık bir formül uygulanmıştır. Formül, Aspose.Cells tarafından sağlanan yerleşik bir **IF** fonksiyonunu kullanır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingBuiltinfunction-1.cs" >}}
 
-##  **Eklenti İşlevleri Nasıl Kullanılır**
+## **Eklenti Fonksiyonlarını Nasıl Kullanılır**
 
-Excel eklentisi olarak eklemek istediğimiz bazı kullanıcı tanımlı formüllerimiz olabilir. Cell.Formula işlevini ayarlarken yerleşik işlevler iyi çalışır ancak eklenti işlevlerini kullanarak özel işlevleri veya formülleri ayarlamaya ihtiyaç vardır.
+Excel'e dahil etmek istediğimiz bazı kullanıcı tanımlı formüllere excel eklentisi olarak eklemek istiyoruz. Hücre.Formül işlevi yerleşik fonksiyonları kullanırken sorunsuz çalışır, ancak eklenti fonksiyonlarını veya formülleri ayarlamak için bir ihtiyaç vardır.
 
- Aspose.Cells, eklenti işlevlerinin kaydedilmesi için özellikler sağlar.[**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index). Daha sonra cell.Formula = anyFunctionFromAddIn ayarladığımızda çıktı Excel dosyası AddIn fonksiyonundan hesaplanan değeri içerir.
+Aspose.Cells, [**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index) kullanarak eklenti fonksiyonlarını kaydetme özellikleri sağlar. Daha sonra hücre.Formül = anyFunctionFromAddIn şeklinde ayarlandığında, çıktı Excel dosyası, AddIn fonksiyonundan hesaplanan değeri içerir.
 
-Aşağıdaki örnek koddaki eklenti fonksiyonunun kaydedilmesi için aşağıdaki XLAM numaralı dosya indirilecektir. Benzer şekilde, çıktıyı kontrol etmek için "test_udf.xlsx" çıktı dosyası indirilebilir.
+Aşağıdaki örnek kodda, eklenti fonksiyonunu kaydetmek için aşağıdaki XLAM dosyası indirilmelidir. Benzer şekilde, çıktı dosyası olan "test_udf.xlsx"yi indirerek çıktıyı kontrol edebilirsiniz.
 
 [TestUDF.xlam](81920908.xlam)
 
@@ -57,33 +58,33 @@ Aşağıdaki örnek koddaki eklenti fonksiyonunun kaydedilmesi için aşağıdak
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-RegisterAndCallFuncFromAddIn-1.cs" >}}
 
-##  **Dizi Formülü Nasıl Kullanılır**
+## **Dizi Formülü Nasıl Kullanılır**
 
-Dizi formülleri, formülü oluşturan işlevlere bağımsız değişken olarak tek tek sayılar yerine dizileri alan formüllerdir. Bir dizi formülü görüntülendiğinde, parantez ({}) ile çevrilidir.
+Dizi formüller, formülün bileşenlerine argüman olarak tek sayılar yerine dizileri alan formüllerdir. Dizi formülü gösterildiğinde, süslü parantezlerle ({}) çevrilidir.
 
-Bazı Microsoft Excel işlevleri değer dizileri döndürür. Dizi formülüyle birden çok sonucu hesaplamak için diziyi, dizi bağımsız değişkenleriyle aynı sayıda satır ve sütuna sahip bir hücre aralığına girin.
+Bazı Microsoft Excel fonksiyonları değerler dizileri döndürür. Bir dizi formülü ile birden çok sonucu hesaplamak için, diziyi formül argümanları olarak kullanarak aynı satır ve sütun sayısına sahip bir hücre aralığına girin.
 
- Çağrılarak bir hücreye dizi formülü uygulamak mümkündür.[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**DiziFormülünü Ayarla**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) yöntem.[**DiziFormülünü Ayarla**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) yöntem aşağıdaki parametreleri alır:
+Bir dizi formülünü, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının [**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) yöntemini çağırarak bir hücreye uygulamak mümkündür. [**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) yöntemi aşağıdaki parametreleri alır:
 
-- *Dizi Formülü**, dizi formülü.
-- *Satır Sayısı**, dizi formülü sonucunun doldurulacağı satır sayısı.
-- *Sütun Sayısı**, dizi formülü sonucunun doldurulacağı sütun sayısı.
+- **Dizi Formülü**, dizi formülü.
+- **Satır Sayısı**, dizi formülünün sonucunu doldurmak için satır sayısı.
+- **Sütun Sayısı**, dizi formülünün sonuçlarını doldurmak için sütun sayısı.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}
 
-##  **R1C1 Formülü Nasıl Kullanılır**
+## **R1C1 Formülünü Nasıl Kullanılır**
 
- Ekle**R1C1** stil formülüne sahip bir hücreye başvuru[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**R1C1Formülü**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) mülk.
+Bir **R1C1** referans stili formülünü, [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıfının [**R1C1Formula**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) özelliği ile bir hücreye ekleyin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingR1C1-1.cs" >}}
 
-##  **İleri konular**
-- [Emsaller ve Bağımlılar](/cells/tr/net/precedents-and-dependents/)
-- [Formüllerde Dış Bağlantıları Ayarlama](/cells/tr/net/set-external-links-in-formulas/)
-- [Yeni satırlara veri girerken Formülü Tablo veya Liste Nesnesinde otomatik olarak yayma](/cells/tr/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
+## **Gelişmiş Konular**
+- [Öncüler ve Bağımlılar](/cells/tr/net/precedents-and-dependents/)
+- [Formüllerde Harici Bağlantıları Ayarla](/cells/tr/net/set-external-links-in-formulas/)
+- [Yeni satırlara veri girilirken Tablo veya List Objesinde Formülü otomatik olarak çoğaltın](/cells/tr/net/propagate-formula-in-table-or-list-object-automatically-while-entering-data-in-new-rows/)
 - [Adlandırılmış Aralık için Formül Ayarlama](/cells/tr/net/setting-formula-for-named-range/)
-- [Formülleri Ayarlama - İngilizce Bilmeyen Kullanıcılar için Uyarı](/cells/tr/net/setting-formulas-notice-for-non-english-users/)
+- [Formülleri Ayarlama - Diğer Dilleri Kullanan Kullanıcılar İçin Uyarı](/cells/tr/net/setting-formulas-notice-for-non-english-users/)
 - [Paylaşılan Formülü Ayarlama](/cells/tr/net/setting-shared-formula/)
-- [Paylaşılan Formülün Maksimum Satırını Belirtin](/cells/tr/net/specify-maximum-rows-of-shared-formula/)
+- [Paylaşılan Formülün Maksimum Satırlarını Belirtme](/cells/tr/net/specify-maximum-rows-of-shared-formula/)
 - [Desteklenen Excel İşlevleri](/cells/tr/net/supported-formula-functions/)
 

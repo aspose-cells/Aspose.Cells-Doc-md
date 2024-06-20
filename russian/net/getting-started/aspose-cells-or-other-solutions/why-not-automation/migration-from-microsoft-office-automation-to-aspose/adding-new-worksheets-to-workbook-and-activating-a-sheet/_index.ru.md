@@ -1,77 +1,78 @@
-﻿---
-title: Добавление новых рабочих листов в рабочую книгу и активация листа
+---
+title: Добавление новых листов в книгу и активация листа
 type: docs
 weight: 10
 url: /ru/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 ---
+
 {{% alert color="primary" %}} 
 
-При работе с файлом шаблона иногда возникает необходимость добавить в книгу дополнительные рабочие листы для сбора данных. Новые ячейки будут заполнены данными в указанных позициях и местах на каждом рабочем листе.
+При работе с шаблонным файлом иногда требуется добавить дополнительные листы в книгу для сбора данных. Новые ячейки будут заполнены данными в указанных позициях и местоположениях на каждом листе.
 
-Точно так же вам может потребоваться, чтобы определенный рабочий лист был активен и просматривался первым при открытии файла в Microsoft Excel. «Активный лист» — это лист, над которым вы работаете в книге. Имя на вкладке активного листа по умолчанию выделено полужирным шрифтом.
+Аналогично вам может понадобиться определенный лист, который будет активен и просматриваться сначала при открытии файла в Microsoft Excel. "Активный лист" - это лист, над которым вы работаете в книге. Имя на вкладке активного листа по умолчанию жирное.
 
- Добавление рабочих листов и установка активного листа — это обычные и простые задачи, которые разработчики должны уметь выполнять. В этой статье мы выполняем эти задачи, используя[ВСТО](/cells/ru/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) и[Aspose.Cells for .NET](/cells/ru/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
+Добавление листов и установка активного листа - это частые и простые задачи, которые разработчики должны знать, как выполнять. В этой статье мы выполняем эти задачи с использованием [VSTO](/cells/ru/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) и [Aspose.Cells for .NET](/cells/ru/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
 
 {{% /alert %}} 
-## **Добавление рабочих листов и активация листа**
+## **Добавление листов и активация листа**
 Для целей этого совета по миграции:
 
-1. Добавьте новые рабочие листы в существующий файл Excel Microsoft.
-1. Заполните данные в ячейки каждого нового рабочего листа.
-1. Активируйте лист в книге.
-1. Сохранить как файл Excel Microsoft.
+1. Добавьте новые листы в существующий файл Microsoft Excel.
+1. Заполните данные в ячейки каждого нового листа.
+1. Активируйте лист в рабочей книге.
+1. Сохраните как файл Microsoft Excel.
 
 Ниже приведены параллельные фрагменты кода для VSTO (C#, VB) и Aspose.Cells for .NET (C#, VB), которые показывают, как выполнить эти задачи.
-### **ВСТО**
+### **VSTO**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-используя Microsoft.VisualStudio.Tools.Applications.Runtime;
+using Microsoft.VisualStudio.Tools.Applications.Runtime;
 
-с помощью Excel = Microsoft.Office.Interop.Excel;
+using Excel = Microsoft.Office.Interop.Excel;
 
-используя Office = Microsoft.Office.Core;
+using Office = Microsoft.Office.Core;
 
-используя System.Reflection;
+using System.Reflection;
 
 .......
 
-//Создаем экземпляр объекта Application.
+//Instantiate the Application object.
 
-Excel.Application excelApp = новый Excel.ApplicationClass();
+Excel.Application excelApp = new Excel.ApplicationClass();
 
-// Указываем путь к файлу excel шаблона.
+//Specify the template excel file path.
 
 string myPath = @"d:\test\My_Book1.xls";
 
-//Открываем файл excel.
+//Open the excel file.
 
 excelApp.Workbooks.Open(myPath, Missing.Value, Missing.Value,
 
-Отсутствует.Значение, Отсутствует.Значение,
+Missing.Value, Missing.Value,
 
-Отсутствует.Значение, Отсутствует.Значение,
+Missing.Value, Missing.Value,
 
-Отсутствует.Значение, Отсутствует.Значение,
+Missing.Value, Missing.Value,
 
-Отсутствует.Значение, Отсутствует.Значение,
+Missing.Value, Missing.Value,
 
-Отсутствует.Значение, Отсутствует.Значение,
+Missing.Value, Missing.Value,
 
-Отсутствующее.Значение, Отсутствующее.Значение);
+Missing.Value, Missing.Value);
 
-// Объявить объект Worksheet.
+//Declare a Worksheet object.
 
 Excel.Worksheet newWorksheet;
 
-//Добавить 5 новых рабочих листов в рабочую книгу и заполнить некоторые данные
+//Add 5 new worksheets to the workbook and fill some data
 
-//в ячейки.
+//into the cells.
 
- для (целое я = 1; я< 6; i++)
+for (int i = 1; i < 6; i++)
 
 {
 
@@ -109,9 +110,9 @@ excelApp.Quit();
 
 {{< /highlight >}}
 
-**ВБ**
+**VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -185,41 +186,41 @@ excelApp.Quit()
 ### **Aspose.Cells for .NET**
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
-используя Aspose.Cells;
+using Aspose.Cells;
 
 .......
 
-//Создаем экземпляр лицензии и устанавливаем файл лицензии
+//Instantiate an instance of license and set the license file
 
-//по своему пути
+//through its path
 
 Aspose.Cells.License license = new Aspose.Cells.License();
 
-лицензия.SetLicense("Aspose.Cells.lic");
+license.SetLicense("Aspose.Cells.lic");
 
-// Указываем путь к файлу excel шаблона.
+//Specify the template excel file path.
 
-строка myPath = @"d:\test\My_Book1.xls";
+string myPath =@"d:\test\My_Book1.xls";
 
-//Создание новой книги.
+//Instantiate a new Workbook.
 
-//Открываем файл excel.
+//Open the excel file.
 
-Книга рабочей книги = новая рабочая книга (мой путь);
+Workbook workbook = new Workbook(myPath);
 
-// Объявить объект Worksheet.
+//Declare a Worksheet object.
 
-Рабочий лист новыйРабочий лист;
+Worksheet newWorksheet;
 
-//Добавить 5 новых рабочих листов в рабочую книгу и заполнить некоторые данные
+//Add 5 new worksheets to the workbook and fill some data
 
-//в ячейки.
+//into the cells.
 
- для (целое я = 0; я< 5; i++)
+for (int i = 0; i < 5; i++)
 
 {
 
@@ -253,9 +254,9 @@ workbook.Save(@"d:\test\out_My_Book1.xls");
 
 {{< /highlight >}}
 
-**ВБ**
+**VB**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

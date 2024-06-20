@@ -1,26 +1,27 @@
-﻿---
+---
 title: Интеграция с JasperServer
 type: docs
 weight: 30
 url: /ru/jasperreports/integration-with-jasperserver/
 ---
+
 {{% alert color="primary" %}} 
 
-Чтобы интегрировать Aspose.Cells for JasperReports с JasperServer, выполните следующие действия.
+Для интеграции Aspose.Cells for JasperReports с JasperServer выполните следующие шаги.
 
 {{% /alert %}} 
 
 {{% alert color="primary" %}} 
 
- Во всех следующих шагах<InstallDir> обозначает каталог установки JasperServer.
+In all of the following steps <InstallDir> stands for the JasperServer installation directory. 
 
 {{% /alert %}} 
 
-1. Добавьте следующие новые свойства экспортера в**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** файл.
+1. Add the following new exporter properties to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <bean id="reportACXlsExporter" class="com.aspose.cells.jasperreports.ACReportXlsExporter" parent="baseReportExporter">
 
@@ -48,11 +49,11 @@ url: /ru/jasperreports/integration-with-jasperserver/
 
 {{< /highlight >}}
 
-1.  Найдите<util:map id=”exporterConfigMap> элемент в**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** файл и добавьте следующие строки:
+1. Locate the <util:map id=”exporterConfigMap> element in the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file and add the following lines: 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <util:map id="exporterConfigMap">
 
@@ -81,14 +82,14 @@ url: /ru/jasperreports/integration-with-jasperserver/
 
 
 
-1.  Скопируйте все изображения GIF из**\lib** папка в**aspose.cells.jasperreports.zip** к*<InstallDir>\apache-tomcat\webapps\jasperserver\images* папка.
-1.  Скопируйте**aspose.cells.jasperreports.jar** файл из**\lib** папка в**aspose.cells.jasperreports.zip** к**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** папка.
-1.  Добавьте следующие строки в**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** файл.
- (Этот bean-компонент может содержать различные параметры конфигурации, предназначенные для настройки экспорта. Например, вы можете использовать функцию сопоставления шрифтов JasperReports или указать расположение файла лицензии Aspose.Cells for JasperReports.)
+1. Copy all GIF images from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the *<InstallDir>\apache-tomcat\webapps\jasperserver\images* folder.
+1. Copy the **aspose.cells.jasperreports.jar** file from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** folder.
+1. Add the following lines to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file.
+   (Этот bean может содержать различные настройки конфигурации, предназначенные для настройки экспорта. Например, вы можете использовать функцию сопоставления шрифтов JasperReports или указать местоположение файла лицензии Aspose.Cells for JasperReports.) 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <bean id="excelACExportParameters" class="com.aspose.cells.jasperreports.ACXlsExportParametersBean"> <!-- Uncomment to apply a license. Check the license path.
 
@@ -105,11 +106,11 @@ url: /ru/jasperreports/integration-with-jasperserver/
 
 
 
-1. Запустите JasperServer и откройте любой отчет для просмотра. Если предыдущие шаги были выполнены правильно, доступны дополнительные значки формата.
+1. Запустите JasperServer и откройте любой отчет для просмотра. Если предыдущие шаги были выполнены правильно, дополнительные значки формата доступны. 
 
-**Доступны новые форматы экспорта (справа) после установки Aspose.Cells for JasperReports на JasperServer** 
+**Доступные новые форматы экспорта (справа) после установки Aspose.Cells for JasperReports на JasperServer** 
 
-![дело:изображение_альтернативный_текст](integration-with-jasperserver_1.png)
+![todo:image_alt_text](integration-with-jasperserver_1.png)
 
 
 

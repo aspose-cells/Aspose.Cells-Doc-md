@@ -1,16 +1,17 @@
-﻿---
-title: Поддержка макета тегов DIV при загрузке HTML в книгу Excel
+---
+title: Поддерживайте макет тегов DIV при загрузке HTML в книгу Excel
 type: docs
 weight: 50
 url: /ru/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
 ---
+
 {{% alert color="primary" %}} 
 
-Обычно макет тегов div игнорируется при загрузке HTML в объект книги Excel. Однако, если вы хотите, чтобы макет тегов div не игнорировался, установите[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) собственность на**истинный** . Значение по умолчанию для этого свойства**ЛОЖЬ**.
+Обычно макет div-тегов игнорируется при загрузке HTML в объект электронной книги Excel. Однако, если вы хотите, чтобы макет div-тегов не игнорировался, установите свойство [HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) в **true**. Значение этого свойства по умолчанию **false**.
 
 {{% /alert %}} 
 
- Следующий пример кода иллюстрирует использование[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) имущество. Пожалуйста, загрузите[Aspose Логотип](5115218.png) используется внутри ввода HTML и[выходной файл excel](5115220.xlsx) генерируется кодом.
+Следующий образец кода иллюстрирует использование свойства [HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag). Пожалуйста, загрузите использованный входной HTML [логотип Aspose](5115218.png) и [выходной файл Excel](5115220.xlsx), сгенерированные кодом.
 
 
 

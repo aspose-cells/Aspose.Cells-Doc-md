@@ -1,19 +1,20 @@
 ---
-title: قم بتغيير مصدر بيانات المخطط إلى ورقة عمل الوجهة أثناء نسخ الصفوف أو النطاق
-description: تعرف على كيفية تغيير مصدر بيانات المخطط إلى ورقة عمل الوجهة أثناء نسخ الصفوف أو النطاق في Aspose.Cells for .NET. سيوضح لك دليلنا كيفية تحديث نطاق بيانات المخطط وربطه بورقة العمل الوجهة، مع التأكد من أن الصفوف المنسوخة أو النطاق ينعكس بدقة في الرسم البياني.
-keywords: Aspose.Cells for .NET, charting, data source, destination worksheet, rows, range, copy, update, data range, linkage.
+title: تغيير مصدر البيانات للرسم البياني إلى ورقة العمل الوجهة أثناء نسخ الصفوف أو النطاق
+description: تعلم كيفية تغيير مصدر البيانات للرسم البياني إلى ورقة عمل وجهة أثناء نسخ الصفوف أو النطاق في Aspose.Cells for .NET. سيوضح دليلنا لك كيفية تحديث نطاق البيانات للرسم البياني وربطه بورقة العمل المستهدفة، مما يضمن عكس الصفوف أو النطاق بدقة في الرسم البياني.
+keywords: Aspose.Cells for .NET، الرسم البياني، مصدر البيانات، ورقة العمل الوجهة، صفوف، نطاق، نسخ، تحديث، نطاق البيانات، ربط.
 type: docs
 weight: 440
 url: /ar/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/
 ---
-##  **سيناريوهات الاستخدام المحتملة**
 
-عند نسخ صفوف أو نطاق يحتوي على مخططات إلى ورقة عمل جديدة، فإن مصدر بيانات المخطط لا يتغير. على سبيل المثال، إذا كان مصدر بيانات المخطط هو =Sheet1!$A$1:$B$4، فبعد نسخ الصفوف أو النطاق إلى ورقة عمل جديدة، سيظل مصدر البيانات كما هو، أي =Sheet1!$A$1:$B$4. لا يزال يشير إلى ورقة العمل القديمة، أي الورقة 1. وهذا أيضًا هو السلوك في Microsoft Excel. ولكن إذا كنت تريد أن تشير إلى ورقة عمل الوجهة الجديدة، فيرجى استخدام[**CopyOptions.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet)الملكية وتعيينها على**حقيقي** أثناء الاتصال بـ[**Cells.نسخ الصفوف()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)طريقة. الآن، إذا كانت ورقة العمل الوجهة هي DestSheet، فسيتغير مصدر بيانات المخطط من =Sheet1!$A$1:$B$4 إلى =DestSheet!$A$1:$B$4.
+## **سيناريوهات الاستخدام المحتملة**
 
-##  **قم بتغيير مصدر بيانات المخطط إلى ورقة عمل الوجهة أثناء نسخ الصفوف أو النطاق**
+عند نسخ الصفوف أو النطاق الذي يحتوي على رسوم بيانية إلى ورقة عمل جديدة، فإن مصدر البيانات للرسم البياني لا يتغير. على سبيل المثال، إذا كان مصدر بيانات الرسم البياني يُساوي =Sheet1!$A$1:$B$4، فبعد نسخ الصفوف أو النطاق إلى ورقة العمل الجديدة، سيظل مصدر البيانات هو نفسه أي أنه =Sheet1!$A$1:$B$4. ولا يزال يُشير إلى ورقة العمل القديمة أي Sheet1. وهذا هو أيضًا السلوك في Microsoft Excel. ولكن إذا كنت ترغب في أن يشير إلى ورقة العمل الوجهة الجديدة، فيرجى استخدام خاصية [**CopyOptions.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet) وتعيينها إلى **صحيح** أثناء استدعاء الطريقة [**Cells.CopyRows()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index). الآن إذا كانت ورقة العمل الوجهة هي DestSheet، فإن مصدر بيانات الرسم البياني الخاص بك سيتغير من =Sheet1!$A$1:$B$4 إلى =DestSheet!$A$1:$B$4.
 
-يشرح نموذج التعليمات البرمجية التالي استخدام[**CopyOptions.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet) الخاصية أثناء نسخ الصفوف أو النطاق الذي يحتوي على المخططات إلى ورقة عمل جديدة. يستخدم الكود[عينة من ملف اكسل](5113699.xlsx) ويولد[إخراج ملف إكسل](5113697.xlsx).
+## **تغيير مصدر البيانات للرسم البياني إلى ورقة العمل الوجهة أثناء نسخ الصفوف أو النطاق**
 
-![ما يجب القيام به:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
+يشرح الكود النموذجي التالي استخدام الخاصية [**CopyOptions.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet) أثناء نسخ الصفوف أو النطاق الذي يحتوي على رسوم بيانية إلى ورقة عمل جديدة. يستخدم الكود ملف الإكسل النموذجي]5113699.xlsx] ويولد ملف الإكسل الناتج]5113697.xlsx[.
+
+![todo:image_alt_text](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ChangeChartDataSource-1.cs" >}}

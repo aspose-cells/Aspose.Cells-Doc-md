@@ -1,23 +1,24 @@
-﻿---
+---
 title: Bildmarkörer i Aspose.Cells
 type: docs
 weight: 20
 url: /sv/net/image-markers-in-aspose-cells/
 ---
-Aspose.Cells smarta markörer stöder också bildmarkörer. Det här avsnittet visar hur du infogar bilder med smarta markörer.
+
+Aspose.Cells smarta markörer stödjer också bildmarkörer. Den här sektionen visar dig hur du sätter in bilder med hjälp av smarta markörer.
 ## **Bildparametrar**
-Smarta markörparametrar för att hantera bilder.
+Smarta markörsparametrar för hantering av bilder.
 
-- **Bild: FitToCell** - Anpassa bilden automatiskt till cellens radhöjd och kolumnbredd.
-- **Bild: ScaleN** - Skala höjd och bredd till N procent.
-- **Bild:Bredd:Nin&Höjd:Nin** - Gör bilden N tum hög och N tum bred. Du kan också
- specificera vänster- och topppositioner (i poäng).
+- **Bild:FitToCell** - Justera automatiskt bilden till cellens radhöjd och kolumnbredd.
+- **Bild:SkalaN** - Skala höjd och bredd till N procent.
+- **Bild:bredd:N tum&Höjd:N tum** - Rendera bilden N tum hög och N tum bred. Du kan också
+  ange vänster och översta positioner (i punkter).
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Get the image data.
 
-byte[]imageData = File.ReadAllBytes("Thumbnail.jpg");
+byte[] imageData = File.ReadAllBytes("Thumbnail.jpg");
 
 //Create a datatable.
 
@@ -35,7 +36,7 @@ dc.DataType = typeof(object);
 
 DataRow row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -45,7 +46,7 @@ imageData = File.ReadAllBytes("Desert.jpg");
 
 row = t.NewRow();
 
-row[0]= imageData;
+row[0] = imageData;
 
 t.Rows.Add(row);
 
@@ -70,5 +71,5 @@ designer.Process();
 designer.Workbook.Save("out_ImageSmartBook.xls");
 
 {{< /highlight >}}
-## **Ladda ner provkod**
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)
+## **Ladda ned provkoden**
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)

@@ -1,19 +1,20 @@
-﻿---
-title: Pivottabellproblem
+---
+title: Pivot Table problem
 type: docs
 weight: 50
 url: /sv/net/pivot-table-issue/
 ---
+
 ## **Symptom**
-"Jag försökte öppna den genererade excel-filen från "Öppna"-knappen i IE. Excel har skapats genom att läsa en excel-mall. Medan jag klickar på knappen Öppna öppnas den och samtidigt dyker den upp en felmeddelande som säger "Kan inte öppna pivottabellens källfil.....".
+"Jag försökte öppna den genererade Excel-filen från "Öppna"-knappen i IE. Excel-filen har genererats genom att läsa en Excel-mall. När jag klickar på Öppna-knappen öppnas den och samtidigt dyker det upp ett felmeddelande som säger "Kan inte öppna Pivot Table-källfil.....".
 
-Men när jag sparar den genererade Excel-filen med "Spara"-knappen och öppnar den från filen från den sparade sökvägen öppnas den korrekt utan några fel. "
+Men när jag sparar den genererade Excel-filen med hjälp av "Spara"-knappen och öppnar den från filen från den sparade sökvägen öppnas den korrekt utan några fel."
 ### **Lösning**
-Aspose.Cells ställer in pivotdataformatet och tvingar MS Excel att skapa pivottabellsrapporter och andra beräkningsuppgifter baserat på datakällan när arbetsboken öppnas i MS Excel. Så man bör använda**SaveType.OpenInBrowser** snarare än att använda**SaveType.OpenInExcel**En av många anledningar är att när du använder OpenInExcel-alternativet medan du sparar den utdatagenererade filen i MS Excel vid körning med "Öppna"-knappen i nedladdningsdialogrutan, kunde MS Excel inte analysera arbetsboksdata för att generera pivottabellsrapport. Detta orsakas av filnamnsproblemet. Det är rutin för IE eftersom det lägger till något i stil med "[1]" för att göra det till "filnamn"+ "[1]"+ ".xls" till det ursprungliga namnet och alltså inget till gör med Aspose.Cells. (dvs... den lägger alltid till "[1]" för att göra "filnamn"+ "[1]"+ ".xls" och inte som filnamn.xls). Kort sagt, om en fil innehåller pivottabell kan den inte öppnas med OpenInExcel SaveType-alternativet och detta kommer att gälla för båda, dvs om du skapar filen från början eller använder valfri mallfil för källdata för att skapa pivottabellsrapporter. Så du bör använda alternativet OpenInBrowser SaveType om filen har pivottabelldata för att skapa en pivottabellsrapport.
+Aspose.Cells ställer in pivottabellformatet och tvingar MS Excel att skapa pivottabellrapporten och andra beräkningsuppgifter baserat på datakällan när arbetsboken öppnas i MS Excel. Så man bör använda **SaveType.OpenInBrowser** istället för att använda **SaveType.OpenInExcel**. En av de många anledningarna är när man använder OpenInExcel-alternativet vid sparande av den genererade filen i MS Excel vid körning med "Öppna"-knappen i dialogrutan för nedladdning kan inte MS Excel tolka arboksdata för att generera pivottabellrapport. Detta orsakas av filnamnsproblemet, detta är rutinen för IE eftersom den lägger till något som "[1]" för att göra det som "filNamn"+ "[1]"+ ".xls" till det ursprungliga namnet och därför har det ingenting att göra med Aspose.Cells. (dvs.... den lägger alltid till "[1]" för att göra "filNamn"+ "[1]"+ ".xls" och inte som filNamn.xls). Kort sagt, om en fil innehåller pivottabell kan den inte öppnas med alternativet SaveType.OpenInExcel och detta gäller för båda alternativen, dvs. om du skapar filen från grunden eller använder någon mallfil för källdata för att skapa pivottabellsrapport. Så du bör använda SaveType.OpenInBrowser om filen innehåller pivottabelldata för att skapa pivottabellsrapport.
 
-Du bör ändra din kod och uppdatera till SaveType.OpenInBrowser om du använder metoden Workbook.Save()
+Du bör ändra din kod och uppdatera till SaveType.OpenInBrowser om du använder Workbook.Save()-metoden.
 
-Eller redigera din kod för att använda "inline" om du använder alternativet "attachment" i din kod. dvs
+Eller redigera din kod för att använda "inline" om du använder alternativet "attachment" i din kod. dvs.
 
 
 

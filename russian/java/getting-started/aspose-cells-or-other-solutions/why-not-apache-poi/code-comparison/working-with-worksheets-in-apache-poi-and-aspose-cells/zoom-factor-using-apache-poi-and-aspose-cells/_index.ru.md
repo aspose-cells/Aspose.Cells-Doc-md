@@ -1,19 +1,20 @@
-﻿---
-title: Коэффициент масштабирования с использованием Apache POI и Aspose.Cells
+---
+title: Фактор масштабирования с использованием Apache POI и Aspose.Cells
 type: docs
 weight: 70
 url: /ru/java/zoom-factor-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Коэффициент масштабирования**
-Microsoft Excel предоставляет функцию, которая позволяет пользователям устанавливать масштаб рабочего листа или коэффициент масштабирования. Эта функция помогает пользователям просматривать содержимое рабочего листа в уменьшенном или увеличенном виде.
 
-Aspose.Cells предоставляет класс Workbook, который представляет файл Microsoft Excel. Класс Workbook содержит коллекцию WorksheetCollection, которая обеспечивает доступ к каждому рабочему листу в файле Excel.
+## **Aspose.Cells - Масштабный коэффициент**
+Microsoft Excel предоставляет функцию, позволяющую пользователям установить масштабный фактор или масштабирование листа. Эта функция помогает пользователям просматривать содержимое листа в меньшем или большем масштабе.
 
-Рабочий лист представлен классом Worksheet. Класс Worksheet предоставляет широкий набор свойств и методов для управления рабочими листами. Чтобы установить коэффициент масштабирования рабочего листа, используйте метод setZoom класса Worksheet.
+Aspose.Cells предоставляет класс Workbook, который представляет файл Microsoft Excel. Класс Workbook содержит WorksheetCollection, которая позволяет получить доступ к каждому листу в файле Excel.
+
+Лист представлен классом Worksheet. Класс Worksheet предоставляет широкий спектр свойств и методов для управления листами. Для установки коэффициента масштабирования листа используйте метод setZoom класса Worksheet.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Worksheet worksheet = worksheets.get(0);
 
@@ -22,19 +23,19 @@ Aspose.Cells предоставляет класс Workbook, который пр
 worksheet.setZoom(75);
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF XSSF — Коэффициент масштабирования**
-Apache POI предоставляет функцию масштабирования методом Sheet.setZoom().
+## **Apache POI SS - HSSF XSSF - Коэффициент масштабирования**
+Apache POI предоставляет метод Sheet.setZoom(), позволяющий использовать функцию масштабирования.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sheet sheet1 = wb.createSheet("new sheet");
 
 sheet1.setZoom(3,4);   // 75 percent magnification
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/zoomfactor)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/worksheets/zoomfactor)

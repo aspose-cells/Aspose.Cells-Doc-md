@@ -1,26 +1,27 @@
-﻿---
-title: JasperServer との統合
+---
+title: JasperServerとの統合
 type: docs
 weight: 30
 url: /ja/jasperreports/integration-with-jasperserver/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells for JasperReports を JasperServer と統合するには、次の手順を実行します。
+JasperServerにAspose.Cells for JasperReportsを統合するには、以下の手順を実行してください。
 
 {{% /alert %}} 
 
 {{% alert color="primary" %}} 
 
-以下のすべての手順で<InstallDir>は、JasperServer インストール ディレクトリを表します。
+In all of the following steps <InstallDir> stands for the JasperServer installation directory. 
 
 {{% /alert %}} 
 
-1. 次の新しいエクスポーター プロパティを**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml**ファイル。
+1. Add the following new exporter properties to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file. 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <bean id="reportACXlsExporter" class="com.aspose.cells.jasperreports.ACReportXlsExporter" parent="baseReportExporter">
 
@@ -48,11 +49,11 @@ Aspose.Cells for JasperReports を JasperServer と統合するには、次の�
 
 {{< /highlight >}}
 
-1. を見つけます<util:map id=”exporterConfigMap>の要素**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml**ファイルに次の行を追加します。
+1. Locate the <util:map id=”exporterConfigMap> element in the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file and add the following lines: 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <util:map id="exporterConfigMap">
 
@@ -81,14 +82,14 @@ Aspose.Cells for JasperReports を JasperServer と統合するには、次の�
 
 
 
-1. からすべての GIF 画像をコピーします。**\lib**フォルダ内の**aspose.cells.jasperreports.zip**に*<InstallDir>\apache-tomcat\webapps\jasperserver\images*フォルダ。
-1. コピー**aspose.cells.jasperreports.jar**からのファイル**\lib**フォルダ内の**aspose.cells.jasperreports.zip**に**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.**フォルダ。
-1. 次の行を**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml**ファイル。
- (この Bean には、エクスポートを構成するためのさまざまな構成設定が含まれている場合があります。たとえば、JasperReports フォント マッピング機能を使用したり、Aspose.Cells for JasperReports ライセンス ファイルの場所を指定したりできます。)
+1. Copy all GIF images from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the *<InstallDir>\apache-tomcat\webapps\jasperserver\images* folder.
+1. Copy the **aspose.cells.jasperreports.jar** file from the **\lib** folder in the **aspose.cells.jasperreports.zip** to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** folder.
+1. Add the following lines to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file.
+   （このビーンには、エクスポートを構成するためのさまざまな設定が含まれている場合があります。たとえば、JasperReportsフォントマッピング機能を使用するか、Aspose.Cells for JasperReportsのライセンスファイルの場所を指定することができます。） 
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  <bean id="excelACExportParameters" class="com.aspose.cells.jasperreports.ACXlsExportParametersBean"> <!-- Uncomment to apply a license. Check the license path.
 
@@ -105,11 +106,11 @@ Aspose.Cells for JasperReports を JasperServer と統合するには、次の�
 
 
 
-1. JasperServer を実行し、任意のレポートを開いて表示します。前の手順が適切に実行された場合は、追加の形式アイコンを使用できます。
+1. JasperServerを実行して表示する任意のレポートを開きます。前の手順が適切に実行された場合、追加の形式アイコンが利用可能になります。 
 
-**JasperServer に Aspose.Cells for JasperReports をインストールすると、新しいエクスポート形式が利用可能になります (右側)。** 
+JasperServerにAspose.Cells for JasperReportsをインストールした後に利用可能な**新しいエクスポート形式（右側に表示）** 
 
-![todo:画像_代替_文章](integration-with-jasperserver_1.png)
+![todo:image_alt_text](integration-with-jasperserver_1.png)
 
 
 

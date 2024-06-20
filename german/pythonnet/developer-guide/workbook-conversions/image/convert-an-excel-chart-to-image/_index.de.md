@@ -1,78 +1,79 @@
 ---
-title: Konvertieren Sie ein Excel-Diagramm in ein Bild
+title: Ein Excel Diagramm in ein Bild umwandeln
 type: docs
 weight: 20
 url: /de/python-net/convert-an-excel-chart-to-image/
-description: Konvertieren Sie ein Excel-Diagramm in ein Bild, indem Sie Aspose.Cells for Python via .NET API verwenden.
-keywords: Python Convert an Excel Chart to Image, Export an Excel Chart to Image in Python via NET, Python Save an Excel Chart to Image.
+description: Konvertieren Sie ein Excel Diagramm in ein Bild mithilfe von Aspose.Cells für Python via .NET API.
+keywords: Python Konvertieren Sie ein Excel Diagramm in ein Bild, Exportieren Sie ein Excel Diagramm in ein Bild in Python via NET, Python Speichern Sie ein Excel Diagramm in ein Bild.
 ---
+
 {{% alert color="primary" %}}
 
-Diagramme sind optisch ansprechend und machen es Benutzern leicht, Vergleiche, Muster und Trends in Daten zu erkennen. Anstatt beispielsweise Spalten mit Arbeitsblattzahlen zu analysieren, zeigt ein Diagramm auf einen Blick, ob die Umsätze sinken oder steigen oder wie sich die tatsächlichen Umsätze im Vergleich zu den prognostizierten Umsätzen verhalten. Von Menschen wird häufig verlangt, statistische und grafische Informationen leicht verständlich und leicht zu pflegen darzustellen. Ein Bild hilft.
+Diagramme sind optisch ansprechend und erleichtern es den Benutzern, Vergleiche, Muster und Trends in Daten zu erkennen. Anstelle von Spalten von Arbeitsblattnummern zu analysieren, zeigt ein Diagramm auf einen Blick, ob die Verkäufe sinken oder steigen oder wie die tatsächlichen Verkäufe im Vergleich zu den prognostizierten Verkäufen stehen. Menschen werden häufig gebeten, statistische und graphische Informationen in einem leicht verständlichen und leicht zu pflegenden Format zu präsentieren. Ein Bild hilft.
 
-Manchmal werden Diagramme in einer Anwendung oder auf Webseiten benötigt. Oder es wird möglicherweise für ein Word-Dokument, eine PDF-Datei, eine PowerPoint-Präsentation oder eine andere Anwendung benötigt. In jedem Fall möchten Sie das Diagramm als Bild rendern, damit Sie es an anderer Stelle verwenden können.
+Manchmal werden Diagramme in einer Anwendung oder auf Webseiten benötigt. Oder sie werden für ein Word-Dokument, eine PDF-Datei, eine PowerPoint-Präsentation oder eine andere Anwendung benötigt. In jedem Fall möchten Sie das Diagramm als Bild rendern, damit Sie es anderswo verwenden können.
 
 {{% /alert %}}
 
-##  **Konvertieren von Diagrammen in Bilder**
+## **Das Umwandeln von Diagrammen in Bilder**
 
-In den Beispielen hier werden ein Kreisdiagramm und ein Säulendiagramm in Bilder umgewandelt.
+In den hier gezeigten Beispielen werden ein Tortendiagramm und ein Säulendiagramm in Bilder umgewandelt.
 
-###  **Konvertieren eines Kreisdiagramms in eine Bilddatei**
+### **Umwandeln eines Tortendiagramms in eine Bilddatei**
 
-Erstellen Sie zunächst ein Kreisdiagramm in Microsoft Excel und konvertieren Sie es dann in eine Bilddatei mit Aspose.Cells for Python via .NET. Der Code in diesem Beispiel erstellt ein EMF-Bild basierend auf dem Kreisdiagramm in der Excel-Vorlagendatei Microsoft.
+Erstellen Sie zunächst ein Kreisdiagramm in Microsoft Excel und wandeln Sie es dann mithilfe von Aspose.Cells für Python via .NET in eine Bilddatei um. Der Code in diesem Beispiel erstellt ein EMF-Bild basierend auf dem Kreisdiagramm in der Vorlage der Microsoft Excel-Datei.
 
-|**Ausgabe: Kreisdiagrammbild**|
+|**Ausgabe: Bild des Tortendiagramms**|
 | :- |
 |![todo:image_alt_text](convert-an-excel-chart-to-image_1.png)|
 
-1. Erstellen Sie ein Kreisdiagramm in Microsoft Excel:
- 1. Eine neue Arbeitsmappe in Microsoft Excel geöffnet.
- 1. Geben Sie einige Daten in ein Arbeitsblatt ein.
- 1. Basierend auf den Daten ein Kreisdiagramm erstellt.
- 1. Speichern Sie die Datei.
+1. Erstellen Sie ein Tortendiagramm in Microsoft Excel :
+   1. Öffnete eine neue Arbeitsmappe in Microsoft Excel.
+   1. Geben Sie einige Daten in ein Arbeitsblatt ein.
+   1. Erstellte ein Tortendiagramm basierend auf den Daten.
+   1. Speichern Sie die Datei.
 
 |**Die Eingabedatei.**|
 | :- |
 |![todo:image_alt_text](convert-an-excel-chart-to-image_2.png)|
 
-Wir hosten unsere Python-Pakete in PyPi-Repositories.
+Wir hosten unsere Python-Pakete in PyPi-Repositorys.
 
-Installieren Sie Aspose.Cells for Python von Pypi, verwenden Sie den Befehl als: $ pip install aspose-cells-python.
+Installieren Sie Aspose.Cells für Python aus pypi. Verwenden Sie den Befehl: $ pip install aspose-cells-python.
 
-Außerdem können Sie der Schritt-für-Schritt-Anleitung zur Installation von „Aspose.Cells for Python via .NET“ in Ihrer Entwicklerumgebung folgen.
-1. Laden Sie Aspose.Cells for Python via .NET herunter und installieren Sie es:
- 1. Installieren Sie Aspose.Cells for Python via .NET von[Pypi](https://pypi.org/project/aspose-cells-python/)verwenden Sie den Befehl als: $ pip install aspose-cells-python.
- 1. Und Sie können auch dem folgen[Schritt für Schritt Anweisungen](https://docs.aspose.com/cells/python-net/getting-started/) Informationen zur Installation von „Aspose.Cells for Python via .NET“ in Ihrer Entwicklerumgebung.
+Und Sie können auch den schrittweisen Anweisungen folgen, wie Sie "Aspose.Cells für Python via .NET" in Ihre Entwicklerumgebung installieren.
+1. Laden Sie Aspose.Cells für Python via .NET herunter und installieren Sie es:
+   1. Installieren Sie Aspose.Cells für Python via .NET von [pypi](https://pypi.org/project/aspose-cells-python/) mit dem Befehl: $ pip install aspose-cells-python.
+   1. Sie können auch den [schrittweisen Anweisungen](https://docs.aspose.com/cells/python-net/getting-started/) folgen, wie Sie "Aspose.Cells für Python via .NET" in Ihre Entwicklerumgebung installieren.
 
- Alle[Aspose](http://www.aspose.com/) Komponenten funktionieren bei der Erstinstallation im Evaluierungsmodus. Der Auswertungsmodus hat keine zeitliche Begrenzung und fügt nur Wasserzeichen in Ausgabedokumente ein.
+Alle [Aspose](http://www.aspose.com/) Komponenten arbeiten im Evaluierungsmodus, wenn sie zuerst installiert werden. Der Evaluierungsmodus hat kein Zeitlimit und fügt nur Wasserzeichen in Ausgabedokumente ein.
 
-1. Erstellen Sie ein Projekt:
- 1. Starten Sie Visual Studio.
- 1. Fügen Sie Ihrem Python-Projekt eine Bibliotheksreferenz hinzu (importieren Sie die Bibliothek).
- 1. Schreiben Sie den Code, der das Diagramm findet und konvertiert. Nachfolgend finden Sie den Code, den die Komponente zum Ausführen der Aufgabe verwendet. Es werden nur sehr wenige Codezeilen verwendet.
+1. Ein Projekt erstellen:
+   1. Starten Sie Visual Studio.
+   1. Fügen Sie Ihrem Python-Projekt einen Bibliotheksverweis hinzu (importieren Sie die Bibliothek).
+   1. Schreiben Sie den Code, der das Diagramm findet und konvertiert. Unten ist der vom Komponenten verwendete Code, um die Aufgabe zu erledigen. Sehr wenige Zeilen Code werden verwendet.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ConvertingPieChartToImageFile-1.py" >}}
 
-###  **Konvertieren eines Säulendiagramms in eine Bilddatei**
+### **Ein Säulendiagramm in eine Bilddatei konvertieren**
 
-Erstellen Sie zunächst ein Säulendiagramm in Microsoft Excel und konvertieren Sie es wie oben in eine Bilddatei. Nach der Ausführung des Beispielcodes wird eine Datei JPEG basierend auf dem Säulendiagramm in der Excel-Vorlagendatei erstellt.
+Erstellen Sie zunächst ein Säulendiagramm in Microsoft Excel und konvertieren Sie es in eine Bilddatei, wie oben. Nach Ausführung des Beispielscodes wird eine JPEG-Datei auf Basis des Säulendiagramms in der Vorlagen-Excel-Datei erstellt.
 
 |**Ausgabedatei: ein Säulendiagrammbild.**|
 | :- |
 |![todo:image_alt_text](convert-an-excel-chart-to-image_3.png)|
 
 1. Erstellen Sie ein Säulendiagramm in Microsoft Excel:
- 1. Öffnen Sie eine neue Arbeitsmappe in Microsoft Excel.
- 1. Geben Sie einige Daten in ein Arbeitsblatt ein.
-1. Erstellen Sie ein Säulendiagramm basierend auf den Daten.
- 1. Speichern Sie die Datei.
+   1. Öffnen Sie eine neue Arbeitsmappe in Microsoft Excel.
+   1. Geben Sie einige Daten in ein Arbeitsblatt ein.
+   1. Erstellen Sie ein Säulendiagramm basierend auf den Daten.
+   1. Speichern Sie die Datei.
 
 |**Eingabedatei.**|
 | :- |
 |![todo:image_alt_text](convert-an-excel-chart-to-image_4.png)|
 
-1. Richten Sie wie oben beschrieben ein Projekt mit Referenzen ein.
-1. Konvertieren Sie das Diagramm dynamisch in ein Bild. Im Folgenden finden Sie den Code, den die Komponente zum Ausführen der Aufgabe verwendet. Der Code ähnelt dem vorherigen:
+1. Richten Sie ein Projekt mit den oben beschriebenen Referenzen ein.
+1. Konvertieren Sie das Diagramm dynamisch in ein Bild. Im Folgenden ist der vom Komponenten verwendete Code, um die Aufgabe zu erledigen. Der Code ist ähnlich zu dem vorherigen:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "Charts-ConvertingColumnChartToImage-1.py" >}}

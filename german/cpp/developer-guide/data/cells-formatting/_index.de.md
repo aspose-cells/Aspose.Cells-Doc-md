@@ -1,21 +1,22 @@
 ---
-title: Cells Formatierung
+title: Zellenformatierung
 type: docs
 weight: 50
 url: /de/cpp/cells-formatting/
 ---
-##  **Format Cell oder Bereich Cells**
- Wenn Sie eine Zelle oder einen Zellbereich formatieren möchten, bietet Aspose.Cells die Möglichkeit[Stil](https://reference.aspose.com/cells/cpp/aspose.cells/style/)Klasse. Mit dieser Klasse können Sie die gesamte Formatierung der Zelle oder des Zellbereichs durchführen. Im Folgenden finden Sie einige Dinge im Zusammenhang mit der Formatierung, die mit der IStyle-Klasse durchgeführt werden können
 
-- Legen Sie die Füllfarbe der Zelle fest
-- Legen Sie den Textumbruch der Zelle fest
-- Legen Sie die Ränder der Zellen fest, z. B. den oberen, linken, unteren und rechten Rand usw.
-- Legen Sie die Schriftfarbe, die Schriftgröße, den Schriftnamen, die Strichstärke, die Fettschrift, die Kursivschrift, die Unterstreichung usw. fest.
-- Legen Sie die horizontale oder vertikale Ausrichtung des Textes auf rechts, links, oben, unten, in der Mitte usw. fest.
+## **Zelle oder Bereich von Zellen formatieren**
+Wenn Sie eine Zelle oder einen Bereich von Zellen formatieren möchten, bietet Aspose.Cells die [Style](https://reference.aspose.com/cells/cpp/aspose.cells/style/) Klasse. Sie können mit dieser Klasse alle Formatierungen der Zelle oder des Zellenbereichs durchführen. Einige der mit der IStyle-Klasse verbundenen Dinge sind folgende:
 
- Wenn Sie den Stil einer einzelnen Zelle festlegen möchten, verwenden Sie bitte[Cell->SetStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/) Methode und wenn Sie den Stil eines Zellbereichs festlegen möchten, verwenden Sie bitte[Range->ApplyStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/range/applystyle/)Methode.
-##  **Beispielcode**
- Der folgende Beispielcode formatiert die Zelle C4 des Arbeitsblatts auf verschiedene Arten und der Screenshot zeigt dies[Excel-Datei ausgeben](21266438.xlsx) Die von ihm generierten Informationen dienen als Referenz.
+- Füllfarbe der Zelle festlegen
+- Textumbruch der Zelle einstellen
+- Die Ränder der Zellen wie obere, linke, untere und rechte Ränder usw. festlegen
+- Schriftfarbe, Schriftgröße, Schriftart, Durchstreichen, Fett, Kursiv, Unterstrichen usw. festlegen
+- Text horizontal oder vertikal ausrichten, rechts, links, oben, unten, zentriert usw.
+
+Wenn Sie den Stil einer einzelnen Zelle festlegen möchten, verwenden Sie bitte die Methode [Cell->SetStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/cell/setstyle/), und wenn Sie den Stil eines Zellenbereichs festlegen möchten, verwenden Sie bitte die Methode [Range->ApplyStyle()](https://reference.aspose.com/cells/cpp/aspose.cells/range/applystyle/).
+## **Beispielcode**
+Der folgende Beispielcode formatiert die Zelle C4 des Arbeitsblatts auf verschiedene Weisen, und der Screenshot zeigt die [Ausgabedatei](21266438.xlsx), die von diesem Code generiert wurde, zur Referenz.
 
 ![todo:image_alt_text](cells-formatting_1.png)
 

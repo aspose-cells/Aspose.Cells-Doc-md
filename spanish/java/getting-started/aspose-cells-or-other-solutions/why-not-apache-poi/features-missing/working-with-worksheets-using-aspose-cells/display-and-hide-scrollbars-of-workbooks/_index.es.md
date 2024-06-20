@@ -1,15 +1,16 @@
-﻿---
-title: Mostrar y ocultar barras de desplazamiento de libros de trabajo
+---
+title: Mostrar y Ocultar Barras de Desplazamiento de las Hojas de Cálculo
 type: docs
 weight: 40
 url: /es/java/display-and-hide-scrollbars-of-workbooks/
 ---
-## **Aspose.Cells - Mostrar y ocultar barras de desplazamiento de libros de trabajo**
- Aspose.Cells proporciona una clase,**Libro de trabajo** que representa un archivo de Excel.**Libro de trabajo** La clase proporciona una amplia gama de propiedades y métodos para administrar un archivo de Excel. Pero, para controlar la visibilidad de las barras de desplazamiento en el archivo de Excel, los desarrolladores pueden usar**establecerVScrollBarVisible** & **setHScrollBarVisible** métodos de la**Libro de trabajo** clase.
+
+## **Aspose.Cells: Mostrar y ocultar las barras de desplazamiento de los libros de trabajo**
+Aspose.Cells proporciona una clase, **Workbook**, que representa un archivo de Excel. La clase **Workbook** proporciona una amplia gama de propiedades y métodos para administrar un archivo de Excel. Sin embargo, para controlar la visibilidad de las barras de desplazamiento en el archivo de Excel, los desarrolladores pueden utilizar los métodos **setVScrollBarVisible** y **setHScrollBarVisible** de la clase **Workbook**.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -43,8 +44,8 @@ workbook.save(dataDir + "AsposeDisplaySrollbars.xls");
 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
+## **Descargar Código en Ejecución**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/AsposeDisplayAndHideScrollbars.java)

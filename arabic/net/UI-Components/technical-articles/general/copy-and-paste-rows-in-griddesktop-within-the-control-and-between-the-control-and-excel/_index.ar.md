@@ -1,16 +1,19 @@
-﻿---
-title: نسخ ولصق الصفوف في GridDesktop داخل عنصر التحكم وبين Control و Excel
+---
+title: نسخ ولصق الصفوف في GridDesktop داخل التحكم وبين التحكم وإكسل
 type: docs
 weight: 70
-url: /ar/net/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+url: /ar/net/aspose-cells-griddesktop/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+keywords: GridDesktop، نسخ، لصق
+description: تعريف هذه المقالة بنسخ ولصق في GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-إذا كنت ترغب في تمكين نسخ ولصق الصفوف في GridDesktop ضمن عنصر التحكم أو بين control و excel ، فالرجاء ضبط الخاصية GridDesktop.ClipboardCopyPaste على true. يمكنك ضبط هذه الخاصية في وقت التصميم أو في الكود. القيمة الافتراضية لهذه الخاصية هي كاذبة. حاليًا ، يمكنه فقط نسخ قيم الخلية ولصقها ولن ينسخ أي إعداد آخر للخلية مثل التنسيق ونمط الحدود وما إلى ذلك.
+إذا كنت ترغب في تمكين نسخ ولصق الصفوف في GridDesktop داخل عنصر التحكم أو بين العنصر التحكم وإكسيل، فيرجى ضبط خاصية GridDesktop.ClipboardCopyPaste على true. يمكنك ضبط هذه الخاصية في وقت التصميم أو في الكود. قيمة هذه الخاصية الافتراضية هي false. حاليا، يمكن نسخ ولصق قيم الخلية فقط ولن يتم نسخ أي إعداد آخر للخلية مثل التنسيق أو نمط الحدود وهكذا.
 
 {{% /alert %}} 
-## **إعداد خاصية GridDesktop.ClipboardCopyPaste في Design Mode و Run Time**
- يعيّن نموذج التعليمات البرمجية التالي الخاصية GridDesktop.ClipboardCopyPaste بتنسيق**مدة العرض**.
+## **تعيين خاصية GridDesktop.ClipboardCopyPaste في وضع التصميم ووقت التشغيل**
+الكود النموذجي التالي يقوم بتعيين خاصية GridDesktop.ClipboardCopyPaste في **وقت التشغيل**.
 
 
 

@@ -1,28 +1,29 @@
 ---
-title: Aspose.Cells kullanarak OpenXml'nin Sheet.SheetId özelliğini kullanın
+title: Aspose.Cells Kullanarak OpenXml in Sayfa Kimliği Özelliğini Kullanın
 type: docs
 weight: 200
 url: /tr/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
-description: Bu makale, programlı olarak Excel manipülasyonu .NET API veya C# Kitaplığı kullanılarak OpenXml'nin Sheet.SheetId özelliğinin nasıl kullanılacağını gösterir.
-keywords: sheet id property of openxml c#, sheet id excel worksheet c#
+description: Bu makale, Excel manipülasyonu .NET API veya C# Kütüphanesi kullanarak OpenXml in Sheet.SheetId özelliğini kullanmanın nasıl yapıldığını göstermektedir.
+keywords: openxml c# da sayfa kimliği özelliği, c# da excel çalışma sayfası kimliği
 ---
-##  **Olası Kullanım Senaryoları**
 
-*Sheet.SheetId*özellik içinde bulunur*DocumentFormat.OpenXml.Spreadsheet* ad alanı ve OpenXml'in bir parçasıdır. Bu özelliği ve değerini içinde görebilirsiniz.*çalışma kitabı.xml* aşağıdaki ekran görüntüsünde gösterildiği gibi. Aspose.Cells, eşdeğer özelliği şu şekilde sağlar:[**Worksheet.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid).
+## **Olası Kullanım Senaryoları**
 
-![yapılacaklar:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
+*Sheet.SheetId*, *DocumentFormat.OpenXml.Spreadsheet* ad alanı içinde bulunan ve OpenXml'in bir parçası olan bir özelliktir. Bu özelliği ve değerini aşağıdaki ekran görüntüsünde gösterildiği gibi *workbook.xml* içinde görebilirsiniz. Aspose.Cells, bu özelliğin dengi olarak [**Worksheet.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid) özelliğini sunar.
 
-##  **Aspose.Cells kullanarak OpenXml'nin Sheet.SheetId özelliğini kullanın**
+![todo:image_alt_text](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
- Aşağıdaki örnek kod,[örnek excel dosyası](51740716.xlsx) , Sayfasını veya Sekme Kimliğini okur, ardından ona yeni Sekme Kimliği atar ve şu şekilde kaydeder:[çıktı excel dosyası](51740717.xlsx). Lütfen referans için aşağıda verilen kodun konsol çıktısına da bakın.
+## **Aspose.Cells üzerinde Sheet.SheetId özelliğini kullanarak OpenXml'in faydalanılması**
 
-##  **Basit kod**
+Aşağıdaki örnek kod, [örnek Excel dosyasını](51740716.xlsx) yükler, Sayfa veya Sekme Kimliğini okur, ardından yeni Sekme Kimliğini atar ve [çıktı Excel dosyası](51740717.xlsx) olarak kaydeder. Ayrıca, aşağıda verilen kodun konsol çıktısını da inceleyin.
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UtilizeSheet_SheetId_PropertyOfOpenXml.cs" >}}
 
-##  **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Sheet or Tab Id: 1297
 

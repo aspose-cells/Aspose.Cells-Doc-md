@@ -1,21 +1,22 @@
-﻿---
-title: 選択したチャート アイテムを Excel チャートにレンダリングする
+---
+title: 選択したチャート項目をExcelチャートにレンダリングする
 type: docs
 weight: 30
 url: /ja/reportingservices/render-selected-chart-items-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-レポート内の一部のグラフのみを Excel グラフに表示するには:
+レポート内の一部のチャートのみをExcelチャートにレンダリングするには:
 
-1. 開く**Aspose.Cells.ReportingServices.xml**ファイル。
-1. の構成パラメータを変更します。**Aspose.Cells.ReportingServices.xml**ファイル。
-1. 必要なレポート構成情報を追加します。
-1. 編集可能なグラフとしてエクスポートしたくないグラフ アイテムの情報を追加します。これらのアイテムは静止画像としてエクスポートされます。
+1. **Aspose.Cells.ReportingServices.xml** ファイルを開きます。
+1. **Aspose.Cells.ReportingServices.xml** ファイルの構成パラメータを変更します。
+1. 希望するレポートの構成情報を追加します。
+1. エクスポートしたいチャート項目の情報を追加します。これらの項目は静止画像としてエクスポートされます。
 
-例えば：
+例:
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart >
 
@@ -29,12 +30,12 @@ url: /ja/reportingservices/render-selected-chart-items-to-excel-charts/
 
 {{< /highlight >}}
 
-**画像としてエクスポートされたグラフ** 
+**画像としてエクスポートされるチャート** 
 
-![todo:画像_代替_文章](render-selected-chart-items-to-excel-charts_1.png)
+![todo:image_alt_text](render-selected-chart-items-to-excel-charts_1.png)
 
-**編集可能な Excel チャートとしてエクスポートされたチャート** 
+**編集可能なExcelチャートとしてエクスポートされるチャート** 
 
-![todo:画像_代替_文章](render-selected-chart-items-to-excel-charts_2.png)
+![todo:image_alt_text](render-selected-chart-items-to-excel-charts_2.png)
 
 {{% /alert %}}

@@ -1,16 +1,17 @@
-﻿---
+---
 title: Configuración de opciones de página en Php
 type: docs
 weight: 10
 url: /es/java/setting-page-options-in-php/
 ---
-## **Aspose.Cells - Configuración de opciones de página**
-### **Orientación de la página**
- Para aplicar la configuración de orientación de la página usando**Aspose.Cells Java for PHP** , llamada**orientación de la página** método de**configuración de página** módulo.
+
+## **Aspose.Cells - Configuración de Opciones de Página**
+### **Orientación de Página**
+Para aplicar configuraciones de orientación de página utilizando **Aspose.Cells Java para PHP**, llame al método **page_orientation** del módulo **pagesetup**.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function page_orientation($dataDir=null)
 
@@ -45,12 +46,12 @@ url: /es/java/setting-page-options-in-php/
 }
 
 {{< /highlight >}}
-### **Factor de escala**
- Para aplicar la escala usando**Aspose.Cells Java for PHP** , llamada**escalada** método de**configuración de página** módulo.
+### **Factor de Escala**
+Para aplicar escala usando **Aspose.Cells Java para PHP**, llame al método **escala** del módulo **pagesetup**.
 
 **Código PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function scaling($dataDir=null)
 
@@ -84,7 +85,7 @@ url: /es/java/setting-page-options-in-php/
 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Configuración de opciones de página (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Configuración de Opciones de Página (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/PageSetupFeatures/SettingPageOptions.php)

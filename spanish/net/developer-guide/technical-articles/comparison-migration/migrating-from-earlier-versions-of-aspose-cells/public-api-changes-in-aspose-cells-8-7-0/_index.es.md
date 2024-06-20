@@ -1,25 +1,26 @@
-﻿---
-title: Público API Cambios en Aspose.Cells 8.7.0
+---
+title: Cambios en la API Pública en Aspose.Cells 8.7.0
 type: docs
 weight: 230
 url: /es/net/public-api-changes-in-aspose-cells-8-7-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Este documento describe los cambios al Aspose.Cells API de la versión 8.6.3 a la 8.7.0 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo métodos públicos nuevos y actualizados, clases agregadas y eliminadas, etc., sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
+Este documento describe los cambios en la API de Aspose.Cells desde la versión 8.6.3 hasta la 8.7.0 que pueden ser de interés para los desarrolladores de módulos/aplicaciones. Incluye no solo nuevos y actualizados métodos públicos, clases agregadas y eliminadas, etc., sino también una descripción de cualquier cambio en el comportamiento detrás de escena en Aspose.Cells.
 
 {{% /alert %}} 
-## **API añadidas**
-### **Compatibilidad con la firma, detección y extracción digital del proyecto VBA**
-Esta versión de Aspose.Cells for .NET ha expuesto algunas propiedades y métodos nuevos para ayudar a los usuarios en tareas como la firma digital de un proyecto de VBA, la detección de si un proyecto de VBA está firmado y es válido. Además, el nuevo API permite extraer el certificado como datos sin procesar del proyecto VBA firmado digitalmente en Workbook.
-###### **Firmar digitalmente el proyecto VBA**
- Aspose.Cells for .NET 8.7.0 ha expuesto el método VbaProject.Sign que se puede utilizar para[firmar digitalmente el proyecto VBA en un libro de trabajo](/cells/es/net/digitally-sign-a-vba-code-project-with-certificate/). Dicho método acepta una instancia de la clase DigitalSignature que reside en el espacio de nombres Aspose.Cells.DigitalSignatures.
+## **APIs Añadidas**
+### **Soporte para Firma Digital, Detección y Extracción de Proyectos VBA**
+Esta versión de Aspose.Cells for .NET ha expuesto algunas nuevas propiedades y métodos para ayudar a los usuarios en tareas como firmar digitalmente un proyecto VBA, detectar si un proyecto VBA está firmado y es válido. Además, la nueva API permite extraer el certificado como datos sin procesar de un proyecto VBA firmado digitalmente en un libro de trabajo.
+###### **Firmar Digitalmente un Proyecto VBA**
+Aspose.Cells for .NET 8.7.0 ha expuesto el método VbaProject.Sign que se puede utilizar para [firmar digitalmente el proyecto VBA en un libro de trabajo](/cells/es/net/digitally-sign-a-vba-code-project-with-certificate/). El mencionado método acepta una instancia de la clase DigitalSignature que reside en el espacio de nombres Aspose.Cells.DigitalSignatures.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -38,14 +39,14 @@ vbaProject.Sign(new DigitalSignature(new System.Security.Cryptography.X509Certif
 {{< /highlight >}}
 
 
-###### **Detección de proyecto VBA firmado digitalmente**
- La propiedad VbaProject.IsSigned recién expuesta se puede usar para[detectar si el proyecto de VBA en un libro de trabajo está firmado digitalmente](/cells/es/net/check-if-vba-code-is-signed/). La propiedad VbaProject.IsSigned es de tipo booleano, que devuelve verdadero si el proyecto de VBA está firmado digitalmente y viceversa.
+###### **Detección de Proyecto VBA Firmado Digitalmente**
+La nueva propiedad VbaProject.IsSigned expuesta puede usarse para [detectar si el proyecto VBA en un libro de trabajo está firmado digitalmente](/cells/es/net/check-if-vba-code-is-signed/). La propiedad VbaProject.IsSigned es de tipo booleano, que devuelve true si el proyecto VBA está firmado digitalmente y viceversa.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -76,14 +77,14 @@ else
 {{< /highlight >}}
 
 
-###### **Extracción de Firma Digital del Proyecto VBA**
-Esta revisión de API también ha expuesto la propiedad VbaProject.CertRawData que permite[extraer los datos sin procesar del certificado digital del proyecto VBA](/cells/es/net/export-vba-certificate-to-file-or-stream/). La propiedad VbaProject.CertRawData es de tipo matriz de bytes, que contendrá los datos del certificado sin procesar si el proyecto VBA está firmado digitalmente; de lo contrario, dicha propiedad será nula.
+###### **Extracción de Firma Digital de Proyecto VBA**
+Esta revisión de la API también ha expuesto la propiedad VbaProject.CertRawData que permite [extraer los datos sin procesar del certificado digital del proyecto VBA](/cells/es/net/export-vba-certificate-to-file-or-stream/). La propiedad VbaProject.CertRawData es de tipo matriz de bytes, que contendrá los datos sin procesar del certificado si el proyecto VBA está firmado digitalmente; de lo contrario, dicha propiedad será nula.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -101,13 +102,13 @@ var cert = vbaProject.CertRawData;
 
 
 ###### **Validar la Firma Digital del Proyecto VBA**
- Otra adición al público API es la propiedad VbaProject.IsValidSigned que podría ser útil en[validando la firma digital del proyecto VBA](/cells/es/net/check-if-digital-signature-of-vba-code-is-valid/). Dicha propiedad devuelve verdadero si la firma digital es válida y falso si la firma no es válida.
+Otra adición a la API pública es la propiedad VbaProject.IsValidSigned que podría ser útil para [validar la firma digital del proyecto VBA](/cells/es/net/check-if-digital-signature-of-vba-code-is-valid/). Dicha propiedad devuelve true si la firma digital es válida y false si la firma es inválida.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -138,14 +139,14 @@ if (vbaProject.IsSigned)
 {{< /highlight >}}
 
 
-### **Método Protection.VerifyPassword agregado**
- Aspose.Cells for .NET 8.7.0 ha expuesto el método Protection.VerifyPassword que se puede utilizar para[verificar la contraseña utilizada para proteger la hoja de trabajo](/cells/es/net/verify-password-used-to-protect-the-worksheet/)Este método acepta una instancia de cadena como parámetro y devuelve verdadero si la contraseña especificada coincide con la contraseña utilizada para proteger la hoja de trabajo.
+### **Agregado el Método Protection.VerifyPassword**
+Aspose.Cells for .NET 8.7.0 ha expuesto el método Protection.VerifyPassword que se puede utilizar para [verificar la contraseña utilizada para proteger la hoja de cálculo](/cells/es/net/verify-password-used-to-protect-the-worksheet/). Este método acepta una instancia de cadena como parámetro y devuelve true si la contraseña especificada coincide con la contraseña utilizada para proteger la hoja de cálculo.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -180,14 +181,14 @@ else
 {{< /highlight >}}
 
 
-### **Protección de propiedad. IsProtectedWithPassword agregado**
- Esta versión de Aspose.Cells for .NET API también ha expuesto la propiedad Protection.IsProtectedWithPassword que puede ser útil en[detectar si una hoja de trabajo está protegida con contraseña o no](/cells/es/net/detect-if-worksheet-is-password-protected/).
+### **Agregada la Propiedad Protection.IsProtectedWithPassword**
+Esta versión de Aspose.Cells for .NET API también ha expuesto la propiedad Protection.IsProtectedWithPassword que puede ser útil para [detectar si una hoja de cálculo está protegida con contraseña o no](/cells/es/net/detect-if-worksheet-is-password-protected/).
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet
 
@@ -222,14 +223,14 @@ else
 {{< /highlight >}}
 
 
-### **Propiedad ColorScale.Is3ColorScale agregado**
- Aspose.Cells for .NET 8.7.0 ha expuesto la propiedad ColorScale.Is3ColorScale que se puede usar para crear un formato condicional de escala de 2 colores. Dicha propiedad es de tipo booleano con valor predeterminado de verdadero, lo que significa que el formato condicional será de escala de 3 colores de forma predeterminada. Sin embargo, cambiar la propiedad ColorScale.Is3ColorScale a false[generar un formato condicional de escala de 2 colores](/cells/es/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/).
+### **Propiedad Added ColorScale.Is3ColorScale**
+Aspose.Cells for .NET 8.7.0 ha expuesto la propiedad ColorScale.Is3ColorScale que puede usarse para crear formato condicional de Escala de 2 Colores. Dicha propiedad es de tipo Boolean con un valor predeterminado de true, lo que significa que el formato condicional será de Escala de 3 Colores por defecto. Sin embargo, cambiar la propiedad ColorScale.Is3ColorScale a false [generará un formato condicional de Escala de 2 Colores](/cells/es/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/).
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -274,14 +275,14 @@ formatCondition.ColorScale.Is3ColorScale = false;
 {{< /highlight >}}
 
 
-### **Propiedad TxtLoadOptions.HasFormula Agregada**
- Aspose.Cells for .NET 8.7.0 ha proporcionado soporte para[identifique y analice las fórmulas mientras carga archivos CSV/TXT con datos simples delimitados](/cells/es/net/load-or-import-csv-file-with-formulas/). La propiedad TxtLoadOptions.HasFormula recién expuesta cuando se establece en verdadero dirige el API para analizar las fórmulas del archivo delimitado de entrada y establecerlas en celdas relevantes sin requerir ningún procesamiento adicional.
+### **Propiedad Agregada TxtLoadOptions.HasFormula**
+Aspose.Cells for .NET 8.7.0 ha proporcionado soporte para [identificar y analizar fórmulas mientras se cargan archivos CSV/TXT con datos delimitados](/cells/es/net/load-or-import-csv-file-with-formulas/). La propiedad recién expuesta TxtLoadOptions.HasFormula, cuando se establece en true, indica a la API que analice las fórmulas del archivo delimitado de entrada y las establezca en las celdas relevantes sin requerir ningún procesamiento adicional.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of TxtLoadOptions
 
@@ -310,14 +311,14 @@ book.Save(outFilePath);
 {{< /highlight >}}
 
 
-### **Propiedad DataLabels.IsResizeShapeToFitText agregado**
- Otra característica útil que ha expuesto Aspose.Cells for .NET 8.7.0 es la propiedad DataLabels.IsResizeShapeToFitText que puede habilitar la[Cambiar el tamaño de la forma para que se ajuste al texto](/cells/es/net/resize-chart-s-data-label-shape-to-fit-text/)característica de la aplicación Excel para las etiquetas de datos del gráfico.
+### **Propiedad DataLabels.IsResizeShapeToFitText agregada**
+Otra característica útil que Aspose.Cells for .NET 8.7.0 ha expuesto es la propiedad DataLabels.IsResizeShapeToFitText que puede habilitar la función [Redimensionar forma para ajustar el texto](/cells/es/net/resize-chart-s-data-label-shape-to-fit-text/) de la aplicación Excel para las etiquetas de datos del gráfico.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook containing the Chart
 
@@ -346,17 +347,17 @@ chart.Calculate();
 {{< /highlight >}}
 
 
-### **Propiedad PdfSaveOptions.OptimizationType agregado**
-Aspose.Cells for .NET 8.7.0 ha expuesto la propiedad PdfSaveOptions.OptimizationType junto con la enumeración PdfOptimizationType para facilitar a los usuarios[elija el algoritmo de optimización deseado mientras exporta hojas de cálculo al formato PDF](/cells/es/net/save-excel-into-pdf-with-standard-or-minimum-size/). Hay 2 valores posibles para la propiedad PdfSaveOptions.OptimizationType como se detalla a continuación.
+### **Propiedad PdfSaveOptions.OptimizationType agregada**
+Aspose.Cells for .NET 8.7.0 ha expuesto la propiedad PdfSaveOptions.OptimizationType junto con la enumeración PdfOptimizationType para facilitar a los usuarios [elegir el algoritmo de optimización deseado al exportar hojas de cálculo a formato PDF](/cells/es/net/save-excel-into-pdf-with-standard-or-minimum-size/). Hay 2 valores posibles para la propiedad PdfSaveOptions.OptimizationType como se detalla a continuación:
 
-1. PdfOptimizationType.MinimumSize: la calidad se ve comprometida por el tamaño del archivo resultante.
-1. PdfOptimizationType.Standard: la calidad no se ve comprometida, por lo que el tamaño del archivo resultante será grande.
+1. PdfOptimizationType.MinimumSize: La calidad se ve comprometida por el tamaño del archivo resultante.
+2. PdfOptimizationType.Standard: La calidad no se ve comprometida, por lo que el tamaño del archivo resultante será grande.
 
-El siguiente es el escenario de uso simple.
+A continuación se muestra un escenario de uso simple.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of PdfSaveOptions
 
@@ -377,6 +378,6 @@ var book = new Workbook(inFilePath);
 book.Save(outFilePath, pdfSaveOptions);
 
 {{< /highlight >}}
-## **API eliminadas**
-### **Propiedad Workbook.SaveOptions Eliminado**
-La propiedad Workbook.SaveOptions se marcó como obsoleta hace algún tiempo. Con esta versión, se ha eliminado por completo del público API, por lo que se recomienda utilizar el método Workbook.Save(Stream, SaveOptions) o Workbook.Save(string, SaveOptions) como alternativa.
+## **APIs Eliminadas**
+### **Propiedad Workbook.SaveOptions eliminada**
+La propiedad Workbook.SaveOptions fue marcada como obsoleta hace algún tiempo. Con esta versión, ha sido completamente eliminada de la API pública, por lo tanto, se recomienda utilizar el método Workbook.Save(Stream, SaveOptions) o Workbook.Save(string, SaveOptions) como alternativa.

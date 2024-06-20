@@ -1,35 +1,36 @@
 ---
 title: Establecer fuente de datos para el gráfico
-description: Conozca las diversas fuentes de datos admitidas por Aspose.Cells for .NET. Nuestra guía lo guiará a través de los diferentes tipos de fuentes de datos disponibles y le mostrará cómo conectarse y recuperar datos de ellas para completar sus hojas de trabajo.
-keywords: Aspose.Cells for .NET, charting, data formatting, labels, colors, fonts, appearance, usability.
+description: Aprenda sobre las diferentes fuentes de datos admitidas por Aspose.Cells for .NET. Nuestra guía le mostrará los diferentes tipos de fuentes de datos disponibles y le enseñará cómo conectar y recuperar datos de ellas para rellenar sus hojas de cálculo.
+keywords: Aspose.Cells for .NET, gráficos, formato de datos, etiquetas, colores, fuentes, apariencia, usabilidad.
 linktitle: Fuente de datos
 type: docs
 weight: 10
 url: /es/net/data-formatting-in-charts/
 ---
-En nuestros temas anteriores, ya proporcionamos muchos ejemplos para demostrar cómo se puede configurar una fuente de datos para su gráfico, pero en este tema, brindaremos más detalles sobre los tipos de datos que se pueden configurar para un gráfico.
 
-##  **Configuración de datos del gráfico**
+En nuestros temas anteriores, ya hemos proporcionado muchos ejemplos para demostrar cómo puede establecer una fuente de datos para su gráfico, pero en este tema, vamos a proporcionar más detalles sobre los tipos de datos que se pueden establecer para un gráfico.
 
-Hay dos tipos de datos con los que trabajar mientras se trabaja en gráficos utilizando Aspose.Cells de la siguiente manera:
+## **Establecer Datos del Gráfico**
+
+Hay dos tipos de datos con los que trabajar al utilizar gráficos con Aspose.Cells como se muestra a continuación:
 
 - Datos del gráfico.
 - Datos de categoría.
 
-###  **Datos del gráfico**
+### **Datos del Gráfico**
 
- Los datos de los gráficos son los datos que utilizamos como fuente de datos para crear nuestros gráficos. Podemos agregar un rango de celdas (que contienen datos del gráfico) llamando al[**SerieColección**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) objetos[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add)método.
+Los datos del gráfico son los datos que usamos como fuente de datos para construir nuestros gráficos. Podemos agregar un rango de celdas (que contienen datos del gráfico) llamando al método [**Add**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add) del objeto [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsData-1.cs" >}}
 
-###  **Datos de categoría**
+### **Datos de Categoría**
 
- Los datos de categoría se utilizan para etiquetar los datos del gráfico y se pueden agregar a[**SerieColección**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) usando su[**CategoríaDatos**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata)propiedad. A continuación se proporciona un ejemplo completo para demostrar el uso de datos de gráficos y categorías. Después de ejecutar el código de ejemplo anterior, se agregará un gráfico de columnas a la hoja de trabajo como se muestra a continuación.
+Los datos de categoría se utilizan para la etiquetación de los datos del gráfico y se pueden agregar a [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) mediante su propiedad [**CategoryData**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata). A continuación se muestra un ejemplo completo para demostrar el uso de datos del gráfico y de categoría. Después de ejecutar el código de ejemplo anterior, se añadirá un gráfico de columnas a la hoja de cálculo como se muestra a continuación.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingCategoryData-1.cs" >}}
 
-##  **Temas avanzados**
-- [Cambie la fuente de datos del gráfico a la hoja de trabajo de destino mientras copia filas o rango](/cells/es/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)
-- [Crear gráficos dinámicos](/cells/es/net/create-dynamic-charts/)
-- [Manera sencilla de configurar el gráfico utilizando el método Chart.SetChartDataRange](/cells/es/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
-- [Encuentre el tipo de valores X e Y de puntos en series de gráficos](/cells/es/net/find-type-of-x-and-y-values-of-points-in-chart-series/)
+## **Temas avanzados**
+- [Cambiar la fuente de datos del gráfico a la hoja de trabajo de destino al copiar filas o rango](/cells/es/net/change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range/)
+- [Crear Gráficos Dinámicos](/cells/es/net/create-dynamic-charts/)
+- [Forma fácil para la configuración de gráficos utilizando el método Chart.SetChartDataRange](/cells/es/net/easy-way-for-chart-setup-using-chart-setchartdatarange-method/)
+- [Encontrar el tipo de valores X e Y de los puntos en la serie del gráfico](/cells/es/net/find-type-of-x-and-y-values-of-points-in-chart-series/)

@@ -1,53 +1,54 @@
-﻿---
-title: Фильтровать объекты при загрузке книги или листа
+---
+title: Фильтрование объектов при загрузке книги Excel или листа
 type: docs
 weight: 330
 url: /ru/net/filter-objects-while-loading-workbook-or-worksheet/
 ---
-## **Возможные сценарии использования**
-Пожалуйста, используйте[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)свойство при фильтрации данных из книги. Но если вы хотите отфильтровать данные с отдельных рабочих листов, вам придется переопределить[LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet)метод. Укажите соответствующее значение из[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)перечисление при создании или работе с[Загрузить фильтр](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
 
-[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)перечисление имеет следующие возможные значения.
+## **Возможные сценарии использования**
+Пожалуйста, используйте свойство [LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) при фильтрации данных из книги Excel. Если же вы хотите фильтровать данные из отдельных листов, вам придется переопределить метод [LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet). Пожалуйста, укажите соответствующее значение из перечисления [LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) при создании или работы с [LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
+
+Перечисление [LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) имеет следующие возможные значения.
 
 - Все
 - Настройки книги
 - Пустая ячейка
-- CellBool
-- CellData
-- CellError
-- ЯчейкаЧисловой
-- CellString
-- CellValue
-- Диаграмма
+- Булева ячейка
+- Данные ячейки
+- Ошибка ячейки
+- Числовая ячейка
+- Строковая ячейка
+- Значение ячейки
+- Chart
 - Условное форматирование
-- Валидация данных
-- Дефайнеднамес
+- Проверка данных
+- Определенные имена
 - Свойства документа
 - Формула
 - Гиперссылки
-- Объединенная область
-- сводная таблица
+- ОбъединеннаяОбласть
+- СводнаяТаблица
 - Настройки
-- Форма
-- Данные листа
-- Параметры листа
+- Фигура
+- ДанныеЛиста
+- НастройкиЛиста
 - Структура
 - Стиль
 - Таблица
 - VBA
 - XmlMap
-## **Фильтровать объекты при загрузке книги**
- В следующем примере кода показано, как фильтровать диаграммы из книги. Пожалуйста, проверьте[образец эксель файла](5115258.xlsx) используется в этом коде и[вывод PDF](5115257.pdf)порожденный им. Как вы можете видеть в выводе PDF, все диаграммы были отфильтрованы из рабочей книги.
+## **Фильтрование объектов при загрузке книги Excel**
+Приведенный ниже образец кода демонстрирует, как фильтровать диаграммы из книги Excel. Пожалуйста, проверьте [образец excel файла](5115258.xlsx), использованный в этом коде, и [выходной PDF](5115257.pdf), сгенерированный им. Как видно из выходного PDF, все диаграммы были отфильтрованы из книги Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-FilteringObjects.cs" >}}
-## **Фильтровать объекты при загрузке рабочего листа**
- Следующий пример кода загружает[исходный файл excel](5115255.xlsx) и фильтрует следующие данные из своих рабочих листов, используя настраиваемый фильтр.
+## **Фильтрование объектов при загрузке Листа**
+Приведенный ниже образец кода загружает [исходный файл Excel](5115255.xlsx) и фильтрует следующие данные из его листов, используя пользовательский фильтр.
 
-- Он фильтрует диаграммы из рабочего листа с именем NoCharts.
-- Он фильтрует фигуры из рабочего листа с именем NoShapes.
-- Он фильтрует условное форматирование из листа с именем NoConditionalFormatting.
+- Он фильтрует Диаграммы из листа с именем NoCharts.
+- Он фильтрует формы из листа с именем NoShapes.
+- Он фильтрует Условное форматирование из листа с именем NoConditionalFormatting.
 
- Один раз он загружает[исходный файл excel](5115255.xlsx) с пользовательским фильтром он берет изображения всех рабочих листов одно за другим. Вот выходные изображения для справки. Как видите, на первом изображении нет диаграмм, на втором изображении нет фигур, а на третьем изображении нет условного форматирования.
+После загрузки [исходного файла Excel](5115255.xlsx) с пользовательским фильтром он берет изображения со всех листов один за другим. Здесь представлены изображения для вашего ознакомления. Как видно, на первом изображении нет диаграмм, на втором - нет фигур, на третьем - нет условного форматирования.
 
 - [NoCharts.png](5115254.png)
 - [NoShapes.png](5115256.png)
@@ -58,6 +59,6 @@ url: /ru/net/filter-objects-while-loading-workbook-or-worksheet/
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-1.cs" >}}
 
 
-Вот как использовать класс CustomLoadFilter в соответствии с именами рабочих листов.
+Вот как использовать класс CustomLoadFilter согласно именам листов.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-CustomFilteringPerWorksheet-2.cs" >}}

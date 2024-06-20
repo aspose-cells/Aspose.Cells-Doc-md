@@ -1,51 +1,49 @@
-﻿---
+---
 title: SSS
 type: docs
 weight: 100
 url: /tr/net/faq/
 ---
+
 ## **Workbook.CalculateFormula'da System.StackOverFlowException Nasıl Düzeltilir?**
-Bazen kullanıcılar, Workbook.CalculateFormula yönteminde System.StackOverFlowException ile karşılaşır. Bu istisna genellikle, IIS'nin varsayılan yığın boyutunun çok küçük olması nedeniyle oluşur (yalnızca 265k). Yığın boyutu artırılmış başka bir iş parçacığı oluşturarak ve ardından Workbook.CalculateFormula ile ilgili kodu bunun içine taşıyarak bu hatayı düzeltebilirsiniz.
+Bazı durumlarda, kullanıcılar Workbook.CalculateFormula yönteminde System.StackOverFlowException ile karşılaşabilir. Bu hata genellikle IIS'in varsayılan yığın boyutunun çok küçük olmasından kaynaklanır (yalnızca 265k). Bu hatayı düzeltebilirsiniz, yığınlama boyutu artırılmış başka bir iş parçacığı oluşturarak ve ardından Workbook.CalculateFormula ile ilgili kodu içine taşıyarak.
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
-## **Excel'i PDF'e dönüştürürken çizgilerin kalınlığı sorunu**
-Bazen, Excel dosyası PDF'e dönüştürüldüğünde, PDF çıktısındaki çizgilerin kalınlığı farklıdır. Bu sorun Aspose.Cells'den kaynaklanmaz.**Adobe okuyucu** ayarları ne zaman**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"** kontrol edilir. Bu seçeneklerin işaretini kaldırmak PDF para cezasını gösterecektir.
+## **Excel'i PDF'ye dönüştürürken çizgilerin kalınlığı ile ilgili sorun**
+Bazı durumlarda, Excel dosyası PDF'ye dönüştürüldüğünde, çizgilerin kalınlığı çıktı PDF'inde farklı olabilir. Bu sorun, Aspose.Cells tarafından değil, ayarları 'Düz hat sanatını yumuşat' ve 'İnce çizgileri geliştir' olan **Adobe Reader** tarafından kaynaklanmaktadır. Bu seçeneklerin işaretli olmaması durumunda PDF düzgün görüntülenir.
 
- eğer kontrol**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"**, çizgilerin kalınlığı farklıdır. Nasıl yapıldığını aşağıdaki adımlara bakın:
+Eğer '**Düz hat sanatını yumuşat**' ve '**İnce çizgileri geliştir**' seçeneğini kontrol ederseniz, çizgilerin kalınlığı farklı olacaktır. Aşağıdaki adımları nasıl yapılacağını görün:
 
--  Git**Düzenlemek**
--  Seçme**Tercihler**
--  İçinde**Sayfa Görünümü** Kategori Kontrol et**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"**
+- **Düzenle**'ye gidin
+- **Tercihler**'i seçin
+- **Sayfa Gösterimi** Kategorisinde **'Düz hat sanatını yumuşat'** ve **'İnce çizgileri geliştir'**'ı işaretleyin
 
- İşareti kaldırırsanız**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"**, çizgilerin kalınlığı aynıdır. Bunu başarmak için aşağıdaki adımları uygulamanız yeterlidir:
+**'Düz hat sanatını yumuşat'** ve **'İnce çizgileri geliştir'** seçeneğini işaretlemeyin, çizgilerin kalınlığı aynı olacaktır. Bu amaçla aşağıdaki adımları takip edin:
 
--  Git**Düzenlemek**
--  Seçme**Tercihler**
--  İçinde**Sayfa Görünümü** Kategori İşaretini kaldırın**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"**
-## **Büyük Elektronik Tabloları Yüklerken System.OutOfMemoryException Nasıl Düzeltilir?**
-Çalışma Kitabı oluşturucusunun büyük elektronik tabloları yüklerken System.OutOfMemoryException oluşturma olasılığı oldukça yüksektir. Bu istisna, kullanılabilir belleğin elektronik tabloyu belleğe tamamen yüklemek için yetersiz olduğunu, bu nedenle elektronik tablonun etkinleştirilirken yüklenmesi gerektiğini gösterir.[Bellek Tercihleri](/cells/tr/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/).
+- **Düzenle**'ye gidin
+- **Tercihler**'i seçin
+- **Sayfa Gösterimi** Kategorisinde **'Düz hat sanatını yumuşat'** ve **'İnce çizgileri geliştir'**'ı işaretlemediğinizden emin olun
+## **Büyük Elektronik Tabloları Yükleme Sırasında System.OutOfMemoryException Nasıl Düzeltilir?**
+Büyük elektronik tabloları yüklerken Workbook oluşturucunun System.OutOfMemoryException fırlatabileceği olasılığı vardır. Bu hata, mevcut belleğin elektronik tabloyu tamamen yüklemek için yetersiz olduğunu gösterir. Bu nedenle, elektronik tabloların verimli bir şekilde yüklenmesine yardımcı olabilecek [Bellek Tercihleri](/cells/tr/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/) etkinleştirilerek yüklenmelidir.
 
-Aspose.Cells API'ler, elektronik tabloları yüklerken ve işlerken bellek tüketimini optimize etmek için Bellek Tercihleri sağlar. Bu seçenekler, aşağıda gösterildiği gibi, Workbook nesnesinde büyük veri kümeleri içeren büyük elektronik tabloların verimli bir şekilde yüklenmesine de yardımcı olur.
+Aspose.Cells API'ları, elektronik tabloların yüklenmesi ve işlenmesi sırasında bellek tüketimini optimize etmek için Bellek Tercihleri sağlar. Bu seçenekler ayrıca, Workbook nesnesindeki dev veri setlerine sahip büyük elektronik tabloların etkili bir şekilde yüklenmesine yardımcı olur.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-KnowledgeBase-FAQs-FixOutOfMemoryException-1.cs" >}}
 
-## **Belirli bir Çalışma Kitabı için hangi yığın boyutunun gerekli olduğunu belirleme**
-Aspose.Cells formül hesaplama motorunu geliştirmemize rağmen, çoğu durumda, daha küçük yığın boyutu belirtmeden belirli bir şablon dosyası için tüm formülleri başarıyla hesaplayabilmeniz gerekir. Ancak yine de bazen Workbook.CalculateFormula yöntemindeki StackOverFlowException kaçınılmaz olabilir. Kullanıcıların formül hesaplamalarını takip etmeleri için yeni API'ler sağlıyoruz. "AbstractCalculationMonitor" adlı bir sınıf ekledik ve bir özellik sağladık, örn.*CalculationOptions.CalculationMonitor*Sorunla başa çıkmak/izlemek için.
+## **Belirli bir Workbook için hangi yığın boyutunun gerektiğini belirleme**
+Her ne kadar Aspose.Cells formül hesaplama motorunu geliştirmiş olsak da, çoğu durumda verilen bir şablon dosyası için tüm formüllerin başarıyla hesaplandığını belirtmek sizin için daha küçük yığın boyutunu belirtmeden. Ancak yine de bazen Workbook.CalculateFormula yönteminde StackOverFlowException kaçınılmaz olabilir. Kullanıcılar tarafından formül hesaplamalarını izlemek için yeni API'lar sağlarız. 'AbstractCalculationMonitor' adında bir sınıf ekledik ve bu sorunla başa çıkmak/izlemek için *CalculationOptions.CalculationMonitor* adında bir özellik sağladık.
 
-Kullanıcılar, API'leri kullanarak yığın boyutunu kendileri takip edebilir. Lütfen her hücre için yığının kontrol edilmesinin performansı kesinlikle daha büyük ölçüde düşüreceğini unutmayın. Referansınız için örnek kod segmentine bakın:
+Kullanıcılar, API'leri kullanarak yığın boyutunu kendileri denetleyebilirler. Lütfen unutmayın, her hücre için yığını kontrol etmek performansı büyük ölçüde düşürecektir. Referansınız için aşağıdaki örnek kod bölümüne bakın:
 
-`     `genel sınıf MyCalculationMonitor : AbstractCalculationMonitor
-`     `{  ` `genel geçersiz kılma geçersiz BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)  ` `{  ` `if(new StackTrace(false).FrameCount > 2000)  ` `{ _x000d `" İstisna StackOverflowException riski nedeniyle formül hesaplamasını durdurun");  ` `}  ` `}  ` `} 
-
-
+{{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "CalculationMonitor-CustomStackTrace.cs" >}}
 
 {{% alert color="primary" %}} 
 
-Çalışma zamanında kullanılan yığın boyutunu almanın daha iyi bir yolu yoktur. Sağladığımız yukarıdaki kod sadece örnektir. Performans kesinlikle önemli ölçüde düşecektir. Bu nedenle, kodun (onu gerçekten kullanmak isteyen) kullanıcılar tarafından farklı senaryolarına ve gereksinimlerine göre optimize edilebileceğini düşünüyoruz. Özyinelemeli hücre sayısı belirli bir sayıya ulaştığında yığının kontrol edilmesi, bir özyinelemeli hücre için yığının ortalama artış hızının toplanması ve yığının kontrol edilme sıklığının belirlenmesi vb.
+Çalışma zamanında kullanılan yığın boyutunu almanın daha iyi bir yolu yoktur. Yukarıdaki verdiğimiz kod sadece bir örnektir. Performans kesinlikle önemli ölçüde düşecektir. Bu nedenle, kodun rekursif hücre sayısı belirli bir sayıya ulaşınca yığını kontrol etmeyi, bir rekursif hücre için yığının ortalama artış oranını toplamayı ve yığını kontrol etmek için frekansı belirlemeyi içeren kullanıcılar tarafından (gerçekten kullanmak isteyenler için) farklı senaryo ve gereksinimlerine göre optimize edilebileceğini düşünüyoruz.
 
 {{% /alert %}}
 

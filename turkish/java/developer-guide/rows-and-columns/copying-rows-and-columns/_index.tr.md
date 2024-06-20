@@ -1,38 +1,39 @@
-﻿---
-title: Satırları ve Sütunları Kopyalama
+---
+title: Satır ve Sütunları Kopyalama
 type: docs
 weight: 30
 url: /tr/java/copying-rows-and-columns/
 ---
-## **Giriş**
-Bazen, tüm çalışma sayfasını kopyalamadan çalışma sayfasındaki satırları ve sütunları kopyalamanız gerekir. Aspose.Cells ile çalışma kitaplarının içinde veya arasında satır ve sütun kopyalamak mümkündür.
 
-Bir satır (veya sütun) kopyalandığında, güncellenmiş referanslara sahip formüller ve değerler, yorumlar, biçimlendirme, gizli hücreler, resimler ve diğer çizim nesneleri de dahil olmak üzere içerdiği veriler de kopyalanır.
-## **Microsoft Excel ile Satırları ve Sütunları Kopyalama**
+## **Giriş**
+Bazen, bir çalışma sayfasında tüm çalışma sayfasını kopyalamadan satır ve sütunları kopyalamanız gerekir. Aspose.Cells ile, çalışma kitapları arasında veya içinde satır ve sütunları kopyalamak mümkündür.
+
+Bir satır (veya sütun) kopyalandığında, içindeki veriler, güncellenmiş referanslarla formülleri - ve değerleri, yorumları, biçimlendirmeyi, gizli hücreleri, görüntüleri ve diğer çizim nesnelerini içeren veriler de kopyalanır.
+## **Microsoft Excel ile Satır ve Sütunları Kopyalama**
 1. Kopyalamak istediğiniz satırı veya sütunu seçin.
-1.  Satırları veya sütunları kopyalamak için tıklayın**kopyala** üzerinde**Standart** araç çubuğu veya tuşuna basın**CTRL**+**C**.
-1. Seçiminizi kopyalamak istediğiniz yerin altından veya sağından bir satır veya sütun seçin.
-1.  Satırları veya sütunları kopyalarken,**Cells kopyalandı** üzerinde**Sokmak** Menü.
+1. Satır veya sütunları kopyalamak için **Standart** araç çubuğunda **Kopyala**'yı tıklayın veya **CTRL**+**C**'ye basın.
+1. Kopyalamak istediğiniz seçimin altında veya sağındaki bir satır veya sütunu seçin.
+1. Satır veya sütunları kopyalarken, **Ekle** menüsünde **Kopyalanan Hücreler**'i tıklayın.
 
 {{% alert color="primary" %}} 
 
- eğer tıklarsan**Yapıştırmak** üzerinde**Standart** araç çubuğu veya basın**CTRL**+** üzerindeki bir komuta tıklamak yerine V****Ekle** menüsünde, hedef hücrelerin içeriği değiştirilir.
+Hedef hücrelerin içeriği herhangi bir içeriği Çıkar veya tıklamak yerine **Standart** araç çubuğunda **Yapıştır**'ı tıklarsanız değiştirilir.
 
 {{% /alert %}} 
 
 ## **Tek Satır Kopyalama**
 
- Aspose.Cells şunları sağlar:[kopya satırı](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\) ) yöntemi[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)sınıf. Bu yöntem, formüller, değerler, yorumlar, hücre formatları, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kaynak satırdan hedef satıra kopyalar.
+Aspose.Cells, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) sınıfının [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) metodunu sağlar. Bu metod, kaynak satırdan hedef satıra formüller, değerler, yorumlar, hücre biçimleri, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kopyalar.
 
- bu[kopya satırı](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) yöntemi aşağıdaki parametreleri alır:
+[copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) metodu şu parametreleri alır:
 
--  kaynak[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)nesne,
-- kaynak satır dizini ve
+- kaynak [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) nesnesi,
+- kaynak satır dizini, ve
 - hedef satır dizini.
 
- Bir sayfadaki bir satırı veya başka bir sayfaya kopyalamak için bu yöntemi kullanın. bu[kopya satırı](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) yöntemi, Microsoft Excel'e benzer şekilde çalışır. Yani, örneğin, hedef satırın yüksekliğini açıkça ayarlamanıza gerek yoktur, o değer de kopyalanır.
+Bu metodu bir sayfa içinde bir satırı kopyalamak veya başka bir sayfaya kopyalamak için kullanın. [copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) metodu Microsoft Excel'de kullanılan şekilde çalışır. Örneğin, hedef satırın yüksekliğini açıkça ayarlamak zorunda değilsiniz, bu değer de kopyalanır.
 
-Aşağıdaki örnek, çalışma sayfasındaki bir satırın nasıl kopyalanacağını gösterir. Bir şablon Microsoft Excel dosyası kullanır ve ikinci satırı kopyalar (veriler, biçimlendirme, yorumlar, resimler vb. İle birlikte) ve aynı çalışma sayfasındaki 12. satıra yapıştırır.
+Aşağıdaki örnek, bir çalışsayfasında bir satır kopyalamayı gösterir. Bir şablon Microsoft Excel dosyası kullanır ve ikinci satırı (veri, biçimlendirme, yorumlar, resimler vb. ile birlikte) kopyalar ve aynı çalışsayfadaki 12. satıra yapıştırır.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-CopyingRows-CopyingRows.java" >}}
 
@@ -40,68 +41,68 @@ Aşağıdaki örnek, çalışma sayfasındaki bir satırın nasıl kopyalanacağ
 
 Aşağıdaki kod çalıştırıldığında aşağıdaki çıktı üretilir.
 
-**Satır, en yüksek düzeyde kesinlik ve doğrulukla kopyalanır** 
+**Satır en yüksek hassasiyet ve doğrulukla kopyalanır** 
 
-![yapılacaklar:resim_alternatif_metin](copying-rows-and-columns_1.png)
+![todo:image_alt_text](copying-rows-and-columns_1.png)
 
 {{% alert color="primary" %}} 
 
-Microsoft Excel'de olduğu gibi, satırları kopyalarken ilgili resimleri, çizelgeleri veya diğer çizim nesnelerini not etmek önemlidir:
+Satırları kopyalarken, ilgili resimler, grafikler veya diğer çizim nesnelerinin Microsoft Excel ile aynı olduğu gibi dikkate alınması önemlidir:
 
-1. Kaynak satır dizini 5 ise, resim, grafik vb. üç satırda bulunuyorsa kopyalanır (başlangıç satır dizini 4 ve bitiş satır dizini 6'dır).
-1. Hedef satırdaki mevcut resimler, çizelgeler vb. kaldırılmayacaktır.
+1. Kaynak satır dizini 5 ise, resim, grafik vb., başlangıç satır dizini 4 ve bitiş satır dizini 6 içinde bulunduruluyorsa kopyalanır.
+1. Var olan resimler, grafikler vb. hedef satırdan silinmez.
 
 {{% /alert %}} 
 
-## **Birden Çok Satırı Kopyalama**
+## **Birden Fazla Satır Kopyalama**
 
- kullanırken birden çok satırı yeni bir hedefe de kopyalayabilirsiniz.[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)) kopyalanacak kaynak satır sayısını belirtmek için tamsayı türünde ek bir parametre alan yöntem.
+[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)) yöntemini kullanarak bir tamsayı türünde ek bir parametre kullanarak yeni bir hedefe birden çok satır kopyalayabilirsiniz.
 
-Aşağıda, 3 satır veri içeren giriş e-tablosunun bir anlık görüntüsü bulunurken, aşağıda verilen kod parçacığı, 3 satırın tümünü 7. sıradan başlayarak yeni bir konuma kopyalar.
+Aşağıda, 3 veri satırı içeren giriş elektronik tablosunun bir görüntüsü bulunmakta, aşağıdaki kod örneği tüm 3 satırı 7. satırdan başlayarak yeni bir konuma kopyalar.
 
-![yapılacaklar:resim_alternatif_metin](copy-rows-and-columns_3.png)
+![todo:image_alt_text](copy-rows-and-columns_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleRows-CopyingMultipleRows.java" >}}
 
-İşte yukarıdaki kod parçacığını yürüttükten sonra ortaya çıkan elektronik tablo görünümü.
+Yukarıdaki kod örneği yürütüldükten sonra elde edilen elektronik tablo görünümü aşağıda verilmektedir.
 
-![yapılacaklar:resim_alternatif_metin](copy-rows-and-columns_4.png)
+![todo:image_alt_text](copy-rows-and-columns_4.png)
 
-## **Tek Sütunu Kopyalama**
+## **Tek Sütun Kopyalama**
 
- Aspose.Cells şunları sağlar:[kopya sütunu](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\) ) yöntemi[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)Bu yöntem, güncellenmiş referanslarla formüller ve değerler, yorumlar, hücre biçimleri, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kaynak sütundan hedef sütuna kopyalar.
+Aspose.Cells, [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) sınıfının [copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) metodunu sağlar, bu metod kaynak sütundan hedef sütuna formüller (güncellenmiş referanslarla) ve değerler, yorumlar, hücre biçimleri, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kopyalar.
 
- bu[kopya sütunu](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) yöntemi aşağıdaki parametreleri alır:
+[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) metodu şu parametreleri alır:
 
--  kaynak[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)nesne,
-- kaynak sütun dizini ve
-- hedef sütun dizini.
+- kaynak [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) nesnesi,
+- kaynak sütun indeksi ve
+- hedef sütun indeksi.
 
- Kullan[kopya sütunu](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) bir sayfadaki bir sütunu veya başka bir sayfaya kopyalama yöntemi.
+[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) metodunu bir sayfa içinde bir sütunu kopyalamak veya başka bir sayfaya kopyalamak için kullanın.
 
-Bu örnek, bir çalışma sayfasındaki bir sütunu kopyalar ve başka bir çalışma kitabındaki bir çalışma sayfasına yapıştırır.
+Bu örnek, bir çalışma sayfasından bir sütunu kopyalar ve başka bir iş kitabındaki bir çalışma sayfasına yapıştırır.
 
-**Bir sütun bir çalışma kitabından diğerine kopyalanır** 
+**Bir çalışma kitabından bir sütun diğerine kopyalanır** 
 
-![yapılacaklar:resim_alternatif_metin](copying-rows-and-columns_2.png)
+![todo:image_alt_text](copying-rows-and-columns_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-CopyingColumns-CopyingColumns.java" >}}
 
-## **Birden Çok Sütunu Kopyalama**
+## **Birden Çok Sütunun Kopyalanması**
 
- Benzer[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int) ) yöntemi, Aspose.Cells API'leri ayrıca şunları sağlar:[**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int)) yöntemi, birden çok kaynak sütunu yeni bir konuma kopyalamak için kullanılır.
+[**Cells.copyRows**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow(com.aspose.cells.Cells,%20int,%20int)) yöntemine benzer şekilde, Aspose.Cells API'leri ayrıca birden çok kaynak sütunu yeni bir konuma kopyalamak için [**Cells.copyColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns(com.aspose.cells.Cells,%20int,%20int,%20int)) yöntemini sağlar.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleColumns-CopyingMultipleColumns.java" >}}
 
-Kaynak ve sonuçtaki e-tabloların Excel'de nasıl göründüğü aşağıda açıklanmıştır.
+İşte Excel'de kaynak ve sonuç çalışma kitapları nasıl görünür:
 
-![yapılacaklar:resim_alternatif_metin](copy-rows-and-columns_7.png)
+![todo:image_alt_text](copy-rows-and-columns_7.png)
 
-![yapılacaklar:resim_alternatif_metin](copy-rows-and-columns_8.png)
+![todo:image_alt_text](copy-rows-and-columns_8.png)
 
 
-## **Yapıştırma Seçenekleriyle Satırları/Sütunları Yapıştırma**
- Aspose.Cells şimdi sağlıyor[Seçenekleri Yapıştır](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions) fonksiyonları kullanırken[Satırları Kopyala](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions\) ) ve[Sütunları Kopyala](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions\)). Excel'e benzer uygun yapıştırma seçeneklerinin ayarlanmasına izin verir.
+## **Yapıştırma Seçenekleri ile Satır/Sütunları Yapıştırma**
+Aspose.Cells artık [Yapıştırma Seçenekleri](https://reference.aspose.com/cells/java/com.aspose.cells/PasteOptions) sağlar ve aynı zamanda [CopyRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRows\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.CopyOptions,%20com.aspose.cells.PasteOptions\)) ve [CopyColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumns\(com.aspose.cells.Cells,%20int,%20int,%20int,%20com.aspose.cells.PasteOptions\)) fonksiyonlarını kullanırken uygun yapıştırma seçeneklerinin Excel'e benzer şekilde ayarlanmasına izin verir.
 
 
 

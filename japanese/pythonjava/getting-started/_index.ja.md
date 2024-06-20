@@ -1,67 +1,68 @@
-﻿---
-title: 入門
-linktitle: 入門
+---
+title: はじめに
+linktitle: はじめに
 type: docs
 weight: 4
 url: /ja/python-java/getting-started/ 
-keywords: python, excel, instal
-description: セットアップ Aspose.Cells for Python via Java とインストールのガイドライン。
+keywords: 「python、excel、インストール」
+description: Python用Aspose.Cells via Javaのセットアップとインストールガイド。
 ---
-## **システム要求**
- Aspose.Cells for Python via Java はプラットフォームに依存しない API であり、任意のプラットフォーム (Windows、Linux および MacOS) で使用できます。[Python](https://www.python.org/downloads/)がインストールされています。インストールをセットアップする前に、マシンには Java 8 以降のバージョンが必要です。
 
-## **Python バージョン**
+## **システム要件**
+Aspose.Cells for Python via Javaはプラットフォームに依存しないAPIであり、[Python](https://www.python.org/downloads/)がインストールされているWindows、Linux、MacOSなど任意のプラットフォームで使用できます。 インストールする前に、マシンにはJava 8以降のバージョンが必要です。
+
+## **Pythonのバージョン**
 - Python 3.5以上
-## **Java バージョン**
+## **Javaのバージョン**
 - Java 1.8以上
 
 ## **インストール**
 ### **Windows:**
-- **Java をインストールし、JAVA_HOME および PATH 環境変数を設定します。**
-例えば：
-{{< highlight "java" >}}
+- **Javaをインストールし、JAVA_HOMEおよびPATH環境変数を設定します**
+例:
+{{< highlight java >}}
 
 JAVA_HOME=C:\jdk1.8.0_131
 
 PATH=C:\jdk1.8.0_131\bin;
 
 {{< /highlight >}}
-  
-- **pypi から Aspose.Cells for Python via Java をインストールします。**
-Aspose.Cells for Python via Java から簡単に使用できます[ピピ](https://pypi.org/project/aspose-cells/)次のコマンドで。
-{{< highlight "java" >}}
+
+- **pypiからAspose.Cells for Python via Javaをインストールします**
+[pypi](https://pypi.org/project/aspose-cells/)からAspose.Cells for Python via Javaを次のコマンドで簡単に使用できます。
+{{< highlight java >}}
 
  $ pip install aspose-cells
 
 {{< /highlight >}}
 
 ### **Linux:**
-- **インストール Java**
-  
-- **pypi から Aspose.Cells for Python via Java をインストールします。**
-Aspose.Cells for Python via Java から簡単に使用できます[ピピ](https://pypi.org/project/aspose-cells/)次のコマンドで。
-{{< highlight "java" >}}
+- **Javaをインストールします**
+
+- **pypiからAspose.Cells for Python via Javaをインストールします**
+[pypi](https://pypi.org/project/aspose-cells/)からAspose.Cells for Python via Javaを次のコマンドで簡単に使用できます。
+{{< highlight java >}}
 
  $ pip install aspose-cells
 
 {{< /highlight >}}
 
-### **マックOS：**
-- **インストール Java**
-  
-- **pypi から Aspose.Cells for Python via Java をインストールします。**
-Aspose.Cells for Python via Java から簡単に使用できます[ピピ](https://pypi.org/project/aspose-cells/)次のコマンドで。
-{{< highlight "java" >}}
+### **macOS:**
+- **Javaをインストールします**
+
+- **pypiからAspose.Cells for Python via Javaをインストールします**
+[pypi](https://pypi.org/project/aspose-cells/)からAspose.Cells for Python via Javaを次のコマンドで簡単に使用できます。
+{{< highlight java >}}
 
  $ pip install aspose-cells
 
 {{< /highlight >}}
 
-## **Hello World アプリケーションの作成**
+## **Hello Worldアプリケーションの作成**
 
-- という名前のファイルを作成します。**HelloWorldFile.py の作成**次のサンプル コードを使用します。
+- **CreatingHelloWorldFile.py**という名前のファイルを作成し、次のサンプルコードを使用します:
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 
-- 上記のコードを「CreatingHelloWorldFile.py」に保存し、「python CreationHelloWorldFile.py」@コマンド プロンプトを実行します。
+- 上記のコードを"CreatingHelloWorldFile.py"に保存して、「python CreatingHelloWorldFile.py」をコマンドプロンプトで実行します。
 

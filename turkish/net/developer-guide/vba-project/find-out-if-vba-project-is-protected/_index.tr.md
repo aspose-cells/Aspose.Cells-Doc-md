@@ -1,24 +1,25 @@
-﻿---
-title: VBA Projesinin Korumalı olup olmadığını öğrenin
+---
+title: VBA Projesinin Korunup Korunmadığını Bul
 type: docs
 weight: 20
 url: /tr/net/find-out-if-vba-project-is-protected/
 ---
-## **C#'de VBA Projesinin Korunup Korunmadığını öğrenin**
 
- Excel dosyanızın VBA (Visual Basic Applications) Projesinin korumalı olup olmadığını Aspose.Cells ile öğrenebilirsiniz.[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected)Emlak.
+## **VBA Projesinin C# kullanarak korunup korunmadığını bul**
 
-## **Basit kod**
+Aspose.Cells kullanarak, Excel dosyanızın VBA (Görsel Temel Uygulamalar) Projesinin korunup korunmadığını [**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) özelliğini kullanarak bulabilirsiniz.
 
-Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve ardından VBA projesinin korunup korunmadığını kontrol eder. Daha sonra VBA projesini korur ve yine VBA projesinin korunup korunmadığını kontrol eder. Lütfen referans için konsol çıktısına bakın. Koruma öncesi,[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) İadeler**YANLIŞ** ancak korumadan sonra geri döner**doğru**.
+## **Örnek Kod**
+
+Aşağıdaki örnek kod bir çalışma kitabı oluşturur ve ardından VBA projesinin korunup korunmadığını kontrol eder. Daha sonra VBA projesini korur ve tekrar korunup korunmadığını kontrol eder. Bir referans için konsol çıktısına bakınız. Koruma öncesi [**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) **false** döndürürken, koruma sonrası **true** döndürür.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-FindoutifVBAProjectisProtected.cs" >}}
 
-## **Konsol Çıkışı**
+## **Konsol Çıktısı**
 
-Bu, referans için yukarıdaki örnek kodun konsol çıktısıdır.
+Yukarıdaki örnek kodun konsol çıktısı referans için görüntülenmiştir.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 IsProtected - Before Protecting VBA Project: False
 

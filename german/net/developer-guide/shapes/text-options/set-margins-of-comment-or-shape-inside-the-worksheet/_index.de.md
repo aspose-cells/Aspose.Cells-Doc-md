@@ -1,18 +1,19 @@
-﻿---
-title: Legen Sie die Ränder des Kommentars oder der Form innerhalb des Arbeitsblatts fest
+---
+title: Abstände von Kommentaren oder Formen im Arbeitsblatt festlegen
 type: docs
 weight: 1500
 url: /de/net/set-margins-of-comment-or-shape-inside-the-worksheet/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells ermöglicht es Ihnen, die Ränder jeder Form oder jedes Kommentars mit festzulegen[**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/fontsettingcollection/properties/textalignment) Eigentum. Diese Eigenschaft gibt das Objekt von zurück[**Aspose.Cells.Drawing.Texts.ShapeTextAlignment**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment) Klasse, die verschiedene Eigenschaften hat, z[**TopMarginPt**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/topmarginpt), [**LeftMarginPt**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/leftmarginpt), [**BottomMarginPt**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/bottommarginpt), [**RightMarginPt**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rightmarginpt), usw., mit denen der obere, linke, untere und rechte Rand festgelegt werden kann.
+## **Mögliche Verwendungsszenarien**
 
-## **Legen Sie die Ränder des Kommentars oder der Form innerhalb des Arbeitsblatts fest**
+Aspose.Cells ermöglicht es Ihnen, die Ränder einer beliebigen Form oder Kommentars mithilfe der [**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/fontsettingcollection/properties/textalignment) Eigenschaft einzustellen. Diese Eigenschaft gibt das Objekt der [**Aspose.Cells.Drawing.Texts.ShapeTextAlignment**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment) Klasse zurück, das verschiedene Eigenschaften wie [**TopMarginPt**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/topmarginpt), [**LeftMarginPt**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/leftmarginpt), [**BottomMarginPt**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/bottommarginpt), [**RightMarginPt**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rightmarginpt), usw. enthält, die verwendet werden können, um die oberen, linken, unteren und rechten Ränder festzulegen.
 
- Bitte sehen Sie sich den folgenden Beispielcode an. Es lädt die[Beispiel-Excel-Datei](61767851.xlsx) die zwei Formen enthält. Der Code greift nacheinander auf die Formen zu und legt ihre oberen, linken, unteren und rechten Ränder fest. Bitte sehen Sie sich ... an[Excel-Datei ausgeben](61767852.xlsx) generiert durch den Code und Screenshot, der die Auswirkung des Codes auf die Excel-Ausgabedatei zeigt.
+## **Ränder des Kommentars oder der Form innerhalb des Arbeitsblatts festlegen**
 
-![todo: Bild_alt_Text](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
+Bitte sehen Sie sich den folgenden Beispielcode an. Er lädt die [Beispiel-Excel-Datei](61767851.xlsx), die zwei Formen enthält. Der Code greift nacheinander auf die Formen zu und stellt ihre oberen, linken, unteren und rechten Ränder ein. Bitte sehen Sie sich die durch den Code generierte [Ausgabedatei](61767852.xlsx) und den Screenshot an, der die Wirkung des Codes auf die Ausgabedatei zeigt.
+
+![todo:image_alt_text](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
 
 ## **Beispielcode**
 

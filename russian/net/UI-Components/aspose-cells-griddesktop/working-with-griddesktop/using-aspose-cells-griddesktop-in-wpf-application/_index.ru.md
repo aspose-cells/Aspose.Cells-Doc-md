@@ -1,31 +1,34 @@
-﻿---
-title: Использование Aspose.Cells.GridDesktop в приложении WPF
+---
+title: Использование элемента управления Aspose.Cells.GridDesktop в приложении WPF
 type: docs
 weight: 50
-url: /ru/net/using-aspose-cells-griddesktop-in-wpf-application/
+url: /ru/net/aspose-cells-griddesktop/use-aspose-cells-griddesktop-in-wpf-application/
+keywords: GridDesktop,wpf
+description: Эта статья рассказывает, как использовать GridDesktop в приложении WPF.
 ---
+
 {{% alert color="primary" %}} 
 
- В этой статье показано, как использовать конструктор Presentation Foundation (WPF) Windows для Visual Studio для размещения элемента управления Forms Windows, такого как Aspose.Cells.GridDesktop, в приложении WPF.
-Мы будем использовать Visual Studio 2015 для демонстрации процесса, однако вы можете использовать любую версию, включая Visual Studio 2008 или более позднюю версию.
+В этой статье демонстрируется, как использовать конструктор приложений Windows Presentation Foundation (WPF) для Visual Studio для размещения элемента управления Windows Forms, такого как Aspose.Cells.GridDesktop, в приложении WPF. 
+Мы будем использовать Visual Studio 2015 для демонстрации процесса, однако вы можете использовать любую версию, включая Visual Studio 2008 или более поздние.
 
 {{% /alert %}} 
 
-В этом руководстве описан процесс добавления элемента управления Aspose.Cells.GridDesktop в приложение WPF. Вам понадобится любая версия Visual Studio IDE, которая поддерживает разработку WPF, чтобы попробовать это на своей стороне.
-## **Создайте приложение WPF с помощью Visual Studio.**
- Сначала создайте приложение WPF с помощью Visual Studio IDE. Нажмите на**Файл** >> **Новый** >> **Проект** меню и выберите**WPF-приложение** из Templates, назовите проект и нажмите**ХОРОШО**. Вы можете нацелить свой проект на любую платформу .NET выше 2.0, однако вы не можете использовать клиентский профиль .NET Frameworks.
-## **Добавьте ссылки на необходимые пространства имен**
-Добавьте ссылки на следующие сборки, щелкнув правой кнопкой мыши окно «Ссылки в обозревателе решений» и выбрав меню «Добавить ссылку».
+Этот учебник проведет вас через процесс добавления элемента управления Aspose.Cells.GridDesktop в приложение WPF. Вам понадобится любая версия среды разработки Visual Studio, которая поддерживает разработку WPF, чтобы попробовать это на своей стороне.
+## **Создайте приложение WPF с использованием Visual Studio**
+Сначала создайте приложение WPF, используя среду разработки Visual Studio. Щелкните по меню **Файл** >> **Новый** >> **Проект** и выберите **Приложение WPF** из шаблонов, дайте проекту имя и нажмите **OK**. Вы можете ориентировать свой проект на любой .NET Framework выше 2.0, однако вы не можете использовать клиентские профили .NET Frameworks.
+## **Добавьте ссылки на необходимые пространства имен.**
+Добавьте ссылки на следующие сборки,щелкнув правой кнопкой мыши ссылки в окне обозревателя решений и выбрав меню Добавить ссылку.
 
 - Сборка WindowsFormsIntegration (WindowsFormsIntegration.dll).
-- Windows Сборка форм (System.Windows.Forms.dll).
-- Aspose.Cells.Сборка GridDesktop (Aspose.Cells.GridDesktop.dll).
+- Сборка Windows Forms (System.Windows.Forms.dll).
+- Сборка Aspose.Cells.GridDesktop (Aspose.Cells.GridDesktop.dll).
 
-Это действие добавляет в приложение необходимые сборки, т.е. копирует сборки в папку Bin приложения.
-## **Добавьте ссылки на XAML**
-Затем перейдите к файлу XAML и добавьте следующие пространства имен и ссылки на сборки в теге Windows.
+Это действие добавляет необходимые сборки в приложение, копирует их в папку Bin приложения.
+## **Добавьте ссылки на XAML.**
+Затем перейдите к файлу XAML и добавьте следующие пространства имен и ссылки на сборки внутри тега Windows.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
 
@@ -33,13 +36,13 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 {{< /highlight >}}
 
-**Окончательный тег Windows будет выглядеть так, как показано ниже.**
+**Финальный тег Windows будет выглядеть примерно так, как показано ниже.**
 
-![дело:изображение_альтернативный_текст](using-aspose-cells-griddesktop-in-wpf-application_1.png)
+![todo:image_alt_text](using-aspose-cells-griddesktop-in-wpf-application_1.png)
 ## **Добавьте элемент управления Aspose.Cells.GridDesktop в XAML.**
- Просто добавьте приведенный ниже код внутрь тега Grid в XAML.**WindowsFormsHost** Тег используется для размещения Windows управления формами и**гриддесктоп: гриддесктоп** представляет элемент управления Aspose.Cells.GridDesktop. Вы также можете назвать элемент управления, чтобы на него можно было легко ссылаться в коде.
+Просто добавьте следующий код внутрь тега Grid в XAML. Тег **WindowsFormsHost** используется для размещения элемента управления Windows Forms, а тег **gridDesktop:GridDesktop** представляет элемент управления Aspose.Cells.GridDesktop. Вы также можете назвать элемент управления, чтобы его можно было легко ссылаться в коде.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <WindowsFormsHost Loaded="FrameworkElement_OnLoaded">
 
@@ -53,14 +56,14 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 {{< /highlight >}}
 
-**Окончательный XAML будет выглядеть следующим образом.** 
+**Финальное XAML будет выглядеть следующим образом.** 
 
-![дело:изображение_альтернативный_текст](using-aspose-cells-griddesktop-in-wpf-application_2.png)
-## **Используйте Aspose.Cells.GridDesktop**
-Теперь мы можем получить доступ и использовать элемент управления Aspose.Cells.GridDesktop в файле .cs, как и любые другие приложения Windows Forms. Чтобы не усложнять демонстрацию, мы просто загружаем образец электронной таблицы в элемент управления Aspose.Cells.GridDesktop и сохраняем его обратно. Кроме того, мы использовали событие FrameworkElement_OnLoaded для запуска следующих операторов.
+![todo:image_alt_text](using-aspose-cells-griddesktop-in-wpf-application_2.png)
+## **Используйте Aspose.Cells.GridDesktop.**
+Теперь мы можем получить доступ и использовать элемент управления Aspose.Cells.GridDesktop в файле .cs так же, как любые другие приложения Windows Forms. Для демонстрации простоты мы просто загружаем образец электронной таблицы в элемент управления Aspose.Cells.GridDesktop и сохраняем его обратно. Более того, мы использовали событие FrameworkElement_OnLoaded для запуска следующих операторов.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-UsingGridDesktopInWpf-MainWindow.xaml-UsingGridDesktopInWpf.cs" >}}
-## **Построить и запустить**
- Теперь создайте и запустите приложение, используя**F5** или же**Начинать** кнопку в пользовательском интерфейсе Visual Studio.
+## **Соберите и запустите.**
+Теперь соберите и запустите приложение, используя **F5** или кнопку **Запуск** на пользовательском интерфейсе Visual Studio.

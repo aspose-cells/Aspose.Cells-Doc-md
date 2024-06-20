@@ -1,20 +1,21 @@
-﻿---
-title: StreamProvider で Html を保存する
+---
+title: StreamProviderを使用してHTMLを保存する
 type: docs
 weight: 80
 url: /ja/net/convert-excel-to-html-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-画像や図形を含む Excel ファイルを html ファイルに変換する場合、次の 2 つの問題に直面することがよくあります。
-1. Excelファイルをhtmlストリームに保存するときに、画像と形状をどこに保存する必要がありますか。
-1. デフォルト パスを例外パスに置き換えます。
+画像と形を含むExcelファイルをHTMLファイルに変換すると、次の2つの問題に直面することがよくあります。
+1. HTMLストリームにエクセルファイルを保存する際、画像やシェイプをどこに保存すべきか
+1. デフォルトのパスを期待されるパスに置き換える
 
-この記事では、実装方法について説明します[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)を設定するためのインターフェース[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)財産。このインターフェイスを実装することにより、HTML の生成中に作成されたリソースを特定の場所またはメモリ ストリームに保存できるようになります。
+この記事では、[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) インターフェイスを実装して[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) プロパティを設定する方法について説明します。このインターフェースを実装することで、HTML生成中に作成されたリソースを特定の場所またはメモリストリームに保存することができます。
 
 {{% /alert %}} 
 
-これは、の使用法を示すメイン コードです。[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)財産
+[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) プロパティの使用法を示す主要なコードです。
 
 
 
@@ -22,7 +23,7 @@ url: /ja/net/convert-excel-to-html-with-streamprovider/
 
 
 
-ここにコードがあります*ExportStreamProvider*実装するクラス[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)上記のコード内で使用されるインターフェイス。
+上記のコード内で使用される[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) インターフェイスを実装する*ExportStreamProvider* クラスのコードです。
 
 
 

@@ -1,20 +1,21 @@
-﻿---
+---
 title: Сохранить HTML с помощью StreamProvider
 type: docs
 weight: 80
 url: /ru/net/convert-excel-to-html-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-При преобразовании полей Excel, содержащих изображения и фигуры, в файлы html мы часто сталкиваемся со следующими двумя проблемами:
-1. Где мы должны сохранять изображения и фигуры при сохранении файла excel в поток html.
-1. Замените путь по умолчанию на исключенный путь.
+При преобразовании файлов Excel, содержащих изображения и формы, мы часто сталкиваемся с следующими двумя проблемами:
+1. Где следует сохранять изображения и фигуры при сохранении файла Excel в HTML-поток.
+1. Заменять путь по умолчанию на ожидаемый путь.
 
- В этой статье объясняется, как реализовать[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) интерфейс для настройки[Хтмлсавеоптионс. StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) имущество. Внедрив этот интерфейс, вы сможете сохранять созданные ресурсы во время генерации HTML в ваших конкретных местах или потоках памяти.
+В этой статье объясняется, как реализовать интерфейс [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) для установки свойства [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider). Реализуя этот интерфейс, вы сможете сохранять созданные ресурсы во время генерации HTML в вашем определенном местоположении или потоки памяти.
 
 {{% /alert %}} 
 
- Это основной код, показывающий использование[Хтмлсавеоптионс. StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)имущество
+Это основной код, демонстрирующий использование свойства [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider).
 
 
 
@@ -22,7 +23,7 @@ url: /ru/net/convert-excel-to-html-with-streamprovider/
 
 
 
- Вот код для*ExportStreamProvider* класс, который реализует[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)интерфейс, используемый внутри приведенного выше кода.
+Вот код для *ExportStreamProvider* класса, который реализует интерфейс [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider), используемый в вышеприведенном коде.
 
 
 

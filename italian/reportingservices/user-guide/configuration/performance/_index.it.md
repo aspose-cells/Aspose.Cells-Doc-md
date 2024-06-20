@@ -1,12 +1,13 @@
-﻿---
-title: Prestazione
+---
+title: Prestazioni
 type: docs
 weight: 30
 url: /it/reportingservices/performance/
 ---
- Per migliorare le prestazioni, impostare il parametro Prestazioni su**SU**.
 
-{{< highlight "java" >}}
+Per migliorare le prestazioni, impostare il parametro Performance su **ON**.
+
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="False">
 
@@ -26,11 +27,11 @@ url: /it/reportingservices/performance/
 
 {{< /highlight >}}
 
-I vari parametri prestazionali sono i seguenti:
+I vari parametri di performance sono i seguenti:
 
-- **LimitCellsNumberForMerged** : il numero massimo di celle che possono essere unite. Il valore predefinito 1.000.000. Il valore del parametro viene impostato dall'utente e non è influenzato dall'interruttore del parametro delle prestazioni.
+- **LimitaNumeroCelleFusione**: il numero massimo di celle che possono essere fuse. Il valore predefinito è 1.000.000. Il valore del parametro è impostato dall'utente e non è influenzato dallo switch del parametro di performance. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" LimitCellsNumberForMerged="10000" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -39,9 +40,9 @@ I vari parametri prestazionali sono i seguenti:
 
 
 
-- **IsAutoRowFit** : quando il valore di Performance è**spento** , il valore di IsAutoRowFit è**falso** per impostazione predefinita. Quando il valore del parametro delle prestazioni è**Su** , il valore è**VERO** per impostazione predefinita. Quando il valore della Performance è**Su** , un report di sottoelemento può reimpostare il report del punto sul valore AutoRowFit.
+- **EAutoAdattaRiga**: Quando il valore di Performance è **off**, il valore di IsAutoRowFit è **false** per impostazione predefinita. Quando il valore del parametro di performance è **on**, il valore è **true** per impostazione predefinita. Quando il valore di Performance è **on**, un report di sotto-elemento può reimpostare il report di punto al valore AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -64,9 +65,9 @@ I vari parametri prestazionali sono i seguenti:
 
 
 
-- **IsMerged** : quando il valore di Performance è**spento** , il valore predefinito di IsMerged è**falso** . Quando il valore della Performance è**Su** , il valore predefinito è**VERO** . Quando il valore del parametro Prestazioni è**Su** , un report di sottoelemento può reimpostare il report del punto sul valore AutoRowFit.
+- **ÈFuso**: Quando il valore di Performance è **off**, il valore predefinito di IsMerged è **false**. Quando il valore di Performance è **on**, il valore predefinito è **true**. Quando il parametro di Performance è **on**, un report di sotto-elemento può reimpostare il report di punto al valore AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Performance value="ON" IsAutoRowFit ="True" IsMerged="True" IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -89,9 +90,9 @@ I vari parametri prestazionali sono i seguenti:
 
 
 
-- **IsSetStyle** : quando il valore di Performance è**spento** , il valore predefinito è**falso** . Quando le prestazioni sono**Su** , il valore predefinito è**VERO** . Inoltre, quando Performance è**Su** , un report di sottoelemento può reimpostare il report del punto sul valore AutoRowFit.
+- **ImpostaStile**: Quando il valore di Performance è **off**, il valore predefinito è **false**. Quando Performance è **on**, il valore predefinito è **true**. Inoltre, quando Performance è **on**, un report di sotto-elemento può reimpostare il report di punto al valore AutoRowFit. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 
@@ -114,9 +115,9 @@ I vari parametri prestazionali sono i seguenti:
 
 
 
-- **IsConditionalFormattazione** : Quando le prestazioni sono**spento** , il valore predefinito è**falso** . Quando le prestazioni sono**Su** , il valore predefinito è**VERO** . Inoltre, quando Performance è**Su** , un report di sottoelemento può reimpostare il report del punto sul valore AutoRowFit. Quando il valore del parametro IsSetStyle è impostato su**falso** , il valore di Performance non è valido.
+- **FormattazioneCondizionale**: Quando Performance è **off**, il valore predefinito è **false**. Quando Performance è **on**, il valore predefinito è **true**. Inoltre, quando Performance è **on**, un report di sotto-elemento può reimpostare il report di punto al valore AutoRowFit. Quando il valore del parametro ImpostaStile è impostato su **false**, il valore di Performance non è valido. 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
    <Performance value="ON" IsAutoRowFit ="True" IsMerged="True"  IsSetStyle="True" IsConditionalFormatting ="True">
 

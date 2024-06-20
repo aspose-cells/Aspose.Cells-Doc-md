@@ -1,16 +1,17 @@
-﻿---
-title: Unterbrechen oder brechen Sie die Formelberechnung der Arbeitsmappe ab
+---
+title: Unterbrechen oder Abbrechen der Formelberechnung des Arbeitsblatts
 type: docs
 weight: 30
 url: /de/java/interrupt-or-cancel-the-formula-calculation-of-workbook/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells bietet einen Mechanismus zum Unterbrechen oder Abbrechen der Formelberechnung der Arbeitsmappe mithilfe der Methode interrupt() der[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) Klasse. Dies ist nützlich, wenn die Formelberechnung der Arbeitsmappe zu viel Zeit in Anspruch nimmt und Sie ihre Verarbeitung abbrechen möchten.
+## **Mögliche Verwendungsszenarien**
 
-## **Unterbrechen oder brechen Sie die Formelberechnung der Arbeitsmappe ab**
+Aspose.Cells bietet eine Möglichkeit, die Formelberechnung der Arbeitsmappe mithilfe der Methode „interrupt()“ der Klasse [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) zu unterbrechen oder abzubrechen. Dies ist nützlich, wenn die Formelberechnung der Arbeitsmappe zu viel Zeit in Anspruch nimmt und Sie deren Verarbeitung abbrechen möchten.
 
-Der folgende Beispielcode implementiert die[**vorherBerechnen()**](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationmonitor#beforeCalculate(int,%20int,%20int)) Methode der[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor)Klasse. Innerhalb dieser Methode findet es den Zellennamen mithilfe von Zeilen- und Spaltenindexparametern. Wenn der Zellenname B8 ist, unterbricht es den Berechnungsprozess, indem es die Methode AbstractCalculationMonitor.interrupt() aufruft. Einmal die konkrete Klasse von[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor)Klasse implementiert ist, wird ihre Instanz zugewiesen[**Berechnungsoptionen.Berechnungsmonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#CalculationMonitor)Eigentum. Endlich,[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)) wird durch Vorbeigehen aufgerufen[**Berechnungsoptionen**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationOptions)als Parameter. Bitte sehen Sie sich ... an[Beispiel-Excel-Datei](51740744.xlsx)innerhalb des Codes sowie der Konsolenausgabe des unten angegebenen Codes als Referenz verwendet.
+## **Unterbrechen oder Abbrechen der Formelberechnung des Arbeitsbuchs**
+
+Der folgende Beispielcode implementiert die Methode [**beforeCalculate()**](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationmonitor#beforeCalculate(int,%20int,%20int)) der Klasse [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor). Innerhalb dieser Methode wird der Zellenname mithilfe der Parameter Zeilen- und Spaltenindex ermittelt. Wenn der Zellenname B8 ist, unterbricht er den Berechnungsprozess, indem die Methode AbstractCalculationMonitor.interrupt() aufgerufen wird. Sobald die konkrete Klasse der Klasse [**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor) implementiert ist, wird deren Instanz der Eigenschaft [**CalculationOptions.CalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#CalculationMonitor) zugewiesen. Schließlich wird [**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)) aufgerufen, indem [**CalculationOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationOptions) als Parameter übergeben wird. Bitte sehen Sie sich auch die verwendete [Beispiel Exceldatei](51740744.xlsx) im Code sowie die Konsolenausgabe des folgenden Codes als Referenz an.
 
 ## **Beispielcode**
 
@@ -18,7 +19,7 @@ Der folgende Beispielcode implementiert die[**vorherBerechnen()**](https://refer
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 0----1----3----D2
 

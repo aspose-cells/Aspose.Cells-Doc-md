@@ -1,50 +1,51 @@
-﻿---
-title: Formel-Editor-Fenster
+---
+title: Formeleditorfenster
 type: docs
 weight: 20
 url: /de/reportingservices/formula-editor-window/
 ---
+
 {{% alert color="primary" %}} 
 
-Mit dem Formeleditor können Sie Formeln für einen Bericht erstellen.
+Der Formeleditor ermöglicht es Ihnen, Formeln für einen Bericht zu erstellen.
 
 {{% /alert %}} 
 
-So bearbeiten Sie eine Formel in einer Microsoft-Excel-Zelle:
+Um eine Formel in einer Zelle von Microsoft Excel zu bearbeiten:
 
 1. Wählen Sie in Microsoft Excel eine Zelle aus.
-1.  Öffnen Sie den Dialog Formel bearbeiten durch Anklicken**Formel bearbeiten** auf der Werkzeugleiste.
-   ([Hinzufügen von Reporting Services-Formeln](/cells/de/reportingservices/adding-reporting-services-formulas/) geht durch ein Beispiel, das eine Formel bearbeitet.)
- Der Dialog ist in Abschnitte unterteilt: den Bearbeitungsbereich oben und den Formelbereich unten. Verwenden Sie den Formelbereich, um den Bearbeitungsbereich zu füllen.
-1.  Wählen Sie eine Kategorie (Benutzer, Parameter, Felder usw.) aus der aus**Berichtsfelder** Liste (die linke Liste).
-1.  Wählen Sie den Typ aus**Funktionen** Liste (in der Mitte).
-1.  Wählen Sie eine Option aus**Betreiber** Liste (die rechte Liste).
-1.  Klicken**Einfügung**um den Ausdruck hinzuzufügen**Bearbeiten** Bereich.
-1.  Klicken**Einfügung** wenn der Ausdruck vollständig ist.
- Die Formel wird in die Zelle eingefügt.
+1. Öffnen Sie den Dialog „Formel bearbeiten“, indem Sie auf **Formel bearbeiten** in der Symbolleiste klicken.
+   ([Das Hinzufügen von Reporting Services Formeln](/cells/de/reportingservices/adding-reporting-services-formulas/) durchläuft anhand eines Beispiels das Bearbeiten einer Formel.)
+   Der Dialog ist in zwei Bereiche unterteilt: Der Bearbeitungsbereich oben und der Formelbereich unten. Verwenden Sie den Formelbereich, um den Bearbeitungsbereich zu füllen.
+1. Wählen Sie eine Kategorie (Benutzer, Parameter, Felder usw.) aus der Liste **Berichtsfelder** (linke Liste).
+1. Wählen Sie den Typ aus der Liste **Funktionen** (in der Mitte) aus.
+1. Wählen Sie eine Option aus der Liste **Operatoren** (rechte Liste) aus.
+1. Klicken Sie auf **Einfügen**, um den Ausdruck in den **Bearbeiten**-Bereich hinzuzufügen.
+1. Klicken Sie auf **Einfügen**, wenn der Ausdruck vollständig ist.
+   Die Formel wird in die Zelle eingefügt.
 
-**Der Dialog Formel bearbeiten** 
+**Der Dialog zum Bearbeiten der Formel** 
 
-![todo: Bild_alt_Text](formula-editor-window_1.png)
+![todo:image_alt_text](formula-editor-window_1.png)
 
-Das Dialogfeld „Formel bearbeiten“ ist in Abschnitte unterteilt, die unten beschrieben werden.
-#### **Bereich bearbeiten**
- Dies ist der Bereich, in dem Sie eine Formel erstellen oder bearbeiten. Erstellen Sie eine Formel, indem Sie auf eine der in der aufgelisteten Komponenten doppelklicken**Berichtsfelder**, **Funktionen** oder**Betreiber** Listen. Wenn Sie eine Komponente auswählen, wird auch die erforderliche Syntax eingefügt. Sie können eine Formel auch manuell eingeben.
+Der Dialog „Formel bearbeiten“ ist in unten beschriebene Bereiche unterteilt.
+#### **Bearbeitungsbereich**
+Dies ist der Bereich, in dem Sie eine Formel erstellen oder bearbeiten. Erstellen Sie eine Formel, indem Sie auf eines der Komponenten in den Listen **Berichtsfelder**, **Funktionen** oder **Operatoren** doppelklicken. Wenn Sie eine Komponente auswählen, wird auch die erforderliche Syntax eingefügt. Sie können auch manuell eine Formel eingeben. 
 #### **Formelbereich**
-Der Formelbereich enthält drei Abschnitte, von denen jeder Informationen auflistet, die zum Erstellen einer Formel verwendet werden.
+Der Formelbereich enthält drei Abschnitte, die jeweils Informationen enthalten, die zum Erstellen einer Formel verwendet werden.
 
-- Berichtsfelder – die linke Liste listet alle Datenbankfelder auf, auf die der Bericht zugreifen kann. Es listet auch bereits erstellte Formeln oder Gruppen auf.
-- Funktionen – die mittlere Liste enthält Funktionen, vorgefertigte Prozeduren, die Werte zurückgeben. Sie führen Berechnungen wie AVERAGE, SUM, COUNT, SIN, UPPERCASE und so weiter durch.
-- Operatoren - die in Formeln verwendeten „Aktionsverben“. Operatoren beschreiben eine Operation oder Aktion, die zwischen zwei oder mehr Werten stattfinden soll. Beispiele für Operatoren: addieren, subtrahieren, kleiner als und größer als usw.
-#### **Kontrollen**
-Der Dialog hat mehrere Steuerelemente:
+- Berichtsfelder - Die Liste auf der linken Seite enthält alle für den Bericht zugänglichen Datenbankfelder. Sie enthält auch bereits erstellte Formeln oder Gruppen.
+- Funktionen - Die mittlere Liste enthält Funktionen, vorgefertigte Verfahren, die Werte zurückgeben. Sie führen Berechnungen wie AVERAGE, SUM, COUNT, SIN, UPPERCASE usw. durch.
+- Operatoren - die „handelnden Verben“ in Formeln. Operatoren beschreiben eine Operation oder eine Aktion, die zwischen zwei oder mehr Werten stattfinden soll. Beispiele für Operatoren: addieren, subtrahieren, kleiner als und größer als usw.
+#### **Steuerungen**
+Der Dialog enthält mehrere Steuerelemente:
 
 |**Schaltflächenname** |**Beschreibung** |
-|:- |:- |
-| Rückgängig machen| Macht eine Aktion rückgängig.|
-| Paste| Fügt eine Zeichenfolge aus den im Formelbereich aufgelisteten Komponenten in den Bearbeitungsbereich ein.|
-| Einfügung| Nimmt den Wert im Bearbeitungsbereich und fügt ihn als Formel in eine Zelle ein.|
-| Ausgang| Schließt den Formeleditor.|
+| :- | :- |
+|Undo |Macht eine Aktion rückgängig.|
+|Paste |Fügt eine Zeichenfolge ein, die aus den im Formelbereich aufgelisteten Komponenten besteht, in den Bearbeitungsbereich ein.|
+|Insert |Nimmt den Wert im Bearbeitungsbereich und fügt ihn als Formel in eine Zelle ein.|
+|Exit |Schließt den Formel-Editor.|
 {{% alert color="primary" %}} 
 
 Verwandte Themen:

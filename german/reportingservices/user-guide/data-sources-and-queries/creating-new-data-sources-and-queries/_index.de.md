@@ -1,119 +1,120 @@
-﻿---
-title: Erstellen neuer Datenquellen und Abfragen
+---
+title: Erstellen von neuen Datenquellen und Abfragen
 type: docs
 weight: 20
 url: /de/reportingservices/creating-new-data-sources-and-queries/
 ---
+
 {{% alert color="primary" %}} 
 
- Aspose.Cells.Report.Designer lässt sich in MS Query integrieren und verwendet MS Query als Tool zum Erstellen von Datenquellen und Abfragen. Führen Sie die folgenden Schritte aus, um eine neue Datenquelle und Abfrage in Aspose.Cells.Report.Designer zu erstellen:.
+Aspose.Cells.Report.Designer integriert sich mit MS Query und verwendet MS Query als Werkzeug zur Erstellung von Datenquellen und Abfragen. Befolgen Sie die folgenden Schritte, um eine neue Datenquelle und Abfrage in Aspose.Cells.Report.Designer zu erstellen:. 
 
 {{% /alert %}} 
 
-So erstellen Sie eine neue Datenquelle und Abfrage in Aspose.Cells.Report.Designer:
+Um eine neue Datenquelle und Abfrage in Aspose.Cells.Report.Designer zu erstellen:
 
 1. Öffnen Sie Microsoft Excel.
-1.  Klicken**Datensatz erstellen** in der Symbolleiste Aspose.Cells.Report.Designer:
+1. Klicken Sie auf **Build DataSet** in der Aspose.Cells.Report.Designer-Symbolleiste: 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_1.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_1.png)
 
 
-Alle Datenquellen und Abfragen werden im Dialogfeld aufgelistet.
+Alle Datenquellen und Abfragen werden in der Dialogbox aufgelistet. 
 
-1.  Ein Datenquellenknoten:
+1. Ein Datenquellknoten: 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_2.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_2.png)
 
-1.  Ein Datensatzknoten:
+1. Ein Datensatzknoten: 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_3.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_3.png)
 
-1. Wählen Sie den Wurzelknoten des Baums aus.
-1.  Klicken**Addieren**. 
+1. Wählen Sie den Wurzelknoten des Baums.
+1. Klicken Sie auf **Hinzufügen**. 
 
    **Hinzufügen von Datenquellen und Datensätzen** 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_4.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_4.png)
 
 
 
 
-1.  Rufen Sie im Dialogfenster die Datenquelle auf**SQL Server** und der Datensatz**EmpsSalesDetail**.
-1.  Klicken**Nächste**. 
+1. Benennen Sie in der Dialogbox die Datenquelle **SqlServer** und den Datensatz **EmpsSalesDetail**.
+1. Klicken Sie auf **Weiter**. 
 
    **Hinzufügen von Datensätzen und Datenquellen** 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_5.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_5.png)
 
 
 
- Aspose.Cells.Report.Designer startet die Microsoft-Abfrage.
+Aspose.Cells.Report.Designer startet Microsoft Query. 
 
-1.  Wählen Sie im Dialogfeld „Datenquelle auswählen“ aus**Neue Datenquelle**.
-1.  Klicken**OK**.
- Sie können auch eine vorhandene Datenquelle auswählen.
+1. Wählen Sie im Dialogfeld Datenquelle auswählen **Neue Datenquelle** aus.
+1. Klicken Sie auf **OK**.
+   Sie können auch eine vorhandene Datenquelle auswählen. 
 
-   **Auswählen einer Datenquelle** 
+   **Auswahl einer Datenquelle** 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_6.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_6.png)
 
 
 
 
 1. Geben Sie einen Datenquellennamen ein und wählen Sie SQL Server aus der Dropdown-Liste der Datenbanktreiber aus.
-1.  Klicken**Anschließen**. 
+1. Klicken Sie auf **Verbinden**. 
 
-   **Erstellen einer neuen Datenquelle** 
+   **Eine neue Datenquelle erstellen** 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_7.png)
-
-
-
-
-1. Wählen Sie im Dialogfeld SQL Server-Anmeldung den entsprechenden Wert für jedes Element aus.
- Stellen Sie beispielsweise server auf local ein, wählen Sie die AdventureWorks-Datenbank aus, und wählen Sie aus**Vertrauenswürdige Verbindung verwenden**.
-1.  Klicken**OK**. 
-
-   **Anmeldung am SQL-Server** 
-
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_8.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_7.png)
 
 
 
 
-1.  Klicken**OK**. 
+1. Wählen Sie im SQL Server-Anmeldedialog den geeigneten Wert für jedes Element aus.
+   Setzen Sie beispielsweise den Server auf lokal, wählen Sie die AdventureWorks-Datenbank aus und wählen Sie **Vertrauenswürdige Verbindung verwenden** aus.
+1. Klicken Sie auf **OK**. 
 
-   **Beachten Sie, dass wir jetzt beim SQL-Server angemeldet sind** 
+   **Anmelden beim SQL-Server** 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_9.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_8.png)
 
 
 
-Die neue Datenquelle wird in der angezeigt**Wählen Sie Datenquelle** Dialog.
 
-1.  Wählen Sie die neue Datenquelle aus.
+1. Klicken Sie auf **OK**. 
+
+   **Beachten Sie, dass wir nun beim SQL-Server angemeldet sind** 
+
+![todo:image_alt_text](creating-new-data-sources-and-queries_9.png)
+
+
+
+Die neue Datenquelle wird im Dialogfeld **Datenquelle auswählen** angezeigt. 
+
+1. Wählen Sie die neue Datenquelle aus. 
 
    **Die neue Datenquelle** 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_10.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_10.png)
 
 
 
 
-1.  Klicken**OK** Microsoft Abfrage öffnen.
-1.  Informationen zum Erstellen einer Abfrage in Microsoft-Abfrage finden Sie im Microsoft-Abfrage-Helper. Im folgenden Beispiel erstellen wir eine Abfrage mit Parametern.
+1. Klicken Sie auf **OK**, um Microsoft Query zu öffnen.
+1. Um eine Abfrage in Microsoft Query zu erstellen, beachten Sie den Microsoft Query Helper. Im folgenden Beispiel erstellen wir eine Abfrage mit Parametern. 
 
    **Erstellen einer Abfrage** 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_11.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_11.png)
 
 
 
- Das SQL ist wie folgt:
+Der SQL lautet wie folgt: 
 
 **SQL**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  SELECT C.FirstName + ' ' + C.LastName AS Employee,
 
@@ -182,42 +183,42 @@ P.Name, PS.Name, SOD.UnitPrice, PC.Name
 
 Die Abfrage hat drei Parameter: ReportYear, ReportMonth und EmpID.
 
-1.  Von Microsoft Abfrage's**Datei** Menü, auswählen**Zurück zu Aspose.Cells.Report.Designer**. 
+1. Wählen Sie im **Datei**-Menü von Microsoft Query **Zurück zum Aspose.Cells.Report.Designer** aus. 
 
-   **Zurück zum Berichtsdesigner** 
+   **Rückkehr zum Berichtsdesigner** 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_12.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_12.png)
 
 
 
- Die oben erstellte Datenquelle und Abfrage werden im Dialogfeld aufgelistet.
+Die oben erstellte Datenquelle und Abfrage werden im Dialogfeld aufgelistet. 
 
-1.  Klicken Sie auf die Datenquelle**SQL Server** um seine detaillierten Informationen anzuzeigen.
+1. Klicken Sie auf die Datenquelle **SqlServer**, um ihre ausführlichen Informationen anzuzeigen. 
 
    **Die neue Datenquelle** 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_13.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_13.png)
 
 
 
 
-1.  Klicken Sie auf die Abfrage EmpSalesDetails, um die detaillierten Informationen anzuzeigen.
+1. Klicken Sie auf die Abfrage EmpSalesDetails, um ihre ausführlichen Informationen anzuzeigen. 
 
-   **Klicken Sie auf die Registerkarte „SQL“, um die SQL für die Abfrage anzuzeigen** 
+   **Klicken Sie auf die SQL-Registerkarte, um das SQL für die Abfrage anzuzeigen** 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_14.png)
-
-
-
-**Klicken Sie auf die Registerkarte Spalten, um die Spalten der Abfrage anzuzeigen** 
-
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_15.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_14.png)
 
 
 
-**Klicken Sie auf die Registerkarte Parameter, um die Parameter der Abfrage anzuzeigen** 
+**Klicken Sie auf die Spalten-Registerkarte, um die Spalten der Abfrage anzuzeigen** 
 
-![todo: Bild_alt_Text](creating-new-data-sources-and-queries_16.png)
+![todo:image_alt_text](creating-new-data-sources-and-queries_15.png)
+
+
+
+**Klicken Sie auf die Parameter-Registerkarte, um die Parameter der Abfrage anzuzeigen** 
+
+![todo:image_alt_text](creating-new-data-sources-and-queries_16.png)
 
 
 

@@ -1,23 +1,24 @@
-﻿---
-title: Impostazione delle proprietà ScaleCrop e LinksUpToDate delle proprietà del documento incorporate
+---
+title: Imposta le proprietà ScaleCrop e LinksUpToDate delle proprietà del documento built in
 type: docs
 weight: 320
 url: /it/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties/
 ---
-## **Possibili scenari di utilizzo**
-[ScalaRitaglia](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) e[LinkUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate)sono due proprietà integrate del documento estese definite all'interno del formato OpenXml. Lo scopo di queste proprietà sta seguendo
-## **1) Ritaglia scala**
- Questo elemento indica la modalità di visualizzazione della miniatura del documento. Imposta questo elemento su**VERO** per abilitare il ridimensionamento della miniatura del documento sul display. Imposta questo elemento su**FALSO** per abilitare il ritaglio della miniatura del documento per mostrare solo le sezioni che si adattano alla visualizzazione.
 
-I valori possibili per questo elemento sono definiti dal tipo di dati booleano W3C XML Schema.
-## **2) LinkUpToDate**
- Questo elemento indica se i collegamenti ipertestuali in un documento sono aggiornati. Imposta questo elemento su**VERO** per indicare che i collegamenti ipertestuali vengono aggiornati. Imposta questo elemento su**FALSO** per indicare che i collegamenti ipertestuali sono obsoleti.
+## **Possibili Scenari di Utilizzo**
+[ScaleCrop](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) e [LinksUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate) sono due proprietà del documento integrate estese definite nel formato OpenXml. Lo scopo di queste proprietà è il seguente
+## **1) ScaleCrop**
+Questo elemento indica la modalità di visualizzazione dell'anteprima del documento. Imposta questo elemento su **TRUE** per abilitare il ridimensionamento dell'anteprima del documento per la visualizzazione. Imposta questo elemento su **FALSE** per abilitare il ritaglio dell'anteprima del documento per mostrare solo le sezioni che si adattano alla visualizzazione.
 
-I valori possibili per questo elemento sono definiti dal tipo di dati booleano W3C XML Schema.
+I valori possibili per questo elemento sono definiti dal tipo di dato booleano dello schema XML del W3C.
+## **2) LinksUpToDate**
+Questo elemento indica se i collegamenti ipertestuali in un documento sono aggiornati. Imposta questo elemento su **TRUE** per indicare che i collegamenti ipertestuali sono aggiornati. Imposta questo elemento su **FALSE** per indicare che i collegamenti ipertestuali sono obsoleti.
+
+I valori possibili per questo elemento sono definiti dal tipo di dato booleano dello schema XML del W3C.
 ## **Screenshot che mostra queste proprietà all'interno del file app.xml**
-![cose da fare:immagine_alt_testo](setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties_1.png)
-## **Impostazione delle proprietà ScaleCrop e LinksUpToDate delle proprietà del documento incorporate**
- Il codice di esempio seguente imposta il[ScalaRitaglia](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) e[LinkUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate) proprietà del documento integrate estese della cartella di lavoro. Si prega di controllare[file excel di output](5115500.xlsx)generato con questo codice, cambia la sua estensione in .zip ed estrai il suo contenuto e visualizza l'app.xml come mostrato nello screenshot qui sopra.
+![todo:image_alt_text](setting-scalecrop-and-linksuptodate-properties-of-built-in-document-properties_1.png)
+## **Impostazione delle proprietà ScaleCrop e LinksUpToDate delle proprietà del documento integrato**
+Il codice di esempio seguente imposta le proprietà [ScaleCrop](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) e [LinksUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate) delle proprietà del documento integrato del workbook. Si prega di controllare il [file Excel di output](5115500.xlsx) generato con questo codice, cambiare la sua estensione in .zip ed estrarre i suoi contenuti e visualizzare il file app.xml come mostrato nello screenshot sopra.
 
 
 

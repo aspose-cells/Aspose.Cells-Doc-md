@@ -1,17 +1,18 @@
-﻿---
-title: Définir la zone d'impression
+---
+title: Définir la zone d impression
 type: docs
 weight: 30
 url: /fr/net/set-print-area/
 ---
-## **Aspose.Cells - Définir la zone d'impression**
-Par défaut, seule la zone d'impression intègre toutes les zones de la feuille de calcul qui contiennent des données. Les développeurs peuvent établir une zone d'impression spécifique de la feuille de calcul.
 
-Pour sélectionner une zone d'impression spécifique, utilisez les[Mise en page](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)propriété PrintArea de la classe. Attribuez une plage de cellules qui définit la zone d'impression à cette propriété.
+## **Aspose.Cells - Définir la zone d'impression**
+Par défaut, seule la zone d'impression intègre toutes les zones de la feuille de calcul contenant des données. Les développeurs peuvent définir une zone d'impression spécifique de la feuille de calcul.
+
+Pour sélectionner une zone d'impression spécifique, utilisez la propriété PrintArea de la classe [PageSetup](https://reference.aspose.com/cells/net/aspose.cells/pagesetup). Affectez une plage de cellules qui définit la zone d'impression à cette propriété.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -61,11 +62,11 @@ workbook.Save("test.xlsx");
 
 {{< /highlight >}}
 ## **NPOI - HSSF XSSF - Définir la zone d'impression**
-La méthode Workbook.setPrintArea est disponible pour définir les propriétés de page de la zone d'impression.
+La méthode Workbook.setPrintArea est disponible pour définir les propriétés de la zone d'impression.
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -123,13 +124,13 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger**Définir la zone d'impression** forment l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Définir la zone d'impression** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Définition des options d'impression](/cells/fr/net/setting-print-options/).
+Pour plus de détails, visitez [Paramètres d'impression](/cells/fr/net/setting-print-options/).
 
 {{% /alert %}}

@@ -1,19 +1,20 @@
-﻿---
-title: Erstellen Sie eine Pivot-Tabelle in xlsx4j
+---
+title: Pivot Tabelle in xlsx4j erstellen
 type: docs
 weight: 20
 url: /de/java/create-pivot-table-in-xlsx4j/
 ---
-## **Aspose.Cells – Pivot-Tabelle erstellen**
-So erstellen Sie eine Pivot-Tabelle mit Aspose.Cells:
 
-1. Fügen Sie mithilfe der PutValue/setValue-Methode eines Cell-Objekts einige Daten zu Arbeitsblattzellen hinzu. Sie verwenden auch eine bereits mit Daten gefüllte Vorlagendatei. Die Daten werden als Datenquelle der Pivot-Tabelle verwendet.
-1. Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die add-Methode der PivotTables-Auflistung aufrufen (eingekapselt im Worksheet-Objekt).
-1. Greifen Sie auf das neue PivotTable-Objekt aus der PivotTables-Auflistung zu, indem Sie seinen Index übergeben. # Verwenden Sie eines der im PivotTable-Objekt gekapselten PivotTable-Objekte, um die Tabelle zu verwalten.
+## **Aspose.Cells - Pivot-Tabelle erstellen**
+Um eine Pivot-Tabelle mit Aspose.Cells zu erstellen:
+
+1. Fügen Sie mithilfe der Methode PutValue/setValue eines Cell-Objekts Daten in einige Arbeitsblattzellen ein. Sie können auch eine Vorlagendatei verwenden, die bereits mit Daten gefüllt ist. Die Daten werden als Datenquelle für die Pivot-Tabelle verwendet.
+1. Fügen Sie dem Arbeitsblatt mithilfe der Methode add der PivotTables-Sammlung (die im Worksheet-Objekt enthalten ist) eine Pivot-Tabelle hinzu.
+1. Greifen Sie mithilfe des Index auf das neue PivotTable-Objekt in der PivotTables-Sammlung zu. # Verwenden Sie eines der im PivotTable-Objekt enthaltenen Pivot-Tabellen-Objekte, um die Tabelle zu verwalten.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -157,13 +158,13 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 
 
 {{< /highlight >}}
-## **Laufcode herunterladen**
+## **Laufenden Code herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **Beispielcode herunterladen**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/tables/createpivottable/AsposeCreatePivotTable.java)
 
 {{% alert color="primary" %}} 
 
- Weitere Informationen finden Sie unter[Erstellen Sie Pivot-Tabellen und Pivot-Diagramme](/cells/de/java/create-pivot-tables-and-pivot-charts).
+Besuchen Sie für weitere Details [Pivot-Tabellen und Pivot-Diagramme erstellen](/cells/de/java/create-pivot-tables-and-pivot-charts).
 
 {{% /alert %}}

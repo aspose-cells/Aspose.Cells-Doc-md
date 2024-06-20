@@ -1,19 +1,20 @@
 ---
-title: Pivot Tablonun Harici Bağlantı Veri Kaynağını Alma
+title: Pivot Tablosunun Harici Bağlantı Veri Kaynağını Alın
 type: docs
 weight: 150
 url: /tr/python-net/get-external-connection-data-source-of-pivot-table/
-description: Aspose.Cells for Python via .NET ile Pivot Table'ın harici bağlantı veri kaynağı nasıl alınır?
-keywords: Get External Connection Data Source of Pivot Table.
+description: Aspose.Cells for Python via .NET ile Pivot Tablosunun dış bağlantı veri kaynağını alma
+keywords: Aspose.Cells for Python Excel, Excel Python kütüphanesi, Aspose.Cells for Python Excel Kütüphanesi Kullanarak Pivot Tablosunun Dış Bağlantı Veri Kaynağını Alma
 ---
-##  **Pivot Tablonun Harici Bağlantı Veri Kaynağını Alma**
 
-Aspose.Cells for Python via .NET pivot tablonun harici bağlantı veri kaynağını alma olanağı sağlar. Bunun için API şunu sağlar:[**harici_bağlantı_veri_kaynağı**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/) mülkiyeti[**Pivot tablo**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/) sınıf.[**harici_bağlantı_veri_kaynağı**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/)özellik şunu döndürür:[**Harici Bağlantı**](https://reference.aspose.com/cells/python-net/aspose.cells.externalconnections/externalconnection/) nesne. Aşağıdaki kod parçacığı kullanımını göstermektedir[**PivotTable.external_connection_data_source**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/) Pivot tablonun harici bağlantı veri kaynağını alma özelliği.
+## **Pivot Tablosunun Dış Bağlantı Veri Kaynağını Alma Yöntemi**
 
-##  Basit kod
+Aspose.Cells for Python via .NET, pivot tablosunun dış bağlantı veri kaynağını alabilme olanağı sağlar. Bunun için API, [**external_connection_data_source**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/) özelliğini [**PivotTable**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/) sınıfı içinde sunmaktadır. [**external_connection_data_source**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/) özelliği [**ExternalConnection**](https://reference.aspose.com/cells/python-net/aspose.cells.externalconnections/externalconnection/) nesnesini döndürür. Aşağıdaki kod parçası, pivot tablosunun dış bağlantı veri kaynağını almak için [**PivotTable.external_connection_data_source**](https://reference.aspose.com/cells/python-net/aspose.cells.pivot/pivottable/external_connection_data_source/) özelliğinin nasıl kullanılacağını göstermektedir.
+
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PivotTables-PivotTableGetExternalConnectionDataSource-1.py" >}}
 
-Kod pasajında kullanılan kaynak dosya referans amacıyla eklenmiştir.
+Kod örneğinde kullanılan kaynak dosya, referans için ekte bulunmaktadır.
 
-[Kaynak dosyası](104398862.xlsx)
+[Kaynak Dosya](104398862.xlsx)

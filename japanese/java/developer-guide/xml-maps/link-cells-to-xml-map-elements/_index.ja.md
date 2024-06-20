@@ -1,20 +1,21 @@
-﻿---
-title: Cells を XML マップ要素にリンク
+---
+title: セルをXML Map要素にリンク
 type: docs
 weight: 50
 url: /ja/java/link-cells-to-xml-map-elements/
 ---
-## **考えられる使用シナリオ**
 
-Aspose.Cells を使用して、セルを XML マップ要素にリンクできます。[**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String)) この目的のためのメソッド。
+## **可能な使用シナリオ**
 
-## **Cells を XML マップ要素にリンク**
+Aspose.Cellsを使用して、セルをXMLマップ要素にリンクできます。この目的のためには[**Cells.LinkToXmlMap()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#linkToXmlMap(java.lang.String,%20int,%20int,%20java.lang.String))メソッドを使用してください。
 
-次のサンプル コードは、[ソースエクセルファイル](5472518.xlsx)これは XML マップを含み、セル A1、B2、C3、D4、E5、および F6 を XML マップ要素 FIELD1、FIELD2、FIELD4、FIELD5、FIELD7、および FIELD8 にそれぞれリンクし、ワークブックを次の場所に保存します。[出力エクセルファイル](5472517.xlsx).
+## **セルをXMLマップ要素にリンクする**
 
-開くと[出力エクセルファイル](5472517.xlsx)をクリックし、*開発者 > ソース*ボタンをクリックすると、セルが XML マップ要素にリンクされていることがわかり、この画像に示すように Microsoft Excel によって強調表示されます。
+次のサンプルコードは、XMLマップを含む[ソースエクセルファイル](5472518.xlsx)を読み込み、セルA1、B2、C3、D4、E5、およびF6をそれぞれXMLマップの要素FIELD1、FIELD2、FIELD4、FIELD5、FIELD7、およびFIELD8にリンクし、その後ブックを[出力エクセルファイル](5472517.xlsx)に保存します。
 
-![todo:画像_代替_文章](link-cells-to-xml-map-elements_1.png)
+出力エクセルファイル(5472517.xlsx)を開き、*開発者 > ソース*ボタンをクリックすると、Microsoft ExcelがセルがXMLマップ要素にリンクされていることを示すと同時に、この画像で表示されているように、それらがハイライト表示されます。
+
+![todo:image_alt_text](link-cells-to-xml-map-elements_1.png)
 
 ## **サンプルコード**
 

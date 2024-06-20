@@ -1,26 +1,27 @@
 ---
 title: Вычисление функции IFNA с использованием Aspose.Cells
-description: Как рассчитать функции IFNA с помощью библиотеки Aspose.Cells. Загрузив существующий файл Excel или создав новый файл Excel, мы можем использовать методы, предоставленные Aspose.Cells, для расчета функции IFNA и получения результата. Наконец, мы сохраняем измененный файл Excel на диск.
-keywords: Aspose.Cells, Excel, IFNA functions, calculations
+description: Как вычислить функции IFNA с использованием библиотеки Aspose.Cells. Загрузив существующий файл Excel или создав новый файл Excel, мы можем использовать методы, предоставленные Aspose.Cells, для вычисления функции IFNA и получения результата. Наконец, мы сохраняем измененный файл Excel на диск.
+keywords: Aspose.Cells, Excel, функции IFNA, вычисления
 type: docs
 weight: 40
 url: /ru/net/calculating-ifna-function-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells поддерживает расчет функции IFNA Excel. Функция ЕСНА возвращает указанное вами значение, если формула возвращает значение ошибки #Н/Д; в противном случае возвращает результат формулы.
+Aspose.Cells поддерживает вычисление функции Excel IFNA. Функция IFNA возвращает указанное вами значение, если формула возвращает ошибку #N/A, в противном случае возвращает результат формулы.
 
 {{% /alert %}} 
-##  **Вычисление функции IFNA с использованием Aspose.Cells**
-Следующий пример кода иллюстрирует вычисление функции IFNA по номеру Aspose.Cells.
+## **Вычисление функции IFNA с помощью Aspose.Cells**
+В следующем образце кода показано вычисление функции IFNA с помощью Aspose.Cells.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculateIFNAFunction-CalculateIFNAFunction.cs" >}}
-##  **Консольный вывод**
-Вот консольный вывод приведенного выше примера кода.
+## **Вывод в консоль**
+Вот вывод в консоль вышеуказанного образца кода.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Not found
 

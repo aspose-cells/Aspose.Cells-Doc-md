@@ -1,25 +1,26 @@
 ---
-title: So erstellen Sie Aktiencharts
-description: Erfahren Sie mit der Schritt-für-Schritt-Anleitung von ImproveNet, wie Sie ganz einfach Aktiencharts erstellen. Wir führen Sie durch den Prozess der Einrichtung und Anpassung Ihrer Diagramme, um Marktdaten zu visualisieren und bessere Erkenntnisse zu gewinnen.
-keywords: Create Stock Charts, ImproveNet, Market Data Visualization, Stock Market Analysis, Step-by-Step Guide.
+title: Wie man Aktiendiagramme erstellt
+description: Aktiendiagramme sind eine spezielle Art von Diagramm, die verwendet wird, um Änderungen im Preis gehandelter Vermögenswerte zu verfolgen. In diesem Abschnitt zeigen wir Ihnen, wie Sie mithilfe der Aspose.Cells APIs ganz einfach verschiedene Arten von Aktiendiagrammen erstellen können. Konkret behandeln wir die folgenden Arten von Aktiendiagrammen Das Hoch Tief Schluss (HLC) Aktiendiagramm, das Offen Hoch Tief Schluss (OHLC) Diagramm, das Volumen Hoch Tief Schluss (VHLC) Aktiendiagramm und das Volumen Offen Hoch Tief Schluss (VOHLC) Aktiendiagramm. 
+keywords: Aktiendiagramme erstellen, Aspose.Cells, Markt Datendarstellung, Aktienmarktanalyse, Schritt für Schritt Anleitung.
 type: docs
 weight: 71
 url: /de/net/how-to-create-stock-charts/
 ---
+
 {{% alert color="primary" %}}
 
-In diesem Absatz erfahren Sie, wie Sie ein Aktiendiagramm erstellen, das vier Typen umfasst:
-- **HLC** – High-Low-Close.
-- **OHLC** – Öffnen-Hoch-Tief-Schließen.
-- **VHLC** – Lautstärke-Hoch-Tief-Schließen.
-- **VOHLC**– Volumen-Öffnen-Hoch-Tief-Schließen.
+Dieser Absatz erklärt, wie man ein Aktiendiagramm erstellt, das vier Typen umfasst:
+- **HLC** – Hoch-Tief-Schluss.
+- **OHLC** – Offen-Hoch-Tief-Schluss.
+- **VHLC** – Volumen-Hoch-Tief-Schluss.
+- **VOHLC** – Volumen-Offen-Hoch-Tief-Schluss.
 
 {{% /alert %}}
 
-##  **Was ist ein Aktienchart?**
+## **Was ist ein Aktiendiagramm?**
 
-Aktiencharts sind ein spezielles Diagramm, mit dem die Preisänderungen gehandelter Vermögenswerte verfolgt werden. Vermögenswerte wie Rohstoffe, Aktien und Kryptowährungen. Sie ermöglichen es Ihnen, im Zeitverlauf Höchst- und Tiefstwerte sowie Eröffnungs- und Schlusswerte in einem einzigen Diagramm anzuzeigen. Aspose.Cells bietet 4 Aktiendiagramme. Um diese nutzen zu können, müssen Sie über die richtigen Datensätze verfügen und die Spalten in der richtigen Reihenfolge auswählen.
+Aktiendiagramme sind eine spezielle Art von Diagramm, das verwendet wird, um Änderungen im Preis gehandelter Vermögenswerte zu verfolgen. Vermögenswerte wie Rohstoffe, Aktien und Kryptowährungen. Sie ermöglichen es Ihnen, hohe und niedrige Werte im Laufe der Zeit sowie Eröffnungs- und Schlusswerte in einem Diagramm zu sehen. Aspose.Cells bietet 4 Aktiendiagramme an, und um diese zu verwenden, müssen Sie die richtigen Datensätze zur Verfügung haben und die Spalten in der richtigen Reihenfolge auswählen.
 
- Der folgende Datensatz zeigt die täglichen Handelsinformationen für eine Aktie. Wir werden diese Daten verwenden, um jedes der 4 Aktiendiagramme zu erstellen, die in Aspose.Cells verfügbar sind.
+Der folgende Datensatz zeigt die täglichen Handelsinformationen für eine Aktie. Mit diesen Daten werden wir vier Arten von Aktiendiagrammen erstellen: Hoch-Tief-Schluss (HLC) Aktiendiagramm, Offen-Hoch-Tief-Schluss (OHLC) Diagramm, Volumen-Hoch-Tief-Schluss (VHLC) Aktiendiagramm und Volumen-Offen-Hoch-Tief-Schluss (VOHLC) Aktiendiagramm. 
 
 ![todo:image_alt_text](stock.chart.data.png)

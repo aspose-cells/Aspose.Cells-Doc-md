@@ -3,15 +3,16 @@ title: Convertir JSON a CSV
 type: docs
 weight: 210
 url: /es/python-net/convert-json-to-csv/
-description: Aprenda a convertir archivos json a csv con Aspose.Cells for Python via .NET API.
-keywords: Python Convert json to csv, Convert json to csv Pyton via NET, Export json to csv, Convert json to csv
+description: Aprende cómo convertir un archivo json a csv con la API Aspose.Cells para Python via .NET.
+keywords: Python Convertir json a csv, Convertir json a csv Pyton via NET, Exportar json a csv, Convertir json a csv
 ---
-##  **Convertir JSON a CSV**
 
-Aspose.Cells for Python via .NET admite la conversión de JSON simple y anidado a CSV. Para ello, API proporciona**[Opciones de JsonLayout](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions)** y**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)** clases. El**[Opciones de JsonLayout](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions)**La clase proporciona opciones para el diseño JSON como**[ignore_array_title](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_array_title/)**(ignora el título si la matriz es una propiedad de un objeto) o ** [array_as_table](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions/array_as_table/)**(procesa la matriz como una tabla). El **[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)**La clase procesa el JSON usando las opciones de diseño configuradas con el**[Opciones de JsonLayout](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions)**clase.
+## **Convertir JSON a CSV**
 
-El siguiente ejemplo de código demuestra el uso de**[Opciones de JsonLayout](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions)**y**[JsonUtility](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility)** clases para cargar el[fuente JSON archivo](104398869.json) y genera el[salida del archivo CSV](104398870.csv).
+Aspose.Cells for Python via .NET admite la conversión de JSON simple y anidado a CSV. Para esto, la API proporciona las clases [**JsonLayoutOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions) y [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility). La clase [**JsonLayoutOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions) ofrece opciones para el diseño JSON como [**ignore_array_title**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions/ignore_array_title/) (ignora el título si el array es una propiedad de un objeto) o [**array_as_table**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions/array_as_table/) (procesa el array como una tabla). La clase [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility) procesa el JSON utilizando las opciones de diseño establecidas con la clase [**JsonLayoutOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions).
 
-###  **Código de muestra**
+El siguiente ejemplo de código demuestra el uso de las clases [**JsonLayoutOptions**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonlayoutoptions) y [**JsonUtility**](https://reference.aspose.com/cells/python-net/aspose.cells.utility/jsonutility) para cargar el [archivo JSON fuente](104398869.json) y generar el [archivo CSV de salida](104398870.csv).
+
+### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "LoadingSavingConvertingAndManaging-ConvertJsonToCsv-1.py" >}}

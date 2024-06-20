@@ -1,14 +1,15 @@
-﻿---
-title: Uso de objetos anidados
+---
+title: Usar Objetos Anidados
 type: docs
 weight: 50
 url: /es/net/using-nested-objects/
 ---
-Aspose.Cells admite objetos anidados en marcadores inteligentes, los objetos anidados deben ser simples.**Individual** la clase debe ser definida por el usuario para el siguiente código.
 
-Usamos un archivo de plantilla simple. Consulte la hoja de cálculo del diseñador que contiene algunos marcadores inteligentes anidados.
+Aspose.Cells admite objetos anidados en marcadores inteligentes, los objetos anidados deben ser simples. La clase **Individual** debe ser definida por el usuario para el siguiente código.
 
-{{< highlight "csharp" >}}
+Usamos un archivo de plantilla simple. Vea la hoja de cálculo de diseño que contiene algunos marcadores inteligentes anidados.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -62,6 +63,6 @@ designer.Workbook.Save(FileName);
 
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Using%20Nested%20Object%20%28Aspose.Cells%29.zip)

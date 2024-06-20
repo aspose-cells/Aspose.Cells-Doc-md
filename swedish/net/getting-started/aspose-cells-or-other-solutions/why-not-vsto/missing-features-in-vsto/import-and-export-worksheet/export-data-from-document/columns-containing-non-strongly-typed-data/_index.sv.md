@@ -1,12 +1,13 @@
-﻿---
-title: Kolumner som innehåller icke-starkt typade data
+---
+title: Kolumner som innehåller icke starkt typad data
 type: docs
 weight: 10
 url: /sv/net/columns-containing-non-strongly-typed-data/
 ---
- Om alla värden i kolumnerna i ett kalkylblad inte är starkt skrivna (det betyder att värdena i en kolumn kan ha olika datatyper) så kan vi exportera kalkylbladets innehåll genom att anropa**ExportDataTableAsString** metod av klassen Cells.**ExportDataTableAsString** metoden tar samma uppsättning parametrar som den för**ExportDataTable** metod för att exportera kalkylbladsdata som**Datatabell** objekt.
 
-{{< highlight "csharp" >}}
+Om alla värden i kolumnerna i ett kalkylblad inte är starkt typade (det betyder att värdena i en kolumn kan ha olika datatyper) kan vi exportera kalkylbladets innehåll genom att anropa metoden **ExportDataTableAsString** i Cells-klassen. Metoden **ExportDataTableAsString** tar samma uppsättning parametrar som metoden **ExportDataTable** för att exportera kalkylbladsdata som **DataTable** objekt.
+
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -36,13 +37,13 @@ fstream.Close();
 
 {{< /highlight >}}
 
-Nedan är skärmdumparna:
+Här är skärmbilderna:
 
 ![todo:image_alt_text](picture1.png)
 
 ![todo:image_alt_text](picture2.png)
 
-## **Ladda ner provkod**
+## **Ladda ned provkoden**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
-- [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

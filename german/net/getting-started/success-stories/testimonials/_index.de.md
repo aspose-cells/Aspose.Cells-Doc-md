@@ -1,12 +1,13 @@
-﻿---
-title: Referenzen
+---
+title: Testimonials
 type: docs
 weight: 10
 url: /de/net/testimonials/
 ---
+
 {{% alert color="primary" %}}
 
-Referenzen von Aspose.Cells-Kunden finden Sie unter:
+Für Testimonials von Aspose.Cells Kunden, bitte überprüfen Sie:
 
 [Referenzen](https://downloads.aspose.com/corporate/case-studies/aspose.cells/)
 

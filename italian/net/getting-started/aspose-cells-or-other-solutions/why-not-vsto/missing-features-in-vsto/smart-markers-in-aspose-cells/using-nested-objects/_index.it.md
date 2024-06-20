@@ -1,14 +1,15 @@
-﻿---
-title: Utilizzo di oggetti nidificati
+---
+title: Utilizzo di Oggetti Anidati
 type: docs
 weight: 50
 url: /it/net/using-nested-objects/
 ---
-Aspose.Cells supporta gli oggetti nidificati nei marcatori intelligenti, gli oggetti nidificati dovrebbero essere semplici.**Individuale** la classe deve essere definita dall'utente per il codice sottostante.
 
-Usiamo un semplice file modello. Guarda il foglio di calcolo del designer che contiene alcuni marcatori intelligenti nidificati.
+Aspose.Cells supporta gli oggetti annidati nei marcatori intelligenti, gli oggetti annidati devono essere semplici. La classe Individuale deve essere definita dall'utente per il codice seguente.
 
-{{< highlight "csharp" >}}
+Utilizziamo un file di modello semplice. Consultare il foglio di calcolo del designer che contiene alcuni marcatori intelligenti nidificati.
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 

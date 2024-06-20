@@ -1,39 +1,40 @@
-﻿---
-title: Aspose.Cells.GridJs العمل في الهاتف المحمول
+---
+title: Aspose.Cells.GridJs يعمل على الأجهزة المحمولة
 type: docs
 weight: 250
 url: /ar/net/aspose-cells-gridjs/mobile/
-description: توضح هذه المقالة كيفية استخدام GridJs في الجهاز المحمول.
-keywords: mobile spreadsheet editor, mobile spreadsheet viewer
+description: تصف هذه المقالة كيفية استخدام GridJs على الجهاز المحمول.
+keywords: GridJs، محرر جداول بيانات محمول، عارض جداول بيانات محمول، اكسل، عرض، تحرير، محمول
 ---
-## استخدم GridJs في الجهاز المحمول
 
- يمكنك استخدام GridJs بسلاسة على الجهاز المحمول.
+## استخدام GridJs على الجهاز المحمول
 
-يمكن أن تتكيف GridJs مع شاشة الهاتف المحمول.
+يمكنك استخدام GridJs بسلاسة على الجهاز المحمول. 
 
- قم بتشغيل[ عرض GridJs](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "demo of GridJs ")
+يمكن لـ GridJs أن يتكيف مع شاشة الجوال.
 
-المنفذ الافتراضي للمشروع التجريبي هو 24262.
+شغل [عرض توضيحي لـ GridJs ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs "عرض توضيحي لـ GridJs")
 
- تحتاج إلى الوصول إلى الصفحة من خلال طريقة IP على الجهاز المحمول http: // localhost: 24262 / GridJs2 / List.
+منفذ المشروع التجريبي الافتراضي هو 24262 
 
-يمكنك استخدام أداة صغيرة مثل: وكيل iisexpress.
+تحتاج إلى الوصول إلى الصفحة من خلال الطريقة المباشرة على الجهاز المحمول http://localhost:24262/GridJs2/List 
 
-قم بالتثبيت باستخدام الأمر التالي:
+يمكنك استخدام أداة صغيرة مثل: ايسبريس بروكسي.
 
-*npm تثبيت -g iisexpress- الوكيل*
+قم بالتثبيت بالأمر التالي:
+
+*npm install -g iisexpress-proxy*
 
 قم بتشغيل الأمر لإكمال تعيين المنفذ:
 
-*iisexpress-proxy 24262 إلى 82*
+*iisexpress-proxy 24262 to 82*
 
-![ما يجب القيام به: الأمر iisexpress](iisproxy_port_map.png)
+![القيام:أمر  iisexpress command](iisproxy_port_map.png)
 
-ثم يمكننا فتح صفحة الويب التجريبية في متصفح الهاتف المحمول.
+ثم يمكننا فتح صفحة الويب التوضيحية في متصفح الجوال.
 
-انتقل إلى الصفحة http: // yourip: 82 / GridJs2 / List وحدد ملفًا لفتحه.
+انتقل إلى الصفحة http://yourip:82/GridJs2/List وحدد ملفًا لفتحه.
 
-![ما يجب القيام به: التنقل على الشاشة على الهاتف المحمول](gridjs_edit_on_mobile.png)
+![القيام:التنقل على الشاشة عندما تكون على الهاتف المحمول](gridjs_edit_on_mobile.png)
 
-ثم يمكننا القيام بعمليات التحرير كما هو الحال في جهاز الكمبيوتر.
+ثم يمكننا القيام بعمليات التحرير كما في جهاز الكمبيوتر.

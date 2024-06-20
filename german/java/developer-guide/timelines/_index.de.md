@@ -1,18 +1,19 @@
-﻿---
-title: Zeitleiste einfügen
-linktitle: Zeitleisten
+---
+title: Zeitachse einfügen
+linktitle: Zeitachsen
 type: docs
 weight: 170
 url: /de/java/create-timeline/
-description: Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Zeitleiste erstellen.
+description: Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Zeitachse erstellen können.
 ---
-## **Mögliche Nutzungsszenarien**
 
- Anstatt Filter anzupassen, um Datumsangaben anzuzeigen, können Sie eine PivotTable-Zeitachse verwenden – eine dynamische Filteroption, mit der Sie einfach nach Datum/Uhrzeit filtern und mit einem Schieberegler den gewünschten Zeitraum vergrößern können. Microsoft Mit Excel können Sie eine Zeitleiste erstellen, indem Sie eine Pivot-Tabelle auswählen und dann auf klicken*Einfügen > Zeitachse*. Aspose.Cells für Java ermöglicht es Ihnen auch, eine Zeitleiste mit der Methode [**Worksheet.getTimelines.add()**] zu erstellen.
+## **Mögliche Verwendungsszenarien**
 
-## **Erstellen Sie eine Zeitachse zu einer Pivot-Tabelle**
+Anstatt Filter anzupassen, um Daten anzuzeigen, können Sie eine PivotTable-Zeitleiste verwenden - eine dynamische Filteroption, mit der Sie ganz einfach nach Datum/Uhrzeit filtern und den gewünschten Zeitraum mit einer Schiebereglersteuerung vergrößern können. Microsoft Excel ermöglicht es Ihnen, eine Zeitachse zu erstellen, indem Sie eine Pivot-Tabelle auswählen und dann auf *Einfügen > Zeitachse* klicken. Auch Aspose.Cells für Java ermöglicht es Ihnen, eine Zeitachse mit der Methode [**Worksheet.getTimelines.add()**] zu erstellen.
 
- Bitte sehen Sie sich den folgenden Beispielcode an. Es lädt die[Beispiel-Excel-Datei](input.xlsx) die die Pivot-Tabelle enthält. Anschließend erstellt es die Zeitachse basierend auf dem ersten Basis-Pivot-Feld. Schließlich speichert es die Arbeitsmappe in[Ausgang XLSX](output.xlsx) Format. Der folgende Screenshot zeigt die von Aspose.Cells erstellte Zeitleiste in der Excel-Ausgabedatei.
+## **Erstellen Sie eine Zeitleiste für eine Pivottabelle**
+
+Bitte sehen Sie sich den folgenden Beispielcode an. Er lädt die [Beispiel-Excel-Datei](input.xlsx), die die Pivottabelle enthält. Dann erstellt er die Zeitleiste basierend auf dem ersten Basis-Pivottabellenfeld. Schließlich speichert er die Arbeitsmappe im [Ausgabe-XLSX](output.xlsx)-Format. Der folgende Screenshot zeigt die von Aspose.Cells in der Ausgabe-Excel-Datei erstellte Zeitleiste.
 
 <img src="create-timeline-to-a-pivot-table_1.png" width="60%">
 

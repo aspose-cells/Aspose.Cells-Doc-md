@@ -1,88 +1,89 @@
-﻿---
-title: Aspose.Cells オブジェクト モデル
+---
+title: Aspose.Cells オブジェクトモデル
 type: docs
 weight: 20
 url: /ja/python-java/aspose-cells-object-model/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells オブジェクト モデルは、Aspose.Cells クラス ライブラリのオブジェクト間の構造的関係に関する情報を提供します。
+Aspose.Cells オブジェクトモデルは、Aspose.Cells クラスライブラリのオブジェクト間の構造的関係についての情報を提供します。
 
 {{% /alert %}}
 
-Aspose.Cells オブジェクト モデルのトップ レベルの構造を以下に階層的に示します。
+Aspose.Cells オブジェクトモデルのトップレベル構造は、階層的に以下に示されています。
 
-|**Aspose.Cells オブジェクト モデルの最上位構造**|
-|:- |
-|![todo:画像_代替_文章](aspose-cells-object-model_1.png)|
-上の図からわかるように、オブジェクト モデルのルートは Workbook オブジェクトです。紹介目的で、いくつかのオブジェクトの簡単な説明を以下に示します。
+|**Aspose.Cells オブジェクトモデルのトップレベル構造**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_1.png)|
+上記の図から分かるように、オブジェクトモデルのルートは Workbook オブジェクトです。簡単な説明として、いくつかのオブジェクトについて以下に提供されています。
 
-## **WorksheetCollection/ワークシート**
+## **WorksheetCollection/Worksheet**
 
-Workbook オブジェクトには、以下に示すように、スプレッドシート内のすべての Worksheet オブジェクトのコレクションを表す WorksheetCollection が含まれています。
+Workbook オブジェクトにはスプレッドシートのすべての Worksheet オブジェクトを表す WorksheetCollection が含まれています。
 
-|**ワークシートとワークシート オブジェクト**|
-|:- |
-|![todo:画像_代替_文章](aspose-cells-object-model_2.png)|
+|**Worksheet および Worksheet オブジェクト**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_2.png)|
 
 ## **Cells/Cell**
 
-各 Worksheet オブジェクトには、以下に示すように、ワークシート内のすべての Cell オブジェクトのコレクションを表す Cells オブジェクトが含まれています。
+各 Worksheet オブジェクトには、ワークシート内のすべての Cell オブジェクトを表す Cells オブジェクトが含まれています。
 
-|**Cells & Cell オブジェクト**|
-|:- |
-|![todo:画像_代替_文章](aspose-cells-object-model_3.png)|
-Cell オブジェクトを使用して、1 つのセルの値、スタイル、数式、およびその他のプロパティを取得および設定できます。
+|**Cells および Cell オブジェクト**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_3.png)|
+Cell オブジェクトを使用して、単一のセルの値、スタイル、式などのプロパティを取得および設定できます。
 
-## **ChartCollection/チャート**
+## **ChartCollection/Chart**
 
-Charts オブジェクトは、Worksheet 内のすべての Chart オブジェクトのコレクションを表します。各 Chart オブジェクトは、連携してチャートを作成および管理するいくつかの他のオブジェクトで構成されています。 Aspose.Cells のチャート構造を以下の図に示します。
+Charts オブジェクトはワークシート内のすべての Chart オブジェクトのコレクションを表します。各 Chart オブジェクトは、チャートを作成・管理するために協力しているいくつかの他のオブジェクトから構成されています。Aspose.Cells の Chart 構造は以下の図に示されています。
 
-|**チャートのオブジェクト モデル**|
-|:- |
-|![todo:画像_代替_文章](aspose-cells-object-model_4.png)|
+|**Chart のオブジェクトモデル**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_4.png)|
 
-## **Commentコレクション/コメント**
+## **CommentCollection/Comment**
 
-各 Worksheet オブジェクトには、以下に示すように、ワークシート内のすべての Comment オブジェクトのコレクションを表す Comments オブジェクトも含まれています。
+各 Worksheet オブジェクトには、ワークシート内のすべての Comment オブジェクトを表す Comments オブジェクトが含まれています。
 
-|**コメント & コメント オブジェクト**|
-|:- |
-|![todo:画像_代替_文章](aspose-cells-object-model_5.png)|
-Comment オブジェクトは、ワークシート内の指定されたセルにコメントを追加するために使用されます。
+|**コメントおよびコメントオブジェクト**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_5.png)|
+コメントオブジェクトは、ワークシート内の任意のセルにコメントを追加するために使用されます。
 
 ## **HorizontalPageBreakCollection/HorizontalPageBreak**
 
-以下に示すように、各 Worksheet オブジェクトには、ワークシート内のすべての HorizontalPageBreak オブジェクトのコレクションを表す HorizontalPageBreakCollection が含まれています。
+各ワークシートオブジェクトには、ワークシート内のすべての水平ページブレイクオブジェクトのコレクションを表すHorizontalPageBreakCollectionが含まれています。
 
-|**HPageBreaks & HPageBreak オブジェクト**|
-|:- |
-|![todo:画像_代替_文章](aspose-cells-object-model_6.png)|
-HorizontalPageBreak オブジェクトは、ワークシートに水平改ページを作成するために使用されます。
+|**HPageBreaksおよびHPageBreakオブジェクト**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_6.png)|
+水平ページブレイクオブジェクトは、ワークシート内に水平ページブレイクを作成するために使用されます。
 
-## **HyperlinkCollection/ハイパーリンク**
+## **HyperlinkCollection/Hyperlink**
 
-Worksheet オブジェクトには、次に示すように、ワークシート内のすべての Hyperlink オブジェクトのコレクションを表す HyperlinkCollection も含まれています。
+ワークシートオブジェクトには、ワークシート内のすべてのハイパーリンクオブジェクトのコレクションを表すHyperlinkCollectionも含まれています。
 
-|**ハイパーリンクとハイパーリンク オブジェクト**|
-|:- |
-|![todo:画像_代替_文章](aspose-cells-object-model_7.png)|
-Hyperlink オブジェクトは、ワークシート内のハイパーリンクを表します。開発者は、Hyperlink オブジェクトを使用して、ハイパーリンク アドレスおよびその他の関連プロパティを設定できます。
+|**ハイパーリンクおよびハイパーリンクオブジェクト**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_7.png)|
+ハイパーリンクオブジェクトは、ワークシート内のハイパーリンクを表します。開発者は、ハイパーリンクオブジェクトを使用してハイパーリンクアドレスやその他関連プロパティを設定することができます。
 
-## **PictureCollection/画像**
+## **PictureCollection/Picture**
 
-各 Worksheet オブジェクトには、以下に示すように、ワークシート内のすべての Picture オブジェクトのコレクションを表す PictureCollection オブジェクトが含まれています。
+各ワークシートオブジェクトには、ワークシート内のすべてのピクチャオブジェクトのコレクションを表すPictureCollectionオブジェクトも含まれています。
 
-|**写真と写真オブジェクト**|
-|:- |
-|![todo:画像_代替_文章](aspose-cells-object-model_8.png)|
-Picture オブジェクトは、ワークシート内の画像を表します。 Picture オブジェクトを使用すると、開発者はワークシートに画像を追加できるだけでなく、これらの画像を任意の場所に配置することもできます。画像の境界線やその他のプロパティを設定することもできます。
+|**ピクチャおよびピクチャオブジェクト**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_8.png)|
+ピクチャオブジェクトは、ワークシート内の画像を表します。ピクチャオブジェクトを使用すると、開発者はワークシートに画像を追加するだけでなく、これらの画像を任意の位置に配置することもできます。また、画像の境界線やその他のプロパティを設定することも可能です。
 
 ## **VerticalPageBreakCollection/VerticalPageBreak**
 
-各 Worksheet オブジェクトには、以下に示すように、ワークシート内のすべての VerticalPageBreak オブジェクトのコレクションを表す VerticalPageBreakCollection オブジェクトが含まれています。
+各ワークシートオブジェクトには、ワークシート内のすべての垂直ページブレイクオブジェクトのコレクションを表すVerticalPageBreakCollectionオブジェクトも含まれています。
 
-|**VPageBreaks & VPageBreak オブジェクト**|
-|:- |
-|![todo:画像_代替_文章](aspose-cells-object-model_9.png)|
-VerticalPageBreak オブジェクトは、ワークシートに垂直改ページを作成するために使用されます。
+|**VPageBreaksおよびVPageBreakオブジェクト**|
+| :- |
+|![todo:image_alt_text](aspose-cells-object-model_9.png)|
+垂直ページブレイクオブジェクトは、ワークシート内に垂直ページブレイクを作成するために使用されます。

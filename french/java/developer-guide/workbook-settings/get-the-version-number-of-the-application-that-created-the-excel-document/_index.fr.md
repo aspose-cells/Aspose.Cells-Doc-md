@@ -1,20 +1,21 @@
-﻿---
-title: Obtenir le numéro de version de l'application qui a créé le document Excel
+---
+title: Obtenir le numéro de version de l application qui a créé le document Excel
 type: docs
 weight: 150
 url: /fr/java/get-the-version-number-of-the-application-that-created-the-excel-document/
 ---
+
 {{% alert color="primary" %}}
 
- Souvent, vous devez connaître le numéro de version de l'application qui a créé un document Excel Microsoft. Aspose.Cells fournit le[**Classeur.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version) propriété à cet effet.
+Souvent, vous avez besoin de connaître le numéro de version de l'application qui a créé un document Microsoft Excel. Aspose.Cells fournit la propriété [**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version) à cette fin.
 
 {{% /alert %}}
 
- L'exemple de code suivant illustre l'utilisation du[**Classeur.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)la propriété. Il charge les fichiers Excel créés avec Microsoft Excel 2003, 2007, 2010 et 2013 et imprime le numéro de version de l'application qui a créé ces documents Excel.
+Le code d'exemple suivant montre l'utilisation de la propriété [**Workbook.getBuiltInDocumentProperties().getVersion()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version). Il charge les fichiers Excel créés avec Microsoft Excel 2003, 2007, 2010 et 2013 et affiche le numéro de version de l'application qui a créé ces documents Excel.
 
-Pour votre référence, vous trouverez ci-dessous la sortie de la console créée par l'exemple de code.
+Pour votre référence, voici la sortie de la console que le code d'exemple crée.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Excel 2003 XLS Version: 726502
 

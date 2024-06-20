@@ -1,34 +1,37 @@
-﻿---
-title: Verileri Filtrele
+---
+title: Veri Filtreleme
 type: docs
 weight: 80
-url: /tr/net/filter-data/
+url: /tr/net/aspose-cells-gridweb/filter-data/
+keywords: Bu makale, GridWeb de verileri nasıl filtreleyeceğinizi tanıtır.
+description: Bu makale, GridWeb deki verileri nasıl filtreleyeceğinizi tanıtıyor.
 ---
+
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb, otomatik filtreleme ve özel veri filtreleme özellikleri sağlar. Bu özellikler, bir çalışma sayfasında yalnızca bir listede görüntülemek istediğiniz öğeleri seçmeniz için bir yol sunar. Ayrıca, bir listedeki öğeleri belirlenen kriterlere göre filtreleyebilirsiniz. Filtreleme özellikleriyle metni, sayıları veya tarihleri filtreleyin.
+Aspose.Cells.GridWeb, otomatik filtre ve özel veri filtresi özellikleri sağlar. Bu özellikler, çalışma sayfasında yalnızca listelemek istediğiniz öğeleri seçmenize olanak tanır. Ayrıca, liste öğelerini belirli kriterlere göre filtreleyebilirsiniz. Filtre metni, sayılar veya tarihlerle filtreleme özelliklerini kullanarak verileri filtreleyebilirsiniz.
 
 {{% /alert %}} 
-## **Filtrelerle Çalışmak**
-Bir çalışma sayfası için otomatik filtreyi etkinleştirmek üzere çalışma sayfası AddAutoFilter yöntemini kullanın. Bu metot satır, başlangıç ve bitiş kolon indekslerini kabul eder.
+## **Filtrelerle Çalışma**
+Çalışma sayfası için otomatik filtrelemeyi etkinleştirmek için AddAutoFilter yöntemini kullanın. Bu yöntem, satır, başlangıç ve bitiş sütun dizinlerini kabul eder.
 
-Özel filtreyi etkinleştirmek için, filtrenin uygulanması gereken satır dizinini ve özel filtreleme ölçütlerini kabul eden çalışma sayfası AddCustomFilter yöntemini kullanın.
+Özel filtrelemeyi etkinleştirmek için AddCustomFilter yöntemini kullanın. Bu yöntem, filtrenin uygulanacağı satır dizinini ve özel filtreleme kriterlerini kabul eder.
 
-Aşağıdaki örnek, hem otomatik hem de özel veri filtrelerini uygular. Örnekte, otomatik filtre özelliği etkinleştirilmiş ve filtrelenmiş satırlar bazı kriterlere göre aranmıştır.
+Aşağıdaki örnek, hem otomatik hem de özel veri filtrelerini uygular. Örnekte, otomatik filtre özelliği etkinleştirilir ve filtrelenmiş satırlar belirli kriterlere göre aranır.
 
-**Girdi: ilk çalışma sayfasındaki veri listesi** 
+**Giriş: İlk çalışma sayfasındaki veri listesi** 
 
-![yapılacaklar:resim_alternatif_metin](filter-data_1.jpg)
+![todo:image_alt_text](filter-data_1.jpg)
 
-**Çıktı: otomatik filtreleme özelliğini etkinleştir** 
+**Çıkış: Otomatik filtre özelliğini etkinleştirin** 
 
-![yapılacaklar:resim_alternatif_metin](filter-data_2.jpg)
-### **Otomatik filtre**
+![todo:image_alt_text](filter-data_2.jpg)
+### **Otomatik Filtre**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-SetAutoFilter.aspx-SetAutoFilter.cs" >}}
 ### **Özel Veri Filtresi**
-**Kriterlere göre özel filtrelenmiş veriler** 
+**Kriterlere dayalı özel filtrelenmiş veri** 
 
-![yapılacaklar:resim_alternatif_metin](filter-data_3.jpg)
+![todo:image_alt_text](filter-data_3.jpg)
 
 
 

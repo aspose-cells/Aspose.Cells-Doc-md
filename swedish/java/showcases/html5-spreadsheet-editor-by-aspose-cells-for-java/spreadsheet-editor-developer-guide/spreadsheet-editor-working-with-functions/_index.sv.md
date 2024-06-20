@@ -1,22 +1,23 @@
-﻿---
-title: Kalkylarksredigerare - Arbeta med funktioner
+---
+title: Kalkylbladsredigerare  Arbeta med funktioner
 type: docs
 weight: 60
 url: /sv/java/spreadsheet-editor-working-with-functions/
 ---
-**Innehållsförteckning**
 
-- [Formelbar](#SpreadsheetEditor-WorkingwithFunctions-FormulaBar) 
- - sparaFormulaBarContents
+Innehållsförteckning
+
+- [Formellista](#SpreadsheetEditor-WorkingwithFunctions-FormulaBar) 
+  - saveFormulaBarContents
 - [Infoga en funktion](#SpreadsheetEditor-WorkingwithFunctions-InsertaFunction)
-### **Formelbar**
-Formelfältet är en textruta ovanpå arkområdet. Den visar formeln för aktuell cell och låter användaren redigera den.
+### **Formellista**
+Formellistan är en textruta högst upp på arkivområdet. Den visar formeln för aktuell cell samt låter användaren redigera den.
 
-**Hur det fungerar?**
+**Hur fungerar det?**
 
- När en cell är markerad synkroniseras formelfältet med cellen och formeln visas. Användaren får redigera. När användaren redigerar och trycker på enter-tangenten, JavaScript-funktionen**saveFormulaBarContents** avrättas
+När en cell är vald synkroniseras formellistan med cellen och formeln visas. Användaren får redigera. När användaren redigerar och trycker på Retur-tangenten körs JavaScript-funktionen **saveFormulaBarContents**
 #### **saveFormulaBarContents**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  function saveFormulaBarContents() {
 
@@ -32,8 +33,8 @@ Formelfältet är en textruta ovanpå arkområdet. Den visar formeln för aktuel
 
 {{< /highlight >}}
 ### **Infoga en funktion**
-Så här infogar du en funktion eller formel:
+För att infoga en funktion eller formel:
 
 1. Klicka på en cell för att markera den.
-1.  Klick**Infoga funktion** knappen på toppen.
-1.  Följ instruktionerna på**Infoga funktion** dialog.
+1. Klicka på knappen **Infoga funktion** högst upp.
+1. Följ instruktionerna i dialogrutan för **Infoga funktion**.

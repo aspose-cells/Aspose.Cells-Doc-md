@@ -1,46 +1,47 @@
-﻿---
-title: ワークシートの Cells に罫線を追加する
+---
+title: ワークシートのセルにボーダーを追加する
 type: docs
 weight: 50
 url: /ja/net/add-borders-to-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET を使用すると、ユーザーが Microsoft Excel で実行できるほぼすべてのタスクをアプリケーションから実行できます。 Aspose.Cells は高性能で堅牢であり、Microsoft 自動化とは独立して動作するという追加の利点があります。この記事では、VSTO と比較して、Aspose.Cells for .NET を使用してワークシートのセルに罫線を追加する方法を示します。
+Aspose.Cells for .NETを使用すると、Microsoft Excelでユーザーが実行できるほぼすべてのタスクをアプリケーションで実行できます。Aspose.Cellsは高性能で堅牢であり、Microsoft Automationに依存せずに動作する利点があります。この記事では、Aspose.Cells for .NETを使用してワークシートのセルにボーダーを追加する方法をVSTOと比較して説明します。
 
 {{% /alert %}}
 
-## **Cells に罫線を追加する**
+## **セルにボーダーを追加する**
 
-スプレッドシートのセルに罫線を追加するには、次の手順を実行します。
+スプレッドシートのセルに境界線を追加するには、以下の手順を実行してください:
 
-1. ワークシートを設定します。
- 1. Application オブジェクトをインスタンス化します。
- (VSTO のみ。)
- 1. ワークブックを追加します。
- 1. 最初のシートを取得します。
- 1. 罫線を追加するセルにテキストを追加します。
-1. 境界線を追加:
- 1. 範囲を定義します。
-1. 境界線スタイルを範囲に適用します。
-設定する各範囲と境界線スタイルごとに繰り返します。この例では、ヘアライン、細線、中線、太線を適用しています。
-1. 終了：
- 1. セルが入っている列をテキストに合わせて自動調整します。
- 1. ドキュメントを保存します。
+1. ワークシートを設定します:
+   1. アプリケーションオブジェクトをインスタンス化します。
+      （VSTOの場合に限る。）
+   1. ワークブックを追加する
+   1. 最初のシートを取得する
+   1. ボーダーを追加するセルにテキストを追加します。
+1. 境界線を追加する:
+   1. 範囲を定義する
+   1. 範囲にボーダースタイルを適用します。
+      設定したい各範囲とボーダースタイルごとに繰り返します。この例では、ヘアライン、細線、中線、太線が適用されています。
+1. 終了:
+   1. セルの入っている列を自動調整してテキストをきれいに合わせます。
+   1. ドキュメントを保存する
 
-これらの手順を以下のコードに示します。最初のコード例は、使用してそれらを実装する方法を示しています[VSTO](/cells/ja/net/add-borders-to-cells-in-a-worksheet/)C# または Visual Basic で。 VSTO の例の後に、次を使用して同じ手順を実行する方法を示す例があります。[Aspose.Cells for .NET](/cells/ja/net/add-borders-to-cells-in-a-worksheet/)、再び C# または Visual Basic を使用します。 Aspose.Cells は効率的なコーディングのために最適化されているため、Aspose.Cells のコード サンプルはかなり短くなります。
+これらの手順は、以下のコードで示されています。最初のコード例は[C#またはVisual Basic](/cells/ja/net/add-borders-to-cells-in-a-worksheet/)を使用してVSTOを実装する方法を示しています。VSTOの例の後に、[Aspose.Cells for .NETを使用した](/cells/ja/net/add-borders-to-cells-in-a-worksheet/)同じ手順を実行する方法を示す例があります。こちらもC#またはVisual Basicを使用しています。Aspose.Cellsのコードサンプルは、効率的なコーディングに最適化されているため、長くありません。
 
-このコードは、最初のシートに多数のセルを含む Excel ファイルを生成し、それぞれに異なる境界線があります。
+コードは、最初のシート上のいくつかのセルに異なる境界線を持つExcelファイルを生成します。
 
-![todo:画像_代替_文章](add-borders-to-cells-in-a-worksheet_1.png)
+![todo:image_alt_text](add-borders-to-cells-in-a-worksheet_1.png)
 
-**Cells 縁取りあり。**
+**適用されたボーダーを持つセル。**
 
-### **VSTO を使用して境界線を追加する**
+### **VSTOを使用してボーダーを追加する**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 
@@ -70,13 +71,13 @@ Excel.Worksheet objSheet = (Excel.Worksheet)objBook.Sheets["Sheet1"];
 
 //Put some text into different cells (A2, A4, A6, A8).
 
-objSheet.Cells[2, 1]= "Hair Lines";
+objSheet.Cells[2, 1] = "Hair Lines";
 
-objSheet.Cells[4, 1]= "Thin Lines";
+objSheet.Cells[4, 1] = "Thin Lines";
 
-objSheet.Cells[6, 1]= "Medium Lines";
+objSheet.Cells[6, 1] = "Medium Lines";
 
-objSheet.Cells[8, 1]= "Thick Lines";
+objSheet.Cells[8, 1] = "Thick Lines";
 
 //Define a range object(A2).
 
@@ -186,11 +187,11 @@ ExcelApp.Quit();
 
 {{< /highlight >}}
 
-### **Aspose.Cells for .NET を使用してボーダーを追加する**
+### **Aspose.Cells for .NETを使用してボーダーを追加する**
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  .......
 

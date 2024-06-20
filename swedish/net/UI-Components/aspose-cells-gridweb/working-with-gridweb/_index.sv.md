@@ -1,6 +1,8 @@
-﻿---
-title: Jobbar med GridWeb
+---
+title: Arbete med GridWeb
 type: docs
 weight: 20
-url: /sv/net/working-with-gridweb/
+url: /sv/net/aspose-cells-gridweb/working-with-gridweb/
 ---
+
+

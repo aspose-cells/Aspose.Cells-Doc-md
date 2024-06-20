@@ -1,40 +1,41 @@
-﻿---
+---
 title: ライセンス
 type: docs
 weight: 40
 url: /ja/jasperreports/licensing/
 ---
-{{% alert color="primary" %}}
-
- Aspose.Cells for JasperReports は、[ダウンロードページ](https://downloads.aspose.com/cells/jasperreports).製品の評価版とライセンス版は同じダウンロードです。
-
-評価版に満足したら、[ライセンスを購入する](https://purchase.aspose.com/).ライセンス条項を理解し、同意してください。
-
-ライセンスは、注文の支払いが完了すると、注文ページからダウンロードできます。ライセンスは、デジタル署名されたクリア テキストの XML ファイルです。ライセンスには、クライアント名、購入した製品、ライセンスの種類などの情報が含まれています。ライセンス ファイルの内容を変更しないでください。変更すると、ライセンスが無効になります。
-
-ライセンスを適用するには、次の 2 つの方法があります。
-
-- [setLicense を呼び出す](/cells/ja/jasperreports/licensing/#call-setlicense)
-- [applicationContext.xml でエクスポーター パラメーターを設定する](/cells/ja/jasperreports/licensing/#set-the-licensefile-exporter-parameter-in-applicationcontextxml)
-
-ライセンスをインストールしたら、
-
-- [動作することを確認する](/cells/ja/jasperreports/licensing/#verify-the-license-works).
-
-{{% /alert %}}
-
-## **setLicense を呼び出す**
 
 {{% alert color="primary" %}}
 
-このメソッドは、JasperReports での使用に適用できます。
+Aspose.Cells for JasperReportsは、[ダウンロードページ](https://downloads.aspose.com/cells/jasperreports)から無料で時間制限のない評価版として利用できます。製品の評価版とライセンス版のダウンロードは同じです。
+
+評価版に満足したら、[ライセンスを購入](https://purchase.aspose.com/)することができます。ライセンス規約を理解し、同意することを確認してください。
+
+注文が支払われた後、注文ページからライセンスをダウンロードできます。ライセンスはクライアント名、購入製品、ライセンスタイプなどの情報を含む、明瞭なテキストでデジタルに署名されたXMLファイルです。ライセンスファイルの内容を変更しないでください。これはライセンスを無効にします。
+
+ライセンスを適用する方法には2つの方法があります:
+
+- [setLicenseを呼び出す](/cells/ja/jasperreports/licensing/#call-setlicense)
+- [applicationContext.xmlでエクスポーターパラメーターを設定する](/cells/ja/jasperreports/licensing/#set-the-licensefile-exporter-parameter-in-applicationcontextxml)
+
+ライセンスをインストールした後、
+
+- [動作を確認します](/cells/ja/jasperreports/licensing/#verify-the-license-works)。
 
 {{% /alert %}}
 
-ライセンスをコンピュータにダウンロードし、適切なフォルダ (アプリケーションのフォルダや**JasperReports\lib**).
-次のコードをプロジェクトに追加します。
+## **setLicenseを呼び出す**
 
-{{< highlight "csharp" >}}
+{{% alert color="primary" %}}
+
+このメソッドはJasperReportsと使用するために適用可能です。
+
+{{% /alert %}}
+
+ライセンスをコンピューターにダウンロードし、適切なフォルダーにコピーします（たとえばアプリケーションのフォルダーまたは **JasperReports\lib** など）。
+以下のコードをプロジェクトに追加します。
+
+{{< highlight csharp >}}
 
 import com.aspose.cells.jasperreports.*;
 
@@ -50,20 +51,20 @@ license.setLicense(fstream);
 
 {{< /highlight >}}
 
-## **applicationContext.xml で licenseFile エクスポーター パラメーターを設定します。**
+## **applicationContext.xmlでlicenseFileエクスポーターパラメーターを設定します**
 
 {{% alert color="primary" %}}
 
-このメソッドは、JasperServer での使用に適用できます。
+このメソッドはJasperServerと使用するために適用可能です。
 
 {{% /alert %}}
 
-1. ライセンスをコンピュータにダウンロードし、**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF**フォルダ、場所**\<インストールディレクトリ>**は、JasperServer インストール ディレクトリを表します。
-1. を見つけます**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml**ファイルに次の行を追加します。
+1. Download the license to your computer and copy it to the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF** folder, where **\<InstallDir>** stands for the JasperServer installation directory.
+1. Locate the **\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file and add the following lines:
 
 **XML**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   <bean id="excelACExportParameters" class="com.aspose.cells.jasperreports.ACXlsExportParametersBean">
 
@@ -73,14 +74,14 @@ license.setLicense(fstream);
 
 {{< /highlight >}}
 
-## **ライセンスの動作確認**
+## **ライセンスが正常に動作しているか確認します**
 
-レポートを XLS 形式でエクスポートし、レポートに評価メッセージが含まれているかどうかを確認します。評価メッセージがない場合、ライセンスは正常に機能しています。
+任意のレポートをXLS形式でエクスポートし、レポートに評価メッセージが含まれているかどうかを確認します。 評価メッセージがない場合、ライセンスは正常に動作しています。
 
-**Aspose.Cells for JasperReports 評価モードで評価ワークシートを挿入します** 
+**Aspose.Cells for JasperReportsは評価ワークシートを評価モードで注入します** 
 
-![todo:画像_代替_文章](licensing_1.png)
+![todo:image_alt_text](licensing_1.png)
 
-**有効なライセンスの場合、評価ワークシートはありません** 
+**有効なライセンスがあるときに評価ワークシートは表示されません** 
 
-![todo:画像_代替_文章](licensing_2.png)
+![todo:image_alt_text](licensing_2.png)

@@ -1,97 +1,98 @@
-﻿---
+---
 title: Komma igång
 type: docs
 weight: 10
 url: /sv/java/aspose-cells-for-android-via-java-features/
 ---
-## **Aspose.Cells Android via Java Funktionsöversikt**
-Det här avsnittet ger en jämförelse av tillgängligheten för funktioner mellan Aspose.Cells for Java och Aspose.Cells for Android via Java.
+
+## **Aspose.Cells Android via Java Översikt över funktioner**
+Denna avsnitt innehåller en jämförelse av tillgänglighet av funktioner mellan Aspose.Cells for Java och Aspose.Cells för Android via Java.
 ### **Filformat och konverteringar**
-Många kunder över hela världen litar på de grundliga dokumentimport- och exportfunktionerna som tillhandahålls av Aspose.Cells.
+Många kunder över hela världen förlitar sig på de omfattande funktionerna för importer och export av dokument som tillhandahålls av Aspose.Cells.
 
-|**Funktion**|**Beskrivning**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |:- |
-|Högkvalitativa omvandlingar|Snabbt och tillförlitligt, konvertera mellan flera populära dokumentformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel-arbetsbok (XLS/XLSB)|Den snabbaste och mest kompletta XLS/XLSB formatimplementeringen du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|SpreadsheetML (XLSX, XML)| Aspose.Cells stöder OOXML, Flat OPC och även Excel 2003 XML. Dessutom,<br>komponenten stöder alla större filformat av Excel 2007 och senare versioner, t.ex. XLSX, XLTX, XLSM, XLTM etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Kommaseparerat värde (CSV)|Omfattande stöd för formatet CSV för att interagera med en mängd olika applikationer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|Spara som HTML är tillgänglig.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|OpenDocument (ODS)|Aspose.Cells kan ladda och spara dokument i formatet OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Adobe Portable Document Format (PDF)|Konvertera valfritt kalkylblad till PDF med hög kvalitet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Tabbavgränsad|Ladda och spara dokument i det tabbavgränsade filformatet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Oformaterad text (TXT)|Extrahera enkelt text genom att spara i vanligt textformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Rendering och tryckning**
-Aspose.Cells ger nu högtrogen återgivning av kalkylbladssidor.
+|**Funktion**|**Beskrivning**|**Aspose.Cells for Java**|**Aspose.Cells för Android via Java**|
+| :- | :- | :- | :- |
+|Högkvalitativa konverteringar|Snabbt och pålitligt, konvertera mellan flera populära dokumentformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel Workbook (XLS/XLSB)|Den snabbaste och mest kompletta implementationen av XLS/XLSB-formatet du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)|Aspose.Cells stöder OOXML, Flat OPC och även Excel 2003 XML. Dessutom<br>stöder komponenten alla stora Excel 2007 och senare versioner av filformat, t.ex. XLSX, XLTX, XLSM, XLTM osv.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Kommaavgränsad fil (CSV)|Omfattande stöd för CSV-formatet för att interagera med olika applikationer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|Spara som HTML är tillgängligt.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|OpenDocument (ODS)|Aspose.Cells kan ladda och spara dokument i OpenDocument Spreadsheet (.ods) -format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Adobe Portable Document Format (PDF)|Konvertera vilken kalkylblad som helst till PDF med hög trovärdighet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Tabulerad|Ladda och spara dokument i tabulerat filformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ren text (TXT)|Extrahera enkelt text genom att spara i ren textformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **Rendera och skriv ut**
+Aspose.Cells erbjuder nu högkvalitetsrendering av kalkylbladssidor.
 
 |**Funktion**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
-|Lägg upp dokument till sidor med hög trohet till Microsoft Excel® (exakt som Microsoft Excel® skulle göra det).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Återge kalkylbladssidor till rasterbilder (PNG, JPEG, etc.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Återge kalkylbladssidor till rasterbilder (Flersidiga TIFF, GIF).|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Återge kalkylbladssidor till vektorbilder (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ange bildupplösning, kvalitet, komprimering och andra alternativ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Skriv ut kalkylbladssidor med Java utskriftsinfrastruktur.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Uppdatera sidnummer och andra fält innan du renderar eller skriver ut.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+| :- | :- | :- |
+|Layoutdokument i sidor med hög trovärdighet för Microsoft Excel® (precis som Microsoft Excel® skulle göra).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Rendera kalkylbladssidor till rasterbilder (PNG, JPEG, etc.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Rendera kalkylbladssidor till rasterbilder (Multipage TIFF, GIF).|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Rendera kalkylbladssidor till vektorbilder (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ange upplösning, kvalitet, komprimering och andra inställningar för bilder.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Skriva ut kalkylbladssidor med hjälp av Java-utskriftsinfrastrukturen.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Uppdatera sidnummer och andra fält innan rendering eller utskrift.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Kalkylbladsinnehållsfunktioner**
-Aspose.Cells tillhandahåller en rik objektmodell som består av över 100 publika klasser/gränssnitt, som gör att du kan generera, kombinera, modifiera, analysera eller på annat sätt undersöka laddade kalkylblad. Några nyckelfunktioner ges i tabellen nedan.
+Aspose.Cells tillhandahåller en rik objektmodell som består av över 100 offentliga klasser/gränssnitt, som möjliggör att du programmässigt genererar, kombinerar, modifierar, tolkar eller på annat sätt undersöker inlästa kalkylblad. Några viktiga funktioner ges i tabellen nedan.
 
 |**Funktion**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
+| :- | :- | :- |
 |Importera/exportera data från en Array, ArrayList, ResultSet etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Lägg till en kopia av befintligt kalkylblad (allt innehåll inklusive bilder, diagram, andra objekt etc.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Lägg till en kopia av befintligt kalkylblad (alla innehåll inklusive bilder, diagram, andra objekt etc.)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Kopiera eller flytta kalkylblad inom eller mellan arbetsböcker|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Infoga bilder|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Lägg till bilder|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Skapa diagram|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ställ in gradientbakgrund för diagram med API|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Lägg till kommentarer till celler|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ange gradientbakgrund för diagram med hjälp av API|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Lägg till kommentarer i celler|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Excel 2007 och senare versioner teman och färger|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Skapa automatiska filter|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Implementera datavalideringar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Implementera datasortering|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Skapa auto-filtrar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Implementera data valideringar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Implementera data sortering|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Hitta och ersätt text|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Sammanfoga/dela Cells|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Gruppera/dela upp rader och kolumner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Sammanfoga/dela celler|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Gruppera/avgruppera rader och kolumner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Skapa anpassade sidbrytningar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Infoga/ta bort eller dölj rader, kolumner och ark|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Infoga/radera eller göm rader, kolumner och ark|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Beräkna komplexa Excel-formler|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Stöd för avancerad villkorlig formatering som stöds i Microsoft Excel 2007 och senare versioner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Stöd för avancerad villkorsstyrd formatering som stöds i Microsoft Excel 2007 och senare versioner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Frys/avfrys rutor|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Infoga hyperlänkar för att länka data|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Implementera smarta markörer|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Implementera Smart Markers|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Ange inställningar för dokumentegenskaper|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Skydda/avskydda arbetsblad|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ange avancerade skyddsalternativ som introducerats i Excel XP och senare versioner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Skydda/avskydda kalkylblad|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ange avancerade skyddsalternativ som infördes i Excel XP och senare versioner|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Skapa listobjekt/Microsoft Excel-tabeller|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Skapa delsummor|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Skapa delsummeringar|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Infoga formulärkontroller och andra ritningsformer/objekt|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Skapa pivottabeller och pivotdiagram|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Bevara eller ta bort addin, VBA, makron|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Manipulera namngivna intervall|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Skapa pivottabeller och pivott-diagram|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Bevara eller ta bort tillägg, VBA, makron|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Manipulera namngivna områden|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Skapa anpassade diagram|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Lägg till, bevara eller extrahera OLE-objekt från kalkylarken.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Lägg till, bevara eller extrahera OLE-objekt från kalkylbladen.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Implementera sparklines|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Kryptera filer|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Kalkylbladsformateringsfunktioner**
-Aspose.Cells ger detaljerad programmatisk åtkomst till formateringsegenskaper för alla kalkylbladselement.
+Aspose.Cells ger detaljerad programmatisk åtkomst till formateringsfunktioner på alla kalkylbladselement.
 
 |**Funktion**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
-|Använd alla teckenformatering i cellerna inklusive teckensnitt, färger, effekter, ramar och skuggningar.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Tillämpa alla inställningar för talformat (stöds i Microsoft Excel) för cellerna.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ställ in alla typer av textjusteringsinställningar.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Använd olika typer av teckensnittsinställningar för cellerna.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Använd olika färger på celler, typsnitt, rutnät, grafiska objekt etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Använd olika RTF-formatering i en enda cell.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Tillämpa olika raminställningar på celler.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Applicera olika bakgrundsmönster på celler.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Tillämpa formatinställningar på ett kalkylblad, rad, kolumn eller ett cellintervall etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **PageSetup-funktioner**
-Du kan använda Aspose.Cells för att implementera sidinställningar för kalkylblad.
+| :- | :- | :- |
+|Använd alla teckenformateringar i cellerna, inklusive typsnitt, färger, effekter, ramar och skuggning.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Använd alla inställningar för nummerformat (som stöds i Microsoft Excel) för cellerna.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Använd alla typer av inställningar för textjustering.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Använd olika sorters teckeninställningar för cellerna.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Använd olika färger för celler, typsnitt, rutnät, grafiska objekt, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Använd olika rik textformatering i en enda cell.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Använd olika raminställningar på cellerna.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Använd olika bakgrundsmönster på cellerna.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Använd formatinställningar på en arbetsbok, rad, kolumn eller ett cellområde, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+### **Sidlayoutsfunktioner**
+Du kan använda Aspose.Cells för att implementera sidlayoutalternativ för arbetsblad.
 
 |**Funktion**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
-|:- |:- |:- |
-|Justera sidans orientering, skalning, pappersstorlek.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ange dina marginaler och sidcentrering.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Skapa eller redigera din sidhuvud och/eller sidfot.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Ställ in utskriftsområde, skriv ut titlar eller aktivera rutnät etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+| :- | :- | :- |
+|Justera sidorientering, skalning, pappersstorlek.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ange marginaler och centreringsinställningar för sidan.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Skapa eller redigera sidhuvud och/eller sidfot.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Ange utskriftsområde, utskriftsrubriker eller slå på rutnät etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 

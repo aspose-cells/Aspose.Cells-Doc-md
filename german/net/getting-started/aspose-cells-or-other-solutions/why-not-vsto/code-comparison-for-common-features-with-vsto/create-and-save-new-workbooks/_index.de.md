@@ -1,18 +1,19 @@
-﻿---
-title: Erstellen und speichern Sie neue Arbeitsmappen
+---
+title: Arbeitsmappen erstellen und speichern
 type: docs
 weight: 70
 url: /de/net/create-and-save-new-workbooks/
 ---
-## **Migrationstipps:**
-\1. Workbook-Objekt erstellen
-\2. Holen Sie sich das aktuelle Arbeitsblatt.
-\3. Fügen Sie Text in eine beliebige Zelle ein.
-\4. Speichern Sie die Arbeitsmappe.
+
+## **Migrationshinweise:**
+\1. Arbeitsmappenobjekt erstellen
+\2. Aktuelles Arbeitsblatt erhalten.
+\3. Einfügen von Text in eine Zelle.
+\4. Arbeitsmappe speichern.
 ### **VSTO**
 Nachfolgend finden Sie ein Codebeispiel für VSTO
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Excel.Workbook newWorkbook = this.Application.Workbooks.Add();
 
@@ -26,9 +27,9 @@ Nachfolgend finden Sie ein Codebeispiel für VSTO
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-Unten ist ein Codebeispiel für Aspose.Cells
+Nachfolgend finden Sie ein Codebeispiel für Aspose.Cells
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
   Workbook newWorkbook = new Workbook();
 
@@ -41,5 +42,5 @@ Unten ist ein Codebeispiel für Aspose.Cells
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Download**
+## **Herunterladen**
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Create_SaveNewWorkbooks.Aspose.Cells.zip)

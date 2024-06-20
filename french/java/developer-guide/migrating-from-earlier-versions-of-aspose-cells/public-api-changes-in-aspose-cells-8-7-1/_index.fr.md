@@ -1,21 +1,22 @@
-﻿---
-title: Public API Changements dans Aspose.Cells 8.7.1
+---
+title: Changements dans l API publique dans Aspose.Cells 8.7.1
 type: docs
 weight: 250
 url: /fr/java/public-api-changes-in-aspose-cells-8-7-1/
 ---
+
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.Cells API de la version 8.7.0 à 8.7.1 qui peuvent intéresser les développeurs de modules/applications. Il inclut non seulement les méthodes publiques nouvelles et mises à jour, les classes ajoutées et supprimées, etc., mais également une description de tout changement de comportement dans les coulisses de Aspose.Cells.
+Ce document décrit les changements apportés à l'API Aspose.Cells de la version 8.7.0 à la version 8.7.1 qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement les nouvelles méthodes publiques et mises à jour, les classes ajoutées et supprimées, mais aussi une description de tout changement dans le comportement en coulisses dans Aspose.Cells.
 
 {{% /alert %}} 
-## **API ajoutées**
-### **Ajout de la propriété LookInType.ORIGINAL_VALUES**
- Aspose.Cells Les API prennent déjà en charge le[Rechercher ou rechercher des données](/cells/fr/java/find-or-search-data/)fonctionnalité pour les feuilles de calcul afin de trouver un contenu particulier dans la valeur et la formule de la cellule. Cependant, il manquait à cette fonctionnalité l'aspect du formatage appliqué à la cellule qui peut modifier l'apparence ainsi que la valeur du contenu, rendant par conséquent le texte impossible à rechercher en utilisant la valeur d'origine. Avec cette version des API Aspose.Cells, une autre constante du nom LookInType.ORIGINAL_VALUES a été exposée au public API, ce qui permet de surmonter la situation décrite ci-dessus.
+## **APIs ajoutées**
+### **Propriété LookInType.ORIGINAL_VALUES ajoutée**
+Les APIs Aspose.Cells prennent déjà en charge la fonction [Rechercher ou Rechercher des Données](/cells/fr/java/find-or-search-data/) pour les feuilles de calcul afin de trouver un contenu particulier dans la valeur de la cellule et la formule. Cependant, cette fonctionnalité était dépourvue de l'aspect de mise en forme appliquée à la cellule qui peut modifier l'apparence ainsi que la valeur du contenu, rendant ainsi le texte non recherchable en utilisant la valeur d'origine. Avec cette version des APIs Aspose.Cells, une autre constante du nom de LookInType.ORIGINAL_VALUES a été exposée à l'API publique, ce qui permet de surmonter la situation discutée ci-dessus. 
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails sur cette fonctionnalité, veuillez consulter l'article détaillé sur[Rechercher des données à l'aide des valeurs d'origine](https://docs.aspose.com/cells/java/search-data-using-original-values/)
+Pour plus de détails sur cette fonctionnalité, veuillez consulter l'article détaillé sur [Rechercher des Données en Utilisant les Valeurs d'Origine](https://docs.aspose.com/cells/java/search-data-using-original-values/)
 
 {{% /alert %}} 
 
@@ -23,7 +24,7 @@ Voici le scénario d'utilisation simple.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object
 

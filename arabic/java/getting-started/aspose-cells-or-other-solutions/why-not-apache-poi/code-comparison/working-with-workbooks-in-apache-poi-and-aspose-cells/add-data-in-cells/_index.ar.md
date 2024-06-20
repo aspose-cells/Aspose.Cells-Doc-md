@@ -1,15 +1,16 @@
-﻿---
-title: أضف البيانات في Cells
+---
+title: إضافة بيانات في الخلايا
 type: docs
 weight: 10
 url: /ar/java/add-data-in-cells/
 ---
-## **Aspose.Cells - أضف بيانات في Cells**
-يوفر Aspose.Cells فئة ، مصنف ، يمثل ملف إكسل Microsoft. تحتوي فئة المصنف على مجموعة أوراق العمل التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة ورقة العمل. توفر فئة ورقة العمل مجموعة الخلايا. يمثل كل عنصر في مجموعة Cells عنصرًا من فئة Cell.
+
+## **أسبوز.سيلز - إضافة بيانات في الخلايا**
+يوفر Aspose.Cells فئةً تسمى الكتاب، تمثل ملف Microsoft Excel. تحتوي الفئة Workbook على مجموعة ورق العمل تتيح الوصول إلى كل ورق العمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة Worksheet. توفر فئة Worksheet مجموعة من الخلايا. يُمثل كل عنصر في مجموعة الخلايا كائنًا من فئة الخلية.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -44,12 +45,12 @@ cell.setStyle(style);
 workbook.save(dataDir + "DataInCells_Aspose.xls"); //Saving the Excel file
 
 {{< /highlight >}}
-## **Apache POI SS - HSSF XSSF - أضف البيانات في Cells**
-في Apache POI SS ، يمكن استخدام row.createCell (1) .setCellValue لإضافة البيانات في الخلايا.
+## **Apache POI SS - HSSF XSSF - إضافة بيانات في الخلايا**
+في Apache POI SS، يمكن استخدام row.createCell(1).setCellValue لإضافة بيانات في الخلايا.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = new HSSFWorkbook();
 
@@ -86,13 +87,13 @@ wb.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / cells / أمثلة / featurescomparison / workbook / adddataincells)
+## **تحميل رمز التشغيل**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/workbook/adddataincells)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إضافة البيانات إلى Cells](/java/adding-data-to-cells).
+لمزيد من التفاصيل، قم بزيارة [إضافة بيانات إلى الخلايا](/java/adding-data-to-cells).
 
 {{% /alert %}}

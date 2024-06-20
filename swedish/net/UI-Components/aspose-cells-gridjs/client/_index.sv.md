@@ -1,14 +1,16 @@
 ---
-title: Arbeta med GridJs klientsida
+title: Arbeta med GridJs klient sidan
 type: docs
 weight: 250
 url: /sv/net/aspose-cells-gridjs/client/
-keywords: custom,logo,setting,api
+keywords: GridJs, anpassad, logotyp, inställning, API
+description: Den här artikeln introducerar klientens javascript API er eller funktioner i GridJs.
 ---
-#  Arbeta med GridJs klientsida
- Vi utvecklade GridJs klient baserat på[x-kalkylblad](https://github.com/myliang/x-spreadsheet).
 
-##  huvudstegen är:
+# Arbeta med GridJs klient-sidan
+Vi utvecklade GridJs klienten baserat på [x-spreadsheet](https://github.com/myliang/x-spreadsheet).
+
+## De huvudsakliga stegen är:
 
 - skapa x_spreadsheet-instans
 ```javascript
@@ -43,27 +45,27 @@ xs = x_spreadsheet(id, options)
 			showContextmenu: true
 			})
 ```
-    
--  ladda med json-data
+
+- ladda med json-data
 ```javascript
 xs.loadData(data)
 // the parameters is:
 	data: the json data which describ the data structure for the worksheets
 ```
--  ställ in aktivt ark efter arknamn
+- ställ in aktivt blad med bladnamnet
 ```javascript
 xs.setActiveSheetByName(sheetname)
 // the parameters is:
 	sheetname: the sheet name 
 ```
--  ställ in aktivt ark efter id
+- ställ in aktivt blad med ID
 ```javascript
 xs.setActiveSheet(id)
 // the parameters is:
 	sheetname: the sheet id 
 ```
 
--  ställ in aktiv cell
+- ställ in aktiv cell
 ```javascript
 xs.setActiveCell(row,col);
 // the parameters are:
@@ -71,7 +73,7 @@ xs.setActiveCell(row,col);
 	col: the cell column
 ```
 
-- ställ in information för form-/bildoperation för åtgärd på serversidan
+- ange information för form-/bildoperationer för server-sidan
 ```javascript
 xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActionUrl, imageCopyActionUrl, zindex, loadingGif);
 // the parameters are:
@@ -90,18 +92,18 @@ xs.setImageInfo(imageGetActionUrl, imageAddByUploadActionUrl, imageAddByUrlActio
     xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
 ```
 
-- ställ in information för nedladdningsoperation för åtgärd på serversidan
+- ange information för nerladdningsoperationer för server-sidan
 ```javascript
 xs.setFileDownloadInfo(downloadActionUrl);
 // the parameters are:
 	downloadActionUrl: the get download file action URL in the server side controller
-	 
+
     for example: 
             const fileDownloadUrl = "/GridJs2/Download";
             xs.setFileDownloadInfo(fileDownloadUrl);
 ```
 
-- ställ in info för ole-objektoperation för serversidans åtgärd
+- ange information för ole-objektoperationer för server-sidan
 ```javascript
 xs.setOleDownloadInfo(oleActionUrl);
 // the parameters are:
@@ -110,35 +112,47 @@ xs.setOleDownloadInfo(oleActionUrl);
             const oleDownloadUrl = "/GridJs2/Ole";
             xs.setOleDownloadInfo(oleDownloadUrl);
 ```
-  
 
-_
-##  andra användbara apis
--  Återge vyn
+
+___
+## andra användbara API:er
+- Rendera vyn
 ```javascript
 xs.reRender()
 ```
 
--  få aktivt ark-id
+- hämta aktivt blad-ID
 ```javascript
 xs.getActiveSheet()
 ```
 
--  Ställ in zoomnivå
+- Ställ in zoomnivå
 ```javascript
 xs.setZoomLevel(zoom)
 // the parameters is:
 	zoom:the zoom level ,can be number ,for example 0.5 for zoom out, or 2 for zoom in
 ```
 
--  Ställ in filnamn
+- Ställ in filnamn 
 ```javascript
 xs.setFileName(name)
 // the parameters is:
 	name:the file name with extension ,for example trip.xlsx
 ```
 
-- om fönsternyckelhändelse ska aktiveras för GridJs
+- Callback-funktion för e-postutskick
+```javascript
+xs.setEmailSendCallFunction(callback)
+// the parameters is:
+	callback: the callback function to handle email sending, receives a mailObj parameter
+		callback: function(mailObj) {
+			// mailObj properties:
+			// mailObj.receiver: the email address of the receiver, e.g., 'example@gmail.com'
+			// mailObj.type: the format of the file to be sent, can be 'html', 'xlsx', or 'pdf'
+		}
+```
+
+- om fönstertangentbordshändelser ska aktiveras för GridJs
 ```javascript
 xs.enableKeyEvent(isenable)
 // the parameters is:
@@ -146,13 +160,13 @@ xs.enableKeyEvent(isenable)
 //when has other controls in the same page, you may want to ignore the key event in GridJs 
 ```
 
--  avbind alla händelser kopplade till GridJs, inklusive fönsternyckelhändelse och fönsterstorlekshändelse.
+- avlänka alla händelser som är kopplade till GridJs, inklusive fönstertangentbordshändelse och fönsterändringhändelse
 ```javascript
 xs.destroy()
 ```
 
 
--  ställ in synligt filter för bild/form
+- ställ in synligt filter för bild/form
 ```javascript
     // need to set a function which return true(for visible) or false(for invisible) for the visible filter with the below parameters :
 	sheet:the sheet instance
@@ -168,12 +182,12 @@ xs.destroy()
 		xs.setActiveSheet(xs.getActiveSheet())
 ```
 
--  Hämta den valda bilden/formen, om inget välj kommer att returnera null
+- Hämta den valda bilden/formen, om inget är valt returneras null
 ```javascript
 xs.sheet.selector.getObj()
 ```
 
--  ställ in det valbara tillståndet för bild/form
+- ställ in den valbara statusen för bild/form 
 ```javascript
 const shape=xs.sheet.selector.getObj();
 shape.setControlable(isenable)
@@ -188,14 +202,14 @@ xs.sheet.data.getCell(ri,ci)
 	ri:row index 
 	ci:column index
 ```
--  Få cellstilen
+-  Hämta cellstilen
 ```javascript
 xs.sheet.data.getCellStyle(ri,ci)
     // the parameters are:
 	ri:row index 
 	ci:column index
 ```
--  Ställ in cellvärdet
+-  Ange cellvärdet
 ```javascript
 xs.sheet.data.setCellText(ri,ci,value,state)
     // the parameters are:
@@ -205,17 +219,17 @@ xs.sheet.data.setCellText(ri,ci,value,state)
 	state: input | finished ,if finished ,it will do update action to servside
 ```
 
--  Hämta/ställ in det valda cellintervallet
+-  Få / Ange det valda cellområdet
 ```javascript
 xs.sheet.data.selector.range
 ```
--  Ställ in cellvärdet för den markerade cellen eller cellområdet
+-  Ange cellvärdet för den valda cellen eller cellområdet
 ```javascript
 xs.sheet.data.setSelectedCellText(value)
     // the parameters are:
 	value:the  value for the cell
 ```
--  Ställ in stilen för den markerade cellen eller cellområdet
+-  Ange stilen för den valda cellen eller cellområdet
 ```javascript
 xs.sheet.data.setSelectedCellAttr(attributename,value)
     // the parameters are:
@@ -223,22 +237,22 @@ xs.sheet.data.setSelectedCellAttr(attributename,value)
 	value:the  value for the attribute
 ```
 
--  Slå samman det markerade cellområdet
+-  Sammanfoga det valda cellområdet
 ```javascript
 xs.sheet.data.merge()
 ```
 
--  Ta bort det markerade cellområdet
+-  Avbryt sammanslagningen av det valda cellområdet
 ```javascript
 xs.sheet.data.unmerge()
 ```
--  Ta bort den markerade cellen
+-  Ta bort den valda cellen  
 ```javascript
 xs.sheet.data.deleteCell(type)
     // the parameters are:
 	type:all|format  all: means delete the cell and clear the style ;format means delete the cell value and keep the cell style
 ```
--  Ställ in frysrutan
+-  Ange frysfönstret
 ```javascript
 xs.sheet.data.setFreeze(ri,ci)
     // the parameters are:
@@ -246,28 +260,28 @@ xs.sheet.data.setFreeze(ri,ci)
 	ci:column index
 ```
 
--  Infoga rad eller kolumner vid den markerade cellen
+-  Infoga rad eller kolumner vid den valda cellen  
 ```javascript
 xs.sheet.data.insert(type, n)
     // the parameters are:
 	type: row | column
 	n:the row or column number
 ```
--  Ta bort rad eller kolumner vid den markerade cellen
+-  Ta bort rad eller kolumner vid den valda cellen  
 ```javascript
 xs.sheet.data.delete(type)
     // the parameters are:
 	type: row | column
 ```
 
--  Ställ in bredden för kolumnen
+-  Ange bredden för kolumnen
 ```javascript
 xs.sheet.data.setColWidth(ci,width)
     // the parameters are:
 	ci:column index
 	width:the width for the column
 ```
--  Ställ in bredden för kolumnerna
+-  Ange bredden för kolumnerna
 ```javascript
 xs.sheet.data.setColsWidth(sci,eci,width)
     // the parameters are:
@@ -276,14 +290,14 @@ xs.sheet.data.setColsWidth(sci,eci,width)
 	width:the width for the column
 ```
 
--  Ställ in bredden för alla kolumner
+-  Ange bredden för alla kolumner
 ```javascript
 xs.sheet.data.setAllColsWidth(width)
     // the parameters are:
 	width:the width for the columns
 ```
 
--  Hämta bredden för kolumnen
+-  Få bredden för kolumnen 
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
     // the parameters are:
@@ -291,14 +305,14 @@ xs.sheet.data.cols.sumWidth(min,max)
 	max:the end column index,not include
 ```
 
--  Ställ in höjden för raden
+-  Ange höjden för raden
 ```javascript
 xs.sheet.data.setRowHeight(ri,height)
     // the parameters are:
 	ri:row index
 	height:the height for the row
 ```
--  Ställ in höjden för raderna
+-  Ange höjden för raderna
 ```javascript
 xs.sheet.data.setRowsHeight(sri,eri,height)
     // the parameters are:
@@ -307,7 +321,7 @@ xs.sheet.data.setRowsHeight(sri,eri,height)
 	height:the height for the rows
 ```
 
-- Ställ in höjden för alla rader
+-  Ange höjden för alla rader
 ```javascript
 xs.sheet.data.setAllRowsHeight(height)
     // the parameters are:
@@ -315,7 +329,7 @@ xs.sheet.data.setAllRowsHeight(height)
 ```
 
 
--  Få höjden för raden
+-  Få höjden för raden 
 ```javascript
 xs.sheet.data.rows.sumHeight(min,max)
     // the parameters are:
@@ -323,13 +337,13 @@ xs.sheet.data.rows.sumHeight(min,max)
 	max:the end row index,not include
 ```
 
--  Hämta/ställ in visningsriktningen
+-  Få / Ange visningsriktningen
 ```javascript
 xs.sheet.data.displayRight2Left
 ```
 
-##  evenemangsuppringning
--  vi kan spåra händelserna nedan
+## Händelseåteranrop
+-  Vi kan spåra nedanstående händelser
 ```javascript
  xs.on('cell-selected', (cell, ri, ci) => {
                 console.log('cell selected:', cell, ', ri:', ri, ', ci:', ci);
@@ -352,9 +366,9 @@ xs.sheet.data.displayRight2Left
             });
 ```
 
-##  anpassning
+## Anpassning
 
--  ställ in hemikon och länk
+-  Ange hemikon och länk
 ```javascript
 xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
     // the parameters are:
@@ -363,21 +377,56 @@ xs.sheet.menubar.icon.setHomeIcon(iconUrl,targetUrl)
 	for example ,the below code will set the new logo and with link to google.com
 	xs.sheet.menubar.icon.setHomeIcon('https://forum.aspose.com/letter_avatar_proxy/v4/letter/y/3e96dc/45.png','https://www.google.com')
 ```
--  visa menyraden
+-  Visa menyraden
 ```javascript
 xs.sheet.menubar.show()
 ```
 
--  dölj menyraden
+-  Dölj menyraden
 ```javascript
 xs.sheet.menubar.hide()
 ```
 
+
+## API:er för TextBox-objekt
+TextBox är en speciell typ av form där typen är: "TextBox",
+till exempel: koden nedan kommer att visa vilken form som är textrutan
+
+```javascript
+for (let shape of xs.sheet.data.shapes) {
+    if (shape.type === 'TextBox') {
+        console.log(shape.id + ' is a textbox');
+    }
+}
+```
+
+-  Ändra bakgrundsfärg för textbox-objekt
+```javascript
+    setBackgroundColor(color)
+    // the parameters are:
+        color: the html color value in hex string value
+    //for example,we assume shape 0 is a textbox object,this will set the background color to Yellow 
+     const textbox=xs.sheet.data.shapes[0];
+     textbox.setBackgroundColor('#FFFF00');
+```
+-  Autoändra bakgrundsfärg och textfärg för att få en visuell aktiv effekt
+```javascript
+    setActiveEffect(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will change background color and the text color of the textbox object;if false,restore to original appearence
+```
+
+-  Dölj/visad textinnehåll i textbox-objektet
+```javascript
+    hideText(boolvalue)
+    // the parameters are:
+        boolvalue: if true,will not display the text in the textbox object;if false,restore to original appearence
+```
 
 för detaljerad information kan du kolla exemplet här
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 
 
- 
- 
+
+

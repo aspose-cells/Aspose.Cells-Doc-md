@@ -3,54 +3,55 @@ title: Zeilen und Spalten automatisch anpassen
 type: docs
 weight: 20
 url: /de/net/autofit-rows-and-columns/
-description: In diesem Artikel wird gezeigt, wie Sie Zeilen, Spalten, Zeilen zusammengeführter Zellen und Zeilen in einem Zellbereich mit Aspose.Cells for .NET API automatisch anpassen.
-keywords: Autofit rows, autofit columns, autofit row in a range of cells, autofit rows of merged cells
+description: Dieser Artikel zeigt, wie man Zeilen, Spalten, Zeilen von zusammengeführten Zellen und Zeilen in einem Zellenbereich mittels der Aspose.Cells for .NET API automatisch anpasst.
+keywords: Zeilen automatisch anpassen, Spalten automatisch anpassen, Zeile in einem Zellenbereich automatisch anpassen, Zeilen von zusammengeführten Zellen automatisch anpassen
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel ermöglicht Benutzern die automatische Anpassung der Breite und Höhe von Zellen entsprechend ihrem Inhalt. Diese Funktion ist auch über Aspose.Cells verfügbar, sodass Entwickler die Abmessungen einer Zelle zur Laufzeit automatisch anpassen können.
+Microsoft Excel ermöglicht es Benutzern, die Breite und Höhe von Zellen automatisch an den Inhalt anzupassen. Diese Funktion ist auch über Aspose.Cells verfügbar, so dass Entwickler die Abmessungen einer Zelle zur Laufzeit automatisch anpassen können.
 
 {{% /alert %}}
 
-##  **Automatische Anpassung**
+## **Automatische Anpassung**
 
-Aspose.Cells bietet a[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Klasse, die eine Microsoft Excel-Datei darstellt. Der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Die Klasse bietet eine breite Palette von Eigenschaften und Methoden zum Verwalten eines Arbeitsblatts. Dieser Artikel befasst sich mit der Verwendung von[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Klasse, um Zeilen oder Spalten automatisch anzupassen.
+Aspose.Cells stellt eine [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-Klasse bereit, die eine Microsoft Excel-Datei darstellt. Die [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)-Klasse enthält eine [**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)-Sammlung, die den Zugriff auf jede Arbeitsmappe in einer Excel-Datei ermöglicht. Eine Arbeitsmappe wird durch die [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-Klasse dargestellt. Die [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-Klasse bietet eine breite Palette von Eigenschaften und Methoden zur Verwaltung einer Arbeitsmappe. Dieser Artikel beschäftigt sich mit der Verwendung der [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-Klasse zum automatischen Anpassen von Zeilen oder Spalten.
 
-###  **AutoFit-Reihe – einfach**
+### **AutoFit Zeile - Einfach**
 
- Der einfachste Ansatz zur automatischen Größenanpassung der Breite und Höhe einer Zeile ist der Aufruf von[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) Methode. Der[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index)Die Methode benötigt einen Zeilenindex (der Zeile, deren Größe geändert werden soll) als Parameter.
+Der einfachste Ansatz, um die Breite und Höhe einer Zeile automatisch anzupassen, ist das Aufrufen der Methode [**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) der Klasse [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet). Die Methode [**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) erhält einen Zeilenindex (der zu ändernden Zeile) als Parameter.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsandColumns-1.cs" >}}
 
-###  **So passen Sie eine Zeile automatisch in einen Bereich von Cells ein**
+### **Wie man eine Zeile in einem Zellenbereich automatisch anpasst**
 
- Eine Zeile besteht aus vielen Spalten. Aspose.Cells ermöglicht es Entwicklern, eine Zeile basierend auf dem Inhalt in einem Bereich von Zellen innerhalb der Zeile automatisch anzupassen, indem sie eine überladene Version von aufrufen[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)Methode. Es werden folgende Parameter benötigt:
+Eine Zeile besteht aus vielen Spalten. Aspose.Cells ermöglicht es Entwicklern, eine Zeile basierend auf dem Inhalt in einem Zellenbereich innerhalb der Zeile automatisch anzupassen, indem eine überladene Version der [**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)-Methode aufgerufen wird. Sie nimmt die folgenden Parameter an:
 
-- *Zeilenindex**, der Index der Zeile, die automatisch angepasst werden soll.
-- *Index der ersten Spalte**, der Index der ersten Spalte der Zeile.
-- *Index der letzten Spalte**, der Index der letzten Spalte der Zeile.
+- **Zeilenindex**, der Index der zu automatisch anzupassenden Zeile.
+- **Erster Spaltenindex**, der Index der ersten Spalte der Zeile.
+- **Letzter Spaltenindex**, der Index der letzten Spalte der Zeile.
 
- Der[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)Die Methode überprüft den Inhalt aller Spalten in der Zeile und passt die Zeile dann automatisch an.
+Die Methode [**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1) prüft die Inhalte aller Spalten in der Zeile und passt dann die Zeile automatisch an.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowinSpecificRange-1.cs" >}}
 
-###  **So passen Sie eine Spalte automatisch in einen Bereich von Cells ein**
+### **Wie man eine Spalte in einem Zellenbereich automatisch anpasst**
 
- Eine Spalte besteht aus vielen Zeilen. Es ist möglich, eine Spalte basierend auf dem Inhalt in einem Bereich von Zellen in der Spalte automatisch anzupassen, indem eine überladene Version von aufgerufen wird[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)Methode, die die folgenden Parameter annimmt:
+Eine Spalte besteht aus vielen Zeilen. Es ist möglich, eine Spalte basierend auf dem Inhalt in einem Zellenbereich in der Spalte automatisch anzupassen, indem eine überladene Version der Methode [**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) aufgerufen wird, die die folgenden Parameter verwendet:
 
-- *Spaltenindex**, der Index der Spalte, die automatisch angepasst werden soll.
-- *Index der ersten Zeile**, der Index der ersten Zeile der Spalte.
-- *Index der letzten Zeile**, der Index der letzten Zeile der Spalte.
+- **Spaltenindex**, der Index der zu automatisch anzupassenden Spalte.
+- **Erster Zeilenindex**, der Index der ersten Zeile der Spalte.
+- **Letzter Zeilenindex**, der Index der letzten Zeile der Spalte.
 
- Der[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)Die Methode überprüft den Inhalt aller Zeilen in der Spalte und passt die Spalte dann automatisch an.
+Die [**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)-Methode überprüft den Inhalt aller Zeilen in der Spalte und passt die Spalte dann automatisch an.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitColumninSpecificRange-1.cs" >}}
 
-###  **So passen Sie Zeilen für zusammengeführte Zeilen automatisch an Cells**
+### **Wie man Zeilen für zusammengeführte Zellen automatisch anpasst**
 
- Mit Aspose.Cells ist es möglich, Zeilen auch für Zellen automatisch anzupassen, die mit dem zusammengeführt wurden[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) API. [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)Klasse bietet[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype) Eigenschaft, die zum automatischen Anpassen von Zeilen für verbundene Zellen verwendet werden kann.[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)akzeptiert[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype) aufzählbar, das die folgenden Mitglieder hat.
+Mit Aspose.Cells ist es möglich, Zeilen auch für Zellen, die mit der [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)-API zusammengeführt wurden, automatisch anzupassen. Die [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)-Klasse bietet eine [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)-Eigenschaft, die zum automatischen Anpassen von Zeilen für zusammengeführte Zellen verwendet werden kann. [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype) akzeptiert eine [**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype)-Aufzählung, die die folgenden Elemente enthält.
 
-- Keine: Zusammengeführte Zellen ignorieren.
+- None: Zusammengeführte Zellen ignorieren.
 - FirstLine: Erweitert nur die Höhe der ersten Zeile.
 - LastLine: Erweitert nur die Höhe der letzten Zeile.
 - EachLine: Erweitert nur die Höhe jeder Zeile.
@@ -59,22 +60,22 @@ Aspose.Cells bietet a[**Arbeitsmappe**](https://reference.aspose.com/cells/net/a
 
 {{% alert color="primary" %}}
 
- Sie können auch versuchen, die überladenen Versionen von zu verwenden[**AutoFitRows**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrows) & [**AutoFitColumns**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitcolumns) Methoden, die einen Bereich von Zeilen/Spalten und eine Instanz davon akzeptieren[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) um die ausgewählten Zeilen/Spalten automatisch an Ihre Wünsche anzupassen[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)entsprechend.
+Sie können auch die überladenen Versionen der [**AutoFitRows**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrows)- und [**AutoFitColumns**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitcolumns)-Methoden verwenden, die einen Bereich von Zeilen/Spalten und eine Instanz von [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) akzeptieren, um die ausgewählten Zeilen/Spalten entsprechend Ihrer gewünschten [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) automatisch anzupassen.
 
-Die Signaturen der oben genannten Methoden lauten wie folgt:
+Die Signaturen der genannten Methoden lauten wie folgt:
 
-1.  AutoFitRows(int startRow, int endRow,[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)Optionen)
-1.  AutoFitColumns(int firstColumn, int lastColumn,[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)Optionen)
+1. AutoFitRows(int startRow, int endRow, [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) Optionen)
+1. AutoFitColumns(int firstColumn, int lastColumn, [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) Optionen)
 
 {{% /alert %}}
 
-##  **Wichtig zu wissen**
+## **Wichtig zu wissen**
 
 {{% alert color="primary" %}}
 
-Wenn eine Zelle zusammengeführt wird, werden die AutoFit-Methoden nicht angewendet, was dem gleichen Verhalten wie in Microsoft Excel entspricht. Sie können dies umgehen, indem Sie den automatischen Filter API verwenden. Wenn der Text in einer Zelle außerdem umbrochen wird, wird der[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) Methode wird ebenfalls nicht angewendet. Eine andere Sache, die Sie wissen müssen, ist, dass die*AutoFit*Methoden sind zeitaufwändig. Daher sollten Sie diese Methoden so selten wie möglich aufrufen, um die Effizienz Ihrer Anwendung sicherzustellen.
+Wenn eine Zelle zusammengeführt ist, werden die AutoFit-Methoden nicht angewendet, was dasselbe Verhalten wie in Microsoft Excel ist. Sie können dies umgehen, indem Sie die Autofilter-API verwenden. Außerdem werden die [**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)-Methode nicht angewendet, wenn der Text in einer Zelle umgebrochen ist. Eine weitere Sache, die Sie wissen müssen, ist, dass die *AutoFit*-Methoden zeitintensiv sind. Daher sollten Sie diese Methoden so selten wie möglich aufrufen, um die Effizienz Ihrer Anwendung zu gewährleisten.
 
 {{% /alert %}}
 
-##  **Vorabthemen**
-- [Zeilen automatisch anpassen für zusammengeführte Zeilen Cells](/cells/de/net/autofit-rows-for-merged-cells/)
+## **Erweiterte Themen**
+- [Automatisches Anpassen von Zeilen für zusammengeführte Zellen](/cells/de/net/autofit-rows-for-merged-cells/)

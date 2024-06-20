@@ -1,28 +1,29 @@
-﻿---
-title: إخفاء وإظهار الصفوف والأعمدة
+---
+title: إخفاء وعرض الصفوف والأعمدة
 type: docs
 weight: 50
 url: /ar/java/hiding-and-showing-rows-and-columns/
 ---
+
 ## **مقدمة**
-في بعض الأحيان ، قد يطلب المستخدمون أيضًا إخفاء صفوف أو أعمدة معينة من ورقة العمل ثم عرضها لاحقًا. يوفر Microsoft Excel هذه الميزة وكذلك Aspose.Cells.
+في بعض الأحيان، قد يكون من الضروري للمستخدمين إخفاء صفوف أو أعمدة معينة في ورقة العمل ثم عرضها لاحقًا. يوفر Microsoft Excel هذه الميزة وكذلك Aspose.Cells.
 ## **التحكم في رؤية الصفوف والأعمدة**
- Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على[ورقة العمل](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) صف دراسي. ال[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة توفر أ[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) مجموعة تمثل جميع الخلايا في ورقة العمل. ال[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)[](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)توفر المجموعة عدة طرق لإدارة الصفوف أو الأعمدة في ورقة العمل. تمت مناقشة بعض هذه أدناه.
+يوفر Aspose.Cells فئة، [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)، التي تمثل ملف Microsoft Excel. تحتوي فئة [Workbook](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) على [WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) تسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). توفر فئة [Worksheet](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) التي تمثل جميع الخلايا في ورقة العمل. توفر مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) عدة طرق لإدارة الصفوف أو الأعمدة في ورقة العمل. يتم مناقشة بعض هذه الطرق أدناه.
 ### **إخفاء الصفوف أو الأعمدة**
- يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء[HideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideRow\(int\) ) و[HideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideColumn\(int\) ) طرق[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)جمع على التوالي. تأخذ كلتا الطريقتين فهرس الصف / العمود كمعامل لإخفاء الصف أو العمود المحدد.
+يمكن للمطورين إخفاء صف أو عمود عن طريق استدعاء طرق [HideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideRow\(int\)) و [HideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#hideColumn\(int\)) من مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) على التوالي. تأخذ كلتا الطرق معامل فهرس الصف/العمود كمعامل لإخفاء الصف أو العمود المحدد.
 
 {{% alert color="primary" %}} 
 
-ملاحظة: من الممكن أيضًا إخفاء صف أو عمود إذا قمنا بتعيين ارتفاع الصف أو عرض العمود على 0 على التوالي.
+ملاحظة: من الممكن أيضًا إخفاء صف أو عمود إذا قمنا بتعيين ارتفاع الصف أو عرض العمود إلى 0 على التوالي.
 
 {{% /alert %}} 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-HidingRowsandColumns-HidingRowsandColumns.java" >}}
-### **إظهار الصفوف والأعمدة**
- يمكن للمطورين إظهار أي صف أو عمود مخفي عن طريق استدعاء[UnhideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideRow\(int,%20double\) ) و[UnhideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideColumn\(int,%20double\) ) طرق[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)جمع على التوالي. تأخذ كلتا الطريقتين معلمتين:
+### **عرض الصفوف والأعمدة**
+يمكن للمطورين عرض أي صف أو عمود مخفي عن طريق استدعاء طرق [UnhideRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideRow\(int,%20double\)) و [UnhideColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unhideColumn\(int,%20double\)) من مجموعة [Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) على التوالي. تأخذ كلتا الطرق معاملين:
 
-- **فهرس الصف أو العمود** - فهرس صف أو عمود يُستخدم لإظهار الصف أو العمود المحدد.
-- **ارتفاع الصف أو عرض العمود** - ارتفاع الصف أو عرض العمود المخصص للصف أو العمود بعد عرضهما.
+- **فهرس الصف أو العمود** - فهرس الصف أو العمود المستخدم لعرض الصف أو العمود المحدد.
+- **ارتفاع الصف أو عرض العمود** - ارتفاع الصف أو عرض العمود المخصص للصف أو العمود بعد عرضه.
 
 
 
@@ -30,6 +31,6 @@ url: /ar/java/hiding-and-showing-rows-and-columns/
 
 {{% alert color="primary" %}} 
 
-أثناء جعل عمود / صف مخفي مرئيًا ، إذا كنت بحاجة إلى استعادته إلى العرض أو الارتفاع المعين مسبقًا ، أو عرضه أو ارتفاعه الأصليين ، فيرجى إظهار العمود أو الصف ذي العرض أو الارتفاع السالب. على سبيل المثال ، workheet.getCells (). unhideColumn (5، -1)
+أثناء جعل عمود/صف مخفي مرئيًا، إذا كنت بحاجة لاستعادته إلى العرض أو الارتفاع المخصص سابقًا، أو عرض العرض أو الارتفاع الأصلي، يرجى إظهار العمود أو الصف بعرض أو ارتفاع سلبي. على سبيل المثال، worksheet.getCells().unhideColumn(5, -1)
 
 {{% /alert %}}

@@ -1,25 +1,26 @@
-﻿---
+---
 title: PdfBookmarkEntry für Diagrammblatt erstellen
 type: docs
 weight: 50
 url: /de/net/create-pdfbookmarkentry-for-chart-sheet/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Früher würde Aspose.Cells anlegen[**PdfLesezeichenEintrag**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) für ein normales Blatt. Aber jetzt kann Aspose.Cells auch anlegen[**PdfLesezeichenEintrag**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) für Diagrammblatt. Da das Diagrammblatt keine andere Zelle außer Zelle A1 hat, wird es erstellt[**PdfLesezeichenEintrag**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) nur für Zelle A1.
+## **Mögliche Verwendungsszenarien**
 
-## **PdfBookmarkEntry für Diagrammblatt erstellen**
+Früher erstellte Aspose.Cells [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) für ein normales Blatt. Jetzt kann Aspose.Cells auch [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) für ein Diagrammblatt erstellen. Da das Diagrammblatt außer der Zelle A1 keine andere Zelle hat, wird es nur [**PdfBookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) für die Zelle A1 erstellen.
 
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](61767756.xlsx) die vier Blätter hat. Zwei davon sind normale Blätter und die anderen zwei sind Diagrammblätter. Es erstellt vier Lesezeicheneinträge wie folgt
+## **Erstellen Sie PdfBookmarkEntry für Diagrammblatt**
+
+Der folgende Beispielcode lädt die [Beispieldatei Excel](61767756.xlsx), die vier Blätter hat. Zwei davon sind normale Blätter und die anderen beiden sind Diagrammblätter. Es erstellt vier Lesezeichen-Einträge wie folgt
 
 - Lesezeichen-I
-- Lesezeichen-II-Chart1
+- Lesezeichen-II-Diagramm1
 - Lesezeichen-III
-- Lesezeichen-IV-Chart2
+- Lesezeichen-IV-Diagramm2
 
-Der folgende Screenshot zeigt die[Ausgang PDF](61767757.pdf)generiert durch den Beispielcode für eine Referenz.
+Der folgende Screenshot zeigt die [Ausgabe-PDF](61767757.pdf), die vom Beispielcode zur Referenz erzeugt wird.
 
-![todo: Bild_alt_Text](create-pdfbookmarkentry-for-chart-sheet_1.png)
+![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 
 ## **Beispielcode**
 

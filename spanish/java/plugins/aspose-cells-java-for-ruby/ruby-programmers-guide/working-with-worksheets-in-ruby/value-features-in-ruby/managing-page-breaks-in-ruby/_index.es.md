@@ -1,16 +1,17 @@
-﻿---
-title: Gestión de saltos de página en Ruby
+---
+title: Gestionar Saltos de Página en Ruby
 type: docs
 weight: 20
 url: /es/java/managing-page-breaks-in-ruby/
 ---
-## **Aspose.Cells - Gestión de saltos de página**
-### **Adición de saltos de página**
- Para agregar saltos de página usando**Aspose.Cells Java para rubí** , llamada**add_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
 
-**código rubí**
+## **Aspose.Cells - Gestionar Saltos de Página**
+### **Añadir Saltos de Página**
+Para añadir saltos de página usando **Aspose.Cells Java para Ruby**, llame al método **add_page_breaks** del módulo **pagebreaks**. A continuación, puede ver un ejemplo de código.
 
-{{< highlight "ruby" >}}
+**Código Ruby**
+
+{{< highlight ruby >}}
 
  def add_page_breaks(workbook)
 
@@ -37,12 +38,12 @@ url: /es/java/managing-page-breaks-in-ruby/
 end   
 
 {{< /highlight >}}
-### **Borrar todos los saltos de página**
- Para borrar todos los saltos de página usando**Aspose.Cells Java para rubí** , llamada**clear_all_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+### **Borrar Todos los Saltos de Página**
+Para borrar todos los saltos de página usando **Aspose.Cells Java para Ruby**, llame al método **clear_all_page_breaks** del módulo **pagebreaks**. A continuación, puede ver un ejemplo de código.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def clear_all_page_breaks(workbook)
 
@@ -59,12 +60,12 @@ end   
 end 
 
 {{< /highlight >}}
-### **Eliminación de un salto de página específico**
- Para eliminar un salto de página específico usando**Aspose.Cells Java para rubí** , llamada**remove_page_break** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+### **Eliminar Salto de Página Específico**
+Para eliminar un salto de página específico usando **Aspose.Cells Java para Ruby**, llame al método **remove_page_break** del módulo **pagebreaks**. A continuación, puede ver un ejemplo de código.
 
-**código rubí**
+**Código Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_page_break(workbook)
 
@@ -93,7 +94,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **Descargar código de ejecución**
-Descargar**Gestión de saltos de página (Aspose.Cells)**de cualquiera de los sitios de codificación social mencionados a continuación:
+## **Descargar Código en Ejecución**
+Descargar **Gestionando Saltos de Página (Aspose.Cells)** desde cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreaks.rb)

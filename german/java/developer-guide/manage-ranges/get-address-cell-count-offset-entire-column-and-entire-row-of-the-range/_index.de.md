@@ -1,36 +1,37 @@
-﻿---
-title: Holen Sie sich Adresse Cell. Zählen Sie den Offset der gesamten Spalte und der gesamten Zeile des Bereichs
+---
+title: Adresse Zellenzahl Versatz Gesamte Spalte und Gesamte Zeile des Bereichs erhalten
 type: docs
 weight: 250
 url: /de/java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-range/
 ---
-## **Mögliche Nutzungsszenarien**
 
- Aspose.Cells bietet die[**Bereich**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)Objekt, das über verschiedene Dienstprogrammmethoden verfügt, die dem Benutzer das einfache Arbeiten mit Excel-Bereichen erleichtern. Dieser Artikel veranschaulicht die Verwendung der folgenden Methoden oder Eigenschaften der[**Bereich**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)Objekt.
+## **Mögliche Verwendungsszenarien**
+
+Aspose.Cells stellt das [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) Objekt zur Verfügung, das verschiedene Hilfsmethoden enthält, die dem Benutzer die Arbeit mit Excel-Bereichen erleichtern. Dieser Artikel veranschaulicht die Verwendung der folgenden Methoden oder Eigenschaften des [**Range**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) Objekts.
 
 - **Adresse**
 
-Ruft die Adresse des Bereichs ab.
+Holt die Adresse des Bereichs ab.
 
-- **Cell Graf**
+- **Zellanzahl**
 
-Ruft alle Zellenzahlen im Bereich ab.
+Holt alle Zellenanzahlen im Bereich ab.
 
 - **Versatz**
 
-Ruft den Bereich nach Offset ab.
+Holt den Bereich durch Versatz ab.
 
-- **Ganze Spalte**
+- **Gesamte Spalte**
 
-Ruft ein Range-Objekt ab, das die gesamte Spalte (oder Spalten) darstellt, die den angegebenen Bereich enthält.
+Ruft ein Range-Objekt ab, das die gesamte Spalte (oder Spalten) enthält, die den angegebenen Bereich enthält.
 
-- **Ganze Reihe**
+- **Gesamte Zeile**
 
-Ruft ein Range-Objekt ab, das die gesamte Zeile (oder Zeilen) darstellt, die den angegebenen Bereich enthält.
+Ruft ein Range-Objekt ab, das die gesamte Zeile (oder Zeilen) enthält, die den angegebenen Bereich enthält.
 
-## **Holen Sie sich Adresse, Cell-Zähler, Offset, gesamte Spalte und gesamte Zeile des Bereichs**
+## **Holt Adresse, Zellanzahl, Versatz, gesamte Spalte und gesamte Zeile des Bereichs ab.**
 
-Der folgende Beispielcode erläutert die Verwendung der oben beschriebenen Methoden und Eigenschaften. Bitte sehen Sie sich die Konsolenausgabe des unten angegebenen Codes als Referenz an.
+Der folgende Beispielcode erklärt die Verwendung der oben diskutierten Methoden und Eigenschaften. Bitte beachten Sie die Konsolenausgabe des unten angegebenen Codes als Referenz.
 
 ## **Beispielcode**
 
@@ -38,7 +39,7 @@ Der folgende Beispielcode erläutert die Verwendung der oben beschriebenen Metho
 
 ## **Konsolenausgabe**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Creating Range A1:B3
 

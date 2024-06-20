@@ -1,27 +1,28 @@
-﻿---
-title: Genel API Aspose.Cells 8.4.0'daki değişiklikler
+---
+title: Aspose.Cells 8.4.0 taki Genel API Değişiklikleri
 type: docs
 weight: 130
 url: /tr/net/public-api-changes-in-aspose-cells-8-4-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Bu belge, Aspose.Cells API sürüm 8.3.2'den 8.4.0'a modül/uygulama geliştiricilerin ilgisini çekebilecek değişiklikleri açıklamaktadır. Yalnızca yeni ve güncellenmiş genel yöntemleri içermez,[eklenen sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-4-0/) ve[kaldırılan sınıflar vb.](/cells/tr/net/public-api-changes-in-aspose-cells-8-4-0/), aynı zamanda Aspose.Cells'deki perde arkasındaki davranış değişikliklerinin açıklaması.
+Bu belge, Aspose.Cells API'deki 8.3.2'den 8.4.0'a kadar olan değişiklikleri, modül/uygulama geliştiricilerin ilgisini çekebilecek olanları açıklamaktadır. Bu, sadece yeni ve güncellenmiş genel yöntemleri içermekle kalmaz, aynı zamanda Aspose.Cells'in arka planında olan herhangi bir değişikliğin açıklamasını da içerir.
 
 {{% /alert %}} 
-## **Eklenen API'ler**
+## **Eklenen API'lar**
 ### **Elektronik Tablolardaki VBA/Makro Kodunu Değiştirme Mekanizması**
- özelliğini sağlamak için[VBA/Makro Kod Manipülasyonu](/cells/tr/net/modifying-vba-or-macro-code-using-aspose-cells/)Aspose.Cells for .NET 8.4.0, Aspose.Cells.Vba ad alanında bir dizi yeni sınıf ve özellik ortaya çıkardı. Bu yeni sınıfların önemli detaylarından birkaçı aşağıdaki gibidir.
+Aspose.Cells for .NET 8.4.0'da Aspose.Cells.Vba ad alanında yeni sınıflar ve özellikler serilerini sunmak için VBA/Makro Kodu Manipülasyonu özelliğini sağlamak amacıyla bir dizi yeni sınıf ve özelliği açığa çıkardı. Bu yeni sınıfların bazı önemli detayları şu şekildedir.
 
-- VbaProject sınıfı, belirli bir elektronik tablodan VBA projesini getirmek için kullanılabilir.
-- VbaModuleCollection sınıfı, belirli bir VbaProject'in parçası olan VBA modüllerinin koleksiyonunu temsil eder.
+- VbaProject sınıfı, verilen elektronik tablodan VBA projesini almak için kullanılabilir.
+- VbaModuleCollection sınıfı, verilen VbaProject'ın bir parçası olan VBA modüllerinin koleksiyonunu temsil eder.
 - VbaModule sınıfı, VbaModuleCollection'dan tek bir modülü temsil eder.
 
-Aşağıdaki kod parçacığı, VBA kod bölümlerinin dinamik olarak nasıl değiştirileceğini gösterir.
+Aşağıdaki kod parçası, VBA kod segmentlerini dinamik olarak nasıl değiştireceğinizi gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -56,17 +57,17 @@ workbook.Save("output.xlsm");
 {{< /highlight >}}
 
 
-### **Pivot Tabloyu Kaldırma Yeteneği**
-Aspose.Cells for .NET 8.4.0, PivotTableCollection'ın belirli bir e-tablodan Pivot Tablo kaldırma özelliği sağlaması için iki yöntem ortaya çıkardı. Bahsi geçen yöntemlerin detayları aşağıdaki gibidir.
+### **Pivot Tablosu Kaldırma Yeteneği**
+Aspose.Cells for .NET 8.4.0, PivotTableCollection için bir elek tablodan Pivot Tablosu kaldırma özelliğini sağlamak amacıyla iki yöntem açığa çıkardı. Yukarıda bahsedilen yöntemlerin detayları şu şekildedir.
 
-- PivotTableCollection.Remove yöntemi, PivotTable'ın bir nesnesini kabul eder ve onu koleksiyondan kaldırır.
-- PivotTableCollection.RemoveAt yöntemi, sıfır dizin tabanlı bir tamsayı değeri kabul eder ve belirli PivotTable'ı koleksiyondan kaldırır.
+- PivotTableCollection.Remove yöntemi bir PivotTable nesnesi alır ve onu koleksiyondan kaldırır.
+- PivotTableCollection.RemoveAt yöntemi sıfır indeks tabanlı bir tamsayı değeri alır ve belirli bir PivotTable'ı koleksiyondan kaldırır.
 
-Aşağıdaki kod parçacığı, PivotTable'ın yukarıda belirtilen her iki yöntemi de kullanarak nasıl kaldırılacağını gösterir.
+Aşağıdaki kod parçası, yukarıda bahsedilen her iki yöntemi kullanarak PivotTablosu'nu nasıl kaldıracağınızı gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source Excel file
 
@@ -95,24 +96,24 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Farklı Pivot Tablo Düzenleri için Destek**
-Aspose.Cells for .NET 8.4.0, Pivot Tablolar için önceden tanımlanmış farklı düzenler için destek sağlar. Bu özelliği sağlamak için Aspose.Cells API'leri, PivotTable sınıfı için aşağıda ayrıntılı olarak açıklanan üç yöntemi kullanıma sunmuştur.
+### **Farklı Pivot Tablosu Düzenleri Desteği**
+Aspose.Cells for .NET 8.4.0, Pivot Tables için farklı önceden tanımlanmış düzenlere destek sağlar. Bu özelliği sağlamak için Aspose.Cells API'ları PivotTable sınıfı için aşağıda detayları verilen üç yöntemi açığa çıkarmıştır.
 
-- PivotTable.ShowInCompactForm yöntemi, Pivot Tabloyu Kompakt mizanpajda işler.
-- PivotTable.ShowInOutlineForm yöntemi, Pivot Tabloyu Anahat düzeninde işler.
-- PivotTable.ShowInTabularForm yöntemi, Pivot Tabloyu Tablo düzeninde işler.
+- PivotTable.ShowInCompactForm yöntemi Pivot Tablosunu Kompakt düzeninde render eder.
+- PivotTable.ShowInOutlineForm yöntemi Pivot Tablosunu Anahat düzeninde render eder.
+- PivotTable.ShowInTabularForm yöntemi Pivot Tablosunu Tablo düzeninde render eder.
 
 {{% alert color="primary" %}} 
 
-Yukarıda belirtilen düzenlerden herhangi birini ayarladıktan sonra PivotTable.RefreshData & PivotTable.CalculateData'yı çağırmak önemlidir.
+Yukarıda bahsedilen düzenlerden herhangi birini ayarladıktan sonra PivotTable.RefreshData ve PivotTable.CalculateData yöntemlerini çağırmak önemlidir.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kod, Pivot Tablo için farklı düzenler ayarlar ve sonucu diskte depolar.
+Aşağıdaki örnek kod, bir Pivot Tablosu için farklı düzenler belirler ve sonucu diske kaydeder.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -171,19 +172,19 @@ workbook.Save("TabularForm.xlsx");
 {{< /highlight >}}
 
 
-### **Sınıf TxtLoadStyleStrategy ve Özellik TxtLoadOptions.LoadStyleStrategy Eklendi**
-Aspose.Cells for .NET 8.4.0, dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılan değerleri biçimlendirme stratejisini belirtmek için TxtLoadStyleStrategy sınıfını ve TxtLoadOptions.LoadStyleStrategy özelliğini kullanıma sundu.
-### **Yöntem DataBar.ToImage Eklendi**
-v8.4.0'ın piyasaya sürülmesiyle, Aspose.Cells API, koşullu olarak biçimlendirilmiş DataBar'ları görüntü biçiminde kaydetmek için DataBar.ToImage yöntemini sağladı. {DataBar.ToImage}} yöntemi, aşağıda ayrıntıları verilen iki parametreyi kabul eder.
+### **Class TxtLoadStyleStrategy & Property TxtLoadOptions.LoadStyleStrategy Eklendi**
+Aspose.Cells for .NET 8.4.0, TxtLoadStyleStrategy sınıfını ve TxtLoadOptions.LoadStyleStrategy özelliğini metin değerini sayıya veya tarih saatine dönüştürürken ayrı biçimlenmiş değerleri belirtmek için açığa çıkarmıştır.
+### **DataBar.ToImage Metodu Eklendi**
+V8.4.0 sürümü ile Aspose.Cells API, koşullu biçimlendirilmiş DataBar'ları resim formatında kaydetmek için DataBar.ToImage yöntemini sağlamıştır. DataBar.ToImage yöntemi aşağıda detayları verilen iki parametreyi kabul eder.
 
 - İlk parametre, koşullu biçimlendirmenin uygulandığı Aspose.Cells.Cell türündedir.
-- Elde edilen görüntünün farklı parametrelerini ayarlamak için ikinci parametre Aspose.Cells.Rendering.ImageOrPrintOptions türündedir.
+- İkinci parametre, farklı görüntü parametrelerini ayarlamak için Aspose.Cells.Rendering.ImageOrPrintOptions türündedir.
 
-Aşağıdaki örnek kod, DataBar'ı görüntü biçiminde işlemek için DataBar.ToImage yönteminin kullanımını gösterir.
+Aşağıdaki örnek kod, DataBar.ToImage yönteminin kullanımını resim formatında DataBar'ı render etmek için gösterir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create workbook object from source excel file
 
@@ -213,7 +214,7 @@ opts.ImageFormat = ImageFormat.Png;
 
 //Get the image bytes of the databar
 
-byte[]imgBytes = dbar.ToImage(cell, opts);
+byte[] imgBytes = dbar.ToImage(cell, opts);
 
 //Write image bytes on the disk
 
@@ -222,24 +223,24 @@ File.WriteAllBytes("databar.png", imgBytes);
 {{< /highlight >}}
 
 
-### **Özellik Border.ThemeColor Eklendi**
-Aspose.Cells API'ler, elektronik tablolardan temayla ilgili biçimlendirme verilerinin çıkarılmasına izin verir. Aspose.Cells for .NET 8.4.0 sürümüyle birlikte API, Cell kenarlıklarının tema rengi özniteliklerini almak için kullanılabilecek Border.ThemeColor özelliğini kullanıma sundu.
-### **Özellik DrawObject.ImageBytes Eklendi**
-Aspose.Cells for .NET 8.4.0, Grafik veya Şekil'den resim verilerini almak için DrawObject.ImageBytes özelliğini kullanıma sundu.
-### **Özellik HtmlSaveOptions.ExportBogusRowData Eklendi**
-Aspose.Cells for .NET 8.4.0, {HtmlSaveOptions.ExportBogusRowData}} özelliğini sağladı. Boole tipi özelliği, elektronik tabloyu HTML biçimine dışa aktarırken API'in sahte alt sıra verileri enjekte edip etmeyeceğini belirler.
+### **Border.ThemeColor Özelliği Eklendi**
+Aspose.Cells API'ları, elektronik tablolardan temaya ilişkin biçimlendirme verilerini çıkarmaya olanak sağlar. Aspose.Cells for .NET 8.4.0 sürümü ile API, Hücre sınırları tema rengi özelliklerini almak için kullanılabilen Border.ThemeColor özelliğini açığa çıkarmıştır.
+### **DrawObject.ImageBytes Özelliği Eklendi**
+Aspose.Cells for .NET 8.4.0 sürümü ile DrawObject.ImageBytes özelliği, Grafik veya Şekilden resim verileri almak için açığa çıkarılmıştır.
+### **HtmlSaveOptions.ExportBogusRowData Özelliği Eklendi**
+Aspose.Cells for .NET 8.4.0, HtmlSaveOptions.ExportBogusRowData özelliğini sağlamıştır. Boolean türünde özellik, elektronik tabloyu HTML formatına dönüştürürken API'nin yanlış alt satır verisi ekleyip eklemediğini belirler.
 
 {{% alert color="primary" %}} 
 
-Varsayılan değer doğrudur.
+Varsayılan değer true'dur.
 
 {{% /alert %}} 
 
-Aşağıdaki örnek kod, yukarıda bahsedilen özelliğin kullanımını göstermektedir.
+Aşağıdaki örnek kod, yukarıdaki özellik kullanımını göstermektedir.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an object of HtmlSaveOptions class
 
@@ -260,16 +261,16 @@ workbook.Save("output.xlsx");
 {{< /highlight >}}
 
 
-### **Özellik HtmlSaveOptions.CellCssPrefix Eklendi**
-Yeni eklenen özellik HtmlSaveOptions.CellCssPrefix, e-tabloları HTML biçiminde dışa aktarırken CSS dosyaları için önek ayarlamanıza olanak tanır.
+### **HtmlSaveOptions.CellCssPrefix Özelliği Eklendi**
+Yeni eklenen HtmlSaveOptions.CellCssPrefix özelliği, elektronik tabloları HTML formatına dönüştürürken CSS dosyaları için önek belirlemeye olanak tanır.
 
 {{% alert color="primary" %}} 
 
-Varsayılan değer boş bir dizedir).
+Varsayılan değer "" (boş dize) dir.
 
 {{% /alert %}}
 ## **Eski API'ler**
-### **Yöntemler Cells.GetCellByIndex & Row.GetCellByIndex Kullanımdan Kaldırıldı**
-Bunun yerine tüm hücreleri yinelemek için GetEnumerator yöntemini kullanın.
-### **DrawObject.Image Özelliği Kullanımdan Kaldırıldı**
-Bunun yerine resim verilerini almak için DrawObject.ImageBytes özelliğini kullanın.
+### **Kullanım dışı hale getirilen Cells.GetCellByIndex & Row.GetCellByIndex Yöntemleri**
+Hücreleri tümünü yinelemek için GetEnumerator yöntemini kullanın.
+### **Eski DrawObject.Image Özelliği**
+Resim verilerini almak için DrawObject.ImageBytes özelliğini kullanın.

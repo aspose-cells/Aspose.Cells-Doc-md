@@ -1,17 +1,18 @@
-﻿---
-title: Style.Custom Özelliğini Ayarlarken Özel Sayı Formatını Kontrol Edin
+---
+title: Stil.Custom Özelliğini Ayarlarken Özel Sayı Biçimini Kontrol Edin
 type: docs
 weight: 160
 url: /tr/java/check-custom-number-format-when-setting-style-custom-property/
 ---
+
 ## **Olası Kullanım Senaryoları**
 
- için geçersiz özel sayı biçimi atarsanız[**Stil. Özel**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)özelliğinden sonra Aspose.Cells herhangi bir istisna atmaz. Ancak, Aspose.Cells'in atanan özel numara biçiminin geçerli olup olmadığını kontrol etmesini istiyorsanız, lütfen[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) mülkiyet**doğru**.
+Eğer geçersiz özel sayı biçimini [**Style.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) özelliğine atarsanız, Aspose.Cells herhangi bir istisna fırlatmaz. Ancak Aspose.Cells'in atanan özel sayı biçiminin geçerli olup olmadığını kontrol etmesini istiyorsanız, lütfen [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) özelliğini **true** olarak ayarlayın.
 
-## **Style.Custom özelliğini ayarlarken Özel Sayı Formatını kontrol edin**
+## **Stil.Custom özelliğine özel sayı biçimini atayan aşağıdaki örnek kod geçersiz özel sayı biçimini {0} özelliğine atar. Zaten {1} özelliğini **true** olarak ayarladığımızdan dolayı, API, *Geçersiz sayı biçimi* gibi bir hata fırlatacaktır.**
 
- Aşağıdaki örnek kod, geçersiz bir özel sayı biçimi atar.[**Stil. Özel**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) Emlak. zaten ayarladığımız için[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) mülkiyet**doğru** , bu nedenle API örneğin CellsException'ı atar*Geçersiz sayı biçimi*.
+Aşağıdaki örnek kod, [**Style.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) özelliğine geçersiz özel sayı formatı atar. Zaten [**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) özelliğini **true** olarak ayarladığımızdan, API **Invalid number format** yani *Geçersiz sayı formatı* hata fırlatacaktır..
 
-## **Basit kod**
+## **Örnek Kod**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CheckCustomNumberFormat-CheckCustomNumberFormat.java" >}}

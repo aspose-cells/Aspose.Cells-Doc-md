@@ -1,22 +1,23 @@
-﻿---
+---
 title: Kopiera rader och kolumner i Ruby
 type: docs
 weight: 30
 url: /sv/java/copying-rows-and-columns-in-ruby/
 ---
+
 ## **Aspose.Cells - Kopiera rader och kolumner**
 ### **Kopiera rader**
-Aspose.Cells tillhandahåller metoden copyRow för klassen Cells. Denna metod kopierar alla typer av data inklusive formler, värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källraden till målraden.
+Aspose.Cells tillhandahåller metoden copyRow av klassen Cells. Denna metod kopierar alla typer av data inklusive formler, värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källraden till destinationsraden.
 
 Metoden copyRow tar följande parametrar:
 
-- källan Cells objekt,
+- källobjektet Cells,
 - källradens index, och
-- destinationsradindex.
+- destinationsradens index.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_rows()
 
@@ -48,37 +49,37 @@ end
 
 {{< /highlight >}}
 ### **Kopiera kolumner**
-Aspose.Cells tillhandahåller metoden copyColumn för klassen Cells, denna metod kopierar alla typer av data, inklusive formler - med uppdaterade referenser - och värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källkolumnen till målkolumnen.
+Aspose.Cells tillhandahåller metoden copyColumn av klassen Cells, denna metod kopierar alla typer av data, inklusive formler - med uppdaterade referenser - och värden, kommentarer, cellformat, dolda celler, bilder och andra ritobjekt från källkolumnen till destinationskolumnen.
 
-Metoden copyColumn använder följande parametrar:
+Metoden copyColumn tar följande parametrar:
 
-- källan Cells objekt,
-- källkolumnindex och
-- målkolumnindex.
+- källobjektet Cells,
+- källkolumnens index och
+- destinationskolumnens index.
 
-**Ruby kod**
+**Ruby-kod**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def copy_columns()
 
-data_dir = File.dirname(File.dirname(File.dirname(__FIL__))) + '/data/'
+    data_dir = File.dirname(File.dirname(File.dirname(__FILE__))) + '/data/'
 
 
 
-# Instantiera ett arbetsboksobjekt med excel-filsökväg
+    # Instantiating a Workbook object by excel file path
 
-arbetsbok = Rjb::import('com.aspose.cells.Workbook').ny
+    workbook = Rjb::import('com.aspose.cells.Workbook').new
 
-# Åtkomst till det första kalkylbladet i Excel-filen
+    # Accessing the first worksheet in the Excel file
 
-arbetsblad = workbook.getWorksheets().get(0)
+    worksheet = workbook.getWorksheets().get(0)
 
-# Lägg några data i rubrikrader (A1:A4)
+    # Put some data into header rows (A1:A4)
 
-i = 0
+    i = 0
 
- medan jag< 5
+    while i < 5
 
         worksheet.getCells().get(i, 0).setValue("Header Row #{i}")
 
@@ -125,7 +126,7 @@ i = 0
 end
 
 {{< /highlight >}}
-## **Ladda ner Running Code**
-Ladda ner**Kopiera rader och kolumner (Aspose.Cells)**från någon av nedan nämnda webbplatser för social kodning:
+## **Ladda ned körbar kod**
+Ladda ner Kopiera rader och kolumner (Aspose.Cells) från någon av de nedan nämnda sociala kodsajterna:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

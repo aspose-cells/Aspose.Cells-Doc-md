@@ -1,28 +1,29 @@
 ---
-title: Diminuez le temps de calcul de Cell. Méthode de calcul
-description: Cet article explique comment utiliser la bibliothèque Aspose.Cells pour réduire le temps de calcul des méthodes de calcul de cellules dans Excel Microsoft. En chargeant un fichier Excel existant ou en en créant un nouveau, nous pouvons utiliser les méthodes fournies par Aspose.Cells pour optimiser la méthode de calcul des cellules et améliorer ses performances. Enfin, nous enregistrons le fichier Excel modifié sur le disque.
-keywords: Aspose.Cells, Excel, Cell calculation methods, optimization, performance, reduction of calculation time
+title: Réduire le temps de calcul de la méthode Cell.Calculate
+description: Cet article présente comment utiliser la bibliothèque Aspose.Cells pour réduire le temps de calcul de la méthode de calcul des cellules dans Microsoft Excel. En chargeant un fichier Excel existant ou en en créant un nouveau, nous pouvons utiliser les méthodes fournies par Aspose.Cells pour optimiser la méthode de calcul des cellules et améliorer ses performances. Finalement, nous enregistrons le fichier Excel modifié sur le disque.
+keywords: Aspose.Cells, Excel, méthodes de calcul des cellules, optimisation, performances, réduction du temps de calcul
 type: docs
 weight: 100
 url: /fr/net/decrease-the-calculation-time-of-cell-calculate-method/
 ---
-##  **Scénarios d'utilisation possibles**
 
-Normalement, nous recommandons aux utilisateurs d'appeler[**Classeur.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index)méthode une fois, puis obtenez les valeurs calculées des cellules individuelles. Mais parfois, les utilisateurs ne souhaitent pas calculer l’intégralité du classeur. Ils veulent juste calculer une seule cellule. Aspose.Cells fournit[**CalculationOptions.Récursif**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive) propriété que vous pouvez définir sur**FAUX**et cela réduira considérablement le temps de calcul de chaque cellule. Car lorsque la propriété récursive est définie sur *true**, alors toutes les dépendances des cellules sont recalculées à chaque appel. Mais lorsque la propriété récursive est *false**, alors les cellules dépendantes ne sont calculées qu'une seule fois et ne sont pas calculées à nouveau lors des appels ultérieurs.
+## **Scénarios d'utilisation possibles**
 
-##  **Diminuer le temps de calcul de la méthode Cell.Calculate()**
+Normalement, nous recommandons aux utilisateurs d'appeler la méthode [**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula/index) une fois, puis d'obtenir les valeurs calculées des cellules individuelles. Mais parfois, les utilisateurs ne veulent pas calculer l'ensemble du classeur. Ils veulent juste calculer une seule cellule. Aspose.Cells fournit la propriété [**CalculationOptions.Recursive**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive) que vous pouvez définir sur **false** et elle diminuera considérablement le temps de calcul de la cellule individuelle. En effet, lorsque la propriété récursive est définie sur **true**, alors toutes les dépendances des cellules sont recalculées à chaque appel. Mais lorsque la propriété récursive est **false**, alors les cellules dépendantes ne sont calculées qu'une seule fois et ne sont pas recalculées lors des appels ultérieurs.
 
- L'exemple de code suivant illustre l'utilisation de[**CalculationOptions.Récursif**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive) propriété. Veuillez exécuter ce code avec le donné[exemple de fichier Excel](5113710.xlsx) et vérifiez sa sortie de console. Vous constaterez que définir la propriété récursive sur**FAUX**considérablement réduit le temps de calcul. Merci de lire également les commentaires pour une meilleure compréhension de ce bien.
+## **Diminuer le temps de calcul de la méthode Cell.Calculate()**
+
+Le code d'exemple suivant illustre l'utilisation de la propriété [**CalculationOptions.Recursive**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive). Veuillez exécuter ce code avec le fichier Excel d'exemple donné et vérifiez sa sortie console. Vous constaterez que le fait de définir la propriété récursive sur **false** a considérablement diminué le temps de calcul. Veuillez également lire les commentaires pour mieux comprendre cette propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-DecreaseCalculationTime-1.cs" >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-DecreaseCalculationTime-TestCalcTimeRecursive.cs" >}}
 
-##  **Sortie console**
+## **Sortie console**
 
- Il s'agit de la sortie console de l'exemple de code ci-dessus lorsqu'il est exécuté avec le paramètre donné.[exemple de fichier Excel](5113710.xlsx) sur notre machine. Veuillez noter que votre sortie peut différer, mais le temps écoulé après avoir défini la propriété récursive sur**FAUX**sera toujours inférieur à la valeur *true**.
+Il s'agit de la sortie console du code d'exemple ci-dessus lors de son exécution avec le fichier Excel d'exemple donné sur notre machine. Veuillez noter que votre sortie peut différer, mais le temps écoulé après avoir défini la propriété récursive sur **false** sera toujours inférieur à sa définition sur **true**.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Recursive True: 96 seconds
 

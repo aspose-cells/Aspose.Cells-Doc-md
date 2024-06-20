@@ -1,23 +1,24 @@
-﻿---
+---
 title: Daten in nicht primitiver Form
 type: docs
 weight: 500
 url: /de/java/data-in-non-primitive-shape/
 ---
-## **Zugreifen auf Daten nicht-primitiver Form**
 
-Manchmal müssen Sie auf Daten aus einem Shape zugreifen, das nicht integriert ist. Eingebaute Formen werden primitive Formen genannt; diejenigen, die es nicht sind, werden als nicht-primitiv bezeichnet. Beispielsweise können Sie Ihre eigenen Formen definieren, indem Sie verschiedene Kurven verbundene Linien verwenden.
+## **Zugriff auf Daten nicht-primitiver Form**
 
-## **Eine nicht primitive Form**
+Manchmal müssen Sie auf Daten aus einer Form zugreifen, die nicht eingebaut ist. Eingebaute Formen werden primitive Formen genannt; solche, die es nicht sind, werden nicht-primitive genannt. Sie können beispielsweise eigene Formen mit verschiedenen verbundenen Kurvenlinien definieren.
 
-In Aspose.Cells wird nicht primitiven Formen der Typ zugewiesen[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . Sie können ihren Typ mit überprüfen[**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)Methode.
+## **Eine nicht-primitive Form**
 
- Greifen Sie mit dem auf die Formdaten zu[**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)Methode. Es gibt alle verbundenen Pfade zurück, die die nicht primitive Form umfassen. Diese Pfade sind vom Typ ShapePath, der eine Liste aller Segmente enthält, die wiederum die Punkte in jedem Segment enthalten.
+In Aspose.Cells werden nicht-primitive Formen dem Typ [**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) zugewiesen. Sie können ihren Typ mit der Methode [**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType) überprüfen.
 
-Das folgende Code-Snippet demonstriert die Verwendung von[**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)Methode zum Zugreifen auf Pfadinformationen von nicht-primitiver Form.
+Greifen Sie mit der Methode [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths) auf die Formdaten zu. Sie gibt alle verbundenen Pfade zurück, die die nicht-primitive Form bilden. Diese Pfade sind vom Typ ShapePath, der eine Liste aller Segmente enthält, die wiederum die Punkte in jedem Segment enthalten.
 
-**Zeigt ein Beispiel einer nicht primitiven Form** 
+Der folgende Codeausschnitt zeigt die Verwendung der Methode [**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths) zur Zugriff auf Pfadinformationen einer nicht-primitiven Form.
 
-![todo: Bild_alt_Text](data-in-non-primitive-shape_1.jpg)
+**Zeigt ein Beispiel für eine nicht-primitive Form** 
+
+![todo:image_alt_text](data-in-non-primitive-shape_1.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-NonPrimitiveShape-1.java" >}}

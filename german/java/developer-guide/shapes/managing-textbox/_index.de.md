@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextBox verwalten
 type: docs
 weight: 20

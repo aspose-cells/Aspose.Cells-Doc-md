@@ -1,20 +1,21 @@
-﻿---
-title: StreamProvider ile Html'yi Kaydet
+---
+title: StreamProvider ile HTML yü Kaydet
 type: docs
 weight: 80
 url: /tr/net/convert-excel-to-html-with-streamprovider/
 ---
+
 {{% alert color="primary" %}} 
 
-Görüntüler ve şekiller içeren excel alanlarını html dosyalarına dönüştürürken, genellikle aşağıdaki iki sorunla karşılaşırız:
-1. Excel dosyasını html akışına kaydederken resimleri ve şekilleri nereye kaydetmeliyiz.
-1. Varsayılan yolu, özel yol ile değiştirin.
+Resimler ve şekiller içeren excel dosyalarını html dosyalarına dönüştürdüğümüzde, genellikle aşağıdaki iki sorunla karşılaşırız:
+1. Excel dosyasını html olarak kaydederken görüntü ve şekilleri nereye kaydedeceğiz.
+1. Varsayılan yolu beklenen yol ile değiştirin.
 
- Bu makalede, nasıl uygulanacağı açıklanmaktadır[IStream Sağlayıcı](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) ayarlamak için arayüz[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) Emlak. Bu arabirimi uygulayarak, HTML üretimi sırasında oluşturulan kaynakları belirli konumlarınıza veya bellek akışlarınıza kaydedebileceksiniz.
+Bu makale, [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) arayüzünü [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) özelliğini ayarlamak için nasıl uygulayacağınızı açıklar. Bu arayüzü uygulayarak, HTML oluşturma sırasında oluşturulan kaynakları belirli konumlara veya bellek akışlarına kaydedebilirsiniz.
 
 {{% /alert %}} 
 
- Bu, kullanımını gösteren ana koddur.[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)Emlak
+Bu, [HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) özelliğini kullanmanın ana kodudur.
 
 
 
@@ -22,7 +23,7 @@ Görüntüler ve şekiller içeren excel alanlarını html dosyalarına dönüş
 
 
 
- İşte kodu*ExportStreamProvider* uygulayan sınıf[IStream Sağlayıcı](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider)Yukarıdaki kodun içinde kullanılan arayüz.
+Aşağıda, yukarıdaki kod içerisinde kullanılan [IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) arayüzünü uygulayan *ExportStreamProvider* sınıfının kodu bulunmaktadır.
 
 
 

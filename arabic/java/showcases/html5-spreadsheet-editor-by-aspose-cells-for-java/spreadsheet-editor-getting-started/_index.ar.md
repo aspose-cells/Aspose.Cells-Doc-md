@@ -1,86 +1,87 @@
-﻿---
-title: بدء محرر جداول البيانات
+---
+title: بدء استخدام تحرير جداول البيانات
 type: docs
 weight: 10
 url: /ar/java/spreadsheet-editor-getting-started/
 ---
-**جدول المحتويات**
+
+جدول المحتويات
 
 - [مقدمة](#SpreadsheetEditorGettingStarted-Introduction)
 - [متطلبات النظام](#SpreadsheetEditorGettingStarted-SystemRequirements)
-- [التنزيل والتثبيت](#SpreadsheetEditorGettingStarted-DownloadandInstallation)
+- [تنزيل وتثبيت](#SpreadsheetEditorGettingStarted-DownloadandInstallation)
 - [الدعم](#SpreadsheetEditorGettingStarted-Support)
-- [مساهمة](#SpreadsheetEditorGettingStarted-Contribute)
+- [المساهمة](#SpreadsheetEditorGettingStarted-Contribute)
 - [رخصة](#SpreadsheetEditorGettingStarted-License)
 ### **مقدمة**
-Html5 Spreadsheet Editor هو تطبيق ويب يمكنه عرض مستندات جداول البيانات وتحريرها في مستعرض ويب. وهو يدعم Excel و SpreadsheetML و CVS و OpenDocument والعديد من التنسيقات الأخرى التي يدعمها Microsoft Excel. يتم دعم جميع الميزات الأساسية بما في ذلك تحرير الخلايا والتنسيق وتحرير الصيغة وإدارة الصفوف والأعمدة وما إلى ذلك.
+Html5 محرّر جداول البيانات هو تطبيق ويب يمكنه عرض وتعديل مستندات جداول البيانات في متصفح الويب. يدعم Excel وSpreadsheetML وCVS وOpenDocument والعديد من التنسيقات المدعومة من قبل Microsoft Excel. كل الميزات الأساسية بما في ذلك تحرير الخلية وتنسيقها وتحرير الصيغ وإدارة الصفوف والأعمدة وما إلى ذلك مدعومة.
 
-![ما يجب القيام به: image_بديل_نص](aowcrc1.png)
+![todo:image_alt_text](aowcrc1.png)
 
- يستخدم محرر جداول بيانات HTML5 العديد من ميزات[Aspose.Cells for Java](https://products.aspose.com/cells/java/) ويوضح كيفية استخدامها لإنشاء جدول بيانات ومعالجته وعرضه في تطبيق Java الخاص بك.
+يستخدم محرر جداول البيانات HTML5 العديد من ميزات [Aspose.Cells for Java](https://products.aspose.com/cells/java/) ويُظهر كيفية استخدامها لإنشاء وتلاعب وعرض جدول بيانات في تطبيق Java الخاص بك.
 
-**سمات**
+**الميزات**
 
-- العمل مع الملفات
- - التنسيقات المدعومة
- - فتح الملفات المحلية
- - فتح من Dropbox
- - فتح من URL
- - إنشاء جدول بيانات جديد
- - تصدير إلى صيغ مختلفة
--  العمل مع جداول البيانات
- - إضافة وإزالة الأوراق
- - إعادة تسمية الأوراق
- - التبديل بين الأوراق
--  العمل مع الصفوف والأعمدة
- - أضف صف
- - أضف عمود
- - إزالة صف
- - إزالة عمود
- - عرض العمود وارتفاع الصف
--  العمل مع Cells
- - اختيار خلية
- - تحرير خلية
- - تحرير الصيغة
- - Cell محاذاة
- - مسح Cell
- - أضف خلية
- - إزالة خلية
--  العمل مع تنسيق النص
- - غامق ومائل وتسطير
- - نمط الخط وحجمه
- - تنسيق واضح
+- العمل مع الملفات 
+  - التنسيقات المدعومة
+  - فتح ملفات محلية
+  - فتح من Dropbox
+  - فتح من عنوان URL
+  - إنشاء جدول بيانات جديد
+  - التصدير إلى تنسيقات مختلفة
+- العمل مع الأوراق 
+  - إضافة وإزالة الأوراق
+  - إعادة تسمية الأوراق
+  - التبديل بين الأوراق
+- العمل مع الصفوف والأعمدة 
+  - إضافة صف
+  - إضافة عمود
+  - إزالة صف
+  - إزالة عمود
+  - عرض العمود وارتفاع الصف
+- العمل مع الخلايا 
+  - تحديد خلية
+  - تحرير خلية
+  - تحرير الصيغة
+  - توجيه الخلية
+  - مسح الخلية
+  - إضافة خلية
+  - إزالة خلية
+- العمل مع تنسيق النص 
+  - عريض، مائل، تحتية
+  - نمط الخط والحجم
+  - مسح التنسيق
 ### **متطلبات النظام**
 **متطلبات البرنامج**
 
-- دعم CDI خادم تطبيق Java
+- خادم تطبيقات جافا المدعوم من CDI
 - [Aspose.Cells for Java](https://products.aspose.com/cells/java/)
 - [JavaServer Faces 2.0](https://javaee.github.io/javaserverfaces-spec/)
-- [الأوجه 5.1](https://www.primefaces.org/)
+- [Primefaces 5.1](https://www.primefaces.org/)
 
 **متطلبات الأجهزة**
 
-تختلف متطلبات الأجهزة بناءً على خادم التطبيق Java الذي نختاره لنشر محرر جداول بيانات HTML5 وعدد جداول البيانات التي نفتحها في وقت واحد. فيما يلي تقدير ، سيساعد في البداية في إعداد البيئة.
+تختلف متطلبات الأجهزة اعتمادًا على خادم تطبيقات جافا الذي نختاره لنشر محرر ورقة البيانات HTML5 وعدد جداول البيانات التي نفتحها في وقت واحد. وفيما يلي تقدير، الذي سيساعد في إعداد البيئة في بادئ الأمر.
 
-- 2 جيجاهرتز وحدة المعالجة المركزية
-- 2 جيجا رام
-- 500 ميغا بايت
-### **التنزيل والتثبيت**
- HTML5 Spreadsheet Editor هو تطبيق Java EE ويمكن نشره في أي ملف تعريف ويب لخادم تطبيق Java مع دعم CDI. تم اختباره مع[السمكة الزجاجية](https://javaee.github.io/glassfish/).
+- 2 GHz CPU
+- 2 GB RAM
+- 500 ميجابايت للقرص الصلب
+### **تنزيل وتثبيت**
+محرر ورقة البيانات HTML5 هو تطبيق Java EE ويمكن نشره على أي خادم تطبيقات جافا الويب مع دعم CDI. تم اختباره مع [Glassfish](https://javaee.github.io/glassfish/).
 
-**مصدر الرمز**
+**شفرة المصدر**
 
- مصدر المشروع متاح في[جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/). نقوم أيضًا بصيانة مرايا Git في المواقع التالية:
+مصدر المشروع متوفر في [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/). كما نقوم بإدارة الأنظمة الأخرى التي تضم مرايا Git على المواقع التالية:
 
 - [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
-- [Google كود](https://code.google.com/archive/p/html5-spreadsheet-editor/)
-- [المصدر](https://sourceforge.net/p/html5-spreadsheet-editor/)
+- [Google Code](https://code.google.com/archive/p/html5-spreadsheet-editor/)
+- [SourceForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
-استخدم أحد الأوامر التالية لتنزيل التعليمات البرمجية المصدر عبر سطر الأوامر:
+استخدم أحد الأوامر التالية لتنزيل مصدر الكود عبر سطر الأوامر:
 
-**جيثب**
+**Github**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone https://github.com/aspose-cells/Aspose.Cells-for-Java.git
 
@@ -88,106 +89,106 @@ Html5 Spreadsheet Editor هو تطبيق ويب يمكنه عرض مستندات
 
 **Bitbucket**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java.git
 
 {{< /highlight >}}
 
-**Google كود**
+**Google Code**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone https://code.google.com/p/html5-spreadsheet-editor/
 
 {{< /highlight >}}
 
-**المصدر**
+**SourceForge**
 
-{{< highlight "bash" >}}
+{{< highlight bash >}}
 
  git clone git://git.code.sf.net/p/html5-spreadsheet-editor/code html5-spreadsheet-editor-code
 
 {{< /highlight >}}
 
-**بناء باستخدام Maven**
+**انشئ باستخدام Maven**
 
-تدار عملية بناء المشروع باستخدام Maven. لذا يمكنك تحضير ملف WAR من سطر الأوامر بدون أي IDE. استخدم الأمر التالي لإنشاء WAR للنشر. سيساعدك توثيق خادم التطبيق المقابل في كيفية نشر الحرب التي تم إنشاؤها وتوابعها.
+عملية بناء المشروع تُدار باستخدام Maven. بحيث يمكنك تجهيز ملف WAR من سطر الأوامر بدون أي بيئة تطوير متكاملة. استخدم الأمر التالي لتوليد WAR للنشر. ستساعدك وثائق خادم التطبيق المقابل على كيفية نشر WAR المولَّد وتبعياته.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  mvn clean install
 
 {{< /highlight >}}
 
-**باستخدام NetBeans**
+**استخدام NetBeans**
 
- من السهل جدًا إدارة المشروع باستخدام[NetBeans IDE](https://netbeans.apache.org/). NetBeans هو أحد IDEs المشهور بين مطوري Java وترعاه Oracle.
+من السهل جدًا إدارة المشروع باستخدام [NetBeans IDE](https://netbeans.apache.org/). NetBeans هو أحد بيئات تطوير البرمجيات الشائعة بين مطوري Java ومُنتجة من قِبل Oracle.
 
-- قم بتنزيل الكود المصدري للمشروع.
+- قم بتنزيل مصدر مشروع الكود.
 - افتح المشروع في NetBeans IDE.
--  انقر***يركض*** زر على شريط الأدوات.
--  يختار***السمكة الزجاجية*** الخادم كخادم التطبيق.
+- انقر على زر ***تشغيل*** في شريط الأدوات.
+- حدد ***خادم Glassfish*** كخادم تطبيقات.
 
-**باستخدام الكسوف**
+**استخدام Eclipse**
 
-[كسوف IDE](http://www.eclipse.org/ide/) يوفر التكامل الرسمي لاستيراد Maven مشاريع تسمى[M2Eclipse](http://www.eclipse.org/m2e/):
+[Eclipse IDE](http://www.eclipse.org/ide/) يوفر تكاملًا رسميًا لاستيراد مشاريع Maven يُسمى [M2Eclipse](http://www.eclipse.org/m2e/):
 
-1. قم بتثبيت M2Eclipse في Eclipse IDE الخاص بك. تم وصف إجراء التثبيت على موقع الويب الخاص بهم.
-1. قم بتنزيل الكود المصدري للمشروع.
-1. افتح ال***يستورد*** الحوار من القائمة ملف.
-1.  يختار***Maven المشروع*** من مربع حوار الاستيراد.
-1.  انقر***التالي***.
-1.  انقر***تصفح*** لتحديد موقع شفرة المصدر.
-1.  يختار***pom.xml*** من القائمة أدناه.
-1.  انقر***ينهي***.
+1. قم بتثبيت M2Eclipse في بيئة Eclipse IDE الخاصة بك. إجراء التثبيت موضح على موقعهم على الويب.
+1. قم بتنزيل مصدر مشروع الكود.
+1. افتح حوار الاستيراد من القائمة الملف.
+1. حدد ***مشروع Maven*** من حوار الاستيراد.
+1. انقر على ***التالي***.
+1. انقر ***تصفح*** لتحديد موقع الشفرة المصدرية.
+1. حدد ***pom.xml*** من القائمة أدناه.
+1. انقر ***إنهاء***.
 
-يجب أن يقوم Eclipse IDE باستيراد وتحميل المشروع.
+يجب على بيئة Eclipse IDE استيراد وتحميل المشروع.
 ### **الدعم**
-**تقرير الشوائب**
+**تقرير الخلل**
 
- لإرسال تقرير خطأ ، أنشئ مشكلة جديدة في[صفحة مشروع جيثب](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) وتطبيق الملصق***خلل برمجي***.
+لإرسال تقرير عن خلل، أنشئ مشكلة جديدة على [صفحة المشروع على Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) وقم بتطبيق علامة ***bug***.
 
-**طلب المواصفات**
+**طلب ميزة**
 
- نحن نقدر تقديرا عاليا ملاحظاتك والميزات التي تطلبها. لطلب ميزة جديدة أو تحسين في القائمة ، يرجى إنشاء عدد جديد في[صفحة مشروع جيثب](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) وتطبيق الملصق***التعزيز***.
+نحن نقدر تقديرا كبيرا لردود الفعل الخاصة بك والميزات التي تطلبها. لطلب ميزة جديدة أو تحسين في الميزات الحالية، يرجى إنشاء مشكلة جديدة على [صفحة المشروع على Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) وتطبيق علامة ***enhancement***.
 
-**أسئلة ومساعدة**
+**الأسئلة والمساعدة**
 
- يمكنك طرح جميع أنواع الأسئلة المتعلقة باستخدام محرر جداول بيانات HTML5[قضية جيثب](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) . ما عليك سوى إنشاء عدد جديد وتطبيق***سؤال*** ضع الكلمة المناسبة.
+يمكنك طرح جميع أنواع الأسئلة المتعلقة بمحرر جدول البيانات HTML5 باستخدام [مشكلة Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues). ما عليك سوى إنشاء مشكلة جديدة وتطبيق علامة ***question***.
 
-**منتديات Aspose.Cells for Java**
+**منتديات Aspose Aspose.Cells for Java**
 
- توفر منتديات المنتج Aspose الدعم الكامل للعملاء التجريبيين والعملاء المدفوعين. يجلس الخبراء على مدار الساعة طوال أيام الأسبوع لتقديم المساعدة والإجابة على الاستفسارات. يزور[منتديات المنتج هنا](https://forum.aspose.com/c/cells/9).
+توفر منتديات منتج Aspose دعما كاملا لكل من العملاء التجريبيين والمدفوعين. الخبراء متواجدون على مدار الساعة لتقديم المساعدة والرد على الاستفسارات. قم بزيارة [منتديات المنتج هنا](https://forum.aspose.com/c/cells/9).
 
-**Aspose مدونة**
+**مدونات Aspose**
 
- تواصل معنا وابق على اطلاع بأحدث الأخبار حول منتجاتنا وعروضنا. الاشتراك في[مدونتنا هنا](http://blog.aspose.com).
-### **مساهمة**
+تواصل معنا وابق على اطلاع على آخر الأخبار حول منتجاتنا وعروضنا. اشترك في [مدونتنا هنا](http://blog.aspose.com).
+### **المساهمة**
 [](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java)
 
-[! \ [يجب القيام به: image_alt_text \]](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)(https://github.com/AsposeShowcase/Html5_جدول_محرر_بواسطة_Aspose.Cells_إلى عن على_Java)
+[!\[todo:image_alt_text\](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java)
 
 
-HTML5 Spreadsheet Editor هو مشروع مفتوح المصدر يتيح الحد الأقصى من الخيارات للجميع للمساهمة في المشروع.
+محرر جدول البيانات HTML5 مشروع مفتوح المصدر الذي يتيح خيارات كحد أقصى للجميع للمساهمة في المشروع.
 
-**مصدر الرمز**
+**شفرة المصدر**
 
- مصدر المشروع متاح في[جيثب](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java). نقوم أيضًا بصيانة مرايا Git في المواقع التالية:
+المصدر المشروع متاح على [Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java). نحن أيضا نحتفظ بمرايا Git على المواقع التالية:
 
 - [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
-- [المصدر](https://sourceforge.net/p/html5-spreadsheet-editor/)
+- [SourceForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
 **طلبات السحب**
 
- للمساهمة بكود المصدر في المشروع ، ما عليك سوى إرسال طلب سحب عبر Github. اقرأ المزيد من المعلومات في مقالة جيثب عن[قم بإنشاء طلب سحب](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+للمساهمة بشفرة المصدر في المشروع، ما عليك سوى إرسال طلب سحب عبر Github. اقرأ مزيد من المعلومات في مقال Github عن [إنشاء طلب سحب](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 ### **رخصة**
-**ترخيص MIT**
+**رخصة MIT**
 
- نحن نستخدم أحد أكثر التراخيص مفتوحة المصدر ليبرالية للحد الأدنى من الالتزامات على المساهمين. تم إصدار محرر جداول بيانات HTML5 تحت[ترخيص MIT](https://opensource.org/licenses/mit-license.php).
+نحن نستخدم إحدى الرخص الحرة الأكثر سخاءً بحيث لا تكون هناك مسؤوليات كبيرة على المساهمين. تم إصدار HTML5 Spreadsheet Editor تحت [رخصة MIT](https://opensource.org/licenses/mit-license.php).
 
-**ترخيص Aspose**
+**رخصة Aspose**
 
- المنتج يعمل بدون ترخيص Aspose ،[مع قيود](/cells/ar/java/licensing/) . لإزالة القيود ، يمكنك الحصول على ملف[رخصة مؤقتة مجانية](https://purchase.aspose.com/temporary-license) أو[شراء الرخصة الكاملة](https://purchase.aspose.com/buy).
+يعمل المنتج دون ترخيص Aspose، [مع قيود](/cells/ar/java/licensing/). لإزالة القيود، يمكنك الحصول على [ترخيص مؤقت مجاني](https://purchase.aspose.com/temporary-license) أو [شراء ترخيص كامل](https://purchase.aspose.com/buy).
 
- بشكل افتراضي ، سيحاول المحرر التحميل**Aspose.Total.Java.lic** ملف من**src / main / resources / com / aspose / spreadsheeteditor** الدليل. فقط انسخ ملف الترخيص إلى هذا الدليل. يمكن تغيير السلوك الافتراضي عن طريق تحرير ملف**Aspose الترخيص** صف دراسي.
+بشكل افتراضي، سيحاول المحرر تحميل ملف **Aspose.Total.Java.lic** من الدليل **src/main/resources/com/aspose/spreadsheeteditor**. ما عليك سوى نسخ ملف الترخيص إلى هذا الدليل. يمكن تغيير السلوك الافتراضي عن طريق تحرير فئة **AsposeLicense**.

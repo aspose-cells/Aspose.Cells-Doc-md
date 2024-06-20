@@ -1,35 +1,36 @@
-﻿---
-title: Copiar rangos de Excel
-linktitle: Copiar rangos
+---
+title: Copiar Rangos de Excel
+linktitle: Copiar Rangos
 type: docs
 weight: 105
 url: /es/net/copy-ranges-of-Excel/
 ---
+
 ## **Introducción**
 
-En Excel, puede seleccionar un rango, copiar el rango y luego pegarlo con opciones específicas en la misma hoja de trabajo, otras hojas de trabajo u otros archivos.
+En Excel, puede seleccionar un rango, copiarlo y luego pegarlo con opciones específicas en la misma hoja de cálculo, en otras hojas de cálculo o en otros archivos.
 
-## **Copiar rangos usando Aspose.Cells**
+## **Copiar Rangos Usando Aspose.Cells**
 
- Aspose.Cells proporciona cierta sobrecarga[Rango.Copiar](https://reference.aspose.com/cells/net/aspose.cells/range/copy/#copy) métodos para copiar el rango.
- Y[Range.CopyStyle](https://reference.aspose.com/cells/net/aspose.cells/range/copystyle/) solo el estilo de copia del rango;[Range.CopyData](https://reference.aspose.com/cells/net/aspose.cells/range/copydata/) solo el valor de copia del rango
+Aspose.Cells provee algunos métodos de sobrecarga [Range.Copy](https://reference.aspose.com/cells/net/aspose.cells/range/copy/#copy) para copiar el rango.
+Y [Range.CopyStyle](https://reference.aspose.com/cells/net/aspose.cells/range/copystyle/) para copiar solo el estilo del rango; [Range.CopyData](https://reference.aspose.com/cells/net/aspose.cells/range/copydata/) para copiar solo el valor del rango
 
-## **Copiar rango**
+## **Copiar Rango**
 
-Crear dos rangos: el rango de origen, el rango de destino, luego copiar el rango de origen al rango de destino con el método Range.Copy.
+Creando dos rangos: el rango de origen, el rango de destino, luego copiando el rango de origen al rango de destino con el método Range.Copy.
 
-Ver el siguiente código:
+Vea el siguiente código:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range.cs" >}}
 
-## **Pegar rango con opciones**
+## **Pegar Rango Con Opciones**
 
 Aspose.Cells admite pegar el rango con un tipo específico.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Paste-Range.cs" >}}
 
-## **Solo copiar datos del rango.**
-También puede copiar los datos con el método Range.CopyData como los siguientes códigos:
+## **Solo copiar datos del rango**
+También puedes copiar los datos con el método Range.CopyData como en los siguientes códigos:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range-Data.cs" >}}
 

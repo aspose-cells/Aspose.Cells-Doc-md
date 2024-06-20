@@ -1,19 +1,20 @@
-﻿---
-title: Créer des tableaux croisés dynamiques à l'aide d'Apache POI et Aspose.Cells
+---
+title: Créer des tableaux croisés dynamiques en utilisant Apache POI et Aspose.Cells
 type: docs
 weight: 40
 url: /fr/java/create-pivot-tables-using-apache-poi-and-aspose-cells/
 ---
-## **Aspose.Cells - Créer un tableau croisé dynamique**
-Pour créer un tableau croisé dynamique à l'aide de Aspose.Cells :
 
-1. Ajoutez des données aux cellules d'une feuille de calcul à l'aide de la méthode setValue d'un objet Cell. Vous utilisez également un fichier modèle déjà rempli de données. Les données seront utilisées comme source de données du tableau croisé dynamique.
-1. Ajoutez un tableau croisé dynamique à la feuille de calcul en appelant la méthode d'ajout PivotTableCollection (encapsulée dans l'objet {{Worksheet }}).
-1. Accédez au nouvel objet PivotTable à partir de la collection PivotTableCollection en transmettant son index.
+## **Aspose.Cells - Créer un tableau croisé dynamique**
+Pour créer un tableau croisé dynamique en utilisant Aspose.Cells:
+
+1. Ajoutez des données à des cellules de feuille de calcul en utilisant la méthode setValue d'un objet Cell. Vous pouvez également utiliser un fichier modèle déjà rempli de données. Les données seront utilisées comme source de données du tableau croisé dynamique.
+2. Ajoutez un tableau croisé dynamique à la feuille de calcul en appelant la méthode add de PivotTableCollection (encapsulée dans l'objet {{Feuille de calcul}}).
+3. Accédez au nouvel objet PivotTable de la collection PivotTableCollection en passant son index.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -155,7 +156,7 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 ## **Apache POI SS (HSSF + XSSF) - Créer des tableaux croisés dynamiques**
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  XSSFWorkbook wb = new XSSFWorkbook();
 
@@ -186,17 +187,17 @@ pivotTable.addColumnLabel(DataConsolidateFunction.AVERAGE, 2);
 pivotTable.addReportFilter(3);
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
- Télécharger des exemples d'exécution pour**Créer des tableaux croisés dynamiques à l'aide d'Apache POI et Aspose.Cells** à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Télécharger des exemples en cours d'exécution pour **Créer des tableaux croisés dynamiques en utilisant Apache POI et Aspose.Cells** à partir de l'un des sites de codage social mentionnés ci-dessous:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
 ## **Télécharger le code source**
- Télécharger le code source pour**Créer des tableaux croisés dynamiques à l'aide d'Apache POI et Aspose.Cells** à partir de l'un des sites de codage social mentionnés ci-dessous :
+Téléchargez le code source pour **Créer des tableaux croisés dynamiques en utilisant Apache POI et Aspose.Cells** à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Créer des tableaux croisés dynamiques et des graphiques croisés dynamiques](/cells/fr/java/create-pivot-tables-and-pivot-charts/).
+Pour plus de détails, visitez [Créer des tableaux croisés dynamiques et des graphiques croisés dynamiques](/cells/fr/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}

@@ -1,23 +1,24 @@
-﻿---
-title: Public API Changements dans Aspose.Cells 16.12.0
+---
+title: Changements d API publics dans Aspose.Cells 16.12.0
 type: docs
 weight: 360
 url: /fr/net/public-api-changes-in-aspose-cells-16-12-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Ce document décrit les modifications apportées au Aspose.Cells API de la version 16.11.0 à 16.12.0 qui peuvent intéresser les développeurs de modules/applications. Il inclut non seulement les méthodes publiques nouvelles et mises à jour, les classes ajoutées et supprimées, etc., mais également une description de tout changement de comportement dans les coulisses de Aspose.Cells.
+Ce document décrit les changements apportés à l'API Aspose.Cells de la version 16.11.0 à la version 16.12.0 qui peuvent intéresser les développeurs de modules/applications. Il comprend non seulement de nouvelles méthodes publiques et mises à jour, des classes ajoutées et supprimées, etc., mais aussi une description de tout changement dans le comportement en coulisses dans Aspose.Cells.
 
 {{% /alert %}} 
-## **API ajoutées**
-### **Filtrer les objets au moment du chargement**
-Aspose.Cells 16.12.0 a exposé la classe LoadFilter avec la propriété LoadOptions.LoadFilter qui, ensemble, peut contrôler le type de données à charger lors de l'initialisation d'une instance de Workbook à partir d'un fichier modèle.
+## **APIs ajoutées**
+### **Filtrer les objets au chargement**
+Aspose.Cells 16.12.0 a exposé la classe LoadFilter ainsi que la propriété LoadOptions.LoadFilter qui ensemble peuvent contrôler le type de données à charger lors de l'initialisation d'une instance de Workbook à partir d'un fichier modèle.
 
-Voici un scénario d'utilisation simple pour charger uniquement les propriétés du document à partir d'un fichier de modèle.
+Voici un scénario d'utilisation simple pour charger uniquement les propriétés du document à partir d'un fichier modèle.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -37,11 +38,11 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 
 
 
-L'extrait suivant charge tout à partir d'une feuille de calcul existante, à l'exception des graphiques.
+L'extrait suivant charge tout sauf les graphiques à partir d'une feuille de calcul existante.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -59,11 +60,11 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 
 
 
-Le code suivant charge uniquement les données de cellule (avec les formules) et la mise en forme à partir d'une feuille de calcul existante.
+Le code suivant charge uniquement les données de cellule (ainsi que les formules) et la mise en forme d'une feuille de calcul existante.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -81,11 +82,11 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 
 
 
-La classe LoadFilter permet également de personnaliser le processus de chargement selon les propriétés de la feuille de calcul. Afin de personnaliser le processus de chargement selon la feuille de calcul, il faut remplacer la méthode LoadFilter.StartSheet comme illustré ci-dessous.
+La classe LoadFilter permet également de personnaliser le processus de chargement en fonction des propriétés de la feuille de calcul. Pour personnaliser le processus de chargement par feuille de calcul, il faut substituer la méthode LoadFilter.StartSheet comme démontré ci-dessous.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  class CustomFilter : Aspose.Cells.LoadFilter
 
@@ -123,11 +124,11 @@ La classe LoadFilter permet également de personnaliser le processus de chargeme
 
 
 
-L'extrait de code suivant utilise la classe CustomFilter définie ci-dessus.
+Le snippet suivant utilise la classe CustomFilter définie ci-dessus.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of LoadOptions class
 
@@ -147,11 +148,11 @@ var book = new Aspose.Cells.Workbook(dir + "sample.xlsx", options);
 ### **Ajout de l'énumération FileFormatType.OTS**
 Aspose.Cells 16.12.0 a ajouté l'entrée OTS à l'énumération FileFormatType afin de détecter le format des fichiers OTS.
 
-L'extrait de code suivant utilise FileFormatType.OTS.
+L'extrait suivant utilise FileFormatType.OTS.
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Load a sample in an instance of FileStream
 
@@ -170,22 +171,22 @@ Debug.Assert(fileFormatInfo.FileFormatType == FileFormatType.OTS);
 {{< /highlight >}}
 
 
-### **Ajout de la propriété FontConfigs.PreferSystemFontSubstitutes**
-Aspose.Cells 16.12.0 a exposé la propriété PreferSystemFontSubstitutes pour la classe FontConfigs. La propriété FontConfigs.PreferSystemFontSubstitutes est de type booléen, indiquant si le API doit d'abord utiliser le mécanisme de substitution de police du système, dans le cas où une police requise n'est pas présente et qu'aucune substitution pour la police particulière n'a été définie. La valeur par défaut de la propriété FontConfigs.PreferSystemFontSubstitutes est false.
-### **Ajout de la propriété BuiltInDocumentPropertyCollection.ScaleCrop**
-Aspose.Cells 16.12.0 a ajouté la propriété ScaleCrop à la classe BuiltInDocumentPropertyCollection. Le ScaleCrop indique le mode d'affichage de la vignette du document. La définition de cet élément sur true permet la mise à l'échelle de la vignette du document selon l'affichage, tandis que la définition sur false permet le recadrage de la vignette du document pour afficher la section qui correspond à l'affichage.
-### **Ajout de la propriété BuiltInDocumentPropertyCollection.LinksUpToDate**
-Aspose.Cells 16.12.0 a également exposé la propriété LinksUpToDate pour la classe BuiltInDocumentPropertyCollection. La propriété LinksUpToDate indique si les liens hypertexte d'un document sont à jour.
-### **Ajout de la méthode Workbook.ExportXml**
-Aspose.Cells 16.12.0 a exposé la méthode Workbook.ExportXml qui permet de stocker les données de carte XML dans le chemin de fichier spécifié. La méthode Workbook.ExportXml accepte 2 paramètres où le premier paramètre de type chaîne doit être le nom de la carte XML et le second paramètre doit être l'emplacement du chemin d'accès au fichier pour stocker les données XML.
-### **Ajout de la méthode WorksheetCollection.CreateRange**
-Aspose.Cells 16.12.0 a ajouté la méthode WorksheetCollection.CreateRange qui permet de créer une plage basée sur une adresse (référence de zone de cellule) et un index de feuille de calcul.
+### **Propriété PreferSystemFontSubstitutes ajoutée à FontConfigs.**
+Aspose.Cells 16.12.0 a exposé la propriété PreferSystemFontSubstitutes pour la classe FontConfigs. La propriété FontConfigs.PreferSystemFontSubstitutes est de type booléen, indiquant si l'API doit d'abord utiliser le mécanisme de substitution de polices du système, au cas où une police requise n'est pas présente et aucune substitution pour cette police particulière n'a été définie. La valeur par défaut de la propriété FontConfigs.PreferSystemFontSubstitutes est fausse.
+### **Ajout de la propriété ScaleCrop de BuiltInDocumentPropertyCollection**
+Aspose.Cells 16.12.0 a ajouté la propriété ScaleCrop à la classe BuiltInDocumentPropertyCollection. ScaleCrop indique le mode d'affichage de la vignette du document. Le fait de définir cet élément sur true permet de mettre à l'échelle la vignette du document conformément à l'affichage, tandis que le fait de le définir sur false permet de recadrer la vignette du document pour afficher la section qui correspond à l'affichage.
+### **Ajout de la propriété LinksUpToDate de BuiltInDocumentPropertyCollection**
+Aspose.Cells 16.12.0 a également exposé la propriété LinksUpToDate pour la classe BuiltInDocumentPropertyCollection. La propriété LinksUpToDate indique si les hyperliens dans un document sont à jour.
+### **Méthode ExportXml ajoutée à Workbook.**
+Aspose.Cells 16.12.0 a exposé la méthode Workbook.ExportXml qui permet de stocker les données de la carte XML à l'emplacement de fichier spécifié. La méthode Workbook.ExportXml accepte 2 paramètres où le premier paramètre de type string doit être le nom de la carte XML et le second paramètre doit être l'emplacement de fichier pour stocker les données XML.
+### **Méthode CreateRange ajoutée à WorksheetCollection.**
+Aspose.Cells 16.12.0 a ajouté la méthode CreateRange à la classe WorksheetCollection qui permet de créer une plage basée sur une adresse (référence de plage de cellules) et l'index de feuille de calcul.
 
-L'extrait de code suivant utilise la méthode WorksheetCollection.CreateRange pour créer une plage de cellules s'étendant de A1 à A2 dans la première feuille de calcul (par défaut).
+Le fragment suivant utilise la méthode CreateRange de WorksheetCollection pour créer une plage de cellules s'étendant de A1 à A2 dans la première feuille de calcul (par défaut).
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  // Create an instance of Workbook
 
@@ -202,27 +203,27 @@ var sheets = book.Worksheets;
 var range = sheets.CreateRange("A1:A2", 0);
 
 {{< /highlight >}}
-## **API obsolètes**
-### **Propriété LoadOptions.LoadDataOptions obsolète**
+## **APIs obsolètes**
+### **Propriété Obsoleted LoadOptions.LoadDataOptions**
 Veuillez utiliser la propriété LoadOptions.LoadFilter comme alternative.
-### **Propriété LoadOptions.LoadDataFilterOptions obsolète**
+### **Propriété Obsoleted LoadOptions.LoadDataFilterOptions**
 Veuillez utiliser la propriété LoadOptions.LoadFilter à la place.
-### **Propriété LoadOptions.OnlyLoadDocumentProperties obsolète**
+### **Propriété Obsoleted LoadOptions.OnlyLoadDocumentProperties**
 Veuillez utiliser la propriété LoadOptions.LoadFilter comme alternative.
-### **Propriété LoadOptions.LoadDataAndFormatting obsolète**
+### **Propriété Obsoleted LoadOptions.LoadDataAndFormatting**
 Veuillez utiliser la propriété LoadOptions.LoadFilter à la place.
 
 {{% alert color="primary" %}} 
 
-Des extraits de code pour toutes les API obsolètes ont été partagés ci-dessus.
+Des extraits de code pour toutes les APIs obsolètes ont été partagés ci-dessus.
 
 {{% /alert %}}
-## **API supprimées**
-### **Propriété DataLabels.Rotation supprimée**
+## **APIs supprimées**
+### **Propriété Deleted DataLabels.Rotation**
 Veuillez utiliser la propriété DataLabels.RotationAngle à la place.
-### **Propriété Title.Rotation supprimée**
+### **Propriété Deleted Title.Rotation**
 Veuillez utiliser la propriété Title.RotationAngle comme alternative.
-### **Propriété DataLabels.Background supprimée**
-Il est conseillé d'utiliser à la place la propriété DataLabels.BackgroundMode.
-### **Propriété DisplayUnitLabel.Rotation supprimée**
+### **Propriété Deleted DataLabels.Background**
+Il est conseillé d'utiliser la propriété DataLabels.BackgroundMode à la place.
+### **Propriété Deleted DisplayUnitLabel.Rotation**
 Veuillez envisager d'utiliser la propriété DisplayUnitLabel.RotationAngle pour atteindre le même objectif.

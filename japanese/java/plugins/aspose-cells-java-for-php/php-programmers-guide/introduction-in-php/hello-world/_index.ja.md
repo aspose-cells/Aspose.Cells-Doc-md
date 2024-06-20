@@ -1,15 +1,16 @@
-﻿---
-title: Hello World
+---
+title: こんにちは、世界
 type: docs
 weight: 10
 url: /ja/java/hello-world/
 ---
+
 ## **Aspose.Cells - Hello World**
-PHP で Aspose.Cells for Java を使用してスプレッドシート ドキュメントに何かを書き込むには、HelloWorld モジュールを呼び出すだけです。
+Aspose.Cells for Javaを使用してPHPでスプレッドシートドキュメントに何かを書くには、HelloWorldモジュールを呼び出します。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  # Instantiating a Workbook object that represents a Microsoft Excel file.
 
@@ -40,7 +41,7 @@ $workbook.save($data_dir . "HelloWorld.xls", $file_format_type->EXCEL_97_TO_2003
 print "Document has been saved, please check the output file.";
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**Hello World (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから、**Hello World (Aspose.Cells)** をダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/quickstart/HelloWorld.php)

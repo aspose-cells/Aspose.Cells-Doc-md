@@ -1,12 +1,13 @@
-﻿---
-title: Özel Nesnelerden İçe Aktarma
+---
+title: Custom Nesnelerden Alma
 type: docs
 weight: 30
 url: /tr/net/importing-from-custom-objects/
 ---
- Geliştiriciler, nesneler koleksiyonundaki verileri kullanarak bir çalışma sayfasına aktarabilir.**Özel Nesneleri İçe Aktar**. İstediğiniz nesne listesini görüntülemek için yönteme bir sütun/özellikler listesi sağlayabilirsiniz.
 
-{{< highlight "csharp" >}}
+Geliştiriciler, istenen nesne listesini göstermek için **ImportCustomObjects** yöntemini kullanarak bir çalışma sayfasına nesne koleksiyonundan veri alabilirler.
+
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook
 
@@ -36,7 +37,7 @@ list.Add(new WeeklyItem() { AtYarnStage = 7, InWIPStage = 3, Payment = 3, Shipme
 
 sheet.Cells.ImportCustomObjects((System.Collections.ICollection)list,
 
-new string[]{ "Date", "InWIPStage", "Shipment", "Payment" },
+new string[] { "Date", "InWIPStage", "Shipment", "Payment" },
 
 true,
 

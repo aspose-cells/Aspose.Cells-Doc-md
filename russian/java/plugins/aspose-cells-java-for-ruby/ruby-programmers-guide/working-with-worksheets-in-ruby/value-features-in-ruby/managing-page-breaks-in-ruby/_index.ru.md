@@ -1,16 +1,17 @@
-﻿---
+---
 title: Управление разрывами страниц в Ruby
 type: docs
 weight: 20
 url: /ru/java/managing-page-breaks-in-ruby/
 ---
+
 ## **Aspose.Cells - Управление разрывами страниц**
 ### **Добавление разрывов страниц**
- Чтобы добавить разрывы страниц с помощью**Aspose.Cells Java для рубина** , вызов**add_page_breaks** метод**разрывы страниц** модуль. Ниже вы можете увидеть пример кода.
+Чтобы добавить разрывы страниц с помощью **Aspose.Cells Java для Ruby**, вызовите метод **add_page_breaks** модуля **pagebreaks**. Ниже приведен пример кода.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def add_page_breaks(workbook)
 
@@ -37,12 +38,12 @@ url: /ru/java/managing-page-breaks-in-ruby/
 end   
 
 {{< /highlight >}}
-### **Удаление всех разрывов страниц**
- Чтобы очистить все разрывы страниц с помощью**Aspose.Cells Java для рубина** , вызов**clear_all_page_breaks** метод**разрывы страниц** модуль. Ниже вы можете увидеть пример кода.
+### **Очистка всех разрывов страниц**
+Чтобы очистить все разрывы страниц с помощью **Aspose.Cells Java для Ruby**, вызовите метод **clear_all_page_breaks** модуля **pagebreaks**. Ниже приведен пример кода.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def clear_all_page_breaks(workbook)
 
@@ -59,12 +60,12 @@ end   
 end 
 
 {{< /highlight >}}
-### **Удаление определенного разрыва страницы**
- Чтобы удалить определенный разрыв страницы, используя**Aspose.Cells Java для рубина** , вызов**remove_page_break** метод**разрывы страниц** модуль. Ниже вы можете увидеть пример кода.
+### **Удаление конкретного разрыва страницы**
+Чтобы удалить определенный разрыв страницы с помощью **Aspose.Cells Java для Ruby**, вызовите метод **remove_page_break** модуля **pagebreaks**. Ниже приведен пример кода.
 
-**Рубиновый код**
+**Код на Ruby**
 
-{{< highlight "ruby" >}}
+{{< highlight ruby >}}
 
  def remove_page_break(workbook)
 
@@ -93,7 +94,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-Скачать**Управление разрывами страниц (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Управление разрывами страниц (Aspose.Cells)** с любого из указанных ниже сайтов социального программирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreaks.rb)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreaks.rb)

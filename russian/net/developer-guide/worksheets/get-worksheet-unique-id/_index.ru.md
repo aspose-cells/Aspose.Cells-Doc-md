@@ -1,14 +1,15 @@
 ---
-title: Получить уникальный идентификатор рабочего листа
+title: Получить уникальный идентификатор листа
 type: docs
 weight: 190
 url: /ru/net/get-worksheet-unique-id/
-description: В этой статье показано, как получить уникальный идентификатор листа Excel с помощью библиотеки C# и .NET API программно.
-keywords: unique id excel worksheet c#, unique id worksheet c#
+description: Эта статья показывает, как получить уникальный идентификатор листа Excel с помощью библиотеки C# и .NET API программно
+keywords: уникальный идентификатор листа Excel c#, уникальный идентификатор листа c#
 ---
-##  **Получить уникальный идентификатор рабочего листа**
 
- Aspose.Cells предоставляет возможность получить уникальный идентификатор рабочего листа с помощью[**Рабочий лист. Уникальный идентификатор**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid)свойство. Следующий фрагмент кода демонстрирует использование[**Рабочий лист. Уникальный идентификатор**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid) свойство для печати уникального идентификатора рабочего листа. Следующий фрагмент кода использует это[образец эксель файла](105480213.xlsx).
+## **Получить уникальный идентификатор листа**
+
+Aspose.Cells обеспечивает возможность получить уникальный идентификатор листа с помощью свойства [**Worksheet.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid). Нижеприведенный фрагмент кода демонстрирует использование свойства [**Worksheet.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid) для печати уникального идентификатора листа. В приведенном фрагменте кода используется этот [образец файла Excel](105480213.xlsx).
 
 ### Исходный код
 

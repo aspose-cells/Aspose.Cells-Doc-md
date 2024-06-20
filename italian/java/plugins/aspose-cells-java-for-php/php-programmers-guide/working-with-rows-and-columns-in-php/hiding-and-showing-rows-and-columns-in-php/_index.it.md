@@ -3,16 +3,17 @@ title: Nascondere e mostrare righe e colonne in PHP
 type: docs
 weight: 50
 url: /it/java/hiding-and-showing-rows-and-columns-in-php/
-description: Scopri come nascondere e mostrare righe e colonne tramite le API Aspose.Cells for PHP via Java.
-keywords: How to Hide and Show Rows and Columns in PHP, Hide Rows or Columns using PHP, PHP Show Rows or Columns. 
+description: Scopri come nascondere e mostrare righe e colonne attraverso le API Aspose.Cells per PHP via Java.
+keywords: Come nascondere e mostrare righe e colonne in PHP, Nascondi righe o colonne usando PHP, PHP Mostra righe o colonne. 
 ---
-##  **Aspose.Cells for PHP - Controllo della visibilità di righe e colonne**
-###  **Come nascondere righe e colonne in PHP**
-Gli sviluppatori possono nascondere una riga o una colonna chiamando rispettivamente i metodi HideRow e HideColumn della raccolta Cells. Entrambi i metodi accettano l'indice di riga/colonna come parametro per nascondere la riga o la colonna specifica.
+
+## **Aspose.Cells per PHP - Controllo della visibilità di righe e colonne**
+### **Come nascondere righe e colonne in PHP**
+Gli sviluppatori possono nascondere una riga o colonna chiamando rispettivamente i metodi HideRow e HideColumn della collezione Cells. Entrambi i metodi accettano l'indice di riga/colonna come parametro per nascondere la riga o colonna specifica.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function hide_rows_columns($dataDir)
 
@@ -45,15 +46,15 @@ Gli sviluppatori possono nascondere una riga o una colonna chiamando rispettivam
 }
 
 {{< /highlight >}}
-###  **Come mostrare righe e colonne utilizzando PHP**
-Gli sviluppatori possono mostrare qualsiasi riga o colonna nascosta chiamando rispettivamente i metodi UnhideRow e UnhideColumn della raccolta Cells. Entrambi i metodi accettano due parametri:
+### **Come mostrare righe e colonne utilizzando PHP**
+Gli sviluppatori possono mostrare qualsiasi riga o colonna nascosta chiamando rispettivamente i metodi UnhideRow e UnhideColumn della collezione Cells. Entrambi i metodi accettano due parametri:
 
-- **Indice della colonna della riga**l'indice di una riga o colonna utilizzato per mostrare la riga o colonna specifica.
-- **Altezza della riga o larghezza della colonna**- l'altezza della riga o la larghezza della colonna assegnata alla riga o alla colonna dopo la sua visualizzazione.
+- **Indice di riga o colonna** - l'indice di una riga o colonna che viene utilizzato per mostrare la riga o colonna specifica.
+- **Altezza riga o larghezza colonna** - l'altezza della riga o la larghezza della colonna assegnata alla riga o alla colonna dopo che è stata mostrata.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  public static function unhide_rows_columns($dataDir)
 
@@ -86,7 +87,7 @@ Gli sviluppatori possono mostrare qualsiasi riga o colonna nascosta chiamando ri
 }
 
 {{< /highlight >}}
-##  **Scarica il codice in esecuzione**
- Scaricamento**Controllo della visibilità di righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding indicati di seguito:
+## **Scarica il codice in esecuzione**
+Scarica **Controllo della visibilità delle righe e delle colonne (Aspose.Cells)** da uno dei siti di codifica sociali di seguito:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

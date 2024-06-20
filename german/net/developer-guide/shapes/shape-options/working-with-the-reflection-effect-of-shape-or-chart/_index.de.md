@@ -1,22 +1,23 @@
-﻿---
-title: Arbeiten mit dem Reflexionseffekt von Formen oder Diagrammen
+---
+title: Arbeiten mit dem Spiegeleffekt von Form oder Diagramm
 type: docs
 weight: 210
 url: /de/net/working-with-the-reflection-effect-of-shape-or-chart/
 ---
-## **Mögliche Nutzungsszenarien**
- Aspose.Cells bietet die[Form.Reflexion](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection) Eigentum zusammen mit[Reflexionseffekt](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect) Klasse, um mit dem Reflexionseffekt von Formen oder Diagrammen zu arbeiten. Das[Reflexionseffekt](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect)Klasse enthält die folgenden Eigenschaften, die eingestellt werden können, um je nach Anwendungsanforderungen unterschiedliche Ergebnisse zu erzielen.
 
-- [Verwischen](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/blur)
+## **Mögliche Verwendungsszenarien**
+Aspose.Cells bietet die [Shape.Reflection](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection)-​Eigenschaft zusammen mit der [ReflectionEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect)-​Klasse zur Arbeit mit dem Spiegeleffekt der Form oder des Diagramms. Die [ReflectionEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect)-​Klasse enthält die folgenden Eigenschaften, die entsprechend den Anforderungen der Anwendung festgelegt werden können.
+
+- [Unschärfe](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/blur)
 - [Richtung](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/direction)
-- [Distanz](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/distance)
-- [FadeDirection](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/fadedirection)
-- [RotMitForm](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/rotwithshape)
+- [Entfernung](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/distance)
+- [Verblassenrichtung](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/fadedirection)
+- [Mit Form drehen](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/rotwithshape)
 - [Größe](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/size)
 - [Transparenz](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/transparency)
 - [Typ](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/type)
-## **Arbeiten mit dem Reflexionseffekt von Formen oder Diagrammen**
- Der folgende Beispielcode lädt die[Excel-Quelldatei](5115424.xlsx) und greift auf die erste Form im Standardarbeitsblatt zu und legt verschiedene Eigenschaften fest[Form.Reflexion](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection)Klasse und speichert dann die Arbeitsmappe in der[Excel-Datei ausgeben](5115423.xlsx).
+## **Arbeiten mit dem Spiegeleffekt von Form oder Diagramm**
+Der folgende Beispielcode lädt die [Quellexceldatei](5115424.xlsx) und greift auf die erste Form im Standardarbeitsblatt zu und setzt verschiedene Eigenschaften der [Shape.Reflection](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection)-​Klasse und speichert dann die Arbeitsmappe in der [Ausgabeexceldatei](5115423.xlsx).
 
 
 

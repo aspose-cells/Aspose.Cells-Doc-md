@@ -1,16 +1,17 @@
-﻿---
-title: PHP でファイルを保存する
+---
+title: PHPでファイルを保存する
 type: docs
 weight: 20
 url: /ja/java/saving-files-in-php/
 ---
+
 ## **Aspose.Cells - ファイルの保存**
-### **ファイルをある場所に保存する**
-開発者がファイルを保存する必要がある場合**Aspose.Cells Java for PHP**ある保存場所に移動すると、ファイル名 (完全な保存パスを含む) と目的のファイル形式 (**ファイル形式の種類**列挙) の呼び出し中**セーブ**方法**ワークブック**物体。
+### **開発者がファイルをストレージに保存する必要がある場合、**Aspose.Cells Java for Ruby**を使用して**Workbook**オブジェクトの**save**メソッドを呼び出す際に、ファイル名(完全なストレージパスを含む)と希望のファイル形式(**FileFormatType**列挙型を使用)を単純に指定することができます。**
+開発者が **Aspose.Cells Java for PHP** を使用してファイルをストレージに保存する必要がある場合は、**Workbook** オブジェクトの **save** メソッドを呼び出す際に、ファイル名（完全なストレージパスを含む）と desired file format（**FileFormatType** 列挙型を使用）を簡単に指定できます。
 
-**PHP コード**
+**PHPコード**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $fileFormatType = new FileFormatType();
 
@@ -35,7 +36,7 @@ $workbook->save($dataDir . "book.out.xlsx", $fileFormatType->XLSX);
 $workbook->save($dataDir . "book.out.xml", $fileFormatType->EXCEL_2003_XML);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ファイルの保存 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**ファイルを保存する（Aspose.Cells）**をダウンロードしてください：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

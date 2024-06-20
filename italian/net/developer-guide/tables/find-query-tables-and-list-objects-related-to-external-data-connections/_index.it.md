@@ -1,24 +1,25 @@
-﻿---
-title: Trova tabelle di query e oggetti elenco relativi a connessioni dati esterne
+---
+title: Trova Tabelle di Query e Oggetti Elenco relativi a Connessioni Dati Esterne
 type: docs
 weight: 20
 url: /it/net/find-query-tables-and-list-objects-related-to-external-data-connections/
 ---
+
 {{% alert color="primary" %}} 
 
-A volte, è necessario scoprire le tabelle di query e gli oggetti elenco relativi ad alcune connessioni dati esterne. Le tabelle di query sono correlate all'oggetto connessione dati esterna con ID connessione, mentre gli oggetti elenco sono correlati a una tabella di query.
+A volte è necessario scoprire le Tabelle di Query e gli Oggetti Elenco relativi a alcune Connessioni Dati Esterne. Le Tabelle di Query sono correlate all'oggetto Connessione Dati Esterne con Id Connessione, mentre gli Oggetti Elenco sono correlati a una Tabella di Query.
 
 {{% /alert %}} 
-## **Trova tabelle di query e oggetti elenco relativi a connessioni dati esterne**
- I seguenti codici di esempio con[file excel di esempio](5115493.xlsm) spiegare come trovare le tabelle di query e gli oggetti elenco relativi alla connessione dati esterna.
+## **Trova query tabelle e oggetti elenco relativi alle connessioni esterne dei dati**
+I seguenti codici di esempio con [file Excel di esempio](5115493.xlsm) spiegano come trovare tabelle di query e oggetti elenco correlati a una connessione dati esterne.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-FindQueryTablesAndListObjectsOfExternalDataConnections.cs" >}}
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindQueryTablesAndListObjectsOfExternalDataConnections-PrintTables.cs" >}}
 
- Di seguito è riportato l'output della console dell'esecuzione dei codici di esempio precedenti con this[file excel di esempio](5115493.xlsm).
+Il seguente è l'output della console dell'esecuzione dei codici di esempio precedenti con questo [file Excel di esempio](5115493.xlsm).
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  connection: AAPL Connection
 

@@ -1,17 +1,18 @@
-﻿---
-title: Import aus Array
+---
+title: Importieren aus Array
 type: docs
 weight: 10
 url: /de/net/importing-from-array/
 ---
- Entwickler können Daten aus einem Array in ihre Arbeitsblätter importieren, indem sie die aufrufen**ImportArray** Methode der Sammlung Cells. Es gibt viele überladene Versionen der ImportArray-Methode, aber eine typische Überladung nimmt die folgenden Parameter an:
 
-- Array stellt das Array-Objekt dar, dessen Inhalt importiert werden muss
-- Zeilennummer, stellt die Zeilennummer der ersten Zelle dar, in die die Daten importiert werden
-- Spaltennummer, stellt die Spaltennummer der ersten Zelle dar, in die die Daten importiert werden
-- Ist Vertical, ein boolescher Wert, der angibt, Daten vertikal oder horizontal zu importieren
+Entwickler können Daten aus einem Array in ihre Tabellenblätter importieren, indem sie die Methode **ImportArray** der Cells-Sammlung aufrufen. Es gibt viele überladene Versionen der ImportArray Methode, aber eine typische Überladung nimmt die folgenden Parameter an:
 
-{{< highlight "csharp" >}}
+- Array, repräsentiert das Array-Objekt, dessen Inhalt importiert werden muss
+- Zeilennummer, repräsentiert die Zeilennummer der ersten Zelle, in die die Daten importiert werden
+- Spaltennummer, repräsentiert die Spaltennummer der ersten Zelle, in die die Daten importiert werden
+- Ist vertikal, ein boolescher Wert, der angibt, ob die Daten vertikal oder horizontal importiert werden sollen
+
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -27,7 +28,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 //Creating an array containing names as string values
 
-string[]names = new string[]{ "laurence chen", "roman korchagin", "kyle huang" };
+string[] names = new string[] { "laurence chen", "roman korchagin", "kyle huang" };
 
 //Importing the array of names to 1st row and first column vertically
 

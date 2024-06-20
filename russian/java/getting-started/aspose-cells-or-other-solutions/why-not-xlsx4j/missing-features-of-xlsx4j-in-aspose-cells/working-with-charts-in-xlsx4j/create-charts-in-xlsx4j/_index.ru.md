@@ -1,15 +1,16 @@
-﻿---
-title: Создание диаграмм в xlsx4j
+---
+title: Создать диаграммы в xlsx4j
 type: docs
 weight: 20
 url: /ru/java/create-charts-in-xlsx4j/
 ---
-## **Aspose.Cells - Создание диаграмм**
-С помощью Aspose.Cells можно добавлять различные диаграммы в электронные таблицы. Aspose.Cells предоставляет множество гибких объектов диаграмм.
+
+## **Aspose.Cells - Создание графиков**
+С помощью Aspose.Cells можно добавить различные виды графиков в электронные таблицы. Aspose.Cells предоставляет множество гибких объектов для построения графиков.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Instantiating a Workbook object
 
@@ -68,7 +69,7 @@ serieses.add("A1:B3", true);
 workbook.save(dataDir + "Chart_Aspose.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/charts/createcharts/AsposeCreateCharts.java)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/charts/createcharts/AsposeCreateCharts.java)

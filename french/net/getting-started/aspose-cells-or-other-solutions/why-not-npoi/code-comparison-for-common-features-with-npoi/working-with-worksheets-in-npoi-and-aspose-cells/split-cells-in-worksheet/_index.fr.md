@@ -1,13 +1,14 @@
-﻿---
-title: Fractionner Cells dans la feuille de calcul
+---
+title: Diviser les cellules dans la feuille de calcul
 type: docs
 weight: 90
 url: /fr/net/split-cells-in-worksheet/
 ---
-## **Aspose.Cells - Diviser Cells dans la feuille de travail**
+
+## **Aspose.Cells - Diviser les cellules dans la feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -29,10 +30,10 @@ workbook.Save("output-Split.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Fractionner Cells dans la feuille de travail**
+## **NPOI - HSSF XSSF - Diviser les cellules dans la feuille de calcul**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -59,6 +60,6 @@ file.Close();
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Travailler avec des feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Pour plus de détails, visitez [Travailler avec les feuilles de calcul](/cells/fr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

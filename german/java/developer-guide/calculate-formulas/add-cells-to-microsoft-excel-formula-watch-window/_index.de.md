@@ -1,18 +1,19 @@
-﻿---
-title: Fügen Sie Cells zu Microsoft Excel-Formel-Überwachungsfenster hinzu
+---
+title: Zellen zur Microsoft Excel Formelüberwachung hinzufügen
 type: docs
 weight: 20
 url: /de/java/add-cells-to-microsoft-excel-formula-watch-window/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Microsoft Excel Watch Window ist ein nützliches Tool, um die Zellenwerte und ihre Formeln bequem in einem Fenster zu beobachten. Sie können die öffnen*Schaufenster*Verwenden Sie Microsoft Excel, indem Sie auf klicken*Formeln > Beobachten* *Fenster*. Es hat die*Uhr hinzufügen*Schaltfläche, mit der die Zellen zur Inspektion hinzugefügt werden können. Ebenso können Sie verwenden[**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int))-Methode zum Hinzufügen von Zellen*Schaufenster*mit Aspose.Cells API.
+## **Mögliche Verwendungsszenarien**
 
-## **Fügen Sie Cells zu Microsoft Excel-Formel-Überwachungsfenster hinzu**
+Das Microsoft Excel Watch-Fenster ist ein nützliches Tool, um die Zellenwerte und ihre Formeln bequem in einem Fenster zu beobachten. Sie können das *Watch Window* in Microsoft Excel öffnen, indem Sie auf *Formeln > Überwachungsfenster* klicken. Es verfügt über die *Add Watch*-Schaltfläche, die zum Hinzufügen von Zellen zur Überwachung verwendet werden kann. Ebenso können Sie die *[**Worksheet.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int))* Methode verwenden, um mit der Aspose.Cells-API Zellen in das *Watch Window* hinzuzufügen.
 
- Der folgende Beispielcode legt die Formel der Zellen C1 und E1 fest und fügt beide hinzu*Schaufenster*. Es speichert dann die Arbeitsmappe als[Excel-Datei ausgeben](67338509.xlsx). Wenn Sie die Excel-Ausgabedatei öffnen und die*Schaufenster*, sehen Sie beide Zellen, wie in diesem Screenshot gezeigt.
+## **Zellen zur Microsoft Excel-Formelüberwachung hinzufügen**
 
-![todo: Bild_alt_Text](add-cells-to-microsoft-excel-formula-watch-window_1.png)
+Der folgende Beispielscode setzt die Formel der Zellen C1 und E1 und fügt beide dem *Watch Window* hinzu. Anschließend speichert er die Arbeitsmappe als [Ausgabedatei im Excel-Format](67338509.xlsx). Wenn Sie die Ausgabedatei öffnen und das *Watch Window* anzeigen, sehen Sie beide Zellen, wie in diesem Screenshot gezeigt.
+
+![todo:image_alt_text](add-cells-to-microsoft-excel-formula-watch-window_1.png)
 
 ## **Beispielcode**
 

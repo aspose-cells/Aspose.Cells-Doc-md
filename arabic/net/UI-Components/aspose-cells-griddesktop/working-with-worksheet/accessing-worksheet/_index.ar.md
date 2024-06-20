@@ -1,40 +1,43 @@
-﻿---
+---
 title: الوصول إلى ورقة العمل
 type: docs
 weight: 10
-url: /ar/net/accessing-worksheet/
+url: /ar/net/aspose-cells-griddesktop/access-worksheet/
+keywords: أداة GridDesktop، ورقة العمل
+description: يُقدم هذا المقال كيفية العمل مع ورقة العمل في GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-ورقة العمل هي جزء لا يتجزأ من ملف Excel. في الواقع ، يتكون ملف Excel من ورقة عمل واحدة أو أكثر. يمكن أن تتكون كل ورقة عمل من 65.536 صفاً و 256 عموداً فقط. إنها ورقة العمل التي تحتفظ بالبيانات في ملف Excel.
+ورقة العمل هي جزء أساسي من ملف Excel. في الواقع، يتكون ملف Excel من ورقة عمل واحدة أو أكثر. يمكن أن تتكون كل ورقة عمل من ما يصل إلى 65،536 صف و 256 عمود فقط. إنها الورقة العمل التي تحتوي على البيانات في ملف Excel.
 
-Aspose.Cells.GridDesktop إنشاء ملفات Excel الحالية والجديدة ومعالجتها ، لذلك هناك بالطبع طريقة للوصول إلى أوراق العمل باستخدام Aspose.Cells.GridDesktop. هذا الموضوع يناقش كيف.
+يمكن لـ Aspose.Cells.GridDesktop إنشاء وتلاعب الملفات القائمة والجديدة في Excel لذلك هناك، بالطبع، طريقة للوصول إلى ورقة العمل باستخدام Aspose.Cells.GridDesktop. يناقش هذا الموضوع كيفية ذلك.
 
 {{% /alert %}} 
-## **باستخدام فهرس ورقة العمل**
-يمكن للمطورين الوصول إلى مثيل أي ورقة عمل باستخدام فهرس ورقة العمل لأي ورقة عمل مطلوبة كما هو موضح أدناه في المثال. هذا الأسلوب مفيد للتكرار خلال عدد من أوراق العمل في ملف Excel.
+## **استخدام فهرس ورقة العمل**
+يمكن للمطورين الوصول إلى مثيل من أي ورقة عمل باستخدام فهرس ورقة العمل المرغوبة كما هو موضح في المثال أدناه. هذا الأسلوب جيد لتكرار عبر عدد من ورقات العمل في ملف Excel.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AccessingWorksheets-AccessingWithIndex.cs" >}}
 ## **استخدام اسم ورقة العمل**
-إذا كان اسم ورقة العمل معروفًا ، فمن الممكن الوصول إلى ورقة العمل باستخدام اسمها كما هو موضح أدناه.
+إذا كان اسم ورقة العمل معروفًا، فمن الممكن الوصول إلى ورقة عمل باستخدام اسمها كما هو موضح أدناه.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AccessingWorksheets-AccessingWithName.cs" >}}
 ## **الوصول إلى ورقة عمل نشطة**
-من المحتمل أن يحتوي ملف Excel على أكثر من ورقة عمل واحدة. يسمى htat الذي يعمل عليه المستخدم ورقة العمل النشطة. من الممكن الوصول إلى الورقة النشطة.
+من الممكن أن يحتوي ملف Excel على أكثر من ورقة عمل واحدة. الورقة التي يعمل عليها المستخدم تسمى الورقة العمل النشطة. من الممكن الوصول إلى الورقة النشطة.
 
-للوصول إلى ورقة عمل نشطة ، يقدم Aspose.Cells.GridDesktop طريقتين:
+للوصول إلى ورقة عمل نشطة، تقدم Aspose.Cells.GridDesktop نهجين:
 ### **استخدام خاصية AcriveSheetIndex**
-تتمثل إحدى طرق الوصول إلى ورقة العمل النشطة باستخدام عنصر التحكم Aspose.Cells.GridDesktop في استخدام خاصية ActiveSheetIndex الخاصة بعنصر تحكم GridDesktop. باستخدام هذه الخاصية ، من الممكن الحصول على فهرس ورقة العمل النشطة في عنصر تحكم Aspose.Cells.GridDesktop. ثم يمكن استخدام هذا الفهرس للوصول إلى ورقة العمل بطريقة تقليدية كما هو موضح أدناه.
+طريقة للوصول إلى ورقة عمل نشطة باستخدام تحكم Aspose.Cells.GridDesktop هي استخدام خاصية ActiveSheetIndex لتحكم GridDesktop. باستخدام هذه الخاصية، يكون من الممكن الحصول على فهرس الورقة العمل النشطة في تحكم Aspose.Cells.GridDesktop. يمكن بعد ذلك استخدام هذا الفهرس للوصول إلى الورقة العمل بالطريقة التقليدية كما هو موضح أدناه.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AccessingWorksheets-AccessingWithActiveWorksheet.cs" >}}
-### **استخدام أسلوب GetActiveWorksheet**
-الطريقة الأخرى هي استدعاء أسلوب GetActiveWorksheet لعنصر التحكم GridDesktop. توفر هذه الطريقة مرجعًا لورقة العمل النشطة حاليًا في Aspose.Cells.GridDesktop control كما هو موضح أدناه.
+### **استخدام طريقة GetActiveWorksheet**
+النهج الآخر هو استدعاء طريقة GetActiveWorksheet في تحكم GridDesktop. تقدم هذه الطريقة مرجعًا لورقة العمل التي تكون نشطة حاليًا في تحكم Aspose.Cells.GridDesktop كما هو موضح أدناه.
 
 
 

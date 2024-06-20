@@ -1,16 +1,19 @@
-﻿---
+---
 title: Kopiera och klistra in rader i GridDesktop inom kontrollen och mellan kontrollen och Excel
 type: docs
 weight: 70
-url: /sv/net/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+url: /sv/net/aspose-cells-griddesktop/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-the-control-and-excel/
+keywords: GridDesktop, kopiera, klistra in
+description: Den här artikeln introducerar kopiera och klistra in i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-Om du vill aktivera kopiera och klistra in rader i GridDesktop inom kontrollen eller mellan kontroll och excel, ställ in egenskapen GridDesktop.ClipboardCopyPaste till true. Du kan ställa in den här egenskapen i designtid eller i kod. Standardvärdet för den här egenskapen är falskt. För närvarande kan den bara kopiera och klistra in cellvärden och den kommer inte att kopiera någon annan inställning av cellen som format, kantstil och så vidare.
+Om du vill aktivera kopiera och klistra in rader i GridDesktop inom kontrollen eller mellan kontrollen och Excel, ange då egenskapen GridDesktop.ClipboardCopyPaste till true. Du kan ange denna egenskap vid design eller i kod. Standardvärdet för denna egenskap är falskt. För närvarande kan den endast kopiera och klistra in cellvärden och den kommer inte att kopiera någon annan inställning för cellen som format, kantstil etc.
 
 {{% /alert %}} 
-## **Ställa in egenskapen GridDesktop.ClipboardCopyPaste i designläge och körtid**
- Följande exempelkod anger egenskapen GridDesktop.ClipboardCopyPaste i**Körtid**.
+## **Ange egenskapen GridDesktop.ClipboardCopyPaste vid designläge och körning**
+Följande exempelkod anger egenskapen GridDesktop.ClipboardCopyPaste vid **körning**.
 
 
 

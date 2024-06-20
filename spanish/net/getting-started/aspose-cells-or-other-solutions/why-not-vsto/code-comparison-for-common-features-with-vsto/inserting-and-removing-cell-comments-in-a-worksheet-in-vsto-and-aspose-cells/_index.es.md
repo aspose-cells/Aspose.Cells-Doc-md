@@ -1,22 +1,23 @@
-﻿---
-title: Inserción y eliminación de comentarios Cell en una hoja de trabajo en VSTO y Aspose.Cells
+---
+title: Insertar y eliminar comentarios de celda en una hoja de cálculo en VSTO y Aspose.Cells
 type: docs
 weight: 150
 url: /es/net/inserting-and-removing-cell-comments-in-a-worksheet-in-vsto-and-aspose-cells/
 ---
+
 Para agregar comentarios a las celdas:
 
-1. Abra un archivo de Excel existente.
+1. Abrir un archivo de Excel existente.
 1. Agregar un comentario a una celda.
-1. Guarda el archivo.
+1. Guarde el archivo.
 
 Para eliminar los comentarios, el proceso es similar, con la excepción de que se elimina el comentario.
 
 Los ejemplos de código a continuación ilustran primero cómo agregar un comentario y luego cómo eliminar un comentario con VSTO o Aspose.Cells for .NET.
-## **Inserción de comentarios**
+## **Insertar comentarios**
 Estos fragmentos de código muestran cómo agregar un comentario a una celda primero con VSTO (C#) y luego con Aspose.Cells for .NET (C#).
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -60,7 +61,7 @@ Estos fragmentos de código muestran cómo agregar un comentario a una celda pri
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Specify the template excel file path.
 
@@ -89,10 +90,10 @@ string myPath = "Book1.xls";
  workbook.Save("Book1.xls");
 
 {{< /highlight >}}
-## **Eliminar comentarios**
+## **Eliminación de Comentarios**
 Para eliminar un comentario de una celda, use las siguientes líneas de código para VSTO (C#) y Aspose.Cells for .NET (C#).
 ### **VSTO**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Remove the comment.
 
@@ -101,14 +102,14 @@ Para eliminar un comentario de una celda, use las siguientes líneas de código 
 
 {{< /highlight >}}
 ### **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //removing comments
 
  workbook.Worksheets[0].Comments.RemoveAt("A1");
 
 {{< /highlight >}}
-## **Descargar código de muestra**
+## **Descargar Código de Ejemplo**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Inserting.and.Removing.Cell.Comments.in.a.Worksheet.Aspose.Cells.zip)
-- [forjafuente](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Inserting%20and%20Removing%20Cell%20Comments%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/descargar)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Inserting%20and%20Removing%20Cell%20Comments%20in%20a%20Worksheet%20\(Aspose.Cells\).Código Postal)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Inserting%20and%20Removing%20Cell%20Comments%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Inserting%20and%20Removing%20Cell%20Comments%20in%20a%20Worksheet%20\(Aspose.Cells\).zip)

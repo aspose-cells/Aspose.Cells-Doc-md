@@ -1,30 +1,31 @@
-﻿---
-title: Überprüfen Sie die Versionsnummer
+---
+title: Versionsnummer überprüfen
 type: docs
 weight: 80
 url: /de/net/check-version-number/
 ---
+
 {{% alert color="primary" %}}
 
-Fragen Sie sich, welche Version von Aspose.Cells Sie verwenden? Wir veröffentlichen regelmäßig neue Versionen von Aspose.Cells, sowohl um neue Funktionen einzuführen als auch um Probleme zu beheben. Die Versionsnummer besteht aus der Hauptversionsnummer, der Nebenversionsnummer und der Hotfix-Versionsnummer. Jede Zahl muss eine ganze Zahl von 0 aufwärts sein. Das Format ist wie folgt:
+Sie fragen sich, welche Version von Aspose.Cells Sie verwenden? Wir veröffentlichen regelmäßig neue Versionen von Aspose.Cells, sowohl um neue Funktionen einzuführen als auch um Probleme zu beheben. Die Versionsnummer besteht aus der Hauptversionsnummer, der Nebenversionsnummer und der Hotfix-Versionsnummer. Jede Nummer muss eine ganze Zahl von 0 nach oben sein. Das Format ist wie folgt:
 
-Haupt.Neben.Hotfix
+major.minor.hotfix
 
-Wenn wir einen neuen Build von Aspose.Cells veröffentlichen, aktualisieren wir die Versionsnummer.
+Wenn wir eine neue Version von Aspose.Cells veröffentlichen, aktualisieren wir die Versionsnummer.
 
-In diesem Artikel wird erläutert, wie Sie manuell und mithilfe der Aspose.Cells API überprüfen können, welche Version von Aspose.Cells auf dem System installiert ist.
+Dieser Artikel erklärt, wie Sie manuell überprüfen können, welche Version von Aspose.Cells auf dem System installiert ist, und wie Sie die Aspose.Cells-API verwenden.
 
 {{% /alert %}}
 
-## **Überprüfen Sie die Versionsnummer manuell**
+## **Versionsnummer manuell überprüfen**
 
-So finden Sie manuell heraus, welche Version von Aspose.Cells Sie verwenden:
+Um manuell herauszufinden, welche Version von Aspose.Cells Sie verwenden:
 
-1.  Klicken Sie mit der rechten Maustaste auf die Datei Aspose.Cells.dll und wählen Sie sie aus**Eigenschaften**.
-1. Klicken Sie auf die Registerkarte Version (oder Details), um die Versionsnummer zu überprüfen.
+1. Klicken Sie mit der rechten Maustaste auf die Datei Aspose.Cells.dll und wählen Sie **Eigenschaften**.
+1. Klicken Sie auf die Version (oder Details) Registerkarte, um die Versionsnummer zu überprüfen.
 
-## **Überprüfen Sie die Versionsnummer mit Aspose.Cells API**
+## **Versionsnummer mit der Aspose.Cells API überprüfen**
 
- Um herauszufinden, welche Version von Aspose.Cells Sie verwenden, verwenden Sie die API[CellsHelper](https://reference.aspose.com/cells/net/aspose.cells/cellshelper) Klasse GetVersion statische Methode, um die Versionsnummer von Aspose.Cell zu erhalten.
+Um die über die API verwendete Version von Aspose.Cells zu ermitteln, verwenden Sie die statische Methode GetVersion der Klasse [CellsHelper](https://reference.aspose.com/cells/net/aspose.cells/cellshelper), um die Versionsnummer von Aspose.Cells zu erhalten.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-CheckVersionNumber-1.cs" >}}

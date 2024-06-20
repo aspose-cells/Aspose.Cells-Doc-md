@@ -1,12 +1,13 @@
-﻿---
-title: kılavuz çizgileri
+---
+title: Izgara Çizgileri
 type: docs
 weight: 10
 url: /tr/reportingservices/gridlines/
 ---
- Kılavuz çizgileri şu şekilde yapılandırılır:**Aspose.Cells.ReportingServices.xml** böylece dışa aktarılan bir Microsoft Excel dosyasının ızgara çizgileri gösterip göstermediğini kontrol edebilirsiniz. varsayılan değer**kapalı**, yani kılavuz çizgileri görüntülenmez.
 
-{{< highlight "java" >}}
+Izgara çizgileri, dışa aktarılan bir Microsoft Excel dosyasında ızgara çizgilerinin gösterilip gösterilmeyeceğini kontrol etmek için **Aspose.Cells.ReportingServices.xml** dosyasında yapılandırılır. Varsayılan değeri **kapalı**'dır, bu da ızgara çizgilerinin görüntülenmediği anlamına gelir.
+
+{{< highlight java >}}
 
  <Aspose>
 

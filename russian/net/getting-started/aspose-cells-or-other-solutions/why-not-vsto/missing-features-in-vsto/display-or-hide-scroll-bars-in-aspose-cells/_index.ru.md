@@ -1,37 +1,38 @@
-﻿---
-title: Показать или скрыть полосы прокрутки в Aspose.Cells
+---
+title: Показ или Скрытие Полос Прокрутки в Aspose.Cells
 type: docs
 weight: 70
 url: /ru/net/display-or-hide-scroll-bars-in-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-Полосы прокрутки очень часто используются для навигации по содержимому любого файла. Обычно существует два вида полос прокрутки:
+Полосы прокрутки широко используются для навигации по содержимому любого файла. Обычно существует два типа полос прокрутки:
 
 - Вертикальные полосы прокрутки
 - Горизонтальные полосы прокрутки
 
-Microsoft Excel также предоставляет горизонтальные и вертикальные полосы прокрутки, чтобы пользователи могли прокручивать содержимое рабочего листа. Используя Aspose.Cells, разработчики могут управлять видимостью обоих типов полос прокрутки в файлах Excel.
+Microsoft Excel также предоставляет горизонтальные и вертикальные полосы прокрутки, чтобы пользователи могли пролистывать содержимое листа Excel. Используя Aspose.Cells, разработчики могут контролировать видимость обоих типов полос прокрутки в файлах Excel.
 
 {{% /alert %}}
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook)который представляет файл Excel.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Класс предоставляет широкий спектр свойств и методов для управления файлом Excel. Для управления видимостью полос прокрутки используйте[**WorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) учебный класс'[**Исвскроллбарвидибле**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) и[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) характеристики.[**Исвскроллбарвидибле**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) и[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) являются логическими свойствами, что означает, что эти свойства могут хранить только**истинный** или же**ЛОЖЬ** ценности.
+Aspose.Cells предоставляет класс, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook), который представляет собой файл Excel. Класс [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) предоставляет широкий спектр свойств и методов для управления файлом Excel. Чтобы контролировать видимость полос прокрутки, используйте свойства [**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) и [**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) класса [**WorkbookSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings). [**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) и [**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) являются логическими свойствами, что значит, что эти свойства могут хранить только **true** или **false** значения.
 
-Ниже приведен полный код, который открывает файл Excel, book1.xls, скрывает обе полосы прокрутки, а затем сохраняет измененный файл как output.xls.
+Ниже представлен полный код, который открывает файл Excel book1.xls, скрывает обе полосы прокрутки и затем сохраняет измененный файл как output.xls.
 
-На снимке экрана ниже показан файл Book1.xls, содержащий обе полосы прокрутки. Измененный файл сохраняется как файл output.xls, также показанный ниже.
+На скриншоте ниже показан файл Book1.xls, содержащий оба ползунка прокрутки. Измененный файл сохранен как файл output.xls, также показан ниже.
 
-**Book1.xls: файл Excel до каких-либо изменений**
+**Book1.xls: Файл Excel до любых изменений**
 
-![дело:изображение_альтернативный_текст](display-or-hide-scroll-bars-in-aspose-cells_1.png)
+![todo:image_alt_text](display-or-hide-scroll-bars-in-aspose-cells_1.png)
 
-**output.xls: файл Excel после модификации**
+**output.xls: Файл Excel после изменений**
 
-![дело:изображение_альтернативный_текст](display-or-hide-scroll-bars-in-aspose-cells_2.png)
+![todo:image_alt_text](display-or-hide-scroll-bars-in-aspose-cells_2.png)
 
 **C#**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Creating a file stream containing the Excel file to be opened
 
@@ -61,10 +62,10 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **Скачать рабочий код**
+## **Скачать работающий код**
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Scroll%20Bars)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Scroll%20Bars)
 
-## **Скачать пример кода**
+## **Загрузить образец кода**
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

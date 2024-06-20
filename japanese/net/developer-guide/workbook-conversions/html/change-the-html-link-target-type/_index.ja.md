@@ -1,20 +1,21 @@
-﻿---
-title: HTML リンク ターゲット タイプの変更
+---
+title: HTMLリンクのターゲットタイプを変更する
 type: docs
 weight: 320
 url: /ja/net/change-the-html-link-target-type/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells では、HTML リンク ターゲット タイプを変更できます。 HTML リンクはこんな感じ
+Aspose.Cellsを使用すると、HTMLリンクのターゲットタイプを変更できます。HTMLリンクは以下のようになります。
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <a href="http://www.aspose.com/" target="_self">
 
 {{< /highlight >}}
 
-上記の HTML リンクの target 属性は **_self** です。 [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) プロパティを使用して、このターゲット属性を制御できます。このプロパティは、次の値を持つ [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) 列挙型を取ります。
+上記のHTMLリンクで、target属性が**_self**になっています。このtarget属性を[**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype)プロパティを使用して制御できます。このプロパティは以下の値を持つ[**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype)列挙型を受け入れます。
 
 - HtmlLinkTargetType.Blank
 - HtmlLinkTargetType.Parent
@@ -23,6 +24,6 @@ Aspose.Cells では、HTML リンク ターゲット タイプを変更できま
 
 {{% /alert %}}
 
-次のコードは、[**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype)財産。リンクターゲットタイプをに変更します**空欄**.デフォルトでは、**親**.
+次のコードは、[**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype)プロパティの使用方法を示しています。リンクのターゲットタイプを**blank**に変更します。デフォルトでは**parent**が設定されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeHtmlLinkTarget-1.cs" >}}

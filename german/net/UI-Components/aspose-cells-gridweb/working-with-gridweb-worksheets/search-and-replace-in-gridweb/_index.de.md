@@ -1,73 +1,76 @@
-﻿---
+---
 title: Suchen und Ersetzen in GridWeb
 type: docs
 weight: 90
-url: /de/net/search-and-replace-in-gridweb/
+url: /de/net/aspose-cells-gridweb/search-and-replace-in-gridweb/
+keywords: GridWeb,Suchen,Ersetzen
+description: In diesem Artikel wird erläutert, wie Sie in GridWeb suchen und ersetzen können.
 ---
+
 {{% alert color="primary" %}} 
 
-Eine der schnellsten Möglichkeiten, sich wiederholende Änderungen in einer großen Tabelle vorzunehmen, ist die Verwendung der Funktion „Suchen und Ersetzen“. Suchen hilft Ihnen, eine Textzeichenfolge oder Daten zu finden und sie durch einen neuen Wert zu ersetzen. Aspose.Cells. GridWeb bietet diese Funktion. Es ermöglicht Ihnen das Suchen und Ersetzen durch eine bestimmte Textzeichenfolge oder einen bestimmten Wert auf der Arbeitsblatt-Client-Seite über einen einfachen Dialog. Sie können sogar nach Teildaten suchen.
+Einer der schnellsten Wege, wiederholte Änderungen in einer großen Tabellenkalkulation vorzunehmen, besteht darin, die Suchen-und-Ersetzen-Funktion zu verwenden. Die Suchfunktion hilft Ihnen dabei, einen Textstring oder Daten zu finden, und die Ersetzen-Funktion ersetzt diesen durch einen neuen Wert. Aspose.Cells.GridWeb bietet diese Funktion. Sie ermöglicht es Ihnen, clientseitig nach einem spezifischen Textstring oder Wert zu suchen und diesen durch einen einfachen Dialog zu ersetzen. Sie ermöglicht es Ihnen sogar, nach Teildaten zu suchen.
 
 {{% /alert %}} 
 ## **Arbeiten mit Suchen/Ersetzen**
-### **Der Dialog Suchen/Ersetzen**
-Es gibt zwei Möglichkeiten, das Dialogfeld „Suchen/Ersetzen“ zu öffnen:
+### **Der Suchen/Ersetzen-Dialog**
+Es gibt zwei Möglichkeiten, den Suchen/Ersetzen-Dialog zu öffnen:
 
-1.  Wenn die Steuerung aktiv ist, drücken Sie**STRG+F** um das Dialogfeld zu öffnen, oder drücken Sie**STRG+R** Taste, um den Dialog mit der zu öffnen**Ersetzen** Schaltfläche aktiviert.
-1.  Bewegen Sie den Cursor auf den Zellenbereich im Arbeitsblatt und klicken Sie dann mit der rechten Maustaste. Wählen**Finden** oder**Ersetzen** aus dem Menü.
+1. Wenn die Steuerung aktiv ist, drücken Sie **STRG+F**, um den Dialog zu öffnen, oder drücken Sie die **STRG+R**-Taste, um den Dialog mit der **Ersetzen**-Schaltfläche zu öffnen.
+1. Bewegen Sie den Cursor in den Zellenbereich des Arbeitsblatts, dann klicken Sie mit der rechten Maustaste. Wählen Sie **Suchen** oder **Ersetzen** aus dem Menü. 
 
    **Auswählen von Suchen** 
 
-![todo: Bild_alt_Text](search-and-replace-in-gridweb_1.png)
+![todo:image_alt_text](search-and-replace-in-gridweb_1.png)
 
 
 
 
- Ein Stildialog wird angezeigt.
+Ein Stiledialog wird angezeigt. 
 
-**Der Dialog Suchen/Ersetzen** 
+**Der Suchen/Ersetzen-Dialog** 
 
-![todo: Bild_alt_Text](search-and-replace-in-gridweb_2.png)
-### **Verwenden von Suchen**
-Suchen:
+![todo:image_alt_text](search-and-replace-in-gridweb_2.png)
+### **Suchen verwenden**
+Um zu suchen:
 
-1. Öffnen Sie das Dialogfeld „Suchen/Ersetzen“.
-1.  Geben Sie die Zeichenfolge ein, nach der Sie suchen möchten**Finde was** Gebiet.
-1.  Klicken**Nächstes finden** suchen.
+1. Öffnen Sie den Suchen/Ersetzen-Dialog.
+1. Geben Sie den String, den Sie suchen möchten, in das Feld **Suchen nach** ein.
+1. Klicken Sie auf **Nächster suchen**, um zu suchen.
 
 Die nächste Zelle, die Ihrer Suchbedingung entspricht, wird hervorgehoben.
 
 {{% alert color="primary" %}} 
 
-Wenn Ihr Suchkriterium nicht gefunden wird, wird ein Dialog angezeigt, der Sie darüber informiert.
+Wenn Ihr Suchkriterium nicht gefunden wird, wird ein Dialog angezeigt, um Sie zu informieren.
 
 {{% /alert %}} 
 ### **Suchoptionen**
-Es gibt einige Suchoptionen, die Sie im Dialogfeld anpassen können. Die folgende Tabelle listet sie auf.
+Es gibt einige Suchoptionen, die Sie im Dialog anpassen können. Die Tabelle unten listet sie auf.
 
-|**Nein.** |**Optionsname** |**Beschreibung** |
-|:- |:- |:- |
-|1 | Streichholzschachtel| Gibt an, ob bei der Suche zwischen Groß- und Kleinschreibung unterschieden werden soll.|
-|2 | Ganzes Wort abgleichen| Gibt an, ob bei der Suche nach ganzen Wörtern gesucht werden soll.|
-|3 | Nachschlagen|Gibt an, ob die Suche von unten nach oben durchgeführt wird.|
-|4 | Regulären Ausdruck| Wenn diese Option aktiviert ist, behandelt das Steuerelement die Zeichenfolge im Textfeld Suchen nach als regulären Ausdruck im Suchprozess.|
-|5 | Suchen Sie in Formeln/Werte| Wenn Formeln ausgewählt ist, stimmt das Steuerelement mit der Formel oder dem unformatierten Wert der Zellen überein, wenn die Formel oder der unformatierte Wert vorhanden ist. Wenn die Werte ausgewählt sind, stimmt das Steuerelement nur mit dem angezeigten Wert der Zellen überein.|
-### **Verwendung von Ersetzen**
-So ersetzen Sie Text oder Werte:
+|**Nr.** |**Optionsname** |**Beschreibung** |
+| :- | :- | :- |
+|1 |Groß-/Kleinschreibung beachten |Gibt an, ob die Suche auf Groß- und Kleinschreibung achtet. |
+|2 |Ganze Wörter suchen |Gibt an, ob ganze Wörter bei der Suche berücksichtigt werden. |
+|3 |Nach oben suchen |Gibt an, ob die Suche von unten nach oben durchgeführt wird. |
+|4 |Regulärer Ausdruck |Wenn aktiviert, behandelt das Steuerelement den Text im Feld „Suchen nach“ als regulären Ausdruck im Suchvorgang. |
+|5 |In Formeln/Werten suchen |Wenn „Formeln“ ausgewählt ist, prüft das Steuerelement die Formel oder den nicht formatierten Wert der Zellen, sofern die Formel oder der nicht formatierte Wert vorhanden ist. Wenn „Werte“ ausgewählt ist, prüft das Steuerelement nur den angezeigten Wert der Zellen. |
+### **Verwenden von Ersetzen**
+Zum Ersetzen von Text oder Werten:
 
-1.  Öffnen Sie das Dialogfeld „Suchen/Ersetzen“, indem Sie auf drücken**STRG+F** , oder wählen Sie aus, klicken Sie mit der rechten Maustaste auf eine Zelle, und wählen Sie sie aus**Finden** vor dem Klicken**Ersetzen**.
-1.  Geben Sie die Ersetzungszeichenfolge in die ein**Ersetzen mit** Gebiet.
-1.  Klicken**Ersetzen**.
+1. Öffnen Sie das Dialogfeld „Suchen/Ersetzen“, indem Sie **STRG+F** drücken, oder klicken Sie mit der rechten Maustaste auf eine Zelle und wählen Sie **Suchen** aus, bevor Sie auf **Ersetzen** klicken.
+1. Geben Sie den Ersetzungstext im Feld „Ersetzen durch“ ein.
+1. Klicken Sie auf **Ersetzen**.
 
-So ersetzen Sie Text:
+Um Text zu ersetzen:
 
 1. Öffnen Sie das Dialogfeld.
-1.  Geben Sie den gesuchten Text ein**Finde was** Feld und den Text, durch den Sie es ersetzen möchten, im**Ersetzen mit** Gebiet.
-1.  Ersetzen Sie jeweils ein Vorkommen, indem Sie auf klicken**Nächstes finden** gefolgt von**Ersetzen**.
-1.  Wenn Sie sich sehr sicher sind, was das Arbeitsblatt enthält, klicken Sie auf**Alles ersetzen**.
+1. Geben Sie den Text ein, den Sie im Feld „Suchen nach“ finden möchten, und den Text, durch den Sie ihn im Feld „Ersetzen durch“ ersetzen möchten.
+1. Ersetzen Sie jeweils ein Vorkommen, indem Sie zuerst auf **Weitersuchen** und dann auf **Ersetzen** klicken.
+1. Wenn Sie sehr sicher sind, was sich auf dem Arbeitsblatt befindet, klicken Sie auf **Alle ersetzen**.
 
 {{% alert color="primary" %}} 
 
- Wenn sich das Arbeitsblatt nicht im Bearbeitungsmodus befindet, wird die**Ersetzen** Schaltfläche wird nicht angezeigt.
+Wenn sich das Arbeitsblatt nicht im Bearbeitungsmodus befindet, wird die Schaltfläche „Ersetzen“ nicht angezeigt.
 
 {{% /alert %}}

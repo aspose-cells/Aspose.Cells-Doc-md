@@ -1,28 +1,29 @@
-﻿---
-title: Tabellen drucken
+---
+title: Tabellenkalkulationen ausdrucken
 type: docs
 weight: 20
 url: /de/net/print-spreadsheets/
 ---
-Die Seiteneinrichtungseinstellungen bieten auch mehrere Druckoptionen (auch als Blattoptionen bezeichnet), mit denen Benutzer ihre gedruckten Seiten von Arbeitsblättern steuern können. Mit diesen Druckoptionen können Benutzer:
 
-- Wählen Sie einen bestimmten Druckbereich des Arbeitsblatts aus
+Auch die Seiteneinrichtungseinstellungen bieten mehrere Druckoptionen (auch als Blattoptionen bezeichnet), die es Benutzern ermöglichen, ihre gedruckten Arbeitsblätterseiten zu steuern. Diese Druckoptionen ermöglichen es Benutzern:
+
+- einen bestimmten Druckbereich des Arbeitsblatts auszuwählen
 - Titel drucken
-- Rasterlinien drucken
+- Gitternetzlinien drucken
 - Zeilen-/Spaltenüberschriften drucken
-- Erzielen Sie Entwurfsqualität
+- Entwurfsqualität erzielen
 - Kommentare drucken
-- Cell Fehler drucken
+- Zellenfehler drucken
 - Seitenreihenfolge definieren
-  **Druck-/Blattoptionen einstellen**
+  **Einstellung von Druck-/Blattoptionen**
 
-Aspose.Cells unterstützt alle diese Druckoptionen und Entwickler können diese Optionen einfach für ihre gewünschten Arbeitsblätter konfigurieren, indem sie die verschiedenen Eigenschaften verwenden, die von der PageSetup-Klasse angeboten werden. Die Verwendung dieser Eigenschaften der PageSetup-Klasse wird unten ausführlicher erörtert.
+Aspose.Cells unterstützt all diese Druckoptionen, und Entwickler können diese Optionen für ihre gewünschten Arbeitsblätter mithilfe der verschiedenen von der PageSetup-Klasse angebotenen Eigenschaften einfach konfigurieren. Die Verwendung dieser Eigenschaften der PageSetup-Klasse wird im Folgenden detaillierter erläutert.
 ## **Druckbereich festlegen**
-Standardmäßig ist nur der Druckbereich ausgewählt, der den gesamten Bereich des Arbeitsblatts umfasst, der Daten enthält, aber Entwickler können auch einen bestimmten Druckbereich des Arbeitsblatts nach ihren Wünschen festlegen.
+Standardmäßig wird nur der Druckbereich ausgewählt, der den gesamten Bereich des Arbeitsblatts enthält, der Daten enthält. Entwickler können jedoch auch einen spezifischen Druckbereich des Arbeitsblatts gemäß ihren Wünschen festlegen.
 
- Um einen bestimmten Druckbereich auszuwählen, können Entwickler set**Druckbereich** Methode der**Seiteneinrichtung** Klasse. Sie können dieser Methode den Zellbereich des Druckbereichs als Argument übergeben.
+Um einen spezifischen Druckbereich auszuwählen, können Entwickler die Methode **PrintArea** der Klasse **PageSetup** verwenden. Sie können als Argument den Zellenbereich des Druckbereichs an diese Methode übergeben.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -39,11 +40,11 @@ pageSetup.PrintArea = "A1:T35";
 
 {{< /highlight >}}
 ## **Drucktitel festlegen**
- Aspose.Cells ermöglicht es Ihnen, Zeilen- und Spaltenüberschriften festzulegen, die auf allen Seiten Ihres gedruckten Arbeitsblatts wiederholt werden sollen. Dazu können Entwickler set**PrintTitleColumns** und**setPrintTitleRows** Methoden der**Seiteneinrichtung** Klasse.
+Aspose.Cells ermöglicht es Ihnen, Zeilen- und Spaltenüberschriften festzulegen, die auf allen Seiten Ihres gedruckten Arbeitsblatts wiederholt werden sollen. Entwickler können dazu die Methoden **PrintTitleColumns** und **PrintTitleRows** der Klasse **PageSetup** verwenden.
 
-Die Zeilen oder Spalten (die auf allen Seiten des gedruckten Arbeitsblatts wiederholt werden sollen) werden durch die Übergabe ihrer Zeilen- oder Spaltennummer definiert. Beispielsweise werden Zeilen als \ $1: \ $2 und Spalten als \ $A: \ $B definiert.
+Die Zeilen oder Spalten (die auf allen Seiten des gedruckten Arbeitsblatts wiederholt werden sollen) werden durch Übergeben ihrer Zeilen- oder Spaltennummern definiert. Zum Beispiel werden Zeilen als \ $1: \ $2 und Spalten als \ $A: \ $B definiert.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -62,19 +63,19 @@ pageSetup.PrintTitleColumns = "$A:$B";
 pageSetup.PrintTitleRows = "$1:$2";
 
 {{< /highlight >}}
-## **Legen Sie andere Druckoptionen fest**
-**Seiteneinrichtung** Die Klasse bietet auch mehrere andere Methoden zum Festlegen allgemeiner Druckoptionen wie folgt:
+## **Andere Druckoptionen festlegen**
+Die Klasse **PageSetup** bietet auch mehrere andere Methoden zum Festlegen allgemeiner Druckoptionen an, wie folgt:
 
-- **setPrintGridline-Methode** , wird dieser Methode ein boolescher Parameter übergeben, der definiert, ob Gitternetzlinien gedruckt werden oder nicht
-- **setPrintHeadings-Methode** wird dieser Methode ein boolescher Parameter übergeben, der definiert, ob Zeilen- und Spaltenüberschriften gedruckt werden sollen oder nicht
-- **setBlackAndWhite-Methode** , wird dieser Methode ein boolescher Parameter übergeben, der definiert, ob das Arbeitsblatt im Schwarzweißmodus gedruckt werden soll oder nicht
-- **setPrintComments-Methode** , legt fest, ob die Druckkommentare auf dem Arbeitsblatt oder am Ende des Arbeitsblatts angezeigt werden
-- **setPrintDraft-Methode** , wird dieser Methode ein boolescher Parameter übergeben, der definiert, ob das Arbeitsblatt in Entwurfsqualität gedruckt werden soll oder nicht
-- **setPrintErrors-Methode** , definiert, ob Zellfehler als angezeigt, leer, Bindestrich oder N/A gedruckt werden
+- **setPrintGridline s Methode**, ein boolescher Parameter wird an diese Methode übergeben, der definiert, ob Gitternetzlinien gedruckt werden sollen oder nicht
+- **setPrintHeadings Methode**, ein boolescher Parameter wird an diese Methode übergeben, der definiert, ob Zeilen- und Spaltenüberschriften gedruckt werden sollen oder nicht
+- **setBlackAndWhite Methode**, ein boolescher Parameter wird an diese Methode übergeben, der definiert, ob das Arbeitsblatt im Schwarz-Weiß-Modus gedruckt werden soll oder nicht
+- **setPrintComments Methode**, definiert, ob die Druckkommentare auf dem Arbeitsblatt angezeigt werden sollen oder am Ende des Arbeitsblatts
+- **setPrintDraft Methode**, ein boolescher Parameter wird an diese Methode übergeben, der definiert, ob das Arbeitsblatt in Entwurfsqualität gedruckt werden soll oder nicht
+- **setPrintErrors Methode**, definiert, ob Zellenfehler wie angezeigt, leer, Bindestrich oder N/A gedruckt werden sollen
 
- Satz verwenden**Kommentare drucken** und einstellen**Druckfehler** Methoden stellt Aspose.Cells auch zwei Aufzählungen bereit, PrintCommentsType & PrintErrorsType, die vordefinierte Werte enthalten, die an Parameter übergeben werden, um die Methoden PrintComments bzw. PrintErrors festzulegen.
+Um die Methoden **PrintComments** und **PrintErrors** zu verwenden, bietet Aspose.Cells auch zwei Aufzählungen, PrintCommentsType & PrintErrorsType, die vordefinierte Werte enthalten, die den Methoden zum Festlegen von PrintComments und PrintErrors entsprechend übergeben werden.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -110,13 +111,13 @@ pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
 
 {{< /highlight >}}
 ## **Seitenreihenfolge festlegen**
-**Seiteneinrichtung**Die Klasse stellt die Set-Order-Methode bereit, die verwendet wird, um mehrere Seiten Ihres Arbeitsblatts zum Drucken anzuordnen. Es gibt zwei Möglichkeiten, die Seiten wie folgt anzuordnen:
+Die Klasse **PageSetup** bietet eine Methode zum Setzen der Reihenfolge, die verwendet wird, um mehrere Seiten Ihres Arbeitsblatts zu drucken. Es gibt zwei Möglichkeiten, die Seiten zu ordnen, wie folgt:
 
-Nach unten, dann nach oben, daher werden alle Seiten nach unten gedruckt, bevor die Seiten nach rechts gedruckt werden
-Über dann nach unten, daher werden Seiten von links nach rechts gedruckt, bevor die Seiten darunter gedruckt werden
-Aspose.Cells bietet eine Aufzählung, PrintOrderType, die alle vordefinierten Auftragstypen enthält, die der setPage Order-Methode zugewiesen werden sollen.
+Zunächst nach unten, sodass alle Seiten erst nach unten und dann nach rechts gedruckt werden
+Erst nach rechts, sodass die Seiten von links nach rechts und dann von oben nach unten gedruckt werden
+Aspose.Cells bietet eine Aufzählung, PrintOrderType, die alle vordefinierten Reihenfolgen enthält, die der Methode setPage Order zugewiesen werden können.
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiating a Workbook object
 
@@ -132,5 +133,5 @@ pageSetup.Order = PrintOrderType.OverThenDown;
 
 {{< /highlight >}}
 ## **Beispielcode herunterladen**
-- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [Bit Bucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Print%20Spreadsheet%20with%20Options%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Print%20Spreadsheet%20with%20Options%20%28Aspose.Cells%29.zip)

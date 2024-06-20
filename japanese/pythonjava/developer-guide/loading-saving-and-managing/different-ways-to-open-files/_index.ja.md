@@ -1,39 +1,40 @@
-﻿---
+---
 title: ファイルを開くさまざまな方法
 type: docs
 weight: 10
 url: /ja/python-java/different-ways-to-open-files/
 ---
+
 {{% alert color="primary" %}}
 
-Aspose.Cells を使用すると、ファイルを開いてデータを取得したり、デザイナー テンプレートを使用して開発プロセスをスピードアップしたりすることが簡単になります。
+Aspose.Cellsを使用すれば、たとえばデータを取得したり、開発プロセスを高速化するためのデザイナー テンプレートを使用したりするために、ファイルを開くことは簡単です。
 
 {{% /alert %}}
 
-## **パス経由でファイルを開く**
+## **パスを介してファイルを開く**
 
-開発者は、ローカル コンピューター上のファイル パスを使用して Microsoft Excel ファイルを開くことができます。**[ワークブック](https://reference.aspose.com/cells/python-java/asposecells.api/ワークブック)**クラス コンストラクタ。コンストラクターにパスを渡すだけです。*ストリング*Aspose.Cells は、ファイル形式の種類を自動的に検出します。
+開発者は、*string*としてパスをコンストラクタに指定することで、ローカルコンピュータ上のMicrosoft Excelファイルを開くことができます。Aspose.Cellsは自動的にファイル形式を検出します。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenFileViaPath.py" >}}
 
-## **ストリーム経由でファイルを開く**
+## **ストリームを介してファイルを開く**
 
-Excel ファイルをストリームとして開くのも簡単です。これを行うには、コンストラクターのオーバーロードされたバージョンを使用します。*バッファストリーム*ファイルを含むオブジェクト。
+Excelファイルをストリームとして簡単に開くこともできます。ファイルを含む*BufferStream*オブジェクトを使用するオーバーロードされたコンストラクターを使用します。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenFileViaStream.py" >}}
 
-## **データのみのファイルを開く**
+## **データのみでファイルを開く**
 
-データのみのファイルを開くには、**[LoadOptions](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)**と**[LoadFilter](https://reference.aspose.com/cells/python-java/asposecells.api/LoadFilter)**classes を使用して、ロードするテンプレート ファイルの関連する属性とクラスのオプションを設定します。
+データのみを含むファイルを開くには、関連する属性とオプションを設定するために、[**LoadOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)および[**LoadFilter**](https://reference.aspose.com/cells/python-java/asposecells.api/LoadFilter)クラスを使用して、ロードするテンプレートファイルのクラスの関連属性とオプションを設定してください。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenFilewithDataOnly.py" >}}
 
 {{% alert color="primary" %}}
 
-Aspose.Cells までにネイティブでない Excel ファイルまたはその他のファイル形式 (PPT/PPTX、DOC/DOCX など) を開こうとすると、例外がスローされます。
+大規模なスプレッドシートをロードする際に、{0}コンストラクタが*System.OutOfMemoryException*をスローする可能性がかなり高いです。この例外は、利用可能なメモリが不十分であるため、スプレッドシート全体を完全にメモリに読み込むことができず、メモリ設定を有効にしてスプレッドシートをロードする必要があることを示しています。
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-かなりの可能性があります**[ワークブック](https://reference.aspose.com/cells/python-java/asposecells.api/ワークブック)**コンストラクターがスローする可能性があります*System.OutOfMemoryException*大きなスプレッドシートの読み込み中。この例外は、スプレッドシートをメモリに完全にロードするには使用可能なメモリが不足していることを示しているため、メモリ設定を有効にしてスプレッドシートをロードする必要があります。
+[**Workbook**](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)コンストラクタが大規模なスプレッドシートをロードする際に*System.OutOfMemoryException*をスローする可能性がかなり高いです。この例外は、利用可能なメモリが不足していることを示しており、スプレッドシートを完全にロードするために必要なメモリが不足している可能性があるため、メモリ設定を有効にしてスプレッドシートをロードする必要があります。
 
 {{% /alert %}}

@@ -1,33 +1,34 @@
-﻿---
-title: تصدير البيانات من أوراق العمل
+---
+title: تصدير البيانات من الأوراق العمل
 type: docs
 weight: 40
 url: /ar/java/export-data-from-worksheets/
 ---
+
 ## **Aspose.Cells - تصدير البيانات من أوراق العمل**
-لا يتيح Aspose.Cells لمستخدميه استيراد البيانات إلى أوراق العمل من مصادر البيانات الخارجية فحسب ، بل يسمح لهم أيضًا بتصدير بيانات ورقة العمل إلى مصفوفة.
+تتيح Aspose.Cells لمستخدميها ليس فقط استيراد البيانات إلى أوراق العمل من مصادر بيانات خارجية ولكنها تسمح أيضًا لهم بتصدير بيانات ورق العمل إلى مصفوفة.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- // إنشاء دفق ملف يحتوي على ملف Excel ليتم فتحه
+ //Creating a file stream containing the Excel file to be opened
 
-FileInputStream fstream = جديد FileInputStream (dataDir + "workbook.xls") ؛
+FileInputStream fstream = new FileInputStream(dataDir + "workbook.xls");
 
-// إنشاء كائن مصنف
+//Instantiating a Workbook object
 
-مصنف المصنف = مصنف جديد (fstream) ؛
+Workbook workbook = new Workbook(fstream);
 
-// الوصول إلى ورقة العمل الأولى في ملف Excel
+//Accessing the first worksheet in the Excel file
 
-ورقة عمل ورقة العمل = workbook.getWorksheets (). get (0)؛
+Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// تصدير محتويات 7 صفوف وعمودين بدءًا من الخلية الأولى إلى المصفوفة.
+//Exporting the contents of 7 rows and 2 columns starting from 1st cell to Array.
 
-كائن dataTable [] [] = workheet.getCells (). exportArray (4،0،7،8) ؛
+Object dataTable [][] = worksheet.getCells().exportArray(4,0,7,8);
 
- لـ (int i = 0 ؛ i< dataTable.length ; i++)
+for (int i = 0 ; i < dataTable.length ; i++)
 
 {
 
@@ -40,14 +41,14 @@ FileInputStream fstream = جديد FileInputStream (dataDir + "workbook.xls") ؛
 fstream.close();
 
 {{< /highlight >}}
-## **قم بتنزيل كود التشغيل**
+## **تحميل رمز التشغيل**
 
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **تنزيل نموذج التعليمات البرمجية**
-- [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/ExportDataFromWorksheets.java)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **تحميل رمز عينة**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/ExportDataFromWorksheets.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[تصدير البيانات من أوراق العمل](/java/exporting-data-from-worksheets).
+لمزيد من التفاصيل، قم بزيارة [تصدير البيانات من ورق العمل](/java/exporting-data-from-worksheets).
 
 {{% /alert %}}

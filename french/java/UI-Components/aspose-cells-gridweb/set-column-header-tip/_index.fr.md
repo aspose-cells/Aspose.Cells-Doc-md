@@ -1,18 +1,19 @@
 ---
-title: Définir l’astuce de l’en-tête de colonne
+title: Définir l astuce de l en tête de colonne
 type: docs
 weight: 90
 url: /fr/java/set-column-header-tip/
 ---
-##  **Scénarios d'utilisation possibles**
-Vous devrez peut-être définir une info-bulle pour votre colonne personnalisée lors de la création du tableau dans la feuille de calcul. Aspose.Cells.GridWeb vous permet de renommer la légende d'une colonne et vous pouvez définir une info-bulle sur la colonne, afin que les utilisateurs puissent facilement comprendre à quoi sert la colonne.
-##  **Définition de l'astuce de l'en-tête de colonne**
-Un exemple complet est donné ci-dessous pour montrer comment modifier les légendes des colonnes et appliquer le texte d'une info-bulle. Après avoir exécuté l'exemple de code, le texte de l'info-bulle apparaîtra lorsque vous placerez le curseur de la souris sur l'en-tête de la colonne spécifiée.
 
-##  **Exemple de code**
-Voici l'exemple de code du**test.jsp** déposer.
+## **Scénarios d'utilisation possibles**
+Vous pourriez avoir besoin de définir une info-bulle pour votre colonne personnalisée lors de la création du tableau dans la feuille de calcul. Aspose.Cells.GridWeb vous permet de renommer la légende d'une colonne et vous pouvez définir une info-bulle pour la colonne, afin que les utilisateurs puissent facilement comprendre à quoi sert la colonne.
+## **Définition de l'astuce de l'en-tête de colonne**
+Un exemple complet est donné ci-dessous pour démontrer comment modifier les légendes des colonnes et appliquer du texte d'info-bulle. Après l'exécution du code d'exemple, le texte d'info-bulle apparaîtrait lorsque vous placez le curseur de la souris sur l'en-tête de la colonne spécifiée.
 
-{{< highlight "java" >}}
+## **Code d'exemple**
+Voici le code d'exemple du fichier **test.jsp**.
+
+{{< highlight java >}}
 
  <%@ page language="java" contentType="text/html; charset=UTF-8"
 

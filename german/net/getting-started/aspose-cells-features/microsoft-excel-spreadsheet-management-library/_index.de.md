@@ -1,84 +1,85 @@
-﻿---
-title: Microsoft Excel-Tabellenverwaltungsbibliothek
+---
+title: Microsoft Excel Tabellenkalkulationsverwaltungsbibliothek
 type: docs
 weight: 20
 url: /de/net/microsoft-excel-spreadsheet-management-library/
 ---
-## **Aspose.Cells – Microsoft Excel-Tabellenverwaltungsbibliothek**
+
+## **Aspose.Cells – Microsoft Excel Tabellenkalkulationsverwaltungsbibliothek**
 ### **Dokumentfunktionen**
 - Öffnen Sie einfache oder verschlüsselte Microsoft Excel-Dateien (Excel97 - Excel2007/2010/2013) aus verschiedenen Quellen.
-- Speichern Sie Excel-Dateien (Excel 97 - Excel2007/2010/2013) in verschiedenen Formaten (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tabulatorgetrennt, 4819 usw.)
-- Konvertieren Sie die Excel-Datei in das Dokument PDF.
-- Konvertieren Sie die Excel-Tabelle in das Dokument XPS.
-- In Tagged Image File Format konvertieren (TIFF).
-- Lesen und schreiben Sie das Format OpenDocument Spreadsheet (ODS).
+- Speichern Sie Excel-Dateien (Excel 97 - Excel2007/2010/2013) in verschiedenen Formaten (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tabulatorgetrennt, TSV, HTML usw.)
+- Konvertieren Sie eine Excel-Datei in ein PDF-Dokument.
+- Konvertieren Sie ein Excel-Arbeitsblatt in ein XPS-Dokument.
+- Konvertieren Sie in das Tagged Image File Format (TIFF).
+- Lesen und Schreiben Sie im OpenDocument Spreadsheet (ODS) Format.
 - Ändern Sie die Dokumenteigenschaften von Excel-Dateien.
 ### **Arbeitsblattfunktionen**
 #### **Anzeigeoptionen**
-- Blenden Sie ein Arbeitsblatt ein oder aus.
-- Blenden Sie Registerkarten, Bildlaufleisten, Gitternetzlinien sowie Zeilen- und Spaltenüberschriften ein oder aus.
-- Seitenumbrüche in der Vorschau anzeigen.
-- Legen Sie die Zoomstufe für das Arbeitsblatt fest.
-- Lassen Sie ausgewählte Daten sichtbar bleiben, während Sie mit Freeze-Fenstern scrollen.
+- Ein Arbeitsblatt ausblenden oder anzeigen.
+- Registerkarten, Bildlaufleisten, Gitternetzlinien und Zeilen- und Spaltenüberschriften anzeigen oder ausblenden.
+- Seitenwechselvorschau.
+- Zoomstufe für das Arbeitsblatt festlegen.
+- Ausgewählte Daten beim Scrollen sichtbar lassen, indem Sie Bereiche fixieren.
 #### **Arbeitsblattschutz**
-- Schützen Sie Inhalte, Objekte und Szenarien eines Arbeitsblatts.
+- Inhalt, Objekte und Szenarien eines Arbeitsblatts schützen.
 #### **Seiteneinrichtungsoptionen**
-- Legen Sie Seitenausrichtung, Skalierung, Papiergröße, Druckqualität usw. fest.
-- Legen Sie Seitenränder wie oben, links, rechts, unten usw. fest.
-- Legen Sie Kopf- und Fußzeilen fest.
-- Druckbereich, Drucktitel etc. festlegen
+- Seitenorientierung, Skalierung, Papiersatz, Druckqualität usw. festlegen.
+- Seitenränder wie oben, links, rechts, unten usw. festlegen.
+- Kopf- und Fußzeilen festlegen.
+- Druckbereich, Drucktitel usw. festlegen.
 #### **Seitenumbrüche**
-- Fügt horizontale und vertikale Seitenumbrüche an einer bestimmten Zelle ein.
-### **Funktionen für Zeilen und Spalten**
-- Zeilenhöhe anpassen.
+- Fügen Sie horizontale und vertikale Seitenumbrüche an einer bestimmten Zelle ein.
+### **Zeilen & Spalten Funktionen**
+- Passen Sie die Zeilenhöhe an.
 - Passen Sie die Spaltenbreite nach Bedarf an.
-- Passen Sie die Breite und Höhe von Zellen automatisch an ihren Inhalt an.
-- Zeilen und Spalten einfügen oder löschen.
-- Zeilen und Spalten ein- oder ausblenden.
-- Zeilen und Spalten gruppieren oder Gruppierung aufheben.
-### **Datenverwaltungsfunktionen**
+- Passen Sie die Breite und Höhe der Zellen automatisch anhand ihres Inhalts an.
+- Fügen Sie Zeilen und Spalten ein oder löschen Sie sie.
+- Blenden Sie Zeilen und Spalten ein oder aus.
+- Gruppieren oder trennen Sie Zeilen und Spalten.
+### **Datenmanagement Funktionen**
 - Greifen Sie auf eine beliebige Zelle im Arbeitsblatt zu.
 - Fügen Sie zur Laufzeit Daten zu gewünschten Zellen hinzu.
 - Importieren Sie Daten aus verschiedenen Datenquellen in Arbeitsblätter.
-- Rufen Sie Daten aus Zellen gemäß ihren Datentypen ab.
-- Zelldaten in DataTable exportieren.
-- Finden oder suchen Sie nach bestimmten Daten in Zellen.
-- Legen Sie Formeln mit integrierten oder Add-in-Funktionen fest.
-- Legen Sie die Formel für den Array- und R1C1-Referenzstil fest.
+- Rufen Sie Daten aus Zellen gemäß ihrer Datentypen ab.
+- Exportieren Sie Zellendaten in eine DataTable.
+- Suchen Sie nach bestimmten Daten in Zellen.
+- Setzen Sie Formeln mit integrierten oder Add-In-Funktionen.
+- Setzen Sie Array- und R1C1-Bezugsstilformeln.
 - Fügen Sie verschiedene Arten von Hyperlinks hinzu.
-- Benannte Bereiche erstellen oder darauf zugreifen.
-- Wenden Sie Datenvalidierung und automatische Filterung an.
+- Erstellen oder greifen Sie auf benannte Bereiche zu.
+- Wenden Sie Datenüberprüfung und Auto-Filterung an.
 ### **Formatierungsfunktionen**
-- Wenden Sie verschiedene Stile auf Zellen an.
-- Zahlenformateinstellungen auf Zellen anwenden.
+- Verschiedene Stile auf Zellen anwenden.
+- Nummernformat-Einstellungen auf Zellen anwenden.
 - Zelle als Datum formatieren.
 - Textausrichtung festlegen.
 - Mehrere Zellen zusammenführen.
-- Wenden Sie verschiedene Arten von Schriftarteinstellungen auf Zellen an.
-- Wenden Sie verschiedene Farben auf Zellen, Schriftarten, Gitterlinien, Grafikobjekte usw. an.
-- Legen Sie Rich-Text in einer einzelnen Zelle fest.
-- Wenden Sie verschiedene Randeinstellungen auf Zellen an.
-- Wenden Sie verschiedene Hintergrundmuster auf Zellen an.
-- Wenden Sie Formateinstellungen auf ein Arbeitsblatt, eine Zeile oder Spalte usw. an.
-- Wenden Sie bedingte Formatierung auf Zellen an.
+- Verschiedene Arten von Schrifteinstellungen auf Zellen anwenden.
+- Verschiedene Farben auf Zellen, Schriften, Gitterlinien, Grafikobjekte usw. anwenden.
+- Rich-Text in einer einzelnen Zelle einstellen.
+- Verschiedene Rahmen-Einstellungen auf Zellen anwenden.
+- Verschiedene Hintergrundmuster auf Zellen anwenden.
+- Formatierungseinstellungen auf einem Arbeitsblatt, einer Zeile oder Spalte usw. anwenden.
+- Bedingte Formatierung auf Zellen anwenden.
 ### **Diagramm- und Grafikfunktionen**
-- Unterstützt alle gängigen Diagrammtypen wie Säulen, Balken, Linien, Torten, Scatter usw.
-- Erstellen Sie ganz einfach verschiedene Arten von Diagrammen.
-- Passen Sie Diagramme an, indem Sie ihre verschiedenen Eigenschaften festlegen.
-- Legen Sie Daten für die Diagramme dynamisch fest.
-- Fügen Sie mit API benutzerdefinierte Diagramme zu Arbeitsblättern hinzu.
+- Unterstützt alle Standarddiagrammtypen wie Säule, Balken, Linie, Kuchen, Streu usw.
+- Leicht verschiedene Arten von Diagrammen erstellen.
+- Diagramme anpassen, indem ihre verschiedenen Eigenschaften festgelegt werden.
+- Daten für Diagramme dynamisch festlegen.
+- Mit der API benutzerdefinierte Diagramme zu Arbeitsblättern hinzufügen.
 - Bilder zur Laufzeit zu Arbeitsblättern hinzufügen.
-- Erstellen und fügen Sie Kommentare zu Zellen hinzu.
-- Diagramm in Bilddatei umwandeln.
+- Kommentare zu Zellen erstellen und hinzufügen.
+- Diagramm in Bilddatei konvertieren.
 - Arbeitsblatt in Bilddatei konvertieren.
 - Arbeitsblätter drucken.
 ### **Erweiterte Funktionen**
-- Erstellen Sie Designer-Tabellen und arbeiten Sie mit Smart Markern.
-- Schnelle Formelberechnungen durch eine robuste Formelberechnungs-Engine.
-- Greifen Sie von COM-Clients auf Aspose.Cells zu.
-- Quelldaten einer Pivot-Tabelle zur Laufzeit ändern.
-- Erstellen und bearbeiten Sie Pivot-Tabellen.
-- Manipulieren Sie VBA-Code oder Makros.
+- Designer-Tabellenkalkulationen erstellen und mit Smart Markern arbeiten.
+- Formelberechnungen schnell mit einem robusten Formelberechnungsmotor durchführen.
+- Auf Aspose.Cells von COM-Clients zugreifen.
+- Quelldaten eines Pivot-Tabellenformats zur Laufzeit ändern.
+- Pivot-Tabellen erstellen und manipulieren.
+- VBA-Code oder Makros manipulieren.
 ### **Unterstützte Plattformen**
-- Desktop-Anwendung Windows
-- Enterprise-Webanwendung
+- Desktop-Windows-Anwendung
+- Unternehmens-Webanwendung

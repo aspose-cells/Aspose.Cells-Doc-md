@@ -1,10 +1,11 @@
-﻿---
-title: Erstellen Sie ein Style-Objekt mit der CellsFactory-Klasse
+---
+title: Stilobjekt mit der CellsFactory Klasse erstellen
 type: docs
 weight: 1040
 url: /de/java/create-style-object-using-cellsfactory-class/
 ---
-## **Erstellen Sie ein Style-Objekt mit der CellsFactory-Klasse**
- Der folgende Beispielcode erstellt[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) Objekt verwenden[CellsFactory](https://reference.aspose.com/cells/java/com.aspose.cells/CellsFactory) Klasse und legt dann den Standardstil der Arbeitsmappe fest. Bitte laden Sie die herunter[Excel-Datei ausgeben](5472583.xlsx) um die Ergebnisse dieses Codes als Referenz anzuzeigen.
+
+## **Erstellen Sie Style-Objekt mit der Klasse CellsFactory**
+Der folgende Beispielcode erstellt ein [Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)-Objekt mithilfe der [CellsFactory](https://reference.aspose.com/cells/java/com.aspose.cells/CellsFactory)-Klasse und setzt dann den Standardstil des Arbeitsbuchs. Laden Sie bitte die [Ausgabedatei Excel](5472583.xlsx) herunter, um die Ergebnisse dieses Codes zu sehen und zur Verwendung als Referenz.
 ## **Beispielcode**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateStyleobjectusingCellsFactoryclass-CreateStyleobjectusingCellsFactoryclass.java" >}}

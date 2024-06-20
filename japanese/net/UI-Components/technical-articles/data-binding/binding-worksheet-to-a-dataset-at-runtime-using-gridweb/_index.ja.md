@@ -1,15 +1,18 @@
-﻿---
-title: GridWeb を使用して実行時にワークシートを DataSet にバインドする
+---
+title: GridWebを使用した実行時のデータセットへのワークシートのバインディング
 type: docs
 weight: 70
-url: /ja/net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
+url: /ja/net/aspose-cells-gridweb/bind-worksheet-to-a-dataset/
+keywords: GridWeb,bind,DataSet
+description: この記事では、GridWebにデータセットをバインドする方法について紹介します。
 ---
-## **考えられる使用シナリオ**
-Aspose.Cells.GridWeb は、DataSet をワークシートに動的にバインドするために使用できる簡単な API を提供します。
-## **ワークシートを DataSet にバインドする**
-次のサンプル コードは、実行時に Worksheet を DataSet にバインドする方法を説明しています。
+
+## **可能な使用シナリオ**
+Aspose.Cells.GridWebはデータセットをワークシートに動的にバインドするために使用できる簡単なAPIを提供します。
+## **データセットをワークシートにバインド**
+次のサンプルコードは、実行時にデータセットをワークシートにバインドする方法を説明しています。
 ## **サンプルコード**
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Implementing Page_Load event handler
 
@@ -81,6 +84,6 @@ public partial class GridBind : System.Web.UI.Page
 
 {{< /highlight >}}
 ## **出力スクリーンショット**
-次のスクリーンショットは、上記のサンプル コードを実行した後の GridWeb を示しています。
+以下のスクリーンショットは、上記のサンプルコード実行後のGridWebを示しています。
 
-![todo:画像_代替_文章](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)
+![todo:image_alt_text](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

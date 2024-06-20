@@ -1,37 +1,38 @@
-﻿---
+---
 title: Insertar rebanador
-linktitle: Rebanadoras
+linktitle: Rebanadores
 type: docs
 weight: 170
 url: /es/net/create-slicer/
-description: Administre cortadoras de archivos de Excel con Aspose.Cells.
+description: Gestionar rebanadores de archivos de Excel con Aspose.Cells.
 ---
-## **Posibles escenarios de uso**
 
- Se utiliza una segmentación para filtrar datos rápidamente. Se puede usar para filtrar datos tanto en una tabla como en una tabla dinámica. Microsoft Excel le permite crear una segmentación seleccionando una tabla o una tabla dinámica y luego haciendo clic en el*Insertar > Cortador*. Aspose.Cells también le permite crear una segmentación usando el[**Hoja de trabajo.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index)método.
+## **Escenarios de uso posibles**
 
-## **Crear segmentación en una tabla dinámica**
+Un segmentador se usa para filtrar datos rápidamente. Puede usarse para filtrar datos tanto en una tabla como en una tabla dinámica. Microsoft Excel le permite crear un segmentador seleccionando una tabla o tabla dinámica y luego haciendo clic en *Insertar > Segmentador*. Aspose.Cells también le permite crear un segmentador usando el método [**Worksheet.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index).
 
- Consulte el siguiente código de ejemplo. carga el[ejemplo de archivo de Excel](67338470.xlsx) que contiene la tabla dinámica. A continuación, crea la segmentación en función del primer campo pivote base. Finalmente, guarda el libro de trabajo en[salida XLSX](67338471.xlsx) y[salida XLSB](67338472.xlsb) formato. La siguiente captura de pantalla muestra la segmentación creada por Aspose.Cells en el archivo de salida de Excel.
+## **Crear Cortador para una Tabla Dinámica**
 
-![todo:imagen_alternativa_texto](create-slicer-to-a-pivot-table_1.png)
+Por favor, consulte el siguiente código de ejemplo. Carga el [archivo de Excel de muestra](67338470.xlsx) que contiene la tabla dinámica. Luego crea el rebanador basado en el primer campo de la tabla pivote. Finalmente, guarda el libro de trabajo en formato [XLSX de salida](67338471.xlsx) y [XLSB de salida](67338472.xlsb). La siguiente captura de pantalla muestra el rebanador creado por Aspose.Cells en el archivo de Excel de salida.
+
+![todo:image_alt_text](create-slicer-to-a-pivot-table_1.png)
 
 ### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-CreateSlicerToPivotTable.cs" >}}
 
-## **Crear Slicer a tabla de Excel**
+## **Crear Cortador para Tabla de Excel**
 
- Consulte el siguiente código de ejemplo. carga el[ejemplo de archivo de Excel](sampleCreateSlicerToExcelTable.xlsx) que contiene una tabla. Luego crea la segmentación basada en la primera columna. Finalmente, guarda el libro de trabajo en[salida XLSX](outputCreateSlicerToExcelTable.xlsx) formato.
+Por favor, consulte el siguiente código de ejemplo. Carga el [archivo de Excel de muestra](sampleCreateSlicerToExcelTable.xlsx) que contiene una tabla. Luego crea el rebanador basado en la primera columna. Finalmente, guarda el libro de trabajo en formato [XLSX de salida](outputCreateSlicerToExcelTable.xlsx).
 
 ### **Código de muestra**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-CreateSlicerToExcelTable-1.cs" >}}
 
 ## **Temas avanzados**
-- [Cambiar las propiedades de la segmentación](/cells/es/net/change-slicer-properties/)
-- [Dibuje Slicer mientras renderiza Excel a PDF](/cells/es/net/draw-slicer-while-rendering-excel-to-pdf/)
-- [Cortador de formato](/cells/es/net/formatting-slicer/)
-- [Eliminación de la cortadora](/cells/es/net/removing-slicer/)
-- [Cortador de renderizado](/cells/es/net/rendering-slicer/)
-- [Actualizar rebanador](/cells/es/net/updating-slicer/)
+- [Cambiar propiedades del rebanador](/cells/es/net/change-slicer-properties/)
+- [Dibujar un rebanador al renderizar Excel a PDF](/cells/es/net/draw-slicer-while-rendering-excel-to-pdf/)
+- [ Formatear rebanador](/cells/es/net/formatting-slicer/)
+- [Eliminar rebanador](/cells/es/net/removing-slicer/)
+- [Renderización de rebanador](/cells/es/net/rendering-slicer/)
+- [Actualización de rebanador](/cells/es/net/updating-slicer/)

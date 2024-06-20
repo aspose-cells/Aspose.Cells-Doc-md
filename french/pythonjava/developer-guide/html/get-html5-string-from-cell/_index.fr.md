@@ -1,19 +1,20 @@
-﻿---
-title: Obtenir la chaîne HTML5 de Cell
+---
+title: Obtenir la chaîne HTML5 à partir de la cellule
 type: docs
 weight: 40
 url: /fr/python-java/get-html5-string-from-cell/
 ---
-## **Obtenir la chaîne HTML5 de Cell**
-En utilisant Aspose.Cells for Python via Java, vous pouvez obtenir la chaîne HTML à partir de la cellule. Ceci peut être réalisé en utilisant le[getHtmlString(booléen html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) méthode fournie par le API. Si vous réussissez**faux**en paramètre, il vous renverra Normal HTML mais si vous passez**vrai**en tant que paramètre, il renverra la chaîne HTML5.
 
-L'exemple de code suivant crée un objet classeur et ajoute du texte dans la cellule A1 de la première feuille de calcul. Il obtient ensuite la chaîne Normal HTML et HTML5 de la cellule A1 à l'aide de la[getHtmlString(booléen html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) et les imprime.
-## **Exemple de code**
+## **Obtenir une chaîne HTML5 à partir de la cellule**
+En utilisant Aspose.Cells pour Python via Java, vous pouvez obtenir la chaîne HTML à partir de la cellule. Cela peut être réalisé en utilisant la méthode [getHtmlString(boolean html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)). Si vous passez **false** comme paramètre, cela vous renverra un HTML normal, mais si vous passez **true** comme paramètre, cela vous renverra une chaîne HTML5.
+
+Le code d'exemple suivant crée un objet classeur et ajoute du texte dans la cellule A1 de la première feuille de calcul. Il obtient ensuite la chaîne HTML normale et HTML5 de la cellule A1 en utilisant la méthode [getHtmlString(boolean html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) et les affiche.
+## **Code d'exemple**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-GetHTML5StringFromCell.py" >}}
 
-Voici la sortie générée par l'extrait de code fourni ci-dessus.
-## **Production**
-{{< highlight "java" >}}
+Ce qui suit est la sortie générée par l'extrait de code fourni ci-dessus.
+## **Sortie**
+{{< highlight java >}}
 
  Normal:
 

@@ -1,17 +1,18 @@
-﻿---
-title: ارسم الجدول الزمني أثناء تحويل Excel إلى PDF
+---
+title: رسم الجدول الزمني أثناء تحويل إكسيل إلى PDF
 type: docs
 weight: 60
 url: /ar/java/draw-timeline-while-rendering-excel-to-pdf/
-description: إدارة الجداول الزمنية لملفات Excel مع Aspose.Cells لـ Java.
-keywords: Rendering timeline to pdf without office 2013, office 2016, office 2019 and office 365
+description: إدارة جداول زمنية لملفات Excel بواسطة Aspose.Cells For Java.
+keywords: تحويل الجدول الزمني إلى PDF بدون Office 2013، Office 2016، Office 2019 وOffice 365
 ---
-## **ارسم الجدول الزمني أثناء تحويل Excel إلى PDF**
-إذا كان لديك ملف Excel تم تطبيق جدول زمني عليه وتريد تصدير ملف Excel إلى PDF مع إعدادات الخط الزمني ، فإن Aspose.Cells for Java يدعمه الآن بشكل افتراضي. يمكنك ببساطة تصدير ملف Excel مع الجدول الزمني إلى PDF ، وسيظهر PDF الذي تم إنشاؤه الجدول الزمني المطبق.
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](input.xlsx) الذي يحتوي على جدول زمني موجود. ثم يحفظ المصنف باسم[ملف الإخراج PDF](out.pdf). تقارن لقطة الشاشة التالية بين ملف Excel المصدر وملف PDF الذي تم إنشاؤه.
+## **رسم الجدول الزمني أثناء تحويل Excel إلى PDF**
+إذا كان لديك ملف Excel يحتوي على جدول زمني وترغب في تصدير Excel إلى PDF مع إعدادات الجدول الزمني، يدعم Aspose.Cells for Java الآن ذلك ابتداءً. كل ما عليك فعله هو تصدير ملف Excel مع الجدول الزمني إلى PDF، سيعرض PDF المولد الجدول الزمني المطبق.
+
+الكود النموذجي التالي يحمل [ملف Excel عيني](input.xlsx) الذي يحتوي على جدول زمني موجود. ثم يحفظ المصنف كـ [ملف PDF الناتج](out.pdf). اللقطة الشاشية التالية تقارن ملف Excel المصدر بالملف PDF المعدل.
 
 <img src="out.png" width="60%">
 
-## **عينة من الرموز**
+## **الكود المثالي**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Timelines-DrawTimelinetoPdf.java" >}}

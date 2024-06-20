@@ -1,16 +1,17 @@
-﻿---
-title: チャートを画像に変換
+---
+title: グラフを画像に変換
 type: docs
 weight: 10
 url: /ja/net/convert-chart-to-images/
 ---
-## **Aspose.Cells - チャートを画像に変換**
-グラフは視覚的に魅力的であり、ユーザーはデータの比較、パターン、および傾向を簡単に確認できます。
-Chart クラスの toImage メソッドは、チャートをディスクまたはストリームに保存できる画像ファイルに変換します。
+
+## **Aspose.Cells - グラフを画像に変換**
+グラフは視覚的に魅力があり、ユーザーがデータの比較、パターン、傾向を見るのが簡単です。
+Chart クラスの toImage メソッドは、チャートを画像ファイルに変換し、ディスクまたはストリームに保存できます。
 
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  // Instantiating a Workbook object
 
@@ -63,13 +64,13 @@ Chart chart = charts[chartIndex];
 chart.ToImage("AsposeChartImage.png", ImageFormat.Png);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**チャートを画像に変換**以下のソーシャル コーディング サイトのいずれかを形成します。
+## **ランニングコードのダウンロード**
+以下のソーシャルコーディングサイトから **グラフを画像に変換** をダウンロードしてください。
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[チャートを画像に変換する](/cells/ja/net/converting-chart-to-image-in-svg-format/).
+詳細については、[グラフを画像に変換](/cells/ja/net/converting-chart-to-image-in-svg-format/)をご覧ください。
 
 {{% /alert %}}

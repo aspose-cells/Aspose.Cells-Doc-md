@@ -1,14 +1,15 @@
-﻿---
-title: ワークブック内でワークシートを移動する
+---
+title: ブック内のワークシートの移動
 type: docs
 weight: 30
 url: /ja/net/move-worksheets-within-workbook/
 ---
-Aspose.Cells は、ワークシートをスプレッドシート内の別の場所に移動するために使用される Aspose.Cells.Worksheet.MoveTo() メソッドを提供します。このメソッドは、対象のワークシート インデックスをパラメーターとして受け取ります。
 
-次の例は、ワークシートをブック内の別の場所に移動する方法を示しています。
+Aspose.Cellsは、スプレッドシート内の別の場所にワークシートを移動するために使用されるAspose.Cells.Worksheet.MoveTo()メソッドを提供します。メソッドは移動先のワークシートのインデックスをパラメータとして取ります。
 
-{{< highlight "csharp" >}}
+次の例は、ワークブック内でワークシートを別の場所に移動する方法を示しています。
+
+{{< highlight csharp >}}
 
  string FilePath = @"..\..\..\Sample Files\";
 
@@ -40,5 +41,5 @@ wb.Save(FileName);
 
 {{< /highlight >}}
 ## **サンプルコードをダウンロード**
-- [ギットハブ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
-- [ビットバケット](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)
+- [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Move%20Worksheet%20%28Aspose.Cells%29.zip)

@@ -1,23 +1,24 @@
-﻿---
-title: パブリック API Aspose.Cells の変更点 8.6.3
+---
+title: Aspose.Cells 8.6.3の公開API変更
 type: docs
 weight: 230
 url: /ja/java/public-api-changes-in-aspose-cells-8-6-3/
 ---
+
 {{% alert color="primary" %}} 
 
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.6.2 から 8.6.3 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加されたクラスだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
+このドキュメントは、Aspose.Cells APIの8.6.2から8.6.3への変更について記載しており、モジュール／アプリケーション開発者に関心がある可能性のある変更を説明しています。新しいおよび更新された公開メソッド、追加されたクラスだけでなく、Aspose.Cellsの裏側の挙動に変更がある場合も含まれています。
 
 {{% /alert %}} 
-## **追加された API**
-### **データのインポート中の HTML 解析のサポート**
-Aspose.Cells for Java API のこのリリースでは、ImportTableOptions.setHtmlString 属性が公開されています。この属性は、API がワークシートにデータをインポートする際に HTML タグを解析し、解析結果をセル値として設定するように指示します。 Aspose.Cells API は、単一のセルに対してこのタスクを実行するために、Cell.setHtmlString 属性を既に提供していますが、データを一括でインポートしている間、ImportTableOptions.setHtmlString 属性 (true に設定されている場合) は、サポートされているすべての HTML タグとセットを解析しようとします。解析された結果を対応するセルに。
+## **APIの追加**
+### **データをインポートする際のHTMLパースのサポート**
+Aspose.Cells for Java APIのこのリリースでは、ImportTableOptions.setHtmlString属性が公開され、この属性をtrueに設定するとAPIはワークシートにデータをインポートする際にHTMLタグを解析し、解析結果をセルの値として設定します。Aspose.Cells APIは既にCell.setHtmlString属性を提供しており、単一のセルでこのタスクを実行できますが、大量のデータをインポートする際には、ImportTableOptions.setHtmlString属性を使用することで（trueに設定した場合）、サポートされているすべてのHTMLタグを解析し、解析結果を対応するセルに設定しようとします。
 
-これが最も単純な使用シナリオです。
+以下は最もシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //create an instance of ImportTableOptions
 
@@ -32,14 +33,14 @@ importOptions.setHtmlString(true);
 cells.importData(iTable, 0, 0, importOptions);
 
 {{< /highlight >}}
-### **メソッド Workbook.createBuiltinStyle が追加されました**
-Aspose.Cells for Java 8.6.3 は Workbook.createBuiltinStyle メソッドを公開しました。このメソッドを使用して、Style クラスのオブジェクトを作成できます。[Excel アプリケーションによって提供される組み込みスタイル](/cells/ja/java/using-built-in-styles/)Workbook.createBuiltinStyle メソッドは、列挙型 BuiltinStyleType から定数を受け取ります。 Aspose.Cells API の以前のリリースでは、StyleCollection.createBuiltinStyle メソッドを使用して同じタスクを実行できましたが、Aspose.Cells API の最近のリリースでは StyleCollection クラスが削除されたため、新しく公開された Workbook.createBuiltinStyle メソッドを別の方法と見なすことができます。同じことを達成します。
+### **Workbook.createBuiltinStyleメソッドの追加**
+Aspose.Cells for Java 8.6.3では、Workbook.createBuiltinStyleメソッドが公開されました。このメソッドは、Excelアプリケーションによって提供される[組み込みスタイル](/cells/ja/java/using-built-in-styles/)の一つに対応するStyleクラスのオブジェクトを作成するために使用できます。Workbook.createBuiltinStyleメソッドは、列挙型BuiltinStyleTypeの定数を受け入れます。以前のAspose.Cells APIのリリースでは、同じタスクはStyleCollection.createBuiltinStyleメソッドを使用して実行できましたが、最近のAspose.Cells APIのリリースではStyleCollectionクラスが削除されたため、新しく公開されたWorkbook.createBuiltinStyleメソッドは同じ目的を達成するための代替アプローチとして考えられます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -52,14 +53,14 @@ Workbook book = new Workbook();
 Style style = book.createBuiltinStyle(BuiltinStyleType.TITLE);
 
 {{< /highlight >}}
-### **プロパティ LoadDataOption.OnlyVisibleWorksheet が追加されました**
-Aspose.Cells for Java 8.6.3 は LoadDataOption.OnlyVisibleWorksheet プロパティを公開しました。このプロパティを true に設定すると、Aspose.Cells for Java API の読み込みメカニズムに影響を与えます。その結果、特定のスプレッドシートから表示されているワークシートのみが読み込まれます。
+### **LoadDataOption.OnlyVisibleWorksheetプロパティの追加**
+Aspose.Cells for Java 8.6.3では、LoadDataOption.OnlyVisibleWorksheetプロパティが公開されました。これをtrueに設定すると、指定されたスプレッドシートからのみ表示されるワークシートがロードされます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadDataOption
 
@@ -84,8 +85,8 @@ loadOptions.setLoadDataOptions(loadDataOptions);
 Workbook book = new Workbook(inputFilePath, loadOptions);
 
 {{< /highlight >}}
-## **廃止された API**
-### **メソッド Worksheet.copyConditionalFormatting 廃止されました**
-Worksheet.copyConditionalFormatting メソッドの代わりに、Cells.copyRows または Range.copy メソッドのいずれかを使用することをお勧めします。
-### **プロパティ Cells.End 廃止**
-Cells.End プロパティの代わりに Cells.LastCell プロパティを使用してください。
+## **非推奨API**
+### **Worksheet.copyConditionalFormattingメソッドの廃止**
+Worksheet.copyConditionalFormattingメソッドの代替として、Cells.copyRowsまたはRange.copyのいずれかを使用することが推奨されています。
+### **Cells.Endプロパティの廃止**
+Cells.Endプロパティの代わりにCells.LastCellプロパティを使用してください。

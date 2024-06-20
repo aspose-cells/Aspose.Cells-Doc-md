@@ -1,34 +1,35 @@
 ---
-title: 行と列を反復する
+title: 行および列の反復処理
 type: docs
 weight: 50
 url: /ja/java/iterate-rows-and-columns/
-description: Aspose.Cells for Java API を使用して行と列を反復する方法を学習します。
-keywords: How to Iterate Rows and Columns in Java, Iterate Rows using Java, Java Iterate Columns. 
+description: Aspose.Cells for JavaAPIを使用して行と列をイテレートする方法を学ぶ。
+keywords: Javaで行と列をイテレートする方法、Javaを使用して行をイテレートする方法、Javaで列をイテレートする方法。 
 ---
-##  **Aspose.Cells for Java を使用して行と列を反復する方法**
 
-行と列のコレクションを使用して、行と列を反復できます。
+## **Aspose.Cells for Javaを使用して行と列をイテレートする方法。**
+
+行と列は、行と列のコレクションを使用してイテレートすることができます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //最大表示範囲にアクセスする
+ //Access the Maximum Display Range
 
-範囲範囲 = worksheet.getCells().getMaxDisplayRange();
+Range range = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("合計行数:" + trows);
+System.out.println("Total Rows:" + trows);
 
-System.out.println("合計列数:" + tcols);
+System.out.println("Total Cols:" + tcols);
 
-RowCollection 行 = cell.getRows();
+RowCollection rows = cells.getRows();
 
- for (int i = 0 ; i< rows.getCount() ; i++)
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -46,13 +47,13 @@ RowCollection 行 = cell.getRows();
 
 {{< /highlight >}}
 
-##  **Apache POI SS - HSSF XSSF - 行と列の反復**
+## **Apache POI SS - HSSF XSSF - 行と列をイテレートする。**
 
-行と Cells はシート上で反復できます。サンプルコードを以下に示します。
+Sheet上で行とセルをイテレートすることができます。以下にサンプルコードが記載されています。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Workbook wb = WorkbookFactory.create(inStream);
 
@@ -74,11 +75,11 @@ for (Row row : sheet)
 
 {{< /highlight >}}
 
-##  **実行コードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 
-##  **サンプルコードをダウンロード**
+## **サンプルコードをダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/iterate)
 

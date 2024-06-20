@@ -1,132 +1,133 @@
-﻿---
-title: Отображение диаграммы
-linktitle: В изображение или PDF
+---
+title: Отображение диаграмм
+linktitle: В изображение или в PDF
 type: docs
 weight: 40
 url: /ru/java/chart-rendering/
 ---
+
 ## **Создание диаграмм**
 
- Aspose.Cells API-интерфейсы поддерживают создание различных диаграмм Excel, как описано в разделе[Создание и настройка диаграмм Excel](/cells/ru/java/creating-and-customizing-charts/). Чтобы продемонстрировать использование API-интерфейсов Aspose.Cells для отображения диаграмм в формате изображения и PDF, мы создадим диаграмму типа «Столбец» в соответствии со следующим фрагментом.
+API Aspose.Cells поддерживает создание различных диаграмм Excel, как подробно описано в разделе [Создание и настройка диаграмм Excel](/cells/ru/java/creating-and-customizing-charts/). Для демонстрации использования API Aspose.Cells для рендеринга диаграмм в формате изображения и PDF создадим диаграмму типа столбцы в соответствии с приведенным ниже фрагментом.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
-## **Отображение диаграмм**
+## **Диаграммы отображения**
 
- API-интерфейсы Aspose.Cells поддерживают преобразование диаграмм Excel в изображения и форматы PDF без каких-либо дополнительных инструментов или приложений. Чтобы обеспечить поддержку рендеринга,[**Диаграмма**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)класс выставил[**изображать**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**вPDF**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) методы с множеством перегрузок для наилучшего соответствия требованиям приложения.
+API Aspose.Cells поддерживает преобразование диаграмм Excel в изображения и форматы PDF без необходимости дополнительных инструментов или приложений. Для обеспечения поддержки рендеринга класс [**Chart**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) предоставил методы [**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) и [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) с различными вариантами перегрузки, наилучшим образом соответствующим требованиям приложения.
 
-### **Преобразование диаграмм в изображения**
+### **Отображение диаграмм в изображения**
 
-[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) имеет множество перегрузок для поддержки как простого, так и расширенного рендеринга. Если требование приложения состоит в том, чтобы отображать диаграмму в размерах по умолчанию, мы предлагаем вам использовать[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) следующим образом.
+У метода [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) есть различные варианты перегрузки, поддерживающие простой и продвинутый рендеринг. Если требуется рендерить диаграмму в ее размере по умолчанию, мы предлагаем использовать метод [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) вот так.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-RenderChartsToImages-RenderChartsToImages.java" >}}
 
-Также возможно преобразовать диаграммы в изображения с расширенными настройками. Aspose.Cells API-интерфейсы предоставили перегруженную версию[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions) ) метод, который может принимать экземпляр[**Имажеорпринтоптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)при этом позволяя указывать такие параметры, как разрешение, подсказки рендеринга, формат изображения и так далее.
+Также возможно рендерить диаграммы в изображения с продвинутыми настройками. API Aspose.Cells предоставляет версию перегрузки метода [**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)), которая может принимать экземпляр [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) и позволяет указать параметры, такие как разрешение, подсказки рисования, формат изображения и т. д.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
-### **График рендеринга на PDF**
+### **Отображение диаграммы в формат PDF**
 
- Чтобы отобразить диаграмму в формате PDF, API-интерфейсы Aspose.Cells предоставили[**Диаграмма.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) метод с возможностью сохранения результирующего PDF в пути к диску или в экземпляре OutputStream.
+Для рендеринга диаграмм в формат PDF API Aspose.Cells предоставляет метод [**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) с возможностью сохранить полученный PDF по пути на диске или экземпляру OutputStream.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
-## **Поддерживаемые типы диаграмм для визуализации**
+## **Поддерживаемые типы диаграмм для отображения**
 
- Есть несколько типов диаграмм, которые в настоящее время не поддерживаются для визуализации. Такие типы диаграмм содержат** Н** в**Поддерживаемый** столбец таблицы ниже.
+Есть несколько типов диаграмм, которые в настоящее время не поддерживаются для визуализации. Такие типы диаграмм содержат **N** в столбце **Supported** в таблице ниже.
 
-|**Тип диаграммы**|**Подтип диаграммы**|**Поддерживается**|
-|:- |:- |:- |
-|**Столбец**|Столбец|**Д**|
-||КолонкаС накоплением|**Д**|
-||Столбец100PercentStacked|**Д**|
-||Column3DClustered|**Д**|
-||Столбец3DStacked|**Д**|
-||Столбец3D100PercentStacked|**Д**|
-||Колонка3D|**Д**|
-|**Бар**|Бар|**Д**|
-||БарСложенный|**Д**|
-||Bar100PercentStacked|**Д**|
-||Bar3DCкластеризованный|**Д**|
-||Bar3DStacked|**Д**|
-||Bar3D100PercentStacked|**Д**|
-|**Линия**|Линия|**Д**|
-||LineStacked|**Д**|
-||Line100PercentStacked|**Д**|
-||LineWithDataMarkers|**Д**|
-||LineStackedWithDataMarkers|**Д**|
-||Line100PercentStackedWithDataMarkers|**Д**|
-||Линия3D|**Д**|
-|**пирог**|пирог|**Д**|
-||Пирог3D|**Д**|
-||пирог пирог|**Д**|
-||ПирогВзорван|**Д**|
-||Pie3DВзорван|**Д**|
-||Пиг-Бар|**Д**|
-|**Разброс**|Разброс|**Д**|
-||ScatterConnectedByCurvesWithDataMarker|**Д**|
-||ScatterConnectedByCurvesWithoutDataMarker|**Д**|
-||ScatterConnectedByLinesWithDataMarker|**Д**|
-||ScatterConnectedByLinesWithoutDataMarker|**Д**|
-|**Площадь**|Площадь|**Д**|
-||ПлощадьСложенный|**Д**|
-||Area100PercentStacked|**Д**|
-||Площадь3D|**Д**|
-||Площадь3DС накоплением|**Д**|
-||Area3D100PercentStacked|**Д**|
-|**Пончик**|Пончик|**Д**|
-||ПончикВзорван|**Д**|
-|**Радар**|Радар|**Д**|
-||Радарвисдатамаркерс|**Д**|
-||Радар заполнен|**Д**|
-|**Поверхность**|Поверхность3D|Н|
-||ПоверхностьКаркас3D|Н|
-||ПоверхностьКонтур|Н|
-||ПоверхностьКонтурКаркас|Н|
-|**Пузырь**|Пузырь|**Д**|
-||Пузырь3D|Н|
-|**Акции**|ЗапасВысокийНизкийЗакрыть|**Д**|
-||ЗапасОткрытыйВысокийНизкийЗакрыть|**Д**|
-||StockVolumeHighLowClose|**Д**|
-||StockVolumeOpenHighLowClose|**Д**|
-|**Цилиндр**|Цилиндр|**Д**|
-||ЦилиндрСложенный|**Д**|
-||Цилиндр100PercentStacked|**Д**|
-||ЦилиндрическийБар|**Д**|
-||ЦилиндрическийБарС накоплением|**Д**|
-||ЦилиндрическийBar100PercentStacked|**Д**|
-||ЦилиндрическаяКолонка3D|**Д**|
-|**Конус**|Конус|**Д**|
-||КонусСложенный|**Д**|
-||конус100процентов|**Д**|
-||КоническийБар|**Д**|
-||КоническийБарС накоплением|**Д**|
-||ConicalBar100PercentStacked|**Д**|
-||КоническаяКолонна3D|**Д**|
-|**Пирамида**|Пирамида|**Д**|
-||ПирамидаСложенный|**Д**|
-||Пирамида100PercentStacked|**Д**|
-||ПирамидаБар|**Д**|
-||ПирамидаБарС накоплением|**Д**|
-||PyramidBar100PercentStacked|**Д**|
-||ПирамидаКолонка3D|**Д**|
-|**КоробкаУискер**|КоробкаУискер|Д|
-|**Воронка**|Воронка|**Д**|
-|**ПаретоЛиния**|ПаретоЛиния|**Д**|
-|**солнечные лучи**|солнечные лучи|**Д**|
-|**Древовидная карта**|Древовидная карта|**Д**|
-|**Водопад**|Водопад|**Д**|
-|**Гистограмма**|Гистограмма|Д|
-|**карта**|карта|**Н**|
+|Тип диаграммы|Подтип диаграммы|Поддерживается|
+| :- | :- | :- |
+|**Column**|Column|**Y**|
+| |ColumnStacked|**Y**|
+| |Column100PercentStacked|**Y**|
+| |Column3DClustered|**Y**|
+| |Column3DStacked|**Y**|
+| |Column3D100PercentStacked|**Y**|
+| |Column3D|**Y**|
+|**Bar**|Bar|**Y**|
+| |BarStacked|**Y**|
+| |Bar100PercentStacked|**Y**|
+| |Bar3DClustered|**Y**|
+| |Bar3DStacked|**Y**|
+| |Bar3D100PercentStacked|**Y**|
+|**Line**|Line|**Y**|
+| |LineStacked|**Y**|
+| |Line100PercentStacked|**Y**|
+| |LineWithDataMarkers|**Y**|
+| |LineStackedWithDataMarkers|**Y**|
+| |Line100PercentStackedWithDataMarkers|**Y**|
+| |Line3D|**Y**|
+|**Pie**|Pie|**Y**|
+| |Pie3D|**Y**|
+| |PiePie|**Y**|
+| |PieExploded|**Y**|
+| |Pie3DExploded|**Y**|
+| |PieBar|**Y**|
+|**Scatter**|Scatter|**Y**|
+| |ScatterConnectedByCurvesWithDataMarker|**Y**|
+| |ScatterConnectedByCurvesWithoutDataMarker|**Y**|
+| |ScatterConnectedByLinesWithDataMarker|**Y**|
+| |ScatterConnectedByLinesWithoutDataMarker|**Y**|
+|**Area**|Area|**Y**|
+| |AreaStacked|**Y**|
+| |Area100PercentStacked|**Y**|
+| |Area3D|**Y**|
+| |Area3DStacked|**Y**|
+| |Area3D100PercentStacked|**Y**|
+|**Doughnut**|Doughnut|**Y**|
+| |DoughnutExploded|**Y**|
+|**Radar**|Radar|**Y**|
+| |RadarWithDataMarkers|**Y**|
+| |RadarFilled|**Y**|
+|**Surface**|Surface3D|N|
+| |SurfaceWireframe3D|N|
+| |SurfaceContour|N|
+| |SurfaceContourWireframe|N|
+|**Bubble**|Bubble|**Y**|
+| |Bubble3D|N|
+|**Stock**|StockHighLowClose|**Y**|
+| |StockOpenHighLowClose|**Y**|
+| |StockVolumeHighLowClose|**Y**|
+| |StockVolumeOpenHighLowClose|**Y**|
+|**Cylinder**|Cylinder|**Y**|
+| |CylinderStacked|**Y**|
+| |Cylinder100PercentStacked|**Y**|
+| |CylindricalBar|**Y**|
+| |CylindricalBarStacked|**Y**|
+| |CylindricalBar100PercentStacked|**Y**|
+| |CylindricalColumn3D|**Y**|
+|**Cone**|Cone|**Y**|
+| |ConeStacked|**Y**|
+| |Cone100PercentStacked|**Y**|
+| |ConicalBar|**Y**|
+| |ConicalBarStacked|**Y**|
+| |ConicalBar100PercentStacked|**Y**|
+| |ConicalColumn3D|**Y**|
+|**Pyramid**|Pyramid|**Y**|
+| |PyramidStacked|**Y**|
+| |Pyramid100PercentStacked|**Y**|
+| |PyramidBar|**Y**|
+| |PyramidBarStacked|**Y**|
+| |PyramidBar100PercentStacked|**Y**|
+| |PyramidColumn3D|**Y**|
+|**BoxWhisker**|BoxWhisker|Y|
+|**Funnel**|Funnel|**Y**|
+|**ParetoLine**|ParetoLine|**Y**|
+|**Sunburst**|Sunburst|**Y**|
+|**Treemap**|Treemap|**Y**|
+|**Waterfall**|Waterfall|**Y**|
+|**Histogram**|Histogram|Y|
+|**Map**|Map|**N**|
 
 {{% alert color="primary" %}}
 
-Если вы попытаетесь преобразовать неподдерживаемые типы диаграмм в изображение или PDF, вы можете получить изображения нулевого размера или пустое PDF.
+В случае попытки отобразить не поддерживаемые типы диаграмм в изображения или PDF, можно получить изображения нулевого размера или пустой PDF.
 
 {{% /alert %}}
 
 
-## **Предварительные темы**
+## **Продвинутые темы**
 - [Преобразование диаграммы в изображение в формате SVG](/cells/ru/java/converting-chart-to-image-in-svg-format/)
-- [Создайте диаграмму PDF с желаемым размером страницы](/cells/ru/java/create-chart-pdf-with-desired-page-size/)
+- [Создание PDF-файла диаграммы с выбранным размером страницы](/cells/ru/java/create-chart-pdf-with-desired-page-size/)
 - [Экспорт диаграммы в SVG с атрибутом viewBox](/cells/ru/java/export-chart-to-svg-with-viewbox-attribute/)

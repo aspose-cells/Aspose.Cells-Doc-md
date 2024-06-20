@@ -1,32 +1,35 @@
-﻿---
+---
 title: Lägga till eller infoga en kolumn i arbetsbladet
 type: docs
 weight: 10
-url: /sv/net/adding-or-inserting-a-column-into-worksheet/
+url: /sv/net/aspose-cells-griddesktop/add-or-insert-a-column-into-worksheet/
+keywords: GridDesktop,infoga,lägga till,kolumn,infoga kolumn,infoga rad
+description: Den här artikeln introducerar hur man infogar eller lägger till en kolumn i GridDesktop.
 ---
+
 {{% alert color="primary" %}} 
 
-I det här ämnet kommer vi att beskriva den grundläggande funktionen för att lägga till och infoga kolumner i kalkylbladen vid körning med hjälp av API eller Aspose.Cells.GridDesktop. Den grundläggande skillnaden mellan tillägg och infogning är att dessutom läggs kolumn till i slutet av kolumnsamlingen i kalkylbladet, där kolumnen, precis som vid infogning, kan läggas till på valfri specificerad position i kalkylbladet.
+I detta ämne beskriver vi den grundläggande funktionen att lägga till och infoga kolumner i arbetsblad vid körning med hjälp av API:et Aspose.Cells.GridDesktop. Den grundläggande skillnaden mellan tillägg och infogning är att vid tillägg läggs en kolumn till i slutet av kolumnernas samling i arbetsbladet medan vid infogning kan en kolumn läggas till på vilken specificerad position som helst i arbetsbladet.
 
 {{% /alert %}} 
-## **Lägga till en kolumn i arbetsbladet**
-För att lägga till en ny kolumn i kalkylbladet, följ stegen nedan:
+## **Lägger till en kolumn i arbetsbladet**
+För att lägga till en ny kolumn i arbetsbladet, följ stegen nedan:
 
--  Lägg till Aspose.Cells.GridDesktop-kontroll till din**Form**
--  Få åtkomst till alla önskade**Arbetsblad**
--  Lägg till**Kolumn** till**Arbetsblad**
+- Lägg till Aspose.Cells.GridDesktop kontroll till din **Form**
+- Kom åt något önskat **Kalkylblad**
+- Lägg till en **Kolumn** på **Arbetsbladet**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-AddInsertColumn-AddColumn.cs" >}}
 ## **Infoga en kolumn i arbetsbladet**
-För att infoga en ny kolumn i kalkylbladet på en angiven plats, följ stegen nedan:
+För att infoga en ny kolumn i arbetsbladet på en specificerad position, följ stegen nedan:
 
--  Lägg till Aspose.Cells.GridDesktop-kontroll till din**Form**
--  Få åtkomst till alla önskade**Arbetsblad**
--  Föra in**Kolumn** in i**Arbetsblad** (vid en specifik position genom att ange indexet för kolumnen där det ska infogas)
+- Lägg till Aspose.Cells.GridDesktop kontroll till din **Form**
+- Kom åt något önskat **Kalkylblad**
+- Infoga en **Kolumn** i **Arbetsbladet** (på en specifik position genom att ange index för kolumnen där den ska infogas)
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  // Accessing first worksheet of the Grid
 

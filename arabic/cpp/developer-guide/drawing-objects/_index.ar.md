@@ -1,4 +1,4 @@
-﻿---
+---
 title: كائنات الرسم
 type: docs
 weight: 76

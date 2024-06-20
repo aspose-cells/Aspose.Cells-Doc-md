@@ -1,34 +1,35 @@
 ---
-title: قم بتنفيذ محرك الحساب المخصص لتوسيع محرك الحساب الافتراضي لـ Aspose.Cells
+title: تنفيذ محرك الحساب المخصص لتوسيع محرك الحساب الافتراضي لـ Aspose.Cells
 type: docs
 weight: 590
 url: /ar/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/
 ---
+
 {{% alert color="primary" %}} 
 
-يحتوي Aspose.Cells على محرك حسابي قوي يمكنه حساب جميع صيغ Excel Microsoft تقريبًا. وعلى الرغم من ذلك، فإنه يسمح لك أيضًا بتوسيع محرك الحساب الافتراضي الذي يوفر لك قدرًا أكبر من القوة والمرونة.
+Aspose.Cells يمتلك محرك حساب قوي يمكنه حساب معظم صيغ Microsoft Excel تقريبًا. على الرغم من ذلك، يسمح لك أيضًا بتوسيع محرك الحساب الافتراضي مما يمنحك قوة ومرونة أكبر.
 
-يتم استخدام الخاصية والفئات التالية في تنفيذ هذه الميزة.
+يتم استخدام الخصائص والفئات التالية في تنفيذ هذه الميزة.
 
 - [CalculationOptions.CustomEngine](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#CustomEngine)
 - [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)
 - [CalculationData](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationData)
 
 {{% /alert %}} 
-##  **تنفيذ محرك الحساب المخصص**
-تطبق التعليمة البرمجية التالية محرك الحساب المخصص. وهو ينفذ الواجهة[AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) الذي له طريقة واحدة فقط[calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)). يتم استدعاء هذه الطريقة ضد كافة الصيغ الخاصة بك. داخل هذه الطريقة، نقوم بالتقاط**TODAY** وظيفة وإضافة يوم واحد إلى تاريخ النظام. لذا، إذا كان التاريخ الحالي هو 27/07/2023، فسيقوم المحرك المخصص بحساب TODAY() على أنه 28/07/2023.
+## **تنفيذ محرك الحساب المخصص**
+يقوم الكود التالي بتنفيذ محرك الحساب المخصص. ينفذ واجهة [AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) التي تحتوي على طريقة واحدة فقط [calculate(CalculationData data)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)). يتم استدعاء هذه الطريقة لجميع الصيغ الخاصة بك. داخل هذه الطريقة، نقوم بالتقاط وظيفة **TODAY** وإضافة يوم واحد إلى تاريخ النظام. لذا إذا كان التاريخ الحالي هو 27/07/2023، فسوف يقوم المحرك المخصص بحساب TODAY() كـ 28/07/2023.
 
-###  **عينة البرمجة**
+### **نموذج برمجة**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementCustomCalculationEngine-ImplementCustomCalculationEngine.java" >}}
 
-###  **نتيجة**
+### **النتيجة**
 
-يرجى التحقق من إخراج وحدة التحكم لنموذج التعليمات البرمجية أعلاه، ويجب أن تكون قيمة (التاريخ والوقت) لـ A1 مع المحرك المخصص بعد يوم واحد من النتيجة بدون محرك مخصص.
+يرجى التحقق من إخراج الوحدة لمثال الشفرة أعلاه ، يجب أن يكون قيمة (التاريخ والوقت) لـ A1 مع محرك مخصص بعد يوم واحد عن النتيجة بدون محرك مخصص.
 
-###  **مقالات لها صلة**
+### **مقال ذو صلة**
 {{% alert color="primary" %}} 
 
-- [الحساب المباشر للوظيفة المخصصة دون كتابتها في ورقة عمل](/cells/ar/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
+- [الحساب المباشر للوظيفة المخصصة دون كتابتها في ورقة العمل](/cells/ar/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)
 
 {{% /alert %}}

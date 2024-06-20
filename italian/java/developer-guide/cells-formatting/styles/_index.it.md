@@ -1,5 +1,5 @@
-﻿---
-title: Stile e formattazione dei dati
+---
+title: Styling e formattazione dei dati
 linktitle: Stili
 type: docs
 weight: 60

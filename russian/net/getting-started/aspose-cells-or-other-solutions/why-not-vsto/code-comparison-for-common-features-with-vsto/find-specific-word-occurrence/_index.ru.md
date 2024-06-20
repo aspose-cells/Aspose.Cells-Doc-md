@@ -1,11 +1,12 @@
-﻿---
-title: Найти определенное вхождение слова
+---
+title: Найти Определенное Вхождение Слова
 type: docs
 weight: 120
 url: /ru/net/find-specific-word-occurrence/
 ---
-## **ВСТО Excel**
-{{< highlight "csharp" >}}
+
+## **VSTO Excel**
+{{< highlight csharp >}}
 
  Excel.Application excelApp = Application;
 
@@ -42,9 +43,9 @@ excelApp.Quit();
 
 {{< /highlight >}}
 ## **Aspose.Cells**
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
- static void Main(string[]args)
+ static void Main(string[] args)
 
 {
 
@@ -116,7 +117,7 @@ private static void findNow(Worksheet objSheet, string textToFind)
 
 
 {{< /highlight >}}
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Find.Specific.Word.Occurrence.Aspose.Cells.zip)
-- [Источникфорж](https://sourceforge.net/p/asposevsto/wiki/Home/)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Find%20Specific%20Word%20Occurrence)
+## **Загрузить образец кода**
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Find.Specific.Word.Occurrence.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Find%20Specific%20Word%20Occurrence)

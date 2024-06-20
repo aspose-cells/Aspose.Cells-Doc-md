@@ -1,32 +1,33 @@
-﻿---
-title: CSV、TSV、TXT を Excel に変換
+---
+title: CSV、TSV、TXTをExcelに変換する
 type: docs
 weight: 50
 url: /ja/java/convert-csv-tsv-and-txt-to-excel/
 ---
+
 ## **CSV ファイルを開く**
 
-コンマ区切り値 (CSV) ファイルには、値がコンマで区切られているか、区切られているレコードが含まれています。 CSV ファイルでは、データは、フィールドがコンマ文字で区切られ、二重引用符で囲まれた表形式で保存されます。フィールドの値に二重引用符が含まれている場合は、二重引用符のペアでエスケープされます。 Microsoft Excel を使用して、スプレッドシート データを CSV ファイルにエクスポートすることもできます。
+コンマ区切り値（CSV）ファイルには、値がコンマで区切られ、二重引用符で引用されたレコードが含まれています。 CSVファイルでは、データはコンマ文字で区切られ、二重引用符によって引用されたフィールドで保管されています。フィールドの値に二重引用符文字が含まれている場合は、一対の二重引用符文字でエスケープされます。また、Microsoft Excelを使用して、スプレッドシートのデータをCSVファイルにエクスポートすることもできます。
 
-CSV ファイルを開くには、**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**クラスを選択し、**[CSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)**で定義済みの値**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**列挙。
+CSVファイルを開くには、[**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)クラスを使用して、[**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat) 列挙体で定義された[**CSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)値を選択してください。
 
 ## **例**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningCSVFiles-OpeningCSVFiles.java" >}}
 
-### **CSV ファイルを開いて無効な文字を置き換える**
+### **CSV ファイルを開くと無効な文字を置換する**
 
-Excel で、特殊文字を含む CSV ファイルを開くと、文字が自動的に置き換えられます。以下のコード例で示されている Aspose.Cells API でも同じことが行われます。
+ExcelでCSVファイルを開くと、特殊文字が自動的に置き換えられます。Aspose.CellsのAPIも同様に、以下のコード例に示されているように自動的に置き換えます。
 
 #### **例**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesAndReplacingInvalidCharacters-1.java" >}}
 
-## **優先パーサーを使用して CSV ファイルを開く**
+## **優先されるパーサを使用してCSVファイルを開く**
 
-これは、CSV ファイルを開くためにデフォルトのパーサー設定を使用するために常に必要なわけではありません。 CSV ファイルをインポートしても、日付形式が期待どおりでない、または空のフィールドが異なる方法で処理されるなど、期待される出力が作成されないことがあります。この目的のために**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**要件に応じてさまざまなデータ型を解析するための独自の優先パーサーを提供することができます。次のサンプル コードは、優先パーサーの使用方法を示しています。
+CSVファイルを開く際にはデフォルトのパーサ設定を使用する必要はありません。時々、CSVファイルのインポートが期待通りの出力を作成しないことがあります。たとえば、日付形式が期待通りでない、または空のフィールドが異なる方法で扱われるなどです。そのために、要件に応じて異なるデータ型を解析するための優先されるパーサを提供するために[**TxtLoadOptions.PreferredParsers**](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)が利用できます。以下のサンプルコードは、優先されるパーサの使用方法を示しています。  
 
-この機能をテストするためのサンプル ソース ファイルと出力ファイルは、次のリンクからダウンロードできます。
+この機能をテストするために、サンプルのソースファイルと出力ファイルを以下のリンクからダウンロードできます。
 
 [samplePreferredParser.csv](samplePreferredParser.csv)
 
@@ -36,17 +37,17 @@ Excel で、特殊文字を含む CSV ファイルを開くと、文字が自動
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesWithPreferredParser-1.java" >}}
 
-### **TSV(タブ区切り)ファイルを開く**
+### **TSV（タブ区切り）ファイルを開く**
 
-タブ区切りファイルにはスプレッドシート データが含まれますが、書式はありません。データは、テーブルやスプレッドシートなどの行と列に配置されます。簡単に言うと、タブ区切りファイルは、テキストの各列の間にタブがある特別な種類のプレーン テキスト ファイルです。
+タブ区切りファイルには、書式はありませんが、表やスプレッドシートのような行と列でデータが配置されています。要するに、タブ区切りファイルは、各列の間にタブがある通常のテキストファイルの特別な種類です。
 
-タブ区切りファイルを開くには、開発者は**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**クラスを選択し、**[TSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)**で定義済みの値**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**列挙。
+タブ区切りファイルを開くには、開発者は[**LoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)クラスを使用し、[**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)値を選択し、[**LoadFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)列挙型で事前定義する必要があります。
 
 ## **例**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningTabDelimitedFiles-OpeningTabDelimitedFiles.java" >}}
 
-## **先行トピック**
-- [数式を含む CSV ファイルのロードまたはインポート](/cells/ja/java/load-or-import-csv-file-with-formulas/)
-- [スプレッドシートを CSV 形式にエクスポートする際に、先頭の空白の行と列をトリミングする](/cells/ja/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+## **高度なトピック**
+- [数式を持つCSVファイルを読み込むまたはインポートする](/cells/ja/java/load-or-import-csv-file-with-formulas/)
+- [スプレッドシートをCSV形式にエクスポートする際に先行する空白行と列をトリミングします。](/cells/ja/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 

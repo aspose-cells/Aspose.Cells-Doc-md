@@ -1,15 +1,16 @@
-﻿---
+---
 title: Управление свойствами документа в PHP
 type: docs
 weight: 70
 url: /ru/java/managing-document-properties-in-php/
 ---
-## **Aspose.Cells — Добавление пользовательских свойств**
-Чтобы добавить пользовательские свойства документа, используя Aspose.Cells Java for PHP, позвоните**add_custom_property** метод**Документ** модуль.
+
+## **Aspose.Cells - Добавление пользовательских свойств**
+Чтобы добавить пользовательские свойства документа с помощью Aspose.Cells Java для PHP, вызовите метод **add_custom_property** модуля **Document**.
 
 **PHP-код**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiate a Workbook object by excel file path
 
@@ -45,7 +46,7 @@ $customProperties->remove("Publisher");
 $workbook->save($dataDir . "Test_Workbook_RemovedProperty.xls");
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Доступ к свойствам документа (Aspose.Cells)**с любого из нижеперечисленных сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузить **Доступ к свойствам документа (Aspose.Cells)** с любого из указанных ниже сайтов социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

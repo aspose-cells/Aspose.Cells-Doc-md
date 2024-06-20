@@ -1,84 +1,85 @@
-﻿---
-title: Microsoft Biblioteca de gestión de hojas de cálculo de Excel
+---
+title: Biblioteca de gestión de hojas de cálculo de Microsoft Excel
 type: docs
 weight: 20
 url: /es/net/microsoft-excel-spreadsheet-management-library/
 ---
-## **Aspose.Cells – Microsoft Biblioteca de gestión de hojas de cálculo de Excel**
+
+## **Aspose.Cells – Biblioteca de gestión de hojas de cálculo de Microsoft Excel**
 ### **Características del documento**
-- Abra archivos de Microsft Excel sin formato o encriptados (Excel97 - Excel2007/2010/2013) de diferentes fuentes.
-- Guarde archivos de Excel (Excel 97 - Excel2007/2010/2013) en diferentes formatos (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, delimitado por tabuladores, 073, 08419, 48, 08419, 48, etc.)
-- Convierta el archivo de Excel al documento PDF.
-- Convierta la hoja de cálculo de Excel en el documento XPS.
-- Convertir a formato de archivo de imagen etiquetado (TIFF).
-- Lea y escriba el formato de hoja de cálculo OpenDocument (ODS).
-- Modifique las propiedades del documento de los archivos de Excel.
-### **Características de la hoja de trabajo**
-#### **Opciones de pantalla**
-- Ocultar o mostrar una hoja de trabajo.
-- Muestre u oculte pestañas, barras de desplazamiento, líneas de cuadrícula y encabezados de fila y columna.
-- Saltos de página de vista previa.
-- Establezca el nivel de zoom para la hoja de trabajo.
-- Haga que los datos seleccionados permanezcan visibles mientras se desplaza utilizando paneles congelados.
-#### **Protección de la hoja de trabajo**
-- Proteja contenidos, objetos y escenarios de una hoja de trabajo.
+- Abrir archivos de Microsoft Excel, encriptados o no (Excel97 - Excel2007/2010/2013) desde diferentes fuentes.
+- Guardar archivos de Excel (Excel 97 - Excel2007/2010/2013) en diferentes formatos (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Delimitado por tabulaciones, TSV, HTML, etc.)
+- Convertir archivo Excel a documento PDF.
+- Convertir hoja de cálculo de Excel a documento XPS.
+- Convertir a Formato de Archivo de Imagen Etiquetada (TIFF).
+- Leer y escribir formato de hoja de cálculo OpenDocument (ODS).
+- Modificar las propiedades del documento de archivos de Excel.
+### **Características de la hoja de cálculo**
+#### **Opciones de visualización**
+- Ocultar o mostrar una hoja de cálculo.
+- Mostrar u ocultar pestañas, barras de desplazamiento, líneas de cuadrícula y encabezados de fila y columna.
+- Vista previa de saltos de página.
+- Establecer el nivel de zoom para la hoja de cálculo.
+- Hacer que los datos seleccionados permanezcan visibles al desplazarse utilizando paneles congelados.
+#### **Protección de hoja de cálculo**
+- Proteger el contenido, objetos y escenarios de una hoja de cálculo.
 #### **Opciones de configuración de página**
-- Configure la orientación de la página, la escala, el tamaño del papel, la calidad de impresión, etc.
-- Establezca márgenes de página como superior, izquierda, derecha, inferior, etc.
+- Establecer orientación de página, escala, tamaño de papel, calidad de impresión, etc.
+- Establecer márgenes de página como superior, izquierdo, derecho, inferior, etc.
 - Establecer encabezados y pies de página.
 - Establecer área de impresión, título de impresión, etc.
 #### **Saltos de página**
-- Inserta saltos de página horizontales y verticales en una celda específica.
-### **Funciones de filas y columnas**
-- Ajuste la altura de la fila.
-- Ajuste el ancho de la columna según sea necesario.
+- Insertar saltos de página horizontales y verticales en una celda especificada.
+### **Características de filas y columnas**
+- Ajustar la altura de la fila.
+- Ajustar el ancho de la columna según sea necesario.
 - Tamaño automático del ancho y alto de las celdas según su contenido.
 - Insertar o eliminar filas y columnas.
 - Ocultar o mostrar filas y columnas.
 - Agrupar o desagrupar filas y columnas.
-### **Funciones de gestión de datos**
-- Acceda a cualquier celda de la hoja de cálculo.
-- Agregue datos a las celdas deseadas en tiempo de ejecución.
-- Importe datos en hojas de trabajo desde diferentes fuentes de datos.
-- Recupere datos de celdas según sus tipos de datos.
+### **Características de gestión de datos**
+- Acceder a cualquier celda en la hoja de cálculo.
+- Agregar datos a celdas deseadas en tiempo de ejecución.
+- Importar datos a las hojas de cálculo desde diferentes fuentes de datos.
+- Recuperar datos de celdas de acuerdo a sus tipos de datos.
 - Exportar datos de celdas a DataTable.
-- Encuentra o busca datos específicos en las celdas.
-- Establezca fórmulas con funciones integradas o complementarias.
-- Establecer matriz y fórmula de estilo de referencia R1C1.
-- Agregue diferentes tipos de hipervínculos.
-- Cree o acceda a rangos con nombre.
-- Aplicar validación de datos y filtrado automático.
+- Encontrar o buscar datos específicos en celdas.
+- Establecer fórmulas con funciones incorporadas o complementarias.
+- Establecer fórmulas con estilo de referencia de matriz y R1C1.
+- Agregar diferentes tipos de hipervínculos.
+- Crear o acceder a rangos de nombre.
+- Aplicar validación de datos y autofiltrado.
 ### **Funciones de formato**
 - Aplicar diferentes estilos a las celdas.
-- Aplicar la configuración de formato de número a las celdas.
-- Formatea la celda como una fecha.
+- Aplicar configuraciones de formato numérico a las celdas.
+- Formatear celda como fecha.
 - Establecer la alineación del texto.
-- Combinar varias celdas.
-- Aplique diferentes tipos de configuraciones de fuente en las celdas.
-- Aplique diferentes colores a celdas, fuentes, líneas de cuadrícula, objetos gráficos, etc.
+- Combinar múltiples celdas.
+- Aplicar diferentes tipos de configuraciones de fuente en las celdas.
+- Aplicar diferentes colores a celdas, fuentes, líneas de cuadrícula, objetos gráficos, etc.
 - Establecer texto enriquecido en una sola celda.
-- Aplique diferentes configuraciones de borde en las celdas.
-- Aplique diferentes patrones de fondo en las celdas.
-- Aplique la configuración de formato en una hoja de trabajo, fila o columna, etc.
+- Aplicar diferentes configuraciones de borde en las celdas.
+- Aplicar diferentes patrones de fondo en las celdas.
+- Aplicar configuraciones de formato en una hoja de cálculo, fila o columna, etc.
 - Aplicar formato condicional en las celdas.
 ### **Funciones de gráficos y gráficos**
-- Admite todos los tipos de gráficos estándar como columna, barra, línea, pastel, dispersión, etc.
-- Crea diferentes tipos de gráficos fácilmente.
-- Personalice los gráficos configurando sus diferentes propiedades.
-- Establecer datos para los gráficos de forma dinámica.
-- Agregue gráficos personalizados a las hojas de trabajo usando API.
-- Agregue imágenes a las hojas de trabajo en tiempo de ejecución.
-- Crear y agregar comentarios a las celdas.
-- Convierta el gráfico en un archivo de imagen.
-- Convierta la hoja de trabajo en un archivo de imagen.
-- Imprimir hojas de trabajo.
-### **Características avanzadas**
-- Cree hojas de cálculo de diseñador y trabaje con Smart Markers.
-- Cálculos de fórmulas rápidos gracias a un robusto motor de cálculo de fórmulas.
-- Acceda al Aspose.Cells desde clientes COM.
-- Cambie los datos de origen de una tabla dinámica en tiempo de ejecución.
-- Crear y manipular tablas dinámicas.
-- Manipular código VBA o Macros.
+- Compatible con todos los tipos de gráficos estándar como columnas, barras, líneas, sectores, dispersión, etc.
+- Crea fácilmente diferentes tipos de gráficos.
+- Personaliza gráficos configurando sus diferentes propiedades.
+- Establece datos para los gráficos dinámicamente.
+- Agrega gráficos personalizados a las hojas de cálculo usando la API.
+- Agrega imágenes a las hojas de cálculo en tiempo de ejecución.
+- Crea y agrega comentarios a las celdas.
+- Convierte el gráfico en un archivo de imagen.
+- Convierte la hoja de cálculo en un archivo de imagen.
+- Imprime hojas de cálculo.
+### **Funciones Avanzadas**
+- Crea hojas de cálculo diseñadas y trabaja con marcadores inteligentes.
+- Cálculos de fórmulas rápidos mediante un robusto Motor de Cálculo de Fórmulas.
+- Accede a Aspose.Cells desde clientes COM.
+- Cambia los datos fuente de una tabla dinámica en tiempo de ejecución.
+- Crea y manipula tablas dinámicas.
+- Manipular código VBA o macros
 ### **Plataformas compatibles**
-- Escritorio Windows Aplicación
+- Aplicación de escritorio para Windows
 - Aplicación web empresarial

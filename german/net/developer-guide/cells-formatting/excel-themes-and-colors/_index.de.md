@@ -1,70 +1,71 @@
 ---
-title: Excel-Themen und -Farben
+title: Excel Themen und Farben
 type: docs
 weight: 100
 url: /de/net/excel-themes-and-colors/
-description: C#-Code zur Verwendung des Excel-Farbschemas mit Aspose.Cells for .NET API
-keywords: C# to Create and Apply Color Schemes, c# programmatically Create a Custom Color Scheme, programmatically how to Apply a Custom Color Scheme, c# how to Use Color Scheme in excel
+description: C# Code zur Verwendung des Excel Farbschemas mit der Aspose.Cells for .NET API
+keywords: C# zum Erstellen und Anwenden von Farbschemata, c# programmgesteuert Erstellen eines benutzerdefinierten Farbschemas, programmgesteuertes Anwenden eines benutzerdefinierten Farbschemas, c# Verwendung eines Farbschemas in Excel
 ---
-##  **So wenden Sie ein Farbschema in Excel an und erstellen es**
-Dokumentthemen erleichtern die Abstimmung von Farben, Schriftarten und grafischen Formatierungseffekten von Excel-Dokumenten und deren schnelle Aktualisierung.
-Designs sorgen für ein einheitliches Erscheinungsbild mit benannten Stilen, grafischen Effekten und anderen in einer Arbeitsmappe verwendeten Objekten. Beispielsweise sieht der Accent1-Stil im Office- und im Apex-Design anders aus. Oft wenden Sie ein Dokumentthema an und ändern es dann nach Ihren Wünschen.
 
-###  **So wenden Sie ein Farbschema in Excel an**
-1. Öffnen Sie Excel und gehen Sie im Excel-Menüband auf die Registerkarte „Seitenlayout“.
-1. Klicken Sie im Abschnitt „Themen“ auf die Schaltfläche „Farben“.
+## **Wie man ein Farbschema in Excel erstellt und anwendet**
+Dokumentthemen erleichtern die Koordination von Farben, Schriftarten und grafischen Formatierungseffekten von Excel-Dokumenten und ermöglichen eine schnelle Aktualisierung. 
+Themen bieten ein einheitliches Erscheinungsbild mit benannten Stilen, grafischen Effekten und anderen Objekten, die in einer Arbeitsmappe verwendet werden. Zum Beispiel sieht der Accent1-Stil in den Office- und Apex-Themen unterschiedlich aus. Oft wenden Sie ein Dokumentthema an und passen es dann Ihren Wünschen an.
+
+### **Wie man ein Farbschema in Excel anwendet**
+1. Öffnen Sie Excel und wechseln Sie zum Register „Seitenlayout“ im Excel-Band.
+1. Klicken Sie auf die Schaltfläche „Farben“ im Abschnitt „Themen“.
 <br>
 <img src="color.png" width=70% />
-1. Wählen Sie eine Farbpalette, die Ihren Anforderungen entspricht, oder bewegen Sie den Mauszeiger über ein Schema, um eine Live-Vorschau anzuzeigen.
+1. Wählen Sie eine Farbpalette aus, die Ihren Anforderungen entspricht, oder fahren Sie mit der Maus über ein Schema, um eine Live-Vorschau anzuzeigen.
 
-###  **So erstellen Sie ein benutzerdefiniertes Farbschema in Excel**
-Sie können Ihren eigenen Farbsatz erstellen, um Ihrem Dokument ein frisches, einzigartiges Aussehen zu verleihen oder den Markenstandards Ihres Unternehmens zu entsprechen.
+### **Wie man ein benutzerdefiniertes Farbschema in Excel erstellt**
+Sie können Ihre eigene Farbgebung erstellen, um Ihrem Dokument ein frisches, einzigartiges Aussehen zu verleihen oder den Markenstandards Ihrer Organisation zu entsprechen.
 
-1. Öffnen Sie Excel und gehen Sie im Excel-Menüband auf die Registerkarte „Seitenlayout“.
-1. Klicken Sie im Abschnitt „Themen“ auf die Schaltfläche „Farben“.
-1. Klicken Sie auf die Schaltfläche „Farben anpassen…“.
+1. Öffnen Sie Excel und wechseln Sie zum Register „Seitenlayout“ im Excel-Band.
+1. Klicken Sie auf die Schaltfläche „Farben“ im Abschnitt „Themen“.
+1. Klicken Sie auf die Schaltfläche „Farben anpassen...“.
 <br>
 <img src="color2.png" width=70% />
 
-1. Im Dialogfeld „Neue Designfarben erstellen“ können Sie Farben für jedes Element auswählen, indem Sie auf die Farb-Dropdown-Menüs daneben klicken. Sie können Farben aus der Palette auswählen oder mithilfe der Option „Weitere Farben“ benutzerdefinierte Farben definieren.
+1. In dem Dialogfeld „Neue Designfarben erstellen“ können Sie für jedes Element Farben auswählen, indem Sie auf die Farbauswahlfelder neben ihnen klicken. Sie können Farben aus der Palette auswählen oder benutzerdefinierte Farben über die Option „Mehr Farben“ definieren.
 <br>
 <img src="color3.png" width=70% />
-1. Nachdem Sie alle gewünschten Farben ausgewählt haben, geben Sie im Feld „Name“ einen Namen für Ihr benutzerdefiniertes Farbschema ein.
+1. Nach Auswahl aller gewünschten Farben geben Sie einen Namen für Ihr benutzerdefiniertes Farbschema im Feld „Name“ an.
 
-1. Klicken Sie auf die Schaltfläche „Speichern“, um Ihr individuelles Farbschema zu speichern. Ihr benutzerdefiniertes Farbschema ist jetzt im Dropdown-Menü „Farben“ für die zukünftige Verwendung verfügbar.
+1. Klicken Sie auf die Schaltfläche „Speichern“, um Ihr benutzerdefiniertes Farbschema zu speichern. Ihr benutzerdefiniertes Farbschema steht jetzt im Drop-Down-Menü „Farben“ für zukünftige Verwendungen zur Verfügung.
 
-##  **So erstellen und wenden Sie ein Farbschema in Aspose.Cells an**
-Aspose.Cells bietet Funktionen zum Anpassen von Themen und Farben.
+## **Wie man ein Farbschema in Aspose.Cells erstellt und anwendet**
+Aspose.Cells bietet Funktionen zur Anpassung von Themen und Farben.
 
-###  **So erstellen Sie ein benutzerdefiniertes Farbthema in Aspose.Cells**
-Wenn in der Datei Designfarben verwendet werden, müssen wir nicht jede Zelle einzeln ändern, sondern nur die Farben im Design.
+### **Wie man ein benutzerdefiniertes Farbdesign in Aspose.Cells erstellt**
+Wenn Designs verwendet werden, müssen wir nicht jede Zelle einzeln ändern, sondern nur die Farben im Design anpassen.
 
-Das folgende Beispiel zeigt, wie Sie benutzerdefinierte Designs mit Ihren gewünschten Farben anwenden. Wir verwenden eine Beispielvorlagendatei, die manuell in Microsoft Excel 2007 erstellt wurde.
+Das folgende Beispiel zeigt, wie benutzerdefinierte Designs mit den gewünschten Farben angewendet werden. Es wird eine Beispieldatei verwendet, die manuell in Microsoft Excel 2007 erstellt wurde.
 
-Das folgende Beispiel lädt eine Vorlagendatei XLSX, definiert Farben für verschiedene Designfarbtypen, wendet die benutzerdefinierten Farben an und speichert die Excel-Datei.
+Im folgenden Beispiel wird eine Vorlagendatei im XLSX-Format geladen, Farben für verschiedene Designtypen definiert und die benutzerdefinierten Farben angewendet, bevor die Excel-Datei gespeichert wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-CustomizeThemes-1.cs" >}}
 
-###  **So wenden Sie Designfarben in Aspose.Cells an**
+### **So wenden Sie Designs in Aspose.Cells an**
 
-Im folgenden Beispiel werden die Vordergrund- und Schriftfarben einer Zelle basierend auf den Farbtypen des Standarddesigns (der Arbeitsmappe) angewendet. Außerdem wird die Excel-Datei auf der Festplatte gespeichert.
+Im folgenden Beispiel werden die Vordergrund- und Schriftfarben einer Zelle basierend auf den Standarddesignfarben (des Arbeitsmappen) angewendet. Die Excel-Datei wird ebenfalls auf der Festplatte gespeichert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-UtilizeThemeColors-1.cs" >}}
 
-###  **So erhalten und legen Sie Designfarben in Aspose.Cells fest**
- Nachfolgend finden Sie einige Methoden und Eigenschaften, die Designfarben implementieren.
+### **So erhalten und setzen Sie Designs in Aspose.Cells**
+ Nachfolgend finden Sie einige Methoden und Eigenschaften, die Designs implementieren.
 
 - [**Style.ForegroundThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundthemecolor): Wird verwendet, um die Vordergrundfarbe festzulegen.
-- [**Style.BackgroundThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundthemecolor): Wird zum Festlegen der Hintergrundfarbe verwendet.
-- [**Font.ThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/themecolor): Wird zum Festlegen der Schriftfarbe verwendet.
-- [**Workbook.GetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getthemecolor): Wird verwendet, um eine Designfarbe zu erhalten.
-- [**Workbook.SetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/setthemecolor): Wird verwendet, um eine Designfarbe festzulegen.
+- [**Style.BackgroundThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundthemecolor): Wird verwendet, um die Hintergrundfarbe festzulegen.
+- [**Font.ThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/themecolor): Wird verwendet, um die Schriftfarbe festzulegen.
+- [**Workbook.GetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getthemecolor): Wird verwendet, um eine Desigfarbe zu erhalten.
+- [**Workbook.SetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/setthemecolor): Wird verwendet, um eine Desigfarbe festzulegen.
 
-Das folgende Beispiel zeigt, wie Sie Designfarben abrufen und festlegen.
+Das folgende Beispiel zeigt, wie Designs erhalten und gesetzt werden.
 
-Das folgende Beispiel verwendet eine Vorlagendatei XLSX, ruft die Farben für verschiedene Designfarbtypen ab, ändert die Farben und speichert die Excel-Datei Microsoft.
+Das folgende Beispiel verwendet eine Vorlagendatei im XLSX-Format, ruft die Farben für verschiedene Designtypen ab, ändert die Farben und speichert die Microsoft Excel-Datei.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
 
-##  **Vorabthemen**
-- [Extrahieren Sie Theme-Daten aus einer Excel-Datei](/cells/de/net/extract-theme-data-from-excel-file/)
+## **Erweiterte Themen**
+- [Extrahieren von Themen-Daten aus Excel-Datei](/cells/de/net/extract-theme-data-from-excel-file/)

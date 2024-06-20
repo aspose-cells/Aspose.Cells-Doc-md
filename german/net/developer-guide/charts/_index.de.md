@@ -1,195 +1,196 @@
 ---
 title: Diagramm erstellen und verwalten
-description: Erfahren Sie, wie Sie mit Aspose.Cells for .NET Diagramme in Microsoft Excel erstellen. Unser Leitfaden zeigt die verschiedenen Arten von Diagrammen, die erstellt werden können, und zeigt, wie Sie deren Erscheinungsbild und Formatierung anpassen können.
-keywords: Aspose.Cells for .NET, Chart Creation, Microsoft Excel, Chart Types, Customization, Appearance, Formatting.
+description: Erfahren Sie, wie Sie Aspose.Cells for .NET verwenden, um Diagramme in Microsoft Excel zu erstellen. Unser Leitfaden demonstriert die verschiedenen Arten von Diagrammen, die erstellt werden können, sowie deren Anpassung und Formatierung.
+keywords: Aspose.Cells for .NET, Diagrammerstellung, Microsoft Excel, Diagrammtypen, Anpassung, Erscheinungsbild, Formatierung.
 linktitle: Diagramme
 type: docs
 weight: 130
 url: /de/net/creating-charts/
-description: Erstellen Sie ein Diagramm in CSharp für Excel- und ODS-Dateien.
-keywords: create a chart, make a graph 
+description: Erstellen Sie ein Diagramm in CSharp für Excel und ODS Dateien.
+keywords: Erstellen Sie ein Diagramm, erstellen Sie ein Diagramm 
 ---
+
 {{% alert color="primary" %}}
 
-Mit Aspose.Cells ist es möglich, eine Vielzahl von Diagrammen zu Tabellenkalkulationen hinzuzufügen. Aspose.Cells bietet viele flexible Diagrammobjekte. In diesem Thema werden Diagrammobjekte vom Typ Aspose.Cells erläutert.
+Es ist möglich, verschiedene Diagramme zu Tabellenkalkulationen mit Aspose.Cells hinzuzufügen. Aspose.Cells bietet viele flexible Diagrammobjekte. In diesem Themenbereich werden die Diagrammobjekte von Aspose.Cells diskutiert.
 
 {{% /alert %}}
 
-##  **Diagramme erstellen**
+## **Erstellen von Diagrammen**
 
-###  **Einfach ein Diagramm erstellen**
-Mit den folgenden Beispielcodes können Sie ganz einfach ein Diagramm mit Aspose.Cells erstellen:
+### **Einfaches Erstellen eines Diagramms**
+Das Erstellen eines Diagramms mit Aspose.Cells ist mit den folgenden Beispielcodes einfach:
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateColumnChart-1.cs" >}}
 
-###  **Wissenswertes zum Erstellen eines Diagramms**
+### **Dinge, die beim Erstellen eines Diagramms zu beachten sind**
 
-Bevor Sie Diagramme erstellen, ist es wichtig, einige grundlegende Konzepte zu verstehen, die beim Erstellen von Diagrammen mit Aspose.Cells hilfreich sind.
+Bevor Sie Diagramme erstellen, ist es wichtig, einige grundlegende Konzepte zu verstehen, die hilfreich sind, wenn Sie Diagramme mit Aspose.Cells erstellen.
 
-####  **Diagrammobjekte**
+#### **Diagrammobjekte**
 
- Aspose.Cells bietet eine spezielle Reihe von Kursen im[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts)Namespace, der zum Erstellen der von Aspose.Cells unterstützten Diagramme verwendet wird. Diese Klassen werden zum Erstellen von *Diagrammobjekten** verwendet, die als Diagrammbausteine fungieren. Die Diagrammobjekte sind unten aufgeführt:
+Aspose.Cells bietet eine spezielle Reihe von Klassen im [**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts)-Namespace, die verwendet werden, um die von Aspose.Cells unterstützten Diagramme zu erstellen. Diese Klassen werden verwendet, um **Diagrammobjekte** zu erstellen, die als die Bausteine für den Diagrammaufbau dienen. Die Diagrammobjekte werden unten aufgeführt:
 
 - Serie, eine einzelne Datenreihe in einem Diagramm.
 - Achse, die Achse eines Diagramms.
 - Diagramm, ein einzelnes Excel-Diagramm.
-- ChartArea, der Diagrammbereich im Arbeitsblatt.
-- ChartDataTable, eine Diagrammdatentabelle.
-- ChartFrame, das Rahmenobjekt in einem Diagramm.
-- ChartPoint, ein einzelner Punkt in einer Reihe in einem Diagramm.
-- ChartPointCollection, eine Sammlung, die alle Punkte in einer Reihe enthält.
-- Charts, eine Sammlung von Chart-Objekten.
-- DataLabels, eine Sammlung aller DataLabel-Objekte für die angegebene Serie.
-- FillFormat, Füllformat für eine Form.
+- Diagrammbereich, der Diagrammbereich im Arbeitsblatt.
+- Diagrammdaten Tabelle, eine Diagrammdatentabelle.
+- Diagrammrahmen, das Rahmenobjekt in einem Diagramm.
+- Diagrammpunkt, ein einzelner Punkt in einer Serie in einem Diagramm.
+- Diagrammpunktsammlung, eine Sammlung, die alle Punkte in einer Serie enthält.
+- Diagramme, eine Sammlung von Diagrammobjekten.
+- Datenbeschriftungen, eine Sammlung aller Datenbeschriftungsobjekte für die angegebene Serie.
+- Füllformat, Füllformat für eine Form.
 - Boden, der Boden eines 3D-Diagramms.
 - Legende, die Diagrammlegende.
 - Linie, die Diagrammlinie.
-- SeriesCollection, eine Sammlung von Series-Objekten.
-- TickLabels, die Teilstrichbeschriftungen, die mit Teilstrichen auf einer Diagrammachse verknüpft sind.
+- Seriensammlung, eine Sammlung von Serienobjekten.
+- Achsenbeschriftungen, die Achsenbeschriftungen, die mit den Achsenmarkierungen auf einer Diagrammachse verbunden sind.
 - Titel, der Titel eines Diagramms oder einer Achse.
 - Trendlinie, eine Trendlinie in einem Diagramm.
-- TrendlineCollection, eine Sammlung aller Trendline-Objekte für die angegebene Datenreihe.
+- Trendliniensammlung, eine Sammlung aller Trendlinienobjekte für die angegebene Datenserie.
 - Wände, die Wände eines 3D-Diagramms.
 
-####  **Verwenden von Diagrammobjekten**
+#### **Verwendung von Diagrammobjekten**
 
-Wie oben erwähnt, sind alle Diagrammobjekte Instanzen ihrer jeweiligen Klassen und stellen spezifische Eigenschaften und Methoden zur Ausführung bestimmter Aufgaben bereit. Verwenden Sie Diagrammobjekte, um Diagramme zu erstellen.
+Wie oben erwähnt, sind alle Diagrammobjekte Instanzen ihrer jeweiligen Klassen und bieten spezifische Eigenschaften und Methoden zur Ausführung bestimmter Aufgaben. Verwenden Sie Diagrammobjekte, um Diagramme zu erstellen.
 
- Fügen Sie einem Arbeitsblatt eine beliebige Art von Diagramm hinzu, indem Sie die verwenden[**Diagramme**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) Sammlung. Jedes Element in der[**Diagramme**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) Sammlung repräsentiert a[**Diagramm**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) Objekt. A[**Diagramm**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)Das Objekt kapselt alle anderen Diagrammobjekte, die zum Anpassen der Darstellung des Diagramms erforderlich sind. Im nächsten Abschnitt wird gezeigt, wie Sie mit einigen grundlegenden Diagrammobjekten ein einfaches Diagramm erstellen.
+Fügen Sie mit der [**Charts**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)-Sammlung eine beliebige Art von Diagramm zu einem Arbeitsblatt hinzu. Jedes Element in der [**Charts**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)-Sammlung stellt ein [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)-Objekt dar. Ein [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)-Objekt umschließt alle anderen Diagrammobjekte, die erforderlich sind, um das Aussehen des Diagramms anzupassen. Im nächsten Abschnitt wird gezeigt, wie man einige grundlegende Diagrammobjekte verwendet, um ein einfaches Diagramm zu erstellen.
 
-###  **Erstellen Sie ein Diagramm mit Aspose.Cells**
+### **Diagramm mit Aspose.Cells erstellen**
 
 **Schritte:**
 
-1. Fügen Sie mit dem einige Daten zu Arbeitsblattzellen hinzu[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Objekt[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)Methode.
- Dies wird als Datenquelle für das Diagramm verwendet.
-1.  Fügen Sie dem Arbeitsblatt ein Diagramm hinzu, indem Sie das aufrufen[**Diagramme**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) Sammlung[**Hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) Methode, gekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Objekt.
-1.  Geben Sie den Diagrammtyp mit an[**Diagramm Typ**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)Aufzählung.
- Im folgenden Beispiel wird beispielsweise verwendet[**ChartType.Pyramid**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)Wert als Diagrammtyp.
-1.  Greifen Sie auf das Neue zu[**Diagramm**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) Objekt aus dem[**Diagramme**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)Sammlung durch Übergabe ihres Index.
-1.  Verwenden Sie eines der im gekapselten Diagrammobjekte[**Diagramm**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)Objekt zum Verwalten des Diagramms.
- Das folgende Beispiel verwendet die[**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)Diagrammobjekt, um die Datenquelle des Diagramms anzugeben.
+1. Fügen Sie einige Daten zu Arbeitsblattzellen mit der [**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)-Methode des Objekts [**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) hinzu.
+   Dies wird als Datenquelle für das Diagramm verwendet.
+1. Fügen Sie ein Diagramm zu Arbeitsblatt hinzu, indem Sie die [**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)-Methode der Sammlung aufrufen, die im [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)-Objekt eingeschlossen ist.
+1. Geben Sie mit der [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)-Aufzählung den Diagrammtyp an.
+   Beispielsweise verwendet das untenstehende Beispiel den Wert [**ChartType.Pyramid**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) als Diagrammtyp.
+1. Greifen Sie über die Indexübergabe auf das neue [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)-Objekt aus der [**Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)-Sammlung zu.
+1. Verwenden Sie eines der im [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)-Objekt eingeschlossenen Diagrammobjekte, um das Diagramm zu verwalten.
+   Das untenstehende Beispiel verwendet das [**SeriesCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)-Diagrammobjekt, um die Datenquelle des Diagramms anzugeben.
 
-Beim Hinzufügen von Quelldaten zu einem Diagramm kann die Datenquelle ein Zellbereich (z. B. „A1:C3“) oder eine Folge nicht zusammenhängender Zellen (z. B. „A1, A3, A5“) oder eine Folge von Zellen sein Werte (z. B. „1,2,3“).
+Beim Hinzufügen von Quelldaten zum Diagramm kann die Datenquelle ein Zellenbereich (z. B. "A1:C3") oder eine Sequenz von nicht zusammenhängenden Zellen (z. B. "A1, A3, A5") oder eine Sequenz von Werten (z. B. "1,2,3") sein.
 
-Mit diesen allgemeinen Schritten können Sie jede Art von Diagramm erstellen. Verwenden Sie unterschiedliche Diagrammobjekte, um unterschiedliche Diagramme zu erstellen.
+Diese allgemeinen Schritte ermöglichen es Ihnen, beliebige Arten von Diagrammen zu erstellen. Verwenden Sie verschiedene Diagrammobjekte, um verschiedene Diagramme zu erstellen.
 
-Mit Aspose.Cells ist es möglich, viele verschiedene Arten von Diagrammen zu erstellen. Alle von Aspose.Cells unterstützten Standarddiagramme sind in einer Aufzählung mit dem Namen vordefiniert[**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype).
+Es ist möglich, mit Aspose.Cells viele verschiedene Arten von Diagrammen zu erstellen. Alle von Aspose.Cells unterstützten Standarddiagramme sind in einer Aufzählung namens [**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) vordefiniert.
 
 Die vordefinierten Diagrammtypen sind:
 
 |**Diagrammtypen**|**Beschreibung**|
 | :- | :- |
-|Spalte|Stellt ein gruppiertes Säulendiagramm dar|
-|ColumnStacked|Stellt ein gestapeltes Säulendiagramm dar|
-|Column100PercentStacked|Stellt ein 100 % gestapeltes Säulendiagramm dar|
-|Column3DClustered|Stellt ein gruppiertes 3D-Säulendiagramm dar|
-|Column3DStacked|Stellt ein gestapeltes 3D-Säulendiagramm dar|
-|Column3D100PercentStacked|Stellt ein zu 100 % gestapeltes 3D-Säulendiagramm dar|
-|Column3D|Stellt ein 3D-Säulendiagramm dar|
-|Bar|Stellt ein gruppiertes Balkendiagramm dar|
-|BarStacked|Stellt ein gestapeltes Balkendiagramm dar|
-|Bar100PercentStacked|Stellt ein 100 % gestapeltes Balkendiagramm dar|
-|Bar3DClustered|Stellt ein gruppiertes 3D-Balkendiagramm dar|
-|Bar3DStacked|Stellt ein gestapeltes 3D-Balkendiagramm dar|
-|Bar3D100PercentStacked|Stellt ein zu 100 % gestapeltes 3D-Balkendiagramm dar|
-|Linie|Stellt ein Liniendiagramm dar|
-|LineStacked|Stellt ein gestapeltes Liniendiagramm dar|
-|Line100PercentStacked|Stellt ein 100 % gestapeltes Liniendiagramm dar|
-|LineWithDataMarkers|Stellt ein Liniendiagramm mit Datenmarkierungen dar|
-|LineStackedWithDataMarkers|Stellt ein gestapeltes Liniendiagramm mit Datenmarkierungen dar|
-|Line100PercentStackedWithDataMarkers|Stellt ein 100 % gestapeltes Liniendiagramm mit Datenmarkierungen dar|
-|Line3D|Stellt ein 3D-Liniendiagramm dar|
-|Kuchen|Stellt ein Kreisdiagramm dar|
-|Pie3D|Stellt ein 3D-Kreisdiagramm dar|
-|PiePie|Stellt einen Kreis des Kreisdiagramms dar|
-|PieExploded|Stellt ein explodiertes Kreisdiagramm dar|
-|Pie3DEExploded|Stellt ein 3D-Explosions-Kreisdiagramm dar|
-|PieBar|Stellt einen Balken eines Kreisdiagramms dar|
-|Streuen|Stellt ein Streudiagramm dar|
-|ScatterConnectedByCurvesWithDataMarker|Stellt ein durch Kurven verbundenes Streudiagramm mit Datenmarkierungen dar|
-|ScatterConnectedByCurvesWithoutDataMarker|Stellt ein durch Kurven verbundenes Streudiagramm ohne Datenmarkierungen dar|
-|ScatterConnectedByLinesWithDataMarker|Stellt ein durch Linien verbundenes Streudiagramm mit Datenmarkierungen dar|
-|ScatterConnectedByLinesWithoutDataMarker|Stellt ein durch Linien verbundenes Streudiagramm ohne Datenmarkierungen dar|
-|Bereich|Stellt ein Flächendiagramm dar|
-|BereichGestapelt|Stellt ein gestapeltes Flächendiagramm dar|
-|Fläche100PercentStacked|Stellt ein 100 % gestapeltes Flächendiagramm dar|
+|Column|Stellt gruppiertes Säulendiagramm dar|
+|ColumnStacked|Stellt gestapeltes Säulendiagramm dar|
+|Column100PercentStacked|Stellt zu 100 % gestapeltes Säulendiagramm dar|
+|Column3DClustered|Stellt 3D-gruppiertes Säulendiagramm dar|
+|Column3DStacked|Stellt 3D-gestapeltes Säulendiagramm dar|
+|Column3D100PercentStacked|Stellt 3D-100%-gestapeltes Säulendiagramm dar|
+|Column3D|Stellt 3D-Säulendiagramm dar|
+|Bar|Stellt gestapeltes Balkendiagramm dar|
+|BarStacked|Stellt gestapeltes Balkendiagramm dar|
+|Bar100PercentStacked|Stellt 100%-gestapeltes Balkendiagramm dar|
+|Bar3DClustered|Stellt 3D-gruppiertes Balkendiagramm dar|
+|Bar3DStacked|Stellt 3D-gestapeltes Balkendiagramm dar|
+|Bar3D100PercentStacked|Stellt 3D-100%-gestapeltes Balkendiagramm dar|
+|Line|Stellt Liniendiagramm dar|
+|LineStacked|Stellt gestapeltes Liniendiagramm dar|
+|Line100PercentStacked|Stellt 100%-gestapeltes Liniendiagramm dar|
+|LineWithDataMarkers|Stellt Liniendiagramm mit Datenmarkierungen dar|
+|LineStackedWithDataMarkers|Stellt gestapeltes Liniendiagramm mit Datenmarkierungen dar|
+|Line100PercentStackedWithDataMarkers|Stellt 100%-gestapeltes Liniendiagramm mit Datenmarkierungen dar|
+|Line3D|Stellt 3D-Liniendiagramm dar|
+|Pie|Stellt Tortendiagramm dar|
+|Pie3D|Stellt 3D-Tortendiagramm dar|
+|PiePie|Stellt Tortendiagramm von Tortendiagramm dar|
+|PieExploded|Stellt explodiertes Tortendiagramm dar|
+|Pie3DExploded|Stellt ein 3D-Sprengkuchendiagramm dar|
+|PieBar|Stellt Balken eines Kuchendiagramms dar|
+|Scatter|Stellt ein Scatter-Diagramm dar|
+|ScatterConnectedByCurvesWithDataMarker|Stellt ein Scatter-Diagramm dar, das durch Kurven verbunden ist, mit Datenmarkierungen|
+|ScatterConnectedByCurvesWithoutDataMarker|Stellt ein Scatter-Diagramm dar, das durch Kurven verbunden ist, ohne Datenmarkierungen|
+|ScatterConnectedByLinesWithDataMarker|Stellt ein Scatter-Diagramm dar, das durch Linien verbunden ist, mit Datenmarkierungen|
+|ScatterConnectedByLinesWithoutDataMarker|Stellt ein Scatter-Diagramm dar, das durch Linien verbunden ist, ohne Datenmarkierungen|
+|Area|Stellt ein Flächendiagramm dar|
+|AreaStacked|Stellt ein gestapeltes Flächendiagramm dar|
+|Area100PercentStacked|Stellt ein 100 % gestapeltes Flächendiagramm dar|
 |Area3D|Stellt ein 3D-Flächendiagramm dar|
-|Area3DStacked|Stellt ein gestapeltes 3D-Flächendiagramm dar|
-|Area3D100PercentStacked|Stellt ein 3D-100 %-Stapelflächendiagramm dar|
-|Krapfen|Stellt ein Donut-Diagramm dar|
-|DonutExplodiert|Stellt ein explodiertes Donut-Diagramm dar|
-|Radar|Stellt ein Radardiagramm dar|
-|RadarWithDataMarkers|Stellt ein Radardiagramm mit Datenmarkierungen dar|
-|Radargefüllt|Stellt ein gefülltes Radardiagramm dar|
+|Area3DStacked|Stellt ein 3D-gestapeltes Flächendiagramm dar|
+|Area3D100PercentStacked|Stellt ein 3D-100 %-gestapeltes Flächendiagramm dar|
+|Doughnut|Stellt ein Doughnut-Diagramm dar|
+|DoughnutExploded|Stellt ein explodiertes Doughnut-Diagramm dar|
+|Radar|Stellt ein Radar-Diagramm dar|
+|RadarWithDataMarkers|Stellt ein Radar-Diagramm mit Datenmarkierungen dar|
+|RadarFilled|Stellt ein gefülltes Radar-Diagramm dar|
 |Surface3D|Stellt ein 3D-Oberflächendiagramm dar|
-|OberflächeWireframe3D|Stellt ein Wireframe-3D-Oberflächendiagramm dar|
-|Oberflächenkontur|Stellt ein Konturdiagramm dar|
-|SurfaceContourWireframe|Stellt ein Drahtmodell-Konturdiagramm dar|
-|Blase|Stellt ein Blasendiagramm dar|
-|Bubble3D|Stellt ein 3D-Blasendiagramm dar|
-|Zylinder|Stellt ein Zylinderdiagramm dar|
-|Zylindergestapelt|Stellt ein gestapeltes Zylinderdiagramm dar|
-|Zylinder100PercentStacked|Stellt ein 100 % gestapeltes Zylinderdiagramm dar|
-|Zylinderischer Balken|Stellt ein zylindrisches Balkendiagramm dar.|
-|ZylinderischerBarStacked|Stellt ein gestapeltes zylindrisches Balkendiagramm dar|
-|Zylinderischer Balken100PercentStacked|Stellt ein zu 100 % gestapeltes zylindrisches Balkendiagramm dar|
-|Zylinderische Spalte3D|Stellt ein zylindrisches 3D-Säulendiagramm dar|
-|Kegel|Stellt ein Kegeldiagramm dar|
-|Kegelgestapelt|Stellt ein gestapeltes Kegeldiagramm dar|
-|Cone100PercentStacked|Stellt ein 100 % gestapeltes Kegeldiagramm dar|
-|ConicalBar|Stellt ein konisches Balkendiagramm dar|
-|ConicalBarStacked|Stellt ein gestapeltes konisches Balkendiagramm dar|
-|ConicalBar100PercentStacked|Stellt ein zu 100 % gestapeltes konisches Balkendiagramm dar|
-|ConicalColumn3D|Stellt ein konisches 3D-Säulendiagramm dar|
-|Pyramide|Stellt ein Pyramidendiagramm dar|
-|PyramidStacked|Stellt ein gestapeltes Pyramidendiagramm dar|
-|Pyramid100PercentStacked|Stellt ein 100 % gestapeltes Pyramidendiagramm dar|
-|PyramidBar|Stellt ein Pyramidenbalkendiagramm dar|
-|PyramidBarStacked|Stellt ein gestapeltes Pyramidenbalkendiagramm dar|
-|PyramidBar100PercentStacked|Stellt ein 100 % gestapeltes Pyramidenbalkendiagramm dar|
-|PyramidColumn3D|Stellt ein 3D-Pyramiden-Säulendiagramm dar|
+|SurfaceWireframe3D|Stellt ein drahtgerahmtes 3D-Oberflächendiagramm dar|
+|SurfaceContour|Stellt Konturdiagramm dar|
+|SurfaceContourWireframe|Stellt Drahtgitter-Konturdiagramm dar|
+|Bubble|Stellt Blasendiagramm dar|
+|Bubble3D|Stellt 3D-Blasendiagramm dar|
+|Cylinder|Stellt Zylinderdiagramm dar|
+|CylinderStacked|Stellt gestapeltes Zylinderdiagramm dar|
+|Cylinder100PercentStacked|Stellt 100 % gestapeltes Zylinderdiagramm dar|
+|CylindericalBar|Stellt zylindrisches Balkendiagramm dar|
+|CylindericalBarStacked|Stellt gestapeltes zylindrisches Balkendiagramm dar|
+|CylindericalBar100PercentStacked|Stellt 100 % gestapeltes zylindrisches Balkendiagramm dar|
+|CylindericalColumn3D|Stellt 3D-Säulendiagramm dar|
+|Cone|Stellt Kegeldiagramm dar|
+|ConeStacked|Stellt gestapeltes Kegeldiagramm dar|
+|Cone100PercentStacked|Stellt 100 % gestapeltes Kegeldiagramm dar|
+|ConicalBar|Stellt konisches Balkendiagramm dar|
+|ConicalBarStacked|Stellt gestapeltes konisches Balkendiagramm dar|
+|ConicalBar100PercentStacked|Stellt 100 % gestapeltes konisches Balkendiagramm dar|
+|ConicalColumn3D|Stellt 3D-konisches Säulendiagramm dar|
+|Pyramid|Stellt Pyramiden-Diagramm dar|
+|PyramidStacked|Stellt gestapeltes Pyramiden-Diagramm dar|
+|Pyramid100PercentStacked|Stellt 100% gestapeltes Pyramidendiagramm dar|
+|PyramidBar|Stellt Pyramidensäulendiagramm dar|
+|PyramidBarStacked|Stellt gestapeltes Pyramidensäulendiagramm dar|
+|PyramidBar100PercentStacked|Stellt 100% gestapeltes Pyramidensäulendiagramm dar|
+|PyramidColumn3D|Stellt 3D-Pyramiden-Säulendiagramm dar|
 {{% alert color="primary" %}}
 
-Wenn Sie einen Zellbereich als Datenquelle zuweisen, können Sie nur den Bereich von links oben nach rechts unten festlegen. Beispielsweise ist „A1:C3“ gültig, während „C3:A1“ ungültig ist.
+Wenn Sie einen Zellbereich als Datenquelle zuweisen, können Sie den Bereich nur von oben links nach unten rechts festlegen. Zum Beispiel ist "A1:C3" gültig, während "C3:A1" ungültig ist.
 
 {{% /alert %}}
 
-####  **Pyramidendiagramm**
+#### **Pyramiden-Diagramm**
 
-Wenn der Beispielcode ausgeführt wird, wird dem Arbeitsblatt ein Pyramidendiagramm hinzugefügt.
+Wenn der Beispielcode ausgeführt wird, wird ein Pyramiden-Diagramm dem Arbeitsblatt hinzugefügt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreatePyramidChart-1.cs" >}}
 
-####  **Liniendiagramm**
+#### **Linien-Diagramm**
 
- Im obigen Beispiel einfach die ändern[**Diagramm Typ**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) Zu*Linie*erstellt ein Liniendiagramm. Die vollständige Quelle finden Sie unten. Wenn der Code ausgeführt wird, wird dem Arbeitsblatt ein Liniendiagramm hinzugefügt.
+Im obigen Beispiel wird durch einfaches Ändern von [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) in *Line* ein Liniendiagramm erstellt. Der vollständige Quellcode wird unten bereitgestellt. Wenn der Code ausgeführt wird, wird dem Arbeitsblatt ein Liniendiagramm hinzugefügt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
 
-####  **Blasendiagramm**
+#### **Bubble-Diagramm**
 
- Um ein Blasendiagramm zu erstellen, muss das[**Diagramm Typ**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) muss eingestellt werden[**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)und einige zusätzliche Eigenschaften wie BubbleSizes, Values und XValues müssen entsprechend festgelegt werden. Beim Ausführen des folgenden Codes wird dem Arbeitsblatt ein Blasendiagramm hinzugefügt.
+Um ein Bubble-Diagramm zu erstellen, muss [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) auf [**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) gesetzt und einige zusätzliche Eigenschaften wie BubbleSizes, Values & XValues entsprechend festgelegt werden. Nach Ausführung des folgenden Codes wird dem Arbeitsblatt ein Bubble-Diagramm hinzugefügt.
 
-####  **Linie mit Datenmarkierungsdiagramm**
+#### **Liniendiagramm mit Datenmarkierungen**
 
- Um eine Linie mit dem Datenmarkierungsdiagramm zu erstellen,[**Diagramm Typ**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)muss eingestellt werden*ChartType.LineWithDataMarkers*und einige zusätzliche Eigenschaften wie Hintergrundbereich, Serienmarkierungen, Werte und X-Werte müssen entsprechend eingestellt werden. Beim Ausführen des folgenden Codes wird dem Arbeitsblatt eine Zeile mit dem Datenmarkierungsdiagramm hinzugefügt.
+Um ein Liniendiagramm mit Datenmarkierungen zu erstellen, muss [**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) auf *ChartType.LineWithDataMarkers* gesetzt und einige zusätzliche Eigenschaften wie Hintergrundbereich, Series Markers, Values & XValues entsprechend festgelegt werden. Nach Ausführung des folgenden Codes wird dem Arbeitsblatt ein Liniendiagramm mit Datenmarkierungen hinzugefügt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
 
-##  **Vorabthemen**
-- [Lesen und Bearbeiten von Excel 2016-Diagrammen](/cells/de/net/read-and-manipulate-excel-2016-charts/)
-- [Verwalten Sie die Achsen von Excel-Diagrammen](/cells/de/net/chart-axes/)
-- [Festlegen der Darstellung des Diagramms](/cells/de/net/setting-chart-appearance/)
+## **Erweiterte Themen**
+- [Excel 2016 Diagramme lesen und bearbeiten](/cells/de/net/read-and-manipulate-excel-2016-charts/)
+- [Achsen von Excel-Diagrammen verwalten](/cells/de/net/chart-axes/)
+- [Diagrammaussehen festlegen](/cells/de/net/setting-chart-appearance/)
 - [Diagrammtypen](/cells/de/net/chart-types/)
-- [Anpassen von Diagrammen](/cells/de/net/customizing-charts/)
-- [Legen Sie die Datenquelle für das Diagramm fest](/cells/de/net/data-formatting-in-charts/)
-- [Verwalten Sie Datenbeschriftungen von Excel-Diagrammen](/cells/de/net/insert-datalabels-to-chart/)
-- [Generieren Sie ein Diagramm durch die Verarbeitung intelligenter Markierungen](/cells/de/net/generate-chart-by-processing-smart-markers/)
-- [Holen Sie sich das Arbeitsblatt des Diagramms](/cells/de/net/get-worksheet-of-the-chart/)
-- [Verwalten Sie die Legende von Excel-Diagrammen](/cells/de/net/chart-legend/)
-- [Positionsgröße und Designer-Diagramm manipulieren](/cells/de/net/manipulate-position-size-and-designer-chart/)
-- [Kreisdiagramm mit Führungslinien erstellen](/cells/de/net/creating-pie-chart-with-leader-lines/)
+- [Diagramme anpassen](/cells/de/net/customizing-charts/)
+- [Datenquelle für das Diagramm festlegen](/cells/de/net/data-formatting-in-charts/)
+- [Datenbeschriftungen von Excel-Diagrammen verwalten](/cells/de/net/insert-datalabels-to-chart/)
+- [Diagramm durch Verarbeitung von Smart Markern generieren](/cells/de/net/generate-chart-by-processing-smart-markers/)
+- [Arbeitsblatt des Diagramms erhalten](/cells/de/net/get-worksheet-of-the-chart/)
+- [Legende von Excel-Diagrammen verwalten](/cells/de/net/chart-legend/)
+- [Position Size und Gestaltung von Diagrammen bearbeiten](/cells/de/net/manipulate-position-size-and-designer-chart/)
+- [Erstellen eines Tortendiagramms mit Führungslinien](/cells/de/net/creating-pie-chart-with-leader-lines/)
 - [Formen in Diagrammen](/cells/de/net/controls-in-charts/)
 - [Titel von Excel-Diagrammen verwalten](/cells/de/net/chart-and-axis-titles/)
-- [Diagrammdarstellung](/cells/de/net/chart-rendering/)
-- [Gleichungstext der Diagrammtrendlinie abrufen](/cells/de/net/get-equation-text-of-chart-trendline/)
+- [Diagrammrendering](/cells/de/net/chart-rendering/)
+- [Gleichungstext der Trendlinie des Diagramms abrufen](/cells/de/net/get-equation-text-of-chart-trendline/)

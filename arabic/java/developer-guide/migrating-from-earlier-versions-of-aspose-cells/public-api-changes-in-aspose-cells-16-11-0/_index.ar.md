@@ -1,26 +1,27 @@
-﻿---
-title: API عام تغييرات في Aspose.Cells 16.11.0
+---
+title: تغييرات واجهة برمجة التطبيقات العامة في Aspose.Cells 16.11.0
 type: docs
 weight: 360
 url: /ar/java/public-api-changes-in-aspose-cells-16-11-0/
 ---
+
 {{% alert color="primary" %}} 
 
-يصف هذا المستند التغييرات التي تم إجراؤها على Aspose.Cells API من الإصدار 16.10.0 إلى 16.11.0 والتي قد تهم مطوري الوحدة / التطبيق. لا يشمل فقط الأساليب العامة الجديدة والمحدثة ، والفئات المضافة والمحذوفة وما إلى ذلك ، بل يشمل أيضًا وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells.
+يصف هذا المستند التغييرات في واجهة برمجة التطبيقات (API) لـ Aspose.Cells من الإصدار 16.10.0 إلى الإصدار 16.11.0 التي قد تكون مثيرة لاهتمام مطوري النماذج / التطبيقات. يتضمن ليس فقط الأساليب الجديدة والمحدثة العامة والفئات المضافة والمحذوفة إلخ، بل وصفًا لأي تغييرات في السلوك خلف الكواليس في Aspose.Cells أيضًا.
 
 {{% /alert %}} 
-## **تمت إضافة واجهات برمجة التطبيقات**
+## **واجهات برمجة التطبيقات الجديدة**
 ### **دعم إعدادات العولمة**
-كشف Aspose.Cells 16.11.0 عن فئة GlobalizationSettings جنبًا إلى جنب مع خاصية WorkbookSettings.GlobalizationSettings من أجل فرض Aspose.Cells APIs لاستخدام تسميات مخصصة للمجموعات الفرعية. تحتوي فئة GlobalizationSettings على الطرق التالية التي يمكن تجاوزها في التنفيذ المخصص لإعطاء الأسماء المطلوبة للتسميات**مجموع** & **المبلغ الإجمالي**.
+أصدر Aspose.Cells 16.11.0 فئة GlobalizationSettings إلى جانب خاصية WorkbookSettings.GlobalizationSettings لفرض استخدام واجهات برمجة التطبيقات لـ Aspose.Cells لاستخدام تسميات مخصصة لإجمالي الأرقام الفرعية. تحتوي فئة GlobalizationSettings على الطرق التالية التي يمكن استبدالها في التنفيذ المخصص لإعطاء أسماء مرغوبة للتسميات **الإجمالي** و**الإجمالي الكلي**.
 
-- GlobalizationSettings.getTotalName: الحصول على الاسم الإجمالي للوظيفة.
-- GlobalizationSettings.getGrandTotalName: الحصول على الاسم الإجمالي الكلي للدالة.
+- GlobalizationSettings.getTotalName: يحصل على اسم الإجمالي للوظيفة.
+- GlobalizationSettings.getGrandTotalName: يحصل على الإجمالي الكلي لاسم الوظيفة.
 
-فيما يلي فئة مخصصة بسيطة تعمل على توسيع فئة GlobalizationSettings وتتجاوز الأساليب المذكورة أعلاه لإرجاع تسميات مخصصة لوظيفة الدمج المتوسط.
+فيما يلي فئة مخصصة بسيطة توسع فئة GlobalizationSettings وتستبدل طرقها المذكورة أعلاه لإرجاع تسميات مخصصة لدالة التجميع المتوسطية.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomSettings extends GlobalizationSettings
 
@@ -72,11 +73,11 @@ url: /ar/java/public-api-changes-in-aspose-cells-16-11-0/
 
 {{< /highlight >}}
 
-المقتطف التالي يقوم بتحميل جدول بيانات موجود ويضيف الإجمالي الفرعي لنوع المتوسط على البيانات المتوفرة بالفعل في ورقة العمل. سيتم استدعاء فئة CustomSettings وطرق getTotalName & getGrandTotalName الخاصة بها في وقت إضافة Subtotal إلى ورقة العمل.
+المقتطف التالي يقوم بتحميل جدول بيانات موجود بالفعل في ورقة البيانات ويضيف الإجمالي الفرعي من النوع المتوسط إلى البيانات المتاحة بالفعل في ورقة البيانات. سيتم استدعاء فئة CustomSettings وطرق getTotalName و getGrandTotalName في وقت إضافة الإجمالي الفرعي إلى ورقة البيانات.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing some data
 
@@ -96,7 +97,7 @@ Worksheet sheet = book.getWorksheets().get(0);
 
 //Adds SubTotal of type Average to the worksheet
 
-sheet.getCells().subtotal(CellArea.createCellArea("A2", "B9"), 0, ConsolidationFunction.AVERAGE, new int[]{ 0,1 });
+sheet.getCells().subtotal(CellArea.createCellArea("A2", "B9"), 0, ConsolidationFunction.AVERAGE, new int[] { 0,1 });
 
 //Calculates Formulas
 
@@ -112,11 +113,11 @@ book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
 
-تقدم فئة GlobalizationSettings أيضًا طريقة getOtherName والتي تعد مفيدة للحصول على اسم ملصقات "أخرى" للمخططات الدائرية. فيما يلي سيناريو استخدام بسيط لطريقة GlobalizationSettings.getOtherName.
+تقدم فئة GlobalizationSettings أيضًا طريقة getOtherName والتي تكون مفيدة للحصول على اسم "آخر" للرسوم البيانية الدائرية. فيما يلي سيناريو استخدام بسيط لطريقة GlobalizationSettings.getOtherName.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class CustomSettings extends GlobalizationSettings
 
@@ -160,11 +161,11 @@ book.save(dir + "output.xlsx");
 
 {{< /highlight >}}
 
-يقوم المقتطف التالي بتحميل جدول بيانات موجود يحتوي على مخطط دائري ، ويعرض المخطط للصورة أثناء استخدام فئة CustomSettings التي تم إنشاؤها أعلاه.
+المقتطف التالي يقوم بتحميل جدول بيانات موجود يحتوي على رسم بياني دائري، ويقوم بتقديم الرسم البياني إلى صورة أثناء استخدام فئة CustomSettings التي تم إنشاؤها أعلاه.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Loads an existing spreadsheet containing a pie chart
 
@@ -194,13 +195,13 @@ chart.toImage(dir + "output.png", new ImageOrPrintOptions());
 
 {{< /highlight >}}
 ### **تمت إضافة فئة CellsFactory**
-كشف Aspose.Cells 16.11.0 عن فئة CellsFactory التي لها حاليًا طريقة واحدة ، وهي ؛ خلق نمط. يمكن استخدام أسلوب CellsFactory.createStyle لإنشاء مثيل لفئة Style دون إضافته إلى مجموعة أنماط المصنف.
+أصدر Aspose.Cells 16.11.0 فئة CellsFactory التي تحتوي حاليًا على طريقة واحدة، وهي؛ createStyle. يمكن استخدام طريقة CellsFactory.createStyle لإنشاء نسخة من فئة Style دون إضافتها إلى مجموعة أنماط ورقة البيانات.
 
-فيما يلي سيناريو الاستخدام البسيط لطريقة CellsFactory.createStyle.
+فيما يلي سيناريو استخدام بسيط لطريقة CellsFactory.createStyle.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Initializes the CellsFactory class
 
@@ -211,22 +212,22 @@ CellsFactory factory = new CellsFactory();
 Style style = factory.createStyle();
 
 {{< /highlight >}}
-### **تمت إضافة المصنف. خاصية AbsolutePath**
-كشف Aspose.Cells 16.11.0 المصنف. تسمح الخاصية AbsolutePath بالحصول على المسار المطلق للمصنف المخزن في ملف workbook.xml أو تعيينه. هذه الخاصية مفيدة أثناء تحديث الروابط الخارجية فقط.
-### **تمت إضافة أسلوب GridHyperlinkCollection.getHyperlink**
-كشف Aspose.Cells.GridWeb 16.11.0 طريقة getHyperlink إلى فئة GridHyperlinkCollection التي تسمح بالحصول على مثيل GridHyperlink إما بتمرير مثيل GridCell أو زوج من الأعداد الصحيحة المقابلة لمؤشرات عمود الصف.
+### **تمت إضافة خاصية Workbook.AbsolutePath**
+أصدر Aspose.Cells 16.11.0 خاصية Workbook.AbsolutePath التي تسمح بالحصول على مسار العمل المؤقت المخزن في ملف workbook.xml أو تعيينه. تعتبر هذه الخاصية مفيدة أثناء تحديث الروابط الخارجية فقط.
+### **تمت إضافة طريقة GridHyperlinkCollection.getHyperlink**
+أصدر Aspose.Cells.GridWeb 16.11.0 طريقة getHyperlink إلى فئة GridHyperlinkCollection التي تسمح بالحصول على مثيل GridHyperlink عن طريق تمرير مثيل GridCell أو زوج من الأعداد الصحيحة المقابلة لمؤشرات الصف العمود.
 
 {{% alert color="primary" %}} 
 
-في حالة عدم العثور على ارتباط تشعبي في الخلية المحددة ، فإن طريقة getHyperlink ستعيد قيمة خالية.
+في حال عدم العثور على رابط تشعبي على الخلية المحددة، ستُعيد طريقة getHyperlink قيمة فارغة.
 
 {{% /alert %}} 
 
-فيما يلي سيناريو استخدام بسيط لطريقة getHyperlink.
+فيما يلي سيناريو بسيط لاستخدام طريقة getHyperlink.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Gets the active worksheet from the collection
 
@@ -245,17 +246,17 @@ GridHyperlink link = links.getHyperlink(sheet.getCells().get("A1"));
 link = links.getHyperlink(0, 3);
 
 {{< /highlight >}}
-## **واجهات برمجة التطبيقات التي عفا عليها الزمن**
-### **منشئ أسلوب قديم**
-يرجى استخدام طريقة cellFactory.createStyle كبديل.
-## **واجهات برمجة التطبيقات المحذوفة**
-### **تم حذف Cell.getConditionalStyle Method**
-الرجاء استخدام طريقة Cell.getConditionalFormattingResult بدلاً من ذلك.
-### **تم حذف طريقة Cells.getMaxDataRowInColumn (عمود int)**
-الرجاء استخدام طريقة Cells.getLastDataRow (int) كبديل.
-### **خاصية PageSetup.Draft المحذوفة**
-يُنصح باستخدام خاصية PageSetup.PrintDraft بدلاً من ذلك.
-### **تم حذف خاصية AutoFilter.FilterColumnCollection**
-يرجى مراعاة استخدام خاصية AutoFilter.FilterColumns لتحقيق نفس الهدف.
-### **TickLabels المحذوفة. خاصية الدوران**
-الرجاء استخدام خاصية TickLabels.RotationAngle بدلاً من ذلك.
+## **واجهات برمجة التطبيق القديمة**
+### **مُنشئ نمط مهجور**
+يرجى استخدام طريقة createStyle من cellsFactory كبديل.
+## **حذف واجهات برمجة التطبيق**
+### **طريقة getConditionalStyle في Cell تم حذفها**
+الرجاء استخدام طريقة getConditionalFormattingResult بدلاً من ذلك.
+### **طريقة getMaxDataRowInColumn(int column) في Cells تم حذفها**
+الرجاء استخدام طريقة getLastDataRow(int) كبديل.
+### **خاصية Draft في PageSetup تم حذفها**
+من المستحسن استخدام خاصية PrintDraft في PageSetup بدلاً من ذلك.
+### **خاصية FilterColumnCollection في AutoFilter تم حذفها**
+يرجى النظر في استخدام خاصية FilterColumns في AutoFilter لتحقيق نفس الهدف.
+### **خاصية Rotation في TickLabels تم حذفها**
+الرجاء استخدام خاصية RotationAngle في TickLabels بدلاً من ذلك.

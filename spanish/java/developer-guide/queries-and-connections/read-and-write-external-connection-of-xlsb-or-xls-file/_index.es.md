@@ -1,28 +1,29 @@
-﻿---
-title: Lea y escriba la conexión externa del archivo XLSB o XLS
+---
+title: Leer y Escribir Conexión Externa de Archivo XLSB o XLS
 type: docs
 weight: 80
 url: /es/java/read-and-write-external-connection-of-xlsb-or-xls-file/
 ---
-## **Posibles escenarios de uso**
 
-Aspose.Cells ya admite la conexión externa de lectura y escritura del archivo XLSX, pero ahora también admite esta función para los archivos XLSB y XLS. Sin embargo, el código es el mismo para ambos tipos de formato.
+## **Escenarios de uso posibles**
 
-## **Leer y escribir la conexión externa del archivo XLSB/XLS**
+Aspose.Cells ya admite la lectura y escritura de conexión externa de archivos XLSX, pero ahora también admite esta función para archivos XLSB y XLS. Sin embargo, el código es el mismo para ambos tipos de formato.
 
-El siguiente código de muestra carga el archivo de muestra XLSB (también se puede cargar XLS) y lee su primera conexión externa, que en realidad es una conexión de base de datos de acceso Microsoft. Luego modifica la[**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)propiedad y la guarda como archivo de salida XLSB. La captura de pantalla muestra el efecto del código en[muestra XLSB archivo](51740743.xlsb)y[archivo de salida XLSB](51740742.xlsb)después de su ejecución. Consulte también la salida de la consola del código de muestra que se proporciona a continuación para obtener una referencia.
+## **Leer y Escribir Conexión Externa de Archivo XLSB/XLS**
 
-![todo:imagen_alternativa_texto](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
+El siguiente código de ejemplo carga el archivo XLSB de ejemplo (también se puede cargar XLS) y lee su primera Conexión Externa que es en realidad una Conexión de Base de Datos de Microsoft Access. Luego modifica la propiedad [**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name) y lo guarda como archivo XLSB de salida. La captura de pantalla muestra el efecto del código en el [archivo XLSB de ejemplo](51740743.xlsb) y el [archivo XLSB de salida](51740742.xlsb) después de su ejecución. También consulte la salida de consola del código de ejemplo que se muestra a continuación para su referencia.
+
+![todo:image_alt_text](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 
 ## **Código de muestra**
 
-El siguiente código funcionará tanto para XLSB como para XLS cargando y guardando archivos con la extensión adecuada.
+El siguiente código funcionará tanto para XLSB como para XLS al cargar y guardar archivos con la extensión adecuada.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.java" >}}
 
-## **Salida de consola**
+## **Salida de la consola**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
 Connection Name: Cust
 

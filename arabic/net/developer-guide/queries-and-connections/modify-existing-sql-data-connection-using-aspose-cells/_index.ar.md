@@ -1,24 +1,25 @@
-﻿---
-title: تعديل اتصال بيانات SQL الموجود باستخدام Aspose.Cells
+---
+title: تعديل اتصال البيانات الحالي باستخدام Aspose.Cells
 type: docs
 weight: 20
 url: /ar/net/modify-existing-sql-data-connection-using-aspose-cells/
 ---
+
 {{% alert color="primary" %}}
 
-يدعم Aspose.Cells تعديل وصلة بيانات SQL الموجودة. تشرح المقالة كيفية استخدام Aspose.Cells لتعديل الخصائص المختلفة لاتصال بيانات SQL.
+تدعم Aspose.Cells تعديل اتصالات SQL الحالية. سيشرح المقال كيفية استخدام Aspose.Cells لتعديل خصائص مختلفة لاتصالات SQL البيانات.
 
-يمكنك إضافة أو مشاهدة اتصالات البيانات داخل Microsoft Excel باتباع الخطوات التالية**البيانات> الاتصالات** أمر القائمة.
+يمكنك إضافة أو رؤية اتصالات البيانات داخل Microsoft Excel باستخدام أمر القائمة الخاص بالبيانات > اتصالات.
 
-وبالمثل ، يوفر Aspose.Cells الوسائل للوصول إلى اتصالات البيانات وتعديلها باستخدام مجموعة Workbook.DataConnections.
+بالمثل، يوفر Aspose.Cells وسيلة للوصول إلى وتعديل اتصالات البيانات باستخدام مجموعة Workbook.DataConnections.
 
 {{% /alert %}}
 
-## تعديل اتصال بيانات SQL الموجود باستخدام Aspose.Cells
+## تعديل اتصال البيانات الحالي باستخدام Aspose.Cells
 
-يوضح النموذج التالي استخدام Aspose.Cells لتعديل اتصال بيانات SQL للمصنف. يمكنك تنزيل ملف Excel المصدر المستخدم في هذا الرمز وملف Excel الناتج الذي تم إنشاؤه بواسطة الكود من الروابط التالية.
+يوضح المثال التالي استخدام Aspose.Cells لتعديل اتصال البيانات الحالي للورقة العمل. يمكنك تنزيل ملف Excel المصدر المستخدم في هذا الكود وملف Excel الناتج الذي تم إنشاؤه بواسطة الشفرة من الروابط التالية.
 
-- [مصدر ملف Excel](5112357.xlsx)
-- [إخراج ملف Excel](5112356.xlsx)
+- [ملف Excel المصدر](5112357.xlsx)
+- [ملف Excel الناتج](5112356.xlsx)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ModifyingExistingDataConnection-ModifyingExistingDataConnection.cs" >}}

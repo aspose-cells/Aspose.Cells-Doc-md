@@ -1,18 +1,19 @@
-﻿---
-title: Gruppieren Sie Pivot-Felder in der Pivot-Tabelle
+---
+title: Gruppieren von Pivot Feldern in der Pivot Tabelle
 type: docs
 weight: 80
 url: /de/net/group-pivot-fields-in-the-pivot-table/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Microsoft In Excel können Sie Pivot-Felder der Pivot-Tabelle gruppieren. Wenn es eine große Datenmenge zu einem Pivot-Feld gibt, ist es oft sinnvoll, sie in Abschnitte zu gruppieren. Aspose.Cells bietet diese Funktion auch über die[**PivotTable.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index)Methode.
+## **Mögliche Verwendungsszenarien**
 
-## **Gruppieren Sie Pivot-Felder in der Pivot-Tabelle**
+Microsoft Excel ermöglicht es Ihnen, Pivot-Felder der Pivot-Tabelle zu gruppieren. Wenn eine große Menge von Daten mit einem Pivot-Feld verbunden ist, ist es oft nützlich, sie in Abschnitte zu gruppieren. Aspose.Cells bietet diese Funktion auch mit der Methode [**PivotTable.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index).
 
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](64716818.xlsx) und führt die Gruppierung auf dem ersten Pivot-Feld mithilfe von durch[**PivotTable.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index)Methode. Anschließend werden die Daten der Pivot-Tabelle aktualisiert und berechnet und die Arbeitsmappe als gespeichert[Excel-Datei ausgeben](64716817.xlsx). Der Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispiel-Excel-Datei. Wie Sie im Screenshot sehen können, ist das erste Pivot-Feld nun nach Monaten und Quartalen gruppiert.
+## **Gruppieren von Pivot-Feldern in der Pivot-Tabelle**
 
-![todo: Bild_alt_Text](group-pivot-fields-in-the-pivot-table_1.png)
+Der folgende Beispielcode lädt die [Beispieldatei Excel](64716818.xlsx) und führt eine Gruppierung des ersten Pivot-Felds mit der Methode [**PivotTable.SetManualGroupField()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/setmanualgroupfield/index) durch. Anschließend aktualisiert und berechnet er die Daten der Pivot-Tabelle und speichert die Arbeitsmappe als [Ausgabedatei Excel](64716817.xlsx). Der Screenshot zeigt die Auswirkung des Beispielcodes auf die Beispieldatei Excel. Wie im Screenshot zu sehen ist, ist das erste Pivot-Feld nun nach Monaten und Quartalen gruppiert.
+
+![todo:image_alt_text](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **Beispielcode**
 

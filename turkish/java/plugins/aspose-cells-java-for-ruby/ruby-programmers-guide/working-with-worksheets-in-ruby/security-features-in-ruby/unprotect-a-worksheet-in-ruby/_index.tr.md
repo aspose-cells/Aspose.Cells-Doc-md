@@ -1,15 +1,16 @@
-﻿---
-title: Ruby'de bir Çalışma Sayfasının korumasını kaldırın
+---
+title: Ruby de Bir Çalışma Sayfasının Korumasını Kaldırma
 type: docs
 weight: 20
 url: /tr/java/unprotect-a-worksheet-in-ruby/
 ---
-## **Aspose.Cells - Bir Çalışma Sayfasının korumasını kaldırın**
- Çalışma sayfasını kullanarak korumak için**Yakut için Aspose.Cells Java** , Arama**unprotect_worksheet** yöntemi**koruma** modül.
 
-**Yakut Kodu**
+## **Aspose.Cells - Bir Çalışma Sayfasının Korumasını Kaldırma**
+**Aspose.Cells Java için Ruby** kullanarak bir çalışma sayfasını korumak için **protection** modülünün **unprotect_worksheet** yöntemini çağırın.
 
-{{< highlight "ruby" >}}
+**Ruby Kodu**
+
+{{< highlight ruby >}}
 
  def unprotect_worksheet()
 
@@ -55,6 +56,6 @@ end   
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Bir Çalışma Sayfasının korumasını kaldırın (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+Herhangi bir sosyal kodlama sitesinden **Bir Çalışma Sayfasını Korumasız Bırakma (Aspose.Cells)** indirin:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

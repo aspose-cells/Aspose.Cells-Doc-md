@@ -1,13 +1,14 @@
-﻿---
-title: Работа с верхними и нижними колонтитулами
+---
+title: Работа с заголовками и нижними колонтитулами
 type: docs
 weight: 110
 url: /ru/net/working-with-headers-and-footers/
 ---
-## **Aspose.Cells - Работа с верхними и нижними колонтитулами**
+
+## **Aspose.Cells - Работа с заголовками и нижними колонтитулами**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  //Instantiating a Workbook object
 
@@ -49,10 +50,10 @@ workbook.Save("../../data/headerfooter.xlsx");
 
 
 {{< /highlight >}}
-## **NPOI — HSSF XSSF — Работа с верхними и нижними колонтитулами**
+## **NPOI - HSSF XSSF - Работа с заголовками и нижними колонтитулами**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  IWorkbook wb = new XSSFWorkbook();
 
@@ -73,13 +74,13 @@ wb.Write(sw);
 sw.Close(); 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Работа с верхними и нижними колонтитулами** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Загрузите **Работа с заголовками и нижними колонтитулами** с любого из указанных социальных сайтов для кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Headers.and.Footers.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Работа с рабочими листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Для получения дополнительной информации посетите [Работа с листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

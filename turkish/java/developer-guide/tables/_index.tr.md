@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tablolar
 type: docs
 weight: 160

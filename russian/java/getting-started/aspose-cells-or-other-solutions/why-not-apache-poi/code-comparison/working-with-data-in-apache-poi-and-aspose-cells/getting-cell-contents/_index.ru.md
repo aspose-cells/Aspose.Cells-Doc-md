@@ -1,49 +1,50 @@
-﻿---
-title: Получение Cell Содержание
+---
+title: Получение содержимого ячейки
 type: docs
 weight: 10
 url: /ru/java/getting-cell-contents/
 ---
-## **Aspose.Cells - Получение Cell Содержание**
-Для доступа к ячейкам доступен метод Cells.get().
+
+## **Aspose.Cells - Получение содержимого ячейки**
+Метод Cells.get() доступен для доступа к ячейкам.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
- //Доступ к первому рабочему листу в файле Excel
+ //Accessing the first worksheet in the Excel file
 
-Рабочий лист = workbook.getWorksheets().get(0);
+Worksheet worksheet = workbook.getWorksheets().get(0);
 
-Cells ячеек = рабочий лист.getCells();
+Cells cells = worksheet.getCells();
 
-// Доступ к максимальному диапазону отображения
+//Access the Maximum Display Range
 
-Диапазон диапазона = рабочий лист.getCells().getMaxDisplayRange();
+Range range = worksheet.getCells().getMaxDisplayRange();
 
 int tcols = range.getColumnCount();
 
 int trows = range.getRowCount();
 
-System.out.println("Всего строк:" + trows);
+System.out.println("Total Rows:" + trows);
 
-System.out.println("Всего столбцов:" + tcols);
+System.out.println("Total Cols:" + tcols);
 
-// Значение доступа Cell B4
+// Access value of Cell B4
 
 //=====================================================
 
 System.out.println(cells.get("B4").getValue());
 
-Cell ячейка = Cells.get(3,1); // Доступ к значению Cell B4
+Cell cell = cells.get(3,1); //Access value of Cell B4
 
 System.out.println(cell.getValue());
 
 //=====================================================
 
-RowCollection rows = Cells.getRows();
+RowCollection rows = cells.getRows();
 
- для (int я = 0 ; я< rows.getCount() ; i++)
+for (int i = 0 ; i < rows.getCount() ; i++)
 
 {
 
@@ -64,12 +65,12 @@ RowCollection rows = Cells.getRows();
 }
 
 {{< /highlight >}}
-## **Apache POI SS — HSSF XSSF — Получение Cell Содержание**
+## **Apache POI SS - HSSF XSSF - Получение содержимого ячейки**
 Apache POI предоставляет класс Cell для доступа к различным свойствам ячеек.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Sheet sheet1 = wb.getSheetAt(0);
 
@@ -128,13 +129,13 @@ for (Row row : sheet1) {
 }
 
 {{< /highlight >}}
-## **Скачать рабочий код**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Скачать пример кода**
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/gettingcellcontent)
+## **Скачать работающий код**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
+## **Загрузить образец кода**
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/datahandling/gettingcellcontent)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Функции обработки данных с использованием Aspose.Cells](/cells/ru/java/data-handling-features-using-aspose-cells/)
+Для получения более подробной информации посетите [Функции работы с данными с использованием Aspose.Cells](/cells/ru/java/data-handling-features-using-aspose-cells/)
 
 {{% /alert %}}

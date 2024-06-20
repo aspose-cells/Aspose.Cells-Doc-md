@@ -1,41 +1,42 @@
-﻿---
-title: Konfigurieren von Schriftarten zum Rendern von Tabellenkalkulationen
+---
+title: Konfigurieren von Schriftarten zur Darstellung von Tabellenkalkulationen
 type: docs
 weight: 10
 url: /de/java/configuring-fonts-for-rendering-spreadsheets/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells-APIs bieten die Möglichkeit, die Tabellenkalkulationen in Bildformaten zu rendern und sie in die Formate PDF und XPS zu konvertieren. Um die Konvertierungstreue zu maximieren, müssen die in der Tabelle verwendeten Schriftarten im Standardverzeichnis für Schriftarten des Betriebssystems verfügbar sein. Falls die erforderlichen Schriftarten nicht vorhanden sind, versuchen die Aspose.Cells-APIs, die erforderlichen Schriftarten durch die verfügbaren zu ersetzen.
+## **Mögliche Verwendungsszenarien**
 
-## **Auswahl an Schriftarten**
+Aspose.Cells APIs bieten die Möglichkeit, die Tabellenkalkulationen in Bildformate zu rendern und in PDF- und XPS-Formate zu konvertieren. Um die Konvertierungsgenauigkeit zu maximieren, ist es erforderlich, dass die in der Tabellenkalkulation verwendeten Schriftarten im Standard-Schriftartenverzeichnis des Betriebssystems verfügbar sind. Falls die erforderlichen Schriftarten nicht vorhanden sind, werden die Aspose.Cells APIs versuchen, die erforderlichen Schriftarten durch verfügbare zu ersetzen.
 
-Unten ist der Prozess, dem Aspose.Cells-APIs hinter den Kulissen folgen.
+## **Auswahl von Schriftarten**
 
-1. Der API versucht, die Schriftarten im Dateisystem zu finden, die genau mit dem in der Tabelle verwendeten Schriftartnamen übereinstimmen.
-1.  Wenn API die Schriftarten mit genau demselben Namen nicht finden kann, versucht es, die unter der Arbeitsmappe angegebene Standardschriftart zu verwenden[**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) Eigentum.
-1.  Wenn API die unter der Arbeitsmappe definierte Schriftart nicht finden kann[**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) -Eigenschaft versucht es, die unter angegebene Schriftart zu verwenden[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) oder[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) Eigentum.
-1.  Wenn API die unter definierte Schriftart nicht finden kann[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) oder[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) -Eigenschaft versucht es, die unter angegebene Schriftart zu verwenden[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) Eigentum.
-1.  Wenn API die unter definierte Schriftart nicht finden kann[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) -Eigenschaft versucht es, die am besten geeigneten Schriftarten aus allen verfügbaren Schriftarten auszuwählen.
-1. Wenn schließlich API keine Schriftarten im Dateisystem finden kann, wird die Tabelle mit Arial gerendert.
+Im Folgenden wird der Prozess erläutert, den die Aspose.Cells-APIs im Hintergrund durchlaufen.
+
+1. Die API versucht, die Schriftarten im Dateisystem zu finden, die dem exakten Schriftartnamen entsprechen, der in der Tabelle verwendet wird.
+1. Wenn die API die Schriftarten mit genau demselben Namen nicht finden kann, versucht sie, die Standardschriftart unter dem [**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)-Eigenschaft des Arbeitsblatts zu verwenden.
+1. Wenn die API die unter [**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) definierte Schriftart nicht finden kann, versucht sie, die Schriftart unter [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) oder [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) Eigenschaft zu verwenden.
+1. Wenn die API die unter [**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) oder [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) definierte Schriftart nicht finden kann, versucht sie, die Schriftart unter [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) Eigenschaft zu verwenden.
+1. Wenn die API die unter [**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) definierte Schriftart nicht finden kann, versucht sie, die geeignetsten Schriftarten aus allen verfügbaren Schriftarten auszuwählen.
+1. Schließlich rendert die API die Tabelle mit Arial, wenn sie keine Schriftarten im Dateisystem finden kann.
 
 {{% alert color="primary" %}}
 
- Die Aspose.Cells-APIs scannen immer das Standardschriftverzeichnis des Betriebssystems mit einer Ausnahme, das heißt; wenn JVM argumentiert**-DAspose.Cells.FontDirExc="YourFontDir"**eingestellt sind. In diesem Fall überspringen die Aspose.Cells-APIs das Scannen des Standardverzeichnisses für Schriftarten des Betriebssystems und durchsuchen nur den Pfad, der in den oben genannten JVM-Argumenten angegeben ist.
+Die Aspose.Cells-APIs durchsuchen immer das Standard-Schriftartenverzeichnis des Betriebssystems, mit einer Ausnahme, und zwar wenn JVM-Argumente **-DAspose.Cells.FontDirExc="YourFontDir"** festgelegt sind. In diesem Fall überspringen die Aspose.Cells-APIs das Scannen des Standard-Schriftartenverzeichnisses des Betriebssystems und suchen nur den Pfad, wie in den oben genannten JVM-Argumenten angegeben.
 
 {{% /alert %}}
 
-## **Legen Sie benutzerdefinierte Schriftordner fest**
+## **Benutzerdefinierte Schriftartordner einstellen**
 
- Aspose.Cells APIs durchsuchen das Standardverzeichnis für Schriftarten des Betriebssystems nach den erforderlichen Schriftarten. Falls die erforderlichen Schriftarten nicht im Schriftartenverzeichnis des Systems verfügbar sind, durchsuchen die APIs die benutzerdefinierten (benutzerdefinierten) Verzeichnisse. Das[**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs)Die Klasse hat eine Reihe von Möglichkeiten zum Festlegen benutzerdefinierter Schriftartenverzeichnisse gezeigt, wie unten beschrieben.
+Aspose.Cells-APIs durchsuchen das Standard-Schriftartenverzeichnis des Betriebssystems nach den erforderlichen Schriftarten. Wenn die erforderlichen Schriftarten im Schriftartenordner des Systems nicht verfügbar sind, suchen die APIs in den benutzerdefinierten (benutzerdefinierten) Verzeichnissen. Die Klasse [**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs) hat verschiedene Möglichkeiten freigelegt, benutzerdefinierte Schriftartenverzeichnisse wie unten aufgeführt festzulegen.
 
 1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): Diese Methode ist nützlich, wenn nur ein Ordner festgelegt werden soll.
-1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): Diese Methode ist nützlich, wenn sich die Schriftarten in mehreren Ordnern befinden und der Benutzer alle Ordner separat festlegen möchte, anstatt alle Schriftarten in einem einzigen Ordner zu kombinieren.
-1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): Dieser Mechanismus ist nützlich, wenn der Benutzer Schriftarten aus mehreren Ordnern oder eine einzelne Schriftartdatei oder Schriftartdaten aus einem Array von Bytes laden möchte.
+1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): Diese Methode ist nützlich, wenn die Schriftarten in mehreren Ordnern vorhanden sind und der Benutzer alle Ordner separat einrichten möchte, anstatt alle Schriftarten in einem einzigen Ordner zu kombinieren.
+1. [**FontConfigs.setFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontSources(com.aspose.cells.FontSourceBase[])): Diese Mechanismus ist nützlich, wenn der Benutzer Schriften aus mehreren Ordnern laden möchte oder eine einzelne Schriftdatei oder Schriftdaten aus einem Byte-Array.
 
 {{% alert color="primary" %}}
 
- Beide[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) & [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean) )-Methoden akzeptieren einen zweiten Parameter vom Typ Boolean. Vorbeigehen**wahr**Der zweite Parameter weist die Aspose.Cells-APIs an, die Unterordner nach den Schriftartdateien zu durchsuchen.
+Sowohl die Methoden [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) als auch [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)) akzeptieren als zweiten Parameter einen booleschen Typ. Durch Übergeben von **true** als zweiten Parameter werden die Aspose.Cells APIs angewiesen, in den Unterordnern nach den Schriftdateien zu suchen.
 
 {{% /alert %}}
 
@@ -43,31 +44,31 @@ Unten ist der Prozess, dem Aspose.Cells-APIs hinter den Kulissen folgen.
 
 {{% alert color="primary" %}}
 
-Bitte verwenden Sie zu Beginn der Bewerbung eine der oben genannten Methoden, d.h. bevor andere Objekte von Aspose.Cells-APIs aufgerufen werden.
+Bitte verwenden Sie eine der oben genannten Methoden zu Beginn der Anwendung, d.h. bevor Sie andere Objekte der Aspose.Cells APIs aufrufen.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-Wenn mehr als eine der oben genannten Methoden zum Festlegen der Schriftartquellen verwendet wird, werden nur die letzten Einstellungen wirksam.
+Wenn mehr als eine der oben genannten Methoden zur Festlegung der Schriftartenquellen verwendet werden, tritt nur die letzte Einstellung in Kraft.
 
 {{% /alert %}}
 
-## **Font-Ersetzungsmechanismus**
+## **Schriftarten-Ersatzmechanismus**
 
-Aspose.Cells-APIs bieten auch die Möglichkeit, die Ersatzschriftart für Wiedergabezwecke anzugeben. Dieser Mechanismus ist hilfreich, wenn eine erforderliche Schriftart auf dem Computer, auf dem die Konvertierung stattfinden soll, nicht verfügbar ist. Benutzer können eine Liste mit Schriftartnamen als Alternative zur ursprünglich erforderlichen Schriftart bereitstellen. Um dies zu erreichen, haben die Aspose.Cells-APIs die Methode FontConfigs.setFontSubstitutes verfügbar gemacht, die zwei Parameter akzeptiert. Der erste Parameter ist vom Typ**Schnur** , das sollte der Name der Schriftart sein, die ersetzt werden muss. Der zweite Parameter ist ein Array vom Typ**Schnur**. Benutzer können eine Liste mit Schriftartnamen als Ersatz für die ursprüngliche Schriftart (angegeben im ersten Parameter) bereitstellen.
+Aspose.Cells APIs bieten auch die Möglichkeit, die Ersatzschrift für Rendering-Zwecke anzugeben. Dieser Mechanismus ist hilfreich, wenn eine erforderliche Schrift auf dem Rechner, auf dem die Konvertierung stattfinden soll, nicht verfügbar ist. Benutzer können eine Liste von Schriftarten als Alternative zur ursprünglich benötigten Schrift angeben. Um dies zu erreichen, haben die Aspose.Cells APIs die Methode FontConfigs.setFontSubstitutes freigegeben, die 2 Parameter akzeptiert. Der erste Parameter ist vom Typ **String** und sollte der Name der Schrift sein, die ersetzt werden muss. Der zweite Parameter ist ein Array vom Typ **String**. Benutzer können eine Liste von Schriftarten als Ersatz für die ursprüngliche Schrift (angegeben im ersten Parameter) angeben.
 
-Hier ist ein einfaches Nutzungsszenario.
+Hier ist ein einfaches Anwendungsbeispiel.
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Substituting the Arial font with Times New Roman & Calibri
 
-FontConfigs.setFontSubstitutes("Arial", new String[]{ "Times New Roman", "Calibri" });
+FontConfigs.setFontSubstitutes("Arial", new String[] { "Times New Roman", "Calibri" });
 
 {{< /highlight >}}
 
-## **Informationsbeschaffung**
+## **Informationssammlung**
 
-Zusätzlich zu den oben erwähnten Methoden haben die Aspose.Cells-APIs auch Mittel bereitgestellt, um Informationen darüber zu sammeln, welche Quellen und Ersetzungen eingestellt wurden.
+Neben den oben genannten Methoden bieten die Aspose.Cells APIs auch Möglichkeiten, Informationen darüber zu sammeln, welche Quellen und Substitutionen festgelegt wurden.
 
-1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources() ): Diese Methode gibt ein Array vom Typ zurück[**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource)enthält die Liste der angegebenen Schriftartquellen. Falls keine Quellen eingestellt wurden, wird die[**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources())-Methode gibt ein leeres Array zurück.
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String) ): Diese Methode akzeptiert einen Parameter vom Typ**Schnur** Ermöglicht die Angabe des Schriftartnamens, für den die Ersetzung festgelegt wurde. Falls für den angegebenen Schriftartnamen keine Ersetzung festgelegt wurde, dann die[**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String))-Methode gibt null zurück.
+1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--): Diese Methode gibt ein Array vom Typ [**FontSourceBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource) zurück, das die Liste der angegebenen Schriftquellen enthält. Falls keine Quellen festgelegt wurden, gibt die Methode [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources--) ein leeres Array zurück.
+1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)): Diese Methode akzeptiert einen Parameter vom Typ **String**, um den Schriftname festzulegen, für den die Substitution vorgenommen wurde. Falls keine Substitution für den angegebenen Schriftnamen festgelegt wurde, gibt die Methode [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) null zurück.

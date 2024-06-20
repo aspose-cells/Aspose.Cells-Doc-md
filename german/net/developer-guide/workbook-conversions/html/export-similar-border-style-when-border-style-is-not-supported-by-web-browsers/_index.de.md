@@ -1,18 +1,19 @@
-﻿---
-title: Exportieren Sie einen ähnlichen Rahmenstil, wenn der Rahmenstil nicht von Webbrowsern unterstützt wird
+---
+title: Ähnlichen Rahmenstil exportieren, wenn der Rahmenstil von Webbrowsern nicht unterstützt wird
 type: docs
 weight: 70
 url: /de/net/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Microsoft Excel unterstützt einige Arten von gestrichelten Rahmen, die von Webbrowsern nicht unterstützt werden. Wenn Sie eine solche Excel-Datei mit Aspose.Cells in HTML konvertieren, werden solche Ränder entfernt. Aspose.Cells kann aber auch unterstützen, solche Grenzen mit anzuzeigen[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle) Eigentum. Bitte setzen Sie den Wert auf**wahr**und die nicht unterstützten Grenzen werden auch in die Datei HTML exportiert.
+## **Mögliche Verwendungsszenarien**
 
-## **Exportieren Sie einen ähnlichen Rahmenstil, wenn der Rahmenstil nicht von Webbrowsern unterstützt wird**
+Microsoft Excel unterstützt einige Arten von gestrichelten Linien, die von Webbrowsern nicht unterstützt werden. Wenn Sie eine solche Excel-Datei in HTML mit Aspose.Cells konvertieren, werden solche Linien entfernt. Allerdings kann Aspose.Cells auch unterstützen, solche Linien mit der [**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)-Eigenschaft anzuzeigen. Bitte setzen Sie den Wert auf **true** und die nicht unterstützten Linien werden auch in der HTML-Datei exportiert.
 
-Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](64716806.xlsx) das einige nicht unterstützte Rahmen enthält, wie im folgenden Screenshot gezeigt. Der Screenshot veranschaulicht weiter die Wirkung von[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)Eigentum innerhalb der[Ausgang HTML](64716804.zip).
+## **Ähnlichen Randstil exportieren, wenn der Randstil von Webbrowsern nicht unterstützt wird**
 
-![todo: Bild_alt_Text](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
+Der folgende Beispielcode lädt die [Beispiel-Excel-Datei](64716806.xlsx) , die einige nicht unterstützte Rahmen aufweist, wie in der folgenden Abbildung gezeigt. Die Abbildung veranschaulicht weiterhin die Wirkung der [**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)-Eigenschaft im [Ausgabe-HTML](64716804.zip).
+
+![todo:image_alt_text](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
 
 ## **Beispielcode**
 

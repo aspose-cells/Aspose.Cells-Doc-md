@@ -1,16 +1,17 @@
-﻿---
+---
 title: Läs och skriv tabell med datakälla för frågetabell
 type: docs
 weight: 60
 url: /sv/java/read-and-write-table-with-query-table-data-source/
 ---
+
 ## **Läs och skriv tabell med datakälla för frågetabell**
-Med Aspose.Cells kan du läsa och skriva en tabell som har en frågetabell som datakälla. Stödet för den här funktionen finns även för XLS-filer. Följande kodavsnitt demonstrerar att läsa och skriva en sådan tabell genom att först läsa tabellen och sedan ändra den för att lägga till totalraden.
+Med Aspose.Cells kan du läsa och skriva en tabell som har en QueryTable som datakälla. Stöd för denna funktion finns också för XLS-filer. Följande kodsnutt visar hur du läser och skriver en sådan tabell genom att först läsa tabellen och sedan modifiera den för att lägga till totalsummaraden.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Tables-ReadAndWriteTableWithQueryTableDataSource-1.java" >}}
 
-Käll- och utdata Excel-filerna bifogas som referens.
+Käll- och utdataexcelfilerna är bilagda som referens.
 
-[Källfilen](SampleTableWithQueryTable.xls)
+[Källfil](SampleTableWithQueryTable.xls)
 
-[Utdatafil](SampleTableWithQueryTable_out.xls)
+[Output File](SampleTableWithQueryTable_out.xls)

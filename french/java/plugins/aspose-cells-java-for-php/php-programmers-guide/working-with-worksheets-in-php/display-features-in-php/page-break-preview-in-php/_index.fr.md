@@ -1,15 +1,16 @@
-﻿---
-title: Aperçu des sauts de page en PHP
+---
+title: Aperçu du saut de page en Php
 type: docs
 weight: 60
 url: /fr/java/page-break-preview-in-php/
 ---
-## **Aspose.Cells - Aperçu des sauts de page**
- Pour définir la feuille de calcul sur l'aperçu des sauts de page à l'aide de**Aspose.Cells Java for PHP** , invoquez simplement**Aperçu du saut de page** module.
+
+## **Aspose.Cells - Aperçu du saut de page**
+Pour définir la feuille de calcul en mode aperçu du saut de page en utilisant **Aspose.Cells Java for PHP**, il suffit d'appeler le module **PageBreakPreview**.
 
 **Code PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  //Instantiating a Excel object by excel file path
 
@@ -30,7 +31,7 @@ $worksheet->setPageBreakPreview(true);
 $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
-Télécharger**Aperçu des sauts de page (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+## **Télécharger le code en cours d'exécution**
+Téléchargez **Page Break Preview (Aspose.Cells)** depuis l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/PageBreakPreview.php)

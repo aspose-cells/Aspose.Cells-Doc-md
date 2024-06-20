@@ -1,19 +1,20 @@
-﻿---
-title: دقة عالية في تصميم التقرير
+---
+title: دقة عالية لتصميم التقرير
 type: docs
 weight: 30
 url: /ar/jasperreports/high-fidelity-to-the-report-design/
 ---
+
 {{% alert color="primary" %}}
 
- تصدير Aspose.Cells for JasperReports تقارير مثل Microsoft جداول بيانات Excel التي تبدو مطابقة للتقارير التي تم تصديرها من قبل المصدرين المدمجين لـ[جاسبر ريبورتس](https://community.jaspersoft.com/project/jasperreports-library).
+Aspose.Cells for JasperReports يصدر التقارير كجداول بيانات Microsoft Excel تبدو مماثلة للتقارير المصدرة بواسطة مصدري [JasperReports] (https://community.jaspersoft.com/project/jasperreports-library) المدمجين.
 
-**تم تصدير نموذج تقرير XLS باستخدام Aspose.Cells for JasperReports** 
+**مثال على تقرير XLS تم تصديره باستخدام Aspose.Cells for JasperReports** 
 
-![ما يجب القيام به: image_بديل_نص](high-fidelity-to-the-report-design_1.png)
+![todo:image_alt_text](high-fidelity-to-the-report-design_1.png)
 
-**تم تصدير نموذج تقرير XLS باستخدام المصدرين المدمجين [JasperReports] (https://community.jaspersoft.com/project/jasperreports-library)**
+**تقرير XLS عيني مصدر باستخدام مصدري [JasperReports] (https://community.jaspersoft.com/project/jasperreports-library) المدمجين**
 
-![ما يجب القيام به: image_بديل_نص](high-fidelity-to-the-report-design_2.png)
+![todo:image_alt_text](high-fidelity-to-the-report-design_2.png)
 
 {{% /alert %}}

@@ -1,57 +1,58 @@
 ---
-title: Создать и отформатировать таблицу
+title: Создание и форматирование таблицы
 type: docs
 weight: 10
 url: /ru/cpp/create-and-format-table/
 ---
-##  **Создать таблицу**
-Одним из преимуществ электронных таблиц является то, что они позволяют создавать списки разных типов, например, списки телефонов, списки задач, списки транзакций, активов или обязательств. Несколько пользователей могут совместно использовать, создавать и поддерживать различные списки.
 
-Aspose.Cells поддерживает создание списков и управление ими.
-###  **Преимущества объекта списка**
-Преобразование списка данных в реальный объект списка дает немало преимуществ.
+## **Создать таблицу**
+Одним из преимуществ электронных таблиц является возможность создания различных типов списков, например, списков телефонов, списков задач, списков транзакций, активов или обязательств. Несколько пользователей могут вместе работать с созданием и поддержкой различных списков.
 
-- Новые строки и столбцы добавляются автоматически.
-- Внизу списка можно легко добавить строку итогов для отображения СУММЫ, СРЗНАЧЕНИЯ, СЧЕТА и т. д.
-- Столбцы, добавленные справа, автоматически включаются в объект «Список».
-- Диаграммы, основанные на строках и столбцах, будут расширяться автоматически.
-- Именованные диапазоны, назначенные строкам и столбцам, будут расширены автоматически.
+Aspose.Cells поддерживает создание и управление списками.
+### **Преимущества объекта списка**
+Существует несколько преимуществ при преобразовании списка данных в фактический объект списка
+
+- Новые строки и столбцы автоматически включаются.
+- Итоговая строка внизу списка легко добавляется для отображения SUM, AVERAGE, COUNT и т. д.
+- Добавленные столбцы справа автоматически включаются в объект списка.
+- Графики, основанные на строках и столбцах, будут автоматически расширены.
+- Именованные диапазоны, присвоенные строкам и столбцам, будут автоматически расширены.
 - Список защищен от случайного удаления строк и столбцов.
-###  **Создание объекта списка с помощью Microsoft Excel**
+### **Создание объекта списка с использованием Microsoft Excel**
 
-|**Выбор диапазона данных для создания объекта List**|
+|**Выбор диапазона данных для создания объекта списка**|
 | :- |
-|![задача: image_alt_text](jHcNq4o.png)|
-Откроется диалоговое окно «Создать список».
+|![todo:image_alt_text](jHcNq4o.png)|
+Это отображает диалоговое окно Создать список.
 
-|**Диалоговое окно «Создать список»**|
+|**Диалоговое окно Создать список**|
 | :- |
-|![задача: image_alt_text](kJmukRF.png)|
-Реализация объекта List для данных и указание итоговой строки (выберите *Data**, затем *List**, а затем *Total Row**).
+|![todo:image_alt_text](kJmukRF.png)|
+Реализация объекта списка для данных и указание общего количества строк (выберите **Данные**, затем **Список**, а затем **Общая строка**).
 
 |**Создание объекта списка**|
 | :- |
-|![задача: image_alt_text](ECSGVdR.png)|
-###  **Используя Aspose.Cells API**
- Aspose.Cells предоставляет класс[Рабочая тетрадь](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) который представляет файл Excel Microsoft.[Рабочая тетрадь](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) класс содержит[Рабочие листы](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)коллекция, которая обеспечивает доступ к каждому листу в файле Excel.
+|![todo:image_alt_text](ECSGVdR.png)|
+### **Использование API Aspose.Cells**
+Aspose.Cells предоставляет класс [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), представляющий файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) содержит коллекцию [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/), позволяющую получать доступ к каждому листу в файле Excel.
 
-Рабочий лист представлен[Рабочий лист](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) сорт.[Рабочий лист](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) Класс предоставляет широкий спектр методов для управления листом. Чтобы создать[СписокОбъект](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/) на листе используйте[GetListObjects](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getlistobjects/) метод сбора[Рабочий лист](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) сорт. Каждый `[ListObject]` фактически является объектом[СписокОбъектКоллекция](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/) класс, который дополнительно обеспечивает[Добавлять](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/add/)метод добавления объекта `[ListObject]` и указания диапазона ячеек для списка.
+Лист представлен классом [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Класс [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) предоставляет широкий спектр методов для управления листом. Для создания объекта [ListObject](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/) на листе используйте метод [GetListObjects](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/getlistobjects/) класса [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Каждый `[ListObject]` на самом деле является объектом класса [ListObjectCollection](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/), который дополнительно предоставляет метод [Add](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/add/) для добавления объекта `[ListObject]` и указания диапазона ячеек для списка.
 
- В соответствии с указанным диапазоном ячеек объект `[ListObject]` создается Aspose.Cells. Используйте атрибуты (например[SetShowTotals](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setshowtotals/) и[GetListColumns](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/getlistcolumns/)и т. д.) класса `[ListObject]` для управления списком.
+Согласно указанному диапазону ячеек, объект `[ListObject]` создается с использованием Aspose.Cells. Используйте атрибуты (например [SetShowTotals](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/setshowtotals/) и [GetListColumns](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/getlistcolumns/) и т. д.) класса `[ListObject]` для управления списком.
 
-В приведенном ниже примере мы создали тот же номер `[ListObject]`, используя Aspose.Cells API, который мы создали с помощью Microsoft Excel в приведенном выше разделе.
+В приведенном ниже примере мы создали тот же `[ListObject]` с использованием API Aspose.Cells, что и сделали с помощью Microsoft Excel в предыдущем разделе.
 
 
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-C-main-CreatingListObjects-new.cpp" >}}
-##  **Форматировать таблицу**
-Чтобы управлять и анализировать группу связанных данных, можно превратить диапазон ячеек в объект списка (также известный как таблица Excel). Таблица представляет собой серию строк и столбцов, содержащих связанные данные, управляемые независимо от данных в других строках и столбцах. По умолчанию для каждого столбца таблицы включена фильтрация в строке заголовка, что позволяет быстро фильтровать или сортировать данные объекта списка. Вы можете добавить итоговую строку (специальную строку в списке, которая предоставляет набор агрегатных функций, полезных для работы с числовыми данными) в объект списка, который предоставляет раскрывающийся список агрегатных функций для каждой ячейки строки итогов. Aspose.Cells предоставляет возможности для создания списков (или таблиц) и управления ими.
-###  **Форматирование объекта списка**
- Aspose.Cells предоставляет класс[Рабочая тетрадь](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) который представляет файл Excel Microsoft.[Рабочая тетрадь](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) класс содержит[Рабочие листы](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/)коллекция, которая обеспечивает доступ к каждому листу в файле Excel.
+## **Форматирование таблицы**
+Для управления и анализа группы связанных данных можно преобразовать диапазон ячеек в объект списка (также известный как таблица Excel). Таблица представляет собой серию строк и столбцов, содержащих связанные данные, управляемые независимо от данных в других строках и столбцах. По умолчанию каждый столбец в таблице имеет включенную фильтрацию в строке заголовка, так что вы можете быстро фильтровать или сортировать ваши данные объекта списка. Вы можете добавить общую строку (специальная строка в списке, предоставляющая выбор агрегатных функций, полезных для работы с числовыми данными) в объект списка, предоставляющий выпадающий список агрегатных функций для каждой ячейки итоговой строки. Aspose.Cells предоставляет варианты для создания и управления списками (или таблицами).
+### **Форматирование объекта списка**
+Aspose.Cells предоставляет класс [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/), представляющий файл Microsoft Excel. Класс [Workbook](https://reference.aspose.com/cells/cpp/aspose.cells/workbook/) содержит коллекцию [Worksheets](https://reference.aspose.com/cells/cpp/aspose.cells/worksheetcollection/), позволяющую получать доступ к каждому листу в файле Excel.
 
-Рабочий лист представлен[Рабочий лист](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) сорт.[Рабочий лист](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) Класс предоставляет широкий спектр методов для управления рабочими листами. Чтобы создать*СписокОбъект*на листе используйте `ListObjectCollection`. Каждый `[ListObject]` фактически является объектом класса `ListObjectCollection`, который дополнительно предоставляет[Добавлять](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/add/)метод для добавления объекта `[ListObject]` и укажите диапазон ячеек, который он должен охватывать. В соответствии с указанным диапазоном ячеек,*СписокОбъект* создается на листе с номером Aspose.Cells. Используйте атрибуты (например,[Сеттаблестилетипе](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/settablestyletype/)) класса `[ListObject]`, чтобы отформатировать таблицу в соответствии с вашими требованиями.
+Лист представлен классом [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/). Класс [Worksheet](https://reference.aspose.com/cells/cpp/aspose.cells/worksheet/) предоставляет широкий спектр методов для управления листами. Чтобы создать *ListObject* на листе, используйте `ListObjectCollection`. Каждый `[ListObject]` на самом деле является объектом класса `ListObjectCollection`, который дополнительно предоставляет метод [Add](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobjectcollection/add/) для добавления объекта `[ListObject]` и указания диапазона ячеек. Согласно указанному диапазону ячеек, *ListObject* создается в листе с использованием Aspose.Cells. Используйте атрибуты (например, [SetTableStyleType](https://reference.aspose.com/cells/cpp/aspose.cells.tables/listobject/settablestyletype/)) класса `[ListObject]` для форматирования таблицы в соответствии с вашими требованиями.
 
-В приведенном ниже примере на лист добавляется образец данных, добавляется номер `[ListObject]` и применяются к нему стили по умолчанию. Стили `[ListObject]` поддерживаются Microsoft Excel 2007/2010.
+В приведенном ниже примере добавляются образцовые данные на лист, добавляется `[ListObject]` и к нему применяются стили по умолчанию. Стили `[ListObject]` поддерживаются Microsoft Excel 2007/2010.
 
 
 

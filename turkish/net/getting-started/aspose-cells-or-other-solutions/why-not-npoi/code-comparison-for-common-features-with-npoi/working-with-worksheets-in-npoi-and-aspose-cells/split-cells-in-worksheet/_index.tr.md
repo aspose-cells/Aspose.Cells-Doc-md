@@ -1,13 +1,14 @@
-﻿---
-title: Çalışma Sayfasında Cells'i Böl
+---
+title: Çalışma Sayfasında Hücreleri Bölme
 type: docs
 weight: 90
 url: /tr/net/split-cells-in-worksheet/
 ---
-## **Aspose.Cells - Çalışma Sayfasında Cells'i Böl**
+
+## **Aspose.Cells - Çalışma Sayfasında Hücreleri Bölme**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -29,10 +30,10 @@ workbook.Save("output-Split.xls");
 
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Çalışma Sayfasında Bölünmüş Cells**
+## **NPOI - HSSF XSSF - Çalışma Sayfasında Hücreleri Bölme**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
 
 
@@ -59,6 +60,6 @@ file.Close();
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Çalışma Sayfalarıyla Çalışmak](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Daha fazla ayrıntı için [Çalışma Sayfaları İle Çalışma](/cells/tr/net/working-with-worksheets-in-npoi-and-aspose-cells/) ziyaret edin.
 
 {{% /alert %}}

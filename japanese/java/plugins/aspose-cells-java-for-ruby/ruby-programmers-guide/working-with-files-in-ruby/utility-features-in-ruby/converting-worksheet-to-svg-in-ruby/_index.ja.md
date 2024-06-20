@@ -1,37 +1,38 @@
-﻿---
+---
 title: RubyでワークシートをSVGに変換する
 type: docs
 weight: 70
 url: /ja/java/converting-worksheet-to-svg-in-ruby/
 ---
-## **Aspose.Cells - ワークシートを SVG に変換中**
-Ruby で Aspose.Cells for Java を使用してワークシートを SVG に変換するには、ワークシートを呼び出すだけです。_に_Converter モジュールの svg() メソッド。
 
-**ルビーコード**
+## **Aspose.Cells - ワークシートをSVGに変換する**
+RubyでAspose.Cells for Javaを使用してワークシートをSVGに変換するには、Converterモジュールのworksheet_to_svg()メソッドを単純に呼び出します。
 
-{{< highlight "ruby" >}}
+**Ruby Code**
 
-デフォルトワークシート_に_svg(ワークブック)
+{{< highlight ruby >}}
 
-# 各ワークシートを単一ページの svg 形式に変換します。
+ def worksheet_to_svg(workbook)
 
-img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
+    # Convert each worksheet into svg format in a single page.
 
-save_format = Rjb::import('com.aspose.cells.SaveFormat')
+    img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
-画像_options.setSaveFormat(保存_format.SVG)
+    save_format = Rjb::import('com.aspose.cells.SaveFormat')
 
-img_options.setOnePagePerSheet(true)
+    img_options.setSaveFormat(save_format.SVG)
+
+    img_options.setOnePagePerSheet(true)
 
 
 
-# 各ワークシートを svg 形式に変換
+    # Convert each worksheet into svg format
 
-sheet_count = workbook.getWorksheets().getCount()
+    sheet_count = workbook.getWorksheets().getCount()
 
-i=0
+    i=0
 
-私がいる間< sheet_count
+    while i < sheet_count
 
         sheet = workbook.getWorksheets().get(i)
 
@@ -54,7 +55,7 @@ i=0
 end 
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
-ダウンロード**ワークシートを SVG に変換中 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+## **ランニングコードのダウンロード**
+以下のいずれかのソーシャルコーディングサイトから、**Aspose.Cells**を使用してワークシートをSVGに変換するファイルをダウンロードしてください:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

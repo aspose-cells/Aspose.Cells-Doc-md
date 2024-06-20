@@ -1,17 +1,18 @@
-﻿---
-title: تقديم كافة عناصر مخطط التقرير إلى مخططات Excel
+---
+title: عرض جميع عناصر الرسم البياني للتقرير كمخططات Excel
 type: docs
 weight: 10
 url: /ar/reportingservices/render-all-report-chart-items-to-excel-charts/
 ---
+
 {{% alert color="primary" %}} 
 
-لعرض جميع عناصر المخطط في تقرير كمخططات Excel قابلة للتحرير:
+لعرض جميع عناصر الرسم البياني في تقرير كمخططات Excel قابلة للتحرير:
 
-1. افتح ال**Aspose.Cells.ReportingServices.xml** ملف.
-1.  قم بتعديل معلمات التكوين على النحو التالي:
+1. افتح ملف **Aspose.Cells.ReportingServices.xml**.
+1. حدد معلمات التكوين على النحو التالي: 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  <Chart value="all">
 
@@ -19,10 +20,10 @@ url: /ar/reportingservices/render-all-report-chart-items-to-excel-charts/
 
 {{< /highlight >}}
 
- عند تعيين القيمة على "الكل" ، يتم عرض جميع عناصر المخطط كمخططات قابلة للتحرير.
+عندما يتم تعيين القيمة على 'all'، يتم عرض جميع عناصر الرسم البياني كمخططات قابلة للتحرير. 
 
 **تحرير المخططات في Excel** 
 
-![ما يجب القيام به: image_بديل_نص](render-all-report-chart-items-to-excel-charts_1.png)
+![todo:image_alt_text](render-all-report-chart-items-to-excel-charts_1.png)
 
 {{% /alert %}}

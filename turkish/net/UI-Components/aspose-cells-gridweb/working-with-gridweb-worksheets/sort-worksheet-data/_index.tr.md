@@ -1,52 +1,55 @@
-﻿---
-title: Çalışma Sayfası Verilerini Sırala
+---
+title: Çalışma Sayfası Verilerini Sıralama
 type: docs
 weight: 80
-url: /tr/net/sort-worksheet-data/
+url: /tr/net/aspose-cells-gridweb/sort-worksheet-data/
+keywords: GridWeb, sırala
+description: Bu makalede GridWeb de verilerin nasıl sıralanacağı tanıtılmaktadır.
 ---
+
 {{% alert color="primary" %}} 
 
-Sıralama, veri işleme söz konusu olduğunda çok değerli bir özelliktir. Sıralanmamış veriler, belirli bilgileri ararken kullanıcılar için bir sıkıntıdır. Aspose.Cells.GridWeb, güçlü sıralama özelliklerini destekler. Bu konuda, Aspose.Cells.GridWeb API kullanılarak verilerin sıralanması ele alınmaktadır.
+Sıralama, veri işleme konusunda çok değerli bir özelliktir. Sırasız veri, belirli bilgileri ararken kullanıcılar için bir baş ağrısıdır. Aspose.Cells.GridWeb güçlü sıralama özelliklerini destekler. Bu konu, Aspose.Cells.GridWeb API'sını kullanarak veri sıralamanın nasıl yapıldığını tartışmaktadır.
 
 {{% /alert %}} 
-## **Verileri Sıralama**
-Aspose.Cells.GridWeb, geliştiricilerin verileri yukarıdan aşağıya veya soldan sağa sıralayabilmeleri için verileri yatay ve dikey olarak sıralamasına olanak tanır.
-### **Baştan aşağı**
-Verileri yukarıdan aşağıya doğru sıralamak için:
+## **Veri Sıralama**
+Aspose.Cells.GridWeb, geliştiricilere verileri yatay ve dikey olarak sıralama imkanı tanır, böylece geliştiriciler verileri yukarıdan aşağıya veya soldan sağa sıralayabilirler.
+### **Yukarıdan Aşağıya**
+Verileri yukarıdan aşağıya doğrultusunda sıralamak için:
 
 1. Aspose.Cells.GridWeb denetimini Web Formunuza ekleyin.
-1. Sıralamak istediğiniz çalışma sayfasına erişin.
-1. Veri aralığını herhangi bir sırayla (artan veya azalan) sıralayın. Yukarıdan aşağıya yönlendirmeyi seçtiğinizden emin olun.
+1. Sıralamak istediğiniz çalışsayfaya erişin.
+1. Veri aralığını herhangi bir düzende (artan veya azalan) sıralayın. Yukarıdan aşağıya doğrultusunda sıralamayı seçtiğinizden emin olun.
 
-Aşağıdaki örnek, bir çalışma sayfasının dört sütunundaki verileri azalan düzende sıralar. Dört sütundan yalnızca yirmi satır yukarıdan aşağıya doğru sıralanmıştır.
+Aşağıdaki örnek, bir çalışma sayfasının dört sütunundaki verileri azalan sırada sıralar. Dört sütunun yalnızca yirmi satırı yukarıdan aşağıya sıralanır.
 
-Kodu uygulamadan önce, çalışma sayfası sıralanmamış veriler içerir.
+Kod uygulanmadan önce çalışsayfa düzensiz veri içerir.
 
-![yapılacaklar:resim_alternatif_metin](sort-worksheet-data_1.png)
+![todo:image_alt_text](sort-worksheet-data_1.png)
 
-Kodu çalıştırdıktan sonra, veriler artan düzende sıralanır.
+Kodun çalıştırılmasından sonra, veri artan düzende sıralanmıştır.
 
-![yapılacaklar:resim_alternatif_metin](sort-worksheet-data_2.png)
+![todo:image_alt_text](sort-worksheet-data_2.png)
 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-SortData.aspx-SortTopToBottom.cs" >}}
-### **Soldan sağa**
+### **Soldan Sağa**
 Verileri soldan sağa sıralamak için:
 
 1. Aspose.Cells.GridWeb denetimini Web Formunuza ekleyin.
-1. Sıralamak istediğiniz çalışma sayfasına erişin.
-1. Veri aralığını herhangi bir sırayla (artan veya azalan) sıralayın. Soldan sağa seçtiğinizden emin olun.
+1. Sıralamak istediğiniz çalışsayfaya erişin.
+1. Veri aralığını istenen düzende sıralayın (artan veya azalan). Soldan sağa seçtiğinizden emin olun.
 
-Aşağıdaki örnek, verileri artan düzende dört satırda sıralar. Yedi sütundan oluşan yalnızca dört satır soldan sağa sıralanır.
+Aşağıdaki örnek, dört satırın yedi sütununun verilerini artan sırada sıralar. Yalnızca dört satır soldan sağa sıralanır.
 
-Kodu uygulamadan önce, çalışma sayfası sıralanmamış veriler içerir.
+Kod uygulanmadan önce çalışsayfa düzensiz veri içerir.
 
-![yapılacaklar:resim_alternatif_metin](sort-worksheet-data_3.png)
+![todo:image_alt_text](sort-worksheet-data_3.png)
 
-Kodu çalıştırdıktan sonra, veriler artan düzende sıralanır.
+Kod uygulandıktan sonra veri artan sırada sıralanır.
 
-![yapılacaklar:resim_alternatif_metin](sort-worksheet-data_4.png)
+![todo:image_alt_text](sort-worksheet-data_4.png)
 
 
 
@@ -54,6 +57,6 @@ Kodu çalıştırdıktan sonra, veriler artan düzende sıralanır.
 
 {{% alert color="primary" %}} 
 
-ÖNEMLİ: Yukarıdaki örnekler, verilerin bir sütuna (yukarıdan aşağıya) veya satıra (soldan sağa) göre sıralamasını göstermektedir. Aspose.Cells.GridWeb ayrıca verileri birden fazla sütuna veya satıra göre sıralayabilir. Bunu yapmak için, Sort yöntemine bir sütun veya satır dizini geçirin. Hibrit veri türü sıralaması da desteklenir.
+ÖNEMLİ: Yukarıdaki örnekler, bir sütuna (yukarıdan aşağıya) veya satıra (soldan sağa) dayanarak veri sıralama işlemini göstermektedir. Aspose.Cells.GridWeb ayrıca birden fazla sütun veya satıra göre veri sıralama işlemini de destekler. Bunun için Sırala yöntemine sütun veya satır dizinlerinin bir dizisini geçirmeniz yeterlidir. Hibrit veri türü sıralaması da desteklenmektedir.
 
 {{% /alert %}}

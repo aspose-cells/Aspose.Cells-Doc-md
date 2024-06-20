@@ -1,27 +1,28 @@
-﻿---
-title: Offentlig API Ändringar i Aspose.Cells 8.3.0
+---
+title: Offentliga API ändringar i Aspose.Cells 8.3.0
 type: docs
 weight: 110
 url: /sv/java/public-api-changes-in-aspose-cells-8-3-0/
 ---
+
 {{% alert color="primary" %}} 
 
-Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.2.2 till 8.3.0 som kan vara av intresse för modul-/applikationsutvecklare.
+Detta dokument beskriver ändringarna av Aspose.Cells API från version 8.2.2 till 8.3.0 som kan vara av intresse för modul/tillämpningsutvecklare.
 
 {{% /alert %}} 
-## **Lade till API:er**
-### **Property WorkbookSettings.AutoRecover tillagd**
-Getter/setter för egenskapen AutoRecover har lagts till i WorkbookSettings-klassen för att göra det möjligt för utvecklare att få/ställa in alternativet Auto-Recover för kalkylbladen i sina applikationer.
+## **Tillagda API:er**
+### **Lade till WorkbookSettings.AutoRecover Egenskap**
+Getter/setter har lagts till egenskapen AutoRecover till WorkbookSettings-klassen för att låta utvecklare få/sätta alternativet Auto-Recovery för kalkylblad i deras applikationer. 
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera artikeln[Ställa in automatisk återställning för kalkylblad](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook) för mer information.
+Se artikeln [Ställa in Auto Recovery för Kalkylblad](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook) för mer information.
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -31,12 +32,12 @@ settings.setAutoRecover(true);
 
 {{< /highlight >}}
 
-### **Property WorkbookSettings.CrashSave tillagd**
-Getter/setter för egenskapen CrashSave har lagts till i klassen WorkbookSettings. Egenskapen boolesk typ anger om programmet senast sparade arbetsboksfilen efter en krasch.
+### **Lade till WorkbookSettings.CrashSave Egenskap**
+Getter/setter har lagts till egenskapen CrashSave till WorkbookSettings-klassen. Egenskapen av typen Boolean indikerar om applikationen senast sparade kalkylbladsfilen efter en krasch.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -46,12 +47,12 @@ System.out.println(settings.getCrashSave());
 
 {{< /highlight >}}
 
-### **Property WorkbookSettings.DataExtractLoad tillagd**
-Getter/setter för egenskapen DataExtractLoad har lagts till i WorkbookSettings-klassen för att utvecklarna ska kunna hämta/ställa in informationen om den senaste återställningen. Om egenskapen DataExtractLoad returnerar true indikerar det att dataåterställningen har utförts på arbetsboksfilen.
+### **Lade till WorkbookSettings.DataExtractLoad Egenskap**
+Getter/setter har lagts till egenskapen DataExtractLoad till WorkbookSettings-klassen för att låta utvecklare få/sätta informationen om senaste återställningen. Om egenskapen DataExtractLoad returnerar true indikerar det att dataskrädderiet har utförts på kalkylbladsfilen.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -61,12 +62,12 @@ System.out.println(settings.getDataExtractLoad());
 
 {{< /highlight >}}
 
-### **Property WorkbookSettings.RepairLoad tillagd**
-Getter/setter för egenskapen RepairLoad har lagts till i klassen WorkbookSettings. Egenskapen boolesk typ indikerar om kalkylarket har reparerats under den senaste laddningssessionen med Excel-applikationen.
+### **Lade till WorkbookSettings.RepairLoad Egenskap**
+Getter/setter har lagts till egenskapen RepairLoad till WorkbookSettings-klassen. Egenskapen av typen Boolean indikerar om kalkylbladet har lagats vid den senaste laddningssessionen med Excel-applikationen.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
@@ -76,12 +77,12 @@ System.out.println(settings.getRepairLoad());
 
 {{< /highlight >}}
 
-### **Egenskapen TxtLoadOptions.KeepExactFormat har lagts till**
-Egenskapen KeepExactFormat har lagts till i klassen TxtLoadOptions som anger om den exakta formateringen ska behållas för cellvärdet när sträng/text konverteras till siffror eller DateTime. Den här egenskapen har lagts till för att matcha beteendet hos MS Excel-applikationen för att ladda DateTime eller numeriska värden från CSV-filer. För att simulera MS Excels beteende ställer du in egenskapen KeepExactFormat på false, medan standardvärdet är sant så att cellvärdet formateras som strängen i filen CSV.
+### **Tillagd TxtLoadOptions.KeepExactFormat Egenskap**
+Egenskapen KeepExactFormat har lagts till i TxtLoadOptions-klassen som indikerar om exakt formatering ska behållas för cellvärdet när sträng/text konverteras till nummer eller datum. Denna egenskap har lagts till för att matcha beteendet hos MS Excel-applikationen för att ladda in datum eller numeriska värden från CSV-filer. För att simulera MS Excels beteende, sätt KeepExactFormat-egenskapen till falskt, medan standardvärdet är sant så att cellvärdet formateras som strängen i CSV-filen.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  TxtLoadOptions options = new TxtLoadOptions();
 
@@ -91,18 +92,18 @@ Workbook book = new Workbook("sample.csv", options);
 
 {{< /highlight >}}
 
-### **Property Shape.Id tillagd**
-V8.3.0 har lagt till getter/setter för egenskapen Shape.Id för att unikt identifiera varje formobjekt i ett givet kalkylblad. Den här nya egenskapen hjälper också till att unikt identifiera diagramobjekt i ett kalkylblad som visas nedan.
+### **Tillagd Shape.Id Egenskap**
+v8.3.0 har lagt till getter/setter för egenskapen Shape.Id för att unikt identifiera varje formobjekt i ett givet kalkylblad. Denna nya egenskap hjälper också till att unikt identifiera Diagramobjekt i ett kalkylblad som demonstreras nedan.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 
-ChartCollection diagram = book.getWorksheets().get(0).getCharts();
+ChartCollection charts = book.getWorksheets().get(0).getCharts();
 
- for(int index = 0; index<= charts.getCount(); index++)
+for(int index = 0; index <= charts.getCount(); index++)
 
 {
 
@@ -116,12 +117,12 @@ ChartCollection diagram = book.getWorksheets().get(0).getCharts();
 
 {{< /highlight >}}
 
-### **Metod PlotArea.setPositionAuto tillagd**
-Metoden setPositionAuto har lagts till i klassen PlotArea som hjälper till att ställa in diagrammets plotområde till automatiskt läge.
+### **Tillagd PlotArea.setPositionAuto Metod**
+Metoden setPositionAuto har lagts till PlotArea-klassen som hjälper till att ställa in diagrammets plottområde till automatiskt läge.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  Workbook book = new Workbook("sample.xlsx");
 

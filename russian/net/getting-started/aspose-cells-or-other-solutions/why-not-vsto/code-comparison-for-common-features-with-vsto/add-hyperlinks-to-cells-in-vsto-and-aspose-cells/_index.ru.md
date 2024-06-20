@@ -1,30 +1,31 @@
-﻿---
-title: Добавьте гиперссылки на Cells в VSTO и Aspose.Cells
+---
+title: Добавить гиперссылки в ячейки в VSTO и Aspose.Cells
 type: docs
 weight: 20
 url: /ru/net/add-hyperlinks-to-cells-in-vsto-and-aspose-cells/
 ---
-Чтобы добавить гиперссылки в ячейки электронной таблицы, выполните следующие действия:
 
-1.  Настройте рабочий лист:
- 1. Создайте экземпляр объекта приложения (только VSTO).
- 1. Добавьте рабочую книгу.
- 1. Получите первый лист.
- 1. Добавьте текст в ячейки, к которым вы добавите гиперссылку.
-1. Добавить гиперссылку.
+Чтобы добавить гиперссылки в ячейки электронной таблицы, выполните следующие шаги:
+
+1. Настройте лист: 
+   1. Создать объект приложения.(только VSTO.)
+   1. Добавить книгу.
+   1. Получить первый лист.
+   1. Добавьте текст в ячейки, к которым хотите добавить гиперссылку.
+1. Добавьте гиперссылку.
 1. Сохраните документ.
 
-Эти шаги показаны в примерах кода ниже. В первых примерах показано, как использовать VSTO с C# для добавления гиперссылки в ячейку. В следующих примерах показано, как сделать то же самое, используя Aspose.Cells for .NET, снова используя C#.
+Эти шаги показаны в приведенных ниже примерах кода. Первый пример показывает, как использовать VSTO с C# для добавления гиперссылки в ячейку. Последующие примеры показывают, как сделать то же самое с использованием Aspose.Cells for .NET, также с помощью C#.
 
-Примеры кода создают файл Excel с гиперссылкой в ячейке A1 на первом листе.
+Образцы кода генерируют файл Excel с гиперссылкой в ячейке A1 на первом рабочем листе.
 
-![дело:изображение_альтернативный_текст](picture1.png)
+![todo:image_alt_text](picture1.png)
 
-В ячейку A1 добавляется гиперссылка.
+Гиперссылка добавлена в ячейку A1.
 
-## **ВСТО**
+## **VSTO**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate the Application object.
 
@@ -60,7 +61,7 @@ ExcelApp.Quit();
 
 ## **Aspose.Cells**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook object.
 
@@ -88,8 +89,8 @@ workbook.Save("Hyperlink_test.xls");
 
 {{< /highlight >}}
 
-## **Скачать пример кода**
+## **Загрузить образец кода**
 
-- [Гитхаб](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
-- [Источникфорж](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/скачать)
-- [Битбакет](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/download)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip)

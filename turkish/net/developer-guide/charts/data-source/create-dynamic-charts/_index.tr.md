@@ -1,53 +1,54 @@
 ---
-title: Dinamik Grafikler Oluşturun
-description: Aspose.Cells for .NET numaralı telefondan dinamik grafiklerin nasıl oluşturulacağını öğrenin. Kılavuzumuz, gereksinimlerinize göre grafik verilerini, serilerini ve biçimlendirmesini dinamik olarak nasıl güncelleyeceğinizi göstererek, değişen verileri çalışma sayfalarınızda görsel olarak sunmanıza olanak tanıyacaktır.
-keywords: Aspose.Cells for .NET, charting, dynamic charts, data, series, formatting, worksheets, updating.
+title: Dinamik Grafikler Oluşturma
+description: Aspose.Cells for .NET de dinamik grafikler oluşturmayı öğrenin. Rehberimiz, değişen verileri görsel olarak sunmanıza olanak tanıyan gereksinimlerinize göre grafik verilerini, serilerini ve biçimlendirmeyi dinamik olarak nasıl güncelleyeceğinizi gösterecektir.
+keywords: Aspose.Cells for .NET, grafik oluşturma, dinamik grafikler, veri, seriler, biçimlendirme, çalışma sayfaları, güncelleme
 type: docs
 weight: 240
 url: /tr/net/create-dynamic-charts/
 ---
-{{% alert color="primary" %}}
-
-Dinamik (veya etkileşimli) grafikler, verilerin kapsamını değiştirdiğinizde değişme özelliğine sahiptir. Başka bir deyişle dinamik grafikler, veri kaynağı değiştiğinde değişiklikleri otomatik olarak yansıtabilmektedir. Veri kaynağındaki değişikliği tetiklemek için Excel Tablolarının filtreleme seçeneği veya ComboBox veya Dropdown list gibi bir kontrol kullanılabilir.
-
-Bu makalede, yukarıda belirtilen yaklaşımların her ikisini de kullanarak dinamik grafikler oluşturmak için Aspose.Cells for .NET API'lerin kullanımı gösterilmektedir.
-
-{{% /alert %}}
-
-##  **Excel Tablolarını Kullanma**
 
 {{% alert color="primary" %}}
 
- Excel tabloları Aspose.Cells' perspektifinde ListObjects olarak anılır, bu nedenle açıklık sağlamak için "Tablo" yerine "ListObject" terimini kullanacağız. Lütfen nasıl yapılacağını ayrıntılı olarak okuyun[ListObjects'i oluştur](/cells/tr/net/create-and-format-table/)Aspose.Cells for .NET API ile.
+Dinamik (veya etkileşimli) grafikler, veri kapsamını değiştirdiğinizde değişme yeteneğine sahiptir. Diğer bir deyişle, dinamik grafikler, veri kaynağı değiştiğinde otomatik olarak değişiklikleri yansıtabilir. Veri kaynağında değişikliği tetiklemek için, Excel Tablolarının filtreleme seçeneğini veya ComboBox veya Dropdown listesi gibi bir kontrolü kullanabilirsiniz.
+
+Bu makale, Aspose.Cells for .NET API'lerini kullanarak yukarıda bahsedilen her iki yaklaşımı da kullanarak dinamik grafikler oluşturmayı göstermektedir.
 
 {{% /alert %}}
 
- ListObjects, kullanıcı etkileşimi üzerine verileri sıralamak ve filtrelemek için yerleşik işlevsellik sağlar. Hem sıralama hem de filtreleme seçenekleri, başlığın başlık satırına otomatik olarak eklenen açılır listeler aracılığıyla sağlanır.[**ListeObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) . Bu özelliklerden dolayı (sıralama ve filtreleme),[**ListeObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) dinamik bir grafiğe veri kaynağı olarak hizmet etmek için mükemmel bir aday gibi görünüyor çünkü sıralama veya filtreleme değiştirildiğinde, verilerin grafikteki temsili grafiğin mevcut durumunu yansıtacak şekilde değişecektir.[**ListeObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
+## **Excel Tablolarını Kullanma**
 
- Gösteriyi anlaşılır kılmak için, aşağıdakileri oluşturacağız:[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sıfırdan başlayın ve aşağıda belirtildiği gibi adım adım ilerleyin.
+{{% alert color="primary" %}}
 
-1.  Boş bir tane oluştur[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
-1.  Erişmek[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) ilkinin[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) içinde[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
+Aspose.Cells'ın bakış açısından Excel tabloları ListObjects olarak adlandırılır, bu nedenle netlik için "Tablo" yerine "ListObject" terimini kullanacağız. Aspose.Cells for .NET API'si ile [Tablo Oluşturma ve Biçimlendirme](/cells/tr/net/create-and-format-table/) hakkında detaylı bilgi edinin.
+
+{{% /alert %}}
+
+ListObjects, kullanıcı etkileşimi üzerine verileri sıralama ve filtreleme işlevselliği sağlar. Hem sıralama hem de filtreleme seçenekleri, otomatik olarak başlık satırına eklenen açılır listeler aracılığıyla sağlanır. Bu özellikler (sıralama ve filtreleme) nedeniyle, ListObject, veri kaynağı olarak dinamik bir grafik için mükemmel aday gibi görünmektedir, çünkü sıralama veya filtreleme değiştiğinde, grafikteki veri temsil edilen tablonun mevcut durumunu yansıtmak üzere değiştirilecektir.
+
+Anlatımın anlaşılmasını basitleştirmek için, [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) oluşturacağız ve aşağıda anlatılan adımlara göre adım adım ilerleyeceğiz.
+
+1. Boş bir [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) oluşturun.
+1. İlk [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) ın [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) 'indeki [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) 'na erişin.
 1. Hücrelere bazı veriler ekleyin.
-1.  Yaratmak[**ListeObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)girilen verilere dayanmaktadır.
-1.  Yaratmak[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) veri aralığına dayalı olarak[**ListeObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
+1. Eklenen verilere bağlı olarak [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) oluşturun.
+1. [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) veri aralığına göre [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) oluşturun.
 1. Sonucu diske kaydedin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateDynamicCharts-CreateDynamicCharts.cs" >}}
 
-##  **Dinamik Formülleri Kullanma**
+## **Dinamik Formüller Kullanma**
 
-Kullanmak istememeniz durumunda[**ListeObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)Dinamik grafiğin veri kaynağı olarak diğer seçenek, dinamik bir veri aralığı oluşturmak için Excel işlevlerini (veya formüllerini) ve verilerdeki değişikliği tetiklemek için bir denetimi (ComboBox gibi) kullanmaktır. Bu senaryoda ComboBox seçimine göre uygun değerleri getirmek için DÜŞEYARA fonksiyonunu kullanacağız. Seçim değiştirildiğinde DÜŞEYARA işlevi hücre değerini yeniler. Bir hücre aralığı DÜŞEYARA işlevini kullanıyorsa, tüm aralık kullanıcı etkileşimi üzerine yenilenebilir, dolayısıyla dinamik grafik için bir kaynak olarak kullanılabilir.
+Dinamik grafiklerin veri kaynağı olarak [**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject) kullanmak istemiyorsanız, diğer seçenek Excel işlevlerini (veya formülleri) kullanarak verinin dinamik bir aralığını oluşturmak ve bir kontrolü (örneğin ComboBox) veri değişikliğini tetiklemek için kullanmak olacaktır. Bu senaryoda, ComboBox'un seçimine bağlı olarak uygun değerleri getirmek için VLOOKUP işlevini kullanacağız. Seçim değiştirildiğinde, VLOOKUP işlevi hücre değerini güncelleyecek. Bir hücre aralığı VLOOKUP işlevini kullanıyorsa, tüm aralık, kullanıcı etkileşimi sırasında yenilenebilir, bu nedenle dinamik bir grafik için veri kaynağı olarak kullanılabilir.
 
-Gösterimin anlaşılır olmasını sağlamak için, Çalışma Kitabını sıfırdan oluşturacağız ve aşağıda belirtildiği gibi adım adım ilerleyeceğiz.
+Demonstrasyonu anlaşılır tutmak için Workbook'ı sıfırdan oluşturacağız ve aşağıda belirtilen adımları adım adım ilerleteceğiz.
 
-1.  Boş bir tane oluştur[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
-1.  Erişmek[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) ilkinin[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) içinde[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
-1. Adlandırılmış Aralık oluşturarak hücrelere bazı veriler ekleyin. Bu veriler dinamik grafikte bir seri görevi görecektir.
-1.  Yaratmak[**Açılan kutu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox)önceki adımda oluşturulan Adlandırılmış Aralığa göre.
-1. DÜŞEYARA işlevine kaynak görevi görecek hücrelere biraz daha veri ekleyin.
-1. DÜŞEYARA işlevini (uygun parametrelerle) bir hücre aralığına ekleyin. Bu aralık, dinamik grafik için kaynak görevi görecektir.
-1.  Yaratmak[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)önceki adımda oluşturulan aralığa göre.
+1. Boş bir [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) oluşturun.
+1. İlk [**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) ın [**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook) 'indeki [**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) 'na erişin.
+1. Hücrelere Adlandırılmış Aralık oluşturarak bazı veriler ekleyin. Bu veriler, dinamik grafik için seri olarak hizmet edecektir.
+1. Önceki adımda oluşturulan Adlandırılmış Aralık temel alınarak [**ComboBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox) oluşturun.
+1. VLOOKUP işlevine veri kaynağı olacak hücrelere başka veriler ekleyin.
+1. Uygun parametrelerle VLOOKUP işlevini bir hücre aralığına ekleyin. Bu aralık, dinamik grafik için kaynak olarak hizmet edecektir.
+1. Önceki adımda oluşturulan aralığa dayalı olarak [**Chart**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) oluşturun.
 1. Sonucu diske kaydedin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}

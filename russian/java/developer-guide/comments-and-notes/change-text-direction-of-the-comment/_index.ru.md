@@ -1,23 +1,24 @@
-﻿---
-title: Изменить направление текста комментария
+---
+title: Изменение направления текста комментария
 type: docs
 weight: 10
 url: /ru/java/change-text-direction-of-the-comment/
-description: Как изменить направление текста комментариев в файлах Excel. В этой статье представлен код Java, позволяющий сделать именно это с помощью файла Aspose.Cells for Java API.
-keywords: excel change comment text direction, change text direction of the comments excel, change text direction of the comment excel, excel change text direction of the comment, excel change text direction of the comments, excel change text direction of the comment java, excel change text direction of the comments java, excel change comment text direction java, how to change comment text direction in excel 
+description: Как изменить направление текста комментариев в файлах Excel. В этой статье приведен код на Java, который делает это с помощью Aspose.Cells for Java API.
+keywords: excel изменить направление текста комментария, изменить направление текста комментария в Excel, изменить направление текста комментария Excel, excel изменить направление текста комментария, excel изменить направление текста комментариев, excel изменить направление текста комментария java, excel изменить направление текста комментариев java, excel изменить направление текста комментария java, как изменить направление текста комментария в excel 
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Пользователи Excel могут добавлять комментарии к ячейкам электронных таблиц, чтобы добавлять в ячейки дополнительную информацию и выделять данные. Разработчикам может потребоваться настроить комментарий, чтобы указать параметры выравнивания и направление текста. Aspose.Cells предоставляет API для выполнения этой задачи.
+Пользователи Microsoft Excel могут добавлять комментарии к ячейкам в электронных таблицах, чтобы добавить дополнительную информацию и выделить данные. Разработчикам может потребоваться настраивать комментарий, чтобы указать настройки выравнивания и направление текста. Aspose.Cells предоставляет API для выполнения этой задачи.
 
 {{% /alert %}}
 
- Aspose.Cells предоставляет[**Форма.setTextDirection()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextDirection)метод, чтобы установить желаемое направление текста для комментария.
+Aspose.Cells предоставляет [**Shape.setTextDirection()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextDirection) метод для установки желаемого направления текста для комментария.
 
-На следующем изображении показан комментарий с настройками формата в Microsoft Excel. Выходной файл получается после выполнения приведенного ниже сегмента кода.
+На следующем изображении показан комментарий со своими настройками формата в Microsoft Excel. Результирующий файл получается после выполнения нижеследующего сегмента кода.
 
 **Комментарий с направлением текста справа налево**
 
-![дело:изображение_альтернативный_текст](change-text-direction-of-the-comment_1.png)
+![todo:image_alt_text](change-text-direction-of-the-comment_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeTextDirectionofComment.java" >}}

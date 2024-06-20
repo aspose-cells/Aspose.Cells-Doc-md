@@ -1,21 +1,22 @@
-﻿---
-title: Общедоступный API Изменения в Aspose.Cells 8.6.2
+---
+title: Изменения в публичном API в Aspose.Cells 8.6.2
 type: docs
 weight: 220
 url: /ru/java/public-api-changes-in-aspose-cells-8-6-2/
 ---
+
 {{% alert color="primary" %}} 
 
-Этот документ описывает изменения в Aspose.Cells API с версии 8.6.1 до 8.6.2, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы, добавленные классы, но и описание любых изменений поведения за кулисами в Aspose.Cells.
+Этот документ описывает изменения в API Aspose.Cells с версии 8.6.1 до 8.6.2, которые могут быть интересны разработчикам модулей/приложений. Он включает не только новые и обновленные публичные методы, добавленные классы, но также описание любых изменений в поведении Aspose.Cells за кулисами.
 
 {{% /alert %}} 
-## **Добавлены API**
-### **Поддержка обратного вызова с помощью интеллектуальных маркеров**
- В этом выпуске Aspose.Cells for Java API представлено поле WorkbookDesigner.CallBack и интерфейс ISmartMarkerCallBack, которые вместе позволяют[получать уведомления об обработке ссылки на ячейку и/или смарт-маркера](/cells/ru/java/getting-notifications-while-merging-data-with-smart-markers/) . Следующий фрагмент кода демонстрирует использование интерфейса ISmartMarkerCallBack для определения нового класса, который обрабатывает обратный вызов для метода WorkbookDesigner.process.
+## **Добавленные API**
+### **Поддержка обратного вызова с использованием умных маркеров**
+В этом выпуске API Aspose.Cells for Java было добавлено поле WorkbookDesigner.CallBack и интерфейс ISmartMarkerCallBack, которые вместе позволяют [получать уведомления о обрабатываемой ссылке ячейки и/или умном маркере](/cells/ru/java/getting-notifications-while-merging-data-with-smart-markers/). Ниже приведен фрагмент кода, демонстрирующий использование интерфейса ISmartMarkerCallBack для определения нового класса, который обрабатывает обратный вызов для метода WorkbookDesigner.process. 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  public class SmartMarkerCallBack implements ISmartMarkerCallBack 
 
@@ -49,11 +50,11 @@ url: /ru/java/public-api-changes-in-aspose-cells-8-6-2/
 
 {{< /highlight >}}
 
-Остальная часть процесса включает в себя загрузку электронной таблицы дизайнера, содержащей смарт-маркеры, с помощью WorkbookDesigner или создание таблицы с нуля и ее обработку путем настройки источника данных. Однако для включения уведомлений необходимо установить свойство WorkbookDesigner.CallBack перед вызовом метода WorkbookDesigner.process, как показано ниже.
+Для завершения процесса необходимо загрузить электронную таблицу дизайнера, содержащую умные маркеры, с помощью WorkbookDesigner или создать ее с нуля и обработать, установив источник данных. Однако, для включения уведомлений необходимо установить свойство WorkbookDesigner.CallBack до вызова метода WorkbookDesigner.process, как показано ниже.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Instantiate a new Workbook designer
 
@@ -71,7 +72,7 @@ sheet.getCells().get("A1").putValue("&=$VariableArray");
 
 //Set the data source for the marker(s)
 
-report.setDataSource("VariableArray", new String[]{ "English", "Arabic", "Hindi", "Urdu", "French" });
+report.setDataSource("VariableArray", new String[] { "English", "Arabic", "Hindi", "Urdu", "French" });
 
 //Set the CallBack property
 
@@ -83,13 +84,13 @@ report.process(false);
 
 {{< /highlight >}}
 ### **Добавлен метод Chart.toPdf**
-Aspose.Cells for Java 8.6.2 предоставил метод Chart.toPdf, который можно использовать для прямого преобразования формы диаграммы в формат PDF. Указанный метод в настоящее время принимает параметр типа String в качестве пути к файлу для сохранения результирующего файла на диске.
+Aspose.Cells for Java 8.6.2 добавил метод Chart.toPdf, который может использоваться для прямого отображения формы диаграммы в формат PDF. В текущий момент данный метод принимает параметр типа String в качестве пути к файлу для сохранения результирующего файла на диске.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet containing charts
 
@@ -109,13 +110,13 @@ chart.toPdf(outputFilePath);
 
 {{< /highlight >}}
 ### **Добавлен метод Workbook.removeUnusedStyles**
- Aspose.Cells for Java 8.6.2 предоставил метод Workbook.removeUnusedStyles, который можно использовать для[удалить все неиспользуемые объекты Style из пула стилей](/cells/ru/java/remove-unused-styles-inside-the-workbook/). 
+Aspose.Cells for Java 8.6.2 добавил метод Workbook.removeUnusedStyles, который может использоваться для [удаления всех неиспользуемых объектов стилей из пула стилей](/cells/ru/java/remove-unused-styles-inside-the-workbook/). 
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load spreadsheet
 
@@ -126,14 +127,14 @@ Workbook workbook = new Workbook(inputFilePath);
 workbook.removeUnusedStyles();
 
 {{< /highlight >}}
-### **Добавлено свойство Cells. Стиль**
-Свойство Cells.Style можно использовать для доступа к стилю для рабочего листа, представляющего стиль по умолчанию.
+### **Добавлено свойство Cells.Style**
+Свойство Cells.Style может быть использовано для доступа к стилю для Листа, представляющего собой стандартный стиль.
 
-Ниже приведен простой сценарий использования.
+Вот простой сценарий использования.
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Load a spreadsheet
 
@@ -144,8 +145,8 @@ Workbook book = new Workbook(inputFilePath);
 Style style = book.getWorksheets().get(0).getCells().getStyle();
 
 {{< /highlight >}}
-### **Добавлены события для GridWeb**
-Aspose.Cells.GridWeb for Java 8.6.2 выявил следующие два новых события.
+### **События добавлены для GridWeb**
+Aspose.Cells.GridWeb для Java 8.6.2 добавил следующие два новых события.
 
-1. AjaxCallFinished: запускается после завершения AJAX-обновления элемента управления. (EnableAJAX должно быть установлено в true).
-1. CellModifiedOnAjax: срабатывает, когда ячейка изменяется в вызове AJAX.
+1. AjaxCallFinished: Срабатывает, когда AJAX-обновление элемента управления завершается. (EnableAJAX должен быть установлен в true).
+1. CellModifiedOnAjax: Срабатывает, когда ячейка изменена в вызове AJAX.

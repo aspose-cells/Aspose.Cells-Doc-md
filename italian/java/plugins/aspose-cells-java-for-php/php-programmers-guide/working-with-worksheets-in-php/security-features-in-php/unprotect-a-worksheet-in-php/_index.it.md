@@ -1,15 +1,16 @@
-﻿---
-title: Rimuovere la protezione di un foglio di lavoro in Php
+---
+title: Sbloccare un foglio di lavoro in Php
 type: docs
 weight: 20
 url: /it/java/unprotect-a-worksheet-in-php/
 ---
-## **Aspose.Cells - Rimuovere la protezione di un foglio di lavoro**
- Per proteggere il foglio di lavoro utilizzando**Aspose.Cells Java for PHP** , chiamata**unprotect_worksheet** metodo di**protezione** modulo.
+
+## **Aspose.Cells - Sbloccare un foglio di lavoro**
+Per proteggere il foglio di lavoro utilizzando **Aspose.Cells Java per PHP**, chiamare il metodo **unprotect_worksheet** del modulo **protection**.
 
 **Codice PHP**
 
-{{< highlight "php" >}}
+{{< highlight php >}}
 
  $filesFormatType = new FileFormatType();
 
@@ -33,6 +34,6 @@ $workbook->save($dataDir . "output.xls", $filesFormatType->EXCEL_97_TO_2003); 
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scaricamento**Rimuovere la protezione di un foglio di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scarica **Sbloccare un foglio di lavoro (Aspose.Cells)** da uno dei siti di codice sociale di seguito indicati:
 
-- [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/UnprotectingPasswordProtectedWorksheet.php)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/SecurityFeatures/UnprotectingPasswordProtectedWorksheet.php)

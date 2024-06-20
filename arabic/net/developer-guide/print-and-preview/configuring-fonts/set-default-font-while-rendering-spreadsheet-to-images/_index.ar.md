@@ -1,27 +1,28 @@
-﻿---
-title: قم بتعيين الخط الافتراضي أثناء عرض جدول البيانات على الصور
+---
+title: تعيين الخط الافتراضي أثناء تقديم جدول البيانات إلى الصور
 type: docs
 weight: 360
 url: /ar/net/set-default-font-while-rendering-spreadsheet-to-images/
 ---
+
 {{% alert color="primary" %}}
 
- الرجاء استخدام[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) لتعيين الخط الافتراضي أثناء عرض جداول البيانات على الصور. ستكون هذه الخاصية فعالة فقط عندما يتعذر على الخط الافتراضي للمصنف عرض الأحرف الخاصة بك. الخط الافتراضي المحدد بـ[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) يتم استخدام الخاصية لجميع تلك الخلايا التي تحتوي على خطوط غير صالحة أو غير موجودة.
+يرجى استخدام خاصية [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) لتعيين الخط الافتراضي أثناء تقديم جداول البيانات إلى الصور. ستكون هذه الخاصية فعالة فقط عندما لا يمكن للخط الافتراضي للدفتر تقديم حروفك. يتم استخدام الخط الافتراضي المحدد بواسطة الخاصية [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) لجميع تلك الخلايا التي تحتوي على خطوط غير صحيحة أو غير موجودة.
 
 {{% /alert %}}
 
-## قم بتعيين الخط الافتراضي أثناء عرض جدول البيانات على الصور
+## تعيين الخط الافتراضي أثناء تقديم جداول البيانات إلى الصور
 
-ينشئ نموذج التعليمات البرمجية التالي مصنفًا ، ويضيف بعض النص في الخلية A4 من ورقة العمل الأولى ، ويعين الخط الخاص به على خط غير صالح أو غير موجود. ثم يأخذ صورتين من ورقة العمل. يتم التقاط الصورة الأولى عن طريق ضبط[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) ملكية ل*ساعي جديد* ويتم التقاط الصورة الثانية عن طريق ضبط[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) ملكية ل*تايمز نيو رومان*.
+الشيفرة النموذجية التالية تنشئ دفتر عمل، تضيف بعض النص في الخلية A4 من الورقة العمل الأولى، وتعين خطه إلى خط غير صحيح أو غير موجود. ثم، تأخذ صورتين للورقة العمل. تُأخذ الصورة الأولى من خلال تعيين الخاصية [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) إلى *Courier New* وتُأخذ الصورة الثانية من خلال تعيين الخاصية [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) إلى *Times New Roman*.
 
- هذه هي صورة الإخراج بعد ضبط ملف[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) ملكية ل*ساعي جديد*.
+هذه الصورة الناتجة بعد تعيين الخاصية [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) إلى *Courier New*.
 
-![ما يجب القيام به: image_بديل_نص](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
- هذه هي صورة الإخراج بعد ضبط ملف[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) ملكية ل*تايمز نيو رومان*.
+هذه الصورة الناتجة بعد تعيين الخاصية [**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) إلى *Times New Roman*.
 
-![ما يجب القيام به: image_بديل_نص](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![todo:image_alt_text](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
-## عينة من الرموز
+## كود عينة
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetDefaultFontWhileRenderingSpreadsheet-1.cs" >}}

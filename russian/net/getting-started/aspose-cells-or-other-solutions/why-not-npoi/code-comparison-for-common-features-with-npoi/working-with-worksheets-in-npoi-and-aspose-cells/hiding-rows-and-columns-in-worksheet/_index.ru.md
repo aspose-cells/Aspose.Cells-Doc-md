@@ -1,13 +1,14 @@
-﻿---
-title: Скрытие строк и столбцов на листе
+---
+title: Скрытие строк и столбцов в рабочем листе
 type: docs
 weight: 60
 url: /ru/net/hiding-rows-and-columns-in-worksheet/
 ---
-## **Aspose.Cells - Скрытие строк и столбцов на листе**
+
+## **Aspose.Cells - Скрытие строк и столбцов в рабочем листе**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  Workbook workbook = new Workbook();
 
@@ -34,10 +35,10 @@ worksheet.Cells.HideColumn(0);
 workbook.Save("Output-HideRowsandColumns.xls");
 
 {{< /highlight >}}
-## **NPOI - HSSF XSSF - Скрытие строк и столбцов на листе**
+## **NPOI - HSSF XSSF - Скрытие строк и столбцов в рабочем листе**
 **C#**
 
-{{< highlight "cs" >}}
+{{< highlight cs >}}
 
  HSSFWorkbook hssfworkbook = new HSSFWorkbook();
 
@@ -63,13 +64,13 @@ file.Close();
 
 
 {{< /highlight >}}
-## **Скачать рабочий код**
- Скачать**Скрытие строк и столбцов на листе** сформировать любой из перечисленных ниже сайтов социального кодирования:
+## **Скачать работающий код**
+Скачайте **Скрыть строки и столбцы в рабочем листе** с любого из перечисленных ниже сайтов для социального кодирования:
 
-- [Гитхаб](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Hiding.Rows.and.Columns.zip)
+- [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Hiding.Rows.and.Columns.zip)
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Работа с рабочими листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
+Для получения дополнительной информации посетите [Работа с листами](/cells/ru/net/working-with-worksheets-in-npoi-and-aspose-cells/).
 
 {{% /alert %}}

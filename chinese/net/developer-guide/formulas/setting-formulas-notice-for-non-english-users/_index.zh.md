@@ -1,5 +1,5 @@
 ---
-title: 设置公式 - 针对非英语用户的注意事项
+title: 设置公式  针对非英语用户的注意事项
 type: docs
 weight: 10
 url: /zh/net/setting-formulas-notice-for-non-english-users/

@@ -1,19 +1,20 @@
-﻿---
+---
 title: Créer un tableau croisé dynamique dans xlsx4j
 type: docs
 weight: 20
 url: /fr/java/create-pivot-table-in-xlsx4j/
 ---
-## **Aspose.Cells - Créer un tableau croisé dynamique**
-Pour créer un tableau croisé dynamique à l'aide de Aspose.Cells :
 
-1. Ajoutez des données aux cellules d'une feuille de calcul à l'aide de la méthode PutValue/setValue d'un objet Cell. Vous utilisez également un fichier modèle déjà rempli de données. Les données seront utilisées comme source de données du tableau croisé dynamique.
+## **Aspose.Cells - Créer un tableau croisé dynamique**
+Pour créer un tableau croisé dynamique en utilisant Aspose.Cells:
+
+1. Ajoutez des données à des cellules de feuille de calcul à l'aide de la méthode PutValue/setValue d'un objet Cell. Vous pouvez également utiliser un fichier modèle déjà rempli de données. Les données seront utilisées comme source de données du tableau croisé dynamique.
 1. Ajoutez un tableau croisé dynamique à la feuille de calcul en appelant la méthode add de la collection PivotTables (encapsulée dans l'objet Worksheet).
-1. Accédez au nouvel objet PivotTable à partir de la collection PivotTables en transmettant son index. # Utilisez n'importe lequel des objets de tableau croisé dynamique encapsulés dans l'objet PivotTable pour gérer le tableau.
+1. Accédez au nouvel objet PivotTable de la collection PivotTables en passant son index. Utilisez l'un des objets du tableau croisé dynamique encapsulé dans l'objet PivotTable pour gérer le tableau.
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Instantiating a Workbook object
 
@@ -157,13 +158,13 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 
 
 {{< /highlight >}}
-## **Télécharger le code d'exécution**
+## **Télécharger le code en cours d'exécution**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Télécharger l'exemple de code**
+## **Télécharger le code source d'exemple**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/tables/createpivottable/AsposeCreatePivotTable.java)
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Créer des tableaux croisés dynamiques et des graphiques croisés dynamiques](/cells/fr/java/create-pivot-tables-and-pivot-charts).
+Pour plus de détails, visitez [Créer des tableaux croisés dynamiques et des graphiques croisés dynamiques](/cells/fr/java/create-pivot-tables-and-pivot-charts).
 
 {{% /alert %}}

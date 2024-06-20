@@ -1,19 +1,20 @@
 ---
-title: Detectar Cells combinado en una hoja de trabajo
-description: Aspose.Cells es una biblioteca .NET para trabajar con archivos de hojas de cálculo. Admite la detección de celdas combinadas en una hoja de trabajo, lo que facilita a los usuarios identificar y manipular estas celdas. Este artículo presentará cómo utilizar la biblioteca Aspose.Cells para detectar celdas fusionadas.
-keywords: Aspose.Cells, Worksheet, Merge Cells, Detect, Identify, Operate
+title: Detectar Celdas Fusionadas en una Hoja de Trabajo
+description: Aspose.Cells es una biblioteca .NET para trabajar con archivos de hojas de cálculo. Admite detectar celdas fusionadas en una hoja de cálculo, facilitando a los usuarios identificar y manipular estas celdas. Este artículo presentará cómo usar la biblioteca Aspose.Cells para detectar celdas fusionadas.
+keywords: Aspose.Cells, Hoja de cálculo, Fusionar celdas, Detectar, Identificar, Operar
 type: docs
 weight: 80
 url: /es/net/detect-merged-cells-in-a-worksheet/
 ---
+
 {{% alert color="primary" %}}
 
-Este artículo proporciona información sobre cómo fusionar áreas de celdas en una hoja de trabajo.
+Este artículo proporciona información sobre cómo obtener áreas de celdas fusionadas en una hoja de cálculo.
 
- Aspose.Cells le permite fusionar áreas de celdas en una hoja de trabajo. También puedes separarlos (dividirlos). Este artículo muestra el código más simple usando**Aspose.Cells API** para realizar la tarea.
+Aspose.Cells te permite obtener áreas de celdas fusionadas en una hoja de cálculo. También puedes desagruparlas (dividirlas). Este artículo muestra el código más simple usando la **API de Aspose.Cells** para realizar la tarea.
 
 {{% /alert %}}
 
-El componente proporciona la[**Cells.MergedCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells)atributo que puede obtener una ArrayList de áreas de celdas fusionadas. El siguiente ejemplo de código le muestra cómo detectar celdas combinadas en una hoja de trabajo.
+El componente proporciona el atributo [**Cells.MergedCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/mergedcells) que puede obtener un ArrayList de áreas de celdas fusionadas. El siguiente ejemplo de código te muestra cómo detectar celdas fusionadas en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DetectMergedCells-1.cs" >}}

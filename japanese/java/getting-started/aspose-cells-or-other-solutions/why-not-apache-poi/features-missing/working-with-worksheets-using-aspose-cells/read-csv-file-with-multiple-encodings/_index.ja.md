@@ -1,15 +1,16 @@
-﻿---
-title: 複数のエンコーディングを持つ CSV ファイルの読み取り
+---
+title: 複数のエンコーディングで CSV ファイルを読み込む
 type: docs
 weight: 70
 url: /ja/java/read-csv-file-with-multiple-encodings/
 ---
-## **Aspose.Cells - 複数のエンコーディングを持つ CSV ファイルの読み取り**
-CSV ファイルに複数のエンコーディング (Unicode、ANSI、UTF8、UTF7 など) が含まれている場合があります。 Aspose.Cells を使用すると、そのような CSV ファイルをロードして、PDF や XLSX などの他の形式に変換できます。
+
+## **Aspose.Cells - 複数のエンコーディングで CSV ファイルを読み込む**
+CSVファイルにはUnicode、ANSI、UTF8、UTF7など複数のエンコーディングが含まれる場合があります。Aspose.Cellsを使用すると、これらのCSVファイルを読み込んで他の形式（例：PDFまたはXLSX）に変換することができます。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  //Set Multi Encoded Property to True
 
@@ -26,7 +27,7 @@ Workbook workbook = new Workbook(dataDir + "MultiEncoded.csv", options);
 workbook.save(dataDir + "EncodedNewFile_Out.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
@@ -34,6 +35,6 @@ workbook.save(dataDir + "EncodedNewFile_Out.xlsx", SaveFormat.XLSX);
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[複数のエンコーディングを持つ CSV ファイルの読み取り](/cells/ja/java/reading-csv-file-with-multiple-encodings).
+[複数のエンコーディングで CSV ファイルを読み込む](/cells/ja/java/reading-csv-file-with-multiple-encodings)の詳細については、こちらをご覧ください。
 
 {{% /alert %}}

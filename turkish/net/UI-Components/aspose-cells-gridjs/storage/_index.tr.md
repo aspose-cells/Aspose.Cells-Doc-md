@@ -1,28 +1,30 @@
 ---
-title: GridJs depolamasıyla çalışma
+title: GridJs depolama ile çalışmak
 type: docs
 weight: 250
 url: /tr/net/aspose-cells-gridjs/storage/
-description: Bu makalede, Aspose.Cells.GridJs için genel işleme açıklanmaktadır.
-keywords: file cache,storage,GridJs,GridJs storage,GridJs uid,download,uniqueid
+description: Bu makale, GridJs için genel dosya işleme işlemlerini açıklar.
+keywords: dosya önbelleği, depolama, GridJs, GridJs depolama, GridJs uid, indir, benzersiz kimlik
 ---
-#  GridJs Depolama ile Çalışma
-##  genel dosya işlemi
-Bir elektronik tablo dosyasını içe aktardıktan sonra,
 
- GridJs, belirtilen uid ile bir önbellek dosyası oluşturacaktır.**"Config.FileCacheDirectory"** dosya ,
 
- formatı ile[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") ,
+# GridJs Depolama ile Çalışmak
+## genel dosya işlemi 
+Bir elektronik tablo dosyası içe aktarıldıktan sonra,
 
- GridJs ayrıca tüm şekilleri/resimleri bir zip arşiv dosyasına kaydeder.**"Config.PictureCacheDirectory"** daha sonra istemci kullanıcı arayüzünde şekilleri/resimleri görüntülemek için klasör.
+GridJs, **`Config.FileCacheDirectory`** klasöründe belirtilen uid ile bir önbellek dosyası oluşturacaktır,
 
-ve istemci kullanıcı arabirimindeki her güncelleme işleminden sonra,
+[Aspose.Cells.SaveFormat.Xlsx](https://reference.aspose.com/cells/net/aspose.cells/saveformat/ "Aspose.Cells.SaveFormat") formatında,
 
-örneğin hücre değerini ayarla, hücre stilini ayarla, vb. ,
+GridJs ayrıca istemci arayüzünde daha sonra şekilleri/görüntüleri göstermek için bir zip arşiv dosyasına tüm şekilleri/görüntüleri kaydeder, **`Config.PictureCacheDirectory`** klasörüne.
 
-GridJs istemci tarafı j'leri, bir UpdateCell işlemi yapmak için denetleyici eylemini tetikler.
+ve istemci arayüzünde her güncelleme işleminden sonra,
 
-Bu eylemde, UpdateCell yöntemi sırasında önbellek dosyasına bir geri kaydetme gerçekleşir.
+örneğin hücre değeri ayarla, hücre stili ayarlama, vb.,
+
+GridJs istemci tarafı js, bir GüncellemeHücresi işlemi yapmak için bir denetleyici eylemi tetikler.
+
+Bu eylem sırasında, Bir GüncellemeHücre yöntemi sırasında önbellek dosyasına bir kayıt gerçekleşecektir.
 ```C#   
         // post: /GridJs/UpdateCell
         [HttpPost] 
@@ -35,16 +37,16 @@ Bu eylemde, UpdateCell yöntemi sırasında önbellek dosyasına bir geri kaydet
             return Content(ret, "text/plain", System.Text.Encoding.UTF8);
         }
 ```
-###  önbellek dosyası aslında nerede
+### önbellek dosya aslında nerede 
 
-A. GridCacheForStream'i uygularsak ve GridJsWorkbook.CacheImp'i ayarlarsak.
- örneğin aşağıdaki kodda önbellek dosyasını alıp alabiliriz.**"D:\temp"**
+A. Eğer GridCacheForStream uygularsak ve GridJsWorkbook.CacheImp'i ayarlarsak.
+örneğin aşağıdaki kodda **"D:\temp"** dizinine sadece önbellek dosyasını yerleştirebilir ve alabiliriz.
 ```C#
 Config.FileCacheDirectory=@"D:\temp";
 GridJsWorkbook.CacheImp=new LocalFileCache();
 public class LocalFileCache  : GridCacheForStream
     {
-         
+
         /// <summary>
         /// Implement this method to savecache,save the stream to the cache object with the key id.
         /// </summary>
@@ -74,23 +76,23 @@ public class LocalFileCache  : GridCacheForStream
         }
 		...
 ```
-B.GridJsWorkbook.CacheImp'i ayarlamazsak,
+B. Eğer GridJsWorkbook.CacheImp'i ayarlamazsak,
 
- GridJ'ler, içinde dosya oluşturacak ve kaydedecektir.**"Config.FileCacheDirectory"** , ayarlayabileceğimiz varsayılan önbellek dizini.
+GridJs, **`Config.FileCacheDirectory`** içindeki, yani ayarlayabileceğimiz varsayılan önbellek dizininde bir dosya oluşturur ve kaydeder.
 
-###  güncellenmiş sonuç dosyası nasıl alınır
-#### 1. dosya için belirtilen bir uid
- Dosya ve uid arasında belirli bir eşleme yazışmasının olduğundan emin olun,
+### güncellenmiş sonuç dosyasını nasıl alınır
+#### 1. dosya için belirtilen bir uid 
+Dosya ve uid arasında belirli bir eşleme bağlantısının olması gerektiğinden emin olun, 
 
-rastgele nesilden değil, belirli bir dosya adı için her zaman aynı kullanıcı kimliğini alabilirsiniz.
+bir dosya adı için her zaman aynı uid'yi alabilirsiniz, rastgele oluşturulmaz.
 
-Örneğin, sadece dosya adını kullanın tamam.
+Örneğin, sadece dosya adını kullanmak yeterlidir.
 ```C#
 //in controller  
 ...
         public ActionResult Uidtml(String filename)
         {
- 
+
             return Redirect("~/xspread/uidload.html?file=" + filename + "&uid=" +  Path.GetFileNameWithoutExtension(filename));
         }
  ...
@@ -111,22 +113,22 @@ rastgele nesilden değil, belirli bir dosya adı için her zaman aynı kullanıc
         }
 ```
 
-####  2. istemci UI işlemiyle senkronize edin
-Aslında bazı istemci UI işlemleri için,
+#### 2. istemci arayüzü işlemi ile senkronize olun
+Aslında bazı istemci arayüzü işlemleri için,
 
-Örneğin:
+örneğin:
 
-aktif sayfayı başka bir sayfaya geçirin,
+etkin sayfayı başka bir sayfaya değiştir,
 
-görüntü konumunu değiştirmek,
+resmin pozisyonunu değiştir,
 
-görüntüyü döndürün/yeniden boyutlandırın, vb.
+resmi döndür/boyutlandır, vb.
 
-Hücreyi Güncelle eylemi tetiklenmez.
+GüncellemeHücre eylemi tetiklenmeyecektir.
 
-Bu nedenle, güncellenmiş dosyayı istemci kullanıcı arayüzünün gösterdiği gibi almak istiyorsak,
+Bu nedenle, güncellenmiş dosyayı istemci arayüzünün gösterdiği gibi almak istiyorsak,
 
-bu istemci UI işlemlerini senkronize etmek için kaydetme eyleminden önce bir birleştirme işlemi yapmamız gerekiyor.
+bu istemci arayüzü işlemlerini senkronize etmek için kaydetme işleminden önce bir birleştirme işlemi yapmamız gerekmektedir.
 ```javascript
 //in the js
   function save() {
@@ -161,8 +163,8 @@ bu istemci UI işlemlerini senkronize etmek için kaydetme eyleminden önce bir 
   //after merge do save to chache or to a stream or whaterver you want to save to ,here we just save to cache
   wb.SaveToXlsx(Path.Combine(Config.FileCacheDirectory, uid));
 ```         
-####  3. dosyayı önbellekten alın
-örneğin: indirme eyleminde, onu uid ile önbellek dizininden alabilirsiniz.
+#### 3. önbellekten dosyayı alın
+örneğin: indirme işlemi için, uid ile doğrudan önbellek dizininden alabilirsiniz.
 ```C#
 //in controller  
 
@@ -177,5 +179,5 @@ bu istemci UI işlemlerini senkronize etmek için kaydetme eyleminden önce bir 
         }
 ```
 
-Daha ayrıntılı bilgi için, örneği buradan kontrol edebilirsiniz:
+Daha fazla detaylı bilgi için buradaki örneği kontrol edebilirsiniz:
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>

@@ -1,18 +1,19 @@
-﻿---
-title: Spalten und Zeilen automatisch anpassen, während HTML in die Arbeitsmappe geladen wird
+---
+title: Spalten und Zeilen automatisch anpassen beim Laden von HTML in Arbeitsmappe
 type: docs
 weight: 120
 url: /de/net/autofit-columns-and-rows-while-loading-html-in-workbook/
 ---
-## **Mögliche Nutzungsszenarien**
 
-Sie können Spalten und Zeilen automatisch anpassen, während Sie Ihre HTML-Datei in das Workbook-Objekt laden. Bitte setzen Sie die**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)** Eigentum zu**wahr**für diesen Zweck.
+## **Mögliche Verwendungsszenarien**
 
-## **Spalten und Zeilen automatisch anpassen, während HTML in die Arbeitsmappe geladen wird**
+Sie können Spalten und Zeilen automatisch anpassen, während Sie Ihre HTML-Datei im Workbook-Objekt laden. Bitte setzen Sie die [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)-Eigenschaft zu **true** für diesen Zweck.
 
- Der folgende Beispielcode lädt zunächst das Beispiel HTML ohne Ladeoptionen in die Arbeitsmappe und speichert es im Format XLSX. Es lädt dann erneut das Beispiel HTML in die Arbeitsmappe, aber dieses Mal lädt es das HTML nach dem Festlegen von**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)** Eigentum zu**wahr**und speichert es im Format XLSX. Bitte laden Sie beide ausgegebenen Excel-Dateien herunter, dh[Excel-Datei ohne AutoFitColsAndRows ausgeben](outputWithout_AutoFitColsAndRows.xlsx) und[Excel-Datei mit AutoFitColsAndRows ausgeben](outputWith_AutoFitColsAndRows.xlsx) . Der folgende Screenshot zeigt die Wirkung von**[HtmlLoadOptions.AutoFitColsAndRows](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)**-Eigenschaft in beiden Excel-Ausgabedateien.
+## **Spalten und Zeilen automatisch anpassen beim Laden von HTML in Arbeitsmappe**
 
-![todo: Bild_alt_Text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
+Der folgende Beispielcode lädt zunächst den Beispiel-HTML-Code ohne Ladeoptionen in Workbook und speichert ihn im XLSX-Format. Danach wird der Beispiel-HTML-Code erneut in Workbook geladen, diesmal jedoch nachdem die [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)-Eigenschaft auf **true** gesetzt wurde, und im XLSX-Format gespeichert. Bitte laden Sie beide Ausgabe-Excel-Dateien herunter, d.h. [Ausgabe Excel-Datei ohne AutoFitColsAndRows](outputWithout_AutoFitColsAndRows.xlsx) und [Ausgabe Excel-Datei mit AutoFitColsAndRows](outputWith_AutoFitColsAndRows.xlsx). Der folgende Screenshot zeigt die Wirkung der [**HtmlLoadOptions.AutoFitColsAndRows**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/autofitcolsandrows)-Eigenschaft auf beide Ausgabe-Excel-Dateien.
+
+![todo:image_alt_text](autofit-columns-and-rows-while-loading-html-in-workbook_1.png)
 
 ## **Beispielcode**
 

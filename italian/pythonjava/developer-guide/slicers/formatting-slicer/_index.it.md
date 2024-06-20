@@ -1,14 +1,15 @@
-﻿---
-title: Affettatrice di formattazione
+---
+title: Formattazione del filtro
 type: docs
 weight: 30
 url: /it/python-java/formatting-slicer/
 ---
-## **Affettatrice di formattazione**
-Utilizzando Microsoft Excel, è possibile formattare l'affettatrice impostandone il numero di colonne, stili, ecc. Aspose.Cells for Python via Java fornisce le proprietà Slicer.NumberOfColumns e Slicer.StyleType per ottenere ciò.
 
-Il seguente frammento di codice carica il file[esempio di file Excel](106364964.xlsx)che contiene un'affettatrice. Accede all'affettatrice e imposta il numero di colonne e il tipo di stile e lo salva come[file Excel di output](106364965.xlsx). Lo screenshot mostra come l'affettatrice si occupa dell'esecuzione del codice di esempio.
+## **Formattazione del selettore**
+Utilizzando Microsoft Excel, è possibile formattare il filtro impostando il numero di colonne, gli stili, ecc. Aspose.Cells for Python via Java fornisce le proprietà Slicer.NumberOfColumns e Slicer.StyleType per realizzare questo.
 
-![cose da fare:immagine_alt_testo](Formatting-Slicer-using-Aspose.Cells.png)
-## **Codice d'esempio**
+Il seguente frammento di codice carica il [file Excel di esempio](106364964.xlsx) che contiene un filtro. Accede al filtro e imposta il numero di colonne e il tipo di stile e lo salva come [file Excel di output](106364965.xlsx). La schermata mostra l'aspetto del filtro dopo l'esecuzione del codice di esempio.
+
+![todo:image_alt_text](Formatting-Slicer-using-Aspose.Cells.png)
+## **Codice di Esempio**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Slicers-FormattingSlicer.py" >}}

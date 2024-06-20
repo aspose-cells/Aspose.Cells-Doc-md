@@ -1,20 +1,21 @@
-﻿---
-title: Jython'da Aspose.Cells'i Destekleyin, Genişletin ve Katkıda Bulunun
+---
+title: Jython da Aspose.Cells i Destekleme, Genişletme ve Katkıda Bulunma
 type: docs
 weight: 30
 url: /tr/java/support-extend-and-contribute-to-aspose-cells-in-jython/
 ---
-## **Destek olmak**
-Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
-Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
+## **Destek**
+Aspose'un ilk günlerinden itibaren, müşterilerimize sadece iyi ürünler sunmanın yeterli olmayacağını biliyorduk. Ayrıca iyi bir hizmet sunmamız gerekiyordu. Kendi geliştiricileri olduğumuz için, teknik bir sorun veya yazılımdaki bir tuhaflık sizi yapmanız gereken şeyden alıkoyduğunda ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
-Aşağıdaki platformlardan herhangi birini kullanarak Jython için Aspose.Cells Java ile ilgili sorunları veya önerileri günlüğe kaydedebilirsiniz:
+Bu nedenle ücretsiz destek sunuyoruz. Ürünlerimizi kullanan herkes, bunları satın almış olsun veya değerlendirme yapılıyor olsun, tam dikket ve saygıyı hak ediyor.
+
+Aspose.Cells Java için Jython ile ilgili herhangi bir sorunu veya öneriyi aşağıdaki platformlardan birini kullanarak kaydedebilirsiniz:
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/issues)
-### **Genişletin ve Katkıda Bulunun**
-Aspose.Cells Java for Jython açık kaynaktır ve kaynak kodu aşağıda listelenen başlıca sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirmeleri ve yeni özellikler önererek veya ekleyerek veya mevcut olanları geliştirerek katkıda bulunmaları teşvik edilir, böylece diğerleri de bundan faydalanabilir.
-### **Kaynak kodu**
-En son kaynak kodunu aşağıdaki konumlardan birinden alabilirsiniz.
+### **Genişletme ve Katkı Sağlama**
+Aspose.Cells Java for Jython açık kaynak kodlu ve kaynak kodları aşağıda listelenen büyük sosyal kodlama sitelerinde mevcuttur. Geliştiriciler, kaynak kodunu indirerek yeni özellikler önererek veya ekleyerek mevcut olanları iyileştirerek katkıda bulunmaya teşvik edilir, böylece diğerleri de bundan faydalanabilir.
+### **Kaynak Kodu**
+En son kaynak kodunu aşağıdaki konumlardan birinden edinebilirsiniz
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose-Cells-Java-for-Jython)

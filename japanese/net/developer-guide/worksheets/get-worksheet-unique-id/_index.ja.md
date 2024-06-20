@@ -1,14 +1,15 @@
 ---
-title: ワークシートの一意の ID を取得する
+title: ワークシートの一意のIDを取得
 type: docs
 weight: 190
 url: /ja/net/get-worksheet-unique-id/
-description: この記事では、C# ライブラリと .NET API をプログラムで使用して Excel ワークシートの一意の ID を取得する方法を説明します。
-keywords: unique id excel worksheet c#, unique id worksheet c#
+description: この記事では、C#ライブラリと.NET APIを使用してExcelワークシートの一意のIDをプログラムで取得する方法について説明します。
+keywords: Excelワークシートの一意のIDを取得
 ---
-##  **ワークシートの一意の ID を取得する**
 
- Aspose.Cells は、[**Worksheet.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid)財産。次のコード スニペットは、[**Worksheet.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid)ワークシートの一意の ID を出力するプロパティ。次のコード スニペットはこれを使用します[サンプルエクセルファイル](105480213.xlsx).
+## **ワークシートの一意のIDを取得**
+
+Aspose.Cellsを使用すると、[**Worksheet.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid)プロパティを使用してワークシートの一意のIDを取得できます。以下のコードスニペットは、[**Worksheet.UniqueId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/uniqueid)プロパティを使用してワークシートの一意のIDを印刷します。このコードスニペットでは、この[サンプルExcelファイル](105480213.xlsx)を使用しています。
 
 ### ソースコード
 

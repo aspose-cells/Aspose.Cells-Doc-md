@@ -1,21 +1,22 @@
 ---
-title: احفظ Excel في PDF بالحجم القياسي أو الحد الأدنى
+title: حفظ Excel إلى PDF بحجم قياسي أو حد أدنى
 type: docs
 weight: 340
 url: /ar/python-net/save-excel-into-pdf-with-standard-or-minimum-size/
-description: تعرف على كيفية حفظ Excel في PDF بالحجم القياسي أو الحد الأدنى باستخدام Aspose.Cells for Python via .NET API.
-keywords: Save Excel into PDF with Standard or Minimum Size using Aspose.Cells for Python via .NET
+description: تعلم كيفية حفظ Excel في PDF بحجم قياسي أو الحد الأدنى مع Aspose.Cells لبرنامجPython via .NET
+keywords: حفظ Excel في PDF بحجم قياسي أو الحد الأدنى باستخدام Aspose.Cells لبرنامجPython via .NET
 ---
+
 {{% alert color="primary" %}} 
 
-بشكل افتراضي، Aspose.Cells يحفظ Excel في PDF بالحجم القياسي. ومع ذلك، يمكنك أيضًا حفظه بالحجم الأدنى باستخدام الملف[PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/) ملكية. يقبل القيم التالية
+بشكل افتراضي، يحفظ Aspose.Cells Excel في PDF بحجم قياسي. ومع ذلك، يمكنك أيضًا حفظه بالحجم الأدنى باستخدام خاصية [PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/pythonـnet/aspose.cells/pdfsaveoptions/optimizationـtype/). إنه يقبل القيم التالية
 
-- PDFOptimizationType.STANDARD
+- PdfOptimizationType.STANDARD
 - PdfOptimizationType.MINIMUM_SIZE
 
 {{% /alert %}} 
-##  **احفظ Excel في PDF بالحجم القياسي أو الحد الأدنى باستخدام Aspose.Cells for Python via .NET**
- يوضح نموذج التعليمات البرمجية التالي كيف يمكنك حفظ Excel في PDF بالحجم القياسي أو الحد الأدنى باستخدام[PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/)ملكية.
+## **حفظ Excel كملف PDF بحجم قياسي أو دقيق باستخدام Aspose.Cells for Python via .NET**
+يعرض الكود المصدري التالي كيف يمكنك حفظ Excel كملف PDF بحجم قياسي أو دقيق باستخدام خاصية [PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/).
 
 
 

@@ -1,23 +1,26 @@
-﻿---
-title: Ajouter Cell Formules
+---
+title: Ajouter des formules de cellule
 type: docs
 weight: 30
-url: /fr/net/add-cell-formulas/
+url: /fr/net/aspose-cells-gridweb/add-cell-formula/
+keywords: GridWeb,formule
+description: Cet article présente comment ajouter une formule dans une cellule dans GridWeb.
 ---
+
 {{% alert color="primary" %}} 
 
-La fonctionnalité la plus précieuse offerte par Aspose.Cells.GridWeb est la prise en charge des formules ou des fonctions. Aspose.Cells.GridWeb possède son propre moteur de formule qui calcule les formules dans les feuilles de calcul. Aspose.Cells.GridWeb prend en charge les fonctions ou formules intégrées et définies par l'utilisateur. Cette rubrique décrit en détail l'ajout de formules aux cellules à l'aide de Aspose.Cells.GridWeb API.
+La fonction la plus précieuse offerte par Aspose.Cells.GridWeb est le support des formules ou fonctions. Aspose.Cells.GridWeb possède son propre Moteur de Formules qui calcule les formules dans les feuilles de calcul. Aspose.Cells.GridWeb prend en charge les fonctions ou formules intégrées et définies par l'utilisateur. Ce sujet traite de l'ajout de formules aux cellules en utilisant l'API Aspose.Cells.GridWeb en détail.
 
 {{% /alert %}} 
-## **Ajout de formules au Cells**
-### **Comment ajouter et calculer une formule ?**
- Il est possible d'ajouter, d'accéder et de modifier des formules dans les cellules en utilisant la propriété Formule d'une cellule. Aspose.Cells.GridWeb prend en charge les formules définies par l'utilisateur allant du simple au complexe. Cependant, un grand nombre de fonctions ou de formules intégrées (similaires à Microsoft Excel) sont également fournies avec Aspose.Cells.GridWeb. Pour voir la liste complète des fonctions intégrées, veuillez vous référer à ce[liste des fonctions prises en charge.](/cells/fr/net/list-of-supported-functions/)
+## **Ajout de formules aux cellules**
+### **Comment Ajouter & Calculer une Formule ?**
+Il est possible d'ajouter, d'accéder et de modifier des formules dans les cellules en utilisant la propriété Formule d'une cellule. Aspose.Cells.GridWeb prend en charge les formules définies par l'utilisateur allant de simples à complexes. Toutefois, un grand nombre de fonctions ou formules intégrées (similaires à Microsoft Excel) sont également fournies avec Aspose.Cells.GridWeb. Pour voir la liste complète des fonctions intégrées, veuillez vous référer à cette [liste des fonctions prises en charge.](/cells/fr/net/aspose-cells-gridweb/list-of-supported-functions/)
 
 {{% alert color="primary" %}} 
 
-La syntaxe de la formule doit être compatible avec la syntaxe Excel Microsoft. Par exemple, toutes les formules doivent commencer par un signe égal (=).
+La syntaxe des formules doit être compatible avec la syntaxe de Microsoft Excel. Par exemple, toutes les formules doivent commencer par un signe égal (=).
 
-Pour ajouter une formule dynamiquement, Aspose.Cells.GridWeb la reconnaîtra comme une formule même si vous n'utilisez pas de signe **=**, mais si les utilisateurs finaux travaillent dans l'interface graphique, il doit utiliser le signe "=".
+Pour ajouter une formule dynamiquement, Aspose.Cells.GridWeb la reconnaîtra en tant que formule même si vous n'utilisez pas de signe **=**, mais si les utilisateurs finaux travaillent dans l'interface graphique, ils doivent utiliser le signe "=".
 
 {{% /alert %}} 
 
@@ -27,9 +30,9 @@ Pour ajouter une formule dynamiquement, Aspose.Cells.GridWeb la reconnaîtra com
 
 **Formule ajoutée à la cellule B3 mais non calculée par GridWeb** 
 
-![tâche : image_autre_texte](add-cell-formulas_1.png)
+![todo:image_alt_text](add-cell-formulas_1.png)
 
-Dans la capture d'écran ci-dessus, vous pouvez voir qu'une formule a été ajoutée à B3 mais n'a pas encore été calculée. Pour calculer toutes les formules, appelez la méthode CalculateFormula du contrôle GridWorksheetCollection après avoir ajouté des formules aux feuilles de calcul, comme indiqué ci-dessous.
+Sur la capture d'écran ci-dessus, vous pouvez voir qu'une formule a été ajoutée à B3 mais n'a pas encore été calculée. Pour calculer toutes les formules, appelez la méthode CalculateFormula de la collection GridWorksheet du contrôle GridWeb après avoir ajouté des formules aux feuilles de calcul comme indiqué ci-dessous.
 
 
 
@@ -37,23 +40,23 @@ Dans la capture d'écran ci-dessus, vous pouvez voir qu'une formule a été ajou
 
 {{% alert color="primary" %}} 
 
- Les utilisateurs peuvent également calculer des formules en cliquant sur**Nous faire parvenir**.
+Les utilisateurs peuvent également calculer des formules en cliquant sur **Soumettre**.
 
-**En cliquant sur le bouton Soumettre de GridWeb** 
+**Cliquez sur le bouton Soumettre de GridWeb** 
 
-![tâche : image_autre_texte](add-cell-formulas_2.png)
+![todo:image_alt_text](add-cell-formulas_2.png)
 
-**IMPORTANT** : Si un utilisateur clique sur le**Sauver** ou alors**annuler** ou les onglets de la feuille, toutes les formules sont calculées automatiquement par GridWeb.
+**IMPORTANT** : Si un utilisateur clique sur les boutons **Enregistrer** ou **Annuler**, ou sur les onglets de feuille, toutes les formules sont calculées automatiquement par GridWeb.
 
-**Résultat de la formule après calcul** 
+**Résultat de la formule après le calcul** 
 
-![tâche : image_autre_texte](add-cell-formulas_3.png)
+![todo:image_alt_text](add-cell-formulas_3.png)
 
 {{% /alert %}} 
-### **Référence Cells à partir d'autres feuilles de travail**
-En utilisant Aspose.Cells.GridWeb, il est possible de référencer des valeurs stockées dans différentes feuilles de calcul dans leurs formules, créant ainsi des formules complexes.
+### **Référencer des cellules à partir d'autres feuilles de calcul**
+En utilisant Aspose.Cells.GridWeb, il est possible de référencer des valeurs stockées dans différentes feuilles de calcul dans leurs formules, en créant des formules complexes.
 
-La syntaxe pour référencer une valeur de cellule à partir d'une autre feuille de calcul est SheetName!CellName.
+La syntaxe pour référencer une valeur de cellule à partir d'une feuille de calcul différente est NomFeuille!NomCellule.
 
 
 

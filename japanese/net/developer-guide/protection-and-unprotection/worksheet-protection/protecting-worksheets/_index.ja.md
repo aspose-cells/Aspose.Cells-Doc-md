@@ -1,105 +1,106 @@
-﻿---
+---
 title: ワークシートの保護
 type: docs
 weight: 10
 url: /ja/net/protecting-worksheets/
 ---
+
 {{% alert color="primary" %}}
 
-ワークシートが保護されている場合、ユーザーが実行できるアクションは制限されます。たとえば、データを入力したり、行や列を挿入または削除したりすることはできません。
+ワークシートが保護されている場合、ユーザーが行うことができるアクションが制限されます。たとえば、データの入力、行または列の挿入または削除などができません。
 
 {{% /alert %}}
 
-## **ワークシートを保護する**
+## **ワークシートを保護**
 
-### **序章**
+### **紹介**
 
-Microsoft Excel の一般的な保護オプションは次のとおりです。
+Microsoft Excelの一般的な保護オプション:
 
 - コンテンツ
 - オブジェクト
 - シナリオ
 
-保護されたワークシートは機密データを隠したり保護したりしないため、ファイルの暗号化とは異なります。一般に、ワークシートの保護はプレゼンテーションの目的に適しています。これにより、エンド ユーザーはワークシートのデータ、コンテンツ、および書式を変更できなくなります。
+保護されたワークシートは機密データを非表示または保護しないため、ファイルの暗号化とは異なります。一般的に、ワークシートの保護はプレゼンテーション目的に適しています。ユーザーはワークシート内のデータ、コンテンツ、および書式設定を変更できなくなります。
 
 ### **ワークシートを保護する**
 
-Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートにアクセスできるコレクション。ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。
+Aspose.Cellsは、Microsoft Excelファイルを表す[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスを提供します。[**Workbook**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには、Excelファイル内の各ワークシートにアクセスを許可する[**Worksheets**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)コレクションが含まれています。ワークシートは[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスで表されます。
 
-の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスが提供する[**守る**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index)ワークシートに保護を適用するために使用されるメソッド。[**守る**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1)メソッドは次のパラメーターを受け入れます。
+[**Worksheet**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスは、ワークシートに保護を適用するために使用される[**Protect**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index)メソッドを提供します。[**Protect**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1)メソッドは以下のパラメータを受け付けます:
 
-- 保護タイプ、ワークシートに適用する保護のタイプ。保護タイプは、[**保護タイプ**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)列挙。
-- 新しいパスワード。ワークシートを保護するために使用される新しいパスワード。
-- 古いパスワード、ワークシートがすでにパスワードで保護されている場合の古いパスワード。ワークシートがまだ保護されていない場合は、null を渡します。
+- 保護タイプ、ワークシートに適用する保護の種類。保護タイプは[**ProtectionType**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)列挙型のヘルプを使用して適用されます。
+- 新しいパスワード、ワークシートを保護するために使用する新しいパスワード。
+- 古いパスワード、ワークシートがすでにパスワードで保護されている場合は、古いパスワードを渡します。ワークシートがすでに保護されていない場合は、nullを渡します。
 
-の[**保護タイプ**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)列挙には、次の事前定義された保護タイプが含まれています。
+[**ProtectionType**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)列挙型には、次の事前定義の保護タイプが含まれています:
 
-|**保護の種類**|**説明**|
-|:- |:- |
-|全て|ユーザーはこのワークシートで何も変更できません|
-|コンテンツ|ユーザーはこのワークシートにデータを入力できません|
-|オブジェクト|ユーザーは描画オブジェクトを変更できません|
-|シナリオ|ユーザーは保存されたシナリオを変更できません|
-|構造|ユーザーは構造を変更できません|
-|Windows|ウィンドウに保護が適用されます|
-|なし|保護は適用されません|
+|**保護タイプ**|**説明**|
+| :- | :- |
+|All|このワークシート上で何も変更できない|
+|Contents|このワークシートにデータを入力できない|
+|Objects|描画オブジェクトを変更できない|
+|Scenarios|保存されたシナリオを変更できない|
+|Structure|ユーザーは構造を変更できません|
+|Windows|保護はウィンドウに適用されています|
+|None|保護は適用されていません|
 
-次の例は、ワークシートをパスワードで保護する方法を示しています。
+以下の例は、ワークシートにパスワードを設定して保護する方法を示しています。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingWorksheet-1.cs" >}}
 
-上記のコードを使用してワークシートを保護した後、ワークシートを開いて保護を確認できます。ファイルを開いてワークシートにデータを追加しようとすると、次のダイアログが表示されます。
+上記のコードを使用してワークシートを保護した後、ワークシートの保護を開いて確認することができます。ファイルを開いてワークシートにデータを追加しようとすると、次のダイアログが表示されます:
 
-|**ユーザーがワークシートを変更できないことを警告するダイアログ**|
-|:- |
-|![todo:画像_代替_文章](protecting-worksheets_1.png)|
+|**ユーザーがワークシートを変更できないと警告するダイアログ**|
+| :- |
+|![todo:image_alt_text](protecting-worksheets_1.png)|
 
-ワークシートで作業するには、**保護**、 それから**シートの保護を解除**から**ツール**メニュー項目。
+ワークシートで作業するには、**ツール**メニューの**保護**から**ワークシートの保護を解除**を選択します。
 
-[シートの保護を解除] メニュー項目を選択すると、以下に示すようにワークシートで作業できるように、パスワードの入力を求めるダイアログが開きます。
+ワークシートの保護を解除メニュー項目を選択すると、次のようなダイアログが開きます。パスワードを入力するように求められます。
 
-|![todo:画像_代替_文章](protecting-worksheets_2.png)|
+|![todo:image_alt_text](protecting-worksheets_2.png)|
 
-### **Microsoft Excel を使用して、ワークシートのいくつかの Cells を保護します**
+### **Microsoft Excelを使用してワークシート内の一部のセルを保護する**
 
-ワークシート内のいくつかのセルのみをロックする必要がある特定のシナリオがあるかもしれません。ワークシート内の特定のセルをロックする場合は、ワークシート内の他のすべてのセルのロックを解除する必要があります。ワークシート内のすべてのセルは、すでにロック用に初期化されています。これを確認して、任意の Excel ファイルを MS Excel で開き、**フォーマット | Cells...**見せる**フォーマット Cells**ダイアログ ボックスをクリックし、**保護**タブをクリックすると、「ロック済み」というラベルの付いたチェックボックスがデフォルトでオンになっていることがわかります。
+ワークシート内の特定のセルをロックする必要がある場合があります。ワークシート内の特定のセルをロックするには、ワークシートの他のすべてのセルをロック解除する必要があります。ワークシートのすべてのセルは既にロックされています。MS Excelに任意のExcelファイルを開いて**書式 | セル...**をクリックして**セルの書式**ダイアログボックスを表示し、**保護**タブをクリックし、「ロック」のチェックボックスがデフォルトでチェックされていることを確認できます。
 
-次のポイントでは、MS Excel を使用していくつかのセルをロックする方法について説明します。この方法は、Microsoft Office Excel 97、2000、2002、2003 以降のバージョンに適用されます。
+次のポイントは、MS Excelを使用していくつかのセルをロックする方法を説明しています。この方法は、Microsoft Office Excel 97、2000、2002、2003およびそれ以降のバージョンに適用されます。
 
-1. をクリックして、ワークシート全体を選択します。**すべて選択**ボタン (行 1 の行番号の真上、列文字 A の左にある灰色の長方形)。
-1. クリック**Cells**上で**フォーマット**メニューで、**保護**タブをクリックしてから、**ロックされた**チェックボックス。
-これにより、ワークシートのすべてのセルのロックが解除されます
-もし**Cells**ワークシートの一部がすでにロックされている可能性があります。上で**ツール**メニュー、ポイント**保護**をクリックし、**シートの保護を解除**.
-1. ロックしたいセルだけを選択して手順 2 を繰り返しますが、今回は**ロックされた**チェックボックス。
-1. 上で**ツール**メニュー、ポイント**保護** 、 クリック**プロテクトシート**そしてクリック**わかった**.
-1. の中に**プロテクトシート**ダイアログ ボックスで、パスワードを指定し、ユーザーが変更できるようにする要素を選択するオプションがあります。
+1. **全選択**ボタン(行1の行番号の直上および列文字Aの左直上の灰色の四角形)をクリックしてワークシート全体を選択します。
+1. **書式**メニューの**セル**をクリックし、**保護**タブをクリックし、**ロック**のチェックボックスをクリアします。
+   これにより、ワークシートのすべてのセルがロック解除されます
+   **セル**コマンドが利用できない場合、ワークシートの一部は既にロックされている可能性があります。 **ツール**メニューで、**保護**を指して、**ワークシートの保護を解除**をクリックします。
+1. ロックしたいセルだけを選択し、ステップ2を繰り返しますが、この時に**ロック**のチェックボックスを選択します。
+1. **ツール**メニューで**保護**を指して、**ワークシートの保護**をクリックし、**OK**をクリックします。
+1. **ワークシートの保護**ダイアログボックスでは、ユーザーが変更できる要素を指定するオプションとパスワードを指定することができます。
 
-### **Aspose Cells を使用して、ワークシートのいくつかの Cells を保護します**
+### **Aspose Cellsを使用してワークシート内の一部のセルを保護する**
 
-この方法では、タスクを実行するためだけに Aspose.Cells API を使用します。
+この方法では、Aspose.Cells APIのみを使用してタスクを実行します。
 
-例: 次の例は、ワークシート内のいくつかのセルを保護する方法を示しています。最初にワークシート内のすべてのセルのロックを解除し、次に 3 つのセル (A1、B1、C1) をロックします。最後に、ワークシートを保護します。の[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトにはブール値のプロパティが含まれています。[**ロックされています**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) .設定できます[**ロックされています**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)プロパティを true または false にして適用する*列/行.ApplyStyle()*目的の属性で行/列をロックまたはロック解除する方法。
+例: 次の例は、ワークシート内の一部のセルを保護する手順を示しています。まずワークシートのすべてのセルをロック解除し、それから3つのセル（A1、B1、C1）をロックします。最後にワークシートを保護します。 [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトには、真偽値プロパティ[**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)が含まれています。 [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)プロパティをtrueまたはfalseに設定し、*Column/Row.ApplyStyle()*メソッドを使用して希望の属性で行または列をロックまたはロック解除できます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificCellsinaWorksheet-1.cs" >}}
 
-### **ワークシートの行を保護する**
+### **ワークシート内の行を保護する**
 
-Aspose.Cells を使用すると、ワークシートの任意の行を簡単にロックできます。ここで、私たちは利用することができます[**ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle)方法[**Aspose.Cells.Row**](https://reference.aspose.com/cells/net/aspose.cells/row)申し込むクラス[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)ワークシートの特定の行に。このメソッドは 2 つの引数を取ります。[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトと[**スタイルフラグ**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)適用された書式設定に関連するすべてのメンバーを持つオブジェクト。
+Aspose.Cellsを使用すると、ワークシート内の任意の行を簡単にロックできます。ここでは、ワークシート内の特定の行に[**ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle)メソッドを[**Aspose.Cells.Row**](https://reference.aspose.com/cells/net/aspose.cells/row)クラスを使用して[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)を適用できます。このメソッドは、[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトと[**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)オブジェクトを引数に取り、適用される書式に関連するすべてのメンバーを持っています。
 
-次の例は、ワークシートの行を保護する方法を示しています。最初にワークシート内のすべてのセルのロックを解除してから、その最初の行をロックします。最後に、ワークシートを保護します。の[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトにはブール値のプロパティが含まれています。[**ロックされています**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) .設定できます[**ロックされています**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)プロパティを true または false に設定して、[**スタイルフラグ**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)物体。
+次の例は、ワークシート内の行を保護する手順を示しています。まず、ワークシートのすべてのセルをロック解除してから、第1行をロックします。最後にワークシートを保護します。 [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトには、真偽値プロパティ[**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)が含まれています。 [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)プロパティをtrueまたはfalseに設定することで、[**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)オブジェクトを使用して行または列をロックまたはロック解除できます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificRowInWorksheet-1.cs" >}}
 
-### **ワークシートの列を保護する**
+### **ワークシート内の列を保護する**
 
-Aspose.Cells を使用すると、ワークシート内の任意の列を簡単にロックできます。ここで、私たちは利用することができます[**ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/column/methods/applystyle)方法[**Aspose.Cells.Column**](https://reference.aspose.com/cells/net/aspose.cells/column)申し込むクラス[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)ワークシートの特定の列に。このメソッドは 2 つの引数を取ります。[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトと[**スタイルフラグ**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)適用された書式設定に関連するすべてのメンバーを持つオブジェクト。
+Aspose.Cellsを使用すると、ワークシート内の任意の列を簡単にロックできます。ここでは、ワークシート内の特定の列に[**ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/column/methods/applystyle)メソッドを[**Aspose.Cells.Column**](https://reference.aspose.com/cells/net/aspose.cells/column)クラスを使用して[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)を適用できます。このメソッドは、[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトと[**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)オブジェクトを引数に取り、適用される書式に関連するすべてのメンバーを持っています。
 
-次の例は、ワークシートの列を保護する方法を示しています。最初にワークシート内のすべてのセルのロックを解除してから、その最初の列をロックします。最後に、ワークシートを保護します。の[**スタイル**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトにはブール値のプロパティが含まれています。[**ロックされています**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) .設定できます[**ロックされています**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)プロパティを true または false に設定して、[**スタイルフラグ**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)物体。
+次の例は、ワークシート内の列を保護する手順を示しています。まず、ワークシートのすべてのセルをロック解除してから、第1列をロックします。最後にワークシートを保護します。 [**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)オブジェクトには、真偽値プロパティ[**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)が含まれています。 [**IsLocked**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)プロパティをtrueまたはfalseに設定することで、[**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)オブジェクトを使用して行または列をロックまたはロック解除できます。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectColumnWorksheet-1.cs" >}}
 
-### **ユーザーが範囲を編集できるようにする**
+### **ユーザーに範囲の編集を許可する**
 
-次の例は、ユーザーが保護されたワークシートの範囲を編集できるようにする方法を示しています。
+次の例は、保護されたワークシートで範囲の編集を許可する方法を示しています。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-EditRangesWorksheet-1.cs" >}}

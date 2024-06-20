@@ -1,33 +1,34 @@
-﻿---
-title: ワークシートからのデータのエクスポート
+---
+title: ワークシートからデータをエクスポート
 type: docs
 weight: 40
 url: /ja/java/export-data-from-worksheets/
 ---
-## **Aspose.Cells - ワークシートからのデータのエクスポート**
-Aspose.Cells では、ユーザーは外部データ ソースからワークシートにデータをインポートできるだけでなく、ワークシート データを配列にエクスポートすることもできます。
+
+## **Aspose.Cells - Worksheet からデータをエクスポート**
+Aspose.Cells は、ユーザーが外部データソースからワークシートにデータをインポートするだけでなく、ワークシートデータを配列にエクスポートすることも可能にします。
 
 **Java**
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
-//開く Excel ファイルを含むファイル ストリームを作成する
+ //Creating a file stream containing the Excel file to be opened
 
 FileInputStream fstream = new FileInputStream(dataDir + "workbook.xls");
 
-// Workbook オブジェクトのインスタンス化
+//Instantiating a Workbook object
 
-ワークブック ワークブック = 新しいワークブック(fstream);
+Workbook workbook = new Workbook(fstream);
 
-//Excel ファイルの最初のワークシートにアクセスする
+//Accessing the first worksheet in the Excel file
 
-ワークシート ワークシート = workbook.getWorksheets().get(0);
+Worksheet worksheet = workbook.getWorksheets().get(0);
 
-//1セル目から7行2列の内容をArrayにエクスポート。
+//Exporting the contents of 7 rows and 2 columns starting from 1st cell to Array.
 
-オブジェクト dataTable [][]= worksheet.getCells().exportArray(4,0,7,8);
+Object dataTable [][] = worksheet.getCells().exportArray(4,0,7,8);
 
- for (int i = 0 ; i< dataTable.length ; i++)
+for (int i = 0 ; i < dataTable.length ; i++)
 
 {
 
@@ -40,7 +41,7 @@ FileInputStream fstream = new FileInputStream(dataDir + "workbook.xls");
 fstream.close();
 
 {{< /highlight >}}
-## **実行中のコードをダウンロード**
+## **ランニングコードのダウンロード**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **サンプルコードをダウンロード**
@@ -48,6 +49,6 @@ fstream.close();
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[ワークシートからのデータのエクスポート](/java/exporting-data-from-worksheets).
+詳細については、[ワークシートからのデータエクスポート](/java/exporting-data-from-worksheets)を参照してください。
 
 {{% /alert %}}

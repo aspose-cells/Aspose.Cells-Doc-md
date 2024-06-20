@@ -1,39 +1,40 @@
-﻿---
-title: Kopiera intervall för Excel
-linktitle: Kopiera intervall
+---
+title: Kopiera områden av Excel
+linktitle: Kopiera områden
 type: docs
 weight: 105
 url: /sv/net/copy-ranges-of-Excel/
 ---
+
 ## **Introduktion**
 
-I Excel kan du välja ett intervall, kopiera intervallet och sedan klistra in det med specifika alternativ i samma kalkylblad, andra kalkylblad eller andra filer.
+I Excel kan du markera ett område, kopiera området och sedan klistra in det med specifika alternativ på samma arbetsblad, andra arbetsblad eller andra filer.
 
-## **Kopiera intervall med Aspose.Cells**
+## **Kopiera områden med hjälp av Aspose.Cells**
 
- Aspose.Cells ger viss överbelastning[Range.Copy](https://reference.aspose.com/cells/net/aspose.cells/range/copy/#copy) metoder för att kopiera intervallet.
- Och[Range.CopyStyle](https://reference.aspose.com/cells/net/aspose.cells/range/copystyle/) endast kopieringsstilen för serien;[Range.CopyData](https://reference.aspose.com/cells/net/aspose.cells/range/copydata/) endast kopieringsvärdet för intervallet
+Aspose.Cells tillhandahåller några överbelastnings [Range.Copy](https://reference.aspose.com/cells/net/aspose.cells/range/copy/#copy) metoder för att kopiera området.
+Och [Range.CopyStyle](https://reference.aspose.com/cells/net/aspose.cells/range/copystyle/) endast kopiera stil från området; [Range.CopyData](https://reference.aspose.com/cells/net/aspose.cells/range/copydata/) endast kopiera värde från området
 
-## **Kopiera intervall**
+## **Kopiera område**
 
-Skapa två intervall: källintervallet, målintervallet, kopiera sedan källintervallet till målintervallet med metoden Range.Copy.
+Skapa två områden: källområdet, målområdet, sedan kopiera källområdet till målområdet med Range.Copy-metoden.
 
 Se följande kod:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range.cs" >}}
 
-## **Klistra in intervall med alternativ**
+## **Klistra in område med alternativ**
 
-Aspose.Cells stöder inklistring av intervallet med specifik typ.
+Aspose.Cells stöder att klistra in området med specifik typ.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Paste-Range.cs" >}}
 
-## **Kopiera endast data från intervallet.**
-Du kan också kopiera data med Range.CopyData-metoden som följande koder:
+## **Endast kopiera data för området**
+Du kan också kopiera data med Range.CopyData-metoden enligt följande koder:
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Copy-Range-Data.cs" >}}
 
-## **Förhandsämnen**
-- [Kopiera radhöjder för källintervall till destinationsintervall](/cells/sv/net/copy-row-heights-of-source-range-to-destination-range/)
+## **Fortsatta ämnen**
+- [Kopiera radhöjder från källspann till destinationspann](/cells/sv/net/copy-row-heights-of-source-range-to-destination-range/)
 
 

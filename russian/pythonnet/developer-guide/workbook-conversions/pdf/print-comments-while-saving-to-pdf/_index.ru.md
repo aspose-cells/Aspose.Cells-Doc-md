@@ -1,29 +1,30 @@
 ---
-title: Распечатать комментарии, сохранив номер PDF.
+title: Печать комментариев при сохранении в формат PDF
 type: docs
 weight: 10
 url: /ru/python-net/print-comments-while-saving-to-pdf/
-description: Узнайте, как печатать комментарии, сохранив номер PDF с помощью Aspose.Cells for Python via .NET API.
-keywords: Python Print Comments while saving file to PDF, Print Comments while saving Excel to PDF using Python, Python Export Comments when converting Excel to PDF, Output Comments for Excel to PDF in python, Render Comments while saving excel to PDF
+description: Узнайте, как печатать комментарии при сохранении в PDF с помощью Aspose.Cells для Python via .NET API.
+keywords: Вывод комментариев при сохранении файла в PDF с помощью Python, Вывод комментариев при сохранении Excel в PDF с помощью Python, Экспорт комментариев при преобразовании Excel в PDF с помощью Python, Вывод комментариев для Excel в PDF в Python, Вывод комментариев при сохранении Excel в PDF
 ---
+
 {{% alert color="primary" %}}
 
-Microsoft Excel позволяет печатать комментарии во время печати или сохранять в формате PDF со следующими параметрами.
+Microsoft Excel позволяет печатать комментарии при печати или сохранении в формате PDF с помощью следующих параметров
 
-- Никто
+- Нет
 - В конце листа
-- Как показано на листе
+- Как отображено на листе
 
- Aspose.Cells for Python via .NET предоставьте[**ПечатьКомментариевТип**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) enum для поддержки той же функции.[**ПечатьКомментариевТип**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)перечисление имеет следующие члены
+Aspose.Cells для Python via .NET предоставляет перечисление [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) для поддержки этой функции. Перечисление [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) содержит следующие элементы
 
-- РаспечататьБез комментариев
-- ПечатьInPlace
+- PrintNoComments
+- PrintInPlace
 - PrintSheetEnd
 
 {{% /alert %}}
 
-##  **Распечатать комментарии, сохранив номер PDF.**
+## **Печать комментариев при сохранении в формат PDF**
 
- Следующий пример кода иллюстрирует, как использовать[**ПечатьКомментариевТип**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/)для печати комментариев при сохранении на номер PDF.
+Следующий пример кода иллюстрирует, как использовать [**PrintCommentsType**](https://reference.aspose.com/cells/python-net/aspose.cells/printcommentstype/) для печати комментариев при сохранении в PDF.
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "PDF-PrintCommentWhileSavingToPdf.py" >}}

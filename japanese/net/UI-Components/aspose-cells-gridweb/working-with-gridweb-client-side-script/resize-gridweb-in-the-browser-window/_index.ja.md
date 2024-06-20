@@ -1,22 +1,25 @@
-﻿---
-title: ブラウザ ウィンドウで GridWeb のサイズを変更する
+---
+title: ブラウザウィンドウでGridWebをリサイズする
 type: docs
 weight: 40
-url: /ja/net/resize-gridweb-in-the-browser-window/
+url: /ja/net/aspose-cells-gridweb/resize-gridweb-in-the-browser-window/
+keywords: GridWeb,resize
+description: この記事では、GridWebのリサイズ方法について紹介します。
 ---
-## **考えられる使用シナリオ**
-Aspose.Cells が必要な場合があります。GridWeb は、ブラウザ ウィンドウに合わせてサイズを変更する必要があります。 GridWeb は常にサイズ (高さ、幅) を調整し、ブラウザー ウィンドウのサイズと互換性がある必要があります。 Aspose.Cells.GridWeb はクライアント側を提供します*サイズ変更()*目的のための機能。さらに、ブラウザー ウィンドウで GridWeb コントロールのサイズを変更することもできます。たとえば、右下のハンドルを (マウスで) 使用して、ウィンドウ内の幅/高さをカスタマイズできます。プロジェクトのページソースで機能させるには、jquery Javascript ファイルを含める/指定する必要もあります。
-## **GridWeb の resize メソッドを使用する**
-次のコードは、サイズ変更アクションが 100 ミリ秒ごとに実行されているかどうかを確認します。サイズ変更アクションがなくなると、サイズ変更操作が終了したと見なされます。 GridWeb にインポートされたサンプル テンプレート ファイルを使用します。クライアント側のコードを使用して GridWeb のサイズを変更します。スクリーンショットは、ブラウザー ウィンドウのサイズを変更するときに、GridWeb がそれに応じてサイズを変更することを示しています。
 
-![todo:画像_代替_文章](resize-gridweb-in-the-browser-window_1.png)
+## **可能な使用シナリオ**
+Aspose.Cells.GridWebを常にブラウザウィンドウのサイズに合わせてリサイズする必要がある場合があります。Aspose.Cells.GridWebはそのためにクライアントサイドの*resize()*関数を提供しています。また、ブラウザウィンドウ内でGridWebコントロールをリサイズ可能にすることもできます。例えば、ウィンドウ内で幅や高さをカスタマイズするために、右下のハンドル（マウスを使用）を使用できます。プロジェクトのページソースでそれを機能させるためにjqueryのJavascriptファイルを含める/指定する必要もあります。
+## **GridWebのresizeメソッドの使用**
+次のコードは、100ミリ秒ごとにリサイズアクションが行われているかどうかをチェックします。リサイズアクションがなくなったら、リサイズ操作が終了したと判断します。GridWebにインポートされたサンプルテンプレートファイルを使用します。GridWebをリサイズするためにクライアントサイドコードを使用します。スクリーンショットには、ブラウザウィンドウのサイズを変更するとGridWebがそれに応じて自動的にリサイズする様子が示されています。
+
+![todo:image_alt_text](resize-gridweb-in-the-browser-window_1.png)
 ### **サンプルコード**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-WorkingWithGridWebClientSideScript-ResizeGridWebUsingResizeMethod" >}}
 
 
-## **サイズ変更可能なjquery ui機能を使用してGridWebをサイズ変更可能にする**
-次のコードは、ブラウザー ウィンドウで GridWeb コントロールのサイズを変更できるようにします。たとえば、右下のハンドルを使用して、ウィンドウ内の GridWeb のサイズをカスタマイズできます。最初に GridWeb にインポートされたものと同じテンプレート ファイルを使用します。 jquery スクリプトを使用して、GridWeb をサイズ変更可能にします。スクリーンショットは、ブラウザー ウィンドウの右下のハンドルを使用して GridWeb のサイズが変更されたことを示しています。
+## **jQuery UIのresizable機能を使用してGridWebをリサイズ可能にする**
+次のコードを使用すると、GridWebコントロールをブラウザウィンドウ内でリサイズできます。たとえば、GridWebのサイズをブラウザウィンドウ内でカスタマイズするために、右下のハンドルを使用できます。最初にGridWebにインポートされる同じテンプレートファイルを使用します。GridWebをリサイズ可能にするために、jqueryスクリプトを使用します。スクリーンショットは、ブラウザウィンドウ内でGridWebが右下のハンドルを使用してリサイズされたことを示しています。
 
-![todo:画像_代替_文章](resize-gridweb-in-the-browser-window_2.png)
+![todo:image_alt_text](resize-gridweb-in-the-browser-window_2.png)
 ### **サンプルコード**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-WorkingWithGridWebClientSideScript-MakingGridWebResizableUsingResizablejQueryUiFeature" >}}

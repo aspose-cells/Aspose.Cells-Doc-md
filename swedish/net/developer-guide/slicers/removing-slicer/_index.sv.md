@@ -1,16 +1,17 @@
-﻿---
-title: Ta bort Slicer
+---
+title: Ta bort slicer
 type: docs
 weight: 30
 url: /sv/net/removing-slicer/
 ---
-## **Möjliga användningsscenarier**
 
- Om du vill ta bort slicer i Microsoft Excel, välj bara den och tryck på*Radera* knapp. På samma sätt, om du vill ta bort det med Aspose.Cells API programmatiskt, använd[**Worksheet.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove)metod. Det kommer att ta bort skivaren från kalkylbladet.
+## **Möjliga användningsscenario**
 
-## **Ta bort Slicer**
+Om du vill ta bort snitt i Microsoft Excel, välj det bara och tryck på *Ta bort* knappen. På liknande sätt, om du vill ta bort det med Aspose.Cells API programmatiskt, använd [**Worksheet.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove) metoden. Det kommer att ta bort snittet från kalkylarket.
 
-Följande exempelkod laddar[exempel på Excel-fil](67338478.xlsx)som innehåller en befintlig skivare. Den kommer åt skivorna och tar sedan bort den. Slutligen sparar den arbetsboken som[utdata Excel-fil](67338477.xlsx). Följande skärmdump visar utsnittet som kommer att tas bort efter exekveringen av exempelkoden.
+## **Ta bort slicer**
+
+Följande exempelkod laddar den [provmappen](67338478.xlsx) som innehåller en befintlig snitt. Den kommer åt snittet och tar bort det. Slutligen sparar den arbetsboken som [utmatningsmapp](67338477.xlsx). Följande skärmbild visar snittet som kommer att tas bort efter körningen av exempelkoden.
 
 ![todo:image_alt_text](removing-slicer_1.png)
 

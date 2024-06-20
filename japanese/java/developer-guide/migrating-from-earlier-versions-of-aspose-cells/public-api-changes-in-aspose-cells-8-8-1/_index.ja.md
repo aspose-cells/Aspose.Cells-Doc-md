@@ -1,52 +1,53 @@
-﻿---
-title: パブリック API Aspose.Cells 8.8.1 の変更点
+---
+title: Aspose.Cells 8.8.1でのパブリックAPIの変更
 type: docs
 weight: 280
 url: /ja/java/public-api-changes-in-aspose-cells-8-8-1/
 ---
-{{% alert color="primary" %}} 
-
-このドキュメントでは、モジュール/アプリケーション開発者にとって興味深い、バージョン 8.8.0 から 8.8.1 への Aspose.Cells API への変更について説明します。新規および更新されたパブリック メソッド、追加および削除されたクラスなどだけでなく、Aspose.Cells の舞台裏での動作の変更の説明も含まれています。
-
-{{% /alert %}} 
-## **追加された API**
-### **ロードするデータをフィルタリングする**
-Aspose.Cells for Java 8.8.1 は、LoadOptions.LoadDataFilterOptions プロパティと共に LoadDataFilterOptions 列挙を公開しました。これを使用して、テンプレート ファイルからワークブックを作成するときにロードするデータ型を指定できます。ロードされたデータをフィルタリングすると、特に LightCells API を使用する場合に、特別な目的でパフォーマンスを向上させることができます。
-
-LoadDataFilterOptions 列挙体は、次の選択肢を提供します。
-
-1. ALL : スプレッドシートからすべてをロードします。
-1. スプレッドシートから何もロードしない場合は NONE。
-1. CELL_BLANK は、値が空白のセルをロードします。
-1. CELL_BOOL は、値がブール値のセルをロードします。
-1. CELL_DATA は、値、数式、フォーマットを含むセル データを読み込みます。
-1. CELL_ERROR は、値がエラーであるセルをロードします。
-1. CELL_NUMERIC は、値が数値 (日付と時刻を含む) であるセルを読み込みます。
-1. CELL_STRING は、値がテキスト/文字列であるセルをロードします。
-1. CELL_VALUE は、セル値 (すべての型) のみをロードします。
-1. CHART はチャートのみをロードします。
-1. CONDITIONAL_FORMATTING は、条件付き書式ルールのみをロードします。
-1. DATA_VALIDATION は、データ検証ルールのみをロードします。
-1. DOCUMENT_PROPERTIES は、ドキュメント プロパティのみを読み込みます。
-1. FORMULA は、定義された名前を含む式をロードします。
-1. MERGED_AREA は、結合されたセルのみをロードします。
-1. PIVOT_TABLE は、ピボット テーブルを読み込みます。
-1. SETTINGS は、ワークブックとワークシートの設定のみを読み込みます。
-1. SHAPE は形状のみをロードします。
-1. STYLE は、セルの書式設定を読み込みます。
-1. TABLE は、Excel テーブル/リスト オブジェクトを読み込みます。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[ロードするデータのフィルタリング](/cells/ja/java/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/).
+このドキュメントは、バージョン8.8.0から8.8.1へのAspose.Cells APIの変更についてで、モジュール/アプリケーション開発者に関心があるかもしれないものです。
+
+{{% /alert %}} 
+## **APIの追加**
+### **ロードするデータをフィルタリング**
+Aspose.Cells for Java 8.8.1 では、LoadDataFilterOptions 列挙型と LoadOptions.LoadDataFilterOptions プロパティが公開され、テンプレートファイルからワークブックを構築する際にロードされるべきデータ型を指定するために使用できます。ロードされるデータをフィルタリングすることで、特に LightCells API を使用する場合など、特殊な目的に対してパフォーマンスを向上させることができます。
+
+LoadDataFilterOptions 列挙型は以下の選択肢を提供します。
+
+1. スプレッドシートからすべてをロードする ALL。
+1. スプレッドシートから何もロードしない NONE。
+1. 値がブランクのセルをロードする CELL_BLANK。
+1. 値がブール型のセルをロードする CELL_BOOL。
+1. 値、数式、書式を含むセルデータをロードする CELL_DATA。
+1. 値がエラーのセルをロードする CELL_ERROR。
+1. 数値（日付と時刻を含む）の値を持つセルをロードする CELL_NUMERIC。
+1. テキスト/文字列の値を持つセルをロードする CELL_STRING。
+1. セルの値だけをロードする CELL_VALUE。
+1. チャートだけをロードする CHART。
+1. 条件付き書式だけをロードする CONDITIONAL_FORMATTING。
+1. データの妥当性を確認する規則だけをロードする DATA_VALIDATION。
+1. ドキュメントのプロパティだけをロードする DOCUMENT_PROPERTIES。
+1. 定義名を含む数式をロードする FORMULA。
+1. 結合されたセルだけをロードする MERGED_AREA。
+1. ピボットテーブルだけをロードする PIVOT_TABLE。
+1. ワークブックとワークシートの設定だけをロードする SETTINGS。
+1. 形状だけをロードする SHAPE。
+1. セルの書式だけをロードする STYLE。
+1. Excel テーブル/List オブジェクトだけをロードする TABLE。
+
+{{% alert color="primary" %}} 
+
+この機能の詳細については、[ロード時のデータのフィルタリング](/cells/ja/java/filtering-the-kind-of-data-while-loading-the-workbook-from-template-file/)の詳細記事をご覧ください。
 
 {{% /alert %}} 
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of LoadOptions & initialize it with type of template to be loaded
 
@@ -61,14 +62,14 @@ options.setLoadDataFilterOptions(LoadDataFilterOptions.SHAPE);
 Workbook book = new Workbook(filePath, options);
 
 {{< /highlight >}}
-### **チャートをPDFに直接変換**
-Aspose.Cells API は、Chart.toPdf メソッドを使用して PDF にグラフをレンダリングする機能を既に提供しています。このリリースでは、API は、OutputStream のインスタンスを受け入れることができる、前述のメソッドの別のオーバーロードされたバージョンを公開し、ユーザーがチャートの PDF を ByteArrayOutputStream のインスタンスに保存できるようにしました。
+### **チャートを直接 PDF に変換**
+Aspose.Cells API では、Chart.toPdf メソッドを使用してチャートを PDF にレンダリングする機能がすでに提供されています。このリリースでは、API が言及されたメソッドのオーバーロードバージョンをさらに公開し、OutputStream のインスタンスを受け入れることができるようになりました。これにより、ユーザーはチャートの PDF を ByteArrayOutputStream のインスタンスに保存することができます。
 
-以下は、簡単な使用シナリオです。
+以下はシンプルな使用シナリオです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook and load an existing spreadsheet with a chart
 
@@ -90,11 +91,11 @@ chart.toPdf(outStream);
 
 {{< /highlight >}}
 ### **WorkbookSettings.PaperSize プロパティを追加**
-Aspose.Cells for Java 8.8.1 は、スプレッドシート全体のデフォルトの印刷用紙サイズを設定するために WorkbookSettings.PaperSize プロパティを公開しました。 WorkbookSettings.PaperSize プロパティは、最も広く使用されている印刷用紙の種類の定義済みサイズを含む PaperSizeType 列挙からの値を受け入れます。
+Aspose.Cells for Java 8.8.1 では、WorkbookSettings.PaperSize プロパティが公開され、スプレッドシート全体に対してデフォルトの印刷用紙サイズを設定するために使用できます。WorkbookSettings.PaperSize プロパティは、最も一般的に使用される印刷用紙タイプの事前定義サイズを含む PaperSizeType 列挙型から値を受け入れます。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Create an instance of Workbook
 
@@ -112,39 +113,39 @@ settings.setPaperSize(PaperSizeType.PAPER_A_4);
 
 {{< /highlight >}}
 ### **Shape.TextBody プロパティを追加**
-Aspose.Cells for Java API のこのリリースでは、シェイプ内のテキストの側面を操作するために、Shape.TextBody が公開されています。次のスニペットは、前述のプロパティを使用して、TextBox 内のテキストの影の効果を設定します。
+Aspose.Cells for Java APIのこのリリースでは、Shape.TextBodyを公開して、図形内のテキストの側面を操作することができるようになりました。次のスニペットでは、このプロパティを使用して、テキストボックス内のテキストの影響を設定しています。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[テキストの影効果を設定する](/cells/ja/java/setting-shadow-of-text-effects-of-shape-or-textbox/).
+この機能の詳細については、[テキストの影響を設定](/cells/ja/java/setting-shadow-of-text-effects-of-shape-or-textbox/)の詳細な記事を参照してください。
 
 {{% /alert %}} 
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
-// Workbook のインスタンスを作成します
+ //Create an instance of Workbook
 
-ワークブック book = new Workbook();
+Workbook book = new Workbook();
 
-//ワークブックの最初のワークシートにアクセス
+//Access first worksheet of the Workbook
 
-ワークシート シート = book.getWorksheets().get(0);
+Worksheet sheet = book.getWorksheets().get(0);
 
-//ShapeCollection に TextBox を追加します
+//Add a TextBox to the ShapeCollection
 
 int index = sheet.getTextBoxes().add(2, 2, 100, 400);
 
 TextBox textBox = sheet.getTextBoxes().get(index);
 
-// TextBox のテキストを設定します
+//Set the text of the TextBox
 
-textBox.setText("このテキストには次の設定があります。\n\nテキスト効果 > 影 > オフセット下");
+textBox.setText("This text has the following settings.\n\nText Effects > Shadow > Offset Bottom");
 
-//テキストの影効果を設定
+//Set shadow effect for text
 
-for (int i = 0; i< textBox.getTextBody().getCount(); i++)
+for (int i = 0; i < textBox.getTextBody().getCount(); i++)
 
 {
 
@@ -153,20 +154,20 @@ for (int i = 0; i< textBox.getTextBody().getCount(); i++)
 }
 
 {{< /highlight >}}
-### **Worksheet.calculateFormula(string formula, CalculationOptions opts) メソッドを追加**
-Aspose.Cells for Java 8.8.1 では、Worksheet.calculateFormula メソッドの別のオーバーロードが公開されました。このメソッドは、カスタム オプションを使用して特定の数式を直接計算する機能を提供します。
+### **Worksheet.calculateFormula(string formula, CalculationOptions opts) メソッドを追加しました**
+Aspose.Cells for Java 8.8.1では、Worksheet.calculateFormulaメソッドの別のオーバーロードが公開され、カスタムオプションを使用して直接指定された式を計算する機能が提供されました。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[カスタム関数の直接計算](/cells/ja/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/).
+この機能の詳細については、[カスタム関数の直接計算](/cells/ja/java/direct-calculation-of-custom-function-without-writing-it-in-a-worksheet/)の詳細な記事を参照してください。
 
 {{% /alert %}} 
-### **GridCell.createValidation メソッドを追加**
-Aspose.Cells.GridWeb は、GridCell.createValidation メソッドを使用して、検証ルールを単一のセルに直接追加する機能を提供しました。上記のメソッドには 2 つのパラメーターが必要です。最初のパラメーターは検証タイプを決定する GridValidationType 型で、2 番目のパラメーター (isRequied) は Boolean 型です。
+### **GridCell.createValidationメソッドを追加しました**
+Aspose.Cells.GridWebでは、GridCell.createValidationメソッドを使用して、個々のセルに検証ルールを直接追加する機能が提供されました。このメソッドは2つのパラメーターが必要です。1つ目は検証の種類を決定するGridValidationType型で、2つ目はBoolean型のisRequiedです。
 
 **Java**
 
-{{< highlight "csharp" >}}
+{{< highlight csharp >}}
 
  //Access first worksheet
 
@@ -193,8 +194,8 @@ val.setShowError(true);
 val.setShowInput(true);
 
 {{< /highlight >}}
-### **GridCell.removeValidation メソッドを追加**
-Aspose.Cells.GridWeb は、GridCell.removeValidation メソッドを使用して、GridCell からデータ検証ルールを削除する機能も提供しています。
-## **廃止された API**
-### **廃止された Shape.TextFrame プロパティ**
-代わりに Shape.TextBody.TextAlignment プロパティを使用することをお勧めします。
+### **GridCell.removeValidationメソッドを追加しました**
+Aspose.Cells.GridWebでは、GridCell.removeValidationメソッドを使用して、GridCellからデータ検証ルールを削除する機能が提供されました。
+## **非推奨API**
+### **廃止されたShape.TextFrameプロパティ**
+Shape.TextBody.TextAlignmentプロパティを使用することをお勧めします。

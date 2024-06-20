@@ -1,109 +1,110 @@
-﻿---
-title: Sitefinity Kullanıcıları Excel'e Aktarma
+---
+title: Sitefinity Kullanıcılarını Excel e Dışa Aktar
 type: docs
 weight: 20
 url: /tr/net/sitefinity-export-users-to-excel/
 ---
-**İçindekiler Özeti**
+
+**İçerik Özeti**
 
 - [Giriş](#SitefinityExportUserstoExcel-Introduction)
 - [Sistem Gereksinimleri ve Desteklenen Platformlar](#SitefinityExportUserstoExcel-SystemRequirementsandSupportedPlatforms) 
-  - [sistem gereksinimleri](#SitefinityExportUserstoExcel-SystemRequirements)
+  - [Sistem Gereksinimleri](#SitefinityExportUserstoExcel-SystemRequirements)
   - [Desteklenen Platformlar](#SitefinityExportUserstoExcel-SupportedPlatforms)
-- [Kaynak kodu](#SitefinityExportUserstoExcel-SourceCode) 
-  - [Kaynak kodu nasıl yapılandırılır](#SitefinityExportUserstoExcel-Howtoconfigurethesourcecode)
+- [Kaynak Kodu](#SitefinityExportUserstoExcel-SourceCode) 
+  - [Kaynak kodunu yapılandırmak için](#SitefinityExportUserstoExcel-Howtoconfigurethesourcecode)
 - [Kurulum ve Kullanım](#SitefinityExportUserstoExcel-InstallationandUsage) 
-  - [indiriliyor](#SitefinityExportUserstoExcel-Downloading)
-  - [yükleme](#SitefinityExportUserstoExcel-Installing)
-- [Kullanım ve Video Demosu](#SitefinityExportUserstoExcel-UsingandVideoDemo) 
-  - [kullanma](#SitefinityExportUserstoExcel-Using)
-  - [Video Demosu](#SitefinityExportUserstoExcel-VideoDemo)
-- [Destek olmak](#SitefinityExportUserstoExcel-Support)
-- [Genişletin ve Katkıda Bulunun](#SitefinityExportUserstoExcel-ExtendandContribute)
+  - [İndirme](#SitefinityExportUserstoExcel-Downloading)
+  - [Yüklemek](#SitefinityExportUserstoExcel-Installing)
+- [Kullanımı ve Video Demosu](#SitefinityExportUserstoExcel-UsingandVideoDemo) 
+  - [Kullanarak](#SitefinityExportUserstoExcel-Using)
+  - [Video Demo](#SitefinityExportUserstoExcel-VideoDemo)
+- [Destek](#SitefinityExportUserstoExcel-Support)
+- [Genişletme ve Katkı Sağlama](#SitefinityExportUserstoExcel-ExtendandContribute)
 ## **Giriş**
-Aspose .NET SiteFinity Modülü için Kullanıcıları Excel'e Aktar, geliştiricilerin SiteFinity Kullanıcılarını Microsoft Excel'e veya OpenOffice Elektronik Tablosuna aktarmalarına olanak tanır. Bu modül, Aspose.Cells tarafından sağlanan güçlü elektronik tablo oluşturma özelliğini göstermektedir.
+Aspose .NET İhracat Kullanıcıları Excel'e SiteFinity Modülü, geliştiricilere SiteFinity Kullanıcılarını Microsoft Excel veya OpenOffice Tablo Çalışma Kitabına ihracat etme olanağı sağlar. Bu modül, Aspose.Cells tarafından sağlanan güçlü tablo oluşturma özelliğini sergilemektedir.
 
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
-### **sistem gereksinimleri**
-Aspose.Cells .NET numaralı Sitefinity eklentilerini kurmak için aşağıdaki gereksinimleri karşılamanız gerekir:
+### **Sistem Gereksinimleri**
+Aspose.Cells .NET için Sitefinity eklentilerini kurmak için aşağıdaki gereksinimleri karşılamalısınız:
 
 - ASP.NET 4.0 üzerinde çalışan Sitefinity CMS
 
-Bu Sitefinity Eklentisini kurarken herhangi bir sorun yaşarsanız lütfen bizimle iletişime geçmekten çekinmeyin.
+Bu Sitefinity Eklentisini kurarken herhangi bir sorunla karşılaşırsanız lütfen bizimle iletişime geçin.
 ### **Desteklenen Platformlar**
-Eklenti, tüm sürümlerinde desteklenir.
+Eklenti tüm sürümlerde desteklenmektedir
 
 - ASP.NET 4.0 üzerinde çalışan Sitefinity CMS
-## **Kaynak kodu**
-En son kaynak kodunu aşağıdaki konumlardan birinden alabilirsiniz.
+## **Kaynak Kodu**
+En son kaynak kodunu aşağıdaki konumlardan birinden edinebilirsiniz
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity)
-### **Kaynak kodu nasıl yapılandırılır**
-Kaynak kodunu açıp genişletmek için aşağıdakilerin kurulu olması gerekir.
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/SiteFinity)
+### **Kaynak kodunu yapılandırmak için**
+Aşağıdakileri açıp kaynak kodunu genişletmek için aşağıdakilere sahip olmanız gerekir
 
-- Visual Studio 2010 veya üzeri
+- Visual Studio 2010 veya daha yükseği
 
 Başlamak için lütfen bu basit adımları izleyin
 
-1. Kaynak kodunu indirin/Klonlayın.
-1.  Visual Studio 2010'u açın ve Seçin**Dosya** > **Açık Proje**
-1.  İndirdiğiniz en son kaynak koduna göz atın ve**.sln** dosya.
+1. Kaynak kodunu indirin/kopyalayın.
+1. Visual Studio 2010'u açın ve **Dosya** > **Proje Aç**'ı seçin
+1. İndirdiğiniz en son kaynak koduna göz atın ve **.sln** dosyasını açın.
 ## **Kurulum ve Kullanım**
-### **indiriliyor**
-Aspose .NET Content Exporter for Sitefinity modülünü aşağıdaki konumlardan birinden indirebilirsiniz.
+### **İndirme**
+Aspose .NET Content Exporter for Sitefinity modülünü aşağıdaki konumlardan birinden indirebilirsiniz
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
-### **yükleme**
-İndirdikten sonra, Eklentiyi Sitefinity web sitenize yüklemek için lütfen şu adımları izleyin:
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases)
+### **Yüklemek**
+İndirdikten sonra, lütfen Add-on'u Sitefinity web sitenize kurmak için aşağıdaki adımları izleyin:
 
-**1. Adım: Dosyaları Sitefinity kurulumunuza kopyalayın**
+**Adım 1: Dosyaları Sitefinity kurulumunuza kopyalayın**
 
-Lütfen indirilen ZIP dosyasını çıkartın. Aşağıdakileri gerçekleştirmek için FTP'ye veya sunucudaki Sitefinity kurulum klasörüne doğrudan erişime ihtiyacınız olacak:
+Lütfen indirilen ZIP dosyasını çıkarın. Aşağıdakileri gerçekleştirmek için sunucudaki Sitefinity kurulum klasörüne FTP veya doğrudan erişiminiz olmalı:
 
-1.  Aspose.Cells.dll ve Aspose.SiteFinity.ExportUsersToExcel.dll'yi kopyalayın.**çöp Kutusu** Sitefinity kurulumunun klasörü.
-1.  Kopyala**Eklentiler** Sitefinity kurulumunun kök dizinindeki klasör**çöp Kutusu** klasör bulunur.
+1. Aspose.Cells.dll ve Aspose.SiteFinity.ExportUsersToExcel.dll dosyalarını Sitefinity kurulumunun **bin** klasörüne kopyalayın.
+1. **Addons** klasörünü, **bin** klasörünün bulunduğu Sitefinity kurulumunun ana dizinine kopyalayın.
 
-**2. Adım: Aspose Sitefinity İçerik Dışa Aktarma eklentisini Sitefinity'ye kaydedin**
+**Adım 2: Aspose Sitefinity Content Export eklentisini Sitefinity'de kaydedin**
 
-1. ' ile Sitefinity CMS'nize giriş yapın**yönetici** ' hesap. Giriş sayfasına şu adresten ulaşılabilir:<http://www.mywebsite.com/sitefinity>
-1.  Tıklamak**Yönetim** ve sonra**Ayarlar**.
-Temel Ayarlar sayfası görünür.
-1.  Tıkla**Gelişmiş** bağlantı.
- Ayarlar sayfası görünür.
-1.  Sol bölmede,**Araç kutuları** bunu takiben**Araç kutuları** , o zamanlar**Sayfa Denetimleri**, **Bölümler** ve**İçerikAraç KutusuBölümü** , o zamanlar**Araçlar.**
-1.  Tıklamak**Yeni oluşturmak**.
- Widget kayıt formu görünür.
-1.  Form alanlarını aşağıdaki gibi doldurun:
- 1. Emin olun**Etkinleştirilmiş** seçildi.
- 1. ~/Addons/Aspose.SiteFinity.ExportUsersToExcel/AsposeExportUsersToExcel.ascx dosyasını ekleyin
+1. Log into your Sitefinity CMS with an ‘**Administrator**’ account. The login page can be reached by <http://www.mywebsite.com/sitefinity>
+1. **Yönetim**'e tıklayın ve ardından **Ayarlar**'a tıklayın.
+   Temel Ayarlar sayfası görüntülenir.
+1. **Gelişmiş** bağlantısına tıklayın.
+   Ayarlar sayfası görüntülenir.
+1. Sol tarafta **Araç Kutuları**'na ve ardından **Araç Kutuları'na**, **Sayfa Kontrolleri'ne**, **Bölümlere** ve **İçerik Araç Kutusu Bölümü'ne** ve ardından **Araçlar**'a tıklayın.
+1. **Yeni oluştur**'a tıklayın.
+   Widget kayıt formu görüntülenir.
+1. Aşağıdaki şekilde form alanlarını doldurun: 
+   1. **Etkin**'in seçili olduğundan emin olun.
+   1. ~/Addons/Aspose.SiteFinity.ExportUsersToExcel/AsposeExportUsersToExcel.ascx ekleyin
 
- 1. ` ` içinde**Kontrol CLR Tipi veya Sanal Yol** tarla.
- 1. Ekle**İsim**, **Başlık** ve**Açıklama** aşağıdaki gibi:
- Aspose.SiteFinity.ExportUsersToExcel
- Aspose SiteFinity Kullanıcılarını Excel'e Aktar
- SiteFinity Kullanıcılarını Excel'e Aktarın
- 1. Diğer tüm alanları olduğu gibi bırakabilirsiniz.
-1.  Bittiğinde, tıklayın**Değişiklikleri Kaydet**.
- Widget, araç kutusuna kaydedilir ve Sitefinity'de kullanılabilir.
-## **Kullanım ve Video Demosu**
-### **kullanma**
-Aspose Sitefinity Export Users to Excel eklentisini kurup yapılandırdıktan sonra, web sitenizde kullanmaya başlamak gerçekten çok basit. Başlamak için lütfen şu basit adımları izleyin:
+   1. **Kontrol CLR Türü veya Sanal Yol** alanına ekleyin.
+   1. Aşağıdaki gibi **Ad**, **Başlık** ve **Açıklama** ekleyin:
+      Aspose.SiteFinity.ExportUsersToExcel
+      Aspose Export SiteFinity Users to Excel
+      SiteFinity Kullanıcılarını Excel'e Aktar
+   1. Diğer tüm alanları olduğu gibi bırakabilirsiniz.
+1. Tamamlandığınızda **Değişiklikleri Kaydet**'e tıklayın.
+   Widget araç kutusuna kaydedilir ve Sitefinity'de kullanılabilir.
+## **Kullanımı ve Video Demosu**
+### **Kullanarak**
+Aspose Sitefinity Export Users to Excel eklentisini kurduktan ve yapılandırdıktan sonra web sitenizde kullanmaya başlamak gerçekten basittir. Başlamak için lütfen aşağıdaki basit adımları izleyin:
 
-1. Yönetici düzeyinde bir hesapla Sitefinity'de oturum açtığınızdan emin olun.
-1. Dışa Aktarma eklentisini eklemek istediğiniz sayfaya gidin. Sayfanın düzenleme modunda açıldığından emin olun.
-1.  itibaren**Widget'ları Sürükle** sağdaki menüden Aspose Kullanıcıları Excel'e Aktar'ı seçin ve konumuna sürükleyin.
+1. Sitefinity'e Yönetici düzeyinde bir hesapla giriş yaptığınızdan emin olun.
+1. Export eklentisini eklemek istediğiniz sayfaya gidin. Sayfanın düzenleme modunda olduğundan emin olun.
+1. Sağdaki **Araçları Sürükle** menüsünden Aspose Excel Kullanıcılarını dışa aktar'ı seçin ve konumuna sürükleyin.
 
 
-Aspose Sitefinity Export Kullanıcılarını Excel'e başarıyla eklediniz.
-### **Video Demosu**
- lütfen kontrol edin[video](https://www.youtube.com/watch?v=O1524u-Pom4) modülü çalışırken görmek için aşağıdaki
-## **Destek olmak**
-Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
+Aspose Sitefinity Kullanıcılarını Excel'e Başarıyla Eklediniz.
+### **Video Demo**
+Modülü eylem halinde görmek için lütfen [videoyu](https://www.youtube.com/watch?v=O1524u-Pom4) kontrol edin.
+## **Destek**
+Aspose'un ilk günlerinden itibaren, müşterilerimize sadece iyi ürünler sunmanın yeterli olmayacağını biliyorduk. Ayrıca iyi bir hizmet sunmamız gerekiyordu. Kendi geliştiricileri olduğumuz için, teknik bir sorun veya yazılımdaki bir tuhaflık sizi yapmanız gereken şeyden alıkoyduğunda ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
-Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
+Bu nedenle ücretsiz destek sunuyoruz. Ürünlerimizi kullanan herkes, bunları satın almış olsun veya değerlendirme yapılıyor olsun, tam dikket ve saygıyı hak ediyor.
 
-Sitefinity Modülleri için Aspose.Cells .NET ile ilgili her türlü sorun ve önerilerinizi aşağıdaki platformlardan herhangi birini kullanarak günlüğe kaydedebilirsiniz.
+Aspose.Cells .NET için Sitefinity Modülleri ile ilgili herhangi bir sorunu veya öneriyi aşağıdaki platformlardan herhangi birini kullanarak kaydedebilirsiniz
 
-- [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
-## **Genişletin ve Katkıda Bulunun**
-Aspose Sitefinity Widget'ları / Modülleri açık kaynaktır ve kaynak kodları aşağıda listelenen başlıca sosyal kodlama web sitelerinde mevcuttur. Geliştiricilerin kaynak kodunu indirmeleri ve işlevselliği kendi gereksinimlerine göre genişletmeleri önerilir.
+- [Github ](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
+## **Genişletme ve Katkı Sağlama**
+Aspose Sitefinity Widget'ları / Modülleri açık kaynaklıdır ve kaynak kodları aşağıda listelenen büyük sosyal kodlama sitelerinde bulunmaktadır. Geliştiricilerin kaynak kodunu indirmeleri ve gereksinimlerine göre işlevselliği genişletmeleri teşvik edilir.

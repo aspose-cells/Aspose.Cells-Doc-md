@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hantera formalternativ
 type: docs
 weight: 200

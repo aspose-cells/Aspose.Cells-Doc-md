@@ -1,27 +1,28 @@
 ---
-title: Déterminez si les points de données se trouvent dans le deuxième secteur ou la deuxième barre d'un secteur ou d'une barre de diagramme circulaire
-description: Découvrez comment utiliser Aspose.Cells for .NET pour déterminer si les points de données se trouvent dans le deuxième secteur ou la deuxième barre d'un secteur ou d'une barre d'un diagramme circulaire. Notre guide vous montrera comment identifier et accéder au secteur ou à la barre secondaire sur un graphique composite, vous permettant d'analyser et de manipuler efficacement les données.
-keywords: Aspose.Cells for .NET, Pie of Pie Chart, Bar of Pie Chart, Secondary Pie, Secondary Bar, Data Analysis, Data Manipulation.
+title: Trouver si les points de données sont dans le deuxième secteur ou barre d un diagramme de secteur ou barre de diagramme.
+description: Apprenez comment utiliser Aspose.Cells for .NET pour savoir si les points de données se trouvent dans le deuxième diagramme circulaire ou la deuxième barre sur un diagramme de secteur ou barre de diagramme. Notre guide vous démontrera comment identifier et accéder au diagramme circulaire ou à la barre secondaire sur un graphique composite, vous permettant d analyser et de manipuler efficacement les données.
+keywords: Aspose.Cells for .NET, Diagramme de secteurs secondaires, Barre de diagramme circulaire, Diagramme circulaire secondaire, Barre secondaire, Analyse des données, Manipulation des données.
 type: docs
 weight: 180
 url: /fr/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/
 ---
-##  **Scénarios d'utilisation possibles**
- Vous pouvez savoir si les points de données des séries se trouvent dans le deuxième secteur sur*Tarte à la tarte* graphique ou dans la barre de*Barre de tarte* graphique en utilisant le Aspose.Cells. Veuillez utiliser le[ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)propriété pour la déterminer.
 
- Veuillez télécharger le[exemple de fichier Excel](5115193.xlsx)utilisé dans l’exemple de code suivant et consultez sa sortie de console. Si vous ouvrez le[exemple de fichier Excel](5115193.xlsx) , vous constaterez que tous les points de données inférieurs à 10 sont à l'intérieur de la barre de*Barre de tarte*graphique comme le montre également la sortie de la console.
-##  **Déterminez si les points de données se trouvent dans le deuxième secteur ou la deuxième barre d'un secteur ou d'une barre de diagramme circulaire**
- L'exemple de code suivant montre comment déterminer si les points de données se trouvent dans le deuxième secteur ou barre d'un*Tarte à la tarte* ou*Barre de tarte*graphique.
+## **Scénarios d'utilisation possibles**
+Vous pouvez savoir si les points de données d'une série se trouvent dans le deuxième diagramme circulaire sur un *Diagramme de secteurs secondaires* ou dans la barre du *Barre de diagramme circulaire* en utilisant Aspose.Cells. Veuillez utiliser la propriété [ChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) pour le déterminer.
+
+Veuillez télécharger le [fichier Excel d'exemple](5115193.xlsx) utilisé dans le code d'exemple suivant et consultez sa sortie console. Si vous ouvrez le [fichier Excel d'exemple](5115193.xlsx), vous constaterez que tous les points de données inférieurs à 10 se trouvent à l'intérieur de la barre du *Barre de diagramme circulaire* comme le montre également la sortie console.
+## **Savoir si les points de données sont dans le deuxième diagramme circulaire ou dans une barre sur un diagramme de deux ou trois cercles ou sur un diagramme à barres de deux ou trois cercles**
+Le code d'exemple suivant montre comment savoir si les points de données se trouvent dans le deuxième diagramme circulaire ou la barre sur un *Diagramme de secteurs secondaires* ou *Barre de diagramme circulaire*.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindDataPointsInPieBar-FindDataPointsInPieBar.cs" >}}
-##  **Sortie console**
- Veuillez consulter la sortie de console suivante générée après l'exécution de l'exemple de code ci-dessus avec le[exemple de fichier Excel](5115193.xlsx) . Si[IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot)est *faux**, le point de données est à l'intérieur du secteur ou s'il est *vrai**, alors le point de données est à l'intérieur de la barre.
+## **Sortie console**
+Veuillez consulter la sortie de la console suivante générée après l'exécution du code d'exemple ci-dessus avec le [fichier Excel d'exemple](5115193.xlsx). Si [IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) est **false**, le point de données est à l'intérieur du secteur ou s'il est **true**, alors le point de données est à l'intérieur de la barre.
 
 
 
-{{< highlight "java" >}}
+{{< highlight java >}}
 
  Value: 15
 

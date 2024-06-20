@@ -1,21 +1,22 @@
 ---
-title: Spara Excel i PDF med standard- eller minimistorlek
+title: Spara Excel som PDF med standard eller minsta storlek
 type: docs
 weight: 340
 url: /sv/python-net/save-excel-into-pdf-with-standard-or-minimum-size/
-description: Lär dig hur du sparar Excel i PDF med standard- eller minimistorlek med Aspose.Cells for Python via .NET API.
-keywords: Save Excel into PDF with Standard or Minimum Size using Aspose.Cells for Python via .NET
+description: Lär dig hur du sparar Excel till PDF med standard eller minimal storlek med Aspose.Cells för Python via .NET API.
+keywords: Spara Excel till PDF med standard eller minimalstorlek med Aspose.Cells för Python via .NET
 ---
+
 {{% alert color="primary" %}} 
 
-Som standard sparar Aspose.Cells Excel i PDF med standardstorlek. Men du kan också spara den med Minsta storlek med hjälp av[PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/) fast egendom. Den accepterar följande värden
+Som standard sparar Aspose.Cells Excel till PDF med standards storlek. Du kan dock också spara det med Minimal storlek genom att använda egenskapen [PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/). Den accepterar följande värden
 
 - PdfOptimizationType.STANDARD
 - PdfOptimizationType.MINIMUM_SIZE
 
 {{% /alert %}} 
-##  **Spara Excel i PDF med standard- eller minimistorlek med Aspose.Cells for Python via .NET**
- Följande exempelkod visar hur du kan spara Excel i PDF med standard- eller minimistorlek med hjälp av[PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/)fast egendom.
+## **Spara Excel till PDF med standard- eller minimalstorlek med Aspose.Cells för Python via .NET**
+Följande exempelkod visar hur du kan spara Excel till PDF med standard- eller minimalstorlek med [PdfSaveOptions.optimization_type](https://reference.aspose.com/cells/python-net/aspose.cells/pdfsaveoptions/optimization_type/) egenskapen.
 
 
 

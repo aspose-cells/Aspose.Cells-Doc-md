@@ -1,17 +1,18 @@
 ---
-title: Birincil ve İkinci Eksen
-description: Aspose.Cells for .NET numaralı telefondan birincil ve ikincil eksenleri nasıl anlayacağınızı ve bunlarla nasıl çalışacağınızı öğrenin. Kılavuzumuz, birincil ve ikincil eksenler arasındaki farkları anlamanıza ve bunları grafiklerinizde nasıl etkili bir şekilde yapılandırıp kullanacağınızı anlamanıza yardımcı olacaktır.
-keywords: Aspose.Cells for .NET, primary axes, secondary axes, understanding, differences, configuration, usage.
+title: Birinci ve İkinci Eksen
+description: Aspose.Cells for .NET de birincil ve ikincil eksenleri anlamayı ve çalışmayı öğrenin. Rehberimiz, birincil ve ikincil eksenler arasındaki farkları anlamanıza ve grafiklerinizde etkili bir şekilde yapılandırmanıza ve kullanmanıza yardımcı olacaktır.
+keywords: Aspose.Cells for .NET, birincil eksenler, ikincil eksenler, anlama, farklar, yapılandırma, kullanım.
 type: docs
 weight: 190
 url: /tr/net/primary-and-second-axis/
 ---
-##  **Olası Kullanım Senaryoları**
-Grafikteki sayılar veri serisinden veri serisine büyük ölçüde farklılık gösteriyorsa veya karışık türde verileriniz (fiyat ve hacim) varsa, bir veya daha fazla veri serisini ikincil bir dikey (değer) eksen üzerine çizin. İkincil dikey eksenin ölçeği, ilgili veri serisine ilişkin değerleri gösterir. İkincil eksen, sütun ve çizgi grafiklerinin birleşimini gösteren bir grafikte iyi çalışır.
-##  **Birincil ve İkinci Ekseni Microsoft Excel gibi kullanın**
- Lütfen yeni bir Excel dosyası oluşturan ve grafiğin değerlerini ilk çalışma sayfasına koyan aşağıdaki örnek koda bakın.
-Daha sonra bir grafik ekliyoruz ve ikinci ekseni gösteriyoruz.
 
-![yapılacak şey:image_alt_text](excel.png)
-##  **Basit kod**
+## **Olası Kullanım Senaryoları**
+Bir grafikte veri serilerinden veri serilerine geniş bir değişkenlik olduğunda veya karışık tiplerde veri (fiyat ve hacim) olduğunda, bir veya daha fazla veri serisini ikincil dikey (değer) ekseninde grafiğe plotlayın. İkincil dikey eksenin ölçeği, ilişkili veri serileri için değerleri gösterir. İkincil bir eksen, sütun ve çizgi grafiklerinin bir kombinasyonunu gösteren bir grafikte iyi çalışır.
+## **Birincil ve İkinci Ekseni Microsoft Excel gibi ele alın**
+Yeni bir Excel dosyası oluşturan ve grafik değerlerini ilk çalışma sayfasına koyan aşağıdaki örnek kodu inceleyin. 
+Ardından bir grafik ekleriz ve ikinci ekseni gösteririz.
+
+![todo:image_alt_text](excel.png)
+## **Örnek Kod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "primary-and-second-axis.cs" >}}
